@@ -3,7 +3,11 @@ title: Zucchini Noodles with Avocado & Shrimp
 difficulty: easy
 cookingMethods: [roast, sauté, blend]
 dietary: []
-occasions: []
+occasions: [quick-lunch, light-and-fresh, post-workout, summer]
+seasons: [summer]
+nutritionalDensity: light
+leftovers: poor
+equipment: [blender, spiralizer]
 flavorProfile: [sweet, savory, acidic, herbaceous]
 cuisines: [Italian]
 role: main
@@ -12,6 +16,7 @@ prepTime: 15 min
 cookTime: 10 min
 totalTime: 25 min
 servings: '4'
+pairsWith: []
 ingredients:
   - '5 medium Zucchini, spiralized'
   - '1 lb Shrimp, peeled and deveined'

@@ -3,7 +3,11 @@ title: Pizza
 difficulty: intermediate
 cookingMethods: [bake]
 dietary: [vegetarian]
-occasions: []
+occasions: [weeknight, kids-approved, entertaining, comfort-food]
+seasons: [year-round]
+nutritionalDensity: moderate
+leftovers: good
+equipment: []
 flavorProfile: [acidic]
 cuisines: [Italian]
 role: main
@@ -12,6 +16,7 @@ prepTime: 10 min
 cookTime: 12 min
 totalTime: 22 min
 servings: '4'
+pairsWith: [caesar-salad, garlic-bread]
 ingredients:
   - >-
     2 balls [Fresh Pasta Dough](/silton-mise/recipes/fresh-pasta-dough) (or

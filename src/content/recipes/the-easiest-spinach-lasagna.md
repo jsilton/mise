@@ -4,7 +4,12 @@ origin: Italy
 difficulty: easy
 cookingMethods: [bake, roast, boil]
 dietary: [vegetarian]
-occasions: []
+occasions: [weekend-project, entertaining, comfort-food, potluck]
+seasons: [year-round]
+nutritionalDensity: hearty
+leftovers: excellent
+advancePrep: [make-ahead]
+equipment: []
 flavorProfile: [umami]
 cuisines: [Italian]
 role: main
@@ -13,6 +18,7 @@ prepTime: 15 min
 cookTime: 55 min
 totalTime: 70 min
 servings: '6'
+pairsWith: [garlic-bread, caesar-salad]
 ingredients:
   - 15 oz Ricotta Cheese
   - '8 oz Mozzarella Cheese, grated'

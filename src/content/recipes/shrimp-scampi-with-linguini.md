@@ -3,7 +3,11 @@ title: Shrimp Scampi with Linguini
 difficulty: intermediate
 cookingMethods: [sauté, boil]
 dietary: []
-occasions: []
+occasions: [date-night, weeknight, entertaining, light-and-fresh]
+seasons: [spring, summer, year-round]
+nutritionalDensity: moderate
+leftovers: poor
+equipment: [large-skillet]
 flavorProfile: [acidic, umami, rich, herbaceous]
 cuisines: [Italian]
 role: main
@@ -12,6 +16,7 @@ prepTime: 15 min
 cookTime: 10 min
 totalTime: 25 min
 servings: '4'
+pairsWith: [garlic-bread, caesar-salad]
 ingredients:
   - 1 lb Dried Linguini
   - '1 lb Large Shrimp, peeled and deveined'

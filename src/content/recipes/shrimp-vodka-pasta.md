@@ -3,7 +3,11 @@ title: Shrimp Vodka Pasta
 difficulty: easy
 cookingMethods: [roast, sauté, simmer, boil]
 dietary: []
-occasions: []
+occasions: [weeknight, date-night, comfort-food, entertaining]
+seasons: [year-round]
+nutritionalDensity: hearty
+leftovers: poor
+equipment: []
 flavorProfile: [umami, rich, herbaceous]
 cuisines: [Italian]
 role: main
@@ -12,6 +16,7 @@ prepTime: 20 min
 cookTime: 10 min
 totalTime: 30 min
 servings: '4'
+pairsWith: [garlic-bread, caesar-salad]
 ingredients:
   - 1 lb Rigatoni Pasta
   - '1 lb Shrimp, peeled and deveined'

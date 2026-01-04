@@ -3,7 +3,11 @@ title: Chicken Piccata
 difficulty: easy
 cookingMethods: [roast, sauté, simmer]
 dietary: []
-occasions: []
+occasions: [weeknight, date-night, quick-lunch, light-and-fresh]
+seasons: [spring, summer, year-round]
+nutritionalDensity: moderate
+leftovers: good
+equipment: [large-skillet]
 flavorProfile: [acidic, rich, herbaceous]
 cuisines: [Italian]
 role: main
@@ -12,6 +16,7 @@ prepTime: 10 min
 cookTime: 15 min
 totalTime: 25 min
 servings: '4'
+pairsWith: [pasta, mashed-potatoes, roasted-vegetables]
 ingredients:
   - '2 large Chicken Breasts, halved horizontally (cutlets) and pounded thin'
   - 2 tbsp Extra-Virgin Olive Oil

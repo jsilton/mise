@@ -3,15 +3,21 @@ title: Egg Pasta
 difficulty: intermediate
 cookingMethods: [boil, blend]
 dietary: [vegetarian]
-occasions: []
+occasions: [weekend-project]
+seasons: [year-round]
+nutritionalDensity: moderate
+leftovers: excellent
+advancePrep: [freeze-ahead, make-ahead]
+equipment: [pasta-roller]
 flavorProfile: []
 cuisines: [Italian]
-role: main
+role: base
 vibe: technical
 prepTime: 20 min
 cookTime: 3 min
 totalTime: 90 min
 servings: '4'
+pairsWith: [any-pasta-sauce]
 ingredients:
   - '2 1/4 cups (290g) All-Purpose or "00" Flour'
   - '2 large Whole Eggs'

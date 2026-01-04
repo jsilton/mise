@@ -4,7 +4,11 @@ origin: Italy
 difficulty: easy
 cookingMethods: [roast, boil, blend]
 dietary: [vegetarian]
-occasions: []
+occasions: [weeknight, quick-lunch, light-and-fresh, post-workout]
+seasons: [year-round]
+nutritionalDensity: moderate
+leftovers: excellent
+equipment: []
 flavorProfile: [umami, rich, herbaceous]
 cuisines: [Italian]
 role: main
@@ -13,6 +17,7 @@ prepTime: 15 min
 cookTime: 5 min
 totalTime: 20 min
 servings: '4'
+pairsWith: [garlic-bread, caesar-salad]
 ingredients:
   - '10 oz Frozen Spinach, defrosted'
   - '1 1/2 cups Whole-Milk Ricotta'

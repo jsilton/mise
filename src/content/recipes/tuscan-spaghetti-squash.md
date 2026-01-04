@@ -3,7 +3,11 @@ title: Tuscan Spaghetti Squash
 difficulty: intermediate
 cookingMethods: [bake, roast, fry, sauté, simmer]
 dietary: [vegetarian]
-occasions: []
+occasions: [weeknight, comfort-food, meal-prep]
+seasons: [fall, winter, year-round]
+nutritionalDensity: hearty
+leftovers: good
+equipment: []
 flavorProfile: [savory, umami, rich, herbaceous, smoky]
 cuisines: [Italian]
 role: main
@@ -12,6 +16,7 @@ prepTime: 10 min
 cookTime: 45 min
 totalTime: 55 min
 servings: '4'
+pairsWith: [garlic-bread]
 ingredients:
   - 1 large Spaghetti Squash
   - '4 slices Smoked Bacon, chopped'

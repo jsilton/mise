@@ -3,7 +3,11 @@ title: Harvest Sheet Pan Gnocchi with Kale
 difficulty: easy
 cookingMethods: [bake, roast, boil]
 dietary: []
-occasions: []
+occasions: [weeknight, meal-prep, comfort-food]
+seasons: [fall, winter]
+nutritionalDensity: hearty
+leftovers: excellent
+equipment: [sheet-pan]
 flavorProfile: [savory, umami, rich, smoky]
 cuisines: [Italian]
 role: main
@@ -12,6 +16,7 @@ prepTime: 15 min
 cookTime: 25 min
 totalTime: 40 min
 servings: '4'
+pairsWith: [garlic-bread, caesar-salad]
 ingredients:
   - 12 oz Frozen Cauliflower Gnocchi
   - '12 oz Apple Chicken Sausage, sliced into rounds'

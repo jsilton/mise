@@ -3,7 +3,12 @@ title: Parmigiano Reggiano Cheesecake
 difficulty: intermediate
 cookingMethods: [bake, roast, blend]
 dietary: [vegetarian, nut-free]
-occasions: []
+occasions: [holiday, entertaining, weekend-project, indulgent]
+seasons: [year-round]
+nutritionalDensity: hearty
+leftovers: excellent
+advancePrep: [make-ahead]
+equipment: []
 flavorProfile: [sweet, savory, acidic, umami, rich]
 cuisines: [Italian]
 role: dessert
@@ -12,6 +17,7 @@ prepTime: 45 min
 cookTime: 90 min
 totalTime: 6 hours
 servings: '12'
+pairsWith: []
 ingredients:
   - 3/4 cup Finely Ground Parmigiano Reggiano
   - '18 Graham Crackers, crushed'

@@ -3,7 +3,11 @@ title: Sun-Dried Tomato Chicken Pasta
 difficulty: intermediate
 cookingMethods: [roast, sauté, simmer, boil]
 dietary: []
-occasions: []
+occasions: [weeknight, comfort-food, meal-prep]
+seasons: [year-round]
+nutritionalDensity: hearty
+leftovers: excellent
+equipment: []
 flavorProfile: [savory, rich, herbaceous]
 cuisines: [Italian]
 role: main
@@ -12,6 +16,7 @@ prepTime: 10 min
 cookTime: 20 min
 totalTime: 30 min
 servings: '4'
+pairsWith: [garlic-bread, caesar-salad]
 ingredients:
   - '1 lb Chicken Tenderloins, sliced'
   - 8 oz Penne Pasta
