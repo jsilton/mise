@@ -1,5 +1,6 @@
 ---
-title: Cantonese Shumai (Siu Mai)
+title: Shumai
+origin: China
 role: main
 vibe: technical
 prepTime: 60 min

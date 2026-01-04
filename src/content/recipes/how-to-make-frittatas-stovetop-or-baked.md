@@ -1,5 +1,6 @@
 ---
-title: The Frittata
+title: Frittata
+origin: Italy
 role: main
 vibe: quick
 prepTime: 10 min

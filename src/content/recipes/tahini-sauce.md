@@ -1,5 +1,5 @@
 ---
-title: Ultimate Tahini Sauce
+title: Tahini Sauce
 role: condiment
 vibe: quick
 prepTime: 5 min

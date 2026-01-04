@@ -1,5 +1,6 @@
 ---
-title: Garlic-Sesame Spinach (Sigeumchi Namul)
+title: Sigeumchi Namul
+origin: Korea
 role: side
 vibe: quick
 prepTime: 5 min

@@ -1,5 +1,6 @@
 ---
-title: Bernard's Style Roast Pork (Char Siu)
+title: Char Siu
+origin: China
 role: main
 vibe: technical
 prepTime: 15 min

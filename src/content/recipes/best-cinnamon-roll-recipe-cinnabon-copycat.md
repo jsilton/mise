@@ -1,5 +1,5 @@
 ---
-title: Best Cinnamon Roll Recipe (Cinnabon Copycat)
+title: Cinnamon Rolls
 role: dessert
 vibe: technical
 prepTime: 120 min

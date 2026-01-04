@@ -1,5 +1,6 @@
 ---
-title: Chicken Tinga (Smoky Shredded Chicken)
+title: Chicken Tinga
+origin: Mexico
 role: main
 vibe: quick
 prepTime: 15 min

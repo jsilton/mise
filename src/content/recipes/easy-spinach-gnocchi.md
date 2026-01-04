@@ -1,5 +1,6 @@
 ---
-title: Easy Spinach Gnocchi (Gnudi)
+title: Spinach Gnocchi
+origin: Italy
 role: main
 vibe: quick
 prepTime: 15 min

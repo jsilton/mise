@@ -1,5 +1,5 @@
 ---
-title: Easy Chia Pudding
+title: Chia Pudding
 role: main
 vibe: nutritious
 prepTime: 10 min

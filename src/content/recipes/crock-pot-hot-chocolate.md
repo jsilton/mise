@@ -1,5 +1,5 @@
 ---
-title: Ultimate Crock-Pot Sipping Chocolate
+title: Hot Chocolate
 role: drink
 vibe: holiday
 prepTime: 10 min

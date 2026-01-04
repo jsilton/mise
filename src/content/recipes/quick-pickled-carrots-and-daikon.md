@@ -1,5 +1,6 @@
 ---
-title: Quick Pickled Carrots and Daikon (Do Chua)
+title: Do Chua
+origin: Vietnam
 role: condiment
 vibe: nutritious
 prepTime: 15 min

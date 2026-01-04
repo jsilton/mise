@@ -1,5 +1,6 @@
 ---
-title: The Kitchen Standard Apple Pie
+title: Apple Pie
+origin: USA
 role: dessert
 vibe: technical
 prepTime: 90 min

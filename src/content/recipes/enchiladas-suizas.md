@@ -1,5 +1,6 @@
 ---
-title: Enchiladas Suizas (Green Chile Chicken)
+title: Enchiladas Suizas
+origin: Mexico
 role: main
 vibe: comfort
 prepTime: 20 min

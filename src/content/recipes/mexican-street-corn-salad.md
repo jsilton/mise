@@ -1,5 +1,6 @@
 ---
-title: Mexican Street Corn Salad (Esquites)
+title: Esquites
+origin: Mexico
 role: side
 vibe: quick
 prepTime: 10 min

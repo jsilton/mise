@@ -1,5 +1,6 @@
 ---
-title: Boston Style Peking Ravioli (Bernard's Clone)
+title: Peking Ravioli
+origin: China
 role: main
 vibe: technical
 prepTime: 60 min

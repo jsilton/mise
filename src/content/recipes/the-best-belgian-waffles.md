@@ -1,5 +1,6 @@
 ---
-title: The Best Belgian Waffles
+title: Belgian Waffles
+origin: Belgium
 role: main
 vibe: nutritious
 prepTime: 15 min

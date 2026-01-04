@@ -1,5 +1,6 @@
 ---
-title: Kalbi (Grilled Korean-Style Short Ribs)
+title: Kalbi
+origin: Korea
 role: main
 vibe: technical
 prepTime: 60 min

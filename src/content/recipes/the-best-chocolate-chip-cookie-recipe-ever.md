@@ -1,5 +1,5 @@
 ---
-title: The Best Chocolate Chip Cookies
+title: Chocolate Chip Cookies
 role: dessert
 vibe: quick
 prepTime: 10 min

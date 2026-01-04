@@ -1,5 +1,6 @@
 ---
-title: Char Siu (Chinese BBQ Pork)
+title: Char Siu
+origin: China
 role: main
 vibe: technical
 prepTime: 15 min

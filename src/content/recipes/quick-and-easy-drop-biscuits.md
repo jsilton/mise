@@ -1,5 +1,5 @@
 ---
-title: Quick & Easy Drop Biscuits
+title: Drop Biscuits
 role: main
 vibe: quick
 prepTime: 10 min

@@ -1,5 +1,6 @@
 ---
-title: Arroz Rojo (Mexican Red Rice)
+title: Arroz Rojo
+origin: Mexico
 role: base
 vibe: quick
 prepTime: 5 min

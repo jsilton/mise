@@ -1,5 +1,6 @@
 ---
-title: Thinly Sliced Marinated Ribeye (Bulgogi)
+title: Bulgogi
+origin: Korea
 role: main
 vibe: quick
 prepTime: 10 min

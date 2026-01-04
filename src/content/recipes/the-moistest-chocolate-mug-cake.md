@@ -1,5 +1,5 @@
 ---
-title: The Chocolate Mug Cake
+title: Chocolate Mug Cake
 role: dessert
 vibe: technical
 prepTime: 1 min

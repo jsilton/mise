@@ -1,5 +1,6 @@
 ---
-title: Greek Lemon Chicken Soup (Avgolemono)
+title: Avgolemono
+origin: Greece
 role: main
 vibe: nutritious
 prepTime: 10 min

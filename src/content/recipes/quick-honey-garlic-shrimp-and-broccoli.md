@@ -1,5 +1,5 @@
 ---
-title: Quick Honey Garlic Shrimp & Broccoli
+title: Honey Garlic Shrimp and Broccoli
 role: main
 vibe: quick
 prepTime: 5 min

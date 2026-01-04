@@ -1,5 +1,5 @@
 ---
-title: Easy Overnight Oats
+title: Overnight Oats
 role: main
 vibe: nutritious
 prepTime: 5 min

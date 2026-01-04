@@ -1,5 +1,6 @@
 ---
-title: The Kitchen Standard Chicken Pot Pie
+title: Chicken Pot Pie
+origin: USA
 role: main
 vibe: technical
 prepTime: 45 min

@@ -1,5 +1,6 @@
 ---
-title: Chipotle Pork & Sweet Corn "Tamale" Bowls
+title: Pork and Corn Bowls
+origin: Mexico
 role: main
 vibe: nutritious
 prepTime: 10 min

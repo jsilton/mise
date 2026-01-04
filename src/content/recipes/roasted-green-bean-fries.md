@@ -1,5 +1,5 @@
 ---
-title: Roasted Green Bean "Fries"
+title: Green Bean Fries
 role: side
 vibe: quick
 prepTime: 5 min

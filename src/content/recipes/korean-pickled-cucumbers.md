@@ -1,5 +1,6 @@
 ---
-title: Korean Pickled Cucumbers (Oi Muchim)
+title: Oi Muchim
+origin: Korea
 role: side
 vibe: nutritious
 prepTime: 10 min

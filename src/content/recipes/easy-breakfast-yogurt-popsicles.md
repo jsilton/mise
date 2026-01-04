@@ -1,5 +1,5 @@
 ---
-title: Easy Breakfast Yogurt Popsicles
+title: Yogurt Popsicles
 role: base
 vibe: quick
 prepTime: 10 min

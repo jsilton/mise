@@ -1,5 +1,6 @@
 ---
-title: The Easiest Spinach Lasagna
+title: Spinach Lasagna
+origin: Italy
 role: main
 vibe: technical
 prepTime: 15 min

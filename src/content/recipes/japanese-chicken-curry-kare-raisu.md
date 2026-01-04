@@ -1,5 +1,6 @@
 ---
-title: Japanese Chicken Curry (Kare Raisu)
+title: Kare Raisu
+origin: Japan
 role: main
 vibe: comfort
 prepTime: 30 min

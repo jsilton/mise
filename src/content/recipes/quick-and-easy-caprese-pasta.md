@@ -1,5 +1,5 @@
 ---
-title: Quick & Easy Caprese Pasta
+title: Caprese Pasta
 role: main
 vibe: quick
 prepTime: 10 min

@@ -1,5 +1,6 @@
 ---
-title: Shanghai Fried Noodles (Cu Chao Mian)
+title: Cu Chao Mian
+origin: China
 role: main
 vibe: quick
 prepTime: 10 min

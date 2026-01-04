@@ -1,5 +1,6 @@
 ---
-title: Har Gow (Dim Sum Shrimp Dumplings)
+title: Har Gow (Shrimp Dumplings)
+origin: China
 role: main
 vibe: technical
 prepTime: 60 min

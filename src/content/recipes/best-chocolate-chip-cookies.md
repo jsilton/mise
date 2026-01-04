@@ -1,5 +1,5 @@
 ---
-title: The Best Chocolate Chip Cookies (Science-Backed)
+title: Chocolate Chip Cookies
 role: dessert
 vibe: technical
 prepTime: 20 min

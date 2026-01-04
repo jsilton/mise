@@ -1,5 +1,5 @@
 ---
-title: Egg Roll in a Bowl (Crack Slaw)
+title: Egg Roll in a Bowl
 role: main
 vibe: quick
 prepTime: 10 min

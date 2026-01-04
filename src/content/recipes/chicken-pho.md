@@ -1,5 +1,6 @@
 ---
-title: Chicken Pho (Phở Gà)
+title: Phở Gà
+origin: Vietnam
 role: main
 vibe: comfort
 prepTime: 20 min

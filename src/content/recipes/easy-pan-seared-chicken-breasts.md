@@ -1,5 +1,5 @@
 ---
-title: Easy Pan-Seared Chicken Breasts
+title: Pan-Seared Chicken Breasts
 role: main
 vibe: quick
 prepTime: 5 min

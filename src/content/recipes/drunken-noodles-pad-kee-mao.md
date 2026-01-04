@@ -1,5 +1,6 @@
 ---
-title: Drunken Noodles (Pad Kee Mao)
+title: Pad Kee Mao
+origin: Thailand
 role: main
 vibe: nutritious
 prepTime: 20 min

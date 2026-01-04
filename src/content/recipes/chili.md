@@ -1,5 +1,5 @@
 ---
-title: Turkey and Sweet Potato Chili (Kid-Approved)
+title: Turkey and Sweet Potato Chili
 prepTime: 20 min
 cookTime: 45 min
 totalTime: 65 min

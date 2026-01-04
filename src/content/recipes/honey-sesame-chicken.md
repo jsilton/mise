@@ -1,5 +1,5 @@
 ---
-title: Honey Sesame Chicken (Pan-Seared)
+title: Honey Sesame Chicken
 role: main
 vibe: quick
 prepTime: 10 min

@@ -1,5 +1,5 @@
 ---
-title: Quick Seasoned Black Beans
+title: Seasoned Black Beans
 role: side
 vibe: quick
 prepTime: 2 min

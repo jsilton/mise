@@ -1,5 +1,5 @@
 ---
-title: Quick Pickled Red Onions
+title: Pickled Red Onions
 role: condiment
 vibe: quick
 prepTime: 10 min

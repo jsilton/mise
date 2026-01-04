@@ -1,5 +1,6 @@
 ---
-title: Korean Mung Bean Sprouts Salad (Sukju Namul)
+title: Sukju Namul
+origin: Korea
 role: side
 vibe: nutritious
 prepTime: 5 min

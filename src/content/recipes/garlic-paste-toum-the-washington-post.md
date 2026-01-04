@@ -1,5 +1,6 @@
 ---
-title: Garlic Paste (Toum)
+title: Toum
+origin: Lebanon
 role: condiment
 vibe: nutritious
 prepTime: 20 min

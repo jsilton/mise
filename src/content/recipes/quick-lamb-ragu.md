@@ -1,5 +1,6 @@
 ---
-title: Quick Lamb Ragù
+title: Lamb Ragù
+origin: Italy
 role: main
 vibe: nutritious
 prepTime: 10 min

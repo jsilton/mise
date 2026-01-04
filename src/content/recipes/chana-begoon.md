@@ -1,5 +1,6 @@
 ---
-title: Chana Begoon (Chickpea and Eggplant Curry)
+title: Chana Begoon
+origin: India
 role: main
 vibe: nutritious
 prepTime: 15 min

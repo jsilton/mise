@@ -1,5 +1,6 @@
 ---
-title: Lamb Keema Matar (Spiced Mince with Peas)
+title: Lamb Keema Matar
+origin: India
 role: main
 vibe: quick
 prepTime: 10 min

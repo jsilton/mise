@@ -1,5 +1,6 @@
 ---
-title: Dashi (Japanese Sea Stock)
+title: Dashi
+origin: Japan
 role: base
 vibe: quick
 prepTime: 5 min
