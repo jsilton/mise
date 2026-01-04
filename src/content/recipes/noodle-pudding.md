@@ -1,39 +1,41 @@
 ---
-title: Noodle Pudding
-prepTime: 30 min
-cookTime: 60 min
-ingredients:
-  - 16 oz noodles (Goodmans or Muellers medium-width)
-  - 16 oz sour cream
-  - 16 oz large curd cottage cheese
-  - 12 oz butter
-  - 8 oz cream cheese (block style)
-  - 8 large eggs
-  - 3/4 cup sugar
-  - cinnamon
-  - corn flakes
-  - brown sugar
-  - golden raisins
-totalTime: 90 min
+title: Noodle Pudding (The Kugel Standard)
 role: dessert
 vibe: comfort
-servings: Unknown
+prepTime: 30 min
+cookTime: 60 min
+totalTime: 90 min
+servings: '12'
+ingredients:
+  - '16 oz Egg Noodles (medium-width)'
+  - '--- The Triple Cream Base ---'
+  - '16 oz Sour Cream'
+  - '16 oz Large Curd Cottage Cheese'
+  - '8 oz Cream Cheese, softened'
+  - '12 oz Unsalted Butter (melted and divided)'
+  - '8 large Eggs, beaten'
+  - '3/4 cup Granulated Sugar'
+  - '1 tsp Ground Cinnamon'
+  - '--- The Corn Flake Snap ---'
+  - '2 cups Corn Flakes, crushed'
+  - '1/2 cup Light Brown Sugar'
+  - '1/2 cup Golden Raisins'
 ---
+
+## Chef's Note
+This is the definitive Silton **Modern Heritage** recipe for a Jewish comfort classic. The secret to its elite texture is **The Triple Cream Pattern**: by utilizing sour cream, cottage cheese, and cream cheese together, we create a multi-dimensional "Bounce" that is rich but has structural integrity. We maintain **Texture Integrity** through **The Corn Flake Snap**: we top the pudding with a mixture of crushed corn flakes and brown sugar, which creates a shatteringly crisp crust that contrasts the custardy interior. 
 
 ## Directions
 
-1. Bring large pot of water to boil for noodles.
-2. Let cream cheese sit on counter and warm to room temperature.
-3. Crack eggs and place in separate small bowl and stir lightly.
-4. Cook noodles for 10 minutes.
-5. Heat and melt butter in small pan.
-6. Drain noodles and put in large bowl. Add sour cream, cream cheese, cottage cheese, eggs, sugar, cinnamon and half of melted butter. Mix very well.
-7. Butter bottom and sides of a 9x12 pan with melted butter.
-8. Crush corn flakes and mix with brown sugar in a separate bowl.
-9. Add noodle mixture to greased pan.
-10. Cover with corn flake mixure and top with remaining butter (can be prepared 2-3 days in advance and refrigerated).
-11. Bake at 350 for 1 hour.
+1.  **The Pasta:** Bring a large pot of salted water to a boil. Cook egg noodles for 10 minutes until **al dente**. Drain well.
+2.  **The Emulsion:** In a massive bowl, whisk together the sour cream, softened cream cheese, and cottage cheese. Add the beaten eggs, sugar, cinnamon, and half of the melted butter. Whisk until perfectly smooth.
+3.  **Combine:** Fold the warm noodles and the golden raisins into the cream mixture. Stir until every noodle is saturated.
+4.  **Assemble:** Grease a 9x13-inch baking dish with melted butter. Pour the noodle mixture into the dish.
+5.  **The Snap:** In a small bowl, toss the crushed corn flakes with brown sugar and the remaining melted butter. Spread evenly over the top of the pudding.
+6.  **Bake:** Bake at 350°F for 1 hour until the center is set and the top is a deep, crunchy golden brown.
+7.  **Serve:** Let rest for 15 minutes before slicing. This allows the custard to set into a firm "Bounce."
 
-## Nutrition
-
-- 0 calories per serving
+## Serving Suggestions
+-   [Nana Ruth's Applesauce](/recipes/nana-ruths-applesauce) (Mandatory)
+-   [Brisket with Carrots and Onions](/recipes/brisket-with-carrots-and-onions)
+-   [Gefilte Fish Terrine](/recipes/gefilte-fish-terrine)

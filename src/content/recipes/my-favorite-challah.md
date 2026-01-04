@@ -1,26 +1,40 @@
 ---
 title: My Favorite Challah
-cookTime: 60 min
-servings: Yield 2 challahs
-ingredients:
-  - 1 ½ packages active dry yeast (1 1/2 tablespoons)
-  - 1 tablespoon plus 1/2 cup sugar
-  - '½ cup vegetable oil, more for greasing bowl'
-  - 5 large eggs
-  - 1 tablespoon salt
-  - 8 to 8 ½ cups all-purpose flour
-  - Poppy or sesame seeds for sprinkling
-totalTime: 60 min
 role: main
-vibe: fuel
+vibe: project
+prepTime: 120 min
+cookTime: 40 min
+totalTime: 160 min
+servings: '2 loaves'
+ingredients:
+  - '1 1/2 tbsp Active Dry Yeast'
+  - '8 to 8 1/2 cups All-Purpose Flour'
+  - '5 large Eggs'
+  - '1/2 cup Vegetable Oil'
+  - '1/2 cup + 1 tbsp Granulated Sugar'
+  - '1 tbsp Kosher Salt'
+  - '--- The Finish ---'
+  - '1 egg (for wash)'
+  - 'Poppy or Sesame Seeds'
 ---
+
+## Chef's Note
+The challah is the ultimate test of **Structural Science** in the Silton bakery. The secret to its incredible "Bounce" is **The Slow-Development Pattern**: we use a massive 5-egg base to ensure a rich, brioche-like crumb. We maintain **Texture Integrity** through **The 6-Braid Pattern**: braiding the strands tightly creates internal tension that forces the bread to rise vertically, resulting in a tall, majestic loaf with a "Snappy" golden crust. Always let the dough rise in a warm, draft-free spot (The Thermal Rise) to ensure the yeast fully activates.
 
 ## Directions
 
-1. In a large bowl, dissolve yeast and 1 tablespoon sugar in 1 3/4 cups lukewarm water.
-2. Whisk oil into yeast, then beat in 4 eggs, one at a time, with remaining sugar and salt. Gradually add flour. When dough holds together, it is ready for kneading. (You can also use a mixer with a dough hook for both mixing and kneading.)
-3. Turn dough onto a floured surface and knead until smooth. Clean out bowl and grease it, then return dough to bowl. Cover with plastic wrap, and let rise in a warm place for 1 hour, until almost doubled in size. Dough may also rise in an oven that has been warmed to 150 degrees then turned off. Punch down dough, cover and let rise again in a warm place for another half-hour.
-4. To make a 6-braid challah, either straight or circular, take half the dough and form it into 6 balls. With your hands, roll each ball into a strand about 12 inches long and 1 1/2 inches wide. Place the 6 in a row, parallel to one another. Pinch the tops of the strands together. Move the outside right strand over 2 strands. Then take the second strand from the left and move it to the far right. Take the outside left strand and move it over 2. Move second strand from the right over to the far left. Start over with the outside right strand. Continue this until all strands are braided. For a straight loaf, tuck ends underneath. For a circular loaf, twist into a circle, pinching ends together. Make a second loaf the same way. Place braided loaves on a greased cookie sheet with at least 2 inches in between.
-5. Beat remaining egg and brush it on loaves. Either freeze breads or let rise another hour.
-6. If baking immediately, preheat oven to 375 degrees and brush loaves again. If freezing, remove from freezer 5 hours before baking. Then dip your index finger in the egg wash, then into poppy or sesame seeds and then onto a mound of bread. Continue until bread is decorated with seeds.
-7. Bake in middle of oven for 35 to 40 minutes, or until golden. Cool loaves on a rack.
+1.  **Activate:** In a massive bowl, whisk yeast and 1 tbsp sugar into 1 3/4 cups lukewarm water. Let stand for 10 minutes until foamy.
+2.  **The Emulsion:** Whisk in the oil, 4 eggs, and the remaining sugar and salt.
+3.  **Incorporate:** Gradually add the flour, 1 cup at a time, until a shaggy dough forms.
+4.  **Knead:** Transfer to a floured surface. Knead by hand for 10 minutes until smooth and elastic (or use a stand mixer with a dough hook). 
+5.  **First Rise:** Place in a greased bowl, cover with plastic, and let rise in a warm spot for 1 hour until doubled.
+6.  **Shape:** Punch down the dough. Divide into two halves. Divide each half into 6 balls. Roll each ball into a 12-inch strand.
+7.  **The Braid:** Braid into two 6-strand loaves (see notes for braiding pattern). Place on a greased sheet.
+8.  **Second Rise:** Brush with beaten egg. Let rise for another 45-60 minutes.
+9.  **Bake:** Preheat oven to 375°F. Brush once more with egg and sprinkle with seeds. Bake for 35-40 minutes until deep mahogany brown.
+10. **Cool:** Let cool completely on a rack before slicing.
+
+## Serving Suggestions
+-   [Classic Beef Stew](/recipes/classic-beef-stew)
+-   [Grandmommy's Turkey Dressing](/recipes/grandmommys-turkey-dressing)
+-   French Toast (the next morning)

@@ -1,28 +1,39 @@
 ---
-title: Mini-Shell Pasta with Creamy Smoked Bacon and Peas
-servings: Serves 4 to 6
-ingredients:
-  - Sea salt
-  - 10 slices smoked bacon or pancetta
-  - 1 pound dried mini-shell or other small pasta
-  - 2 tablespoons olive oil
-  - 1 tablespoon butter
-  - Freshly ground black pepper
-  - 2 cups frozen peas
-  - 2 tablespoons crème fraîche or heavy cream
-  - 2 tablespoons finely chopped fresh mint leaves
-  - Juice of 1 lemon
-  - 6 ounces finely grated Parmesan cheese.
+title: Mini-Shell Pasta with Bacon and Peas
 role: main
-vibe: fuel
+vibe: speed
+prepTime: 10 min
+cookTime: 15 min
+totalTime: 25 min
+servings: '4'
+ingredients:
+  - '1 lb Dried Mini-Shell Pasta'
+  - '10 slices Smoked Bacon, slivered'
+  - '2 cups Frozen Peas'
+  - '--- The Creamy Emulsion ---'
+  - '2 tbsp Crème Fraîche or Heavy Cream'
+  - '1 Lemon, juiced (The Acid Finish)'
+  - '6 oz Parmesan, finely grated'
+  - '2 tbsp Fresh Mint, finely chopped'
+  - '1 tbsp Unsalted Butter'
+  - '1/2 cup Reserved Pasta Water'
+  - 'Salt and Black Pepper'
 ---
+
+## Chef's Note
+This is a 25-minute "Speed" hero that relies on **The Emulsion Pattern**. The secret to the Silton Standard is combining the **Smoked Bacon Render** with starchy pasta water and crème fraîche. This creates a thick, velvet-like sauce that finds its way inside every mini-shell. We maintain **Texture Integrity** by adding the peas at the very end—they should stay bright green and "Snappy." The fresh mint and lemon juice provide the mandatory **Acid/Aromatic Finish** to cut through the heavy bacon fat.
 
 ## Directions
 
-1. 1. Bring a large pot of lightly salted to a boil. Meanwhile, cut sliced bacon crosswise into thin slivers, or slice pancetta into julienne. Add pasta to boiling water and cook to taste.
-2. 2. While pasta is cooking, place a large skillet over medium heat, and add 2 tablespoons olive oil and the butter. Add bacon or pancetta and a sprinkling of pepper, and fry until golden and crisp. Immediately add frozen peas and stir for a minute or two. Add crème fraîche or heavy cream and chopped mint.
-3. 3. Reserve 1 cup of the pasta cooking water, and drain the pasta. Add pasta to the skillet and stir. Add lemon juice, and adjust salt and pepper to taste. Bring to a simmer, then remove from heat. The mixture should be thick; if desired, a splash of the pasta water may be added to the sauce to thin it slightly. Add Parmesan and stir to mix. If desired, serve with a green salad.
+1.  **Boil:** Cook pasta in salted water for 1 minute **less** than package directions. **Reserve 1/2 cup of pasta water** before draining.
+2.  **The Snap:** In a large skillet, melt the butter and add the bacon slivers. Fry over medium heat until golden and crispy. 
+3.  **Aromatics:** Add the frozen peas directly to the hot bacon fat. Stir for 2 minutes until just heated through.
+4.  **Bind:** Stir in the crème fraîche and chopped mint. 
+5.  **Emulsify:** Add the hot pasta and the reserved pasta water to the skillet. Pour in the lemon juice.
+6.  **Toss:** Toss vigorously over medium-low heat for 1 minute. Add the Parmesan one handful at a time, stirring until the sauce is glossy and thick.
+7.  **Serve:** Garnish with extra mint and plenty of black pepper.
 
 ## Serving Suggestions
-
-Everyday Arugula Salad, Garlic Bread
+-   [Everyday Arugula Salad](/recipes/everyday-arugula-salad)
+-   [Garlic Bread](/recipes/garlic-bread)
+-   [Classic Martini](/recipes/classic-martini) (The Cold Standard)

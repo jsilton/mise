@@ -1,49 +1,43 @@
 ---
 title: Lemon-Miso Tofu with Broccoli
+role: main
+vibe: fuel
 prepTime: 15 min
 cookTime: 30 min
 totalTime: 45 min
-servings: 4 servings
+servings: '4'
 ingredients:
-  - 3/4 cup just-boiled water
-  - 2 tablespoons white (shiro) miso paste
-  - 1/4 cup lemon juice (from 1 to 2 lemons)
-  - 3 tablespoons maple syrup or honey
-  - 1 tablespoon cornstarch
-  - 1/2 teaspoon salt
-  - 2 teaspoons roasted sesame oil
-  - '2 garlic cloves, finely grated'
-  - '1 (1-inch) piece fresh ginger, peeled and finely grated'
-  - 1/3 cup cornstarch
-  - Salt and pepper
-  - >-
-    1 (14- to 16-ounce) package extra-firm tofu, drained, patted dry and cut
-    into 1-inch cubes
-  - Canola or vegetable oil
-  - '1 pound broccoli (about 2 small heads), cut into small florets'
-  - '2 scallions, trimmed and thinly chopped'
-  - 'Cooked rice, to serve'
-role: side
-vibe: fuel
+  - '14 oz Extra-firm Tofu, pressed dry and cubed'
+  - '1 lb Fresh Broccoli, cut into small florets'
+  - '--- The Lemon-Miso Glaze ---'
+  - '2 tbsp White (Shiro) Miso Paste'
+  - '1/4 cup Fresh Lemon Juice'
+  - '3 tbsp Maple Syrup'
+  - '1 tbsp Cornstarch'
+  - '2 tsp Toasted Sesame Oil'
+  - '2 cloves Garlic, minced'
+  - '1 inch Fresh Ginger, grated'
+  - '3/4 cup Hot Water'
+  - '--- The Snap ---'
+  - '1/3 cup Cornstarch (for dredging)'
+  - '2 Scallions, chopped'
+  - 'Neutral Oil'
 ---
+
+## Chef's Note
+This is a high-speed "Fuel" masterpiece that solves the problem of soggy tofu. We use **Structural Science** through **The Cornstarch Guard Pattern**: by dredging the tofu in starch before searing, we create a barrier that ensures a shatteringly crisp "Snap." We maintain **Texture Integrity** through **The Perimeter Sear**: we char the broccoli in the same pan to pick up the tofu's crispiness. The combination of miso and lemon provides the mandatory **Acid Finish** that bridges the earthy soy and bright citrus.
 
 ## Directions
 
-1. Prepare the lemon-miso sauce: in a medium bowl or jug, add the just-boiled water and the miso paste and stir to dissolve it. Add the lemon juice, maple syrup, cornstarch and salt, and stir to combine. Set aside.
-2. Prepare the tofu: Place the cornstarch on a large plate or tray. Season with salt and pepper and toss to combine. Add the tofu cubes and toss to coat all sides.
-3. Heat a large (12-inch) nonstick or well-seasoned skillet on medium-high for 2 minutes. Drizzle with 3 tablespoons canola oil, swirling it around to coat the base, and add the tofu. Cook until golden and crispy, 2 to 3 minutes per side. If the pan gets dry, add a bit more oil and reduce heat to medium if the pan gets too smoky. Transfer the tofu to a large plate.
-4. If the skillet is dry, drizzle with a bit more oil. With the heat on medium-high, add the broccoli, season with salt and pepper, and cook, tossing often, until tender and charred around the edges, 6 to 7 minutes (reduce heat to medium if it gets too hot and smoky). Transfer the broccoli to the same plate as the tofu.
-5. Finish the lemon-miso sauce: Give the skillet a quick rinse or wipe it out with paper towels to remove any burnt bits and place it back on medium heat for 1 minute. Add the sesame oil, garlic and ginger to the skillet and bloom for 30 seconds, stirring, until fragrant. Give the lemon cornstarch mixture a stir and then pour it into the skillet. Cook, stirring, until thickened and glossy, 3 to 4 minutes. Remove from heat.
-6. Add the tofu and broccoli to the lemon-miso sauce and toss to coat. Scatter with the scallions, and serve immediately with rice.
+1.  **The Sauce:** In a small bowl, whisk miso, lemon juice, maple syrup, 1 tbsp cornstarch, and hot water until smooth.
+2.  **The Snap:** Toss dry tofu cubes in 1/3 cup cornstarch, salt, and pepper until "dusty."
+3.  **Sear Tofu:** Heat 3 tbsp oil in a large skillet over medium-high. Fry tofu for 2-3 minutes per side until golden and very crisp. Remove to a plate.
+4.  **Sear Veg:** In the same pan, sauté broccoli for 6-7 minutes until tender and charred at the edges. Remove and set aside.
+5.  **The Glaze:** Wipe the pan. Add sesame oil, garlic, and ginger; sauté for 30 seconds. Pour in the miso-lemon mixture. Simmer for 3 minutes until thick and glossy.
+6.  **Bind:** Return tofu and broccoli to the pan. Toss vigorously for 30 seconds to coat. 
+7.  **Serve:** Garnish with scallions and serve hot over rice.
 
-## Nutrition
-
-- Trans Fat: 0 gram
-- Fat: 14 gram
-- Calories: 352
-- Saturated Fat: 2 gramsUn
-- saturated Fat: 11 gram
-- Sodium: 1051 milligram
-- Sugar: 15 gram
-- Fiber: 8 gramsCarbohydrate: 46 gram
-- Protein: 18 grams
+## Serving Suggestions
+-   [Basmati Rice](/recipes/basmati-rice)
+-   [Smashed Cucumber Salad](/recipes/smashed-cucumber-salad)
+-   [Korean Mung Bean Sprouts Salad (Sukju Namul)](/recipes/korean-mung-bean-sprouts-salad)

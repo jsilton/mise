@@ -1,39 +1,38 @@
 ---
-title: 'Near East Rice Pilaf (Homemade Hack)'
+title: Near East Rice Pilaf (Homemade Hack)
 role: base
 vibe: speed
 prepTime: 5 min
 cookTime: 20 min
-totalTime: 25 min
+totalTime: 35 min
 servings: '4'
 ingredients:
-  - '1 cup long-grain white rice (or parboiled/converted rice for authentic texture)'
-  - '1/3 cup orzo pasta'
-  - '2 tablespoons butter (or olive oil)'
-  - '2 cups chicken broth (or water + 2 tsp Better Than Bouillon)'
-  - '1/4 teaspoon garlic powder'
-  - '1/4 teaspoon onion powder'
-  - '1/8 teaspoon turmeric (for color)'
-  - '1 teaspoon dried parsley'
-  - 'Salt and black pepper to taste'
+  - '1 cup Long-grain White Rice (or Parboiled)'
+  - '1/3 cup Orzo Pasta (The Texture Snap)'
+  - '2 tbsp Unsalted Butter'
+  - '--- The Golden Broth ---'
+  - '2 cups Chicken Broth'
+  - '1/4 tsp Garlic Powder'
+  - '1/4 tsp Onion Powder'
+  - '1/8 tsp Turmeric (for the "Gold" Standard)'
+  - '1 tsp Dried Parsley'
+  - 'Salt and Black Pepper'
 ---
 
-## Description
-
-This is the homemade version of the classic "box rice" that goes with everything. Toasting the orzo in butter provides that signature nutty flavor, while the turmeric gives it the golden glow.
+## Chef's Note
+This is the ultimate **Modularity** component—the "Silton Side" that goes with everything. The secret to its "Box Quality" flavor without the preservatives is **Structural Science** through **The Orzo Toast Pattern**. You must toast the dry orzo in butter until it reaches a deep "mahogany" brown; this develops a nutty complex that defines the dish. We use **Turmeric** as a structural visual hack to provide the mandatory golden glow. The 10-minute **Steam Cycle** is mandatory for **Texture Integrity**—it ensures every grain is distinct and has a resilient "Bounce."
 
 ## Directions
 
-1.  Melt butter in a medium saucepan over medium heat. Add the orzo and cook, stirring frequently, until it turns a deep golden brown (about 3-4 minutes). Watch closely so it doesn't burn.
-2.  Add the rice and stir to coat in the butter, toasting for another minute.
-3.  Add the garlic powder, onion powder, and turmeric. Stir for 30 seconds until fragrant.
-4.  Pour in the chicken broth. Increase heat to high and bring to a boil.
-5.  Reduce heat to low, cover tightly with a lid, and simmer for 15-18 minutes, or until liquid is absorbed and rice is tender.
-6.  Remove from heat. **Do not open the lid.** Let it steam for 5-10 minutes.
-7.  Remove lid, stir in the dried parsley, fluff with a fork, and serve.
+1.  **The Toast:** In a medium saucepan, melt butter over medium heat. Add the orzo. Stir frequently for 3-4 minutes until the pasta is deep golden brown. Watch closely; it burns quickly.
+2.  **The Grain:** Add the rice. Stir for 1 minute until the grains are coated in butter and look translucent at the edges.
+3.  **Season:** Stir in garlic powder, onion powder, and turmeric. Sauté for 30 seconds until the spices are fragrant.
+4.  **Simmer:** Pour in the chicken broth. Increase heat to high and bring to a boil.
+5.  **The Set:** Reduce heat to low. Cover tightly with a lid. Simmer for 15-18 minutes until the liquid is fully absorbed.
+6.  **The Steam:** Remove from heat. **Do not open the lid.** Let the rice steam for 10 minutes (mandatory for structure).
+7.  **Finish:** Remove lid, stir in dried parsley, and fluff with a fork.
 
-## Pairs With
-
-- Grilled Chicken
-- Turkey Burgers
-- Any "Saucy" Main
+## Serving Suggestions
+-   [Easy Pan-Seared Chicken Breasts](/recipes/easy-pan-seared-chicken-breasts)
+-   [Turkey Burgers](/recipes/turkey-burgers)
+-   [Greek Turkey Meatball Gyro](/recipes/greek-turkey-meatball-gyro-with-tzatziki)

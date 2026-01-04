@@ -1,23 +1,37 @@
 ---
 title: Oatmeal Risotto
-servings: '4'
-ingredients:
-  - 1 cup steel-cut oats
-  - >-
-    3 cups water, pressure-cooker chicken stock, or store-bought low sodium
-    broth
-  - 1/4 cup golden raisins
-  - 2 tablespoons sherry vinegar
-  - '1 tablespoon packed light brown sugar, plus extra for serving (optional)'
-  - Pinch of kosher salt
-  - '1 overripe banana, mashed'
-  - A Parmesan cheese wedge for shaving (optional)
 role: main
 vibe: project
+prepTime: 10 min
+cookTime: 20 min
+totalTime: 600 min
+servings: '4'
+ingredients:
+  - '1 cup Steel-cut Oats'
+  - '3 cups Chicken Broth or Filtered Water'
+  - '--- The Sweet-Savory Bridge ---'
+  - '1 Overripe Banana, mashed'
+  - '1/4 cup Golden Raisins'
+  - '2 tbsp Sherry Vinegar (The High Note)'
+  - '1 tbsp Light Brown Sugar'
+  - '--- The Finish ---'
+  - 'Parmesan Cheese, for shaving'
+  - 'Pinch of Kosher Salt'
 ---
 
-My wife loves oatmeal for breakfast, and one day, when I looked inside a can of the good steel-cut oats she keeps in our pantry, I realized that the oats resemble rice-and my risotto-style oatmeal was born. Oatmeal is a dried food, and, like anything that’s dried, it needs to hydrate thoroughly for optimal flavor, so letting the oatmeal stand overnight is worth it. The mashed super ripe banana blends beautifully with the homey, earthy oats. I like aggressive savings of Parmesan cheese, too.
+## Chef's Note
+This is a masterclass in **Structural Science**. The secret to its elite texture is **The 8-Hour Hydration Pattern**: steel-cut oats are technically a dried grain similar to rice; by soaking them overnight, we allow the starches to fully hydrate, resulting in a "risotto-like" creaminess that has a distinct "Snap" to the bite rather than being mushy. We use **The Sweet-Savory Bridge Pattern**: the combination of mashed banana and sharp **Sherry Vinegar** creates a sophisticated flavor profile that bridges the gap between a traditional breakfast and a savory course.
 
 ## Directions
 
-1. 1. Combine the oats and water in a medium bowl, cover, and let stand overnight at room temperature2. Put the raisins in a small bowl and pour the vinegar over them. Let stand while you cook the oatmeal.3. Pour the oats and water into a medium saucepan and bring to a boil over medium-high heat. Add the brown sugar and salt, reduce the heat to a simmer, and cook, stirring occasionally, for about 20 minutes. The oatmeal is done if its “squeaky” to the bite, not squishy.4. Fold in the mashed banana and continue cooking stirring occasionally, until header through, about 2 minutes.5. To serve, divide the oatmeal amount 4 bowls. Drain and sprinkle 1 tablespoon of the vinegar-soaked raisins over each bowl. With a vegetable peeler, shave 3 or 4 strips of Parmesan, if using, over each serving.
+1.  **The Hydration:** In a medium bowl, combine the oats and water/broth. Cover and **let stand overnight** at room temperature.
+2.  **The Acid Finish:** In a small bowl, pour the sherry vinegar over the golden raisins. Let soak while the oats cook.
+3.  **Simmer:** Pour the oats and their soaking liquid into a saucepan. Bring to a boil, then reduce to a simmer. Add brown sugar and salt.
+4.  **Cook:** Cook for 20 minutes, stirring occasionally, until the oats are "squeaky" to the bite (al dente).
+5.  **The Emulsion:** Fold in the mashed banana. Cook for 2 more minutes until the banana has melted into the oats, creating a creamy "Bounce."
+6.  **Serve:** Divide into bowls. Top with the vinegar-soaked raisins and a few generous shavings of Parmesan cheese for the final savory **High Note**.
+
+## Serving Suggestions
+-   [Blueberry Oat Breakfast Bars](/recipes/blueberry-oat-breakfast-bars)
+-   Fresh Sliced Pears
+-   [Classic Martini](/recipes/classic-martini) (if serving as a savory brunch course)

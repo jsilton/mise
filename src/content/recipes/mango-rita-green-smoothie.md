@@ -1,33 +1,33 @@
 ---
 title: Mango-Rita Green Smoothie
-prepTime: 10 min
-servings: 2 smoothies
-ingredients:
-  - 2 cups fresh spinach
-  - 1 cup unsweetened coconut water
-  - '1 orange, peeled'
-  - 2 cups chopped mango (I used frozen mango chunks)
-  - 1 cup chopped pineapple (I used frozen)
-  - 'Juice of ½ lime, more to taste, plus 2 lime slices for garnish'
-  - Tiny pinch of salt (trust me)
-totalTime: 10 min
 role: drink
 vibe: fuel
+prepTime: 10 min
+cookTime: 0 min
+totalTime: 10 min
+servings: '2'
+ingredients:
+  - '2 cups Fresh Baby Spinach'
+  - '2 cups Frozen Mango chunks'
+  - '1 cup Frozen Pineapple chunks'
+  - '1 cup Unsweetened Coconut Water'
+  - '1 fresh Orange, peeled and halved'
+  - '1 Lime, juiced (The Acid Finish)'
+  - 'Tiny pinch of Sea Salt (The "Trust Me" Note)'
 ---
+
+## Chef's Note
+This is the "Gold Standard" for a high-performance "Fuel" smoothie. The secret to its elite flavor is **The "Trust Me" Salt Pinch**: a tiny amount of salt suppresses the bitterness of the raw spinach while amplifying the tropical sweetness of the mango. We use **The Thermal Blender Pattern**: by using frozen fruit as our "ice," we maintain a thick, creamy "Bounce" without diluting the nutrients. The lime juice provides the mandatory **Acid Finish** that keeps the drink refreshing rather than heavy.
 
 ## Directions
 
-1. Blend the spinach, coconut water and orange until smooth.
-2. Add the mango, pineapple, lime juice and salt and blend again. Taste, and add more lime juice if desired (I like mine to have some kick).
-3. Pour the smoothie into two glasses and garnish each with a slice of lime.
+1.  **The Base:** In a high-powered blender, combine the spinach, coconut water, and orange. Blend on high for 30 seconds until the greens are completely pulverized.
+2.  **The Bulk:** Add the frozen mango, frozen pineapple, lime juice, and the pinch of sea salt.
+3.  **Process:** Blend on high for 60 seconds until perfectly velvety.
+4.  **Adjust:** If the smoothie is too thick, add a splash more coconut water. If you want more "Snap," add extra lime juice.
+5.  **Serve:** Pour into two chilled glasses. Garnish with a lime slice and serve immediately.
 
-## Nutrition
-
-- Calories: 220Total Carbohydrates: 54.8 g
-- Cholesterol: 0 mg
-- Total Fat: 1.1 gDietary fiber: 7.3 g
-- Protein: 4.1 g
-- Saturated fat: 0.2 gAmount Per: 1 smoothie
-- Sodium: 107.6 mg
-- Sugar: 34.6 g
-- Trans Fat: 0 g
+## Serving Suggestions
+-   [Blueberry Oat Breakfast Bars](/recipes/blueberry-oat-breakfast-bars)
+-   [Easy Breakfast Yogurt Popsicles](/recipes/easy-breakfast-yogurt-popsicles)
+-   [Oatmeal Risotto](/recipes/oatmeal-risotto)

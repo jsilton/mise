@@ -1,42 +1,38 @@
 ---
 title: Loaded Baked Omelet Muffins
-prepTime: 10 min
-cookTime: 20 min
-servings: 'Yield: 6'
-ingredients:
-  - nonstick cooking spray
-  - 9 large whole eggs
-  - 1/4 teaspoon kosher salt
-  - black pepper
-  - 3 strips cooked chopped bacon
-  - '3 tablespoons thawed frozen spinach, drained'
-  - 3 tbsp diced tomatoes
-  - 3 tbsp diced onion
-  - 3 tbsp diced bell pepper
-  - 2 oz shredded cheddar
-totalTime: 30 min
 role: main
 vibe: speed
+prepTime: 10 min
+cookTime: 20 min
+totalTime: 30 min
+servings: '12 muffins'
+ingredients:
+  - '9 large Eggs'
+  - '3 slices Bacon, cooked and chopped'
+  - '2 oz Sharp Cheddar, shredded'
+  - '--- The Texture Base ---'
+  - '3 tbsp Frozen Spinach, thawed and squeezed dry'
+  - '3 tbsp Roma Tomato, finely diced'
+  - '3 tbsp Onion, finely diced'
+  - '3 tbsp Bell Pepper, finely diced'
+  - '1/4 tsp Kosher Salt'
+  - 'Black Pepper'
+  - 'Cooking spray'
 ---
+
+## Chef's Note
+These are the ultimate "Modularity" component for breakfast prep. The secret to avoiding the rubbery, watery texture of most egg muffins is **Texture Integrity** through **The Dry Squeeze Pattern**: you must squeeze the thawed spinach in a towel until **bone-dry** before adding to the eggs. We use **The Bacon Anchor**: placing the bacon and diced veg at the bottom of the tin ensures they develop a slight "Snap" against the metal, providing a savory foundation for the fluffy egg "Bounce."
 
 ## Directions
 
-1. Preheat the oven to 350F. Spray the muffin tins with cooking spray.
-2. In a large bowl whisk the eggs, season with salt and pepper.
-3. Mix in the remaining ingredients.
-4. Fill and place tins on a cookie sheet and bake 20 to 25 minutes, until set.
+1.  **Prep:** Preheat oven to 350°F. Spray a 12-cup muffin tin generously with oil spray.
+2.  **The Base:** Divide the bacon, dry spinach, tomatoes, onions, and peppers evenly among the 12 cups.
+3.  **Aeration:** In a large bowl, whisk the eggs, salt, and pepper until very frothy and no streaks remain. 
+4.  **Assemble:** Pour the egg mixture into the cups, filling each about 3/4 full. Sprinkle the cheese over the tops.
+5.  **Bake:** Bake for 20-25 minutes until the centers are firm and the tops are slightly golden and puffed.
+6.  **Store:** Let cool for 5 minutes before removing. These can be frozen for up to 3 months and reheated in 45 seconds.
 
-## Nutrition
-
-- Calories: 165kcal
-- Carbohydrates: 2.5g
-- Protein: 14g
-- Fat: 11g
-- Saturated Fat: 4.5g
-- saturated Fat: 0g
-- saturated Fat: 0g
-- Trans Fat: 0g
-- Cholesterol: 289mg
-- Sodium: 267mg
-- Fiber: 0g
-- Sugar: 0g
+## Serving Suggestions
+-   Sliced Avocado and Hot Sauce
+-   [Everyday Arugula Salad](/recipes/everyday-arugula-salad)
+-   Fresh Fruit
