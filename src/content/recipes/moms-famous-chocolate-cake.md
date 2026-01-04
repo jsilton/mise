@@ -1,5 +1,5 @@
 ---
-title: 'Mom''s Famous Chocolate Cake'
+title: "Mom's Famous Chocolate Cake"
 ingredients:
   - '2 sticks margarine'
   - '4 tbsp cocoa'
@@ -32,4 +32,3 @@ ingredients:
 ## Notes
 
 I only use one sauce pan and a portable egg beater and have very little clean up.If you use 2 square pans, you can freeze one for later - frosted and ready!
-

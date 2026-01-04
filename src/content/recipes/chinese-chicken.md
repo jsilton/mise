@@ -28,4 +28,3 @@ totalTime: 50 min
 5. Taste and adjust seasoning, then add corn starch until thickened. Mix in brocoili and simmer for 5 minutes.
 6. Remove chinese sausage from rice, cut into 1/4 inch slices, and drizzle with soy sauce on a side dish.
 7. Serve chinese chicken over rice with chinese sausage on the side.
-

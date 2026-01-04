@@ -16,4 +16,3 @@ ingredients:
 3. Add slices and toss to coat.
 4. Arrange slices in a single layer on baking sheet.
 5. Sprinkle with salt and pepper and bake at 400 degrees until tender, about 25 minutes.
-

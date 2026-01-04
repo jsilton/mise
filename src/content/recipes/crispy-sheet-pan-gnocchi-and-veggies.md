@@ -31,7 +31,5 @@ Storage: Leftovers can be stored in an airtight container in the refrigerator fo
 
 ## Nutrition
 
-
-
 - Calories: 284Total Carbohydrates: 46.3 g (15.4%)Total Fat: 8.2 g (12.5%)Protein: 7.3 g (14.5%)Saturated fat: 1.2 g (6.2%)Per serving
 - based on: 4 servings. (% daily value)Sugar: 7.4 g

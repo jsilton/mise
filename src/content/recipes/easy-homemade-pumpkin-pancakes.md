@@ -28,6 +28,4 @@ totalTime: 30 min
 
 ## Nutrition
 
-
-
 - PER SERVING Calories: 405 / Protein 12 g / Carbohydrate 64 g / Dietary Fiber 3 g / Total Sugars 14 g / Total Fat 11 g / Saturated Fat 3 g / Cholesterol 55 mg

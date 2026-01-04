@@ -26,4 +26,3 @@ totalTime: 45 min
 2. Meanwhile, in a medium saucepan of salted boiling water, cook the shrimp until just white throughout, about 2 minutes. Drain and run under cold water to cool completely, then drain again and pat dry.
 3. Fill a medium skillet with hot water. Soak 1 rice paper wrapper in the water for 30 seconds, until just pliable. Transfer the wrapper to a work surface and top with some noodles, avocado, herbs and shrimp. Tightly roll up the wrapper around the filling, tucking in the sides as you roll. Repeat with the remaining wrappers and fillings.
 4. In a small bowl, whisk the sugar with the warm water until dissolved. Stir in the chile and garlic and season with salt. Serve the summer rolls with the dipping sauce, passing chile-garlic sauce at the table.
-

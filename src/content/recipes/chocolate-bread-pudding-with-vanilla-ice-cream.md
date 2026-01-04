@@ -30,4 +30,3 @@ ingredients:
 ## Notes
 
 Bread pudding mixture can be made up to 12 hours ahead of time.
-

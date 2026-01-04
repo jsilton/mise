@@ -24,4 +24,3 @@ ingredients:
 ## Notes
 
 What differs from a curry is that a korma is supposed to be more thick than liquid.As with any stew or curry, this tastes better the longer it sits.Refrigerate for up to one week or freeze for up to two months.
-

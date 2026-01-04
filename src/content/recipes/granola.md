@@ -18,4 +18,3 @@ ingredients:
 4. Mix and spread in single layer on cookie sheet.
 5. Bake 18-29 minutes, stirring a couple of time until golden.
 6. Let cool and then stir in fruit. Store in an airtight container.
-

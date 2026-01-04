@@ -35,4 +35,3 @@ totalTime: 155 min
 3. Heat oil in a heavy bottomed pan over low heat, and cook bacon until crisp. Add onions and celery and cook for 5 minutes without browning. Add green bell pepper, red bell pepper, garlic and roasted corn and cook for another 5 minutes. Stir in flour to thicken and cook for 6 to 8 minutes, keeping heat low.
 4. Add cream, chicken stock and potatoes and let cook until potatoes are soft, about 20 minutes, stirring occasionally to prevent anything from sticking to the bottom of the pot.
 5. Remove shrimp from marinade and discard liquid. When potatoes are soft, stir in shrimp, lime juice, fresh chopped parsley, and cayenne pepper and cook until shrimp are pink and just cooked through. Spoon into soup bowls and top with scallions. Serve with oyster crackers.
-

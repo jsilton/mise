@@ -37,10 +37,10 @@ totalTime: 40 min
 13. Take out the pan and let cool for a few minutes.
 14. Invert the cake and cool down the cake on a rack prior to serving
 15. Tips for this healthy carrot cake:
-16. 1) This carrot cake recipe can be made without egg. For the eggless version use a little extra yogurt or applesauce (1/2 cup instead of 1/3 cup).
-17. 2) If you wish to use only brown sugar you can skip white sugar. But make sure the sugar granules are fine enough to blend well. If bigger granules are left without proper mixing they may give an unpleasant experience while biting this super-soft carrot cake.
-18. 3) Likewise, the use of nuts is completely optional. Nuts give crunchy delicious bites for this carrot cake. Chopped pecans or chopped walnuts are perfect for this cake. Raisins can also be added.
-19. 4) Instead of grated carrot, you can use blended carrots. But this adjusts the consistency of the batter which may alter the texture of this delicious carrot cake.
+16. 1. This carrot cake recipe can be made without egg. For the eggless version use a little extra yogurt or applesauce (1/2 cup instead of 1/3 cup).
+17. 2. If you wish to use only brown sugar you can skip white sugar. But make sure the sugar granules are fine enough to blend well. If bigger granules are left without proper mixing they may give an unpleasant experience while biting this super-soft carrot cake.
+18. 3. Likewise, the use of nuts is completely optional. Nuts give crunchy delicious bites for this carrot cake. Chopped pecans or chopped walnuts are perfect for this cake. Raisins can also be added.
+19. 4. Instead of grated carrot, you can use blended carrots. But this adjusts the consistency of the batter which may alter the texture of this delicious carrot cake.
 20. Peel and wash two large fresh carrots, discarding the skin.
 21. Grate the carrots using a small-holed grater. Set aside.
 22. Grease a 8" cake pan or a loaf pan with oil or butter.
@@ -59,8 +59,6 @@ totalTime: 40 min
 Tips:1) This carrot cake recipe can be made without egg. For the eggless version, use little extra yogurt or applesauce (1/2 cup instead of 1/3 cup).2) If you wish to use only brown sugar you can skip white sugar. But make sure the sugar granules are fine enough to blend well. 3) The use of nuts is completely optional. Nuts give a delicious crunchiness to this carrot cake.
 
 ## Nutrition
-
-
 
 - Calories: 174kcal
 - Carbohydrates: 19g

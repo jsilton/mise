@@ -27,8 +27,6 @@ Gluten-free option: replace rolled oats with a gluten-free cereal like millet fl
 
 ## Nutrition
 
-
-
 - Serving: 1smoothie | Calories: 112.7kcal | Carbohydrates: 13.3g | Protein: 3.6g | Fat: 5.6g | Saturated Fat: 0.9g | Polyun
 - saturated Fat: 1.8g | Monoun
 - saturated Fat: 2.6g | Sodium: 171.5mg | Potassium: 227.5mg | Fiber: 2.1g | Sugar: 8.8g | Vitamin A: 1853.4IU | Vitamin C: 19.3mg | Calcium: 140.9mg | Iron: 0.8mg | Magnesium: 33.5mg | Phosphorus: 54.3mg | Zinc: 0.5mg

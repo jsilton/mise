@@ -19,8 +19,6 @@ totalTime: 40 min
 
 ## Nutrition
 
-
-
 - 4: 00 calories: 1 serving (calculated without optional toppings)Total Carbohydrates: 22g
 - sugars: 102mg
 - cholesterol: 23g

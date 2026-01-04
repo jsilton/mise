@@ -14,4 +14,3 @@ ingredients:
 1. Mix all ingredients together.
 2. Put in casserole dish.
 3. Bake at 350 degrees for 30-45 minutes.
-

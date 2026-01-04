@@ -46,8 +46,6 @@ Note: I've specified boneless skinless chicken thighs for this recipe; they're j
 
 ## Nutrition
 
-
-
 - Per serving (: 6 servings)Calories: 350
 - Fat: 15g
 - Saturated fat: 3g

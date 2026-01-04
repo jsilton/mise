@@ -37,10 +37,8 @@ ingredients:
 
 ## Notes
 
-*You can use salted butter, just reduce the amount of salt added to the batter.**You can substitute all butter if you want, instead of the oil, but I found the oil and butter combination yields a moister cake.This cake recipe is adapted from The Domestic Rebel
+\*You can use salted butter, just reduce the amount of salt added to the batter.\*\*You can substitute all butter if you want, instead of the oil, but I found the oil and butter combination yields a moister cake.This cake recipe is adapted from The Domestic Rebel
 
 ## Nutrition
-
-
 
 - Calories: 464kcal | Carbohydrates: 66g | Protein: 5g | Fat: 20g | Saturated Fat: 10g | Cholesterol: 102mg | Sodium: 233mg | Potassium: 186mg | Fiber: 1g | Sugar: 48g | Vitamin A: 565IU | Calcium: 71mg | Iron: 1.8mg

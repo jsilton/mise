@@ -13,7 +13,7 @@ ingredients:
   - 2 tsp. vanilla extract
   - 1 tsp. instant espresso or coffee
   - '15 marshmallows, plus more for garnish'
-  - '8 oz. Irish cream liqueur (such as Bailey''s), optional'
+  - "8 oz. Irish cream liqueur (such as Bailey's), optional"
   - 'Shaved chocolate, for garnish'
 totalTime: 130 min
 ---
@@ -25,8 +25,6 @@ totalTime: 130 min
 3. Set the slow cooker to warm. Ladle the hot chocolate into serving mugs, and top with more marshmallows and shaved chocolate, if you like.
 
 ## Nutrition
-
-
 
 - Fat: 49 g
 - Calories: 864 Calorie

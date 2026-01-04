@@ -36,8 +36,6 @@ You can sub the chicken breasts for chicken thighs if you prefer.Chicken is safe
 
 ## Nutrition
 
-
-
 - Fat: 8 g
 - Calories: 298 kcal
 - Saturated Fat: 2 g

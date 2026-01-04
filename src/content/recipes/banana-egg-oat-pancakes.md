@@ -22,8 +22,6 @@ totalTime: 10 min
 
 ## Nutrition
 
-
-
 - Calories: 313 Calories from Fat 99
 - Saturated Fat: 3g19%
 - Cholesterol: 327mg109%

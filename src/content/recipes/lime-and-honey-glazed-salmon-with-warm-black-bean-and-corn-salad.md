@@ -32,4 +32,3 @@ totalTime: 50 min
 ## Notes
 
 *If you don't have access to fresh corn, use a 10-ounce box of frozen corn.*If you are preparing this recipe as Gluten-Free, just be sure to use brands of chicken broth and black beans that are known to be GF.
-

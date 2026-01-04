@@ -27,4 +27,3 @@ totalTime: 24 min
 4. Starting from an outer edge parallel to the basil, roll tightly while gently squeezing to keep together. Repeat for all tortillas.
 5. Using a serrated knife, cut in about 1 inch pinwheels. Repeat for all tortillas.
 6. Cover and refrigerate until serving. Enjoy!
-

@@ -32,8 +32,6 @@ Pie (without topping) can be chilled up to 1 day.
 
 ## Nutrition
 
-
-
 - Calories: 401
 - Carbohydrates: 43 g(14%)Fat 23 g(36%)Protein 7 g(14%)Saturated Fat 13 g(67%)Sodium 137 mg(6%)Polyun
 - saturated Fat: 2 g

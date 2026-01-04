@@ -31,8 +31,6 @@ totalTime: 525 min
 
 ## Nutrition
 
-
-
 - Calories: 253.4 Calories from Fat 31.5
 - Saturated Fat: 0.8g 4%
 - Trans Fat: 0g

@@ -26,4 +26,3 @@ totalTime: 45 min
 2. the clams open, transfer them to a baking sheet. Discard any unopened clams. Strain the cooking liquid through a sieve into a blender. Add the roasted peppers and puree until smooth.
 3. Wash out the pot, then heat the remaining 1/4 cup of oil in it. Add the remaining garlic and cook over moderate heat, stirring, for 1 minute. Stir in the crushed red pepper and Swiss chard in batches until the chard is just wilted, about 3 minutes. Stir in the roasted pepper broth and season with salt and pepper.
 4. In a large pot of salted boiling water, cook the spaghetti until al dente; drain. Add the pasta to the Swiss chard mixture along with the butter, lemon zest, lemon juice and the 1/2 cup of grated cheese. Add the clams and toss to heat through. Transfer the pasta and broth to shallow bowls, garnish with grated cheese and serve.
-

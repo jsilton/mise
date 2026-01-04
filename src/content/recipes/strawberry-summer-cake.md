@@ -20,4 +20,3 @@ ingredients:
 3. Pour into prepared pie plate. Arrange strawberries, cut side down, on top of batter, as closely as possible in a single layer (though I had to overlap a few to get them all in). Sprinkle remaining 2 tablespoons sugar over berries.
 4. Bake cake for 10 minutes then reduce oven temperature to 325°F and bake cake until golden brown and a tester comes out free of wet batter, about 50 minutes to 60 minutes. (Gooey strawberries on the tester are a given.) Let cool in pan on a rack. Cut into wedges. Serve with lightly whipped cream.
 5. Do ahead: Cake can be stored at room temperature for up to 2 days, loosely covered, but good luck with that.
-

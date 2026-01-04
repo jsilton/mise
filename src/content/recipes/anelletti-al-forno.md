@@ -38,4 +38,3 @@ totalTime: 180 min
 6. Bring a large pot of generously salted water to a boil, then add the pasta and cook until al dente, about 8 minutes. Drain, then transfer back to the pot and stir in 4 cups of the ragù (reserve any left over for another use) and the eggplant.
 7. Spoon half of the pasta into the baking dish, then top evenly with the eggs, ham, half of the primosale, and half of the caciocavallo. Top with the remaining pasta, spread it in an even layer, and sprinkle with the remaining primosale, caciocavallo, and (if any remain) breadcrumbs.
 8. Bake until the cheese is melted about 30 minutes. Set aside for at least 15 minutes before serving.
-

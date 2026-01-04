@@ -24,4 +24,3 @@ ingredients:
 4. Drain rice and add to pot with chicken, then add coconut milk and remaining 1 tsp. salt. Stir to incorporate and bring to a boil. Drape a kitchen towel over pot; cover with lid. Bring corners of towel up and over lid and secure with a rubber band. Reduce heat to lowest setting and cook, undisturbed, 15 minutes.
 5. Remove from heat and remove towel and lid. Arrange kale in an even layer over chicken and rice and cover with lid. Let sit until wilted, about 10 minutes.
 6. Divide chicken and rice among bowls. Top with chiles if using. Serve with lime wedges.
-

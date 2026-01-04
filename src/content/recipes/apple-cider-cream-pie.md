@@ -31,4 +31,3 @@ totalTime: 225 min
 4. In a medium saucepan, boil the cider until it's reduced to 1/2 cup, about 10 minutes. Transfer to a bowl and let cool. Whisk in 3/4 cup of the sugar, the sour cream and salt, then whisk in the eggs.
 5. Pour the custard into the pie shell without removing the foil strips. Bake the pie in the lower third of the oven for 35 to 40 minutes, until the custard is set around the edge but the center is slightly jiggly. Let the pie cool completely.
 6. In a medium bowl, using an electric mixer, beat the heavy cream with the remaining 1/4 cup of sugar and the cinnamon until firmly whipped. Mound the cream on the pie, cut into wedges and serve.
-

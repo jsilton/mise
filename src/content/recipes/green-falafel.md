@@ -26,4 +26,3 @@ totalTime: 760 min
 5. Toss the chickpea mixture with the parsley, cilantro, salt, pepper, coriander, cumin and mint and run through the meat grinder again.
 6. Heat 4 inches of oil to 350 degrees F in a large pot over medium heat. Shape the falafel mixture into balls using a tablespoon measure and fry, in batches if needed and adjusting the heat as necessary, until browned, about 3 minutes.
 7. Drain on a paper towel and serve with pita, cucumber and tomato, parsley and tahini.
-

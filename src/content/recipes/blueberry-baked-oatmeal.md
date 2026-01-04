@@ -26,4 +26,3 @@ ingredients:
 5. Scatter the remaining berries across the top. Sprinkle some raw sugar on top if you’d like some extra sweetness and crunch.
 6. Bake for 42 to 45 minutes, until the top is nice and golden. Remove your baked oatmeal from the oven and let it cool for a few minutes. Drizzle the remaining melted butter on the top before serving.
 7. I prefer this baked oatmeal served warm, but it is also good at room temperature or chilled (I’ll leave that up to you!). This oatmeal keeps well in the refrigerator, covered, for 4 to 5 days. I simply reheat individual portions in the microwave before serving.
-

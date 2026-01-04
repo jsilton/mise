@@ -33,6 +33,4 @@ totalTime: 25 min
 
 ## Nutrition
 
-
-
 - Calories: 247kcal (12%) Carbohydrates: 13g (4%) Protein: 28g (56%) Fat: 8g (12%) Saturated Fat: 1g (5%) Cholesterol: 72mg (24%) Sodium: 807mg (34%) Potassium: 667mg (19%) Fiber: 3g (12%) Sugar: 5g (6%) Vitamin A: 1265IU (25%) Vitamin C: 69.6mg (84%) Calcium: 54mg (5%) Iron: 2.9mg (16%)

@@ -26,4 +26,3 @@ totalTime: 40 min
 6. Add light soy sauce, dark soy sauce, and sugar. Stir to mix the seasonings.
 7. Open a spot in the middle of the pan, and drop the egg in. Scramble the egg until it is almost all cooked, then fold in the noodles and mix them all.
 8. Add the Chinese broccoli, stems first. As soon as the Chinese broccoli is cooked, turn off the heat.
-

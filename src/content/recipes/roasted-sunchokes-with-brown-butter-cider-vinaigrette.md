@@ -28,4 +28,3 @@ totalTime: 80 min
 2. Meanwhile, in a saucepan, cook the vinegar over moderate heat until reduced to 2 tablespoons, 3 minutes. Transfer to a bowl. Stir in the shallots, crushed red pepper and honey.
 3. Wipe out the saucepan. Add the butter and cook over moderate heat until golden brown, 2 to 3 minutes. Whisk the butter into the vinegar mixture and season with salt and pepper.
 4. Add the spinach, chives and vinaigrette to the sunchokes; season with salt and pepper and toss to coat. Serve warm.
-

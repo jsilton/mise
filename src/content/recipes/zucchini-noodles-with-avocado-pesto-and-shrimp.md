@@ -26,4 +26,3 @@ totalTime: 70 min
 2. Meanwhile, combine avocado, basil, pistachios, lemon juice, pepper and the remaining 1/4 teaspoon salt in a food processor. Pulse until finely chopped. Add 1/4 cup oil and process until smooth.
 3. Heat 1 tablespoon oil in a large skillet over medium-high heat. Add garlic and cook, stirring, for 30 seconds. Add shrimp and sprinkle with Old Bay; cook, stirring occasionally, until the shrimp is almost cooked through, 3 to 4 minutes. Transfer to a large bowl.
 4. Add the remaining 1 tablespoon oil to the pan. Add the drained zucchini noodles and gently toss until hot, about 3 minutes. Transfer to the bowl, add the pesto and gently toss to combine.
-

@@ -60,8 +60,6 @@ Tips for Making the Best Pumpkin Cheesecake CookiesChilling your cookie dough is
 
 ## Nutrition
 
-
-
 - Saturated Fat
 - Trans Fat
 - Cholesterol

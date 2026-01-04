@@ -20,8 +20,6 @@ The definitive Roman-style roasted potato. The extra step of par-boiling creates
 
 ## Nutrition
 
-
-
 - Calories: 180 kcal
 - Fat: 7g
 - Sodium: 390mg

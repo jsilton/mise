@@ -37,8 +37,6 @@ totalTime: 255 min
 
 ## Nutrition
 
-
-
 - Saturated Fat: 1g
 - Sodium: 769mg
 - Carbohydrates: 53g

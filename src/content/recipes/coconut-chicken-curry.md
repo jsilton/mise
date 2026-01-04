@@ -30,8 +30,6 @@ ingredients:
 
 ## Nutrition
 
-
-
 - Calories: 57729%
 - Fat: 23 g 35%
 - Fiber: 8 g 32%

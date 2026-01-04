@@ -23,4 +23,3 @@ totalTime: 20 min
 4. Turn off the heat. Carefully remove the plate from the pot and drain any remaining water off. At this point, you can also transfer the fish to a nice serving plate. Spread the cilantro and about one third of the scallion (use the green portions), directly onto the steamed fish.
 5. Heat a small saucepan to medium to high heat and add 2 tbsp of canola oil. Add the ginger and let it brown lightly, about a minute. Then add the rest of the scallions. The mixture should be giving a good sizzle right about now…
 6. Next, add your soy mixture to the saucepan and keep the heat on high to keep everything sizzling. Cook until the scallions are wilted – about 30 seconds. Take it off the heat and spoon the entire mixture over the fish. Serve immediately!
-

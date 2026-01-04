@@ -20,4 +20,3 @@ ingredients:
 ## Directions
 
 1. 1. Preheat oven to 350 degrees F/175 degrees C.2. Put dates and butter in a food processor. Process until smooth.3. Add egg, yogurt and vanilla to the food processor. Mix thoroughly.4. Mix buckwheat flour, white whole wheat flour, oats, baking soda, and cinnamon in a bowl.5. Add liquid ingredients to dry ingredients and mix fully.6. Using your hands, make small balls of dough. Place ongreased cookie sheets and press down on the top.7. Bake 12-15 min - until lightly brown.
-

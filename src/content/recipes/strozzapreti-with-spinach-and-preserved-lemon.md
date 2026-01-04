@@ -28,6 +28,4 @@ ingredients:
 
 ## Nutrition
 
-
-
 - Calories (kcal): 670 Fat (g) 31 Saturated Fat (g) 15 Cholesterol (mg) 60 Carbohydrates (g) 85 Dietary Fiber (g) 6 Total Sugars (g) 6 Protein (g) 14 Sodium (mg) 1190 ...Read More

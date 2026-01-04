@@ -43,6 +43,4 @@ Substitutes for Fish Sauce. Fish sauce is made of fermented fish and shelfish mi
 
 ## Nutrition
 
-
-
 - Calories: 429kcal | Carbohydrates: 15g | Protein: 46g | Fat: 20g | Saturated Fat: 3g | Cholesterol: 215mg | Sodium: 1569mg | Potassium: 594mg | Fiber: 1g | Sugar: 12g | Vitamin A: 129IU | Vitamin C: 4mg | Calcium: 35mg | Iron: 2mg

@@ -19,4 +19,3 @@ totalTime: 30 min
 2. Core apple and cut into small cubes or matchsticks. Place in a small bowl and toss with 1 tablespoon of dressing to prevent the apples from browning.
 3. Trim ends of Brussels sprouts and remove any outer damaged leaves and discard. Using a mandoline slicer or a very sharp knife, slice sprouts as thinly as possible (I'm talking like 1/16 of a inch). Discard ends and any large core pieces or chunks. Place shaved sprouts in a large bowl. Toss with apples and remaining dressing. Set aside and let sit for at least 15 minutes or more.
 4. Divide salad among serving dishes, and top with a healthy sprinkling of grated Pecorino.
-

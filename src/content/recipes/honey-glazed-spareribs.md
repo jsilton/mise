@@ -22,4 +22,3 @@ totalTime: 105 min
 3. Add 1/4 cup of water to the cooker. Cover and cook at high pressure for 20 minutes.
 4. Line a rimmed baking sheet with foil. Run cold water over the pressure cooker to release the pressure. Transfer the ribs to the prepared baking sheet, meaty side up. Boil the cooking juices until reduced to 2 cups, about 5 minutes. Transfer the hoisin pan sauce to a bowl.
 5. Preheat the broiler and position a rack 8 inches from the heat. Brush the ribs all over with the remaining 1/4 cup of honey and broil, turning once, until the ribs are glazed and browned, about 5 minutes. Transfer the rib sections to a cutting board and slice them into individual ribs. Serve the ribs with the hoisin pan sauce.
-

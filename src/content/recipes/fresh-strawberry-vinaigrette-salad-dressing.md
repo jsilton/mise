@@ -26,6 +26,4 @@ totalTime: 40 min
 
 ## Nutrition
 
-
-
 - Calories: 56 kcal

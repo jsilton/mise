@@ -29,6 +29,4 @@ totalTime: 15 min
 
 ## Nutrition
 
-
-
 - Calories: 48kcal | Carbohydrates: 2g | Protein: 1g | Fat: 3g | Sodium: 795mg | Potassium: 348mg | Fiber: 1g | Vitamin A: 5860IU | Vitamin C: 17.6mg | Calcium: 78mg | Iron: 1.8mg

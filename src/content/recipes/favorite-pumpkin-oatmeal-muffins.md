@@ -51,8 +51,6 @@ TIP: You can serve these cold, at room temperature, or even slightly warmed.Thes
 
 ## Nutrition
 
-
-
 - Calories: 107kcal
 - Carbohydrates: 18g
 - Protein: 4g

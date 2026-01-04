@@ -22,4 +22,3 @@ ingredients:
 ## Notes
 
 6 servings (doubles and triples easily)
-

@@ -38,6 +38,4 @@ ingredients:
 
 ## Nutrition
 
-
-
 - Per fritter: Calories (kcal) 150 Fat (g) 13 Saturated Fat (g) 2 Cholesterol (mg) 30 Carbohydrates (g) 8 Dietary Fiber (g) 1 Total Sugars (g) 2 Protein (g) 2 Sodium (mg) 360 ...Read More

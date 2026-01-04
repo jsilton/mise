@@ -42,6 +42,5 @@ ingredients:
 13. Chill the mixing bowl and whip attachment in the freezer for a few minutes prior to mixing.
 14. Place the mascarpone cheese in the bowl of a stand mixer fitted with a whip attachment, and whip on medium high for 1 minute. Slowly add heavy cream, sugar, and vanilla extract in the bowl and whip on medium high the until it turns into light and fluffy, it should only take a minute or two.
 15. Slowly whip in the St. Germain until mixed in.
-16. Cover and place in the fridge until ready to serve. *It helps to keep everything at room temperature to prevent curdling.
+16. Cover and place in the fridge until ready to serve. \*It helps to keep everything at room temperature to prevent curdling.
 17. Gently split the shortcakes in half. Top with a generous spoonful of the fruit and a big ol' dollop of whip cream. Add a few thyme leaves on top of the whipped mascarpone cream for an herby freshness and top with the shortcake lid. Serve with sparkling Rosé with a splash of St. Germain.
-

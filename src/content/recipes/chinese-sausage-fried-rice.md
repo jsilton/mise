@@ -25,8 +25,6 @@ totalTime: 220 min
 
 ## Nutrition
 
-
-
 - FAT TOTAL: 5.2g
 - SATURATED FAT: 3.6g
 - PROTEIN: 161mg

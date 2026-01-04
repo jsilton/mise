@@ -19,8 +19,6 @@ totalTime: 25 min
 
 ## Nutrition
 
-
-
 - Per Serving: 124 calories
 - 6 g fat
 - 1: 7.6 g carbohydrates

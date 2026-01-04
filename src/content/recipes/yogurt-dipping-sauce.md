@@ -18,4 +18,3 @@ totalTime: 45 min
 1. Mix the yogurt, lemon zest, lemon juice, cilantro, parsley and cumin together in a small bowl.
 2. Add salt to taste.
 3. Chill until ready to use.
-

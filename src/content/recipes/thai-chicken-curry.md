@@ -24,4 +24,3 @@ totalTime: 35 min
 2. Bring butter to a medium heat in a wok. Add sauce bring to an active simmer for 3 minutes.
 3. Add the chicken, peppers and onions, and return to an active simmer for 15 minutes.
 4. Add the basil and serve over jasmine rice.
-

@@ -30,8 +30,6 @@ totalTime: 80 min
 
 ## Nutrition
 
-
-
 - :Calories: 510 Total Fat: 33g
 - Saturated Fat: 15g
 - Trans Fat: 1g

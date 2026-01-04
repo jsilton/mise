@@ -32,4 +32,3 @@ ingredients:
 21. If you're celebrating Passover, I hope you enjoy a lovely family celebration. If not – well, go ahead and enjoy this cake anyway!
 22. Read, bake, and review (please) our recipe for Flourless Chocolate Cake.
 23. For more chocolate-filled indulgences, check out our collection of Best Chocolate Recipes.
-

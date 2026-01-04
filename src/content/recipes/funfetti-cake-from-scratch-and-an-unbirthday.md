@@ -55,10 +55,8 @@ totalTime: 90 min
 
 ## Notes
 
-*Use sprinkles/jimmies or round sequin "quin" sprinkles, do NOT use nonpareils or they may bleed through your batter and ruin the coloring of your cake.This cake may also be made in three 9" pans, just decrease the baking time. Start checking the cakes for doneness at 25 minutes.
+\*Use sprinkles/jimmies or round sequin "quin" sprinkles, do NOT use nonpareils or they may bleed through your batter and ruin the coloring of your cake.This cake may also be made in three 9" pans, just decrease the baking time. Start checking the cakes for doneness at 25 minutes.
 
 ## Nutrition
-
-
 
 - Serving: 1slice | Calories: 1136kcal | Carbohydrates: 155g | Protein: 11g | Fat: 54g | Saturated Fat: 25g | Trans Fat: 1g | Cholesterol: 100mg | Sodium: 345mg | Potassium: 290mg | Fiber: 2g | Sugar: 100g | Vitamin A: 1171IU | Vitamin C: 1mg | Calcium: 112mg | Iron: 3mg

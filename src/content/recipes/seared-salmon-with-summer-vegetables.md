@@ -32,4 +32,3 @@ totalTime: 60 min
 4. Wipe skillet clean with paper towels. Reduce heat to medium, and add 3 tablespoons butter. Add shiitake caps, and cook, stirring, until softened, about 3 minutes. Stir in corn kernels; cook until completely heated through, about 3 minutes. Season with salt and pepper to taste. Transfer to a bowl, and keep warm.
 5. Increase heat to high, and add remaining 1 tablespoon butter and remaining 1 tablespoon olive oil to skillet. Season salmon strips with salt and pepper to taste. Add fish to skillet, and cook until browned but barely cooked through, about 3 minutes per side.
 6. Divide spinach among 6 plates; surround with corn and shiitakes. Place a salmon strip on top of spinach, and spoon vinegar sauce on fish. Garnish with a sprinkling of chives; serve immediately.
-

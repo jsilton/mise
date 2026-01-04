@@ -8,4 +8,3 @@ ingredients:
   - 'pizza sauce'
   - 'pineapple'
 ---
-

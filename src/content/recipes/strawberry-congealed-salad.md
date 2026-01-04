@@ -17,4 +17,3 @@ ingredients:
 3. Mix all ingredients together.
 4. Put half the mixture in long dish and let congeal (1-2 hours).
 5. Spread sour cream on the congealed half. Pour rest of the Jello mixture on top of sour cream. Let congeal (1-2 hours).
-

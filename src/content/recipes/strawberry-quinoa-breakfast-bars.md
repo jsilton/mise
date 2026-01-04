@@ -21,4 +21,3 @@ totalTime: 23 min
 3. Add the in the quinoa, oats and raisins and mix again. Finally stir in the chopped strawberries.
 4. Transfer the mixture to the dish and bake in the oven for 20 – 25 minutes until firm to touch.
 5. Allow to cool before cutting into 9 squares.
-

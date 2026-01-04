@@ -36,4 +36,3 @@ totalTime: 25 min
 ## Notes
 
 This recipe is successful without the butter/oil, but you getter a softer muffin with it, and they remain softer for longer with the added butter or oilTo make the recipe dairy free, substitute the melted butter for a mild tasting vegetable oil.15 min cook time is based on making mini muffins, the mix makes approx 30 mini muffins. If you are using a standard muffin tray and making approx 12 muffins the cook time will be longer, approx 25-30 mins
-

@@ -28,4 +28,3 @@ ingredients:
 9. Season with salt and pepper.
 10. Spoon into buttered 9x11x2 inch baking dish.(Can be prepared 1 day ahead. Chill. Bring dressing to room temparture.)
 11. Preheat over to 350 degrees. Bake dressing until golden brown, about 30 minutes.
-

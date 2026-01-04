@@ -21,8 +21,6 @@ totalTime: 20 min
 
 ## Nutrition
 
-
-
 - Calories: 271
 - Sugar: 6g
 - Sodium: 248mg

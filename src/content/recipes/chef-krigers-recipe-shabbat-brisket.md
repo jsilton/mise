@@ -1,5 +1,5 @@
 ---
-title: 'Chef Kriger''s Recipe: Shabbat Brisket'
+title: "Chef Kriger's Recipe: Shabbat Brisket"
 ingredients:
   - '1 First Cut Brisket'
   - '1 Small Bag Baby Carrots'
@@ -26,4 +26,3 @@ ingredients:
 7. Bake Covered with Foil @ 350 degrees for 1.5 hours
 8. Let Chill in Refrigerator till cold. Slice against the grain. Place back in sauce and Re-bake for 25-45 minutes.
 9. Now Serve and Enjoy!!!
-

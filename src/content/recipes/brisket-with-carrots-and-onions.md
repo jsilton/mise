@@ -23,4 +23,3 @@ totalTime: 250 min
 2. Place the brisket in a heavy roasting pan. In a small bowl, combine the salt, pepper, garlic, and oregano. Rub the mixture on the brisket. Pile the carrots, celery, onions, and bay leaves on the brisket and pour in enough tomato juice to come about 3/4 of the way up the meat and vegetables. Cover the top of the pan with 2 sheets of parchment paper, then with aluminum foil. (The tomato juice will react unpleasantly with the aluminum foil if they touch.)
 3. Bake for 3 1/2 hours, or until the meat is tender. Remove the meat from the pan and keep it warm. Place the pan on 2 burners and boil the vegetables and sauce over medium heat for another 30 minutes, or until the sauce is thickened.
 4. To serve, slice the meat across the grain. Serve with the vegetables.
-

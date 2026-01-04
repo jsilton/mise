@@ -32,6 +32,4 @@ totalTime: 18 min
 
 ## Nutrition
 
-
-
 - Serving: 1cookie | Calories: 183kcal | Carbohydrates: 26g | Protein: 2g | Fat: 8g | Saturated Fat: 5g | Cholesterol: 27mg | Sodium: 153mg | Potassium: 31mg | Fiber: 1g | Sugar: 18g | Vitamin A: 197IU | Vitamin C: 1mg | Calcium: 24mg | Iron: 1mg

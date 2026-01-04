@@ -50,4 +50,3 @@ ingredients:
 ## Notes
 
 Assisted by ChatGPT
-

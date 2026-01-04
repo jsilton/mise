@@ -30,4 +30,3 @@ totalTime: 255 min
 3. Using tongs, transfer the quartered chicken to a plate and let cool slightly. Remove the meat from the bones and refrigerate. Return the skin and bones to the stockpot and simmer for 2 hours longer. Strain the chicken broth into a large soup pot and cook over high heat until reduced to 12 cups, about 15 minutes. Stir in the fish sauce.
 4. In a large bowl of warm water, soak the noodles until pliable, about 20 minutes.
 5. Bring a large saucepan of salted water to a boil. Drain the noodles, then add them to the saucepan and boil over high heat until tender, about 3 minutes. Drain well. Transfer the noodles to 6 large bowls and sprinkle with the scallion. Add the reserved chicken to the broth and simmer until heated through. Ladle the broth and chicken over the noodles. Serve with the bean sprouts, basil, lime wedges, jalapeños, chili-garlic sauce and hoisin sauce.
-

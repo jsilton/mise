@@ -22,4 +22,3 @@ totalTime: 180 min
 ## Notes
 
 Gochujang is available at Asian markets, stores like Whole Foods and amazon.com.
-

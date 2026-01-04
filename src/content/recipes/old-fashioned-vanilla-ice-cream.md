@@ -23,6 +23,4 @@ This recipe can easily be doubled for a 2-quart ice cream maker or multiplied fo
 
 ## Nutrition
 
-
-
 - Serving: 0.5cup | Calories: 198kcal | Carbohydrates: 15g | Protein: 2g | Fat: 14g | Saturated Fat: 8g | Cholesterol: 141mg | Sodium: 28mg | Potassium: 72mg | Sugar: 14g | Vitamin A: 12.3% | Vitamin C: 0.2% | Calcium: 6.5% | Iron: 1.4%

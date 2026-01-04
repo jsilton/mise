@@ -19,4 +19,3 @@ ingredients:
 3. Place the meat on top of the onions and put it into the oven at 400° F for 1 hour.
 4. Take the pan out of the oven, add the balsamic vinegar and honey, and cover the baking dish tightly. Return the pan to the oven, lower the temperature to 250° F, and cook for another 4 hours, until the meat is fork tender.
 5. Refrigerate the meat until completely cold (preferably overnight), then cut in thin slices against the grain. Return the sliced meat to the sauce. Reheat in the oven, or over a low flame. Serve with the onions and sauce.
-

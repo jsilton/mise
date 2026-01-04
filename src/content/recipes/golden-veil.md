@@ -20,4 +20,3 @@ The herbal complexity of Dom Benedictine complements the smokiness of mezcal and
 2. Shake vigorously and strain into coupe or wine glasses.
 3. Top with Prosecco.
 4. Garnish with an elegant lemon peel twist and a sprig of fresh thyme (lightly slapped to release its aroma).
-

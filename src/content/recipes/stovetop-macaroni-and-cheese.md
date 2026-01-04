@@ -27,8 +27,6 @@ Baked mac and cheese: If you have a little extra time, you can bake the macaroni
 
 ## Nutrition
 
-
-
 - Calories: 768Total Carbohydrates: 93 g (31%)Cholesterol: 79.4 mg (26.5%)Total Fat: 27.5 g (42.2%)Protein: 35.2 g (70.4%)Saturated fat: 15.1 g (75.7%)Per serving
 - based on: 4 servings. (% daily value)Sugar: 7.9 gUn
 - saturated fat: 0.9 g

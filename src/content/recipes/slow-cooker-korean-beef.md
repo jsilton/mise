@@ -28,4 +28,3 @@ totalTime: 520 min
 3. Cover and cook on low heat for 7-8 hours or high heat for 3-4 hours.
 4. In a small bowl, whisk together cornstarch and 1/4 cup water. Stir in mixture into the slow cooker. Cover and cook on high heat for an additional 30 minutes, or until the sauce has thickened.
 5. Serve immediately, garnished with green onions and sesame seeds, if desired.
-

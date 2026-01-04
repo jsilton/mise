@@ -18,4 +18,3 @@ ingredients:
 2. You blend it with an immersion blender, food processor, or blender. I chose not to blend it all the way to leave some chunks of potato.
 3. You eat it and feel smart and good at cooking and stuff. Garnish it with red pepper flakes or chipotle flakes if you are fancy.
 4. Before Slow Cooking
-

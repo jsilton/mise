@@ -43,8 +43,6 @@ Note: Make sure to salt the dish just enough to bring out of the flavors of basi
 
 ## Nutrition
 
-
-
 - Calories: 641 kcal
 - Saturated Fat: 9g
 - Cholesterol: 117mg

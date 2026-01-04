@@ -26,6 +26,4 @@ To keep German Pancakes from sticking to the pan, make sure you let the butter c
 
 ## Nutrition
 
-
-
 - Serving: 1square | Calories: 337kcal | Carbohydrates: 27g | Protein: 13g | Fat: 18g | Saturated Fat: 9g | Cholesterol: 279mg | Sodium: 221mg | Potassium: 213mg | Sugar: 3g | Vitamin A: 825IU | Calcium: 119mg | Iron: 2.6mg

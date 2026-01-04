@@ -34,4 +34,3 @@ totalTime: 50 min
 3. Prep the kale. De-stem the kale using your hands (grab the stem with one hand, and use the other hand to take off the leaves going up the stem). Chop the kale into small pieces, add to a bowl, drizzle with a little EVOO, and sprinkle with salt. Then massage the kale leaves with your hands until they soften – the kale will go down in bulk as well.
 4. Make the maple tahini dressing. Add all of the ingredients into a jar and whisk to combine – the dressing should be silky smooth and creamy. Adjust salt as needed. Add an additional 1-2 tbsp of apple cider as needed to thin out the dressing to a consistency you like.
 5. Assemble. Dump the roasted chickpeas and squash into the bowl of kale, along with the quinoa, golden raisins/Medjool dates, and toasted pepitas. Drizzle over half the dressing and toss to combine. Keep the reserved dressing for serving the salad in individual bowls.
-

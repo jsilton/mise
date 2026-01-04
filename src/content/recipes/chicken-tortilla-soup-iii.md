@@ -26,8 +26,6 @@ ingredients:
 
 ## Nutrition
 
-
-
 - Calories: 852 kcalTotal Carbohydrates: 65.7g
 - Cholesterol: 139 mg
 - Total Fat: 48.9 g

@@ -19,4 +19,3 @@ ingredients:
 3. Once the dough has a good consistency, stir in the chia seeds or flax and the chocolate chips.
 4. Use a spoon or your hands to scoop out small portions of the dough and roll them into balls.
 5. Place the finished balls on a plate or tray and chill them in the refrigerator for at least 15-20 minutes to help them set.
-

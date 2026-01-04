@@ -34,8 +34,6 @@ totalTime: 50 min
 
 ## Nutrition
 
-
-
 - Calories: 308kcal (15%) Carbohydrates: 17g (6%) Protein: 20g (40%) Fat: 17g (26%) Saturated Fat: 6g (30%)Polyun
 - saturated Fat: 2g
 - saturated Fat: 7g

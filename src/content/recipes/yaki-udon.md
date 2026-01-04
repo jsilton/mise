@@ -32,4 +32,3 @@ ingredients:
 3. In a wok or a large pan, heat 1 tablespoon of oil over medium-high. Add the pork and cook, breaking it up with a wooden spoon, until cooked through, about 5 minutes. Using a slotted spoon, transfer the meat to a small bowl.
 4. Pour the remaining 1 tablespoon of oil into the wok. Add the onion and mushrooms, and stir-fry, tossing frequently, until fragrant and the vegetables take on a little color, 2 to 3 minutes. Add the carrot, bok choy and garlic; constantly stir until the vegetables cook but still have a crunch, about 3 minutes. Stir in the scallions and cooked pork; stir-fry for 1 minute. Add the noodles and sauce, tossing until the noodles are coated and glossy. Taste and adjust any seasonings, if needed.
 5. Transfer yaki udon to bowls, and top each serving with chopped scallion and crushed red pepper, to taste. Serve with sesame seeds, furikake and chile oil, if you like.
-

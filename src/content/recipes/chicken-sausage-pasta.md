@@ -13,4 +13,3 @@ ingredients:
   - 'pepper'
   - 'olive oil'
 ---
-

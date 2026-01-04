@@ -37,6 +37,4 @@ Feel free to swap in our out any veggies you like, such as broccoli, carrots, sp
 
 ## Nutrition
 
-
-
 - Serving: 1BOWL / Calories: 522KCAL / Carbohydrates: 41G / Protein: 43G / Fat: 22G / Fiber: 6G / Sugar: 11G

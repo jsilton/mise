@@ -27,4 +27,3 @@ totalTime: 375 min
 ## Notes
 
 Gochugaru is available at Asian markets, stores like Whole Foods and amazon.com.
-

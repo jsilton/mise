@@ -26,4 +26,3 @@ totalTime: 2 min
 5. Place a paper towel into the microwave and set the mug on top (this is to catch any batter if your mug cake overflows).
 6. Microwave mug cake for 70 seconds on high (PLEASE READ NOTES CAREFULLY BELOW)
 7. Carefully remove from microwave and enjoy!
-

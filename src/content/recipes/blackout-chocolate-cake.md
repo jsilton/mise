@@ -37,4 +37,3 @@ totalTime: 75 min
 ## Notes
 
 I like to melt a little extra chocolate and drizzle it over the top. WHY THE HECK NOT, this is chocolate blackout cake!This cake can be served chilled or at room temperature, but it’s easier to cut at room temperature or before the chocolate drizzle sets.
-

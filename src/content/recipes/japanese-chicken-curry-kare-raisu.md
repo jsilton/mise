@@ -44,8 +44,6 @@ The Apple: Grated apple is the classic "secret ingredient" in Japan. It balances
 
 ## Nutrition
 
-
-
 - Calories: 495 kcal
 - Total Fat: 27g
 - Saturated Fat: 11g

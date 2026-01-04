@@ -20,4 +20,3 @@ totalTime: 10 min
 3. Drain and rinse noodles and return to the bowl. Gather your ingredients (noodles, shrimp, remaining 1/4 cup sweet chili sauce, and snow peas) in bowls and place on a sheet tray next to the stove.
 4. Heat a large skillet or wok over high heat. Add 1 tablespoon oil and swirl in pan to coat. When you see the first wisp of smoke, add shrimp and cook until they begin to turn pink, 1 minute each side. The sugars in the sweet chili sauce should caramelize just a little bit and create tasty bits in the pan.
 5. Make space in the middle of the pan, add remaining 1 tablespoon oil and sliced snow peas and cook 2 minutes. Add prepared noodles and ¼ cup of sweet chili sauce. Continue to cook until noodles are coated and heated through, about 4 to 6 minutes. Serve immediately.
-

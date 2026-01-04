@@ -28,8 +28,6 @@ totalTime: 60 min
 
 ## Nutrition
 
-
-
 - Calories: 491Total Carbohydrates: 71 gram
 - Cholesterol: 59 milligram
 - Total Fat: 22 gramsDietary fiber: 4 gram

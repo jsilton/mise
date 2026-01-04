@@ -28,8 +28,6 @@ totalTime: 95 min
 
 ## Nutrition
 
-
-
 - Calories: 364Total Carbohydrates: Carbohydrate 34g
 - Cholesterol: 0.0mg
 - Fat: 11.5g

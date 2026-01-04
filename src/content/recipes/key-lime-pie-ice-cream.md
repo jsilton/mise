@@ -17,8 +17,6 @@ ingredients:
 
 ## Nutrition
 
-
-
 - Calories: 317
 - Caloriesfrom
 - fat: 27%

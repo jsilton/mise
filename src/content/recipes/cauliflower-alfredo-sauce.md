@@ -20,4 +20,3 @@ totalTime: 15 min
 ## Notes
 
 The recipe was adapted from this Cauliflower Soup Recipe.
-

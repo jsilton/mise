@@ -23,4 +23,3 @@ totalTime: 40 min
 ## Notes
 
 For best results, use fresh marshmallows.1 jar (7 oz.) marshmallow crème can be substituted for marshmallows.Diet, reduced calorie or tub margarine is not recommended.Store no more than two days at room temperature in airtight container.To freeze, place in layers separated by wax paper in airtight container. Freeze for up to 6 weeks. Let stand at room temperature for 15 minutes before serving.
-

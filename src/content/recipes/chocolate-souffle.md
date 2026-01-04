@@ -26,8 +26,6 @@ Soufflé can be assembled up to 30 minutes before baking. Keep, covered with an 
 
 ## Nutrition
 
-
-
 - Calories: 603
 - Carbohydrates: 80 g(27%)Fat 28 g(43%)Protein 18 g(36%)Saturated Fat 15 g(75%)Sodium 185 mg(8%)Polyun
 - saturated Fat: 2 g

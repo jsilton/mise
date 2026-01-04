@@ -25,8 +25,6 @@ totalTime: 25 min
 
 ## Nutrition
 
-
-
 - Calories: 0 calorie
 - Sodium: 0 grams sodium
 - Fiber: 0 grams fiber

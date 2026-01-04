@@ -33,8 +33,6 @@ Substitute milk: If you don’t have any half-and-half on hand, you can use milk
 
 ## Nutrition
 
-
-
 - Serving: 1slice | Calories: 234kcal | Carbohydrates: 3g | Protein: 14g | Fat: 18g | Saturated Fat: 9g | Polyun
 - saturated Fat: 2g | Monoun
 - saturated Fat: 6g | Trans Fat: 0.1g | Cholesterol: 161mg | Sodium: 460mg | Potassium: 171mg | Fiber: 0.2g | Sugar: 1g | Vitamin A: 634IU | Vitamin C: 1mg | Calcium: 175mg | Iron: 1mg

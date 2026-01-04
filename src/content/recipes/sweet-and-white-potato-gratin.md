@@ -29,4 +29,3 @@ ingredients:
 9. Cover with foil & bake on 425 for 15 minutes until cheese is bubbly.
 10. Remove foil & reduce heat to 400 degrees & bake for 45 minutes until top is golden & bubbly.
 11. Let cool & serve as a Thanksgiving side dish, then EAT!
-

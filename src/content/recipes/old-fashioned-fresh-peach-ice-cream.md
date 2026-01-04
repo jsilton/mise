@@ -28,8 +28,6 @@ totalTime: 38 min
 
 ## Nutrition
 
-
-
 - Calories: 480 calorie
 - Saturated Fat: 16 grams saturated fat
 - Sodium: 153 grams sodium

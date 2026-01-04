@@ -27,8 +27,6 @@ totalTime: 45 min
 
 ## Nutrition
 
-
-
 - Calories: 427
 - Fat: 12.6g
 - fat: 4.9g

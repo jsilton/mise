@@ -37,4 +37,3 @@ totalTime: 165 min
 13. Fill the cooled crust with the cheesecake batter, enough to cover the upper rim of the crust.
 14. Carefully place the tin foil-wrapped springform pan in the center of the water bath and cook for 1 hour and 25 minutes, or until the cheesecake mixture has fully set. To check for doneness, give the pan a gentle shake. The center should jiggle slightly more than the outer rim, and the top should be lightly golden and matte.
 15. Once fully set, remove the pan from the water bath. Discard the foil, and place it on a wire rack to cool. When completely cooled, put in the refrigerator for 4 to 6 hours before serving.
-

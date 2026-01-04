@@ -21,8 +21,6 @@ totalTime: 18 min
 
 ## Nutrition
 
-
-
 - Calories: 129
 - Fat: 0.0g
 - Protein: 0.0g

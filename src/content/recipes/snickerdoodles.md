@@ -22,4 +22,3 @@ ingredients:
 4. Roll into walnut size balls
 5. Roll each ball in a mixture of sugar and cinnamon.
 6. Bake 8 minutes at 400 degrees, spacing balls on cookie sheet to allow room for spreading.
-

@@ -13,4 +13,3 @@ ingredients:
 ## Directions
 
 1. Muddle basil in bottom of tall glass; add ice, grapefruit juice, gin and tonic. Stir, then top with a few drops bitters. Garnish with basil sprig.
-

@@ -29,8 +29,6 @@ totalTime: 55 min
 
 ## Nutrition
 
-
-
 - Serving: 1biscuit | Calories: 247kcal | Carbohydrates: 23g | Protein: 15g | Fat: 10g | Saturated Fat: 4g | Polyun
 - saturated Fat: 2g | Monoun
 - saturated Fat: 2g| Trans Fat: 0.01g | Cholesterol: 84mg | Sodium: 844mg | Potassium: 170mg | Fiber: 2g | Sugar: 2g | Vitamin A: 689IU | Vitamin C: 6mg | Calcium: 225mg | Iron: 2mg

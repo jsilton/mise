@@ -23,4 +23,3 @@ totalTime: 30 min
 2. In a large bowl, toss together the flour, baking powder, baking soda, salt and chocolate chips. Set aside.
 3. In a medium bowl, whisk together the melted butter, sugar, eggs, milk and vanilla. Slowly add to the dry ingredients. Gently fold together until JUST combined.
 4. Divide the batter into the 12 muffin cups and bake at 425°F for 5 minutes. Then reduce the oven temperature to 375°F and continue to bake for another 12-15 minutes or until a toothpick inserted into the center comes out clean. Do not overbake or the muffins will be dry. Let cool for about 5-10 minutes and enjoy warm.
-

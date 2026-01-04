@@ -31,8 +31,6 @@ totalTime: 28 min
 
 ## Nutrition
 
-
-
 - Calories: 1407%
 - Fat: 6 g 9%
 - Fiber: 2 g 8%

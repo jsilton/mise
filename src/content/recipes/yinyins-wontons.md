@@ -1,5 +1,5 @@
 ---
-title: 'YinYin''s Wontons'
+title: "YinYin's Wontons"
 ingredients:
   - '3-4 oz mushrooms, finely chopped'
   - '1/4 lb shrimp'
@@ -21,4 +21,3 @@ ingredients:
 2. Test two little tabs in microwave (30 seconds).
 3. Test for salt (add more garlic salt or soy sauce if needed).
 4. Roll into wonton skins wetting half of skin to stick.
-

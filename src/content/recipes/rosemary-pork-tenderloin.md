@@ -21,4 +21,3 @@ totalTime: 45 min
 2. Preheat oven to 375 degrees F.
 3. Place rosemary sprigs and smashed garlic in the center of a roasting pan. Remove the plastic wrap from the tenderloins and top each with 2 slices of maple bacon. Tie with kitchen twine to secure bacon strips.
 4. Place the roasting pan in the oven and bake for 25 to 30 minutes or until an instant-read thermometer, inserted in the tenderloins, registers 160 degrees F. Remove from oven when desired doneness is reached and let sit for 5 to 10 minutes on a cutting board. Remove kitchen twine, slice and serve with your favorite sides. Garnish with the rosemary sprigs and garlic. Enjoy!
-

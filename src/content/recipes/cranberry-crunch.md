@@ -21,4 +21,3 @@ ingredients:
 5. Mix topping together.
 6. Spread thinly on top of dish.
 7. Bake 45 minutes to 1 hour (done when bubbly).
-

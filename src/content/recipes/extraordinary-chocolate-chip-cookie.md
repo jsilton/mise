@@ -19,4 +19,3 @@ ingredients:
 1. Preheat oven to 350 degrees. Whisk together flour, salt, baking powder, and baking soda; set aside.
 2. In the bowl of an electric mixer fitted with the paddle attachment, cream together butter and sugars on medium speed until pale and fluffy, about 4 minutes. Beat in eggs, one at a time; add vanilla. Reduce speed to low. Add flour mixture and beat until just combined. Add chocolate chips and mix until evenly distributed throughout. Cookie dough can be refrigerated, covered, overnight, if desired.
 3. Using a 2 1/4-inch ice cream scoop, drop dough onto parchment-lined baking sheets, spacing about 2 inches apart. Bake until golden around the edges, 15 to 17 minutes. Let cool on sheets 5 minutes, then transfer to a wire rack to cool completely.
-

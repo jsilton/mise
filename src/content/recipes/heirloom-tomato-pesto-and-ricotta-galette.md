@@ -33,4 +33,3 @@ totalTime: 45 min
 7. Gently fold over the edges so it overlaps the tomatoes, then brush the edges with the olive oil. Sprinkle the shredded cheese over the crust.
 8. Bake for 25-30 minutes, until edges are golden brown, and tomatoes are juicy.
 9. Enjoy warm garnished with a drizzle of olive oil, more dollops of ricotta, flaky salt, chili pepper flakes, and freshly chopped herbs.
-

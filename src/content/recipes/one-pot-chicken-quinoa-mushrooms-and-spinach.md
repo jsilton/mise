@@ -28,8 +28,6 @@ totalTime: 40 min
 
 ## Nutrition
 
-
-
 - Calories: 398kcal
 - Calories from fat: 111
 - Total Fat: 12g

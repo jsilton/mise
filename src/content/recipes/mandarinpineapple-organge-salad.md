@@ -15,4 +15,3 @@ ingredients:
 2. Add sour cream using whisk to smooth.
 3. Add pineapple and mandarin oranges.
 4. Put in refrigerator to congeal.
-

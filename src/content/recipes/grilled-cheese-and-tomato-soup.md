@@ -6,4 +6,3 @@ ingredients:
   - 'tomato soup'
   - 'avocado'
 ---
-

@@ -51,8 +51,6 @@ Kasuri Methi is essential for the restaurant aroma.**Kashmiri Chili Powder **pro
 
 ## Nutrition
 
-
-
 - Calories: 607 kcal
 - Total Fat: 43g
 - Saturated Fat: 19g

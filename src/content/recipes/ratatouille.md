@@ -29,4 +29,3 @@ ingredients:
 9. Let the squash and bell pepper pan continue to bake until the peppers are caramelized, about 5 to 10 more minutes. Then, transfer the contents of the pan into the simmering sauce. Continue simmering for 5 more minutes to give the flavors time to meld.
 10. Remove the pot from the heat. Stir in 1 teaspoon olive oil, the fresh basil and red pepper flakes. Crumble the dried oregano between your fingers as you drop it into the pot. Season to taste with additional salt (I usually add ¼ teaspoon more) and black pepper.
 11. Serve in bowls, perhaps with a little drizzle of olive oil, additional chopped basil, or black pepper on top (all optional). Like all stews, this ratatouille’s flavor improves as it cools. It’s even better reheated the next day. Ratatouille keeps well in the refrigerator, covered, for 4 days, or for several months in the freezer.
-

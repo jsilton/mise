@@ -27,8 +27,6 @@ Washing the rice removes surface starch and prevents the rice from becoming a st
 
 ## Nutrition
 
-
-
 - Calories: 230 kcal
 - Total Fat: 2.5g
 - Saturated Fat: 1.5g

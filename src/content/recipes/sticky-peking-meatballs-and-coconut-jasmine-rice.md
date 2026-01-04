@@ -37,8 +37,6 @@ Rice Liquid: The mixture of coconut milk and coconut water ensures the rice is f
 
 ## Nutrition
 
-
-
 - Calories: ~760 kcal
 - Protein: 28g
 - Carbohydrates: 65g

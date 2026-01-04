@@ -1,5 +1,5 @@
 ---
-title: 'Nana''s Biscuits'
+title: "Nana's Biscuits"
 ingredients:
   - '¾ Cups buttermilk'
   - 'Pinch of Baking Soda'
@@ -15,4 +15,3 @@ ingredients:
 ## Notes
 
 If not brown after 10 minutes, turn to broil and watch till brown on top.
-

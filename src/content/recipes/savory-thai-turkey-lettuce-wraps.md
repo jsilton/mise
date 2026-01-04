@@ -22,8 +22,6 @@ ingredients:
 
 ## Nutrition
 
-
-
 - (per serving): About 250 calories
 - 2: 4 g protein
 - 8 g carbs

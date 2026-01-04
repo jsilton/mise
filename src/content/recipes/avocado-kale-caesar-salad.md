@@ -19,4 +19,3 @@ totalTime: 10 min
 
 1. Cut the avocado in half. Reserve one half for the salad. Blend the other half with the water, mayo, garlic, lemon juice, Dijon, and salt. Taste and adjust!
 2. Toss the chopped kale with the dressing. Throw in a handful of pepitas and Parmesan and toss it all around. Finish the salad with the remaining half of the avocado, cut into cubes. YUM!
-

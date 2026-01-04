@@ -25,4 +25,3 @@ totalTime: 30 min
 6. KELLY'S NOTES:
 7. Day-old bread that's slightly dried out works best for French toast since it will soak up the most custard.
 8. Thick-cut bread with sturdy crusts is essential for this recipe, as the crusts help the sticks hold their shape. If you prefer regular French toast, skip slicing the Texas toast into sticks or use a crusty French baguette sliced into 1-inch-thick rounds.
-

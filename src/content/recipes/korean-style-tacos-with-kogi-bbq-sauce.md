@@ -23,4 +23,3 @@ ingredients:
 1. Whisk all ingredients together until sugar has dissolved and mixture is smooth. You can make this a few days in advance and store tightly covered in the refrigerator.
 2. Mix together all ingredients. You can make this a few hours in advance and store in refrigerator, however the longer it sits, the less “crunch” you’ll have. I like making this cucumber pickle 1 hour prior, storing in refrigerator and serving it cold on the tacos for texture and temperature contrast.
 3. ***
-

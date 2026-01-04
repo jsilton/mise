@@ -43,6 +43,4 @@ ingredients:
 
 ## Nutrition
 
-
-
 - Calories (kcal): 810 Fat (g) 44 Saturated Fat (g) 16 Cholesterol (mg) 125 Carbohydrates (g) 100 Dietary Fiber (g) 3 Total Sugars (g) 75 Protein (g) 9 Sodium (mg) 600...Read More

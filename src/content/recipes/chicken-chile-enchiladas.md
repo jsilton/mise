@@ -38,8 +38,6 @@ A word on casserole dishes: Before assembling your enchiladas, make sure the dis
 
 ## Nutrition
 
-
-
 - Calories: 662Total Carbohydrates: 14 g (4.7%)Cholesterol: 171.8 mg (57.3%)Total Fat: 47.9 g (73.8%)Protein: 42.4 g (84.8%)Saturated fat: 21.4 g (107%)Per serving
 - based on: 4 servings. (% daily value)Sugar: 1.5 gUn
 - saturated fat: 1.1 g

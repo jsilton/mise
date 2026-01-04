@@ -28,8 +28,6 @@ ingredients:
 
 ## Nutrition
 
-
-
 - Calories: 344
 - Total Fat: 10g
 - Saturated Fat: 1g

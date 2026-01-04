@@ -23,4 +23,3 @@ totalTime: 50 min
 2. PHOTOGRAPHER: JEN CAUSEY, FOOD STYLIST: MARGRET MONROE DICKEY
 3. Meanwhile, toss asparagus with the remaining 1 tablespoon oil, 1/8 teaspoon salt and 1/8 teaspoon pepper in the medium bowl. Combine butter, lemon juice, garlic, 1/4 teaspoon salt and the remaining 1/4 teaspoon pepper in a small bowl.
 4. Sprinkle salmon with the remaining 1/8 teaspoon salt. Move the potatoes to one side of the pan. Place the salmon in the center of the pan; drizzle with the butter mixture. Spread the asparagus on the empty side of the pan. Roast until the salmon is just cooked through and the vegetables are tender, 10 to 12 minutes. Garnish with parsley.
-

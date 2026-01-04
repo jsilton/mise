@@ -25,6 +25,4 @@ totalTime: 25 min
 
 ## Nutrition
 
-
-
 - calories: 392 kcal

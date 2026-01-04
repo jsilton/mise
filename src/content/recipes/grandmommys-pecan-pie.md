@@ -1,5 +1,5 @@
 ---
-title: 'Grandmommy''s Pecan Pie'
+title: "Grandmommy's Pecan Pie"
 servings: '2 pies'
 ingredients:
   - '1/2 stick margarine, melted'
@@ -15,4 +15,3 @@ ingredients:
 
 1. Mix in this order:1. sugar2. Karo3. eggs4. margarine5. vanilla6. nuts
 2. Bake at 350 degrees for 40 minutes in 2 pie shells.
-

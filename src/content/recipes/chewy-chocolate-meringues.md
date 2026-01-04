@@ -17,4 +17,3 @@ ingredients:
 6. Scoop large spoonfuls onto the prepared baking sheets. These cookies won’t spread, but you want to keep an inch between them on the sheet. They will look like fluffy clouds, and will retain this shape during baking.
 7. Bake in the oven for about 45 minutes, rotating the sheets halfway through, until they are hard on the outside and soft in the center. The best way to test is to break one in half and make sure it’s cooked through, but still soft.
 8. Allow to cool completely on the baking sheet before removing them carefully with your hands. Store in an airtight container up to 4 days.
-

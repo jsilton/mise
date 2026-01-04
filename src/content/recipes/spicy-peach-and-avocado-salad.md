@@ -20,4 +20,3 @@ totalTime: 15 min
 
 1. Whisk together lemon juice, oil, honey, shallot, and chile in a bowl. Season with salt and pepper. Add peaches and toss to coat. Let sit at least 15 minutes and up to 1 hour.
 2. Just before serving, add avocado and mint and toss to combine. Season with salt and pepper. Top with pistachios and garnish with mint.
-

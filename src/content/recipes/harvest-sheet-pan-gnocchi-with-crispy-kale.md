@@ -29,4 +29,3 @@ totalTime: 40 min
 2. Add the sliced chicken sausage, gnocchi, squash, kale, olive oil, rosemary, garlic powder, salt, thyme, ground black pepper, and paprika to the bowl and toss to coat.
 3. Transfer the sausage and the gnocchi and vegetable mixture to a large sheet pan and spread out in single layer. Bake until the squash is tender and slightly crisp on the outside 24 to 26 minutes.
 4. Cool on the sheet pan for about 5 minutes. To serve, top with the grated parmesan or nutritional yeast and divide evenly among 4 plates or bowls.
-

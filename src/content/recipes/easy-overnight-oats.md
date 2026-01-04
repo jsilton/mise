@@ -53,11 +53,9 @@ totalTime: 490 min
 
 ## Notes
 
-*note: use coconut milk in the base recipe
+\*note: use coconut milk in the base recipe
 
 ## Nutrition
-
-
 
 - Calories: 308kcal
 - Carbohydrates: 48g

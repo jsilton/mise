@@ -19,4 +19,3 @@ totalTime: 40 min
 4. Mix all ingredients throughly.
 5. Turn into pie pan, spreading top evenly.
 6. Bake until top is browned, 30 minutes.
-

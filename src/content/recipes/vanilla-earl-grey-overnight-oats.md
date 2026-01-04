@@ -27,8 +27,6 @@ I used quick oats (aka instant oats). These oats produce a softer and creamier t
 
 ## Nutrition
 
-
-
 - TOTAL FAT: 6g
 - SATURATED FAT: 1g
 - TRANS FAT: 0g

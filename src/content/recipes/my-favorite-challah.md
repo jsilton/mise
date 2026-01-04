@@ -22,4 +22,3 @@ totalTime: 60 min
 5. Beat remaining egg and brush it on loaves. Either freeze breads or let rise another hour.
 6. If baking immediately, preheat oven to 375 degrees and brush loaves again. If freezing, remove from freezer 5 hours before baking. Then dip your index finger in the egg wash, then into poppy or sesame seeds and then onto a mound of bread. Continue until bread is decorated with seeds.
 7. Bake in middle of oven for 35 to 40 minutes, or until golden. Cool loaves on a rack.
-

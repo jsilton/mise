@@ -45,6 +45,4 @@ Bibimbap simply translates to “mixed rice with meat and assorted vegetables“
 
 ## Nutrition
 
-
-
 - Calories: 613 kcal

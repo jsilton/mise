@@ -21,8 +21,6 @@ ingredients:
 
 ## Nutrition
 
-
-
 - (per serving): Calories 495
 - Protein: 39g
 - Total Fat: 31g

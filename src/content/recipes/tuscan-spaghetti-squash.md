@@ -23,4 +23,3 @@ totalTime: 1 min
 2. Cut squash in half lengthwise. Rub all over with olive oil and season with salt and pepper. Place flesh side-down on baking sheet. Bake for 40-45 minutes, until the spaghetti squash is tender. Let cool until cool enough to handle, then use two forks to pull apart spaghetti squash flesh into fine noodle-like strings.
 3. Meanwhile, cook bacon in a medium skillet until crispy. Transfer to a paper towel-lined plate to drain.
 4. Pour off half the bacon fat and add garlic, tomatoes and spinach to the skillet. Season with salt and pepper. Add heavy cream and Parmesan and let simmer until slightly thickened. Add spaghetti squash and toss until fully coated. Crumble bacon over the squash and stir to combine. Garnish with basil.
-

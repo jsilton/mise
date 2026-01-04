@@ -30,8 +30,6 @@ Time plan tip: Prepare to the end of step 2, 2 hours ahead. Cover and store in t
 
 ## Nutrition
 
-
-
 - Fat Total: 1.5g
 - Saturated Fat: 1g
 - Protein: 1.5g

@@ -17,4 +17,3 @@ My wife loves oatmeal for breakfast, and one day, when I looked inside a can of 
 ## Directions
 
 1. 1. Combine the oats and water in a medium bowl, cover, and let stand overnight at room temperature2. Put the raisins in a small bowl and pour the vinegar over them. Let stand while you cook the oatmeal.3. Pour the oats and water into a medium saucepan and bring to a boil over medium-high heat. Add the brown sugar and salt, reduce the heat to a simmer, and cook, stirring occasionally, for about 20 minutes. The oatmeal is done if its “squeaky” to the bite, not squishy.4. Fold in the mashed banana and continue cooking stirring occasionally, until header through, about 2 minutes.5. To serve, divide the oatmeal amount 4 bowls. Drain and sprinkle 1 tablespoon of the vinegar-soaked raisins over each bowl. With a vegetable peeler, shave 3 or 4 strips of Parmesan, if using, over each serving.
-

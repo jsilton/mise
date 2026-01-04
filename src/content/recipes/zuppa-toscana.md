@@ -21,13 +21,11 @@ totalTime: 50 min
 
 1. Heat stove to medium. Add the sausage to the pot and sprinkle with crushed red pepper, if desired. Cook, stirring and breaking up lumps with a spoon, until browed - about 5-8 minutes. Use a slotted spoon to remove the sausage to a plate to drain. Save the fat in the pot.
 2. With the heat still over medium, add the onions to the pot and cook until translucent, then add the garlic, stir, and cook another 45 seconds. Add the potatoes to the pot, sprinkle the potatoes, onions, and garlic with sea salt and pepper and stir to coat.
-3. Add the broth to the pot and bring to a boil over medium high heat. Lower the heat to medium and continue to cook until potatoes are fork tender - about 10 minutes. If using mushrooms or cauliflower**, move on to the next step after the broth boils.
+3. Add the broth to the pot and bring to a boil over medium high heat. Lower the heat to medium and continue to cook until potatoes are fork tender - about 10 minutes. If using mushrooms or cauliflower\*\*, move on to the next step after the broth boils.
 4. Add the coconut milk to the pot and the sausage, stir cook about 5 minutes to blend flavors. Stir in the kale, cooking just another minute or so until the kale is wilted and vibrant green. Season the soup with sea salt and pepper to taste, if desired.
 5. Remove from heat and serve - the soup will thicken as it cools. This soup stores well covered in the refrigerator for up to 5 days, or, you can freeze it for up to one month. Enjoy!
 
 ## Nutrition
-
-
 
 - Calories: 439kcal
 - Carbohydrates: 24g

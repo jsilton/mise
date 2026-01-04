@@ -21,4 +21,3 @@ totalTime: 55 min
 4. Brush the pan or griddle with the remaining olive oil, allow it to heat until it shimmers and is almost smoking, then place meat on the hot surface and cook, without touching, until it forms a good crust, approximately 10 minutes.
 5. While the meat cooks, surround it with the peaches, cut side down, and dot the fruit with the butter. (If you’re using two cast-iron skillets, place the peaches in their own oiled pan.) Let them cook for approximately 5 minutes, or until they are soft and slightly charred. Transfer to a platter and tent with foil to keep warm.
 6. When the meat is well browned on the first side, use tongs to turn it over, and cook in the remaining butter for another 5 to 7 minutes. Remove the meat to a carving board and allow it to rest below a tent of foil for approximately 5 minutes. Slice the meat and serve with the peaches.
-

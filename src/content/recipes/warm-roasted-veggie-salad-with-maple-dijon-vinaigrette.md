@@ -39,4 +39,3 @@ totalTime: 35 min
 7. Once the kale has softened, remove the warm roasted veggies from the oven and add them to the bowl with the kale, followed by the dried cranberries and grated parmesan cheese.
 8. Finally, pour the dressing over top of the salad and use your clean hands to toss it, to ensure that all of the veggies and kale are evenly coated in the dressing.
 9. Once it's done, serve it and enjoy! Store any leftovers in an airtight container, in the fridge, for up to three days.
-

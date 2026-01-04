@@ -27,4 +27,3 @@ totalTime: 75 min
 2. In the same saucepan, heat the cider vinegar with the sugar and a generous pinch of salt and pepper just until the sugar dissolves. Pour the vinegar over the vegetables and refrigerate the corn relish until chilled.
 3. Meanwhile, in a small bowl, stir the canola oil with the garlic, paprika, dry mustard and cayenne and season generously with salt and pepper. Using a very sharp knife, quarter the tenderloin lengthwise, forming 4 long "dogs." Rub the tenderloin dogs with half of the seasoned oil. Brush the cut sides of the baguette with the remaining seasoned oil.
 4. Grill the dogs over high heat, turning them occasionally, until they are lightly charred outside, about 10 minutes for medium-rare meat. Grill the baguette, oiled-side down, until lightly toasted. Serve the beef tenderloin dogs on the toasted baguette, topped generously with the corn relish.
-

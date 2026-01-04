@@ -35,4 +35,3 @@ totalTime: 80 min
 7. When you get the right taste, add shrimp and stir. Sprinkle white pepper around.
 8. Add bean sprouts and chives. Stir a few more times. The noodles should be soft, dry and very tangled.
 9. Pour onto the serving plate and sprinkle with ground pepper and peanuts. Serve hot with the banana flower slice, a wedge of lime on the side, raw Chinese chives and raw bean sprouts on top.
-

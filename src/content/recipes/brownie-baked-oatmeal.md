@@ -18,4 +18,3 @@ ingredients:
 2. Add all ingredients (except chocolate chips) to a blender and blend until fully combined.
 3. Pour batter into baking dish, top with chocolate chips and bake for about 15 minutes.
 4. Top with flakey sea salt (optional) and enjoy!
-

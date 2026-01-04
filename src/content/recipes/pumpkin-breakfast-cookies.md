@@ -32,8 +32,6 @@ To make this recipe egg-free, many ready have commented that they used flax egg 
 
 ## Nutrition
 
-
-
 - Calories: 192Total Carbohydrates: 22g
 - Total Fat: 10g
 - Dietary fiber: 4g

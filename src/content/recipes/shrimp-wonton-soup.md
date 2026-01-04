@@ -34,4 +34,3 @@ totalTime: 30 min
 4. Boil some water in pot; add wonton in to cook for around 3-4 minutes depending on the size of your wonton. Blend green vegetables too.
 5. Scoop around 1 cup of boiling water from the pot to the serving bowls to tune the seasoning and then transfer all the wonton and green vegetables to bowls. Pour extra water to soak the wonton.
 6. Serve immediately with green onion and coriander garnished.
-

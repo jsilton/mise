@@ -25,4 +25,3 @@ ingredients:
 ## Notes
 
 For two small loafs, bake for 40 minutes.
-

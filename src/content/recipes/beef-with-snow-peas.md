@@ -30,8 +30,6 @@ totalTime: 16 min
 
 ## Nutrition
 
-
-
 - Fat: 11 gram
 - Calories: 215
 - Saturated Fat: 30 gram

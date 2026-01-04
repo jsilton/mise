@@ -29,8 +29,6 @@ The nutritional information is for 2 Egg Bites.
 
 ## Nutrition
 
-
-
 - Calories: 249kcal
 - Carbohydrates: 2g
 - Protein: 18g

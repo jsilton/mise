@@ -26,8 +26,6 @@ Tip: To make “ribbon-thin” zucchini, slice lengthwise with a vegetable peele
 
 ## Nutrition
 
-
-
 - Serving size: 1½ cupsPer serving: 426 calories
 - 1: 1 g fat(6 g sat)
 - 4 g fiber

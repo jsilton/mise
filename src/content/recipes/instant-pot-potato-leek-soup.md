@@ -48,6 +48,4 @@ Adapted from my Grandpa's recipe.
 
 ## Nutrition
 
-
-
 - Calories: 244 kcal

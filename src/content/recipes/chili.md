@@ -28,4 +28,3 @@ totalTime: 90 min
 2. Add the garlic, chili powder, and cumin, stir to coat the vegetables, and cook until fragrant, about 1 minute. Add the ground beef and measured salt and cook, breaking the meat into small pieces with a wooden spoon, until the beef is no longer pink, about 7 minutes.
 3. Transfer the mixture to the slow cooker, add the diced tomatoes and their juices, tomato sauce, and beans, and stir to combine. Cover and cook until the chili thickens and the flavors meld, about 8 hours on low or 6 hours on high.
 4. Stir in the jalapeños or green chiles. Taste and season with salt as needed, and serve with the cheese, scallions, and sour cream.
-

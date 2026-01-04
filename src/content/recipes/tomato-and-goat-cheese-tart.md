@@ -32,4 +32,3 @@ totalTime: 160 min
 5. Place tart pan on a rimmed baking sheet. Place a piece of parchment paper on top of frozen tart; place pie weights or dried beans on top of parchment, filling to edge of tart pan. Bake at 450°F until just set and starting to get golden on edges, 20 to 25 minutes. Carefully remove beans and parchment, and let cool slightly, about 10 minutes. Meanwhile, reduce oven temperature to 425°F.
 6. Whisk together ricotta, garlic, and remaining 2 teaspoons thyme and 1 cup goat cheese in a bowl until combined. Using an offset spatula, spread cheese mixture evenly in bottom of crust. Arrange tomato slices evenly on top, slightly overlapping when necessary. Drizzle remaining 1 tablespoon olive oil over tomato slices; sprinkle evenly with remaining 1 teaspoon salt and 1/2 teaspoon pepper.
 7. Bake tart at 425°F until tomatoes and crust are browned, 20 to 25 minutes. Let cool until just warm, 20 to 30 minutes. Remove from tart pan. Garnish with basil leaves.
-

@@ -23,4 +23,3 @@ totalTime: 30 min
 ## Notes
 
 You can use fresh tomatoes for this recipe if you wish. It adds a little extra work, but would taste great if you use a sweet variety of tomatoes. The ones one the vine are normally quite good. Make sure you blanch them (pour boiling water over them) and remove the skins plus the hard green bit at the top. Then cube them and proceed with the recipe as above.
-

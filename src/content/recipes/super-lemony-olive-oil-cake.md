@@ -22,4 +22,3 @@ ingredients:
 2. Whisk flour, salt, baking powder, and baking soda in a large bowl to combine. Make a well in the center and gradually pour egg mixture into well. Whisk, using circular motions to slowly incorporate egg mixture, until batter is mostly smooth (some lumps are okay). Scrape batter into prepared pan and smooth surface. Sprinkle remaining 1 Tbsp. sugar over.
 3. Bake cake until top is golden brown and a tester inserted into the center comes out clean, about 50 minutes. Transfer pan to a wire rack and let cake cool before unmolding.
 4. Just before serving, dust cake with powdered sugar and top with more lemon zest if you have it.Do ahead: Cake can be baked 3 days ahead. Store tightly wrapped at room temperature.
-

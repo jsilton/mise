@@ -24,4 +24,3 @@ totalTime: 80 min
 2. Meanwhile, fill a large pot with 4 quarts of water and bring to a boil. Add 1 1/2 tablespoons of coarse salt, cover and return to a boil.
 3. Add the pasta to the pot and stir rapidly with a wooden spoon. Cover and bring back to a boil. Uncover and cook the pasta, stirring frequently, until it is al dente.
 4. Drain the pasta and immediately transfer it to a warmed bowl. Toss with the lamb sauce and the 1/3 cup of grated cheese. Serve at once, passing additional cheese at the table.
-

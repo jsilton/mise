@@ -34,6 +34,4 @@ ingredients:
 
 ## Nutrition
 
-
-
 - Serving: 1serving | Calories: 246kcal | Carbohydrates: 10g | Protein: 25g | Fat: 9.8g | Saturated Fat: 1.2g | Cholesterol: 73mg | Sodium: 634mg | Potassium: 512mg | Fiber: 0.8g | Sugar: 3.5g | Calcium: 25mg | Iron: 1mg

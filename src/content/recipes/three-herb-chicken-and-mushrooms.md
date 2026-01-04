@@ -25,8 +25,6 @@ totalTime: 35 min
 
 ## Nutrition
 
-
-
 - 5: 4 g fat (14 g sat. fat
 - saturated fat
 - 2: 3 g monounsatured fat)

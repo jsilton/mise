@@ -34,8 +34,6 @@ ingredients:
 
 ## Nutrition
 
-
-
 - Fat: 12.8 g
 - Calories: 219 calorie
 - Saturated Fat: 5.1 g

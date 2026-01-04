@@ -26,4 +26,3 @@ totalTime: 45 min
 7. Serve and enjoy!
 8. From the Editor
 9. To make this cornbread recipe in a skillet: Place a 9-inch cast iron skillet in the oven to heat while you prepare the batter. Carefully remove the skillet using oven mitts and add ½ cup butter. Let the butter melt completely, swirling to coat the bottom and sides of the pan. Pour prepared cornbread batter into the hot, buttered skillet. Bake in the preheated oven until golden brown and a toothpick inserted in the center comes out clean, 25 to 30 minutes.
-

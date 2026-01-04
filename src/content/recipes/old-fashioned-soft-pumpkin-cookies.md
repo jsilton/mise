@@ -29,8 +29,6 @@ totalTime: 28 min
 
 ## Nutrition
 
-
-
 - Total Fat: 3 g 5%
 - Saturated Fat: 2 g 9%
 - Cholesterol: 15 mg 4%

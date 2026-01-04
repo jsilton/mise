@@ -28,11 +28,9 @@ totalTime: 28 min
 
 ## Notes
 
-*Nutrition information is a rough estimate.
+\*Nutrition information is a rough estimate.
 
 ## Nutrition
-
-
 
 - Calories: 171 Fat: 6g
 - Saturated fat: 4g

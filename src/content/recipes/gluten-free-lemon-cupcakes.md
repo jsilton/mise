@@ -35,8 +35,6 @@ totalTime: 30 min
 
 ## Nutrition
 
-
-
 - TOTAL FAT: 18g
 - SATURATED FAT: 6g
 - TRANS FAT: 0g

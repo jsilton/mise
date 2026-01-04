@@ -22,4 +22,3 @@ totalTime: 35 min
 ## Notes
 
 Doubles well. Best served warm.
-

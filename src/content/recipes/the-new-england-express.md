@@ -23,4 +23,3 @@ ingredients:
 4. Assembly
 5. Mix thyme syrup, cider, rum, lime juice, and bitters in a pitcher. Divide among rocks glasses filled with ice; top off with club soda. Garnish with thyme sprigs and lime slices.
 6. DO AHEAD: Thyme syrup, cider, rum, lime juice, and bitters can be mixed 4 hours ahead. Cover and chill.
-

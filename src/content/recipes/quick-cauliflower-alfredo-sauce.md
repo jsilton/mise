@@ -46,8 +46,6 @@ Store any leftover sauce in an airtight container in the fridge for 3-5 days. Wa
 
 ## Nutrition
 
-
-
 - Calories: 307kcal
 - Carbohydrates: 47g
 - Protein: 13g

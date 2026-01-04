@@ -26,4 +26,3 @@ totalTime: 40 min
 1. Place spinach in a large colander in the sink. Bring a large saucepan of water to a boil over high heat. Add spaghetti and cook according to package directions. Drain the pasta over the spinach; toss to wilt the spinach.
 2. PHOTOGRAPHER: JEN CAUSEY, FOOD STYLIST: MARGRET MONROE DICKEY
 3. Meanwhile, heat sun-dried tomato oil in a large skillet over medium heat. Add onion and sun-dried tomatoes; cook, stirring, until softened, about 3 minutes. Add garlic, crushed red pepper, salt and pepper; cook, stirring, for 1 minute. Increase heat to medium-high and add broth; cook, stirring, until reduced by about half, about 2 minutes. Stir in sour cream, Parmesan and butter. Add the spaghetti and spinach; toss to coat well.
-

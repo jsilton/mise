@@ -2,7 +2,7 @@
 title: Easy Pan-Seared Chicken Breasts
 prepTime: 5 min
 cookTime: 10 min
-servings: '[''4'']'
+servings: "['4']"
 ingredients:
   - '4 chicken breasts (thin, boneless and skinless)'
   - 1/2 cup flour
@@ -23,8 +23,6 @@ totalTime: 15 min
 4. Remove chicken from pan and serve warm with pasta or vegetables.
 
 ## Nutrition
-
-
 
 - Saturated Fat: 1g
 - Cholesterol: 72mg

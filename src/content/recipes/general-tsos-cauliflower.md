@@ -36,8 +36,6 @@ totalTime: 60 min
 
 ## Nutrition
 
-
-
 - Fat: 14 grams fat
 - Calories: 369 caloriesCarbohydrate: 47 grams carbohydrate
 - Sugar: 14 grams sugar

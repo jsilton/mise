@@ -25,4 +25,3 @@ totalTime: 50 min
 1. Preheat oven to to 425°F. Whisk together vinegar, olive oil, honey, mustard, salt, garlic powder, oregano, and pepper in a medium bowl until well combined. Add chicken breasts and turn to coat. Transfer chicken breasts to a large rimmed baking sheet. Add onion to bowl and toss gently to coat. Arrange onions on baking sheet around chicken. Add tomatoes to bowl, toss to coat, and set aside.
 2. Pat feta dry and carefully slice crosswise into four thinner slabs; pat dry again. Nestle feta between chicken and onions on baking sheet.
 3. Bake in preheated oven for 10 minutes. Add reserved tomatoes to baking sheet, filling in any empty gaps. Drizzle any remaining vinegar mixture in bowl over baking sheet. Return to oven and continue baking until tomatoes have just burst and a thermometer inserted into thickest part of chicken registers 160°F, 10 to 15 minutes more. Garnish with fresh basil and black pepper and serve hot.
-

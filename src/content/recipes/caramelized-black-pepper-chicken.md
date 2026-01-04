@@ -27,4 +27,3 @@ totalTime: 60 min
 ## Notes
 
 Because fish sauces vary in their saltiness, Phan advises adding the fish sauce to taste.Serve WithSteamed jasmine rice.
-

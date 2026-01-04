@@ -33,6 +33,4 @@ totalTime: 90 min
 
 ## Nutrition
 
-
-
 - 0 calories per serving

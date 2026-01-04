@@ -25,4 +25,3 @@ ingredients:
 10. Add 1/4 cup milk.continue stirring. Turn heat to medium high.
 11. Add bell peppers and stir. Turn heat to medium.
 12. Add kifir-lime leaves to curry. Stir and let simmer.
-

@@ -17,4 +17,3 @@ totalTime: 20 min
 1. In a medium saucepan, combine water, orange juice, orange zest and sugar over medium heat. Cook, stirring occasionally, until the sugar has dissolved.
 2. Stir in cranberries and bring to a boil; reduce heat and let simmer until sauce has thickened, about 15 minutes.
 3. Let cool completely before serving.
-

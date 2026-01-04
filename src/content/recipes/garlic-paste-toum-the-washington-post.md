@@ -21,17 +21,15 @@ ingredients:
 
 ## Nutrition
 
-
-
 - Calories per tablespoon: 100%
-- Daily Values*Total Fat: 10g 15%
+- Daily Values\*Total Fat: 10g 15%
 - Saturated Fat: 2g 10%
 - Cholesterol: 0mg 0%
 - Sodium: 10mg 0%
 - Total Carbohydrates: 1g 0%
 - Dietary Fiber: 0g 0%
 - Sugar: 0g
-- Protein: 0g*Percent Daily Value based on a 2
+- Protein: 0g\*Percent Daily Value based on a 2
 - 0: 00 calorie diet. Your daily values may be higher or lower depending on your calorie needs.Total Fat: Less than 65g
 - Saturated Fat: Less than 20g
 - Cholesterol: Less than 300mg

@@ -16,4 +16,3 @@ ingredients:
 2. Add 1 cup water, 1 tbsp cooking oil, several drops of oil of wintergreen (optional) and food coloring.
 3. Cook, stirring for 3 minutes or until mix pulls away from pan.
 4. Knead immediately. Store in airtight container.
-

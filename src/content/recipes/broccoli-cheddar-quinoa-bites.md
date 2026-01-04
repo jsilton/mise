@@ -23,4 +23,3 @@ totalTime: 45 min
 3. Mix in eggs, garlic powder, Parmesan cheese, salt and pepper until completely combined.
 4. Scoop onto prepared baking sheet using a small scoop or tablespoon. Compress mixture into the spoon (or scoop) as much as possible, but keep in mind it’s not necessary for the mixture to cook in a spherical shape. The egg and cheese will bind the bites together after they are baked.
 5. Bake 20–25 minutes or until lightly browned on the outside. Remove from oven, let rest for 5 minutes before serving.
-

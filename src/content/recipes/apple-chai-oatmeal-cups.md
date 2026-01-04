@@ -26,4 +26,3 @@ ingredients:
 5. Fill 12 muffin liners to the top (~2 heaping tablespoons of the oat mixture).
 6. Place in oven at 350ºF and bake for 19-21 minutes.
 7. Let cool for 10 minutes before removing from muffin tin. Then, let cool completely and transfer into a tupperware or gallon-size bag and store in the refrigerator.
-

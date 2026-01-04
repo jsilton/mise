@@ -32,8 +32,6 @@ Leftovers: Store the leftovers in an airtight storage container and refrigerate 
 
 ## Nutrition
 
-
-
 - Serving Size: 2 Calories: 194 Sugar: 6.2g
 - Sodium: 883.8mg
 - Fat: 16.5g

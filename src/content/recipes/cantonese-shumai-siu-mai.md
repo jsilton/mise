@@ -49,6 +49,4 @@ I like adding water chestnuts for texture. You can find fresh water chestnuts at
 
 ## Nutrition
 
-
-
 - Serving: 1dumpling | Calories: 62kcal | Carbohydrates: 6.3g | Protein: 4.5g | Fat: 2.2g | Saturated Fat: 0.6g | Cholesterol: 21mg | Sodium: 196mg | Fiber: 0.4g | Sugar: 0.3g

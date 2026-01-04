@@ -35,8 +35,6 @@ Note-the tortellini will keep in the refrigerator for up to 3 days. After reheat
 
 ## Nutrition
 
-
-
 - Saturated Fat: 7g
 - Cholesterol: 51mg
 - Sodium: 506mg

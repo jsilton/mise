@@ -34,4 +34,3 @@ ingredients:
 7. Whisk mayonnaise and chili paste in a final small bowl to combine; set spicy mayo aside.
 8. Toss tuna, hijiki, drained pickles, scallions, and ponzu in a large bowl; season with salt.
 9. Just before serving, toss avocado into tuna mixture. Divide rice among bowls and top with tuna mixture, a dollop of spicy mayo, more sesame seeds, and some tobiko, if using.
-

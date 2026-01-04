@@ -31,8 +31,6 @@ A refined Italian scaloppine dish. The secret is dusting the chicken in flour be
 
 ## Nutrition
 
-
-
 - Calories: 310 kcal
 - Fat: 18g
 - Sodium: 420mg

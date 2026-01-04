@@ -22,8 +22,6 @@ ingredients:
 
 ## Nutrition
 
-
-
 - Trans Fat: 0 gram
 - Fat: 30 gram
 - Calories: 825

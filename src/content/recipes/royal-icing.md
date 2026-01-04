@@ -22,7 +22,5 @@ Eggs are easier to separate when cold. Egg whites whip up easier when closer to 
 
 ## Nutrition
 
-
-
 - Calories: 51kcal
 - Calories: 51kcal | Carbohydrates: 13g | Protein: 1g | Fat: 1g | Sodium: 4mg | Potassium: 4mg | Sugar: 12g | Calcium: 1mg | Iron: 1mg

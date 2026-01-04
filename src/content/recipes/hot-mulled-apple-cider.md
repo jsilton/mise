@@ -26,8 +26,6 @@ totalTime: 25 min
 
 ## Nutrition
 
-
-
 - Calories: 57 Calories from Fat 1 2%
 - Total Fat: 0.1 g 0%
 - Saturated Fat: 0 g 0%

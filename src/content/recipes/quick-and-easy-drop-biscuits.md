@@ -22,4 +22,3 @@ totalTime: 45 min
 4. 4. Add milk and stir with a fork until it just comes together into a slightly sticky, shaggy dough.
 5. 5. For small biscuits: Using a teaspoon or small ice cream scoop, mound walnut sized balls of dough onto the prepared baking sheet. For large biscuits: Using a 1/4-cup measuring scoop, mound balls of dough onto the prepared baking sheet.
 6. 6. Bake biscuits until golden brown, about 15 minutes for small biscuits and 20 minutes for large ones. Let cool slightly, then transfer to wire rack. Serve warm or at room temperature.
-

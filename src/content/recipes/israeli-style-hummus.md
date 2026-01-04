@@ -22,8 +22,6 @@ ingredients:
 
 ## Nutrition
 
-
-
 - Calories: 217
 - Carbohydrates: 21 g(7%)Fat 12 g(19%)Protein 9 g(17%)Saturated Fat 2 g(8%)Sodium 344 mg(14%)Polyun
 - saturated Fat: 5 g

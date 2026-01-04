@@ -33,4 +33,3 @@ totalTime: 165 min
 7. Place the bird on roasting rack inside a half sheet pan and pat dry with paper towels.
 8. Combine the apple, onion, cinnamon stick, and 1 cup of water in a microwave safe dish and microwave on high for 5 minutes. Add steeped aromatics to the turkey's cavity along with the rosemary and sage. Tuck the wings underneath the bird and coat the skin liberally with canola oil.
 9. Roast the turkey on lowest level of the oven at 500 degrees F for 30 minutes. Insert a probe thermometer into thickest part of the breast and reduce the oven temperature to 350 degrees F. Set the thermometer alarm (if available) to 161 degrees F. A 14 to 16 pound bird should require a total of 2 to 2 1/2 hours of roasting. Let the turkey rest, loosely covered with foil or a large mixing bowl for 15 minutes before carving.
-

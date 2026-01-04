@@ -18,4 +18,3 @@ ingredients:
 3. Layer vanilla wafers, bananas and pudding mixture.
 4. Top with Cool Whip and a few crumbled vanilla wafers.
 5. Chill until reader to serve.
-

@@ -22,4 +22,3 @@ totalTime: 31 min
 
 1. 1. Preheat oven to 350 degrees F. Prepare muffin tins by greasing or using papers.2. Mix dry ingredients together (flour, baking powder, baking soda, cinnamon, salt) in a bowl.3. Mix milk, egg, maple syrup, oil, and vanilla. Wisk. Pour into dry ingredients.4. Stir just enough to incorporate the wet and dry ingredients.5. Stir zucchini and chocolate chips into the the batter.6. Spoon into the muffin tin.7. Baking for approximately 16.
 2. They are done when you insert a toothpick or knife into the center and it comes out clean.
-

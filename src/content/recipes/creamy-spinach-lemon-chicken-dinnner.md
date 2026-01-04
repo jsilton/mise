@@ -29,4 +29,3 @@ ingredients:
 11. 11. Bake for 15 minutes or until the chicken is fully cooked.
 12. 12. Serve chicken on a bed of the wilted spinach and top with a drizzle of the creamy sauce.
 13. 13. Enjoy!
-

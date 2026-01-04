@@ -26,7 +26,5 @@ totalTime: 35 min
 
 ## Nutrition
 
-
-
 - in fact. Every single day you produce between: 1 and 2 grams of it on your own. (That’s 5-10 times the cholesterol in a large egg.) When you eat more cholesterol from foods like eggs
 - your body produces more. Cholesterol is actually really important in your body. It is in every outer layer of all your cells. It’s a requirement for growth (in infants and adults). And it’s required for the production of many hormones.Calories: 78kcal | Carbohydrates: 2g | Protein: 6g | Fat: 5g | Saturated Fat: 2g | Cholesterol: 144mg | Sodium: 119mg | Sugar: 1g

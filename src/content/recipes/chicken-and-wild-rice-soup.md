@@ -22,4 +22,3 @@ totalTime: 80 min
 1. Heat oil in a large pot over medium-high heat. When it shimmers, add onion, carrots, celery, and garlic. Cook, stirring occasionally, until onion is softened, about 10 minutes.
 2. Add broth and rice, season with salt, and bring to a boil. Reduce heat to medium low and simmer, covered, until rice is tender but still has some firmness, about 25 to 30 minutes.
 3. Add chicken, and season with freshly ground black pepper. Simmer until chicken is cooked through, about 10 minutes. Remove from heat, add parsley, taste, and season with additional salt and pepper as needed.
-

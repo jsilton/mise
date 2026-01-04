@@ -24,8 +24,6 @@ totalTime: 10 min
 
 ## Nutrition
 
-
-
 - SATURATED FAT: 6g
 - TRANS FAT: 0g
 - SATURATED FAT: 7g

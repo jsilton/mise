@@ -22,4 +22,3 @@ totalTime: 23 min
 2. Using a whisk or fork mix together the flour, pumpkin spice, baking soda, baking powder, and salt.
 3. Make a well (hole) in the center of the flour mixture and drop in the eggs, honey, and melted butter. Mix together until well combined. Fold in the pumpkin puree. Do not overmix.
 4. Pour the batter into the muffin pan so it’s evenly distributed. Bake until golden brown and a toothpick comes clean, about 18 – 20 minutes. Store at room temperature or freeze for a rainy day.
-

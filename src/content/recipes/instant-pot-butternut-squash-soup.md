@@ -27,4 +27,3 @@ totalTime: 45 min
 3. Stir in butternut squash, carrots, celery, apple, chicken stock, 1 teaspoon salt and 1/2 teaspoon pepper. Select manual setting; adjust pressure to high, and set time for 12 minutes. When finished cooking, quick-release pressure according to manufacturer’s directions; remove and discard thyme sprigs.
 4. Stir in heavy cream. Puree with an immersion blender until desired consistency is reached; season with salt and pepper, to taste.
 5. Serve immediately, sprinkled with bacon and chives.
-

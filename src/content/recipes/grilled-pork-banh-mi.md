@@ -24,4 +24,3 @@ totalTime: 180 min
 
 1. In a blender, puree the fish sauce with the honey, sugar, pepper, scallions and garlic. Transfer the marinade to a bowl, add the pork and toss. Refrigerate for 2 to 4 hours. Thread the pork through the top and bottom of each slice onto 12 bamboo skewers.
 2. Spread the rolls with hoisin and Sriracha. Light a grill and oil the grates. Brush the pork with oil and grill over high heat, turning, until just cooked, 4 minutes. Place 2 skewers in each roll, close and pull out the skewers. Top with the cucumber and cilantro and serve.
-

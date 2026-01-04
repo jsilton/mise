@@ -21,8 +21,6 @@ ingredients:
 
 ## Nutrition
 
-
-
 - Per Serving: 82 calories
 - 3.: 9 g fat
 - 1: 0.8 g carbohydrates

@@ -25,8 +25,6 @@ Advance preparation: This is best served right after you cook the shrimp and man
 
 ## Nutrition
 
-
-
 - Trans Fat: 0 gram
 - Fat: 10 gram
 - Calories: 338

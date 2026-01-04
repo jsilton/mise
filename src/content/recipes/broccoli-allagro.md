@@ -23,8 +23,6 @@ Steamed broccoli usually tastes watery. This method fixes that by tossing the br
 
 ## Nutrition
 
-
-
 - Calories: 60 kcal
 - Fat: 4g
 - Sodium: 200mg

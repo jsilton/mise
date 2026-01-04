@@ -28,4 +28,3 @@ ingredients:
 ## Notes
 
 This stuffing can be prepared 1 day in advance up to step 3. Cover and store in the refrigerator. Bring casserole to room temp before continuing with step 4 or bake the chilled casserole for a longer time period (may take up to 1 hour).If you are preparing this dish on Thanksgiving with other sides in the oven, the stuffing can be baked at 325°F or 350°F, depending on temperatures needed bake other casseroles. If baking at 325°F, plan on cooking for 30 - 35 minutes.
-

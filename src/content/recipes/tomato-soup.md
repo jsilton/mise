@@ -23,4 +23,3 @@ totalTime: 60 min
 2. Add flour and stir until mixture is slightly thickened and pale gold, about 3 minutes; do not allow to brown.
 3. Stir in the tomatoes and their juices, chicken broth, sugar, salt, celery salt and pepper. Raise heat to medium until the liquid bubbles, then reduce heat to low. Simmer for 30 minutes, scraping the bottom of the pot frequently.
 4. Stir in half-and-half and honey. Remove from heat and purée using a hand blender, or allow to cool until no longer steaming and purée in batches in a stand blender. Return to medium heat just until heated through. Serve hot.
-

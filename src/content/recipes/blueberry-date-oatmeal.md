@@ -17,4 +17,3 @@ totalTime: 17 min
 ## Directions
 
 1. 1. Mix oats, cauliflower, water, dates, and oatmeal in a bowl.2. Microwave on high for approximately 6 minutes. Alternately, cook on stovetop, stirring frequently.3. Stir in blueberries before serving.
-

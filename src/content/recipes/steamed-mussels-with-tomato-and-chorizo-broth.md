@@ -24,6 +24,4 @@ totalTime: 60 min
 
 ## Nutrition
 
-
-
 - Calories (kcal): 410 Fat (g) 16 Saturated Fat (g) 3.5 Cholesterol (mg) 35 Carbohydrates (g) 37 Dietary Fiber (g) 3 Total Sugars (g) 4 Protein (g) 19 Sodium (mg) 790 ...Read More

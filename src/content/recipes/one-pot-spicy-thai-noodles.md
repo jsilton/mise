@@ -35,8 +35,6 @@ Notes: Serve warm or cold - it's great both ways! If you want to add a protein, 
 
 ## Nutrition
 
-
-
 - Calories: 587 Fat: 34.2g
 - Saturated fat: 6g
 - Carbs: 47.5g

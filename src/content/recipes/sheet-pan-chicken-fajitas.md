@@ -29,6 +29,4 @@ totalTime: 30 min
 
 ## Nutrition
 
-
-
 - CALORIES: 341

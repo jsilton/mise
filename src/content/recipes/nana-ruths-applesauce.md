@@ -21,4 +21,3 @@ ingredients:
 ## Notes
 
 Traditional for Rosh Hashanah, Thanksgiving and Hanukkah
-

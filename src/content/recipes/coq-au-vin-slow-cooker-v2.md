@@ -40,8 +40,6 @@ Mushrooms: Use Baby Bellas (Cremini) for meatier texture; slice thick so they do
 
 ## Nutrition
 
-
-
 - Calories: 285 kcal
 - Protein: 29g
 - Carbs: 16g

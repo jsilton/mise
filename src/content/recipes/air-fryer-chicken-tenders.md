@@ -26,4 +26,3 @@ totalTime: 15 min
 2. Working in batches, place chicken tenders in basket of air fryer, being sure to not overcrowd it. Spray the tops of chicken with cooking spray and cook at 400° for 5 minutes. Flip chicken over, spray the tops with more cooking spray and cook 5 minutes more. Repeat with remaining chicken tenders.
 3. Make sauce: In a small bowl, whisk together mayonnaise, honey, dijon, and hot sauce, if using. Season with a pinch of salt and a few cracks of black pepper.
 4. Serve chicken tenders with honey mustard.
-

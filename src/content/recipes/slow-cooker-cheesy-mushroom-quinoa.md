@@ -27,4 +27,3 @@ totalTime: 190 min
 ## Notes
 
 This serves 4 as a main dish but you could easily half the recipe and serve it up as a side dish too!If you don't need/want the recipe to be vegetarian you can sub chicken broth for the vegetable broth if desired.
-

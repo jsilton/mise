@@ -28,8 +28,6 @@ totalTime: 75 min
 
 ## Nutrition
 
-
-
 - Fat: 47 g
 - Calories: 643 Calorie
 - Saturated Fat: 19 g

@@ -21,8 +21,6 @@ totalTime: 60 min
 
 ## Nutrition
 
-
-
 - Calories: 83
 - Carbohydrates: 5 g(2%)Fat 7 g(10%)Protein 1 g(2%)Saturated Fat 1 g(3%)Sodium 71 mg(3%)Polyun
 - saturated Fat: 1 g

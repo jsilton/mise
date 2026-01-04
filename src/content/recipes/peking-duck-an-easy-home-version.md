@@ -47,4 +47,3 @@ totalTime: 195 min
 ## Notes
 
 1. It’s best to use maltose (Mai Ya Tang, 麦芽糖) but if unavailable you may replace it with honey. In this case, mix 2 parts of honey with 1 part of hot water.2. You can use any type of vinegar available. Or use fresh lemon juice to substitute.
-

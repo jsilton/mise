@@ -1,5 +1,5 @@
 ---
-title: 'Grandmommy''s Turkey Dressing'
+title: "Grandmommy's Turkey Dressing"
 ingredients:
   - 'Cornbread'
   - '1 cup self-rising corn meal'
@@ -27,4 +27,3 @@ ingredients:
 6. Mix 6 or 7 slices of crumbled bread with crumbled corn bread.
 7. Add enough broth until desired consistency. (Pour broth over until it reaches the top, but not too much. That keeps it moist, but too much will make it soupy.)
 8. Bake at 350 degrees for 50-60 minutes (may take longer).
-

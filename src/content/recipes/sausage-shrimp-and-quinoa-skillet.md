@@ -19,8 +19,6 @@ totalTime: 20 min
 
 ## Nutrition
 
-
-
 - Calories: 325Total Carbohydrates: Carbohydrate 39g
 - Cholesterol: 104mg
 - Fat: 8.5g

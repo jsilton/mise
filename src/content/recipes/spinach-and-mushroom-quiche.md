@@ -28,4 +28,3 @@ totalTime: 90 min
 2. Heat oil in a large nonstick skillet over medium-high heat; swirl to coat the pan. Add mushrooms; cook, stirring occasionally, until browned and tender, about 8 minutes. Add onion and garlic; cook, stirring often, until softened and tender, about 5 minutes. Add spinach; cook, tossing constantly, until wilted, 1 to 2 minutes. Remove from heat.
 3. Whisk eggs, milk, half-and-half, mustard, thyme, salt and pepper in a medium bowl. Fold in the mushroom mixture and cheese. Spoon into the prepared pie pan. Bake until set and golden brown, about 30 minutes. Let stand for 10 minutes; slice. Garnish with thyme and serve.
 4. ANTONIS ACHILLEOS
-

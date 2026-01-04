@@ -25,4 +25,3 @@ totalTime: 65 min
 ## Notes
 
 Instant Pot option: Put all ingredients in pot, seal lid, and set manually for 9 minutes on high pressure. Vent pressure and strain.
-

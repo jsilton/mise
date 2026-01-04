@@ -31,4 +31,3 @@ totalTime: 35 min
 8. Bring to a simmer, then reduce the heat to medium and place the lid on top.
 9. Simmer for 20-22 minutes, then remove the skillet - lid still on!- and let sit for another 5-6 minutes.
 10. Remove the lid, fluff the rice, top with chopped parsley and serve.
-

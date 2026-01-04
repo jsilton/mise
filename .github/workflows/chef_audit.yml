@@ -2,7 +2,7 @@ name: Chef's Audit
 
 on:
   push:
-    branches: [ "main" ]
+    branches: ['main']
   workflow_dispatch:
 
 jobs:
@@ -12,7 +12,7 @@ jobs:
       contents: read
     steps:
       - uses: actions/checkout@v4
-      
+
       - name: Ask Chef Gemini
         uses: google-github-actions/run-gemini-cli@v0
         with:

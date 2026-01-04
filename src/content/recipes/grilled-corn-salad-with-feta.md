@@ -24,8 +24,6 @@ totalTime: 20 min
 
 ## Nutrition
 
-
-
 - : Freestyle Points: 3 Points +: 4 Calories: 153 calories Total Fat: 8g
 - Saturated Fat: 3g
 - Cholesterol: 11mg

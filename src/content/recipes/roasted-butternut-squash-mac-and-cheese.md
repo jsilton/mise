@@ -28,4 +28,3 @@ ingredients:
 4. Slowly whisk in milk and mix until it is all incorporated. Switch to a wooden spoon and cook over medium heat, stirring constantly,until it thickens and coats the back of a spoon. Season with salt, pepper, cayenne, nutmeg and dijon. Remove from heat and add cheese. Stir until melted. Add pasta and roasted butternut squash, if using, and fold until well combined.
 5. Add the macaroni and cheese to the buttered baking dish. Melt remaining butter and toss with the parmesan cheese and both breadcrumbs. Season with a pinch of salt. Add breadcrumb mixture to the top of the mac and cheese and bake for about 45 mins or until golden brown and bubbly.
 6. Preheat the oven to 400˚F. Add the butternut squash to a parchment lined baking sheet. Add olive oil and salt and pepper and toss to coat. Roast for about 25 - 30 minutes or until tender.
-

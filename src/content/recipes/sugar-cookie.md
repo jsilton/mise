@@ -31,8 +31,6 @@ Don’t skip sifting. Sifting the flour, salt, and baking soda is essential! Sif
 
 ## Nutrition
 
-
-
 - Calories: 122kcal
 - Calories: 122kcal | Carbohydrates: 16g | Protein: 2g | Fat: 6g | Saturated Fat: 3g | Polyun
 - saturated Fat: 0.3g | Monoun

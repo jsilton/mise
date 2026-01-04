@@ -8,4 +8,3 @@ ingredients:
   - '1 red pepper'
   - 'shredded cheese'
 ---
-

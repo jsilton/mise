@@ -29,4 +29,3 @@ totalTime: 60 min
 ## Notes
 
 Remove the skin to save calories. Soaking chicken in buttermilk leaves the chicken incredibly moist with a delicious flavor.
-

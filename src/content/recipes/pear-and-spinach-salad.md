@@ -22,4 +22,3 @@ totalTime: 40 min
 1. Place onion in a small bowl of ice water and let sit for 10 minutes.
 2. Meanwhile, place mustard, vinegar, water, oil, honey, salt, and pepper in a medium nonreactive bowl and whisk until combined.
 3. Strain onion from ice water, pat dry, and place in a large nonreactive bowl. Add spinach, pear, and 3 tablespoons of the dressing and toss until evenly coated. Taste, season with salt and freshly ground black pepper, and add more dressing as desired.
-

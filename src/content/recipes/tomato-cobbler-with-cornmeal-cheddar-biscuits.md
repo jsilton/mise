@@ -33,8 +33,6 @@ ingredients:
 
 ## Nutrition
 
-
-
 - Calories: 379
 - Fat: 17.8 g (27.4%)Saturated 10.0 g (49.9%)Carbs 43.1 g (14.4%)Fiber 4.3 g (17.0%)Sugars 8.5 g
 - Protein: 11.8 g (23.6%)Sodium 810.0 mg (33.8%)

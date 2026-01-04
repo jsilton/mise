@@ -32,4 +32,3 @@ totalTime: 210 min
 9. Place a rack in the lower third of the oven and preheat the oven to 375 degrees F.
 10. Line the bottom of a 9-inch pie pan with one of the discs of dough, and trim it so it lays about 1/2 inch beyond the edge of the pan. Put the apple filling in the pan and mound it slightly in the center. Brush the top edges of the dough with the egg. Place the second disc of dough over the top. Fold the top layer of dough under the edge of the bottom layer and press the edges together to form a seal. Flute the edge as desired. Brush the surface of the dough with egg and then sprinkle with sugar. Pierce the top of the dough in several places to allow steam to escape while baking. Refrigerate for at least 15 minutes.
 11. Bake the pie on a baking sheet until the crust is golden, about 50 minutes. Cool on a rack before serving. The pie keeps well at room temperature (covered) for 24 hours, or refrigerated for up to 4 days.
-

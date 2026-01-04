@@ -28,6 +28,4 @@ ingredients:
 
 ## Nutrition
 
-
-
 - Calories: 310kcal | Carbohydrates: 28g | Protein: 4g | Fat: 20g | Saturated Fat: 12g | Cholesterol: 163mg | Sodium: 116mg | Potassium: 222mg | Fiber: 1g | Sugar: 25g | Vitamin A: 870IU | Vitamin C: 43.3mg | Calcium: 110mg | Iron: 0.6mg

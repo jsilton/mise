@@ -41,8 +41,6 @@ totalTime: 40 min
 
 ## Nutrition
 
-
-
 - Saturated Fat: 2g
 - Cholesterol: 15mg
 - Sodium: 19mg

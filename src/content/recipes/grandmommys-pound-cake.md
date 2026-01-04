@@ -1,5 +1,5 @@
 ---
-title: 'Grandmommy''s Pound Cake'
+title: "Grandmommy's Pound Cake"
 ingredients:
   - '1/2 lb butter'
   - '1 stick margarine, soft'
@@ -19,4 +19,3 @@ ingredients:
 4. Grease and flour pan.
 5. For large cake, bake at 275 degrees for 1.5 hours.
 6. For 3 loaves, bake at 300 degrees for 1 hour.
-

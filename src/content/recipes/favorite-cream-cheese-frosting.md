@@ -19,4 +19,3 @@ totalTime: 5 min
 ## Notes
 
 Quantity: This recipe is enough to frost 12-18 cupcakes or one 9×13 quarter sheet cake. 1.5x the recipe for a double layer cake or add extra cream cheese, confectioners’ sugar, and a splash of milk or cream as shown in my carrot cake and red velvet cake recipes. (Doubling the recipe would be far too much.)Chocolate: Here is my chocolate cream cheese frosting recipe.
-

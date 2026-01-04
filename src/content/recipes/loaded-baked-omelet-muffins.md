@@ -26,8 +26,6 @@ totalTime: 30 min
 
 ## Nutrition
 
-
-
 - Calories: 165kcal
 - Carbohydrates: 2.5g
 - Protein: 14g

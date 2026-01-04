@@ -26,8 +26,6 @@ totalTime: 45 min
 
 ## Nutrition
 
-
-
 - Trans Fat: 0 gram
 - Fat: 7 gram
 - Calories: 174

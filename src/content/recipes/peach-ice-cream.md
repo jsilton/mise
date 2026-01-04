@@ -18,4 +18,3 @@ ingredients:
 3. Transfer mixture to a mixing bowl; stir in 1 1/4 cups heavy cream; refrigerate until cold.
 4. Combine peaches, remaining sugar, and lemon juice in a mixing bowl; the peel will add a rosy color. Cover and refrigerate for 2 hours.
 5. Drain and stir accumulated peach juices into cream base (return fruit to the refrigerator). Pour base into an ice cream maker and process according to manufacturer's directions. Just before mixture is set, add peaches.
-

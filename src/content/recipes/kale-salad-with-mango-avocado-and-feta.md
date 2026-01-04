@@ -22,4 +22,3 @@ ingredients:
 2. Add, mango, feta, onion and pepitas.
 3. To make dressing, whisk all ingredients together in a small bowl. Toss with salad.
 4. Add the avocado last, so it doesn't get smashed and adjust salt and pepper if necessary.
-

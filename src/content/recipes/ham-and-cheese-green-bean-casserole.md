@@ -22,4 +22,3 @@ ingredients:
 3. In a large bowl, whisk together the soup, half-and-half, garlic powder, salt, and pepper. Stir in the green beans, ham, onion, 2 cups of the cheddar, and 3/4 cup of the fried onions.
 4. Pour the casserole mixture into the baking dish. Sprinkle with the remaining 1/2 cup cheddar and bake until bubbling and crusty, about 40 minutes, adding the remaining 1/2 cup onions during the last 10 minutes of baking.
 5. Remove from the oven, let sit for 5 minutes, and server.
-

@@ -5,4 +5,3 @@ ingredients:
   - 'garlic'
   - 'butter'
 ---
-

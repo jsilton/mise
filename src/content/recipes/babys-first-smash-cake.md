@@ -25,4 +25,3 @@ ingredients:
 7. Cool the cakes before frosting. If you used the 8″ or 9″ pan, then use an overturned smaller bowl to cut out small cake rounds.
 8. Soften the cream cheese.
 9. Whisk the cream cheese with the apple juice concentrate and vanilla extract until creamy.
-

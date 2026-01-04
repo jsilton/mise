@@ -17,4 +17,3 @@ totalTime: 15 min
 ## Notes
 
 If making stock for miso soup it is not necessary to save the kombu or katsuo bushi. • Stock keeps 4 days. Cool, uncovered, before chilling, covered.
-

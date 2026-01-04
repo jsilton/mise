@@ -45,7 +45,5 @@ totalTime: 30 min
 
 ## Nutrition
 
-
-
 - calories: 75kcal
 - Serving: 1meatball | Calories: 75kcal | Carbohydrates: 5g | Protein: 10g | Fat: 1g | Saturated Fat: 1g | Trans Fat: 1g | Cholesterol: 35mg | Sodium: 322mg | Potassium: 140mg | Fiber: 1g | Sugar: 2g | Vitamin A: 40IU | Vitamin C: 1mg | Calcium: 13mg | Iron: 1mg

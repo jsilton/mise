@@ -33,4 +33,3 @@ totalTime: 50 min
 3. In a small bowl, whisk together the chicken stock, soy sauce, vinegar, sugar, lime juice and remaining 2 teaspoons cornstarch.
 4. Carefully drain the oil from the skillet, and wipe out any residue using paper towels held with tongs. Add 1 tablespoon of peanut oil to the skillet and heat it over medium heat. Add the ginger, about 1 teaspoon of the minced chiles (or to taste) and the garlic. Cook, stirring, until just fragrant, about 30 seconds; pour in the chicken stock mixture and bring it to a simmer. Simmer until slightly thickened, 2 to 3 minutes.
 5. Add the cooked eggplant and tofu to the skillet and toss gently to combine. Stir in the sesame oil and remove from the heat. Serve immediately over rice and garnished with the remaining minced chiles if desired and chopped cilantro.
-

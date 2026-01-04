@@ -35,8 +35,6 @@ Marinate the shrimp for 30 minutes for a deeper flavor.I like to use jumbo 16/20
 
 ## Nutrition
 
-
-
 - Serving: 1 Serving Calories: 215kcal
 - Carbohydrates: 39g
 - Protein: 3g

@@ -7,4 +7,3 @@ ingredients:
   - '1 pinch smoked sea salt'
   - '1 squirt agave syrup'
 ---
-

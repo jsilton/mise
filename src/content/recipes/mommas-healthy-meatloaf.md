@@ -32,8 +32,6 @@ Aluminum foil helps keep food moist, ensures it cooks evenly, keeps leftovers fr
 
 ## Nutrition
 
-
-
 - Calories: 377 kcalTotal Carbohydrates: 24g
 - Cholesterol: 157 mg
 - Total Fat: 20.1 g

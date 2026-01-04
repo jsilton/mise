@@ -20,4 +20,3 @@ totalTime: 15 min
 
 1. In the pot you used to boil the noodles, melt the butter over medium-low heat. Stir in the 1/3 cup of cream until well combined.
 2. Turn the heat down to low and add the noodles, cheese, salt and pepper and cook while stirring until the the cheese melts. Stir in the last tablespoon of cream at the end. Season with black pepper and serve immediately.
-

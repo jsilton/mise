@@ -46,5 +46,4 @@ totalTime: 20 min
 
 ## Notes
 
-*This is a nut-free recipe if the optional nuts are not added. Nutmeg is not actually a nut.
-
+\*This is a nut-free recipe if the optional nuts are not added. Nutmeg is not actually a nut.

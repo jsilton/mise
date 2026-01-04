@@ -23,8 +23,6 @@ ingredients:
 
 ## Nutrition
 
-
-
 - Per serving: Calories: 142
 - Total Fat: 6g
 - Saturated Fat: 2g

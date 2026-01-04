@@ -38,8 +38,6 @@ totalTime: 110 min
 
 ## Nutrition
 
-
-
 - Calories: 413kcal
 - Calories: 413kcal | Carbohydrates: 57g | Protein: 12g | Fat: 16g | Saturated Fat: 6g | Polyun
 - saturated Fat: 4g | Monoun

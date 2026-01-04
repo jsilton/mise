@@ -40,4 +40,3 @@ ingredients:
 20. If desired, drizzle melted white chocolate over the top of the cake to garnish.
 21. Cover and refrigerate for at least an hour before slicing.
 22. Store leftovers tightly covered in the refrigerator.
-

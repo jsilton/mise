@@ -17,4 +17,3 @@ ingredients:
 1. Combine melon, rum, lime juice and melon liqueur in a blender.
 2. Process until smooth, adding ice as needed to thicken.
 3. Stick 3 pieces of melon on each skews and garnish each glass.
-

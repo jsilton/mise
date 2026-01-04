@@ -25,4 +25,3 @@ ingredients:
 7. If you want the breadcrumb topping, stir together the breadcrumbs and Parmesan cheese in a small bowl, and sprinkle over the pasta.
 8. Bake for 15 to 20 minutes or until golden and bubbly.
 9. Southwestern Variation: Substitute green chiles for the pimento, and use pepper jack cheese.
-

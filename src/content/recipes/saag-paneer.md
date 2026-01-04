@@ -39,8 +39,6 @@ The Soak Step is critical, if you skip soaking the fried paneer in hot water, it
 
 ## Nutrition
 
-
-
 - Calories: 325 kcal
 - Total Fat: 28g
 - Saturated Fat: 16g

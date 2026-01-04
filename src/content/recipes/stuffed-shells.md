@@ -30,5 +30,4 @@ totalTime: 60 min
 
 ## Notes
 
-*Our favorite store-bought marinara sauce is Rao's Marinara.This recipe freezes well! After you've assembled the shells in the baking dish, cover with foil and freeze. To thaw, transfer the dish to the fridge about 10 hours before you plan to serve (i.e. the morning that you plan to serve them for dinner). Remove from the fridge and let sit at room temp while the oven preheats. Bake, covered, for 30 minutes, or until thawed and warmed through.
-
+\*Our favorite store-bought marinara sauce is Rao's Marinara.This recipe freezes well! After you've assembled the shells in the baking dish, cover with foil and freeze. To thaw, transfer the dish to the fridge about 10 hours before you plan to serve (i.e. the morning that you plan to serve them for dinner). Remove from the fridge and let sit at room temp while the oven preheats. Bake, covered, for 30 minutes, or until thawed and warmed through.

@@ -38,11 +38,9 @@ totalTime: 30 min
 
 ## Notes
 
-**chocolate usually contains milk. If using the chocolate chips, opt for a dairy-free brand like Enjoy Life if dairy-free is important.
+\*\*chocolate usually contains milk. If using the chocolate chips, opt for a dairy-free brand like Enjoy Life if dairy-free is important.
 
 ## Nutrition
-
-
 
 - Serving: 1muffin | Calories: 135kcal | Carbohydrates: 17g | Protein: 3g | Fat: 7g | Saturated Fat: 1g | Polyun
 - saturated Fat: 2g | Monoun

@@ -18,4 +18,3 @@ ingredients:
 2. While chicken is cooking, cook broccoli according to package directions; drain. Arrange around chicken.
 3. Combine soup, milk and cheese; pour over chicken and broccoli. Sprinkle with bread crumbs and paprika.
 4. Bake an additional 20 minutes.
-

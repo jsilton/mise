@@ -18,4 +18,3 @@ Makes 3 servings
 3. Top each glass with Spindrift Grapefruit.
 4. Add 2 dashes of grapefruit bitters to each glass and stir gently.
 5. Garnish with lime wheels or grapefruit slices.
-

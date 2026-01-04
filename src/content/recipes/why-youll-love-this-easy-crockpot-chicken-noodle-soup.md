@@ -58,8 +58,6 @@ INGREDIENT NOTE: I personally love rosemary, so I find three stalks to be perfec
 
 ## Nutrition
 
-
-
 - CALORIES: 302kcal
 - CARBOHYDRATES: 28g
 - PROTEIN: 34g

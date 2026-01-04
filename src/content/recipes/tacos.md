@@ -11,4 +11,3 @@ ingredients:
   - 'Spanish rice'
   - 'Shredded cheese'
 ---
-

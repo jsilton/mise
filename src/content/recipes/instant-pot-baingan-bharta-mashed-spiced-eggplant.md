@@ -35,4 +35,3 @@ ingredients:
 ## Notes
 
 don’t have an instant pot? here is my stovetop method for making baingan bharta.
-

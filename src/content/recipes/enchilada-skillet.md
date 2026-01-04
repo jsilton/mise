@@ -25,4 +25,3 @@ ingredients:
 1. Heat oil in large skillet on medium; add onion & beef. Saute until meat is almost done, then add both squash – cook another 4-5 minutes.
 2. Add spices, fresh corn, beans, tortilla strips, and enchilada sauce. While gently stirring, let heat to a nice bubbly consistency – about 4 more minutes.
 3. Top with cheese & cilantro/green onions if desired.
-

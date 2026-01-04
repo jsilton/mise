@@ -24,7 +24,5 @@ ingredients:
 
 ## Nutrition
 
-
-
 - Calories: 576Total Carbohydrates: 72 g (24%)Total Fat: 27.3 g (42%)Protein: 13.1 g (26.2%)Saturated fat: 3.9 g (19.6%)Per serving
 - based on: 4 servings. (% daily value)Sugar: 3 g

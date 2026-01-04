@@ -37,8 +37,6 @@ Enchilada sauce recipe adapted from my spinach artichoke enchiladas.MAKE IT GLUT
 
 ## Nutrition
 
-
-
 - Calories: 133Total Carbohydrates: 8.9 g
 - Cholesterol: 0 mg
 - Total Fat: 11.1 gDietary fiber: 2.7 g

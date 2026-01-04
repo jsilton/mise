@@ -16,4 +16,3 @@ ingredients:
 ## Directions
 
 1. 1. Mix the Base: Add gin, mezcal, cognac, lemon juice, agave syrup, and 4 dashes of orange bitters to a shaker with ice. Shake vigorously.2. Pour and Build: Strain into 3 highball glasses filled with fresh ice.3. Top and Add Bitters: Top each glass with Spindrift Lemon. Add 1 dash of orange bitters to each glass and stir gently.4. Garnish: Garnish with a lemon peel twist or thin lemon slice.
-

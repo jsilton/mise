@@ -21,8 +21,6 @@ totalTime: 190 min
 
 ## Nutrition
 
-
-
 - Serving Size: 1/3 of recipe (without toppings)Calories: 233
 - Sugar: 15g
 - Sodium: 202mg

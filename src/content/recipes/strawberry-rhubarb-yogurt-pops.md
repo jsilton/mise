@@ -15,4 +15,3 @@ totalTime: 240 min
 ## Directions
 
 1. Bring strawberries, juice, salt, and rhubarb to a simmer in a 4-qt. saucepan; cook until fruit begins to break down, 3–4 minutes. Let cool and, using a slotted spoon, transfer 1/2 cup fruit to a bowl. Transfer remaining fruit mixture to a blender; add yogurt and honey and purée until smooth. Stir in reserved fruit; divide mixture between individual ice-pop molds. Freeze 1 hour, then insert a popsicle stick into each mold; freeze until pops are solid, about 3 hours more. To release ice pops from molds, briefly run the bottom of the molds under warm water.
-

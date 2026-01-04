@@ -24,8 +24,6 @@ totalTime: 25 min
 
 ## Nutrition
 
-
-
 - Fat: 25.5 g
 - Calories: 335.8 kcal
 - Fiber: 0.0 gCarbohydrate: 1.6 gServing Size: 2 muffins per serving

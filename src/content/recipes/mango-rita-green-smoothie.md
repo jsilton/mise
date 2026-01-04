@@ -21,8 +21,6 @@ totalTime: 10 min
 
 ## Nutrition
 
-
-
 - Calories: 220Total Carbohydrates: 54.8 g
 - Cholesterol: 0 mg
 - Total Fat: 1.1 gDietary fiber: 7.3 g

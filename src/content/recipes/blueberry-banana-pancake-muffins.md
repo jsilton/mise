@@ -23,4 +23,3 @@ totalTime: 35 min
 5. Bake at 180 degrees Celsius / 350-360 degrees Fahrenheit for 25 - 30 mins
 6. Leave to cool in tin for 5-10 mins
 7. Remove from tin, they ready to serve
-

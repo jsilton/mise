@@ -37,8 +37,6 @@ Aluminum foil can be used to keep food moist, cook it evenly, and make clean-up 
 
 ## Nutrition
 
-
-
 - Calories: 415 kcalTotal Carbohydrates: 30.6g
 - Cholesterol: 56 mg
 - Total Fat: 24 g

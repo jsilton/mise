@@ -34,4 +34,3 @@ totalTime: 50 min
 7. Place chicken in a single layer into the prepared baking dish. Top with potatoes, spinach and cream sauce.
 8. Place into oven and roast until completely cooked through, reaching an internal temperature of 165 degrees F, about 25-30 minutes.
 9. Serve immediately, garnished with parsley, if desired.
-

@@ -20,4 +20,3 @@ ingredients:
 ## Directions
 
 1. 1. Preheat oven to 350 degrees F / 175 degrees C. Spray a loaf pan with nonstick spray.2. Mash bananas in a bowl, then mix in the cinnamon, maple syrup & vanilla 3. Pour mixture into a blender/food processor until smooth. Return to the bowl.4. Add egg, yogurt, & milk and mix until combined5. In a separate bowl, mix together the flour, baking soda & baking powder then add to wet ingredients until fully combined.6. Pour batter into loaf pan and bake for about 50-55minutes, until bread is cooked through. (You can use atoothpick or butter knife to poke through the bread. If itcomes out clean, it’s ready!)7. Let cool for about 15 minutes and slice.
-

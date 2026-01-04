@@ -17,4 +17,3 @@ ingredients:
 4. Add eggs.
 5. Add milk untill almost completely covered.
 6. Bake in 9x9 dish at 475 degrees for 20-25 minutes.
-

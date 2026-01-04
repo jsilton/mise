@@ -24,8 +24,6 @@ totalTime: 20 min
 
 ## Nutrition
 
-
-
 - Serving size: about 1⅓ cupsPer serving: 118 calories
 - 9 g fat(: 3 g sat)
 - 1 g fiber
