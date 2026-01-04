@@ -3,7 +3,7 @@ title: Caramelized Black Pepper Chicken
 difficulty: easy
 cookingMethods: [simmer]
 dietary: []
-occasions: []
+occasions: [weeknight, quick-lunch]
 flavorProfile: [spicy, sweet, savory, acidic, umami]
 cuisines: [Vietnamese]
 role: main

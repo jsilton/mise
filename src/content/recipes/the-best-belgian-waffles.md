@@ -4,7 +4,7 @@ origin: Belgium
 difficulty: easy
 cookingMethods: [bake, steam]
 dietary: [vegetarian]
-occasions: []
+occasions: [weekend-project, entertaining]
 flavorProfile: [sweet]
 cuisines: [Belgian]
 role: main

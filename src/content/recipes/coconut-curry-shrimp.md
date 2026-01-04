@@ -3,7 +3,7 @@ title: Coconut Curry Shrimp
 difficulty: easy
 cookingMethods: [sauté, simmer, boil]
 dietary: []
-occasions: []
+occasions: [weeknight, quick-lunch]
 flavorProfile: [sweet, rich, herbaceous]
 cuisines: [Thai]
 role: main

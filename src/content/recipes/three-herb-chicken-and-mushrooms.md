@@ -3,7 +3,7 @@ title: Three Herb Chicken & Mushrooms
 difficulty: intermediate
 cookingMethods: [bake, roast, fry, sauté, simmer]
 dietary: []
-occasions: []
+occasions: [weeknight, comfort-food]
 flavorProfile: [acidic, herbaceous]
 cuisines: [French]
 role: main

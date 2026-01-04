@@ -3,7 +3,7 @@ title: Chicken Galbi Noodle Salad
 difficulty: intermediate
 cookingMethods: [sauté, boil]
 dietary: []
-occasions: []
+occasions: [weeknight, meal-prep]
 flavorProfile: [sweet, savory, acidic, umami, herbaceous]
 cuisines: [Korean]
 role: main

@@ -3,7 +3,7 @@ title: Thai Red Chicken Curry
 difficulty: easy
 cookingMethods: [fry, simmer, boil]
 dietary: []
-occasions: []
+occasions: [weeknight, comfort-food]
 flavorProfile: [spicy, sweet, acidic, rich, herbaceous]
 cuisines: [Thai]
 role: main

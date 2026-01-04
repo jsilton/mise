@@ -3,7 +3,7 @@ title: Japanese-Style Trout with Dashi
 difficulty: easy
 cookingMethods: [simmer, boil, steam, poach, no-cook]
 dietary: []
-occasions: []
+occasions: [entertaining, weekend-project]
 flavorProfile: [sweet, savory, acidic, umami, rich]
 cuisines: [Japanese]
 role: main

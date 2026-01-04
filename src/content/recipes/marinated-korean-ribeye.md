@@ -4,7 +4,7 @@ origin: Korea
 difficulty: easy
 cookingMethods: []
 dietary: []
-occasions: []
+occasions: [weeknight, meal-prep]
 flavorProfile: [sweet, savory, umami]
 cuisines: [Korean]
 role: main

@@ -3,7 +3,7 @@ title: Mediterranean Pinwheels
 difficulty: easy
 cookingMethods: [blend]
 dietary: [vegetarian]
-occasions: []
+occasions: [entertaining, quick-lunch]
 flavorProfile: [umami, rich, herbaceous]
 cuisines: [Mediterranean]
 role: main

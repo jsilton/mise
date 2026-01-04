@@ -5,7 +5,7 @@ aliases:
 difficulty: easy
 cookingMethods: [fry]
 dietary: []
-occasions: []
+occasions: [weeknight, quick-lunch]
 flavorProfile: [spicy, sweet, savory, acidic, umami, herbaceous]
 cuisines: [Thai]
 role: main

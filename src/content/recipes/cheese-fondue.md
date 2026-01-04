@@ -3,7 +3,7 @@ title: Cheese Fondue
 difficulty: easy
 cookingMethods: [roast, simmer]
 dietary: [vegetarian]
-occasions: []
+occasions: [entertaining, weekend-project]
 flavorProfile: [acidic]
 cuisines: [Swiss]
 role: main

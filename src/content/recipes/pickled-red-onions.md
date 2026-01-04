@@ -3,7 +3,7 @@ title: Pickled Red Onions
 difficulty: intermediate
 cookingMethods: []
 dietary: []
-occasions: []
+occasions: [meal-prep, entertaining]
 flavorProfile: [sweet, acidic]
 cuisines: [Mexican]
 role: condiment

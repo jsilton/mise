@@ -4,7 +4,7 @@ origin: Thailand
 difficulty: easy
 cookingMethods: [fry, simmer, boil]
 dietary: []
-occasions: []
+occasions: [weeknight, quick-lunch]
 flavorProfile: [sweet, savory, acidic, rich, herbaceous]
 cuisines: [Thai]
 role: main

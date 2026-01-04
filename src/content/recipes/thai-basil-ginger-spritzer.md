@@ -3,7 +3,7 @@ title: Thai Basil-Ginger Spritzer
 difficulty: easy
 cookingMethods: [boil, no-cook]
 dietary: []
-occasions: []
+occasions: [entertaining, summer]
 flavorProfile: [sweet, acidic, herbaceous]
 cuisines: [Thai]
 role: drink

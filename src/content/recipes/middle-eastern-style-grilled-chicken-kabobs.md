@@ -4,7 +4,7 @@ origin: Middle East
 difficulty: easy
 cookingMethods: [grill]
 dietary: []
-occasions: []
+occasions: [summer, entertaining]
 flavorProfile: [acidic, herbaceous]
 cuisines: [Lebanese, Middle Eastern]
 role: main

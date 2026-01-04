@@ -3,7 +3,7 @@ title: Mediterranean Salmon with Lemon-Herb Emulsion
 difficulty: easy
 cookingMethods: [bake, roast, boil, no-cook]
 dietary: [vegetarian]
-occasions: []
+occasions: [weeknight, light-and-fresh]
 flavorProfile: [sweet, acidic, herbaceous, smoky]
 cuisines: [Mediterranean]
 role: main

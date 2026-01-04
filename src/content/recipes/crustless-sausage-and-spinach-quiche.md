@@ -3,7 +3,7 @@ title: Crustless Sausage & Spinach Quiche
 difficulty: easy
 cookingMethods: [bake, roast, sauté, no-cook]
 dietary: []
-occasions: []
+occasions: [meal-prep, weekend-project]
 flavorProfile: [umami, rich]
 cuisines: [French]
 role: main

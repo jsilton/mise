@@ -3,7 +3,7 @@ title: Panang Curry with Chicken
 difficulty: easy
 cookingMethods: [fry, simmer, poach]
 dietary: [nut-free]
-occasions: []
+occasions: [weeknight, comfort-food]
 flavorProfile: [sweet, rich]
 cuisines: [Thai]
 role: main

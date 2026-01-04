@@ -3,7 +3,7 @@ title: Mediterranean Chicken Bowls
 difficulty: easy
 cookingMethods: [grill, no-cook]
 dietary: []
-occasions: []
+occasions: [weeknight, meal-prep]
 flavorProfile: [acidic, rich]
 cuisines: [Mediterranean]
 role: main

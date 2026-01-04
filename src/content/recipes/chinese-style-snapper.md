@@ -3,7 +3,7 @@ title: Chinese-Style Snapper
 difficulty: easy
 cookingMethods: [bake, roast, steam]
 dietary: []
-occasions: []
+occasions: [entertaining, weekend-project]
 flavorProfile: [savory, umami]
 cuisines: [Chinese]
 role: main

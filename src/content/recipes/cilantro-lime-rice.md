@@ -3,7 +3,7 @@ title: Cilantro Lime Rice
 difficulty: easy
 cookingMethods: [simmer, boil, steam]
 dietary: []
-occasions: []
+occasions: [weeknight, meal-prep]
 flavorProfile: [sweet, acidic, rich, herbaceous]
 cuisines: [Mexican]
 role: base

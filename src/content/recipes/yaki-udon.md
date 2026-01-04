@@ -3,7 +3,7 @@ title: Yaki Udon
 difficulty: easy
 cookingMethods: [sauté, boil, steam]
 dietary: []
-occasions: []
+occasions: [weeknight, quick-lunch]
 flavorProfile: [spicy, sweet, savory, acidic, umami]
 cuisines: [Japanese]
 role: main

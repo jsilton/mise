@@ -3,7 +3,7 @@ title: Tahini Sauce
 difficulty: intermediate
 cookingMethods: [roast]
 dietary: []
-occasions: []
+occasions: [meal-prep, entertaining]
 flavorProfile: [acidic, rich]
 cuisines: [Middle Eastern]
 role: condiment

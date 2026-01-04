@@ -3,7 +3,7 @@ title: Balsamic Peach Pork Chops
 difficulty: easy
 cookingMethods: [bake, simmer]
 dietary: []
-occasions: []
+occasions: [weeknight, summer]
 flavorProfile: [spicy, sweet, acidic, herbaceous]
 cuisines: [Mediterranean]
 role: main

@@ -3,7 +3,7 @@ title: Tuna Poke Bowls
 difficulty: intermediate
 cookingMethods: [no-cook]
 dietary: []
-occasions: []
+occasions: [light-and-fresh, summer]
 flavorProfile: [spicy, savory, acidic, umami]
 cuisines: [Hawaiian]
 role: main

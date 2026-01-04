@@ -3,7 +3,7 @@ title: Tzatziki Sauce
 difficulty: easy
 cookingMethods: []
 dietary: []
-occasions: []
+occasions: [meal-prep, entertaining]
 flavorProfile: [acidic, rich]
 cuisines: [Greek]
 role: condiment

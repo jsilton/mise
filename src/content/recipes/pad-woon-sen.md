@@ -3,7 +3,7 @@ title: Pad Woon Sen
 difficulty: intermediate
 cookingMethods: [sauté, boil]
 dietary: []
-occasions: []
+occasions: [weeknight, meal-prep]
 flavorProfile: [sweet, savory, umami]
 cuisines: [Thai]
 role: main

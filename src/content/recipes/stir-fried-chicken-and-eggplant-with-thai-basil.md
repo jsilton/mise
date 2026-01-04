@@ -3,7 +3,7 @@ title: Thai Basil Chicken & Eggplant
 difficulty: intermediate
 cookingMethods: [fry, sauté, steam]
 dietary: []
-occasions: []
+occasions: [weeknight, quick-lunch]
 flavorProfile: [sweet, savory, umami, herbaceous]
 cuisines: [Thai]
 role: main

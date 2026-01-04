@@ -3,7 +3,7 @@ title: Miso Soup
 difficulty: easy
 cookingMethods: [simmer, boil]
 dietary: [vegetarian]
-occasions: []
+occasions: [weeknight, quick-lunch]
 flavorProfile: [sweet, savory, umami]
 cuisines: [Japanese]
 role: base

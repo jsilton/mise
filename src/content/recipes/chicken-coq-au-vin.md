@@ -3,7 +3,7 @@ title: Chicken Coq au Vin
 difficulty: easy
 cookingMethods: [bake, sauté, simmer, boil]
 dietary: []
-occasions: []
+occasions: [comfort-food, weekend-project]
 flavorProfile: [savory, umami, rich, herbaceous]
 cuisines: [French]
 role: main

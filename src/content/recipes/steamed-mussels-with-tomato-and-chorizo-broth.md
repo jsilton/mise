@@ -3,7 +3,7 @@ title: Mussels with Chorizo Broth
 difficulty: easy
 cookingMethods: [sauté, simmer, boil, steam]
 dietary: [vegetarian]
-occasions: []
+occasions: [entertaining, weeknight]
 flavorProfile: [sweet, savory, acidic, herbaceous]
 cuisines: [Spanish]
 role: main

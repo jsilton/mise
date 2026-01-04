@@ -4,7 +4,7 @@ origin: Israel
 difficulty: easy
 cookingMethods: [bake]
 dietary: []
-occasions: []
+occasions: [weekend-project, entertaining]
 flavorProfile: [sweet, rich]
 cuisines: [Israeli]
 role: main

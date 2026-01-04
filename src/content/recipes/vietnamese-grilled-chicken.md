@@ -4,7 +4,7 @@ origin: Vietnam
 difficulty: easy
 cookingMethods: [grill]
 dietary: []
-occasions: []
+occasions: [summer, light-and-fresh]
 flavorProfile: [spicy, sweet, acidic]
 cuisines: [Vietnamese]
 role: main

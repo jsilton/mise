@@ -4,7 +4,7 @@ origin: India
 difficulty: easy
 cookingMethods: [simmer]
 dietary: [vegetarian]
-occasions: []
+occasions: [comfort-food, weeknight]
 flavorProfile: [spicy, sweet, savory, acidic, umami, rich]
 cuisines: [Indian]
 role: main

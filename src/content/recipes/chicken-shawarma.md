@@ -3,7 +3,7 @@ title: Chicken Shawarma
 difficulty: intermediate
 cookingMethods: [bake, roast]
 dietary: []
-occasions: []
+occasions: [weeknight, meal-prep]
 flavorProfile: [acidic, smoky]
 cuisines: [Middle Eastern]
 role: main

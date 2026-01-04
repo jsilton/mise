@@ -3,7 +3,7 @@ title: Spiced Coconut Chicken & Rice
 difficulty: intermediate
 cookingMethods: [sauté, simmer, boil, steam, braise]
 dietary: []
-occasions: []
+occasions: [comfort-food, meal-prep]
 flavorProfile: [spicy, acidic, rich]
 cuisines: [Indian]
 role: base

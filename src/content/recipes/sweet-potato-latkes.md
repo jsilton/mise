@@ -3,7 +3,7 @@ title: Potato Latkes
 difficulty: easy
 cookingMethods: [fry]
 dietary: [vegetarian]
-occasions: []
+occasions: [entertaining, weekend-project]
 flavorProfile: [sweet, savory, rich]
 cuisines: [Jewish]
 role: main

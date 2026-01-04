@@ -4,7 +4,7 @@ origin: Thailand
 difficulty: intermediate
 cookingMethods: [sauté, boil]
 dietary: []
-occasions: []
+occasions: [weeknight, quick-lunch]
 flavorProfile: [spicy, sweet, savory, umami]
 cuisines: [Thai]
 role: main

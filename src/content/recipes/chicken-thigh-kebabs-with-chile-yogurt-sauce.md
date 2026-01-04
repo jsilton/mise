@@ -3,7 +3,7 @@ title: Chicken Thigh Kebabs with Chile-Yogurt Sauce
 difficulty: intermediate
 cookingMethods: [grill]
 dietary: []
-occasions: []
+occasions: [summer, entertaining]
 flavorProfile: [spicy, sweet, acidic]
 cuisines: [Middle Eastern]
 role: main

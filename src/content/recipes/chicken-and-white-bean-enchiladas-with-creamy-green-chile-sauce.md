@@ -3,7 +3,7 @@ title: Chicken and White Bean Enchiladas
 difficulty: easy
 cookingMethods: [bake, poach, no-cook, blend]
 dietary: []
-occasions: []
+occasions: [comfort-food, meal-prep]
 flavorProfile: [rich]
 cuisines: [Mexican]
 role: main

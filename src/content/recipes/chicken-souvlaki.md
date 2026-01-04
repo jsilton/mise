@@ -3,7 +3,7 @@ title: Chicken Souvlaki
 difficulty: easy
 cookingMethods: [grill]
 dietary: []
-occasions: []
+occasions: [summer, entertaining]
 flavorProfile: [acidic]
 cuisines: [Greek]
 role: main

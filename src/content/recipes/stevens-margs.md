@@ -3,7 +3,7 @@ title: Steven’s Margaritas
 difficulty: easy
 cookingMethods: []
 dietary: [vegetarian]
-occasions: []
+occasions: [entertaining, summer]
 flavorProfile: [acidic, smoky]
 cuisines: [Mexican]
 role: drink

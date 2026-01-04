@@ -3,7 +3,7 @@ title: Zucchini Herb Fritters
 difficulty: easy
 cookingMethods: [fry]
 dietary: [vegetarian]
-occasions: []
+occasions: [light-and-fresh, entertaining]
 flavorProfile: [acidic, rich, herbaceous]
 cuisines: [Mediterranean]
 role: main

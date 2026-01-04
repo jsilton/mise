@@ -3,7 +3,7 @@ title: Basmati Rice
 difficulty: easy
 cookingMethods: [simmer, steam]
 dietary: []
-occasions: []
+occasions: [weeknight, meal-prep]
 flavorProfile: [rich]
 cuisines: [Indian, Middle Eastern]
 role: base

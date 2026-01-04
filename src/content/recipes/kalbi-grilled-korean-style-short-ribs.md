@@ -4,7 +4,7 @@ origin: Korea
 difficulty: intermediate
 cookingMethods: [grill]
 dietary: []
-occasions: []
+occasions: [entertaining, weekend-project]
 flavorProfile: [sweet, savory, umami]
 cuisines: [Korean]
 role: main

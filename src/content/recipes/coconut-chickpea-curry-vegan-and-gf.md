@@ -3,7 +3,7 @@ title: Coconut Chickpea Curry
 difficulty: easy
 cookingMethods: [bake, sauté, simmer, boil]
 dietary: [vegetarian, vegan]
-occasions: []
+occasions: [weeknight, meal-prep]
 flavorProfile: [sweet, acidic, rich]
 cuisines: [Thai]
 role: main

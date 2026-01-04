@@ -3,7 +3,7 @@ title: Miso-Glazed Salmon with Crunchy Bok Choy
 difficulty: easy
 cookingMethods: [bake, roast, sauté, boil, steam]
 dietary: [vegetarian]
-occasions: []
+occasions: [weeknight, meal-prep]
 flavorProfile: [sweet, savory, acidic, umami, rich]
 cuisines: [Japanese]
 role: main

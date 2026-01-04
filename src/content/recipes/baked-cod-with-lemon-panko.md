@@ -3,7 +3,7 @@ title: Cod with Lemon Panko
 difficulty: easy
 cookingMethods: [bake, roast, poach]
 dietary: []
-occasions: []
+occasions: [weeknight, light-and-fresh]
 flavorProfile: [acidic, rich, herbaceous]
 cuisines: [Mediterranean]
 role: main

@@ -3,7 +3,7 @@ title: Bibimbap
 difficulty: intermediate
 cookingMethods: []
 dietary: []
-occasions: []
+occasions: [weeknight, meal-prep]
 flavorProfile: [spicy, sweet, savory, acidic, rich]
 cuisines: [Korean]
 role: main

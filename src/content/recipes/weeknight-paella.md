@@ -3,7 +3,7 @@ title: Weeknight Paella
 difficulty: easy
 cookingMethods: [fry, sauté, simmer]
 dietary: []
-occasions: []
+occasions: [entertaining, weekend-project]
 flavorProfile: [acidic, herbaceous, smoky]
 cuisines: [Spanish]
 role: main

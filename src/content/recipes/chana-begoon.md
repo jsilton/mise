@@ -4,7 +4,7 @@ origin: India
 difficulty: easy
 cookingMethods: [bake, roast, sauté, simmer]
 dietary: []
-occasions: []
+occasions: [comfort-food, meal-prep]
 flavorProfile: [spicy, acidic]
 cuisines: [Indian]
 role: main

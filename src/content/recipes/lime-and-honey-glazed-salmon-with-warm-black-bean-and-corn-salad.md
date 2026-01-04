@@ -3,7 +3,7 @@ title: Lime & Honey Glazed Salmon
 difficulty: easy
 cookingMethods: [sauté, simmer]
 dietary: []
-occasions: []
+occasions: [weeknight, light-and-fresh]
 flavorProfile: [spicy, sweet]
 cuisines: [Mexican]
 role: main

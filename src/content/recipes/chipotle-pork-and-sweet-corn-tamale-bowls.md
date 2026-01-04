@@ -4,7 +4,7 @@ origin: Mexico
 difficulty: easy
 cookingMethods: [roast, fry, simmer, boil, steam, no-cook, blend]
 dietary: []
-occasions: []
+occasions: [weeknight, comfort-food]
 flavorProfile: [sweet, acidic, rich]
 cuisines: [Mexican]
 role: main

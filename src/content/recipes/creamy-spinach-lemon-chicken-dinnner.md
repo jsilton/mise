@@ -3,7 +3,7 @@ title: Spinach Lemon Chicken
 difficulty: intermediate
 cookingMethods: [bake, roast, sauté, simmer]
 dietary: []
-occasions: []
+occasions: [weeknight, quick-lunch]
 flavorProfile: [savory, acidic, rich]
 cuisines: [Mediterranean]
 role: main

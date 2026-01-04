@@ -5,7 +5,7 @@ aliases:
 difficulty: easy
 cookingMethods: [bake, simmer, no-cook]
 dietary: []
-occasions: []
+occasions: [weeknight, quick-lunch]
 flavorProfile: [savory, acidic, umami]
 cuisines: [Mexican]
 role: main

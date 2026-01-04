@@ -3,7 +3,7 @@ title: Korean Style Tacos
 difficulty: easy
 cookingMethods: [no-cook]
 dietary: []
-occasions: []
+occasions: [weeknight, summer]
 flavorProfile: [spicy, sweet, savory, acidic, umami]
 cuisines: [Mexican]
 role: main
