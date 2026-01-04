@@ -50,3 +50,10 @@ Recipes are components, not just isolated instructions.
 ## 5. Documentation
 
 - **Keep it Fresh:** If you change the architecture, scripts, or usage commands, update `README.md` immediately.
+
+## 6. Internal Linking & Aliases 🔗
+
+- **Use wiki-links** for internal recipe references when authoring: `[[banana-bread]]` or `[[Banana Bread]]`. The validator will resolve these to the canonical `/recipes/<slug>` URL when checking links.
+- **Aliases for safe renames:** If you rename a recipe file, add `aliases: ['old-slug']` to its frontmatter so old links continue to work.
+- **Run the validator before PRs:** Run `npm run validate:recipes` locally; the project will also run this check in CI for every PR (it generates `public/recipes/index.json` for tooling).
+- **Images & metadata:** Add `image:` and short `description:` frontmatter where possible so recipes have good social previews and structured data.

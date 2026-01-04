@@ -1,0 +1,38 @@
+name: Validate recipes
+
+on:
+  pull_request:
+    paths:
+      - 'src/content/recipes/**'
+      - 'scripts/validate-recipes.mjs'
+      - '.github/workflows/validate-recipes.yml'
+
+jobs:
+  validate:
+    name: Recipe validation
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run recipe validator
+        run: npm run validate:recipes
+        env:
+          # Increase memory if a very large repo would need it
+          NODE_OPTIONS: '--max-old-space-size=1024'
+
+      - name: Upload generated index (artifact)
+        if: success()
+        uses: actions/upload-artifact@v4
+        with:
+          name: recipes-index
+          path: public/recipes/index.json
