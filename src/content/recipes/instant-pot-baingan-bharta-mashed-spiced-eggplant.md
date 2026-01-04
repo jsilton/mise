@@ -5,7 +5,7 @@ cookingMethods: [roast, fry, sauté, boil]
 dietary: [vegetarian]
 occasions: []
 flavorProfile: [spicy, sweet, savory, acidic, umami]
-cuisines: []
+cuisines: [Indian]
 role: main
 vibe: nutritious
 prepTime: 15 min

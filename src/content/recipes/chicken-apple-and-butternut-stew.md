@@ -5,7 +5,7 @@ cookingMethods: [bake, sauté, simmer]
 dietary: []
 occasions: [holiday, comfort-food]
 flavorProfile: [sweet, acidic, rich]
-cuisines: []
+cuisines: [American]
 role: main
 vibe: comfort
 prepTime: 25 min

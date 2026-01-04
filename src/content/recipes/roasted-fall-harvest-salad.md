@@ -5,7 +5,7 @@ cookingMethods: [bake, roast, grill, simmer, steam, no-cook]
 dietary: []
 occasions: []
 flavorProfile: [spicy, sweet, acidic, rich, herbaceous]
-cuisines: []
+cuisines: [American]
 role: side
 vibe: nutritious
 prepTime: 20 min

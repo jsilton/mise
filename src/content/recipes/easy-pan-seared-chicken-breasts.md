@@ -5,7 +5,7 @@ cookingMethods: []
 dietary: []
 occasions: []
 flavorProfile: [rich]
-cuisines: []
+cuisines: [American]
 role: main
 vibe: quick
 prepTime: 5 min

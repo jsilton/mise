@@ -5,7 +5,7 @@ cookingMethods: [grill, no-cook]
 dietary: []
 occasions: []
 flavorProfile: [sweet, acidic, rich]
-cuisines: []
+cuisines: [Mexican]
 role: main
 vibe: nutritious
 prepTime: 45 min

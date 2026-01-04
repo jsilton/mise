@@ -5,7 +5,7 @@ cookingMethods: [grill, no-cook]
 dietary: []
 occasions: []
 flavorProfile: [acidic, rich]
-cuisines: []
+cuisines: [Mediterranean]
 role: main
 vibe: nutritious
 prepTime: 20 min

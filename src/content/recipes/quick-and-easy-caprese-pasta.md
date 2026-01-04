@@ -5,7 +5,7 @@ cookingMethods: [sauté, boil]
 dietary: [vegetarian]
 occasions: []
 flavorProfile: [sweet, acidic, rich, herbaceous]
-cuisines: []
+cuisines: [Italian]
 role: main
 vibe: quick
 prepTime: 10 min

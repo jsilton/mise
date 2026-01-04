@@ -5,7 +5,7 @@ cookingMethods: [sauté, boil]
 dietary: []
 occasions: []
 flavorProfile: [sweet, savory, acidic, umami, herbaceous]
-cuisines: []
+cuisines: [Korean]
 role: main
 vibe: nutritious
 prepTime: 15 min

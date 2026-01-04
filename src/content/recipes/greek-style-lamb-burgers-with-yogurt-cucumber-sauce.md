@@ -5,7 +5,7 @@ cookingMethods: [grill, no-cook]
 dietary: []
 occasions: []
 flavorProfile: [acidic, rich, herbaceous]
-cuisines: []
+cuisines: [Greek]
 role: main
 vibe: quick
 prepTime: 15 min

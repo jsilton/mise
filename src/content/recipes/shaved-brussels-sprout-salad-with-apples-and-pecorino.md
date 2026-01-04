@@ -5,7 +5,7 @@ cookingMethods: [roast]
 dietary: []
 occasions: []
 flavorProfile: [sweet, acidic, rich]
-cuisines: []
+cuisines: [Italian]
 role: side
 vibe: nutritious
 prepTime: 15 min

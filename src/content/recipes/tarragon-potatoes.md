@@ -5,7 +5,7 @@ cookingMethods: [bake, roast]
 dietary: []
 occasions: []
 flavorProfile: [acidic, rich]
-cuisines: []
+cuisines: [French]
 role: side
 vibe: nutritious
 prepTime: 10 min

@@ -5,7 +5,7 @@ cookingMethods: [bake, roast]
 dietary: []
 occasions: []
 flavorProfile: [acidic, smoky]
-cuisines: []
+cuisines: [Middle-Eastern]
 role: main
 vibe: nutritious
 prepTime: 15 min

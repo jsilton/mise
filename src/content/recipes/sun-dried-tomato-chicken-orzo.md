@@ -5,7 +5,7 @@ cookingMethods: [bake, roast, no-cook]
 dietary: []
 occasions: []
 flavorProfile: [acidic, rich, herbaceous]
-cuisines: []
+cuisines: [Italian-American]
 role: main
 vibe: quick
 prepTime: 10 min

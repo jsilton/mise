@@ -5,7 +5,7 @@ cookingMethods: [bake, boil, no-cook]
 dietary: [vegetarian]
 occasions: [entertaining]
 flavorProfile: [sweet, rich]
-cuisines: []
+cuisines: [American]
 role: dessert
 vibe: technical
 prepTime: 45 min

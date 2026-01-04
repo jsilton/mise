@@ -5,7 +5,7 @@ cookingMethods: [sauté, simmer, boil, blend]
 dietary: []
 occasions: []
 flavorProfile: [spicy, acidic, rich]
-cuisines: []
+cuisines: [American]
 role: main
 vibe: quick
 prepTime: 20 min

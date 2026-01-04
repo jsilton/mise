@@ -5,7 +5,7 @@ cookingMethods: [bake, blend]
 dietary: [vegetarian]
 occasions: []
 flavorProfile: [sweet, umami]
-cuisines: []
+cuisines: [American]
 role: main
 vibe: nutritious
 prepTime: 10 min

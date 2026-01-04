@@ -5,7 +5,7 @@ cookingMethods: [slow-cook, blend]
 dietary: [vegetarian]
 occasions: [comfort-food]
 flavorProfile: [spicy, acidic, umami, rich]
-cuisines: []
+cuisines: [Mexican]
 role: main
 vibe: comfort
 prepTime: 15 min

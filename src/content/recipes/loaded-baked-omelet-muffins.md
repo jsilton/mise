@@ -5,7 +5,7 @@ cookingMethods: [bake, no-cook]
 dietary: [vegetarian]
 occasions: []
 flavorProfile: [savory]
-cuisines: []
+cuisines: [American]
 role: main
 vibe: quick
 prepTime: 10 min

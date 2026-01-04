@@ -5,7 +5,7 @@ cookingMethods: []
 dietary: [vegetarian]
 occasions: []
 flavorProfile: [sweet, rich]
-cuisines: []
+cuisines: [American]
 role: condiment
 vibe: quick
 prepTime: 5 min

@@ -5,7 +5,7 @@ cookingMethods: [bake, simmer]
 dietary: [vegetarian]
 occasions: [comfort-food]
 flavorProfile: [sweet, acidic, rich]
-cuisines: []
+cuisines: [American]
 role: dessert
 vibe: comfort
 prepTime: 20 min

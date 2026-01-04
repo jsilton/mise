@@ -7,7 +7,7 @@ cookingMethods: []
 dietary: []
 occasions: []
 flavorProfile: [spicy, sweet]
-cuisines: []
+cuisines: [Indian]
 role: side
 vibe: quick
 prepTime: 10 min

@@ -5,7 +5,7 @@ cookingMethods: [grill]
 dietary: []
 occasions: []
 flavorProfile: [acidic, rich]
-cuisines: []
+cuisines: [American]
 role: main
 vibe: nutritious
 prepTime: 15 min

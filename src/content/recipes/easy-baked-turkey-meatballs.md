@@ -5,7 +5,7 @@ cookingMethods: [bake, blend]
 dietary: []
 occasions: []
 flavorProfile: []
-cuisines: []
+cuisines: [American]
 role: main
 vibe: quick
 prepTime: 15 min

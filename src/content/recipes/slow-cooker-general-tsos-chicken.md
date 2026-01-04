@@ -5,7 +5,7 @@ cookingMethods: [fry, steam, slow-cook]
 dietary: []
 occasions: [comfort-food]
 flavorProfile: [sweet, savory, acidic, umami]
-cuisines: []
+cuisines: [Chinese-American]
 role: main
 vibe: comfort
 prepTime: 15 min

@@ -5,7 +5,7 @@ cookingMethods: [fry, boil]
 dietary: []
 occasions: []
 flavorProfile: [spicy, savory, umami]
-cuisines: []
+cuisines: [Chinese]
 role: main
 vibe: technical
 prepTime: 35 min

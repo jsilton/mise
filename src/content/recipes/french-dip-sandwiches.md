@@ -5,7 +5,7 @@ cookingMethods: [roast, slow-cook, no-cook]
 dietary: []
 occasions: [comfort-food]
 flavorProfile: [sweet, savory, umami]
-cuisines: []
+cuisines: [American]
 role: main
 vibe: comfort
 prepTime: 15 min

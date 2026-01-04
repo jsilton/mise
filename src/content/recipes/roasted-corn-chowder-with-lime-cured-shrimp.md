@@ -5,7 +5,7 @@ cookingMethods: [bake, roast, sauté, simmer, boil, blend]
 dietary: []
 occasions: [comfort-food]
 flavorProfile: [sweet, rich, smoky]
-cuisines: []
+cuisines: [Mexican]
 role: main
 vibe: comfort
 prepTime: 20 min

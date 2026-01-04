@@ -5,7 +5,7 @@ cookingMethods: [roast, steam, slow-cook]
 dietary: []
 occasions: [comfort-food]
 flavorProfile: [spicy, sweet, savory, acidic, umami]
-cuisines: []
+cuisines: [Korean]
 role: main
 vibe: comfort
 prepTime: 10 min

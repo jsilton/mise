@@ -5,7 +5,7 @@ cookingMethods: [bake, blend]
 dietary: [vegetarian]
 occasions: [holiday]
 flavorProfile: [sweet, rich]
-cuisines: []
+cuisines: [American]
 role: dessert
 vibe: technical
 prepTime: 30 min

@@ -5,7 +5,7 @@ cookingMethods: [simmer]
 dietary: []
 occasions: []
 flavorProfile: [spicy, sweet, savory, acidic, umami]
-cuisines: []
+cuisines: [Vietnamese]
 role: main
 vibe: quick
 prepTime: 15 min

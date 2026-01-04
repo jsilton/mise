@@ -5,7 +5,7 @@ cookingMethods: [bake, sauté, boil]
 dietary: []
 occasions: []
 flavorProfile: [sweet, acidic, rich]
-cuisines: []
+cuisines: [American]
 role: side
 vibe: quick
 prepTime: 5 min

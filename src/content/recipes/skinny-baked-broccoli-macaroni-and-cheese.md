@@ -5,7 +5,7 @@ cookingMethods: [bake, sauté, simmer, boil]
 dietary: []
 occasions: []
 flavorProfile: [savory, umami, rich]
-cuisines: []
+cuisines: [American]
 role: side
 vibe: nutritious
 prepTime: 10 min

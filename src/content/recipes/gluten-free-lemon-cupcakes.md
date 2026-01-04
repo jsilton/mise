@@ -5,7 +5,7 @@ cookingMethods: [bake]
 dietary: [vegetarian, gluten-free]
 occasions: []
 flavorProfile: [sweet, acidic, rich]
-cuisines: []
+cuisines: [American]
 role: dessert
 vibe: technical
 prepTime: 10 min

@@ -5,7 +5,7 @@ cookingMethods: [roast, boil, poach]
 dietary: []
 occasions: []
 flavorProfile: [acidic, rich]
-cuisines: []
+cuisines: [American]
 role: side
 vibe: nutritious
 prepTime: 10 min

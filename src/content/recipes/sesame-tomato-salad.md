@@ -5,7 +5,7 @@ cookingMethods: [roast]
 dietary: [vegetarian]
 occasions: []
 flavorProfile: [sweet, savory, acidic, umami, herbaceous]
-cuisines: []
+cuisines: [Mediterranean]
 role: side
 vibe: nutritious
 prepTime: 10 min

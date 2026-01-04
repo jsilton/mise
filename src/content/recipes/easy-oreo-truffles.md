@@ -5,7 +5,7 @@ cookingMethods: [simmer, blend]
 dietary: [vegetarian]
 occasions: []
 flavorProfile: [sweet, acidic, rich]
-cuisines: []
+cuisines: [American]
 role: dessert
 vibe: quick
 prepTime: 20 min

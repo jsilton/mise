@@ -5,7 +5,7 @@ cookingMethods: [simmer, boil, steam, poach, no-cook]
 dietary: []
 occasions: []
 flavorProfile: [sweet, savory, acidic, umami, rich]
-cuisines: []
+cuisines: [Japanese]
 role: main
 vibe: technical
 prepTime: 15 min

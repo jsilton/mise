@@ -5,7 +5,7 @@ cookingMethods: [roast, sauté, simmer, boil, blend]
 dietary: []
 occasions: [comfort-food]
 flavorProfile: [acidic, rich, herbaceous]
-cuisines: []
+cuisines: [Indian-Fusion]
 role: main
 vibe: comfort
 prepTime: 30 min

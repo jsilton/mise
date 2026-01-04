@@ -5,7 +5,7 @@ cookingMethods: [sauté, boil]
 dietary: []
 occasions: []
 flavorProfile: [sweet, savory, umami]
-cuisines: []
+cuisines: [Chinese]
 role: main
 vibe: quick
 prepTime: 10 min

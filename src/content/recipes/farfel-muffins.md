@@ -5,7 +5,7 @@ cookingMethods: [bake, boil]
 dietary: [vegetarian]
 occasions: [holiday, comfort-food]
 flavorProfile: [rich]
-cuisines: []
+cuisines: [Jewish]
 role: main
 vibe: comfort
 prepTime: 15 min

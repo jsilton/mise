@@ -5,7 +5,7 @@ cookingMethods: [roast, simmer, boil, blend]
 dietary: [vegetarian]
 occasions: [holiday]
 flavorProfile: [sweet, acidic]
-cuisines: []
+cuisines: [Jewish]
 role: base
 vibe: nutritious
 prepTime: 10 min

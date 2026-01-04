@@ -5,7 +5,7 @@ cookingMethods: [roast, sauté, simmer, boil]
 dietary: []
 occasions: []
 flavorProfile: [umami, rich, herbaceous]
-cuisines: []
+cuisines: [Italian-American]
 role: main
 vibe: quick
 prepTime: 20 min

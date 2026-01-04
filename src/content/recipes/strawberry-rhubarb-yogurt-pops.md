@@ -5,7 +5,7 @@ cookingMethods: [simmer, no-cook, blend]
 dietary: [vegetarian]
 occasions: []
 flavorProfile: [sweet, acidic, rich]
-cuisines: []
+cuisines: [American]
 role: side
 vibe: nutritious
 prepTime: 15 min

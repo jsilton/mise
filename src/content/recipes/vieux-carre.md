@@ -5,7 +5,7 @@ cookingMethods: [roast]
 dietary: []
 occasions: []
 flavorProfile: [sweet, acidic]
-cuisines: []
+cuisines: [American]
 role: drink
 vibe: technical
 prepTime: 5 min

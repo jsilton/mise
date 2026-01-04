@@ -5,7 +5,7 @@ cookingMethods: []
 dietary: [vegetarian]
 occasions: []
 flavorProfile: [herbaceous]
-cuisines: []
+cuisines: [Italian]
 role: base
 vibe: technical
 prepTime: 15 min

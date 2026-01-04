@@ -5,7 +5,7 @@ cookingMethods: [bake, roast, no-cook, blend]
 dietary: [vegetarian]
 occasions: [holiday, comfort-food]
 flavorProfile: [acidic, rich, herbaceous]
-cuisines: []
+cuisines: [French]
 role: main
 vibe: comfort
 prepTime: 20 min

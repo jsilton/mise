@@ -5,7 +5,7 @@ cookingMethods: [bake, roast, sauté, simmer]
 dietary: []
 occasions: []
 flavorProfile: [savory, acidic, rich]
-cuisines: []
+cuisines: [Mediterranean]
 role: main
 vibe: quick
 prepTime: 10 min

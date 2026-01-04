@@ -7,7 +7,7 @@ cookingMethods: [fry]
 dietary: []
 occasions: []
 flavorProfile: [spicy, sweet, savory, acidic, umami, herbaceous]
-cuisines: []
+cuisines: [Thai]
 role: main
 vibe: quick
 prepTime: 10 min

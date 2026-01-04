@@ -3,9 +3,9 @@ title: All-Purpose Chinese Garlic Sauce
 difficulty: easy
 cookingMethods: [fry, steam]
 dietary: []
-occasions: []
+occasions: [weeknight]
 flavorProfile: [spicy, sweet, savory, acidic, umami]
-cuisines: []
+cuisines: [Chinese]
 role: condiment
 vibe: quick
 prepTime: 5 min

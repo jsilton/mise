@@ -5,7 +5,7 @@ cookingMethods: [bake, sauté, simmer, steam, braise]
 dietary: []
 occasions: []
 flavorProfile: [acidic, rich]
-cuisines: []
+cuisines: [Italian-American]
 role: main
 vibe: nutritious
 prepTime: 15 min

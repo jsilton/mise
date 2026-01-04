@@ -5,7 +5,7 @@ cookingMethods: [boil, blend]
 dietary: [vegetarian]
 occasions: []
 flavorProfile: []
-cuisines: []
+cuisines: [Italian]
 role: main
 vibe: technical
 prepTime: 20 min

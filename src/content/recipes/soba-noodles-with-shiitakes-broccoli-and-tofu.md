@@ -5,7 +5,7 @@ cookingMethods: [fry, sauté, boil]
 dietary: []
 occasions: []
 flavorProfile: [savory, umami]
-cuisines: []
+cuisines: [Japanese]
 role: main
 vibe: quick
 prepTime: 10 min

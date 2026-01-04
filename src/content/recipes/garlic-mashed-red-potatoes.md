@@ -5,7 +5,7 @@ cookingMethods: [simmer, boil, steam]
 dietary: []
 occasions: []
 flavorProfile: [umami, rich]
-cuisines: []
+cuisines: [American]
 role: side
 vibe: nutritious
 prepTime: 10 min

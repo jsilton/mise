@@ -5,7 +5,7 @@ cookingMethods: [sauté, steam]
 dietary: []
 occasions: []
 flavorProfile: [sweet, savory, umami]
-cuisines: []
+cuisines: [Chinese]
 role: side
 vibe: quick
 prepTime: 5 min

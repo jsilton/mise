@@ -5,7 +5,7 @@ cookingMethods: [bake, roast]
 dietary: []
 occasions: []
 flavorProfile: [spicy, sweet, acidic, rich]
-cuisines: []
+cuisines: [American]
 role: main
 vibe: nutritious
 prepTime: 20 min

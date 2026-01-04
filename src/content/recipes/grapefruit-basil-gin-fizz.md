@@ -5,7 +5,7 @@ cookingMethods: [grill]
 dietary: [vegan]
 occasions: []
 flavorProfile: [sweet, acidic, herbaceous]
-cuisines: []
+cuisines: [American]
 role: drink
 vibe: quick
 prepTime: 5 min

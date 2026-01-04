@@ -5,7 +5,7 @@ cookingMethods: [bake, no-cook, blend]
 dietary: []
 occasions: []
 flavorProfile: [sweet, savory, acidic, umami, rich]
-cuisines: []
+cuisines: [American]
 role: side
 vibe: nutritious
 prepTime: 15 min

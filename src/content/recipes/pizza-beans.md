@@ -5,7 +5,7 @@ cookingMethods: [bake, sauté, simmer, no-cook]
 dietary: []
 occasions: [comfort-food]
 flavorProfile: [umami, rich]
-cuisines: []
+cuisines: [Mexican]
 role: main
 vibe: comfort
 prepTime: 15 min

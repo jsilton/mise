@@ -5,7 +5,7 @@ cookingMethods: [simmer, boil, steam]
 dietary: []
 occasions: []
 flavorProfile: [sweet, savory, rich]
-cuisines: []
+cuisines: [Caribbean]
 role: base
 vibe: quick
 prepTime: 5 min

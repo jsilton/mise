@@ -5,7 +5,7 @@ cookingMethods: [roast, sauté, boil, steam, braise, blend]
 dietary: [vegetarian]
 occasions: [comfort-food]
 flavorProfile: [spicy, acidic, umami, rich]
-cuisines: []
+cuisines: [Italian]
 role: main
 vibe: comfort
 prepTime: 15 min

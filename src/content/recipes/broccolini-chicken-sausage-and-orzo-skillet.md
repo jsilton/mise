@@ -5,7 +5,7 @@ cookingMethods: [sauté, simmer, boil]
 dietary: []
 occasions: [kids-approved]
 flavorProfile: [spicy, umami, rich]
-cuisines: []
+cuisines: [Mediterranean]
 role: main
 vibe: quick
 prepTime: 10 min

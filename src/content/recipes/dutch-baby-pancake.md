@@ -5,7 +5,7 @@ cookingMethods: [bake, steam, blend]
 dietary: [vegetarian]
 occasions: []
 flavorProfile: [sweet, acidic, rich]
-cuisines: []
+cuisines: [German-American]
 role: main
 vibe: technical
 prepTime: 5 min

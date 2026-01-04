@@ -5,7 +5,7 @@ cookingMethods: [bake, roast]
 dietary: [vegetarian]
 occasions: []
 flavorProfile: [sweet, umami, rich]
-cuisines: []
+cuisines: [American]
 role: main
 vibe: nutritious
 prepTime: 10 min

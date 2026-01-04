@@ -5,7 +5,7 @@ cookingMethods: [bake, sauté]
 dietary: [vegetarian]
 occasions: []
 flavorProfile: [sweet, rich]
-cuisines: []
+cuisines: [French]
 role: main
 vibe: nutritious
 prepTime: 10 min

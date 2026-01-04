@@ -5,7 +5,7 @@ cookingMethods: [roast, boil, steam]
 dietary: [vegetarian]
 occasions: []
 flavorProfile: [savory, rich]
-cuisines: []
+cuisines: [American]
 role: main
 vibe: nutritious
 prepTime: 5 min

@@ -5,7 +5,7 @@ cookingMethods: [steam]
 dietary: [vegetarian]
 occasions: [comfort-food]
 flavorProfile: [sweet, rich]
-cuisines: []
+cuisines: [American]
 role: main
 vibe: comfort
 prepTime: 10 min

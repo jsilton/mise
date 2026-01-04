@@ -5,7 +5,7 @@ cookingMethods: [bake, roast, sauté, simmer]
 dietary: [vegetarian]
 occasions: []
 flavorProfile: [acidic, herbaceous]
-cuisines: []
+cuisines: [French]
 role: main
 vibe: nutritious
 prepTime: 20 min

@@ -7,7 +7,7 @@ cookingMethods: [roast, boil]
 dietary: []
 occasions: []
 flavorProfile: [savory, acidic, rich, herbaceous]
-cuisines: []
+cuisines: [Italian]
 role: main
 vibe: quick
 prepTime: 5 min

@@ -5,7 +5,7 @@ cookingMethods: [grill, blend]
 dietary: []
 occasions: []
 flavorProfile: [sweet, acidic, umami, rich, herbaceous]
-cuisines: []
+cuisines: [Mexican]
 role: main
 vibe: nutritious
 prepTime: 15 min

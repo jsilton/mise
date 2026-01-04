@@ -5,7 +5,7 @@ cookingMethods: [fry, boil]
 dietary: [vegetarian]
 occasions: []
 flavorProfile: [acidic, umami, rich, smoky]
-cuisines: []
+cuisines: [Italian-American]
 role: main
 vibe: quick
 prepTime: 10 min

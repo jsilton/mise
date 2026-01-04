@@ -5,7 +5,7 @@ cookingMethods: [bake, roast]
 dietary: []
 occasions: []
 flavorProfile: [sweet, savory, acidic, rich, herbaceous]
-cuisines: []
+cuisines: [Mediterranean]
 role: main
 vibe: nutritious
 prepTime: 15 min

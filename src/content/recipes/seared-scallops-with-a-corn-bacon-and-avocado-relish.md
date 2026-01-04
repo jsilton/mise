@@ -5,7 +5,7 @@ cookingMethods: [roast, sauté, no-cook]
 dietary: []
 occasions: []
 flavorProfile: [sweet, acidic, rich, herbaceous, smoky]
-cuisines: []
+cuisines: [American]
 role: main
 vibe: quick
 prepTime: 10 min

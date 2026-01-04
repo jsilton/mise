@@ -5,7 +5,7 @@ cookingMethods: [bake, simmer, boil, steam, no-cook]
 dietary: [vegetarian]
 occasions: []
 flavorProfile: [sweet, acidic, rich]
-cuisines: []
+cuisines: [American]
 role: dessert
 vibe: quick
 prepTime: 10 min

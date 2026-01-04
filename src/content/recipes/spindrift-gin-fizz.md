@@ -5,7 +5,7 @@ cookingMethods: []
 dietary: []
 occasions: []
 flavorProfile: [sweet, acidic]
-cuisines: []
+cuisines: [American]
 role: drink
 vibe: nutritious
 prepTime: 5 min

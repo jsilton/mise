@@ -5,7 +5,7 @@ cookingMethods: [fry]
 dietary: [vegetarian]
 occasions: []
 flavorProfile: [sweet, savory, rich]
-cuisines: []
+cuisines: [Jewish]
 role: main
 vibe: nutritious
 prepTime: 30 min

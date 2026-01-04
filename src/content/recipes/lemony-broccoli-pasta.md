@@ -5,7 +5,7 @@ cookingMethods: [roast, boil]
 dietary: [vegetarian]
 occasions: []
 flavorProfile: [acidic, umami]
-cuisines: []
+cuisines: [Italian]
 role: main
 vibe: nutritious
 prepTime: 5 min

@@ -5,7 +5,7 @@ cookingMethods: [sauté, simmer]
 dietary: []
 occasions: []
 flavorProfile: [acidic, rich]
-cuisines: []
+cuisines: [American]
 role: main
 vibe: quick
 prepTime: 20 min

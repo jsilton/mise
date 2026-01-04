@@ -5,7 +5,7 @@ cookingMethods: [bake, roast, grill, no-cook]
 dietary: []
 occasions: []
 flavorProfile: [sweet, acidic]
-cuisines: []
+cuisines: [American]
 role: main
 vibe: technical
 prepTime: 20 min

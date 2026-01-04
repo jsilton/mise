@@ -5,7 +5,7 @@ cookingMethods: [bake, steam]
 dietary: [vegetarian, gluten-free]
 occasions: []
 flavorProfile: [sweet, rich]
-cuisines: []
+cuisines: [French]
 role: dessert
 vibe: technical
 prepTime: 20 min

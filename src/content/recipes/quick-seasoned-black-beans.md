@@ -5,7 +5,7 @@ cookingMethods: [simmer]
 dietary: []
 occasions: []
 flavorProfile: [sweet, acidic, rich]
-cuisines: []
+cuisines: [Mexican]
 role: side
 vibe: quick
 prepTime: 2 min

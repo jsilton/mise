@@ -5,7 +5,7 @@ cookingMethods: [fry, sauté]
 dietary: []
 occasions: []
 flavorProfile: [spicy, acidic, herbaceous]
-cuisines: []
+cuisines: [American]
 role: main
 vibe: quick
 prepTime: 5 min

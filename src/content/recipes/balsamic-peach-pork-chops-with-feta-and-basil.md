@@ -5,7 +5,7 @@ cookingMethods: [bake, simmer]
 dietary: []
 occasions: []
 flavorProfile: [spicy, sweet, acidic, herbaceous]
-cuisines: []
+cuisines: [Mediterranean]
 role: main
 vibe: nutritious
 prepTime: 10 min

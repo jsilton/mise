@@ -5,7 +5,7 @@ cookingMethods: [roast, fry, sauté, simmer, boil, steam]
 dietary: []
 occasions: []
 flavorProfile: [savory, smoky]
-cuisines: []
+cuisines: [Spanish]
 role: base
 vibe: nutritious
 prepTime: 10 min

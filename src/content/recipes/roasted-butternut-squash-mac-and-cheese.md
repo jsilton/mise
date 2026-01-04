@@ -5,7 +5,7 @@ cookingMethods: [bake, roast, simmer, boil]
 dietary: [vegetarian]
 occasions: [comfort-food]
 flavorProfile: [spicy, umami, rich]
-cuisines: []
+cuisines: [American]
 role: main
 vibe: comfort
 prepTime: 15 min

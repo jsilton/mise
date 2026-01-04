@@ -5,7 +5,7 @@ cookingMethods: [fry, sauté]
 dietary: []
 occasions: [comfort-food]
 flavorProfile: [spicy, rich]
-cuisines: []
+cuisines: [Indian]
 role: main
 vibe: comfort
 prepTime: 15 min

@@ -7,7 +7,7 @@ cookingMethods: [grill, sauté, simmer, no-cook, blend]
 dietary: []
 occasions: [comfort-food]
 flavorProfile: [rich, smoky]
-cuisines: []
+cuisines: [American]
 role: main
 vibe: comfort
 prepTime: 15 min

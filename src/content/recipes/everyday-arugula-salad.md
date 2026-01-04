@@ -5,7 +5,7 @@ cookingMethods: []
 dietary: []
 occasions: []
 flavorProfile: [acidic, umami, rich]
-cuisines: []
+cuisines: [Mediterranean]
 role: side
 vibe: quick
 prepTime: 5 min

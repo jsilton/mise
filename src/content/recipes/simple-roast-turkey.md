@@ -5,7 +5,7 @@ cookingMethods: [bake, roast]
 dietary: []
 occasions: [holiday]
 flavorProfile: [sweet, acidic, rich]
-cuisines: []
+cuisines: [American]
 role: main
 vibe: holiday
 prepTime: 120 min

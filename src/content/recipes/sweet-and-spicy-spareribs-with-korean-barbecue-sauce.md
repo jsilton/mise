@@ -5,7 +5,7 @@ cookingMethods: [bake, grill, steam, braise]
 dietary: []
 occasions: [comfort-food]
 flavorProfile: [spicy, sweet, savory, acidic, umami, rich]
-cuisines: []
+cuisines: [Korean]
 role: main
 vibe: comfort
 prepTime: 30 min

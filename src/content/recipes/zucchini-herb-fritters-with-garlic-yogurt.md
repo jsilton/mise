@@ -5,7 +5,7 @@ cookingMethods: [fry]
 dietary: [vegetarian]
 occasions: []
 flavorProfile: [acidic, rich, herbaceous]
-cuisines: []
+cuisines: [Mediterranean]
 role: main
 vibe: nutritious
 prepTime: 30 min

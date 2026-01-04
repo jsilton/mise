@@ -5,7 +5,7 @@ cookingMethods: [bake, roast, boil, braise]
 dietary: []
 occasions: [holiday]
 flavorProfile: [savory, acidic, umami, rich]
-cuisines: []
+cuisines: [Jewish]
 role: main
 vibe: holiday
 prepTime: 20 min

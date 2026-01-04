@@ -7,7 +7,7 @@ cookingMethods: [bake, roast, fry]
 dietary: []
 occasions: []
 flavorProfile: [sweet, acidic, umami]
-cuisines: []
+cuisines: [American]
 role: main
 vibe: quick
 prepTime: 15 min

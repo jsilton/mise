@@ -5,7 +5,7 @@ cookingMethods: [bake, roast, boil]
 dietary: []
 occasions: [comfort-food]
 flavorProfile: []
-cuisines: []
+cuisines: [American]
 role: side
 vibe: comfort
 prepTime: 10 min

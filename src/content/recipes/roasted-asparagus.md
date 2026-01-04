@@ -5,7 +5,7 @@ cookingMethods: [bake, roast, steam]
 dietary: []
 occasions: []
 flavorProfile: [acidic, umami]
-cuisines: []
+cuisines: [American]
 role: side
 vibe: nutritious
 prepTime: 5 min

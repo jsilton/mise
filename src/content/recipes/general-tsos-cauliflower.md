@@ -5,7 +5,7 @@ cookingMethods: [fry, sauté, simmer, steam]
 dietary: [vegetarian]
 occasions: []
 flavorProfile: [spicy, sweet, savory, acidic, umami]
-cuisines: []
+cuisines: [Chinese-American]
 role: main
 vibe: nutritious
 prepTime: 30 min

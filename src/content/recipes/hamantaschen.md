@@ -5,7 +5,7 @@ cookingMethods: [bake]
 dietary: [vegetarian]
 occasions: [holiday]
 flavorProfile: [sweet, rich]
-cuisines: []
+cuisines: [Jewish]
 role: dessert
 vibe: holiday
 prepTime: 20 min

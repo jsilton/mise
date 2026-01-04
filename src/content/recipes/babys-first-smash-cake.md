@@ -5,7 +5,7 @@ cookingMethods: [bake, no-cook, blend]
 dietary: [vegetarian]
 occasions: [holiday]
 flavorProfile: [sweet, rich]
-cuisines: []
+cuisines: [American]
 role: dessert
 vibe: holiday
 prepTime: 20 min

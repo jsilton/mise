@@ -5,7 +5,7 @@ cookingMethods: [bake]
 dietary: []
 occasions: []
 flavorProfile: [acidic, rich]
-cuisines: []
+cuisines: [Mexican]
 role: main
 vibe: nutritious
 prepTime: 10 min

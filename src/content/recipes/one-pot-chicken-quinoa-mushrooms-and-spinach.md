@@ -5,7 +5,7 @@ cookingMethods: [roast, sauté, simmer, boil]
 dietary: []
 occasions: []
 flavorProfile: [savory, smoky]
-cuisines: []
+cuisines: [American]
 role: main
 vibe: nutritious
 prepTime: 10 min

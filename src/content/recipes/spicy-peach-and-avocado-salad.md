@@ -5,7 +5,7 @@ cookingMethods: [roast, grill]
 dietary: []
 occasions: []
 flavorProfile: [spicy, sweet, acidic, rich, herbaceous]
-cuisines: []
+cuisines: [American]
 role: side
 vibe: nutritious
 prepTime: 15 min

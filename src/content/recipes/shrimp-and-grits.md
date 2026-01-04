@@ -5,7 +5,7 @@ cookingMethods: [roast, fry, simmer, boil, no-cook]
 dietary: []
 occasions: []
 flavorProfile: [savory, acidic, rich, herbaceous, smoky]
-cuisines: []
+cuisines: [American-Southern]
 role: main
 vibe: quick
 prepTime: 15 min

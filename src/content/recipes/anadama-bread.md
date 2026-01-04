@@ -7,7 +7,7 @@ cookingMethods: [bake, roast, boil]
 dietary: []
 occasions: []
 flavorProfile: [sweet, rich]
-cuisines: []
+cuisines: [American]
 role: base
 vibe: technical
 prepTime: 30 min

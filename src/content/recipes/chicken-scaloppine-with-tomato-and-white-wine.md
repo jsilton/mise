@@ -5,7 +5,7 @@ cookingMethods: [sauté, simmer, steam]
 dietary: []
 occasions: [comfort-food]
 flavorProfile: [sweet, savory, umami, rich]
-cuisines: []
+cuisines: [Italian]
 role: main
 vibe: comfort
 prepTime: 15 min

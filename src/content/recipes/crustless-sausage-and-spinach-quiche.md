@@ -5,7 +5,7 @@ cookingMethods: [bake, roast, sauté, no-cook]
 dietary: []
 occasions: []
 flavorProfile: [umami, rich]
-cuisines: []
+cuisines: [French]
 role: main
 vibe: nutritious
 prepTime: 15 min

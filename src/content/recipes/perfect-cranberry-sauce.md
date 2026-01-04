@@ -5,7 +5,7 @@ cookingMethods: [roast, simmer]
 dietary: [vegetarian]
 occasions: [holiday]
 flavorProfile: [sweet, acidic, rich]
-cuisines: []
+cuisines: [American]
 role: base
 vibe: holiday
 prepTime: 15 min

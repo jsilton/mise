@@ -5,7 +5,7 @@ cookingMethods: [bake, roast, boil, steam]
 dietary: []
 occasions: []
 flavorProfile: [acidic, umami, herbaceous]
-cuisines: []
+cuisines: [Italian]
 role: main
 vibe: quick
 prepTime: 10 min

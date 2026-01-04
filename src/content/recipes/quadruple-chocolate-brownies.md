@@ -5,7 +5,7 @@ cookingMethods: [bake, no-cook]
 dietary: [vegetarian]
 occasions: [comfort-food]
 flavorProfile: [sweet, rich]
-cuisines: []
+cuisines: [American]
 role: dessert
 vibe: comfort
 prepTime: 30 min

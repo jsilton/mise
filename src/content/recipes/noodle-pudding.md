@@ -5,7 +5,7 @@ cookingMethods: [bake, boil, no-cook]
 dietary: []
 occasions: [comfort-food]
 flavorProfile: [sweet, rich]
-cuisines: []
+cuisines: [Jewish]
 role: dessert
 vibe: comfort
 prepTime: 30 min

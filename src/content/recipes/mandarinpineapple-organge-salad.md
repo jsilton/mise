@@ -5,7 +5,7 @@ cookingMethods: [bake, roast, boil]
 dietary: []
 occasions: []
 flavorProfile: [sweet, rich]
-cuisines: []
+cuisines: [American]
 role: side
 vibe: nutritious
 prepTime: 10 min

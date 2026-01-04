@@ -5,7 +5,7 @@ cookingMethods: [bake, simmer, boil]
 dietary: [vegetarian]
 occasions: [comfort-food]
 flavorProfile: [sweet, rich]
-cuisines: []
+cuisines: [French]
 role: dessert
 vibe: comfort
 prepTime: 20 min

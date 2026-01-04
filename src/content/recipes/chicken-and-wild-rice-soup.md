@@ -5,7 +5,7 @@ cookingMethods: [sauté, simmer, boil, poach, blend]
 dietary: []
 occasions: [comfort-food]
 flavorProfile: [acidic, rich, herbaceous]
-cuisines: []
+cuisines: [American]
 role: main
 vibe: comfort
 prepTime: 20 min

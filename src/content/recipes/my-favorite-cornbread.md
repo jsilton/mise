@@ -5,7 +5,7 @@ cookingMethods: [bake]
 dietary: []
 occasions: []
 flavorProfile: [spicy, sweet, acidic, rich]
-cuisines: []
+cuisines: [American-Southern]
 role: side
 vibe: quick
 prepTime: 10 min

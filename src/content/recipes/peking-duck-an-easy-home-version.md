@@ -5,7 +5,7 @@ cookingMethods: [bake, roast, simmer, boil]
 dietary: []
 occasions: []
 flavorProfile: [sweet, acidic]
-cuisines: []
+cuisines: [Chinese]
 role: main
 vibe: technical
 prepTime: 120 min

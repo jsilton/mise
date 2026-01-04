@@ -5,7 +5,7 @@ cookingMethods: [sauté, simmer, boil]
 dietary: []
 occasions: []
 flavorProfile: [savory, umami, rich, herbaceous]
-cuisines: []
+cuisines: [Asian-Fusion]
 role: main
 vibe: quick
 prepTime: 10 min

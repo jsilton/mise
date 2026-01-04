@@ -5,7 +5,7 @@ cookingMethods: [bake]
 dietary: [vegetarian]
 occasions: []
 flavorProfile: [sweet, acidic, rich]
-cuisines: []
+cuisines: [Mediterranean]
 role: dessert
 vibe: technical
 prepTime: 15 min

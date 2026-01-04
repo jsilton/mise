@@ -5,7 +5,7 @@ cookingMethods: [bake, roast, fry, steam]
 dietary: [vegetarian]
 occasions: []
 flavorProfile: [sweet, savory, smoky]
-cuisines: []
+cuisines: [American]
 role: main
 vibe: nutritious
 prepTime: 10 min

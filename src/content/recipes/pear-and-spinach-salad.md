@@ -5,7 +5,7 @@ cookingMethods: [roast, no-cook]
 dietary: []
 occasions: []
 flavorProfile: [sweet, acidic]
-cuisines: []
+cuisines: [Mediterranean]
 role: side
 vibe: nutritious
 prepTime: 15 min

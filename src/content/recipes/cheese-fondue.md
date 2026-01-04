@@ -5,7 +5,7 @@ cookingMethods: [roast, simmer]
 dietary: [vegetarian]
 occasions: []
 flavorProfile: [acidic]
-cuisines: []
+cuisines: [Swiss]
 role: main
 vibe: technical
 prepTime: 10 min

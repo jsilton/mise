@@ -5,7 +5,7 @@ cookingMethods: [bake, sauté, no-cook]
 dietary: [vegetarian]
 occasions: [holiday, comfort-food]
 flavorProfile: [acidic, rich]
-cuisines: []
+cuisines: [American]
 role: main
 vibe: comfort
 prepTime: 15 min

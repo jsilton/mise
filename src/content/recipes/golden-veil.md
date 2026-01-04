@@ -5,7 +5,7 @@ cookingMethods: []
 dietary: [vegetarian, vegan]
 occasions: []
 flavorProfile: [acidic, rich, herbaceous, smoky]
-cuisines: []
+cuisines: [American]
 role: drink
 vibe: technical
 prepTime: 10 min

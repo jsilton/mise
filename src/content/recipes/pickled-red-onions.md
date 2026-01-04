@@ -5,7 +5,7 @@ cookingMethods: []
 dietary: []
 occasions: []
 flavorProfile: [sweet, acidic]
-cuisines: []
+cuisines: [Mexican]
 role: condiment
 vibe: quick
 prepTime: 10 min

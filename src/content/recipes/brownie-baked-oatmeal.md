@@ -5,7 +5,7 @@ cookingMethods: [bake, blend]
 dietary: [vegetarian]
 occasions: [comfort-food]
 flavorProfile: [sweet, acidic, rich]
-cuisines: []
+cuisines: [American]
 role: main
 vibe: nutritious
 prepTime: 5 min

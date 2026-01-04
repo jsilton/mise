@@ -5,7 +5,7 @@ cookingMethods: [bake, roast, steam]
 dietary: []
 occasions: [comfort-food]
 flavorProfile: [sweet, savory, acidic, herbaceous]
-cuisines: []
+cuisines: [American]
 role: side
 vibe: comfort
 prepTime: 15 min

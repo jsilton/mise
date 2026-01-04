@@ -5,7 +5,7 @@ cookingMethods: [boil]
 dietary: [vegetarian]
 occasions: []
 flavorProfile: [savory]
-cuisines: []
+cuisines: [Korean]
 role: side
 vibe: nutritious
 prepTime: 5 min

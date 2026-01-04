@@ -5,7 +5,7 @@ cookingMethods: [sauté, slow-cook, blend]
 dietary: []
 occasions: []
 flavorProfile: [acidic, rich, herbaceous]
-cuisines: []
+cuisines: [American]
 role: main
 vibe: nutritious
 prepTime: 15 min

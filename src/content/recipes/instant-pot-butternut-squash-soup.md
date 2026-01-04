@@ -5,7 +5,7 @@ cookingMethods: [grill, sauté, blend]
 dietary: []
 occasions: [comfort-food]
 flavorProfile: [sweet, savory, acidic, umami, rich]
-cuisines: []
+cuisines: [American]
 role: main
 vibe: comfort
 prepTime: 15 min

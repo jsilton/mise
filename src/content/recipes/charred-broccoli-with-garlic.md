@@ -5,7 +5,7 @@ cookingMethods: [steam]
 dietary: []
 occasions: []
 flavorProfile: [sweet, savory, acidic, umami, rich]
-cuisines: []
+cuisines: [Asian-Fusion]
 role: side
 vibe: quick
 prepTime: 5 min

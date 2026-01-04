@@ -5,7 +5,7 @@ cookingMethods: [sauté, simmer]
 dietary: []
 occasions: []
 flavorProfile: [spicy, sweet]
-cuisines: []
+cuisines: [Mexican]
 role: main
 vibe: nutritious
 prepTime: 20 min

@@ -5,7 +5,7 @@ cookingMethods: [bake, roast, grill, sauté, simmer, blend]
 dietary: []
 occasions: [comfort-food]
 flavorProfile: [sweet, acidic, rich, herbaceous]
-cuisines: []
+cuisines: [American]
 role: main
 vibe: comfort
 prepTime: 15 min

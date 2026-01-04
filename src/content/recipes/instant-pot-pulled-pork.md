@@ -7,7 +7,7 @@ cookingMethods: [bake, sauté]
 dietary: []
 occasions: [comfort-food]
 flavorProfile: [spicy, sweet, acidic, smoky]
-cuisines: []
+cuisines: [American-Southern]
 role: main
 vibe: comfort
 prepTime: 15 min

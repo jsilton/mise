@@ -5,7 +5,7 @@ cookingMethods: [roast, fry, sauté, boil]
 dietary: [vegetarian]
 occasions: []
 flavorProfile: [savory, acidic, rich]
-cuisines: []
+cuisines: [Italian]
 role: main
 vibe: nutritious
 prepTime: 10 min

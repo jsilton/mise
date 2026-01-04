@@ -5,7 +5,7 @@ cookingMethods: [roast, boil]
 dietary: [vegetarian]
 occasions: []
 flavorProfile: [sweet, acidic, rich]
-cuisines: []
+cuisines: [American-Southern]
 role: side
 vibe: nutritious
 prepTime: 15 min

@@ -5,7 +5,7 @@ cookingMethods: [bake]
 dietary: []
 occasions: [comfort-food]
 flavorProfile: [acidic, umami, herbaceous]
-cuisines: []
+cuisines: [Italian-American]
 role: main
 vibe: comfort
 prepTime: 15 min

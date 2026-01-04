@@ -5,7 +5,7 @@ cookingMethods: [simmer, boil, blend]
 dietary: [vegetarian]
 occasions: [kids-approved]
 flavorProfile: [sweet]
-cuisines: []
+cuisines: [American]
 role: drink
 vibe: technical
 prepTime: 5 min

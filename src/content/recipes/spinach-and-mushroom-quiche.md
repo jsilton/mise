@@ -5,7 +5,7 @@ cookingMethods: [bake, sauté, no-cook]
 dietary: [vegetarian]
 occasions: [comfort-food]
 flavorProfile: [sweet, acidic, rich]
-cuisines: []
+cuisines: [French]
 role: main
 vibe: comfort
 prepTime: 25 min

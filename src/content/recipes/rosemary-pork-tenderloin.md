@@ -5,7 +5,7 @@ cookingMethods: [bake, roast]
 dietary: []
 occasions: []
 flavorProfile: [sweet, savory, herbaceous]
-cuisines: []
+cuisines: [American]
 role: main
 vibe: nutritious
 prepTime: 15 min

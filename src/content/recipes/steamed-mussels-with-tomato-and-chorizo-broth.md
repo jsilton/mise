@@ -5,7 +5,7 @@ cookingMethods: [sauté, simmer, boil, steam]
 dietary: [vegetarian]
 occasions: []
 flavorProfile: [sweet, savory, acidic, herbaceous]
-cuisines: []
+cuisines: [Spanish]
 role: main
 vibe: quick
 prepTime: 15 min

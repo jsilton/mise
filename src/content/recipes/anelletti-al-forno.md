@@ -7,7 +7,7 @@ cookingMethods: [bake, fry, sauté, simmer, boil]
 dietary: []
 occasions: []
 flavorProfile: [umami]
-cuisines: []
+cuisines: [Italian]
 role: main
 vibe: technical
 prepTime: 45 min

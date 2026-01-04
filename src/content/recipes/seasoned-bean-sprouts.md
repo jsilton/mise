@@ -5,7 +5,7 @@ cookingMethods: [steam]
 dietary: [vegetarian]
 occasions: []
 flavorProfile: [savory, umami]
-cuisines: []
+cuisines: [Korean]
 role: side
 vibe: quick
 prepTime: 5 min

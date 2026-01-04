@@ -5,7 +5,7 @@ cookingMethods: [fry, sauté, steam]
 dietary: []
 occasions: []
 flavorProfile: [sweet, savory, umami]
-cuisines: []
+cuisines: [Thai]
 role: main
 vibe: nutritious
 prepTime: 15 min

@@ -5,7 +5,7 @@ cookingMethods: [sauté, boil, steam]
 dietary: []
 occasions: []
 flavorProfile: [spicy, sweet, savory, acidic, umami]
-cuisines: []
+cuisines: [Japanese]
 role: main
 vibe: quick
 prepTime: 10 min

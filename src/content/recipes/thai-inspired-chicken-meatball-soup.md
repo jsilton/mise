@@ -5,7 +5,7 @@ cookingMethods: [bake, sauté, simmer]
 dietary: []
 occasions: [comfort-food]
 flavorProfile: [spicy, sweet, savory, acidic, herbaceous]
-cuisines: []
+cuisines: [Thai]
 role: main
 vibe: comfort
 prepTime: 15 min

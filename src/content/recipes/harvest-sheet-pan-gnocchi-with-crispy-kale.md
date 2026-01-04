@@ -5,7 +5,7 @@ cookingMethods: [bake, roast, boil]
 dietary: []
 occasions: []
 flavorProfile: [savory, umami, rich, smoky]
-cuisines: []
+cuisines: [Italian]
 role: main
 vibe: nutritious
 prepTime: 15 min

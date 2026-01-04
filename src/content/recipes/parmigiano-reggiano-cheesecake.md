@@ -5,7 +5,7 @@ cookingMethods: [bake, roast, blend]
 dietary: [vegetarian, nut-free]
 occasions: []
 flavorProfile: [sweet, savory, acidic, umami, rich]
-cuisines: []
+cuisines: [Italian]
 role: dessert
 vibe: technical
 prepTime: 45 min

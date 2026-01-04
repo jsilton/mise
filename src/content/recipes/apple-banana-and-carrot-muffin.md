@@ -9,7 +9,7 @@ cookingMethods: [bake, simmer, boil]
 dietary: [vegetarian]
 occasions: [kids-approved]
 flavorProfile: [rich, herbaceous]
-cuisines: []
+cuisines: [American]
 role: side
 vibe: nutritious
 prepTime: 15 min

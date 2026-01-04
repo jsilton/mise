@@ -5,7 +5,7 @@ cookingMethods: [roast, sauté, simmer, boil, blend]
 dietary: [vegetarian]
 occasions: [comfort-food]
 flavorProfile: [sweet, acidic, rich, herbaceous]
-cuisines: []
+cuisines: [Mediterranean]
 role: main
 vibe: comfort
 prepTime: 15 min

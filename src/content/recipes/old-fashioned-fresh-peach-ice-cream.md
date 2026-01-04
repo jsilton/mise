@@ -5,7 +5,7 @@ cookingMethods: [steam]
 dietary: [vegetarian]
 occasions: []
 flavorProfile: [sweet, acidic, rich]
-cuisines: []
+cuisines: [American]
 role: dessert
 vibe: nutritious
 prepTime: 30 min

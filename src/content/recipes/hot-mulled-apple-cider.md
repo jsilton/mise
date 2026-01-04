@@ -5,7 +5,7 @@ cookingMethods: [simmer, boil, slow-cook]
 dietary: [vegetarian]
 occasions: [holiday]
 flavorProfile: [sweet, acidic]
-cuisines: []
+cuisines: [American]
 role: drink
 vibe: holiday
 prepTime: 5 min

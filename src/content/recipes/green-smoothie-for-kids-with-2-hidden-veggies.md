@@ -5,7 +5,7 @@ cookingMethods: [blend]
 dietary: [vegetarian]
 occasions: []
 flavorProfile: [sweet, rich]
-cuisines: []
+cuisines: [American]
 role: drink
 vibe: nutritious
 prepTime: 5 min

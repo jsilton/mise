@@ -5,7 +5,7 @@ cookingMethods: [bake, roast, boil, no-cook, blend]
 dietary: [vegetarian]
 occasions: [comfort-food]
 flavorProfile: [umami, herbaceous]
-cuisines: []
+cuisines: [Italian-American]
 role: main
 vibe: comfort
 prepTime: 20 min

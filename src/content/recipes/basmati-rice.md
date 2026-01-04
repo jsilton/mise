@@ -5,7 +5,7 @@ cookingMethods: [simmer, steam]
 dietary: []
 occasions: []
 flavorProfile: [rich]
-cuisines: []
+cuisines: [Indian, Middle-Eastern]
 role: base
 vibe: quick
 prepTime: 5 min

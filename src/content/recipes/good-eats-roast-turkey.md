@@ -5,7 +5,7 @@ cookingMethods: [bake, roast, boil, steam]
 dietary: []
 occasions: [holiday]
 flavorProfile: [sweet, rich, herbaceous]
-cuisines: []
+cuisines: [American]
 role: main
 vibe: holiday
 prepTime: 30 min

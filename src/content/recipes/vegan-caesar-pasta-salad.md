@@ -5,7 +5,7 @@ cookingMethods: [roast, boil]
 dietary: [vegetarian, vegan]
 occasions: []
 flavorProfile: []
-cuisines: []
+cuisines: [Italian-American]
 role: side
 vibe: nutritious
 prepTime: 15 min

@@ -5,7 +5,7 @@ cookingMethods: [bake, blend]
 dietary: [vegetarian]
 occasions: []
 flavorProfile: [sweet, acidic]
-cuisines: []
+cuisines: [American]
 role: side
 vibe: quick
 prepTime: 10 min

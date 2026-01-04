@@ -5,7 +5,7 @@ cookingMethods: [fry, sauté, simmer, boil]
 dietary: []
 occasions: [comfort-food]
 flavorProfile: [savory, umami]
-cuisines: []
+cuisines: [Chinese-American]
 role: main
 vibe: comfort
 prepTime: 15 min

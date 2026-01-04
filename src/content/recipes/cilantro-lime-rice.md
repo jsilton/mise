@@ -5,7 +5,7 @@ cookingMethods: [simmer, boil, steam]
 dietary: []
 occasions: []
 flavorProfile: [sweet, acidic, rich, herbaceous]
-cuisines: []
+cuisines: [Mexican]
 role: base
 vibe: quick
 prepTime: 5 min

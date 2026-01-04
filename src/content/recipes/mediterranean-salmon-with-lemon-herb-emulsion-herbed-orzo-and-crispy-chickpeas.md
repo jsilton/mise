@@ -5,7 +5,7 @@ cookingMethods: [bake, roast, boil, no-cook]
 dietary: [vegetarian]
 occasions: []
 flavorProfile: [sweet, acidic, herbaceous, smoky]
-cuisines: []
+cuisines: [Mediterranean]
 role: main
 vibe: quick
 prepTime: 15 min

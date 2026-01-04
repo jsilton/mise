@@ -21,7 +21,7 @@ cookingMethods: [sauté, simmer, boil]
 dietary: []
 occasions: [comfort-food]
 flavorProfile: [sweet, savory, rich, herbaceous]
-cuisines: []
+cuisines: [Italian]
 role: main
 vibe: comfort
 ---

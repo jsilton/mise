@@ -5,7 +5,7 @@ cookingMethods: [sauté, simmer, boil, steam]
 dietary: []
 occasions: []
 flavorProfile: [rich]
-cuisines: []
+cuisines: [Middle-Eastern, American]
 role: base
 vibe: quick
 prepTime: 5 min

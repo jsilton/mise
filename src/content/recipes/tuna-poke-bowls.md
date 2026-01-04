@@ -5,7 +5,7 @@ cookingMethods: [no-cook]
 dietary: []
 occasions: []
 flavorProfile: [spicy, savory, acidic, umami]
-cuisines: []
+cuisines: [Hawaiian]
 role: main
 vibe: nutritious
 prepTime: 20 min

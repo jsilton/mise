@@ -5,7 +5,7 @@ cookingMethods: [boil, no-cook]
 dietary: []
 occasions: []
 flavorProfile: [sweet, savory, acidic, herbaceous]
-cuisines: []
+cuisines: [Vietnamese]
 role: main
 vibe: quick
 prepTime: 30 min

@@ -5,7 +5,7 @@ cookingMethods: [bake, boil, no-cook]
 dietary: []
 occasions: [holiday]
 flavorProfile: [savory, rich]
-cuisines: []
+cuisines: [American]
 role: main
 vibe: holiday
 prepTime: 15 min

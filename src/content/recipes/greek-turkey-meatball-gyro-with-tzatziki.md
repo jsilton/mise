@@ -5,7 +5,7 @@ cookingMethods: [roast, no-cook]
 dietary: []
 occasions: []
 flavorProfile: [acidic, rich]
-cuisines: []
+cuisines: [Greek]
 role: main
 vibe: quick
 prepTime: 10 min

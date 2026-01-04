@@ -5,7 +5,7 @@ cookingMethods: [simmer]
 dietary: []
 occasions: []
 flavorProfile: [spicy, sweet, rich, herbaceous]
-cuisines: []
+cuisines: [Asian-Fusion]
 role: main
 vibe: quick
 prepTime: 10 min

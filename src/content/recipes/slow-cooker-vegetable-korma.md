@@ -5,7 +5,7 @@ cookingMethods: [braise, slow-cook]
 dietary: [vegetarian]
 occasions: []
 flavorProfile: [rich]
-cuisines: []
+cuisines: [Indian]
 role: side
 vibe: nutritious
 prepTime: 15 min

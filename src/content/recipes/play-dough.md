@@ -5,7 +5,7 @@ cookingMethods: [no-cook]
 dietary: [vegetarian]
 occasions: []
 flavorProfile: [rich]
-cuisines: []
+cuisines: [American]
 role: base
 vibe: nutritious
 prepTime: 5 min

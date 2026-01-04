@@ -5,7 +5,7 @@ cookingMethods: [bake, steam, blend]
 dietary: []
 occasions: []
 flavorProfile: [spicy, sweet, rich]
-cuisines: []
+cuisines: [American-Southern]
 role: main
 vibe: quick
 prepTime: 10 min

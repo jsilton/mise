@@ -7,7 +7,7 @@ cookingMethods: [boil, blend]
 dietary: []
 occasions: [comfort-food]
 flavorProfile: [sweet, savory, umami, smoky]
-cuisines: []
+cuisines: [Chinese-American]
 role: main
 vibe: comfort
 prepTime: 15 min

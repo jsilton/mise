@@ -5,7 +5,7 @@ cookingMethods: [bake]
 dietary: [vegetarian]
 occasions: [holiday]
 flavorProfile: [sweet, rich]
-cuisines: []
+cuisines: [American]
 role: base
 vibe: quick
 prepTime: 30 min

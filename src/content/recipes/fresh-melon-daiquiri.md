@@ -5,7 +5,7 @@ cookingMethods: [blend]
 dietary: []
 occasions: []
 flavorProfile: [sweet, acidic]
-cuisines: []
+cuisines: [Caribbean]
 role: drink
 vibe: quick
 prepTime: 5 min

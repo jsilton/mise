@@ -5,7 +5,7 @@ cookingMethods: []
 dietary: [vegetarian]
 occasions: []
 flavorProfile: [acidic, smoky]
-cuisines: []
+cuisines: [Mexican]
 role: drink
 vibe: quick
 prepTime: 5 min

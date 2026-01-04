@@ -5,7 +5,7 @@ cookingMethods: [simmer, boil]
 dietary: []
 occasions: [comfort-food]
 flavorProfile: [rich]
-cuisines: []
+cuisines: [Italian]
 role: main
 vibe: comfort
 prepTime: 20 min

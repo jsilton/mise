@@ -5,7 +5,7 @@ cookingMethods: [bake, roast, fry, boil, steam]
 dietary: []
 occasions: [kids-approved]
 flavorProfile: [acidic, umami]
-cuisines: []
+cuisines: [American]
 role: side
 vibe: quick
 prepTime: 5 min

@@ -5,7 +5,7 @@ cookingMethods: [sauté, simmer, boil, blend]
 dietary: [vegetarian]
 occasions: [comfort-food]
 flavorProfile: [acidic, rich]
-cuisines: []
+cuisines: [American]
 role: main
 vibe: comfort
 prepTime: 10 min

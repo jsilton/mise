@@ -5,7 +5,7 @@ cookingMethods: [grill]
 dietary: []
 occasions: []
 flavorProfile: [sweet, rich]
-cuisines: []
+cuisines: [Mediterranean]
 role: side
 vibe: nutritious
 prepTime: 15 min

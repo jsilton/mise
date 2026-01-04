@@ -5,7 +5,7 @@ cookingMethods: [boil, no-cook]
 dietary: []
 occasions: []
 flavorProfile: [sweet, acidic, herbaceous]
-cuisines: []
+cuisines: [Thai]
 role: drink
 vibe: quick
 prepTime: 5 min

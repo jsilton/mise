@@ -5,7 +5,7 @@ cookingMethods: [bake, roast, poach]
 dietary: []
 occasions: []
 flavorProfile: [acidic, rich, herbaceous]
-cuisines: []
+cuisines: [Mediterranean]
 role: main
 vibe: quick
 prepTime: 10 min

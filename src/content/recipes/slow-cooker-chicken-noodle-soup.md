@@ -5,7 +5,7 @@ cookingMethods: [grill, slow-cook]
 dietary: []
 occasions: [comfort-food]
 flavorProfile: [acidic, herbaceous]
-cuisines: []
+cuisines: [American]
 role: main
 vibe: comfort
 prepTime: 15 min

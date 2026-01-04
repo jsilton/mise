@@ -7,7 +7,7 @@ cookingMethods: [roast, grill, no-cook]
 dietary: []
 occasions: []
 flavorProfile: [sweet]
-cuisines: []
+cuisines: [American]
 role: main
 vibe: quick
 prepTime: 15 min

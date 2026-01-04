@@ -5,7 +5,7 @@ cookingMethods: [roast, slow-cook, blend]
 dietary: []
 occasions: [comfort-food]
 flavorProfile: [rich, herbaceous]
-cuisines: []
+cuisines: [American]
 role: main
 vibe: comfort
 prepTime: 10 min

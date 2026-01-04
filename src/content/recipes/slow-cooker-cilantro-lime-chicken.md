@@ -5,7 +5,7 @@ cookingMethods: [slow-cook]
 dietary: []
 occasions: [comfort-food]
 flavorProfile: [spicy, acidic]
-cuisines: []
+cuisines: [Mexican]
 role: main
 vibe: comfort
 prepTime: 10 min

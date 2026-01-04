@@ -7,7 +7,7 @@ cookingMethods: [bake, roast, simmer, boil]
 dietary: [vegetarian]
 occasions: [holiday]
 flavorProfile: [spicy, sweet, umami, rich, herbaceous]
-cuisines: []
+cuisines: [French]
 role: side
 vibe: holiday
 prepTime: 25 min

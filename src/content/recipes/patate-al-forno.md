@@ -5,7 +5,7 @@ cookingMethods: [bake, roast, steam]
 dietary: []
 occasions: []
 flavorProfile: [rich, herbaceous]
-cuisines: []
+cuisines: [Italian]
 role: side
 vibe: nutritious
 prepTime: 10 min

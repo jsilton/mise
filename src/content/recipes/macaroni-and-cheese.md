@@ -24,7 +24,7 @@ cookingMethods: [bake, roast, grill, boil]
 dietary: []
 occasions: [comfort-food]
 flavorProfile: [rich, smoky]
-cuisines: []
+cuisines: [American]
 role: main
 vibe: nutritious
 ---

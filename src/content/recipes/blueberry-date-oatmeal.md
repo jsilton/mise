@@ -5,7 +5,7 @@ cookingMethods: [simmer, boil]
 dietary: [vegetarian]
 occasions: []
 flavorProfile: [sweet, rich]
-cuisines: []
+cuisines: [American]
 role: main
 vibe: nutritious
 prepTime: 5 min

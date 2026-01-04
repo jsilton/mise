@@ -5,7 +5,7 @@ cookingMethods: [bake, roast, sauté, simmer, boil]
 dietary: []
 occasions: []
 flavorProfile: [sweet, rich]
-cuisines: []
+cuisines: [Italian]
 role: main
 vibe: nutritious
 prepTime: 15 min
