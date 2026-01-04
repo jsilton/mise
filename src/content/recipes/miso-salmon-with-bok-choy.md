@@ -1,37 +1,47 @@
 ---
-title: Miso Salmon with Bok Choy
-prepTime: 20 min
-cookTime: 15 min
-servings: '4'
-ingredients:
-  - 2 tbsp soy sauce
-  - 3 tbsp honey
-  - 1 tbsp mirin (rice wine)
-  - 2 tbsp lemon juice
-  - 3 tbsp miso paste
-  - 2 tbsp rice wine vinegar
-  - 2 tbsp oyster sauce
-  - '3 cloves garlic, minced'
-  - '6 stalks green onion, minced'
-  - '4 salmon fillets, about 2 pounds'
-  - '6 heads baby bok choy, root ends trimmed off'
-  - Kosher Salt
-  - Fresh black pepper
-  - '1 1/2 cups rice, cooked'
-totalTime: 35 min
+title: Miso-Glazed Salmon with Crunchy Bok Choy
 role: main
 vibe: speed
+prepTime: 15 min
+cookTime: 15 min
+totalTime: 30 min
+servings: '4'
+ingredients:
+  - '4 Salmon Fillets (6 oz each), skin-on or skin-off'
+  - '--- The Miso Glaze ---'
+  - '3 tbsp White Miso Paste'
+  - '2 tbsp Honey (or Maple Syrup)'
+  - '1 tbsp Soy Sauce'
+  - '1 tbsp Mirin'
+  - '1 tbsp Rice Vinegar'
+  - '1 tsp Ginger, freshly grated'
+  - '--- The Bok Choy ---'
+  - '1 lb Baby Bok Choy, halved lengthwise'
+  - '2 cloves Garlic, minced'
+  - '1 tsp Toasted Sesame Oil'
+  - '1 tsp Oyster Sauce'
+  - '--- For Serving ---'
+  - 'Cooked Jasmine Rice'
+  - 'Toasted Sesame Seeds and sliced Green Onions'
 ---
+
+## Chef's Note
+
+This dish is about the interplay between the buttery, caramelized salmon and the crisp, mineral bite of the bok choy. To get that restaurant-quality "Miso Crust," we use the broiler to bubble and char the sugars in the miso. **The secret to the Bok Choy:** do not boil it! Sauté the garlic and stems first to get a sear, then add the leaves and a splash of water to steam them for 90 seconds. This ensures they stay bright green and crunchy.
 
 ## Directions
 
-1. 1. Start the rice in the rice cooker.
-2. 2. Whisk soy sauce, mirin, rice vinegar, honey, lemon juice, miso, salt, pepper, and half of the green onion and garlic together to form the marinade in separate bowl. Remove skin from the salmon fillets and cover completely in marinade. Allow to marinate for at least 10 minutes, preferably for 30.
-3. 3. Chop and wash bok choy and set aside with the other half of the green onion and garlic. Setup the salmon on a broiling or cooking rack over a foil-lined pan.
-4. 4. Cook the salmon in the oven or toaster oven at 400 degrees without turning for 8-10 minutes, depending on thickness and the distance from broiler. Then, change the setting to broil and cook for 1-2 minutes, so there miso is caramelized on the top.
-5. 5. While the salmon is cooking, heat a large skillet or wok over high heat. Cook the green onion and garlic in seasame oil for 1 minute, then saute the bok choy, seasoned with salt and pepper, for 6-8 minutes until almost cooked through. Reduce the heat to low and add the oyster sauce, micing evenly for 1 minute.
-6. 6. Serve the salmon over a bed of rice and bok choy. Enjoy!
+1.  **The Glaze:** In a small bowl, whisk together the miso, honey, soy sauce, mirin, rice vinegar, and ginger until smooth.
+2.  **Prep Salmon:** Pat the salmon fillets bone-dry with paper towels. Arrange on a foil-lined baking sheet.
+3.  **Initial Roast:** Brush half of the miso glaze over the salmon. Roast in a 400°F oven for 8 minutes.
+4.  **The Char:** Remove salmon, brush with the remaining glaze, and switch the oven to **BROIL**. Place the tray 6 inches from the heat and broil for 2-3 minutes until the glaze is bubbling and has dark charred spots. Pull at an internal temp of 135-140°F.
+5.  **The Bok Choy:** While salmon roasts, heat a large skillet or wok over high heat with a splash of oil. Add the garlic and the bok choy (cut-side down). Sear for 2 minutes without moving until the edges are browned.
+6.  **Steam:** Pour in 2 tablespoons of water or broth, immediately cover with a lid, and steam for 1 minute.
+7.  **Finish:** Remove lid, stir in the oyster sauce and sesame oil. Toss to coat.
+8.  **Serve:** Place a mound of [Jasmine Rice](/recipes/near-east-rice-pilaf-hack) in each bowl, top with the salmon and bok choy. Garnish with sesame seeds and green onions.
 
 ## Serving Suggestions
 
-Jasmine Rice, Smashed Cucumber Salad
+- [Jasmine Rice](/recipes/near-east-rice-pilaf-hack) (Rinse 3 times!)
+- [Smashed Cucumber Salad](/recipes/smashed-cucumber-salad)
+- Cold Sake or Green Tea
