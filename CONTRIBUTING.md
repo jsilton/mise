@@ -10,9 +10,24 @@ This document defines the operational mandates and best practices for working on
 
 ## 2. Git Workflow
 
+**CRITICAL: Always follow this sequence after making changes:**
+
+```bash
+# 1. Verify changes work
+npm run build
+
+# 2. If build succeeds, immediately commit and push
+git add -A
+git commit -m "Clear, descriptive commit message"
+git push origin main
+```
+
 - **Atomic Commits:** Create small, focused commits with descriptive messages (e.g., "Fix: YAML escaping", "Feat: Add nutrition parser").
 - **Push Immediately:** Push to `origin` immediately after completing a logical unit of work. Do not accumulate large stacks of unpushed commits.
+- **Never Skip Commit:** After a successful build, ALWAYS commit and push. This ensures GitHub Actions deploys changes immediately.
 - **Clean Workspace:** Delete temporary scripts, logs, or debug files before committing.
+
+**Why this matters:** Changes only deploy when pushed to GitHub. A successful local build means nothing if the code isn't committed.
 
 ## 3. Code Quality & Formatting
 
