@@ -3,7 +3,7 @@ title: Chinese Sausage Fried Rice
 difficulty: easy
 cookingMethods: [fry]
 dietary: [vegetarian]
-occasions: []
+occasions: [weeknight, quick-lunch, meal-prep]
 flavorProfile: [spicy, savory, umami]
 cuisines: [Chinese]
 role: main
@@ -12,6 +12,11 @@ prepTime: 10 min
 cookTime: 15 min
 totalTime: 25 min
 servings: '4'
+seasons: [year-round]
+nutritionalDensity: hearty
+leftovers: excellent
+equipment: [wok]
+pairsWith: [egg-drop-soup, spring-rolls]
 ingredients:
   - '4 cups Cooked Rice (Day-old, cold Jasmine)'
   - '5 Chinese Sausages (Lap Cheong), thinly sliced'

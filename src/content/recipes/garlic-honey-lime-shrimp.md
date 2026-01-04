@@ -3,7 +3,7 @@ title: Garlic Honey Lime Shrimp
 difficulty: intermediate
 cookingMethods: [simmer]
 dietary: []
-occasions: []
+occasions: [weeknight, quick-lunch, light-and-fresh]
 flavorProfile: [spicy, sweet, rich, herbaceous]
 cuisines: [Chinese]
 role: main
@@ -12,6 +12,11 @@ prepTime: 10 min
 cookTime: 5 min
 totalTime: 15 min
 servings: '4'
+seasons: [year-round]
+nutritionalDensity: light
+leftovers: good
+equipment: [large-skillet]
+pairsWith: [basmati-rice, cauliflower-rice, vegetables]
 ingredients:
   - '1 lb Jumbo Shrimp, peeled and deveined'
   - '1/4 tsp Baking Soda (The secret to the "snap")'

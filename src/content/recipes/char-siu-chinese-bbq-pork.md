@@ -4,7 +4,7 @@ origin: China
 difficulty: easy
 cookingMethods: [bake, roast]
 dietary: []
-occasions: []
+occasions: [weekend-project, meal-prep, entertaining]
 flavorProfile: [sweet, savory, umami]
 cuisines: [Chinese]
 role: main
@@ -13,6 +13,12 @@ prepTime: 15 min
 cookTime: 50 min
 totalTime: 12 hours
 servings: '8'
+seasons: [year-round]
+nutritionalDensity: hearty
+leftovers: excellent
+advancePrep: [marinate-overnight]
+equipment: []
+pairsWith: [basmati-rice, bok-choy, steamed-buns]
 ingredients:
   - '3 lbs Pork Butt (Shoulder), cut into 2-inch wide strips'
   - '--- The Marinade & Glaze ---'

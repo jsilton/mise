@@ -3,7 +3,7 @@ title: Corn-Shrimp Dumplings
 difficulty: intermediate
 cookingMethods: [boil, steam]
 dietary: []
-occasions: []
+occasions: [weekend-project, entertaining]
 flavorProfile: [spicy, sweet, savory, umami]
 cuisines: [Chinese]
 role: side
@@ -12,6 +12,12 @@ prepTime: 40 min
 cookTime: 10 min
 totalTime: 50 min
 servings: 20 dumplings
+seasons: [summer, year-round]
+nutritionalDensity: light
+leftovers: excellent
+advancePrep: [make-ahead, freeze-ahead]
+equipment: [bamboo-steamer]
+pairsWith: [soy-dipping-sauce, chili-oil]
 ingredients:
   - '1/2 lb Shrimp, peeled, deveined, and finely chopped'
   - '1 ear Fresh Corn, kernels cut off the cob'

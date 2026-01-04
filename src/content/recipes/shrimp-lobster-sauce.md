@@ -3,7 +3,7 @@ title: Shrimp with Lobster Sauce
 difficulty: easy
 cookingMethods: [fry, sauté, simmer, boil]
 dietary: []
-occasions: [comfort-food]
+occasions: [comfort-food, weeknight, quick-lunch]
 flavorProfile: [savory, umami]
 cuisines: [Chinese]
 role: main
@@ -12,6 +12,11 @@ prepTime: 15 min
 cookTime: 10 min
 totalTime: 25 min
 servings: '4'
+seasons: [year-round]
+nutritionalDensity: moderate
+leftovers: good
+equipment: [wok]
+pairsWith: [basmati-rice, steamed-broccoli]
 ingredients:
   - '1 lb Shrimp, peeled and deveined'
   - 1/4 lb Ground Pork (The Savory Base)

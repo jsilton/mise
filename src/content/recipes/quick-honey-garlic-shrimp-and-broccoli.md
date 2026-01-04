@@ -3,7 +3,7 @@ title: Honey Garlic Shrimp and Broccoli
 difficulty: easy
 cookingMethods: [steam]
 dietary: []
-occasions: []
+occasions: [weeknight, quick-lunch, light-and-fresh]
 flavorProfile: [sweet, savory, umami]
 cuisines: [Chinese]
 role: main
@@ -12,6 +12,11 @@ prepTime: 5 min
 cookTime: 10 min
 totalTime: 15 min
 servings: '4'
+seasons: [year-round]
+nutritionalDensity: light
+leftovers: good
+equipment: [large-skillet]
+pairsWith: [basmati-rice, cauliflower-rice]
 ingredients:
   - '1 lb Shrimp, peeled and deveined'
   - 1 cup Fresh Broccoli Florets

@@ -3,7 +3,7 @@ title: Chinese Eggplant with Garlic Sauce
 difficulty: easy
 cookingMethods: [fry, simmer, steam]
 dietary: []
-occasions: []
+occasions: [weeknight, quick-lunch, comfort-food]
 flavorProfile: [spicy, sweet, savory, acidic, umami]
 cuisines: [Chinese]
 role: main
@@ -12,6 +12,11 @@ prepTime: 15 min
 cookTime: 20 min
 totalTime: 35 min
 servings: '4'
+seasons: [summer, fall, year-round]
+nutritionalDensity: moderate
+leftovers: excellent
+equipment: [wok]
+pairsWith: [basmati-rice, general-tsos-chicken]
 ingredients:
   - 1 lb Chinese or Japanese Eggplants (2-3 eggplants)
   - 4 oz Ground Pork (optional)

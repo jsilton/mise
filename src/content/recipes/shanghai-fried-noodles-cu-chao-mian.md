@@ -4,7 +4,7 @@ origin: China
 difficulty: easy
 cookingMethods: [fry, sauté]
 dietary: []
-occasions: []
+occasions: [weeknight, quick-lunch, kids-approved]
 flavorProfile: [sweet, savory, acidic, umami]
 cuisines: [Chinese]
 role: main
@@ -13,6 +13,11 @@ prepTime: 10 min
 cookTime: 10 min
 totalTime: 20 min
 servings: '4'
+seasons: [year-round]
+nutritionalDensity: hearty
+leftovers: excellent
+equipment: [wok]
+pairsWith: [smashed-cucumber-salad, spring-rolls]
 ingredients:
   - 1 lb Japanese-style Udon or thick Egg Noodles
   - '6 oz Pork Tenderloin, sliced into thin strips'

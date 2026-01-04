@@ -3,7 +3,7 @@ title: 'Smashed Cucumber Salad'
 difficulty: easy
 cookingMethods: []
 dietary: []
-occasions: []
+occasions: [weeknight, entertaining, light-and-fresh]
 flavorProfile: [spicy, sweet, savory, acidic, umami]
 cuisines: [Chinese]
 role: side
@@ -12,6 +12,11 @@ prepTime: 10 min
 cookTime: 0 min
 totalTime: 40 min
 servings: '4'
+seasons: [spring, summer, year-round]
+nutritionalDensity: light
+leftovers: poor
+equipment: []
+pairsWith: [lo-mein, dumplings, stir-fry]
 ingredients:
   - '2 English cucumbers (or 6 Persian cucumbers)'
   - '1 teaspoon kosher salt'

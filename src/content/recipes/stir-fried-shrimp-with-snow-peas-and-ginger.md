@@ -3,7 +3,7 @@ title: Shrimp with Snow Peas & Ginger
 difficulty: easy
 cookingMethods: [sauté, boil]
 dietary: []
-occasions: []
+occasions: [weeknight, quick-lunch, light-and-fresh]
 flavorProfile: [sweet, savory, umami]
 cuisines: [Chinese]
 role: main
@@ -12,6 +12,11 @@ prepTime: 10 min
 cookTime: 10 min
 totalTime: 30 min
 servings: '4'
+seasons: [spring, summer, year-round]
+nutritionalDensity: light
+leftovers: good
+equipment: [wok]
+pairsWith: [basmati-rice, egg-fried-rice]
 ingredients:
   - '1 lb Large Shrimp, peeled and deveined'
   - '6 oz Fresh Snow Peas, strings removed'

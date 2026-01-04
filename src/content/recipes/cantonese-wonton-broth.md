@@ -3,7 +3,7 @@ title: Cantonese Wonton Broth
 difficulty: easy
 cookingMethods: [roast, simmer, boil]
 dietary: []
-occasions: [comfort-food]
+occasions: [comfort-food, weeknight, quick-lunch]
 flavorProfile: [savory, umami]
 cuisines: [Chinese]
 role: base
@@ -12,6 +12,12 @@ prepTime: 10 min
 cookTime: 20 min
 totalTime: 30 min
 servings: '6'
+seasons: [year-round, winter]
+nutritionalDensity: light
+leftovers: excellent
+advancePrep: [make-ahead]
+equipment: []
+pairsWith: [wontons, noodles]
 ingredients:
   - '6 cups High-Quality Chicken Broth'
   - "1 tbsp Dried Shrimp (The traditional source of 'ocean' umami)"
