@@ -23,11 +23,12 @@ ingredients:
 ---
 
 ## Chef's Note
+
 We have upgraded the old-school "pudding pie" to the **Modern Heritage** standard. The secret is the **Bittersweet High Note**: by using 70% cacao chocolate instead of milk chocolate, we create a sophisticated, intense filling that balances the sweetness of the sugar. We use **The Emulsion Pattern**: we whisk the egg yolks directly into the cold milk before cooking, ensuring a silky, custard-like "Bounce" that never turns grainy. For the best result, use the Vodka Hack crust from our [Apple Pie](/recipes/apple-pie).
 
 ## Directions
 
-1.  **The Base:** In a medium saucepan, whisk together sugar, cornstarch, and salt. 
+1.  **The Base:** In a medium saucepan, whisk together sugar, cornstarch, and salt.
 2.  **Emulsify:** Slowly whisk in the milk and egg yolks until the mixture is perfectly smooth.
 3.  **The Cook:** Cook over medium heat, stirring constantly, for 6-8 minutes until the mixture just reaches a boil and becomes thick and glossy (like a heavy pudding).
 4.  **The Melt:** Remove from heat immediately. Stir in the chopped bittersweet chocolate, butter, and vanilla. Whisk until the chocolate is completely melted and the filling is uniform.
@@ -36,6 +37,7 @@ We have upgraded the old-school "pudding pie" to the **Modern Heritage** standar
 7.  **Serve:** Top with billowy whipped cream and shaved chocolate for **Texture Integrity**.
 
 ## Serving Suggestions
--   [Old-Fashioned Strawberry Ice Cream](/recipes/old-fashioned-strawberry-ice-cream)
--   Fresh Sliced Raspberries
--   [Hot Mulled Apple Cider](/recipes/hot-mulled-apple-cider)
+
+- [Old-Fashioned Strawberry Ice Cream](/recipes/old-fashioned-strawberry-ice-cream)
+- Fresh Sliced Raspberries
+- [Hot Mulled Apple Cider](/recipes/hot-mulled-apple-cider)

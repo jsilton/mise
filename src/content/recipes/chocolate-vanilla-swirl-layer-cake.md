@@ -23,6 +23,7 @@ ingredients:
 ---
 
 ## Chef's Note
+
 This cake is a masterclass in **Modern Heritage** visuals. The secret to the striking interior is the **Concentric Circle Pattern**: by alternating pours of white and chocolate batter directly into the center of the pan, we create a precise "Bulls-eye" that transforms into elegant swirls as it bakes. We use a mix of **Cake Flour** and All-Purpose to ensure **Texture Integrity**—the crumb is tender enough for a layer cake but sturdy enough to support the weight of the rich dark chocolate ganache.
 
 ## Directions
@@ -38,6 +39,7 @@ This cake is a masterclass in **Modern Heritage** visuals. The secret to the str
 9.  **Assemble:** Level the cooled cakes. Layer with ganache and frost the top and sides. Refrigerate for 1 hour to set the "Bounce" before slicing.
 
 ## Serving Suggestions
--   [Old-Fashioned Vanilla Ice Cream](/recipes/old-fashioned-vanilla-ice-cream)
--   Fresh Strawberries
--   [Hot-and-Sour Soup](/recipes/hot-and-sour-soup) (for a classic "Cake and Soup" dinner)
+
+- [Old-Fashioned Vanilla Ice Cream](/recipes/old-fashioned-vanilla-ice-cream)
+- Fresh Strawberries
+- [Hot-and-Sour Soup](/recipes/hot-and-sour-soup) (for a classic "Cake and Soup" dinner)

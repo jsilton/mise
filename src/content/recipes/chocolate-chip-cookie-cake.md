@@ -21,6 +21,7 @@ ingredients:
 ---
 
 ## Chef's Note
+
 The secret to a professional-grade cookie cake is **Texture Integrity** through the **Disc Pattern**. Using chocolate discs rather than standard chips creates larger "pools" of molten chocolate that integrate into the dough. We use **M&Ms** to provide a necessary "Salty Snap" and color. The Silton Standard for this dish is **High-Heat Edge Crisp**: we bake at 375°F to ensure the outer rim is shatteringly crisp while the center remains "Soft and Chewy."
 
 ## Directions
@@ -34,6 +35,7 @@ The secret to a professional-grade cookie cake is **Texture Integrity** through 
 7.  **Cool:** Let cool completely in the pan before slicing. This allows the internal structure to firm up.
 
 ## Serving Suggestions
--   [Old-Fashioned Vanilla Ice Cream](/recipes/old-fashioned-vanilla-ice-cream)
--   [Favorite Cream Cheese Frosting](/recipes/favorite-cream-cheese-frosting) (piped around the edges)
--   Cold Glass of Milk
+
+- [Old-Fashioned Vanilla Ice Cream](/recipes/old-fashioned-vanilla-ice-cream)
+- [Favorite Cream Cheese Frosting](/recipes/favorite-cream-cheese-frosting) (piped around the edges)
+- Cold Glass of Milk

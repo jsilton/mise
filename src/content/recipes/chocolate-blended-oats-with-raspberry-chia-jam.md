@@ -24,6 +24,7 @@ ingredients:
 ---
 
 ## Chef's Note
+
 This is the "Gold Standard" for meal-prep breakfasts. We use **The Blender Pattern** to transform standard rolled oats into a smooth, cake-like batter. The secret to the Silton Standard here is the **Acid Finish**: the tart, seed-studded raspberry jam provides a sharp "High Note" that cuts through the dense, earthy cacao. By letting this set overnight, the chia seeds fully hydrate, giving the oats a pudding-like "Bounce" that keeps you full until lunch.
 
 ## Directions
@@ -36,6 +37,7 @@ This is the "Gold Standard" for meal-prep breakfasts. We use **The Blender Patte
 6.  **Serve:** These keep for up to 5 days. Eat cold straight from the jar.
 
 ## Serving Suggestions
--   [Easy Breakfast Yogurt Popsicles](/recipes/easy-breakfast-yogurt-popsicles)
--   Fresh Sliced Bananas
--   A pinch of Flaky Sea Salt
+
+- [Easy Breakfast Yogurt Popsicles](/recipes/easy-breakfast-yogurt-popsicles)
+- Fresh Sliced Bananas
+- A pinch of Flaky Sea Salt

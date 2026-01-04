@@ -22,6 +22,7 @@ ingredients:
 ---
 
 ## Chef's Note
+
 This is a **Modern Heritage** update to the classic chocolate muffin. We use **Beet Puree** as a structural hydrator; it provides a deep, earthy moisture that keeps the muffins succulent for days without needing excessive oil. The secret to the Silton Standard here is **Texture Integrity**: the batter should be "Scoopable," not pourable. This ensures that the whole-wheat flour doesn't become gummy and the chocolate chips stay suspended rather than sinking to the bottom.
 
 ## Directions
@@ -35,6 +36,7 @@ This is a **Modern Heritage** update to the classic chocolate muffin. We use **B
 7.  **Cool:** Let cool in the pan for 5 minutes before transferring to a rack.
 
 ## Serving Suggestions
--   [Easy Breakfast Yogurt Popsicles](/recipes/easy-breakfast-yogurt-popsicles)
--   Cold Glass of Soy or Almond Milk
--   [Banana Nut Bread](/recipes/banana-nut-bread) (as part of a brunch spread)
+
+- [Easy Breakfast Yogurt Popsicles](/recipes/easy-breakfast-yogurt-popsicles)
+- Cold Glass of Soy or Almond Milk
+- [Banana Nut Bread](/recipes/banana-nut-bread) (as part of a brunch spread)

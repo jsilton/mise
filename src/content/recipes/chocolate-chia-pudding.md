@@ -18,16 +18,18 @@ ingredients:
 ---
 
 ## Chef's Note
+
 The secret to a "Gold Standard" chia pudding is **The Blender Pattern**. Many recipes leave the seeds whole, which can result in a gritty, uneven texture. By blending the seeds on high speed, we break them down until they are undetectable, creating a silky, mousse-like consistency that feels like a "Comfort" dessert but provides the "Fuel" of a superfood. Always let it chill for at least 3 hours to allow the fibers to fully set into a "Bounce."
 
 ## Directions
 
-1.  **Blend:** Combine almond milk, chia seeds, maple syrup, cocoa powder, vanilla, and salt in a high-powered blender. 
+1.  **Blend:** Combine almond milk, chia seeds, maple syrup, cocoa powder, vanilla, and salt in a high-powered blender.
 2.  **Pulverize:** Start on low and gradually increase to high. Blend for 60 seconds until the mixture is completely smooth and the seeds have disappeared.
 3.  **The Set:** Transfer the mixture to individual jars or a large bowl. Cover and refrigerate for **at least 3 hours** (or overnight) until thick and set.
 4.  **Serve:** Stir once before serving. Top with fresh berries and nuts for **Texture Integrity**.
 
 ## Serving Suggestions
--   [Blueberry Oat Breakfast Bars](/recipes/blueberry-oat-breakfast-bars)
--   Fresh Raspberries
--   [Easy Breakfast Yogurt Popsicles](/recipes/easy-breakfast-yogurt-popsicles)
+
+- [Blueberry Oat Breakfast Bars](/recipes/blueberry-oat-breakfast-bars)
+- Fresh Raspberries
+- [Easy Breakfast Yogurt Popsicles](/recipes/easy-breakfast-yogurt-popsicles)
