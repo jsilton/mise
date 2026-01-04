@@ -1,33 +1,36 @@
 ---
-title: Steel Cut Oatmeal
-prepTime: 10 min
-cookTime: 35 min
-servings: 'Yield: 4 servings'
-ingredients:
-  - 1 tablespoon butter
-  - 1 cup steel cut oats
-  - 3 cups boiling water
-  - 1/2 cup whole milk
-  - 1/2 cup plus 1 tablespoon low-fat buttermilk
-  - 1 tablespoon brown sugar
-  - 1/4 teaspoon cinnamon
-totalTime: 45 min
+title: Steel-Cut Oatmeal
 role: main
 vibe: fuel
+prepTime: 5 min
+cookTime: 35 min
+totalTime: 40 min
+servings: '4'
+ingredients:
+  - '1 cup Steel-cut Oats'
+  - '3 cups Boiling Water'
+  - '--- The "Bounce" Emulsion ---'
+  - '1/2 cup Whole Milk'
+  - '1/2 cup Low-fat Buttermilk (The Acid Finish)'
+  - '1 tbsp Unsalted Butter'
+  - '--- The High Note ---'
+  - '1 tbsp Light Brown Sugar'
+  - '1/4 tsp Ground Cinnamon'
+  - 'Pinch of Sea Salt'
 ---
+
+## Chef's Note
+The secret to "Gold Standard" oatmeal is **Structural Science** through **The Toasting Pattern**. You must fry the dry oats in butter for 2 minutes *before* adding the water; this creates a protective nutty shell that ensures each grain maintains a resilient "Snap" rather than turning into a gluey mash. We use **Buttermilk** as the mandatory **Acid Finish**; stirring it in at the very end provides a sophisticated tang that balances the sweet brown sugar and gives the porridge a rich, custardy "Bounce."
 
 ## Directions
 
-1. In a large saucepot, melt the butter and add the oats. Stir for 2 minutes to toast. Add the boiling water and reduce heat to a simmer. Keep at a low simmer for 25 minutes, without stirring.
-2. Combine the milk and half of the buttermilk with the oatmeal. Stir gently to combine and cook for an additional 10 minutes. Spoon into a serving bowl and top with remaining buttermilk, brown sugar, and cinnamon.
+1.  **The Toast:** In a heavy saucepan, melt the butter. Add the oats and stir constantly for 2-3 minutes until they smell like toasted popcorn and look golden.
+2.  **Simmer:** Pour in the boiling water and a pinch of salt. Reduce heat to **very low**. Cover and cook for 25 minutes. **Do not stir.**
+3.  **Emulsify:** Open the lid. Add the whole milk and half of the buttermilk. Stir gently for 10 minutes over low heat until the oats are creamy and "squeaky" to the bite (al dente).
+4.  **Finish:** Remove from heat. Stir in the remaining buttermilk, brown sugar, and cinnamon for the mandatory **High Note**.
+5.  **Serve:** Serve hot with fresh berries or a drizzle of maple syrup.
 
-## Nutrition
-
-- Calories: 142 calorie
-- Total Fat: 5 gram
-- Saturated Fat: 3 gram
-- Cholesterol: 12 milligram
-- Sodium: 57 milligram
-- Carbohydrates: 19 gramsDietary Fiber: 2 gram
-- Protein: 5 gram
-- Sugar: 6 grams
+## Serving Suggestions
+-   Fresh Sliced Strawberries
+-   [Easy Breakfast Yogurt Popsicles](/recipes/easy-breakfast-yogurt-popsicles)
+-   [Mango-Rita Green Smoothie](/recipes/mango-rita-green-smoothie)

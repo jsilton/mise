@@ -7,21 +7,28 @@ cookTime: 5 min
 totalTime: 10 min
 servings: '4'
 ingredients:
-  - '1 lb Soybean Sprouts'
-  - '1 tsp Toasted Sesame Oil'
+  - '1 lb Soybean Sprouts (Kongnamul)'
+  - '--- The Namul Dressing ---'
+  - '1 tsp Toasted Sesame Oil (The "Deep Note")'
   - '1 tsp Garlic, minced'
-  - '1/2 tsp Salt'
-  - '1 tsp Toasted Sesame Seeds'
+  - '1/2 tsp Fine Sea Salt'
   - '1 Green Onion, minced'
+  - '1 tsp Toasted Sesame Seeds'
 ---
+
+## Chef's Note
+This is a baseline **Modularity** component for all Korean "Fuel" meals. The secret to its Success is **The Steam-Lock Pattern**: we cook the sprouts in a very small amount of water with the lid tightly closed; this ensures the sprouts maintain their resilient "Snap" and nutty aroma rather than turning soggy. We use **Toasted Sesame Oil** as the mandatory savory **High Note**—tossing the sprouts while warm ensures the oil emulsifies with the residual moisture for a perfect glossy finish.
 
 ## Directions
 
-1.  **Steam:** Put 1/2 cup water in a pot. Add sprouts and a pinch of salt. Cover and steam for 4-5 minutes.
-2.  **Drain:** Drain well and let cool slightly.
-3.  **Season:** Toss with sesame oil, garlic, salt, seeds, and green onion.
+1.  **Steam:** In a medium pot, combine 1/2 cup water, a pinch of salt, and the sprouts. Cover tightly. 
+2.  **Cook:** Steam over medium-high for 4-5 minutes. **Do not open the lid** until the timer is up (mandatory for aroma).
+3.  **Drain:** Drain the sprouts and let them stand for 2 minutes to release steam.
+4.  **Season:** In a large bowl, whisk together sesame oil, garlic, salt, and green onion.
+5.  **Bind:** Add the warm sprouts. Toss vigorously with your hands or tongs until every strand is coated. 
+6.  **Serve:** Garnish with sesame seeds. Serve chilled or at room temperature.
 
-## Pairs With
-
-- [Bibimbap](/recipes/bibimbap)
-- Bulgogi
+## Serving Suggestions
+-   [Bibimbap (The Ultimate Bowl)](/recipes/bibimbap)
+-   [Marinated Korean Ribeye](/recipes/marinated-korean-ribeye)
+-   [Korean Mung Bean Sprouts Salad (Sukju Namul)](/recipes/korean-mung-bean-sprouts-salad)

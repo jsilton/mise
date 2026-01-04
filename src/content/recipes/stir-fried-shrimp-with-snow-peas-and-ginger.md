@@ -1,44 +1,40 @@
 ---
-title: Stir-Fried Shrimp with Snow Peas and Ginger
-totalTime: 30 min
-servings: 2 to 4 servings
-ingredients:
-  - 1 tablespoon plus 1/4 teaspoon salt
-  - '1 pound large shrimp, peeled and deveined'
-  - 1/3 cup chicken broth
-  - 2 teaspoons rice wine or dry sherry
-  - 1 1/2 teaspoons soy sauce
-  - 1 1/2 teaspoons cornstarch
-  - 3/4 teaspoon sugar
-  - 1/8 teaspoon ground white pepper
-  - 1 tablespoon plus 2 teaspoons vegetable oil
-  - 2 tablespoons minced garlic
-  - 1 teaspoon minced ginger
-  - '6 ounces snow peas, strings removed, washed and dried'
-  - '1 scallion, chopped'
+title: Shrimp with Snow Peas & Ginger
 role: main
 vibe: speed
+prepTime: 10 min
+cookTime: 10 min
+totalTime: 30 min
+servings: '4'
+ingredients:
+  - '1 lb Large Shrimp, peeled and deveined'
+  - '6 oz Fresh Snow Peas, strings removed'
+  - '--- The Ginger-Soy Glaze ---'
+  - '1/3 cup Chicken Broth'
+  - '2 tsp Shaoxing Wine or Dry Sherry'
+  - '1 1/2 tsp Light Soy Sauce'
+  - '1 1/2 tsp Cornstarch (slurry)'
+  - '--- The Stir-Fry ---'
+  - '2 tbsp Garlic, minced'
+  - '1 tbsp Fresh Ginger, minced'
+  - '1 Scallion, chopped'
+  - 'Neutral Oil'
 ---
+
+## Chef's Note
+This is the baseline for 10-minute "Speed" main dishes. The secret to its Success is **The Cold Soak Pattern**: we soak the shrimp in cold salted water for 5 minutes *before* patting them dry; this "plumps" the protein and ensures a resilient "Bounce" under high heat. We maintain **Texture Integrity** through **The 5-Second Garlic Pulse**: we add the garlic and ginger to the hot oil for only 5 seconds before the shrimp—this captures the raw aromatic "High Note" without any bitter browning.
 
 ## Directions
 
-1. In a large bowl combine 2 cups cold water and 1 tablespoon salt, stirring until salt is dissolved. Add shrimp, and let stand five minutes. Rinse shrimp under cold running water, and set to dry on paper towels. With more towels, pat shrimp dry.
-2. In a bowl, combine broth, wine, soy sauce, cornstarch, sugar and pepper.
-3. Heat a wok over high heat. To test heat flick a few drops of water into wok. When water vaporizes within 2 seconds, wok is hot. Swirl in 1 tablespoon oil around sides of wok. Add shrimp, spreading them in a single layer, so they have contact with hot metal. Stir-fry for 2-3 minutes or just until pink, tossing them with a wok shovel or spatula. Add remaining 2 teaspoons oil, garlic and ginger, and stir-fry 5 seconds. Add snow peas and remaining 1/4 teaspoon salt, and stir-fry 1 minute more.
-4. Stir cornstarch mixture, swirl it in around sides of wok, and bring to a boil. Stir-fry just until shrimp are cooked through and sauce has thickened, about 30 seconds more. Stir in scallions, and serve immediately.
-
-## Nutrition
-
-- Trans Fat: 0 gram
-- Fat: 7 gram
-- Calories: 192
-- Saturated Fat: 1 gramUn
-- saturated Fat: 6 gram
-- Sodium: 456 milligram
-- Sugar: 3 gram
-- Fiber: 1 gramCarbohydrate: 8 gram
-- Protein: 25 grams
+1.  **The Soak:** Soak shrimp in a bowl of cold salted water for 5 minutes. Drain and pat **bone-dry** with paper towels (mandatory for the snap).
+2.  **The Sauce:** In a small bowl, whisk together broth, wine, soy sauce, sugar, and cornstarch.
+3.  **The Sear:** Heat 1 tbsp oil in a wok until smoking. Add shrimp in a single layer. Sear for 1 minute undisturbed to develop a "Snap" crust. Toss for 1 more minute until pink. Remove.
+4.  **The Snap:** Add 1 tbsp oil. Sauté garlic, ginger, and snow peas for 1 minute over high heat until bright green.
+5.  **Bind:** Pour the cornstarch mixture around the perimeter of the wok. Bring to a boil.
+6.  **Finish:** Return the shrimp to the pan. Toss for 30 seconds until the sauce is thick and mirror-glossy.
+7.  **Serve:** Stir in the scallions and serve immediately over rice.
 
 ## Serving Suggestions
-
-Couscous or Crusty Bread, Everyday Arugula Salad
+-   [Jasmine Rice (The Silton Standard)](/recipes/basmati-rice)
+-   [Smashed Cucumber Salad](/recipes/smashed-cucumber-salad)
+-   [Chinese Eggplant with Garlic Sauce](/recipes/chinese-eggplant-with-garlic-sauce)

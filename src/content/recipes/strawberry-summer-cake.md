@@ -1,28 +1,38 @@
 ---
 title: Strawberry Summer Cake
-servings: 'Servings: 8 to 10'
-ingredients:
-  - >-
-    6 tablespoons (85 grams) unsalted butter, at room temperature, plus extra
-    for pie plate
-  - >-
-    1 1/2 cups (188 grams) all-purpose flour (can swap 3/4 cup or 94 grams
-    all-purpose flour with 3/4 cup or 75 grams of barley flour, see Note)
-  - 1 1/2 teaspoons baking powder
-  - 1/2 teaspoon table salt
-  - 1 cup (200 grams) plus 2 tablespoons (25 grams) granulated sugar
-  - 1 large egg
-  - 1/2 cup (118 ml) milk
-  - 1 teaspoon (5 ml) vanilla extract
-  - '1 pound (450 grams) strawberries, hulled and halved'
 role: dessert
 vibe: project
+prepTime: 15 min
+cookTime: 60 min
+totalTime: 75 min
+servings: '8'
+ingredients:
+  - '1 lb Fresh Strawberries, hulled and halved'
+  - '--- The Velvet Batter ---'
+  - '1 1/2 cups All-Purpose Flour'
+  - '1 1/2 tsp Baking Powder'
+  - '6 tbsp Unsalted Butter, room temp'
+  - '1 cup + 2 tbsp Granulated Sugar'
+  - '1 large Egg'
+  - '1/2 cup Whole Milk'
+  - '1 tsp Pure Vanilla Extract'
+  - '1/2 tsp Sea Salt'
 ---
+
+## Chef's Note
+This is the definitive "Summer Project" cake. The secret to its Success is **The Surface Press Pattern**: you must arrange the strawberries cut-side down in a single, tight layer over the entire surface of the batter. As the cake bakes, the strawberries sink slightly and release their juices, creating a jammy "Bounce" while the exposed edges develop a caramelized "Snap." We use a **High-Sugar Crust**: sprinkling extra sugar over the raw berries creates a crackly, crystalline "High Note" finish that defines the dish.
 
 ## Directions
 
-1. Preheat oven to 350°F (180°C). Butter a 10-inch pie pan or 9-inch deep-dish pie pan (what I used). I did not test this with a standard 9-inch pie plate but looking at the margin of space leftover in my deep-dish pan after baking the cake, I suspect you’d be safe. Updated 6/13/11: This cake does not work in a standard 9-inch pie pan; it will overflow. Big apologies to anyone who learned the hard way! This cake would work, however, in a 9- or 10-inch springform or cake pan. The 10-inch would make a thinner cake than pictured.
-2. Whisk flour or flours, baking powder and salt together in a small bowl. In a larger bowl, beat butter and 1 cup sugar until pale and fluffy with an electric mixer, about 3 minutes. Mix in egg, milk and vanilla until just combined. Add dry mixture gradually, mixing until just smooth.
-3. Pour into prepared pie plate. Arrange strawberries, cut side down, on top of batter, as closely as possible in a single layer (though I had to overlap a few to get them all in). Sprinkle remaining 2 tablespoons sugar over berries.
-4. Bake cake for 10 minutes then reduce oven temperature to 325°F and bake cake until golden brown and a tester comes out free of wet batter, about 50 minutes to 60 minutes. (Gooey strawberries on the tester are a given.) Let cool in pan on a rack. Cut into wedges. Serve with lightly whipped cream.
-5. Do ahead: Cake can be stored at room temperature for up to 2 days, loosely covered, but good luck with that.
+1.  **Cream:** Preheat oven to 350°F. Butter a 9-inch deep-dish pie pan (mandatory for volume). Beat butter and 1 cup sugar for 3 minutes until pale and fluffy. 
+2.  **Emulsify:** Add the egg, milk, and vanilla. Beat until perfectly smooth.
+3.  **Incorporate:** Gradually add the flour, baking powder, and salt. Mix until **just smooth**—do not over-mix.
+4.  **Layer:** Pour batter into the pan. Arrange strawberries on top, cut-side down, as closely as possible.
+5.  **The Snap:** Sprinkle the remaining 2 tbsp sugar over the berries.
+6.  **Bake:** Bake for 10 minutes at 350°F, then **reduce heat to 325°F**. Roast for 50-60 minutes until the top is golden and a tester comes out clean.
+7.  **Serve:** Let cool completely in the pan. Serve with lightly whipped cream.
+
+## Serving Suggestions
+-   [Old-Fashioned Vanilla Ice Cream](/recipes/old-fashioned-vanilla-ice-cream)
+-   Fresh Mint sprigs
+-   [Classic Martini](/recipes/classic-martini) (The Cold Standard)

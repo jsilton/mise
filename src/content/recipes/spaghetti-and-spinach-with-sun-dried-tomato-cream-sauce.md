@@ -1,30 +1,39 @@
 ---
-title: Spaghetti & Spinach with Sun-Dried Tomato Cream Sauce
-prepTime: 20 min
-cookTime: 20 min
+title: Sun-Dried Tomato Cream Spaghetti
+role: side
+vibe: fuel
+prepTime: 10 min
+cookTime: 15 min
+totalTime: 25 min
 servings: '4'
 ingredients:
-  - '5 ounces baby spinach, coarsely chopped'
-  - 8 ounces whole-wheat spaghetti
-  - >-
-    ½ cup slivered oil-packed sun-dried tomatoes, plus 1 tablespoon oil from the
-    jar
-  - ½ cup halved and thinly sliced onion
-  - '3 cloves garlic, minced'
-  - ¼ teaspoon crushed red pepper
-  - ¼ teaspoon salt
-  - ¼ teaspoon ground pepper
-  - 1 cup low-sodium vegetable or chicken broth
-  - ½ cup sour cream
-  - ¼ cup grated Parmesan cheese
-  - 1 tablespoon unsalted butter
-totalTime: 40 min
-role: base
-vibe: fuel
+  - '8 oz Whole-wheat Spaghetti'
+  - '5 oz Fresh Baby Spinach'
+  - '--- The Sun-Dried Emulsion ---'
+  - '1/2 cup Sun-dried Tomatoes in oil, slivered'
+  - '1/2 cup Sour Cream (The "Bounce" Fat)'
+  - '1 cup Low-sodium Chicken Broth'
+  - '1/4 cup Parmesan, grated'
+  - '1/2 cup Red Onion, sliced'
+  - '3 cloves Garlic, minced'
+  - '1 tbsp Unsalted Butter'
+  - '1/4 tsp Red Pepper Flakes'
 ---
+
+## Chef's Note
+The secret to this "Fuel" pasta is **Texture Integrity** through **The Colander Wilt Pattern**. Instead of sautéing the spinach, we place the raw leaves in a colander and drain the boiling pasta directly over them. This "thermal shock" ensures the spinach is just wilted and vibrant green rather than overcooked. We use **Sour Cream** instead of heavy cream to introduce a mandatory **Acid Finish** that cuts through the oily sun-dried tomatoes, resulting in a lighter "Bounce" to the sauce.
 
 ## Directions
 
-1. Place spinach in a large colander in the sink. Bring a large saucepan of water to a boil over high heat. Add spaghetti and cook according to package directions. Drain the pasta over the spinach; toss to wilt the spinach.
-2. PHOTOGRAPHER: JEN CAUSEY, FOOD STYLIST: MARGRET MONROE DICKEY
-3. Meanwhile, heat sun-dried tomato oil in a large skillet over medium heat. Add onion and sun-dried tomatoes; cook, stirring, until softened, about 3 minutes. Add garlic, crushed red pepper, salt and pepper; cook, stirring, for 1 minute. Increase heat to medium-high and add broth; cook, stirring, until reduced by about half, about 2 minutes. Stir in sour cream, Parmesan and butter. Add the spaghetti and spinach; toss to coat well.
+1.  **Boil:** Cook pasta in salted water according to package directions.
+2.  **The Wilt:** Place raw spinach in a large colander. Pour the boiling pasta and its water directly over the spinach. Toss gently to wilt. Drain well.
+3.  **The Base:** In the same pot, heat 1 tbsp of the tomato oil and the butter. Sauté onion and tomatoes for 3 minutes until soft. Add garlic and red pepper flakes; cook for 1 minute.
+4.  **Simmer:** Pour in the broth. Simmer for 2 minutes until reduced by half. 
+5.  **Emulsify:** Whisk in the sour cream and Parmesan until a thick, creamy sauce forms.
+6.  **Bind:** Return the spaghetti and spinach to the pot. Toss for 1 minute over low heat until the sauce is completely absorbed.
+7.  **Serve:** Season with plenty of black pepper and serve hot.
+
+## Serving Suggestions
+-   [Easy Pan-Seared Chicken Breasts](/recipes/easy-pan-seared-chicken-breasts)
+-   [Roasted Green Bean "Fries"](/recipes/roasted-green-bean-fries)
+-   [Classic Martini](/recipes/classic-martini) (The Cold Standard)

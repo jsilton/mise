@@ -1,30 +1,41 @@
 ---
-title: Spiced Coconut Chicken Rice
-servings: 4 servings
-ingredients:
-  - 1½ cups basmati rice
-  - 2 Tbsp. grapeseed or vegetable oil
-  - '1 large shallot, finely chopped'
-  - '2 cloves garlic, finely chopped'
-  - '1½ lb. skinless, boneless chicken thighs (6–8)'
-  - 1 tsp. ground turmeric
-  - ½ tsp. cayenne pepper
-  - '2½ tsp. kosher salt, divided'
-  - 1 13.5-oz. can unsweetened coconut milk
-  - >-
-    ½ bunch Tuscan kale, ribs and stems removed, leaves thinly sliced crosswise
-    into strips (about 2 cups)
-  - Store-bought sliced pickled red chiles (optional)
-  - Lime wedges (for serving)
+title: Spiced Coconut Chicken & Rice
 role: base
 vibe: fuel
+prepTime: 45 min
+cookTime: 45 min
+totalTime: 90 min
+servings: '4'
+ingredients:
+  - '1 1/2 lbs Chicken Thighs, boneless and skinless'
+  - '1 1/2 cups Basmati Rice'
+  - '1 can (13.5 oz) Full-fat Coconut Milk'
+  - '--- The Spice Bloom ---'
+  - '1 tsp Ground Turmeric'
+  - '1/2 tsp Cayenne Pepper'
+  - '1 large Shallot, chopped'
+  - '2 cloves Garlic, chopped'
+  - '--- The Finish ---'
+  - '1/2 bunch Dino Kale, sliced into ribbons'
+  - 'Pickled Red Chiles (Optional)'
+  - 'Lime wedges (The Acid Finish)'
 ---
+
+## Chef's Note
+This is a high-performance "Fuel" meal that relies on **Structural Science** through **The Hydration Pattern**. You must soak the basmati rice for 45 minutes; this ensures each grain is long, distinct, and has a resilient "Snap" rather than turning into a sticky paste. We use **The Coconut-Towel Method**: covering the pot with a kitchen towel under the lid ensures that excess steam is absorbed, resulting in a "risotto-style" creaminess from the coconut milk with individual grain integrity.
 
 ## Directions
 
-1. Place rice in a medium bowl and pour in cold water to cover. Agitate rice with your hands until water is cloudy. Drain and repeat until water is almost clear (about 3 times). Pour in water to cover rice by 2"; let soak 30–45 minutes.
-2. Heat oil in a heavy pot with a wide base (preferably 10") over medium-high. Add shallot and cook, stirring occasionally, until golden, about 3 minutes. Add garlic and cook, stirring until softened, about 1 minute.
-3. Add chicken, turmeric, cayenne, and 1½ tsp. salt. Cook, turning and moving around chicken thighs as needed, until chicken begins to turn opaque, about 2 minutes. Pour in ¾ cup water and bring to a simmer. Reduce heat to low, cover, and simmer, turning chicken once, until chicken is cooked through and very tender, about 20 minutes.
-4. Drain rice and add to pot with chicken, then add coconut milk and remaining 1 tsp. salt. Stir to incorporate and bring to a boil. Drape a kitchen towel over pot; cover with lid. Bring corners of towel up and over lid and secure with a rubber band. Reduce heat to lowest setting and cook, undisturbed, 15 minutes.
-5. Remove from heat and remove towel and lid. Arrange kale in an even layer over chicken and rice and cover with lid. Let sit until wilted, about 10 minutes.
-6. Divide chicken and rice among bowls. Top with chiles if using. Serve with lime wedges.
+1.  **The Soak:** Rinse rice 3 times until water is clear. Soak in cool water for 45 minutes. Drain.
+2.  **Foundation:** In a large heavy pot, sauté shallots and garlic in oil until golden (3 mins).
+3.  **The Bloom:** Add chicken, turmeric, cayenne, and salt. Sauté for 2 minutes until spices are toasted and chicken is opaque. 
+4.  **Braise:** Pour in 3/4 cup water. Simmer on low, covered, for 20 minutes until chicken is tender.
+5.  **The Bind:** Add the drained rice, coconut milk, and remaining salt. Stir once. 
+6.  **The Towel:** Bring to a boil. Place a clean kitchen towel over the pot, then secure the lid. Reduce heat to **lowest setting**. Cook for 15 minutes.
+7.  **Wilt:** Remove from heat. Layer the kale ribbons over the rice. Cover and let stand for 10 minutes (The Steam Cycle).
+8.  **Serve:** Fluff the rice and chicken together. Serve with pickled chiles and lime wedges for the final **High Note**.
+
+## Serving Suggestions
+-   [Smashed Cucumber Salad](/recipes/smashed-cucumber-salad)
+-   [Cucumber Raita](/recipes/cucumber-raita)
+-   [Homemade Naan](/recipes/homemade-naan)

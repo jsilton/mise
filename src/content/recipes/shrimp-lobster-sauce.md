@@ -1,5 +1,5 @@
 ---
-title: 'Shrimp with Lobster Sauce (Cantonese Style)'
+title: Shrimp with Lobster Sauce
 role: main
 vibe: comfort
 prepTime: 15 min
@@ -7,33 +7,32 @@ cookTime: 10 min
 totalTime: 25 min
 servings: '4'
 ingredients:
-  - '1 lb shrimp, peeled and deveined'
-  - '1/4 lb ground pork'
-  - '1 tablespoon fermented black beans (douchi), rinsed and mashed'
-  - '2 cloves garlic, minced'
-  - '1 cup chicken stock'
-  - '1 teaspoon dark soy sauce (or molasses, for that Boston color)'
-  - '1 tablespoon soy sauce'
-  - '1 egg, beaten'
-  - '1 tablespoon cornstarch mixed with 2 tablespoons water (slurry)'
-  - 'Green onions, chopped'
+  - '1 lb Shrimp, peeled and deveined'
+  - '1/4 lb Ground Pork (The Savory Base)'
+  - '--- The Cantonese Emulsion ---'
+  - '1 tbsp Fermented Black Beans (Douchi), rinsed and mashed'
+  - '1 cup Chicken Stock'
+  - '1 tbsp Soy Sauce + 1 tsp Dark Soy Sauce'
+  - '2 cloves Garlic, minced'
+  - '1 large Egg, beaten (The Egg Ribbon Pattern)'
+  - '1 tbsp Cornstarch (slurry)'
+  - 'Green Onions for garnish'
 ---
 
-## Description
-
-A classic Boston-Chinese favorite (think Golden Temple). Despite the name, there is no lobster. It's a savory ground pork and black bean sauce finished with egg ribbons.
+## Chef's Note
+This is the definitive Boston-Chinese "Heritage" standard. The name is literal: the sauce is designed *for* lobster, though we use shrimp here. The secret to its Success is **Structural Science** through **The Egg Ribbon Pattern**: you must turn off the heat and slowly drizzle the beaten egg into the boiling sauce while stirring gently; this creates silken ribbons that provide a velvety "Bounce." We use **Fermented Black Beans** as the "Deep Note" to provide the earthy backbone that defines the dish.
 
 ## Directions
 
-1.  Heat oil in a wok or skillet over high heat. Stir-fry the ground pork until browned.
-2.  Add the garlic and mashed black beans. Cook for 1 minute until fragrant.
-3.  Add the shrimp and stir-fry for 2 minutes until pink.
-4.  Pour in the chicken stock, soy sauce, and dark soy sauce (or molasses). Bring to a boil.
-5.  Stir in the cornstarch slurry to thicken the sauce.
-6.  **The Egg Ribbon:** Turn off the heat. Slowly drizzle in the beaten egg while stirring gently to create silky ribbons.
-7.  Garnish with green onions.
+1.  **The Render:** Heat 1 tbsp oil in a wok. Brown the ground pork until crispy (5 mins). 
+2.  **Aromatics:** Add the garlic and mashed black beans. Sauté for 1 minute until fragrant.
+3.  **The Snap:** Add the shrimp. Stir-fry for 2 minutes over high heat until just pink.
+4.  **Simmer:** Pour in the chicken stock and soy sauces. Bring to a rapid boil.
+5.  **Bind:** Stir in the cornstarch slurry. Simmer for 1 minute until the sauce is thick and glossy.
+6.  **The Ribbon:** Turn off the heat. Drizzle the egg in a thin stream, stirring once or twice. Let stand for 30 seconds to set the "Bounce."
+7.  **Serve:** Garnish with green onions. Serve immediately over white rice.
 
 ## Serving Suggestions
-
-- Jasmine Rice (rinsed 3 times!)
-- Smashed Cucumber Salad
+-   [Jasmine Rice (The Silton Standard)](/recipes/basmati-rice)
+-   [Smashed Cucumber Salad](/recipes/smashed-cucumber-salad)
+-   [Cantonese Wonton Broth](/recipes/cantonese-wonton-broth)

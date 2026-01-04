@@ -1,31 +1,36 @@
 ---
-title: Sweet-Potato Latkes
-prepTime: 30 min
-cookTime: 30 min
-servings: About 26 pancakes
-ingredients:
-  - '1 lb sweet potatoes, peeled and coarsely grated'
-  - '2 scallions, finely chopped'
-  - 1/3 cup all-purpose flour
-  - '2 large eggs, lightly beaten'
-  - 1 teaspoon salt
-  - 1/2 teaspoon black pepper
-  - 3/4 cup vegetable oil
-totalTime: 60 min
+title: Sweet Potato Latkes
 role: main
 vibe: fuel
+prepTime: 30 min
+cookTime: 30 min
+totalTime: 60 min
+servings: '26 pancakes'
+ingredients:
+  - '1 lb Sweet Potatoes, peeled and coarsely grated'
+  - '2 large Eggs, beaten'
+  - '1/3 cup All-Purpose Flour'
+  - '2 Scallions, finely chopped'
+  - '--- The Flavor Pulse ---'
+  - '1 tsp Sea Salt'
+  - '1/2 tsp Black Pepper'
+  - '3/4 cup Neutral Oil (for frying)'
 ---
+
+## Chef's Note
+Traditional latkes rely on starch; sweet potato latkes rely on **Texture Integrity** through **The Hand-Press Pattern**. You must squeeze the grated potatoes in a kitchen towel until they are **bone-dry** before mixing with the eggs; this ensures the latke sets into a firm "Bounce" rather than falling apart in the pan. We maintain **The Sizzle Pattern**: frying in 1/2-inch of hot oil creates a deep, lattice-like "Snap" on the exterior that mimics the best diner-style hash browns. The scallions provide the mandatory savory **High Note**.
 
 ## Directions
 
-1. Stir together potatoes, scallions, flour, eggs, salt, and pepper.
-2. Heat oil in a deep 12-inch nonstick skillet over moderately high heat until hot but not smoking. Working in batches of 4, spoon 1/8 cup potato mixture per latke into oil and flatten to 3-inch diameter with a slotted spatula. Reduce heat to moderate and cook until golden, about 1 1/2 minutes on each side. Transfer latkes with spatula to paper towels to drain.
+1.  **The Squeeze:** Grate the potatoes. Wrap in a clean kitchen towel and **squeeze with maximum force** until no more juice drips out. Place in a bowl.
+2.  **The Bind:** Stir in the scallions, flour, salt, and pepper. Add the eggs and mix until a tacky, thick batter forms.
+3.  **Thermal Prep:** Heat oil in a heavy 12-inch skillet over medium-high until shimmering but not smoking.
+4.  **The Snap:** Spoon 1/8-cup portions into the oil. Use a spatula to flatten them into 3-inch disks. 
+5.  **Fry:** Cook for 2 minutes per side until the edges are deep golden and the center is set. Do not crowd the pan (4 latkes per batch).
+6.  **Drain:** Transfer to a paper-towel-lined plate. Season with a final pinch of salt while hot.
+7.  **Serve:** Serve immediately with [Nana Ruth's Applesauce](/recipes/nana-ruths-applesauce).
 
-## Nutrition
-
-- Calories: 83
-- Carbohydrates: 5 g(2%)Fat 7 g(10%)Protein 1 g(2%)Saturated Fat 1 g(3%)Sodium 71 mg(3%)Polyun
-- saturated Fat: 1 g
-- Fiber: 1 g(2%)Monoun
-- saturated Fat: 5 g
-- Cholesterol: 14 mg(5%)per serving (26 servings) Powered by
+## Serving Suggestions
+-   [Nana Ruth's Applesauce](/recipes/nana-ruths-applesauce) (Mandatory)
+-   Sour Cream or Greek Yogurt
+-   [Classic Martini](/recipes/classic-martini) (The Cold Standard)

@@ -1,40 +1,40 @@
 ---
-title: Stuffed Shells Filled with Spinach and Ricotta
-totalTime: 60 min
-servings: 'About 40 shells, serving 6'
-ingredients:
-  - >-
-    1 pound baby spinach, rinsed, or 2 pounds bunch spinach, stemmed and washed
-    thoroughly
-  - Salt to taste
-  - 12 ounces giant pasta shells
-  - 1 tablespoon extra virgin olive oil
-  - '1 to 2 garlic cloves, to taste, cut in half, green shoots removed'
-  - 10 ounces ricotta cheese
-  - '1 egg, beaten'
-  - 2 tablespoons minced chives
-  - '2 ounces Parmesan, grated about 1/2 cup'
-  - Freshly ground pepper
-  - '2 cups marinara sauce, preferably homemade'
+title: Spinach & Ricotta Stuffed Shells
 role: main
-vibe: fuel
+vibe: comfort
+prepTime: 20 min
+cookTime: 40 min
+totalTime: 60 min
+servings: '6'
+ingredients:
+  - '12 oz Jumbo Pasta Shells'
+  - '1 lb Fresh Baby Spinach'
+  - '--- The Ricotta Emulsion ---'
+  - '10 oz Whole-milk Ricotta'
+  - '1 large Egg, beaten (The "Bounce" binder)'
+  - '1/2 cup Parmesan, freshly grated'
+  - '2 tbsp Fresh Chives, minced'
+  - '2 cloves Garlic, minced'
+  - '--- The Finish ---'
+  - '2 cups [Roasted Tomato Basil Sauce](/recipes/roasted-tomato-basil-soup)'
+  - '1 tbsp Extra-Virgin Olive Oil'
+  - 'Salt and Black Pepper'
 ---
+
+## Chef's Note
+The secret to stuffed shells that aren't watery is **Structural Science** through **The Ice-Shock Squeeze Pattern**. You must blanch the spinach for only 20 seconds and then squeeze it in a towel until **bone-dry** before pureeing with the cheese. This ensures the filling has a dense, custardy "Bounce" rather than weeping into the sauce. We use **The Single-Layer Pattern**: arranging the shells in a tight, single layer ensures the edges develop a "Snappy" golden crust under the broiler.
 
 ## Directions
 
-1. Bring a large pot of water to a boil and salt generously. Fill a bowl with ice water. Blanch the spinach for no more than 20 seconds, just until wilted, and transfer to the ice water, then drain. Squeeze out excess water. Bring the water in the pot back to a boil and add the pasta shells. Cook al dente, about 10 minutes, and drain and toss with the olive oil. Set aside.
-2. Turn on a food processor fitted with the steel blade and drop in the garlic. When the garlic is chopped and adhering to the sides of the bowl, stop the machine and scrape down the sides of the bowl. Add the spinach and pulse to chop finely. Add the ricotta and the egg and process until well blended. Add 1/3 cup of the Parmesan, the chives, and salt and pepper to taste. Pulse until well blended.
-3. Preheat the oven to 350 degrees. Oil a large baking dish or two 2-quart dishes. The shells should fit into the dish in one layer. Fill each shell with a scant tablespoon of the filling. Arrange in a single layer in the baking dish. Top with the tomato sauce and cover the dish with foil.
-4. Bake 30 minutes in the preheated oven. Remove from the heat, sprinkle on the remaining Parmesan, and serve.
+1.  **Blanch:** Boil spinach for 20 seconds. Shock in ice water. Squeeze until **completely dry**.
+2.  **The Filling:** In a food processor, pulse garlic and the dry spinach until finely chopped. Add ricotta, egg, 1/3 cup Parmesan, chives, and salt. Pulse until perfectly smooth and thick.
+3.  **Boil Shells:** Cook jumbo shells in salted water for 10 minutes until **al dente**. Drain and toss with olive oil to prevent sticking.
+4.  **Assemble:** Grease a 9x13-inch baking dish. Spread a thin layer of sauce on the bottom. 
+5.  **Fill:** Stuff each shell with a rounded tablespoon of the ricotta mix. Arrange in a single layer.
+6.  **Bake:** Top with remaining sauce and cover tightly with foil. Bake at 350°F for 30 minutes.
+7.  **The Snap:** Remove foil. Sprinkle with remaining Parmesan. Broil for 2 minutes until the edges are crispy and golden.
 
-## Nutrition
-
-- Trans Fat: 0 gram
-- Fat: 13 gram
-- Calories: 413
-- Saturated Fat: 5 gramsUn
-- saturated Fat: 6 gram
-- Sodium: 672 milligram
-- Sugar: 6 gram
-- Fiber: 5 gramsCarbohydrate: 56 gram
-- Protein: 19 grams
+## Serving Suggestions
+-   [Everyday Arugula Salad](/recipes/everyday-arugula-salad)
+-   [Garlic Bread](/recipes/garlic-bread)
+-   [Classic Martini](/recipes/classic-martini) (The Cold Standard)

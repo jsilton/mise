@@ -1,34 +1,35 @@
 ---
-title: Simply Seasoned Korean Spinach Salad
-prepTime: 5 min
-cookTime: 10 min
-servings: '4'
-ingredients:
-  - Main
-  - 250 g English spinach or baby spinach
-  - '1 tsp fine sea salt , to add to the water'
-  - 6 cups water to boil
-  - Seasoning sauce
-  - '1 tsp green onion , finely chopped'
-  - 1/2 tsp minced garlic
-  - 1/4 tsp fine sea salt or to taste
-  - 1 tsp toasted sesame seeds
-  - 1 Tbsp sesame oil
-totalTime: 15 min
+title: Korean Spinach Salad (Sigeumchi Namul)
 role: side
 vibe: fuel
+prepTime: 5 min
+cookTime: 10 min
+totalTime: 15 min
+servings: '4'
+ingredients:
+  - '250g (0.5 lbs) Fresh English Spinach'
+  - '--- The Namul Dressing ---'
+  - '1 tbsp Toasted Sesame Oil'
+  - '1 tsp Scallion, finely chopped'
+  - '1/2 tsp Garlic, minced'
+  - '1/4 tsp Fine Sea Salt'
+  - '1 tsp Toasted Sesame Seeds'
 ---
+
+## Chef's Note
+The secret to "Gold Standard" Korean spinach is **Structural Science** through **The 30-Second Blanch Pattern**. Spinach is 90% water; by plunging it into boiling water for exactly 30 seconds and then into ice water, we lock in the vibrant green chlorophyll and provide a resilient "Bounce." We maintain **Texture Integrity** through **The Squeeze**: you must gather the chilled spinach and squeeze until it is a dry, dense ball before seasoning. The toasted sesame oil is the mandatory savory **High Note**.
 
 ## Directions
 
-1. Trim the spinach roots (if any) and wash the spinach in cold water thoroughly.
-2. Boil the water in a pot/sauce pan for 5 to 7 mins. Add the salt (1 tsp). Once the water starts to boil, plunge the spinach into the pot and leave it for 30 seconds.
-3. Drain the boiled water away and run cold water on the spinach for 1-2 minutes.
-4. Squeeze the spinach to remove excess water.
-5. Cut the spinach into 2-3 pieces with a knife. (If you are using baby spinach, you can skip this step.)
-6. Add the seasoning sauce and mix well with your hands.
-7. Serve it on a plate and enjoy.
+1.  **Thermal Prep:** Bring a large pot of water to a boil with 1 tsp salt. Prepare an ice-water bath.
+2.  **Blanch:** Plunge washed spinach into boiling water. Cook for 30 seconds until just wilted.
+3.  **Shock:** Drain immediately and submerge in ice water for 2 minutes.
+4.  **The Squeeze:** Squeeze the spinach with your hands until **bone-dry**. No water should remain. 
+5.  **Cut:** Cut the dry spinach ball into 2-inch sections.
+6.  **Bind:** In a large bowl, whisk sesame oil, garlic, salt, and scallions. Add the spinach and toss vigorously with your hands to separate the leaves.
+7.  **Finish:** Garnish with sesame seeds. Serve chilled or at room temperature.
 
-## Nutrition
-
-- Calories: 48kcal | Carbohydrates: 2g | Protein: 1g | Fat: 3g | Sodium: 795mg | Potassium: 348mg | Fiber: 1g | Vitamin A: 5860IU | Vitamin C: 17.6mg | Calcium: 78mg | Iron: 1.8mg
+## Serving Suggestions
+-   [Bibimbap (The Ultimate Bowl)](/recipes/bibimbap)
+-   [Marinated Korean Ribeye](/recipes/marinated-korean-ribeye)
+-   [Korean Mung Bean Sprouts Salad (Sukju Namul)](/recipes/korean-mung-bean-sprouts-salad)

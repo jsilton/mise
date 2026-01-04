@@ -1,26 +1,38 @@
 ---
-title: Sweet-And-Spicy Spareribs with Korean Barbecue Sauce
+title: Sweet & Spicy Spareribs
+role: main
+vibe: comfort
 prepTime: 30 min
 cookTime: 150 min
-servings: 'Serves : 10'
-ingredients:
-  - >-
-    1 cup gochujang (see Note) 1/2 cup hoisin sauce 1/2 cup ketchup 1/2 cup
-    honey 1/2 cup soy sauce 1/2 cup sake 2 tablespoons unseasoned rice vinegar 2
-    tablespoons finely grated fresh ginger 1 tablespoon finely grated garlic 2
-    tablespoons ground white pepper 3 racks pork spareribs (about 8 pounds),
-    membranes removed Kosher salt
 totalTime: 180 min
-role: base
-vibe: comfort
+servings: '10'
+ingredients:
+  - '8 lbs Pork Spareribs, membranes removed'
+  - '--- The Korean BBQ Emulsion ---'
+  - '1 cup Gochujang (Fermented Hot Pepper Paste)'
+  - '1/2 cup Hoisin Sauce'
+  - '1/2 cup Honey + 1/2 cup Soy Sauce'
+  - '1/2 cup Sake (The "Deep Note" Pulse)'
+  - '2 tbsp Rice Vinegar (The Acid Finish)'
+  - '2 tbsp Fresh Ginger, grated'
+  - '1 tbsp Fresh Garlic, minced'
+  - '2 tbsp White Pepper'
 ---
+
+## Chef's Note
+The secret to "Restaurant Quality" spareribs is **Structural Science** through **The Foil Packet Braise**. We bake the ribs tightly sealed in heavy-duty foil; this allows the meat to "dry-steam" in the **Gochujang Emulsion**, breaking down the tough connective tissue into a succulent "Bounce" without losing any flavor to a pot of water. We finish with **The High-Heat Char Pattern**: grilling the sections at high heat for the final 4 minutes ensures the sugar-rich sauce sets into a sticky, mahogany "Snap."
 
 ## Directions
 
-1. Preheat the oven to 325°. In a medium bowl, whisk together all of the ingredients except the ribs and salt. Layer 2 long sheets of heavy-duty foil on a work surface and set 1 rack of ribs in the center, meaty side up. Brush with 3/4 cup of the sauce and wrap tightly in the foil. Repeat with the remaining 2 racks of ribs. Transfer the foil packets to 2 large rimmed baking sheets and bake the ribs until tender, about 2 hours.
-2. Unwrap the racks and transfer them to a work surface. Cut them into 3- or 4-rib sections.
-3. Light a grill. Season the ribs with salt and grill over high heat, brushing with the remaining sauce and turning occasionally, until glazed and lightly charred in spots, about 4 minutes. Cut into individual ribs if desired. Transfer to a platter and serve.
+1.  **The Sauce:** In a large bowl, whisk together gochujang, hoisin, honey, soy sauce, sake, vinegar, and all aromatics until smooth.
+2.  **Braise:** Preheat oven to 325°F. Layout three double-layers of heavy-duty foil. Place 1 rack of ribs in the center of each. 
+3.  **Seal:** Brush each rack with 3/4 cup of the sauce. Wrap tightly to ensure no steam escapes. Place on rimmed baking sheets.
+4.  **Bake:** Bake for 2 hours until the meat is tender but not quite falling off the bone.
+5.  **The Snap:** Preheat a grill to high. Remove ribs from foil and cut into 4-rib sections.
+6.  **Glaze:** Brush with remaining sauce. Grill for 2-3 minutes per side until charred and the lacquer is bubbling.
+7.  **Serve:** Transfer to a platter. Serve with extra lime wedges for the mandatory **Acid Finish**.
 
-## Notes
-
-Gochujang is available at Asian markets, stores like Whole Foods and amazon.com.
+## Serving Suggestions
+-   [Smashed Cucumber Salad](/recipes/smashed-cucumber-salad)
+-   [Basmati Rice (The Silton Standard)](/recipes/basmati-rice)
+-   [Simply Seasoned Korean Spinach Salad](/recipes/simply-seasoned-korean-spinach-salad)

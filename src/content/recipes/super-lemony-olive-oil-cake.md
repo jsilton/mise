@@ -1,26 +1,40 @@
 ---
 title: Super Lemony Olive Oil Cake
-servings: 10–12 servings
-ingredients:
-  - '1½ cups extra-virgin olive oil, plus more for pan'
-  - 3 large eggs
-  - 1¼ cups (250 g) plus 1 Tbsp. granulated sugar
-  - 1¼ cups whole milk
-  - 2 tsp. vanilla extract
-  - Zest and juice of 2 lemons; plus more zest for serving (optional)
-  - 2 cups (250 g) all-purpose flour
-  - 1 tsp. Diamond Crystal or ½ tsp. Morton kosher salt
-  - ½ tsp. baking powder
-  - ½ tsp. baking soda
-  - Powdered sugar (for serving)
-  - A 9"-diameter springform pan
 role: dessert
 vibe: project
+prepTime: 15 min
+cookTime: 50 min
+totalTime: 65 min
+servings: '12'
+ingredients:
+  - '1 1/2 cups Extra-Virgin Olive Oil (The "Gold" Standard)'
+  - '2 cups All-Purpose Flour'
+  - '--- The Citrus Emulsion ---'
+  - '1 1/4 cups Whole Milk'
+  - '1 1/4 cups Granulated Sugar'
+  - '3 large Eggs'
+  - 'Zest and Juice of 2 large Lemons (The Acid Finish)'
+  - '2 tsp Pure Vanilla Extract'
+  - '--- The Leavening ---'
+  - '1/2 tsp Baking Powder + 1/2 tsp Baking Soda'
+  - '1 tsp Sea Salt'
 ---
+
+## Chef's Note
+This is the definitive Silton "Project" dessert. The secret to its incredible texture is **Structural Science** through **The EVOO Emulsion Pattern**. Unlike butter cakes, olive oil provides a consistent, liquid fat that ensures a moist "Bounce" that lasts for days. We use a **Double-Leavening Pattern** (soda and powder) to ensure a tall, airy rise that contrasts the heavy oil. The mandatory **Acid Finish** comes from using the full juice and zest of two lemons—this bright "High Note" is essential to cut through the grassy notes of the extra-virgin oil.
 
 ## Directions
 
-1. Preheat oven to 350°. Lightly oil pan with a pastry brush. Line bottom with a parchment paper round and brush parchment with oil. Whisk eggs, 1½ cups oil, and 1¼ cups sugar in a medium bowl until smooth. Add milk, vanilla, and zest and juice of 2 lemons and whisk to combine.
-2. Whisk flour, salt, baking powder, and baking soda in a large bowl to combine. Make a well in the center and gradually pour egg mixture into well. Whisk, using circular motions to slowly incorporate egg mixture, until batter is mostly smooth (some lumps are okay). Scrape batter into prepared pan and smooth surface. Sprinkle remaining 1 Tbsp. sugar over.
-3. Bake cake until top is golden brown and a tester inserted into the center comes out clean, about 50 minutes. Transfer pan to a wire rack and let cake cool before unmolding.
-4. Just before serving, dust cake with powdered sugar and top with more lemon zest if you have it.Do ahead: Cake can be baked 3 days ahead. Store tightly wrapped at room temperature.
+1.  **Thermal Prep:** Preheat oven to 350°F. Line a 9-inch springform pan with parchment. 
+2.  **The Base:** In a large bowl, whisk together eggs, olive oil, and sugar until completely smooth and pale yellow. 
+3.  **Emulsify:** Whisk in the milk, vanilla, lemon juice, and zest until the mixture looks like a thick, glossy cream.
+4.  **Dry Mix:** In a separate bowl, whisk together the flour, salt, baking powder, and baking soda.
+5.  **Combine:** Gradually pour the egg mixture into the dry ingredients. Whisk in a circular motion until **just smooth**. Small lumps are mandatory for a light crumb.
+6.  **Bake:** Pour into the prepared pan. Sprinkle 1 tbsp sugar over the surface for a crystalline "Snap." Bake for 50 minutes until golden brown.
+7.  **Set:** Let cool completely in the pan before unmolding. 
+8.  **Finish:** Dust with powdered sugar and extra lemon zest just before serving.
+
+## Serving Suggestions
+-   [Old-Fashioned Vanilla Ice Cream](/recipes/old-fashioned-vanilla-ice-cream)
+-   Fresh Sliced Strawberries
+-   [Classic Martini](/recipes/classic-martini) (The Cold Standard)

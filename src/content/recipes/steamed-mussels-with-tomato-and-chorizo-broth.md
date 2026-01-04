@@ -1,29 +1,39 @@
 ---
-title: Steamed Mussels with Tomato and Chorizo Broth
-prepTime: 30 min
-cookTime: 30 min
-servings: 4 servings
-ingredients:
-  - '2 ounces dried Spanish chorizo, casing removed, thinly sliced'
-  - '2 tablespoons olive oil, plus more for drizzling'
-  - '3 garlic cloves, crushed'
-  - '1 teaspoon fennel seeds, crushed'
-  - '1 pint cherry tomatoes, halved'
-  - ¾ cup dry white wine
-  - Freshly ground black pepper
-  - '4 pounds mussels, scrubbed, debearded'
-  - '4 slices thick country-style bread, toasted'
-  - 2 tablespoons chopped fresh tarragon or parsley
-totalTime: 60 min
+title: Steamed Mussels with Chorizo Broth
 role: main
-vibe: fuel
+vibe: speed
+prepTime: 15 min
+cookTime: 15 min
+totalTime: 30 min
+servings: '4'
+ingredients:
+  - '4 lbs Fresh Mussels, scrubbed and debearded'
+  - '2 oz Dried Spanish Chorizo, thinly sliced'
+  - '--- The Tomato-Wine Emulsion ---'
+  - '1 pint Cherry Tomatoes, halved'
+  - '3/4 cup Dry White Wine'
+  - '3 cloves Garlic, crushed'
+  - '1 tsp Fennel Seeds, crushed (The "Sea" Pulse)'
+  - '2 tbsp Extra-Virgin Olive Oil'
+  - '--- The Finish ---'
+  - '2 tbsp Fresh Tarragon, chopped'
+  - 'Thick country-style bread, charred'
 ---
+
+## Chef's Note
+The secret to "Gold Standard" mussels is **Structural Science** through **The Reduction Pattern**. We cook the chorizo, garlic, and cherry tomatoes until the tomatoes burst and the wine reduces by half *before* adding the mussels. This creates a thick, savory "Bounce" to the broth that a standard boil lacks. We maintain **Texture Integrity** through **The Fennel Pulse**: crushed fennel seeds provide an herbal "Snap" that echoes the oceanic sweetness of the mussels. Always serve with charred bread to soak up the mandatory **Acid Finish**.
 
 ## Directions
 
-1. Heat chorizo and 2 Tbsp. oil in a large heavy pot over medium, stirring occasionally, until chorizo begins to brown and crisp, about 4 minutes. Add garlic and fennel seeds and cook, stirring, until fragrant, about 1 minute. Add tomatoes and wine and bring to a simmer; season with pepper. Cook until reduced by three-quarters, 6–8 minutes.
-2. Add mussels. Cover and cook, stirring occasionally, until mussels open, 6–8 minutes. Discard any mussels that don’t open. Drizzle toast with oil. Serve mussels topped with tarragon with toast alongside.
+1.  **The Render:** In a large heavy pot, heat oil. Sauté chorizo for 4 minutes until crispy. Add garlic and fennel seeds; cook for 1 minute.
+2.  **The Glaze:** Add tomatoes and wine. Season with black pepper. Simmer for 6-8 minutes over medium-high until the liquid has reduced by 3/4 and looks like a thick syrup.
+3.  **The Snap:** Add the mussels to the pot. Cover tightly. 
+4.  **Steam:** Cook for 6-8 minutes, shaking the pot occasionally, until all mussels have popped open.
+5.  **Refine:** Discard any mussels that did not open. 
+6.  **Serve:** Ladle mussels and the thick chorizo broth into deep bowls. Garnish with fresh tarragon for the mandatory aromatic **High Note**.
+7.  **Toast:** Serve with heavily oiled, charred country bread.
 
-## Nutrition
-
-- Calories (kcal): 410 Fat (g) 16 Saturated Fat (g) 3.5 Cholesterol (mg) 35 Carbohydrates (g) 37 Dietary Fiber (g) 3 Total Sugars (g) 4 Protein (g) 19 Sodium (mg) 790 ...Read More
+## Serving Suggestions
+-   [Everyday Arugula Salad](/recipes/everyday-arugula-salad)
+-   [Classic Martini](/recipes/classic-martini) (The Cold Standard)
+-   [Patate al Forno (The Gold Standard)](/recipes/patate-al-forno)

@@ -1,42 +1,39 @@
 ---
 title: Spicy Thai Red Curry Beef
-cookTime: 20 min
-servings: Serves 4
-ingredients:
-  - 1 (13.5-ounce) can light coconut milk
-  - 4 teaspoons red curry paste
-  - 2 teaspoons dark brown sugar
-  - 2 teaspoons fish sauce
-  - 1/4 teaspoon crushed red pepper
-  - 1 1/2 cups sliced red bell pepper
-  - 1 cup sliced onion
-  - '12 ounces beef tenderloin, thinly sliced'
-  - 1 cup torn fresh basil leaves
-  - 2 tablespoons fresh lime juice
-  - 1/2 teaspoon kosher salt
-  - 2 cups hot cooked brown basmati rice
-  - 4 lime wedges
-totalTime: 20 min
 role: main
 vibe: speed
+prepTime: 5 min
+cookTime: 15 min
+totalTime: 20 min
+servings: '4'
+ingredients:
+  - '12 oz Beef Tenderloin or Flank Steak, paper-thin'
+  - '1 can (13.5 oz) Light Coconut Milk'
+  - '--- The Curry Bloom ---'
+  - '4 tsp Thai Red Curry Paste'
+  - '2 tsp Dark Brown Sugar'
+  - '2 tsp Fish Sauce (The Savory Pulse)'
+  - '--- The Texture Base ---'
+  - '1 1/2 cups Red Bell Pepper, sliced'
+  - '1 cup Yellow Onion, sliced'
+  - '1 cup Fresh Basil leaves (The High Note)'
+  - '1 tbsp Fresh Lime Juice'
+  - '4 Lime wedges for serving'
 ---
+
+## Chef's Note
+This is the baseline for 20-minute "Speed" main dishes. The secret to its Success is **The Coconut Cream Bloom Pattern**: you must spoon the thick layer of cream from the top of the can into the skillet first and fry the curry paste in it until the oil separates. This "blooms" the aromatics and creates a professional depth usually only found in slow-simmered curries. We maintain **Texture Integrity** through **The 3-Minute Sear**: we flash-fry the thin beef slices at the very end to ensure a succulent "Bounce" rather than a chewy texture.
 
 ## Directions
 
-1. Spoon coconut cream (thick layer at top of can) into a large skillet; stir in curry paste. Bring to a boil over medium-high heat. Add remaining coconut milk, sugar, fish sauce, and red pepper; bring to a boil. Cook 2 minutes, stirring constantly. Add bell pepper and onion; reduce heat to medium, and simmer 4 minutes. Add beef; cook 3 minutes or until done, stirring occasionally.
-2. Remove pan from heat; stir in basil, lime juice, and salt. Serve beef mixture with rice and lime wedges.
-
-## Nutrition
-
-- Calories: 334Total Carbohydrates: Carbohydrate 36g
-- Cholesterol: 55mg
-- Fat: 11.2g
-- Fiber: 3g
-- Protein: 24g
-- fat: 6.5g
-- Sodium: 645mg
-- fat: 2.6g
+1.  **The Bloom:** Spoon the thick coconut cream from the top of the can into a large skillet. Add the curry paste. Fry over medium-high for 2 minutes until fragrant and bubbly.
+2.  **Simmer:** Add the remaining coconut milk, brown sugar, fish sauce, and red pepper flakes. Bring to a boil.
+3.  **Stage 2:** Add the bell peppers and onion. Reduce heat to medium and simmer for 4 minutes until tender-crisp.
+4.  **The Snap:** Add the thin beef slices. Cook for only 2-3 minutes, stirring occasionally, until just browned.
+5.  **Finish:** Remove from heat. Stir in the fresh basil and lime juice for the mandatory **Acid Finish**.
+6.  **Serve:** Serve immediately over [Basmati Rice](/recipes/basmati-rice) with lime wedges.
 
 ## Serving Suggestions
-
-Basmati Rice, Naan
+-   [Basmati Rice (The Silton Standard)](/recipes/basmati-rice)
+-   [Smashed Cucumber Salad](/recipes/smashed-cucumber-salad)
+-   [Thai Basil Ginger Spritzer](/recipes/thai-basil-ginger-spritzer)

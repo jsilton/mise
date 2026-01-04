@@ -1,47 +1,42 @@
 ---
-title: Spaghetti & Tofu Meatballs
-prepTime: 15 min
-cookTime: 30 min
-servings: 36 balls
-ingredients:
-  - 3 tablespoons olive oil
-  - '1 large onion, finely chopped'
-  - '3 garlic cloves, minced'
-  - '1 large carrot, grated'
-  - '1 green pepper, finely chopped'
-  - 1 1/2 teaspoons dried basil
-  - 3/4 teaspoon dried oregano
-  - 2 large eggs
-  - 1 cup whole wheat bread crumbs
-  - '3/4 cup walnuts, ground'
-  - '1/4 cup fresh parsley, chopped'
-  - 1 1/2 tablespoons Dijon mustard
-  - 1 1/2 tablespoons sesame oil
-  - 3 tablespoons soy sauce
-  - 'salt and black pepper, to taste'
-  - '3 lbs firm tofu, pressed'
-totalTime: 45 min
+title: Spaghetti with Tofu Meatballs
 role: main
 vibe: fuel
+prepTime: 15 min
+cookTime: 30 min
+totalTime: 45 min
+servings: '6'
+ingredients:
+  - '3 lbs Extra-firm Tofu, pressed bone-dry'
+  - '--- The Walnut Bind ---'
+  - '3/4 cup Walnuts, ground'
+  - '1 cup Whole-wheat Breadcrumbs'
+  - '2 large Eggs'
+  - '1 1/2 tbsp Dijon Mustard (The High Note)'
+  - '1 1/2 tbsp Toasted Sesame Oil'
+  - '3 tbsp Soy Sauce'
+  - '--- The Mirepoix Base ---'
+  - '1 large Carrot, grated'
+  - '1 large Onion, chopped'
+  - '1 Green Pepper, chopped'
+  - '3 cloves Garlic, minced'
+  - '1 1/2 tsp Dried Basil + 3/4 tsp Oregano'
 ---
+
+## Chef's Note
+The secret to meatless meatballs that aren't mushy is **Structural Science** through **The Walnut-Starch Bind**. By combining pressed tofu with ground walnuts and whole-wheat crumbs, we create a multi-dimensional "Snap" that mimics beef. We maintain **Texture Integrity** by sautéing the mirepoix vegetables until tender *before* adding them to the tofu; this ensures the "meatballs" set firmly in the oven. The Dijon mustard provides the mandatory **Acid Finish** needed to bridge the earthy soy and nutty walnuts.
 
 ## Directions
 
-1. Saute the onion, carrot, pepper, garlic and dried herbs in oil until tender, for about 10 minutes.
-2. In a large bowl, lightly beat the eggs, then add bread crumbs, walnuts, parsley, mustard, sesame oil, and soy sauce.
-3. Crumble the pressed tofu with your hands, and add it to the bowl, along with the sauteed vegetables.
-4. Mix well.
-5. Form into 1 1/2 inch balls and place on an oiled baking sheet.
-6. Bake in the oven at 350 degrees for about 20-30 minutes, or until crisp and brown on the outside.
-7. Add cooked "meat" balls to your favorite tomato sauce and serve over your favorite pasta.
+1.  **Foundation:** In a large skillet, sauté onion, carrot, pepper, and garlic in olive oil for 10 minutes until soft. Let cool slightly.
+2.  **The Base:** In a massive bowl, crumble the pressed tofu with your hands until it looks like ground meat. 
+3.  **Emulsify:** Add the eggs, breadcrumbs, walnuts, herbs, mustard, sesame oil, and soy sauce to the tofu.
+4.  **Combine:** Add the sautéed vegetables. Mix vigorously with your hands until a sticky, uniform dough forms.
+5.  **Shape:** Form into 1.5-inch balls. Arrange on an oiled baking sheet.
+6.  **Bake:** Bake at 350°F for 20-30 minutes, flipping once, until the exterior is deep brown and "Snappy."
+7.  **Serve:** Add the meatballs to your favorite [Roasted Tomato Sauce](/recipes/roasted-tomato-basil-soup) and serve over [Fresh Egg Pasta](/recipes/fresh-egg-pasta).
 
-## Nutrition
-
-- Calories: 82 Calories from Fat 48 59%
-- Total Fat: 5.4 g 8%
-- Saturated Fat: 0.8 g 4%
-- Cholesterol: 10.3 mg 3%
-- Sodium: 131.2 mg 5%
-- Dietary Fiber: 1.2 g 4%
-- Sugars: 1 g 4%
-- Protein: 5 g 9%
+## Serving Suggestions
+-   [Fresh Egg Pasta (The Silton Standard)](/recipes/fresh-egg-pasta)
+-   [Everyday Arugula Salad](/recipes/everyday-arugula-salad)
+-   [Garlic Bread](/recipes/garlic-bread)

@@ -1,32 +1,40 @@
 ---
 title: Spinach & Mushroom Quiche
-prepTime: 25 min
-cookTime: 65 min
-servings: '6'
-ingredients:
-  - 2 tablespoons extra-virgin olive oil
-  - >-
-    8 ounces sliced fresh mixed wild mushrooms such as cremini, shiitake, button
-    and/or oyster mushrooms
-  - 1 ½ cups thinly sliced sweet onion
-  - 1 tablespoon thinly sliced garlic
-  - '5 ounces fresh baby spinach (about 8 cups), coarsely chopped'
-  - 6 large eggs
-  - ¼ cup whole milk
-  - ¼ cup half-and-half
-  - 1 tablespoon Dijon mustard
-  - '1 tablespoon fresh thyme leaves, plus more for garnish'
-  - ¼ teaspoon salt
-  - ¼ teaspoon ground pepper
-  - 1 ½ cups shredded Gruyère cheese
-totalTime: 90 min
 role: main
 vibe: comfort
+prepTime: 25 min
+cookTime: 65 min
+totalTime: 90 min
+servings: '6'
+ingredients:
+  - '1 Pie Crust (Homemade or Store-bought)'
+  - '8 oz Fresh Mixed Mushrooms, sliced'
+  - '5 oz Fresh Baby Spinach, chopped'
+  - '--- The Custard Emulsion ---'
+  - '6 large Eggs'
+  - '1/4 cup Whole Milk'
+  - '1/4 cup Half-and-Half'
+  - '1 1/2 cups Gruyère Cheese, shredded'
+  - '1 tbsp Dijon Mustard (The High Note)'
+  - '1 tbsp Fresh Thyme'
+  - '1 1/2 cups Sweet Onion, thinly sliced'
+  - '1 tbsp Garlic, sliced'
 ---
+
+## Chef's Note
+The secret to a "Gold Standard" quiche is **Texture Integrity** through **The Triple-Sauté Pattern**. You must sear the mushrooms until they are browned and dry, then sauté the onions until tender, and finally wilt the spinach *separately* from the eggs. This ensures the custard remains creamy and "Bouncy" rather than watery. We use **Dijon Mustard** as a structural binder: whisking it into the eggs provides a subtle **Acid Finish** that bridges the gap between the earthy mushrooms and rich Gruyère.
 
 ## Directions
 
-1. Preheat oven to 375 degrees F. Coat a 9-inch pie pan with cooking spray; set aside.
-2. Heat oil in a large nonstick skillet over medium-high heat; swirl to coat the pan. Add mushrooms; cook, stirring occasionally, until browned and tender, about 8 minutes. Add onion and garlic; cook, stirring often, until softened and tender, about 5 minutes. Add spinach; cook, tossing constantly, until wilted, 1 to 2 minutes. Remove from heat.
-3. Whisk eggs, milk, half-and-half, mustard, thyme, salt and pepper in a medium bowl. Fold in the mushroom mixture and cheese. Spoon into the prepared pie pan. Bake until set and golden brown, about 30 minutes. Let stand for 10 minutes; slice. Garnish with thyme and serve.
-4. ANTONIS ACHILLEOS
+1.  **Thermal Prep:** Preheat oven to 375°F. Line a 9-inch pie pan with the crust and prick with a fork.
+2.  **The Snap:** In a large skillet, sauté mushrooms in oil until deep golden and all moisture has evaporated (8 mins). Add onion and garlic; cook for 5 minutes until soft. 
+3.  **The Wilt:** Add the spinach. Toss for 1 minute until just collapsed. Remove from heat and let cool.
+4.  **The Emulsion:** In a large bowl, whisk eggs, milk, half-and-half, mustard, thyme, salt, and pepper until very frothy. 
+5.  **Assemble:** Fold the mushroom-spinach mixture and the cheese into the egg base. Pour into the prepared crust.
+6.  **Bake:** Bake for 30-35 minutes until the center is set and the top is deep golden brown.
+7.  **Set:** Let stand for 10 minutes before slicing—this is mandatory for the structural integrity of the "Bounce."
+
+## Serving Suggestions
+-   [Everyday Arugula Salad](/recipes/everyday-arugula-salad)
+-   Fresh Fruit Platter
+-   [Classic Martini](/recipes/classic-martini) (The Cold Standard)
