@@ -11,6 +11,8 @@ ingredients:
   - 1/4 tsp Salt
   - 1/4 tsp Pepper
 totalTime: 30 min
+role: main
+vibe: speed
 ---
 
 ## Directions

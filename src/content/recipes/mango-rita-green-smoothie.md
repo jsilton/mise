@@ -11,6 +11,8 @@ ingredients:
   - 'Juice of ½ lime, more to taste, plus 2 lime slices for garnish'
   - Tiny pinch of salt (trust me)
 totalTime: 10 min
+role: drink
+vibe: fuel
 ---
 
 ## Directions

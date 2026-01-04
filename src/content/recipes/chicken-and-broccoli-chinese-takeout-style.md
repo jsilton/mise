@@ -20,6 +20,8 @@ ingredients:
   - 2 tablespoons peanut oil (or vegetable oil)
   - '4 cloves garlic , minced'
   - '1 teaspoon ginger , minced'
+role: side
+vibe: fuel
 ---
 
 ## Directions

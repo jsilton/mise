@@ -21,18 +21,14 @@ This document defines the operational mandates and best practices for working on
 
 Every recipe in this library must be a "Keeper." We prioritize flavor layering, texture, and reliability over shortcuts.
 
-### A. Categorization (The "Context" Filter)
-Every recipe must be tagged with one of the following `category` values:
-1.  **`speed` (Weekday Survival):** <30 mins active time. High reliability. Low cleanup. (e.g., Stir-frys, Tacos).
-2.  **`fuel` (Clean & Green):** Health focus. Protein-dense, veggie-forward, lighter sauces. (e.g., Poke, Grilled Chicken).
-3.  **`comfort` (Family Sunday):** Rich sauces, braises, crowd-pleasers. (e.g., Marsala, Meatloaf).
-4.  **`project` (Weekend/Heritage):** Tradition, baking, feasts, cocktails. (e.g., Thanksgiving, Cakes).
+### A. Taxonomy (The "Composable Menu")
+Recipes are components, not just isolated instructions.
+*   **Role:** Every dish must have a role (`main`, `side`, `base`, `dessert`, `drink`, `condiment`).
+*   **Vibe:** Every dish must have a context (`speed`, `fuel`, `comfort`, `project`, `holiday`).
 
-### B. The "Complete Meal" Rule
-A recipe file is not just instructions for a main dish; it is a **Menu**.
-*   **Requirement:** Every recipe MUST have a `## Serving Suggestions` section.
-*   **Example:** "Serve with Jasmine Rice and Smashed Cucumber Salad."
-*   **Balance:** If the main is heavy (Alfredo), the side MUST be acid/green (Arugula Salad).
+### B. Pairings
+*   **Requirement:** Mains should list suggested pairings in the notes or description.
+*   **Example:** "Pairs with: Near East Pilaf Hack, Arugula Salad."
 
 ### C. Technique & Texture Mandates
 *   **No Boiled Meat:** Meat should be seared, roasted, or poached gently. Never boiled in plain water.

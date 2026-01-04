@@ -2,7 +2,7 @@
 title: Easy Pan-Seared Chicken Breasts
 prepTime: 5 min
 cookTime: 10 min
-servings: "['4']"
+servings: '[''4'']'
 ingredients:
   - '4 chicken breasts (thin, boneless and skinless)'
   - 1/2 cup flour
@@ -13,6 +13,8 @@ ingredients:
   - 2 teaspoons Italian seasoning
   - 2 tablespoons olive oil
 totalTime: 15 min
+role: main
+vibe: speed
 ---
 
 ## Directions
@@ -29,3 +31,6 @@ totalTime: 15 min
 - Sodium: 713mg
 - Carbohydrates: 13g
 - Protein: 25g
+
+## Serving Suggestions
+Near East Rice Pilaf Hack, Everyday Arugula Salad

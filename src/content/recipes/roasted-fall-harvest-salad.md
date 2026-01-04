@@ -25,6 +25,8 @@ ingredients:
   - '1/4 tsp each garlic granules, cayenne pepper, and ceylon cinnamon'
   - '1/4 tsp kosher salt, plus more as needed'
 totalTime: 50 min
+role: side
+vibe: fuel
 ---
 
 ## Directions

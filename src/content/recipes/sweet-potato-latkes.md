@@ -12,6 +12,8 @@ ingredients:
   - 1/2 teaspoon black pepper
   - 3/4 cup vegetable oil
 totalTime: 60 min
+role: main
+vibe: fuel
 ---
 
 ## Directions

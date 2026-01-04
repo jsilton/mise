@@ -19,6 +19,8 @@ ingredients:
     rounds
   - Juice of half an orange
 totalTime: 80 min
+role: main
+vibe: fuel
 ---
 
 ## Directions
@@ -40,3 +42,6 @@ totalTime: 80 min
 - Fiber: 4g
 - Sugar: 17g
 - Protein: 33g
+
+## Serving Suggestions
+Near East Rice Pilaf Hack, Everyday Arugula Salad

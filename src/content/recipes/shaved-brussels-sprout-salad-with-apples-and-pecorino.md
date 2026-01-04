@@ -11,6 +11,8 @@ ingredients:
   - 16 ounces Brussels sprouts
   - '3 ounces Pecorino Romano cheese, finely grated (about 1 cup)'
 totalTime: 30 min
+role: side
+vibe: fuel
 ---
 
 ## Directions

@@ -30,6 +30,8 @@ ingredients:
   - 1/2 teaspoon vanilla bean paste
   - 1 tablespoon heavy cream
 totalTime: 150 min
+role: main
+vibe: comfort
 ---
 
 ## Directions

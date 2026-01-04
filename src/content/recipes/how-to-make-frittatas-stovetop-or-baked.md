@@ -18,6 +18,8 @@ ingredients:
   - >-
     Garnish: Chopped or torn fresh, leafy herbs (basil, parsley, cilantro, or
     dill)
+role: main
+vibe: fuel
 ---
 
 ## Directions

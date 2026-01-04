@@ -23,6 +23,9 @@ ingredients:
   - 1 (15 oz) can garbanzo beans rinsed and drained
   - 1 (15 oz) can black beans rinsed and drained
 totalTime: 255 min
+role: main
+vibe: comfort
+servings: Unknown
 ---
 
 ## Directions

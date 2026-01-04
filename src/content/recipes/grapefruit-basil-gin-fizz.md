@@ -1,13 +1,15 @@
 ---
-title: 'Grapefruit-Basil Gin Fizz'
+title: Grapefruit-Basil Gin Fizz
 servings: '1'
 ingredients:
   - '1/2 teaspoon finely chopped fresh basil, plus 1 sprig for garnishing'
-  - 'ice'
-  - '3/4 cup pink grapefruit juice'
-  - '2 ounces gin'
-  - '1/4 cup tonic water'
-  - 'angostura bitters'
+  - ice
+  - 3/4 cup pink grapefruit juice
+  - 2 ounces gin
+  - 1/4 cup tonic water
+  - angostura bitters
+role: drink
+vibe: fuel
 ---
 
 ## Directions

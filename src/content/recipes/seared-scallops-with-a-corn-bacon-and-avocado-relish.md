@@ -15,6 +15,8 @@ ingredients:
   - 1 red bell pepper
   - 2 tablespoons chopped fresh parsley
 totalTime: 20 min
+role: side
+vibe: speed
 ---
 
 ## Directions

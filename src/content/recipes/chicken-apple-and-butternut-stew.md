@@ -18,6 +18,8 @@ ingredients:
   - 1 1/2 cups unsalted chicken stock
   - 2 cups chopped peeled Granny Smith apple
 totalTime: 95 min
+role: main
+vibe: comfort
 ---
 
 ## Directions
@@ -36,3 +38,6 @@ totalTime: 95 min
 - fat: 2.9g
 - Sodium: 584mg
 - fat: 3.3g
+
+## Serving Suggestions
+Near East Rice Pilaf Hack, Everyday Arugula Salad

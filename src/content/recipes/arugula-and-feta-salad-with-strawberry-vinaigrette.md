@@ -16,6 +16,8 @@ ingredients:
   - '10 cups arugula (about 5 ounces), trimmed if necessary'
   - ¾ cup crumbled feta cheese
 totalTime: 20 min
+role: base
+vibe: fuel
 ---
 
 ## Directions

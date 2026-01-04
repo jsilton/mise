@@ -21,6 +21,8 @@ ingredients:
   - Scallions - finely chopped
   - Chili oil - optional
 totalTime: 36 min
+role: main
+vibe: project
 ---
 
 ## Directions
@@ -50,3 +52,6 @@ totalTime: 36 min
 - Serving: 1 bowl | Calories: 453 kcal | Carbohydrates: 48 g | Protein: 23 g | Fat: 18 g | Saturated Fat: 6 g | Polyun
 - saturated Fat: 2 g | Monoun
 - saturated Fat: 7 g | Cholesterol: 66 mg | Sodium: 1861 mg | Potassium: 357 mg | Fiber: 2 g | Sugar: 1 g | Vitamin A: 93 IU | Vitamin C: 2 mg | Calcium: 27 mg | Iron: 1 mg
+
+## Serving Suggestions
+Grilled Cheese, Crusty Bread

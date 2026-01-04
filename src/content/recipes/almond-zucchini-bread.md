@@ -14,6 +14,8 @@ ingredients:
   - '1 large banana, mashed'
   - 1 tablespoon melted coconut oil
 totalTime: 43 min
+role: main
+vibe: fuel
 ---
 
 ## Directions

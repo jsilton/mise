@@ -19,6 +19,8 @@ ingredients:
   - ¼ cup grated Parmesan cheese
   - 1 tablespoon unsalted butter
 totalTime: 40 min
+role: base
+vibe: fuel
 ---
 
 ## Directions

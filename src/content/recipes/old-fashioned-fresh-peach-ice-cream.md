@@ -13,6 +13,8 @@ ingredients:
   - 1 1/2 cups whole milk
   - 1 teaspoon vanilla
 totalTime: 38 min
+role: dessert
+vibe: fuel
 ---
 
 ## Directions

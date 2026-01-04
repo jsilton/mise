@@ -15,6 +15,8 @@ ingredients:
   - '4 slices thick country-style bread, toasted'
   - 2 tablespoons chopped fresh tarragon or parsley
 totalTime: 60 min
+role: main
+vibe: fuel
 ---
 
 ## Directions

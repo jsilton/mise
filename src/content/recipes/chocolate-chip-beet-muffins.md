@@ -15,6 +15,9 @@ ingredients:
   - 1 1/3 cups whole-wheat flour
   - 1/3 cup semisweet chocolate chips
 totalTime: 28 min
+role: main
+vibe: speed
+servings: Unknown
 ---
 
 ## Directions

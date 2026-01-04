@@ -11,6 +11,8 @@ ingredients:
   - 1 cup frozen peas
   - Salt
   - Freshly ground black pepper
+role: side
+vibe: fuel
 ---
 
 ## Directions

@@ -22,6 +22,8 @@ ingredients:
     ¼ cup chocolate chips** or to taste. If you omit, add a couple tablespoons
     of granulated sugar to help bring up the sweetness.
 totalTime: 30 min
+role: side
+vibe: speed
 ---
 
 ## Directions

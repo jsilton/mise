@@ -16,6 +16,8 @@ ingredients:
   - 1 teaspoon sea salt
   - 2 cups chocolate chips (14 oz)
 totalTime: 18 min
+role: dessert
+vibe: speed
 ---
 
 ## Directions

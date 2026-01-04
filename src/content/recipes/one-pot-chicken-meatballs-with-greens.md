@@ -19,6 +19,8 @@ ingredients:
     sliced and leaves cut into 1-inch ribbons
   - '1 lemon, halved, 1/2 thinly sliced'
   - 1 teaspoon ground cumin
+role: main
+vibe: fuel
 ---
 
 ## Directions
@@ -41,3 +43,6 @@ ingredients:
 - Sugar: 3 gram
 - Fiber: 3 gramsCarbohydrate: 14 gram
 - Protein: 24 grams
+
+## Serving Suggestions
+Near East Rice Pilaf Hack, Everyday Arugula Salad

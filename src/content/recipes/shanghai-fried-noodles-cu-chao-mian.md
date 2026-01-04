@@ -22,6 +22,8 @@ ingredients:
   - ¼ teaspoon sugar
   - 1 bunch choy sum or baby bok choy (washed and trimmed)
 totalTime: 30 min
+role: main
+vibe: speed
 ---
 
 ## Directions

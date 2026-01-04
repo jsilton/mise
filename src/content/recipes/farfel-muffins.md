@@ -10,6 +10,8 @@ ingredients:
   - 4 eggs
   - Kosher salt
 totalTime: 35 min
+role: main
+vibe: fuel
 ---
 
 ## Directions

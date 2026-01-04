@@ -29,6 +29,8 @@ ingredients:
   - 1/2 teaspoon vanilla extract
   - '1-2 tablespoons almond milk, to thin glaze'
 totalTime: 30 min
+role: dessert
+vibe: project
 ---
 
 ## Directions

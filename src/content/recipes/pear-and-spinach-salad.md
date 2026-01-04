@@ -15,6 +15,8 @@ ingredients:
   - 5 cups baby spinach (about 5 ounces)
   - '1 medium Bosc pear, quartered and thinly sliced'
 totalTime: 40 min
+role: side
+vibe: fuel
 ---
 
 ## Directions

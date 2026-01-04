@@ -1,28 +1,30 @@
 ---
-title: 'Strawberry Rhubarb Shortcake with Whipped Mascarpone'
-servings: 'Serves 6'
+title: Strawberry Rhubarb Shortcake with Whipped Mascarpone
+servings: Serves 6
 ingredients:
-  - 'all purpose flour - 2 cups'
-  - 'granulated sugar - 3 tablespoons'
-  - 'baking powder - 1 tablespoon'
-  - 'salt - 1 teaspoon'
-  - 'ground pink peppercorns - 3/4 teaspoon'
+  - all purpose flour - 2 cups
+  - granulated sugar - 3 tablespoons
+  - baking powder - 1 tablespoon
+  - salt - 1 teaspoon
+  - ground pink peppercorns - 3/4 teaspoon
   - 'cold, unsalted butter - 1/2 cup (1 stick)'
-  - 'buttermilk or heavy cream - 1 cup'
-  - 'sparkling or sanding sugar - 1 tablespoon'
-  - 'rhubarb stalks - 3-5 depending on the size'
+  - buttermilk or heavy cream - 1 cup
+  - sparkling or sanding sugar - 1 tablespoon
+  - rhubarb stalks - 3-5 depending on the size
   - 'fresh strawberries, hulled - 3 cups (sliced)'
-  - 'lemon - 1'
-  - 'vanilla bean - 1/2 bean'
-  - 'fresh thyme - a few sprigs'
-  - 'granulated sugar - 1/4 cup'
-  - 'St. Germain - 2 tablespoons'
-  - 'mascarpone cheese at room temperature - 1 cup'
-  - 'heavy whipping cream at room temperature - 3/4 cup'
-  - 'granulated sugar - 1/4 cup'
-  - 'St. Germain - 3 tablespoons'
-  - 'pure vanilla extract - 1/2 teaspoon'
-  - 'fresh thyme - a few sprigs'
+  - lemon - 1
+  - vanilla bean - 1/2 bean
+  - fresh thyme - a few sprigs
+  - granulated sugar - 1/4 cup
+  - St. Germain - 2 tablespoons
+  - mascarpone cheese at room temperature - 1 cup
+  - heavy whipping cream at room temperature - 3/4 cup
+  - granulated sugar - 1/4 cup
+  - St. Germain - 3 tablespoons
+  - pure vanilla extract - 1/2 teaspoon
+  - fresh thyme - a few sprigs
+role: dessert
+vibe: project
 ---
 
 ## Directions

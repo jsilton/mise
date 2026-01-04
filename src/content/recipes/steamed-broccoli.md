@@ -10,6 +10,9 @@ ingredients:
   - ½ teaspoon freshly ground black pepper
   - ½ teaspoon garlic powder
 totalTime: 15 min
+role: side
+vibe: speed
+servings: Unknown
 ---
 
 ## Directions

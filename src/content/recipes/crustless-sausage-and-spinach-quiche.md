@@ -18,6 +18,8 @@ ingredients:
   - 1/8 teaspoon ground black pepper
   - pinch freshly grated nutmeg
 totalTime: 70 min
+role: main
+vibe: comfort
 ---
 
 ## Directions

@@ -1,20 +1,24 @@
 ---
-title: 'Freezer Date Cookies'
-prepTime: '15 min'
-cookTime: '15 min'
-totalTime: '30 min'
-servings: '24 cookies'
+title: Freezer Date Cookies
+prepTime: 15 min
+cookTime: 15 min
+totalTime: 30 min
+servings: 24 cookies
 ingredients:
-  - '1 cup medjool dates (can use other types of dates if soaked in hot water first), pits removed'
+  - >-
+    1 cup medjool dates (can use other types of dates if soaked in hot water
+    first), pits removed
   - '1/2 cup butter, melted'
-  - '1 large egg'
-  - '1 tsp vanilla'
-  - '1/3 cup buckwheat flour'
-  - '2/3 cup white whole wheat flour'
-  - '1 cup quick oats'
-  - '1/2 tsp baking soda'
-  - '1/2 tsp cinnamon'
-  - '1/4 cup plain greek yogurt'
+  - 1 large egg
+  - 1 tsp vanilla
+  - 1/3 cup buckwheat flour
+  - 2/3 cup white whole wheat flour
+  - 1 cup quick oats
+  - 1/2 tsp baking soda
+  - 1/2 tsp cinnamon
+  - 1/4 cup plain greek yogurt
+role: dessert
+vibe: speed
 ---
 
 ## Directions

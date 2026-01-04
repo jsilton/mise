@@ -21,6 +21,8 @@ ingredients:
   - 2 cups mung bean sprouts
   - 2 scallions (julienned)
 totalTime: 50 min
+role: main
+vibe: fuel
 ---
 
 ## Directions
@@ -33,3 +35,6 @@ totalTime: 50 min
 ## Nutrition
 
 - Calories: 306kcal (15%) Carbohydrates: 42g (14%) Protein: 13g (26%) Fat: 5g (8%) Saturated Fat: 1g (5%) Cholesterol: 58mg (19%) Sodium: 502mg (21%) Potassium: 343mg (10%) Fiber: 3g (12%) Sugar: 4g (4%) Vitamin A: 3510IU (70%) Vitamin C: 23.8mg (29%) Calcium: 45mg (5%) Iron: 1.6mg (9%)
+
+## Serving Suggestions
+Near East Rice Pilaf Hack, Everyday Arugula Salad

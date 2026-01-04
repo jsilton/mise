@@ -25,6 +25,8 @@ ingredients:
   - ½ teaspoon baking powder
   - ½ cup vegetable oil
   - Olive oil (for serving)
+role: main
+vibe: fuel
 ---
 
 ## Directions

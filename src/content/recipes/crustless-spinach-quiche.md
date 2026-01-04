@@ -9,6 +9,8 @@ ingredients:
   - 6 eggs
   - gruyere cheese
 totalTime: 40 min
+role: main
+vibe: fuel
 ---
 
 ## Directions

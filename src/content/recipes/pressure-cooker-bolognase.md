@@ -1,21 +1,23 @@
 ---
-title: 'Pressure-Cooker Bolognase'
-servings: 'Makes 5 to 6 Cups'
+title: Pressure-Cooker Bolognase
+servings: Makes 5 to 6 Cups
 ingredients:
-  - '3 tablespoons olive oil'
+  - 3 tablespoons olive oil
   - '1 pound boneless pork or veal shoulder, chopped into 1/2-inch pieces'
-  - '1 pound sweet or spicy Italian bulk sausage'
+  - 1 pound sweet or spicy Italian bulk sausage
   - '1 large yellow onion, finely chopped'
   - '2 carrots, finely diced'
   - '1 stalk celery, finely diced'
   - '6 garlic cloves, minced'
-  - '1 bay leaf'
-  - 'Kosher salt and freshly ground black pepper to taste'
-  - '2 tablespoons tomato paste'
-  - '1 cup dry red wine'
+  - 1 bay leaf
+  - Kosher salt and freshly ground black pepper to taste
+  - 2 tablespoons tomato paste
+  - 1 cup dry red wine
   - 'One 28-ouce can San Marzano tomatoes, crushed with your hands'
-  - '20 fresh basil leaves'
+  - 20 fresh basil leaves
   - '2 tablespoons balsamic vinegar, or more to taste'
+role: main
+vibe: fuel
 ---
 
 ## Directions

@@ -26,6 +26,8 @@ ingredients:
   - '1 bunch scallions, chopped'
   - 'Oyster crackers, as an accompaniment'
 totalTime: 155 min
+role: side
+vibe: fuel
 ---
 
 ## Directions

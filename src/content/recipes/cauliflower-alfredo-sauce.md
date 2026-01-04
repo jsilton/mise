@@ -11,6 +11,8 @@ ingredients:
   - optional 1/2 cup shredded mozzarella or nutritional yeast
   - optional 1/4 cup diced shallot or onion
 totalTime: 15 min
+role: base
+vibe: comfort
 ---
 
 ## Directions

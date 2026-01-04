@@ -11,6 +11,8 @@ ingredients:
   - '6 fresh peaches, skin on, cut in half and pitted'
   - '4 tablespoons unsalted butter, cut into dice'
 totalTime: 55 min
+role: main
+vibe: fuel
 ---
 
 ## Directions

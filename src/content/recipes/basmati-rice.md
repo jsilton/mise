@@ -10,6 +10,8 @@ ingredients:
   - 1 tsp Salt
   - 1 tsp Cumin Seeds (optional)
 totalTime: 30 min
+role: base
+vibe: speed
 ---
 
 A fail-proof method for fluffy, non-sticky Basmati rice using a rice cooker. Includes the wash technique essential for distinct grains.

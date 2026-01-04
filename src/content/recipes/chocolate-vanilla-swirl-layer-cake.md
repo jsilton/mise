@@ -1,19 +1,24 @@
 ---
-title: 'Chocolate Vanilla Swirl Layer Cake'
+title: Chocolate Vanilla Swirl Layer Cake
 ingredients:
   - '1 1/2 cups all purpose flour plus 2 tablespoons, separated'
-  - '1 1/2 cups cake flour'
-  - '1 tablespoon baking powder'
-  - '1/2 teaspoon salt'
+  - 1 1/2 cups cake flour
+  - 1 tablespoon baking powder
+  - 1/2 teaspoon salt
   - '2 sticks butter, softened to room temperature'
-  - '1 3/4 cups fine or superfine sugar'
+  - 1 3/4 cups fine or superfine sugar
   - '4 large eggs, room temperature'
-  - '1 tablespoon pure vanilla extract'
-  - '1 1/4 cups whole milk, warmed to room temperature plus 4 tablespoons, separated'
-  - '2 level tablespoons dark cocoa powder'
-  - '16 ounces (2 cups) heavy cream'
-  - '16 ounces chopped dark chocolate or bittersweet chocolate'
-  - 'Melted white chocolate for drizzling'
+  - 1 tablespoon pure vanilla extract
+  - >-
+    1 1/4 cups whole milk, warmed to room temperature plus 4 tablespoons,
+    separated
+  - 2 level tablespoons dark cocoa powder
+  - 16 ounces (2 cups) heavy cream
+  - 16 ounces chopped dark chocolate or bittersweet chocolate
+  - Melted white chocolate for drizzling
+role: dessert
+vibe: project
+servings: Unknown
 ---
 
 ## Directions

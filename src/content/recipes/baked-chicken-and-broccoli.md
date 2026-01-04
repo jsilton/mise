@@ -1,15 +1,17 @@
 ---
-title: 'Baked Chicken and Broccoli'
+title: Baked Chicken and Broccoli
 servings: '2'
 ingredients:
   - '2 whole chicken breasts, split'
   - '2 tbsp butter, melted'
-  - '1 (10 oz) bag frozen broccoli'
+  - 1 (10 oz) bag frozen broccoli
   - '1 (10 3/4 oz) can cream of mushroom soup, undiluted'
-  - '1/2 cup milk'
-  - '1/2 cup shredded cheddar cheese'
-  - '1/4 cup breadcrumbs'
-  - 'Paprika'
+  - 1/2 cup milk
+  - 1/2 cup shredded cheddar cheese
+  - 1/4 cup breadcrumbs
+  - Paprika
+role: side
+vibe: fuel
 ---
 
 ## Directions

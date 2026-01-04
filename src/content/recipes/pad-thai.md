@@ -22,6 +22,8 @@ ingredients:
   - 4 teaspoons fish sauce
   - 1 egg
 totalTime: 80 min
+role: main
+vibe: comfort
 ---
 
 ## Directions

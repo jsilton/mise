@@ -16,6 +16,8 @@ ingredients:
   - 1 bag Fresh Spinach (8-10 oz)
   - 1 tbsp Cold Butter (cut into cubes)
 totalTime: 35 min
+role: main
+vibe: fuel
 ---
 
 A refined Italian scaloppine dish. The secret is dusting the chicken in flour before searing (to create a crust and thicken the sauce) and finishing with cold butter to create a glossy, emulsified lemon-tomato glaze.

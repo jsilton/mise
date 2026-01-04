@@ -1,12 +1,15 @@
 ---
-title: 'Macaroni and Cheese'
+title: Macaroni and Cheese
 ingredients:
-  - '8 oz. macaroni'
-  - '1 lb Cheese (medium) cut in chunks'
-  - '4 eggs'
-  - '1/2 stick margarine'
-  - 'milk'
-  - '1/2-3/4 tsp salt'
+  - 8 oz. macaroni
+  - 1 lb Cheese (medium) cut in chunks
+  - 4 eggs
+  - 1/2 stick margarine
+  - milk
+  - 1/2-3/4 tsp salt
+role: main
+vibe: fuel
+servings: Unknown
 ---
 
 ## Directions

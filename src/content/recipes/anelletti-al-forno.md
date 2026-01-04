@@ -26,6 +26,8 @@ ingredients:
   - '12 oz. primosale or provolone cheese, cut into ¼-in. cubes'
   - ½ cup finely grated caciocavallo or Pecorino Romano cheese
 totalTime: 180 min
+role: main
+vibe: comfort
 ---
 
 ## Directions

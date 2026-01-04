@@ -11,6 +11,8 @@ ingredients:
   - 1 teaspoon vanilla
   - 4 Tbs butter
 totalTime: 40 min
+role: dessert
+vibe: project
 ---
 
 ## Directions

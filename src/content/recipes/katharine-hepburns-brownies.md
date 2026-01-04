@@ -12,6 +12,8 @@ ingredients:
   - 1 teaspoon vanilla
   - Pinch of salt
 totalTime: 45 min
+role: dessert
+vibe: fuel
 ---
 
 ## Directions

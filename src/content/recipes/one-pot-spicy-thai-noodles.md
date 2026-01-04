@@ -18,6 +18,9 @@ ingredients:
   - '1 handful fresh cilantro , chopped'
   - '4 green onions , chopped'
   - Chicken or shrimp
+role: main
+vibe: fuel
+servings: Unknown
 ---
 
 ## Directions

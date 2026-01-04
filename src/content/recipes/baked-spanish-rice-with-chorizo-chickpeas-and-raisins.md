@@ -24,6 +24,8 @@ ingredients:
     medium-grain (see footnote)
   - 'Finely chopped chives, for garnish'
 totalTime: 90 min
+role: base
+vibe: comfort
 ---
 
 ## Directions

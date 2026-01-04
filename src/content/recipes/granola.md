@@ -1,13 +1,18 @@
 ---
-title: 'Granola'
+title: Granola
 ingredients:
   - '2 cups old fashioned oats, not quick or instant'
-  - '1/2 cup nots (almonds, walnuts, pecans, unsalted sunflower sees, sesame seeds)'
-  - 'Generous 1/3 cup pure maple syrup'
-  - '1/2 cup canola oil'
-  - '1.5-2 tsp vanilla'
-  - '1 tsp ground cinnamon'
+  - >-
+    1/2 cup nots (almonds, walnuts, pecans, unsalted sunflower sees, sesame
+    seeds)
+  - Generous 1/3 cup pure maple syrup
+  - 1/2 cup canola oil
+  - 1.5-2 tsp vanilla
+  - 1 tsp ground cinnamon
   - '1/2 cup dried fruit (raisins, cranberries, blueberries)'
+role: main
+vibe: fuel
+servings: Unknown
 ---
 
 ## Directions

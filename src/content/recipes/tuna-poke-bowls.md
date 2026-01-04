@@ -1,26 +1,30 @@
 ---
-title: 'Tuna Poke Bowls'
-servings: '4 servings'
+title: Tuna Poke Bowls
+servings: 4 servings
 ingredients:
-  - '2 cups short-grain sushi rice'
+  - 2 cups short-grain sushi rice
   - '1½ teaspoons kosher salt, plus more'
-  - '2 tablespoons dried hijiki (seaweed)'
+  - 2 tablespoons dried hijiki (seaweed)
   - '3 tablespoons mirin, divided'
   - '3 tablespoons soy sauce, divided'
   - '½ teaspoon sesame seeds, plus more for serving'
-  - '¼ cup unseasoned rice vinegar'
-  - '1 tablespoon sugar'
-  - '¼ English hothouse cucumber, sliced in half lengthwise, sliced crosswise into half-moons'
+  - ¼ cup unseasoned rice vinegar
+  - 1 tablespoon sugar
+  - >-
+    ¼ English hothouse cucumber, sliced in half lengthwise, sliced crosswise
+    into half-moons
   - '1 jalapeño, thinly sliced'
   - '2 scallions, thinly sliced'
   - '¼ cup mixed fresh citrus juice (such as lime, lemon, and grapefruit)'
-  - '2 tablespoons white soy sauce or soy sauce'
-  - '1 teaspoon toasted sesame oil'
-  - '¼ cup mayonnaise'
-  - '1 tablespoon hot chili paste (such as sambal oelek)'
+  - 2 tablespoons white soy sauce or soy sauce
+  - 1 teaspoon toasted sesame oil
+  - ¼ cup mayonnaise
+  - 1 tablespoon hot chili paste (such as sambal oelek)
   - '¾ pound highest-quality fresh tuna, cut into ½-inch pieces'
   - '1 avocado, chopped'
-  - 'Tobiko (for serving; optional)'
+  - Tobiko (for serving; optional)
+role: main
+vibe: fuel
 ---
 
 ## Directions

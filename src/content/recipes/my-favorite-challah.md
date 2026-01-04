@@ -11,6 +11,8 @@ ingredients:
   - 8 to 8 ½ cups all-purpose flour
   - Poppy or sesame seeds for sprinkling
 totalTime: 60 min
+role: main
+vibe: fuel
 ---
 
 ## Directions

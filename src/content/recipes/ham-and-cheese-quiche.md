@@ -17,6 +17,8 @@ ingredients:
   - ¼ teaspoon ground black pepper
   - '1/2-1 cup spinach , chopped'
 totalTime: 45 min
+role: main
+vibe: fuel
 ---
 
 ## Directions

@@ -15,6 +15,8 @@ ingredients:
   - '6 shallots, ends trimmed, cut into 10cm lengths, finely shredded'
   - 1/2 cup fresh coriander leaves
 totalTime: 70 min
+role: main
+vibe: comfort
 ---
 
 ## Directions

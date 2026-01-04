@@ -21,6 +21,8 @@ ingredients:
   - 1/2 teaspoon smoked paprika
   - '1/3 cup grated parmesan cheese or nutritional yeast, for topping'
 totalTime: 40 min
+role: main
+vibe: fuel
 ---
 
 ## Directions

@@ -21,6 +21,8 @@ ingredients:
   - '1 large red onion, cut into 1-inch chunks'
   - 'Vegetable oil, for greasing the grill'
 totalTime: 50 min
+role: main
+vibe: fuel
 ---
 
 ## Directions
@@ -55,3 +57,6 @@ Note: I've specified boneless skinless chicken thighs for this recipe; they're j
 - Protein: 41g
 - Sodium: 871mg
 - Cholesterol: 186mg
+
+## Serving Suggestions
+Near East Rice Pilaf Hack, Everyday Arugula Salad

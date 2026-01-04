@@ -18,6 +18,8 @@ ingredients:
   - 1 tablespoon fresh lemon juice
   - '1/2 cup grated Parmigiano-Reggiano cheese, plus more for garnish'
 totalTime: 45 min
+role: main
+vibe: comfort
 ---
 
 ## Directions

@@ -1,19 +1,24 @@
 ---
-title: 'Ratatouille'
+title: Ratatouille
 ingredients:
-  - '2 pounds ripe red tomatoes (6 medium or 4 large)'
+  - 2 pounds ripe red tomatoes (6 medium or 4 large)
   - '1 medium eggplant (1 pound), diced into ½-inch cubes'
-  - '1 large red, orange, or yellow bell pepper (about 8 ounces), cut into ¾-inch squares'
+  - >-
+    1 large red, orange, or yellow bell pepper (about 8 ounces), cut into ¾-inch
+    squares
   - '1 medium-to-large zucchini (about 8 ounces), diced into ½-inch cubes'
   - '1 large yellow squash (about 8 ounces), diced into ½-inch cubes'
   - '5 tablespoons + 1 teaspoon extra-virgin olive oil, divided'
   - '¾ teaspoon fine sea salt, divided, more to taste'
   - '1 medium yellow onion, chopped'
   - '4 cloves garlic, pressed or minced'
-  - '¼ cup chopped fresh basil'
+  - ¼ cup chopped fresh basil
   - '¼ teaspoon red pepper flakes, more or less to taste'
-  - '¼ teaspoon dried oregano'
+  - ¼ teaspoon dried oregano
   - 'Freshly ground black pepper, to taste'
+role: main
+vibe: fuel
+servings: Unknown
 ---
 
 ## Directions

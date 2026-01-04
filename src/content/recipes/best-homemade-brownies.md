@@ -15,6 +15,8 @@ ingredients:
   - 2 tablespoons water
   - 1/2 teaspoon vanilla
 totalTime: 50 min
+role: dessert
+vibe: fuel
 ---
 
 ## Directions

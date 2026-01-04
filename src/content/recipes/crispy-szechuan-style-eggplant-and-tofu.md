@@ -24,6 +24,8 @@ ingredients:
   - 'Cooked white rice, for serving'
   - 'Chopped fresh cilantro, for garnish'
 totalTime: 50 min
+role: main
+vibe: fuel
 ---
 
 ## Directions

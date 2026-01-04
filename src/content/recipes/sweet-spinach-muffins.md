@@ -18,6 +18,8 @@ ingredients:
   - 1 large – egg
   - 1 teaspoon – vanilla extract
 totalTime: 28 min
+role: main
+vibe: speed
 ---
 
 ## Directions

@@ -1,14 +1,17 @@
 ---
-title: 'Banana Nut Bread'
+title: Banana Nut Bread
 ingredients:
-  - '1/2 cup butter or margarine'
-  - '1 cup sugar'
-  - '2 eggs'
+  - 1/2 cup butter or margarine
+  - 1 cup sugar
+  - 2 eggs
   - '3 large very ripe bananas, mashed'
-  - '2 cups sifted all purpose flour'
-  - '1 teaspoon baking soda'
-  - '1/2 teaspoon salt'
+  - 2 cups sifted all purpose flour
+  - 1 teaspoon baking soda
+  - 1/2 teaspoon salt
   - '1/2 cup chopped nuts, optional'
+role: main
+vibe: fuel
+servings: Unknown
 ---
 
 ## Directions

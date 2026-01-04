@@ -13,6 +13,8 @@ ingredients:
   - '3 cups all-purpose flour, divided'
   - 1 teaspoon salt
 totalTime: 60 min
+role: main
+vibe: fuel
 ---
 
 ## Directions

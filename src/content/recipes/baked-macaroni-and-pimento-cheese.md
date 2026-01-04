@@ -1,17 +1,22 @@
 ---
-title: 'Baked Macaroni and Pimento Cheese'
+title: Baked Macaroni and Pimento Cheese
 ingredients:
-  - '1 (8-ounce) package elbow macaroni'
-  - '3 tablespoons butter'
-  - '1/4 cup all-purpose flour'
-  - '2 cups milk'
-  - '1 teaspoon salt'
-  - '1/4 teaspoon ground red pepper'
-  - '1/8 teaspoon garlic powder'
+  - 1 (8-ounce) package elbow macaroni
+  - 3 tablespoons butter
+  - 1/4 cup all-purpose flour
+  - 2 cups milk
+  - 1 teaspoon salt
+  - 1/4 teaspoon ground red pepper
+  - 1/8 teaspoon garlic powder
   - '1 (8-ounce) block sharp Cheddar cheese, shredded'
-  - '1 (4-ounce) jar diced pimento, drained (you could also use roasted red pepper)'
+  - >-
+    1 (4-ounce) jar diced pimento, drained (you could also use roasted red
+    pepper)
   - '1/2 cup fine, dry breadcrumbs or panko'
-  - '3/4 cup freshly grated Parmesan cheese'
+  - 3/4 cup freshly grated Parmesan cheese
+role: main
+vibe: fuel
+servings: Unknown
 ---
 
 ## Directions

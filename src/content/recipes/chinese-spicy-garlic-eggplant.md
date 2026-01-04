@@ -24,6 +24,9 @@ ingredients:
   - ½ tablespoon cornstarch
   - ½ teaspoon crushed red chili flakes
 totalTime: 30 min
+role: main
+vibe: speed
+servings: Unknown
 ---
 
 ## Directions

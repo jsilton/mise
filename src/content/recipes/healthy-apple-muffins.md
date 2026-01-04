@@ -1,20 +1,23 @@
 ---
-title: 'Healthy Apple Muffins'
+title: Healthy Apple Muffins
 ingredients:
-  - '1 ¾ cups white whole wheat flour or regular whole wheat flour'
-  - '1 ½ teaspoons baking powder'
-  - '1 teaspoon ground cinnamon'
-  - '½ teaspoon baking soda'
-  - '½ teaspoon salt'
-  - '1 cup grated apple'
-  - '1 cup apple diced into ¼” cubes'
-  - '⅓ cup melted coconut oil or extra-virgin olive oil'
-  - '½ cup maple syrup or honey*'
+  - 1 ¾ cups white whole wheat flour or regular whole wheat flour
+  - 1 ½ teaspoons baking powder
+  - 1 teaspoon ground cinnamon
+  - ½ teaspoon baking soda
+  - ½ teaspoon salt
+  - 1 cup grated apple
+  - 1 cup apple diced into ¼” cubes
+  - ⅓ cup melted coconut oil or extra-virgin olive oil
+  - ½ cup maple syrup or honey*
   - '2 eggs, preferably at room temperature'
-  - '½ cup plain Greek yogurt (I used full-fat but any variety should do)'
-  - '½ cup applesauce'
-  - '1 teaspoon vanilla extract'
+  - ½ cup plain Greek yogurt (I used full-fat but any variety should do)
+  - ½ cup applesauce
+  - 1 teaspoon vanilla extract
   - '1 tablespoon turbinado sugar (also called raw sugar), for sprinkling on top'
+role: main
+vibe: fuel
+servings: Unknown
 ---
 
 ## Directions

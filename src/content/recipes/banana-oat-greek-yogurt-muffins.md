@@ -13,6 +13,8 @@ ingredients:
   - 1/2 tsp baking soda
   - '1/2 cup (85 g) chocolate chips, mini or regular'
 totalTime: 20 min
+role: main
+vibe: speed
 ---
 
 ## Directions

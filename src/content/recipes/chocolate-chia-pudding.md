@@ -12,6 +12,8 @@ ingredients:
   - 1 teaspoon vanilla extract
   - 'toppings of choice: fresh berries, chocolate chips, nuts'
 totalTime: 190 min
+role: dessert
+vibe: comfort
 ---
 
 ## Directions

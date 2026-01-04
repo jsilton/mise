@@ -20,6 +20,8 @@ ingredients:
   - 6 leaves sage
   - Canola oil
 totalTime: 165 min
+role: main
+vibe: holiday
 ---
 
 ## Directions

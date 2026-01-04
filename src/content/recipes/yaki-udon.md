@@ -1,19 +1,19 @@
 ---
-title: 'Yaki Udon'
-prepTime: '10 min'
-cookTime: '30 min'
-totalTime: '40 min'
-servings: '4 to 6 servings'
+title: Yaki Udon
+prepTime: 10 min
+cookTime: 30 min
+totalTime: 40 min
+servings: 4 to 6 servings
 ingredients:
-  - '2 tablespoons dark soy sauce'
-  - '2 tablespoons low-sodium soy sauce'
-  - '2 tablespoons oyster sauce'
-  - '1 tablespoon mirin'
-  - '1 tablespoon rice vinegar'
-  - '1 tablespoon granulated sugar'
-  - '1 pound frozen udon noodles'
+  - 2 tablespoons dark soy sauce
+  - 2 tablespoons low-sodium soy sauce
+  - 2 tablespoons oyster sauce
+  - 1 tablespoon mirin
+  - 1 tablespoon rice vinegar
+  - 1 tablespoon granulated sugar
+  - 1 pound frozen udon noodles
   - 'Toasted sesame oil, for drizzling'
-  - '2 tablespoons vegetable oil'
+  - 2 tablespoons vegetable oil
   - '1/2 pound ground pork, or beef, chicken or turkey'
   - '1 small yellow onion, thinly sliced'
   - '4 ounces white or cremini mushrooms, thinly sliced (about 1 cup)'
@@ -23,6 +23,8 @@ ingredients:
   - '3 scallions, sliced into 2-inch pieces, plus more for serving'
   - 'Crushed red pepper, to taste'
   - 'Sesame seeds, furikake or chile oil, for serving (optional)'
+role: main
+vibe: fuel
 ---
 
 ## Directions

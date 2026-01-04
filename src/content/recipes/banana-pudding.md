@@ -1,14 +1,17 @@
 ---
-title: 'Banana Pudding'
+title: Banana Pudding
 ingredients:
-  - '1 1/2 cups milk'
-  - '1 small box banana creme instant pudding'
-  - '1 small box vanilla instant pudding'
-  - '1 can sweeten condense milk'
+  - 1 1/2 cups milk
+  - 1 small box banana creme instant pudding
+  - 1 small box vanilla instant pudding
+  - 1 can sweeten condense milk
   - '1 large container cool whip, divided'
-  - '1 teaspoon vanilla flaring'
-  - '1 box vanilla wafers'
-  - '3 bananas'
+  - 1 teaspoon vanilla flaring
+  - 1 box vanilla wafers
+  - 3 bananas
+role: dessert
+vibe: fuel
+servings: Unknown
 ---
 
 ## Directions

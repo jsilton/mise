@@ -22,6 +22,8 @@ ingredients:
   - 1 large egg (lightly beaten)
   - 1 scallion (chopped)
 totalTime: 50 min
+role: base
+vibe: speed
 ---
 
 ## Directions

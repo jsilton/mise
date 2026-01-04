@@ -16,6 +16,8 @@ ingredients:
   - 2 tablespoons coarsely chopped fresh basil leaves
   - 'Grated Pecorino Romano or Parmesan cheese, for serving'
   - Shrimp
+role: main
+vibe: fuel
 ---
 
 ## Directions

@@ -14,6 +14,8 @@ ingredients:
   - orange wedge
   - 1 whole cloves
 totalTime: 25 min
+role: main
+vibe: speed
 ---
 
 ## Directions

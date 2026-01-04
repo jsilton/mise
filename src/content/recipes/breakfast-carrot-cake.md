@@ -18,6 +18,8 @@ ingredients:
   - ¼ tsp salt
   - ¼ cup mixed chopped nuts (optional)
 totalTime: 40 min
+role: dessert
+vibe: project
 ---
 
 ## Directions

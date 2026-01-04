@@ -12,6 +12,8 @@ ingredients:
   - 1 tablespoon brown sugar
   - 1/4 teaspoon cinnamon
 totalTime: 45 min
+role: main
+vibe: fuel
 ---
 
 ## Directions

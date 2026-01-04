@@ -17,6 +17,8 @@ ingredients:
   - 10 cups chopped fresh spinach
   - '4 tablespoons grated Parmesan cheese, divided'
 totalTime: 50 min
+role: main
+vibe: comfort
 ---
 
 ## Directions
@@ -25,3 +27,6 @@ totalTime: 50 min
 2. Meanwhile, heat oil in a large high-sided skillet over medium-high heat. Add chicken, salt and pepper; cook, stirring occasionally, until just cooked through, 5 to 7 minutes. Add garlic and cook, stirring, until fragrant, about 1 minute. Stir in wine, lemon juice and zest; bring to a simmer.
 3. Remove from heat. Stir in spinach and the cooked pasta. Cover and let stand until the spinach is just wilted. Divide among 4 plates and top each serving with 1 tablespoon Parmesan.
 4. PHOTOGRAPHER: JEN CAUSEY
+
+## Serving Suggestions
+Near East Rice Pilaf Hack, Everyday Arugula Salad

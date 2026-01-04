@@ -24,6 +24,9 @@ ingredients:
   - 'Tortilla Chips, crushed'
   - Greek Yogurt
 totalTime: 30 min
+role: side
+vibe: fuel
+servings: Unknown
 ---
 
 ## Directions

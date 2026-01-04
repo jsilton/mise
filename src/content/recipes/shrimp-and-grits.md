@@ -16,6 +16,8 @@ ingredients:
   - 1 cup thinly sliced scallions
   - '1 large clove garlic, minced'
 totalTime: 40 min
+role: main
+vibe: speed
 ---
 
 ## Directions
@@ -23,3 +25,6 @@ totalTime: 40 min
 1. Bring water to a boil. Add salt and pepper. Add grits and cook until water is absorbed, about 20 to 25 minutes. Remove from heat and stir in butter and cheese.
 2. Rinse shrimp and pat dry. Fry the bacon in a large skillet until browned; drain well. In grease, add shrimp. Cook until shrimp turn pink. Add lemon juice, chopped bacon, parsley, scallions and garlic. Saute for 3 minutes.
 3. Spoon grits into a serving bowl. Add shrimp mixture and mix well. Serve immediately.
+
+## Serving Suggestions
+Couscous or Crusty Bread, Everyday Arugula Salad

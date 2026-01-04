@@ -10,6 +10,8 @@ ingredients:
   - 1 small clove Garlic (grated into paste)
   - 1/2 tsp Salt
 totalTime: 10 min
+role: side
+vibe: speed
 ---
 
 Steamed broccoli usually tastes watery. This method fixes that by tossing the broccoli in a "Citronette" (Lemon-Garlic oil) while it is hot and dry, allowing the flavor to absorb into the floret like pasta.

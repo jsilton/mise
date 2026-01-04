@@ -19,6 +19,8 @@ ingredients:
   - 'Salt, as needed (use sparingly!)'
   - 'Jasmine or long-grain rice, cooked according to package directions'
 totalTime: 16 min
+role: main
+vibe: speed
 ---
 
 ## Directions

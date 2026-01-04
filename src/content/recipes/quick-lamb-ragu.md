@@ -15,6 +15,8 @@ ingredients:
   - '12 ounces cooked pasta, noodles or tubes, for serving'
   - 'A good hunk of Parmesan or pecorino, for serving'
   - 'A small handful of marjoram, oregano or thyme, for serving (optional)'
+role: main
+vibe: fuel
 ---
 
 ## Directions

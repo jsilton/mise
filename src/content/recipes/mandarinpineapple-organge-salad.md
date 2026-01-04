@@ -1,12 +1,15 @@
 ---
-title: 'Mandarin/Pineapple Organge Salad'
+title: Mandarin/Pineapple Organge Salad
 ingredients:
-  - '1 small box orange Jello'
-  - '1 small can crushed pineapple with rice'
-  - '1 small can mandarin oranges drained'
-  - '1/2 cup sugar'
-  - '1 cup water'
-  - '3/4 cup sour cream'
+  - 1 small box orange Jello
+  - 1 small can crushed pineapple with rice
+  - 1 small can mandarin oranges drained
+  - 1/2 cup sugar
+  - 1 cup water
+  - 3/4 cup sour cream
+role: side
+vibe: fuel
+servings: Unknown
 ---
 
 ## Directions

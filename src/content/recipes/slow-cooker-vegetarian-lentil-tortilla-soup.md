@@ -32,6 +32,8 @@ ingredients:
   - fresh cilantro
   - sour cream or greek yogurt
 totalTime: 25 min
+role: main
+vibe: comfort
 ---
 
 ## Directions
@@ -60,3 +62,6 @@ totalTime: 25 min
 - DIETARY FIBER: 17G 68%
 - SUGARS: 9G
 - PROTEIN: 15G 30%
+
+## Serving Suggestions
+Grilled Cheese, Crusty Bread

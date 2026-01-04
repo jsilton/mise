@@ -16,6 +16,8 @@ ingredients:
   - '1/3 cup fresh thai basil, chopped'
   - '1.5 cups Jasmine rice, cooked in a rice cooker'
 totalTime: 35 min
+role: main
+vibe: fuel
 ---
 
 ## Directions
@@ -24,3 +26,6 @@ totalTime: 35 min
 2. Bring butter to a medium heat in a wok. Add sauce bring to an active simmer for 3 minutes.
 3. Add the chicken, peppers and onions, and return to an active simmer for 15 minutes.
 4. Add the basil and serve over jasmine rice.
+
+## Serving Suggestions
+Near East Rice Pilaf Hack, Everyday Arugula Salad

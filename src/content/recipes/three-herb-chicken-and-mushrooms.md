@@ -16,6 +16,8 @@ ingredients:
   - 2 tablespoons Dijon-style mustard
   - 1 tablespoon snipped flat-leaf Italian parsley
 totalTime: 35 min
+role: main
+vibe: fuel
 ---
 
 ## Directions
@@ -31,3 +33,6 @@ totalTime: 35 min
 - 7: 22 mg sodium
 - 1 g fiber
 - 2 g sugar
+
+## Serving Suggestions
+Near East Rice Pilaf Hack, Everyday Arugula Salad

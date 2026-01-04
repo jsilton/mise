@@ -15,6 +15,8 @@ ingredients:
   - '1/2 teaspoon chopped fresh or dry chives, for garnish'
   - 3 tablespoons unsalted butter
 totalTime: 21 min
+role: side
+vibe: speed
 ---
 
 ## Directions

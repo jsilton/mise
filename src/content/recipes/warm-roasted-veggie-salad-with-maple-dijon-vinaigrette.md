@@ -26,6 +26,8 @@ ingredients:
   - ½ Cup Dried Cranberries
   - ½ Cup Parmesan Cheese freshly grated
 totalTime: 35 min
+role: base
+vibe: fuel
 ---
 
 ## Directions

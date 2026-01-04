@@ -17,6 +17,8 @@ ingredients:
   - Generous pinch of ground nutmeg
   - '1 large egg, lightly beaten'
 totalTime: 210 min
+role: dessert
+vibe: project
 ---
 
 ## Directions

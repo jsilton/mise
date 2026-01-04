@@ -44,6 +44,8 @@ ingredients:
   - OTHER
   - 4 cups kale
 totalTime: 45 min
+role: main
+vibe: fuel
 ---
 
 ## Directions
@@ -55,3 +57,6 @@ totalTime: 45 min
 5. Add the olive oil (2 tbsp) to a large pan over medium-high heat. Add half of the meatballs and cook for 3-4 minutes on each side, until golden brown and until the internal temperature reaches 165 F. Repeat with the remaining chicken.
 6. While the chicken meatballs cook, make the dressing. Add all the ingredients (greek yogurt, fresh basil, fresh dill, juice of a lemon, olive oil, honey, jalapeño, garlic, salt, and pepper) to a food processor or blender. Blend until smooth.
 7. To assemble, divide the kale, sweet potatoes, roasted chickpeas, and chicken meatballs between bowls. Top with plenty of yogurt jalapeño dressing and enjoy!
+
+## Serving Suggestions
+Near East Rice Pilaf Hack, Everyday Arugula Salad

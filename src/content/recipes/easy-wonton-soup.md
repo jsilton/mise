@@ -14,6 +14,8 @@ ingredients:
   - 1 teaspoon sesame oil
   - 'scallions, sliced green parts only for garnish'
 totalTime: 30 min
+role: main
+vibe: project
 ---
 
 ## Directions
@@ -35,3 +37,6 @@ totalTime: 30 min
 - Sodium: 1218mg
 - Fiber: 2.5g
 - Sugar: 5g
+
+## Serving Suggestions
+Grilled Cheese, Crusty Bread

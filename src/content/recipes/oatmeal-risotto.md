@@ -1,15 +1,19 @@
 ---
-title: 'Oatmeal Risotto'
+title: Oatmeal Risotto
 servings: '4'
 ingredients:
-  - '1 cup steel-cut oats'
-  - '3 cups water, pressure-cooker chicken stock, or store-bought low sodium broth'
-  - '1/4 cup golden raisins'
-  - '2 tablespoons sherry vinegar'
+  - 1 cup steel-cut oats
+  - >-
+    3 cups water, pressure-cooker chicken stock, or store-bought low sodium
+    broth
+  - 1/4 cup golden raisins
+  - 2 tablespoons sherry vinegar
   - '1 tablespoon packed light brown sugar, plus extra for serving (optional)'
-  - 'Pinch of kosher salt'
+  - Pinch of kosher salt
   - '1 overripe banana, mashed'
-  - 'A Parmesan cheese wedge for shaving (optional)'
+  - A Parmesan cheese wedge for shaving (optional)
+role: main
+vibe: project
 ---
 
 My wife loves oatmeal for breakfast, and one day, when I looked inside a can of the good steel-cut oats she keeps in our pantry, I realized that the oats resemble rice-and my risotto-style oatmeal was born. Oatmeal is a dried food, and, like anything that’s dried, it needs to hydrate thoroughly for optimal flavor, so letting the oatmeal stand overnight is worth it. The mashed super ripe banana blends beautifully with the homey, earthy oats. I like aggressive savings of Parmesan cheese, too.

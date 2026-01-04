@@ -11,6 +11,8 @@ ingredients:
   - 'Accompaniment: lightly sweetened whipped cream'
   - 'Special equipment: a 5 1/2- to 6-cup glass or ceramic soufflé dish'
 totalTime: 65 min
+role: main
+vibe: comfort
 ---
 
 ## Directions

@@ -14,6 +14,8 @@ ingredients:
   - 1 tablespoon honey
   - salt and pepper to taste
 totalTime: 40 min
+role: base
+vibe: fuel
 ---
 
 ## Directions

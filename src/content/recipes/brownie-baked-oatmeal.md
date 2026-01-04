@@ -1,15 +1,17 @@
 ---
-title: 'Brownie Baked Oatmeal'
+title: Brownie Baked Oatmeal
 servings: '1'
 ingredients:
-  - '1/3 cup oats'
+  - 1/3 cup oats
   - '1/2 banana (the spottier, the better!)'
-  - '1 egg'
+  - 1 egg
   - '1/4 cup milk of choice (I like using almond, oat, and cashew milk)'
-  - '1 heaping tablespoon cocoa powder'
-  - 'Pinch salt'
-  - '1/4 tsp baking soda'
-  - 'chocolate chips'
+  - 1 heaping tablespoon cocoa powder
+  - Pinch salt
+  - 1/4 tsp baking soda
+  - chocolate chips
+role: dessert
+vibe: fuel
 ---
 
 ## Directions

@@ -17,6 +17,8 @@ ingredients:
   - 2 teaspoons fresh thyme leaves
   - '2 ounces goat cheese, crumbled (about 1/2 cup)'
 totalTime: 100 min
+role: side
+vibe: fuel
 ---
 
 ## Directions

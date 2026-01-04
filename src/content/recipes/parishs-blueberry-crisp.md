@@ -1,24 +1,26 @@
 ---
-title: 'Parish’s Blueberry Crisp'
+title: Parish’s Blueberry Crisp
 servings: '9'
 ingredients:
-  - '4 cups blueberries'
-  - '1/4 cup plus 2 tablespoons water'
-  - '1 tablespoon fresh lemon juice'
-  - '1/2 cup granulated sugar'
-  - '2 teaspoons cornstarch'
-  - '6 tablespoons unsalted butter'
-  - '1 3/4 cups all-purpose flour'
-  - '1 cup lightly packed light brown sugar'
-  - '1/2 cup granulated sugar'
-  - '1 1/4 teaspoons salt'
-  - '2 cups half-and-half'
+  - 4 cups blueberries
+  - 1/4 cup plus 2 tablespoons water
+  - 1 tablespoon fresh lemon juice
+  - 1/2 cup granulated sugar
+  - 2 teaspoons cornstarch
+  - 6 tablespoons unsalted butter
+  - 1 3/4 cups all-purpose flour
+  - 1 cup lightly packed light brown sugar
+  - 1/2 cup granulated sugar
+  - 1 1/4 teaspoons salt
+  - 2 cups half-and-half
   - '1/2 small vanilla bean, split in half'
-  - '1 1/3 cups granulated sugar'
-  - '1/2 teaspoon salt'
-  - '2 eggs'
-  - '2 1/2 cups heavy cream'
-  - '1 tablespoon vanilla extract'
+  - 1 1/3 cups granulated sugar
+  - 1/2 teaspoon salt
+  - 2 eggs
+  - 2 1/2 cups heavy cream
+  - 1 tablespoon vanilla extract
+role: main
+vibe: fuel
 ---
 
 ## Directions

@@ -21,6 +21,8 @@ ingredients:
   - salt and white pepper (to taste)
   - 4 to 6 ounces fresh mung bean sprouts
 totalTime: 125 min
+role: main
+vibe: comfort
 ---
 
 ## Directions

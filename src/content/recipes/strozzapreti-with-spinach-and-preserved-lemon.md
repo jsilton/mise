@@ -15,6 +15,8 @@ ingredients:
   - 1 Tbsp. (or more) fresh lemon juice
   - 1 Tbsp. (or more) thinly sliced preserved lemon peel
   - 2 Tbsp. olive oil
+role: main
+vibe: fuel
 ---
 
 ## Directions

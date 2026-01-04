@@ -17,6 +17,8 @@ ingredients:
   - 1/4 cup seasoned bread crumbs
   - cooking spray
 totalTime: 35 min
+role: side
+vibe: fuel
 ---
 
 ## Directions

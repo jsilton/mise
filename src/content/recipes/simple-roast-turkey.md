@@ -16,6 +16,8 @@ ingredients:
   - 3 bay leaves
   - 'Olive oil or melted butter, as needed'
 totalTime: 120 min
+role: main
+vibe: holiday
 ---
 
 ## Directions

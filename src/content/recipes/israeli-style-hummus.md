@@ -10,6 +10,8 @@ ingredients:
   - 2/3 cup tahini
   - 1/4 teaspoon (or more) ground cumin
   - Olive oil (for serving)
+role: main
+vibe: fuel
 ---
 
 ## Directions

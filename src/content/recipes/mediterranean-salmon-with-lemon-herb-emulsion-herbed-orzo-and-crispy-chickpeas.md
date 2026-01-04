@@ -1,35 +1,40 @@
 ---
-title: 'Mediterranean Salmon with Lemon-Herb Emulsion, Herbed Orzo, and Crispy Chickpeas'
+title: >-
+  Mediterranean Salmon with Lemon-Herb Emulsion, Herbed Orzo, and Crispy
+  Chickpeas
 ingredients:
-  - 'Ingredients (Serves 4)'
-  - 'Salmon'
-  - '• 4 skin-on salmon fillets (6-8 oz each)'
-  - '• Zest of 1 lemon'
-  - '• ½ teaspoon smoked paprika'
-  - '• ½ teaspoon kosher salt'
-  - '• 2 tablespoons olive oil'
-  - 'Lemon-Herb Emulsion'
-  - '• 3 tablespoons extra virgin olive oil'
-  - '• Juice of 1 large lemon'
+  - Ingredients (Serves 4)
+  - Salmon
+  - • 4 skin-on salmon fillets (6-8 oz each)
+  - • Zest of 1 lemon
+  - • ½ teaspoon smoked paprika
+  - • ½ teaspoon kosher salt
+  - • 2 tablespoons olive oil
+  - Lemon-Herb Emulsion
+  - • 3 tablespoons extra virgin olive oil
+  - • Juice of 1 large lemon
   - '• 1 clove garlic, grated'
-  - '• 1 teaspoon honey'
+  - • 1 teaspoon honey
   - '• 1 teaspoon fresh oregano leaves, finely chopped'
-  - '• Salt and freshly cracked black pepper to taste'
-  - 'Herbed Orzo with Crispy Chickpeas'
-  - '• 1 cup cooked orzo'
+  - • Salt and freshly cracked black pepper to taste
+  - Herbed Orzo with Crispy Chickpeas
+  - • 1 cup cooked orzo
   - '• 1 cup canned chickpeas, drained, rinsed, and patted dry'
-  - '• 1 tablespoon olive oil (for chickpeas)'
-  - '• ½ teaspoon smoked paprika'
-  - '• ¼ teaspoon garlic powder'
-  - '• ¼ teaspoon salt'
-  - '• 1 tablespoon olive oil (for orzo)'
+  - • 1 tablespoon olive oil (for chickpeas)
+  - • ½ teaspoon smoked paprika
+  - • ¼ teaspoon garlic powder
+  - • ¼ teaspoon salt
+  - • 1 tablespoon olive oil (for orzo)
   - '• 8 oz cherry tomatoes, halved'
-  - '• 4 oz crumbled feta cheese'
+  - • 4 oz crumbled feta cheese
   - '• 2 tablespoons fresh parsley, chopped'
   - '• 2 tablespoons fresh mint, chopped'
-  - '• ½ teaspoon red chili flakes'
-  - '• Juice of ½ lemon'
-  - '• 4-5 thinly sliced radishes for garnish'
+  - • ½ teaspoon red chili flakes
+  - • Juice of ½ lemon
+  - • 4-5 thinly sliced radishes for garnish
+role: main
+vibe: speed
+servings: Unknown
 ---
 
 ## Directions
@@ -50,3 +55,6 @@ ingredients:
 ## Notes
 
 Assisted by ChatGPT
+
+## Serving Suggestions
+Jasmine Rice, Smashed Cucumber Salad

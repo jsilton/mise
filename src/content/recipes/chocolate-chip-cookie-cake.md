@@ -15,6 +15,8 @@ ingredients:
   - 2 cups semi-sweet chocolate discs (may substitute chocolate chips)
   - '1 1/4 cups M & Ms, divided'
 totalTime: 45 min
+role: dessert
+vibe: project
 ---
 
 ## Directions

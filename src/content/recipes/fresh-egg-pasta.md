@@ -11,6 +11,8 @@ ingredients:
   - 3 egg yolks
   - '1 tablespoon extra-virgin olive oil, more as needed'
 totalTime: 30 min
+role: main
+vibe: speed
 ---
 
 ## Directions
@@ -21,3 +23,6 @@ totalTime: 30 min
 4. Reduce the setting, and repeat rolling and folding the dough, passing it through the machine 2 or 3 times before going to the next setting. For pappardelle and fettuccine, stop rolling when the dough is about 1 or 2 settings wider than the thinnest one on your roller. For lasagna noodles, and for ravioli and other stuffed or filled pasta, go to the thinnest setting. (To roll dough by hand, see note below.)
 5. Shape the pasta. For pappardelle, cut rolled pasta into 1-inch-wide strips. For fettuccine, run the rolled sheets through the fettuccine setting on your roller. Place cut pasta on a flour-dusted sheet tray and cover with a dish towel while rolling and cutting the remaining dough. Make sure to sprinkle flour over the cut pasta before you place another layer on top. If not using immediately, cover the sheet pan with a dish towel to keep the dough supple.
 6. Bring a large pot of well-salted water to a boil, add fresh pasta and boil for 1 to 3 minutes, depending on thickness of the pasta. Drain well.
+
+## Serving Suggestions
+Everyday Arugula Salad, Garlic Bread

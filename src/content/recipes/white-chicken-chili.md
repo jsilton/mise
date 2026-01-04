@@ -16,6 +16,8 @@ ingredients:
   - chopped green onion (optional)
   - monterey jack cheese (optional)
 totalTime: 605 min
+role: main
+vibe: comfort
 ---
 
 ## Directions
@@ -37,3 +39,6 @@ totalTime: 605 min
 - Dietary Fiber: 8.2 g 32%
 - Sugars: 3.5 g 13%
 - Protein: 25.4 g 50%
+
+## Serving Suggestions
+Near East Rice Pilaf Hack, Everyday Arugula Salad

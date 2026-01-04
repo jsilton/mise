@@ -19,6 +19,8 @@ ingredients:
   - 1/4 cup Shaoxing cooking wine
   - 1/4 cup oyster sauce
   - 2 tablespoons granulated sugar
+role: main
+vibe: fuel
 ---
 
 ## Directions

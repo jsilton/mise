@@ -1,23 +1,25 @@
 ---
-title: 'Roasted Butternut Squash Mac and Cheese'
-servings: 'Serves 6-8'
+title: Roasted Butternut Squash Mac and Cheese
+servings: Serves 6-8
 ingredients:
-  - '1 lb pasta (we used cellentani)'
+  - 1 lb pasta (we used cellentani)
   - '6 tbsp unsalted butter, divided'
-  - '1/4 cup all purpose flour'
-  - '3 1/2 cups whole milk'
-  - 'pinch of nutmeg'
-  - 'pinch of cayenne'
-  - '2 tsp dijon mustard'
+  - 1/4 cup all purpose flour
+  - 3 1/2 cups whole milk
+  - pinch of nutmeg
+  - pinch of cayenne
+  - 2 tsp dijon mustard
   - 'Salt, to taste'
-  - '6 cups grated cheese (we used a mix of sharp white and orange cheddar here)'
-  - '1/4 cup grated parmesan cheese'
-  - '1/4 cup panko breadcrumbs'
-  - '1/4 cup plain breadcrumbs'
-  - '3 cups roasted butternut squash (recipe below)'
-  - '3 cups butternut squash cubes (about 1 inch in size)'
-  - '2 tbsp olive oil'
-  - 'Salt and freshly ground black pepper'
+  - 6 cups grated cheese (we used a mix of sharp white and orange cheddar here)
+  - 1/4 cup grated parmesan cheese
+  - 1/4 cup panko breadcrumbs
+  - 1/4 cup plain breadcrumbs
+  - 3 cups roasted butternut squash (recipe below)
+  - 3 cups butternut squash cubes (about 1 inch in size)
+  - 2 tbsp olive oil
+  - Salt and freshly ground black pepper
+role: main
+vibe: comfort
 ---
 
 ## Directions

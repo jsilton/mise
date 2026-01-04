@@ -13,6 +13,8 @@ ingredients:
   - 1 tablespoon sambal oelek or Chinese chile-garlic sauce
   - '2 racks pork spareribs or baby back ribs (4 pounds), halved lengthwise'
 totalTime: 105 min
+role: main
+vibe: comfort
 ---
 
 ## Directions

@@ -16,6 +16,8 @@ ingredients:
   - 1 teaspoon olive oil
   - Salt & pepper to taste
 totalTime: 20 min
+role: side
+vibe: speed
 ---
 
 ## Directions

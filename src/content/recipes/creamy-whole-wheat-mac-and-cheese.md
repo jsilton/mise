@@ -14,6 +14,8 @@ ingredients:
   - 1/4 teaspoon salt
   - pepper to taste (this dish is great with pepper on top)
 totalTime: 15 min
+role: main
+vibe: comfort
 ---
 
 ## Directions

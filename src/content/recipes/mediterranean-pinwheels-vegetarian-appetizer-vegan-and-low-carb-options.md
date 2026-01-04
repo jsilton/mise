@@ -17,6 +17,8 @@ ingredients:
   - ⅓ cup feta cheese crumbles
   - 1 cup fresh basil leaves
 totalTime: 24 min
+role: main
+vibe: speed
 ---
 
 ## Directions

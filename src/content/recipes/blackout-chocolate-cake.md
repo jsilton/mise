@@ -25,6 +25,8 @@ ingredients:
   - 1/4 cup heavy cream
   - 3-4 cups of chocolate chips
 totalTime: 75 min
+role: dessert
+vibe: project
 ---
 
 ## Directions

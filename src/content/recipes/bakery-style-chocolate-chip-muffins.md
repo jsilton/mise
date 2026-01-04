@@ -15,6 +15,8 @@ ingredients:
   - 1 tbsp (15ml) vanilla extract
   - 1 & ½ cups (275g) semi-sweet chocolate chips
 totalTime: 30 min
+role: main
+vibe: speed
 ---
 
 ## Directions

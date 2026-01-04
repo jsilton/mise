@@ -17,6 +17,9 @@ ingredients:
   - Shrimp
   - Spinach
 totalTime: 35 min
+role: base
+vibe: fuel
+servings: Unknown
 ---
 
 ## Directions

@@ -19,6 +19,8 @@ ingredients:
   - Fresh black pepper
   - '1 1/2 cups rice, cooked'
 totalTime: 35 min
+role: main
+vibe: speed
 ---
 
 ## Directions
@@ -29,3 +31,6 @@ totalTime: 35 min
 4. 4. Cook the salmon in the oven or toaster oven at 400 degrees without turning for 8-10 minutes, depending on thickness and the distance from broiler. Then, change the setting to broil and cook for 1-2 minutes, so there miso is caramelized on the top.
 5. 5. While the salmon is cooking, heat a large skillet or wok over high heat. Cook the green onion and garlic in seasame oil for 1 minute, then saute the bok choy, seasoned with salt and pepper, for 6-8 minutes until almost cooked through. Reduce the heat to low and add the oyster sauce, micing evenly for 1 minute.
 6. 6. Serve the salmon over a bed of rice and bok choy. Enjoy!
+
+## Serving Suggestions
+Jasmine Rice, Smashed Cucumber Salad

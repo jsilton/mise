@@ -11,6 +11,8 @@ ingredients:
   - 1/2 teaspoon ground cumin
   - 'Kosher salt, as needed'
 totalTime: 45 min
+role: base
+vibe: fuel
 ---
 
 ## Directions

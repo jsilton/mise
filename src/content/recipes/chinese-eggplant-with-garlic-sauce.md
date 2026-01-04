@@ -38,6 +38,8 @@ ingredients:
   - 4 cloves garlic (finely minced)
   - 1 tablespoon Shaoxing wine or dry cooking sherry
 totalTime: 55 min
+role: base
+vibe: fuel
 ---
 
 ## Directions

@@ -1,13 +1,16 @@
 ---
-title: 'Vieux Carré'
+title: Vieux Carré
 ingredients:
-  - '3/4 ounce rye whiskey'
-  - '3/4 ounce cognac'
-  - '3/4 ounce sweet vermouth'
-  - '1/2 tsp (1 barspoon) Benedictine Liqueur'
-  - '1-2 dashes Angostura bitters'
-  - "1-2 dashes Peychaud's bitters"
+  - 3/4 ounce rye whiskey
+  - 3/4 ounce cognac
+  - 3/4 ounce sweet vermouth
+  - 1/2 tsp (1 barspoon) Benedictine Liqueur
+  - 1-2 dashes Angostura bitters
+  - 1-2 dashes Peychaud's bitters
   - '1 lemon twist, for garnish'
+role: main
+vibe: fuel
+servings: Unknown
 ---
 
 ## Directions

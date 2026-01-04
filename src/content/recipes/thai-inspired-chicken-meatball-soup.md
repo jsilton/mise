@@ -19,6 +19,8 @@ ingredients:
   - 5 ounces baby spinach
   - '1 tablespoon lime juice, plus lime wedges for serving'
   - 'Steamed white or brown rice, for serving'
+role: main
+vibe: comfort
 ---
 
 ## Directions
@@ -39,3 +41,6 @@ ingredients:
 - Sugar: 2 gram
 - Fiber: 1 gramCarbohydrate: 11 gram
 - Protein: 31 grams
+
+## Serving Suggestions
+Near East Rice Pilaf Hack, Everyday Arugula Salad

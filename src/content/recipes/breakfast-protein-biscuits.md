@@ -16,6 +16,9 @@ ingredients:
   - '1.5 cups cheddar cheese shredded, divided'
   - 2 cups cooked ham diced
 totalTime: 55 min
+role: main
+vibe: fuel
+servings: Unknown
 ---
 
 ## Directions

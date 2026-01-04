@@ -15,6 +15,8 @@ ingredients:
   - Pinch nutmeg
   - Assorted dippers
 totalTime: 25 min
+role: main
+vibe: speed
 ---
 
 ## Directions

@@ -14,6 +14,8 @@ ingredients:
   - '8 slices challah, brioche, or white bread'
   - '1/2 cup maple syrup, warmed'
 totalTime: 30 min
+role: main
+vibe: speed
 ---
 
 ## Directions

@@ -1,24 +1,26 @@
 ---
-title: 'Gefilte Fish Terrine'
-servings: 'Serves 8-10'
+title: Gefilte Fish Terrine
+servings: Serves 8-10
 ingredients:
-  - '3 tbsp. olive oil'
+  - 3 tbsp. olive oil
   - '1 medium white onion, minced'
   - '12 oz. boneless, skinless carp or pike fillet, roughly chopped'
   - '12 oz. boneless, skinless salmon fillet, roughly chopped'
-  - '1 cup heavy cream'
-  - '2 tbsp. matzo meal'
+  - 1 cup heavy cream
+  - 2 tbsp. matzo meal
   - '1 tbsp. minced dill, plus sprigs for garnish'
   - '2 tsp. kosher salt, plus more to taste'
   - '1 tsp. freshly ground pepper, plus more to taste'
   - '2 eggs, beaten'
   - '1 carrot, coarsely shredded'
   - 'Zest of 2 lemons, plus 3 tbsp. juice, and wedges for serving'
-  - '2 cups baby arugula'
+  - 2 cups baby arugula
   - '4 red radishes, thinly sliced'
   - '1 (1") piece horseradish, peeled and finely shredded'
   - '1 shallot, thinly sliced'
   - 'Matzos, for serving'
+role: main
+vibe: fuel
 ---
 
 ## Directions

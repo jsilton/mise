@@ -1,21 +1,24 @@
 ---
-title: "Mom's Famous Chocolate Cake"
+title: Mom's Famous Chocolate Cake
 ingredients:
-  - '2 sticks margarine'
-  - '4 tbsp cocoa'
-  - '1 cup water'
-  - '2 cups sugar'
-  - '1/4 tsp salt'
-  - '1/2 cup buttermilk'
-  - '1 tsp baking soda'
-  - '2 eggs'
-  - '2 cups flour'
-  - '1 tsp vanilla'
-  - 'Frosting'
-  - '1 stick margarine'
-  - '1 box confectioners sugar'
-  - '4 tbsp cocao'
-  - '6 tbsp milk'
+  - 2 sticks margarine
+  - 4 tbsp cocoa
+  - 1 cup water
+  - 2 cups sugar
+  - 1/4 tsp salt
+  - 1/2 cup buttermilk
+  - 1 tsp baking soda
+  - 2 eggs
+  - 2 cups flour
+  - 1 tsp vanilla
+  - Frosting
+  - 1 stick margarine
+  - 1 box confectioners sugar
+  - 4 tbsp cocao
+  - 6 tbsp milk
+role: dessert
+vibe: project
+servings: Unknown
 ---
 
 ## Directions

@@ -15,6 +15,8 @@ ingredients:
   - '12 to 16 ounces ramen, cooked and drained'
   - 'Soft boiled eggs, sesame seeds and toasted nori sheets, for topping'
 totalTime: 380 min
+role: main
+vibe: comfort
 ---
 
 ## Directions
@@ -34,3 +36,6 @@ totalTime: 380 min
 - Sugar: 5 gram
 - Fiber: 5 gramsCarbohydrate: 60 gram
 - Protein: 70 grams
+
+## Serving Suggestions
+Near East Rice Pilaf Hack, Everyday Arugula Salad

@@ -14,6 +14,8 @@ ingredients:
   - ¼ cup coarsely chopped roasted chestnuts from a jar
   - ¼ cup crème fraîche
   - 1 tablespoon pure maple syrup
+role: main
+vibe: comfort
 ---
 
 ## Directions
@@ -28,3 +30,6 @@ ingredients:
 ## Nutrition
 
 - Calories (kcal): 218 Fat (g) 15 Saturated Fat (g) 9.5 Cholesterol (mg) 44 Carbohydrates (g) 18 Dietary Fiber (g) 5 Total Sugars (g) 6 Protein (g) 2 Sodium (mg) 135...Read More
+
+## Serving Suggestions
+Grilled Cheese, Crusty Bread

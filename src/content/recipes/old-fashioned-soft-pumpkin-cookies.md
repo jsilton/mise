@@ -17,6 +17,8 @@ ingredients:
   - 1 teaspoon vanilla extract
   - Glaze (recipe follows)
 totalTime: 28 min
+role: dessert
+vibe: speed
 ---
 
 ## Directions

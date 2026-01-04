@@ -8,6 +8,9 @@ ingredients:
   - 1 strip orange or lemon zest
   - salt and pepper to taste
 totalTime: 37 min
+role: base
+vibe: holiday
+servings: Unknown
 ---
 
 ## Directions

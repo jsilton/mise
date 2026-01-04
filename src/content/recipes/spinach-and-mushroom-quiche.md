@@ -20,6 +20,8 @@ ingredients:
   - ¼ teaspoon ground pepper
   - 1 ½ cups shredded Gruyère cheese
 totalTime: 90 min
+role: main
+vibe: comfort
 ---
 
 ## Directions

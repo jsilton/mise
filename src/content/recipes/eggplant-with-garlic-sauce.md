@@ -16,6 +16,8 @@ ingredients:
   - 1 tablespoon shaoxing wine or dry sherry
   - 1 teaspoon sesame oil
 totalTime: 10 min
+role: base
+vibe: speed
 ---
 
 ## Directions

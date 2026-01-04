@@ -22,6 +22,8 @@ ingredients:
   - 'Scallions, julienned'
   - 'Cucumber, peeled and seeds removed, cut into sticks'
 totalTime: 195 min
+role: main
+vibe: comfort
 ---
 
 ## Directions

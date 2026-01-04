@@ -19,6 +19,8 @@ ingredients:
   - '1 cup / 150g / 5oz chicken thighs (boneless, skinless), sliced (Note 4)'
   - 1 large egg
   - 4 stems Chinese broccoli (Note 5)
+role: main
+vibe: fuel
 ---
 
 ## Directions

@@ -21,6 +21,8 @@ ingredients:
   - 2 tablespoons freshly chopped cilantro
   - 6 cups baby spinach (one bag of spinach)
 totalTime: 50 min
+role: side
+vibe: fuel
 ---
 
 ## Directions

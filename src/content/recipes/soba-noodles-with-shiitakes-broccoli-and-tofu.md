@@ -23,6 +23,8 @@ ingredients:
     caps sliced
   - '1 bunch scallions, thinly sliced, dark green parts separated'
   - 1/2 cup coarsely chopped cilantro
+role: side
+vibe: speed
 ---
 
 ## Directions

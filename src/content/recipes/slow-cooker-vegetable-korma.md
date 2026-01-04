@@ -1,18 +1,21 @@
 ---
-title: 'Slow Cooker Vegetable Korma'
+title: Slow Cooker Vegetable Korma
 ingredients:
   - '1 large cauliflower, broken into florets (can sub for potatoes/root veggies)'
   - '2 large carrots, chopped'
-  - '1/2 cup frozen green peas (sub for extra green beans if completely paleo)'
+  - 1/2 cup frozen green peas (sub for extra green beans if completely paleo)
   - '1 cup green beans,chopped'
   - '1/2 large onion, chopped'
   - '2 cloves garlic, minced'
-  - '3/4 can coconut milk'
-  - '2 T curry powder'
-  - '1 T sea salt'
-  - '1 tsp garam marsala'
-  - '1 T red pepper flakes (optional)'
-  - '2 T almond meal (can sub for a coconut flour blend to thicken)'
+  - 3/4 can coconut milk
+  - 2 T curry powder
+  - 1 T sea salt
+  - 1 tsp garam marsala
+  - 1 T red pepper flakes (optional)
+  - 2 T almond meal (can sub for a coconut flour blend to thicken)
+role: side
+vibe: fuel
+servings: Unknown
 ---
 
 ## Directions

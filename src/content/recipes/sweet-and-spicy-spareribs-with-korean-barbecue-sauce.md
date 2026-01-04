@@ -11,6 +11,8 @@ ingredients:
     tablespoons ground white pepper 3 racks pork spareribs (about 8 pounds),
     membranes removed Kosher salt
 totalTime: 180 min
+role: base
+vibe: comfort
 ---
 
 ## Directions

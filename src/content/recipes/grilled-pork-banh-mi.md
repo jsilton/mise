@@ -18,6 +18,8 @@ ingredients:
   - '1/2 seedless cucumber, cut into 2-by-1/2-inch matchsticks'
   - 1 1/2 loosely packed cups cilantro sprigs
 totalTime: 180 min
+role: main
+vibe: fuel
 ---
 
 ## Directions

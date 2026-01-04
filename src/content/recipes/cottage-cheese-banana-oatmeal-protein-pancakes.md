@@ -13,6 +13,8 @@ ingredients:
   - 1/4 cup low fat cottage cheese
   - 'Optional add-ins/toppings: Fresh berries, chocolate chips, peanut butter'
 totalTime: 15 min
+role: dessert
+vibe: project
 ---
 
 ## Directions

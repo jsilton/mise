@@ -23,6 +23,8 @@ ingredients:
   - Cilantro lime rice
   - Cilantro lime dressing
 totalTime: 55 min
+role: main
+vibe: fuel
 ---
 
 ## Directions
@@ -43,3 +45,6 @@ totalTime: 55 min
 - sodium: 462mg
 - fiber: 1g
 - sugar: 6g
+
+## Serving Suggestions
+Near East Rice Pilaf Hack, Everyday Arugula Salad

@@ -23,6 +23,8 @@ ingredients:
   - Chopped Chives (or parsley)
   - Sour Cream
 totalTime: 27 min
+role: main
+vibe: comfort
 ---
 
 ## Directions
@@ -49,3 +51,6 @@ Adapted from my Grandpa's recipe.
 ## Nutrition
 
 - Calories: 244 kcal
+
+## Serving Suggestions
+Grilled Cheese, Crusty Bread

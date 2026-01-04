@@ -19,6 +19,8 @@ ingredients:
   - 1/3 cup Parmesan cheese (grated)
   - Salt and pepper
 totalTime: 40 min
+role: base
+vibe: speed
 ---
 
 ## Directions

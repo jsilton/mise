@@ -22,6 +22,8 @@ ingredients:
   - 1 cup diced cucumber
   - 4 whole wheat flatbreads
 totalTime: 26 min
+role: main
+vibe: holiday
 ---
 
 ## Directions

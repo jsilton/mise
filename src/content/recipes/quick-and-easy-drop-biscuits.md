@@ -12,6 +12,8 @@ ingredients:
   - 1 teaspoon kosher salt
   - 3/4 cup whole milk
 totalTime: 45 min
+role: main
+vibe: fuel
 ---
 
 ## Directions

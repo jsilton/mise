@@ -10,6 +10,8 @@ ingredients:
   - '4 ounces cream cheese, softened'
   - 3/4 teaspoon coarsely ground pepper
 totalTime: 43 min
+role: side
+vibe: fuel
 ---
 
 ## Directions

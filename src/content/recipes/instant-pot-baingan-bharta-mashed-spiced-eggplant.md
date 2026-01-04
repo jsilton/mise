@@ -1,24 +1,26 @@
 ---
-title: 'Instant Pot Baingan Bharta (Mashed Spiced Eggplant)'
+title: Instant Pot Baingan Bharta (Mashed Spiced Eggplant)
 servings: 'Yield: 3-4'
 ingredients:
-  - '2 large eggplants'
-  - '4 tablespoons oil of choice'
-  - '1 teaspoon cumin seeds'
+  - 2 large eggplants
+  - 4 tablespoons oil of choice
+  - 1 teaspoon cumin seeds
   - '1 onion, diced'
-  - '5 teaspoons minced garlic'
-  - '1 teaspoon minced ginger'
-  - 'Spices'
-  - '2 teaspoons coriander powder'
-  - '2 teaspoons salt'
-  - '1 teaspoon garam masala'
-  - '½ teaspoon black pepper'
+  - 5 teaspoons minced garlic
+  - 1 teaspoon minced ginger
+  - Spices
+  - 2 teaspoons coriander powder
+  - 2 teaspoons salt
+  - 1 teaspoon garam masala
+  - ½ teaspoon black pepper
   - '½ teaspoon cayenne, adjust to taste'
-  - '½ teaspoon paprika'
-  - '½ teaspoon turmeric'
+  - ½ teaspoon paprika
+  - ½ teaspoon turmeric
   - '2 tomatoes, diced'
-  - '¼ cup water'
+  - ¼ cup water
   - 'Cilantro, garnish'
+role: main
+vibe: fuel
 ---
 
 ## Directions

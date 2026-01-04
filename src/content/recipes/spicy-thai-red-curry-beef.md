@@ -17,6 +17,8 @@ ingredients:
   - 2 cups hot cooked brown basmati rice
   - 4 lime wedges
 totalTime: 20 min
+role: main
+vibe: speed
 ---
 
 ## Directions
@@ -34,3 +36,6 @@ totalTime: 20 min
 - fat: 6.5g
 - Sodium: 645mg
 - fat: 2.6g
+
+## Serving Suggestions
+Basmati Rice, Naan

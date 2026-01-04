@@ -9,6 +9,8 @@ ingredients:
   - 1 teaspoon pure vanilla extract
   - 1/8 teaspoon salt
 totalTime: 5 min
+role: main
+vibe: speed
 ---
 
 ## Directions

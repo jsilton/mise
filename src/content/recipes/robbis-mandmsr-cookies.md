@@ -11,6 +11,8 @@ ingredients:
   - 1 teaspoon baking soda
   - 1 teaspoon salt
   - 1 1/2 cups candy-coated milk chocolate pieces (such as M&M's®)
+role: dessert
+vibe: fuel
 ---
 
 ## Directions

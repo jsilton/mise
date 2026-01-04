@@ -19,6 +19,8 @@ ingredients:
   - 1 tbsp Kasuri Methi (dried fenugreek leaves)
   - Vegetable oil (for shallow frying paneer)
 totalTime: 35 min
+role: main
+vibe: fuel
 ---
 
 A restaurant-style Saag using frozen spinach for perfect texture and the soak method to keep the Paneer cheese soft and spongy.

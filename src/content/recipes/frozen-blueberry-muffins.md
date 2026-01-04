@@ -16,6 +16,8 @@ ingredients:
   - 2 tablespoons sugar
   - 1/2 teaspoon ground nutmeg
 totalTime: 30 min
+role: main
+vibe: speed
 ---
 
 ## Directions

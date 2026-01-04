@@ -16,6 +16,8 @@ ingredients:
   - 1 ¾ cups (220 grams) white whole wheat flour or regular whole wheat flour**
   - chocolate chips
 totalTime: 65 min
+role: main
+vibe: comfort
 ---
 
 ## Directions

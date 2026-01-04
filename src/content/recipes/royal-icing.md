@@ -7,6 +7,8 @@ ingredients:
   - 1 pound confectioners’ sugar (450g)
   - 1 teaspoon vanilla extract
 totalTime: 5 min
+role: main
+vibe: speed
 ---
 
 ## Directions

@@ -15,6 +15,8 @@ ingredients:
   - 2 tablespoon vegetable oil
   - 1 tablespoon hazelnut chocolate spread
 totalTime: 2 min
+role: dessert
+vibe: project
 ---
 
 ## Directions

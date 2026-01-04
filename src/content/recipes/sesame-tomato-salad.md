@@ -14,6 +14,8 @@ ingredients:
     halved
   - Kosher salt (such as Diamond Crystal) and black pepper
   - 1/4 cup chopped basil
+role: side
+vibe: fuel
 ---
 
 ## Directions

@@ -12,6 +12,8 @@ ingredients:
   - 1/4 teaspoon kosher salt
   - 'black pepper, to taste'
 totalTime: 20 min
+role: side
+vibe: fuel
 ---
 
 ## Directions

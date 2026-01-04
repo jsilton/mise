@@ -1,11 +1,14 @@
 ---
-title: 'Puffy Muffin Chicken Salad'
+title: Puffy Muffin Chicken Salad
 ingredients:
-  - '2 cups chicken tenders'
+  - 2 cups chicken tenders
   - '1/2 cup celery, diced'
   - '2/3 cup grapes, quartered'
-  - '1/2 cup mayonnaise'
-  - 'Salt and ground black pepper'
+  - 1/2 cup mayonnaise
+  - Salt and ground black pepper
+role: side
+vibe: fuel
+servings: Unknown
 ---
 
 ## Directions

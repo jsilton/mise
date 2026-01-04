@@ -12,6 +12,8 @@ ingredients:
   - 1 Tbsp maple syrup or honey
   - 1/2 Cup Frozen Blueberries
 totalTime: 35 min
+role: dessert
+vibe: project
 ---
 
 ## Directions

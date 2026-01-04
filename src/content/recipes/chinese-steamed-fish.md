@@ -16,6 +16,8 @@ ingredients:
   - 1/4 teaspoon sesame oil
   - 3 dashes white pepper powder
   - '2 tablespoons rock sugar, grind into powder form or to taste'
+role: main
+vibe: fuel
 ---
 
 ## Directions

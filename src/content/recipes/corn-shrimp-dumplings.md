@@ -9,6 +9,8 @@ ingredients:
     teaspoons minced peeled fresh ginger Kosher salt 20 small, round gyoza
     wrappers Soy sauce, for dipping
 totalTime: 30 min
+role: side
+vibe: project
 ---
 
 ## Directions

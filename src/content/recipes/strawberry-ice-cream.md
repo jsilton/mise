@@ -12,6 +12,8 @@ ingredients:
   - 2 cups pureed fresh strawberries
   - 4 tablespoons lemon juice
 totalTime: 11 min
+role: dessert
+vibe: speed
 ---
 
 ## Directions

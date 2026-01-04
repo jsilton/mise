@@ -1,14 +1,17 @@
 ---
-title: 'Panang Curry with Chicken'
+title: Panang Curry with Chicken
 ingredients:
-  - '1 tablespoon curry paste'
-  - '2 chicken breasts'
-  - '2 carrots'
-  - '4 mini bell peppers'
-  - '1 can Coconut milk'
-  - '2 tablespoons Palm sugar'
-  - 'Kafir lime leaves'
-  - '1 tablespoon fish sauce (Squid Brand)'
+  - 1 tablespoon curry paste
+  - 2 chicken breasts
+  - 2 carrots
+  - 4 mini bell peppers
+  - 1 can Coconut milk
+  - 2 tablespoons Palm sugar
+  - Kafir lime leaves
+  - 1 tablespoon fish sauce (Squid Brand)
+role: main
+vibe: fuel
+servings: Unknown
 ---
 
 ## Directions
@@ -25,3 +28,6 @@ ingredients:
 10. Add 1/4 cup milk.continue stirring. Turn heat to medium high.
 11. Add bell peppers and stir. Turn heat to medium.
 12. Add kifir-lime leaves to curry. Stir and let simmer.
+
+## Serving Suggestions
+Near East Rice Pilaf Hack, Everyday Arugula Salad

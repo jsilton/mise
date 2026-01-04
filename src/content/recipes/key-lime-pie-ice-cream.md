@@ -9,6 +9,8 @@ ingredients:
   - 1 (14-ounce) can fat-free sweetened condensed milk
   - '6 graham crackers (1 1/2 cookie sheets), coarsely crushed, divided'
   - Key lime wedges (optional)
+role: dessert
+vibe: project
 ---
 
 ## Directions

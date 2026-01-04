@@ -1,17 +1,20 @@
 ---
-title: 'Baby’s First Smash Cake'
+title: Baby’s First Smash Cake
 ingredients:
-  - '4 or 5 ripe bananas'
-  - '1/2 cup natural no sugar added applesauce'
-  - '3 tbsp coconut oil (melted)'
-  - '3 teaspoons vanilla extract'
-  - '1 teaspoon baking soda'
-  - '3/4 cups whole wheat flour'
+  - 4 or 5 ripe bananas
+  - 1/2 cup natural no sugar added applesauce
+  - 3 tbsp coconut oil (melted)
+  - 3 teaspoons vanilla extract
+  - 1 teaspoon baking soda
+  - 3/4 cups whole wheat flour
   - '3/4 cup oat flour (grind rolled oats in blender, then measure)'
-  - '1 teaspoon cinnamon'
-  - '1 cup (8 ounces) cream cheese'
-  - '1/2 cup (4 ounces) no sugar added apple juice concentrate'
-  - '2 teaspoons pure vanilla extract'
+  - 1 teaspoon cinnamon
+  - 1 cup (8 ounces) cream cheese
+  - 1/2 cup (4 ounces) no sugar added apple juice concentrate
+  - 2 teaspoons pure vanilla extract
+role: dessert
+vibe: project
+servings: Unknown
 ---
 
 ## Directions

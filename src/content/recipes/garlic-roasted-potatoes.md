@@ -11,6 +11,8 @@ ingredients:
   - 2 tablespoons minced garlic (6 cloves)
   - 2 tablespoons minced fresh parsley
 totalTime: 70 min
+role: side
+vibe: fuel
 ---
 
 ## Directions

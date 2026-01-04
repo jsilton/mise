@@ -1,10 +1,12 @@
 ---
-title: 'Chewy Chocolate Meringues'
-servings: '3 dozen'
+title: Chewy Chocolate Meringues
+servings: 3 dozen
 ingredients:
-  - '1 cup egg whites'
-  - '2 cups sugar'
-  - '1 cup dark chocolate chips'
+  - 1 cup egg whites
+  - 2 cups sugar
+  - 1 cup dark chocolate chips
+role: main
+vibe: fuel
 ---
 
 ## Directions

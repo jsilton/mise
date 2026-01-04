@@ -15,6 +15,8 @@ ingredients:
   - 6 fresh or dried bay leaves
   - 1 (46-ounce) can tomato juice
 totalTime: 250 min
+role: side
+vibe: holiday
 ---
 
 ## Directions

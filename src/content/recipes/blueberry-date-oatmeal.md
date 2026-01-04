@@ -12,6 +12,8 @@ ingredients:
   - 2 Tbs coconut oil
   - 1/2 cup frozen blueberries
 totalTime: 17 min
+role: main
+vibe: speed
 ---
 
 ## Directions

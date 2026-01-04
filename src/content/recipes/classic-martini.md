@@ -1,10 +1,12 @@
 ---
-title: 'Classic Martini'
-servings: '1 servings'
+title: Classic Martini
+servings: 1 servings
 ingredients:
-  - '4 ounces Beefeater gin'
-  - '¾ ounce Noilly Prat dry vermouth'
-  - '1 lemon'
+  - 4 ounces Beefeater gin
+  - ¾ ounce Noilly Prat dry vermouth
+  - 1 lemon
+role: drink
+vibe: fuel
 ---
 
 ## Directions

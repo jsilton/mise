@@ -23,6 +23,8 @@ ingredients:
   - '1 Granny Smith apple, peeled and grated'
   - 1/2 cup granulated sugar
   - 1/2 cup water
+role: dessert
+vibe: project
 ---
 
 ## Directions

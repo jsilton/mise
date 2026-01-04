@@ -13,6 +13,8 @@ ingredients:
   - '2 pork tenderloins, about 1-pound each'
   - 4 slices maple bacon
 totalTime: 45 min
+role: main
+vibe: fuel
 ---
 
 ## Directions

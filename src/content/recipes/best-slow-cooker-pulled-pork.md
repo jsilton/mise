@@ -14,6 +14,8 @@ ingredients:
   - '4 garlic cloves, chopped'
   - '1 orange, juiced'
 totalTime: 485 min
+role: main
+vibe: comfort
 ---
 
 ## Directions

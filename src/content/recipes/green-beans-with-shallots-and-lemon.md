@@ -11,6 +11,8 @@ ingredients:
   - '1 lemon, zested'
   - salt and pepper
 totalTime: 15 min
+role: side
+vibe: speed
 ---
 
 ## Directions

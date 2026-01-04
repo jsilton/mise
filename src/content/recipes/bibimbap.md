@@ -27,6 +27,8 @@ ingredients:
   - 1 tsp vinegar - I used apple vinegar
   - 1 tsp minced garlic
 totalTime: 90 min
+role: main
+vibe: comfort
 ---
 
 Bibimbap simply translates to “mixed rice with meat and assorted vegetables“. You can make endless variations to this dish depending on your preference and dietary requirements (e.g. Microgreens Bibimbap) and also based on the dish/bowl it is served in (e.g. Dolsot Bibimbap and Yangpun Bibimbap).More traditional and authentic versions of Bibimbap are served with raw beef and raw egg yolk along with other vegetables but I prefer making it with cooked ingredients.As I was growing up, my mum used make Bibimbap to get rid of vegetable side dishes (banchan) that are getting a few days old (less fresh) or when she didn’t want to put much effort into a meal, she would just take out a few sautéed and seasoned vegetables and Kimchi from the fridge, add a sprinkle of seasoned seaweed strips and made vegetarian Bibimbap.So I don’t recall having much nicely presented Bibimbap, like the top picture above at home, yet regardless of the presentation her Bibimbap was always tasty! Anyway, how do you make your Bibimbap? Any secret ingredients to share with us?I hope you enjoy my recipe!

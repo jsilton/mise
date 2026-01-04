@@ -12,6 +12,8 @@ ingredients:
   - 1/4 tsp ground black pepper or more to taste
   - 6 oz white wine (Pinot Grigio)
   - 3 tbsp dried parsley
+role: main
+vibe: comfort
 ---
 
 ## Directions
@@ -28,3 +30,6 @@ Dear Kristen and Jordan,Since your wedding has a theatrical theme, I wanted to s
 ## Nutrition
 
 - 7: 0 calories0 fat0 cholesterol 5 sodium19 carbohydrates9 fiber2 sugar8 protein
+
+## Serving Suggestions
+Grilled Cheese, Crusty Bread

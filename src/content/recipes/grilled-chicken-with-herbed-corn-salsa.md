@@ -12,6 +12,8 @@ ingredients:
   - 1 clove garlic
   - 1/4 c. lemon juice
   - 2 tbsp. extra-virgin olive oil
+role: side
+vibe: fuel
 ---
 
 ## Directions

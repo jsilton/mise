@@ -12,6 +12,8 @@ ingredients:
   - 2 large eggs
   - 2 teaspoons vanilla extract
 totalTime: 40 min
+role: dessert
+vibe: fuel
 ---
 
 ## Directions

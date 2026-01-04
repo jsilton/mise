@@ -14,6 +14,8 @@ ingredients:
   - 2 tablespoons semisweet or vegan chocolate chips (optional)
   - 'Confectioners’ sugar, for dusting on top (optional)'
 totalTime: 45 min
+role: dessert
+vibe: project
 ---
 
 ## Directions

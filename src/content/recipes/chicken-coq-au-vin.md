@@ -15,8 +15,13 @@ ingredients:
   - cooking spray
   - Rice
 totalTime: 10 min
+role: main
+vibe: speed
 ---
 
 ## Directions
 
 1. Brown chicken thighs on both sidesSpray crockpot with cooking sprayAdd minced garlic, chopped carrots, mushrooms and onionAdd chicken and pour beefy onion soup mix and red wine over chickenSeason with garlic salt and pepperCook on high for 2 1/2-3 hours
+
+## Serving Suggestions
+Near East Rice Pilaf Hack, Everyday Arugula Salad

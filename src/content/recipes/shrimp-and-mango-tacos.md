@@ -12,6 +12,8 @@ ingredients:
   - 1/4 cup chopped cilantro
   - 4 to 5 tablespoons lime juice
   - 8 corn or flour tortillas
+role: main
+vibe: speed
 ---
 
 ## Directions
@@ -34,3 +36,6 @@ Advance preparation: This is best served right after you cook the shrimp and man
 - Sugar: 15 gram
 - Fiber: 5 gramsCarbohydrate: 40 gram
 - Protein: 27 grams
+
+## Serving Suggestions
+Couscous or Crusty Bread, Everyday Arugula Salad

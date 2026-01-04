@@ -17,6 +17,8 @@ ingredients:
   - '2 teaspoons coconut flour, OPTIONAL**'
   - '1 small lime, juice of'
 totalTime: 45 min
+role: main
+vibe: fuel
 ---
 
 ## Directions
@@ -35,3 +37,6 @@ totalTime: 45 min
 - Fat: 9.4g
 - Sodium: 184.8mg
 - Sugar: 8.1g
+
+## Serving Suggestions
+Basmati Rice, Naan

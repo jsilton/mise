@@ -12,6 +12,8 @@ ingredients:
   - 1 cup marinara or Filetto di Pomodoro
   - 1 box spaghetti
 totalTime: 40 min
+role: main
+vibe: comfort
 ---
 
 ## Directions
@@ -30,3 +32,6 @@ totalTime: 40 min
 - Fat: 9.5g
 - Cholesterol: 14mg
 - Fiber: 1.5g
+
+## Serving Suggestions
+Near East Rice Pilaf Hack, Everyday Arugula Salad

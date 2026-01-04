@@ -21,6 +21,8 @@ ingredients:
   - 2 tablespoons honey
   - 1 tablespoon hot water
 totalTime: 70 min
+role: main
+vibe: comfort
 ---
 
 ## Directions

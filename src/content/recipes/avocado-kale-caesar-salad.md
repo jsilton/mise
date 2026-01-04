@@ -13,6 +13,8 @@ ingredients:
   - '1 bunch kale, stems removed, chopped (5-6 cups)'
   - Parmesan and/or pepitas for topping
 totalTime: 10 min
+role: side
+vibe: fuel
 ---
 
 ## Directions

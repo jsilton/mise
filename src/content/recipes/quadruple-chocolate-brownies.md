@@ -16,6 +16,8 @@ ingredients:
   - 1/2-inch pieces
   - '1/2 pound milk chocolate, chopped into 1/2-inch pieces'
 totalTime: 120 min
+role: dessert
+vibe: comfort
 ---
 
 ## Directions

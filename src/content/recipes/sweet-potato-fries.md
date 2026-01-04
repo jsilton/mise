@@ -10,6 +10,8 @@ ingredients:
   - 1 teaspoon salt
   - ½ teaspoon black pepper
 totalTime: 35 min
+role: main
+vibe: fuel
 ---
 
 ## Directions

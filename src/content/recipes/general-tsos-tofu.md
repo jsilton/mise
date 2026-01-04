@@ -27,6 +27,8 @@ ingredients:
   - ½ teaspoon sesame oil
   - 1½ tablespoons cornstarch (mixed with 1 tablespoon water)
 totalTime: 45 min
+role: main
+vibe: fuel
 ---
 
 ## Directions

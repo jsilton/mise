@@ -1,20 +1,23 @@
 ---
-title: "Grandmommy's Turkey Dressing"
+title: Grandmommy's Turkey Dressing
 ingredients:
-  - 'Cornbread'
-  - '1 cup self-rising corn meal'
-  - '1 cup flour'
-  - '1 cup milk'
+  - Cornbread
+  - 1 cup self-rising corn meal
+  - 1 cup flour
+  - 1 cup milk
   - '1 stick margarine, melted'
   - '3 eggs, beaten'
   - '2-3 stalks celery, chopped fine'
   - '1 large onion, chopped fine'
-  - 'salt'
-  - 'pepper'
-  - 'poultry seasoning to taste'
-  - 'Dressing'
-  - '2 cans broth'
-  - '6-7 slices bread'
+  - salt
+  - pepper
+  - poultry seasoning to taste
+  - Dressing
+  - 2 cans broth
+  - 6-7 slices bread
+role: base
+vibe: holiday
+servings: Unknown
 ---
 
 ## Directions

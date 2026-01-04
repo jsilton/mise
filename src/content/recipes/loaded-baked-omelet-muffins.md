@@ -15,6 +15,8 @@ ingredients:
   - 3 tbsp diced bell pepper
   - 2 oz shredded cheddar
 totalTime: 30 min
+role: main
+vibe: speed
 ---
 
 ## Directions

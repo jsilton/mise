@@ -1,19 +1,23 @@
 ---
-title: 'Spiced Coconut Chicken Rice'
-servings: '4 servings'
+title: Spiced Coconut Chicken Rice
+servings: 4 servings
 ingredients:
-  - '1½ cups basmati rice'
-  - '2 Tbsp. grapeseed or vegetable oil'
+  - 1½ cups basmati rice
+  - 2 Tbsp. grapeseed or vegetable oil
   - '1 large shallot, finely chopped'
   - '2 cloves garlic, finely chopped'
   - '1½ lb. skinless, boneless chicken thighs (6–8)'
-  - '1 tsp. ground turmeric'
-  - '½ tsp. cayenne pepper'
+  - 1 tsp. ground turmeric
+  - ½ tsp. cayenne pepper
   - '2½ tsp. kosher salt, divided'
-  - '1 13.5-oz. can unsweetened coconut milk'
-  - '½ bunch Tuscan kale, ribs and stems removed, leaves thinly sliced crosswise into strips (about 2 cups)'
-  - 'Store-bought sliced pickled red chiles (optional)'
-  - 'Lime wedges (for serving)'
+  - 1 13.5-oz. can unsweetened coconut milk
+  - >-
+    ½ bunch Tuscan kale, ribs and stems removed, leaves thinly sliced crosswise
+    into strips (about 2 cups)
+  - Store-bought sliced pickled red chiles (optional)
+  - Lime wedges (for serving)
+role: base
+vibe: fuel
 ---
 
 ## Directions

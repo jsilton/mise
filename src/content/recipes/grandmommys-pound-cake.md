@@ -1,14 +1,17 @@
 ---
-title: "Grandmommy's Pound Cake"
+title: Grandmommy's Pound Cake
 ingredients:
-  - '1/2 lb butter'
+  - 1/2 lb butter
   - '1 stick margarine, soft'
   - '6 eggs, room temperature'
-  - '2 cups sugar'
+  - 2 cups sugar
   - '3 cups, pre-sifted flour'
-  - '1 tsp lemon flavor'
-  - '1 tsp almond flavor'
-  - '1 tsp vanilla'
+  - 1 tsp lemon flavor
+  - 1 tsp almond flavor
+  - 1 tsp vanilla
+role: dessert
+vibe: project
+servings: Unknown
 ---
 
 ## Directions

@@ -32,6 +32,8 @@ ingredients:
   - a mix of dried fruit bits
   - jelly
 totalTime: 20 min
+role: main
+vibe: speed
 ---
 
 ## Directions

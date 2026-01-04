@@ -10,6 +10,8 @@ ingredients:
   - 'Freshly ground black pepper, to taste'
   - 1/2 cup chicken stock or turkey stock for basting
 totalTime: 70 min
+role: main
+vibe: holiday
 ---
 
 ## Directions

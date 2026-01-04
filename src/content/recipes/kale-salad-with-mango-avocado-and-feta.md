@@ -2,18 +2,21 @@
 title: 'Kale Salad with Mango, Avocado and Feta'
 ingredients:
   - '1 head of kale ribs removed, chopped finely'
-  - '1 mango cubed'
-  - '1/2 purple onion diced'
+  - 1 mango cubed
+  - 1/2 purple onion diced
   - '1/2 cup almonds, pepitas, or sunflower seeds, lightly toasted'
-  - '1 large avocado diced'
-  - '1 cup feta cheese crumbled'
-  - 'Dressing'
+  - 1 large avocado diced
+  - 1 cup feta cheese crumbled
+  - Dressing
   - '1 orange, zest and juice'
-  - '1 garlic clove minced'
-  - '1 teaspoon Dijon mustard'
-  - '2 teaspoons honey'
+  - 1 garlic clove minced
+  - 1 teaspoon Dijon mustard
+  - 2 teaspoons honey
   - '1/3 cup olive oil, plus extra for massaging'
-  - 'Salt and pepper'
+  - Salt and pepper
+role: side
+vibe: fuel
+servings: Unknown
 ---
 
 ## Directions

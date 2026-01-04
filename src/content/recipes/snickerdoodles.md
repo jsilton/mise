@@ -1,17 +1,19 @@
 ---
-title: 'Snickerdoodles'
-servings: 'Makes 70 or more'
+title: Snickerdoodles
+servings: Makes 70 or more
 ingredients:
-  - '1 cup margarine or butter'
-  - '1 1/2 cups sugar'
-  - '2 eggs'
-  - '2 3/4 cups pre-sifted flour'
-  - '2 tsp cream of tarter'
-  - '1 tsp baking soda'
-  - '1/2 tsp salt'
-  - 'Topping'
-  - '3 tbsp sugar'
-  - '3 tsp ground cinnamon'
+  - 1 cup margarine or butter
+  - 1 1/2 cups sugar
+  - 2 eggs
+  - 2 3/4 cups pre-sifted flour
+  - 2 tsp cream of tarter
+  - 1 tsp baking soda
+  - 1/2 tsp salt
+  - Topping
+  - 3 tbsp sugar
+  - 3 tsp ground cinnamon
+role: main
+vibe: fuel
 ---
 
 ## Directions

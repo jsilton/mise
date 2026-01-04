@@ -16,6 +16,8 @@ ingredients:
   - 1 teaspoon minced ginger
   - '6 ounces snow peas, strings removed, washed and dried'
   - '1 scallion, chopped'
+role: main
+vibe: speed
 ---
 
 ## Directions
@@ -36,3 +38,6 @@ ingredients:
 - Sugar: 3 gram
 - Fiber: 1 gramCarbohydrate: 8 gram
 - Protein: 25 grams
+
+## Serving Suggestions
+Couscous or Crusty Bread, Everyday Arugula Salad

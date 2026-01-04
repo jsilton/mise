@@ -13,6 +13,9 @@ ingredients:
   - '1 medium tilapia, grey sole, flounder or fluke filet'
   - 2 tablespoons oil
 totalTime: 20 min
+role: main
+vibe: speed
+servings: Unknown
 ---
 
 ## Directions

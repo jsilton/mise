@@ -13,6 +13,8 @@ ingredients:
   - 1 cup orzo pasta (about 8 ounces)
   - 2 1/2 cups low-sodium chicken broth
   - '1/2 cup grated Parmesan, plus more for serving'
+role: side
+vibe: speed
 ---
 
 ## Directions

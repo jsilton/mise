@@ -14,6 +14,8 @@ ingredients:
   - '1 large egg, at room temperature'
   - '1 cup (240ml) buttermilk, at room temperature*'
 totalTime: 10 min
+role: side
+vibe: speed
 ---
 
 ## Directions

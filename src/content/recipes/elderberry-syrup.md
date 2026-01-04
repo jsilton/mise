@@ -11,6 +11,8 @@ ingredients:
   - 1/2 teaspoon cloves or clove powder
   - 1 cup raw honey (we get from our farmer's market)
 totalTime: 65 min
+role: drink
+vibe: comfort
 ---
 
 ## Directions

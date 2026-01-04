@@ -15,6 +15,8 @@ ingredients:
   - 3 tablespoons softened cream cheese
   - Zest and juice of 1/2 lemon
 totalTime: 10 min
+role: dessert
+vibe: project
 ---
 
 ## Directions

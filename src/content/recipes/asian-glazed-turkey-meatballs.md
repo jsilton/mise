@@ -23,6 +23,8 @@ ingredients:
   - '1 tsp ginger, fresh or paste'
   - sesame seeds and scallions for garnish
 totalTime: 30 min
+role: main
+vibe: holiday
 ---
 
 ## Directions

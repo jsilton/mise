@@ -13,6 +13,8 @@ ingredients:
   - 1 1/4 cup standard flour
   - 1.5 tsp baking powder
 totalTime: 25 min
+role: main
+vibe: speed
 ---
 
 ## Directions

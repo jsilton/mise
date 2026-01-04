@@ -13,6 +13,8 @@ ingredients:
   - 1/4 tsp salt
   - 1-5 tsp water (if needed)
 totalTime: 40 min
+role: main
+vibe: fuel
 ---
 
 ## Directions

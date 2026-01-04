@@ -19,6 +19,8 @@ ingredients:
   - 1 pound center-cut beef tenderloin in one piece
   - '1 baguette, halved lengthwise and cut into four 6-inch pieces'
 totalTime: 75 min
+role: side
+vibe: comfort
 ---
 
 ## Directions

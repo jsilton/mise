@@ -7,6 +7,8 @@ ingredients:
   - '3 cups soybean or canola oil, or more as needed'
   - 1/4 cup fresh lemon juice (from 1 or 2 lemons)
   - 1/3 cup water
+role: main
+vibe: fuel
 ---
 
 ## Directions

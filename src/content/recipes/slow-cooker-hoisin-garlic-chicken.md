@@ -14,6 +14,8 @@ ingredients:
   - '1/2 teaspoon crushed red pepper, plus more as needed'
   - Kosher salt (such as Diamond Crystal)
   - 'Sliced scallions (optional), for topping'
+role: main
+vibe: comfort
 ---
 
 ## Directions
@@ -34,3 +36,6 @@ ingredients:
 - Sugar: 6 gram
 - Fiber: 2 gramsCarbohydrate: 14 gram
 - Protein: 58 grams
+
+## Serving Suggestions
+Near East Rice Pilaf Hack, Everyday Arugula Salad

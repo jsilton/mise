@@ -12,6 +12,8 @@ ingredients:
   - 1 tablespoon honey (optional)
   - 3 tablespoons butter
 totalTime: 25 min
+role: dessert
+vibe: project
 ---
 
 ## Directions

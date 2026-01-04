@@ -17,6 +17,8 @@ ingredients:
   - ¼ cup hot water (or low sodium chicken stock)
   - 2 tablespoons cornstarch (mixed into a slurry with 2 tablespoons water)
 totalTime: 35 min
+role: main
+vibe: fuel
 ---
 
 ## Directions
@@ -31,3 +33,6 @@ totalTime: 35 min
 ## Nutrition
 
 - Calories: 210kcal (11%) Carbohydrates: 19g (6%) Protein: 20g (40%) Fat: 6g (9%) Saturated Fat: 3g (15%) Cholesterol: 54mg (18%) Sodium: 733mg (31%) Potassium: 375mg (11%) Fiber: 1g (4%) Sugar: 7g (8%) Vitamin A: 280IU (6%) Vitamin C: 3.2mg (4%) Calcium: 18mg (2%) Iron: 0.7mg (4%)
+
+## Serving Suggestions
+Near East Rice Pilaf Hack, Everyday Arugula Salad

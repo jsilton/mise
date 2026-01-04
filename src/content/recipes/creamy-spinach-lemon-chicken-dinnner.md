@@ -1,17 +1,19 @@
 ---
-title: 'Creamy Spinach Lemon Chicken Dinnner'
-servings: 'Serves 4-6'
+title: Creamy Spinach Lemon Chicken Dinnner
+servings: Serves 4-6
 ingredients:
-  - '4 large chicken breasts'
+  - 4 large chicken breasts
   - '2 tablespoons coconut oil, divided'
-  - '1 cup low-sodium chicken broth'
-  - '½ cup greek yogurt'
+  - 1 cup low-sodium chicken broth
+  - ½ cup greek yogurt
   - '½ a lemon, juiced'
   - '3 garlic cloves, minced'
-  - '2 teaspoons dried oregano'
-  - '6 ounces spinach'
+  - 2 teaspoons dried oregano
+  - 6 ounces spinach
   - 'Salt, to taste,'
-  - 'Pepper to taste'
+  - Pepper to taste
+role: main
+vibe: fuel
 ---
 
 ## Directions
@@ -29,3 +31,6 @@ ingredients:
 11. 11. Bake for 15 minutes or until the chicken is fully cooked.
 12. 12. Serve chicken on a bed of the wilted spinach and top with a drizzle of the creamy sauce.
 13. 13. Enjoy!
+
+## Serving Suggestions
+Near East Rice Pilaf Hack, Everyday Arugula Salad

@@ -19,6 +19,8 @@ ingredients:
   - '2 green onions, thinly sliced'
   - 1 teaspoon sesame seeds
 totalTime: 520 min
+role: main
+vibe: comfort
 ---
 
 ## Directions

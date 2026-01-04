@@ -13,6 +13,8 @@ ingredients:
     2 1/2 cups (12 ounces) shredded cheese — Mexican blend, Monterey Jack,
     and/or cheddar are all equally lovely
   - 'Sour cream, to serve (optional)'
+role: main
+vibe: fuel
 ---
 
 ## Directions
@@ -41,3 +43,6 @@ A word on casserole dishes: Before assembling your enchiladas, make sure the dis
 - Calories: 662Total Carbohydrates: 14 g (4.7%)Cholesterol: 171.8 mg (57.3%)Total Fat: 47.9 g (73.8%)Protein: 42.4 g (84.8%)Saturated fat: 21.4 g (107%)Per serving
 - based on: 4 servings. (% daily value)Sugar: 1.5 gUn
 - saturated fat: 1.1 g
+
+## Serving Suggestions
+Near East Rice Pilaf Hack, Everyday Arugula Salad

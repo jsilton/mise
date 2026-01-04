@@ -16,6 +16,8 @@ ingredients:
   - 1 pound penne or maccheroncini
   - '1/3 cup freshly grated Pecorino Romano cheese, plus more for serving'
 totalTime: 80 min
+role: base
+vibe: comfort
 ---
 
 ## Directions

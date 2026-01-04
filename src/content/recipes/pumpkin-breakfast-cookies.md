@@ -16,6 +16,8 @@ ingredients:
   - ½ cup pumpkin puree
   - '2 eggs, beaten'
 totalTime: 25 min
+role: dessert
+vibe: speed
 ---
 
 ## Directions

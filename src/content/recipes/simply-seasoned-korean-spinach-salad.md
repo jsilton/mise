@@ -15,6 +15,8 @@ ingredients:
   - 1 tsp toasted sesame seeds
   - 1 Tbsp sesame oil
 totalTime: 15 min
+role: side
+vibe: fuel
 ---
 
 ## Directions

@@ -25,6 +25,8 @@ ingredients:
   - 1/2 tsp ground cinnamon (2g)
   - 1/4 tsp ground ginger (1g)
 totalTime: 30 min
+role: dessert
+vibe: project
 ---
 
 ## Directions

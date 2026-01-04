@@ -20,6 +20,8 @@ ingredients:
   - 1/2 cup freshly grated Parmesan cheese
   - Salt and black pepper to taste
 totalTime: 45 min
+role: side
+vibe: fuel
 ---
 
 ## Directions

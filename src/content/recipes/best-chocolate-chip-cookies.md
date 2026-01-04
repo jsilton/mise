@@ -16,6 +16,8 @@ ingredients:
   - 2 cups semisweet chocolate chips
   - 1 cup chopped walnuts
 totalTime: 30 min
+role: dessert
+vibe: speed
 ---
 
 ## Directions

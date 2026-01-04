@@ -22,6 +22,8 @@ ingredients:
   - shredded cheese
   - avocado
 totalTime: 490 min
+role: main
+vibe: comfort
 ---
 
 ## Directions
@@ -37,3 +39,6 @@ totalTime: 490 min
 - Trans Fat: 0g
 - Cholesterol: 65.0mg 22%
 - Sodium: 1139mg
+
+## Serving Suggestions
+Near East Rice Pilaf Hack, Everyday Arugula Salad

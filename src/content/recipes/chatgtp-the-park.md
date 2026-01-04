@@ -1,12 +1,15 @@
 ---
-title: 'ChatGTP the Park'
+title: ChatGTP the Park
 ingredients:
-  - '4.5 oz Hendrics gin'
+  - 4.5 oz Hendrics gin
   - '1 can Spindrift Grapefruit (about 12 oz, to top)'
-  - '2 oz fresh lime juice'
-  - '0.5 oz agave syrup (for just a hint of sweetness)'
-  - '6 dashes grapefruit bitters (2 per glass)'
-  - 'Lime wheels or grapefruit slices for garnish'
+  - 2 oz fresh lime juice
+  - 0.5 oz agave syrup (for just a hint of sweetness)
+  - 6 dashes grapefruit bitters (2 per glass)
+  - Lime wheels or grapefruit slices for garnish
+role: main
+vibe: fuel
+servings: Unknown
 ---
 
 Makes 3 servings

@@ -17,6 +17,8 @@ ingredients:
   - 1/8 tsp Salt
   - 1/2 cup Greek yogurt
 totalTime: 110 min
+role: main
+vibe: fuel
 ---
 
 ## Directions

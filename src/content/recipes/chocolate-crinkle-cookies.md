@@ -17,6 +17,8 @@ ingredients:
   - '1 1/2 c. granulated sugar, divided'
   - 1 c. powdered sugar
 totalTime: 145 min
+role: dessert
+vibe: comfort
 ---
 
 ## Directions

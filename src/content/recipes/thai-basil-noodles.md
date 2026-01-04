@@ -19,6 +19,8 @@ ingredients:
   - '1/2 bell pepper (any color, thinly sliced)'
   - 2 cups Thai basil leaves
 totalTime: 30 min
+role: main
+vibe: speed
 ---
 
 ## Directions

@@ -26,6 +26,8 @@ ingredients:
   - '5 to 6 pieces baby corn (split in half, optional)'
   - 2 teaspoons Shaoxing wine
 totalTime: 50 min
+role: main
+vibe: fuel
 ---
 
 ## Directions

@@ -10,6 +10,8 @@ ingredients:
   - 1 teaspoon Creole seasoning
   - 3 1/2 cups frozen cooked quinoa (such as 365 Everyday Value)
 totalTime: 20 min
+role: base
+vibe: speed
 ---
 
 ## Directions

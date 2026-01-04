@@ -21,6 +21,8 @@ ingredients:
   - 1/2 cup freshly grated Parmesan
   - 'Kosher salt and freshly ground black pepper, to taste'
 totalTime: 50 min
+role: base
+vibe: comfort
 ---
 
 ## Directions

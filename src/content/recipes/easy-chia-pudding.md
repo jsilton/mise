@@ -10,6 +10,8 @@ ingredients:
   - 1/4 teaspoon vanilla (optional)
   - 'Toppings of choice: fresh berries or other fruit, granola, nut butter, etc'
 totalTime: 20 min
+role: dessert
+vibe: speed
 ---
 
 ## Directions

@@ -14,6 +14,8 @@ ingredients:
   - '1/2 c. fresh mint, torn if large, plus more for garnish'
   - '1/4 c. roasted pistachios, chopped'
 totalTime: 15 min
+role: side
+vibe: fuel
 ---
 
 ## Directions

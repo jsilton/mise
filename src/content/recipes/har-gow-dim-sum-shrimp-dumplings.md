@@ -20,6 +20,8 @@ ingredients:
     climates)
   - 3 teaspoons lard (or oil)
 totalTime: 140 min
+role: main
+vibe: project
 ---
 
 ## Directions
@@ -35,3 +37,6 @@ totalTime: 140 min
 ## Nutrition
 
 - Calories: 213kcal (11%) Carbohydrates: 30g (10%) Protein: 8g (16%) Fat: 6g (9%) Saturated Fat: 3g (15%) Cholesterol: 98mg (33%) Sodium: 424mg (18%) Potassium: 30mg (1%) Fiber: 1g (4%) Sugar: 1g (1%) Vitamin C: 1.6mg (2%) Calcium: 55mg (6%) Iron: 1mg (6%)
+
+## Serving Suggestions
+Couscous or Crusty Bread, Everyday Arugula Salad

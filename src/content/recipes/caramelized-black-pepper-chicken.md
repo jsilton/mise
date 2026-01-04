@@ -17,6 +17,8 @@ ingredients:
   - '1 pound skinless, boneless chicken thighs, cut into 1-inch pieces'
   - 4 cilantro sprigs
 totalTime: 60 min
+role: main
+vibe: fuel
 ---
 
 ## Directions
@@ -27,3 +29,6 @@ totalTime: 60 min
 ## Notes
 
 Because fish sauces vary in their saltiness, Phan advises adding the fish sauce to taste.Serve WithSteamed jasmine rice.
+
+## Serving Suggestions
+Near East Rice Pilaf Hack, Everyday Arugula Salad

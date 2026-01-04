@@ -13,6 +13,8 @@ ingredients:
   - 1 cup all-purpose flour
   - ¼ teaspoon salt
 totalTime: 45 min
+role: side
+vibe: fuel
 ---
 
 ## Directions

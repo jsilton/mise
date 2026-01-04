@@ -20,6 +20,8 @@ ingredients:
   - 1/2 cup Parmesan cheese
   - 1 cup heavy cream or 1 cup half and half
 totalTime: 255 min
+role: main
+vibe: comfort
 ---
 
 ## Directions
@@ -29,3 +31,6 @@ totalTime: 255 min
 3. Cover and cook on LOW for 4-6 hours or on HIGH for 3-4 hours (or until chicken is very tender).
 4. Remove the lid and add in tortellini and spinach, Parmesan cheese and warmed cream (cream should be warmed because it may cause curdling if added in cold).
 5. Use a fork to remove the chicken out of the slow cooker. On a cutting board, shred or cut the chicken into bite-size pieces. Add the chicken back into the slow cooker. Put the lid back on and cook on HIGH for about 10 more minutes, or until the tortellini are cooked through. Ladle into serving bowls and enjoy!
+
+## Serving Suggestions
+Near East Rice Pilaf Hack, Everyday Arugula Salad

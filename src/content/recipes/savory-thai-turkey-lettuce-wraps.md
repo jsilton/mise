@@ -13,6 +13,8 @@ ingredients:
   - Lettuce cups
   - 'Sriracha, for serving'
   - 'Hoisin Sauce, for serving'
+role: main
+vibe: holiday
 ---
 
 ## Directions

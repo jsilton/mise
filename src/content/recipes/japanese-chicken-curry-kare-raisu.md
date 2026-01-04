@@ -23,6 +23,8 @@ ingredients:
   - '1/2 Apple, peeled and grated (The sweetness is mandatory)'
   - 1 tsp Salt (adjust to taste)
 totalTime: 75 min
+role: main
+vibe: comfort
 ---
 
 The definitive "from scratch" method for Japanese Curry using S&B Oriental Curry Powder (The Red Tin). Unlike home-style recipes, this uses the professional "Yoshoku" technique: caramelizing onions for depth and creating a separate dark brown roux to achieve the signature glossy, rich sauce found in Tokyo curry houses.
@@ -53,3 +55,6 @@ The Apple: Grated apple is the classic "secret ingredient" in Japan. It balances
 - Dietary Fiber: 4g
 - Sugars: 8g
 - Protein: 32g
+
+## Serving Suggestions
+Near East Rice Pilaf Hack, Everyday Arugula Salad

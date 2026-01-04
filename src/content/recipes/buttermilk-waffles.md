@@ -14,6 +14,8 @@ ingredients:
   - 2 eggs
   - 1 teaspoon vanilla extract
 totalTime: 20 min
+role: main
+vibe: speed
 ---
 
 ## Directions

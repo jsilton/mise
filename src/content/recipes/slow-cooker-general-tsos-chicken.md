@@ -24,6 +24,8 @@ ingredients:
   - 1 teaspoon crushed red pepper flakes
   - steamed or fried rice for serving
 totalTime: 255 min
+role: main
+vibe: comfort
 ---
 
 ## Directions
@@ -33,3 +35,6 @@ totalTime: 255 min
 3. Add coated chicken pieces to pan. Saute 1-2 minutes until browned. (It chicken will still be raw in the middle at this point, that's okay)
 4. In a bowl combine all sauce ingredients and whisk to combine. Add half to the crockpot along with chicken pieces. Cook on low for 4 hours.
 5. Immediately before serving, Add remaining sauce to the crockpot and stir gently. Serve with rice.
+
+## Serving Suggestions
+Near East Rice Pilaf Hack, Everyday Arugula Salad

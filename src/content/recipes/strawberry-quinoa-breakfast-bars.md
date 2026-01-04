@@ -12,6 +12,8 @@ ingredients:
   - 30g (1/4 cup) raisins
   - 100g (1 cup) chopped fresh strawberries
 totalTime: 23 min
+role: base
+vibe: speed
 ---
 
 ## Directions

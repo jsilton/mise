@@ -16,6 +16,8 @@ ingredients:
   - 1 large egg
   - 2 tablespoons vegetable oil
 totalTime: 30 min
+role: dessert
+vibe: project
 ---
 
 ## Directions

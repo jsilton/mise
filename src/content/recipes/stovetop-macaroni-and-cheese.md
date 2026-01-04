@@ -11,6 +11,8 @@ ingredients:
   - >-
     Optional extras (cook before adding): Ham, bacon, onions, peas, mushrooms,
     peppers, broccoli, cauliflower
+role: main
+vibe: fuel
 ---
 
 ## Directions

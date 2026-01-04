@@ -1,20 +1,23 @@
 ---
-title: 'Apple Chai Oatmeal Cups'
+title: Apple Chai Oatmeal Cups
 ingredients:
-  - 'Dry'
-  - '3 cups rolled oats'
-  - '1 teaspoon baking powder'
-  - '1/2 teaspoon ground nutmeg'
-  - '1/2 teaspoon ground cardamom'
-  - '1/2 teaspoon ground allspice'
-  - '1 teaspoon ground cinnamon'
+  - Dry
+  - 3 cups rolled oats
+  - 1 teaspoon baking powder
+  - 1/2 teaspoon ground nutmeg
+  - 1/2 teaspoon ground cardamom
+  - 1/2 teaspoon ground allspice
+  - 1 teaspoon ground cinnamon
   - '1 large apple, peeled and minced'
-  - 'Wet'
+  - Wet
   - '2 eggs, large'
-  - '2 tablespoons maple syrup'
-  - '1 tablespoon coconut oil'
+  - 2 tablespoons maple syrup
+  - 1 tablespoon coconut oil
   - '1 medium banana, mashed'
   - '1.5 cup almond milk, unsweetened'
+role: main
+vibe: fuel
+servings: Unknown
 ---
 
 ## Directions

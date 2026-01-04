@@ -30,6 +30,8 @@ ingredients:
   - 1 tbsp Kasuri Methi (dried fenugreek leaves)
   - 1 tsp Garam Masala
 totalTime: 60 min
+role: main
+vibe: fuel
 ---
 
 An American-restaurant style Tikka Masala that focuses on two key techniques: broiling the chicken for a "tandoor" char, and blending the onion base for a velvety, smooth sauce. Mild-medium heat with a rich, creamy finish.
@@ -60,3 +62,6 @@ Kasuri Methi is essential for the restaurant aroma.**Kashmiri Chili Powder **pro
 - Dietary Fiber: 3g
 - Sugars: 8g
 - Protein: 39g
+
+## Serving Suggestions
+Near East Rice Pilaf Hack, Everyday Arugula Salad

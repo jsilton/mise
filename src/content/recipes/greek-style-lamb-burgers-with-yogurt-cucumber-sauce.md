@@ -25,6 +25,8 @@ ingredients:
   - '1 tablespoon mint, finely chopped'
   - Freshly ground black pepper
 totalTime: 45 min
+role: base
+vibe: speed
 ---
 
 ## Directions

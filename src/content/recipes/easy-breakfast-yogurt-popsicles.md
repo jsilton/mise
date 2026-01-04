@@ -10,6 +10,8 @@ ingredients:
   - 1/2 Cup Granola
   - 1 Cup Berries/chopped Fruits
 totalTime: 250 min
+role: main
+vibe: comfort
 ---
 
 ## Directions

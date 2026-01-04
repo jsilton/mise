@@ -12,6 +12,8 @@ ingredients:
   - 3 cups prosecco or other sparkling wine
   - 6 lime wedges
 totalTime: 18 min
+role: drink
+vibe: speed
 ---
 
 ## Directions

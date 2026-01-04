@@ -1,18 +1,21 @@
 ---
-title: "YinYin's Wontons"
+title: YinYin's Wontons
 ingredients:
   - '3-4 oz mushrooms, finely chopped'
-  - '1/4 lb shrimp'
-  - '1 lb gound lean pork'
+  - 1/4 lb shrimp
+  - 1 lb gound lean pork
   - '2-3 stalks green onion, finely chopped'
   - '1 (8 oz) can sliced water chestnuts, finely chopper'
-  - '1-2 tbsp garlic salt'
+  - 1-2 tbsp garlic salt
   - '1 tbsp ginger, freshly grated'
-  - '1 dash white (or black) pepper'
-  - '1 tbsp dry sherry'
-  - '1 tbsp soy sauce'
-  - '1 egg'
-  - '2 dash cilantro (if available)'
+  - 1 dash white (or black) pepper
+  - 1 tbsp dry sherry
+  - 1 tbsp soy sauce
+  - 1 egg
+  - 2 dash cilantro (if available)
+role: main
+vibe: project
+servings: Unknown
 ---
 
 ## Directions

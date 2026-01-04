@@ -41,6 +41,8 @@ ingredients:
   - 1 tablespoon sliced almonds
   - 1/2 teaspoon vanilla extract
 totalTime: 490 min
+role: main
+vibe: fuel
 ---
 
 ## Directions

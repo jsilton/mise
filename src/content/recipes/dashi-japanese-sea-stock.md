@@ -8,6 +8,8 @@ ingredients:
   - '1 oz (30 grams) kombu (dried kelp), about 20 square inches'
   - '2 (5-gram) packages katsuo bushi (dried bonito flakes), about 1 cup'
 totalTime: 15 min
+role: base
+vibe: speed
 ---
 
 ## Directions

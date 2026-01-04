@@ -12,6 +12,8 @@ ingredients:
   - 1 tbsp plain yogurt / coconut cream
   - 3 tsp orange juice
 totalTime: 30 min
+role: main
+vibe: speed
 ---
 
 ## Directions

@@ -15,6 +15,8 @@ ingredients:
   - 1/3 c. grated Parmesan
   - 'Basil, for garnish'
 totalTime: 1 min
+role: main
+vibe: speed
 ---
 
 ## Directions

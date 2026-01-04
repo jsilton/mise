@@ -17,6 +17,8 @@ ingredients:
     2 cups/305 grams semisweet or bittersweet chocolate discs (or use 2 cups/340
     grams chocolate chips)
 totalTime: 60 min
+role: dessert
+vibe: fuel
 ---
 
 ## Directions

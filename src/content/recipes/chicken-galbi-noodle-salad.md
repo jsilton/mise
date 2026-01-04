@@ -18,6 +18,8 @@ ingredients:
   - Salt
   - '1 medium yellow or red bell pepper, halved, stemmed, seeded and slivered'
   - 1/2 cup chopped fresh basil
+role: side
+vibe: fuel
 ---
 
 ## Directions

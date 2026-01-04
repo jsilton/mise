@@ -13,6 +13,8 @@ ingredients:
   - 'Unsalted butter, for cooking'
   - 'Maple syrup, for serving'
 totalTime: 30 min
+role: main
+vibe: speed
 ---
 
 ## Directions

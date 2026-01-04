@@ -1,11 +1,13 @@
 ---
-title: 'Fresh Pasta Dough'
-servings: 'About 1 pound'
+title: Fresh Pasta Dough
+servings: About 1 pound
 ingredients:
   - '3 large eggs, beaten to blend'
-  - '2 cups all-purpose flour'
-  - '1 tablespoon olive oil'
-  - '1 teaspoon kosher salt'
+  - 2 cups all-purpose flour
+  - 1 tablespoon olive oil
+  - 1 teaspoon kosher salt
+role: base
+vibe: fuel
 ---
 
 ## Directions

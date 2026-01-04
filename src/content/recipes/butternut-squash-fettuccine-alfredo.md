@@ -13,6 +13,8 @@ ingredients:
   - Pinch ground nutmeg
   - 1 pound dry fettuccine
   - 2 tablespoons finely chopped fresh parsley
+role: main
+vibe: comfort
 ---
 
 ## Directions

@@ -1,16 +1,18 @@
 ---
-title: 'Falafel'
-servings: 'About 15 balls'
+title: Falafel
+servings: About 15 balls
 ingredients:
   - '2 cups dried chickpeas, soaked in cold water overnight'
-  - 'Canola oil for deep frying'
+  - Canola oil for deep frying
   - '1 medium yellow onion, coarsely chopped'
   - '3 garlic cloves, coarsely chopped'
-  - '1 tablespoon coriander seeds'
-  - '1 cup pitted Kalamata olives'
-  - '11/2 teaspoons kosher salt'
-  - '1/2 teaspoon ground cumin'
-  - '1/2 teaspoon freshly ground black pepper'
+  - 1 tablespoon coriander seeds
+  - 1 cup pitted Kalamata olives
+  - "11\x81/2 teaspoons kosher salt"
+  - "1\x81/2 teaspoon ground cumin"
+  - "1\x81/2 teaspoon freshly ground black pepper"
+role: main
+vibe: fuel
 ---
 
 ## Directions

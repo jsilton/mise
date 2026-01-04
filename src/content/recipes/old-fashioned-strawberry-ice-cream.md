@@ -11,6 +11,8 @@ ingredients:
   - 1 ½ cups heavy cream
   - 1 ½ cups whole milk
   - 1 vanilla bean (seeds scraped)
+role: dessert
+vibe: fuel
 ---
 
 ## Directions

@@ -10,6 +10,8 @@ ingredients:
   - 1/4 teaspoon salt
   - 1/8 teaspoon ground white pepper
 totalTime: 25 min
+role: side
+vibe: speed
 ---
 
 ## Directions

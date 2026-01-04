@@ -21,6 +21,8 @@ ingredients:
   - 1 teaspoon apple cider vinegar or distilled white vinegar
   - 'Freshly ground black pepper, to taste'
 totalTime: 10 min
+role: base
+vibe: speed
 ---
 
 ## Directions

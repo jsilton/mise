@@ -12,6 +12,8 @@ ingredients:
     1/2 cup plus 2 tablespoons fresh or bottled Key lime juice (if using
     bottled, preferably Manhattan brand)
   - 3/4 cup chilled heavy cream
+role: dessert
+vibe: project
 ---
 
 ## Directions

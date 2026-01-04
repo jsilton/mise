@@ -15,6 +15,8 @@ ingredients:
   - 3 cups pasta sauce 25 ounce jar
   - 8 ounces whole-wheat lasagna no-boil
 totalTime: 70 min
+role: main
+vibe: project
 ---
 
 ## Directions

@@ -18,6 +18,8 @@ ingredients:
   - Juice of 1 lemon
   - 2 tablespoons chopped fresh parsley
 totalTime: 525 min
+role: main
+vibe: comfort
 ---
 
 ## Directions
@@ -39,3 +41,6 @@ totalTime: 525 min
 - Dietary Fiber: 2.6g 10%
 - Sugars: 7.0g
 - Protein: 24.3g
+
+## Serving Suggestions
+Near East Rice Pilaf Hack, Everyday Arugula Salad

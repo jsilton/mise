@@ -19,6 +19,8 @@ ingredients:
   - 2 tablespoons of lemon juice (or 1 teaspoon lemon extract)
   - '3-4 tablespoons milk (or dairy-free milk), as needed'
 totalTime: 30 min
+role: dessert
+vibe: project
 ---
 
 ## Directions

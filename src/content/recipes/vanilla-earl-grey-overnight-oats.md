@@ -11,6 +11,8 @@ ingredients:
   - ½ cup almond milk (or milk of your choice)
   - 1 tsp vanilla extract
   - cookie or wafer (I used a stroopwafel)
+role: main
+vibe: fuel
 ---
 
 ## Directions

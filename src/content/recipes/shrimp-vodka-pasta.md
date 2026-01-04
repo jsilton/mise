@@ -16,6 +16,8 @@ ingredients:
   - 1/2 teaspoon kosher salt
   - 1/2 teaspoon black pepper
 totalTime: 45 min
+role: main
+vibe: speed
 ---
 
 ## Directions
@@ -36,3 +38,6 @@ totalTime: 45 min
 - Fiber: 2.4g
 - Cholesterol: 184mg
 - Sodium: 632mg
+
+## Serving Suggestions
+Couscous or Crusty Bread, Everyday Arugula Salad

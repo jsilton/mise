@@ -21,6 +21,8 @@ ingredients:
   - 'salt and black pepper, to taste'
   - '3 lbs firm tofu, pressed'
 totalTime: 45 min
+role: main
+vibe: fuel
 ---
 
 ## Directions

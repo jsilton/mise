@@ -11,6 +11,8 @@ ingredients:
   - salt and pepper
   - 6 oz. shredded cheese
 totalTime: 25 min
+role: main
+vibe: speed
 ---
 
 ## Directions

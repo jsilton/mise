@@ -12,6 +12,8 @@ ingredients:
   - 1 spoonful peanut butter or almond butter (optional)
   - coconut oil/butter for cooking
 totalTime: 10 min
+role: dessert
+vibe: project
 ---
 
 ## Directions

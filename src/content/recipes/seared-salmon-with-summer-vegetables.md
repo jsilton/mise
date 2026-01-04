@@ -22,6 +22,8 @@ ingredients:
   - '1 (1-pound) center-cut salmon fillet, sliced crosswise into 6 strips'
   - 3 tablespoons finely chopped chives
 totalTime: 60 min
+role: side
+vibe: speed
 ---
 
 ## Directions

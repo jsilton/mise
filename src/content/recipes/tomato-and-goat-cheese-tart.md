@@ -21,6 +21,8 @@ ingredients:
   - ½ teaspoon grated garlic (from 2 large garlic cloves)
   - Fresh purple and green basil leaves
 totalTime: 160 min
+role: main
+vibe: comfort
 ---
 
 ## Directions

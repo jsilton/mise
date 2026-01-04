@@ -16,6 +16,8 @@ ingredients:
   - Pepper
   - 'Lemon wedges, for serving'
 totalTime: 40 min
+role: base
+vibe: fuel
 ---
 
 ## Directions

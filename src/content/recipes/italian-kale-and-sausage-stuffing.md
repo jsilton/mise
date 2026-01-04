@@ -1,21 +1,23 @@
 ---
-title: 'Italian Kale and Sausage Stuffing'
+title: Italian Kale and Sausage Stuffing
 servings: 'Serves: 16 servings'
 ingredients:
   - '3/4 pound ciabatta bread, sliced 1/2-inch thick'
-  - '1 1/2 cups whole milk'
+  - 1 1/2 cups whole milk
   - '2 pounds mild Italian sausage, casings removed'
   - '1 medium onion, chopped'
-  - '1/2 cup finely chopped celery'
-  - '1 cup chopped fresh parsley'
+  - 1/2 cup finely chopped celery
+  - 1 cup chopped fresh parsley
   - '3 cloves garlic, finely chopped'
-  - 'Kosher salt'
-  - 'Freshly ground black pepper'
+  - Kosher salt
+  - Freshly ground black pepper
   - '1 1/2 pounds kale, ribs removed and leaves coarsely chopped'
-  - '1 1/4 cups grated Parmesan cheese*'
-  - '2 tablespoons chopped fresh basil (or 1 1/2 teaspoons dried)'
-  - '1 teaspoon chopped fresh sage (or 1/4 teaspoon dried)'
-  - '1 teaspoon chopped fresh rosemary (or 1/4 teaspoon dried)'
+  - 1 1/4 cups grated Parmesan cheese*
+  - 2 tablespoons chopped fresh basil (or 1 1/2 teaspoons dried)
+  - 1 teaspoon chopped fresh sage (or 1/4 teaspoon dried)
+  - 1 teaspoon chopped fresh rosemary (or 1/4 teaspoon dried)
+role: main
+vibe: holiday
 ---
 
 ## Directions

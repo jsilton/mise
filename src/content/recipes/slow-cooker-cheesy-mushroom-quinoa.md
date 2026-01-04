@@ -17,6 +17,8 @@ ingredients:
     pepper)
   - 1 cup shredded parmesan or Italian blend cheese
 totalTime: 190 min
+role: base
+vibe: comfort
 ---
 
 ## Directions

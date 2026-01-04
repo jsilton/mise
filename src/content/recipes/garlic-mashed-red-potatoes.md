@@ -11,6 +11,8 @@ ingredients:
   - 1/2 teaspoon salt
   - 1/4 cup grated Parmesan cheese
 totalTime: 35 min
+role: side
+vibe: fuel
 ---
 
 ## Directions

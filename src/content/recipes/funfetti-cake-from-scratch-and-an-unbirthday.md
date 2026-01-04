@@ -24,6 +24,8 @@ ingredients:
   - 6 Tbsp heavy cream
   - 2 teaspoons LorAnn Princess emulsion or vanilla extract
 totalTime: 90 min
+role: dessert
+vibe: project
 ---
 
 ## Directions

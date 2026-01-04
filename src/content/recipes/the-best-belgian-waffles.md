@@ -13,6 +13,8 @@ ingredients:
   - 2 cups milk
   - 1 teaspoon vanilla
 totalTime: 40 min
+role: main
+vibe: fuel
 ---
 
 ## Directions

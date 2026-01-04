@@ -12,6 +12,8 @@ ingredients:
   - salt to taste
   - pepper to taste
 totalTime: 20 min
+role: main
+vibe: speed
 ---
 
 ## Directions

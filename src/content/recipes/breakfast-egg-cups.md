@@ -13,6 +13,8 @@ ingredients:
   - 3/4 cup spinach
   - 1 ounce cheddar cheese
 totalTime: 35 min
+role: main
+vibe: fuel
 ---
 
 ## Directions

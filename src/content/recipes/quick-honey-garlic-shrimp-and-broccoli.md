@@ -13,6 +13,8 @@ ingredients:
   - 4 tablespoons honey
   - 3 tablespoons soy sauce
 totalTime: 10 min
+role: side
+vibe: speed
 ---
 
 ## Directions

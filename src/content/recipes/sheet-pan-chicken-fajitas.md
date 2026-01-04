@@ -17,6 +17,8 @@ ingredients:
   - 'Cilantro, optional'
   - 'Salsa or hot sauce, optional'
 totalTime: 30 min
+role: main
+vibe: speed
 ---
 
 ## Directions
@@ -30,3 +32,6 @@ totalTime: 30 min
 ## Nutrition
 
 - CALORIES: 341
+
+## Serving Suggestions
+Near East Rice Pilaf Hack, Everyday Arugula Salad

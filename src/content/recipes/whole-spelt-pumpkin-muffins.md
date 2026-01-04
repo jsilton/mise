@@ -14,6 +14,8 @@ ingredients:
   - 1/3 cup butter melted
   - 1 cup pumpkin puree
 totalTime: 23 min
+role: main
+vibe: speed
 ---
 
 ## Directions

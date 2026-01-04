@@ -1,10 +1,13 @@
 ---
-title: 'Flourless Chocolate Cake | King Arthur Baking'
+title: Flourless Chocolate Cake | King Arthur Baking
 ingredients:
-  - '3/4 cup (149g) granulated sugar'
-  - '1/4 teaspoon salt'
+  - 3/4 cup (149g) granulated sugar
+  - 1/4 teaspoon salt
   - '1 to 2 teaspoons espresso powder, optional'
   - '1 teaspoon vanilla extract, optional'
+role: dessert
+vibe: project
+servings: Unknown
 ---
 
 ## Directions

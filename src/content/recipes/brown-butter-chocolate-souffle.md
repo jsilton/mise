@@ -1,18 +1,29 @@
 ---
-title: 'Brown Butter–Chocolate Soufflé'
+title: Brown Butter–Chocolate Soufflé
 ingredients:
-  - 'Mastering the art of soufflé-making is easier than you might think so long as you follow these three rules: Never overwhip the egg whites (look for the consistency of softly whipped cream); always use a very hot oven; and remember to keep calm. Even for professionals there comes a moment when doubts seem to rise faster than the soufflé itself. But maintain your cool and it all usually works out just fine. Ideal for Passover, this gluten- and flour-free version gets layers of flavor from nutty brown butter. Serve straight from the oven for maximum impact—and minimal deflation.'
-  - '½ cup (1 stick) unsalted butter'
+  - >-
+    Mastering the art of soufflé-making is easier than you might think so long
+    as you follow these three rules: Never overwhip the egg whites (look for the
+    consistency of softly whipped cream); always use a very hot oven; and
+    remember to keep calm. Even for professionals there comes a moment when
+    doubts seem to rise faster than the soufflé itself. But maintain your cool
+    and it all usually works out just fine. Ideal for Passover, this gluten- and
+    flour-free version gets layers of flavor from nutty brown butter. Serve
+    straight from the oven for maximum impact—and minimal deflation.
+  - ½ cup (1 stick) unsalted butter
   - '¼ cup (56 g) plus ⅓ cup (75 g) superfine sugar, plus more for sprinkling'
   - '3.5 oz. bittersweet chocolate (70% cacao), chopped'
   - '½ cup heavy cream, plus more for serving'
   - '3 large eggs, room temperature, separated'
-  - '½ cup (50 g) Dutch-process cocoa powder'
-  - '1 Tbsp. dark rum (optional)'
-  - '½ tsp. Diamond Crystal or ¼ tsp. Morton kosher salt'
-  - '¼ tsp. cream of tartar'
-  - 'Powdered sugar (for serving; kosher for Passover if desired)'
+  - ½ cup (50 g) Dutch-process cocoa powder
+  - 1 Tbsp. dark rum (optional)
+  - ½ tsp. Diamond Crystal or ¼ tsp. Morton kosher salt
+  - ¼ tsp. cream of tartar
+  - Powdered sugar (for serving; kosher for Passover if desired)
   - 'SPECIAL EQUIPMENT: A 1½-qt. soufflé dish'
+role: main
+vibe: fuel
+servings: Unknown
 ---
 
 Mastering the art of soufflé-making is easier than you might think so long as you follow these three rules: Never overwhip the egg whites (look for the consistency of softly whipped cream); always use a very hot oven; and remember to keep calm. Even for professionals there comes a moment when doubts seem to rise faster than the soufflé itself. But maintain your cool and it all usually works out just fine. Ideal for Passover, this gluten- and flour-free version gets layers of flavor from nutty brown butter. Serve straight from the oven for maximum impact—and minimal deflation.

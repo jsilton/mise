@@ -24,6 +24,8 @@ ingredients:
   - 1/2 teaspoon sugar
   - 1 cup water
 totalTime: 75 min
+role: side
+vibe: comfort
 ---
 
 ## Directions

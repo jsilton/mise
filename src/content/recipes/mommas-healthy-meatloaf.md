@@ -17,6 +17,8 @@ ingredients:
   - salt and ground black pepper to taste
   - '1/4 cup ketchup, or to taste'
 totalTime: 60 min
+role: main
+vibe: comfort
 ---
 
 ## Directions

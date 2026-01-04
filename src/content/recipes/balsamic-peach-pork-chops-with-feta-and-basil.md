@@ -14,6 +14,9 @@ ingredients:
   - 1/2 cup fresh basil
   - crushed red pepper flakes
 totalTime: 25 min
+role: main
+vibe: speed
+servings: Unknown
 ---
 
 ## Directions

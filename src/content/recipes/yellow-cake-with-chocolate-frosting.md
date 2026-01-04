@@ -16,6 +16,9 @@ ingredients:
   - 3 cups powdered sugar
   - 1/3 cup milk
   - 1 teaspoon vanilla extract
+role: dessert
+vibe: project
+servings: Unknown
 ---
 
 ## Directions

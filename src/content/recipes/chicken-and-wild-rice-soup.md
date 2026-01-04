@@ -15,6 +15,8 @@ ingredients:
   - '1 pound boneless, skinless chicken thighs, medium dice'
   - 1/4 cup coarsely chopped Italian parsley
 totalTime: 80 min
+role: base
+vibe: comfort
 ---
 
 ## Directions

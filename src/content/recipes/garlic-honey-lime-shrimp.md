@@ -14,6 +14,8 @@ ingredients:
   - 3 dashes cayenne pepper
   - chopped parsley
 totalTime: 15 min
+role: main
+vibe: speed
 ---
 
 ## Directions
@@ -32,3 +34,6 @@ totalTime: 15 min
 - Fiber: 1g
 - Sugar: 26g
 - Protein: 47g
+
+## Serving Suggestions
+Couscous or Crusty Bread, Everyday Arugula Salad

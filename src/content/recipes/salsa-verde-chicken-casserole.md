@@ -15,6 +15,8 @@ ingredients:
     Optional toppings: avocado slices, thinly sliced green onions or fresh
     cilantro leaves
 totalTime: 40 min
+role: main
+vibe: fuel
 ---
 
 ## Nutrition
@@ -27,3 +29,6 @@ totalTime: 40 min
 - fiber): 26g
 - protein.: 637mg
 - sodium
+
+## Serving Suggestions
+Near East Rice Pilaf Hack, Everyday Arugula Salad

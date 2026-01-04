@@ -13,6 +13,8 @@ ingredients:
     melted, cooled
   - 4 eggs
 totalTime: 36 min
+role: dessert
+vibe: project
 ---
 
 ## Directions

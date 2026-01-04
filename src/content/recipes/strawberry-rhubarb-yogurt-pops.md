@@ -10,6 +10,8 @@ ingredients:
   - 4 oz. plain 2 percent Greek yogurt
   - '1/2 cup honey, preferably orange blossom'
 totalTime: 240 min
+role: main
+vibe: comfort
 ---
 
 ## Directions

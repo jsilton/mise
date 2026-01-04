@@ -15,6 +15,8 @@ ingredients:
   - 1 teaspoon vanilla extract
   - 1/2 cup plain greek yogurt
   - 1/3 cup milk of choice
+role: main
+vibe: fuel
 ---
 
 ## Directions

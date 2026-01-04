@@ -17,6 +17,8 @@ ingredients:
   - 6 tablespoons cold unsalted butter
   - '1 1/2 cups grated cheddar cheese, divided'
   - '3/4 to 1 cup buttermilk, plus extra for brushing'
+role: side
+vibe: fuel
 ---
 
 ## Directions

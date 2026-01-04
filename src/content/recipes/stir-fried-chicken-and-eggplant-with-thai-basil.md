@@ -17,6 +17,8 @@ ingredients:
     3/4 pound boneless, skinless chicken breasts, rinsed and dried, cut into
     small dice or minced
   - '1 cup Thai basil leaves, roughly chopped'
+role: main
+vibe: fuel
 ---
 
 ## Directions
@@ -37,3 +39,6 @@ ingredients:
 - Sugar: 5 gram
 - Fiber: 4 gramsCarbohydrate: 10 gram
 - Protein: 21 grams
+
+## Serving Suggestions
+Near East Rice Pilaf Hack, Everyday Arugula Salad

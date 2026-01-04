@@ -1,28 +1,30 @@
 ---
-title: 'Shrimp and Corn Chowder'
+title: Shrimp and Corn Chowder
 servings: '6'
 ingredients:
-  - 'Chowder'
+  - Chowder
   - '2 pounds medium shrimp, shelled and deveined'
   - '6 garlic cloves, minced'
   - '2 scallions, minced'
-  - '2 tablespoons fresh lime juice'
-  - 'Salt'
-  - '2 cups fresh or thawed frozen corn kernels'
-  - '2 cups whole milk'
-  - '2 tablespoons Annatto oil (recipe follows)'
+  - 2 tablespoons fresh lime juice
+  - Salt
+  - 2 cups fresh or thawed frozen corn kernels
+  - 2 cups whole milk
+  - 2 tablespoons Annatto oil (recipe follows)
   - '1 large red onion, finely chopped'
   - '1 red bell pepper, finely chopped'
-  - '1 teaspoon ground cumin'
+  - 1 teaspoon ground cumin
   - '3 plum tomatoes—peeled, seeded and finely chopped'
-  - '6 cups fish or chicken stock or canned low-sodium broth'
+  - 6 cups fish or chicken stock or canned low-sodium broth
   - '1 unripe (green) plantain, peeled and coarsely grated'
-  - '2 tablespoons cilantro leaves'
-  - '1/4 teaspoon cayenne pepper'
+  - 2 tablespoons cilantro leaves
+  - 1/4 teaspoon cayenne pepper
   - 'Tangy Corn Salsa, for serving'
-  - 'Annatto Oil'
-  - '1 cup corn oil'
-  - '¼ cup annatto seeds'
+  - Annatto Oil
+  - 1 cup corn oil
+  - ¼ cup annatto seeds
+role: side
+vibe: speed
 ---
 
 ## Directions

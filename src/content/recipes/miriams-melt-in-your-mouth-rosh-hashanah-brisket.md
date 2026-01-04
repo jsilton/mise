@@ -1,15 +1,17 @@
 ---
-title: 'Miriam’s Melt-In-Your-Mouth Rosh Hashanah Brisket'
+title: Miriam’s Melt-In-Your-Mouth Rosh Hashanah Brisket
 servings: 'Yields: approximately 40 thin slices'
 ingredients:
-  - '3 lb. first-cut brisket'
-  - '2 tbsp. paprika'
-  - '2 tbsp. garlic powder'
-  - '2 tbsp. dried chives (optional)'
-  - '1 tbsp. salt'
-  - '2 large Spanish onions'
-  - '½ cup balsamic vinegar'
-  - '⅓ cup honey'
+  - 3 lb. first-cut brisket
+  - 2 tbsp. paprika
+  - 2 tbsp. garlic powder
+  - 2 tbsp. dried chives (optional)
+  - 1 tbsp. salt
+  - 2 large Spanish onions
+  - ½ cup balsamic vinegar
+  - ⅓ cup honey
+role: main
+vibe: holiday
 ---
 
 ## Directions

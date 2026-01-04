@@ -15,6 +15,8 @@ ingredients:
   - '2 fresh mint leaves, chopped'
   - 'Vegetable oil, for deep-frying'
 totalTime: 760 min
+role: main
+vibe: comfort
 ---
 
 ## Directions

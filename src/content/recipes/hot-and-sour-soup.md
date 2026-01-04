@@ -28,6 +28,8 @@ ingredients:
   - 1 teaspoon whole white peppercorns
   - About 3 quarts cold water
 totalTime: 170 min
+role: main
+vibe: comfort
 ---
 
 ## Directions
@@ -38,3 +40,6 @@ totalTime: 170 min
 4. Chinese Chicken Stock:
 5. Put the chicken in a large stockpot and place over medium heat. Toss in the green onions, garlic, ginger, onion, and peppercorns. Pour about 3 quarts of cold water into the pot to cover the chicken by 1-inch. Simmer gently for 1 hour, uncovered, skimming off the foam on the surface periodically.
 6. Carefully remove the chicken from the pot and pass the stock through a strainer lined with cheesecloth to remove the solids and excess fat. Cool the chicken stock to room temperature before storing in the refrigerator, or chill it down over ice first.
+
+## Serving Suggestions
+Grilled Cheese, Crusty Bread

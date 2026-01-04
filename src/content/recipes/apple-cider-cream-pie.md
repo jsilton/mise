@@ -21,6 +21,8 @@ ingredients:
   - 1 cup heavy cream
   - 1/2 teaspoon cinnamon
 totalTime: 225 min
+role: dessert
+vibe: project
 ---
 
 ## Directions

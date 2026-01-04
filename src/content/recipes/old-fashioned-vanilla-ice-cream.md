@@ -10,6 +10,8 @@ ingredients:
   - 1 cup heavy cream
   - 2 teaspoons vanilla extract or vanilla bean paste
 totalTime: 15 min
+role: dessert
+vibe: speed
 ---
 
 ## Directions

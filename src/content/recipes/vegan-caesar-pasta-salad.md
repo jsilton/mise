@@ -17,6 +17,8 @@ ingredients:
     flavor)*
   - 'Freshly ground salt and pepper, to taste'
 totalTime: 25 min
+role: side
+vibe: fuel
 ---
 
 ## Directions

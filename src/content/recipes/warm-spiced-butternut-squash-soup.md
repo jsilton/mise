@@ -20,6 +20,8 @@ ingredients:
   - 1/2 cup pomegranate arils
   - 1/4 cup chopped fresh cilantro
 totalTime: 155 min
+role: main
+vibe: comfort
 ---
 
 ## Directions
@@ -38,3 +40,6 @@ totalTime: 155 min
 - fat: 0.8g
 - Sodium: 294mg
 - fat: 4g
+
+## Serving Suggestions
+Grilled Cheese, Crusty Bread

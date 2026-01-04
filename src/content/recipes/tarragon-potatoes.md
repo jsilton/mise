@@ -1,10 +1,13 @@
 ---
-title: 'Tarragon Potatoes'
+title: Tarragon Potatoes
 ingredients:
-  - 'Russet Potatoes'
-  - 'Olive Oil'
-  - 'Butter'
-  - 'Dried Tarragon'
+  - Russet Potatoes
+  - Olive Oil
+  - Butter
+  - Dried Tarragon
+role: side
+vibe: fuel
+servings: Unknown
 ---
 
 ## Directions

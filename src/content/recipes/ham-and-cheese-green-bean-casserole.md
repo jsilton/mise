@@ -1,18 +1,21 @@
 ---
-title: 'Ham and Cheese Green Bean Casserole'
+title: Ham and Cheese Green Bean Casserole
 ingredients:
   - 'Butter, for greasing the baking dish'
-  - '4 cups low-sodium chicken broth or water'
+  - 4 cups low-sodium chicken broth or water
   - '1 lb green beans, tripped and cut into 2-inch lengths'
-  - '2 (10.75-oz) cans condensed cream of mushroom soup'
-  - '3/4 cup half-and-half'
-  - '1 tsp garlic powder'
-  - '1/2 tsp kosher salt'
-  - '1/2 tsp freshly ground black pepper'
+  - 2 (10.75-oz) cans condensed cream of mushroom soup
+  - 3/4 cup half-and-half
+  - 1 tsp garlic powder
+  - 1/2 tsp kosher salt
+  - 1/2 tsp freshly ground black pepper
   - '1/2 lb ham, diced'
-  - '1/2 cup diced onion'
-  - '2 1/2 cups shredded cheddar cheese'
-  - '1 cup canned French fried onions'
+  - 1/2 cup diced onion
+  - 2 1/2 cups shredded cheddar cheese
+  - 1 cup canned French fried onions
+role: main
+vibe: fuel
+servings: Unknown
 ---
 
 ## Directions

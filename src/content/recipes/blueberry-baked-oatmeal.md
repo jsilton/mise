@@ -1,20 +1,29 @@
 ---
-title: 'Blueberry Baked Oatmeal'
+title: Blueberry Baked Oatmeal
 ingredients:
-  - '⅔ cup roughly chopped pecans'
-  - '2 cups old-fashioned oats'
-  - '2 teaspoons Frontier Co-op ground cinnamon'
-  - '1 teaspoon baking powder'
-  - '¾ teaspoon fine-grain sea salt (or ½ teaspoon regular table salt)'
-  - '¼ teaspoon Frontier Co-op ground nutmeg'
-  - '1 ¾ cups milk of choice (almond milk, coconut milk, oat milk or cow’s milk all work)'
-  - '⅓ cup maple syrup or honey'
-  - '2 large eggs or flax eggs'
+  - ⅔ cup roughly chopped pecans
+  - 2 cups old-fashioned oats
+  - 2 teaspoons Frontier Co-op ground cinnamon
+  - 1 teaspoon baking powder
+  - ¾ teaspoon fine-grain sea salt (or ½ teaspoon regular table salt)
+  - ¼ teaspoon Frontier Co-op ground nutmeg
+  - >-
+    1 ¾ cups milk of choice (almond milk, coconut milk, oat milk or cow’s milk
+    all work)
+  - ⅓ cup maple syrup or honey
+  - 2 large eggs or flax eggs
   - '3 tablespoons melted unsalted butter or coconut oil, divided'
-  - '2 teaspoons vanilla extract'
-  - '12 ounces or 1 pint fresh or frozen blueberries (or 2 ½ cups of your preferred berry/fruit, chopped into ½” pieces if necessary), divided'
-  - '2 teaspoons raw sugar (optional)'
-  - 'Optional toppings for serving: plain/vanilla yogurt or whipped cream, additional maple syrup or honey for drizzling, and/or additional fresh fruit'
+  - 2 teaspoons vanilla extract
+  - >-
+    12 ounces or 1 pint fresh or frozen blueberries (or 2 ½ cups of your
+    preferred berry/fruit, chopped into ½” pieces if necessary), divided
+  - 2 teaspoons raw sugar (optional)
+  - >-
+    Optional toppings for serving: plain/vanilla yogurt or whipped cream,
+    additional maple syrup or honey for drizzling, and/or additional fresh fruit
+role: main
+vibe: fuel
+servings: Unknown
 ---
 
 ## Directions

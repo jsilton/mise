@@ -21,6 +21,8 @@ ingredients:
   - '1/2 Lemon, juiced (or splash of vinegar)'
   - Black Pepper
 totalTime: 35 min
+role: base
+vibe: fuel
 ---
 
 ## Directions

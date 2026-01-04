@@ -1,13 +1,16 @@
 ---
-title: 'Play Dough'
+title: Play Dough
 ingredients:
-  - '1 cup flour'
-  - '1/2 cup salt'
-  - '2 tsp cream of tartar'
-  - '1 cup water'
-  - '1 tbsp cooking oil'
-  - 'Oil of wintergreen'
-  - 'Food coloring'
+  - 1 cup flour
+  - 1/2 cup salt
+  - 2 tsp cream of tartar
+  - 1 cup water
+  - 1 tbsp cooking oil
+  - Oil of wintergreen
+  - Food coloring
+role: base
+vibe: fuel
+servings: Unknown
 ---
 
 ## Directions

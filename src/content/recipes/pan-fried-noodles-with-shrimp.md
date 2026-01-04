@@ -21,6 +21,9 @@ ingredients:
   - ¼ cup beech or straw mushrooms
   - 1 tablespoon rice wine
 totalTime: 60 min
+role: main
+vibe: speed
+servings: Unknown
 ---
 
 ## Directions
@@ -46,3 +49,6 @@ totalTime: 60 min
 ## Nutrition
 
 - Calories: 584kcal | Carbohydrates: 57g | Protein: 36g | Fat: 23g | Saturated Fat: 16g | Cholesterol: 321mg | Sodium: 1127mg | Potassium: 410mg | Fiber: 1g | Sugar: 3g | Vitamin A: 5620IU | Vitamin C: 55mg | Calcium: 198mg | Iron: 20mg
+
+## Serving Suggestions
+Couscous or Crusty Bread, Everyday Arugula Salad

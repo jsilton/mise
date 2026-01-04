@@ -20,6 +20,8 @@ ingredients:
   - '4 garlic cloves, thinly sliced'
   - '1 Thai bird chile, sliced'
   - '4 scallions, thinly sliced'
+role: main
+vibe: fuel
 ---
 
 ## Directions

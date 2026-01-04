@@ -17,6 +17,8 @@ ingredients:
   - '2 c. shredded sharp cheddar cheese, divided (8oz package)'
   - '30 oz. package of frozen, shredded hash browns, thawed'
 totalTime: 75 min
+role: main
+vibe: comfort
 ---
 
 ## Directions

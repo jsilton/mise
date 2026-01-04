@@ -15,6 +15,9 @@ ingredients:
   - 1 tablespoon oyster sauce
   - '1/2 cup frozen peas, thawed'
 totalTime: 220 min
+role: base
+vibe: comfort
+servings: Unknown
 ---
 
 ## Directions

@@ -14,6 +14,9 @@ ingredients:
   - Optional – adjust sweetness
   - 1-2 teaspoons Maple Syrup - or 1-2 drops natural stevia
 totalTime: 10 min
+role: drink
+vibe: fuel
+servings: Unknown
 ---
 
 ## Directions

@@ -1,15 +1,18 @@
 ---
-title: 'Golden Veil'
+title: Golden Veil
 ingredients:
-  - '2 oz Plymouth Gin'
-  - '1.5 oz Montelobos Mezcal'
-  - '2 oz Remy Martin Cognac'
-  - '2.5 oz Fresh Lemon Juice'
-  - '1 oz Dom Benedictine'
-  - '0.5 oz Agave Syrup'
-  - '3 dashes Orange Bitters'
-  - '6 oz Prosecco'
-  - 'Lemon Peel and Sprig of Thyme for Garnish'
+  - 2 oz Plymouth Gin
+  - 1.5 oz Montelobos Mezcal
+  - 2 oz Remy Martin Cognac
+  - 2.5 oz Fresh Lemon Juice
+  - 1 oz Dom Benedictine
+  - 0.5 oz Agave Syrup
+  - 3 dashes Orange Bitters
+  - 6 oz Prosecco
+  - Lemon Peel and Sprig of Thyme for Garnish
+role: main
+vibe: fuel
+servings: Unknown
 ---
 
 The herbal complexity of Dom Benedictine complements the smokiness of mezcal and the richness of cognac. Prosecco adds effervescence, making it celebratory yet balanced.Assisted by ChatGPT

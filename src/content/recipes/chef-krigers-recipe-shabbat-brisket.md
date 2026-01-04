@@ -1,18 +1,21 @@
 ---
-title: "Chef Kriger's Recipe: Shabbat Brisket"
+title: 'Chef Kriger''s Recipe: Shabbat Brisket'
 ingredients:
-  - '1 First Cut Brisket'
-  - '1 Small Bag Baby Carrots'
-  - '1 Large Onion (Yellow)'
-  - 'Kosher Salt/Black Pepper'
-  - '1 Foil 1/2 Plan'
-  - '1 Large Bottle of Ketchup'
-  - '2-4 Tablespoons Worcestershire Sauce'
-  - '1 Tablespoon Garlic Powder'
-  - '1 Tablespoon Onion Powder'
-  - '2-4 Tablespoons Dijon Mustard'
-  - '2-4 Tablespoons Grape Jelly'
-  - '2 Tablespoons Brown Sugar'
+  - 1 First Cut Brisket
+  - 1 Small Bag Baby Carrots
+  - 1 Large Onion (Yellow)
+  - Kosher Salt/Black Pepper
+  - 1 Foil 1/2 Plan
+  - 1 Large Bottle of Ketchup
+  - 2-4 Tablespoons Worcestershire Sauce
+  - 1 Tablespoon Garlic Powder
+  - 1 Tablespoon Onion Powder
+  - 2-4 Tablespoons Dijon Mustard
+  - 2-4 Tablespoons Grape Jelly
+  - 2 Tablespoons Brown Sugar
+role: main
+vibe: holiday
+servings: Unknown
 ---
 
 ## Directions

@@ -11,6 +11,8 @@ ingredients:
   - 1 teaspoon salt
   - 1 teaspoon garlic powder
   - Dash of red pepper flakes (optional)
+role: main
+vibe: holiday
 ---
 
 ## Directions

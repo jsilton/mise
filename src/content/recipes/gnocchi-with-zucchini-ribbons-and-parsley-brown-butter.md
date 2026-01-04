@@ -14,6 +14,8 @@ ingredients:
   - ½ cup grated Parmesan cheese
   - ½ cup chopped fresh parsley
 totalTime: 20 min
+role: main
+vibe: speed
 ---
 
 ## Directions

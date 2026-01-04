@@ -22,6 +22,8 @@ ingredients:
   - 1/2 stick (1/4 cup) unsalted butter
   - Special equipment
   - two 10- by 2-inch round cake pans
+role: dessert
+vibe: project
 ---
 
 ## Directions

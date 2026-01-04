@@ -19,6 +19,8 @@ ingredients:
   - 1 tablespoon chopped fresh parsley or to taste
   - Salt & pepper to taste
 totalTime: 50 min
+role: main
+vibe: comfort
 ---
 
 ## Directions
@@ -44,3 +46,6 @@ You can sub the chicken breasts for chicken thighs if you prefer.Chicken is safe
 - Sugar: 2 gCarbohydrate: 26 g
 - Cholesterol: 78 mgServing Size: 1 serving
 - Protein: 29 g
+
+## Serving Suggestions
+Near East Rice Pilaf Hack, Everyday Arugula Salad

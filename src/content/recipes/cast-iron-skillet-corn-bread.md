@@ -15,6 +15,8 @@ ingredients:
   - '2 eggs, lightly beaten'
   - '8 tablespoons unsalted butter, melted'
 totalTime: 40 min
+role: side
+vibe: speed
 ---
 
 ## Directions

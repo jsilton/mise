@@ -14,6 +14,8 @@ ingredients:
   - 2 tbsp vegetable oil
   - 1 egg
 totalTime: 40 min
+role: main
+vibe: fuel
 ---
 
 ## Directions

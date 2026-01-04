@@ -20,6 +20,8 @@ ingredients:
   - Thinly sliced scallions
   - Sour cream
 totalTime: 90 min
+role: main
+vibe: comfort
 ---
 
 ## Directions

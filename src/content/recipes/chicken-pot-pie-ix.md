@@ -19,6 +19,8 @@ ingredients:
   - 2/3 cup milk
   - 2 (9 inch) unbaked pie crusts
 totalTime: 70 min
+role: dessert
+vibe: project
 ---
 
 ## Directions

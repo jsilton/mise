@@ -16,6 +16,8 @@ ingredients:
   - 1 cinnamon stick
   - 'Sweetened whipped cream, for serving'
 totalTime: 40 min
+role: main
+vibe: speed
 ---
 
 ## Directions

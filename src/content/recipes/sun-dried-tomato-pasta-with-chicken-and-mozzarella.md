@@ -21,6 +21,8 @@ ingredients:
   - 1/4 teaspoon salt to taste
   - spinach
 totalTime: 40 min
+role: main
+vibe: fuel
 ---
 
 ## Directions
@@ -47,3 +49,6 @@ Note: Make sure to salt the dish just enough to bring out of the flavors of basi
 - Saturated Fat: 9g
 - Cholesterol: 117mg
 - Sodium: 700mg
+
+## Serving Suggestions
+Near East Rice Pilaf Hack, Everyday Arugula Salad

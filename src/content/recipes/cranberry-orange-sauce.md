@@ -10,6 +10,8 @@ ingredients:
   - '½ cup sugar, or more, to taste'
   - 1 (12-ounce) bag fresh cranberries
 totalTime: 20 min
+role: base
+vibe: holiday
 ---
 
 ## Directions

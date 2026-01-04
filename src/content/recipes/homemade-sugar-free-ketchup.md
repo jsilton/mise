@@ -11,6 +11,9 @@ ingredients:
   - 1 pinch cinnamon
   - 'salt and pepper, to taste'
 totalTime: 30 min
+role: main
+vibe: speed
+servings: Unknown
 ---
 
 ## Directions

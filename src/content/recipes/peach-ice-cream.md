@@ -1,14 +1,16 @@
 ---
-title: 'Peach Ice Cream'
-servings: 'Serves 6-8'
+title: Peach Ice Cream
+servings: Serves 6-8
 ingredients:
-  - '1 1/2 cups whole milk'
-  - '2 eggs'
-  - '2 egg yolks'
-  - '1 1/4 cups sugar'
-  - '1 1/4 cups heavy cream'
+  - 1 1/2 cups whole milk
+  - 2 eggs
+  - 2 egg yolks
+  - 1 1/4 cups sugar
+  - 1 1/4 cups heavy cream
   - '1 pint ripe peaches, chopped, with peel on'
-  - 'Juice of 1/2 lemon'
+  - Juice of 1/2 lemon
+role: dessert
+vibe: fuel
 ---
 
 ## Directions

@@ -17,6 +17,8 @@ ingredients:
   - 2 Tablespoons Butter
   - 'Whipped Cream, For Serving'
 totalTime: 250 min
+role: dessert
+vibe: project
 ---
 
 ## Directions

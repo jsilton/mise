@@ -14,6 +14,8 @@ ingredients:
   - Steamed sushi rice
   - 'Crumbled nori, for serving'
 totalTime: 45 min
+role: main
+vibe: fuel
 ---
 
 ## Directions

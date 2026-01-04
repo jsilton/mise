@@ -16,6 +16,9 @@ ingredients:
   - 1/2 cup chocolate chips
   - 2 cups shredded zucchini (squeezed in a towel to remove extra liquid)
 totalTime: 31 min
+role: main
+vibe: fuel
+servings: Unknown
 ---
 
 ## Directions

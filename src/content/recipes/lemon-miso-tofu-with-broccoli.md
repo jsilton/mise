@@ -23,6 +23,8 @@ ingredients:
   - '1 pound broccoli (about 2 small heads), cut into small florets'
   - '2 scallions, trimmed and thinly chopped'
   - 'Cooked rice, to serve'
+role: side
+vibe: fuel
 ---
 
 ## Directions

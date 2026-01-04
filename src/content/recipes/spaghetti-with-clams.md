@@ -11,6 +11,8 @@ ingredients:
   - 1/2 dried red chili pepper or 1/4 teaspoon hot red pepper flakes
   - 1/3 cup Noilly Prat or other vermouth or white wine
   - 1 to 2 tablespoons chopped fresh Italian parsley
+role: main
+vibe: speed
 ---
 
 ## Directions

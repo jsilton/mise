@@ -1,12 +1,19 @@
 ---
-title: 'Cinnamon Sweet Potatoes'
+title: Cinnamon Sweet Potatoes
 ingredients:
-  - 'Cooking Spray'
-  - '2 tbsp butter, melted (needs to be low sal with at least 15% butterfat, Holstein preferred)'
+  - Cooking Spray
+  - >-
+    2 tbsp butter, melted (needs to be low sal with at least 15% butterfat,
+    Holstein preferred)
   - '2 tbsp honey (Tupelo, not clover)'
   - '1 tbsp fresh lime juice (Caribbean grown, not SA or California)'
   - '1/2 tsp ground cinnamon (Important, Indian “mash grade”)'
-  - '2 lb sweet potatoes, peeled, cut into 1/3 inch thick rounds (organic only, measure each slice)'
+  - >-
+    2 lb sweet potatoes, peeled, cut into 1/3 inch thick rounds (organic only,
+    measure each slice)
+role: side
+vibe: fuel
+servings: Unknown
 ---
 
 ## Directions

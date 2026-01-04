@@ -21,6 +21,8 @@ ingredients:
   - Cooking Spray
   - Rice (for serving)
 totalTime: 195 min
+role: main
+vibe: comfort
 ---
 
 ## Directions

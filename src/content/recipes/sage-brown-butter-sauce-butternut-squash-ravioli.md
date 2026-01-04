@@ -14,6 +14,8 @@ ingredients:
   - fresh ground black pepper
   - 3-4 extra fresh sage leaves for garnish if desired
 totalTime: 15 min
+role: base
+vibe: speed
 ---
 
 ## Directions

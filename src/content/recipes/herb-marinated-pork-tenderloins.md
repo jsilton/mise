@@ -15,6 +15,8 @@ ingredients:
   - 3 pork tenderloins (about 1 pound each)
   - Freshly ground black pepper
 totalTime: 25 min
+role: main
+vibe: speed
 ---
 
 ## Directions

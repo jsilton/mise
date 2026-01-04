@@ -1,15 +1,18 @@
 ---
-title: 'Cranberry Crunch'
+title: Cranberry Crunch
 ingredients:
   - '3 cups apples, peeled and sliced thin'
   - '2 cups cranberries, whole bag'
-  - '3/4 cup sugar'
-  - 'Topping'
-  - '1 1/2 cup oatmeal'
-  - '1/2 cup brown sugar'
-  - '1/3 cup flour'
+  - 3/4 cup sugar
+  - Topping
+  - 1 1/2 cup oatmeal
+  - 1/2 cup brown sugar
+  - 1/3 cup flour
   - '1 stick marine, melted'
   - '1/3 cup chopped pecans, optional'
+role: main
+vibe: holiday
+servings: Unknown
 ---
 
 ## Directions

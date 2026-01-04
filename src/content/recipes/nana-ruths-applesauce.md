@@ -1,12 +1,15 @@
 ---
-title: 'Nana Ruth’s Applesauce'
+title: Nana Ruth’s Applesauce
 ingredients:
-  - '6 lbs McIntosh apples'
-  - '1/4-1/2 cup Sugar'
-  - '1/4 jar Honey'
-  - '2-3 shakes Cinnamon'
-  - '1 shake Nutmeg'
-  - '1 lemon'
+  - 6 lbs McIntosh apples
+  - 1/4-1/2 cup Sugar
+  - 1/4 jar Honey
+  - 2-3 shakes Cinnamon
+  - 1 shake Nutmeg
+  - 1 lemon
+role: base
+vibe: fuel
+servings: Unknown
 ---
 
 ## Directions

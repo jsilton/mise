@@ -1,10 +1,13 @@
 ---
-title: "Nana's Biscuits"
+title: Nana's Biscuits
 ingredients:
-  - '¾ Cups buttermilk'
-  - 'Pinch of Baking Soda'
-  - '2 cups Self Rising Flour (sifted)'
-  - '1/4 cup Crisco'
+  - ¾ Cups buttermilk
+  - Pinch of Baking Soda
+  - 2 cups Self Rising Flour (sifted)
+  - 1/4 cup Crisco
+role: main
+vibe: fuel
+servings: Unknown
 ---
 
 ## Directions

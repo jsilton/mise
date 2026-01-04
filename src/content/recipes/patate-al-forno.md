@@ -10,6 +10,8 @@ ingredients:
   - 1/2 tsp Garlic Powder (Fresh garlic burns at this heat)
   - 2 sprigs Fresh Rosemary (chopped)
 totalTime: 50 min
+role: main
+vibe: fuel
 ---
 
 The definitive Roman-style roasted potato. The extra step of par-boiling creates a rough, starchy exterior that shatters into a glass-like crunch when roasted, while the inside stays creamy.

@@ -1,14 +1,17 @@
 ---
-title: 'Prohibition-Style Gin Lemon Fizz'
+title: Prohibition-Style Gin Lemon Fizz
 ingredients:
-  - '3 oz Plymouth Gin'
-  - '2 oz Montelobos Mezcal'
-  - '1.75 oz Remy Martin Cognac'
-  - '3 oz fresh lemon juice'
-  - '0.75 oz agave syrup (optional)'
+  - 3 oz Plymouth Gin
+  - 2 oz Montelobos Mezcal
+  - 1.75 oz Remy Martin Cognac
+  - 3 oz fresh lemon juice
+  - 0.75 oz agave syrup (optional)
   - '7 dashes orange bitters (4 in the shaker, 1 dash per glass)'
   - 'Spindrift Lemon (to top, about 12 oz)'
-  - 'Lemon peel for garnish'
+  - Lemon peel for garnish
+role: drink
+vibe: fuel
+servings: Unknown
 ---
 
 3 servings, inspired by ChatGPT

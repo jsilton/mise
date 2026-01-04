@@ -14,6 +14,8 @@ ingredients:
   - 1/2 cup water
   - 1/2 cup green onions cut into 1/2 inch pieces
 totalTime: 190 min
+role: main
+vibe: comfort
 ---
 
 ## Directions

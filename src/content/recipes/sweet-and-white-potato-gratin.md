@@ -1,19 +1,22 @@
 ---
-title: 'Sweet & White Potato Gratin'
+title: Sweet & White Potato Gratin
 ingredients:
-  - '2 lbs of sweet potatoes'
-  - '1 1/2 lbs of white potatoes'
-  - '2 1/2 cup shredded gruyere cheese'
-  - '2 cup finely grated parmesan reggiano cheese'
-  - '3 cup heavy cream'
-  - '2 tsp salt'
-  - '1 tsp pepper'
-  - '3 cloves minced garlic'
-  - '1 tbsp fresh chopped thyme'
-  - '1 tbsp fresh chopped sage'
-  - '1 tsp fresh chopped rosemary'
-  - '1/4 tsp nutmeg'
-  - 'Dash of cayenne pepper'
+  - 2 lbs of sweet potatoes
+  - 1 1/2 lbs of white potatoes
+  - 2 1/2 cup shredded gruyere cheese
+  - 2 cup finely grated parmesan reggiano cheese
+  - 3 cup heavy cream
+  - 2 tsp salt
+  - 1 tsp pepper
+  - 3 cloves minced garlic
+  - 1 tbsp fresh chopped thyme
+  - 1 tbsp fresh chopped sage
+  - 1 tsp fresh chopped rosemary
+  - 1/4 tsp nutmeg
+  - Dash of cayenne pepper
+role: main
+vibe: fuel
+servings: Unknown
 ---
 
 ## Directions

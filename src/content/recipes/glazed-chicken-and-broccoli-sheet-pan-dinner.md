@@ -11,6 +11,8 @@ ingredients:
   - '1 medium head broccoli, cut into small florets (about 4 cups)'
   - 2 tablespoons purchased teriyaki glaze
 totalTime: 70 min
+role: side
+vibe: comfort
 ---
 
 ## Directions

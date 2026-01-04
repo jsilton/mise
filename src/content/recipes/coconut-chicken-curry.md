@@ -16,6 +16,8 @@ ingredients:
   - 3 teaspoon – garam masala spice
   - '1 cup – brown rice, raw'
   - 2 medium – mango
+role: main
+vibe: fuel
 ---
 
 ## Directions
@@ -35,3 +37,6 @@ ingredients:
 - Fiber: 8 g 32%
 - Protein: 28 g 56%
 - Sugar: 23 g
+
+## Serving Suggestions
+Near East Rice Pilaf Hack, Everyday Arugula Salad

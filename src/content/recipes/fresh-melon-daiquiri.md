@@ -10,6 +10,8 @@ ingredients:
   - 1/2 cup melon liqueur
   - '12 pieces cantaloupe, 1/2” dice'
   - 4 pieces sugar cane skewers
+role: main
+vibe: speed
 ---
 
 ## Directions

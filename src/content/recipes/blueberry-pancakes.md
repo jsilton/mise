@@ -14,6 +14,8 @@ ingredients:
   - 2 tablespoons honey
   - 3/4 cup fresh blueberries or blackberries
 totalTime: 20 min
+role: dessert
+vibe: project
 ---
 
 ## Directions

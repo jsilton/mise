@@ -18,6 +18,8 @@ ingredients:
   - 1 cup finely grated Parmigiano Reggiano (use a microplane)
   - 5 room-temperature eggs
 totalTime: 165 min
+role: dessert
+vibe: project
 ---
 
 ## Directions

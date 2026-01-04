@@ -24,6 +24,8 @@ ingredients:
   - 8 (8-inch) flour tortillas
   - chopped fresh cilantro or scallions (or both!)
 totalTime: 60 min
+role: base
+vibe: fuel
 ---
 
 ## Directions

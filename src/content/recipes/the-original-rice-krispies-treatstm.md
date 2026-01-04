@@ -10,6 +10,8 @@ ingredients:
   - 5-1/2 cups JET-PUFFED Miniature Marshmallows
   - 6 cups Kellogg's® Rice Krispies® cereal
 totalTime: 40 min
+role: dessert
+vibe: project
 ---
 
 ## Directions

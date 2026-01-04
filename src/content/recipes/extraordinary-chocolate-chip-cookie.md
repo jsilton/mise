@@ -1,17 +1,19 @@
 ---
-title: 'Extraordinary Chocolate Chip Cookie'
-servings: '24 cookies'
+title: Extraordinary Chocolate Chip Cookie
+servings: 24 cookies
 ingredients:
-  - '2 3/4 cups unbleached all-purpose flour'
-  - '1 1/4 teaspoons kosher salt'
-  - '1 teaspoon baking powder'
-  - '1 teaspoon baking soda'
+  - 2 3/4 cups unbleached all-purpose flour
+  - 1 1/4 teaspoons kosher salt
+  - 1 teaspoon baking powder
+  - 1 teaspoon baking soda
   - '1 1/4 cups (2 1/2 sticks) unsalted butter, room temperature'
-  - '1 1/4 cups dark-brown sugar'
-  - '3/4 cup granulated sugar'
+  - 1 1/4 cups dark-brown sugar
+  - 3/4 cup granulated sugar
   - '2 large eggs, room temperature'
-  - '1 teaspoon pure vanilla extract'
-  - '4 1/2 cups semisweet chocolate chips'
+  - 1 teaspoon pure vanilla extract
+  - 4 1/2 cups semisweet chocolate chips
+role: dessert
+vibe: fuel
 ---
 
 ## Directions

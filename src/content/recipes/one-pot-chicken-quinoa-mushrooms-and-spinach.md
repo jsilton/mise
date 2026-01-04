@@ -16,6 +16,8 @@ ingredients:
   - 1 1/2 cups sliced spinach leaves
   - 'Salt and pepper, to taste'
 totalTime: 40 min
+role: base
+vibe: fuel
 ---
 
 ## Directions

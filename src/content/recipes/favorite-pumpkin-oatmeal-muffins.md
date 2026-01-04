@@ -15,6 +15,8 @@ ingredients:
   - ¼ teaspoon salt
   - 1/4 cup chocolate chips optional
 totalTime: 25 min
+role: main
+vibe: speed
 ---
 
 ## Directions

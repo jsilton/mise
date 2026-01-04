@@ -16,6 +16,8 @@ ingredients:
     rice vinegar 6 large garlic cloves, chopped (1/4 cup) 3 tablespoons hot
     sesame oil 3 tablespoons fish sauce 2 scallions, chopped 3/4 teaspoon sugar
 totalTime: 375 min
+role: main
+vibe: comfort
 ---
 
 ## Directions

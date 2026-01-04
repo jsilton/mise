@@ -20,6 +20,8 @@ ingredients:
   - Flaky Salt
   - Chili Pepper Flakes
 totalTime: 45 min
+role: main
+vibe: fuel
 ---
 
 ## Directions

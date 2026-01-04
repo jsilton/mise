@@ -19,6 +19,8 @@ ingredients:
   - '1/2 cup (120ml) buttermilk, room temperature*'
   - cream cheese frosting for topping
 totalTime: 40 min
+role: dessert
+vibe: project
 ---
 
 ## Directions

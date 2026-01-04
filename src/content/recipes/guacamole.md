@@ -15,6 +15,8 @@ ingredients:
   - 1 tablespoon chopped cilantro
   - '1 clove garlic, minced'
 totalTime: 100 min
+role: main
+vibe: comfort
 ---
 
 ## Directions

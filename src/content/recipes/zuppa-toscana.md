@@ -15,6 +15,8 @@ ingredients:
   - 1 cup coconut milk full fat
   - Sea Salt and pepper to taste
 totalTime: 50 min
+role: main
+vibe: fuel
 ---
 
 ## Directions

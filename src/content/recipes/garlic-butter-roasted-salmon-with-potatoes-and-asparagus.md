@@ -15,6 +15,8 @@ ingredients:
   - '1 ¼ pounds salmon fillet, skinned and cut into 4 portions'
   - Chopped parsley for garnish
 totalTime: 50 min
+role: side
+vibe: fuel
 ---
 
 ## Directions

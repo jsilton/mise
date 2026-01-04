@@ -22,6 +22,8 @@ ingredients:
   - '25 to 30 thin round dumpling wrappers, preferably 3 1/4-inch diameter'
   - 1/4 cup finely diced carrots
 totalTime: 75 min
+role: main
+vibe: comfort
 ---
 
 ## Directions

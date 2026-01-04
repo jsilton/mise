@@ -15,6 +15,9 @@ ingredients:
   - brown sugar
   - golden raisins
 totalTime: 90 min
+role: dessert
+vibe: comfort
+servings: Unknown
 ---
 
 ## Directions

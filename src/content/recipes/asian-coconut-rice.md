@@ -10,6 +10,8 @@ ingredients:
   - 1 pinch salt
   - 1 1/2 cups uncooked jasmine rice
 totalTime: 25 min
+role: base
+vibe: speed
 ---
 
 ## Directions

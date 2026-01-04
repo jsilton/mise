@@ -18,6 +18,8 @@ ingredients:
   - >-
     Any combination of kimchi, chile crisp, toasted nori sheets, and sliced
     cucumber, avocado or radish, for serving
+role: main
+vibe: fuel
 ---
 
 ## Directions
@@ -40,3 +42,6 @@ ingredients:
 - Sugar: 10 gram
 - Fiber: 2 gramsCarbohydrate: 92 gram
 - Protein: 49 grams
+
+## Serving Suggestions
+Jasmine Rice, Smashed Cucumber Salad

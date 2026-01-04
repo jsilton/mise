@@ -1,14 +1,16 @@
 ---
-title: "Grandmommy's Pecan Pie"
-servings: '2 pies'
+title: Grandmommy's Pecan Pie
+servings: 2 pies
 ingredients:
   - '1/2 stick margarine, melted'
-  - '1 1/4 cups sugar'
-  - '1/2 cup Karo (white)'
+  - 1 1/4 cups sugar
+  - 1/2 cup Karo (white)
   - '4 eggs, slightly beaten'
-  - '1 tsp vanilla'
-  - '2 cups of pecans'
-  - '2 pie shells'
+  - 1 tsp vanilla
+  - 2 cups of pecans
+  - 2 pie shells
+role: dessert
+vibe: project
 ---
 
 ## Directions

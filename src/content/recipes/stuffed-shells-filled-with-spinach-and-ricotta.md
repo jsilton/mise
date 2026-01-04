@@ -16,6 +16,8 @@ ingredients:
   - '2 ounces Parmesan, grated about 1/2 cup'
   - Freshly ground pepper
   - '2 cups marinara sauce, preferably homemade'
+role: main
+vibe: fuel
 ---
 
 ## Directions

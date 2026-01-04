@@ -1,15 +1,18 @@
 ---
-title: 'Brownie Protein Balls'
+title: Brownie Protein Balls
 ingredients:
-  - '1/2 cup almond butter'
-  - '1/2 cup chocolate protein powder'
-  - '1/4 cup almond flour'
-  - '2 tablespoons cocoa powder'
-  - '3-4 tablespoons maple syrup'
-  - '2 tablespoons flax'
-  - '1/4 cup chocolate chips'
-  - '1-2 tablespoons milk or water'
-  - 'A pinch of salt'
+  - 1/2 cup almond butter
+  - 1/2 cup chocolate protein powder
+  - 1/4 cup almond flour
+  - 2 tablespoons cocoa powder
+  - 3-4 tablespoons maple syrup
+  - 2 tablespoons flax
+  - 1/4 cup chocolate chips
+  - 1-2 tablespoons milk or water
+  - A pinch of salt
+role: dessert
+vibe: fuel
+servings: Unknown
 ---
 
 ## Directions

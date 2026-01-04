@@ -1,23 +1,27 @@
 ---
-title: 'Enchilada Skillet'
-servings: 'Serves 6'
+title: Enchilada Skillet
+servings: Serves 6
 ingredients:
   - '2 tsp avocado, or olive oil'
   - '1 yellow onion, diced'
   - '1 lb ground grass fed beef, or turkey'
   - '1 medium yellow squash, chopped'
   - '1 medium zucchini, chopped'
-  - '2 tsp ground cumin'
-  - '1 tsp paprika'
-  - '1 tsp garlic powder'
-  - '1 tsp sea salt'
-  - '1/2 tsp fresh ground pepper'
-  - '1/2 cup fresh corn kernels'
+  - 2 tsp ground cumin
+  - 1 tsp paprika
+  - 1 tsp garlic powder
+  - 1 tsp sea salt
+  - 1/2 tsp fresh ground pepper
+  - 1/2 cup fresh corn kernels
   - '1 cup cooked black beans, rinsed well if using canned'
   - '4 sprouted corn tortillas, sliced into strips (I love Food for Life brand)'
-  - '12 ounces enchilada sauce – look for minimal ingredients if using store bought'
+  - >-
+    12 ounces enchilada sauce – look for minimal ingredients if using store
+    bought
   - '1/2 cup grated mozzarella or colby jack, optional'
   - 'fresh cilantro, or green onions garnish'
+role: main
+vibe: speed
 ---
 
 ## Directions

@@ -15,6 +15,8 @@ ingredients:
   - 1 1/2 cups heavy cream
   - 1/2 cup whole milk
   - 2 cups vanilla bean ice cream
+role: dessert
+vibe: fuel
 ---
 
 ## Directions

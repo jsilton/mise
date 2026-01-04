@@ -28,6 +28,8 @@ ingredients:
   - 1 tablespoon cornstarch
   - 'Sesame seeds, for garnish (optional)'
 totalTime: 60 min
+role: main
+vibe: fuel
 ---
 
 ## Directions

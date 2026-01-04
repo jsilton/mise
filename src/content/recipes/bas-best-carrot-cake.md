@@ -28,6 +28,8 @@ ingredients:
   - Generous pinch of kosher salt
   - 4 cups powdered sugar
   - Candied Carrot Coins (optional)
+role: dessert
+vibe: project
 ---
 
 ## Directions

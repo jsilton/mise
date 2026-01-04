@@ -19,6 +19,8 @@ ingredients:
   - 2/3 cup water (plus more for assembly)
   - 3 packages dumpling wrappers
 totalTime: 135 min
+role: main
+vibe: project
 ---
 
 ## Directions

@@ -1,18 +1,20 @@
 ---
-title: 'The New England Express'
-servings: '8 servings'
+title: The New England Express
+servings: 8 servings
 ingredients:
-  - 'Thyme Syrup'
-  - '⅓ cup sugar'
-  - '8 sprigs thyme'
-  - 'Assembly'
-  - '2 cups apple cider'
-  - '1½ cups dark rum'
-  - '¾ cup fresh lime juice'
-  - '1 teaspoon Angostura bitters'
-  - 'Club soda'
-  - '8 sprigs thyme'
-  - '8 lime slices'
+  - Thyme Syrup
+  - ⅓ cup sugar
+  - 8 sprigs thyme
+  - Assembly
+  - 2 cups apple cider
+  - 1½ cups dark rum
+  - ¾ cup fresh lime juice
+  - 1 teaspoon Angostura bitters
+  - Club soda
+  - 8 sprigs thyme
+  - 8 lime slices
+role: main
+vibe: fuel
 ---
 
 ## Directions

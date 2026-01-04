@@ -1,18 +1,21 @@
 ---
-title: 'Corn Bread Dressing'
+title: Corn Bread Dressing
 ingredients:
-  - '1 8x8 tray corn bread (made from box or from store)'
-  - '1-1.5 cups of chicken stock or canned broth (no salt added)'
-  - '3/4 cup unsalted butter'
+  - 1 8x8 tray corn bread (made from box or from store)
+  - 1-1.5 cups of chicken stock or canned broth (no salt added)
+  - 3/4 cup unsalted butter
   - '4 shallots, finely chopped'
   - '2 large garlic cloves, finely chopped'
   - '1/4 lb button mushrooms, diced'
-  - '1/4 cup diced celery'
-  - '2 tablespoons chopped fresh parsley'
-  - '1 tablespoon fresh thyme leaves'
-  - '1/4 teaspoon ground sage'
-  - 'kosher salt'
-  - 'freshly ground pepper'
+  - 1/4 cup diced celery
+  - 2 tablespoons chopped fresh parsley
+  - 1 tablespoon fresh thyme leaves
+  - 1/4 teaspoon ground sage
+  - kosher salt
+  - freshly ground pepper
+role: base
+vibe: fuel
+servings: Unknown
 ---
 
 ## Directions

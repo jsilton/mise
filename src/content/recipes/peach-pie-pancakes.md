@@ -1,16 +1,22 @@
 ---
-title: 'Peach Pie Pancakes'
+title: Peach Pie Pancakes
 servings: 'Yields: 16 silver dollar pancakes'
 ingredients:
-  - '1 cup (120g) white whole wheat flour or gluten-free* flour (measured like this)'
-  - '1 ½ tsp baking powder'
-  - '¾ tsp ground cinnamon'
-  - '¼ tsp salt'
+  - >-
+    1 cup (120g) white whole wheat flour or gluten-free* flour (measured like
+    this)
+  - 1 ½ tsp baking powder
+  - ¾ tsp ground cinnamon
+  - ¼ tsp salt
   - '1 tsp unsalted butter or coconut oil, melted'
-  - '2 tsp vanilla extract'
-  - '½ cup (120g) plain nonfat Greek yogurt'
-  - '¾ cup (180mL) nonfat milk'
-  - '½ cup (100g) finely diced peaches (fresh or canned in 100% juice and drained)'
+  - 2 tsp vanilla extract
+  - ½ cup (120g) plain nonfat Greek yogurt
+  - ¾ cup (180mL) nonfat milk
+  - >-
+    ½ cup (100g) finely diced peaches (fresh or canned in 100% juice and
+    drained)
+role: dessert
+vibe: project
 ---
 
 ## Directions

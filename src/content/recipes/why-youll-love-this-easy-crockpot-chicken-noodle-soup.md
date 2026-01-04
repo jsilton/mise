@@ -17,6 +17,8 @@ ingredients:
   - 6 ounces whole wheat wide egg noodles about 4 heaping cups
   - Chopped fresh parsley
 totalTime: 250 min
+role: main
+vibe: comfort
 ---
 
 ## Directions
@@ -69,3 +71,6 @@ INGREDIENT NOTE: I personally love rosemary, so I find three stalks to be perfec
 - CHOLESTEROL: 96mg
 - FIBER: 2g
 - SUGAR: 3g
+
+## Serving Suggestions
+Near East Rice Pilaf Hack, Everyday Arugula Salad

@@ -1,16 +1,22 @@
 ---
-title: 'Strawberry Summer Cake'
+title: Strawberry Summer Cake
 servings: 'Servings: 8 to 10'
 ingredients:
-  - '6 tablespoons (85 grams) unsalted butter, at room temperature, plus extra for pie plate'
-  - '1 1/2 cups (188 grams) all-purpose flour (can swap 3/4 cup or 94 grams all-purpose flour with 3/4 cup or 75 grams of barley flour, see Note)'
-  - '1 1/2 teaspoons baking powder'
-  - '1/2 teaspoon table salt'
-  - '1 cup (200 grams) plus 2 tablespoons (25 grams) granulated sugar'
-  - '1 large egg'
-  - '1/2 cup (118 ml) milk'
-  - '1 teaspoon (5 ml) vanilla extract'
+  - >-
+    6 tablespoons (85 grams) unsalted butter, at room temperature, plus extra
+    for pie plate
+  - >-
+    1 1/2 cups (188 grams) all-purpose flour (can swap 3/4 cup or 94 grams
+    all-purpose flour with 3/4 cup or 75 grams of barley flour, see Note)
+  - 1 1/2 teaspoons baking powder
+  - 1/2 teaspoon table salt
+  - 1 cup (200 grams) plus 2 tablespoons (25 grams) granulated sugar
+  - 1 large egg
+  - 1/2 cup (118 ml) milk
+  - 1 teaspoon (5 ml) vanilla extract
   - '1 pound (450 grams) strawberries, hulled and halved'
+role: dessert
+vibe: project
 ---
 
 ## Directions

@@ -20,6 +20,8 @@ ingredients:
   - 2 cups fresh spinach leaves
   - 1/4 cup chopped chives
 totalTime: 80 min
+role: base
+vibe: fuel
 ---
 
 ## Directions
