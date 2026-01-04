@@ -3,7 +3,11 @@ title: Prohibition-Style Gin Lemon Fizz
 difficulty: easy
 cookingMethods: []
 dietary: [vegetarian, vegan]
-occasions: []
+occasions: [entertaining, date-night]
+seasons: [summer]
+nutritionalDensity: light
+leftovers: poor
+equipment: [cocktail-shaker]
 flavorProfile: [acidic, rich, herbaceous, smoky]
 cuisines: [American]
 role: drink

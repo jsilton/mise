@@ -3,7 +3,12 @@ title: Pumpkin Breakfast Cookies
 difficulty: intermediate
 cookingMethods: [bake, blend]
 dietary: [vegetarian]
-occasions: []
+occasions: [meal-prep, post-workout, kids-approved]
+seasons: [fall, winter]
+nutritionalDensity: moderate
+leftovers: excellent
+equipment: [baking-sheet, mixing-bowl]
+advancePrep: [make-ahead, freeze-ahead]
 flavorProfile: [sweet]
 cuisines: [American]
 role: main

@@ -3,7 +3,12 @@ title: Old-Fashioned Vanilla Ice Cream
 difficulty: intermediate
 cookingMethods: [simmer, boil]
 dietary: [vegetarian]
-occasions: []
+occasions: [entertaining, indulgent]
+seasons: [year-round]
+nutritionalDensity: hearty
+leftovers: excellent
+equipment: [ice-cream-maker, saucepan]
+advancePrep: [make-ahead]
 flavorProfile: [sweet, rich]
 cuisines: [American]
 role: dessert

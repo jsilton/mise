@@ -3,7 +3,11 @@ title: Citrus Beet Chicken
 difficulty: intermediate
 cookingMethods: [bake, roast]
 dietary: []
-occasions: []
+occasions: [weeknight, date-night, entertaining]
+seasons: [fall, winter]
+nutritionalDensity: moderate
+leftovers: good
+equipment: [sheet-pan]
 flavorProfile: [spicy, sweet, acidic, rich]
 cuisines: [American]
 role: main

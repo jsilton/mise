@@ -3,7 +3,11 @@ title: Made-In-The-Pan Chocolate Cake
 difficulty: easy
 cookingMethods: [bake]
 dietary: [vegetarian]
-occasions: []
+occasions: [weeknight, kids-approved, comfort-food, quick-lunch]
+seasons: [year-round]
+nutritionalDensity: hearty
+leftovers: excellent
+equipment: [baking-dish]
 flavorProfile: [sweet, acidic, rich]
 cuisines: [American]
 role: dessert

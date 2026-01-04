@@ -3,7 +3,11 @@ title: Peach Pie Biscuit Bombs
 difficulty: easy
 cookingMethods: [bake]
 dietary: [vegetarian]
-occasions: []
+occasions: [entertaining, summer, kids-approved]
+seasons: [summer]
+nutritionalDensity: hearty
+leftovers: good
+equipment: [baking-sheet, saucepan]
 flavorProfile: [sweet, savory, rich]
 cuisines: [American]
 role: dessert

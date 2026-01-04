@@ -3,7 +3,12 @@ title: Peach Ice Cream
 difficulty: intermediate
 cookingMethods: [simmer, boil]
 dietary: [vegetarian]
-occasions: []
+occasions: [entertaining, summer, indulgent]
+seasons: [summer]
+nutritionalDensity: hearty
+leftovers: excellent
+equipment: [ice-cream-maker, double-boiler]
+advancePrep: [make-ahead]
 flavorProfile: [sweet, acidic, rich]
 cuisines: [American]
 role: dessert

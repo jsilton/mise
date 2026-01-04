@@ -3,7 +3,11 @@ title: Peach Pie Pancakes
 difficulty: easy
 cookingMethods: []
 dietary: [vegetarian]
-occasions: []
+occasions: [kids-approved, summer, weekend-project]
+seasons: [summer]
+nutritionalDensity: moderate
+leftovers: poor
+equipment: [large-skillet, mixing-bowl]
 flavorProfile: [sweet, rich]
 cuisines: [American]
 role: dessert

@@ -3,7 +3,12 @@ title: No-Cook Playdough
 difficulty: easy
 cookingMethods: [boil, no-cook]
 dietary: [vegetarian]
-occasions: []
+occasions: [kids-approved]
+seasons: [year-round]
+nutritionalDensity: light
+leftovers: excellent
+equipment: [mixing-bowl]
+advancePrep: [make-ahead]
 flavorProfile: [acidic, rich]
 cuisines: [American]
 role: base

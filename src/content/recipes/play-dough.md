@@ -3,7 +3,12 @@ title: Play-Dough
 difficulty: intermediate
 cookingMethods: [no-cook]
 dietary: [vegetarian]
-occasions: []
+occasions: [kids-approved]
+seasons: [year-round]
+nutritionalDensity: light
+leftovers: excellent
+equipment: [saucepan]
+advancePrep: [make-ahead]
 flavorProfile: [rich]
 cuisines: [American]
 role: base

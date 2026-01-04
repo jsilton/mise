@@ -3,7 +3,12 @@ title: Pumpkin Cheesecake Cookies
 difficulty: easy
 cookingMethods: [bake, no-cook]
 dietary: [vegetarian]
-occasions: []
+occasions: [holiday, entertaining, indulgent]
+seasons: [fall, winter]
+nutritionalDensity: hearty
+leftovers: excellent
+equipment: [baking-sheet, stand-mixer]
+advancePrep: [make-ahead]
 flavorProfile: [sweet, rich]
 cuisines: [American]
 role: dessert

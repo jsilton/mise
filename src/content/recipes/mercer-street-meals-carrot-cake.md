@@ -5,7 +5,13 @@ aliases:
 difficulty: intermediate
 cookingMethods: [bake, boil, no-cook]
 dietary: [vegetarian]
-occasions: []
+occasions: [holiday, entertaining, weekend-project, indulgent]
+seasons: [year-round]
+nutritionalDensity: hearty
+leftovers: excellent
+equipment: [cake-pans, stand-mixer, grater]
+advancePrep: [make-ahead]
+pairsWith: [favorite-cream-cheese-frosting]
 flavorProfile: [sweet, rich]
 cuisines: [American]
 role: dessert

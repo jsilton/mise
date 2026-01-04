@@ -3,7 +3,12 @@ title: Puffy Muffin Chicken Salad
 difficulty: easy
 cookingMethods: [roast, boil, poach]
 dietary: []
-occasions: []
+occasions: [quick-lunch, meal-prep, potluck]
+seasons: [year-round]
+nutritionalDensity: moderate
+leftovers: excellent
+equipment: [large-pot]
+advancePrep: [make-ahead]
 flavorProfile: [acidic, rich]
 cuisines: [American]
 role: side

@@ -3,7 +3,12 @@ title: Chocolate Cake
 difficulty: intermediate
 cookingMethods: [bake, boil]
 dietary: [vegetarian]
-occasions: []
+occasions: [holiday, entertaining, kids-approved, indulgent]
+seasons: [year-round]
+nutritionalDensity: hearty
+leftovers: excellent
+equipment: [cake-pans, saucepan, mixing-bowl]
+advancePrep: [make-ahead]
 flavorProfile: [sweet, rich]
 cuisines: [American]
 role: dessert

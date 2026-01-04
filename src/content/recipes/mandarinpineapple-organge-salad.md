@@ -3,7 +3,12 @@ title: Mandarin/Pineapple Orange Salad
 difficulty: intermediate
 cookingMethods: [bake, roast, boil]
 dietary: []
-occasions: []
+occasions: [holiday, potluck, entertaining]
+seasons: [year-round]
+nutritionalDensity: moderate
+leftovers: excellent
+equipment: [mixing-bowl, mold]
+advancePrep: [make-ahead]
 flavorProfile: [sweet, rich]
 cuisines: [American]
 role: side

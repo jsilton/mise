@@ -3,7 +3,11 @@ title: 'One-Pot Chicken, Quinoa, & Mushrooms'
 difficulty: easy
 cookingMethods: [roast, sauté, simmer, boil]
 dietary: []
-occasions: []
+occasions: [weeknight, meal-prep, comfort-food]
+seasons: [year-round]
+nutritionalDensity: moderate
+leftovers: excellent
+equipment: [large-skillet]
 flavorProfile: [savory, smoky]
 cuisines: [American]
 role: main

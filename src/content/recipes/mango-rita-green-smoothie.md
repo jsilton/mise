@@ -3,7 +3,11 @@ title: Mango-Rita Green Smoothie
 difficulty: easy
 cookingMethods: [blend]
 dietary: [vegetarian]
-occasions: []
+occasions: [post-workout, quick-lunch, light-and-fresh]
+seasons: [summer]
+nutritionalDensity: light
+leftovers: poor
+equipment: [blender]
 flavorProfile: [sweet, acidic, rich]
 cuisines: [American]
 role: drink

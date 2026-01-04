@@ -3,7 +3,12 @@ title: Old-Fashioned Strawberry Ice Cream
 difficulty: intermediate
 cookingMethods: [simmer, boil]
 dietary: [vegetarian]
-occasions: []
+occasions: [entertaining, summer, indulgent]
+seasons: [summer]
+nutritionalDensity: hearty
+leftovers: excellent
+equipment: [ice-cream-maker, saucepan]
+advancePrep: [make-ahead]
 flavorProfile: [sweet, savory, acidic, rich, herbaceous]
 cuisines: [American]
 role: dessert
