@@ -1,63 +1,46 @@
 ---
 title: Herby Chicken Meatball Bowl
-prepTime: 15 min
-cookTime: 30 min
-servings: '4'
-ingredients:
-  - PARMESAN ROASTED CHICKPEAS
-  - 1 15 oz can chickpeas
-  - 1 tbsp olive oil
-  - 1/2 tsp salt
-  - 1/2 tsp garlic powder
-  - 1/2 tsp onion powder
-  - 1/2 tsp herbs de province or Italian seasoning
-  - 2 tbsp parmesan cheese
-  - ROASTED SWEET POTATOES
-  - 1 large sweet potato
-  - 1 tbsp olive oil
-  - 1/2 tsp salt
-  - 1/2 tsp cinnamon
-  - 1/4 tsp cumin
-  - CHICKEN MEATBALLS
-  - 1 lb ground chicken
-  - 1 cup ricotta cheese
-  - 1 egg
-  - 1/2 cup panko breadcrumbs
-  - 1 shallot finely chopped
-  - 2 green onions finely chopped
-  - 1/2 cup cilantro finely chopped
-  - 1/4 cup dill finely chopped
-  - zest of a lemon
-  - 1/2 tsp salt
-  - 1/2 tsp pepper
-  - 2 tbsp olive oil
-  - YOGURT JALAPEÑO DRESSING
-  - 1 cup greek yogurt
-  - 1 cup fresh basil
-  - 1/2 cup fresh dill
-  - juice of a lemon
-  - 1 tbsp olive oil
-  - 1 tbsp honey
-  - 1 jalapeño seeds removed and washed
-  - 2 cloves of garlic
-  - salt and pepper to taste
-  - OTHER
-  - 4 cups kale
-totalTime: 45 min
 role: main
 vibe: fuel
+prepTime: 15 min
+cookTime: 30 min
+totalTime: 45 min
+servings: '4'
+ingredients:
+  - '--- The Herby Meatballs ---'
+  - '1 lb Ground Chicken'
+  - '1 cup Whole-Milk Ricotta (The "Bounce" Hack)'
+  - '1 large Egg'
+  - '1/2 cup Panko Breadcrumbs'
+  - '1 Shallot, finely chopped'
+  - '1/2 cup Fresh Cilantro and 1/4 cup Dill, chopped'
+  - 'Zest of 1 Lemon'
+  - '--- The Fuel Base ---'
+  - '1 15 oz can Chickpeas, patted bone-dry'
+  - '1 large Sweet Potato, diced'
+  - '4 cups Fresh Kale'
+  - '--- The Yogurt Jalapeño Dressing ---'
+  - '1 cup Greek Yogurt'
+  - '1 cup Fresh Basil'
+  - '1 Jalapeño, seeded'
+  - '1 tbsp Honey'
+  - '1 tbsp Fresh Lemon Juice'
 ---
+
+## Chef's Note
+This is the ultimate high-performance "Fuel" bowl. The secret to chicken meatballs that aren't dry is **Structural Science** through **The Ricotta Bounce Hack**: by folding whole-milk ricotta into the ground chicken, we create a fat-moisture barrier that ensures the meatballs remain succulent even after searing. We use **The Cylindrical Sear Pattern**: shaping the meat into small logs rather than balls provides more Maillard surface area, resulting in a deeper savory "Snap" against the bright, herbal yogurt dressing.
 
 ## Directions
 
-1. Preheat the oven to 400F. Begin by making the parmesan roasted chickpeas. Drain the chickpeas and pat them dry with paper towels. Transfer the beans to a baking sheet.
-2. Add the olive oil, salt, garlic powder, onion powder, herbs de province, and parmesan cheese. Toss until everything is well coated. Transfer to the oven and bake for 15 minutes.
-3. While the chickpeas roast, start on the sweet potatoes. Cut the sweet potato into bite-sized pieces. Transfer to a baking sheet and add the olive oil, salt, cinnamon, and cumin. Toss until everything is well coated. Transfer to the oven and bake for 15-20 minutes, until sweet potatoes are cooked through and starting to brown.
-4. While the sweet potatoes and chickpeas cook, make the chicken meatballs. Add all the ingredients (except the olive oil) to a bowl. Mix until well combined. Scoop out about 2 tbsp of the chicken mixture. Use your hands to form the chicken into a cylinder shape (you can also just roll them into balls, but I like having more surface area to brown).
-5. Add the olive oil (2 tbsp) to a large pan over medium-high heat. Add half of the meatballs and cook for 3-4 minutes on each side, until golden brown and until the internal temperature reaches 165 F. Repeat with the remaining chicken.
-6. While the chicken meatballs cook, make the dressing. Add all the ingredients (greek yogurt, fresh basil, fresh dill, juice of a lemon, olive oil, honey, jalapeño, garlic, salt, and pepper) to a food processor or blender. Blend until smooth.
-7. To assemble, divide the kale, sweet potatoes, roasted chickpeas, and chicken meatballs between bowls. Top with plenty of yogurt jalapeño dressing and enjoy!
+1.  **Stage 1 (Roast):** Preheat oven to 400°F. On one sheet pan, toss bone-dry chickpeas with olive oil, salt, garlic powder, and Italian seasoning. On another pan, toss sweet potato cubes with olive oil, cinnamon, and cumin. Roast both for 15-20 minutes until crispy.
+2.  **The Meatballs:** In a large bowl, combine chicken, ricotta, egg, panko, shallots, greens, and lemon zest. Mix **gently** until just combined.
+3.  **Shape:** Form into 12 small cylindrical logs (about 2 tbsp each).
+4.  **Sear:** Heat 2 tbsp oil in a large skillet over medium-high. Sear the meatballs for 3-4 minutes per side until golden brown and the internal temp is 165°F.
+5.  **The Emulsion:** In a food processor, blend the yogurt, basil, jalapeño, honey, and lemon juice until vibrant green and smooth.
+6.  **Assemble:** Divide the kale among four bowls. Top with the roasted chickpeas, sweet potatoes, and meatballs.
+7.  **Finish:** Drizzle generously with the dressing for the mandatory **Acid Finish**.
 
 ## Serving Suggestions
-
-Near East Rice Pilaf Hack, Everyday Arugula Salad
+-   [Everyday Arugula Salad](/recipes/everyday-arugula-salad)
+-   [Smashed Cucumber Salad](/recipes/smashed-cucumber-salad)
+-   [Basmati Rice](/recipes/basmati-rice) (if extra fuel is needed)

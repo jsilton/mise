@@ -1,51 +1,40 @@
 ---
 title: Honey Chipotle Lime Chicken Bowls
-prepTime: 45 min
-cookTime: 10 min
-servings: 'Yield: 6 servings'
-ingredients:
-  - 2 tablespoons olive oil
-  - 2 tablespoons freshly squeezed lime juice
-  - 2 tablespoon honey
-  - >-
-    2 tablespoons finely chopped chipotle peppers and adobo sauce, mostly sauce
-    if you can
-  - 1 tablespoon Dijon mustard
-  - '4 to 5 cloves garlic, finely minced'
-  - 2 to 3 tablespoons chopped fresh cilantro
-  - '½ teaspoon salt, I use coarse, kosher salt'
-  - Pinch of black pepper
-  - 2 pounds thin cut boneless skinless chicken breasts (see note)
-  - 'Spinach, lettuce or spring mix'
-  - Chopped tomatoes
-  - Chopped or sliced avocado
-  - Fresh limes
-  - Cilantro lime rice
-  - Cilantro lime dressing
-totalTime: 55 min
 role: main
 vibe: fuel
+prepTime: 45 min
+cookTime: 10 min
+totalTime: 55 min
+servings: '6'
+ingredients:
+  - '2 lbs Thin-cut Chicken Breasts (Butterflied)'
+  - '--- The Chipotle Marinade ---'
+  - '2 tbsp Finely chopped Chipotle Peppers in Adobo'
+  - '2 tbsp Honey'
+  - '2 tbsp Fresh Lime Juice'
+  - '2 tbsp Extra-Virgin Olive Oil'
+  - '1 tbsp Dijon Mustard'
+  - '4 cloves Garlic, minced'
+  - '--- The Bowl Stacks ---'
+  - '[Cilantro Lime Rice](/recipes/cilantro-lime-rice)'
+  - 'Fresh Spinach or Spring Mix'
+  - 'Chopped Tomatoes and Avocado'
+  - 'Fresh Lime wedges'
 ---
+
+## Chef's Note
+This is a masterclass in **Modularity**. The secret to the Silton Standard here is **The Acid-Honey Bind Pattern**: the combination of lime juice (acid) and honey (sugar) creates a marinade that both tenderizes the meat via enzymes and creates a sticky, caramelized "Snap" on the grill. We use **The 2-Hour Minimum**: you must marinate the chicken for at least 2 hours to ensure the smoky chipotle penetrates the protein fibers. Always rest the meat for 5 minutes before slicing to preserve the "Bounce."
 
 ## Directions
 
-1. For the marinade, whisk together the olive oil, lime juice, honey, chipotle peppers and sauce, Dijon mustard, garlic, cilantro, salt and pepper.
-2. Place the chicken in a shallow dish or ziploc bag and pour the marinade over the top. Make sure the chicken is evenly coated. Cover and refrigerate for 2 to 24 hours (the flavor gets better the longer it marinades).
-3. Cook the chicken on a grill, in a skillet or in the oven (broiled) until cooked through, probably 4-5 minutes per side, depending on how it’s cooked. Let rest for 5-10 minutes.
-4. Slice the chicken into strips and serve with any or all of the bowl ingredients. Cilantro lime dressing not optional. 🙂
-
-## Nutrition
-
-- calories: 244kcal
-- carbohydrates: 8g
-- protein: 32g
-- fat: 9g
-- saturated fat: 2g
-- cholesterol: 97mg
-- sodium: 462mg
-- fiber: 1g
-- sugar: 6g
+1.  **The Marinade:** In a large bowl, whisk together the chipotle, honey, lime juice, olive oil, mustard, garlic, and salt.
+2.  **The Soak:** Toss the thin chicken breasts in the marinade until heavily coated. **Refrigerate for at least 2 hours** (up to 24 hours).
+3.  **The Sear:** Heat a grill or heavy skillet to medium-high. Sear chicken for 4-5 minutes per side until deep golden and charred in spots (Internal temp 165°F).
+4.  **Rest:** Transfer to a board and let rest for 5-10 minutes.
+5.  **Assemble:** Layer your bowls with [Cilantro Lime Rice](/recipes/cilantro-lime-rice), fresh greens, tomatoes, and avocado.
+6.  **Finish:** Slice the chicken into strips and place on top. Serve with extra lime wedges for the mandatory **High Note**.
 
 ## Serving Suggestions
-
-Near East Rice Pilaf Hack, Everyday Arugula Salad
+-   [Guacamole (The Silton Standard)](/recipes/guacamole)
+-   [Pickled Red Onions](/recipes/pickled-red-onions)
+-   [Mexican Red Rice (Arroz Rojo)](/recipes/mexican-red-rice)

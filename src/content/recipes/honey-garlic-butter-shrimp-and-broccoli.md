@@ -1,51 +1,40 @@
 ---
 title: Honey Garlic Butter Shrimp & Broccoli
+role: main
+vibe: speed
 prepTime: 10 min
 cookTime: 10 min
-servings: Servings 4
-ingredients:
-  - 1/2 cup honey
-  - 1/4 cup low sodium soy sauce
-  - 1 teaspoon fresh grated ginger
-  - 2 tablespoons minced garlic
-  - 1/4 teaspoon red pepper flakes
-  - 1 teaspoon cornstarch
-  - '1 pound large shrimp peeled, deveined and tails removed if desired'
-  - 2 tablespoon butter
-  - 2 cups chopped broccoli
-  - 1 teaspoon olive oil
-  - Salt & pepper to taste
 totalTime: 20 min
-role: side
-vibe: speed
+servings: '4'
+ingredients:
+  - '1 lb Large Shrimp (16/20 size), peeled and deveined'
+  - '2 cups Fresh Broccoli Florets'
+  - '--- The Honey-Garlic Glaze ---'
+  - '1/2 cup Honey'
+  - '1/4 cup Low-sodium Soy Sauce'
+  - '2 tbsp Garlic, minced'
+  - '1 tsp Fresh Ginger, grated'
+  - '1/4 tsp Red Pepper Flakes'
+  - '1 tsp Cornstarch'
+  - '--- The Stir-Fry ---'
+  - '2 tbsp Unsalted Butter'
+  - '1 tsp Extra-Virgin Olive Oil'
+  - 'Salt and Black Pepper'
 ---
+
+## Chef's Note
+This is a 20-minute "Speed" masterpiece. The secret to the Silton Standard is **The Shrimp Snap Pattern**: we sear the shrimp in butter first and remove them *before* building the sauce. This ensures they don't overcook while the honey reduces. We maintain **Texture Integrity** by searing the fresh broccoli until "tender-crisp" and vibrant green. The **Cornstarch Slurry** is the mandatory **Structural Science** that transforms the liquid marinade into a mirror-glossy glaze that has the "Bounce" to fully coat every piece of broccoli.
 
 ## Directions
 
-1. In a small bowl add the honey, soy sauce, ginger, garlic, red pepper, and mix until combined.
-2. Place the peeled and deveined shrimp into a bowl and add 1/3 of the sauce.
-3. Whisk in the cornstarch to the reserved marinade and set aside.
-4. Heat a skillet (I use cast iron) or wok on high heat, add olive oil and broccoli, salt and pepper and cook 5-6 minutes just until soft. Remove from pan and set aside.
-5. Add the butter to the skillet and add shrimp discarding any marinade. Cook until the shrimp turns pink about 2 minutes on each side.
-6. Add in the reserved sauce and bring to a low-medium simmer until thickened about 2-3 minutes.
-7. Add in the broccoli and toss until heated through.
-8. Serve over rice or pasta
+1.  **The Sauce:** In a small bowl, whisk together honey, soy sauce, garlic, ginger, red pepper flakes, and 1 tsp cornstarch until smooth.
+2.  **The Snap:** In a large skillet or wok, melt 1 tbsp butter. Add shrimp and sear for 2 minutes per side until pink. Remove to a plate immediately.
+3.  **The Veg:** Add 1 tsp oil and the broccoli to the same pan. Sauté for 5-6 minutes until bright green and slightly softened at the edges. Remove and set aside.
+4.  **Glaze:** Add the remaining 1 tbsp butter and the honey-garlic sauce to the pan. Bring to a low simmer for 2-3 minutes until thickened and glossy.
+5.  **Bind:** Return the shrimp and broccoli to the skillet. Toss vigorously for 30 seconds until every piece is perfectly coated in the glaze.
+6.  **Serve:** Serve immediately over [Basmati Rice](/recipes/basmati-rice).
 
-## Notes
-
-Marinate the shrimp for 30 minutes for a deeper flavor.I like to use jumbo 16/20 size shrimp for this recipe, but you could use any size. The smaller ones will cook a bit faster depending on the size of your shrimp.I leave the shrimp tails on. It adds more flavor and looks prettier, but you can remove them if you want.I use fresh broccoli, but you can use frozen. Just make sure to thaw them first and pat them dry before cooking.
-
-## Nutrition
-
-- Serving: 1 Serving Calories: 215kcal
-- Carbohydrates: 39g
-- Protein: 3g
-- Fat: 7g
-- Saturated Fat: 4g
-- saturated Fat: 0.4g
-- saturated Fat: 2g
-- Trans Fat: 0.2g
-- Cholesterol: 15mg
-- Sodium: 638mg
-- Fiber: 1g
-- Sugar: 36g
+## Serving Suggestions
+-   [Basmati Rice](/recipes/basmati-rice)
+-   [Smashed Cucumber Salad](/recipes/smashed-cucumber-salad)
+-   [Chinese Eggplant with Garlic Sauce](/recipes/chinese-eggplant-with-garlic-sauce)

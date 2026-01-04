@@ -1,46 +1,45 @@
 ---
-title: Hot and Sour Soup
-prepTime: 30 min
-cookTime: 140 min
-servings: 'Yield: 4 to 6 servings'
-ingredients:
-  - '4 dried Chinese fungi (about 1 ounce), such as wood ears or cloud ears'
-  - 2 tablespoons canola oil
-  - '1-inch piece fresh ginger, peeled and grated'
-  - '1 tablespoon red chile paste, such as sambal oelek'
-  - '1/2 cup canned bamboo shoots, sliced'
-  - '1/4 pound barbecued pork, shredded'
-  - 1/4 cup soy sauce
-  - 1/4 cup rice vinegar
-  - 1 teaspoon salt
-  - 1 teaspoon ground white pepper
-  - Pinch sugar
-  - '2 quarts Chinese Chicken Stock, recipe follows'
-  - '1 square firm tofu, drained and sliced in 1/4-inch strips'
-  - 3 tablespoons cornstarch mixed with 1/4 cup water
-  - '1 large egg, lightly beaten'
-  - 'Chopped green onions and cilantro leaves, for garnish'
-  - 1 (4-pound) whole chicken
-  - '1 bunch green onions, halved'
-  - '4 garlic cloves, smashed'
-  - '3-inch piece fresh ginger, whacked open with the flat side of a knife'
-  - '1 onion, halved'
-  - 1 teaspoon whole white peppercorns
-  - About 3 quarts cold water
-totalTime: 170 min
+title: Hot and Sour Soup (The Chinese Standard)
 role: main
 vibe: comfort
+prepTime: 30 min
+cookTime: 140 min
+totalTime: 170 min
+servings: '6'
+ingredients:
+  - '--- The Soup Base ---'
+  - '2 quarts [Chinese Chicken Stock](/recipes/cantonese-wonton-broth)'
+  - '1/4 lb Chinese BBQ Pork (Char Siu), shredded'
+  - '1 square Firm Tofu, cut into 1/4-inch strips'
+  - '1/2 cup Bamboo Shoots, sliced'
+  - '1 oz Dried Wood Ear Mushrooms, reconstituted and sliced'
+  - '--- The Flavor Pulse ---'
+  - '1/4 cup Soy Sauce'
+  - '1/4 cup Rice Vinegar (The "Sour" High Note)'
+  - '1 tsp White Pepper (The "Hot" High Note)'
+  - '1 tbsp Red Chile Paste (Sambal Oelek)'
+  - '1 tsp Fresh Ginger, grated'
+  - '--- The Bind ---'
+  - '3 tbsp Cornstarch (mixed with 1/4 cup water)'
+  - '1 large Egg, lightly beaten'
+  - 'Sesame Oil and Scallions for garnish'
 ---
+
+## Chef's Note
+This is the "Gold Standard" for technical Chinese soups. The name is literal: the "Hot" comes from white pepper, not just chilies, and the "Sour" from rice vinegar. The secret to its elite texture is **Structural Science** through **The Egg Current Pattern**: you must stir the soup in one direction to create a vortex, then slowly stream the egg into the moving liquid—this ensures the egg forms long, silken "ribbons" rather than clumps. We use **The Cornstarch Bind** to create a thick, glossy "Bounce" that suspends the pork and wood ears uniformly.
 
 ## Directions
 
-1. Put the wood ears in a small bowl and cover with boiling water. Let stand for 30 minutes to reconstitute. Drain and rinse the wood ears; discard any hard clusters in the centers.
-2. Heat the oil in a wok or large pot over medium-high flame. Add the ginger, chili paste, wood ears, bamboo shoots, and pork; cook and stir for 1 minute to infuse the flavor. Combine the soy sauce, vinegar, salt, pepper, and sugar in a small bowl, pour it into the wok and toss everything together - it should smell really fragrant. Pour in the Chinese Chicken Stock, bring the soup to a boil, and simmer for 10 minutes. Add the tofu and cook for 3 minutes.
-3. Dissolve the cornstarch in the water and stir until smooth. Mix the slurry into the soup and continue to simmer until the soup thickens. Remove the soup from the heat and stir in 1 direction to get a current going, then stop stirring. Slowly pour in the beaten eggs in a steady stream and watch it spin around and feather in the broth (it should be cooked almost immediately.) Garnish the hot and sour soup with chopped green onions and cilantro before serving.
-4. Chinese Chicken Stock:
-5. Put the chicken in a large stockpot and place over medium heat. Toss in the green onions, garlic, ginger, onion, and peppercorns. Pour about 3 quarts of cold water into the pot to cover the chicken by 1-inch. Simmer gently for 1 hour, uncovered, skimming off the foam on the surface periodically.
-6. Carefully remove the chicken from the pot and pass the stock through a strainer lined with cheesecloth to remove the solids and excess fat. Cool the chicken stock to room temperature before storing in the refrigerator, or chill it down over ice first.
+1.  **Prep:** Soak dried mushrooms in boiling water for 30 minutes. Drain, rinse, and slice.
+2.  **Infuse:** In a large pot, heat 2 tbsp oil. Sauté ginger and chili paste for 1 minute. Add the BBQ pork, wood ears, and bamboo shoots. 
+3.  **Boil:** Pour in the [Chinese Chicken Stock](/recipes/cantonese-wonton-broth). Bring to a boil and simmer for 10 minutes. 
+4.  **Season:** Stir in the soy sauce, vinegar, and white pepper. Taste—it should be sharp and punchy.
+5.  **Tofu:** Add the tofu strips and simmer for 3 minutes.
+6.  **Bind:** Stir the cornstarch slurry and slowly pour into the soup. Simmer for 2 minutes until the soup is thick and clear.
+7.  **The Current:** Remove from heat. Stir the soup vigorously in one direction to create a current. Stop stirring and slowly stream in the beaten egg.
+8.  **Serve:** Ladle into bowls and garnish with sesame oil and fresh scallions for the final **High Note**.
 
 ## Serving Suggestions
-
-Grilled Cheese, Crusty Bread
+-   [Smashed Cucumber Salad](/recipes/smashed-cucumber-salad)
+-   [Chinese Sausage Fried Rice](/recipes/chinese-sausage-fried-rice)
+-   [Cantonese Shumai (Siu Mai)](/recipes/cantonese-shumai-siu-mai)
