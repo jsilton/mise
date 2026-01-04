@@ -1,33 +1,44 @@
 ---
 title: Healthy Apple Muffins
-ingredients:
-  - 1 ¾ cups white whole wheat flour or regular whole wheat flour
-  - 1 ½ teaspoons baking powder
-  - 1 teaspoon ground cinnamon
-  - ½ teaspoon baking soda
-  - ½ teaspoon salt
-  - 1 cup grated apple
-  - 1 cup apple diced into ¼” cubes
-  - ⅓ cup melted coconut oil or extra-virgin olive oil
-  - ½ cup maple syrup or honey*
-  - '2 eggs, preferably at room temperature'
-  - ½ cup plain Greek yogurt (I used full-fat but any variety should do)
-  - ½ cup applesauce
-  - 1 teaspoon vanilla extract
-  - '1 tablespoon turbinado sugar (also called raw sugar), for sprinkling on top'
 role: main
 vibe: fuel
-servings: Unknown
+prepTime: 15 min
+cookTime: 15 min
+totalTime: 30 min
+servings: '12'
+ingredients:
+  - '1 3/4 cups Whole Wheat Flour'
+  - '--- The Double Apple Mix ---'
+  - '1 cup Grated Apple, squeezed dry'
+  - '1 cup Apple, diced into 1/4-inch cubes'
+  - '1/2 cup Applesauce (unsweetened)'
+  - '--- The Liquid Emulsion ---'
+  - '1/2 cup Maple Syrup'
+  - '1/3 cup Extra-Virgin Olive Oil'
+  - '2 large Eggs'
+  - '1/2 cup Plain Greek Yogurt'
+  - '1 tsp Pure Vanilla Extract'
+  - '--- The Spice Mix ---'
+  - '1 1/2 tsp Baking Powder'
+  - '1/2 tsp Baking Soda'
+  - '1 tsp Ground Cinnamon'
+  - '1/2 tsp Sea Salt'
+  - '1 tbsp Turbinado Sugar (for the "Snap")'
 ---
+
+## Chef's Note
+This is the ultimate high-fiber "Fuel" muffin. The secret to its incredible moistness is **Modern Heritage** techniques: we use a combination of **Applesauce** and **Greek Yogurt** to provide a dense, cake-like "Bounce" without excessive oil. We maintain **Texture Integrity** through **The Grated-Cubed Pattern**: by including both grated apple (for moisture) and cubed apple (for "Snap"), we ensure every bite has distinct structural personality. Always finish with a dusting of **Turbinado Sugar** to create a crystalline "High Note" crust.
 
 ## Directions
 
-1. Preheat oven to 425 degrees Fahrenheit. If necessary, grease all 12 cups on your muffin tin with butter or non-stick cooking spray (my pan is non-stick and doesn’t require any grease).
-2. In a large mixing bowl, combine the flour, baking powder, cinnamon, baking soda and salt. Blend well with a whisk. Add the grated apple (if it is dripping wet, gently squeeze it over the sink to release some extra moisture) and chopped apple. Stir to combine.
-3. In a medium mixing bowl, combine the oil and maple syrup and beat together with a whisk. Add the eggs and beat well, then add the yogurt, applesauce and vanilla and mix well. (If the coconut oil solidifies in contact with cold ingredients, gently warm the mixture in the microwave in 30 second bursts.)
-4. Pour the wet ingredients into the dry and mix with a big spoon, just until combined (a few lumps are ok). The batter will be thick, but don’t worry! Divide the batter evenly between the 12 muffin cups. Sprinkle the tops of the muffins with turbinado sugar. Bake muffins for 13 to 16 minutes, or until the muffins are golden on top and a toothpick inserted into a muffin comes out clean.
-5. Place the muffin tin on a cooling rack to cool. If you have leftover muffins, store them, covered, at room temperature for up to 2 days, or in the refrigerator for up to 4 days. Freeze leftover muffins for up to 3 months.
+1.  **Dry Mix:** Preheat oven to 425°F. In a large bowl, whisk together flour, baking powder, baking soda, cinnamon, and salt.
+2.  **The Apples:** Add the grated and cubed apples to the dry mix. Toss to coat—this prevents the fruit from sinking to the bottom.
+3.  **Wet Mix:** In a separate bowl, whisk oil, maple syrup, eggs, yogurt, applesauce, and vanilla until smooth and aerated.
+4.  **Combine:** Pour the wet into the dry. Stir with a spatula until **just combined**. A few streaks of flour are the mandatory guard against a tough muffin.
+5.  **Bake:** Divide into a lined 12-cup tin. Sprinkle the turbinado sugar over the tops. Bake at 425°F for 13-16 minutes until golden and a toothpick comes out clean.
+6.  **Cool:** Let cool in the pan for 5 minutes before removing.
 
-## Notes
-
-\*IF YOU ARE BAKING WITH HONEY: Honey tends to brown quickly, so to avoid overdone muffins, bake muffins at 325 degrees Fahrenheit until a toothpick inserted in the center comes out clean, about 23 to 25 minutes.MAKE IT VEGAN: Replace the eggs with flax eggs and replace the yogurt with vegan buttermilk—try mixing 1 ½ teaspoons vinegar with a scant ½ cup non-dairy milk. Let it rest for 5 minutes before adding it to the other liquid ingredients. (You could also try using more applesauce in place of the yogurt but I’m not sure it’s acidic enough to counteract the bitter taste of the baking soda.)MAKE IT DAIRY FREE: See “buttermilk” option above.MAKE IT EGG FREE: Use flax eggs instead of regular eggs.MAKE IT GLUTEN FREE: Bob’s Red Mill or King Arthur Flour make gluten-free all-purpose blends that work well.IF YOU LOVE THIS RECIPE: You will also love my zucchini muffins, carrot muffins and banana muffins! Here are more apple recipes for you, too.
+## Serving Suggestions
+-   [Easy Breakfast Yogurt Popsicles](/recipes/easy-breakfast-yogurt-popsicles)
+-   Salted Butter or Honey
+-   [Elderberry Syrup](/recipes/elderberry-syrup) (stirred into tea)

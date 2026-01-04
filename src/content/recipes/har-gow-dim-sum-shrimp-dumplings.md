@@ -1,43 +1,43 @@
 ---
 title: Har Gow (Dim Sum Shrimp Dumplings)
-prepTime: 60 min
-cookTime: 80 min
-servings: 'Serves: 6'
-ingredients:
-  - '1/2 pound raw shrimp (225g, peeled, de-veined and patted dry)'
-  - 1 teaspoon oyster sauce
-  - 1 tablespoon vegetable oil
-  - 1/4 teaspoon white pepper
-  - 1 teaspoon sesame oil
-  - 1/4 teaspoon salt
-  - 1 teaspoon sugar
-  - 1/2 teaspoon ginger (minced)
-  - 1/4 cup bamboo shoots (finely chopped)
-  - 1 cup wheat starch
-  - 1/2 cup cornstarch (or tapioca starch)
-  - >-
-    1 1/4 cups boiling water (add an additional 1 to 2 teaspoons in dryer
-    climates)
-  - 3 teaspoons lard (or oil)
-totalTime: 140 min
 role: main
 vibe: project
+prepTime: 60 min
+cookTime: 10 min
+totalTime: 140 min
+servings: '18 dumplings'
+ingredients:
+  - '1/2 lb Raw Shrimp, peeled, deveined, and patted dry'
+  - '1/4 cup Bamboo Shoots, finely minced'
+  - '--- The Shrimp Paste ---'
+  - '1 tsp Oyster Sauce'
+  - '1 tbsp Vegetable Oil'
+  - '1/4 tsp White Pepper'
+  - '1 tsp Toasted Sesame Oil'
+  - '1/4 tsp Sea Salt'
+  - '1 tsp Granulated Sugar'
+  - '1/2 tsp Fresh Ginger, minced'
+  - '--- The Translucent Dough ---'
+  - '1 cup Wheat Starch (Tin Mein Fun)'
+  - '1/2 cup Cornstarch or Tapioca Starch'
+  - '1 1/4 cups Boiling Water'
+  - '3 tsp Lard or Neutral Oil'
 ---
+
+## Chef's Note
+Har Gow is the "Black Belt" of Dim Sum. The secret to the legendary **Translucency** is **Structural Science** through the **Wheat-Starch Pattern**. You must use boiling water to gelatinize the starch instantly, creating a dough that is flexible but transforms into a glass-like shell when steamed. For the interior, we use **The Shrimp Bounce Pattern**: whip the shrimp mixture in one direction until it becomes a sticky paste—this creates the "Snap" that differentiates a Gold Standard dumpling from a soggy one.
 
 ## Directions
 
-1. FOR THE FILLING:
-2. Mix everything (except the bamboo) together; whip in one direction for a few minutes until the mixture starts to look sticky. Now add the chopped bamboo shoots, and mix everything together. Cover and refrigerate while preparing the dough.
-3. FOR THE DOUGH:
-4. Mix the wheat starch and cornstarch in a mixing bowl. Slowly add in the boiling water, while stirring rapidly. Now add in the lard (or oil) and continue to stir. Knead the dough for a couple of minutes, until it turns into a smooth dough ball. Roll the dough into a long cylinder, and divide it into 18 equal pieces. Cover the dough pieces with a damp paper towel.
-5. TO ASSEMBLE AND COOK THE DUMPLINGS:
-6. Turn on the stove to pre-boil the water in the steamer. Take one piece of dough and roll it into a 3” diameter circle. Add a spoonful of filling and fold the dumpling as shown in our video. Continue assembling until all the dumplings are made.
-7. Once the water in the steamer is boiled, steam the shrimp dumplings for 6 minutes using high heat and serve hot. Make sure that they each have an inch and a half to expand during the cooking process.
-
-## Nutrition
-
-- Calories: 213kcal (11%) Carbohydrates: 30g (10%) Protein: 8g (16%) Fat: 6g (9%) Saturated Fat: 3g (15%) Cholesterol: 98mg (33%) Sodium: 424mg (18%) Potassium: 30mg (1%) Fiber: 1g (4%) Sugar: 1g (1%) Vitamin C: 1.6mg (2%) Calcium: 55mg (6%) Iron: 1mg (6%)
+1.  **The Filling:** Finely chop the shrimp. In a large bowl, combine shrimp and all shrimp paste ingredients. Whip **vigorously in one direction** for 3 minutes until the mixture is very sticky. Fold in bamboo shoots. Chill for 30 minutes.
+2.  **The Dough:** In a heatproof bowl, whisk wheat starch and cornstarch. Pour in the **boiling water** while stirring rapidly with chopsticks. Add lard/oil. 
+3.  **Knead:** Once cool enough to touch, knead for 2 minutes until smooth. Roll into a cylinder and divide into 18 pieces. Keep covered with a damp towel.
+4.  **Shape:** Use a flat blade (lightly oiled) to flatten each dough ball into a thin 3-inch circle.
+5.  **Assemble:** Place 1 tbsp filling in the center. Fold and pleat carefully (aim for 7-10 pleats) to create the signature "bonnet" shape.
+6.  **Steam:** Place in a bamboo steamer on parchment. Steam over boiling water for exactly 6 minutes on high heat.
+7.  **Serve:** Serve immediately with chili oil and soy sauce for the mandatory **High Note**.
 
 ## Serving Suggestions
-
-Couscous or Crusty Bread, Everyday Arugula Salad
+-   [Smashed Cucumber Salad](/recipes/smashed-cucumber-salad)
+-   [Chinese Eggplant with Garlic Sauce](/recipes/chinese-eggplant-with-garlic-sauce)
+-   [Cantonese Wonton Broth](/recipes/cantonese-wonton-broth)
