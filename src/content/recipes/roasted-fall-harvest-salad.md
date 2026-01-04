@@ -3,7 +3,12 @@ title: Fall Harvest Salad
 difficulty: easy
 cookingMethods: [bake, roast, grill, simmer, steam, no-cook]
 dietary: []
-occasions: []
+occasions: [weeknight, meal-prep, light-and-fresh]
+seasons: [fall, year-round]
+nutritionalDensity: moderate
+leftovers: excellent
+equipment: [sheet-pan, saucepan]
+advancePrep: [make-ahead]
 flavorProfile: [spicy, sweet, acidic, rich, herbaceous]
 cuisines: [American]
 role: side

@@ -3,7 +3,11 @@ title: Peach and Avocado Salad
 difficulty: intermediate
 cookingMethods: [roast, grill]
 dietary: []
-occasions: []
+occasions: [entertaining, light-and-fresh, summer]
+seasons: [summer]
+nutritionalDensity: light
+leftovers: poor
+equipment: [mixing-bowl]
 flavorProfile: [spicy, sweet, acidic, rich, herbaceous]
 cuisines: [American]
 role: side

@@ -3,7 +3,11 @@ title: Seared Salmon with Summer Vegetables
 difficulty: easy
 cookingMethods: [sauté, simmer]
 dietary: []
-occasions: []
+occasions: [date-night, entertaining, light-and-fresh]
+seasons: [summer]
+nutritionalDensity: moderate
+leftovers: poor
+equipment: [large-skillet, saucepan]
 flavorProfile: [acidic, rich]
 cuisines: [American]
 role: main

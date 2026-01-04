@@ -3,7 +3,11 @@ title: Sunchokes with Brown Butter Vinaigrette
 difficulty: easy
 cookingMethods: [bake, roast, simmer]
 dietary: []
-occasions: []
+occasions: [entertaining, holiday, weekend-project]
+seasons: [fall, winter]
+nutritionalDensity: moderate
+leftovers: good
+equipment: [sheet-pan, small-saucepan]
 flavorProfile: [spicy, sweet, savory, acidic, rich, herbaceous]
 cuisines: [American]
 role: side

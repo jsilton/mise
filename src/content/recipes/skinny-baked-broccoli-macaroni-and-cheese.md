@@ -3,7 +3,12 @@ title: Skinny Broccoli Mac & Cheese
 difficulty: intermediate
 cookingMethods: [bake, sauté, simmer, boil]
 dietary: []
-occasions: []
+occasions: [weeknight, kids-approved, comfort-food, meal-prep]
+seasons: [year-round]
+nutritionalDensity: moderate
+leftovers: excellent
+equipment: [large-pot, large-skillet, baking-dish]
+advancePrep: [make-ahead]
 flavorProfile: [savory, umami, rich]
 cuisines: [American]
 role: side

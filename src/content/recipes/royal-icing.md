@@ -3,7 +3,11 @@ title: Royal Icing
 difficulty: intermediate
 cookingMethods: []
 dietary: [vegetarian]
-occasions: []
+occasions: [holiday, kids-approved, weekend-project]
+seasons: [year-round]
+nutritionalDensity: light
+leftovers: good
+equipment: [stand-mixer]
 flavorProfile: [sweet]
 cuisines: [American]
 role: base

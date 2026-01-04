@@ -3,7 +3,11 @@ title: 'Sausage, Shrimp & Quinoa Skillet'
 difficulty: easy
 cookingMethods: [fry, sauté]
 dietary: []
-occasions: []
+occasions: [weeknight, quick-lunch, meal-prep]
+seasons: [year-round]
+nutritionalDensity: hearty
+leftovers: good
+equipment: [large-skillet]
 flavorProfile: [spicy, acidic, herbaceous]
 cuisines: [American]
 role: main

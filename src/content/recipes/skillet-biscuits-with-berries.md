@@ -3,7 +3,11 @@ title: Skillet Biscuits with Berries
 difficulty: easy
 cookingMethods: [bake, simmer, boil, steam, no-cook]
 dietary: [vegetarian]
-occasions: []
+occasions: [entertaining, weekend-project, indulgent, summer]
+seasons: [summer]
+nutritionalDensity: hearty
+leftovers: good
+equipment: [large-skillet]
 flavorProfile: [sweet, acidic, rich]
 cuisines: [American]
 role: dessert

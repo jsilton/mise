@@ -3,7 +3,12 @@ title: Starbucks Egg Bites
 difficulty: intermediate
 cookingMethods: [bake, steam, no-cook, blend]
 dietary: [vegetarian]
-occasions: []
+occasions: [weeknight, quick-lunch, meal-prep, post-workout]
+seasons: [year-round]
+nutritionalDensity: moderate
+leftovers: excellent
+equipment: [blender, muffin-tin]
+advancePrep: [make-ahead]
 flavorProfile: [savory, rich]
 cuisines: [American]
 role: main

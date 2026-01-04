@@ -3,7 +3,13 @@ title: Pork Tenderloin
 difficulty: easy
 cookingMethods: [bake, roast]
 dietary: []
-occasions: []
+occasions: [entertaining, date-night, holiday, weekend-project]
+seasons: [fall, winter, year-round]
+nutritionalDensity: hearty
+leftovers: excellent
+equipment: [roasting-pan]
+advancePrep: [make-ahead]
+pairsWith: [perfect-mashed-potatoes, garlic-mashed-red-potatoes, steamed-broccoli]
 flavorProfile: [sweet, savory, herbaceous]
 cuisines: [American]
 role: main

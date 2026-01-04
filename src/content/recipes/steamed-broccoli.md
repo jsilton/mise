@@ -3,7 +3,11 @@ title: Broccoli with Garlic
 difficulty: easy
 cookingMethods: [bake, boil, steam]
 dietary: []
-occasions: []
+occasions: [weeknight, quick-lunch, post-workout, light-and-fresh]
+seasons: [year-round]
+nutritionalDensity: light
+leftovers: good
+equipment: [saucepan, steamer-basket]
 flavorProfile: [savory, acidic]
 cuisines: [American]
 role: side

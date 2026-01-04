@@ -3,7 +3,11 @@ title: Spindrift Gin Fizz
 difficulty: easy
 cookingMethods: []
 dietary: []
-occasions: []
+occasions: [date-night, entertaining, summer]
+seasons: [summer, year-round]
+nutritionalDensity: light
+leftovers: poor
+equipment: [cocktail-shaker]
 flavorProfile: [sweet, acidic]
 cuisines: [American]
 role: drink

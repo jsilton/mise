@@ -3,7 +3,11 @@ title: Shrimp and Corn Chowder
 difficulty: easy
 cookingMethods: [sauté, simmer, boil, blend]
 dietary: []
-occasions: []
+occasions: [weeknight, comfort-food, light-and-fresh]
+seasons: [summer, year-round]
+nutritionalDensity: hearty
+leftovers: excellent
+equipment: [large-pot, blender]
 flavorProfile: [spicy, acidic, rich]
 cuisines: [American]
 role: main
