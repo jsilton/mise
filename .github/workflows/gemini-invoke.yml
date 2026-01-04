@@ -120,6 +120,12 @@ jobs:
         run: |-
           set -exuo pipefail
 
+          # Skip if no credentials configured (avoid failing on forks or when not configured)
+          if [ -z "${GEMINI_API_KEY}" ] && [ -z "${GCP_PROJECT_ID}" ]; then
+            echo "Skipping Gemini CLI run because GEMINI_API_KEY and GCP_PROJECT_ID are not set."
+            exit 0
+          fi
+
           # Install Gemini CLI
           npm install -g @google/gemini-cli@${GEMINI_CLI_VERSION}
 
