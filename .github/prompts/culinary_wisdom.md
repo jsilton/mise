@@ -67,7 +67,7 @@ _Creativity, Adaptation, and "Pushing the Envelope"._
 49. **Unexpected Pairings:** Strawberry and Basil. Bacon and Chocolate. Miso and Caramel.
 50. **Confidence:** A timid sear tastes timid. Cook with conviction.
 
-## IV. Global Heritage & "Silton Family" Specializations
+## IV. Global Heritage & Flavor Pillars
 
 ### Jewish Tradition (Ashkenazi & Sephardic)
 
@@ -88,6 +88,46 @@ _Creativity, Adaptation, and "Pushing the Envelope"._
 59. **Fresh Pasta Texture:** Fusilli should be dense and chewy, not airy. Semolina flour is key.
 60. **Cannoli Crisp:** The shell must be fried in lard (traditionally) or high-quality oil and filled _immediately_ before serving to prevent sogginess. Ricotta must be strained dry (Impastata).
 61. **Square Pizza (Sicilian):** It's about the ferment. The dough needs to rise in the oily pan to create a fried bottom crust.
+
+### Spanish (The Art of Rice & Oil)
+62. **Sofrito:** The base of everything. Onion, Garlic, Tomato, Pepper cooked down until it's a sweet, dark paste.
+63. **Pimentón:** Smoked paprika is the signature flavor. Use it generously.
+64. **Socarrat:** Paella isn't done until the bottom burns (slightly). Listen for the crackle.
+
+### French (Technique Supreme)
+65. **Mirepoix:** 2 parts Onion, 1 part Carrot, 1 part Celery. The holy trinity of flavor base.
+66. **Mother Sauces:** Béchamel (Milk), Velouté (Stock), Espagnole (Brown Stock), Hollandaise (Egg/Butter), Tomato. Master these to make anything.
+67. **Monter au Beurre:** Finishing a sauce with cold butter swirled in off heat creates a glossy emulsion.
+
+### Italian (Regional Specificity)
+68. **Pasta Water:** It is "Liquid Gold." Starch-laden water emulsifies cheese/oil into a creamy sauce without cream (Cacio e Pepe).
+69. **Agrodolce:** Sweet and Sour. Balsamic vinegar and sugar/fruit create a complex balance for roasted veg (Caponata).
+70. **North vs. South:** North uses Butter/Cream/Polenta (Risotto). South uses Olive Oil/Tomato/Semolina. Know which region your dish is from.
+
+### Japanese (Precision & Umami)
+71. **Dashi:** The foundation. Kombu (Kelp) + Katsuobushi (Bonito Flakes). It adds "Savory" without "Meat."
+72. **Sa-Shi-Su-Se-So:** The order of seasoning: Sugar, Salt, Vinegar, Soy Sauce, Miso. (Soy added last preserves its aroma).
+73. **Respect the Ingredient:** Do not over-sauce. The fish is the star; the soy is the supporting actor.
+
+### Korean (Fermentation & Funk)
+74. **Jang:** Gochujang (Chili Paste), Doenjang (Soybean Paste), Ganjang (Soy Sauce). These fermented bases provide deep, funky complexity.
+75. **Kimchi is an Ingredient:** Aged kimchi makes better stew (Jjigae) than fresh kimchi.
+76. **Texture Balance:** Korean food prizes chewy (Tteokbokki) and crispy (Fried Chicken) in the same meal.
+
+### Thai (The 4-Flavor Balance)
+77. **Sweet, Sour, Salty, Spicy:** Every dish must hit all four. Palm Sugar, Lime/Tamarind, Fish Sauce, Chiles.
+78. **Cracking the Cream:** Fry curry paste in thick coconut cream until the oil separates. This blooms the spices better than oil alone.
+79. **Fresh Finish:** Herbs (Thai Basil, Cilantro, Mint) go in at the very end to stay bright.
+
+### Mexican (Char & Chile)
+80. **Tatemar:** Charring tomatoes, onions, and chiles on a comal (griddle) before blending creates the smoky flavor of salsa.
+81. **Hydration:** Dried chiles (Ancho, Guajillo) must be toasted then soaked in hot water to wake them up before blending.
+82. **Acid Cuts Fat:** Lime juice and pickled onions are mandatory to cut through the richness of Carnitas/Barbacoa.
+
+### Caribbean (Spice & Browning)
+83. **Green Seasoning:** A blend of scallions, thyme, parsley, garlic, and peppers. Marinate everything in this.
+84. **Browning Sugar:** Burning sugar in oil until black creates the base color and flavor for Stew Chicken/Oxtail.
+85. **Scotch Bonnet:** It's not just heat; it's fruitiness. Use whole for flavor, slice for fire.
 
 ## V. The Master Chef's Checklist (The "Refinement Loop")
 
