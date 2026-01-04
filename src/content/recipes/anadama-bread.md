@@ -1,36 +1,40 @@
 ---
-title: Anadama Bread
+title: Anadama Bread (The New England Classic)
+role: base
+vibe: project
 prepTime: 30 min
 cookTime: 30 min
-servings: '8'
+totalTime: 3 hours
+servings: '1 loaf'
 ingredients:
-  - 1/2 cup water
-  - 1/4 cup cornmeal
-  - 2 tablespoons butter
-  - 1/2 cup molasses
-  - 1 (.25 ounce) package active dry yeast
-  - 1/2 cup warm water (110 degrees F)
-  - '3 cups all-purpose flour, divided'
-  - 1 teaspoon salt
-totalTime: 60 min
-role: main
-vibe: fuel
+  - '1/2 cup Water'
+  - '1/4 cup Yellow Cornmeal'
+  - '2 tbsp Unsalted Butter'
+  - '1/2 cup Molasses (The signature flavor)'
+  - '1 pkg (.25 oz) Active Dry Yeast'
+  - '1/2 cup Warm Water (110°F)'
+  - '3 cups All-Purpose Flour'
+  - '1 tsp Kosher Salt'
 ---
+
+## Chef's Note
+
+Anadama is a quintessential New England bread defined by the bittersweet depth of **Molasses** and the rustic "bite" of cornmeal. The secret is the **Cornmeal Porridge**: you must cook the cornmeal in water first to hydrate the starch, ensuring the bread stays moist rather than gritty. This is a "Modern Heritage" keeper that pairs perfectly with a salty butter or a bowl of chowder.
 
 ## Directions
 
-1. Place 1/2 cup water and cornmeal in a small saucepan. Bring to a boil over medium heat, stirring occasionally. Cook until mixture thickens; about 5 minutes. Remove from heat and stir in the butter or margarine and molasses. Let cool to lukewarm.
-2. In a small mixing bowl, dissolve yeast in 1/2 cup warm water. Let sit until creamy; about 10 minutes.
-3. In a large mixing bowl, combine the cooled cornmeal mixture with the yeast mixture; stir until well blended. Add 2 cups of the flour and the salt; mix well. Add the remaining flour, 1/2 cup at a time, stirring well after each addition. When the dough has pulled together, turn it out onto a lightly floured surface and knead until smooth and elastic, about 8 minutes.
-4. Lightly oil a large mixing bowl, place the dough in the bowl and turn to coat with oil. Cover with a damp cloth and put in a warm place to rise until doubled in volume, about 1 hour.
-5. Preheat oven to 375 degrees F (190 degrees C).
-6. Deflate the dough and turn it out onto a lightly floured surface and form into a loaf. Place the loaf in a lightly greased 9x5 inch loaf pan. Cover with a damp cloth and let rise until doubled in volume, about 40 minutes.
-7. Bake in preheated oven for about 30 minutes, or until the top is golden brown and the bottom of the loaf sounds hollow when tapped.
+1.  **The Porridge:** In a small saucepan, whisk 1/2 cup water and cornmeal. Bring to a boil, stirring constantly for 5 minutes until thickened. Remove from heat.
+2.  **Melt:** Stir in the butter and molasses. Let cool until lukewarm (critical—if too hot, it will kill the yeast).
+3.  **The Yeast:** In a large bowl, dissolve the yeast in the warm water. Let sit for 10 minutes until foamy.
+4.  **The Dough:** Stir the cornmeal mixture into the yeast. Add 2 cups of flour and the salt. Gradually add the remaining flour until a shaggy dough forms.
+5.  **Knead:** Turn out onto a floured surface. Knead for 8-10 minutes until smooth and elastic. The dough should be slightly tacky but not sticky.
+6.  **Rise 1:** Place in an oiled bowl, cover, and let rise in a warm spot until doubled (about 1 hour).
+7.  **Shape:** Deflate the dough. Shape into a loaf and place in a greased 9x5 pan.
+8.  **Rise 2:** Cover and let rise again until doubled (about 45 minutes).
+9.  **Bake:** Bake at 375°F for 30 minutes until the top is dark golden brown and the bottom sounds hollow when tapped.
 
-## Nutrition
+## Serving Suggestions
 
-- Calories: 272 kcalTotal Carbohydrates: 54.4g
-- Cholesterol: 8 mg
-- Total Fat: 3.5 g
-- Protein: 5.5 g
-- Sodium: 322 mg
+- [Roasted Corn Chowder with Lime Shrimp](/recipes/roasted-corn-chowder-with-lime-cured-shrimp)
+- Warm Salted Butter
+- Sunday Roast

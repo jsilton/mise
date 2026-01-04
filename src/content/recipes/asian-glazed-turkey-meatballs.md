@@ -1,51 +1,46 @@
 ---
 title: Asian Glazed Turkey Meatballs
-prepTime: 10 min
-cookTime: 20 min
-servings: '24'
-ingredients:
-  - Meatballs
-  - 2 lbs ground turkey breast
-  - 2 eggs
-  - '1 cup panko breadcrumbs, plain, unseasoned'
-  - 4 cloves garlic
-  - 2 scallions
-  - 1/4 tsp ground ginger
-  - 1 tsp kosher salt
-  - fresh cracked pepper
-  - Glaze
-  - 1/2 cup Hoisin sauce
-  - 1/4 cup reduced sodium soy sauce
-  - 1/4 cup rice wine vinegar
-  - 1 tbsp corn starch
-  - 3/4 cup water
-  - 2 cloves garlic
-  - '1 tsp ginger, fresh or paste'
-  - sesame seeds and scallions for garnish
-totalTime: 30 min
 role: main
-vibe: holiday
+vibe: speed
+prepTime: 15 min
+cookTime: 20 min
+totalTime: 35 min
+servings: '24 meatballs'
+ingredients:
+  - '2 lbs Ground Turkey (93% lean)'
+  - '--- The Moisture Panade ---'
+  - '1 cup Panko Breadcrumbs'
+  - '1/4 cup Whole Milk (The secret to tenderness)'
+  - '2 large Eggs, beaten'
+  - '--- Aromatics ---'
+  - '4 cloves Garlic, minced'
+  - '2 Scallions, minced'
+  - '1 tbsp Fresh Ginger, grated'
+  - '1 tsp Kosher Salt'
+  - '--- The Hoisin Glaze ---'
+  - '1/2 cup Hoisin Sauce'
+  - '1/4 cup Soy Sauce'
+  - '1/4 cup Rice Vinegar'
+  - '1 tbsp Cornstarch'
+  - '1/2 cup Water'
 ---
+
+## Chef's Note
+
+Ground turkey breast is notoriously dry. We fix this by applying the **Silton Panade Pattern**: soaking the panko in milk before mixing it into the meat creates a moisture reservoir that prevents the meatballs from turning into hockey pucks. We bake them at high heat to get a "sear" without frying, then toss them in a glossy, acid-balanced hoisin glaze.
 
 ## Directions
 
-1. Meatballs
-2. Preheat the oven to 375F.
-3. Mince the garlic and chop the scallions.
-4. Combine all meatball ingredients together in a large mixing bowl.
-5. Using a small scooper, form 24 equal-sized meatballs. (For reference, mine were approximately 1.5 ounces each).
-6. Spray a mini muffin tin liberally with cooking spray. If you don't have a mini muffin tin, use a baking sheet.
-7. Add one meatball to each opening of the muffin tin, or lay them on the baking sheet.
-8. Cook the meatballs for 15 minutes.
-9. Glaze
-10. Mince the garlic.
-11. Combine all glaze ingredients in a sauce pan and whisk together.
-12. Cook over medium heat, stirring frequently to prevent clumping.
-13. Cook for 10 minutes or until the sauce thickens.
-14. Add the cooked meatballs to the sauce, and cook for another minute or two.
-15. Add sesame seeds and more chopped scallions for garnish.
+1.  **The Panade:** In a large bowl, mix the panko and milk. Let sit for 5 minutes.
+2.  **The Mix:** Add the turkey, eggs, garlic, scallions, ginger, and salt to the panade. Mix with your hands until just combined—**do not overwork.**
+3.  **Shape:** Form into 24 equal-sized meatballs (about 1.5 oz each).
+4.  **Bake:** Arrange on a parchment-lined baking sheet. Bake at 400°F for 15-18 minutes until golden and the internal temp is 160°F.
+5.  **The Glaze:** While meatballs bake, whisk the glaze ingredients in a large skillet. Bring to a simmer over medium heat, stirring constantly until the sauce is thick and glossy.
+6.  **Toss:** Add the hot meatballs to the skillet. Toss until every meatball is lacquered in the sauce.
+7.  **Finish:** Garnish with sesame seeds and extra scallion greens.
 
-## Nutrition
+## Serving Suggestions
 
-- calories: 75kcal
-- Serving: 1meatball | Calories: 75kcal | Carbohydrates: 5g | Protein: 10g | Fat: 1g | Saturated Fat: 1g | Trans Fat: 1g | Cholesterol: 35mg | Sodium: 322mg | Potassium: 140mg | Fiber: 1g | Sugar: 2g | Vitamin A: 40IU | Vitamin C: 1mg | Calcium: 13mg | Iron: 1mg
+- [Jasmine Rice](/recipes/near-east-rice-pilaf-hack)
+- [Smashed Cucumber Salad](/recipes/smashed-cucumber-salad)
+- Steamed Bok Choy

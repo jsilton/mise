@@ -1,35 +1,44 @@
 ---
-title: 'Baked Spanish Rice with Chorizo, Chickpeas, and Raisins'
-cookTime: 90 min
+title: Baked Spanish Rice with Chorizo and Chickpeas
+role: main
+vibe: comfort
+prepTime: 20 min
+cookTime: 30 min
+totalTime: 50 min
 servings: '4'
 ingredients:
-  - '¼ cup plus 1 Tbsp. extra-virgin olive oil, divided'
-  - '2½ lb. Spanish-style chorizo, sliced ¾-in. thick'
-  - '6 garlic cloves, thinly sliced'
-  - '2 medium yellow onions, finely chopped'
-  - '1 large red bell pepper, seeded and coarsely chopped (1 cup)'
-  - >-
-    1 Tbsp. red pepper paste, such as choricero, ñora, or ají panca, or 1 tsp.
-    sweet (unsmoked) paprika
-  - 1 Tbsp. tomato paste
-  - ¼ cup dry sherry
-  - '3¼ cup chicken or vegetable stock, or water'
-  - Pinch cinnamon
-  - Large pinch saffron threads
-  - 'One 15-oz. can chickpeas, drained (1½ cups)'
-  - ½ cup raisins
-  - Kosher salt
-  - >-
-    1½ cups short- or medium-grain rice, such as carnaroli, arborio, or Goya
-    medium-grain (see footnote)
-  - 'Finely chopped chives, for garnish'
-totalTime: 90 min
-role: base
-vibe: comfort
+  - '1.5 cups Short-grain Rice (Arborio or Bomba)'
+  - '1/2 lb Spanish Chorizo (cured), sliced into rounds'
+  - '15 oz can Chickpeas, drained'
+  - '--- The Flavor Base ---'
+  - '1 Red Bell Pepper, diced'
+  - '1 Yellow Onion, diced'
+  - '4 cloves Garlic, sliced'
+  - '1 tbsp Tomato Paste'
+  - '1 tsp Smoked Paprika (Pimentón)'
+  - 'Pinch of Saffron threads (optional)'
+  - '3 cups Chicken Broth'
+  - '1/4 cup Dry Sherry or White Wine'
+  - '1/2 cup Raisins (for sweetness balance)'
 ---
+
+## Chef's Note
+
+This is a one-pot masterpiece that utilizes **Flavor Layering**. We start by rendering the fat from the cured **Chorizo**; this spicy, red oil becomes the cooking medium for the vegetables and the rice. The result is a deeply savory, aromatic dish where every grain of rice is infused with smoke and spice. The raisins provide the vital sweet contrast to the salty pork and earthy chickpeas.
 
 ## Directions
 
-1. To a large Dutch oven set over medium-high heat, add 1 tablespoon of the olive oil and enough chorizo to cover the bottom of the pan without overcrowding. Cook, turning once, until crisped on both sides, 5–7 minutes. Transfer to a paper-towel-lined plate, then repeat with any remaining chorizo and set aside. Discard any accumulated fat and return the pot to the stove.
-2. Position a rack in the center of the oven and preheat to 400ºF. To the empty pot, add the remaining olive oil, garlic, onions, and bell pepper and turn the heat to medium. Cook, stirring occasionally, until the mixture is jammy and browned, about 20 minutes (do not rush this step). Stir in the red pepper paste and tomato paste and cook for 5 minutes more. Add the sherry, bring to a boil, then add the stock, cinnamon, saffron, chickpeas, raisins, reserved chorizo, and salt to taste and return to a boil.
-3. Add the rice, bring to a boil again, then bake, uncovered, until the rice is al dente and the liquid is absorbed, 20–25 minutes. Remove from the oven, cover, and let stand until the rice is just tender, about 10 minutes. Sprinkle with the chives and serve hot or warm.
+1.  **Render:** In a large oven-safe skillet or Dutch oven, cook the chorizo rounds over medium heat until they are crispy and have released their red oil. Remove chorizo to a plate.
+2.  **Sauté:** Add the onion, bell pepper, and garlic to the chorizo fat. Cook for 8-10 minutes until soft and "jammy."
+3.  **The Bloom:** Stir in the tomato paste, smoked paprika, and saffron. Fry for 1 minute until fragrant.
+4.  **Toast:** Add the dry rice to the pan. Stir for 2 minutes to coat every grain in the spiced oil.
+5.  **Deglaze:** Pour in the sherry, scraping the bottom of the pan. Let it bubble for 1 minute.
+6.  **Simmer:** Add the broth, chickpeas, raisins, and the reserved chorizo. Bring to a boil.
+7.  **Bake:** Cover tightly and transfer to a 400°F oven. Bake for 20-25 minutes until the liquid is absorbed and the rice is tender.
+8.  **Rest:** Remove from oven and let sit, covered, for 10 minutes. This is the secret to fluffy, distinct grains.
+
+## Serving Suggestions
+
+- [Everyday Arugula Salad](/recipes/everyday-arugula-salad)
+- [Quick Pickled Carrots and Daikon](/recipes/quick-pickled-carrots-and-daikon)
+- Garlic Aioli for drizzling
