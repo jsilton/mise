@@ -1,32 +1,37 @@
 ---
 title: Breakfast Egg Cups
-prepTime: 10 min
-cookTime: 25 min
-servings: '8'
-ingredients:
-  - cooking spray
-  - 6 large egg
-  - 1/4 cup milk
-  - 1/8 teaspoon salt
-  - '1/8 teaspoon black pepper, ground'
-  - '1 medium bell pepper, red'
-  - 3/4 cup spinach
-  - 1 ounce cheddar cheese
-totalTime: 35 min
 role: main
 vibe: fuel
+prepTime: 10 min
+cookTime: 25 min
+totalTime: 35 min
+servings: '8'
+ingredients:
+  - '6 large Eggs'
+  - '1/4 cup Whole Milk'
+  - '1/8 tsp Sea Salt'
+  - '1/8 tsp Black Pepper'
+  - '--- The Texture ---'
+  - '1 medium Red Bell Pepper, finely diced'
+  - '1 cup Fresh Spinach, chiffonade'
+  - '1 oz Sharp Cheddar Cheese, shredded'
+  - 'Cooking spray'
 ---
+
+## Chef's Note
+These are the ultimate "Fuel" prep for a busy week. The secret to avoiding the rubbery texture of many egg muffins is **Texture Integrity**. We use a **Chiffonade** (thin ribbons) for the spinach, which ensures it wilts perfectly into the egg without creating large, wet clumps. Using a fresh, crisp bell pepper provides a necessary "Pop" that offsets the richness of the yolk and cheddar.
 
 ## Directions
 
-1. Spray a muffin tin with cooking spray and set aside. Preheat oven to 375°F.
-2. Whisk the eggs and milk together in a bowl. Season with salt and pepper.
-3. Dice the bell pepper into small pieces. Stack the spinach leaves, roll them up, and slice them thin. (This method is called chiffonade.)
-4. Add the peppers, spinach, and shredded cheddar to the egg mixture.
-5. Fill muffin cups 3/4 full and bake for 20-25 minutes until centers are set and no longer runny.
-6. Allow to cool slightly before serving.
+1.  **Prep:** Preheat oven to 375°F. Spray a standard muffin tin generously with cooking spray.
+2.  **The Base:** In a large bowl, whisk the eggs and milk until very frothy. Season with salt and pepper.
+3.  **The Veg:** Finely dice the red pepper. To chiffonade the spinach: stack the leaves, roll them tightly like a cigar, and slice thin ribbons.
+4.  **Combine:** Fold the peppers, spinach, and shredded cheese into the egg mixture.
+5.  **Fill:** Pour the mixture into the muffin cups, filling each about 3/4 full.
+6.  **Bake:** Bake for 20-25 minutes until the centers are set and the tops are slightly golden.
+7.  **Cool:** Allow to cool in the tin for 5 minutes before removing. These can be refrigerated for up to 4 days and reheated for 30 seconds in the microwave.
 
-## Nutrition
-
-- in fact. Every single day you produce between: 1 and 2 grams of it on your own. (That’s 5-10 times the cholesterol in a large egg.) When you eat more cholesterol from foods like eggs
-- your body produces more. Cholesterol is actually really important in your body. It is in every outer layer of all your cells. It’s a requirement for growth (in infants and adults). And it’s required for the production of many hormones.Calories: 78kcal | Carbohydrates: 2g | Protein: 6g | Fat: 5g | Saturated Fat: 2g | Cholesterol: 144mg | Sodium: 119mg | Sugar: 1g
+## Serving Suggestions
+-   Sliced Avocado and Hot Sauce
+-   [Everyday Arugula Salad](/recipes/everyday-arugula-salad)
+-   Fresh Fruit

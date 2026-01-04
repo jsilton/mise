@@ -1,37 +1,37 @@
 ---
 title: Blueberry Oat Breakfast Bars
-prepTime: 5 min
-cookTime: 25 min
-servings: 'Yield: 8'
-ingredients:
-  - 5 tbsp coconut oil (or butter)
-  - 4 tbsp honey / date syrup / maple syrup
-  - 3 tbsp nut butter
-  - 200g / 2 cups rolled oats
-  - 100g / 0.75 cup blueberries
-  - 1 tbsp plain yogurt / coconut cream
-  - 3 tsp orange juice
-totalTime: 30 min
 role: main
-vibe: speed
+vibe: fuel
+prepTime: 10 min
+cookTime: 20 min
+totalTime: 30 min
+servings: '8'
+ingredients:
+  - '5 tbsp Coconut Oil (or Unsalted Butter)'
+  - '4 tbsp Honey or Maple Syrup'
+  - '3 tbsp Almond or Peanut Butter'
+  - '2 cups Rolled Oats'
+  - '3/4 cup Fresh Blueberries'
+  - '--- The Glaze ---'
+  - '1 tbsp Greek Yogurt or Coconut Cream'
+  - '3 tsp Orange Juice'
 ---
+
+## Chef's Note
+The challenge with oat bars is preventing them from crumbling into granola. The secret is **Texture Integrity** through the **Cold Set**. By firmly pressing the mixture into the pan and refrigerating it for at least an hour (or overnight) after baking, the coconut oil and nut butter solidify to act as a natural "glue." This allows you to cut clean, portable bars that hold their "Bounce."
 
 ## Directions
 
-1. Preheat the oven to 170c / 340f. Line a baking dish with greaseproof paper. I used an 8in x 8in dish.
-2. Melt the coconut oil, honey and nut butter in a large saucepan over a medium heat. Once melted and combined, stir in the oats and continue to mix until all the oats have been coated. Fold in the blueberries.
-3. Transfer the mixture into the baking dish and firmly with the back of a spoon press down and into the sides to make it as compact as possible. Bake in the oven for 15-18 minutes or until the sides are just beginning to brown.
-4. Leave to cool in the dish and then transfer to the fridge for at least 1 hour or preferably overnight. This is essential to stop the bars from crumbling and falling apart.
-5. Once the mixture has completely cooled mix the yogurt (or coconut cream) and orange juice together and drizzle over the top and finally, cut into eight bars.
+1.  **Prep:** Preheat oven to 340°F (170°C). Line an 8x8-inch baking dish with parchment paper.
+2.  **Melt:** In a large saucepan, melt coconut oil, honey, and nut butter over medium heat. Stir until smooth and combined.
+3.  **Mix:** Remove from heat. Stir in the oats until every grain is coated. Gently fold in the blueberries.
+4.  **Press:** Transfer the mixture to the baking dish. Use the back of a spoon to press down **very firmly**—the more compact it is, the better it will hold.
+5.  **Bake:** Bake for 15-18 minutes until the edges are just beginning to turn golden brown.
+6.  **The Set:** Allow to cool in the pan at room temperature, then transfer to the fridge for at least 1 hour (mandatory) to firm up.
+7.  **Glaze:** Whisk together the yogurt and orange juice. Drizzle over the chilled bars.
+8.  **Slice:** Cut into 8 bars and serve cold or at room temperature.
 
-## Nutrition
-
-- Fat: 10.2 g
-- Calories: 327
-- Saturated Fat: 6.5 g
-- Sodium: 1.9 mg
-- Fiber: 6 g
-- Cholesterol: 0.2 mgCarbohydrate: 45.8 g
-- Sugar: 10.5 gServing Size: 1 Serving
-- Trans Fat: 0 g
-- Protein: 7.7 g
+## Serving Suggestions
+-   [Easy Breakfast Yogurt Popsicles](/recipes/easy-breakfast-yogurt-popsicles)
+-   Fresh Fruit Platter
+-   [Chocolate Chia Pudding](/recipes/chocolate-chia-pudding)

@@ -1,40 +1,37 @@
 ---
 title: Blueberry Pancakes
-prepTime: 5 min
+role: main
+vibe: comfort
+prepTime: 10 min
 cookTime: 15 min
-servings: 1 dozen 5" pancakes
+totalTime: 25 min
+servings: '12 pancakes'
 ingredients:
-  - 2 large eggs
-  - 1 cup milk
-  - '2 teaspoons vanilla extract, optional'
-  - 3 tablespoons melted butter or vegetable oil
-  - 1 1/2 cups King Arthur Unbleached All-Purpose Flour
-  - 3/4 teaspoon salt
-  - 2 teaspoons baking powder
-  - 2 tablespoons honey
-  - 3/4 cup fresh blueberries or blackberries
-totalTime: 20 min
-role: dessert
-vibe: project
+  - '2 large Eggs'
+  - '1 cup Whole Milk'
+  - '2 tsp Vanilla Extract'
+  - '3 tbsp Unsalted Butter, melted and cooled'
+  - '1 1/2 cups All-Purpose Flour'
+  - '3/4 tsp Fine Sea Salt'
+  - '2 tsp Baking Powder'
+  - '2 tbsp Honey'
+  - '3/4 cup Fresh Blueberries'
 ---
+
+## Chef's Note
+The secret to a fluffy "Restaurant Quality" pancake is **Texture Integrity** through the **Batter Rest**. After mixing, you must let the batter sit for 5 minutes; this allows the flour to fully hydrate and the gluten to relax. We also use **Honey** instead of granulated sugar to create a deeper, more caramelized "Snap" on the edges. Always sprinkle the blueberries on top of the pancake while it's on the griddle rather than mixing them in—this prevents the juice from bleeding and turning your pancakes purple.
 
 ## Directions
 
-1. Heat a griddle to 350°F. If you don't have a griddle, heat a large frying pan over medium-low to medium heat. Grease the griddle. When it's hot enough, a drop of water will skitter across the surface, evaporating immediately.
-2. Beat the eggs, milk, and vanilla until light and foamy, about 3 minutes at high speed of a stand or hand mixer. Stir in the melted butter or oil.
-3. Add the flour, salt, baking powder, and sugar, stirring just to combine. A few lumps are OK. Set the batter aside to rest for a couple of minutes; it'll thicken a bit as it stands.
-4. Drop the batter by 1/4 cupfuls onto the prepared griddle or pan; a muffin scoop works well here. Sprinkle 1 tablespoon berries atop each pancake.
-5. Cook the cakes till they're golden brown on the bottom, about 2 minutes. Flip them over, and cook till the other side is golden, 2 to 2 1/2 minutes.
-6. Serve the pancakes immediately. Or transfer them to a platter, cover, and keep warm in a 200°F oven. Enjoy with butter and maple syrup.
+1.  **Prep:** Heat a griddle to 350°F (or a large non-stick skillet over medium-low heat). Lightly grease with butter.
+2.  **Aeration:** In a large bowl, whisk eggs, milk, and vanilla until light and frothy (about 2-3 minutes). Whisk in the melted butter and honey.
+3.  **Combine:** Sift in the flour, salt, and baking powder. Stir with a spatula until **just combined**. A few lumps are mandatory—do not overmix!
+4.  **The Rest:** Let the batter sit for 5 minutes. It will thicken and become slightly bubbly.
+5.  **Pour:** Use a 1/4 cup scoop to drop batter onto the hot griddle. Immediately sprinkle 1 tbsp of blueberries onto the wet surface of each pancake.
+6.  **Flip:** Cook for 2 minutes until bubbles form and pop on the surface and the bottom is golden. Flip and cook for another 2 minutes.
+7.  **Serve:** Serve immediately with salted butter and warm maple syrup.
 
-## Nutrition
-
-- Calories: 115Total Carbohydrates: 16g
-- Cholesterol: 40mg
-- Total Fat: 4g
-- Dietary fiber: 1g
-- Protein: 4g
-- Saturated fat: 2g
-- Sodium: 242mg
-- Sugar: 4g
-- Trans Fat: 0g
+## Serving Suggestions
+-   Crispy Bacon or Sausage
+-   [Easy Breakfast Yogurt Popsicles](/recipes/easy-breakfast-yogurt-popsicles)
+-   Fresh Orange Juice

@@ -1,32 +1,40 @@
 ---
 title: Baked Macaroni and Pimento Cheese
+role: side
+vibe: comfort
+prepTime: 15 min
+cookTime: 20 min
+totalTime: 35 min
+servings: '6'
 ingredients:
-  - 1 (8-ounce) package elbow macaroni
-  - 3 tablespoons butter
-  - 1/4 cup all-purpose flour
-  - 2 cups milk
-  - 1 teaspoon salt
-  - 1/4 teaspoon ground red pepper
-  - 1/8 teaspoon garlic powder
-  - '1 (8-ounce) block sharp Cheddar cheese, shredded'
-  - >-
-    1 (4-ounce) jar diced pimento, drained (you could also use roasted red
-    pepper)
-  - '1/2 cup fine, dry breadcrumbs or panko'
-  - 3/4 cup freshly grated Parmesan cheese
-role: main
-vibe: fuel
-servings: Unknown
+  - '8 oz Elbow Macaroni'
+  - '3 tbsp Unsalted Butter'
+  - '1/4 cup All-Purpose Flour'
+  - '2 cups Whole Milk'
+  - '1 tsp Salt'
+  - '1/4 tsp Cayenne Pepper (or Red Pepper)'
+  - '1/8 tsp Garlic Powder'
+  - '8 oz Sharp Cheddar Cheese, freshly shredded'
+  - '4 oz Diced Pimentos, drained'
+  - '--- The Topping ---'
+  - '1/2 cup Panko Breadcrumbs'
+  - '3/4 cup Freshly Grated Parmesan'
 ---
+
+## Chef's Note
+This is a **Modern Heritage** update to a Southern staple. By combining the sharp tang of pimentos with a classic Mornay sauce (the roux + cheese), we get a dish that is far more sophisticated than standard mac and cheese. The secret to the Silton Standard here is using **Freshly Shredded Cheddar**—pre-shredded cheese is coated in cellulose which prevents a perfectly smooth melt. The panko-parmesan topping provides the necessary "Snap" to contrast the creamy pasta.
 
 ## Directions
 
-1. Preheat the oven to 350 degrees F.
-2. Prepare pasta according to package directions. Drain, and transfer to a large bowl.
-3. Meanwhile, melt butter in a large skillet over medium heat. Gradually whisk in flour until smooth, cook, whisking constantly, 1 minute.
-4. Gradually whisk in 2 cups milk and next 3 ingredients; cook, whisking constantly, 3 to 5 minutes or until thickened.
-5. Stir in Cheddar cheese and pimiento until melted and smooth. Remove from the heat, and stir in the pasta.
-6. Pour macaroni mixture into a lightly greased 13- x 9-inch baking dish; do not chill.
-7. If you want the breadcrumb topping, stir together the breadcrumbs and Parmesan cheese in a small bowl, and sprinkle over the pasta.
-8. Bake for 15 to 20 minutes or until golden and bubbly.
-9. Southwestern Variation: Substitute green chiles for the pimento, and use pepper jack cheese.
+1.  **Pasta:** Preheat oven to 350°F. Cook macaroni according to package directions until **al dente**. Drain and set aside.
+2.  **The Roux:** In a large skillet, melt butter over medium heat. Whisk in flour and cook for 1 minute until fragrant but not browned.
+3.  **The Sauce:** Gradually whisk in milk, salt, cayenne, and garlic powder. Cook, whisking constantly, for 3-5 minutes until the sauce thickens and coats the back of a spoon.
+4.  **Fold:** Stir in the shredded Cheddar and drained pimentos until completely melted and glossy. Remove from heat and fold in the cooked pasta.
+5.  **Bake:** Pour the mixture into a greased 9x13 baking dish.
+6.  **Topping:** Mix panko and Parmesan in a small bowl. Sprinkle evenly over the top.
+7.  **Finish:** Bake for 15-20 minutes until the edges are bubbling and the topping is golden brown.
+
+## Serving Suggestions
+-   [Buttermilk Baked Chicken](/recipes/buttermilk-baked-chicken)
+-   [Everyday Arugula Salad](/recipes/everyday-arugula-salad)
+-   [Roasted Green Bean "Fries"](/recipes/roasted-green-bean-fries)
