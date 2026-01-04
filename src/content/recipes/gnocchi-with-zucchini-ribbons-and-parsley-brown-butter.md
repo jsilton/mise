@@ -3,7 +3,7 @@ title: Gnocchi with Zucchini Ribbons & Brown Butter
 difficulty: intermediate
 cookingMethods: [roast, sauté, boil]
 dietary: [vegetarian]
-occasions: []
+occasions: [weeknight, quick-lunch, light-and-fresh]
 flavorProfile: [umami, rich, herbaceous]
 cuisines: [Italian]
 role: main
@@ -12,6 +12,11 @@ prepTime: 10 min
 cookTime: 10 min
 totalTime: 20 min
 servings: '4'
+seasons: [spring, summer, year-round]
+nutritionalDensity: moderate
+leftovers: good
+equipment: []
+pairsWith: [arugula-salad, grilled-chicken]
 ingredients:
   - 1 lb Fresh or Frozen Potato Gnocchi
   - '1 lb Zucchini (about 3 small), shaved into ribbons'

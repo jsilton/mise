@@ -3,7 +3,7 @@ title: Italian Kale & Sausage Stuffing
 difficulty: easy
 cookingMethods: [bake, roast, sauté]
 dietary: [vegetarian]
-occasions: [holiday]
+occasions: [holiday, entertaining, potluck]
 flavorProfile: [umami, herbaceous]
 cuisines: [Italian]
 role: side
@@ -12,6 +12,12 @@ prepTime: 20 min
 cookTime: 30 min
 totalTime: 80 min
 servings: '12'
+seasons: [fall, winter]
+nutritionalDensity: hearty
+leftovers: excellent
+advancePrep: [make-ahead]
+equipment: []
+pairsWith: [roasted-turkey, gravy, cranberry-sauce]
 ingredients:
   - '3/4 lb Ciabatta Bread, sliced 1/2-inch thick'
   - 1 1/2 cups Whole Milk

@@ -3,7 +3,7 @@ title: Chicken Scaloppine with Tomato & White Wine
 difficulty: intermediate
 cookingMethods: [sauté, simmer, steam]
 dietary: []
-occasions: [comfort-food]
+occasions: [comfort-food, weeknight, date-night, entertaining]
 flavorProfile: [sweet, savory, umami, rich]
 cuisines: [Italian]
 role: main
@@ -12,6 +12,11 @@ prepTime: 15 min
 cookTime: 20 min
 totalTime: 35 min
 servings: '6'
+seasons: [year-round]
+nutritionalDensity: moderate
+leftovers: good
+equipment: [large-skillet]
+pairsWith: [polenta, pasta, crusty-bread]
 ingredients:
   - '2 lbs Chicken Thighs, pounded thin (1/2-inch)'
   - 1/2 cup All-Purpose Flour

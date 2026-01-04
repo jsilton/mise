@@ -3,7 +3,7 @@ title: Mini-Shell Pasta with Bacon and Peas
 difficulty: intermediate
 cookingMethods: [fry, boil]
 dietary: [vegetarian]
-occasions: []
+occasions: [weeknight, quick-lunch, comfort-food]
 flavorProfile: [acidic, umami, rich, smoky]
 cuisines: [Italian]
 role: main
@@ -12,6 +12,11 @@ prepTime: 10 min
 cookTime: 15 min
 totalTime: 25 min
 servings: '4'
+seasons: [year-round, spring]
+nutritionalDensity: hearty
+leftovers: excellent
+equipment: []
+pairsWith: [green-salad, crusty-bread]
 ingredients:
   - 1 lb Dried Mini-Shell Pasta
   - '10 slices Smoked Bacon, slivered'

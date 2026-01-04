@@ -4,7 +4,7 @@ origin: Italy
 difficulty: intermediate
 cookingMethods: [sauté, boil]
 dietary: []
-occasions: []
+occasions: [weeknight, date-night, comfort-food]
 flavorProfile: [umami, rich]
 cuisines: [Italian]
 role: main
@@ -13,6 +13,11 @@ prepTime: 5 min
 cookTime: 15 min
 totalTime: 20 min
 servings: '4'
+seasons: [year-round]
+nutritionalDensity: hearty
+leftovers: poor
+equipment: []
+pairsWith: [caesar-salad, garlic-bread]
 ingredients:
   - '1 lb Spaghetti or Rigatoni'
   - '4 oz Guanciale or Pancetta (thickly diced)'

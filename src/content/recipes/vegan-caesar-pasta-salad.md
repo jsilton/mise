@@ -3,7 +3,7 @@ title: Vegan Caesar Pasta Salad
 difficulty: intermediate
 cookingMethods: [roast, boil]
 dietary: [vegetarian, vegan]
-occasions: []
+occasions: [weeknight, quick-lunch, post-workout, light-and-fresh, potluck]
 flavorProfile: []
 cuisines: [Italian]
 role: side
@@ -12,6 +12,11 @@ prepTime: 15 min
 cookTime: 10 min
 totalTime: 25 min
 servings: '4'
+seasons: [spring, summer, year-round]
+nutritionalDensity: light
+leftovers: good
+equipment: []
+pairsWith: [grilled-chicken, soup]
 ingredients:
   - 8 oz Rotini or Cavatappi Pasta
   - 1 1/2 cups Vegan Caesar Dressing

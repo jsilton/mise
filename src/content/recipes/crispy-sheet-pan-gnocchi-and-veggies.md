@@ -3,7 +3,7 @@ title: Sheet Pan Gnocchi & Veggies
 difficulty: intermediate
 cookingMethods: [bake, roast, boil, steam]
 dietary: []
-occasions: []
+occasions: [weeknight, meal-prep, comfort-food]
 flavorProfile: [acidic, umami, herbaceous]
 cuisines: [Italian]
 role: main
@@ -12,6 +12,11 @@ prepTime: 10 min
 cookTime: 20 min
 totalTime: 30 min
 servings: '4'
+seasons: [year-round, fall, winter]
+nutritionalDensity: hearty
+leftovers: excellent
+equipment: [sheet-pan]
+pairsWith: [side-salad, garlic-bread]
 ingredients:
   - 1 lb Fresh or Shelf-stable Potato Gnocchi
   - '12 oz Mini Bell Peppers, cut into 1-inch chunks'

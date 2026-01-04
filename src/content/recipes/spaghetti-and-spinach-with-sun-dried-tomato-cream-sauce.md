@@ -3,7 +3,7 @@ title: Sun-Dried Tomato Cream Spaghetti
 difficulty: intermediate
 cookingMethods: [roast, sauté, simmer, boil]
 dietary: []
-occasions: []
+occasions: [weeknight, quick-lunch, light-and-fresh]
 flavorProfile: [acidic, umami, rich]
 cuisines: [Italian]
 role: side
@@ -12,6 +12,11 @@ prepTime: 10 min
 cookTime: 15 min
 totalTime: 25 min
 servings: '4'
+seasons: [year-round]
+nutritionalDensity: moderate
+leftovers: good
+equipment: []
+pairsWith: [grilled-chicken, roasted-salmon]
 ingredients:
   - 8 oz Whole-wheat Spaghetti
   - 5 oz Fresh Baby Spinach

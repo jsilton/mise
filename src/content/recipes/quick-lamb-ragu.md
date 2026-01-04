@@ -4,7 +4,7 @@ origin: Italy
 difficulty: intermediate
 cookingMethods: [fry, sauté, simmer, boil, braise]
 dietary: []
-occasions: []
+occasions: [comfort-food, weekend-project, entertaining]
 flavorProfile: [savory, acidic, umami, rich, herbaceous]
 cuisines: [Italian]
 role: main
@@ -13,6 +13,11 @@ prepTime: 10 min
 cookTime: 35 min
 totalTime: 45 min
 servings: '4'
+seasons: [fall, winter, year-round]
+nutritionalDensity: hearty
+leftovers: excellent
+equipment: []
+pairsWith: [garlic-bread, side-salad, red-wine]
 ingredients:
   - 1 lb Ground Lamb
   - 12 oz Dry Pasta (Penne or Shells)

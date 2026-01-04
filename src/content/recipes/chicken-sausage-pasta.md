@@ -3,7 +3,7 @@ title: Chicken Sausage Pasta
 difficulty: easy
 cookingMethods: [sauté, simmer, boil]
 dietary: []
-occasions: []
+occasions: [weeknight, quick-lunch, kids-approved]
 flavorProfile: [sweet, acidic, umami, herbaceous]
 cuisines: [Italian]
 role: main
@@ -12,6 +12,11 @@ prepTime: 10 min
 cookTime: 15 min
 totalTime: 25 min
 servings: '4'
+seasons: [year-round]
+nutritionalDensity: hearty
+leftovers: excellent
+equipment: []
+pairsWith: [garlic-bread, side-salad]
 ingredients:
   - 1 lb Linguine or Fettuccine
   - '1 lb Italian Chicken Sausage, sliced'

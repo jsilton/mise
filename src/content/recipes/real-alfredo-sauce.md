@@ -4,7 +4,7 @@ origin: Italy
 difficulty: intermediate
 cookingMethods: [simmer, boil, steam]
 dietary: []
-occasions: []
+occasions: [weeknight, quick-lunch]
 flavorProfile: [umami, rich]
 cuisines: [Italian]
 role: base
@@ -13,6 +13,12 @@ prepTime: 2 min
 cookTime: 5 min
 totalTime: 7 min
 servings: '4'
+seasons: [year-round]
+nutritionalDensity: hearty
+leftovers: good
+advancePrep: [make-ahead]
+equipment: []
+pairsWith: [fettuccine, chicken, shrimp]
 ingredients:
   - '1 stick (8 tbsp) Unsalted Butter'
   - '1 cup Heavy Cream'
