@@ -1,26 +1,33 @@
 ---
-title: Miso Soup
-prepTime: 10 min
-cookTime: 20 min
-servings: Serves 6
+title: Miso Soup (The Dashi Standard)
+role: base
+vibe: speed
+prepTime: 5 min
+cookTime: 10 min
+totalTime: 15 min
+servings: '4'
 ingredients:
-  - 1/2 cup dried wakame (a type of seaweed)
-  - 1/4 cup shiro miso (white fermented-soybean paste)
-  - 6 cups Dashi
-  - '1/2 pound soft tofu, drained and cut into 1/2-inch cubes'
-  - 1/4 cup thinly sliced scallion greens
-totalTime: 30 min
-role: main
-vibe: comfort
+  - '4 cups Dashi (homemade or use 1 tsp Hon-Dashi powder in 4 cups water)'
+  - '3 tbsp Shiro Miso (White Miso)'
+  - '4 oz Silken Tofu, cut into small cubes'
+  - '1 tbsp Dried Wakame Seaweed'
+  - '2 Green Onions, thinly sliced'
 ---
+
+## Chef's Note
+
+Miso soup is a miracle of **Emulsion and Timing**. The most common mistake is boiling the miso—high heat kills the delicate probiotics and ruins the aroma. Always whisk the miso with a little warm broth separately and add it only _after_ the pot has been removed from the heat. The foundation is **Dashi**: if you don't have time to make it from scratch, use "Hon-Dashi" granules for that essential oceanic umami.
 
 ## Directions
 
-1. Prepare wakame:
-2. Combine wakame with warm water to cover by 1 inch and let stand 15 minutes, or until reconstituted. Drain in a sieve.
-3. Make soup:
-4. Stir together miso and 1/2 cup dashi in a bowl until smooth. Heat remaining dashi in a saucepan over moderately high heat until hot, then gently stir in tofu and reconstituted wakame. Simmer 1 minute and remove from heat. Immediately stir in miso mixture and scallion greens and serve.
+1.  **Dashi:** Bring 4 cups of water to a boil. Stir in the dashi powder (or use homemade dashi). Reduce heat to low.
+2.  **Seaweed & Tofu:** Add the wakame and tofu cubes. Simmer gently for 2 minutes until the seaweed is rehydrated.
+3.  **The Miso:** Place the miso paste in a small bowl. Ladle in about 1/2 cup of the hot broth. Whisk until the miso is completely smooth and liquid.
+4.  **Finish:** **Turn off the heat.** Stir the miso liquid back into the pot.
+5.  **Serve:** Add the green onions and serve immediately in small bowls.
 
 ## Serving Suggestions
 
-Grilled Cheese, Crusty Bread
+- [Honey Sriracha Salmon Bowls](/recipes/honey-sriracha-salmon-bowls)
+- [Bibimbap](/recipes/bibimbap)
+- [Tuna Poke Bowls](/recipes/tuna-poke-bowls)
