@@ -1,31 +1,38 @@
 ---
-title: Israeli-Style Hummus
-servings: About 4 cups
-ingredients:
-  - 1 cup dried chickpeas
-  - '2 teaspoons baking soda, divided'
-  - '4 garlic cloves, unpeeled'
-  - 1/3 cup (or more) fresh lemon juice
-  - '1 teaspoon kosher salt, plus more'
-  - 2/3 cup tahini
-  - 1/4 teaspoon (or more) ground cumin
-  - Olive oil (for serving)
-role: main
+title: Israeli Style Hummus (The Creamy Standard)
+role: base
 vibe: fuel
+prepTime: 15 min
+cookTime: 60 min
+totalTime: 12 hours
+servings: '4 cups'
+ingredients:
+  - '1 cup Dried Chickpeas (Must be dried)'
+  - '2 tsp Baking Soda (divided)'
+  - '1 cup High-Quality Tahini (like Soom)'
+  - '1/4 cup Fresh Lemon Juice'
+  - '4 cloves Garlic, unpeeled'
+  - '1 tsp Kosher Salt'
+  - '1/2 tsp Cumin'
+  - '2 Ice Cubes (The smoothing secret)'
+  - 'Extra-Virgin Olive Oil for serving'
 ---
+
+## Chef's Note
+
+This is the **Solomonov Method** for the smoothest hummus on earth. The secret is two-fold: **Baking Soda** in the water breaks down the chickpea skins until they are mushy, and the **Ice Cube Trick** creates a temperature shock during blending that emulsifies the fat and water into a pale, airy cream. We blend the tahini and lemon _first_ to create a "Tahini Sauce" base, then add the chickpeas while they are still hot.
 
 ## Directions
 
-1. Place chickpeas and 1 teaspoon baking soda in a medium bowl and add cold water to cover by 2". Cover and let sit at room temperature until chickpeas have doubled in size, 8–12 hours. Drain and rinse.
-2. Combine soaked chickpeas and remaining 1 teaspoon baking soda in a large saucepan and add cold water to cover by at least 2". Bring to a boil, skimming surface as needed. Reduce heat to medium-low, partially cover, and simmer until chickpeas are tender and really falling apart, 45–60 minutes. Drain; set aside.
-3. Meanwhile, process garlic, lemon juice, and 1 teaspoon salt in a food processor until coarsely pureed; let sit 10 minutes to allow garlic to mellow.
-4. Strain garlic mixture through a fine-mesh sieve into a small bowl, pressing on solids to release as much liquid as possible. Return liquid to food processor; discard solids. Add tahini and pulse to combine. With motor running, add 1/4 cup ice water by the tablespoonful and process (it may seize up at first) until mixture is very smooth, pale, and thick. Add chickpeas and cumin and process, occasionally scraping down sides, until mixture is extremely smooth, about 4 minutes. Thin with more water if you prefer a looser consistency; taste and season with salt, more lemon juice, and more cumin as desired.
-5. Spoon hummus into a shallow bowl, making a well in the center, and drizzle liberally with oil. Top as desired.
+1.  **The Soak:** Soak chickpeas with 1 tsp baking soda in plenty of water for 12 hours.
+2.  **The Over-Cook:** Drain and rinse. Place in a pot with the remaining 1 tsp baking soda and fresh water. Boil for 45-60 minutes until the chickpeas are literally falling apart and the skins are translucent. **Do not drain until you are ready to blend.**
+3.  **The Tahini Base:** In a food processor, blend the garlic, lemon juice, and salt until pureed. Let sit for 10 minutes to mellow the garlic, then strain out the solids.
+4.  **The Emulsion:** Add the tahini to the lemon juice. Process until it thickens and turns pale. With the motor running, add 1/4 cup ice-cold water and **2 ice cubes**. Process until it looks like whipped cream.
+5.  **The Combine:** Drain the **hot** chickpeas. Add them to the food processor with the cumin. Process for at least 4-5 minutes. If it's too thick, add a tablespoon of the chickpea cooking liquid.
+6.  **Serve:** Spread in a shallow bowl. Make a well in the center. Drizzle with plenty of olive oil and a sprinkle of paprika or za'atar.
 
-## Nutrition
+## Pairs With
 
-- Calories: 217
-- Carbohydrates: 21 g(7%)Fat 12 g(19%)Protein 9 g(17%)Saturated Fat 2 g(8%)Sodium 344 mg(14%)Polyun
-- saturated Fat: 5 g
-- Fiber: 5 g(20%)Monoun
-- saturated Fat: 4 gper serving (8 servings) Powered by
+- [Falafel](/recipes/falafel)
+- [Shakshuka](/recipes/shakshuka)
+- [Homemade Naan](/recipes/homemade-naan)
