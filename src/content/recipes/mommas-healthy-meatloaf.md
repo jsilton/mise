@@ -1,41 +1,44 @@
 ---
-title: Momma's Healthy Meatloaf
-prepTime: 15 min
-cookTime: 45 min
-servings: '4'
-ingredients:
-  - cooking spray
-  - 1 tablespoon olive oil
-  - '1 green bell pepper, diced'
-  - 1/2 cup diced sweet onion
-  - 1/2 teaspoon minced garlic
-  - 1 pound extra-lean (95%) ground beef
-  - 1 cup whole wheat bread crumbs
-  - 2 large eggs
-  - 3/4 cup shredded carrot
-  - 3/4 cup shredded zucchini
-  - salt and ground black pepper to taste
-  - '1/4 cup ketchup, or to taste'
-totalTime: 60 min
+title: Momma's Healthy Meatloaf (The Panade Method)
 role: main
 vibe: comfort
+prepTime: 15 min
+cookTime: 45 min
+totalTime: 60 min
+servings: '4'
+ingredients:
+  - '1 lb Ground Turkey or Lean Ground Beef'
+  - '--- The Panade (Moisture Secret) ---'
+  - '1 cup Whole Wheat Breadcrumbs'
+  - '1/4 cup Whole Milk or Broth'
+  - '--- The Veggie Mix ---'
+  - '1 Green Bell Pepper, finely diced'
+  - '1/2 cup Onion, finely diced'
+  - '3/4 cup Carrots, grated'
+  - '3/4 cup Zucchini, grated and squeezed dry'
+  - '2 large Eggs, beaten'
+  - '--- Seasoning & Glaze ---'
+  - '1/2 tsp Garlic Powder'
+  - '1/4 cup Ketchup'
+  - 'Salt and Black Pepper'
 ---
+
+## Chef's Note
+
+To keep a "Healthy" meatloaf juicy when using lean meats, we use a **Panade**: a mixture of breadcrumbs and milk that creates a moisture reservoir inside the loaf. We also "hide" a massive amount of vegetables (carrots and zucchini) to provide bulk and nutrition. The secret to the Silton Standard is **Squeezing the Zucchini**: if you don't remove the excess water from the zucchini, the loaf will be mushy and fall apart.
 
 ## Directions
 
-1. Preheat oven to 400 degrees F (200 degrees C). Spray a 9x5-inch loaf pan with cooking spray.
-2. Heat olive oil in a skillet over medium heat; cook and stir green bell pepper and onion in the hot oil until onion is transparent and bell pepper is softened, 5 to 10 minutes. Add garlic and cook until fragrant, 1 to 2 minutes.
-3. Combine ground beef, bread crumbs, eggs, carrot, zucchini, salt, pepper, and bell pepper mixture in a large bowl; mix well using your hands. Press meat mixture into the prepared loaf pan.
-4. Bake in the preheated oven until no longer pink in the center, 35 to 40 minutes. An instant-read thermometer inserted into the center should read at least 160 degrees F (70 degrees C). Spread ketchup on the top of the meatloaf and continue baking until bubbling, about 5 minutes more.
+1.  **The Panade:** In a small bowl, soak the breadcrumbs in the milk for 5 minutes until it forms a paste.
+2.  **The Veg:** Sauté the onion and bell pepper in a skillet for 5 minutes until soft. Let cool slightly.
+3.  **The Mix:** In a large bowl, combine the meat, the panade paste, the sautéed veg, grated carrots, squeezed zucchini, eggs, garlic powder, salt, and pepper. Use your hands to gently mix until just combined—**do not overwork the meat.**
+4.  **Shape:** Press the mixture into a greased 9x5 loaf pan or shape into a free-form loaf on a baking sheet.
+5.  **Bake:** Bake at 400°F for 35-40 minutes until the internal temp hits 160°F.
+6.  **Glaze:** Spread ketchup over the top and bake for another 5 minutes until bubbly and caramelized.
+7.  **Rest:** Let rest for 10 minutes before slicing to ensure it holds its shape.
 
-## Notes
+## Serving Suggestions
 
-Aluminum foil helps keep food moist, ensures it cooks evenly, keeps leftovers fresh, and makes clean-up easy.
-
-## Nutrition
-
-- Calories: 377 kcalTotal Carbohydrates: 24g
-- Cholesterol: 157 mg
-- Total Fat: 20.1 g
-- Protein: 26.4 g
-- Sodium: 457 mg
+- [Patate al Forno](/recipes/patate-al-forno) (Crispy Roast Potatoes)
+- Steamed Broccoli with Garlic
+- [Nana Ruth's Applesauce](/recipes/nana-ruths-applesauce)

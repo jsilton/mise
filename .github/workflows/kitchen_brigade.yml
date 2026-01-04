@@ -13,7 +13,7 @@ permissions:
 jobs:
   # 1. PREP & SERVICE (Self-Healing Pipeline)
   kitchen-service:
-    name: "Kitchen Prep & Service"
+    name: 'Kitchen Prep & Service'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -42,11 +42,11 @@ jobs:
         id: auto-commit
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "style: Kitchen Brigade auto-fixes [skip ci]"
+          commit_message: 'style: Kitchen Brigade auto-fixes [skip ci]'
           branch: ${{ github.head_ref }}
-          commit_user_name: "Silton Sous Chef"
-          commit_user_email: "sous-chef@silton-mise.kitchen"
-          skip_dirty_check: false 
+          commit_user_name: 'Silton Sous Chef'
+          commit_user_email: 'sous-chef@silton-mise.kitchen'
+          skip_dirty_check: false
 
       # --- EXECUTION (Build) ---
       - name: Fire the Oven (Build)
@@ -62,7 +62,7 @@ jobs:
     continue-on-error: true
     steps:
       - uses: actions/checkout@v4
-      
+
       - name: Read The Codex
         id: codex
         run: |
@@ -78,11 +78,11 @@ jobs:
           prompt: >
             You are the Maître d' of the Silton family kitchen.
             The kitchen staff (CI pipeline) has just processed a new update.
-            
+
             CONTEXT:
             - Codex: ${{ steps.codex.outputs.codex }}
             - Commit: "${{ github.event.head_commit.message }}"
-            
+
             TASK:
             1. Summarize the changes in 1 sentence.
             2. If the commit was an "auto-fix" (check the message), praise the kitchen staff for their diligence.
