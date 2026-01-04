@@ -23,6 +23,7 @@ ingredients:
 ---
 
 ## Chef's Note
+
 This is a **Modern Heritage** masterpiece that replaces the greasy deep-fry with a superior high-heat bake. We use two specific Silton Patterns: **Enzyme Tenderization** (the buttermilk soak) to break down proteins for maximum juiciness, and the **Wire Rack Hack**. By elevating the chicken on a rack, we allow hot air to circulate 360 degrees, ensuring the **Cornflake Crust** stays shatteringly crisp on the bottom. Never skip the Parmesan in the breading—it provides the "Salty Snap" that defines this dish.
 
 ## Directions
@@ -35,6 +36,7 @@ This is a **Modern Heritage** masterpiece that replaces the greasy deep-fry with
 6.  **Rest:** Let rest for 5 minutes before serving to allow the juices to redistribute.
 
 ## Serving Suggestions
--   [Baked Macaroni and Pimento Cheese](/recipes/baked-macaroni-and-pimento-cheese)
--   [Roasted Green Bean "Fries"](/recipes/roasted-green-bean-fries)
--   [Everyday Arugula Salad](/recipes/everyday-arugula-salad)
+
+- [Baked Macaroni and Pimento Cheese](/recipes/baked-macaroni-and-pimento-cheese)
+- [Roasted Green Bean "Fries"](/recipes/roasted-green-bean-fries)
+- [Everyday Arugula Salad](/recipes/everyday-arugula-salad)

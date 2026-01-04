@@ -19,6 +19,7 @@ ingredients:
 ---
 
 ## Chef's Note
+
 These are the perfect "Fuel" snacks for on-the-go. The secret to **Texture Integrity** here is the **Compression Pattern**: when scooping the mixture, you must press it firmly into the spoon or scoop. This ensures the egg and cheese can bind the quinoa and broccoli into a dense, "bouncy" bite that doesn't crumble. We use finely chopped fresh broccoli rather than frozen to maintain a slight "Snap" even after baking.
 
 ## Directions
@@ -31,6 +32,7 @@ These are the perfect "Fuel" snacks for on-the-go. The secret to **Texture Integ
 6.  **The Rest:** Let the bites rest on the pan for 5 minutes before moving—this allows the cheese to "set," ensuring they hold their shape.
 
 ## Serving Suggestions
--   [Yogurt Dipping Sauce](/recipes/yogurt-dipping-sauce)
--   [Smashed Cucumber Salad](/recipes/smashed-cucumber-salad)
--   Sriracha Mayo
+
+- [Yogurt Dipping Sauce](/recipes/yogurt-dipping-sauce)
+- [Smashed Cucumber Salad](/recipes/smashed-cucumber-salad)
+- Sriracha Mayo

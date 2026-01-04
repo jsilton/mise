@@ -19,6 +19,7 @@ ingredients:
 ---
 
 ## Chef's Note
+
 These are the ultimate **Modularity** component. We treat these as a "Base" because they can be prepped in bulk and added to lunchboxes, pre-workout stacks, or crumbled over yogurt. The secret to the Silton Standard is the **Hydration Balance**: protein powder absorbs liquid at different rates, so we add the milk one teaspoon at a time until the dough has the "Bounce" of a fresh brownie. Chilling is mandatory to set the healthy fats from the almond butter, ensuring they hold their shape.
 
 ## Directions
@@ -26,11 +27,12 @@ These are the ultimate **Modularity** component. We treat these as a "Base" beca
 1.  **The Base:** In a medium bowl, combine almond butter, protein powder, almond flour, cocoa powder, maple syrup, and sea salt.
 2.  **Hydrate:** Mix with a spatula until a thick dough forms. If it is too crumbly to hold a shape, add 1 tbsp of water or milk. If it's still too dry, add another tbsp.
 3.  **Texture:** Fold in the flaxseed (or chia) and the mini chocolate chips.
-4.  **Roll:** Scoop out 1-tbsp portions and roll between your palms into balls. 
+4.  **Roll:** Scoop out 1-tbsp portions and roll between your palms into balls.
 5.  **Set:** Place on a plate and chill in the refrigerator for at least 20 minutes before eating.
 6.  **Store:** Keep in an airtight container in the fridge for up to a week.
 
 ## Serving Suggestions
--   [Easy Breakfast Yogurt Popsicles](/recipes/easy-breakfast-yogurt-popsicles)
--   Fresh Apple Slices
--   [Chocolate Chia Pudding](/recipes/chocolate-chia-pudding)
+
+- [Easy Breakfast Yogurt Popsicles](/recipes/easy-breakfast-yogurt-popsicles)
+- Fresh Apple Slices
+- [Chocolate Chia Pudding](/recipes/chocolate-chia-pudding)

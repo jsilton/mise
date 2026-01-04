@@ -22,19 +22,21 @@ ingredients:
 ---
 
 ## Chef's Note
+
 This is **Modern Heritage** in a roasting pan. While the old-school method involves just boiling meat in juice, we prioritize **Flavor Layering**. The secret is the **High-Heat Finish**: after the meat is tender, we boil the vegetables and sauce separately to reduce the tomato juice into a thick, umami-rich glaze. We use parchment under the foil to prevent the acid in the tomato juice from reacting with the aluminum—a critical safety and flavor pattern.
 
 ## Directions
 
-1.  **Prep:** Preheat oven to 350°F. 
+1.  **Prep:** Preheat oven to 350°F.
 2.  **Rub:** Combine salt, pepper, garlic, and oregano. Rub the mixture vigorously over all sides of the brisket.
-3.  **Layer:** Place the brisket in a heavy roasting pan. Pile the carrots, celery, onions, and bay leaves on and around the meat. 
+3.  **Layer:** Place the brisket in a heavy roasting pan. Pile the carrots, celery, onions, and bay leaves on and around the meat.
 4.  **Seal:** Pour the tomato juice over everything (it should come 3/4 of the way up the meat). Cover the pan with **two sheets of parchment paper**, then seal tightly with heavy-duty aluminum foil.
 5.  **The Braise:** Bake for 3 1/2 hours until the meat is fork-tender.
 6.  **The Reduction:** Remove the meat to a cutting board and tent with foil to rest. Place the roasting pan across two burners on the stovetop. Boil the vegetables and sauce over medium-high heat for 20-30 minutes until the sauce is glossy and thick.
 7.  **Serve:** Slice the meat **across the grain** (essential for tenderness). Serve drenched in the reduced sauce and surrounded by the "melt-in-your-mouth" onions and carrots.
 
 ## Serving Suggestions
--   [Miso-Mashed Potatoes](/recipes/miso-mashed-potatoes)
--   [Roasted Asparagus](/recipes/roasted-asparagus)
--   [Challah](/recipes/my-favorite-challah) for dipping
+
+- [Miso-Mashed Potatoes](/recipes/miso-mashed-potatoes)
+- [Roasted Asparagus](/recipes/roasted-asparagus)
+- [Challah](/recipes/my-favorite-challah) for dipping

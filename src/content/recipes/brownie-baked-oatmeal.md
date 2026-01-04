@@ -20,6 +20,7 @@ ingredients:
 ---
 
 ## Chef's Note
+
 This is a high-speed "Fuel" breakfast that tastes like a "Comfort" dessert. The secret is **The Blender Pattern**: by blending the oats into a flour directly with the wet ingredients, we achieve a cake-like **Texture Integrity** that mimics a real brownie. We use the **Acid Finish** (from the natural acid in the banana reacting with the baking soda) to provide the "Bounce" and rise. Always finish with flaky sea salt to cut the sweetness.
 
 ## Directions
@@ -31,6 +32,7 @@ This is a high-speed "Fuel" breakfast that tastes like a "Comfort" dessert. The 
 5.  **Finish:** Sprinkle with a pinch of flaky sea salt and serve warm.
 
 ## Serving Suggestions
--   A dollop of Peanut Butter
--   Fresh Raspberries
--   [Easy Breakfast Yogurt Popsicles](/recipes/easy-breakfast-yogurt-popsicles)
+
+- A dollop of Peanut Butter
+- Fresh Raspberries
+- [Easy Breakfast Yogurt Popsicles](/recipes/easy-breakfast-yogurt-popsicles)

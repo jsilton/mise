@@ -23,6 +23,7 @@ ingredients:
 ---
 
 ## Chef's Note
+
 These biscuits are a masterclass in **Structural Science**. By using **Greek Yogurt** as the primary hydrator instead of heavy cream or butter, we achieve a high-protein "Fuel" profile while maintaining a tender, moist crumb. The secret is the **Folding Technique**: we fold the spinach and ham in at the very end to ensure **Texture Integrity**—you want distinct pops of salt and green in every bite, not a uniform gray mass.
 
 ## Directions
@@ -36,6 +37,7 @@ These biscuits are a masterclass in **Structural Science**. By using **Greek Yog
 7.  **Finish:** They are done when the bottoms are golden brown and the cheese on top is bubbly and crisp.
 
 ## Serving Suggestions
--   [Everyday Arugula Salad](/recipes/everyday-arugula-salad)
--   Extra Greek Yogurt for dipping
--   [Easy Breakfast Yogurt Popsicles](/recipes/easy-breakfast-yogurt-popsicles)
+
+- [Everyday Arugula Salad](/recipes/everyday-arugula-salad)
+- Extra Greek Yogurt for dipping
+- [Easy Breakfast Yogurt Popsicles](/recipes/easy-breakfast-yogurt-popsicles)

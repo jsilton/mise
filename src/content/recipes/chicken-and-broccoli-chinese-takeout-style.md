@@ -27,6 +27,7 @@ ingredients:
 ---
 
 ## Chef's Note
+
 This is the **Gold Standard** of takeout classics. The secret to "Restaurant Quality" chicken is the **Structural Science** of **Velveting**. By marinating the chicken in Shaoxing wine and cornstarch, we create a protective barrier that keeps the meat succulent and prevents it from toughening over high heat. We also use **The Texture Pattern**: we steam the broccoli with just a splash of water first, then sear the chicken, ensuring the vegetable maintains its "Snap" while the meat gets a slight char.
 
 ## Directions
@@ -36,10 +37,11 @@ This is the **Gold Standard** of takeout classics. The secret to "Restaurant Qua
 3.  **Steam:** Heat a large wok or non-stick skillet over medium-high heat. Add 1/3 cup water and the broccoli. Cover and steam for 45-60 seconds until bright green. Remove broccoli and wipe the pan dry.
 4.  **Sear:** Add oil to the pan. Spread chicken in a single layer. Let sit undisturbed for 1 minute to develop a brown crust. Flip and stir-fry until almost cooked through.
 5.  **Aromatics:** Push chicken to the side. Add garlic and ginger. Sauté for 30 seconds until fragrant.
-6.  **The Glaze:** Return broccoli to the pan. Whisk the sauce again (cornstarch settles!) and pour it in. 
+6.  **The Glaze:** Return broccoli to the pan. Whisk the sauce again (cornstarch settles!) and pour it in.
 7.  **Finish:** Toss vigorously for 1 minute until the sauce thickens into a glossy glaze. Serve immediately.
 
 ## Serving Suggestions
--   [Basmati Rice](/recipes/basmati-rice) or [Cilantro Lime Rice](/recipes/cilantro-lime-rice)
--   [Smashed Cucumber Salad](/recipes/smashed-cucumber-salad)
--   [Chinese Sausage Fried Rice](/recipes/chinese-sausage-fried-rice)
+
+- [Basmati Rice](/recipes/basmati-rice) or [Cilantro Lime Rice](/recipes/cilantro-lime-rice)
+- [Smashed Cucumber Salad](/recipes/smashed-cucumber-salad)
+- [Chinese Sausage Fried Rice](/recipes/chinese-sausage-fried-rice)

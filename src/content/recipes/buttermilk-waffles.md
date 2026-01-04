@@ -19,6 +19,7 @@ ingredients:
 ---
 
 ## Chef's Note
+
 The difference between a soggy waffle and a Silton Standard waffle is **Structural Science**. We use two critical patterns: **Chemical Leavening** (the reaction between buttermilk and baking soda for maximum lift) and **The Hydration Rest**. You must let the batter sit for at least 10 minutes before cooking; this allows the flour to fully absorb the buttermilk, resulting in a waffle that is "Shatteringly Crisp" on the outside and airy on the inside.
 
 ## Directions
@@ -27,11 +28,12 @@ The difference between a soggy waffle and a Silton Standard waffle is **Structur
 2.  **Wet Mix:** In a separate bowl, whisk the buttermilk and melted butter. Whisk in the eggs until just combined.
 3.  **Combine:** Pour the wet ingredients into the dry. Whisk until **just combined**—a few small lumps are essential for a light texture. Fold in the vanilla.
 4.  **The Rest:** Let the batter rest at room temperature for 10-15 minutes. It should become slightly bubbly.
-5.  **Cook:** Preheat your waffle iron and grease lightly. Pour about 1/3 to 1/2 cup of batter (depending on your iron size). 
+5.  **Cook:** Preheat your waffle iron and grease lightly. Pour about 1/3 to 1/2 cup of batter (depending on your iron size).
 6.  **Finish:** Cook until the steam stops rising from the iron and the waffles are deep golden brown.
 7.  **Serve:** Serve immediately with salted butter, maple syrup, and fresh berries.
 
 ## Serving Suggestions
--   Crispy Bacon or Sausage
--   [Easy Breakfast Yogurt Popsicles](/recipes/easy-breakfast-yogurt-popsicles)
--   Fresh Peaches or Strawberries
+
+- Crispy Bacon or Sausage
+- [Easy Breakfast Yogurt Popsicles](/recipes/easy-breakfast-yogurt-popsicles)
+- Fresh Peaches or Strawberries
