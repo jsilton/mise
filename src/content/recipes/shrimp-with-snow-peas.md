@@ -29,6 +29,7 @@ ingredients:
 ---
 
 ## Chef's Note
+
 This is a classic Cantonese "Clean" stir-fry. To achieve the "Restaurant Snap," we use two professional techniques: **The Alkaline Rinse** (baking soda) which gives the shrimp a bouncy texture, and **Velveting** (cornstarch/wine marinade) which protects the delicate protein from the high heat of the wok. This results in shrimp that are juicy and translucent, paired with snow peas that are vivid green and crisp.
 
 ## Directions
@@ -43,5 +44,6 @@ This is a classic Cantonese "Clean" stir-fry. To achieve the "Restaurant Snap," 
 8.  **Serve:** Serve immediately over [Jasmine Rice](/recipes/near-east-rice-pilaf-hack).
 
 ## Serving Suggestions
--   [Jasmine Rice](/recipes/near-east-rice-pilaf-hack) (Rinse 3 times!)
--   [Smashed Cucumber Salad](/recipes/smashed-cucumber-salad)
+
+- [Jasmine Rice](/recipes/near-east-rice-pilaf-hack) (Rinse 3 times!)
+- [Smashed Cucumber Salad](/recipes/smashed-cucumber-salad)
