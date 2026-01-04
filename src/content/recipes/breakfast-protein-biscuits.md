@@ -1,37 +1,41 @@
 ---
 title: Breakfast Protein Biscuits
-prepTime: 30 min
-cookTime: 25 min
-ingredients:
-  - 1 +¾ cups plain 2% Greek yogurt
-  - 4 eggs
-  - 2 + ½ cups all purpose flour
-  - ¼ cup ground flaxseed
-  - 1 teaspoon garlic powder
-  - ½ teaspoon red pepper flakes
-  - 1 tablespoon baking powder
-  - 2 teaspoon salt
-  - 1.5 cups spinach chopped
-  - ½ cup chives finely diced
-  - '1.5 cups cheddar cheese shredded, divided'
-  - 2 cups cooked ham diced
-totalTime: 55 min
 role: main
 vibe: fuel
-servings: Unknown
+prepTime: 15 min
+cookTime: 25 min
+totalTime: 40 min
+servings: '12'
+ingredients:
+  - '2 1/2 cups All-Purpose Flour'
+  - '1 3/4 cups Plain 2% Greek Yogurt'
+  - '4 large Eggs'
+  - '1/4 cup Ground Flaxseed'
+  - '1 tbsp Baking Powder'
+  - '2 tsp Sea Salt'
+  - '--- The Flavor Mix ---'
+  - '1 1/2 cups Fresh Spinach, finely chopped'
+  - '1/2 cup Fresh Chives, finely diced'
+  - '1 1/2 cups Sharp Cheddar, shredded'
+  - '2 cups Cooked Ham, diced small'
+  - '1 tsp Garlic Powder'
+  - '1/2 tsp Red Pepper Flakes'
 ---
+
+## Chef's Note
+These biscuits are a masterclass in **Structural Science**. By using **Greek Yogurt** as the primary hydrator instead of heavy cream or butter, we achieve a high-protein "Fuel" profile while maintaining a tender, moist crumb. The secret is the **Folding Technique**: we fold the spinach and ham in at the very end to ensure **Texture Integrity**—you want distinct pops of salt and green in every bite, not a uniform gray mass.
 
 ## Directions
 
-1. Preheat the oven 400F and line a baking tray with parchment paper.
-2. In a medium mixing bowl whisk together greek yogurt and eggs. In a separate medium mixing bowl, combine flour, ground flax seed, garlic powder, red pepper flakes, baking powder and salt.
-3. Slowly add the dry ingredients into the wet ingredients, mixing well.
-4. Add spinach, chives, 1 cup of the shredded cheese and the ham. Mix until the ingredients are fully combined (you may need to use your hands to ensure everything is fully incorporated.
-5. Lightly flour your hands and divide the dough into 12 even-sized 1-inch round disk shaped biscuits(about ⅓ cup of batter in each). Arrange the biscuits on the prepared baking tray (please note depending on the size of your tray you may need to use 2 trays to ensure the biscuits are evenly spaced). Sprinkle the tops with the remaining cheese.
-6. Bake at 400F for 5 minutes, decrease the temperature to 350F and bake for an additional 20 minutes (do not open the oven in between). Once the bottom of the biscuits are golden brown and the tops are just beginning to brown, your biscuits are done!
+1.  **Prep:** Preheat oven to 400°F. Line a large baking sheet with parchment paper.
+2.  **Wet & Dry:** In a medium bowl, whisk together the yogurt and eggs. In a separate large bowl, whisk the flour, flaxseed, garlic powder, red pepper flakes, baking powder, and salt.
+3.  **Combine:** Gradually add the dry ingredients to the wet. Stir until a thick, sticky dough forms.
+4.  **Fold:** Fold in the chopped spinach, chives, ham, and 1 cup of the cheese. Use your hands if necessary to ensure even distribution without overworking the dough.
+5.  **Shape:** Lightly flour your hands. Scoop about 1/3 cup of dough for each biscuit. Form into 1-inch thick disks and arrange on the baking sheet.
+6.  **The Temperature Pattern:** Sprinkle the remaining 1/2 cup of cheese on top. Bake at 400°F for 5 minutes (to kickstart the rise), then **lower the heat to 350°F** for the remaining 20 minutes.
+7.  **Finish:** They are done when the bottoms are golden brown and the cheese on top is bubbly and crisp.
 
-## Nutrition
-
-- Serving: 1biscuit | Calories: 247kcal | Carbohydrates: 23g | Protein: 15g | Fat: 10g | Saturated Fat: 4g | Polyun
-- saturated Fat: 2g | Monoun
-- saturated Fat: 2g| Trans Fat: 0.01g | Cholesterol: 84mg | Sodium: 844mg | Potassium: 170mg | Fiber: 2g | Sugar: 2g | Vitamin A: 689IU | Vitamin C: 6mg | Calcium: 225mg | Iron: 2mg
+## Serving Suggestions
+-   [Everyday Arugula Salad](/recipes/everyday-arugula-salad)
+-   Extra Greek Yogurt for dipping
+-   [Easy Breakfast Yogurt Popsicles](/recipes/easy-breakfast-yogurt-popsicles)

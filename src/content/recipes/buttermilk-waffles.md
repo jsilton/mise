@@ -1,38 +1,37 @@
 ---
-title: Buttermilk Waffles
+title: Buttermilk Waffles (The Sunday Standard)
+role: main
+vibe: comfort
 prepTime: 10 min
 cookTime: 10 min
-servings: 'Servings: 6'
+totalTime: 30 min
+servings: '6'
 ingredients:
-  - 2 cups all-purpose flour
-  - 2 tablespoons sugar
-  - 2 teaspoons baking powder
-  - 1 teaspoon baking soda
-  - ½ teaspoon salt
-  - 2 cups buttermilk
-  - '⅓ cup butter, melted'
-  - 2 eggs
-  - 1 teaspoon vanilla extract
-totalTime: 20 min
-role: main
-vibe: speed
+  - '2 cups All-Purpose Flour'
+  - '2 tbsp Sugar'
+  - '2 tsp Baking Powder'
+  - '1 tsp Baking Soda'
+  - '1/2 tsp Sea Salt'
+  - '2 cups Whole Buttermilk'
+  - '1/3 cup Unsalted Butter, melted'
+  - '2 large Eggs'
+  - '1 tsp Vanilla Extract'
 ---
+
+## Chef's Note
+The difference between a soggy waffle and a Silton Standard waffle is **Structural Science**. We use two critical patterns: **Chemical Leavening** (the reaction between buttermilk and baking soda for maximum lift) and **The Hydration Rest**. You must let the batter sit for at least 10 minutes before cooking; this allows the flour to fully absorb the buttermilk, resulting in a waffle that is "Shatteringly Crisp" on the outside and airy on the inside.
 
 ## Directions
 
-1. In a medium bowl, whisk flour, sugar, baking powder, baking soda, and salt.
-2. In another medium bowl, whisk buttermilk and butter. Add eggs and stir until combined.
-3. Add dry ingredients to wet ingredients and whisk until just combined (there were still lumps). Fold in vanilla. Let the batter rest for 10 minutes.
-4. Preheat the waffle iron and grease. Pour about ⅓-½ cup of batter into the waffle iron (or until the batter reaches about ½ inch to the edge of the iron). Cook until ready. Top with syrup and berries.
+1.  **Dry Mix:** In a large bowl, whisk together flour, sugar, baking powder, baking soda, and salt.
+2.  **Wet Mix:** In a separate bowl, whisk the buttermilk and melted butter. Whisk in the eggs until just combined.
+3.  **Combine:** Pour the wet ingredients into the dry. Whisk until **just combined**—a few small lumps are essential for a light texture. Fold in the vanilla.
+4.  **The Rest:** Let the batter rest at room temperature for 10-15 minutes. It should become slightly bubbly.
+5.  **Cook:** Preheat your waffle iron and grease lightly. Pour about 1/3 to 1/2 cup of batter (depending on your iron size). 
+6.  **Finish:** Cook until the steam stops rising from the iron and the waffles are deep golden brown.
+7.  **Serve:** Serve immediately with salted butter, maple syrup, and fresh berries.
 
-## Nutrition
-
-- Calories: 331kcal
-- Carbohydrates: 40g
-- Protein: 8g
-- Fat: 14g
-- Saturated Fat: 8g
-- Cholesterol: 90mg
-- Sodium: 600mg
-- Fiber: 1g
-- Sugar: 8g
+## Serving Suggestions
+-   Crispy Bacon or Sausage
+-   [Easy Breakfast Yogurt Popsicles](/recipes/easy-breakfast-yogurt-popsicles)
+-   Fresh Peaches or Strawberries

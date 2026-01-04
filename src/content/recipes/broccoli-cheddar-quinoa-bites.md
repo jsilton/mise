@@ -1,27 +1,36 @@
 ---
 title: Broccoli Cheddar Quinoa Bites
+role: side
+vibe: fuel
 prepTime: 15 min
 cookTime: 30 min
-servings: 30 -40 bites
-ingredients:
-  - 2 cups cooked quinoa
-  - '1 cup broccoli, finely chopped, firmly packed'
-  - '1 cup sharp cheddar cheese, grated'
-  - '2 green onions, sliced'
-  - '2 large eggs, lightly beaten'
-  - 1/2 tsp garlic powder
-  - 2 Tbsp Parmesan cheese
-  - 1/2 tsp salt
-  - 1/4 tsp pepper
 totalTime: 45 min
-role: base
-vibe: fuel
+servings: '30 bites'
+ingredients:
+  - '2 cups Cooked Quinoa'
+  - '1 cup Fresh Broccoli, finely chopped (packed)'
+  - '1 cup Sharp Cheddar, freshly grated'
+  - '2 Green Onions, thinly sliced'
+  - '2 large Eggs, lightly beaten'
+  - '2 tbsp Parmesan Cheese, grated'
+  - '1/2 tsp Garlic Powder'
+  - '1/2 tsp Sea Salt'
+  - '1/4 tsp Black Pepper'
 ---
+
+## Chef's Note
+These are the perfect "Fuel" snacks for on-the-go. The secret to **Texture Integrity** here is the **Compression Pattern**: when scooping the mixture, you must press it firmly into the spoon or scoop. This ensures the egg and cheese can bind the quinoa and broccoli into a dense, "bouncy" bite that doesn't crumble. We use finely chopped fresh broccoli rather than frozen to maintain a slight "Snap" even after baking.
 
 ## Directions
 
-1. Preheat oven to 375 degrees then line a baking sheet with parchment paper and coat lightly with cooking spray.
-2. Add cooked quinoa, chopped broccoli, cheddar cheese and green onion to a large mixing bowl then toss until combined.
-3. Mix in eggs, garlic powder, Parmesan cheese, salt and pepper until completely combined.
-4. Scoop onto prepared baking sheet using a small scoop or tablespoon. Compress mixture into the spoon (or scoop) as much as possible, but keep in mind it’s not necessary for the mixture to cook in a spherical shape. The egg and cheese will bind the bites together after they are baked.
-5. Bake 20–25 minutes or until lightly browned on the outside. Remove from oven, let rest for 5 minutes before serving.
+1.  **Prep:** Preheat oven to 375°F. Line a baking sheet with parchment paper and lightly grease with oil spray.
+2.  **Mix:** In a large bowl, toss the cooked quinoa, chopped broccoli, cheddar, and green onions.
+3.  **Bind:** Stir in the beaten eggs, Parmesan, garlic powder, salt, and pepper. Mix until every grain of quinoa is coated in the egg mixture.
+4.  **Compress:** Using a small cookie scoop or tablespoon, scoop the mixture and **press it firmly** against the side of the bowl to compact it. Place on the baking sheet.
+5.  **Bake:** Bake for 20-25 minutes until the edges are golden brown and the bites feel firm to the touch.
+6.  **The Rest:** Let the bites rest on the pan for 5 minutes before moving—this allows the cheese to "set," ensuring they hold their shape.
+
+## Serving Suggestions
+-   [Yogurt Dipping Sauce](/recipes/yogurt-dipping-sauce)
+-   [Smashed Cucumber Salad](/recipes/smashed-cucumber-salad)
+-   Sriracha Mayo

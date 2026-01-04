@@ -1,39 +1,45 @@
 ---
 title: Chicken and Broccoli (Chinese Takeout Style)
-servings: 'Serving: 1'
+role: main
+vibe: speed
+prepTime: 15 min
+cookTime: 10 min
+totalTime: 25 min
+servings: '4'
 ingredients:
-  - 1 lb (450 g) boneless skinless chicken breast (or thigh)
-  - Meat and Marinade
-  - 1 tablespoon Shaoxing wine (or dry sherry)
-  - 1/2 teaspoon salt
-  - 1 tablespoon cornstarch
-  - Sauce
-  - 3 tablespoons oyster sauce
-  - 2 tablespoons Shaoxing wine (or dry sherry)
-  - 1/2 tablespoon dark soy sauce (or soy sauce)
-  - 1/4 cup chicken stock
-  - 1 tablespoon sugar
-  - 1 tablespoon cornstarch
-  - 1/4 teaspoon salt
-  - Stir-fry
-  - '1 head broccoli , chopped into bite-sized florets'
-  - 2 tablespoons peanut oil (or vegetable oil)
-  - '4 cloves garlic , minced'
-  - '1 teaspoon ginger , minced'
-role: side
-vibe: fuel
+  - '1 lb Chicken Breast, sliced thin against the grain'
+  - '--- The Velveting Marinade ---'
+  - '1 tbsp Shaoxing Wine'
+  - '1 tbsp Cornstarch'
+  - '1/2 tsp Sea Salt'
+  - '--- The Brown Sauce ---'
+  - '3 tbsp Oyster Sauce'
+  - '2 tbsp Shaoxing Wine'
+  - '1/2 tbsp Dark Soy Sauce'
+  - '1/4 cup Chicken Stock'
+  - '1 tbsp Sugar'
+  - '1 tbsp Cornstarch'
+  - '--- The Stir-Fry ---'
+  - '1 large head Broccoli, cut into bite-sized florets'
+  - '2 tbsp Peanut Oil (or high-heat oil)'
+  - '4 cloves Garlic, minced'
+  - '1 tsp Fresh Ginger, minced'
 ---
+
+## Chef's Note
+This is the **Gold Standard** of takeout classics. The secret to "Restaurant Quality" chicken is the **Structural Science** of **Velveting**. By marinating the chicken in Shaoxing wine and cornstarch, we create a protective barrier that keeps the meat succulent and prevents it from toughening over high heat. We also use **The Texture Pattern**: we steam the broccoli with just a splash of water first, then sear the chicken, ensuring the vegetable maintains its "Snap" while the meat gets a slight char.
 
 ## Directions
 
-1. Slice the chicken against the grain into thin bite-size pieces, no thicker than 1/4” (1/2 cm).
-2. Combine all the sauce ingredients in a bowl. Stir to mix well.
-3. Bring 1/3 cup of water to a boil in a large nonstick skillet over medium-high heat. Add the broccoli and cover. Steam until the broccoli just turns tender and the water evaporates, about 40 to 50 seconds. Transfer the broccoli to a plate. Wipe the pan with a paper towel held in a pair of tongs if there’s any water left.
-4. Add the oil and swirl to coat the bottom. Spread the chicken in the skillet in a single layer. Allow to cook without touching for 30 seconds, or until the bottom side is browned. Flip to cook the other side for a few seconds. Stir and cook until the surface is lightly charred and the inside is still pink.
-5. Add the garlic and ginger. Stir a few times to release the flavor and fragrance.
-6. Return the broccoli to the pan. Stir the sauce again to dissolve the cornstarch completely and pour it into the skillet. Cook and stir until the sauce thickens, about 1 minute. Transfer everything to a plate immediately.
-7. Serve hot with steamed rice or boiled noodles as a main dish.
+1.  **Velveting:** Slice chicken thin against the grain. Toss with wine, cornstarch, and salt. Let sit for 10-15 minutes (mandatory for texture).
+2.  **The Sauce:** In a small bowl, whisk together oyster sauce, wine, dark soy, stock, sugar, and cornstarch.
+3.  **Steam:** Heat a large wok or non-stick skillet over medium-high heat. Add 1/3 cup water and the broccoli. Cover and steam for 45-60 seconds until bright green. Remove broccoli and wipe the pan dry.
+4.  **Sear:** Add oil to the pan. Spread chicken in a single layer. Let sit undisturbed for 1 minute to develop a brown crust. Flip and stir-fry until almost cooked through.
+5.  **Aromatics:** Push chicken to the side. Add garlic and ginger. Sauté for 30 seconds until fragrant.
+6.  **The Glaze:** Return broccoli to the pan. Whisk the sauce again (cornstarch settles!) and pour it in. 
+7.  **Finish:** Toss vigorously for 1 minute until the sauce thickens into a glossy glaze. Serve immediately.
 
-## Nutrition
-
-- Serving: 1serving | Calories: 246kcal | Carbohydrates: 10g | Protein: 25g | Fat: 9.8g | Saturated Fat: 1.2g | Cholesterol: 73mg | Sodium: 634mg | Potassium: 512mg | Fiber: 0.8g | Sugar: 3.5g | Calcium: 25mg | Iron: 1mg
+## Serving Suggestions
+-   [Basmati Rice](/recipes/basmati-rice) or [Cilantro Lime Rice](/recipes/cilantro-lime-rice)
+-   [Smashed Cucumber Salad](/recipes/smashed-cucumber-salad)
+-   [Chinese Sausage Fried Rice](/recipes/chinese-sausage-fried-rice)

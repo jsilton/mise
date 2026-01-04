@@ -1,24 +1,36 @@
 ---
 title: Brownie Protein Balls
+role: base
+vibe: speed
+prepTime: 10 min
+cookTime: 0 min
+totalTime: 10 min
+servings: '12 balls'
 ingredients:
-  - 1/2 cup almond butter
-  - 1/2 cup chocolate protein powder
-  - 1/4 cup almond flour
-  - 2 tablespoons cocoa powder
-  - 3-4 tablespoons maple syrup
-  - 2 tablespoons flax
-  - 1/4 cup chocolate chips
-  - 1-2 tablespoons milk or water
-  - A pinch of salt
-role: dessert
-vibe: fuel
-servings: Unknown
+  - '1/2 cup Creamy Almond Butter'
+  - '1/2 cup Chocolate Protein Powder'
+  - '1/4 cup Almond Flour'
+  - '2 tbsp Unsweetened Cocoa Powder'
+  - '3-4 tbsp Maple Syrup'
+  - '2 tbsp Ground Flaxseed or Chia Seeds'
+  - '1/4 cup Mini Chocolate Chips'
+  - '1-2 tbsp Water or Almond Milk (if needed)'
+  - 'Pinch of Sea Salt'
 ---
+
+## Chef's Note
+These are the ultimate **Modularity** component. We treat these as a "Base" because they can be prepped in bulk and added to lunchboxes, pre-workout stacks, or crumbled over yogurt. The secret to the Silton Standard is the **Hydration Balance**: protein powder absorbs liquid at different rates, so we add the milk one teaspoon at a time until the dough has the "Bounce" of a fresh brownie. Chilling is mandatory to set the healthy fats from the almond butter, ensuring they hold their shape.
 
 ## Directions
 
-1. In a medium bowl, combine the almond butter, chocolate protein powder, almond flour, cocoa powder, maple syrup or honey, and a pinch of salt.
-2. Mix everything together with a spatula until a thick dough starts to form. If the mixture seems too dry and crumbly, add the milk or water a little at a time until the dough is moist enough to stick together.
-3. Once the dough has a good consistency, stir in the chia seeds or flax and the chocolate chips.
-4. Use a spoon or your hands to scoop out small portions of the dough and roll them into balls.
-5. Place the finished balls on a plate or tray and chill them in the refrigerator for at least 15-20 minutes to help them set.
+1.  **The Base:** In a medium bowl, combine almond butter, protein powder, almond flour, cocoa powder, maple syrup, and sea salt.
+2.  **Hydrate:** Mix with a spatula until a thick dough forms. If it is too crumbly to hold a shape, add 1 tbsp of water or milk. If it's still too dry, add another tbsp.
+3.  **Texture:** Fold in the flaxseed (or chia) and the mini chocolate chips.
+4.  **Roll:** Scoop out 1-tbsp portions and roll between your palms into balls. 
+5.  **Set:** Place on a plate and chill in the refrigerator for at least 20 minutes before eating.
+6.  **Store:** Keep in an airtight container in the fridge for up to a week.
+
+## Serving Suggestions
+-   [Easy Breakfast Yogurt Popsicles](/recipes/easy-breakfast-yogurt-popsicles)
+-   Fresh Apple Slices
+-   [Chocolate Chia Pudding](/recipes/chocolate-chia-pudding)
