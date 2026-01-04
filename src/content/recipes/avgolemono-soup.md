@@ -4,7 +4,7 @@ origin: Greece
 difficulty: intermediate
 cookingMethods: [simmer, boil]
 dietary: []
-occasions: [comfort-food]
+occasions: [comfort-food, weeknight, light-and-fresh]
 flavorProfile: [acidic, rich]
 cuisines: [Greek]
 role: main
@@ -13,6 +13,11 @@ prepTime: 10 min
 cookTime: 20 min
 totalTime: 30 min
 servings: '4'
+seasons: [year-round, winter, spring]
+nutritionalDensity: moderate
+leftovers: good
+equipment: []
+pairsWith: [greek-salad, crusty-bread, pita]
 ingredients:
   - '1 lb Shredded Chicken (Rotisserie or Leftover)'
   - '6 cups High-Quality Chicken Broth'

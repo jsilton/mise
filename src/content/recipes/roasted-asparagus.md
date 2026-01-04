@@ -2,8 +2,8 @@
 title: Asparagus
 difficulty: easy
 cookingMethods: [bake, roast, steam]
-dietary: []
-occasions: []
+dietary: [vegetarian, vegan, gluten-free]
+occasions: [weeknight, entertaining, spring, light-and-fresh]
 flavorProfile: [acidic, umami]
 cuisines: [American]
 role: side
@@ -12,6 +12,11 @@ prepTime: 5 min
 cookTime: 10 min
 totalTime: 15 min
 servings: '4'
+seasons: [spring, summer]
+nutritionalDensity: light
+leftovers: poor
+equipment: [sheet-pan]
+pairsWith: [grilled-chicken, salmon, steak, lamb]
 ingredients:
   - '1 bunch Fresh Asparagus, woody ends trimmed'
   - '1 tbsp Extra-Virgin Olive Oil'
