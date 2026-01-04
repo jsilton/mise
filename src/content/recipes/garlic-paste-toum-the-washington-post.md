@@ -38,6 +38,6 @@ Toum is the ultimate test of **Culinary Technique** in the condiment category. T
 ## Serving Suggestions
 
 - [Chicken Shawarma](/silton-mise/recipes/chicken-shawarma)
-- [Middle-Eastern Style Grilled Chicken Kabobs](/silton-mise/recipes/middle-eastern-style-grilled-chicken-kabobs)
+- [Middle Eastern Style Grilled Chicken Kabobs](/silton-mise/recipes/middle-eastern-style-grilled-chicken-kabobs)
 - [Falafel](/silton-mise/recipes/falafel)
 - [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad) (as a creamy base)

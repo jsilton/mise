@@ -5,7 +5,7 @@ cookingMethods: [steam, no-cook]
 dietary: [vegetarian]
 occasions: []
 flavorProfile: [spicy, sweet, savory, umami]
-cuisines: [Asian-Fusion]
+cuisines: [Chinese]
 role: main
 vibe: nutritious
 prepTime: 15 min

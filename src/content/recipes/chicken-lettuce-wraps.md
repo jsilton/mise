@@ -5,7 +5,7 @@ cookingMethods: [fry]
 dietary: []
 occasions: []
 flavorProfile: [spicy, savory, acidic, umami, rich]
-cuisines: [Chinese-American]
+cuisines: [Chinese]
 role: main
 vibe: quick
 prepTime: 15 min

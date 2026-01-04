@@ -5,7 +5,7 @@ cookingMethods: [fry, sauté, simmer, boil]
 dietary: []
 occasions: []
 flavorProfile: [acidic, herbaceous]
-cuisines: [Asian-Fusion]
+cuisines: [Chinese]
 role: main
 vibe: quick
 prepTime: 10 min

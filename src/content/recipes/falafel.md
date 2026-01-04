@@ -5,7 +5,7 @@ cookingMethods: [fry, steam, blend]
 dietary: [vegetarian]
 occasions: []
 flavorProfile: [herbaceous]
-cuisines: [Middle-Eastern]
+cuisines: [Middle Eastern]
 role: main
 vibe: nutritious
 prepTime: 20 min

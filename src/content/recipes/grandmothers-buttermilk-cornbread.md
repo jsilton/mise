@@ -5,7 +5,7 @@ cookingMethods: [bake]
 dietary: []
 occasions: [comfort-food]
 flavorProfile: [spicy, sweet, rich]
-cuisines: [American-Southern]
+cuisines: [Southern]
 role: side
 vibe: comfort
 prepTime: 10 min

@@ -5,7 +5,7 @@ cookingMethods: [grill, boil, blend]
 dietary: []
 occasions: []
 flavorProfile: [acidic, umami, rich, herbaceous]
-cuisines: [Italian-American]
+cuisines: [Italian]
 role: main
 vibe: nutritious
 prepTime: 10 min

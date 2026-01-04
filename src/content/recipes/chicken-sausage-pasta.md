@@ -5,7 +5,7 @@ cookingMethods: [sauté, simmer, boil]
 dietary: []
 occasions: []
 flavorProfile: [sweet, acidic, umami, herbaceous]
-cuisines: [Italian-American]
+cuisines: [Italian]
 role: main
 vibe: quick
 prepTime: 10 min

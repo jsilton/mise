@@ -5,7 +5,7 @@ cookingMethods: [sauté, simmer]
 dietary: []
 occasions: []
 flavorProfile: [sweet, savory, umami]
-cuisines: [Chinese-American]
+cuisines: [Chinese]
 role: main
 vibe: nutritious
 prepTime: 15 min

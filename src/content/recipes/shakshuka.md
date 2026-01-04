@@ -5,7 +5,7 @@ cookingMethods: [sauté, simmer, poach, no-cook]
 dietary: []
 occasions: []
 flavorProfile: [spicy, acidic, umami, smoky]
-cuisines: [Middle-Eastern]
+cuisines: [Middle Eastern]
 role: main
 vibe: nutritious
 prepTime: 15 min

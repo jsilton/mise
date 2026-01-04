@@ -5,7 +5,7 @@ cookingMethods: [roast, slow-cook]
 dietary: []
 occasions: [comfort-food]
 flavorProfile: [sweet]
-cuisines: [American-Southern]
+cuisines: [Southern]
 role: main
 vibe: comfort
 prepTime: 10 min

@@ -5,7 +5,7 @@ cookingMethods: [bake]
 dietary: [vegetarian]
 occasions: []
 flavorProfile: [sweet, acidic, rich]
-cuisines: [American-Southern]
+cuisines: [Southern]
 role: dessert
 vibe: technical
 prepTime: 20 min

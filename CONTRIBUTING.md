@@ -47,7 +47,41 @@ Recipes are components, not just isolated instructions.
 - **Role:** Every dish must have a role (`main`, `side`, `base`, `dessert`, `drink`, `condiment`).
 - **Vibe:** Every dish must have a context (`quick`, `nutritious`, `comfort`, `technical`, `holiday`).
 
-### B. The 7 Core Culinary Techniques
+### B. Cuisine Tagging Rules
+
+Cuisine tags identify the cultural origin of a recipe. Follow these rules for consistency:
+
+**Core Principles:**
+- Use the actual cuisine name, not hybrid descriptors
+- Never create compound tags (no "Chinese-American", "Italian-American", "German-American")
+- Never use "Fusion" as a tag - instead tag with both source cuisines
+- A recipe can have multiple cuisine tags if it genuinely blends traditions
+- Use consistent capitalization and spacing
+
+**Valid Cuisine Tags:**
+- `American`, `Southern` (Southern is distinct from general American)
+- `Chinese`, `Japanese`, `Korean`, `Thai`, `Vietnamese`, `Indian`
+- `Italian`, `French`, `Spanish`, `Greek`, `Swiss`
+- `Mexican`, `Caribbean`
+- `Middle Eastern` (two words, no hyphen), `Israeli`, `Lebanese`
+- `Jewish` (for culturally Jewish dishes like challah, gefilte fish)
+- `Hawaiian`, `Belgian`
+
+**Examples:**
+- General Tso's Chicken → `Chinese` (it's Chinese-American food, but tag as Chinese)
+- Chicken Tikka Masala → `Indian, British` (two tags showing fusion)
+- Spaghetti and Meatballs → `Italian, American` (Italian dish with American adaptation)
+- Korean BBQ Tacos → `Korean, Mexican` (clear fusion of both)
+- Brisket with Carrots → `Jewish` (traditional Jewish preparation)
+- Shrimp and Grits → `Southern` (distinct from general American)
+
+**What NOT to do:**
+- ❌ `Chinese-American` → Use `Chinese` or `Chinese, American`
+- ❌ `Asian-Fusion` → Use specific cuisines like `Thai, Chinese`
+- ❌ `Middle-Eastern` (hyphenated) → Use `Middle Eastern` (two words)
+- ❌ `Italian-American` → Use `Italian` or `Italian, American`
+
+### C. The 7 Core Culinary Techniques
 
 1.  **Traditional Roots:** Preserve the soul of a dish while updating it for modern equipment and quality ingredients.
 2.  **Modern Interpretation:** Preserving family history while replacing legacy shortcuts (e.g., margarine, boiling meat) with professional standards (e.g., butter, searing).

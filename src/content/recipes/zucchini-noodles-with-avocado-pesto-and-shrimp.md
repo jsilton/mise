@@ -5,7 +5,7 @@ cookingMethods: [roast, sauté, blend]
 dietary: []
 occasions: []
 flavorProfile: [sweet, savory, acidic, herbaceous]
-cuisines: [Italian-American]
+cuisines: [Italian]
 role: main
 vibe: quick
 prepTime: 15 min

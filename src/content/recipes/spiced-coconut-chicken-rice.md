@@ -5,7 +5,7 @@ cookingMethods: [sauté, simmer, boil, steam, braise]
 dietary: []
 occasions: []
 flavorProfile: [spicy, acidic, rich]
-cuisines: [Indian-Fusion]
+cuisines: [Indian]
 role: base
 vibe: nutritious
 prepTime: 45 min

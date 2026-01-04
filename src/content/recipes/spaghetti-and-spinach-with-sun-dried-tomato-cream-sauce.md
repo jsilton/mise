@@ -5,7 +5,7 @@ cookingMethods: [roast, sauté, simmer, boil]
 dietary: []
 occasions: []
 flavorProfile: [acidic, umami, rich]
-cuisines: [Italian-American]
+cuisines: [Italian]
 role: side
 vibe: nutritious
 prepTime: 10 min

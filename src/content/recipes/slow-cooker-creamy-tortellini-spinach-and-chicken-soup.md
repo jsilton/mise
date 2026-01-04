@@ -5,7 +5,7 @@ cookingMethods: [roast, slow-cook]
 dietary: []
 occasions: [comfort-food]
 flavorProfile: [umami, rich, herbaceous]
-cuisines: [Italian-American]
+cuisines: [Italian]
 role: main
 vibe: comfort
 prepTime: 15 min

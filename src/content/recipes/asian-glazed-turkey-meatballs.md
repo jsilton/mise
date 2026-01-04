@@ -5,7 +5,7 @@ cookingMethods: [bake, fry, simmer, steam]
 dietary: []
 occasions: []
 flavorProfile: [savory, acidic, umami]
-cuisines: [Asian-Fusion]
+cuisines: [Chinese]
 role: main
 vibe: quick
 prepTime: 15 min

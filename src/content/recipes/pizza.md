@@ -5,7 +5,7 @@ cookingMethods: [bake]
 dietary: [vegetarian]
 occasions: []
 flavorProfile: [acidic]
-cuisines: [Italian-American]
+cuisines: [Italian]
 role: main
 vibe: nutritious
 prepTime: 10 min

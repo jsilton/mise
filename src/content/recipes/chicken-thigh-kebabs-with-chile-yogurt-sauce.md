@@ -5,7 +5,7 @@ cookingMethods: [grill]
 dietary: []
 occasions: []
 flavorProfile: [spicy, sweet, acidic]
-cuisines: [Middle-Eastern]
+cuisines: [Middle Eastern]
 role: main
 vibe: nutritious
 prepTime: 20 min

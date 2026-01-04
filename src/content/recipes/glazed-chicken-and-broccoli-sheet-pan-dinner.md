@@ -5,7 +5,7 @@ cookingMethods: [bake, roast, steam]
 dietary: []
 occasions: [comfort-food]
 flavorProfile: [savory]
-cuisines: [Asian-Fusion]
+cuisines: [Chinese]
 role: main
 vibe: comfort
 prepTime: 15 min

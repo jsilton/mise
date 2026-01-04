@@ -5,7 +5,7 @@ cookingMethods: [steam]
 dietary: []
 occasions: []
 flavorProfile: [sweet, savory, umami]
-cuisines: [Asian-Fusion]
+cuisines: [Chinese]
 role: main
 vibe: quick
 prepTime: 5 min

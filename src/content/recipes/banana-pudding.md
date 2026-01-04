@@ -5,7 +5,7 @@ cookingMethods: [simmer]
 dietary: [vegetarian, egg-free]
 occasions: [comfort-food]
 flavorProfile: [sweet, rich]
-cuisines: [American-Southern]
+cuisines: [Southern]
 role: dessert
 vibe: comfort
 prepTime: 30 min

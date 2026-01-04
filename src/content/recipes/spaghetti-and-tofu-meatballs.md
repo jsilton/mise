@@ -5,7 +5,7 @@ cookingMethods: [bake, roast, sauté]
 dietary: []
 occasions: []
 flavorProfile: [savory, acidic, umami, herbaceous]
-cuisines: [Italian-American]
+cuisines: [Italian]
 role: main
 vibe: nutritious
 prepTime: 15 min

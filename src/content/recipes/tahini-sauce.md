@@ -5,7 +5,7 @@ cookingMethods: [roast]
 dietary: []
 occasions: []
 flavorProfile: [acidic, rich]
-cuisines: [Middle-Eastern]
+cuisines: [Middle Eastern]
 role: condiment
 vibe: quick
 prepTime: 5 min

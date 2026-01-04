@@ -5,7 +5,7 @@ cookingMethods: [bake, roast]
 dietary: []
 occasions: [comfort-food]
 flavorProfile: [sweet, umami, rich, herbaceous]
-cuisines: [Italian-American]
+cuisines: [Italian]
 role: side
 vibe: comfort
 prepTime: 10 min

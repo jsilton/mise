@@ -5,7 +5,7 @@ cookingMethods: [bake, roast, sauté]
 dietary: [vegetarian]
 occasions: [holiday]
 flavorProfile: [umami, herbaceous]
-cuisines: [Italian-American]
+cuisines: [Italian]
 role: side
 vibe: holiday
 prepTime: 20 min

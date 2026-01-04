@@ -5,7 +5,7 @@ cookingMethods: [bake, roast]
 dietary: []
 occasions: [holiday]
 flavorProfile: [sweet, rich]
-cuisines: [American-Southern]
+cuisines: [Southern]
 role: side
 vibe: holiday
 prepTime: 20 min
