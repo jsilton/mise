@@ -1,46 +1,41 @@
 ---
-title: Chicken Pot Pie IX
-prepTime: 20 min
-cookTime: 50 min
+title: The Gold Standard Chicken Pot Pie
+role: main
+vibe: project
+prepTime: 45 min
+cookTime: 40 min
+totalTime: 90 min
 servings: '8'
 ingredients:
-  - '1 pound skinless, boneless chicken breast halves - cubed'
-  - 1 cup sliced carrots
-  - 1 cup frozen green peas
-  - 1/2 cup sliced celery
-  - 1/3 cup butter
-  - 1/3 cup diced onion
-  - 1/3 cup all-purpose flour
-  - 1/2 teaspoon salt
-  - 1/4 teaspoon black pepper
-  - 1/4 teaspoon celery seed
-  - 1/4 teaspoon garlic powder
-  - 1 3/4 cups chicken broth
-  - 2/3 cup milk
-  - 2 (9 inch) unbaked pie crusts
-totalTime: 70 min
-role: dessert
-vibe: project
+  - '1 lb Chicken Breast, poached and cubed'
+  - '1 cup Carrots, diced'
+  - '1 cup Frozen Peas'
+  - '1/2 cup Celery, diced'
+  - '--- The Savory Gravy ---'
+  - '1/3 cup Butter'
+  - '1/3 cup All-Purpose Flour'
+  - '1 3/4 cups Chicken Broth'
+  - '2/3 cup Whole Milk'
+  - '1/2 tsp Garlic Powder + 1/4 tsp Celery Seed'
+  - '--- The Flaky Crust ---'
+  - '2 (9-inch) unbaked pie crusts (Use the [Apple Pie](/recipes/apple-pie) Vodka Hack dough!)'
+  - '1 large Egg (for wash)'
 ---
+
+## Chef's Note
+A great pot pie is defined by the **Velouté** (the gravy) and the **Flaky Crust**. We have moved away from the "boiled chicken" version; instead, use poached or roasted chicken chunks to preserve the meaty texture. The secret to the Silton Standard is the **Celery Seed**: it provides that "savory soul" that makes the pie taste like a professional bakery version. For the best result, use the Vodka Hack dough from our Apple Pie recipe.
 
 ## Directions
 
-1. Preheat oven to 425 degrees F (220 degrees C.)
-2. Brush crusts with egg white
-3. Bake bottom crust for 5 minutes
-4. In a saucepan, combine chicken, carrots, peas, and celery. Add chicken broth to cover and boil for 15 minutes. Remove from heat, drain and set aside.
-5. In the saucepan over medium heat, cook onions in butter until soft and translucent. Stir in flour, salt, pepper, garlic powder and celery seed. Slowly stir in chicken broth and milk. Simmer over medium-low heat until thick. Remove from heat and set aside.
-6. Place the chicken mixture in bottom pie crust. Pour hot liquid mixture over. Cover with top crust, seal edges, and cut away excess dough. Make several small slits in the top to allow steam to escape.
-7. Bake in the preheated oven for 30 to 35 minutes, or until pastry is golden brown and filling is bubbly. Cool for 10 minutes before serving.
+1.  **Prep:** Preheat oven to 425°F.
+2.  **The Gravy (The Roux):** In a large saucepan, melt butter. Sauté onions and celery until soft (5 mins). Whisk in flour and cook for 1 minute.
+3.  **Emulsify:** Gradually whisk in the broth and milk. Simmer until the sauce is thick and glossy. Stir in the garlic powder, celery seed, salt, and pepper.
+4.  **Mix:** Fold in the cooked chicken, carrots, and peas.
+5.  **Assemble:** Line a 9-inch pie pan with the bottom crust. Pour in the filling. Top with the second crust. Seal and flute the edges.
+6.  **The Wash:** Cut 4 steam vents in the top. Brush with a beaten egg.
+7.  **Bake:** Bake for 30-35 minutes until the pastry is deep golden brown and the filling is bubbling.
+8.  **Rest:** Let sit for 10 minutes before serving. This allows the gravy to set so it doesn't run.
 
-## Notes
-
-Aluminum foil can be used to keep food moist, cook it evenly, and make clean-up easier.
-
-## Nutrition
-
-- Calories: 415 kcalTotal Carbohydrates: 30.6g
-- Cholesterol: 56 mg
-- Total Fat: 24 g
-- Protein: 18.7 g
-- Sodium: 727 mg
+## Serving Suggestions
+-   [Everyday Arugula Salad](/recipes/everyday-arugula-salad)
+-   Roasted Asparagus

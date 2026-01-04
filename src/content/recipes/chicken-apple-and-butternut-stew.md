@@ -1,44 +1,38 @@
 ---
-title: 'Chicken, Apple, and Butternut Stew'
-prepTime: 35 min
-cookTime: 60 min
-servings: Serves 6
-ingredients:
-  - '2 pounds skinless, boneless chicken thighs, cut into 1-inch pieces'
-  - '1 1/4 teaspoons kosher salt, divided'
-  - '1 teaspoon freshly ground black pepper, divided'
-  - '2 tablespoons olive oil, divided'
-  - 1 1/2 cups chopped onion
-  - 2 tablespoons chopped fresh sage
-  - 1 tablespoon minced peeled fresh ginger
-  - 3 cups (3/4-inch) cubed peeled butternut squash
-  - 1 cup (3/4-inch) diced peeled parsnip
-  - 3 tablespoons all-purpose flour
-  - 1 1/2 cups unfiltered apple cider
-  - 1 1/2 cups unsalted chicken stock
-  - 2 cups chopped peeled Granny Smith apple
-totalTime: 95 min
+title: Chicken, Apple, and Butternut Stew
 role: main
 vibe: comfort
+prepTime: 25 min
+cookTime: 45 min
+totalTime: 70 min
+servings: '6'
+ingredients:
+  - '2 lbs Chicken Thighs, cut into 1-inch chunks'
+  - '3 cups Butternut Squash, cubed'
+  - '2 cups Granny Smith Apples, diced'
+  - '1 cup Parsnips, diced'
+  - '1 large Onion, chopped'
+  - '--- The Aromatics ---'
+  - '2 tbsp Fresh Sage, chopped'
+  - '1 tbsp Fresh Ginger, grated'
+  - '1.5 cups Apple Cider (Unfiltered)'
+  - '1.5 cups Chicken Stock'
+  - '3 tbsp All-Purpose Flour'
+  - 'Salt and Black Pepper'
 ---
+
+## Chef's Note
+This is a New England autumn masterpiece. To avoid the "mushy veggie" problem, we use **Texture Integrity**: we sear the chicken and parsnips first to get a crust, and only add the apples in the final 5 minutes of simmering. The **Apple Cider** provides the natural acid and sweetness that elevates this from a standard chicken stew to a sophisticated holiday-vibe meal.
 
 ## Directions
 
-1. Sprinkle chicken with 1/2 teaspoon salt and 1/4 teaspoon pepper. Heat a large Dutch oven over medium-high heat. Add 1 tablespoon oil to pan; swirl to coat. Add half of chicken to pan; sauté 6 minutes or until browned. Remove chicken from pan. Repeat procedure with remaining chicken.
-2. Reduce heat to medium; add remaining 1 tablespoon oil to pan. Add onion, sage, and ginger; cook 2 minutes, stirring occasionally. Add squash and parsnip; cook 2 minutes, stirring occasionally. Sprinkle vegetables with flour; cook 1 minute, stirring occasionally. Stir in cider and stock, scraping pan to loosen browned bits. Stir in chicken, remaining 3/4 teaspoon salt, and remaining 3/4 teaspoon pepper; bring to a simmer. Reduce heat, partially cover, and simmer 25 minutes. Stir in apple; cook 5 minutes.
-3. Leffe Blond Ale ABV 6%
-
-## Nutrition
-
-- Calories: 364Total Carbohydrates: Carbohydrate 34g
-- Cholesterol: 0.0mg
-- Fat: 11.5g
-- Fiber: 4g
-- Protein: 35g
-- fat: 2.9g
-- Sodium: 584mg
-- fat: 3.3g
+1.  **Sear:** Heat oil in a Dutch oven. Season chicken with salt and pepper. Brown the chicken in batches and remove to a plate.
+2.  **Sauté:** Add the onion, sage, and ginger to the pot. Cook for 2 minutes. Add the parsnips and cook for another 5 minutes until browned.
+3.  **Thicken:** Sprinkle flour over the veg and stir for 1 minute (to cook out the raw flour taste).
+4.  **Simmer:** Gradually whisk in the apple cider and stock. Return the chicken to the pot. Add the butternut squash.
+5.  **Cook:** Simmer over low heat, partially covered, for 25 minutes until the squash is tender.
+6.  **The Apple Finish:** Stir in the diced apples. Cook for only 5 more minutes—you want the apples to be warm but still hold their shape and tartness.
 
 ## Serving Suggestions
-
-Near East Rice Pilaf Hack, Everyday Arugula Salad
+-   [Near East Rice Pilaf Hack](/recipes/near-east-rice-pilaf-hack)
+-   Warm [Anadama Bread](/recipes/anadama-bread)

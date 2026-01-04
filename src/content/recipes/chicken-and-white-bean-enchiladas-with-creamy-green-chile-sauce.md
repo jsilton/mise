@@ -1,47 +1,37 @@
 ---
-title: Chicken and White Bean Enchiladas with Creamy Green Chile Sauce
-cookTime: 60 min
-servings: 'Yield: 8 servings'
-ingredients:
-  - 1 tsp olive oil
-  - 1/4 cup minced white onion
-  - '2 cloves garlic, minced'
-  - 1 can (4.5 oz) chopped green chiles
-  - 15.5 oz can Navy beans (or Cannellini beans)
-  - 8 oz cooked shredded chicken breast
-  - 1/4 cup water
-  - 1 chicken bullion
-  - 1 teaspoon ground cumin
-  - 1 teaspoon butter
-  - 1/2 cup chopped white onion
-  - 2 tbsp flour
-  - 1 cup reduced sodium chicken broth
-  - 7 oz can chopped green chile
-  - '2 jalapeños, chopped (I used jarred)'
-  - kosher salt
-  - 1/2 cup light sour cream
-  - 3/4 cup reduced fat Mexican cheese
-  - 8 (8-inch) flour tortillas
-  - chopped fresh cilantro or scallions (or both!)
-totalTime: 60 min
-role: base
+title: Chicken and White Bean Enchiladas (Suizas Style)
+role: main
 vibe: fuel
+prepTime: 20 min
+cookTime: 30 min
+totalTime: 50 min
+servings: '8'
+ingredients:
+  - '1 lb Shredded Chicken (Poached or Rotisserie)'
+  - '15 oz can Navy or Cannellini Beans, rinsed'
+  - '8 Flour or Corn Tortillas'
+  - '--- The Creamy Green Sauce ---'
+  - '12 oz Tomatillo Salsa or Enchilada Sauce'
+  - '1/2 cup Light Sour Cream or Greek Yogurt'
+  - '1 can (4 oz) Diced Green Chiles'
+  - '1/2 cup Fresh Cilantro'
+  - '--- The Finish ---'
+  - '1 cup Mexican Cheese Blend, shredded'
+  - 'Pickled Red Onions for garnish'
 ---
+
+## Chef's Note
+This is a high-protein, "Fuel" focused take on Enchiladas Suizas. By adding **White Beans** to the shredded chicken filling, we increase the fiber and satiety of the dish. The secret to the sauce is blending the green chiles and cilantro directly into the sour cream—this creates a vibrant, tangy, and creamy "Suiza" glaze that is lighter than traditional versions but hits the same flavor notes.
 
 ## Directions
 
-1. Preheat oven to 375°.
-2. For the Filling: In a medium pan, heat olive oil on low. Add onions, garlic and saute until soft, about 2-3 minutes. Add green chiles, beans, water, bullion, and cumin. Mix well and cover. Simmer on low 15 minutes. Remove cover, add chicken and cook an additional 5 minutes, or until it thickens and liquid boils down. Set aside.
-3. Green Chile Enchilada Sauce: In a large nonstick pan, melt the butter over medium heat. Add onion and cook, stirring occasionally, until the onion softens and starts to turn translucent, about 3-4 minutes. Add flour and stir well. Cook for 1 minute, stirring constantly. Slowly whisk in the chicken broth. Whisk until the sauce becomes smooth. Cook over medium heat until the sauce boils and thickens, about 4-5 minutes. Add green chiles, jalepeños, and salt to tatse. Cook another minute then remove from the heat. Stir in the sour cream.
-4. Spread about 1/4 cup of the enchilada sauce on the bottom of a 9×13″ baking dish. Fill each tortilla with 1/3 cup of the chicken/white bean filling. Roll the tortillas and place seam side down in the prepared baking dish. Continue filling remainder of the tortillas.
-5. Pour the enchilada sauce over the top of the enchiladas. Top with cheese. Cover with aluminum and bake 20-30 minutes, until the enchiladas are hot and the cheese is melted. Remove from oven and top with fresh cilantro or scallions.
+1.  **The Filling:** In a bowl, toss the shredded chicken, beans, cumin, and 1/4 cup of the green sauce.
+2.  **The Sauce:** In a blender, combine the enchilada sauce, diced green chiles, cilantro, and sour cream. Pulse until smooth and creamy.
+3.  **Assemble:** Spread 1/2 cup of sauce on the bottom of a 9x13 dish. Fill each tortilla with the chicken/bean mixture, roll tightly, and place seam-side down.
+4.  **Bake:** Pour the remaining sauce over the top. Cover with cheese.
+5.  **Crisp:** Bake at 375°F for 20-25 minutes until the sauce is bubbling and the cheese is golden.
+6.  **Finish:** Top with fresh cilantro and [Quick Pickled Red Onions](/recipes/pickled-red-onions).
 
-## Nutrition
-
-- : Freestyle Points: 5 Points +: 6 Calories: 231 calories Total Fat: 8g
-- Saturated Fat: g Cholesterol: 30mg
-- Sodium: 840mg
-- Carbohydrates: 24g
-- Fiber: 9g
-- Sugar: 2g
-- Protein: 20g
+## Serving Suggestions
+-   [Everyday Arugula Salad](/recipes/everyday-arugula-salad)
+-   [Mexican Red Rice (Arroz Rojo)](/recipes/mexican-red-rice)

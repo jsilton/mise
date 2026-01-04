@@ -1,33 +1,36 @@
 ---
-title: Chicken & Spinach Skillet Pasta with Lemon & Parmesan
-prepTime: 25 min
-cookTime: 25 min
+title: Chicken & Spinach Skillet Pasta
+role: main
+vibe: speed
+prepTime: 10 min
+cookTime: 15 min
+totalTime: 25 min
 servings: '4'
 ingredients:
-  - 8 ounces gluten-free penne pasta or whole-wheat penne pasta
-  - 2 tablespoons extra-virgin olive oil
-  - >-
-    1 pound boneless, skinless chicken breast or thighs, trimmed, if necessary,
-    and cut into bite-size pieces
-  - ½ teaspoon salt
-  - ¼ teaspoon ground pepper
-  - '4 cloves garlic, minced'
-  - ½ cup dry white wine
-  - Juice and zest of 1 lemon
-  - 10 cups chopped fresh spinach
-  - '4 tablespoons grated Parmesan cheese, divided'
-totalTime: 50 min
-role: main
-vibe: comfort
+  - '1 lb Penne or Rigatoni (Whole wheat or GF)'
+  - '1 lb Chicken Breast or Thighs, cut into bite-sized pieces'
+  - '10 cups Fresh Spinach (one large bag)'
+  - '--- The Emulsion ---'
+  - '1/2 cup Dry White Wine'
+  - '1 Lemon, zested and juiced'
+  - '4 cloves Garlic, minced'
+  - '4 tbsp Freshly Grated Parmesan'
+  - '2 tbsp Extra-Virgin Olive Oil'
+  - 'Salt and Black Pepper'
 ---
+
+## Chef's Note
+This is a high-performance weeknight meal that relies on **The Emulsion Pattern**. Instead of a heavy cream sauce, we use the starchy pasta water and white wine to bind the lemon and parmesan into a light, silky glaze. The massive amount of spinach provides the "Fuel" without making the dish feel heavy. Always finish with fresh lemon zest for that **High Note** brightness.
 
 ## Directions
 
-1. Cook pasta according to package directions. Drain and set aside.
-2. Meanwhile, heat oil in a large high-sided skillet over medium-high heat. Add chicken, salt and pepper; cook, stirring occasionally, until just cooked through, 5 to 7 minutes. Add garlic and cook, stirring, until fragrant, about 1 minute. Stir in wine, lemon juice and zest; bring to a simmer.
-3. Remove from heat. Stir in spinach and the cooked pasta. Cover and let stand until the spinach is just wilted. Divide among 4 plates and top each serving with 1 tablespoon Parmesan.
-4. PHOTOGRAPHER: JEN CAUSEY
+1.  **Boil:** Cook pasta in salted water until **very al dente** (2 minutes less than package). **Reserve 1 cup of pasta water.**
+2.  **Sear:** While pasta boils, heat oil in a large skillet. Season chicken with salt and pepper. Sear for 5-7 minutes until golden and cooked through. Remove to a plate.
+3.  **Aromatics:** Add garlic to the pan for 30 seconds. Pour in the wine, lemon juice, and zest. Simmer for 2 minutes to reduce.
+4.  **Toss:** Add the hot pasta and 1/2 cup of the reserved pasta water to the pan. Add the chicken and the spinach.
+5.  **Bind:** Toss vigorously over medium heat. The spinach will wilt in seconds. Stir in the Parmesan. Add more pasta water if needed until the sauce is glossy and coats the noodles.
+6.  **Serve:** Garnish with extra Parmesan and black pepper.
 
 ## Serving Suggestions
-
-Near East Rice Pilaf Hack, Everyday Arugula Salad
+-   [Everyday Arugula Salad](/recipes/everyday-arugula-salad)
+-   Roasted Cherry Tomatoes
