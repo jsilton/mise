@@ -3,7 +3,7 @@ title: General Tso's Cauliflower
 difficulty: easy
 cookingMethods: [fry, sauté, simmer, steam]
 dietary: [vegetarian]
-occasions: []
+occasions: [weeknight, meal-prep, comfort-food]
 flavorProfile: [spicy, sweet, savory, acidic, umami]
 cuisines: [Chinese]
 role: main
@@ -12,6 +12,11 @@ prepTime: 30 min
 cookTime: 30 min
 totalTime: 60 min
 servings: '4'
+seasons: [year-round]
+nutritionalDensity: moderate
+leftovers: excellent
+equipment: [large-skillet]
+pairsWith: [basmati-rice, steamed-broccoli]
 ingredients:
   - '1 head Cauliflower, cut into bite-sized florets'
   - 1/2 cup All-Purpose Flour

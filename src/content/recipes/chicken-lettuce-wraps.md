@@ -3,7 +3,7 @@ title: Chicken Lettuce Wraps
 difficulty: easy
 cookingMethods: [fry]
 dietary: []
-occasions: []
+occasions: [weeknight, quick-lunch, light-and-fresh, entertaining]
 flavorProfile: [spicy, savory, acidic, umami, rich]
 cuisines: [Chinese]
 role: main
@@ -12,6 +12,11 @@ prepTime: 15 min
 cookTime: 10 min
 totalTime: 25 min
 servings: '4'
+seasons: [spring, summer, year-round]
+nutritionalDensity: light
+leftovers: good
+equipment: [large-skillet]
+pairsWith: [asian-slaw, edamame]
 ingredients:
   - 1 lb Ground Chicken or Turkey
   - '--- the texture (No Water Chestnuts!) ---'

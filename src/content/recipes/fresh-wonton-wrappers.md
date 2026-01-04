@@ -3,7 +3,7 @@ title: Wonton Wrappers
 difficulty: intermediate
 cookingMethods: [boil]
 dietary: []
-occasions: []
+occasions: [weekend-project]
 flavorProfile: []
 cuisines: [Chinese]
 role: base
@@ -12,6 +12,12 @@ prepTime: 20 min
 cookTime: 0 min
 totalTime: 60 min
 servings: '60 wrappers'
+seasons: [year-round]
+nutritionalDensity: moderate
+leftovers: excellent
+advancePrep: [make-ahead, freeze-ahead]
+equipment: [pasta-roller]
+pairsWith: [wontons, dumplings]
 ingredients:
   - '2 cups All-Purpose Flour'
   - '1/2 tsp Kosher Salt'

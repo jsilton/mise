@@ -3,7 +3,7 @@ title: Noodles with Green Beans
 difficulty: intermediate
 cookingMethods: [fry, sauté, boil, steam, braise]
 dietary: []
-occasions: [comfort-food]
+occasions: [comfort-food, weeknight, meal-prep]
 flavorProfile: [sweet, savory, umami]
 cuisines: [Chinese]
 role: side
@@ -12,6 +12,11 @@ prepTime: 25 min
 cookTime: 25 min
 totalTime: 50 min
 servings: '6'
+seasons: [summer, fall, year-round]
+nutritionalDensity: hearty
+leftovers: excellent
+equipment: [wok]
+pairsWith: [stir-fry, braised-meat]
 ingredients:
   - 1 lb Fresh White Wheat Noodles
   - '8 oz Pork Belly or Chicken Thighs, sliced'

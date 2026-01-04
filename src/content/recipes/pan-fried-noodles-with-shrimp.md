@@ -3,7 +3,7 @@ title: Pan Fried Noodles with Shrimp
 difficulty: easy
 cookingMethods: [fry, boil]
 dietary: []
-occasions: []
+occasions: [weeknight, weekend-project, comfort-food]
 flavorProfile: [spicy, savory, umami]
 cuisines: [Chinese]
 role: main
@@ -12,6 +12,11 @@ prepTime: 35 min
 cookTime: 20 min
 totalTime: 55 min
 servings: '4'
+seasons: [year-round]
+nutritionalDensity: hearty
+leftovers: good
+equipment: [wok]
+pairsWith: [bok-choy, spring-rolls]
 ingredients:
   - '1 lb Large Shrimp, peeled and deveined'
   - 1/4 tsp Baking Soda (the crunch rinse)

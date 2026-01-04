@@ -3,7 +3,7 @@ title: All-Purpose Chinese Garlic Sauce
 difficulty: easy
 cookingMethods: [fry, steam]
 dietary: []
-occasions: [weeknight]
+occasions: [weeknight, meal-prep]
 flavorProfile: [spicy, sweet, savory, acidic, umami]
 cuisines: [Chinese]
 role: condiment
@@ -12,6 +12,12 @@ prepTime: 5 min
 cookTime: 2 min
 totalTime: 7 min
 servings: '1 cup'
+seasons: [year-round]
+nutritionalDensity: light
+leftovers: excellent
+advancePrep: [make-ahead]
+equipment: []
+pairsWith: [stir-fry, noodles, vegetables]
 ingredients:
   - '1/4 cup Soy Sauce'
   - '1 tbsp Dark Soy Sauce (for color)'

@@ -4,7 +4,7 @@ origin: China
 difficulty: easy
 cookingMethods: [sauté, simmer, boil]
 dietary: []
-occasions: [comfort-food]
+occasions: [comfort-food, weekend-project, meal-prep]
 flavorProfile: [spicy, savory, acidic, umami]
 cuisines: [Chinese]
 role: main
@@ -13,6 +13,12 @@ prepTime: 30 min
 cookTime: 140 min
 totalTime: 170 min
 servings: '6'
+seasons: [year-round, winter, fall]
+nutritionalDensity: moderate
+leftovers: excellent
+advancePrep: [make-ahead]
+equipment: []
+pairsWith: [spring-rolls, dumplings]
 ingredients:
   - >-
     2 quarts [Chinese Chicken

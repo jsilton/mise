@@ -4,7 +4,7 @@ origin: China
 difficulty: intermediate
 cookingMethods: [fry, boil, steam]
 dietary: []
-occasions: []
+occasions: [weekend-project, entertaining, comfort-food]
 flavorProfile: [spicy, sweet, savory, acidic, umami]
 cuisines: [Chinese]
 role: main
@@ -13,6 +13,12 @@ prepTime: 60 min
 cookTime: 20 min
 totalTime: 80 min
 servings: '6'
+seasons: [year-round]
+nutritionalDensity: hearty
+leftovers: excellent
+advancePrep: [make-ahead, freeze-ahead]
+equipment: []
+pairsWith: [sweet-chili-sauce, soy-dipping-sauce]
 ingredients:
   - 1 lb Ground Pork (not too lean)
   - '2 cups Napa Cabbage, finely minced and squeezed dry'

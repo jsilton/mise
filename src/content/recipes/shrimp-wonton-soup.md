@@ -3,7 +3,7 @@ title: Shrimp Wonton Soup
 difficulty: intermediate
 cookingMethods: [boil, no-cook]
 dietary: []
-occasions: []
+occasions: [weekend-project, comfort-food, entertaining]
 flavorProfile: [savory, umami]
 cuisines: [Chinese]
 role: main
@@ -12,6 +12,12 @@ prepTime: 30 min
 cookTime: 10 min
 totalTime: 40 min
 servings: '4'
+seasons: [year-round, winter]
+nutritionalDensity: moderate
+leftovers: good
+advancePrep: [make-ahead, freeze-ahead]
+equipment: []
+pairsWith: [spring-rolls, bok-choy]
 ingredients:
   - 200g Ground Pork
   - '100g Shrimp, minced'

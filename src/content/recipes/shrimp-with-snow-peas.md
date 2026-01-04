@@ -3,7 +3,7 @@ title: Shrimp with Snow Peas
 difficulty: easy
 cookingMethods: [fry]
 dietary: []
-occasions: []
+occasions: [weeknight, quick-lunch, light-and-fresh]
 flavorProfile: [sweet, savory, umami]
 cuisines: [Chinese]
 role: main
@@ -12,6 +12,11 @@ prepTime: 15 min
 cookTime: 5 min
 totalTime: 20 min
 servings: '4'
+seasons: [spring, summer, year-round]
+nutritionalDensity: light
+leftovers: good
+equipment: [wok]
+pairsWith: [basmati-rice, egg-fried-rice]
 ingredients:
   - '--- The Shrimp & Velveting ---'
   - '1 lb Jumbo Shrimp, peeled and deveined'
