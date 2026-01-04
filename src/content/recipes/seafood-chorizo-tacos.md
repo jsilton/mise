@@ -28,4 +28,5 @@ vibe: speed
 4. Refreshing Mexican lager.
 
 ## Serving Suggestions
+
 Mexican Rice, Black Beans, Corn Salad

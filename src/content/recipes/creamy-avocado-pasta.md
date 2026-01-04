@@ -30,4 +30,5 @@ vibe: fuel
 - based on: 4 servings. (% daily value)Sugar: 3 g
 
 ## Serving Suggestions
+
 Everyday Arugula Salad, Garlic Bread

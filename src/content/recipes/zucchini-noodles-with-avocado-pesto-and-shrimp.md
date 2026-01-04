@@ -30,4 +30,5 @@ vibe: speed
 4. Add the remaining 1 tablespoon oil to the pan. Add the drained zucchini noodles and gently toss until hot, about 3 minutes. Transfer to the bowl, add the pesto and gently toss to combine.
 
 ## Serving Suggestions
+
 Couscous or Crusty Bread, Everyday Arugula Salad

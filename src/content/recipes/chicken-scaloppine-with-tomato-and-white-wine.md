@@ -21,6 +21,7 @@ vibe: comfort
 ---
 
 ## Description
+
 A rich, savory chicken dish that uses the Marsala method but with a tomato and white wine profile. Pounding the chicken ensures tenderness, while the tomato paste provides a deep umami base. Finished with a "beurre monté" (butter mount) for a glossy, restaurant-quality sauce.
 
 ## Directions
@@ -34,8 +35,9 @@ A rich, savory chicken dish that uses the Marsala method but with a tomato and w
 7.  **Finish:** Turn heat to low. Stir in the cold butter cubes and the spinach. Toss until the butter is melted into a silky sauce and the spinach is just wilted. Serve immediately.
 
 ## Serving Suggestions
--   Near East Rice Pilaf Hack
--   Steamed Broccoli with Garlic
+
+- Near East Rice Pilaf Hack
+- Steamed Broccoli with Garlic
 
 ## Nutrition
 

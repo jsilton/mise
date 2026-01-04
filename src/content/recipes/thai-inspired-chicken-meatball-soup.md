@@ -43,4 +43,5 @@ vibe: comfort
 - Protein: 31 grams
 
 ## Serving Suggestions
+
 Near East Rice Pilaf Hack, Everyday Arugula Salad

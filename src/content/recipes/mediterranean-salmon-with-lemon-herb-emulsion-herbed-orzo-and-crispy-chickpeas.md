@@ -57,4 +57,5 @@ servings: Unknown
 Assisted by ChatGPT
 
 ## Serving Suggestions
+
 Jasmine Rice, Smashed Cucumber Salad

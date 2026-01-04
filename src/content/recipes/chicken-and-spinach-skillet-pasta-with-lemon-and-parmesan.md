@@ -29,4 +29,5 @@ vibe: comfort
 4. PHOTOGRAPHER: JEN CAUSEY
 
 ## Serving Suggestions
+
 Near East Rice Pilaf Hack, Everyday Arugula Salad

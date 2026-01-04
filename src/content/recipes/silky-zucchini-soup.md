@@ -24,4 +24,5 @@ vibe: comfort
 2. Working in 2 batches, puree the soup in a blender until it's silky-smooth. Return the soup to the saucepan and season with salt and pepper. Serve it either hot or chilled, garnished with julienned zucchini.
 
 ## Serving Suggestions
+
 Grilled Cheese, Crusty Bread

@@ -24,4 +24,5 @@ vibe: fuel
 3. 3. Reserve 1 cup of the pasta cooking water, and drain the pasta. Add pasta to the skillet and stir. Add lemon juice, and adjust salt and pepper to taste. Bring to a simmer, then remove from heat. The mixture should be thick; if desired, a splash of the pasta water may be added to the sauce to thin it slightly. Add Parmesan and stir to mix. If desired, serve with a green salad.
 
 ## Serving Suggestions
+
 Everyday Arugula Salad, Garlic Bread

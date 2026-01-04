@@ -28,4 +28,5 @@ vibe: fuel
 4. Add the basil and serve over jasmine rice.
 
 ## Serving Suggestions
+
 Near East Rice Pilaf Hack, Everyday Arugula Salad

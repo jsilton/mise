@@ -27,4 +27,5 @@ vibe: speed
 3. Spoon grits into a serving bowl. Add shrimp mixture and mix well. Serve immediately.
 
 ## Serving Suggestions
+
 Couscous or Crusty Bread, Everyday Arugula Salad

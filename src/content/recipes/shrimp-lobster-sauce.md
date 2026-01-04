@@ -1,5 +1,5 @@
 ---
-title: "Shrimp with Lobster Sauce (Cantonese Style)"
+title: 'Shrimp with Lobster Sauce (Cantonese Style)'
 role: main
 vibe: comfort
 prepTime: 15 min
@@ -7,19 +7,20 @@ cookTime: 10 min
 totalTime: 25 min
 servings: 4
 ingredients:
-  - "1 lb shrimp, peeled and deveined"
-  - "1/4 lb ground pork"
-  - "1 tablespoon fermented black beans (douchi), rinsed and mashed"
-  - "2 cloves garlic, minced"
-  - "1 cup chicken stock"
-  - "1 teaspoon dark soy sauce (or molasses, for that Boston color)"
-  - "1 tablespoon soy sauce"
-  - "1 egg, beaten"
-  - "1 tablespoon cornstarch mixed with 2 tablespoons water (slurry)"
-  - "Green onions, chopped"
+  - '1 lb shrimp, peeled and deveined'
+  - '1/4 lb ground pork'
+  - '1 tablespoon fermented black beans (douchi), rinsed and mashed'
+  - '2 cloves garlic, minced'
+  - '1 cup chicken stock'
+  - '1 teaspoon dark soy sauce (or molasses, for that Boston color)'
+  - '1 tablespoon soy sauce'
+  - '1 egg, beaten'
+  - '1 tablespoon cornstarch mixed with 2 tablespoons water (slurry)'
+  - 'Green onions, chopped'
 ---
 
 ## Description
+
 A classic Boston-Chinese favorite (think Golden Temple). Despite the name, there is no lobster. It's a savory ground pork and black bean sauce finished with egg ribbons.
 
 ## Directions
@@ -33,5 +34,6 @@ A classic Boston-Chinese favorite (think Golden Temple). Despite the name, there
 7.  Garnish with green onions.
 
 ## Serving Suggestions
--   Jasmine Rice (rinsed 3 times!)
--   Smashed Cucumber Salad
+
+- Jasmine Rice (rinsed 3 times!)
+- Smashed Cucumber Salad

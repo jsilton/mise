@@ -31,4 +31,5 @@ vibe: fuel
 - sodium
 
 ## Serving Suggestions
+
 Near East Rice Pilaf Hack, Everyday Arugula Salad

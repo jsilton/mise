@@ -34,4 +34,5 @@ vibe: speed
 - CALORIES: 341
 
 ## Serving Suggestions
+
 Near East Rice Pilaf Hack, Everyday Arugula Salad

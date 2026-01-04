@@ -40,4 +40,5 @@ vibe: speed
 - Sodium: 632mg
 
 ## Serving Suggestions
+
 Couscous or Crusty Bread, Everyday Arugula Salad

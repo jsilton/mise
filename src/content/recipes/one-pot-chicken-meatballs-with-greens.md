@@ -45,4 +45,5 @@ vibe: fuel
 - Protein: 24 grams
 
 ## Serving Suggestions
+
 Near East Rice Pilaf Hack, Everyday Arugula Salad

@@ -40,4 +40,5 @@ vibe: speed
 - Protein: 25 grams
 
 ## Serving Suggestions
+
 Couscous or Crusty Bread, Everyday Arugula Salad

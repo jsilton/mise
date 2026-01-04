@@ -1,5 +1,5 @@
 ---
-title: "Everyday Arugula Salad"
+title: 'Everyday Arugula Salad'
 role: side
 vibe: speed
 prepTime: 5 min
@@ -7,15 +7,16 @@ cookTime: 0 min
 totalTime: 5 min
 servings: 4
 ingredients:
-  - "5 oz baby arugula (one standard container)"
-  - "2 tablespoons extra virgin olive oil"
-  - "1 tablespoon fresh lemon juice"
-  - "1/3 cup shaved Parmesan cheese (use a vegetable peeler)"
-  - "Flaky sea salt (Maldon)"
-  - "Freshly cracked black pepper"
+  - '5 oz baby arugula (one standard container)'
+  - '2 tablespoons extra virgin olive oil'
+  - '1 tablespoon fresh lemon juice'
+  - '1/3 cup shaved Parmesan cheese (use a vegetable peeler)'
+  - 'Flaky sea salt (Maldon)'
+  - 'Freshly cracked black pepper'
 ---
 
 ## Description
+
 The universal side dish. The peppery bite of arugula and the acid of lemon juice cut through rich, fatty mains like pasta or breaded chicken.
 
 ## Directions
@@ -27,6 +28,7 @@ The universal side dish. The peppery bite of arugula and the acid of lemon juice
 5.  Top with shaved Parmesan curls. Serve immediately.
 
 ## Pairs With
--   Chicken Milanese
--   Carbonara / Alfredo
--   Steak or heavy braises
+
+- Chicken Milanese
+- Carbonara / Alfredo
+- Steak or heavy braises

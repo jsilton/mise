@@ -27,4 +27,5 @@ vibe: comfort
 4. Stir in half-and-half and honey. Remove from heat and purée using a hand blender, or allow to cool until no longer steaming and purée in batches in a stand blender. Return to medium heat just until heated through. Serve hot.
 
 ## Serving Suggestions
+
 Grilled Cheese, Crusty Bread

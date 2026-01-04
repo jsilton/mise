@@ -1,5 +1,5 @@
 ---
-title: "Near East Rice Pilaf (Homemade Hack)"
+title: 'Near East Rice Pilaf (Homemade Hack)'
 role: base
 vibe: speed
 prepTime: 5 min
@@ -7,18 +7,19 @@ cookTime: 20 min
 totalTime: 25 min
 servings: 4
 ingredients:
-  - "1 cup long-grain white rice (or parboiled/converted rice for authentic texture)"
-  - "1/3 cup orzo pasta"
-  - "2 tablespoons butter (or olive oil)"
-  - "2 cups chicken broth (or water + 2 tsp Better Than Bouillon)"
-  - "1/4 teaspoon garlic powder"
-  - "1/4 teaspoon onion powder"
-  - "1/8 teaspoon turmeric (for color)"
-  - "1 teaspoon dried parsley"
-  - "Salt and black pepper to taste"
+  - '1 cup long-grain white rice (or parboiled/converted rice for authentic texture)'
+  - '1/3 cup orzo pasta'
+  - '2 tablespoons butter (or olive oil)'
+  - '2 cups chicken broth (or water + 2 tsp Better Than Bouillon)'
+  - '1/4 teaspoon garlic powder'
+  - '1/4 teaspoon onion powder'
+  - '1/8 teaspoon turmeric (for color)'
+  - '1 teaspoon dried parsley'
+  - 'Salt and black pepper to taste'
 ---
 
 ## Description
+
 This is the homemade version of the classic "box rice" that goes with everything. Toasting the orzo in butter provides that signature nutty flavor, while the turmeric gives it the golden glow.
 
 ## Directions
@@ -32,6 +33,7 @@ This is the homemade version of the classic "box rice" that goes with everything
 7.  Remove lid, stir in the dried parsley, fluff with a fork, and serve.
 
 ## Pairs With
--   Grilled Chicken
--   Turkey Burgers
--   Any "Saucy" Main
+
+- Grilled Chicken
+- Turkey Burgers
+- Any "Saucy" Main

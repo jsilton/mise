@@ -28,4 +28,5 @@ vibe: speed
 3. Add the shrimp and cook until they are firm and cooked through, about 5 minutes. Add the cooked pasta, Parmesan and 1 teaspoon salt and toss until well coated (see Cook's Note). Sprinkle with parsley.
 
 ## Serving Suggestions
+
 Couscous or Crusty Bread, Everyday Arugula Salad

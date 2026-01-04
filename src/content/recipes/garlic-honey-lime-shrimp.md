@@ -36,4 +36,5 @@ vibe: speed
 - Protein: 47g
 
 ## Serving Suggestions
+
 Couscous or Crusty Bread, Everyday Arugula Salad

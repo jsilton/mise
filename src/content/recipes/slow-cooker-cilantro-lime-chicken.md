@@ -41,4 +41,5 @@ vibe: comfort
 - Sodium: 1139mg
 
 ## Serving Suggestions
+
 Near East Rice Pilaf Hack, Everyday Arugula Salad

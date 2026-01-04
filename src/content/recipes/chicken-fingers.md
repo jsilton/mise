@@ -17,4 +17,5 @@ vibe: fuel
 4. Turn chicken strips and bake 10-15 minutes or until no longer pink in center.
 
 ## Serving Suggestions
+
 Near East Rice Pilaf Hack, Everyday Arugula Salad

@@ -34,4 +34,5 @@ vibe: comfort
 2. Working in batches, puree the soup in a blender with the sour cream and vinegar until smooth. Reheat the soup if necessary and season with salt and pepper. Ladle the soup into bowls, top with toasted pumpkin seeds and chopped mint and cilantro and serve.
 
 ## Serving Suggestions
+
 Grilled Cheese, Crusty Bread

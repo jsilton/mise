@@ -30,4 +30,5 @@ vibe: speed
 4. In a small bowl, whisk the sugar with the warm water until dissolved. Stir in the chile and garlic and season with salt. Serve the summer rolls with the dipping sauce, passing chile-garlic sauce at the table.
 
 ## Serving Suggestions
+
 Couscous or Crusty Bread, Everyday Arugula Salad

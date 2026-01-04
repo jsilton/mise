@@ -16,4 +16,3 @@ role: main
 vibe: holiday
 servings: Unknown
 ---
-

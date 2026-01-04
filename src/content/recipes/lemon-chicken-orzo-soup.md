@@ -48,4 +48,5 @@ You can sub the chicken breasts for chicken thighs if you prefer.Chicken is safe
 - Protein: 29 g
 
 ## Serving Suggestions
+
 Near East Rice Pilaf Hack, Everyday Arugula Salad

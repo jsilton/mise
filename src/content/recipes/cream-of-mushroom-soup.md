@@ -23,4 +23,5 @@ vibe: comfort
 3. Return soup to pot and stir in cream and reserved mushrooms. Serve.
 
 ## Serving Suggestions
+
 Grilled Cheese, Crusty Bread

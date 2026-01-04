@@ -33,4 +33,5 @@ vibe: fuel
 Remove the skin to save calories. Soaking chicken in buttermilk leaves the chicken incredibly moist with a delicious flavor.
 
 ## Serving Suggestions
+
 Near East Rice Pilaf Hack, Everyday Arugula Salad

@@ -1,5 +1,5 @@
 ---
-title: "Roasted Tomato Basil Soup"
+title: 'Roasted Tomato Basil Soup'
 role: main
 vibe: comfort
 prepTime: 15 min
@@ -7,19 +7,20 @@ cookTime: 45 min
 totalTime: 60 min
 servings: 6
 ingredients:
-  - "3 pounds Roma (plum) tomatoes, halved lengthwise"
-  - "6 cloves garlic, peeled"
-  - "3 tablespoons olive oil"
-  - "1/2 teaspoon crushed red pepper flakes"
-  - "1 yellow onion, chopped"
-  - "1 (28 oz) can whole peeled tomatoes"
-  - "2-3 cups chicken or vegetable broth"
-  - "1/2 cup fresh basil leaves"
-  - "1/2 cup heavy cream or coconut milk (optional)"
-  - "Salt and black pepper"
+  - '3 pounds Roma (plum) tomatoes, halved lengthwise'
+  - '6 cloves garlic, peeled'
+  - '3 tablespoons olive oil'
+  - '1/2 teaspoon crushed red pepper flakes'
+  - '1 yellow onion, chopped'
+  - '1 (28 oz) can whole peeled tomatoes'
+  - '2-3 cups chicken or vegetable broth'
+  - '1/2 cup fresh basil leaves'
+  - '1/2 cup heavy cream or coconut milk (optional)'
+  - 'Salt and black pepper'
 ---
 
 ## Description
+
 This is the "Lunch Anchor." Roasting fresh tomatoes concentrates their sweetness and umami, making a soup that is infinitely better than the canned version. Freezes perfectly.
 
 ## Directions
@@ -31,5 +32,6 @@ This is the "Lunch Anchor." Roasting fresh tomatoes concentrates their sweetness
 5.  **Finish:** Stir in cream if using. Taste and adjust salt.
 
 ## Pairs With
--   Sourdough Grilled Cheese
--   Caesar Salad
+
+- Sourdough Grilled Cheese
+- Caesar Salad

@@ -59,4 +59,5 @@ Note: I've specified boneless skinless chicken thighs for this recipe; they're j
 - Cholesterol: 186mg
 
 ## Serving Suggestions
+
 Near East Rice Pilaf Hack, Everyday Arugula Salad

@@ -33,4 +33,5 @@ vibe: speed
 6. 6. Serve the salmon over a bed of rice and bok choy. Enjoy!
 
 ## Serving Suggestions
+
 Jasmine Rice, Smashed Cucumber Salad

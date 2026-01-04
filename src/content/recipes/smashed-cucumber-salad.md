@@ -1,5 +1,5 @@
 ---
-title: "Smashed Cucumber Salad"
+title: 'Smashed Cucumber Salad'
 role: side
 vibe: fuel
 prepTime: 10 min
@@ -7,18 +7,19 @@ cookTime: 0 min
 totalTime: 40 min
 servings: 4
 ingredients:
-  - "2 English cucumbers (or 6 Persian cucumbers)"
-  - "1 teaspoon kosher salt"
-  - "2 teaspoons sugar"
-  - "1 1/2 tablespoons rice vinegar"
-  - "2 teaspoons soy sauce"
-  - "1 teaspoon sesame oil"
-  - "2 cloves garlic, grated or finely minced"
-  - "1 teaspoon chili crisp or chili oil (optional)"
-  - "Toasted sesame seeds, for garnish"
+  - '2 English cucumbers (or 6 Persian cucumbers)'
+  - '1 teaspoon kosher salt'
+  - '2 teaspoons sugar'
+  - '1 1/2 tablespoons rice vinegar'
+  - '2 teaspoons soy sauce'
+  - '1 teaspoon sesame oil'
+  - '2 cloves garlic, grated or finely minced'
+  - '1 teaspoon chili crisp or chili oil (optional)'
+  - 'Toasted sesame seeds, for garnish'
 ---
 
 ## Description
+
 A Din Tai Fung-inspired side. Smashing the cucumbers creates jagged edges that soak up the dressing better than clean slices. Salting them first ensures they stay crunchy for days.
 
 ## Directions
@@ -30,6 +31,7 @@ A Din Tai Fung-inspired side. Smashing the cucumbers creates jagged edges that s
 5.  **Serve:** Top with sesame seeds. Serve immediately or marinate for up to 4 hours.
 
 ## Pairs With
--   Thai Basil Noodles
--   Sesame Chicken
--   Tuna Poke Bowls
+
+- Thai Basil Noodles
+- Sesame Chicken
+- Tuna Poke Bowls

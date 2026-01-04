@@ -25,4 +25,5 @@ vibe: speed
 6. Bring a large pot of well-salted water to a boil, add fresh pasta and boil for 1 to 3 minutes, depending on thickness of the pasta. Drain well.
 
 ## Serving Suggestions
+
 Everyday Arugula Salad, Garlic Bread

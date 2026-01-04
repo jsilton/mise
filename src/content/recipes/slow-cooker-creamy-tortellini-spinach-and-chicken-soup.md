@@ -33,4 +33,5 @@ vibe: comfort
 5. Use a fork to remove the chicken out of the slow cooker. On a cutting board, shred or cut the chicken into bite-size pieces. Add the chicken back into the slow cooker. Put the lid back on and cook on HIGH for about 10 more minutes, or until the tortellini are cooked through. Ladle into serving bowls and enjoy!
 
 ## Serving Suggestions
+
 Near East Rice Pilaf Hack, Everyday Arugula Salad

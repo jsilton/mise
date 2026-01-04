@@ -37,4 +37,5 @@ vibe: comfort
 5. Immediately before serving, Add remaining sauce to the crockpot and stir gently. Serve with rice.
 
 ## Serving Suggestions
+
 Near East Rice Pilaf Hack, Everyday Arugula Salad

@@ -31,4 +31,5 @@ vibe: comfort
 5. Serve immediately, sprinkled with bacon and chives.
 
 ## Serving Suggestions
+
 Grilled Cheese, Crusty Bread

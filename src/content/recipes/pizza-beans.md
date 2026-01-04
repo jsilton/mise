@@ -1,5 +1,5 @@
 ---
-title: "Pizza Beans"
+title: 'Pizza Beans'
 role: main
 vibe: comfort
 prepTime: 15 min
@@ -7,18 +7,19 @@ cookTime: 30 min
 totalTime: 45 min
 servings: 4
 ingredients:
-  - "2 cans (15 oz each) giant white beans (like Butter beans or Gigante), drained and rinsed"
-  - "1 tablespoon olive oil"
-  - "1 onion, diced"
-  - "2 cloves garlic, minced"
-  - "1 (28 oz) can crushed tomatoes"
-  - "1 bunch kale, stems removed and chopped"
-  - "8 oz mozzarella cheese, shredded"
-  - "1/3 cup grated Parmesan cheese"
-  - "Dried oregano and red pepper flakes"
+  - '2 cans (15 oz each) giant white beans (like Butter beans or Gigante), drained and rinsed'
+  - '1 tablespoon olive oil'
+  - '1 onion, diced'
+  - '2 cloves garlic, minced'
+  - '1 (28 oz) can crushed tomatoes'
+  - '1 bunch kale, stems removed and chopped'
+  - '8 oz mozzarella cheese, shredded'
+  - '1/3 cup grated Parmesan cheese'
+  - 'Dried oregano and red pepper flakes'
 ---
 
 ## Description
+
 Think deep-dish pizza, but swap the dough for creamy white beans and greens. It's cheesy, tomato-y, and incredibly satisfying without the meat.
 
 ## Directions
@@ -31,5 +32,6 @@ Think deep-dish pizza, but swap the dough for creamy white beans and greens. It'
 6.  Bake for 15-20 minutes until the cheese is bubbly and browned.
 
 ## Serving Suggestions
--   Everyday Arugula Salad
--   Garlic Bread (for dipping)
+
+- Everyday Arugula Salad
+- Garlic Bread (for dipping)

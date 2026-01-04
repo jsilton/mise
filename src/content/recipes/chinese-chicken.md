@@ -32,4 +32,5 @@ vibe: fuel
 7. Serve chinese chicken over rice with chinese sausage on the side.
 
 ## Serving Suggestions
+
 Near East Rice Pilaf Hack, Everyday Arugula Salad

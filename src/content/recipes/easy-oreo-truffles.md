@@ -5,7 +5,7 @@ servings: 42 servings
 ingredients:
   - '1 (16 ounce) package OREO Chocolate Sandwich Cookies, divided'
   - '1 (8 ounce) package PHILADELPHIA Cream Cheese, softened'
-  - '2 (8 ounce) packages BAKER''S Semi-Sweet Baking Chocolate, melted'
+  - "2 (8 ounce) packages BAKER'S Semi-Sweet Baking Chocolate, melted"
 totalTime: 1 min
 role: dessert
 vibe: speed

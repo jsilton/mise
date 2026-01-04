@@ -1,5 +1,5 @@
 ---
-title: "Mediterranean Chicken Bowls"
+title: 'Mediterranean Chicken Bowls'
 role: main
 vibe: fuel
 prepTime: 20 min
@@ -7,19 +7,20 @@ cookTime: 15 min
 totalTime: 35 min
 servings: 4
 ingredients:
-  - "1.5 lbs chicken thighs, boneless/skinless"
-  - "3 tablespoons olive oil"
-  - "2 tablespoons lemon juice"
-  - "1 tablespoon dried oregano"
-  - "2 cloves garlic, minced"
-  - "1 cup Hummus (store-bought or homemade)"
-  - "2 cups cooked yellow rice or quinoa"
-  - "1 English cucumber, diced"
-  - "1 pint cherry tomatoes, halved"
-  - "Feta cheese, crumbled"
+  - '1.5 lbs chicken thighs, boneless/skinless'
+  - '3 tablespoons olive oil'
+  - '2 tablespoons lemon juice'
+  - '1 tablespoon dried oregano'
+  - '2 cloves garlic, minced'
+  - '1 cup Hummus (store-bought or homemade)'
+  - '2 cups cooked yellow rice or quinoa'
+  - '1 English cucumber, diced'
+  - '1 pint cherry tomatoes, halved'
+  - 'Feta cheese, crumbled'
 ---
 
 ## Description
+
 A deconstructed Souvlaki platter. The marinated chicken thighs are grilled or seared hard, then piled onto a base of creamy hummus and grains.
 
 ## Directions
@@ -30,5 +31,6 @@ A deconstructed Souvlaki platter. The marinated chicken thighs are grilled or se
 4.  **Top:** Arrange the chicken, cucumbers, and tomatoes. Sprinkle with feta.
 
 ## Serving Suggestions
--   Warm Pita Bread
--   Tzatziki Sauce
+
+- Warm Pita Bread
+- Tzatziki Sauce

@@ -42,4 +42,5 @@ vibe: comfort
 6. Carefully remove the chicken from the pot and pass the stock through a strainer lined with cheesecloth to remove the solids and excess fat. Cool the chicken stock to room temperature before storing in the refrigerator, or chill it down over ice first.
 
 ## Serving Suggestions
+
 Grilled Cheese, Crusty Bread

@@ -38,4 +38,5 @@ Advance preparation: This is best served right after you cook the shrimp and man
 - Protein: 27 grams
 
 ## Serving Suggestions
+
 Couscous or Crusty Bread, Everyday Arugula Salad

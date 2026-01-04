@@ -22,4 +22,5 @@ vibe: comfort
 4. Stir together miso and 1/2 cup dashi in a bowl until smooth. Heat remaining dashi in a saucepan over moderately high heat until hot, then gently stir in tofu and reconstituted wakame. Simmer 1 minute and remove from heat. Immediately stir in miso mixture and scallion greens and serve.
 
 ## Serving Suggestions
+
 Grilled Cheese, Crusty Bread

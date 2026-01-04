@@ -1,5 +1,5 @@
 ---
-title: 'Chef Kriger''s Recipe: Shabbat Brisket'
+title: "Chef Kriger's Recipe: Shabbat Brisket"
 ingredients:
   - 1 First Cut Brisket
   - 1 Small Bag Baby Carrots

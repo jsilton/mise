@@ -28,4 +28,5 @@ vibe: project
 3. Zest and juice the lemon and add both the zest and the juice to the risotto toward the end of cooking. Stir in the heavy cream, the basil, and serve immediately with extra lemon zest and Parmesan cheese on top.
 
 ## Serving Suggestions
+
 Couscous or Crusty Bread, Everyday Arugula Salad

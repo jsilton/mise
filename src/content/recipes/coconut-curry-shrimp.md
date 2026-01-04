@@ -32,4 +32,5 @@ vibe: speed
 3. Serve shrimp and sauce over a bed of cooked basmati rice, garnishing with more basil. Delicious!
 
 ## Serving Suggestions
+
 Couscous or Crusty Bread, Everyday Arugula Salad

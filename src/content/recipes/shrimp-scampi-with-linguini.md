@@ -25,4 +25,5 @@ vibe: speed
 3. When the butter has melted, return the shrimp to the pan. Stir well and season with salt and pepper. Drizzle over a bit more olive oil and serve immediately. Combine with the along with the parsley and cooked pasta and toss to coat. Transfer to a platter, and top with shredded Parmigiano-Reggiano cheese.
 
 ## Serving Suggestions
+
 Couscous or Crusty Bread, Everyday Arugula Salad

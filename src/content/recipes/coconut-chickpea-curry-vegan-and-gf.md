@@ -39,4 +39,5 @@ vibe: fuel
 - Sugar: 8.1g
 
 ## Serving Suggestions
+
 Basmati Rice, Naan

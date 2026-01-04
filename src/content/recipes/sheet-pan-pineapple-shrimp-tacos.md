@@ -38,4 +38,5 @@ vibe: speed
 4. To assemble tacos, lay down a layer of slaw in a tortilla, then add a mixture of shrimp, onions, and pineapple and top with cilantro, avocado, sour cream, and radish, if using.
 
 ## Serving Suggestions
+
 Couscous or Crusty Bread, Everyday Arugula Salad

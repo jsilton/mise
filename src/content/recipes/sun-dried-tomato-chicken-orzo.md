@@ -23,4 +23,5 @@ servings: Unknown
 1. Cut up chicken and coat with oil and seasonings. Squeeze 2 lemonsTop with sundried tomatoesPut piece of boursin cheese in the middle Add half bag of frozen spinach Add 1.5 cups of orzoAdd 1.5 cups of chicken brothTop with more sundried tomatoed and lemon slicesBake at 400 degrees for 35 minutesStir well and serve
 
 ## Serving Suggestions
+
 Near East Rice Pilaf Hack, Everyday Arugula Salad

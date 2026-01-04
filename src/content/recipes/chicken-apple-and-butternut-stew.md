@@ -40,4 +40,5 @@ vibe: comfort
 - fat: 3.3g
 
 ## Serving Suggestions
+
 Near East Rice Pilaf Hack, Everyday Arugula Salad

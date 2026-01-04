@@ -38,4 +38,5 @@ vibe: project
 6. Serve immediately with green onion and coriander garnished.
 
 ## Serving Suggestions
+
 Couscous or Crusty Bread, Everyday Arugula Salad

@@ -15,6 +15,7 @@ servings: 4
 ---
 
 ## Description
+
 A clean, simple preparation that highlights the freshness of the broccoli. Steaming preserves the vibrant green color and nutrients, while a quick toss in garlic-infused oil adds depth without the sharpness of citrus.
 
 ## Directions

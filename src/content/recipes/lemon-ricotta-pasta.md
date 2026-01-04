@@ -24,4 +24,5 @@ vibe: speed
 3. Serve with basil, more pecorino, and a drizzle of olive oil.
 
 ## Serving Suggestions
+
 Everyday Arugula Salad, Garlic Bread

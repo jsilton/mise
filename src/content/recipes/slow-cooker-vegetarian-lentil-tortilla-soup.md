@@ -64,4 +64,5 @@ vibe: comfort
 - PROTEIN: 15G 30%
 
 ## Serving Suggestions
+
 Grilled Cheese, Crusty Bread

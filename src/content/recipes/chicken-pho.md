@@ -34,4 +34,5 @@ vibe: comfort
 5. Bring a large saucepan of salted water to a boil. Drain the noodles, then add them to the saucepan and boil over high heat until tender, about 3 minutes. Drain well. Transfer the noodles to 6 large bowls and sprinkle with the scallion. Add the reserved chicken to the broth and simmer until heated through. Ladle the broth and chicken over the noodles. Serve with the bean sprouts, basil, lime wedges, jalapeños, chili-garlic sauce and hoisin sauce.
 
 ## Serving Suggestions
+
 Near East Rice Pilaf Hack, Everyday Arugula Salad

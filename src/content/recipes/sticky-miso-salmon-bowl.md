@@ -44,4 +44,5 @@ vibe: fuel
 - Protein: 49 grams
 
 ## Serving Suggestions
+
 Jasmine Rice, Smashed Cucumber Salad

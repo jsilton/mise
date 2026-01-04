@@ -59,4 +59,5 @@ vibe: fuel
 7. To assemble, divide the kale, sweet potatoes, roasted chickpeas, and chicken meatballs between bowls. Top with plenty of yogurt jalapeño dressing and enjoy!
 
 ## Serving Suggestions
+
 Near East Rice Pilaf Hack, Everyday Arugula Salad

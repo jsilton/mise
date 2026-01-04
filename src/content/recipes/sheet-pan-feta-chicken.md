@@ -29,4 +29,5 @@ vibe: fuel
 3. Bake in preheated oven for 10 minutes. Add reserved tomatoes to baking sheet, filling in any empty gaps. Drizzle any remaining vinegar mixture in bowl over baking sheet. Return to oven and continue baking until tomatoes have just burst and a thermometer inserted into thickest part of chicken registers 160°F, 10 to 15 minutes more. Garnish with fresh basil and black pepper and serve hot.
 
 ## Serving Suggestions
+
 Near East Rice Pilaf Hack, Everyday Arugula Salad

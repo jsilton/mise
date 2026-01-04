@@ -24,4 +24,5 @@ vibe: speed
 5. Make space in the middle of the pan, add remaining 1 tablespoon oil and sliced snow peas and cook 2 minutes. Add prepared noodles and ¼ cup of sweet chili sauce. Continue to cook until noodles are coated and heated through, about 4 to 6 minutes. Serve immediately.
 
 ## Serving Suggestions
+
 Couscous or Crusty Bread, Everyday Arugula Salad

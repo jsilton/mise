@@ -47,4 +47,5 @@ vibe: fuel
 - sugar: 6g
 
 ## Serving Suggestions
+
 Near East Rice Pilaf Hack, Everyday Arugula Salad
