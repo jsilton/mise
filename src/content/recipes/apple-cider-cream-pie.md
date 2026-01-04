@@ -28,6 +28,7 @@ ingredients:
 ---
 
 ## Chef's Note
+
 This pie is a masterclass in **Modern Heritage**. We take the soul of a classic custard pie and infuse it with a massive "High Note" by reducing two full cups of apple cider down to a concentrated syrup. The **Apple Cider Vinegar** in the crust isn't just for flavor—it’s a structural hack that inhibits gluten development, ensuring the flakiest possible bite to contrast the velvety custard.
 
 ## Directions
@@ -40,5 +41,6 @@ This pie is a masterclass in **Modern Heritage**. We take the soul of a classic 
 6.  **Finish:** Whip heavy cream with 1/4 cup sugar and cinnamon until firm peaks form. Mound over the cooled pie before serving.
 
 ## Serving Suggestions
--   [Hot Mulled Apple Cider](/recipes/hot-mulled-apple-cider)
--   Vanilla Bean Ice Cream
+
+- [Hot Mulled Apple Cider](/recipes/hot-mulled-apple-cider)
+- Vanilla Bean Ice Cream

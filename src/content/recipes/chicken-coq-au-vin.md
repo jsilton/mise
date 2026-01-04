@@ -25,6 +25,7 @@ ingredients:
 ---
 
 ## Chef's Note
+
 We have upgraded this from the "soup mix" version to the **Authentic French Standard**. The soul of Coq au Vin is the **Rendering of Bacon Fat** and the **Wine Reduction**. We sear the chicken in bacon fat to build a deep umami base, then simmer it in a full-bodied red wine until the sauce is dark and glossy. We finish with a **Monter au Beurre** (butter mount) to create that restaurant-quality velvety texture.
 
 ## Directions
@@ -39,6 +40,7 @@ We have upgraded this from the "soup mix" version to the **Authentic French Stan
 8.  **Serve:** Return chicken to the sauce. Serve over mashed potatoes or rice.
 
 ## Serving Suggestions
--   [Miso-Mashed Potatoes](/recipes/miso-mashed-potatoes)
--   [Everyday Arugula Salad](/recipes/everyday-arugula-salad)
--   Glass of the same Red Wine used in cooking
+
+- [Miso-Mashed Potatoes](/recipes/miso-mashed-potatoes)
+- [Everyday Arugula Salad](/recipes/everyday-arugula-salad)
+- Glass of the same Red Wine used in cooking

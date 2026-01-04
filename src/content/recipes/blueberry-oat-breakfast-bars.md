@@ -18,6 +18,7 @@ ingredients:
 ---
 
 ## Chef's Note
+
 The challenge with oat bars is preventing them from crumbling into granola. The secret is **Texture Integrity** through the **Cold Set**. By firmly pressing the mixture into the pan and refrigerating it for at least an hour (or overnight) after baking, the coconut oil and nut butter solidify to act as a natural "glue." This allows you to cut clean, portable bars that hold their "Bounce."
 
 ## Directions
@@ -32,6 +33,7 @@ The challenge with oat bars is preventing them from crumbling into granola. The 
 8.  **Slice:** Cut into 8 bars and serve cold or at room temperature.
 
 ## Serving Suggestions
--   [Easy Breakfast Yogurt Popsicles](/recipes/easy-breakfast-yogurt-popsicles)
--   Fresh Fruit Platter
--   [Chocolate Chia Pudding](/recipes/chocolate-chia-pudding)
+
+- [Easy Breakfast Yogurt Popsicles](/recipes/easy-breakfast-yogurt-popsicles)
+- Fresh Fruit Platter
+- [Chocolate Chia Pudding](/recipes/chocolate-chia-pudding)

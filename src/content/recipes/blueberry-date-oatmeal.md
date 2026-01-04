@@ -19,6 +19,7 @@ ingredients:
 ---
 
 ## Chef's Note
+
 This is a high-performance "Fuel" breakfast. We use the **Volume Hack**: adding riced cauliflower increases the fiber and portion size without altering the flavor of the oats. To maintain **Texture Integrity**, we stir the frozen blueberries in at the very end—this prevents the entire bowl from turning a muddy gray and preserves the "Pop" of the fruit. The dates provide a natural, caramel-like sweetness that eliminates the need for refined sugar.
 
 ## Directions
@@ -30,6 +31,7 @@ This is a high-performance "Fuel" breakfast. We use the **Volume Hack**: adding 
 5.  **Serve:** Top with a pinch of sea salt and cinnamon.
 
 ## Serving Suggestions
--   A dollop of Greek Yogurt
--   A drizzle of Almond Butter
--   [Easy Breakfast Yogurt Popsicles](/recipes/easy-breakfast-yogurt-popsicles)
+
+- A dollop of Greek Yogurt
+- A drizzle of Almond Butter
+- [Easy Breakfast Yogurt Popsicles](/recipes/easy-breakfast-yogurt-popsicles)

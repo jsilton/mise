@@ -21,6 +21,7 @@ ingredients:
 ---
 
 ## Chef's Note
+
 The secret to this weeknight hero is **Flavor Layering**. We start by browning the sausage to render its fat, then use that flavorful oil to sauté the peppers and garlic. The **Red Wine Reduction** provides a deep, slightly acidic base that complements the sweetness of the San Marzano tomatoes. The spinach is folded in at the very end to stay vibrant and green.
 
 ## Directions
@@ -30,10 +31,11 @@ The secret to this weeknight hero is **Flavor Layering**. We start by browning t
 3.  **The Base:** Sauté the bell pepper and garlic in the same pan for 3 minutes.
 4.  **Deglaze:** Pour in the red wine. Scrape the bottom of the pan and let it reduce for 2 minutes.
 5.  **Simmer:** Add the tomatoes and dried basil. Simmer for 10 minutes to thicken.
-6.  **Combine:** Return the sausage to the pan. Add the hot pasta and the spinach. 
+6.  **Combine:** Return the sausage to the pan. Add the hot pasta and the spinach.
 7.  **Bind:** Toss vigorously over medium heat, adding pasta water a tablespoon at a time until the sauce is glossy and the spinach is wilted.
 8.  **Finish:** Stir in the Parmesan and plenty of black pepper.
 
 ## Serving Suggestions
--   [Everyday Arugula Salad](/recipes/everyday-arugula-salad)
--   Warm Garlic Bread
+
+- [Everyday Arugula Salad](/recipes/everyday-arugula-salad)
+- Warm Garlic Bread

@@ -23,6 +23,7 @@ ingredients:
 ---
 
 ## Chef's Note
+
 This is a **Modern Heritage** update to the classic carrot cake, re-engineered as a high-fiber "Fuel" breakfast. By using **Whole Wheat Flour** and **Greek Yogurt**, we achieve a dense, moist crumb that provides sustained energy. The secret to the texture is finely grating the carrots—they should almost melt into the batter during baking, providing moisture without the "mushy veggie" feel. This is the "Keeper" version for busy mornings.
 
 ## Directions
@@ -36,6 +37,7 @@ This is a **Modern Heritage** update to the classic carrot cake, re-engineered a
 7.  **Cool:** Let cool in the pan for 10 minutes, then transfer to a wire rack. This cake is even better the next day once the spices have "bloomed."
 
 ## Serving Suggestions
--   A dollop of [Favorite Cream Cheese Frosting](/recipes/favorite-cream-cheese-frosting)
--   Fresh Berries
--   Cold Brew Coffee
+
+- A dollop of [Favorite Cream Cheese Frosting](/recipes/favorite-cream-cheese-frosting)
+- Fresh Berries
+- Cold Brew Coffee

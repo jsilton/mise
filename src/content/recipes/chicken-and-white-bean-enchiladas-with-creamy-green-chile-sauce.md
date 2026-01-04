@@ -21,6 +21,7 @@ ingredients:
 ---
 
 ## Chef's Note
+
 This is a high-protein, "Fuel" focused take on Enchiladas Suizas. By adding **White Beans** to the shredded chicken filling, we increase the fiber and satiety of the dish. The secret to the sauce is blending the green chiles and cilantro directly into the sour cream—this creates a vibrant, tangy, and creamy "Suiza" glaze that is lighter than traditional versions but hits the same flavor notes.
 
 ## Directions
@@ -33,5 +34,6 @@ This is a high-protein, "Fuel" focused take on Enchiladas Suizas. By adding **Wh
 6.  **Finish:** Top with fresh cilantro and [Quick Pickled Red Onions](/recipes/pickled-red-onions).
 
 ## Serving Suggestions
--   [Everyday Arugula Salad](/recipes/everyday-arugula-salad)
--   [Mexican Red Rice (Arroz Rojo)](/recipes/mexican-red-rice)
+
+- [Everyday Arugula Salad](/recipes/everyday-arugula-salad)
+- [Mexican Red Rice (Arroz Rojo)](/recipes/mexican-red-rice)

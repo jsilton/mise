@@ -22,6 +22,7 @@ ingredients:
 ---
 
 ## Chef's Note
+
 The secret to the Silton Standard brownie is **Texture Integrity**. By using **Extra-Virgin Olive Oil** instead of butter or canola, we achieve a fruitier depth that perfectly pairs with dark chocolate. The addition of **Powdered Sugar** in the dry mix is a structural hack—it creates that iconic "shackle" or paper-thin, crackly crust on top while keeping the middle fudgy and dense. Never over-mix once the dry ingredients are added; you want to preserve the "snap."
 
 ## Directions
@@ -34,6 +35,7 @@ The secret to the Silton Standard brownie is **Texture Integrity**. By using **E
 6.  **The Set:** Allow to cool completely in the pan for at least 2 hours before slicing. This is mandatory for the structure to set.
 
 ## Serving Suggestions
--   [Old-Fashioned Vanilla Ice Cream](/recipes/old-fashioned-vanilla-ice-cream)
--   Flaky Sea Salt (sprinkled on top)
--   Cold Glass of Milk
+
+- [Old-Fashioned Vanilla Ice Cream](/recipes/old-fashioned-vanilla-ice-cream)
+- Flaky Sea Salt (sprinkled on top)
+- Cold Glass of Milk

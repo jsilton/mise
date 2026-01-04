@@ -23,6 +23,7 @@ ingredients:
 ---
 
 ## Chef's Note
+
 A great pot pie is defined by the **Velouté** (the gravy) and the **Flaky Crust**. We have moved away from the "boiled chicken" version; instead, use poached or roasted chicken chunks to preserve the meaty texture. The secret to the Silton Standard is the **Celery Seed**: it provides that "savory soul" that makes the pie taste like a professional bakery version. For the best result, use the Vodka Hack dough from our Apple Pie recipe.
 
 ## Directions
@@ -37,5 +38,6 @@ A great pot pie is defined by the **Velouté** (the gravy) and the **Flaky Crust
 8.  **Rest:** Let sit for 10 minutes before serving. This allows the gravy to set so it doesn't run.
 
 ## Serving Suggestions
--   [Everyday Arugula Salad](/recipes/everyday-arugula-salad)
--   Roasted Asparagus
+
+- [Everyday Arugula Salad](/recipes/everyday-arugula-salad)
+- Roasted Asparagus

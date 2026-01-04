@@ -18,18 +18,20 @@ ingredients:
 ---
 
 ## Chef's Note
+
 The secret to a "Gold Standard" enchilada is the **Tortilla Prep**. If you roll cold tortillas, they will crack; if you don't coat them in fat, they will turn to mush. We lightly sear each tortilla in a little oil for 5 seconds before dipping in the sauce—this creates a barrier that holds the structure during baking. This version focuses on the classic earthy, red-chile profile.
 
 ## Directions
 
 1.  **Prep:** Preheat oven to 375°F. In a bowl, toss shredded chicken with the green chiles and diced red pepper.
-2.  **Coat:** Heat a splash of oil in a small skillet. Flash-fry each tortilla for 5 seconds per side just until pliable. 
+2.  **Coat:** Heat a splash of oil in a small skillet. Flash-fry each tortilla for 5 seconds per side just until pliable.
 3.  **Dip & Roll:** Dip a warm tortilla into the red sauce. Place a large scoop of chicken in the center, sprinkle with a little cheese, and roll tightly. Place seam-side down in a baking dish.
 4.  **Bake:** Pour the remaining sauce over the top and cover generously with cheese.
 5.  **Melt:** Bake for 15-20 minutes until the cheese is bubbly and the edges of the tortillas are slightly crisp.
 6.  **Serve:** Top with cold sour cream and cilantro to balance the heat.
 
 ## Serving Suggestions
--   [Mexican Red Rice (Arroz Rojo)](/recipes/mexican-red-rice)
--   [Quick Seasoned Black Beans](/recipes/quick-seasoned-black-beans)
--   [Smashed Cucumber Salad](/recipes/smashed-cucumber-salad)
+
+- [Mexican Red Rice (Arroz Rojo)](/recipes/mexican-red-rice)
+- [Quick Seasoned Black Beans](/recipes/quick-seasoned-black-beans)
+- [Smashed Cucumber Salad](/recipes/smashed-cucumber-salad)

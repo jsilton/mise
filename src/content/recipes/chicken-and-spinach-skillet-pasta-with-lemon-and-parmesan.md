@@ -20,6 +20,7 @@ ingredients:
 ---
 
 ## Chef's Note
+
 This is a high-performance weeknight meal that relies on **The Emulsion Pattern**. Instead of a heavy cream sauce, we use the starchy pasta water and white wine to bind the lemon and parmesan into a light, silky glaze. The massive amount of spinach provides the "Fuel" without making the dish feel heavy. Always finish with fresh lemon zest for that **High Note** brightness.
 
 ## Directions
@@ -32,5 +33,6 @@ This is a high-performance weeknight meal that relies on **The Emulsion Pattern*
 6.  **Serve:** Garnish with extra Parmesan and black pepper.
 
 ## Serving Suggestions
--   [Everyday Arugula Salad](/recipes/everyday-arugula-salad)
--   Roasted Cherry Tomatoes
+
+- [Everyday Arugula Salad](/recipes/everyday-arugula-salad)
+- Roasted Cherry Tomatoes

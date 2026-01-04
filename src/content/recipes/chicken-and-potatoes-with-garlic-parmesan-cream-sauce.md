@@ -22,6 +22,7 @@ ingredients:
 ---
 
 ## Chef's Note
+
 The secret to this dish is **Staged Cooking**. If you cook the potatoes in the cream sauce, they will be mushy and the skin will be flabby. We **Roast** the potatoes at high heat (425°F) separately to get a golden crust, while searing the chicken to render the fat. We only combine them with the velvety Parmesan cream at the very end to preserve the individual textures.
 
 ## Directions
@@ -34,5 +35,6 @@ The secret to this dish is **Staged Cooking**. If you cook the potatoes in the c
 6.  **Finish:** Transfer the skillet to the oven for 10 minutes to finish cooking the chicken (165°F). Serve immediately.
 
 ## Serving Suggestions
--   [Everyday Arugula Salad](/recipes/everyday-arugula-salad)
--   Crusty Sourdough
+
+- [Everyday Arugula Salad](/recipes/everyday-arugula-salad)
+- Crusty Sourdough

@@ -22,6 +22,7 @@ ingredients:
 ---
 
 ## Chef's Note
+
 A great wild rice soup should be nutty and aromatic, not thin and watery. The secret is **Long-Simmered Rice**: wild rice takes 45-50 minutes to fully "bloom"—you want the grains to split slightly to release their starch, which naturally thickens the soup. We use a mix of breast and thigh meat to ensure every spoonful has both lean protein and juicy flavor. The final hit of **Lemon Juice** is the mandatory high note.
 
 ## Directions
@@ -29,9 +30,10 @@ A great wild rice soup should be nutty and aromatic, not thin and watery. The se
 1.  **The Base:** Heat oil in a large pot. Sauté the onion, carrots, celery, and garlic for 10 minutes until soft and starting to turn golden.
 2.  **Simmer Rice:** Add the broth and the wild rice. Bring to a boil, then reduce to low and cover. Simmer for 40 minutes.
 3.  **Poach Chicken:** Add the diced chicken to the pot. Season with salt, pepper, and herbs. Continue simmering for 15-20 minutes until the chicken is cooked through and the rice is tender.
-4.  **Finish:** Stir in the fresh parsley and lemon juice. 
+4.  **Finish:** Stir in the fresh parsley and lemon juice.
 5.  **Adjust:** If the soup is too thick (wild rice absorbs a lot of liquid), add a splash more broth.
 
 ## Serving Suggestions
--   [Anadama Bread](/recipes/anadama-bread) with Salted Butter
--   [Everyday Arugula Salad](/recipes/everyday-arugula-salad)
+
+- [Anadama Bread](/recipes/anadama-bread) with Salted Butter
+- [Everyday Arugula Salad](/recipes/everyday-arugula-salad)

@@ -19,6 +19,7 @@ ingredients:
 ---
 
 ## Chef's Note
+
 These are the ultimate "Fuel" prep for a busy week. The secret to avoiding the rubbery texture of many egg muffins is **Texture Integrity**. We use a **Chiffonade** (thin ribbons) for the spinach, which ensures it wilts perfectly into the egg without creating large, wet clumps. Using a fresh, crisp bell pepper provides a necessary "Pop" that offsets the richness of the yolk and cheddar.
 
 ## Directions
@@ -32,6 +33,7 @@ These are the ultimate "Fuel" prep for a busy week. The secret to avoiding the r
 7.  **Cool:** Allow to cool in the tin for 5 minutes before removing. These can be refrigerated for up to 4 days and reheated for 30 seconds in the microwave.
 
 ## Serving Suggestions
--   Sliced Avocado and Hot Sauce
--   [Everyday Arugula Salad](/recipes/everyday-arugula-salad)
--   Fresh Fruit
+
+- Sliced Avocado and Hot Sauce
+- [Everyday Arugula Salad](/recipes/everyday-arugula-salad)
+- Fresh Fruit
