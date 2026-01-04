@@ -1,21 +1,33 @@
 ---
-title: Cranberry Orange Sauce
+title: Cranberry Orange Sauce (The Bright Finish)
+role: side
+vibe: holiday
 prepTime: 5 min
 cookTime: 15 min
-servings: 'Yield: 3 cups'
-ingredients:
-  - ¾ cup water
-  - ¼ cup freshly squeezed orange juice
-  - 2 tablespoons orange zest
-  - '½ cup sugar, or more, to taste'
-  - 1 (12-ounce) bag fresh cranberries
 totalTime: 20 min
-role: base
-vibe: holiday
+servings: '3 cups'
+ingredients:
+  - '12 oz Fresh Cranberries (1 bag)'
+  - '1/2 cup Sugar (adjust to taste)'
+  - '1/4 cup Freshly Squeezed Orange Juice'
+  - '2 tbsp Orange Zest (The acid punch)'
+  - '3/4 cup Water'
 ---
+
+## Chef's Note
+
+This is the **Acid Finish** for your Thanksgiving plate. The heavy fat of the turkey and the creaminess of the gratin need the sharp, citrusy lift of this sauce to reset the palate. By using fresh zest and juice rather than just water, we ensure the sauce is bright and aromatic rather than just sweet.
 
 ## Directions
 
-1. In a medium saucepan, combine water, orange juice, orange zest and sugar over medium heat. Cook, stirring occasionally, until the sugar has dissolved.
-2. Stir in cranberries and bring to a boil; reduce heat and let simmer until sauce has thickened, about 15 minutes.
-3. Let cool completely before serving.
+1.  **Dissolve:** In a medium saucepan, combine the water, orange juice, orange zest, and sugar. Cook over medium heat until the sugar is completely dissolved.
+2.  **Pop:** Stir in the fresh cranberries. Bring to a boil.
+3.  **Simmer:** Reduce heat to low and simmer for 10-15 minutes. You will hear the cranberries "pop"—this is the pectin releasing to thicken the sauce.
+4.  **Cool:** Remove from heat. The sauce will continue to thicken significantly as it cools.
+5.  **Serve:** Serve at room temperature or chilled.
+
+## Serving Suggestions
+
+- [Good Eats Roast Turkey](/recipes/good-eats-roast-turkey)
+- [Corn Bread Dressing](/recipes/corn-bread-dressing)
+- Leftover Turkey Sandwiches

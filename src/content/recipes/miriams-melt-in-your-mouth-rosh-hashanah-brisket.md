@@ -1,23 +1,40 @@
 ---
 title: Miriam’s Melt-In-Your-Mouth Rosh Hashanah Brisket
-servings: 'Yields: approximately 40 thin slices'
-ingredients:
-  - 3 lb. first-cut brisket
-  - 2 tbsp. paprika
-  - 2 tbsp. garlic powder
-  - 2 tbsp. dried chives (optional)
-  - 1 tbsp. salt
-  - 2 large Spanish onions
-  - ½ cup balsamic vinegar
-  - ⅓ cup honey
 role: main
 vibe: holiday
+prepTime: 30 min
+cookTime: 5 hours
+totalTime: 12 hours
+servings: '12'
+ingredients:
+  - '3 lb. First-cut Brisket (well-marbled)'
+  - '2 large Spanish Onions, sliced into thick rounds'
+  - '--- The Spice Rub ---'
+  - '2 tbsp Paprika'
+  - '2 tbsp Garlic Powder'
+  - '1 tbsp Kosher Salt'
+  - '2 tbsp Dried Chives (optional)'
+  - '--- The Braise ---'
+  - '1/2 cup Balsamic Vinegar'
+  - '1/3 cup Honey'
 ---
+
+## Chef's Note
+
+This is a "Heritage Keeper." The recipe utilizes a classic Jewish technique: starting the brisket at high heat (400°F) to simultaneously sear the meat and caramelize the onions without a separate pan. We then drop the temperature to 250°F for a long, slow braise. The **Balsamic and Honey** provide the acid/sugar balance that breaks down the tough connective tissue into a "melt-in-your-mouth" texture. Always slice against the grain for maximum tenderness.
 
 ## Directions
 
-1. Slice the onions in rounds. Place them in the bottom of a baking dish.
-2. Combine the paprika, garlic powder, chives and salt in a small bowl. Cover the brisket with the spice mixture. Pat it in gently until the meat can hold no more.
-3. Place the meat on top of the onions and put it into the oven at 400° F for 1 hour.
-4. Take the pan out of the oven, add the balsamic vinegar and honey, and cover the baking dish tightly. Return the pan to the oven, lower the temperature to 250° F, and cook for another 4 hours, until the meat is fork tender.
-5. Refrigerate the meat until completely cold (preferably overnight), then cut in thin slices against the grain. Return the sliced meat to the sauce. Reheat in the oven, or over a low flame. Serve with the onions and sauce.
+1.  **Foundation:** Preheat oven to 400°F. Lay the onion rounds in a single layer at the bottom of a heavy baking dish or Dutch oven.
+2.  **Rub:** In a small bowl, mix the paprika, garlic powder, salt, and chives. Rub the mixture aggressively into every surface of the brisket.
+3.  **The High Sear:** Place the brisket on top of the onions. Roast uncovered for 1 hour. This builds the "bark" and browns the onions.
+4.  **The Braise:** Remove from oven. Pour the balsamic vinegar and honey over the meat. Cover the dish **extremely tightly** with a heavy lid or double layer of foil.
+5.  **Low & Slow:** Lower the oven temperature to 250°F. Return the brisket to the oven and cook for 4 more hours until fork-tender.
+6.  **The Chill (Optional but Recommended):** Let the meat cool in its juices, then refrigerate overnight. This allows the fat to be easily removed and the meat to be sliced perfectly thin.
+7.  **Serve:** Slice against the grain. Return to the sauce and reheat gently before serving.
+
+## Serving Suggestions
+
+- [Nana's Biscuits](/recipes/nanas-biscuits)
+- Roasted Root Vegetables
+- [Nana Ruth's Applesauce](/recipes/nana-ruths-applesauce)

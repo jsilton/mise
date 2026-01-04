@@ -1,33 +1,40 @@
 ---
-title: Corn Bread Dressing
+title: Corn Bread Dressing (Silton Family Style)
+role: side
+vibe: holiday
+prepTime: 30 min
+cookTime: 60 min
+totalTime: 90 min
+servings: '8'
 ingredients:
-  - 1 8x8 tray corn bread (made from box or from store)
-  - 1-1.5 cups of chicken stock or canned broth (no salt added)
-  - 3/4 cup unsalted butter
-  - '4 shallots, finely chopped'
-  - '2 large garlic cloves, finely chopped'
-  - '1/4 lb button mushrooms, diced'
-  - 1/4 cup diced celery
-  - 2 tablespoons chopped fresh parsley
-  - 1 tablespoon fresh thyme leaves
-  - 1/4 teaspoon ground sage
-  - kosher salt
-  - freshly ground pepper
-role: base
-vibe: fuel
-servings: Unknown
+  - '1 tray (8x8) Cornbread, cut into 3/4-inch cubes'
+  - '3/4 cup Unsalted Butter'
+  - '4 Shallots, finely chopped'
+  - '2 cloves Garlic, minced'
+  - '1/4 lb Button Mushrooms, diced'
+  - '1/4 cup Celery, diced'
+  - '2 tbsp Fresh Parsley, chopped'
+  - '1 tbsp Fresh Thyme'
+  - '1/4 tsp Ground Sage'
+  - '1.5 cups Chicken Stock (No salt added)'
+  - 'Salt and Black Pepper'
 ---
+
+## Chef's Note
+
+The secret to this family classic is **Texture Integrity**. Most dressings are soggy; we solve this by specifically **baking the cornbread cubes** to dry them out before they hit the stock. This allows the cubes to absorb the mushroom and shallot butter like a sponge while maintaining their individual shape.
 
 ## Directions
 
-1. Cut corn bread into ¾ inch cubes. Place on baking sheet. Bake at 350 until edges form crust, stirring occasionally, about 25 minutes. Cool completely. (Can be prepared 2 days ahead.)
-2. Melt ¾ cup butter in heavy large skillet over medium heat.
-3. Add shallots and garlic and cook until softened, stirring occasionally, about 6 minutes.
-4. Add button mushrooms and celery and sauté 3 minutes.
-5. Add parsley, thyme and sage.
-6. Coarsely crumble corn bread into large bowl.
-7. Add mushroom and herb mixture.
-8. Moisten with broth just to hold crumbs together.
-9. Season with salt and pepper.
-10. Spoon into buttered 9x11x2 inch baking dish.(Can be prepared 1 day ahead. Chill. Bring dressing to room temparture.)
-11. Preheat over to 350 degrees. Bake dressing until golden brown, about 30 minutes.
+1.  **Dry the Bread:** Preheat oven to 350°F. Spread cornbread cubes on a baking sheet. Bake for 20-25 minutes until the edges are golden and the cubes feel like croutons. Cool completely.
+2.  **The Base:** Melt the butter in a large skillet over medium heat. Sauté shallots and garlic until soft (6 mins).
+3.  **The Veg:** Add mushrooms and celery. Cook for 5 minutes until the mushrooms have released their liquid and are browned.
+4.  **Aromatics:** Stir in parsley, thyme, and sage. Remove from heat.
+5.  **Combine:** In a large bowl, toss the dried cornbread with the mushroom mixture.
+6.  **Moisten:** Gradually pour in the chicken stock, tossing gently, until the bread is moist but not swimming in liquid. Season with salt and pepper.
+7.  **Bake:** Transfer to a buttered baking dish. Bake at 350°F for 30 minutes until the top is crispy and golden.
+
+## Serving Suggestions
+
+- [Good Eats Roast Turkey](/recipes/good-eats-roast-turkey)
+- [Spiced Butternut Squash Purée](/recipes/spiced-butternut-squash-puree)

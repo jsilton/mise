@@ -1,37 +1,47 @@
 ---
-title: Good Eats Roast Turkey
-prepTime: 15 min
-cookTime: 150 min
-servings: 'Yield: 10 to 12 servings'
-ingredients:
-  - 1 (14 to 16 pound) frozen young turkey
-  - 1 cup kosher salt
-  - 1/2 cup light brown sugar
-  - 1 gallon vegetable stock
-  - 1 tablespoon black peppercorns
-  - 1 1/2 teaspoons allspice berries
-  - 1 1/2 teaspoons chopped candied ginger
-  - 1 gallon heavily iced water
-  - '1 red apple, sliced'
-  - '1/2 onion, sliced'
-  - 1 cinnamon stick
-  - 1 cup water
-  - 4 sprigs rosemary
-  - 6 leaves sage
-  - Canola oil
-totalTime: 165 min
+title: Good Eats Roast Turkey (The Alton Brown Standard)
 role: main
 vibe: holiday
+prepTime: 30 min
+cookTime: 2.5 hours
+totalTime: 3 days
+servings: '12'
+ingredients:
+  - '1 (14-16 lb) Young Turkey, thawed'
+  - '--- The Brine ---'
+  - '1 cup Kosher Salt'
+  - '1/2 cup Light Brown Sugar'
+  - '1 gallon Vegetable Stock'
+  - '1 tbsp Black Peppercorns'
+  - '1 1/2 tsp Allspice Berries'
+  - '1 1/2 tsp Candied Ginger, chopped'
+  - '1 gallon Heavily Iced Water'
+  - '--- The Aromatics ---'
+  - '1 Red Apple, sliced'
+  - '1/2 Onion, sliced'
+  - '1 Cinnamon Stick'
+  - '4 sprigs Fresh Rosemary'
+  - '6 leaves Fresh Sage'
+  - 'Canola Oil (for coating)'
 ---
+
+## Chef's Note
+
+This is the scientifically superior method for roast turkey. **The Brine** uses osmosis to drive moisture and seasoning deep into the breast meat, while the **High-Heat Blast** (500°F) at the start triggers massive Maillard browning for crispy skin. We skip the traditional "stuffing" inside the bird (which slows down cooking and dries out the meat) and instead use aromatics to steam the interior with flavor.
 
 ## Directions
 
-1. 2 to 3 days before roasting:
-2. Begin thawing the turkey in the refrigerator or in a cooler kept at 38 degrees F.
-3. Combine the vegetable stock, salt, brown sugar, peppercorns, allspice berries, and candied ginger in a large stockpot over medium-high heat. Stir occasionally to dissolve solids and bring to a boil. Then remove the brine from the heat, cool to room temperature, and refrigerate.
-4. Early on the day or the night before you'd like to eat:
-5. Combine the brine, water and ice in the 5-gallon bucket. Place the thawed turkey (with innards removed) breast side down in brine. If necessary, weigh down the bird to ensure it is fully immersed, cover, and refrigerate or set in cool area for 8 to 16 hours, turning the bird once half way through brining.
-6. Preheat the oven to 500 degrees F. Remove the bird from brine and rinse inside and out with cold water. Discard the brine.
-7. Place the bird on roasting rack inside a half sheet pan and pat dry with paper towels.
-8. Combine the apple, onion, cinnamon stick, and 1 cup of water in a microwave safe dish and microwave on high for 5 minutes. Add steeped aromatics to the turkey's cavity along with the rosemary and sage. Tuck the wings underneath the bird and coat the skin liberally with canola oil.
-9. Roast the turkey on lowest level of the oven at 500 degrees F for 30 minutes. Insert a probe thermometer into thickest part of the breast and reduce the oven temperature to 350 degrees F. Set the thermometer alarm (if available) to 161 degrees F. A 14 to 16 pound bird should require a total of 2 to 2 1/2 hours of roasting. Let the turkey rest, loosely covered with foil or a large mixing bowl for 15 minutes before carving.
+1.  **The Brine (2-3 days before):** Combine stock, salt, sugar, peppercorns, allspice, and ginger in a pot. Bring to a boil to dissolve solids. Cool to room temp and refrigerate.
+2.  **The Soak:** 16 hours before roasting, combine the chilled brine with the ice water in a large bucket. Submerge the turkey breast-side down. Refrigerate for 8-16 hours.
+3.  **Prep:** Preheat oven to 500°F. Remove bird from brine, rinse with cold water, and **pat bone-dry** (moisture kills the crisp).
+4.  **Aromatics:** Microwave the apple, onion, cinnamon, and 1 cup water for 5 minutes. Stuff these into the cavity along with the herbs. Tuck the wings under the bird.
+5.  **Coat:** Rub the entire skin liberally with canola oil.
+6.  **The Blast:** Roast on the lowest rack at 500°F for 30 minutes.
+7.  **The Finish:** Insert a probe thermometer into the thickest part of the breast. Reduce oven to 350°F. Roast until the internal temp hits 161°F (about 2-2.5 hours total).
+8.  **Rest:** Let rest for at least 15 minutes before carving. Carryover heat will take it to the safe 165°F.
+
+## Serving Suggestions
+
+- [Corn Bread Dressing](/recipes/corn-bread-dressing)
+- [Cranberry Orange Sauce](/recipes/cranberry-orange-sauce)
+- [Spiced Butternut Squash Purée](/recipes/spiced-butternut-squash-puree)
