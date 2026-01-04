@@ -4,11 +4,15 @@ origin: Korea
 difficulty: easy
 cookingMethods: [grill]
 dietary: [vegetarian]
-occasions: []
+occasions: [weeknight, light-and-fresh]
 flavorProfile: [spicy, sweet, savory, acidic, umami]
 cuisines: [Korean]
 role: side
 vibe: nutritious
+season: [spring, summer, fall, winter]
+leftovers: good
+healthiness: light
+pairsWith: [bibimbap, korean-bbq, rice-bowls, tacos]
 prepTime: 10 min
 cookTime: 0 min
 totalTime: 30 min

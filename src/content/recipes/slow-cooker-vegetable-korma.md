@@ -3,11 +3,15 @@ title: Slow Cooker Vegetable Korma
 difficulty: intermediate
 cookingMethods: [braise, slow-cook]
 dietary: [vegetarian]
-occasions: []
+occasions: [weekend-project, entertaining, make-ahead]
 flavorProfile: [rich]
 cuisines: [Indian]
 role: side
 vibe: nutritious
+season: [fall, winter]
+leftovers: excellent
+healthiness: moderate
+pairsWith: [rice, naan, biryani, indian-food]
 prepTime: 15 min
 cookTime: 300 min
 totalTime: 315 min

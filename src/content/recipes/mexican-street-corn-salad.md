@@ -4,11 +4,15 @@ origin: Mexico
 difficulty: easy
 cookingMethods: [grill, boil]
 dietary: []
-occasions: []
+occasions: [weeknight, entertaining, light-and-fresh]
 flavorProfile: [spicy, sweet, acidic, rich]
 cuisines: [Mexican]
 role: side
 vibe: quick
+season: [summer]
+leftovers: good
+healthiness: moderate
+pairsWith: [grilled-chicken, steak, fish, tacos]
 prepTime: 10 min
 cookTime: 10 min
 totalTime: 20 min

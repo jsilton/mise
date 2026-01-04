@@ -4,11 +4,15 @@ origin: Korea
 difficulty: intermediate
 cookingMethods: [boil]
 dietary: [vegetarian]
-occasions: []
+occasions: [weeknight, light-and-fresh]
 flavorProfile: [savory]
 cuisines: [Korean]
 role: side
 vibe: nutritious
+season: [spring, summer, fall, winter]
+leftovers: good
+healthiness: light
+pairsWith: [bibimbap, korean-bbq, rice-bowls]
 prepTime: 5 min
 cookTime: 5 min
 totalTime: 10 min

@@ -3,11 +3,15 @@ title: Arugula & Feta Salad with Strawberry Vinaigrette
 difficulty: easy
 cookingMethods: [roast, grill, blend]
 dietary: [nut-free]
-occasions: []
+occasions: [light-and-fresh, quick-lunch, entertaining]
 flavorProfile: [sweet, acidic, rich]
 cuisines: [Mediterranean]
 role: side
 vibe: nutritious
+season: [spring, summer]
+leftovers: poor
+healthiness: light
+pairsWith: [grilled-chicken, salmon, steak]
 prepTime: 10 min
 cookTime: 0 min
 totalTime: 10 min

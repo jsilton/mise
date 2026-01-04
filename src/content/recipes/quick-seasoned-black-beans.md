@@ -3,11 +3,15 @@ title: Seasoned Black Beans
 difficulty: easy
 cookingMethods: [simmer]
 dietary: []
-occasions: []
+occasions: [weeknight, quick-lunch]
 flavorProfile: [sweet, acidic, rich]
 cuisines: [Mexican]
 role: side
 vibe: quick
+season: [spring, summer, fall, winter]
+leftovers: excellent
+healthiness: moderate
+pairsWith: [tacos, enchiladas, rice, grilled-chicken]
 prepTime: 2 min
 cookTime: 10 min
 totalTime: 12 min

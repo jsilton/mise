@@ -3,11 +3,15 @@ title: 'Kale Salad with Mango, Avocado and Feta'
 difficulty: intermediate
 cookingMethods: [grill]
 dietary: []
-occasions: []
+occasions: [light-and-fresh, quick-lunch, entertaining]
 flavorProfile: [sweet, rich]
 cuisines: [Mediterranean]
 role: side
 vibe: nutritious
+season: [spring, summer]
+leftovers: poor
+healthiness: light
+pairsWith: [grilled-chicken, fish, shrimp]
 prepTime: 15 min
 cookTime: 0 min
 totalTime: 15 min

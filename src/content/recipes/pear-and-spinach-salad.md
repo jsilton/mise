@@ -3,11 +3,15 @@ title: Pear & Spinach Salad
 difficulty: easy
 cookingMethods: [roast, no-cook]
 dietary: []
-occasions: []
+occasions: [light-and-fresh, quick-lunch, entertaining, holiday]
 flavorProfile: [sweet, acidic]
 cuisines: [Mediterranean]
 role: side
 vibe: nutritious
+season: [fall, winter]
+leftovers: poor
+healthiness: light
+pairsWith: [roasted-chicken, pork, turkey]
 prepTime: 15 min
 cookTime: 0 min
 totalTime: 25 min

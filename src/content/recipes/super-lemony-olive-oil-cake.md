@@ -3,11 +3,15 @@ title: Super Lemony Olive Oil Cake
 difficulty: intermediate
 cookingMethods: [bake]
 dietary: [vegetarian]
-occasions: []
+occasions: [entertaining, weekend-project, light-and-fresh]
 flavorProfile: [sweet, acidic, rich]
 cuisines: [Mediterranean]
 role: dessert
 vibe: technical
+season: [spring, summer]
+leftovers: excellent
+healthiness: moderate
+makeAhead: true
 prepTime: 15 min
 cookTime: 50 min
 totalTime: 65 min

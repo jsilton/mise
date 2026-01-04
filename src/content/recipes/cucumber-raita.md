@@ -5,11 +5,15 @@ aliases:
 difficulty: easy
 cookingMethods: []
 dietary: []
-occasions: []
+occasions: [weeknight, quick-lunch]
 flavorProfile: [spicy, sweet]
 cuisines: [Indian]
 role: side
 vibe: quick
+season: [spring, summer, fall, winter]
+leftovers: poor
+healthiness: light
+pairsWith: [curry, biryani, indian-food]
 prepTime: 10 min
 cookTime: 0 min
 totalTime: 10 min

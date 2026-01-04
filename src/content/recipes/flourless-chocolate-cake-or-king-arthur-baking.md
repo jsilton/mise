@@ -3,11 +3,15 @@ title: Flourless Chocolate Cake
 difficulty: easy
 cookingMethods: [bake, steam]
 dietary: [vegetarian, gluten-free]
-occasions: []
+occasions: [holiday, entertaining, weekend-project, indulgent]
 flavorProfile: [sweet, rich]
 cuisines: [French]
 role: dessert
 vibe: technical
+season: [spring, summer, fall, winter]
+leftovers: excellent
+healthiness: hearty
+makeAhead: true
 prepTime: 20 min
 cookTime: 25 min
 totalTime: 45 min

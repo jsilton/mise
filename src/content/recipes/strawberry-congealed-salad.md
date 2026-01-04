@@ -3,11 +3,15 @@ title: Strawberry Orange Jello Salad
 difficulty: intermediate
 cookingMethods: [roast, boil]
 dietary: [vegetarian]
-occasions: []
+occasions: [holiday, entertaining, make-ahead]
 flavorProfile: [sweet, acidic, rich]
 cuisines: [Southern]
 role: side
 vibe: nutritious
+season: [spring, summer]
+leftovers: excellent
+healthiness: moderate
+pairsWith: [ham, turkey, fried-chicken]
 prepTime: 15 min
 cookTime: 0 min
 totalTime: 240 min

@@ -3,11 +3,15 @@ title: Peach Salad with Tomatoes & Beets
 difficulty: easy
 cookingMethods: [bake, roast, grill, no-cook]
 dietary: []
-occasions: []
+occasions: [light-and-fresh, entertaining, weekend-project]
 flavorProfile: [sweet, acidic, rich]
 cuisines: [Mediterranean]
 role: side
 vibe: nutritious
+season: [summer]
+leftovers: good
+healthiness: light
+pairsWith: [grilled-chicken, pork, fish]
 prepTime: 25 min
 cookTime: 60 min
 totalTime: 85 min

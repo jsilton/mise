@@ -3,11 +3,15 @@ title: Everyday Arugula Salad
 difficulty: easy
 cookingMethods: []
 dietary: []
-occasions: []
+occasions: [weeknight, light-and-fresh, quick-lunch]
 flavorProfile: [acidic, umami, rich]
 cuisines: [Mediterranean]
 role: side
 vibe: quick
+season: [spring, summer, fall, winter]
+leftovers: poor
+healthiness: light
+pairsWith: [grilled-chicken, salmon, steak, pork]
 prepTime: 5 min
 cookTime: 0 min
 totalTime: 5 min

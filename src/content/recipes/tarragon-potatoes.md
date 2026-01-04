@@ -3,11 +3,15 @@ title: Tarragon Potatoes
 difficulty: easy
 cookingMethods: [bake, roast]
 dietary: []
-occasions: []
+occasions: [weeknight, entertaining, holiday]
 flavorProfile: [acidic, rich]
 cuisines: [French]
 role: side
 vibe: nutritious
+season: [spring, summer, fall, winter]
+leftovers: good
+healthiness: moderate
+pairsWith: [roasted-chicken, fish, pork, lamb]
 prepTime: 10 min
 cookTime: 45 min
 totalTime: 55 min

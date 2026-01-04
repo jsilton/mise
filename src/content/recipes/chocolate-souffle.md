@@ -3,11 +3,15 @@ title: Chocolate Soufflé
 difficulty: easy
 cookingMethods: [bake, simmer]
 dietary: [vegetarian]
-occasions: []
+occasions: [entertaining, weekend-project, indulgent, date-night]
 flavorProfile: [sweet, rich]
 cuisines: [French]
 role: dessert
 vibe: technical
+season: [spring, summer, fall, winter]
+leftovers: poor
+healthiness: hearty
+makeAhead: false
 prepTime: 20 min
 cookTime: 25 min
 totalTime: 45 min

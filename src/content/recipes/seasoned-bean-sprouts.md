@@ -3,11 +3,15 @@ title: Seasoned Bean Sprouts (Kongnamul Namul)
 difficulty: intermediate
 cookingMethods: [steam]
 dietary: [vegetarian]
-occasions: []
+occasions: [weeknight, light-and-fresh]
 flavorProfile: [savory, umami]
 cuisines: [Korean]
 role: side
 vibe: quick
+season: [spring, summer, fall, winter]
+leftovers: good
+healthiness: light
+pairsWith: [bibimbap, korean-bbq, rice-bowls]
 prepTime: 5 min
 cookTime: 5 min
 totalTime: 10 min

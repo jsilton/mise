@@ -3,11 +3,15 @@ title: Korean Spinach Salad (Sigeumchi Namul)
 difficulty: intermediate
 cookingMethods: [boil]
 dietary: [vegetarian]
-occasions: []
+occasions: [weeknight, light-and-fresh]
 flavorProfile: [savory]
 cuisines: [Korean]
 role: side
 vibe: nutritious
+season: [spring, summer, fall, winter]
+leftovers: good
+healthiness: light
+pairsWith: [bibimbap, korean-bbq, rice-bowls]
 prepTime: 5 min
 cookTime: 10 min
 totalTime: 15 min

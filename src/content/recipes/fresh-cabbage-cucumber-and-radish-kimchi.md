@@ -3,11 +3,15 @@ title: 'Fresh Cabbage, Cucumber and Radish Kimchi'
 difficulty: intermediate
 cookingMethods: [blend]
 dietary: []
-occasions: []
+occasions: [weekend-project, make-ahead]
 flavorProfile: [sweet, acidic]
 cuisines: [Korean]
 role: side
 vibe: technical
+season: [spring, summer, fall, winter]
+leftovers: excellent
+healthiness: light
+pairsWith: [bibimbap, korean-bbq, rice-bowls, tacos]
 prepTime: 30 min
 cookTime: 345 min
 totalTime: 375 min

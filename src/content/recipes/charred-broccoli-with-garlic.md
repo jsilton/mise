@@ -3,11 +3,15 @@ title: Charred Broccoli
 difficulty: easy
 cookingMethods: [steam]
 dietary: []
-occasions: []
+occasions: [weeknight, light-and-fresh]
 flavorProfile: [sweet, savory, acidic, umami, rich]
 cuisines: [Chinese]
 role: side
 vibe: quick
+season: [fall, winter, spring]
+leftovers: poor
+healthiness: light
+pairsWith: [chicken, beef, pork, fish]
 prepTime: 5 min
 cookTime: 10 min
 totalTime: 15 min
