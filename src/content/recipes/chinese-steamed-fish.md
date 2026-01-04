@@ -4,7 +4,7 @@ origin: China
 difficulty: easy
 cookingMethods: [steam]
 dietary: []
-occasions: []
+occasions: [weeknight, entertaining, light-and-fresh]
 flavorProfile: [sweet, savory, umami]
 cuisines: [Chinese]
 role: main
@@ -13,6 +13,11 @@ prepTime: 10 min
 cookTime: 10 min
 totalTime: 20 min
 servings: '4'
+seasons: [year-round]
+nutritionalDensity: light
+leftovers: poor
+equipment: [bamboo-steamer]
+pairsWith: [basmati-rice, garlic-sesame-spinach, stir-fried-greens]
 ingredients:
   - '1 Whole Fish (Snapper or Sea Bass), 1.5 lbs'
   - '2-inch piece Fresh Ginger, julienned'

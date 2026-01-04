@@ -3,7 +3,7 @@ title: Soy Sauce Butter Pasta with Shrimp
 difficulty: intermediate
 cookingMethods: [sauté, simmer, boil]
 dietary: []
-occasions: []
+occasions: [weeknight, date-night]
 flavorProfile: [savory, umami, rich, herbaceous]
 cuisines: [Chinese]
 role: main
@@ -12,6 +12,11 @@ prepTime: 10 min
 cookTime: 20 min
 totalTime: 30 min
 servings: '4'
+seasons: [year-round]
+nutritionalDensity: moderate
+leftovers: good
+equipment: []
+pairsWith: [green-salad, garlic-bread]
 ingredients:
   - 10 oz Thin Spaghetti or Angel Hair
   - '8 oz Shrimp, peeled and deveined'

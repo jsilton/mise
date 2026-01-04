@@ -3,7 +3,7 @@ title: "Slow Cooker General Tso's Chicken"
 difficulty: easy
 cookingMethods: [fry, steam, slow-cook]
 dietary: []
-occasions: [comfort-food]
+occasions: [meal-prep, comfort-food, weeknight]
 flavorProfile: [sweet, savory, acidic, umami]
 cuisines: [Chinese]
 role: main
@@ -12,6 +12,11 @@ prepTime: 15 min
 cookTime: 240 min
 totalTime: 255 min
 servings: '4'
+seasons: [year-round]
+nutritionalDensity: hearty
+leftovers: excellent
+equipment: [slow-cooker]
+pairsWith: [basmati-rice, steamed-broccoli, garlic-sesame-spinach]
 ingredients:
   - '2 lbs Chicken Breasts, chopped into bite-sized pieces'
   - '1 cup Cornstarch (as binder)'

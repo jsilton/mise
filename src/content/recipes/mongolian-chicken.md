@@ -3,7 +3,7 @@ title: Mongolian Chicken
 difficulty: easy
 cookingMethods: [fry, sauté, simmer, boil, steam]
 dietary: []
-occasions: []
+occasions: [weeknight, kids-approved, meal-prep]
 flavorProfile: [spicy, sweet, savory, umami]
 cuisines: [Chinese]
 role: main
@@ -12,6 +12,11 @@ prepTime: 25 min
 cookTime: 10 min
 totalTime: 35 min
 servings: '4'
+seasons: [year-round]
+nutritionalDensity: moderate
+leftovers: excellent
+equipment: [wok]
+pairsWith: [basmati-rice, steamed-broccoli, garlic-sesame-spinach]
 ingredients:
   - '12 oz Chicken Breast or Thighs, sliced 1/4-inch thick'
   - 1/4 cup Cornstarch

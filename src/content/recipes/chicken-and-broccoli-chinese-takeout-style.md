@@ -3,7 +3,7 @@ title: Chicken and Broccoli
 difficulty: easy
 cookingMethods: [fry, sauté, steam]
 dietary: []
-occasions: []
+occasions: [weeknight, kids-approved, quick-lunch]
 flavorProfile: [sweet, savory, umami]
 cuisines: [Chinese]
 role: main
@@ -12,6 +12,11 @@ prepTime: 15 min
 cookTime: 10 min
 totalTime: 25 min
 servings: '4'
+seasons: [year-round]
+nutritionalDensity: moderate
+leftovers: excellent
+equipment: [wok]
+pairsWith: [basmati-rice, egg-roll]
 ingredients:
   - '1 lb Chicken Breast, sliced thin against the grain'
   - 1 tbsp Shaoxing Wine

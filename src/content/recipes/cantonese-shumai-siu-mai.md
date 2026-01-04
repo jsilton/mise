@@ -4,7 +4,7 @@ origin: China
 difficulty: intermediate
 cookingMethods: [boil, steam]
 dietary: []
-occasions: []
+occasions: [weekend-project, entertaining]
 flavorProfile: [spicy, sweet, savory, umami]
 cuisines: [Chinese]
 role: main
@@ -13,6 +13,12 @@ prepTime: 60 min
 cookTime: 10 min
 totalTime: 70 min
 servings: 25 shumai
+seasons: [year-round]
+nutritionalDensity: moderate
+leftovers: excellent
+advancePrep: [make-ahead, freeze-ahead]
+equipment: [bamboo-steamer]
+pairsWith: [soy-sauce-dipping, chili-oil]
 ingredients:
   - 1/2 lb Ground Pork (80/20 fat ratio)
   - '1/2 lb Shrimp, peeled and deveined (finely chopped)'

@@ -4,7 +4,7 @@ origin: China
 difficulty: easy
 cookingMethods: [sauté, steam]
 dietary: []
-occasions: []
+occasions: [weeknight, quick-lunch, summer]
 flavorProfile: [spicy, rich]
 cuisines: [Chinese]
 role: main
@@ -13,6 +13,11 @@ prepTime: 15 min
 cookTime: 10 min
 totalTime: 25 min
 servings: '4'
+seasons: [summer, fall, year-round]
+nutritionalDensity: light
+leftovers: good
+equipment: [wok]
+pairsWith: [basmati-rice, pork-chops, chicken-breast]
 ingredients:
   - '1 lb Chinese Eggplant (the long, thin ones), cut into 2-inch batons'
   - 1/4 cup Cornstarch (for dredging)

@@ -3,7 +3,7 @@ title: General Tso's Tofu
 difficulty: easy
 cookingMethods: [fry, sauté, simmer, boil]
 dietary: [vegetarian]
-occasions: []
+occasions: [weeknight, quick-lunch, meal-prep]
 flavorProfile: [spicy, sweet, savory, acidic, umami]
 cuisines: [Chinese]
 role: main
@@ -12,6 +12,11 @@ prepTime: 15 min
 cookTime: 20 min
 totalTime: 35 min
 servings: '4'
+seasons: [year-round]
+nutritionalDensity: moderate
+leftovers: excellent
+equipment: [large-skillet]
+pairsWith: [basmati-rice, steamed-broccoli, garlic-sesame-spinach]
 ingredients:
   - '1 lb Extra-firm Tofu, pressed dry and cut into 1-inch squares'
   - 1 1/2 tbsp Honey

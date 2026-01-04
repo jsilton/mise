@@ -3,7 +3,7 @@ title: Sticky Peking Meatballs
 difficulty: easy
 cookingMethods: [fry, sauté, simmer, boil]
 dietary: []
-occasions: []
+occasions: [weeknight, quick-lunch, kids-approved]
 flavorProfile: [acidic, herbaceous]
 cuisines: [Chinese]
 role: main
@@ -12,6 +12,11 @@ prepTime: 10 min
 cookTime: 25 min
 totalTime: 35 min
 servings: '5'
+seasons: [year-round]
+nutritionalDensity: hearty
+leftovers: excellent
+equipment: []
+pairsWith: [steamed-broccoli, stir-fried-vegetables]
 ingredients:
   - 1.5 lbs Frozen Beef Meatballs (approx. 24)
   - 1.5 cups Jasmine Rice

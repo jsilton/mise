@@ -3,7 +3,7 @@ title: Glazed Chicken & Broccoli Sheet Pan Dinner
 difficulty: easy
 cookingMethods: [bake, roast, steam]
 dietary: []
-occasions: [comfort-food]
+occasions: [weeknight, comfort-food, meal-prep]
 flavorProfile: [savory]
 cuisines: [Chinese]
 role: main
@@ -12,6 +12,11 @@ prepTime: 15 min
 cookTime: 45 min
 totalTime: 60 min
 servings: '2'
+seasons: [year-round]
+nutritionalDensity: hearty
+leftovers: good
+equipment: [sheet-pan]
+pairsWith: [basmati-rice, side-salad]
 ingredients:
   - '4 Chicken Drumsticks, skin-on'
   - '3/4 lb Fingerling Potatoes, halved'

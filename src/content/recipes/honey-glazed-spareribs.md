@@ -5,7 +5,7 @@ aliases:
 difficulty: easy
 cookingMethods: [boil, blend]
 dietary: []
-occasions: [comfort-food]
+occasions: [entertaining, comfort-food, indulgent]
 flavorProfile: [sweet, savory, umami, smoky]
 cuisines: [Chinese]
 role: main
@@ -14,6 +14,11 @@ prepTime: 15 min
 cookTime: 30 min
 totalTime: 60 min
 servings: '4'
+seasons: [year-round, summer]
+nutritionalDensity: hearty
+leftovers: excellent
+equipment: []
+pairsWith: [basmati-rice, coleslaw, corn-on-cob]
 ingredients:
   - '2 racks Pork Spareribs (4 lbs), cut into 3-rib sections'
   - 1/2 cup Hoisin Sauce

@@ -3,7 +3,7 @@ title: Speedy Chinese Eggplant
 difficulty: easy
 cookingMethods: [fry, sauté, boil, steam]
 dietary: [vegetarian]
-occasions: []
+occasions: [weeknight, quick-lunch, summer]
 flavorProfile: [spicy, sweet, savory, acidic, umami, rich]
 cuisines: [Chinese]
 role: side
@@ -12,6 +12,11 @@ prepTime: 5 min
 cookTime: 10 min
 totalTime: 15 min
 servings: '2'
+seasons: [summer, fall, year-round]
+nutritionalDensity: light
+leftovers: good
+equipment: [wok]
+pairsWith: [basmati-rice, general-tsos-chicken, mongolian-beef]
 ingredients:
   - '3 Chinese Eggplants, cut into 2-inch sticks'
   - '4 cloves Garlic, minced'

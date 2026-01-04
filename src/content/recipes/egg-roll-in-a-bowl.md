@@ -3,7 +3,7 @@ title: Egg Roll in a Bowl
 difficulty: easy
 cookingMethods: [fry]
 dietary: []
-occasions: []
+occasions: [weeknight, quick-lunch, light-and-fresh]
 flavorProfile: [spicy, savory, umami]
 cuisines: [Chinese]
 role: main
@@ -12,6 +12,11 @@ prepTime: 10 min
 cookTime: 10 min
 totalTime: 20 min
 servings: '4'
+seasons: [year-round]
+nutritionalDensity: light
+leftovers: good
+equipment: [large-skillet]
+pairsWith: [basmati-rice, steamed-rice]
 ingredients:
   - 1 lb Ground Pork (or Ground Turkey)
   - 1 bag (14 oz) Coleslaw Mix (shredded cabbage and carrots)

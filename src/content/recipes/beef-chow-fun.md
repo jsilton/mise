@@ -3,7 +3,7 @@ title: Beef Chow Fun
 difficulty: easy
 cookingMethods: [sauté]
 dietary: []
-occasions: [comfort-food]
+occasions: [weeknight, comfort-food, meal-prep]
 flavorProfile: [spicy, sweet, savory, umami]
 cuisines: [Chinese]
 role: main
@@ -12,6 +12,11 @@ prepTime: 20 min
 cookTime: 10 min
 totalTime: 30 min
 servings: '4'
+seasons: [year-round]
+nutritionalDensity: hearty
+leftovers: excellent
+equipment: [wok]
+pairsWith: [garlic-sesame-spinach, steamed-broccoli]
 ingredients:
   - '1 lb Flank Steak or Sirloin, sliced thin against the grain'
   - 1 tbsp Soy Sauce

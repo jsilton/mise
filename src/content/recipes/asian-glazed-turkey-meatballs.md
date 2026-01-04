@@ -3,7 +3,7 @@ title: Asian Glazed Turkey Meatballs
 difficulty: easy
 cookingMethods: [bake, fry, simmer, steam]
 dietary: []
-occasions: []
+occasions: [weeknight, meal-prep, kids-approved]
 flavorProfile: [savory, acidic, umami]
 cuisines: [Chinese]
 role: main
@@ -12,6 +12,12 @@ prepTime: 15 min
 cookTime: 20 min
 totalTime: 35 min
 servings: 24 meatballs
+seasons: [year-round]
+nutritionalDensity: moderate
+leftovers: excellent
+advancePrep: [make-ahead, freeze-ahead]
+equipment: [sheet-pan]
+pairsWith: [basmati-rice, steamed-broccoli, asian-slaw]
 ingredients:
   - 2 lbs Ground Turkey (93% lean)
   - 1 cup Panko Breadcrumbs
