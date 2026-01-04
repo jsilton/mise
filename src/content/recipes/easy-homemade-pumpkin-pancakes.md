@@ -21,6 +21,7 @@ ingredients:
 ---
 
 ## Chef's Note
+
 The secret to "Restaurant Quality" pumpkin pancakes is **Structural Science** through **The Lump Pattern**. Pumpkin puree adds significant weight and moisture; to prevent the pancakes from becoming rubbery, you must whisk the dry ingredients into the wet until **just combined**. If you whisk until smooth, you overwork the gluten and destroy the "Bounce." A few small lumps of flour are the mandatory guard against toughness.
 
 ## Directions
@@ -30,11 +31,12 @@ The secret to "Restaurant Quality" pumpkin pancakes is **Structural Science** th
 3.  **Combine:** Gradually add the dry mix to the pumpkin mixture. Stir with a spatula until the large clumps disappear. **Stop stirring immediately**—even if there are tiny lumps.
 4.  **The Rest:** Let the batter sit for 5 minutes while you heat the griddle (The Hydration Rest).
 5.  **Prep:** Heat a skillet or griddle over medium heat. Lightly grease with butter or oil spray.
-6.  **Pour:** Use a 1/4 cup scoop to drop batter onto the skillet. 
+6.  **Pour:** Use a 1/4 cup scoop to drop batter onto the skillet.
 7.  **Flip:** Cook for about 2 minutes until bubbles form on the surface and the edges look matte and dry. Flip and cook for 1-2 more minutes until golden brown.
 8.  **Serve:** Serve with salted butter and warm maple syrup.
 
 ## Serving Suggestions
--   [Everyday Arugula Salad](/recipes/everyday-arugula-salad) (for a savory-sweet brunch)
--   Toasted Pecans
--   [Easy Breakfast Yogurt Popsicles](/recipes/easy-breakfast-yogurt-popsicles)
+
+- [Everyday Arugula Salad](/recipes/everyday-arugula-salad) (for a savory-sweet brunch)
+- Toasted Pecans
+- [Easy Breakfast Yogurt Popsicles](/recipes/easy-breakfast-yogurt-popsicles)

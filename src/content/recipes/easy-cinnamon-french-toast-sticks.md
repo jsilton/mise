@@ -20,6 +20,7 @@ ingredients:
 ---
 
 ## Chef's Note
+
 The secret to French toast that isn't soggy is **Texture Integrity** through the **Day-Old Bread Pattern**. You must use bread that is slightly stale or dried out; this allows it to act like a sponge for the custard without losing its structure. We use **The High-Heat Crisp**: by cooking in foaming butter over medium heat, we create a caramelized "Snap" on all four sides of the stick, ensuring a "Bounce" in the center.
 
 ## Directions
@@ -32,6 +33,7 @@ The secret to French toast that isn't soggy is **Texture Integrity** through the
 6.  **Serve:** Serve hot with a side of warm maple syrup for dipping and fresh berries.
 
 ## Serving Suggestions
--   [Easy Breakfast Yogurt Popsicles](/recipes/easy-breakfast-yogurt-popsicles)
--   Crispy Bacon
--   [Old-Fashioned Strawberry Ice Cream](/recipes/old-fashioned-strawberry-ice-cream) (for a dessert twist)
+
+- [Easy Breakfast Yogurt Popsicles](/recipes/easy-breakfast-yogurt-popsicles)
+- Crispy Bacon
+- [Old-Fashioned Strawberry Ice Cream](/recipes/old-fashioned-strawberry-ice-cream) (for a dessert twist)

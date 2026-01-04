@@ -23,6 +23,7 @@ ingredients:
 ---
 
 ## Chef's Note
+
 This is a 15-minute "Speed" masterclass. The secret to the Silton Standard is **Texture Integrity** through the **Golden-Side Pattern**: stir-fry the eggplant alone until the white flesh turns a deep golden brown and the skin is purple-gold—this creates a smoky sweetness that boiling or steaming misses. The mandatory **Acid Finish** comes from **Chinkiang Vinegar**; its deep, malty acidity provides the "High Note" that balances the richness of the peanut oil and the savory garlic.
 
 ## Directions
@@ -35,6 +36,7 @@ This is a 15-minute "Speed" masterclass. The secret to the Silton Standard is **
 6.  **Serve:** Serve immediately over steamed rice.
 
 ## Serving Suggestions
--   [Basmati Rice](/recipes/basmati-rice)
--   [Smashed Cucumber Salad](/recipes/smashed-cucumber-salad)
--   [Chinese Sausage Fried Rice](/recipes/chinese-sausage-fried-rice)
+
+- [Basmati Rice](/recipes/basmati-rice)
+- [Smashed Cucumber Salad](/recipes/smashed-cucumber-salad)
+- [Chinese Sausage Fried Rice](/recipes/chinese-sausage-fried-rice)

@@ -16,7 +16,8 @@ ingredients:
 ---
 
 ## Chef's Note
-These are the ultimate high-speed "Gold Standard" dessert. The secret to a professional finish is **Structural Science** through **The Cold Set Pattern**. You must chill the rolled balls for at least 30 minutes *before* dipping them in the hot chocolate; this creates an immediate "Snap" as the chocolate hits the cold surface, preventing the truffle from melting into the coating. We reserve a few cookies for the "High Note" garnish to provide a textural "Pop" against the silky chocolate.
+
+These are the ultimate high-speed "Gold Standard" dessert. The secret to a professional finish is **Structural Science** through **The Cold Set Pattern**. You must chill the rolled balls for at least 30 minutes _before_ dipping them in the hot chocolate; this creates an immediate "Snap" as the chocolate hits the cold surface, preventing the truffle from melting into the coating. We reserve a few cookies for the "High Note" garnish to provide a textural "Pop" against the silky chocolate.
 
 ## Directions
 
@@ -30,6 +31,7 @@ These are the ultimate high-speed "Gold Standard" dessert. The secret to a profe
 8.  **Finish:** Refrigerate for 1 hour to set the shell. Store in the fridge.
 
 ## Serving Suggestions
--   Fresh Sliced Strawberries
--   [Old-Fashioned Vanilla Ice Cream](/recipes/old-fashioned-vanilla-ice-cream)
--   Glass of Cold Milk or Espresso
+
+- Fresh Sliced Strawberries
+- [Old-Fashioned Vanilla Ice Cream](/recipes/old-fashioned-vanilla-ice-cream)
+- Glass of Cold Milk or Espresso

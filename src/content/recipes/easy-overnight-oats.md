@@ -20,6 +20,7 @@ ingredients:
 ---
 
 ## Chef's Note
+
 Overnight oats are the foundation of **Modularity** in our kitchen. The secret to the Silton Standard is the **8-Hour Hydration Pattern**: while 2 hours will work in a pinch, a full 8-hour soak allows the beta-glucans in the oats to fully emulsify with the yogurt and milk, creating a "Bounce" that is creamy rather than chalky. We use **The Greek Yogurt Hack** to provide sustained "Fuel" and a thick, pudding-like consistency. Always add your "Snap" ingredients (nuts, fresh fruit) just before eating to maintain **Texture Integrity**.
 
 ## Directions
@@ -32,6 +33,7 @@ Overnight oats are the foundation of **Modularity** in our kitchen. The secret t
 6.  **Store:** These will keep in the fridge for up to 5 days—perfect for Batch Cooking.
 
 ## Serving Suggestions
--   [Easy Breakfast Yogurt Popsicles](/recipes/easy-breakfast-yogurt-popsicles)
--   Fresh Sliced Fruit
--   [Blueberry Oat Breakfast Bars](/recipes/blueberry-oat-breakfast-bars)
+
+- [Easy Breakfast Yogurt Popsicles](/recipes/easy-breakfast-yogurt-popsicles)
+- Fresh Sliced Fruit
+- [Blueberry Oat Breakfast Bars](/recipes/blueberry-oat-breakfast-bars)

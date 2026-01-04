@@ -21,6 +21,7 @@ ingredients:
 ---
 
 ## Chef's Note
+
 This is the ultimate 25-minute "Speed" meal. The secret to making store-bought broth taste like a restaurant version is **The Aromatic Smasher Pattern**: instead of mincing ginger and garlic, we smash them with the side of a knife. This releases the essential oils into the broth during the simmer without adding gritty textures. We maintain **Texture Integrity** by adding the wontons and bok choy together at the end; this ensures the greens stay vibrant and the wonton skins keep their "Snap."
 
 ## Directions
@@ -32,6 +33,7 @@ This is the ultimate 25-minute "Speed" meal. The secret to making store-bought b
 5.  **Serve:** Divide into bowls, ensuring everyone gets 5 wontons. Garnish with fresh scallions.
 
 ## Serving Suggestions
--   [Smashed Cucumber Salad](/recipes/smashed-cucumber-salad)
--   [Chinese Sausage Fried Rice](/recipes/chinese-sausage-fried-rice)
--   [Chinese Eggplant with Garlic Sauce](/recipes/chinese-eggplant-with-garlic-sauce)
+
+- [Smashed Cucumber Salad](/recipes/smashed-cucumber-salad)
+- [Chinese Sausage Fried Rice](/recipes/chinese-sausage-fried-rice)
+- [Chinese Eggplant with Garlic Sauce](/recipes/chinese-eggplant-with-garlic-sauce)

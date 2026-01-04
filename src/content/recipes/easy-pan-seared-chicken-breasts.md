@@ -19,6 +19,7 @@ ingredients:
 ---
 
 ## Chef's Note
+
 This is the baseline for 15-minute "Speed" cooking. The secret to avoiding dry, tough chicken is **Texture Integrity** through the **Butterfly and Bone-Dry Patterns**. You must use thin-cut breasts or butterfly them yourself to ensure the meat cooks in exactly 8 minutes. Before dredging, pat the chicken with paper towels until it is **bone-dry**—this ensures the flour creates a shatteringly crisp "Snap" on the surface rather than a gummy paste.
 
 ## Directions
@@ -31,6 +32,7 @@ This is the baseline for 15-minute "Speed" cooking. The secret to avoiding dry, 
 6.  **Serve:** Let rest for 2 minutes before serving to preserve the juices.
 
 ## Serving Suggestions
--   [Near East Rice Pilaf Hack](/recipes/near-east-rice-pilaf-hack)
--   [Everyday Arugula Salad](/recipes/everyday-arugula-salad)
--   [Smashed Cucumber Salad](/recipes/smashed-cucumber-salad)
+
+- [Near East Rice Pilaf Hack](/recipes/near-east-rice-pilaf-hack)
+- [Everyday Arugula Salad](/recipes/everyday-arugula-salad)
+- [Smashed Cucumber Salad](/recipes/smashed-cucumber-salad)

@@ -16,6 +16,7 @@ ingredients:
 ---
 
 ## Chef's Note
+
 This is the universal Silton side dish. The secret to avoiding a wilted, soggy salad is **Structural Science** through **The Perimeter Drizzle Pattern**. You must never pour oil and lemon directly onto the leaves; instead, drizzle them around the inner rim of the bowl and toss from the bottom up. This ensures a thin, microscopic coating that maintains **Texture Integrity** and the "Snap" of the greens. The lemon provides the mandatory **High Note** that cuts through any rich main course.
 
 ## Directions
@@ -27,7 +28,8 @@ This is the universal Silton side dish. The secret to avoiding a wilted, soggy s
 5.  **Finish:** Top with the shaved Parmesan curls. Serve immediately—this salad waits for no one.
 
 ## Serving Suggestions
--   [Chicken Milanese](/recipes/chicken-milanese)
--   [Real Spaghetti Carbonara](/recipes/real-spaghetti-carbonara)
--   [Classic Beef Stew](/recipes/classic-beef-stew)
--   [Thinly Sliced Marinated Ribeye](/recipes/marinated-korean-ribeye)
+
+- [Chicken Milanese](/recipes/chicken-milanese)
+- [Real Spaghetti Carbonara](/recipes/real-spaghetti-carbonara)
+- [Classic Beef Stew](/recipes/classic-beef-stew)
+- [Thinly Sliced Marinated Ribeye](/recipes/marinated-korean-ribeye)
