@@ -1,17 +1,30 @@
 ---
-title: Fresh Pasta Dough
-servings: About 1 pound
-ingredients:
-  - '3 large eggs, beaten to blend'
-  - 2 cups all-purpose flour
-  - 1 tablespoon olive oil
-  - 1 teaspoon kosher salt
+title: Fresh Pasta Dough (Stand-Mixer Standard)
 role: base
-vibe: fuel
+vibe: project
+prepTime: 15 min
+cookTime: 0 min
+totalTime: 60 min
+servings: '1 lb dough'
+ingredients:
+  - '2 cups All-Purpose or "00" Flour'
+  - '3 large Eggs, lightly beaten'
+  - '1 tbsp Extra-Virgin Olive Oil'
+  - '1 tsp Kosher Salt'
 ---
+
+## Chef's Note
+This is our baseline **Modularity** component for standard pasta nights. We use **Structural Science** through **The Dough Hook Emulsion Pattern**: by utilizing the stand mixer, we develop the gluten chain with mechanical precision, ensuring a uniform "Bounce" that hand-kneading can rarely achieve. The mandatory **Rest Cycle** (30-60 mins) is what allows the gluten to relax, ensuring the dough doesn't snap back while rolling.
 
 ## Directions
 
-1. Mix eggs, flour, oil, and salt in the bowl of a stand mixer with your hands until a shaggy dough forms. Knead with dough hook until dough is smooth and elastic, about 10 minutes. Cover dough with plastic wrap and let rest at least 30 minutes.
-2. Cut and roll as desired.
-3. Do Ahead: Dough can be made 1 day ahead; tightly wrap and chill.
+1.  **The Mix:** Place flour and salt in the bowl of a stand mixer. Create a well in the center. Add the eggs and olive oil.
+2.  **The Hook:** Use the dough hook on speed 2. Run until a shaggy dough forms and starts to climb the hook (about 3-4 mins).
+3.  **The Knead:** Continue on speed 2 for 8-10 minutes. The dough should transform from lumpy to completely smooth, elastic, and slightly tacky.
+4.  **The Rest:** Remove from the bowl. Wrap tightly in plastic wrap. **Let rest for at least 30 minutes** (up to 24 hours in the fridge) before rolling.
+5.  **Shape:** Cut, roll, and shape as desired. See [Fresh Egg Pasta](/recipes/fresh-egg-pasta) for rolling settings.
+
+## Serving Suggestions
+-   [Real Alfredo Sauce](/recipes/real-alfredo-sauce)
+-   [Real Spaghetti Carbonara](/recipes/real-spaghetti-carbonara)
+-   [Pasta with Sausage, Basil, and Mustard](/recipes/pasta-with-sausage-basil-and-mustard)

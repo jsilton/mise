@@ -1,38 +1,36 @@
 ---
-title: Garlic Mashed “Mock” Potatoes
-prepTime: 15 min
-cookTime: 6 min
-servings: 'Yield: 4 servings'
-ingredients:
-  - 1 medium head cauliflower
-  - '1 tablespoon cream cheese, softened'
-  - 1/4 cup grated Parmesan
-  - 1/2 teaspoon minced garlic
-  - >-
-    1/8 teaspoon straight chicken base or bullion (may substitute 1/2 teaspoon
-    salt)
-  - 1/8 teaspoon freshly ground black pepper
-  - '1/2 teaspoon chopped fresh or dry chives, for garnish'
-  - 3 tablespoons unsalted butter
-totalTime: 21 min
+title: Garlic Mashed "Mock" Potatoes
 role: side
 vibe: speed
+prepTime: 10 min
+cookTime: 10 min
+totalTime: 20 min
+servings: '4'
+ingredients:
+  - '1 medium head Cauliflower, cut into small florets'
+  - '1 tbsp Cream Cheese, softened'
+  - '1/4 cup Freshly Grated Parmesan'
+  - '1/2 tsp Garlic, minced'
+  - '3 tbsp Unsalted Butter (plus extra for serving)'
+  - '1/2 tsp Better Than Bouillon (Chicken or Veggie base)'
+  - 'Salt and Black Pepper'
+  - '--- For Garnish ---'
+  - 'Fresh Chives, chopped'
 ---
+
+## Chef's Note
+This is the baseline **Modern Heritage** update for a low-carb "Fuel" side. The secret to a non-watery cauliflower mash is **Texture Integrity** through the **Dry-Steam Pattern**. You must drain the cauliflower and then pat it **bone-dry** with paper towels before pureeing. Any residual water will turn the mash into a soup. We use **The Better Than Bouillon Hack**: a tiny amount of concentrated base provides the savory depth usually found in real potatoes.
 
 ## Directions
 
-1. Set a stockpot of water to boil over high heat.
-2. Clean and cut cauliflower into small pieces. Cook in boiling water for about 6 minutes, or until well done. Drain well; do not let cool and pat cooked cauliflower very dry between several layers of paper towels.
-3. In a bowl with an immersion blender, or in a food processor, puree the hot cauliflower with the cream cheese, Parmesan, garlic, chicken base, and pepper until almost smooth.
-4. Garnish with chives, and serve hot with pats of butter.
+1.  **Boil:** Bring a large pot of salted water to a boil. Add cauliflower florets and cook for 6-8 minutes until fork-tender.
+2.  **The Dry Pattern:** Drain the cauliflower immediately. Do not let it cool. Place the hot florets between layers of paper towels and **press firmly** to remove all excess moisture.
+3.  **The Emulsion:** Place the hot, dry cauliflower in a food processor or use an immersion blender. Add the cream cheese, Parmesan, garlic, bouillon base, and pepper. 
+4.  **Pulverize:** Process until completely smooth and velvety (about 1 minute). 
+5.  **Finish:** Stir in the butter. Garnish with fresh chives for the mandatory **High Note**.
+6.  **Serve:** Serve hot with an extra pat of butter on top.
 
-## Nutrition
-
-- Calories: 149 calorie
-- Total Fat: 11.5 gram
-- Saturated Fat: 7 gram
-- Cholesterol: 31 milligram
-- Sodium: 170 milligram
-- Carbohydrates: 8 gramsDietary Fiber: 4 gram
-- Protein: 5 gram
-- Sugar: 4 grams
+## Serving Suggestions
+-   [Chicken Marsala](/recipes/chicken-marsala)
+-   [Classic Beef Stew](/recipes/classic-beef-stew)
+-   [Everyday Arugula Salad](/recipes/everyday-arugula-salad)

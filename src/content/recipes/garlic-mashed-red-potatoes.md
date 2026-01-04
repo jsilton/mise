@@ -1,40 +1,33 @@
 ---
 title: Garlic Mashed Red Potatoes
-prepTime: 5 min
-cookTime: 30 min
-servings: 6 servings
-ingredients:
-  - '8 medium red potatoes, quartered'
-  - '3 garlic cloves, peeled'
-  - 2 tablespoons butter
-  - '1/2 cup fat-free milk, warmed'
-  - 1/2 teaspoon salt
-  - 1/4 cup grated Parmesan cheese
-totalTime: 35 min
 role: side
 vibe: fuel
+prepTime: 10 min
+cookTime: 20 min
+totalTime: 30 min
+servings: '6'
+ingredients:
+  - '8 medium Red Potatoes, quartered (Skin-on)'
+  - '3 large Garlic Cloves, peeled'
+  - '2 tbsp Unsalted Butter'
+  - '1/2 cup Whole Milk, warmed'
+  - '1/4 cup Freshly Grated Parmesan'
+  - 'Salt and Black Pepper'
 ---
+
+## Chef's Note
+This is the **Gold Standard** for rustic mashed potatoes. To ensure **Texture Integrity**, we use the **Skin-on Standard**: leaving the red skins provides a textural "Snap" and earthy "Fuel" that peeled potatoes lack. The secret to the Silton Standard is **The Infused Boil**: we boil the whole garlic cloves directly with the potatoes. This mellows the garlic's bite and allows its oils to penetrate the starch as it cooks, resulting in a deeper, more integrated flavor than adding raw garlic at the end.
 
 ## Directions
 
-1. Place potatoes and garlic in a large saucepan; cover with water.
-2. Bring to a boil.
-3. Reduce heat; cover and simmer for 15-20 minutes or until potatoes are very tender.
-4. Drain well.
-5. Add the butter, milk and salt; mash.
-6. Stir in cheese.
+1.  **The Infuse:** Place the potatoes and the garlic cloves in a large pot. Cover with cold salted water.
+2.  **Boil:** Bring to a boil, then reduce heat and simmer for 15-20 minutes until the potatoes are fork-tender.
+3.  **Drain:** Drain the potatoes and garlic thoroughly. Return to the hot pot for 1 minute to "steam off" any residual surface moisture (mandatory for texture).
+4.  **Mash:** Add the butter, salt, and pepper. Start mashing by hand (for a rustic texture).
+5.  **The Emulsion:** Gradually add the warmed milk and Parmesan. Continue mashing until the mixture is creamy but still has distinct "pops" of red skin.
+6.  **Serve:** Serve immediately with a crack of black pepper.
 
-## Nutrition
-
-- Fat: 5g
-- fat (: 3g
-- saturated fat)Calories: 190 calorie
-- Sodium: 275mg
-- sodium
-- Fiber: 4g
-- fiber)Carbohydrate: 36g
-- carbohydrate (: 0 sugar
-- Cholesterol: 14mg
-- cholesterol
-- Protein: 8g
-- protein. Diabetic Exchanges: 2 starch
+## Serving Suggestions
+-   [Brisket with Carrots and Onions](/recipes/brisket-with-carrots-and-onions)
+-   [Chicken Coq au Vin](/recipes/chicken-coq-au-vin)
+-   [Everyday Arugula Salad](/recipes/everyday-arugula-salad)

@@ -1,29 +1,33 @@
 ---
-title: Fresh Egg Pasta
-cookTime: 30 min
-servings: Yield 4 to 6 servings
-ingredients:
-  - >-
-    2 ¼ cups/290 grams all-purpose flour, bread flour or “00” flour, more as
-    needed
-  - ¾ teaspoon/3 grams kosher salt
-  - 2 whole large eggs
-  - 3 egg yolks
-  - '1 tablespoon extra-virgin olive oil, more as needed'
-totalTime: 30 min
+title: Fresh Egg Pasta (The Silton Standard)
 role: main
-vibe: speed
+vibe: project
+prepTime: 20 min
+cookTime: 3 min
+totalTime: 90 min
+servings: '4'
+ingredients:
+  - '2 1/4 cups (290g) All-Purpose or "00" Flour'
+  - '2 large Whole Eggs'
+  - '3 large Egg Yolks'
+  - '1 tbsp Extra-Virgin Olive Oil'
+  - '3/4 tsp Kosher Salt'
 ---
+
+## Chef's Note
+This is the baseline for all elite Italian dishes in our kitchen. We use **Structural Science** through **The Food Processor Emulsion Pattern**: instead of the messy "well" method, we use the high-speed blade to instantly emulsify the eggs and flour, ensuring a perfectly uniform protein structure. The most critical step is **The Hydration Rest**: you must let the dough sit for at least 1 hour. This allows the flour's starches to fully hydrate, resulting in a "Bounce" that is tender yet snappy (al dente) rather than gummy.
 
 ## Directions
 
-1. In a food processor, pulse together flour and salt. Add eggs, yolks and oil and run the machine until the dough holds together. If dough looks dry, add another teaspoon olive oil. If dough looks wet, add a little flour until dough is tacky and elastic.
-2. Dump dough onto a work surface and knead briefly until very smooth. Wrap in plastic and rest at room temperature for 1 hour or in the fridge overnight. (If pressed for time, the dough can be used after a 30-minute rest; just note that it would be slightly harder to roll out.)
-3. Cut the dough into 4 pieces, keeping them covered with plastic wrap or a dish towel when not in use. (If you’re rolling the dough out by hand, rather than using a pasta machine, cut it into 2 pieces instead.) Using a pasta roller set to the thickest (widest) setting, roll one piece of dough out into a sheet. Fold the sheet in thirds like a letter and pass it through the machine 2 more times on the same setting.
-4. Reduce the setting, and repeat rolling and folding the dough, passing it through the machine 2 or 3 times before going to the next setting. For pappardelle and fettuccine, stop rolling when the dough is about 1 or 2 settings wider than the thinnest one on your roller. For lasagna noodles, and for ravioli and other stuffed or filled pasta, go to the thinnest setting. (To roll dough by hand, see note below.)
-5. Shape the pasta. For pappardelle, cut rolled pasta into 1-inch-wide strips. For fettuccine, run the rolled sheets through the fettuccine setting on your roller. Place cut pasta on a flour-dusted sheet tray and cover with a dish towel while rolling and cutting the remaining dough. Make sure to sprinkle flour over the cut pasta before you place another layer on top. If not using immediately, cover the sheet pan with a dish towel to keep the dough supple.
-6. Bring a large pot of well-salted water to a boil, add fresh pasta and boil for 1 to 3 minutes, depending on thickness of the pasta. Drain well.
+1.  **The Emulsion:** Place flour and salt in a food processor. Pulse twice. Add eggs, yolks, and oil. Run the processor until the dough forms a shaggy ball (about 30 seconds). If too dry, add 1 tsp oil; if too wet, add 1 tbsp flour.
+2.  **Knead:** Transfer to a work surface. Knead by hand for 2-3 minutes until the dough is smooth and elastic. 
+3.  **The Rest:** Wrap tightly in plastic wrap. **Rest for at least 1 hour** at room temperature (or overnight in the fridge).
+4.  **Roll:** Divide dough into 4 pieces. Use a pasta machine on the widest setting. Fold the sheet in thirds like a letter and pass through again. Repeat on each setting until you reach the desired thickness (Setting 6 or 7 for fettuccine).
+5.  **Shape:** Cut into ribbons or shapes. Dust with flour and arrange in "nests" on a parchment-lined sheet.
+6.  **Boil:** Cook in a massive pot of heavily salted water for 1-3 minutes until they float and the center is cooked through.
 
 ## Serving Suggestions
-
-Everyday Arugula Salad, Garlic Bread
+-   [Everyday Arugula Salad](/recipes/everyday-arugula-salad)
+-   [Real Alfredo Sauce](/recipes/real-alfredo-sauce)
+-   [Real Spaghetti Carbonara](/recipes/real-spaghetti-carbonara)
+-   [Garlic Bread](/recipes/garlic-bread)

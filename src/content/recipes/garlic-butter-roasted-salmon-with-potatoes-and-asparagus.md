@@ -1,27 +1,37 @@
 ---
 title: Garlic Butter-Roasted Salmon with Potatoes & Asparagus
+role: main
+vibe: speed
 prepTime: 10 min
-cookTime: 40 min
+cookTime: 25 min
+totalTime: 35 min
 servings: '4'
 ingredients:
-  - '1 pound baby Yukon Gold potatoes, halved'
-  - '2 tablespoons extra-virgin olive oil, divided'
-  - '¾ teaspoon salt, divided'
-  - '½ teaspoon ground pepper, divided'
-  - '12 ounces asparagus, trimmed'
-  - 2 tablespoons melted butter
-  - 1 tablespoon lemon juice
-  - '2 cloves garlic, minced'
-  - '1 ¼ pounds salmon fillet, skinned and cut into 4 portions'
-  - Chopped parsley for garnish
-totalTime: 50 min
-role: side
-vibe: fuel
+  - '1 1/4 lbs Salmon Fillet, cut into 4 portions'
+  - '1 lb Baby Yukon Gold Potatoes, halved'
+  - '12 oz Asparagus, trimmed'
+  - '--- The Garlic Butter Glaze ---'
+  - '2 tbsp Unsalted Butter, melted'
+  - '1 tbsp Fresh Lemon Juice (The Acid Finish)'
+  - '2 cloves Garlic, minced'
+  - '2 tbsp Extra-Virgin Olive Oil (divided)'
+  - 'Salt and Black Pepper'
+  - 'Fresh Parsley, chopped'
 ---
+
+## Chef's Note
+This is the ultimate 35-minute "Speed" sheet pan meal. The secret to success is **Staged Roasting**: potatoes take significantly longer than salmon and asparagus. We roast the potatoes at high heat (400°F) for 15 minutes *before* adding the protein and greens—this ensures the potatoes have a golden "Snap" while the salmon remains succulent and the asparagus stays "Snappy." The lemon-butter drizzle provides the mandatory **High Note** that bridges the earthy vegetables and rich fish.
 
 ## Directions
 
-1. Preheat oven to 400°F. Toss potatoes, 1 tablespoon oil, 1/4 teaspoon salt and 1/8 teaspoon pepper together in a medium bowl. Spread in an even layer on a large rimmed baking sheet. Roast until starting to soften and brown, about 15 minutes.
-2. PHOTOGRAPHER: JEN CAUSEY, FOOD STYLIST: MARGRET MONROE DICKEY
-3. Meanwhile, toss asparagus with the remaining 1 tablespoon oil, 1/8 teaspoon salt and 1/8 teaspoon pepper in the medium bowl. Combine butter, lemon juice, garlic, 1/4 teaspoon salt and the remaining 1/4 teaspoon pepper in a small bowl.
-4. Sprinkle salmon with the remaining 1/8 teaspoon salt. Move the potatoes to one side of the pan. Place the salmon in the center of the pan; drizzle with the butter mixture. Spread the asparagus on the empty side of the pan. Roast until the salmon is just cooked through and the vegetables are tender, 10 to 12 minutes. Garnish with parsley.
+1.  **Stage 1 (Potatoes):** Preheat oven to 400°F. Toss potatoes with 1 tbsp olive oil, salt, and pepper. Spread in a single layer on a large rimmed baking sheet. Roast for 15 minutes.
+2.  **Stage 2 (Prep):** While potatoes roast, toss asparagus with the remaining 1 tbsp oil and a pinch of salt. In a small bowl, whisk together melted butter, lemon juice, garlic, and pepper.
+3.  **Stage 3 (Combine):** Move the potatoes to one side of the pan. Place the salmon portions in the center and the asparagus on the other side. 
+4.  **The Glaze:** Drizzle the garlic-butter mixture evenly over the salmon and asparagus.
+5.  **Finish:** Return the pan to the oven and roast for 10-12 minutes until the salmon flakes easily and the asparagus is tender-crisp.
+6.  **Serve:** Garnish with fresh parsley and serve immediately.
+
+## Serving Suggestions
+-   [Everyday Arugula Salad](/recipes/everyday-arugula-salad)
+-   [Cucumber Raita](/recipes/cucumber-raita)
+-   [Classic Martini](/recipes/classic-martini) (The Cold Standard)
