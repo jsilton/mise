@@ -1,39 +1,39 @@
 ---
-title: Crock-Pot Hot Chocolate
+title: Ultimate Crock-Pot Sipping Chocolate
+role: drink
+vibe: holiday
 prepTime: 10 min
 cookTime: 120 min
-servings: 'Yields: 6 - 8'
-ingredients:
-  - PRINT
-  - 1/2 cup granulated sugar
-  - 1/3 cup unsweetened cocoa powder
-  - 6 cups whole milk
-  - 2 cups heavy cream
-  - '2 (4-oz.) semisweet chocolate bars, chopped'
-  - 2 tsp. vanilla extract
-  - 1 tsp. instant espresso or coffee
-  - '15 marshmallows, plus more for garnish'
-  - "8 oz. Irish cream liqueur (such as Bailey's), optional"
-  - 'Shaved chocolate, for garnish'
 totalTime: 130 min
-role: main
-vibe: comfort
+servings: '8'
+ingredients:
+  - '6 cups Whole Milk'
+  - '2 cups Heavy Cream'
+  - '1/2 cup Granulated Sugar'
+  - '1/3 cup High-Quality Unsweetened Cocoa Powder'
+  - '8 oz Bittersweet Chocolate (60% cacao), finely chopped'
+  - '2 teaspoons Vanilla Extract'
+  - '1 teaspoon Instant Espresso Powder (Brings out the chocolate depth)'
+  - '1/4 teaspoon Fine Sea Salt'
+  - 'Marshmallows and Shaved Chocolate for garnish'
+  - '8 oz Irish Cream Liqueur (Optional, for adults)'
 ---
+
+## Chef's Note
+
+While serious chocolatiers prefer the stovetop, the slow cooker is an excellent tool for **gentle tempering**. The low, consistent heat prevents the chocolate from seizing and allows the espresso and vanilla to infuse deeply into the dairy. By using real bittersweet chocolate bars instead of just powder, we transform this from "cocoa" into a rich "drinking chocolate" with a luxurious mouthfeel. A pinch of salt is non-negotiable—it cuts the sweetness and makes the cacao sing.
 
 ## Directions
 
-1. Whisk together the sugar and cocoa powder in a 6-quart slow cooker. Gradually add the milk, whisking constantly to incorporate. Whisk in the heavy cream, chopped chocolate, vanilla extract, and instant espresso.
-2. Cover and cook on low heat, whisking occasionally, until the chocolate is melted and the mixture is hot and well combined, about 2 hours. Add the marshmallows and cook until the marshmallows begin to melt into the hot chocolate, about 2 minutes. Stir in the Irish cream liqueur, if using.
-3. Set the slow cooker to warm. Ladle the hot chocolate into serving mugs, and top with more marshmallows and shaved chocolate, if you like.
+1.  **Whisk:** In a 6-quart slow cooker, whisk together the sugar, cocoa powder, espresso powder, and salt.
+2.  **Incorporate:** Gradually pour in the milk and heavy cream, whisking constantly until the powder is mostly dissolved.
+3.  **Melt:** Stir in the chopped bittersweet chocolate and vanilla extract.
+4.  **Slow Cook:** Cover and cook on **LOW** for 2 hours. Whisk vigorously every 30-45 minutes to ensure the chocolate emulsifies with the dairy.
+5.  **Finish:** Just before serving, stir in the liqueur (if using).
+6.  **Serve:** Ladle into mugs. Top with fresh marshmallows and shaved chocolate.
 
-## Nutrition
+## Serving Suggestions
 
-- Fat: 49 g
-- Calories: 864 Calorie
-- Saturated Fat: 30 g
-- Trans Fat: 1 g
-- Sodium: 149 mg
-- Fiber: 4 g
-- Sugar: 77 gCarbohydrate: 86 g
-- Cholesterol: 114 mg
-- Protein: 13 g
+- [Mom's Famous Chocolate Cake](/recipes/moms-famous-chocolate-cake)
+- [Best Chocolate Chip Cookies](/recipes/best-chocolate-chip-cookies)
+- Homemade Whipped Cream
