@@ -18,7 +18,6 @@ Every recipe in this collection adheres to the Kitchen Standard:
 ## Technical Features
 
 - **Blazing Fast:** Static site generation for instant page loads.
-- **Self-Testing:** CI automatically formats code and validates recipe schema.
 - **Automated Deployment:** Continuous deployment to [jordansilton.com/silton-mise/](https://jordansilton.com/silton-mise/) via GitHub Actions.
 
 ## Development
