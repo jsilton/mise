@@ -26,7 +26,8 @@ ingredients:
 ---
 
 ## Chef's Note
-The secret to a "Gold Standard" orzo soup is **Structural Science** through **The Starch Roux Pattern**. We sauté the vegetables and then stir in a small amount of flour *before* the broth; this creates a light body that holds the ingredients in suspension without being heavy. We maintain **Texture Integrity** by simmering the orzo directly in the broth only until al dente—overcooking will turn the soup into a thick porridge. The fresh lemon juice is the mandatory **High Note** that bridges the earthy herbs and savory chicken.
+
+The secret to a "Gold Standard" orzo soup is **Structural Science** through **The Starch Roux Pattern**. We sauté the vegetables and then stir in a small amount of flour _before_ the broth; this creates a light body that holds the ingredients in suspension without being heavy. We maintain **Texture Integrity** by simmering the orzo directly in the broth only until al dente—overcooking will turn the soup into a thick porridge. The fresh lemon juice is the mandatory **High Note** that bridges the earthy herbs and savory chicken.
 
 ## Directions
 
@@ -34,10 +35,11 @@ The secret to a "Gold Standard" orzo soup is **Structural Science** through **Th
 2.  **The Roux:** Add garlic and sauté for 30 seconds. Sprinkle the flour over the vegetables and stir for 1 minute to cook out the raw flour taste.
 3.  **The Simmer:** Slowly pour in the chicken broth, whisking to dissolve the flour. Add Italian seasoning and the diced chicken. Bring to a boil.
 4.  **The Orzo:** Reduce heat to medium-low. Add the dry orzo. Simmer for 10-12 minutes, stirring occasionally (orzo loves to stick to the bottom), until the pasta is al dente and the chicken is cooked through (165°F).
-5.  **Finish:** Remove from heat. Stir in the fresh parsley and lemon juice. 
+5.  **Finish:** Remove from heat. Stir in the fresh parsley and lemon juice.
 6.  **Serve:** Season generously with salt and pepper. Serve immediately. Note: orzo will continue to absorb liquid as it sits; add a splash of broth when reheating.
 
 ## Serving Suggestions
--   [Everyday Arugula Salad](/recipes/everyday-arugula-salad)
--   Warm [Anadama Bread](/recipes/anadama-bread)
--   [Garlic Mashed "Mock" Potatoes](/recipes/garlic-mashed-mock-potatoes)
+
+- [Everyday Arugula Salad](/recipes/everyday-arugula-salad)
+- Warm [Anadama Bread](/recipes/anadama-bread)
+- [Garlic Mashed "Mock" Potatoes](/recipes/garlic-mashed-mock-potatoes)

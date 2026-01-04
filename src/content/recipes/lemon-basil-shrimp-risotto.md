@@ -23,20 +23,22 @@ ingredients:
 ---
 
 ## Chef's Note
-Risotto is the ultimate test of **Structural Science**. The secret to a "Restaurant Quality" texture is **The Starch-Bind Emulsion Pattern**: we add the hot broth one ladle at a time, stirring constantly to "bruise" the rice grains; this releases amylopectin starch, which creates a natural, velvety creaminess without needing massive amounts of fat. We maintain **Texture Integrity** through **The Shrimp Snap Pattern**: we sear the shrimp first and remove them *before* starting the rice, adding them back only in the final minute. This ensures the shrimp stay "Snappy" rather than overcooking into rubbery curls. The lemon juice provides the mandatory **Acid Finish**.
+
+Risotto is the ultimate test of **Structural Science**. The secret to a "Restaurant Quality" texture is **The Starch-Bind Emulsion Pattern**: we add the hot broth one ladle at a time, stirring constantly to "bruise" the rice grains; this releases amylopectin starch, which creates a natural, velvety creaminess without needing massive amounts of fat. We maintain **Texture Integrity** through **The Shrimp Snap Pattern**: we sear the shrimp first and remove them _before_ starting the rice, adding them back only in the final minute. This ensures the shrimp stay "Snappy" rather than overcooking into rubbery curls. The lemon juice provides the mandatory **Acid Finish**.
 
 ## Directions
 
 1.  **The Snap:** In a large wide skillet, melt butter over medium-high. Add shrimp in a single layer. Sear for 2 minutes per side until just opaque. Remove to a plate.
-2.  **Foundation:** In the same pan, add onions and garlic. Sauté for 3 minutes until translucent. 
-3.  **Toast:** Add the Arborio rice. Stir for 2 minutes until the edges of the grains look translucent (The Toast Pattern). 
+2.  **Foundation:** In the same pan, add onions and garlic. Sauté for 3 minutes until translucent.
+3.  **Toast:** Add the Arborio rice. Stir for 2 minutes until the edges of the grains look translucent (The Toast Pattern).
 4.  **Deglaze:** Pour in the wine. Stir until completely absorbed.
 5.  **The Bind:** Add the hot broth one ladle at a time. Stir constantly. Wait until each ladle is fully absorbed before adding the next. This will take 18-22 minutes.
-6.  **The Bounce:** Once the rice is al dente, stir in the heavy cream, Parmesan, lemon juice, and zest. 
+6.  **The Bounce:** Once the rice is al dente, stir in the heavy cream, Parmesan, lemon juice, and zest.
 7.  **Combine:** Fold the seared shrimp and fresh basil into the risotto. Toss for 1 minute until the shrimp are warmed through.
 8.  **Serve:** Garnish with extra basil and a "High Note" crack of black pepper.
 
 ## Serving Suggestions
--   [Everyday Arugula Salad](/recipes/everyday-arugula-salad) (Mandatory)
--   [Roasted Asparagus](/recipes/roasted-asparagus)
--   [Classic Martini](/recipes/classic-martini) (The Cold Standard)
+
+- [Everyday Arugula Salad](/recipes/everyday-arugula-salad) (Mandatory)
+- [Roasted Asparagus](/recipes/roasted-asparagus)
+- [Classic Martini](/recipes/classic-martini) (The Cold Standard)

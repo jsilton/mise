@@ -18,6 +18,7 @@ ingredients:
 ---
 
 ## Chef's Note
+
 This is the ultimate expression of **Modern Heritage** in the brownie category. The secret to the Hepburn Standard is the **Ultra-Low Flour Ratio**: using only 1/4 cup of flour ensures the structure remains "Gooey" and fudge-like rather than cakey. We use **The Saucepan Melt Pattern**: melting the cocoa directly into the hot butter "blooms" the chocolate intensity instantly. We maintain **Texture Integrity** by using large nut pieces, which provide a necessary "Snap" to contrast the decadent "Bounce" of the fudge. Do not over-bake; pull them when they still look slightly underdone.
 
 ## Directions
@@ -29,6 +30,7 @@ This is the ultimate expression of **Modern Heritage** in the brownie category. 
 5.  **Cool:** Let cool completely in the pan before slicing. These brownies are elite when refrigerated and eaten cold.
 
 ## Serving Suggestions
--   [Old-Fashioned Vanilla Ice Cream](/recipes/old-fashioned-vanilla-ice-cream)
--   Fresh Raspberries
--   [Classic Martini](/recipes/classic-martini) (The Cold Standard)
+
+- [Old-Fashioned Vanilla Ice Cream](/recipes/old-fashioned-vanilla-ice-cream)
+- Fresh Raspberries
+- [Classic Martini](/recipes/classic-martini) (The Cold Standard)

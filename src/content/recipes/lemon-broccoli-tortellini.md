@@ -23,7 +23,8 @@ ingredients:
 ---
 
 ## Chef's Note
-This is a 25-minute "Speed" hero that avoids the "mushy vegetable" trap of most one-pot pastas. We use **Texture Integrity** through **The Staged Roast Pattern**: we roast the broccoli at high heat (400°F) until slightly charred *before* combining it with the pasta. This provides a smoky "Snap" that contrasts the soft tortellini. The mandatory **Acid Finish** comes from using both the zest and juice of a whole lemon, which brightens the rich, butter-wilted spinach.
+
+This is a 25-minute "Speed" hero that avoids the "mushy vegetable" trap of most one-pot pastas. We use **Texture Integrity** through **The Staged Roast Pattern**: we roast the broccoli at high heat (400°F) until slightly charred _before_ combining it with the pasta. This provides a smoky "Snap" that contrasts the soft tortellini. The mandatory **Acid Finish** comes from using both the zest and juice of a whole lemon, which brightens the rich, butter-wilted spinach.
 
 ## Directions
 
@@ -31,11 +32,12 @@ This is a 25-minute "Speed" hero that avoids the "mushy vegetable" trap of most 
 2.  **Boil:** Bring a large pot of salted water to a boil. Cook tortellini according to package directions. **Reserve 1/2 cup of pasta water** before draining.
 3.  **The Wilt:** In the same pot, melt the butter over medium heat. Sauté shallots, minced garlic, and red pepper flakes for 2 minutes. Fold in the spinach and cook until just collapsed (about 2 mins).
 4.  **Emulsify:** Add the lemon zest and the reserved pasta water. Stir until a light, glossy sauce forms.
-5.  **Combine:** Add the cooked tortellini and roasted broccoli back to the pot. 
+5.  **Combine:** Add the cooked tortellini and roasted broccoli back to the pot.
 6.  **Bind:** Toss gently over low heat for 1 minute until everything is coated.
 7.  **Serve:** Sprinkle with Parmesan and serve hot.
 
 ## Serving Suggestions
--   [Everyday Arugula Salad](/recipes/everyday-arugula-salad) (Mandatory)
--   [Garlic Bread](/recipes/garlic-bread)
--   Roasted Cherry Tomatoes
+
+- [Everyday Arugula Salad](/recipes/everyday-arugula-salad) (Mandatory)
+- [Garlic Bread](/recipes/garlic-bread)
+- Roasted Cherry Tomatoes

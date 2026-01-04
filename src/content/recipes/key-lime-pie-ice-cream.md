@@ -18,6 +18,7 @@ ingredients:
 ---
 
 ## Chef's Note
+
 This is a high-speed "Project" dessert that mimics the exact flavor profile of our [Key Lime Pie](/recipes/key-lime-pie). The secret to a professional-grade churn is **Structural Science** through **The Condensed Milk Emulsion**: the sugar and fats in the condensed milk act as a powerful stabilizer, preventing the formation of large ice crystals and ensuring a silky "Bounce." We maintain **Texture Integrity** through **The Graham Snap Pattern**: we stir half the crackers into the churn and reserve the other half for the topping just before serving—this ensures you have both soft, cake-like bits and shatteringly crisp "Snaps."
 
 ## Directions
@@ -29,6 +30,7 @@ This is a high-speed "Project" dessert that mimics the exact flavor profile of o
 5.  **Serve:** Scoop into bowls. Top with the remaining reserved graham cracker crumbs and a fresh lime wedge for the mandatory **Acid Finish**.
 
 ## Serving Suggestions
--   [Oreo Truffles](/recipes/easy-oreo-truffles)
--   Fresh Raspberries
--   [Classic Martini](/recipes/classic-martini) (The Cold Standard)
+
+- [Oreo Truffles](/recipes/easy-oreo-truffles)
+- Fresh Raspberries
+- [Classic Martini](/recipes/classic-martini) (The Cold Standard)

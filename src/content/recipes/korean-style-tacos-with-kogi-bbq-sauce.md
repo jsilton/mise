@@ -24,6 +24,7 @@ ingredients:
 ---
 
 ## Chef's Note
+
 This dish is a masterclass in **Modularity**. The secret to "Street Standard" tacos is **The Kogi Emulsion Pattern**: we whisk gochujang and sesame oil into a stable glaze that binds instantly to pre-cooked proteins. We maintain **Texture Integrity** through **The Quick Pickle Snap**: you must slice the cucumbers paper-thin and let them sit in vinegar for exactly 1 hour; this creates a translucent, "bouncy" crunch that provides the mandatory **Acid Finish** to cut through the sweet BBQ sauce.
 
 ## Directions
@@ -32,10 +33,11 @@ This dish is a masterclass in **Modularity**. The secret to "Street Standard" ta
 2.  **The Pickle:** In a separate bowl, toss cucumber slices with vinegar, sugar, chili, and salt. **Refrigerate for at least 1 hour** (but no more than 3) to maintain the "Snap."
 3.  **The Sear:** Heat a large skillet over high heat. Add the cooked pork or chicken and 1/4 cup of the Kogi sauce. Toss vigorously for 3-4 minutes until the edges are crispy and the meat is lacquered.
 4.  **Toast:** Warm the tortillas over an open flame or in a dry pan until charred in spots.
-5.  **Assemble:** Place a generous scoop of the glazed meat into each tortilla. 
+5.  **Assemble:** Place a generous scoop of the glazed meat into each tortilla.
 6.  **Finish:** Top with a pile of the chilled cucumber pickles and extra scallions. Serve immediately.
 
 ## Serving Suggestions
--   [Smashed Cucumber Salad](/recipes/smashed-cucumber-salad)
--   [Korean Mung Bean Sprouts Salad (Sukju Namul)](/recipes/korean-mung-bean-sprouts-salad)
--   [Fresh Cabbage, Cucumber and Radish Kimchi](/recipes/fresh-cabbage-cucumber-and-radish-kimchi)
+
+- [Smashed Cucumber Salad](/recipes/smashed-cucumber-salad)
+- [Korean Mung Bean Sprouts Salad (Sukju Namul)](/recipes/korean-mung-bean-sprouts-salad)
+- [Fresh Cabbage, Cucumber and Radish Kimchi](/recipes/fresh-cabbage-cucumber-and-radish-kimchi)
