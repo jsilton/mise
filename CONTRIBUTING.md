@@ -59,21 +59,24 @@ Cuisine tags identify the cultural origin of a recipe. Follow these rules for co
 - Use consistent capitalization and spacing
 
 **Valid Cuisine Tags:**
-- `American`, `Southern` (Southern is distinct from general American)
+- `American`, `Southern`
 - `Chinese`, `Japanese`, `Korean`, `Thai`, `Vietnamese`, `Indian`
-- `Italian`, `French`, `Spanish`, `Greek`, `Swiss`
+- `Italian`, `French`, `Spanish`, `Greek`, `Swiss`, `Belgian`
 - `Mexican`, `Caribbean`
-- `Middle Eastern` (two words, no hyphen), `Israeli`, `Lebanese`
-- `Jewish` (for culturally Jewish dishes like challah, gefilte fish)
-- `Hawaiian`, `Belgian`
+- `Middle Eastern`, `Israeli`, `Lebanese`, `Turkish`, `Persian`
+- `Mediterranean`
+- `Jewish`
+- `Hawaiian`, `Brazilian`, `German`, `British`
 
 **Examples:**
 - General Tso's Chicken → `Chinese` (it's Chinese-American food, but tag as Chinese)
 - Chicken Tikka Masala → `Indian, British` (two tags showing fusion)
 - Spaghetti and Meatballs → `Italian, American` (Italian dish with American adaptation)
 - Korean BBQ Tacos → `Korean, Mexican` (clear fusion of both)
-- Brisket with Carrots → `Jewish` (traditional Jewish preparation)
-- Shrimp and Grits → `Southern` (distinct from general American)
+- Brisket with Carrots → `Jewish` (traditional Jewish preparation, distinct from general American or European)
+- Shrimp and Grits → `Southern` (distinct regional American cuisine)
+- Falafel → `Middle Eastern` (broadly Middle Eastern, not specific to one country)
+- Chicken Shawarma → `Middle Eastern` or `Lebanese` (can be specific or broad)
 
 **What NOT to do:**
 - ❌ `Chinese-American` → Use `Chinese` or `Chinese, American`

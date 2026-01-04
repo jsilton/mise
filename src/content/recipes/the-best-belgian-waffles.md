@@ -6,7 +6,7 @@ cookingMethods: [bake, steam]
 dietary: [vegetarian]
 occasions: []
 flavorProfile: [sweet]
-cuisines: [Belgium]
+cuisines: [Belgian]
 role: main
 vibe: nutritious
 prepTime: 15 min
