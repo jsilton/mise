@@ -1,45 +1,47 @@
 ---
-title: Mercer Street Meals Carrot Cake
-servings: 'Per serving: per serving: 738 calories'
-ingredients:
-  - '1 tablespoon unsalted butter (or lard or pan spray), for greasing pans'
-  - 1 1/2 cups + 2 tablespoons all-purpose flour
-  - 1 cup granulated sugar
-  - 1 1/2 teaspoons baking soda
-  - 1 teaspoon baking powder
-  - 1 teaspoon ground cinnamon
-  - 1/2 teaspoon ground allspice
-  - 1/2 teaspoon ground cloves
-  - 1/2 teaspoon freshly grated nutmeg
-  - 1/2 teaspoon salt
-  - 2/3 cup vegetable oil
-  - 3 eggs
-  - '1 1/2 pounds carrots, peeled and grated'
-  - '1 pound brick-style cream cheese, not softened'
-  - 8 tablespoons (1 stick) unsalted butter
-  - 8 cups powdered sugar
-  - 2 teaspoons vanilla extract
-  - 1/2 teaspoon salt
-  - '1 Granny Smith apple, peeled and grated'
-  - 1/2 cup granulated sugar
-  - 1/2 cup water
+title: Mercer Street Carrot Cake (The Brown Butter Upgrade)
 role: dessert
 vibe: project
+prepTime: 30 min
+cookTime: 30 min
+totalTime: 90 min
+servings: '12'
+ingredients:
+  - '1 1/2 cups All-Purpose Flour'
+  - '1 cup Granulated Sugar'
+  - '1 1/2 tsp Baking Soda'
+  - '1 tsp Baking Powder'
+  - '1 tsp Ground Cinnamon'
+  - '1/2 tsp Ground Allspice'
+  - '1/2 tsp Nutmeg'
+  - '1/2 tsp Salt'
+  - '2/3 cup Brown Butter, cooled (Replaces Vegetable Oil)'
+  - '3 large Eggs'
+  - '1 1/2 lbs Carrots, finely grated'
+  - '--- The Apple Glaze (Syrup) ---'
+  - '1 Granny Smith Apple, grated'
+  - '1/2 cup Sugar'
+  - '1/2 cup Water'
+  - '--- The Cream Cheese Frosting ---'
+  - '1 lb Cream Cheese, cold'
+  - '1 stick Butter, softened'
+  - '4 cups Powdered Sugar'
+  - '2 tsp Vanilla Extract'
 ---
+
+## Chef's Note
+
+We have elevated this Mercer Street classic using the **Bravetart Brown Butter method**. By replacing generic vegetable oil with toasted brown butter, we inject a deep, nutty complexity that perfectly complements the carrots and spices. The **Apple Syrup** is the final secret—it is brushed onto the warm cake layers to ensure they stay moist and add a subtle tartness that balances the rich cream cheese frosting.
 
 ## Directions
 
-1. Heat the oven to 350 degrees. Grease 2 (8-inch) round cake pans with butter, lard or pan spray. Dust each greased pan with 1 tablespoon of flour, and shake the pan to spread and coat the flour over the oil. Mix 1 1/2 cups flour, the sugar, baking soda, baking powder, cinnamon, allspice, cloves, nutmeg, salt, oil, eggs and carrots, stirring until the batter is smooth. Divide the batter between the 2 greased pans. Bake until the cake starts to pull slightly away from the sides of the pan, about 25-30 minutes. Set aside to cool. Once cooled, remove the cakes from the pans.
-2. Make the frosting: Place the cream cheese, butter, powdered sugar, vanilla and salt in a mixing bowl. Use a tabletop mixer, or an electric beater to combine all ingredients until smooth.
-3. Make the syrup: Add the grated apple, sugar and water to a small saucepan. Bring to a rolling boil, then remove from heat. Strain the mixture through a strainer and discard the solids.
-4. Assemble the cake: Using a serrated knife, remove the muffin-like top from both cakes. Discard the removed part or feed it to your children or your chickens. Using a pastry brush, lightly glaze the top of each cake with about 1 tablespoon of the syrup mixture. You will not use all of the syrup. Discard what you don’t use or save it to mix with recreational spirits. Spread 1/3 of the frosting on top of 1 of the cakes. Set the other cake on top to create 2 layers. Spread remaining frosting over top and sides of the cake. Serves 12.
+1.  **Brown the Butter:** Melt the 2/3 cup butter in a pan until the solids turn dark brown and smell nutty. Cool to room temperature.
+2.  **Bake:** Whisk the brown butter with eggs, carrots, and sugar. Fold in the dry ingredients. Pour into two 8-inch greased pans. Bake at 350°F for 25-30 minutes.
+3.  **The Syrup:** Boil the apple, sugar, and water for 5 minutes. Strain and discard solids. **Brush the warm syrup** over the warm cake layers immediately after removing them from the pans.
+4.  **Frosting:** Beat the cream cheese and butter until smooth. Add powdered sugar and vanilla.
+5.  **Assemble:** Layer the cakes with a thick spread of frosting between them. Frost the top and sides generously.
 
-## Nutrition
+## Serving Suggestions
 
-- Per serving: Per serving: 738 calories (percent of calories from fat
-- 6 grams protein
-- 1: 03 grams carbohydrates
-- 2 grams fiber
-- 3: 5 grams total fat (15 grams saturated)
-- 1: 07 milligrams cholesterol
-- 5: 28 milligrams sodium.
+- Strong Coffee or Espresso
+- [Vieux Carré](/recipes/vieux-carre)

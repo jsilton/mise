@@ -1,37 +1,43 @@
 ---
-title: Mom's Famous Chocolate Cake
-ingredients:
-  - 2 sticks margarine
-  - 4 tbsp cocoa
-  - 1 cup water
-  - 2 cups sugar
-  - 1/4 tsp salt
-  - 1/2 cup buttermilk
-  - 1 tsp baking soda
-  - 2 eggs
-  - 2 cups flour
-  - 1 tsp vanilla
-  - Frosting
-  - 1 stick margarine
-  - 1 box confectioners sugar
-  - 4 tbsp cocao
-  - 6 tbsp milk
+title: Mom’s Famous Chocolate Cake (The One-Pot Standard)
 role: dessert
 vibe: project
-servings: Unknown
+prepTime: 10 min
+cookTime: 30 min
+totalTime: 40 min
+servings: '12'
+ingredients:
+  - '2 sticks (1 cup) Unsalted Butter (Replaces Margarine)'
+  - '4 tbsp High-Quality Unsweetened Cocoa Powder'
+  - '1 cup Boiling Water'
+  - '2 cups Granulated Sugar'
+  - '1/2 cup Buttermilk'
+  - '2 large Eggs, room temperature'
+  - '2 cups All-Purpose Flour'
+  - '1 tsp Baking Soda'
+  - '1/4 tsp Kosher Salt'
+  - '1 tsp Vanilla Extract'
+  - '--- The Warm Glossy Frosting ---'
+  - '1 stick (1/2 cup) Unsalted Butter'
+  - '4 tbsp Cocoa Powder'
+  - '6 tbsp Whole Milk'
+  - '1 box (1 lb) Confectioners’ Sugar'
 ---
+
+## Chef's Note
+
+This is a "Modern Heritage" upgrade of a family staple. By swapping margarine for **Butter** and using **Boiling Water**, we bloom the cocoa powder to its full potential. The secret to this cake is the **One-Pot Method**: you mix the entire batter in the saucepan used to melt the butter, ensuring minimal clean-up. Always frost the cake while it is still warm to create that signature, fudgy seal.
 
 ## Directions
 
-1. Bring margarine, cocoa and water to a boil on the stove.
-2. Turn off stove and, using a hand mixer, add remaining ingredients.
-3. Pour batter into a greased rectangular cake pan or use 2 square pans.
-4. Bake at 350 degrees for 25-30 minutes.
-5. Frost cake while still warm.
-6. Frosting
-7. Melt butter on low to medium heat in a sauce pan.
-8. Add remaining ingredients and mix well.
+1.  **Melt & Bloom:** In a large saucepan over medium heat, bring the butter, cocoa powder, and water to a gentle boil. Remove from heat immediately.
+2.  **The Batter:** Into the hot saucepan, whisk in the sugar, buttermilk, baking soda, salt, and eggs until smooth. Gradually fold in the flour and vanilla.
+3.  **Bake:** Pour the batter into a greased 9x13 rectangular pan (or two 8-inch squares). Bake at 350°F for 25-30 minutes until a tester comes out clean.
+4.  **The Frosting:** While the cake bakes, melt the 1 stick of butter in a clean saucepan. Whisk in the cocoa and milk. Remove from heat and stir in the powdered sugar until silky.
+5.  **Seal:** Pour the warm frosting over the hot cake immediately after removing it from the oven. Let cool completely (if you can wait!) before slicing.
 
-## Notes
+## Serving Suggestions
 
-I only use one sauce pan and a portable egg beater and have very little clean up.If you use 2 square pans, you can freeze one for later - frosted and ready!
+- [Ultimate Crock-Pot Sipping Chocolate](/recipes/crock-pot-hot-chocolate)
+- Fresh Raspberries or Strawberries
+- Cold Glass of Milk

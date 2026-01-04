@@ -1,39 +1,38 @@
 ---
-title: Best Chocolate Chip Cookies
+title: The Best Chocolate Chip Cookies (Science-Backed)
+role: dessert
+vibe: project
 prepTime: 20 min
 cookTime: 10 min
+totalTime: 24 hours
 servings: '24'
 ingredients:
-  - '1 cup butter, softened'
-  - 1 cup white sugar
-  - 1 cup packed brown sugar
-  - 2 eggs
-  - 2 teaspoons vanilla extract
-  - 1 teaspoon baking soda
-  - 2 teaspoons hot water
-  - 1/2 teaspoon salt
-  - 3 cups all-purpose flour
-  - 2 cups semisweet chocolate chips
-  - 1 cup chopped walnuts
-totalTime: 30 min
-role: dessert
-vibe: speed
+  - '1 cup (2 sticks) Unsalted Butter'
+  - '1 cup Light Brown Sugar, packed'
+  - '1/2 cup Granulated White Sugar'
+  - '2 large Eggs, room temperature'
+  - '2 tsp Vanilla Extract'
+  - '2 1/4 cups All-Purpose Flour'
+  - '1 tsp Baking Soda'
+  - '1/2 tsp Kosher Salt'
+  - '2 cups Semisweet Chocolate Chips (60% cacao)'
+  - '1 cup Toasted Sunflower Seeds (Silton Nut-Free option)'
 ---
+
+## Chef's Note
+
+To transform these from "Home" to "Restaurant Quality," we apply two science-backed steps: **Browning the Butter** and **The 24-Hour Rest**. Browning the butter provides a nutty, toffee-like depth, while resting the dough in the fridge allows the enzymes to break down starches into sugars, resulting in a more complex flavor and a superior, chewy texture.
 
 ## Directions
 
-1. Preheat oven to 350 degrees F (175 degrees C).
-2. Cream together the butter, white sugar, and brown sugar until smooth. Beat in the eggs one at a time, then stir in the vanilla. Dissolve baking soda in hot water. Add to batter along with salt. Stir in flour, chocolate chips, and nuts. Drop by large spoonfuls onto ungreased pans.
-3. Bake for about 10 minutes in the preheated oven, or until edges are nicely browned.
-4. Footnotes
-5. Partner Tip
-6. Reynolds® Aluminum foil can be used to keep food moist, cook it evenly, and make clean-up easier.
+1.  **Brown the Butter:** In a small saucepan, melt the butter over medium heat. Continue cooking, swirling the pan, until the foam subsides and the solids turn a deep golden brown and smell like hazelnuts. Pour into a bowl and let cool until solid but soft.
+2.  **Cream:** Beat the cooled brown butter with the brown and white sugars until pale and fluffy (3-5 minutes). Beat in the eggs and vanilla.
+3.  **Mix:** Dissolve the baking soda in 1 tsp hot water and add to the batter with the salt. Gently fold in the flour, chocolate chips, and seeds.
+4.  **The Rest (Critical):** Wrap the dough and refrigerate for at least **24 hours**. This is the secret to the best cookies.
+5.  **Bake:** Scoop onto a parchment-lined sheet. Bake at 350°F for 10-12 minutes until the edges are golden but the centers are still soft.
+6.  **Finish:** Sprinkle with a tiny pinch of flaky sea salt immediately.
 
-## Nutrition
+## Serving Suggestions
 
-- Per Serving: 298 calories
-- 1: 5.6 g fat
-- 3: 8.8 g carbohydrates
-- 3.: 6 g protein
-- 3: 6 mg cholesterol
-- 1: 66 mg sodium. Full nutrition
+- [Ultimate Crock-Pot Sipping Chocolate](/recipes/crock-pot-hot-chocolate)
+- Vanilla Bean Ice Cream
