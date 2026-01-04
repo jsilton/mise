@@ -25,6 +25,7 @@ ingredients:
 ---
 
 ## Chef's Note
+
 The key to this vegan-focused "Fuel" dish is **Structural Science**. We use **The Cornstarch Guard Pattern**: by dredging the eggplant and tofu in a thick layer of cornstarch before frying, we create a barrier that prevents the eggplant from absorbing oil while ensuring a shatteringly crisp "Snap." The final **Acid Finish** (a combination of rice vinegar and lime) is the mandatory "High Note" that cuts through the heat of the Szechuan chiles.
 
 ## Directions
@@ -38,6 +39,7 @@ The key to this vegan-focused "Fuel" dish is **Structural Science**. We use **Th
 7.  **Serve:** Garnish with fresh cilantro and serve immediately over steamed rice.
 
 ## Serving Suggestions
--   [Basmati Rice](/recipes/basmati-rice)
--   [Smashed Cucumber Salad](/recipes/smashed-cucumber-salad)
--   [Seasoned Bean Sprouts](/recipes/seasoned-bean-sprouts)
+
+- [Basmati Rice](/recipes/basmati-rice)
+- [Smashed Cucumber Salad](/recipes/smashed-cucumber-salad)
+- [Seasoned Bean Sprouts](/recipes/seasoned-bean-sprouts)

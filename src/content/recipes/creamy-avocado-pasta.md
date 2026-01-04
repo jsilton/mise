@@ -22,18 +22,20 @@ ingredients:
 ---
 
 ## Chef's Note
+
 This is a high-speed "Fuel" meal that relies on **Structural Science** for its creamy texture. We use **The Blender Pattern** to create a raw, cold emulsion of avocado and olive oil—this prevents the "split" that often happens with cooked avocado sauces. The **Lemon Juice** provides the mandatory **Acid Finish** while also stabilizing the chlorophyll in the basil and spinach, ensuring the sauce stays vibrant green. Never cook the sauce; the residual heat of the pasta is enough to warm it into a "Bounce."
 
 ## Directions
 
 1.  **Boil:** Cook pasta in a large pot of salted water until **al dente**. **Reserve 1 cup of pasta water** before draining.
-2.  **The Emulsion:** While pasta boils, place avocado flesh, basil, spinach, garlic, lemon juice, and salt in a blender. 
+2.  **The Emulsion:** While pasta boils, place avocado flesh, basil, spinach, garlic, lemon juice, and salt in a blender.
 3.  **Blend:** Start blending on low. Slowly drizzle in the olive oil and 1/2 cup of the reserved pasta water. Blend for 60 seconds until completely smooth and aerated.
 4.  **Combine:** Place the hot, drained pasta in a large bowl. Pour the green sauce over the top and toss vigorously until the noodles are glossy and fully coated.
 5.  **Adjust:** If the sauce is too thick, add a few more tablespoons of pasta water.
 6.  **Serve:** Top immediately with halved cherry tomatoes and Parmesan for **Texture Integrity**.
 
 ## Serving Suggestions
--   [Everyday Arugula Salad](/recipes/everyday-arugula-salad)
--   [Garlic Bread](/recipes/garlic-bread)
--   Grilled Shrimp or Chicken
+
+- [Everyday Arugula Salad](/recipes/everyday-arugula-salad)
+- [Garlic Bread](/recipes/garlic-bread)
+- Grilled Shrimp or Chicken

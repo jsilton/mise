@@ -19,6 +19,7 @@ ingredients:
 ---
 
 ## Chef's Note
+
 This is our **Modern Heritage** version of the blue-box classic, re-engineered for "Fuel" performance with whole-wheat pasta. The secret to the Silton Standard is **The Starch Bind Pattern**: we don't drain the pasta bone-dry; instead, we combine the hot noodles directly with butter and cream to create a natural emulsion. By using **Freshly Grated Cheddar**, we avoid the stabilizers in pre-shredded bags, resulting in a "Bounce" that is far superior to any processed version. A pinch of **Nutmeg** provides the mandatory "High Note" that bridges the earthy wheat and rich cream.
 
 ## Directions
@@ -30,6 +31,7 @@ This is our **Modern Heritage** version of the blue-box classic, re-engineered f
 5.  **Serve:** Serve immediately while the sauce is at its glossiest.
 
 ## Serving Suggestions
--   [Everyday Arugula Salad](/recipes/everyday-arugula-salad)
--   [Roasted Green Bean "Fries"](/recipes/roasted-green-bean-fries)
--   [Buttermilk Baked Chicken](/recipes/buttermilk-baked-chicken)
+
+- [Everyday Arugula Salad](/recipes/everyday-arugula-salad)
+- [Roasted Green Bean "Fries"](/recipes/roasted-green-bean-fries)
+- [Buttermilk Baked Chicken](/recipes/buttermilk-baked-chicken)

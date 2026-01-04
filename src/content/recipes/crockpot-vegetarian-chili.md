@@ -32,6 +32,7 @@ ingredients:
 ---
 
 ## Chef's Note
+
 This is the "Gold Standard" for plant-based comfort. Most vegetarian chilis are thin or watery; we solve this with **Texture Integrity** through the **Sweet Potato Thickener Pattern**. As the sweet potato simmers for 4 hours, it partially breaks down, releasing starches that create a rich, velvety body without the need for a roux. We use a **Triple Bean Pattern** to ensure a complex "Bounce" in every spoonful. The mandatory **Acid Finish** (apple cider vinegar) provides the "High Note" needed to wake up the earthy spices.
 
 ## Directions
@@ -44,6 +45,7 @@ This is the "Gold Standard" for plant-based comfort. Most vegetarian chilis are 
 6.  **Serve:** Ladle into deep bowls. Top with Greek yogurt, avocado, and fresh cilantro.
 
 ## Serving Suggestions
--   [My Favorite Cornbread](/recipes/my-favorite-cornbread)
--   [Everyday Arugula Salad](/recipes/everyday-arugula-salad)
--   [Pickled Red Onions](/recipes/pickled-red-onions)
+
+- [My Favorite Cornbread](/recipes/my-favorite-cornbread)
+- [Everyday Arugula Salad](/recipes/everyday-arugula-salad)
+- [Pickled Red Onions](/recipes/pickled-red-onions)

@@ -20,6 +20,7 @@ ingredients:
 ---
 
 ## Chef's Note
+
 This is a 25-minute "Speed" masterpiece that relies on **Staged Cooking**. Most creamy chicken dishes suffer from rubbery meat and mushy greens. We solve this by **Searing** the chicken cutlets first to develop a crust, then removing them while we emulsify the sauce. We add the spinach at the very end to ensure **Texture Integrity**—it should be just wilted and vibrant green, not cooked into a dark clump. The **Lemon Zest** is the mandatory "High Note" finish.
 
 ## Directions
@@ -34,6 +35,7 @@ This is a 25-minute "Speed" masterpiece that relies on **Staged Cooking**. Most 
 8.  **Serve:** Serve the chicken drenched in the lemon-yogurt sauce over rice or greens.
 
 ## Serving Suggestions
--   [Near East Rice Pilaf Hack](/recipes/near-east-rice-pilaf-hack)
--   [Everyday Arugula Salad](/recipes/everyday-arugula-salad)
--   [Roasted Asparagus](/recipes/roasted-asparagus)
+
+- [Near East Rice Pilaf Hack](/recipes/near-east-rice-pilaf-hack)
+- [Everyday Arugula Salad](/recipes/everyday-arugula-salad)
+- [Roasted Asparagus](/recipes/roasted-asparagus)

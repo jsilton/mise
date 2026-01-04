@@ -23,12 +23,13 @@ ingredients:
 ---
 
 ## Chef's Note
+
 The secret to a "Gold Standard" crustless quiche is **Texture Integrity** through **The Dry Wilt Pattern**. Most quiches become watery because of the spinach; we sauté the sausage first, then wilt the spinach in the rendered fat and **drain it bone-dry** before adding to the eggs. We use **The Nutmeg Bridge**: a tiny pinch of nutmeg doesn't make the dish taste like dessert—it provides the mandatory "High Note" that connects the salty sausage to the rich, creamy custard.
 
 ## Directions
 
 1.  **Prep:** Preheat oven to 350°F. Spray a 9-inch pie dish generously with oil spray.
-2.  **The Sear:** In a large skillet over medium-high heat, cook the sausage meat, breaking it into small crumbles, until browned (5 mins). 
+2.  **The Sear:** In a large skillet over medium-high heat, cook the sausage meat, breaking it into small crumbles, until browned (5 mins).
 3.  **The Wilt:** Add the spinach to the skillet. Reduce heat to medium and toss until just wilted. **Drain the mixture in a sieve**, pressing firmly to remove all excess liquid.
 4.  **The Custard:** In a medium bowl, whisk together eggs, milk, half & half, salt, pepper, and nutmeg until frothy and well aerated.
 5.  **Assemble:** Spread the dry sausage/spinach mixture in the bottom of the pie dish. Top with the Cheddar and Parmesan.
@@ -37,6 +38,7 @@ The secret to a "Gold Standard" crustless quiche is **Texture Integrity** throug
 8.  **Rest:** Let sit for 5 minutes before slicing into 6 wedges.
 
 ## Serving Suggestions
--   [Everyday Arugula Salad](/recipes/everyday-arugula-salad)
--   Fresh Fruit Platter
--   [Roasted Asparagus](/recipes/roasted-asparagus)
+
+- [Everyday Arugula Salad](/recipes/everyday-arugula-salad)
+- Fresh Fruit Platter
+- [Roasted Asparagus](/recipes/roasted-asparagus)

@@ -23,6 +23,7 @@ ingredients:
 ---
 
 ## Chef's Note
+
 The secret to "Gold Standard" gnocchi is skipping the pot of boiling water. We use **Texture Integrity** through the **High-Heat Roast Pattern**: roasting the gnocchi directly on a sheet pan at 450°F. This creates a "Snap" on the outside while keeping the center pillow-soft. We pair this with cherry tomatoes that "pop" in the oven, creating a natural **Acid Finish** that emulsifies with the olive oil and garlic to coat the gnocchi in a rustic sauce.
 
 ## Directions
@@ -35,6 +36,7 @@ The secret to "Gold Standard" gnocchi is skipping the pot of boiling water. We u
 6.  **Serve:** Serve in deep bowls while the gnocchi is at its peak crispiness.
 
 ## Serving Suggestions
--   [Everyday Arugula Salad](/recipes/everyday-arugula-salad)
--   [Garlic Bread](/recipes/garlic-bread)
--   [Smashed Cucumber Salad](/recipes/smashed-cucumber-salad)
+
+- [Everyday Arugula Salad](/recipes/everyday-arugula-salad)
+- [Garlic Bread](/recipes/garlic-bread)
+- [Smashed Cucumber Salad](/recipes/smashed-cucumber-salad)

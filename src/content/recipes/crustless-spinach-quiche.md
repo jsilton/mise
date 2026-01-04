@@ -18,6 +18,7 @@ ingredients:
 ---
 
 ## Chef's Note
+
 This is a high-speed "Fuel" meal that relies on **Modern Heritage** techniques to elevate simple ingredients. The secret to the deep flavor is **Onion Blackening**: we sauté the onions on high heat until the edges are charred and sweet, providing a smokiness that balances the earthy spinach. We use **The Greek Yogurt Hack** instead of heavy cream to ensure a firm, high-protein "Bounce" that never turns watery. Always use **Gruyère**—its nuttiness provides the "High Note" that standard Swiss lacks.
 
 ## Directions
@@ -31,6 +32,7 @@ This is a high-speed "Fuel" meal that relies on **Modern Heritage** techniques t
 7.  **Serve:** Serve warm or at room temperature with a side of greens.
 
 ## Serving Suggestions
--   [Everyday Arugula Salad](/recipes/everyday-arugula-salad)
--   Fresh Sliced Tomatoes
--   [Crispy Smashed Potatoes](/recipes/crispy-smashed-potatoes)
+
+- [Everyday Arugula Salad](/recipes/everyday-arugula-salad)
+- Fresh Sliced Tomatoes
+- [Crispy Smashed Potatoes](/recipes/crispy-smashed-potatoes)
