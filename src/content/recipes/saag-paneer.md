@@ -9,18 +9,16 @@ servings: '4'
 ingredients:
   - '6 oz Paneer Cheese, cubed'
   - '16 oz Frozen Chopped Spinach, thawed and squeezed'
-  - '--- The Aromatics ---'
-  - '1 tbsp Ghee or Butter'
+  - 1 tbsp Ghee or Butter
   - '1 medium Onion, finely diced'
   - '1 tbsp Fresh Ginger, grated'
   - '1 tbsp Fresh Garlic, minced'
   - '1 Jalapeño, minced (optional)'
-  - '--- The Spices ---'
-  - '1 tsp Ground Coriander'
-  - '1/2 tsp Turmeric'
-  - '1/2 tsp Garam Masala'
-  - '1 tbsp Kasuri Methi (Dried Fenugreek)'
-  - '1/2 cup Heavy Cream'
+  - 1 tsp Ground Coriander
+  - 1/2 tsp Turmeric
+  - 1/2 tsp Garam Masala
+  - 1 tbsp Kasuri Methi (Dried Fenugreek)
+  - 1/2 cup Heavy Cream
 ---
 
 ## Chef's Note

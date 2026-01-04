@@ -7,18 +7,16 @@ cookTime: 10 min
 totalTime: 40 min
 servings: '4'
 ingredients:
-  - '--- The Filling Paste ---'
-  - '200g Ground Pork'
+  - 200g Ground Pork
   - '100g Shrimp, minced'
-  - '1 Egg White (as binder)'
-  - '1 tsp Toasted Sesame Oil'
-  - '1 tbsp Light Soy Sauce'
+  - 1 Egg White (as binder)
+  - 1 tsp Toasted Sesame Oil
+  - 1 tbsp Light Soy Sauce
   - '1 inch Fresh Ginger, grated'
   - '3 Scallions, chopped'
-  - '--- The Soup Base ---'
   - '[Cantonese Wonton Broth](/silton-mise/recipes/cantonese-wonton-broth)'
   - '1 sheet Nori, shredded'
-  - 'Baby Bok Choy or Spinach'
+  - Baby Bok Choy or Spinach
 ---
 
 ## Chef's Note

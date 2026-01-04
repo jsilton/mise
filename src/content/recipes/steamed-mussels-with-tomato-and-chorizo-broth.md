@@ -9,13 +9,11 @@ servings: '4'
 ingredients:
   - '4 lbs Fresh Mussels, scrubbed and debearded'
   - '2 oz Dried Spanish Chorizo, thinly sliced'
-  - '--- The Tomato-Wine Emulsion ---'
   - '1 pint Cherry Tomatoes, halved'
-  - '3/4 cup Dry White Wine'
+  - 3/4 cup Dry White Wine
   - '3 cloves Garlic, crushed'
   - '1 tsp Fennel Seeds, crushed (The "Sea" Pulse)'
-  - '2 tbsp Extra-Virgin Olive Oil'
-  - '--- The Finish ---'
+  - 2 tbsp Extra-Virgin Olive Oil
   - '2 tbsp Fresh Tarragon, chopped'
   - 'Thick country-style bread, charred'
 ---

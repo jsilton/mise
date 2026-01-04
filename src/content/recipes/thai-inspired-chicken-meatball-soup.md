@@ -7,18 +7,16 @@ cookTime: 15 min
 totalTime: 30 min
 servings: '6'
 ingredients:
-  - '2 lbs Ground Chicken'
-  - '--- The Aromatic Paste ---'
+  - 2 lbs Ground Chicken
   - '1 piece (4-inch) Fresh Ginger, grated'
   - '6 cloves Garlic, grated'
   - '1 Jalapeño, minced'
   - '1 bunch Cilantro, finely chopped'
-  - '3 tbsp Fish Sauce (The Savory Pulse)'
-  - '--- The Soup Silk ---'
-  - '1 can (14 oz) Full-fat Coconut Milk'
-  - '2 cups Chicken Broth'
-  - '5 oz Fresh Baby Spinach'
-  - '1 tbsp Lime Juice (The Acid Balance)'
+  - 3 tbsp Fish Sauce (The Savory Pulse)
+  - 1 can (14 oz) Full-fat Coconut Milk
+  - 2 cups Chicken Broth
+  - 5 oz Fresh Baby Spinach
+  - 1 tbsp Lime Juice (The Acid Balance)
 ---
 
 ## Chef's Note

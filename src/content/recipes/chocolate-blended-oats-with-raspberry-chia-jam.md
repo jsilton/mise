@@ -7,19 +7,16 @@ cookTime: 90 min
 totalTime: 100 min
 servings: '4'
 ingredients:
-  - '--- The Raspberry Chia Jam ---'
-  - '1 cup Frozen Raspberries'
-  - '1 tbsp Chia Seeds'
-  - '--- The Chocolate Blended Oats ---'
-  - '1 3/4 cups Rolled Oats'
-  - '1 3/4 cups Soy or Almond Milk'
-  - '1/2 cup Greek Yogurt'
-  - '1/4 cup Cacao Powder'
-  - '1/4 cup Maple Syrup'
-  - '2 tbsp Chia Seeds'
-  - '1 tsp Vanilla Extract'
-  - '1/8 tsp Sea Salt'
-  - '--- The Topping ---'
+  - 1 cup Frozen Raspberries
+  - 1 tbsp Chia Seeds
+  - 1 3/4 cups Rolled Oats
+  - 1 3/4 cups Soy or Almond Milk
+  - 1/2 cup Greek Yogurt
+  - 1/4 cup Cacao Powder
+  - 1/4 cup Maple Syrup
+  - 2 tbsp Chia Seeds
+  - 1 tsp Vanilla Extract
+  - 1/8 tsp Sea Salt
   - '2 oz Dark Chocolate, melted'
 ---
 

@@ -7,15 +7,14 @@ cookTime: 10 min
 totalTime: 15 min
 servings: '4'
 ingredients:
-  - '8 oz Whole-Wheat Elbow Macaroni'
-  - '2 tbsp Unsalted Butter'
-  - '1/3 cup + 1 tbsp Heavy Cream'
+  - 8 oz Whole-Wheat Elbow Macaroni
+  - 2 tbsp Unsalted Butter
+  - 1/3 cup + 1 tbsp Heavy Cream
   - '1 1/4 cups Sharp Cheddar, freshly grated'
   - '1/4 cup Parmesan, freshly grated'
-  - '--- The Flavor Finish ---'
-  - '1/4 tsp Sea Salt'
-  - 'Plenty of Black Pepper'
-  - 'Pinch of Nutmeg (The Finishing Touch)'
+  - 1/4 tsp Sea Salt
+  - Plenty of Black Pepper
+  - Pinch of Nutmeg (The Finishing Touch)
 ---
 
 ## Chef's Note

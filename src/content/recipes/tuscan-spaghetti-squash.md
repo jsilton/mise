@@ -7,18 +7,16 @@ cookTime: 45 min
 totalTime: 55 min
 servings: '4'
 ingredients:
-  - '1 large Spaghetti Squash'
+  - 1 large Spaghetti Squash
   - '4 slices Smoked Bacon, chopped'
-  - '--- The Creamy Emulsion ---'
-  - '1/2 cup Heavy Cream'
+  - 1/2 cup Heavy Cream
   - '1/3 cup Parmesan, freshly grated'
   - '1 1/2 cups Cherry Tomatoes, halved'
-  - '2 cups Fresh Baby Spinach'
+  - 2 cups Fresh Baby Spinach
   - '2 cloves Garlic, minced'
-  - '--- The Finish ---'
   - 'Fresh Basil, chopped (The Finishing Touch)'
-  - 'Extra-Virgin Olive Oil'
-  - 'Salt and Black Pepper'
+  - Extra-Virgin Olive Oil
+  - Salt and Black Pepper
 ---
 
 ## Chef's Note

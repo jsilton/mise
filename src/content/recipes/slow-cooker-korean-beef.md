@@ -8,17 +8,15 @@ totalTime: 520 min
 servings: '6'
 ingredients:
   - '3 lb Beef Chuck Roast, 1-inch cubes'
-  - '--- The Soy-Ginger Emulsion ---'
-  - '1 cup Beef Broth'
-  - '1/2 cup Low-sodium Soy Sauce'
+  - 1 cup Beef Broth
+  - 1/2 cup Low-sodium Soy Sauce
   - '1/2 cup Light Brown Sugar, packed'
-  - '1 tbsp Rice Wine Vinegar (The Acid Balance)'
-  - '1 tbsp Toasted Sesame Oil'
+  - 1 tbsp Rice Wine Vinegar (The Acid Balance)
+  - 1 tbsp Toasted Sesame Oil
   - '1 tbsp Fresh Ginger, grated'
   - '4 cloves Garlic, minced'
-  - '1 tsp Sriracha (The Finishing Touch Pulse)'
-  - '--- The Bind ---'
-  - '2 tbsp Cornstarch (mixed with water)'
+  - 1 tsp Sriracha (The Finishing Touch Pulse)
+  - 2 tbsp Cornstarch (mixed with water)
   - '2 Scallions, thinly sliced'
 ---
 

@@ -7,14 +7,13 @@ cookTime: 15 min
 totalTime: 25 min
 servings: '8'
 ingredients:
-  - '1 pkg Refrigerated Flaky Biscuits (Grands)'
+  - 1 pkg Refrigerated Flaky Biscuits (Grands)
   - '1 cup Fresh Peaches, sliced into 1-inch pieces'
   - '4 oz Brie Cheese, rinds removed'
-  - '--- The Sweet Snap ---'
-  - '2 tbsp Light Brown Sugar'
-  - '1 tsp Ground Cinnamon'
-  - '1 tbsp Honey'
-  - '3 tbsp Unsalted Butter (Beurre Noisette)'
+  - 2 tbsp Light Brown Sugar
+  - 1 tsp Ground Cinnamon
+  - 1 tbsp Honey
+  - 3 tbsp Unsalted Butter (Beurre Noisette)
 ---
 
 ## Chef's Note

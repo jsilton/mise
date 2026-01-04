@@ -1,26 +1,25 @@
 ---
-title: Fresh Cabbage, Cucumber and Radish Kimchi
+title: 'Fresh Cabbage, Cucumber and Radish Kimchi'
 role: side
 vibe: technical
 prepTime: 30 min
 cookTime: 345 min
 totalTime: 375 min
-servings: '12 cups'
+servings: 12 cups
 ingredients:
   - '3 lbs Napa Cabbage, halved and cut into 2-inch pieces'
   - '3 English Cucumbers, sliced 1/3-inch thick'
   - '1 1/4 lbs Daikon Radish, peeled and cut into 1/2-inch pieces'
   - '20 Radishes, quartered'
-  - '1/2 cup Kosher Salt (for the cure)'
-  - '--- The Kimchi Paste ---'
+  - 1/2 cup Kosher Salt (for the cure)
   - '4 oz Fresh Ginger, coarsely chopped'
-  - '1/2 cup Gochugaru (Korean Red Chile Flakes)'
+  - 1/2 cup Gochugaru (Korean Red Chile Flakes)
   - '6 cloves Garlic, chopped'
-  - '1/4 cup + 2 tbsp Rice Vinegar (The Finishing Touch)'
-  - '3 tbsp Toasted Sesame Oil'
-  - '3 tbsp Fish Sauce'
+  - 1/4 cup + 2 tbsp Rice Vinegar (The Finishing Touch)
+  - 3 tbsp Toasted Sesame Oil
+  - 3 tbsp Fish Sauce
   - '2 Scallions, chopped'
-  - '3/4 tsp Sugar'
+  - 3/4 tsp Sugar
 ---
 
 ## Chef's Note

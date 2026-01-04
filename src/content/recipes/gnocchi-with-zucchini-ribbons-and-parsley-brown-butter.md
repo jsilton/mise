@@ -7,16 +7,15 @@ cookTime: 10 min
 totalTime: 20 min
 servings: '4'
 ingredients:
-  - '1 lb Fresh or Frozen Potato Gnocchi'
+  - 1 lb Fresh or Frozen Potato Gnocchi
   - '1 lb Zucchini (about 3 small), shaved into ribbons'
   - '1 pint Cherry Tomatoes, halved'
-  - '--- The Brown Butter Emulsion ---'
-  - '2 tbsp Unsalted Butter'
+  - 2 tbsp Unsalted Butter
   - '2 medium Shallots, minced'
   - '1/2 cup Fresh Parsley, chopped'
-  - '1/2 cup Freshly Grated Parmesan'
-  - '1/4 tsp Ground Nutmeg (The "High Note")'
-  - 'Salt and Black Pepper'
+  - 1/2 cup Freshly Grated Parmesan
+  - 1/4 tsp Ground Nutmeg (The "High Note")
+  - Salt and Black Pepper
 ---
 
 ## Chef's Note

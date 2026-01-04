@@ -7,18 +7,16 @@ cookTime: 45 min
 totalTime: 60 min
 servings: '8'
 ingredients:
-  - '1 lb Cavatappi or Cellentani Pasta'
+  - 1 lb Cavatappi or Cellentani Pasta
   - '3 cups Butternut Squash, 1-inch cubes'
-  - '--- The Mornay Emulsion ---'
   - '6 cups Sharp Cheddar, shredded'
   - '1/4 cup Parmesan, grated'
-  - '3 1/2 cups Whole Milk'
-  - '4 tbsp Unsalted Butter'
-  - '1/4 cup All-Purpose Flour'
-  - '2 tsp Dijon Mustard (The Finishing Touch)'
-  - 'Pinch of Nutmeg and Cayenne'
-  - '--- The Breadcrumb Snap ---'
-  - '1/2 cup Panko Breadcrumbs'
+  - 3 1/2 cups Whole Milk
+  - 4 tbsp Unsalted Butter
+  - 1/4 cup All-Purpose Flour
+  - 2 tsp Dijon Mustard (The Finishing Touch)
+  - Pinch of Nutmeg and Cayenne
+  - 1/2 cup Panko Breadcrumbs
   - '2 tbsp Unsalted Butter, melted'
 ---
 

@@ -11,13 +11,12 @@ ingredients:
   - '1 lb Fresh Broccoli, cut into florets'
   - '1 small Zucchini, thickly sliced'
   - '8 oz Mushrooms, halved'
-  - '1 pint Cherry Tomatoes'
-  - '--- The Pesto Emulsion ---'
-  - '1/2 cup Basil Pesto'
+  - 1 pint Cherry Tomatoes
+  - 1/2 cup Basil Pesto
   - '1/2 cup Parmesan, freshly grated'
-  - '3 tbsp Extra-Virgin Olive Oil'
+  - 3 tbsp Extra-Virgin Olive Oil
   - '2 cloves Garlic, minced'
-  - 'Salt and Black Pepper'
+  - Salt and Black Pepper
 ---
 
 ## Chef's Note

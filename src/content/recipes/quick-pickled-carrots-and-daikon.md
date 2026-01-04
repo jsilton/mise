@@ -1,18 +1,18 @@
 ---
-title: quick Pickled Carrots and Daikon (Do Chua)
+title: Quick Pickled Carrots and Daikon (Do Chua)
 role: condiment
 vibe: nutritious
 prepTime: 15 min
 cookTime: 0 min
 totalTime: 60 min
-servings: '2 cups'
+servings: 2 cups
 ingredients:
   - '1 cup Carrots, julienned or shredded'
   - '1 cup Daikon Radish, julienned or shredded'
-  - '1/2 cup Rice Vinegar'
-  - '1/2 cup Water'
-  - '1/4 cup Sugar'
-  - '1 tsp Kosher Salt'
+  - 1/2 cup Rice Vinegar
+  - 1/2 cup Water
+  - 1/4 cup Sugar
+  - 1 tsp Kosher Salt
 ---
 
 ## Chef's Note

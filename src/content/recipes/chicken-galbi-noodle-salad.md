@@ -7,20 +7,21 @@ cookTime: 15 min
 totalTime: 30 min
 servings: '4'
 ingredients:
-  - '12 oz Korean Sweet Potato Glass Noodles (Dangmyeon)'
-  - '1 lb Ground Chicken or Sliced Thighs'
-  - '--- The Galbi Marinade ---'
-  - '6 tbsp Soy Sauce'
-  - '2 tbsp Rice Vinegar'
-  - '2 tbsp Brown Sugar'
-  - '1 tbsp Toasted Sesame Oil'
+  - 12 oz Korean Sweet Potato Glass Noodles (Dangmyeon)
+  - 1 lb Ground Chicken or Sliced Thighs
+  - 6 tbsp Soy Sauce
+  - 2 tbsp Rice Vinegar
+  - 2 tbsp Brown Sugar
+  - 1 tbsp Toasted Sesame Oil
   - '1 tbsp Garlic, minced'
   - '1 tbsp Ginger, grated'
   - '--- Texture & Crunch ---'
   - '1 Bell Pepper, thinly sliced'
-  - '1/4 cup Toasted Sesame Seeds'
-  - '1/2 cup Fresh Basil or Cilantro'
-  - '1/2 cup [Korean Pickled Cucumbers](/silton-mise/recipes/korean-pickled-cucumbers) (Optional crunch)'
+  - 1/4 cup Toasted Sesame Seeds
+  - 1/2 cup Fresh Basil or Cilantro
+  - >-
+    1/2 cup [Korean Pickled
+    Cucumbers](/silton-mise/recipes/korean-pickled-cucumbers) (Optional crunch)
 ---
 
 ## Chef's Note

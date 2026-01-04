@@ -8,15 +8,14 @@ totalTime: 20 min
 servings: '36'
 ingredients:
   - '1 cup (2 sticks) Unsalted Butter, softened'
-  - '1 cup Granulated Sugar'
+  - 1 cup Granulated Sugar
   - '1 cup Light Brown Sugar, packed'
-  - '2 large Eggs'
-  - '2 tsp Pure Vanilla Extract'
-  - '--- The Cookie Structure ---'
-  - '3 cups All-Purpose Flour'
-  - '1 tsp Baking Soda + 1/2 tsp Baking Powder'
-  - '1 tsp Sea Salt'
-  - '2 cups (14 oz) Semi-sweet Chocolate Chips'
+  - 2 large Eggs
+  - 2 tsp Pure Vanilla Extract
+  - 3 cups All-Purpose Flour
+  - 1 tsp Baking Soda + 1/2 tsp Baking Powder
+  - 1 tsp Sea Salt
+  - 2 cups (14 oz) Semi-sweet Chocolate Chips
 ---
 
 ## Chef's Note

@@ -5,7 +5,6 @@ cookTime: 40 min
 servings: '6'
 ingredients:
   - '2 lbs boneless, skinless chicken thighs (cut into 1.5-inch chunks)'
-  - '--- The Marinade ---'
   - 3/4 cup Plain Greek Yogurt (Full Fat)
   - '1 tbsp fresh garlic, grated'
   - '1 tbsp fresh ginger, grated'
@@ -13,7 +12,6 @@ ingredients:
   - 1 tsp salt
   - 1 tbsp Kashmiri chili powder (or Paprika for less heat)
   - 1 tsp Garam Masala
-  - '--- The Gravy ---'
   - 2 tbsp Butter + 1 tbsp Vegetable Oil
   - '1 large white onion, diced'
   - '1 tbsp fresh garlic, minced'

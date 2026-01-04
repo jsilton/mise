@@ -7,15 +7,14 @@ cookTime: 0 min
 totalTime: 10 min
 servings: '3'
 ingredients:
-  - '3 oz London Dry Gin (Plymouth preferred)'
-  - '2 oz Montelobos Mezcal (The Smoky Pulse)'
-  - '1.75 oz Remy Martin Cognac'
-  - '3 oz Fresh Lemon Juice (The Acid Balance)'
-  - '0.75 oz Agave Syrup'
-  - '--- The Finishing Touch ---'
-  - '7 dashes Orange Bitters'
-  - '12 oz Spindrift Lemon (to top)'
-  - 'Lemon Peel twists'
+  - 3 oz London Dry Gin (Plymouth preferred)
+  - 2 oz Montelobos Mezcal (The Smoky Pulse)
+  - 1.75 oz Remy Martin Cognac
+  - 3 oz Fresh Lemon Juice (The Acid Balance)
+  - 0.75 oz Agave Syrup
+  - 7 dashes Orange Bitters
+  - 12 oz Spindrift Lemon (to top)
+  - Lemon Peel twists
 ---
 
 ## Chef's Note

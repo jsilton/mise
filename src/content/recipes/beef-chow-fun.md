@@ -8,21 +8,18 @@ totalTime: 30 min
 servings: '4'
 ingredients:
   - '1 lb Flank Steak or Sirloin, sliced thin against the grain'
-  - '--- The Beef Velvet ---'
-  - '1 tbsp Soy Sauce'
-  - '1 tbsp Shaoxing Wine'
-  - '1 tsp Cornstarch'
-  - '1/4 tsp Baking Soda (The secret to tenderness)'
-  - '--- The Stir-Fry ---'
-  - '1 lb Fresh Wide Rice Noodles (Ho Fun)'
-  - '4 oz Bean Sprouts'
+  - 1 tbsp Soy Sauce
+  - 1 tbsp Shaoxing Wine
+  - 1 tsp Cornstarch
+  - 1/4 tsp Baking Soda (The secret to tenderness)
+  - 1 lb Fresh Wide Rice Noodles (Ho Fun)
+  - 4 oz Bean Sprouts
   - '3 stalks Green Onion, cut into 3-inch lengths'
   - '1 tbsp Ginger, julienned'
-  - '--- The Sauce ---'
-  - '2 tbsp Soy Sauce'
-  - '1 tbsp Dark Soy Sauce (For the signature color)'
-  - '1 tsp Sugar'
-  - '1/2 tsp Toasted Sesame Oil'
+  - 2 tbsp Soy Sauce
+  - 1 tbsp Dark Soy Sauce (For the signature color)
+  - 1 tsp Sugar
+  - 1/2 tsp Toasted Sesame Oil
 ---
 
 ## Chef's Note

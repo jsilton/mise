@@ -8,12 +8,11 @@ totalTime: 60 min
 servings: '8'
 ingredients:
   - '3 cups Apples, peeled and sliced thin (Granny Smith preferred)'
-  - '2 cups Fresh Cranberries (1 whole bag)'
-  - '3/4 cup Granulated Sugar'
-  - '--- the crunch Topping ---'
-  - '1 1/2 cups Rolled Oats'
+  - 2 cups Fresh Cranberries (1 whole bag)
+  - 3/4 cup Granulated Sugar
+  - 1 1/2 cups Rolled Oats
   - '1/2 cup Light Brown Sugar, packed'
-  - '1/3 cup All-Purpose Flour'
+  - 1/3 cup All-Purpose Flour
   - '1/2 cup (1 stick) Unsalted Butter, melted (Replaces Margarine)'
   - '1/3 cup Pecans, chopped'
 ---

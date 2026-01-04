@@ -5,19 +5,18 @@ vibe: quick
 prepTime: 10 min
 cookTime: 20 min
 totalTime: 30 min
-servings: '12 muffins'
+servings: 12 muffins
 ingredients:
-  - '9 large Eggs'
+  - 9 large Eggs
   - '3 slices Bacon, cooked and chopped'
   - '2 oz Sharp Cheddar, shredded'
-  - '--- Base ---'
   - '3 tbsp Frozen Spinach, thawed and squeezed dry'
   - '3 tbsp Roma Tomato, finely diced'
   - '3 tbsp Onion, finely diced'
   - '3 tbsp Bell Pepper, finely diced'
-  - '1/4 tsp Kosher Salt'
-  - 'Black Pepper'
-  - 'Cooking spray'
+  - 1/4 tsp Kosher Salt
+  - Black Pepper
+  - Cooking spray
 ---
 
 ## Chef's Note

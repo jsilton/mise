@@ -7,19 +7,16 @@ cookTime: 135 min
 totalTime: 155 min
 servings: '10'
 ingredients:
-  - '4 lbs Whole Butternut Squash'
-  - '--- The Harvest Broth ---'
-  - '7 cups Filtered Water'
-  - '1 (3-inch) Cinnamon Stick'
-  - '1 Star Anise pod + 3 Whole Cloves'
-  - '1/2 tsp Whole Allspice + 1/2 tsp Peppercorns'
-  - '--- The Aromatic Base ---'
+  - 4 lbs Whole Butternut Squash
+  - 7 cups Filtered Water
+  - 1 (3-inch) Cinnamon Stick
+  - 1 Star Anise pod + 3 Whole Cloves
+  - 1/2 tsp Whole Allspice + 1/2 tsp Peppercorns
   - '1 Yellow Onion, chopped'
-  - '1/4 cup Extra-Virgin Olive Oil'
-  - '1 tbsp Apple Cider Vinegar (The Acid Balance)'
-  - '--- The Finishing Touch ---'
-  - '1/2 cup Pomegranate Arils'
-  - '1/4 cup Fresh Cilantro'
+  - 1/4 cup Extra-Virgin Olive Oil
+  - 1 tbsp Apple Cider Vinegar (The Acid Balance)
+  - 1/2 cup Pomegranate Arils
+  - 1/4 cup Fresh Cilantro
 ---
 
 ## Chef's Note

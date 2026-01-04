@@ -7,16 +7,14 @@ cookTime: 25 min
 totalTime: 40 min
 servings: '6'
 ingredients:
-  - '2 cups All-Purpose Flour'
-  - '--- The Cloud Aeration ---'
+  - 2 cups All-Purpose Flour
   - '2 large Eggs, separated'
-  - '2 cups Whole Milk'
-  - '1/2 cup Vegetable Oil'
-  - '1/4 cup Granulated Sugar'
-  - '--- The Leavening ---'
-  - '4 tsp Baking Powder'
-  - '1 tsp Pure Vanilla Extract'
-  - '1/2 tsp Sea Salt'
+  - 2 cups Whole Milk
+  - 1/2 cup Vegetable Oil
+  - 1/4 cup Granulated Sugar
+  - 4 tsp Baking Powder
+  - 1 tsp Pure Vanilla Extract
+  - 1/2 tsp Sea Salt
 ---
 
 ## Chef's Note

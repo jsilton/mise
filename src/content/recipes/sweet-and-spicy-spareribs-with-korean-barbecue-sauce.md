@@ -8,15 +8,14 @@ totalTime: 180 min
 servings: '10'
 ingredients:
   - '8 lbs Pork Spareribs, membranes removed'
-  - '--- The Korean BBQ Emulsion ---'
-  - '1 cup Gochujang (Fermented Hot Pepper Paste)'
-  - '1/2 cup Hoisin Sauce'
-  - '1/2 cup Honey + 1/2 cup Soy Sauce'
-  - '1/2 cup Sake (The complex flavor Pulse)'
-  - '2 tbsp Rice Vinegar (The Acid Balance)'
+  - 1 cup Gochujang (Fermented Hot Pepper Paste)
+  - 1/2 cup Hoisin Sauce
+  - 1/2 cup Honey + 1/2 cup Soy Sauce
+  - 1/2 cup Sake (The complex flavor Pulse)
+  - 2 tbsp Rice Vinegar (The Acid Balance)
   - '2 tbsp Fresh Ginger, grated'
   - '1 tbsp Fresh Garlic, minced'
-  - '2 tbsp White Pepper'
+  - 2 tbsp White Pepper
 ---
 
 ## Chef's Note

@@ -7,19 +7,17 @@ cookTime: 25 min
 totalTime: 35 min
 servings: '4'
 ingredients:
-  - '1 lb Cheese Tortellini (Refrigerated or frozen)'
+  - 1 lb Cheese Tortellini (Refrigerated or frozen)
   - '1 1/2 lbs Fresh Broccoli, cut into bite-sized florets'
-  - '--- The Flavor Base ---'
-  - '3 tbsp Unsalted Butter'
-  - '1 tbsp Extra-Virgin Olive Oil'
+  - 3 tbsp Unsalted Butter
+  - 1 tbsp Extra-Virgin Olive Oil
   - '1 large Shallot, minced'
   - '4 cloves Garlic, minced'
-  - '3 cups Fresh Baby Spinach'
-  - '--- The Finishing Touch Finish ---'
+  - 3 cups Fresh Baby Spinach
   - '1 large Lemon, zested and juiced'
-  - '1/2 cup Freshly Grated Parmesan'
-  - '1/4 tsp Red Pepper Flakes'
-  - 'Salt and Black Pepper'
+  - 1/2 cup Freshly Grated Parmesan
+  - 1/4 tsp Red Pepper Flakes
+  - Salt and Black Pepper
 ---
 
 ## Chef's Note

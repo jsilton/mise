@@ -1,5 +1,5 @@
 ---
-title: Kale Salad with Mango, Avocado and Feta
+title: 'Kale Salad with Mango, Avocado and Feta'
 role: side
 vibe: nutritious
 prepTime: 15 min
@@ -13,13 +13,12 @@ ingredients:
   - '1/2 cup Feta Cheese, crumbled'
   - '1/4 cup Red Onion, finely diced'
   - '1/2 cup Pepitas or Sunflower Seeds, toasted'
-  - '--- The Citrus Vinaigrette ---'
   - '1 Orange, zested and juiced'
-  - '1/3 cup Extra-Virgin Olive Oil'
+  - 1/3 cup Extra-Virgin Olive Oil
   - '1 clove Garlic, minced'
-  - '1 tsp Dijon Mustard'
-  - '2 tsp Honey'
-  - 'Salt and Black Pepper'
+  - 1 tsp Dijon Mustard
+  - 2 tsp Honey
+  - Salt and Black Pepper
 ---
 
 ## Chef's Note

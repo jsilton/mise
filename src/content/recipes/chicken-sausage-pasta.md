@@ -7,17 +7,16 @@ cookTime: 15 min
 totalTime: 25 min
 servings: '4'
 ingredients:
-  - '1 lb Linguine or Fettuccine'
+  - 1 lb Linguine or Fettuccine
   - '1 lb Italian Chicken Sausage, sliced'
   - '1 large Bell Pepper, sliced'
-  - '1 bag (9 oz) Fresh Spinach'
-  - '--- The Tomato Base ---'
-  - '1 can (28 oz) Petite Diced San Marzano Tomatoes'
-  - '1/2 cup Dry Red Wine'
+  - 1 bag (9 oz) Fresh Spinach
+  - 1 can (28 oz) Petite Diced San Marzano Tomatoes
+  - 1/2 cup Dry Red Wine
   - '3 cloves Garlic, minced'
-  - '1 tsp Dried Basil'
-  - '1/2 cup Freshly Grated Parmesan'
-  - '2 tbsp Extra-Virgin Olive Oil'
+  - 1 tsp Dried Basil
+  - 1/2 cup Freshly Grated Parmesan
+  - 2 tbsp Extra-Virgin Olive Oil
 ---
 
 ## Chef's Note

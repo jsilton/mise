@@ -7,14 +7,12 @@ cookTime: 10 min
 totalTime: 20 min
 servings: '6'
 ingredients:
-  - '4 cups Corn Kernels (Freshly cut from cob or thawed frozen)'
-  - '1 tbsp Neutral Oil (for searing)'
-  - '--- The Dressing ---'
-  - '2 tbsp Mayonnaise or Greek Yogurt'
+  - 4 cups Corn Kernels (Freshly cut from cob or thawed frozen)
+  - 1 tbsp Neutral Oil (for searing)
+  - 2 tbsp Mayonnaise or Greek Yogurt
   - '1/4 cup Cotija Cheese or Feta, crumbled'
-  - '1/2 tsp Chili Powder (Ancho or Ancho-Guajillo mix)'
+  - 1/2 tsp Chili Powder (Ancho or Ancho-Guajillo mix)
   - '1 clove Garlic, grated'
-  - '--- The Finish ---'
   - '1/2 cup Fresh Cilantro, chopped'
   - '1 Fresh Lime, juiced'
   - '2 Green Onions, sliced'

@@ -7,16 +7,14 @@ cookTime: 15 min
 totalTime: 25 min
 servings: '4'
 ingredients:
-  - '2 cups Chicken Tenders (about 1 lb)'
-  - '--- Mix ---'
+  - 2 cups Chicken Tenders (about 1 lb)
   - '1/2 cup Celery, finely diced'
   - '2/3 cup Red Grapes, quartered'
   - '1/4 cup Red Onion, finely minced (the crunch)'
-  - '--- The Creamy Bind ---'
-  - '1/2 cup Mayonnaise (Duke’s or Hellmann’s)'
-  - '1 tbsp Fresh Lemon Juice (The Acid Balance)'
-  - '1/2 tsp Sea Salt'
-  - '1/4 tsp Black Pepper'
+  - 1/2 cup Mayonnaise (Duke’s or Hellmann’s)
+  - 1 tbsp Fresh Lemon Juice (The Acid Balance)
+  - 1/2 tsp Sea Salt
+  - 1/4 tsp Black Pepper
 ---
 
 ## Chef's Note

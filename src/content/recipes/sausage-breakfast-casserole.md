@@ -7,17 +7,16 @@ cookTime: 60 min
 totalTime: 75 min
 servings: '10'
 ingredients:
-  - '1 lb Breakfast Sausage (Jimmy Dean Standard)'
+  - 1 lb Breakfast Sausage (Jimmy Dean Standard)
   - '30 oz Frozen Shredded Hash Browns, thawed'
-  - '10 large Eggs'
-  - '1 1/4 cups Heavy Cream (for richness)'
-  - '--- The Flavor Pulse ---'
+  - 10 large Eggs
+  - 1 1/4 cups Heavy Cream (for richness)
   - '2 cups Sharp Cheddar, shredded'
   - '4 Scallions, chopped (whites and greens divided)'
   - '1 Red Bell Pepper, chopped'
-  - '1 tbsp Dijon Mustard'
-  - '2 tsp Hot Sauce (The Finishing Touch)'
-  - 'Salt and Black Pepper'
+  - 1 tbsp Dijon Mustard
+  - 2 tsp Hot Sauce (The Finishing Touch)
+  - Salt and Black Pepper
 ---
 
 ## Chef's Note

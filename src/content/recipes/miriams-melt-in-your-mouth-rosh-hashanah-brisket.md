@@ -7,16 +7,14 @@ cookTime: 5 hours
 totalTime: 12 hours
 servings: '12'
 ingredients:
-  - '3 lb. First-cut Brisket (well-marbled)'
+  - 3 lb. First-cut Brisket (well-marbled)
   - '2 large Spanish Onions, sliced into thick rounds'
-  - '--- The Spice Rub ---'
-  - '2 tbsp Paprika'
-  - '2 tbsp Garlic Powder'
-  - '1 tbsp Kosher Salt'
-  - '2 tbsp Dried Chives (optional)'
-  - '--- The Braise ---'
-  - '1/2 cup Balsamic Vinegar'
-  - '1/3 cup Honey'
+  - 2 tbsp Paprika
+  - 2 tbsp Garlic Powder
+  - 1 tbsp Kosher Salt
+  - 2 tbsp Dried Chives (optional)
+  - 1/2 cup Balsamic Vinegar
+  - 1/3 cup Honey
 ---
 
 ## Chef's Note

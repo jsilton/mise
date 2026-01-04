@@ -7,20 +7,18 @@ cookTime: 25 min
 totalTime: 40 min
 servings: '4'
 ingredients:
-  - '4 Skin-on Salmon Fillets (6-8 oz each)'
-  - '--- The Lemon-Herb Emulsion ---'
-  - '3 tbsp Extra-Virgin Olive Oil'
+  - 4 Skin-on Salmon Fillets (6-8 oz each)
+  - 3 tbsp Extra-Virgin Olive Oil
   - '1 large Lemon, juiced'
   - '1 clove Garlic, grated'
-  - '1 tsp Honey'
+  - 1 tsp Honey
   - '1 tsp Fresh Oregano, chopped'
-  - '--- The Herbed Orzo Base ---'
-  - '1 cup Dry Orzo'
+  - 1 cup Dry Orzo
   - '1 cup Canned Chickpeas, patted bone-dry'
   - '8 oz Cherry Tomatoes, halved'
   - '4 oz Feta Cheese, crumbled'
   - 'Fresh Parsley and Mint, chopped'
-  - 'Salt and Black Pepper'
+  - Salt and Black Pepper
 ---
 
 ## Chef's Note

@@ -7,28 +7,25 @@ cookTime: 240 min
 totalTime: 255 min
 servings: '6'
 ingredients:
-  - '--- The Veggie Base ---'
   - '1 large Red Onion, diced'
   - '2 stalks Celery, diced'
   - '1 large Carrot, diced'
   - '1 Green Bell Pepper, diced'
   - '1 Red Bell Pepper, diced'
   - '1 Sweet Potato, peeled and diced small'
-  - '--- The Three-Bean Mix ---'
   - '1 (15 oz) can Kidney Beans, rinsed'
   - '1 (15 oz) can Garbanzo Beans, rinsed'
   - '1 (15 oz) can Black Beans, rinsed'
-  - '--- The Flavor Engine ---'
-  - '2 (4 oz) cans Diced Green Chiles'
-  - '1 (15 oz) can Diced Tomatoes'
-  - '1 (8 oz) can Tomato Sauce'
-  - '2 1/2 tbsp Chili Powder'
-  - '1 tbsp Ground Cumin'
-  - '2 tsp Garlic Powder'
-  - '2 tsp Dried Oregano'
-  - '1 tbsp Apple Cider Vinegar (The Finishing Touch)'
-  - '1 cup Water (or Veggie Stock)'
-  - 'Salt and Black Pepper'
+  - 2 (4 oz) cans Diced Green Chiles
+  - 1 (15 oz) can Diced Tomatoes
+  - 1 (8 oz) can Tomato Sauce
+  - 2 1/2 tbsp Chili Powder
+  - 1 tbsp Ground Cumin
+  - 2 tsp Garlic Powder
+  - 2 tsp Dried Oregano
+  - 1 tbsp Apple Cider Vinegar (The Finishing Touch)
+  - 1 cup Water (or Veggie Stock)
+  - Salt and Black Pepper
 ---
 
 ## Chef's Note

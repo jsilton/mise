@@ -7,16 +7,15 @@ cookTime: 0 min
 totalTime: 300 min
 servings: '1'
 ingredients:
-  - '1/2 cup Rolled Oats (Old-fashioned)'
-  - '1/3 cup Plain Greek Yogurt for richness'
-  - '2/3 cup Unsweetened Milk of choice'
+  - 1/2 cup Rolled Oats (Old-fashioned)
+  - 1/3 cup Plain Greek Yogurt for richness
+  - 2/3 cup Unsweetened Milk of choice
   - '3 tbsp Cream Cheese, softened'
-  - '--- The Finishing Touch Finish ---'
   - '1/4 cup Fresh Strawberries, chopped'
-  - '1 tbsp Chia Seeds'
+  - 1 tbsp Chia Seeds
   - '1/2 Lemon, zested and juiced (The Acid Balance)'
-  - '1/2 tsp Pure Vanilla Extract'
-  - '1 tbsp Maple Syrup'
+  - 1/2 tsp Pure Vanilla Extract
+  - 1 tbsp Maple Syrup
 ---
 
 ## Chef's Note

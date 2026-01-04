@@ -5,17 +5,16 @@ vibe: technical
 prepTime: 15 min
 cookTime: 10 min
 totalTime: 25 min
-servings: '16 silver dollar pancakes'
+servings: 16 silver dollar pancakes
 ingredients:
-  - '1 cup White Whole Wheat Flour'
-  - '1/2 cup Plain Greek Yogurt for richness'
-  - '3/4 cup Nonfat Milk'
+  - 1 cup White Whole Wheat Flour
+  - 1/2 cup Plain Greek Yogurt for richness
+  - 3/4 cup Nonfat Milk
   - '1/2 cup Fresh Peaches, finely diced'
-  - '--- The Spice Mix ---'
-  - '1 1/2 tsp Baking Powder'
-  - '3/4 tsp Ground Cinnamon'
-  - '1/4 tsp Sea Salt'
-  - '2 tsp Pure Vanilla Extract'
+  - 1 1/2 tsp Baking Powder
+  - 3/4 tsp Ground Cinnamon
+  - 1/4 tsp Sea Salt
+  - 2 tsp Pure Vanilla Extract
   - '1 tsp Unsalted Butter, melted'
 ---
 

@@ -9,17 +9,15 @@ servings: '10'
 ingredients:
   - '12 oz Carp or Pike Fillet, chopped'
   - '12 oz Salmon Fillet, chopped'
-  - '--- The Flavor Bind ---'
-  - '1 cup Heavy Cream'
-  - '2 tbsp Matzo Meal'
+  - 1 cup Heavy Cream
+  - 2 tbsp Matzo Meal
   - '2 large Eggs, beaten'
   - '1 medium Onion, minced'
   - '1 carrot, shredded'
   - '1 tbsp Fresh Dill, minced'
-  - 'Zest of 2 Lemons'
-  - '2 tsp Kosher Salt'
-  - '--- The Fresh Crown ---'
-  - '2 cups Baby Arugula'
+  - Zest of 2 Lemons
+  - 2 tsp Kosher Salt
+  - 2 cups Baby Arugula
   - '4 Radishes, sliced'
   - '1 tbsp Fresh Horseradish, grated'
 ---

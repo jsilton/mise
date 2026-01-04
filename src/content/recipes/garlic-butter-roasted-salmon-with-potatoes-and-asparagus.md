@@ -10,12 +10,11 @@ ingredients:
   - '1 1/4 lbs Salmon Fillet, cut into 4 portions'
   - '1 lb Baby Yukon Gold Potatoes, halved'
   - '12 oz Asparagus, trimmed'
-  - '--- The Garlic Butter Glaze ---'
   - '2 tbsp Unsalted Butter, melted'
-  - '1 tbsp Fresh Lemon Juice (The Acid Balance)'
+  - 1 tbsp Fresh Lemon Juice (The Acid Balance)
   - '2 cloves Garlic, minced'
-  - '2 tbsp Extra-Virgin Olive Oil (divided)'
-  - 'Salt and Black Pepper'
+  - 2 tbsp Extra-Virgin Olive Oil (divided)
+  - Salt and Black Pepper
   - 'Fresh Parsley, chopped'
 ---
 

@@ -9,16 +9,14 @@ servings: '4'
 ingredients:
   - '1 lb Japanese Eggplant, diced'
   - '3/4 lb Chicken Breast, minced or finely diced'
-  - '--- The Garlic-Chile Paste ---'
-  - '3 cloves Garlic'
+  - 3 cloves Garlic
   - '2 Serrano Chiles, minced (The Finishing Touch)'
   - '1 tbsp Fresh Ginger, minced'
-  - '--- The Kee Mao Glaze ---'
-  - '1 tbsp Fish Sauce'
-  - '2 tsp Light Soy Sauce'
-  - '1 tsp Granulated Sugar'
+  - 1 tbsp Fish Sauce
+  - 2 tsp Light Soy Sauce
+  - 1 tsp Granulated Sugar
   - '1 cup Fresh Thai Basil leaves, torn'
-  - 'Neutral Oil (Peanut or Vegetable)'
+  - Neutral Oil (Peanut or Vegetable)
 ---
 
 ## Chef's Note

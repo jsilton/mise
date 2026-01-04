@@ -7,20 +7,18 @@ cookTime: 90 min
 totalTime: 6 hours
 servings: '12'
 ingredients:
-  - '--- The Savory Crust ---'
-  - '3/4 cup Finely Ground Parmigiano Reggiano'
+  - 3/4 cup Finely Ground Parmigiano Reggiano
   - '18 Graham Crackers, crushed'
-  - '1/2 cup Toasted Sunflower Seeds (Nut-Free option)'
-  - '1 tsp Lemon Zest'
-  - '1/2 tsp Cinnamon'
+  - 1/2 cup Toasted Sunflower Seeds (Nut-Free option)
+  - 1 tsp Lemon Zest
+  - 1/2 tsp Cinnamon
   - '4 tbsp Unsalted Butter, melted'
-  - '--- The Velvety Filling ---'
   - '40 oz (5 packs) Cream Cheese, room temperature'
-  - '1 1/3 cups Granulated Sugar'
-  - '1/2 cup Sour Cream'
-  - '1 cup Finely Grated Parmigiano Reggiano (Microplaned)'
+  - 1 1/3 cups Granulated Sugar
+  - 1/2 cup Sour Cream
+  - 1 cup Finely Grated Parmigiano Reggiano (Microplaned)
   - '5 large Eggs, room temperature'
-  - '1 tsp Vanilla Extract'
+  - 1 tsp Vanilla Extract
 ---
 
 ## Chef's Note

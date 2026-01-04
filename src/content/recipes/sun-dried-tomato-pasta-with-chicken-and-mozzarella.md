@@ -8,17 +8,15 @@ totalTime: 30 min
 servings: '4'
 ingredients:
   - '1 lb Chicken Tenderloins, sliced'
-  - '8 oz Penne Pasta'
-  - '--- The Mozzarella Emulsion ---'
-  - '1 cup Half-and-Half'
+  - 8 oz Penne Pasta
+  - 1 cup Half-and-Half
   - '1 cup Sharp Mozzarella, shredded (for texture)'
-  - '4 oz Sun-dried Tomatoes in oil (drained and chopped)'
-  - '--- The Flavor Pulse ---'
-  - '1 cup Fresh Spinach'
-  - '1 tbsp Fresh Basil'
-  - '1/4 tsp Red Pepper Flakes + 1/4 tsp Paprika'
+  - 4 oz Sun-dried Tomatoes in oil (drained and chopped)
+  - 1 cup Fresh Spinach
+  - 1 tbsp Fresh Basil
+  - 1/4 tsp Red Pepper Flakes + 1/4 tsp Paprika
   - '3 cloves Garlic, minced'
-  - '1/2 cup Reserved Pasta Water'
+  - 1/2 cup Reserved Pasta Water
 ---
 
 ## Chef's Note

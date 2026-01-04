@@ -7,15 +7,14 @@ cookTime: 15 min
 totalTime: 25 min
 servings: '4'
 ingredients:
-  - '4 Bone-in Pork Chops (1-inch thick)'
+  - 4 Bone-in Pork Chops (1-inch thick)
   - '2 Fresh Peaches, sliced'
   - '6 oz Feta Cheese, crumbled'
-  - '--- The Balsamic Glaze ---'
-  - '1/2 cup Balsamic Vinegar'
-  - '1 tbsp Honey'
-  - '1 tbsp Fresh Thyme'
+  - 1/2 cup Balsamic Vinegar
+  - 1 tbsp Honey
+  - 1 tbsp Fresh Thyme
   - '1/2 cup Fresh Basil, torn'
-  - 'Salt and Black Pepper'
+  - Salt and Black Pepper
 ---
 
 ## Chef's Note

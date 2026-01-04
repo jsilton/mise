@@ -8,12 +8,11 @@ totalTime: 35 min
 servings: '4'
 ingredients:
   - '2 lbs Sweet Potatoes, peeled'
-  - '2 tbsp Extra-Virgin Olive Oil'
-  - '--- The Flavor Pulse ---'
-  - '1 tsp Garlic Powder'
-  - '1 tsp Smoked Paprika'
-  - '1 tsp Sea Salt'
-  - '1/2 tsp Black Pepper'
+  - 2 tbsp Extra-Virgin Olive Oil
+  - 1 tsp Garlic Powder
+  - 1 tsp Smoked Paprika
+  - 1 tsp Sea Salt
+  - 1/2 tsp Black Pepper
 ---
 
 ## Chef's Note

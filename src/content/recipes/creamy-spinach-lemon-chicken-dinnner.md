@@ -8,15 +8,14 @@ totalTime: 25 min
 servings: '4'
 ingredients:
   - '4 large Chicken Breasts, halved horizontally (cutlets)'
-  - '2 tbsp Olive Oil (Replaces Coconut oil for better savory profile)'
-  - '--- The Lemon Emulsion ---'
-  - '1 cup Low-sodium Chicken Broth'
-  - '1/2 cup Greek Yogurt (Full-fat preferred for stability)'
+  - 2 tbsp Olive Oil (Replaces Coconut oil for better savory profile)
+  - 1 cup Low-sodium Chicken Broth
+  - 1/2 cup Greek Yogurt (Full-fat preferred for stability)
   - '1/2 Lemon, zested and juiced (The Finishing Touch)'
   - '3 cloves Garlic, minced'
-  - '2 tsp Dried Oregano'
-  - '1 bag (9 oz) Fresh Spinach'
-  - 'Salt and Black Pepper'
+  - 2 tsp Dried Oregano
+  - 1 bag (9 oz) Fresh Spinach
+  - Salt and Black Pepper
 ---
 
 ## Chef's Note

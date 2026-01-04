@@ -8,18 +8,16 @@ totalTime: 55 min
 servings: '6'
 ingredients:
   - '3 links Italian Chicken Sausage, casings removed'
-  - '12 oz Fresh Baby Spinach'
-  - '5 large Eggs'
-  - '2/3 cup 2% Milk'
-  - '1/4 cup Half & Half'
-  - '--- The Cheese Mix ---'
+  - 12 oz Fresh Baby Spinach
+  - 5 large Eggs
+  - 2/3 cup 2% Milk
+  - 1/4 cup Half & Half
   - '1 cup Sharp Cheddar (or Havarti), freshly grated'
-  - '1/4 cup Freshly Grated Parmesan'
-  - '--- The Finishing Touch ---'
-  - '3/4 tsp Sea Salt'
-  - '1/8 tsp Black Pepper'
-  - 'Pinch of Freshly Grated Nutmeg'
-  - 'Cooking spray'
+  - 1/4 cup Freshly Grated Parmesan
+  - 3/4 tsp Sea Salt
+  - 1/8 tsp Black Pepper
+  - Pinch of Freshly Grated Nutmeg
+  - Cooking spray
 ---
 
 ## Chef's Note

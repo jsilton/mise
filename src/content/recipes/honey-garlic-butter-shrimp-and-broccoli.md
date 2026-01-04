@@ -8,18 +8,16 @@ totalTime: 20 min
 servings: '4'
 ingredients:
   - '1 lb Large Shrimp (16/20 size), peeled and deveined'
-  - '2 cups Fresh Broccoli Florets'
-  - '--- The Honey-Garlic Glaze ---'
-  - '1/2 cup Honey'
-  - '1/4 cup Low-sodium Soy Sauce'
+  - 2 cups Fresh Broccoli Florets
+  - 1/2 cup Honey
+  - 1/4 cup Low-sodium Soy Sauce
   - '2 tbsp Garlic, minced'
   - '1 tsp Fresh Ginger, grated'
-  - '1/4 tsp Red Pepper Flakes'
-  - '1 tsp Cornstarch'
-  - '--- The Stir-Fry ---'
-  - '2 tbsp Unsalted Butter'
-  - '1 tsp Extra-Virgin Olive Oil'
-  - 'Salt and Black Pepper'
+  - 1/4 tsp Red Pepper Flakes
+  - 1 tsp Cornstarch
+  - 2 tbsp Unsalted Butter
+  - 1 tsp Extra-Virgin Olive Oil
+  - Salt and Black Pepper
 ---
 
 ## Chef's Note

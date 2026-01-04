@@ -7,16 +7,14 @@ cookTime: 10 min
 totalTime: 20 min
 servings: '4'
 ingredients:
-  - '1/2 cup Old-fashioned Rolled Oats'
+  - 1/2 cup Old-fashioned Rolled Oats
   - '1/2 medium Banana, very ripe'
-  - '1/4 cup Low-fat Cottage Cheese'
-  - '1 large Egg'
-  - '--- The Spiced Mix ---'
-  - '1 tsp Baking Powder'
-  - '1/2 tsp Ground Cinnamon'
-  - '1/2 tsp Vanilla Extract'
-  - '--- Optional Mix-ins ---'
-  - 'Fresh Blueberries or Dark Chocolate Chips'
+  - 1/4 cup Low-fat Cottage Cheese
+  - 1 large Egg
+  - 1 tsp Baking Powder
+  - 1/2 tsp Ground Cinnamon
+  - 1/2 tsp Vanilla Extract
+  - Fresh Blueberries or Dark Chocolate Chips
 ---
 
 ## Chef's Note

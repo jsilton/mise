@@ -7,19 +7,18 @@ cookTime: 30 min
 totalTime: 50 min
 servings: '4'
 ingredients:
-  - '1.5 cups Short-grain Rice (Arborio or Bomba)'
+  - 1.5 cups Short-grain Rice (Arborio or Bomba)
   - '1/2 lb Spanish Chorizo (cured), sliced into rounds'
   - '15 oz can Chickpeas, drained'
-  - '--- The Flavor Base ---'
   - '1 Red Bell Pepper, diced'
   - '1 Yellow Onion, diced'
   - '4 cloves Garlic, sliced'
-  - '1 tbsp Tomato Paste'
-  - '1 tsp Smoked Paprika (Pimentón)'
-  - 'Pinch of Saffron threads (optional)'
-  - '3 cups Chicken Broth'
-  - '1/4 cup Dry Sherry or White Wine'
-  - '1/2 cup Raisins (for sweetness balance)'
+  - 1 tbsp Tomato Paste
+  - 1 tsp Smoked Paprika (Pimentón)
+  - Pinch of Saffron threads (optional)
+  - 3 cups Chicken Broth
+  - 1/4 cup Dry Sherry or White Wine
+  - 1/2 cup Raisins (for sweetness balance)
 ---
 
 ## Chef's Note

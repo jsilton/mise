@@ -8,17 +8,15 @@ totalTime: 315 min
 servings: '6'
 ingredients:
   - '3/4 cup Red Lentils, dry'
-  - '1 can (15 oz) Black Beans + 1 can Pinto Beans'
-  - '1 cup Corn Kernels'
-  - '--- The Spiced Base ---'
-  - '2.5 cups Vegetable Broth'
-  - '1 can (15 oz) Tomato Sauce'
-  - '1/2 cup Salsa Verde'
-  - '1 tbsp Tomato Paste'
-  - '--- The Flavor Pulse ---'
-  - '1/2 tsp Cumin + 1/2 tsp Chili Powder'
-  - '1/4 tsp Cayenne (The Finishing Touch)'
-  - '1/4 cup Heavy Cream (Optional)'
+  - 1 can (15 oz) Black Beans + 1 can Pinto Beans
+  - 1 cup Corn Kernels
+  - 2.5 cups Vegetable Broth
+  - 1 can (15 oz) Tomato Sauce
+  - 1/2 cup Salsa Verde
+  - 1 tbsp Tomato Paste
+  - 1/2 tsp Cumin + 1/2 tsp Chili Powder
+  - 1/4 tsp Cayenne (The Finishing Touch)
+  - 1/4 cup Heavy Cream (Optional)
   - 'Tortilla Chips, Avocado, and Lime wedges'
 ---
 

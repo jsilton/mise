@@ -7,19 +7,17 @@ cookTime: 10 min
 totalTime: 25 min
 servings: '4'
 ingredients:
-  - '15 oz Fresh Wide Flat Rice Noodles (Sen Yai)'
-  - '--- The Kee Mao Sauce ---'
-  - '2 tbsp Dark Soy Sauce'
-  - '2 tbsp Oyster Sauce'
-  - '2 tsp Light Soy Sauce'
-  - '2 tsp White Vinegar (The Finishing Touch)'
-  - '2 tsp Granulated Sugar'
-  - '--- The Stir-Fry ---'
+  - 15 oz Fresh Wide Flat Rice Noodles (Sen Yai)
+  - 2 tbsp Dark Soy Sauce
+  - 2 tbsp Oyster Sauce
+  - 2 tsp Light Soy Sauce
+  - 2 tsp White Vinegar (The Finishing Touch)
+  - 2 tsp Granulated Sugar
   - '1 cup Chicken Thighs, thinly sliced'
-  - '1 large Egg'
-  - '4 stems Chinese Broccoli (Gai Lan)'
+  - 1 large Egg
+  - 4 stems Chinese Broccoli (Gai Lan)
   - '2 cloves Garlic, minced'
-  - 'Neutral Oil (Peanut or Vegetable)'
+  - Neutral Oil (Peanut or Vegetable)
 ---
 
 ## Chef's Note

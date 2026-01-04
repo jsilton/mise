@@ -8,21 +8,19 @@ totalTime: 3 days
 servings: '12'
 ingredients:
   - '1 (14-16 lb) Young Turkey, thawed'
-  - '--- The Brine ---'
-  - '1 cup Kosher Salt'
-  - '1/2 cup Light Brown Sugar'
-  - '1 gallon Vegetable Stock'
-  - '1 tbsp Black Peppercorns'
-  - '1 1/2 tsp Allspice Berries'
+  - 1 cup Kosher Salt
+  - 1/2 cup Light Brown Sugar
+  - 1 gallon Vegetable Stock
+  - 1 tbsp Black Peppercorns
+  - 1 1/2 tsp Allspice Berries
   - '1 1/2 tsp Candied Ginger, chopped'
-  - '1 gallon Heavily Iced Water'
-  - '--- The Aromatics ---'
+  - 1 gallon Heavily Iced Water
   - '1 Red Apple, sliced'
   - '1/2 Onion, sliced'
-  - '1 Cinnamon Stick'
-  - '4 sprigs Fresh Rosemary'
-  - '6 leaves Fresh Sage'
-  - 'Canola Oil (for coating)'
+  - 1 Cinnamon Stick
+  - 4 sprigs Fresh Rosemary
+  - 6 leaves Fresh Sage
+  - Canola Oil (for coating)
 ---
 
 ## Chef's Note

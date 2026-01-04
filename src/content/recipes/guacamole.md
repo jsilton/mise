@@ -7,17 +7,16 @@ cookTime: 0 min
 totalTime: 70 min
 servings: '4'
 ingredients:
-  - '3 ripe Haas Avocados'
+  - 3 ripe Haas Avocados
   - '1 large Lime, juiced (The Acid Balance)'
   - '1/2 medium Red Onion, finely diced'
   - '1/2 Jalapeño, seeded and minced'
   - '2 Roma Tomatoes, seeded and diced'
   - '1 clove Garlic, minced'
   - '1 tbsp Fresh Cilantro, chopped'
-  - '--- The Spice Mix ---'
-  - '1/2 tsp Kosher Salt'
-  - '1/2 tsp Ground Cumin'
-  - '1/2 tsp Cayenne Pepper'
+  - 1/2 tsp Kosher Salt
+  - 1/2 tsp Ground Cumin
+  - 1/2 tsp Cayenne Pepper
 ---
 
 ## Chef's Note

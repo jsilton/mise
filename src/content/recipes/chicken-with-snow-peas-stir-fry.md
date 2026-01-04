@@ -8,21 +8,18 @@ totalTime: 25 min
 servings: '4'
 ingredients:
   - '12 oz Chicken Breasts, sliced into thin strips'
-  - '--- The Velveting Marinade ---'
-  - '1 tsp Cornstarch'
-  - '1 tsp Light Soy Sauce'
-  - '1 tsp Peanut Oil'
-  - '--- The Stir-Fry ---'
+  - 1 tsp Cornstarch
+  - 1 tsp Light Soy Sauce
+  - 1 tsp Peanut Oil
   - '1 lb Fresh Snow Peas, trimmed'
-  - '1 tbsp Shaoxing Wine'
-  - '1 tbsp Light Soy Sauce'
-  - '1 tsp Oyster Sauce'
-  - '1/2 tsp Toasted Sesame Oil'
+  - 1 tbsp Shaoxing Wine
+  - 1 tbsp Light Soy Sauce
+  - 1 tsp Oyster Sauce
+  - 1/2 tsp Toasted Sesame Oil
   - '1 clove Garlic, minced'
-  - '1/8 tsp Sugar + pinch of White Pepper'
-  - '--- The Slurry ---'
-  - '1/3 cup Chicken Stock'
-  - '1/2 tbsp Cornstarch'
+  - 1/8 tsp Sugar + pinch of White Pepper
+  - 1/3 cup Chicken Stock
+  - 1/2 tbsp Cornstarch
 ---
 
 ## Chef's Note

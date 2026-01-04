@@ -9,19 +9,17 @@ servings: '4'
 ingredients:
   - '14 oz Extra-firm Tofu, pressed dry and cubed'
   - '1 lb Fresh Broccoli, cut into small florets'
-  - '--- The Lemon-Miso Glaze ---'
-  - '2 tbsp White (Shiro) Miso Paste'
-  - '1/4 cup Fresh Lemon Juice'
-  - '3 tbsp Maple Syrup'
-  - '1 tbsp Cornstarch'
-  - '2 tsp Toasted Sesame Oil'
+  - 2 tbsp White (Shiro) Miso Paste
+  - 1/4 cup Fresh Lemon Juice
+  - 3 tbsp Maple Syrup
+  - 1 tbsp Cornstarch
+  - 2 tsp Toasted Sesame Oil
   - '2 cloves Garlic, minced'
   - '1 inch Fresh Ginger, grated'
-  - '3/4 cup Hot Water'
-  - '--- The Crunch ---'
-  - '1/3 cup Cornstarch (for dredging)'
+  - 3/4 cup Hot Water
+  - 1/3 cup Cornstarch (for dredging)
   - '2 Scallions, chopped'
-  - 'Neutral Oil'
+  - Neutral Oil
 ---
 
 ## Chef's Note

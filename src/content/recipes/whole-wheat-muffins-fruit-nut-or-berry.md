@@ -7,15 +7,13 @@ cookTime: 15 min
 totalTime: 25 min
 servings: '12'
 ingredients:
-  - '1 1/2 cups White Whole-wheat Flour (King Arthur Standard)'
-  - '3/4 cup Apple or Orange Juice (The Acid Balance)'
+  - 1 1/2 cups White Whole-wheat Flour (King Arthur Standard)
+  - 3/4 cup Apple or Orange Juice (The Acid Balance)
   - '1/4 cup Coconut Oil, melted'
-  - '2 tbsp Honey + 1 tsp Pure Vanilla Extract'
-  - '2 large Eggs'
-  - '--- The Spice Pulse ---'
-  - '2 tsp Baking Powder'
-  - '1/2 tsp Cinnamon + 1/8 tsp Nutmeg'
-  - '--- The Custom Snap ---'
+  - 2 tbsp Honey + 1 tsp Pure Vanilla Extract
+  - 2 large Eggs
+  - 2 tsp Baking Powder
+  - 1/2 tsp Cinnamon + 1/8 tsp Nutmeg
   - '1 cup Blueberries, Strawberries, or Pears'
 ---
 

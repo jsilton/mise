@@ -7,15 +7,13 @@ cookTime: 5 min
 totalTime: 15 min
 servings: '8'
 ingredients:
-  - '--- The Thyme Syrup ---'
-  - '1/3 cup Granulated Sugar'
-  - '8 sprigs Fresh Thyme'
-  - '--- The Build ---'
-  - '2 cups Apple Cider (unfiltered)'
-  - '1 1/2 cups Dark Rum (The complex flavor)'
-  - '3/4 cup Fresh Lime Juice (The Acid Balance)'
-  - '1 tsp Angostura Bitters'
-  - 'Club Soda (to top)'
+  - 1/3 cup Granulated Sugar
+  - 8 sprigs Fresh Thyme
+  - 2 cups Apple Cider (unfiltered)
+  - 1 1/2 cups Dark Rum (The complex flavor)
+  - 3/4 cup Fresh Lime Juice (The Acid Balance)
+  - 1 tsp Angostura Bitters
+  - Club Soda (to top)
 ---
 
 ## Chef's Note

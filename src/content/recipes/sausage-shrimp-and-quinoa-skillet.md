@@ -1,5 +1,5 @@
 ---
-title: Sausage, Shrimp & Quinoa Skillet
+title: 'Sausage, Shrimp & Quinoa Skillet'
 role: main
 vibe: quick
 prepTime: 5 min
@@ -9,12 +9,11 @@ servings: '4'
 ingredients:
   - '1/2 lb Medium Shrimp, peeled and deveined'
   - '6 oz Spicy Chicken Sausage, sliced'
-  - '3 1/2 cups Pre-cooked Quinoa (frozen or leftover)'
-  - '--- Base ---'
+  - 3 1/2 cups Pre-cooked Quinoa (frozen or leftover)
   - '1 cup Onion, Pepper, and Celery mix (The Holy Trinity)'
-  - '1 tsp Creole Seasoning (The Finishing Touch)'
-  - '1 tbsp Neutral Oil'
-  - 'Fresh Parsley for garnish'
+  - 1 tsp Creole Seasoning (The Finishing Touch)
+  - 1 tbsp Neutral Oil
+  - Fresh Parsley for garnish
 ---
 
 ## Chef's Note

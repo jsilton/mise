@@ -8,12 +8,10 @@ totalTime: 45 min
 servings: '4'
 ingredients:
   - '1 lb Chicken Breast, diced'
-  - '1.5 cups Dry Orzo'
-  - '1.5 cups Chicken Broth'
-  - '--- The Boursin Emulsion ---'
-  - '5 oz Boursin Cheese (Garlic & Herb)'
+  - 1.5 cups Dry Orzo
+  - 1.5 cups Chicken Broth
+  - 5 oz Boursin Cheese (Garlic & Herb)
   - '1/2 cup Sun-dried Tomatoes in oil, chopped'
-  - '--- The Fresh Snap ---'
   - '1/2 bag (5 oz) Frozen Spinach, thawed and squeezed dry'
   - '3 Fresh Lemons (one for juice, two sliced)'
   - 'Italian Seasoning, Garlic Salt, Pepper'

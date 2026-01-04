@@ -11,17 +11,15 @@ ingredients:
   - '2 large Onions, thinly sliced'
   - '2 Carrots, cut into "Rangiri" (rolling wedges)'
   - '2 Yukon Gold Potatoes, cubed'
-  - '4 cups Chicken Stock'
-  - '--- The Darkness Roux ---'
-  - '4 tbsp Unsalted Butter'
-  - '4 tbsp All-Purpose Flour'
-  - '3 tbsp S&B Oriental Curry Powder (Red Tin)'
-  - '1 tbsp Garam Masala'
-  - '--- The Hidden Sweetness ---'
+  - 4 cups Chicken Stock
+  - 4 tbsp Unsalted Butter
+  - 4 tbsp All-Purpose Flour
+  - 3 tbsp S&B Oriental Curry Powder (Red Tin)
+  - 1 tbsp Garam Masala
   - '1/2 Apple, grated (The "Secret" Note)'
-  - '1 tbsp Worcestershire Sauce'
-  - '1 tbsp Ketchup'
-  - '1 tsp Soy Sauce'
+  - 1 tbsp Worcestershire Sauce
+  - 1 tbsp Ketchup
+  - 1 tsp Soy Sauce
 ---
 
 ## Chef's Note

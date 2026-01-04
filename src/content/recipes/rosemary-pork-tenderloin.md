@@ -7,15 +7,13 @@ cookTime: 30 min
 totalTime: 105 min
 servings: '6'
 ingredients:
-  - '2 Pork Tenderloins (1 lb each)'
-  - '--- The Dijon-Rosemary Glue ---'
-  - '1/3 cup Dijon Mustard (The Finishing Touch)'
+  - 2 Pork Tenderloins (1 lb each)
+  - 1/3 cup Dijon Mustard (The Finishing Touch)
   - '1 tbsp Fresh Rosemary, minced'
   - '2 cloves Garlic, minced'
-  - '2 tsp Black Pepper'
-  - '--- The Bacon Anchor ---'
-  - '4 slices Maple Bacon'
-  - '4 sprigs Fresh Rosemary (whole)'
+  - 2 tsp Black Pepper
+  - 4 slices Maple Bacon
+  - 4 sprigs Fresh Rosemary (whole)
   - '3 cloves Garlic, smashed'
 ---
 

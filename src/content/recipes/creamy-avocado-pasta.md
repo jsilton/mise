@@ -7,18 +7,17 @@ cookTime: 10 min
 totalTime: 20 min
 servings: '4'
 ingredients:
-  - '12 oz Dry Spaghetti or Fettuccine'
-  - '2 ripe Medium Avocados'
+  - 12 oz Dry Spaghetti or Fettuccine
+  - 2 ripe Medium Avocados
   - '1/2 cup Fresh Basil, packed'
   - '1/2 cup Baby Spinach, packed'
-  - '2 cloves Garlic'
-  - '2 tbsp Fresh Lemon Juice (The Acid Balance)'
-  - '1/4 cup Extra-Virgin Olive Oil'
-  - '1/2 cup Reserved Pasta Water'
-  - 'Salt and Black Pepper'
-  - '--- For Garnish ---'
+  - 2 cloves Garlic
+  - 2 tbsp Fresh Lemon Juice (The Acid Balance)
+  - 1/4 cup Extra-Virgin Olive Oil
+  - 1/2 cup Reserved Pasta Water
+  - Salt and Black Pepper
   - 'Cherry Tomatoes, halved'
-  - 'Parmesan Shavings'
+  - Parmesan Shavings
 ---
 
 ## Chef's Note

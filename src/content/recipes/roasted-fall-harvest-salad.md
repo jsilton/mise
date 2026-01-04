@@ -9,16 +9,14 @@ servings: '4'
 ingredients:
   - '1 can (15 oz) Chickpeas, patted bone-dry'
   - '1 Honeynut or Butternut Squash, cubed'
-  - '1/2 cup Dry Quinoa'
+  - 1/2 cup Dry Quinoa
   - '1 bunch Dino Kale, stems removed and chopped'
-  - '--- The Spice Bloom ---'
-  - '1 tsp Cumin + 1 tsp Coriander'
-  - '1/2 tsp Cinnamon + 1/2 tsp Cayenne'
-  - '--- The Maple Tahini Emulsion ---'
-  - '1/4 cup Tahini'
-  - '1/4 cup Fresh Lemon Juice'
-  - '3 tbsp Apple Cider'
-  - '1 tbsp Maple Syrup'
+  - 1 tsp Cumin + 1 tsp Coriander
+  - 1/2 tsp Cinnamon + 1/2 tsp Cayenne
+  - 1/4 cup Tahini
+  - 1/4 cup Fresh Lemon Juice
+  - 3 tbsp Apple Cider
+  - 1 tbsp Maple Syrup
 ---
 
 ## Chef's Note

@@ -8,21 +8,19 @@ totalTime: 40 min
 servings: '6'
 ingredients:
   - '1.5 lbs Chicken Breasts or Thighs, diced'
-  - '1 cup Dry Orzo'
-  - '--- The Flavor Base ---'
-  - '1 tbsp Unsalted Butter'
-  - '1 tbsp Extra-Virgin Olive Oil'
+  - 1 cup Dry Orzo
+  - 1 tbsp Unsalted Butter
+  - 1 tbsp Extra-Virgin Olive Oil
   - '1/2 medium Onion, finely chopped'
   - '2 Carrots, diced'
   - '2 stalks Celery, diced'
   - '3 cloves Garlic, minced'
-  - '2 tbsp All-Purpose Flour'
-  - '--- The Soup Silk ---'
-  - '6 cups Chicken Broth (Low-sodium)'
-  - '1/4 tsp Italian Seasoning'
+  - 2 tbsp All-Purpose Flour
+  - 6 cups Chicken Broth (Low-sodium)
+  - 1/4 tsp Italian Seasoning
   - '1/4 cup Fresh Parsley, chopped'
-  - '2 tbsp Fresh Lemon Juice (The Finishing Touch)'
-  - 'Salt and Black Pepper'
+  - 2 tbsp Fresh Lemon Juice (The Finishing Touch)
+  - Salt and Black Pepper
 ---
 
 ## Chef's Note

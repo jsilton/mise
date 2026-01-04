@@ -9,19 +9,16 @@ servings: '6'
 ingredients:
   - '1 lb Yukon Gold Potatoes, cubed (Skin-off)'
   - '5 cups Leeks, cleaned and sliced (pale green parts only)'
-  - '--- The Flavor Base ---'
-  - '3 tbsp Unsalted Butter'
-  - '2 tbsp Extra-Virgin Olive Oil'
+  - 3 tbsp Unsalted Butter
+  - 2 tbsp Extra-Virgin Olive Oil
   - '2 cloves Garlic, minced'
-  - '2 tbsp All-Purpose Flour'
-  - '5 cups Chicken Broth (or Veggie Broth)'
-  - '--- The Finish ---'
-  - '3/4 cup Half-and-Half (or Heavy Cream)'
-  - '1/8 tsp Nutmeg (The Finishing Touch)'
-  - '1 Fresh Bay Leaf'
-  - 'Salt and White Pepper'
-  - '--- For Garnish ---'
-  - 'Sour Cream and Fresh Chives'
+  - 2 tbsp All-Purpose Flour
+  - 5 cups Chicken Broth (or Veggie Broth)
+  - 3/4 cup Half-and-Half (or Heavy Cream)
+  - 1/8 tsp Nutmeg (The Finishing Touch)
+  - 1 Fresh Bay Leaf
+  - Salt and White Pepper
+  - Sour Cream and Fresh Chives
 ---
 
 ## Chef's Note

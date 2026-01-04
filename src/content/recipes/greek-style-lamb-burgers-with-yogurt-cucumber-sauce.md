@@ -7,24 +7,22 @@ cookTime: 12 min
 totalTime: 45 min
 servings: '4'
 ingredients:
-  - '1 1/2 lbs Ground Lamb'
+  - 1 1/2 lbs Ground Lamb
   - '1 small Yellow Onion, minced'
   - '1 clove Garlic, minced'
   - '3 tbsp Fresh Mint, chopped'
   - '3 tbsp Fresh Flat-leaf Parsley, chopped'
-  - '1 tsp Kosher Salt'
-  - '1/2 tsp Black Pepper'
-  - '--- The Yogurt-Cucumber Sauce ---'
-  - '1 cup Plain Whole-Milk Yogurt (Greek or Traditional)'
+  - 1 tsp Kosher Salt
+  - 1/2 tsp Black Pepper
+  - 1 cup Plain Whole-Milk Yogurt (Greek or Traditional)
   - '1/2 Seedless Cucumber, finely diced'
   - '1 tbsp Fresh Mint, minced'
-  - '2 tbsp Extra-Virgin Olive Oil'
+  - 2 tbsp Extra-Virgin Olive Oil
   - '1 clove Garlic, minced'
-  - '1/2 tsp Sea Salt'
-  - '--- For Assembly ---'
-  - '4 Pocketless Pitas or Naan'
+  - 1/2 tsp Sea Salt
+  - 4 Pocketless Pitas or Naan
   - 'Feta Cheese, crumbled'
-  - 'Sliced Tomatoes and Mixed Greens'
+  - Sliced Tomatoes and Mixed Greens
 ---
 
 ## Chef's Note

@@ -7,24 +7,21 @@ cookTime: 180 min
 totalTime: 225 min
 servings: '8'
 ingredients:
-  - '--- The Crust ---'
-  - '1 cup All-purpose flour'
-  - '1 tbsp Cornstarch'
-  - '1 tbsp Sugar'
-  - '1 tsp Kosher salt'
+  - 1 cup All-purpose flour
+  - 1 tbsp Cornstarch
+  - 1 tbsp Sugar
+  - 1 tsp Kosher salt
   - '1 stick Unsalted butter, chilled and diced'
-  - '3 tbsp Cold milk'
-  - '1 tsp Apple cider vinegar'
-  - '--- The Cider Custard ---'
-  - '2 cups Apple cider (unfiltered preferred)'
-  - '3/4 cup Granulated sugar'
-  - '1/2 cup Sour cream'
-  - '1/4 tsp Salt'
-  - '4 large Eggs'
-  - '--- The Topping ---'
-  - '1 cup Heavy cream'
-  - '1/4 cup Granulated sugar'
-  - '1/2 tsp Ground cinnamon'
+  - 3 tbsp Cold milk
+  - 1 tsp Apple cider vinegar
+  - 2 cups Apple cider (unfiltered preferred)
+  - 3/4 cup Granulated sugar
+  - 1/2 cup Sour cream
+  - 1/4 tsp Salt
+  - 4 large Eggs
+  - 1 cup Heavy cream
+  - 1/4 cup Granulated sugar
+  - 1/2 tsp Ground cinnamon
 ---
 
 ## Chef's Note

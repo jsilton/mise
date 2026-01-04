@@ -7,17 +7,16 @@ cookTime: 15 min
 totalTime: 25 min
 servings: '4'
 ingredients:
-  - '8 oz Whole-wheat Spaghetti'
-  - '5 oz Fresh Baby Spinach'
-  - '--- The Sun-Dried Emulsion ---'
+  - 8 oz Whole-wheat Spaghetti
+  - 5 oz Fresh Baby Spinach
   - '1/2 cup Sun-dried Tomatoes in oil, slivered'
-  - '1/2 cup Sour Cream (for richness)'
-  - '1 cup Low-sodium Chicken Broth'
+  - 1/2 cup Sour Cream (for richness)
+  - 1 cup Low-sodium Chicken Broth
   - '1/4 cup Parmesan, grated'
   - '1/2 cup Red Onion, sliced'
   - '3 cloves Garlic, minced'
-  - '1 tbsp Unsalted Butter'
-  - '1/4 tsp Red Pepper Flakes'
+  - 1 tbsp Unsalted Butter
+  - 1/4 tsp Red Pepper Flakes
 ---
 
 ## Chef's Note

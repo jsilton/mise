@@ -7,16 +7,14 @@ cookTime: 35 min
 totalTime: 40 min
 servings: '4'
 ingredients:
-  - '1 cup Steel-cut Oats'
-  - '3 cups Boiling Water'
-  - '--- Emulsion ---'
-  - '1/2 cup Whole Milk'
-  - '1/2 cup Low-fat Buttermilk (The Acid Balance)'
-  - '1 tbsp Unsalted Butter'
-  - '--- The Finishing Touch ---'
-  - '1 tbsp Light Brown Sugar'
-  - '1/4 tsp Ground Cinnamon'
-  - 'Pinch of Sea Salt'
+  - 1 cup Steel-cut Oats
+  - 3 cups Boiling Water
+  - 1/2 cup Whole Milk
+  - 1/2 cup Low-fat Buttermilk (The Acid Balance)
+  - 1 tbsp Unsalted Butter
+  - 1 tbsp Light Brown Sugar
+  - 1/4 tsp Ground Cinnamon
+  - Pinch of Sea Salt
 ---
 
 ## Chef's Note

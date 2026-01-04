@@ -9,16 +9,13 @@ servings: '4'
 ingredients:
   - '1 lb Small Shrimp, peeled and deveined'
   - '1 large Ripe Mango, finely chopped'
-  - '--- The Cumin Sear ---'
   - '2 tsp Cumin Seeds, toasted and ground'
   - '2 cloves Garlic, sliced'
   - '2 Serrano Chilies, minced (The Finishing Touch)'
-  - '--- The Acid Balance ---'
-  - '5 tbsp Fresh Lime Juice'
+  - 5 tbsp Fresh Lime Juice
   - '1/4 cup Fresh Cilantro, chopped'
-  - '--- For Serving ---'
   - '8 Corn Tortillas, charred'
-  - 'Neutral Oil'
+  - Neutral Oil
 ---
 
 ## Chef's Note

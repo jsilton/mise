@@ -8,15 +8,14 @@ totalTime: 45 min
 servings: '4'
 ingredients:
   - '1 3/4 lbs Boneless, Skin-on Chicken Thighs, cut into 3 pieces each'
-  - '1/2 cup + 1 tbsp Extra-Virgin Olive Oil'
-  - '2 tbsp Sweet Paprika'
-  - '--- The Chile-Yogurt Sauce ---'
-  - '1 cup Plain Greek Yogurt'
-  - '1 tbsp Fresh Lemon Juice'
-  - '1/2 tsp Cayenne Pepper'
-  - '1/4 tsp Red Pepper Flakes'
-  - 'Salt and Black Pepper'
-  - 'Lemon wedges for serving'
+  - 1/2 cup + 1 tbsp Extra-Virgin Olive Oil
+  - 2 tbsp Sweet Paprika
+  - 1 cup Plain Greek Yogurt
+  - 1 tbsp Fresh Lemon Juice
+  - 1/2 tsp Cayenne Pepper
+  - 1/4 tsp Red Pepper Flakes
+  - Salt and Black Pepper
+  - Lemon wedges for serving
 ---
 
 ## Chef's Note

@@ -5,20 +5,19 @@ vibe: quick
 prepTime: 10 min
 cookTime: 20 min
 totalTime: 30 min
-servings: '18 muffins'
+servings: 18 muffins
 ingredients:
-  - '6 oz Fresh Baby Spinach'
-  - '1 large Ripe Banana'
+  - 6 oz Fresh Baby Spinach
+  - 1 large Ripe Banana
   - '1/2 cup Unsalted Butter, melted'
-  - '1/2 cup Honey'
-  - '1 large Egg'
-  - '1 tsp Pure Vanilla Extract'
-  - '3/4 cup Whole Milk'
-  - '--- The Ancient Grain Mix ---'
-  - '2 cups Whole-wheat Flour'
-  - '1 1/2 tsp Ground Cinnamon'
-  - '2 tsp Baking Powder + 1/2 tsp Baking Soda'
-  - '1/4 tsp Sea Salt'
+  - 1/2 cup Honey
+  - 1 large Egg
+  - 1 tsp Pure Vanilla Extract
+  - 3/4 cup Whole Milk
+  - 2 cups Whole-wheat Flour
+  - 1 1/2 tsp Ground Cinnamon
+  - 2 tsp Baking Powder + 1/2 tsp Baking Soda
+  - 1/4 tsp Sea Salt
 ---
 
 ## Chef's Note

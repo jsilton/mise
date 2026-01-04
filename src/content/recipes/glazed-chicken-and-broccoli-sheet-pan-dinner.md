@@ -10,11 +10,10 @@ ingredients:
   - '4 Chicken Drumsticks, skin-on'
   - '3/4 lb Fingerling Potatoes, halved'
   - '1 head Broccoli, cut into small florets'
-  - '3 tbsp Extra-Virgin Olive Oil (divided)'
-  - '--- The Teriyaki Glaze ---'
-  - '2 tbsp Teriyaki Glaze (Scratch or high-quality store bought)'
+  - 3 tbsp Extra-Virgin Olive Oil (divided)
+  - 2 tbsp Teriyaki Glaze (Scratch or high-quality store bought)
   - '1 tsp Fresh Ginger, grated (The Finishing Touch)'
-  - 'Salt and Black Pepper'
+  - Salt and Black Pepper
 ---
 
 ## Chef's Note

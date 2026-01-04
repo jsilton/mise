@@ -7,17 +7,16 @@ cookTime: 15 min
 totalTime: 25 min
 servings: '4'
 ingredients:
-  - '20 Mini Frozen Wontons (Trader Joe’s or H-Mart)'
-  - '6 cups Low-sodium Chicken Broth'
+  - 20 Mini Frozen Wontons (Trader Joe’s or H-Mart)
+  - 6 cups Low-sodium Chicken Broth
   - '1-inch piece Fresh Ginger, smashed'
   - '1 clove Garlic, smashed'
   - '4 Baby Bok Choy, halved'
   - '1 1/2 cups Shiitake Mushrooms, sliced'
-  - '1 tbsp Soy Sauce'
-  - '1 tsp Toasted Sesame Oil'
-  - '--- For Garnish ---'
+  - 1 tbsp Soy Sauce
+  - 1 tsp Toasted Sesame Oil
   - 'Scallions, sliced green parts only'
-  - 'White Pepper'
+  - White Pepper
 ---
 
 ## Chef's Note

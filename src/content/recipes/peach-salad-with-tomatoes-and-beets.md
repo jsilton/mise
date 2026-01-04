@@ -7,19 +7,17 @@ cookTime: 60 min
 totalTime: 85 min
 servings: '8'
 ingredients:
-  - '2 medium Golden Beets'
-  - '2 medium Ripe Tomatoes'
+  - 2 medium Golden Beets
+  - 2 medium Ripe Tomatoes
   - '3 medium Peaches, sliced'
-  - '--- The Honey-Shallot Glaze ---'
-  - '3 tbsp Extra-Virgin Olive Oil'
-  - '2 tbsp Fresh Lemon Juice (The Acid Balance)'
-  - '1 tbsp Honey'
+  - 3 tbsp Extra-Virgin Olive Oil
+  - 2 tbsp Fresh Lemon Juice (The Acid Balance)
+  - 1 tbsp Honey
   - '1 medium Shallot, thinly sliced'
-  - '--- The Finish ---'
   - '2 oz Goat Cheese, crumbled'
-  - '3 tbsp Fresh Mint'
-  - '2 tsp Fresh Thyme'
-  - 'Salt and Black Pepper'
+  - 3 tbsp Fresh Mint
+  - 2 tsp Fresh Thyme
+  - Salt and Black Pepper
 ---
 
 ## Chef's Note

@@ -1,5 +1,5 @@
 ---
-title: quick Honey Garlic Shrimp & Broccoli
+title: Quick Honey Garlic Shrimp & Broccoli
 role: main
 vibe: quick
 prepTime: 5 min
@@ -8,13 +8,12 @@ totalTime: 15 min
 servings: '4'
 ingredients:
   - '1 lb Shrimp, peeled and deveined'
-  - '1 cup Fresh Broccoli Florets'
-  - '--- The 5-Minute Glaze ---'
-  - '4 tbsp Honey'
-  - '3 tbsp Low-sodium Soy Sauce'
+  - 1 cup Fresh Broccoli Florets
+  - 4 tbsp Honey
+  - 3 tbsp Low-sodium Soy Sauce
   - '1 tsp Garlic, minced'
   - '1/2 tsp Fresh Ginger, minced'
-  - '1 tbsp Neutral Oil'
+  - 1 tbsp Neutral Oil
 ---
 
 ## Chef's Note

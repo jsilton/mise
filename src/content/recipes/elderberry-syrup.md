@@ -5,15 +5,14 @@ vibe: technical
 prepTime: 5 min
 cookTime: 60 min
 totalTime: 65 min
-servings: '1 quart'
+servings: 1 quart
 ingredients:
-  - '2/3 cup Dried Black Elderberries'
-  - '3 1/2 cups Water'
+  - 2/3 cup Dried Black Elderberries
+  - 3 1/2 cups Water
   - '2 tbsp Fresh Ginger, minced'
-  - '1 tsp Ground Cinnamon'
-  - '1/2 tsp Whole Cloves'
-  - '--- The Raw Stabilizer ---'
-  - '1 cup Raw Honey (Local preferred)'
+  - 1 tsp Ground Cinnamon
+  - 1/2 tsp Whole Cloves
+  - 1 cup Raw Honey (Local preferred)
 ---
 
 ## Chef's Note

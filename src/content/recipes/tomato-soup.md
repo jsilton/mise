@@ -7,17 +7,16 @@ cookTime: 60 min
 totalTime: 70 min
 servings: '8'
 ingredients:
-  - '1/2 lb (2 sticks) Unsalted Butter (The "Silk" Base)'
+  - 1/2 lb (2 sticks) Unsalted Butter (The "Silk" Base)
   - '1 lb Yellow Onions, diced'
-  - '4 cans (28 oz each) Diced Tomatoes'
-  - '--- The Flavor Pulse ---'
-  - '1 1/4 cups Chicken Broth'
-  - '1/4 cup Granulated Sugar'
-  - '2 tbsp Honey'
-  - '3/4 cup Half-and-Half (for richness)'
-  - '1 tsp Celery Salt (The Finishing Touch)'
-  - '1/2 cup All-Purpose Flour'
-  - 'Salt and Black Pepper'
+  - 4 cans (28 oz each) Diced Tomatoes
+  - 1 1/4 cups Chicken Broth
+  - 1/4 cup Granulated Sugar
+  - 2 tbsp Honey
+  - 3/4 cup Half-and-Half (for richness)
+  - 1 tsp Celery Salt (The Finishing Touch)
+  - 1/2 cup All-Purpose Flour
+  - Salt and Black Pepper
 ---
 
 ## Chef's Note

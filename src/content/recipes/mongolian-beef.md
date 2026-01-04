@@ -8,15 +8,13 @@ totalTime: 25 min
 servings: '4'
 ingredients:
   - '1.5 lbs Flank Steak, sliced very thin against the grain'
-  - '1/4 cup Cornstarch (for velveting)'
-  - '--- The Ginger Glaze ---'
-  - '1/2 cup Soy Sauce'
-  - '1/2 cup Brown Sugar'
+  - 1/4 cup Cornstarch (for velveting)
+  - 1/2 cup Soy Sauce
+  - 1/2 cup Brown Sugar
   - '1 tbsp Fresh Ginger, grated'
   - '3 cloves Garlic, minced'
-  - '--- The Stir-Fry ---'
   - '1 cup Green Onions, cut into 2-inch lengths'
-  - 'Neutral Oil for frying'
+  - Neutral Oil for frying
 ---
 
 ## Chef's Note

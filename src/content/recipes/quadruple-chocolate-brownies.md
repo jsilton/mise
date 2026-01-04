@@ -5,17 +5,15 @@ vibe: comfort
 prepTime: 30 min
 cookTime: 35 min
 totalTime: 120 min
-servings: '48 squares'
+servings: 48 squares
 ingredients:
   - '1 lb (4 sticks) Unsalted Butter, softened'
   - '1 lb Unsweetened Chocolate, chopped'
-  - '--- The Emulsion Base ---'
-  - '5 1/2 cups Granulated Sugar'
-  - '16 large Eggs'
-  - '2 tbsp Pure Vanilla Extract'
-  - '1 1/2 tsp Sea Salt'
-  - '3 3/4 cups All-Purpose Flour'
-  - '--- The Quadruple Snap ---'
+  - 5 1/2 cups Granulated Sugar
+  - 16 large Eggs
+  - 2 tbsp Pure Vanilla Extract
+  - 1 1/2 tsp Sea Salt
+  - 3 3/4 cups All-Purpose Flour
   - '1/2 lb Bittersweet Chocolate, chopped'
   - '1/2 lb White Chocolate, chopped'
   - '1/2 lb Milk Chocolate, chopped'

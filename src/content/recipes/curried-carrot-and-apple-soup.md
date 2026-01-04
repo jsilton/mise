@@ -10,19 +10,17 @@ ingredients:
   - '2 lbs Carrots, cut into 1/4-inch rounds'
   - '1 1/4 lbs Celery Root, peeled and chopped'
   - '1 Granny Smith Apple, peeled and chopped'
-  - '--- The Flavor Engine ---'
-  - '4 tbsp Unsalted Butter'
+  - 4 tbsp Unsalted Butter
   - '1 medium Onion, chopped'
   - '1 Leek, halved and sliced'
   - '1 Fennel bulb, chopped'
-  - '1 tbsp Madras Curry Powder'
-  - '7 Gingersnap Cookies (The "Gingersnap Thickener")'
+  - 1 tbsp Madras Curry Powder
+  - 7 Gingersnap Cookies (The "Gingersnap Thickener")
   - '2 cloves Garlic, crushed'
   - '1 tsp Fresh Ginger, grated'
-  - '2 quarts Chicken Stock'
-  - '--- The Finish ---'
-  - '1 cup Sour Cream'
-  - '1 tsp Apple Cider Vinegar (The Finishing Touch)'
+  - 2 quarts Chicken Stock
+  - 1 cup Sour Cream
+  - 1 tsp Apple Cider Vinegar (The Finishing Touch)
   - 'Toasted Pumpkin Seeds, Mint, and Cilantro for garnish'
 ---
 

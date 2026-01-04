@@ -7,17 +7,16 @@ cookTime: 180 min
 totalTime: 190 min
 servings: '4'
 ingredients:
-  - '2 cups Uncooked Quinoa (rinsed)'
+  - 2 cups Uncooked Quinoa (rinsed)
   - '8 oz Mushrooms, sliced'
-  - '4 cups Vegetable or Chicken Broth'
-  - '--- The Creamy Emulsion ---'
+  - 4 cups Vegetable or Chicken Broth
   - '4 oz Cream Cheese, cubed'
   - '1 cup Italian Blend Cheese, shredded'
   - '1/2 Red Bell Pepper, diced'
   - '2 Green Onions, chopped'
   - '1 tbsp Garlic, minced'
-  - '1 tsp Italian Seasoning'
-  - 'Salt and Black Pepper'
+  - 1 tsp Italian Seasoning
+  - Salt and Black Pepper
 ---
 
 ## Chef's Note

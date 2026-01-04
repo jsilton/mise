@@ -10,14 +10,13 @@ ingredients:
   - '1 large Cauliflower, broken into florets'
   - '2 large Carrots, chopped'
   - '1 cup Green Beans, chopped'
-  - '--- The Coconut Emulsion ---'
-  - '3/4 can Full-fat Coconut Milk'
-  - '2 tbsp Curry Powder'
-  - '1 tsp Garam Masala'
-  - '2 tbsp Almond Meal (thickener)'
+  - 3/4 can Full-fat Coconut Milk
+  - 2 tbsp Curry Powder
+  - 1 tsp Garam Masala
+  - 2 tbsp Almond Meal (thickener)
   - '2 cloves Garlic, minced'
   - '1/2 large Onion, chopped'
-  - '1 tbsp Sea Salt'
+  - 1 tbsp Sea Salt
 ---
 
 ## Chef's Note

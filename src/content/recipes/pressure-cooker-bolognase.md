@@ -5,22 +5,20 @@ vibe: comfort
 prepTime: 15 min
 cookTime: 65 min
 totalTime: 80 min
-servings: '6 cups'
+servings: 6 cups
 ingredients:
   - '1 lb Pork or Veal Shoulder, chopped small'
   - '1 lb Mild or Spicy Italian Sausage, bulk'
-  - '--- The Mirepoix Base ---'
   - '1 large Yellow Onion, finely chopped'
   - '2 Carrots, finely diced'
   - '1 stalk Celery, finely diced'
   - '6 cloves Garlic, minced'
-  - '--- The Umami Pulse ---'
-  - '2 tbsp Tomato Paste'
-  - '1 cup Dry Red Wine (The Finishing Touch)'
+  - 2 tbsp Tomato Paste
+  - 1 cup Dry Red Wine (The Finishing Touch)
   - '1 can (28 oz) San Marzano Tomatoes, hand-crushed'
-  - '2 tbsp Balsamic Vinegar (The Acid Balance)'
-  - '20 Fresh Basil Leaves'
-  - '1 Fresh Bay Leaf'
+  - 2 tbsp Balsamic Vinegar (The Acid Balance)
+  - 20 Fresh Basil Leaves
+  - 1 Fresh Bay Leaf
 ---
 
 ## Chef's Note

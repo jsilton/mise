@@ -5,14 +5,13 @@ vibe: quick
 prepTime: 20 min
 cookTime: 0 min
 totalTime: 80 min
-servings: '42 truffles'
+servings: 42 truffles
 ingredients:
-  - '1 pkg (16 oz) Oreo Cookies'
+  - 1 pkg (16 oz) Oreo Cookies
   - '1 pkg (8 oz) Cream Cheese, softened'
   - '16 oz Semi-Sweet Baking Chocolate, melted'
-  - '--- For Garnish ---'
-  - 'Reserved Oreo Crumbs'
-  - 'Flaky Sea Salt (Optional)'
+  - Reserved Oreo Crumbs
+  - Flaky Sea Salt (Optional)
 ---
 
 ## Chef's Note

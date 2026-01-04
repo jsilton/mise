@@ -7,13 +7,12 @@ cookTime: 20 min
 totalTime: 40 min
 servings: '4'
 ingredients:
-  - '1 lb Shredded Chicken (Rotisserie or Pressure Cooked)'
-  - '1 can (15 oz) Red Enchilada Sauce (Hatch or homemade)'
-  - '8 Corn Tortillas'
+  - 1 lb Shredded Chicken (Rotisserie or Pressure Cooked)
+  - 1 can (15 oz) Red Enchilada Sauce (Hatch or homemade)
+  - 8 Corn Tortillas
   - '1 Red Bell Pepper, finely diced'
-  - '1 can (4 oz) Diced Green Chiles'
+  - 1 can (4 oz) Diced Green Chiles
   - '12 oz Mexican Blend Cheese, shredded'
-  - '--- For Garnish ---'
   - 'Sour Cream, Fresh Cilantro, and Sliced Jalapeños'
 ---
 

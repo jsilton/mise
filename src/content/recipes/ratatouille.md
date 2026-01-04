@@ -7,20 +7,17 @@ cookTime: 40 min
 totalTime: 60 min
 servings: '6'
 ingredients:
-  - '--- The Veggie Snap ---'
   - '1 lb Eggplant, cubed'
   - '1 large Bell Pepper, chopped'
   - '1 medium Zucchini, cubed'
   - '1 medium Yellow Squash, cubed'
-  - '--- The Tomato Base ---'
   - '2 lbs Ripe Tomatoes, grated'
   - '1 medium Yellow Onion, chopped'
   - '4 cloves Garlic, minced'
-  - '--- The Finishing Touch Finish ---'
   - '1/4 cup Fresh Basil, chopped'
-  - '1/4 tsp Red Pepper Flakes'
-  - '1 tsp Fresh Lemon Juice'
-  - 'Extra-Virgin Olive Oil'
+  - 1/4 tsp Red Pepper Flakes
+  - 1 tsp Fresh Lemon Juice
+  - Extra-Virgin Olive Oil
 ---
 
 ## Chef's Note

@@ -10,13 +10,12 @@ ingredients:
   - '1 lb Hot or Sweet Italian Sausage, bulk'
   - '2 lbs Russet Potatoes, 1/2-inch cubes'
   - '5 cups Fresh Kale, chopped'
-  - '--- The Coconut-Bone Broth Base ---'
-  - '4 cups Chicken Bone Broth'
-  - '1 cup Full-fat Coconut Milk (for richness)'
+  - 4 cups Chicken Bone Broth
+  - 1 cup Full-fat Coconut Milk (for richness)
   - '5 cloves Garlic, minced'
   - '1 Yellow Onion, diced'
-  - '1 tsp Red Pepper Flakes (The Finishing Touch)'
-  - 'Sea Salt and Black Pepper'
+  - 1 tsp Red Pepper Flakes (The Finishing Touch)
+  - Sea Salt and Black Pepper
 ---
 
 ## Chef's Note

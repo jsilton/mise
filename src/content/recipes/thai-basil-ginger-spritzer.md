@@ -7,16 +7,14 @@ cookTime: 15 min
 totalTime: 20 min
 servings: '6'
 ingredients:
-  - '--- The Aromatic Syrup ---'
-  - '1 cup Filtered Water'
-  - '1/2 cup Granulated Sugar'
+  - 1 cup Filtered Water
+  - 1/2 cup Granulated Sugar
   - '3 tbsp Fresh Ginger, sliced'
-  - '2 Thai Basil sprigs'
-  - '2 Kaffir Lime Leaves (The Finishing Touch)'
-  - '--- The Build ---'
-  - '3 cups Prosecco or Sparkling Wine (chilled)'
-  - '6 Fresh Thai Basil leaves (for bruising)'
-  - '6 Lime wedges'
+  - 2 Thai Basil sprigs
+  - 2 Kaffir Lime Leaves (The Finishing Touch)
+  - 3 cups Prosecco or Sparkling Wine (chilled)
+  - 6 Fresh Thai Basil leaves (for bruising)
+  - 6 Lime wedges
 ---
 
 ## Chef's Note

@@ -8,26 +8,23 @@ totalTime: 35 min
 servings: '4'
 ingredients:
   - '12 oz Chicken Thighs, thinly sliced'
-  - '8 oz Wide Dried Rice Noodles (Bánh Phở)'
-  - '--- The Velveting Marinade ---'
-  - '2 tbsp Water'
-  - '2 tsp Cornstarch'
-  - '1 tsp Light Soy Sauce'
-  - '--- The Kee Mao Sauce ---'
-  - '1 1/2 tsp Brown Sugar (dissolved in 1 tbsp hot water)'
-  - '2 tsp Light Soy Sauce'
-  - '1 tsp Dark Soy Sauce (for color)'
-  - '1 tbsp Fish Sauce'
-  - '2 tsp Oyster Sauce'
-  - 'Pinch of White Pepper'
-  - '--- The Stir-Fry ---'
+  - 8 oz Wide Dried Rice Noodles (Bánh Phở)
+  - 2 tbsp Water
+  - 2 tsp Cornstarch
+  - 1 tsp Light Soy Sauce
+  - 1 1/2 tsp Brown Sugar (dissolved in 1 tbsp hot water)
+  - 2 tsp Light Soy Sauce
+  - 1 tsp Dark Soy Sauce (for color)
+  - 1 tbsp Fish Sauce
+  - 2 tsp Oyster Sauce
+  - Pinch of White Pepper
   - '1 cup Thai Basil or Holy Basil, packed'
   - '4 Thai Red Chilies, chopped'
   - '3 cloves Garlic, sliced'
   - '2 Shallots, sliced'
   - '5-6 pieces Baby Corn, halved'
-  - '2 tsp Shaoxing Wine'
-  - 'Neutral Oil'
+  - 2 tsp Shaoxing Wine
+  - Neutral Oil
 ---
 
 ## Chef's Note

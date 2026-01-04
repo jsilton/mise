@@ -7,16 +7,15 @@ cookTime: 10 min
 totalTime: 30 min
 servings: '4'
 ingredients:
-  - '1 lb Rigatoni Pasta'
+  - 1 lb Rigatoni Pasta
   - '1 lb Shrimp, peeled and deveined'
-  - '--- The Vodka Emulsion ---'
-  - '3 cups Marinara Sauce (The "Silk" Base)'
-  - '1/2 cup Vodka (The "High Note" Pulse)'
-  - '1/3 cup Heavy Cream'
+  - 3 cups Marinara Sauce (The "Silk" Base)
+  - 1/2 cup Vodka (The "High Note" Pulse)
+  - 1/3 cup Heavy Cream
   - '1 large Broccoli crown, chopped'
   - '3 cloves Garlic, minced'
   - '1/2 cup Fresh Basil, chopped'
-  - 'Extra-Virgin Olive Oil'
+  - Extra-Virgin Olive Oil
 ---
 
 ## Chef's Note

@@ -7,23 +7,20 @@ cookTime: 15 min
 totalTime: 30 min
 servings: '4'
 ingredients:
-  - '6.3 oz Dried Mung Bean Glass Noodles'
-  - '--- The Savory Glaze ---'
-  - '3 tbsp Oyster Sauce'
-  - '3 tbsp Fish Sauce'
-  - '1 tbsp Soy Sauce'
-  - '1 tsp Granulated Sugar'
-  - '--- The Stir-Fry ---'
+  - 6.3 oz Dried Mung Bean Glass Noodles
+  - 3 tbsp Oyster Sauce
+  - 3 tbsp Fish Sauce
+  - 1 tbsp Soy Sauce
+  - 1 tsp Granulated Sugar
   - '1/4 Napa Cabbage, sliced'
   - '1 Bell Pepper, sliced'
   - '1 medium Carrot, grated'
   - '1 Yellow Onion, sliced'
   - '4 cloves Garlic, thinly sliced'
   - '3 large Eggs, whisked'
-  - '--- The Finish ---'
   - '1 Thai Bird Chile, sliced'
   - '4 Scallions, sliced'
-  - 'Grapeseed Oil'
+  - Grapeseed Oil
 ---
 
 ## Chef's Note

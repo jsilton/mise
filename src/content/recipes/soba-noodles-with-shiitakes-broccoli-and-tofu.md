@@ -7,19 +7,17 @@ cookTime: 10 min
 totalTime: 20 min
 servings: '4'
 ingredients:
-  - '8 oz Soba Noodles (Buckwheat)'
+  - 8 oz Soba Noodles (Buckwheat)
   - '1/2 lb Extra-firm Tofu, diced'
   - '1/2 lb Baby Broccoli, sliced'
   - '6 oz Fresh Shiitake Mushrooms, sliced'
-  - '--- The Ginger-Soy Emulsion ---'
-  - '1/2 cup Chicken or Vegetable Stock'
-  - '1 tbsp Soy Sauce + 1 tbsp Shaoxing Wine'
+  - 1/2 cup Chicken or Vegetable Stock
+  - 1 tbsp Soy Sauce + 1 tbsp Shaoxing Wine
   - '1 tbsp Fresh Ginger, minced'
   - '1 tbsp Garlic, minced'
-  - '2 tsp Toasted Sesame Oil (The complex flavor)'
-  - '--- The Finish ---'
+  - 2 tsp Toasted Sesame Oil (The complex flavor)
   - '1/2 cup Fresh Cilantro, chopped'
-  - '1/2 tsp Red Pepper Flakes'
+  - 1/2 tsp Red Pepper Flakes
 ---
 
 ## Chef's Note

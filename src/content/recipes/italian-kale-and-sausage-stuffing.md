@@ -8,18 +8,16 @@ totalTime: 80 min
 servings: '12'
 ingredients:
   - '3/4 lb Ciabatta Bread, sliced 1/2-inch thick'
-  - '1 1/2 cups Whole Milk'
+  - 1 1/2 cups Whole Milk
   - '2 lbs Mild Italian Sausage, casings removed'
-  - '--- The Allium Base ---'
   - '1 medium Yellow Onion, chopped'
   - '1/2 cup Celery, chopped'
   - '1 cup Fresh Parsley, chopped'
   - '3 cloves Garlic, minced'
-  - '--- The Finish ---'
   - '1 1/2 lbs Fresh Kale, ribs removed and chopped'
-  - '1 1/4 cups Freshly Grated Parmesan'
-  - '1 tbsp Fresh Basil + 1 tsp Fresh Sage + 1 tsp Fresh Rosemary'
-  - 'Kosher Salt and Black Pepper'
+  - 1 1/4 cups Freshly Grated Parmesan
+  - 1 tbsp Fresh Basil + 1 tsp Fresh Sage + 1 tsp Fresh Rosemary
+  - Kosher Salt and Black Pepper
 ---
 
 ## Chef's Note

@@ -5,21 +5,19 @@ vibe: comfort
 prepTime: 20 min
 cookTime: 18 min
 totalTime: 1500 min
-servings: '10 jumbo cookies'
+servings: 10 jumbo cookies
 ingredients:
   - '10 tbsp Unsalted Butter, room temp'
   - '3/4 cup Dark Brown Sugar, packed'
-  - '2/3 cup Granulated Sugar'
-  - '1 large Egg'
-  - '2 tsp Pure Vanilla Extract'
-  - '--- The Cocoa Base ---'
-  - '1 cup All-Purpose Flour'
-  - '3/4 cup Dutch-process Cocoa Powder'
-  - '3/4 tsp Kosher Salt'
-  - '1/2 tsp Baking Powder'
-  - '1/2 tsp Baking Soda'
-  - '--- The Crunch ---'
-  - '2 cups Semisweet Chocolate Discs (preferred)'
+  - 2/3 cup Granulated Sugar
+  - 1 large Egg
+  - 2 tsp Pure Vanilla Extract
+  - 1 cup All-Purpose Flour
+  - 3/4 cup Dutch-process Cocoa Powder
+  - 3/4 tsp Kosher Salt
+  - 1/2 tsp Baking Powder
+  - 1/2 tsp Baking Soda
+  - 2 cups Semisweet Chocolate Discs (preferred)
 ---
 
 ## Chef's Note

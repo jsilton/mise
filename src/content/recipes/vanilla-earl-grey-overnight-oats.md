@@ -7,15 +7,13 @@ cookTime: 0 min
 totalTime: 370 min
 servings: '2'
 ingredients:
-  - '2 cups Rolled Oats (Old-fashioned preferred)'
-  - '--- The Earl Grey Emulsion ---'
-  - '1 cup Boiling Water + 1 Earl Grey Tea Bag'
-  - '1/2 cup Almond Milk (or Whole Milk)'
-  - '1 tbsp Pure Honey'
-  - '1 tsp Pure Vanilla Extract'
-  - '--- The Finish ---'
-  - '1 Stroopwafel or Crisp Cookie (the crunch garnish)'
-  - 'Pinch of Sea Salt'
+  - 2 cups Rolled Oats (Old-fashioned preferred)
+  - 1 cup Boiling Water + 1 Earl Grey Tea Bag
+  - 1/2 cup Almond Milk (or Whole Milk)
+  - 1 tbsp Pure Honey
+  - 1 tsp Pure Vanilla Extract
+  - 1 Stroopwafel or Crisp Cookie (the crunch garnish)
+  - Pinch of Sea Salt
 ---
 
 ## Chef's Note

@@ -8,17 +8,15 @@ totalTime: 90 min
 servings: '4'
 ingredients:
   - '1 1/2 lbs Chicken Thighs, boneless and skinless'
-  - '1 1/2 cups Basmati Rice'
-  - '1 can (13.5 oz) Full-fat Coconut Milk'
-  - '--- The Spice Bloom ---'
-  - '1 tsp Ground Turmeric'
-  - '1/2 tsp Cayenne Pepper'
+  - 1 1/2 cups Basmati Rice
+  - 1 can (13.5 oz) Full-fat Coconut Milk
+  - 1 tsp Ground Turmeric
+  - 1/2 tsp Cayenne Pepper
   - '1 large Shallot, chopped'
   - '2 cloves Garlic, chopped'
-  - '--- The Finish ---'
   - '1/2 bunch Dino Kale, sliced into ribbons'
-  - 'Pickled Red Chiles (Optional)'
-  - 'Lime wedges (The Acid Balance)'
+  - Pickled Red Chiles (Optional)
+  - Lime wedges (The Acid Balance)
 ---
 
 ## Chef's Note

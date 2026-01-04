@@ -7,20 +7,18 @@ cookTime: 50 min
 totalTime: 4 hours
 servings: '8'
 ingredients:
-  - '--- The Flaky Crust ---'
-  - '2 1/2 cups All-Purpose Flour'
+  - 2 1/2 cups All-Purpose Flour
   - '14 tbsp Unsalted Butter, ice cold and cubed'
-  - '1 tbsp Sugar'
-  - '1 tsp Kosher Salt'
-  - '2 tbsp Vodka (ice cold - The flakiness secret)'
-  - '2 tbsp Water (ice cold)'
-  - '--- The Caramelized Filling ---'
-  - '3 lbs Baking Apples (Granny Smith or Mutsu)'
-  - '2/3 cup Sugar'
-  - '1/4 cup Butter'
-  - '1 tbsp Lemon Juice'
-  - '1 tsp Cinnamon + 1/4 tsp Nutmeg'
-  - '1 Egg (for wash)'
+  - 1 tbsp Sugar
+  - 1 tsp Kosher Salt
+  - 2 tbsp Vodka (ice cold - The flakiness secret)
+  - 2 tbsp Water (ice cold)
+  - 3 lbs Baking Apples (Granny Smith or Mutsu)
+  - 2/3 cup Sugar
+  - 1/4 cup Butter
+  - 1 tbsp Lemon Juice
+  - 1 tsp Cinnamon + 1/4 tsp Nutmeg
+  - 1 Egg (for wash)
 ---
 
 ## Chef's Note

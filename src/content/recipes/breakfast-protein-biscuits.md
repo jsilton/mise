@@ -7,19 +7,18 @@ cookTime: 25 min
 totalTime: 40 min
 servings: '12'
 ingredients:
-  - '2 1/2 cups All-Purpose Flour'
-  - '1 3/4 cups Plain 2% Greek Yogurt'
-  - '4 large Eggs'
-  - '1/4 cup Ground Flaxseed'
-  - '1 tbsp Baking Powder'
-  - '2 tsp Sea Salt'
-  - '--- The Flavor Mix ---'
+  - 2 1/2 cups All-Purpose Flour
+  - 1 3/4 cups Plain 2% Greek Yogurt
+  - 4 large Eggs
+  - 1/4 cup Ground Flaxseed
+  - 1 tbsp Baking Powder
+  - 2 tsp Sea Salt
   - '1 1/2 cups Fresh Spinach, finely chopped'
   - '1/2 cup Fresh Chives, finely diced'
   - '1 1/2 cups Sharp Cheddar, shredded'
   - '2 cups Cooked Ham, diced small'
-  - '1 tsp Garlic Powder'
-  - '1/2 tsp Red Pepper Flakes'
+  - 1 tsp Garlic Powder
+  - 1/2 tsp Red Pepper Flakes
 ---
 
 ## Chef's Note

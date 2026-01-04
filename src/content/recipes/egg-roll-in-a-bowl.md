@@ -7,16 +7,15 @@ cookTime: 10 min
 totalTime: 20 min
 servings: '4'
 ingredients:
-  - '1 lb Ground Pork (or Ground Turkey)'
-  - '1 bag (14 oz) Coleslaw Mix (shredded cabbage and carrots)'
-  - '2 tbsp Soy Sauce'
-  - '1 tbsp Toasted Sesame Oil'
+  - 1 lb Ground Pork (or Ground Turkey)
+  - 1 bag (14 oz) Coleslaw Mix (shredded cabbage and carrots)
+  - 2 tbsp Soy Sauce
+  - 1 tbsp Toasted Sesame Oil
   - '1 tbsp Fresh Ginger, grated'
   - '2 cloves Garlic, minced'
-  - '--- For Garnish ---'
-  - 'Sliced Green Onions'
-  - 'Chili Crisp or Sriracha'
-  - 'Toasted Sesame Seeds'
+  - Sliced Green Onions
+  - Chili Crisp or Sriracha
+  - Toasted Sesame Seeds
 ---
 
 ## Chef's Note

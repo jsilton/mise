@@ -8,28 +8,25 @@ totalTime: 150 min
 servings: '12'
 ingredients:
   - '--- The Tangzhong (The Secret) ---'
-  - '1/4 cup Bread Flour'
-  - '3/4 cup Water'
-  - '--- The Dough ---'
-  - '3 2/3 cups Bread Flour'
-  - '1/3 cup Granulated Sugar'
-  - '2 tsp Instant Yeast'
-  - '3/4 tsp Fine Sea Salt'
-  - '1/3 cup Heavy Cream (room temp)'
-  - '1/3 cup Whole Milk (room temp)'
-  - '1 large Egg (room temp)'
-  - '1 tsp Vanilla Bean Paste'
-  - '8 tbsp European-style Salted Butter (cool room temp)'
-  - '--- The Cinnamon Filling ---'
-  - '12 tbsp Salted Butter (cool room temp)'
+  - 1/4 cup Bread Flour
+  - 3/4 cup Water
+  - 3 2/3 cups Bread Flour
+  - 1/3 cup Granulated Sugar
+  - 2 tsp Instant Yeast
+  - 3/4 tsp Fine Sea Salt
+  - 1/3 cup Heavy Cream (room temp)
+  - 1/3 cup Whole Milk (room temp)
+  - 1 large Egg (room temp)
+  - 1 tsp Vanilla Bean Paste
+  - 8 tbsp European-style Salted Butter (cool room temp)
+  - 12 tbsp Salted Butter (cool room temp)
   - '3/4 cup Light Brown Sugar, packed'
-  - '2 tbsp Ground Cinnamon'
-  - '--- The Cream Cheese Frosting ---'
-  - '5 oz Cream Cheese (cold)'
-  - '6 tbsp Unsalted Butter (room temp)'
-  - '1 cup Powdered Sugar'
-  - '1/2 tsp Vanilla Bean Paste'
-  - '1 tbsp Heavy Cream'
+  - 2 tbsp Ground Cinnamon
+  - 5 oz Cream Cheese (cold)
+  - 6 tbsp Unsalted Butter (room temp)
+  - 1 cup Powdered Sugar
+  - 1/2 tsp Vanilla Bean Paste
+  - 1 tbsp Heavy Cream
 ---
 
 ## Chef's Note

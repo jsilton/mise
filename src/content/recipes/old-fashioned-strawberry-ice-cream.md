@@ -5,18 +5,17 @@ vibe: nutritious
 prepTime: 30 min
 cookTime: 10 min
 totalTime: 300 min
-servings: '8 cups'
+servings: 8 cups
 ingredients:
   - '4 cups Fresh Strawberries, sliced'
-  - '1 tbsp Fresh Lemon Juice (The Acid Balance)'
-  - '3/4 cup Granulated Sugar (divided)'
-  - '1/4 cup Light Brown Sugar'
-  - '--- The Silk Custard ---'
-  - '4 large Egg Yolks'
-  - '1 1/2 cups Heavy Cream'
-  - '1 1/2 cups Whole Milk'
+  - 1 tbsp Fresh Lemon Juice (The Acid Balance)
+  - 3/4 cup Granulated Sugar (divided)
+  - 1/4 cup Light Brown Sugar
+  - 4 large Egg Yolks
+  - 1 1/2 cups Heavy Cream
+  - 1 1/2 cups Whole Milk
   - '1 Vanilla Bean, seeds scraped'
-  - '1/4 tsp Kosher Salt'
+  - 1/4 tsp Kosher Salt
 ---
 
 ## Chef's Note

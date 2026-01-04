@@ -7,16 +7,15 @@ cookTime: 20 min
 totalTime: 35 min
 servings: '4'
 ingredients:
-  - '1 cup Long-grain White Rice (or Parboiled)'
-  - '1/3 cup Orzo Pasta (for texture)'
-  - '2 tbsp Unsalted Butter'
-  - '--- The Golden Broth ---'
-  - '2 cups Chicken Broth'
-  - '1/4 tsp Garlic Powder'
-  - '1/4 tsp Onion Powder'
-  - '1/8 tsp Turmeric (for color)'
-  - '1 tsp Dried Parsley'
-  - 'Salt and Black Pepper'
+  - 1 cup Long-grain White Rice (or Parboiled)
+  - 1/3 cup Orzo Pasta (for texture)
+  - 2 tbsp Unsalted Butter
+  - 2 cups Chicken Broth
+  - 1/4 tsp Garlic Powder
+  - 1/4 tsp Onion Powder
+  - 1/8 tsp Turmeric (for color)
+  - 1 tsp Dried Parsley
+  - Salt and Black Pepper
 ---
 
 ## Chef's Note

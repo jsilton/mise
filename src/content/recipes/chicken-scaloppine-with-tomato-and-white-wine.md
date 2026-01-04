@@ -8,16 +8,15 @@ totalTime: 35 min
 servings: '6'
 ingredients:
   - '2 lbs Chicken Thighs, pounded thin (1/2-inch)'
-  - '1/2 cup All-Purpose Flour'
-  - '3 tbsp Extra-Virgin Olive Oil'
-  - '--- The Flavor Base ---'
+  - 1/2 cup All-Purpose Flour
+  - 3 tbsp Extra-Virgin Olive Oil
   - '5 cloves Garlic, minced'
-  - '2 tbsp Tomato Paste'
-  - '1/2 cup Dry White Wine (Pinot Grigio or Sauvignon Blanc)'
-  - '1/2 cup Chicken Broth'
-  - '1 bag (9 oz) Fresh Spinach'
+  - 2 tbsp Tomato Paste
+  - 1/2 cup Dry White Wine (Pinot Grigio or Sauvignon Blanc)
+  - 1/2 cup Chicken Broth
+  - 1 bag (9 oz) Fresh Spinach
   - '1 tbsp Cold Butter, cubed'
-  - 'Salt and Black Pepper'
+  - Salt and Black Pepper
 ---
 
 ## Chef's Note

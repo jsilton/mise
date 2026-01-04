@@ -7,15 +7,13 @@ cookTime: 15 min
 totalTime: 20 min
 servings: '6'
 ingredients:
-  - '1 lb Elbow Macaroni or Shells'
-  - '--- The Mornay Emulsion ---'
-  - '1 1/2 cups Whole Milk'
-  - '2 tbsp All-Purpose Flour'
+  - 1 lb Elbow Macaroni or Shells
+  - 1 1/2 cups Whole Milk
+  - 2 tbsp All-Purpose Flour
   - '3 cups Sharp Cheddar, shredded'
-  - '--- The Flavor Pulse ---'
-  - '1/2 tsp Sea Salt'
-  - '1/4 tsp Dry Mustard Powder (The Finishing Touch)'
-  - '1 tbsp Unsalted Butter'
+  - 1/2 tsp Sea Salt
+  - 1/4 tsp Dry Mustard Powder (The Finishing Touch)
+  - 1 tbsp Unsalted Butter
 ---
 
 ## Chef's Note

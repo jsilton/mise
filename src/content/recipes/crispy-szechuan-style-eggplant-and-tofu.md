@@ -9,19 +9,17 @@ servings: '4'
 ingredients:
   - '1 medium Eggplant, cut into 3/4-inch cubes'
   - '1 block Extra-firm Tofu, pressed dry and cubed'
-  - '2/3 cup + 2 tsp Cornstarch (The Crunch)'
-  - '--- The Szechuan Glaze ---'
-  - '1/4 cup Chicken or Veggie Broth'
-  - '2 tbsp Soy Sauce'
-  - '2 tbsp Rice Vinegar'
-  - '1 1/2 tbsp Sugar'
-  - '1 tsp Lime Juice (The Finishing Touch)'
-  - '--- The Aromatics ---'
+  - 2/3 cup + 2 tsp Cornstarch (The Crunch)
+  - 1/4 cup Chicken or Veggie Broth
+  - 2 tbsp Soy Sauce
+  - 2 tbsp Rice Vinegar
+  - 1 1/2 tbsp Sugar
+  - 1 tsp Lime Juice (The Finishing Touch)
   - '1 tbsp Fresh Ginger, grated'
   - '2 cloves Garlic, grated'
   - '3 Thai Bird Chiles, minced'
-  - '1 tbsp Toasted Sesame Oil'
-  - 'Peanut Oil (for frying)'
+  - 1 tbsp Toasted Sesame Oil
+  - Peanut Oil (for frying)
 ---
 
 ## Chef's Note

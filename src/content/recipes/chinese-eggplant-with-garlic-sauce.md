@@ -7,25 +7,23 @@ cookTime: 20 min
 totalTime: 35 min
 servings: '4'
 ingredients:
-  - '1 lb Chinese or Japanese Eggplants (2-3 eggplants)'
-  - '4 oz Ground Pork (optional)'
-  - '--- The Garlic Sauce ---'
+  - 1 lb Chinese or Japanese Eggplants (2-3 eggplants)
+  - 4 oz Ground Pork (optional)
   - '2 tbsp Garlic, finely minced'
   - '2 tsp Fresh Ginger, minced'
-  - '1 1/2 tbsp Oyster Sauce'
-  - '1 tbsp Light Soy Sauce'
-  - '1/2 tsp Dark Soy Sauce (for color)'
-  - '1 tbsp Rice Vinegar'
-  - '1 tbsp Shaoxing Wine'
-  - '1 tsp Toasted Sesame Oil'
-  - '1 tbsp Sugar'
-  - '1 tbsp Cornstarch'
-  - '1/2 cup Hot Water'
-  - '--- The Aromatics ---'
+  - 1 1/2 tbsp Oyster Sauce
+  - 1 tbsp Light Soy Sauce
+  - 1/2 tsp Dark Soy Sauce (for color)
+  - 1 tbsp Rice Vinegar
+  - 1 tbsp Shaoxing Wine
+  - 1 tsp Toasted Sesame Oil
+  - 1 tbsp Sugar
+  - 1 tbsp Cornstarch
+  - 1/2 cup Hot Water
   - '5-10 Dried Red Chilies, sliced'
   - '2 Scallions, chopped'
-  - '1 tbsp Spicy Bean Paste (La Doubanjiang)'
-  - 'Neutral Oil'
+  - 1 tbsp Spicy Bean Paste (La Doubanjiang)
+  - Neutral Oil
 ---
 
 ## Chef's Note

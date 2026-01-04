@@ -10,15 +10,13 @@ ingredients:
   - '3 lbs Roma Tomatoes, halved'
   - '6 cloves Garlic, peeled'
   - '1 Yellow Onion, chopped'
-  - '--- The Liquid Base ---'
-  - '1 can (28 oz) Whole Peeled Tomatoes'
-  - '3 cups Vegetable or Chicken Broth'
-  - '1/2 cup Heavy Cream (Optional)'
-  - '--- The Finishing Touch Finish ---'
+  - 1 can (28 oz) Whole Peeled Tomatoes
+  - 3 cups Vegetable or Chicken Broth
+  - 1/2 cup Heavy Cream (Optional)
   - '1/2 cup Fresh Basil, chopped'
-  - '1/2 tsp Red Pepper Flakes'
-  - '3 tbsp Extra-Virgin Olive Oil'
-  - 'Salt and Black Pepper'
+  - 1/2 tsp Red Pepper Flakes
+  - 3 tbsp Extra-Virgin Olive Oil
+  - Salt and Black Pepper
 ---
 
 ## Chef's Note

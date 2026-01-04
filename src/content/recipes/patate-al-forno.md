@@ -8,12 +8,11 @@ totalTime: 50 min
 servings: '6'
 ingredients:
   - '2 lbs Yukon Gold Potatoes, cut into 1-inch chunks'
-  - '3 tbsp Extra-Virgin Olive Oil'
-  - '--- The Flavor Pulse ---'
+  - 3 tbsp Extra-Virgin Olive Oil
   - '2 sprigs Fresh Rosemary, finely chopped'
-  - '1 tsp Garlic Powder'
-  - '1 tsp Sea Salt'
-  - 'Black Pepper to taste'
+  - 1 tsp Garlic Powder
+  - 1 tsp Sea Salt
+  - Black Pepper to taste
 ---
 
 ## Chef's Note

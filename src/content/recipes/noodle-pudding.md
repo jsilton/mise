@@ -7,19 +7,17 @@ cookTime: 60 min
 totalTime: 90 min
 servings: '12'
 ingredients:
-  - '16 oz Egg Noodles (medium-width)'
-  - '--- The Triple Cream Base ---'
-  - '16 oz Sour Cream'
-  - '16 oz Large Curd Cottage Cheese'
+  - 16 oz Egg Noodles (medium-width)
+  - 16 oz Sour Cream
+  - 16 oz Large Curd Cottage Cheese
   - '8 oz Cream Cheese, softened'
-  - '12 oz Unsalted Butter (melted and divided)'
+  - 12 oz Unsalted Butter (melted and divided)
   - '8 large Eggs, beaten'
-  - '3/4 cup Granulated Sugar'
-  - '1 tsp Ground Cinnamon'
-  - '--- The Corn Flake Snap ---'
+  - 3/4 cup Granulated Sugar
+  - 1 tsp Ground Cinnamon
   - '2 cups Corn Flakes, crushed'
-  - '1/2 cup Light Brown Sugar'
-  - '1/2 cup Golden Raisins'
+  - 1/2 cup Light Brown Sugar
+  - 1/2 cup Golden Raisins
 ---
 
 ## Chef's Note

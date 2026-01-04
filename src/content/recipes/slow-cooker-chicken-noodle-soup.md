@@ -7,16 +7,14 @@ cookTime: 510 min
 totalTime: 525 min
 servings: '10'
 ingredients:
-  - '1 1/2 lbs Chicken Breasts or Thighs'
-  - '8 cups High-quality Chicken Stock'
-  - '--- The Mirepoix Base ---'
+  - 1 1/2 lbs Chicken Breasts or Thighs
+  - 8 cups High-quality Chicken Stock
   - '1 Yellow Onion, diced'
   - '3 Carrots, diced'
   - '3 stalks Celery, diced'
   - '4 cloves Garlic, minced'
-  - '1/2 tsp Dried Thyme + 1/2 tsp Dried Rosemary'
-  - '--- The Finish ---'
-  - '2 cups Corkscrew (Fusilli) Pasta'
+  - 1/2 tsp Dried Thyme + 1/2 tsp Dried Rosemary
+  - 2 cups Corkscrew (Fusilli) Pasta
   - '1 Lemon, juiced (The Acid Balance)'
   - '1/4 cup Fresh Parsley, chopped'
 ---

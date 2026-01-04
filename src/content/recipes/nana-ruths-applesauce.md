@@ -1,5 +1,5 @@
 ---
-title: 'Nana Ruth’s Applesauce'
+title: Nana Ruth’s Applesauce
 role: base
 vibe: nutritious
 prepTime: 10 min
@@ -7,14 +7,13 @@ cookTime: 30 min
 totalTime: 40 min
 servings: '6'
 ingredients:
-  - '6 lbs McIntosh Apples'
-  - '1/2 cup Granulated Sugar'
-  - '1/4 cup Honey'
-  - '--- The Spice Pulse ---'
+  - 6 lbs McIntosh Apples
+  - 1/2 cup Granulated Sugar
+  - 1/4 cup Honey
   - '1 Lemon, juiced (The Acid Balance)'
-  - '3 shakes Ground Cinnamon'
-  - '1 shake Ground Nutmeg'
-  - 'Filtered Water'
+  - 3 shakes Ground Cinnamon
+  - 1 shake Ground Nutmeg
+  - Filtered Water
 ---
 
 ## Chef's Note

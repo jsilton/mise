@@ -8,15 +8,14 @@ totalTime: 35 min
 servings: '4'
 ingredients:
   - '1 lb Chicken Thighs, thinly sliced'
-  - '1 can (14 oz) Full-Fat Coconut Milk (Do not shake)'
-  - '2 tbsp Panang Curry Paste (Maesri or Mae Ploy brand)'
-  - '2 tbsp Palm Sugar (or Brown Sugar)'
-  - '1 tbsp Fish Sauce'
+  - 1 can (14 oz) Full-Fat Coconut Milk (Do not shake)
+  - 2 tbsp Panang Curry Paste (Maesri or Mae Ploy brand)
+  - 2 tbsp Palm Sugar (or Brown Sugar)
+  - 1 tbsp Fish Sauce
   - '4 Kaffir Lime Leaves, torn'
   - '1 Red Bell Pepper, sliced'
-  - '--- The Garnish ---'
-  - 'Handful of Thai Basil'
-  - 'Crushed Toasted Peanuts or Sunflower Seeds (Nut-Free option)'
+  - Handful of Thai Basil
+  - Crushed Toasted Peanuts or Sunflower Seeds (Nut-Free option)
 ---
 
 ## Chef's Note

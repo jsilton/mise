@@ -7,17 +7,15 @@ cookTime: 380 min
 totalTime: 400 min
 servings: '5'
 ingredients:
-  - '3 lbs Whole Chicken Legs (skin-on)'
-  - '--- The Umami Broth ---'
-  - '1/2 cup Sweet White Miso Paste'
-  - '2 tbsp Tamari + 2 tbsp Mirin'
+  - 3 lbs Whole Chicken Legs (skin-on)
+  - 1/2 cup Sweet White Miso Paste
+  - 2 tbsp Tamari + 2 tbsp Mirin
   - '3 cloves Garlic, smashed'
-  - '4 Dried Shiitake Mushrooms'
-  - '1 sheet Dried Kombu'
-  - '--- The Finish ---'
+  - 4 Dried Shiitake Mushrooms
+  - 1 sheet Dried Kombu
   - '1 lb Baby Bok Choy, chopped'
-  - '12 oz Fresh Ramen Noodles'
-  - 'Soft-boiled Eggs and Nori for garnish'
+  - 12 oz Fresh Ramen Noodles
+  - Soft-boiled Eggs and Nori for garnish
 ---
 
 ## Chef's Note

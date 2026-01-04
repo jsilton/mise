@@ -7,15 +7,14 @@ cookTime: 20 min
 totalTime: 25 min
 servings: '4'
 ingredients:
-  - '6 large Eggs'
-  - '1 cup Whole Milk'
-  - '1 cup All-Purpose Flour'
-  - '4 tbsp Unsalted Butter'
-  - '1 tsp Vanilla Extract'
-  - 'Pinch of Sea Salt'
-  - '--- For Topping ---'
-  - 'Fresh Lemon Juice and Powdered Sugar'
-  - 'Warm Maple Syrup'
+  - 6 large Eggs
+  - 1 cup Whole Milk
+  - 1 cup All-Purpose Flour
+  - 4 tbsp Unsalted Butter
+  - 1 tsp Vanilla Extract
+  - Pinch of Sea Salt
+  - Fresh Lemon Juice and Powdered Sugar
+  - Warm Maple Syrup
 ---
 
 ## Chef's Note

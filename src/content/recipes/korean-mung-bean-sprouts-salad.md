@@ -7,14 +7,13 @@ cookTime: 5 min
 totalTime: 10 min
 servings: '4'
 ingredients:
-  - '350g (0.8 lbs) Fresh Mung Bean Sprouts'
-  - '1 tsp Fine Sea Salt (for boiling)'
-  - '--- The Namul Dressing ---'
+  - 350g (0.8 lbs) Fresh Mung Bean Sprouts
+  - 1 tsp Fine Sea Salt (for boiling)
   - '1 tsp Scallion, finely chopped'
   - '1/2 tsp Garlic, minced'
-  - '1/2 tsp Fine Sea Salt'
-  - '1 tbsp Toasted Sesame Oil'
-  - '1 tsp Toasted Sesame Seeds'
+  - 1/2 tsp Fine Sea Salt
+  - 1 tbsp Toasted Sesame Oil
+  - 1 tsp Toasted Sesame Seeds
 ---
 
 ## Chef's Note

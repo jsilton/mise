@@ -9,12 +9,11 @@ servings: '4'
 ingredients:
   - '1 medium head Cauliflower, cut into small florets'
   - '1 tbsp Cream Cheese, softened'
-  - '1/4 cup Freshly Grated Parmesan'
+  - 1/4 cup Freshly Grated Parmesan
   - '1/2 tsp Garlic, minced'
-  - '3 tbsp Unsalted Butter (plus extra for serving)'
-  - '1/2 tsp Better Than Bouillon (Chicken or Veggie base)'
-  - 'Salt and Black Pepper'
-  - '--- For Garnish ---'
+  - 3 tbsp Unsalted Butter (plus extra for serving)
+  - 1/2 tsp Better Than Bouillon (Chicken or Veggie base)
+  - Salt and Black Pepper
   - 'Fresh Chives, chopped'
 ---
 

@@ -9,14 +9,13 @@ servings: '4'
 ingredients:
   - '2 1/4 lbs Skin-on, Bone-in Chicken Thighs'
   - '2 large ears Fresh Corn, shucked'
-  - '--- The Herbed Salsa ---'
   - '1 cup Fresh Basil, packed'
   - '1/2 cup Fresh Mint, packed'
-  - '1/4 cup Freshly Grated Parmesan'
-  - '1 clove Garlic'
-  - '1/4 cup Fresh Lemon Juice (The Finishing Touch)'
-  - '2 tbsp Extra-Virgin Olive Oil'
-  - 'Salt and Black Pepper'
+  - 1/4 cup Freshly Grated Parmesan
+  - 1 clove Garlic
+  - 1/4 cup Fresh Lemon Juice (The Finishing Touch)
+  - 2 tbsp Extra-Virgin Olive Oil
+  - Salt and Black Pepper
 ---
 
 ## Chef's Note

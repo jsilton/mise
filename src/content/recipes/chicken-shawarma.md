@@ -8,16 +8,14 @@ totalTime: 4 hours
 servings: '4'
 ingredients:
   - '1.5 lbs Chicken Thighs, boneless/skinless'
-  - '--- The Shawarma Rub ---'
-  - '2 tbsp Olive Oil'
-  - '1 tbsp Fresh Lemon Juice'
-  - '1 tsp Ground Cumin'
-  - '1 tsp Ground Coriander'
-  - '1 tsp Turmeric'
-  - '1/2 tsp Ground Cinnamon'
-  - '1/2 tsp Smoked Paprika'
-  - '1/2 tsp Salt'
-  - '--- The Finish ---'
+  - 2 tbsp Olive Oil
+  - 1 tbsp Fresh Lemon Juice
+  - 1 tsp Ground Cumin
+  - 1 tsp Ground Coriander
+  - 1 tsp Turmeric
+  - 1/2 tsp Ground Cinnamon
+  - 1/2 tsp Smoked Paprika
+  - 1/2 tsp Salt
   - '[Tahini Sauce](/silton-mise/recipes/tahini-sauce)'
 ---
 

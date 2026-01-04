@@ -7,17 +7,16 @@ cookTime: 15 min
 totalTime: 25 min
 servings: '4'
 ingredients:
-  - '1 lb Dried Mini-Shell Pasta'
+  - 1 lb Dried Mini-Shell Pasta
   - '10 slices Smoked Bacon, slivered'
-  - '2 cups Frozen Peas'
-  - '--- The Creamy Emulsion ---'
-  - '2 tbsp Crème Fraîche or Heavy Cream'
+  - 2 cups Frozen Peas
+  - 2 tbsp Crème Fraîche or Heavy Cream
   - '1 Lemon, juiced (The Acid Balance)'
   - '6 oz Parmesan, finely grated'
   - '2 tbsp Fresh Mint, finely chopped'
-  - '1 tbsp Unsalted Butter'
-  - '1/2 cup Reserved Pasta Water'
-  - 'Salt and Black Pepper'
+  - 1 tbsp Unsalted Butter
+  - 1/2 cup Reserved Pasta Water
+  - Salt and Black Pepper
 ---
 
 ## Chef's Note

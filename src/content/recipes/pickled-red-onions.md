@@ -1,17 +1,17 @@
 ---
-title: quick Pickled Red Onions
+title: Quick Pickled Red Onions
 role: condiment
 vibe: quick
 prepTime: 10 min
 cookTime: 0 min
 totalTime: 40 min
-servings: '1 cup'
+servings: 1 cup
 ingredients:
   - '1 large Red Onion, thinly sliced into half-moons'
-  - '1/2 cup Apple Cider Vinegar'
-  - '1/2 cup Warm Water'
-  - '1 tbsp Sugar'
-  - '1 1/2 tsp Kosher Salt'
+  - 1/2 cup Apple Cider Vinegar
+  - 1/2 cup Warm Water
+  - 1 tbsp Sugar
+  - 1 1/2 tsp Kosher Salt
 ---
 
 ## Chef's Note

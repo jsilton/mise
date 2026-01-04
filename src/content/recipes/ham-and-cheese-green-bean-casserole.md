@@ -9,16 +9,14 @@ servings: '8'
 ingredients:
   - '1 lb Fresh Green Beans, trimmed'
   - '1/2 lb Cooked Ham, diced'
-  - '--- The Savory Bind ---'
-  - '2 cans (10.75 oz) Condensed Cream of Mushroom Soup'
-  - '3/4 cup Half-and-Half'
+  - 2 cans (10.75 oz) Condensed Cream of Mushroom Soup
+  - 3/4 cup Half-and-Half
   - '1/2 cup Yellow Onion, diced'
-  - '1 tsp Garlic Powder'
-  - '1/2 tsp Kosher Salt'
-  - '--- The Crunch Layers ---'
+  - 1 tsp Garlic Powder
+  - 1/2 tsp Kosher Salt
   - '2 1/2 cups Sharp Cheddar, freshly grated'
-  - '1 cup Canned French Fried Onions (divided)'
-  - 'Unsalted Butter (for the dish)'
+  - 1 cup Canned French Fried Onions (divided)
+  - Unsalted Butter (for the dish)
 ---
 
 ## Chef's Note

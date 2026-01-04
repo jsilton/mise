@@ -14,7 +14,6 @@ ingredients:
   - 1/4 cup Plain Greek Yogurt (Full fat)
   - 2 tbsp Olive Oil
   - 1/2 cup Warm Water
-  - '--- For Finishing ---'
   - 2 tbsp Melted Butter
   - '1 clove Garlic, minced'
   - Fresh Cilantro

@@ -8,20 +8,17 @@ totalTime: 35 min
 servings: '4'
 ingredients:
   - '1.5 lbs Chicken Thighs, boneless and skinless'
-  - '--- The Souvlaki Marinade ---'
-  - '3 tbsp Extra-Virgin Olive Oil'
-  - '2 tbsp Fresh Lemon Juice'
-  - '1 tbsp Dried Oregano'
+  - 3 tbsp Extra-Virgin Olive Oil
+  - 2 tbsp Fresh Lemon Juice
+  - 1 tbsp Dried Oregano
   - '2 cloves Garlic, minced'
-  - '--- The Component Stacks ---'
-  - '1 cup Hummus (The "Silk" Base)'
-  - '2 cups Cooked Yellow Rice or Quinoa'
+  - 1 cup Hummus (The "Silk" Base)
+  - 2 cups Cooked Yellow Rice or Quinoa
   - '1 English Cucumber, diced'
   - '1 pint Cherry Tomatoes, halved'
   - '1/2 cup Feta Cheese, crumbled'
-  - '--- The Acid Balance ---'
   - '[Pickled Red Onions](/silton-mise/recipes/pickled-red-onions)'
-  - 'Fresh Lemon wedges'
+  - Fresh Lemon wedges
 ---
 
 ## Chef's Note

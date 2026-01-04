@@ -8,18 +8,17 @@ totalTime: 45 min
 servings: '4'
 ingredients:
   - '1 1/2 lbs Large Shrimp (U10), peeled and deveined'
-  - '2 cups Arborio Rice'
-  - '1 cup Dry White Wine'
+  - 2 cups Arborio Rice
+  - 1 cup Dry White Wine
   - '5-6 cups Chicken or Vegetable Broth, heated'
-  - '--- The Flavor Pulse ---'
   - '1 large Onion, finely diced'
   - '4 cloves Garlic, minced'
-  - '2 tbsp Unsalted Butter'
+  - 2 tbsp Unsalted Butter
   - '1 Lemon, zested and juiced'
   - '18 fresh Basil leaves, chiffonade'
-  - '2 tbsp Heavy Cream for richness'
-  - '1/2 cup Freshly Grated Parmesan'
-  - 'Salt and Black Pepper'
+  - 2 tbsp Heavy Cream for richness
+  - 1/2 cup Freshly Grated Parmesan
+  - Salt and Black Pepper
 ---
 
 ## Chef's Note

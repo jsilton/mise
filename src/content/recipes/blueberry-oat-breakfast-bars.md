@@ -7,14 +7,13 @@ cookTime: 20 min
 totalTime: 30 min
 servings: '8'
 ingredients:
-  - '5 tbsp Coconut Oil (or Unsalted Butter)'
-  - '4 tbsp Honey or Maple Syrup'
-  - '3 tbsp Almond or Peanut Butter'
-  - '2 cups Rolled Oats'
-  - '3/4 cup Fresh Blueberries'
-  - '--- The Glaze ---'
-  - '1 tbsp Greek Yogurt or Coconut Cream'
-  - '3 tsp Orange Juice'
+  - 5 tbsp Coconut Oil (or Unsalted Butter)
+  - 4 tbsp Honey or Maple Syrup
+  - 3 tbsp Almond or Peanut Butter
+  - 2 cups Rolled Oats
+  - 3/4 cup Fresh Blueberries
+  - 1 tbsp Greek Yogurt or Coconut Cream
+  - 3 tsp Orange Juice
 ---
 
 ## Chef's Note

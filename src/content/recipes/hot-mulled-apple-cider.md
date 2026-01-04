@@ -7,17 +7,15 @@ cookTime: 20 min
 totalTime: 25 min
 servings: '8'
 ingredients:
-  - '2 quarts Apple Cider (Unfiltered preferred)'
+  - 2 quarts Apple Cider (Unfiltered preferred)
   - '1/2 cup Light Brown Sugar, packed'
-  - '--- The Spice Bundle ---'
-  - '3 Cinnamon Sticks (3-inch)'
-  - '1 tsp Whole Allspice'
-  - '1 tsp Whole Cloves'
-  - '1 dash Nutmeg'
-  - '1/4 tsp Sea Salt (The complex flavor)'
-  - '--- For Garnish ---'
+  - 3 Cinnamon Sticks (3-inch)
+  - 1 tsp Whole Allspice
+  - 1 tsp Whole Cloves
+  - 1 dash Nutmeg
+  - 1/4 tsp Sea Salt (The complex flavor)
   - '1 Orange, sliced into wedges'
-  - '8 Whole Cloves (for studding)'
+  - 8 Whole Cloves (for studding)
 ---
 
 ## Chef's Note

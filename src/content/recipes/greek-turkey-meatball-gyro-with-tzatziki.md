@@ -5,24 +5,22 @@ vibe: quick
 prepTime: 10 min
 cookTime: 16 min
 totalTime: 26 min
-servings: '4 gyros'
+servings: 4 gyros
 ingredients:
-  - '1 lb Ground Turkey (93/7 fat ratio)'
+  - 1 lb Ground Turkey (93/7 fat ratio)
   - '1 cup Fresh Spinach, chopped'
   - '1/4 cup Red Onion, finely diced'
   - '2 cloves Garlic, minced'
-  - '1 tsp Dried Oregano'
-  - '2 tbsp Extra-Virgin Olive Oil'
-  - '--- The Lemon Tzatziki ---'
-  - '1/2 cup Plain Greek Yogurt'
+  - 1 tsp Dried Oregano
+  - 2 tbsp Extra-Virgin Olive Oil
+  - 1/2 cup Plain Greek Yogurt
   - '1/4 cup Cucumber, grated and squeezed dry'
-  - '2 tbsp Fresh Lemon Juice (The Finishing Touch)'
-  - '1/2 tsp Dried Dill'
-  - '1/2 tsp Garlic Powder'
-  - '--- For Assembly ---'
-  - '4 Whole Wheat Flatbreads or Pitas'
+  - 2 tbsp Fresh Lemon Juice (The Finishing Touch)
+  - 1/2 tsp Dried Dill
+  - 1/2 tsp Garlic Powder
+  - 4 Whole Wheat Flatbreads or Pitas
   - 'Sliced Red Onion, Diced Tomato, and Diced Cucumber'
-  - 'Salt and Black Pepper'
+  - Salt and Black Pepper
 ---
 
 ## Chef's Note

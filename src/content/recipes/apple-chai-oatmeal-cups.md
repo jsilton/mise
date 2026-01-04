@@ -5,22 +5,21 @@ vibe: quick
 prepTime: 10 min
 cookTime: 20 min
 totalTime: 30 min
-servings: '12 cups'
+servings: 12 cups
 ingredients:
-  - '3 cups Rolled Oats (Old Fashioned)'
-  - '1 tsp Baking Powder'
+  - 3 cups Rolled Oats (Old Fashioned)
+  - 1 tsp Baking Powder
   - '1 large Apple, finely minced'
   - '1 large Banana, mashed'
-  - '1.5 cups Almond Milk or Whole Milk'
-  - '2 large Eggs'
-  - '2 tbsp Maple Syrup'
+  - 1.5 cups Almond Milk or Whole Milk
+  - 2 large Eggs
+  - 2 tbsp Maple Syrup
   - '1 tbsp Coconut Oil, melted'
-  - '--- The Chai Spice Bloom ---'
-  - '1 tsp Cinnamon'
-  - '1/2 tsp Cardamom'
-  - '1/2 tsp Ginger powder'
-  - '1/4 tsp Nutmeg'
-  - '1/4 tsp Allspice'
+  - 1 tsp Cinnamon
+  - 1/2 tsp Cardamom
+  - 1/2 tsp Ginger powder
+  - 1/4 tsp Nutmeg
+  - 1/4 tsp Allspice
 ---
 
 ## Chef's Note

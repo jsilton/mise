@@ -8,17 +8,16 @@ totalTime: 25 min
 servings: '4'
 ingredients:
   - '2 large Chicken Breasts, halved horizontally and pounded thin'
-  - '1/2 cup All-Purpose Flour'
+  - 1/2 cup All-Purpose Flour
   - '2 large Eggs, beaten'
-  - '1 1/2 cups Panko Breadcrumbs'
-  - '1/2 cup Grated Parmesan Cheese'
-  - '1 tsp Dried Oregano'
-  - '1/2 tsp Garlic Powder'
-  - 'Salt and Black Pepper'
-  - 'Neutral Oil (for shallow frying)'
-  - '--- For the Topping ---'
+  - 1 1/2 cups Panko Breadcrumbs
+  - 1/2 cup Grated Parmesan Cheese
+  - 1 tsp Dried Oregano
+  - 1/2 tsp Garlic Powder
+  - Salt and Black Pepper
+  - Neutral Oil (for shallow frying)
   - '2 cups [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad)'
-  - 'Lemon wedges'
+  - Lemon wedges
 ---
 
 ## Chef's Note

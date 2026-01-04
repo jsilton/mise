@@ -10,7 +10,6 @@ ingredients:
   - 1 cup Jasmine Rice
   - 1 1/2 cups Water or Chicken Broth
   - 1 tsp Salt
-  - '--- The Fresh Fold ---'
   - '1/2 cup Fresh Cilantro, finely chopped'
   - 2 tbsp Fresh Lime Juice
   - 1 tsp Lime Zest

@@ -7,13 +7,11 @@ cookTime: 15 min
 totalTime: 25 min
 servings: '4'
 ingredients:
-  - '1 lb Penne or Linguine'
-  - '--- The Spicy Thai Sauce ---'
-  - '1/3 cup Low-sodium Soy Sauce'
-  - '2 tbsp Dark Brown Sugar'
-  - '1.5 tbsp Sriracha (adjust for heat)'
+  - 1 lb Penne or Linguine
+  - 1/3 cup Low-sodium Soy Sauce
+  - 2 tbsp Dark Brown Sugar
+  - 1.5 tbsp Sriracha (adjust for heat)
   - '2 inches Fresh Ginger, grated'
-  - '--- The Stir-Fry ---'
   - '2 large Eggs, beaten'
   - '1 Zucchini, cut into half-moons'
   - '8 oz Mushrooms, chopped'
@@ -21,8 +19,7 @@ ingredients:
   - '4 Green Onions, chopped'
   - '1/2 cup Fresh Cilantro, chopped'
   - '1/2 cup Peanuts, crushed'
-  - '--- Optional Protein ---'
-  - 'Chicken or Shrimp'
+  - Chicken or Shrimp
 ---
 
 ## Chef's Note

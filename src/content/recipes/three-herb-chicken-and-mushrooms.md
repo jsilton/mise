@@ -9,16 +9,14 @@ servings: '4'
 ingredients:
   - '8 Bone-in Chicken Thighs, skin-on'
   - '8 oz Cremini Mushrooms, quartered'
-  - '--- The Herb Glue ---'
   - '2 tbsp Fresh Rosemary, minced'
   - '2 tbsp Fresh Thyme, minced'
   - '1/4 cup Fresh Parsley, chopped'
-  - '--- The Mustard Emulsion ---'
-  - '1/2 cup Dry White Wine'
-  - '1 cup Chicken Broth'
-  - '2 tbsp Dijon Mustard (The Finishing Touch)'
-  - '1 tbsp All-Purpose Flour'
-  - 'Salt and Black Pepper'
+  - 1/2 cup Dry White Wine
+  - 1 cup Chicken Broth
+  - 2 tbsp Dijon Mustard (The Finishing Touch)
+  - 1 tbsp All-Purpose Flour
+  - Salt and Black Pepper
 ---
 
 ## Chef's Note

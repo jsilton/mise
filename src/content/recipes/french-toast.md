@@ -7,18 +7,16 @@ cookTime: 10 min
 totalTime: 20 min
 servings: '4'
 ingredients:
-  - '8 slices Challah or Brioche (Day-old preferred)'
-  - '4 large Eggs'
-  - '1/4 cup Whole Milk'
+  - 8 slices Challah or Brioche (Day-old preferred)
+  - 4 large Eggs
+  - 1/4 cup Whole Milk
   - '2 tbsp Honey, warmed'
-  - '4 tbsp Unsalted Butter'
-  - '--- The Spice Mix ---'
-  - '1 tsp Ground Cinnamon'
-  - '1/4 tsp Ground Nutmeg'
-  - '1/2 tsp Pure Vanilla Extract'
-  - '--- For Serving ---'
-  - 'Warm Maple Syrup'
-  - 'Fresh Berries'
+  - 4 tbsp Unsalted Butter
+  - 1 tsp Ground Cinnamon
+  - 1/4 tsp Ground Nutmeg
+  - 1/2 tsp Pure Vanilla Extract
+  - Warm Maple Syrup
+  - Fresh Berries
 ---
 
 ## Chef's Note

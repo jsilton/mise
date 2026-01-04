@@ -7,18 +7,16 @@ cookTime: 15 min
 totalTime: 600 min
 servings: '6'
 ingredients:
-  - '5 lbs Flanken-style Beef Short Ribs (1/2-inch thick)'
-  - '--- The Tenderizer ---'
-  - '1/3 cup Sake'
-  - '1/4 cup Granulated Sugar'
-  - '--- The Soy Marinade ---'
-  - '1 cup Soy Sauce'
-  - '3 tbsp Dark Brown Sugar'
-  - '1/2 tsp Toasted Sesame Oil'
+  - 5 lbs Flanken-style Beef Short Ribs (1/2-inch thick)
+  - 1/3 cup Sake
+  - 1/4 cup Granulated Sugar
+  - 1 cup Soy Sauce
+  - 3 tbsp Dark Brown Sugar
+  - 1/2 tsp Toasted Sesame Oil
   - '4 Scallions, finely chopped'
   - '7 cloves Garlic, minced'
-  - '1/4 tsp Black Pepper'
-  - '2 tbsp Vegetable Oil'
+  - 1/4 tsp Black Pepper
+  - 2 tbsp Vegetable Oil
 ---
 
 ## Chef's Note

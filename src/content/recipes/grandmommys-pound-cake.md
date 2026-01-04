@@ -1,20 +1,19 @@
 ---
-title: 'Grandmommy’s Pound Cake'
+title: Grandmommy’s Pound Cake
 role: dessert
 vibe: technical
 prepTime: 20 min
 cookTime: 90 min
 totalTime: 110 min
-servings: '1 large bundt cake'
+servings: 1 large bundt cake
 ingredients:
   - '3/4 lb (3 sticks) Unsalted Butter, softened'
   - '6 large Eggs, room temperature'
-  - '2 cups Granulated Sugar'
+  - 2 cups Granulated Sugar
   - '3 cups All-Purpose Flour, pre-sifted'
-  - '--- The Flavor Triple-Threat ---'
-  - '1 tsp Lemon Extract'
-  - '1 tsp Almond Extract'
-  - '1 tsp Pure Vanilla Extract'
+  - 1 tsp Lemon Extract
+  - 1 tsp Almond Extract
+  - 1 tsp Pure Vanilla Extract
 ---
 
 ## Chef's Note

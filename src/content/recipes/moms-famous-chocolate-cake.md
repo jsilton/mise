@@ -1,5 +1,5 @@
 ---
-title: 'Moms Famous Chocolate Cake'
+title: Moms Famous Chocolate Cake
 role: dessert
 vibe: technical
 prepTime: 10 min
@@ -7,21 +7,20 @@ cookTime: 30 min
 totalTime: 40 min
 servings: '12'
 ingredients:
-  - '2 sticks (1 cup) Unsalted Butter (Replaces Margarine)'
-  - '4 tbsp High-Quality Unsweetened Cocoa Powder'
-  - '1 cup Boiling Water'
-  - '2 cups Granulated Sugar'
-  - '1/2 cup Buttermilk'
+  - 2 sticks (1 cup) Unsalted Butter (Replaces Margarine)
+  - 4 tbsp High-Quality Unsweetened Cocoa Powder
+  - 1 cup Boiling Water
+  - 2 cups Granulated Sugar
+  - 1/2 cup Buttermilk
   - '2 large Eggs, room temperature'
-  - '2 cups All-Purpose Flour'
-  - '1 tsp Baking Soda'
-  - '1/4 tsp Kosher Salt'
-  - '1 tsp Vanilla Extract'
-  - '--- The Warm Glossy Frosting ---'
-  - '1 stick (1/2 cup) Unsalted Butter'
-  - '4 tbsp Cocoa Powder'
-  - '6 tbsp Whole Milk'
-  - '1 box (1 lb) Confectioners’ Sugar'
+  - 2 cups All-Purpose Flour
+  - 1 tsp Baking Soda
+  - 1/4 tsp Kosher Salt
+  - 1 tsp Vanilla Extract
+  - 1 stick (1/2 cup) Unsalted Butter
+  - 4 tbsp Cocoa Powder
+  - 6 tbsp Whole Milk
+  - 1 box (1 lb) Confectioners’ Sugar
 ---
 
 ## Chef's Note

@@ -8,15 +8,14 @@ totalTime: 25 min
 servings: '4'
 ingredients:
   - '1 lb Shrimp, peeled and deveined'
-  - '1/4 lb Ground Pork (The Savory Base)'
-  - '--- The Cantonese Emulsion ---'
+  - 1/4 lb Ground Pork (The Savory Base)
   - '1 tbsp Fermented Black Beans (Douchi), rinsed and mashed'
-  - '1 cup Chicken Stock'
-  - '1 tbsp Soy Sauce + 1 tsp Dark Soy Sauce'
+  - 1 cup Chicken Stock
+  - 1 tbsp Soy Sauce + 1 tsp Dark Soy Sauce
   - '2 cloves Garlic, minced'
   - '1 large Egg, beaten (The Egg Ribbon Method)'
-  - '1 tbsp Cornstarch (slurry)'
-  - 'Green Onions for garnish'
+  - 1 tbsp Cornstarch (slurry)
+  - Green Onions for garnish
 ---
 
 ## Chef's Note

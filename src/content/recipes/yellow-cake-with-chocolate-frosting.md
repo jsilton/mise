@@ -7,19 +7,17 @@ cookTime: 25 min
 totalTime: 45 min
 servings: '12'
 ingredients:
-  - '--- The Velvet Batter ---'
-  - '2 2/3 cups All-Purpose Flour'
+  - 2 2/3 cups All-Purpose Flour
   - '3/4 cup Unsalted Butter, room temp'
-  - '1/4 cup Avocado or Canola Oil'
-  - '2 cups Granulated Sugar'
-  - '3 large Eggs + 2 large Egg Yolks'
-  - '1 cup Whole Buttermilk'
-  - '1 tbsp Pure Vanilla Extract'
-  - '--- The Chocolate Silk Frosting ---'
+  - 1/4 cup Avocado or Canola Oil
+  - 2 cups Granulated Sugar
+  - 3 large Eggs + 2 large Egg Yolks
+  - 1 cup Whole Buttermilk
+  - 1 tbsp Pure Vanilla Extract
   - '1/2 cup Unsalted Butter, melted'
-  - '2/3 cup Unsweetened Cocoa Powder'
-  - '3 cups Confectioners’ Sugar'
-  - '1/3 cup Whole Milk'
+  - 2/3 cup Unsweetened Cocoa Powder
+  - 3 cups Confectioners’ Sugar
+  - 1/3 cup Whole Milk
 ---
 
 ## Chef's Note

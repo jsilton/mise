@@ -12,15 +12,13 @@ ingredients:
   - '1 large Yellow Onion, finely diced'
   - '1 tbsp Fresh Ginger, grated'
   - '3 cloves Garlic, minced'
-  - '--- The Spice Base ---'
-  - '1 tsp Cumin Seeds'
-  - '1 tsp Turmeric'
-  - '1 tsp Garam Masala'
-  - '1 tsp Ground Coriander'
-  - '1/2 tsp Kashmiri Chili Powder'
-  - '1 (14 oz) can Crushed Tomatoes'
-  - '--- The Finish ---'
-  - 'Fresh Cilantro and Lemon juice'
+  - 1 tsp Cumin Seeds
+  - 1 tsp Turmeric
+  - 1 tsp Garam Masala
+  - 1 tsp Ground Coriander
+  - 1/2 tsp Kashmiri Chili Powder
+  - 1 (14 oz) can Crushed Tomatoes
+  - Fresh Cilantro and Lemon juice
 ---
 
 ## Chef's Note

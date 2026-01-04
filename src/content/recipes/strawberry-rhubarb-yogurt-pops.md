@@ -5,15 +5,14 @@ vibe: nutritious
 prepTime: 15 min
 cookTime: 5 min
 totalTime: 240 min
-servings: '10 pops'
+servings: 10 pops
 ingredients:
   - '1 lb Fresh Strawberries, minced'
   - '3 stalks Rhubarb, minced'
-  - '4 oz Plain 2% Greek Yogurt'
-  - '--- The Citrus Emulsion ---'
-  - '1/2 cup Orange Blossom Honey'
-  - '3/4 cup Fresh Orange Juice (The Acid Balance)'
-  - '1/4 tsp Sea Salt'
+  - 4 oz Plain 2% Greek Yogurt
+  - 1/2 cup Orange Blossom Honey
+  - 3/4 cup Fresh Orange Juice (The Acid Balance)
+  - 1/4 tsp Sea Salt
 ---
 
 ## Chef's Note

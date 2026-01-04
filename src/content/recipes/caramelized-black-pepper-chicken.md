@@ -8,17 +8,15 @@ totalTime: 30 min
 servings: '4'
 ingredients:
   - '1.5 lbs Chicken Thighs, cut into 1-inch cubes'
-  - '--- The Black Pepper Glaze ---'
-  - '1/2 cup Dark Brown Sugar'
-  - '1/4 cup Fish Sauce'
-  - '3 tbsp Rice Vinegar'
+  - 1/2 cup Dark Brown Sugar
+  - 1/4 cup Fish Sauce
+  - 3 tbsp Rice Vinegar
   - '1 tbsp Fresh Ginger, grated'
   - '2 cloves Garlic, minced'
-  - '1 tbsp Coarsely Ground Black Pepper (The "Hero" ingredient)'
+  - 1 tbsp Coarsely Ground Black Pepper (The "Hero" ingredient)
   - '2 Thai Bird’s Eye Chilies, halved'
-  - '--- The Finish ---'
   - '1 Shallot, thinly sliced'
-  - 'Fresh Cilantro'
+  - Fresh Cilantro
 ---
 
 ## Chef's Note

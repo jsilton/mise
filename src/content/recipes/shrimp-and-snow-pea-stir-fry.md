@@ -7,16 +7,14 @@ cookTime: 10 min
 totalTime: 20 min
 servings: '4'
 ingredients:
-  - '8 oz Rice Linguine Noodles'
+  - 8 oz Rice Linguine Noodles
   - '8 oz Raw Shrimp, peeled and deveined'
   - '8 oz Fresh Snow Peas, sliced diagonally'
-  - '--- The Chili-Soy Glaze ---'
-  - '5 tbsp Sweet Chili Sauce'
-  - '1 tbsp Low-sodium Soy Sauce'
-  - '--- The Finishing Touch Pulse ---'
+  - 5 tbsp Sweet Chili Sauce
+  - 1 tbsp Low-sodium Soy Sauce
   - '1 tbsp Fresh Ginger, grated'
   - '1 clove Garlic, minced'
-  - 'Neutral Oil'
+  - Neutral Oil
 ---
 
 ## Chef's Note

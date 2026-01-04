@@ -7,19 +7,17 @@ cookTime: 10 min
 totalTime: 25 min
 servings: '4'
 ingredients:
-  - '1 lb Dried Linguini'
+  - 1 lb Dried Linguini
   - '1 lb Large Shrimp, peeled and deveined'
-  - '--- The Garlic-Butter Emulsion ---'
-  - '1/2 cup (1 stick) Unsalted Butter'
-  - '5 tbsp Extra-Virgin Olive Oil'
+  - 1/2 cup (1 stick) Unsalted Butter
+  - 5 tbsp Extra-Virgin Olive Oil
   - '4 cloves Garlic, minced'
   - '2 Shallots, finely diced'
-  - '1/2 cup Dry White Wine (The complex flavor)'
+  - 1/2 cup Dry White Wine (The complex flavor)
   - '1 large Lemon, juiced (The Acid Balance)'
-  - '1/4 tsp Red Pepper Flakes'
-  - '--- The Finish ---'
+  - 1/4 tsp Red Pepper Flakes
   - '1/4 cup Fresh Parsley, chopped'
-  - 'Freshly Grated Parmesan'
+  - Freshly Grated Parmesan
 ---
 
 ## Chef's Note

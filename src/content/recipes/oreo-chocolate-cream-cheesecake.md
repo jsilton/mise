@@ -7,13 +7,11 @@ cookTime: 60 min
 totalTime: 300 min
 servings: '12'
 ingredients:
-  - '32 Oreo Cookies (divided)'
-  - '--- The Cream Cheese Emulsion ---'
+  - 32 Oreo Cookies (divided)
   - '32 oz (4 pkgs) Cream Cheese, softened'
-  - '1 cup Granulated Sugar'
-  - '1 tsp Pure Vanilla Extract'
-  - '4 large Eggs (room temp)'
-  - '--- The Dark Note ---'
+  - 1 cup Granulated Sugar
+  - 1 tsp Pure Vanilla Extract
+  - 4 large Eggs (room temp)
   - '8 oz Semi-Sweet Chocolate, melted and cooled'
 ---
 

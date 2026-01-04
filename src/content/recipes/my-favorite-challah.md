@@ -5,17 +5,16 @@ vibe: technical
 prepTime: 120 min
 cookTime: 40 min
 totalTime: 160 min
-servings: '2 loaves'
+servings: 2 loaves
 ingredients:
-  - '1 1/2 tbsp Active Dry Yeast'
-  - '8 to 8 1/2 cups All-Purpose Flour'
-  - '5 large Eggs'
-  - '1/2 cup Vegetable Oil'
-  - '1/2 cup + 1 tbsp Granulated Sugar'
-  - '1 tbsp Kosher Salt'
-  - '--- The Finish ---'
-  - '1 egg (for wash)'
-  - 'Poppy or Sesame Seeds'
+  - 1 1/2 tbsp Active Dry Yeast
+  - 8 to 8 1/2 cups All-Purpose Flour
+  - 5 large Eggs
+  - 1/2 cup Vegetable Oil
+  - 1/2 cup + 1 tbsp Granulated Sugar
+  - 1 tbsp Kosher Salt
+  - 1 egg (for wash)
+  - Poppy or Sesame Seeds
 ---
 
 ## Chef's Note

@@ -7,20 +7,17 @@ cookTime: 10 min
 totalTime: 20 min
 servings: '4'
 ingredients:
-  - '1 lb Japanese-style Udon or thick Egg Noodles'
+  - 1 lb Japanese-style Udon or thick Egg Noodles
   - '6 oz Pork Tenderloin, sliced into thin strips'
-  - '--- The Velveting Marinade ---'
-  - '3/4 tsp Cornstarch'
-  - '1 tsp Shaoxing Wine'
-  - '1/2 tsp Light Soy Sauce'
-  - '--- The Shanghai Glaze ---'
-  - '2 1/2 tsp Dark Soy Sauce (for the iconic "Gold" color)'
-  - '2 1/2 tsp Light Soy Sauce'
-  - '1/4 tsp Sugar'
-  - '--- The Stir-Fry ---'
+  - 3/4 tsp Cornstarch
+  - 1 tsp Shaoxing Wine
+  - 1/2 tsp Light Soy Sauce
+  - 2 1/2 tsp Dark Soy Sauce (for the iconic "Gold" color)
+  - 2 1/2 tsp Light Soy Sauce
+  - 1/4 tsp Sugar
   - '8 Fresh Shiitake Mushrooms, sliced'
   - '1 bunch Baby Bok Choy, trimmed'
-  - 'Neutral Oil'
+  - Neutral Oil
 ---
 
 ## Chef's Note

@@ -7,21 +7,18 @@ cookTime: 15 min
 totalTime: 35 min
 servings: '6'
 ingredients:
-  - '1 lb Fresh Lo Mein Egg Noodles'
+  - 1 lb Fresh Lo Mein Egg Noodles
   - '8 oz Chicken Thighs, cut into thin strips'
-  - '--- The Velveting Marinade ---'
-  - '2 tsp Cornstarch'
-  - '2 tsp Water'
-  - '2 tsp Peanut Oil'
-  - '--- The Stir-Fry ---'
+  - 2 tsp Cornstarch
+  - 2 tsp Water
+  - 2 tsp Peanut Oil
   - '4 cups Cabbage, shredded'
   - '2 Carrots, julienned'
-  - '2 cups Mung Bean Sprouts (The Crunch)'
-  - '--- The Lo Mein Sauce ---'
-  - '1 tbsp Light Soy Sauce'
-  - '4 tsp Dark Soy Sauce (for color)'
-  - '1 tbsp Shaoxing Wine'
-  - '1 tsp Toasted Sesame Oil'
+  - 2 cups Mung Bean Sprouts (The Crunch)
+  - 1 tbsp Light Soy Sauce
+  - 4 tsp Dark Soy Sauce (for color)
+  - 1 tbsp Shaoxing Wine
+  - 1 tsp Toasted Sesame Oil
   - '1/8 tsp Sugar + 1 clove Garlic, minced'
 ---
 

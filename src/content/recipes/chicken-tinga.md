@@ -7,15 +7,14 @@ cookTime: 15 min
 totalTime: 30 min
 servings: '6'
 ingredients:
-  - '1.5 lbs Shredded Chicken (Poached or Rotisserie)'
-  - '--- The Smoky Sauce ---'
+  - 1.5 lbs Shredded Chicken (Poached or Rotisserie)
   - '2 large Tomatoes, halved'
   - '3 cloves Garlic, unpeeled'
-  - '1-2 Chipotles in Adobo (plus 1 tsp sauce)'
+  - 1-2 Chipotles in Adobo (plus 1 tsp sauce)
   - '1 small Onion, sliced into half-moons'
-  - '1/2 tsp Dried Oregano'
-  - '1/2 cup Chicken Broth'
-  - '1 tsp Salt'
+  - 1/2 tsp Dried Oregano
+  - 1/2 cup Chicken Broth
+  - 1 tsp Salt
 ---
 
 ## Chef's Note

@@ -7,17 +7,15 @@ cookTime: 30 min
 totalTime: 50 min
 servings: '8'
 ingredients:
-  - '1 lb Shredded Chicken (Poached or Rotisserie)'
+  - 1 lb Shredded Chicken (Poached or Rotisserie)
   - '15 oz can Navy or Cannellini Beans, rinsed'
-  - '8 Flour or Corn Tortillas'
-  - '--- The Creamy Green Sauce ---'
-  - '12 oz Tomatillo Salsa or Enchilada Sauce'
-  - '1/2 cup Light Sour Cream or Greek Yogurt'
-  - '1 can (4 oz) Diced Green Chiles'
-  - '1/2 cup Fresh Cilantro'
-  - '--- The Finish ---'
+  - 8 Flour or Corn Tortillas
+  - 12 oz Tomatillo Salsa or Enchilada Sauce
+  - 1/2 cup Light Sour Cream or Greek Yogurt
+  - 1 can (4 oz) Diced Green Chiles
+  - 1/2 cup Fresh Cilantro
   - '1 cup Mexican Cheese Blend, shredded'
-  - 'Pickled Red Onions for garnish'
+  - Pickled Red Onions for garnish
 ---
 
 ## Chef's Note

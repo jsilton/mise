@@ -7,18 +7,15 @@ cookTime: 120 min
 totalTime: 3000 min
 servings: '12'
 ingredients:
-  - '1 Whole Turkey (10-12 lbs)'
-  - '--- The Dry Brine ---'
-  - '1/2 tsp Coarse Kosher Salt (per lb of bird)'
-  - '1 tbsp Black Pepper'
+  - 1 Whole Turkey (10-12 lbs)
+  - 1/2 tsp Coarse Kosher Salt (per lb of bird)
+  - 1 tbsp Black Pepper
   - '1 Lemon, zested'
-  - '--- The Cavity Aromatics ---'
   - '12 cloves Garlic, smashed'
-  - '1 bottle Hard Apple Cider'
+  - 1 bottle Hard Apple Cider
   - '1 bunch Thyme, Rosemary, and Sage'
-  - '--- The Finishing Touch Finish ---'
   - 'Unsalted Butter, melted'
-  - 'Dry White Wine'
+  - Dry White Wine
 ---
 
 ## Chef's Note

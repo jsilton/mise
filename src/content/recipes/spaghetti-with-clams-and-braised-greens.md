@@ -7,17 +7,15 @@ cookTime: 30 min
 totalTime: 45 min
 servings: '4'
 ingredients:
-  - '1/2 lb Spaghetti'
+  - 1/2 lb Spaghetti
   - '4 dozen Littleneck Clams, scrubbed'
   - '1 lb Swiss Chard or Collard Greens, chopped'
-  - '--- The Wine-Pepper Emulsion ---'
-  - '2 cups Dry White Wine'
-  - '2 jarred Roasted Red Peppers (pureed)'
+  - 2 cups Dry White Wine
+  - 2 jarred Roasted Red Peppers (pureed)
   - '8 cloves Garlic, crushed'
-  - '1/2 cup Extra-Virgin Olive Oil'
-  - '1 tsp Red Pepper Flakes'
-  - '--- The Finish ---'
-  - '2 tbsp Unsalted Butter (cold)'
+  - 1/2 cup Extra-Virgin Olive Oil
+  - 1 tsp Red Pepper Flakes
+  - 2 tbsp Unsalted Butter (cold)
   - '1 Lemon, zested and juiced (The Acid Balance)'
   - '1/2 cup Parmesan, freshly grated'
 ---

@@ -8,20 +8,18 @@ totalTime: 30 min
 servings: '4'
 ingredients:
   - '2 large Eggplants, peeled and cubed'
-  - '4 tbsp Neutral Oil'
+  - 4 tbsp Neutral Oil
   - '1 medium Yellow Onion, diced'
   - '2 Roma Tomatoes, diced'
   - '5 tsp Garlic, minced'
   - '1 tsp Fresh Ginger, minced'
-  - '--- The Spice Bloom ---'
-  - '1 tsp Cumin Seeds'
-  - '2 tsp Coriander Powder'
-  - '1 tsp Garam Masala'
-  - '1/2 tsp Turmeric'
-  - '1/2 tsp Paprika'
-  - '1/2 tsp Cayenne (adjust for heat)'
-  - '2 tsp Sea Salt'
-  - '--- The Finish ---'
+  - 1 tsp Cumin Seeds
+  - 2 tsp Coriander Powder
+  - 1 tsp Garam Masala
+  - 1/2 tsp Turmeric
+  - 1/2 tsp Paprika
+  - 1/2 tsp Cayenne (adjust for heat)
+  - 2 tsp Sea Salt
   - '1/4 cup Fresh Cilantro, chopped'
   - '1/2 Lemon, juiced (The Acid Balance)'
 ---

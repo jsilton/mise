@@ -8,15 +8,14 @@ totalTime: 20 min
 servings: '6'
 ingredients:
   - '3 lbs Mixed Heirloom Tomatoes, chopped or halved'
-  - '--- The Sesame Emulsion ---'
-  - '1/2 cup Extra-Virgin Olive Oil'
-  - '2 tbsp Toasted Sesame Oil (The complex flavor)'
-  - '6 tbsp Low-sodium Soy Sauce'
-  - '2 tbsp Distilled White Vinegar (The Acid Balance)'
+  - 1/2 cup Extra-Virgin Olive Oil
+  - 2 tbsp Toasted Sesame Oil (The complex flavor)
+  - 6 tbsp Low-sodium Soy Sauce
+  - 2 tbsp Distilled White Vinegar (The Acid Balance)
   - '1 clove Garlic, minced'
-  - '1 tsp Granulated Sugar'
+  - 1 tsp Granulated Sugar
   - '1/4 cup Fresh Basil, chopped'
-  - 'Flaky Sea Salt'
+  - Flaky Sea Salt
 ---
 
 ## Chef's Note

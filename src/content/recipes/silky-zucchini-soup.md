@@ -8,18 +8,15 @@ totalTime: 40 min
 servings: '4'
 ingredients:
   - '1 1/2 lbs Zucchini, sliced into 1/4-inch rounds'
-  - '--- The Flavor Base ---'
-  - '1 tbsp Unsalted Butter'
-  - '2 tbsp Extra-Virgin Olive Oil'
+  - 1 tbsp Unsalted Butter
+  - 2 tbsp Extra-Virgin Olive Oil
   - '1 small Yellow Onion, chopped'
   - '1 clove Garlic, sliced'
-  - '--- The Soup Silk ---'
-  - '2/3 cup Chicken or Vegetable Stock'
-  - '1 1/2 cups Filtered Water'
-  - '--- The Finish ---'
-  - '1/2 tsp Fresh Lemon Juice (The Acid Balance)'
-  - 'Julienned Raw Zucchini (for the Crunch garnish)'
-  - 'Sea Salt and White Pepper'
+  - 2/3 cup Chicken or Vegetable Stock
+  - 1 1/2 cups Filtered Water
+  - 1/2 tsp Fresh Lemon Juice (The Acid Balance)
+  - Julienned Raw Zucchini (for the Crunch garnish)
+  - Sea Salt and White Pepper
 ---
 
 ## Chef's Note

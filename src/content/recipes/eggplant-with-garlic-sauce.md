@@ -8,16 +8,14 @@ totalTime: 15 min
 servings: '2'
 ingredients:
   - '3 Chinese Eggplants, cut into 2-inch sticks'
-  - '--- The Garlic Sauce ---'
   - '4 cloves Garlic, minced'
   - '1 tbsp Fresh Ginger, minced'
-  - '2 tbsp Light Soy Sauce'
-  - '2 tsp Granulated Sugar'
-  - '1 tbsp Chinkiang Vinegar (Black Vinegar)'
-  - '1 tbsp Shaoxing Wine'
-  - '1 tsp Toasted Sesame Oil'
-  - '--- The Stir-Fry ---'
-  - '2 tbsp Peanut Oil'
+  - 2 tbsp Light Soy Sauce
+  - 2 tsp Granulated Sugar
+  - 1 tbsp Chinkiang Vinegar (Black Vinegar)
+  - 1 tbsp Shaoxing Wine
+  - 1 tsp Toasted Sesame Oil
+  - 2 tbsp Peanut Oil
   - '3 Dried Red Chilies, chopped'
   - '4 Scallions, chopped on the bias'
 ---

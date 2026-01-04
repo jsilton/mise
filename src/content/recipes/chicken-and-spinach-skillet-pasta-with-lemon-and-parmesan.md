@@ -7,16 +7,15 @@ cookTime: 15 min
 totalTime: 25 min
 servings: '4'
 ingredients:
-  - '1 lb Penne or Rigatoni (Whole wheat or GF)'
+  - 1 lb Penne or Rigatoni (Whole wheat or GF)
   - '1 lb Chicken Breast or Thighs, cut into bite-sized pieces'
-  - '10 cups Fresh Spinach (one large bag)'
-  - '--- The Emulsion ---'
-  - '1/2 cup Dry White Wine'
+  - 10 cups Fresh Spinach (one large bag)
+  - 1/2 cup Dry White Wine
   - '1 Lemon, zested and juiced'
   - '4 cloves Garlic, minced'
-  - '4 tbsp Freshly Grated Parmesan'
-  - '2 tbsp Extra-Virgin Olive Oil'
-  - 'Salt and Black Pepper'
+  - 4 tbsp Freshly Grated Parmesan
+  - 2 tbsp Extra-Virgin Olive Oil
+  - Salt and Black Pepper
 ---
 
 ## Chef's Note

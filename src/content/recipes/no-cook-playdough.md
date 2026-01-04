@@ -5,16 +5,14 @@ vibe: nutritious
 prepTime: 10 min
 cookTime: 0 min
 totalTime: 10 min
-servings: '1 large batch'
+servings: 1 large batch
 ingredients:
-  - '2.5 cups All-Purpose Flour'
-  - '1 1/4 cups Fine Salt'
-  - '1 1/2 tbsp Cream of Tartar'
-  - '--- The Liquid Base ---'
-  - '2.5 cups Boiling Water'
-  - '5 tbsp Vegetable Oil'
-  - '--- For Customization ---'
-  - 'Liquid Watercolors or Wilton Icing Colors'
+  - 2.5 cups All-Purpose Flour
+  - 1 1/4 cups Fine Salt
+  - 1 1/2 tbsp Cream of Tartar
+  - 2.5 cups Boiling Water
+  - 5 tbsp Vegetable Oil
+  - Liquid Watercolors or Wilton Icing Colors
 ---
 
 ## Chef's Note

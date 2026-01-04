@@ -7,17 +7,17 @@ cookTime: 30 min
 totalTime: 50 min
 servings: '9'
 ingredients:
-  - '4 cups Fresh Blueberries'
-  - '1 tbsp Fresh Lemon Juice'
-  - '1/2 cup Granulated Sugar'
-  - '2 tsp Cornstarch'
-  - '--- The Brown Butter Crumble ---'
-  - '1 3/4 cups All-Purpose Flour'
+  - 4 cups Fresh Blueberries
+  - 1 tbsp Fresh Lemon Juice
+  - 1/2 cup Granulated Sugar
+  - 2 tsp Cornstarch
+  - 1 3/4 cups All-Purpose Flour
   - '1 cup Light Brown Sugar, packed'
-  - '6 tbsp Unsalted Butter (Beurre Noisette)'
-  - '1 1/4 tsp Sea Salt'
-  - '--- For Serving ---'
-  - '[Vanilla Bean Ice Cream](/silton-mise/recipes/old-fashioned-vanilla-ice-cream)'
+  - 6 tbsp Unsalted Butter (Beurre Noisette)
+  - 1 1/4 tsp Sea Salt
+  - >-
+    [Vanilla Bean Ice
+    Cream](/silton-mise/recipes/old-fashioned-vanilla-ice-cream)
 ---
 
 ## Chef's Note

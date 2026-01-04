@@ -8,21 +8,18 @@ totalTime: 30 min
 servings: '4'
 ingredients:
   - '4 Salmon Fillets (6 oz each), skin-on or skin-off'
-  - '--- The Miso Glaze ---'
-  - '3 tbsp White Miso Paste'
-  - '2 tbsp Honey (or Maple Syrup)'
-  - '1 tbsp Soy Sauce'
-  - '1 tbsp Mirin'
-  - '1 tbsp Rice Vinegar'
+  - 3 tbsp White Miso Paste
+  - 2 tbsp Honey (or Maple Syrup)
+  - 1 tbsp Soy Sauce
+  - 1 tbsp Mirin
+  - 1 tbsp Rice Vinegar
   - '1 tsp Ginger, freshly grated'
-  - '--- The Bok Choy ---'
   - '1 lb Baby Bok Choy, halved lengthwise'
   - '2 cloves Garlic, minced'
-  - '1 tsp Toasted Sesame Oil'
-  - '1 tsp Oyster Sauce'
-  - '--- For Serving ---'
-  - 'Cooked Jasmine Rice'
-  - 'Toasted Sesame Seeds and sliced Green Onions'
+  - 1 tsp Toasted Sesame Oil
+  - 1 tsp Oyster Sauce
+  - Cooked Jasmine Rice
+  - Toasted Sesame Seeds and sliced Green Onions
 ---
 
 ## Chef's Note

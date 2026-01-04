@@ -7,15 +7,14 @@ cookTime: 10 min
 totalTime: 15 min
 servings: '2'
 ingredients:
-  - '1 cup Rolled Oats'
-  - '2 tbsp Frozen Riced Cauliflower (The "Volume" Hack)'
-  - '1 1/2 cups Water (or Milk of choice)'
+  - 1 cup Rolled Oats
+  - 2 tbsp Frozen Riced Cauliflower (The "Volume" Hack)
+  - 1 1/2 cups Water (or Milk of choice)
   - '6 Medjool Dates, finely chopped'
-  - '2 tbsp Coconut Oil'
-  - '1/2 cup Frozen Blueberries'
-  - '--- For Topping ---'
-  - 'Pinch of Sea Salt'
-  - 'Ground Cinnamon'
+  - 2 tbsp Coconut Oil
+  - 1/2 cup Frozen Blueberries
+  - Pinch of Sea Salt
+  - Ground Cinnamon
 ---
 
 ## Chef's Note

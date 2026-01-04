@@ -5,23 +5,21 @@ vibe: technical
 prepTime: 60 min
 cookTime: 10 min
 totalTime: 140 min
-servings: '18 dumplings'
+servings: 18 dumplings
 ingredients:
   - '1/2 lb Raw Shrimp, peeled, deveined, and patted dry'
   - '1/4 cup Bamboo Shoots, finely minced'
-  - '--- The Shrimp Paste ---'
-  - '1 tsp Oyster Sauce'
-  - '1 tbsp Vegetable Oil'
-  - '1/4 tsp White Pepper'
-  - '1 tsp Toasted Sesame Oil'
-  - '1/4 tsp Sea Salt'
-  - '1 tsp Granulated Sugar'
+  - 1 tsp Oyster Sauce
+  - 1 tbsp Vegetable Oil
+  - 1/4 tsp White Pepper
+  - 1 tsp Toasted Sesame Oil
+  - 1/4 tsp Sea Salt
+  - 1 tsp Granulated Sugar
   - '1/2 tsp Fresh Ginger, minced'
-  - '--- The Translucent Dough ---'
-  - '1 cup Wheat Starch (Tin Mein Fun)'
-  - '1/2 cup Cornstarch or Tapioca Starch'
-  - '1 1/4 cups Boiling Water'
-  - '3 tsp Lard or Neutral Oil'
+  - 1 cup Wheat Starch (Tin Mein Fun)
+  - 1/2 cup Cornstarch or Tapioca Starch
+  - 1 1/4 cups Boiling Water
+  - 3 tsp Lard or Neutral Oil
 ---
 
 ## Chef's Note

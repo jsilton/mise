@@ -9,18 +9,16 @@ servings: '6'
 ingredients:
   - '2 1/2 lbs Chicken Thighs, cut into 1.5-inch pieces'
   - '1 large Red Onion, cut into 1-inch chunks'
-  - '--- The Yogurt Tenderizer ---'
-  - '1 cup Plain Whole-Milk Greek Yogurt'
-  - '2 tbsp Extra-Virgin Olive Oil'
-  - '2 tbsp Fresh Lemon Juice'
-  - '1 tbsp Lemon Zest'
+  - 1 cup Plain Whole-Milk Greek Yogurt
+  - 2 tbsp Extra-Virgin Olive Oil
+  - 2 tbsp Fresh Lemon Juice
+  - 1 tbsp Lemon Zest
   - '5 cloves Garlic, minced'
-  - '--- The Spice Bloom ---'
-  - '2 tsp Paprika'
-  - '1/2 tsp Cumin'
-  - '1/8 tsp Cinnamon (The complex flavor)'
-  - '1 tsp Red Pepper Flakes'
-  - 'Salt and Black Pepper'
+  - 2 tsp Paprika
+  - 1/2 tsp Cumin
+  - 1/8 tsp Cinnamon (The complex flavor)
+  - 1 tsp Red Pepper Flakes
+  - Salt and Black Pepper
 ---
 
 ## Chef's Note

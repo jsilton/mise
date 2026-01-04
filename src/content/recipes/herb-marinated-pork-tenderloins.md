@@ -7,16 +7,15 @@ cookTime: 15 min
 totalTime: 25 min
 servings: '6'
 ingredients:
-  - '3 Pork Tenderloins (about 1 lb each)'
-  - '--- The Enzyme Marinade ---'
-  - '3/4 cup Fresh Lemon Juice'
-  - '1 tbsp Lemon Zest'
-  - '1/2 cup Extra-Virgin Olive Oil'
+  - 3 Pork Tenderloins (about 1 lb each)
+  - 3/4 cup Fresh Lemon Juice
+  - 1 tbsp Lemon Zest
+  - 1/2 cup Extra-Virgin Olive Oil
   - '2 tbsp Garlic, minced'
   - '1 1/2 tbsp Fresh Rosemary, minced'
   - '1 tbsp Fresh Thyme, chopped'
-  - '2 tsp Dijon Mustard (The Finishing Touch)'
-  - 'Kosher Salt and Black Pepper'
+  - 2 tsp Dijon Mustard (The Finishing Touch)
+  - Kosher Salt and Black Pepper
 ---
 
 ## Chef's Note

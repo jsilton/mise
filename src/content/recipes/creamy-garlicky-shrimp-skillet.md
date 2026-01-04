@@ -8,18 +8,16 @@ totalTime: 25 min
 servings: '4'
 ingredients:
   - '1 lb Shrimp, peeled and deveined (tails removed)'
-  - '12 oz Dry Fettuccine'
-  - '--- The Flavor Base ---'
-  - '3 tbsp Unsalted Butter'
+  - 12 oz Dry Fettuccine
+  - 3 tbsp Unsalted Butter
   - '4 cloves Garlic, thinly sliced'
   - '12 oz Roasted Red Peppers, sliced into strips'
-  - '1 tsp Smoked Paprika'
-  - '--- The Emulsion ---'
-  - '2 cups Heavy Cream'
-  - '1 1/2 cups Freshly Grated Parmesan'
-  - '1/2 cup Reserved Pasta Water'
+  - 1 tsp Smoked Paprika
+  - 2 cups Heavy Cream
+  - 1 1/2 cups Freshly Grated Parmesan
+  - 1/2 cup Reserved Pasta Water
   - '1 tbsp Fresh Parsley, chopped'
-  - 'Salt and Black Pepper'
+  - Salt and Black Pepper
 ---
 
 ## Chef's Note

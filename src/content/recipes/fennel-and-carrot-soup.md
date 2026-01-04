@@ -11,16 +11,14 @@ ingredients:
   - '1 large Fennel Bulb, thinly sliced'
   - '1 small Yellow Onion, thinly sliced'
   - '1 small Yukon Gold Potato, peeled and halved'
-  - '--- The Flavor Engine ---'
-  - '6 tbsp Unsalted Butter (divided)'
-  - '4 cups Low-sodium Vegetable Broth'
-  - '2 sprigs Fresh Thyme'
-  - '1 Fresh Bay Leaf'
-  - '--- The Elite Finish ---'
+  - 6 tbsp Unsalted Butter (divided)
+  - 4 cups Low-sodium Vegetable Broth
+  - 2 sprigs Fresh Thyme
+  - 1 Fresh Bay Leaf
   - '1/4 cup Roasted Chestnuts, chopped'
-  - '1/4 cup Crème Fraîche'
-  - '1 tbsp Pure Maple Syrup'
-  - 'Salt and Black Pepper'
+  - 1/4 cup Crème Fraîche
+  - 1 tbsp Pure Maple Syrup
+  - Salt and Black Pepper
 ---
 
 ## Chef's Note

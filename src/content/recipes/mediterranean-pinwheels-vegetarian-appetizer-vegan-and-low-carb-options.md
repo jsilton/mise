@@ -5,19 +5,17 @@ vibe: quick
 prepTime: 15 min
 cookTime: 0 min
 totalTime: 30 min
-servings: '32 pinwheels'
+servings: 32 pinwheels
 ingredients:
-  - '6 large Spinach or Sun-dried Tomato Tortillas'
-  - '--- The Cream Cheese Emulsion ---'
+  - 6 large Spinach or Sun-dried Tomato Tortillas
   - '8 oz Cream Cheese, softened'
-  - '2 tbsp Oil (reserved from sun-dried tomato jar)'
+  - 2 tbsp Oil (reserved from sun-dried tomato jar)
   - '2 cloves Garlic, minced'
-  - '--- Stacks ---'
   - '6 oz Sun-dried Tomatoes in oil, chopped'
   - '10 oz Frozen Spinach, thawed and squeezed bone-dry'
-  - '1/4 cup Grated Parmesan'
+  - 1/4 cup Grated Parmesan
   - '1/3 cup Feta Cheese, crumbled'
-  - '1 cup Fresh Basil leaves'
+  - 1 cup Fresh Basil leaves
 ---
 
 ## Chef's Note

@@ -7,19 +7,17 @@ cookTime: 30 min
 totalTime: 50 min
 servings: '4'
 ingredients:
-  - '1.5 cups Bomba or Calasparra Rice (Short-grain Spanish rice)'
-  - '--- The Sofrito ---'
+  - 1.5 cups Bomba or Calasparra Rice (Short-grain Spanish rice)
   - '1 small Yellow Onion, grated or finely diced'
   - '1 Red Bell Pepper, diced'
   - '2 cloves Garlic, minced'
-  - '1/2 cup Tomato Puree'
-  - '1 tsp Pimentón (Smoked Paprika)'
-  - '--- The Finish ---'
-  - '3 cups Chicken Broth (warm)'
-  - 'Pinch of Saffron threads'
+  - 1/2 cup Tomato Puree
+  - 1 tsp Pimentón (Smoked Paprika)
+  - 3 cups Chicken Broth (warm)
+  - Pinch of Saffron threads
   - '1/2 lb Large Shrimp, peeled'
   - '1/2 lb Spanish Chorizo, sliced'
-  - 'Fresh Parsley and Lemon wedges'
+  - Fresh Parsley and Lemon wedges
 ---
 
 ## Chef's Note

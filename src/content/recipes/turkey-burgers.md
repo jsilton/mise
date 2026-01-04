@@ -7,16 +7,15 @@ cookTime: 10 min
 totalTime: 25 min
 servings: '4'
 ingredients:
-  - '1 lb Ground Turkey (93% lean is best)'
-  - '1/4 cup Panko Breadcrumbs'
-  - '2 tbsp Milk (The secret to moisture)'
-  - '1 tbsp Worcestershire Sauce'
-  - '1 tbsp Barbecue Sauce'
-  - '1 tsp Garlic Powder'
-  - '1/2 tsp Salt'
-  - '1/2 tsp Black Pepper'
-  - '4 Hamburger Buns (Toasted)'
-  - '--- Optional Toppings ---'
+  - 1 lb Ground Turkey (93% lean is best)
+  - 1/4 cup Panko Breadcrumbs
+  - 2 tbsp Milk (The secret to moisture)
+  - 1 tbsp Worcestershire Sauce
+  - 1 tbsp Barbecue Sauce
+  - 1 tsp Garlic Powder
+  - 1/2 tsp Salt
+  - 1/2 tsp Black Pepper
+  - 4 Hamburger Buns (Toasted)
   - 'Sliced Swiss Cheese, Avocado, Spinach, Red Onion'
 ---
 

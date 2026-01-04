@@ -9,15 +9,13 @@ servings: '8'
 ingredients:
   - '13 cups Brioche bread, 3/4-inch cubes (stale preferred)'
   - '6 oz Bittersweet Chocolate (70% cacao), chopped'
-  - '6 oz White Chocolate Chips'
-  - '--- The Custard Base ---'
-  - '4 large Eggs'
-  - '1/2 cup + 4 tbsp Granulated Sugar'
-  - '2 tsp Vanilla Extract'
-  - '1 1/2 cups Heavy Cream'
-  - '1/2 cup Whole Milk'
-  - '--- For Serving ---'
-  - '2 cups Vanilla Bean Ice Cream'
+  - 6 oz White Chocolate Chips
+  - 4 large Eggs
+  - 1/2 cup + 4 tbsp Granulated Sugar
+  - 2 tsp Vanilla Extract
+  - 1 1/2 cups Heavy Cream
+  - 1/2 cup Whole Milk
+  - 2 cups Vanilla Bean Ice Cream
 ---
 
 ## Chef's Note

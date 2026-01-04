@@ -5,21 +5,19 @@ vibe: nutritious
 prepTime: 15 min
 cookTime: 12 min
 totalTime: 30 min
-servings: '24 cookies'
+servings: 24 cookies
 ingredients:
   - '1 cup Medjool Dates, pitted'
   - '1/2 cup Unsalted Butter, melted'
-  - '1 large Egg'
-  - '1/4 cup Plain Greek Yogurt'
-  - '1 tsp Vanilla Extract'
-  - '--- The Ancient Grain Base ---'
-  - '1/3 cup Buckwheat Flour'
-  - '2/3 cup White Whole Wheat Flour'
-  - '1 cup quick Oats'
-  - '--- The Spices ---'
-  - '1/2 tsp Baking Soda'
-  - '1/2 tsp Ground Cinnamon'
-  - 'Pinch of Sea Salt'
+  - 1 large Egg
+  - 1/4 cup Plain Greek Yogurt
+  - 1 tsp Vanilla Extract
+  - 1/3 cup Buckwheat Flour
+  - 2/3 cup White Whole Wheat Flour
+  - 1 cup quick Oats
+  - 1/2 tsp Baking Soda
+  - 1/2 tsp Ground Cinnamon
+  - Pinch of Sea Salt
 ---
 
 ## Chef's Note

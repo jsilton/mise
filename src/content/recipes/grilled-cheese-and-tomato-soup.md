@@ -7,19 +7,17 @@ cookTime: 20 min
 totalTime: 35 min
 servings: '2'
 ingredients:
-  - '--- The Roasted Tomato Soup ---'
-  - '1 can (28 oz) San Marzano Tomatoes'
+  - 1 can (28 oz) San Marzano Tomatoes
   - '1 small Onion, diced'
   - '2 cloves Garlic, minced'
-  - '1/2 cup Heavy Cream'
-  - '1 cup Chicken Broth'
-  - '1 tsp Dried Basil'
-  - '--- The Kitchen Standard Sandwich ---'
-  - '4 slices Sourdough or Brioche'
-  - '4 slices Sharp Cheddar or Gruyère'
+  - 1/2 cup Heavy Cream
+  - 1 cup Chicken Broth
+  - 1 tsp Dried Basil
+  - 4 slices Sourdough or Brioche
+  - 4 slices Sharp Cheddar or Gruyère
   - '1/2 Avocado, sliced thin'
-  - '2 tbsp Mayonnaise (The "Crust" Hack)'
-  - 'Unsalted Butter'
+  - 2 tbsp Mayonnaise (The "Crust" Hack)
+  - Unsalted Butter
 ---
 
 ## Chef's Note

@@ -10,13 +10,11 @@ ingredients:
   - '2 lbs Chicken Breasts, thinly sliced'
   - '1 Red, 1 Yellow, 1 Green Bell Pepper, sliced'
   - '1 Red Onion, thinly sliced'
-  - '--- The Fajita Pulse ---'
-  - '1/4 cup Taco Seasoning'
-  - '1 tbsp Extra-Virgin Olive Oil'
+  - 1/4 cup Taco Seasoning
+  - 1 tbsp Extra-Virgin Olive Oil
   - '1 Lime, juiced (The Acid Balance)'
-  - '--- For Serving ---'
-  - 'Warm Flour Tortillas'
-  - 'Avocado and Fresh Cilantro'
+  - Warm Flour Tortillas
+  - Avocado and Fresh Cilantro
 ---
 
 ## Chef's Note

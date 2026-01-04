@@ -8,17 +8,16 @@ totalTime: 35 min
 servings: '4'
 ingredients:
   - '1 lb Center-cut Beef Tenderloin, cut into 4 long "dogs"'
-  - '1 tbsp Olive Oil'
-  - '1 tsp Garlic Powder'
-  - '1 tsp Paprika'
-  - '4 6-inch Baguette pieces or High-quality Brioche Buns'
-  - '--- The Zesty Corn Relish ---'
-  - '1 cup Roasted Corn (charred in a pan or oven)'
+  - 1 tbsp Olive Oil
+  - 1 tsp Garlic Powder
+  - 1 tsp Paprika
+  - 4 6-inch Baguette pieces or High-quality Brioche Buns
+  - 1 cup Roasted Corn (charred in a pan or oven)
   - '1/4 cup Red Bell Pepper, finely diced'
   - '2 tbsp Red Onion, finely diced'
-  - '2 tbsp Apple Cider Vinegar'
-  - '1 tsp Sugar'
-  - 'Salt and Black Pepper'
+  - 2 tbsp Apple Cider Vinegar
+  - 1 tsp Sugar
+  - Salt and Black Pepper
 ---
 
 ## Chef's Note

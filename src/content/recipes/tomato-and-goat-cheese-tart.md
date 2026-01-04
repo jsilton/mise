@@ -7,18 +7,15 @@ cookTime: 140 min
 totalTime: 160 min
 servings: '6'
 ingredients:
-  - '--- The Executive Shortcrust ---'
-  - '2 cups All-Purpose Flour'
+  - 2 cups All-Purpose Flour
   - '3/4 cup (6 oz) Cold Butter, cubed'
-  - '1/2 tsp Baking Powder + 1 tbsp Cold Cider Vinegar'
-  - '--- The Triple Cheese Bind ---'
+  - 1/2 tsp Baking Powder + 1 tbsp Cold Cider Vinegar
   - '12 oz Goat Cheese, crumbled'
-  - '1 cup Whole-milk Ricotta'
+  - 1 cup Whole-milk Ricotta
   - '1/2 tsp Garlic, grated'
-  - '4 tsp Fresh Thyme'
-  - '--- Stacks ---'
+  - 4 tsp Fresh Thyme
   - '3 lbs Heirloom Tomatoes, thinly sliced'
-  - 'Fresh Green and Purple Basil'
+  - Fresh Green and Purple Basil
 ---
 
 ## Chef's Note

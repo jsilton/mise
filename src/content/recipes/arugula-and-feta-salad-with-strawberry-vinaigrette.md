@@ -7,17 +7,16 @@ cookTime: 0 min
 totalTime: 10 min
 servings: '6'
 ingredients:
-  - '5 oz Baby Arugula'
+  - 5 oz Baby Arugula
   - '3/4 cup Feta Cheese, crumbled'
   - '1 pint Fresh Strawberries, sliced'
-  - '1/4 cup Toasted Sunflower Seeds (Nut-Free option)'
-  - '--- The Strawberry Vinaigrette ---'
-  - '4 large Strawberries'
-  - '2 tbsp Extra-Virgin Olive Oil'
-  - '2 tbsp Rice Vinegar'
-  - '1 tsp Honey'
+  - 1/4 cup Toasted Sunflower Seeds (Nut-Free option)
+  - 4 large Strawberries
+  - 2 tbsp Extra-Virgin Olive Oil
+  - 2 tbsp Rice Vinegar
+  - 1 tsp Honey
   - '1 clove Garlic, grated'
-  - 'Salt and Black Pepper'
+  - Salt and Black Pepper
 ---
 
 ## Chef's Note

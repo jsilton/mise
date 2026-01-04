@@ -5,16 +5,15 @@ vibe: nutritious
 prepTime: 30 min
 cookTime: 30 min
 totalTime: 60 min
-servings: '26 pancakes'
+servings: 26 pancakes
 ingredients:
   - '1 lb Sweet Potatoes, peeled and coarsely grated'
   - '2 large Eggs, beaten'
-  - '1/3 cup All-Purpose Flour'
+  - 1/3 cup All-Purpose Flour
   - '2 Scallions, finely chopped'
-  - '--- The Flavor Pulse ---'
-  - '1 tsp Sea Salt'
-  - '1/2 tsp Black Pepper'
-  - '3/4 cup Neutral Oil (for frying)'
+  - 1 tsp Sea Salt
+  - 1/2 tsp Black Pepper
+  - 3/4 cup Neutral Oil (for frying)
 ---
 
 ## Chef's Note

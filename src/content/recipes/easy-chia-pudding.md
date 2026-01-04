@@ -7,13 +7,12 @@ cookTime: 120 min
 totalTime: 130 min
 servings: '1'
 ingredients:
-  - '3-4 tbsp Chia Seeds'
-  - '1 cup Milk of choice (Coconut or Almond preferred)'
-  - '1/2 tbsp Maple Syrup or Honey'
-  - '1/4 tsp Vanilla Extract'
-  - '--- For Topping ---'
-  - 'Fresh Berries'
-  - 'Almond Butter'
+  - 3-4 tbsp Chia Seeds
+  - 1 cup Milk of choice (Coconut or Almond preferred)
+  - 1/2 tbsp Maple Syrup or Honey
+  - 1/4 tsp Vanilla Extract
+  - Fresh Berries
+  - Almond Butter
   - '[Granola](/silton-mise/recipes/granola)'
 ---
 

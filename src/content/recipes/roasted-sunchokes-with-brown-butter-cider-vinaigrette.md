@@ -8,16 +8,14 @@ totalTime: 70 min
 servings: '4'
 ingredients:
   - '2 lbs Sunchokes (Jerusalem Artichokes), scrubbed and cut'
-  - '--- The Beurre Noisette Emulsion ---'
-  - '2 tbsp Unsalted Butter'
-  - '1/4 cup Apple Cider Vinegar (reduced)'
+  - 2 tbsp Unsalted Butter
+  - 1/4 cup Apple Cider Vinegar (reduced)
   - '2 tbsp Shallots, minced'
-  - '1 tsp Honey + 1/2 tsp Red Pepper Flakes'
-  - '--- The Finish ---'
-  - '2 cups Fresh Spinach'
+  - 1 tsp Honey + 1/2 tsp Red Pepper Flakes
+  - 2 cups Fresh Spinach
   - '1/4 cup Fresh Chives, chopped'
   - '8 cloves Garlic, crushed'
-  - 'Fresh Thyme sprigs'
+  - Fresh Thyme sprigs
 ---
 
 ## Chef's Note

@@ -9,12 +9,11 @@ servings: '4'
 ingredients:
   - '2 lbs Boneless Pork Butt (or Shoulder), butterflied'
   - '6 Fresh Peaches, halved and pitted'
-  - '--- The Rosemary Paste ---'
   - '8-10 cloves Garlic, minced'
   - '2 tbsp Fresh Rosemary, minced'
-  - '8 tbsp Extra-Virgin Olive Oil (divided)'
+  - 8 tbsp Extra-Virgin Olive Oil (divided)
   - '4 tbsp Unsalted Butter, diced'
-  - 'Salt and Black Pepper'
+  - Salt and Black Pepper
 ---
 
 ## Chef's Note

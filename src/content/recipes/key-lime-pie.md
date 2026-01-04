@@ -7,18 +7,15 @@ cookTime: 25 min
 totalTime: 500 min
 servings: '8'
 ingredients:
-  - '--- The Crunch Crust ---'
-  - '1 1/4 cups Graham Cracker Crumbs'
-  - '2 tbsp Granulated Sugar'
+  - 1 1/4 cups Graham Cracker Crumbs
+  - 2 tbsp Granulated Sugar
   - '5 tbsp Unsalted Butter, melted'
-  - '--- The Silk Filling ---'
-  - '1 can (14 oz) Sweetened Condensed Milk'
-  - '4 large Egg Yolks (room temp)'
-  - '1/2 cup + 2 tbsp Fresh Key Lime Juice'
-  - '--- The Topping ---'
+  - 1 can (14 oz) Sweetened Condensed Milk
+  - 4 large Egg Yolks (room temp)
+  - 1/2 cup + 2 tbsp Fresh Key Lime Juice
   - '3/4 cup Heavy Cream, chilled'
-  - '1 tbsp Powdered Sugar'
-  - 'Lime Zest for garnish'
+  - 1 tbsp Powdered Sugar
+  - Lime Zest for garnish
 ---
 
 ## Chef's Note

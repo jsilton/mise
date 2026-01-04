@@ -9,14 +9,12 @@ servings: '8'
 ingredients:
   - '2 lbs Sweet Potatoes, peeled'
   - '1.5 lbs White Potatoes (Yukon Gold), peeled'
-  - '--- The Cream Base ---'
-  - '3 cups Heavy Cream'
+  - 3 cups Heavy Cream
   - '3 cloves Garlic, minced'
-  - '1 tbsp Fresh Thyme'
-  - '1 tbsp Fresh Sage'
-  - '1/4 tsp Nutmeg'
-  - 'Dash of Cayenne Pepper'
-  - '--- The Cheese ---'
+  - 1 tbsp Fresh Thyme
+  - 1 tbsp Fresh Sage
+  - 1/4 tsp Nutmeg
+  - Dash of Cayenne Pepper
   - '2.5 cups Gruyère Cheese, shredded'
   - '2 cups Parmesan Reggiano, finely grated'
 ---

@@ -7,17 +7,16 @@ cookTime: 0 min
 totalTime: 10 min
 servings: '1'
 ingredients:
-  - '2 oz Plymouth Gin'
-  - '1.5 oz Montelobos Mezcal'
-  - '2 oz Remy Martin Cognac'
-  - '2.5 oz Fresh Lemon Juice (The Acid Balance)'
-  - '1 oz Dom Benedictine'
-  - '0.5 oz Agave Syrup'
-  - '3 dashes Orange Bitters'
+  - 2 oz Plymouth Gin
+  - 1.5 oz Montelobos Mezcal
+  - 2 oz Remy Martin Cognac
+  - 2.5 oz Fresh Lemon Juice (The Acid Balance)
+  - 1 oz Dom Benedictine
+  - 0.5 oz Agave Syrup
+  - 3 dashes Orange Bitters
   - '6 oz Prosecco, chilled'
-  - '--- For Garnish ---'
-  - 'Lemon Peel Twist'
-  - 'Fresh Thyme Sprig'
+  - Lemon Peel Twist
+  - Fresh Thyme Sprig
 ---
 
 ## Chef's Note

@@ -7,18 +7,17 @@ cookTime: 20 min
 totalTime: 35 min
 servings: '6'
 ingredients:
-  - '8 oz Elbow Macaroni'
-  - '3 tbsp Unsalted Butter'
-  - '1/4 cup All-Purpose Flour'
-  - '2 cups Whole Milk'
-  - '1 tsp Salt'
-  - '1/4 tsp Cayenne Pepper (or Red Pepper)'
-  - '1/8 tsp Garlic Powder'
+  - 8 oz Elbow Macaroni
+  - 3 tbsp Unsalted Butter
+  - 1/4 cup All-Purpose Flour
+  - 2 cups Whole Milk
+  - 1 tsp Salt
+  - 1/4 tsp Cayenne Pepper (or Red Pepper)
+  - 1/8 tsp Garlic Powder
   - '8 oz Sharp Cheddar Cheese, freshly shredded'
   - '4 oz Diced Pimentos, drained'
-  - '--- The Topping ---'
-  - '1/2 cup Panko Breadcrumbs'
-  - '3/4 cup Freshly Grated Parmesan'
+  - 1/2 cup Panko Breadcrumbs
+  - 3/4 cup Freshly Grated Parmesan
 ---
 
 ## Chef's Note

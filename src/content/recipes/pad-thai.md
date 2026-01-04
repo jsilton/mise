@@ -7,19 +7,17 @@ cookTime: 20 min
 totalTime: 60 min
 servings: '3'
 ingredients:
-  - '1/2 pkg Wide Rice Noodles (Bánh Phở)'
+  - 1/2 pkg Wide Rice Noodles (Bánh Phở)
   - '1/4 lb Shrimp, peeled and deveined'
   - '1/3 cup Extra-firm Tofu, julienned'
-  - '--- The Pad Thai Emulsion ---'
-  - '2 tbsp Tamarind Paste (The Acid Balance)'
-  - '2 tbsp Palm Sugar (or Granulated Sugar)'
-  - '4 tsp Fish Sauce'
-  - '1/2 tsp Ground Dried Chili'
-  - '--- The Stir-Fry ---'
-  - '1 1/3 cups Fresh Bean Sprouts'
-  - '1 1/2 cups Chinese Chives (Green Onions)'
+  - 2 tbsp Tamarind Paste (The Acid Balance)
+  - 2 tbsp Palm Sugar (or Granulated Sugar)
+  - 4 tsp Fish Sauce
+  - 1/2 tsp Ground Dried Chili
+  - 1 1/3 cups Fresh Bean Sprouts
+  - 1 1/2 cups Chinese Chives (Green Onions)
   - '3 cloves Garlic, minced'
-  - '1 large Egg'
+  - 1 large Egg
   - '1/2 cup Peanuts, toasted and crushed'
   - '1/2 Lime, wedges'
 ---

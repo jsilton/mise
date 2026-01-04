@@ -9,17 +9,15 @@ servings: '4'
 ingredients:
   - '1 lb Medium Shrimp, peeled and deveined'
   - '6 slices Smoked Bacon, chopped'
-  - '--- The Silk Grits ---'
-  - '1 cup Stone-ground Grits'
-  - '4 cups Water or Chicken Broth'
-  - '3 tbsp Unsalted Butter'
+  - 1 cup Stone-ground Grits
+  - 4 cups Water or Chicken Broth
+  - 3 tbsp Unsalted Butter
   - '2 cups Sharp Cheddar, shredded'
-  - '--- The Flavor Pulse ---'
-  - '4 tsp Fresh Lemon Juice (The Acid Balance)'
+  - 4 tsp Fresh Lemon Juice (The Acid Balance)
   - '1 cup Scallions, thinly sliced'
   - '2 tbsp Fresh Parsley, chopped'
   - '1 clove Garlic, minced'
-  - 'Salt and Black Pepper'
+  - Salt and Black Pepper
 ---
 
 ## Chef's Note

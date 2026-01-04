@@ -7,17 +7,15 @@ cookTime: 10 min
 totalTime: 20 min
 servings: '4'
 ingredients:
-  - '16 Dry Sea Scallops'
-  - '--- The Corn-Bacon Relish ---'
+  - 16 Dry Sea Scallops
   - '4 ears Fresh Corn, shucked'
   - '12 strips Bacon, cooked and chopped'
   - '2 Ripe Avocados, diced'
   - '1 Red Bell Pepper, diced'
   - '1 small Onion, diced'
-  - '--- The Finishing Touch Finish ---'
   - '1 Lemon, halved'
   - '2 tbsp Fresh Parsley, chopped'
-  - 'Neutral Oil'
+  - Neutral Oil
 ---
 
 ## Chef's Note

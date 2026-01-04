@@ -5,22 +5,20 @@ vibe: quick
 prepTime: 5 min
 cookTime: 10 min
 totalTime: 15 min
-servings: '2 cups'
+servings: 2 cups
 ingredients:
-  - '3 tbsp Extra-Virgin Olive Oil'
-  - '3 tbsp All-Purpose Flour (or GF blend)'
-  - '--- The Spice Bloom ---'
-  - '1 tbsp Chili Powder'
-  - '1 tsp Ground Cumin'
-  - '1/2 tsp Garlic Powder'
-  - '1/4 tsp Dried Oregano'
-  - '1/4 tsp Sea Salt'
-  - 'Pinch of Cinnamon (The complex flavor)'
-  - '--- The Liquid Base ---'
-  - '2 tbsp Tomato Paste'
-  - '2 cups Vegetable or Chicken Broth'
-  - '1 tsp Apple Cider Vinegar (The Finishing Touch)'
-  - 'Black Pepper'
+  - 3 tbsp Extra-Virgin Olive Oil
+  - 3 tbsp All-Purpose Flour (or GF blend)
+  - 1 tbsp Chili Powder
+  - 1 tsp Ground Cumin
+  - 1/2 tsp Garlic Powder
+  - 1/4 tsp Dried Oregano
+  - 1/4 tsp Sea Salt
+  - Pinch of Cinnamon (The complex flavor)
+  - 2 tbsp Tomato Paste
+  - 2 cups Vegetable or Chicken Broth
+  - 1 tsp Apple Cider Vinegar (The Finishing Touch)
+  - Black Pepper
 ---
 
 ## Chef's Note

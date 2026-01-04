@@ -8,16 +8,14 @@ totalTime: 40 min
 servings: '6'
 ingredients:
   - '1 lb Center-cut Salmon, sliced into 6 strips'
-  - '--- The Balsamic Emulsion ---'
-  - '1/3 cup Balsamic Vinegar'
+  - 1/3 cup Balsamic Vinegar
   - '1/2 cup Unsalted Butter, cubed and chilled'
   - '1 medium Tomato, chopped'
   - '1/4 lb Shiitake Mushrooms (caps only, sliced)'
-  - '--- The Fuel Base ---'
-  - '1 lb Fresh Spinach'
-  - '2 cups Fresh Corn kernels'
+  - 1 lb Fresh Spinach
+  - 2 cups Fresh Corn kernels
   - '1 Red Onion, thinly sliced'
-  - '3 cloves Garlic'
+  - 3 cloves Garlic
 ---
 
 ## Chef's Note

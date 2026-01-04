@@ -8,17 +8,15 @@ totalTime: 20 min
 servings: '4'
 ingredients:
   - '12 oz Beef Tenderloin or Flank Steak, paper-thin'
-  - '1 can (13.5 oz) Light Coconut Milk'
-  - '--- The Curry Bloom ---'
-  - '4 tsp Thai Red Curry Paste'
-  - '2 tsp Dark Brown Sugar'
-  - '2 tsp Fish Sauce (The Savory Pulse)'
-  - '--- Base ---'
+  - 1 can (13.5 oz) Light Coconut Milk
+  - 4 tsp Thai Red Curry Paste
+  - 2 tsp Dark Brown Sugar
+  - 2 tsp Fish Sauce (The Savory Pulse)
   - '1 1/2 cups Red Bell Pepper, sliced'
   - '1 cup Yellow Onion, sliced'
-  - '1 cup Fresh Basil leaves (The Finishing Touch)'
-  - '1 tbsp Fresh Lime Juice'
-  - '4 Lime wedges for serving'
+  - 1 cup Fresh Basil leaves (The Finishing Touch)
+  - 1 tbsp Fresh Lime Juice
+  - 4 Lime wedges for serving
 ---
 
 ## Chef's Note

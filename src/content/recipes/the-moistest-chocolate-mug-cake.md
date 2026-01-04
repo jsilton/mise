@@ -7,15 +7,14 @@ cookTime: 1 min
 totalTime: 2 min
 servings: '1'
 ingredients:
-  - '1/4 cup All-Purpose Flour'
-  - '2 tbsp Unsweetened Cocoa Powder'
-  - '2 tbsp Granulated Sugar'
-  - '1/4 tsp Baking Powder'
-  - '--- The Liquid Emulsion ---'
-  - '1/4 cup + 1 tbsp Milk'
-  - '2 tbsp Vegetable Oil'
-  - '1 tbsp Hazelnut Chocolate Spread (Nutella)'
-  - 'Pinch of Sea Salt'
+  - 1/4 cup All-Purpose Flour
+  - 2 tbsp Unsweetened Cocoa Powder
+  - 2 tbsp Granulated Sugar
+  - 1/4 tsp Baking Powder
+  - 1/4 cup + 1 tbsp Milk
+  - 2 tbsp Vegetable Oil
+  - 1 tbsp Hazelnut Chocolate Spread (Nutella)
+  - Pinch of Sea Salt
 ---
 
 ## Chef's Note

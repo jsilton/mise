@@ -7,14 +7,12 @@ cookTime: 0 min
 totalTime: 240 min
 servings: '8'
 ingredients:
-  - '1 large box Strawberry Jello'
-  - '--- Mix ---'
+  - 1 large box Strawberry Jello
   - '20 oz Frozen Strawberries, thawed and drained'
   - '1 can (20 oz) Crushed Pineapple, drained'
   - '3 large Ripe Bananas, mashed'
-  - '--- The Sour Cream Emulsion ---'
-  - '1 pint Sour Cream (for richness)'
-  - '1 cup Boiling Water'
+  - 1 pint Sour Cream (for richness)
+  - 1 cup Boiling Water
   - '1/2 cup Pecans, chopped (Optional)'
 ---
 

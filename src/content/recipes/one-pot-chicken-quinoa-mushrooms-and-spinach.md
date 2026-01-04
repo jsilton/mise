@@ -1,5 +1,5 @@
 ---
-title: One-Pot Chicken, Quinoa, & Mushrooms
+title: 'One-Pot Chicken, Quinoa, & Mushrooms'
 role: main
 vibe: nutritious
 prepTime: 10 min
@@ -8,16 +8,15 @@ totalTime: 40 min
 servings: '6'
 ingredients:
   - '6 Chicken Thighs, boneless and skinless'
-  - '1 cup Dry Quinoa (rinsed)'
+  - 1 cup Dry Quinoa (rinsed)
   - '8 oz Cremini Mushrooms, sliced'
   - '1/2 Yellow Onion, chopped'
-  - '--- The Flavor Pulse ---'
-  - '2 cups Low-sodium Chicken Broth'
+  - 2 cups Low-sodium Chicken Broth
   - '1 1/2 cups Fresh Spinach, sliced'
-  - '3/4 tsp Dried Rosemary'
-  - '1/2 tsp Smoked Paprika'
-  - '2 tsp Extra-Virgin Olive Oil'
-  - 'Salt and Black Pepper'
+  - 3/4 tsp Dried Rosemary
+  - 1/2 tsp Smoked Paprika
+  - 2 tsp Extra-Virgin Olive Oil
+  - Salt and Black Pepper
 ---
 
 ## Chef's Note

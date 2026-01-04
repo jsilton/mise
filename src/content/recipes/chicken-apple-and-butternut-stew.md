@@ -1,5 +1,5 @@
 ---
-title: Chicken, Apple, and Butternut Stew
+title: 'Chicken, Apple, and Butternut Stew'
 role: main
 vibe: comfort
 prepTime: 25 min
@@ -12,13 +12,12 @@ ingredients:
   - '2 cups Granny Smith Apples, diced'
   - '1 cup Parsnips, diced'
   - '1 large Onion, chopped'
-  - '--- The Aromatics ---'
   - '2 tbsp Fresh Sage, chopped'
   - '1 tbsp Fresh Ginger, grated'
-  - '1.5 cups Apple Cider (Unfiltered)'
-  - '1.5 cups Chicken Stock'
-  - '3 tbsp All-Purpose Flour'
-  - 'Salt and Black Pepper'
+  - 1.5 cups Apple Cider (Unfiltered)
+  - 1.5 cups Chicken Stock
+  - 3 tbsp All-Purpose Flour
+  - Salt and Black Pepper
 ---
 
 ## Chef's Note

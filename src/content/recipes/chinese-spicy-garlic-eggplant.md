@@ -8,14 +8,14 @@ totalTime: 25 min
 servings: '4'
 ingredients:
   - '1 lb Chinese Eggplant (the long, thin ones), cut into 2-inch batons'
-  - '1/4 cup Cornstarch (for dredging)'
-  - '--- The Aromatics ---'
+  - 1/4 cup Cornstarch (for dredging)
   - '2 tbsp Garlic, minced'
   - '1 tbsp Ginger, grated'
   - '2 Green Onions, white and green parts separated'
-  - '1 tbsp Sambal Oelek or Chili Crisp'
-  - '--- The Finish ---'
-  - '1/2 cup [All-Purpose Chinese Garlic Sauce](/silton-mise/recipes/chinese-garlic-sauce-base)'
+  - 1 tbsp Sambal Oelek or Chili Crisp
+  - >-
+    1/2 cup [All-Purpose Chinese Garlic
+    Sauce](/silton-mise/recipes/chinese-garlic-sauce-base)
 ---
 
 ## Chef's Note

@@ -7,17 +7,14 @@ cookTime: 25 min
 totalTime: 35 min
 servings: '5'
 ingredients:
-  - '1.5 lbs Frozen Beef Meatballs (approx. 24)'
-  - '--- The Coconut Rice Base ---'
-  - '1.5 cups Jasmine Rice'
-  - '1 can (13.5 oz) Coconut Milk'
-  - '--- The Peking Glaze ---'
-  - '1/3 cup Hoisin Sauce'
-  - '1/3 cup Peking Duck Sauce'
-  - '2 tbsp Rice Vinegar (The Acid Balance)'
+  - 1.5 lbs Frozen Beef Meatballs (approx. 24)
+  - 1.5 cups Jasmine Rice
+  - 1 can (13.5 oz) Coconut Milk
+  - 1/3 cup Hoisin Sauce
+  - 1/3 cup Peking Duck Sauce
+  - 2 tbsp Rice Vinegar (The Acid Balance)
   - '1.5 tbsp Fresh Ginger, grated'
   - '4 cloves Garlic, minced'
-  - '--- The Kale Snap ---'
   - '1 bunch Kale, chopped'
   - '3 Carrots, sliced into coins'
   - '1/2 Lemon, juiced'

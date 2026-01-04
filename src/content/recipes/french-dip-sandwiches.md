@@ -7,17 +7,15 @@ cookTime: 8 hours
 totalTime: 8.5 hours
 servings: '6'
 ingredients:
-  - '3 lb Beef Chuck Roast'
+  - 3 lb Beef Chuck Roast
   - '1 large Yellow Onion, sliced'
   - '4 cloves Garlic, minced'
-  - '--- The Jus ---'
-  - '2 cups Beef Stock (Low sodium)'
-  - '1/2 cup Soy Sauce (The umami secret)'
-  - '1 tbsp Worcestershire Sauce'
-  - '1 tsp Dried Rosemary'
-  - '--- The Sandwich ---'
-  - '6 Hoagie Rolls or Baguette pieces'
-  - '6 slices Provolone Cheese'
+  - 2 cups Beef Stock (Low sodium)
+  - 1/2 cup Soy Sauce (The umami secret)
+  - 1 tbsp Worcestershire Sauce
+  - 1 tsp Dried Rosemary
+  - 6 Hoagie Rolls or Baguette pieces
+  - 6 slices Provolone Cheese
 ---
 
 ## Chef's Note

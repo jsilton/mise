@@ -9,16 +9,14 @@ servings: '4'
 ingredients:
   - '1 lb Large Shrimp, peeled and deveined'
   - '6 oz Fresh Snow Peas, strings removed'
-  - '--- The Ginger-Soy Glaze ---'
-  - '1/3 cup Chicken Broth'
-  - '2 tsp Shaoxing Wine or Dry Sherry'
-  - '1 1/2 tsp Light Soy Sauce'
-  - '1 1/2 tsp Cornstarch (slurry)'
-  - '--- The Stir-Fry ---'
+  - 1/3 cup Chicken Broth
+  - 2 tsp Shaoxing Wine or Dry Sherry
+  - 1 1/2 tsp Light Soy Sauce
+  - 1 1/2 tsp Cornstarch (slurry)
   - '2 tbsp Garlic, minced'
   - '1 tbsp Fresh Ginger, minced'
   - '1 Scallion, chopped'
-  - 'Neutral Oil'
+  - Neutral Oil
 ---
 
 ## Chef's Note

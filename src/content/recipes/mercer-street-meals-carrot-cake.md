@@ -7,26 +7,25 @@ cookTime: 30 min
 totalTime: 90 min
 servings: '12'
 ingredients:
-  - '1 1/2 cups All-Purpose Flour'
-  - '1 cup Granulated Sugar'
-  - '1 1/2 tsp Baking Soda'
-  - '1 tsp Baking Powder'
-  - '1 tsp Ground Cinnamon'
-  - '1/2 tsp Ground Allspice'
-  - '1/2 tsp Nutmeg'
-  - '1/2 tsp Salt'
+  - 1 1/2 cups All-Purpose Flour
+  - 1 cup Granulated Sugar
+  - 1 1/2 tsp Baking Soda
+  - 1 tsp Baking Powder
+  - 1 tsp Ground Cinnamon
+  - 1/2 tsp Ground Allspice
+  - 1/2 tsp Nutmeg
+  - 1/2 tsp Salt
   - '2/3 cup Brown Butter, cooled (Replaces Vegetable Oil)'
-  - '3 large Eggs'
+  - 3 large Eggs
   - '1 1/2 lbs Carrots, finely grated'
   - '--- The Apple Glaze (Syrup) ---'
   - '1 Granny Smith Apple, grated'
-  - '1/2 cup Sugar'
-  - '1/2 cup Water'
-  - '--- The Cream Cheese Frosting ---'
+  - 1/2 cup Sugar
+  - 1/2 cup Water
   - '1 lb Cream Cheese, cold'
   - '1 stick Butter, softened'
-  - '4 cups Powdered Sugar'
-  - '2 tsp Vanilla Extract'
+  - 4 cups Powdered Sugar
+  - 2 tsp Vanilla Extract
 ---
 
 ## Chef's Note

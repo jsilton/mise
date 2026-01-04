@@ -9,16 +9,14 @@ servings: '8'
 ingredients:
   - '3 ripe but firm Peaches, cut into wedges'
   - '2 large Avocados, cut into wedges'
-  - '--- The Fresno Emulsion ---'
   - '1 Fresno Chile, thinly sliced (The Finishing Touch)'
-  - '3 tbsp Fresh Lemon Juice'
-  - '3 tbsp Extra-Virgin Olive Oil'
-  - '2 tsp Pure Honey'
+  - 3 tbsp Fresh Lemon Juice
+  - 3 tbsp Extra-Virgin Olive Oil
+  - 2 tsp Pure Honey
   - '1 shallot, finely chopped'
-  - '--- The Crunch Stacks ---'
   - '1/4 cup Roasted Pistachios, chopped'
-  - '1/2 cup Fresh Mint leaves'
-  - 'Salt and Black Pepper'
+  - 1/2 cup Fresh Mint leaves
+  - Salt and Black Pepper
 ---
 
 ## Chef's Note

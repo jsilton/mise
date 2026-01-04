@@ -5,21 +5,20 @@ cookTime: 45 min
 totalTime: 65 min
 servings: '6'
 ingredients:
-  - '2 lbs Ground Turkey (Lean or 93/7)'
-  - '2 tablespoons Olive Oil'
+  - 2 lbs Ground Turkey (Lean or 93/7)
+  - 2 tablespoons Olive Oil
   - '1 large Yellow Onion, finely diced'
   - '2 medium Sweet Potatoes, peeled and cut into 1/2-inch cubes'
   - '3 cloves Garlic, minced'
-  - '2 tablespoons Chili Powder'
-  - '1 tablespoon Ground Cumin'
-  - '1 tsp Smoked Paprika'
-  - '1 (28 oz) can Crushed Tomatoes'
-  - '2 cups Chicken Broth'
-  - '1 tbsp Better Than Bouillon (Chicken or Roasted Veggie)'
+  - 2 tablespoons Chili Powder
+  - 1 tablespoon Ground Cumin
+  - 1 tsp Smoked Paprika
+  - 1 (28 oz) can Crushed Tomatoes
+  - 2 cups Chicken Broth
+  - 1 tbsp Better Than Bouillon (Chicken or Roasted Veggie)
   - '2 (15 oz) cans Black Beans or Kidney Beans, drained and rinsed'
-  - '1 tbsp Apple Cider Vinegar or Lime Juice'
-  - 'Salt and pepper to taste'
-  - '--- For Topping ---'
+  - 1 tbsp Apple Cider Vinegar or Lime Juice
+  - Salt and pepper to taste
   - 'Shredded Cheddar, Sour Cream, Avocado, and Cilantro'
 role: main
 vibe: comfort

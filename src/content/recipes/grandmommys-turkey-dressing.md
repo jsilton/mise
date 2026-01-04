@@ -1,5 +1,5 @@
 ---
-title: 'Grandmommy’s Turkey Dressing'
+title: Grandmommy’s Turkey Dressing
 role: side
 vibe: holiday
 prepTime: 20 min
@@ -7,19 +7,17 @@ cookTime: 100 min
 totalTime: 120 min
 servings: '12'
 ingredients:
-  - '--- The Scratch Cornbread ---'
-  - '1 cup Self-rising Corn Meal'
-  - '1 cup All-Purpose Flour'
-  - '1 cup Whole Milk'
+  - 1 cup Self-rising Corn Meal
+  - 1 cup All-Purpose Flour
+  - 1 cup Whole Milk
   - '1 stick (8 tbsp) Unsalted Butter, melted'
   - '3 large Eggs, beaten'
-  - '--- The Dressing Bind ---'
   - '6-7 slices Stale White Bread, crumbled'
   - '2-3 stalks Celery, finely chopped'
   - '1 large Yellow Onion, finely chopped'
-  - '2-3 cans (14 oz each) High-quality Chicken Broth'
-  - '1 tbsp Poultry Seasoning (to taste)'
-  - 'Salt and Black Pepper'
+  - 2-3 cans (14 oz each) High-quality Chicken Broth
+  - 1 tbsp Poultry Seasoning (to taste)
+  - Salt and Black Pepper
 ---
 
 ## Chef's Note

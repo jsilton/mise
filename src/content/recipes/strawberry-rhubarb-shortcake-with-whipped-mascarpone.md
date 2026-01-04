@@ -7,21 +7,18 @@ cookTime: 30 min
 totalTime: 60 min
 servings: '6'
 ingredients:
-  - '--- The Pink Peppercorn Snap ---'
-  - '2 cups All-Purpose Flour'
-  - '1 tbsp Baking Powder'
-  - '3 tbsp Granulated Sugar'
+  - 2 cups All-Purpose Flour
+  - 1 tbsp Baking Powder
+  - 3 tbsp Granulated Sugar
   - '3/4 tsp Pink Peppercorns, ground (The Finishing Touch)'
   - '1/2 cup (1 stick) Unsalted Butter, cold and cubed'
-  - '1 cup Whole Buttermilk'
-  - '--- The Roasted Fruit Syrup ---'
+  - 1 cup Whole Buttermilk
   - '3 cups Fresh Strawberries, sliced'
   - '3 stalks Rhubarb, cut into 1-inch pieces'
-  - '1/4 cup Sugar + 2 tbsp St. Germain (Elderflower Liqueur)'
+  - 1/4 cup Sugar + 2 tbsp St. Germain (Elderflower Liqueur)
   - '1/2 Vanilla Bean, seeds scraped'
-  - '--- The Whipped Mascarpone ---'
-  - '1 cup Mascarpone Cheese (for richness)'
-  - '3/4 cup Heavy Cream'
+  - 1 cup Mascarpone Cheese (for richness)
+  - 3/4 cup Heavy Cream
 ---
 
 ## Chef's Note

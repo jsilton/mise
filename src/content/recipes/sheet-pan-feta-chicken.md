@@ -9,15 +9,14 @@ servings: '4'
 ingredients:
   - '4 small Chicken Breasts (6 oz each), patted bone-dry'
   - '8 oz Feta Cheese, block-style (in brine)'
-  - '4 cups Cherry Tomatoes'
+  - 4 cups Cherry Tomatoes
   - '1 large Red Onion, cut into wedges'
-  - '--- The Balsamic Emulsion ---'
-  - '1/4 cup Balsamic Vinegar'
-  - '2 tbsp Extra-Virgin Olive Oil'
-  - '2 tbsp Honey'
-  - '1 tbsp Dijon Mustard'
-  - '1/2 tsp Dried Oregano + 1/2 tsp Garlic Powder'
-  - 'Fresh Basil for garnish'
+  - 1/4 cup Balsamic Vinegar
+  - 2 tbsp Extra-Virgin Olive Oil
+  - 2 tbsp Honey
+  - 1 tbsp Dijon Mustard
+  - 1/2 tsp Dried Oregano + 1/2 tsp Garlic Powder
+  - Fresh Basil for garnish
 ---
 
 ## Chef's Note

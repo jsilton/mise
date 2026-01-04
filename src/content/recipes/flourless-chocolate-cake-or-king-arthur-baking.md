@@ -7,18 +7,16 @@ cookTime: 25 min
 totalTime: 45 min
 servings: '10'
 ingredients:
-  - '1 cup Semisweet or Bittersweet Chocolate Chips'
-  - '1/2 cup (1 stick) Unsalted Butter'
-  - '3/4 cup Granulated Sugar'
+  - 1 cup Semisweet or Bittersweet Chocolate Chips
+  - 1/2 cup (1 stick) Unsalted Butter
+  - 3/4 cup Granulated Sugar
   - '1/2 cup Cocoa Powder, sifted'
-  - '3 large Eggs'
-  - '--- The Flavor Engine ---'
-  - '2 tsp Espresso Powder (The complex flavor)'
-  - '1 tsp Pure Vanilla Extract'
-  - '1/4 tsp Sea Salt'
-  - '--- The Glossy Ganache ---'
-  - '1 cup Semisweet Chocolate Chips'
-  - '1/2 cup Heavy Cream'
+  - 3 large Eggs
+  - 2 tsp Espresso Powder (The complex flavor)
+  - 1 tsp Pure Vanilla Extract
+  - 1/4 tsp Sea Salt
+  - 1 cup Semisweet Chocolate Chips
+  - 1/2 cup Heavy Cream
 ---
 
 ## Chef's Note

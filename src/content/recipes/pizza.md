@@ -7,13 +7,14 @@ cookTime: 12 min
 totalTime: 22 min
 servings: '4'
 ingredients:
-  - '2 balls [Fresh Pasta Dough](/silton-mise/recipes/fresh-pasta-dough) (or Pizza Dough)'
-  - '1 cup Pizza Sauce (The "Silk" Base)'
-  - '12 oz Shredded Mozzarella (Whole-milk preferred)'
-  - '--- Stacks ---'
-  - 'Pepperoni slices'
-  - 'Fresh Spinach (greens)'
-  - 'Fresh Pineapple (The "Acid Balance" Snap)'
+  - >-
+    2 balls [Fresh Pasta Dough](/silton-mise/recipes/fresh-pasta-dough) (or
+    Pizza Dough)
+  - 1 cup Pizza Sauce (The "Silk" Base)
+  - 12 oz Shredded Mozzarella (Whole-milk preferred)
+  - Pepperoni slices
+  - Fresh Spinach (greens)
+  - Fresh Pineapple (The "Acid Balance" Snap)
 ---
 
 ## Chef's Note

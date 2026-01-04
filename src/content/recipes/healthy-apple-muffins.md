@@ -7,23 +7,20 @@ cookTime: 15 min
 totalTime: 30 min
 servings: '12'
 ingredients:
-  - '1 3/4 cups Whole Wheat Flour'
-  - '--- The Double Apple Mix ---'
+  - 1 3/4 cups Whole Wheat Flour
   - '1 cup Grated Apple, squeezed dry'
   - '1 cup Apple, diced into 1/4-inch cubes'
-  - '1/2 cup Applesauce (unsweetened)'
-  - '--- The Liquid Emulsion ---'
-  - '1/2 cup Maple Syrup'
-  - '1/3 cup Extra-Virgin Olive Oil'
-  - '2 large Eggs'
-  - '1/2 cup Plain Greek Yogurt'
-  - '1 tsp Pure Vanilla Extract'
-  - '--- The Spice Mix ---'
-  - '1 1/2 tsp Baking Powder'
-  - '1/2 tsp Baking Soda'
-  - '1 tsp Ground Cinnamon'
-  - '1/2 tsp Sea Salt'
-  - '1 tbsp Turbinado Sugar (for the Crunch)'
+  - 1/2 cup Applesauce (unsweetened)
+  - 1/2 cup Maple Syrup
+  - 1/3 cup Extra-Virgin Olive Oil
+  - 2 large Eggs
+  - 1/2 cup Plain Greek Yogurt
+  - 1 tsp Pure Vanilla Extract
+  - 1 1/2 tsp Baking Powder
+  - 1/2 tsp Baking Soda
+  - 1 tsp Ground Cinnamon
+  - 1/2 tsp Sea Salt
+  - 1 tbsp Turbinado Sugar (for the Crunch)
 ---
 
 ## Chef's Note

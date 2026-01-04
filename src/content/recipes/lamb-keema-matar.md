@@ -7,18 +7,16 @@ cookTime: 20 min
 totalTime: 30 min
 servings: '4'
 ingredients:
-  - '1 lb Ground Lamb'
-  - '1 cup Frozen Peas'
+  - 1 lb Ground Lamb
+  - 1 cup Frozen Peas
   - '1 large Yellow Onion, finely diced'
   - '1 tbsp Fresh Ginger, grated'
   - '1 tbsp Fresh Garlic, minced'
-  - '--- The Spices ---'
-  - '1 tsp Cumin Seeds'
-  - '1 tsp Turmeric'
-  - '1 tsp Garam Masala'
-  - '1 tsp Kashmiri Chili Powder'
-  - '1 tbsp Tomato Paste'
-  - '--- The Finish ---'
+  - 1 tsp Cumin Seeds
+  - 1 tsp Turmeric
+  - 1 tsp Garam Masala
+  - 1 tsp Kashmiri Chili Powder
+  - 1 tbsp Tomato Paste
   - '1/2 Lemon, juiced'
   - 'Fresh Cilantro, chopped'
 ---

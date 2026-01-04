@@ -7,16 +7,14 @@ cookTime: 20 min
 totalTime: 600 min
 servings: '4'
 ingredients:
-  - '1 cup Steel-cut Oats'
-  - '3 cups Chicken Broth or Filtered Water'
-  - '--- The Sweet-Savory Bridge ---'
+  - 1 cup Steel-cut Oats
+  - 3 cups Chicken Broth or Filtered Water
   - '1 Overripe Banana, mashed'
-  - '1/4 cup Golden Raisins'
-  - '2 tbsp Sherry Vinegar (The Finishing Touch)'
-  - '1 tbsp Light Brown Sugar'
-  - '--- The Finish ---'
+  - 1/4 cup Golden Raisins
+  - 2 tbsp Sherry Vinegar (The Finishing Touch)
+  - 1 tbsp Light Brown Sugar
   - 'Parmesan Cheese, for shaving'
-  - 'Pinch of Kosher Salt'
+  - Pinch of Kosher Salt
 ---
 
 ## Chef's Note

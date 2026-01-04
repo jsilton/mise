@@ -8,10 +8,9 @@ totalTime: 55 min
 servings: '8'
 ingredients:
   - '3 lbs Small Red or Yukon Gold Potatoes, halved'
-  - '1/4 cup Extra-Virgin Olive Oil'
-  - '1 1/2 tsp Kosher Salt'
-  - '1 tsp Black Pepper'
-  - '--- The Flavor Finish ---'
+  - 1/4 cup Extra-Virgin Olive Oil
+  - 1 1/2 tsp Kosher Salt
+  - 1 tsp Black Pepper
   - '2 tbsp Garlic, minced (6 cloves)'
   - '2 tbsp Fresh Parsley, minced'
 ---

@@ -7,20 +7,18 @@ cookTime: 15 min
 totalTime: 35 min
 servings: '4'
 ingredients:
-  - '4 Salmon Fillets (6 oz each)'
-  - '--- The Lime-Honey Glaze ---'
+  - 4 Salmon Fillets (6 oz each)
   - '2 Limes, juiced'
-  - '3 tbsp Honey'
-  - '1 tsp Chili Powder'
-  - '--- The Warm Bean Salad ---'
+  - 3 tbsp Honey
+  - 1 tsp Chili Powder
   - '1 can (15 oz) Black Beans, rinsed'
-  - '4 ears Fresh Corn (kernels cut off)'
+  - 4 ears Fresh Corn (kernels cut off)
   - '1 Red Bell Pepper, chopped'
   - '1 Red Onion, diced'
-  - '6 cups Baby Spinach'
-  - '1/2 cup Chicken Broth'
-  - '2 tbsp Fresh Cilantro'
-  - '2 tbsp Extra-Virgin Olive Oil'
+  - 6 cups Baby Spinach
+  - 1/2 cup Chicken Broth
+  - 2 tbsp Fresh Cilantro
+  - 2 tbsp Extra-Virgin Olive Oil
 ---
 
 ## Chef's Note

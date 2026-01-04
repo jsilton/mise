@@ -7,17 +7,16 @@ cookTime: 30 min
 totalTime: 40 min
 servings: '9'
 ingredients:
-  - '1 1/4 cups All-Purpose Flour'
-  - '1 cup Granulated Sugar'
-  - '1/3 cup Unsweetened Cocoa Powder'
-  - '3/4 tsp Baking Soda'
-  - '1/2 tsp Sea Salt'
-  - '--- The Pan Emulsion ---'
-  - '1/3 cup Canola or Avocado Oil'
-  - '1 tsp Pure Vanilla Extract'
-  - '1 tsp Apple Cider Vinegar for richness'
-  - '1 cup Cold Water'
-  - '2 tbsp Semisweet Chocolate Chips'
+  - 1 1/4 cups All-Purpose Flour
+  - 1 cup Granulated Sugar
+  - 1/3 cup Unsweetened Cocoa Powder
+  - 3/4 tsp Baking Soda
+  - 1/2 tsp Sea Salt
+  - 1/3 cup Canola or Avocado Oil
+  - 1 tsp Pure Vanilla Extract
+  - 1 tsp Apple Cider Vinegar for richness
+  - 1 cup Cold Water
+  - 2 tbsp Semisweet Chocolate Chips
 ---
 
 ## Chef's Note

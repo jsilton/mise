@@ -7,16 +7,15 @@ cookTime: 10 min
 totalTime: 40 min
 servings: '4'
 ingredients:
-  - '1.5 lbs Boneless Skinless Chicken Thighs'
-  - '--- The Marinade ---'
-  - '2 tbsp Fish Sauce'
-  - '2 tbsp Lime Juice'
-  - '2 tbsp Brown Sugar'
-  - '1 tbsp Neutral Oil'
+  - 1.5 lbs Boneless Skinless Chicken Thighs
+  - 2 tbsp Fish Sauce
+  - 2 tbsp Lime Juice
+  - 2 tbsp Brown Sugar
+  - 1 tbsp Neutral Oil
   - '2 stalks Lemongrass, white parts only (finely minced)'
   - '3 cloves Garlic, minced'
   - '1 tbsp Ginger, grated'
-  - '1 tsp Red Chili Flakes'
+  - 1 tsp Red Chili Flakes
 ---
 
 ## Chef's Note

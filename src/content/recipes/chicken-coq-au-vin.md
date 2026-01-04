@@ -8,20 +8,17 @@ totalTime: 2.5 hours
 servings: '4'
 ingredients:
   - '2 lbs Chicken Thighs, bone-in and skin-on'
-  - '--- The Flavor Layers ---'
   - '4 oz Bacon or Lardons, diced'
   - '1 large Yellow Onion, chopped'
   - '2 cups Mushrooms (Cremini), halved'
   - '3 Carrots, cut into large chunks'
   - '4 cloves Garlic, smashed'
-  - '--- The Braise ---'
-  - '2 cups Dry Red Wine (Burgundy or Pinot Noir)'
-  - '1 cup Chicken Stock'
-  - '1 tbsp Tomato Paste'
-  - '2 sprigs Fresh Thyme'
-  - '--- The Finish ---'
+  - 2 cups Dry Red Wine (Burgundy or Pinot Noir)
+  - 1 cup Chicken Stock
+  - 1 tbsp Tomato Paste
+  - 2 sprigs Fresh Thyme
   - '2 tbsp Cold Butter, cubed (The Butter Mount)'
-  - 'Fresh Parsley'
+  - Fresh Parsley
 ---
 
 ## Chef's Note

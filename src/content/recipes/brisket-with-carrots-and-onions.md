@@ -8,17 +8,15 @@ totalTime: 260 min
 servings: '10'
 ingredients:
   - '6-7 lbs Beef Brisket, flat cut'
-  - '--- The Dry Rub ---'
-  - '2 tbsp Kosher Salt'
-  - '2 tsp Black Pepper'
+  - 2 tbsp Kosher Salt
+  - 2 tsp Black Pepper
   - '1 tbsp Garlic, minced'
-  - '2 tsp Dried Oregano'
-  - '--- The Aromatics ---'
+  - 2 tsp Dried Oregano
   - '1 lb Carrots, cut into 2-inch chunks'
   - '8 stalks Celery, cut into 2-inch chunks'
   - '6 large Yellow Onions, sliced'
-  - '6 Fresh Bay Leaves'
-  - '1 (46 oz) can Tomato Juice'
+  - 6 Fresh Bay Leaves
+  - 1 (46 oz) can Tomato Juice
 ---
 
 ## Chef's Note

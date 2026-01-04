@@ -7,17 +7,15 @@ cookTime: 25 min
 totalTime: 50 min
 servings: '6'
 ingredients:
-  - '1 lb Fresh White Wheat Noodles'
+  - 1 lb Fresh White Wheat Noodles
   - '8 oz Pork Belly or Chicken Thighs, sliced'
   - '1 lb Fresh Green Beans, trimmed'
-  - '--- The Pork Marinade ---'
-  - '2 tsp Light Soy Sauce + 1 tsp Cornstarch'
-  - '1 tbsp Shaoxing Wine'
-  - '--- The Braise Emulsion ---'
-  - '1 tbsp Dark Soy Sauce'
-  - '2 tbsp Light Soy Sauce'
-  - '1/2 tsp Sugar + 1 cup Filtered Water'
-  - '3 Star Anise + 3 slices Ginger'
+  - 2 tsp Light Soy Sauce + 1 tsp Cornstarch
+  - 1 tbsp Shaoxing Wine
+  - 1 tbsp Dark Soy Sauce
+  - 2 tbsp Light Soy Sauce
+  - 1/2 tsp Sugar + 1 cup Filtered Water
+  - 3 Star Anise + 3 slices Ginger
   - '5 cloves Garlic, chopped'
 ---
 

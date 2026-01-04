@@ -7,19 +7,17 @@ cookTime: 20 min
 totalTime: 30 min
 servings: '4'
 ingredients:
-  - '1 lb Fresh or Shelf-stable Potato Gnocchi'
+  - 1 lb Fresh or Shelf-stable Potato Gnocchi
   - '12 oz Mini Bell Peppers, cut into 1-inch chunks'
-  - '1 pint Cherry Tomatoes'
+  - 1 pint Cherry Tomatoes
   - '1 small Red Onion, cut into chunks'
   - '4 cloves Garlic, smashed'
-  - '--- The Herb Glaze ---'
-  - '2 tbsp Extra-Virgin Olive Oil'
+  - 2 tbsp Extra-Virgin Olive Oil
   - '1 tsp Fresh Rosemary, chopped'
   - '1/4 cup Fresh Basil, chopped'
-  - '1/2 cup Freshly Grated Parmesan'
-  - 'Salt and Black Pepper'
-  - '--- Optional Protein ---'
-  - '1/2 lb Shrimp or sliced Chicken Sausage'
+  - 1/2 cup Freshly Grated Parmesan
+  - Salt and Black Pepper
+  - 1/2 lb Shrimp or sliced Chicken Sausage
 ---
 
 ## Chef's Note

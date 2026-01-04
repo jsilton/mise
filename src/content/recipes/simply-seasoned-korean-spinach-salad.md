@@ -7,13 +7,12 @@ cookTime: 10 min
 totalTime: 15 min
 servings: '4'
 ingredients:
-  - '250g (0.5 lbs) Fresh English Spinach'
-  - '--- The Namul Dressing ---'
-  - '1 tbsp Toasted Sesame Oil'
+  - 250g (0.5 lbs) Fresh English Spinach
+  - 1 tbsp Toasted Sesame Oil
   - '1 tsp Scallion, finely chopped'
   - '1/2 tsp Garlic, minced'
-  - '1/4 tsp Fine Sea Salt'
-  - '1 tsp Toasted Sesame Seeds'
+  - 1/4 tsp Fine Sea Salt
+  - 1 tsp Toasted Sesame Seeds
 ---
 
 ## Chef's Note

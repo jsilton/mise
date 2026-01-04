@@ -8,13 +8,11 @@ totalTime: 30 min
 servings: '2'
 ingredients:
   - '1 lb Chicken Breast, thinly sliced'
-  - '4 cups Cooked Egg Noodles (Al dente)'
-  - '--- The Cantonese Sauce ---'
-  - '1/4 cup Soy Sauce'
-  - '1/4 cup Shaoxing Wine'
-  - '1/4 cup Oyster Sauce'
-  - '2 tbsp Granulated Sugar'
-  - '--- The Stir-Fry ---'
+  - 4 cups Cooked Egg Noodles (Al dente)
+  - 1/4 cup Soy Sauce
+  - 1/4 cup Shaoxing Wine
+  - 1/4 cup Oyster Sauce
+  - 2 tbsp Granulated Sugar
   - '1 cup Onions, sliced'
   - '1 cup Carrots, sliced into matchsticks'
   - '1 cup Bok Choy, chopped'
@@ -22,7 +20,7 @@ ingredients:
   - '2 tsp Garlic, minced'
   - '1 tsp Fresh Ginger, minced'
   - '2 tbsp Scallions, sliced'
-  - 'Vegetable Oil'
+  - Vegetable Oil
 ---
 
 ## Chef's Note

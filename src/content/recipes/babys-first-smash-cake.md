@@ -5,20 +5,18 @@ vibe: holiday
 prepTime: 20 min
 cookTime: 20 min
 totalTime: 60 min
-servings: '4 mini cakes'
+servings: 4 mini cakes
 ingredients:
-  - '--- The Cake ---'
-  - '4 very ripe Bananas (The sweetener)'
-  - '1/2 cup Natural Unsweetened Applesauce'
+  - 4 very ripe Bananas (The sweetener)
+  - 1/2 cup Natural Unsweetened Applesauce
   - '3 tbsp Coconut Oil, melted'
-  - '3/4 cup Whole Wheat Flour'
-  - '3/4 cup Oat Flour (blended oats)'
-  - '1 tsp Baking Soda'
-  - '1 tsp Cinnamon'
-  - '--- The Cream Cheese Frosting ---'
+  - 3/4 cup Whole Wheat Flour
+  - 3/4 cup Oat Flour (blended oats)
+  - 1 tsp Baking Soda
+  - 1 tsp Cinnamon
   - '8 oz Cream Cheese, softened'
-  - '1/2 cup Apple Juice Concentrate (The sweetener)'
-  - '2 tsp Vanilla Extract'
+  - 1/2 cup Apple Juice Concentrate (The sweetener)
+  - 2 tsp Vanilla Extract
 ---
 
 ## Chef's Note

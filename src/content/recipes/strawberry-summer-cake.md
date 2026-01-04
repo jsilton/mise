@@ -8,15 +8,14 @@ totalTime: 75 min
 servings: '8'
 ingredients:
   - '1 lb Fresh Strawberries, hulled and halved'
-  - '--- The Velvet Batter ---'
-  - '1 1/2 cups All-Purpose Flour'
-  - '1 1/2 tsp Baking Powder'
+  - 1 1/2 cups All-Purpose Flour
+  - 1 1/2 tsp Baking Powder
   - '6 tbsp Unsalted Butter, room temp'
-  - '1 cup + 2 tbsp Granulated Sugar'
-  - '1 large Egg'
-  - '1/2 cup Whole Milk'
-  - '1 tsp Pure Vanilla Extract'
-  - '1/2 tsp Sea Salt'
+  - 1 cup + 2 tbsp Granulated Sugar
+  - 1 large Egg
+  - 1/2 cup Whole Milk
+  - 1 tsp Pure Vanilla Extract
+  - 1/2 tsp Sea Salt
 ---
 
 ## Chef's Note

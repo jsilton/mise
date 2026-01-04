@@ -7,16 +7,14 @@ cookTime: 40 min
 totalTime: 50 min
 servings: '8'
 ingredients:
-  - '1 1/2 cups All-Purpose Flour'
+  - 1 1/2 cups All-Purpose Flour
   - '1 1/2 sticks (12 tbsp) Unsalted Butter, cold and cubed'
-  - '1/4 cup + 2 tbsp Half-and-Half'
-  - '--- The Berry Reduction ---'
-  - '12 oz Raspberries + 12 oz Blackberries'
-  - '3/4 cup Granulated Sugar'
-  - '1 1/2 tsp Orange Zest'
-  - '1 Cinnamon Stick (The complex flavor)'
-  - '--- For Garnish ---'
-  - 'Sweetened Whipped Cream'
+  - 1/4 cup + 2 tbsp Half-and-Half
+  - 12 oz Raspberries + 12 oz Blackberries
+  - 3/4 cup Granulated Sugar
+  - 1 1/2 tsp Orange Zest
+  - 1 Cinnamon Stick (The complex flavor)
+  - Sweetened Whipped Cream
 ---
 
 ## Chef's Note

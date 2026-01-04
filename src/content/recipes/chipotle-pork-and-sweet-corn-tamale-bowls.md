@@ -7,26 +7,24 @@ cookTime: 20 min
 totalTime: 30 min
 servings: '4'
 ingredients:
-  - '1.5 lbs Ground Pork'
+  - 1.5 lbs Ground Pork
   - '--- The "Tamale" Base ---'
-  - '1 cup Dry Polenta (Cornmeal)'
-  - '4 cups Chicken Broth'
-  - '1 cup Frozen Sweet Corn'
+  - 1 cup Dry Polenta (Cornmeal)
+  - 4 cups Chicken Broth
+  - 1 cup Frozen Sweet Corn
   - '1/2 cup Mexican Cheese Blend, shredded'
-  - '2 tbsp Unsalted Butter'
-  - '1/2 tsp Ground Cumin'
-  - '--- The Smoky Pork ---'
+  - 2 tbsp Unsalted Butter
+  - 1/2 tsp Ground Cumin
   - '1 large Red Onion, diced'
   - '1 Red Bell Pepper, diced'
   - '2-3 Chipotle Peppers in Adobo, minced + 1 tbsp sauce'
-  - '1 can (14.5 oz) Fire Roasted Crushed Tomatoes'
+  - 1 can (14.5 oz) Fire Roasted Crushed Tomatoes
   - '3 cloves Garlic, minced'
-  - '1 tsp Dried Oregano'
-  - '--- The Fresh Crown ---'
+  - 1 tsp Dried Oregano
   - '1 Avocado, cubed and tossed with 1/2 Lime juice'
   - 'Radishes, paper thin slices'
-  - 'Greek Yogurt (for the "Crema")'
-  - 'Crushed Tortilla Chips'
+  - Greek Yogurt (for the "Crema")
+  - Crushed Tortilla Chips
 ---
 
 ## Chef's Note

@@ -7,15 +7,14 @@ cookTime: 20 min
 totalTime: 25 min
 servings: '12'
 ingredients:
-  - '1 cup Pure Pumpkin Puree'
+  - 1 cup Pure Pumpkin Puree
   - '1/3 cup Unsalted Butter, melted'
-  - '1/2 cup Honey'
-  - '2 large Eggs'
-  - '--- The Spiced Spelt Mix ---'
-  - '1 1/2 cups Whole Spelt Flour'
-  - '1 tbsp Pumpkin Pie Spice (The Finishing Touch)'
-  - '1 tsp Baking Soda + 1/4 tsp Baking Powder'
-  - '1/2 tsp Sea Salt'
+  - 1/2 cup Honey
+  - 2 large Eggs
+  - 1 1/2 cups Whole Spelt Flour
+  - 1 tbsp Pumpkin Pie Spice (The Finishing Touch)
+  - 1 tsp Baking Soda + 1/4 tsp Baking Powder
+  - 1/2 tsp Sea Salt
 ---
 
 ## Chef's Note

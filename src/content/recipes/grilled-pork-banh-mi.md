@@ -8,18 +8,18 @@ totalTime: 4 hours
 servings: '4'
 ingredients:
   - '1.5 lbs Pork Tenderloin or Butt, thinly sliced'
-  - '--- The Marinade ---'
-  - '1/4 cup Fish Sauce'
-  - '2 tbsp Sugar'
-  - '1 tbsp Honey'
+  - 1/4 cup Fish Sauce
+  - 2 tbsp Sugar
+  - 1 tbsp Honey
   - '3 cloves Garlic, minced'
   - '2 stalks Lemongrass, finely minced (white parts only)'
-  - '--- The Sandwich ---'
   - '2 Crusty Baguettes (soft crumb, crispy crust)'
-  - '[quick Pickled Carrots and Daikon](/silton-mise/recipes/quick-pickled-carrots-and-daikon)'
-  - 'Fresh Cilantro and Sliced Jalapeños'
-  - 'Cucumber spears'
-  - 'Mayo and Maggi Seasoning (or Soy Sauce)'
+  - >-
+    [quick Pickled Carrots and
+    Daikon](/silton-mise/recipes/quick-pickled-carrots-and-daikon)
+  - Fresh Cilantro and Sliced Jalapeños
+  - Cucumber spears
+  - Mayo and Maggi Seasoning (or Soy Sauce)
 ---
 
 ## Chef's Note

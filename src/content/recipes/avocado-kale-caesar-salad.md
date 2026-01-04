@@ -9,18 +9,17 @@ servings: '4'
 ingredients:
   - '1 bunch Lacinato (Dino) Kale, stems removed and finely shredded'
   - '1 large Avocado (Half for dressing, half for topping)'
-  - '--- The Caesar Dressing ---'
   - '1/4 cup Mayo (Optional, for extra creaminess)'
   - '2 cloves Garlic, grated'
-  - '2 tbsp Fresh Lemon Juice'
-  - '1 tsp Dijon Mustard'
-  - '1 tsp White Miso Paste or Soy Sauce (The Umami secret)'
-  - '1/2 tsp Kosher Salt'
-  - '1/2 tsp Freshly Cracked Black Pepper'
-  - '2-3 tbsp Water (to thin)'
+  - 2 tbsp Fresh Lemon Juice
+  - 1 tsp Dijon Mustard
+  - 1 tsp White Miso Paste or Soy Sauce (The Umami secret)
+  - 1/2 tsp Kosher Salt
+  - 1/2 tsp Freshly Cracked Black Pepper
+  - 2-3 tbsp Water (to thin)
   - '--- the crunch & Finish ---'
-  - '1/4 cup Toasted Pepitas (Pumpkin Seeds)'
-  - '1/3 cup Shaved Parmesan Cheese'
+  - 1/4 cup Toasted Pepitas (Pumpkin Seeds)
+  - 1/3 cup Shaved Parmesan Cheese
   - '1/2 cup Panko Breadcrumbs, toasted in butter (Optional crunch)'
 ---
 

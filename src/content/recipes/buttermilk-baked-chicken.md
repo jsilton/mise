@@ -8,14 +8,12 @@ totalTime: 60 min
 servings: '4'
 ingredients:
   - '3 lbs Chicken, cut into 8 pieces (pat dry)'
-  - '--- The Enzyme Soak ---'
   - 2 cups Buttermilk
   - 1 tbsp Hot Sauce
   - '1/2 Lemon, juiced'
   - '1/2 Yellow Onion, sliced'
   - '3 cloves Garlic, smashed'
   - 5 sprigs Fresh Thyme
-  - '--- The Kitchen Standard Crust ---'
   - '2 cups Corn Flakes, finely crushed'
   - 3/4 cup Freshly Grated Parmesan
   - '2 tsp Fresh Thyme, chopped'

@@ -7,15 +7,13 @@ cookTime: 10 min
 totalTime: 25 min
 servings: '4'
 ingredients:
-  - '8 oz Rotini or Cavatappi Pasta'
-  - '--- The Vegan Caesar Emulsion ---'
-  - '1 1/2 cups Vegan Caesar Dressing'
-  - '1 1/2 cups Roasted Chickpeas (the crunch Protein)'
-  - '--- Base ---'
+  - 8 oz Rotini or Cavatappi Pasta
+  - 1 1/2 cups Vegan Caesar Dressing
+  - 1 1/2 cups Roasted Chickpeas (the crunch Protein)
   - '2 hearts Romaine Lettuce, chopped'
   - '1 ripe Avocado, sliced'
   - '1 1/2 cups Cherry Tomatoes, halved'
-  - 'Sea Salt and Black Pepper'
+  - Sea Salt and Black Pepper
 ---
 
 ## Chef's Note

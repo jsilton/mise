@@ -7,13 +7,12 @@ cookTime: 0 min
 totalTime: 5 min
 servings: '1'
 ingredients:
-  - '2 oz La Gritona Reposado Tequila'
-  - '1 oz Cointreau (The "Silk" Base)'
-  - '1 oz Fresh Lime Juice (The Acid Balance)'
-  - '1 squirt Agave Syrup'
-  - '--- The Finish ---'
-  - 'Pinch of Smoked Sea Salt (The complex flavor)'
-  - 'Lime wedge for garnish'
+  - 2 oz La Gritona Reposado Tequila
+  - 1 oz Cointreau (The "Silk" Base)
+  - 1 oz Fresh Lime Juice (The Acid Balance)
+  - 1 squirt Agave Syrup
+  - Pinch of Smoked Sea Salt (The complex flavor)
+  - Lime wedge for garnish
 ---
 
 ## Chef's Note

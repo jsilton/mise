@@ -8,14 +8,13 @@ totalTime: 55 min
 servings: '6'
 ingredients:
   - '4 lbs Mixed Root Veggies (Carrots, Parsnips, Sweet Potatoes, Beets)'
-  - '1/4 cup Extra-Virgin Olive Oil'
-  - '3 sprigs Fresh Rosemary or Thyme'
+  - 1/4 cup Extra-Virgin Olive Oil
+  - 3 sprigs Fresh Rosemary or Thyme
   - '4 cloves Garlic, smashed'
-  - '1 tsp Kosher Salt'
-  - '1/2 tsp Black Pepper'
-  - '--- The Glaze ---'
-  - '1 tbsp Maple Syrup or Honey'
-  - '1 tbsp Balsamic Vinegar'
+  - 1 tsp Kosher Salt
+  - 1/2 tsp Black Pepper
+  - 1 tbsp Maple Syrup or Honey
+  - 1 tbsp Balsamic Vinegar
 ---
 
 ## Chef's Note

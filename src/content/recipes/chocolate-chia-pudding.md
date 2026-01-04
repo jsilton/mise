@@ -7,13 +7,12 @@ cookTime: 180 min
 totalTime: 190 min
 servings: '3'
 ingredients:
-  - '1 cup Unsweetened Vanilla Almond Milk'
-  - '6 tbsp Chia Seeds'
-  - '1/4 cup Maple Syrup'
-  - '2 tbsp Unsweetened Cocoa Powder'
-  - '1 tsp Vanilla Extract'
-  - '1/8 tsp Sea Salt'
-  - '--- Optional Toppings ---'
+  - 1 cup Unsweetened Vanilla Almond Milk
+  - 6 tbsp Chia Seeds
+  - 1/4 cup Maple Syrup
+  - 2 tbsp Unsweetened Cocoa Powder
+  - 1 tsp Vanilla Extract
+  - 1/8 tsp Sea Salt
   - 'Fresh Berries, Chocolate Chips, or Chopped Nuts'
 ---
 

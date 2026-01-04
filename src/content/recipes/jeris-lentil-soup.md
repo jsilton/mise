@@ -5,20 +5,19 @@ vibe: nutritious
 prepTime: 15 min
 cookTime: 5 hours
 totalTime: 5.5 hours
-servings: '12 cups'
+servings: 12 cups
 ingredients:
   - '16 oz Dry Green or Brown Lentils, rinsed'
-  - '2 tbsp Extra-Virgin Olive Oil'
+  - 2 tbsp Extra-Virgin Olive Oil
   - '2 cups Yellow Onion, chopped'
   - '3 Carrots, sliced into "copper pennies"'
-  - '1 tsp Italian Seasoning (or Thyme/Marjoram)'
-  - '28 oz can Crushed Tomatoes'
-  - '7 cups Chicken or Vegetable Broth'
-  - '6 oz Dry White Wine (Pinot Grigio)'
+  - 1 tsp Italian Seasoning (or Thyme/Marjoram)
+  - 28 oz can Crushed Tomatoes
+  - 7 cups Chicken or Vegetable Broth
+  - 6 oz Dry White Wine (Pinot Grigio)
   - '3 tbsp Fresh Parsley, chopped'
-  - '--- The Finish ---'
-  - '1 tbsp Sherry Vinegar or Fresh Lemon Juice'
-  - 'Salt and Black Pepper to taste'
+  - 1 tbsp Sherry Vinegar or Fresh Lemon Juice
+  - Salt and Black Pepper to taste
 ---
 
 ## Chef's Note

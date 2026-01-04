@@ -7,24 +7,22 @@ cookTime: 20 min
 totalTime: 35 min
 servings: '12'
 ingredients:
-  - '1 1/2 cups Whole Wheat Pastry Flour'
+  - 1 1/2 cups Whole Wheat Pastry Flour
   - '1 cup Carrots, finely shredded'
-  - '1/2 cup Pure Maple Syrup'
-  - '1/3 cup Unsweetened Applesauce'
-  - '1/2 cup Unsweetened Milk of choice'
-  - '1 large Egg'
-  - '2 tbsp Avocado or Olive Oil'
-  - '--- The Spice Mix ---'
-  - '1 1/2 tsp Cinnamon'
-  - '1 tsp Baking Soda'
-  - '1/4 tsp Nutmeg'
-  - '1/4 tsp Sea Salt'
-  - '1 tsp Pure Vanilla Extract'
-  - '--- The Cream Cheese Glaze ---'
+  - 1/2 cup Pure Maple Syrup
+  - 1/3 cup Unsweetened Applesauce
+  - 1/2 cup Unsweetened Milk of choice
+  - 1 large Egg
+  - 2 tbsp Avocado or Olive Oil
+  - 1 1/2 tsp Cinnamon
+  - 1 tsp Baking Soda
+  - 1/4 tsp Nutmeg
+  - 1/4 tsp Sea Salt
+  - 1 tsp Pure Vanilla Extract
   - '4 oz Light Cream Cheese, softened'
-  - '1/4 cup Powdered Sugar'
-  - '1 tbsp Milk'
-  - '1/2 tsp Vanilla Extract'
+  - 1/4 cup Powdered Sugar
+  - 1 tbsp Milk
+  - 1/2 tsp Vanilla Extract
 ---
 
 ## Chef's Note

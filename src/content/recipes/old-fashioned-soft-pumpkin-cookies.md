@@ -7,21 +7,20 @@ cookTime: 15 min
 totalTime: 25 min
 servings: '36'
 ingredients:
-  - '1 cup Pure Pumpkin Puree'
+  - 1 cup Pure Pumpkin Puree
   - '1/2 cup (1 stick) Unsalted Butter, softened'
-  - '1 1/2 cups Granulated Sugar'
-  - '1 large Egg'
-  - '1 tsp Pure Vanilla Extract'
-  - '--- The Spice Base ---'
-  - '2 1/2 cups All-Purpose Flour'
-  - '1 tsp Baking Soda'
-  - '1 tsp Baking Powder'
-  - '1 tsp Ground Cinnamon'
-  - '1/2 tsp Ground Nutmeg'
-  - '1/2 tsp Sea Salt'
+  - 1 1/2 cups Granulated Sugar
+  - 1 large Egg
+  - 1 tsp Pure Vanilla Extract
+  - 2 1/2 cups All-Purpose Flour
+  - 1 tsp Baking Soda
+  - 1 tsp Baking Powder
+  - 1 tsp Ground Cinnamon
+  - 1/2 tsp Ground Nutmeg
+  - 1/2 tsp Sea Salt
   - '--- The "High Note" Glaze ---'
-  - '2 cups Confectioners’ Sugar'
-  - '3 tbsp Milk'
+  - 2 cups Confectioners’ Sugar
+  - 3 tbsp Milk
   - '1 tbsp Unsalted Butter, melted'
 ---
 

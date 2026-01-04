@@ -7,19 +7,17 @@ cookTime: 20 min
 totalTime: 30 min
 servings: '12'
 ingredients:
-  - '--- The Emerald Emulsion ---'
   - '1 cup Spinach or Kale, packed'
-  - '1 cup Ripe Banana or Applesauce'
-  - '1/4 cup Coconut or Avocado Oil'
-  - '1/4 cup Maple Syrup'
-  - '2 large Eggs'
-  - '2 tsp Apple Cider Vinegar (The Acid Balance)'
-  - '--- The Ancient Grain Mix ---'
-  - '1 cup White Whole Wheat Flour'
-  - '1/4 cup Cocoa Powder'
-  - '1 tsp Ground Cinnamon'
-  - '1 tsp Baking Soda + 1 tsp Baking Powder'
-  - '1/4 cup Dark Chocolate Chips'
+  - 1 cup Ripe Banana or Applesauce
+  - 1/4 cup Coconut or Avocado Oil
+  - 1/4 cup Maple Syrup
+  - 2 large Eggs
+  - 2 tsp Apple Cider Vinegar (The Acid Balance)
+  - 1 cup White Whole Wheat Flour
+  - 1/4 cup Cocoa Powder
+  - 1 tsp Ground Cinnamon
+  - 1 tsp Baking Soda + 1 tsp Baking Powder
+  - 1/4 cup Dark Chocolate Chips
 ---
 
 ## Chef's Note

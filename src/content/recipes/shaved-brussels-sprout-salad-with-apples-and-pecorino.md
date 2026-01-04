@@ -10,11 +10,10 @@ ingredients:
   - '1 lb Brussels Sprouts, shaved paper-thin'
   - '1 Granny Smith Apple, matchsticked'
   - '1 cup Pecorino Romano, finely grated'
-  - '--- The Cider-Honey Emulsion ---'
-  - '1/4 cup Extra-Virgin Olive Oil'
-  - '3 tbsp Apple Cider Vinegar (The Acid Balance)'
-  - '2 tbsp Honey'
-  - 'Salt and Black Pepper'
+  - 1/4 cup Extra-Virgin Olive Oil
+  - 3 tbsp Apple Cider Vinegar (The Acid Balance)
+  - 2 tbsp Honey
+  - Salt and Black Pepper
 ---
 
 ## Chef's Note

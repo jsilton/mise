@@ -11,7 +11,6 @@ ingredients:
   - 1 cup Panko Breadcrumbs (for maximum crunch)
   - 1/2 cup Grated Parmesan Cheese
   - '2 large Eggs, beaten'
-  - '--- The Assembly ---'
   - 1 1/2 cups Marinara Sauce
   - '8 oz Fresh Mozzarella or Low-Moisture Mozzarella, sliced'
   - Fresh Basil leaves

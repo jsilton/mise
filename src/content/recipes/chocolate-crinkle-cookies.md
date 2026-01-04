@@ -10,17 +10,15 @@ ingredients:
   - '6 oz Semisweet Chocolate, chopped'
   - '1/2 cup Salted Butter, cubed'
   - '1/2 cup Light Brown Sugar, packed'
-  - '1 1/2 cups Granulated Sugar (divided)'
-  - '3 large Eggs'
-  - '2 tsp Vanilla Extract'
-  - '--- The Dry Mix ---'
-  - '1 1/2 cups All-Purpose Flour'
-  - '1/2 cup Unsweetened Cocoa Powder'
-  - '1 tsp Baking Powder'
-  - '1/4 tsp Baking Soda'
-  - '1/4 tsp Sea Salt'
-  - '--- The Coating ---'
-  - '1 cup Powdered Sugar'
+  - 1 1/2 cups Granulated Sugar (divided)
+  - 3 large Eggs
+  - 2 tsp Vanilla Extract
+  - 1 1/2 cups All-Purpose Flour
+  - 1/2 cup Unsweetened Cocoa Powder
+  - 1 tsp Baking Powder
+  - 1/4 tsp Baking Soda
+  - 1/4 tsp Sea Salt
+  - 1 cup Powdered Sugar
 ---
 
 ## Chef's Note

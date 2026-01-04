@@ -7,18 +7,16 @@ cookTime: 45 min
 totalTime: 55 min
 servings: '16'
 ingredients:
-  - '--- The Dry Base ---'
-  - '1 1/2 cups Granulated Sugar'
-  - '3/4 cup All-Purpose Flour'
+  - 1 1/2 cups Granulated Sugar
+  - 3/4 cup All-Purpose Flour
   - '2/3 cup Unsweetened Cocoa Powder, sifted'
-  - '1/2 cup Powdered Sugar'
-  - '1/2 cup Dark Chocolate Chips (60% cacao or higher)'
-  - '3/4 tsp Sea Salt'
-  - '--- The Wet Emulsion ---'
-  - '2 large Eggs'
-  - '1/2 cup Extra-Virgin Olive Oil (Chef Kriger Secret)'
-  - '2 tbsp Water'
-  - '1/2 tsp Vanilla Extract'
+  - 1/2 cup Powdered Sugar
+  - 1/2 cup Dark Chocolate Chips (60% cacao or higher)
+  - 3/4 tsp Sea Salt
+  - 2 large Eggs
+  - 1/2 cup Extra-Virgin Olive Oil (Chef Kriger Secret)
+  - 2 tbsp Water
+  - 1/2 tsp Vanilla Extract
 ---
 
 ## Chef's Note

@@ -7,24 +7,21 @@ cookTime: 40 min
 totalTime: 3 hours
 servings: '12'
 ingredients:
-  - '--- The Brown Butter Base ---'
   - '3/4 cup Unsalted Butter, browned and cooled'
   - '1 lb Carrots, finely grated'
-  - '1 cup Buttermilk'
+  - 1 cup Buttermilk
   - '4 large Eggs, room temperature'
-  - '1 cup Granulated Sugar'
-  - '3/4 cup Light Brown Sugar'
-  - '--- Dry Ingredients ---'
-  - '2 1/2 cups All-Purpose Flour'
-  - '2 tsp Cinnamon + 2 tsp Ginger'
-  - '1/2 tsp Nutmeg'
-  - '2 tsp Baking Powder + 3/4 tsp Baking Soda'
-  - '1 1/2 tsp Kosher Salt'
-  - '--- The Frosting ---'
+  - 1 cup Granulated Sugar
+  - 3/4 cup Light Brown Sugar
+  - 2 1/2 cups All-Purpose Flour
+  - 2 tsp Cinnamon + 2 tsp Ginger
+  - 1/2 tsp Nutmeg
+  - 2 tsp Baking Powder + 3/4 tsp Baking Soda
+  - 1 1/2 tsp Kosher Salt
   - '12 oz Cream Cheese, softened'
   - '3/4 cup Butter, softened'
-  - '4 cups Powdered Sugar'
-  - '1 tsp Vanilla Extract'
+  - 4 cups Powdered Sugar
+  - 1 tsp Vanilla Extract
 ---
 
 ## Chef's Note

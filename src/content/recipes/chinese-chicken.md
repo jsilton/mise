@@ -8,18 +8,16 @@ totalTime: 50 min
 servings: '4'
 ingredients:
   - '2 lbs Chicken Thighs, chopped'
-  - '2 links Chinese Sausage (Lap Cheong)'
+  - 2 links Chinese Sausage (Lap Cheong)
   - '2 large Broccoli Crowns, cut into florets'
   - '2 large Yellow Onions, chopped'
   - '3 cloves Garlic, minced'
-  - '--- The Heritage Glaze ---'
-  - '1/2 cup Dry Sherry'
-  - '1/2 cup Soy Sauce'
-  - '1/4 cup Oyster Sauce'
-  - '1/3 cup Cornstarch (mixed with 1/2 cup water)'
-  - '--- The Base ---'
-  - '3 cups White Rice (Jasmine preferred)'
-  - 'Vegetable Oil'
+  - 1/2 cup Dry Sherry
+  - 1/2 cup Soy Sauce
+  - 1/4 cup Oyster Sauce
+  - 1/3 cup Cornstarch (mixed with 1/2 cup water)
+  - 3 cups White Rice (Jasmine preferred)
+  - Vegetable Oil
 ---
 
 ## Chef's Note

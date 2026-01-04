@@ -7,17 +7,15 @@ cookTime: 60 min
 totalTime: 80 min
 servings: '8'
 ingredients:
-  - '1 lb Chicken Thighs + 1 lb Chicken Breast (diced)'
-  - '1.5 cups Wild Rice Blend'
-  - '--- The Mirepoix ---'
+  - 1 lb Chicken Thighs + 1 lb Chicken Breast (diced)
+  - 1.5 cups Wild Rice Blend
   - '1 large Yellow Onion, finely chopped'
   - '3 Carrots, diced into "copper pennies"'
   - '3 stalks Celery, diced'
   - '4 cloves Garlic, minced'
-  - '--- The Broth ---'
-  - '3 quarts High-Quality Chicken Broth'
-  - '1 tbsp Fresh Thyme or Sage'
-  - '1 tbsp Lemon Juice (The Acid Balance)'
+  - 3 quarts High-Quality Chicken Broth
+  - 1 tbsp Fresh Thyme or Sage
+  - 1 tbsp Lemon Juice (The Acid Balance)
   - '1/4 cup Fresh Parsley, chopped'
 ---
 

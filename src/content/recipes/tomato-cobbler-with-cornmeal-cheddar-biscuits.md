@@ -7,18 +7,16 @@ cookTime: 60 min
 totalTime: 80 min
 servings: '8'
 ingredients:
-  - '--- The Tomato Reduction ---'
   - '4 lbs Cherry Tomatoes, whole'
   - '2 Red Onions, thinly sliced'
-  - '1/4 cup Red Wine'
-  - '1/4 cup All-Purpose Flour'
+  - 1/4 cup Red Wine
+  - 1/4 cup All-Purpose Flour
   - '4 cloves Garlic, minced'
-  - '--- The Cornmeal Snap ---'
-  - '1 1/4 cups All-Purpose Flour + 3/4 cup Cornmeal'
+  - 1 1/4 cups All-Purpose Flour + 3/4 cup Cornmeal
   - '6 tbsp Unsalted Butter, cold and cubed'
   - '1 1/2 cups Sharp Cheddar, shredded'
-  - '1 cup Whole Buttermilk'
-  - '1 tbsp Baking Powder'
+  - 1 cup Whole Buttermilk
+  - 1 tbsp Baking Powder
 ---
 
 ## Chef's Note

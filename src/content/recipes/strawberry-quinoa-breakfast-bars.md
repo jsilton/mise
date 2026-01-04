@@ -7,15 +7,14 @@ cookTime: 20 min
 totalTime: 25 min
 servings: '9'
 ingredients:
-  - '3/4 cup Cooked Quinoa (chilled)'
-  - '1 1/2 cups Old-fashioned Rolled Oats'
+  - 3/4 cup Cooked Quinoa (chilled)
+  - 1 1/2 cups Old-fashioned Rolled Oats
   - '1 cup Fresh Strawberries, chopped'
-  - '--- Binder ---'
   - '2 large Ripe Bananas, mashed'
-  - '2 large Eggs'
-  - '1/4 cup Raisins or Golden Raisins'
-  - '1/2 tsp Pure Vanilla Extract'
-  - 'Pinch of Sea Salt'
+  - 2 large Eggs
+  - 1/4 cup Raisins or Golden Raisins
+  - 1/2 tsp Pure Vanilla Extract
+  - Pinch of Sea Salt
 ---
 
 ## Chef's Note

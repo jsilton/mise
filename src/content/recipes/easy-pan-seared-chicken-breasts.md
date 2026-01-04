@@ -7,15 +7,14 @@ cookTime: 10 min
 totalTime: 15 min
 servings: '4'
 ingredients:
-  - '4 Chicken Breasts (thin-cut or butterflied)'
-  - '1/2 cup All-Purpose Flour (for dredging)'
-  - '2 tbsp Extra-Virgin Olive Oil'
-  - '--- The Flavor Rub ---'
-  - '1 tsp Sea Salt'
-  - '1/4 tsp Black Pepper'
-  - '1 tsp Garlic Powder'
-  - '1 tsp Onion Powder'
-  - '2 tsp Italian Seasoning'
+  - 4 Chicken Breasts (thin-cut or butterflied)
+  - 1/2 cup All-Purpose Flour (for dredging)
+  - 2 tbsp Extra-Virgin Olive Oil
+  - 1 tsp Sea Salt
+  - 1/4 tsp Black Pepper
+  - 1 tsp Garlic Powder
+  - 1 tsp Onion Powder
+  - 2 tsp Italian Seasoning
 ---
 
 ## Chef's Note

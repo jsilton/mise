@@ -5,16 +5,15 @@ vibe: nutritious
 prepTime: 5 min
 cookTime: 5 min
 totalTime: 10 min
-servings: '1 large batch'
+servings: 1 large batch
 ingredients:
-  - '1 cup All-Purpose Flour'
-  - '1/2 cup Fine Salt'
-  - '2 tsp Cream of Tartar'
-  - '1 cup Water'
-  - '1 tbsp Vegetable Oil'
-  - '--- For Customization ---'
-  - 'Oil of Wintergreen (optional for aroma)'
-  - 'Food Coloring or Liquid Watercolors'
+  - 1 cup All-Purpose Flour
+  - 1/2 cup Fine Salt
+  - 2 tsp Cream of Tartar
+  - 1 cup Water
+  - 1 tbsp Vegetable Oil
+  - Oil of Wintergreen (optional for aroma)
+  - Food Coloring or Liquid Watercolors
 ---
 
 ## Chef's Note

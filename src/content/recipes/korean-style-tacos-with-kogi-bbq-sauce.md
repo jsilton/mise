@@ -7,20 +7,20 @@ cookTime: 5 min
 totalTime: 65 min
 servings: '4'
 ingredients:
-  - '1 lb Cooked [Pulled Pork](/silton-mise/recipes/best-slow-cooker-pulled-pork) or Shredded Chicken'
-  - '12 Corn Tortillas'
-  - '--- The Kogi BBQ Sauce ---'
-  - '2 tbsp Gochujang'
-  - '3 tbsp Granulated Sugar'
-  - '2 tbsp Soy Sauce'
-  - '1 tsp Rice Vinegar'
-  - '2 tsp Toasted Sesame Oil'
-  - '--- The quick Cucumber Pickle ---'
+  - >-
+    1 lb Cooked [Pulled Pork](/silton-mise/recipes/best-slow-cooker-pulled-pork)
+    or Shredded Chicken
+  - 12 Corn Tortillas
+  - 2 tbsp Gochujang
+  - 3 tbsp Granulated Sugar
+  - 2 tbsp Soy Sauce
+  - 1 tsp Rice Vinegar
+  - 2 tsp Toasted Sesame Oil
   - '1 large English Cucumber, sliced paper-thin'
-  - '2 tbsp Rice Vinegar'
-  - '1/2 tsp Sugar'
+  - 2 tbsp Rice Vinegar
+  - 1/2 tsp Sugar
   - '1/2 tsp Fresh Chili Pepper, minced'
-  - 'Generous pinch of Sea Salt'
+  - Generous pinch of Sea Salt
 ---
 
 ## Chef's Note

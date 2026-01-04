@@ -8,23 +8,19 @@ totalTime: 3.5 hours
 servings: '6'
 ingredients:
   - '1 Whole Chicken (3.5 lbs), quartered'
-  - '2 lbs Chicken Wings or Backs (for extra gelatin)'
-  - '--- The Charred Aromatics ---'
+  - 2 lbs Chicken Wings or Backs (for extra gelatin)
   - '2 large Yellow Onions, unpeeled and halved'
   - '4-inch piece Fresh Ginger, halved lengthwise'
-  - '--- The Whole Spices ---'
-  - '2 Star Anise'
-  - '1 Cinnamon Stick'
-  - '1 tsp Coriander Seeds'
-  - '--- The Broth ---'
-  - '5 quarts Water'
-  - '1/4 cup Fish Sauce (Squid Brand)'
-  - '1 tbsp Sugar'
-  - '1 tbsp Salt'
-  - '--- For Serving ---'
-  - '1 lb Dried Rice Sticks (Bánh Phở)'
+  - 2 Star Anise
+  - 1 Cinnamon Stick
+  - 1 tsp Coriander Seeds
+  - 5 quarts Water
+  - 1/4 cup Fish Sauce (Squid Brand)
+  - 1 tbsp Sugar
+  - 1 tbsp Salt
+  - 1 lb Dried Rice Sticks (Bánh Phở)
   - 'Bean Sprouts, Thai Basil, Lime Wedges, Jalapeños'
-  - 'Hoisin and Sriracha'
+  - Hoisin and Sriracha
 ---
 
 ## Chef's Note

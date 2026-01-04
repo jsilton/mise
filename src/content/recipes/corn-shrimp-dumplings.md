@@ -5,19 +5,17 @@ vibe: technical
 prepTime: 40 min
 cookTime: 10 min
 totalTime: 50 min
-servings: '20 dumplings'
+servings: 20 dumplings
 ingredients:
   - '1/2 lb Shrimp, peeled, deveined, and finely chopped'
   - '1 ear Fresh Corn, kernels cut off the cob'
-  - '--- The Aromatics ---'
   - '2 Scallions, minced'
   - '2 tsp Fresh Ginger, minced'
   - '2 tsp Garlic, minced'
-  - '1 tsp Toasted Sesame Oil'
-  - '1/2 tsp White Pepper'
-  - '--- The Wrappers ---'
-  - '20 Gyoza or Siu Mai Wrappers'
-  - 'Soy Sauce and Chili Oil for dipping'
+  - 1 tsp Toasted Sesame Oil
+  - 1/2 tsp White Pepper
+  - 20 Gyoza or Siu Mai Wrappers
+  - Soy Sauce and Chili Oil for dipping
 ---
 
 ## Chef's Note

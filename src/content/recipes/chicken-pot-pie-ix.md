@@ -9,17 +9,17 @@ servings: '8'
 ingredients:
   - '1 lb Chicken Breast, poached and cubed'
   - '1 cup Carrots, diced'
-  - '1 cup Frozen Peas'
+  - 1 cup Frozen Peas
   - '1/2 cup Celery, diced'
-  - '--- The Savory Gravy ---'
-  - '1/3 cup Butter'
-  - '1/3 cup All-Purpose Flour'
-  - '1 3/4 cups Chicken Broth'
-  - '2/3 cup Whole Milk'
-  - '1/2 tsp Garlic Powder + 1/4 tsp Celery Seed'
-  - '--- The Flaky Crust ---'
-  - '2 (9-inch) unbaked pie crusts (Use the [Apple Pie](/silton-mise/recipes/apple-pie) Vodka Hack dough!)'
-  - '1 large Egg (for wash)'
+  - 1/3 cup Butter
+  - 1/3 cup All-Purpose Flour
+  - 1 3/4 cups Chicken Broth
+  - 2/3 cup Whole Milk
+  - 1/2 tsp Garlic Powder + 1/4 tsp Celery Seed
+  - >-
+    2 (9-inch) unbaked pie crusts (Use the [Apple
+    Pie](/silton-mise/recipes/apple-pie) Vodka Hack dough!)
+  - 1 large Egg (for wash)
 ---
 
 ## Chef's Note

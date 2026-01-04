@@ -5,22 +5,23 @@ vibe: technical
 prepTime: 20 min
 cookTime: 20 min
 totalTime: 40 min
-servings: '14 cupcakes'
+servings: 14 cupcakes
 ingredients:
-  - '1 1/3 cups All-Purpose Flour'
-  - '1/4 cup Cornstarch for texture'
-  - '4 tsp Unsweetened Cocoa Powder (Natural)'
-  - '--- The Acid Emulsion ---'
-  - '1 cup Granulated Sugar'
-  - '1/2 cup Canola or Avocado Oil'
+  - 1 1/3 cups All-Purpose Flour
+  - 1/4 cup Cornstarch for texture
+  - 4 tsp Unsweetened Cocoa Powder (Natural)
+  - 1 cup Granulated Sugar
+  - 1/2 cup Canola or Avocado Oil
   - '1/4 cup Unsalted Butter, softened'
-  - '1/2 cup Whole Buttermilk'
-  - '1/2 tsp Distilled White Vinegar (The Finishing Touch)'
+  - 1/2 cup Whole Buttermilk
+  - 1/2 tsp Distilled White Vinegar (The Finishing Touch)
   - '2 large Eggs, separated'
-  - '2 tsp Pure Vanilla Extract'
-  - '1/2 tsp Baking Soda'
-  - 'Red Food Coloring (Gel preferred)'
-  - '[Favorite Cream Cheese Frosting](/silton-mise/recipes/favorite-cream-cheese-frosting)'
+  - 2 tsp Pure Vanilla Extract
+  - 1/2 tsp Baking Soda
+  - Red Food Coloring (Gel preferred)
+  - >-
+    [Favorite Cream Cheese
+    Frosting](/silton-mise/recipes/favorite-cream-cheese-frosting)
 ---
 
 ## Chef's Note

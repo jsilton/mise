@@ -1,5 +1,5 @@
 ---
-title: quick Lamb Ragù
+title: Quick Lamb Ragù
 role: main
 vibe: nutritious
 prepTime: 10 min
@@ -7,19 +7,17 @@ cookTime: 35 min
 totalTime: 45 min
 servings: '4'
 ingredients:
-  - '1 lb Ground Lamb'
-  - '12 oz Dry Pasta (Penne or Shells)'
-  - '--- The Flavor Pulse ---'
+  - 1 lb Ground Lamb
+  - 12 oz Dry Pasta (Penne or Shells)
   - '1 medium Yellow Onion, finely chopped'
   - '4 cloves Garlic, minced'
-  - '2 tbsp Tomato Paste'
-  - '1 can (28 oz) Crushed Tomatoes'
-  - '2 Anchovy Fillets for umami'
-  - '--- The Finishing Touch Finish ---'
-  - '2 tbsp Balsamic Vinegar'
-  - '1/4 tsp Red Pepper Flakes'
-  - 'Fresh Oregano or Marjoram'
-  - 'Extra-Virgin Olive Oil'
+  - 2 tbsp Tomato Paste
+  - 1 can (28 oz) Crushed Tomatoes
+  - 2 Anchovy Fillets for umami
+  - 2 tbsp Balsamic Vinegar
+  - 1/4 tsp Red Pepper Flakes
+  - Fresh Oregano or Marjoram
+  - Extra-Virgin Olive Oil
 ---
 
 ## Chef's Note

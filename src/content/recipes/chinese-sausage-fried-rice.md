@@ -9,17 +9,15 @@ servings: '4'
 ingredients:
   - '4 cups Cooked Rice (Day-old, cold Jasmine)'
   - '5 Chinese Sausages (Lap Cheong), thinly sliced'
-  - '3 large Eggs'
-  - '--- The Flavor Base ---'
+  - 3 large Eggs
   - '3 Green Onions, thinly sliced'
   - '2 cloves Garlic, minced'
   - '1 Red Chili, finely chopped'
   - '1/2 cup Frozen Peas, thawed'
-  - '--- The Finish ---'
-  - '2 tbsp Light Soy Sauce'
-  - '1 tbsp Oyster Sauce'
-  - '2 tsp Toasted Sesame Oil'
-  - '3 tsp Peanut Oil'
+  - 2 tbsp Light Soy Sauce
+  - 1 tbsp Oyster Sauce
+  - 2 tsp Toasted Sesame Oil
+  - 3 tsp Peanut Oil
 ---
 
 ## Chef's Note

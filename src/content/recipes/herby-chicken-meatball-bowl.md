@@ -7,24 +7,22 @@ cookTime: 30 min
 totalTime: 45 min
 servings: '4'
 ingredients:
-  - '--- The Herby Meatballs ---'
-  - '1 lb Ground Chicken'
-  - '1 cup Whole-Milk Ricotta for richness'
-  - '1 large Egg'
-  - '1/2 cup Panko Breadcrumbs'
+  - 1 lb Ground Chicken
+  - 1 cup Whole-Milk Ricotta for richness
+  - 1 large Egg
+  - 1/2 cup Panko Breadcrumbs
   - '1 Shallot, finely chopped'
   - '1/2 cup Fresh Cilantro and 1/4 cup Dill, chopped'
-  - 'Zest of 1 Lemon'
-  - '--- The Fuel Base ---'
+  - Zest of 1 Lemon
   - '1 15 oz can Chickpeas, patted bone-dry'
   - '1 large Sweet Potato, diced'
-  - '4 cups Fresh Kale'
+  - 4 cups Fresh Kale
   - '--- The Yogurt Jalapeño Dressing ---'
-  - '1 cup Greek Yogurt'
-  - '1 cup Fresh Basil'
+  - 1 cup Greek Yogurt
+  - 1 cup Fresh Basil
   - '1 Jalapeño, seeded'
-  - '1 tbsp Honey'
-  - '1 tbsp Fresh Lemon Juice'
+  - 1 tbsp Honey
+  - 1 tbsp Fresh Lemon Juice
 ---
 
 ## Chef's Note

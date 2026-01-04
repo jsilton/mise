@@ -5,21 +5,20 @@ vibe: technical
 prepTime: 60 min
 cookTime: 10 min
 totalTime: 70 min
-servings: '25 shumai'
+servings: 25 shumai
 ingredients:
-  - '1/2 lb Ground Pork (80/20 fat ratio)'
+  - 1/2 lb Ground Pork (80/20 fat ratio)
   - '1/2 lb Shrimp, peeled and deveined (finely chopped)'
   - '1/2 cup Water Chestnuts, finely minced'
   - '2/3 cup Dried Shiitake Mushrooms, soaked and minced'
-  - '1 tbsp Oyster Sauce'
-  - '1 tbsp Shaoxing Wine'
-  - '1 tsp Toasted Sesame Oil'
-  - '1/2 tsp White Pepper'
-  - '1 tsp Sugar'
-  - '1 tbsp Cornstarch'
-  - '25-30 Siu Mai Wrappers (Yellow egg wrappers)'
-  - '--- For Garnish ---'
-  - '1/4 cup Finely diced carrots or Goji berries'
+  - 1 tbsp Oyster Sauce
+  - 1 tbsp Shaoxing Wine
+  - 1 tsp Toasted Sesame Oil
+  - 1/2 tsp White Pepper
+  - 1 tsp Sugar
+  - 1 tbsp Cornstarch
+  - 25-30 Siu Mai Wrappers (Yellow egg wrappers)
+  - 1/4 cup Finely diced carrots or Goji berries
 ---
 
 ## Chef's Note

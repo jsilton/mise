@@ -7,18 +7,16 @@ cookTime: 25 min
 totalTime: 45 min
 servings: '6'
 ingredients:
-  - '1 lb Shredded Chicken (Poached or Rotisserie)'
-  - '12 Corn Tortillas'
-  - '--- The Salsa Verde ---'
+  - 1 lb Shredded Chicken (Poached or Rotisserie)
+  - 12 Corn Tortillas
   - '1 lb Tomatillos, husked and rinsed'
-  - '2 Jalapeños or Serranos'
+  - 2 Jalapeños or Serranos
   - '1 white Onion, quartered'
-  - '3 cloves Garlic'
-  - '1/2 cup Heavy Cream (The "Suiza" secret)'
-  - '1/2 cup Fresh Cilantro'
-  - '--- The Finish ---'
+  - 3 cloves Garlic
+  - 1/2 cup Heavy Cream (The "Suiza" secret)
+  - 1/2 cup Fresh Cilantro
   - '8 oz Monterey Jack or Chihuahua Cheese, shredded'
-  - 'Pickled Red Onions (for garnish)'
+  - Pickled Red Onions (for garnish)
 ---
 
 ## Chef's Note

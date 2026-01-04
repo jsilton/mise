@@ -8,15 +8,14 @@ totalTime: 25 min
 servings: '4'
 ingredients:
   - '2 large Chicken Breasts, halved horizontally (cutlets) and pounded thin'
-  - '2 tbsp Extra-Virgin Olive Oil'
+  - 2 tbsp Extra-Virgin Olive Oil
   - '2 cloves Garlic, minced'
-  - '--- The Silky Glaze ---'
-  - '1/2 cup Chicken Broth'
-  - '2 tbsp Fresh Lemon Juice'
+  - 1/2 cup Chicken Broth
+  - 2 tbsp Fresh Lemon Juice
   - '2 tbsp Cold Butter, cubed (The Butter Mount)'
   - '2 tbsp Capers, drained'
   - 'Fresh Parsley, chopped'
-  - 'Salt and Black Pepper'
+  - Salt and Black Pepper
 ---
 
 ## Chef's Note

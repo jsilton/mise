@@ -8,16 +8,14 @@ totalTime: 60 min
 servings: '4'
 ingredients:
   - '2 racks Pork Spareribs (4 lbs), cut into 3-rib sections'
-  - '--- The Pressure Marinade ---'
-  - '1/2 cup Hoisin Sauce'
-  - '1/4 cup Soy Sauce'
-  - '1 tbsp Molasses'
+  - 1/2 cup Hoisin Sauce
+  - 1/4 cup Soy Sauce
+  - 1 tbsp Molasses
   - '3 tbsp Ginger, grated'
   - '6 cloves Garlic, minced'
-  - '1 tbsp Sambal Oelek'
-  - '1/2 cup Honey'
-  - '--- For the Glaze ---'
-  - '1/4 cup reserved honey'
+  - 1 tbsp Sambal Oelek
+  - 1/2 cup Honey
+  - 1/4 cup reserved honey
 ---
 
 ## Chef's Note

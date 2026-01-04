@@ -8,26 +8,23 @@ totalTime: 60 min
 servings: '4'
 ingredients:
   - '1 head Cauliflower, cut into bite-sized florets'
-  - '--- The Crispy Batter ---'
-  - '1/2 cup All-Purpose Flour'
-  - '1/3 cup Cornstarch (the crunch Guard)'
-  - '3/4 tsp Baking Powder'
-  - '2 large Eggs'
-  - '3 tbsp Soy Sauce'
-  - '1 tbsp Rice Vinegar'
-  - '--- The General Tso Sauce ---'
-  - '1/4 cup Soy Sauce'
-  - '3 tbsp Rice Vinegar'
-  - '2 tbsp Mirin'
-  - '3 tbsp Granulated Sugar'
-  - '1 tbsp Cornstarch (for the bind)'
-  - '1/4 cup Vegetable Broth'
-  - '--- The Aromatics ---'
+  - 1/2 cup All-Purpose Flour
+  - 1/3 cup Cornstarch (the crunch Guard)
+  - 3/4 tsp Baking Powder
+  - 2 large Eggs
+  - 3 tbsp Soy Sauce
+  - 1 tbsp Rice Vinegar
+  - 1/4 cup Soy Sauce
+  - 3 tbsp Rice Vinegar
+  - 2 tbsp Mirin
+  - 3 tbsp Granulated Sugar
+  - 1 tbsp Cornstarch (for the bind)
+  - 1/4 cup Vegetable Broth
   - '6 Scallions, sliced (whites and greens separated)'
   - '3 cloves Garlic, minced'
   - '1 tbsp Fresh Ginger, minced'
-  - '5 Dried Red Chilies'
-  - 'Peanut Oil (for frying)'
+  - 5 Dried Red Chilies
+  - Peanut Oil (for frying)
 ---
 
 ## Chef's Note

@@ -7,20 +7,18 @@ cookTime: 35 min
 totalTime: 50 min
 servings: '8'
 ingredients:
-  - '1 9-inch Deep-dish Pie Crust (unbaked)'
-  - '--- The Filling Stacks ---'
+  - 1 9-inch Deep-dish Pie Crust (unbaked)
   - '1 cup Cooked Ham, cubed'
   - '1 cup Sharp Cheddar, shredded'
   - '1/2 cup Mozzarella, shredded'
   - '1/2 cup Fresh Spinach, chopped'
   - '1/2 cup Yellow Onion, minced'
-  - '1 tbsp Unsalted Butter'
-  - '--- The Silk Custard ---'
-  - '5 large Eggs'
-  - '1/2 cup Half-and-Half (for texture)'
-  - '1/2 tsp Dried Parsley'
-  - '1/4 tsp Black Pepper'
-  - 'Pinch of Nutmeg'
+  - 1 tbsp Unsalted Butter
+  - 5 large Eggs
+  - 1/2 cup Half-and-Half (for texture)
+  - 1/2 tsp Dried Parsley
+  - 1/4 tsp Black Pepper
+  - Pinch of Nutmeg
 ---
 
 ## Chef's Note

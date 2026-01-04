@@ -7,22 +7,20 @@ cookTime: 40 min
 totalTime: 90 min
 servings: '12'
 ingredients:
-  - '3 cups Granulated Sugar'
-  - '4 cups + 2 tbsp All-Purpose Flour'
-  - '9 large Egg Whites (room temp)'
-  - '1 1/2 cups Whole Milk'
-  - '1 cup Vegetable Oil'
+  - 3 cups Granulated Sugar
+  - 4 cups + 2 tbsp All-Purpose Flour
+  - 9 large Egg Whites (room temp)
+  - 1 1/2 cups Whole Milk
+  - 1 cup Vegetable Oil
   - '9 tbsp Unsalted Butter, softened'
-  - '1/2 cup Rainbow Sprinkles (Jimmies only)'
-  - '--- The Spice Mix ---'
-  - '4 1/2 tsp Baking Powder'
-  - '1 1/2 tsp Sea Salt'
-  - '4 tsp Pure Vanilla Extract'
-  - '--- The Executive Buttercream ---'
+  - 1/2 cup Rainbow Sprinkles (Jimmies only)
+  - 4 1/2 tsp Baking Powder
+  - 1 1/2 tsp Sea Salt
+  - 4 tsp Pure Vanilla Extract
   - '1 lb (4 sticks) Unsalted Butter, softened'
-  - '6 cups Confectioners’ Sugar'
-  - '6 tbsp Heavy Cream'
-  - '2 tsp Vanilla Extract'
+  - 6 cups Confectioners’ Sugar
+  - 6 tbsp Heavy Cream
+  - 2 tsp Vanilla Extract
 ---
 
 ## Chef's Note

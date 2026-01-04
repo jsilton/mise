@@ -7,26 +7,25 @@ cookTime: 20 min
 totalTime: 80 min
 servings: '6'
 ingredients:
-  - '--- The Filling ---'
-  - '1 lb Ground Pork (not too lean)'
+  - 1 lb Ground Pork (not too lean)
   - '2 cups Napa Cabbage, finely minced and squeezed dry'
   - '3 stalks Green Onion, minced'
   - '1 tbsp Ginger, freshly grated'
   - '2 cloves Garlic, minced'
-  - '1 tbsp Shaoxing Wine'
-  - '1 tbsp Soy Sauce'
-  - '1 tsp Toasted Sesame Oil'
-  - '1/2 tsp White Pepper'
-  - '1 tsp Salt'
+  - 1 tbsp Shaoxing Wine
+  - 1 tbsp Soy Sauce
+  - 1 tsp Toasted Sesame Oil
+  - 1/2 tsp White Pepper
+  - 1 tsp Salt
   - '--- The Thick Wrappers (for that Boston Chew) ---'
-  - '2 cups All-Purpose Flour'
-  - '3/4 cup Boiling Water'
+  - 2 cups All-Purpose Flour
+  - 3/4 cup Boiling Water
   - '--- Bernard’s Style Dipping Sauce ---'
-  - '1/4 cup Soy Sauce'
-  - '2 tbsp Chinkiang Black Vinegar (or Balsamic fallback)'
-  - '1 tbsp Brown Sugar or Molasses'
+  - 1/4 cup Soy Sauce
+  - 2 tbsp Chinkiang Black Vinegar (or Balsamic fallback)
+  - 1 tbsp Brown Sugar or Molasses
   - '1 tbsp Ginger, finely grated'
-  - '1 tsp Chili Crisp (optional)'
+  - 1 tsp Chili Crisp (optional)
 ---
 
 ## Chef's Note

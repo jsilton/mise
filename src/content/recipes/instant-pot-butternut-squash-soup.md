@@ -5,23 +5,20 @@ vibe: comfort
 prepTime: 15 min
 cookTime: 30 min
 totalTime: 45 min
-servings: '8 cups'
+servings: 8 cups
 ingredients:
   - '4 slices Bacon, diced'
-  - '--- The Flavor Engine ---'
   - '1/2 Sweet Onion, diced'
   - '3 cloves Garlic, minced'
   - '4 Sage leaves, minced'
-  - '3 sprigs Fresh Thyme'
+  - 3 sprigs Fresh Thyme
   - '1 Granny Smith Apple, cored and chopped (The Acid Note)'
-  - '--- The Soup Base ---'
   - '2 1/2 lbs Butternut Squash, peeled and cubed'
   - '3 large Carrots, cut into 1-inch pieces'
-  - '4 cups Chicken Stock'
-  - '1/3 cup Heavy Cream'
-  - '--- The Finish ---'
+  - 4 cups Chicken Stock
+  - 1/3 cup Heavy Cream
   - '2 tbsp Fresh Chives, chopped'
-  - 'Kosher Salt and Black Pepper'
+  - Kosher Salt and Black Pepper
 ---
 
 ## Chef's Note

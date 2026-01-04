@@ -7,17 +7,15 @@ cookTime: 10 min
 totalTime: 40 min
 servings: '4'
 ingredients:
-  - '4 Skin-on Salmon Fillets (6-8 oz each)'
-  - '2 cups Sushi Rice (rinsed)'
-  - '--- The Miso-Grapefruit Lacquer ---'
-  - '3 tbsp White (Shiro) Miso Paste'
-  - '2 tbsp Honey'
+  - 4 Skin-on Salmon Fillets (6-8 oz each)
+  - 2 cups Sushi Rice (rinsed)
+  - 3 tbsp White (Shiro) Miso Paste
+  - 2 tbsp Honey
   - '1 tbsp Fresh Ginger, grated'
-  - '1 tsp Grapefruit Zest + 1 tbsp Juice (The Finishing Touch)'
-  - '--- The Component Stacks ---'
-  - 'Sliced Cucumber and Avocado'
-  - 'Kimchi and Chile Crisp'
-  - 'Toasted Nori sheets'
+  - 1 tsp Grapefruit Zest + 1 tbsp Juice (The Finishing Touch)
+  - Sliced Cucumber and Avocado
+  - Kimchi and Chile Crisp
+  - Toasted Nori sheets
   - '4 Scallions, sliced'
 ---
 

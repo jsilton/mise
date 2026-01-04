@@ -9,12 +9,10 @@ servings: '4'
 ingredients:
   - 1 lb Spaghetti
   - '2 lbs Littleneck Clams, scrubbed'
-  - '--- The Vermouth Emulsion ---'
   - 1/2 cup Dry Vermouth
   - 4 tbsp Extra-Virgin Olive Oil
   - '4 cloves Garlic, minced'
   - 1/2 tsp Red Pepper Flakes
-  - '--- The Finish ---'
   - '1/4 cup Fresh Parsley, chopped'
   - 1 tbsp Fresh Lemon Juice (The Acid Balance)
   - Salt and Black Pepper

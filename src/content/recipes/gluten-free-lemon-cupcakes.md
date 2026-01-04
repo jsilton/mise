@@ -7,23 +7,20 @@ cookTime: 20 min
 totalTime: 30 min
 servings: '12'
 ingredients:
-  - '--- The GF Base ---'
-  - '1 1/4 cups Gluten-free All-Purpose Flour (Bob’s 1-to-1 preferred)'
-  - '1 1/2 tsp Gluten-free Baking Powder'
-  - '1/4 tsp Sea Salt'
-  - '--- The Lemon Emulsion ---'
-  - '3/4 cup Granulated Sugar'
-  - '1/2 cup Avocado or Canola Oil'
-  - '2 large Eggs'
-  - '1 tbsp Fresh Lemon Zest'
-  - '1/4 cup Fresh Lemon Juice'
-  - '1/2 cup Whole Milk'
-  - '1 tbsp Vanilla Extract'
-  - '--- The Lemon Buttercream ---'
+  - 1 1/4 cups Gluten-free All-Purpose Flour (Bob’s 1-to-1 preferred)
+  - 1 1/2 tsp Gluten-free Baking Powder
+  - 1/4 tsp Sea Salt
+  - 3/4 cup Granulated Sugar
+  - 1/2 cup Avocado or Canola Oil
+  - 2 large Eggs
+  - 1 tbsp Fresh Lemon Zest
+  - 1/4 cup Fresh Lemon Juice
+  - 1/2 cup Whole Milk
+  - 1 tbsp Vanilla Extract
   - '1/2 cup (1 stick) Unsalted Butter, softened'
-  - '4 cups Confectioners’ Sugar'
-  - '2 tbsp Fresh Lemon Juice (The Finishing Touch)'
-  - '2 tbsp Milk (as needed)'
+  - 4 cups Confectioners’ Sugar
+  - 2 tbsp Fresh Lemon Juice (The Finishing Touch)
+  - 2 tbsp Milk (as needed)
 ---
 
 ## Chef's Note

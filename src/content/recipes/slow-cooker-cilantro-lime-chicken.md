@@ -7,19 +7,17 @@ cookTime: 480 min
 totalTime: 490 min
 servings: '6'
 ingredients:
-  - '1 1/2 lbs Chicken Breasts'
+  - 1 1/2 lbs Chicken Breasts
   - '1 can (15 oz) Black Beans, rinsed'
-  - '1 can (10 oz) Rotel Diced Tomatoes & Chilies'
-  - '1 cup Corn Kernels'
-  - '1/2 cup Salsa Verde'
-  - '--- The Aromatic Pulse ---'
+  - 1 can (10 oz) Rotel Diced Tomatoes & Chilies
+  - 1 cup Corn Kernels
+  - 1/2 cup Salsa Verde
   - '1/2 cup Fresh Cilantro, chopped'
   - '1 Red Onion, diced'
   - '1 Jalapeño, diced'
-  - '2 tsp Cumin + 2 tsp Chili Powder'
-  - '--- The Finishing Touch Finish ---'
-  - 'Juice of 2 Limes (The Acid Balance)'
-  - 'Avocado and Tortillas for serving'
+  - 2 tsp Cumin + 2 tsp Chili Powder
+  - Juice of 2 Limes (The Acid Balance)
+  - Avocado and Tortillas for serving
 ---
 
 ## Chef's Note

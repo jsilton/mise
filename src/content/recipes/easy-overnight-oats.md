@@ -7,13 +7,11 @@ cookTime: 480 min
 totalTime: 485 min
 servings: '1'
 ingredients:
-  - '--- The Kitchen Standard Base ---'
-  - '1/2 cup Rolled Oats'
-  - '1/2 cup Milk of choice (Coconut or Soy preferred)'
-  - '1/4 cup Greek Yogurt for richness'
-  - '1 tbsp Chia Seeds'
-  - '1 tbsp Maple Syrup or Honey'
-  - '--- Optional Flavor Stacks ---'
+  - 1/2 cup Rolled Oats
+  - 1/2 cup Milk of choice (Coconut or Soy preferred)
+  - 1/4 cup Greek Yogurt for richness
+  - 1 tbsp Chia Seeds
+  - 1 tbsp Maple Syrup or Honey
   - '**Banana Bread:** 1/2 Banana + Walnuts + Cinnamon'
   - '**PB&J:** 1 tbsp Peanut Butter + Raspberry Jam'
   - '**Carrot Cake:** 1/4 cup Shredded Carrot + Raisins'

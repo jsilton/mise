@@ -5,20 +5,19 @@ vibe: nutritious
 prepTime: 10 min
 cookTime: 55 min
 totalTime: 65 min
-servings: '12 slices'
+servings: 12 slices
 ingredients:
-  - '1 3/4 cups White Whole Wheat Flour'
+  - 1 3/4 cups White Whole Wheat Flour
   - '1 cup (225g) Ripe Bananas, mashed'
-  - '1/3 cup Extra-Virgin Olive Oil for depth'
-  - '1/2 cup Honey or Maple Syrup'
-  - '2 large Eggs'
-  - '1/4 cup Milk of choice'
-  - '1 tsp Baking Soda'
-  - '1 tsp Pure Vanilla Extract'
-  - '1/2 tsp Sea Salt'
-  - '1/2 tsp Ground Cinnamon'
-  - '--- Optional Snap ---'
-  - '1/2 cup Dark Chocolate Chips or Walnuts'
+  - 1/3 cup Extra-Virgin Olive Oil for depth
+  - 1/2 cup Honey or Maple Syrup
+  - 2 large Eggs
+  - 1/4 cup Milk of choice
+  - 1 tsp Baking Soda
+  - 1 tsp Pure Vanilla Extract
+  - 1/2 tsp Sea Salt
+  - 1/2 tsp Ground Cinnamon
+  - 1/2 cup Dark Chocolate Chips or Walnuts
 ---
 
 ## Chef's Note

@@ -1,5 +1,5 @@
 ---
-title: quick & Easy Caprese Pasta
+title: Quick & Easy Caprese Pasta
 role: main
 vibe: quick
 prepTime: 10 min
@@ -7,17 +7,15 @@ cookTime: 5 min
 totalTime: 15 min
 servings: '4'
 ingredients:
-  - '12 oz Angel Hair Pasta'
+  - 12 oz Angel Hair Pasta
   - '8 oz Fresh Mozzarella (Bocconcini), halved'
   - '6 ripe Roma Tomatoes, seeded and chopped'
-  - '--- The Garlic Emulsion ---'
-  - '6 tbsp Extra-Virgin Olive Oil'
+  - 6 tbsp Extra-Virgin Olive Oil
   - '2 cloves Garlic, minced'
-  - '2 tsp Italian Seasoning'
-  - '--- The Finish ---'
+  - 2 tsp Italian Seasoning
   - '1/2 cup Fresh Basil, roughly chopped'
-  - '1 tbsp Fresh Lemon Juice (The Acid Balance)'
-  - 'Salt and Black Pepper'
+  - 1 tbsp Fresh Lemon Juice (The Acid Balance)
+  - Salt and Black Pepper
 ---
 
 ## Chef's Note

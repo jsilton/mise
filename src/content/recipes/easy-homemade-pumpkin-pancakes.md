@@ -7,17 +7,16 @@ cookTime: 20 min
 totalTime: 30 min
 servings: '4'
 ingredients:
-  - '2 cups All-Purpose Flour'
-  - '1 cup Pure Pumpkin Puree (Not pumpkin pie filling)'
-  - '1 3/4 cups Whole Milk'
-  - '1 large Egg'
-  - '2 tbsp Vegetable or Avocado Oil'
+  - 2 cups All-Purpose Flour
+  - 1 cup Pure Pumpkin Puree (Not pumpkin pie filling)
+  - 1 3/4 cups Whole Milk
+  - 1 large Egg
+  - 2 tbsp Vegetable or Avocado Oil
   - '3 tbsp Light Brown Sugar, packed'
-  - '--- The Spice Mix ---'
-  - '2 tsp Baking Powder'
-  - '1 tsp Baking Soda'
-  - '2 tsp Pumpkin Pie Spice'
-  - '1/2 tsp Sea Salt'
+  - 2 tsp Baking Powder
+  - 1 tsp Baking Soda
+  - 2 tsp Pumpkin Pie Spice
+  - 1/2 tsp Sea Salt
 ---
 
 ## Chef's Note

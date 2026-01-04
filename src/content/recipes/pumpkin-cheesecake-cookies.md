@@ -5,20 +5,17 @@ vibe: technical
 prepTime: 30 min
 cookTime: 15 min
 totalTime: 75 min
-servings: '12 large cookies'
+servings: 12 large cookies
 ingredients:
-  - '--- The Pumpkin Dough ---'
-  - '1 1/2 cups All-Purpose Flour'
-  - '1/3 cup Pure Pumpkin Puree'
+  - 1 1/2 cups All-Purpose Flour
+  - 1/3 cup Pure Pumpkin Puree
   - '1/2 cup (1 stick) Unsalted Butter, softened'
   - '2/3 cup Light Brown Sugar, packed'
-  - '1/4 cup Granulated Sugar'
-  - '--- The Cheesecake Core ---'
+  - 1/4 cup Granulated Sugar
   - '6 oz (3/4 cup) Cream Cheese, room temp'
-  - '1/4 cup Granulated Sugar'
-  - '1 tsp Pure Vanilla Extract'
-  - '--- The Spiced Snap Coating ---'
-  - '1/3 cup Sugar + 1/2 tsp Cinnamon + 1/4 tsp Ginger'
+  - 1/4 cup Granulated Sugar
+  - 1 tsp Pure Vanilla Extract
+  - 1/3 cup Sugar + 1/2 tsp Cinnamon + 1/4 tsp Ginger
 ---
 
 ## Chef's Note

@@ -7,19 +7,18 @@ cookTime: 35 min
 totalTime: 80 min
 servings: '12'
 ingredients:
-  - '1 1/2 cups All-Purpose Flour'
-  - '1 1/2 cups Cake Flour'
-  - '1 tbsp Baking Powder'
-  - '1/2 tsp Sea Salt'
+  - 1 1/2 cups All-Purpose Flour
+  - 1 1/2 cups Cake Flour
+  - 1 tbsp Baking Powder
+  - 1/2 tsp Sea Salt
   - '2 sticks Unsalted Butter, softened'
-  - '1 3/4 cups Superfine Sugar'
-  - '4 large Eggs'
-  - '1 tbsp Pure Vanilla Extract'
+  - 1 3/4 cups Superfine Sugar
+  - 4 large Eggs
+  - 1 tbsp Pure Vanilla Extract
   - '1 1/4 cups Whole Milk, room temp'
-  - '2 tbsp Dark Cocoa Powder'
-  - '--- The Silky Ganache ---'
+  - 2 tbsp Dark Cocoa Powder
   - '16 oz Bittersweet Chocolate, chopped'
-  - '2 cups Heavy Cream'
+  - 2 cups Heavy Cream
 ---
 
 ## Chef's Note

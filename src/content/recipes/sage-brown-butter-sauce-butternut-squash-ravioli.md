@@ -7,15 +7,14 @@ cookTime: 15 min
 totalTime: 20 min
 servings: '4'
 ingredients:
-  - '16 oz Butternut Squash Ravioli (fresh or frozen)'
-  - '1/2 cup (1 stick) Unsalted Butter'
+  - 16 oz Butternut Squash Ravioli (fresh or frozen)
+  - 1/2 cup (1 stick) Unsalted Butter
   - '2 tbsp Fresh Sage, minced'
-  - '--- The Creamy Emulsion ---'
-  - '1/2 cup Heavy Cream'
-  - '1/2 cup Chicken Broth'
-  - '1/4 cup Freshly Grated Parmesan'
-  - '1/2 tsp Fresh Lemon Juice (The Acid Balance)'
-  - 'Coarse Sea Salt and Black Pepper'
+  - 1/2 cup Heavy Cream
+  - 1/2 cup Chicken Broth
+  - 1/4 cup Freshly Grated Parmesan
+  - 1/2 tsp Fresh Lemon Juice (The Acid Balance)
+  - Coarse Sea Salt and Black Pepper
 ---
 
 ## Chef's Note

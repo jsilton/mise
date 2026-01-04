@@ -7,20 +7,18 @@ cookTime: 16 min
 totalTime: 31 min
 servings: '12'
 ingredients:
-  - '1 2/3 cups Buckwheat Flour (or Whole-Wheat)'
-  - '1/2 cup Chocolate Chips'
+  - 1 2/3 cups Buckwheat Flour (or Whole-Wheat)
+  - 1/2 cup Chocolate Chips
   - '2 cups Zucchini, shredded and squeezed bone-dry'
-  - '--- The Liquid Base ---'
-  - '1 large Egg'
-  - '1/2 cup Milk of choice (Soy or Almond preferred)'
-  - '1/2 cup Maple Syrup or Honey'
-  - '1/4 cup Avocado or Canola Oil'
-  - '1 tsp Vanilla Extract'
-  - '--- The Spiced Mix ---'
-  - '1 tsp Baking Powder'
-  - '1 tsp Baking Soda'
-  - '1 tsp Ground Cinnamon'
-  - '1/2 tsp Sea Salt'
+  - 1 large Egg
+  - 1/2 cup Milk of choice (Soy or Almond preferred)
+  - 1/2 cup Maple Syrup or Honey
+  - 1/4 cup Avocado or Canola Oil
+  - 1 tsp Vanilla Extract
+  - 1 tsp Baking Powder
+  - 1 tsp Baking Soda
+  - 1 tsp Ground Cinnamon
+  - 1/2 tsp Sea Salt
 ---
 
 ## Chef's Note

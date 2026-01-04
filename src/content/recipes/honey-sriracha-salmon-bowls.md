@@ -8,17 +8,15 @@ totalTime: 25 min
 servings: '4'
 ingredients:
   - '1.5 lbs Salmon Fillets, cut into 1-inch cubes'
-  - '--- The Marinade ---'
-  - '3 tbsp Soy Sauce'
-  - '2 tbsp Honey'
-  - '2 tbsp Sriracha'
+  - 3 tbsp Soy Sauce
+  - 2 tbsp Honey
+  - 2 tbsp Sriracha
   - '2 tsp Garlic, minced'
-  - '--- The Bowl ---'
   - '[Jasmine Rice](/silton-mise/recipes/homemade-rice-pilaf)'
   - '1 Avocado, sliced'
   - '[Smashed Cucumber Salad](/silton-mise/recipes/smashed-cucumber-salad)'
   - '1 cup Edamame, shelled and steamed'
-  - 'Sriracha Mayo (for drizzling)'
+  - Sriracha Mayo (for drizzling)
 ---
 
 ## Chef's Note

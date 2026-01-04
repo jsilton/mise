@@ -7,17 +7,17 @@ cookTime: 6 min
 totalTime: 36 min
 servings: '4'
 ingredients:
-  - '--- The Filling Emulsion ---'
-  - '300g Ground Pork'
+  - 300g Ground Pork
   - '1 tsp Ginger, minced'
-  - '1 tbsp Light Soy Sauce + 1 tsp Shaoxing Wine'
+  - 1 tbsp Light Soy Sauce + 1 tsp Shaoxing Wine
   - '2 Scallions, finely chopped'
-  - '3 tbsp Chicken Broth (as binder)'
-  - '--- The Build ---'
-  - '40 Wonton Wrappers'
-  - '1 liter [Cantonese Wonton Broth](/silton-mise/recipes/cantonese-wonton-broth)'
-  - '2 heads Baby Bok Choy'
-  - 'Sesame Oil and Scallions for garnish'
+  - 3 tbsp Chicken Broth (as binder)
+  - 40 Wonton Wrappers
+  - >-
+    1 liter [Cantonese Wonton
+    Broth](/silton-mise/recipes/cantonese-wonton-broth)
+  - 2 heads Baby Bok Choy
+  - Sesame Oil and Scallions for garnish
 ---
 
 ## Chef's Note

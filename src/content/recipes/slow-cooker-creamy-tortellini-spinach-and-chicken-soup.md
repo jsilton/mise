@@ -8,18 +8,16 @@ totalTime: 255 min
 servings: '8'
 ingredients:
   - '1 1/2 lbs Chicken Thighs, boneless and skinless'
-  - '4 cups Cheese Tortellini (frozen)'
-  - '--- The Starch-Bind Base ---'
-  - '1/3 cup All-Purpose Flour'
-  - '2 tbsp Tomato Paste'
+  - 4 cups Cheese Tortellini (frozen)
+  - 1/3 cup All-Purpose Flour
+  - 2 tbsp Tomato Paste
   - '1 Yellow Onion, diced'
-  - '4 cups Chicken Broth'
-  - '2 cans (14.5 oz) Petite Diced Tomatoes'
-  - '--- The Finish ---'
-  - '1 cup Heavy Cream (warmed)'
-  - '3 cups Fresh Spinach'
+  - 4 cups Chicken Broth
+  - 2 cans (14.5 oz) Petite Diced Tomatoes
+  - 1 cup Heavy Cream (warmed)
+  - 3 cups Fresh Spinach
   - '1/2 cup Parmesan, grated'
-  - '1 tbsp Dried Basil'
+  - 1 tbsp Dried Basil
 ---
 
 ## Chef's Note

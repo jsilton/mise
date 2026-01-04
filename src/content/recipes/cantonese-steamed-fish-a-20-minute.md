@@ -8,14 +8,12 @@ totalTime: 20 min
 servings: '2'
 ingredients:
   - '1 lb Whole Fish or Fillet (Tilapia, Flounder, or Sole)'
-  - '--- The Aromatics ---'
   - '3 tbsp Fresh Ginger, julienned'
   - '3 Green Onions, thinly sliced (white and green separated)'
-  - '1/2 cup Fresh Cilantro'
-  - '--- The Sizzling Sauce ---'
-  - '3 tbsp Light Soy Sauce'
-  - '1 tsp Sugar'
-  - '3 tbsp Neutral Oil (Avocado or Grapeseed)'
+  - 1/2 cup Fresh Cilantro
+  - 3 tbsp Light Soy Sauce
+  - 1 tsp Sugar
+  - 3 tbsp Neutral Oil (Avocado or Grapeseed)
 ---
 
 ## Chef's Note

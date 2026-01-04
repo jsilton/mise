@@ -8,16 +8,14 @@ totalTime: 45 min
 servings: '4'
 ingredients:
   - '1.5 lbs Chicken Thighs, boneless/skinless'
-  - '1 lb Fresh Broccoli Florets (cut small)'
-  - '--- The Pan Sauce ---'
-  - '2 tbsp Butter'
-  - '2 tbsp All-Purpose Flour'
-  - '1.5 cups Chicken Broth'
+  - 1 lb Fresh Broccoli Florets (cut small)
+  - 2 tbsp Butter
+  - 2 tbsp All-Purpose Flour
+  - 1.5 cups Chicken Broth
   - '1 cup Sharp Cheddar, shredded'
-  - '1/2 tsp Garlic Powder'
-  - '--- The Topping ---'
-  - '1/2 cup Panko Breadcrumbs'
-  - '1 tbsp Olive Oil'
+  - 1/2 tsp Garlic Powder
+  - 1/2 cup Panko Breadcrumbs
+  - 1 tbsp Olive Oil
 ---
 
 ## Chef's Note

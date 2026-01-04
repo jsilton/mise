@@ -8,14 +8,13 @@ totalTime: 150 min
 servings: '4'
 ingredients:
   - '2 1/2 lbs Chicken Thighs, boneless and skinless'
-  - '--- The Hoisin Emulsion ---'
-  - '1/4 cup Hoisin Sauce'
-  - '1 tbsp Tomato Paste'
-  - '2 tsp Balsamic Vinegar (The Acid Balance)'
+  - 1/4 cup Hoisin Sauce
+  - 1 tbsp Tomato Paste
+  - 2 tsp Balsamic Vinegar (The Acid Balance)
   - '6 cloves Garlic, smashed'
-  - '1/2 tsp Red Pepper Flakes'
-  - '1 tsp Garlic Powder'
-  - 'Sliced Scallions for garnish'
+  - 1/2 tsp Red Pepper Flakes
+  - 1 tsp Garlic Powder
+  - Sliced Scallions for garnish
 ---
 
 ## Chef's Note

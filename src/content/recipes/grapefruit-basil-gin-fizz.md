@@ -7,14 +7,13 @@ cookTime: 0 min
 totalTime: 5 min
 servings: '1'
 ingredients:
-  - '2 oz London Dry Gin (Beefeater preferred)'
-  - '3/4 cup Fresh Pink Grapefruit Juice'
-  - '1/4 cup Tonic Water or Seltzer'
+  - 2 oz London Dry Gin (Beefeater preferred)
+  - 3/4 cup Fresh Pink Grapefruit Juice
+  - 1/4 cup Tonic Water or Seltzer
   - '1/2 tsp Fresh Basil, finely chopped'
-  - '--- The Finish ---'
-  - '3 dashes Angostura Bitters (The Finishing Touch)'
-  - '1 Fresh Basil sprig'
-  - 'Large Ice Cubes'
+  - 3 dashes Angostura Bitters (The Finishing Touch)
+  - 1 Fresh Basil sprig
+  - Large Ice Cubes
 ---
 
 ## Chef's Note

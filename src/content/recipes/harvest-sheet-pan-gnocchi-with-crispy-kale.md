@@ -7,19 +7,17 @@ cookTime: 25 min
 totalTime: 40 min
 servings: '4'
 ingredients:
-  - '12 oz Frozen Cauliflower Gnocchi'
+  - 12 oz Frozen Cauliflower Gnocchi
   - '12 oz Apple Chicken Sausage, sliced into rounds'
   - '2 cups Butternut Squash, diced into 1/2-inch cubes'
   - '2 cups Fresh Kale, shredded'
-  - '--- The Herb Rub ---'
-  - '3 tbsp Extra-Virgin Olive Oil'
-  - '2 tsp Dried Rosemary'
-  - '1 tsp Dried Thyme'
-  - '1/2 tsp Smoked Paprika'
-  - '1 tsp Garlic Powder'
-  - '--- The Finish ---'
-  - '1/3 cup Freshly Grated Parmesan or Nutritional Yeast'
-  - 'Salt and Black Pepper'
+  - 3 tbsp Extra-Virgin Olive Oil
+  - 2 tsp Dried Rosemary
+  - 1 tsp Dried Thyme
+  - 1/2 tsp Smoked Paprika
+  - 1 tsp Garlic Powder
+  - 1/3 cup Freshly Grated Parmesan or Nutritional Yeast
+  - Salt and Black Pepper
 ---
 
 ## Chef's Note

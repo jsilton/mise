@@ -7,23 +7,21 @@ cookTime: 70 min
 totalTime: 115 min
 servings: '12'
 ingredients:
-  - '--- The Cake Layers ---'
   - '3 oz Semisweet Chocolate, finely chopped'
-  - '1 1/2 cups Hot Brewed Coffee'
-  - '3 cups Granulated Sugar'
-  - '2 1/2 cups All-Purpose Flour'
-  - '1 1/2 cups Unsweetened Cocoa Powder (not Dutch-process)'
-  - '2 tsp Baking Soda'
-  - '3/4 tsp Baking Powder'
-  - '1 1/4 tsp Sea Salt'
-  - '3 large Eggs'
-  - '3/4 cup Vegetable Oil'
+  - 1 1/2 cups Hot Brewed Coffee
+  - 3 cups Granulated Sugar
+  - 2 1/2 cups All-Purpose Flour
+  - 1 1/2 cups Unsweetened Cocoa Powder (not Dutch-process)
+  - 2 tsp Baking Soda
+  - 3/4 tsp Baking Powder
+  - 1 1/4 tsp Sea Salt
+  - 3 large Eggs
+  - 3/4 cup Vegetable Oil
   - '1 1/2 cups Buttermilk, well-shaken'
-  - '--- The Glossy Ganache ---'
   - '1 lb Semisweet Chocolate, chopped'
-  - '1 cup Heavy Cream'
-  - '2 tbsp Granulated Sugar'
-  - '2 tbsp Light Corn Syrup for gloss'
+  - 1 cup Heavy Cream
+  - 2 tbsp Granulated Sugar
+  - 2 tbsp Light Corn Syrup for gloss
   - '1/4 cup Unsalted Butter, cubed'
 ---
 

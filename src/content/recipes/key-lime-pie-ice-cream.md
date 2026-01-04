@@ -7,14 +7,13 @@ cookTime: 0 min
 totalTime: 300 min
 servings: '6'
 ingredients:
-  - '1 can (14 oz) Fat-free Sweetened Condensed Milk'
-  - '1/2 cup Fresh Key Lime Juice (Nellie & Joe’s is the Kitchen Standard)'
-  - '1 1/2 cups 2% Milk'
-  - '1/2 cup Heavy Whipping Cream'
-  - '--- The Graham Snap ---'
+  - 1 can (14 oz) Fat-free Sweetened Condensed Milk
+  - 1/2 cup Fresh Key Lime Juice (Nellie & Joe’s is the Kitchen Standard)
+  - 1 1/2 cups 2% Milk
+  - 1/2 cup Heavy Whipping Cream
   - '6 Graham Crackers, coarsely crushed'
-  - 'Key Lime wedges for garnish'
-  - 'Pinch of Sea Salt'
+  - Key Lime wedges for garnish
+  - Pinch of Sea Salt
 ---
 
 ## Chef's Note

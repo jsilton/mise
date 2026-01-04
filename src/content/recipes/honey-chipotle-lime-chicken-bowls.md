@@ -7,19 +7,17 @@ cookTime: 10 min
 totalTime: 55 min
 servings: '6'
 ingredients:
-  - '2 lbs Thin-cut Chicken Breasts (Butterflied)'
-  - '--- The Chipotle Marinade ---'
-  - '2 tbsp Finely chopped Chipotle Peppers in Adobo'
-  - '2 tbsp Honey'
-  - '2 tbsp Fresh Lime Juice'
-  - '2 tbsp Extra-Virgin Olive Oil'
-  - '1 tbsp Dijon Mustard'
+  - 2 lbs Thin-cut Chicken Breasts (Butterflied)
+  - 2 tbsp Finely chopped Chipotle Peppers in Adobo
+  - 2 tbsp Honey
+  - 2 tbsp Fresh Lime Juice
+  - 2 tbsp Extra-Virgin Olive Oil
+  - 1 tbsp Dijon Mustard
   - '4 cloves Garlic, minced'
-  - '--- The Bowl Stacks ---'
   - '[Cilantro Lime Rice](/silton-mise/recipes/cilantro-lime-rice)'
-  - 'Fresh Spinach or Spring Mix'
-  - 'Chopped Tomatoes and Avocado'
-  - 'Fresh Lime wedges'
+  - Fresh Spinach or Spring Mix
+  - Chopped Tomatoes and Avocado
+  - Fresh Lime wedges
 ---
 
 ## Chef's Note

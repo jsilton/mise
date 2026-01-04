@@ -5,24 +5,21 @@ vibe: quick
 prepTime: 15 min
 cookTime: 20 min
 totalTime: 35 min
-servings: '24 meatballs'
+servings: 24 meatballs
 ingredients:
-  - '2 lbs Ground Turkey (93% lean)'
-  - '--- The Moisture Panade ---'
-  - '1 cup Panko Breadcrumbs'
-  - '1/4 cup Whole Milk (The secret to tenderness)'
+  - 2 lbs Ground Turkey (93% lean)
+  - 1 cup Panko Breadcrumbs
+  - 1/4 cup Whole Milk (The secret to tenderness)
   - '2 large Eggs, beaten'
-  - '--- Aromatics ---'
   - '4 cloves Garlic, minced'
   - '2 Scallions, minced'
   - '1 tbsp Fresh Ginger, grated'
-  - '1 tsp Kosher Salt'
-  - '--- The Hoisin Glaze ---'
-  - '1/2 cup Hoisin Sauce'
-  - '1/4 cup Soy Sauce'
-  - '1/4 cup Rice Vinegar'
-  - '1 tbsp Cornstarch'
-  - '1/2 cup Water'
+  - 1 tsp Kosher Salt
+  - 1/2 cup Hoisin Sauce
+  - 1/4 cup Soy Sauce
+  - 1/4 cup Rice Vinegar
+  - 1 tbsp Cornstarch
+  - 1/2 cup Water
 ---
 
 ## Chef's Note

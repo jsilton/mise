@@ -7,19 +7,16 @@ cookTime: 75 min
 totalTime: 3000 min
 servings: '6'
 ingredients:
-  - '1 Whole Duck (5.5 lbs)'
-  - '--- The Lacquer Base ---'
-  - '2 tbsp Maltose (or Honey)'
-  - '1/2 cup Boiling Water'
-  - '1 tsp Rice Vinegar (The Acid Balance)'
-  - '--- The Cavity Aromatics ---'
+  - 1 Whole Duck (5.5 lbs)
+  - 2 tbsp Maltose (or Honey)
+  - 1/2 cup Boiling Water
+  - 1 tsp Rice Vinegar (The Acid Balance)
   - '2 Scallions, 1 head Garlic'
   - '2 Apples, quartered'
   - '4 Star Anise, 4 Bay Leaves'
-  - '2 pieces Cassia Cinnamon'
-  - '--- The Peking Sauce ---'
-  - '3 tbsp Sweet Bean Sauce (Tian Mian Jiang)'
-  - '1 tsp Sugar + 1 tsp Duck Fat'
+  - 2 pieces Cassia Cinnamon
+  - 3 tbsp Sweet Bean Sauce (Tian Mian Jiang)
+  - 1 tsp Sugar + 1 tsp Duck Fat
 ---
 
 ## Chef's Note

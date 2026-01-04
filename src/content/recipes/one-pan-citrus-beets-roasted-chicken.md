@@ -8,17 +8,15 @@ totalTime: 80 min
 servings: '4'
 ingredients:
   - '4 Bone-in Chicken Thighs, skin-on'
-  - '--- The Fuel Base ---'
   - '4 large Beets, sliced into 1/4-inch rounds'
   - '4 Carrots, halved lengthwise'
   - '1 Fennel Bulb, chopped into chunks'
-  - '--- The Aromatic Glaze ---'
   - '3 tbsp Unsalted Butter, melted'
-  - 'Zest and Juice of 1 Orange (The Finishing Touch)'
+  - Zest and Juice of 1 Orange (The Finishing Touch)
   - '2 tbsp Fresh Rosemary, minced'
   - '4 cloves Garlic, minced'
-  - '1 tsp Chili Powder'
-  - 'Salt and Black Pepper'
+  - 1 tsp Chili Powder
+  - Salt and Black Pepper
 ---
 
 ## Chef's Note

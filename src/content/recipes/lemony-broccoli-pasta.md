@@ -7,15 +7,14 @@ cookTime: 15 min
 totalTime: 20 min
 servings: '6'
 ingredients:
-  - '1 lb Dry Spaghetti'
-  - '5 cups Fresh Broccoli Florets'
-  - '1 cup Frozen Peas'
-  - '--- The Lemon Emulsion ---'
-  - '1/3 cup Extra-Virgin Olive Oil'
-  - '3/4 cup Freshly Grated Parmesan'
+  - 1 lb Dry Spaghetti
+  - 5 cups Fresh Broccoli Florets
+  - 1 cup Frozen Peas
+  - 1/3 cup Extra-Virgin Olive Oil
+  - 3/4 cup Freshly Grated Parmesan
   - '1 Lemon, zested and juiced'
-  - '1/2 cup Reserved Pasta Water'
-  - 'Salt and Black Pepper'
+  - 1/2 cup Reserved Pasta Water
+  - Salt and Black Pepper
 ---
 
 ## Chef's Note

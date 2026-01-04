@@ -8,15 +8,14 @@ totalTime: 45 min
 servings: '36'
 ingredients:
   - '1 cup (2 sticks) Unsalted Butter, softened'
-  - '1 1/2 cups Granulated Sugar'
-  - '2 large Eggs'
-  - '2 3/4 cups All-Purpose Flour'
-  - '2 tsp Cream of Tartar (The essential ingredient)'
-  - '1 tsp Baking Soda'
-  - '1/2 tsp Kosher Salt'
-  - '--- The Topping ---'
-  - '3 tbsp Sugar'
-  - '3 tsp Ground Cinnamon'
+  - 1 1/2 cups Granulated Sugar
+  - 2 large Eggs
+  - 2 3/4 cups All-Purpose Flour
+  - 2 tsp Cream of Tartar (The essential ingredient)
+  - 1 tsp Baking Soda
+  - 1/2 tsp Kosher Salt
+  - 3 tbsp Sugar
+  - 3 tsp Ground Cinnamon
 ---
 
 ## Chef's Note

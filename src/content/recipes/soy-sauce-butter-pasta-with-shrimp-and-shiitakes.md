@@ -7,19 +7,17 @@ cookTime: 20 min
 totalTime: 30 min
 servings: '4'
 ingredients:
-  - '10 oz Thin Spaghetti or Angel Hair'
+  - 10 oz Thin Spaghetti or Angel Hair
   - '8 oz Shrimp, peeled and deveined'
   - '8 oz Shiitake Mushrooms, thinly sliced'
-  - '--- The Umami Emulsion ---'
-  - '3 tbsp Unsalted Butter (Cold)'
-  - '3 tbsp Low-sodium Soy Sauce'
-  - '1/3 cup Dry White Wine'
+  - 3 tbsp Unsalted Butter (Cold)
+  - 3 tbsp Low-sodium Soy Sauce
+  - 1/3 cup Dry White Wine
   - '2 Shallots, minced'
   - '2 cloves Garlic, minced'
   - '1/4 cup Parmesan, freshly grated'
-  - '--- The Finishing Touch ---'
   - '1/4 cup Fresh Parsley, chopped'
-  - '1/2 cup Reserved Pasta Water'
+  - 1/2 cup Reserved Pasta Water
 ---
 
 ## Chef's Note

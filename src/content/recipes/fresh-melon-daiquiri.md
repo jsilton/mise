@@ -8,12 +8,11 @@ totalTime: 5 min
 servings: '4'
 ingredients:
   - '6 cups Honeydew Melon, peeled, deseeded and cubed'
-  - '1 cup Light Rum'
-  - '1/2 cup Fresh Lime Juice (The Acid Balance)'
-  - '1/2 cup Midori or Melon Liqueur'
-  - '--- For Garnish ---'
-  - '12 Cantaloupe cubes (1/2-inch)'
-  - '4 Sugar Cane Skewers'
+  - 1 cup Light Rum
+  - 1/2 cup Fresh Lime Juice (The Acid Balance)
+  - 1/2 cup Midori or Melon Liqueur
+  - 12 Cantaloupe cubes (1/2-inch)
+  - 4 Sugar Cane Skewers
 ---
 
 ## Chef's Note

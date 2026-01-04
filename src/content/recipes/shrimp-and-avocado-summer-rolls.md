@@ -5,18 +5,16 @@ vibe: quick
 prepTime: 30 min
 cookTime: 15 min
 totalTime: 45 min
-servings: '6 rolls'
+servings: 6 rolls
 ingredients:
   - '18 medium Shrimp, shelled and deveined'
-  - '6 round Rice Paper Wrappers'
-  - '2 oz Rice Vermicelli Noodles'
-  - '--- Stacks ---'
+  - 6 round Rice Paper Wrappers
+  - 2 oz Rice Vermicelli Noodles
   - '1 Hass Avocado, thinly sliced'
-  - '1/3 cup Fresh Cilantro + 1/3 cup Fresh Mint'
+  - 1/3 cup Fresh Cilantro + 1/3 cup Fresh Mint
   - '1/3 cup Chives, snipped'
-  - '--- The Thai Bird Chile Dipping Sauce ---'
-  - '1/4 cup Sugar + 1/4 cup Warm Water'
-  - '1 tbsp Fresh Lime Juice (The Acid Balance)'
+  - 1/4 cup Sugar + 1/4 cup Warm Water
+  - 1 tbsp Fresh Lime Juice (The Acid Balance)
   - '1 Thai Bird Chile (Fresno), minced'
   - '1 small Garlic clove, minced'
 ---

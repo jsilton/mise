@@ -7,18 +7,16 @@ cookTime: 30 min
 totalTime: 45 min
 servings: '4'
 ingredients:
-  - '4 Rainbow Trout Fillets (6 oz each)'
+  - 4 Rainbow Trout Fillets (6 oz each)
   - '[Dashi (Japanese Sea Stock)](/silton-mise/recipes/dashi-japanese-sea-stock)'
-  - '--- The Umami Glaze ---'
-  - '1 cup Soy Sauce'
-  - '1 cup Mirin'
-  - '1/2 cup Granulated Sugar'
-  - '1/2 cup Rice Vinegar'
-  - '--- Stacks ---'
+  - 1 cup Soy Sauce
+  - 1 cup Mirin
+  - 1/2 cup Granulated Sugar
+  - 1/2 cup Rice Vinegar
   - '2 Carrots, finely julienned'
   - '2 Leeks, julienned (white parts only)'
-  - 'Steamed Sushi Rice'
-  - 'Crumbled Nori'
+  - Steamed Sushi Rice
+  - Crumbled Nori
 ---
 
 ## Chef's Note

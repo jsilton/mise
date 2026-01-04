@@ -8,19 +8,16 @@ totalTime: 90 min
 servings: '8'
 ingredients:
   - '3-4 lb Pork Butt (Shoulder), cut into 4 large chunks'
-  - '1 tbsp Neutral Oil'
-  - '--- The Liquid ---'
-  - '12 oz Dr. Pepper or Root Beer (The acid/sugar secret)'
-  - '1/2 cup Apple Cider Vinegar'
-  - '--- The Rub ---'
-  - '1 tbsp Brown Sugar'
-  - '1 tbsp Chili Powder'
-  - '1 tsp Garlic Powder'
-  - '1 tsp Smoked Paprika'
-  - '1 tsp Salt'
-  - '1/2 tsp Black Pepper'
-  - '--- For Serving ---'
-  - '1 cup High-Quality BBQ Sauce'
+  - 1 tbsp Neutral Oil
+  - 12 oz Dr. Pepper or Root Beer (The acid/sugar secret)
+  - 1/2 cup Apple Cider Vinegar
+  - 1 tbsp Brown Sugar
+  - 1 tbsp Chili Powder
+  - 1 tsp Garlic Powder
+  - 1 tsp Smoked Paprika
+  - 1 tsp Salt
+  - 1/2 tsp Black Pepper
+  - 1 cup High-Quality BBQ Sauce
 ---
 
 ## Chef's Note

@@ -8,17 +8,15 @@ totalTime: 25 min
 servings: '4'
 ingredients:
   - '4 Cod Fillets (or Halibut/Haddock), patted dry'
-  - '--- The Lemon Butter ---'
   - '2 tbsp Unsalted Butter, melted'
   - '1 Lemon, juiced'
   - '1 clove Garlic, minced'
-  - 'Salt and Black Pepper'
-  - '--- The Panko Crunch ---'
-  - '1/2 cup Panko Breadcrumbs'
+  - Salt and Black Pepper
+  - 1/2 cup Panko Breadcrumbs
   - '2 tbsp Unsalted Butter, melted'
   - '1 Lemon, zested'
   - '1 clove Garlic, minced'
-  - '1/4 tsp Paprika'
+  - 1/4 tsp Paprika
   - '2 tbsp Fresh Parsley, chopped'
 ---
 

@@ -7,22 +7,21 @@ cookTime: 140 min
 totalTime: 170 min
 servings: '6'
 ingredients:
-  - '--- The Soup Base ---'
-  - '2 quarts [Chinese Chicken Stock](/silton-mise/recipes/cantonese-wonton-broth)'
+  - >-
+    2 quarts [Chinese Chicken
+    Stock](/silton-mise/recipes/cantonese-wonton-broth)
   - '1/4 lb Chinese BBQ Pork (Char Siu), shredded'
   - '1 square Firm Tofu, cut into 1/4-inch strips'
   - '1/2 cup Bamboo Shoots, sliced'
   - '1 oz Dried Wood Ear Mushrooms, reconstituted and sliced'
-  - '--- The Flavor Pulse ---'
-  - '1/4 cup Soy Sauce'
-  - '1/4 cup Rice Vinegar (The "Sour" High Note)'
-  - '1 tsp White Pepper (The "Hot" High Note)'
-  - '1 tbsp Red Chile Paste (Sambal Oelek)'
+  - 1/4 cup Soy Sauce
+  - 1/4 cup Rice Vinegar (The "Sour" High Note)
+  - 1 tsp White Pepper (The "Hot" High Note)
+  - 1 tbsp Red Chile Paste (Sambal Oelek)
   - '1 tsp Fresh Ginger, grated'
-  - '--- The Bind ---'
-  - '3 tbsp Cornstarch (mixed with 1/4 cup water)'
+  - 3 tbsp Cornstarch (mixed with 1/4 cup water)
   - '1 large Egg, lightly beaten'
-  - 'Sesame Oil and Scallions for garnish'
+  - Sesame Oil and Scallions for garnish
 ---
 
 ## Chef's Note

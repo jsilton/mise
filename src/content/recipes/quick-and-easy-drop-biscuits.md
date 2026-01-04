@@ -1,19 +1,18 @@
 ---
-title: quick & Easy Drop Biscuits
+title: Quick & Easy Drop Biscuits
 role: main
 vibe: quick
 prepTime: 10 min
 cookTime: 15 min
 totalTime: 25 min
-servings: '12 small biscuits'
+servings: 12 small biscuits
 ingredients:
-  - '1 1/2 cups All-Purpose Flour'
+  - 1 1/2 cups All-Purpose Flour
   - '4 oz (1 stick) Unsalted Butter, cold and cubed'
-  - '3/4 cup Whole Milk (chilled)'
-  - '--- The Rise Mix ---'
-  - '2 tsp Baking Powder'
-  - '1 tsp Sea Salt'
-  - '1/4 tsp Garlic Powder (Optional)'
+  - 3/4 cup Whole Milk (chilled)
+  - 2 tsp Baking Powder
+  - 1 tsp Sea Salt
+  - 1/4 tsp Garlic Powder (Optional)
 ---
 
 ## Chef's Note

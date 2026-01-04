@@ -8,19 +8,17 @@ totalTime: 45 min
 servings: '6'
 ingredients:
   - '3 lbs Extra-firm Tofu, pressed bone-dry'
-  - '--- The Walnut Bind ---'
   - '3/4 cup Walnuts, ground'
-  - '1 cup Whole-wheat Breadcrumbs'
-  - '2 large Eggs'
-  - '1 1/2 tbsp Dijon Mustard (The Finishing Touch)'
-  - '1 1/2 tbsp Toasted Sesame Oil'
-  - '3 tbsp Soy Sauce'
-  - '--- The Mirepoix Base ---'
+  - 1 cup Whole-wheat Breadcrumbs
+  - 2 large Eggs
+  - 1 1/2 tbsp Dijon Mustard (The Finishing Touch)
+  - 1 1/2 tbsp Toasted Sesame Oil
+  - 3 tbsp Soy Sauce
   - '1 large Carrot, grated'
   - '1 large Onion, chopped'
   - '1 Green Pepper, chopped'
   - '3 cloves Garlic, minced'
-  - '1 1/2 tsp Dried Basil + 3/4 tsp Oregano'
+  - 1 1/2 tsp Dried Basil + 3/4 tsp Oregano
 ---
 
 ## Chef's Note

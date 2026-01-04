@@ -7,16 +7,15 @@ cookTime: 10 min
 totalTime: 20 min
 servings: '6'
 ingredients:
-  - '8 slices Thick-cut Texas Toast (Day-old preferred)'
-  - '4 large Eggs'
-  - '1 cup Whole Milk'
-  - '2 1/2 tsp Ground Cinnamon'
-  - '1 tbsp Honey'
-  - '1 tbsp Vanilla Extract'
-  - 'Unsalted Butter (for the pan)'
-  - '--- For Serving ---'
-  - 'Warm Maple Syrup'
-  - 'Fresh Berries'
+  - 8 slices Thick-cut Texas Toast (Day-old preferred)
+  - 4 large Eggs
+  - 1 cup Whole Milk
+  - 2 1/2 tsp Ground Cinnamon
+  - 1 tbsp Honey
+  - 1 tbsp Vanilla Extract
+  - Unsalted Butter (for the pan)
+  - Warm Maple Syrup
+  - Fresh Berries
 ---
 
 ## Chef's Note

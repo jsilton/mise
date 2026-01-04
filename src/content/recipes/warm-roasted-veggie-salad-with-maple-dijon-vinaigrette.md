@@ -7,20 +7,17 @@ cookTime: 25 min
 totalTime: 35 min
 servings: '6'
 ingredients:
-  - '--- The Roasted Snap ---'
   - '1 medium Sweet Potato, 1/2-inch cubes'
   - '6 oz Brussels Sprouts, halved'
   - '1 Red Onion, sliced'
-  - '2 tbsp Extra-Virgin Olive Oil'
-  - '--- The Maple-Dijon Emulsion ---'
-  - '1/3 cup Extra-Virgin Olive Oil'
-  - '2 tbsp Apple Cider Vinegar (The Acid Balance)'
-  - '2 tbsp Pure Maple Syrup'
-  - '1 tbsp Dijon Mustard'
-  - '--- The Finish ---'
+  - 2 tbsp Extra-Virgin Olive Oil
+  - 1/3 cup Extra-Virgin Olive Oil
+  - 2 tbsp Apple Cider Vinegar (The Acid Balance)
+  - 2 tbsp Pure Maple Syrup
+  - 1 tbsp Dijon Mustard
   - '3 cups Curly Kale, massaged'
   - '1/2 cup Parmesan, grated'
-  - '1/2 cup Dried Cranberries'
+  - 1/2 cup Dried Cranberries
 ---
 
 ## Chef's Note

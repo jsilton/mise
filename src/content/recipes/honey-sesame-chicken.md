@@ -8,16 +8,14 @@ totalTime: 25 min
 servings: '4'
 ingredients:
   - '1.5 lbs Chicken Thighs, cut into bite-sized chunks'
-  - '--- The Glaze ---'
-  - '1/4 cup Honey'
-  - '3 tbsp Soy Sauce'
-  - '1 tbsp Rice Vinegar'
-  - '1 tbsp Toasted Sesame Oil'
+  - 1/4 cup Honey
+  - 3 tbsp Soy Sauce
+  - 1 tbsp Rice Vinegar
+  - 1 tbsp Toasted Sesame Oil
   - '1 tbsp Garlic, minced'
   - '1 tsp Fresh Ginger, grated'
-  - '1 tbsp Toasted Sesame Seeds'
-  - '--- the texture ---'
-  - '1 tbsp Cornstarch'
+  - 1 tbsp Toasted Sesame Seeds
+  - 1 tbsp Cornstarch
   - '3 stalks Green Onion, sliced'
 ---
 

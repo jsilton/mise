@@ -8,20 +8,17 @@ totalTime: 25 min
 servings: '4'
 ingredients:
   - '1 1/2 lbs Shrimp (U10 or U12), peeled and deveined'
-  - '--- The Flavor Base ---'
   - '1 medium Onion, finely diced'
   - '4 cloves Garlic, minced'
-  - '1 tbsp Curry Powder'
-  - '1 can (13.5 oz) Full-fat Coconut Milk'
-  - '--- The Crunch ---'
+  - 1 tbsp Curry Powder
+  - 1 can (13.5 oz) Full-fat Coconut Milk
   - '1 large Zucchini, sliced into half-moons'
   - '1 cup Mushrooms, sliced'
-  - '2 tbsp Unsalted Butter'
-  - '--- The Finish ---'
+  - 2 tbsp Unsalted Butter
   - '1 Lime, juiced'
-  - '2 tbsp Honey'
+  - 2 tbsp Honey
   - '12 Fresh Basil Leaves, chiffonade'
-  - 'Salt and Black Pepper'
+  - Salt and Black Pepper
 ---
 
 ## Chef's Note

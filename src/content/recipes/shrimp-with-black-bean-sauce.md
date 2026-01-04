@@ -7,17 +7,15 @@ cookTime: 10 min
 totalTime: 30 min
 servings: '2'
 ingredients:
-  - '12 oz Shrimp (21/25 size)'
-  - '4 oz Ground Pork'
-  - '1 1/2 tbsp Fermented Black Beans (Douchi)'
-  - '--- The Cantonese Glaze ---'
-  - '1 1/2 cups Chicken Stock (hot)'
-  - '1 tbsp Oyster Sauce + 1 tsp Dark Soy Sauce'
-  - '1 tbsp Shaoxing Wine'
-  - '1/2 tsp Toasted Sesame Oil'
-  - '--- The Bind ---'
+  - 12 oz Shrimp (21/25 size)
+  - 4 oz Ground Pork
+  - 1 1/2 tbsp Fermented Black Beans (Douchi)
+  - 1 1/2 cups Chicken Stock (hot)
+  - 1 tbsp Oyster Sauce + 1 tsp Dark Soy Sauce
+  - 1 tbsp Shaoxing Wine
+  - 1/2 tsp Toasted Sesame Oil
   - '1 large Egg, beaten (The Egg Ribbon Method)'
-  - '2 1/2 tbsp Cornstarch (slurry)'
+  - 2 1/2 tbsp Cornstarch (slurry)
   - '1/4 cup Green Bell Pepper, diced'
   - '1 Scallion, chopped'
 ---

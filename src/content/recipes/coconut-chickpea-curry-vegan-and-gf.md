@@ -8,20 +8,18 @@ totalTime: 35 min
 servings: '4'
 ingredients:
   - '2 (15 oz) cans Chickpeas, drained and rinsed'
-  - '1 can (13.5 oz) Full-fat Coconut Milk'
-  - '1 can (14 oz) Diced Tomatoes'
-  - '--- The Flavor Base ---'
+  - 1 can (13.5 oz) Full-fat Coconut Milk
+  - 1 can (14 oz) Diced Tomatoes
   - '1 medium Red Onion, diced'
   - '3 cloves Garlic, minced'
-  - '2 tbsp Coconut Oil'
-  - '1 1/2 tbsp Garam Masala'
-  - '1 tsp Curry Powder'
-  - '1/4 tsp Ground Cumin'
-  - '--- The Finish ---'
+  - 2 tbsp Coconut Oil
+  - 1 1/2 tbsp Garam Masala
+  - 1 tsp Curry Powder
+  - 1/4 tsp Ground Cumin
   - '1 small Lime, juiced (The Acid Balance)'
   - '2 tsp Coconut Flour (optional, for thickening)'
-  - 'Fresh Cilantro'
-  - 'Salt and Black Pepper'
+  - Fresh Cilantro
+  - Salt and Black Pepper
 ---
 
 ## Chef's Note

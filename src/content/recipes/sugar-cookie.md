@@ -7,14 +7,13 @@ cookTime: 10 min
 totalTime: 40 min
 servings: '36'
 ingredients:
-  - '4 cups All-Purpose Flour'
+  - 4 cups All-Purpose Flour
   - '1 cup (2 sticks) Unsalted Butter, softened'
-  - '1 cup Granulated Sugar'
-  - '2 large Eggs'
-  - '2 tsp Pure Vanilla Extract'
-  - '--- The Leavening ---'
-  - '3/4 tsp Baking Powder'
-  - '3/4 tsp Sea Salt'
+  - 1 cup Granulated Sugar
+  - 2 large Eggs
+  - 2 tsp Pure Vanilla Extract
+  - 3/4 tsp Baking Powder
+  - 3/4 tsp Sea Salt
 ---
 
 ## Chef's Note

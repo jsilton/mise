@@ -7,16 +7,15 @@ cookTime: 8 hours
 totalTime: 8.5 hours
 servings: '8'
 ingredients:
-  - '4.5 lbs Pork Shoulder (Butt)'
+  - 4.5 lbs Pork Shoulder (Butt)
   - '1 large Yellow Onion, diced'
   - '4 cloves Garlic, minced'
   - '1 Orange, juiced'
-  - '--- The Spice Rub ---'
-  - '2 tbsp Paprika'
-  - '1 tsp Dried Oregano'
-  - '1 tsp Ground Cumin'
-  - '1 tsp Kosher Salt'
-  - '1 tsp Black Pepper'
+  - 2 tbsp Paprika
+  - 1 tsp Dried Oregano
+  - 1 tsp Ground Cumin
+  - 1 tsp Kosher Salt
+  - 1 tsp Black Pepper
 ---
 
 ## Chef's Note

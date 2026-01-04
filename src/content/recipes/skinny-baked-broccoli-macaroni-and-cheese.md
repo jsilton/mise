@@ -7,16 +7,14 @@ cookTime: 25 min
 totalTime: 35 min
 servings: '8'
 ingredients:
-  - '12 oz High-fiber Elbow Pasta'
-  - '12 oz Fresh Broccoli Florets'
-  - '--- The Lean Mornay ---'
+  - 12 oz High-fiber Elbow Pasta
+  - 12 oz Fresh Broccoli Florets
   - '2 cups Low-fat Sharp Cheddar, shredded'
-  - '2 cups Skim Milk + 1 cup Chicken Broth'
-  - '1 1/2 tbsp Unsalted Butter'
-  - '1/4 cup All-Purpose Flour'
-  - '1/4 cup Minced Onion'
-  - '--- The Crunch ---'
-  - '1/4 cup Seasoned Breadcrumbs'
+  - 2 cups Skim Milk + 1 cup Chicken Broth
+  - 1 1/2 tbsp Unsalted Butter
+  - 1/4 cup All-Purpose Flour
+  - 1/4 cup Minced Onion
+  - 1/4 cup Seasoned Breadcrumbs
   - '2 tbsp Parmesan, grated'
 ---
 

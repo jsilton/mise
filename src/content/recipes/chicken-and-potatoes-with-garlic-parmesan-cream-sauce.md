@@ -9,16 +9,15 @@ servings: '6'
 ingredients:
   - '6 Bone-in, skin-on Chicken Thighs'
   - '1 lb Baby Dutch Potatoes, quartered'
-  - '--- The Pan Sauce ---'
-  - '4 tbsp Unsalted Butter'
+  - 4 tbsp Unsalted Butter
   - '4 cloves Garlic, minced'
-  - '2 tbsp All-Purpose Flour'
-  - '1.5 cups Chicken Broth'
-  - '1/2 cup Heavy Cream or Half and Half'
-  - '1/2 cup Freshly Grated Parmesan'
+  - 2 tbsp All-Purpose Flour
+  - 1.5 cups Chicken Broth
+  - 1/2 cup Heavy Cream or Half and Half
+  - 1/2 cup Freshly Grated Parmesan
   - '3 cups Baby Spinach, chopped'
-  - '1 tbsp Italian Seasoning'
-  - 'Salt and Black Pepper'
+  - 1 tbsp Italian Seasoning
+  - Salt and Black Pepper
 ---
 
 ## Chef's Note

@@ -10,14 +10,13 @@ ingredients:
   - '2 lbs Chicken Thighs, boneless and skinless'
   - '16 oz Baby Bella Mushrooms, sliced thick'
   - '6 Carrots, cut into 1-inch chunks'
-  - '10 oz Frozen Pearl Onions (1 bag)'
+  - 10 oz Frozen Pearl Onions (1 bag)
   - '4 cloves Garlic, minced'
-  - '--- The Flavor Slurry ---'
-  - '1/2 cup Dry Red Wine (Pinot Noir or Burgundy)'
-  - '1 packet Beefy Onion Soup Mix'
-  - '1 tsp Worcestershire Sauce'
-  - '1 tsp Cornstarch'
-  - '1 tsp Dried Thyme'
+  - 1/2 cup Dry Red Wine (Pinot Noir or Burgundy)
+  - 1 packet Beefy Onion Soup Mix
+  - 1 tsp Worcestershire Sauce
+  - 1 tsp Cornstarch
+  - 1 tsp Dried Thyme
   - 'Garlic Powder, Pepper, and Salt'
 ---
 

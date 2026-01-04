@@ -7,17 +7,16 @@ cookTime: 30 min
 totalTime: 60 min
 servings: '6'
 ingredients:
-  - '1/2 cup (1 stick) Unsalted Butter'
+  - 1/2 cup (1 stick) Unsalted Butter
   - '3.5 oz Bittersweet Chocolate (70% cacao), chopped'
-  - '1/2 cup Heavy Cream'
+  - 1/2 cup Heavy Cream
   - '3 large Eggs, separated (room temp)'
-  - '1/2 cup Dutch-process Cocoa Powder'
-  - '1/3 cup + 1/4 cup Superfine Sugar'
-  - '1/4 tsp Cream of Tartar'
-  - '1/2 tsp Sea Salt'
-  - '1 tbsp Dark Rum (optional)'
-  - '--- SPECIAL EQUIPMENT ---'
-  - '1 1/2 quart Soufflé Dish'
+  - 1/2 cup Dutch-process Cocoa Powder
+  - 1/3 cup + 1/4 cup Superfine Sugar
+  - 1/4 tsp Cream of Tartar
+  - 1/2 tsp Sea Salt
+  - 1 tbsp Dark Rum (optional)
+  - 1 1/2 quart Soufflé Dish
 ---
 
 ## Chef's Note

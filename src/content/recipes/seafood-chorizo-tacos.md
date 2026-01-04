@@ -10,13 +10,11 @@ ingredients:
   - '1/2 lb Fresh Chorizo, crumbled'
   - '1/2 lb Medium Shrimp, chopped'
   - '1/2 lb Small Squid (Calamari), sliced into rings'
-  - '--- The Flavor Pulse ---'
   - '1 small Red Onion, minced'
   - '1 clove Garlic, minced'
-  - '2 tbsp Mexican Lager for depth'
-  - '2 tbsp Fresh Lime Juice (The Acid Balance)'
-  - 'Pinch of Cumin'
-  - '--- The Taco Stacks ---'
+  - 2 tbsp Mexican Lager for depth
+  - 2 tbsp Fresh Lime Juice (The Acid Balance)
+  - Pinch of Cumin
   - 'Corn Tortillas, charred'
   - 'Avocado, Cilantro, and Sour Cream'
 ---

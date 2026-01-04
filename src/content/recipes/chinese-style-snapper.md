@@ -10,15 +10,13 @@ ingredients:
   - '1.8 kg Whole Snapper, scaled and gutted'
   - '3 cloves Garlic, finely chopped'
   - '3-inch piece Fresh Ginger, finely shredded'
-  - '--- The Umami Braise ---'
-  - '1/4 cup Soy Sauce'
-  - '1/4 cup Chicken Broth'
-  - '2 tbsp Chinese Rice Wine (Shaoxing)'
-  - '3 tsp Toasted Sesame Oil'
-  - '--- The Garnish ---'
-  - '2 tbsp Peanut Oil'
+  - 1/4 cup Soy Sauce
+  - 1/4 cup Chicken Broth
+  - 2 tbsp Chinese Rice Wine (Shaoxing)
+  - 3 tsp Toasted Sesame Oil
+  - 2 tbsp Peanut Oil
   - '6 Scallions, shredded into 4-inch threads'
-  - '1/2 cup Fresh Cilantro'
+  - 1/2 cup Fresh Cilantro
 ---
 
 ## Chef's Note

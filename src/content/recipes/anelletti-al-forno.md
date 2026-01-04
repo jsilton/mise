@@ -7,18 +7,18 @@ cookTime: 3 hours
 totalTime: 4 hours
 servings: '8'
 ingredients:
-  - '2 lbs Anelletti Pasta (or small rings/ditalini)'
-  - '1/2 lb Ground Beef + 1/2 lb Ground Pork'
+  - 2 lbs Anelletti Pasta (or small rings/ditalini)
+  - 1/2 lb Ground Beef + 1/2 lb Ground Pork
   - '2 oz Pancetta or Ham, diced'
-  - '--- The Ragu Base ---'
   - '1 Carrot, 1 Celery stalk, 1 small Onion (finely minced)'
-  - '3 tbsp Tomato Paste'
+  - 3 tbsp Tomato Paste
   - '1 (28 oz) can Whole Peeled Tomatoes, crushed'
-  - '1/2 cup Dry Red Wine'
-  - '1/2 tsp Cinnamon + Pinch of Nutmeg'
-  - '--- Layers ---'
-  - '1 Eggplant, cubed and fried ([Garlic Sauce](/silton-mise/recipes/chinese-garlic-sauce-base) style technique)'
-  - '3/4 cup Frozen Peas'
+  - 1/2 cup Dry Red Wine
+  - 1/2 tsp Cinnamon + Pinch of Nutmeg
+  - >-
+    1 Eggplant, cubed and fried ([Garlic
+    Sauce](/silton-mise/recipes/chinese-garlic-sauce-base) style technique)
+  - 3/4 cup Frozen Peas
   - '12 oz Provolone or Caciocavallo, cubed'
   - '1/2 cup Parmesan, grated'
   - '4 Hard-boiled Eggs, chopped (traditional)'

@@ -9,15 +9,14 @@ servings: '16'
 ingredients:
   - '1 cup (2 sticks) Unsalted Butter, room temp'
   - '1 cup Light Brown Sugar, packed'
-  - '1/2 cup Granulated Sugar'
-  - '2 large Eggs'
-  - '2 tsp Vanilla Extract'
-  - '2 cups + 2 tbsp All-Purpose Flour'
-  - '1 tsp Baking Soda'
-  - '1/2 tsp Sea Salt'
-  - '--- The Mix-ins ---'
-  - '2 cups Semisweet Chocolate Discs (preferred over chips)'
-  - '1 1/4 cups M&Ms (divided)'
+  - 1/2 cup Granulated Sugar
+  - 2 large Eggs
+  - 2 tsp Vanilla Extract
+  - 2 cups + 2 tbsp All-Purpose Flour
+  - 1 tsp Baking Soda
+  - 1/2 tsp Sea Salt
+  - 2 cups Semisweet Chocolate Discs (preferred over chips)
+  - 1 1/4 cups M&Ms (divided)
 ---
 
 ## Chef's Note

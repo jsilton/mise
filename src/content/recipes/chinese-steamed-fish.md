@@ -10,16 +10,14 @@ ingredients:
   - '1 Whole Fish (Snapper or Sea Bass), 1.5 lbs'
   - '2-inch piece Fresh Ginger, julienned'
   - '2 Scallions, cut into silken threads'
-  - 'Fresh Cilantro leaves'
-  - '--- The Sizzling Finish ---'
-  - '2 tbsp Peanut Oil (or high-heat oil)'
-  - '--- The Seasoning Sauce ---'
-  - '4 tbsp Light Soy Sauce'
-  - '2 tbsp Shaoxing Wine'
-  - '2 tbsp Water'
-  - '1/4 tsp Toasted Sesame Oil'
+  - Fresh Cilantro leaves
+  - 2 tbsp Peanut Oil (or high-heat oil)
+  - 4 tbsp Light Soy Sauce
+  - 2 tbsp Shaoxing Wine
+  - 2 tbsp Water
+  - 1/4 tsp Toasted Sesame Oil
   - '1 tbsp Rock Sugar, powdered'
-  - '3 dashes White Pepper'
+  - 3 dashes White Pepper
 ---
 
 ## Chef's Note

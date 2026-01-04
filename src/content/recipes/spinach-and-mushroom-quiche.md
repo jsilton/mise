@@ -7,16 +7,15 @@ cookTime: 65 min
 totalTime: 90 min
 servings: '6'
 ingredients:
-  - '1 Pie Crust (Homemade or Store-bought)'
+  - 1 Pie Crust (Homemade or Store-bought)
   - '8 oz Fresh Mixed Mushrooms, sliced'
   - '5 oz Fresh Baby Spinach, chopped'
-  - '--- The Custard Emulsion ---'
-  - '6 large Eggs'
-  - '1/4 cup Whole Milk'
-  - '1/4 cup Half-and-Half'
+  - 6 large Eggs
+  - 1/4 cup Whole Milk
+  - 1/4 cup Half-and-Half
   - '1 1/2 cups Gruyère Cheese, shredded'
-  - '1 tbsp Dijon Mustard (The Finishing Touch)'
-  - '1 tbsp Fresh Thyme'
+  - 1 tbsp Dijon Mustard (The Finishing Touch)
+  - 1 tbsp Fresh Thyme
   - '1 1/2 cups Sweet Onion, thinly sliced'
   - '1 tbsp Garlic, sliced'
 ---

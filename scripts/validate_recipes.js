@@ -22,19 +22,47 @@ function validateAndFix() {
     let { data, content } = parsed;
     let modified = false;
 
-    // 1. Missing Title
+    // 1. Title: Capitalize first letter and handle section headers
+    if (data.title && typeof data.title === 'string') {
+      const originalTitle = data.title;
+      // Capitalize the first letter of the title
+      let cleanedTitle = originalTitle.charAt(0).toUpperCase() + originalTitle.slice(1);
+      
+      if (cleanedTitle !== originalTitle) {
+        data.title = cleanedTitle;
+        modified = true;
+        console.log(`✅ Capitalized title for ${file}: "${originalTitle}" -> "${cleanedTitle}"`);
+      }
+    }
+
+    // 2. Ingredients: Filter out section headers
+    if (data.ingredients && Array.isArray(data.ingredients)) {
+      const originalIngredients = data.ingredients;
+      const filteredIngredients = originalIngredients.filter(
+        (ingredient) => !/^\s*---\s*[\w\s'-]+\s*---\s*$/.test(ingredient)
+      );
+      if (filteredIngredients.length !== originalIngredients.length) {
+        data.ingredients = filteredIngredients;
+        modified = true;
+        console.log(`✅ Removed ingredient section headers from ${file}`);
+      }
+    }
+
+    // Previous checks
+    // 3. Missing Title (moved to above, keeping for reference if needed)
     if (!data.title) {
       console.warn(`⚠️  ${file}: Missing title. Adding placeholder.`);
       data.title = 'Untitled Recipe (' + file.replace('.md', '') + ')';
       modified = true;
     }
 
-    // 2. Missing Ingredients
-    if (!data.ingredients) {
+    // 4. Missing Ingredients (moved to above, keeping for reference if needed)
+    if (!data.ingredients || data.ingredients.length === 0) {
       console.warn(`⚠️  ${file}: Missing ingredients. Adding empty list.`);
       data.ingredients = [];
       modified = true;
     }
+
 
     // 3. Missing Servings or Wrong Type
     if (!data.servings) {

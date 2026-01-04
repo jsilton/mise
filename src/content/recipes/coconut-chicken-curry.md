@@ -8,22 +8,19 @@ totalTime: 4.5 hours
 servings: '4'
 ingredients:
   - '1 lb Chicken Breast or Thighs, cubed'
-  - '--- The Flavor Base ---'
   - '1 medium Yellow Onion, diced'
   - '2 medium Carrots, diced'
   - '1 Green Bell Pepper, diced'
   - '1 Red Bell Pepper, diced'
   - '2 cloves Garlic, minced'
-  - '--- The Curry Sauce ---'
-  - '1 cup Coconut Milk (Full fat)'
-  - '1/4 cup Tomato Paste'
-  - '1 tbsp Curry Powder'
-  - '1 tbsp Garam Masala'
-  - '1 tsp Sea Salt'
-  - '--- For Serving ---'
+  - 1 cup Coconut Milk (Full fat)
+  - 1/4 cup Tomato Paste
+  - 1 tbsp Curry Powder
+  - 1 tbsp Garam Masala
+  - 1 tsp Sea Salt
   - '1 cup Brown Rice, cooked'
   - '1 Fresh Mango, sliced (The Acid Balance)'
-  - 'Fresh Cilantro'
+  - Fresh Cilantro
 ---
 
 ## Chef's Note

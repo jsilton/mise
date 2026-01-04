@@ -8,20 +8,17 @@ totalTime: 25 min
 servings: '4'
 ingredients:
   - '1 lb Chicken Breast, sliced thin against the grain'
-  - '--- The Velveting Marinade ---'
-  - '1 tbsp Shaoxing Wine'
-  - '1 tbsp Cornstarch'
-  - '1/2 tsp Sea Salt'
-  - '--- The Brown Sauce ---'
-  - '3 tbsp Oyster Sauce'
-  - '2 tbsp Shaoxing Wine'
-  - '1/2 tbsp Dark Soy Sauce'
-  - '1/4 cup Chicken Stock'
-  - '1 tbsp Sugar'
-  - '1 tbsp Cornstarch'
-  - '--- The Stir-Fry ---'
+  - 1 tbsp Shaoxing Wine
+  - 1 tbsp Cornstarch
+  - 1/2 tsp Sea Salt
+  - 3 tbsp Oyster Sauce
+  - 2 tbsp Shaoxing Wine
+  - 1/2 tbsp Dark Soy Sauce
+  - 1/4 cup Chicken Stock
+  - 1 tbsp Sugar
+  - 1 tbsp Cornstarch
   - '1 large head Broccoli, cut into bite-sized florets'
-  - '2 tbsp Peanut Oil (or high-heat oil)'
+  - 2 tbsp Peanut Oil (or high-heat oil)
   - '4 cloves Garlic, minced'
   - '1 tsp Fresh Ginger, minced'
 ---

@@ -7,17 +7,16 @@ cookTime: 30 min
 totalTime: 45 min
 servings: '6'
 ingredients:
-  - '1 lb Dry Fettuccine'
+  - 1 lb Dry Fettuccine
   - '3 cups Butternut Squash, cubed (1-inch)'
   - '3 cloves Garlic, minced'
-  - '1 tbsp Extra-Virgin Olive Oil'
-  - '--- The Velvety Sauce ---'
-  - '3/4 cup Heavy Cream'
-  - '1/2 cup Low-sodium Chicken Broth (or Veggie Broth)'
-  - '1/2 cup Freshly Grated Parmesan'
-  - '1/4 tsp Ground Nutmeg (The "High Note")'
+  - 1 tbsp Extra-Virgin Olive Oil
+  - 3/4 cup Heavy Cream
+  - 1/2 cup Low-sodium Chicken Broth (or Veggie Broth)
+  - 1/2 cup Freshly Grated Parmesan
+  - 1/4 tsp Ground Nutmeg (The "High Note")
   - '2 tbsp Fresh Parsley, chopped'
-  - 'Salt and Black Pepper'
+  - Salt and Black Pepper
 ---
 
 ## Chef's Note

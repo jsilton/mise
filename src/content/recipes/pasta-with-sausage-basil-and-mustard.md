@@ -1,5 +1,5 @@
 ---
-title: Pasta with Sausage, Basil & Mustard
+title: 'Pasta with Sausage, Basil & Mustard'
 role: main
 vibe: quick
 prepTime: 10 min
@@ -7,17 +7,15 @@ cookTime: 20 min
 totalTime: 30 min
 servings: '4'
 ingredients:
-  - '1 lb Penne or Rigatoni'
+  - 1 lb Penne or Rigatoni
   - '1 1/2 lbs Hot Italian Sausage, casings removed'
-  - '--- The Mustard Emulsion ---'
-  - '3/4 cup Dry White Wine'
-  - '3/4 cup Heavy Cream'
-  - '3 tbsp Grainy Dijon Mustard (The Finishing Touch)'
-  - '--- The Finish ---'
+  - 3/4 cup Dry White Wine
+  - 3/4 cup Heavy Cream
+  - 3 tbsp Grainy Dijon Mustard (The Finishing Touch)
   - '1 cup Fresh Basil, thinly sliced'
-  - '1 tbsp Extra-Virgin Olive Oil'
-  - 'Pinch of Red Pepper Flakes'
-  - 'Parmesan for grating'
+  - 1 tbsp Extra-Virgin Olive Oil
+  - Pinch of Red Pepper Flakes
+  - Parmesan for grating
 ---
 
 ## Chef's Note

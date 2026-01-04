@@ -9,16 +9,14 @@ servings: '24'
 ingredients:
   - '1 1/4 cups (2 1/2 sticks) Unsalted Butter, room temp'
   - '1 1/4 cups Dark Brown Sugar, packed'
-  - '3/4 cup Granulated Sugar'
+  - 3/4 cup Granulated Sugar
   - '2 large Eggs, room temp'
-  - '1 tsp Pure Vanilla Extract'
-  - '--- The Dry Base ---'
-  - '2 3/4 cups All-Purpose Flour'
-  - '1 1/4 tsp Kosher Salt'
-  - '1 tsp Baking Powder'
-  - '1 tsp Baking Soda'
-  - '--- The Crunch ---'
-  - '4 1/2 cups Semisweet Chocolate Chips (The "Maximum Chocolate" Method)'
+  - 1 tsp Pure Vanilla Extract
+  - 2 3/4 cups All-Purpose Flour
+  - 1 1/4 tsp Kosher Salt
+  - 1 tsp Baking Powder
+  - 1 tsp Baking Soda
+  - 4 1/2 cups Semisweet Chocolate Chips (The "Maximum Chocolate" Method)
 ---
 
 ## Chef's Note

@@ -9,15 +9,14 @@ servings: '6'
 ingredients:
   - '16 oz Cremini Mushrooms, sliced'
   - '2/3 cup Shiitake Mushrooms, sliced'
-  - '1/4 cup Unsalted Butter'
+  - 1/4 cup Unsalted Butter
   - '1 large Shallot, minced'
   - '2 cloves Garlic, minced'
-  - '--- The Flavor Base ---'
-  - '4 cups High-quality Vegetable Stock'
-  - '1/3 cup Heavy Cream'
-  - '1 tsp Dried Thyme'
-  - 'Salt and Black Pepper'
-  - '1 tbsp Dry Sherry (The Finishing Touch)'
+  - 4 cups High-quality Vegetable Stock
+  - 1/3 cup Heavy Cream
+  - 1 tsp Dried Thyme
+  - Salt and Black Pepper
+  - 1 tbsp Dry Sherry (The Finishing Touch)
 ---
 
 ## Chef's Note

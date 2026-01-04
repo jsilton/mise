@@ -7,20 +7,17 @@ cookTime: 10 min
 totalTime: 20 min
 servings: '4'
 ingredients:
-  - '8 oz Wide Dried Rice Noodles'
-  - '--- The Sauce ---'
-  - '1 tbsp Fish Sauce'
-  - '1 tbsp Soy Sauce (Thai Thin or Light)'
-  - '1 tsp Dark Soy Sauce (for color)'
-  - '1 tbsp Oyster Sauce'
-  - '1 tbsp Brown Sugar'
-  - '--- The Stir-Fry ---'
-  - '1 lb Ground Pork or Chicken'
-  - '2 cups Fresh Thai Basil (Holy Basil is ideal)'
+  - 8 oz Wide Dried Rice Noodles
+  - 1 tbsp Fish Sauce
+  - 1 tbsp Soy Sauce (Thai Thin or Light)
+  - 1 tsp Dark Soy Sauce (for color)
+  - 1 tbsp Oyster Sauce
+  - 1 tbsp Brown Sugar
+  - 1 lb Ground Pork or Chicken
+  - 2 cups Fresh Thai Basil (Holy Basil is ideal)
   - '3 cloves Garlic, minced'
   - '1-3 Thai Bird’s Eye Chilies, minced'
   - '1/2 Bell Pepper, thinly sliced'
-  - '--- The Finish ---'
   - '1 Fresh Lime, cut into wedges'
 ---
 

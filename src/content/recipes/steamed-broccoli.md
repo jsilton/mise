@@ -8,11 +8,10 @@ totalTime: 10 min
 servings: '4'
 ingredients:
   - '1 lb Fresh Broccoli, cut into bite-sized florets'
-  - '--- The Garlic Infusion ---'
-  - '2 tbsp Extra-Virgin Olive Oil'
+  - 2 tbsp Extra-Virgin Olive Oil
   - '2 cloves Garlic, grated or finely minced'
-  - '1/2 tsp Sea Salt'
-  - '1/4 tsp Black Pepper'
+  - 1/2 tsp Sea Salt
+  - 1/4 tsp Black Pepper
 ---
 
 ## Chef's Note

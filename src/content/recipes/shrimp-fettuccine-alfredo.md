@@ -7,15 +7,14 @@ cookTime: 15 min
 totalTime: 25 min
 servings: '4'
 ingredients:
-  - '1 lb Fettuccine Pasta'
+  - 1 lb Fettuccine Pasta
   - '1 lb Jumbo Shrimp, peeled and deveined'
-  - '2 tbsp Olive Oil'
-  - '1 tsp Garlic Powder'
-  - 'Salt and Black Pepper'
+  - 2 tbsp Olive Oil
+  - 1 tsp Garlic Powder
+  - Salt and Black Pepper
   - '--- The Sauce (Choose One) ---'
   - '1 batch [Real Alfredo Sauce](/silton-mise/recipes/real-alfredo-sauce)'
-  - '1 jar (15 oz) High-Quality Alfredo Sauce (The Speed Shortcut)'
-  - '--- For Serving ---'
+  - 1 jar (15 oz) High-Quality Alfredo Sauce (The Speed Shortcut)
   - 'Fresh Parsley, chopped'
   - '[Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad)'
 ---

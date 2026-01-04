@@ -5,19 +5,18 @@ vibe: nutritious
 prepTime: 15 min
 cookTime: 50 min
 totalTime: 65 min
-servings: '12 slices'
+servings: 12 slices
 ingredients:
   - '3 medium Ripe Bananas, mashed'
-  - '1 3/4 cups Whole-Wheat Flour'
-  - '1/4 cup Maple Syrup'
-  - '1 large Egg'
-  - '1/2 cup Plain Greek Yogurt'
-  - '1/3 cup Milk of choice'
-  - '--- The Spice Base ---'
-  - '1 tsp Ground Cinnamon'
-  - '1 tsp Baking Powder'
-  - '1/2 tsp Baking Soda'
-  - '1 tsp Vanilla Extract'
+  - 1 3/4 cups Whole-Wheat Flour
+  - 1/4 cup Maple Syrup
+  - 1 large Egg
+  - 1/2 cup Plain Greek Yogurt
+  - 1/3 cup Milk of choice
+  - 1 tsp Ground Cinnamon
+  - 1 tsp Baking Powder
+  - 1/2 tsp Baking Soda
+  - 1 tsp Vanilla Extract
 ---
 
 ## Chef's Note

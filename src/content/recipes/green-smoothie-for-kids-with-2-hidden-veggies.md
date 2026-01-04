@@ -5,18 +5,17 @@ vibe: nutritious
 prepTime: 5 min
 cookTime: 0 min
 totalTime: 5 min
-servings: '1 large smoothie'
+servings: 1 large smoothie
 ingredients:
-  - '3/4 cup Almond Milk (or milk of choice)'
-  - '1 medium Banana'
-  - '1/4 Fresh Avocado (for richness)'
-  - '1/2 cup Frozen Mango Chunks'
-  - '1 tbsp Rolled Oats (for sustained nutritious)'
+  - 3/4 cup Almond Milk (or milk of choice)
+  - 1 medium Banana
+  - 1/4 Fresh Avocado (for richness)
+  - 1/2 cup Frozen Mango Chunks
+  - 1 tbsp Rolled Oats (for sustained nutritious)
   - '1 cup Fresh Baby Spinach (Hidden Veggie #1)'
-  - '--- The Secret Stack ---'
-  - '2 tsp Nut Butter (Almond or Sunflower)'
-  - '1/2 tsp Pure Vanilla Extract'
-  - '1-2 tsp Maple Syrup (Optional)'
+  - 2 tsp Nut Butter (Almond or Sunflower)
+  - 1/2 tsp Pure Vanilla Extract
+  - 1-2 tsp Maple Syrup (Optional)
 ---
 
 ## Chef's Note

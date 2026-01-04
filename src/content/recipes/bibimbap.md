@@ -7,19 +7,20 @@ cookTime: 10 min
 totalTime: 20 min
 servings: '4'
 ingredients:
-  - '4 cups Cooked Rice (Jasmine or Short-Grain)'
+  - 4 cups Cooked Rice (Jasmine or Short-Grain)
   - '4 Eggs, fried sunny-side up'
   - '--- The Components (Click for Recipes) ---'
-  - '[Thinly Sliced Marinated Ribeye](/silton-mise/recipes/marinated-korean-ribeye)'
+  - >-
+    [Thinly Sliced Marinated
+    Ribeye](/silton-mise/recipes/marinated-korean-ribeye)
   - '[Korean Pickled Cucumbers](/silton-mise/recipes/korean-pickled-cucumbers)'
   - '[Garlic-Sesame Spinach](/silton-mise/recipes/garlic-sesame-spinach)'
   - '[Seasoned Bean Sprouts](/silton-mise/recipes/seasoned-bean-sprouts)'
-  - '--- The Sauce ---'
-  - '2 tbsp Gochujang'
-  - '1 tbsp Toasted Sesame Oil'
-  - '1 tbsp Sugar'
-  - '1 tbsp Water'
-  - '1 tsp Rice Vinegar'
+  - 2 tbsp Gochujang
+  - 1 tbsp Toasted Sesame Oil
+  - 1 tbsp Sugar
+  - 1 tbsp Water
+  - 1 tsp Rice Vinegar
 ---
 
 ## Chef's Note

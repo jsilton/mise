@@ -9,15 +9,13 @@ servings: '4'
 ingredients:
   - '1 cup Long-grain White Rice, uncooked'
   - '1 can (19 oz) Chickpeas, rinsed and drained'
-  - '--- The Smoky Pulse ---'
-  - '1 tbsp Smoked Paprika'
-  - '1 tbsp Dried Oregano'
+  - 1 tbsp Smoked Paprika
+  - 1 tbsp Dried Oregano
   - '3 cloves Garlic, minced'
   - '1 medium Yellow Onion, finely chopped'
-  - '1 can (19 oz) Diced Tomatoes'
-  - '1 1/2 cups Vegetable Broth'
-  - '--- Optional Protein ---'
-  - 'Shrimp or Fresh Spinach'
+  - 1 can (19 oz) Diced Tomatoes
+  - 1 1/2 cups Vegetable Broth
+  - Shrimp or Fresh Spinach
 ---
 
 ## Chef's Note

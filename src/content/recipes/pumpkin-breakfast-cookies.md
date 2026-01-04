@@ -5,21 +5,19 @@ vibe: nutritious
 prepTime: 10 min
 cookTime: 15 min
 totalTime: 25 min
-servings: '12 cookies'
+servings: 12 cookies
 ingredients:
-  - '1/2 cup Pure Pumpkin Puree'
+  - 1/2 cup Pure Pumpkin Puree
   - '1/4 cup Coconut Oil, melted'
-  - '1/4 cup Honey'
+  - 1/4 cup Honey
   - '2 large Eggs, beaten'
-  - '--- The Ancient Grain Mix ---'
-  - '1 cup Old-fashioned Rolled Oats'
-  - '1 cup quick-cooking Oats'
-  - '1/4 cup Ground Flaxseed'
-  - '--- The Crunch Stacks ---'
-  - '2/3 cup Unsweetened Dried Cranberries'
-  - '2/3 cup Pumpkin Seeds (Pepitas)'
-  - '1 tsp Pumpkin Pie Spice'
-  - '1/2 tsp Sea Salt'
+  - 1 cup Old-fashioned Rolled Oats
+  - 1 cup quick-cooking Oats
+  - 1/4 cup Ground Flaxseed
+  - 2/3 cup Unsweetened Dried Cranberries
+  - 2/3 cup Pumpkin Seeds (Pepitas)
+  - 1 tsp Pumpkin Pie Spice
+  - 1/2 tsp Sea Salt
 ---
 
 ## Chef's Note

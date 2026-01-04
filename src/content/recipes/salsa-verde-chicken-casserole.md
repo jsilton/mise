@@ -7,12 +7,11 @@ cookTime: 30 min
 totalTime: 40 min
 servings: '6'
 ingredients:
-  - '2 cups Shredded Rotisserie Chicken'
-  - '1 cup Sour Cream (for richness)'
-  - '1 1/2 cups Salsa Verde (Jarred or Fresh)'
+  - 2 cups Shredded Rotisserie Chicken
+  - 1 cup Sour Cream (for richness)
+  - 1 1/2 cups Salsa Verde (Jarred or Fresh)
   - '8 Corn Tortillas (6-inch), halved'
   - '2 cups Monterrey Jack Cheese, shredded'
-  - '--- The Fresh Snap ---'
   - '2 cups Roma Tomatoes, chopped'
   - '1/4 cup Fresh Cilantro, minced'
   - '1 Avocado, sliced (The Finishing Touch)'

@@ -8,25 +8,22 @@ totalTime: 35 min
 servings: '4'
 ingredients:
   - '1 lb Extra-firm Tofu, pressed dry and cut into 1-inch squares'
-  - '--- The Honey-Heat Bind ---'
-  - '1 1/2 tbsp Honey'
-  - '2 tsp Hot Sauce (Crystal or Tabasco)'
-  - '3 tbsp Cornstarch (the crunch Guard)'
-  - '1 1/2 tbsp Sesame Seeds'
-  - '--- The General Sauce ---'
-  - '1 cup Vegetable Stock'
-  - '1 1/2 tbsp Light Soy Sauce'
-  - '1 tsp Dark Soy Sauce (for color)'
-  - '2 tsp Rice Vinegar'
-  - '1 tbsp Granulated Sugar'
-  - '1 1/2 tbsp Cornstarch (slurry)'
-  - '--- The Stir-Fry ---'
-  - '2 cups Broccoli Florets'
+  - 1 1/2 tbsp Honey
+  - 2 tsp Hot Sauce (Crystal or Tabasco)
+  - 3 tbsp Cornstarch (the crunch Guard)
+  - 1 1/2 tbsp Sesame Seeds
+  - 1 cup Vegetable Stock
+  - 1 1/2 tbsp Light Soy Sauce
+  - 1 tsp Dark Soy Sauce (for color)
+  - 2 tsp Rice Vinegar
+  - 1 tbsp Granulated Sugar
+  - 1 1/2 tbsp Cornstarch (slurry)
+  - 2 cups Broccoli Florets
   - '1/2 Red Bell Pepper, sliced'
   - '1 tbsp Fresh Ginger, minced'
   - '2 cloves Garlic, minced'
-  - '7 Dried Chinese Red Chilies'
-  - 'Peanut Oil (for shallow frying)'
+  - 7 Dried Chinese Red Chilies
+  - Peanut Oil (for shallow frying)
 ---
 
 ## Chef's Note

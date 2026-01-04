@@ -9,15 +9,13 @@ servings: '4'
 ingredients:
   - '5 medium Zucchini, spiralized'
   - '1 lb Shrimp, peeled and deveined'
-  - '--- The Avocado Pesto Emulsion ---'
-  - '1 ripe Avocado'
-  - '1 cup Fresh Basil'
+  - 1 ripe Avocado
+  - 1 cup Fresh Basil
   - '1/4 cup Pistachios, unsalted'
-  - '2 tbsp Fresh Lemon Juice (The Acid Balance)'
-  - '--- The Crunch Stacks ---'
+  - 2 tbsp Fresh Lemon Juice (The Acid Balance)
   - '3 cloves Garlic, minced'
-  - '1 tsp Old Bay Seasoning (The Finishing Touch)'
-  - '1/4 cup Extra-Virgin Olive Oil'
+  - 1 tsp Old Bay Seasoning (The Finishing Touch)
+  - 1/4 cup Extra-Virgin Olive Oil
 ---
 
 ## Chef's Note

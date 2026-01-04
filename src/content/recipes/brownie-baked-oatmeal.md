@@ -7,16 +7,15 @@ cookTime: 15 min
 totalTime: 20 min
 servings: '1'
 ingredients:
-  - '1/3 cup Rolled Oats'
+  - 1/3 cup Rolled Oats
   - '1/2 Banana, very ripe (spotted)'
-  - '1 large Egg'
-  - '1/4 cup Milk of choice (Almond or Oat preferred)'
-  - '1 heaping tbsp Cocoa Powder'
-  - '1/4 tsp Baking Soda'
-  - 'Pinch of Sea Salt'
-  - '1 tbsp Dark Chocolate Chips'
-  - '--- For Topping ---'
-  - 'Flaky Sea Salt'
+  - 1 large Egg
+  - 1/4 cup Milk of choice (Almond or Oat preferred)
+  - 1 heaping tbsp Cocoa Powder
+  - 1/4 tsp Baking Soda
+  - Pinch of Sea Salt
+  - 1 tbsp Dark Chocolate Chips
+  - Flaky Sea Salt
 ---
 
 ## Chef's Note

@@ -7,16 +7,15 @@ cookTime: 0 min
 totalTime: 25 min
 servings: '4'
 ingredients:
-  - '5 cups Baby Spinach (1 bag)'
+  - 5 cups Baby Spinach (1 bag)
   - '1 large Bosc Pear, quartered and thinly sliced'
   - '1/4 Red Onion, thinly sliced'
-  - '--- The Dijon-Honey Emulsion ---'
-  - '2 tbsp Dijon Mustard'
-  - '2 tbsp Red Wine Vinegar (The Acid Balance)'
-  - '1 tbsp Extra-Virgin Olive Oil'
-  - '1 tbsp Honey'
-  - '2 tbsp Water'
-  - 'Salt and Black Pepper'
+  - 2 tbsp Dijon Mustard
+  - 2 tbsp Red Wine Vinegar (The Acid Balance)
+  - 1 tbsp Extra-Virgin Olive Oil
+  - 1 tbsp Honey
+  - 2 tbsp Water
+  - Salt and Black Pepper
 ---
 
 ## Chef's Note

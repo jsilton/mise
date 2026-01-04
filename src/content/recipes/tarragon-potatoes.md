@@ -8,12 +8,11 @@ totalTime: 55 min
 servings: '6'
 ingredients:
   - '2 lbs Russet Potatoes, cubed (1.5-inch chunks)'
-  - '2 tbsp Extra-Virgin Olive Oil'
-  - '2 tbsp Unsalted Butter (Cold)'
-  - '--- The Flavor Pulse ---'
-  - '1 tbsp Dried Tarragon (The "High Note")'
-  - '1 tsp Sea Salt'
-  - '1/2 tsp Black Pepper'
+  - 2 tbsp Extra-Virgin Olive Oil
+  - 2 tbsp Unsalted Butter (Cold)
+  - 1 tbsp Dried Tarragon (The "High Note")
+  - 1 tsp Sea Salt
+  - 1/2 tsp Black Pepper
 ---
 
 ## Chef's Note

@@ -7,19 +7,19 @@ cookTime: 10 min
 totalTime: 280 min
 servings: '10'
 ingredients:
-  - '1 Pie Crust, baked and cooled (Use the [Apple Pie](/silton-mise/recipes/apple-pie) Vodka Hack dough!)'
-  - '--- The Silk Filling ---'
+  - >-
+    1 Pie Crust, baked and cooled (Use the [Apple
+    Pie](/silton-mise/recipes/apple-pie) Vodka Hack dough!)
   - '6 1/2 oz Bittersweet Chocolate, finely chopped'
-  - '1 1/2 cups Granulated Sugar'
-  - '1/4 cup Cornstarch'
-  - '1/4 tsp Sea Salt'
-  - '3 cups Whole Milk'
-  - '4 large Egg Yolks'
-  - '2 tbsp Unsalted Butter'
-  - '2 tsp Vanilla Extract'
-  - '--- For Serving ---'
-  - 'Whipped Cream'
-  - 'Shaved Dark Chocolate'
+  - 1 1/2 cups Granulated Sugar
+  - 1/4 cup Cornstarch
+  - 1/4 tsp Sea Salt
+  - 3 cups Whole Milk
+  - 4 large Egg Yolks
+  - 2 tbsp Unsalted Butter
+  - 2 tsp Vanilla Extract
+  - Whipped Cream
+  - Shaved Dark Chocolate
 ---
 
 ## Chef's Note

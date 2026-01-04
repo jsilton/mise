@@ -1,5 +1,5 @@
 ---
-title: quick Seasoned Black Beans
+title: Quick Seasoned Black Beans
 role: side
 vibe: quick
 prepTime: 2 min
@@ -8,12 +8,12 @@ totalTime: 12 min
 servings: '4'
 ingredients:
   - '2 cans (15 oz) Black Beans, undrained'
-  - '1 tbsp Olive Oil'
+  - 1 tbsp Olive Oil
   - '2 cloves Garlic, minced'
-  - '1 tsp Ground Cumin'
-  - '1 tsp Dried Oregano'
-  - '1 tbsp Lime Juice'
-  - 'Salt and Pepper to taste'
+  - 1 tsp Ground Cumin
+  - 1 tsp Dried Oregano
+  - 1 tbsp Lime Juice
+  - Salt and Pepper to taste
 ---
 
 ## Chef's Note

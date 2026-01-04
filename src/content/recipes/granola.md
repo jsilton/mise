@@ -5,19 +5,17 @@ vibe: nutritious
 prepTime: 10 min
 cookTime: 25 min
 totalTime: 35 min
-servings: '6 cups'
+servings: 6 cups
 ingredients:
-  - '2 cups Old-fashioned Rolled Oats (not quick)'
+  - 2 cups Old-fashioned Rolled Oats (not quick)
   - '1/2 cup Mixed Nuts (Almonds, Walnuts, Pecans), chopped'
-  - '1/4 cup Seeds (Sunflower or Sesame)'
-  - '1/2 cup Canola or Avocado Oil'
-  - '1/3 cup Pure Maple Syrup'
-  - '--- The Flavor Triple-Threat ---'
-  - '2 tsp Pure Vanilla Extract'
-  - '1 tsp Ground Cinnamon'
-  - '1/2 tsp Sea Salt'
-  - '--- The Finish ---'
-  - '1/2 cup Dried Fruit (Raisins or Cranberries)'
+  - 1/4 cup Seeds (Sunflower or Sesame)
+  - 1/2 cup Canola or Avocado Oil
+  - 1/3 cup Pure Maple Syrup
+  - 2 tsp Pure Vanilla Extract
+  - 1 tsp Ground Cinnamon
+  - 1/2 tsp Sea Salt
+  - 1/2 cup Dried Fruit (Raisins or Cranberries)
 ---
 
 ## Chef's Note

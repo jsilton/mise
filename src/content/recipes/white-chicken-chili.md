@@ -7,16 +7,14 @@ cookTime: 600 min
 totalTime: 605 min
 servings: '8'
 ingredients:
-  - '1 1/4 lbs Chicken Breasts or Thighs'
-  - '--- The Bean-Hominy Base ---'
-  - '2 cans (15 oz) Great Northern Beans'
-  - '1 can (15 oz) Hominy'
-  - '--- The Creamy Emulsion ---'
-  - '1 can (10.75 oz) Condensed Cream of Chicken Soup'
-  - '1 can (4.5 oz) Chopped Green Chilies'
-  - '1 can (14 oz) Chicken Broth'
-  - '1/2 cup Sour Cream (for richness)'
-  - '1 pkg Taco Seasoning'
+  - 1 1/4 lbs Chicken Breasts or Thighs
+  - 2 cans (15 oz) Great Northern Beans
+  - 1 can (15 oz) Hominy
+  - 1 can (10.75 oz) Condensed Cream of Chicken Soup
+  - 1 can (4.5 oz) Chopped Green Chilies
+  - 1 can (14 oz) Chicken Broth
+  - 1/2 cup Sour Cream (for richness)
+  - 1 pkg Taco Seasoning
   - 'Monterey Jack Cheese, shredded'
 ---
 

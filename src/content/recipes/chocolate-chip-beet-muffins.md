@@ -7,18 +7,17 @@ cookTime: 20 min
 totalTime: 30 min
 servings: '12'
 ingredients:
-  - '1 cup Beet Puree (Roasted or canned)'
-  - '2 large Eggs'
+  - 1 cup Beet Puree (Roasted or canned)
+  - 2 large Eggs
   - '1/4 cup Unsalted Butter, melted'
-  - '1/4 cup Honey'
+  - 1/4 cup Honey
   - '1/3 cup Brown Sugar, packed'
-  - '1/4 cup Whole Milk'
-  - '--- The Dry Base ---'
-  - '1 1/3 cups Whole-Wheat Flour'
-  - '1/2 cup Unsweetened Cocoa Powder'
-  - '1 1/2 tsp Baking Soda'
-  - '1/4 tsp Sea Salt'
-  - '1/3 cup Semisweet Chocolate Chips'
+  - 1/4 cup Whole Milk
+  - 1 1/3 cups Whole-Wheat Flour
+  - 1/2 cup Unsweetened Cocoa Powder
+  - 1 1/2 tsp Baking Soda
+  - 1/4 tsp Sea Salt
+  - 1/3 cup Semisweet Chocolate Chips
 ---
 
 ## Chef's Note

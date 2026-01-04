@@ -9,20 +9,18 @@ servings: '4'
 ingredients:
   - '--- The Shrimp & Velveting ---'
   - '1 lb Jumbo Shrimp, peeled and deveined'
-  - '1/4 tsp Baking Soda (The secret to the "snap")'
-  - '1 tsp Cornstarch'
-  - '1 tsp Shaoxing Wine'
-  - '1/2 tsp Salt'
-  - '--- The Sauce ---'
-  - '1/2 cup Chicken Broth'
-  - '1 tbsp Soy Sauce'
-  - '1 tbsp Shaoxing Wine'
-  - '1 tsp Sugar'
-  - '1 tsp Cornstarch (for thickening)'
-  - '1/2 tsp Toasted Sesame Oil'
-  - '--- The Stir-Fry ---'
+  - 1/4 tsp Baking Soda (The secret to the "snap")
+  - 1 tsp Cornstarch
+  - 1 tsp Shaoxing Wine
+  - 1/2 tsp Salt
+  - 1/2 cup Chicken Broth
+  - 1 tbsp Soy Sauce
+  - 1 tbsp Shaoxing Wine
+  - 1 tsp Sugar
+  - 1 tsp Cornstarch (for thickening)
+  - 1/2 tsp Toasted Sesame Oil
   - '8 oz Fresh Snow Peas, trimmed'
-  - '2 tbsp Neutral Oil (Avocado or Grapeseed)'
+  - 2 tbsp Neutral Oil (Avocado or Grapeseed)
   - '1 tbsp Ginger, julienned'
   - '2 cloves Garlic, thinly sliced'
   - '3 stalks Green Onion, cut on the diagonal'

@@ -8,19 +8,21 @@ totalTime: 40 min
 servings: '4'
 ingredients:
   - '1 lb Sashimi-Grade Yellowfin or Bigeye Tuna, cut into 1/2-inch cubes'
-  - '--- The Dressing ---'
-  - '3 tbsp Soy Sauce (or Tamari)'
-  - '1 tbsp Toasted Sesame Oil'
-  - '1 tsp Rice Vinegar'
-  - '1/2 tsp Grated Ginger'
-  - '1/2 tsp Chili Crisp or Sriracha'
-  - '--- The Bowl ---'
-  - '4 cups Cooked Sushi Rice or [Jasmine Rice](/silton-mise/recipes/homemade-rice-pilaf)'
+  - 3 tbsp Soy Sauce (or Tamari)
+  - 1 tbsp Toasted Sesame Oil
+  - 1 tsp Rice Vinegar
+  - 1/2 tsp Grated Ginger
+  - 1/2 tsp Chili Crisp or Sriracha
+  - >-
+    4 cups Cooked Sushi Rice or [Jasmine
+    Rice](/silton-mise/recipes/homemade-rice-pilaf)
   - '1 Avocado, diced'
-  - '[Korean Pickled Cucumbers](/silton-mise/recipes/korean-pickled-cucumbers) (The crunch secret)'
-  - '1/2 cup Shelled Edamame'
-  - 'Sliced Scallions and Toasted Sesame Seeds'
-  - 'Shredded Nori (Seaweed)'
+  - >-
+    [Korean Pickled Cucumbers](/silton-mise/recipes/korean-pickled-cucumbers)
+    (The crunch secret)
+  - 1/2 cup Shelled Edamame
+  - Sliced Scallions and Toasted Sesame Seeds
+  - Shredded Nori (Seaweed)
 ---
 
 ## Chef's Note

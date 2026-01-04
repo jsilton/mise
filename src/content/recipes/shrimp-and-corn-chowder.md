@@ -8,20 +8,17 @@ totalTime: 60 min
 servings: '6'
 ingredients:
   - '2 lbs Medium Shrimp, peeled and deveined'
-  - '2 cups Fresh Corn Kernels'
-  - '--- The Annatto Emulsion ---'
-  - '2 tbsp Annatto Oil (or Olive Oil)'
+  - 2 cups Fresh Corn Kernels
+  - 2 tbsp Annatto Oil (or Olive Oil)
   - '1/2 cup Red Onion, finely chopped'
   - '1 Red Bell Pepper, chopped'
-  - '1 tsp Ground Cumin'
-  - '--- The Silk Base ---'
-  - '2 cups Whole Milk'
-  - '6 cups Fish or Chicken Stock'
+  - 1 tsp Ground Cumin
+  - 2 cups Whole Milk
+  - 6 cups Fish or Chicken Stock
   - '1 Green (Unripe) Plantain, grated (The Starch Bind)'
-  - '--- The Finish ---'
-  - '2 tbsp Fresh Lime Juice (The Acid Balance)'
-  - '2 tbsp Fresh Cilantro'
-  - '1/4 tsp Cayenne Pepper'
+  - 2 tbsp Fresh Lime Juice (The Acid Balance)
+  - 2 tbsp Fresh Cilantro
+  - 1/4 tsp Cayenne Pepper
 ---
 
 ## Chef's Note

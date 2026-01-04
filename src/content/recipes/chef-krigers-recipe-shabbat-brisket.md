@@ -1,5 +1,5 @@
 ---
-title: 'Chef Kriger’s Recipe Shabbat Brisket'
+title: Chef Kriger’s Recipe Shabbat Brisket
 role: main
 vibe: holiday
 prepTime: 30 min
@@ -7,18 +7,17 @@ cookTime: 2 hours
 totalTime: 12 hours
 servings: '12'
 ingredients:
-  - '1 First-cut Brisket (4-5 lbs)'
-  - '1 bag Baby Carrots'
+  - 1 First-cut Brisket (4-5 lbs)
+  - 1 bag Baby Carrots
   - '1 large Yellow Onion, chopped'
-  - '--- The Shabbat Sauce ---'
-  - '1 large bottle Ketchup'
-  - '1/4 cup Worcestershire Sauce'
-  - '4 tbsp Dijon Mustard'
-  - '4 tbsp Grape Jelly (The secret sweetness)'
-  - '2 tbsp Brown Sugar'
-  - '1 tbsp Garlic Powder'
-  - '1 tbsp Onion Powder'
-  - 'Salt and Black Pepper'
+  - 1 large bottle Ketchup
+  - 1/4 cup Worcestershire Sauce
+  - 4 tbsp Dijon Mustard
+  - 4 tbsp Grape Jelly (The secret sweetness)
+  - 2 tbsp Brown Sugar
+  - 1 tbsp Garlic Powder
+  - 1 tbsp Onion Powder
+  - Salt and Black Pepper
 ---
 
 ## Chef's Note

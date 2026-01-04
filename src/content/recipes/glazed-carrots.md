@@ -8,11 +8,10 @@ totalTime: 25 min
 servings: '8'
 ingredients:
   - '2 lbs Carrots, peeled and cut into matchsticks'
-  - '1/4 cup Unsalted Butter'
+  - 1/4 cup Unsalted Butter
   - '1/4 cup Light Brown Sugar, packed'
-  - '1/4 tsp Sea Salt'
-  - '1/8 tsp White Pepper (The Finishing Touch)'
-  - '--- Optional Finish ---'
+  - 1/4 tsp Sea Salt
+  - 1/8 tsp White Pepper (The Finishing Touch)
   - '1 tsp Fresh Thyme, chopped'
 ---
 

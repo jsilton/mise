@@ -7,15 +7,14 @@ cookTime: 25 min
 totalTime: 35 min
 servings: '8'
 ingredients:
-  - '6 large Eggs'
-  - '1/4 cup Whole Milk'
-  - '1/8 tsp Sea Salt'
-  - '1/8 tsp Black Pepper'
-  - '--- the texture ---'
+  - 6 large Eggs
+  - 1/4 cup Whole Milk
+  - 1/8 tsp Sea Salt
+  - 1/8 tsp Black Pepper
   - '1 medium Red Bell Pepper, finely diced'
   - '1 cup Fresh Spinach, chiffonade'
   - '1 oz Sharp Cheddar Cheese, shredded'
-  - 'Cooking spray'
+  - Cooking spray
 ---
 
 ## Chef's Note

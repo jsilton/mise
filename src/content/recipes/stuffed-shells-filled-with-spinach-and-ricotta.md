@@ -7,18 +7,18 @@ cookTime: 40 min
 totalTime: 60 min
 servings: '6'
 ingredients:
-  - '12 oz Jumbo Pasta Shells'
-  - '1 lb Fresh Baby Spinach'
-  - '--- The Ricotta Emulsion ---'
-  - '10 oz Whole-milk Ricotta'
+  - 12 oz Jumbo Pasta Shells
+  - 1 lb Fresh Baby Spinach
+  - 10 oz Whole-milk Ricotta
   - '1 large Egg, beaten (as binder)'
   - '1/2 cup Parmesan, freshly grated'
   - '2 tbsp Fresh Chives, minced'
   - '2 cloves Garlic, minced'
-  - '--- The Finish ---'
-  - '2 cups [Roasted Tomato Basil Sauce](/silton-mise/recipes/roasted-tomato-basil-soup)'
-  - '1 tbsp Extra-Virgin Olive Oil'
-  - 'Salt and Black Pepper'
+  - >-
+    2 cups [Roasted Tomato Basil
+    Sauce](/silton-mise/recipes/roasted-tomato-basil-soup)
+  - 1 tbsp Extra-Virgin Olive Oil
+  - Salt and Black Pepper
 ---
 
 ## Chef's Note

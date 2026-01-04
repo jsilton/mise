@@ -7,17 +7,15 @@ cookTime: 50 min
 totalTime: 65 min
 servings: '12'
 ingredients:
-  - '1 1/2 cups Extra-Virgin Olive Oil'
-  - '2 cups All-Purpose Flour'
-  - '--- The Citrus Emulsion ---'
-  - '1 1/4 cups Whole Milk'
-  - '1 1/4 cups Granulated Sugar'
-  - '3 large Eggs'
-  - 'Zest and Juice of 2 large Lemons (The Acid Balance)'
-  - '2 tsp Pure Vanilla Extract'
-  - '--- The Leavening ---'
-  - '1/2 tsp Baking Powder + 1/2 tsp Baking Soda'
-  - '1 tsp Sea Salt'
+  - 1 1/2 cups Extra-Virgin Olive Oil
+  - 2 cups All-Purpose Flour
+  - 1 1/4 cups Whole Milk
+  - 1 1/4 cups Granulated Sugar
+  - 3 large Eggs
+  - Zest and Juice of 2 large Lemons (The Acid Balance)
+  - 2 tsp Pure Vanilla Extract
+  - 1/2 tsp Baking Powder + 1/2 tsp Baking Soda
+  - 1 tsp Sea Salt
 ---
 
 ## Chef's Note

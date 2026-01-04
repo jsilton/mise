@@ -7,18 +7,17 @@ cookTime: 25 min
 totalTime: 40 min
 servings: '4'
 ingredients:
-  - '1 lb Ground Chicken'
-  - '1/3 cup Plain Greek Yogurt for richness'
-  - '1/2 cup Panko Breadcrumbs'
+  - 1 lb Ground Chicken
+  - 1/3 cup Plain Greek Yogurt for richness
+  - 1/2 cup Panko Breadcrumbs
   - '2 cloves Garlic, minced'
   - '2 Scallions, thinly sliced'
-  - '--- The Braise ---'
   - '1 lb Swiss Chard, sliced into ribbons'
   - '1 Lemon, halved (one half sliced, one half juiced)'
-  - '1/4 cup Extra-Virgin Olive Oil'
-  - '1 tsp Ground Cumin'
-  - '2 tsp Dried Oregano'
-  - '1/4 tsp Red Pepper Flakes'
+  - 1/4 cup Extra-Virgin Olive Oil
+  - 1 tsp Ground Cumin
+  - 2 tsp Dried Oregano
+  - 1/4 tsp Red Pepper Flakes
 ---
 
 ## Chef's Note

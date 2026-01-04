@@ -8,13 +8,12 @@ totalTime: 40 min
 servings: '4'
 ingredients:
   - '1.5 lbs Chicken Thighs, cut into 1-inch cubes'
-  - '--- The Marinade ---'
-  - '1/4 cup Extra-Virgin Olive Oil'
-  - '2 tbsp Fresh Lemon Juice'
-  - '1 tbsp Dried Oregano (Greek oregano is best)'
+  - 1/4 cup Extra-Virgin Olive Oil
+  - 2 tbsp Fresh Lemon Juice
+  - 1 tbsp Dried Oregano (Greek oregano is best)
   - '3 cloves Garlic, grated'
-  - '1 tsp Salt'
-  - '1/2 tsp Black Pepper'
+  - 1 tsp Salt
+  - 1/2 tsp Black Pepper
 ---
 
 ## Chef's Note

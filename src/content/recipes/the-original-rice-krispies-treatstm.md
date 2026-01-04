@@ -7,12 +7,11 @@ cookTime: 10 min
 totalTime: 40 min
 servings: '12'
 ingredients:
-  - '6 cups Rice Krispies Cereal'
-  - '10 oz (1 package) Fresh Marshmallows'
-  - '3 tbsp Unsalted Butter (Cold)'
-  - '--- The Custom Snap ---'
-  - 'Pinch of Sea Salt'
-  - '1/2 tsp Pure Vanilla Extract'
+  - 6 cups Rice Krispies Cereal
+  - 10 oz (1 package) Fresh Marshmallows
+  - 3 tbsp Unsalted Butter (Cold)
+  - Pinch of Sea Salt
+  - 1/2 tsp Pure Vanilla Extract
 ---
 
 ## Chef's Note

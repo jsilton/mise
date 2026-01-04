@@ -7,21 +7,18 @@ cookTime: 25 min
 totalTime: 75 min
 servings: '8'
 ingredients:
-  - '--- The Executive Crust ---'
-  - '1 1/2 cups All-Purpose Flour'
+  - 1 1/2 cups All-Purpose Flour
   - '3/4 cup Cold Butter, cubed'
-  - '4 tbsp Ice-cold Water'
-  - '1 tbsp Sugar'
-  - '1/2 tsp Sea Salt'
-  - '--- The Filling Stacks ---'
-  - '1 cup Whole Milk Ricotta'
+  - 4 tbsp Ice-cold Water
+  - 1 tbsp Sugar
+  - 1/2 tsp Sea Salt
+  - 1 cup Whole Milk Ricotta
   - '1/2 cup Sharp Cheddar or Gruyère, shredded'
-  - '1/3 cup Basil Pesto (homemade or storebought)'
+  - 1/3 cup Basil Pesto (homemade or storebought)
   - '3 medium Heirloom Tomatoes, thinly sliced'
-  - '--- The Finishing Touch Finish ---'
-  - '2 tbsp Extra-Virgin Olive Oil'
+  - 2 tbsp Extra-Virgin Olive Oil
   - 'Fresh Chives and Basil, chopped'
-  - 'Flaky Sea Salt and Chili Flakes'
+  - Flaky Sea Salt and Chili Flakes
 ---
 
 ## Chef's Note

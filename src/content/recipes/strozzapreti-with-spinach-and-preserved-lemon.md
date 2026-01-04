@@ -7,17 +7,15 @@ cookTime: 10 min
 totalTime: 20 min
 servings: '4'
 ingredients:
-  - '12 oz Fresh Strozzapreti (or Cavatappi)'
-  - '--- The Brown Butter Emulsion ---'
-  - '1 stick (8 tbsp) Unsalted Butter'
+  - 12 oz Fresh Strozzapreti (or Cavatappi)
+  - 1 stick (8 tbsp) Unsalted Butter
   - '1 tbsp Preserved Lemon Peel, minced'
-  - '1 tbsp Fresh Lemon Juice (The Acid Balance)'
-  - '--- Base ---'
+  - 1 tbsp Fresh Lemon Juice (The Acid Balance)
   - '2 bunches Flat-leaf Spinach, trimmed'
-  - '3/4 cup Panko Breadcrumbs (The Crunch)'
+  - 3/4 cup Panko Breadcrumbs (The Crunch)
   - '1 clove Garlic, crushed'
-  - '1/2 tsp Red Pepper Flakes'
-  - '1 tsp Lemon Zest'
+  - 1/2 tsp Red Pepper Flakes
+  - 1 tsp Lemon Zest
 ---
 
 ## Chef's Note

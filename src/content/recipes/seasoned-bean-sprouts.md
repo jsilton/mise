@@ -7,13 +7,12 @@ cookTime: 5 min
 totalTime: 10 min
 servings: '4'
 ingredients:
-  - '1 lb Soybean Sprouts (Kongnamul)'
-  - '--- The Namul Dressing ---'
-  - '1 tsp Toasted Sesame Oil (The complex flavor)'
+  - 1 lb Soybean Sprouts (Kongnamul)
+  - 1 tsp Toasted Sesame Oil (The complex flavor)
   - '1 tsp Garlic, minced'
-  - '1/2 tsp Fine Sea Salt'
+  - 1/2 tsp Fine Sea Salt
   - '1 Green Onion, minced'
-  - '1 tsp Toasted Sesame Seeds'
+  - 1 tsp Toasted Sesame Seeds
 ---
 
 ## Chef's Note

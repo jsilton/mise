@@ -9,22 +9,19 @@ servings: '4'
 ingredients:
   - '1 lb Japanese Eggplant, cut on an angle into 1.5-inch wedges'
   - '8 oz Chicken Breast, thinly sliced'
-  - '--- The Velveting Marinade ---'
-  - '2 tbsp Water'
-  - '1 tsp Cornstarch'
-  - '1 tsp Light Soy Sauce'
-  - '--- The Flavor Base ---'
+  - 2 tbsp Water
+  - 1 tsp Cornstarch
+  - 1 tsp Light Soy Sauce
   - '1 bunch Thai Basil, packed (1 cup)'
   - '3 cloves Garlic, sliced'
   - '3 Scallions, cut on an angle'
-  - '--- The Kee Mao Glaze ---'
-  - '1 tbsp Shaoxing Wine'
-  - '2 tsp Fish Sauce'
-  - '1 tsp Light Soy Sauce'
-  - '1 tsp Dark Soy Sauce (for color)'
-  - '1/2 tsp Sugar + Pinch of White Pepper'
-  - '1/4 cup Hot Chicken Stock'
-  - 'Neutral Oil'
+  - 1 tbsp Shaoxing Wine
+  - 2 tsp Fish Sauce
+  - 1 tsp Light Soy Sauce
+  - 1 tsp Dark Soy Sauce (for color)
+  - 1/2 tsp Sugar + Pinch of White Pepper
+  - 1/4 cup Hot Chicken Stock
+  - Neutral Oil
 ---
 
 ## Chef's Note

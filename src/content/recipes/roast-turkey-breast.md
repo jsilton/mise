@@ -8,13 +8,11 @@ totalTime: 70 min
 servings: '8'
 ingredients:
   - '1 (4-5 lb) Turkey Breast, skin-on'
-  - '--- The Butter Glaze ---'
   - '2 tbsp Unsalted Butter, melted'
-  - '1/2 cup Chicken or Turkey Stock (for basting)'
-  - '--- The Finishing Touch Rub ---'
-  - '1 tsp Kosher Salt'
-  - '1 tsp Black Pepper'
-  - 'Fresh Rosemary or Thyme sprigs'
+  - 1/2 cup Chicken or Turkey Stock (for basting)
+  - 1 tsp Kosher Salt
+  - 1 tsp Black Pepper
+  - Fresh Rosemary or Thyme sprigs
 ---
 
 ## Chef's Note

@@ -7,17 +7,16 @@ cookTime: 20 min
 totalTime: 30 min
 servings: '24'
 ingredients:
-  - '4 cups All-Purpose Flour'
-  - '2 cups Granulated Sugar (divided)'
+  - 4 cups All-Purpose Flour
+  - 2 cups Granulated Sugar (divided)
   - '1 cup (2 sticks) Unsalted Butter, softened'
-  - '4 large Eggs'
-  - '1 cup 2% Milk'
-  - '2 cups Frozen Unsweetened Blueberries'
-  - '--- The Spice Mix ---'
-  - '4 tsp Baking Powder'
-  - '1/2 tsp Sea Salt'
-  - '2 tsp Vanilla Extract'
-  - '1/2 tsp Ground Nutmeg'
+  - 4 large Eggs
+  - 1 cup 2% Milk
+  - 2 cups Frozen Unsweetened Blueberries
+  - 4 tsp Baking Powder
+  - 1/2 tsp Sea Salt
+  - 2 tsp Vanilla Extract
+  - 1/2 tsp Ground Nutmeg
 ---
 
 ## Chef's Note

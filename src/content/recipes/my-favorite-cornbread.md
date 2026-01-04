@@ -7,17 +7,16 @@ cookTime: 20 min
 totalTime: 30 min
 servings: '9'
 ingredients:
-  - '1 cup Fine Cornmeal'
-  - '1 cup All-Purpose Flour'
+  - 1 cup Fine Cornmeal
+  - 1 cup All-Purpose Flour
   - '1/2 cup (1 stick) Unsalted Butter, melted'
   - '1/3 cup Light Brown Sugar, packed'
-  - '2 tbsp Honey'
-  - '1 cup Whole Buttermilk (room temp)'
-  - '1 large Egg (room temp)'
-  - '--- The Leavening ---'
-  - '1 tsp Baking Powder'
-  - '1/2 tsp Baking Soda'
-  - '1/8 tsp Sea Salt'
+  - 2 tbsp Honey
+  - 1 cup Whole Buttermilk (room temp)
+  - 1 large Egg (room temp)
+  - 1 tsp Baking Powder
+  - 1/2 tsp Baking Soda
+  - 1/8 tsp Sea Salt
 ---
 
 ## Chef's Note

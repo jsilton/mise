@@ -8,21 +8,19 @@ totalTime: 55 min
 servings: '4'
 ingredients:
   - '1 lb Large Shrimp, peeled and deveined'
-  - '1/4 tsp Baking Soda (the crunch rinse)'
-  - '8 oz Fresh Hong Kong-style Egg Noodles'
-  - '--- The Golden Sauce ---'
-  - '1 1/2 cups Chicken Stock'
-  - '2 tsp Oyster Sauce'
-  - '1 tbsp Soy Sauce'
-  - '1/2 tsp Toasted Sesame Oil'
-  - '1/4 tsp White Pepper'
-  - '2 tbsp Cornstarch + 2 tbsp Water (Slurry)'
-  - '--- The Stir-Fry ---'
-  - '4 oz Yu Choy or Bok Choy'
-  - '1/2 cup Sliced Carrots and Mushrooms'
+  - 1/4 tsp Baking Soda (the crunch rinse)
+  - 8 oz Fresh Hong Kong-style Egg Noodles
+  - 1 1/2 cups Chicken Stock
+  - 2 tsp Oyster Sauce
+  - 1 tbsp Soy Sauce
+  - 1/2 tsp Toasted Sesame Oil
+  - 1/4 tsp White Pepper
+  - 2 tbsp Cornstarch + 2 tbsp Water (Slurry)
+  - 4 oz Yu Choy or Bok Choy
+  - 1/2 cup Sliced Carrots and Mushrooms
   - '1 tbsp Ginger, julienned'
   - '2 cloves Garlic, minced'
-  - '1 tbsp Shaoxing Wine'
+  - 1 tbsp Shaoxing Wine
 ---
 
 ## Chef's Note

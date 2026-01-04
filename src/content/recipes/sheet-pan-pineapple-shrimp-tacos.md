@@ -10,14 +10,12 @@ ingredients:
   - '1 lb Shrimp, peeled and deveined'
   - '2 cups Fresh Pineapple, 1/2-inch pieces'
   - '1 medium Red Onion, sliced'
-  - '--- The Chili-Lime Marinade ---'
-  - '2 tbsp Lime Juice'
-  - '2 tbsp Extra-Virgin Olive Oil'
-  - '2 tsp Chili Powder + 2 tsp Cumin'
-  - '1/2 tsp Cayenne (The Finishing Touch)'
-  - '--- The Cabbage Snap Slaw ---'
+  - 2 tbsp Lime Juice
+  - 2 tbsp Extra-Virgin Olive Oil
+  - 2 tsp Chili Powder + 2 tsp Cumin
+  - 1/2 tsp Cayenne (The Finishing Touch)
   - '1 1/2 cups Green Cabbage, thinly sliced'
-  - '1/2 cup Fresh Cilantro'
+  - 1/2 cup Fresh Cilantro
   - '1 Lime, juiced (The Acid Balance)'
   - 'Corn Tortillas, Avocado, Sour Cream'
 ---

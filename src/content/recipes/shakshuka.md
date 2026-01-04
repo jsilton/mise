@@ -7,21 +7,19 @@ cookTime: 30 min
 totalTime: 45 min
 servings: '4'
 ingredients:
-  - '4 large Eggs'
-  - '1/2 cup Hummus (The Executive base)'
-  - '--- The Jammy Base ---'
-  - '2 tbsp Olive Oil'
+  - 4 large Eggs
+  - 1/2 cup Hummus (The Executive base)
+  - 2 tbsp Olive Oil
   - '1 large Red Bell Pepper, sliced into thin strips'
   - '1 small Yellow Onion, thinly sliced'
   - '3 cloves Garlic, sliced'
-  - '1 tsp Cumin Seeds'
-  - '1 tsp Smoked Paprika'
-  - '1/4 tsp Cayenne Pepper'
+  - 1 tsp Cumin Seeds
+  - 1 tsp Smoked Paprika
+  - 1/4 tsp Cayenne Pepper
   - '1 (28 oz) can Whole Peeled Tomatoes, crushed by hand'
-  - '1 tbsp Tomato Paste'
-  - 'Salt and Black Pepper'
-  - '--- For Garnish ---'
-  - 'Fresh Cilantro and Crumbled Feta'
+  - 1 tbsp Tomato Paste
+  - Salt and Black Pepper
+  - Fresh Cilantro and Crumbled Feta
 ---
 
 ## Chef's Note

@@ -7,15 +7,14 @@ cookTime: 40 min
 totalTime: 50 min
 servings: '8'
 ingredients:
-  - '1 box (8.5 oz) Jiffy Corn Bread Mix'
-  - '1 can (14.75 oz) Cream-Style Corn'
+  - 1 box (8.5 oz) Jiffy Corn Bread Mix
+  - 1 can (14.75 oz) Cream-Style Corn
   - '1 can (15.25 oz) Whole Kernel Corn, drained'
-  - '8 oz Sour Cream'
+  - 8 oz Sour Cream
   - '1/2 cup (1 stick) Unsalted Butter, melted'
   - '2 large Eggs, well beaten'
-  - '--- Optional High Note ---'
   - '1/2 cup Sharp Cheddar, shredded'
-  - '1 can (4 oz) Diced Green Chiles'
+  - 1 can (4 oz) Diced Green Chiles
 ---
 
 ## Chef's Note

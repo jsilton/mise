@@ -5,22 +5,20 @@ vibe: nutritious
 prepTime: 30 min
 cookTime: 10 min
 totalTime: 40 min
-servings: '12 fritters'
+servings: 12 fritters
 ingredients:
   - '2 small Zucchini, grated'
   - '1 small Russet Potato, grated'
-  - '--- Binder ---'
   - '2 large Eggs, beaten'
-  - '1/3 cup All-Purpose Flour'
-  - '1/2 tsp Baking Powder'
-  - '--- The Flavor Pulse ---'
+  - 1/3 cup All-Purpose Flour
+  - 1/2 tsp Baking Powder
   - '1/2 medium Onion, grated'
-  - '3 tbsp Fresh Parsley + 2 tbsp Fresh Mint'
+  - 3 tbsp Fresh Parsley + 2 tbsp Fresh Mint
   - '1 clove Garlic, grated'
-  - '1/2 tsp Ground Cumin'
+  - 1/2 tsp Ground Cumin
   - '--- The Garlic Yogurt (Acid Balance) ---'
-  - '1/2 cup Plain Yogurt'
-  - '1 tbsp Fresh Lemon Juice'
+  - 1/2 cup Plain Yogurt
+  - 1 tbsp Fresh Lemon Juice
   - '1 tbsp Fresh Mint, chopped'
 ---
 

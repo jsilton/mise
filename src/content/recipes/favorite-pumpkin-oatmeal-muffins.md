@@ -7,18 +7,16 @@ cookTime: 20 min
 totalTime: 30 min
 servings: '12'
 ingredients:
-  - '2 cups Rolled Oats'
-  - '1 cup Pure Pumpkin Puree'
-  - '1 cup Milk of choice (Soy or Almond preferred)'
-  - '1/3 cup Maple Syrup'
-  - '2 large Eggs'
-  - '--- The Spice Mix ---'
-  - '1 tsp Pumpkin Pie Spice'
-  - '1 tsp Baking Soda'
-  - '1/4 tsp Sea Salt'
-  - '1 tsp Vanilla Extract'
-  - '--- Optional Snap ---'
-  - '1/4 cup Dark Chocolate Chips'
+  - 2 cups Rolled Oats
+  - 1 cup Pure Pumpkin Puree
+  - 1 cup Milk of choice (Soy or Almond preferred)
+  - 1/3 cup Maple Syrup
+  - 2 large Eggs
+  - 1 tsp Pumpkin Pie Spice
+  - 1 tsp Baking Soda
+  - 1/4 tsp Sea Salt
+  - 1 tsp Vanilla Extract
+  - 1/4 cup Dark Chocolate Chips
 ---
 
 ## Chef's Note
