@@ -3,7 +3,11 @@ title: Avocado Kale Caesar
 difficulty: easy
 cookingMethods: [bake, no-cook, blend]
 dietary: []
-occasions: []
+occasions: [quick-lunch, light-and-fresh, post-workout, entertaining]
+seasons: [year-round]
+nutritionalDensity: light
+leftovers: poor
+equipment: [blender]
 flavorProfile: [sweet, savory, acidic, umami, rich]
 cuisines: [American]
 role: side
@@ -12,6 +16,7 @@ prepTime: 15 min
 cookTime: 0 min
 totalTime: 15 min
 servings: '4'
+pairsWith: [grilled-chicken, salmon, steak]
 ingredients:
   - '1 bunch Lacinato (Dino) Kale, stems removed and finely shredded'
   - '1 large Avocado (Half for dressing, half for topping)'

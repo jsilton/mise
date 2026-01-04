@@ -3,7 +3,11 @@ title: Bakery Style Chocolate Chip Muffins
 difficulty: intermediate
 cookingMethods: [bake]
 dietary: [vegetarian]
-occasions: []
+occasions: [kids-approved, weekend-project, comfort-food]
+seasons: [year-round]
+nutritionalDensity: moderate
+leftovers: excellent
+equipment: [muffin-tin]
 flavorProfile: [sweet, rich]
 cuisines: [American]
 role: side
@@ -12,6 +16,7 @@ prepTime: 15 min
 cookTime: 20 min
 totalTime: 35 min
 servings: '12'
+pairsWith: []
 ingredients:
   - '2 1/2 cups All-Purpose Flour'
   - '1 cup Granulated Sugar'

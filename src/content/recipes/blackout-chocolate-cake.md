@@ -3,7 +3,12 @@ title: Blackout Chocolate Cake
 difficulty: easy
 cookingMethods: [bake, boil]
 dietary: [vegetarian]
-occasions: []
+occasions: [holiday, entertaining, weekend-project, indulgent]
+seasons: [year-round]
+nutritionalDensity: hearty
+leftovers: excellent
+advancePrep: [make-ahead]
+equipment: []
 flavorProfile: [sweet, acidic, rich]
 cuisines: [American]
 role: dessert
@@ -12,6 +17,7 @@ prepTime: 45 min
 cookTime: 35 min
 totalTime: 3 hours
 servings: '10'
+pairsWith: []
 ingredients:
   - '3 cups All-Purpose Flour'
   - '3 cups Granulated Sugar'

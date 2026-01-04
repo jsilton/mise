@@ -3,7 +3,12 @@ title: Apple Chai Oatmeal Cups
 difficulty: easy
 cookingMethods: [bake]
 dietary: [vegetarian]
-occasions: []
+occasions: [meal-prep, kids-approved, post-workout]
+seasons: [fall, winter]
+nutritionalDensity: moderate
+leftovers: excellent
+advancePrep: [make-ahead]
+equipment: [muffin-tin]
 flavorProfile: [sweet]
 cuisines: [American]
 role: main
@@ -12,6 +17,7 @@ prepTime: 10 min
 cookTime: 20 min
 totalTime: 30 min
 servings: 12 cups
+pairsWith: []
 ingredients:
   - 3 cups Rolled Oats (Old Fashioned)
   - 1 tsp Baking Powder

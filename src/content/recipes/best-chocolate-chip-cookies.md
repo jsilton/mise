@@ -3,7 +3,12 @@ title: Chocolate Chip Cookies
 difficulty: intermediate
 cookingMethods: [bake]
 dietary: [vegetarian, nut-free]
-occasions: []
+occasions: [comfort-food, kids-approved, weekend-project, holiday]
+seasons: [year-round]
+nutritionalDensity: moderate
+leftovers: excellent
+advancePrep: [make-ahead]
+equipment: []
 flavorProfile: [sweet, rich]
 cuisines: [American]
 role: dessert
@@ -12,6 +17,7 @@ prepTime: 20 min
 cookTime: 10 min
 totalTime: 24 hours
 servings: '24'
+pairsWith: []
 ingredients:
   - '1 cup (2 sticks) Unsalted Butter'
   - '1 cup Light Brown Sugar, packed'

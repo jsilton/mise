@@ -3,7 +3,11 @@ title: Banana Egg Oat Pancakes
 difficulty: easy
 cookingMethods: []
 dietary: [vegetarian]
-occasions: []
+occasions: [quick-lunch, post-workout, weeknight]
+seasons: [year-round]
+nutritionalDensity: moderate
+leftovers: poor
+equipment: []
 flavorProfile: [sweet, rich]
 cuisines: [American]
 role: main
@@ -12,6 +16,7 @@ prepTime: 5 min
 cookTime: 10 min
 totalTime: 15 min
 servings: '1'
+pairsWith: []
 ingredients:
   - '1 large ripe Banana (the spottier the better)'
   - '2 large Eggs'

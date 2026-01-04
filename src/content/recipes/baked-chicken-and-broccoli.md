@@ -3,7 +3,11 @@ title: Chicken and Broccoli
 difficulty: easy
 cookingMethods: [bake, roast]
 dietary: []
-occasions: []
+occasions: [weeknight, comfort-food, kids-approved, meal-prep]
+seasons: [year-round]
+nutritionalDensity: hearty
+leftovers: excellent
+equipment: [sheet-pan]
 flavorProfile: [rich]
 cuisines: [American]
 role: main
@@ -12,6 +16,7 @@ prepTime: 15 min
 cookTime: 30 min
 totalTime: 45 min
 servings: '4'
+pairsWith: [rice, mashed-potatoes]
 ingredients:
   - '1.5 lbs Chicken Thighs, boneless/skinless'
   - 1 lb Fresh Broccoli Florets (cut small)

@@ -4,7 +4,12 @@ origin: USA
 difficulty: easy
 cookingMethods: [bake, sauté, boil, steam, blend]
 dietary: [vegetarian]
-occasions: []
+occasions: [holiday, entertaining, weekend-project, comfort-food]
+seasons: [fall, winter]
+nutritionalDensity: hearty
+leftovers: excellent
+advancePrep: [make-ahead]
+equipment: []
 flavorProfile: [sweet, acidic, rich]
 cuisines: [American]
 role: dessert
@@ -13,6 +18,7 @@ prepTime: 90 min
 cookTime: 50 min
 totalTime: 4 hours
 servings: '8'
+pairsWith: []
 ingredients:
   - 2 1/2 cups All-Purpose Flour
   - '14 tbsp Unsalted Butter, ice cold and cubed'

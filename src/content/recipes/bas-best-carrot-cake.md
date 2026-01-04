@@ -5,7 +5,12 @@ aliases:
 difficulty: intermediate
 cookingMethods: [bake, no-cook]
 dietary: [vegetarian]
-occasions: []
+occasions: [holiday, entertaining, weekend-project, indulgent]
+seasons: [year-round]
+nutritionalDensity: hearty
+leftovers: excellent
+advancePrep: [make-ahead]
+equipment: []
 flavorProfile: [sweet, rich]
 cuisines: [American]
 role: dessert
@@ -14,6 +19,7 @@ prepTime: 45 min
 cookTime: 40 min
 totalTime: 3 hours
 servings: '12'
+pairsWith: []
 ingredients:
   - '3/4 cup Unsalted Butter, browned and cooled'
   - '1 lb Carrots, finely grated'

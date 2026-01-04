@@ -3,7 +3,12 @@ title: Banana Oat Greek Yogurt Muffins
 difficulty: easy
 cookingMethods: [bake, blend]
 dietary: [vegetarian]
-occasions: []
+occasions: [meal-prep, kids-approved, post-workout]
+seasons: [year-round]
+nutritionalDensity: moderate
+leftovers: excellent
+advancePrep: [make-ahead]
+equipment: [muffin-tin]
 flavorProfile: [sweet, rich]
 cuisines: [American]
 role: side
@@ -12,6 +17,7 @@ prepTime: 10 min
 cookTime: 15 min
 totalTime: 25 min
 servings: '12'
+pairsWith: []
 ingredients:
   - '1 cup Plain Greek Yogurt (Full Fat)'
   - '2 large Ripe Bananas, mashed'

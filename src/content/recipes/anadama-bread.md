@@ -5,7 +5,12 @@ aliases:
 difficulty: easy
 cookingMethods: [bake, roast, boil]
 dietary: []
-occasions: []
+occasions: [weekend-project, comfort-food]
+seasons: [year-round]
+nutritionalDensity: moderate
+leftovers: excellent
+advancePrep: [freeze-ahead, make-ahead]
+equipment: []
 flavorProfile: [sweet, rich]
 cuisines: [American]
 role: base
@@ -14,6 +19,7 @@ prepTime: 30 min
 cookTime: 30 min
 totalTime: 3 hours
 servings: '1 loaf'
+pairsWith: [soup, stew]
 ingredients:
   - '1/2 cup Water'
   - '1/4 cup Yellow Cornmeal'

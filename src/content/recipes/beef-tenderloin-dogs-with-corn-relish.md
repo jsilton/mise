@@ -3,7 +3,11 @@ title: Beef Hot Dogs with Corn Relish
 difficulty: easy
 cookingMethods: [bake, roast, grill, no-cook]
 dietary: []
-occasions: []
+occasions: [entertaining, summer, weekend-project]
+seasons: [summer]
+nutritionalDensity: moderate
+leftovers: good
+equipment: [grill]
 flavorProfile: [sweet, acidic]
 cuisines: [American]
 role: main
@@ -12,6 +16,7 @@ prepTime: 20 min
 cookTime: 15 min
 totalTime: 35 min
 servings: '4'
+pairsWith: [potato-salad, coleslaw]
 ingredients:
   - '1 lb Center-cut Beef Tenderloin, cut into 4 long "dogs"'
   - 1 tbsp Olive Oil

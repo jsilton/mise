@@ -3,7 +3,11 @@ title: Almond Zucchini Bread
 difficulty: intermediate
 cookingMethods: [bake]
 dietary: [vegetarian]
-occasions: []
+occasions: [kids-approved, weekend-project, comfort-food]
+seasons: [summer, fall]
+nutritionalDensity: moderate
+leftovers: excellent
+equipment: []
 flavorProfile: [sweet, rich]
 cuisines: [American]
 role: side
@@ -12,6 +16,7 @@ prepTime: 10 min
 cookTime: 40 min
 totalTime: 50 min
 servings: '10'
+pairsWith: []
 ingredients:
   - '1 1/2 cups Almond Flour'
   - '1 cup Grated Zucchini (packed, squeezed bone-dry)'

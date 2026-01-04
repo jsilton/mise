@@ -3,7 +3,11 @@ title: Cinnamon Rolls
 difficulty: easy
 cookingMethods: [bake]
 dietary: [vegetarian]
-occasions: []
+occasions: [weekend-project, indulgent, holiday, comfort-food]
+seasons: [year-round]
+nutritionalDensity: hearty
+leftovers: good
+equipment: []
 flavorProfile: [sweet, rich]
 cuisines: [American]
 role: dessert
@@ -12,6 +16,7 @@ prepTime: 120 min
 cookTime: 30 min
 totalTime: 150 min
 servings: '12'
+pairsWith: []
 ingredients:
   - '--- The Tangzhong (The Secret) ---'
   - 1/4 cup Bread Flour
