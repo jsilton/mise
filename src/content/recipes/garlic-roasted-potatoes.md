@@ -1,5 +1,5 @@
 ---
-title: Garlic Roasted Potatoes
+title: Garlic Potatoes
 role: side
 vibe: nutritious
 prepTime: 10 min

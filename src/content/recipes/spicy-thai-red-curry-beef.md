@@ -1,5 +1,6 @@
 ---
-title: Spicy Thai Red Curry Beef
+title: Thai Red Curry Beef
+origin: Thailand
 role: main
 vibe: quick
 prepTime: 5 min

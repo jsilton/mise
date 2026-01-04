@@ -1,5 +1,5 @@
 ---
-title: Steamed Mussels with Chorizo Broth
+title: Mussels with Chorizo Broth
 role: main
 vibe: quick
 prepTime: 15 min

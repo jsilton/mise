@@ -1,5 +1,5 @@
 ---
-title: Homemade Enchilada Sauce
+title: Enchilada Sauce
 role: base
 vibe: quick
 prepTime: 5 min

@@ -1,5 +1,5 @@
 ---
-title: Fresh Strawberry Vinaigrette
+title: Strawberry Vinaigrette
 role: base
 vibe: nutritious
 prepTime: 10 min

@@ -1,5 +1,6 @@
 ---
-title: Crispy Szechuan Eggplant & Tofu
+title: Szechuan Eggplant & Tofu
+origin: China
 role: main
 vibe: nutritious
 prepTime: 15 min

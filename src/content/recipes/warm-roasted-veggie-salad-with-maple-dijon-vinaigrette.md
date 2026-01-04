@@ -1,5 +1,5 @@
 ---
-title: Warm Roasted Veggie Salad
+title: Veggie Salad
 role: side
 vibe: nutritious
 prepTime: 10 min

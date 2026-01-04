@@ -1,5 +1,6 @@
 ---
-title: Middle Eastern-Style Grilled Chicken Kabobs
+title: Chicken Kabobs
+origin: Middle East
 role: main
 vibe: nutritious
 prepTime: 35 min

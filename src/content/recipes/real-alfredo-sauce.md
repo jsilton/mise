@@ -1,5 +1,6 @@
 ---
-title: Real Alfredo Sauce
+title: Alfredo Sauce
+origin: Italy
 role: base
 vibe: quick
 prepTime: 2 min

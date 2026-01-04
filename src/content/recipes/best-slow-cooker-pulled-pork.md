@@ -1,5 +1,5 @@
 ---
-title: Best Slow Cooker Pulled Pork
+title: Pulled Pork
 role: main
 vibe: comfort
 prepTime: 10 min

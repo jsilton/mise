@@ -1,5 +1,5 @@
 ---
-title: Beef Tenderloin Dogs with Zesty Corn Relish
+title: Beef Hot Dogs with Corn Relish
 role: main
 vibe: technical
 prepTime: 20 min

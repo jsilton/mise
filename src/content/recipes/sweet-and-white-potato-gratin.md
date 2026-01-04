@@ -1,5 +1,5 @@
 ---
-title: Sweet & White Potato Gratin
+title: Sweet and White Potato Gratin
 aliases:
   - "sweet-and-white-potato-gratin-the-thanksgiving-splurge"
 role: side

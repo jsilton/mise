@@ -1,5 +1,5 @@
 ---
-title: Crispy Sheet Pan Gnocchi & Veggies
+title: Sheet Pan Gnocchi & Veggies
 role: main
 vibe: quick
 prepTime: 10 min

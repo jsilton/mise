@@ -1,5 +1,5 @@
 ---
-title: Best Homemade Brownies
+title: Brownies
 role: dessert
 vibe: comfort
 prepTime: 10 min

@@ -1,5 +1,5 @@
 ---
-title: Roasted Root Vegetables
+title: Root Vegetables
 role: side
 vibe: comfort
 prepTime: 15 min

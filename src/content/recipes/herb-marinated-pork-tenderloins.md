@@ -1,5 +1,5 @@
 ---
-title: Herb-Marinated Pork Tenderloin
+title: Herb Pork Tenderloin
 role: main
 vibe: quick
 prepTime: 10 min

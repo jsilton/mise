@@ -1,5 +1,5 @@
 ---
-title: Creamy Garlicky Shrimp Fettuccine
+title: Garlicky Shrimp Fettuccine
 role: main
 vibe: quick
 prepTime: 10 min

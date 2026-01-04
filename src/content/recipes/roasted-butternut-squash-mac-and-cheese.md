@@ -1,5 +1,5 @@
 ---
-title: Roasted Butternut Squash Mac & Cheese
+title: Butternut Squash Mac and Cheese
 role: main
 vibe: comfort
 prepTime: 15 min

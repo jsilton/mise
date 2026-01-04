@@ -1,5 +1,5 @@
 ---
-title: Fresh Peach Ice Cream
+title: Peach Ice Cream
 role: dessert
 vibe: nutritious
 prepTime: 30 min

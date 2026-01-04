@@ -1,5 +1,5 @@
 ---
-title: Baked Spanish Rice with Chorizo and Chickpeas
+title: Spanish Rice with Chorizo and Chickpeas
 role: main
 vibe: comfort
 prepTime: 20 min

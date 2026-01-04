@@ -1,5 +1,5 @@
 ---
-title: Creamy Sun-Dried Tomato Chicken Pasta
+title: Sun-Dried Tomato Chicken Pasta
 role: main
 vibe: quick
 prepTime: 10 min

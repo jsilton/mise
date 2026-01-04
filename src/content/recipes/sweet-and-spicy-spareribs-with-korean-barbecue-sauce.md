@@ -1,5 +1,5 @@
 ---
-title: Sweet & Spicy Spareribs
+title: Sweet and Spicy Spareribs
 role: main
 vibe: comfort
 prepTime: 30 min

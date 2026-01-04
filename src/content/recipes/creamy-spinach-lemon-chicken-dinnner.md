@@ -1,5 +1,5 @@
 ---
-title: Creamy Spinach Lemon Chicken
+title: Spinach Lemon Chicken
 role: main
 vibe: quick
 prepTime: 10 min

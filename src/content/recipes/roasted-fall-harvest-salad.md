@@ -1,5 +1,5 @@
 ---
-title: Roasted Fall Harvest Salad
+title: Fall Harvest Salad
 role: side
 vibe: nutritious
 prepTime: 20 min

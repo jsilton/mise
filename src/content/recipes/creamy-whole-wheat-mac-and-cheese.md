@@ -1,5 +1,5 @@
 ---
-title: Creamy Whole-Wheat Mac and Cheese
+title: Whole-Wheat Mac and Cheese
 role: main
 vibe: comfort
 prepTime: 5 min

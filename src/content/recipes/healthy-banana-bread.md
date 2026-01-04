@@ -1,5 +1,5 @@
 ---
-title: Healthy Banana Bread
+title: Banana Bread
 role: main
 vibe: nutritious
 prepTime: 10 min

@@ -1,5 +1,5 @@
 ---
-title: Blueberry Baked Oatmeal
+title: Blueberry Oatmeal
 role: main
 vibe: quick
 prepTime: 10 min

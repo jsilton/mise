@@ -1,5 +1,5 @@
 ---
-title: Steamed Noodles with Green Beans
+title: Noodles with Green Beans
 role: side
 vibe: comfort
 prepTime: 25 min

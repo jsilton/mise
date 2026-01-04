@@ -1,5 +1,5 @@
 ---
-title: One-Pan Citrus Beet Roasted Chicken
+title: Citrus Beet Chicken
 role: main
 vibe: nutritious
 prepTime: 20 min

@@ -1,5 +1,5 @@
 ---
-title: Fresh Pasta Dough
+title: Pasta Dough
 role: base
 vibe: technical
 prepTime: 15 min

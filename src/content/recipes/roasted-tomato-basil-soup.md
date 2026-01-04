@@ -1,5 +1,5 @@
 ---
-title: Roasted Tomato Basil Soup
+title: Tomato Basil Soup
 role: main
 vibe: comfort
 prepTime: 15 min

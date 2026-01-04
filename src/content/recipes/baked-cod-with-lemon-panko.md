@@ -1,5 +1,5 @@
 ---
-title: Baked Cod with Lemon Panko
+title: Cod with Lemon Panko
 role: main
 vibe: quick
 prepTime: 10 min

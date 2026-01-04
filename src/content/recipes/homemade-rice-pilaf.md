@@ -1,5 +1,5 @@
 ---
-title: Homemade Rice Pilaf
+title: Rice Pilaf
 role: base
 vibe: quick
 prepTime: 5 min

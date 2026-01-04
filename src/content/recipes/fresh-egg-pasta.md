@@ -1,5 +1,5 @@
 ---
-title: Fresh Egg Pasta
+title: Egg Pasta
 role: main
 vibe: technical
 prepTime: 20 min

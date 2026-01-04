@@ -1,5 +1,5 @@
 ---
-title: Baked Macaroni and Pimento Cheese
+title: Macaroni and Pimento Cheese
 role: side
 vibe: comfort
 prepTime: 15 min

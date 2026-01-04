@@ -1,5 +1,5 @@
 ---
-title: Sweet Potato Latkes
+title: Potato Latkes
 role: main
 vibe: nutritious
 prepTime: 30 min

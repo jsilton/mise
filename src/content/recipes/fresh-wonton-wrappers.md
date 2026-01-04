@@ -1,5 +1,5 @@
 ---
-title: Fresh Wonton Wrappers
+title: Wonton Wrappers
 role: base
 vibe: technical
 prepTime: 20 min

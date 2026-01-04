@@ -1,5 +1,5 @@
 ---
-title: Spicy Peach & Avocado Salad
+title: Peach and Avocado Salad
 role: side
 vibe: nutritious
 prepTime: 15 min

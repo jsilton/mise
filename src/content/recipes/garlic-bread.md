@@ -1,5 +1,5 @@
 ---
-title: Real Garlic Bread
+title: Garlic Bread
 role: side
 vibe: comfort
 prepTime: 10 min

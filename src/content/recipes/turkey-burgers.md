@@ -1,5 +1,5 @@
 ---
-title: Juicy Turkey Burgers
+title: Turkey Burgers
 aliases:
   - "juicy-turkey-burgers-the-family-favorite"
 role: main

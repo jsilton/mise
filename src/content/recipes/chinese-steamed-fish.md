@@ -1,5 +1,6 @@
 ---
-title: Chinese Steamed Fish
+title: Steamed Fish
+origin: China
 role: main
 vibe: quick
 prepTime: 10 min

@@ -1,5 +1,5 @@
 ---
-title: Classic Beef Stew
+title: Beef Stew
 role: main
 vibe: comfort
 prepTime: 30 min

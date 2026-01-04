@@ -1,5 +1,5 @@
 ---
-title: Favorite Cream Cheese Frosting
+title: Cream Cheese Frosting
 role: condiment
 vibe: quick
 prepTime: 5 min

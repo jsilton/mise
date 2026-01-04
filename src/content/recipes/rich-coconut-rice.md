@@ -1,5 +1,5 @@
 ---
-title: Rich Coconut Rice
+title: Coconut Rice
 role: base
 vibe: quick
 prepTime: 5 min

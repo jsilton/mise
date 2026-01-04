@@ -1,5 +1,5 @@
 ---
-title: Homemade Sugar-Free Ketchup
+title: Ketchup
 role: condiment
 vibe: quick
 prepTime: 5 min

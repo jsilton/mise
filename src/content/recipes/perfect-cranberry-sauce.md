@@ -1,5 +1,5 @@
 ---
-title: Perfect Cranberry Sauce
+title: Cranberry Sauce
 role: base
 vibe: holiday
 prepTime: 15 min

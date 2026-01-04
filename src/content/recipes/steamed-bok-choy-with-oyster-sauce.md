@@ -1,5 +1,5 @@
 ---
-title: Steamed Bok Choy with Oyster Sauce
+title: Bok Choy with Oyster Sauce
 role: side
 vibe: quick
 prepTime: 5 min

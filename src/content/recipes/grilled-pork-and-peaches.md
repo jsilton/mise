@@ -1,5 +1,5 @@
 ---
-title: Grilled Pork & Peaches
+title: Pork and Peaches
 role: main
 vibe: nutritious
 prepTime: 15 min

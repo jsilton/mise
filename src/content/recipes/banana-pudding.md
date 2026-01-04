@@ -1,5 +1,5 @@
 ---
-title: Real Banana Pudding
+title: Banana Pudding
 role: dessert
 vibe: comfort
 prepTime: 30 min

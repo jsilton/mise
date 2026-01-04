@@ -1,5 +1,5 @@
 ---
-title: Loaded Baked Omelet Muffins
+title: Omelet Muffins
 role: main
 vibe: quick
 prepTime: 10 min

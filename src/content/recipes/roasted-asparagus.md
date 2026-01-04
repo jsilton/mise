@@ -1,5 +1,5 @@
 ---
-title: Roasted Asparagus
+title: Asparagus
 role: side
 vibe: nutritious
 prepTime: 5 min

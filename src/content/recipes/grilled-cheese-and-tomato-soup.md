@@ -1,5 +1,5 @@
 ---
-title: Grilled Cheese & Tomato Soup
+title: Grilled Cheese and Tomato Soup
 aliases:
   - "grilled-cheese-and-tomato-soup-the-ultimate-pair"
 role: main

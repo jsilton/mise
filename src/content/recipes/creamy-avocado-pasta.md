@@ -1,5 +1,5 @@
 ---
-title: Creamy Avocado Pasta
+title: Avocado Pasta
 role: main
 vibe: nutritious
 prepTime: 10 min

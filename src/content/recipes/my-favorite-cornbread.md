@@ -1,5 +1,5 @@
 ---
-title: My Favorite Cornbread
+title: Cornbread
 role: side
 vibe: quick
 prepTime: 10 min

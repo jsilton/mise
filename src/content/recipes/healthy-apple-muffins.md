@@ -1,5 +1,5 @@
 ---
-title: Healthy Apple Muffins
+title: Apple Muffins
 role: main
 vibe: nutritious
 prepTime: 15 min

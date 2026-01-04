@@ -1,5 +1,6 @@
 ---
-title: Chinese Spicy Garlic Eggplant
+title: Spicy Garlic Eggplant
+origin: China
 role: main
 vibe: quick
 prepTime: 15 min

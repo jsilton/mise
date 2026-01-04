@@ -1,5 +1,6 @@
 ---
-title: Real Spaghetti Carbonara
+title: Spaghetti Carbonara
+origin: Italy
 role: main
 vibe: quick
 prepTime: 5 min

@@ -1,5 +1,5 @@
 ---
-title: Harvest Sheet Pan Gnocchi with Crispy Kale
+title: Harvest Sheet Pan Gnocchi with Kale
 role: main
 vibe: nutritious
 prepTime: 15 min

@@ -1,5 +1,5 @@
 ---
-title: Rosemary Pork Tenderloin
+title: Pork Tenderloin
 role: main
 vibe: nutritious
 prepTime: 15 min

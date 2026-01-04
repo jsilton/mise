@@ -1,5 +1,5 @@
 ---
-title: Cinnamon Sweet Potatoes
+title: Sweet Potatoes with Cinnamon
 role: side
 vibe: quick
 prepTime: 10 min

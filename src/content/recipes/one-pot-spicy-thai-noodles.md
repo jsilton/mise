@@ -1,5 +1,6 @@
 ---
-title: One Pot Spicy Thai Noodles
+title: Spicy Thai Noodles
+origin: Thailand
 role: main
 vibe: nutritious
 prepTime: 10 min

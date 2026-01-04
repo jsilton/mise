@@ -1,5 +1,5 @@
 ---
-title: Steamed Broccoli with Garlic
+title: Broccoli with Garlic
 role: side
 vibe: quick
 prepTime: 5 min

@@ -1,5 +1,5 @@
 ---
-title: Brownie Baked Oatmeal
+title: Brownie Oatmeal
 role: main
 vibe: nutritious
 prepTime: 5 min

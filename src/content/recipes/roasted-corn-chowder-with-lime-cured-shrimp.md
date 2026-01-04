@@ -1,5 +1,5 @@
 ---
-title: Roasted Corn Chowder with Lime Shrimp
+title: Corn Chowder with Lime Shrimp
 role: main
 vibe: comfort
 prepTime: 20 min

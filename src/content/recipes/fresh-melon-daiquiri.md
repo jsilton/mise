@@ -1,5 +1,5 @@
 ---
-title: Fresh Melon Daiquiri
+title: Melon Daiquiri
 role: drink
 vibe: quick
 prepTime: 5 min

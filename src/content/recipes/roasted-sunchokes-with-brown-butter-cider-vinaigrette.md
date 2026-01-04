@@ -1,5 +1,5 @@
 ---
-title: Roasted Sunchokes with Brown Butter Vinaigrette
+title: Sunchokes with Brown Butter Vinaigrette
 role: side
 vibe: nutritious
 prepTime: 10 min

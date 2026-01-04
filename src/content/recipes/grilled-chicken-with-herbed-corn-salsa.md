@@ -1,5 +1,5 @@
 ---
-title: Grilled Chicken with Herbed Corn Salsa
+title: Chicken with Herbed Corn Salsa
 role: main
 vibe: nutritious
 prepTime: 15 min

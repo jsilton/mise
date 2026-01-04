@@ -1,5 +1,5 @@
 ---
-title: Baked Chicken Parmesan
+title: Chicken Parmesan
 role: main
 vibe: comfort
 prepTime: 15 min

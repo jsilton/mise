@@ -1,5 +1,5 @@
 ---
-title: Sweet Spinach Muffins
+title: Spinach Muffins
 role: main
 vibe: quick
 prepTime: 10 min

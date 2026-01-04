@@ -1,5 +1,5 @@
 ---
-title: Healthy Carrot Cake Muffins
+title: Carrot Cake Muffins
 role: main
 vibe: nutritious
 prepTime: 15 min

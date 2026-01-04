@@ -1,5 +1,6 @@
 ---
-title: My Favorite Challah
+title: Challah
+origin: Israel
 role: main
 vibe: technical
 prepTime: 120 min

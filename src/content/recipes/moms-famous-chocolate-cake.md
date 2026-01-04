@@ -1,5 +1,5 @@
 ---
-title: Moms Famous Chocolate Cake
+title: Chocolate Cake
 role: dessert
 vibe: technical
 prepTime: 10 min

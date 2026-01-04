@@ -1,5 +1,5 @@
 ---
-title: Smoky Spanish Rice & Chickpeas
+title: Spanish Rice and Chickpeas
 role: base
 vibe: nutritious
 prepTime: 10 min

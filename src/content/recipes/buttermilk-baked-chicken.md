@@ -1,5 +1,5 @@
 ---
-title: Buttermilk Baked Chicken
+title: Buttermilk Chicken
 role: main
 vibe: comfort
 prepTime: 15 min

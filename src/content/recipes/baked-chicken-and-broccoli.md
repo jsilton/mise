@@ -1,5 +1,5 @@
 ---
-title: Baked Chicken and Broccoli
+title: Chicken and Broccoli
 role: main
 vibe: quick
 prepTime: 15 min

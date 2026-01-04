@@ -1,5 +1,6 @@
 ---
 title: Hot and Sour Soup
+origin: China
 role: main
 vibe: comfort
 prepTime: 30 min

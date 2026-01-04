@@ -1,5 +1,5 @@
 ---
-title: Authentic Tzatziki Sauce
+title: Tzatziki Sauce
 role: condiment
 vibe: quick
 prepTime: 15 min

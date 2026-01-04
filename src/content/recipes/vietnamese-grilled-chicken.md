@@ -1,5 +1,6 @@
 ---
-title: Vietnamese Grilled Chicken
+title: Chicken
+origin: Vietnam
 role: main
 vibe: nutritious
 prepTime: 15 min

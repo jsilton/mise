@@ -1,5 +1,5 @@
 ---
-title: Slow Cooker Creamy Tortellini Soup
+title: Tortellini Soup
 role: main
 vibe: comfort
 prepTime: 15 min

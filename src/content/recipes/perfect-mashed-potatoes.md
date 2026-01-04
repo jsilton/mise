@@ -1,5 +1,5 @@
 ---
-title: Perfect Mashed Potatoes
+title: Mashed Potatoes
 role: side
 vibe: nutritious
 prepTime: 10 min

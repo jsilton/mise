@@ -1,5 +1,6 @@
 ---
-title: Garlic Butter-Roasted Salmon with Potatoes & Asparagus
+title: Garlic Butter Salmon with Potatoes and Asparagus
+origin: USA
 role: main
 vibe: quick
 prepTime: 10 min

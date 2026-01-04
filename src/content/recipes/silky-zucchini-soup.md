@@ -1,5 +1,5 @@
 ---
-title: Silky Zucchini Soup
+title: Zucchini Soup
 role: main
 vibe: comfort
 prepTime: 10 min
