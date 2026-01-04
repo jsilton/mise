@@ -3,7 +3,7 @@ title: Ratatouille
 difficulty: intermediate
 cookingMethods: [bake, roast, sauté, simmer]
 dietary: [vegetarian]
-occasions: []
+occasions: [comfort-food, weekend-project]
 flavorProfile: [acidic, herbaceous]
 cuisines: [French]
 role: main

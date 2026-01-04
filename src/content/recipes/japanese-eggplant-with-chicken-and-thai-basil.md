@@ -3,7 +3,7 @@ title: Japanese Eggplant with Chicken & Thai Basil
 difficulty: easy
 cookingMethods: [fry, sauté, steam]
 dietary: []
-occasions: []
+occasions: [weeknight, quick-lunch]
 flavorProfile: [sweet, savory, umami]
 cuisines: [Thai]
 role: main

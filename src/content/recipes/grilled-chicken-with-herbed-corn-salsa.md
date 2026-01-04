@@ -3,7 +3,7 @@ title: Chicken with Herbed Corn Salsa
 difficulty: easy
 cookingMethods: [grill, blend]
 dietary: []
-occasions: []
+occasions: [summer, entertaining]
 flavorProfile: [sweet, acidic, umami, rich, herbaceous]
 cuisines: [Mexican]
 role: main

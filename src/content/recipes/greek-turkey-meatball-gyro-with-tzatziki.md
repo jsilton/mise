@@ -3,7 +3,7 @@ title: Greek Turkey Meatball Gyro
 difficulty: easy
 cookingMethods: [roast, no-cook]
 dietary: []
-occasions: []
+occasions: [weeknight, quick-lunch]
 flavorProfile: [acidic, rich]
 cuisines: [Greek]
 role: main

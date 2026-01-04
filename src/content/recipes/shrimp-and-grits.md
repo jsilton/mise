@@ -3,7 +3,7 @@ title: Shrimp and Grits
 difficulty: intermediate
 cookingMethods: [roast, fry, simmer, boil, no-cook]
 dietary: []
-occasions: []
+occasions: [comfort-food, entertaining]
 flavorProfile: [savory, acidic, rich, herbaceous, smoky]
 cuisines: [Southern]
 role: main

@@ -3,7 +3,7 @@ title: Instant Pot Baingan Bharta
 difficulty: easy
 cookingMethods: [roast, fry, sauté, boil]
 dietary: [vegetarian]
-occasions: []
+occasions: [comfort-food, meal-prep]
 flavorProfile: [spicy, sweet, savory, acidic, umami]
 cuisines: [Indian]
 role: main

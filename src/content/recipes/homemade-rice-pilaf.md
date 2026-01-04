@@ -3,7 +3,7 @@ title: Rice Pilaf
 difficulty: easy
 cookingMethods: [sauté, simmer, boil, steam]
 dietary: []
-occasions: []
+occasions: [weeknight, meal-prep]
 flavorProfile: [rich]
 cuisines: [Middle Eastern, American]
 role: base

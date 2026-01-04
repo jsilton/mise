@@ -3,7 +3,7 @@ title: Guacamole
 difficulty: intermediate
 cookingMethods: []
 dietary: []
-occasions: []
+occasions: [entertaining, summer]
 flavorProfile: [spicy, sweet, acidic]
 cuisines: [Mexican]
 role: condiment

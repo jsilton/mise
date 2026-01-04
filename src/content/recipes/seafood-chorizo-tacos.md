@@ -3,7 +3,7 @@ title: Seafood-Chorizo Tacos
 difficulty: easy
 cookingMethods: [fry, sauté, no-cook]
 dietary: []
-occasions: []
+occasions: [weeknight, summer]
 flavorProfile: [spicy, sweet, acidic, rich]
 cuisines: [Mexican]
 role: main

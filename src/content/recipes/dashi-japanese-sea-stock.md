@@ -4,7 +4,7 @@ origin: Japan
 difficulty: easy
 cookingMethods: [simmer, boil]
 dietary: [vegetarian]
-occasions: []
+occasions: [weeknight, meal-prep]
 flavorProfile: [savory, umami]
 cuisines: [Japanese]
 role: base

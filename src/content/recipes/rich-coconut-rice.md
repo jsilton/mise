@@ -3,7 +3,7 @@ title: Coconut Rice
 difficulty: easy
 cookingMethods: [simmer, boil, steam]
 dietary: []
-occasions: []
+occasions: [weeknight, meal-prep]
 flavorProfile: [sweet, savory, rich]
 cuisines: [Caribbean]
 role: base

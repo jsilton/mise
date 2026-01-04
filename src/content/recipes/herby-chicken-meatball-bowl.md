@@ -3,7 +3,7 @@ title: Herby Chicken Meatball Bowl
 difficulty: easy
 cookingMethods: [bake, roast, no-cook, blend]
 dietary: []
-occasions: []
+occasions: [weeknight, meal-prep]
 flavorProfile: [spicy, sweet, savory, acidic, rich, herbaceous]
 cuisines: [Mediterranean]
 role: main

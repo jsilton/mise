@@ -3,7 +3,7 @@ title: Soba Noodles with Shiitakes & Tofu
 difficulty: intermediate
 cookingMethods: [fry, sauté, boil]
 dietary: []
-occasions: []
+occasions: [weeknight, quick-lunch]
 flavorProfile: [savory, umami]
 cuisines: [Japanese]
 role: main

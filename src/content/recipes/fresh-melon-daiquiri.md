@@ -3,7 +3,7 @@ title: Melon Daiquiri
 difficulty: easy
 cookingMethods: [blend]
 dietary: []
-occasions: []
+occasions: [entertaining, summer]
 flavorProfile: [sweet, acidic]
 cuisines: [Caribbean]
 role: drink

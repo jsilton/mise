@@ -3,7 +3,7 @@ title: Honey Chipotle Lime Chicken Bowls
 difficulty: easy
 cookingMethods: [grill, no-cook]
 dietary: []
-occasions: []
+occasions: [weeknight, meal-prep]
 flavorProfile: [sweet, acidic, rich]
 cuisines: [Mexican]
 role: main

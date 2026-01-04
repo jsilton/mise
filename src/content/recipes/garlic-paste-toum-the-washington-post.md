@@ -4,7 +4,7 @@ origin: Lebanon
 difficulty: easy
 cookingMethods: [grill, blend]
 dietary: []
-occasions: []
+occasions: [meal-prep, entertaining]
 flavorProfile: [acidic, rich]
 cuisines: [Lebanese, Middle Eastern]
 role: condiment

@@ -3,7 +3,7 @@ title: Drop Biscuits
 difficulty: easy
 cookingMethods: [bake, steam, blend]
 dietary: []
-occasions: []
+occasions: [weeknight, quick-lunch]
 flavorProfile: [spicy, sweet, rich]
 cuisines: [Southern]
 role: main

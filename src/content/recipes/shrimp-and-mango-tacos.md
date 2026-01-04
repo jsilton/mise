@@ -3,7 +3,7 @@ title: Shrimp & Mango Tacos
 difficulty: intermediate
 cookingMethods: [fry, sauté, no-cook]
 dietary: []
-occasions: []
+occasions: [weeknight, summer]
 flavorProfile: [spicy, sweet, acidic]
 cuisines: [Mexican]
 role: main

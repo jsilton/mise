@@ -3,7 +3,7 @@ title: Crustless Spinach & Gruyère Quiche
 difficulty: intermediate
 cookingMethods: [bake, sauté]
 dietary: [vegetarian]
-occasions: []
+occasions: [meal-prep, weekend-project]
 flavorProfile: [sweet, rich]
 cuisines: [French]
 role: main

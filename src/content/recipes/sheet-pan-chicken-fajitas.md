@@ -3,7 +3,7 @@ title: Sheet Pan Chicken Fajitas
 difficulty: easy
 cookingMethods: [bake, roast]
 dietary: []
-occasions: []
+occasions: [weeknight, quick-lunch]
 flavorProfile: [acidic]
 cuisines: [Mexican]
 role: main

@@ -3,7 +3,7 @@ title: Salsa Verde Chicken Casserole
 difficulty: easy
 cookingMethods: [bake]
 dietary: []
-occasions: []
+occasions: [comfort-food, meal-prep]
 flavorProfile: [acidic, rich]
 cuisines: [Mexican]
 role: main

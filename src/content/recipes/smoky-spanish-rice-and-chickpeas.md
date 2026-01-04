@@ -3,7 +3,7 @@ title: Spanish Rice and Chickpeas
 difficulty: easy
 cookingMethods: [roast, fry, sauté, simmer, boil, steam]
 dietary: []
-occasions: []
+occasions: [weeknight, meal-prep]
 flavorProfile: [savory, smoky]
 cuisines: [Spanish]
 role: base

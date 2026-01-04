@@ -3,7 +3,7 @@ title: Shakshuka
 difficulty: easy
 cookingMethods: [sauté, simmer, poach, no-cook]
 dietary: []
-occasions: []
+occasions: [weeknight, entertaining]
 flavorProfile: [spicy, acidic, umami, smoky]
 cuisines: [Middle Eastern]
 role: main

@@ -3,7 +3,7 @@ title: Falafel
 difficulty: easy
 cookingMethods: [fry, steam, blend]
 dietary: [vegetarian]
-occasions: []
+occasions: [weeknight, meal-prep]
 flavorProfile: [herbaceous]
 cuisines: [Middle Eastern]
 role: main

@@ -4,7 +4,7 @@ origin: India
 difficulty: easy
 cookingMethods: [bake, steam]
 dietary: []
-occasions: []
+occasions: [weekend-project, entertaining]
 flavorProfile: [sweet, rich]
 cuisines: [Indian]
 role: base

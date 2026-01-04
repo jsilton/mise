@@ -3,7 +3,7 @@ title: Greek-Style Lamb Burgers
 difficulty: easy
 cookingMethods: [grill, no-cook]
 dietary: []
-occasions: []
+occasions: [summer, entertaining]
 flavorProfile: [acidic, rich, herbaceous]
 cuisines: [Greek]
 role: main

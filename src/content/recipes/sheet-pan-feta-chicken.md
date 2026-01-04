@@ -3,7 +3,7 @@ title: Sheet Pan Feta Chicken
 difficulty: intermediate
 cookingMethods: [bake, roast]
 dietary: []
-occasions: []
+occasions: [weeknight, meal-prep]
 flavorProfile: [sweet, savory, acidic, rich, herbaceous]
 cuisines: [Mediterranean]
 role: main

@@ -3,7 +3,7 @@ title: Israeli Style Hummus
 difficulty: intermediate
 cookingMethods: [boil, blend]
 dietary: [vegetarian]
-occasions: []
+occasions: [meal-prep, entertaining]
 flavorProfile: [acidic, rich]
 cuisines: [Lebanese]
 role: base

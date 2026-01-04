@@ -3,7 +3,7 @@ title: Dutch Baby Pancake
 difficulty: intermediate
 cookingMethods: [bake, steam, blend]
 dietary: [vegetarian]
-occasions: []
+occasions: [weekend-project, entertaining]
 flavorProfile: [sweet, acidic, rich]
 cuisines: [German, American]
 role: main

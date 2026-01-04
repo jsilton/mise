@@ -3,7 +3,7 @@ title: Sheet Pan Pineapple Shrimp Tacos
 difficulty: easy
 cookingMethods: [bake, roast, no-cook]
 dietary: []
-occasions: []
+occasions: [weeknight, summer]
 flavorProfile: [spicy, sweet, acidic, rich]
 cuisines: [Mexican]
 role: main

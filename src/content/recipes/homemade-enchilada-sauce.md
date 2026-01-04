@@ -3,7 +3,7 @@ title: Enchilada Sauce
 difficulty: intermediate
 cookingMethods: [simmer, boil, blend]
 dietary: []
-occasions: []
+occasions: [meal-prep, weeknight]
 flavorProfile: [spicy, acidic, umami, rich]
 cuisines: [Mexican]
 role: base

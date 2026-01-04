@@ -3,7 +3,7 @@ title: Shrimp & Avocado Summer Rolls
 difficulty: easy
 cookingMethods: [boil, no-cook]
 dietary: []
-occasions: []
+occasions: [light-and-fresh, summer]
 flavorProfile: [sweet, savory, acidic, herbaceous]
 cuisines: [Vietnamese]
 role: main
