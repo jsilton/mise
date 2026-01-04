@@ -27,6 +27,7 @@ ingredients:
 ---
 
 ## Chef's Note
+
 The danger of slow-cooker curries is "flat" flavor and mushy meat. We solve this with **Texture Integrity** and **The Bloom Pattern**. We whisk the spices directly into the coconut milk and tomato paste before adding to the pot; this ensures the fat-soluble spices are fully distributed. The inclusion of **Fresh Mango** on the side isn't just a garnish—it's the mandatory **Acid Finish** that provides a bright "High Note" to cut through the rich, earthy coconut base.
 
 ## Directions
@@ -39,6 +40,7 @@ The danger of slow-cooker curries is "flat" flavor and mushy meat. We solve this
 6.  **Serve:** Serve in deep bowls over cooked brown rice. Garnish with fresh cilantro and serve with mango slices on the side.
 
 ## Serving Suggestions
--   [Homemade Naan](/recipes/homemade-naan)
--   [Cucumber Raita](/recipes/cucumber-raita)
--   [Smashed Cucumber Salad](/recipes/smashed-cucumber-salad)
+
+- [Homemade Naan](/recipes/homemade-naan)
+- [Cucumber Raita](/recipes/cucumber-raita)
+- [Smashed Cucumber Salad](/recipes/smashed-cucumber-salad)

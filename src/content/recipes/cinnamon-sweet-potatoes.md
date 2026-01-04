@@ -17,6 +17,7 @@ ingredients:
 ---
 
 ## Chef's Note
+
 The secret to these 25-minute potatoes is **Texture Integrity** through the **Glaze Pattern**. Instead of boiling or steaming, we roast the rounds at high heat (400°F) in a honey-butter emulsion. The **Lime Juice** provides the mandatory **Acid Finish**, which prevents the dish from being cloyingly sweet and ensures the cinnamon notes are bright rather than muddy. Ensure the slices are uniform in thickness to guarantee even cooking.
 
 ## Directions
@@ -28,6 +29,7 @@ The secret to these 25-minute potatoes is **Texture Integrity** through the **Gl
 5.  **Roast:** Bake for 20-25 minutes until tender and the edges are slightly caramelized. Serve hot.
 
 ## Serving Suggestions
--   [Buttermilk Baked Chicken](/recipes/buttermilk-baked-chicken)
--   [Everyday Arugula Salad](/recipes/everyday-arugula-salad)
--   [Roast Turkey Breast](/recipes/roast-turkey-breast)
+
+- [Buttermilk Baked Chicken](/recipes/buttermilk-baked-chicken)
+- [Everyday Arugula Salad](/recipes/everyday-arugula-salad)
+- [Roast Turkey Breast](/recipes/roast-turkey-breast)

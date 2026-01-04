@@ -21,6 +21,7 @@ ingredients:
 ---
 
 ## Chef's Note
+
 This is a sophisticated "Project" meal that relies on **Structural Science** for its elite mouthfeel. To achieve the "Restaurant Bounce," you must stir the shrimp mixture vigorously in one direction for 2 minutes before adding the corn; this emulsifies the proteins into a sticky paste. We maintain **Texture Integrity** by using fresh corn kernels, which provide a sweet "Snap" that contrasts with the savory shrimp.
 
 ## Directions
@@ -33,6 +34,7 @@ This is a sophisticated "Project" meal that relies on **Structural Science** for
 6.  **Serve:** Serve immediately with a side of soy sauce and [Quick Pickled Red Onions](/recipes/pickled-red-onions) or chili oil.
 
 ## Serving Suggestions
--   [Smashed Cucumber Salad](/recipes/smashed-cucumber-salad)
--   [Cantonese Wonton Broth](/recipes/cantonese-wonton-broth)
--   [Chinese Eggplant with Garlic Sauce](/recipes/chinese-eggplant-with-garlic-sauce)
+
+- [Smashed Cucumber Salad](/recipes/smashed-cucumber-salad)
+- [Cantonese Wonton Broth](/recipes/cantonese-wonton-broth)
+- [Chinese Eggplant with Garlic Sauce](/recipes/chinese-eggplant-with-garlic-sauce)

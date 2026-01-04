@@ -19,6 +19,7 @@ ingredients:
 ---
 
 ## Chef's Note
+
 This is a **Modern Heritage** update to a classic family crisp. We have replaced the legacy margarine with **Unsalted Butter** to provide a richer, more nuanced "Snap" to the oat topping. The secret to the Silton Standard here is **The Acid Finish**: the combination of tart Granny Smith apples and fresh whole cranberries provides a natural "High Note" that cuts through the buttery topping. Always bake until the fruit juices are bubbling up around the edges—this indicates the sugar has fully emulsified with the fruit pectin.
 
 ## Directions
@@ -31,6 +32,7 @@ This is a **Modern Heritage** update to a classic family crisp. We have replaced
 6.  **Cool:** Let cool for 10 minutes before serving. This allows the fruit juices to thicken into a glossy syrup.
 
 ## Serving Suggestions
--   [Old-Fashioned Vanilla Ice Cream](/recipes/old-fashioned-vanilla-ice-cream)
--   Whipped Cream with a pinch of Cinnamon
--   [Hot Mulled Apple Cider](/recipes/hot-mulled-apple-cider)
+
+- [Old-Fashioned Vanilla Ice Cream](/recipes/old-fashioned-vanilla-ice-cream)
+- Whipped Cream with a pinch of Cinnamon
+- [Hot Mulled Apple Cider](/recipes/hot-mulled-apple-cider)

@@ -22,19 +22,21 @@ ingredients:
 ---
 
 ## Chef's Note
+
 The secret to a "Gold Standard" slow-cooker braise is **Fond Extraction**. Many recipes just dump raw meat in; we sear the chicken thighs first to develop a deep brown crust—this caramelized flavor is what elevates the wine sauce from "stew" to "Coq au Vin." We maintain **Texture Integrity** by using **Thick-Sliced Mushrooms** and **Frozen Pearl Onions**; they hold their shape through the long simmer, providing the "Bounce" that differentiates this from a mushy soup.
 
 ## Directions
 
-1.  **The Sear:** Season chicken thighs with pepper. In a large skillet, sear the chicken on both sides until deep golden brown (3-4 mins total). 
+1.  **The Sear:** Season chicken thighs with pepper. In a large skillet, sear the chicken on both sides until deep golden brown (3-4 mins total).
 2.  **The Base:** Spray the slow cooker with oil. Layer the minced garlic, carrot chunks, frozen pearl onions, and thick-sliced mushrooms at the bottom.
 3.  **Stack:** Place the seared chicken thighs directly on top of the vegetables.
 4.  **The Slurry:** In a small bowl, whisk the cornstarch into the red wine until completely dissolved. Whisk in the onion soup mix, Worcestershire, and thyme.
-5.  **Simmer:** Pour the wine slurry over the chicken. 
+5.  **Simmer:** Pour the wine slurry over the chicken.
 6.  **Cook:** Cover and cook on **HIGH for 2.5–3 hours** (or LOW for 5-6 hours) until the chicken is fork-tender.
 7.  **Serve:** Serve hot over [Miso-Mashed Potatoes](/recipes/miso-mashed-potatoes) or steamed rice.
 
 ## Serving Suggestions
--   [Miso-Mashed Potatoes](/recipes/miso-mashed-potatoes)
--   [Everyday Arugula Salad](/recipes/everyday-arugula-salad)
--   Warm [Anadama Bread](/recipes/anadama-bread)
+
+- [Miso-Mashed Potatoes](/recipes/miso-mashed-potatoes)
+- [Everyday Arugula Salad](/recipes/everyday-arugula-salad)
+- Warm [Anadama Bread](/recipes/anadama-bread)

@@ -25,7 +25,8 @@ ingredients:
 ---
 
 ## Chef's Note
-This is a 25-minute "Speed" masterclass. The secret to the Silton Standard here is the **Shrimp Snap Pattern**: we sear the shrimp in butter first and remove them *before* building the sauce. This ensures they don't overcook into rubbery curls while the sauce simmers. We maintain **Texture Integrity** by adding the zucchini only at the very end—it should be "Snappy" and bright green, providing a textural contrast to the silky, honey-sweetened coconut glaze.
+
+This is a 25-minute "Speed" masterclass. The secret to the Silton Standard here is the **Shrimp Snap Pattern**: we sear the shrimp in butter first and remove them _before_ building the sauce. This ensures they don't overcook into rubbery curls while the sauce simmers. We maintain **Texture Integrity** by adding the zucchini only at the very end—it should be "Snappy" and bright green, providing a textural contrast to the silky, honey-sweetened coconut glaze.
 
 ## Directions
 
@@ -37,6 +38,7 @@ This is a 25-minute "Speed" masterclass. The secret to the Silton Standard here 
 6.  **Finish:** Stir in the fresh basil. Taste and adjust with salt or extra honey. Serve immediately over rice.
 
 ## Serving Suggestions
--   [Basmati Rice](/recipes/basmati-rice)
--   [Smashed Cucumber Salad](/recipes/smashed-cucumber-salad)
--   [Quick Pickled Red Onions](/recipes/pickled-red-onions)
+
+- [Basmati Rice](/recipes/basmati-rice)
+- [Smashed Cucumber Salad](/recipes/smashed-cucumber-salad)
+- [Quick Pickled Red Onions](/recipes/pickled-red-onions)

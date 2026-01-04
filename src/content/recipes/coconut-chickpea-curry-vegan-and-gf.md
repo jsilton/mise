@@ -25,7 +25,8 @@ ingredients:
 ---
 
 ## Chef's Note
-This is a 25-minute "Speed" hero. The secret to a rich, non-watery vegan curry is **Texture Integrity** through the **Tomato Reduction Pattern**. We sauté the onions and tomatoes together for 10 minutes *before* adding the coconut milk—this releases the tomatoes' natural sugars and thickens their juices. The **Acid Finish** from the fresh lime juice is mandatory; it provides the "High Note" that brightens the earthy chickpeas and rich coconut fat.
+
+This is a 25-minute "Speed" hero. The secret to a rich, non-watery vegan curry is **Texture Integrity** through the **Tomato Reduction Pattern**. We sauté the onions and tomatoes together for 10 minutes _before_ adding the coconut milk—this releases the tomatoes' natural sugars and thickens their juices. The **Acid Finish** from the fresh lime juice is mandatory; it provides the "High Note" that brightens the earthy chickpeas and rich coconut fat.
 
 ## Directions
 
@@ -37,6 +38,7 @@ This is a 25-minute "Speed" hero. The secret to a rich, non-watery vegan curry i
 6.  **Serve:** Serve hot over basmati rice with a side of naan.
 
 ## Serving Suggestions
--   [Basmati Rice](/recipes/basmati-rice)
--   [Homemade Naan](/recipes/homemade-naan)
--   [Cucumber Raita](/recipes/cucumber-raita)
+
+- [Basmati Rice](/recipes/basmati-rice)
+- [Homemade Naan](/recipes/homemade-naan)
+- [Cucumber Raita](/recipes/cucumber-raita)

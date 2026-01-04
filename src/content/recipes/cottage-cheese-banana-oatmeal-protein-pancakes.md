@@ -20,6 +20,7 @@ ingredients:
 ---
 
 ## Chef's Note
+
 This is a high-protein "Fuel" breakfast that relies on **The Blender Pattern**. By pulverizing the cottage cheese and oats together, we create a batter that is rich in protein but tastes exactly like a traditional flour-based pancake. The secret to the **Texture Integrity** is the **Low and Slow Cook**: because of the sugar in the banana and the proteins in the cheese, these pancakes will brown quickly. Cook them over medium-low heat to ensure the middle sets into a "Bounce" before the outside burns.
 
 ## Directions
@@ -32,6 +33,7 @@ This is a high-protein "Fuel" breakfast that relies on **The Blender Pattern**. 
 6.  **Serve:** Serve immediately with a dollop of Greek yogurt or a drizzle of peanut butter.
 
 ## Serving Suggestions
--   [Easy Breakfast Yogurt Popsicles](/recipes/easy-breakfast-yogurt-popsicles)
--   Fresh Berries
--   [Blueberry Oat Breakfast Bars](/recipes/blueberry-oat-breakfast-bars)
+
+- [Easy Breakfast Yogurt Popsicles](/recipes/easy-breakfast-yogurt-popsicles)
+- Fresh Berries
+- [Blueberry Oat Breakfast Bars](/recipes/blueberry-oat-breakfast-bars)

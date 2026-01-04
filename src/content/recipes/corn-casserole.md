@@ -19,6 +19,7 @@ ingredients:
 ---
 
 ## Chef's Note
+
 This is a **Modern Heritage** update to a classic potluck staple. To ensure **Texture Integrity**, we use the **Double Corn Pattern**: combining creamed corn for moisture with whole kernels for "Snap." The secret to the Silton Standard is the **Butter Emulsion**: we whisk the melted butter into the sour cream and eggs before adding the dry mix, resulting in a rich, pudding-like "Bounce" that never turns dry or cakey.
 
 ## Directions
@@ -31,6 +32,7 @@ This is a **Modern Heritage** update to a classic potluck staple. To ensure **Te
 6.  **Finish:** Bake for 35-45 minutes until the center is set and the edges are golden brown. Let sit for 5 minutes before serving to allow the internal structure to firm up.
 
 ## Serving Suggestions
--   [Buttermilk Baked Chicken](/recipes/buttermilk-baked-chicken)
--   [Chili](/recipes/chili)
--   [Honey Sriracha Salmon Bowls](/recipes/honey-sriracha-salmon-bowls)
+
+- [Buttermilk Baked Chicken](/recipes/buttermilk-baked-chicken)
+- [Chili](/recipes/chili)
+- [Honey Sriracha Salmon Bowls](/recipes/honey-sriracha-salmon-bowls)
