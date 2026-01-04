@@ -3,7 +3,12 @@ title: Yellow Cake with Chocolate Frosting
 difficulty: intermediate
 cookingMethods: [bake]
 dietary: [vegetarian]
-occasions: []
+occasions: [holiday, entertaining, kids-approved, indulgent]
+seasons: [year-round]
+nutritionalDensity: hearty
+leftovers: excellent
+equipment: [cake-pans, stand-mixer]
+advancePrep: [make-ahead]
 flavorProfile: [sweet, acidic, rich]
 cuisines: [American]
 role: dessert

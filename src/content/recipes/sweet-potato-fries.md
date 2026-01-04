@@ -3,7 +3,11 @@ title: Sweet Potato Fries
 difficulty: easy
 cookingMethods: [bake, roast, fry, steam]
 dietary: [vegetarian]
-occasions: []
+occasions: [weeknight, kids-approved]
+seasons: [year-round]
+nutritionalDensity: moderate
+leftovers: poor
+equipment: [sheet-pan]
 flavorProfile: [sweet, savory, smoky]
 cuisines: [American]
 role: main

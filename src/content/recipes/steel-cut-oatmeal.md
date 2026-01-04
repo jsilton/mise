@@ -3,7 +3,11 @@ title: Steel-Cut Oatmeal
 difficulty: intermediate
 cookingMethods: [fry, simmer, boil]
 dietary: [vegetarian]
-occasions: []
+occasions: [weeknight, comfort-food]
+seasons: [fall, winter, year-round]
+nutritionalDensity: moderate
+leftovers: poor
+equipment: [saucepan]
 flavorProfile: [sweet, acidic, rich]
 cuisines: [American]
 role: main

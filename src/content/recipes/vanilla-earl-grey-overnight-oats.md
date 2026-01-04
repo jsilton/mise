@@ -3,7 +3,12 @@ title: Vanilla Earl Grey Overnight Oats
 difficulty: intermediate
 cookingMethods: [boil]
 dietary: [vegetarian]
-occasions: []
+occasions: [meal-prep, post-workout]
+seasons: [year-round]
+nutritionalDensity: moderate
+leftovers: excellent
+equipment: [mason-jar]
+advancePrep: [make-ahead]
 flavorProfile: [sweet]
 cuisines: [American]
 role: main

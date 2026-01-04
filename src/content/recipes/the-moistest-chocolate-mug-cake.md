@@ -3,7 +3,11 @@ title: Chocolate Mug Cake
 difficulty: intermediate
 cookingMethods: [steam]
 dietary: [vegetarian]
-occasions: []
+occasions: [quick-lunch, indulgent]
+seasons: [year-round]
+nutritionalDensity: hearty
+leftovers: poor
+equipment: [microwave]
 flavorProfile: [sweet, rich]
 cuisines: [American]
 role: dessert

@@ -3,7 +3,11 @@ title: Rice Krispies Treats
 difficulty: intermediate
 cookingMethods: []
 dietary: [vegetarian]
-occasions: []
+occasions: [kids-approved, quick-lunch, potluck]
+seasons: [year-round]
+nutritionalDensity: hearty
+leftovers: excellent
+equipment: [large-pot, baking-dish]
 flavorProfile: [sweet, rich]
 cuisines: [American]
 role: dessert

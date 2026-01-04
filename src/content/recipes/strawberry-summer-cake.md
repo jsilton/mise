@@ -3,7 +3,12 @@ title: Strawberry Summer Cake
 difficulty: intermediate
 cookingMethods: [bake, roast]
 dietary: [vegetarian]
-occasions: []
+occasions: [entertaining, summer, weekend-project]
+seasons: [summer]
+nutritionalDensity: hearty
+leftovers: excellent
+equipment: [cake-pan, stand-mixer]
+advancePrep: [make-ahead]
 flavorProfile: [sweet, rich]
 cuisines: [American]
 role: dessert

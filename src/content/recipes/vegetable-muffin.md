@@ -3,7 +3,12 @@ title: Vegetable Green Muffins
 difficulty: intermediate
 cookingMethods: [bake, blend]
 dietary: [vegetarian]
-occasions: []
+occasions: [meal-prep, kids-approved, post-workout]
+seasons: [year-round]
+nutritionalDensity: moderate
+leftovers: excellent
+equipment: [muffin-tin, blender]
+advancePrep: [make-ahead, freeze-ahead]
 flavorProfile: [sweet, acidic]
 cuisines: [American]
 role: side

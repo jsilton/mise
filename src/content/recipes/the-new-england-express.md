@@ -4,7 +4,12 @@ origin: USA
 difficulty: easy
 cookingMethods: [boil, no-cook]
 dietary: [vegetarian]
-occasions: []
+occasions: [entertaining, holiday, potluck]
+seasons: [fall, winter]
+nutritionalDensity: light
+leftovers: good
+equipment: [saucepan, pitcher]
+advancePrep: [make-ahead]
 flavorProfile: [sweet, savory, acidic, rich, herbaceous]
 cuisines: [American]
 role: drink

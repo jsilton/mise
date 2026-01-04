@@ -3,7 +3,11 @@ title: Stovetop Macaroni & Cheese
 difficulty: intermediate
 cookingMethods: [roast, boil, steam]
 dietary: [vegetarian]
-occasions: []
+occasions: [weeknight, kids-approved, comfort-food]
+seasons: [year-round]
+nutritionalDensity: hearty
+leftovers: excellent
+equipment: [large-pot, saucepan]
 flavorProfile: [savory, rich]
 cuisines: [American]
 role: main

@@ -3,7 +3,11 @@ title: Vieux Carré
 difficulty: easy
 cookingMethods: [roast]
 dietary: []
-occasions: []
+occasions: [date-night, entertaining]
+seasons: [year-round]
+nutritionalDensity: light
+leftovers: poor
+equipment: [cocktail-shaker]
 flavorProfile: [sweet, acidic]
 cuisines: [American]
 role: drink

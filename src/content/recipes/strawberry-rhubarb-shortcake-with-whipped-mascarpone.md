@@ -3,7 +3,11 @@ title: Strawberry Rhubarb Shortcake
 difficulty: easy
 cookingMethods: [bake, roast, no-cook]
 dietary: [vegetarian]
-occasions: []
+occasions: [entertaining, summer, weekend-project, indulgent]
+seasons: [spring, summer]
+nutritionalDensity: hearty
+leftovers: good
+equipment: [baking-sheet, mixing-bowl]
 flavorProfile: [sweet, savory, rich]
 cuisines: [American]
 role: dessert

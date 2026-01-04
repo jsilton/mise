@@ -3,7 +3,12 @@ title: Strawberry Rhubarb Yogurt Pops
 difficulty: intermediate
 cookingMethods: [simmer, no-cook, blend]
 dietary: [vegetarian]
-occasions: []
+occasions: [kids-approved, summer, post-workout]
+seasons: [spring, summer]
+nutritionalDensity: light
+leftovers: excellent
+equipment: [popsicle-molds, saucepan, blender]
+advancePrep: [make-ahead]
 flavorProfile: [sweet, acidic, rich]
 cuisines: [American]
 role: side

@@ -3,7 +3,12 @@ title: Whole-Wheat Fruit Muffins
 difficulty: easy
 cookingMethods: [bake]
 dietary: [vegetarian]
-occasions: []
+occasions: [meal-prep, kids-approved, post-workout]
+seasons: [year-round]
+nutritionalDensity: moderate
+leftovers: excellent
+equipment: [muffin-tin, mixing-bowl]
+advancePrep: [make-ahead, freeze-ahead]
 flavorProfile: [sweet, acidic, rich]
 cuisines: [American]
 role: main

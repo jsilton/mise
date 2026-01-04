@@ -5,7 +5,11 @@ aliases:
 difficulty: easy
 cookingMethods: [roast, grill, no-cook]
 dietary: []
-occasions: []
+occasions: [weeknight, summer, kids-approved]
+seasons: [summer, year-round]
+nutritionalDensity: moderate
+leftovers: good
+equipment: [grill, large-skillet]
 flavorProfile: [sweet]
 cuisines: [American]
 role: main

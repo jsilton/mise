@@ -3,7 +3,12 @@ title: Strawberry Quinoa Breakfast Bars
 difficulty: easy
 cookingMethods: [bake]
 dietary: [vegetarian]
-occasions: []
+occasions: [meal-prep, post-workout, quick-lunch, kids-approved]
+seasons: [spring, summer]
+nutritionalDensity: moderate
+leftovers: excellent
+equipment: [baking-dish]
+advancePrep: [make-ahead]
 flavorProfile: [rich]
 cuisines: [American]
 role: base

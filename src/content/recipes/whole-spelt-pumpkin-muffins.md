@@ -3,7 +3,12 @@ title: Whole Spelt Pumpkin Muffins
 difficulty: easy
 cookingMethods: [bake]
 dietary: [vegetarian]
-occasions: []
+occasions: [meal-prep, kids-approved]
+seasons: [fall, winter]
+nutritionalDensity: moderate
+leftovers: excellent
+equipment: [muffin-tin, mixing-bowl]
+advancePrep: [make-ahead, freeze-ahead]
 flavorProfile: [sweet, rich]
 cuisines: [American]
 role: main

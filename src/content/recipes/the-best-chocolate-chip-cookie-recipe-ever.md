@@ -3,7 +3,12 @@ title: Chocolate Chip Cookies
 difficulty: intermediate
 cookingMethods: [bake]
 dietary: [vegetarian]
-occasions: []
+occasions: [holiday, entertaining, kids-approved, indulgent]
+seasons: [year-round]
+nutritionalDensity: hearty
+leftovers: excellent
+equipment: [baking-sheet, stand-mixer]
+advancePrep: [make-ahead, freeze-ahead]
 flavorProfile: [sweet, rich]
 cuisines: [American]
 role: dessert

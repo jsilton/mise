@@ -3,7 +3,11 @@ title: Veggie Salad
 difficulty: easy
 cookingMethods: [bake, roast, grill, no-cook]
 dietary: []
-occasions: []
+occasions: [light-and-fresh, weeknight, entertaining]
+seasons: [fall, winter]
+nutritionalDensity: light
+leftovers: good
+equipment: [sheet-pan, mixing-bowl]
 flavorProfile: [sweet, savory, acidic, umami]
 cuisines: [American]
 role: side

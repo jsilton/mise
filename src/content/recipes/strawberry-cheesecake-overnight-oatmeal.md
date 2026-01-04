@@ -3,7 +3,12 @@ title: Strawberry Cheesecake Overnight Oats
 difficulty: easy
 cookingMethods: []
 dietary: [vegetarian]
-occasions: []
+occasions: [meal-prep, post-workout, indulgent]
+seasons: [spring, summer]
+nutritionalDensity: moderate
+leftovers: excellent
+equipment: [mason-jar]
+advancePrep: [make-ahead]
 flavorProfile: [sweet, acidic, rich]
 cuisines: [American]
 role: dessert
