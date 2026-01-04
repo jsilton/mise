@@ -3,7 +3,12 @@ title: Pumpkin Oatmeal Muffins
 difficulty: easy
 cookingMethods: [bake, blend]
 dietary: [vegetarian]
-occasions: []
+occasions: [meal-prep, kids-approved, post-workout]
+seasons: [fall, winter]
+nutritionalDensity: moderate
+leftovers: excellent
+equipment: [muffin-tin, blender]
+advancePrep: [make-ahead, freeze-ahead]
 flavorProfile: [sweet, umami]
 cuisines: [American]
 role: main

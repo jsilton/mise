@@ -4,7 +4,11 @@ origin: USA
 difficulty: easy
 cookingMethods: [bake, roast]
 dietary: []
-occasions: []
+occasions: [weeknight, date-night, light-and-fresh]
+seasons: [spring, year-round]
+nutritionalDensity: moderate
+leftovers: good
+equipment: [sheet-pan]
 flavorProfile: [acidic, rich, herbaceous]
 cuisines: [American]
 role: main

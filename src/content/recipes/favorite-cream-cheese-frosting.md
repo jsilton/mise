@@ -3,7 +3,13 @@ title: Cream Cheese Frosting
 difficulty: intermediate
 cookingMethods: []
 dietary: [vegetarian]
-occasions: []
+occasions: [holiday, entertaining, indulgent]
+seasons: [year-round]
+nutritionalDensity: hearty
+leftovers: excellent
+equipment: [stand-mixer]
+advancePrep: [make-ahead]
+pairsWith: [bas-best-carrot-cake, breakfast-carrot-cake, funfetti-cake-from-scratch-and-an-unbirthday]
 flavorProfile: [sweet, rich]
 cuisines: [American]
 role: condiment

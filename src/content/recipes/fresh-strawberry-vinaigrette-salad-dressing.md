@@ -3,7 +3,12 @@ title: Strawberry Vinaigrette
 difficulty: intermediate
 cookingMethods: [grill, blend]
 dietary: []
-occasions: []
+occasions: [light-and-fresh, summer]
+seasons: [spring, summer]
+nutritionalDensity: light
+leftovers: good
+equipment: [blender]
+pairsWith: [arugula-and-feta-salad-with-strawberry-vinaigrette]
 flavorProfile: [sweet, acidic]
 cuisines: [American]
 role: base

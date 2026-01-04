@@ -3,7 +3,11 @@ title: Cinnamon French Toast Sticks
 difficulty: easy
 cookingMethods: []
 dietary: [vegetarian]
-occasions: []
+occasions: [weeknight, kids-approved, weekend-project]
+seasons: [year-round]
+nutritionalDensity: hearty
+leftovers: poor
+equipment: [large-skillet, mixing-bowl]
 flavorProfile: [sweet, rich]
 cuisines: [American]
 role: main

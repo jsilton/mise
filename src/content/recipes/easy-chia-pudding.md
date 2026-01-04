@@ -3,7 +3,13 @@ title: Chia Pudding
 difficulty: intermediate
 cookingMethods: [blend]
 dietary: [vegetarian]
-occasions: []
+occasions: [meal-prep, post-workout, quick-lunch]
+seasons: [year-round]
+nutritionalDensity: moderate
+leftovers: excellent
+equipment: [mason-jar]
+advancePrep: [make-ahead]
+pairsWith: [granola]
 flavorProfile: [sweet, rich]
 cuisines: [American]
 role: main

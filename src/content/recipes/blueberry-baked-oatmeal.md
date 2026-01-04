@@ -3,7 +3,12 @@ title: Blueberry Oatmeal
 difficulty: easy
 cookingMethods: [bake]
 dietary: [vegetarian, nut-free]
-occasions: []
+occasions: [meal-prep, kids-approved, weekend-project, comfort-food]
+seasons: [year-round]
+nutritionalDensity: moderate
+leftovers: excellent
+equipment: [baking-dish, mixing-bowl]
+advancePrep: [make-ahead]
 flavorProfile: [sweet, rich]
 cuisines: [American]
 role: main

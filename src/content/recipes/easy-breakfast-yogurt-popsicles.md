@@ -3,7 +3,13 @@ title: Yogurt Popsicles
 difficulty: easy
 cookingMethods: []
 dietary: [vegetarian]
-occasions: []
+occasions: [kids-approved, post-workout, summer]
+seasons: [summer]
+nutritionalDensity: light
+leftovers: excellent
+equipment: [popsicle-molds]
+advancePrep: [make-ahead]
+pairsWith: [granola]
 flavorProfile: [sweet, rich]
 cuisines: [American]
 role: base

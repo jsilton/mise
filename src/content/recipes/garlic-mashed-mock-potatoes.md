@@ -3,7 +3,11 @@ title: Garlic Mashed "Mock" Potatoes
 difficulty: easy
 cookingMethods: [boil, steam, blend]
 dietary: []
-occasions: []
+occasions: [weeknight, comfort-food, light-and-fresh]
+seasons: [year-round]
+nutritionalDensity: light
+leftovers: good
+equipment: [large-pot, food-processor]
 flavorProfile: [savory, umami, rich]
 cuisines: [American]
 role: side

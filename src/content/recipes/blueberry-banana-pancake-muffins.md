@@ -3,7 +3,12 @@ title: Blueberry Banana Pancake Muffins
 difficulty: intermediate
 cookingMethods: [bake, blend]
 dietary: [vegetarian]
-occasions: []
+occasions: [meal-prep, kids-approved, post-workout, quick-lunch]
+seasons: [year-round]
+nutritionalDensity: moderate
+leftovers: excellent
+equipment: [muffin-tin, blender, mixing-bowl]
+advancePrep: [make-ahead, freeze-ahead]
 flavorProfile: [sweet, rich]
 cuisines: [American]
 role: main

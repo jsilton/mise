@@ -3,7 +3,12 @@ title: Freezer Date Cookies
 difficulty: easy
 cookingMethods: [bake, blend]
 dietary: [vegetarian]
-occasions: []
+occasions: [meal-prep, post-workout, quick-lunch, kids-approved]
+seasons: [year-round]
+nutritionalDensity: moderate
+leftovers: excellent
+equipment: [baking-sheet, food-processor]
+advancePrep: [make-ahead, freeze-ahead]
 flavorProfile: [sweet, rich]
 cuisines: [American]
 role: main

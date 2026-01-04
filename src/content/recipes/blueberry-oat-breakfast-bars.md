@@ -3,7 +3,12 @@ title: Blueberry Oat Breakfast Bars
 difficulty: intermediate
 cookingMethods: [bake]
 dietary: [vegetarian]
-occasions: []
+occasions: [meal-prep, post-workout, quick-lunch, kids-approved]
+seasons: [year-round]
+nutritionalDensity: moderate
+leftovers: excellent
+equipment: [baking-dish, saucepan]
+advancePrep: [make-ahead]
 flavorProfile: [sweet, rich]
 cuisines: [American]
 role: main

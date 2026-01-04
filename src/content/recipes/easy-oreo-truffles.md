@@ -3,7 +3,12 @@ title: Oreo Truffles
 difficulty: easy
 cookingMethods: [simmer, blend]
 dietary: [vegetarian]
-occasions: []
+occasions: [holiday, entertaining, kids-approved, indulgent]
+seasons: [year-round]
+nutritionalDensity: hearty
+leftovers: excellent
+equipment: [food-processor, mixing-bowl, double-boiler]
+advancePrep: [make-ahead, freeze-ahead]
 flavorProfile: [sweet, acidic, rich]
 cuisines: [American]
 role: dessert

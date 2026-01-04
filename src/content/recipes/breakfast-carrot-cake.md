@@ -3,7 +3,13 @@ title: Breakfast Carrot Cake
 difficulty: easy
 cookingMethods: [bake]
 dietary: [vegetarian]
-occasions: []
+occasions: [meal-prep, kids-approved, weekend-project]
+seasons: [year-round]
+nutritionalDensity: moderate
+leftovers: excellent
+equipment: [baking-dish, mixing-bowl, grater]
+advancePrep: [make-ahead, freeze-ahead]
+pairsWith: [favorite-cream-cheese-frosting]
 flavorProfile: [sweet, rich]
 cuisines: [American]
 role: main

@@ -3,7 +3,11 @@ title: Blueberry Date Oatmeal
 difficulty: easy
 cookingMethods: [simmer, boil]
 dietary: [vegetarian]
-occasions: []
+occasions: [weeknight, quick-lunch, post-workout]
+seasons: [year-round]
+nutritionalDensity: moderate
+leftovers: poor
+equipment: [saucepan]
 flavorProfile: [sweet, rich]
 cuisines: [American]
 role: main

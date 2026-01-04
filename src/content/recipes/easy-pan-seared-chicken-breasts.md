@@ -3,7 +3,11 @@ title: Pan-Seared Chicken Breasts
 difficulty: easy
 cookingMethods: []
 dietary: []
-occasions: []
+occasions: [weeknight, quick-lunch, meal-prep]
+seasons: [year-round]
+nutritionalDensity: moderate
+leftovers: excellent
+equipment: [large-skillet]
 flavorProfile: [rich]
 cuisines: [American]
 role: main

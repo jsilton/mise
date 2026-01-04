@@ -3,7 +3,12 @@ title: Freezer Banana Bread
 difficulty: easy
 cookingMethods: [bake, blend]
 dietary: [vegetarian]
-occasions: []
+occasions: [meal-prep, kids-approved, weekend-project]
+seasons: [year-round]
+nutritionalDensity: moderate
+leftovers: excellent
+equipment: [loaf-pan, blender, mixing-bowl]
+advancePrep: [make-ahead, freeze-ahead]
 flavorProfile: [sweet, rich]
 cuisines: [American]
 role: main
