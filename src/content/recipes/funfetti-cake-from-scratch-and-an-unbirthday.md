@@ -26,6 +26,7 @@ ingredients:
 ---
 
 ## Chef's Note
+
 This is the "Gold Standard" for celebratory baking. We use **Structural Science** through **The Egg White Fold Pattern**: instead of beating whole eggs into the batter, we whip the whites separately and fold them in at the end. This ensures a light, airy "Bounce" that contrasts the rich buttercream. To maintain **Texture Integrity**, you must use "Jimmies" (the long cylinders) rather than nonpareils (the tiny balls); nonpareils will bleed their color and turn the batter gray, while jimmies provide the mandatory "High Note" pops of color.
 
 ## Directions
@@ -34,13 +35,14 @@ This is the "Gold Standard" for celebratory baking. We use **Structural Science*
 2.  **The Emulsion:** In a stand mixer, beat 9 tbsp butter, sugar, and oil on medium-low until creamy. Stir in vanilla.
 3.  **Dry Mix:** Whisk together flour, baking powder, and salt.
 4.  **Combine:** Alternately add the dry mix and the milk to the butter mixture, beginning and ending with the dry. Stir until **just combined**.
-5.  **Aeration:** In a clean bowl, beat egg whites until stiff peaks form. 
+5.  **Aeration:** In a clean bowl, beat egg whites until stiff peaks form.
 6.  **The Fold:** Gently fold the whipped whites and sprinkles into the batter using a spatula. Do not over-mix.
 7.  **Bake:** Divide among pans. Bake for 35-40 minutes until a toothpick comes out clean. Cool in pans for 15 minutes, then invert onto racks.
 8.  **The Frosting:** Beat 1 lb butter until creamy. Gradually add sugar, then heavy cream and vanilla. Beat on high for 3 minutes until billowy.
 9.  **Assemble:** Layer the cooled cakes with frosting. Do a thin "crumb coat" and freeze for 10 minutes before applying the final thick layer of buttercream for a professional "Snap" finish.
 
 ## Serving Suggestions
--   [Old-Fashioned Vanilla Ice Cream](/recipes/old-fashioned-vanilla-ice-cream)
--   Fresh Berries
--   [Classic Martini](/recipes/classic-martini) (for the adults)
+
+- [Old-Fashioned Vanilla Ice Cream](/recipes/old-fashioned-vanilla-ice-cream)
+- Fresh Berries
+- [Classic Martini](/recipes/classic-martini) (for the adults)

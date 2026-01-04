@@ -15,17 +15,19 @@ ingredients:
 ---
 
 ## Chef's Note
+
 This is a baseline **Modularity** component for summer salads. The secret to the Silton Standard is **The Maceration Pattern**: you must let the strawberries sit in the vinegar and honey for 30 minutes before blending. This draws out the natural juices (osmosis) and creates a syrup that emulsifies perfectly with the olive oil. The result is a dressing with a bright **Acid Finish** that has the "Bounce" of fresh fruit rather than the flat flavor of a bottled version.
 
 ## Directions
 
 1.  **Macerate:** In a small bowl, whisk together the balsamic vinegar and honey. Add the sliced strawberries and toss to coat. **Let stand for 30 minutes** at room temperature.
-2.  **The Emulsion:** Transfer the strawberries and all their liquid into a blender or food processor. 
+2.  **The Emulsion:** Transfer the strawberries and all their liquid into a blender or food processor.
 3.  **Blend:** Add the olive oil, salt, and pepper. Pulse until completely smooth and vibrant red.
 4.  **Adjust:** Taste and add a tiny splash more vinegar if you need a higher "High Note."
 5.  **Serve:** Use immediately or refrigerate for up to 3 days. Shake vigorously before each use to restore the emulsion.
 
 ## Serving Suggestions
--   [Everyday Arugula Salad](/recipes/everyday-arugula-salad)
--   [Arugula and Feta Salad with Strawberry Vinaigrette](/recipes/arugula-and-feta-salad-with-strawberry-vinaigrette)
--   Grilled Salmon or Chicken
+
+- [Everyday Arugula Salad](/recipes/everyday-arugula-salad)
+- [Arugula and Feta Salad with Strawberry Vinaigrette](/recipes/arugula-and-feta-salad-with-strawberry-vinaigrette)
+- Grilled Salmon or Chicken

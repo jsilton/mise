@@ -20,18 +20,20 @@ ingredients:
 ---
 
 ## Chef's Note
-This is the ultimate 35-minute "Speed" sheet pan meal. The secret to success is **Staged Roasting**: potatoes take significantly longer than salmon and asparagus. We roast the potatoes at high heat (400°F) for 15 minutes *before* adding the protein and greens—this ensures the potatoes have a golden "Snap" while the salmon remains succulent and the asparagus stays "Snappy." The lemon-butter drizzle provides the mandatory **High Note** that bridges the earthy vegetables and rich fish.
+
+This is the ultimate 35-minute "Speed" sheet pan meal. The secret to success is **Staged Roasting**: potatoes take significantly longer than salmon and asparagus. We roast the potatoes at high heat (400°F) for 15 minutes _before_ adding the protein and greens—this ensures the potatoes have a golden "Snap" while the salmon remains succulent and the asparagus stays "Snappy." The lemon-butter drizzle provides the mandatory **High Note** that bridges the earthy vegetables and rich fish.
 
 ## Directions
 
 1.  **Stage 1 (Potatoes):** Preheat oven to 400°F. Toss potatoes with 1 tbsp olive oil, salt, and pepper. Spread in a single layer on a large rimmed baking sheet. Roast for 15 minutes.
 2.  **Stage 2 (Prep):** While potatoes roast, toss asparagus with the remaining 1 tbsp oil and a pinch of salt. In a small bowl, whisk together melted butter, lemon juice, garlic, and pepper.
-3.  **Stage 3 (Combine):** Move the potatoes to one side of the pan. Place the salmon portions in the center and the asparagus on the other side. 
+3.  **Stage 3 (Combine):** Move the potatoes to one side of the pan. Place the salmon portions in the center and the asparagus on the other side.
 4.  **The Glaze:** Drizzle the garlic-butter mixture evenly over the salmon and asparagus.
 5.  **Finish:** Return the pan to the oven and roast for 10-12 minutes until the salmon flakes easily and the asparagus is tender-crisp.
 6.  **Serve:** Garnish with fresh parsley and serve immediately.
 
 ## Serving Suggestions
--   [Everyday Arugula Salad](/recipes/everyday-arugula-salad)
--   [Cucumber Raita](/recipes/cucumber-raita)
--   [Classic Martini](/recipes/classic-martini) (The Cold Standard)
+
+- [Everyday Arugula Salad](/recipes/everyday-arugula-salad)
+- [Cucumber Raita](/recipes/cucumber-raita)
+- [Classic Martini](/recipes/classic-martini) (The Cold Standard)

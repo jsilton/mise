@@ -16,6 +16,7 @@ ingredients:
 ---
 
 ## Chef's Note
+
 This is the **Gold Standard** for rustic mashed potatoes. To ensure **Texture Integrity**, we use the **Skin-on Standard**: leaving the red skins provides a textural "Snap" and earthy "Fuel" that peeled potatoes lack. The secret to the Silton Standard is **The Infused Boil**: we boil the whole garlic cloves directly with the potatoes. This mellows the garlic's bite and allows its oils to penetrate the starch as it cooks, resulting in a deeper, more integrated flavor than adding raw garlic at the end.
 
 ## Directions
@@ -28,6 +29,7 @@ This is the **Gold Standard** for rustic mashed potatoes. To ensure **Texture In
 6.  **Serve:** Serve immediately with a crack of black pepper.
 
 ## Serving Suggestions
--   [Brisket with Carrots and Onions](/recipes/brisket-with-carrots-and-onions)
--   [Chicken Coq au Vin](/recipes/chicken-coq-au-vin)
--   [Everyday Arugula Salad](/recipes/everyday-arugula-salad)
+
+- [Brisket with Carrots and Onions](/recipes/brisket-with-carrots-and-onions)
+- [Chicken Coq au Vin](/recipes/chicken-coq-au-vin)
+- [Everyday Arugula Salad](/recipes/everyday-arugula-salad)

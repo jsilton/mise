@@ -14,6 +14,7 @@ ingredients:
 ---
 
 ## Chef's Note
+
 This is our baseline **Modularity** component for standard pasta nights. We use **Structural Science** through **The Dough Hook Emulsion Pattern**: by utilizing the stand mixer, we develop the gluten chain with mechanical precision, ensuring a uniform "Bounce" that hand-kneading can rarely achieve. The mandatory **Rest Cycle** (30-60 mins) is what allows the gluten to relax, ensuring the dough doesn't snap back while rolling.
 
 ## Directions
@@ -25,6 +26,7 @@ This is our baseline **Modularity** component for standard pasta nights. We use 
 5.  **Shape:** Cut, roll, and shape as desired. See [Fresh Egg Pasta](/recipes/fresh-egg-pasta) for rolling settings.
 
 ## Serving Suggestions
--   [Real Alfredo Sauce](/recipes/real-alfredo-sauce)
--   [Real Spaghetti Carbonara](/recipes/real-spaghetti-carbonara)
--   [Pasta with Sausage, Basil, and Mustard](/recipes/pasta-with-sausage-basil-and-mustard)
+
+- [Real Alfredo Sauce](/recipes/real-alfredo-sauce)
+- [Real Spaghetti Carbonara](/recipes/real-spaghetti-carbonara)
+- [Pasta with Sausage, Basil, and Mustard](/recipes/pasta-with-sausage-basil-and-mustard)

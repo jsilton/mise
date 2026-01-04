@@ -15,6 +15,7 @@ ingredients:
 ---
 
 ## Chef's Note
+
 Toum is the ultimate test of **Structural Science** in the condiment category. The secret to its incredible "Bounce" is the **Molecular Emulsion Pattern**: you must add the oil in the thinnest possible stream, literally drop by drop for the first cup. This allows the garlic's natural lecithin to bind the oil and water into a stable, fluffy foam that mimics egg whites. If you rush, the emulsion will "break" and turn into an oily soup. The lemon juice provides the mandatory **Acid Finish** that keeps the garlic's heat in check.
 
 ## Directions
@@ -28,7 +29,8 @@ Toum is the ultimate test of **Structural Science** in the condiment category. T
 7.  **Store:** Keeps in the fridge for up to 3 weeks.
 
 ## Serving Suggestions
--   [Chicken Shawarma](/recipes/chicken-shawarma)
--   [Middle-Eastern Style Grilled Chicken Kabobs](/recipes/middle-eastern-style-grilled-chicken-kabobs)
--   [Falafel](/recipes/falafel)
--   [Everyday Arugula Salad](/recipes/everyday-arugula-salad) (as a creamy base)
+
+- [Chicken Shawarma](/recipes/chicken-shawarma)
+- [Middle-Eastern Style Grilled Chicken Kabobs](/recipes/middle-eastern-style-grilled-chicken-kabobs)
+- [Falafel](/recipes/falafel)
+- [Everyday Arugula Salad](/recipes/everyday-arugula-salad) (as a creamy base)
