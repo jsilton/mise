@@ -4,7 +4,11 @@ origin: USA
 difficulty: intermediate
 cookingMethods: []
 dietary: [vegan]
-occasions: []
+occasions: [entertaining, date-night]
+seasons: [year-round]
+nutritionalDensity: light
+leftovers: poor
+equipment: [cocktail-shaker]
 flavorProfile: [acidic, smoky]
 cuisines: [American]
 role: drink
@@ -13,6 +17,7 @@ prepTime: 5 min
 cookTime: 0 min
 totalTime: 5 min
 servings: '1'
+pairsWith: []
 ingredients:
   - '4 oz Beefeater Gin (or high-quality London Dry)'
   - '3/4 oz Noilly Prat Dry Vermouth'

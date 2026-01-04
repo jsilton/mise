@@ -3,7 +3,12 @@ title: Double Chocolate Layer Cake
 difficulty: intermediate
 cookingMethods: [bake, boil, no-cook]
 dietary: [vegetarian]
-occasions: []
+occasions: [holiday, entertaining, weekend-project, indulgent]
+seasons: [year-round]
+nutritionalDensity: hearty
+leftovers: excellent
+advancePrep: [make-ahead]
+equipment: []
 flavorProfile: [sweet, rich]
 cuisines: [American]
 role: dessert
@@ -12,6 +17,7 @@ prepTime: 45 min
 cookTime: 70 min
 totalTime: 115 min
 servings: '12'
+pairsWith: []
 ingredients:
   - '3 oz Semisweet Chocolate, finely chopped'
   - 1 1/2 cups Hot Brewed Coffee

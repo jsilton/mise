@@ -3,7 +3,11 @@ title: Chocolate Chip Zucchini Muffins
 difficulty: intermediate
 cookingMethods: [bake]
 dietary: [vegetarian]
-occasions: []
+occasions: [kids-approved, meal-prep, weekend-project]
+seasons: [summer, fall]
+nutritionalDensity: moderate
+leftovers: excellent
+equipment: [muffin-tin]
 flavorProfile: [sweet, umami, rich]
 cuisines: [American]
 role: main
@@ -12,6 +16,7 @@ prepTime: 15 min
 cookTime: 16 min
 totalTime: 31 min
 servings: '12'
+pairsWith: []
 ingredients:
   - 1 2/3 cups Buckwheat Flour (or Whole-Wheat)
   - 1/2 cup Chocolate Chips

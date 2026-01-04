@@ -3,7 +3,12 @@ title: Brownie Protein Balls
 difficulty: easy
 cookingMethods: []
 dietary: [vegetarian]
-occasions: []
+occasions: [post-workout, quick-lunch, meal-prep]
+seasons: [year-round]
+nutritionalDensity: moderate
+leftovers: excellent
+advancePrep: [make-ahead]
+equipment: []
 flavorProfile: [sweet, rich]
 cuisines: [American]
 role: base
@@ -12,6 +17,7 @@ prepTime: 10 min
 cookTime: 0 min
 totalTime: 10 min
 servings: '12 balls'
+pairsWith: []
 ingredients:
   - '1/2 cup Creamy Almond Butter'
   - '1/2 cup Chocolate Protein Powder'

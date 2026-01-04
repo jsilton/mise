@@ -3,7 +3,12 @@ title: Breakfast Egg Cups
 difficulty: easy
 cookingMethods: [bake]
 dietary: [vegetarian]
-occasions: []
+occasions: [meal-prep, weeknight, quick-lunch]
+seasons: [year-round]
+nutritionalDensity: moderate
+leftovers: excellent
+advancePrep: [make-ahead]
+equipment: [muffin-tin]
 flavorProfile: [rich]
 cuisines: [American]
 role: main
@@ -12,6 +17,7 @@ prepTime: 10 min
 cookTime: 25 min
 totalTime: 35 min
 servings: '8'
+pairsWith: []
 ingredients:
   - 6 large Eggs
   - 1/4 cup Whole Milk

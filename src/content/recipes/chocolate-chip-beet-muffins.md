@@ -3,7 +3,11 @@ title: Chocolate Chip Beet Muffins
 difficulty: easy
 cookingMethods: [bake, roast]
 dietary: [vegetarian]
-occasions: []
+occasions: [kids-approved, meal-prep, weekend-project]
+seasons: [year-round]
+nutritionalDensity: moderate
+leftovers: excellent
+equipment: [muffin-tin]
 flavorProfile: [sweet, umami, rich]
 cuisines: [American]
 role: main
@@ -12,6 +16,7 @@ prepTime: 10 min
 cookTime: 20 min
 totalTime: 30 min
 servings: '12'
+pairsWith: []
 ingredients:
   - 1 cup Beet Puree (Roasted or canned)
   - 2 large Eggs

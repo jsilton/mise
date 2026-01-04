@@ -3,7 +3,11 @@ title: Cottage Cheese Banana Oatmeal Protein Pancakes
 difficulty: easy
 cookingMethods: [blend]
 dietary: [vegetarian]
-occasions: []
+occasions: [post-workout, quick-lunch, weeknight]
+seasons: [year-round]
+nutritionalDensity: moderate
+leftovers: poor
+equipment: [blender]
 flavorProfile: [sweet, rich]
 cuisines: [American]
 role: main
@@ -12,6 +16,7 @@ prepTime: 10 min
 cookTime: 10 min
 totalTime: 20 min
 servings: '4'
+pairsWith: []
 ingredients:
   - 1/2 cup Old-fashioned Rolled Oats
   - '1/2 medium Banana, very ripe'

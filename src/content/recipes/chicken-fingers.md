@@ -5,7 +5,11 @@ aliases:
 difficulty: easy
 cookingMethods: [bake, roast, fry]
 dietary: []
-occasions: []
+occasions: [kids-approved, weeknight, comfort-food]
+seasons: [year-round]
+nutritionalDensity: moderate
+leftovers: good
+equipment: []
 flavorProfile: [sweet, acidic, umami]
 cuisines: [American]
 role: main
@@ -14,6 +18,7 @@ prepTime: 15 min
 cookTime: 10 min
 totalTime: 25 min
 servings: '4'
+pairsWith: [french-fries, coleslaw, mac-and-cheese]
 ingredients:
   - 1 lb Chicken Tenderloins or Breasts cut into strips
   - 1/2 cup All-Purpose Flour

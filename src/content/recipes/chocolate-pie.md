@@ -3,7 +3,12 @@ title: Chocolate Pie
 difficulty: intermediate
 cookingMethods: [bake, boil]
 dietary: [vegetarian]
-occasions: []
+occasions: [holiday, entertaining, weekend-project, indulgent]
+seasons: [year-round]
+nutritionalDensity: hearty
+leftovers: excellent
+advancePrep: [make-ahead]
+equipment: []
 flavorProfile: [sweet, rich]
 cuisines: [American]
 role: dessert
@@ -12,6 +17,7 @@ prepTime: 30 min
 cookTime: 10 min
 totalTime: 280 min
 servings: '10'
+pairsWith: []
 ingredients:
   - >-
     1 Pie Crust, baked and cooled (Use the [Apple

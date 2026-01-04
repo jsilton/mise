@@ -3,7 +3,12 @@ title: Turkey Meatballs
 difficulty: intermediate
 cookingMethods: [bake, blend]
 dietary: []
-occasions: []
+occasions: [meal-prep, kids-approved, weeknight]
+seasons: [year-round]
+nutritionalDensity: moderate
+leftovers: excellent
+advancePrep: [freeze-ahead, make-ahead]
+equipment: [sheet-pan]
 flavorProfile: []
 cuisines: [American]
 role: main
@@ -12,6 +17,7 @@ prepTime: 15 min
 cookTime: 30 min
 totalTime: 45 min
 servings: '12'
+pairsWith: [pasta, spaghetti, marinara-sauce]
 ingredients:
   - '2 lbs Ground Turkey (93/7 fat ratio preferred)'
   - '1/2 cup Unseasoned Breadcrumbs'

@@ -3,7 +3,12 @@ title: Breakfast Protein Biscuits
 difficulty: intermediate
 cookingMethods: [bake]
 dietary: [vegetarian]
-occasions: []
+occasions: [meal-prep, post-workout, weekend-project]
+seasons: [year-round]
+nutritionalDensity: moderate
+leftovers: excellent
+advancePrep: [make-ahead]
+equipment: []
 flavorProfile: [rich]
 cuisines: [American]
 role: main
@@ -12,6 +17,7 @@ prepTime: 15 min
 cookTime: 25 min
 totalTime: 40 min
 servings: '12'
+pairsWith: []
 ingredients:
   - 2 1/2 cups All-Purpose Flour
   - 1 3/4 cups Plain 2% Greek Yogurt

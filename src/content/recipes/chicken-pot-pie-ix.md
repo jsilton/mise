@@ -4,7 +4,12 @@ origin: USA
 difficulty: intermediate
 cookingMethods: [bake, roast, sauté, simmer, boil, steam, poach, no-cook]
 dietary: []
-occasions: []
+occasions: [comfort-food, entertaining, weekend-project, holiday]
+seasons: [fall, winter]
+nutritionalDensity: hearty
+leftovers: excellent
+advancePrep: [make-ahead]
+equipment: []
 flavorProfile: [savory, rich]
 cuisines: [American]
 role: main
@@ -13,6 +18,7 @@ prepTime: 45 min
 cookTime: 40 min
 totalTime: 90 min
 servings: '8'
+pairsWith: [caesar-salad]
 ingredients:
   - '1 lb Chicken Breast, poached and cubed'
   - '1 cup Carrots, diced'

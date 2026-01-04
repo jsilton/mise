@@ -3,7 +3,12 @@ title: Broccoli Cheddar Quinoa Bites
 difficulty: easy
 cookingMethods: [bake]
 dietary: [vegetarian]
-occasions: []
+occasions: [entertaining, potluck, kids-approved, meal-prep]
+seasons: [year-round]
+nutritionalDensity: moderate
+leftovers: excellent
+advancePrep: [make-ahead]
+equipment: [muffin-tin]
 flavorProfile: [umami, herbaceous]
 cuisines: [American]
 role: side
@@ -12,6 +17,7 @@ prepTime: 15 min
 cookTime: 30 min
 totalTime: 45 min
 servings: '30 bites'
+pairsWith: []
 ingredients:
   - '2 cups Cooked Quinoa'
   - '1 cup Fresh Broccoli, finely chopped (packed)'
