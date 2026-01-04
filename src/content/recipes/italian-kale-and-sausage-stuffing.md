@@ -23,6 +23,7 @@ ingredients:
 ---
 
 ## Chef's Note
+
 This is a **Modern Heritage** update to the standard holiday stuffing. The secret to its Success is **Texture Integrity** through **The Ciabatta Soak Pattern**: instead of dry croutons, we use milk-saturated ciabatta. This ensures the stuffing has a custardy "Bounce" rather than a dry crunch. We use **The Sausage Render Pattern**: we brown the sausage on medium-high to release all its fat, which then acts as the primary seasoning for the kale and aromatics. The massive hit of fresh parsley provides the mandatory **High Note**.
 
 ## Directions
@@ -36,6 +37,7 @@ This is a **Modern Heritage** update to the standard holiday stuffing. The secre
 7.  **Rest:** Let sit for 5 minutes before serving.
 
 ## Serving Suggestions
--   [Roast Turkey Breast](/recipes/roast-turkey-breast)
--   [Perfect Cranberry Sauce](/recipes/perfect-cranberry-sauce)
--   [Everyday Arugula Salad](/recipes/everyday-arugula-salad)
+
+- [Roast Turkey Breast](/recipes/roast-turkey-breast)
+- [Perfect Cranberry Sauce](/recipes/perfect-cranberry-sauce)
+- [Everyday Arugula Salad](/recipes/everyday-arugula-salad)

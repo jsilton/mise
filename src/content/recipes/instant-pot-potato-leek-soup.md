@@ -25,7 +25,8 @@ ingredients:
 ---
 
 ## Chef's Note
-This is a **Modern Heritage** update to a recipe from my Grandpa. The secret to its elite silkiness is **Structural Science** through **The Allium Sweat Pattern**: you must sauté the leeks in butter and oil until they are completely soft and translucent *before* adding the flour and broth. This ensures the leeks' sugars are fully developed, which provides the "Bounce" to the puree. We use **White Pepper** and a pinch of **Nutmeg** as the mandatory high notes to bridge the gap between the earthy potatoes and the rich cream.
+
+This is a **Modern Heritage** update to a recipe from my Grandpa. The secret to its elite silkiness is **Structural Science** through **The Allium Sweat Pattern**: you must sauté the leeks in butter and oil until they are completely soft and translucent _before_ adding the flour and broth. This ensures the leeks' sugars are fully developed, which provides the "Bounce" to the puree. We use **White Pepper** and a pinch of **Nutmeg** as the mandatory high notes to bridge the gap between the earthy potatoes and the rich cream.
 
 ## Directions
 
@@ -39,6 +40,7 @@ This is a **Modern Heritage** update to a recipe from my Grandpa. The secret to 
 8.  **Serve:** Garnish with a dollop of sour cream and fresh chives for **Texture Integrity**.
 
 ## Serving Suggestions
--   [Everyday Arugula Salad](/recipes/everyday-arugula-salad)
--   [Garlic Bread](/recipes/garlic-bread)
--   [Classic Martini](/recipes/classic-martini) (The Cold Standard)
+
+- [Everyday Arugula Salad](/recipes/everyday-arugula-salad)
+- [Garlic Bread](/recipes/garlic-bread)
+- [Classic Martini](/recipes/classic-martini) (The Cold Standard)

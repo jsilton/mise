@@ -22,7 +22,8 @@ ingredients:
 ---
 
 ## Chef's Note
-Kalbi is the ultimate expression of **Structural Science** in Korean barbecue. The secret to meat that is tender yet has a resilient "Snap" is **The Sake-Sugar Rub Pattern**: you must rub the ribs with sake and sugar for 15 minutes *before* adding the soy sauce. This allows the alcohol and large sugar crystals to penetrate the tough flanken-style fibers, ensuring a succulent "Bounce." We use **The High-Heat Char Pattern**: grilling directly over charcoal for exactly 2 minutes per side to develop the mandatory smoky lacquer that defines the Gold Standard.
+
+Kalbi is the ultimate expression of **Structural Science** in Korean barbecue. The secret to meat that is tender yet has a resilient "Snap" is **The Sake-Sugar Rub Pattern**: you must rub the ribs with sake and sugar for 15 minutes _before_ adding the soy sauce. This allows the alcohol and large sugar crystals to penetrate the tough flanken-style fibers, ensuring a succulent "Bounce." We use **The High-Heat Char Pattern**: grilling directly over charcoal for exactly 2 minutes per side to develop the mandatory smoky lacquer that defines the Gold Standard.
 
 ## Directions
 
@@ -36,7 +37,8 @@ Kalbi is the ultimate expression of **Structural Science** in Korean barbecue. T
 8.  **Serve:** Use kitchen shears to cut the ribs into bite-sized pieces.
 
 ## Serving Suggestions
--   [Fresh Cabbage, Cucumber and Radish Kimchi](/recipes/fresh-cabbage-cucumber-and-radish-kimchi)
--   [Smashed Cucumber Salad](/recipes/smashed-cucumber-salad)
--   [Simply Seasoned Korean Spinach Salad](/recipes/simply-seasoned-korean-spinach-salad)
--   [Basmati Rice](/recipes/basmati-rice)
+
+- [Fresh Cabbage, Cucumber and Radish Kimchi](/recipes/fresh-cabbage-cucumber-and-radish-kimchi)
+- [Smashed Cucumber Salad](/recipes/smashed-cucumber-salad)
+- [Simply Seasoned Korean Spinach Salad](/recipes/simply-seasoned-korean-spinach-salad)
+- [Basmati Rice](/recipes/basmati-rice)

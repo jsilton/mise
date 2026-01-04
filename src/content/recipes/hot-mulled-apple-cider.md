@@ -21,6 +21,7 @@ ingredients:
 ---
 
 ## Chef's Note
+
 This is the baseline for winter **Modularity**. The secret to a professional-grade mulch is **The Low-Simmer Infusion Pattern**: you must never boil the cider once the spices are added, as high heat can turn the cinnamon bitter. We use a tiny pinch of **Sea Salt** as the "Deep Note" to amplify the natural sweetness of the apples. The mandatory **Acid/Aromatic Finish** comes from studding fresh orange wedges with cloves—this releases essential oils directly into the mug as you serve.
 
 ## Directions
@@ -33,6 +34,7 @@ This is the baseline for winter **Modularity**. The secret to a professional-gra
 6.  **Serve:** Ladle into mugs and float a clove-studded orange wedge in each.
 
 ## Serving Suggestions
--   [Apple Pie](/recipes/apple-pie)
--   [Grandmommy's Pecan Pie](/recipes/grandmommys-pecan-pie)
--   [Oreo Truffles](/recipes/easy-oreo-truffles)
+
+- [Apple Pie](/recipes/apple-pie)
+- [Grandmommy's Pecan Pie](/recipes/grandmommys-pecan-pie)
+- [Oreo Truffles](/recipes/easy-oreo-truffles)
