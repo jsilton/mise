@@ -23,7 +23,8 @@ ingredients:
 ---
 
 ## Chef's Note
-This is the ultimate holiday **Project** soup. The secret to its Success is **The Scrap-Stock Pattern**. We don't just use water; we simmer the squash peels, seeds, and trimmings with whole cinnamon and star anise for 45 minutes to create a concentrated "Harvest Broth." This introduces a botanical "Deep Note" that standard stock lacks. We maintain **Texture Integrity** through **The Two-Stage Simmer**: roasting the squash cubes in the pot with onions *before* adding the broth creates a Maillard "Bounce" that defines the puree.
+
+This is the ultimate holiday **Project** soup. The secret to its Success is **The Scrap-Stock Pattern**. We don't just use water; we simmer the squash peels, seeds, and trimmings with whole cinnamon and star anise for 45 minutes to create a concentrated "Harvest Broth." This introduces a botanical "Deep Note" that standard stock lacks. We maintain **Texture Integrity** through **The Two-Stage Simmer**: roasting the squash cubes in the pot with onions _before_ adding the broth creates a Maillard "Bounce" that defines the puree.
 
 ## Directions
 
@@ -35,6 +36,7 @@ This is the ultimate holiday **Project** soup. The secret to its Success is **Th
 6.  **Serve:** Ladle into bowls. Top with pomegranate arils and fresh cilantro for the final **High Note**.
 
 ## Serving Suggestions
--   [Sourdough Grilled Cheese](/recipes/grilled-cheese-and-tomato-soup)
--   [Perfect Cranberry Sauce](/recipes/perfect-cranberry-sauce)
--   Warm [Anadama Bread](/recipes/anadama-bread)
+
+- [Sourdough Grilled Cheese](/recipes/grilled-cheese-and-tomato-soup)
+- [Perfect Cranberry Sauce](/recipes/perfect-cranberry-sauce)
+- Warm [Anadama Bread](/recipes/anadama-bread)

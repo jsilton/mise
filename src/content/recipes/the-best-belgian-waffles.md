@@ -20,7 +20,8 @@ ingredients:
 ---
 
 ## Chef's Note
-The secret to a "Gold Standard" waffle is **Structural Science** through **The Cloud Aeration Pattern**. You must beat the egg whites to stiff peaks *separately* and fold them into the batter at the very end. This introduces millions of tiny air pockets that expand instantly in the waffle iron, creating a shatteringly crisp "Snap" on the exterior with a cloud-like "Bounce" inside. We use a **High Baking Powder Ratio** to ensure the vertical rise needed for deep Belgian pockets.
+
+The secret to a "Gold Standard" waffle is **Structural Science** through **The Cloud Aeration Pattern**. You must beat the egg whites to stiff peaks _separately_ and fold them into the batter at the very end. This introduces millions of tiny air pockets that expand instantly in the waffle iron, creating a shatteringly crisp "Snap" on the exterior with a cloud-like "Bounce" inside. We use a **High Baking Powder Ratio** to ensure the vertical rise needed for deep Belgian pockets.
 
 ## Directions
 
@@ -33,6 +34,7 @@ The secret to a "Gold Standard" waffle is **Structural Science** through **The C
 7.  **Serve:** Serve immediately with warm maple syrup and [Perfect Cranberry Sauce](/recipes/perfect-cranberry-sauce).
 
 ## Serving Suggestions
--   [Perfect Cranberry Sauce](/recipes/perfect-cranberry-sauce)
--   Fresh Sliced Strawberries
--   Crispy Bacon
+
+- [Perfect Cranberry Sauce](/recipes/perfect-cranberry-sauce)
+- Fresh Sliced Strawberries
+- Crispy Bacon

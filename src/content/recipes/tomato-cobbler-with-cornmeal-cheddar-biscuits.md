@@ -22,7 +22,8 @@ ingredients:
 ---
 
 ## Chef's Note
-This is a masterclass in **Texture Integrity**. The secret to Success is **The Caramelized Onion Bind Pattern**: we sauté the red onions for a full 20 minutes until they become a sweet, jammy paste *before* adding the cherry tomatoes. This creates a rich "Bounce" base that holds the whole tomatoes in suspension. We use **Structural Science** for the biscuits: the addition of cornmeal provides a gritty "Snap" that contrasts the velvety tomatoes. The red wine provides the mandatory **Acid Finish** to cut the rich cheddar crust.
+
+This is a masterclass in **Texture Integrity**. The secret to Success is **The Caramelized Onion Bind Pattern**: we sauté the red onions for a full 20 minutes until they become a sweet, jammy paste _before_ adding the cherry tomatoes. This creates a rich "Bounce" base that holds the whole tomatoes in suspension. We use **Structural Science** for the biscuits: the addition of cornmeal provides a gritty "Snap" that contrasts the velvety tomatoes. The red wine provides the mandatory **Acid Finish** to cut the rich cheddar crust.
 
 ## Directions
 
@@ -36,6 +37,7 @@ This is a masterclass in **Texture Integrity**. The secret to Success is **The C
 8.  **Set:** Let rest for 15 minutes (mandatory) before serving.
 
 ## Serving Suggestions
--   [Everyday Arugula Salad](/recipes/everyday-arugula-salad)
--   [Classic Martini](/recipes/classic-martini) (The Cold Standard)
--   [Roasted Green Bean "Fries"](/recipes/roasted-green-bean-fries)
+
+- [Everyday Arugula Salad](/recipes/everyday-arugula-salad)
+- [Classic Martini](/recipes/classic-martini) (The Cold Standard)
+- [Roasted Green Bean "Fries"](/recipes/roasted-green-bean-fries)

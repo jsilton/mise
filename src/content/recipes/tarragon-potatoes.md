@@ -17,6 +17,7 @@ ingredients:
 ---
 
 ## Chef's Note
+
 The secret to "Gold Standard" tarragon potatoes is **Texture Integrity** through **The Butter-Finish Pattern**. Tarragon has a powerful, anise-like "Deep Note" that can become bitter if burned; we toss the potatoes in oil and herbs first, then add cold butter cubes to the pan halfway through roasting. This creates a foaming emulsion that bastes the potatoes, ensuring a rich "Bounce" inside a "Snappy" golden crust. Be precise with the tarragon—it provides a sharp **Acid Finish** that defines the dish.
 
 ## Directions
@@ -29,6 +30,7 @@ The secret to "Gold Standard" tarragon potatoes is **Texture Integrity** through
 6.  **Serve:** Serve immediately while the herb aroma is at its peak.
 
 ## Serving Suggestions
--   [Chicken Milanese](/recipes/chicken-milanese)
--   [Herb-Marinated Pork Tenderloin](/recipes/herb-marinated-pork-tenderloin)
--   [Everyday Arugula Salad](/recipes/everyday-arugula-salad)
+
+- [Chicken Milanese](/recipes/chicken-milanese)
+- [Herb-Marinated Pork Tenderloin](/recipes/herb-marinated-pork-tenderloin)
+- [Everyday Arugula Salad](/recipes/everyday-arugula-salad)

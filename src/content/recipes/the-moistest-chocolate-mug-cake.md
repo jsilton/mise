@@ -19,7 +19,8 @@ ingredients:
 ---
 
 ## Chef's Note
-This is the baseline for high-speed **Modularity**. The secret to a mug cake that isn't a rubbery brick is **Structural Science** through **The Molten Core Pattern**. By dropping a spoonful of hazelnut spread into the center *without stirring*, we create a thermal guard that keeps the cake moist from the inside out. We use **The Steam-Rise Pattern**: the high-heat microwave gelatinizes the starch in 70 seconds, providing an immediate "Bounce." The tiny pinch of salt is the mandatory **High Note** that bridge the dark cocoa and rich hazelnut.
+
+This is the baseline for high-speed **Modularity**. The secret to a mug cake that isn't a rubbery brick is **Structural Science** through **The Molten Core Pattern**. By dropping a spoonful of hazelnut spread into the center _without stirring_, we create a thermal guard that keeps the cake moist from the inside out. We use **The Steam-Rise Pattern**: the high-heat microwave gelatinizes the starch in 70 seconds, providing an immediate "Bounce." The tiny pinch of salt is the mandatory **High Note** that bridge the dark cocoa and rich hazelnut.
 
 ## Directions
 
@@ -31,6 +32,7 @@ This is the baseline for high-speed **Modularity**. The secret to a mug cake tha
 6.  **Serve:** Dust with a tiny bit of powdered sugar if feeling fancy.
 
 ## Serving Suggestions
--   [Old-Fashioned Vanilla Ice Cream](/recipes/old-fashioned-vanilla-ice-cream)
--   Fresh Raspberries
--   [Classic Martini](/recipes/classic-martini) (The Cold Standard)
+
+- [Old-Fashioned Vanilla Ice Cream](/recipes/old-fashioned-vanilla-ice-cream)
+- Fresh Raspberries
+- [Classic Martini](/recipes/classic-martini) (The Cold Standard)

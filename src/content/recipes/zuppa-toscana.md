@@ -20,6 +20,7 @@ ingredients:
 ---
 
 ## Chef's Note
+
 The secret to an elite Zuppa Toscana without heavy cream is **Structural Science** through **The Potato-Starch Pattern**. We simmer cubed Russet potatoes in bone broth until they are "fork-tender"; as the starch granules release, they naturally emulsify with the full-fat **Coconut Milk** to create a rich, velvety "Bounce." We maintain **Texture Integrity** through **The Late-Kale Wilt**: we add the kale during the final 60 seconds of cooking—this ensures the leaves are bright green and maintain their "Snap" against the smoky sausage.
 
 ## Directions
@@ -32,6 +33,7 @@ The secret to an elite Zuppa Toscana without heavy cream is **Structural Science
 6.  **Serve:** Ladle into deep bowls. Top with a final crack of black pepper and a drizzle of olive oil for the mandatory **High Note**.
 
 ## Serving Suggestions
--   [Garlic Bread](/recipes/garlic-bread)
--   [Everyday Arugula Salad](/recipes/everyday-arugula-salad)
--   [Roasted Sunchokes with Brown Butter Vinaigrette](/recipes/roasted-sunchokes-with-brown-butter-cider-vinaigrette)
+
+- [Garlic Bread](/recipes/garlic-bread)
+- [Everyday Arugula Salad](/recipes/everyday-arugula-salad)
+- [Roasted Sunchokes with Brown Butter Vinaigrette](/recipes/roasted-sunchokes-with-brown-butter-cider-vinaigrette)

@@ -19,18 +19,20 @@ ingredients:
 ---
 
 ## Chef's Note
-This cocktail is a masterclass in **Modern Heritage** flavor layering. The secret to its Success is **The Herbal Syrup Pattern**: we boil the sugar into a simple syrup but steep the fresh thyme for 10 minutes *after* removing from heat. This introduces a savory, botanical "Deep Note" that bridges the gap between the earthy apple cider and the rich molasses of the dark rum. The fresh lime juice provides the mandatory **Acid Finish** that defines the "Express" punch.
+
+This cocktail is a masterclass in **Modern Heritage** flavor layering. The secret to its Success is **The Herbal Syrup Pattern**: we boil the sugar into a simple syrup but steep the fresh thyme for 10 minutes _after_ removing from heat. This introduces a savory, botanical "Deep Note" that bridges the gap between the earthy apple cider and the rich molasses of the dark rum. The fresh lime juice provides the mandatory **Acid Finish** that defines the "Express" punch.
 
 ## Directions
 
 1.  **The Syrup:** In a small pan, boil sugar and 1/3 cup water until dissolved. Remove from heat. Add thyme sprigs. Cover and **let stand for 10 minutes**. Strain and chill.
 2.  **The Base:** In a large pitcher, combine the chilled thyme syrup, apple cider, dark rum, lime juice, and bitters. Stir vigorously.
 3.  **Thermal Prep:** Fill 8 rocks glasses with massive ice cubes.
-4.  **Assemble:** Pour the cider mixture into each glass, filling 3/4 full. 
+4.  **Assemble:** Pour the cider mixture into each glass, filling 3/4 full.
 5.  **Effervescence:** Top each glass with a splash of club soda for the mandatory "Bounce."
 6.  **Garnish:** Garnish with a fresh thyme sprig and a lime slice for the final aromatic **High Note**.
 
 ## Serving Suggestions
--   [Grandmommy's Pecan Pie](/recipes/grandmommys-pecan-pie)
--   [Oreo Truffles](/recipes/easy-oreo-truffles)
--   [Cranberry Orange Sauce](/recipes/cranberry-orange-sauce) (on a cracker with brie)
+
+- [Grandmommy's Pecan Pie](/recipes/grandmommys-pecan-pie)
+- [Oreo Truffles](/recipes/easy-oreo-truffles)
+- [Cranberry Orange Sauce](/recipes/cranberry-orange-sauce) (on a cracker with brie)

@@ -21,6 +21,7 @@ ingredients:
 ---
 
 ## Chef's Note
+
 This is the definitive restorative soup. The secret to its elite "Velvet" texture is **Structural Science** through **The Butter-Roux Pattern**. Unlike standard soups, we use a massive half-pound of butter to sauté the onions; this provides a fat-moisture barrier that results in a soup with an incredible "Bounce" and sheen. We maintain **Texture Integrity** through **The 30-Minute Low-Simmer**: we cook the tomatoes until the cellulose breaks down completely, then finish with **Half-and-Half and Honey** for a mandatory **Acid-Sweet Finish** that bridge the tart tomatoes.
 
 ## Directions
@@ -34,6 +35,7 @@ This is the definitive restorative soup. The secret to its elite "Velvet" textur
 7.  **Serve:** Return to low heat just to warm through. Serve hot.
 
 ## Serving Suggestions
--   [Sourdough Grilled Cheese](/recipes/grilled-cheese-and-tomato-soup) (Mandatory)
--   [Everyday Arugula Salad](/recipes/everyday-arugula-salad)
--   [Classic Martini](/recipes/classic-martini) (The Cold Standard)
+
+- [Sourdough Grilled Cheese](/recipes/grilled-cheese-and-tomato-soup) (Mandatory)
+- [Everyday Arugula Salad](/recipes/everyday-arugula-salad)
+- [Classic Martini](/recipes/classic-martini) (The Cold Standard)

@@ -22,12 +22,13 @@ ingredients:
 ---
 
 ## Chef's Note
-The secret to chicken meatballs that aren't dry is **Structural Science** through **The Aromatic Bind Pattern**. By grating the ginger and garlic into a paste *before* mixing with the meat, we introduce a massive amount of cellular moisture that protects the lean protein during the sear. We maintain **Texture Integrity** through **The Staged Simmer**: we sear the meatballs to develop a "Snap," then simmer them in the coconut broth for only 5 minutes. The fresh lime juice provides the mandatory **Acid Finish**.
+
+The secret to chicken meatballs that aren't dry is **Structural Science** through **The Aromatic Bind Pattern**. By grating the ginger and garlic into a paste _before_ mixing with the meat, we introduce a massive amount of cellular moisture that protects the lean protein during the sear. We maintain **Texture Integrity** through **The Staged Simmer**: we sear the meatballs to develop a "Snap," then simmer them in the coconut broth for only 5 minutes. The fresh lime juice provides the mandatory **Acid Finish**.
 
 ## Directions
 
 1.  **The Mix:** In a large bowl, combine chicken, half the ginger paste, half the garlic, the jalapeño, cilantro, and 2 tbsp fish sauce. Mix **gently** until tacky.
-2.  **Shape:** Form into 2-inch meatballs. 
+2.  **Shape:** Form into 2-inch meatballs.
 3.  **The Sear:** Heat 2 tbsp oil in a Dutch oven. Brown meatballs in batches (5 mins) until golden. Remove to a plate.
 4.  **The Base:** Wipe the pot. Sauté the remaining ginger/garlic for 1 minute. Add broth, coconut milk, sugar, and remaining fish sauce. Bring to a simmer.
 5.  **Bind:** Return meatballs to the pot. Simmer for 5-8 minutes until cooked through.
@@ -35,6 +36,7 @@ The secret to chicken meatballs that aren't dry is **Structural Science** throug
 7.  **Serve:** Serve hot over [Basmati Rice](/recipes/basmati-rice).
 
 ## Serving Suggestions
--   [Smashed Cucumber Salad](/recipes/smashed-cucumber-salad)
--   [Jasmine Rice (The Silton Standard)](/recipes/basmati-rice)
--   [Thai Basil Ginger Spritzer](/recipes/thai-basil-ginger-spritzer)
+
+- [Smashed Cucumber Salad](/recipes/smashed-cucumber-salad)
+- [Jasmine Rice (The Silton Standard)](/recipes/basmati-rice)
+- [Thai Basil Ginger Spritzer](/recipes/thai-basil-ginger-spritzer)

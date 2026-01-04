@@ -21,18 +21,20 @@ ingredients:
 ---
 
 ## Chef's Note
+
 The secret to wontons that float like clouds is **Structural Science** through **The Directional Emulsion Pattern**. You must stir the pork and liquid seasonings in **one direction only** for 3 minutes until the meat turns into a sticky, tacky paste; this ensures the filling has a resilient "Bounce" that won't crumble. We use **The Heated-Bowl Pattern**: adding the hot broth to the raw seasonings in each individual bowl just before adding the wontons—this provides a fresh, aromatic **High Note** that is lost in a large boiling pot.
 
 ## Directions
 
 1.  **The Filling:** In a large bowl, whisk pork, scallions, ginger, soy, wine, and broth in one direction until sticky.
 2.  **Assemble:** Place 1 tsp filling in the center of a wrapper. Wet the edges with water. Fold into a rectangle, then pinch the two corners together to form a "hat."
-3.  **The Base:** In 4 serving bowls, add a drop of sesame oil, white pepper, and a pinch of salt. 
+3.  **The Base:** In 4 serving bowls, add a drop of sesame oil, white pepper, and a pinch of salt.
 4.  **Boil:** In a large pot of water, boil wontons for 3-4 minutes until they float. During the final 20 seconds, add the bok choy.
-5.  **Bind:** Heat the [Wonton Broth](/recipes/cantonese-wonton-broth) to boiling. Ladle the hot broth into the serving bowls. 
+5.  **Bind:** Heat the [Wonton Broth](/recipes/cantonese-wonton-broth) to boiling. Ladle the hot broth into the serving bowls.
 6.  **Serve:** Transfer the wontons and bok choy to the bowls. Garnish with scallions and chili oil for the final **High Note**.
 
 ## Serving Suggestions
--   [Cantonese Wonton Broth (The Gold Standard)](/recipes/cantonese-wonton-broth)
--   [Smashed Cucumber Salad](/recipes/smashed-cucumber-salad)
--   [Chinese Eggplant with Garlic Sauce](/recipes/chinese-eggplant-with-garlic-sauce)
+
+- [Cantonese Wonton Broth (The Gold Standard)](/recipes/cantonese-wonton-broth)
+- [Smashed Cucumber Salad](/recipes/smashed-cucumber-salad)
+- [Chinese Eggplant with Garlic Sauce](/recipes/chinese-eggplant-with-garlic-sauce)

@@ -20,7 +20,8 @@ ingredients:
 ---
 
 ## Chef's Note
-This is the "Gold Standard" for a technical garden cocktail. The secret to its Success is **The Cold Infusion Pattern**: we boil the sugar and ginger to create a base, but add the Thai basil and Kaffir lime leaves only *after* removing from heat. This preserves the delicate essential oils, providing a floral **Acid Finish** that standard syrups lack. We use **Bruised Basil** in each glass to ensure the aromatic experience precedes the first sip.
+
+This is the "Gold Standard" for a technical garden cocktail. The secret to its Success is **The Cold Infusion Pattern**: we boil the sugar and ginger to create a base, but add the Thai basil and Kaffir lime leaves only _after_ removing from heat. This preserves the delicate essential oils, providing a floral **Acid Finish** that standard syrups lack. We use **Bruised Basil** in each glass to ensure the aromatic experience precedes the first sip.
 
 ## Directions
 
@@ -32,6 +33,7 @@ This is the "Gold Standard" for a technical garden cocktail. The secret to its S
 6.  **Finish:** Stir once very gently to maintain the "Bounce" of the bubbles. Serve immediately.
 
 ## Serving Suggestions
--   [Smashed Cucumber Salad](/recipes/smashed-cucumber-salad)
--   [Thai Basil Chicken & Eggplant](/recipes/stir-fried-chicken-and-eggplant-with-thai-basil)
--   [Oreo Truffles](/recipes/easy-oreo-truffles)
+
+- [Smashed Cucumber Salad](/recipes/smashed-cucumber-salad)
+- [Thai Basil Chicken & Eggplant](/recipes/stir-fried-chicken-and-eggplant-with-thai-basil)
+- [Oreo Truffles](/recipes/easy-oreo-truffles)

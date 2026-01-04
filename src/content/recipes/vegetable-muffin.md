@@ -23,6 +23,7 @@ ingredients:
 ---
 
 ## Chef's Note
+
 These are high-performance **Modularity** components for busy families. The secret to their Success is **Structural Science** through **The High-Speed Emulsion**. You must pulverize the raw greens and wet ingredients in a blender until they form a perfectly smooth, neon-green liquid. This ensures the moisture is evenly distributed, resulting in a cake-like "Bounce" that masks the fibrous greens. The addition of **Apple Cider Vinegar** is the mandatory **Acid Finish** needed to activate the baking soda for a tall rise.
 
 ## Directions
@@ -34,6 +35,7 @@ These are high-performance **Modularity** components for busy families. The secr
 5.  **Cool:** Let rest in the pan for 5 minutes. These freeze perfectly for up to 3 months.
 
 ## Serving Suggestions
--   [Easy Breakfast Yogurt Popsicles](/recipes/easy-breakfast-yogurt-popsicles)
--   Fresh Sliced Apples
--   Cold Glass of Milk
+
+- [Easy Breakfast Yogurt Popsicles](/recipes/easy-breakfast-yogurt-popsicles)
+- Fresh Sliced Apples
+- Cold Glass of Milk

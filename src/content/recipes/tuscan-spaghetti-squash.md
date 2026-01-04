@@ -22,11 +22,12 @@ ingredients:
 ---
 
 ## Chef's Note
+
 The secret to spaghetti squash that doesn't feel like a side dish is **Structural Science** through **The Bacon-Fat Sear Pattern**. We roast the squash flesh-side down to maintain moisture (The "Bounce"), but then toss the "noodles" directly into rendered bacon fat and cream. This creates a savory, emulsified glaze that clings to each strand. We maintain **Texture Integrity** by adding the cherry tomatoes and spinach at the very end—this ensures you have bright, "Snappy" bursts of color against the rich Tuscan cream.
 
 ## Directions
 
-1.  **Roast Squash:** Preheat oven to 400°F. Halve squash, rub with oil, and roast flesh-side down for 40-45 minutes until fork-tender. 
+1.  **Roast Squash:** Preheat oven to 400°F. Halve squash, rub with oil, and roast flesh-side down for 40-45 minutes until fork-tender.
 2.  **Shred:** Let cool for 5 minutes. Use two forks to scrape the flesh into "noodles." Set aside.
 3.  **The Snap:** In a large skillet, fry bacon until crispy. Remove to a plate, leaving the fat in the pan.
 4.  **Aromatics:** Add garlic and cherry tomatoes to the bacon fat. Sauté for 2 minutes until the tomatoes just begin to soften.
@@ -35,6 +36,7 @@ The secret to spaghetti squash that doesn't feel like a side dish is **Structura
 7.  **Serve:** Top with the crispy bacon and fresh basil for the final aromatic **High Note**.
 
 ## Serving Suggestions
--   [Everyday Arugula Salad](/recipes/everyday-arugula-salad)
--   [Garlic Bread](/recipes/garlic-bread)
--   [Classic Martini](/recipes/classic-martini) (The Cold Standard)
+
+- [Everyday Arugula Salad](/recipes/everyday-arugula-salad)
+- [Garlic Bread](/recipes/garlic-bread)
+- [Classic Martini](/recipes/classic-martini) (The Cold Standard)
