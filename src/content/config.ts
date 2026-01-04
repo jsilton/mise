@@ -4,6 +4,7 @@ const recipesCollection = defineCollection({
   type: 'content',
   schema: z.object({
     title: z.string(),
+    category: z.enum(['speed', 'fuel', 'comfort', 'project']).optional(), // Optional for now until migration is complete
     prepTime: z.string().optional(),
     cookTime: z.string().optional(),
     totalTime: z.string().optional(),
