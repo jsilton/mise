@@ -1,36 +1,40 @@
 ---
-title: Chinese Chicken
-prepTime: 20 min
-cookTime: 30 min
-servings: '4'
-ingredients:
-  - '2 lbs boneless chicken thighs, chopped'
-  - '2 large broccoli crowns, cut into florets'
-  - '2 medium yellow onions, chopped'
-  - '3 cloves garlic, minced'
-  - '1/4 cup vegetable oil, separated'
-  - 1/2 cup dry sherry
-  - 3 cups water (split in half)
-  - 1/2 cup soy sauce
-  - 1/4 cup oyster sauce
-  - '1/3 cup corn starch, mixed in 1/2 cup water'
-  - 3 cups white rice
-  - 2 links chinese sausage
-totalTime: 50 min
+title: Chinese Chicken (The Heritage Standard)
 role: main
 vibe: fuel
+prepTime: 20 min
+cookTime: 30 min
+totalTime: 50 min
+servings: '4'
+ingredients:
+  - '2 lbs Chicken Thighs, chopped'
+  - '2 links Chinese Sausage (Lap Cheong)'
+  - '2 large Broccoli Crowns, cut into florets'
+  - '2 large Yellow Onions, chopped'
+  - '3 cloves Garlic, minced'
+  - '--- The Heritage Glaze ---'
+  - '1/2 cup Dry Sherry'
+  - '1/2 cup Soy Sauce'
+  - '1/4 cup Oyster Sauce'
+  - '1/3 cup Cornstarch (mixed with 1/2 cup water)'
+  - '--- The Base ---'
+  - '3 cups White Rice (Jasmine preferred)'
+  - 'Vegetable Oil'
 ---
+
+## Chef's Note
+This recipe is a tribute to **Modern Heritage**. We take a classic stir-fry and elevate it with **The Sausage Hack**: steaming the Chinese sausage directly on top of the rice. This infuses the rice with the sweet, smoky fat of the sausage while keeping the stir-fry clean. We prioritize **Texture Integrity** by searing the broccoli separately first—this ensures it maintains its "Snap" and bright green color while the chicken develops a deep, sherry-infused "Bounce."
 
 ## Directions
 
-1. Start the rice in a rice cooker. After 20 mins, add the chinese sausage wrapped in aluminum foil on top of the rice and complete cooking.
-2. Heat half the oil in a wok on high heat until it sizzles when sprinkling water. Add the broccoli, season with salt, and saute until mostly cooked (bright green color throughout). Remove brocoli from the wok and set aside to add back later.
-3. Heat the second half of the oil on high heat. Add the onions and garlic and saute for 1 minute. Then add the chicken and season with salt and pepper. Cook the chicken on high until the outside is cooked.
-4. Add the dry sherry and simmer for 1 minute. Then add half of the water and bring to a boil. Add the remaining half of the water, soy sauce, oyster sauce, and return to a boil.
-5. Taste and adjust seasoning, then add corn starch until thickened. Mix in brocoili and simmer for 5 minutes.
-6. Remove chinese sausage from rice, cut into 1/4 inch slices, and drizzle with soy sauce on a side dish.
-7. Serve chinese chicken over rice with chinese sausage on the side.
+1.  **The Rice Hack:** Rinse rice and start in a rice cooker. After 20 minutes, place the Chinese sausage (wrapped in foil or directly on top) onto the steaming rice. Complete the cycle.
+2.  **Snap:** Heat oil in a wok until shimmering. Add broccoli and a pinch of salt. Sauté until bright green and slightly tender (3 mins). Remove broccoli and set aside.
+3.  **Sear:** Add fresh oil. Sauté onions and garlic for 1 minute. Add chicken and season with salt and pepper. Cook on high heat until the exterior is browned.
+4.  **Deglaze:** Pour in the dry sherry and simmer for 1 minute to reduce. Add 3 cups water, soy sauce, and oyster sauce. Bring to a boil.
+5.  **Bind:** Whisk the cornstarch slurry and stir into the wok. Simmer for 5 minutes until the sauce is thick and glossy. Fold the broccoli back in.
+6.  **Serve:** Remove sausage from the rice and slice into 1/4-inch coins. Serve the chicken over the fragrant rice with the sausage slices on the side.
 
 ## Serving Suggestions
-
-Near East Rice Pilaf Hack, Everyday Arugula Salad
+-   [Smashed Cucumber Salad](/recipes/smashed-cucumber-salad)
+-   [Chinese Garlic Sauce Base](/recipes/chinese-garlic-sauce-base)
+-   [Quick Pickled Red Onions](/recipes/pickled-red-onions)

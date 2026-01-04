@@ -1,38 +1,40 @@
 ---
-title: Chinese-Style Snapper
+title: Chinese-Style Snapper (The Whole Fish Standard)
+role: main
+vibe: project
 prepTime: 20 min
 cookTime: 50 min
+totalTime: 70 min
 servings: '6'
 ingredients:
-  - '1.8kg whole snapper, scaled, gutted'
-  - '3 garlic cloves, finely chopped'
-  - '7.5cm-piece fresh ginger, peeled, finely shredded'
-  - 60ml (1/4 cup) soy sauce
-  - 60ml (1/4 cup) Massel chicken style liquid stock
-  - 2 tablespoons Chinese rice wine or dry sherry
-  - 3 teaspoons sesame oil
-  - 2 tablespoons peanut oil
-  - '6 shallots, ends trimmed, cut into 10cm lengths, finely shredded'
-  - 1/2 cup fresh coriander leaves
-totalTime: 70 min
-role: main
-vibe: comfort
+  - '1.8 kg Whole Snapper, scaled and gutted'
+  - '3 cloves Garlic, finely chopped'
+  - '3-inch piece Fresh Ginger, finely shredded'
+  - '--- The Umami Braise ---'
+  - '1/4 cup Soy Sauce'
+  - '1/4 cup Chicken Broth'
+  - '2 tbsp Chinese Rice Wine (Shaoxing)'
+  - '3 tsp Toasted Sesame Oil'
+  - '--- The Garnish ---'
+  - '2 tbsp Peanut Oil'
+  - '6 Scallions, shredded into 4-inch threads'
+  - '1/2 cup Fresh Cilantro'
 ---
+
+## Chef's Note
+Cooking a whole fish is the ultimate expression of **Modern Heritage**. To ensure **Texture Integrity**, we use the **Triple Slash Pattern**: cutting three deep slits into the thickest part of the fish. This allows the heat and the seasoning sauce to penetrate the core, preventing the outside from overcooking before the middle is done. We finish with the **Smoking Oil Method**, pouring just-smoking peanut oil over fresh scallions to release their aromatic essence directly into the skin.
 
 ## Directions
 
-1. Preheat oven to 220°C. Line a roasting pan with foil, then with non-stick baking paper.
-2. Wash the snapper under cold running water. Pat dry with paper towel inside and out. Cut 3 slashes, about 1cm deep, in the thickest part of snapper on both sides. Place in the lined pan.
-3. Spread garlic and ginger over the snapper. Combine soy sauce, chicken stock, Chinese rice wine or dry sherry and sesame oil in a jug. Pour over the snapper. Cover the pan tightly with foil. Bake for 45-50 minutes or until snapper flakes easily when tested with a fork. Transfer to a warmed heatproof platter, reserving juices.
-4. Heat peanut oil in saucepan over medium heat until just smoking. Pour over snapper. Pour over the reserved juices. Top with shallot and coriander to serve.
+1.  **Prep:** Preheat oven to 425°F (220°C). Line a roasting pan with foil and then parchment paper.
+2.  **Slash:** Rinse the snapper and pat **extremely dry**. Cut 3 slashes (1cm deep) into each side of the fish. Place in the prepared pan.
+3.  **Season:** Spread half the ginger and garlic into the slits. Whisk soy sauce, broth, rice wine, and sesame oil; pour over the fish.
+4.  **Bake:** Cover the pan tightly with foil to create a steam chamber. Bake for 45-50 minutes until the flesh flakes easily with a fork.
+5.  **Garnish Prep:** Carefully transfer the fish to a warm platter. Reserve the juices from the pan. Pile the scallions and the remaining ginger on top of the fish.
+6.  **The Sizzle:** Heat peanut oil in a small saucepan until just smoking. Carefully pour it over the scallion/ginger pile—it should sizzle loudly.
+7.  **Finish:** Pour the reserved pan juices over the fish. Garnish with cilantro and serve immediately.
 
-## Notes
-
-Time plan tip: Prepare to the end of step 2, 2 hours ahead. Cover and store in the fridge. Continue from step 3, 1 hour before serving.
-
-## Nutrition
-
-- Fat Total: 1.5g
-- Saturated Fat: 1g
-- Protein: 1.5g
-- Carbs (total)
+## Serving Suggestions
+-   [Basmati Rice](/recipes/basmati-rice)
+-   [Steamed Bok Choy with Oyster Sauce](/recipes/steamed-bok-choy-with-oyster-sauce)
+-   [Smashed Cucumber Salad](/recipes/smashed-cucumber-salad)

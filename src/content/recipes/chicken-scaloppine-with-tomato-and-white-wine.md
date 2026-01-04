@@ -1,48 +1,39 @@
 ---
-title: Chicken Scaloppine with Tomato and White Wine
-prepTime: 15 min
-cookTime: 20 min
-servings: '6'
-ingredients:
-  - '2 lbs Boneless, Skinless Chicken Thighs (pounded thin)'
-  - 1/2 cup All-Purpose Flour (for dredging)
-  - 1 tsp Salt
-  - 1 tsp Black Pepper
-  - 3 tbsp Olive Oil
-  - '5 cloves Garlic, minced'
-  - 2 tbsp Tomato Paste
-  - 1/2 cup Dry White Wine (or additional chicken broth)
-  - 1/2 cup Chicken Broth
-  - 1 bag Fresh Spinach (8-10 oz)
-  - 1 tbsp Cold Butter (cut into cubes)
-totalTime: 35 min
+title: Chicken Scaloppine with Tomato & White Wine
 role: main
 vibe: comfort
+prepTime: 15 min
+cookTime: 20 min
+totalTime: 35 min
+servings: '6'
+ingredients:
+  - '2 lbs Chicken Thighs, pounded thin (1/2-inch)'
+  - '1/2 cup All-Purpose Flour'
+  - '3 tbsp Extra-Virgin Olive Oil'
+  - '--- The Flavor Base ---'
+  - '5 cloves Garlic, minced'
+  - '2 tbsp Tomato Paste'
+  - '1/2 cup Dry White Wine (Pinot Grigio or Sauvignon Blanc)'
+  - '1/2 cup Chicken Broth'
+  - '1 bag (9 oz) Fresh Spinach'
+  - '1 tbsp Cold Butter, cubed'
+  - 'Salt and Black Pepper'
 ---
 
-## Description
-
-A rich, savory chicken dish that uses the Marsala method but with a tomato and white wine profile. Pounding the chicken ensures tenderness, while the tomato paste provides a deep umami base. Finished with a "beurre monté" (butter mount) for a glossy, restaurant-quality sauce.
+## Chef's Note
+This dish uses the "Marsala Method" but pivots to a bright, Mediterranean profile. The secret to the deep color and umami is **Blooming the Paste**: we sauté the tomato paste with the garlic until it turns from bright red to a deep brick color—this removes the raw metallic taste and concentrates the sweetness. We maintain **Texture Integrity** by folding the spinach in only during the final 30 seconds, so it stays vibrant green.
 
 ## Directions
 
-1.  **Prep:** Pound the chicken thighs to an even 1/2-inch thickness. This ensures they cook quickly and evenly.
-2.  **Dredge:** Mix flour, salt, and pepper on a plate. Lightly coat each piece of chicken, shaking off any excess.
-3.  **Sear:** Heat olive oil in a large skillet over medium-high heat. Sear chicken for 4 minutes per side until golden and crisp. Remove to a plate.
-4.  **Bloom:** Reduce heat to medium. Add garlic and tomato paste to the pan. Sauté for 2 minutes, stirring constantly, until the paste turns a deep brick-red.
-5.  **Deglaze:** Pour in the white wine (or broth). Use a wooden spoon to scrape up all the browned bits (fond) from the bottom.
-6.  **Simmer:** Add the 1/2 cup chicken broth and return the chicken to the pan. Simmer for 5 minutes until the sauce has thickened and chicken is cooked through.
-7.  **Finish:** Turn heat to low. Stir in the cold butter cubes and the spinach. Toss until the butter is melted into a silky sauce and the spinach is just wilted. Serve immediately.
+1.  **Prep:** Place chicken thighs between plastic wrap and pound to a uniform 1/2-inch thickness.
+2.  **Dredge:** Whisk flour, salt, and pepper. Lightly coat chicken, shaking off any excess.
+3.  **Sear:** In a large skillet, heat oil over medium-high. Sear chicken for 4 minutes per side until golden. Remove to a plate.
+4.  **The Bloom:** Reduce heat to medium. Add garlic and tomato paste. Sauté for 2 minutes, stirring constantly, until the paste is fragrant and dark.
+5.  **Deglaze:** Pour in the wine. Scrape up the fond. Add the chicken broth and return the chicken to the pan.
+6.  **Simmer:** Cook for 5 minutes until the sauce has thickened and the chicken is tender.
+7.  **The Mount:** Turn off the heat. Stir in the cold butter cubes and the spinach. Toss until the butter emulsifies into a silky glaze and the spinach is just wilted.
 
 ## Serving Suggestions
-
-- Near East Rice Pilaf Hack
-- Steamed Broccoli with Garlic
-
-## Nutrition
-
-- Calories: 320 kcal
-- Fat: 18g
-- Sodium: 450mg
-- Carbs: 10g
-- Protein: 32g
+-   [Near East Rice Pilaf Hack](/recipes/near-east-rice-pilaf-hack)
+-   [Steamed Broccoli with Garlic](/recipes/steamed-broccoli)
+-   [Everyday Arugula Salad](/recipes/everyday-arugula-salad)

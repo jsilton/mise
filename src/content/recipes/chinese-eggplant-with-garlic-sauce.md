@@ -1,59 +1,47 @@
 ---
 title: Chinese Eggplant with Garlic Sauce
-prepTime: 15 min
-cookTime: 40 min
-servings: 'Serves: 4 servings'
-ingredients:
-  - ½ cup hot water
-  - 1 tablespoon sugar
-  - 1 tablespoon cornstarch
-  - 1½ tablespoons oyster sauce (or vegetarian oyster sauce)
-  - 1 tablespoon rice vinegar
-  - 1 tablespoon Shaoxing wine (or dry cooking sherry)
-  - 1 tablespoon light soy sauce
-  - 1 teaspoon sesame oil
-  - ½ teaspoon dark soy sauce
-  - 1/8 teaspoon white pepper
-  - 2 tablespoons minced garlic (about 6 cloves garlic; divided)
-  - 1 pound Chinese or Japanese eggplants (2-3 eggplants)
-  - >-
-    4½ tablespoons neutral oil (such as vegetable oil, canola oil, avocado oil,
-    or peanut oil)
-  - '4 ounces ground pork (or ground chicken, optional)'
-  - 2 teaspoons minced ginger
-  - 5-10 dried red chilies (de-seeded and sliced into small pieces)
-  - 2 scallions (chopped)
-  - 1 tablespoon spicy bean paste (la doubanjiang)
-  - 1 teaspoon sesame oil
-  - 1 tablespoon soy sauce
-  - 2 teaspoons sugar
-  - 1 tablespoon shaoxing wine or dry cooking sherry
-  - 1 teaspoon fish sauce
-  - 2-3 Japanese eggplants(about 1 pound or 6 cups)
-  - 2 scallions (cut into 2-inch lengths)
-  - 3 tablespoons oil
-  - 4 oz.//115g ground pork (or ground chicken or turkey)
-  - 2 thin slices ginger (julienned)
-  - 10 dried red chilies
-  - 4 cloves garlic (finely minced)
-  - 1 tablespoon Shaoxing wine or dry cooking sherry
-totalTime: 55 min
-role: base
+role: main
 vibe: fuel
+prepTime: 15 min
+cookTime: 20 min
+totalTime: 35 min
+servings: '4'
+ingredients:
+  - '1 lb Chinese or Japanese Eggplants (2-3 eggplants)'
+  - '4 oz Ground Pork (optional)'
+  - '--- The Garlic Sauce ---'
+  - '2 tbsp Garlic, finely minced'
+  - '2 tsp Fresh Ginger, minced'
+  - '1 1/2 tbsp Oyster Sauce'
+  - '1 tbsp Light Soy Sauce'
+  - '1/2 tsp Dark Soy Sauce (for color)'
+  - '1 tbsp Rice Vinegar'
+  - '1 tbsp Shaoxing Wine'
+  - '1 tsp Toasted Sesame Oil'
+  - '1 tbsp Sugar'
+  - '1 tbsp Cornstarch'
+  - '1/2 cup Hot Water'
+  - '--- The Aromatics ---'
+  - '5-10 Dried Red Chilies, sliced'
+  - '2 Scallions, chopped'
+  - '1 tbsp Spicy Bean Paste (La Doubanjiang)'
+  - 'Neutral Oil'
 ---
+
+## Chef's Note
+The challenge with eggplant is preventing it from becoming an oil-soaked sponge. We use **Texture Integrity** through the **Perimeter Sear Pattern**: instead of deep-frying, we sear the eggplant in a lightly oiled wok over medium heat until the skin is purple-gold and the flesh is translucent but holds its shape. We use the **Angle Cut** (triangular chunks) to maximize the surface area for the **Garlic Sauce** to cling to. The hit of rice vinegar at the end provides the mandatory **High Note**.
 
 ## Directions
 
-1. In a small bowl, add the hot water and stir in the sugar to dissolve. Then add the cornstarch, oyster sauce, rice vinegar, Shaoxing wine, light soy sauce, sesame oil, dark soy sauce, and white pepper. Stir in half of the garlic (1 tablespoon), and set this mixture aside.
-2. When you’re ready to cook, trim the ends off the eggplants and cut them on an angle, rotating the eggplant with each cut, into triangular bite-size chunks. (Don’t leave them out too long, or they will turn brown.
-3. Heat a wok over medium-high heat until it’s smoking lightly, then pour 1½ tablespoons of the neutral oil around the perimeter of the wok to evenly coat it with oil. Spread the eggplant in a single layer, reduce the heat to medium, and cook for 3 to 4 minutes, flipping and stirring occasionally, until the eggplant is lightly browned. Spread another 1½ tablespoons of the oil around the perimeter of the wok. Continue cooking the eggplant (still in a single layer) for another 4 minutes, stirring occasionally, until evenly seared, soft, and slightly translucent. (You may want to do this in two batches.) Remove the eggplant from the wok and set on a plate.
-4. Increase the heat to high and add the remaining 1½ tablespoons oil to the wok. Add the ground pork (if using) and cook until opaque, breaking it up into small bits as you go. Add the ginger, dried chilies, and the remaining tablespoon of garlic. Cook for 1 to 2 minutes, stirring constantly, until the aromatics are toasted and fragrant.
-5. Add the eggplant back to the wok, and stir-fry until combined. Stir the sauce again to ensure the cornstarch is well combined with the liquid, then add it to the wok. Mix well and bring to a simmer, cooking until the sauce is just thick enough to coat a spoon. Stir in the scallions and serve immediately.
+1.  **The Sauce:** Whisk together all garlic sauce ingredients (including half of the minced garlic) until the sugar and cornstarch are dissolved. Set aside.
+2.  **Angle Cut:** Cut eggplants on an angle, rotating the eggplant 90 degrees after each cut to create triangular chunks.
+3.  **The Sear:** Heat 1.5 tbsp oil in a wok over medium-high heat. Spread eggplant in a single layer. Sear for 4 minutes, flipping occasionally until browned. Add another 1.5 tbsp oil if needed and continue for 4 more minutes until soft but not mushy. Remove eggplant.
+4.  **Aromatics:** Increase heat to high. Add remaining oil. Brown the ground pork (if using). Add the ginger, chilies, and the remaining garlic. Stir-fry for 1 minute until fragrant.
+5.  **The Glaze:** Add eggplant back to the wok. Give the sauce a final stir and pour it in. 
+6.  **Simmer:** Simmer for 1-2 minutes until the sauce is thick enough to coat a spoon and the eggplant is glossy.
+7.  **Finish:** Stir in scallions and serve immediately with steamed rice.
 
-## Nutrition
-
-- Calories: 293kcal (15%) Carbohydrates: 15g (5%) Protein: 7g (14%) Fat: 23g (35%) Saturated Fat: 4g (20%)Polyun
-- saturated Fat: 6g
-- saturated Fat: 13g
-- Trans Fat: 0.1g
-- Cholesterol: 20mg (7%) Sodium: 500mg (21%) Potassium: 405mg (12%) Fiber: 4g (16%) Sugar: 8g (9%) Vitamin A: 254IU (5%) Vitamin C: 5mg (6%) Calcium: 31mg (3%) Iron: 1mg (6%)
+## Serving Suggestions
+-   [Basmati Rice](/recipes/basmati-rice)
+-   [Smashed Cucumber Salad](/recipes/smashed-cucumber-salad)
+-   [Cantonese Wonton Broth](/recipes/cantonese-wonton-broth)

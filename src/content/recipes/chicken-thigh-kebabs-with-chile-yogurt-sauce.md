@@ -1,27 +1,36 @@
 ---
 title: Chicken Thigh Kebabs with Chile-Yogurt Sauce
-cookTime: 40 min
-servings: 'Serves : 4'
-ingredients:
-  - 1/2 cup plus 1 tablespoon extra-virgin olive oil
-  - 2 tablespoons sweet paprika
-  - >-
-    8 boneless, skin-on chicken thighs (1 3/4 pounds), trimmed of excess fat and
-    each thigh cut into 3 pieces
-  - 1 cup plain Greek yogurt
-  - 1 tablespoon fresh lemon juice
-  - 1/2 teaspoon cayenne
-  - 1/4 teaspoon crushed red pepper
-  - Kosher salt
-  - Pepper
-  - 'Lemon wedges, for serving'
-totalTime: 40 min
-role: base
+role: main
 vibe: fuel
+prepTime: 20 min
+cookTime: 10 min
+totalTime: 45 min
+servings: '4'
+ingredients:
+  - '1 3/4 lbs Boneless, Skin-on Chicken Thighs, cut into 3 pieces each'
+  - '1/2 cup + 1 tbsp Extra-Virgin Olive Oil'
+  - '2 tbsp Sweet Paprika'
+  - '--- The Chile-Yogurt Sauce ---'
+  - '1 cup Plain Greek Yogurt'
+  - '1 tbsp Fresh Lemon Juice'
+  - '1/2 tsp Cayenne Pepper'
+  - '1/4 tsp Red Pepper Flakes'
+  - 'Salt and Black Pepper'
+  - 'Lemon wedges for serving'
 ---
+
+## Chef's Note
+This is a high-protein "Fuel" meal that relies on **Structural Science** for its tenderness. By using **Greek Yogurt** in the sauce and lemon juice as an **Enzyme Tenderizer**, we break down the chicken's muscle fibers before they hit the high heat of the grill. The paprika-oil marinade provides the "Snap" and deep color. Always use **Skin-on** thighs if possible—the rendered fat provides the "High Note" of flavor that skinless meat lacks.
 
 ## Directions
 
-1. In a large bowl, whisk 1/2 cup of the olive oil with the paprika. Add the chicken and toss to coat; let stand at room temperature for 15 minutes.
-2. Meanwhile, in a small bowl, mix the yogurt, lemon juice, cayenne, crushed red pepper and the remaining 1 tablespoon of olive oil. Season with salt and black pepper and mix well.
-3. Light a grill. Season the chicken with salt and black pepper and thread 3 pieces onto each of 8 skewers. Oil the grate and grill the chicken over moderate heat, turning occasionally, until golden brown and cooked through, about 10 minutes. Transfer the skewers to a serving platter and serve with the yogurt sauce and lemon wedges.
+1.  **The Paprika Rub:** In a large bowl, whisk 1/2 cup olive oil with the paprika. Toss the chicken pieces to coat. Let stand at room temperature for 15-20 minutes.
+2.  **The Sauce:** In a small bowl, whisk yogurt, lemon juice, cayenne, red pepper flakes, and the remaining 1 tbsp olive oil. Season with salt and pepper. Chill until ready to serve.
+3.  **Skewer:** Thread 3 chicken pieces onto each of 8 skewers. Season the outside of the kebabs with salt and pepper.
+4.  **Grill:** Preheat grill to medium-high. Oil the grates. Grill kebabs for 10-12 minutes, turning occasionally, until the skin is crispy and the internal temp is 165°F.
+5.  **Serve:** Transfer to a platter. Serve immediately with the chilled yogurt sauce and lemon wedges.
+
+## Serving Suggestions
+-   [Basmati Rice](/recipes/basmati-rice)
+-   [Smashed Cucumber Salad](/recipes/smashed-cucumber-salad)
+-   Warm [Homemade Naan](/recipes/homemade-naan)

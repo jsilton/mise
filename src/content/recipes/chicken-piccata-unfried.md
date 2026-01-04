@@ -1,5 +1,5 @@
 ---
-title: 'Chicken Piccata (Un-Fried)'
+title: Chicken Piccata (The Un-Fried Standard)
 role: main
 vibe: speed
 prepTime: 10 min
@@ -7,30 +7,31 @@ cookTime: 15 min
 totalTime: 25 min
 servings: '4'
 ingredients:
-  - '2 large chicken breasts, halved horizontally (cutlets) or pounded thin'
-  - 'Salt and freshly ground black pepper'
-  - '2 tablespoons olive oil'
-  - '2 cloves garlic, minced'
-  - '1/2 cup chicken broth'
-  - '2 tablespoons fresh lemon juice'
-  - '2 tablespoons cold butter, cubed'
-  - 'Fresh parsley, chopped'
+  - '2 large Chicken Breasts, halved horizontally (cutlets) and pounded thin'
+  - '2 tbsp Extra-Virgin Olive Oil'
+  - '2 cloves Garlic, minced'
+  - '--- The Silky Glaze ---'
+  - '1/2 cup Chicken Broth'
+  - '2 tbsp Fresh Lemon Juice'
+  - '2 tbsp Cold Butter, cubed (The Butter Mount)'
+  - '2 tbsp Capers, drained'
+  - 'Fresh Parsley, chopped'
+  - 'Salt and Black Pepper'
 ---
 
-## Description
-
-A lighter, faster take on the classic. We skip the flour dredging to keep the sauce clean and the chicken tender without the heavy breading. The sauce is emulsified with cold butter at the end for a glossy finish.
+## Chef's Note
+We skip the traditional flour dredging to keep this dish light and the flavors clean. The secret to a "Restaurant Quality" piccata without the mess is the **Structural Science** of the **Monter au Beurre** (The Butter Mount). By whisking cold butter into the hot lemon broth off the heat, we create a stable, glossy emulsion that clings to the chicken. The capers and lemon provide the mandatory **High Note** finish to cut through the richness.
 
 ## Directions
 
-1.  Season chicken cutlets generously with salt and pepper on both sides.
-2.  Heat olive oil in a large skillet over medium-high heat. Sear chicken for 3-4 minutes per side until golden brown and cooked through. Remove chicken to a plate.
-3.  Reduce heat to medium. Add garlic to the pan and sauté for 30 seconds (do not burn).
-4.  Pour in chicken broth and lemon juice, scraping up any browned bits (fond) from the bottom of the pan. Simmer for 3 minutes to reduce slightly.
-5.  **The Mount:** Turn off the heat. Add the cold butter cubes and whisk vigorously until melted. This creates a creamy emulsion without cream.
-6.  Return chicken to the pan to coat in the sauce. Garnish with parsley.
+1.  **Prep:** Pound chicken cutlets to an even 1/4-inch thickness. Season generously with salt and pepper.
+2.  **Sear:** Heat oil in a large skillet over medium-high heat. Sear chicken for 3-4 minutes per side until golden brown and cooked through. Remove to a plate.
+3.  **Aromatics:** Reduce heat to medium. Add garlic and capers to the pan. Sauté for 30 seconds until fragrant.
+4.  **Deglaze:** Pour in chicken broth and lemon juice. Scrape the bottom of the pan to release the fond. Simmer for 3 minutes to reduce by a third.
+5.  **The Magic:** Turn off the heat. Add the cold butter cubes and whisk vigorously until melted into a silky, opaque glaze.
+6.  **Finish:** Return chicken to the pan to coat. Garnish with plenty of fresh parsley.
 
 ## Serving Suggestions
-
-- Pasta al Limone or Angel Hair
-- Roasted Asparagus
+-   [Everyday Arugula Salad](/recipes/everyday-arugula-salad)
+-   [Pasta al Limone](/recipes/pasta-al-limone)
+-   [Roasted Asparagus](/recipes/roasted-asparagus)
