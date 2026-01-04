@@ -1,28 +1,35 @@
----
-title: Green Beans with Shallots and Lemon
-prepTime: 5 min
-cookTime: 10 min
-servings: 'Servings: 4'
-ingredients:
-  - 1 lb green beans
-  - '2 shallots, finely diced'
-  - '1 tbsp butter, or olive oil'
-  - 1 tbsp honey
-  - '1 lemon, zested'
-  - salt and pepper
-totalTime: 15 min
+--- 
+title: Green Beans with Shallots & Lemon
 role: side
 vibe: speed
+prepTime: 5 min
+cookTime: 10 min
+totalTime: 15 min
+servings: '4'
+ingredients:
+  - '1 lb Fresh Green Beans, trimmed'
+  - '2 Shallots, finely diced'
+  - '1 tbsp Unsalted Butter or Olive Oil'
+  - '1 tbsp Honey'
+  - '1 Lemon, zested and juiced (The High Note)'
+  - 'Salt and Black Pepper'
 ---
+
+## Chef's Note
+This is the "Gold Standard" for a fresh vegetable side. The secret to the vibrant green color and perfect "Snap" is **Structural Science** through **The Blanch-and-Shock Pattern**. You must boil the beans for exactly 3 minutes and then plunge them into an ice bath—this locks in the chlorophyll and prevents them from turning into mushy brown pods. We use a **Honey-Lemon Glaze**: the sweetness of the honey balances the sharp **Acid Finish** of the lemon, ensuring the shallots are glazed rather than just sautéed.
 
 ## Directions
 
-1. Bring a medium-sized pot of salted water to a boil.
-2. Add the green beans and blanch in the boiling water for 3-4 minutes. While the beans are cooking, fill a large bowl with ice water. Drain the beans with a colander and immediately transfer to the ice water to stop the cooking process. Drain again and set aside.
-3. Heat the butter in a large pan over medium-high heat. Add the diced shallots and saute for 1-2 minutes.
-4. Add the honey to the pan and stir with the shallots for a minute more.
-5. Add the green beans and lemon zest to the pan and stir together for a couple of minutes, until warmed through. Season with salt and pepper and serve immediately.
+1.  **Thermal Prep:** Bring a large pot of salted water to a boil. Prepare a large bowl with ice and cold water.
+2.  **Blanch:** Cook green beans in the boiling water for 3-4 minutes until bright green.
+3.  **Shock:** Immediately drain and submerge in the ice water. **Let sit for 2 minutes**, then drain and pat **bone-dry**.
+4.  **Aromatics:** In a large skillet, melt butter over medium-high heat. Sauté shallots for 2 minutes until translucent. 
+5.  **Glaze:** Add the honey and lemon juice. Stir for 1 minute until bubbling.
+6.  **Toss:** Add the dry green beans and lemon zest to the pan. Toss vigorously for 2 minutes until the beans are warmed through and coated in a glossy, sweet-acidic film.
+7.  **Serve:** Season with salt and black pepper. Serve immediately.
 
-## Nutrition
+## Serving Suggestions
+-   [Buttermilk Baked Chicken](/recipes/buttermilk-baked-chicken)
+-   [Chicken Marsala](/recipes/chicken-marsala)
+-   [Everyday Arugula Salad](/recipes/everyday-arugula-salad)
 
-- CALORIES: 93.04KCAL | CARBOHYDRATES: 16.85G | PROTEIN: 2.73G | FAT: 3.18G | SATURATED FAT: 1.87G | CHOLESTEROL: 7.53MG | SODIUM: 34.05MG | POTASSIUM: 318.28MG | FIBER: 4.22G | SUGAR: 9.67G | VITAMIN A: 869.91IU | VITAMIN C: 29.15MG | CALCIUM: 53.6MG | IRON: 1.48MG

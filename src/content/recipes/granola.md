@@ -1,25 +1,39 @@
 ---
-title: Granola
-ingredients:
-  - '2 cups old fashioned oats, not quick or instant'
-  - >-
-    1/2 cup nots (almonds, walnuts, pecans, unsalted sunflower sees, sesame
-    seeds)
-  - Generous 1/3 cup pure maple syrup
-  - 1/2 cup canola oil
-  - 1.5-2 tsp vanilla
-  - 1 tsp ground cinnamon
-  - '1/2 cup dried fruit (raisins, cranberries, blueberries)'
-role: main
+title: Silton House Granola
+role: base
 vibe: fuel
-servings: Unknown
+prepTime: 10 min
+cookTime: 25 min
+totalTime: 35 min
+servings: '6 cups'
+ingredients:
+  - '2 cups Old-fashioned Rolled Oats (not quick)'
+  - '1/2 cup Mixed Nuts (Almonds, Walnuts, Pecans), chopped'
+  - '1/4 cup Seeds (Sunflower or Sesame)'
+  - '1/2 cup Canola or Avocado Oil'
+  - '1/3 cup Pure Maple Syrup'
+  - '--- The Flavor Triple-Threat ---'
+  - '2 tsp Pure Vanilla Extract'
+  - '1 tsp Ground Cinnamon'
+  - '1/2 tsp Sea Salt'
+  - '--- The Finish ---'
+  - '1/2 cup Dried Fruit (Raisins or Cranberries)'
 ---
+
+## Chef's Note
+This is the baseline **Modularity** component for all Silton breakfasts. The secret to "Gold Standard" clusters is **Structural Science** through **The Syrup Bind Pattern**: we whisk the oil and maple syrup into a stable emulsion before pouring over the oats—this ensures every grain is coated in a thin "guard" that caramelizes in the oven. We maintain **Texture Integrity** by using a **Three-Stage Bake**: we roast at 350°F and stir twice to ensure even browning, but we only add the dried fruit *after* the granola has cooled to prevent it from turning into rock-hard bullets.
 
 ## Directions
 
-1. Preheat oven to 350 degrees.
-2. Put oats, nuts, and wheat germ in large bowl.
-3. In another bowl, mix syrup, oil, cinnamon and vanilla together. Pour over oats and nuts.
-4. Mix and spread in single layer on cookie sheet.
-5. Bake 18-29 minutes, stirring a couple of time until golden.
-6. Let cool and then stir in fruit. Store in an airtight container.
+1.  **Dry Mix:** Preheat oven to 350°F. In a large bowl, toss together oats, nuts, and seeds.
+2.  **The Emulsion:** In a separate jar or bowl, whisk together the oil, maple syrup, vanilla, cinnamon, and salt until smooth and uniform.
+3.  **Combine:** Pour the liquid emulsion over the dry mix. Toss with a spatula until the oats look dark and saturated.
+4.  **The Roast:** Spread the mixture in a thin, even layer on a large rimmed baking sheet.
+5.  **Stir:** Bake for 20-25 minutes. **Stir the granola every 8 minutes** to ensure the edges don't burn and the center gets crispy.
+6.  **The Set:** Remove from the oven when deep golden brown. The granola will still feel soft; it will "Snap" only after cooling.
+7.  **Finish:** Once stone-cold, stir in the dried fruit. Store in an airtight glass jar for up to 3 weeks.
+
+## Serving Suggestions
+-   [Easy Breakfast Yogurt Popsicles](/recipes/easy-breakfast-yogurt-popsicles)
+-   [Chocolate Blended Oats](/recipes/chocolate-blended-oats-with-raspberry-chia-jam)
+-   [Easy Chia Pudding](/recipes/easy-chia-pudding)

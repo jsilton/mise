@@ -1,45 +1,43 @@
 ---
-title: Greek Turkey Meatball Gyro with Tzatziki
+title: Greek Turkey Meatball Gyro
+role: main
+vibe: speed
 prepTime: 10 min
 cookTime: 16 min
-servings: 'Serves: 4 gyros'
-ingredients:
-  - 1 lb. ground turkey
-  - ¼ cup finely diced red onion
-  - '2 garlic cloves, minced'
-  - 1 teaspoon oregano
-  - 1 cup chopped fresh spinach
-  - salt & pepper to season
-  - 2 tablespoons olive oil
-  - ½ cup plain greek yogurt
-  - ¼ cup grated cucumber
-  - 2 tablespoons lemon juice
-  - ½ teaspoon dry dill
-  - ½ teaspoon garlic powder
-  - salt to taste
-  - ½ cup thinly sliced red onion
-  - 1 cup diced tomato
-  - 1 cup diced cucumber
-  - 4 whole wheat flatbreads
 totalTime: 26 min
-role: main
-vibe: holiday
+servings: '4 gyros'
+ingredients:
+  - '1 lb Ground Turkey (93/7 fat ratio)'
+  - '1 cup Fresh Spinach, chopped'
+  - '1/4 cup Red Onion, finely diced'
+  - '2 cloves Garlic, minced'
+  - '1 tsp Dried Oregano'
+  - '2 tbsp Extra-Virgin Olive Oil'
+  - '--- The Lemon Tzatziki ---'
+  - '1/2 cup Plain Greek Yogurt'
+  - '1/4 cup Cucumber, grated and squeezed dry'
+  - '2 tbsp Fresh Lemon Juice (The High Note)'
+  - '1/2 tsp Dried Dill'
+  - '1/2 tsp Garlic Powder'
+  - '--- For Assembly ---'
+  - '4 Whole Wheat Flatbreads or Pitas'
+  - 'Sliced Red Onion, Diced Tomato, and Diced Cucumber'
+  - 'Salt and Black Pepper'
 ---
+
+## Chef's Note
+Turkey meatballs are the ultimate "Fuel" but often lack the "Bounce" of beef or lamb. We solve this with **Texture Integrity** through **The Spinach-Moisture Guard Pattern**: by folding in a massive cup of chopped fresh spinach, we create internal moisture pockets that keep the turkey succulent during the high-heat sear. The tzatziki provides the mandatory **Acid Finish**; the secret is squeezing the grated cucumber in a towel until **bone-dry** before adding to the yogurt—this ensures the sauce is thick and creamy rather than a watery mess.
 
 ## Directions
 
-1. To a large bowl add, ground turkey, diced red onion, minced garlic, oregano, fresh spinach, salt, and pepper. Using your hands mix all the ingredients together until meat forms a ball and sticks together.
-2. Then using your hands, form meat mixture into 1" balls. (you should be able to get about 12 meatballs).
-3. Heat a large skillet to medium high heat. Add olive oil to the pan, and then add the meatballs. Cook each side for 3-4 minutes until they are browned on all sides. Remove from the pan and let rest.
-4. In the meantime, to a small bowl add greek yogurt, grated cucumber, lemon juice, dill, garlic powder, and salt to taste. Mix together until everything is combined.
-5. Assemble the gyros: to a flatbread (I like to warm mine up so they are more pliable) add 3 meatballs, sliced red onion, tomato, and cucumber. Then top with Tzatziki sauce.
+1.  **The Mix:** In a large bowl, combine turkey, onion, garlic, oregano, chopped spinach, salt, and pepper. Use your hands to mix **gently** until just combined.
+2.  **The Snap:** Form the mixture into 12 uniform 1-inch balls. 
+3.  **The Sear:** Heat 2 tbsp oil in a large skillet over medium-high. Add the meatballs. Cook for 3-4 minutes per side (8-10 mins total) until browned on all sides and the internal temp is 165°F.
+4.  **The Sauce:** While meatballs cook, whisk yogurt, squeezed-dry cucumber, lemon juice, dill, and garlic powder in a small bowl. Season with salt.
+5.  **Assemble:** Warm the flatbreads in the microwave or on the skillet. Place 3 meatballs in the center of each. 
+6.  **Finish:** Top with raw red onion, tomatoes, and cucumber. Drizzle generously with the tzatziki for the mandatory **High Note**.
 
-## Nutrition
-
-- Calories: 429Total Carbohydrates: 38 g
-- Cholesterol: 91 mg
-- Total Fat: 19 gDietary fiber: 3 g
-- Protein: 28 g
-- Saturated fat: 3 gAmount Per: 1 flatbread + 3 meatball
-- Sodium: 630 mg
-- Sugar: 4 g
+## Serving Suggestions
+-   [Everyday Arugula Salad](/recipes/everyday-arugula-salad)
+-   [Smashed Cucumber Salad](/recipes/smashed-cucumber-salad)
+-   [Roasted Green Bean "Fries"](/recipes/roasted-green-bean-fries)

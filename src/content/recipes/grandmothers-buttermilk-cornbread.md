@@ -1,30 +1,37 @@
 ---
 title: Grandmother's Buttermilk Cornbread
-prepTime: 15 min
-cookTime: 30 min
+role: side
+vibe: comfort
+prepTime: 10 min
+cookTime: 25 min
+totalTime: 35 min
 servings: '9'
 ingredients:
-  - ½ cup butter
-  - ⅔ cup white sugar
-  - 2 large eggs
-  - 1 cup buttermilk
-  - ½ teaspoon baking soda
-  - 1 cup cornmeal
-  - 1 cup all-purpose flour
-  - ¼ teaspoon salt
-totalTime: 45 min
-role: side
-vibe: fuel
+  - '1 cup Yellow Cornmeal'
+  - '1 cup All-Purpose Flour'
+  - '1 cup Whole Buttermilk'
+  - '1/2 cup (1 stick) Unsalted Butter'
+  - '2/3 cup Granulated Sugar'
+  - '2 large Eggs'
+  - '1/2 tsp Baking Soda'
+  - '1/4 tsp Sea Salt'
 ---
+
+## Chef's Note
+The difference between average cornbread and the Silton Standard is **Structural Science** through **The Skillet Sizzle Pattern**. You must preheat your cast-iron skillet *with* the butter inside until it is screaming hot and foaming. When you pour the cold batter into the hot oil, it creates an immediate deep-gold "Snap" on the bottom crust that is unattainable in a cold baking dish. The **Buttermilk and Baking Soda** reaction provides the necessary "Bounce" and lift.
 
 ## Directions
 
-1. Gather all ingredients.
-2. Preheat the oven to 375 degrees F (175 degrees C). Grease an 8-inch square pan.
-3. Melt butter in a large skillet or saucepan over medium heat. Remove from heat and stir in sugar. Quickly whisk in eggs.
-4. Combine buttermilk and baking soda in a small bowl; whisk mixture into the skillet. Stir in cornmeal, flour, and salt until well-blended and only a few lumps remain.
-5. Pour batter into the prepared pan.
-6. Bake in the preheated oven until a toothpick inserted in the center comes out clean, 30 to 40 minutes.
-7. Serve and enjoy!
-8. From the Editor
-9. To make this cornbread recipe in a skillet: Place a 9-inch cast iron skillet in the oven to heat while you prepare the batter. Carefully remove the skillet using oven mitts and add ½ cup butter. Let the butter melt completely, swirling to coat the bottom and sides of the pan. Pour prepared cornbread batter into the hot, buttered skillet. Bake in the preheated oven until golden brown and a toothpick inserted in the center comes out clean, 25 to 30 minutes.
+1.  **Thermal Prep:** Place a 9-inch cast-iron skillet in the oven and preheat to 375°F. 
+2.  **Dry Mix:** In a medium bowl, whisk together cornmeal, flour, and salt.
+3.  **Wet Mix:** In a separate bowl, whisk the buttermilk and baking soda until bubbly. Whisk in the eggs.
+4.  **The Sizzle:** Carefully remove the hot skillet from the oven using mitts. Add the 1/2 cup butter and swirl until completely melted and starting to brown. 
+5.  **The Emulsion:** Pour the melted butter into the sugar in a large bowl; whisk well. Add the buttermilk mixture. 
+6.  **Combine:** Gradually add the dry ingredients to the wet. Stir until **just combined** (a few lumps are mandatory for texture).
+7.  **Bake:** Pour the batter into the hot, buttered skillet. Bake for 25-30 minutes until a toothpick inserted in the center comes out clean and the edges are pulled away from the pan.
+8.  **Serve:** Serve warm directly from the skillet with honey and extra butter.
+
+## Serving Suggestions
+-   [Turkey and Sweet Potato Chili](/recipes/chili)
+-   [Crockpot Vegetarian Chili](/recipes/crockpot-vegetarian-chili)
+-   [Buttermilk Baked Chicken](/recipes/buttermilk-baked-chicken)
