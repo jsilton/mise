@@ -1,4 +1,4 @@
---- 
+---
 title: Green Beans with Shallots & Lemon
 role: side
 vibe: speed
@@ -16,6 +16,7 @@ ingredients:
 ---
 
 ## Chef's Note
+
 This is the "Gold Standard" for a fresh vegetable side. The secret to the vibrant green color and perfect "Snap" is **Structural Science** through **The Blanch-and-Shock Pattern**. You must boil the beans for exactly 3 minutes and then plunge them into an ice bath—this locks in the chlorophyll and prevents them from turning into mushy brown pods. We use a **Honey-Lemon Glaze**: the sweetness of the honey balances the sharp **Acid Finish** of the lemon, ensuring the shallots are glazed rather than just sautéed.
 
 ## Directions
@@ -23,13 +24,13 @@ This is the "Gold Standard" for a fresh vegetable side. The secret to the vibran
 1.  **Thermal Prep:** Bring a large pot of salted water to a boil. Prepare a large bowl with ice and cold water.
 2.  **Blanch:** Cook green beans in the boiling water for 3-4 minutes until bright green.
 3.  **Shock:** Immediately drain and submerge in the ice water. **Let sit for 2 minutes**, then drain and pat **bone-dry**.
-4.  **Aromatics:** In a large skillet, melt butter over medium-high heat. Sauté shallots for 2 minutes until translucent. 
+4.  **Aromatics:** In a large skillet, melt butter over medium-high heat. Sauté shallots for 2 minutes until translucent.
 5.  **Glaze:** Add the honey and lemon juice. Stir for 1 minute until bubbling.
 6.  **Toss:** Add the dry green beans and lemon zest to the pan. Toss vigorously for 2 minutes until the beans are warmed through and coated in a glossy, sweet-acidic film.
 7.  **Serve:** Season with salt and black pepper. Serve immediately.
 
 ## Serving Suggestions
--   [Buttermilk Baked Chicken](/recipes/buttermilk-baked-chicken)
--   [Chicken Marsala](/recipes/chicken-marsala)
--   [Everyday Arugula Salad](/recipes/everyday-arugula-salad)
 
+- [Buttermilk Baked Chicken](/recipes/buttermilk-baked-chicken)
+- [Chicken Marsala](/recipes/chicken-marsala)
+- [Everyday Arugula Salad](/recipes/everyday-arugula-salad)

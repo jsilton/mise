@@ -26,18 +26,20 @@ ingredients:
 ---
 
 ## Chef's Note
+
 Turkey meatballs are the ultimate "Fuel" but often lack the "Bounce" of beef or lamb. We solve this with **Texture Integrity** through **The Spinach-Moisture Guard Pattern**: by folding in a massive cup of chopped fresh spinach, we create internal moisture pockets that keep the turkey succulent during the high-heat sear. The tzatziki provides the mandatory **Acid Finish**; the secret is squeezing the grated cucumber in a towel until **bone-dry** before adding to the yogurt—this ensures the sauce is thick and creamy rather than a watery mess.
 
 ## Directions
 
 1.  **The Mix:** In a large bowl, combine turkey, onion, garlic, oregano, chopped spinach, salt, and pepper. Use your hands to mix **gently** until just combined.
-2.  **The Snap:** Form the mixture into 12 uniform 1-inch balls. 
+2.  **The Snap:** Form the mixture into 12 uniform 1-inch balls.
 3.  **The Sear:** Heat 2 tbsp oil in a large skillet over medium-high. Add the meatballs. Cook for 3-4 minutes per side (8-10 mins total) until browned on all sides and the internal temp is 165°F.
 4.  **The Sauce:** While meatballs cook, whisk yogurt, squeezed-dry cucumber, lemon juice, dill, and garlic powder in a small bowl. Season with salt.
-5.  **Assemble:** Warm the flatbreads in the microwave or on the skillet. Place 3 meatballs in the center of each. 
+5.  **Assemble:** Warm the flatbreads in the microwave or on the skillet. Place 3 meatballs in the center of each.
 6.  **Finish:** Top with raw red onion, tomatoes, and cucumber. Drizzle generously with the tzatziki for the mandatory **High Note**.
 
 ## Serving Suggestions
--   [Everyday Arugula Salad](/recipes/everyday-arugula-salad)
--   [Smashed Cucumber Salad](/recipes/smashed-cucumber-salad)
--   [Roasted Green Bean "Fries"](/recipes/roasted-green-bean-fries)
+
+- [Everyday Arugula Salad](/recipes/everyday-arugula-salad)
+- [Smashed Cucumber Salad](/recipes/smashed-cucumber-salad)
+- [Roasted Green Bean "Fries"](/recipes/roasted-green-bean-fries)

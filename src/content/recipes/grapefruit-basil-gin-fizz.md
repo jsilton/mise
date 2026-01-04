@@ -18,7 +18,8 @@ ingredients:
 ---
 
 ## Chef's Note
-The secret to a "Gold Standard" herbal cocktail is **Structural Science** through **The Aromatic Muddle Pattern**. You must muddle the basil *before* adding the liquid; this releases the chlorophyll and essential oils into the base of the glass, creating a botanical "Bounce" that defines the drink. The fresh grapefruit provides the mandatory **Acid Finish**, which we amplify with Angostura bitters to bridge the gap between the bitter tonic and the sweet juice.
+
+The secret to a "Gold Standard" herbal cocktail is **Structural Science** through **The Aromatic Muddle Pattern**. You must muddle the basil _before_ adding the liquid; this releases the chlorophyll and essential oils into the base of the glass, creating a botanical "Bounce" that defines the drink. The fresh grapefruit provides the mandatory **Acid Finish**, which we amplify with Angostura bitters to bridge the gap between the bitter tonic and the sweet juice.
 
 ## Directions
 
@@ -30,7 +31,8 @@ The secret to a "Gold Standard" herbal cocktail is **Structural Science** throug
 6.  **The Slap:** Take the basil sprig, slap it between your palms to release the scent, and tuck it into the ice as a garnish.
 
 ## Serving Suggestions
--   [Oreo Truffles](/recipes/easy-oreo-truffles)
--   [Mediterranean Pinwheels](/recipes/mediterranean-pinwheels-vegetarian-appetizer-vegan-and-low-carb-options)
--   Grilled Shrimp
--   [Zucchini Herb Fritters](/recipes/zucchini-herb-fritters-with-garlic-yogurt)
+
+- [Oreo Truffles](/recipes/easy-oreo-truffles)
+- [Mediterranean Pinwheels](/recipes/mediterranean-pinwheels-vegetarian-appetizer-vegan-and-low-carb-options)
+- Grilled Shrimp
+- [Zucchini Herb Fritters](/recipes/zucchini-herb-fritters-with-garlic-yogurt)

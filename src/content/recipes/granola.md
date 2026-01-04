@@ -21,7 +21,8 @@ ingredients:
 ---
 
 ## Chef's Note
-This is the baseline **Modularity** component for all Silton breakfasts. The secret to "Gold Standard" clusters is **Structural Science** through **The Syrup Bind Pattern**: we whisk the oil and maple syrup into a stable emulsion before pouring over the oats—this ensures every grain is coated in a thin "guard" that caramelizes in the oven. We maintain **Texture Integrity** by using a **Three-Stage Bake**: we roast at 350°F and stir twice to ensure even browning, but we only add the dried fruit *after* the granola has cooled to prevent it from turning into rock-hard bullets.
+
+This is the baseline **Modularity** component for all Silton breakfasts. The secret to "Gold Standard" clusters is **Structural Science** through **The Syrup Bind Pattern**: we whisk the oil and maple syrup into a stable emulsion before pouring over the oats—this ensures every grain is coated in a thin "guard" that caramelizes in the oven. We maintain **Texture Integrity** by using a **Three-Stage Bake**: we roast at 350°F and stir twice to ensure even browning, but we only add the dried fruit _after_ the granola has cooled to prevent it from turning into rock-hard bullets.
 
 ## Directions
 
@@ -34,6 +35,7 @@ This is the baseline **Modularity** component for all Silton breakfasts. The sec
 7.  **Finish:** Once stone-cold, stir in the dried fruit. Store in an airtight glass jar for up to 3 weeks.
 
 ## Serving Suggestions
--   [Easy Breakfast Yogurt Popsicles](/recipes/easy-breakfast-yogurt-popsicles)
--   [Chocolate Blended Oats](/recipes/chocolate-blended-oats-with-raspberry-chia-jam)
--   [Easy Chia Pudding](/recipes/easy-chia-pudding)
+
+- [Easy Breakfast Yogurt Popsicles](/recipes/easy-breakfast-yogurt-popsicles)
+- [Chocolate Blended Oats](/recipes/chocolate-blended-oats-with-raspberry-chia-jam)
+- [Easy Chia Pudding](/recipes/easy-chia-pudding)

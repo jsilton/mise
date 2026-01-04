@@ -20,6 +20,7 @@ ingredients:
 ---
 
 ## Chef's Note
+
 This is the ultimate high-performance "Fuel" for young palates. The secret to a kid-approved green smoothie is **Structural Science** through **The Thermal Blender Pattern**: by using frozen mango and fresh avocado together, we achieve a thick, creamy "Bounce" that masks the texture of the raw spinach. We use a **Double Hidden Veggie Pattern**: the avocado provides healthy fats and creaminess (Hidden Veggie #2), while the oats provide the complex carbohydrates needed for long-lasting energy. The vanilla extract is the mandatory **High Note** that creates the aroma of a milkshake.
 
 ## Directions
@@ -30,6 +31,7 @@ This is the ultimate high-performance "Fuel" for young palates. The secret to a 
 4.  **Serve:** Serve immediately in a chilled glass with a wide straw.
 
 ## Serving Suggestions
--   [Blueberry Oat Breakfast Bars](/recipes/blueberry-oat-breakfast-bars)
--   Fresh Apple Slices
--   [Oreo Truffles](/recipes/easy-oreo-truffles) (as a weekend treat)
+
+- [Blueberry Oat Breakfast Bars](/recipes/blueberry-oat-breakfast-bars)
+- Fresh Apple Slices
+- [Oreo Truffles](/recipes/easy-oreo-truffles) (as a weekend treat)

@@ -18,6 +18,7 @@ ingredients:
 ---
 
 ## Chef's Note
+
 This is a **Modern Heritage** update to a Silton family holiday staple. We have replaced the legacy margarine with **Unsalted Butter** to provide a richer, cleaner fat profile. The secret to the Silton Standard here is **The Nut Toast Pattern**: for the most elite flavor, toast your pecans in a dry pan for 3 minutes before adding them to the filling—this creates a smoky "Snap" that balances the intense sweetness of the Karo syrup.
 
 ## Directions
@@ -30,6 +31,7 @@ This is a **Modern Heritage** update to a Silton family holiday staple. We have 
 6.  **Cool:** Let cool completely (at least 2 hours) before slicing. This is mandatory for the structure to set.
 
 ## Serving Suggestions
--   [Old-Fashioned Vanilla Ice Cream](/recipes/old-fashioned-vanilla-ice-cream)
--   Whipped Cream (unsweetened)
--   [Hot Mulled Apple Cider](/recipes/hot-mulled-apple-cider)
+
+- [Old-Fashioned Vanilla Ice Cream](/recipes/old-fashioned-vanilla-ice-cream)
+- Whipped Cream (unsweetened)
+- [Hot Mulled Apple Cider](/recipes/hot-mulled-apple-cider)

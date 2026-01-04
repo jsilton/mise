@@ -18,6 +18,7 @@ ingredients:
 ---
 
 ## Chef's Note
+
 The pound cake is the ultimate expression of **Modern Heritage**. We have eliminated the legacy margarine entirely, using only **Unsalted Butter** to achieve the mandatory "Golden Crumb." The secret to the Silton Standard is **The Low-Heat Bake Pattern**: by baking at 275°F for a full 90 minutes, we ensure the cake rises evenly without a tough outer crust, resulting in a dense, velvety "Bounce" that defines a true heritage pound cake. Room temperature eggs are mandatory for a perfect emulsion.
 
 ## Directions
@@ -31,6 +32,7 @@ The pound cake is the ultimate expression of **Modern Heritage**. We have elimin
 7.  **Cool:** Let cool in the pan for 20 minutes before inverting onto a rack.
 
 ## Serving Suggestions
--   [Old-Fashioned Strawberry Ice Cream](/recipes/old-fashioned-strawberry-ice-cream)
--   Fresh Macerated Berries
--   [Favorite Cream Cheese Frosting](/recipes/favorite-cream-cheese-frosting)
+
+- [Old-Fashioned Strawberry Ice Cream](/recipes/old-fashioned-strawberry-ice-cream)
+- Fresh Macerated Berries
+- [Favorite Cream Cheese Frosting](/recipes/favorite-cream-cheese-frosting)

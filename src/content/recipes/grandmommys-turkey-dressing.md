@@ -23,6 +23,7 @@ ingredients:
 ---
 
 ## Chef's Note
+
 This is the soul of the Silton Thanksgiving. The secret to its elite texture is **The Crumble Pattern**: we bake a fresh tray of cornbread from scratch and then combine it with crumbled stale white bread. This mix of grain structures ensures the dressing has both "Bounce" and "Snap" rather than turning into a uniform mush. We have upgraded the legacy margarine to **Unsalted Butter** for a cleaner, holiday-worthy flavor. The "Golden Rule" is the broth addition: pour just until it reaches the top of the bread—any more and you'll lose the **Texture Integrity**.
 
 ## Directions
@@ -35,6 +36,7 @@ This is the soul of the Silton Thanksgiving. The secret to its elite texture is 
 6.  **Serve:** Serve hot alongside turkey and cranberry sauce.
 
 ## Serving Suggestions
--   [Perfect Cranberry Sauce](/recipes/perfect-cranberry-sauce)
--   [Roast Turkey Breast](/recipes/roast-turkey-breast)
--   [Cinnamon Sweet Potatoes](/recipes/cinnamon-sweet-potatoes)
+
+- [Perfect Cranberry Sauce](/recipes/perfect-cranberry-sauce)
+- [Roast Turkey Breast](/recipes/roast-turkey-breast)
+- [Cinnamon Sweet Potatoes](/recipes/cinnamon-sweet-potatoes)

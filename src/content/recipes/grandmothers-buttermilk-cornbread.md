@@ -18,20 +18,22 @@ ingredients:
 ---
 
 ## Chef's Note
-The difference between average cornbread and the Silton Standard is **Structural Science** through **The Skillet Sizzle Pattern**. You must preheat your cast-iron skillet *with* the butter inside until it is screaming hot and foaming. When you pour the cold batter into the hot oil, it creates an immediate deep-gold "Snap" on the bottom crust that is unattainable in a cold baking dish. The **Buttermilk and Baking Soda** reaction provides the necessary "Bounce" and lift.
+
+The difference between average cornbread and the Silton Standard is **Structural Science** through **The Skillet Sizzle Pattern**. You must preheat your cast-iron skillet _with_ the butter inside until it is screaming hot and foaming. When you pour the cold batter into the hot oil, it creates an immediate deep-gold "Snap" on the bottom crust that is unattainable in a cold baking dish. The **Buttermilk and Baking Soda** reaction provides the necessary "Bounce" and lift.
 
 ## Directions
 
-1.  **Thermal Prep:** Place a 9-inch cast-iron skillet in the oven and preheat to 375°F. 
+1.  **Thermal Prep:** Place a 9-inch cast-iron skillet in the oven and preheat to 375°F.
 2.  **Dry Mix:** In a medium bowl, whisk together cornmeal, flour, and salt.
 3.  **Wet Mix:** In a separate bowl, whisk the buttermilk and baking soda until bubbly. Whisk in the eggs.
-4.  **The Sizzle:** Carefully remove the hot skillet from the oven using mitts. Add the 1/2 cup butter and swirl until completely melted and starting to brown. 
-5.  **The Emulsion:** Pour the melted butter into the sugar in a large bowl; whisk well. Add the buttermilk mixture. 
+4.  **The Sizzle:** Carefully remove the hot skillet from the oven using mitts. Add the 1/2 cup butter and swirl until completely melted and starting to brown.
+5.  **The Emulsion:** Pour the melted butter into the sugar in a large bowl; whisk well. Add the buttermilk mixture.
 6.  **Combine:** Gradually add the dry ingredients to the wet. Stir until **just combined** (a few lumps are mandatory for texture).
 7.  **Bake:** Pour the batter into the hot, buttered skillet. Bake for 25-30 minutes until a toothpick inserted in the center comes out clean and the edges are pulled away from the pan.
 8.  **Serve:** Serve warm directly from the skillet with honey and extra butter.
 
 ## Serving Suggestions
--   [Turkey and Sweet Potato Chili](/recipes/chili)
--   [Crockpot Vegetarian Chili](/recipes/crockpot-vegetarian-chili)
--   [Buttermilk Baked Chicken](/recipes/buttermilk-baked-chicken)
+
+- [Turkey and Sweet Potato Chili](/recipes/chili)
+- [Crockpot Vegetarian Chili](/recipes/crockpot-vegetarian-chili)
+- [Buttermilk Baked Chicken](/recipes/buttermilk-baked-chicken)
