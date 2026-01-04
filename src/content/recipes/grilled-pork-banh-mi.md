@@ -1,6 +1,12 @@
 ---
 title: Banh Mi
 origin: Vietnam
+difficulty: easy
+cookingMethods: [grill, no-cook]
+dietary: []
+occasions: []
+flavorProfile: [spicy, sweet, savory, acidic, umami]
+cuisines: [Vietnamese]
 role: main
 vibe: nutritious
 prepTime: 30 min

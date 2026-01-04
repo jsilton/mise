@@ -1,5 +1,11 @@
 ---
 title: Spaghetti with Clams & Braised Greens
+difficulty: intermediate
+cookingMethods: [roast, sauté, boil, steam, braise, blend]
+dietary: [vegetarian]
+occasions: [comfort-food]
+flavorProfile: [spicy, acidic, umami, rich]
+cuisines: []
 role: main
 vibe: comfort
 prepTime: 15 min

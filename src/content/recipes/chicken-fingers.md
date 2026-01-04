@@ -2,6 +2,12 @@
 title: Chicken Fingers
 aliases:
   - "crispy-chicken-milanese-family-chicken-fingers"
+difficulty: easy
+cookingMethods: [bake, roast, fry]
+dietary: []
+occasions: []
+flavorProfile: [sweet, acidic, umami]
+cuisines: []
 role: main
 vibe: quick
 prepTime: 15 min

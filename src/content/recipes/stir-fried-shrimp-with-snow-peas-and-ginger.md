@@ -1,5 +1,11 @@
 ---
 title: Shrimp with Snow Peas & Ginger
+difficulty: easy
+cookingMethods: [sauté, boil]
+dietary: []
+occasions: []
+flavorProfile: [sweet, savory, umami]
+cuisines: []
 role: main
 vibe: quick
 prepTime: 10 min

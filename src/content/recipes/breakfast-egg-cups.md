@@ -1,5 +1,11 @@
 ---
 title: Breakfast Egg Cups
+difficulty: easy
+cookingMethods: [bake]
+dietary: [vegetarian]
+occasions: []
+flavorProfile: [rich]
+cuisines: []
 role: main
 vibe: nutritious
 prepTime: 10 min

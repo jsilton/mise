@@ -1,5 +1,11 @@
 ---
 title: Bakery Style Chocolate Chip Muffins
+difficulty: intermediate
+cookingMethods: [bake]
+dietary: [vegetarian]
+occasions: []
+flavorProfile: [sweet, rich]
+cuisines: []
 role: side
 vibe: technical
 prepTime: 15 min

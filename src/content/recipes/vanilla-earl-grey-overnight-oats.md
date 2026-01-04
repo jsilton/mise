@@ -1,5 +1,11 @@
 ---
 title: Vanilla Earl Grey Overnight Oats
+difficulty: intermediate
+cookingMethods: [boil]
+dietary: [vegetarian]
+occasions: []
+flavorProfile: [sweet]
+cuisines: []
 role: main
 vibe: nutritious
 prepTime: 10 min

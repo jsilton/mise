@@ -1,5 +1,11 @@
 ---
 title: Pulled Pork
+difficulty: easy
+cookingMethods: [roast, slow-cook]
+dietary: []
+occasions: [comfort-food]
+flavorProfile: [sweet]
+cuisines: []
 role: main
 vibe: comfort
 prepTime: 10 min

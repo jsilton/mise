@@ -1,5 +1,11 @@
 ---
 title: Green Beans with Shallots & Lemon
+difficulty: easy
+cookingMethods: [bake, sauté, boil]
+dietary: []
+occasions: []
+flavorProfile: [sweet, acidic, rich]
+cuisines: []
 role: side
 vibe: quick
 prepTime: 5 min

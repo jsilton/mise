@@ -1,6 +1,12 @@
 ---
 title: Peking Ravioli
 origin: China
+difficulty: intermediate
+cookingMethods: [fry, boil, steam]
+dietary: []
+occasions: []
+flavorProfile: [spicy, sweet, savory, acidic, umami]
+cuisines: [Chinese]
 role: main
 vibe: technical
 prepTime: 60 min

@@ -1,5 +1,11 @@
 ---
 title: Slow Cooker Chicken Ramen with Miso
+difficulty: intermediate
+cookingMethods: [simmer, boil, slow-cook, no-cook]
+dietary: []
+occasions: [comfort-food]
+flavorProfile: [sweet, savory]
+cuisines: [Japanese]
 role: main
 vibe: comfort
 prepTime: 20 min

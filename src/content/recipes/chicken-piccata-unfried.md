@@ -1,5 +1,11 @@
 ---
 title: Chicken Piccata
+difficulty: easy
+cookingMethods: [roast, sauté, simmer]
+dietary: []
+occasions: []
+flavorProfile: [acidic, rich, herbaceous]
+cuisines: []
 role: main
 vibe: quick
 prepTime: 10 min

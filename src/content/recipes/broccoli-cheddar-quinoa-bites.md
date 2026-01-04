@@ -1,5 +1,11 @@
 ---
 title: Broccoli Cheddar Quinoa Bites
+difficulty: easy
+cookingMethods: [bake]
+dietary: [vegetarian]
+occasions: []
+flavorProfile: [umami, herbaceous]
+cuisines: []
 role: side
 vibe: nutritious
 prepTime: 15 min

@@ -1,5 +1,11 @@
 ---
 title: Japanese-Style Trout with Dashi
+difficulty: easy
+cookingMethods: [simmer, boil, steam, poach, no-cook]
+dietary: []
+occasions: []
+flavorProfile: [sweet, savory, acidic, umami, rich]
+cuisines: []
 role: main
 vibe: technical
 prepTime: 15 min

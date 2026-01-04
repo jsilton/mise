@@ -1,5 +1,11 @@
 ---
 title: Brownies
+difficulty: easy
+cookingMethods: [bake]
+dietary: [vegetarian]
+occasions: [comfort-food]
+flavorProfile: [sweet, rich]
+cuisines: []
 role: dessert
 vibe: comfort
 prepTime: 10 min

@@ -1,6 +1,12 @@
 ---
 title: Kalbi
 origin: Korea
+difficulty: intermediate
+cookingMethods: [grill]
+dietary: []
+occasions: []
+flavorProfile: [sweet, savory, umami]
+cuisines: [Korean]
 role: main
 vibe: technical
 prepTime: 60 min

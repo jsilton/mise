@@ -1,5 +1,11 @@
 ---
 title: 'Chicken, Apple, and Butternut Stew'
+difficulty: easy
+cookingMethods: [bake, sauté, simmer]
+dietary: []
+occasions: [holiday, comfort-food]
+flavorProfile: [sweet, acidic, rich]
+cuisines: []
 role: main
 vibe: comfort
 prepTime: 25 min

@@ -1,5 +1,11 @@
 ---
 title: Tortellini Soup
+difficulty: easy
+cookingMethods: [roast, slow-cook]
+dietary: []
+occasions: [comfort-food]
+flavorProfile: [umami, rich, herbaceous]
+cuisines: []
 role: main
 vibe: comfort
 prepTime: 15 min

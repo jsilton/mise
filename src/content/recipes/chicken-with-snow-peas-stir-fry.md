@@ -1,5 +1,11 @@
 ---
 title: Chicken with Snow Peas Stir-Fry
+difficulty: easy
+cookingMethods: [fry, steam]
+dietary: []
+occasions: []
+flavorProfile: [sweet, savory, umami]
+cuisines: []
 role: main
 vibe: quick
 prepTime: 10 min

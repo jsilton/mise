@@ -1,5 +1,11 @@
 ---
 title: Chicken and White Bean Enchiladas
+difficulty: easy
+cookingMethods: [bake, poach, no-cook, blend]
+dietary: []
+occasions: []
+flavorProfile: [rich]
+cuisines: [Mexican]
 role: main
 vibe: nutritious
 prepTime: 20 min

@@ -1,6 +1,12 @@
 ---
 title: Hot and Sour Soup
 origin: China
+difficulty: easy
+cookingMethods: [sauté, simmer, boil]
+dietary: []
+occasions: [comfort-food]
+flavorProfile: [spicy, savory, acidic, umami]
+cuisines: [Chinese]
 role: main
 vibe: comfort
 prepTime: 30 min

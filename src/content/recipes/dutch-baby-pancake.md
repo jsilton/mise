@@ -1,5 +1,11 @@
 ---
 title: Dutch Baby Pancake
+difficulty: intermediate
+cookingMethods: [bake, steam, blend]
+dietary: [vegetarian]
+occasions: []
+flavorProfile: [sweet, acidic, rich]
+cuisines: []
 role: main
 vibe: technical
 prepTime: 5 min

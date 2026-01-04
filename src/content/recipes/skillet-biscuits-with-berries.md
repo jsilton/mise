@@ -1,5 +1,11 @@
 ---
 title: Skillet Biscuits with Berries
+difficulty: easy
+cookingMethods: [bake, simmer, boil, steam, no-cook]
+dietary: [vegetarian]
+occasions: []
+flavorProfile: [sweet, acidic, rich]
+cuisines: []
 role: dessert
 vibe: quick
 prepTime: 10 min

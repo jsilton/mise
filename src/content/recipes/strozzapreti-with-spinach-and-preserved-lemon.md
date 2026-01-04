@@ -1,5 +1,11 @@
 ---
 title: Strozzapreti with Preserved Lemon & Spinach
+difficulty: easy
+cookingMethods: [roast, fry, sauté, boil]
+dietary: [vegetarian]
+occasions: []
+flavorProfile: [savory, acidic, rich]
+cuisines: []
 role: main
 vibe: nutritious
 prepTime: 10 min

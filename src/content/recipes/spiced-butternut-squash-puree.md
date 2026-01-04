@@ -14,6 +14,12 @@ ingredients:
   - '1/2 teaspoon freshly grated nutmeg'
   - '1/2 teaspoon freshly ground black pepper'
   - 'Salt to taste'
+difficulty: intermediate
+cookingMethods: [bake, roast, boil, blend]
+dietary: [vegetarian]
+occasions: [holiday]
+flavorProfile: [sweet, rich]
+cuisines: [American]
 role: side
 vibe: holiday
 ---

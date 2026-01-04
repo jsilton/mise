@@ -1,5 +1,11 @@
 ---
 title: Wonton Wrappers
+difficulty: intermediate
+cookingMethods: [boil]
+dietary: []
+occasions: []
+flavorProfile: []
+cuisines: [Chinese]
 role: base
 vibe: technical
 prepTime: 20 min

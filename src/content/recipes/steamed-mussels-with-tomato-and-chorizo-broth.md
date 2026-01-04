@@ -1,5 +1,11 @@
 ---
 title: Mussels with Chorizo Broth
+difficulty: easy
+cookingMethods: [sauté, simmer, boil, steam]
+dietary: [vegetarian]
+occasions: []
+flavorProfile: [sweet, savory, acidic, herbaceous]
+cuisines: []
 role: main
 vibe: quick
 prepTime: 15 min

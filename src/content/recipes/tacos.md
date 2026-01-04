@@ -2,6 +2,12 @@
 title: Weeknight Tacos
 aliases:
   - "weeknight-tacos-the-family-setup"
+difficulty: easy
+cookingMethods: [bake, simmer, no-cook]
+dietary: []
+occasions: []
+flavorProfile: [savory, acidic, umami]
+cuisines: [Mexican]
 role: main
 vibe: quick
 prepTime: 15 min

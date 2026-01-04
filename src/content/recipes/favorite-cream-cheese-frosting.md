@@ -1,5 +1,11 @@
 ---
 title: Cream Cheese Frosting
+difficulty: intermediate
+cookingMethods: []
+dietary: [vegetarian]
+occasions: []
+flavorProfile: [sweet, rich]
+cuisines: []
 role: condiment
 vibe: quick
 prepTime: 5 min

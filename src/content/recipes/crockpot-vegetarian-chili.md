@@ -1,5 +1,11 @@
 ---
 title: Crockpot Vegetarian Chili
+difficulty: easy
+cookingMethods: [simmer]
+dietary: [vegetarian]
+occasions: [comfort-food]
+flavorProfile: [spicy, sweet, acidic, rich]
+cuisines: [Mexican]
 role: main
 vibe: comfort
 prepTime: 15 min

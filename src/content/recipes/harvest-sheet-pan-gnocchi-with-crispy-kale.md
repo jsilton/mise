@@ -1,5 +1,11 @@
 ---
 title: Harvest Sheet Pan Gnocchi with Kale
+difficulty: easy
+cookingMethods: [bake, roast, boil]
+dietary: []
+occasions: []
+flavorProfile: [savory, umami, rich, smoky]
+cuisines: []
 role: main
 vibe: nutritious
 prepTime: 15 min

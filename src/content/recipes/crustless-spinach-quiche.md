@@ -1,5 +1,11 @@
 ---
 title: Crustless Spinach & Gruyère Quiche
+difficulty: intermediate
+cookingMethods: [bake, sauté]
+dietary: [vegetarian]
+occasions: []
+flavorProfile: [sweet, rich]
+cuisines: []
 role: main
 vibe: nutritious
 prepTime: 10 min

@@ -1,5 +1,11 @@
 ---
 title: 'One-Pot Chicken, Quinoa, & Mushrooms'
+difficulty: easy
+cookingMethods: [roast, sauté, simmer, boil]
+dietary: []
+occasions: []
+flavorProfile: [savory, smoky]
+cuisines: []
 role: main
 vibe: nutritious
 prepTime: 10 min

@@ -1,5 +1,11 @@
 ---
 title: Coconut Chicken Curry
+difficulty: easy
+cookingMethods: [slow-cook, no-cook]
+dietary: []
+occasions: [comfort-food]
+flavorProfile: [acidic, umami, rich]
+cuisines: [Thai]
 role: main
 vibe: comfort
 prepTime: 20 min

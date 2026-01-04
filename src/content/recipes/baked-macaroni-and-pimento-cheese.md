@@ -1,5 +1,11 @@
 ---
 title: Macaroni and Pimento Cheese
+difficulty: easy
+cookingMethods: [bake, roast]
+dietary: []
+occasions: [comfort-food]
+flavorProfile: [spicy, umami, rich]
+cuisines: []
 role: side
 vibe: comfort
 prepTime: 15 min

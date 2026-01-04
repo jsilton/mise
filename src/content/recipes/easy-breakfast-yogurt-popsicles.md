@@ -1,5 +1,11 @@
 ---
 title: Yogurt Popsicles
+difficulty: easy
+cookingMethods: []
+dietary: [vegetarian]
+occasions: []
+flavorProfile: [sweet, rich]
+cuisines: []
 role: base
 vibe: quick
 prepTime: 10 min

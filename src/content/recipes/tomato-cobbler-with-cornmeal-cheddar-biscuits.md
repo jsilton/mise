@@ -1,5 +1,11 @@
 ---
 title: Tomato Cobbler with Cornmeal-Cheddar Biscuits
+difficulty: intermediate
+cookingMethods: [bake, roast, sauté, simmer, steam, blend]
+dietary: [vegetarian]
+occasions: [comfort-food]
+flavorProfile: [sweet, acidic, rich]
+cuisines: []
 role: main
 vibe: comfort
 prepTime: 20 min

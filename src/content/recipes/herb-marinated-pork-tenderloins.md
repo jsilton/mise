@@ -1,5 +1,11 @@
 ---
 title: Herb Pork Tenderloin
+difficulty: intermediate
+cookingMethods: [bake, roast]
+dietary: []
+occasions: []
+flavorProfile: [sweet, acidic, rich, herbaceous]
+cuisines: []
 role: main
 vibe: quick
 prepTime: 10 min

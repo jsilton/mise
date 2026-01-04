@@ -1,5 +1,11 @@
 ---
 title: Cranberry Sauce
+difficulty: intermediate
+cookingMethods: [roast, simmer]
+dietary: [vegetarian]
+occasions: [holiday]
+flavorProfile: [sweet, acidic, rich]
+cuisines: []
 role: base
 vibe: holiday
 prepTime: 15 min

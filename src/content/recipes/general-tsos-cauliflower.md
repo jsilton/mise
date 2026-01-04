@@ -1,5 +1,11 @@
 ---
 title: General Tso's Cauliflower
+difficulty: easy
+cookingMethods: [fry, sauté, simmer, steam]
+dietary: [vegetarian]
+occasions: []
+flavorProfile: [spicy, sweet, savory, acidic, umami]
+cuisines: []
 role: main
 vibe: nutritious
 prepTime: 30 min

@@ -1,5 +1,11 @@
 ---
 title: Chinese Sausage Fried Rice
+difficulty: easy
+cookingMethods: [fry]
+dietary: [vegetarian]
+occasions: []
+flavorProfile: [spicy, savory, umami]
+cuisines: []
 role: main
 vibe: quick
 prepTime: 10 min

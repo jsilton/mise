@@ -1,5 +1,11 @@
 ---
 title: Noodle Pudding
+difficulty: easy
+cookingMethods: [bake, boil, no-cook]
+dietary: []
+occasions: [comfort-food]
+flavorProfile: [sweet, rich]
+cuisines: []
 role: dessert
 vibe: comfort
 prepTime: 30 min

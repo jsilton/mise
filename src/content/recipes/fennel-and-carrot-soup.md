@@ -1,5 +1,11 @@
 ---
 title: Fennel and Carrot Soup
+difficulty: easy
+cookingMethods: [roast, sauté, simmer, boil, blend]
+dietary: [vegetarian]
+occasions: [comfort-food]
+flavorProfile: [sweet, acidic, rich, herbaceous]
+cuisines: []
 role: main
 vibe: comfort
 prepTime: 15 min

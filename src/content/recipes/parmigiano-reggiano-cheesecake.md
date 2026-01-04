@@ -1,5 +1,11 @@
 ---
 title: Parmigiano Reggiano Cheesecake
+difficulty: intermediate
+cookingMethods: [bake, roast, blend]
+dietary: [vegetarian, nut-free]
+occasions: []
+flavorProfile: [sweet, savory, acidic, umami, rich]
+cuisines: []
 role: dessert
 vibe: technical
 prepTime: 45 min

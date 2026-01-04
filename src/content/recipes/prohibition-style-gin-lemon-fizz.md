@@ -1,5 +1,11 @@
 ---
 title: Prohibition-Style Gin Lemon Fizz
+difficulty: easy
+cookingMethods: []
+dietary: [vegetarian, vegan]
+occasions: []
+flavorProfile: [acidic, rich, herbaceous, smoky]
+cuisines: []
 role: drink
 vibe: nutritious
 prepTime: 10 min

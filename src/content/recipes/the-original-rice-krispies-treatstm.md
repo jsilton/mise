@@ -1,5 +1,11 @@
 ---
 title: Rice Krispies Treats
+difficulty: intermediate
+cookingMethods: []
+dietary: [vegetarian]
+occasions: []
+flavorProfile: [sweet, rich]
+cuisines: []
 role: dessert
 vibe: technical
 prepTime: 10 min

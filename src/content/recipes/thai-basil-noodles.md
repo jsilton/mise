@@ -2,6 +2,12 @@
 title: Thai Basil Noodles
 aliases:
   - "thai-basil-noodles-the-15-minute-wok"
+difficulty: easy
+cookingMethods: [fry]
+dietary: []
+occasions: []
+flavorProfile: [spicy, sweet, savory, acidic, umami, herbaceous]
+cuisines: []
 role: main
 vibe: quick
 prepTime: 10 min

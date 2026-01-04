@@ -1,5 +1,11 @@
 ---
 title: Strawberry Rhubarb Yogurt Pops
+difficulty: intermediate
+cookingMethods: [simmer, no-cook, blend]
+dietary: [vegetarian]
+occasions: []
+flavorProfile: [sweet, acidic, rich]
+cuisines: []
 role: side
 vibe: nutritious
 prepTime: 15 min

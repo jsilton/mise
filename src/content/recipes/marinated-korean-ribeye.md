@@ -1,6 +1,12 @@
 ---
 title: Bulgogi
 origin: Korea
+difficulty: easy
+cookingMethods: []
+dietary: []
+occasions: []
+flavorProfile: [sweet, savory, umami]
+cuisines: [Korean]
 role: main
 vibe: quick
 prepTime: 10 min

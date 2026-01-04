@@ -1,5 +1,11 @@
 ---
 title: Chicken Galbi Noodle Salad
+difficulty: intermediate
+cookingMethods: [sauté, boil]
+dietary: []
+occasions: []
+flavorProfile: [sweet, savory, acidic, umami, herbaceous]
+cuisines: []
 role: main
 vibe: nutritious
 prepTime: 15 min

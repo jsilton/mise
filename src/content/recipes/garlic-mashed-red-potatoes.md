@@ -1,5 +1,11 @@
 ---
 title: Garlic Mashed Red Potatoes
+difficulty: easy
+cookingMethods: [simmer, boil, steam]
+dietary: []
+occasions: []
+flavorProfile: [umami, rich]
+cuisines: []
 role: side
 vibe: nutritious
 prepTime: 10 min

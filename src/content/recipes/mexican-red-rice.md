@@ -1,6 +1,12 @@
 ---
 title: Arroz Rojo
 origin: Mexico
+difficulty: easy
+cookingMethods: [fry, simmer, boil, blend]
+dietary: []
+occasions: []
+flavorProfile: []
+cuisines: [Mexican]
 role: base
 vibe: quick
 prepTime: 5 min

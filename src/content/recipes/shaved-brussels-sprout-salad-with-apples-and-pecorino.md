@@ -1,5 +1,11 @@
 ---
 title: Shaved Brussels Sprout Salad
+difficulty: intermediate
+cookingMethods: [roast]
+dietary: []
+occasions: []
+flavorProfile: [sweet, acidic, rich]
+cuisines: []
 role: side
 vibe: nutritious
 prepTime: 15 min

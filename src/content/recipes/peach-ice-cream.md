@@ -1,5 +1,11 @@
 ---
 title: Peach Ice Cream
+difficulty: intermediate
+cookingMethods: [simmer, boil]
+dietary: [vegetarian]
+occasions: []
+flavorProfile: [sweet, acidic, rich]
+cuisines: []
 role: dessert
 vibe: nutritious
 prepTime: 20 min

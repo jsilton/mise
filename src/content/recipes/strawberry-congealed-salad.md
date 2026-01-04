@@ -1,5 +1,11 @@
 ---
 title: Strawberry Orange Jello Salad
+difficulty: intermediate
+cookingMethods: [roast, boil]
+dietary: [vegetarian]
+occasions: []
+flavorProfile: [sweet, acidic, rich]
+cuisines: []
 role: side
 vibe: nutritious
 prepTime: 15 min

@@ -1,5 +1,11 @@
 ---
 title: Play-Dough
+difficulty: intermediate
+cookingMethods: [no-cook]
+dietary: [vegetarian]
+occasions: []
+flavorProfile: [rich]
+cuisines: []
 role: base
 vibe: nutritious
 prepTime: 5 min

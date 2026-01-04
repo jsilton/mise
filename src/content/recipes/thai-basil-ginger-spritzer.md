@@ -1,5 +1,11 @@
 ---
 title: Thai Basil-Ginger Spritzer
+difficulty: easy
+cookingMethods: [boil, no-cook]
+dietary: []
+occasions: []
+flavorProfile: [sweet, acidic, herbaceous]
+cuisines: []
 role: drink
 vibe: quick
 prepTime: 5 min

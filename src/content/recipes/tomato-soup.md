@@ -1,5 +1,11 @@
 ---
 title: Tomato Soup
+difficulty: easy
+cookingMethods: [grill, sauté, simmer, blend]
+dietary: []
+occasions: [comfort-food]
+flavorProfile: [sweet, acidic, rich]
+cuisines: []
 role: main
 vibe: comfort
 prepTime: 10 min

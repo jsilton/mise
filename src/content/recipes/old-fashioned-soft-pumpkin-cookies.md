@@ -1,5 +1,11 @@
 ---
 title: Soft Pumpkin Cookies
+difficulty: intermediate
+cookingMethods: [bake]
+dietary: [vegetarian]
+occasions: [comfort-food]
+flavorProfile: [sweet, rich]
+cuisines: []
 role: dessert
 vibe: comfort
 prepTime: 10 min

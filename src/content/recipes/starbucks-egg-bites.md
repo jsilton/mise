@@ -1,5 +1,11 @@
 ---
 title: Starbucks Egg Bites
+difficulty: intermediate
+cookingMethods: [bake, steam, no-cook, blend]
+dietary: [vegetarian]
+occasions: []
+flavorProfile: [savory, rich]
+cuisines: []
 role: main
 vibe: quick
 prepTime: 10 min

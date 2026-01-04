@@ -1,5 +1,11 @@
 ---
 title: Quadruple Chocolate Brownies
+difficulty: easy
+cookingMethods: [bake, no-cook]
+dietary: [vegetarian]
+occasions: [comfort-food]
+flavorProfile: [sweet, rich]
+cuisines: []
 role: dessert
 vibe: comfort
 prepTime: 30 min

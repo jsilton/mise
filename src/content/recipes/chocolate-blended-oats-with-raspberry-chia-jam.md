@@ -1,5 +1,11 @@
 ---
 title: Chocolate Blended Oats with Raspberry Chia Jam
+difficulty: easy
+cookingMethods: [blend]
+dietary: [vegetarian]
+occasions: []
+flavorProfile: [sweet, acidic, umami]
+cuisines: []
 role: main
 vibe: nutritious
 prepTime: 10 min

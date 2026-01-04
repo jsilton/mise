@@ -1,5 +1,11 @@
 ---
 title: Heirloom Tomato & Goat Cheese Tart
+difficulty: easy
+cookingMethods: [bake, roast, no-cook, blend]
+dietary: [vegetarian]
+occasions: [holiday, comfort-food]
+flavorProfile: [acidic, rich, herbaceous]
+cuisines: []
 role: main
 vibe: comfort
 prepTime: 20 min

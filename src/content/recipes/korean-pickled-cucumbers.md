@@ -1,6 +1,12 @@
 ---
 title: Oi Muchim
 origin: Korea
+difficulty: easy
+cookingMethods: [grill]
+dietary: [vegetarian]
+occasions: []
+flavorProfile: [spicy, sweet, savory, acidic, umami]
+cuisines: [Korean]
 role: side
 vibe: nutritious
 prepTime: 10 min

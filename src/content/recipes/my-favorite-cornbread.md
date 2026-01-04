@@ -1,5 +1,11 @@
 ---
 title: Cornbread
+difficulty: easy
+cookingMethods: [bake]
+dietary: []
+occasions: []
+flavorProfile: [spicy, sweet, acidic, rich]
+cuisines: []
 role: side
 vibe: quick
 prepTime: 10 min

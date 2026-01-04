@@ -1,6 +1,12 @@
 ---
 title: Spinach Gnocchi
 origin: Italy
+difficulty: easy
+cookingMethods: [roast, boil, blend]
+dietary: [vegetarian]
+occasions: []
+flavorProfile: [umami, rich, herbaceous]
+cuisines: [Italian]
 role: main
 vibe: quick
 prepTime: 15 min

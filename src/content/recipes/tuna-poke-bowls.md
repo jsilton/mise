@@ -1,5 +1,11 @@
 ---
 title: Tuna Poke Bowls
+difficulty: intermediate
+cookingMethods: [no-cook]
+dietary: []
+occasions: []
+flavorProfile: [spicy, savory, acidic, umami]
+cuisines: []
 role: main
 vibe: nutritious
 prepTime: 20 min

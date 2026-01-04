@@ -1,6 +1,12 @@
 ---
 title: Martini
 origin: USA
+difficulty: intermediate
+cookingMethods: []
+dietary: [vegan]
+occasions: []
+flavorProfile: [acidic, smoky]
+cuisines: [American]
 role: drink
 vibe: technical
 prepTime: 5 min

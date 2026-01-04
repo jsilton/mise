@@ -1,5 +1,11 @@
 ---
 title: Mini-Shell Pasta with Bacon and Peas
+difficulty: intermediate
+cookingMethods: [fry, boil]
+dietary: [vegetarian]
+occasions: []
+flavorProfile: [acidic, umami, rich, smoky]
+cuisines: []
 role: main
 vibe: quick
 prepTime: 10 min

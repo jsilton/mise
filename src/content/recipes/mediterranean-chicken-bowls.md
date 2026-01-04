@@ -1,5 +1,11 @@
 ---
 title: Mediterranean Chicken Bowls
+difficulty: easy
+cookingMethods: [grill, no-cook]
+dietary: []
+occasions: []
+flavorProfile: [acidic, rich]
+cuisines: []
 role: main
 vibe: nutritious
 prepTime: 20 min

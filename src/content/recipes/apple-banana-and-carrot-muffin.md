@@ -4,6 +4,12 @@ audience: "kids"
 kb:
   disable:
     - "kb.plating-suggestion"
+difficulty: easy
+cookingMethods: [bake, simmer, boil]
+dietary: [vegetarian]
+occasions: [kids-approved]
+flavorProfile: [rich, herbaceous]
+cuisines: []
 role: side
 vibe: nutritious
 prepTime: 15 min

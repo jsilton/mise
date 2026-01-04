@@ -1,5 +1,11 @@
 ---
 title: Balsamic Peach Pork Chops
+difficulty: easy
+cookingMethods: [bake, simmer]
+dietary: []
+occasions: []
+flavorProfile: [spicy, sweet, acidic, herbaceous]
+cuisines: []
 role: main
 vibe: nutritious
 prepTime: 10 min

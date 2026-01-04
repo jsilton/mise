@@ -2,6 +2,12 @@
 title: Lemon Ricotta Pasta
 aliases:
   - "lemon-ricotta-pasta-the-15-minute-brightness"
+difficulty: easy
+cookingMethods: [roast, boil]
+dietary: []
+occasions: []
+flavorProfile: [savory, acidic, rich, herbaceous]
+cuisines: []
 role: main
 vibe: quick
 prepTime: 5 min

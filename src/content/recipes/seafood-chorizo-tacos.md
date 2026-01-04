@@ -1,5 +1,11 @@
 ---
 title: Seafood-Chorizo Tacos
+difficulty: easy
+cookingMethods: [fry, sauté, no-cook]
+dietary: []
+occasions: []
+flavorProfile: [spicy, sweet, acidic, rich]
+cuisines: [Mexican]
 role: main
 vibe: quick
 prepTime: 10 min

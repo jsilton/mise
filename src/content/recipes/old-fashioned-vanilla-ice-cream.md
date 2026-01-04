@@ -1,5 +1,11 @@
 ---
 title: Old-Fashioned Vanilla Ice Cream
+difficulty: intermediate
+cookingMethods: [simmer, boil]
+dietary: [vegetarian]
+occasions: []
+flavorProfile: [sweet, rich]
+cuisines: []
 role: dessert
 vibe: quick
 prepTime: 5 min

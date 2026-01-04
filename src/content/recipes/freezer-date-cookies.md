@@ -1,5 +1,11 @@
 ---
 title: Freezer Date Cookies
+difficulty: easy
+cookingMethods: [bake, blend]
+dietary: [vegetarian]
+occasions: []
+flavorProfile: [sweet, rich]
+cuisines: []
 role: main
 vibe: nutritious
 prepTime: 15 min

@@ -1,5 +1,11 @@
 ---
 title: Spinach Muffins
+difficulty: easy
+cookingMethods: [bake, blend]
+dietary: [vegetarian]
+occasions: [kids-approved]
+flavorProfile: [sweet, rich]
+cuisines: []
 role: main
 vibe: quick
 prepTime: 10 min

@@ -1,5 +1,11 @@
 ---
 title: Gnocchi with Zucchini Ribbons & Brown Butter
+difficulty: intermediate
+cookingMethods: [roast, sauté, boil]
+dietary: [vegetarian]
+occasions: []
+flavorProfile: [umami, rich, herbaceous]
+cuisines: []
 role: main
 vibe: quick
 prepTime: 10 min

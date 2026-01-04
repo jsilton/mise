@@ -1,6 +1,12 @@
 ---
 title: Chicken
 origin: Vietnam
+difficulty: easy
+cookingMethods: [grill]
+dietary: []
+occasions: []
+flavorProfile: [spicy, sweet, acidic]
+cuisines: [Vietnamese]
 role: main
 vibe: nutritious
 prepTime: 15 min

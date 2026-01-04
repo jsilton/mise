@@ -1,5 +1,11 @@
 ---
 title: Chef Kriger’s Recipe Shabbat Brisket
+difficulty: intermediate
+cookingMethods: [bake, braise]
+dietary: []
+occasions: [holiday]
+flavorProfile: [sweet, savory]
+cuisines: []
 role: main
 vibe: holiday
 prepTime: 30 min

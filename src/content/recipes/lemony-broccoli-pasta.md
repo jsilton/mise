@@ -1,5 +1,11 @@
 ---
 title: Lemony Broccoli Pasta
+difficulty: intermediate
+cookingMethods: [roast, boil]
+dietary: [vegetarian]
+occasions: []
+flavorProfile: [acidic, umami]
+cuisines: []
 role: main
 vibe: nutritious
 prepTime: 5 min

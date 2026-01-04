@@ -1,5 +1,11 @@
 ---
 title: 'Pasta with Sausage, Basil & Mustard'
+difficulty: easy
+cookingMethods: [roast, simmer, boil]
+dietary: [vegetarian]
+occasions: []
+flavorProfile: [savory, acidic, umami, rich, herbaceous]
+cuisines: []
 role: main
 vibe: quick
 prepTime: 10 min

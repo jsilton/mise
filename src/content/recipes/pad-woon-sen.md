@@ -1,5 +1,11 @@
 ---
 title: Pad Woon Sen
+difficulty: intermediate
+cookingMethods: [sauté, boil]
+dietary: []
+occasions: []
+flavorProfile: [sweet, savory, umami]
+cuisines: []
 role: main
 vibe: nutritious
 prepTime: 15 min

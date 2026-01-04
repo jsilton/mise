@@ -1,5 +1,11 @@
 ---
 title: Shrimp with Black Bean Sauce
+difficulty: easy
+cookingMethods: [fry, sauté, simmer, boil, steam]
+dietary: []
+occasions: []
+flavorProfile: [sweet, savory, umami]
+cuisines: []
 role: base
 vibe: quick
 prepTime: 20 min

@@ -1,5 +1,11 @@
 ---
 title: Crustless Sausage & Spinach Quiche
+difficulty: easy
+cookingMethods: [bake, roast, sauté, no-cook]
+dietary: []
+occasions: []
+flavorProfile: [umami, rich]
+cuisines: []
 role: main
 vibe: nutritious
 prepTime: 15 min

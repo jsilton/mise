@@ -1,5 +1,11 @@
 ---
 title: Pan Fried Noodles with Shrimp
+difficulty: easy
+cookingMethods: [fry, boil]
+dietary: []
+occasions: []
+flavorProfile: [spicy, savory, umami]
+cuisines: []
 role: main
 vibe: technical
 prepTime: 35 min

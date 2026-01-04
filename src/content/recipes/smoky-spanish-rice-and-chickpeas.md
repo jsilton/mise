@@ -1,5 +1,11 @@
 ---
 title: Spanish Rice and Chickpeas
+difficulty: easy
+cookingMethods: [roast, fry, sauté, simmer, boil, steam]
+dietary: []
+occasions: []
+flavorProfile: [savory, smoky]
+cuisines: []
 role: base
 vibe: nutritious
 prepTime: 10 min

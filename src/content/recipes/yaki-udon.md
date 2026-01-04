@@ -1,5 +1,11 @@
 ---
 title: Yaki Udon
+difficulty: easy
+cookingMethods: [sauté, boil, steam]
+dietary: []
+occasions: []
+flavorProfile: [spicy, sweet, savory, acidic, umami]
+cuisines: []
 role: main
 vibe: quick
 prepTime: 10 min

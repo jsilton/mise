@@ -1,5 +1,11 @@
 ---
 title: Executive Granola
+difficulty: easy
+cookingMethods: [bake, roast, blend]
+dietary: [vegetarian]
+occasions: []
+flavorProfile: [sweet]
+cuisines: []
 role: base
 vibe: nutritious
 prepTime: 10 min

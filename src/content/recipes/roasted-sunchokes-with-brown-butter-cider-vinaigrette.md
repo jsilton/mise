@@ -1,5 +1,11 @@
 ---
 title: Sunchokes with Brown Butter Vinaigrette
+difficulty: easy
+cookingMethods: [bake, roast, simmer]
+dietary: []
+occasions: []
+flavorProfile: [spicy, sweet, savory, acidic, rich, herbaceous]
+cuisines: []
 role: side
 vibe: nutritious
 prepTime: 10 min

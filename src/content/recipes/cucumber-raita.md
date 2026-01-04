@@ -2,6 +2,12 @@
 title: Cucumber Raita
 aliases:
   - "cucumber-raita-the-indian-cooler"
+difficulty: easy
+cookingMethods: []
+dietary: []
+occasions: []
+flavorProfile: [spicy, sweet]
+cuisines: []
 role: side
 vibe: quick
 prepTime: 10 min

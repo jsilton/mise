@@ -1,5 +1,11 @@
 ---
 title: Miso-Mashed Potatoes
+difficulty: intermediate
+cookingMethods: [roast, boil, steam]
+dietary: []
+occasions: [comfort-food]
+flavorProfile: [savory, rich]
+cuisines: [Japanese]
 role: side
 vibe: comfort
 prepTime: 10 min

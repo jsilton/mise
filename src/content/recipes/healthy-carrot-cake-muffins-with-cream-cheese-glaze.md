@@ -1,5 +1,11 @@
 ---
 title: Carrot Cake Muffins
+difficulty: intermediate
+cookingMethods: [bake, blend]
+dietary: [vegetarian]
+occasions: []
+flavorProfile: [sweet, acidic, rich]
+cuisines: []
 role: main
 vibe: nutritious
 prepTime: 15 min

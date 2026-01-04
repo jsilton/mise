@@ -1,5 +1,11 @@
 ---
 title: Royal Icing
+difficulty: intermediate
+cookingMethods: []
+dietary: [vegetarian]
+occasions: []
+flavorProfile: [sweet]
+cuisines: []
 role: base
 vibe: quick
 prepTime: 5 min

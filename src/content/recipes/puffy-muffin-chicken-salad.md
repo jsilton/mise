@@ -1,5 +1,11 @@
 ---
 title: Puffy Muffin Chicken Salad
+difficulty: easy
+cookingMethods: [roast, boil, poach]
+dietary: []
+occasions: []
+flavorProfile: [acidic, rich]
+cuisines: []
 role: side
 vibe: nutritious
 prepTime: 10 min

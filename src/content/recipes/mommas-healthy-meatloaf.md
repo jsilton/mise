@@ -1,5 +1,11 @@
 ---
 title: Momma’s Healthy Meatloaf
+difficulty: easy
+cookingMethods: [bake, roast, sauté, steam]
+dietary: []
+occasions: [comfort-food]
+flavorProfile: []
+cuisines: []
 role: main
 vibe: comfort
 prepTime: 15 min

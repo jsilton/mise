@@ -1,5 +1,11 @@
 ---
 title: Cod with Lemon Panko
+difficulty: easy
+cookingMethods: [bake, roast, poach]
+dietary: []
+occasions: []
+flavorProfile: [acidic, rich, herbaceous]
+cuisines: []
 role: main
 vibe: quick
 prepTime: 10 min

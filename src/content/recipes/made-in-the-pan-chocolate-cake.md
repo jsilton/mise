@@ -1,5 +1,11 @@
 ---
 title: Made-In-The-Pan Chocolate Cake
+difficulty: easy
+cookingMethods: [bake]
+dietary: [vegetarian]
+occasions: []
+flavorProfile: [sweet, acidic, rich]
+cuisines: []
 role: dessert
 vibe: technical
 prepTime: 10 min

@@ -1,6 +1,12 @@
 ---
 title: Do Chua
 origin: Vietnam
+difficulty: easy
+cookingMethods: [grill]
+dietary: []
+occasions: []
+flavorProfile: [sweet, acidic]
+cuisines: [Vietnamese]
 role: condiment
 vibe: nutritious
 prepTime: 15 min

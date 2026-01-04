@@ -1,5 +1,11 @@
 ---
 title: Gluten-Free Lemon Cupcakes
+difficulty: easy
+cookingMethods: [bake]
+dietary: [vegetarian, gluten-free]
+occasions: []
+flavorProfile: [sweet, acidic, rich]
+cuisines: []
 role: dessert
 vibe: technical
 prepTime: 10 min

@@ -1,5 +1,11 @@
 ---
 title: Garlic Honey Lime Shrimp
+difficulty: intermediate
+cookingMethods: [simmer]
+dietary: []
+occasions: []
+flavorProfile: [spicy, sweet, rich, herbaceous]
+cuisines: []
 role: main
 vibe: quick
 prepTime: 10 min

@@ -1,5 +1,11 @@
 ---
 title: 'Sausage, Shrimp & Quinoa Skillet'
+difficulty: easy
+cookingMethods: [fry, sauté]
+dietary: []
+occasions: []
+flavorProfile: [spicy, acidic, herbaceous]
+cuisines: []
 role: main
 vibe: quick
 prepTime: 5 min

@@ -1,5 +1,11 @@
 ---
 title: Chinese Chicken
+difficulty: easy
+cookingMethods: [fry, sauté, simmer, boil, steam]
+dietary: []
+occasions: []
+flavorProfile: [sweet, savory, umami]
+cuisines: []
 role: main
 vibe: nutritious
 prepTime: 20 min

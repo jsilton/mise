@@ -1,5 +1,11 @@
 ---
 title: Sticky Peking Meatballs
+difficulty: easy
+cookingMethods: [fry, sauté, simmer, boil]
+dietary: []
+occasions: []
+flavorProfile: [acidic, herbaceous]
+cuisines: []
 role: main
 vibe: quick
 prepTime: 10 min

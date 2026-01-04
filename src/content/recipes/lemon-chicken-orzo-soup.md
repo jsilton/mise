@@ -1,5 +1,11 @@
 ---
 title: Lemon Chicken Orzo Soup
+difficulty: easy
+cookingMethods: [sauté, simmer, boil]
+dietary: []
+occasions: [comfort-food]
+flavorProfile: [savory, acidic, rich, herbaceous]
+cuisines: []
 role: main
 vibe: comfort
 prepTime: 10 min

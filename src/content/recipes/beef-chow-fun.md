@@ -1,5 +1,11 @@
 ---
 title: Beef Chow Fun
+difficulty: easy
+cookingMethods: [sauté]
+dietary: []
+occasions: [comfort-food]
+flavorProfile: [spicy, sweet, savory, umami]
+cuisines: [Chinese]
 role: main
 vibe: comfort
 prepTime: 20 min

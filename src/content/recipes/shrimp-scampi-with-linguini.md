@@ -1,5 +1,11 @@
 ---
 title: Shrimp Scampi with Linguini
+difficulty: intermediate
+cookingMethods: [sauté, boil]
+dietary: []
+occasions: []
+flavorProfile: [acidic, umami, rich, herbaceous]
+cuisines: []
 role: main
 vibe: quick
 prepTime: 15 min

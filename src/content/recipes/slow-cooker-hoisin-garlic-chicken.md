@@ -1,5 +1,11 @@
 ---
 title: Slow Cooker Hoisin Garlic Chicken
+difficulty: easy
+cookingMethods: [boil, slow-cook]
+dietary: []
+occasions: [comfort-food]
+flavorProfile: [sweet, savory, acidic, umami]
+cuisines: []
 role: main
 vibe: comfort
 prepTime: 10 min

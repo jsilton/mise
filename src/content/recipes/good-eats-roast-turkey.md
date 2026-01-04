@@ -1,5 +1,11 @@
 ---
 title: Good Eats Roast Turkey
+difficulty: easy
+cookingMethods: [bake, roast, boil, steam]
+dietary: []
+occasions: [holiday]
+flavorProfile: [sweet, rich, herbaceous]
+cuisines: []
 role: main
 vibe: holiday
 prepTime: 30 min

@@ -1,5 +1,11 @@
 ---
 title: Zucchini Noodles with Avocado & Shrimp
+difficulty: easy
+cookingMethods: [roast, sauté, blend]
+dietary: []
+occasions: []
+flavorProfile: [sweet, savory, acidic, herbaceous]
+cuisines: []
 role: main
 vibe: quick
 prepTime: 15 min

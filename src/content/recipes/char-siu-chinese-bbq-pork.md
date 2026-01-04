@@ -1,6 +1,12 @@
 ---
 title: Char Siu
 origin: China
+difficulty: easy
+cookingMethods: [bake, roast]
+dietary: []
+occasions: []
+flavorProfile: [sweet, savory, umami]
+cuisines: [Chinese]
 role: main
 vibe: technical
 prepTime: 15 min

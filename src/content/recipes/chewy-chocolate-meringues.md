@@ -1,5 +1,11 @@
 ---
 title: Chewy Chocolate Meringues
+difficulty: intermediate
+cookingMethods: [bake, simmer, boil]
+dietary: [vegetarian]
+occasions: [comfort-food]
+flavorProfile: [sweet, rich]
+cuisines: []
 role: dessert
 vibe: comfort
 prepTime: 20 min

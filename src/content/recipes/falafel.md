@@ -1,5 +1,11 @@
 ---
 title: Falafel
+difficulty: easy
+cookingMethods: [fry, steam, blend]
+dietary: [vegetarian]
+occasions: []
+flavorProfile: [herbaceous]
+cuisines: []
 role: main
 vibe: nutritious
 prepTime: 20 min

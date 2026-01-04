@@ -1,5 +1,11 @@
 ---
 title: Caramelized Black Pepper Chicken
+difficulty: easy
+cookingMethods: [simmer]
+dietary: []
+occasions: []
+flavorProfile: [spicy, sweet, savory, acidic, umami]
+cuisines: []
 role: main
 vibe: quick
 prepTime: 15 min

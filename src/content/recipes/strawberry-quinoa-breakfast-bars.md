@@ -1,5 +1,11 @@
 ---
 title: Strawberry Quinoa Breakfast Bars
+difficulty: easy
+cookingMethods: [bake]
+dietary: [vegetarian]
+occasions: []
+flavorProfile: [rich]
+cuisines: []
 role: base
 vibe: quick
 prepTime: 5 min

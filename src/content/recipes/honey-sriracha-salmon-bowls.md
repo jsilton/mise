@@ -1,5 +1,11 @@
 ---
 title: Honey Sriracha Salmon Bowls
+difficulty: easy
+cookingMethods: [steam, no-cook]
+dietary: [vegetarian]
+occasions: []
+flavorProfile: [spicy, sweet, savory, umami]
+cuisines: []
 role: main
 vibe: nutritious
 prepTime: 15 min

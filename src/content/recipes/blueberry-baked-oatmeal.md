@@ -1,5 +1,11 @@
 ---
 title: Blueberry Oatmeal
+difficulty: easy
+cookingMethods: [bake]
+dietary: [vegetarian, nut-free]
+occasions: []
+flavorProfile: [sweet, rich]
+cuisines: []
 role: main
 vibe: quick
 prepTime: 10 min

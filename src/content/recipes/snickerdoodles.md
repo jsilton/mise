@@ -2,6 +2,12 @@
 title: Snickerdoodles
 aliases:
   - "snickerdoodles-the-tangy-classic"
+difficulty: easy
+cookingMethods: [bake]
+dietary: [vegetarian]
+occasions: [comfort-food]
+flavorProfile: [sweet, rich]
+cuisines: []
 role: dessert
 vibe: comfort
 prepTime: 15 min

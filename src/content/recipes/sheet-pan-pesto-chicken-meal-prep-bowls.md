@@ -1,5 +1,11 @@
 ---
 title: Sheet Pan Pesto Chicken Bowls
+difficulty: easy
+cookingMethods: [bake, roast]
+dietary: []
+occasions: []
+flavorProfile: [umami, herbaceous]
+cuisines: [Italian]
 role: main
 vibe: nutritious
 prepTime: 20 min

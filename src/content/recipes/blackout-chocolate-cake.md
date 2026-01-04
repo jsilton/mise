@@ -1,5 +1,11 @@
 ---
 title: Blackout Chocolate Cake
+difficulty: easy
+cookingMethods: [bake, boil]
+dietary: [vegetarian]
+occasions: []
+flavorProfile: [sweet, acidic, rich]
+cuisines: []
 role: dessert
 vibe: technical
 prepTime: 45 min

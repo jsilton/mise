@@ -1,5 +1,11 @@
 ---
 title: Shrimp with Lobster Sauce
+difficulty: easy
+cookingMethods: [fry, sauté, simmer, boil]
+dietary: []
+occasions: [comfort-food]
+flavorProfile: [savory, umami]
+cuisines: []
 role: main
 vibe: comfort
 prepTime: 15 min

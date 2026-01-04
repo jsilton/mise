@@ -1,5 +1,11 @@
 ---
 title: Restaurant-Style Chicken Lo Mein
+difficulty: easy
+cookingMethods: [fry, sauté, steam]
+dietary: []
+occasions: []
+flavorProfile: [sweet, savory, umami]
+cuisines: []
 role: main
 vibe: nutritious
 prepTime: 20 min

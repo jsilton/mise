@@ -1,5 +1,11 @@
 ---
 title: Peking Duck
+difficulty: easy
+cookingMethods: [bake, roast, simmer, boil]
+dietary: []
+occasions: []
+flavorProfile: [sweet, acidic]
+cuisines: []
 role: main
 vibe: technical
 prepTime: 120 min

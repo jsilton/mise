@@ -1,5 +1,11 @@
 ---
 title: Pad Thai
+difficulty: intermediate
+cookingMethods: [fry, sauté, boil]
+dietary: []
+occasions: [comfort-food]
+flavorProfile: [spicy, sweet, acidic]
+cuisines: [Thai]
 role: main
 vibe: comfort
 prepTime: 40 min

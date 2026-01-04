@@ -1,6 +1,12 @@
 ---
 title: Pad Kee Mao
 origin: Thailand
+difficulty: easy
+cookingMethods: [fry, sauté, boil]
+dietary: []
+occasions: []
+flavorProfile: [spicy, sweet, savory, umami]
+cuisines: [Thai]
 role: main
 vibe: nutritious
 prepTime: 20 min

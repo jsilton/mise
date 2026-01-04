@@ -1,5 +1,11 @@
 ---
 title: Chicken Parmesan
+difficulty: easy
+cookingMethods: [bake]
+dietary: []
+occasions: [comfort-food]
+flavorProfile: [acidic, umami, herbaceous]
+cuisines: []
 role: main
 vibe: comfort
 prepTime: 15 min

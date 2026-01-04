@@ -1,5 +1,11 @@
 ---
 title: Pumpkin Pancakes
+difficulty: intermediate
+cookingMethods: []
+dietary: [vegetarian]
+occasions: [comfort-food]
+flavorProfile: [sweet, savory, rich]
+cuisines: []
 role: main
 vibe: comfort
 prepTime: 10 min

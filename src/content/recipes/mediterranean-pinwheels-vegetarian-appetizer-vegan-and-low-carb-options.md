@@ -1,5 +1,11 @@
 ---
 title: Mediterranean Pinwheels
+difficulty: easy
+cookingMethods: [blend]
+dietary: [vegetarian]
+occasions: []
+flavorProfile: [umami, rich, herbaceous]
+cuisines: []
 role: main
 vibe: quick
 prepTime: 15 min

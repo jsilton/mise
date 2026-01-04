@@ -1,5 +1,11 @@
 ---
 title: Honey Sesame Chicken
+difficulty: easy
+cookingMethods: [fry, sauté, steam]
+dietary: []
+occasions: []
+flavorProfile: [sweet, savory, acidic, umami]
+cuisines: []
 role: main
 vibe: quick
 prepTime: 10 min

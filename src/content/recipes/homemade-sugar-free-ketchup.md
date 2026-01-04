@@ -1,5 +1,11 @@
 ---
 title: Ketchup
+difficulty: easy
+cookingMethods: [simmer, blend]
+dietary: [vegetarian]
+occasions: []
+flavorProfile: [sweet, savory, acidic, rich]
+cuisines: []
 role: condiment
 vibe: quick
 prepTime: 5 min

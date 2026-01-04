@@ -2,6 +2,12 @@
 title: Carrot Cake
 aliases:
   - "bas-best-carrot-cake-the-brown-butter-upgrade"
+difficulty: intermediate
+cookingMethods: [bake, no-cook]
+dietary: [vegetarian]
+occasions: []
+flavorProfile: [sweet, rich]
+cuisines: []
 role: dessert
 vibe: technical
 prepTime: 45 min

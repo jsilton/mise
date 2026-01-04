@@ -1,5 +1,11 @@
 ---
 title: Thai Basil Chicken & Eggplant
+difficulty: intermediate
+cookingMethods: [fry, sauté, steam]
+dietary: []
+occasions: []
+flavorProfile: [sweet, savory, umami, herbaceous]
+cuisines: []
 role: main
 vibe: nutritious
 prepTime: 15 min

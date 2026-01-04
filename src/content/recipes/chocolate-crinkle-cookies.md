@@ -1,5 +1,11 @@
 ---
 title: Chocolate Crinkle Cookies
+difficulty: easy
+cookingMethods: [bake, simmer]
+dietary: [vegetarian]
+occasions: [comfort-food]
+flavorProfile: [sweet, rich]
+cuisines: []
 role: dessert
 vibe: comfort
 prepTime: 25 min

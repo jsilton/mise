@@ -1,5 +1,11 @@
 ---
 title: One-Pot Chicken Meatballs with Greens
+difficulty: intermediate
+cookingMethods: [bake, sauté, simmer, steam, braise]
+dietary: []
+occasions: []
+flavorProfile: [acidic, rich]
+cuisines: []
 role: main
 vibe: nutritious
 prepTime: 15 min

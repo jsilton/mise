@@ -1,5 +1,11 @@
 ---
 title: Mandarin/Pineapple Orange Salad
+difficulty: intermediate
+cookingMethods: [bake, roast, boil]
+dietary: []
+occasions: []
+flavorProfile: [sweet, rich]
+cuisines: []
 role: side
 vibe: nutritious
 prepTime: 10 min

@@ -1,5 +1,11 @@
 ---
 title: Caprese Pasta
+difficulty: intermediate
+cookingMethods: [sauté, boil]
+dietary: [vegetarian]
+occasions: []
+flavorProfile: [sweet, acidic, rich, herbaceous]
+cuisines: []
 role: main
 vibe: quick
 prepTime: 10 min

@@ -1,5 +1,11 @@
 ---
 title: Greek-Style Lamb Burgers
+difficulty: easy
+cookingMethods: [grill, no-cook]
+dietary: []
+occasions: []
+flavorProfile: [acidic, rich, herbaceous]
+cuisines: []
 role: main
 vibe: quick
 prepTime: 15 min

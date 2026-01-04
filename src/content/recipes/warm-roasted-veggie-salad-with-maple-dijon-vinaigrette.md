@@ -1,5 +1,11 @@
 ---
 title: Veggie Salad
+difficulty: easy
+cookingMethods: [bake, roast, grill, no-cook]
+dietary: []
+occasions: []
+flavorProfile: [sweet, savory, acidic, umami]
+cuisines: []
 role: side
 vibe: nutritious
 prepTime: 10 min

@@ -1,5 +1,11 @@
 ---
 title: Pumpkin Breakfast Cookies
+difficulty: intermediate
+cookingMethods: [bake, blend]
+dietary: [vegetarian]
+occasions: []
+flavorProfile: [sweet]
+cuisines: []
 role: main
 vibe: nutritious
 prepTime: 10 min

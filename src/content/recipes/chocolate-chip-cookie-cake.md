@@ -1,5 +1,11 @@
 ---
 title: Chocolate Chip Cookie Cake
+difficulty: easy
+cookingMethods: [bake]
+dietary: [vegetarian]
+occasions: [holiday]
+flavorProfile: [sweet, rich]
+cuisines: []
 role: dessert
 vibe: holiday
 prepTime: 20 min

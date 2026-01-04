@@ -1,5 +1,11 @@
 ---
 title: Slow Cooker Cheesy Mushroom Quinoa
+difficulty: intermediate
+cookingMethods: [roast, slow-cook, blend]
+dietary: []
+occasions: [comfort-food]
+flavorProfile: [rich, herbaceous]
+cuisines: []
 role: main
 vibe: comfort
 prepTime: 10 min

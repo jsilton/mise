@@ -1,5 +1,11 @@
 ---
 title: Green Bean Fries
+difficulty: easy
+cookingMethods: [bake, roast, fry, boil, steam]
+dietary: []
+occasions: [kids-approved]
+flavorProfile: [acidic, umami]
+cuisines: []
 role: side
 vibe: quick
 prepTime: 5 min

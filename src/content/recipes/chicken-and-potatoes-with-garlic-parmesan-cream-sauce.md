@@ -1,5 +1,11 @@
 ---
 title: Chicken and Potatoes with Garlic Parmesan Cream
+difficulty: intermediate
+cookingMethods: [bake, roast]
+dietary: []
+occasions: [comfort-food]
+flavorProfile: [umami, rich]
+cuisines: []
 role: main
 vibe: comfort
 prepTime: 15 min

@@ -1,5 +1,11 @@
 ---
 title: Cantonese Wonton Broth
+difficulty: easy
+cookingMethods: [roast, simmer, boil]
+dietary: []
+occasions: [comfort-food]
+flavorProfile: [savory, umami]
+cuisines: [Chinese]
 role: base
 vibe: comfort
 prepTime: 10 min

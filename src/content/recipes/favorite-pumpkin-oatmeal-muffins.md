@@ -1,5 +1,11 @@
 ---
 title: Pumpkin Oatmeal Muffins
+difficulty: easy
+cookingMethods: [bake, blend]
+dietary: [vegetarian]
+occasions: []
+flavorProfile: [sweet, umami]
+cuisines: []
 role: main
 vibe: nutritious
 prepTime: 10 min

@@ -1,5 +1,11 @@
 ---
 title: Banana Nut Bread
+difficulty: intermediate
+cookingMethods: [bake]
+dietary: [vegetarian]
+occasions: [comfort-food]
+flavorProfile: [sweet, rich]
+cuisines: []
 role: side
 vibe: comfort
 prepTime: 15 min

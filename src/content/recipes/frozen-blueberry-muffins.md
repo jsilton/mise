@@ -1,5 +1,11 @@
 ---
 title: Frozen Blueberry Muffins
+difficulty: easy
+cookingMethods: [bake]
+dietary: [vegetarian]
+occasions: []
+flavorProfile: [sweet, rich]
+cuisines: []
 role: main
 vibe: quick
 prepTime: 10 min

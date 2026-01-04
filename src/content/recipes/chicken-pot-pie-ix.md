@@ -1,6 +1,12 @@
 ---
 title: Chicken Pot Pie
 origin: USA
+difficulty: intermediate
+cookingMethods: [bake, roast, sauté, simmer, boil, steam, poach, no-cook]
+dietary: []
+occasions: []
+flavorProfile: [savory, rich]
+cuisines: [American]
 role: main
 vibe: technical
 prepTime: 45 min

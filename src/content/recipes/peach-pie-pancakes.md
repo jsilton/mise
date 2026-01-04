@@ -1,5 +1,11 @@
 ---
 title: Peach Pie Pancakes
+difficulty: easy
+cookingMethods: []
+dietary: [vegetarian]
+occasions: []
+flavorProfile: [sweet, rich]
+cuisines: []
 role: dessert
 vibe: technical
 prepTime: 15 min

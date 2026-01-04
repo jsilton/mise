@@ -1,5 +1,11 @@
 ---
 title: Zuppa Toscana
+difficulty: intermediate
+cookingMethods: [bake, roast, sauté, simmer, boil]
+dietary: []
+occasions: []
+flavorProfile: [sweet, rich]
+cuisines: []
 role: main
 vibe: nutritious
 prepTime: 15 min

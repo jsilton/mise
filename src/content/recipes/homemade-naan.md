@@ -1,6 +1,12 @@
 ---
 title: Naan
 origin: India
+difficulty: easy
+cookingMethods: [bake, steam]
+dietary: []
+occasions: []
+flavorProfile: [sweet, rich]
+cuisines: [Indian]
 role: base
 vibe: technical
 prepTime: 20 min

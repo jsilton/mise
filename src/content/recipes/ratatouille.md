@@ -1,5 +1,11 @@
 ---
 title: Ratatouille
+difficulty: intermediate
+cookingMethods: [bake, roast, sauté, simmer]
+dietary: [vegetarian]
+occasions: []
+flavorProfile: [acidic, herbaceous]
+cuisines: []
 role: main
 vibe: nutritious
 prepTime: 20 min

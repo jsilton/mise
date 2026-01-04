@@ -1,5 +1,11 @@
 ---
 title: Blueberry Oat Breakfast Bars
+difficulty: intermediate
+cookingMethods: [bake]
+dietary: [vegetarian]
+occasions: []
+flavorProfile: [sweet, rich]
+cuisines: []
 role: main
 vibe: nutritious
 prepTime: 10 min

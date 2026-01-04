@@ -1,5 +1,11 @@
 ---
 title: Banana Bread
+difficulty: intermediate
+cookingMethods: [bake, blend]
+dietary: [vegetarian]
+occasions: []
+flavorProfile: [sweet, rich]
+cuisines: []
 role: main
 vibe: nutritious
 prepTime: 10 min

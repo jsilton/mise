@@ -1,5 +1,11 @@
 ---
 title: Mongolian Beef
+difficulty: easy
+cookingMethods: [fry, simmer, steam]
+dietary: []
+occasions: []
+flavorProfile: [sweet, savory, umami]
+cuisines: []
 role: main
 vibe: quick
 prepTime: 15 min

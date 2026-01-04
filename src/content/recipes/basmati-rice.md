@@ -1,5 +1,11 @@
 ---
 title: Basmati Rice
+difficulty: easy
+cookingMethods: [simmer, steam]
+dietary: []
+occasions: []
+flavorProfile: [rich]
+cuisines: []
 role: base
 vibe: quick
 prepTime: 5 min

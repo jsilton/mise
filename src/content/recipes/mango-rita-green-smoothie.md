@@ -1,5 +1,11 @@
 ---
 title: Mango-Rita Green Smoothie
+difficulty: easy
+cookingMethods: [blend]
+dietary: [vegetarian]
+occasions: []
+flavorProfile: [sweet, acidic, rich]
+cuisines: []
 role: drink
 vibe: nutritious
 prepTime: 10 min

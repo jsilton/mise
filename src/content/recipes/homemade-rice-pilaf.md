@@ -1,5 +1,11 @@
 ---
 title: Rice Pilaf
+difficulty: easy
+cookingMethods: [sauté, simmer, boil, steam]
+dietary: []
+occasions: []
+flavorProfile: [rich]
+cuisines: []
 role: base
 vibe: quick
 prepTime: 5 min

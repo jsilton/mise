@@ -1,5 +1,11 @@
 ---
 title: 'Smashed Cucumber Salad'
+difficulty: easy
+cookingMethods: []
+dietary: []
+occasions: []
+flavorProfile: [spicy, sweet, savory, acidic, umami]
+cuisines: []
 role: side
 vibe: nutritious
 prepTime: 10 min

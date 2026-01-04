@@ -1,5 +1,11 @@
 ---
 title: Asparagus
+difficulty: easy
+cookingMethods: [bake, roast, steam]
+dietary: []
+occasions: []
+flavorProfile: [acidic, umami]
+cuisines: []
 role: side
 vibe: nutritious
 prepTime: 5 min

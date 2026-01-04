@@ -1,6 +1,12 @@
 ---
 title: Dashi
 origin: Japan
+difficulty: easy
+cookingMethods: [simmer, boil]
+dietary: [vegetarian]
+occasions: []
+flavorProfile: [savory, umami]
+cuisines: [Japanese]
 role: base
 vibe: quick
 prepTime: 5 min

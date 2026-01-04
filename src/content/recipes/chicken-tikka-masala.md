@@ -28,6 +28,12 @@ ingredients:
   - 1 tbsp Kasuri Methi (dried fenugreek leaves)
   - 1 tsp Garam Masala (for finishing)
 totalTime: 60 min
+difficulty: easy
+cookingMethods: [bake, sauté, simmer, blend]
+dietary: []
+occasions: [comfort-food]
+flavorProfile: [spicy, sweet, savory, acidic, umami, rich]
+cuisines: [Indian]
 role: main
 vibe: technical
 ---

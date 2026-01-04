@@ -1,6 +1,12 @@
 ---
 title: Lamb Ragù
 origin: Italy
+difficulty: intermediate
+cookingMethods: [fry, sauté, simmer, boil, braise]
+dietary: []
+occasions: []
+flavorProfile: [savory, acidic, umami, rich, herbaceous]
+cuisines: [Italian]
 role: main
 vibe: nutritious
 prepTime: 10 min

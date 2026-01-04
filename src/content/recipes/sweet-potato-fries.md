@@ -1,5 +1,11 @@
 ---
 title: Sweet Potato Fries
+difficulty: easy
+cookingMethods: [bake, roast, fry, steam]
+dietary: [vegetarian]
+occasions: []
+flavorProfile: [sweet, savory, smoky]
+cuisines: []
 role: main
 vibe: nutritious
 prepTime: 10 min

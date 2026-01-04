@@ -1,5 +1,11 @@
 ---
 title: Slow Cooker French Dip Sandwiches
+difficulty: easy
+cookingMethods: [roast, slow-cook, no-cook]
+dietary: []
+occasions: [comfort-food]
+flavorProfile: [sweet, savory, umami]
+cuisines: []
 role: main
 vibe: comfort
 prepTime: 15 min

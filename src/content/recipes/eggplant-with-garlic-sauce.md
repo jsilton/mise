@@ -1,5 +1,11 @@
 ---
 title: Speedy Chinese Eggplant
+difficulty: easy
+cookingMethods: [fry, sauté, boil, steam]
+dietary: [vegetarian]
+occasions: []
+flavorProfile: [spicy, sweet, savory, acidic, umami, rich]
+cuisines: []
 role: side
 vibe: quick
 prepTime: 5 min

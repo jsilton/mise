@@ -1,5 +1,11 @@
 ---
 title: Chicken with Herbed Corn Salsa
+difficulty: easy
+cookingMethods: [grill, blend]
+dietary: []
+occasions: []
+flavorProfile: [sweet, acidic, umami, rich, herbaceous]
+cuisines: []
 role: main
 vibe: nutritious
 prepTime: 15 min

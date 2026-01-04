@@ -1,5 +1,11 @@
 ---
 title: Everyday Arugula Salad
+difficulty: easy
+cookingMethods: []
+dietary: []
+occasions: []
+flavorProfile: [acidic, umami, rich]
+cuisines: []
 role: side
 vibe: quick
 prepTime: 5 min

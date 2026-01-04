@@ -1,5 +1,11 @@
 ---
 title: Turkey Meatballs
+difficulty: intermediate
+cookingMethods: [bake, blend]
+dietary: []
+occasions: []
+flavorProfile: []
+cuisines: []
 role: main
 vibe: quick
 prepTime: 15 min

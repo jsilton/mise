@@ -1,5 +1,11 @@
 ---
 title: Sesame Tomato Salad
+difficulty: intermediate
+cookingMethods: [roast]
+dietary: [vegetarian]
+occasions: []
+flavorProfile: [sweet, savory, acidic, umami, herbaceous]
+cuisines: []
 role: side
 vibe: nutritious
 prepTime: 10 min

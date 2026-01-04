@@ -1,5 +1,11 @@
 ---
 title: Seasoned Black Beans
+difficulty: easy
+cookingMethods: [simmer]
+dietary: []
+occasions: []
+flavorProfile: [sweet, acidic, rich]
+cuisines: []
 role: side
 vibe: quick
 prepTime: 2 min

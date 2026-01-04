@@ -1,5 +1,11 @@
 ---
 title: Green Smoothie
+difficulty: easy
+cookingMethods: [blend]
+dietary: [vegetarian]
+occasions: []
+flavorProfile: [sweet, rich]
+cuisines: []
 role: drink
 vibe: nutritious
 prepTime: 5 min

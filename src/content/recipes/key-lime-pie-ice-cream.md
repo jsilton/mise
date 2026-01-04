@@ -1,5 +1,11 @@
 ---
 title: Key Lime Pie Ice Cream
+difficulty: easy
+cookingMethods: []
+dietary: [vegetarian]
+occasions: []
+flavorProfile: [sweet, acidic, rich]
+cuisines: []
 role: dessert
 vibe: technical
 prepTime: 15 min

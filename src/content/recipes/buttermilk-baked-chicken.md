@@ -1,5 +1,11 @@
 ---
 title: Buttermilk Chicken
+difficulty: easy
+cookingMethods: [bake, roast, fry]
+dietary: []
+occasions: [comfort-food]
+flavorProfile: [acidic, umami, rich]
+cuisines: []
 role: main
 vibe: comfort
 prepTime: 15 min

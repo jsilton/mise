@@ -2,6 +2,12 @@
 title: Instant Pot Pulled Pork
 aliases:
   - "instant-pot-pulled-pork-the-batch-king"
+difficulty: easy
+cookingMethods: [bake, sauté]
+dietary: []
+occasions: [comfort-food]
+flavorProfile: [spicy, sweet, acidic, smoky]
+cuisines: []
 role: main
 vibe: comfort
 prepTime: 15 min

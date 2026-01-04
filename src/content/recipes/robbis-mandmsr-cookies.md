@@ -1,5 +1,11 @@
 ---
 title: Robbi's M&M Cookies
+difficulty: intermediate
+cookingMethods: [bake]
+dietary: [vegetarian]
+occasions: [comfort-food]
+flavorProfile: [sweet, rich]
+cuisines: []
 role: dessert
 vibe: comfort
 prepTime: 15 min

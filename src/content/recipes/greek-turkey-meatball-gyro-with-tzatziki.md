@@ -1,5 +1,11 @@
 ---
 title: Greek Turkey Meatball Gyro
+difficulty: easy
+cookingMethods: [roast, no-cook]
+dietary: []
+occasions: []
+flavorProfile: [acidic, rich]
+cuisines: []
 role: main
 vibe: quick
 prepTime: 10 min

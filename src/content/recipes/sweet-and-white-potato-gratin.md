@@ -2,6 +2,12 @@
 title: Sweet and White Potato Gratin
 aliases:
   - "sweet-and-white-potato-gratin-the-thanksgiving-splurge"
+difficulty: easy
+cookingMethods: [bake, roast, simmer, boil]
+dietary: [vegetarian]
+occasions: [holiday]
+flavorProfile: [spicy, sweet, umami, rich, herbaceous]
+cuisines: []
 role: side
 vibe: holiday
 prepTime: 25 min

@@ -1,5 +1,11 @@
 ---
 title: Tomato Basil Soup
+difficulty: easy
+cookingMethods: [bake, roast, grill, sauté, simmer, blend]
+dietary: []
+occasions: [comfort-food]
+flavorProfile: [sweet, acidic, rich, herbaceous]
+cuisines: []
 role: main
 vibe: comfort
 prepTime: 15 min

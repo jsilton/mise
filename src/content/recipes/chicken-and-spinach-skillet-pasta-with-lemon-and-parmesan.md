@@ -1,5 +1,11 @@
 ---
 title: Chicken & Spinach Skillet Pasta
+difficulty: easy
+cookingMethods: [roast, simmer, boil]
+dietary: []
+occasions: []
+flavorProfile: [acidic, umami, rich]
+cuisines: []
 role: main
 vibe: quick
 prepTime: 10 min

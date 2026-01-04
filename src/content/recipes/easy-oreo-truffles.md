@@ -1,5 +1,11 @@
 ---
 title: Oreo Truffles
+difficulty: easy
+cookingMethods: [simmer, blend]
+dietary: [vegetarian]
+occasions: []
+flavorProfile: [sweet, acidic, rich]
+cuisines: []
 role: dessert
 vibe: quick
 prepTime: 20 min

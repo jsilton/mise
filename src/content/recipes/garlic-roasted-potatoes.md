@@ -1,5 +1,11 @@
 ---
 title: Garlic Potatoes
+difficulty: easy
+cookingMethods: [bake, roast, steam]
+dietary: []
+occasions: []
+flavorProfile: [sweet, herbaceous]
+cuisines: []
 role: side
 vibe: nutritious
 prepTime: 10 min

@@ -1,5 +1,11 @@
 ---
 title: Chocolate Chia Pudding
+difficulty: easy
+cookingMethods: [blend]
+dietary: [vegetarian]
+occasions: [comfort-food]
+flavorProfile: [sweet]
+cuisines: []
 role: main
 vibe: nutritious
 prepTime: 10 min

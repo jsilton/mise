@@ -1,5 +1,11 @@
 ---
 title: Blueberry Date Oatmeal
+difficulty: easy
+cookingMethods: [simmer, boil]
+dietary: [vegetarian]
+occasions: []
+flavorProfile: [sweet, rich]
+cuisines: []
 role: main
 vibe: nutritious
 prepTime: 5 min

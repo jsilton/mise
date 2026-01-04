@@ -1,5 +1,11 @@
 ---
 title: Wonton Soup
+difficulty: easy
+cookingMethods: [boil, no-cook]
+dietary: []
+occasions: []
+flavorProfile: [spicy, savory, umami]
+cuisines: [Chinese]
 role: main
 vibe: technical
 prepTime: 30 min

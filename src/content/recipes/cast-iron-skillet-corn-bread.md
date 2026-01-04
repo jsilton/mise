@@ -1,5 +1,11 @@
 ---
 title: Cast Iron Skillet Cornbread
+difficulty: easy
+cookingMethods: [bake, fry]
+dietary: []
+occasions: []
+flavorProfile: [spicy, sweet, rich]
+cuisines: []
 role: side
 vibe: quick
 prepTime: 10 min

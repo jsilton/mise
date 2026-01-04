@@ -1,5 +1,11 @@
 ---
 title: Broccolini, Chicken Sausage, and Orzo Skillet
+difficulty: easy
+cookingMethods: [sauté, simmer, boil]
+dietary: []
+occasions: [kids-approved]
+flavorProfile: [spicy, umami, rich]
+cuisines: []
 role: main
 vibe: quick
 prepTime: 10 min

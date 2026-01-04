@@ -1,5 +1,11 @@
 ---
 title: Mediterranean Salmon with Lemon-Herb Emulsion
+difficulty: easy
+cookingMethods: [bake, roast, boil, no-cook]
+dietary: [vegetarian]
+occasions: []
+flavorProfile: [sweet, acidic, herbaceous, smoky]
+cuisines: []
 role: main
 vibe: quick
 prepTime: 15 min

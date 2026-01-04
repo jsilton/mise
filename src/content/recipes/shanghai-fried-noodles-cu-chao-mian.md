@@ -1,6 +1,12 @@
 ---
 title: Cu Chao Mian
 origin: China
+difficulty: easy
+cookingMethods: [fry, sauté]
+dietary: []
+occasions: []
+flavorProfile: [sweet, savory, acidic, umami]
+cuisines: [Chinese]
 role: main
 vibe: quick
 prepTime: 10 min

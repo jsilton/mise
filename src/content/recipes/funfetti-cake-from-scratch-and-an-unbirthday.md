@@ -1,5 +1,11 @@
 ---
 title: Funfetti Cake
+difficulty: easy
+cookingMethods: [bake, no-cook]
+dietary: [vegetarian]
+occasions: []
+flavorProfile: [sweet, rich]
+cuisines: []
 role: dessert
 vibe: technical
 prepTime: 50 min

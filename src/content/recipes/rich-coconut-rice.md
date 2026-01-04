@@ -1,5 +1,11 @@
 ---
 title: Coconut Rice
+difficulty: easy
+cookingMethods: [simmer, boil, steam]
+dietary: []
+occasions: []
+flavorProfile: [sweet, savory, rich]
+cuisines: []
 role: base
 vibe: quick
 prepTime: 5 min

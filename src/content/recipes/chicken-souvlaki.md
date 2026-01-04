@@ -1,5 +1,11 @@
 ---
 title: Chicken Souvlaki
+difficulty: easy
+cookingMethods: [grill]
+dietary: []
+occasions: []
+flavorProfile: [acidic]
+cuisines: [Greek]
 role: main
 vibe: nutritious
 prepTime: 15 min

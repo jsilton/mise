@@ -1,5 +1,11 @@
 ---
 title: Pear & Spinach Salad
+difficulty: easy
+cookingMethods: [roast, no-cook]
+dietary: []
+occasions: []
+flavorProfile: [sweet, acidic]
+cuisines: []
 role: side
 vibe: nutritious
 prepTime: 15 min

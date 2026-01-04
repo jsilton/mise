@@ -1,5 +1,11 @@
 ---
 title: Chicken and Broccoli
+difficulty: easy
+cookingMethods: [bake, roast]
+dietary: []
+occasions: []
+flavorProfile: [rich]
+cuisines: []
 role: main
 vibe: quick
 prepTime: 15 min

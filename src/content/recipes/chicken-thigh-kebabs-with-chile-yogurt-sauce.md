@@ -1,5 +1,11 @@
 ---
 title: Chicken Thigh Kebabs with Chile-Yogurt Sauce
+difficulty: intermediate
+cookingMethods: [grill]
+dietary: []
+occasions: []
+flavorProfile: [spicy, sweet, acidic]
+cuisines: []
 role: main
 vibe: nutritious
 prepTime: 20 min

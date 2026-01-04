@@ -1,5 +1,11 @@
 ---
 title: Chicken Lettuce Wraps
+difficulty: easy
+cookingMethods: [fry]
+dietary: []
+occasions: []
+flavorProfile: [spicy, savory, acidic, umami, rich]
+cuisines: []
 role: main
 vibe: quick
 prepTime: 15 min

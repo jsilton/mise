@@ -1,5 +1,11 @@
 ---
 title: Brownie Oatmeal
+difficulty: easy
+cookingMethods: [bake, blend]
+dietary: [vegetarian]
+occasions: [comfort-food]
+flavorProfile: [sweet, acidic, rich]
+cuisines: []
 role: main
 vibe: nutritious
 prepTime: 5 min

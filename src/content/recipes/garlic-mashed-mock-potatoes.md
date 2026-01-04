@@ -1,5 +1,11 @@
 ---
 title: Garlic Mashed "Mock" Potatoes
+difficulty: easy
+cookingMethods: [boil, steam, blend]
+dietary: []
+occasions: []
+flavorProfile: [savory, umami, rich]
+cuisines: []
 role: side
 vibe: quick
 prepTime: 10 min

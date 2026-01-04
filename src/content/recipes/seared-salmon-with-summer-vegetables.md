@@ -1,5 +1,11 @@
 ---
 title: Seared Salmon with Summer Vegetables
+difficulty: easy
+cookingMethods: [sauté, simmer]
+dietary: []
+occasions: []
+flavorProfile: [acidic, rich]
+cuisines: []
 role: main
 vibe: quick
 prepTime: 20 min

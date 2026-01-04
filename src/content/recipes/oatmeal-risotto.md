@@ -1,5 +1,11 @@
 ---
 title: Oatmeal Risotto
+difficulty: intermediate
+cookingMethods: [simmer, boil]
+dietary: []
+occasions: []
+flavorProfile: [sweet, savory, acidic, umami, rich]
+cuisines: [Italian]
 role: main
 vibe: technical
 prepTime: 10 min

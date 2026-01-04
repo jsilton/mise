@@ -1,5 +1,11 @@
 ---
 title: Roast Turkey Breast
+difficulty: easy
+cookingMethods: [bake, roast]
+dietary: []
+occasions: [holiday]
+flavorProfile: [rich]
+cuisines: []
 role: main
 vibe: holiday
 prepTime: 10 min

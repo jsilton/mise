@@ -1,5 +1,11 @@
 ---
 title: Peach and Avocado Salad
+difficulty: intermediate
+cookingMethods: [roast, grill]
+dietary: []
+occasions: []
+flavorProfile: [spicy, sweet, acidic, rich, herbaceous]
+cuisines: []
 role: side
 vibe: nutritious
 prepTime: 15 min

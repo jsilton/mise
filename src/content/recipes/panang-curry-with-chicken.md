@@ -1,5 +1,11 @@
 ---
 title: Panang Curry with Chicken
+difficulty: easy
+cookingMethods: [fry, simmer, poach]
+dietary: [nut-free]
+occasions: []
+flavorProfile: [sweet, rich]
+cuisines: [Thai]
 role: main
 vibe: nutritious
 prepTime: 15 min

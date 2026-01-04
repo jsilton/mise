@@ -1,5 +1,11 @@
 ---
 title: No-Cook Playdough
+difficulty: easy
+cookingMethods: [boil, no-cook]
+dietary: [vegetarian]
+occasions: []
+flavorProfile: [acidic, rich]
+cuisines: []
 role: base
 vibe: nutritious
 prepTime: 10 min

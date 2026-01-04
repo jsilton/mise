@@ -1,5 +1,11 @@
 ---
 title: Sticky Miso Salmon Bowls
+difficulty: easy
+cookingMethods: [simmer, boil, steam, no-cook]
+dietary: [vegetarian]
+occasions: []
+flavorProfile: [sweet, savory, acidic, rich]
+cuisines: [Japanese]
 role: main
 vibe: nutritious
 prepTime: 15 min

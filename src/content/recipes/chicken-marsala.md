@@ -16,6 +16,12 @@ ingredients:
   - '3/4 cup chicken stock'
   - '2 tablespoons unsalted butter, cold and cubed'
   - 'Fresh parsley, chopped'
+difficulty: easy
+cookingMethods: [sauté, simmer, boil]
+dietary: []
+occasions: [comfort-food]
+flavorProfile: [sweet, savory, rich, herbaceous]
+cuisines: []
 role: main
 vibe: comfort
 ---

@@ -2,6 +2,12 @@
 title: Turkey Burgers
 aliases:
   - "juicy-turkey-burgers-the-family-favorite"
+difficulty: easy
+cookingMethods: [roast, grill, no-cook]
+dietary: []
+occasions: []
+flavorProfile: [sweet]
+cuisines: []
 role: main
 vibe: quick
 prepTime: 15 min

@@ -1,5 +1,11 @@
 ---
 title: Honey Chipotle Lime Chicken Bowls
+difficulty: easy
+cookingMethods: [grill, no-cook]
+dietary: []
+occasions: []
+flavorProfile: [sweet, acidic, rich]
+cuisines: []
 role: main
 vibe: nutritious
 prepTime: 45 min

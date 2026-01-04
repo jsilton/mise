@@ -1,5 +1,11 @@
 ---
 title: Slow Cooker Vegetable Korma
+difficulty: intermediate
+cookingMethods: [braise, slow-cook]
+dietary: [vegetarian]
+occasions: []
+flavorProfile: [rich]
+cuisines: []
 role: side
 vibe: nutritious
 prepTime: 15 min

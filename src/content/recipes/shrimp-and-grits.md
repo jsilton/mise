@@ -1,5 +1,11 @@
 ---
 title: Shrimp and Grits
+difficulty: intermediate
+cookingMethods: [roast, fry, simmer, boil, no-cook]
+dietary: []
+occasions: []
+flavorProfile: [savory, acidic, rich, herbaceous, smoky]
+cuisines: []
 role: main
 vibe: quick
 prepTime: 15 min

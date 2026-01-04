@@ -1,5 +1,11 @@
 ---
 title: Baby’s First Smash Cake
+difficulty: easy
+cookingMethods: [bake, no-cook, blend]
+dietary: [vegetarian]
+occasions: [holiday]
+flavorProfile: [sweet, rich]
+cuisines: []
 role: dessert
 vibe: holiday
 prepTime: 20 min

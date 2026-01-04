@@ -1,5 +1,11 @@
 ---
 title: Glazed Carrots
+difficulty: easy
+cookingMethods: [roast, simmer, boil]
+dietary: [vegetarian]
+occasions: []
+flavorProfile: [sweet, rich]
+cuisines: []
 role: side
 vibe: quick
 prepTime: 10 min

@@ -1,5 +1,11 @@
 ---
 title: Sheet Pan Feta Chicken
+difficulty: intermediate
+cookingMethods: [bake, roast]
+dietary: []
+occasions: []
+flavorProfile: [sweet, savory, acidic, rich, herbaceous]
+cuisines: []
 role: main
 vibe: nutritious
 prepTime: 15 min

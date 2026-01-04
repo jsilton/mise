@@ -1,5 +1,11 @@
 ---
 title: Doc Chey’s Chinese Lo Mein
+difficulty: easy
+cookingMethods: [sauté, simmer]
+dietary: []
+occasions: []
+flavorProfile: [sweet, savory, umami]
+cuisines: []
 role: main
 vibe: nutritious
 prepTime: 15 min

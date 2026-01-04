@@ -1,5 +1,11 @@
 ---
 title: Broccoli with Garlic
+difficulty: easy
+cookingMethods: [bake, boil, steam]
+dietary: []
+occasions: []
+flavorProfile: [savory, acidic]
+cuisines: []
 role: side
 vibe: quick
 prepTime: 5 min

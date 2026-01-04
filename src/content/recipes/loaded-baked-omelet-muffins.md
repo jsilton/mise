@@ -1,5 +1,11 @@
 ---
 title: Omelet Muffins
+difficulty: easy
+cookingMethods: [bake, no-cook]
+dietary: [vegetarian]
+occasions: []
+flavorProfile: [savory]
+cuisines: []
 role: main
 vibe: quick
 prepTime: 10 min

@@ -1,5 +1,11 @@
 ---
 title: Chicken and Wild Rice Soup
+difficulty: easy
+cookingMethods: [sauté, simmer, boil, poach, blend]
+dietary: []
+occasions: [comfort-food]
+flavorProfile: [acidic, rich, herbaceous]
+cuisines: []
 role: main
 vibe: comfort
 prepTime: 20 min

@@ -1,6 +1,12 @@
 ---
 title: Chana Begoon
 origin: India
+difficulty: easy
+cookingMethods: [bake, roast, sauté, simmer]
+dietary: []
+occasions: []
+flavorProfile: [spicy, acidic]
+cuisines: [Indian]
 role: main
 vibe: nutritious
 prepTime: 15 min

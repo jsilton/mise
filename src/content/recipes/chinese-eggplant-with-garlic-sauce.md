@@ -1,5 +1,11 @@
 ---
 title: Chinese Eggplant with Garlic Sauce
+difficulty: easy
+cookingMethods: [fry, simmer, steam]
+dietary: []
+occasions: []
+flavorProfile: [spicy, sweet, savory, acidic, umami]
+cuisines: []
 role: main
 vibe: nutritious
 prepTime: 15 min

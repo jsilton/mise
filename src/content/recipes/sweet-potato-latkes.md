@@ -1,5 +1,11 @@
 ---
 title: Potato Latkes
+difficulty: easy
+cookingMethods: [fry]
+dietary: [vegetarian]
+occasions: []
+flavorProfile: [sweet, savory, rich]
+cuisines: []
 role: main
 vibe: nutritious
 prepTime: 30 min

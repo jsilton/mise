@@ -1,5 +1,11 @@
 ---
 title: Three Herb Chicken & Mushrooms
+difficulty: intermediate
+cookingMethods: [bake, roast, fry, sauté, simmer]
+dietary: []
+occasions: []
+flavorProfile: [acidic, herbaceous]
+cuisines: []
 role: main
 vibe: nutritious
 prepTime: 10 min

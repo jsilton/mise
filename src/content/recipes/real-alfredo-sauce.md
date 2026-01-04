@@ -1,6 +1,12 @@
 ---
 title: Alfredo Sauce
 origin: Italy
+difficulty: intermediate
+cookingMethods: [simmer, boil, steam]
+dietary: []
+occasions: []
+flavorProfile: [umami, rich]
+cuisines: [Italian]
 role: base
 vibe: quick
 prepTime: 2 min

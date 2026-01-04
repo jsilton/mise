@@ -1,5 +1,11 @@
 ---
 title: Grandmother's Buttermilk Cornbread
+difficulty: easy
+cookingMethods: [bake]
+dietary: []
+occasions: [comfort-food]
+flavorProfile: [spicy, sweet, rich]
+cuisines: []
 role: side
 vibe: comfort
 prepTime: 10 min

@@ -1,5 +1,11 @@
 ---
 title: Cilantro Lime Rice
+difficulty: easy
+cookingMethods: [simmer, boil, steam]
+dietary: []
+occasions: []
+flavorProfile: [sweet, acidic, rich, herbaceous]
+cuisines: []
 role: base
 vibe: quick
 prepTime: 5 min

@@ -1,5 +1,11 @@
 ---
 title: Hot Mulled Apple Cider
+difficulty: easy
+cookingMethods: [simmer, boil, slow-cook]
+dietary: [vegetarian]
+occasions: [holiday]
+flavorProfile: [sweet, acidic]
+cuisines: []
 role: drink
 vibe: holiday
 prepTime: 5 min

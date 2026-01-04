@@ -1,5 +1,11 @@
 ---
 title: Lemon Basil Shrimp Risotto
+difficulty: easy
+cookingMethods: [roast, sauté]
+dietary: []
+occasions: []
+flavorProfile: [acidic, umami, rich, herbaceous]
+cuisines: [Italian]
 role: main
 vibe: technical
 prepTime: 10 min

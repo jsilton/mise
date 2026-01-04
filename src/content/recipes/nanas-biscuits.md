@@ -1,5 +1,11 @@
 ---
 title: 'Nana’s Biscuits'
+difficulty: easy
+cookingMethods: [bake, roast]
+dietary: [vegetarian]
+occasions: [comfort-food]
+flavorProfile: [sweet, savory, rich]
+cuisines: []
 role: side
 vibe: comfort
 prepTime: 10 min

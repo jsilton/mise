@@ -1,5 +1,11 @@
 ---
 title: Spinach Lemon Chicken
+difficulty: intermediate
+cookingMethods: [bake, roast, sauté, simmer]
+dietary: []
+occasions: []
+flavorProfile: [savory, acidic, rich]
+cuisines: []
 role: main
 vibe: quick
 prepTime: 10 min

@@ -1,5 +1,11 @@
 ---
 title: Chicken Coq au Vin
+difficulty: easy
+cookingMethods: [bake, sauté, simmer, boil]
+dietary: []
+occasions: []
+flavorProfile: [savory, umami, rich, herbaceous]
+cuisines: [French]
 role: main
 vibe: technical
 prepTime: 30 min

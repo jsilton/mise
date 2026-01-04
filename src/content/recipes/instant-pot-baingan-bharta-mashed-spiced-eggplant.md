@@ -1,5 +1,11 @@
 ---
 title: Instant Pot Baingan Bharta
+difficulty: easy
+cookingMethods: [roast, fry, sauté, boil]
+dietary: [vegetarian]
+occasions: []
+flavorProfile: [spicy, sweet, savory, acidic, umami]
+cuisines: []
 role: main
 vibe: nutritious
 prepTime: 15 min

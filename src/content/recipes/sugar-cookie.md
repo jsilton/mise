@@ -1,5 +1,11 @@
 ---
 title: Sugar Cookies
+difficulty: easy
+cookingMethods: [bake]
+dietary: [vegetarian]
+occasions: [holiday]
+flavorProfile: [sweet, rich]
+cuisines: []
 role: base
 vibe: quick
 prepTime: 30 min

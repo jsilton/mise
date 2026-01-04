@@ -2,6 +2,12 @@
 title: Chicken Milanese
 aliases:
   - "chicken-milanese-the-north-end-special"
+difficulty: easy
+cookingMethods: [roast, fry, no-cook]
+dietary: []
+occasions: []
+flavorProfile: [acidic, umami, herbaceous]
+cuisines: []
 role: main
 vibe: quick
 prepTime: 15 min

@@ -1,5 +1,11 @@
 ---
 title: Blueberry Banana Pancake Muffins
+difficulty: intermediate
+cookingMethods: [bake, blend]
+dietary: [vegetarian]
+occasions: []
+flavorProfile: [sweet, rich]
+cuisines: []
 role: main
 vibe: quick
 prepTime: 5 min

@@ -1,5 +1,11 @@
 ---
 title: Keto Egg Muffins
+difficulty: easy
+cookingMethods: [bake]
+dietary: []
+occasions: []
+flavorProfile: [spicy, savory, rich]
+cuisines: []
 role: main
 vibe: quick
 prepTime: 5 min

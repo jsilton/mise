@@ -1,5 +1,11 @@
 ---
 title: Ham & Cheese Green Bean Casserole
+difficulty: easy
+cookingMethods: [bake, boil, no-cook]
+dietary: []
+occasions: [holiday]
+flavorProfile: [savory, rich]
+cuisines: []
 role: main
 vibe: holiday
 prepTime: 15 min

@@ -1,5 +1,11 @@
 ---
 title: Slow Cooker Lentil Tortilla Soup
+difficulty: easy
+cookingMethods: [slow-cook, blend]
+dietary: [vegetarian]
+occasions: [comfort-food]
+flavorProfile: [spicy, acidic, umami, rich]
+cuisines: []
 role: main
 vibe: comfort
 prepTime: 15 min

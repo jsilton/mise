@@ -1,5 +1,11 @@
 ---
 title: Breakfast Carrot Cake
+difficulty: easy
+cookingMethods: [bake]
+dietary: [vegetarian]
+occasions: []
+flavorProfile: [sweet, rich]
+cuisines: []
 role: main
 vibe: nutritious
 prepTime: 15 min

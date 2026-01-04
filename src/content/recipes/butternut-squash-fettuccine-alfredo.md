@@ -1,5 +1,11 @@
 ---
 title: Butternut Squash Fettuccine Alfredo
+difficulty: easy
+cookingMethods: [bake, roast, boil, blend]
+dietary: []
+occasions: [comfort-food]
+flavorProfile: [sweet, umami, rich, herbaceous]
+cuisines: [Italian]
 role: main
 vibe: comfort
 prepTime: 15 min

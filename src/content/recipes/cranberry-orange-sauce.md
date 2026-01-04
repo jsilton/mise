@@ -2,6 +2,12 @@
 title: Cranberry Orange Sauce
 aliases:
   - "cranberry-orange-sauce-the-bright-finish"
+difficulty: intermediate
+cookingMethods: [roast, simmer, boil]
+dietary: [vegetarian]
+occasions: [holiday]
+flavorProfile: [sweet, acidic, rich]
+cuisines: []
 role: side
 vibe: holiday
 prepTime: 5 min

@@ -1,5 +1,11 @@
 ---
 title: Spinach & Mushroom Quiche
+difficulty: easy
+cookingMethods: [bake, sauté, no-cook]
+dietary: [vegetarian]
+occasions: [comfort-food]
+flavorProfile: [sweet, acidic, rich]
+cuisines: []
 role: main
 vibe: comfort
 prepTime: 25 min

@@ -1,5 +1,11 @@
 ---
 title: Spiced Butternut Squash Soup
+difficulty: easy
+cookingMethods: [bake, roast, grill, sauté, simmer, boil, steam, blend]
+dietary: [vegetarian]
+occasions: [holiday, comfort-food]
+flavorProfile: [acidic, rich]
+cuisines: []
 role: main
 vibe: comfort
 prepTime: 20 min

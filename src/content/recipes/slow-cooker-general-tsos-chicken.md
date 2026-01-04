@@ -1,5 +1,11 @@
 ---
 title: "Slow Cooker General Tso's Chicken"
+difficulty: easy
+cookingMethods: [fry, steam, slow-cook]
+dietary: []
+occasions: [comfort-food]
+flavorProfile: [sweet, savory, acidic, umami]
+cuisines: []
 role: main
 vibe: comfort
 prepTime: 15 min

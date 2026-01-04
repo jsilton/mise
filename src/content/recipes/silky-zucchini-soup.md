@@ -1,5 +1,11 @@
 ---
 title: Zucchini Soup
+difficulty: easy
+cookingMethods: [sauté, simmer, boil, blend]
+dietary: []
+occasions: [comfort-food]
+flavorProfile: [sweet, acidic, rich]
+cuisines: []
 role: main
 vibe: comfort
 prepTime: 10 min

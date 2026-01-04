@@ -1,5 +1,11 @@
 ---
 title: Whole-Wheat Mac and Cheese
+difficulty: easy
+cookingMethods: [bake, roast, boil]
+dietary: []
+occasions: [comfort-food]
+flavorProfile: [umami, rich]
+cuisines: []
 role: main
 vibe: comfort
 prepTime: 5 min

@@ -1,5 +1,11 @@
 ---
 title: Chicken Sausage Pasta
+difficulty: easy
+cookingMethods: [sauté, simmer, boil]
+dietary: []
+occasions: []
+flavorProfile: [sweet, acidic, umami, herbaceous]
+cuisines: []
 role: main
 vibe: quick
 prepTime: 10 min

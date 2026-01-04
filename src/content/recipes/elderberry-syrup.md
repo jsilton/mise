@@ -1,5 +1,11 @@
 ---
 title: Elderberry Syrup
+difficulty: easy
+cookingMethods: [simmer, boil, blend]
+dietary: [vegetarian]
+occasions: [kids-approved]
+flavorProfile: [sweet]
+cuisines: []
 role: drink
 vibe: technical
 prepTime: 5 min

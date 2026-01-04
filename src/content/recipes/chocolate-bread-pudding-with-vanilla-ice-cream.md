@@ -1,5 +1,11 @@
 ---
 title: Chocolate Bread Pudding
+difficulty: easy
+cookingMethods: [bake, no-cook]
+dietary: [vegetarian]
+occasions: [comfort-food]
+flavorProfile: [sweet, rich]
+cuisines: []
 role: dessert
 vibe: comfort
 prepTime: 25 min

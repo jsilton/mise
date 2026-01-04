@@ -1,5 +1,11 @@
 ---
 title: Sheet Pan Gnocchi & Veggies
+difficulty: intermediate
+cookingMethods: [bake, roast, boil, steam]
+dietary: []
+occasions: []
+flavorProfile: [acidic, umami, herbaceous]
+cuisines: []
 role: main
 vibe: quick
 prepTime: 10 min

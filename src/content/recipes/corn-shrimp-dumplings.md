@@ -1,5 +1,11 @@
 ---
 title: Corn-Shrimp Dumplings
+difficulty: intermediate
+cookingMethods: [boil, steam]
+dietary: []
+occasions: []
+flavorProfile: [spicy, sweet, savory, umami]
+cuisines: []
 role: side
 vibe: technical
 prepTime: 40 min

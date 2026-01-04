@@ -1,5 +1,11 @@
 ---
 title: Heirloom Tomato & Pesto Galette
+difficulty: easy
+cookingMethods: [bake, roast, steam, no-cook, blend]
+dietary: [vegetarian]
+occasions: []
+flavorProfile: [spicy, sweet, rich, herbaceous]
+cuisines: [Italian]
 role: main
 vibe: technical
 prepTime: 20 min

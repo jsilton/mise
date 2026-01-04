@@ -1,5 +1,11 @@
 ---
 title: Strawberry Cheesecake Overnight Oats
+difficulty: easy
+cookingMethods: []
+dietary: [vegetarian]
+occasions: []
+flavorProfile: [sweet, acidic, rich]
+cuisines: []
 role: dessert
 vibe: technical
 prepTime: 10 min

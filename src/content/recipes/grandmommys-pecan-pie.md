@@ -1,5 +1,11 @@
 ---
 title: 'Grandmommy’s Pecan Pie'
+difficulty: easy
+cookingMethods: [bake]
+dietary: [vegetarian]
+occasions: [holiday]
+flavorProfile: [sweet, rich]
+cuisines: []
 role: dessert
 vibe: holiday
 prepTime: 15 min

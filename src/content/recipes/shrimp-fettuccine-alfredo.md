@@ -1,5 +1,11 @@
 ---
 title: Shrimp Fettuccine Alfredo
+difficulty: easy
+cookingMethods: [boil, steam]
+dietary: []
+occasions: [comfort-food]
+flavorProfile: [rich, herbaceous]
+cuisines: [Italian]
 role: main
 vibe: quick
 prepTime: 10 min

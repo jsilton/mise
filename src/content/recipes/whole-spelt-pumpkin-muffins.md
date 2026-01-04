@@ -1,5 +1,11 @@
 ---
 title: Whole Spelt Pumpkin Muffins
+difficulty: easy
+cookingMethods: [bake]
+dietary: [vegetarian]
+occasions: []
+flavorProfile: [sweet, rich]
+cuisines: []
 role: main
 vibe: quick
 prepTime: 5 min

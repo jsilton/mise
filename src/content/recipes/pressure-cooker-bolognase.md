@@ -1,5 +1,11 @@
 ---
 title: Pressure-Cooker Bolognese
+difficulty: easy
+cookingMethods: [sauté, simmer]
+dietary: []
+occasions: [comfort-food]
+flavorProfile: [spicy, acidic, umami, rich, herbaceous]
+cuisines: []
 role: main
 vibe: comfort
 prepTime: 15 min

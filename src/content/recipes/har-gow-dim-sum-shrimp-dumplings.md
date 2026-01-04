@@ -1,6 +1,12 @@
 ---
 title: Har Gow (Shrimp Dumplings)
 origin: China
+difficulty: easy
+cookingMethods: [boil, steam, no-cook]
+dietary: []
+occasions: []
+flavorProfile: [spicy, sweet, savory, umami]
+cuisines: [Chinese]
 role: main
 vibe: technical
 prepTime: 60 min

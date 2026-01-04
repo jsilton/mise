@@ -1,6 +1,12 @@
 ---
 title: Garlic Butter Salmon with Potatoes and Asparagus
 origin: USA
+difficulty: easy
+cookingMethods: [bake, roast]
+dietary: []
+occasions: []
+flavorProfile: [acidic, rich, herbaceous]
+cuisines: [American]
 role: main
 vibe: quick
 prepTime: 10 min

@@ -1,5 +1,11 @@
 ---
 title: Drop Biscuits
+difficulty: easy
+cookingMethods: [bake, steam, blend]
+dietary: []
+occasions: []
+flavorProfile: [spicy, sweet, rich]
+cuisines: []
 role: main
 vibe: quick
 prepTime: 10 min

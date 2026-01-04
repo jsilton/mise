@@ -1,5 +1,11 @@
 ---
 title: Spinach & Ricotta Stuffed Shells
+difficulty: easy
+cookingMethods: [bake, roast, boil, no-cook, blend]
+dietary: [vegetarian]
+occasions: [comfort-food]
+flavorProfile: [umami, herbaceous]
+cuisines: []
 role: main
 vibe: comfort
 prepTime: 20 min

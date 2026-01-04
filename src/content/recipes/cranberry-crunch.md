@@ -1,5 +1,11 @@
 ---
 title: Cranberry Apple Crunch
+difficulty: intermediate
+cookingMethods: [bake]
+dietary: [vegetarian]
+occasions: [holiday]
+flavorProfile: [sweet, acidic, rich]
+cuisines: []
 role: dessert
 vibe: holiday
 prepTime: 15 min

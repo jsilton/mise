@@ -1,5 +1,11 @@
 ---
 title: Chia Pudding
+difficulty: intermediate
+cookingMethods: [blend]
+dietary: [vegetarian]
+occasions: []
+flavorProfile: [sweet, rich]
+cuisines: []
 role: main
 vibe: nutritious
 prepTime: 10 min

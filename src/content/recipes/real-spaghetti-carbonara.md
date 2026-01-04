@@ -1,6 +1,12 @@
 ---
 title: Spaghetti Carbonara
 origin: Italy
+difficulty: intermediate
+cookingMethods: [sauté, boil]
+dietary: []
+occasions: []
+flavorProfile: [umami, rich]
+cuisines: [Italian]
 role: main
 vibe: quick
 prepTime: 5 min

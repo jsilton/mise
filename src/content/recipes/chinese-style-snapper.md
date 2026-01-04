@@ -1,5 +1,11 @@
 ---
 title: Chinese-Style Snapper
+difficulty: easy
+cookingMethods: [bake, roast, steam]
+dietary: []
+occasions: []
+flavorProfile: [savory, umami]
+cuisines: []
 role: main
 vibe: technical
 prepTime: 20 min

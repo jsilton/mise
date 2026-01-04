@@ -1,5 +1,11 @@
 ---
 title: Sun-Dried Tomato Cream Spaghetti
+difficulty: intermediate
+cookingMethods: [roast, sauté, simmer, boil]
+dietary: []
+occasions: []
+flavorProfile: [acidic, umami, rich]
+cuisines: []
 role: side
 vibe: nutritious
 prepTime: 10 min

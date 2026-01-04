@@ -1,6 +1,12 @@
 ---
 title: Pork and Corn Bowls
 origin: Mexico
+difficulty: easy
+cookingMethods: [roast, fry, simmer, boil, steam, no-cook, blend]
+dietary: []
+occasions: []
+flavorProfile: [sweet, acidic, rich]
+cuisines: [Mexican]
 role: main
 vibe: nutritious
 prepTime: 10 min

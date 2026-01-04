@@ -1,6 +1,12 @@
 ---
 title: Chicken Kabobs
 origin: Middle East
+difficulty: easy
+cookingMethods: [grill]
+dietary: []
+occasions: []
+flavorProfile: [acidic, herbaceous]
+cuisines: [Lebanese, Middle Eastern]
 role: main
 vibe: nutritious
 prepTime: 35 min

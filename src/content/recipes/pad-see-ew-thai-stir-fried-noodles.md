@@ -1,6 +1,12 @@
 ---
 title: Pad See Ew
 origin: Thailand
+difficulty: easy
+cookingMethods: [sauté]
+dietary: []
+occasions: []
+flavorProfile: [sweet, savory, acidic, umami]
+cuisines: [Thai]
 role: main
 vibe: quick
 prepTime: 15 min

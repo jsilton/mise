@@ -1,5 +1,11 @@
 ---
 title: Lemon-Miso Tofu with Broccoli
+difficulty: easy
+cookingMethods: [fry, sauté, simmer]
+dietary: [vegetarian]
+occasions: []
+flavorProfile: [sweet, savory, acidic, umami]
+cuisines: [Japanese]
 role: main
 vibe: nutritious
 prepTime: 15 min

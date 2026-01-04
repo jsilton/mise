@@ -1,5 +1,11 @@
 ---
 title: Lime & Honey Glazed Salmon
+difficulty: easy
+cookingMethods: [sauté, simmer]
+dietary: []
+occasions: []
+flavorProfile: [spicy, sweet]
+cuisines: []
 role: main
 vibe: nutritious
 prepTime: 20 min

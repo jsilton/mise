@@ -1,5 +1,11 @@
 ---
 title: Chicken Scaloppine with Tomato & White Wine
+difficulty: intermediate
+cookingMethods: [sauté, simmer, steam]
+dietary: []
+occasions: [comfort-food]
+flavorProfile: [sweet, savory, umami, rich]
+cuisines: []
 role: main
 vibe: comfort
 prepTime: 15 min

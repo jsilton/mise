@@ -1,6 +1,12 @@
 ---
 title: Chicken Tinga
 origin: Mexico
+difficulty: easy
+cookingMethods: [sauté, simmer, poach, blend]
+dietary: []
+occasions: [kids-approved]
+flavorProfile: [savory, acidic]
+cuisines: [Mexican]
 role: main
 vibe: quick
 prepTime: 15 min

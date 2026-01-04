@@ -19,6 +19,12 @@ ingredients:
   - 1/4 tsp Smoked Paprika
   - 1 tsp Kosher Salt
   - 1/2 tsp Black Pepper
+difficulty: easy
+cookingMethods: [bake, roast, grill, boil]
+dietary: []
+occasions: [comfort-food]
+flavorProfile: [rich, smoky]
+cuisines: []
 role: main
 vibe: nutritious
 ---

@@ -1,6 +1,12 @@
 ---
 title: Challah
 origin: Israel
+difficulty: easy
+cookingMethods: [bake]
+dietary: []
+occasions: []
+flavorProfile: [sweet, rich]
+cuisines: [Israeli]
 role: main
 vibe: technical
 prepTime: 120 min

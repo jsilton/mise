@@ -1,5 +1,11 @@
 ---
 title: Sheet Pan Chicken Fajitas
+difficulty: easy
+cookingMethods: [bake, roast]
+dietary: []
+occasions: []
+flavorProfile: [acidic]
+cuisines: []
 role: main
 vibe: quick
 prepTime: 15 min

@@ -1,5 +1,11 @@
 ---
 title: Cantonese Shrimp and Pork Wontons
+difficulty: easy
+cookingMethods: [roast, fry, no-cook]
+dietary: []
+occasions: []
+flavorProfile: [sweet, savory, umami]
+cuisines: [Chinese]
 role: main
 vibe: technical
 prepTime: 45 min

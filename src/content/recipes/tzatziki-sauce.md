@@ -1,5 +1,11 @@
 ---
 title: Tzatziki Sauce
+difficulty: easy
+cookingMethods: []
+dietary: []
+occasions: []
+flavorProfile: [acidic, rich]
+cuisines: [Greek]
 role: condiment
 vibe: quick
 prepTime: 15 min

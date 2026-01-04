@@ -1,6 +1,12 @@
 ---
 title: Esquites
 origin: Mexico
+difficulty: easy
+cookingMethods: [grill, boil]
+dietary: []
+occasions: []
+flavorProfile: [spicy, sweet, acidic, rich]
+cuisines: [Mexican]
 role: side
 vibe: quick
 prepTime: 10 min

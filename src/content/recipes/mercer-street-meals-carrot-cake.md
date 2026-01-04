@@ -2,6 +2,12 @@
 title: Carrot Cake
 aliases:
   - "mercer-street-carrot-cake-the-brown-butter-upgrade"
+difficulty: intermediate
+cookingMethods: [bake, boil, no-cook]
+dietary: [vegetarian]
+occasions: []
+flavorProfile: [sweet, rich]
+cuisines: []
 role: dessert
 vibe: technical
 prepTime: 30 min

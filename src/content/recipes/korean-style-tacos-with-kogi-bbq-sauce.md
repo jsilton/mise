@@ -1,5 +1,11 @@
 ---
 title: Korean Style Tacos
+difficulty: easy
+cookingMethods: [no-cook]
+dietary: []
+occasions: []
+flavorProfile: [spicy, sweet, savory, acidic, umami]
+cuisines: [Mexican]
 role: main
 vibe: quick
 prepTime: 15 min

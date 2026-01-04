@@ -1,5 +1,11 @@
 ---
 title: Katharine Hepburn’s Brownies
+difficulty: intermediate
+cookingMethods: [bake]
+dietary: [vegetarian]
+occasions: []
+flavorProfile: [sweet, rich]
+cuisines: []
 role: dessert
 vibe: nutritious
 prepTime: 10 min

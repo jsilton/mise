@@ -1,5 +1,11 @@
 ---
 title: Coconut Curry Shrimp
+difficulty: easy
+cookingMethods: [sauté, simmer, boil]
+dietary: []
+occasions: []
+flavorProfile: [sweet, rich, herbaceous]
+cuisines: [Thai]
 role: main
 vibe: quick
 prepTime: 10 min

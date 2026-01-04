@@ -1,5 +1,11 @@
 ---
 title: Slow Cooker Chicken Noodle Soup
+difficulty: easy
+cookingMethods: [grill, slow-cook]
+dietary: []
+occasions: [comfort-food]
+flavorProfile: [acidic, herbaceous]
+cuisines: []
 role: main
 vibe: comfort
 prepTime: 15 min

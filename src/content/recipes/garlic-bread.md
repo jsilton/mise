@@ -1,5 +1,11 @@
 ---
 title: Garlic Bread
+difficulty: easy
+cookingMethods: [bake, roast]
+dietary: []
+occasions: [comfort-food]
+flavorProfile: [sweet, umami, rich, herbaceous]
+cuisines: []
 role: side
 vibe: comfort
 prepTime: 10 min

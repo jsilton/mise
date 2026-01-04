@@ -1,5 +1,11 @@
 ---
 title: Shrimp & Snow Pea Stir Fry
+difficulty: easy
+cookingMethods: [fry, sauté, boil]
+dietary: []
+occasions: []
+flavorProfile: [spicy, sweet, savory, umami]
+cuisines: []
 role: main
 vibe: quick
 prepTime: 10 min

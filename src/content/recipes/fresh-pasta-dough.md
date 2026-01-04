@@ -1,5 +1,11 @@
 ---
 title: Pasta Dough
+difficulty: easy
+cookingMethods: []
+dietary: [vegetarian]
+occasions: []
+flavorProfile: [herbaceous]
+cuisines: []
 role: base
 vibe: technical
 prepTime: 15 min

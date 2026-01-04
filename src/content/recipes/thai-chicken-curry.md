@@ -1,5 +1,11 @@
 ---
 title: Thai Red Chicken Curry
+difficulty: easy
+cookingMethods: [fry, simmer, boil]
+dietary: []
+occasions: []
+flavorProfile: [spicy, sweet, acidic, rich, herbaceous]
+cuisines: [Thai]
 role: main
 vibe: nutritious
 prepTime: 15 min

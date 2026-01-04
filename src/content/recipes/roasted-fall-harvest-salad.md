@@ -1,5 +1,11 @@
 ---
 title: Fall Harvest Salad
+difficulty: easy
+cookingMethods: [bake, roast, grill, simmer, steam, no-cook]
+dietary: []
+occasions: []
+flavorProfile: [spicy, sweet, acidic, rich, herbaceous]
+cuisines: []
 role: side
 vibe: nutritious
 prepTime: 20 min

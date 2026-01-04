@@ -1,5 +1,11 @@
 ---
 title: Banana Pudding
+difficulty: intermediate
+cookingMethods: [simmer]
+dietary: [vegetarian, egg-free]
+occasions: [comfort-food]
+flavorProfile: [sweet, rich]
+cuisines: []
 role: dessert
 vibe: comfort
 prepTime: 30 min

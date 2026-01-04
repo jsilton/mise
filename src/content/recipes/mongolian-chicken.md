@@ -1,5 +1,11 @@
 ---
 title: Mongolian Chicken
+difficulty: easy
+cookingMethods: [fry, sauté, simmer, boil, steam]
+dietary: []
+occasions: []
+flavorProfile: [spicy, sweet, savory, umami]
+cuisines: []
 role: main
 vibe: nutritious
 prepTime: 25 min

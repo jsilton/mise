@@ -1,5 +1,11 @@
 ---
 title: Steel-Cut Oatmeal
+difficulty: intermediate
+cookingMethods: [fry, simmer, boil]
+dietary: [vegetarian]
+occasions: []
+flavorProfile: [sweet, acidic, rich]
+cuisines: []
 role: main
 vibe: nutritious
 prepTime: 5 min

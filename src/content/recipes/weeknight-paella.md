@@ -1,5 +1,11 @@
 ---
 title: Weeknight Paella
+difficulty: easy
+cookingMethods: [fry, sauté, simmer]
+dietary: []
+occasions: []
+flavorProfile: [acidic, herbaceous, smoky]
+cuisines: [Spanish]
 role: main
 vibe: technical
 prepTime: 20 min

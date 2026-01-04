@@ -1,5 +1,11 @@
 ---
 title: Shakshuka
+difficulty: easy
+cookingMethods: [sauté, simmer, poach, no-cook]
+dietary: []
+occasions: []
+flavorProfile: [spicy, acidic, umami, smoky]
+cuisines: []
 role: main
 vibe: nutritious
 prepTime: 15 min

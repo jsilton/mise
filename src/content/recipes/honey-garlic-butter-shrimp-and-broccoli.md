@@ -1,5 +1,11 @@
 ---
 title: Honey Garlic Butter Shrimp & Broccoli
+difficulty: easy
+cookingMethods: [sauté, simmer]
+dietary: []
+occasions: []
+flavorProfile: [sweet, savory, umami, rich]
+cuisines: []
 role: main
 vibe: quick
 prepTime: 10 min

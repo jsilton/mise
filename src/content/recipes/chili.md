@@ -20,6 +20,12 @@ ingredients:
   - 1 tbsp Apple Cider Vinegar or Lime Juice
   - Salt and pepper to taste
   - 'Shredded Cheddar, Sour Cream, Avocado, and Cilantro'
+difficulty: easy
+cookingMethods: [bake, roast, sauté, simmer, boil]
+dietary: []
+occasions: [comfort-food, kids-approved]
+flavorProfile: [spicy, sweet, acidic, rich, smoky]
+cuisines: [Mexican]
 role: main
 vibe: comfort
 ---

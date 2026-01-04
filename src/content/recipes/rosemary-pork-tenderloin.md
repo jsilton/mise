@@ -1,5 +1,11 @@
 ---
 title: Pork Tenderloin
+difficulty: easy
+cookingMethods: [bake, roast]
+dietary: []
+occasions: []
+flavorProfile: [sweet, savory, herbaceous]
+cuisines: []
 role: main
 vibe: nutritious
 prepTime: 15 min

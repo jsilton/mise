@@ -72,6 +72,46 @@ We maintain a small, human-editable knowledge base of culinary rules and heurist
 - **Suppress a rule for a specific recipe:** Add `kb: { disable: ["kb.plating-suggestion"] }` in frontmatter to silence a KB rule when you intentionally deviate.
 - **When in doubt:** Prefer adding a short rationale in the recipe `## Chef's Note` explaining special context (e.g., "made for toddlers; keep toppings simple and nut-free").
 
+## 7. Recipe Tagging & Classification 🏷️
+
+All recipes use a standardized tagging system to enable discovery, filtering, and contextual suggestions. See [TAGGING_GUIDE.md](src/knowledge/TAGGING_GUIDE.md) for the complete schema and examples.
+
+### Six Tag Categories:
+
+1. **cookingMethods** (array): Techniques used (`bake`, `roast`, `fry`, `steam`, `slow-cook`, etc.)
+2. **cuisines** (array): Cultural/regional origin(s) (`Italian`, `Chinese`, `Thai`, `American`, etc.)
+3. **dietary** (array): Restrictions/attributes (`vegetarian`, `vegan`, `gluten-free`, `dairy-free`, etc.)
+4. **occasions** (array): When/why to make it (`weeknight`, `entertaining`, `holiday`, `comfort-food`, etc.)
+5. **flavorProfile** (array): Taste characteristics (`spicy`, `sweet`, `savory`, `acidic`, `umami`, `fresh`, etc.)
+6. **difficulty** (single): Skill level (`easy`, `intermediate`, `advanced`)
+
+### Example Frontmatter:
+
+```yaml
+---
+title: Chicken Parmesan
+origin: Italy
+cuisines: [Italian]
+role: main
+vibe: comfort
+difficulty: intermediate
+cookingMethods: [fry, bake]
+flavorProfile: [savory, rich, acidic]
+dietary: []
+occasions: [weeknight, comfort-food]
+prepTime: 15 min
+cookTime: 25 min
+totalTime: 40 min
+---
+```
+
+### Best Practices:
+
+- **Use exact tag names:** Tags are case-sensitive and standardized; refer to `TAGGING_GUIDE.md` for approved values.
+- **Empty arrays:** Use `[]` for tags with no applicable values (e.g., `dietary: []` for unrestricted recipes).
+- **Be thorough:** Add all applicable tags; a recipe can have multiple cuisines, occasions, and flavor profiles.
+- **Lean on `vibe`:** For quick context, `vibe` captures tone (quick, comfort, technical, etc.); tags provide granular filtering.
+
 ## AI-assisted suggestions (scaffolding)
 We generate **AI context files** for recipes under `public/recipes/ai-context/` and placeholder AI output under `public/recipes/ai-suggest/`.
 

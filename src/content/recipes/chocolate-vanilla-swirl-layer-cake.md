@@ -1,5 +1,11 @@
 ---
 title: Chocolate Vanilla Swirl Layer Cake
+difficulty: easy
+cookingMethods: [bake, boil, no-cook]
+dietary: [vegetarian]
+occasions: [entertaining]
+flavorProfile: [sweet, rich]
+cuisines: []
 role: dessert
 vibe: technical
 prepTime: 45 min

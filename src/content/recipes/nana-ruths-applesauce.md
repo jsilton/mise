@@ -1,5 +1,11 @@
 ---
 title: Nana Ruth’s Applesauce
+difficulty: easy
+cookingMethods: [roast, simmer, boil, blend]
+dietary: [vegetarian]
+occasions: [holiday]
+flavorProfile: [sweet, acidic]
+cuisines: []
 role: base
 vibe: nutritious
 prepTime: 10 min

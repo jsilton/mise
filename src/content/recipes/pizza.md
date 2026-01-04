@@ -1,5 +1,11 @@
 ---
 title: Pizza
+difficulty: intermediate
+cookingMethods: [bake]
+dietary: [vegetarian]
+occasions: []
+flavorProfile: [acidic]
+cuisines: []
 role: main
 vibe: nutritious
 prepTime: 10 min

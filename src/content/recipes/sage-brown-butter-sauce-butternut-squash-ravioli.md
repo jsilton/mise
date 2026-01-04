@@ -1,5 +1,11 @@
 ---
 title: Sage Brown Butter Ravioli
+difficulty: intermediate
+cookingMethods: [fry, boil]
+dietary: []
+occasions: []
+flavorProfile: [acidic, umami, rich]
+cuisines: []
 role: main
 vibe: quick
 prepTime: 5 min

@@ -1,5 +1,11 @@
 ---
 title: Spaghetti with Tofu Meatballs
+difficulty: intermediate
+cookingMethods: [bake, roast, sauté]
+dietary: []
+occasions: []
+flavorProfile: [savory, acidic, umami, herbaceous]
+cuisines: []
 role: main
 vibe: nutritious
 prepTime: 15 min

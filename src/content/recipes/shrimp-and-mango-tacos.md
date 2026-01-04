@@ -1,5 +1,11 @@
 ---
 title: Shrimp & Mango Tacos
+difficulty: intermediate
+cookingMethods: [fry, sauté, no-cook]
+dietary: []
+occasions: []
+flavorProfile: [spicy, sweet, acidic]
+cuisines: [Mexican]
 role: main
 vibe: quick
 prepTime: 10 min

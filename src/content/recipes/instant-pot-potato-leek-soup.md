@@ -1,5 +1,11 @@
 ---
 title: Instant Pot Potato Leek Soup
+difficulty: easy
+cookingMethods: [sauté, steam, blend]
+dietary: []
+occasions: [comfort-food]
+flavorProfile: [sweet, rich]
+cuisines: []
 role: main
 vibe: comfort
 prepTime: 20 min

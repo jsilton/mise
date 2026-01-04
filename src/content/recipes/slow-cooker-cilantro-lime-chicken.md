@@ -1,5 +1,11 @@
 ---
 title: Slow Cooker Cilantro Lime Chicken
+difficulty: easy
+cookingMethods: [slow-cook]
+dietary: []
+occasions: [comfort-food]
+flavorProfile: [spicy, acidic]
+cuisines: []
 role: main
 vibe: comfort
 prepTime: 10 min

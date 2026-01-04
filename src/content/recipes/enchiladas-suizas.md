@@ -1,6 +1,12 @@
 ---
 title: Enchiladas Suizas
 origin: Mexico
+difficulty: easy
+cookingMethods: [bake, roast, fry, poach, no-cook, blend]
+dietary: []
+occasions: [comfort-food]
+flavorProfile: [spicy, rich]
+cuisines: [Mexican]
 role: main
 vibe: comfort
 prepTime: 20 min

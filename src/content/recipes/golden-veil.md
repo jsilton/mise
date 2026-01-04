@@ -1,5 +1,11 @@
 ---
 title: Golden Veil
+difficulty: intermediate
+cookingMethods: []
+dietary: [vegetarian, vegan]
+occasions: []
+flavorProfile: [acidic, rich, herbaceous, smoky]
+cuisines: []
 role: drink
 vibe: technical
 prepTime: 10 min

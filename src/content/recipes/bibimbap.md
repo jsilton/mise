@@ -1,5 +1,11 @@
 ---
 title: Bibimbap
+difficulty: intermediate
+cookingMethods: []
+dietary: []
+occasions: []
+flavorProfile: [spicy, sweet, savory, acidic, rich]
+cuisines: [Korean]
 role: main
 vibe: nutritious
 prepTime: 10 min

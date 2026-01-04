@@ -1,5 +1,11 @@
 ---
 title: Blueberry Pancakes
+difficulty: easy
+cookingMethods: []
+dietary: [vegetarian]
+occasions: [comfort-food]
+flavorProfile: [sweet, rich]
+cuisines: []
 role: main
 vibe: comfort
 prepTime: 10 min

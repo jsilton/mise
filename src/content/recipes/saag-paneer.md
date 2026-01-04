@@ -1,5 +1,11 @@
 ---
 title: Saag Paneer
+difficulty: easy
+cookingMethods: [fry, sauté]
+dietary: []
+occasions: [comfort-food]
+flavorProfile: [spicy, rich]
+cuisines: []
 role: main
 vibe: comfort
 prepTime: 15 min

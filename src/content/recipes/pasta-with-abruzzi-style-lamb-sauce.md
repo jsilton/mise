@@ -1,5 +1,11 @@
 ---
 title: Pasta with Abruzzi-Style Lamb Sauce
+difficulty: easy
+cookingMethods: [simmer, boil]
+dietary: []
+occasions: [comfort-food]
+flavorProfile: [rich]
+cuisines: []
 role: main
 vibe: comfort
 prepTime: 20 min

@@ -1,5 +1,11 @@
 ---
 title: Grapefruit-Basil Gin Fizz
+difficulty: easy
+cookingMethods: [grill]
+dietary: [vegan]
+occasions: []
+flavorProfile: [sweet, acidic, herbaceous]
+cuisines: []
 role: drink
 vibe: quick
 prepTime: 5 min

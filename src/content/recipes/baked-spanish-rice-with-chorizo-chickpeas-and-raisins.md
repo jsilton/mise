@@ -1,5 +1,11 @@
 ---
 title: Spanish Rice with Chorizo and Chickpeas
+difficulty: easy
+cookingMethods: [bake, fry, sauté, simmer, boil]
+dietary: []
+occasions: [comfort-food]
+flavorProfile: [spicy, sweet, savory, umami, smoky]
+cuisines: []
 role: main
 vibe: comfort
 prepTime: 20 min

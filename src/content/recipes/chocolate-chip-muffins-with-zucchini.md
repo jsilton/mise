@@ -1,5 +1,11 @@
 ---
 title: Chocolate Chip Zucchini Muffins
+difficulty: intermediate
+cookingMethods: [bake]
+dietary: [vegetarian]
+occasions: []
+flavorProfile: [sweet, umami, rich]
+cuisines: []
 role: main
 vibe: nutritious
 prepTime: 15 min

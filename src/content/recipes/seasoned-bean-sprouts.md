@@ -1,5 +1,11 @@
 ---
 title: Seasoned Bean Sprouts (Kongnamul Namul)
+difficulty: intermediate
+cookingMethods: [steam]
+dietary: [vegetarian]
+occasions: []
+flavorProfile: [savory, umami]
+cuisines: []
 role: side
 vibe: quick
 prepTime: 5 min

@@ -1,5 +1,11 @@
 ---
 title: Chocolate Chip Beet Muffins
+difficulty: easy
+cookingMethods: [bake, roast]
+dietary: [vegetarian]
+occasions: []
+flavorProfile: [sweet, umami, rich]
+cuisines: []
 role: main
 vibe: nutritious
 prepTime: 10 min

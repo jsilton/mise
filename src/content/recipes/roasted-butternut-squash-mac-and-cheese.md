@@ -1,5 +1,11 @@
 ---
 title: Butternut Squash Mac and Cheese
+difficulty: intermediate
+cookingMethods: [bake, roast, simmer, boil]
+dietary: [vegetarian]
+occasions: [comfort-food]
+flavorProfile: [spicy, umami, rich]
+cuisines: []
 role: main
 vibe: comfort
 prepTime: 15 min

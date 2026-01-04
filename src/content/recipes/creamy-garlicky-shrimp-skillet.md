@@ -1,5 +1,11 @@
 ---
 title: Garlicky Shrimp Fettuccine
+difficulty: easy
+cookingMethods: [roast, sauté, simmer, boil]
+dietary: []
+occasions: []
+flavorProfile: [sweet, umami, rich, herbaceous, smoky]
+cuisines: []
 role: main
 vibe: quick
 prepTime: 10 min

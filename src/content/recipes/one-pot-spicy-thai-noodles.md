@@ -1,6 +1,12 @@
 ---
 title: Spicy Thai Noodles
 origin: Thailand
+difficulty: intermediate
+cookingMethods: [sauté, boil]
+dietary: []
+occasions: []
+flavorProfile: [spicy, sweet, savory, umami]
+cuisines: [Thai]
 role: main
 vibe: nutritious
 prepTime: 10 min

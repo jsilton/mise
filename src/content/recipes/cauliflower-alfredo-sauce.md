@@ -1,5 +1,11 @@
 ---
 title: Cauliflower Alfredo
+difficulty: intermediate
+cookingMethods: [roast, sauté, simmer, boil, blend]
+dietary: [dairy-free]
+occasions: []
+flavorProfile: [umami, rich]
+cuisines: [Italian]
 role: base
 vibe: nutritious
 prepTime: 10 min

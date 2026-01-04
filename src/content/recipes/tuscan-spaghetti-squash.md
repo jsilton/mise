@@ -1,5 +1,11 @@
 ---
 title: Tuscan Spaghetti Squash
+difficulty: intermediate
+cookingMethods: [bake, roast, fry, sauté, simmer]
+dietary: [vegetarian]
+occasions: []
+flavorProfile: [savory, umami, rich, herbaceous, smoky]
+cuisines: []
 role: main
 vibe: quick
 prepTime: 10 min

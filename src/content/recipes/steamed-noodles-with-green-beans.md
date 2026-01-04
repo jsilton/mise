@@ -1,5 +1,11 @@
 ---
 title: Noodles with Green Beans
+difficulty: intermediate
+cookingMethods: [fry, sauté, boil, steam, braise]
+dietary: []
+occasions: [comfort-food]
+flavorProfile: [sweet, savory, umami]
+cuisines: []
 role: side
 vibe: comfort
 prepTime: 25 min

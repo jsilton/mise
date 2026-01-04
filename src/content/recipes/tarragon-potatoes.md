@@ -1,5 +1,11 @@
 ---
 title: Tarragon Potatoes
+difficulty: easy
+cookingMethods: [bake, roast]
+dietary: []
+occasions: []
+flavorProfile: [acidic, rich]
+cuisines: []
 role: side
 vibe: nutritious
 prepTime: 10 min

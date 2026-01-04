@@ -1,5 +1,11 @@
 ---
 title: Honey Garlic Shrimp and Broccoli
+difficulty: easy
+cookingMethods: [steam]
+dietary: []
+occasions: []
+flavorProfile: [sweet, savory, umami]
+cuisines: []
 role: main
 vibe: quick
 prepTime: 5 min

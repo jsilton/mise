@@ -1,5 +1,11 @@
 ---
 title: Banana Egg Oat Pancakes
+difficulty: easy
+cookingMethods: []
+dietary: [vegetarian]
+occasions: []
+flavorProfile: [sweet, rich]
+cuisines: []
 role: main
 vibe: quick
 prepTime: 5 min

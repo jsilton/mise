@@ -1,6 +1,12 @@
 ---
 title: Toum
 origin: Lebanon
+difficulty: easy
+cookingMethods: [grill, blend]
+dietary: []
+occasions: []
+flavorProfile: [acidic, rich]
+cuisines: [Lebanese, Middle Eastern]
 role: condiment
 vibe: nutritious
 prepTime: 20 min

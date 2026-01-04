@@ -1,5 +1,11 @@
 ---
 title: Pork and Peaches
+difficulty: easy
+cookingMethods: [grill]
+dietary: []
+occasions: []
+flavorProfile: [acidic, rich]
+cuisines: []
 role: main
 vibe: nutritious
 prepTime: 15 min

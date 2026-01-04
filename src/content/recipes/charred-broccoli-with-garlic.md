@@ -1,5 +1,11 @@
 ---
 title: Charred Broccoli
+difficulty: easy
+cookingMethods: [steam]
+dietary: []
+occasions: []
+flavorProfile: [sweet, savory, acidic, umami, rich]
+cuisines: []
 role: side
 vibe: quick
 prepTime: 5 min

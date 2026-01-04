@@ -1,5 +1,11 @@
 ---
 title: White Chicken Chili
+difficulty: easy
+cookingMethods: [slow-cook]
+dietary: []
+occasions: [comfort-food]
+flavorProfile: [spicy, savory, acidic, rich]
+cuisines: [Mexican]
 role: main
 vibe: comfort
 prepTime: 5 min

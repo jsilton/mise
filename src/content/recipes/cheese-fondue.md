@@ -1,5 +1,11 @@
 ---
 title: Cheese Fondue
+difficulty: easy
+cookingMethods: [roast, simmer]
+dietary: [vegetarian]
+occasions: []
+flavorProfile: [acidic]
+cuisines: []
 role: main
 vibe: technical
 prepTime: 10 min

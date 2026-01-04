@@ -1,5 +1,11 @@
 ---
 title: Avocado Pasta
+difficulty: easy
+cookingMethods: [grill, boil, blend]
+dietary: []
+occasions: []
+flavorProfile: [acidic, umami, rich, herbaceous]
+cuisines: []
 role: main
 vibe: nutritious
 prepTime: 10 min

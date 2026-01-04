@@ -1,6 +1,12 @@
 ---
 title: Spicy Garlic Eggplant
 origin: China
+difficulty: easy
+cookingMethods: [sauté, steam]
+dietary: []
+occasions: []
+flavorProfile: [spicy, rich]
+cuisines: [Chinese]
 role: main
 vibe: quick
 prepTime: 15 min

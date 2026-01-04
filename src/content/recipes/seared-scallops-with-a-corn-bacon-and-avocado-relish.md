@@ -1,5 +1,11 @@
 ---
 title: Seared Scallops with Corn & Avocado Relish
+difficulty: easy
+cookingMethods: [roast, sauté, no-cook]
+dietary: []
+occasions: []
+flavorProfile: [sweet, acidic, rich, herbaceous, smoky]
+cuisines: []
 role: main
 vibe: quick
 prepTime: 10 min

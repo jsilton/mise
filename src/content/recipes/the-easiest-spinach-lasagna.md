@@ -1,6 +1,12 @@
 ---
 title: Spinach Lasagna
 origin: Italy
+difficulty: easy
+cookingMethods: [bake, roast, boil]
+dietary: [vegetarian]
+occasions: []
+flavorProfile: [umami]
+cuisines: [Italian]
 role: main
 vibe: technical
 prepTime: 15 min

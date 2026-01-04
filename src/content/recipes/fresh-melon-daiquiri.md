@@ -1,5 +1,11 @@
 ---
 title: Melon Daiquiri
+difficulty: easy
+cookingMethods: [blend]
+dietary: []
+occasions: []
+flavorProfile: [sweet, acidic]
+cuisines: []
 role: drink
 vibe: quick
 prepTime: 5 min

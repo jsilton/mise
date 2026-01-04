@@ -1,5 +1,11 @@
 ---
 title: Sun-Dried Tomato Chicken Pasta
+difficulty: intermediate
+cookingMethods: [roast, sauté, simmer, boil]
+dietary: []
+occasions: []
+flavorProfile: [savory, rich, herbaceous]
+cuisines: []
 role: main
 vibe: quick
 prepTime: 10 min

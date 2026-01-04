@@ -1,6 +1,12 @@
 ---
 title: Shumai
 origin: China
+difficulty: intermediate
+cookingMethods: [boil, steam]
+dietary: []
+occasions: []
+flavorProfile: [spicy, sweet, savory, umami]
+cuisines: [Chinese]
 role: main
 vibe: technical
 prepTime: 60 min

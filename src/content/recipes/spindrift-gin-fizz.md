@@ -1,5 +1,11 @@
 ---
 title: Spindrift Gin Fizz
+difficulty: easy
+cookingMethods: []
+dietary: []
+occasions: []
+flavorProfile: [sweet, acidic]
+cuisines: []
 role: drink
 vibe: nutritious
 prepTime: 5 min

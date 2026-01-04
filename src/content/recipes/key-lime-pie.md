@@ -1,5 +1,11 @@
 ---
 title: Key Lime Pie
+difficulty: easy
+cookingMethods: [bake]
+dietary: [vegetarian]
+occasions: [holiday]
+flavorProfile: [sweet, acidic, rich]
+cuisines: []
 role: dessert
 vibe: technical
 prepTime: 20 min

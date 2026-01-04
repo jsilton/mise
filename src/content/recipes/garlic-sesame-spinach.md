@@ -1,6 +1,12 @@
 ---
 title: Sigeumchi Namul
 origin: Korea
+difficulty: intermediate
+cookingMethods: [boil]
+dietary: [vegetarian]
+occasions: []
+flavorProfile: []
+cuisines: [Korean]
 role: side
 vibe: quick
 prepTime: 5 min

@@ -1,5 +1,11 @@
 ---
 title: Enchilada Sauce
+difficulty: intermediate
+cookingMethods: [simmer, boil, blend]
+dietary: []
+occasions: []
+flavorProfile: [spicy, acidic, umami, rich]
+cuisines: [Mexican]
 role: base
 vibe: quick
 prepTime: 5 min

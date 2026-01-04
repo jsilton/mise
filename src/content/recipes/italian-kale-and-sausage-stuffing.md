@@ -1,5 +1,11 @@
 ---
 title: Italian Kale & Sausage Stuffing
+difficulty: easy
+cookingMethods: [bake, roast, sauté]
+dietary: [vegetarian]
+occasions: [holiday]
+flavorProfile: [umami, herbaceous]
+cuisines: []
 role: side
 vibe: holiday
 prepTime: 20 min

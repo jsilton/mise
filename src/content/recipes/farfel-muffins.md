@@ -1,5 +1,11 @@
 ---
 title: Farfel Muffins
+difficulty: easy
+cookingMethods: [bake, boil]
+dietary: [vegetarian]
+occasions: [holiday, comfort-food]
+flavorProfile: [rich]
+cuisines: []
 role: main
 vibe: comfort
 prepTime: 15 min

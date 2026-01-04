@@ -1,5 +1,11 @@
 ---
 title: Shrimp Wonton Soup
+difficulty: intermediate
+cookingMethods: [boil, no-cook]
+dietary: []
+occasions: []
+flavorProfile: [savory, umami]
+cuisines: [Chinese]
 role: main
 vibe: technical
 prepTime: 30 min

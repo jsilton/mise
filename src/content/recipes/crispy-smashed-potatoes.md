@@ -1,5 +1,11 @@
 ---
 title: Smashed Potatoes
+difficulty: easy
+cookingMethods: [bake, roast, boil]
+dietary: []
+occasions: [comfort-food]
+flavorProfile: []
+cuisines: []
 role: side
 vibe: comfort
 prepTime: 10 min

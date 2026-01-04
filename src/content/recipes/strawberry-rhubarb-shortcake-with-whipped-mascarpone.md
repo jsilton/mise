@@ -1,5 +1,11 @@
 ---
 title: Strawberry Rhubarb Shortcake
+difficulty: easy
+cookingMethods: [bake, roast, no-cook]
+dietary: [vegetarian]
+occasions: []
+flavorProfile: [sweet, savory, rich]
+cuisines: []
 role: dessert
 vibe: technical
 prepTime: 30 min

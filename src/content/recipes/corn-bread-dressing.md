@@ -1,5 +1,11 @@
 ---
 title: Corn Bread Dressing
+difficulty: easy
+cookingMethods: [bake, roast, sauté]
+dietary: []
+occasions: [holiday]
+flavorProfile: [rich, herbaceous]
+cuisines: []
 role: side
 vibe: holiday
 prepTime: 30 min

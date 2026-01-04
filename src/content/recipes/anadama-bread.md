@@ -2,6 +2,12 @@
 title: Anadama Bread
 aliases:
   - "anadama-bread-the-new-england-classic"
+difficulty: easy
+cookingMethods: [bake, roast, boil]
+dietary: []
+occasions: []
+flavorProfile: [sweet, rich]
+cuisines: []
 role: base
 vibe: technical
 prepTime: 30 min

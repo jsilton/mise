@@ -1,5 +1,11 @@
 ---
 title: Patate al Forno
+difficulty: easy
+cookingMethods: [bake, roast, steam]
+dietary: []
+occasions: []
+flavorProfile: [rich, herbaceous]
+cuisines: []
 role: side
 vibe: nutritious
 prepTime: 10 min

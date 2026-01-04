@@ -1,5 +1,11 @@
 ---
 title: Beef Hot Dogs with Corn Relish
+difficulty: easy
+cookingMethods: [bake, roast, grill, no-cook]
+dietary: []
+occasions: []
+flavorProfile: [sweet, acidic]
+cuisines: []
 role: main
 vibe: technical
 prepTime: 20 min

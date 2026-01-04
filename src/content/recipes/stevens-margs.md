@@ -1,5 +1,11 @@
 ---
 title: Steven’s Margaritas
+difficulty: easy
+cookingMethods: []
+dietary: [vegetarian]
+occasions: []
+flavorProfile: [acidic, smoky]
+cuisines: []
 role: drink
 vibe: quick
 prepTime: 5 min

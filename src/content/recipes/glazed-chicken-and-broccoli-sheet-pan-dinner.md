@@ -1,5 +1,11 @@
 ---
 title: Glazed Chicken & Broccoli Sheet Pan Dinner
+difficulty: easy
+cookingMethods: [bake, roast, steam]
+dietary: []
+occasions: [comfort-food]
+flavorProfile: [savory]
+cuisines: []
 role: main
 vibe: comfort
 prepTime: 15 min

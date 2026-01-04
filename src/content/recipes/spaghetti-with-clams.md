@@ -1,5 +1,11 @@
 ---
 title: Spaghetti with Clams
+difficulty: intermediate
+cookingMethods: [sauté, boil]
+dietary: [vegetarian]
+occasions: []
+flavorProfile: [acidic, rich, herbaceous]
+cuisines: []
 role: main
 vibe: quick
 prepTime: 10 min

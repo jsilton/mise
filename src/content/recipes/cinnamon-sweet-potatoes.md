@@ -1,5 +1,11 @@
 ---
 title: Sweet Potatoes with Cinnamon
+difficulty: easy
+cookingMethods: [bake, roast, boil, steam]
+dietary: []
+occasions: []
+flavorProfile: [sweet, acidic, rich]
+cuisines: []
 role: side
 vibe: quick
 prepTime: 10 min

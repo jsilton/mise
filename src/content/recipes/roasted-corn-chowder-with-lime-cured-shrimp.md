@@ -1,5 +1,11 @@
 ---
 title: Corn Chowder with Lime Shrimp
+difficulty: easy
+cookingMethods: [bake, roast, sauté, simmer, boil, blend]
+dietary: []
+occasions: [comfort-food]
+flavorProfile: [sweet, rich, smoky]
+cuisines: []
 role: main
 vibe: comfort
 prepTime: 20 min

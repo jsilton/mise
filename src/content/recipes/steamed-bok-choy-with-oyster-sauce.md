@@ -1,5 +1,11 @@
 ---
 title: Bok Choy with Oyster Sauce
+difficulty: easy
+cookingMethods: [sauté, steam]
+dietary: []
+occasions: []
+flavorProfile: [sweet, savory, umami]
+cuisines: []
 role: side
 vibe: quick
 prepTime: 5 min

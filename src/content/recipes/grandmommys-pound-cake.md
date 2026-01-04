@@ -1,5 +1,11 @@
 ---
 title: Grandmommy’s Pound Cake
+difficulty: intermediate
+cookingMethods: [bake]
+dietary: [vegetarian]
+occasions: []
+flavorProfile: [sweet, acidic, rich]
+cuisines: []
 role: dessert
 vibe: technical
 prepTime: 20 min

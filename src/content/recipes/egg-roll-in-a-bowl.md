@@ -1,5 +1,11 @@
 ---
 title: Egg Roll in a Bowl
+difficulty: easy
+cookingMethods: [fry]
+dietary: []
+occasions: []
+flavorProfile: [spicy, savory, umami]
+cuisines: []
 role: main
 vibe: quick
 prepTime: 10 min

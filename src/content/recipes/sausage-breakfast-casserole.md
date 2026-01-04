@@ -1,5 +1,11 @@
 ---
 title: Sausage Breakfast Casserole
+difficulty: easy
+cookingMethods: [bake, sauté, no-cook]
+dietary: [vegetarian]
+occasions: [holiday, comfort-food]
+flavorProfile: [acidic, rich]
+cuisines: []
 role: main
 vibe: comfort
 prepTime: 15 min

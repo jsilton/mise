@@ -1,5 +1,11 @@
 ---
 title: Curried Carrot and Apple Soup
+difficulty: easy
+cookingMethods: [roast, sauté, simmer, boil, blend]
+dietary: []
+occasions: [comfort-food]
+flavorProfile: [acidic, rich, herbaceous]
+cuisines: []
 role: main
 vibe: comfort
 prepTime: 30 min

@@ -1,6 +1,12 @@
 ---
 title: New England Express
 origin: USA
+difficulty: easy
+cookingMethods: [boil, no-cook]
+dietary: [vegetarian]
+occasions: []
+flavorProfile: [sweet, savory, acidic, rich, herbaceous]
+cuisines: [American]
 role: drink
 vibe: nutritious
 prepTime: 10 min

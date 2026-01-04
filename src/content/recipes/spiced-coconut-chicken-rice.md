@@ -1,5 +1,11 @@
 ---
 title: Spiced Coconut Chicken & Rice
+difficulty: intermediate
+cookingMethods: [sauté, simmer, boil, steam, braise]
+dietary: []
+occasions: []
+flavorProfile: [spicy, acidic, rich]
+cuisines: []
 role: base
 vibe: nutritious
 prepTime: 45 min

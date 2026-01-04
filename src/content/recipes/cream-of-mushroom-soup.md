@@ -1,5 +1,11 @@
 ---
 title: Cream of Mushroom Soup
+difficulty: easy
+cookingMethods: [sauté, simmer, boil, blend]
+dietary: [vegetarian]
+occasions: [comfort-food]
+flavorProfile: [acidic, rich]
+cuisines: []
 role: main
 vibe: comfort
 prepTime: 10 min

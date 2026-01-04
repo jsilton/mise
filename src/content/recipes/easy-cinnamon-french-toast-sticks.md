@@ -1,5 +1,11 @@
 ---
 title: Cinnamon French Toast Sticks
+difficulty: easy
+cookingMethods: []
+dietary: [vegetarian]
+occasions: []
+flavorProfile: [sweet, rich]
+cuisines: []
 role: main
 vibe: quick
 prepTime: 10 min

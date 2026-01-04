@@ -1,6 +1,12 @@
 ---
 title: Szechuan Eggplant & Tofu
 origin: China
+difficulty: easy
+cookingMethods: [fry, sauté, simmer, steam]
+dietary: [vegan]
+occasions: []
+flavorProfile: [sweet, savory, acidic, umami]
+cuisines: [Chinese]
 role: main
 vibe: nutritious
 prepTime: 15 min

@@ -1,5 +1,11 @@
 ---
 title: Brown Butter-Chocolate Soufflé
+difficulty: easy
+cookingMethods: [bake, steam]
+dietary: [vegetarian]
+occasions: []
+flavorProfile: [sweet, rich]
+cuisines: []
 role: dessert
 vibe: technical
 prepTime: 30 min

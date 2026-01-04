@@ -1,5 +1,11 @@
 ---
 title: Hot Chocolate
+difficulty: intermediate
+cookingMethods: [slow-cook]
+dietary: [vegetarian]
+occasions: [holiday]
+flavorProfile: [sweet, rich]
+cuisines: []
 role: drink
 vibe: holiday
 prepTime: 10 min

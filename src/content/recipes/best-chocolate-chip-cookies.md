@@ -1,5 +1,11 @@
 ---
 title: Chocolate Chip Cookies
+difficulty: intermediate
+cookingMethods: [bake]
+dietary: [vegetarian, nut-free]
+occasions: []
+flavorProfile: [sweet, rich]
+cuisines: []
 role: dessert
 vibe: technical
 prepTime: 20 min

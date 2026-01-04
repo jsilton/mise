@@ -1,5 +1,11 @@
 ---
 title: Grandmommy’s Turkey Dressing
+difficulty: easy
+cookingMethods: [bake, roast]
+dietary: []
+occasions: [holiday]
+flavorProfile: [sweet, rich]
+cuisines: []
 role: side
 vibe: holiday
 prepTime: 20 min

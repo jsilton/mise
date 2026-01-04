@@ -1,5 +1,11 @@
 ---
 title: Sweet and Spicy Spareribs
+difficulty: intermediate
+cookingMethods: [bake, grill, steam, braise]
+dietary: []
+occasions: [comfort-food]
+flavorProfile: [spicy, sweet, savory, acidic, umami, rich]
+cuisines: []
 role: main
 vibe: comfort
 prepTime: 30 min

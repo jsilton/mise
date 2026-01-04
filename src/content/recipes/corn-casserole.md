@@ -1,5 +1,11 @@
 ---
 title: Corn Casserole
+difficulty: easy
+cookingMethods: [bake]
+dietary: []
+occasions: [holiday]
+flavorProfile: [spicy, sweet, rich]
+cuisines: []
 role: side
 vibe: holiday
 prepTime: 10 min

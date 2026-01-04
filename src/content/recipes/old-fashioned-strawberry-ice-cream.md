@@ -1,5 +1,11 @@
 ---
 title: Old-Fashioned Strawberry Ice Cream
+difficulty: intermediate
+cookingMethods: [simmer, boil]
+dietary: [vegetarian]
+occasions: []
+flavorProfile: [sweet, savory, acidic, rich, herbaceous]
+cuisines: []
 role: dessert
 vibe: nutritious
 prepTime: 30 min

@@ -1,6 +1,12 @@
 ---
 title: Lamb Keema Matar
 origin: India
+difficulty: easy
+cookingMethods: [simmer]
+dietary: [vegetarian]
+occasions: []
+flavorProfile: [spicy, sweet, savory, acidic, umami, rich]
+cuisines: [Indian]
 role: main
 vibe: quick
 prepTime: 10 min

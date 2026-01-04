@@ -1,5 +1,11 @@
 ---
 title: Asian Glazed Turkey Meatballs
+difficulty: easy
+cookingMethods: [bake, fry, simmer, steam]
+dietary: []
+occasions: []
+flavorProfile: [savory, acidic, umami]
+cuisines: []
 role: main
 vibe: quick
 prepTime: 15 min

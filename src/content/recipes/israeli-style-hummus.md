@@ -1,5 +1,11 @@
 ---
 title: Israeli Style Hummus
+difficulty: intermediate
+cookingMethods: [boil, blend]
+dietary: [vegetarian]
+occasions: []
+flavorProfile: [acidic, rich]
+cuisines: [Lebanese]
 role: base
 vibe: nutritious
 prepTime: 15 min

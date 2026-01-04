@@ -1,5 +1,11 @@
 ---
 title: Coq au Vin
+difficulty: intermediate
+cookingMethods: [simmer, steam, braise, slow-cook]
+dietary: []
+occasions: [comfort-food]
+flavorProfile: [savory]
+cuisines: [French]
 role: main
 vibe: comfort
 prepTime: 15 min

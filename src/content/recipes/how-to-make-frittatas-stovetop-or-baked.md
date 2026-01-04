@@ -1,6 +1,12 @@
 ---
 title: Frittata
 origin: Italy
+difficulty: intermediate
+cookingMethods: [bake, sauté, blend]
+dietary: [vegetarian]
+occasions: []
+flavorProfile: [rich, herbaceous]
+cuisines: [Italian]
 role: main
 vibe: quick
 prepTime: 10 min

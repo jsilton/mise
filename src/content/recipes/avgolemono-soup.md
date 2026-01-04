@@ -1,6 +1,12 @@
 ---
 title: Avgolemono
 origin: Greece
+difficulty: intermediate
+cookingMethods: [simmer, boil]
+dietary: []
+occasions: [comfort-food]
+flavorProfile: [acidic, rich]
+cuisines: [Greek]
 role: main
 vibe: nutritious
 prepTime: 10 min

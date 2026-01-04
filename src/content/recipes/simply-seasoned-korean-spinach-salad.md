@@ -1,5 +1,11 @@
 ---
 title: Korean Spinach Salad (Sigeumchi Namul)
+difficulty: intermediate
+cookingMethods: [boil]
+dietary: [vegetarian]
+occasions: []
+flavorProfile: [savory]
+cuisines: []
 role: side
 vibe: nutritious
 prepTime: 5 min

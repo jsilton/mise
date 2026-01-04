@@ -1,5 +1,11 @@
 ---
 title: Skinny Broccoli Mac & Cheese
+difficulty: intermediate
+cookingMethods: [bake, sauté, simmer, boil]
+dietary: []
+occasions: []
+flavorProfile: [savory, umami, rich]
+cuisines: []
 role: side
 vibe: nutritious
 prepTime: 10 min

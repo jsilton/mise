@@ -1,5 +1,11 @@
 ---
 title: Almond Zucchini Bread
+difficulty: intermediate
+cookingMethods: [bake]
+dietary: [vegetarian]
+occasions: []
+flavorProfile: [sweet, rich]
+cuisines: []
 role: side
 vibe: nutritious
 prepTime: 10 min

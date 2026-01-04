@@ -1,5 +1,11 @@
 ---
 title: Sun-Dried Tomato Chicken Orzo
+difficulty: intermediate
+cookingMethods: [bake, roast, no-cook]
+dietary: []
+occasions: []
+flavorProfile: [acidic, rich, herbaceous]
+cuisines: []
 role: main
 vibe: quick
 prepTime: 10 min

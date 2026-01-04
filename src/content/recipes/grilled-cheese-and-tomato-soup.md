@@ -2,6 +2,12 @@
 title: Grilled Cheese and Tomato Soup
 aliases:
   - "grilled-cheese-and-tomato-soup-the-ultimate-pair"
+difficulty: intermediate
+cookingMethods: [grill, sauté, simmer, no-cook, blend]
+dietary: []
+occasions: [comfort-food]
+flavorProfile: [rich, smoky]
+cuisines: []
 role: main
 vibe: comfort
 prepTime: 15 min

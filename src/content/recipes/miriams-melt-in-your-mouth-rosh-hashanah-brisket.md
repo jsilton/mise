@@ -1,5 +1,11 @@
 ---
 title: Miriam’s Melt-In-Your-Mouth Rosh Hashanah Brisket
+difficulty: intermediate
+cookingMethods: [bake, roast, braise]
+dietary: []
+occasions: [holiday]
+flavorProfile: [sweet, acidic]
+cuisines: []
 role: main
 vibe: holiday
 prepTime: 30 min

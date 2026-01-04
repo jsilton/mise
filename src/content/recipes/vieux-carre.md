@@ -1,5 +1,11 @@
 ---
 title: Vieux Carré
+difficulty: easy
+cookingMethods: [roast]
+dietary: []
+occasions: []
+flavorProfile: [sweet, acidic]
+cuisines: []
 role: drink
 vibe: technical
 prepTime: 5 min

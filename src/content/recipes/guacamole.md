@@ -1,5 +1,11 @@
 ---
 title: Guacamole
+difficulty: intermediate
+cookingMethods: []
+dietary: []
+occasions: []
+flavorProfile: [spicy, sweet, acidic]
+cuisines: []
 role: condiment
 vibe: quick
 prepTime: 10 min

@@ -1,6 +1,12 @@
 ---
 title: Thai Red Curry Beef
 origin: Thailand
+difficulty: easy
+cookingMethods: [fry, simmer, boil]
+dietary: []
+occasions: []
+flavorProfile: [sweet, savory, acidic, rich, herbaceous]
+cuisines: [Thai]
 role: main
 vibe: quick
 prepTime: 5 min

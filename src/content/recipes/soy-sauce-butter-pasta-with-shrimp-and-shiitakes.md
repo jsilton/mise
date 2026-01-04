@@ -1,5 +1,11 @@
 ---
 title: Soy Sauce Butter Pasta with Shrimp
+difficulty: intermediate
+cookingMethods: [sauté, simmer, boil]
+dietary: []
+occasions: []
+flavorProfile: [savory, umami, rich, herbaceous]
+cuisines: []
 role: main
 vibe: quick
 prepTime: 10 min

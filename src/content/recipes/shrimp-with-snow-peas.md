@@ -1,5 +1,11 @@
 ---
 title: Shrimp with Snow Peas
+difficulty: easy
+cookingMethods: [fry]
+dietary: []
+occasions: []
+flavorProfile: [sweet, savory, umami]
+cuisines: []
 role: main
 vibe: quick
 prepTime: 15 min

@@ -1,5 +1,11 @@
 ---
 title: Strawberry Vinaigrette
+difficulty: intermediate
+cookingMethods: [grill, blend]
+dietary: []
+occasions: []
+flavorProfile: [sweet, acidic]
+cuisines: []
 role: base
 vibe: nutritious
 prepTime: 10 min

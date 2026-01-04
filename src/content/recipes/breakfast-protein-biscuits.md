@@ -1,5 +1,11 @@
 ---
 title: Breakfast Protein Biscuits
+difficulty: intermediate
+cookingMethods: [bake]
+dietary: [vegetarian]
+occasions: []
+flavorProfile: [rich]
+cuisines: []
 role: main
 vibe: nutritious
 prepTime: 15 min

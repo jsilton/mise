@@ -1,5 +1,11 @@
 ---
 title: Gefilte Fish Terrine
+difficulty: easy
+cookingMethods: [bake, sauté, boil, blend]
+dietary: []
+occasions: [holiday]
+flavorProfile: [acidic, rich]
+cuisines: []
 role: main
 vibe: holiday
 prepTime: 30 min

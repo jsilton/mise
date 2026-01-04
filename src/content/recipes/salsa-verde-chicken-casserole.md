@@ -1,5 +1,11 @@
 ---
 title: Salsa Verde Chicken Casserole
+difficulty: easy
+cookingMethods: [bake]
+dietary: []
+occasions: []
+flavorProfile: [acidic, rich]
+cuisines: []
 role: main
 vibe: nutritious
 prepTime: 10 min

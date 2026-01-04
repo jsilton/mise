@@ -1,5 +1,11 @@
 ---
 title: Vegan Caesar Pasta Salad
+difficulty: intermediate
+cookingMethods: [roast, boil]
+dietary: [vegetarian, vegan]
+occasions: []
+flavorProfile: []
+cuisines: []
 role: side
 vibe: nutritious
 prepTime: 15 min

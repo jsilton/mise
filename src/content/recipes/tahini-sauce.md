@@ -1,5 +1,11 @@
 ---
 title: Tahini Sauce
+difficulty: intermediate
+cookingMethods: [roast]
+dietary: []
+occasions: []
+flavorProfile: [acidic, rich]
+cuisines: []
 role: condiment
 vibe: quick
 prepTime: 5 min

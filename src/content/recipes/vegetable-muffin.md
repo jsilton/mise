@@ -1,5 +1,11 @@
 ---
 title: Vegetable Green Muffins
+difficulty: intermediate
+cookingMethods: [bake, blend]
+dietary: [vegetarian]
+occasions: []
+flavorProfile: [sweet, acidic]
+cuisines: []
 role: side
 vibe: quick
 prepTime: 10 min

@@ -1,5 +1,11 @@
 ---
 title: Chicken and Broccoli
+difficulty: easy
+cookingMethods: [fry, sauté, steam]
+dietary: []
+occasions: []
+flavorProfile: [sweet, savory, umami]
+cuisines: []
 role: main
 vibe: quick
 prepTime: 15 min
