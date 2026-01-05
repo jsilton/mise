@@ -38,5 +38,5 @@ The secret to a rich slow-cooker braise is developing fond. Many recipes just du
 4.  **The Slurry:** In a small bowl, whisk the cornstarch into the red wine until completely dissolved. Whisk in the onion soup mix, Worcestershire, and thyme.
 5.  **Simmer:** Pour the wine slurry over the chicken.
 6.  **Cook:** Cover and cook on **HIGH for 2.5–3 hours** (or LOW for 5-6 hours) until the chicken is fork-tender.
-7.  **Serve:** Serve hot over [Miso-Mashed Potatoes](/silton-mise/recipes/miso-mashed-potatoes) or steamed rice.
+7.  **Serve:** Serve hot over [Miso-Mashed Potatoes](/mise/recipes/miso-mashed-potatoes) or steamed rice.
 

@@ -36,5 +36,5 @@ These Mexican-inspired tacos balance sweet mango with savory cumin-spiced shrimp
 4.  **Finish:** Remove from heat. Stir in the lime juice. Taste and adjust with extra salt.
 5.  **Thermal Prep:** Wrap tortillas in a damp towel and microwave for 45 seconds (or char over an open flame).
 6.  **Assemble:** Place 2 tortillas on each plate. Mound the shrimp-mango mixture into the center.
-7.  **Serve:** Serve immediately with a side of [Mexican Red Rice](/silton-mise/recipes/mexican-red-rice).
+7.  **Serve:** Serve immediately with a side of [Mexican Red Rice](/mise/recipes/mexican-red-rice).
 

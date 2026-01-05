@@ -31,7 +31,7 @@ ingredients:
   - 1/2 tsp Cinnamon + Pinch of Nutmeg
   - >-
     1 Eggplant, cubed and fried ([Garlic
-    Sauce](/silton-mise/recipes/chinese-garlic-sauce-base) style technique)
+    Sauce](/mise/recipes/chinese-garlic-sauce-base) style technique)
   - 3/4 cup Frozen Peas
   - '12 oz Provolone or Caciocavallo, cubed'
   - '1/2 cup Parmesan, grated'

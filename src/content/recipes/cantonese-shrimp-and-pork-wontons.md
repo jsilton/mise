@@ -32,7 +32,7 @@ ingredients:
   - '1/2 tsp White Pepper'
   - '1 tsp Kosher Salt'
   - '1 Egg, beaten'
-  - '1 package Wonton Wrappers (Or use [Homemade Wrappers](/silton-mise/recipes/fresh-wonton-wrappers))'
+  - '1 package Wonton Wrappers (Or use [Homemade Wrappers](/mise/recipes/fresh-wonton-wrappers))'
 ---
 
 ## Chef's Note

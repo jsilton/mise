@@ -18,10 +18,10 @@ ingredients:
   - '--- The Components (Click for Recipes) ---'
   - >-
     [Thinly Sliced Marinated
-    Ribeye](/silton-mise/recipes/marinated-korean-ribeye)
-  - '[Korean Pickled Cucumbers](/silton-mise/recipes/korean-pickled-cucumbers)'
-  - '[Garlic-Sesame Spinach](/silton-mise/recipes/garlic-sesame-spinach)'
-  - '[Seasoned Bean Sprouts](/silton-mise/recipes/seasoned-bean-sprouts)'
+    Ribeye](/mise/recipes/marinated-korean-ribeye)
+  - '[Korean Pickled Cucumbers](/mise/recipes/korean-pickled-cucumbers)'
+  - '[Garlic-Sesame Spinach](/mise/recipes/garlic-sesame-spinach)'
+  - '[Seasoned Bean Sprouts](/mise/recipes/seasoned-bean-sprouts)'
   - 2 tbsp Gochujang
   - 1 tbsp Toasted Sesame Oil
   - 1 tbsp Sugar
@@ -35,8 +35,8 @@ Bibimbap has roots in Korean royal court cuisine but became a peasant dish in th
 
 ## Directions
 
-1.  **Prep:** Have all your component recipes ready ([Ribeye](/silton-mise/recipes/marinated-korean-ribeye), [Cucumbers](/silton-mise/recipes/korean-pickled-cucumbers), etc.).
-2.  **Base:** Scoop 1 cup of hot rice into each bowl. (Tip: For crispy rice, use the "Cast Iron Skillet Hack" mentioned in the [Ribeye](/silton-mise/recipes/marinated-korean-ribeye) recipe).
+1.  **Prep:** Have all your component recipes ready ([Ribeye](/mise/recipes/marinated-korean-ribeye), [Cucumbers](/mise/recipes/korean-pickled-cucumbers), etc.).
+2.  **Base:** Scoop 1 cup of hot rice into each bowl. (Tip: For crispy rice, use the "Cast Iron Skillet Hack" mentioned in the [Ribeye](/mise/recipes/marinated-korean-ribeye) recipe).
 3.  **The Clock:** Arrange the prepared vegetables and meat in distinct piles around the perimeter of the bowl, moving clockwise.
 4.  **The Crown:** Place the fried egg in the center.
 5.  **Sauce:** Drizzle the mixed Gochujang sauce over the egg.

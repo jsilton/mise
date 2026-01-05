@@ -19,7 +19,7 @@ servings: '4'
 pairsWith: [caesar-salad, garlic-bread]
 ingredients:
   - >-
-    2 balls [Fresh Pasta Dough](/silton-mise/recipes/fresh-pasta-dough) (or
+    2 balls [Fresh Pasta Dough](/mise/recipes/fresh-pasta-dough) (or
     Pizza Dough)
   - 1 cup Pizza Sauce (The "Silk" Base)
   - 12 oz Shredded Mozzarella (Whole-milk preferred)

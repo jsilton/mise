@@ -23,7 +23,7 @@ ingredients:
   - '1 English Cucumber, diced'
   - '1 pint Cherry Tomatoes, halved'
   - '1/2 cup Feta Cheese, crumbled'
-  - '[Pickled Red Onions](/silton-mise/recipes/pickled-red-onions)'
+  - '[Pickled Red Onions](/mise/recipes/pickled-red-onions)'
   - Fresh Lemon wedges
 ---
 
@@ -38,5 +38,5 @@ This modular grain bowl treats each component as an independent element. Marinat
 3.  **Rest:** Transfer to a board and let rest for 5 minutes. Slice into thin strips.
 4.  **Assemble:** In four deep bowls, spread a generous base of hummus. Top with a scoop of warm rice or quinoa.
 5.  **Layer:** Arrange the sliced chicken, cucumbers, and tomatoes in distinct "stacks" around the bowl.
-6.  **Finish:** Top with crumbled feta and a massive pile of [Pickled Red Onions](/silton-mise/recipes/pickled-red-onions). Serve with a lemon wedge for the final **High Note**.
+6.  **Finish:** Top with crumbled feta and a massive pile of [Pickled Red Onions](/mise/recipes/pickled-red-onions). Serve with a lemon wedge for the final **High Note**.
 

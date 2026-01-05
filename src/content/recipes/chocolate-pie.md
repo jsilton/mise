@@ -21,7 +21,7 @@ pairsWith: []
 ingredients:
   - >-
     1 Pie Crust, baked and cooled (Use the [Apple
-    Pie](/silton-mise/recipes/apple-pie) Vodka Hack dough!)
+    Pie](/mise/recipes/apple-pie) Vodka Hack dough!)
   - '6 1/2 oz Bittersweet Chocolate, finely chopped'
   - 1 1/2 cups Granulated Sugar
   - 1/4 cup Cornstarch
@@ -36,7 +36,7 @@ ingredients:
 
 ## Chef's Note
 
-This is an upgrade to the old-school "pudding pie." The secret is using 70% cacao bittersweet chocolate instead of milk chocolate, creating a sophisticated, intense filling that balances the sweetness of the sugar. Whisking the egg yolks directly into the cold milk before cooking ensures a silky, custard-like texture that never turns grainy. For the best result, use the Vodka Hack crust from our [Apple Pie](/silton-mise/recipes/apple-pie).
+This is an upgrade to the old-school "pudding pie." The secret is using 70% cacao bittersweet chocolate instead of milk chocolate, creating a sophisticated, intense filling that balances the sweetness of the sugar. Whisking the egg yolks directly into the cold milk before cooking ensures a silky, custard-like texture that never turns grainy. For the best result, use the Vodka Hack crust from our [Apple Pie](/mise/recipes/apple-pie).
 
 ## Directions
 

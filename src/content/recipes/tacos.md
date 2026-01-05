@@ -20,10 +20,10 @@ ingredients:
   - '1/2 cup Water'
   - 'Hard Taco Shells and Flour Tortillas'
   - '--- The Sides & Toppings ---'
-  - '[Mexican Rice](/silton-mise/recipes/homemade-rice-pilaf)'
+  - '[Mexican Rice](/mise/recipes/homemade-rice-pilaf)'
   - 'Black Beans (seasoned with cumin and garlic)'
   - 'Avocado and Diced Tomato'
-  - '[Korean Pickled Cucumbers](/silton-mise/recipes/korean-pickled-cucumbers) (The crunch secret)'
+  - '[Korean Pickled Cucumbers](/mise/recipes/korean-pickled-cucumbers) (The crunch secret)'
   - 'Shredded Cheese'
 ---
 

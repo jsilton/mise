@@ -27,7 +27,7 @@ ingredients:
   - 40 Wonton Wrappers
   - >-
     1 liter [Cantonese Wonton
-    Broth](/silton-mise/recipes/cantonese-wonton-broth)
+    Broth](/mise/recipes/cantonese-wonton-broth)
   - 2 heads Baby Bok Choy
   - Sesame Oil and Scallions for garnish
 ---
@@ -42,6 +42,6 @@ Cantonese wonton soup features delicate pork wontons in clear, aromatic broth. S
 2.  **Assemble:** Place 1 tsp filling in the center of a wrapper. Wet the edges with water. Fold into a rectangle, then pinch the two corners together to form a "hat."
 3.  **The Base:** In 4 serving bowls, add a drop of sesame oil, white pepper, and a pinch of salt.
 4.  **Boil:** In a large pot of water, boil wontons for 3-4 minutes until they float. During the final 20 seconds, add the bok choy.
-5.  **Bind:** Heat the [Wonton Broth](/silton-mise/recipes/cantonese-wonton-broth) to boiling. Ladle the hot broth into the serving bowls.
+5.  **Bind:** Heat the [Wonton Broth](/mise/recipes/cantonese-wonton-broth) to boiling. Ladle the hot broth into the serving bowls.
 6.  **Serve:** Transfer the wontons and bok choy to the bowls. Garnish with scallions and chili oil for the final **High Note**.
 

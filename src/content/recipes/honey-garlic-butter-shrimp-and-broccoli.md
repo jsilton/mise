@@ -42,5 +42,5 @@ This quick Chinese-American inspired stir-fry is done in 20 minutes. The trick: 
 3.  **The Veg:** Add 1 tsp oil and the broccoli to the same pan. Sauté for 5-6 minutes until bright green and slightly softened at the edges. Remove and set aside.
 4.  **Glaze:** Add the remaining 1 tbsp butter and the honey-garlic sauce to the pan. Bring to a low simmer for 2-3 minutes until thickened and glossy.
 5.  **Bind:** Return the shrimp and broccoli to the skillet. Toss vigorously for 30 seconds until every piece is perfectly coated in the glaze.
-6.  **Serve:** Serve immediately over [Basmati Rice](/silton-mise/recipes/basmati-rice).
+6.  **Serve:** Serve immediately over [Basmati Rice](/mise/recipes/basmati-rice).
 

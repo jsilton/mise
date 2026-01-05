@@ -41,5 +41,5 @@ Honey sesame chicken is a lighter take on Chinese-American takeout—no deep fry
 3.  **Aromatics:** Add the garlic and ginger to the pan. Sauté for 30 seconds.
 4.  **Glaze:** Pour in the honey, soy sauce, rice vinegar, and sesame oil. Toss the chicken constantly for 1-2 minutes until the sauce bubbles and thickens into a glossy lacquer.
 5.  **Finish:** Stir in the toasted sesame seeds and green onions.
-6.  **Serve:** Serve immediately over [Jasmine Rice](/silton-mise/recipes/homemade-rice-pilaf).
+6.  **Serve:** Serve immediately over [Jasmine Rice](/mise/recipes/homemade-rice-pilaf).
 

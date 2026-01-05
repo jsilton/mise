@@ -23,9 +23,9 @@ ingredients:
   - 2 tbsp Honey
   - 2 tbsp Sriracha
   - '2 tsp Garlic, minced'
-  - '[Jasmine Rice](/silton-mise/recipes/homemade-rice-pilaf)'
+  - '[Jasmine Rice](/mise/recipes/homemade-rice-pilaf)'
   - '1 Avocado, sliced'
-  - '[Smashed Cucumber Salad](/silton-mise/recipes/smashed-cucumber-salad)'
+  - '[Smashed Cucumber Salad](/mise/recipes/smashed-cucumber-salad)'
   - '1 cup Edamame, shelled and steamed'
   - Sriracha Mayo (for drizzling)
 ---
@@ -40,6 +40,6 @@ Asian-inspired grain bowls with glazed proteins became hugely popular in the 201
 2.  **The Sear:** Heat a large non-stick or cast-iron skillet over high heat with a splash of oil. Drain salmon from marinade (reserve it!).
 3.  **Crisp:** Add salmon in a single layer. Cook for 2-3 minutes without moving until a crust forms. Flip and cook for 1 minute. Remove to a plate.
 4.  **The Glaze:** Pour the reserved marinade into the hot pan. Let it bubble and reduce for 1-2 minutes until thick and syrupy. Toss the salmon back in to coat.
-5.  **Assemble:** Build bowls with a base of [Jasmine Rice](/silton-mise/recipes/homemade-rice-pilaf). Top with salmon, avocado, edamame, and cucumber salad.
+5.  **Assemble:** Build bowls with a base of [Jasmine Rice](/mise/recipes/homemade-rice-pilaf). Top with salmon, avocado, edamame, and cucumber salad.
 6.  **Finish:** Drizzle with sriracha mayo and sprinkle with sesame seeds.
 

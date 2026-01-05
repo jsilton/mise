@@ -59,7 +59,7 @@ npm install
 
 # Start development server
 npm run dev
-# Opens: http://localhost:4321/silton-mise/
+# Opens: http://localhost:4321/mise/
 
 # Build production site
 npm run build
@@ -133,7 +133,7 @@ servings: '4'
 ingredients:
   - '--- Section Header ---'
   - 'Item 1'
-  - '[Related Recipe](/silton-mise/recipes/related-slug)'
+  - '[Related Recipe](/mise/recipes/related-slug)'
 ---
 ```
 
@@ -153,7 +153,7 @@ The key to this dish is **Culinary Technique** through **The [Method Name]**.
 
 ## Serving Suggestions
 
-- [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad)
+- [Everyday Arugula Salad](/mise/recipes/everyday-arugula-salad)
 ```
 
 

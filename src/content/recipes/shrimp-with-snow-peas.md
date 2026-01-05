@@ -50,5 +50,5 @@ This classic Cantonese stir-fry showcases delicate proteins and spring vegetable
 5.  **The Shrimp:** Add another tbsp of oil. Spread the shrimp out in a single layer. Let them sear undisturbed for 1 minute to get a golden crust. Flip and cook for 30 seconds.
 6.  **Aromatics:** Add the ginger, garlic, and green onions. Toss with the shrimp for 30 seconds until fragrant.
 7.  **Finish:** Stir the sauce one last time and pour it into the pan. Toss everything together for 30-60 seconds until the sauce bubbles and turns into a clear, glossy glaze.
-8.  **Serve:** Serve immediately over [Jasmine Rice](/silton-mise/recipes/homemade-rice-pilaf).
+8.  **Serve:** Serve immediately over [Jasmine Rice](/mise/recipes/homemade-rice-pilaf).
 

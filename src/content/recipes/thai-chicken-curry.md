@@ -34,5 +34,5 @@ This is an **Authentic Standard** Thai curry. We have removed the Cajun spices a
 3.  **Simmer:** Add the chicken, bell peppers, and bamboo shoots. Simmer for 10-12 minutes until the chicken is cooked through.
 4.  **Balance:** Stir in the fish sauce and brown sugar. Taste: it should be a balance of salty, sweet, and spicy.
 5.  **Wilt:** Turn off the heat and stir in the Thai basil leaves.
-6.  **Serve:** Serve immediately over [Jasmine Rice](/silton-mise/recipes/homemade-rice-pilaf).
+6.  **Serve:** Serve immediately over [Jasmine Rice](/mise/recipes/homemade-rice-pilaf).
 

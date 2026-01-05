@@ -37,5 +37,5 @@ The key to chicken meatballs that aren't dry is grating the ginger and garlic in
 4.  **The Base:** Wipe the pot. Sauté the remaining ginger/garlic for 1 minute. Add broth, coconut milk, sugar, and remaining fish sauce. Bring to a simmer.
 5.  **Bind:** Return meatballs to the pot. Simmer for 5-8 minutes until cooked through.
 6.  **Wilt:** Remove from heat. Stir in the baby spinach and lime juice.
-7.  **Serve:** Serve hot over [Basmati Rice](/silton-mise/recipes/basmati-rice).
+7.  **Serve:** Serve hot over [Basmati Rice](/mise/recipes/basmati-rice).
 

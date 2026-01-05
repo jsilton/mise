@@ -14,7 +14,7 @@ totalTime: 45 min
 servings: '4'
 ingredients:
   - 4 Rainbow Trout Fillets (6 oz each)
-  - '[Dashi (Japanese Sea Stock)](/silton-mise/recipes/dashi-japanese-sea-stock)'
+  - '[Dashi (Japanese Sea Stock)](/mise/recipes/dashi-japanese-sea-stock)'
   - 1 cup Soy Sauce
   - 1 cup Mirin
   - 1/2 cup Granulated Sugar
@@ -32,7 +32,7 @@ Reducing soy-mirin-vinegar until it becomes heavy syrup, then brushing it onto t
 ## Directions
 
 1.  **The Glaze:** In a small saucepan, bring soy sauce, mirin, sugar, and vinegar to a boil. Simmer for 10 minutes until reduced by half and thick enough to coat a spoon.
-2.  **The Bath:** In a separate pot, bring [Dashi](/silton-mise/recipes/dashi-japanese-sea-stock) to a boil. Add carrots and leeks. Simmer for exactly 1 minute. Remove vegetables with a slotted spoon and set aside. Keep dashi warm.
+2.  **The Bath:** In a separate pot, bring [Dashi](/mise/recipes/dashi-japanese-sea-stock) to a boil. Add carrots and leeks. Simmer for exactly 1 minute. Remove vegetables with a slotted spoon and set aside. Keep dashi warm.
 3.  **Thermal Prep:** Preheat the broiler. Arrange trout fillets, skin-side up, on a sturdy baking sheet.
 4.  **The Lacquer:** Broil for 2 minutes until the skin sizzles. Carefully peel off and discard the skin. Brush the meat with the glaze.
 5.  **Stage 2:** Broil for 3 minutes, brushing twice more with the lacquer, until the trout is cooked through and the surface is mirror-glossy.

@@ -20,7 +20,7 @@ ingredients:
   - 2 tbsp Extra-Virgin Olive Oil
   - 1 tbsp Dijon Mustard
   - '4 cloves Garlic, minced'
-  - '[Cilantro Lime Rice](/silton-mise/recipes/cilantro-lime-rice)'
+  - '[Cilantro Lime Rice](/mise/recipes/cilantro-lime-rice)'
   - Fresh Spinach or Spring Mix
   - Chopped Tomatoes and Avocado
   - Fresh Lime wedges
@@ -36,6 +36,6 @@ This Mexican-inspired chicken bowl features a marinade that balances lime juice'
 2.  **The Soak:** Toss the thin chicken breasts in the marinade until heavily coated. **Refrigerate for at least 2 hours** (up to 24 hours).
 3.  **The Sear:** Heat a grill or heavy skillet to medium-high. Sear chicken for 4-5 minutes per side until deep golden and charred in spots (Internal temp 165°F).
 4.  **Rest:** Transfer to a board and let rest for 5-10 minutes.
-5.  **Assemble:** Layer your bowls with [Cilantro Lime Rice](/silton-mise/recipes/cilantro-lime-rice), fresh greens, tomatoes, and avocado.
+5.  **Assemble:** Layer your bowls with [Cilantro Lime Rice](/mise/recipes/cilantro-lime-rice), fresh greens, tomatoes, and avocado.
 6.  **Finish:** Slice the chicken into strips and place on top. Serve with extra lime wedges for the mandatory **High Note**.
 

@@ -18,7 +18,7 @@ async function listMdFiles(dir) {
 }
 
 function extractInternalLinks(body) {
-  const re = /\(\/silton-mise\/recipes\/([^)\/\s)]+)\)/g;
+  const re = /\(\/mise\/recipes\/([^)\/\s)]+)\)/g;
   const links = [];
   let m;
   while ((m = re.exec(body)) !== null) links.push(m[1]);
@@ -239,7 +239,7 @@ function runKbChecks(slug, data, content) {
       report.missing.directionsFormatting.push(slug);
     }
 
-    // internal links check: /silton-mise/recipes/slug
+    // internal links check: /mise/recipes/slug
     const links = extractInternalLinks(content);
     for (const link of links) {
       if (!linkTargetMap.has(link)) {

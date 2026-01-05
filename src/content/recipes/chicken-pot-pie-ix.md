@@ -31,7 +31,7 @@ ingredients:
   - 1/2 tsp Garlic Powder + 1/4 tsp Celery Seed
   - >-
     2 (9-inch) unbaked pie crusts (Use the [Apple
-    Pie](/silton-mise/recipes/apple-pie) Vodka Hack dough!)
+    Pie](/mise/recipes/apple-pie) Vodka Hack dough!)
   - 1 large Egg (for wash)
 ---
 

@@ -27,7 +27,7 @@ ingredients:
   - 1/2 cup Fresh Basil or Cilantro
   - >-
     1/2 cup [Korean Pickled
-    Cucumbers](/silton-mise/recipes/korean-pickled-cucumbers) (Optional crunch)
+    Cucumbers](/mise/recipes/korean-pickled-cucumbers) (Optional crunch)
 ---
 
 ## Chef's Note

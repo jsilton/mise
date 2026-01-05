@@ -26,7 +26,7 @@ ingredients:
   - 1 tbsp Light Soy Sauce
   - '1 inch Fresh Ginger, grated'
   - '3 Scallions, chopped'
-  - '[Cantonese Wonton Broth](/silton-mise/recipes/cantonese-wonton-broth)'
+  - '[Cantonese Wonton Broth](/mise/recipes/cantonese-wonton-broth)'
   - '1 sheet Nori, shredded'
   - Baby Bok Choy or Spinach
 ---
@@ -38,9 +38,9 @@ Cantonese wontons rely on a filling that's sticky and cohesive, achieved by stir
 ## Directions
 
 1.  **The Filling:** In a large bowl, combine pork, shrimp, ginger, scallions, and all seasonings. Stir vigorously in one direction for 3 minutes until sticky.
-2.  **Assemble:** Place 1 tsp filling in the center of a [Wonton Wrapper](/silton-mise/recipes/fresh-wonton-wrappers). Dab edges with water, fold into a triangle, and pinch the corners together.
+2.  **Assemble:** Place 1 tsp filling in the center of a [Wonton Wrapper](/mise/recipes/fresh-wonton-wrappers). Dab edges with water, fold into a triangle, and pinch the corners together.
 3.  **The Base:** In serving bowls, add a drop of sesame oil, 1 tsp soy sauce, and shredded nori.
-4.  **Boil:** Bring a pot of [Wonton Broth](/silton-mise/recipes/cantonese-wonton-broth) to a boil. Add the wontons. Cook for 3-4 minutes until they float. During the final 1 minute, add the greens.
+4.  **Boil:** Bring a pot of [Wonton Broth](/mise/recipes/cantonese-wonton-broth) to a boil. Add the wontons. Cook for 3-4 minutes until they float. During the final 1 minute, add the greens.
 5.  **Bind:** Ladle 1 cup of the boiling broth into each serving bowl to "wake up" the seasonings.
 6.  **Serve:** Transfer wontons and greens to the bowls. Garnish with fresh coriander and serve immediately.
 

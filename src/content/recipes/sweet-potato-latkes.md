@@ -34,5 +34,5 @@ Traditional latkes rely on starch; sweet potato latkes rely on proper moisture r
 4.  **The Crunch:** Spoon 1/8-cup portions into the oil. Use a spatula to flatten them into 3-inch disks.
 5.  **Fry:** Cook for 2 minutes per side until the edges are deep golden and the center is set. Do not crowd the pan (4 latkes per batch).
 6.  **Drain:** Transfer to a paper-towel-lined plate. Season with a final pinch of salt while hot.
-7.  **Serve:** Serve immediately with [Nana Ruth's Applesauce](/silton-mise/recipes/nana-ruths-applesauce).
+7.  **Serve:** Serve immediately with [Nana Ruth's Applesauce](/mise/recipes/nana-ruths-applesauce).
 

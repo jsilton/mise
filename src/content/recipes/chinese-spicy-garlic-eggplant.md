@@ -27,7 +27,7 @@ ingredients:
   - 1 tbsp Sambal Oelek or Chili Crisp
   - >-
     1/2 cup [All-Purpose Chinese Garlic
-    Sauce](/silton-mise/recipes/chinese-garlic-sauce-base)
+    Sauce](/mise/recipes/chinese-garlic-sauce-base)
 ---
 
 ## Chef's Note
@@ -39,6 +39,6 @@ Spicy garlic eggplant is a Sichuan favorite. The trick to avoiding mushy eggplan
 1.  **Dredge:** Toss the eggplant batons in a bowl with cornstarch until every side is coated. This is the secret to the texture.
 2.  **Sear:** Heat 3 tbsp oil in a wok or large skillet over high heat. Add the eggplant in a single layer. Sear for 3-4 minutes, turning once, until the edges are golden and crispy. Remove to a plate.
 3.  **Aromatics:** Wipe out the pan. Add 1 tbsp oil. Sauté the garlic, ginger, and the white parts of the scallions for 30 seconds. Stir in the chili paste.
-4.  **Finish:** Return the eggplant to the pan. Pour in the [All-Purpose Chinese Garlic Sauce](/silton-mise/recipes/chinese-garlic-sauce-base). Toss vigorously for 1 minute until the sauce bubbles and turns into a thick, clear glaze.
+4.  **Finish:** Return the eggplant to the pan. Pour in the [All-Purpose Chinese Garlic Sauce](/mise/recipes/chinese-garlic-sauce-base). Toss vigorously for 1 minute until the sauce bubbles and turns into a thick, clear glaze.
 5.  **Serve:** Garnish with the green parts of the scallions.
 

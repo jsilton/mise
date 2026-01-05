@@ -40,5 +40,5 @@ Mongolian beef is a Chinese-American restaurant creation (nothing to do with Mon
 4.  **Crisp:** Add the beef in a single layer (work in batches!). Sear for 2 minutes per side until the edges are dark brown and crispy. Remove to a plate and drain excess oil.
 5.  **Finish:** Wipe out the pan. Return the beef to the wok. Pour in the ginger glaze and add the green onions.
 6.  **Toss:** Toss vigorously over high heat for 30-60 seconds until the sauce bubbles and lacquers the beef.
-7.  **Serve:** Serve immediately over [Jasmine Rice](/silton-mise/recipes/homemade-rice-pilaf).
+7.  **Serve:** Serve immediately over [Jasmine Rice](/mise/recipes/homemade-rice-pilaf).
 

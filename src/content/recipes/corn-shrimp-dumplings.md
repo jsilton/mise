@@ -41,5 +41,5 @@ Corn and shrimp dumplings are a modern dim sum creation showcasing summer sweetn
 3.  **Shape:** Place a wrapper in your palm. Spoon 1 tbsp of filling into the center. Moisten the edges with water. Fold into a half-moon and pleat the edges to seal tightly.
 4.  **Steam:** Place in a bamboo steamer lined with parchment. Steam over boiling water for 4-5 minutes until the internal temp is 165°F and the wrappers are translucent.
 5.  **Option (Boil):** Alternatively, drop into boiling water for 3 minutes until they float.
-6.  **Serve:** Serve immediately with a side of soy sauce and [quick Pickled Red Onions](/silton-mise/recipes/pickled-red-onions) or chili oil.
+6.  **Serve:** Serve immediately with a side of soy sauce and [quick Pickled Red Onions](/mise/recipes/pickled-red-onions) or chili oil.
 

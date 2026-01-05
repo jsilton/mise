@@ -36,5 +36,5 @@ The secret to exceptional Belgian waffles is beating the egg whites to stiff pea
 4.  **Combine:** Pour the wet ingredients into the dry. Stir with a whisk until **just combined** (small lumps are mandatory).
 5.  **The Fold:** Gently fold the whipped egg whites into the batter using a rubber spatula. Do not over-mix, or you will deflate the "Bounce."
 6.  **Bake:** Pour 1/2 cup portions into a preheated, oiled waffle iron. Cook for 5-7 minutes until deep golden brown and the steam stops.
-7.  **Serve:** Serve immediately with warm maple syrup and [Perfect Cranberry Sauce](/silton-mise/recipes/perfect-cranberry-sauce).
+7.  **Serve:** Serve immediately with warm maple syrup and [Perfect Cranberry Sauce](/mise/recipes/perfect-cranberry-sauce).
 

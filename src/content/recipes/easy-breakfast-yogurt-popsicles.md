@@ -22,7 +22,7 @@ ingredients:
   - '1 cup Plain Greek Yogurt (Full-fat preferred)'
   - '1/2 cup Whole Milk'
   - '2 tsp Honey'
-  - '1/2 cup Granola (Use [Granola](/silton-mise/recipes/granola) for the Kitchen Standard)'
+  - '1/2 cup Granola (Use [Granola](/mise/recipes/granola) for the Kitchen Standard)'
   - '1 cup Fresh Berries or chopped fruit'
 ---
 

@@ -36,5 +36,5 @@ Panang is the richest and sweetest of the Thai curries, defined by its thick, nu
 4.  **Poach:** Add the chicken and bell peppers. Simmer gently for 10-12 minutes until the chicken is cooked through and the sauce has thickened.
 5.  **Infuse:** Stir in the torn kaffir lime leaves.
 6.  **Finish:** Turn off the heat. Stir in the Thai basil.
-7.  **Serve:** Serve over [Jasmine Rice](/silton-mise/recipes/homemade-rice-pilaf). Top with crushed seeds for texture.
+7.  **Serve:** Serve over [Jasmine Rice](/mise/recipes/homemade-rice-pilaf). Top with crushed seeds for texture.
 

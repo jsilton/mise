@@ -23,7 +23,7 @@ ingredients:
   - 1 1/4 tsp Sea Salt
   - >-
     [Vanilla Bean Ice
-    Cream](/silton-mise/recipes/old-fashioned-vanilla-ice-cream)
+    Cream](/mise/recipes/old-fashioned-vanilla-ice-cream)
 ---
 
 ## Chef's Note
@@ -36,5 +36,5 @@ This is an improved take on a classic summer crisp. The secret to its depth is b
 2.  **The Crumble:** In a small pan, melt butter over medium-high. Continue heating for 5 minutes, stirring often, until the milk solids turn dark brown and smell like toasted nuts. Remove from heat immediately.
 3.  **The Mix:** In a large bowl, whisk flour, brown sugar, and salt. Drizzle the brown butter over the mix. Stir with a fork until large, crispy clumps form.
 4.  **Bake:** Sprinkle the crumble generously over the fruit. Bake at 350°F for 30 minutes until the fruit is bubbling and the topping is a deep mahogany.
-5.  **Serve:** Let cool for 10 minutes to allow the syrup to set. Serve warm with a scoop of [Vanilla Ice Cream](/silton-mise/recipes/old-fashioned-vanilla-ice-cream).
+5.  **Serve:** Let cool for 10 minutes to allow the syrup to set. Serve warm with a scoop of [Vanilla Ice Cream](/mise/recipes/old-fashioned-vanilla-ice-cream).
 

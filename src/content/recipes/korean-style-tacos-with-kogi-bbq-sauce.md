@@ -14,7 +14,7 @@ totalTime: 65 min
 servings: '4'
 ingredients:
   - >-
-    1 lb Cooked [Pulled Pork](/silton-mise/recipes/best-slow-cooker-pulled-pork)
+    1 lb Cooked [Pulled Pork](/mise/recipes/best-slow-cooker-pulled-pork)
     or Shredded Chicken
   - 12 Corn Tortillas
   - 2 tbsp Gochujang

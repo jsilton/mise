@@ -29,7 +29,7 @@ ingredients:
   - 1/2 tsp Garlic Powder
   - Salt and Black Pepper
   - Neutral Oil (for shallow frying)
-  - '2 cups [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad)'
+  - '2 cups [Everyday Arugula Salad](/mise/recipes/everyday-arugula-salad)'
   - Lemon wedges
 ---
 
@@ -47,5 +47,5 @@ Milanese-style breaded cutlets originated in Milan and traditionally use veal, t
 3.  **Bread:** Dredge each piece of chicken in flour (shake off excess), then egg, then press firmly into the panko mixture until fully coated.
 4.  **Fry:** Heat 1/4 inch of oil in a large skillet over medium-high heat. Once shimmering, add the chicken. Fry for 3-4 minutes per side until deep golden brown and crispy.
 5.  **Drain:** Transfer to a wire rack or paper-towel-lined plate. Season with a tiny pinch of flaky salt immediately.
-6.  **Assemble:** Place the hot chicken on a plate. Pile a generous handful of the [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad) on top. Squeeze a fresh lemon wedge over everything.
+6.  **Assemble:** Place the hot chicken on a plate. Pile a generous handful of the [Everyday Arugula Salad](/mise/recipes/everyday-arugula-salad) on top. Squeeze a fresh lemon wedge over everything.
 

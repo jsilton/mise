@@ -35,5 +35,5 @@ Enchiladas Suizas (Swiss-style enchiladas) originated in Mexico City in the 1950
 3.  **Assemble:** Spread 1/2 cup of sauce on the bottom of a 9x13 dish. Fill each tortilla with the chicken/bean mixture, roll tightly, and place seam-side down.
 4.  **Bake:** Pour the remaining sauce over the top. Cover with cheese.
 5.  **Crisp:** Bake at 375°F for 20-25 minutes until the sauce is bubbling and the cheese is golden.
-6.  **Finish:** Top with fresh cilantro and [quick Pickled Red Onions](/silton-mise/recipes/pickled-red-onions).
+6.  **Finish:** Top with fresh cilantro and [quick Pickled Red Onions](/mise/recipes/pickled-red-onions).
 

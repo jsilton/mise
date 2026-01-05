@@ -25,12 +25,12 @@ ingredients:
   - 1/4 tsp Vanilla Extract
   - Fresh Berries
   - Almond Butter
-  - '[Granola](/silton-mise/recipes/granola)'
+  - '[Granola](/mise/recipes/granola)'
 ---
 
 ## Chef's Note
 
-Stir chia seeds into milk, wait 5 minutes, then stir again before refrigerating. This second stir breaks up clumps that form as the seeds' outer layer begins to gel, creating uniform pudding texture. For silkier texture, see [Chocolate Chia Pudding](/silton-mise/recipes/chocolate-chia-pudding).
+Stir chia seeds into milk, wait 5 minutes, then stir again before refrigerating. This second stir breaks up clumps that form as the seeds' outer layer begins to gel, creating uniform pudding texture. For silkier texture, see [Chocolate Chia Pudding](/mise/recipes/chocolate-chia-pudding).
 
 ## Directions
 

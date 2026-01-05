@@ -58,14 +58,14 @@ If any test fails, fix it before continuing.
 
 ### 2. Manual Testing
 
-Test these primary features on `http://localhost:4321/silton-mise/` (dev server):
+Test these primary features on `http://localhost:4321/mise/` (dev server):
 
 #### Homepage Search & Filters
 ```bash
 # Start dev server if not running
 npm run dev
 
-# Test in browser at http://localhost:4321/silton-mise/
+# Test in browser at http://localhost:4321/mise/
 ```
 
 **Test cases:**

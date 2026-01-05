@@ -28,7 +28,7 @@ ingredients:
   - '2 cloves Garlic, minced'
   - >-
     2 cups [Roasted Tomato Basil
-    Sauce](/silton-mise/recipes/roasted-tomato-basil-soup)
+    Sauce](/mise/recipes/roasted-tomato-basil-soup)
   - 1 tbsp Extra-Virgin Olive Oil
   - Salt and Black Pepper
 ---
