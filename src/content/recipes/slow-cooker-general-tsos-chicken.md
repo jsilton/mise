@@ -32,7 +32,7 @@ ingredients:
 
 ## Chef's Note
 
-The secret to restaurant-quality General Tso's in a slow cooker is **Culinary Technique** through **The Cornstarch Sear Method**. We dredge the chicken in a thick layer of starch and flash-fry it in a skillet _before_ it hits the crockpot. This creates a crispy protective crust that absorbs the hoisin glaze without turning the meat into a stringy mess. The rice vinegar provides the mandatory **Acid Balance** that defines the dish's signature punch.
+This slow-cooker version of the Chinese-American classic adapts the dish by flash-frying cornstarch-coated chicken before it enters the crockpot, creating a crispy crust that holds up during long cooking. The sauce balances hoisin's fermented sweetness with rice vinegar's bright acidity for the signature tangy-sweet profile.
 
 ## Directions
 

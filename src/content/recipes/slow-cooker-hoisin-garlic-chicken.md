@@ -30,7 +30,7 @@ ingredients:
 
 ## Chef's Note
 
-This is a masterclass in **Modularity**. The secret to its Success is **The Double-Reduction Method**: we cook the chicken in the hoisin-balsamic base, then remove the meat and boil the remaining liquid in a separate saucepan until it becomes a thick, mirror-glossy glaze. This ensures the chicken has a succulent Texture while the sauce provides a deep, savory "Snap." The balsamic vinegar is the mandatory **Acid Balance** that cuts through the fermented sweetness of the hoisin.
+This slow-cooker hoisin chicken uses a simple reduction technique: after cooking the chicken in the sauce, the remaining liquid is boiled separately in a saucepan until it becomes a thick, glossy glaze. This ensures tender, succulent chicken while creating a concentrated sauce. Balsamic vinegar cuts through hoisin's fermented sweetness.
 
 ## Directions
 

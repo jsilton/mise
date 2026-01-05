@@ -33,7 +33,7 @@ ingredients:
 
 ## Chef's Note
 
-The secret to elite wontons is **Culinary Technique** through **The Directional Stir Method**. You must mix the pork and shrimp in **one direction only** until the proteins emulsify into a sticky, tacky paste; this ensures the filling has a resilient Texture rather than crumbling like a meatball. We maintain **Textural Balance** by using our [Cantonese Wonton Broth](/silton-mise/recipes/cantonese-wonton-broth)—the addition of shredded nori and sesame oil at the very end provides the mandatory aromatic **High Note**.
+Cantonese wontons rely on a filling that's sticky and cohesive, achieved by stirring ground pork and shrimp vigorously in one direction until proteins bind into a tacky paste. This traditional technique prevents the filling from crumbling during boiling. The clear broth is finished with sesame oil and shredded nori for an aromatic base.
 
 ## Directions
 

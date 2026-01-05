@@ -33,7 +33,7 @@ ingredients:
 
 ## Chef's Note
 
-This is a masterclass in **Updated Classic** fusion. The secret to its Success is **The Wok-Style Butter Emulsion**: we sauté shallots and shiitakes in butter until caramelized, then deglaze with white wine and soy sauce. This creates a deeply savory complex flavor base. We maintain **Textural Balance** through **The Shrimp Snap Method**: we sear the shrimp on high heat and remove them immediately, adding them back only in the final 30 seconds. The cold butter finish provides the mandatory creamy "Bounce."
+This fusion dish combines Italian pasta with Japanese-influenced soy butter sauce, creating a style popularized in contemporary Asian-fusion restaurants. The sauce builds from caramelized shiitakes and shallots, deglazed with white wine and soy sauce, then finished with cold butter whisked in to create a rich, glossy emulsion. Shrimp are seared quickly and added at the end to stay tender.
 
 ## Directions
 

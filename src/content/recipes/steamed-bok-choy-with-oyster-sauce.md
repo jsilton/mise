@@ -29,7 +29,7 @@ ingredients:
 
 ## Chef's Note
 
-The secret to great bok choy is protecting the leaves while softening the stems. We use a **Two-Stage Sauté-Steam**: searing the garlic and the white stems first to get a little color, then adding a splash of water and covering the pan to "flash steam" the green leaves in seconds. This ensures the stems are snappy and the leaves are vibrant green, never mushy.
+This classic Cantonese preparation balances the delicate leaves and firmer stems of bok choy by searing the garlic and white stems first to develop color, then adding water and covering to flash-steam the leaves in under 2 minutes. Oyster sauce provides the traditional glossy, umami-rich finish.
 
 ## Directions
 

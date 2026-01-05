@@ -31,7 +31,7 @@ ingredients:
 
 ## Chef's Note
 
-The secret to this "Street Standard" side is **Culinary Technique** through **The Smash Method**. By smacking the cucumbers with a knife blade, you create irregular, jagged surface areas that act as a trap for the dressing—clean slices are too smooth to hold the oil. We maintain **Textural Balance** through **The 30-Minute Salt Lock**: salting the chunks first draws out the internal moisture, ensuring the cucumbers stay crispy and the dressing remains a concentrated emulsion rather than a thin soup.
+Pai huang gua (smashed cucumber salad) is a northern Chinese classic where cucumbers are literally smacked with a knife blade to create irregular, jagged surfaces that trap dressing better than clean slices. Salting the smashed chunks for 30 minutes draws out moisture, keeping them crisp and preventing the dressing from becoming watery.
 
 ## Directions
 
