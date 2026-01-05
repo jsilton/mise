@@ -28,7 +28,7 @@ ingredients:
 
 ## Chef's Note
 
-The secret to this 30-minute quick meal is **The Zone-Roast Method**. Instead of tossing everything together, we divide the sheet pan into three distinct zones: shrimp, pineapple, and onions. This allows the pineapple sugars to caramelize into a Crunch without turning the shrimp soggy. We use **Textural Balance** in the slaw: by slicing the cabbage paper-thin and dressing it only at the moment of serving, we provide a watery, crunchy contrast to the sticky, sweet shrimp. The lime juice provides the mandatory **Acid Balance**.
+These Mexican-inspired shrimp tacos roast on a divided sheet pan where shrimp, pineapple, and onions cook in separate zones, allowing the pineapple's sugars to caramelize without making the shrimp soggy. A cold cabbage-cilantro slaw dressed at the last moment provides crisp contrast to the sweet, sticky shrimp. Lime juice adds brightness.
 
 ## Directions
 

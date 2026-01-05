@@ -28,7 +28,7 @@ ingredients:
 
 ## Chef's Note
 
-This chowder is about **Textural Balance**. Most corn chowders are mushy; we fix this by roasting the corn at high heat first to get "pop" and sweetness. We use the **Bacon Fat** as the base for the onion and garlic to layer the smoky flavor throughout. The finish of fresh lime juice is the "Executive High Note" that cuts the richness of the cream.
+This Mexican-inspired corn chowder builds depth by roasting corn kernels at high heat first to develop caramelized sweetness, then using rendered bacon fat as the base for sautéing aromatics. The layers of smoky flavor come through in every spoonful. Fresh lime juice at the end cuts through the richness of the cream.
 
 ## Directions
 

@@ -27,7 +27,7 @@ ingredients:
 
 ## Chef's Note
 
-This is a masterclass in **Textural Balance**. The secret to the Kitchen Standard is **The Protein Hierarchy Method**: we sear the chorizo first to render its spicy orange fat, then flash-fry the delicate shrimp and squid in that same fat. This ensures the seafood has a smoky Crunch without overcooking. We use a splash of **Mexican Lager** as the complex flavor to deglaze the pan—the maltiness bridges the gap between the spicy pork and the sweet seafood. The lime juice provides the mandatory **Acid Balance**.
+These Mexican-style tacos combine spicy chorizo with delicate seafood by rendering the chorizo first to release its spicy orange fat, then quickly cooking shrimp and squid in that same fat. This infuses the seafood with smoky flavor without overcooking. A splash of Mexican lager deglazes the pan, and lime juice adds brightness.
 
 ## Directions
 

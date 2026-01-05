@@ -25,7 +25,7 @@ ingredients:
 
 ## Chef's Note
 
-This is the ultimate quick fuel for a busy weeknight. The secret to its Success is **The Salsa-Cream Emulsion Method**: we whisk the salsa verde directly into the sour cream; the lactic acid in the cream balances the tart tomatillos, resulting in a rich Texture that keeps the chicken succulent during baking. We maintain **Textural Balance** by Halving the tortillas and layering them like lasagna; this ensures a clean, crispy slice that holds its structure. The fresh avocado provides the mandatory **Acid/Fat Finish**.
+This Tex-Mex casserole is a quick weeknight meal that layers chicken, tortillas, and cheese like lasagna. Whisking salsa verde into sour cream creates a tangy, creamy sauce that keeps the chicken moist during baking. Halving the corn tortillas allows for neat, sturdy layers that slice cleanly. Fresh avocado and tomatoes add brightness.
 
 ## Directions
 

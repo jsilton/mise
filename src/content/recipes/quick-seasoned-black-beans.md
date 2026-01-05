@@ -28,7 +28,7 @@ ingredients:
 
 ## Chef's Note
 
-Canned beans are a survival staple, but they need **Flavor Layering** to be restaurant-worthy. We use the bean liquid (aquafaba) to create a natural, creamy sauce and bloom the cumin in oil first to wake up the earthy spices. The final hit of **Lime Juice** is the mandatory Executive acid finish.
+This Mexican-style quick black bean side transforms canned beans by blooming cumin in oil to release its aromatic oils, then simmering the beans in their own liquid (aquafaba) to create a naturally creamy sauce. Mashing about 10% of the beans thickens the liquid into a rich consistency. A splash of lime juice at the end brightens the earthy flavors.
 
 ## Directions
 
