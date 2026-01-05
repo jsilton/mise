@@ -30,7 +30,7 @@ ingredients:
 
 ## Chef's Note
 
-A real wonton broth shouldn't just taste like chicken soup. It needs a high "oceanic" note to complement the shrimp in the wonton. In Hong Kong, this comes from dried flounder powder; at home, we achieve this by steeping **Dried Shrimp** and ginger in the stock. The result is a golden, clear, aromatic liquid that elevates the entire meal.
+Authentic Cantonese wonton broth from Hong Kong should have a subtle seafood note to complement the shrimp in the wontons. Dried shrimp steeped with ginger creates this delicate oceanic flavor. The broth should be crystal clear and golden, not cloudy. Always boil wontons in a separate pot of plain water so the starch doesn't cloud your carefully made broth.
 
 ## Directions
 

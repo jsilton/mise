@@ -34,7 +34,7 @@ ingredients:
 
 ## Chef's Note
 
-This is the **Kitchen Standard** for lettuce wraps. We have removed the chalky water chestnuts and replaced them with **Finely Diced Celery**, which provides a superior, fresh snap that doesn't disappear into the sauce. The secret is the **High-Heat Sear**: you want the ground chicken to be browned and slightly crispy before adding the glaze so the cups don't turn soggy.
+Chicken lettuce wraps became popular through restaurants like P.F. Chang's in the 1990s. This version replaces water chestnuts with finely diced celery for a fresher, crunchier texture without the chalky mouthfeel. The key is browning the ground chicken over high heat until it has crispy edges before adding the hoisin glaze—this prevents soggy lettuce cups. Serve in cold butter lettuce leaves for the best presentation.
 
 ## Directions
 

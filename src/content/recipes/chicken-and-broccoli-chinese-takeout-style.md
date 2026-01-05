@@ -36,7 +36,7 @@ ingredients:
 
 ## Chef's Note
 
-This is the **Kitchen Standard** of takeout classics. The secret to restaurant-quality chicken is the **Culinary Technique** of **Velveting**. By marinating the chicken in Shaoxing wine and cornstarch, we create a protective barrier that keeps the meat succulent and prevents it from toughening over high heat. We also use **the texture Method**: we steam the broccoli with just a splash of water first, then sear the chicken, ensuring the vegetable maintains its Crunch while the meat gets a slight char.
+Chicken and broccoli became a Chinese-American takeout staple in the mid-20th century. The secret to tender chicken is "velveting"—marinating sliced chicken in Shaoxing wine and cornstarch creates a protective coating that keeps the meat succulent over high heat. Steam the broccoli briefly with water first, then sear the chicken separately so each element has the right texture. The oyster sauce-based glaze should be glossy and coat everything evenly.
 
 ## Directions
 

@@ -30,7 +30,7 @@ ingredients:
 
 ## Chef's Note
 
-This is the "Kitchen Standard" for fish. The secret is the **Sizzling Oil Finish**: we steam the fish with ginger to infuse flavor, but the magic happens when we pour smoking-hot oil over raw scallions and cilantro on top of the fish. This flash-cooks the herbs, releasing their aroma directly into the meat. The soy sauce should be seasoned with a hint of sugar to balance the salt.
+Cantonese steamed fish is a classic from Guangdong province, prized for its delicate simplicity. The fish is steamed with ginger to infuse flavor, then the real magic happens: smoking-hot oil is poured over raw scallions and cilantro on top of the fish. This flash-cooks the herbs and releases their aromatics directly into the fish. Light soy sauce with a touch of sugar balances the seasoning perfectly.
 
 ## Directions
 

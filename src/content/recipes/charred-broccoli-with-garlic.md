@@ -27,7 +27,7 @@ ingredients:
 
 ## Chef's Note
 
-The common mistake with broccoli is steaming it until it's a limp, sulfurous mess. We apply the **Executive Texture Method**: we sear the raw florets in a screaming hot pan until they are charred and nutty on the outside but still have a firm "snap" inside. The soy sauce provides a deep umami seasoning that salt alone cannot match.
+Charred broccoli with garlic is a staple in Chinese-American restaurants. The key is drying the florets thoroughly and using very high heat—wet broccoli will steam instead of char. Let the broccoli sit undisturbed in the hot pan for 2 minutes to get blackened, nutty spots before tossing. Soy sauce adds deeper umami than salt alone, and a squeeze of lemon at the end brightens everything.
 
 ## Directions
 

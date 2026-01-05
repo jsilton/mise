@@ -35,7 +35,7 @@ ingredients:
 
 ## Chef's Note
 
-This is the traditional technical dish version of the [Bernard's Style Char Siu](/silton-mise/recipes/bernards-style-char-siu). By using **Pork Butt** instead of tenderloin, we ensure the meat stays juicy and fatty through the high-heat roasting process. The secret is the **Water Tray**: place a tray of water underneath the roasting rack to catch the drippings—this prevents smoking and creates a humid environment that keeps the pork tender while the honey-glaze lacquers the outside.
+This is a more traditional char siu using pork butt (shoulder) instead of tenderloin. The extra fat keeps the meat juicy through high-heat roasting. Placing a tray of water underneath the roasting rack catches drippings and prevents smoking while creating a humid environment that keeps the pork tender. The honey glaze lacquers the outside into a sticky, caramelized coating. For extra char, finish under the broiler for the last 5 minutes.
 
 ## Directions
 
