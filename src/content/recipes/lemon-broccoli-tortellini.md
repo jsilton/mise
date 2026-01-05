@@ -33,7 +33,7 @@ ingredients:
 
 ## Chef's Note
 
-This is a 25-minute quick hero that avoids the "mushy vegetable" trap of most one-pot pastas. We use **Textural Balance** through **The Staged Roast Method**: we roast the broccoli at high heat (400°F) until slightly charred _before_ combining it with the pasta. This provides a smoky Crunch that contrasts the soft tortellini. The mandatory **Acid Balance** comes from using both the zest and juice of a whole lemon, which brightens the rich, butter-wilted spinach.
+This is a modern quick pasta that uses store-bought cheese tortellini (originally from Emilia-Romagna) with roasted vegetables. The key to keeping the broccoli from turning mushy is roasting it separately at high heat (400°F) until slightly charred before tossing with the pasta - this gives it a smoky, crispy texture that contrasts nicely with the soft, pillowy tortellini. Use both lemon zest and juice for maximum brightness - the zest has aromatic oils that the juice doesn't have. Pasta water creates a light sauce when mixed with butter and Parmesan. This is weeknight cooking at its best.
 
 ## Directions
 

@@ -28,7 +28,7 @@ ingredients:
 
 ## Chef's Note
 
-The secret to restaurant-quality garlic bread is **The Infusion**. Many recipes just rub raw garlic on bread, which can be bitter and sharp. We whisk the grated garlic and herbs into softened butter and spread it into every crevice of the loaf. Baking at a high temp (400°F) allows the garlic to "roast" inside the butter, creating a sweet, nutty aroma rather than a raw one.
+Garlic bread as we know it is an Italian-American invention, popularized by steakhouses and Italian restaurants in the 1940s-50s. In Italy, bruschetta (grilled bread rubbed with raw garlic and drizzled with olive oil) is more traditional. The American version mixes minced garlic into softened butter with herbs and Parmesan, spreads it generously on bread, and bakes it at high heat. Baking at 400°F roasts the garlic inside the butter, mellowing its sharpness into a sweet, nutty flavor. Use a crusty Italian loaf or French baguette - soft sandwich bread won't work.
 
 ## Directions
 

@@ -33,7 +33,7 @@ ingredients:
 
 ## Chef's Note
 
-This is a 25-minute quick classic that avoids the common "greasy sauce" problem. The secret is the **Shrimp Snap Method**: we sear the shrimp briefly and remove them, allowing us to build the sauce without overcooking the protein. We use **The Emulsion Method**: by whisking the starchy pasta water into the heavy cream and Parmesan, we create a stable, glossy bind that clings to the fettuccine. The roasted peppers provide the necessary **High Note** of sweetness to cut the garlic.
+This is an Italian-American cream sauce pasta with shrimp, popular in red sauce Italian restaurants from the 1980s onward. The key is not overcooking the shrimp - sear them briefly until just pink, then remove them while you build the sauce. Pasta water is essential here: its starch helps the cream and Parmesan emulsify into a stable, glossy sauce that coats the fettuccine rather than separating into greasy pools. The roasted red peppers add sweetness and a hint of smoke that balances the rich garlic and cream. Smoked paprika reinforces that flavor.
 
 ## Directions
 

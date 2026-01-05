@@ -28,7 +28,7 @@ ingredients:
 
 ## Chef's Note
 
-This is the baseline for all elite Italian dishes in our kitchen. We use **Culinary Technique** through **The Food Processor Emulsion Method**: instead of the messy "well" method, we use the high-speed blade to instantly emulsify the eggs and flour, ensuring a perfectly uniform protein structure. The most critical step is **The Hydration Rest**: you must let the dough sit for at least 1 hour. This allows the flour's starches to fully hydrate, resulting in a Texture that is tender yet snappy (al dente) rather than gummy.
+Fresh egg pasta (pasta all'uovo) is traditional in Northern Italy, particularly Emilia-Romagna (Bologna, Modena, Parma), where it's made with soft wheat flour and eggs. The classic method is making a "well" of flour and cracking eggs into the center, but a food processor is much faster and creates a perfectly uniform dough. The critical step is resting the dough for at least 1 hour after kneading - this allows the flour's gluten to relax and the starches to fully hydrate, resulting in pasta that's tender yet has a pleasant bite (al dente) when cooked. Use Italian "00" flour if you can find it - it's finely milled and makes silkier pasta.
 
 ## Directions
 

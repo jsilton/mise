@@ -31,7 +31,7 @@ ingredients:
 
 ## Chef's Note
 
-This is a masterclass in **Culinary Technique**. The secret to its elite texture is **The 8-Hour Hydration Method**: steel-cut oats are technically a dried grain similar to rice; by soaking them overnight, we allow the starches to fully hydrate, resulting in a "risotto-like" creaminess that has a distinct Crunch to the bite rather than being mushy. We use **The Sweet-Savory Bridge Method**: the combination of mashed banana and sharp **Sherry Vinegar** creates a sophisticated flavor profile that bridges the gap between a traditional breakfast and a savory course.
+This is a creative fusion dish that applies risotto technique to steel-cut oats, creating a savory breakfast that blurs the line between morning and dinner. Soaking the oats overnight in broth hydrates them fully so they cook up creamy with a pleasant chewy texture, similar to arborio rice in risotto. The genius combination is mashed banana for sweetness and creaminess, balanced by sharp sherry vinegar and golden raisins for acidity. Finishing with shaved Parmesan adds a savory, salty element that makes this sophisticated enough for brunch entertaining. It's unusual but delicious - think of it as Italian risotto meets American oatmeal.
 
 ## Directions
 

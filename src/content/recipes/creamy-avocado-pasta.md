@@ -33,7 +33,7 @@ ingredients:
 
 ## Chef's Note
 
-This is a high-speed nutritious meal that relies on **Culinary Technique** for its creamy texture. We use **The Blender Method** to create a raw, cold emulsion of avocado and olive oil—this prevents the "split" that often happens with cooked avocado sauces. The **Lemon Juice** provides the mandatory **Acid Balance** while also stabilizing the chlorophyll in the basil and spinach, ensuring the sauce stays vibrant green. Never cook the sauce; the residual heat of the pasta is enough to warm it into a "Bounce."
+This is a modern healthy fusion that became popular in the 2010s as avocados went mainstream in American cooking. It's not traditionally Italian - Italy doesn't grow avocados - but it uses Italian pasta techniques with California ingredients. The trick is blending raw avocado with olive oil to create a creamy cold sauce that stays smooth and doesn't separate. Lemon juice is critical for two reasons: it adds brightness and it prevents the avocado from turning brown by stabilizing the chlorophyll in the greens. Never cook the sauce - just let the hot pasta warm it. Eat immediately as avocado sauces don't hold well.
 
 ## Directions
 
