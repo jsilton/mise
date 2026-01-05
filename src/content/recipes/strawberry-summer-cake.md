@@ -31,7 +31,7 @@ ingredients:
 
 ## Chef's Note
 
-This is the definitive "Summer Project" cake. The secret to its Success is **The Surface Press Method**: you must arrange the strawberries cut-side down in a single, tight layer over the entire surface of the batter. As the cake bakes, the strawberries sink slightly and release their juices, creating a jammy Texture while the exposed edges develop a caramelized "Snap." We use a **High-Sugar Crust**: sprinkling extra sugar over the raw berries creates a crackly, crystalline "High Note" finish that defines the dish.
+This is a beautiful summer dessert cake showcasing fresh strawberries. The secret is arranging the strawberries cut-side down in a single, tight layer over the entire surface of the batter. As the cake bakes, the strawberries sink slightly and release their juices, creating a jammy texture while the exposed edges caramelize. Sprinkling extra sugar over the raw berries creates a crackly, crystalline finish that defines this dish.
 
 ## Directions
 

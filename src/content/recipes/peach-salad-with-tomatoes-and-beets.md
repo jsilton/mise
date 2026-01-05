@@ -32,7 +32,7 @@ ingredients:
 
 ## Chef's Note
 
-This salad is a masterclass in **Textural Balance** through **The Roasted Stacks Method**. We roast golden beets at high heat (425°F) until they reach an earthy, Crunch tender consistency, then layer them with raw tomatoes and fresh peaches. This creates a spectrum of grain structures in every forkful. The mandatory **Acid Balance** comes from the lemon-honey-shallot emulsion, which provides the "High Note" needed to bridge the sweet stone fruit and the creamy goat cheese.
+This salad showcases contrasting textures and temperatures. Roast golden beets at high heat (425°F) until they reach an earthy, tender consistency, then layer them with raw tomatoes and fresh peaches. This creates a spectrum of textures in every forkful. The lemon-honey-shallot emulsion provides essential acidity to bridge the sweet stone fruit and the creamy goat cheese.
 
 ## Directions
 
@@ -41,5 +41,5 @@ This salad is a masterclass in **Textural Balance** through **The Roasted Stacks
 3.  **The Emulsion:** In a small bowl, whisk olive oil, 1 tbsp lemon juice, honey, and shallots until thick.
 4.  **Macerate:** Toss the sliced peaches with the remaining 1 tbsp lemon juice.
 5.  **Assemble:** Mound the peach slices in the center of the platter.
-6.  **Finish:** Drizzle the honey-shallot glaze over everything. Garnish with crumbled goat cheese, fresh mint, and thyme for the mandatory aromatic **High Note**.
+6.  **Finish:** Drizzle the honey-shallot glaze over everything. Garnish with crumbled goat cheese, fresh mint, and thyme for aromatic freshness.
 

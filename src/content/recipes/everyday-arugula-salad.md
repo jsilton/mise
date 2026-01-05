@@ -27,13 +27,13 @@ ingredients:
 
 ## Chef's Note
 
-This is the universal Executive side dish. The secret to avoiding a wilted, soggy salad is **Culinary Technique** through **The Perimeter Drizzle Method**. You must never pour oil and lemon directly onto the leaves; instead, drizzle them around the inner rim of the bowl and toss from the bottom up. This ensures a thin, microscopic coating that maintains **Textural Balance** and the Crunch of the greens. The lemon provides the mandatory **High Note** that cuts through any rich main course.
+This is a simple, versatile side salad. The secret to avoiding a wilted, soggy salad is proper dressing technique: never pour oil and lemon directly onto the leaves. Instead, drizzle them around the inner rim of the bowl and toss from the bottom up. This ensures a thin, even coating that keeps the greens crisp and peppery. The lemon adds essential brightness that cuts through any rich main course.
 
 ## Directions
 
 1.  **Prep:** Place the baby arugula in a large, wide wooden or ceramic bowl.
 2.  **Drizzle:** Drizzle the olive oil around the perimeter of the bowl. Repeat with the fresh lemon juice.
 3.  **Season:** Sprinkle with flaky salt and a generous amount of cracked black pepper.
-4.  **Toss:** Using your hands (the Kitchen Standard) or large tongs, toss gently until every leaf is lightly glossy and the seasonings are evenly distributed.
+4.  **Toss:** Using your hands or large tongs, toss gently until every leaf is lightly glossy and the seasonings are evenly distributed.
 5.  **Finish:** Top with the shaved Parmesan curls. Serve immediately—this salad waits for no one.
 

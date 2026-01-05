@@ -30,7 +30,7 @@ ingredients:
 
 ## Chef's Note
 
-This is a baseline **Updated Classic** recipe for high-performance lunch fuel. The secret to its Success is **The Pull-Not-Cut Method**: you must poach the chicken tenders and then manually pull them into shreds while warm; this ensures the maximum surface area for the mayonnaise to bind to, resulting in a rich "Bounce." We maintain **Textural Balance** through **The Cold Snap**: using quartered grapes and finely diced celery provides a necessary watery crunch that cuts through the rich mayo. Always add a hit of fresh lemon to provide the mandatory **High Note**.
+This is a classic recipe for satisfying lunch fuel. The secret is poaching the chicken tenders and then manually pulling them into shreds while warm. This ensures maximum surface area for the mayonnaise to bind to, resulting in a rich, cohesive salad. Using quartered grapes and finely diced celery provides necessary watery crunch that cuts through the rich mayo. Always add a hit of fresh lemon for brightness.
 
 ## Directions
 

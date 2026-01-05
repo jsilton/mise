@@ -37,7 +37,7 @@ ingredients:
 
 ## Chef's Note
 
-A great pot pie is defined by the **Velouté** (the gravy) and the **Flaky Crust**. We have moved away from the "boiled chicken" version; instead, use poached or roasted chicken chunks to preserve the meaty texture. The secret to the Kitchen Standard is the **Celery Seed**: it provides that "savory soul" that makes the pie taste like a professional bakery version. For the best result, use the Vodka Hack dough from our Apple Pie recipe.
+A great pot pie is defined by the velouté (the gravy) and the flaky crust. This version uses poached or roasted chicken chunks rather than boiled chicken to preserve the meaty texture. The secret is celery seed: it provides that savory depth that makes the pie taste like a professional bakery version. For the best result, use the Vodka Hack dough from our Apple Pie recipe.
 
 ## Directions
 

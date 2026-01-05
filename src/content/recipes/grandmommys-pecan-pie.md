@@ -25,7 +25,7 @@ ingredients:
 
 ## Chef's Note
 
-This is a **Updated Classic** update to a Family Kitchen holiday staple. We have replaced the legacy margarine with **Unsalted Butter** to provide a richer, cleaner fat profile. The secret to the Kitchen Standard here is **The Nut Toast Method**: for the most elite flavor, toast your pecans in a dry pan for 3 minutes before adding them to the filling—this creates a smoky Crunch that balances the intense sweetness of the Karo syrup.
+This is a family holiday tradition with a modern update. Replacing the traditional margarine with unsalted butter provides a richer, cleaner flavor. The secret to exceptional flavor is toasting your pecans in a dry pan for 3 minutes before adding them to the filling—this creates a smoky depth that balances the intense sweetness of the Karo syrup.
 
 ## Directions
 

@@ -36,7 +36,7 @@ ingredients:
 
 ## Chef's Note
 
-We have upgraded the old-school "pudding pie" to the **Updated Classic** standard. The secret is the **Bittersweet High Note**: by using 70% cacao chocolate instead of milk chocolate, we create a sophisticated, intense filling that balances the sweetness of the sugar. We use **The Emulsion Method**: we whisk the egg yolks directly into the cold milk before cooking, ensuring a silky, custard-like Texture that never turns grainy. For the best result, use the Vodka Hack crust from our [Apple Pie](/silton-mise/recipes/apple-pie).
+This is an upgrade to the old-school "pudding pie." The secret is using 70% cacao bittersweet chocolate instead of milk chocolate, creating a sophisticated, intense filling that balances the sweetness of the sugar. Whisking the egg yolks directly into the cold milk before cooking ensures a silky, custard-like texture that never turns grainy. For the best result, use the Vodka Hack crust from our [Apple Pie](/silton-mise/recipes/apple-pie).
 
 ## Directions
 
@@ -46,5 +46,5 @@ We have upgraded the old-school "pudding pie" to the **Updated Classic** standar
 4.  **The Melt:** Remove from heat immediately. Stir in the chopped bittersweet chocolate, butter, and vanilla. Whisk until the chocolate is completely melted and the filling is uniform.
 5.  **The Finish:** Pour the hot filling into the cooled pie crust. Press a piece of plastic wrap directly onto the surface of the pudding to prevent a "skin" from forming.
 6.  **Chill:** Refrigerate for **at least 4 hours** (uncovered after the first hour) until perfectly set.
-7.  **Serve:** Top with billowy whipped cream and shaved chocolate for **Textural Balance**.
+7.  **Serve:** Top with billowy whipped cream and shaved chocolate for contrast.
 

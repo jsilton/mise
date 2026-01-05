@@ -32,7 +32,7 @@ ingredients:
 
 ## Chef's Note
 
-These are the ultimate "Modularity" component for breakfast prep. The secret to avoiding the rubbery, watery texture of most egg muffins is **Textural Balance** through **The Dry Squeeze Method**: you must squeeze the thawed spinach in a towel until **bone-dry** before adding to the eggs. We use **The Bacon Anchor**: placing the bacon and diced veg at the bottom of the tin ensures they develop a slight Crunch against the metal, providing a savory foundation for the fluffy egg "Bounce."
+These are ideal for breakfast meal prep. The secret to avoiding the rubbery, watery texture of most egg muffins is squeezing the thawed spinach in a towel until bone-dry before adding to the eggs. Placing the bacon and diced vegetables at the bottom of the tin ensures they develop a slight crisp against the metal, providing a savory foundation for the fluffy egg top.
 
 ## Directions
 

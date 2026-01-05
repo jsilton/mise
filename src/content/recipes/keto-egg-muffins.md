@@ -29,7 +29,7 @@ ingredients:
 
 ## Chef's Note
 
-These are the ultimate high-speed nutritious for a low-carb week. The secret to avoiding the rubbery "sponginess" of many egg muffins is **Textural Balance** through **The Charred Meat Base Method**: we place the raw chorizo at the bottom of the tin so it renders its spicy fat directly into the egg, creating a crispy Crunch finish on the bottom. We use **The Pesto Emulsion**: whisking the oily pesto directly into the eggs ensures every bite has a savory "High Note" that cuts through the richness of the yolk.
+These are ideal for high-protein, low-carb meal prep. The secret to avoiding the rubbery sponginess of many egg muffins is placing the raw chorizo at the bottom of the tin so it renders its spicy fat directly into the egg, creating a crispy finish on the bottom. Whisking the oily pesto directly into the eggs ensures every bite has savory depth that cuts through the richness of the yolk.
 
 ## Directions
 

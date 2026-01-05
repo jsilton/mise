@@ -30,7 +30,7 @@ ingredients:
 
 ## Chef's Note
 
-The secret to "Peach Pie" pancakes that aren't heavy is **Culinary Technique** through **The Yogurt Hydration Method**. By using Greek yogurt as the primary binder, we create a dense, custardy Texture that mimics pie filling without the need for excessive oil. We maintain **Textural Balance** by using **The Silver Dollar Method**: small, 2-tablespoon pancakes ensure the diced peaches are distributed evenly and the pancake cooks through before the fruit releases too much moisture. The cinnamon provides the mandatory aromatic **High Note**.
+The secret to peach pie pancakes that aren't heavy is using Greek yogurt as the primary binder, creating a dense, custardy texture that mimics pie filling without excessive oil. Making small, 2-tablespoon "silver dollar" pancakes ensures the diced peaches are distributed evenly and the pancake cooks through before the fruit releases too much moisture. The cinnamon provides essential aromatic warmth.
 
 ## Directions
 
