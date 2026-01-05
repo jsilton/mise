@@ -34,7 +34,7 @@ ingredients:
 
 ## Chef's Note
 
-This is a **Updated Classic** update to the standard holiday stuffing. The secret to its Success is **Textural Balance** through **The Ciabatta Soak Method**: instead of dry croutons, we use milk-saturated ciabatta. This ensures the stuffing has a custardy Texture rather than a dry crunch. We use **The Sausage Render Method**: we brown the sausage on medium-high to release all its fat, which then acts as the primary seasoning for the kale and aromatics. The massive hit of fresh parsley provides the mandatory **High Note**.
+This is an Italian-American twist on traditional Thanksgiving stuffing, reflecting how Italian immigrant families adapted American holiday traditions with their own ingredients. Using ciabatta (Italian bread with large air pockets) instead of white bread, Italian sausage instead of sage sausage, and kale with Parmesan gives this stuffing a distinctly Italian character. Soaking the bread in milk creates a custardy texture rather than dry croutons. Brown the sausage well to render its fat, which becomes your cooking medium for the vegetables. The combination of fresh herbs - parsley, basil, sage, rosemary - is classically Italian. Make this a day ahead and refrigerate, then bake before serving.
 
 ## Directions
 

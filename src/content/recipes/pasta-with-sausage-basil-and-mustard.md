@@ -31,7 +31,7 @@ ingredients:
 
 ## Chef's Note
 
-This is a 30-minute quick meal that relies on **The Mustard Emulsion Method**. The secret to the Kitchen Standard is the **Wine Reduction**: we simmer the hot Italian sausage directly in white wine, scraping up the "fond" to create a deeply savory base. The addition of **Grainy Mustard** provides the mandatory **Acid Balance** that cuts through the rich heavy cream and fatty sausage. We maintain **Textural Balance** by using a tube-shaped pasta (like rigatoni) which acts as a trap for the thick, creamy sauce.
+This is a modern Italian-French fusion that combines Italian sausage and fresh basil with French-style Dijon mustard and cream. The grainy Dijon adds a tangy, slightly sharp note that cuts through the rich cream and fatty sausage - it's an unexpected twist that works brilliantly. The technique of deglazing the pan with white wine after browning the sausage captures all those flavorful browned bits (called "fond" in French cooking) and builds a deeply savory base. Tube-shaped pasta like penne or rigatoni traps the thick sauce inside each piece. This is the kind of creative fusion dish you'd find in a modern Italian trattoria.
 
 ## Directions
 

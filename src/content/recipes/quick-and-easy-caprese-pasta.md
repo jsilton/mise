@@ -31,7 +31,7 @@ ingredients:
 
 ## Chef's Note
 
-This is the baseline for 15-minute quick fuel. The secret to its Success is **The Residual Heat Method**: angel hair is too delicate for heavy cooking; we sauté the garlic and tomatoes briefly, then kill the heat and let the hot pasta melt the mozzarella into a semi-molten "Bounce." We maintain **Textural Balance** by seeding the tomatoes—this prevents the sauce from turning watery. The lemon juice provides the mandatory **Acid Balance** that bridge the sweet basil and rich oil.
+This pasta transforms the classic Caprese salad (from the island of Capri) into a quick summer dinner. Insalata Caprese - tomato, mozzarella, and basil - has been served in Capri since the 1950s, representing the colors of the Italian flag. The trick here is using residual heat: turn off the stove after briefly sautéing the tomatoes, then let the hot pasta melt the fresh mozzarella into a semi-molten state rather than cooking it into rubber. Seed the tomatoes first to remove excess liquid that would make the sauce watery. Angel hair cooks in 2-3 minutes, making this a true 15-minute meal. Use the ripest summer tomatoes you can find.
 
 ## Directions
 

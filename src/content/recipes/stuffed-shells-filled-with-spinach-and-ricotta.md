@@ -35,7 +35,7 @@ ingredients:
 
 ## Chef's Note
 
-The secret to stuffed shells that aren't watery is **Culinary Technique** through **The Ice-Shock Squeeze Method**. You must blanch the spinach for only 20 seconds and then squeeze it in a towel until **bone-dry** before pureeing with the cheese. This ensures the filling has a dense, custardy Texture rather than weeping into the sauce. We use **The Single-Layer Method**: arranging the shells in a tight, single layer ensures the edges develop a crispy golden crust under the broiler.
+Stuffed shells (conchiglioni ripieni) are a classic Italian-American "pasta al forno" (baked pasta) dish that became popular in the 1950s-70s. In Italy, similar preparations exist but are more regional - this Americanized version is designed for easy assembly and feeding a crowd. The critical step is squeezing the blanched spinach bone-dry in a kitchen towel - any excess water will make the filling weep and the dish watery. Blanch the spinach for only 20 seconds, just until wilted, then shock in ice water to stop cooking and preserve the green color. The egg in the filling acts as a binder to hold everything together. These can be assembled a day ahead, refrigerated, and baked when needed.
 
 ## Directions
 

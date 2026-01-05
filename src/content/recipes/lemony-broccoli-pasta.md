@@ -30,7 +30,7 @@ ingredients:
 
 ## Chef's Note
 
-This is the ultimate 20-minute quick hero. The secret to its Success is **The Starch-Bind Emulsion Method**: we use the hot, starchy pasta water to emulsify the olive oil and Parmesan into a light, silky glaze that clings to the noodles. We maintain **Textural Balance** by adding the broccoli to the pasta pot during the final 2 minutes; this ensures it is vibrant green and crispy rather than boiled into mush. The lemon zest provides the mandatory aromatic **High Note**.
+This is a simple Italian vegetable pasta that showcases the classic technique of using starchy pasta water as a sauce base. Southern Italians have been making versions of this for generations with whatever vegetables are in season. The key is adding the broccoli to the boiling pasta water in the last 2 minutes so it stays bright green and slightly crisp - not overcooked and gray. The pasta water's starch binds with the olive oil and Parmesan to create a light, clingy sauce without heavy cream. Lemon zest (not just juice) is essential for brightness. This is the kind of simple, economical pasta working-class Italian families made nightly.
 
 ## Directions
 

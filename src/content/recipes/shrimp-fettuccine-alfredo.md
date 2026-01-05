@@ -32,7 +32,7 @@ ingredients:
 
 ## Chef's Note
 
-Shrimp and Alfredo are a match made in comfort-food heaven. The key to the shrimp is a **High-Heat Sear**: you want them to have a little color but stay juicy inside. If you have the extra 5 minutes, making the [Real Alfredo Sauce](/silton-mise/recipes/real-alfredo-sauce) from scratch will transform this from a basic dinner into a restaurant-quality feast.
+This is an American combination of Italian fettuccine Alfredo with seafood, popularized by Italian-American restaurants in the mid-20th century. [Real Alfredo Sauce](/silton-mise/recipes/real-alfredo-sauce) was created in 1908 by Alfredo di Lelio in Rome using only butter and Parmigiano-Reggiano - Americans later added cream to make it richer and more stable. The key with shrimp is a quick high-heat sear for about 2 minutes per side so they get some color but stay juicy inside - overcooking makes them rubbery. If making the sauce from scratch, be sure to scrape up any browned shrimp bits from the pan as they add tremendous flavor to the butter and cheese.
 
 ## Directions
 
