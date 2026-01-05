@@ -31,7 +31,7 @@ ingredients:
 
 ## Chef's Note
 
-This dish is a masterclass in **Modularity**. The secret to "Street Standard" tacos is **The Kogi Emulsion Method**: we whisk gochujang and sesame oil into a stable glaze that binds instantly to pre-cooked proteins. We maintain **Textural Balance** through **The quick Pickle Snap**: you must slice the cucumbers paper-thin and let them sit in vinegar for exactly 1 hour; this creates a translucent, "bouncy" crunch that provides the mandatory **Acid Balance** to cut through the sweet BBQ sauce.
+These Korean-Mexican fusion tacos were popularized by LA's Kogi BBQ truck in 2008, combining Korean gochujang-based sauce with traditional Mexican tortillas. The sauce whisks together gochujang, sesame oil, soy sauce, and sugar into a sweet-spicy glaze. Paper-thin cucumbers quick-pickled in vinegar for an hour provide a cool, tangy crunch that balances the rich sauce.
 
 ## Directions
 

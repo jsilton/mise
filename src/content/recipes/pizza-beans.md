@@ -27,7 +27,7 @@ ingredients:
 
 ## Chef's Note
 
-This is the nutritious version of a deep-dish pizza. We swap the heavy dough for protein-rich white beans and greens. The secret to **Textural Balance** is the kale: we cook it just until wilted so it retains a slight "bite," providing a structural contrast to the creamy beans and melted cheese. Always use giant beans if you can find them; their meaty texture is the "Hero" of the dish.
+This Tex-Mex inspired skillet dish swaps pizza dough for protein-rich white beans, creating a comfort food that's lighter but equally satisfying. Cooking kale just until wilted preserves a slight bite that contrasts with the creamy beans and melted cheese. Giant butter beans or gigante beans work best for their substantial, meaty texture.
 
 ## Directions
 

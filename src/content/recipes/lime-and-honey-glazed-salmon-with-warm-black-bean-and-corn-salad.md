@@ -29,7 +29,7 @@ ingredients:
 
 ## Chef's Note
 
-This is a high-performance nutritious meal that relies on **Staged Cooking**. The secret to its elite flavor is the **Skillet Reduction Method**: we sear the salmon in a lime-honey glaze until caramelized, then use the same pan to build a warm black bean and corn salad. This ensures the smoky chili-lime juices from the fish infuse the vegetables. The spinach is folded in at the very end to maintain **Textural Balance**—it should be just wilted, providing a vibrant Texture to the earthy beans.
+This Mexican-inspired salmon dish features a lime-honey glaze that caramelizes during searing, creating a sweet-tangy crust. Using the same pan to build the black bean and corn salad allows the caramelized juices from the fish to infuse the vegetables. Baby spinach is folded in at the end so it wilts without losing its vibrant color.
 
 ## Directions
 

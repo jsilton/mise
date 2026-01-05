@@ -31,7 +31,7 @@ ingredients:
 
 ## Chef's Note
 
-The secret to restaurant-quality corn salad is the **Maillard Reaction**. Don't just boil the corn; sear the kernels in a smoking hot pan (or grill them on the cob) until they are deeply charred and "popping." This provides a nutty sweetness that balances the creamy dressing and the sharp acidity of the lime. This is the **Textural Balance** pattern in action.
+Esquites is a Mexican street food where corn kernels are charred or grilled until deeply caramelized, then tossed with lime, mayo, cotija cheese, and chili powder. Searing the kernels in a hot pan until they develop dark, charred spots creates nutty sweetness that balances the creamy dressing and sharp lime.
 
 ## Directions
 

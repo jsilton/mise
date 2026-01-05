@@ -26,7 +26,7 @@ ingredients:
 
 ## Chef's Note
 
-The secret to fluffy, distinct Mexican rice is **Toasting**. You must fry the dry rice in oil until it is opaque and smells like popcorn. This creates a protective seal around each grain so they don't turn into a mushy clump when you add the tomato liquid. This is the **Culinary Technique** of great rice.
+Arroz rojo (red rice) is a Mexican staple where long-grain rice is toasted in oil until golden and fragrant before adding tomato-based liquid. This toasting creates a protective layer around each grain, preventing them from clumping and ensuring they cook up fluffy and distinct. The technique is essential for properly textured Mexican rice.
 
 ## Directions
 

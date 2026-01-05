@@ -22,7 +22,7 @@ ingredients:
 
 ## Chef's Note
 
-This is the **Executive Acid Balance** in a jar. These onions add brightness, color, and crunch to almost any heavy dish. The secret is the **30-Minute Rest**: while they are edible immediately, letting them sit for half an hour allows the vinegar to turn the onions a vibrant pink and soften their raw "bite."
+Quick-pickled red onions are a staple Mexican condiment that adds brightness, color, and crunch to tacos, enchiladas, and rich dishes. While they're technically edible immediately, a 30-minute rest allows the vinegar to turn the onions vibrant pink and mellow their raw bite.
 
 ## Directions
 
