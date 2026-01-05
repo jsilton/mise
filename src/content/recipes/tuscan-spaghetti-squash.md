@@ -32,7 +32,7 @@ ingredients:
 
 ## Chef's Note
 
-The secret to spaghetti squash that doesn't feel like a side dish is **Culinary Technique** through **The Bacon-Fat Sear Method**. We roast the squash flesh-side down to maintain moisture , but then toss the "noodles" directly into rendered bacon fat and cream. This creates a savory, emulsified glaze that clings to each strand. We maintain **Textural Balance** by adding the cherry tomatoes and spinach at the very end—this ensures you have bright, crispy bursts of color against the rich Tuscan cream.
+This is a modern American creation that takes Tuscan flavors (bacon, cream, tomatoes, spinach) and applies them to spaghetti squash, a New World vegetable. Spaghetti squash is native to Mexico and Central America, and the variety we eat today was popularized in Japan and brought to North America in the 1930s. It became trendy in the 2000s as a low-carb pasta substitute. The trick is roasting it cut-side down so moisture doesn't pool in the hollow - this keeps the strands firmer. Tossing the squash in bacon fat and cream transforms it from a sad diet food into something genuinely delicious.
 
 ## Directions
 

@@ -29,7 +29,7 @@ ingredients:
 
 ## Chef's Note
 
-Real Carbonara is a feat of **Emulsion Science**. There is NO cream in this dish. The "sauce" is a stable emulsion of egg yolks, melted fat, and starchy pasta water. The secret to success is the **Double Boiler Method**: by mixing the eggs and cheese in a bowl set over the boiling pasta water, you gently temper the eggs so they become creamy rather than scrambled.
+Carbonara is a Roman dish that dates to the 1940s, with debates about whether it was invented by coal miners (carbonari) or simply uses lots of black pepper resembling coal dust. What's certain: authentic carbonara contains no cream - the silky sauce comes from tempering eggs with hot pasta water and rendered pork fat. Guanciale (cured pork jowl) is traditional, but pancetta works well; never use bacon as its smokiness overwhelms the dish. The key is working quickly off-heat so the eggs create a creamy sauce without scrambling.
 
 ## Directions
 

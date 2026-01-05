@@ -33,7 +33,7 @@ ingredients:
 
 ## Chef's Note
 
-The secret to a "Kitchen Standard" scampi is **Culinary Technique** through **The Mounting Method**. We reduce the white wine and lemon juice by half _before_ whisking in the cold butter; this creates a stable, velvety emulsion that "Bounces" against the pasta rather than separating into oil. We maintain **Textural Balance** by searing the shrimp for only 1 minute per side until they are pink but slightly underdone—they will finish cooking in the residual heat of the butter sauce, ensuring they stay "Snappy."
+Scampi is actually Italian for langoustine (a small lobster), but Italian-American restaurants in the 1920s started using the term for any shellfish cooked in garlic, butter, and white wine. The dish as we know it is completely American - you won't find 'shrimp scampi' in Italy. The massive amount of butter and garlic is distinctly Italian-American excess, taking Italian flavors and amplifying them. Shrimp overcooks in seconds - they're done when they just turn pink and curl into a C shape; if they curl into an O, they're overcooked. The butter emulsion technique creates a sauce that clings rather than separates into puddles.
 
 ## Directions
 

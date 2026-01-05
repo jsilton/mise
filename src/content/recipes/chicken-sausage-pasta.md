@@ -32,7 +32,7 @@ ingredients:
 
 ## Chef's Note
 
-The secret to this weeknight hero is **Flavor Layering**. We start by browning the sausage to render its fat, then use that flavorful oil to sauté the peppers and garlic. The **Red Wine Reduction** provides a deep, slightly acidic base that complements the sweetness of the San Marzano tomatoes. The spinach is folded in at the very end to stay vibrant and green.
+This is a modern Italian-American weeknight staple that combines the convenience of pre-made chicken sausage with the technique of building flavor through layering. Chicken sausage became popular in the 1990s as a leaner alternative to pork, though purists would argue nothing beats traditional Italian sausage's richness. San Marzano tomatoes from the volcanic soil near Mount Vesuvius have protected DOP status and are worth seeking out for their sweet, low-acid flavor. Don't skip the red wine reduction - it adds depth that makes this taste like it simmered for hours.
 
 ## Directions
 

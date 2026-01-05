@@ -31,7 +31,7 @@ ingredients:
 
 ## Chef's Note
 
-Real Alfredo is an emulsion of fat and starch. It does not require flour or thickeners found in jars. The secret is the **Pasta Water**: the starchy water from your boiling pasta helps the butter and cheese bind into a silky, velvety sauce that won't separate. Always grate your own Parmesan; pre-shredded cheese is coated in starch that will make your sauce grainy.
+Fettuccine Alfredo was created in 1908 by Alfredo di Lelio in Rome for his pregnant wife who had lost her appetite. The original contained only butter, Parmigiano-Reggiano, and pasta - no cream. American restaurants added heavy cream in the 1960s to make it richer and prevent it from drying out under heat lamps. This Americanized version is what most of us know and love. The key is using freshly grated real Parmigiano-Reggiano - pre-shredded cheese contains anti-caking agents that make the sauce grainy. Starchy pasta water is the secret ingredient that helps everything emulsify into a silky sauce.
 
 ## Directions
 

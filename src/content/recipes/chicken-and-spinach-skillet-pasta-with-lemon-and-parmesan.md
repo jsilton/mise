@@ -31,7 +31,7 @@ ingredients:
 
 ## Chef's Note
 
-This is a high-performance weeknight meal that relies on **The Emulsion Method**. Instead of a heavy cream sauce, we use the starchy pasta water and white wine to bind the lemon and parmesan into a light, silky glaze. The massive amount of spinach provides the nutritious without making the dish feel heavy. Always finish with fresh lemon zest for that **High Note** brightness.
+This represents the lighter side of Italian-American cooking that emerged in the 2000s as Americans became more health-conscious. Traditional Italian cooking often relies on butter and cream, but this technique uses starchy pasta water to create body and cling without the heaviness. Lemon is huge in Southern Italian coastal cooking, especially in Amalfi and Sicily. One bag of spinach looks massive but wilts down to almost nothing - don't be afraid to use the full amount. This is best eaten immediately as the sauce doesn't reheat well.
 
 ## Directions
 

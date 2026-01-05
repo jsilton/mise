@@ -31,7 +31,7 @@ ingredients:
 
 ## Chef's Note
 
-The secret to a professional vodka sauce is **The Burn-Off Method**. You must simmer the vodka with the garlic for exactly 1 minute _before_ adding the marinara; this evaporates the harsh ethanol while concentrating the floral aromatics of the spirit. We maintain **Textural Balance** through **The Staged Sauté**: we sear the broccoli and shrimp separately and remove them, adding them back only in the final minute. This ensures the broccoli has a smoky Crunch and the shrimp maintain their "Bounce."
+Vodka sauce is a purely Italian-American invention from 1970s New York, with multiple restaurants claiming to have created it first. The vodka doesn't add much flavor itself - instead, it acts as an emulsifier, helping fat-soluble tomato flavors and water-soluble cream bind together into a stable sauce. Some say it also releases flavor compounds in tomatoes that aren't soluble in water or fat alone. The result is a distinctly creamy-yet-bright pink sauce that's become an Italian-American classic. Let the vodka simmer for a full minute to cook off the harsh alcohol while concentrating its subtle notes.
 
 ## Directions
 

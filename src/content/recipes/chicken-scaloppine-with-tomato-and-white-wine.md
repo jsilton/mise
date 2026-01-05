@@ -32,7 +32,7 @@ ingredients:
 
 ## Chef's Note
 
-This dish uses the "Marsala Method" but pivots to a bright, Mediterranean profile. The secret to the deep color and umami is **Blooming the Paste**: we sauté the tomato paste with the garlic until it turns from bright red to a deep brick color—this removes the raw metallic taste and concentrates the sweetness. We maintain **Textural Balance** by folding the spinach in only during the final 30 seconds, so it stays vibrant green.
+Scaloppine refers to the Italian technique of pounding meat thin for quick cooking, typically done with veal in Italy but adapted to chicken in America. The dish comes from Northern Italy where white wine-based sauces are more common than the tomato-heavy Southern Italian cooking. Blooming tomato paste in hot oil is a chef's technique that caramelizes the sugars and removes the tinny, metallic taste of raw paste - you'll see it darken from bright red to deep brick. Thighs are more forgiving than breasts here and won't dry out if you cook them an extra minute.
 
 ## Directions
 

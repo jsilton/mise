@@ -34,7 +34,7 @@ ingredients:
 
 ## Chef's Note
 
-The secret to successful "No-Boil" lasagna is the **Sauce-to-Pasta Ratio**. No-boil sheets need moisture to hydrate in the oven; if your sauce is too thick, the noodles will stay crunchy. We use an **Egg Binder** in the ricotta to ensure the layers set into a sliceable, restaurant-quality structure rather than a watery pool. Always serve with a bright green salad to cut the heavy cheese.
+Lasagna originated in Naples and is one of Italy's oldest pasta dishes, with recipes dating back to the 14th century. The no-boil lasagna sheets are a modern American invention from the 1990s that saves time but requires a saucier sauce to hydrate properly during baking. Squeeze that spinach bone-dry - frozen spinach holds an astonishing amount of water that will make your lasagna watery. This is perfect make-ahead food: assemble up to 24 hours in advance, refrigerate covered, and add 10 minutes to baking time.
 
 ## Directions
 

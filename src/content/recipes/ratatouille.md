@@ -28,7 +28,7 @@ ingredients:
 
 ## Chef's Note
 
-Traditional ratatouille is often a mushy stew; we elevate it to the Kitchen Standard through **Textural Balance** and **The Roasted Method**. Instead of simmering everything together, we roast the eggplant and peppers at high heat (425°F) separately. This ensures each vegetable maintains its Crunch and color. We use **The Pulp Method** for the sauce: grating the fresh tomatoes removes the skins and creates a frothy, fresh base that binds the roasted components into a vibrant "Bounce."
+Ratatouille comes from Nice in Provence, France, where it's been made since the 18th century as a way to use up summer vegetables. The name comes from the French 'touiller,' meaning to stir or toss food. The Pixar movie made it famous worldwide, though that version shows a tian (sliced vegetables baked in a dish) rather than traditional ratatouille which is more of a rustic stew. The key is cooking each vegetable separately first - eggplant, peppers, and zucchini all have different cooking times and water contents. Roasting at high heat rather than stewing prevents the vegetables from becoming mushy and develops caramelized flavor.
 
 ## Directions
 

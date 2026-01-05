@@ -31,7 +31,7 @@ ingredients:
 
 ## Chef's Note
 
-The secret to a "Kitchen Standard" Vongole is **Textural Balance** through **The Cold Soak Method**. You must soak the clams in cold, salted water for 20 minutes before cooking; this encourages them to purge any internal sand, ensuring a clean Crunch to the dish. We use **Dry Vermouth** instead of white wine to introduce a botanically rich complex flavor that pierces through the salty sea liquor. The 1-minute **Lid Shake Cycle** is mandatory to emulsify the oil and clam juices into a silky, translucent glaze.
+Spaghetti alle vongole is a classic from the Campania region (Naples and the Amalfi Coast), where fresh clams are abundant. In Italy, they use tiny vongole veraci that are sweet and delicate; American littleneck clams are larger but work beautifully. The dish is traditionally made in bianco (white, with garlic and oil) or in rosso (red, with tomatoes) - this is the white version. Soaking clams in cold salted water encourages them to purge sand. Vermouth adds botanical complexity that wine can't match, and the clam liquor released during steaming creates the sauce.
 
 ## Directions
 

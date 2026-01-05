@@ -27,7 +27,7 @@ ingredients:
 
 ## Chef's Note
 
-This is a high-speed, one-pot wonder. To solve the "Mushy Veggie" problem, we use **Textural Balance**: instead of simmering the broccolini in the broth with the pasta, we sauté it hard first to get charred edges and then set it aside, adding it back only at the very end. This keeps the veg snappy and the orzo creamy.
+This is a modern Mediterranean-inspired one-pot meal that uses the risotto technique - toasting the orzo first, then cooking it in broth so it absorbs maximum flavor. Orzo is actually a pasta shaped like rice, invented in Italy but hugely popular in Greek cooking. Broccolini is a hybrid of broccoli and Chinese kale, developed in 1993, with a sweeter, more delicate flavor than regular broccoli. The key to not ending up with mushy vegetables is sautéing the broccolini separately first to get some char, then folding it in at the end.
 
 ## Directions
 
