@@ -33,7 +33,7 @@ ingredients:
 
 ## Chef's Note
 
-These are ideal for busy families looking to sneak vegetables into breakfast. The secret to their success is blending: pulverize the raw greens and wet ingredients in a blender until they form a perfectly smooth, neon-green liquid. This ensures the moisture is evenly distributed, resulting in a cake-like texture that masks the fibrous greens. The apple cider vinegar activates the baking soda for a tall rise and adds just a hint of tanginess.
+These are ideal for busy families looking to sneak vegetables into breakfast. The key is blending: pulverize the raw greens and wet ingredients in a blender until they form a perfectly smooth, neon-green liquid. This ensures the moisture is evenly distributed, resulting in a cake-like texture that masks the fibrous greens. The apple cider vinegar activates the baking soda for a tall rise and adds just a hint of tanginess.
 
 ## Directions
 

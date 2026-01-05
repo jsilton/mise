@@ -25,7 +25,7 @@ ingredients:
 
 ## Chef's Note
 
-This is the "Kitchen Standard" for a technical garden cocktail. The secret to its Success is **The Cold Infusion Method**: we boil the sugar and ginger to create a base, but add the Thai basil and Kaffir lime leaves only _after_ removing from heat. This preserves the delicate essential oils, providing a floral **Acid Balance** that standard syrups lack. We use **Bruised Basil** in each glass to ensure the aromatic experience precedes the first sip.
+This is a refreshing Thai-inspired garden cocktail. The technique is cold infusion: we boil the sugar and ginger to create a base, but add the Thai basil and Kaffir lime leaves only after removing from heat. This preserves the delicate essential oils, providing a floral brightness that standard syrups lack. We use bruised basil in each glass to ensure the aromatic experience precedes the first sip.
 
 ## Directions
 

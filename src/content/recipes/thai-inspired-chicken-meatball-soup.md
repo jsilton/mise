@@ -27,7 +27,7 @@ ingredients:
 
 ## Chef's Note
 
-The secret to chicken meatballs that aren't dry is **Culinary Technique** through **The Aromatic Bind Method**. By grating the ginger and garlic into a paste _before_ mixing with the meat, we introduce a massive amount of cellular moisture that protects the lean protein during the sear. We maintain **Textural Balance** through **The Staged Simmer**: we sear the meatballs to develop a "Snap," then simmer them in the coconut broth for only 5 minutes. The fresh lime juice provides the mandatory **Acid Balance**.
+The key to chicken meatballs that aren't dry is grating the ginger and garlic into a paste before mixing with the meat. This introduces moisture that protects the lean protein during the sear. We use a staged simmer: sear the meatballs to develop a crust, then simmer them in the coconut broth for only 5 minutes. The fresh lime juice brightens the soup.
 
 ## Directions
 

@@ -34,5 +34,5 @@ These Tex-Mex sheet pan fajitas simplify the traditional skillet method by roast
 3.  **Bake:** Roast for 15-20 minutes until the chicken is cooked through (165°F).
 4.  **The Crunch:** Turn the oven to "Broil" (High). Move the pan to the top rack. Broil for 2-3 minutes until the vegetables are charred and the chicken skin is crispy.
 5.  **Finish:** Squeeze the remaining lime juice over the hot pan.
-6.  **Serve:** Serve with warm tortillas, avocado, and cilantro for the final aromatic **High Note**.
+6.  **Serve:** Serve with warm tortillas, avocado, and cilantro for fresh finishing touches.
 

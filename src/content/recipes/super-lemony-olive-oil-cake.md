@@ -30,7 +30,7 @@ ingredients:
 
 ## Chef's Note
 
-This is the definitive Executive technical dish dessert. The secret to its incredible texture is **Culinary Technique** through **The EVOO Emulsion Method**. Unlike butter cakes, olive oil provides a consistent, liquid fat that ensures a moist Texture that lasts for days. We use a **Double-Leavening Method** (soda and powder) to ensure a tall, airy rise that contrasts the heavy oil. The mandatory **Acid Balance** comes from using the full juice and zest of two lemons—this bright "High Note" is essential to cut through the grassy notes of the extra-virgin oil.
+This is a Mediterranean-style olive oil cake with intense lemon flavor. The secret to its incredible texture is the olive oil itself. Unlike butter cakes, olive oil provides a consistent, liquid fat that ensures a moist texture that lasts for days. We use both baking soda and powder to ensure a tall, airy rise that contrasts the heavy oil. The brightness comes from using the full juice and zest of two lemons—essential to cut through the grassy notes of the extra-virgin oil.
 
 ## Directions
 

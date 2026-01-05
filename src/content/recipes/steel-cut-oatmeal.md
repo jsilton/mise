@@ -36,6 +36,6 @@ Steel-cut oats (also called Irish or Scottish oats) are whole oat groats cut int
 1.  **The Toast:** In a heavy saucepan, melt the butter. Add the oats and stir constantly for 2-3 minutes until they smell like toasted popcorn and look golden.
 2.  **Simmer:** Pour in the boiling water and a pinch of salt. Reduce heat to **very low**. Cover and cook for 25 minutes. **Do not stir.**
 3.  **Emulsify:** Open the lid. Add the whole milk and half of the buttermilk. Stir gently for 10 minutes over low heat until the oats are creamy and "squeaky" to the bite (al dente).
-4.  **Finish:** Remove from heat. Stir in the remaining buttermilk, brown sugar, and cinnamon for the mandatory **High Note**.
+4.  **Finish:** Remove from heat. Stir in the remaining buttermilk, brown sugar, and cinnamon for a final layer of flavor.
 5.  **Serve:** Serve hot with fresh berries or a drizzle of maple syrup.
 

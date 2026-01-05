@@ -23,7 +23,7 @@ ingredients:
 
 ## Chef's Note
 
-This is a baseline **Modularity** component for seasonal wellness. The secret to the Kitchen Standard is the **Reduction Cycle Method**: we simmer the berries until the liquid has decreased by exactly half, concentrating the anthocyanins into a potent base. The most critical step is the **Honey Stabilization**: you must wait until the syrup is lukewarm before adding the honey. This preserves the natural enzymes and probiotics in the raw honey that would be destroyed by heat.
+This is a traditional seasonal wellness syrup. The technique is reduction: we simmer the berries until the liquid has decreased by exactly half, concentrating the anthocyanins into a potent base. The most critical step is honey timing: you must wait until the syrup is lukewarm before adding the honey. This preserves the natural enzymes and probiotics in the raw honey that would be destroyed by heat.
 
 ## Directions
 

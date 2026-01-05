@@ -26,7 +26,7 @@ vibe: holiday
 
 ## Chef's Note
 
-We have evolved this family tradition from boiling to **roasting**. Boiling the squash dilutes its natural sugars with water; roasting at high heat evaporates moisture and triggers the Maillard reaction, concentrating the squash into a deeper, sweeter version of itself. This is the definitive Executive Thanksgiving side.
+We have evolved this family tradition from boiling to roasting. Boiling the squash dilutes its natural sugars with water; roasting at high heat evaporates moisture and triggers the Maillard reaction, concentrating the squash into a deeper, sweeter version of itself. This is our classic Thanksgiving side.
 
 ## Directions
 

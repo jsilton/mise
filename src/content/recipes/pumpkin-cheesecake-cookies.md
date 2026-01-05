@@ -31,7 +31,7 @@ ingredients:
 
 ## Chef's Note
 
-This is the ultimate technical dish cookie. The secret to its professional Success is **Culinary Technique** through **The Frozen Core Method**: you must freeze the cream cheese dollops for at least 45 minutes _before_ wrapping them in the pumpkin dough. This ensures the "Cheesecake" remains a distinct, creamy center rather than melting into the cookie during baking. We use **The 1-Hour Chill** for the dough to ensure it has the Texture to hold its shape around the core. The ginger-sugar coating provides the mandatory **High Note** crunch.
+These are pumpkin cookies with a cream cheese center. The critical step is freezing the cream cheese dollops for at least 45 minutes before wrapping them in the pumpkin dough. This ensures the cheesecake remains a distinct, creamy center rather than melting into the cookie during baking. We chill the dough for 1 hour to ensure it holds its shape around the core. The ginger-sugar coating provides satisfying crunch.
 
 ## Directions
 
