@@ -27,7 +27,7 @@ ingredients:
 
 ## Chef's Note
 
-The secret to "Kitchen Standard" Korean spinach is **Culinary Technique** through **The 30-Second Blanch Method**. Spinach is 90% water; by plunging it into boiling water for exactly 30 seconds and then into ice water, we lock in the vibrant green chlorophyll and provide a resilient "Bounce." We maintain **Textural Balance** through **The Squeeze**: you must gather the chilled spinach and squeeze until it is a dry, dense ball before seasoning. The toasted sesame oil is the mandatory savory **High Note**.
+The secret to authentic Korean spinach (sigeumchi namul) is precise blanching. Spinach is 90% water, so plunging it into boiling water for exactly 30 seconds and then into ice water locks in the vibrant green chlorophyll and provides a resilient texture. After chilling, gather the spinach and squeeze it until it forms a dry, dense ball before seasoning. The toasted sesame oil is essential for that savory Korean flavor.
 
 ## Directions
 

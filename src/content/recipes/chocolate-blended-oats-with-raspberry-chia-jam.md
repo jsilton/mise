@@ -34,7 +34,7 @@ ingredients:
 
 ## Chef's Note
 
-This is the "Kitchen Standard" for meal-prep breakfasts. We use **The Blender Method** to transform standard rolled oats into a smooth, cake-like batter. The secret to the Kitchen Standard here is the **Acid Balance**: the tart, seed-studded raspberry jam provides a sharp "High Note" that cuts through the dense, earthy cacao. By letting this set overnight, the chia seeds fully hydrate, giving the oats a pudding-like Texture that keeps you full until lunch.
+This is ideal for meal-prep breakfasts. Blending standard rolled oats transforms them into a smooth, cake-like batter. The tart, seed-studded raspberry jam provides essential brightness that cuts through the dense, earthy cacao. By letting this set overnight, the chia seeds fully hydrate, giving the oats a pudding-like texture that keeps you full until lunch.
 
 ## Directions
 

@@ -29,7 +29,7 @@ ingredients:
 
 ## Chef's Note
 
-The secret to this "Heritage" peach ice cream is the **Skin-on Standard**. We chop the peaches with the skins on; during the maceration process, the pigments from the skin bleed into the sugar, providing a natural rosy color and a deeper, more complex peach aroma. We use **The Double-Boiler Method**: cooking the custard gently over simmering water ensures a stable Texture that never turns into scrambled eggs. The lemon juice provides the mandatory **Acid Balance** to cut the heavy cream.
+The secret to this heritage-style peach ice cream is keeping the skins on when you chop the peaches. During the maceration process, the pigments from the skin bleed into the sugar, providing a natural rosy color and a deeper, more complex peach aroma. Cooking the custard gently in a double boiler over simmering water ensures a stable texture that never turns into scrambled eggs. The lemon juice provides essential acidity to cut the heavy cream.
 
 ## Directions
 
@@ -39,6 +39,6 @@ The secret to this "Heritage" peach ice cream is the **Skin-on Standard**. We ch
 4.  **Thicken:** Return the mixture to the double boiler. Cook, stirring constantly with a wooden spoon, for 15 minutes until the custard is thick enough to coat the spoon.
 5.  **Chill:** Whisk in the heavy cream. Refrigerate until stone-cold (at least 4 hours).
 6.  **Churn:** Drain the peaches. Stir the accumulated peach syrup into the custard base. Pour into your ice cream maker.
-7.  **Finish:** Add the chopped peaches during the final minute of churning to maintain **Textural Balance**.
+7.  **Finish:** Add the chopped peaches during the final minute of churning to maintain the fruit's texture.
 8.  **Set:** Freeze for 2 hours before serving.
 

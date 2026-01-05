@@ -32,7 +32,7 @@ ingredients:
 
 ## Chef's Note
 
-This salad is a study in **Textural Balance** through **The Roasted Stacks Method**. The secret to its Success is **The Massage Method**: you must rub the kale with sea salt for 2 minutes _before_ adding the hot vegetables; this breaks down the tough cellulose for a tender "Bounce." We maintain the Crunch by roasting the sweet potatoes and sprouts at 375°F until charred. The maple-mustard emulsion provides the mandatory **Acid Balance** that bridges the sweet stone fruit and earthy greens.
+This salad combines roasted and raw vegetables for contrasting textures. The secret is massaging the kale with sea salt for 2 minutes before adding the hot vegetables. This breaks down the tough cellulose for a tender texture. Roasting the sweet potatoes and Brussels sprouts at 375°F until charred provides crispy contrast. The maple-mustard emulsion provides essential acidity that bridges the sweet vegetables and earthy greens.
 
 ## Directions
 

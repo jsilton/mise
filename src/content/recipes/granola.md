@@ -32,7 +32,7 @@ ingredients:
 
 ## Chef's Note
 
-This is the baseline **Modularity** component for all Executive breakfasts. The secret to "Kitchen Standard" clusters is **Culinary Technique** through **The Syrup Bind Method**: we whisk the oil and maple syrup into a stable emulsion before pouring over the oats—this ensures every grain is coated in a thin "guard" that caramelizes in the oven. We maintain **Textural Balance** by using a **Three-Stage Bake**: we roast at 350°F and stir twice to ensure even browning, but we only add the dried fruit _after_ the granola has cooled to prevent it from turning into rock-hard bullets.
+This is the go-to granola recipe for batch breakfast prep. The secret to getting those perfect clusters is creating a stable emulsion: whisk the oil and maple syrup together before pouring over the oats. This ensures every grain is coated in a thin layer that caramelizes beautifully in the oven. Roast at 350°F and stir twice to ensure even browning, but only add the dried fruit after the granola has cooled to prevent it from turning into rock-hard pieces.
 
 ## Directions
 

@@ -36,7 +36,7 @@ Stir chia seeds into milk, wait 5 minutes, then stir again before refrigerating.
 
 1.  **Combine:** In a mason jar or bowl, whisk together the chia seeds, milk, maple syrup, and vanilla.
 2.  **The First Set:** Let the mixture sit at room temperature for 5 minutes.
-3.  **The Second Stir:** Stir or shake the jar vigorously one more time to break up any seed clumps. This is the critical step for **Textural Balance**.
+3.  **The Second Stir:** Stir or shake the jar vigorously one more time to break up any seed clumps. This is the critical step for even consistency.
 4.  **Chill:** Cover and refrigerate for **at least 2 hours** (ideally overnight).
 5.  **Adjust:** If the pudding is too thick, stir in a splash more milk. If too thin, add 1 tbsp more seeds and wait 30 minutes.
 6.  **Serve:** Top with fresh fruit and granola for a crunchy Crunch contrast.

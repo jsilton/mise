@@ -44,7 +44,7 @@ ingredients:
 
 ## Chef's Note
 
-We have elevated this Mercer Street classic using the **Bravetart Brown Butter method**. By replacing generic vegetable oil with toasted brown butter, we inject a deep, nutty complexity that perfectly complements the carrots and spices. The **Apple Syrup** is the final secret—it is brushed onto the warm cake layers to ensure they stay moist and add a subtle tartness that balances the rich cream cheese frosting.
+This Mercer Street classic is elevated using Stella Parks' (Bravetart) brown butter technique. By replacing generic vegetable oil with toasted brown butter, you inject a deep, nutty complexity that perfectly complements the carrots and spices. The apple syrup is the final secret—it is brushed onto the warm cake layers to ensure they stay moist and add a subtle tartness that balances the rich cream cheese frosting.
 
 ## Directions
 
