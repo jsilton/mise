@@ -27,7 +27,7 @@ ingredients:
 
 ## Chef's Note
 
-Cooking a whole fish is the ultimate expression of **Updated Classic**. To ensure **Textural Balance**, we use the **Triple Slash Method**: cutting three deep slits into the thickest part of the fish. This allows the heat and the seasoning sauce to penetrate the core, preventing the outside from overcooking before the middle is done. We finish with the **Smoking Oil Method**, pouring just-smoking peanut oil over fresh scallions to release their aromatic essence directly into the skin.
+Baking whole fish Chinese-style creates a restaurant-quality presentation. Cutting three deep slashes into the thickest part of the fish allows heat and seasoning to penetrate evenly, preventing the outside from overcooking before the middle is done. Baking covered with foil creates a steam chamber that keeps the fish moist. The dramatic finish: pour smoking-hot peanut oil over fresh scallions piled on the fish to release their aroma directly into the skin.
 
 ## Directions
 

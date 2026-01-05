@@ -36,7 +36,7 @@ ingredients:
 
 ## Chef's Note
 
-The key to this vegan-focused nutritious dish is **Culinary Technique**. We use **The Cornstarch Guard Method**: by dredging the eggplant and tofu in a thick layer of cornstarch before frying, we create a barrier that prevents the eggplant from absorbing oil while ensuring a shatteringly crisp "Snap." The final **Acid Balance** (a combination of rice vinegar and lime) is the mandatory "High Note" that cuts through the heat of the Szechuan chiles.
+This Sichuan-inspired dish showcases crispy textures with spicy-sour flavors. Dredging eggplant and tofu in cornstarch before frying creates a protective barrier that prevents the eggplant from absorbing too much oil while ensuring maximum crispiness. The sauce balances sweet, savory, and acidic elements—the rice vinegar and lime juice brighten the dish and cut through the heat of Thai bird chiles. Serve immediately for best texture.
 
 ## Directions
 

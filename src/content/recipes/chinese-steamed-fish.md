@@ -34,7 +34,7 @@ ingredients:
 
 ## Chef's Note
 
-This is the ultimate test of **Culinary Technique** in Cantonese cuisine. The secret is the **Sizzling Oil Finish**: we pour smoking-hot oil directly over the raw ginger and scallions sitting atop the steamed fish. This "flash-cooks" the aromatics, releasing their oils into the skin of the fish and creating a fragrance that is unattainable through steaming alone. Always discard the "fish water" from the steaming plate—it carries the muddy off-flavors we want to avoid.
+Steamed whole fish is a cornerstone of Cantonese cuisine, showcasing the fish's natural flavor. The finishing touch: pour smoking-hot oil over raw ginger and scallions on top of the cooked fish. This flash-cooks the aromatics and releases their fragrant oils directly into the fish. Always discard the liquid that collects on the steaming plate—it contains off-flavors from the fish. Use the freshest fish possible, ideally snapper or sea bass.
 
 ## Directions
 

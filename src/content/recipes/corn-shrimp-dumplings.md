@@ -32,7 +32,7 @@ ingredients:
 
 ## Chef's Note
 
-This is a sophisticated technical dish meal that relies on **Culinary Technique** for its elite mouthfeel. To achieve the "Restaurant Bounce," you must stir the shrimp mixture vigorously in one direction for 2 minutes before adding the corn; this emulsifies the proteins into a sticky paste. We maintain **Textural Balance** by using fresh corn kernels, which provide a sweet Crunch that contrasts with the savory shrimp.
+Corn and shrimp dumplings are a modern dim sum creation showcasing summer sweetness. The key to bouncy texture: stir the shrimp mixture vigorously in one direction for 2 minutes before adding the corn. This develops the protein structure that gives the filling its characteristic snap. Fresh corn kernels provide sweet crunch that contrasts beautifully with the savory shrimp. These freeze well for make-ahead entertaining.
 
 ## Directions
 

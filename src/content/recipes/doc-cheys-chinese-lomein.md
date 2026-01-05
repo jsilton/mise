@@ -36,7 +36,7 @@ ingredients:
 
 ## Chef's Note
 
-This is our tribute to an Atlanta heritage favorite. The secret to restaurant-quality lo mein is the **Lo Mein Emulsion Method**. Instead of just tossing noodles in cold sauce, we simmer the sauce with the vegetables until it reduces by half, creating a thick, glossy glaze that has enough Texture to fully coat every strand of noodle. We maintain **Textural Balance** by searing the chicken quickly and removing it—this ensures the breast meat stays succulent while the vegetables caramelize.
+This recipe is inspired by Doc Chey's, an Atlanta noodle house favorite. The secret to restaurant-quality lo mein: simmer the sauce with the vegetables until it reduces by half, creating a thick glaze that coats every noodle strand. Sear the chicken quickly and remove it so the breast meat stays juicy while the vegetables caramelize. Use fresh egg noodles cooked al dente for the best texture.
 
 ## Directions
 

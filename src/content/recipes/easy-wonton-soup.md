@@ -33,7 +33,7 @@ ingredients:
 
 ## Chef's Note
 
-This is the ultimate 25-minute quick meal. The secret to making store-bought broth taste like a restaurant version is **The Aromatic Smasher Method**: instead of mincing ginger and garlic, we smash them with the side of a knife. This releases the essential oils into the broth during the simmer without adding gritty textures. We maintain **Textural Balance** by adding the wontons and bok choy together at the end; this ensures the greens stay vibrant and the wonton skins keep their "Snap."
+Quick wonton soup using store-bought frozen wontons makes a comforting 25-minute meal. The trick to elevating store-bought broth: smash ginger and garlic with the side of a knife (instead of mincing) and simmer them in the broth. This releases their essential oils without adding gritty texture. Add the wontons and bok choy together at the end so the greens stay vibrant and the wonton skins don't get mushy.
 
 ## Directions
 
