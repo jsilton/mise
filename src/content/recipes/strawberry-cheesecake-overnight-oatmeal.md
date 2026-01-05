@@ -31,7 +31,7 @@ ingredients:
 
 ## Chef's Note
 
-The secret to "Cheesecake" oats that aren't a dense brick is **Culinary Technique** through **The Softened Emulsion Method**. You must whisk the cream cheese and Greek yogurt together _before_ adding the milk and oats; this creates a stable, cheesecake-like base with a sophisticated "Bounce." We use **Lemon Juice and Zest** as the mandatory **Acid Balance** to cut through the heavy cream cheese, providing the signature tang of a real cheesecake. Always add the berries just before refrigerating to maintain **Textural Balance**.
+The key to "cheesecake" oats that aren't a dense brick is whisking the cream cheese and Greek yogurt together before adding the milk and oats. This creates a stable, cheesecake-like base. We use lemon juice and zest to cut through the heavy cream cheese, providing the signature tang of a real cheesecake. Always add the berries just before refrigerating to keep them from bleeding.
 
 ## Directions
 

@@ -29,7 +29,7 @@ ingredients:
 
 ## Chef's Note
 
-The secret to these 25-minute potatoes is **Textural Balance** through the **Glaze Method**. Instead of boiling or steaming, we roast the rounds at high heat (400°F) in a honey-butter emulsion. The **Lime Juice** provides the mandatory **Acid Balance**, which prevents the dish from being cloyingly sweet and ensures the cinnamon notes are bright rather than muddy. Ensure the slices are uniform in thickness to guarantee even cooking.
+The key to these 25-minute potatoes is roasting the rounds at high heat (400°F) in a honey-butter mixture instead of boiling or steaming. The lime juice prevents the dish from being cloyingly sweet and ensures the cinnamon notes stay bright rather than muddy. Ensure the slices are uniform in thickness to guarantee even cooking.
 
 ## Directions
 

@@ -28,7 +28,7 @@ ingredients:
 
 ## Chef's Note
 
-The secret to a "Kitchen Standard" yogurt pop is **Culinary Technique** through **The Reduction Method**. You must simmer the strawberries and rhubarb with the orange juice for 4 minutes; this breaks down the tough rhubarb fibers and creates a thick, pectin-rich syrup that prevents the pops from becoming "icy bricks." We use **Greek Yogurt** as the primary emulsifier to provide a creamy "Bounce." The orange juice provides the mandatory **Acid Balance** that bridges the sweet honey and tart rhubarb.
+The key to successful yogurt pops is simmering the strawberries and rhubarb with the orange juice for 4 minutes. This breaks down the tough rhubarb fibers and creates a thick, pectin-rich syrup that prevents the pops from becoming icy bricks. We use Greek yogurt as the primary base to provide a creamy texture. The orange juice bridges the sweet honey and tart rhubarb.
 
 ## Directions
 

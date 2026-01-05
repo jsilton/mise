@@ -27,7 +27,7 @@ ingredients:
 
 ## Chef's Note
 
-This is the definitive restorative soup. The secret to its elite "Velvet" texture is **Culinary Technique** through **The Butter-Roux Method**. Unlike standard soups, we use a massive half-pound of butter to sauté the onions; this provides a fat-moisture barrier that results in a soup with an incredible Texture and sheen. We maintain **Textural Balance** through **The 30-Minute Low-Simmer**: we cook the tomatoes until the cellulose breaks down completely, then finish with **Half-and-Half and Honey** for a mandatory **Acid-Sweet Finish** that bridge the tart tomatoes.
+This is classic restorative tomato soup. The key to its velvety texture is using a half-pound of butter to sauté the onions, which provides a rich base that results in a soup with incredible body and sheen. We cook the tomatoes for 30 minutes until the cellulose breaks down completely, then finish with half-and-half and honey to balance the tart tomatoes.
 
 ## Directions
 

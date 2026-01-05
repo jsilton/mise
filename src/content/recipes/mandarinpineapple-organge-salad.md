@@ -28,7 +28,7 @@ ingredients:
 
 ## Chef's Note
 
-This is a **Updated Classic** update to a classic family "Congealed Salad." The secret to the Kitchen Standard is **The Sour Cream Emulsion**: we whisk the sour cream into the hot Jello base until perfectly smooth. This transforms a translucent gelatin into a creamy, opaque mousse with a sophisticated "Bounce." We maintain **Textural Balance** by using crushed pineapple _with_ its rice-like particles, which provides a necessary Crunch to contrast the velvety base.
+This is an updated take on a classic family "congealed salad." The key is whisking the sour cream into the hot Jello base until perfectly smooth. This transforms a translucent gelatin into a creamy, opaque mousse. Using crushed pineapple with its rice-like particles provides texture to contrast the velvety base.
 
 ## Directions
 

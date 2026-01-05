@@ -30,7 +30,7 @@ ingredients:
 
 ## Chef's Note
 
-These are high-performance **Modularity** components for busy mornings. The secret to their incredible Texture is **Culinary Technique** through **The Quinoa-Egg Bind**. By using pre-cooked quinoa, we introduce a protein-rich moisture that prevents the oats from becoming dry and crumbly. We maintain **Textural Balance** by mashing the bananas into a smooth paste _before_ adding the eggs; this creates a stable emulsion that acts as a healthy "glue" for the strawberries. The raisins provide a necessary chewy "Snap."
+These are breakfast bars for busy mornings. The key to their texture is using pre-cooked quinoa, which introduces protein-rich moisture that prevents the oats from becoming dry and crumbly. By mashing the bananas into a smooth paste before adding the eggs, we create a stable mixture that acts as a healthy binder for the strawberries. The raisins provide a necessary chewy element.
 
 ## Directions
 

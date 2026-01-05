@@ -28,7 +28,7 @@ ingredients:
 
 ## Chef's Note
 
-The pound cake is the ultimate expression of **Updated Classic**. We have eliminated the legacy margarine entirely, using only **Unsalted Butter** to achieve the mandatory "Golden Crumb." The secret to the Kitchen Standard is **The Low-Heat Bake Method**: by baking at 275°F for a full 90 minutes, we ensure the cake rises evenly without a tough outer crust, resulting in a dense, velvety Texture that defines a true heritage pound cake. Room temperature eggs are mandatory for a perfect emulsion.
+The pound cake is a heritage recipe perfected over generations. We have eliminated the legacy margarine entirely, using only unsalted butter to achieve the golden crumb. The key is baking at 275°F for a full 90 minutes; this ensures the cake rises evenly without a tough outer crust, resulting in a dense, velvety texture that defines a true pound cake. Room temperature eggs are mandatory for a perfect emulsion.
 
 ## Directions
 

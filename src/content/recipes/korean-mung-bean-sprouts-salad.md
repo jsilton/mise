@@ -29,7 +29,7 @@ ingredients:
 
 ## Chef's Note
 
-This is a baseline **Modularity** component for Korean bowls. The secret to a crisp Crunch is **Culinary Technique** through **The Ice Shock Method**: you must blanch the sprouts for exactly 2 minutes and immediately plunge them into ice water. To avoid a watery dressing, we use **The Dry Squeeze**: gather the chilled sprouts and squeeze with your hands until **bone-dry**. This ensures the sesame-garlic emulsion binds directly to the sprouts, providing a nutty, savory Texture in every bite.
+This is a classic Korean side dish. The key to crisp sprouts is blanching them for exactly 2 minutes and immediately plunging them into ice water. To avoid a watery dressing, gather the chilled sprouts and squeeze with your hands until bone-dry. This ensures the sesame-garlic dressing binds directly to the sprouts, providing a nutty, savory flavor in every bite.
 
 ## Directions
 

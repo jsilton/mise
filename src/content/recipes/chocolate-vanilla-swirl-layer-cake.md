@@ -29,7 +29,7 @@ ingredients:
 
 ## Chef's Note
 
-This cake is a masterclass in **Updated Classic** visuals. The secret to the striking interior is the **Concentric Circle Method**: by alternating pours of white and chocolate batter directly into the center of the pan, we create a precise "Bulls-eye" that transforms into elegant swirls as it bakes. We use a mix of **Cake Flour** and All-Purpose to ensure **Textural Balance**—the crumb is tender enough for a layer cake but sturdy enough to support the weight of the rich dark chocolate ganache.
+This cake creates striking visual swirls. The key to the interior pattern is alternating pours of white and chocolate batter directly into the center of the pan, which creates a precise bulls-eye that transforms into elegant swirls as it bakes. We use a mix of cake flour and all-purpose flour—the crumb is tender enough for a layer cake but sturdy enough to support the weight of the rich dark chocolate ganache.
 
 ## Directions
 

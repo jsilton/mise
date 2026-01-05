@@ -33,7 +33,7 @@ ingredients:
 
 ## Chef's Note
 
-The secret to an elite chowder without heavy flour is **Culinary Technique** through **The Plantain Bind Method**. By grating an unripe green plantain directly into the stock, we introduce a natural starch that thickens the soup into a velvety Texture as it simmers. We maintain **Textural Balance** through **The 2-Minute Shrimp Standard**: we add the marinated shrimp at the very end and cook for exactly 2 minutes; this ensures they are crispy and succulent. The lime juice provides the mandatory **Acid Balance** to cut the creamy corn milk.
+The key to chowder without heavy flour is grating an unripe green plantain directly into the stock. This introduces a natural starch that thickens the soup into a velvety consistency as it simmers. We add the marinated shrimp at the very end and cook for exactly 2 minutes to ensure they stay tender and succulent. The lime juice cuts through the creamy corn.
 
 ## Directions
 

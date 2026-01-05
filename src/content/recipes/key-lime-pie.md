@@ -26,7 +26,7 @@ ingredients:
 
 ## Chef's Note
 
-This is the definitive Executive holiday dessert. The secret to its incredible Texture is **Culinary Technique** through **The Yolk Emulsion Method**: we whisk the egg yolks into the condensed milk _before_ adding the lime juice. The acid in the juice causes the proteins in the yolks to begin "cooking" instantly, resulting in a dense, velvety set that only requires 15 minutes in the oven. We maintain **Textural Balance** by using a high ratio of butter in the crust to create a shatteringly crisp Crunch that stands up to the creamy filling. Chilling for the full 8 hours is mandatory for the "High Note" acidity to mellow.
+This is classic Key lime pie for the holiday table. The key to its texture is whisking the egg yolks into the condensed milk before adding the lime juice. The acid in the juice causes the proteins in the yolks to begin "cooking" instantly, resulting in a dense, velvety set that only requires 15 minutes in the oven. Using a high ratio of butter in the crust creates a shatteringly crisp base that stands up to the creamy filling. Chilling for the full 8 hours is mandatory for the acidity to mellow.
 
 ## Directions
 

@@ -33,7 +33,7 @@ ingredients:
 
 ## Chef's Note
 
-These are high-speed nutritious cookies designed for long-term **Modularity**. The secret to their incredible Texture is **The Food Processor Method**: we process the Medjool dates directly with the melted butter to create a smooth, caramel-like paste that acts as the primary sweetener. We use **Buckwheat Flour** to provide a nutty, earthy depth that contrasts with the sweetness of the dates. These are explicitly designed to be kept in the freezer and eaten cold for a crispy energy boost.
+These are nutritious cookies designed for long-term freezer storage. The key to their texture is processing the Medjool dates directly with the melted butter in a food processor to create a smooth, caramel-like paste that acts as the primary sweetener. We use buckwheat flour to provide a nutty, earthy depth that contrasts with the sweetness of the dates. These are explicitly designed to be kept in the freezer and eaten cold for a crispy energy boost.
 
 ## Directions
 

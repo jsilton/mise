@@ -26,7 +26,7 @@ ingredients:
 
 ## Chef's Note
 
-This is the baseline for high-speed **Modularity**. The secret to a Rice Krispie treat that isn't a rock-hard brick is **Culinary Technique** through **The Low-Heat Emulsion Method**. You must melt the butter and marshmallows on the **lowest possible heat**; high heat denatures the sugar and leads to a brittle "Snap." We use **Sea Salt and Vanilla** as the mandatory high notes to balance the corn-syrup sweetness, providing a sophisticated Texture that commercial versions lack.
+The key to Rice Krispie treats that aren't rock-hard is melting the butter and marshmallows on the lowest possible heat. High heat denatures the sugar and leads to brittle treats. We add sea salt and vanilla extract to balance the corn-syrup sweetness, providing a more sophisticated flavor than commercial versions.
 
 ## Directions
 

@@ -26,7 +26,7 @@ ingredients:
 
 ## Chef's Note
 
-The secret to restaurant-quality spareribs is **Culinary Technique** through **The Foil Packet Braise**. We bake the ribs tightly sealed in heavy-duty foil; this allows the meat to "dry-steam" in the **Gochujang Emulsion**, breaking down the tough connective tissue into a succulent Texture without losing any flavor to a pot of water. We finish with **The High-Heat Char Method**: grilling the sections at high heat for the final 4 minutes ensures the sugar-rich sauce sets into a sticky, mahogany "Snap."
+The key to restaurant-quality spareribs is baking the ribs tightly sealed in heavy-duty foil. This allows the meat to steam in the gochujang marinade, breaking down the tough connective tissue into succulent meat without losing any flavor to a pot of water. We finish by grilling the sections at high heat for the final 4 minutes to ensure the sugar-rich sauce sets into a sticky, mahogany glaze.
 
 ## Directions
 

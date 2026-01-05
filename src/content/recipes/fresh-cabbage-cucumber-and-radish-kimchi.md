@@ -34,7 +34,7 @@ ingredients:
 
 ## Chef's Note
 
-This is a baseline **Updated Classic** recipe for the Executive pantry. The secret to a crisp, non-watery kimchi is **Culinary Technique** through **The Osmotic Cure Method**. By salting the vegetables heavily for an hour, we draw out the excess moisture that would otherwise dilute the spice paste. We use a **Triple Veg Method** (Cabbage, Cucumber, Daikon) to ensure a complex array of "Snaps" and "Bounces" in every serving. Always use **Gochugaru**—the specific smoky heat is the mandatory high note.
+This is fresh kimchi ready to eat immediately. The key to crisp, non-watery kimchi is salting the vegetables heavily for an hour to draw out excess moisture that would otherwise dilute the spice paste. Using three vegetables—cabbage, cucumber, and daikon—ensures a complex texture in every bite. Always use gochugaru; the specific smoky heat is essential to authentic kimchi.
 
 ## Directions
 
