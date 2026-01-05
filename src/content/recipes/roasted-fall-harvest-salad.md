@@ -32,7 +32,7 @@ ingredients:
 
 ## Chef's Note
 
-This is a high-performance nutritious salad that relies on **Culinary Technique**. The secret to Success is **The Massage Method**: you must massage the kale with olive oil and salt for 2 minutes; this breaks down the cellulose for a tender "Bounce." We maintain **Textural Balance** through **The Crispy Chickpea Method**: by roasting the bone-dry chickpeas and squash at 450°F, we create a crunchy Crunch that contrasts the fluffy quinoa. The apple cider in the dressing provides the mandatory **Acid Balance**.
+Massaging kale with olive oil and salt for 2 minutes breaks down tough cellulose fibers, transforming raw leaves from bitter and chewy to tender and sweet. Roasting bone-dry chickpeas and squash at 450°F creates shatteringly crisp chickpeas that contrast fluffy quinoa and soft roasted squash. Apple cider in the tahini dressing adds tangy brightness that balances the earthy quinoa and sweet squash.
 
 ## Directions
 

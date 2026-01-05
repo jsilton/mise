@@ -27,7 +27,7 @@ ingredients:
 
 ## Chef's Note
 
-This is the "Kitchen Standard" for technical comfort food. The secret to its Success is **The Maillard Roast Method**: we roast fresh tomatoes and whole garlic cloves until charred and soft _before_ pureeing. This concentrates the natural sugars and provides a smoky depth that canned tomatoes lack. We use **The Basil Emulsion**: by blending the fresh basil directly into the hot soup, we achieve a vibrant green "High Note" that pierces through the rich cream.
+Roasting fresh tomatoes and whole garlic cloves at 400°F until charred and soft before pureeing concentrates their natural sugars and develops smoky depth that canned tomatoes lack. Blending fresh basil directly into the hot soup creates a vibrant green color and bright herbal flavor that cuts through the rich cream and sweet tomatoes.
 
 ## Directions
 

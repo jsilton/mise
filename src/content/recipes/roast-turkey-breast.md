@@ -23,7 +23,7 @@ ingredients:
 
 ## Chef's Note
 
-The secret to a holiday turkey breast that isn't dry is **Culinary Technique** through **The 155°F Carry-Over Method**. Most recipes bake until the bird reaches 165°F, which results in sawdust-dry meat. We pull the turkey at exactly 155°F; the residual energy will carry it to a safe 165°F during the mandatory **20-minute rest**, preserving the Texture and moisture of the protein. We maintain **Textural Balance** by using a rack to ensure the skin develops a uniform, golden Crunch all the way around.
+Most recipes overcook turkey to 165°F, producing dry meat. Pulling the turkey at 155°F allows residual heat during the 20-minute rest to bring it to a safe 165°F, preserving moisture and tender texture. Roasting on a rack ensures air circulation around the bird, allowing the skin to develop a uniform, golden crisp all the way around instead of steaming on the bottom.
 
 ## Directions
 

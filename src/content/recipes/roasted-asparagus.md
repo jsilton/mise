@@ -28,7 +28,7 @@ ingredients:
 
 ## Chef's Note
 
-Asparagus is 90% water. If you steam it or cook it at low heat, it turns gray and mushy. The secret to restaurant-quality asparagus is **High-Heat Roasting**: by using 425°F+, we evaporate the surface moisture instantly, resulting in bright green stalks with crispy, charred tips. Always finish with a squeeze of fresh lemon to provide the **Acid Balance**.
+Asparagus is 90% water. Steaming it or cooking at low heat turns it gray and mushy. Roasting at 425°F or higher evaporates surface moisture instantly, preserving bright green color and creating crispy, charred tips. A squeeze of fresh lemon at the end adds brightness that cuts through the roasted richness.
 
 ## Directions
 

@@ -25,7 +25,7 @@ ingredients:
 
 ## Chef's Note
 
-This is a **Updated Classic** update to a family favorite. The secret to the Kitchen Standard is **The Surface Press Method**: we fold only 3/4 of the M&M's into the dough, then press the remaining candies into the tops of the dough balls _after_ scooping. This ensures a professional visual "High Note" where the colors stay vibrant and don't bleed into the batter. We use a high ratio of brown sugar to ensure a chewy Texture that contrasts the Crunch of the candy shell.
+Folding only 3/4 of the M&M's into the dough, then pressing the remaining candies into the tops of the dough balls after scooping ensures vibrant colors stay visible on the finished cookies instead of bleeding into the batter during baking. Using a high ratio of brown sugar to white sugar creates chewy cookies that contrast the crisp candy shell.
 
 ## Directions
 

@@ -36,7 +36,7 @@ ingredients:
 
 ## Chef's Note
 
-Red velvet is a study in **Culinary Technique**. The secret to its signature Texture is **The Triple-Acid Method**: we use buttermilk, vinegar, and natural cocoa powder to react with the baking soda, creating a tall, airy crumb. To ensure **Textural Balance**, we use the **Egg White Fold**: whipping the whites separately and folding them in at the end provides a cloud-like lightness. We use the **Cornstarch Hack** to mimic professional cake flour, ensuring the final cupcake is delicate rather than bready.
+Red velvet originated in the South during the Victorian era when "velvet cakes" described fine-crumbed, tender cakes made with buttermilk. Buttermilk, vinegar, and natural cocoa powder react with baking soda to create a tall, airy crumb. Whipping egg whites separately and folding them in at the end provides cloud-like lightness, while adding cornstarch mimics cake flour for a delicate texture rather than a dense, bready one.
 
 ## Directions
 

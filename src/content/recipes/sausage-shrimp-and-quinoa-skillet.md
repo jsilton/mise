@@ -28,7 +28,7 @@ ingredients:
 
 ## Chef's Note
 
-This is the ultimate 20-minute nutritious hero. The secret to quinoa that has a professional Crunch is **The Sizzle Method**: we fry the pre-cooked grains in the rendered sausage fat for 2 minutes _before_ adding the shrimp. This toasts the exterior of the quinoa, providing a nutty "Bounce." We maintain **Textural Balance** through **The 3-Minute Shrimp Standard**: we add the shrimp at the very end and cook only until they turn pink—this ensures they stay crispy rather than rubbery.
+This 20-minute skillet uses pre-cooked quinoa (frozen or leftover) to speed up dinner. Frying the quinoa in rendered sausage fat for 2 minutes before adding shrimp toasts the grains and adds nutty flavor. Adding shrimp at the very end and cooking only until pink (about 3 minutes) keeps them tender and sweet rather than rubbery. The "holy trinity" of onion, pepper, and celery adds Cajun-Creole flavor to the dish.
 
 ## Directions
 

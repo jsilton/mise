@@ -28,7 +28,7 @@ ingredients:
 
 ## Chef's Note
 
-This is the "Kitchen Standard" for technical comfort food. The secret to its Success is **Textural Balance** through **The Staged Roast Method**: we roast the butternut squash at high heat (400°F) until tender and charred _before_ folding it into the cheese sauce. This prevents the squash from dissolving into a mushy puree. We use **The Mornay Emulsion**: whisking Dijon and nutmeg into the roux creates a sophisticated Texture that balances the heavy cheddar. The Panko topping provides the mandatory **Textural Snap**.
+Roasting butternut squash at 400°F until tender and charred before folding it into cheese sauce keeps the cubes intact rather than dissolving into mush during baking. Whisking Dijon and nutmeg into the roux creates a sophisticated mornay sauce that balances the sharp cheddar and adds complexity. Panko breadcrumbs tossed with butter and Parmesan provide essential crunch against the creamy pasta.
 
 ## Directions
 

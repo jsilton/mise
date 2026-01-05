@@ -22,7 +22,7 @@ ingredients:
 
 ## Chef's Note
 
-The secret to green beans that kids will eat is **High Heat**. By roasting at 425°F, we evaporate the moisture and caramelize the tips, resulting in a texture that mimics a french fry rather than a soggy boiled veggie. This is the **Textural Balance** pattern in action.
+Roasting green beans at 425°F evaporates their moisture and caramelizes the tips, creating a crispy texture that mimics french fries rather than the soggy texture of boiled or steamed beans. This makes them far more appealing to kids who might otherwise refuse vegetables.
 
 ## Directions
 

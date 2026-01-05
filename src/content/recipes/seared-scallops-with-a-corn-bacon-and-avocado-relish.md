@@ -30,7 +30,7 @@ ingredients:
 
 ## Chef's Note
 
-The secret to restaurant-quality scallops is **Textural Balance** through **The Dry Sear Method**. You must use "Dry" scallops (no chemical additives) and pat them with paper towels until they are **bone-dry** before they hit the pan. This ensures an immediate, mahogany Crunch on the surface while the center remains a sweet, buttery "Bounce." We use **The Bacon-Corn Bind**: sautéing the corn in the rendered bacon fat bridges the gap between the smoky pork and the delicate seafood. The lemon provides the mandatory **Acid Balance**.
+"Dry" scallops (without chemical additives like sodium tripolyphosphate) sear better than "wet" scallops. Patting them completely dry with paper towels before searing ensures an immediate, mahogany crust while the center stays sweet and buttery. Sautéing fresh corn in rendered bacon fat bridges the smoky pork and delicate seafood, while lemon juice adds brightness that cuts through the rich bacon and avocado.
 
 ## Directions
 

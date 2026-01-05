@@ -27,7 +27,7 @@ ingredients:
 
 ## Chef's Note
 
-This is the definitive Executive "Crowd-Pleaser" and a masterclass in **Textural Balance**. The secret to its success is **The Triple-Marbled Method**: we fold chunks of three different chocolates into the batter, then drizzle melted versions over the top before swirling. This ensures a complex array of "Snaps" and "Bounces" in every square. By using a full pound of unsweetened chocolate as the base, we provide a deep, bitter anchor that balances the massive amount of sugar and eggs.
+Folding chunks of bittersweet, white, and milk chocolate into unsweetened chocolate batter, then drizzling melted versions on top before swirling creates varying textures in every square—some pockets stay fudgy, others develop crisp edges. A full pound of unsweetened chocolate as the base provides bitter depth that balances the sugar and eggs, preventing these dense, rich brownies from tasting overly sweet.
 
 ## Directions
 

@@ -24,7 +24,7 @@ ingredients:
 
 ## Chef's Note
 
-The secret to a "Kitchen Standard" royal icing is **Culinary Technique** through **The Low-Speed Aeration Method**. You must beat the egg whites on low speed until frothy _before_ adding the sugar; this breaks down the protein chains without introducing large air bubbles, resulting in a glass-smooth Crunch finish that doesn't crack. We maintain **Textural Balance** through **The Flood & Outline Method**: use the icing thick for borders and add a drop of water for a "15-second consistency" to flood the centers for a mirror-glossy look.
+Royal icing is the traditional coating for decorated sugar cookies, gingerbread houses, and wedding cakes because it dries to a hard, glossy finish. Beating egg whites on low speed until frothy before adding sugar breaks down protein chains without creating large air bubbles, producing smooth icing that doesn't crack. Use thick icing for borders; thin it with water to "15-second consistency" (where a ribbon of icing disappears back into the bowl in 15 seconds) for flooding centers.
 
 ## Directions
 

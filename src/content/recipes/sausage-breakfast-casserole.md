@@ -27,7 +27,7 @@ ingredients:
 
 ## Chef's Note
 
-This is the definitive Executive nutritious for holiday mornings. The secret to its Success is **The Double-Bake Method**: we bake the casserole covered to set the internal custard, then uncover and increase the heat to 400°F for the final 15 minutes. This ensures a moist Texture in the center with a shatteringly crisp Crunch on the hash brown crust. We use **The Mustard Pulse**: whisking Dijon into the cream cuts through the heavy sausage fat, providing a mandatory **Acid Balance** that keeps the dish light.
+This breakfast casserole is ideal for holiday mornings because it feeds a crowd and can be assembled the night before. Baking covered first sets the egg custard without drying it out, then uncovering and increasing heat to 400°F for the final 15 minutes crisps the hash brown crust on top. Whisking Dijon mustard into the cream cuts through the heavy sausage fat, adding tangy brightness that prevents the dish from feeling overly rich.
 
 ## Directions
 

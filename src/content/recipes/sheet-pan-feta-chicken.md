@@ -27,7 +27,7 @@ ingredients:
 
 ## Chef's Note
 
-This is a masterclass in **Textural Balance** through **The Burst-Tomato Method**. The secret to Success is adding the tomatoes in two stages: we roast the first batch until they burst and emulsify with the balsamic vinegar to create a sauce, then add the second batch for the final 10 minutes. This ensures you have both a rich Texture sauce and whole, crispy tomatoes in every bite. We use **Slabs of Feta** instead of crumbles; the roasted cheese develops a brown, caramelized skin that provides a savory Crunch against the sweet honey-balsamic glaze.
+Adding cherry tomatoes in two stages ensures both a rich sauce and whole, crispy tomatoes in every bite. The first batch roasts until burst and emulsifies with balsamic vinegar to create a pan sauce, while the second batch added for the final 10 minutes stays intact and slightly charred. Using block feta (in brine) instead of crumbles creates slabs that develop a brown, caramelized crust against the sweet honey-balsamic glaze.
 
 ## Directions
 

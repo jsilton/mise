@@ -31,7 +31,7 @@ ingredients:
 
 ## Chef's Note
 
-This is the "Kitchen Standard" for technical pork roasting. The secret to Success is **Culinary Technique** through **The Bacon Anchor Method**: we wrap the tenderloins in maple bacon and secure them with twine. The bacon fat renders into the lean pork, providing a self-basting "Bounce." We maintain **Textural Balance** through **The 1-Hour Marinate**: the mustard acts as an enzyme tenderizer while the rosemary-garlic glue provides a savory Crunch to the crust. Always pull at 145°F for a perfect blush-pink center.
+Wrapping lean pork tenderloins in maple bacon prevents them from drying out—the bacon fat renders and bastes the meat as it roasts. Marinating in Dijon mustard, garlic, and rosemary for an hour before cooking tenderizes the meat while creating a flavorful crust. Pulling the pork at 145°F ensures a blush-pink center; the 10-minute rest allows juices to redistribute without overcooking.
 
 ## Directions
 

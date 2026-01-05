@@ -30,7 +30,7 @@ ingredients:
 
 ## Chef's Note
 
-This salad is a study in **Modularity** and flavor layering. The secret to its Success is **The Sesame Emulsion Method**: we whisk toasted sesame oil into a traditional vinaigrette base to introduce a nutty, roasted depth that contrasts the sweet, watery tomatoes. We maintain **Textural Balance** by using a mix of heirloom varieties—the varying firmness of each tomato provides a spectrum of "Snaps" and "Bounces." The soy sauce acts as the primary salt source, introducing an umami backbone that defines the dish.
+Whisking toasted sesame oil into a traditional vinaigrette introduces nutty, roasted depth that contrasts sweet, watery summer tomatoes. Using a mix of heirloom varieties provides varying textures—some firm and snappy, others soft and juicy. Soy sauce acts as the primary salt source, adding umami backbone that bridges Asian and Mediterranean flavors in this fusion salad.
 
 ## Directions
 

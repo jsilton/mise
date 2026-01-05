@@ -27,7 +27,7 @@ ingredients:
 
 ## Chef's Note
 
-This is a baseline **Modularity** component for all Korean nutritious meals. The secret to its Success is **The Steam-Lock Method**: we cook the sprouts in a very small amount of water with the lid tightly closed; this ensures the sprouts maintain their resilient Crunch and nutty aroma rather than turning soggy. We use **Toasted Sesame Oil** as the mandatory savory **High Note**—tossing the sprouts while warm ensures the oil emulsifies with the residual moisture for a perfect glossy finish.
+Kongnamul namul (seasoned soybean sprouts) is a staple banchan (side dish) in Korean cuisine, often served with bibimbap or alongside grilled meats. Cooking sprouts in a small amount of water with the lid tightly closed steams them while preserving their crisp texture and nutty aroma. Tossing the warm sprouts with toasted sesame oil allows the oil to emulsify with residual moisture for a glossy, savory finish.
 
 ## Directions
 

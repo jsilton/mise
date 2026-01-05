@@ -23,7 +23,7 @@ ingredients:
 
 ## Chef's Note
 
-The drop biscuit is the ultimate test of **Culinary Technique** in speed-baking. The secret to a tall, flaky Texture is **The Cold Fat Method**: the butter must be refrigerator-cold and cubed into pea-sized pieces. When these cold fat pockets hit the 400°F oven, they steam instantly, creating layers within the crumb. We use **The Shaggy Dough Method**: you must stir the milk until the dough **just comes together**; over-mixing will destroy the air pockets and turn your biscuits into leaden pucks.
+Drop biscuits are a Southern staple for quick weeknight meals—they skip the rolling and cutting of traditional biscuits. Cold butter cubed into pea-sized pieces steams instantly when it hits a 400°F oven, creating flaky layers within the crumb. Stirring the milk just until the dough comes together prevents gluten development; over-mixing destroys the air pockets and produces dense, leaden biscuits instead of light, tender ones.
 
 ## Directions
 

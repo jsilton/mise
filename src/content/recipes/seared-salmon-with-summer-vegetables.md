@@ -30,7 +30,7 @@ ingredients:
 
 ## Chef's Note
 
-This is a 40-minute technical dish meal disguised as a quick dinner. The secret to its Success is **The Mounting Method (Beurre Rouge)**: we reduce balsamic vinegar and tomatoes into a syrupy base, then whisk in **cold butter** one cube at a time. This creates a thick, mirror-glossy emulsion with a velvet Texture that standard sauces lack. We maintain **Textural Balance** by searing the salmon strips on high heat for exactly 3 minutes per side to develop a Crunch crust while keeping the center medium-rare.
+Reducing balsamic vinegar and tomatoes into a syrup, then mounting with cold butter cubes whisked in one at a time creates a thick, glossy emulsion—a technique borrowed from French beurre blanc and beurre rouge. The butter must be cold so it emulsifies rather than separating. Searing salmon strips over high heat for 3 minutes per side develops a crisp crust while keeping the center medium-rare and tender.
 
 ## Directions
 
