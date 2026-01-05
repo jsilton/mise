@@ -28,7 +28,7 @@ ingredients:
 
 ## Chef's Note
 
-Store-bought wrappers are excellent for survival, but homemade wrappers offer a delicate, silky mouthfeel that is impossible to replicate. The secret is using **Cornstarch** for dusting between sheets—flour will absorb into the dough and make it gummy, while cornstarch keeps them separate and provides a velvety finish when boiled.
+Homemade wonton wrappers have a delicate, silky texture that's hard to match with store-bought. The dough should be quite firm after kneading, then rested for 30-60 minutes to relax the gluten so you can roll it paper-thin. The key: use cornstarch for dusting between sheets, never flour. Flour will absorb into the dough and make it gummy, while cornstarch keeps them separate and provides a smooth finish when boiled.
 
 ## Directions
 

@@ -33,7 +33,7 @@ ingredients:
 
 ## Chef's Note
 
-This is a 15-minute quick masterclass. The secret to the Kitchen Standard is **Textural Balance** through the **Golden-Side Method**: stir-fry the eggplant alone until the white flesh turns a deep golden brown and the skin is purple-gold—this creates a smoky sweetness that boiling or steaming misses. The mandatory **Acid Balance** comes from **Chinkiang Vinegar**; its deep, malty acidity provides the "High Note" that balances the richness of the peanut oil and the savory garlic.
+Chinese eggplant with garlic sauce is a Sichuan/Hunan classic that's incredibly fast. Stir-fry the eggplant sticks alone over medium-high heat until the flesh turns deep golden and the skin is purple-gold—this develops smoky sweetness that boiling or steaming can't achieve. Chinkiang black vinegar adds the signature malty, complex acidity that balances the rich peanut oil and savory garlic. Chinese eggplants (long, thin ones) work best.
 
 ## Directions
 

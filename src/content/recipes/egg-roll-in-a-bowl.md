@@ -31,7 +31,7 @@ ingredients:
 
 ## Chef's Note
 
-This is the ultimate low-carb "Survival" meal. The secret to **Textural Balance** is the cabbage: you must stir-fry the pork first until crispy, and only add the cabbage at the very end. You want the cabbage to be "wilted-crisp"—it should soften slightly but still have a satisfying snap. If you overcook it, the dish turns into a mushy stir-fry.
+Egg roll in a bowl is a deconstructed version of the classic takeout item—all the filling without the wrapper, making it low-carb and quick. The key is cooking the pork first until crispy, then adding the cabbage at the very end. You want it just wilted but still slightly crisp—overcooking turns it mushy. Chili crisp and sesame seeds add finishing flavor and texture.
 
 ## Directions
 

@@ -40,7 +40,7 @@ ingredients:
 
 ## Chef's Note
 
-This is the plant-based answer to the takeout classic. The secret to its restaurant-quality texture is **Culinary Technique** through **The Cornstarch Guard Method**. By using a high ratio of cornstarch and baking powder in the batter, we create a light, porous Crunch that remains crispy even after being tossed in the sticky glaze. The **Rice Vinegar** in the batter provides an immediate **Acid Balance** from within, ensuring the cauliflower stays bright and flavorful.
+General Tso's chicken was invented in the 1970s by Taiwanese chef Peng Chang-kuei and became a Chinese-American takeout staple. This vegetarian version uses cauliflower with a high ratio of cornstarch and baking powder in the batter, creating a light, crispy coating that stays crunchy even after being tossed in the sticky-sweet glaze. Rice vinegar in both the batter and sauce keeps the flavors balanced and bright.
 
 ## Directions
 

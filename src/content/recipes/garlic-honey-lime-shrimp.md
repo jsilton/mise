@@ -31,7 +31,7 @@ ingredients:
 
 ## Chef's Note
 
-This dish is about the **"Shrimp Snap"**. By giving the shrimp a quick 5-minute alkaline rinse (baking soda) and then rinsing it off, you change the pH of the surface, resulting in a bounce and crunch that rivals the best seafood restaurants. The sauce is a classic emulsified glaze—make sure to add the lime at the end to keep the flavor bright.
+This quick shrimp dish uses a Chinese restaurant technique: toss shrimp with baking soda for 5 minutes to change the surface pH, then rinse thoroughly. This creates a bouncy, crunchy texture that rivals high-end seafood restaurants. The honey-lime glaze should be added at the very end and cooked just until it bubbles and thickens into a sticky coating. Add the lime juice last to keep the flavor bright.
 
 ## Directions
 

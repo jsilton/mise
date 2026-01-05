@@ -39,7 +39,7 @@ ingredients:
 
 ## Chef's Note
 
-This is a 35-minute quick hero. The secret to tofu that isn't soggy is **Textural Balance** through **The Honey-Heat Bind Method**. We toss the tofu in honey and hot sauce _before_ the cornstarch; this creates a sticky surface that the starch and sesame seeds can fuse to, creating a shatteringly crisp Crunch that lasts even after being glazed. The **Dark Soy Sauce** is essential for the mandatory deep amber color of a "Kitchen Standard" General Tso.
+General Tso's tofu brings the classic Chinese-American sauce to plant-based protein. The trick to crispy tofu that isn't soggy: toss the pressed tofu cubes in honey and hot sauce before coating with cornstarch and sesame seeds. This creates a sticky surface that the starch can fuse to, resulting in maximum crispiness even after glazing. Dark soy sauce gives the signature deep amber color. Serve immediately for best texture.
 
 ## Directions
 
