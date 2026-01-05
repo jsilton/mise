@@ -30,7 +30,7 @@ ingredients:
 
 ## Chef's Note
 
-Pad Thai is a masterclass in the **Acid-Salt-Sweet balance**. The secret to "Kitchen Standard" noodles is **The Cold Soak Method**: you must soak the rice noodles in room-temperature water for 40 minutes rather than boiling them. This ensures they maintain a resilient Texture and absorb the **Tamarind Emulsion** without becoming mushy. The tamarind provides the mandatory **Acid Balance** that defines the dish. Always add the bean sprouts at the very end to ensure a fresh, watery Crunch that contrasts the chewy noodles.
+In the 1930s, Thai Prime Minister Plaek Phibunsongkhram launched a cultural campaign to create a unified national identity, which included promoting a 'national dish.' Pad Thai was born from this movement - a street food that used local ingredients and represented Thai cuisine to the world. The name literally means 'Thai-style stir-fried noodles,' and by the 1960s it had become Thailand's most recognizable dish internationally, despite being less than a century old. Real tamarind paste (sold in blocks, not concentrate) gives it the distinctive tangy-funky flavor that separates authentic Pad Thai from overly-sweet takeout versions.
 
 ## Directions
 

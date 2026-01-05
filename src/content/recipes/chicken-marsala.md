@@ -40,7 +40,7 @@ vibe: comfort
 
 ## Chef's Note
 
-This is the definitive version of a restaurant classic. The depth of flavor comes from three critical layers: rendering the fat from the **prosciutto**, browning the mushrooms until they are meaty and concentrated, and using **Dry Marsala** instead of the overly-sweet variety found in grocery stores. We finish the dish by "mounting" cold butter off the heat, which creates a glossy, thick emulsion that clings to the chicken rather than a greasy puddle.
+Despite its Italian name and Sicilian wine, Chicken Marsala is purely Italian-American, created in New York trattorias during the post-WWII boom when returning soldiers craved the flavors they'd encountered abroad. It became a staple of red-sauce joints in the 1950s-70s, alongside Chicken Parmigiana and Veal Piccata, representing that distinctly Italian-American approach of taking European ingredients and pairing them with abundant American chicken. A quality dry Marsala (look for 'Superiore' or 'Vergine' on the label) transforms this from a weeknight dinner into something restaurant-worthy.
 
 ## Directions
 

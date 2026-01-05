@@ -30,7 +30,7 @@ ingredients:
 
 ## Chef's Note
 
-The secret to a "Kitchen Standard" home pizza is **Culinary Technique** through **The Thermal Stone Method**. You must preheat your oven (and pizza stone) to its maximum temperature (500°F+) for at least 30 minutes. This creates an immediate Crunch on the bottom crust while the whole-milk mozzarella develops a blistered "Bounce." We maintain **Textural Balance** by adding the spinach only during the final 2 minutes of baking to prevent it from turning into a wet clump. The pineapple provides the mandatory **Acid Balance** to cut through the salty pepperoni.
+Pizza as we know it originated in Naples in the late 18th century as street food for the working class, but it didn't become an American phenomenon until Italian immigrants opened pizzerias in New York and New Haven in the early 1900s. What Americans call 'pizza' would be unrecognizable to Neapolitans - we top it with everything from pineapple to BBQ chicken, making it distinctly our own. The secret to crispy homemade pizza is preheating your pizza stone for a full 30 minutes at maximum temperature - this mimics the intense heat of commercial pizza ovens.
 
 ## Directions
 

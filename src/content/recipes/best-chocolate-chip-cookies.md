@@ -33,7 +33,7 @@ ingredients:
 
 ## Chef's Note
 
-To transform these from "Home" to "Restaurant Quality," we apply two science-backed steps: **Browning the Butter** and **The 24-Hour Rest**. Browning the butter provides a nutty, toffee-like depth, while resting the dough in the fridge allows the enzymes to break down starches into sugars, resulting in a more complex flavor and a superior, chewy texture.
+The chocolate chip cookie was invented by accident in 1938 when Ruth Wakefield, owner of the Toll House Inn in Massachusetts, ran out of baker's chocolate and chopped up a Nestlé chocolate bar instead, expecting it to melt into the dough. It didn't, and the chocolate chip cookie was born - becoming America's most beloved cookie. Nestlé bought the rights to her recipe and printed it on their chocolate chip bags, spreading it across the country. Browning the butter adds a nutty, toffee-like depth that elevates these from good to exceptional.
 
 ## Directions
 

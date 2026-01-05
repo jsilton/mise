@@ -46,4 +46,4 @@ The official cocktail of New Orleans, the Sazerac dates back to the 1830s and is
 
 ## Chef's Note
 
-The Sazerac is all about technique and quality ingredients. The absinthe rinse provides a crucial aromatic element without overwhelming the drink. Peychaud's bitters are essential - they give the Sazerac its distinctive flavor and pink hue. While Cognac was the original spirit, rye became the standard during the phylloxera epidemic. Serve neat (no ice) to appreciate the full complexity as it slowly warms.
+The Sazerac is one of America's oldest cocktails, created in New Orleans in the 1830s, and it's been the city's official cocktail since 2008. Originally made with Cognac, it switched to rye whiskey when the phylloxera epidemic devastated French vineyards in the 1870s. The drink is named after the Sazerac Coffee House where it was popularized, which itself was named after a brand of Cognac. The absinthe rinse is essential - it provides an aromatic backdrop without overwhelming the whiskey and bitters.

@@ -31,7 +31,7 @@ ingredients:
 
 ## Chef's Note
 
-Bibimbap is not a single recipe; it is an assembly of masterpieces. By preparing each component individually, you ensure that every bite has a distinct personality. The "Magic Moment" happens when you break the sunny-side-up yolk and stir everything together with the Gochujang sauce—the yolk and oil emulsify into a rich, spicy cream that coats the rice.
+Bibimbap has roots in Korean royal court cuisine but became a peasant dish in the Joseon Dynasty, when farmers would mix leftover vegetables and rice in a bowl. The name means 'mixed rice,' and it reflects the Korean philosophy of balance - multiple flavors and textures coming together in harmony. In Jeonju, the dish is so revered there's an annual Bibimbap Festival. The magic moment is when you break the runny egg yolk and stir everything together, creating a creamy sauce that coats the rice.
 
 ## Directions
 

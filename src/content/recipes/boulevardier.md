@@ -42,4 +42,4 @@ Created in 1920s Paris by American expat Erskine Gwynne, the Boulevardier is ess
 
 ## Chef's Note
 
-The Boulevardier is a more robust, complex alternative to the Negroni, with whiskey providing depth and warmth that complements Campari's bitter notes. Use a good bourbon (like Buffalo Trace or Four Roses) or rye for more spice. The equal-parts ratio can be adjusted to taste - some prefer more whiskey (2:1:1) for a less bitter drink. This cocktail is excellent before dinner as an aperitif.
+Created in 1920s Paris by American expat Erskine Gwynne, editor of a magazine called 'The Boulevardier,' this cocktail embodies the era of Americans living the high life in post-WWI Paris. It's essentially a whiskey Negroni, swapping gin for bourbon or rye, and was popular at Harry's New York Bar, the legendary watering hole of Hemingway and F. Scott Fitzgerald. The equal-parts ratio (1:1:1) is traditional, but many prefer more whiskey (1.5 or 2 oz) for a less bitter, more spirit-forward drink.

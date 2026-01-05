@@ -45,4 +45,4 @@ The Old Fashioned is arguably the original cocktail, dating back to the early 18
 
 ## Chef's Note
 
-The Old Fashioned has been bastardized over the years with muddled fruit and excessive sweetness. Keep it classic: just whiskey, sugar, bitters, and citrus oils. Use a large ice cube to minimize dilution. Bourbon provides a sweeter, rounder drink while rye gives more spice and complexity. Never muddle the orange peel - you want the oils, not the bitter pith.
+The Old Fashioned dates to the 1880s, when bartenders started getting fancy with cocktails, adding fruit and elaborate garnishes. Patrons who wanted their drinks made the 'old fashioned way' - just whiskey, sugar, water, and bitters - gave the drink its name. It represents the original cocktail formula before mixology got complicated, and experienced a massive revival in the 21st century craft cocktail movement. Use a large single ice cube instead of small cubes to minimize dilution while keeping the drink properly chilled.

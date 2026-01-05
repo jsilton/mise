@@ -46,4 +46,4 @@ The Whiskey Sour is a classic American cocktail from the 1860s that perfectly ba
 
 ## Chef's Note
 
-The egg white is traditional and creates the signature silky texture and foam cap - it's tasteless and perfectly safe when shaken properly. Always use fresh lemon juice, never bottled. Adjust the sweetness to taste: start with 1/2 oz simple syrup and add more if needed. Bourbon gives a rounder, sweeter drink while rye adds spice and complexity. For a New York Sour, float 1/2 oz red wine on top.
+The Whiskey Sour appeared in the 1860s during the golden age of American bartending, documented in Jerry Thomas's 1862 'Bartender's Guide.' Sours (spirit + citrus + sweetener) were created to make whiskey more palatable and to prevent scurvy on long sea voyages. The egg white addition came later and transforms it from a simple sour into something elegant with a silky texture and beautiful foam cap. The egg white is traditional, safe when shaken properly, and worth including for the luxurious mouthfeel it creates.

@@ -43,4 +43,4 @@ A sophisticated spirit-forward cocktail that beautifully balances the peaty smok
 
 ## Chef's Note
 
-This is a bold, complex cocktail that showcases the unique character of peated Scotch. The Laird's apple brandy provides a fruity backbone that tames the smoke, while Bénédictine adds honeyed herbal complexity. Peychaud's bitters contribute a subtle anise note that ties everything together. Best enjoyed slowly to appreciate the evolving flavors as the ice melts slightly.
+Shruff's End comes from the modern craft cocktail movement, representing the bold, spirit-forward style popularized by bars like Death & Co in New York. The name likely references Shruff House from the Harry Potter series, fitting for a drink that combines magic-like alchemy. It's part of a wave of cocktails that pair smoky Islay Scotch with American spirits, creating something uniquely contemporary. The Laphroaig's medicinal peat smoke is tamed by the apple sweetness of Laird's brandy, while Bénédictine adds honeyed herbal notes that bridge the two.

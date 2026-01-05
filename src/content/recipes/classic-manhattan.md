@@ -43,4 +43,4 @@ The Manhattan, created in the 1870s, is one of the most iconic American cocktail
 
 ## Chef's Note
 
-For the best Manhattan, use quality ingredients - a good rye whiskey (like Rittenhouse or Sazerac Rye) and fresh sweet vermouth (Carpano Antica Formula is excellent). The key is proper stirring: enough to chill and dilute, but not so much that it becomes watery. A 2:1 ratio is classic, but adjust to taste. For a Perfect Manhattan, use equal parts sweet and dry vermouth.
+The Manhattan was created in the 1870s and is one of the oldest American cocktails, born during the golden age of pre-Prohibition bartending. Legend claims it was invented at the Manhattan Club in New York for a party hosted by Winston Churchill's mother, though this story is likely apocryphal. What's certain is that it became the template for countless whiskey cocktails. The 2:1 ratio of whiskey to vermouth is classic, but you can adjust to taste - some prefer a drier 3:1 Manhattan.

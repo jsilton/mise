@@ -27,7 +27,7 @@ ingredients:
 
 ## Chef's Note
 
-This is **Updated Classic** in a roasting pan. While the old-school method involves just boiling meat in juice, we prioritize **Flavor Layering**. The secret is the **High-Heat Finish**: after the meat is tender, we boil the vegetables and sauce separately to reduce the tomato juice into a thick, umami-rich glaze. We use parchment under the foil to prevent the acid in the tomato juice from reacting with the aluminum—a critical safety and flavor pattern.
+Brisket is the soul of Jewish-American holiday cooking, the centerpiece of Rosh Hashanah and Passover tables for generations. Eastern European Jews brought their braising traditions to America, where brisket - a tough, inexpensive cut - was one of the few affordable kosher options that could feed a large family. Every Jewish grandmother has her version, passed down through oral tradition with no written recipe. Always slice against the grain - look at the direction of the meat fibers and cut perpendicular to them, or even the longest braise won't make it tender.
 
 ## Directions
 
