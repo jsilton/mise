@@ -30,7 +30,7 @@ ingredients:
 
 ## Chef's Note
 
-Whisking toasted sesame oil into a traditional vinaigrette introduces nutty, roasted depth that contrasts sweet, watery summer tomatoes. Using a mix of heirloom varieties provides varying textures—some firm and snappy, others soft and juicy. Soy sauce acts as the primary salt source, adding umami backbone that bridges Asian and Mediterranean flavors in this fusion salad.
+Whisking toasted sesame oil into a traditional vinaigrette introduces nutty, roasted depth that contrasts sweet, watery summer tomatoes. Using a mix of heirloom varieties provides varying textures—some firm and crisp, others soft and juicy. Soy sauce acts as the primary salt source, adding umami backbone that bridges Asian and Mediterranean flavors in this fusion salad.
 
 ## Directions
 

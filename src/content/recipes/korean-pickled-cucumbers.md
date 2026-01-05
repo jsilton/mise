@@ -32,7 +32,7 @@ ingredients:
 
 ## Chef's Note
 
-This is the "Universal Pickle." To get the restaurant-quality crunch, you **must salt the cucumbers first** and let them sit for 20 minutes to draw out excess water. This prevents the dressing from becoming watery and allows the flavors to penetrate the vegetable.
+These are quick Korean pickles. To get the crisp texture, you must salt the cucumbers first and let them sit for 20 minutes to draw out excess water. This prevents the dressing from becoming watery and allows the flavors to penetrate the vegetable.
 
 ## Directions
 

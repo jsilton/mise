@@ -30,7 +30,7 @@ ingredients:
 
 ## Chef's Note
 
-While 2 hours works in a pinch, an 8-hour soak allows oats' beta-glucans to fully emulsify with yogurt and milk, creating creamy rather than chalky texture. Greek yogurt adds protein and thick, pudding-like consistency. Add crunchy toppings (nuts, fresh fruit, granola) just before eating. These keep refrigerated for up to 5 days.
+While 2 hours works in a pinch, an 8-hour soak allows oats' beta-glucans to fully emulsify with yogurt and milk, creating creamy rather than chalky texture. Greek yogurt adds protein and thick, pudding-like consistency. Add crisp toppings (nuts, fresh fruit, granola) just before eating. These keep refrigerated for up to 5 days.
 
 ## Directions
 

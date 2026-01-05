@@ -26,7 +26,7 @@ ingredients:
 
 ## Chef's Note
 
-The secret to a "Kitchen Standard" waffle is **Culinary Technique** through **The Cloud Aeration Method**. You must beat the egg whites to stiff peaks _separately_ and fold them into the batter at the very end. This introduces millions of tiny air pockets that expand instantly in the waffle iron, creating a shatteringly crisp Crunch on the exterior with a cloud-like Texture inside. We use a **High Baking Powder Ratio** to ensure the vertical rise needed for deep Belgian pockets.
+The secret to exceptional Belgian waffles is beating the egg whites to stiff peaks separately and folding them into the batter at the very end. This introduces millions of tiny air pockets that expand instantly in the waffle iron, creating a shatteringly crisp exterior with a cloud-like interior. We use a higher ratio of baking powder to ensure the vertical rise needed for deep Belgian pockets.
 
 ## Directions
 

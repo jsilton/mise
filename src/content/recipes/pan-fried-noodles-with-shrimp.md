@@ -36,7 +36,7 @@ ingredients:
 
 ## Chef's Note
 
-Pan-fried noodles (gon chow min) are a Cantonese restaurant specialty. The technique: boil noodles briefly, then pan-fry them into a crispy "bird's nest" cake—crunchy on the outside, soft inside. Treating shrimp with baking soda (then rinsing thoroughly) gives them a bouncy texture. The clear, golden gravy poured over the top softens the center noodles while leaving edges crispy. A dramatic presentation dish.
+Pan-fried noodles (gon chow min) are a Cantonese restaurant specialty. The technique: boil noodles briefly, then pan-fry them into a crispy "bird's nest" cake—crunchy on the outside, soft inside. Treating shrimp with baking soda (then rinsing thoroughly) gives them a firm, snappy texture. The clear, golden gravy poured over the top softens the center noodles while leaving edges crispy. A dramatic presentation dish.
 
 ## Directions
 

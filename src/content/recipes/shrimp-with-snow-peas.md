@@ -39,7 +39,7 @@ ingredients:
 
 ## Chef's Note
 
-This classic Cantonese stir-fry showcases delicate proteins and spring vegetables with minimal sauce. Treating shrimp with baking soda creates a firm, snappy texture, while a cornstarch and Shaoxing wine marinade (velveting) keeps them tender under high heat. The result is juicy, translucent shrimp paired with crisp, bright green snow peas.
+This classic Cantonese stir-fry showcases delicate proteins and spring vegetables with minimal sauce. Treating shrimp with baking soda creates a firm, crisp texture, while a cornstarch and Shaoxing wine marinade (velveting) keeps them tender under high heat. The result is juicy, translucent shrimp paired with crisp, bright green snow peas.
 
 ## Directions
 

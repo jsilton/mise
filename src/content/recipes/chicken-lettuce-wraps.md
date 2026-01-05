@@ -34,7 +34,7 @@ ingredients:
 
 ## Chef's Note
 
-Chicken lettuce wraps became popular through restaurants like P.F. Chang's in the 1990s. This version replaces water chestnuts with finely diced celery for a fresher, crunchier texture without the chalky mouthfeel. The key is browning the ground chicken over high heat until it has crispy edges before adding the hoisin glaze—this prevents soggy lettuce cups. Serve in cold butter lettuce leaves for the best presentation.
+Chicken lettuce wraps became popular through restaurants like P.F. Chang's in the 1990s. This version replaces water chestnuts with finely diced celery for a fresher, crisper texture without the chalky mouthfeel. The key is browning the ground chicken over high heat until it has crispy edges before adding the hoisin glaze—this prevents soggy lettuce cups. Serve in cold butter lettuce leaves for the best presentation.
 
 ## Directions
 

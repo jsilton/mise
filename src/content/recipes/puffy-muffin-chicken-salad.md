@@ -30,7 +30,7 @@ ingredients:
 
 ## Chef's Note
 
-This is a classic recipe for satisfying lunch fuel. The secret is poaching the chicken tenders and then manually pulling them into shreds while warm. This ensures maximum surface area for the mayonnaise to bind to, resulting in a rich, cohesive salad. Using quartered grapes and finely diced celery provides necessary watery crunch that cuts through the rich mayo. Always add a hit of fresh lemon for brightness.
+This is a classic recipe for satisfying lunch fuel. The technique is poaching the chicken tenders and then manually pulling them into shreds while warm. This ensures maximum surface area for the mayonnaise to bind to, resulting in a rich, cohesive salad. Using quartered grapes and finely diced celery provides necessary crisp texture that cuts through the rich mayo. Always add a hit of fresh lemon for brightness.
 
 ## Directions
 
