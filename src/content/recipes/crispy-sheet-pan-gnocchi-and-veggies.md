@@ -33,7 +33,7 @@ ingredients:
 
 ## Chef's Note
 
-The secret to "Kitchen Standard" gnocchi is skipping the pot of boiling water. We use **Textural Balance** through the **High-Heat Roast Method**: roasting the gnocchi directly on a sheet pan at 450°F. This creates a Crunch on the outside while keeping the center pillow-soft. We pair this with cherry tomatoes that "pop" in the oven, creating a natural **Acid Balance** that emulsifies with the olive oil and garlic to coat the gnocchi in a rustic sauce.
+This is a modern Italian-American technique from the 2010s that revolutionized gnocchi cooking by skipping the pot of boiling water entirely. Shelf-stable gnocchi from the grocery store can go straight from package to sheet pan - roasting at 450°F creates a crispy golden crust on the outside while keeping the center pillowy soft. The cherry tomatoes burst in the oven, releasing their juices which emulsify with the olive oil and garlic to create a rustic sauce. Make sure to spread everything in a single layer - crowding the pan will steam the gnocchi instead of crisping it.
 
 ## Directions
 

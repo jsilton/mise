@@ -33,7 +33,7 @@ ingredients:
 
 ## Chef's Note
 
-The secret to this dish is **Staged Cooking**. If you cook the potatoes in the cream sauce, they will be mushy and the skin will be flabby. We **Roast** the potatoes at high heat (425°F) separately to get a golden crust, while searing the chicken to render the fat. We only combine them with the velvety Parmesan cream at the very end to preserve the individual textures.
+This is a modern Italian-American one-pan meal inspired by the classic combination of roasted chicken, crispy potatoes, and creamy Parmesan sauce. The technique is similar to French coq au vin but simplified for weeknight cooking. The key is roasting the potatoes separately at high heat (425°F) first to get them golden and crispy - if you cook them directly in the cream sauce, they'll turn mushy and the skins will be flabby. Sear the chicken skin-side down to render the fat and crisp the skin, then combine everything in the cream at the end.
 
 ## Directions
 

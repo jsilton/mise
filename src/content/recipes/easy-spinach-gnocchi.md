@@ -30,7 +30,7 @@ ingredients:
 
 ## Chef's Note
 
-These "Gnudi" are the lighter, pillowy cousin of the potato gnocchi. The secret to the Kitchen Standard is **Textural Balance** through the **Dry Squeeze Method**: you must squeeze the defrosted spinach in a towel until it is **bone-dry**. Any excess moisture will require more flour, which turns the gnocchi into leaden pucks. We use **Whole-Milk Ricotta** for a rich Texture and a pinch of **Nutmeg** as the mandatory high note to bridge the cheese and greens.
+These are properly called "gnudi" - Italian for "naked" - because they're essentially the filling of ravioli without the pasta wrapper. They originated in Tuscany, where ricotta and spinach were abundant. The critical step is squeezing the defrosted spinach in a kitchen towel until it's bone-dry - any excess moisture means you'll need more flour, which makes the gnudi heavy and dense instead of light and pillowy. Whole-milk ricotta gives the best texture, and a pinch of nutmeg is traditional to bridge the earthy spinach and rich cheese flavors.
 
 ## Directions
 

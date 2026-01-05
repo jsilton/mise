@@ -33,7 +33,7 @@ ingredients:
 
 ## Chef's Note
 
-This is the ultimate high-performance nutritious dinner. The secret to its Success is **Textural Balance** through **The Crisp Kale Method**. Most sheet pan recipes turn kale into a soggy mess; here, we roast the kale alongside the gnocchi at high heat (400°F) until it dehydrates into Crunch chips. We use **The Staged Roast**: the gnocchi and squash develop a Texture in the oven without needing a separate boil. The smoked paprika and rosemary provide the mandatory savory **High Note**.
+This is a modern American sheet pan meal using Italian gnocchi, popularized in the 2010s as busy home cooks discovered that frozen gnocchi could go straight into the oven without boiling. The trick with kale is roasting it at high heat (400°F) until it becomes crispy like chips rather than wilting into a soggy mess - spread everything in a single layer so the kale can dehydrate properly. Cauliflower gnocchi is a more recent innovation from brands like Trader Joe's, offering a lower-carb alternative to traditional potato gnocchi. The combination of butternut squash, apple sausage, and rosemary is quintessential fall American comfort food.
 
 ## Directions
 

@@ -31,7 +31,7 @@ ingredients:
 
 ## Chef's Note
 
-This is a 20-minute quick masterpiece. The secret to the Kitchen Standard is **Textural Balance** through **The Ribbon Method**: by shaving the zucchini with a vegetable peeler into paper-thin strips, we ensure it wilts in seconds, creating a "silk" that intertwines with the gnocchi. We use a **Brown Butter Emulsion**: we cook the butter until it hits its nutty peak (Beurre Noisette) then use the moisture from the cherry tomatoes to bind it into a glossy sauce. The **Nutmeg** provides the mandatory "High Note" that bridges the earthy brown butter and fresh parsley.
+Brown butter (beurre noisette in French, literally "hazelnut butter") is a classic Italian and French technique where you cook butter until the milk solids turn golden brown and release a nutty aroma. This 20-minute dish showcases that technique beautifully. Use a vegetable peeler to shave the zucchini into paper-thin ribbons so they wilt in seconds rather than becoming waterlogged. The cherry tomatoes release just enough moisture to help the brown butter form a light sauce that coats the gnocchi. A pinch of nutmeg is traditional in Italian cooking to complement both the butter and the fresh herbs.
 
 ## Directions
 

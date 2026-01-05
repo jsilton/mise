@@ -30,7 +30,7 @@ ingredients:
 
 ## Chef's Note
 
-This is the "Culinary Method" alternative to the heavy [Real Alfredo Sauce](/silton-mise/recipes/real-alfredo-sauce). We use the natural starch of pureed cauliflower to create a creamy texture with a fraction of the fat. The secret is the **High-Powered Blend**: you must boil the cauliflower until it is "fall-apart" tender, then blend it while hot with the garlic and cheese to create a silky emulsion.
+This is a modern healthy alternative to traditional [Real Alfredo Sauce](/silton-mise/recipes/real-alfredo-sauce), popularized in the 2010s by food bloggers looking for lighter versions of classic Italian-American dishes. The genius is using pureed cauliflower's natural starch to create creaminess with a fraction of the fat. Boil the cauliflower until it's completely soft and falling apart, then blend it while still hot with garlic and Parmesan - the heat helps everything emulsify into a silky sauce. Use a high-powered blender for the smoothest texture.
 
 ## Directions
 
