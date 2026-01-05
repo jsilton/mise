@@ -31,8 +31,3 @@ This is a "Traditional Recipe" with a vital modern upgrade. While the original f
 4.  **Shape:** Roll the dough into 12 small balls. Place on the greased cookie sheet and flatten slightly with the palm of your hand. This flat shape ensures a crispy exterior and a tender middle.
 5.  **Bake:** Bake for 10-12 minutes. If the tops are not golden brown, switch to **Broil** for 1 minute, watching intensely to prevent burning.
 
-## Serving Suggestions
-
-- Sunday Roast or Savory Stew
-- [Nana Ruth's Applesauce](/silton-mise/recipes/nana-ruths-applesauce)
-- Local Honey and more cold butter

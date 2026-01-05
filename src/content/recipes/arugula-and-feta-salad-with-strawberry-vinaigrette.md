@@ -40,8 +40,3 @@ This salad is a masterclass in the **Acid Balance**. The sweetness of the strawb
 3.  **Layer:** Add the sliced strawberries, feta, and sunflower seeds.
 4.  **Finish:** Drizzle the remaining dressing over the top. Serve immediately.
 
-## Pairs With
-
-- [Chicken Milanese](/silton-mise/recipes/chicken-milanese)
-- [Grilled-Pork Banh Mi](/silton-mise/recipes/grilled-pork-banh-mi)
-- Roasted Chicken

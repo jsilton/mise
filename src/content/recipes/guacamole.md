@@ -38,9 +38,3 @@ Traditional Mexican guacamole keeps avocados bright green by tossing chunks in l
 5.  **The Finish:** Cover the bowl tightly with plastic wrap pressed directly onto the surface of the guacamole. **Let sit at room temperature for 1 hour** before serving.
 6.  **Serve:** Stir once and serve with high-quality corn chips.
 
-## Serving Suggestions
-
-- [Mexican Street Corn Salad (Esquites)](/silton-mise/recipes/mexican-street-corn-salad)
-- [Chipotle Pork & Sweet Corn "Tamale" Bowls](/silton-mise/recipes/chipotle-pork-and-sweet-corn-tamale-bowls)
-- [quick Pickled Red Onions](/silton-mise/recipes/pickled-red-onions)
-- [Mexican Red Rice (Arroz Rojo)](/silton-mise/recipes/mexican-red-rice)

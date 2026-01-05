@@ -38,8 +38,3 @@ The difference between a soggy waffle and a Kitchen Standard waffle is **Culinar
 6.  **Finish:** Cook until the steam stops rising from the iron and the waffles are deep golden brown.
 7.  **Serve:** Serve immediately with salted butter, maple syrup, and fresh berries.
 
-## Serving Suggestions
-
-- Crispy Bacon or Sausage
-- [Easy Breakfast Yogurt Popsicles](/silton-mise/recipes/easy-breakfast-yogurt-popsicles)
-- Fresh Peaches or Strawberries

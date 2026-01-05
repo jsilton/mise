@@ -39,8 +39,3 @@ This is a masterclass in **Updated Classic** aesthetics. The secret to its profe
 6.  **Assemble:** Mound rice in shallow bowls. Top with the glazed trout, nori, and the poached vegetables.
 7.  **Serve:** Carefully pour the hot dashi around the perimeter of the bowl. Serve immediately.
 
-## Serving Suggestions
-
-- [Dashi (Japanese Sea Stock)](/silton-mise/recipes/dashi-japanese-sea-stock)
-- [Simply Seasoned Korean Spinach Salad](/silton-mise/recipes/simply-seasoned-korean-spinach-salad)
-- [Smashed Cucumber Salad](/silton-mise/recipes/smashed-cucumber-salad)

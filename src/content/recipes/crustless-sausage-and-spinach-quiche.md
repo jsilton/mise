@@ -41,8 +41,3 @@ The secret to a "Kitchen Standard" crustless quiche is **Textural Balance** thro
 7.  **Bake:** Bake for 35-40 minutes until the center is set and the edges are slightly golden and puffed.
 8.  **Rest:** Let sit for 5 minutes before slicing into 6 wedges.
 
-## Serving Suggestions
-
-- [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad)
-- Fresh Fruit Platter
-- [Roasted Asparagus](/silton-mise/recipes/roasted-asparagus)

@@ -35,8 +35,3 @@ This is a baseline **Modularity** component for seasonal wellness. The secret to
 6.  **Store:** Seal the jar and store in the refrigerator for up to 2 months.
 7.  **Dose:** Standard Recommended dose is 1 tsp daily for kids, 1 tbsp for adults.
 
-## Serving Suggestions
-
-- [Easy Breakfast Yogurt Popsicles](/silton-mise/recipes/easy-breakfast-yogurt-popsicles)
-- [Chocolate Blended Oats](/silton-mise/recipes/chocolate-blended-oats-with-raspberry-chia-jam)
-- Stirred into Seltzer or Tea

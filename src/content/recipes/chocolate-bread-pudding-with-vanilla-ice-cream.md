@@ -38,8 +38,3 @@ This is a **Updated Classic** take on the ultimate comfort dessert. By using **B
 6.  **Bake:** Bake for 15-20 minutes until the edges are golden and the custard is set in the center but still has a slight wobble.
 7.  **Serve:** Serve warm with a generous scoop of vanilla bean ice cream.
 
-## Serving Suggestions
-
-- Fresh Raspberries or Strawberries
-- [Old-Fashioned Strawberry Ice Cream](/silton-mise/recipes/old-fashioned-strawberry-ice-cream)
-- A drizzle of Salted Caramel

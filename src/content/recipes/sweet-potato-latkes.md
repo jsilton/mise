@@ -36,8 +36,3 @@ Traditional latkes rely on starch; sweet potato latkes rely on **Textural Balanc
 6.  **Drain:** Transfer to a paper-towel-lined plate. Season with a final pinch of salt while hot.
 7.  **Serve:** Serve immediately with [Nana Ruth's Applesauce](/silton-mise/recipes/nana-ruths-applesauce).
 
-## Serving Suggestions
-
-- [Nana Ruth's Applesauce](/silton-mise/recipes/nana-ruths-applesauce) (Mandatory)
-- Sour Cream or Greek Yogurt
-- [Classic Martini](/silton-mise/recipes/classic-martini) (Chilled)

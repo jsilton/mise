@@ -39,8 +39,3 @@ This is the definitive Executive "Crowd-Pleaser" and a masterclass in **Textural
 6.  **Bake:** Bake for 35-40 minutes until the tops are mirror-shiny and the edges are firm.
 7.  **The Finish:** Cool **completely** in the pans before slicing into squares. This is mandatory for the structural integrity.
 
-## Serving Suggestions
-
-- [Old-Fashioned Vanilla Ice Cream](/silton-mise/recipes/old-fashioned-vanilla-ice-cream)
-- Fresh Raspberries
-- Cold Glass of Milk

@@ -42,8 +42,3 @@ This is a high-speed nutritious masterpiece that solves the problem of soggy tof
 6.  **Bind:** Return tofu and broccoli to the pan. Toss vigorously for 30 seconds to coat.
 7.  **Serve:** Garnish with scallions and serve hot over rice.
 
-## Serving Suggestions
-
-- [Basmati Rice](/silton-mise/recipes/basmati-rice)
-- [Smashed Cucumber Salad](/silton-mise/recipes/smashed-cucumber-salad)
-- [Korean Mung Bean Sprouts Salad (Sukju Namul)](/silton-mise/recipes/korean-mung-bean-sprouts-salad)

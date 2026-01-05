@@ -36,8 +36,3 @@ This is the baseline **Modularity** component for all holiday baking. The secret
 6.  **Bake:** Place 1 inch apart on parchment. Bake for 10-12 minutes until the very edges are just beginning to turn golden brown.
 7.  **The Finish:** Let cool on the pan for 5 minutes to ensure a crispy base. Serve plain or decorate with [Royal Icing](/silton-mise/recipes/royal-icing).
 
-## Serving Suggestions
-
-- [Royal Icing](/silton-mise/recipes/royal-icing)
-- [Hot Mulled Apple Cider](/silton-mise/recipes/hot-mulled-apple-cider)
-- [Old-Fashioned Vanilla Ice Cream](/silton-mise/recipes/old-fashioned-vanilla-ice-cream) (as a "base" for a sundae)

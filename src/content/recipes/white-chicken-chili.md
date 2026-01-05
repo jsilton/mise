@@ -38,8 +38,3 @@ This Tex-Mex white chili features nixtamalized hominy, which provides a distinct
 6.  **Finish:** Stir in the sour cream until the sauce is creamy and pale.
 7.  **Serve:** Garnish with green onions and a massive amount of shredded Monterey Jack for the final savory **High Note**.
 
-## Serving Suggestions
-
-- [My Favorite Cornbread](/silton-mise/recipes/my-favorite-cornbread) (Mandatory)
-- [Guacamole](/silton-mise/recipes/guacamole)
-- [Pickled Red Onions](/silton-mise/recipes/pickled-red-onions)

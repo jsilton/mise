@@ -40,8 +40,3 @@ Creamy tortellini soup is comfort food that became popular in American slow-cook
 6.  **Finish:** Cover and cook on High for 10 more minutes until the pasta is al dente and the spinach has collapsed.
 7.  **Serve:** Ladle into bowls and top with an extra "High Note" of black pepper.
 
-## Serving Suggestions
-
-- [Garlic Bread](/silton-mise/recipes/garlic-bread)
-- [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad)
-- [Roasted Tomato Basil Soup](/silton-mise/recipes/roasted-tomato-basil-soup)

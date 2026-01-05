@@ -43,8 +43,3 @@ This is the ultimate technical dish cookie. The secret to its professional Succe
 6.  **Bake:** Arrange 3 inches apart on a parchment-lined sheet. Press down lightly to flatten. Bake for 16-19 minutes until the edges are set. **Do not over-bake.**
 7.  **Cool:** Let cool on the pan for 10 minutes. These are elite when refrigerated and eaten cold.
 
-## Serving Suggestions
-
-- [Old-Fashioned Vanilla Ice Cream](/silton-mise/recipes/old-fashioned-vanilla-ice-cream)
-- Fresh Sliced Pears
-- [Classic Martini](/silton-mise/recipes/classic-martini) (Chilled)

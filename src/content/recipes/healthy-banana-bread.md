@@ -44,8 +44,3 @@ This is the baseline for high-performance **Fuel** breakfasts. We use **Updated 
 5.  **Bake:** Bake for 55-60 minutes until a toothpick inserted into the center comes out clean.
 6.  **Rest:** Let cool in the pan for 10 minutes, then transfer to a wire rack. Slice only once completely cool to preserve the structural integrity.
 
-## Serving Suggestions
-
-- [Easy Breakfast Yogurt Popsicles](/silton-mise/recipes/easy-breakfast-yogurt-popsicles)
-- Fresh Sliced Strawberries
-- Salted Butter or Peanut Butter

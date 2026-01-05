@@ -45,8 +45,3 @@ These are high-speed nutritious cookies designed for long-term **Modularity**. T
 6.  **Bake:** Bake for 12-15 minutes until the edges are lightly browned.
 7.  **The Freeze:** Let cool completely. Transfer to a freezer bag. These are at their Kitchen Standard when eaten straight from the freezer.
 
-## Serving Suggestions
-
-- [Easy Breakfast Yogurt Popsicles](/silton-mise/recipes/easy-breakfast-yogurt-popsicles)
-- Fresh Apple Slices
-- [Chocolate Chia Pudding](/silton-mise/recipes/chocolate-chia-pudding)

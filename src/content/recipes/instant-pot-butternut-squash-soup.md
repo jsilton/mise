@@ -41,8 +41,3 @@ This is the "Kitchen Standard" for autumn comfort. The secret to its depth is **
 6.  **The Emulsion:** Stir in the heavy cream. Using an immersion blender, puree the soup directly in the pot until completely velvety and smooth.
 7.  **Serve:** Ladle into bowls. Garnish with the reserved crispy bacon and chives for the mandatory **Textural Snap**.
 
-## Serving Suggestions
-
-- [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad)
-- [Grilled Cheese & Tomato Soup](/silton-mise/recipes/grilled-cheese-and-tomato-soup) (as a side)
-- Warm [Anadama Bread](/silton-mise/recipes/anadama-bread)

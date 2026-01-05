@@ -43,8 +43,3 @@ This is a high-speed nutritious meal that relies on **The Starch Bind Method**. 
 6.  **Toss:** Toss vigorously for 1 minute until the noodles are glossy and the sauce has thickened.
 7.  **Serve:** Remove from heat. Stir in the green onions, cilantro, and crushed peanuts. Serve hot or cold for the Kitchen Standard experience.
 
-## Serving Suggestions
-
-- [Smashed Cucumber Salad](/silton-mise/recipes/smashed-cucumber-salad)
-- [Chinese Eggplant with Garlic Sauce](/silton-mise/recipes/chinese-eggplant-with-garlic-sauce)
-- Thai Iced Tea

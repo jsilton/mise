@@ -38,8 +38,3 @@ This Tex-Mex vegetarian tortilla soup uses red lentils that dissolve completely 
 4.  **Finish:** Stir in the fresh lime juice. Season with salt and pepper.
 5.  **Serve:** Ladle into bowls. Pile on the "Texture Stacks": crushed tortilla chips, diced avocado, and fresh cilantro.
 
-## Serving Suggestions
-
-- [Guacamole](/silton-mise/recipes/guacamole)
-- [Mexican Red Rice (Arroz Rojo)](/silton-mise/recipes/mexican-red-rice)
-- [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad)

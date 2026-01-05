@@ -45,8 +45,3 @@ This fusion dish combines Italian pasta with Japanese-influenced soy butter sauc
 6.  **Bind:** Add the pasta, shrimp, and 1/2 cup of the reserved pasta water. Toss over medium heat for 1 minute until the sauce is creamy.
 7.  **Finish:** Stir in the Parmesan and parsley for the mandatory **High Note**. Serve immediately.
 
-## Serving Suggestions
-
-- [Smashed Cucumber Salad](/silton-mise/recipes/smashed-cucumber-salad)
-- [Japanese Style Trout with Dashi](/silton-mise/recipes/japanese-style-trout-with-dashi)
-- [Classic Martini](/silton-mise/recipes/classic-martini) (Chilled)

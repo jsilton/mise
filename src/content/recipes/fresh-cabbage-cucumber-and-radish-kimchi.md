@@ -45,9 +45,3 @@ This is a baseline **Updated Classic** recipe for the Executive pantry. The secr
 5.  **The Finish:** Transfer to glass jars. Cover and refrigerate for **at least 4 hours** (ideally 24) to allow the flavors to meld and the fermentation to begin.
 6.  **Serve:** This fresh kimchi (Geotjeori style) is at its best within the first week.
 
-## Serving Suggestions
-
-- [Basmati Rice](/silton-mise/recipes/basmati-rice)
-- [Bibimbap (The Ultimate Bowl)](/silton-mise/recipes/bibimbap)
-- [Marinated Korean Ribeye](/silton-mise/recipes/marinated-korean-ribeye)
-- [Simply Seasoned Korean Spinach Salad](/silton-mise/recipes/simply-seasoned-korean-spinach-salad)

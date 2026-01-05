@@ -43,8 +43,3 @@ The secret to "Peach Pie" pancakes that aren't heavy is **Culinary Technique** t
 7.  **Flip:** Flip gently and cook for 1-2 more minutes until golden brown.
 8.  **Serve:** Serve with warm maple syrup and a few extra fresh peach slices.
 
-## Serving Suggestions
-
-- Crispy Bacon
-- [Easy Breakfast Yogurt Popsicles](/silton-mise/recipes/easy-breakfast-yogurt-popsicles)
-- Fresh Orange Juice

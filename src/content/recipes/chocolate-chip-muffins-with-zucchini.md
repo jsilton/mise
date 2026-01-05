@@ -46,8 +46,3 @@ This is a high-performance **Updated Classic** breakfast. By using **Buckwheat F
 6.  **Bake:** Scoop the batter into the muffin cups (about 3/4 full). Bake for 16-18 minutes until a toothpick inserted into the center comes out clean.
 7.  **Cool:** Let cool in the pan for 10 minutes to allow the buckwheat structure to set before removing to a rack.
 
-## Serving Suggestions
-
-- [Easy Breakfast Yogurt Popsicles](/silton-mise/recipes/easy-breakfast-yogurt-popsicles)
-- Fresh Apple Slices
-- [Blueberry Oat Breakfast Bars](/silton-mise/recipes/blueberry-oat-breakfast-bars)

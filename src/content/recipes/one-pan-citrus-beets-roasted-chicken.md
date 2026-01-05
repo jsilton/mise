@@ -43,8 +43,3 @@ This is a masterclass in **Textural Balance** through **The Single-Layer Roast M
 6.  **Bake:** Bake for 60 minutes until the chicken skin is deep golden and crispy and the beets are fork-tender.
 7.  **Serve:** Serve the chicken on a bed of the citrus-glazed vegetables.
 
-## Serving Suggestions
-
-- [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad)
-- [Basmati Rice](/silton-mise/recipes/basmati-rice)
-- [Homemade Rice Pilaf](/silton-mise/recipes/homemade-rice-pilaf)

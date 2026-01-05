@@ -42,8 +42,3 @@ The secret to a authentic Pad See Ew is **The Scorch Method**. To achieve the ma
 7.  **Finish:** Return the chicken, veg, and egg to the wok. Toss for 30 seconds to integrate.
 8.  **Serve:** Serve immediately with extra white pepper.
 
-## Serving Suggestions
-
-- [Smashed Cucumber Salad](/silton-mise/recipes/smashed-cucumber-salad)
-- [Korean Mung Bean Sprouts Salad (Sukju Namul)](/silton-mise/recipes/korean-mung-bean-sprouts-salad)
-- Thai Iced Tea

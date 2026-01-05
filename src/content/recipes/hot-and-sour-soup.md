@@ -52,8 +52,3 @@ Hot and sour soup is a Sichuan/Hunan classic. The name is literal: "hot" from wh
 7.  **The Current:** Remove from heat. Stir the soup vigorously in one direction to create a current. Stop stirring and slowly stream in the beaten egg.
 8.  **Serve:** Ladle into bowls and garnish with sesame oil and fresh scallions for the final **High Note**.
 
-## Serving Suggestions
-
-- [Smashed Cucumber Salad](/silton-mise/recipes/smashed-cucumber-salad)
-- [Chinese Sausage Fried Rice](/silton-mise/recipes/chinese-sausage-fried-rice)
-- [Cantonese Shumai (Siu Mai)](/silton-mise/recipes/cantonese-shumai-siu-mai)

@@ -40,8 +40,3 @@ This is the ultimate test of **Culinary Technique**. The secret to a tall, even 
 7.  **Bake:** Bake in the middle of the oven for 24-26 minutes until puffed and crusted on top but still having a slight "jiggle" in the center.
 8.  **Serve:** Dust with powdered sugar and serve immediately with lightly sweetened whipped cream.
 
-## Serving Suggestions
-
-- [Old-Fashioned Vanilla Ice Cream](/silton-mise/recipes/old-fashioned-vanilla-ice-cream)
-- Fresh Raspberries
-- Glass of Ruby Port

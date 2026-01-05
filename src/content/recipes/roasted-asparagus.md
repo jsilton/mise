@@ -37,8 +37,3 @@ Asparagus is 90% water. If you steam it or cook it at low heat, it turns gray an
 3.  **Roast:** Bake for 8-12 minutes depending on the thickness of the stalks. They are done when they are tender-crisp and the tips are starting to brown.
 4.  **Finish:** Squeeze fresh lemon juice over the hot stalks. Sprinkle with Parmesan or zest if using.
 
-## Pairs With
-
-- [Chicken Piccata (Un-fried)](/silton-mise/recipes/chicken-piccata-unfried)
-- [Baked Cod with Lemon Panko](/silton-mise/recipes/baked-cod-with-lemon-panko)
-- Steak or Roast Chicken

@@ -42,8 +42,3 @@ Turkey meatballs are the ultimate nutritious but often lack the Texture of beef 
 5.  **Assemble:** Warm the flatbreads in the microwave or on the skillet. Place 3 meatballs in the center of each.
 6.  **Finish:** Top with raw red onion, tomatoes, and cucumber. Drizzle generously with the tzatziki for the mandatory **High Note**.
 
-## Serving Suggestions
-
-- [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad)
-- [Smashed Cucumber Salad](/silton-mise/recipes/smashed-cucumber-salad)
-- [Roasted Green Bean "Fries"](/silton-mise/recipes/roasted-green-bean-fries)

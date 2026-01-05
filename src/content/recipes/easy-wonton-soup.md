@@ -43,8 +43,3 @@ Quick wonton soup using store-bought frozen wontons makes a comforting 25-minute
 4.  **Finish:** Stir in the soy sauce and toasted sesame oil. Add a pinch of white pepper for the mandatory **High Note**.
 5.  **Serve:** Divide into bowls, ensuring everyone gets 5 wontons. Garnish with fresh scallions.
 
-## Serving Suggestions
-
-- [Smashed Cucumber Salad](/silton-mise/recipes/smashed-cucumber-salad)
-- [Chinese Sausage Fried Rice](/silton-mise/recipes/chinese-sausage-fried-rice)
-- [Chinese Eggplant with Garlic Sauce](/silton-mise/recipes/chinese-eggplant-with-garlic-sauce)

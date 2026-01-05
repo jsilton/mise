@@ -41,8 +41,3 @@ Frittatas are Italian open-faced omelets perfect for using up vegetables and lef
 5.  **Bake:** Bake for 7-10 minutes until the frittata is puffed and the center has a very slight wobble when shaken. **Do not over-bake.**
 6.  **Finish:** Garnish with fresh herbs. Slice into wedges and serve immediately or at room temperature for the Kitchen Standard experience.
 
-## Serving Suggestions
-
-- [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad) (Mandatory)
-- [Crispy Smashed Potatoes](/silton-mise/recipes/crispy-smashed-potatoes)
-- [Classic Martini](/silton-mise/recipes/classic-martini) (for a weekend brunch)

@@ -37,8 +37,3 @@ Traditional pasta dough from Northern Italy uses just flour and eggs—the simpl
 4.  **The Rest:** Remove from the bowl. Wrap tightly in plastic wrap. **Let rest for at least 30 minutes** (up to 24 hours in the fridge) before rolling.
 5.  **Shape:** Cut, roll, and shape as desired. See [Fresh Egg Pasta](/silton-mise/recipes/fresh-egg-pasta) for rolling settings.
 
-## Serving Suggestions
-
-- [Real Alfredo Sauce](/silton-mise/recipes/real-alfredo-sauce)
-- [Real Spaghetti Carbonara](/silton-mise/recipes/real-spaghetti-carbonara)
-- [Pasta with Sausage, Basil, and Mustard](/silton-mise/recipes/pasta-with-sausage-basil-and-mustard)

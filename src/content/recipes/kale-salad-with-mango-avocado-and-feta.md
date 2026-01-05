@@ -43,8 +43,3 @@ The secret to kale that isn't tough or bitter is **Culinary Technique** through 
 4.  **Toss:** Pour the dressing over the salad and toss gently to coat.
 5.  **Finish:** Gently fold in the avocado pieces just before serving for the mandatory **High Note** of creaminess.
 
-## Serving Suggestions
-
-- [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad)
-- [Grilled Chicken with Herbed Corn Salsa](/silton-mise/recipes/grilled-chicken-with-herbed-corn-salsa)
-- [Coconut Curry Shrimp](/silton-mise/recipes/coconut-curry-shrimp)

@@ -45,8 +45,3 @@ This is a **Updated Classic** update to the classic chocolate muffin. We use **B
 6.  **Bake:** Bake for 18-22 minutes until a toothpick inserted into the center comes out clean.
 7.  **Cool:** Let cool in the pan for 5 minutes before transferring to a rack.
 
-## Serving Suggestions
-
-- [Easy Breakfast Yogurt Popsicles](/silton-mise/recipes/easy-breakfast-yogurt-popsicles)
-- Cold Glass of Soy or Almond Milk
-- [Banana Nut Bread](/silton-mise/recipes/banana-nut-bread) (as part of a brunch spread)

@@ -43,8 +43,3 @@ This is a **Updated Classic** update to a classic Passover staple. We replace th
 7.  **Set:** Remove from the water bath and cool. **Chill for at least 4 hours** (ideally overnight) before inverting onto a platter.
 8.  **Finish:** Toss arugula, radishes, and horseradish with lemon juice. Serve the chilled slices topped with the fresh salad for the mandatory **Acid Balance**.
 
-## Serving Suggestions
-
-- [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad)
-- Fresh Horseradish (Chrein)
-- Matzos

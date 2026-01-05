@@ -44,8 +44,3 @@ The secret to "Bakery Quality" muffins using frozen fruit is **Textural Balance*
 6.  **Bake:** Divide the batter among the cups (about 2/3 full). Sprinkle the nutmeg sugar over the tops. Bake for 20-25 minutes until a toothpick comes out clean.
 7.  **Cool:** Let sit in the pan for 10 minutes to allow the fruit structure to set before removing to a wire rack.
 
-## Serving Suggestions
-
-- [Easy Breakfast Yogurt Popsicles](/silton-mise/recipes/easy-breakfast-yogurt-popsicles)
-- Salted Butter
-- [Elderberry Syrup](/silton-mise/recipes/elderberry-syrup) (stirred into tea)

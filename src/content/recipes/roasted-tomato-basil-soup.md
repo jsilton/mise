@@ -38,8 +38,3 @@ This is the "Kitchen Standard" for technical comfort food. The secret to its Suc
 5.  **Finish:** Stir in the cream for the mandatory **Acid/Fat Finish**. Taste and adjust salt.
 6.  **Serve:** Serve with a drizzle of high-quality olive oil.
 
-## Serving Suggestions
-
-- [Sourdough Grilled Cheese](/silton-mise/recipes/grilled-cheese-and-tomato-soup)
-- [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad)
-- [Roasted Green Bean "Fries"](/silton-mise/recipes/roasted-green-bean-fries)

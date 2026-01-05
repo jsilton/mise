@@ -47,8 +47,3 @@ Risotto originated in Northern Italy (Milan and the Veneto) where short-grain ri
 7.  **Combine:** Fold the seared shrimp and fresh basil into the risotto. Toss for 1 minute until the shrimp are warmed through.
 8.  **Serve:** Garnish with extra basil and a "High Note" crack of black pepper.
 
-## Serving Suggestions
-
-- [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad) (Mandatory)
-- [Roasted Asparagus](/silton-mise/recipes/roasted-asparagus)
-- [Classic Martini](/silton-mise/recipes/classic-martini) (Chilled)

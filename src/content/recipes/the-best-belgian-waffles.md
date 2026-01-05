@@ -38,8 +38,3 @@ The secret to a "Kitchen Standard" waffle is **Culinary Technique** through **Th
 6.  **Bake:** Pour 1/2 cup portions into a preheated, oiled waffle iron. Cook for 5-7 minutes until deep golden brown and the steam stops.
 7.  **Serve:** Serve immediately with warm maple syrup and [Perfect Cranberry Sauce](/silton-mise/recipes/perfect-cranberry-sauce).
 
-## Serving Suggestions
-
-- [Perfect Cranberry Sauce](/silton-mise/recipes/perfect-cranberry-sauce)
-- Fresh Sliced Strawberries
-- Crispy Bacon

@@ -38,8 +38,3 @@ Slow cookers excel at tenderness but fail at texture. We solve this with the **B
 6.  **Crisp:** Spread on a baking sheet. **BROIL** for 5-7 minutes until the edges are dark and crispy.
 7.  **Serve:** Pile onto brioche buns.
 
-## Serving Suggestions
-
-- [quick Pickled Carrots and Daikon](/silton-mise/recipes/quick-pickled-carrots-and-daikon)
-- [Roasted Green Bean "Fries"](/silton-mise/recipes/roasted-green-bean-fries)
-- Sweet Potato Fries

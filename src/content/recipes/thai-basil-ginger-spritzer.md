@@ -36,8 +36,3 @@ This is the "Kitchen Standard" for a technical garden cocktail. The secret to it
 5.  **Assemble:** To each glass, add 2 tbsp of the chilled syrup, 1/2 cup Prosecco, and a lime wedge.
 6.  **Finish:** Stir once very gently to maintain the Texture of the bubbles. Serve immediately.
 
-## Serving Suggestions
-
-- [Smashed Cucumber Salad](/silton-mise/recipes/smashed-cucumber-salad)
-- [Thai Basil Chicken & Eggplant](/silton-mise/recipes/stir-fried-chicken-and-eggplant-with-thai-basil)
-- [Oreo Truffles](/silton-mise/recipes/easy-oreo-truffles)

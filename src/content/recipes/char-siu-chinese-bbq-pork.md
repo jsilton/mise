@@ -46,7 +46,3 @@ This is a more traditional char siu using pork butt (shoulder) instead of tender
 5.  **Finish:** In the final 5 minutes, you can turn on the **BROILER** to get those charred "burned ends."
 6.  **Rest:** Let rest for 10 minutes before slicing into thin medallions.
 
-## Serving Suggestions
-
-- [Cantonese Wonton Soup](/silton-mise/recipes/cantonese-shrimp-and-pork-wontons)
-- Jasmine Rice and [Smashed Cucumber Salad](/silton-mise/recipes/smashed-cucumber-salad)

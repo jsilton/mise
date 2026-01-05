@@ -43,8 +43,3 @@ In the 1930s, Thai Prime Minister Plaek Phibunsongkhram launched a cultural camp
 7.  **Finish:** Fold in the bean sprouts and chives. Toss for 15 seconds.
 8.  **Serve:** Mound on a plate. Top with crushed peanuts, extra sprouts, and a lime wedge for the final **High Note**.
 
-## Serving Suggestions
-
-- [Smashed Cucumber Salad](/silton-mise/recipes/smashed-cucumber-salad)
-- [Chinese Eggplant with Garlic Sauce](/silton-mise/recipes/chinese-eggplant-with-garlic-sauce)
-- Thai Iced Tea

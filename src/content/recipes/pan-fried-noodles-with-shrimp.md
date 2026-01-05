@@ -48,8 +48,3 @@ Pan-fried noodles (gon chow min) are a Cantonese restaurant specialty. The techn
 6.  **The Gravy:** Pour in the sauce mixture (stock, oyster sauce, soy, pepper). Bring to a boil. Stir in the cornstarch slurry and cook until thickened and clear.
 7.  **Serve:** Pour the hot shrimp gravy directly over the center of the crispy noodle cake. Serve immediately.
 
-## Serving Suggestions
-
-- [Smashed Cucumber Salad](/silton-mise/recipes/smashed-cucumber-salad)
-- Hot Chili Oil
-- [Cantonese Wonton Broth](/silton-mise/recipes/cantonese-wonton-broth)

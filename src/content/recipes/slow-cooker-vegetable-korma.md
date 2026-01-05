@@ -42,8 +42,3 @@ Korma is traditionally a thick, rich braise rather than a watery curry. The secr
 5.  **Finish:** Stir once more before serving. Taste and adjust salt if needed.
 6.  **Serve:** Serve immediately with warm naan or basmati rice.
 
-## Serving Suggestions
-
-- [Basmati Rice](/silton-mise/recipes/basmati-rice)
-- [Homemade Naan](/silton-mise/recipes/homemade-naan)
-- [Cucumber Raita](/silton-mise/recipes/cucumber-raita)

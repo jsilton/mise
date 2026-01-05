@@ -43,8 +43,3 @@ Honey sesame chicken is a lighter take on Chinese-American takeout—no deep fry
 5.  **Finish:** Stir in the toasted sesame seeds and green onions.
 6.  **Serve:** Serve immediately over [Jasmine Rice](/silton-mise/recipes/homemade-rice-pilaf).
 
-## Serving Suggestions
-
-- [Jasmine Rice](/silton-mise/recipes/homemade-rice-pilaf)
-- Steamed Broccoli with Garlic
-- [Smashed Cucumber Salad](/silton-mise/recipes/smashed-cucumber-salad)

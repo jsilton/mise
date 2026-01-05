@@ -38,8 +38,3 @@ These Mexican-inspired tacos balance sweet mango with savory cumin-spiced shrimp
 6.  **Assemble:** Place 2 tortillas on each plate. Mound the shrimp-mango mixture into the center.
 7.  **Serve:** Serve immediately with a side of [Mexican Red Rice](/silton-mise/recipes/mexican-red-rice).
 
-## Serving Suggestions
-
-- [Mexican Red Rice (Arroz Rojo)](/silton-mise/recipes/mexican-red-rice)
-- [quick Seasoned Black Beans](/silton-mise/recipes/quick-seasoned-black-beans)
-- [Guacamole](/silton-mise/recipes/guacamole)

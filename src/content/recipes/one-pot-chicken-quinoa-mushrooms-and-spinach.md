@@ -43,8 +43,3 @@ This is the Kitchen Standard for a high-performance nutritious meal. The secret 
 6.  **Wilt:** Remove from heat. Gently stir in the fresh spinach—it will collapse in the residual heat.
 7.  **Serve:** Fluff the quinoa with a fork and serve immediately.
 
-## Serving Suggestions
-
-- [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad)
-- [Roasted Asparagus](/silton-mise/recipes/roasted-asparagus)
-- [Cucumber Raita](/silton-mise/recipes/cucumber-raita)

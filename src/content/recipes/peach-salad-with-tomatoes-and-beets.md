@@ -43,8 +43,3 @@ This salad is a masterclass in **Textural Balance** through **The Roasted Stacks
 5.  **Assemble:** Mound the peach slices in the center of the platter.
 6.  **Finish:** Drizzle the honey-shallot glaze over everything. Garnish with crumbled goat cheese, fresh mint, and thyme for the mandatory aromatic **High Note**.
 
-## Serving Suggestions
-
-- [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad)
-- [Grilled Pork & Peaches](/silton-mise/recipes/grilled-pork-and-peaches)
-- [Classic Martini](/silton-mise/recipes/classic-martini) (Chilled)

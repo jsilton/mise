@@ -45,8 +45,3 @@ Honey-glazed spareribs are a Chinese-American restaurant staple. This version us
 6.  **Char:** Broil 6 inches from the heat for 3-5 minutes until the glaze is bubbling and charred at the edges.
 7.  **Serve:** Sliced into individual ribs with extra sauce on the side.
 
-## Serving Suggestions
-
-- [Smashed Cucumber Salad](/silton-mise/recipes/smashed-cucumber-salad)
-- [Jasmine Rice](/silton-mise/recipes/homemade-rice-pilaf)
-- Corn on the Cob

@@ -45,7 +45,3 @@ This is a rich, colorful holiday centerpiece. The secret to a perfect gratin is 
 7.  **Crisp:** Remove foil. Reduce heat to 400°F. Bake for another 45 minutes until the top is deep golden brown and the potatoes are soft when pierced with a knife.
 8.  **Rest:** Let rest for 10 minutes before serving so the layers set.
 
-## Serving Suggestions
-
-- [Good Eats Roast Turkey](/silton-mise/recipes/good-eats-roast-turkey)
-- [Cranberry Orange Sauce](/silton-mise/recipes/cranberry-orange-sauce)

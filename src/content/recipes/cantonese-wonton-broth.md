@@ -40,7 +40,3 @@ Authentic Cantonese wonton broth from Hong Kong should have a subtle seafood not
 4.  **Season:** Stir in the light soy sauce and fish sauce. Add salt and a pinch of white pepper to taste.
 5.  **Serve:** Keep hot while you boil the wontons in a **separate** pot of plain water. This ensures your broth stays clear and doesn't get thickened by the starch on the wonton skins.
 
-## Pairs With
-
-- [Cantonese Shrimp and Pork Wontons](/silton-mise/recipes/cantonese-shrimp-and-pork-wontons)
-- [Bernard's Style Roast Pork](/silton-mise/recipes/bernards-style-char-siu)

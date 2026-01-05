@@ -34,8 +34,3 @@ This modern margarita uses a 1:1:1 ratio of reposado tequila, Cointreau, and fre
 5.  **Strain:** Double strain into the prepared rocks glass over fresh ice.
 6.  **Garnish:** Express a lime wedge over the surface and drop it in for the final aromatic **High Note**.
 
-## Serving Suggestions
-
-- [Guacamole](/silton-mise/recipes/guacamole)
-- [Seafood-Chorizo Tacos](/silton-mise/recipes/seafood-chorizo-tacos)
-- [Mexican Street Corn Salad (Esquites)](/silton-mise/recipes/mexican-street-corn-salad)

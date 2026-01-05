@@ -40,8 +40,3 @@ This is a **Updated Classic** update to the classic holiday side, elevated into 
 7.  **The Crunch Finish:** Remove the pan. Sprinkle the remaining 1/2 cup of cheese and the remaining 1/2 cup of fried onions over the top. Bake for an additional 10 minutes until the crust is deep golden and shatteringly crisp.
 8.  **Rest:** Let sit for 5 minutes before serving to allow the sauce to set.
 
-## Serving Suggestions
-
-- [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad)
-- [Grandmother's Buttermilk Cornbread](/silton-mise/recipes/grandmothers-buttermilk-cornbread)
-- [Perfect Cranberry Sauce](/silton-mise/recipes/perfect-cranberry-sauce)

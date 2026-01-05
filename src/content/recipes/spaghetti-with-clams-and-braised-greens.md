@@ -45,8 +45,3 @@ Spaghetti with clams is a classic Italian coastal dish, typically made with whit
 6.  **Emulsify:** Toss vigorously over medium heat. Add lemon juice, zest, and Parmesan. Stir until the sauce is glossy.
 7.  **Serve:** Return clams to the pot to warm through. Serve in shallow bowls with plenty of extra Parmesan.
 
-## Serving Suggestions
-
-- [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad)
-- [Garlic Bread](/silton-mise/recipes/garlic-bread)
-- [Classic Martini](/silton-mise/recipes/classic-martini) (Chilled)

@@ -32,8 +32,3 @@ The secret to green beans that kids will eat is **High Heat**. By roasting at 42
 4.  **Roast:** Bake for 10-12 minutes until the skins are shriveled and the tips are dark brown and crispy.
 5.  **Finish:** Sprinkle with Parmesan or panko if using and toss. Serve immediately while hot.
 
-## Pairs With
-
-- [Juicy Turkey Burgers](/silton-mise/recipes/turkey-burgers)
-- [Chicken Milanese](/silton-mise/recipes/chicken-milanese)
-- [Baked Cod with Lemon Panko](/silton-mise/recipes/baked-cod-with-lemon-panko)

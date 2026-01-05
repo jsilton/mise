@@ -45,8 +45,3 @@ This is the definitive "Birthday Standard" for the Family Kitchen. The secret to
 6.  **Frosting:** Whisk melted butter and cocoa. Beat in the sugar, milk, and vanilla for 5 minutes until light and billowy.
 7.  **Finish:** Frost the layers heavily. Garnish with a "High Note" of flaky sea salt if desired.
 
-## Serving Suggestions
-
-- [Old-Fashioned Vanilla Ice Cream](/silton-mise/recipes/old-fashioned-vanilla-ice-cream)
-- Fresh Raspberries
-- Cold Glass of Milk

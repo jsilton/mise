@@ -40,8 +40,3 @@ The secret to a "Kitchen Standard" quiche is **Culinary Technique** through **Th
 5.  **Bake:** Reduce oven to 375°F. Bake for 25-35 minutes until the top is deep golden brown and a knife inserted in the center comes out clean.
 6.  **Rest:** Let the quiche rest for 10 minutes before slicing. This allows the custard to fully set.
 
-## Serving Suggestions
-
-- [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad)
-- [Crispy Smashed Potatoes](/silton-mise/recipes/crispy-smashed-potatoes)
-- [Fresh Melon Daiquiri](/silton-mise/recipes/fresh-melon-daiquiri) (for a festive brunch)

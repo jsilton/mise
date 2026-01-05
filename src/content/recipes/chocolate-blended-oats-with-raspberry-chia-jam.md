@@ -45,8 +45,3 @@ This is the "Kitchen Standard" for meal-prep breakfasts. We use **The Blender Me
 5.  **The Finish:** Seal the jars and refrigerate for at least 90 minutes (or ideally overnight). The mixture will firm up significantly as the oats and chia seeds absorb the liquid.
 6.  **Serve:** These keep for up to 5 days. Eat cold straight from the jar.
 
-## Serving Suggestions
-
-- [Easy Breakfast Yogurt Popsicles](/silton-mise/recipes/easy-breakfast-yogurt-popsicles)
-- Fresh Sliced Bananas
-- A pinch of Flaky Sea Salt

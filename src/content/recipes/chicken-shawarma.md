@@ -37,8 +37,3 @@ Real Shawarma is roasted on a vertical spit (Doner) for hours. At home, we achie
 4.  **Sear:** Add the chicken strips to the skillet. Cook undisturbed for 2 minutes until the edges are crispy and blackened.
 5.  **Serve:** Pile the meat onto a platter. Top with [Tahini Sauce](/silton-mise/recipes/tahini-sauce).
 
-## Serving Suggestions
-
-- [Israeli Style Hummus](/silton-mise/recipes/israeli-style-hummus)
-- [quick Pickled Red Onions](/silton-mise/recipes/pickled-red-onions)
-- Warm Pita and Israeli Salad

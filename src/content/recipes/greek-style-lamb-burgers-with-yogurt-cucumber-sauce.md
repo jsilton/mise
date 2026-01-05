@@ -45,9 +45,3 @@ The lamb burger is a masterclass in flavor balancing. Because lamb is naturally 
 6.  **Assemble:** Place a burger on each pita. Top with a massive dollop of the yogurt sauce, feta, tomatoes, and greens.
 7.  **Serve:** Fold and serve immediately while the lamb juices are still hot.
 
-## Serving Suggestions
-
-- [Smashed Cucumber Salad](/silton-mise/recipes/smashed-cucumber-salad)
-- [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad)
-- [Crispy Smashed Potatoes](/silton-mise/recipes/crispy-smashed-potatoes)
-- [Classic Martini](/silton-mise/recipes/classic-martini) (Chilled)

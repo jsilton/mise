@@ -42,8 +42,3 @@ Zuppa Toscana ("Tuscan soup") became famous in America through Olive Garden in t
 5.  **Wilt:** Stir in the fresh kale. Cook for exactly 1 minute until just collapsed.
 6.  **Serve:** Ladle into deep bowls. Top with a final crack of black pepper and a drizzle of olive oil for the mandatory **High Note**.
 
-## Serving Suggestions
-
-- [Garlic Bread](/silton-mise/recipes/garlic-bread)
-- [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad)
-- [Roasted Sunchokes with Brown Butter Vinaigrette](/silton-mise/recipes/roasted-sunchokes-with-brown-butter-cider-vinaigrette)

@@ -44,8 +44,3 @@ This is a spring variation on Roman pasta alla carbonara, adding peas which come
 6.  **Toss:** Toss vigorously over medium-low heat for 1 minute. Add the Parmesan one handful at a time, stirring until the sauce is glossy and thick.
 7.  **Serve:** Garnish with extra mint and plenty of black pepper.
 
-## Serving Suggestions
-
-- [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad)
-- [Garlic Bread](/silton-mise/recipes/garlic-bread)
-- [Classic Martini](/silton-mise/recipes/classic-martini) (Chilled)

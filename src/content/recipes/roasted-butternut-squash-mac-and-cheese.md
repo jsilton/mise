@@ -40,8 +40,3 @@ This is the "Kitchen Standard" for technical comfort food. The secret to its Suc
 6.  **The Crunch:** Toss panko with 2 tbsp melted butter and Parmesan. Sprinkle over the top.
 7.  **Bake:** Bake at 350°F for 30 minutes until bubbling and mahogany gold.
 
-## Serving Suggestions
-
-- [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad)
-- [Roasted Tomato Basil Soup](/silton-mise/recipes/roasted-tomato-basil-soup)
-- [Classic Martini](/silton-mise/recipes/classic-martini) (Chilled)

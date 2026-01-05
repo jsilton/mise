@@ -40,8 +40,3 @@ Shaving Brussels sprouts paper-thin transforms them from dense and bitter to lig
 5.  **Finish:** Add the apples and the Pecorino. Toss gently to combine.
 6.  **Serve:** Season with an extra crack of black pepper and serve chilled.
 
-## Serving Suggestions
-
-- [Herb-Marinated Pork Tenderloin](/silton-mise/recipes/herb-marinated-pork-tenderloins)
-- [Chicken Milanese](/silton-mise/recipes/chicken-milanese)
-- [Roasted Sunchokes with Brown Butter Vinaigrette](/silton-mise/recipes/roasted-sunchokes-with-brown-butter-cider-vinaigrette)

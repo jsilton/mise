@@ -38,8 +38,3 @@ The Vieux Carré is a New Orleans masterpiece that demands **Precision and Dilig
 4.  **Strain:** Strain into the chilled glass over one large clear ice cube (or neat).
 5.  **Express:** Squeeze the lemon twist over the surface of the drink to release the oils, then drop it in.
 
-## Serving Suggestions
-
-- [Miriam's Rosh Hashanah Brisket](/silton-mise/recipes/miriams-melt-in-your-mouth-rosh-hashanah-brisket)
-- [Beef Tenderloin Dogs](/silton-mise/recipes/beef-tenderloin-dogs-with-corn-relish)
-- Roasted Salted Pecans

@@ -48,8 +48,3 @@ We have upgraded the old-school "pudding pie" to the **Updated Classic** standar
 6.  **Chill:** Refrigerate for **at least 4 hours** (uncovered after the first hour) until perfectly set.
 7.  **Serve:** Top with billowy whipped cream and shaved chocolate for **Textural Balance**.
 
-## Serving Suggestions
-
-- [Old-Fashioned Strawberry Ice Cream](/silton-mise/recipes/old-fashioned-strawberry-ice-cream)
-- Fresh Sliced Raspberries
-- [Hot Mulled Apple Cider](/silton-mise/recipes/hot-mulled-apple-cider)

@@ -46,8 +46,3 @@ Lamb ragù is popular in Central and Southern Italy, especially in regions like 
 6.  **Finish:** Stir the balsamic vinegar and fresh herbs into the sauce. Toss with the hot pasta.
 7.  **Serve:** Garnish with a "High Note" pat of Parmesan or Pecorino.
 
-## Serving Suggestions
-
-- [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad)
-- [Garlic Bread](/silton-mise/recipes/garlic-bread)
-- [Classic Martini](/silton-mise/recipes/classic-martini) (Chilled)

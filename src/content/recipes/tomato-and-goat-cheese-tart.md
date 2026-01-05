@@ -39,8 +39,3 @@ This is the ultimate holiday **Project**. The secret to its Success is **Textura
 7.  **Final Bake:** Bake at 425°F for 20 minutes until the crust is mahogany brown.
 8.  **Serve:** Garnish with fresh purple and green basil for the aromatic **High Note**.
 
-## Serving Suggestions
-
-- [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad)
-- [Classic Martini](/silton-mise/recipes/classic-martini) (Chilled)
-- [Roasted Green Bean "Fries"](/silton-mise/recipes/roasted-green-bean-fries)

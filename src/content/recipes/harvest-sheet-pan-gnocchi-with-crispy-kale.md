@@ -44,8 +44,3 @@ This is a modern American sheet pan meal using Italian gnocchi, popularized in t
 5.  **The Crunch:** The kale should be dark green and shatteringly crisp.
 6.  **Finish:** Sprinkle with Parmesan or nutritional yeast while still piping hot. Serve immediately.
 
-## Serving Suggestions
-
-- [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad)
-- [Perfect Cranberry Sauce](/silton-mise/recipes/perfect-cranberry-sauce)
-- Roasted Cherry Tomatoes

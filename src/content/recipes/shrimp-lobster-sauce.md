@@ -43,8 +43,3 @@ Lobster sauce is a Chinese-American invention from the mid-20th century, origina
 6.  **The Ribbon:** Turn off the heat. Drizzle the egg in a thin stream, stirring once or twice. Let stand for 30 seconds to set the "Bounce."
 7.  **Serve:** Garnish with green onions. Serve immediately over white rice.
 
-## Serving Suggestions
-
-- [Jasmine Rice](/silton-mise/recipes/basmati-rice)
-- [Smashed Cucumber Salad](/silton-mise/recipes/smashed-cucumber-salad)
-- [Cantonese Wonton Broth](/silton-mise/recipes/cantonese-wonton-broth)

@@ -39,8 +39,3 @@ The secret to these 25-minute potatoes is **Textural Balance** through the **Gla
 4.  **Arrange:** Place the slices in a **single layer** on the baking sheet (do not overlap, or they will steam instead of roast). Season with salt and black pepper.
 5.  **Roast:** Bake for 20-25 minutes until tender and the edges are slightly caramelized. Serve hot.
 
-## Serving Suggestions
-
-- [Buttermilk Baked Chicken](/silton-mise/recipes/buttermilk-baked-chicken)
-- [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad)
-- [Roast Turkey Breast](/silton-mise/recipes/roast-turkey-breast)

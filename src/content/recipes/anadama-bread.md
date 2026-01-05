@@ -47,8 +47,3 @@ Anadama is a quintessential New England bread defined by the bittersweet depth o
 8.  **Rise 2:** Cover and let rise again until doubled (about 45 minutes).
 9.  **Bake:** Bake at 375°F for 30 minutes until the top is dark golden brown and the bottom sounds hollow when tapped.
 
-## Serving Suggestions
-
-- [Roasted Corn Chowder with Lime Shrimp](/silton-mise/recipes/roasted-corn-chowder-with-lime-cured-shrimp)
-- Warm Salted Butter
-- Sunday Roast

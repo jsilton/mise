@@ -39,9 +39,3 @@ Fresh egg pasta (pasta all'uovo) is traditional in Northern Italy, particularly 
 5.  **Shape:** Cut into ribbons or shapes. Dust with flour and arrange in "nests" on a parchment-lined sheet.
 6.  **Boil:** Cook in a massive pot of heavily salted water for 1-3 minutes until they float and the center is cooked through.
 
-## Serving Suggestions
-
-- [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad)
-- [Real Alfredo Sauce](/silton-mise/recipes/real-alfredo-sauce)
-- [Real Spaghetti Carbonara](/silton-mise/recipes/real-spaghetti-carbonara)
-- [Garlic Bread](/silton-mise/recipes/garlic-bread)

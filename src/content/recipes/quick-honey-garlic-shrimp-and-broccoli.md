@@ -40,8 +40,3 @@ This 15-minute meal uses smart shortcuts. Microwave the broccoli for 2 minutes w
 5.  **Bind:** Add the steamed broccoli and the remaining sauce to the pan. Toss for 1 minute over high heat until the honey bubbles and thickens into a glossy glaze.
 6.  **Serve:** Return shrimp to the pan. Toss for 30 seconds. Serve immediately over steamed rice.
 
-## Serving Suggestions
-
-- [Basmati Rice](/silton-mise/recipes/basmati-rice)
-- [Smashed Cucumber Salad](/silton-mise/recipes/smashed-cucumber-salad)
-- [Chinese Eggplant with Garlic Sauce](/silton-mise/recipes/chinese-eggplant-with-garlic-sauce)

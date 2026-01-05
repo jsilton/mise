@@ -37,8 +37,3 @@ This ragù comes from Abruzzo, the mountainous region in central Italy where she
 6.  **Combine:** Toss the hot pasta directly into the lamb sauce. Add the Pecorino and toss to coat.
 7.  **Serve:** Serve with extra cheese and a crack of black pepper.
 
-## Serving Suggestions
-
-- [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad)
-- [Patate al Forno](/silton-mise/recipes/patate-al-forno)
-- Glass of Montepulciano d'Abruzzo

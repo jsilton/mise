@@ -51,8 +51,3 @@ These muffins are the "Kitchen Standard" for breakfast fuel. The secret to a pro
 6.  **The Glaze:** Whisk softened cream cheese, powdered sugar, vanilla, and milk until smooth.
 7.  **Finish:** Dip each cooled muffin top into the glaze. Sprinkle with extra shredded coconut or walnuts for a textural "High Note."
 
-## Serving Suggestions
-
-- [Easy Breakfast Yogurt Popsicles](/silton-mise/recipes/easy-breakfast-yogurt-popsicles)
-- Fresh Sliced Apples
-- [Chocolate Blended Oats](/silton-mise/recipes/chocolate-blended-oats-with-raspberry-chia-jam)

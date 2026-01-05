@@ -39,8 +39,3 @@ This is the ultimate high-performance nutritious for young palates. The secret t
 3.  **Adjust:** If the smoothie is too thick, add a splash more milk. If you need more "High Note" sweetness, add 1 tsp of maple syrup and pulse again.
 4.  **Serve:** Serve immediately in a chilled glass with a wide straw.
 
-## Serving Suggestions
-
-- [Blueberry Oat Breakfast Bars](/silton-mise/recipes/blueberry-oat-breakfast-bars)
-- Fresh Apple Slices
-- [Oreo Truffles](/silton-mise/recipes/easy-oreo-truffles) (as a weekend treat)

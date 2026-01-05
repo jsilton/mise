@@ -39,8 +39,3 @@ These are the ultimate **Modularity** component for hot summer mornings. We trea
 5.  **Set:** Place a wooden stick into each mold. Freeze for **at least 4 hours** (overnight is best).
 6.  **Unmold:** Run the outside of the mold under warm water for 5-10 seconds to release. Serve immediately.
 
-## Serving Suggestions
-
-- [Granola](/silton-mise/recipes/granola)
-- Fresh Fruit Platter
-- [Blueberry Oat Breakfast Bars](/silton-mise/recipes/blueberry-oat-breakfast-bars)

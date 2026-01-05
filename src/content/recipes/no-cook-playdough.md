@@ -39,8 +39,3 @@ While not edible, this is a baseline **Modularity** component for family product
 5.  **Finish:** If you want multiple colors, divide the white dough and knead the colors into each portion separately.
 6.  **Store:** Keep in an airtight container or a zip-top bag to maintain the "Bounce."
 
-## Serving Suggestions
-
-- Quiet Mornings
-- Rainy Day Projects
-- [Easy Breakfast Yogurt Popsicles](/silton-mise/recipes/easy-breakfast-yogurt-popsicles) (as a distraction while they freeze)

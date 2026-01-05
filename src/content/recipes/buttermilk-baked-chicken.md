@@ -39,8 +39,3 @@ This is a **Updated Classic** masterpiece that replaces the greasy deep-fry with
 5.  **Bake:** Arrange on the wire rack. Spray the tops of the chicken lightly with oil spray. Bake for 45 minutes until the crust is deep golden brown and the internal temp is 165°F.
 6.  **Rest:** Let rest for 5 minutes before serving to allow the juices to redistribute.
 
-## Serving Suggestions
-
-- [Baked Macaroni and Pimento Cheese](/silton-mise/recipes/baked-macaroni-and-pimento-cheese)
-- [Roasted Green Bean "Fries"](/silton-mise/recipes/roasted-green-bean-fries)
-- [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad)

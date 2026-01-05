@@ -38,8 +38,3 @@ The secret to authentic Korean beef in a slow cooker is **Culinary Technique** t
 4.  **Set:** Increase heat to **High**. Cook uncovered for 30 minutes until the sauce is thick and mirror-glossy.
 5.  **Serve:** Garnish with fresh scallions and sesame seeds. Serve over steamed jasmine rice.
 
-## Serving Suggestions
-
-- [Korean Mung Bean Sprouts Salad (Sukju Namul)](/silton-mise/recipes/korean-mung-bean-sprouts-salad)
-- [Fresh Cabbage, Cucumber and Radish Kimchi](/silton-mise/recipes/fresh-cabbage-cucumber-and-radish-kimchi)
-- [Smashed Cucumber Salad](/silton-mise/recipes/smashed-cucumber-salad)

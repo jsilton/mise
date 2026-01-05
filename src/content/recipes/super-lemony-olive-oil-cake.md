@@ -43,8 +43,3 @@ This is the definitive Executive technical dish dessert. The secret to its incre
 7.  **Set:** Let cool completely in the pan before unmolding.
 8.  **Finish:** Dust with powdered sugar and extra lemon zest just before serving.
 
-## Serving Suggestions
-
-- [Old-Fashioned Vanilla Ice Cream](/silton-mise/recipes/old-fashioned-vanilla-ice-cream)
-- Fresh Sliced Strawberries
-- [Classic Martini](/silton-mise/recipes/classic-martini) (Chilled)

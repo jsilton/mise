@@ -39,8 +39,3 @@ The secret to "Kitchen Standard" Korean spinach is **Culinary Technique** throug
 6.  **Bind:** In a large bowl, whisk sesame oil, garlic, salt, and scallions. Add the spinach and toss vigorously with your hands to separate the leaves.
 7.  **Finish:** Garnish with sesame seeds. Serve chilled or at room temperature.
 
-## Serving Suggestions
-
-- [Bibimbap (The Ultimate Bowl)](/silton-mise/recipes/bibimbap)
-- [Marinated Korean Ribeye](/silton-mise/recipes/marinated-korean-ribeye)
-- [Korean Mung Bean Sprouts Salad (Sukju Namul)](/silton-mise/recipes/korean-mung-bean-sprouts-salad)

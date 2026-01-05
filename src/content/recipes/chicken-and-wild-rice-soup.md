@@ -37,7 +37,3 @@ A great wild rice soup should be nutty and aromatic, not thin and watery. The se
 4.  **Finish:** Stir in the fresh parsley and lemon juice.
 5.  **Adjust:** If the soup is too thick (wild rice absorbs a lot of liquid), add a splash more broth.
 
-## Serving Suggestions
-
-- [Anadama Bread](/silton-mise/recipes/anadama-bread) with Salted Butter
-- [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad)

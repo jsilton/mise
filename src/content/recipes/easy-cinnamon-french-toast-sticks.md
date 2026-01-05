@@ -41,8 +41,3 @@ The secret to French toast that isn't soggy is **Textural Balance** through the 
 5.  **Rotate:** Cook for 2 minutes per side, rotating until all four sides are deep golden brown and slightly crispy.
 6.  **Serve:** Serve hot with a side of warm maple syrup for dipping and fresh berries.
 
-## Serving Suggestions
-
-- [Easy Breakfast Yogurt Popsicles](/silton-mise/recipes/easy-breakfast-yogurt-popsicles)
-- Crispy Bacon
-- [Old-Fashioned Strawberry Ice Cream](/silton-mise/recipes/old-fashioned-strawberry-ice-cream) (for a dessert twist)

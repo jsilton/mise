@@ -40,8 +40,3 @@ The secret to elite shrimp and grits is **Textural Balance** through **The Bacon
 6.  **Assemble:** Spoon a generous mound of cheesy grits into 4 bowls. Top with the shrimp and bacon mixture.
 7.  **Finish:** Garnish with extra scallions and a "High Note" crack of black pepper.
 
-## Serving Suggestions
-
-- [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad) (Mandatory)
-- [Roasted Tomato Basil Soup](/silton-mise/recipes/roasted-tomato-basil-soup) (as a starter)
-- [Classic Martini](/silton-mise/recipes/classic-martini) (Chilled)

@@ -41,7 +41,3 @@ This is a nutritious staple that relies on **Emulsion**. By processing the oats 
 4.  **Bake:** Bake at 400°F for 15-18 minutes until the tops are golden and springy to the touch.
 5.  **Cool:** Let cool in the pan for 10 minutes.
 
-## Serving Suggestions
-
-- [Mango-Rita Green Smoothie](/silton-mise/recipes/mango-rita-green-smoothie)
-- Fresh Apple slices

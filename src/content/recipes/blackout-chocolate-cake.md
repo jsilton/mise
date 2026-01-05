@@ -46,7 +46,3 @@ This is a masterpiece of **Flavor Layering**. To get the "Blackout" depth, we us
 5.  **Bake:** Pour into three 9-inch lined pans. Bake at 350°F for 30-35 minutes. Cool completely.
 6.  **Frost:** Use a rich chocolate ganache or cream cheese frosting.
 
-## Serving Suggestions
-
-- Vanilla Bean Ice Cream
-- [Ultimate Crock-Pot Sipping Chocolate](/silton-mise/recipes/crock-pot-hot-chocolate)

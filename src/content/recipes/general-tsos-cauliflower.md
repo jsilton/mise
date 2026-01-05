@@ -52,8 +52,3 @@ General Tso's chicken was invented in the 1970s by Taiwanese chef Peng Chang-kue
 6.  **Glaze:** Add the crispy cauliflower to the pot. Toss vigorously for 30 seconds until every floret is coated in the glaze.
 7.  **Serve:** Garnish with sesame seeds and serve immediately over steamed rice.
 
-## Serving Suggestions
-
-- [Basmati Rice](/silton-mise/recipes/basmati-rice)
-- [Smashed Cucumber Salad](/silton-mise/recipes/smashed-cucumber-salad)
-- [Chinese Sausage Fried Rice](/silton-mise/recipes/chinese-sausage-fried-rice)

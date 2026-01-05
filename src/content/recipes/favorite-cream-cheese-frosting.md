@@ -38,9 +38,3 @@ This is our baseline **Modularity** component for all elite cakes. The secret to
 4.  **Adjust:** If you prefer a thicker consistency for piping, add the additional 1/4 cup of sugar.
 5.  **Store:** Use immediately or refrigerate for up to 5 days. If chilled, let sit at room temp for 30 minutes and beat briefly before using to restore the "Bounce."
 
-## Serving Suggestions
-
-- [Breakfast Carrot Cake](/silton-mise/recipes/breakfast-carrot-cake)
-- [Red Velvet Cupcakes](/silton-mise/recipes/red-velvet-cupcakes)
-- [Yellow Cake with Chocolate Frosting](/silton-mise/recipes/yellow-cake-with-chocolate-frosting)
-- [Nana's Pound Cake](/silton-mise/recipes/grandmommys-pound-cake)

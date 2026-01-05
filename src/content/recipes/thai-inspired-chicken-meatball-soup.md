@@ -39,8 +39,3 @@ The secret to chicken meatballs that aren't dry is **Culinary Technique** throug
 6.  **Wilt:** Remove from heat. Stir in the baby spinach and lime juice.
 7.  **Serve:** Serve hot over [Basmati Rice](/silton-mise/recipes/basmati-rice).
 
-## Serving Suggestions
-
-- [Smashed Cucumber Salad](/silton-mise/recipes/smashed-cucumber-salad)
-- [Jasmine Rice](/silton-mise/recipes/basmati-rice)
-- [Thai Basil Ginger Spritzer](/silton-mise/recipes/thai-basil-ginger-spritzer)

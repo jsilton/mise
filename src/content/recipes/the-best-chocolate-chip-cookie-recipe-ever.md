@@ -42,8 +42,3 @@ This is the definitive quick dessert for the Kitchen Standard. The secret to Suc
 5.  **Bake:** Bake for 8-10 minutes. **Pull them early**—the Kitchen Standard is a pale, soft center.
 6.  **The Finish:** Let rest on the hot pan for exactly 2 minutes before transferring to a wire rack.
 
-## Serving Suggestions
-
-- Cold Glass of Milk
-- [Old-Fashioned Vanilla Ice Cream](/silton-mise/recipes/old-fashioned-vanilla-ice-cream) (as a sandwich)
-- [Hot Mulled Apple Cider](/silton-mise/recipes/hot-mulled-apple-cider)

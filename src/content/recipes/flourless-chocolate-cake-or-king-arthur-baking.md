@@ -43,8 +43,3 @@ This is the "Kitchen Standard" for Passover and gluten-free celebrations. The se
 6.  **The Glaze:** Heat 1/2 cup heavy cream until steaming. Pour over 1 cup chocolate chips. Let sit for 5 minutes, then whisk until mirror-glossy.
 7.  **Finish:** Pour the ganache over the center of the cake, encouraging it to drip down the sides for **Textural Balance**.
 
-## Serving Suggestions
-
-- [Old-Fashioned Strawberry Ice Cream](/silton-mise/recipes/old-fashioned-strawberry-ice-cream)
-- Fresh Raspberries
-- [Classic Martini](/silton-mise/recipes/classic-martini) (Chilled)

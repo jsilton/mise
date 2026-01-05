@@ -42,8 +42,3 @@ This is a creative fusion dish that applies risotto technique to steel-cut oats,
 5.  **The Emulsion:** Fold in the mashed banana. Cook for 2 more minutes until the banana has melted into the oats, creating a creamy "Bounce."
 6.  **Serve:** Divide into bowls. Top with the vinegar-soaked raisins and a few generous shavings of Parmesan cheese for the final savory **High Note**.
 
-## Serving Suggestions
-
-- [Blueberry Oat Breakfast Bars](/silton-mise/recipes/blueberry-oat-breakfast-bars)
-- Fresh Sliced Pears
-- [Classic Martini](/silton-mise/recipes/classic-martini) (if serving as a savory brunch course)

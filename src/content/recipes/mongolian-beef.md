@@ -42,8 +42,3 @@ Mongolian beef is a Chinese-American restaurant creation (nothing to do with Mon
 6.  **Toss:** Toss vigorously over high heat for 30-60 seconds until the sauce bubbles and lacquers the beef.
 7.  **Serve:** Serve immediately over [Jasmine Rice](/silton-mise/recipes/homemade-rice-pilaf).
 
-## Serving Suggestions
-
-- [Jasmine Rice](/silton-mise/recipes/homemade-rice-pilaf) (Rinse 3 times!)
-- [Smashed Cucumber Salad](/silton-mise/recipes/smashed-cucumber-salad)
-- Steamed Broccoli with Garlic

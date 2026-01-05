@@ -40,8 +40,3 @@ This is the baseline for high-speed **Modularity**. The secret to a mug cake tha
 5.  **The Finish:** Let stand for 1 minute before eating. This allows the crumb to set and the center to become molten.
 6.  **Serve:** Dust with a tiny bit of powdered sugar if feeling fancy.
 
-## Serving Suggestions
-
-- [Old-Fashioned Vanilla Ice Cream](/silton-mise/recipes/old-fashioned-vanilla-ice-cream)
-- Fresh Raspberries
-- [Classic Martini](/silton-mise/recipes/classic-martini) (Chilled)

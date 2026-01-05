@@ -43,8 +43,3 @@ Zucchini noodles ("zoodles") became a low-carb pasta alternative in the 2000s. T
 6.  **Toss:** Toss vigorously until every strand is coated in the green silk.
 7.  **Serve:** Serve immediately.
 
-## Serving Suggestions
-
-- [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad)
-- [Roasted Green Bean "Fries"](/silton-mise/recipes/roasted-green-bean-fries)
-- [Thai Basil Ginger Spritzer](/silton-mise/recipes/thai-basil-ginger-spritzer)

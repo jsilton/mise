@@ -43,7 +43,3 @@ Asian-inspired grain bowls with glazed proteins became hugely popular in the 201
 5.  **Assemble:** Build bowls with a base of [Jasmine Rice](/silton-mise/recipes/homemade-rice-pilaf). Top with salmon, avocado, edamame, and cucumber salad.
 6.  **Finish:** Drizzle with sriracha mayo and sprinkle with sesame seeds.
 
-## Serving Suggestions
-
-- [Smashed Cucumber Salad](/silton-mise/recipes/smashed-cucumber-salad)
-- [Miso Soup](/silton-mise/recipes/miso-soup)

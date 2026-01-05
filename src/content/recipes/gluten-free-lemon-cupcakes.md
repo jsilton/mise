@@ -48,8 +48,3 @@ The challenge with gluten-free baking is preventing a gritty or dry texture. We 
 6.  **The Frosting:** Beat butter until creamy. Add lemon juice and 1 cup of sugar. Beat until smooth. Gradually add remaining sugar and milk until the frosting holds a stiff peak.
 7.  **Finish:** Frost generously. Store in an airtight container for up to 4 days.
 
-## Serving Suggestions
-
-- [Elderberry Syrup](/silton-mise/recipes/elderberry-syrup) (as a drizzle)
-- Fresh Raspberries
-- [Classic Martini](/silton-mise/recipes/classic-martini) (Chilled)

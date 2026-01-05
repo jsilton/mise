@@ -42,8 +42,3 @@ Fettuccine Alfredo was created in 1908 by Alfredo di Lelio in Rome for his pregn
 5.  **Season:** Stir in salt, pepper, and a tiny pinch of nutmeg if using.
 6.  **Toss:** Add your hot, cooked pasta directly to the skillet and toss until every strand is coated.
 
-## Pairs With
-
-- Fettuccine or Penne
-- [Chicken Milanese](/silton-mise/recipes/chicken-milanese)
-- Steamed Broccoli with Garlic

@@ -37,8 +37,3 @@ The secret to restaurant-quality slow-cooker ramen is **Culinary Technique** thr
 5.  **Assemble:** Boil ramen noodles separately for 2 minutes. Divide noodles among bowls.
 6.  **Serve:** Ladle the hot miso broth and chicken over the noodles. Top with a soft-boiled egg, nori, and sesame seeds.
 
-## Serving Suggestions
-
-- [Smashed Cucumber Salad](/silton-mise/recipes/smashed-cucumber-salad)
-- [Japanese Style Trout with Dashi](/silton-mise/recipes/japanese-style-trout-with-dashi)
-- [Classic Martini](/silton-mise/recipes/classic-martini) (Chilled)

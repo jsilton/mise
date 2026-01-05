@@ -48,8 +48,3 @@ Galettes are rustic free-form tarts from France, though Italians have embraced t
 7.  **Bake:** Bake for 25-30 minutes until the crust is deep golden brown and the tomatoes are concentrated.
 8.  **Serve:** Garnish with flaky salt, chili flakes, and fresh herbs for the mandatory **High Note**.
 
-## Serving Suggestions
-
-- [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad)
-- [Classic Martini](/silton-mise/recipes/classic-martini) (Chilled)
-- [Roasted Green Bean "Fries"](/silton-mise/recipes/roasted-green-bean-fries)

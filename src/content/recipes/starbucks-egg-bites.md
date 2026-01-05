@@ -40,8 +40,3 @@ The secret to the iconic "Velvet" texture of professional egg bites is **Culinar
 6.  **The Finish:** Let rest in the pan for 10 minutes (mandatory). Gently pop them out with a knife.
 7.  **Serve:** Serve immediately or refrigerate for up to 5 days.
 
-## Serving Suggestions
-
-- [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad)
-- Fresh Sliced Tomatoes
-- [Mango-Rita Green Smoothie](/silton-mise/recipes/mango-rita-green-smoothie)

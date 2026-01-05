@@ -40,8 +40,3 @@ This slow-cooker hoisin chicken uses a simple reduction technique: after cooking
 4.  **Bind:** Pour the reduced glaze over the shredded chicken. Toss until every strand is lacquered.
 5.  **Serve:** Garnish with scallions and serve immediately over rice or in lettuce wraps.
 
-## Serving Suggestions
-
-- [Chicken Lettuce Wraps](/silton-mise/recipes/chicken-lettuce-wraps)
-- [Smashed Cucumber Salad](/silton-mise/recipes/smashed-cucumber-salad)
-- [Homemade Rice Pilaf](/silton-mise/recipes/homemade-rice-pilaf)

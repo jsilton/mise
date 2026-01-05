@@ -35,8 +35,3 @@ This dish is a masterclass in **Flavor Balancing**: the sweetness of the peaches
 4.  **Broil:** Transfer the skillet to the oven (under the broiler). Broil for 4-5 minutes until the peaches are charred at the edges and the pork hits 145°F.
 5.  **Finish:** Remove from oven. Sprinkle with feta, fresh basil, and chili flakes. Let rest for 5 minutes.
 
-## Serving Suggestions
-
-- [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad)
-- [Cilantro Lime Rice](/silton-mise/recipes/cilantro-lime-rice) or [Homemade Rice Pilaf](/silton-mise/recipes/homemade-rice-pilaf)
-- Glass of Rosé

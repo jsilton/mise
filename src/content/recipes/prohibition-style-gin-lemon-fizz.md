@@ -40,8 +40,3 @@ This cocktail is a masterclass in **Culinary Technique** and aromatic layering. 
 5.  **Effervescence:** Top each glass with 4 oz of Spindrift Lemon. Stir once, very gently, to preserve the bubbles.
 6.  **The Finishing Touch:** Add 1 final dash of orange bitters to the surface of each drink. Garnish with a lemon peel twist (expressed over the rim).
 
-## Serving Suggestions
-
-- [Oreo Truffles](/silton-mise/recipes/easy-oreo-truffles)
-- [Mediterranean Pinwheels](/silton-mise/recipes/mediterranean-pinwheels-vegetarian-appetizer-vegan-and-low-carb-options)
-- Smoked Almonds

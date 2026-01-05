@@ -38,8 +38,3 @@ This is a masterclass in **Textural Balance** through **The Burst-Tomato Method*
 5.  **Bake:** Roast for 10-15 more minutes until the chicken reaches **160°F** (it will carry to 165°F) and the tomatoes have just burst.
 6.  **Finish:** Garnish with a massive amount of fresh basil and cracked black pepper for the mandatory **High Note**.
 
-## Serving Suggestions
-
-- [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad)
-- [Homemade Rice Pilaf](/silton-mise/recipes/homemade-rice-pilaf)
-- Warm [Homemade Naan](/silton-mise/recipes/homemade-naan)

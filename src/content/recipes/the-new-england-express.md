@@ -41,8 +41,3 @@ This cocktail is a masterclass in **Updated Classic** flavor layering. The secre
 5.  **Effervescence:** Top each glass with a splash of club soda for the mandatory "Bounce."
 6.  **Garnish:** Garnish with a fresh thyme sprig and a lime slice for the final aromatic **High Note**.
 
-## Serving Suggestions
-
-- [Nana's Pecan Pie](/silton-mise/recipes/grandmommys-pecan-pie)
-- [Oreo Truffles](/silton-mise/recipes/easy-oreo-truffles)
-- [Cranberry Orange Sauce](/silton-mise/recipes/cranberry-orange-sauce) (on a cracker with brie)

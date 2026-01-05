@@ -37,8 +37,3 @@ The Dutch Baby is a masterclass in **Culinary Technique**. The secret to the mas
 6.  **Finish:** Remove from the oven. The center will collapse slightly—this is mandatory.
 7.  **Serve:** Dust with powdered sugar and squeeze fresh lemon juice over the top for the mandatory **High Note**.
 
-## Serving Suggestions
-
-- Crispy Bacon
-- [Easy Breakfast Yogurt Popsicles](/silton-mise/recipes/easy-breakfast-yogurt-popsicles)
-- Fresh Peaches or Berries

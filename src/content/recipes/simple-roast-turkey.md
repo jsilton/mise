@@ -38,8 +38,3 @@ This is the ultimate holiday **Project**. The secret to a bird that is succulent
 6.  **Bake:** Reduce heat to 350°F. Roast for 1.5 - 2 hours until the thigh reaches **165°F**.
 7.  **The Finish:** Transfer to a board and **let rest for 30 minutes** (mandatory for moisture).
 
-## Serving Suggestions
-
-- [Perfect Cranberry Sauce](/silton-mise/recipes/perfect-cranberry-sauce)
-- [Nana's Turkey Dressing](/silton-mise/recipes/grandmommys-turkey-dressing)
-- [Nana Ruth's Applesauce](/silton-mise/recipes/nana-ruths-applesauce)

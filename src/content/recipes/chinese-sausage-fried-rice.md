@@ -44,8 +44,3 @@ Fried rice is a Cantonese classic for using up leftover rice. The secret to sepa
 5.  **Season:** Add soy sauce, oyster sauce, peas, and the remaining sesame oil. Toss vigorously for 2 minutes until everything is heated through and the rice is coated in a glossy glaze.
 6.  **Fold:** Gently fold the egg ribbons back into the rice. Serve immediately.
 
-## Serving Suggestions
-
-- [Chinese Eggplant with Garlic Sauce](/silton-mise/recipes/chinese-eggplant-with-garlic-sauce)
-- [Smashed Cucumber Salad](/silton-mise/recipes/smashed-cucumber-salad)
-- Extra Chili Oil

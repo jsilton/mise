@@ -37,8 +37,3 @@ The secret to "Kitchen Standard" glazed carrots is **Culinary Technique** throug
 4.  **Glaze:** Return the carrots to the pan. Toss vigorously over medium heat for 2-3 minutes until the carrots are perfectly coated in a glossy, thick glaze.
 5.  **Finish:** Stir in fresh thyme if using. Serve immediately.
 
-## Serving Suggestions
-
-- [Roast Turkey Breast](/silton-mise/recipes/roast-turkey-breast)
-- [Brisket with Carrots and Onions](/silton-mise/recipes/brisket-with-carrots-and-onions)
-- [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad)

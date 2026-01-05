@@ -42,7 +42,3 @@ Paella is not a "stir-fry." The soul of this dish is the **Socarrat**: the layer
 8.  **Rest:** Turn off the heat. Cover with a clean towel and let rest for 5 minutes.
 9.  **Finish:** Garnish with parsley and lots of lemon.
 
-## Serving Suggestions
-
-- [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad)
-- Glass of cold Albariño

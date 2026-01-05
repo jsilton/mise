@@ -38,8 +38,3 @@ This is a **Updated Classic** update to a classic summer crisp. The secret to it
 4.  **Bake:** Sprinkle the crumble generously over the fruit. Bake at 350°F for 30 minutes until the fruit is bubbling and the topping is a deep mahogany.
 5.  **Serve:** Let cool for 10 minutes to allow the syrup to set. Serve warm with a scoop of [Vanilla Ice Cream](/silton-mise/recipes/old-fashioned-vanilla-ice-cream).
 
-## Serving Suggestions
-
-- [Old-Fashioned Vanilla Ice Cream](/silton-mise/recipes/old-fashioned-vanilla-ice-cream)
-- [Hot Mulled Apple Cider](/silton-mise/recipes/hot-mulled-apple-cider)
-- [Classic Martini](/silton-mise/recipes/classic-martini) (Chilled)

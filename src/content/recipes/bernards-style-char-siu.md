@@ -46,7 +46,3 @@ Char siu is Cantonese barbecued pork, traditionally hung and roasted in special 
 6.  **Finish:** Reduce oven to 375°F. Roast for another 20-25 minutes, basting every 10 minutes, until the internal temp is 145°F and the edges are charred and sticky.
 7.  **Rest:** Let rest for 10 minutes before slicing into thin medallions.
 
-## Serving Suggestions
-
-- Slice and serve on top of [Cantonese Wonton Soup](/silton-mise/recipes/cantonese-shrimp-and-pork-wontons)
-- Serve with Jasmine Rice and [Smashed Cucumber Salad](/silton-mise/recipes/smashed-cucumber-salad)

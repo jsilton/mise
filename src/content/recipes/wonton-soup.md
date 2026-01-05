@@ -45,8 +45,3 @@ Cantonese wonton soup features delicate pork wontons in clear, aromatic broth. S
 5.  **Bind:** Heat the [Wonton Broth](/silton-mise/recipes/cantonese-wonton-broth) to boiling. Ladle the hot broth into the serving bowls.
 6.  **Serve:** Transfer the wontons and bok choy to the bowls. Garnish with scallions and chili oil for the final **High Note**.
 
-## Serving Suggestions
-
-- [Cantonese Wonton Broth](/silton-mise/recipes/cantonese-wonton-broth)
-- [Smashed Cucumber Salad](/silton-mise/recipes/smashed-cucumber-salad)
-- [Chinese Eggplant with Garlic Sauce](/silton-mise/recipes/chinese-eggplant-with-garlic-sauce)

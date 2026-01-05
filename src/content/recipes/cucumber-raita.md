@@ -38,8 +38,3 @@ Raita is the essential cooling side for spicy Indian dishes. To achieve the **Ki
 3.  **Mix:** In a bowl, whisk the yogurt until smooth. Stir in the squeezed cucumber, cilantro, cumin, salt, and sugar.
 4.  **Finish:** Taste and adjust salt. Let sit for 10 minutes in the fridge before serving to let the flavors meld.
 
-## Serving Suggestions
-
-- [Chicken Tikka Masala](/silton-mise/recipes/chicken-tikka-masala)
-- [Lamb Keema Matar](/silton-mise/recipes/lamb-keema-matar)
-- [Basmati Rice](/silton-mise/recipes/basmati-rice)

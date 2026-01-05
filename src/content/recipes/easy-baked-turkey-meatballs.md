@@ -43,8 +43,3 @@ Turkey meatballs often suffer from being dry and rubbery. We solve this with **T
 5.  **Bake:** Bake for 25-30 minutes until the internal temperature reaches 165°F and there is no pink in the center.
 6.  **Serve:** Serve hot with your favorite tomato sauce or over spaghetti squash.
 
-## Serving Suggestions
-
-- [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad)
-- [Zucchini Noodles with Avocado Pesto](/silton-mise/recipes/zucchini-noodles-with-avocado-pesto-and-shrimp)
-- [Garlic Bread](/silton-mise/recipes/garlic-bread)

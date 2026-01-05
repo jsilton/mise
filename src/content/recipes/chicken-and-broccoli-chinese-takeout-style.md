@@ -48,8 +48,3 @@ Chicken and broccoli became a Chinese-American takeout staple in the mid-20th ce
 6.  **The Glaze:** Return broccoli to the pan. Whisk the sauce again (cornstarch settles!) and pour it in.
 7.  **Finish:** Toss vigorously for 1 minute until the sauce thickens into a glossy glaze. Serve immediately.
 
-## Serving Suggestions
-
-- [Basmati Rice](/silton-mise/recipes/basmati-rice) or [Cilantro Lime Rice](/silton-mise/recipes/cilantro-lime-rice)
-- [Smashed Cucumber Salad](/silton-mise/recipes/smashed-cucumber-salad)
-- [Chinese Sausage Fried Rice](/silton-mise/recipes/chinese-sausage-fried-rice)

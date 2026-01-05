@@ -42,7 +42,3 @@ This dish is a play on Korean Japchae but served as a bright, protein-heavy sala
 4.  **Crunch:** Fold in the raw bell peppers, fresh herbs, and toasted sesame seeds.
 5.  **Serve:** Serve warm or at room temperature. The noodles will absorb the flavors as they sit.
 
-## Serving Suggestions
-
-- [Korean Pickled Cucumbers](/silton-mise/recipes/korean-pickled-cucumbers)
-- Extra drizzle of toasted sesame oil

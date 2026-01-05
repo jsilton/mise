@@ -43,8 +43,3 @@ This is the definitive "Summer Project" cake. The secret to its Success is **The
 6.  **Bake:** Bake for 10 minutes at 350°F, then **reduce heat to 325°F**. Roast for 50-60 minutes until the top is golden and a tester comes out clean.
 7.  **Serve:** Let cool completely in the pan. Serve with lightly whipped cream.
 
-## Serving Suggestions
-
-- [Old-Fashioned Vanilla Ice Cream](/silton-mise/recipes/old-fashioned-vanilla-ice-cream)
-- Fresh Mint sprigs
-- [Classic Martini](/silton-mise/recipes/classic-martini) (Chilled)

@@ -45,7 +45,3 @@ This is a modern Italian-American weeknight staple that combines the convenience
 7.  **Bind:** Toss vigorously over medium heat, adding pasta water a tablespoon at a time until the sauce is glossy and the spinach is wilted.
 8.  **Finish:** Stir in the Parmesan and plenty of black pepper.
 
-## Serving Suggestions
-
-- [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad)
-- Warm Garlic Bread

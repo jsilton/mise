@@ -42,7 +42,3 @@ This represents the lighter side of Italian-American cooking that emerged in the
 5.  **Bind:** Toss vigorously over medium heat. The spinach will wilt in seconds. Stir in the Parmesan. Add more pasta water if needed until the sauce is glossy and coats the noodles.
 6.  **Serve:** Garnish with extra Parmesan and black pepper.
 
-## Serving Suggestions
-
-- [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad)
-- Roasted Cherry Tomatoes

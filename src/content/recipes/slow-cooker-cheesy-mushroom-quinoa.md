@@ -37,8 +37,3 @@ The secret to slow-cooker quinoa that isn't a soggy porridge is **Culinary Techn
 4.  **Bind:** Top with the Italian cheese blend. Cover and cook for another 15 minutes until molten.
 5.  **Finish:** Stir once more. Garnish with fresh green onions for the mandatory **High Note**.
 
-## Serving Suggestions
-
-- [Roasted Tomato Basil Soup](/silton-mise/recipes/roasted-tomato-basil-soup)
-- [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad)
-- Roasted Cherry Tomatoes

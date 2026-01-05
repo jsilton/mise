@@ -42,8 +42,3 @@ This is the "Kitchen Standard" for technical pork roasting. The secret to Succes
 5.  **Rest:** Transfer to a board and **let rest for 10 minutes** (mandatory).
 6.  **Serve:** Remove twine, slice into 1-inch rounds, and garnish with the roasted rosemary.
 
-## Serving Suggestions
-
-- [Patate al Forno](/silton-mise/recipes/patate-al-forno)
-- [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad)
-- [Roasted Green Bean "Fries"](/silton-mise/recipes/roasted-green-bean-fries)

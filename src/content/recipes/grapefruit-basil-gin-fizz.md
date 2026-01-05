@@ -39,9 +39,3 @@ The secret to a "Kitchen Standard" herbal cocktail is **Culinary Technique** thr
 5.  **The Finishing Touch:** Add 3 dashes of bitters directly onto the surface.
 6.  **The Slap:** Take the basil sprig, slap it between your palms to release the scent, and tuck it into the ice as a garnish.
 
-## Serving Suggestions
-
-- [Oreo Truffles](/silton-mise/recipes/easy-oreo-truffles)
-- [Mediterranean Pinwheels](/silton-mise/recipes/mediterranean-pinwheels-vegetarian-appetizer-vegan-and-low-carb-options)
-- Grilled Shrimp
-- [Zucchini Herb Fritters](/silton-mise/recipes/zucchini-herb-fritters-with-garlic-yogurt)

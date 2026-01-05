@@ -37,7 +37,3 @@ This dish is about **Flavor Layering and Caramelization**. We use black pepper a
 4.  **Toss:** Return the chicken to the pan. Toss vigorously over high heat until the chicken is lacquered in the black pepper glaze.
 5.  **Serve:** Garnish with cilantro. Serve over rice.
 
-## Serving Suggestions
-
-- [Jasmine Rice](/silton-mise/recipes/homemade-rice-pilaf)
-- [Smashed Cucumber Salad](/silton-mise/recipes/smashed-cucumber-salad)

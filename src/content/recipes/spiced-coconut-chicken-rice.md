@@ -40,8 +40,3 @@ This is a high-performance nutritious meal that relies on **Culinary Technique**
 7.  **Wilt:** Remove from heat. Layer the kale ribbons over the rice. Cover and let stand for 10 minutes (The Steam Cycle).
 8.  **Serve:** Fluff the rice and chicken together. Serve with pickled chiles and lime wedges for the final **High Note**.
 
-## Serving Suggestions
-
-- [Smashed Cucumber Salad](/silton-mise/recipes/smashed-cucumber-salad)
-- [Cucumber Raita](/silton-mise/recipes/cucumber-raita)
-- [Homemade Naan](/silton-mise/recipes/homemade-naan)

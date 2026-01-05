@@ -43,8 +43,3 @@ These are the ultimate **Modularity** component. We treat these as a "Base" beca
 5.  **Set:** Place on a plate and chill in the refrigerator for at least 20 minutes before eating.
 6.  **Store:** Keep in an airtight container in the fridge for up to a week.
 
-## Serving Suggestions
-
-- [Easy Breakfast Yogurt Popsicles](/silton-mise/recipes/easy-breakfast-yogurt-popsicles)
-- Fresh Apple Slices
-- [Chocolate Chia Pudding](/silton-mise/recipes/chocolate-chia-pudding)

@@ -48,8 +48,3 @@ Ground turkey breast is notoriously dry since it's so lean. The trick is making 
 6.  **Toss:** Add the hot meatballs to the skillet. Toss until every meatball is lacquered in the sauce.
 7.  **Finish:** Garnish with sesame seeds and extra scallion greens.
 
-## Serving Suggestions
-
-- [Jasmine Rice](/silton-mise/recipes/homemade-rice-pilaf)
-- [Smashed Cucumber Salad](/silton-mise/recipes/smashed-cucumber-salad)
-- Steamed Bok Choy

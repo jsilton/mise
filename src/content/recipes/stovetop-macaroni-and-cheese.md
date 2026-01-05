@@ -40,8 +40,3 @@ The secret to "Kitchen Standard" stovetop mac is **Culinary Technique** through 
 6.  **Bind:** Return the hot pasta to the saucepan. Toss vigorously until every noodle is saturated in the cheese silk.
 7.  **Serve:** Serve immediately while hot. (Note: if baking, top with breadcrumbs and broil for 2 minutes).
 
-## Serving Suggestions
-
-- [Roasted Tomato Basil Soup](/silton-mise/recipes/roasted-tomato-basil-soup) (Mandatory)
-- [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad)
-- [Roasted Green Bean "Fries"](/silton-mise/recipes/roasted-green-bean-fries)

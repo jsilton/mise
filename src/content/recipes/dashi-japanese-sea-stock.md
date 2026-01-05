@@ -32,8 +32,3 @@ Dashi is the foundation of Japanese cuisine and a masterclass in **Culinary Tech
 5.  **Strain:** Pour through a fine-mesh sieve or coffee filter into a clean bowl. Do not squeeze the flakes, as this will cloud the stock.
 6.  **Store:** Use immediately or refrigerate for up to 4 days.
 
-## Serving Suggestions
-
-- [Miso Soup](/silton-mise/recipes/miso-soup)
-- [Japanese-Style Trout with Dashi](/silton-mise/recipes/japanese-style-trout-with-dashi)
-- [Yaki Udon](/silton-mise/recipes/yaki-udon)

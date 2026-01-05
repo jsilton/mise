@@ -41,8 +41,3 @@ The secret to a great Keema is **Deep Browning**. You must sear the ground lamb 
 5.  **Finish:** Stir in the Garam Masala, lemon juice, and cilantro.
 6.  **Serve:** Serve with warm Naan or over rice.
 
-## Serving Suggestions
-
-- [Basmati Rice](/silton-mise/recipes/basmati-rice)
-- Warm Naan
-- [Korean Pickled Cucumbers](/silton-mise/recipes/korean-pickled-cucumbers) (A great cooling side!)

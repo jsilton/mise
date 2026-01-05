@@ -39,8 +39,3 @@ The secret to a professional-grade cookie cake is **Textural Balance** through t
 6.  **Bake:** Bake for 20-25 minutes until the edges are deep golden brown and the center is set but still soft.
 7.  **Cool:** Let cool completely in the pan before slicing. This allows the internal structure to firm up.
 
-## Serving Suggestions
-
-- [Old-Fashioned Vanilla Ice Cream](/silton-mise/recipes/old-fashioned-vanilla-ice-cream)
-- [Favorite Cream Cheese Frosting](/silton-mise/recipes/favorite-cream-cheese-frosting) (piped around the edges)
-- Cold Glass of Milk

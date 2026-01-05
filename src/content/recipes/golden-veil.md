@@ -42,8 +42,3 @@ The Golden Veil is a masterclass in **Culinary Technique** and flavor layering. 
 5.  **The Crown:** Top with the chilled Prosecco. Do not stir—let the bubbles naturally integrate the layers.
 6.  **The Slap:** Take the thyme sprig, slap it between your palms, and place it in the glass. Express the lemon peel over the rim and drop it in for the mandatory **High Note**.
 
-## Serving Suggestions
-
-- [Extraordinary Chocolate Chip Cookie](/silton-mise/recipes/extraordinary-chocolate-chip-cookie)
-- [Mediterranean Pinwheels](/silton-mise/recipes/mediterranean-pinwheels-vegetarian-appetizer-vegan-and-low-carb-options)
-- Smoked Gouda

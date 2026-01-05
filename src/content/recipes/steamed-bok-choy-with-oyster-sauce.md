@@ -40,8 +40,3 @@ This classic Cantonese preparation balances the delicate leaves and firmer stems
 5.  **Finish:** Remove lid. Drizzle the oyster sauce, soy sauce, and sesame oil over the top. Toss gently to coat.
 6.  **Serve:** Serve immediately, topped with extra fried garlic if desired.
 
-## Pairs With
-
-- [Shrimp with Lobster Sauce](/silton-mise/recipes/shrimp-lobster-sauce)
-- [Miso-Glazed Salmon](/silton-mise/recipes/miso-salmon-with-bok-choy)
-- [Honey Sesame Chicken](/silton-mise/recipes/honey-sesame-chicken)

@@ -38,8 +38,3 @@ The secret to restaurant-quality spareribs is **Culinary Technique** through **T
 6.  **Glaze:** Brush with remaining sauce. Grill for 2-3 minutes per side until charred and the lacquer is bubbling.
 7.  **Serve:** Transfer to a platter. Serve with extra lime wedges for the mandatory **Acid Balance**.
 
-## Serving Suggestions
-
-- [Smashed Cucumber Salad](/silton-mise/recipes/smashed-cucumber-salad)
-- [Basmati Rice](/silton-mise/recipes/basmati-rice)
-- [Simply Seasoned Korean Spinach Salad](/silton-mise/recipes/simply-seasoned-korean-spinach-salad)

@@ -38,8 +38,3 @@ This is the "Kitchen Standard" for technical comfort food. The secret to its Suc
 5.  **Finish:** Stir in the lemon juice and fresh parsley.
 6.  **Serve:** Ladle into massive bowls. Serve immediately to maintain **Textural Balance**.
 
-## Serving Suggestions
-
-- [Garlic Bread](/silton-mise/recipes/garlic-bread)
-- [Sourdough Grilled Cheese](/silton-mise/recipes/grilled-cheese-and-tomato-soup)
-- [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad)

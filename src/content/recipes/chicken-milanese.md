@@ -49,8 +49,3 @@ Milanese-style breaded cutlets originated in Milan and traditionally use veal, t
 5.  **Drain:** Transfer to a wire rack or paper-towel-lined plate. Season with a tiny pinch of flaky salt immediately.
 6.  **Assemble:** Place the hot chicken on a plate. Pile a generous handful of the [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad) on top. Squeeze a fresh lemon wedge over everything.
 
-## Serving Suggestions
-
-- [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad) (Mandatory)
-- [Pasta al Limone](/silton-mise/recipes/lemon-ricotta-pasta)
-- [Roasted Tomato Basil Soup](/silton-mise/recipes/roasted-tomato-basil-soup)

@@ -42,8 +42,3 @@ These are the definitive Executive **Modularity** components for breakfast. The 
 6.  **Bake:** Preheat oven to 400°F (high heat for Crunch vertical rise). Bake for 10-15 minutes until a toothpick comes out clean.
 7.  **Serve:** Best served warm with salted butter.
 
-## Serving Suggestions
-
-- [Mango-Rita Green Smoothie](/silton-mise/recipes/mango-rita-green-smoothie)
-- Fresh Sliced Oranges
-- [Easy Breakfast Yogurt Popsicles](/silton-mise/recipes/easy-breakfast-yogurt-popsicles)

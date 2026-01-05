@@ -40,8 +40,3 @@ The secret to a "Kitchen Standard" slow-cooker braise is **Fond Extraction**. Ma
 6.  **Cook:** Cover and cook on **HIGH for 2.5–3 hours** (or LOW for 5-6 hours) until the chicken is fork-tender.
 7.  **Serve:** Serve hot over [Miso-Mashed Potatoes](/silton-mise/recipes/miso-mashed-potatoes) or steamed rice.
 
-## Serving Suggestions
-
-- [Miso-Mashed Potatoes](/silton-mise/recipes/miso-mashed-potatoes)
-- [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad)
-- Warm [Anadama Bread](/silton-mise/recipes/anadama-bread)

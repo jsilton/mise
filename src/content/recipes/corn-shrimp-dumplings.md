@@ -43,8 +43,3 @@ Corn and shrimp dumplings are a modern dim sum creation showcasing summer sweetn
 5.  **Option (Boil):** Alternatively, drop into boiling water for 3 minutes until they float.
 6.  **Serve:** Serve immediately with a side of soy sauce and [quick Pickled Red Onions](/silton-mise/recipes/pickled-red-onions) or chili oil.
 
-## Serving Suggestions
-
-- [Smashed Cucumber Salad](/silton-mise/recipes/smashed-cucumber-salad)
-- [Cantonese Wonton Broth](/silton-mise/recipes/cantonese-wonton-broth)
-- [Chinese Eggplant with Garlic Sauce](/silton-mise/recipes/chinese-eggplant-with-garlic-sauce)

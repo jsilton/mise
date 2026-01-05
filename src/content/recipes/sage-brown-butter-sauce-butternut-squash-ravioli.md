@@ -42,8 +42,3 @@ Brown butter and sage is a classic Northern Italian sauce, especially popular wi
 6.  **Toss:** Add the cooked ravioli to the pan. Toss for 1 minute until every pillow is coated in the brown butter silk.
 7.  **Serve:** Garnish with extra Parmesan and a crack of black pepper.
 
-## Serving Suggestions
-
-- [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad) (Mandatory)
-- [Garlic Bread](/silton-mise/recipes/garlic-bread)
-- [Classic Martini](/silton-mise/recipes/classic-martini) (Chilled)

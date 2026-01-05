@@ -42,8 +42,3 @@ This is the ultimate 35-minute quick sheet pan meal. The secret to success is **
 5.  **Finish:** Return the pan to the oven and roast for 10-12 minutes until the salmon flakes easily and the asparagus is tender-crisp.
 6.  **Serve:** Garnish with fresh parsley and serve immediately.
 
-## Serving Suggestions
-
-- [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad)
-- [Cucumber Raita](/silton-mise/recipes/cucumber-raita)
-- [Classic Martini](/silton-mise/recipes/classic-martini) (Chilled)

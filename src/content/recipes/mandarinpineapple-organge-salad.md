@@ -39,8 +39,3 @@ This is a **Updated Classic** update to a classic family "Congealed Salad." The 
 5.  **Chill:** Refrigerate for **at least 4 hours** (ideally overnight) until perfectly congealed and firm.
 6.  **Serve:** Serve chilled as a bright side dish or a light dessert.
 
-## Serving Suggestions
-
-- [Roast Turkey Breast](/silton-mise/recipes/roast-turkey-breast)
-- [Buttermilk Baked Chicken](/silton-mise/recipes/buttermilk-baked-chicken)
-- [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad)

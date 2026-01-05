@@ -45,8 +45,3 @@ Cu chao mian is a Shanghai classic characterized by its dark, glossy noodles coa
 5.  **Finish:** Add the bok choy and the cooked pork. Toss for 1 minute until the greens are just wilted but the stems stay crunchy.
 6.  **Serve:** Serve immediately. Add a dash of Chinese black vinegar at the table for the mandatory **Acid Balance**.
 
-## Serving Suggestions
-
-- [Smashed Cucumber Salad](/silton-mise/recipes/smashed-cucumber-salad)
-- [Cantonese Shumai (Siu Mai)](/silton-mise/recipes/cantonese-shumai-siu-mai)
-- [Miso Soup](/silton-mise/recipes/miso-soup)

@@ -42,8 +42,3 @@ One-pan baked pastas became wildly popular in the 2010s, and this version uses B
 6.  **Bind:** Remove from oven. Remove the lemon slices. **Stir vigorously** for 1 minute until the Boursin has emulsified into a creamy, glossy sauce.
 7.  **Serve:** Garnish with extra black pepper and serve hot.
 
-## Serving Suggestions
-
-- [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad)
-- [Roasted Green Bean "Fries"](/silton-mise/recipes/roasted-green-bean-fries)
-- [Classic Martini](/silton-mise/recipes/classic-martini) (Chilled)

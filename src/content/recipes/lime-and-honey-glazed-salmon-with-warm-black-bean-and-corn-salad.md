@@ -40,8 +40,3 @@ This Mexican-inspired salmon dish features a lime-honey glaze that caramelizes d
 5.  **Finish:** Remove from heat. Add the second lime's juice, cilantro, and spinach. Toss until the spinach just collapses.
 6.  **Serve:** Mound the warm bean salad in bowls and top with the glazed salmon.
 
-## Serving Suggestions
-
-- [Guacamole](/silton-mise/recipes/guacamole)
-- [Cilantro Lime Rice](/silton-mise/recipes/cilantro-lime-rice)
-- [Pickled Red Onions](/silton-mise/recipes/pickled-red-onions)

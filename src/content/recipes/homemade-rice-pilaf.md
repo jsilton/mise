@@ -38,8 +38,3 @@ This is a versatile side dish that pairs with a wide variety of mains. The key t
 6.  **Steaming:** Remove from heat. **Do not open the lid.** Let the rice steam for 10 minutes (essential for structure).
 7.  **Finishing:** Remove lid, stir in dried parsley, and fluff with a fork.
 
-## Serving Suggestions
-
-- [Easy Pan-Seared Chicken Breasts](/silton-mise/recipes/easy-pan-seared-chicken-breasts)
-- [Turkey Burgers](/silton-mise/recipes/turkey-burgers)
-- [Greek Turkey Meatball Gyro](/silton-mise/recipes/greek-turkey-meatball-gyro-with-tzatziki)

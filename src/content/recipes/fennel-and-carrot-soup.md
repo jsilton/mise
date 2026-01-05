@@ -41,8 +41,3 @@ This soup is a masterclass in **Updated Classic** flavor development. The secret
 6.  **The Crown:** Whisk the crème fraîche and maple syrup together.
 7.  **Serve:** Ladle soup into bowls. Top with a swirl of maple crème fraîche and the brown-butter chestnuts.
 
-## Serving Suggestions
-
-- [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad)
-- Warm [Anadama Bread](/silton-mise/recipes/anadama-bread)
-- [Classic Martini](/silton-mise/recipes/classic-martini) (Chilled)

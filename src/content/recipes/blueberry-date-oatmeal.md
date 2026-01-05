@@ -39,8 +39,3 @@ This is a high-performance nutritious breakfast. We use the **Volume Hack**: add
 4.  **The Berry Finish:** Remove from heat. Gently fold in the frozen blueberries. Let sit for 1 minute—the residual heat will thaw the berries while keeping them whole.
 5.  **Serve:** Top with a pinch of sea salt and cinnamon.
 
-## Serving Suggestions
-
-- A dollop of Greek Yogurt
-- A drizzle of Almond Butter
-- [Easy Breakfast Yogurt Popsicles](/silton-mise/recipes/easy-breakfast-yogurt-popsicles)

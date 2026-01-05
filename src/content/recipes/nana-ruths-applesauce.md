@@ -36,8 +36,3 @@ This is a baseline **Updated Classic** recipe traditional for Rosh Hashanah, Tha
 6.  **The Crush:** Use a potato masher or the side of a heavy spoon to crush the apples against the side of the pot into a chunky, uniform sauce.
 7.  **Serve:** Best served warm with a dusting of extra cinnamon.
 
-## Serving Suggestions
-
-- [Sweet Potato Latkes](/silton-mise/recipes/sweet-potato-latkes)
-- [Roast Turkey Breast](/silton-mise/recipes/roast-turkey-breast)
-- [Nana's Turkey Dressing](/silton-mise/recipes/grandmommys-turkey-dressing)

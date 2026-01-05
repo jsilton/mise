@@ -43,8 +43,3 @@ This is a high-end take on a cookout classic. The beef tenderloin is incredibly 
 4.  **The Bread:** Toast the baguette or brioche buns until golden.
 5.  **Assemble:** Place a beef strip in each bun. Top generously with the corn relish.
 
-## Serving Suggestions
-
-- [Sweet Potato Fries](/silton-mise/recipes/sweet-potato-fries)
-- Pickle Spears
-- Cold Beer or [Vieux Carré](/silton-mise/recipes/vieux-carre)

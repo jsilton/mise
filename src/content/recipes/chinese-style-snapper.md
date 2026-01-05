@@ -39,8 +39,3 @@ Baking whole fish Chinese-style creates a restaurant-quality presentation. Cutti
 6.  **The Sizzle:** Heat peanut oil in a small saucepan until just smoking. Carefully pour it over the scallion/ginger pile—it should sizzle loudly.
 7.  **Finish:** Pour the reserved pan juices over the fish. Garnish with cilantro and serve immediately.
 
-## Serving Suggestions
-
-- [Basmati Rice](/silton-mise/recipes/basmati-rice)
-- [Steamed Bok Choy with Oyster Sauce](/silton-mise/recipes/steamed-bok-choy-with-oyster-sauce)
-- [Smashed Cucumber Salad](/silton-mise/recipes/smashed-cucumber-salad)

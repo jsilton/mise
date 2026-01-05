@@ -44,8 +44,3 @@ This lighter pasta became popular in Italian-American cooking during the 1990s h
 6.  **Bind:** Return the spaghetti and spinach to the pot. Toss for 1 minute over low heat until the sauce is completely absorbed.
 7.  **Serve:** Season with plenty of black pepper and serve hot.
 
-## Serving Suggestions
-
-- [Easy Pan-Seared Chicken Breasts](/silton-mise/recipes/easy-pan-seared-chicken-breasts)
-- [Roasted Green Bean "Fries"](/silton-mise/recipes/roasted-green-bean-fries)
-- [Classic Martini](/silton-mise/recipes/classic-martini) (Chilled)

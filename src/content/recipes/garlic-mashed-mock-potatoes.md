@@ -40,8 +40,3 @@ This is the baseline **Updated Classic** update for a low-carb nutritious side. 
 5.  **Finish:** Stir in the butter. Garnish with fresh chives for the mandatory **High Note**.
 6.  **Serve:** Serve hot with an extra pat of butter on top.
 
-## Serving Suggestions
-
-- [Chicken Marsala](/silton-mise/recipes/chicken-marsala)
-- [Classic Beef Stew](/silton-mise/recipes/classic-beef-stew)
-- [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad)

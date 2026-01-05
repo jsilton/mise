@@ -40,8 +40,3 @@ This is a high-speed **Updated Classic** update to the hand pie. The secret to i
 6.  **Bake:** Bake for 12-15 minutes until the tops are deep golden brown and the biscuit has a flaky "Bounce."
 7.  **Serve:** Brush once more with the remaining brown butter. Serve warm while the Brie is molten.
 
-## Serving Suggestions
-
-- [Old-Fashioned Vanilla Ice Cream](/silton-mise/recipes/old-fashioned-vanilla-ice-cream)
-- Fresh Mint sprigs
-- [Hot Mulled Apple Cider](/silton-mise/recipes/hot-mulled-apple-cider)

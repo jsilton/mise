@@ -38,8 +38,3 @@ Arroz rojo (red rice) is a Mexican staple where long-grain rice is toasted in oi
 6.  **Rest:** Turn off the heat. **Keep the lid on** for 10 minutes.
 7.  **Serve:** Remove cilantro, fluff with a fork, and serve.
 
-## Pairs With
-
-- [Enchiladas Suizas](/silton-mise/recipes/enchiladas-suizas)
-- [Weeknight Tacos](/silton-mise/recipes/tacos)
-- [Chicken Tinga](/silton-mise/recipes/chicken-tinga)

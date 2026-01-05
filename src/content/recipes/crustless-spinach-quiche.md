@@ -37,8 +37,3 @@ This is a high-speed nutritious meal that relies on **Updated Classic** techniqu
 6.  **Finish:** Bake for 25-30 minutes until the top is golden brown and the center is set.
 7.  **Serve:** Serve warm or at room temperature with a side of greens.
 
-## Serving Suggestions
-
-- [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad)
-- Fresh Sliced Tomatoes
-- [Crispy Smashed Potatoes](/silton-mise/recipes/crispy-smashed-potatoes)

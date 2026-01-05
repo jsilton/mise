@@ -32,8 +32,3 @@ Perfect Basmati rice is an exercise in **Surface Area Management**. The secret i
 4.  **The Rest (Critical):** Once cooked, **do not open the lid.** Let the rice steam for 10 minutes. This allows the moisture to redistribute into the center of each grain.
 5.  **Fluff:** Gently fluff with a fork and serve.
 
-## Pairs With
-
-- [Sunday Feast Chicken Tikka Masala](/silton-mise/recipes/chicken-tikka-masala)
-- [Lamb Keema Matar](/silton-mise/recipes/lamb-keema-matar)
-- [Saag Paneer](/silton-mise/recipes/saag-paneer)

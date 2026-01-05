@@ -41,8 +41,3 @@ These are the ultimate high-speed nutritious for a low-carb week. The secret to 
 6.  **Bake:** Bake for 15-20 minutes until the centers are set and the tops are slightly golden.
 7.  **Serve:** Let cool for 5 minutes before popping them out with a knife.
 
-## Serving Suggestions
-
-- [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad)
-- Sliced Avocado and Hot Sauce
-- [Breakfast Protein Biscuits](/silton-mise/recipes/breakfast-protein-biscuits) (if not strictly Keto)

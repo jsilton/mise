@@ -32,8 +32,3 @@ Quick-pickled red onions are a staple Mexican condiment that adds brightness, co
 4.  **Pickle:** Let sit at room temperature for 30-60 minutes.
 5.  **Store:** Store in the fridge for up to 2 weeks.
 
-## Pairs With
-
-- [Enchiladas Suizas](/silton-mise/recipes/enchiladas-suizas)
-- [Instant Pot Pulled Pork](/silton-mise/recipes/instant-pot-pulled-pork)
-- [Chicken Shawarma](/silton-mise/recipes/chicken-shawarma)

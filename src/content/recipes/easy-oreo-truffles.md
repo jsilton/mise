@@ -40,8 +40,3 @@ These are the ultimate high-speed "Kitchen Standard" dessert. The secret to a pr
 7.  **Garnish:** Immediately sprinkle with the crushed reserved cookies (and a pinch of sea salt for the **Acid/Salt Finish**) while the chocolate is still wet.
 8.  **Finish:** Refrigerate for 1 hour to set the shell. Store in the fridge.
 
-## Serving Suggestions
-
-- Fresh Sliced Strawberries
-- [Old-Fashioned Vanilla Ice Cream](/silton-mise/recipes/old-fashioned-vanilla-ice-cream)
-- Glass of Cold Milk or Espresso

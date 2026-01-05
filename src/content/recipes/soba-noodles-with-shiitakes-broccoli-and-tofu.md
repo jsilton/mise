@@ -40,8 +40,3 @@ The secret to perfect Soba is **Textural Balance** through **The Buckwheat Shock
 6.  **Bind:** Add the noodles, tofu, and the stock mixture. Toss vigorously over high heat for 2 minutes until the liquid has emulsified into a glossy glaze.
 7.  **Serve:** Stir in the cilantro and sesame oil. Serve immediately.
 
-## Serving Suggestions
-
-- [Smashed Cucumber Salad](/silton-mise/recipes/smashed-cucumber-salad)
-- [Japanese Style Trout with Dashi](/silton-mise/recipes/japanese-style-trout-with-dashi)
-- [Miso Soup](/silton-mise/recipes/miso-soup)

@@ -42,8 +42,3 @@ The secret to fritters that aren't a soggy mess is **Culinary Technique** throug
 6.  **Drain:** Transfer to a wire rack (The Air-Snap Method) to keep the bottom crispy.
 7.  **Serve:** Whisk yogurt ingredients. Serve the warm fritters with a dollop of cold garlic yogurt.
 
-## Serving Suggestions
-
-- [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad)
-- [Smashed Cucumber Salad](/silton-mise/recipes/smashed-cucumber-salad)
-- [Classic Martini](/silton-mise/recipes/classic-martini) (Chilled)

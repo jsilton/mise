@@ -37,8 +37,3 @@ The secret to authentic Bulgogi is the **thickness of the cut**. It should be pa
 3.  **The Sear:** Spread the beef in a single layer. Do not crowd the pan (work in batches). Let it sear undisturbed for 1-2 minutes until you get charred, crispy edges.
 4.  **Finish:** Flip and cook for 30 more seconds. Remove immediately.
 
-## Serving Suggestions
-
-- [Bibimbap](/silton-mise/recipes/bibimbap)
-- Lettuce Wraps with Ssamjang
-- [Jasmine Rice](/silton-mise/recipes/homemade-rice-pilaf)

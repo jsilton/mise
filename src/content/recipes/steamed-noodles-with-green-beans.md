@@ -45,8 +45,3 @@ Bian dou men mian is a northern Chinese braised noodle dish where steamed noodle
 7.  **Braise:** Cook for 5-7 minutes over medium-high until the liquid is almost gone.
 8.  **Toss:** Uncover and toss the noodles with the beans until every strand is mahogany-brown and glossy. Serve immediately.
 
-## Serving Suggestions
-
-- [Smashed Cucumber Salad](/silton-mise/recipes/smashed-cucumber-salad)
-- [Chinese Eggplant with Garlic Sauce](/silton-mise/recipes/chinese-eggplant-with-garlic-sauce)
-- [Cantonese Wonton Broth](/silton-mise/recipes/cantonese-wonton-broth)

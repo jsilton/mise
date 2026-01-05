@@ -37,8 +37,3 @@ This is the baseline for winter **Modularity**. The secret to a professional-gra
 5.  **Garnish:** Stud each orange wedge with a whole clove.
 6.  **Serve:** Ladle into mugs and float a clove-studded orange wedge in each.
 
-## Serving Suggestions
-
-- [Apple Pie](/silton-mise/recipes/apple-pie)
-- [Nana's Pecan Pie](/silton-mise/recipes/grandmommys-pecan-pie)
-- [Oreo Truffles](/silton-mise/recipes/easy-oreo-truffles)

@@ -39,8 +39,3 @@ This is the soul of the Executive Thanksgiving. The secret to its elite texture 
 5.  **Bake:** Transfer to a large greased baking dish. Bake at 350°F for 50-60 minutes until the top is deep golden brown and the edges are crispy.
 6.  **Serve:** Serve hot alongside turkey and cranberry sauce.
 
-## Serving Suggestions
-
-- [Perfect Cranberry Sauce](/silton-mise/recipes/perfect-cranberry-sauce)
-- [Roast Turkey Breast](/silton-mise/recipes/roast-turkey-breast)
-- [Cinnamon Sweet Potatoes](/silton-mise/recipes/cinnamon-sweet-potatoes)

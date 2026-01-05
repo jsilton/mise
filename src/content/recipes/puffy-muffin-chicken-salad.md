@@ -41,8 +41,3 @@ This is a baseline **Updated Classic** recipe for high-performance lunch fuel. T
 5.  **Fold:** Toss gently until every piece of chicken is coated in the creamy emulsion.
 6.  **Set:** Refrigerate for **at least 30 minutes** before serving. This allows the flavors to bloom and the texture to firm up.
 
-## Serving Suggestions
-
-- [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad)
-- On a toasted croissant or [My Favorite Challah](/silton-mise/recipes/my-favorite-challah)
-- [Roasted Green Bean "Fries"](/silton-mise/recipes/roasted-green-bean-fries)

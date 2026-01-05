@@ -44,8 +44,3 @@ Sun-dried tomatoes became hugely popular in Italian-American cooking during the 
 6.  **Toss:** Toss vigorously for 1 minute. Add pasta water 1/4 cup at a time until the sauce is creamy and the spinach has just wilted.
 7.  **Serve:** Season with extra red pepper flakes and serve hot.
 
-## Serving Suggestions
-
-- [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad) (Mandatory)
-- [Garlic Bread](/silton-mise/recipes/garlic-bread)
-- [Roasted Green Bean "Fries"](/silton-mise/recipes/roasted-green-bean-fries)

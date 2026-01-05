@@ -44,8 +44,3 @@ This is a modern Italian-American technique from the 2010s that revolutionized g
 5.  **Finish:** Remove from the oven. Immediately toss with the fresh basil and a generous amount of grated Parmesan.
 6.  **Serve:** Serve in deep bowls while the gnocchi is at its peak crispiness.
 
-## Serving Suggestions
-
-- [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad)
-- [Garlic Bread](/silton-mise/recipes/garlic-bread)
-- [Smashed Cucumber Salad](/silton-mise/recipes/smashed-cucumber-salad)

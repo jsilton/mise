@@ -33,8 +33,3 @@ This is a sophisticated quick drink that avoids the cloying artificiality of mos
 4.  **Skew:** Thread 3 cantaloupe cubes onto each sugar cane skewer.
 5.  **Serve:** Pour into chilled coupes or martini glasses. Garnish with the skewers and serve immediately for the maximum "Bounce."
 
-## Serving Suggestions
-
-- [Smashed Cucumber Salad](/silton-mise/recipes/smashed-cucumber-salad)
-- [Asian Glazed Turkey Meatballs](/silton-mise/recipes/asian-glazed-turkey-meatballs)
-- [Crispy Sheet Pan Gnocchi & Veggies](/silton-mise/recipes/crispy-sheet-pan-gnocchi-and-veggies)

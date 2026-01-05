@@ -42,8 +42,3 @@ Shakshuka is about the **Jammy Base**. Many recipes are watery; the secret is to
 6.  **Assemble:** Smear 2 tbsp of hummus on the bottom of each plate. Carefully ladle the sauce and an egg over the hummus.
 7.  **Finish:** Garnish with feta and cilantro.
 
-## Serving Suggestions
-
-- [Smashed Cucumber Salad](/silton-mise/recipes/smashed-cucumber-salad)
-- Warm Whole Wheat Pita
-- [Greek Lemon Chicken Soup](/silton-mise/recipes/avgolemono-soup)

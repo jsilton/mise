@@ -44,7 +44,3 @@ The chocolate chip cookie was invented by accident in 1938 when Ruth Wakefield, 
 5.  **Bake:** Scoop onto a parchment-lined sheet. Bake at 350°F for 10-12 minutes until the edges are golden but the centers are still soft.
 6.  **Finish:** Sprinkle with a tiny pinch of flaky sea salt immediately.
 
-## Serving Suggestions
-
-- [Ultimate Crock-Pot Sipping Chocolate](/silton-mise/recipes/crock-pot-hot-chocolate)
-- Vanilla Bean Ice Cream

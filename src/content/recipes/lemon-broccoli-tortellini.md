@@ -45,8 +45,3 @@ This is a modern quick pasta that uses store-bought cheese tortellini (originall
 6.  **Bind:** Toss gently over low heat for 1 minute until everything is coated.
 7.  **Serve:** Sprinkle with Parmesan and serve hot.
 
-## Serving Suggestions
-
-- [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad) (Mandatory)
-- [Garlic Bread](/silton-mise/recipes/garlic-bread)
-- Roasted Cherry Tomatoes

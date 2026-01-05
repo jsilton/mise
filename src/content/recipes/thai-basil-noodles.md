@@ -43,7 +43,3 @@ This is a high-heat, high-speed meal. The key to the Kitchen Standard is the **A
 6.  **Wilt:** Add the basil. Toss for 30 seconds until just wilted.
 7.  **The Acid Balance:** Turn off the heat. Squeeze half a lime over the noodles and toss.
 
-## Serving Suggestions
-
-- [Smashed Cucumber Salad](/silton-mise/recipes/smashed-cucumber-salad)
-- Extra Lime wedges and Chili Crisp

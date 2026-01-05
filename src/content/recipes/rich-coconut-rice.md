@@ -33,8 +33,3 @@ Great coconut rice should be rich, fragrant, and slightly sticky. We use a **50/
 4.  **Steam:** **Turn off the heat.** Keep the lid on and let the rice steam for 10-15 minutes.
 5.  **Serve:** Fluff gently with a fork and serve hot.
 
-## Serving Suggestions
-
-- [Miso-Glazed Salmon](/silton-mise/recipes/miso-salmon-with-bok-choy)
-- [Shrimp and Mango Tacos](/silton-mise/recipes/shrimp-and-mango-tacos)
-- [Thai Red Chicken Curry](/silton-mise/recipes/thai-chicken-curry)

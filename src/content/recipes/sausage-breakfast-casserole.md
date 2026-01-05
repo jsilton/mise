@@ -39,8 +39,3 @@ This is the definitive Executive nutritious for holiday mornings. The secret to 
 6.  **Stage 2:** Remove foil. Top with the remaining 1/2 cup cheese. **Increase oven to 400°F**. Bake for 10-15 minutes until the top is deep golden and the center is firm.
 7.  **Serve:** Let rest for 10 minutes. Garnish with scallion greens and serve.
 
-## Serving Suggestions
-
-- [Fresh Strawberry Vinaigrette Salad](/silton-mise/recipes/fresh-strawberry-vinaigrette-salad-dressing)
-- Warm [My Favorite Challah](/silton-mise/recipes/my-favorite-challah)
-- [Hot Mulled Apple Cider](/silton-mise/recipes/hot-mulled-apple-cider)

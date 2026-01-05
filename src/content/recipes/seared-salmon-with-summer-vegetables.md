@@ -42,8 +42,3 @@ This is a 40-minute technical dish meal disguised as a quick dinner. The secret 
 6.  **Serve:** Divide spinach among plates. Top with corn, shiitakes, and a salmon strip.
 7.  **Finish:** Drizzle the balsamic emulsion over the fish. Garnish with chives for the mandatory **High Note**.
 
-## Serving Suggestions
-
-- [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad)
-- [Patate al Forno](/silton-mise/recipes/patate-al-forno)
-- [Classic Martini](/silton-mise/recipes/classic-martini) (Chilled)

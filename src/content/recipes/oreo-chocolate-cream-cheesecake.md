@@ -35,8 +35,3 @@ This is the ultimate holiday technical dish dessert. The secret to its incredibl
 6.  **The Finish:** Cool in the pan, then refrigerate for **at least 4 hours** (ideally 24).
 7.  **Serve:** Run a knife around the rim before releasing. Serve cold.
 
-## Serving Suggestions
-
-- Fresh Raspberries
-- [Old-Fashioned Vanilla Ice Cream](/silton-mise/recipes/old-fashioned-vanilla-ice-cream)
-- Glass of Ruby Port

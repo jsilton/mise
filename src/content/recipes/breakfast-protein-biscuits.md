@@ -47,8 +47,3 @@ These biscuits are a masterclass in **Culinary Technique**. By using **Greek Yog
 6.  **The Temperature Method:** Sprinkle the remaining 1/2 cup of cheese on top. Bake at 400°F for 5 minutes (to kickstart the rise), then **lower the heat to 350°F** for the remaining 20 minutes.
 7.  **Finish:** They are done when the bottoms are golden brown and the cheese on top is bubbly and crisp.
 
-## Serving Suggestions
-
-- [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad)
-- Extra Greek Yogurt for dipping
-- [Easy Breakfast Yogurt Popsicles](/silton-mise/recipes/easy-breakfast-yogurt-popsicles)

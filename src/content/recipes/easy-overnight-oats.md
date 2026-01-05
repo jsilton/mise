@@ -41,8 +41,3 @@ Overnight oats are the foundation of **Modularity** in our kitchen. The secret t
 5.  **The Crunch:** In the morning, give it one final stir. Top with fresh berries, nuts, or granola just before serving.
 6.  **Store:** These will keep in the fridge for up to 5 days—perfect for Batch Cooking.
 
-## Serving Suggestions
-
-- [Easy Breakfast Yogurt Popsicles](/silton-mise/recipes/easy-breakfast-yogurt-popsicles)
-- Fresh Sliced Fruit
-- [Blueberry Oat Breakfast Bars](/silton-mise/recipes/blueberry-oat-breakfast-bars)

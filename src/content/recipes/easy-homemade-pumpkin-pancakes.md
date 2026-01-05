@@ -40,8 +40,3 @@ The secret to restaurant-quality pumpkin pancakes is **Culinary Technique** thro
 7.  **Flip:** Cook for about 2 minutes until bubbles form on the surface and the edges look matte and dry. Flip and cook for 1-2 more minutes until golden brown.
 8.  **Serve:** Serve with salted butter and warm maple syrup.
 
-## Serving Suggestions
-
-- [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad) (for a savory-sweet brunch)
-- Toasted Pecans
-- [Easy Breakfast Yogurt Popsicles](/silton-mise/recipes/easy-breakfast-yogurt-popsicles)

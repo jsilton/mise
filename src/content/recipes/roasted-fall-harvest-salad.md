@@ -43,8 +43,3 @@ This is a high-performance nutritious salad that relies on **Culinary Technique*
 5.  **Assemble:** Toss kale with quinoa and half the dressing.
 6.  **Finish:** Top with the roasted chickpeas, squash, pepitas, and raisins. Drizzle with remaining dressing for the mandatory **High Note**.
 
-## Serving Suggestions
-
-- [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad)
-- [Grilled Chicken with Herbed Corn Salsa](/silton-mise/recipes/grilled-chicken-with-herbed-corn-salsa)
-- Warm [Homemade Naan](/silton-mise/recipes/homemade-naan)

@@ -34,8 +34,3 @@ This dish is an exercise in **Maximizing Surface Area**. By boiling the potatoes
 5.  **Roast:** Bake for 25-30 minutes, flipping once halfway through, until the potatoes are deep golden brown and the edges are "glass-crisp."
 6.  **Finish:** Sprinkle with flaky sea salt. Serve hot.
 
-## Pairs With
-
-- [Chicken Scaloppine with Tomato and Wine](/silton-mise/recipes/chicken-scaloppine-with-tomato-and-white-wine)
-- [Classic Beef Stew](/silton-mise/recipes/classic-beef-stew)
-- Steak or Roast Pork

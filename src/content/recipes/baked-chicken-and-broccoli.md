@@ -41,7 +41,3 @@ The tragedy of the standard "Chicken and Broccoli Bake" is the mushy, gray brocc
 4.  **the crunch:** Toss panko with a little oil and sprinkle over the sauce.
 5.  **Finish:** Bake for 10 minutes (or broil for 2 mins) until the top is bubbling and brown.
 
-## Serving Suggestions
-
-- [Homemade Rice Pilaf](/silton-mise/recipes/homemade-rice-pilaf)
-- [Smashed Cucumber Salad](/silton-mise/recipes/smashed-cucumber-salad)

@@ -45,8 +45,3 @@ Scampi is actually Italian for langoustine (a small lobster), but Italian-Americ
 6.  **Bind:** Return the shrimp and any juices to the pan. Add the hot pasta and parsley. Toss for 1 minute until every strand is coated.
 7.  **Serve:** Season with salt and plenty of black pepper. Top with Parmesan and serve immediately.
 
-## Serving Suggestions
-
-- [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad) (Mandatory)
-- [Garlic Bread](/silton-mise/recipes/garlic-bread)
-- [Classic Martini](/silton-mise/recipes/classic-martini) (Chilled)

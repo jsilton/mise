@@ -44,8 +44,3 @@ These are the baseline for autumn "Comfort." The secret to their incredible Text
 6.  **Glaze:** Whisk glaze ingredients until smooth. Drizzle over warm cookies.
 7.  **Serve:** Let cool for 10 minutes to allow the glaze to set into a "Snap."
 
-## Serving Suggestions
-
-- [Hot Mulled Apple Cider](/silton-mise/recipes/hot-mulled-apple-cider)
-- Fresh Sliced Apples
-- [Elderberry Syrup](/silton-mise/recipes/elderberry-syrup) (stirred into tea)

@@ -39,8 +39,3 @@ This is the definitive restorative soup. The secret to its elite "Velvet" textur
 6.  **Puree:** Use a high-speed blender to puree the soup until completely smooth and mirror-glossy.
 7.  **Serve:** Return to low heat just to warm through. Serve hot.
 
-## Serving Suggestions
-
-- [Sourdough Grilled Cheese](/silton-mise/recipes/grilled-cheese-and-tomato-soup) (Mandatory)
-- [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad)
-- [Classic Martini](/silton-mise/recipes/classic-martini) (Chilled)

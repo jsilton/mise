@@ -41,8 +41,3 @@ The challah is the ultimate test of **Culinary Technique** in the Executive bake
 9.  **Bake:** Preheat oven to 375°F. Brush once more with egg and sprinkle with seeds. Bake for 35-40 minutes until deep mahogany brown.
 10. **Cool:** Let cool completely on a rack before slicing.
 
-## Serving Suggestions
-
-- [Classic Beef Stew](/silton-mise/recipes/classic-beef-stew)
-- [Nana's Turkey Dressing](/silton-mise/recipes/grandmommys-turkey-dressing)
-- French Toast (the next morning)

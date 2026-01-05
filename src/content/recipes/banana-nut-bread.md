@@ -38,7 +38,3 @@ The secret to banana bread that isn't dense or dry is **Precision**. We move to 
 6.  **Bake:** Pour into the pan. Bake for 55-60 minutes until the top is split and a tester comes out clean.
 7.  **Rest:** Let cool in the pan for 10 minutes before transferring to a wire rack.
 
-## Serving Suggestions
-
-- [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad) (if serving as a brunch side)
-- Warm Salted Butter

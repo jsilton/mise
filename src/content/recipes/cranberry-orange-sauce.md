@@ -34,8 +34,3 @@ This is the **Acid Balance** for your Thanksgiving plate. The heavy fat of the t
 4.  **Cool:** Remove from heat. The sauce will continue to thicken significantly as it cools.
 5.  **Serve:** Serve at room temperature or chilled.
 
-## Serving Suggestions
-
-- [Good Eats Roast Turkey](/silton-mise/recipes/good-eats-roast-turkey)
-- [Corn Bread Dressing](/silton-mise/recipes/corn-bread-dressing)
-- Leftover Turkey Sandwiches

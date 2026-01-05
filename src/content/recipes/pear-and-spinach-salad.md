@@ -40,8 +40,3 @@ This is a baseline quick side that relies on **Culinary Technique**. The secret 
 4.  **Bind:** Drizzle 3 tbsp of the dressing over the salad. Toss gently with your hands until every leaf is lightly glossy.
 5.  **Serve:** Season with an extra crack of black pepper. Serve immediately to maintain **Textural Balance**.
 
-## Serving Suggestions
-
-- [Herb-Marinated Pork Tenderloin](/silton-mise/recipes/herb-marinated-pork-tenderloins)
-- [Chicken Piccata](/silton-mise/recipes/chicken-piccata-unfried)
-- [Roasted Green Bean "Fries"](/silton-mise/recipes/roasted-green-bean-fries)

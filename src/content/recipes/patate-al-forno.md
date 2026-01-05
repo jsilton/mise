@@ -39,8 +39,3 @@ Patate al forno are classic Italian oven-roasted potatoes—a Sunday staple in R
 5.  **Roast:** Bake for 35-40 minutes. Flip with a metal spatula halfway through. They are done when they are deep mahogany gold and "pop" when bitten.
 6.  **Serve:** Sprinkle with a final pinch of sea salt and serve immediately.
 
-## Serving Suggestions
-
-- [Chicken Milanese](/silton-mise/recipes/chicken-milanese)
-- [Classic Beef Stew](/silton-mise/recipes/classic-beef-stew)
-- [Herb-Marinated Pork Tenderloin](/silton-mise/recipes/herb-marinated-pork-tenderloins)

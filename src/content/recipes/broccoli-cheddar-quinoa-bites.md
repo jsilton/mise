@@ -43,8 +43,3 @@ These are the perfect nutritious snacks for on-the-go. The secret to **Textural 
 5.  **Bake:** Bake for 20-25 minutes until the edges are golden brown and the bites feel firm to the touch.
 6.  **The Rest:** Let the bites rest on the pan for 5 minutes before moving—this allows the cheese to "set," ensuring they hold their shape.
 
-## Serving Suggestions
-
-- [Garlic Yogurt](/silton-mise/recipes/zucchini-herb-fritters-with-garlic-yogurt)
-- [Smashed Cucumber Salad](/silton-mise/recipes/smashed-cucumber-salad)
-- Sriracha Mayo

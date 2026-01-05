@@ -39,8 +39,3 @@ This is the baseline **Modularity** component for all Executive desserts. The se
 5.  **Churn:** Stir in the heavy cream and vanilla bean paste. Pour into your ice cream maker.
 6.  **Set:** Churn according to instructions (usually 20 mins). Transfer to a freezer-safe container and freeze for 2 hours before serving.
 
-## Serving Suggestions
-
-- [Best Homemade Brownies](/silton-mise/recipes/best-homemade-brownies)
-- [Apple Pie](/silton-mise/recipes/apple-pie)
-- [Hot Mulled Apple Cider](/silton-mise/recipes/hot-mulled-apple-cider) (as a "float")

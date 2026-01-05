@@ -37,8 +37,3 @@ This is a **Updated Classic** update to a family favorite. The secret to the Kit
 6.  **Bake:** Bake for 9-11 minutes until the edges are just golden. Do not over-bake; they will set on the pan.
 7.  **Cool:** Let rest on the pan for 5 minutes to ensure **Textural Balance**.
 
-## Serving Suggestions
-
-- Cold Glass of Milk
-- [Old-Fashioned Vanilla Ice Cream](/silton-mise/recipes/old-fashioned-vanilla-ice-cream) (as a cookie sandwich)
-- [Oreo Truffles](/silton-mise/recipes/easy-oreo-truffles)

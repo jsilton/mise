@@ -44,8 +44,3 @@ This slow-cooker version of the Chinese-American classic adapts the dish by flas
 6.  **Glaze:** 10 minutes before serving, stir in the remaining sauce. This provides a fresh "High Note" of flavor that hasn't been muted by the heat.
 7.  **Serve:** Serve over steamed rice with fresh broccoli.
 
-## Serving Suggestions
-
-- [Smashed Cucumber Salad](/silton-mise/recipes/smashed-cucumber-salad)
-- [Chinese Eggplant with Garlic Sauce](/silton-mise/recipes/chinese-eggplant-with-garlic-sauce)
-- [Cantonese Wonton Broth](/silton-mise/recipes/cantonese-wonton-broth)

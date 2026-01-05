@@ -39,7 +39,3 @@ These are essentially "Pancakes in a Pan." The secret to their fluffy, rich text
 4.  **Bake:** Bake at 350°F for 25-30 minutes until they are puffed and golden.
 5.  **Cool:** Let sit for 5 minutes before removing.
 
-## Serving Suggestions
-
-- [Mango-Rita Green Smoothie](/silton-mise/recipes/mango-rita-green-smoothie)
-- Fresh Honey

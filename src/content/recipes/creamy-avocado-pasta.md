@@ -44,8 +44,3 @@ This is a modern healthy fusion that became popular in the 2010s as avocados wen
 5.  **Adjust:** If the sauce is too thick, add a few more tablespoons of pasta water.
 6.  **Serve:** Top immediately with halved cherry tomatoes and Parmesan for **Textural Balance**.
 
-## Serving Suggestions
-
-- [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad)
-- [Garlic Bread](/silton-mise/recipes/garlic-bread)
-- Grilled Shrimp or Chicken

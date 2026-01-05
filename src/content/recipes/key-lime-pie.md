@@ -38,8 +38,3 @@ This is the definitive Executive holiday dessert. The secret to its incredible T
 6.  **The Crown:** Just before serving, whip the heavy cream and powdered sugar until stiff peaks form.
 7.  **Serve:** Mound the cream over the pie. Garnish with lime zest for the final aromatic **High Note**.
 
-## Serving Suggestions
-
-- [Key Lime Pie Ice Cream](/silton-mise/recipes/key-lime-pie-ice-cream)
-- Fresh Sliced Strawberries
-- [Classic Martini](/silton-mise/recipes/classic-martini) (Chilled)

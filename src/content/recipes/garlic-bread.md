@@ -38,8 +38,3 @@ Garlic bread as we know it is an Italian-American invention, popularized by stea
 4.  **Bake:** Place on a baking sheet. Bake at 400°F for 8-10 minutes until the edges are golden brown and the center is bubbly.
 5.  **Finish:** For an extra-crunchy top, broil for the final 60 seconds. Slice and serve hot.
 
-## Serving Suggestions
-
-- [Chicken Marsala](/silton-mise/recipes/chicken-marsala)
-- [The Easiest Spinach Lasagna](/silton-mise/recipes/the-easiest-spinach-lasagna)
-- [Classic Beef Stew](/silton-mise/recipes/classic-beef-stew)

@@ -43,8 +43,3 @@ These are high-performance **Modularity** components for busy families. The secr
 4.  **Bake:** Preheat oven to 350°F. Line a 12-cup tin. Fill each 3/4 full. Bake for 20-22 minutes until a toothpick comes out clean.
 5.  **Cool:** Let rest in the pan for 5 minutes. These freeze perfectly for up to 3 months.
 
-## Serving Suggestions
-
-- [Easy Breakfast Yogurt Popsicles](/silton-mise/recipes/easy-breakfast-yogurt-popsicles)
-- Fresh Sliced Apples
-- Cold Glass of Milk

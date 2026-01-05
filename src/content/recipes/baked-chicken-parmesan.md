@@ -40,8 +40,3 @@ Chicken Parmesan is a purely American invention, created by Italian immigrants i
 4.  **Top:** Remove from oven. Spoon 2 tbsp of marinara over the _center_ of each piece of chicken. Top with a slice of mozzarella.
 5.  **Melt:** Return to the oven for 3-5 minutes, or under the **BROIL** setting, until the cheese is bubbly and browned.
 6.  **Serve:** Serve alongside your pasta tossed in the remaining sauce. Garnish with fresh basil.
-
-## Serving Suggestions
-
-- [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad) (Mandatory acid balance)
-- Garlic Bread

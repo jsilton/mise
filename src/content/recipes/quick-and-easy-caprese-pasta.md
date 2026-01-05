@@ -42,8 +42,3 @@ This pasta transforms the classic Caprese salad (from the island of Capri) into 
 5.  **Emulsify:** Add the fresh mozzarella and basil. Toss for 30 seconds until the cheese just begins to soften and pull.
 6.  **Serve:** Season generously with black pepper. Serve immediately while the cheese is at its peak "Bounce."
 
-## Serving Suggestions
-
-- [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad) (Mandatory)
-- [Garlic Bread](/silton-mise/recipes/garlic-bread)
-- [Classic Martini](/silton-mise/recipes/classic-martini) (Chilled)

@@ -38,8 +38,3 @@ The secret to restaurant-quality French toast is the **Updated Classic** bread c
 5.  **Cook:** Immediately place in the skillet. Fry for 2-3 minutes per side until deep golden brown and slightly crisped at the edges.
 6.  **Serve:** Serve immediately with warm maple syrup and fresh berries for the mandatory **Acid/Sweet Finish**.
 
-## Serving Suggestions
-
-- Crispy Bacon or Sausage
-- [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad)
-- [Easy Breakfast Yogurt Popsicles](/silton-mise/recipes/easy-breakfast-yogurt-popsicles)

@@ -37,8 +37,3 @@ Cheese fondue is a fragile **Emulsion**. If the heat is too high, the cheese wil
 5.  **Finish:** Stir in the Kirsch, nutmeg, and dry mustard.
 6.  **Serve:** Keep warm over a low flame. Serve with crusty bread, green apples, and blanched broccoli.
 
-## Serving Suggestions
-
-- [Anadama Bread](/silton-mise/recipes/anadama-bread) cubes
-- Roasted Fingerling Potatoes
-- [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad)

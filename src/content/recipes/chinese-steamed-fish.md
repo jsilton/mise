@@ -47,8 +47,3 @@ Steamed whole fish is a cornerstone of Cantonese cuisine, showcasing the fish's 
 7.  **Season:** Pour the seasoning sauce into the same hot oil pan, let it bubble for 5 seconds, then pour it over the fish.
 8.  **Serve:** Garnish with cilantro and serve immediately with white rice.
 
-## Serving Suggestions
-
-- [Basmati Rice](/silton-mise/recipes/basmati-rice)
-- [Steamed Bok Choy with Oyster Sauce](/silton-mise/recipes/steamed-bok-choy-with-oyster-sauce)
-- [Chinese Sausage Fried Rice](/silton-mise/recipes/chinese-sausage-fried-rice)

@@ -44,8 +44,3 @@ Scaloppine refers to the Italian technique of pounding meat thin for quick cooki
 6.  **Simmer:** Cook for 5 minutes until the sauce has thickened and the chicken is tender.
 7.  **The Mount:** Turn off the heat. Stir in the cold butter cubes and the spinach. Toss until the butter emulsifies into a silky glaze and the spinach is just wilted.
 
-## Serving Suggestions
-
-- [Homemade Rice Pilaf](/silton-mise/recipes/homemade-rice-pilaf)
-- [Steamed Broccoli with Garlic](/silton-mise/recipes/steamed-broccoli)
-- [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad)

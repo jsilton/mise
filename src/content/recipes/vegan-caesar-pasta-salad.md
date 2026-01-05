@@ -39,8 +39,3 @@ Vegan Caesar dressings became mainstream in the 2010s, using cashews or tofu to 
 4.  **The Crunch:** Fold in the roasted chickpeas and the avocado slices just before serving.
 5.  **Serve:** Season generously with black pepper and sea salt. Serve chilled or at room temperature.
 
-## Serving Suggestions
-
-- [Roasted Green Bean "Fries"](/silton-mise/recipes/roasted-green-bean-fries)
-- [Classic Martini](/silton-mise/recipes/classic-martini) (Chilled)
-- [Tuna Poke Bowls](/silton-mise/recipes/tuna-poke-bowls)

@@ -36,8 +36,3 @@ This is a high-protein nutritious meal that relies on **Culinary Technique** for
 4.  **Grill:** Preheat grill to medium-high. Oil the grates. Grill kebabs for 10-12 minutes, turning occasionally, until the skin is crispy and the internal temp is 165°F.
 5.  **Serve:** Transfer to a platter. Serve immediately with the chilled yogurt sauce and lemon wedges.
 
-## Serving Suggestions
-
-- [Basmati Rice](/silton-mise/recipes/basmati-rice)
-- [Smashed Cucumber Salad](/silton-mise/recipes/smashed-cucumber-salad)
-- Warm [Homemade Naan](/silton-mise/recipes/homemade-naan)

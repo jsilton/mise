@@ -34,8 +34,3 @@ This is the baseline **Modularity** component for the Executive holiday table. T
 6.  **Set:** Season with a pinch of salt. Let cool completely to room temperature—the sauce will continue to thicken into a Texture as it cools.
 7.  **Store:** Keeps in the fridge for up to 2 weeks.
 
-## Serving Suggestions
-
-- [Roast Turkey Breast](/silton-mise/recipes/roast-turkey-breast)
-- [Nana's Turkey Dressing](/silton-mise/recipes/grandmommys-turkey-dressing)
-- [Buttermilk Waffles](/silton-mise/recipes/buttermilk-waffles) (as a morning topping)

@@ -37,8 +37,3 @@ This is the **Solomonov Method** for the smoothest hummus on earth. The secret i
 5.  **The Combine:** Drain the **hot** chickpeas. Add them to the food processor with the cumin. Process for at least 4-5 minutes. If it's too thick, add a tablespoon of the chickpea cooking liquid.
 6.  **Serve:** Spread in a shallow bowl. Make a well in the center. Drizzle with plenty of olive oil and a sprinkle of paprika or za'atar.
 
-## Pairs With
-
-- [Falafel](/silton-mise/recipes/falafel)
-- [Shakshuka](/silton-mise/recipes/shakshuka)
-- [Homemade Naan](/silton-mise/recipes/homemade-naan)

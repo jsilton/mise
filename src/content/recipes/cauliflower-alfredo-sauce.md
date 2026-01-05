@@ -40,8 +40,3 @@ This is a modern healthy alternative to traditional [Real Alfredo Sauce](/silton
 4.  **Emulsify:** Blend on high for 1 minute until completely smooth and velvety.
 5.  **Serve:** Toss immediately with your favorite pasta or use as a base for roasted veg.
 
-## Pairs With
-
-- Zucchini Noodles or Whole Wheat Pasta
-- [Chicken Milanese](/silton-mise/recipes/chicken-milanese)
-- Roasted Asparagus

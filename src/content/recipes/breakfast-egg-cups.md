@@ -43,8 +43,3 @@ These are the ultimate nutritious prep for a busy week. The secret to avoiding t
 6.  **Bake:** Bake for 20-25 minutes until the centers are set and the tops are slightly golden.
 7.  **Cool:** Allow to cool in the tin for 5 minutes before removing. These can be refrigerated for up to 4 days and reheated for 30 seconds in the microwave.
 
-## Serving Suggestions
-
-- Sliced Avocado and Hot Sauce
-- [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad)
-- Fresh Fruit

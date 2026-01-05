@@ -37,9 +37,3 @@ This is the universal Executive side dish. The secret to avoiding a wilted, sogg
 4.  **Toss:** Using your hands (the Kitchen Standard) or large tongs, toss gently until every leaf is lightly glossy and the seasonings are evenly distributed.
 5.  **Finish:** Top with the shaved Parmesan curls. Serve immediately—this salad waits for no one.
 
-## Serving Suggestions
-
-- [Chicken Milanese](/silton-mise/recipes/chicken-milanese)
-- [Real Spaghetti Carbonara](/silton-mise/recipes/real-spaghetti-carbonara)
-- [Classic Beef Stew](/silton-mise/recipes/classic-beef-stew)
-- [Thinly Sliced Marinated Ribeye](/silton-mise/recipes/marinated-korean-ribeye)

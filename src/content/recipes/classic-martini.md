@@ -37,8 +37,3 @@ The Kitchen Standard for a Martini is built on **Culinary Technique** and the **
 4.  **Strain:** Double strain using a Hawthorne strainer into your chilled Nick and Nora or Martini glass.
 5.  **The Express:** Use a serrated knife or peeler to remove a 1-inch strip of lemon peel (aim for just the yellow zest, minimal white pith). Twist the peel over the glass to express the oils, rub the rim with the peel, and drop it in.
 
-## Serving Suggestions
-
-- Castelvetrano Olives
-- Smoked Almonds
-- [Mediterranean Pinwheels](/silton-mise/recipes/mediterranean-pinwheels-vegetarian-appetizer-vegan-and-low-carb-options)

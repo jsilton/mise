@@ -43,8 +43,3 @@ This cake is a masterclass in **Updated Classic** visuals. The secret to the str
 8.  **The Ganache:** Heat cream until just boiling. Pour over chopped chocolate. Let sit for 5 minutes, then whisk until glossy. Let cool until thickened to a spreading consistency.
 9.  **Assemble:** Level the cooled cakes. Layer with ganache and frost the top and sides. Refrigerate for 1 hour to set the Texture before slicing.
 
-## Serving Suggestions
-
-- [Old-Fashioned Vanilla Ice Cream](/silton-mise/recipes/old-fashioned-vanilla-ice-cream)
-- Fresh Strawberries
-- [Hot-and-Sour Soup](/silton-mise/recipes/hot-and-sour-soup) (for a classic "Cake and Soup" dinner)

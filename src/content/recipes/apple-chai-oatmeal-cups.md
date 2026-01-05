@@ -47,7 +47,3 @@ This is a "Grab-and-Go" fuel staple. To elevate the flavor, we use the **Bloomin
 5.  **Bake:** Scoop into a lined 12-count muffin tin. Bake at 350°F for 20 minutes until the tops are firm and golden.
 6.  **Cool:** Let cool for 10 minutes in the tin to allow the oats to set.
 
-## Serving Suggestions
-
-- [Vanilla Earl Grey Overnight Oats](/silton-mise/recipes/vanilla-earl-grey-overnight-oats) (for a texture contrast)
-- Greek Yogurt and Honey

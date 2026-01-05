@@ -37,7 +37,3 @@ This is a "Updated Classic" recipe designed for a baby's first birthday. It cont
 4.  **Assemble:** Stack the mini rounds with a layer of frosting between them. "Frost" the entire outside.
 5.  **Smash:** Serve to the birthday guest of honor.
 
-## Serving Suggestions
-
-- Fresh Blueberries or Strawberries
-- [Old-Fashioned Fresh Peach Ice Cream](/silton-mise/recipes/old-fashioned-fresh-peach-ice-cream) (for the adults)

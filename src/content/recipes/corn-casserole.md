@@ -36,8 +36,3 @@ This is a **Updated Classic** update to a classic potluck staple. To ensure **Te
 5.  **Bake:** Pour the batter into the prepared dish. If using cheese, sprinkle it over the top now.
 6.  **Finish:** Bake for 35-45 minutes until the center is set and the edges are golden brown. Let sit for 5 minutes before serving to allow the internal structure to firm up.
 
-## Serving Suggestions
-
-- [Buttermilk Baked Chicken](/silton-mise/recipes/buttermilk-baked-chicken)
-- [Chili](/silton-mise/recipes/chili)
-- [Honey Sriracha Salmon Bowls](/silton-mise/recipes/honey-sriracha-salmon-bowls)

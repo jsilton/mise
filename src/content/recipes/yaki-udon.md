@@ -39,7 +39,3 @@ The secret to great Yaki Udon is **Textural Balance**. Frozen udon has a superio
 5.  **Sauce:** Pour in the whisked sauce ingredients. Toss vigorously over high heat for 2 minutes until the sauce coats every noodle and turns glossy.
 6.  **Finish:** Add the bok choy leaves at the very end. Serve hot with a sprinkle of Furikake or chili oil.
 
-## Serving Suggestions
-
-- [Miso Soup](/silton-mise/recipes/miso-soup)
-- [Korean Pickled Cucumbers](/silton-mise/recipes/korean-pickled-cucumbers)

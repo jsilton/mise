@@ -38,7 +38,3 @@ This is a modern Mediterranean-inspired one-pot meal that uses the risotto techn
 5.  **The Fold:** Stir in the Parmesan, the reserved sausage, and the broccolini.
 6.  **Finish:** If the pasta is too dry, add a splash of hot water. Season with plenty of black pepper.
 
-## Serving Suggestions
-
-- [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad)
-- Extra Parmesan and Chili Flakes

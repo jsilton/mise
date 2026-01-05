@@ -40,8 +40,3 @@ Sunchokes are the ultimate "Updated Classic" root vegetable. The secret to their
 4.  **Bind:** Toss the hot sunchokes with the fresh spinach—the heat will wilt the leaves perfectly.
 5.  **Finish:** Drizzle with the brown butter vinaigrette and top with chives for the mandatory **High Note**.
 
-## Serving Suggestions
-
-- [Herb-Marinated Pork Tenderloin](/silton-mise/recipes/herb-marinated-pork-tenderloins)
-- [Roast Turkey Breast](/silton-mise/recipes/roast-turkey-breast)
-- [Classic Martini](/silton-mise/recipes/classic-martini) (Chilled)

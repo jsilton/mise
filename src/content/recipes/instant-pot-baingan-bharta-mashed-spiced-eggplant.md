@@ -44,8 +44,3 @@ Baingan Bharta is traditionally made by roasting eggplant over an open flame for
 6.  **The Sauté:** Press "Sauté" again. Cook the mash for 3-5 minutes, stirring frequently, until any liquid has evaporated and the eggplant looks glossy and concentrated.
 7.  **Finish:** Stir in the fresh cilantro and lemon juice. Serve hot.
 
-## Serving Suggestions
-
-- [Basmati Rice](/silton-mise/recipes/basmati-rice)
-- Warm [Homemade Naan](/silton-mise/recipes/homemade-naan)
-- [Cucumber Raita](/silton-mise/recipes/cucumber-raita)

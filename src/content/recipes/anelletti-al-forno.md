@@ -52,8 +52,3 @@ Anelletti al Forno is a traditional Sicilian pasta bake, often served on special
 6.  **The Crown:** Top with remaining cheese and breadcrumbs.
 7.  **Bake:** Bake at 350°F for 30 minutes until bubbling.
 8.  **Rest (Critical):** Let sit for 15 minutes before slicing. This allows the pasta "cake" to set so it doesn't collapse.
-
-## Serving Suggestions
-
-- [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad)
-- Glass of Sicilian Nero d'Avola

@@ -39,8 +39,3 @@ The secret to the "Extraordinary" label is **Textural Balance** through the **24
 6.  **Bake:** Bake for 15-17 minutes until the edges are golden brown and the centers are set but still look soft.
 7.  **Cool:** Let sit on the sheet for 5 minutes before transferring to a wire rack.
 
-## Serving Suggestions
-
-- [Old-Fashioned Vanilla Ice Cream](/silton-mise/recipes/old-fashioned-vanilla-ice-cream)
-- Cold Glass of Milk
-- [Double Chocolate Layer Cake](/silton-mise/recipes/double-chocolate-layer-cake) (as part of a dessert buffet)

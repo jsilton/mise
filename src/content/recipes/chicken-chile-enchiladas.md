@@ -35,8 +35,3 @@ Traditional Mexican enchiladas briefly fry corn tortillas before dipping them in
 5.  **Melt:** Bake for 15-20 minutes until the cheese is bubbly and the edges of the tortillas are slightly crisp.
 6.  **Serve:** Top with cold sour cream and cilantro to balance the heat.
 
-## Serving Suggestions
-
-- [Mexican Red Rice (Arroz Rojo)](/silton-mise/recipes/mexican-red-rice)
-- [quick Seasoned Black Beans](/silton-mise/recipes/quick-seasoned-black-beans)
-- [Smashed Cucumber Salad](/silton-mise/recipes/smashed-cucumber-salad)

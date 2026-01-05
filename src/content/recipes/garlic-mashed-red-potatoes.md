@@ -38,8 +38,3 @@ This is the **Kitchen Standard** for rustic mashed potatoes. To ensure **Textura
 5.  **The Emulsion:** Gradually add the warmed milk and Parmesan. Continue mashing until the mixture is creamy but still has distinct "pops" of red skin.
 6.  **Serve:** Serve immediately with a crack of black pepper.
 
-## Serving Suggestions
-
-- [Brisket with Carrots and Onions](/silton-mise/recipes/brisket-with-carrots-and-onions)
-- [Chicken Coq au Vin](/silton-mise/recipes/chicken-coq-au-vin)
-- [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad)

@@ -44,8 +44,3 @@ The key to this 30-minute nutritious dish is **Culinary Technique** through **Ve
 6.  **Glaze:** Pour the hot stock around the perimeter of the wok to deglaze. Toss vigorously until the liquid is absorbed into a glossy glaze.
 7.  **Serve:** Serve immediately over steamed jasmine rice.
 
-## Serving Suggestions
-
-- [Basmati Rice](/silton-mise/recipes/basmati-rice)
-- [Smashed Cucumber Salad](/silton-mise/recipes/smashed-cucumber-salad)
-- [Cantonese Wonton Broth](/silton-mise/recipes/cantonese-wonton-broth)

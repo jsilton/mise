@@ -40,8 +40,3 @@ This is a 25-minute quick masterclass. The secret to the Kitchen Standard here i
 5.  **Combine:** Return the shrimp and any plate juices to the pan. Toss to coat and simmer for 1 minute.
 6.  **Finish:** Stir in the fresh basil. Taste and adjust with salt or extra honey. Serve immediately over rice.
 
-## Serving Suggestions
-
-- [Basmati Rice](/silton-mise/recipes/basmati-rice)
-- [Smashed Cucumber Salad](/silton-mise/recipes/smashed-cucumber-salad)
-- [quick Pickled Red Onions](/silton-mise/recipes/pickled-red-onions)

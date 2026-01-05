@@ -35,8 +35,3 @@ Great Souvlaki is about **Acid and Aroma**. We marinate the chicken in a heavy d
 5.  **Rest:** Let rest for 5 minutes. The juices will redistribute and carryover heat will finish the cook.
 6.  **Finish:** Squeeze a final hit of fresh lemon over the hot skewers.
 
-## Serving Suggestions
-
-- [Authentic Tzatziki Sauce](/silton-mise/recipes/tzatziki-sauce)
-- [Cilantro Lime Rice](/silton-mise/recipes/cilantro-lime-rice) or Lemon Potatoes
-- Warm Pita Bread

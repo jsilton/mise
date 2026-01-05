@@ -37,8 +37,3 @@ This Tex-Mex weeknight taco bar keeps lean ground turkey flavorful by simmering 
 2.  **Shells:** Warm the hard shells in a 350°F oven for 5 minutes to crisp them. Warm tortillas in a dry pan.
 3.  **Assemble:** Set everything out in bowls and let everyone build their own.
 
-## Serving Suggestions
-
-- [Mexican Street Corn Salad](/silton-mise/recipes/mexican-street-corn-salad)
-- Fresh Lime Wedges
-- Extra [Korean Pickled Cucumbers](/silton-mise/recipes/korean-pickled-cucumbers)

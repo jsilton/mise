@@ -35,8 +35,3 @@ This is our **Updated Classic** version of the blue-box classic, re-engineered f
 4.  **Finish:** Stir in the final tablespoon of cream, salt, plenty of black pepper, and the pinch of nutmeg.
 5.  **Serve:** Serve immediately while the sauce is at its glossiest.
 
-## Serving Suggestions
-
-- [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad)
-- [Roasted Green Bean "Fries"](/silton-mise/recipes/roasted-green-bean-fries)
-- [Buttermilk Baked Chicken](/silton-mise/recipes/buttermilk-baked-chicken)

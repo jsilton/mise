@@ -43,8 +43,3 @@ This is a simple spring pasta from the Roman/Lazio tradition, similar to cacio e
 5.  **Toss:** Add the hot pasta to the bowl. Toss vigorously, adding more pasta water a tablespoon at a time until the sauce is glossy and coats every noodle.
 6.  **Finish:** Stir in the basil and lots of black pepper. Serve immediately with a final drizzle of oil.
 
-## Serving Suggestions
-
-- [Chicken Milanese](/silton-mise/recipes/chicken-milanese)
-- [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad)
-- Roasted Asparagus

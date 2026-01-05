@@ -38,8 +38,3 @@ This is a baseline **Modularity** component for all Korean nutritious meals. The
 5.  **Bind:** Add the warm sprouts. Toss vigorously with your hands or tongs until every strand is coated.
 6.  **Serve:** Garnish with sesame seeds. Serve chilled or at room temperature.
 
-## Serving Suggestions
-
-- [Bibimbap (The Ultimate Bowl)](/silton-mise/recipes/bibimbap)
-- [Marinated Korean Ribeye](/silton-mise/recipes/marinated-korean-ribeye)
-- [Korean Mung Bean Sprouts Salad (Sukju Namul)](/silton-mise/recipes/korean-mung-bean-sprouts-salad)

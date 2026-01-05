@@ -39,8 +39,3 @@ The secret to this nutritious stir-fry is **Textural Balance** through **The Egg
 6.  **Finish:** Cover and steam for 2 minutes. Uncover, stir in the basil leaves, and toss for 30 seconds until just wilted.
 7.  **Serve:** Serve immediately over steamed jasmine rice.
 
-## Serving Suggestions
-
-- [Basmati Rice](/silton-mise/recipes/basmati-rice)
-- [Smashed Cucumber Salad](/silton-mise/recipes/smashed-cucumber-salad)
-- [Miso Soup](/silton-mise/recipes/miso-soup)

@@ -45,8 +45,3 @@ This Tex-Mex style chili uses sweet potatoes for natural sweetness and body—as
 7.  **The Finish:** Stir in the apple cider vinegar (or lime juice). Taste and add salt or pepper as needed.
 8.  **Serve:** Ladle into bowls and let everyone customize with their favorite toppings.
 
-## Serving Suggestions
-
-- [Nana's Biscuits](/silton-mise/recipes/nanas-biscuits) or [My Favorite Cornbread](/silton-mise/recipes/my-favorite-cornbread)
-- Greek Yogurt (as a high-protein sour cream swap)
-- Fresh Cilantro

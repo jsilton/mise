@@ -36,7 +36,3 @@ This is an **Authentic Standard** Thai curry. We have removed the Cajun spices a
 5.  **Wilt:** Turn off the heat and stir in the Thai basil leaves.
 6.  **Serve:** Serve immediately over [Jasmine Rice](/silton-mise/recipes/homemade-rice-pilaf).
 
-## Serving Suggestions
-
-- [Jasmine Rice](/silton-mise/recipes/homemade-rice-pilaf)
-- [Smashed Cucumber Salad](/silton-mise/recipes/smashed-cucumber-salad)

@@ -47,7 +47,3 @@ Shumai (also spelled siu mai) are open-topped Cantonese dumplings, a dim sum sta
 5.  **Steam:** Place in a bamboo steamer lined with parchment. Steam over boiling water for 8-10 minutes until the internal temp is 165°F.
 6.  **Serve:** Serve immediately with hot chili oil.
 
-## Serving Suggestions
-
-- [Cantonese Wonton Broth](/silton-mise/recipes/cantonese-wonton-broth)
-- [Smashed Cucumber Salad](/silton-mise/recipes/smashed-cucumber-salad)

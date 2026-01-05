@@ -43,8 +43,3 @@ The crinkle cookie is all about the **Textural Balance** of the "shackle"—the 
 8.  **Bake:** Arrange 2 inches apart. Bake for 10-12 minutes until the tops are cracked and the edges feel firm.
 9.  **Cool:** Let cool on the pan for 5 minutes before transferring to a rack.
 
-## Serving Suggestions
-
-- [Old-Fashioned Vanilla Ice Cream](/silton-mise/recipes/old-fashioned-vanilla-ice-cream)
-- Cold Glass of Milk
-- [Nana's Pound Cake](/silton-mise/recipes/grandmommys-pound-cake) (as part of a cookie platter)

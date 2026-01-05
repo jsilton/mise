@@ -44,8 +44,3 @@ Spaghetti alle vongole is a classic from the Campania region (Naples and the Ama
 7.  **Finish:** Stir in the lemon juice and half the parsley.
 8.  **Serve:** Garnish with the remaining parsley and a final drizzle of oil. Discard any clams that did not open.
 
-## Serving Suggestions
-
-- [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad) (Mandatory)
-- [Garlic Bread](/silton-mise/recipes/garlic-bread)
-- [Classic Martini](/silton-mise/recipes/classic-martini) (Chilled)

@@ -37,8 +37,3 @@ This is the baseline **Modularity** component for all high-performance nutritiou
 5.  **Toss:** Toss gently until every floret is glossy.
 6.  **Serve:** Serve immediately as a clean, restorative side.
 
-## Serving Suggestions
-
-- [Easy Pan-Seared Chicken Breasts](/silton-mise/recipes/easy-pan-seared-chicken-breasts)
-- [Baked Cod with Lemon Panko](/silton-mise/recipes/baked-cod-with-lemon-panko)
-- [Homemade Rice Pilaf](/silton-mise/recipes/homemade-rice-pilaf)

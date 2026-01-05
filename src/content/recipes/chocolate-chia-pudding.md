@@ -33,8 +33,3 @@ The secret to a "Kitchen Standard" chia pudding is **The Blender Method**. Many 
 3.  **The Finish:** Transfer the mixture to individual jars or a large bowl. Cover and refrigerate for **at least 3 hours** (or overnight) until thick and set.
 4.  **Serve:** Stir once before serving. Top with fresh berries and nuts for **Textural Balance**.
 
-## Serving Suggestions
-
-- [Blueberry Oat Breakfast Bars](/silton-mise/recipes/blueberry-oat-breakfast-bars)
-- Fresh Raspberries
-- [Easy Breakfast Yogurt Popsicles](/silton-mise/recipes/easy-breakfast-yogurt-popsicles)

@@ -40,8 +40,3 @@ This is a high-performance **Fuel** breakfast that utilizes **Culinary Technique
 5.  **Adjust:** Open the jar. If the oats are too thick, stir in a splash of fresh milk to reach a velvety "Bounce."
 6.  **Serve:** Top with a crumbled Stroopwafel or wafer for the mandatory **High Note**.
 
-## Serving Suggestions
-
-- [Mango-Rita Green Smoothie](/silton-mise/recipes/mango-rita-green-smoothie)
-- Fresh Sliced Pears
-- [Easy Breakfast Yogurt Popsicles](/silton-mise/recipes/easy-breakfast-yogurt-popsicles)

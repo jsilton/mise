@@ -45,8 +45,3 @@ This is the ultimate high-performance nutritious bowl. The secret to chicken mea
 6.  **Assemble:** Divide the kale among four bowls. Top with the roasted chickpeas, sweet potatoes, and meatballs.
 7.  **Finish:** Drizzle generously with the dressing for the mandatory **Acid Balance**.
 
-## Serving Suggestions
-
-- [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad)
-- [Smashed Cucumber Salad](/silton-mise/recipes/smashed-cucumber-salad)
-- [Basmati Rice](/silton-mise/recipes/basmati-rice) (if extra fuel is needed)

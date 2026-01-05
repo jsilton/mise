@@ -38,8 +38,3 @@ The secret to a fluffy restaurant-quality pancake is **Textural Balance** throug
 6.  **Flip:** Cook for 2 minutes until bubbles form and pop on the surface and the bottom is golden. Flip and cook for another 2 minutes.
 7.  **Serve:** Serve immediately with salted butter and warm maple syrup.
 
-## Serving Suggestions
-
-- Crispy Bacon or Sausage
-- [Easy Breakfast Yogurt Popsicles](/silton-mise/recipes/easy-breakfast-yogurt-popsicles)
-- Fresh Orange Juice

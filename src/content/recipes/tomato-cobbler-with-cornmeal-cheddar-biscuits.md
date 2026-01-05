@@ -40,8 +40,3 @@ This is a masterclass in **Textural Balance**. The secret to Success is **The Ca
 7.  **The Crunch:** During the final 10 minutes, sprinkle the remaining cheese over the biscuits.
 8.  **Set:** Let rest for 15 minutes (mandatory) before serving.
 
-## Serving Suggestions
-
-- [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad)
-- [Classic Martini](/silton-mise/recipes/classic-martini) (Chilled)
-- [Roasted Green Bean "Fries"](/silton-mise/recipes/roasted-green-bean-fries)

@@ -41,9 +41,3 @@ This is the "Kitchen Standard" for a 25-minute weeknight main. The secret to its
 4.  **The Finish:** Remove to a platter and cover tightly with foil. **Rest for 10 minutes**—this is mandatory for the juices to redistribute.
 5.  **Serve:** Carve into 1/2-inch thick diagonal slices. Serve warm with the accumulated juices from the platter.
 
-## Serving Suggestions
-
-- [Garlic Mashed Red Potatoes](/silton-mise/recipes/garlic-mashed-red-potatoes)
-- [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad)
-- [Roasted Asparagus](/silton-mise/recipes/roasted-asparagus)
-- [Cinnamon Sweet Potatoes](/silton-mise/recipes/cinnamon-sweet-potatoes)

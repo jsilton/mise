@@ -42,8 +42,3 @@ The secret to this "Heritage" peach ice cream is the **Skin-on Standard**. We ch
 7.  **Finish:** Add the chopped peaches during the final minute of churning to maintain **Textural Balance**.
 8.  **Set:** Freeze for 2 hours before serving.
 
-## Serving Suggestions
-
-- [Nana's Pound Cake](/silton-mise/recipes/grandmommys-pound-cake)
-- Fresh Sliced Berries
-- [Classic Martini](/silton-mise/recipes/classic-martini) (Chilled)

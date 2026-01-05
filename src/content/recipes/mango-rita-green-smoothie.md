@@ -38,8 +38,3 @@ This is the "Kitchen Standard" for a high-performance nutritious smoothie. The s
 4.  **Adjust:** If the smoothie is too thick, add a splash more coconut water. If you want more "Snap," add extra lime juice.
 5.  **Serve:** Pour into two chilled glasses. Garnish with a lime slice and serve immediately.
 
-## Serving Suggestions
-
-- [Blueberry Oat Breakfast Bars](/silton-mise/recipes/blueberry-oat-breakfast-bars)
-- [Easy Breakfast Yogurt Popsicles](/silton-mise/recipes/easy-breakfast-yogurt-popsicles)
-- [Oatmeal Risotto](/silton-mise/recipes/oatmeal-risotto)

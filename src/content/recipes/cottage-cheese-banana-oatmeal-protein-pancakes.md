@@ -41,8 +41,3 @@ This is a high-protein nutritious breakfast that relies on **The Blender Method*
 5.  **Finish:** Wipe the skillet clean between batches to prevent the residual sugars from burning.
 6.  **Serve:** Serve immediately with a dollop of Greek yogurt or a drizzle of peanut butter.
 
-## Serving Suggestions
-
-- [Easy Breakfast Yogurt Popsicles](/silton-mise/recipes/easy-breakfast-yogurt-popsicles)
-- Fresh Berries
-- [Blueberry Oat Breakfast Bars](/silton-mise/recipes/blueberry-oat-breakfast-bars)

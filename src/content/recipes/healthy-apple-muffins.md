@@ -47,8 +47,3 @@ This is the ultimate high-fiber nutritious muffin. The secret to its incredible 
 5.  **Bake:** Divide into a lined 12-cup tin. Sprinkle the turbinado sugar over the tops. Bake at 425°F for 13-16 minutes until golden and a toothpick comes out clean.
 6.  **Cool:** Let cool in the pan for 5 minutes before removing.
 
-## Serving Suggestions
-
-- [Easy Breakfast Yogurt Popsicles](/silton-mise/recipes/easy-breakfast-yogurt-popsicles)
-- Salted Butter or Honey
-- [Elderberry Syrup](/silton-mise/recipes/elderberry-syrup) (stirred into tea)

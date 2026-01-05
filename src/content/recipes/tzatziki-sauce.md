@@ -33,8 +33,3 @@ The secret to thick, creamy Tzatziki is **Squeezing**. Cucumbers are mostly wate
 3.  **Mix:** In a bowl, combine the squeezed cucumber, yogurt, garlic, lemon juice, olive oil, and dill.
 4.  **Chill:** Let sit for at least 15 minutes before serving to let the garlic infuse the yogurt.
 
-## Pairs With
-
-- [Greek-Style Lamb Burgers](/silton-mise/recipes/greek-style-lamb-burgers-with-yogurt-cucumber-sauce)
-- [Mediterranean Chicken Bowls](/silton-mise/recipes/mediterranean-chicken-bowls)
-- Warm Pita Bread

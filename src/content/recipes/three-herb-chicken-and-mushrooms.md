@@ -39,8 +39,3 @@ This is a masterclass in **Textural Balance** through **The Skillet-to-Oven Meth
 6.  **Finish:** Stir in the remaining rosemary, thyme, and parsley for the mandatory aromatic **High Note**.
 7.  **Serve:** Spoon the three-herb sauce over the chicken and serve hot.
 
-## Serving Suggestions
-
-- [Patate al Forno](/silton-mise/recipes/patate-al-forno)
-- [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad)
-- [Garlic Bread](/silton-mise/recipes/garlic-bread)

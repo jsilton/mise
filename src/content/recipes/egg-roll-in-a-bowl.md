@@ -41,7 +41,3 @@ Egg roll in a bowl is a deconstructed version of the classic takeout item—all 
 4.  **Toss:** Stir-fry vigorously for 2-3 minutes. **Stop immediately** when the cabbage starts to collapse but still feels firm.
 5.  **Finish:** Remove from heat. Top with green onions, sesame seeds, and a generous drizzle of chili crisp.
 
-## Serving Suggestions
-
-- [Jasmine Rice](/silton-mise/recipes/homemade-rice-pilaf) (Optional)
-- [Smashed Cucumber Salad](/silton-mise/recipes/smashed-cucumber-salad)

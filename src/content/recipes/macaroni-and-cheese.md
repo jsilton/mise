@@ -43,8 +43,3 @@ This is a Southern-style **Custard Mac and Cheese** with a pimento-infused twist
 6.  **Crisp:** Bake for 25-30 minutes until the top is golden brown and the edges are bubbling. For an extra-crispy top, broil for the final 60 seconds.
 7.  **Rest:** Let the dish stand for 5 minutes before serving. This allows the custard to set.
 
-## Serving Suggestions
-
-- [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad) (to cut the richness)
-- [Roasted Tomato Basil Soup](/silton-mise/recipes/roasted-tomato-basil-soup)
-- Grilled Chicken or Stewed Greens

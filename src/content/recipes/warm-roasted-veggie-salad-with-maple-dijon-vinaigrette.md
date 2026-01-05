@@ -43,8 +43,3 @@ This salad is a study in **Textural Balance** through **The Roasted Stacks Metho
 5.  **Bind:** Add the cranberries and Parmesan. Pour the dressing over the top.
 6.  **Toss:** Toss vigorously with your hands until every leaf is coated in the sweet-savory emulsion. Serve immediately.
 
-## Serving Suggestions
-
-- [Grilled Pork & Peaches](/silton-mise/recipes/grilled-pork-and-peaches)
-- [Chicken Milanese](/silton-mise/recipes/chicken-milanese)
-- [Roasted Green Bean "Fries"](/silton-mise/recipes/roasted-green-bean-fries)

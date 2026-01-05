@@ -42,8 +42,3 @@ We have upgraded this from the "soup mix" version to the **Authentic French Stan
 7.  **The Mount:** Turn off the heat. Whisk in the cold butter cubes until the sauce is glossy and rich.
 8.  **Serve:** Return chicken to the sauce. Serve over mashed potatoes or rice.
 
-## Serving Suggestions
-
-- [Miso-Mashed Potatoes](/silton-mise/recipes/miso-mashed-potatoes)
-- [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad)
-- Glass of the same Red Wine used in cooking

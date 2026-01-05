@@ -46,8 +46,3 @@ Mongolian chicken follows the same Chinese-American formula as Mongolian beef. T
 6.  **Toss:** Add the crispy chicken and scallion greens. Toss for 10 seconds until every piece is lacquered.
 7.  **Serve:** Serve immediately over steamed rice.
 
-## Serving Suggestions
-
-- [Basmati Rice](/silton-mise/recipes/basmati-rice)
-- [Smashed Cucumber Salad](/silton-mise/recipes/smashed-cucumber-salad)
-- [Chinese Eggplant with Garlic Sauce](/silton-mise/recipes/chinese-eggplant-with-garlic-sauce)

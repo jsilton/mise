@@ -42,8 +42,3 @@ This is our baseline **Modularity** component for all Executive chili nights. Th
 5.  **Bake:** Bake for 20 minutes until the top is deep golden brown and the edges are crispy.
 6.  **Cool:** Let cool for 5 minutes before slicing into squares.
 
-## Serving Suggestions
-
-- [Turkey and Sweet Potato Chili](/silton-mise/recipes/chili)
-- [Crockpot Vegetarian Chili](/silton-mise/recipes/crockpot-vegetarian-chili)
-- [Buttermilk Baked Chicken](/silton-mise/recipes/buttermilk-baked-chicken)

@@ -46,8 +46,3 @@ This is an Italian-American twist on traditional Thanksgiving stuffing, reflecti
 6.  **Bake:** Preheat oven to 350°F. Transfer mixture to a greased 9x13 baking dish. Bake uncovered for 25-30 minutes until the top is deep golden and the center is 150°F.
 7.  **Rest:** Let sit for 5 minutes before serving.
 
-## Serving Suggestions
-
-- [Roast Turkey Breast](/silton-mise/recipes/roast-turkey-breast)
-- [Perfect Cranberry Sauce](/silton-mise/recipes/perfect-cranberry-sauce)
-- [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad)

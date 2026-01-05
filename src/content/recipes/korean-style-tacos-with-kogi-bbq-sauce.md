@@ -42,8 +42,3 @@ These Korean-Mexican fusion tacos were popularized by LA's Kogi BBQ truck in 200
 5.  **Assemble:** Place a generous scoop of the glazed meat into each tortilla.
 6.  **Finish:** Top with a pile of the chilled cucumber pickles and extra scallions. Serve immediately.
 
-## Serving Suggestions
-
-- [Smashed Cucumber Salad](/silton-mise/recipes/smashed-cucumber-salad)
-- [Korean Mung Bean Sprouts Salad (Sukju Namul)](/silton-mise/recipes/korean-mung-bean-sprouts-salad)
-- [Fresh Cabbage, Cucumber and Radish Kimchi](/silton-mise/recipes/fresh-cabbage-cucumber-and-radish-kimchi)

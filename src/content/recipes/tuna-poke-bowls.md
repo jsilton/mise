@@ -43,7 +43,3 @@ The quality of a poke bowl lives and dies by the **Tuna sourcing**. Always look 
 4.  **Assemble:** Place a mound of rice in each bowl. Arrange the tuna, avocado, cucumbers, and edamame in sections on top.
 5.  **Finish:** Top with nori strips, scallions, and sesame seeds. Serve with extra soy sauce or spicy mayo on the side.
 
-## Serving Suggestions
-
-- [Miso Soup](/silton-mise/recipes/miso-soup)
-- Iced Green Tea

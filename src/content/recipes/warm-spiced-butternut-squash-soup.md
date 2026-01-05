@@ -38,8 +38,3 @@ This is the ultimate holiday **Project** soup. The secret to its Success is **Th
 5.  **Finish:** Stir in the cider vinegar and red pepper flakes for the mandatory **Acid Balance**.
 6.  **Serve:** Ladle into bowls. Top with pomegranate arils and fresh cilantro for the final **High Note**.
 
-## Serving Suggestions
-
-- [Sourdough Grilled Cheese](/silton-mise/recipes/grilled-cheese-and-tomato-soup)
-- [Perfect Cranberry Sauce](/silton-mise/recipes/perfect-cranberry-sauce)
-- Warm [Anadama Bread](/silton-mise/recipes/anadama-bread)

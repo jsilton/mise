@@ -37,8 +37,3 @@ This is the baseline for high-speed **Modularity**. The secret to a Rice Krispie
 5.  **The Finish:** Let cool completely at room temperature for 30 minutes. **Do not refrigerate.**
 6.  **Cut:** Slice into 2-inch squares and serve the same day for the Kitchen Standard texture.
 
-## Serving Suggestions
-
-- [Mango-Rita Green Smoothie](/silton-mise/recipes/mango-rita-green-smoothie)
-- Fresh Raspberries
-- [Classic Martini](/silton-mise/recipes/classic-martini) (Chilled)

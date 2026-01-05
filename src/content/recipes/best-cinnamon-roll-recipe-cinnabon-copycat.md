@@ -57,8 +57,3 @@ This is the **Culinary Technique** of a perfect roll. We use the **Tangzhong met
 9.  **The Frosting:** Whip the cream cheese and butter until smooth. Mix in powdered sugar, vanilla, and cream until fluffy.
 10. **Finish:** Let the rolls cool for 15 minutes, then spread the frosting generously while they are still warm to allow some of it to seep into the spirals.
 
-## Serving Suggestions
-
-- Freshly Brewed Coffee
-- Cold Milk
-- [Hot Mulled Apple Cider](/silton-mise/recipes/hot-mulled-apple-cider)

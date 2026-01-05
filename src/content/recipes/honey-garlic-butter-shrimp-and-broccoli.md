@@ -44,8 +44,3 @@ This quick Chinese-American inspired stir-fry is done in 20 minutes. The trick: 
 5.  **Bind:** Return the shrimp and broccoli to the skillet. Toss vigorously for 30 seconds until every piece is perfectly coated in the glaze.
 6.  **Serve:** Serve immediately over [Basmati Rice](/silton-mise/recipes/basmati-rice).
 
-## Serving Suggestions
-
-- [Basmati Rice](/silton-mise/recipes/basmati-rice)
-- [Smashed Cucumber Salad](/silton-mise/recipes/smashed-cucumber-salad)
-- [Chinese Eggplant with Garlic Sauce](/silton-mise/recipes/chinese-eggplant-with-garlic-sauce)

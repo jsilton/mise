@@ -47,8 +47,3 @@ Peking duck from Beijing is famous for its crackling-crisp skin. The secret: pou
 8.  **The Sauce:** Simmer sweet bean sauce, sugar, and a spoonful of rendered duck fat until bubbling.
 9.  **Serve:** Slice the skin and meat separately. Serve with thin pancakes, julienned scallions, and cucumber.
 
-## Serving Suggestions
-
-- [Smashed Cucumber Salad](/silton-mise/recipes/smashed-cucumber-salad)
-- [Cantonese Wonton Broth](/silton-mise/recipes/cantonese-wonton-broth)
-- [Chinese Eggplant with Garlic Sauce](/silton-mise/recipes/chinese-eggplant-with-garlic-sauce)

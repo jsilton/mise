@@ -42,8 +42,3 @@ This is a one-pot masterpiece that utilizes **Flavor Layering**. We start by ren
 7.  **Bake:** Cover tightly and transfer to a 400°F oven. Bake for 20-25 minutes until the liquid is absorbed and the rice is tender.
 8.  **Rest:** Remove from oven and let sit, covered, for 10 minutes. This is the secret to fluffy, distinct grains.
 
-## Serving Suggestions
-
-- [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad)
-- [quick Pickled Carrots and Daikon](/silton-mise/recipes/quick-pickled-carrots-and-daikon)
-- Garlic Aioli for drizzling

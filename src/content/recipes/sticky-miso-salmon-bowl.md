@@ -39,8 +39,3 @@ This is a masterclass in **Modularity**. The secret to the Kitchen Standard is *
 6.  **Assemble:** Mound the scallion rice in 4 bowls. Top with a salmon fillet.
 7.  **Finish:** Layer with cucumber, avocado, kimchi, and a dollop of chile crisp for the mandatory **High Note**.
 
-## Serving Suggestions
-
-- [Smashed Cucumber Salad](/silton-mise/recipes/smashed-cucumber-salad)
-- [Miso Soup](/silton-mise/recipes/miso-soup)
-- [Japanese Style Trout with Dashi](/silton-mise/recipes/japanese-style-trout-with-dashi)

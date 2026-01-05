@@ -47,8 +47,3 @@ This Tex-Mex style slow-cooker chili builds body and richness without meat by us
 5.  **The Finish:** 5 minutes before serving, stir in the **Apple Cider Vinegar**. Taste and adjust salt if needed.
 6.  **Serve:** Ladle into deep bowls. Top with Greek yogurt, avocado, and fresh cilantro.
 
-## Serving Suggestions
-
-- [My Favorite Cornbread](/silton-mise/recipes/my-favorite-cornbread)
-- [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad)
-- [Pickled Red Onions](/silton-mise/recipes/pickled-red-onions)

@@ -37,8 +37,3 @@ This is a baseline **Modularity** component for summer salads. The secret to the
 4.  **Adjust:** Taste and add a tiny splash more vinegar if you need a higher "High Note."
 5.  **Serve:** Use immediately or refrigerate for up to 3 days. Shake vigorously before each use to restore the emulsion.
 
-## Serving Suggestions
-
-- [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad)
-- [Arugula and Feta Salad with Strawberry Vinaigrette](/silton-mise/recipes/arugula-and-feta-salad-with-strawberry-vinaigrette)
-- Grilled Salmon or Chicken

@@ -39,6 +39,3 @@ Homemade wonton wrappers have a delicate, silky texture that's hard to match wit
 5.  **Cut:** Dust generously with cornstarch. Cut into 3.5-inch squares.
 6.  **Store:** Stack with plenty of cornstarch between layers. Wrap tightly in plastic. (Can be refrigerated for 2 days or frozen for 3 months).
 
-## Pairs With
-
-- [Cantonese Shrimp and Pork Wontons](/silton-mise/recipes/cantonese-shrimp-and-pork-wontons)

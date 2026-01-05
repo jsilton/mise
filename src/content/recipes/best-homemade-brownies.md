@@ -38,8 +38,3 @@ The secret to the Kitchen Standard brownie is **Textural Balance**. By using **E
 5.  **Bake:** Spread evenly in the prepared pan. Bake for 40-45 minutes until a toothpick comes out with a few moist crumbs.
 6.  **The Finish:** Allow to cool completely in the pan for at least 2 hours before slicing. This is mandatory for the structure to set.
 
-## Serving Suggestions
-
-- [Old-Fashioned Vanilla Ice Cream](/silton-mise/recipes/old-fashioned-vanilla-ice-cream)
-- Flaky Sea Salt (sprinkled on top)
-- Cold Glass of Milk

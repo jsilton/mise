@@ -43,7 +43,3 @@ The secret to zucchini bread that isn't gummy is **The Squeeze**. Zucchini is mo
 6.  **Bake:** Pour into the pan. Bake for 35-40 minutes until the top is dark golden brown and a tester comes out clean.
 7.  **Rest:** Let cool in the pan for 10 minutes before lifting out via the parchment paper.
 
-## Serving Suggestions
-
-- Salted Butter
-- [Ultimate Crock-Pot Sipping Chocolate](/silton-mise/recipes/crock-pot-hot-chocolate)

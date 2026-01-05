@@ -44,8 +44,3 @@ These are high-performance **Modularity** components for busy mornings. The secr
 5.  **Bake:** Bake for 15-20 minutes until the edges are golden brown and the center feels firm.
 6.  **The Finish:** Let cool completely on the pan. This is mandatory for the flax and coconut oil to set the "Bounce."
 
-## Serving Suggestions
-
-- [Easy Breakfast Yogurt Popsicles](/silton-mise/recipes/easy-breakfast-yogurt-popsicles)
-- Fresh Apple Slices
-- [Chocolate Blended Oats](/silton-mise/recipes/chocolate-blended-oats-with-raspberry-chia-jam)

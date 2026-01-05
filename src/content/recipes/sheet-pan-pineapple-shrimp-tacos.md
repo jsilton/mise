@@ -39,8 +39,3 @@ These Mexican-inspired shrimp tacos roast on a divided sheet pan where shrimp, p
 5.  **Assemble:** Warm tortillas. Place a handful of cold slaw in each. Top with 3-4 shrimp and several pieces of roasted onion and pineapple.
 6.  **Finish:** Top with avocado and sour cream for the final aromatic **High Note**.
 
-## Serving Suggestions
-
-- [Mexican Red Rice (Arroz Rojo)](/silton-mise/recipes/mexican-red-rice)
-- [quick Seasoned Black Beans](/silton-mise/recipes/quick-seasoned-black-beans)
-- [Smashed Cucumber Salad](/silton-mise/recipes/smashed-cucumber-salad)

@@ -35,8 +35,3 @@ The drop biscuit is the ultimate test of **Culinary Technique** in speed-baking.
 6.  **Bake:** Bake for 15-18 minutes until the tops are golden brown and the bottoms are crispy.
 7.  **Serve:** Serve warm with plenty of salted butter and honey.
 
-## Serving Suggestions
-
-- [Turkey and Sweet Potato Chili](/silton-mise/recipes/chili)
-- [One-Pot Chicken Meatballs with Greens](/silton-mise/recipes/one-pot-chicken-meatballs-with-greens)
-- [Perfect Cranberry Sauce](/silton-mise/recipes/perfect-cranberry-sauce)

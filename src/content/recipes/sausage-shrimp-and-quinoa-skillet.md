@@ -39,8 +39,3 @@ This is the ultimate 20-minute nutritious hero. The secret to quinoa that has a 
 5.  **Finish:** Remove from heat. Season with a pinch of salt and pepper.
 6.  **Serve:** Garnish with fresh parsley. Serve immediately.
 
-## Serving Suggestions
-
-- [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad)
-- [Smashed Cucumber Salad](/silton-mise/recipes/smashed-cucumber-salad)
-- A squeeze of fresh lemon for a "High Note" finish.

@@ -44,7 +44,3 @@ Chicken lettuce wraps became popular through restaurants like P.F. Chang's in th
 4.  **Finish:** Stir in the green onions. Remove from heat.
 5.  **Serve:** Spoon the mixture into cold lettuce cups. Top with chili crisp or crispy noodles if using.
 
-## Serving Suggestions
-
-- [Smashed Cucumber Salad](/silton-mise/recipes/smashed-cucumber-salad)
-- [Cantonese Wonton Broth](/silton-mise/recipes/cantonese-wonton-broth)

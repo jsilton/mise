@@ -49,8 +49,3 @@ Har gow are Cantonese shrimp dumplings with translucent, pleated wrappers—a di
 6.  **Steam:** Place in a bamboo steamer on parchment. Steam over boiling water for exactly 6 minutes on high heat.
 7.  **Serve:** Serve immediately with chili oil and soy sauce for the mandatory **High Note**.
 
-## Serving Suggestions
-
-- [Smashed Cucumber Salad](/silton-mise/recipes/smashed-cucumber-salad)
-- [Chinese Eggplant with Garlic Sauce](/silton-mise/recipes/chinese-eggplant-with-garlic-sauce)
-- [Cantonese Wonton Broth](/silton-mise/recipes/cantonese-wonton-broth)

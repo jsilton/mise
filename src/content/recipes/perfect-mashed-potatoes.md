@@ -37,8 +37,3 @@ These are the definitive "Kitchen Standard" mashed potatoes. To ensure **Textura
 4.  **Beat:** Remove from heat. Using a handheld electric mixer, beat on medium speed for 30-60 seconds. **Stop immediately** once the mixture is smooth and billowy.
 5.  **Serve:** Stir in the salt and plenty of black pepper. Serve immediately with a "High Note" pat of butter.
 
-## Serving Suggestions
-
-- [Brisket with Carrots and Onions](/silton-mise/recipes/brisket-with-carrots-and-onions)
-- [Chicken Coq au Vin](/silton-mise/recipes/chicken-coq-au-vin)
-- [Meatloaf](/silton-mise/recipes/mommas-healthy-meatloaf)

@@ -43,8 +43,3 @@ Mastering the soufflé is about **Culinary Technique**, not luck. We use the **A
 6.  **Bake:** Transfer to the prepared dish. Sprinkle 1 tbsp sugar on top. **Bake at 475°F** for 25-30 minutes until puffed and set with a slight wobble in the center.
 7.  **Serve:** Dust with powdered sugar and serve immediately with extra heavy cream.
 
-## Serving Suggestions
-
-- [Old-Fashioned Strawberry Ice Cream](/silton-mise/recipes/old-fashioned-strawberry-ice-cream)
-- Fresh Raspberries
-- Glass of Port or Espresso

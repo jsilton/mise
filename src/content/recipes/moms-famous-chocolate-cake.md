@@ -46,8 +46,3 @@ This is a "Updated Classic" upgrade of a family staple. By swapping margarine fo
 4.  **The Frosting:** While the cake bakes, melt the 1 stick of butter in a clean saucepan. Whisk in the cocoa and milk. Remove from heat and stir in the powdered sugar until silky.
 5.  **Seal:** Pour the warm frosting over the hot cake immediately after removing it from the oven. Let cool completely (if you can wait!) before slicing.
 
-## Serving Suggestions
-
-- [Ultimate Crock-Pot Sipping Chocolate](/silton-mise/recipes/crock-pot-hot-chocolate)
-- Fresh Raspberries or Strawberries
-- Cold Glass of Milk

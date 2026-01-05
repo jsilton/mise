@@ -39,8 +39,3 @@ This is the "Kitchen Standard" for a fresh vegetable side. The secret to the vib
 6.  **Toss:** Add the dry green beans and lemon zest to the pan. Toss vigorously for 2 minutes until the beans are warmed through and coated in a glossy, sweet-acidic film.
 7.  **Serve:** Season with salt and black pepper. Serve immediately.
 
-## Serving Suggestions
-
-- [Buttermilk Baked Chicken](/silton-mise/recipes/buttermilk-baked-chicken)
-- [Chicken Marsala](/silton-mise/recipes/chicken-marsala)
-- [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad)

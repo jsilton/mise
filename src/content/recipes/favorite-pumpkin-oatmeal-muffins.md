@@ -44,8 +44,3 @@ This is our favorite high-performance nutritious breakfast. We use **The Blender
 6.  **Cool:** Let cool in the pan for 10 minutes to allow the oat structure to set.
 7.  **Store:** These keep in the fridge for 5 days or the freezer for 3 months.
 
-## Serving Suggestions
-
-- [Easy Breakfast Yogurt Popsicles](/silton-mise/recipes/easy-breakfast-yogurt-popsicles)
-- Fresh Apple Slices
-- [Chocolate Blended Oats](/silton-mise/recipes/chocolate-blended-oats-with-raspberry-chia-jam)

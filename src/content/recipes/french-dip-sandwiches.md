@@ -39,8 +39,3 @@ The French Dip is all about the **Jus** (the juice). Most home versions are wate
 7.  **Toast:** Place the sandwiches under the **BROILER** for 1-2 minutes until the cheese is bubbly and the bread is toasted.
 8.  **Serve:** Serve immediately with the hot Jus on the side for dipping.
 
-## Serving Suggestions
-
-- Sweet Potato Fries
-- [Roasted Green Bean "Fries"](/silton-mise/recipes/roasted-green-bean-fries)
-- Horseradish Mayo

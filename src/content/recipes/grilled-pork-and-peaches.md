@@ -40,8 +40,3 @@ This dish is a masterclass in **Updated Classic** flavor pairing. The secret to 
 6.  **Rest:** Remove meat to a carving board and **rest for 5 minutes** (mandatory for structure).
 7.  **Serve:** Slice the pork and serve immediately with the buttery, charred peaches and any pan juices.
 
-## Serving Suggestions
-
-- [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad)
-- [Cilantro Lime Rice](/silton-mise/recipes/cilantro-lime-rice)
-- [Classic Martini](/silton-mise/recipes/classic-martini) (Chilled)

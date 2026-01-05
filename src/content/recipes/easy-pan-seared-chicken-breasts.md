@@ -40,8 +40,3 @@ This is the baseline for 15-minute quick cooking. The secret to avoiding dry, to
 5.  **Cook:** Sear for 4-5 minutes per side until deep golden brown and the internal temp is 165°F. Flip only once to maintain the crust.
 6.  **Serve:** Let rest for 2 minutes before serving to preserve the juices.
 
-## Serving Suggestions
-
-- [Homemade Rice Pilaf](/silton-mise/recipes/homemade-rice-pilaf)
-- [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad)
-- [Smashed Cucumber Salad](/silton-mise/recipes/smashed-cucumber-salad)

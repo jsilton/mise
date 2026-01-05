@@ -41,8 +41,3 @@ This quick stir-fry showcases the Cantonese approach to spring vegetables, pairi
 5.  **Bind:** Add the drained noodles and the remaining sweet chili sauce. Toss vigorously for 4 minutes until the noodles are hot and glossy.
 6.  **Serve:** Return shrimp to the pan. Toss for 30 seconds. Serve immediately.
 
-## Serving Suggestions
-
-- [Smashed Cucumber Salad](/silton-mise/recipes/smashed-cucumber-salad)
-- [Chinese Eggplant with Garlic Sauce](/silton-mise/recipes/chinese-eggplant-with-garlic-sauce)
-- [Miso Soup](/silton-mise/recipes/miso-soup)

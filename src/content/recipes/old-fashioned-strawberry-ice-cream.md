@@ -43,8 +43,3 @@ The secret to restaurant-quality strawberry ice cream is **The Maceration Method
 6.  **Churn:** Stir the macerated strawberries (including all juice) into the custard. Pour into ice cream maker and process for 25-35 minutes.
 7.  **Set:** Freeze for 2 hours to harden into the Kitchen Standard texture.
 
-## Serving Suggestions
-
-- [Extraordinary Chocolate Chip Cookie](/silton-mise/recipes/extraordinary-chocolate-chip-cookie)
-- Fresh Basil (as a savory-sweet garnish)
-- [Classic Martini](/silton-mise/recipes/classic-martini) (Chilled)

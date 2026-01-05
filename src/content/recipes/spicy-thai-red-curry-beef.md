@@ -39,8 +39,3 @@ This is the baseline for 20-minute quick main dishes. The secret to its Success 
 5.  **Finish:** Remove from heat. Stir in the fresh basil and lime juice for the mandatory **Acid Balance**.
 6.  **Serve:** Serve immediately over [Basmati Rice](/silton-mise/recipes/basmati-rice) with lime wedges.
 
-## Serving Suggestions
-
-- [Basmati Rice](/silton-mise/recipes/basmati-rice)
-- [Smashed Cucumber Salad](/silton-mise/recipes/smashed-cucumber-salad)
-- [Thai Basil Ginger Spritzer](/silton-mise/recipes/thai-basil-ginger-spritzer)

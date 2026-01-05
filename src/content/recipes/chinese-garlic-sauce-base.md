@@ -40,8 +40,3 @@ This is the foundation sauce for countless Chinese-American stir-fries. It balan
 1.  **Whisk:** In a small bowl or jar, combine all ingredients. Whisk vigorously until the cornstarch is completely dissolved.
 2.  **Use:** Pour into a hot wok at the very end of cooking. Stir constantly for 30-60 seconds until the sauce bubbles and turns from cloudy to clear and glossy.
 
-## Pairs With
-
-- [Chinese Spicy Garlic Eggplant](/silton-mise/recipes/chinese-spicy-garlic-eggplant)
-- Steamed Broccoli with Garlic
-- Chicken and Broccoli

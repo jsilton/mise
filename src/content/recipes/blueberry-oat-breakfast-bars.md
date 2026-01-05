@@ -42,8 +42,3 @@ The challenge with oat bars is preventing them from crumbling into granola. The 
 7.  **Glaze:** Whisk together the yogurt and orange juice. Drizzle over the chilled bars.
 8.  **Slice:** Cut into 8 bars and serve cold or at room temperature.
 
-## Serving Suggestions
-
-- [Easy Breakfast Yogurt Popsicles](/silton-mise/recipes/easy-breakfast-yogurt-popsicles)
-- Fresh Fruit Platter
-- [Chocolate Chia Pudding](/silton-mise/recipes/chocolate-chia-pudding)

@@ -52,7 +52,3 @@ This classic Cantonese stir-fry showcases delicate proteins and spring vegetable
 7.  **Finish:** Stir the sauce one last time and pour it into the pan. Toss everything together for 30-60 seconds until the sauce bubbles and turns into a clear, glossy glaze.
 8.  **Serve:** Serve immediately over [Jasmine Rice](/silton-mise/recipes/homemade-rice-pilaf).
 
-## Serving Suggestions
-
-- [Jasmine Rice](/silton-mise/recipes/homemade-rice-pilaf) (Rinse 3 times!)
-- [Smashed Cucumber Salad](/silton-mise/recipes/smashed-cucumber-salad)

@@ -38,8 +38,3 @@ The secret to "Kitchen Standard" mussels is **Culinary Technique** through **The
 6.  **Serve:** Ladle mussels and the thick chorizo broth into deep bowls. Garnish with fresh tarragon for the mandatory aromatic **High Note**.
 7.  **Toast:** Serve with heavily oiled, charred country bread.
 
-## Serving Suggestions
-
-- [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad)
-- [Classic Martini](/silton-mise/recipes/classic-martini) (Chilled)
-- [Patate al Forno](/silton-mise/recipes/patate-al-forno)

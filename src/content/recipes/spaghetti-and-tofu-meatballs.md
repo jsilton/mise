@@ -47,8 +47,3 @@ Vegetarian "meatballs" have been made with nuts and grains for centuries, though
 6.  **Bake:** Bake at 350°F for 20-30 minutes, flipping once, until the exterior is deep brown and "Snappy."
 7.  **Serve:** Add the meatballs to your favorite [Roasted Tomato Sauce](/silton-mise/recipes/roasted-tomato-basil-soup) and serve over [Fresh Egg Pasta](/silton-mise/recipes/fresh-egg-pasta).
 
-## Serving Suggestions
-
-- [Fresh Egg Pasta](/silton-mise/recipes/fresh-egg-pasta)
-- [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad)
-- [Garlic Bread](/silton-mise/recipes/garlic-bread)

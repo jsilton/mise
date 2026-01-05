@@ -40,8 +40,3 @@ The secret to a "Kitchen Standard" yogurt pop is **Culinary Technique** through 
 6.  **Set:** Freeze for 1 hour. Insert sticks. Freeze for **at least 3 more hours** until rock-solid.
 7.  **Serve:** Run molds under warm water for 10 seconds to release. Serve immediately.
 
-## Serving Suggestions
-
-- [Easy Breakfast Yogurt Popsicles](/silton-mise/recipes/easy-breakfast-yogurt-popsicles)
-- [Mango-Rita Green Smoothie](/silton-mise/recipes/mango-rita-green-smoothie)
-- Fresh Fruit Platter

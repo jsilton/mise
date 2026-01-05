@@ -43,8 +43,3 @@ This is the ultimate hack for families. The high-sugar soda contains phosphoric 
 7.  **The Bark (Critical):** Toss the shredded pork with 1/2 cup of BBQ sauce. Spread on a baking sheet and **BROIL** for 5 minutes until the edges are crispy and charred.
 8.  **Serve:** Toss with the remaining BBQ sauce.
 
-## Serving Suggestions
-
-- [quick Pickled Carrots and Daikon](/silton-mise/recipes/quick-pickled-carrots-and-daikon) (As a slaw topper)
-- Sweet Potato Fries
-- Brioche Buns

@@ -40,8 +40,3 @@ The pound cake is the ultimate expression of **Updated Classic**. We have elimin
 6.  **Bake:** Pour the thick batter into the prepared pan. Bake at 275°F for 1.5 hours (or at 300°F for 1 hour if using loaf pans) until a toothpick inserted in the center comes out clean.
 7.  **Cool:** Let cool in the pan for 20 minutes before inverting onto a rack.
 
-## Serving Suggestions
-
-- [Old-Fashioned Strawberry Ice Cream](/silton-mise/recipes/old-fashioned-strawberry-ice-cream)
-- Fresh Macerated Berries
-- [Favorite Cream Cheese Frosting](/silton-mise/recipes/favorite-cream-cheese-frosting)

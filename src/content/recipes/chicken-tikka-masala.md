@@ -52,8 +52,3 @@ This is the ultimate home version of the world's most popular curry. It strikes 
 6.  **The Finish:** Stir in the heavy cream and the broiled chicken (plus any juices from the tray). Simmer on low for 5–8 minutes to marry the flavors.
 7.  **The Magic:** Turn off the heat. Stir in the cold butter for a glossy finish. Crush the Kasuri Methi between your palms to release its oils and sprinkle it over the top along with the final teaspoon of Garam Masala.
 
-## Serving Suggestions
-
-- [Basmati Rice](/silton-mise/recipes/basmati-rice) (Rinsed 3 times)
-- Warm Naan or Paratha
-- Saag Paneer

@@ -41,8 +41,3 @@ This is the ultimate test of **Culinary Technique** in baking. The secret to the
 7.  **Bake:** Bake for 18 minutes until the edges are set but the center still looks slightly soft.
 8.  **Cool:** Let cool on the sheet for 10 minutes to allow the internal structure to firm up.
 
-## Serving Suggestions
-
-- [Old-Fashioned Vanilla Ice Cream](/silton-mise/recipes/old-fashioned-vanilla-ice-cream) (for a warm cookie sundae)
-- Cold Glass of Whole Milk
-- Flaky Sea Salt (sprinkled on top)

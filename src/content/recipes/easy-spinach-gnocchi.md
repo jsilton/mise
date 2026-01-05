@@ -41,8 +41,3 @@ These are properly called "gnudi" - Italian for "naked" - because they're essent
 5.  **Boil:** Bring a large pot of salted water to a boil. Drop gnocchi in. They are done when they float to the surface (3-5 mins).
 6.  **Serve:** Drain gently. Serve immediately with a high-quality tomato sauce or brown butter and sage.
 
-## Serving Suggestions
-
-- [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad)
-- [Roasted Tomato Basil Soup](/silton-mise/recipes/roasted-tomato-basil-soup)
-- [Garlic Bread](/silton-mise/recipes/garlic-bread)

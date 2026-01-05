@@ -43,8 +43,3 @@ This is the Kitchen Standard for **Modularity**. The secret to a perfect slice e
 5.  **Cool:** Let cool in the pan for 15 minutes before slicing.
 6.  **The Freeze:** To store, slice the loaf into 1/2-inch rounds. Place parchment between slices and freeze in a zip-top bag. Reheat individual slices in the toaster for a Crunch finish.
 
-## Serving Suggestions
-
-- [Easy Breakfast Yogurt Popsicles](/silton-mise/recipes/easy-breakfast-yogurt-popsicles)
-- Fresh Sliced Berries
-- Salted Butter or Peanut Butter

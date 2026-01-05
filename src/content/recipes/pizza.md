@@ -42,8 +42,3 @@ Pizza as we know it originated in Naples in the late 18th century as street food
 6.  **The Wilt:** During the final 2 minutes, scatter the fresh spinach over the top.
 7.  **Serve:** Remove from the oven. Let rest for 2 minutes (The Finish Cycle) before slicing.
 
-## Serving Suggestions
-
-- [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad) (Mandatory)
-- [Classic Martini](/silton-mise/recipes/classic-martini) (Chilled)
-- [Hot-and-Sour Soup](/silton-mise/recipes/hot-and-sour-soup) (The Executive "Night Before" tradition)

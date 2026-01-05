@@ -39,8 +39,3 @@ Summer rolls are a masterclass in **Textural Balance**. The secret to Success is
 6.  **The Roll:** Fold the bottom of the wrapper over the filling, tuck in the sides, and roll tightly into a cylinder.
 7.  **Serve:** Serve immediately with the dipping sauce.
 
-## Serving Suggestions
-
-- [Smashed Cucumber Salad](/silton-mise/recipes/smashed-cucumber-salad)
-- [Thai Basil Ginger Spritzer](/silton-mise/recipes/thai-basil-ginger-spritzer)
-- [Japanese Style Trout with Dashi](/silton-mise/recipes/japanese-style-trout-with-dashi)

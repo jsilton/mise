@@ -34,7 +34,3 @@ The secret to a meringue that is "Chewy" rather than just "Crispy" is the **Suga
 6.  **Bake:** Bake for 45-50 minutes. The cookies are done when the outside is firm but the center still feels slightly soft.
 7.  **Cool:** Let cool completely on the baking sheet to allow the shell to set.
 
-## Serving Suggestions
-
-- Fresh Raspberries
-- [Ultimate Crock-Pot Sipping Chocolate](/silton-mise/recipes/crock-pot-hot-chocolate)

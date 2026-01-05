@@ -42,8 +42,3 @@ The secret to a "Kitchen Standard" orzo soup is **Culinary Technique** through *
 5.  **Finish:** Remove from heat. Stir in the fresh parsley and lemon juice.
 6.  **Serve:** Season generously with salt and pepper. Serve immediately. Note: orzo will continue to absorb liquid as it sits; add a splash of broth when reheating.
 
-## Serving Suggestions
-
-- [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad)
-- Warm [Anadama Bread](/silton-mise/recipes/anadama-bread)
-- [Garlic Mashed "Mock" Potatoes](/silton-mise/recipes/garlic-mashed-mock-potatoes)

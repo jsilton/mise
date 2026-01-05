@@ -38,8 +38,3 @@ The secret to "Kitchen Standard" tarragon potatoes is **Textural Balance** throu
 5.  **Finish:** Return to oven. Bake for 20 more minutes, tossing once, until the potatoes are deep golden brown and the edges are crispy.
 6.  **Serve:** Serve immediately while the herb aroma is at its peak.
 
-## Serving Suggestions
-
-- [Chicken Milanese](/silton-mise/recipes/chicken-milanese)
-- [Herb-Marinated Pork Tenderloin](/silton-mise/recipes/herb-marinated-pork-tenderloin)
-- [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad)

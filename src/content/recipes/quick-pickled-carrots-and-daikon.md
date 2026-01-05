@@ -33,8 +33,3 @@ This is the essential "acid crunch" for Banh Mi and Vietnamese bowls. The secret
 3.  **Pickle:** Place the vegetables in a jar. Pour the rice vinegar and water over them.
 4.  **Rest:** Let sit for at least 30 minutes (or up to a week in the fridge).
 
-## Pairs With
-
-- [Grilled-Pork Banh Mi](/silton-mise/recipes/grilled-pork-banh-mi)
-- [Vietnamese Grilled Chicken](/silton-mise/recipes/vietnamese-grilled-chicken)
-- [Tuna Poke Bowls](/silton-mise/recipes/tuna-poke-bowls)

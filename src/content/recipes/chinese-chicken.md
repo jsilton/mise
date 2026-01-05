@@ -44,8 +44,3 @@ This one-pot meal showcases lap cheong, sweet Cantonese sausages made with pork,
 5.  **Bind:** Whisk the cornstarch slurry and stir into the wok. Simmer for 5 minutes until the sauce is thick and glossy. Fold the broccoli back in.
 6.  **Serve:** Remove sausage from the rice and slice into 1/4-inch coins. Serve the chicken over the fragrant rice with the sausage slices on the side.
 
-## Serving Suggestions
-
-- [Smashed Cucumber Salad](/silton-mise/recipes/smashed-cucumber-salad)
-- [Chinese Garlic Sauce Base](/silton-mise/recipes/chinese-garlic-sauce-base)
-- [quick Pickled Red Onions](/silton-mise/recipes/pickled-red-onions)

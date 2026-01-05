@@ -45,8 +45,3 @@ This is an American combination of Italian fettuccine Alfredo with seafood, popu
 5.  **Combine:** Toss the hot pasta and the seared shrimp into the sauce. If it's too thick, add a splash of the reserved pasta water to loosen it up.
 6.  **Garnish:** Top with fresh parsley and serve immediately.
 
-## Serving Suggestions
-
-- [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad) (Essential to cut the richness)
-- Steamed Broccoli with Garlic
-- Warm Garlic Bread

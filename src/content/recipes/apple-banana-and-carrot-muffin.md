@@ -43,7 +43,3 @@ The common flaw in "Healthy" muffins is a gummy, dense texture. We solve this by
 6.  **Bake:** Portion into the tin. Bake for 20-25 minutes (standard) or 15 minutes (mini) until a tester comes out clean.
 7.  **Rest:** Cool on a wire rack.
 
-## Serving Suggestions
-
-- [Old-Fashioned Fresh Peach Ice Cream](/silton-mise/recipes/old-fashioned-fresh-peach-ice-cream) (for a dessert twist)
-- [Mango-Rita Green Smoothie](/silton-mise/recipes/mango-rita-green-smoothie)

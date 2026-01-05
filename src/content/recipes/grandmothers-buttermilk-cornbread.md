@@ -38,8 +38,3 @@ The difference between average cornbread and the Kitchen Standard is **Culinary 
 7.  **Bake:** Pour the batter into the hot, buttered skillet. Bake for 25-30 minutes until a toothpick inserted in the center comes out clean and the edges are pulled away from the pan.
 8.  **Serve:** Serve warm directly from the skillet with honey and extra butter.
 
-## Serving Suggestions
-
-- [Turkey and Sweet Potato Chili](/silton-mise/recipes/chili)
-- [Crockpot Vegetarian Chili](/silton-mise/recipes/crockpot-vegetarian-chili)
-- [Buttermilk Baked Chicken](/silton-mise/recipes/buttermilk-baked-chicken)

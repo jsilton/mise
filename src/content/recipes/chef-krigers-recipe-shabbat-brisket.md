@@ -40,8 +40,3 @@ This is a true "Traditional Recipe." While a traditional French braise uses wine
 6.  **Slice:** Remove the cold meat from the sauce. Slice very thin **against the grain**.
 7.  **Finish:** Return the slices to the sauce. Re-bake, covered, at 325°F for 30-45 minutes until hot and the sauce is bubbling.
 
-## Serving Suggestions
-
-- [Corn Bread Dressing](/silton-mise/recipes/corn-bread-dressing)
-- [Patate al Forno](/silton-mise/recipes/patate-al-forno)
-- [Nana Ruth's Applesauce](/silton-mise/recipes/nana-ruths-applesauce)

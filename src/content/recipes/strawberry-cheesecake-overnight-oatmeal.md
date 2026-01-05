@@ -42,8 +42,3 @@ The secret to "Cheesecake" oats that aren't a dense brick is **Culinary Techniqu
 5.  **The Finish:** Transfer to a wide-mouth glass jar. Cover and **refrigerate for at least 4 hours** (overnight is best) to allow the chia and oats to hydrate.
 6.  **Serve:** Stir once more. Garnish with a fresh strawberry and a "High Note" crack of black pepper (trust me).
 
-## Serving Suggestions
-
-- [Mango-Rita Green Smoothie](/silton-mise/recipes/mango-rita-green-smoothie)
-- Fresh Sliced Almonds
-- [Classic Martini](/silton-mise/recipes/classic-martini) (if serving as a brunch dessert)

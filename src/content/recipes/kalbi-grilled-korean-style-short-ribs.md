@@ -41,9 +41,3 @@ Kalbi is the ultimate expression of **Culinary Technique** in Korean barbecue. T
 7.  **Finish:** Move to the cooler side of the grill for 5 minutes until the fat is rendered and "Snappy."
 8.  **Serve:** Use kitchen shears to cut the ribs into bite-sized pieces.
 
-## Serving Suggestions
-
-- [Fresh Cabbage, Cucumber and Radish Kimchi](/silton-mise/recipes/fresh-cabbage-cucumber-and-radish-kimchi)
-- [Smashed Cucumber Salad](/silton-mise/recipes/smashed-cucumber-salad)
-- [Simply Seasoned Korean Spinach Salad](/silton-mise/recipes/simply-seasoned-korean-spinach-salad)
-- [Basmati Rice](/silton-mise/recipes/basmati-rice)

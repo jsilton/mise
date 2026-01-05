@@ -44,8 +44,3 @@ Chinese eggplant with garlic sauce is a Sichuan/Hunan classic that's incredibly 
 5.  **Bind:** Toss vigorously for 1 minute until every piece of eggplant is coated in a glossy, thick glaze.
 6.  **Serve:** Serve immediately over steamed rice.
 
-## Serving Suggestions
-
-- [Basmati Rice](/silton-mise/recipes/basmati-rice)
-- [Smashed Cucumber Salad](/silton-mise/recipes/smashed-cucumber-salad)
-- [Chinese Sausage Fried Rice](/silton-mise/recipes/chinese-sausage-fried-rice)

@@ -50,7 +50,3 @@ A great pot pie is defined by the **Velouté** (the gravy) and the **Flaky Crust
 7.  **Bake:** Bake for 30-35 minutes until the pastry is deep golden brown and the filling is bubbling.
 8.  **Rest:** Let sit for 10 minutes before serving. This allows the gravy to set so it doesn't run.
 
-## Serving Suggestions
-
-- [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad)
-- Roasted Asparagus

@@ -40,8 +40,3 @@ This is a **Updated Classic** update to the definitive family gathering side. Th
 6.  **Set:** Return to the fridge for **at least 2 more hours** (ideally 4) until completely congealed.
 7.  **Serve:** Slice into squares and serve cold.
 
-## Serving Suggestions
-
-- [Roast Turkey Breast](/silton-mise/recipes/roast-turkey-breast)
-- [Italian Kale & Sausage Stuffing](/silton-mise/recipes/italian-kale-and-sausage-stuffing)
-- [Nana Ruth's Applesauce](/silton-mise/recipes/nana-ruths-applesauce)

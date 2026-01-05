@@ -40,8 +40,3 @@ Hamantaschen are the ultimate test of **Culinary Technique** in Jewish baking. T
 8.  **Bake:** Preheat oven to 350°F. Bake for 20-25 minutes until the edges are just barely golden.
 9.  **Store:** Let cool completely. Store in an airtight container to maintain the "Snap."
 
-## Serving Suggestions
-
-- [Nana's Pecan Pie](/silton-mise/recipes/grandmommys-pecan-pie) (as part of a Mishloach Manot)
-- Fresh Mint Tea
-- [Classic Martini](/silton-mise/recipes/classic-martini) (Chilled)

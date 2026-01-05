@@ -42,8 +42,3 @@ This is a **Updated Classic** update to the "Wacky Cake" or "Depression Cake." T
 5.  **Cook:** Bake for 28-33 minutes until a toothpick comes out with just a few moist crumbs.
 6.  **Finish:** Dust with confectioners' sugar once cool for the mandatory **High Note** visual.
 
-## Serving Suggestions
-
-- [Old-Fashioned Vanilla Ice Cream](/silton-mise/recipes/old-fashioned-vanilla-ice-cream)
-- Fresh Raspberries
-- Cold Glass of Milk

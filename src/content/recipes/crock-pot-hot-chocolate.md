@@ -38,8 +38,3 @@ While serious chocolatiers prefer the stovetop, the slow cooker is an excellent 
 5.  **Finish:** Just before serving, stir in the liqueur (if using).
 6.  **Serve:** Ladle into mugs. Top with fresh marshmallows and shaved chocolate.
 
-## Serving Suggestions
-
-- [Mom's Famous Chocolate Cake](/silton-mise/recipes/moms-famous-chocolate-cake)
-- [Best Chocolate Chip Cookies](/silton-mise/recipes/best-chocolate-chip-cookies)
-- Homemade Whipped Cream

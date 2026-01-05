@@ -44,8 +44,3 @@ This is the lighter, high-fiber cousin of Pad Thai. The secret to working with *
 7.  **Finish:** Return the eggs and charred veg to the wok. Stir in the Thai chile and scallions for the mandatory **High Note**.
 8.  **Serve:** Serve hot or at room temperature for the Kitchen Standard fuel profile.
 
-## Serving Suggestions
-
-- [Smashed Cucumber Salad](/silton-mise/recipes/smashed-cucumber-salad)
-- [Chinese Eggplant with Garlic Sauce](/silton-mise/recipes/chinese-eggplant-with-garlic-sauce)
-- [Cantonese Wonton Broth](/silton-mise/recipes/cantonese-wonton-broth)

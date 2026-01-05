@@ -36,8 +36,3 @@ These Tex-Mex sheet pan fajitas simplify the traditional skillet method by roast
 5.  **Finish:** Squeeze the remaining lime juice over the hot pan.
 6.  **Serve:** Serve with warm tortillas, avocado, and cilantro for the final aromatic **High Note**.
 
-## Serving Suggestions
-
-- [Guacamole](/silton-mise/recipes/guacamole)
-- [Mexican Red Rice (Arroz Rojo)](/silton-mise/recipes/mexican-red-rice)
-- [Pickled Red Onions](/silton-mise/recipes/pickled-red-onions)

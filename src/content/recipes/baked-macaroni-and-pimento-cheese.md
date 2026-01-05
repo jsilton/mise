@@ -40,8 +40,3 @@ This is a **Updated Classic** update to a Southern staple. By combining the shar
 6.  **Topping:** Mix panko and Parmesan in a small bowl. Sprinkle evenly over the top.
 7.  **Finish:** Bake for 15-20 minutes until the edges are bubbling and the topping is golden brown.
 
-## Serving Suggestions
-
-- [Buttermilk Baked Chicken](/silton-mise/recipes/buttermilk-baked-chicken)
-- [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad)
-- [Roasted Green Bean "Fries"](/silton-mise/recipes/roasted-green-bean-fries)

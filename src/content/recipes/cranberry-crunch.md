@@ -36,8 +36,3 @@ This is a **Updated Classic** update to a classic family crisp. We have replaced
 5.  **Bake:** Bake for 45-60 minutes until the fruit is tender and bubbling and the topping is a deep golden brown.
 6.  **Cool:** Let cool for 10 minutes before serving. This allows the fruit juices to thicken into a glossy syrup.
 
-## Serving Suggestions
-
-- [Old-Fashioned Vanilla Ice Cream](/silton-mise/recipes/old-fashioned-vanilla-ice-cream)
-- Whipped Cream with a pinch of Cinnamon
-- [Hot Mulled Apple Cider](/silton-mise/recipes/hot-mulled-apple-cider)

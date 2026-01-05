@@ -48,8 +48,3 @@ This Sichuan-inspired dish showcases crispy textures with spicy-sour flavors. Dr
 6.  **Toss:** Add the crispy eggplant and tofu back to the pan. Toss vigorously for 30 seconds until every cube is coated. Stir in sesame oil.
 7.  **Serve:** Garnish with fresh cilantro and serve immediately over steamed rice.
 
-## Serving Suggestions
-
-- [Basmati Rice](/silton-mise/recipes/basmati-rice)
-- [Smashed Cucumber Salad](/silton-mise/recipes/smashed-cucumber-salad)
-- [Seasoned Bean Sprouts](/silton-mise/recipes/seasoned-bean-sprouts)

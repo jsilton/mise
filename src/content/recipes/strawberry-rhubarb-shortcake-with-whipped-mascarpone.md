@@ -45,8 +45,3 @@ This is the definitive Executive technical dish dessert. The secret to its Succe
 6.  **Assemble:** Split warm shortcakes. Top with a massive mound of roasted fruit and its syrup.
 7.  **Finish:** Add a dollop of mascarpone cream and fresh thyme for the final **High Note**.
 
-## Serving Suggestions
-
-- [Classic Martini](/silton-mise/recipes/classic-martini) (Chilled)
-- Glass of Sparkling Rosé
-- [Old-Fashioned Vanilla Ice Cream](/silton-mise/recipes/old-fashioned-vanilla-ice-cream)

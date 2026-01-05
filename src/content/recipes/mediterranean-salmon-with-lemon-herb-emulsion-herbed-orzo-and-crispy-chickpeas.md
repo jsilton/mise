@@ -40,8 +40,3 @@ This is a masterclass in **Textural Balance** through **Staged Roasting**. The s
 5.  **Assemble:** Place a generous portion of herbed orzo on each plate. Top with a salmon fillet.
 6.  **Finish:** Drizzle the lemon-herb emulsion generously over the salmon and greens for the mandatory **Acid Balance**.
 
-## Serving Suggestions
-
-- [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad)
-- Fresh Sliced Radishes
-- [Smashed Cucumber Salad](/silton-mise/recipes/smashed-cucumber-salad)

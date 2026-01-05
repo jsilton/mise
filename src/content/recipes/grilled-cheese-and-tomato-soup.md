@@ -41,8 +41,3 @@ This is the baseline for Executive comfort. The secret to the sandwich is **Culi
 5.  **The Sear:** Turn heat to medium. Cook for 3-4 minutes per side, pressing down lightly with a spatula, until the bread is deep golden brown and the cheese is fully melted.
 6.  **Serve:** Slice the sandwiches on a diagonal and serve immediately with a deep bowl of the hot tomato soup for dipping.
 
-## Serving Suggestions
-
-- [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad)
-- [Pickled Red Onions](/silton-mise/recipes/pickled-red-onions)
-- [Classic Martini](/silton-mise/recipes/classic-martini) (Chilled)

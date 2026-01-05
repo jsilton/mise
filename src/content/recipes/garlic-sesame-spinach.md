@@ -37,8 +37,3 @@ This is a baseline **Modularity** component for Korean bowls and a masterclass i
 4.  **Toss:** In a small bowl, whisk the garlic, sesame oil, and salt. Separate the spinach clumps and toss with the dressing and sesame seeds.
 5.  **Serve:** Best served at room temperature or chilled.
 
-## Serving Suggestions
-
-- [Bibimbap (The Ultimate Bowl)](/silton-mise/recipes/bibimbap)
-- [Marinated Korean Ribeye](/silton-mise/recipes/marinated-korean-ribeye)
-- [Fresh Cabbage, Cucumber and Radish Kimchi](/silton-mise/recipes/fresh-cabbage-cucumber-and-radish-kimchi)

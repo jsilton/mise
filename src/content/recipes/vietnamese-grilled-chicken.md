@@ -38,8 +38,3 @@ To achieve the **Lemongrass Char** of a Vietnamese street stall, you must treat 
 5.  **Rest:** Let the chicken rest for 5 minutes before slicing. The carryover heat will take it to 165°F.
 6.  **Garnish:** Top with fresh cilantro and green onions.
 
-## Serving Suggestions
-
-- [Homemade Rice Pilaf](/silton-mise/recipes/homemade-rice-pilaf) or Coconut Rice
-- [quick Pickled Carrots and Daikon](/silton-mise/recipes/quick-pickled-carrots-and-daikon)
-- [Smashed Cucumber Salad](/silton-mise/recipes/smashed-cucumber-salad)

@@ -39,8 +39,3 @@ The secret to this 25-minute meal is **Textural Balance** through our "Double Fa
 5.  **Bake:** Bake for 12-15 minutes until the fish flakes easily with a fork and the panko is deep golden brown.
 6.  **Serve:** Spoon some of the lemon butter from the pan over the fish just before serving.
 
-## Serving Suggestions
-
-- [Homemade Rice Pilaf](/silton-mise/recipes/homemade-rice-pilaf)
-- [Roasted Asparagus](/silton-mise/recipes/roasted-asparagus)
-- [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad)

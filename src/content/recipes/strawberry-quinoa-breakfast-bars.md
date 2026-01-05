@@ -41,8 +41,3 @@ These are high-performance **Modularity** components for busy mornings. The secr
 5.  **Bake:** Bake for 20-25 minutes until the center is firm to the touch and the edges are golden brown.
 6.  **Set:** Let cool **completely** in the pan (mandatory for structure). Slice into 9 squares.
 
-## Serving Suggestions
-
-- [Easy Breakfast Yogurt Popsicles](/silton-mise/recipes/easy-breakfast-yogurt-popsicles)
-- [Mango-Rita Green Smoothie](/silton-mise/recipes/mango-rita-green-smoothie)
-- Fresh Orange Slices

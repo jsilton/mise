@@ -69,8 +69,3 @@ Peking ravioli (also called potstickers) were popularized in Boston by Joyce Che
 2.  **Steam:** Pour in 1/2 cup of water and immediately cover with a tight lid. Reduce heat to medium and steam for 6-8 minutes until the water is gone.
 3.  **Crisp:** Remove lid. Add 1 more tsp of oil. Fry for 1 more minute until the bottoms "crackle" and are perfectly crisp.
 
-## Serving Suggestions
-
-- Serve with a double batch of the **Bernard's Style Dipping Sauce**.
-- [Smashed Cucumber Salad](/silton-mise/recipes/smashed-cucumber-salad)
-- [Cantonese Wonton Broth](/silton-mise/recipes/cantonese-wonton-broth)

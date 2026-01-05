@@ -51,8 +51,3 @@ This is the "Kitchen Standard" of chocolate cakes. The secret to its intense dep
 6.  **The Ganache:** Bring cream, sugar, and corn syrup to a boil. Pour over the 1 lb chopped chocolate. Let sit for 5 minutes, then whisk. Add butter cubes and stir until mirror-glossy.
 7.  **Assemble:** Frost between layers and over the top and sides. Let set for 1 hour at room temperature before serving.
 
-## Serving Suggestions
-
-- [Old-Fashioned Strawberry Ice Cream](/silton-mise/recipes/old-fashioned-strawberry-ice-cream)
-- Fresh Sliced Raspberries
-- [Hot-and-Sour Soup](/silton-mise/recipes/hot-and-sour-soup) (The classic Executive "Night Before" pairing)

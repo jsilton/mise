@@ -48,7 +48,3 @@ This is a "Traditional Recipe" with a theatrical soul. To elevate this soup to t
 
 _This recipe was a wedding gift from Pat Miller and Sean Kilpatrick, passed down from Jeri, a Broadway dancer turned nutritionist. It is designed to sustain you through long rehearsals and busy weeks._
 
-## Serving Suggestions
-
-- [Anadama Bread](/silton-mise/recipes/anadama-bread) with Salted Butter
-- [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad)

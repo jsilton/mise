@@ -47,8 +47,3 @@ Chicken with snow peas is a classic Cantonese stir-fry showcasing fresh spring v
 6.  **Glaze:** Give the slurry a final stir and pour it into the wok. Stir-fry for 30 more seconds until the sauce is glossy and the peas are bright green.
 7.  **Serve:** Plate immediately over steamed rice.
 
-## Serving Suggestions
-
-- [Basmati Rice](/silton-mise/recipes/basmati-rice)
-- [Smashed Cucumber Salad](/silton-mise/recipes/smashed-cucumber-salad)
-- [Chinese Sausage Fried Rice](/silton-mise/recipes/chinese-sausage-fried-rice)

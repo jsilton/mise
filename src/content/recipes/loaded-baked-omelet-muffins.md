@@ -43,8 +43,3 @@ These are the ultimate "Modularity" component for breakfast prep. The secret to 
 5.  **Bake:** Bake for 20-25 minutes until the centers are firm and the tops are slightly golden and puffed.
 6.  **Store:** Let cool for 5 minutes before removing. These can be frozen for up to 3 months and reheated in 45 seconds.
 
-## Serving Suggestions
-
-- Sliced Avocado and Hot Sauce
-- [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad)
-- Fresh Fruit

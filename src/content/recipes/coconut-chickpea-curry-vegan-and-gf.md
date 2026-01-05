@@ -41,8 +41,3 @@ This is a 25-minute quick hero. The secret to a rich, non-watery vegan curry is 
 5.  **Finish:** Remove from heat. Stir in the fresh lime juice and cilantro. Taste and adjust seasoning.
 6.  **Serve:** Serve hot over basmati rice with a side of naan.
 
-## Serving Suggestions
-
-- [Basmati Rice](/silton-mise/recipes/basmati-rice)
-- [Homemade Naan](/silton-mise/recipes/homemade-naan)
-- [Cucumber Raita](/silton-mise/recipes/cucumber-raita)

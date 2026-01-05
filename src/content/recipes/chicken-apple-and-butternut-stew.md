@@ -39,7 +39,3 @@ This is a New England autumn masterpiece. To avoid the "mushy veggie" problem, w
 5.  **Cook:** Simmer over low heat, partially covered, for 25 minutes until the squash is tender.
 6.  **The Apple Finish:** Stir in the diced apples. Cook for only 5 more minutes—you want the apples to be warm but still hold their shape and tartness.
 
-## Serving Suggestions
-
-- [Homemade Rice Pilaf](/silton-mise/recipes/homemade-rice-pilaf)
-- Warm [Anadama Bread](/silton-mise/recipes/anadama-bread)

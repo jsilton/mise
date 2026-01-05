@@ -39,8 +39,3 @@ Ratatouille comes from Nice in Provence, France, where it's been made since the 
 5.  **Finish:** Remove from heat. Stir in the fresh basil, red pepper flakes, and a squeeze of lemon for the mandatory **Acid Balance**.
 6.  **Serve:** Serve hot or at room temperature with a final drizzle of high-quality olive oil.
 
-## Serving Suggestions
-
-- [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad)
-- [Garlic Bread](/silton-mise/recipes/garlic-bread)
-- [Roasted Green Bean "Fries"](/silton-mise/recipes/roasted-green-bean-fries)

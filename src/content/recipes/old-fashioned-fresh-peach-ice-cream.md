@@ -42,8 +42,3 @@ The secret to "Kitchen Standard" fruit ice cream is **The Maceration Method**. Y
 6.  **Churn:** Pour into ice cream maker. Churn until soft-serve consistency. Fold in the mashed peaches during the last 30 seconds.
 7.  **Set:** Freeze for 4-6 hours to ripen the texture.
 
-## Serving Suggestions
-
-- [Nana's Pound Cake](/silton-mise/recipes/grandmommys-pound-cake)
-- Fresh Mint sprigs
-- [Classic Martini](/silton-mise/recipes/classic-martini) (Chilled)

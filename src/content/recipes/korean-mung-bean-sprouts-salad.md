@@ -40,8 +40,3 @@ This is a baseline **Modularity** component for Korean bowls. The secret to a cr
 5.  **Toss:** In a large bowl, whisk the scallion, garlic, salt, and sesame oil. Separate the sprouts and toss vigorously with the dressing and sesame seeds.
 6.  **Serve:** Best served chilled or at room temperature.
 
-## Serving Suggestions
-
-- [Bibimbap (The Ultimate Bowl)](/silton-mise/recipes/bibimbap)
-- [Marinated Korean Ribeye](/silton-mise/recipes/marinated-korean-ribeye)
-- [Fresh Cabbage, Cucumber and Radish Kimchi](/silton-mise/recipes/fresh-cabbage-cucumber-and-radish-kimchi)

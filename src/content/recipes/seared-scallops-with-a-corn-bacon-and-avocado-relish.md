@@ -41,8 +41,3 @@ The secret to restaurant-quality scallops is **Textural Balance** through **The 
 5.  **Assemble:** Mound the warm corn-avocado relish on 4 plates. Top each with 4 seared scallops.
 6.  **Finish:** Squeeze fresh lemon juice over the scallops and garnish with the remaining parsley for the final **High Note**.
 
-## Serving Suggestions
-
-- [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad)
-- [Classic Martini](/silton-mise/recipes/classic-martini) (Chilled)
-- [Roasted Green Bean "Fries"](/silton-mise/recipes/roasted-green-bean-fries)

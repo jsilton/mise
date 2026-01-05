@@ -42,8 +42,3 @@ This is a high-performance nutritious update to the classic side. The secret to 
 5.  **Bake:** Transfer to a greased baking dish. Sprinkle with breadcrumbs and Parmesan.
 6.  **Finish:** Bake at 375°F for 15-20 minutes. Broil for 2 minutes until the top is crispy and the cheese is "Snappy."
 
-## Serving Suggestions
-
-- [Turkey Burgers](/silton-mise/recipes/turkey-burgers)
-- [Easy Pan-Seared Chicken Breasts](/silton-mise/recipes/easy-pan-seared-chicken-breasts)
-- [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad)

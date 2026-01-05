@@ -49,8 +49,3 @@ Red velvet is a study in **Culinary Technique**. The secret to its signature Tex
 7.  **Cool:** Let cool **completely** before frosting.
 8.  **Finish:** Top with a massive dollop of [Cream Cheese Frosting](/silton-mise/recipes/favorite-cream-cheese-frosting).
 
-## Serving Suggestions
-
-- [Favorite Cream Cheese Frosting](/silton-mise/recipes/favorite-cream-cheese-frosting)
-- Fresh Raspberries
-- [Classic Martini](/silton-mise/recipes/classic-martini) (Chilled)

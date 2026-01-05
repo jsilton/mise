@@ -39,7 +39,3 @@ We have moved away from the "Instant" box. Real banana pudding relies on a **Coo
 6.  **Chill:** Cover with plastic wrap (press it directly onto the custard surface to prevent a skin). Refrigerate for at least 4 hours.
 7.  **Serve:** Top with fresh whipped cream and crushed wafers just before serving.
 
-## Serving Suggestions
-
-- [Ultimate Crock-Pot Sipping Chocolate](/silton-mise/recipes/crock-pot-hot-chocolate)
-- Strong Coffee

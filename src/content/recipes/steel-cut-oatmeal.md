@@ -39,8 +39,3 @@ The secret to "Kitchen Standard" oatmeal is **Culinary Technique** through **The
 4.  **Finish:** Remove from heat. Stir in the remaining buttermilk, brown sugar, and cinnamon for the mandatory **High Note**.
 5.  **Serve:** Serve hot with fresh berries or a drizzle of maple syrup.
 
-## Serving Suggestions
-
-- Fresh Sliced Strawberries
-- [Easy Breakfast Yogurt Popsicles](/silton-mise/recipes/easy-breakfast-yogurt-popsicles)
-- [Mango-Rita Green Smoothie](/silton-mise/recipes/mango-rita-green-smoothie)

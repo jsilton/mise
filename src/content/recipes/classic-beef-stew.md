@@ -46,7 +46,3 @@ The secret to a restaurant-quality stew is **The Batched Sear**. Never crowd the
 7.  **Potatoes:** Add the potatoes. Cover and cook for another 45 minutes until meat and potatoes are tender.
 8.  **Finish:** Stir in the peas and balsamic vinegar. Taste and adjust salt. Serve hot.
 
-## Serving Suggestions
-
-- [Anadama Bread](/silton-mise/recipes/anadama-bread) or Crusty Sourdough
-- [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad)

@@ -42,8 +42,3 @@ Piccata comes from the Italian word 'piccato,' meaning 'larded' or 'pounded thin
 5.  **The Magic:** Turn off the heat. Add the cold butter cubes and whisk vigorously until melted into a silky, opaque glaze.
 6.  **Finish:** Return chicken to the pan to coat. Garnish with plenty of fresh parsley.
 
-## Serving Suggestions
-
-- [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad)
-- [Pasta al Limone](/silton-mise/recipes/lemon-ricotta-pasta)
-- [Roasted Asparagus](/silton-mise/recipes/roasted-asparagus)

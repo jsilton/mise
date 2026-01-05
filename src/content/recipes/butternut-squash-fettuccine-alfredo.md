@@ -37,9 +37,3 @@ This is a modern riff on Fettuccine Alfredo, the Roman dish created by Alfredo d
 4.  **Combine:** Return pasta to the pot. Pour the butternut sauce over the noodles and toss vigorously.
 5.  **Adjust:** If the sauce is too thick, add reserved pasta water one tablespoon at a time until it reaches a glossy, coating consistency.
 6.  **Serve:** Garnish with fresh parsley and extra Parmesan.
-
-## Serving Suggestions
-
-- [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad)
-- Crispy Sage Leaves (fried in brown butter)
-- [Roasted Asparagus](/silton-mise/recipes/roasted-asparagus)

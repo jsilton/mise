@@ -49,8 +49,3 @@ Cantonese wontons from Guangdong province have been made for centuries, traditio
 4.  **The Test:** Fry a small "tab" of the filling in a skillet. Taste for seasoning and adjust salt if needed.
 5.  **Assemble:** Place 1 tsp of filling in a wrapper. Moisten edges, fold into a triangle, and bring the two side corners together to form a "nurse's cap." Press out all air.
 
-## Serving Suggestions
-
-- Serve in [Cantonese Wonton Broth](/silton-mise/recipes/cantonese-wonton-broth)
-- Top with [Bernard's Style Roast Pork](/silton-mise/recipes/bernards-style-char-siu)
-- Side of [Smashed Cucumber Salad](/silton-mise/recipes/smashed-cucumber-salad)

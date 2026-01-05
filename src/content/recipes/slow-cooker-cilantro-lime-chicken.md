@@ -38,8 +38,3 @@ This Tex-Mex slow-cooker chicken cooks in a bath of salsa verde and Rotel tomato
 4.  **Finish:** Stir in the fresh lime juice. Season with a generous amount of sea salt and pepper.
 5.  **Serve:** Serve immediately in charred tortillas or over [Cilantro Lime Rice](/silton-mise/recipes/cilantro-lime-rice).
 
-## Serving Suggestions
-
-- [Guacamole](/silton-mise/recipes/guacamole)
-- [Pickled Red Onions](/silton-mise/recipes/pickled-red-onions)
-- [Mexican Red Rice (Arroz Rojo)](/silton-mise/recipes/mexican-red-rice)

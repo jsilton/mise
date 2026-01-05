@@ -44,8 +44,3 @@ This is a modern American creation that takes Tuscan flavors (bacon, cream, toma
 6.  **Bind:** Add the spaghetti squash and spinach to the skillet. Toss vigorously for 1 minute until the spinach has collapsed.
 7.  **Serve:** Top with the crispy bacon and fresh basil for the final aromatic **High Note**.
 
-## Serving Suggestions
-
-- [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad)
-- [Garlic Bread](/silton-mise/recipes/garlic-bread)
-- [Classic Martini](/silton-mise/recipes/classic-martini) (Chilled)

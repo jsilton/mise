@@ -40,8 +40,3 @@ The secret to a "Kitchen Standard" quiche is **Textural Balance** through **The 
 6.  **Bake:** Bake for 30-35 minutes until the center is set and the top is deep golden brown.
 7.  **Set:** Let stand for 10 minutes before slicing—this is mandatory for the structural integrity of the "Bounce."
 
-## Serving Suggestions
-
-- [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad)
-- Fresh Fruit Platter
-- [Classic Martini](/silton-mise/recipes/classic-martini) (Chilled)

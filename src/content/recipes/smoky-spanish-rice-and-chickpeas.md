@@ -37,8 +37,3 @@ This is a baseline **Modularity** component inspired by Spanish Paella. The secr
 5.  **The Steam Cycle:** Remove from heat. **Do not open the lid.** Let sit for 6 minutes (mandatory for structure).
 6.  **Finish:** Fluff with a fork. If adding shrimp, nestle them into the rice during the final 5 minutes of simmering. If adding spinach, stir it in during the steam cycle.
 
-## Serving Suggestions
-
-- [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad)
-- [Classic Martini](/silton-mise/recipes/classic-martini) (Chilled)
-- Roasted Cherry Tomatoes

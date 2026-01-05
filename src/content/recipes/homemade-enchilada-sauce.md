@@ -40,8 +40,3 @@ This homemade enchilada sauce builds deeper flavor than store-bought versions by
 5.  **Finish:** Remove from heat. Whisk in the vinegar and black pepper. Taste and add more salt if needed.
 6.  **Store:** Use immediately or store in a glass jar in the fridge for up to 1 week.
 
-## Serving Suggestions
-
-- [Chicken and White Bean Enchiladas (Suizas Style)](/silton-mise/recipes/chicken-and-white-bean-enchiladas-with-creamy-green-chile-sauce)
-- [Mexican Red Rice (Arroz Rojo)](/silton-mise/recipes/mexican-red-rice)
-- Drizzled over [Breakfast Egg Cups](/silton-mise/recipes/breakfast-egg-cups)

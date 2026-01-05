@@ -41,8 +41,3 @@ This salad is a study in **Textural Balance** through **The Maceration Method**.
 4.  **The Crunch:** Transfer to a large platter. Sprinkle the roasted pistachios over the top.
 5.  **Finish:** Season with one final crack of black pepper and a drizzle of high-quality oil.
 
-## Serving Suggestions
-
-- [Grilled Pork & Peaches](/silton-mise/recipes/grilled-pork-and-peaches)
-- [Herb-Marinated Pork Tenderloin](/silton-mise/recipes/herb-marinated-pork-tenderloins)
-- [Classic Martini](/silton-mise/recipes/classic-martini) (Chilled)

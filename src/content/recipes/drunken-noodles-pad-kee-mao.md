@@ -49,8 +49,3 @@ The secret to authentic pad kee mao is **Culinary Technique** through **Velvetin
 7.  **Bind:** Pour in the sauce. Stir-fry at **MAXIMUM HEAT** for 1 minute, scraping the bottom of the pan to prevent sticking, until noodles are uniform in color.
 8.  **Finish:** Return chicken to the wok. Toss for 1 more minute until glossy. Serve immediately.
 
-## Serving Suggestions
-
-- [Smashed Cucumber Salad](/silton-mise/recipes/smashed-cucumber-salad)
-- [Chinese Eggplant with Garlic Sauce](/silton-mise/recipes/chinese-eggplant-with-garlic-sauce)
-- Thai Iced Tea

@@ -41,8 +41,3 @@ This quick shrimp dish uses a Chinese restaurant technique: toss shrimp with bak
 4.  **The Glaze:** Add honey, lime juice, salt, and cayenne. Stir constantly for 1-2 minutes until the sauce bubbles and thickens into a sticky glaze that coats the shrimp.
 5.  **Finish:** Garnish with parsley or cilantro and an extra squeeze of lime.
 
-## Serving Suggestions
-
-- **Cilantro Lime Rice:** Stir lime juice and cilantro into [Jasmine Rice](/silton-mise/recipes/homemade-rice-pilaf).
-- **quick Black Beans:** Simmer canned beans with cumin and garlic.
-- [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad)

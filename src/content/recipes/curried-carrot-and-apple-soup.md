@@ -43,8 +43,3 @@ This soup is a masterclass in **Textural Balance** through our **Gingersnap Thic
 5.  **Finish:** Return to the pot to warm through. Taste and adjust with salt and pepper.
 6.  **Serve:** Ladle into bowls and top with toasted pumpkin seeds and fresh herbs for **Textural Balance**.
 
-## Serving Suggestions
-
-- [Anadama Bread](/silton-mise/recipes/anadama-bread) with Salted Butter
-- [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad)
-- [Roasted Green Bean "Fries"](/silton-mise/recipes/roasted-green-bean-fries)

@@ -37,8 +37,3 @@ These are the ultimate high-speed **Modularity** components for lunches or appet
 5.  **The Finish:** Wrap each log tightly in plastic wrap and **refrigerate for at least 30 minutes** (mandatory for clean slicing).
 6.  **Cut:** Using a sharp serrated knife, slice into 1-inch pinwheels.
 
-## Serving Suggestions
-
-- [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad)
-- Fresh Cherry Tomatoes
-- [Hummus](/silton-mise/recipes/israeli-style-hummus) for dipping

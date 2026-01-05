@@ -32,8 +32,3 @@ Miso soup is a miracle of **Emulsion and Timing**. The most common mistake is bo
 4.  **Finish:** **Turn off the heat.** Stir the miso liquid back into the pot.
 5.  **Serve:** Add the green onions and serve immediately in small bowls.
 
-## Serving Suggestions
-
-- [Honey Sriracha Salmon Bowls](/silton-mise/recipes/honey-sriracha-salmon-bowls)
-- [Bibimbap](/silton-mise/recipes/bibimbap)
-- [Tuna Poke Bowls](/silton-mise/recipes/tuna-poke-bowls)

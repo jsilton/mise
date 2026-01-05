@@ -40,7 +40,3 @@ This is a high-protein, flourless breakfast. The challenge is **Structural Integ
 5.  **Flip:** Carefully flip and cook for only 60 seconds on the other side.
 6.  **Serve:** Serve hot with fresh fruit and a drizzle of maple syrup.
 
-## Serving Suggestions
-
-- Fresh Berries
-- [Old-Fashioned Fresh Peach Ice Cream](/silton-mise/recipes/old-fashioned-fresh-peach-ice-cream) (for a brunch treat)

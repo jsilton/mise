@@ -41,7 +41,3 @@ A great Banh Mi is an exercise in **Structural Contrast**. You need the "Shure" 
 4.  **Assemble:** Split the baguettes. Spread a generous layer of mayo. Drizzle with a few drops of Maggi or Soy.
 5.  **Fill:** Layer the grilled pork, cucumber spears, [quick Pickled Carrots and Daikon](/silton-mise/recipes/quick-pickled-carrots-and-daikon), and fresh cilantro. Top with jalapeños for heat.
 
-## Serving Suggestions
-
-- [Smashed Cucumber Salad](/silton-mise/recipes/smashed-cucumber-salad)
-- Iced Coffee with Condensed Milk

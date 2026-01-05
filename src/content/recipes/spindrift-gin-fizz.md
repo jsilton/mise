@@ -37,7 +37,3 @@ This is the ultimate "In the Park" cocktail—refreshing, low-sugar, and aromati
 4.  **Finish:** Add 2 dashes of bitters to each glass. Stir gently once to combine.
 5.  **Garnish:** Top with a lime wheel.
 
-## Serving Suggestions
-
-- [Smashed Cucumber Salad](/silton-mise/recipes/smashed-cucumber-salad)
-- [Beef Tenderloin Dogs](/silton-mise/recipes/beef-tenderloin-dogs-with-corn-relish)

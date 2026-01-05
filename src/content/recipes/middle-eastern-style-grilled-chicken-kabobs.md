@@ -42,9 +42,3 @@ The secret to restaurant-quality kabobs is **Culinary Technique** through **The 
 6.  **Rest:** Transfer to a platter and **rest for 5 minutes** before serving.
 7.  **Serve:** Garnish with fresh parsley and extra lemon wedges.
 
-## Serving Suggestions
-
-- [Israeli-Style Hummus](/silton-mise/recipes/israeli-style-hummus)
-- [Tzatziki Sauce](/silton-mise/recipes/tzatziki-sauce)
-- [Basmati Rice](/silton-mise/recipes/basmati-rice)
-- [Smashed Cucumber Salad](/silton-mise/recipes/smashed-cucumber-salad)

@@ -38,8 +38,3 @@ The secret to "Kitchen Standard" roasted potatoes is **Textural Balance** throug
 5.  **The Garlic Finish:** 5 minutes before the end of roasting, sprinkle the minced garlic over the potatoes and toss.
 6.  **Garnish:** Remove from the oven. Toss immediately with fresh parsley while the oil is still sizzling to release the herb's oils.
 
-## Serving Suggestions
-
-- [Chicken Marsala](/silton-mise/recipes/chicken-marsala)
-- [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad)
-- [Roast Turkey Breast](/silton-mise/recipes/roast-turkey-breast)

@@ -47,8 +47,3 @@ This deconstructed tamale bowl captures traditional flavors without the labor of
 5.  **The Sauce:** Pour in the fire-roasted tomatoes. Scrape the fond. Simmer for 5 minutes until the sauce is thick and smoky.
 6.  **Assemble:** Scoop the sweet corn polenta into deep bowls. Top with a generous scoop of smoky pork. Crown with the avocado-lime mix, radishes, a dollop of yogurt, and crushed chips for "Snap."
 
-## Serving Suggestions
-
-- [Mexican Street Corn Salad (Esquites)](/silton-mise/recipes/mexican-street-corn-salad)
-- [quick Pickled Red Onions](/silton-mise/recipes/pickled-red-onions)
-- Cold Mexican Lager or Lime Seltzer

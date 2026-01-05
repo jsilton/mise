@@ -36,8 +36,3 @@ This is a high-speed nutritious breakfast that tastes like a "Comfort" dessert. 
 4.  **Bake:** Bake for 15-18 minutes until the center is set but still slightly soft (like a fudgy brownie).
 5.  **Finish:** Sprinkle with a pinch of flaky sea salt and serve warm.
 
-## Serving Suggestions
-
-- A dollop of Peanut Butter
-- Fresh Raspberries
-- [Easy Breakfast Yogurt Popsicles](/silton-mise/recipes/easy-breakfast-yogurt-popsicles)

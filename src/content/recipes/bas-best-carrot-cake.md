@@ -51,7 +51,3 @@ This is the **Bravetart Upgrade** to the BA classic. We replace generic vegetabl
 5.  **Frosting:** Beat cream cheese and butter until smooth. Add powdered sugar and vanilla.
 6.  **Assemble:** Layer and frost the cakes generously.
 
-## Serving Suggestions
-
-- [Vieux Carré](/silton-mise/recipes/vieux-carre)
-- [Ultimate Crock-Pot Sipping Chocolate](/silton-mise/recipes/crock-pot-hot-chocolate)

@@ -54,7 +54,3 @@ We have elevated this Mercer Street classic using the **Bravetart Brown Butter m
 4.  **Frosting:** Beat the cream cheese and butter until smooth. Add powdered sugar and vanilla.
 5.  **Assemble:** Layer the cakes with a thick spread of frosting between them. Frost the top and sides generously.
 
-## Serving Suggestions
-
-- Strong Coffee or Espresso
-- [Vieux Carré](/silton-mise/recipes/vieux-carre)

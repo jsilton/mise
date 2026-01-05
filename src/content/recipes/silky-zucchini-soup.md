@@ -38,8 +38,3 @@ The secret to this "Kitchen Standard" vegetable puree is **Culinary Technique** 
 5.  **Finish:** Stir in the lemon juice for the mandatory **Acid Balance**.
 6.  **Serve:** Ladle into bowls. Top with the julienned raw zucchini and a drizzle of olive oil for the final **High Note**.
 
-## Serving Suggestions
-
-- [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad)
-- [Garlic Bread](/silton-mise/recipes/garlic-bread)
-- [Classic Martini](/silton-mise/recipes/classic-martini) (Chilled)

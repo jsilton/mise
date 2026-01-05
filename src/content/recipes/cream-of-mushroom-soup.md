@@ -39,8 +39,3 @@ The secret to a "Kitchen Standard" mushroom soup is **Textural Balance** through
 6.  **Finish:** Stir in the heavy cream and the **Dry Sherry**. Simmer for 1 more minute.
 7.  **Serve:** Ladle into bowls and top with the **Reserved Seared Mushrooms** for texture.
 
-## Serving Suggestions
-
-- [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad)
-- [Garlic Bread](/silton-mise/recipes/garlic-bread)
-- Crusty Sourdough

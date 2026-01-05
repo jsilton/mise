@@ -42,8 +42,3 @@ This is the "Universal Pickle." To get the restaurant-quality crunch, you **must
 4.  **Toss:** Add the squeezed cucumbers to the bowl and toss to coat thoroughly.
 5.  **Finish:** Sprinkle with sesame seeds. Let marinate for at least 10 minutes before serving.
 
-## Pairs With
-
-- [Bibimbap](/silton-mise/recipes/bibimbap)
-- [Bulgogi Tacos](/silton-mise/recipes/tacos)
-- Grilled Salmon

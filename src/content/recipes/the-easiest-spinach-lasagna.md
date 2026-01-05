@@ -47,8 +47,3 @@ Lasagna originated in Naples and is one of Italy's oldest pasta dishes, with rec
 7.  **Crisp:** Remove the foil and bake for another 20-25 minutes until the cheese is bubbly and the noodles are tender.
 8.  **Rest:** Let the lasagna rest for 10 minutes before slicing. This is critical for the layers to set.
 
-## Serving Suggestions
-
-- [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad) (Essential)
-- [Roasted Tomato Basil Soup](/silton-mise/recipes/roasted-tomato-basil-soup)
-- Garlic Bread

@@ -41,8 +41,3 @@ The secret to restaurant-quality cornbread is the **Preheated Skillet**. By gett
 6.  **Bake:** Pour the batter into the hot skillet (it should crackle!). Reduce oven to 375°F. Bake for 20-22 minutes until the center is firm and the edges are deep brown.
 7.  **Serve:** Slice directly in the skillet and serve with honey butter.
 
-## Serving Suggestions
-
-- [Turkey and Sweet Potato Chili](/silton-mise/recipes/chili)
-- [Classic Beef Stew](/silton-mise/recipes/classic-beef-stew)
-- [IP Pulled Pork](/silton-mise/recipes/instant-pot-pulled-pork)

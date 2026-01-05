@@ -41,8 +41,3 @@ This is a baseline **Modularity** component for nutritious focused meals. The se
 5.  **Set:** Let cool completely. Transfer to an airtight glass jar and refrigerate.
 6.  **Store:** Keeps in the fridge for up to 2 weeks.
 
-## Serving Suggestions
-
-- [Greek-Style Lamb Burgers](/silton-mise/recipes/greek-style-lamb-burgers-with-yogurt-cucumber-sauce)
-- [Crispy Smashed Potatoes](/silton-mise/recipes/crispy-smashed-potatoes)
-- [Turkey Burgers](/silton-mise/recipes/turkey-burgers)

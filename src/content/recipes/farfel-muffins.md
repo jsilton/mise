@@ -32,8 +32,3 @@ This is a **Updated Classic** update to a beloved Executive holiday tradition. W
 4.  **Bake:** Bake at 400°F for 20 minutes until the tops are deep golden brown and the muffins feel light when lifted.
 5.  **Serve:** Best served warm with plenty of salted butter.
 
-## Serving Suggestions
-
-- [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad)
-- Fresh Fruit Platter
-- [Breakfast Protein Biscuits](/silton-mise/recipes/breakfast-protein-biscuits) (for non-Passover mornings)

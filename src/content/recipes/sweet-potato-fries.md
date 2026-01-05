@@ -39,8 +39,3 @@ The secret to sweet potato fries that aren't limp and oily is **Textural Balance
 6.  **The Crunch:** Roast for another 10-12 minutes until the edges are dark brown and crispy.
 7.  **Serve:** Serve immediately while hot. (Note: do not cover them, or the steam will destroy the snap).
 
-## Serving Suggestions
-
-- [Turkey Burgers](/silton-mise/recipes/turkey-burgers)
-- [Greek-Style Lamb Burgers](/silton-mise/recipes/greek-style-lamb-burgers-with-yogurt-cucumber-sauce)
-- [Homemade Sugar-Free Ketchup](/silton-mise/recipes/homemade-sugar-free-ketchup)

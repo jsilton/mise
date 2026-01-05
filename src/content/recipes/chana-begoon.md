@@ -41,8 +41,3 @@ The tragedy of eggplant curry is the "mush." We solve this with the **Executive 
 5.  **Fold:** Gently fold the roasted eggplant into the gravy. Let it sit for 2 minutes to absorb the spices (do not over-stir).
 6.  **Finish:** Stir in the cilantro and lemon juice.
 
-## Serving Suggestions
-
-- [Basmati Rice](/silton-mise/recipes/basmati-rice)
-- [Homemade Naan](/silton-mise/recipes/homemade-naan)
-- [Korean Pickled Cucumbers](/silton-mise/recipes/korean-pickled-cucumbers)

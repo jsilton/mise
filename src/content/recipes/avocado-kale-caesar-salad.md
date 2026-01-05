@@ -47,8 +47,3 @@ This isn't your average kale salad. The secret to making kale restaurant-quality
 5.  **Assemble:** Top with the remaining half of the avocado (diced), the rest of the Parmesan, and the toasted panko (if using).
 6.  **Rest:** Let the salad sit for 5 minutes before serving—kale is sturdy and actually improves as it absorbs the dressing.
 
-## Serving Suggestions
-
-- [Chicken Milanese](/silton-mise/recipes/chicken-milanese)
-- [Miso-Glazed Salmon](/silton-mise/recipes/miso-salmon-with-bok-choy)
-- [Baked Macaroni and Pimento Cheese](/silton-mise/recipes/macaroni-and-cheese)

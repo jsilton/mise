@@ -44,8 +44,3 @@ This is the baseline **Modularity** component for all Executive breakfasts. The 
 6.  **The Finish:** Remove from the oven when deep golden brown. The granola will still feel soft; it will Crunch only after cooling.
 7.  **Finish:** Once stone-cold, stir in the dried fruit. Store in an airtight glass jar for up to 3 weeks.
 
-## Serving Suggestions
-
-- [Easy Breakfast Yogurt Popsicles](/silton-mise/recipes/easy-breakfast-yogurt-popsicles)
-- [Chocolate Blended Oats](/silton-mise/recipes/chocolate-blended-oats-with-raspberry-chia-jam)
-- [Easy Chia Pudding](/silton-mise/recipes/easy-chia-pudding)

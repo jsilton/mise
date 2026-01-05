@@ -48,8 +48,3 @@ This is a **Updated Classic** update to the classic carrot cake, re-engineered a
 6.  **Bake:** Pour into the prepared pan and tap lightly to remove air bubbles. Bake for 25-30 minutes until a toothpick comes out clean.
 7.  **Cool:** Let cool in the pan for 10 minutes, then transfer to a wire rack. This cake is even better the next day once the spices have "bloomed."
 
-## Serving Suggestions
-
-- A dollop of [Favorite Cream Cheese Frosting](/silton-mise/recipes/favorite-cream-cheese-frosting)
-- Fresh Berries
-- Cold Brew Coffee

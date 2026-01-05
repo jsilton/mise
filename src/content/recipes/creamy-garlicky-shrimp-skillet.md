@@ -45,8 +45,3 @@ This is an Italian-American cream sauce pasta with shrimp, popular in red sauce 
 6.  **Toss:** Toss vigorously over medium-low heat for 1-2 minutes until the cheese is melted and the sauce is glossy.
 7.  **Serve:** Garnish with fresh parsley and plenty of black pepper.
 
-## Serving Suggestions
-
-- [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad)
-- [Smashed Cucumber Salad](/silton-mise/recipes/smashed-cucumber-salad)
-- [Garlic Bread](/silton-mise/recipes/garlic-bread)

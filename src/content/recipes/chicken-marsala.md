@@ -52,8 +52,3 @@ Despite its Italian name and Sicilian wine, Chicken Marsala is purely Italian-Am
 6.  **The Butter Mount:** Turn off the heat. Add the cold butter cubes and whisk or swirl the pan constantly until the butter is melted and the sauce looks glossy and thick.
 7.  **Finish:** Return the chicken to the pan for 1 minute just to warm through. Garnish with fresh parsley and serve immediately.
 
-## Serving Suggestions
-
-- [Homemade Rice Pilaf](/silton-mise/recipes/homemade-rice-pilaf)
-- [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad)
-- Crusty Sourdough Bread

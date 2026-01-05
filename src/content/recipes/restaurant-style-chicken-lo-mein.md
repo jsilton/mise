@@ -48,8 +48,3 @@ Cantonese lo mein is a tossed noodle dish that relies on fresh egg noodles and a
 7.  **The Glaze:** Remove lid. Add both soy sauces, sesame oil, and sugar. Stir-fry for 30 seconds until the noodles are evenly dark and glossy.
 8.  **Finish:** Fold in the mung bean sprouts and scallions. Toss for 30 more seconds and serve immediately.
 
-## Serving Suggestions
-
-- [Smashed Cucumber Salad](/silton-mise/recipes/smashed-cucumber-salad)
-- [Chinese Eggplant with Garlic Sauce](/silton-mise/recipes/chinese-eggplant-with-garlic-sauce)
-- [Cantonese Wonton Broth](/silton-mise/recipes/cantonese-wonton-broth)

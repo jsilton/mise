@@ -40,8 +40,3 @@ This is a high-speed technical dish dessert that relies on **Culinary Technique*
 5.  **The Crunch:** Remove lid. Sprinkle biscuits with sugar. Place the entire skillet under the **broiler** for 5 minutes until the tops are charred and crispy.
 6.  **Serve:** Serve warm from the skillet with a massive dollop of whipped cream for the final **High Note**.
 
-## Serving Suggestions
-
-- [Old-Fashioned Vanilla Ice Cream](/silton-mise/recipes/old-fashioned-vanilla-ice-cream)
-- Fresh Mint sprigs
-- [Classic Martini](/silton-mise/recipes/classic-martini) (Chilled)

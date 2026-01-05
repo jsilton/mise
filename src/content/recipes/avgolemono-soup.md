@@ -41,8 +41,3 @@ Avgolemono is a miracle of **Tempering Science**. It is incredibly creamy and ri
 5.  **Combine:** Pour the tempered egg mixture back into the large pot. Stir constantly over **low heat** for 2 minutes. The soup will instantly turn creamy and opaque.
 6.  **Finish:** Season with salt and a generous amount of white pepper. Serve immediately.
 
-## Serving Suggestions
-
-- [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad)
-- [Shakshuka](/silton-mise/recipes/shakshuka)
-- Crusty Bread

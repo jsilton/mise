@@ -51,8 +51,3 @@ General Tso's tofu brings the classic Chinese-American sauce to plant-based prot
 6.  **Bind:** Simmer for 1 minute until the sauce is thick and mirror-glossy.
 7.  **Toss:** Add the crispy tofu back to the wok. Toss vigorously for 30 seconds until perfectly coated. Serve immediately over rice.
 
-## Serving Suggestions
-
-- [Basmati Rice](/silton-mise/recipes/basmati-rice)
-- [Smashed Cucumber Salad](/silton-mise/recipes/smashed-cucumber-salad)
-- [Chinese Eggplant with Garlic Sauce](/silton-mise/recipes/chinese-eggplant-with-garlic-sauce)

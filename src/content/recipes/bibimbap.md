@@ -42,8 +42,3 @@ Bibimbap has roots in Korean royal court cuisine but became a peasant dish in th
 5.  **Sauce:** Drizzle the mixed Gochujang sauce over the egg.
 6.  **Serve:** Mix vigorously before eating.
 
-## Serving Suggestions
-
-- [Miso Soup](/silton-mise/recipes/miso-soup)
-- Kimchi
-- Cold Barley Tea

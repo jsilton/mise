@@ -43,8 +43,3 @@ This quick Chinese-American style dinner uses frozen meatballs glazed in hoisin 
 4.  **The Veg:** In a second skillet, sauté carrots for 2 minutes. Add kale and garlic. Toss for 3 minutes until bright green. Finish with lemon juice and black pepper.
 5.  **Serve:** Mound coconut rice in bowls. Top with 5 meatballs and a pile of "Acid" kale.
 
-## Serving Suggestions
-
-- [Smashed Cucumber Salad](/silton-mise/recipes/smashed-cucumber-salad)
-- [Chinese Eggplant with Garlic Sauce](/silton-mise/recipes/chinese-eggplant-with-garlic-sauce)
-- [Thai Basil Ginger Spritzer](/silton-mise/recipes/thai-basil-ginger-spritzer)

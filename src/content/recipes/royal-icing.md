@@ -35,8 +35,3 @@ The secret to a "Kitchen Standard" royal icing is **Culinary Technique** through
 5.  **Consistency:** For flooding, add water 1/2 tsp at a time until a ribbon of icing disappears back into the bowl in exactly 15 seconds.
 6.  **Store:** Keep bowls tightly covered with plastic wrap—this icing sets instantly when exposed to air.
 
-## Serving Suggestions
-
-- [Sugar Cookies](/silton-mise/recipes/sugar-cookie)
-- [Snickerdoodles](/silton-mise/recipes/snickerdoodles)
-- [Nana's Pound Cake](/silton-mise/recipes/grandmommys-pound-cake) (as a drizzle)

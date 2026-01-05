@@ -44,7 +44,3 @@ This is a modern Italian-American one-pan meal inspired by the classic combinati
 5.  **Combine:** Return the chicken and the **crispy roasted potatoes** to the skillet.
 6.  **Finish:** Transfer the skillet to the oven for 10 minutes to finish cooking the chicken (165°F). Serve immediately.
 
-## Serving Suggestions
-
-- [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad)
-- Crusty Sourdough

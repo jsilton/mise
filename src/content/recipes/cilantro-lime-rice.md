@@ -33,8 +33,3 @@ This Mexican-style rice is a staple for tacos, burrito bowls, and grain bowls. T
 3.  **Steam:** Turn off the heat. **Keep the lid on** and let the rice steam for 10 minutes.
 4.  **Fold:** Remove the lid. Add the butter, lime juice, lime zest, and cilantro. Gently fluff and fold with a fork until well combined.
 
-## Pairs With
-
-- [Garlic Honey Lime Shrimp](/silton-mise/recipes/garlic-honey-lime-shrimp)
-- [Chicken Tinga](/silton-mise/recipes/chicken-tinga)
-- Black Beans

@@ -40,8 +40,3 @@ This is the ultimate expression of **Updated Classic** in the brownie category. 
 4.  **Bake:** Pour the batter into the prepared pan. Bake for 30-35 minutes. **The Kitchen Standard Test:** The center should still have a slight jiggle and a toothpick should come out with moist crumbs.
 5.  **Cool:** Let cool completely in the pan before slicing. These brownies are elite when refrigerated and eaten cold.
 
-## Serving Suggestions
-
-- [Old-Fashioned Vanilla Ice Cream](/silton-mise/recipes/old-fashioned-vanilla-ice-cream)
-- Fresh Raspberries
-- [Classic Martini](/silton-mise/recipes/classic-martini) (Chilled)

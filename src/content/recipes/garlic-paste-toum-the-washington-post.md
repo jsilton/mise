@@ -35,9 +35,3 @@ Toum is the ultimate test of **Culinary Technique** in the condiment category. T
 6.  **Set:** Transfer to a glass jar and refrigerate for at least 4 hours before using. This allows the garlic vapors to mellow and the emulsion to set.
 7.  **Store:** Keeps in the fridge for up to 3 weeks.
 
-## Serving Suggestions
-
-- [Chicken Shawarma](/silton-mise/recipes/chicken-shawarma)
-- [Middle Eastern Style Grilled Chicken Kabobs](/silton-mise/recipes/middle-eastern-style-grilled-chicken-kabobs)
-- [Falafel](/silton-mise/recipes/falafel)
-- [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad) (as a creamy base)

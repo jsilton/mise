@@ -42,8 +42,3 @@ Brown butter (beurre noisette in French, literally "hazelnut butter") is a class
 5.  **Toss:** Add the drained gnocchi, Parmesan, and parsley to the skillet.
 6.  **Bind:** Toss vigorously for 30 seconds until the cheese is melted and the gnocchi is glossy and coated. Serve immediately.
 
-## Serving Suggestions
-
-- [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad)
-- [Roasted Asparagus](/silton-mise/recipes/roasted-asparagus)
-- [Garlic Bread](/silton-mise/recipes/garlic-bread)

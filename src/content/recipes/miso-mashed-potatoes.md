@@ -34,8 +34,3 @@ This is a **Palate Tuning** masterclass. We use white miso to provide a complex,
 5.  **Emulsify:** Gradually pour in the warm miso-milk mixture while stirring gently.
 6.  **Serve:** Garnish with green onions.
 
-## Pairs With
-
-- [Classic Beef Stew](/silton-mise/recipes/classic-beef-stew)
-- Roasted Chicken
-- [Miso-Glazed Salmon](/silton-mise/recipes/miso-salmon-with-bok-choy)

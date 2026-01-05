@@ -40,8 +40,3 @@ This salad is a study in **Modularity** and flavor layering. The secret to its S
 4.  **Finish:** Top with fresh basil, flaky sea salt, and a crack of black pepper.
 5.  **Serve:** Serve the remaining dressing on the side for the mandatory **High Note** of freshness.
 
-## Serving Suggestions
-
-- [Greek-Style Lamb Burgers](/silton-mise/recipes/greek-style-lamb-burgers-with-yogurt-cucumber-sauce)
-- [Tuna Poke Bowls](/silton-mise/recipes/tuna-poke-bowls)
-- [Japanese-Style Trout with Dashi](/silton-mise/recipes/japanese-style-trout-with-dashi)

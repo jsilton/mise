@@ -43,8 +43,3 @@ Vodka sauce is a purely Italian-American invention from 1970s New York, with mul
 6.  **Toss:** Toss over medium heat for 1 minute until the sauce clings to the rigatoni.
 7.  **Serve:** Garnish with the remaining basil and a "High Note" pat of Parmesan.
 
-## Serving Suggestions
-
-- [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad)
-- [Garlic Bread](/silton-mise/recipes/garlic-bread)
-- Roasted Cherry Tomatoes

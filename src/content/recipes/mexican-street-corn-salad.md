@@ -41,8 +41,3 @@ Esquites is a Mexican street food where corn kernels are charred or grilled unti
 4.  **Finish:** Stir in the cilantro, green onions, and lime juice.
 5.  **Serve:** Serve warm or chilled.
 
-## Pairs With
-
-- [Weeknight Tacos](/silton-mise/recipes/tacos)
-- [Juicy Turkey Burgers](/silton-mise/recipes/turkey-burgers)
-- Grilled Steak or Fish

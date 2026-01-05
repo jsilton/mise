@@ -43,8 +43,3 @@ This is the definitive "from scratch" method for Japanese Curry using the profes
 6.  **Season:** Stir in the grated apple, Worcestershire, ketchup, and soy sauce.
 7.  **Finish:** Simmer uncovered for 10 more minutes until the sauce is glossy and thick. Serve over steamed rice.
 
-## Serving Suggestions
-
-- [Smashed Cucumber Salad](/silton-mise/recipes/smashed-cucumber-salad)
-- [Miso Soup](/silton-mise/recipes/miso-soup)
-- Fukujinzuke (Japanese pickles)

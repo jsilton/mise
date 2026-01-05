@@ -40,8 +40,3 @@ This is the definitive Executive **Updated Classic** recipe for a Jewish comfort
 6.  **Bake:** Bake at 350°F for 1 hour until the center is set and the top is a deep, crunchy golden brown.
 7.  **Serve:** Let rest for 15 minutes before slicing. This allows the custard to set into a firm "Bounce."
 
-## Serving Suggestions
-
-- [Nana Ruth's Applesauce](/silton-mise/recipes/nana-ruths-applesauce) (Mandatory)
-- [Brisket with Carrots and Onions](/silton-mise/recipes/brisket-with-carrots-and-onions)
-- [Gefilte Fish Terrine](/silton-mise/recipes/gefilte-fish-terrine)

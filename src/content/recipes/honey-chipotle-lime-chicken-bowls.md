@@ -39,8 +39,3 @@ This Mexican-inspired chicken bowl features a marinade that balances lime juice'
 5.  **Assemble:** Layer your bowls with [Cilantro Lime Rice](/silton-mise/recipes/cilantro-lime-rice), fresh greens, tomatoes, and avocado.
 6.  **Finish:** Slice the chicken into strips and place on top. Serve with extra lime wedges for the mandatory **High Note**.
 
-## Serving Suggestions
-
-- [Guacamole](/silton-mise/recipes/guacamole)
-- [Pickled Red Onions](/silton-mise/recipes/pickled-red-onions)
-- [Mexican Red Rice (Arroz Rojo)](/silton-mise/recipes/mexican-red-rice)

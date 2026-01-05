@@ -51,8 +51,3 @@ Chinese eggplant with garlic sauce (yu xiang qiezi) is a Sichuan restaurant clas
 6.  **Simmer:** Simmer for 1-2 minutes until the sauce is thick enough to coat a spoon and the eggplant is glossy.
 7.  **Finish:** Stir in scallions and serve immediately with steamed rice.
 
-## Serving Suggestions
-
-- [Basmati Rice](/silton-mise/recipes/basmati-rice)
-- [Smashed Cucumber Salad](/silton-mise/recipes/smashed-cucumber-salad)
-- [Cantonese Wonton Broth](/silton-mise/recipes/cantonese-wonton-broth)

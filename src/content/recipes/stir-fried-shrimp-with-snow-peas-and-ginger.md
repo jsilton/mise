@@ -44,8 +44,3 @@ This Cantonese quick stir-fry pairs tender shrimp with crisp spring snow peas in
 6.  **Finish:** Return the shrimp to the pan. Toss for 30 seconds until the sauce is thick and mirror-glossy.
 7.  **Serve:** Stir in the scallions and serve immediately over rice.
 
-## Serving Suggestions
-
-- [Jasmine Rice](/silton-mise/recipes/basmati-rice)
-- [Smashed Cucumber Salad](/silton-mise/recipes/smashed-cucumber-salad)
-- [Chinese Eggplant with Garlic Sauce](/silton-mise/recipes/chinese-eggplant-with-garlic-sauce)

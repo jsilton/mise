@@ -43,8 +43,3 @@ This dish is about the interplay between the buttery, caramelized salmon and the
 7.  **Finish:** Remove lid, stir in the oyster sauce and sesame oil. Toss to coat.
 8.  **Serve:** Place a mound of [Jasmine Rice](/silton-mise/recipes/homemade-rice-pilaf) in each bowl, top with the salmon and bok choy. Garnish with sesame seeds and green onions.
 
-## Serving Suggestions
-
-- [Jasmine Rice](/silton-mise/recipes/homemade-rice-pilaf) (Rinse 3 times!)
-- [Smashed Cucumber Salad](/silton-mise/recipes/smashed-cucumber-salad)
-- Cold Sake or Green Tea

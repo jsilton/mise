@@ -38,8 +38,3 @@ These are the definitive quick fuel for children and busy adults. The secret to 
 4.  **Bake:** Preheat oven to 350°F. Line two muffin tins (18 cups). Fill each 3/4 full. Bake for 18-22 minutes until the tops spring back when touched.
 5.  **Cool:** Let cool completely in the pan to allow the moisture to set into a "Bounce."
 
-## Serving Suggestions
-
-- [Easy Breakfast Yogurt Popsicles](/silton-mise/recipes/easy-breakfast-yogurt-popsicles)
-- Fresh Sliced Apples
-- Cold Glass of Milk

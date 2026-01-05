@@ -42,8 +42,3 @@ To keep a "Healthy" meatloaf juicy when using lean meats, we use a **Panade**: a
 6.  **Glaze:** Spread ketchup over the top and bake for another 5 minutes until bubbly and caramelized.
 7.  **Rest:** Let rest for 10 minutes before slicing to ensure it holds its shape.
 
-## Serving Suggestions
-
-- [Patate al Forno](/silton-mise/recipes/patate-al-forno) (Crispy Roast Potatoes)
-- Steamed Broccoli with Garlic
-- [Nana Ruth's Applesauce](/silton-mise/recipes/nana-ruths-applesauce)

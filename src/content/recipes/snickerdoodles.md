@@ -39,7 +39,3 @@ What separates a Snickerdoodle from a standard sugar cookie is **Chemistry**. Th
 5.  **Roll:** Shape dough into walnut-sized balls. Roll each ball in the cinnamon-sugar mixture until fully coated.
 6.  **Bake:** Place on a baking sheet 2 inches apart. Bake at 400°F for 8-10 minutes. The cookies should be set at the edges but still appear soft in the center.
 
-## Serving Suggestions
-
-- [Old-Fashioned Fresh Peach Ice Cream](/silton-mise/recipes/old-fashioned-fresh-peach-ice-cream)
-- Hot Apple Cider

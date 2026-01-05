@@ -41,8 +41,3 @@ This is the baseline for high-performance "Fuel." The secret to a consistent Tex
 5.  **Adjust:** If the pudding is too thick, stir in a splash more milk. If too thin, add 1 tbsp more seeds and wait 30 minutes.
 6.  **Serve:** Top with fresh fruit and granola for a crunchy Crunch contrast.
 
-## Serving Suggestions
-
-- [Granola](/silton-mise/recipes/granola)
-- Fresh Blueberries
-- [Easy Breakfast Yogurt Popsicles](/silton-mise/recipes/easy-breakfast-yogurt-popsicles)

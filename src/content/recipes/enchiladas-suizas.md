@@ -39,7 +39,3 @@ Enchiladas Suizas (Swiss-style) refers to the generous use of cream and cheese, 
 5.  **Bake:** Pour the remaining sauce over the top and cover with the rest of the cheese. Bake at 375°F for 15-20 minutes until the cheese is bubbling.
 6.  **Finish:** Top with pickled red onions and fresh cilantro.
 
-## Serving Suggestions
-
-- [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad) (Essential to cut the heavy cream)
-- Mexican Rice and Black Beans

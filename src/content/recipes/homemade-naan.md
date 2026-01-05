@@ -40,8 +40,3 @@ Great Naan requires **Yogurt and High Heat**. The yogurt provides the fermentati
 6.  **Bubble:** Cook for 1-2 minutes until large bubbles form on the top. Flip and cook for 1 minute until charred on the other side.
 7.  **Finish:** Brush immediately with garlic-butter and sprinkle with cilantro. Keep warm in a clean kitchen towel.
 
-## Pairs With
-
-- [Chicken Tikka Masala](/silton-mise/recipes/chicken-tikka-masala)
-- [Saag Paneer](/silton-mise/recipes/saag-paneer)
-- [Lamb Keema Matar](/silton-mise/recipes/lamb-keema-matar)

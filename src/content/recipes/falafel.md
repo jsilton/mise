@@ -40,8 +40,3 @@ The single most important rule of falafel: **NEVER USE CANNED CHICKPEAS.** Canne
 6.  **Fry:** Heat 2 inches of oil in a pot to 350°F. Fry in batches for 3-4 minutes until the outside is deep brown and the inside is steamed and green.
 7.  **Drain:** Transfer to a paper-towel-lined plate. Serve immediately.
 
-## Serving Suggestions
-
-- [Authentic Tzatziki Sauce](/silton-mise/recipes/tzatziki-sauce)
-- [Israeli Style Hummus](/silton-mise/recipes/israeli-style-hummus)
-- Warm Pita and [Smashed Cucumber Salad](/silton-mise/recipes/smashed-cucumber-salad)

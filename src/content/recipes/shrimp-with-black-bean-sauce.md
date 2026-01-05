@@ -45,8 +45,3 @@ This Cantonese dish builds flavor from fermented black beans (douchi), which pro
 6.  **The Ribbon:** Turn heat to low. Pour the egg across the surface. Let sit for 10 seconds, then fold once.
 7.  **Serve:** Garnish with scallions and serve immediately over steamed jasmine rice.
 
-## Serving Suggestions
-
-- [Jasmine Rice](/silton-mise/recipes/basmati-rice)
-- [Smashed Cucumber Salad](/silton-mise/recipes/smashed-cucumber-salad)
-- [Chinese Eggplant with Garlic Sauce](/silton-mise/recipes/chinese-eggplant-with-garlic-sauce)

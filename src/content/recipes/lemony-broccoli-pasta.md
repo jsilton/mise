@@ -42,8 +42,3 @@ This is a simple Italian vegetable pasta that showcases the classic technique of
 6.  **Emulsify:** Add the reserved pasta water 1/4 cup at a time, tossing vigorously over low heat until the sauce is glossy and the peas are bright.
 7.  **Serve:** Season with salt and plenty of black pepper. Top with extra Parmesan.
 
-## Serving Suggestions
-
-- [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad)
-- [Garlic Bread](/silton-mise/recipes/garlic-bread)
-- Roasted Cherry Tomatoes

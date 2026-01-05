@@ -39,8 +39,3 @@ This is a high-speed technical dish dessert that mimics the exact flavor profile
 4.  **The Finish:** Transfer the soft-serve consistency ice cream to a chilled, freezer-safe container. Cover and freeze for **at least 4 hours** (ideally overnight) to firm up.
 5.  **Serve:** Scoop into bowls. Top with the remaining reserved graham cracker crumbs and a fresh lime wedge for the mandatory **Acid Balance**.
 
-## Serving Suggestions
-
-- [Oreo Truffles](/silton-mise/recipes/easy-oreo-truffles)
-- Fresh Raspberries
-- [Classic Martini](/silton-mise/recipes/classic-martini) (Chilled)

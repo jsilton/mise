@@ -35,8 +35,3 @@ The secret to a holiday turkey breast that isn't dry is **Culinary Technique** t
 6.  **Rest:** Transfer to a carving board. Cover loosely with foil and **let rest for 20 minutes** (mandatory for moisture).
 7.  **Serve:** Carve into 1/2-inch slices and serve with the pan drippings.
 
-## Serving Suggestions
-
-- [Perfect Cranberry Sauce](/silton-mise/recipes/perfect-cranberry-sauce)
-- [Nana's Turkey Dressing](/silton-mise/recipes/grandmommys-turkey-dressing)
-- [Perfect Mashed Potatoes](/silton-mise/recipes/perfect-mashed-potatoes)

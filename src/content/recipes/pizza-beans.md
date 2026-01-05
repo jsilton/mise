@@ -39,7 +39,3 @@ This Tex-Mex inspired skillet dish swaps pizza dough for protein-rich white bean
 6.  **Bake:** Transfer the skillet to the oven. Bake for 15-20 minutes until the cheese is bubbling and has golden brown spots.
 7.  **Serve:** Let rest for 5 minutes. Scoop into bowls and serve with crusty bread.
 
-## Serving Suggestions
-
-- [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad)
-- Garlic Bread

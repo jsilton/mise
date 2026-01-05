@@ -45,8 +45,3 @@ The secret to an elite chowder without heavy flour is **Culinary Technique** thr
 6.  **The Crunch:** Add the shrimp and its marinade. Cook for 2-3 minutes until just opaque.
 7.  **Serve:** Stir in cilantro and cayenne. Serve in warmed bowls.
 
-## Serving Suggestions
-
-- [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad)
-- [Garlic Bread](/silton-mise/recipes/garlic-bread)
-- [Classic Martini](/silton-mise/recipes/classic-martini) (Chilled)

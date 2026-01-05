@@ -39,8 +39,3 @@ Brisket is the soul of Jewish-American holiday cooking, the centerpiece of Rosh 
 6.  **The Reduction:** Remove the meat to a cutting board and tent with foil to rest. Place the roasting pan across two burners on the stovetop. Boil the vegetables and sauce over medium-high heat for 20-30 minutes until the sauce is glossy and thick.
 7.  **Serve:** Slice the meat **across the grain** (essential for tenderness). Serve drenched in the reduced sauce and surrounded by the "melt-in-your-mouth" onions and carrots.
 
-## Serving Suggestions
-
-- [Miso-Mashed Potatoes](/silton-mise/recipes/miso-mashed-potatoes)
-- [Roasted Asparagus](/silton-mise/recipes/roasted-asparagus)
-- [Challah](/silton-mise/recipes/my-favorite-challah) for dipping

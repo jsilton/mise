@@ -37,8 +37,3 @@ This Tex-Mex casserole is a quick weeknight meal that layers chicken, tortillas,
 6.  **Finish:** Remove from heat. Top with the chopped tomatoes and sliced avocado for the final **High Note**.
 7.  **Serve:** Serve hot with a side of [Cilantro Lime Rice](/silton-mise/recipes/cilantro-lime-rice).
 
-## Serving Suggestions
-
-- [Cilantro Lime Rice](/silton-mise/recipes/cilantro-lime-rice)
-- [Guacamole](/silton-mise/recipes/guacamole)
-- [Mexican Street Corn Salad (Esquites)](/silton-mise/recipes/mexican-street-corn-salad)

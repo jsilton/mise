@@ -49,7 +49,3 @@ This pie is a masterclass in **Updated Classic**. We take the soul of a classic 
 5.  **Bake:** Pour custard into the cooled shell. Bake at 350°F for 35-40 minutes until the edges are set but the center is still slightly jiggly. Cool completely (this is mandatory for the set).
 6.  **Finish:** Whip heavy cream with 1/4 cup sugar and cinnamon until firm peaks form. Mound over the cooled pie before serving.
 
-## Serving Suggestions
-
-- [Hot Mulled Apple Cider](/silton-mise/recipes/hot-mulled-apple-cider)
-- Vanilla Bean Ice Cream

@@ -42,8 +42,3 @@ This is a modern Italian-French fusion that combines Italian sausage and fresh b
 5.  **Toss:** Add the hot pasta and fresh basil to the skillet. Toss for 1 minute until every noodle is coated.
 6.  **Serve:** Grate fresh Parmesan over the top and serve immediately.
 
-## Serving Suggestions
-
-- [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad) (Mandatory)
-- [Garlic Bread](/silton-mise/recipes/garlic-bread)
-- [Roasted Green Bean "Fries"](/silton-mise/recipes/roasted-green-bean-fries)

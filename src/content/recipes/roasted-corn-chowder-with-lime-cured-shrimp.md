@@ -40,7 +40,3 @@ This Mexican-inspired corn chowder builds depth by roasting corn kernels at high
 6.  **The Shrimp:** Add the shrimp to the hot liquid. Cook for 2-3 minutes until pink.
 7.  **Finish:** Stir in the fresh lime juice and the reserved bacon bits. Taste and adjust salt.
 
-## Serving Suggestions
-
-- Garlic Bread or Oyster Crackers
-- [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad)

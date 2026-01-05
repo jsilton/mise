@@ -45,8 +45,3 @@ Chicken meatballs can dry out easily since ground chicken is so lean, but adding
 6.  **Cook:** Simmer for 12-15 minutes until the meatballs are cooked through (165°F) and the chard is tender.
 7.  **Serve:** Use a ladle to scoop meatballs and greens together. Squeeze the remaining lemon half over the top for the mandatory **High Note**.
 
-## Serving Suggestions
-
-- [Garlic Bread](/silton-mise/recipes/garlic-bread)
-- [Basmati Rice](/silton-mise/recipes/basmati-rice)
-- [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad)

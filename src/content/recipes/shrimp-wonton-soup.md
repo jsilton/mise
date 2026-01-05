@@ -44,8 +44,3 @@ Cantonese wontons rely on a filling that's sticky and cohesive, achieved by stir
 5.  **Bind:** Ladle 1 cup of the boiling broth into each serving bowl to "wake up" the seasonings.
 6.  **Serve:** Transfer wontons and greens to the bowls. Garnish with fresh coriander and serve immediately.
 
-## Serving Suggestions
-
-- [Fresh Wonton Wrappers](/silton-mise/recipes/fresh-wonton-wrappers)
-- [Smashed Cucumber Salad](/silton-mise/recipes/smashed-cucumber-salad)
-- [Chinese Eggplant with Garlic Sauce](/silton-mise/recipes/chinese-eggplant-with-garlic-sauce)

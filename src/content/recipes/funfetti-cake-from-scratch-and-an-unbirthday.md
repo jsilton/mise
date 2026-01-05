@@ -51,8 +51,3 @@ This is the "Kitchen Standard" for celebratory baking. We use **Culinary Techniq
 8.  **The Frosting:** Beat 1 lb butter until creamy. Gradually add sugar, then heavy cream and vanilla. Beat on high for 3 minutes until billowy.
 9.  **Assemble:** Layer the cooled cakes with frosting. Do a thin "crumb coat" and freeze for 10 minutes before applying the final thick layer of buttercream for a professional Crunch finish.
 
-## Serving Suggestions
-
-- [Old-Fashioned Vanilla Ice Cream](/silton-mise/recipes/old-fashioned-vanilla-ice-cream)
-- Fresh Berries
-- [Classic Martini](/silton-mise/recipes/classic-martini) (for the adults)

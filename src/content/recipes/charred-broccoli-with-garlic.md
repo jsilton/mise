@@ -38,8 +38,3 @@ Charred broccoli with garlic is a staple in Chinese-American restaurants. The ke
 5.  **Glaze:** Stir in the soy sauce. It will bubble and evaporate instantly, seasoning the broccoli.
 6.  **Finish:** Turn off the heat. Squeeze fresh lemon juice over the top.
 
-## Pairs With
-
-- [Honey Sesame Chicken](/silton-mise/recipes/honey-sesame-chicken)
-- [Chicken Milanese](/silton-mise/recipes/chicken-milanese)
-- [Shrimp with Lobster Sauce](/silton-mise/recipes/shrimp-lobster-sauce)

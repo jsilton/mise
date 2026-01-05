@@ -39,8 +39,3 @@ Sheet pan dinners became popular in the 2010s for their simplicity. The key is s
 4.  **Finish:** Return to the oven and roast for another 20-25 minutes until the broccoli is charred, potatoes are tender, and chicken reaches an internal temp of 165°F.
 5.  **Serve:** Serve immediately, drizzling any extra pan juices over the potatoes for a savory "Bounce."
 
-## Serving Suggestions
-
-- [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad)
-- [Smashed Cucumber Salad](/silton-mise/recipes/smashed-cucumber-salad)
-- [Basmati Rice](/silton-mise/recipes/basmati-rice)

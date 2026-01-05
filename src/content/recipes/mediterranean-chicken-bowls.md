@@ -40,8 +40,3 @@ This is a masterclass in **Modularity**. Instead of a single dish, we treat this
 5.  **Layer:** Arrange the sliced chicken, cucumbers, and tomatoes in distinct "stacks" around the bowl.
 6.  **Finish:** Top with crumbled feta and a massive pile of [Pickled Red Onions](/silton-mise/recipes/pickled-red-onions). Serve with a lemon wedge for the final **High Note**.
 
-## Serving Suggestions
-
-- [Tzatziki Sauce](/silton-mise/recipes/tzatziki-sauce)
-- Warm Pita Bread
-- [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad)

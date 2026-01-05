@@ -38,8 +38,3 @@ These Mexican-style tacos combine spicy chorizo with delicate seafood by renderi
 5.  **Assemble:** Warm corn tortillas over an open flame until charred.
 6.  **Serve:** Fill each tortilla with the seafood-chorizo mix. Top with sliced avocado and cilantro for the final **High Note**.
 
-## Serving Suggestions
-
-- [Mexican Red Rice (Arroz Rojo)](/silton-mise/recipes/mexican-red-rice)
-- [quick Seasoned Black Beans](/silton-mise/recipes/quick-seasoned-black-beans)
-- [Smashed Cucumber Salad](/silton-mise/recipes/smashed-cucumber-salad)

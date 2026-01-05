@@ -42,8 +42,3 @@ The danger of slow-cooker curries is "flat" flavor and mushy meat. We solve this
 5.  **The Finish:** Stir the curry once before serving to incorporate the rendered juices.
 6.  **Serve:** Serve in deep bowls over cooked brown rice. Garnish with fresh cilantro and serve with mango slices on the side.
 
-## Serving Suggestions
-
-- [Homemade Naan](/silton-mise/recipes/homemade-naan)
-- [Cucumber Raita](/silton-mise/recipes/cucumber-raita)
-- [Smashed Cucumber Salad](/silton-mise/recipes/smashed-cucumber-salad)

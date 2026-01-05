@@ -32,8 +32,3 @@ Tahini is an oil-rich paste that can behave unexpectedly. When you add lemon jui
 3.  **Balance:** Taste and adjust for salt or acid. If it's too thick, add another splash of water.
 4.  **Serve:** Serve as a dip or a drizzle.
 
-## Pairs With
-
-- [Chicken Shawarma](/silton-mise/recipes/chicken-shawarma)
-- [Falafel](/silton-mise/recipes/falafel)
-- [Roasted Root Vegetables](/silton-mise/recipes/roasted-root-vegetables)

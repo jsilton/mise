@@ -36,8 +36,3 @@ This is a **Updated Classic** update to a Family Kitchen holiday staple. We have
 5.  **Bake:** Bake for 40-45 minutes until the edges are set and the center has a slight, stable wobble (the Texture).
 6.  **Cool:** Let cool completely (at least 2 hours) before slicing. This is mandatory for the structure to set.
 
-## Serving Suggestions
-
-- [Old-Fashioned Vanilla Ice Cream](/silton-mise/recipes/old-fashioned-vanilla-ice-cream)
-- Whipped Cream (unsweetened)
-- [Hot Mulled Apple Cider](/silton-mise/recipes/hot-mulled-apple-cider)

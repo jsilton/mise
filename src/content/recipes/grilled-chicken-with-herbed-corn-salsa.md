@@ -36,8 +36,3 @@ This Mexican-inspired grilled chicken showcases summer corn charred directly on 
 4.  **Combine:** Shear the charred kernels off the cobs. In a small bowl, toss the kernels with the herb sauce.
 5.  **Serve:** Place grilled chicken on a platter and top generously with the herbed corn salsa. Serve immediately.
 
-## Serving Suggestions
-
-- [Everyday Arugula Salad](/silton-mise/recipes/everyday-arugula-salad)
-- [Basmati Rice](/silton-mise/recipes/basmati-rice)
-- [Smashed Cucumber Salad](/silton-mise/recipes/smashed-cucumber-salad)
