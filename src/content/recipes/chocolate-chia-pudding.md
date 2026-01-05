@@ -24,7 +24,7 @@ ingredients:
 
 ## Chef's Note
 
-The secret to a "Kitchen Standard" chia pudding is **The Blender Method**. Many recipes leave the seeds whole, which can result in a gritty, uneven texture. By blending the seeds on high speed, we break them down until they are undetectable, creating a silky, mousse-like consistency that feels like a "Comfort" dessert but provides the nutritious of a superfood. Always let it chill for at least 3 hours to allow the fibers to fully set into a "Bounce."
+The secret to smooth chia pudding is the blender method. Many recipes leave the seeds whole, which can result in a gritty, uneven texture. By blending the seeds on high speed, we break them down until they are undetectable, creating a silky, mousse-like consistency that feels like a comforting dessert but provides superfood nutrition. Always let it chill for at least 3 hours to allow the fibers to fully set.
 
 ## Directions
 

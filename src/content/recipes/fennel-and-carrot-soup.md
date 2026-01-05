@@ -29,7 +29,7 @@ ingredients:
 
 ## Chef's Note
 
-This soup is a masterclass in **Updated Classic** flavor development. The secret is the **Low-Slow Moisture Method**: we sauté the vegetables in butter for a full 45-60 minutes _before_ adding the broth. This ensures they release all their internal moisture and natural sugars, resulting in a depth of flavor that a quick boil can't achieve. We use **The Acid/Sweet Finish**: topping the earthy fennel with a maple-whisked crème fraîche provides the mandatory "High Note" that makes the soup taste like a professional restaurant course.
+This soup showcases deep flavor development. The secret is the low-slow sauté: we cook the vegetables in butter for a full 45-60 minutes _before_ adding the broth. This ensures they release all their internal moisture and natural sugars, resulting in a depth of flavor that a quick boil can't achieve. We finish with a maple-whisked crème fraîche to provide the essential brightness that makes the soup taste restaurant-quality.
 
 ## Directions
 

@@ -29,7 +29,7 @@ ingredients:
 
 ## Chef's Note
 
-The crinkle cookie is all about the **Textural Balance** of the "shackle"—the crackly, snowy crust. The secret to the Kitchen Standard is the **Double-Sugar Roll**: we roll the dough balls in granulated sugar first, then in powdered sugar. The granulated sugar acts as a structural barrier that prevents the powdered sugar from being absorbed into the dough during baking, resulting in a high-contrast Crunch and a snowy-white finish. Chilling the dough for the full 2 hours is mandatory for the "Bounce."
+The crinkle cookie is all about the crackly, snowy crust. The secret is the double-sugar roll: we roll the dough balls in granulated sugar first, then in powdered sugar. The granulated sugar acts as a barrier that prevents the powdered sugar from being absorbed into the dough during baking, resulting in high-contrast crunch and a snowy-white finish. Chilling the dough for the full 2 hours is essential for the right texture.
 
 ## Directions
 

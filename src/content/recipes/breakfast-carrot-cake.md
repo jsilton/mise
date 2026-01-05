@@ -36,7 +36,7 @@ ingredients:
 
 ## Chef's Note
 
-This is a **Updated Classic** update to the classic carrot cake, re-engineered as a high-fiber nutritious breakfast. By using **Whole Wheat Flour** and **Greek Yogurt**, we achieve a dense, moist crumb that provides sustained energy. The secret to the texture is finely grating the carrots—they should almost melt into the batter during baking, providing moisture without the "mushy veggie" feel. This is the "Keeper" version for busy mornings.
+This is a nutritious take on carrot cake, reimagined as a high-fiber breakfast. By using whole wheat flour and Greek yogurt, we achieve a dense, moist crumb that provides sustained energy. The secret to the texture is finely grating the carrots—they should almost melt into the batter during baking, providing moisture without any mushy texture. This is a great option for busy mornings.
 
 ## Directions
 
