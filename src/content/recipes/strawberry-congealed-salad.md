@@ -28,7 +28,7 @@ ingredients:
 
 ## Chef's Note
 
-This is a **Updated Classic** update to the definitive family gathering side. The secret to its Success is **The Sour Cream Layer Method**: instead of mixing everything together, we set half the fruit-jello mixture, spread a thick layer of sour cream, and then top with the remaining jello. This creates a multi-dimensional Texture and a mandatory **Acid Balance** that cuts through the sweet fruit. We use **Mashed Bananas** as a structural binder, providing a dense, velvety consistency that standard gelatin lacks.
+This is an improved take on the definitive family gathering side. The secret is layering the sour cream: instead of mixing everything together, we set half the fruit-jello mixture, spread a thick layer of sour cream, and then top with the remaining jello. This creates distinct layers with contrasting textures and tangy richness that cuts through the sweet fruit. We use mashed bananas as a structural binder, providing a dense, velvety consistency that standard gelatin lacks.
 
 ## Directions
 

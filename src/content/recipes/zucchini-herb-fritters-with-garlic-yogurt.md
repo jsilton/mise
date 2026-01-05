@@ -30,7 +30,7 @@ ingredients:
 
 ## Chef's Note
 
-The secret to fritters that aren't a soggy mess is **Culinary Technique** through **The Ice-Shock Squeeze Method**. You must grate the zucchini and potato, salt them heavily, and let them sit for 30 minutes. Then, wrap them in a kitchen towel and **squeeze with maximum force** until bone-dry. This ensures the fritters have a resilient Texture while the exterior develops a shatteringly crisp Crunch in the oil. The garlic yogurt provides the mandatory **Acid Balance** to cut the deep-fried richness.
+The secret to fritters that aren't a soggy mess is removing all the moisture. You must grate the zucchini and potato, salt them heavily, and let them sit for 30 minutes. Then, wrap them in a kitchen towel and squeeze with maximum force until bone-dry. This ensures the fritters have a resilient texture while the exterior develops a shatteringly crisp crust in the oil. The garlic yogurt provides the bright acidity needed to cut the deep-fried richness.
 
 ## Directions
 

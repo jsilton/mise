@@ -28,7 +28,7 @@ ingredients:
 
 ## Chef's Note
 
-This is a **Updated Classic** update to a classic summer crisp. The secret to its elite depth is **The Beurre Noisette Method**: we cook the butter until it reaches its nutty, brown peak _before_ mixing it with the flour and sugar. This creates a crumble with a sophisticated Crunch that standard butter lacks. We maintain **Textural Balance** by simmering the blueberries with lemon juice and cornstarch first; this ensures the fruit sets into a thick, glossy jam that doesn't turn the topping soggy. The lemon juice provides the mandatory **Acid Balance**.
+This is an improved take on a classic summer crisp. The secret to its depth is browning the butter until it reaches its nutty, aromatic peak _before_ mixing it with the flour and sugar. This creates a crumble with a sophisticated crunch that standard butter lacks. We get the right texture by simmering the blueberries with lemon juice and cornstarch first; this ensures the fruit sets into a thick, glossy jam that doesn't turn the topping soggy. The lemon juice provides the bright acidity needed to balance the sweet topping.
 
 ## Directions
 

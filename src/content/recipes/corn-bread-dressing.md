@@ -28,7 +28,7 @@ ingredients:
 
 ## Chef's Note
 
-The secret to this family classic is **Textural Balance**. Most dressings are soggy; we solve this by specifically **baking the cornbread cubes** to dry them out before they hit the stock. This allows the cubes to absorb the mushroom and shallot butter like a sponge while maintaining their individual shape.
+The secret to this family classic is getting the right texture. Most dressings are soggy; we solve this by baking the cornbread cubes to dry them out before they hit the stock. This allows the cubes to absorb the mushroom and shallot butter like a sponge while maintaining their individual shape.
 
 ## Directions
 

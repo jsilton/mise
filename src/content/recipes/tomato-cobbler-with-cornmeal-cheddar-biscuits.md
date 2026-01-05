@@ -27,7 +27,7 @@ ingredients:
 
 ## Chef's Note
 
-This is a masterclass in **Textural Balance**. The secret to Success is **The Caramelized Onion Bind Method**: we sauté the red onions for a full 20 minutes until they become a sweet, jammy paste _before_ adding the cherry tomatoes. This creates a rich Texture base that holds the whole tomatoes in suspension. We use **Culinary Technique** for the biscuits: the addition of cornmeal provides a gritty Crunch that contrasts the velvety tomatoes. The red wine provides the mandatory **Acid Balance** to cut the rich cheddar crust.
+This is all about contrasting textures. The secret is deeply caramelizing the onions: we sauté the red onions for a full 20 minutes until they become a sweet, jammy paste _before_ adding the cherry tomatoes. This creates a rich base that holds the whole tomatoes in suspension. The cornmeal in the biscuits provides a gritty crunch that contrasts the velvety tomatoes. The red wine provides the acidity needed to cut the rich cheddar crust.
 
 ## Directions
 

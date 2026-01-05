@@ -24,7 +24,7 @@ ingredients:
 
 ## Chef's Note
 
-Traditional latkes rely on starch; sweet potato latkes rely on **Textural Balance** through **The Hand-Press Method**. You must squeeze the grated potatoes in a kitchen towel until they are **bone-dry** before mixing with the eggs; this ensures the latke sets into a firm Texture rather than falling apart in the pan. We maintain **The Sizzle Method**: frying in 1/2-inch of hot oil creates a deep, lattice-like Crunch on the exterior that mimics the best diner-style hash browns. The scallions provide the mandatory savory **High Note**.
+Traditional latkes rely on starch; sweet potato latkes rely on proper moisture removal. You must squeeze the grated potatoes in a kitchen towel until they are bone-dry before mixing with the eggs; this ensures the latke sets into a firm texture rather than falling apart in the pan. We fry in 1/2-inch of hot oil to create a deep, lattice-like crunch on the exterior that mimics the best diner-style hash browns. The scallions provide the fresh, savory finish.
 
 ## Directions
 

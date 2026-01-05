@@ -31,7 +31,7 @@ ingredients:
 
 ## Chef's Note
 
-This is a high-heat, high-speed meal. The key to the Kitchen Standard is the **Acid Balance**: the heavy, salty sauce (Oyster/Fish/Soy) needs the bright lift of fresh lime juice at the very end to make the flavors pop. Don't crowd the wok—cook the meat until it gets crispy edges for maximum texture.
+This is a high-heat, high-speed meal. The key is the acidity: the heavy, salty sauce (Oyster/Fish/Soy) needs the bright lift of fresh lime juice at the very end to make the flavors pop. Don't crowd the wok—cook the meat until it gets crispy edges for maximum texture.
 
 ## Directions
 

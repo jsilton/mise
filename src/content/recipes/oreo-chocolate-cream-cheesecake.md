@@ -23,7 +23,7 @@ ingredients:
 
 ## Chef's Note
 
-This is the ultimate holiday technical dish dessert. The secret to its incredible Texture is **Culinary Technique** through **The Room-Temp Emulsion Method**: every ingredient, especially the eggs and cream cheese, must be at room temperature before mixing. This ensures a silky, lump-free batter that sets into a firm yet velvety structure. We maintain **Textural Balance** through **The Two-Stage Oreo Method**: we crush half the cookies for a dense Crunch base and reserve the other half for large, chunky inclusions inside the cake.
+This is the ultimate holiday dessert. The secret to its incredible texture is making sure every ingredient, especially the eggs and cream cheese, is at room temperature before mixing. This ensures a silky, lump-free batter that sets into a firm yet velvety structure. We create textural contrast by crushing half the cookies for a dense, crunchy base and reserving the other half for large, chunky inclusions inside the cake.
 
 ## Directions
 

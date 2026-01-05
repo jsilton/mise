@@ -27,7 +27,7 @@ ingredients:
 
 ## Chef's Note
 
-The secret to this "Kitchen Standard" vegetable puree is **Culinary Technique** through **The Low-Sweat Method**. You must sauté the zucchini and onions in a mix of butter and oil on very low heat; this allows the sugars to develop without any browning, resulting in a vibrant green color and a naturally sweet "Bounce." We maintain **Textural Balance** by using **The 2-Batch Puree**: blending the soup until perfectly velvety, then finishing with paper-thin julienned raw zucchini for a necessary textural "Snap."
+The secret to this vegetable puree is sweating the vegetables gently. You must sauté the zucchini and onions in a mix of butter and oil on very low heat; this allows the sugars to develop without any browning, resulting in a vibrant green color and a naturally sweet flavor. We get textural contrast by blending the soup until perfectly velvety, then finishing with paper-thin julienned raw zucchini for a fresh, crisp garnish.
 
 ## Directions
 

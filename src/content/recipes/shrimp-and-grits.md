@@ -28,7 +28,7 @@ ingredients:
 
 ## Chef's Note
 
-The secret to elite shrimp and grits is **Textural Balance** through **The Bacon Render Method**. We fry the bacon until shatteringly crisp, then use the rendered fat to flash-sear the shrimp. This ensures the seafood has a smoky, savory Crunch while the grits provide a velvety, creamy "Bounce." We maintain **Culinary Technique** by using stone-ground grits; they require a 25-minute simmer to fully hydrate, resulting in a complex toothsome quality. The lemon juice provides the mandatory **Acid Balance**.
+The secret to great shrimp and grits is the contrast between crispy protein and creamy grits. We fry the bacon until shatteringly crisp, then use the rendered fat to flash-sear the shrimp. This ensures the seafood has a smoky, savory crunch while the grits provide a velvety, creamy texture. We use stone-ground grits; they require a 25-minute simmer to fully hydrate, resulting in a complex, toothsome quality. The lemon juice provides the bright acidity needed to balance the rich dish.
 
 ## Directions
 

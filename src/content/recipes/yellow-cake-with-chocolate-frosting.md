@@ -33,7 +33,7 @@ ingredients:
 
 ## Chef's Note
 
-This is the definitive "Birthday Standard" for the Family Kitchen. The secret to its Success is **The Fat-Hybrid Method**: by using both softened butter (for the Texture) and liquid oil (for the "Moisture Guard"), we achieve a cake that is rich but never dry. We use **Extra Egg Yolks** to introduce more lecithin, resulting in a dense, velvety structure usually only found in professional bakeries. The buttermilk provide the mandatory **Acid Balance** needed to balance the sweet **Chocolate Silk Frosting**.
+This is the definitive birthday cake for the family. The secret is using both softened butter (for structure) and liquid oil (to keep it moist), which creates a cake that is rich but never dry. We use extra egg yolks to introduce more lecithin, resulting in a dense, velvety texture usually only found in professional bakeries. The buttermilk provides the acidity needed to balance the sweet chocolate frosting.
 
 ## Directions
 

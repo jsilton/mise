@@ -28,7 +28,7 @@ ingredients:
 
 ## Chef's Note
 
-The secret to great Yaki Udon is **Textural Balance**. Frozen udon has a superior "chew" (mochi-mochi) compared to shelf-stable versions. We sear the meat and veggies separately over high heat so they stay crunchy and charred, rather than steaming together into a mushy pile.
+The secret to great Yaki Udon is maintaining texture. Frozen udon has a superior chew (mochi-mochi) compared to shelf-stable versions. We sear the meat and veggies separately over high heat so they stay crunchy and charred, rather than steaming together into a mushy pile.
 
 ## Directions
 
