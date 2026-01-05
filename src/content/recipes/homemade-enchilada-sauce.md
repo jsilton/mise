@@ -29,7 +29,7 @@ ingredients:
 
 ## Chef's Note
 
-This is our baseline **Modularity** component for all Mexican-inspired dishes. The secret to a professional-grade sauce is **The Spice Bloom Method**: we whisk the chili powder and cumin directly into the hot oil and flour (the roux) _before_ adding the broth. This toasts the spices and releases their fat-soluble aromatic oils, resulting in a deeper flavor than store-bought jars. The **Apple Cider Vinegar** is the mandatory **Acid Balance** that cuts through the earthy cumin and brightens the tomato paste.
+This homemade enchilada sauce builds deeper flavor than store-bought versions by toasting chili powder and cumin directly in the hot oil-flour roux before adding liquid. This blooming technique releases the spices' fat-soluble aromatic oils. A splash of apple cider vinegar at the end brightens the earthy cumin and tomato paste.
 
 ## Directions
 

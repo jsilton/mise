@@ -27,7 +27,7 @@ ingredients:
 
 ## Chef's Note
 
-The secret to "Kitchen Standard" guacamole is **Culinary Technique** through **The Lime Guard Method**. You must toss the avocado chunks in the lime juice _before_ mashing; this ensures every molecule of fat is coated in acid, which inhibits oxidation and keeps the guacamole a vibrant, electric green for hours. We use **The 1-Hour Set**: letting the guacamole rest at room temperature allows the garlic and cumin to bloom into the healthy fats, resulting in a much deeper flavor than eating it immediately.
+Traditional Mexican guacamole keeps avocados bright green by tossing chunks in lime juice before mashing, ensuring every surface is coated with acid to prevent oxidation. Letting the guacamole rest at room temperature for an hour allows the garlic and cumin to bloom into the avocado's fats, developing deeper flavor than serving immediately.
 
 ## Directions
 

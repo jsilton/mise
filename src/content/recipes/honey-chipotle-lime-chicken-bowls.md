@@ -28,7 +28,7 @@ ingredients:
 
 ## Chef's Note
 
-This is a masterclass in **Modularity**. The secret to the Kitchen Standard here is **The Acid-Honey Bind Method**: the combination of lime juice (acid) and honey (sugar) creates a marinade that both tenderizes the meat via enzymes and creates a sticky, caramelized Crunch on the grill. We use **The 2-Hour Minimum**: you must marinate the chicken for at least 2 hours to ensure the smoky chipotle penetrates the protein fibers. Always rest the meat for 5 minutes before slicing to preserve the "Bounce."
+This Mexican-inspired chicken bowl features a marinade that balances lime juice's acidity with honey's sweetness, tenderizing the meat while creating sticky caramelization on the grill. Marinating for at least 2 hours allows smoky chipotle to penetrate the chicken. Resting the meat for 5 minutes after grilling helps retain its juices.
 
 ## Directions
 

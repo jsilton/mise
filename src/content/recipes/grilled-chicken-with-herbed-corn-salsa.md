@@ -26,7 +26,7 @@ ingredients:
 
 ## Chef's Note
 
-This is a high-performance nutritious meal that relies on **Textural Balance**. The secret is **The Charred Kernel Method**: we grill the corn whole until the kernels are slightly blackened and "pop" with sweetness, then shear them off the cob. This provides a smoky contrast to the **Herbed Salsa**, which we build using **The Emulsion Method**—blending fresh mint and basil with lemon and Parmesan. The lemon provides the mandatory **Acid Balance** that cuts through the rich fat of the chicken thighs.
+This Mexican-inspired grilled chicken showcases summer corn charred directly on the grill until the kernels develop smoky, caramelized spots. The herb salsa combines fresh basil and mint with lemon and Parmesan, creating a bright, aromatic topping. The lemon's acidity cuts through the rich fat of chicken thighs.
 
 ## Directions
 

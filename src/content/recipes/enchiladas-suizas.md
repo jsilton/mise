@@ -28,7 +28,7 @@ ingredients:
 
 ## Chef's Note
 
-"Suizas" means Swiss-style, referring to the heavy use of cream and cheese. This is a **"Wet/Fork" Mexican main** that balances the tartness of roasted tomatillos with the richness of heavy cream. To prevent the tortillas from turning into mush, we lightly fry them in oil for 10 seconds before filling—this creates a fat barrier that holds the structure under the sauce.
+Enchiladas Suizas (Swiss-style) refers to the generous use of cream and cheese, a style that originated in Mexico City in the 1950s. The dish balances tart, roasted tomatillos with rich heavy cream. Briefly frying tortillas in oil for 10 seconds before filling creates a protective layer that prevents them from dissolving under the wet sauce.
 
 ## Directions
 

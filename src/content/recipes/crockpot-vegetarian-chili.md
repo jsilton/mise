@@ -36,7 +36,7 @@ ingredients:
 
 ## Chef's Note
 
-This is the "Kitchen Standard" for plant-based comfort. Most vegetarian chilis are thin or watery; we solve this with **Textural Balance** through the **Sweet Potato Thickener Method**. As the sweet potato simmers for 4 hours, it partially breaks down, releasing starches that create a rich, velvety body without the need for a roux. We use a **Triple Bean Method** to ensure a complex Texture in every spoonful. The mandatory **Acid Balance** (apple cider vinegar) provides the "High Note" needed to wake up the earthy spices.
+This Tex-Mex style slow-cooker chili builds body and richness without meat by using sweet potatoes—as they simmer for 4 hours, their starches break down to create a thick, velvety consistency without needing a roux. Three types of beans add varied textures and protein. A splash of apple cider vinegar at the end brightens the earthy spices.
 
 ## Directions
 
