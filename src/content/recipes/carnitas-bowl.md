@@ -45,7 +45,7 @@ ingredients:
 
 ## Chef's Note
 
-True carnitas from Michoacán are braised low and slow, then crisped to create edges that shatter against tender, pull-apart meat. This technique packs pork tightly in a dish so it braises in its own rendered fat—no vat of lard required. The double-broil finish is non-negotiable: broil, stir, broil again. For a faster weeknight version using ground pork, see [[chipotle-pork-and-sweet-corn-tamale-bowls]].
+True carnitas from Michoacán are braised low and slow, then crisped to create edges that shatter against tender, pull-apart meat. This technique packs pork tightly in a dish so it braises in its own rendered fat—no vat of lard required. The double-broil finish is non-negotiable: broil, stir, broil again. For a faster weeknight version using ground pork, see [Chipotle Pork Bowls](/recipes/chipotle-pork-and-sweet-corn-tamale-bowls).
 
 ## Directions
 

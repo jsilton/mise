@@ -35,7 +35,7 @@ ingredients:
 
 ## Chef's Note
 
-This weeknight bowl delivers big Mexican flavors in 35 minutes. Polenta cooked in broth stands in for masa, while chipotle peppers in adobo provide smoky depth. The key upgrades: char the corn in a hot skillet before adding, use cotija instead of bland cheese blend, and finish with raw cabbage and pepitas for essential crunch. For a weekend version with braised pork shoulder, see [[carnitas-bowl]].
+This weeknight bowl delivers big Mexican flavors in 35 minutes. Polenta cooked in broth stands in for masa, while chipotle peppers in adobo provide smoky depth. The key upgrades: char the corn in a hot skillet before adding, use cotija instead of bland cheese blend, and finish with raw cabbage and pepitas for essential crunch. For a weekend version with braised pork shoulder, see [Carnitas Bowl](/recipes/carnitas-bowl).
 
 ## Directions
 
