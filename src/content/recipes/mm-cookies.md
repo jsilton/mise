@@ -1,11 +1,12 @@
 ---
-title: Robbi's M&M Cookies
-difficulty: intermediate
+title: M&M Cookies
+aliases: [robbis-mandmsr-cookies]
+difficulty: easy
 cookingMethods: [bake]
 dietary: [vegetarian]
-occasions: [comfort-food]
+occasions: [comfort-food, kids-approved]
 flavorProfile: [sweet, rich]
-cuisines: [Jewish]
+cuisines: [American]
 role: dessert
 vibe: comfort
 prepTime: 15 min

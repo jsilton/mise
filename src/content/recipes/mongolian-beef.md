@@ -1,7 +1,8 @@
 ---
 title: Mongolian Beef
+aliases: [mongolian-chicken]
 difficulty: easy
-cookingMethods: [fry, simmer, steam]
+cookingMethods: [fry, simmer]
 dietary: []
 occasions: [weeknight, meal-prep, comfort-food]
 flavorProfile: [sweet, savory, umami]
@@ -18,19 +19,22 @@ leftovers: excellent
 equipment: [wok]
 pairsWith: [basmati-rice, steamed-broccoli, garlic-sesame-spinach]
 ingredients:
-  - '1.5 lbs Flank Steak, sliced very thin against the grain'
+  - '1.5 lbs Flank Steak, sliced very thin against the grain (or chicken thighs/breast)'
   - 1/4 cup Cornstarch (for velveting)
   - 1/2 cup Soy Sauce
   - 1/2 cup Brown Sugar
   - '1 tbsp Fresh Ginger, grated'
   - '3 cloves Garlic, minced'
   - '1 cup Green Onions, cut into 2-inch lengths'
+  - 5 Dried Red Chilies (optional, for heat)
   - Neutral Oil for frying
 ---
 
 ## Chef's Note
 
-Mongolian beef is a Chinese-American restaurant creation (nothing to do with Mongolia). The key is coating beef slices in cornstarch and searing them at extreme heat until crispy-edged. The ginger-heavy glaze should be thick enough to coat the meat without pooling. Green onions add color and mild bite. Velveting the beef with cornstarch keeps it tender while creating texture.
+Mongolian beef is a Chinese-American restaurant creation (nothing to do with Mongolia). The key is coating protein slices in cornstarch and searing them at extreme heat until crispy-edged. The ginger-heavy glaze should be thick enough to coat the meat without pooling. Green onions add color and mild bite. Velveting with cornstarch keeps the protein tender while creating texture.
+
+**Chicken Variation:** Substitute 1.5 lbs chicken thighs or breast, sliced 1/4-inch thick. Double-dredge for extra crispiness: coat in cornstarch, let sit 5 minutes until absorbed, then dredge again before frying. Cook 1-2 minutes per side.
 
 ## Directions
 
@@ -38,6 +42,6 @@ Mongolian beef is a Chinese-American restaurant creation (nothing to do with Mon
 2.  **The Glaze:** In a small saucepan, whisk the soy sauce, brown sugar, ginger, and garlic. Simmer for 5 minutes until syrupy. Set aside.
 3.  **The Sear:** Heat 1/4 cup oil in a wok or large heavy skillet over high heat until smoking.
 4.  **Crisp:** Add the beef in a single layer (work in batches!). Sear for 2 minutes per side until the edges are dark brown and crispy. Remove to a plate and drain excess oil.
-5.  **Finish:** Wipe out the pan. Return the beef to the wok. Pour in the ginger glaze and add the green onions.
+5.  **Finish:** Wipe out the pan. Return the beef to the wok. Pour in the ginger glaze, add dried chilies if using, and add the green onions.
 6.  **Toss:** Toss vigorously over high heat for 30-60 seconds until the sauce bubbles and lacquers the beef.
-7.  **Serve:** Serve immediately over [Jasmine Rice](/mise/recipes/homemade-rice-pilaf).
+7.  **Serve:** Serve immediately over steamed rice.

@@ -1,5 +1,6 @@
 ---
 title: Flourless Chocolate Cake
+aliases: [flourless-chocolate-cake-or-king-arthur-baking]
 difficulty: easy
 cookingMethods: [bake, steam]
 dietary: [vegetarian, gluten-free]

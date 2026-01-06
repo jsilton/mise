@@ -1,5 +1,6 @@
 ---
 title: Szechuan Eggplant & Tofu
+aliases: [crispy-szechuan-style-eggplant-and-tofu]
 origin: China
 difficulty: easy
 cookingMethods: [fry, sauté, simmer, steam]

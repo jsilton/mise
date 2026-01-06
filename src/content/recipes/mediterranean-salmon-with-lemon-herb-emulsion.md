@@ -1,5 +1,6 @@
 ---
 title: Mediterranean Salmon with Lemon-Herb Emulsion
+aliases: [mediterranean-salmon-with-lemon-herb-emulsion-herbed-orzo-and-crispy-chickpeas]
 difficulty: easy
 cookingMethods: [bake, roast, boil, no-cook]
 dietary: [vegetarian]

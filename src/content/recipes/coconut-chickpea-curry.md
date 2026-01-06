@@ -1,5 +1,6 @@
 ---
 title: Coconut Chickpea Curry
+aliases: [coconut-chickpea-curry-vegan-and-gf]
 difficulty: easy
 cookingMethods: [bake, sauté, simmer, boil]
 dietary: [vegetarian, vegan]
