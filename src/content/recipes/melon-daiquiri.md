@@ -1,6 +1,5 @@
 ---
 title: Melon Daiquiri
-aliases: [fresh-melon-daiquiri]
 difficulty: easy
 cookingMethods: [blend]
 dietary: []

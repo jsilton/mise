@@ -1,6 +1,5 @@
 ---
 title: Cu Chao Mian (Shanghai Fried Noodles)
-aliases: [shanghai-fried-noodles-cu-chao-mian]
 origin: China
 difficulty: easy
 cookingMethods: [fry, sauté]

@@ -1,6 +1,5 @@
 ---
 title: Mongolian Beef
-aliases: [mongolian-chicken]
 difficulty: easy
 cookingMethods: [fry, simmer]
 dietary: []

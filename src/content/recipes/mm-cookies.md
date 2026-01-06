@@ -1,6 +1,5 @@
 ---
 title: M&M Cookies
-aliases: [robbis-mandmsr-cookies]
 difficulty: easy
 cookingMethods: [bake]
 dietary: [vegetarian]

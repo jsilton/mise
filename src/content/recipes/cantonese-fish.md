@@ -1,6 +1,5 @@
 ---
 title: Cantonese Steamed Fish
-aliases: [cantonese-steamed-fish-a-20-minute, chinese-steamed-fish]
 origin: China
 difficulty: easy
 cookingMethods: [boil, steam]
