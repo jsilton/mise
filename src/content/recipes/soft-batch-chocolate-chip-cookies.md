@@ -1,5 +1,5 @@
 ---
-title: Chocolate Chip Cookies
+title: Soft Batch Chocolate Chip Cookies
 difficulty: intermediate
 cookingMethods: [bake]
 dietary: [vegetarian]

@@ -1,5 +1,5 @@
 ---
-title: Peach Ice Cream
+title: Custard Peach Ice Cream
 difficulty: intermediate
 cookingMethods: [steam]
 dietary: [vegetarian]

@@ -21,7 +21,6 @@ ingredients:
   - 1 tbsp Toasted Sesame Oil
   - '1 tbsp Garlic, minced'
   - '1 tbsp Ginger, grated'
-  - '--- Texture & Crunch ---'
   - '1 Bell Pepper, thinly sliced'
   - 1/4 cup Toasted Sesame Seeds
   - 1/2 cup Fresh Basil or Cilantro

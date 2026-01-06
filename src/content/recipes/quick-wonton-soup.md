@@ -1,5 +1,5 @@
 ---
-title: Wonton Soup
+title: Quick Wonton Soup
 origin: China
 difficulty: easy
 cookingMethods: [simmer, boil]

@@ -15,7 +15,6 @@ totalTime: 30 min
 servings: '4'
 ingredients:
   - 1.5 lbs Ground Pork
-  - '--- The "Tamale" Base ---'
   - 1 cup Dry Polenta (Cornmeal)
   - 4 cups Chicken Broth
   - 1 cup Frozen Sweet Corn

@@ -1,5 +1,5 @@
 ---
-title: Chicken and Broccoli
+title: Sheet Pan Chicken and Broccoli
 difficulty: easy
 cookingMethods: [bake, roast]
 dietary: []

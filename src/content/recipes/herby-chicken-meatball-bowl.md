@@ -23,7 +23,6 @@ ingredients:
   - '1 15 oz can Chickpeas, patted bone-dry'
   - '1 large Sweet Potato, diced'
   - 4 cups Fresh Kale
-  - '--- The Yogurt Jalapeño Dressing ---'
   - 1 cup Greek Yogurt
   - 1 cup Fresh Basil
   - '1 Jalapeño, seeded'

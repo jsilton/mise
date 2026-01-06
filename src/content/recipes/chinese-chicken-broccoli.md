@@ -1,5 +1,5 @@
 ---
-title: Chicken and Broccoli
+title: Chinese Chicken and Broccoli
 difficulty: easy
 cookingMethods: [fry, sauté, steam]
 dietary: []

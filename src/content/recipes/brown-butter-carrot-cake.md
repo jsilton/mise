@@ -1,5 +1,5 @@
 ---
-title: Carrot Cake
+title: Brown Butter Carrot Cake
 aliases:
   - 'bas-best-carrot-cake-the-brown-butter-upgrade'
 difficulty: intermediate

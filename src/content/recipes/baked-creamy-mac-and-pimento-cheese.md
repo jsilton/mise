@@ -1,5 +1,5 @@
 ---
-title: Macaroni and Pimento Cheese
+title: Baked Creamy Macaroni and Pimento Cheese
 difficulty: easy
 cookingMethods: [bake, roast]
 dietary: []

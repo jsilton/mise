@@ -20,7 +20,6 @@ ingredients:
   - '1 tsp Pure Vanilla Extract'
   - '1 tsp Orange Zest, grated'
   - '1/4 tsp Sea Salt'
-  - '--- Fillings (1 tsp per cookie) ---'
   - 'Apricot Jam, Poppy Seed Paste, or Nutella'
 ---
 

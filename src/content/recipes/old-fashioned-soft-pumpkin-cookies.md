@@ -24,7 +24,6 @@ ingredients:
   - 1 tsp Ground Cinnamon
   - 1/2 tsp Ground Nutmeg
   - 1/2 tsp Sea Salt
-  - '--- The "High Note" Glaze ---'
   - 2 cups Confectioners’ Sugar
   - 3 tbsp Milk
   - '1 tbsp Unsalted Butter, melted'

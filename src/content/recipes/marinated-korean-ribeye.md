@@ -15,7 +15,6 @@ totalTime: 15 min
 servings: '4'
 ingredients:
   - '1 lb Ribeye Beef, very thinly sliced (The "Super H-Mart" Shortcut: Buy pre-sliced or pre-marinated "Bulgogi" beef)'
-  - '--- Homemade Marinade (if not buying pre-marinated) ---'
   - '3 tbsp Soy Sauce'
   - '1 tbsp Toasted Sesame Oil'
   - '1 tbsp Brown Sugar'

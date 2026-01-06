@@ -25,7 +25,6 @@ ingredients:
   - '1 cup Parmesan Cheese, grated'
   - '10 oz Frozen Spinach, thawed and squeezed bone-dry'
   - 1 large Egg (The binder)
-  - '--- The Sauce & Pasta ---'
   - 3 cups (25 oz) High-Quality Marinara Sauce
   - 8 oz Whole-Wheat No-Boil Lasagna Sheets
   - 1/2 tsp Kosher Salt

@@ -1,5 +1,5 @@
 ---
-title: Macaroni and Pimento Cheese
+title: Custard Macaroni and Pimento Cheese
 aliases:
   - 'baked-macaroni-and-pimento-cheese-the-comfort-classic'
 prepTime: 15 min

@@ -14,7 +14,6 @@ totalTime: 60 min
 servings: '4'
 ingredients:
   - 1 lb Ground Turkey or Lean Ground Beef
-  - '--- The Panade (Moisture Secret) ---'
   - 1 cup Whole Wheat Breadcrumbs
   - 1/4 cup Whole Milk or Broth
   - '1 Green Bell Pepper, finely diced'
@@ -22,7 +21,6 @@ ingredients:
   - '3/4 cup Carrots, grated'
   - '3/4 cup Zucchini, grated and squeezed dry'
   - '2 large Eggs, beaten'
-  - '--- Seasoning & Glaze ---'
   - 1/2 tsp Garlic Powder
   - 1/4 cup Ketchup
   - Salt and Black Pepper

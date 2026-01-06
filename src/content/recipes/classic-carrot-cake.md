@@ -1,5 +1,5 @@
 ---
-title: Carrot Cake
+title: Classic Carrot Cake
 aliases:
   - 'mercer-street-carrot-cake-the-brown-butter-upgrade'
 difficulty: intermediate
@@ -32,7 +32,6 @@ ingredients:
   - '2/3 cup Brown Butter, cooled (Replaces Vegetable Oil)'
   - 3 large Eggs
   - '1 1/2 lbs Carrots, finely grated'
-  - '--- The Apple Glaze (Syrup) ---'
   - '1 Granny Smith Apple, grated'
   - 1/2 cup Sugar
   - 1/2 cup Water

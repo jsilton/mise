@@ -15,7 +15,6 @@ servings: '4'
 ingredients:
   - 1 lb Frozen Udon Noodles (preferred over vacuum-sealed)
   - 1/2 lb Ground Pork or Thinly Sliced Beef
-  - '--- The Veg (Crunch Integrity) ---'
   - '1 cup Mushrooms, sliced'
   - '1 Carrot, cut into matchsticks'
   - '1 small bunch Bok Choy, sliced'

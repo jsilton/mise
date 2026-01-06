@@ -1,5 +1,5 @@
 ---
-title: Wonton Soup
+title: Classic Wonton Soup
 difficulty: easy
 cookingMethods: [boil, no-cook]
 dietary: []
@@ -25,16 +25,16 @@ ingredients:
   - '2 Scallions, finely chopped'
   - 3 tbsp Chicken Broth (as binder)
   - 40 Wonton Wrappers
-  - >-
-    1 liter [Cantonese Wonton
-    Broth](/mise/recipes/cantonese-wonton-broth)
+  - 1 liter Wonton Broth (See note below)
   - 2 heads Baby Bok Choy
   - Sesame Oil and Scallions for garnish
 ---
 
 ## Chef's Note
 
-Cantonese wonton soup features delicate pork wontons in clear, aromatic broth. Stirring the pork filling vigorously in one direction until it becomes sticky and tacky is a traditional technique that ensures the filling stays cohesive during boiling. Ladling hot broth over aromatics placed in individual bowls preserves their fresh fragrance.
+Cantonese wonton soup features delicate pork wontons in clear, aromatic broth. Stirring the pork filling vigorously in one direction until it becomes sticky and tacky is a traditional technique that ensures the filling stays cohesive during boiling.
+
+**The Broth:** This recipe relies on [Cantonese Wonton Broth](/mise/recipes/cantonese-wonton-broth). You can use high-quality chicken stock infused with ginger/scallion in a pinch.
 
 ## Directions
 

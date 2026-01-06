@@ -1,5 +1,5 @@
 ---
-title: Peach Ice Cream
+title: Classic Peach Ice Cream
 difficulty: intermediate
 cookingMethods: [simmer, boil]
 dietary: [vegetarian]

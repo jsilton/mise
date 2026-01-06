@@ -20,7 +20,6 @@ pairsWith: [basmati-rice, steamed-broccoli, garlic-sesame-spinach]
 ingredients:
   - '2 lbs Chicken Breasts, chopped into bite-sized pieces'
   - '1 cup Cornstarch (as binder)'
-  - '--- The General’s Glaze ---'
   - '4 tbsp Hoisin Sauce'
   - '4 tbsp Soy Sauce'
   - '4 tbsp Rice Vinegar (The Acid Balance)'

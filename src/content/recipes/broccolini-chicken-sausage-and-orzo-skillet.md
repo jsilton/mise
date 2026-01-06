@@ -21,7 +21,6 @@ ingredients:
   - '2 cloves Garlic, minced'
   - '1/2 cup Grated Parmesan'
   - 'Salt and Black Pepper'
-  - '--- Texture Swap (Optional) ---'
   - '1 cup Frozen Peas (replaces broccolini if kids prefer)'
 ---
 

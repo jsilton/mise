@@ -18,7 +18,6 @@ leftovers: good
 equipment: [wok]
 pairsWith: [basmati-rice, egg-fried-rice]
 ingredients:
-  - '--- The Shrimp & Velveting ---'
   - '1 lb Jumbo Shrimp, peeled and deveined'
   - 1/4 tsp Baking Soda (The secret to the "snap")
   - 1 tsp Cornstarch

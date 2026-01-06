@@ -1,5 +1,5 @@
 ---
-title: Chocolate Chip Cookies
+title: Classic Chocolate Chip Cookies
 difficulty: intermediate
 cookingMethods: [bake]
 dietary: [vegetarian, nut-free]

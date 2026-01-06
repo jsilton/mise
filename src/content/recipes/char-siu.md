@@ -21,7 +21,6 @@ equipment: [wire-rack, baking-sheet]
 pairsWith: [basmati-rice, steamed-bok-choy-with-oyster-sauce]
 ingredients:
   - '3 lbs Pork Butt (Shoulder) (Use Pork Tenderloin for a leaner option)'
-  - '--- The Marinade & Glaze ---'
   - '1/4 cup Hoisin Sauce'
   - '1/4 cup Honey (or Maltose for authentic shine)'
   - '2 tbsp Soy Sauce'
@@ -36,7 +35,7 @@ ingredients:
 
 ## Chef's Note
 
-Char Siu (叉烧) literally means "fork roasted," referring to the traditional method of skewering the meat. The signature is the balance of sweet and savory, with a sticky, caramelized exterior that comes from repeated basting. This recipe adheres to the traditional Cantonese technique of high heat to char the outside, but uses a water bath in the oven to keep the pork butt juicy. 
+Char Siu (叉烧) literally means "fork roasted," referring to the traditional method of skewering the meat. The signature is the balance of sweet and savory, with a sticky, caramelized exterior that comes from repeated basting. This recipe adheres to the traditional Cantonese technique of high heat to char the outside, but uses a water bath in the oven to keep the pork butt juicy.
 
 **Kitchen Context:** If using tenderloin (leaner), reduce cooking time by 10-15 minutes to prevent drying out. Pork Butt is forgiving and preferred for its fat content which renders into the sauce.
 

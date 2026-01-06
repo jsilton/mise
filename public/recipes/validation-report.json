@@ -1,5 +1,5 @@
 {
-  "totalRecipes": 481,
+  "totalRecipes": 488,
   "missingCounts": {
     "title": 0,
     "role": 6,
@@ -9,10 +9,10 @@
     "cookTime": 0,
     "totalTime": 0,
     "servings": 0,
-    "image": 481,
+    "image": 488,
     "chefNote": 0,
     "directions": 0,
-    "directionsFormatting": 211
+    "directionsFormatting": 212
   },
   "invalidValuesCount": {
     "role": 0,
@@ -26,8 +26,7 @@
       "anadama-bread",
       "apple-chai-oatmeal-cups",
       "babys-first-smash-cake",
-      "baked-chicken-and-broccoli",
-      "baked-macaroni-and-pimento-cheese",
+      "baked-creamy-mac-and-pimento-cheese",
       "bakery-style-chocolate-chip-muffins",
       "banana-nut-bread",
       "banana-oat-greek-yogurt-muffins",
@@ -42,7 +41,8 @@
       "blueberry-pancakes",
       "boulevardier",
       "breakfast-carrot-cake",
-      "breakfast-egg-cups"
+      "breakfast-egg-cups",
+      "breakfast-protein-biscuits"
     ],
     "missingImage": [
       "almond-zucchini-bread",
@@ -57,21 +57,21 @@
       "avgolemono-soup",
       "avocado-kale-caesar-salad",
       "babys-first-smash-cake",
-      "baked-chicken-and-broccoli",
       "baked-chicken-parmesan",
       "baked-cod-with-lemon-panko",
-      "baked-macaroni-and-pimento-cheese",
+      "baked-creamy-mac-and-pimento-cheese",
       "bakery-style-chocolate-chip-muffins",
       "balsamic-peach-pork",
       "banana-egg-oat-pancakes",
-      "banana-nut-bread"
+      "banana-nut-bread",
+      "banana-oat-greek-yogurt-muffins"
     ],
     "invalidRoles": [],
     "invalidVibes": [],
     "brokenInternalLinks": [],
     "brokenWikiLinks": []
   },
-  "suggestionsCount": 1585,
+  "suggestionsCount": 1607,
   "sampleSuggestions": [
     {
       "slug": "almond-zucchini-bread",
@@ -279,40 +279,6 @@
       "suggestion": "Consider adding a step to taste and adjust seasoning (salt and acid) before serving."
     },
     {
-      "slug": "baked-chicken-and-broccoli",
-      "ruleId": "architecture-and-practices",
-      "title": "Development Standards & Architecture",
-      "severity": "high"
-    },
-    {
-      "slug": "baked-chicken-and-broccoli",
-      "ruleId": "kb.low-temp-poultry",
-      "title": "Poultry low-temperature safety note",
-      "severity": "warn",
-      "suggestion": "This recipe references low-temperature cooking for poultry. Ensure it includes safe time/temperature notes (e.g., 60°C for 2 hours for pasteurization) or use higher temperatures to guarantee safety."
-    },
-    {
-      "slug": "baked-chicken-and-broccoli",
-      "ruleId": "kb.maillard-note",
-      "title": "Maillard note: dry surface for browning",
-      "severity": "hint",
-      "suggestion": "For better browning, pat proteins dry and avoid overcrowding the pan; use a hot pan and enough fat to reach Maillard temperatures."
-    },
-    {
-      "slug": "baked-chicken-and-broccoli",
-      "ruleId": "kb.missing-resting",
-      "title": "Recommend resting meat after high-heat cooking",
-      "severity": "hint",
-      "suggestion": "After searing/roasting, consider resting the meat for a few minutes (or longer for roasts) so juices redistribute and slices stay juicy."
-    },
-    {
-      "slug": "baked-chicken-and-broccoli",
-      "ruleId": "kb.plating-suggestion",
-      "title": "Plating: add color or height when absent",
-      "severity": "hint",
-      "suggestion": "Consider a bright finishing garnish (herbs, citrus zest, pickles) or a crunchy element to add color and texture."
-    },
-    {
       "slug": "baked-chicken-parmesan",
       "ruleId": "architecture-and-practices",
       "title": "Development Standards & Architecture",
@@ -360,20 +326,20 @@
       "suggestion": "Consider a bright finishing garnish (herbs, citrus zest, pickles) or a crunchy element to add color and texture."
     },
     {
-      "slug": "baked-macaroni-and-pimento-cheese",
+      "slug": "baked-creamy-mac-and-pimento-cheese",
       "ruleId": "architecture-and-practices",
       "title": "Development Standards & Architecture",
       "severity": "high"
     },
     {
-      "slug": "baked-macaroni-and-pimento-cheese",
+      "slug": "baked-creamy-mac-and-pimento-cheese",
       "ruleId": "kb.maillard-note",
       "title": "Maillard note: dry surface for browning",
       "severity": "hint",
       "suggestion": "For better browning, pat proteins dry and avoid overcrowding the pan; use a hot pan and enough fat to reach Maillard temperatures."
     },
     {
-      "slug": "baked-macaroni-and-pimento-cheese",
+      "slug": "baked-creamy-mac-and-pimento-cheese",
       "ruleId": "kb.plating-suggestion",
       "title": "Plating: add color or height when absent",
       "severity": "hint",
@@ -404,6 +370,40 @@
       "ruleId": "architecture-and-practices",
       "title": "Development Standards & Architecture",
       "severity": "high"
+    },
+    {
+      "slug": "balsamic-peach-pork",
+      "ruleId": "kb.maillard-note",
+      "title": "Maillard note: dry surface for browning",
+      "severity": "hint",
+      "suggestion": "For better browning, pat proteins dry and avoid overcrowding the pan; use a hot pan and enough fat to reach Maillard temperatures."
+    },
+    {
+      "slug": "balsamic-peach-pork",
+      "ruleId": "kb.plating-suggestion",
+      "title": "Plating: add color or height when absent",
+      "severity": "hint",
+      "suggestion": "Consider a bright finishing garnish (herbs, citrus zest, pickles) or a crunchy element to add color and texture."
+    },
+    {
+      "slug": "banana-egg-oat-pancakes",
+      "ruleId": "architecture-and-practices",
+      "title": "Development Standards & Architecture",
+      "severity": "high"
+    },
+    {
+      "slug": "banana-egg-oat-pancakes",
+      "ruleId": "kb.maillard-note",
+      "title": "Maillard note: dry surface for browning",
+      "severity": "hint",
+      "suggestion": "For better browning, pat proteins dry and avoid overcrowding the pan; use a hot pan and enough fat to reach Maillard temperatures."
+    },
+    {
+      "slug": "banana-egg-oat-pancakes",
+      "ruleId": "kb.missing-resting",
+      "title": "Recommend resting meat after high-heat cooking",
+      "severity": "hint",
+      "suggestion": "After searing/roasting, consider resting the meat for a few minutes (or longer for roasts) so juices redistribute and slices stay juicy."
     }
   ]
 }

@@ -19,7 +19,6 @@ equipment: [large-skillet]
 pairsWith: [asian-slaw, edamame]
 ingredients:
   - 1 lb Ground Chicken or Turkey
-  - '--- the texture (No Water Chestnuts!) ---'
   - '1 cup Celery, finely diced (The crunch substitute)'
   - '1/2 cup Green Onions, sliced'
   - 1/4 cup Hoisin Sauce

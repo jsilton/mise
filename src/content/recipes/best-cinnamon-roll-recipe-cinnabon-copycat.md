@@ -18,7 +18,6 @@ totalTime: 150 min
 servings: '12'
 pairsWith: []
 ingredients:
-  - '--- The Tangzhong (The Secret) ---'
   - 1/4 cup Bread Flour
   - 3/4 cup Water
   - 3 2/3 cups Bread Flour

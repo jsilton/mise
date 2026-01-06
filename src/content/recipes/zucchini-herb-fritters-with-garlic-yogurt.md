@@ -22,7 +22,6 @@ ingredients:
   - 3 tbsp Fresh Parsley + 2 tbsp Fresh Mint
   - '1 clove Garlic, grated'
   - 1/2 tsp Ground Cumin
-  - '--- The Garlic Yogurt (Acid Balance) ---'
   - 1/2 cup Plain Yogurt
   - 1 tbsp Fresh Lemon Juice
   - '1 tbsp Fresh Mint, chopped'

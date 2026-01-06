@@ -30,11 +30,11 @@ Bibimbap has roots in Korean royal court cuisine but became a peasant dish in th
 
 This dish relies on having several prepared sides ("Banchan") ready to assemble. Use these recipes or store-bought alternatives:
 
-*   **The Meat:** [Korean Marinated Ribeye](/mise/recipes/marinated-korean-ribeye) (Bulgogi)
-*   **The Crunch:** [Korean Pickled Cucumbers](/mise/recipes/korean-pickled-cucumbers) (Oi Muchim)
-*   **The Green:** [Seasoned Spinach](/mise/recipes/simply-seasoned-korean-spinach-salad) (Sigeumchi Namul)
-*   **The Sprout:** [Seasoned Bean Sprouts](/mise/recipes/seasoned-bean-sprouts) (Kongnamul)
-*   **The Rice:** [Short Grain Rice](/mise/recipes/steamed-white-rice) (must be hot!)
+- **The Meat:** [Korean Marinated Ribeye](/mise/recipes/marinated-korean-ribeye) (Bulgogi)
+- **The Crunch:** [Korean Pickled Cucumbers](/mise/recipes/korean-pickled-cucumbers) (Oi Muchim)
+- **The Green:** [Seasoned Spinach](/mise/recipes/simply-seasoned-korean-spinach-salad) (Sigeumchi Namul)
+- **The Sprout:** [Seasoned Bean Sprouts](/mise/recipes/seasoned-bean-sprouts) (Kongnamul)
+- **The Rice:** [Short Grain Rice](/mise/recipes/steamed-white-rice) (must be hot!)
 
 ## Directions
 
