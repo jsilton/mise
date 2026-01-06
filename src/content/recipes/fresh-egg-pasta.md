@@ -17,7 +17,7 @@ prepTime: 20 min
 cookTime: 3 min
 totalTime: 90 min
 servings: '4'
-pairsWith: [any-pasta-sauce]
+pairsWith: [pressure-cooker-bolognase, cauliflower-alfredo-sauce]
 ingredients:
   - '2 1/4 cups (290g) All-Purpose or "00" Flour'
   - '2 large Whole Eggs'

@@ -16,7 +16,7 @@ seasons: [year-round]
 nutritionalDensity: hearty
 leftovers: excellent
 equipment: [wok]
-pairsWith: [smashed-cucumber-salad, egg-roll]
+pairsWith: [smashed-cucumber-salad, steamed-broccoli]
 ingredients:
   - '1 lb Chicken Breast, thinly sliced'
   - 4 cups Cooked Egg Noodles (Al dente)

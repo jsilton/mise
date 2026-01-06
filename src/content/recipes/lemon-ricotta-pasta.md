@@ -18,7 +18,7 @@ seasons: [spring, summer, year-round]
 nutritionalDensity: moderate
 leftovers: good
 equipment: []
-pairsWith: [arugula-salad, grilled-vegetables]
+pairsWith: [everyday-arugula-salad, roasted-root-vegetables]
 ingredients:
   - '1 lb Bucatini or Spaghetti'
   - '1 cup Fresh Ricotta Cheese'

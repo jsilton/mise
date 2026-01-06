@@ -13,7 +13,7 @@ vibe: quick
 season: [spring, summer, fall, winter]
 leftovers: poor
 healthiness: light
-pairsWith: [curry, biryani, indian-food]
+pairsWith: [coconut-chicken-curry, homemade-naan]
 prepTime: 10 min
 cookTime: 0 min
 totalTime: 10 min

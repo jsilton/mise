@@ -16,7 +16,7 @@ seasons: [year-round]
 nutritionalDensity: light
 leftovers: good
 equipment: [large-skillet]
-pairsWith: [basmati-rice, steamed-rice]
+pairsWith: [basmati-rice, basmati-rice]
 ingredients:
   - 1 lb Ground Pork (or Ground Turkey)
   - 1 bag (14 oz) Coleslaw Mix (shredded cabbage and carrots)

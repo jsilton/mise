@@ -16,7 +16,7 @@ seasons: [year-round]
 nutritionalDensity: hearty
 leftovers: good
 equipment: []
-pairsWith: [caesar-salad, garlic-bread]
+pairsWith: [avocado-kale-caesar-salad, garlic-bread]
 ingredients:
   - 1 lb Fettuccine Pasta
   - '1 lb Jumbo Shrimp, peeled and deveined'

@@ -15,7 +15,7 @@ leftovers: 'poor'
 equipment: ['mixing-glass', 'strainer']
 cookingMethods: ['no-cook']
 advancePrep: []
-pairsWith: ['steak', 'charcuterie-board', 'pasta']
+pairsWith: [marinated-korean-ribeye, fresh-egg-pasta]
 ingredients:
   - 1.5 oz bourbon or rye whiskey
   - 1 oz Campari

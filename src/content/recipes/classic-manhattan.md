@@ -15,7 +15,7 @@ leftovers: 'poor'
 equipment: ['mixing-glass', 'strainer']
 cookingMethods: ['no-cook']
 advancePrep: []
-pairsWith: ['steak', 'charcuterie-board', 'aged-cheese']
+pairsWith: [marinated-korean-ribeye]
 ingredients:
   - 2 oz rye whiskey (or bourbon for a sweeter Manhattan)
   - 1 oz sweet vermouth

@@ -16,7 +16,7 @@ seasons: [spring, summer, year-round]
 nutritionalDensity: moderate
 leftovers: good
 equipment: []
-pairsWith: [grilled-chicken, roasted-vegetables]
+pairsWith: [vietnamese-grilled-chicken, roasted-root-vegetables]
 ingredients:
   - 12 oz Fresh Strozzapreti (or Cavatappi)
   - 1 stick (8 tbsp) Unsalted Butter

@@ -11,7 +11,7 @@ vibe: nutritious
 season: [fall, winter]
 leftovers: poor
 healthiness: light
-pairsWith: [roasted-chicken, pork, turkey]
+pairsWith: [buttermilk-baked-chicken, rosemary-pork-tenderloin]
 prepTime: 15 min
 cookTime: 0 min
 totalTime: 25 min

@@ -16,7 +16,7 @@ seasons: [summer, fall, year-round]
 nutritionalDensity: moderate
 leftovers: excellent
 equipment: [wok]
-pairsWith: [basmati-rice, general-tsos-chicken]
+pairsWith: [basmati-rice, slow-cooker-general-tsos-chicken]
 ingredients:
   - 1 lb Chinese or Japanese Eggplants (2-3 eggplants)
   - 4 oz Ground Pork (optional)

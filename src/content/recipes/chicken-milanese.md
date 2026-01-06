@@ -18,7 +18,7 @@ seasons: [spring, summer, year-round]
 nutritionalDensity: moderate
 leftovers: poor
 equipment: [large-skillet]
-pairsWith: [arugula-salad, roasted-vegetables, lemon-potatoes]
+pairsWith: [everyday-arugula-salad, roasted-root-vegetables, perfect-mashed-potatoes]
 ingredients:
   - '2 large Chicken Breasts, halved horizontally and pounded thin'
   - 1/2 cup All-Purpose Flour

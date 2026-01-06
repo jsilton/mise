@@ -16,7 +16,7 @@ prepTime: 15 min
 cookTime: 0 min
 totalTime: 15 min
 servings: '4'
-pairsWith: [grilled-chicken, salmon, steak]
+pairsWith: [vietnamese-grilled-chicken, miso-salmon-with-bok-choy, marinated-korean-ribeye]
 ingredients:
   - '1 bunch Lacinato (Dino) Kale, stems removed and finely shredded'
   - '1 large Avocado (Half for dressing, half for topping)'

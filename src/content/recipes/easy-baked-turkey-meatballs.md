@@ -17,7 +17,7 @@ prepTime: 15 min
 cookTime: 30 min
 totalTime: 45 min
 servings: '12'
-pairsWith: [pasta, spaghetti, marinara-sauce]
+pairsWith: [fresh-egg-pasta, garlic-bread]
 ingredients:
   - '2 lbs Ground Turkey (93/7 fat ratio preferred)'
   - '1/2 cup Unseasoned Breadcrumbs'

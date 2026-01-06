@@ -16,7 +16,7 @@ seasons: [year-round]
 nutritionalDensity: light
 leftovers: poor
 equipment: []
-pairsWith: [stir-fry, fried-rice, noodles]
+pairsWith: [mongolian-beef, chinese-sausage-fried-rice, pad-thai]
 ingredients:
   - '1 lb Baby Bok Choy, halved lengthwise'
   - '2 tbsp Oyster Sauce'

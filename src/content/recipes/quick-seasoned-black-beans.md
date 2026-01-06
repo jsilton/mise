@@ -11,7 +11,7 @@ vibe: quick
 season: [spring, summer, fall, winter]
 leftovers: excellent
 healthiness: moderate
-pairsWith: [tacos, enchiladas, rice, grilled-chicken]
+pairsWith: [tacos, basmati-rice, vietnamese-grilled-chicken]
 prepTime: 2 min
 cookTime: 10 min
 totalTime: 12 min

@@ -16,7 +16,7 @@ seasons: [spring, summer, year-round]
 nutritionalDensity: light
 leftovers: poor
 equipment: []
-pairsWith: [lo-mein, dumplings, stir-fry]
+pairsWith: [doc-cheys-chinese-lomein, har-gow-dim-sum-shrimp-dumplings, mongolian-beef]
 ingredients:
   - '2 English cucumbers (or 6 Persian cucumbers)'
   - '1 teaspoon kosher salt'

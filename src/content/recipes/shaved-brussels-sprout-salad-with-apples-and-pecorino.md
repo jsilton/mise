@@ -16,7 +16,7 @@ seasons: [fall, winter, year-round]
 nutritionalDensity: light
 leftovers: poor
 equipment: []
-pairsWith: [roasted-chicken, pork-tenderloin]
+pairsWith: [buttermilk-baked-chicken, rosemary-pork-tenderloin]
 ingredients:
   - '1 lb Brussels Sprouts, shaved paper-thin'
   - '1 Granny Smith Apple, matchsticked'

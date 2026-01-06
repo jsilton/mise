@@ -8,7 +8,7 @@ seasons: [spring, summer]
 nutritionalDensity: light
 leftovers: good
 equipment: [blender]
-pairsWith: [arugula-and-feta-salad-with-strawberry-vinaigrette]
+pairsWith: [arugula-feta-salad]
 flavorProfile: [sweet, acidic]
 cuisines: [American]
 role: base

@@ -17,7 +17,7 @@ seasons: [year-round]
 nutritionalDensity: moderate
 leftovers: excellent
 equipment: [cast-iron-skillet]
-pairsWith: [side-salad, crusty-bread]
+pairsWith: [everyday-arugula-salad, garlic-bread]
 ingredients:
   - 12 large Eggs
   - 3 tbsp Heavy Cream or Crème Fraîche (for richness)

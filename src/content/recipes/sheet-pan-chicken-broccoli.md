@@ -16,7 +16,7 @@ prepTime: 15 min
 cookTime: 30 min
 totalTime: 45 min
 servings: '4'
-pairsWith: [rice, mashed-potatoes]
+pairsWith: [basmati-rice, perfect-mashed-potatoes]
 ingredients:
   - '1.5 lbs Chicken Thighs, boneless/skinless'
   - 1 lb Fresh Broccoli Florets (cut small)

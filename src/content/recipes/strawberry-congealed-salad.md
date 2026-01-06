@@ -11,7 +11,7 @@ vibe: nutritious
 season: [spring, summer]
 leftovers: excellent
 healthiness: moderate
-pairsWith: [ham, turkey, fried-chicken]
+pairsWith: [simple-roast-turkey, buttermilk-baked-chicken]
 prepTime: 15 min
 cookTime: 0 min
 totalTime: 240 min

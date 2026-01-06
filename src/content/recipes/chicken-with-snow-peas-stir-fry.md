@@ -16,7 +16,7 @@ seasons: [spring, summer, year-round]
 nutritionalDensity: light
 leftovers: good
 equipment: [wok]
-pairsWith: [basmati-rice, egg-fried-rice]
+pairsWith: [basmati-rice, chinese-sausage-fried-rice]
 ingredients:
   - '12 oz Chicken Breasts, sliced into thin strips'
   - 1 tsp Cornstarch

@@ -16,7 +16,7 @@ seasons: [year-round]
 nutritionalDensity: moderate
 leftovers: good
 equipment: []
-pairsWith: [basmati-rice, edamame, avocado]
+pairsWith: [basmati-rice, smashed-cucumber-salad]
 ingredients:
   - '1.5 lbs Salmon Fillets, cut into 1-inch cubes'
   - 3 tbsp Soy Sauce

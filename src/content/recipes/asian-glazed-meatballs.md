@@ -17,14 +17,7 @@ nutritionalDensity: hearty
 leftovers: excellent
 equipment: []
 advancePrep: [make-ahead-sauce]
-pairsWith:
-  [
-    coconut-jasmine-rice,
-    basmati-rice,
-    steamed-broccoli,
-    stir-fried-vegetables,
-    garlic-sesame-spinach,
-  ]
+pairsWith: [basmati-rice, steamed-broccoli, garlic-sesame-spinach]
 ingredients:
   - 'For the Meatballs:'
   - 1.5 lbs Ground Beef (80/20 blend) or Ground Turkey (93% lean)

@@ -17,7 +17,7 @@ prepTime: 15 min
 cookTime: 5 min
 totalTime: 20 min
 servings: '4'
-pairsWith: [garlic-bread, caesar-salad]
+pairsWith: [garlic-bread, avocado-kale-caesar-salad]
 ingredients:
   - '10 oz Frozen Spinach, defrosted'
   - '1 1/2 cups Whole-Milk Ricotta'

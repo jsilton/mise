@@ -17,7 +17,7 @@ nutritionalDensity: moderate
 leftovers: excellent
 advancePrep: [make-ahead, freeze-ahead]
 equipment: [sheet-pan]
-pairsWith: [garlic-bread, caesar-salad]
+pairsWith: [garlic-bread, avocado-kale-caesar-salad]
 ingredients:
   - '3 lbs Extra-firm Tofu, pressed bone-dry'
   - '3/4 cup Walnuts, ground'

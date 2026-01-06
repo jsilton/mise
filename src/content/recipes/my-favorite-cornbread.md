@@ -11,7 +11,7 @@ vibe: quick
 season: [spring, summer, fall, winter]
 leftovers: good
 healthiness: moderate
-pairsWith: [chili, bbq, ribs, pulled-pork]
+pairsWith: [best-slow-cooker-pulled-pork]
 prepTime: 10 min
 cookTime: 20 min
 totalTime: 30 min

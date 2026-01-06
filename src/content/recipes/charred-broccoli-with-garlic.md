@@ -11,7 +11,7 @@ vibe: quick
 season: [fall, winter, spring]
 leftovers: poor
 healthiness: light
-pairsWith: [chicken, beef, pork, fish]
+pairsWith: [buttermilk-baked-chicken, mongolian-beef]
 prepTime: 5 min
 cookTime: 10 min
 totalTime: 15 min

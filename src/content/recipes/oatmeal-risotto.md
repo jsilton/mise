@@ -17,7 +17,7 @@ nutritionalDensity: hearty
 leftovers: good
 advancePrep: [make-ahead]
 equipment: []
-pairsWith: [roasted-vegetables, side-salad]
+pairsWith: [roasted-root-vegetables, everyday-arugula-salad]
 ingredients:
   - 1 cup Steel-cut Oats
   - 3 cups Chicken Broth or Filtered Water

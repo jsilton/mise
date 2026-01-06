@@ -17,7 +17,7 @@ seasons: [year-round]
 nutritionalDensity: light
 leftovers: poor
 equipment: [bamboo-steamer]
-pairsWith: [basmati-rice, stir-fried-vegetables, garlic-sesame-spinach]
+pairsWith: [basmati-rice, steamed-broccoli, garlic-sesame-spinach]
 ingredients:
   - '1 lb Whole Fish or Fillet (Tilapia, Flounder, or Sole)'
   - '3 tbsp Fresh Ginger, julienned'

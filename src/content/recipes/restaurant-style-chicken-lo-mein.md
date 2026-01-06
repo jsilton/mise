@@ -16,7 +16,7 @@ seasons: [year-round]
 nutritionalDensity: hearty
 leftovers: excellent
 equipment: [wok]
-pairsWith: [smashed-cucumber-salad, spring-rolls]
+pairsWith: [smashed-cucumber-salad, steamed-broccoli]
 ingredients:
   - 1 lb Fresh Lo Mein Egg Noodles
   - '8 oz Chicken Thighs, cut into thin strips'

@@ -16,7 +16,7 @@ seasons: [spring, summer, year-round]
 nutritionalDensity: light
 leftovers: good
 equipment: [wok]
-pairsWith: [basmati-rice, egg-fried-rice]
+pairsWith: [basmati-rice, chinese-sausage-fried-rice]
 ingredients:
   - '1 lb Jumbo Shrimp, peeled and deveined'
   - 1/4 tsp Baking Soda (The secret to the "snap")

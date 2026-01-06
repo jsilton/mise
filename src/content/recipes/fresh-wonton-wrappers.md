@@ -17,7 +17,7 @@ nutritionalDensity: moderate
 leftovers: excellent
 advancePrep: [make-ahead, freeze-ahead]
 equipment: [pasta-roller]
-pairsWith: [wontons, dumplings]
+pairsWith: [cantonese-shrimp-and-pork-wontons, har-gow-dim-sum-shrimp-dumplings]
 ingredients:
   - '2 cups All-Purpose Flour'
   - '1/2 tsp Kosher Salt'

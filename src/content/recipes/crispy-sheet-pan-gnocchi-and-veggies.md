@@ -16,7 +16,7 @@ seasons: [year-round, fall, winter]
 nutritionalDensity: hearty
 leftovers: excellent
 equipment: [sheet-pan]
-pairsWith: [side-salad, garlic-bread]
+pairsWith: [everyday-arugula-salad, garlic-bread]
 ingredients:
   - 1 lb Fresh or Shelf-stable Potato Gnocchi
   - '12 oz Mini Bell Peppers, cut into 1-inch chunks'

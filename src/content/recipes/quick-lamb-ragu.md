@@ -17,7 +17,7 @@ seasons: [fall, winter, year-round]
 nutritionalDensity: hearty
 leftovers: excellent
 equipment: []
-pairsWith: [garlic-bread, side-salad, red-wine]
+pairsWith: [garlic-bread, everyday-arugula-salad]
 ingredients:
   - 1 lb Ground Lamb
   - 12 oz Dry Pasta (Penne or Shells)

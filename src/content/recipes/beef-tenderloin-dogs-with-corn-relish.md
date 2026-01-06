@@ -16,7 +16,7 @@ prepTime: 20 min
 cookTime: 15 min
 totalTime: 35 min
 servings: '4'
-pairsWith: [potato-salad, coleslaw]
+pairsWith: [perfect-mashed-potatoes, everyday-arugula-salad]
 ingredients:
   - '1 lb Center-cut Beef Tenderloin, cut into 4 long "dogs"'
   - 1 tbsp Olive Oil

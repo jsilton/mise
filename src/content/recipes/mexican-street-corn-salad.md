@@ -12,7 +12,7 @@ vibe: quick
 season: [summer]
 leftovers: good
 healthiness: moderate
-pairsWith: [grilled-chicken, steak, fish, tacos]
+pairsWith: [vietnamese-grilled-chicken, marinated-korean-ribeye, tacos]
 prepTime: 10 min
 cookTime: 10 min
 totalTime: 20 min

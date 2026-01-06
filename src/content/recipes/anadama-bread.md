@@ -19,7 +19,7 @@ prepTime: 30 min
 cookTime: 30 min
 totalTime: 3 hours
 servings: '1 loaf'
-pairsWith: [soup, stew]
+pairsWith: [tomato-soup, classic-beef-stew]
 ingredients:
   - '1/2 cup Water'
   - '1/4 cup Yellow Cornmeal'

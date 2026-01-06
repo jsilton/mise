@@ -17,7 +17,7 @@ nutritionalDensity: moderate
 leftovers: excellent
 advancePrep: [make-ahead, freeze-ahead]
 equipment: [pasta-roller]
-pairsWith: [any-pasta-sauce]
+pairsWith: [pressure-cooker-bolognase, cauliflower-alfredo-sauce]
 ingredients:
   - 2 cups All-Purpose or "00" Flour
   - '3 large Eggs, lightly beaten'

@@ -16,7 +16,7 @@ seasons: [year-round]
 nutritionalDensity: moderate
 leftovers: good
 equipment: []
-pairsWith: [grilled-chicken, roasted-salmon]
+pairsWith: [vietnamese-grilled-chicken, garlic-butter-roasted-salmon-with-potatoes-and-asparagus]
 ingredients:
   - 8 oz Whole-wheat Spaghetti
   - 5 oz Fresh Baby Spinach

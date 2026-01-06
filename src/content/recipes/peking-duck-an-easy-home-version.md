@@ -17,7 +17,7 @@ nutritionalDensity: hearty
 leftovers: good
 advancePrep: [marinate-overnight]
 equipment: []
-pairsWith: [steamed-buns, hoisin-sauce, cucumber]
+pairsWith: [smashed-cucumber-salad, basmati-rice]
 ingredients:
   - 1 Whole Duck (5.5 lbs)
   - 2 tbsp Maltose (or Honey)

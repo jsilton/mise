@@ -16,7 +16,7 @@ seasons: [year-round]
 nutritionalDensity: moderate
 leftovers: poor
 equipment: []
-pairsWith: [pasta, soup, salad]
+pairsWith: [fresh-egg-pasta, tomato-soup, everyday-arugula-salad]
 ingredients:
   - '1 large Baguette or Loaf of Italian Bread'
   - '1 stick (8 tbsp) Unsalted Butter, softened'

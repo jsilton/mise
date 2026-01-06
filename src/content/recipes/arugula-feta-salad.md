@@ -11,7 +11,7 @@ vibe: nutritious
 season: [spring, summer]
 leftovers: poor
 healthiness: light
-pairsWith: [grilled-chicken, salmon, steak]
+pairsWith: [vietnamese-grilled-chicken, miso-salmon-with-bok-choy, marinated-korean-ribeye]
 prepTime: 10 min
 cookTime: 0 min
 totalTime: 10 min

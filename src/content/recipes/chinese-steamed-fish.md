@@ -17,7 +17,7 @@ seasons: [year-round]
 nutritionalDensity: light
 leftovers: poor
 equipment: [bamboo-steamer]
-pairsWith: [basmati-rice, garlic-sesame-spinach, stir-fried-greens]
+pairsWith: [basmati-rice, garlic-sesame-spinach, steamed-bok-choy-with-oyster-sauce]
 ingredients:
   - '1 Whole Fish (Snapper or Sea Bass), 1.5 lbs'
   - '2-inch piece Fresh Ginger, julienned'

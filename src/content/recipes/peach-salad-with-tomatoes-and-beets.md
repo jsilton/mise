@@ -11,7 +11,7 @@ vibe: nutritious
 season: [summer]
 leftovers: good
 healthiness: light
-pairsWith: [grilled-chicken, pork, fish]
+pairsWith: [vietnamese-grilled-chicken, rosemary-pork-tenderloin, baked-cod-with-lemon-panko]
 prepTime: 25 min
 cookTime: 60 min
 totalTime: 85 min

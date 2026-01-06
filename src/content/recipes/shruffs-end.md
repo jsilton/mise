@@ -15,7 +15,7 @@ leftovers: 'poor'
 equipment: ['mixing-glass', 'cocktail-shaker', 'strainer']
 cookingMethods: ['no-cook']
 advancePrep: []
-pairsWith: ['charcuterie-board', 'aged-cheese', 'dark-chocolate']
+pairsWith: []
 ingredients:
   - 1 oz Laphroaig 10-Year Islay Single-Malt Scotch
   - 1 oz Laird's 100 Proof Straight Apple Brandy

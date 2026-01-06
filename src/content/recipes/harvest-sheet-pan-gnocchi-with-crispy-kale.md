@@ -16,7 +16,7 @@ prepTime: 15 min
 cookTime: 25 min
 totalTime: 40 min
 servings: '4'
-pairsWith: [garlic-bread, caesar-salad]
+pairsWith: [garlic-bread, avocado-kale-caesar-salad]
 ingredients:
   - 12 oz Frozen Cauliflower Gnocchi
   - '12 oz Apple Chicken Sausage, sliced into rounds'

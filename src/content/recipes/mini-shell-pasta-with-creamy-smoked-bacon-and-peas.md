@@ -16,7 +16,7 @@ seasons: [year-round, spring]
 nutritionalDensity: hearty
 leftovers: excellent
 equipment: []
-pairsWith: [green-salad, crusty-bread]
+pairsWith: [everyday-arugula-salad, garlic-bread]
 ingredients:
   - 1 lb Dried Mini-Shell Pasta
   - '10 slices Smoked Bacon, slivered'

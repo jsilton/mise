@@ -18,7 +18,7 @@ prepTime: 45 min
 cookTime: 40 min
 totalTime: 90 min
 servings: '8'
-pairsWith: [caesar-salad]
+pairsWith: [avocado-kale-caesar-salad]
 ingredients:
   - '1 lb Chicken Breast, poached and cubed'
   - '1 cup Carrots, diced'

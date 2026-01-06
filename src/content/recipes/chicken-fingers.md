@@ -18,7 +18,7 @@ prepTime: 15 min
 cookTime: 10 min
 totalTime: 25 min
 servings: '4'
-pairsWith: [french-fries, coleslaw, mac-and-cheese]
+pairsWith: [everyday-arugula-salad, stovetop-macaroni-and-cheese]
 ingredients:
   - 1 lb Chicken Tenderloins or Breasts cut into strips
   - 1/2 cup All-Purpose Flour

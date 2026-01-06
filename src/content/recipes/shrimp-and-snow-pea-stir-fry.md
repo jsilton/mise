@@ -16,7 +16,7 @@ seasons: [spring, summer, year-round]
 nutritionalDensity: moderate
 leftovers: good
 equipment: [wok]
-pairsWith: [spring-rolls, edamame]
+pairsWith: [smashed-cucumber-salad, steamed-broccoli]
 ingredients:
   - 8 oz Rice Linguine Noodles
   - '8 oz Raw Shrimp, peeled and deveined'

@@ -18,7 +18,7 @@ nutritionalDensity: hearty
 leftovers: excellent
 advancePrep: [make-ahead, freeze-ahead]
 equipment: []
-pairsWith: [sweet-chili-sauce, soy-dipping-sauce]
+pairsWith: [smashed-cucumber-salad]
 ingredients:
   - 1 lb Ground Pork (not too lean)
   - '2 cups Napa Cabbage, finely minced and squeezed dry'

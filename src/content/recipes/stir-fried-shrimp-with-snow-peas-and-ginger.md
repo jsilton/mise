@@ -16,7 +16,7 @@ seasons: [spring, summer, year-round]
 nutritionalDensity: light
 leftovers: good
 equipment: [wok]
-pairsWith: [basmati-rice, egg-fried-rice]
+pairsWith: [basmati-rice, chinese-sausage-fried-rice]
 ingredients:
   - '1 lb Large Shrimp, peeled and deveined'
   - '6 oz Fresh Snow Peas, strings removed'

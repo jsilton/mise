@@ -16,7 +16,7 @@ seasons: [year-round]
 nutritionalDensity: moderate
 leftovers: good
 equipment: [wok]
-pairsWith: [basmati-rice, lo-mein]
+pairsWith: [basmati-rice, doc-cheys-chinese-lomein]
 ingredients:
   - 12 oz Shrimp (21/25 size)
   - 4 oz Ground Pork

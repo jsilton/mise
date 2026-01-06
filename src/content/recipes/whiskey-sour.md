@@ -15,7 +15,7 @@ leftovers: 'poor'
 equipment: ['cocktail-shaker', 'strainer']
 cookingMethods: ['no-cook']
 advancePrep: []
-pairsWith: ['fried-chicken', 'bbq', 'grilled-fish']
+pairsWith: []
 ingredients:
   - 2 oz bourbon or rye whiskey
   - 3/4 oz fresh lemon juice

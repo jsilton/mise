@@ -19,7 +19,7 @@ nutritionalDensity: hearty
 leftovers: excellent
 advancePrep: [make-ahead]
 equipment: []
-pairsWith: [green-salad, garlic-bread]
+pairsWith: [everyday-arugula-salad, garlic-bread]
 ingredients:
   - 2 lbs Anelletti Pasta (or small rings/ditalini)
   - 1/2 lb Ground Beef + 1/2 lb Ground Pork

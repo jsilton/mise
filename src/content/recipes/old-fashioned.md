@@ -15,7 +15,7 @@ leftovers: 'poor'
 equipment: ['mixing-glass', 'muddler']
 cookingMethods: ['no-cook']
 advancePrep: []
-pairsWith: ['steak', 'bbq-ribs', 'dark-chocolate']
+pairsWith: []
 ingredients:
   - 2 oz bourbon or rye whiskey
   - 1 sugar cube (or 1/4 oz simple syrup)

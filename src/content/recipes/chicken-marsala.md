@@ -28,7 +28,7 @@ seasons: [year-round, fall, winter]
 nutritionalDensity: moderate
 leftovers: good
 equipment: [large-skillet]
-pairsWith: [mashed-potatoes, pasta, green-beans]
+pairsWith: [perfect-mashed-potatoes, fresh-egg-pasta, green-beans-with-shallots-and-lemon]
 ---
 
 dietary: []

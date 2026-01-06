@@ -16,14 +16,7 @@ seasons: [year-round]
 nutritionalDensity: moderate
 leftovers: excellent
 equipment: []
-pairsWith:
-  [
-    thai-chicken-curry,
-    coconut-curry-shrimp,
-    grilled-fish,
-    sticky-peking-meatballs,
-    stir-fried-vegetables,
-  ]
+pairsWith: [thai-chicken-curry, coconut-curry-shrimp, steamed-broccoli, garlic-sesame-spinach]
 ingredients:
   - 2 cups Jasmine Rice
   - 1 can (13.5 oz) Coconut Milk (full-fat)

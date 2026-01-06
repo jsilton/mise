@@ -16,7 +16,7 @@ prepTime: 10 min
 cookTime: 15 min
 totalTime: 25 min
 servings: '4'
-pairsWith: [pasta, mashed-potatoes, roasted-vegetables]
+pairsWith: [fresh-egg-pasta, perfect-mashed-potatoes, roasted-root-vegetables]
 ingredients:
   - '2 large Chicken Breasts, halved horizontally (cutlets) and pounded thin'
   - 2 tbsp Extra-Virgin Olive Oil

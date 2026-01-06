@@ -16,7 +16,7 @@ seasons: [year-round]
 nutritionalDensity: light
 leftovers: good
 equipment: [large-skillet]
-pairsWith: [basmati-rice, cauliflower-rice]
+pairsWith: [basmati-rice, steamed-broccoli]
 ingredients:
   - '1 lb Large Shrimp (16/20 size), peeled and deveined'
   - 2 cups Fresh Broccoli Florets

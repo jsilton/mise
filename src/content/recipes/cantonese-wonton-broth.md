@@ -17,7 +17,7 @@ nutritionalDensity: light
 leftovers: excellent
 advancePrep: [make-ahead]
 equipment: []
-pairsWith: [wontons, noodles]
+pairsWith: [cantonese-shrimp-and-pork-wontons, pad-thai]
 ingredients:
   - '6 cups High-Quality Chicken Broth'
   - "1 tbsp Dried Shrimp (The traditional source of 'ocean' umami)"

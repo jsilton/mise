@@ -11,7 +11,7 @@ vibe: nutritious
 season: [summer]
 leftovers: good
 healthiness: light
-pairsWith: [grilled-chicken, fish, steak]
+pairsWith: [vietnamese-grilled-chicken, baked-cod-with-lemon-panko, marinated-korean-ribeye]
 prepTime: 10 min
 cookTime: 0 min
 totalTime: 20 min

@@ -16,7 +16,7 @@ seasons: [spring, summer, year-round]
 nutritionalDensity: light
 leftovers: good
 equipment: [large-skillet]
-pairsWith: [asian-slaw, edamame]
+pairsWith: [smashed-cucumber-salad, steamed-broccoli]
 ingredients:
   - 1 lb Ground Chicken or Turkey
   - '1 cup Celery, finely diced (The crunch substitute)'

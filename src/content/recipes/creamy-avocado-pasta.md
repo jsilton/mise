@@ -16,7 +16,7 @@ seasons: [spring, summer, year-round]
 nutritionalDensity: light
 leftovers: poor
 equipment: [blender]
-pairsWith: [grilled-chicken, cherry-tomatoes]
+pairsWith: [vietnamese-grilled-chicken]
 ingredients:
   - 12 oz Dry Spaghetti or Fettuccine
   - 2 ripe Medium Avocados

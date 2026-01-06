@@ -16,7 +16,7 @@ seasons: [spring, summer, year-round]
 nutritionalDensity: moderate
 leftovers: good
 equipment: []
-pairsWith: [arugula-salad, grilled-chicken]
+pairsWith: [everyday-arugula-salad, vietnamese-grilled-chicken]
 ingredients:
   - 1 lb Fresh or Frozen Potato Gnocchi
   - '1 lb Zucchini (about 3 small), shaved into ribbons'

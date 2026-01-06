@@ -18,9 +18,8 @@ leftovers: good
 equipment: []
 pairsWith:
   [
-    asian-glazed-beef-meatballs,
-    grilled-chicken,
-    roasted-salmon,
+    asian-glazed-meatballs,
+    vietnamese-grilled-chicken,
     garlic-butter-roasted-salmon-with-potatoes-and-asparagus,
   ]
 ingredients:

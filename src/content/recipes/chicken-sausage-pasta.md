@@ -16,7 +16,7 @@ seasons: [year-round]
 nutritionalDensity: hearty
 leftovers: excellent
 equipment: []
-pairsWith: [garlic-bread, side-salad]
+pairsWith: [garlic-bread, everyday-arugula-salad]
 ingredients:
   - 1 lb Linguine or Fettuccine
   - '1 lb Italian Chicken Sausage, sliced'

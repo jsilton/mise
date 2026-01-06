@@ -16,7 +16,7 @@ seasons: [spring, summer, year-round]
 nutritionalDensity: light
 leftovers: good
 equipment: []
-pairsWith: [grilled-chicken, garlic-bread]
+pairsWith: [vietnamese-grilled-chicken, garlic-bread]
 ingredients:
   - 1 lb Dry Spaghetti
   - 5 cups Fresh Broccoli Florets

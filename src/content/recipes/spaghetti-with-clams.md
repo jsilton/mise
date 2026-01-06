@@ -16,7 +16,7 @@ prepTime: 10 min
 cookTime: 15 min
 totalTime: 25 min
 servings: '4'
-pairsWith: [garlic-bread, caesar-salad]
+pairsWith: [garlic-bread, avocado-kale-caesar-salad]
 ingredients:
   - 1 lb Spaghetti
   - '2 lbs Littleneck Clams, scrubbed'

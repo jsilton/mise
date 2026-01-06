@@ -16,7 +16,7 @@ seasons: [spring, summer, year-round]
 nutritionalDensity: moderate
 leftovers: good
 equipment: [large-skillet]
-pairsWith: [caesar-salad, garlic-bread]
+pairsWith: [avocado-kale-caesar-salad, garlic-bread]
 ingredients:
   - 1 lb Penne or Rigatoni (Whole wheat or GF)
   - '1 lb Chicken Breast or Thighs, cut into bite-sized pieces'

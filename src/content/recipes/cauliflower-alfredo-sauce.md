@@ -17,7 +17,7 @@ nutritionalDensity: light
 leftovers: excellent
 advancePrep: [make-ahead]
 equipment: [blender]
-pairsWith: [pasta, chicken, vegetables]
+pairsWith: [fresh-egg-pasta, buttermilk-baked-chicken, roasted-root-vegetables]
 ingredients:
   - 2 cups Cauliflower florets
   - 1 cup Milk of choice (or Chicken Broth for dairy-free)

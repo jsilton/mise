@@ -16,7 +16,7 @@ prepTime: 10 min
 cookTime: 40 min
 totalTime: 50 min
 servings: '6'
-pairsWith: [roasted-chicken, pork-tenderloin, beef-tenderloin]
+pairsWith: [buttermilk-baked-chicken, rosemary-pork-tenderloin]
 ingredients:
   - '2 lbs Yukon Gold Potatoes, cut into 1-inch chunks'
   - 3 tbsp Extra-Virgin Olive Oil

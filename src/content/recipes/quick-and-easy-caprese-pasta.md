@@ -16,7 +16,7 @@ seasons: [summer]
 nutritionalDensity: moderate
 leftovers: good
 equipment: []
-pairsWith: [arugula-salad, grilled-chicken]
+pairsWith: [everyday-arugula-salad, vietnamese-grilled-chicken]
 ingredients:
   - 12 oz Angel Hair Pasta
   - '8 oz Fresh Mozzarella (Bocconcini), halved'

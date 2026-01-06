@@ -17,7 +17,7 @@ seasons: [summer, fall, year-round]
 nutritionalDensity: light
 leftovers: good
 equipment: [wok]
-pairsWith: [basmati-rice, pork-chops, chicken-breast]
+pairsWith: [basmati-rice, easy-pan-seared-chicken-breasts]
 ingredients:
   - '1 lb Chinese Eggplant (the long, thin ones), cut into 2-inch batons'
   - 1/4 cup Cornstarch (for dredging)

@@ -17,7 +17,7 @@ seasons: [year-round, winter, spring]
 nutritionalDensity: moderate
 leftovers: good
 equipment: []
-pairsWith: [greek-salad, crusty-bread, pita]
+pairsWith: [basmati-rice, garlic-bread]
 ingredients:
   - '1 lb Shredded Chicken (Rotisserie or Leftover)'
   - '6 cups High-Quality Chicken Broth'

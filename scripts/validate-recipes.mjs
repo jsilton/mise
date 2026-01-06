@@ -7,6 +7,56 @@ const RECIPES_DIR = path.resolve('src/content/recipes');
 const allowedRoles = new Set(['main', 'side', 'dessert', 'base', 'drink', 'condiment']);
 const allowedVibes = new Set(['nutritious', 'comfort', 'technical', 'holiday', 'quick']);
 
+// Common generic pairsWith terms and their suggested replacements
+const PAIRS_WITH_SUGGESTIONS = {
+  rice: ['basmati-rice', 'steamed-white-rice', 'cilantro-lime-rice'],
+  'mashed-potatoes': ['perfect-mashed-potatoes', 'garlic-mashed-red-potatoes'],
+  salad: ['everyday-arugula-salad', 'arugula-feta-salad'],
+  'green-salad': ['everyday-arugula-salad'],
+  'side-salad': ['everyday-arugula-salad'],
+  'arugula-salad': ['everyday-arugula-salad', 'arugula-feta-salad'],
+  'caesar-salad': ['avocado-kale-caesar-salad'],
+  'bok-choy': ['steamed-bok-choy-with-oyster-sauce'],
+  'lo-mein': ['doc-cheys-chinese-lomein', 'restaurant-style-chicken-lo-mein'],
+  'fried-rice': ['chinese-sausage-fried-rice'],
+  'steamed-rice': ['steamed-white-rice', 'basmati-rice'],
+  'roasted-broccoli': ['charred-broccoli-with-garlic', 'steamed-broccoli'],
+  'roasted-vegetables': ['roasted-root-vegetables'],
+  'grilled-chicken': ['vietnamese-grilled-chicken', 'grilled-chicken-with-herbed-corn-salsa'],
+  chicken: ['buttermilk-baked-chicken', 'easy-pan-seared-chicken-breasts'],
+  beef: ['mongolian-beef', 'classic-beef-stew'],
+  pork: ['rosemary-pork-tenderloin', 'herb-marinated-pork-tenderloins'],
+  salmon: ['miso-salmon-with-bok-choy', 'honey-sriracha-salmon-bowls'],
+  fish: ['baked-cod-with-lemon-panko', 'cantonese-fish'],
+  steak: ['marinated-korean-ribeye'],
+  pasta: ['fresh-egg-pasta'],
+  noodles: ['pad-thai', 'yaki-udon'],
+  curry: ['coconut-chicken-curry', 'thai-chicken-curry'],
+  soup: ['tomato-soup', 'miso-soup'],
+  stew: ['classic-beef-stew', 'chicken-apple-and-butternut-stew'],
+  chili: ['chili', 'white-chicken-chili'],
+  bbq: ['best-slow-cooker-pulled-pork'],
+  ribs: ['honey-glazed-spareribs', 'kalbi-grilled-korean-style-short-ribs'],
+  'pulled-pork': ['best-slow-cooker-pulled-pork', 'instant-pot-pulled-pork'],
+  'cranberry-sauce': ['perfect-cranberry-sauce', 'cranberry-orange-sauce'],
+  'green-beans': ['green-beans-with-shallots-and-lemon'],
+  naan: ['homemade-naan'],
+  wontons: ['cantonese-shrimp-and-pork-wontons'],
+  dumplings: ['boston-style-peking-ravioli', 'har-gow-dim-sum-shrimp-dumplings'],
+  'wonton-soup': ['classic-wonton-soup', 'shrimp-wonton-soup'],
+};
+
+// Values that are ingredients/concepts, not recipes - should be removed
+const INVALID_INGREDIENTS = new Set([
+  'avocado',
+  'cucumber',
+  'cherry-tomatoes',
+  'white-wine',
+  'red-wine',
+  'aged-cheese',
+  'dark-chocolate',
+]);
+
 async function listMdFiles(dir) {
   const entries = await fs.readdir(dir, { withFileTypes: true });
   const files = [];
@@ -56,6 +106,8 @@ function normalizeKey(str) {
     invalidValues: { role: [], vibe: [] },
     brokenInternalLinks: [],
     brokenWikiLinks: [],
+    // pairsWith validation
+    invalidPairsWith: [], // {slug, value, type: 'generic'|'ingredient'|'missing', suggestions: []}
     // suggestions: map of slug -> [{ruleId, title, severity, suggestion}]
     suggestions: {},
   };
@@ -296,6 +348,49 @@ function normalizeKey(str) {
       if (!resolved) report.brokenWikiLinks.push({ from: slug, token });
     }
 
+    // pairsWith validation - check that all values are valid recipe slugs
+    if (Array.isArray(data.pairsWith) && data.pairsWith.length > 0) {
+      for (const pairsValue of data.pairsWith) {
+        const val = String(pairsValue).replace(/['"]/g, '').trim();
+        if (!val) continue;
+
+        // Check if it's an ingredient that should be removed
+        if (INVALID_INGREDIENTS.has(val)) {
+          report.invalidPairsWith.push({
+            slug,
+            value: val,
+            type: 'ingredient',
+            suggestions: [],
+            fix: `Remove '${val}' - it's an ingredient, not a recipe`,
+          });
+          continue;
+        }
+
+        // Check if it's a known generic term with suggestions
+        if (PAIRS_WITH_SUGGESTIONS[val]) {
+          report.invalidPairsWith.push({
+            slug,
+            value: val,
+            type: 'generic',
+            suggestions: PAIRS_WITH_SUGGESTIONS[val],
+            fix: `Replace '${val}' with: ${PAIRS_WITH_SUGGESTIONS[val].join(' or ')}`,
+          });
+          continue;
+        }
+
+        // Check if it matches an actual recipe slug
+        if (!linkTargetMap.has(val)) {
+          report.invalidPairsWith.push({
+            slug,
+            value: val,
+            type: 'missing',
+            suggestions: [],
+            fix: `'${val}' doesn't match any recipe - create recipe or remove`,
+          });
+        }
+      }
+    }
+
     // KB-based suggestions (non-blocking unless rule is 'fail')
     try {
       const kbSuggestions = runKbChecks(slug, data, content || '');
@@ -330,6 +425,15 @@ function normalizeKey(str) {
       role: report.invalidValues.role.length,
       vibe: report.invalidValues.vibe.length,
     },
+    // pairsWith validation summary
+    pairsWithIssues: {
+      total: report.invalidPairsWith.length,
+      byType: {
+        generic: report.invalidPairsWith.filter((p) => p.type === 'generic').length,
+        ingredient: report.invalidPairsWith.filter((p) => p.type === 'ingredient').length,
+        missing: report.invalidPairsWith.filter((p) => p.type === 'missing').length,
+      },
+    },
     samples: {
       missingTitle: sample(report.missing.title),
       missingChefNote: sample(report.missing.chefNote),
@@ -340,6 +444,7 @@ function normalizeKey(str) {
       invalidVibes: sample(report.invalidValues.vibe),
       brokenInternalLinks: sample(report.brokenInternalLinks, 50),
       brokenWikiLinks: sample(report.brokenWikiLinks || [], 50),
+      invalidPairsWith: sample(report.invalidPairsWith, 50),
     },
   };
 
@@ -482,6 +587,25 @@ function normalizeKey(str) {
     console.warn(
       `Warning: ${output.missingCounts.image} recipes missing an 'image' frontmatter. This is recommended for social sharing, but not critical.`
     );
+  }
+
+  // pairsWith issues warning (non-blocking but actionable)
+  if (output.pairsWithIssues.total > 0) {
+    console.warn('\n' + '='.repeat(70));
+    console.warn(`⚠️  PAIRS_WITH CLEANUP NEEDED: ${output.pairsWithIssues.total} issues found`);
+    console.warn('='.repeat(70));
+    console.warn(
+      `   Generic terms (need specific recipe): ${output.pairsWithIssues.byType.generic}`
+    );
+    console.warn(
+      `   Ingredients (should be removed):      ${output.pairsWithIssues.byType.ingredient}`
+    );
+    console.warn(
+      `   Missing recipes (create or remove):   ${output.pairsWithIssues.byType.missing}`
+    );
+    console.warn('\nFix these before building meals. Run validation to see full list.');
+    console.warn('Details in: public/recipes/validation-report.json → samples.invalidPairsWith');
+    console.warn('='.repeat(70) + '\n');
   }
 
   process.exit(issuesFound ? 2 : 0);

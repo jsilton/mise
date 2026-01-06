@@ -17,7 +17,7 @@ seasons: [year-round, winter]
 nutritionalDensity: moderate
 leftovers: good
 equipment: []
-pairsWith: [spring-rolls, smashed-cucumber-salad]
+pairsWith: [smashed-cucumber-salad, steamed-broccoli]
 ingredients:
   - 20 Mini Frozen Wontons (Trader Joe’s or H-Mart)
   - 6 cups Low-sodium Chicken Broth

@@ -16,7 +16,7 @@ seasons: [summer, fall, year-round]
 nutritionalDensity: light
 leftovers: good
 equipment: [wok]
-pairsWith: [basmati-rice, general-tsos-chicken, mongolian-beef]
+pairsWith: [basmati-rice, slow-cooker-general-tsos-chicken, mongolian-beef]
 ingredients:
   - '3 Chinese Eggplants, cut into 2-inch sticks'
   - '4 cloves Garlic, minced'

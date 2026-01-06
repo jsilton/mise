@@ -16,7 +16,7 @@ prepTime: 15 min
 cookTime: 10 min
 totalTime: 25 min
 servings: '4'
-pairsWith: [garlic-bread, caesar-salad]
+pairsWith: [garlic-bread, avocado-kale-caesar-salad]
 ingredients:
   - 1 lb Dried Linguini
   - '1 lb Large Shrimp, peeled and deveined'

@@ -16,7 +16,7 @@ seasons: [spring, summer]
 nutritionalDensity: light
 leftovers: poor
 equipment: [sheet-pan]
-pairsWith: [grilled-chicken, salmon, steak, lamb]
+pairsWith: [vietnamese-grilled-chicken, miso-salmon-with-bok-choy, marinated-korean-ribeye]
 ingredients:
   - '1 bunch Fresh Asparagus, woody ends trimmed'
   - '1 tbsp Extra-Virgin Olive Oil'

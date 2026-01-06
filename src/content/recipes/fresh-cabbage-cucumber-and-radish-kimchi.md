@@ -11,7 +11,7 @@ vibe: technical
 season: [spring, summer, fall, winter]
 leftovers: excellent
 healthiness: light
-pairsWith: [bibimbap, korean-bbq, rice-bowls, tacos]
+pairsWith: [bibimbap, kalbi-grilled-korean-style-short-ribs, basmati-rice, tacos]
 prepTime: 30 min
 cookTime: 345 min
 totalTime: 375 min

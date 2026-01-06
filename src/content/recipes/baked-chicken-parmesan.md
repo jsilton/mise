@@ -16,7 +16,7 @@ seasons: [year-round]
 nutritionalDensity: hearty
 leftovers: excellent
 equipment: [sheet-pan]
-pairsWith: [spaghetti, garlic-bread, caesar-salad]
+pairsWith: [garlic-bread, avocado-kale-caesar-salad]
 ingredients:
   - '1.5 lbs Chicken Breasts, halved horizontally and pounded thin'
   - 1 cup Panko Breadcrumbs (for maximum crunch)

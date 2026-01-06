@@ -11,7 +11,7 @@ vibe: quick
 season: [spring, summer, fall, winter]
 leftovers: poor
 healthiness: light
-pairsWith: [grilled-chicken, salmon, steak, pork]
+pairsWith: [vietnamese-grilled-chicken, miso-salmon-with-bok-choy]
 prepTime: 5 min
 cookTime: 0 min
 totalTime: 5 min

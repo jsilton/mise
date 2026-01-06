@@ -17,7 +17,7 @@ nutritionalDensity: moderate
 leftovers: good
 advancePrep: [make-ahead-crust]
 equipment: []
-pairsWith: [arugula-salad, white-wine]
+pairsWith: [everyday-arugula-salad]
 ingredients:
   - 1 1/2 cups All-Purpose Flour
   - '3/4 cup Cold Butter, cubed'

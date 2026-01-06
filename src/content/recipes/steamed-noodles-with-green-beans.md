@@ -16,7 +16,7 @@ seasons: [summer, fall, year-round]
 nutritionalDensity: hearty
 leftovers: excellent
 equipment: [wok]
-pairsWith: [stir-fry, braised-meat]
+pairsWith: [mongolian-beef, slow-cooker-korean-beef]
 ingredients:
   - 1 lb Fresh White Wheat Noodles
   - '8 oz Pork Belly or Chicken Thighs, sliced'

@@ -16,7 +16,7 @@ seasons: [year-round]
 nutritionalDensity: hearty
 leftovers: good
 equipment: [wok]
-pairsWith: [bok-choy, spring-rolls]
+pairsWith: [steamed-bok-choy-with-oyster-sauce, smashed-cucumber-salad]
 ingredients:
   - '1 lb Large Shrimp, peeled and deveined'
   - 1/4 tsp Baking Soda (the crunch rinse)

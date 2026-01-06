@@ -17,7 +17,7 @@ seasons: [year-round]
 nutritionalDensity: hearty
 leftovers: excellent
 equipment: [wok]
-pairsWith: [smashed-cucumber-salad, spring-rolls]
+pairsWith: [smashed-cucumber-salad, steamed-broccoli]
 ingredients:
   - 1 lb Japanese-style Udon or thick Egg Noodles
   - '6 oz Pork Tenderloin, sliced into thin strips'

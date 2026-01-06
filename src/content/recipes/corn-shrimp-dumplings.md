@@ -17,7 +17,7 @@ nutritionalDensity: light
 leftovers: excellent
 advancePrep: [make-ahead, freeze-ahead]
 equipment: [bamboo-steamer]
-pairsWith: [soy-dipping-sauce, chili-oil]
+pairsWith: [smashed-cucumber-salad, steamed-broccoli]
 ingredients:
   - '1/2 lb Shrimp, peeled, deveined, and finely chopped'
   - '1 ear Fresh Corn, kernels cut off the cob'

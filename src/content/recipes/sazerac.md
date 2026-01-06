@@ -15,7 +15,7 @@ leftovers: 'poor'
 equipment: ['mixing-glass', 'strainer']
 cookingMethods: ['no-cook']
 advancePrep: []
-pairsWith: ['oysters', 'cajun-food', 'charcuterie-board']
+pairsWith: []
 ingredients:
   - 2 oz rye whiskey (or Cognac for the original recipe)
   - 1/4 oz simple syrup

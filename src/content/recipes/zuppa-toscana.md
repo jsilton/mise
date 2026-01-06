@@ -16,7 +16,7 @@ seasons: [fall, winter, year-round]
 nutritionalDensity: hearty
 leftovers: excellent
 equipment: []
-pairsWith: [crusty-bread, side-salad]
+pairsWith: [garlic-bread, everyday-arugula-salad]
 ingredients:
   - '1 lb Hot or Sweet Italian Sausage, bulk'
   - '2 lbs Russet Potatoes, 1/2-inch cubes'

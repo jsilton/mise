@@ -18,7 +18,7 @@ nutritionalDensity: hearty
 leftovers: good
 advancePrep: [make-ahead]
 equipment: []
-pairsWith: [fettuccine, chicken, shrimp]
+pairsWith: [shrimp-fettuccine-alfredo, buttermilk-baked-chicken]
 ingredients:
   - '1 stick (8 tbsp) Unsalted Butter'
   - '1 cup Heavy Cream'

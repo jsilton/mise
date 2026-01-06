@@ -17,7 +17,7 @@ nutritionalDensity: hearty
 leftovers: excellent
 advancePrep: [make-ahead]
 equipment: []
-pairsWith: [roasted-turkey, gravy, cranberry-sauce]
+pairsWith: [simple-roast-turkey, perfect-cranberry-sauce]
 ingredients:
   - '3/4 lb Ciabatta Bread, sliced 1/2-inch thick'
   - 1 1/2 cups Whole Milk

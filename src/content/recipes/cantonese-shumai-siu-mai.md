@@ -18,7 +18,7 @@ nutritionalDensity: moderate
 leftovers: excellent
 advancePrep: [make-ahead, freeze-ahead]
 equipment: [bamboo-steamer]
-pairsWith: [soy-sauce-dipping, chili-oil]
+pairsWith: [steamed-broccoli]
 ingredients:
   - 1/2 lb Ground Pork (80/20 fat ratio)
   - '1/2 lb Shrimp, peeled and deveined (finely chopped)'

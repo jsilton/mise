@@ -16,7 +16,7 @@ seasons: [year-round]
 nutritionalDensity: moderate
 leftovers: good
 equipment: [large-skillet]
-pairsWith: [polenta, pasta, crusty-bread]
+pairsWith: [fresh-egg-pasta, garlic-bread]
 ingredients:
   - '2 lbs Chicken Thighs, pounded thin (1/2-inch)'
   - 1/2 cup All-Purpose Flour

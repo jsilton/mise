@@ -12,7 +12,7 @@ vibe: quick
 season: [spring, summer, fall, winter]
 leftovers: good
 healthiness: light
-pairsWith: [bibimbap, korean-bbq, rice-bowls]
+pairsWith: [bibimbap, kalbi-grilled-korean-style-short-ribs, basmati-rice]
 prepTime: 5 min
 cookTime: 2 min
 totalTime: 7 min

@@ -18,7 +18,7 @@ seasons: [year-round, summer]
 nutritionalDensity: hearty
 leftovers: excellent
 equipment: []
-pairsWith: [basmati-rice, coleslaw, corn-on-cob]
+pairsWith: [basmati-rice, smashed-cucumber-salad]
 ingredients:
   - '2 racks Pork Spareribs (4 lbs), cut into 3-rib sections'
   - 1/2 cup Hoisin Sauce

@@ -16,7 +16,7 @@ seasons: [year-round]
 nutritionalDensity: hearty
 leftovers: excellent
 equipment: [wok]
-pairsWith: [egg-drop-soup, spring-rolls]
+pairsWith: [basmati-rice, smashed-cucumber-salad]
 ingredients:
   - '4 cups Cooked Rice (Day-old, cold Jasmine)'
   - '5 Chinese Sausages (Lap Cheong), thinly sliced'

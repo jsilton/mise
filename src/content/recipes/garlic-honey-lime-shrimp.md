@@ -16,7 +16,7 @@ seasons: [year-round]
 nutritionalDensity: light
 leftovers: good
 equipment: [large-skillet]
-pairsWith: [basmati-rice, cauliflower-rice, vegetables]
+pairsWith: [basmati-rice, steamed-broccoli]
 ingredients:
   - '1 lb Jumbo Shrimp, peeled and deveined'
   - '1/4 tsp Baking Soda (The secret to the "snap")'

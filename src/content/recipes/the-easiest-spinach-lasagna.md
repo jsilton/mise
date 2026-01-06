@@ -18,7 +18,7 @@ prepTime: 15 min
 cookTime: 55 min
 totalTime: 70 min
 servings: '6'
-pairsWith: [garlic-bread, caesar-salad]
+pairsWith: [garlic-bread, avocado-kale-caesar-salad]
 ingredients:
   - 15 oz Ricotta Cheese
   - '8 oz Mozzarella Cheese, grated'

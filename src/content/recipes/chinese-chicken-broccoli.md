@@ -16,7 +16,7 @@ seasons: [year-round]
 nutritionalDensity: moderate
 leftovers: excellent
 equipment: [wok]
-pairsWith: [basmati-rice, egg-roll]
+pairsWith: [basmati-rice, smashed-cucumber-salad]
 ingredients:
   - '1 lb Chicken Breast, sliced thin against the grain'
   - 1 tbsp Shaoxing Wine

@@ -17,7 +17,7 @@ seasons: [year-round]
 nutritionalDensity: hearty
 leftovers: poor
 equipment: []
-pairsWith: [caesar-salad, garlic-bread]
+pairsWith: [avocado-kale-caesar-salad, garlic-bread]
 ingredients:
   - '1 lb Spaghetti or Rigatoni'
   - '4 oz Guanciale or Pancetta (thickly diced)'

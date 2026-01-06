@@ -16,7 +16,7 @@ seasons: [spring, summer, year-round]
 nutritionalDensity: light
 leftovers: good
 equipment: []
-pairsWith: [grilled-chicken, soup]
+pairsWith: [vietnamese-grilled-chicken, tomato-soup]
 ingredients:
   - 8 oz Rotini or Cavatappi Pasta
   - 1 1/2 cups Vegan Caesar Dressing

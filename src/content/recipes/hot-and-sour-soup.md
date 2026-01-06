@@ -18,7 +18,7 @@ nutritionalDensity: moderate
 leftovers: excellent
 advancePrep: [make-ahead]
 equipment: []
-pairsWith: [spring-rolls, dumplings]
+pairsWith: [har-gow-dim-sum-shrimp-dumplings, basmati-rice]
 ingredients:
   - >-
     2 quarts [Chinese Chicken

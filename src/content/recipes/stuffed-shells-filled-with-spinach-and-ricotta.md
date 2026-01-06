@@ -17,7 +17,7 @@ nutritionalDensity: hearty
 leftovers: excellent
 advancePrep: [make-ahead]
 equipment: []
-pairsWith: [garlic-bread, caesar-salad, side-salad]
+pairsWith: [garlic-bread, avocado-kale-caesar-salad, everyday-arugula-salad]
 ingredients:
   - 12 oz Jumbo Pasta Shells
   - 1 lb Fresh Baby Spinach

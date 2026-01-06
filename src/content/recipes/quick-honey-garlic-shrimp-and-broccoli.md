@@ -16,7 +16,7 @@ seasons: [year-round]
 nutritionalDensity: light
 leftovers: good
 equipment: [large-skillet]
-pairsWith: [basmati-rice, cauliflower-rice]
+pairsWith: [basmati-rice, steamed-broccoli]
 ingredients:
   - '1 lb Shrimp, peeled and deveined'
   - 1 cup Fresh Broccoli Florets

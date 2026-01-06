@@ -16,7 +16,7 @@ prepTime: 10 min
 cookTime: 12 min
 totalTime: 22 min
 servings: '4'
-pairsWith: [caesar-salad, garlic-bread]
+pairsWith: [avocado-kale-caesar-salad, garlic-bread]
 ingredients:
   - >-
     2 balls [Fresh Pasta Dough](/mise/recipes/fresh-pasta-dough) (or

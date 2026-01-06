@@ -18,7 +18,7 @@ nutritionalDensity: light
 leftovers: excellent
 advancePrep: [make-ahead, freeze-ahead]
 equipment: [bamboo-steamer]
-pairsWith: [soy-dipping-sauce, chili-oil, shumai]
+pairsWith: [smashed-cucumber-salad, cantonese-shumai-siu-mai]
 ingredients:
   - '1/2 lb Raw Shrimp, peeled, deveined, and patted dry'
   - '1/4 cup Bamboo Shoots, finely minced'

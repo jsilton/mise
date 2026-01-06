@@ -16,7 +16,7 @@ seasons: [year-round, fall, winter]
 nutritionalDensity: hearty
 leftovers: excellent
 equipment: []
-pairsWith: [green-salad, garlic-bread]
+pairsWith: [everyday-arugula-salad, garlic-bread]
 ingredients:
   - 1 lb Penne or Rigatoni
   - '1 1/2 lbs Hot Italian Sausage, casings removed'

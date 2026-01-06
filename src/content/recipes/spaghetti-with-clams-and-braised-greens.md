@@ -16,7 +16,7 @@ seasons: [year-round, summer, fall]
 nutritionalDensity: moderate
 leftovers: poor
 equipment: []
-pairsWith: [crusty-bread, white-wine]
+pairsWith: [garlic-bread]
 ingredients:
   - 1/2 lb Spaghetti
   - '4 dozen Littleneck Clams, scrubbed'

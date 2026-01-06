@@ -10,7 +10,7 @@ leftovers: excellent
 equipment: [stand-mixer]
 advancePrep: [make-ahead]
 pairsWith:
-  [bas-best-carrot-cake, breakfast-carrot-cake, funfetti-cake-from-scratch-and-an-unbirthday]
+  [classic-carrot-cake, breakfast-carrot-cake, funfetti-cake-from-scratch-and-an-unbirthday]
 flavorProfile: [sweet, rich]
 cuisines: [American]
 role: condiment

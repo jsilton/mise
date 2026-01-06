@@ -17,7 +17,7 @@ nutritionalDensity: light
 leftovers: excellent
 advancePrep: [make-ahead]
 equipment: []
-pairsWith: [stir-fry, noodles, vegetables]
+pairsWith: [pad-thai, roasted-root-vegetables]
 ingredients:
   - '1/4 cup Soy Sauce'
   - '1 tbsp Dark Soy Sauce (for color)'

@@ -16,7 +16,7 @@ seasons: [fall, winter, year-round]
 nutritionalDensity: moderate
 leftovers: good
 equipment: []
-pairsWith: [arugula-salad, roasted-brussels-sprouts]
+pairsWith: [everyday-arugula-salad, roasted-root-vegetables]
 ingredients:
   - 16 oz Butternut Squash Ravioli (fresh or frozen)
   - 1/2 cup (1 stick) Unsalted Butter

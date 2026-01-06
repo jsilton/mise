@@ -1,8 +1,8 @@
 {
   "folders": [
     {
-      "path": "."
-    }
+      "path": ".",
+    },
   ],
   "settings": {
     "search.exclude": {
@@ -10,14 +10,14 @@
       "**/dist": true,
       "**/.astro": true,
       "**/public/recipes/kitchen-context": true,
-      "**/public/recipes/kitchen-reviews": true
+      "**/public/recipes/kitchen-reviews": true,
     },
     "files.exclude": {
       "**/.git": true,
       "**/.DS_Store": true,
       "**/node_modules": false,
-      "**/.astro": true
-    }
+      "**/.astro": true,
+    },
   },
   "extensions": {
     "recommendations": [
@@ -25,7 +25,7 @@
       "esbenp.prettier-vscode",
       "dbaeumer.vscode-eslint",
       "bradlc.vscode-tailwindcss",
-      "github.copilot"
-    ]
-  }
+      "github.copilot",
+    ],
+  },
 }

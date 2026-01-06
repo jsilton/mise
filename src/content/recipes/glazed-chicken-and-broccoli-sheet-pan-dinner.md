@@ -16,7 +16,7 @@ seasons: [year-round]
 nutritionalDensity: hearty
 leftovers: good
 equipment: [sheet-pan]
-pairsWith: [basmati-rice, side-salad]
+pairsWith: [basmati-rice, everyday-arugula-salad]
 ingredients:
   - '4 Chicken Drumsticks, skin-on'
   - '3/4 lb Fingerling Potatoes, halved'

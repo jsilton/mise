@@ -16,7 +16,7 @@ seasons: [spring, summer, year-round]
 nutritionalDensity: moderate
 leftovers: good
 equipment: []
-pairsWith: [side-salad, garlic-bread]
+pairsWith: [everyday-arugula-salad, garlic-bread]
 ingredients:
   - 1 lb Cheese Tortellini (Refrigerated or frozen)
   - '1 1/2 lbs Fresh Broccoli, cut into bite-sized florets'

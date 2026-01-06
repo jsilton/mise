@@ -16,7 +16,7 @@ prepTime: 10 min
 cookTime: 25 min
 totalTime: 35 min
 servings: '4'
-pairsWith: [roasted-chicken, pork-tenderloin, turkey]
+pairsWith: [buttermilk-baked-chicken, rosemary-pork-tenderloin]
 ingredients:
   - '2 lbs Sweet Potatoes, peeled and cut into 1/3-inch rounds'
   - '2 tbsp Unsalted Butter, melted'

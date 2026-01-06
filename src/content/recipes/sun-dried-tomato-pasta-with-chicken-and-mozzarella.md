@@ -16,7 +16,7 @@ prepTime: 10 min
 cookTime: 20 min
 totalTime: 30 min
 servings: '4'
-pairsWith: [garlic-bread, caesar-salad]
+pairsWith: [garlic-bread, avocado-kale-caesar-salad]
 ingredients:
   - '1 lb Chicken Tenderloins, sliced'
   - 8 oz Penne Pasta

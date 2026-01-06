@@ -16,7 +16,7 @@ seasons: [year-round]
 nutritionalDensity: moderate
 leftovers: good
 equipment: []
-pairsWith: [green-salad, garlic-bread]
+pairsWith: [everyday-arugula-salad, garlic-bread]
 ingredients:
   - 10 oz Thin Spaghetti or Angel Hair
   - '8 oz Shrimp, peeled and deveined'

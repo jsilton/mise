@@ -16,7 +16,7 @@ seasons: [year-round, fall, winter]
 nutritionalDensity: moderate
 leftovers: excellent
 equipment: [large-skillet]
-pairsWith: [crusty-bread, side-salad, polenta]
+pairsWith: [garlic-bread, everyday-arugula-salad]
 ingredients:
   - 1 lb Ground Chicken
   - 1/3 cup Plain Greek Yogurt for richness

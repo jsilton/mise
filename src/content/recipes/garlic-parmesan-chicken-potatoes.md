@@ -16,7 +16,7 @@ seasons: [year-round, fall, winter]
 nutritionalDensity: hearty
 leftovers: excellent
 equipment: [sheet-pan]
-pairsWith: [green-salad, roasted-broccoli, garlic-bread]
+pairsWith: [everyday-arugula-salad, charred-broccoli-with-garlic, garlic-bread]
 ingredients:
   - '6 Bone-in, skin-on Chicken Thighs'
   - '1 lb Baby Dutch Potatoes, quartered'

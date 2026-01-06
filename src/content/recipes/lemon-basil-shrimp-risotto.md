@@ -16,7 +16,7 @@ seasons: [spring, summer, year-round]
 nutritionalDensity: hearty
 leftovers: poor
 equipment: []
-pairsWith: [arugula-salad, roasted-asparagus]
+pairsWith: [everyday-arugula-salad, roasted-asparagus]
 ingredients:
   - '1 1/2 lbs Large Shrimp (U10), peeled and deveined'
   - 2 cups Arborio Rice

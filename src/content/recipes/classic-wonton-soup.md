@@ -17,7 +17,7 @@ nutritionalDensity: moderate
 leftovers: good
 advancePrep: [make-ahead, freeze-ahead]
 equipment: []
-pairsWith: [steamed-bok-choy, chinese-broccoli]
+pairsWith: [steamed-bok-choy-with-oyster-sauce, steamed-broccoli]
 ingredients:
   - 300g Ground Pork
   - '1 tsp Ginger, minced'

@@ -16,7 +16,7 @@ prepTime: 20 min
 cookTime: 10 min
 totalTime: 30 min
 servings: '4'
-pairsWith: [garlic-bread, caesar-salad]
+pairsWith: [garlic-bread, avocado-kale-caesar-salad]
 ingredients:
   - 1 lb Rigatoni Pasta
   - '1 lb Shrimp, peeled and deveined'

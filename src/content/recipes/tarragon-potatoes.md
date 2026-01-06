@@ -11,7 +11,7 @@ vibe: nutritious
 season: [spring, summer, fall, winter]
 leftovers: good
 healthiness: moderate
-pairsWith: [roasted-chicken, fish, pork, lamb]
+pairsWith: [buttermilk-baked-chicken, baked-cod-with-lemon-panko, rosemary-pork-tenderloin]
 prepTime: 10 min
 cookTime: 45 min
 totalTime: 55 min

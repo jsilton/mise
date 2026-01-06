@@ -16,7 +16,7 @@ seasons: [year-round]
 nutritionalDensity: hearty
 leftovers: excellent
 equipment: [sheet-pan]
-pairsWith: [green-salad, roasted-vegetables]
+pairsWith: [everyday-arugula-salad, roasted-root-vegetables]
 ingredients:
   - '1 lb Chicken Breast, diced'
   - 1.5 cups Dry Orzo

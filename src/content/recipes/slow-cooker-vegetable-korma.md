@@ -11,7 +11,7 @@ vibe: nutritious
 season: [fall, winter]
 leftovers: excellent
 healthiness: moderate
-pairsWith: [rice, naan, biryani, indian-food]
+pairsWith: [basmati-rice, homemade-naan]
 prepTime: 15 min
 cookTime: 300 min
 totalTime: 315 min

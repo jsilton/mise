@@ -16,7 +16,7 @@ seasons: [year-round]
 nutritionalDensity: hearty
 leftovers: excellent
 equipment: [large-skillet]
-pairsWith: [basmati-rice, steamed-rice]
+pairsWith: [basmati-rice, basmati-rice]
 ingredients:
   - '2 lbs Chicken Thighs, chopped'
   - 2 links Chinese Sausage (Lap Cheong)

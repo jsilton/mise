@@ -17,7 +17,7 @@ nutritionalDensity: moderate
 leftovers: excellent
 advancePrep: [make-ahead, freeze-ahead]
 equipment: []
-pairsWith: [wonton-soup, chili-oil]
+pairsWith: [classic-wonton-soup]
 ingredients:
   - '1 lb Ground Pork (20% fat is ideal)'
   - '1/2 lb Shrimp, peeled and deveined (half finely chopped, half kept in chunks)'

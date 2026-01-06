@@ -17,7 +17,7 @@ nutritionalDensity: moderate
 leftovers: good
 advancePrep: [make-ahead, freeze-ahead]
 equipment: []
-pairsWith: [spring-rolls, bok-choy]
+pairsWith: [steamed-bok-choy-with-oyster-sauce, smashed-cucumber-salad]
 ingredients:
   - 200g Ground Pork
   - '100g Shrimp, minced'
