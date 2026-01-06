@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
@@ -9,20 +10,22 @@ const IGNORE_FILES = ['index.json', 'validation-report.json', 'batch-summary.jso
 const normalize = (str) => str.toLowerCase().replace(/[^a-z0-9]/g, '');
 
 const analyze = () => {
-  const files = fs.readdirSync(RECIPES_DIR).filter(f => !IGNORE_FILES.includes(f) && f.endsWith('.md'));
-  
+  const files = fs
+    .readdirSync(RECIPES_DIR)
+    .filter((f) => !IGNORE_FILES.includes(f) && f.endsWith('.md'));
+
   const report = {
     weirdIngredients: [],
     linkedIngredients: [],
     longbSlugs: [],
     duplicateTitles: [],
     missingPairs: [],
-    stats: { total: files.length }
+    stats: { total: files.length },
   };
 
   const titles = new Map(); // normalized_title -> [slugs]
 
-  files.forEach(file => {
+  files.forEach((file) => {
     const slug = file.replace('.md', '');
     const content = fs.readFileSync(path.join(RECIPES_DIR, file), 'utf-8');
     const parsed = matter(content);
@@ -44,14 +47,18 @@ const analyze = () => {
 
     // 3. Ingredient Issues
     if (data.ingredients && Array.isArray(data.ingredients)) {
-      data.ingredients.forEach(ing => {
+      data.ingredients.forEach((ing) => {
         if (typeof ing !== 'string') return;
-        
+
         // Detect "--- The Components ---" style
-        if (ing.trim().startsWith('---') || ing.includes('Click for Recipes') || ing.includes('---')) {
+        if (
+          ing.trim().startsWith('---') ||
+          ing.includes('Click for Recipes') ||
+          ing.includes('---')
+        ) {
           report.weirdIngredients.push({ slug, ingredient: ing });
         }
-        
+
         // Detect Markdown links
         if (ing.includes('](') || (ing.includes('[') && ing.includes(']'))) {
           report.linkedIngredients.push({ slug, ingredient: ing });
@@ -61,10 +68,10 @@ const analyze = () => {
 
     // 4. Missing Pairs
     if (!data.pairsWith || data.pairsWith.length === 0) {
-        // Only flag if it's a MAIN dish, as sides/condiments don't always need pairings
-        if (data.role === 'main') {
-            report.missingPairs.push(slug);
-        }
+      // Only flag if it's a MAIN dish, as sides/condiments don't always need pairings
+      if (data.role === 'main') {
+        report.missingPairs.push(slug);
+      }
     }
   });
 

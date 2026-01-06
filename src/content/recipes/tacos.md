@@ -32,9 +32,9 @@ This is the standard weeknight taco setup. Cooking the meat with "Better Than Bo
 
 A proper taco night requires prepared sides. Use these recipes:
 
-*   **The Rice:** [Mexican Rice](/mise/recipes/spanish-rice-chorizo) (or use plain [Rice Pilaf](/mise/recipes/homemade-rice-pilaf))
-*   **The Crunch:** [Korean Pickled Cucumbers](/mise/recipes/korean-pickled-cucumbers) (Oi Muchim) - highly recommended!
-*   **The Bean:** [Quick Seasoned Black Beans](/mise/recipes/quick-seasoned-black-beans)
+- **The Rice:** [Mexican Rice](/mise/recipes/spanish-rice-chorizo) (or use plain [Rice Pilaf](/mise/recipes/homemade-rice-pilaf))
+- **The Crunch:** [Korean Pickled Cucumbers](/mise/recipes/korean-pickled-cucumbers) (Oi Muchim) - highly recommended!
+- **The Bean:** [Quick Seasoned Black Beans](/mise/recipes/quick-seasoned-black-beans)
 
 ## Directions
 
