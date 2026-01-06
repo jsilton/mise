@@ -120,6 +120,7 @@ const calendarsCollection = defineCollection({
     title: z.string(),
     weekStart: z.coerce.date().optional(), // ISO date YYYY-MM-DD
     weekEnd: z.coerce.date().optional(), // ISO date YYYY-MM-DD
+    isPlaceholder: z.boolean().optional(), // True if week plan is TBD
   }),
 });
 

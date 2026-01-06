@@ -13,7 +13,30 @@ export async function getStaticPaths() {
 const { week } = Astro.props;
 const { Content } = await week.render();
 
+// Get meals collection for linking wiki-style references
+const meals = await getCollection('meals');
+const mealsMap = new Map(meals.map((m) => [m.slug, m]));
+
+// Get all calendars for navigation
+const calendars = await getCollection('calendars');
+calendars.sort((a, b) => {
+  const dateA = a.data.weekStart || new Date('1970-01-01');
+  const dateB = b.data.weekStart || new Date('1970-01-01');
+  return dateA.getTime() - dateB.getTime();
+});
+
+const currentIndex = calendars.findIndex((c) => c.slug === week.slug);
+const prevWeek = currentIndex > 0 ? calendars[currentIndex - 1] : null;
+const nextWeek = currentIndex < calendars.length - 1 ? calendars[currentIndex + 1] : null;
+
 function formatDate(date: Date): string {
+  return date.toLocaleDateString('en-US', {
+    month: 'long',
+    day: 'numeric',
+  });
+}
+
+function formatFullDate(date: Date): string {
   return date.toLocaleDateString('en-US', {
     weekday: 'long',
     month: 'long',
@@ -21,30 +44,184 @@ function formatDate(date: Date): string {
     year: 'numeric',
   });
 }
+
+// Parse markdown content to extract meal plan table
+function parseMealPlan(rawContent: string): Array<{ day: string; mealSlug: string; notes: string }> {
+  const lines = rawContent.split('\n');
+  const mealPlan: Array<{ day: string; mealSlug: string; notes: string }> = [];
+  
+  let inTable = false;
+  for (const line of lines) {
+    if (line.includes('| Day') || line.includes('|--')) {
+      inTable = true;
+      continue;
+    }
+    if (inTable && line.startsWith('|')) {
+      const cells = line.split('|').map(c => c.trim()).filter(c => c);
+      if (cells.length >= 2) {
+        const day = cells[0];
+        const mealCell = cells[1];
+        const notes = cells[2] || '';
+        
+        // Extract slug from [[slug]] format
+        const match = mealCell.match(/\[\[([^\]]+)\]\]/);
+        if (match) {
+          mealPlan.push({ day, mealSlug: match[1], notes });
+        }
+      }
+    } else if (inTable && !line.startsWith('|')) {
+      break; // End of table
+    }
+  }
+  
+  return mealPlan;
+}
+
+// Get raw content for parsing
+const rawContent = await Astro.glob('../../content/calendars/*.md');
+const thisWeekRaw = rawContent.find(r => r.file.includes(week.slug));
+const mealPlan = thisWeekRaw?.rawContent ? parseMealPlan(thisWeekRaw.rawContent()) : [];
+
+// Get description (first paragraph after frontmatter, before table)
+function getDescription(rawContent: string): string {
+  const lines = rawContent.split('\n');
+  let foundFrontmatter = false;
+  let description = '';
+  
+  for (const line of lines) {
+    if (line.startsWith('---')) {
+      foundFrontmatter = !foundFrontmatter;
+      continue;
+    }
+    if (!foundFrontmatter && line.trim() && !line.startsWith('#') && !line.startsWith('|')) {
+      description = line.trim();
+      break;
+    }
+  }
+  
+  return description;
+}
+
+const description = thisWeekRaw?.rawContent ? getDescription(thisWeekRaw.rawContent()) : '';
+
+// Day of week styling
+const dayColors: Record<string, string> = {
+  Sunday: 'bg-rose-50 border-rose-200',
+  Monday: 'bg-slate-50 border-slate-200',
+  Tuesday: 'bg-amber-50 border-amber-200',
+  Wednesday: 'bg-emerald-50 border-emerald-200',
+  Thursday: 'bg-sky-50 border-sky-200',
+  Friday: 'bg-violet-50 border-violet-200',
+  Saturday: 'bg-indigo-50 border-indigo-200',
+};
 ---
 
 <Layout title={`${week.data.title} | Calendar | Mise`}>
-  <div class="max-w-4xl mx-auto">
-    <nav class="text-sm text-slate-500 mb-4">
-      <a href={`${import.meta.env.BASE_URL}calendar`} class="hover:text-indigo-600"
-        >← Back to Calendar</a
+  <div class="max-w-3xl mx-auto">
+    {/* Breadcrumb */}
+    <nav class="mb-6">
+      <a 
+        href={`${import.meta.env.BASE_URL}calendar`} 
+        class="inline-flex items-center gap-2 text-sm text-slate-500 hover:text-indigo-600 transition-colors"
       >
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+        </svg>
+        Back to Calendar
+      </a>
     </nav>
 
-    <h1 class="text-3xl font-bold text-slate-900 mb-2">{week.data.title}</h1>
-
-    {
-      week.data.weekStart && week.data.weekEnd && (
-        <p class="text-slate-600 mb-6">
-          {formatDate(week.data.weekStart)} – {formatDate(week.data.weekEnd)}
+    {/* Week Header */}
+    <header class="mb-8 pb-6 border-b border-slate-200">
+      <h1 class="text-3xl font-bold text-slate-900 mb-2">{week.data.title}</h1>
+      {week.data.weekStart && week.data.weekEnd && (
+        <p class="text-lg text-slate-600">
+          {formatFullDate(week.data.weekStart)} – {formatFullDate(week.data.weekEnd)}
         </p>
-      )
-    }
+      )}
+      {description && (
+        <p class="mt-4 text-slate-600 leading-relaxed">{description}</p>
+      )}
+    </header>
 
-    <div
-      class="prose prose-slate max-w-none prose-table:border prose-td:border prose-td:p-2 prose-th:border prose-th:p-2 prose-th:bg-slate-50"
-    >
-      <Content />
-    </div>
+    {/* Placeholder State */}
+    {week.data.isPlaceholder ? (
+      <div class="bg-amber-50 border-2 border-dashed border-amber-200 rounded-xl p-8 text-center">
+        <div class="w-12 h-12 mx-auto mb-4 rounded-full bg-amber-100 flex items-center justify-center">
+          <svg class="w-6 h-6 text-amber-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+          </svg>
+        </div>
+        <h2 class="text-lg font-semibold text-amber-800 mb-2">Meal Plan Coming Soon</h2>
+        <p class="text-amber-700">This week's meals will be filled in shortly.</p>
+      </div>
+    ) : (
+      /* Meal Plan Grid */
+      <section class="mb-10">
+        <h2 class="text-sm font-semibold text-slate-400 uppercase tracking-wider mb-4">This Week's Meals</h2>
+        <div class="space-y-3">
+          {mealPlan.map(({ day, mealSlug, notes }) => {
+            const meal = mealsMap.get(mealSlug);
+            const colorClass = dayColors[day] || 'bg-slate-50 border-slate-200';
+            
+            return (
+              <div class={`rounded-xl border-2 ${colorClass} p-4 transition-all hover:shadow-md`}>
+                <div class="flex items-start gap-4">
+                  <div class="w-24 flex-shrink-0">
+                    <span class="text-sm font-semibold text-slate-700">{day}</span>
+                  </div>
+                  <div class="flex-1 min-w-0">
+                    {meal ? (
+                      <a 
+                        href={`${import.meta.env.BASE_URL}meals/${mealSlug}`}
+                        class="font-medium text-slate-900 hover:text-indigo-600 transition-colors"
+                      >
+                        {meal.data.title}
+                      </a>
+                    ) : (
+                      <span class="font-medium text-slate-900">{mealSlug}</span>
+                    )}
+                    {notes && (
+                      <p class="text-sm text-slate-500 mt-1">{notes}</p>
+                    )}
+                  </div>
+                </div>
+              </div>
+            );
+          })}
+        </div>
+      </section>
+    )}
+
+    {/* Week Navigation */}
+    <nav class="flex items-center justify-between pt-6 border-t border-slate-200">
+      {prevWeek ? (
+        <a 
+          href={`${import.meta.env.BASE_URL}calendar/${prevWeek.slug}`}
+          class="flex items-center gap-2 text-sm text-slate-600 hover:text-indigo-600 transition-colors"
+        >
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+          </svg>
+          {prevWeek.data.title}
+        </a>
+      ) : (
+        <div></div>
+      )}
+      
+      {nextWeek && !nextWeek.data.isPlaceholder ? (
+        <a 
+          href={`${import.meta.env.BASE_URL}calendar/${nextWeek.slug}`}
+          class="flex items-center gap-2 text-sm text-slate-600 hover:text-indigo-600 transition-colors"
+        >
+          {nextWeek.data.title}
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+          </svg>
+        </a>
+      ) : (
+        <div></div>
+      )}
+    </nav>
   </div>
 </Layout>
