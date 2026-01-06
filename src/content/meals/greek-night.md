@@ -2,7 +2,8 @@
 title: Greek Night
 template: plate
 main: greek-style-lamb-burgers-with-yogurt-cucumber-sauce
-sides: [greek-salad, homemade-naan]
+base: lemon-herb-couscous
+sides: [greek-salad, warm-pita-bread]
 totalPrepTime: 20 min
 totalCookTime: 15 min
 totalActiveTime: 25 min
@@ -22,7 +23,7 @@ Transport yourself to the Mediterranean with juicy lamb burgers topped with cool
 ## Cooking Strategy
 
 1. **Make tzatziki** first - it benefits from resting
-2. **Start rice** if serving (optional - can skip for lighter meal)
+2. **Start couscous** - just 5 minutes, easiest base ever
 3. **Prep Greek salad** - chop vegetables, arrange on platter
 4. **Form and season lamb patties**
 5. **Grill or pan-fry burgers** - 4-5 minutes per side for medium
