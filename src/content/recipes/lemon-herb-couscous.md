@@ -16,7 +16,8 @@ seasons: [year-round]
 nutritionalDensity: moderate
 leftovers: excellent
 equipment: [saucepan]
-pairsWith: [greek-style-lamb-burgers-with-yogurt-cucumber-sauce, falafel, chicken-shawarma, greek-salad]
+pairsWith:
+  [greek-style-lamb-burgers-with-yogurt-cucumber-sauce, falafel, chicken-shawarma, greek-salad]
 ingredients:
   - '1 1/2 cups Couscous'
   - '1 3/4 cups Chicken or Vegetable Broth'

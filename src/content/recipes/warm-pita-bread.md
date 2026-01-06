@@ -16,7 +16,15 @@ seasons: [year-round]
 nutritionalDensity: light
 leftovers: poor
 equipment: [skillet, grill]
-pairsWith: [greek-style-lamb-burgers-with-yogurt-cucumber-sauce, falafel, israeli-style-hummus, chicken-shawarma, greek-salad, tzatziki-sauce]
+pairsWith:
+  [
+    greek-style-lamb-burgers-with-yogurt-cucumber-sauce,
+    falafel,
+    israeli-style-hummus,
+    chicken-shawarma,
+    greek-salad,
+    tzatziki-sauce,
+  ]
 ingredients:
   - '4 Pita Breads (store-bought or homemade)'
   - '1 tbsp Olive Oil (optional)'
