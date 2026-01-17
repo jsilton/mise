@@ -11,12 +11,12 @@ recipes.sort((a, b) => a.data.title.localeCompare(b.data.title));
 
 <Layout title="Mise | Recipe Codex">
   <!-- Page Header -->
-  <div class="flex flex-col md:flex-row justify-between items-start md:items-end mb-8 gap-6">
+  <div class="flex flex-col md:flex-row justify-between items-start md:items-end mb-10 gap-6">
     <div>
-      <h1 class="text-3xl font-bold text-slate-900">The Codex</h1>
-      <p class="text-slate-500 mt-1">Exploring {recipes.length} family recipes.</p>
+      <h1 class="text-3xl font-bold text-slate-900 tracking-tight">The Codex</h1>
+      <p class="text-slate-500 mt-1.5 text-sm">Exploring {recipes.length} family recipes.</p>
     </div>
-    <div class="w-full md:w-96">
+    <div class="w-full md:w-80">
       <SearchBar id="searchInput" placeholder="Search by name or ingredient..." />
     </div>
   </div>

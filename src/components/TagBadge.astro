@@ -20,20 +20,20 @@ const { tag, category, href, size = 'md' } = Astro.props;
 
 // Color mappings by category
 const categoryColors = {
-  'cooking-method': 'bg-blue-50 text-blue-700 border-blue-200 hover:bg-blue-100',
-  cuisine: 'bg-purple-50 text-purple-700 border-purple-200 hover:bg-purple-100',
-  dietary: 'bg-green-50 text-green-700 border-green-200 hover:bg-green-100',
-  occasion: 'bg-amber-50 text-amber-700 border-amber-200 hover:bg-amber-100',
-  flavor: 'bg-rose-50 text-rose-700 border-rose-200 hover:bg-rose-100',
-  difficulty: 'bg-slate-100 text-slate-700 border-slate-200 hover:bg-slate-200',
-  role: 'bg-indigo-50 text-indigo-700 border-indigo-200 hover:bg-indigo-100',
-  vibe: 'bg-teal-50 text-teal-700 border-teal-200 hover:bg-teal-100',
+  'cooking-method': 'bg-blue-50 text-blue-600 border-blue-100 hover:bg-blue-100',
+  cuisine: 'bg-purple-50 text-purple-600 border-purple-100 hover:bg-purple-100',
+  dietary: 'bg-emerald-50 text-emerald-600 border-emerald-100 hover:bg-emerald-100',
+  occasion: 'bg-amber-50 text-amber-600 border-amber-100 hover:bg-amber-100',
+  flavor: 'bg-rose-50 text-rose-600 border-rose-100 hover:bg-rose-100',
+  difficulty: 'bg-slate-50 text-slate-600 border-slate-150 hover:bg-slate-100',
+  role: 'bg-indigo-50 text-indigo-600 border-indigo-100 hover:bg-indigo-100',
+  vibe: 'bg-teal-50 text-teal-600 border-teal-100 hover:bg-teal-100',
 };
 
 const sizeClasses = {
-  sm: 'text-xs px-2 py-1',
-  md: 'text-sm px-2.5 py-1.5',
-  lg: 'text-base px-3 py-2',
+  sm: 'text-2xs px-2 py-0.5 font-medium',
+  md: 'text-xs px-2.5 py-1 font-medium',
+  lg: 'text-sm px-3 py-1.5 font-medium',
 };
 
 const colorClass = categoryColors[category];

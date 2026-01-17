@@ -34,7 +34,7 @@ const primaryDietaryTag =
 
 <a
   href={`${baseUrl}recipes/${recipe.slug}`}
-  class="recipe-card group bg-white rounded-lg border border-slate-200 hover:border-indigo-300 hover:shadow-md hover:shadow-indigo-500/10 transition-all duration-200 overflow-hidden flex flex-col h-full"
+  class="recipe-card group bg-white rounded-xl border border-slate-200/80 hover:border-indigo-300 shadow-soft hover:shadow-soft-lg transition-all duration-200 overflow-hidden flex flex-col h-full"
   data-difficulty={recipe.data.difficulty}
   data-cuisines={recipe.data.cuisines?.join(',')}
   data-dietary={recipe.data.dietary?.join(',')}
@@ -45,13 +45,13 @@ const primaryDietaryTag =
 >
   <div class="p-4 flex flex-col h-full">
     <h2
-      class="text-base font-semibold text-slate-800 group-hover:text-indigo-600 line-clamp-2 mb-2 leading-tight"
+      class="text-sm font-semibold text-slate-800 group-hover:text-indigo-600 line-clamp-2 mb-2.5 leading-snug tracking-tight"
     >
       {recipe.data.title}
     </h2>
 
     <!-- Key Tags -->
-    <div class="flex flex-wrap gap-1 mb-3">
+    <div class="flex flex-wrap gap-1.5 mb-3">
       {
         recipe.data.cuisines?.[0] && (
           <TagBadge tag={recipe.data.cuisines[0]} category="cuisine" size="sm" />
@@ -67,13 +67,13 @@ const primaryDietaryTag =
 
     <!-- Time metadata -->
     <div
-      class="mt-auto pt-3 border-t border-slate-50 flex items-center justify-between text-[11px] text-slate-400"
+      class="mt-auto pt-3 border-t border-slate-100/80 flex items-center justify-between text-2xs text-slate-400 font-medium"
     >
       <div class="flex items-center gap-2">
         {recipe.data.prepTime && <span>{recipe.data.prepTime}</span>}
         {
           recipe.data.cookTime && (
-            <span class="flex items-center gap-1 before:content-['•'] before:mr-1">
+            <span class="flex items-center gap-1 before:content-['·'] before:mr-1 before:text-slate-300">
               {recipe.data.cookTime} cook
             </span>
           )

@@ -74,6 +74,7 @@ This game-day margarita balances reposado tequila's oak and vanilla against Camp
 ## Mocktail Version (The Two-Minute Drill)
 
 For designated drivers, parents, or anyone not drinking:
+
 - 2 oz Spiced Cranberry Syrup
 - 1 oz Fresh Lime Juice
 - Pinch of salt

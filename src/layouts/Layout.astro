@@ -7,67 +7,168 @@ const { title } = Astro.props;
 ---
 
 <!doctype html>
-<html lang="en" class="h-full bg-slate-50">
+<html lang="en" class="h-full bg-stone-50">
   <head>
     <meta charset="UTF-8" />
     <meta name="description" content="The Recipe Collection" />
     <meta name="viewport" content="width=device-width" />
     <link rel="icon" type="image/svg+xml" href={`${import.meta.env.BASE_URL}favicon.svg`} />
     <link rel="stylesheet" href={`${import.meta.env.BASE_URL}styles/print.css`} media="print" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
     <title>{title}</title>
+    <style>
+      /* Refined typography and prose styling */
+      .prose-refined h2 {
+        font-weight: 700;
+        font-size: 1.125rem;
+        letter-spacing: -0.025em;
+        color: #1e293b;
+        margin-top: 2rem;
+        margin-bottom: 0.75rem;
+        padding-bottom: 0.5rem;
+        border-bottom: 1px solid #e2e8f0;
+      }
+      .prose-refined h2:first-child {
+        margin-top: 0;
+      }
+      .prose-refined h3 {
+        font-weight: 600;
+        font-size: 1rem;
+        color: #334155;
+        margin-top: 1.5rem;
+        margin-bottom: 0.5rem;
+      }
+      .prose-refined p {
+        color: #475569;
+        line-height: 1.7;
+        margin-bottom: 1rem;
+      }
+      .prose-refined strong {
+        font-weight: 600;
+        color: #1e293b;
+      }
+      .prose-refined ul {
+        list-style-type: disc;
+        padding-left: 1.25rem;
+        margin-bottom: 1rem;
+      }
+      .prose-refined ul li {
+        color: #475569;
+        line-height: 1.6;
+        margin-bottom: 0.375rem;
+      }
+      .prose-refined ol {
+        list-style-type: decimal;
+        padding-left: 1.25rem;
+        margin-bottom: 1rem;
+      }
+      .prose-refined ol li {
+        color: #475569;
+        line-height: 1.6;
+        margin-bottom: 0.5rem;
+      }
+      .prose-refined a {
+        color: #4f46e5;
+        text-decoration: none;
+        font-weight: 500;
+      }
+      .prose-refined a:hover {
+        color: #4338ca;
+        text-decoration: underline;
+      }
+      /* Table styling */
+      .prose-refined table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 1.5rem 0;
+        font-size: 0.875rem;
+      }
+      .prose-refined thead {
+        background-color: #f8fafc;
+        border-bottom: 2px solid #e2e8f0;
+      }
+      .prose-refined th {
+        padding: 0.75rem 1rem;
+        text-align: left;
+        font-weight: 600;
+        color: #334155;
+        text-transform: uppercase;
+        font-size: 0.75rem;
+        letter-spacing: 0.05em;
+      }
+      .prose-refined td {
+        padding: 0.75rem 1rem;
+        border-bottom: 1px solid #f1f5f9;
+        color: #475569;
+      }
+      .prose-refined tbody tr:hover {
+        background-color: #f8fafc;
+      }
+      /* Horizontal rule */
+      .prose-refined hr {
+        border: none;
+        border-top: 1px solid #e2e8f0;
+        margin: 2rem 0;
+      }
+    </style>
   </head>
-  <body class="h-full flex flex-col font-sans text-slate-900">
-    <header class="bg-white border-b border-slate-200 sticky top-0 z-20">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+  <body class="h-full flex flex-col font-sans text-slate-900 antialiased">
+    <header class="bg-white/80 backdrop-blur-md border-b border-slate-200/80 sticky top-0 z-20">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 h-14 flex items-center justify-between">
         <div class="flex items-center gap-4">
-          <a href={import.meta.env.BASE_URL} class="flex items-center gap-2 group">
+          <a href={import.meta.env.BASE_URL} class="flex items-center gap-2.5 group">
             <div
-              class="w-8 h-8 bg-indigo-600 rounded-lg flex items-center justify-center text-white font-bold text-lg group-hover:bg-indigo-700 transition-colors"
+              class="w-7 h-7 bg-gradient-to-br from-indigo-500 to-indigo-600 rounded-lg flex items-center justify-center text-white font-bold text-sm shadow-sm group-hover:shadow-md group-hover:from-indigo-600 group-hover:to-indigo-700 transition-all duration-200"
             >
-              S
+              M
             </div>
             <span
-              class="text-xl font-bold text-slate-900 tracking-tight group-hover:text-indigo-700 transition-colors"
+              class="text-lg font-bold text-slate-900 tracking-tight group-hover:text-indigo-600 transition-colors"
               >Mise</span
             >
           </a>
         </div>
 
-        <nav class="flex items-center gap-6">
+        <nav class="flex items-center gap-1">
           <a
             href={import.meta.env.BASE_URL}
-            class="text-sm font-medium text-slate-600 hover:text-indigo-600 transition-colors"
+            class="px-3 py-1.5 text-sm font-medium text-slate-600 hover:text-slate-900 hover:bg-slate-100 rounded-lg transition-colors"
             >Recipes</a
           >
           <a
             href={`${import.meta.env.BASE_URL}meals`}
-            class="text-sm font-medium text-slate-600 hover:text-indigo-600 transition-colors"
+            class="px-3 py-1.5 text-sm font-medium text-slate-600 hover:text-slate-900 hover:bg-slate-100 rounded-lg transition-colors"
             >Meals</a
           >
           <a
             href={`${import.meta.env.BASE_URL}calendar`}
-            class="text-sm font-medium text-slate-600 hover:text-indigo-600 transition-colors"
+            class="px-3 py-1.5 text-sm font-medium text-slate-600 hover:text-slate-900 hover:bg-slate-100 rounded-lg transition-colors"
             >Calendar</a
           >
         </nav>
       </div>
     </header>
 
-    <main class="flex-grow w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+    <main class="flex-grow w-full max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
       <slot />
     </main>
 
-    <footer class="bg-white border-t border-slate-200 mt-auto">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        <div class="flex flex-col md:flex-row justify-between items-center gap-4">
-          <p class="text-sm text-slate-500">
-            &copy; {new Date().getFullYear()} Culinary Codex. All rights reserved.
+    <footer class="border-t border-slate-200/60 mt-auto bg-white/50">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
+        <div class="flex flex-col md:flex-row justify-between items-center gap-3">
+          <p class="text-xs text-slate-400">
+            &copy; {new Date().getFullYear()} Mise. All rights reserved.
           </p>
-          <div class="flex gap-4 text-sm text-slate-400">
+          <div class="flex gap-2 text-xs text-slate-400">
             <span>Taste</span>
-            <span>•</span>
+            <span class="text-slate-300">·</span>
             <span>Tradition</span>
-            <span>•</span>
+            <span class="text-slate-300">·</span>
             <span>Together</span>
           </div>
         </div>

@@ -69,12 +69,12 @@ A quality game-day spread that's sophisticated enough for adults but approachabl
 
 ## Station Setup
 
-| Station       | Items                                            | Notes                        |
-| ------------- | ------------------------------------------------ | ---------------------------- |
-| Dip Station   | Whipped feta, guacamole, chips, pita, crudité    | Set out at kickoff           |
-| Hot Apps      | Queso fundido (in cast iron)                     | Serve immediately from oven  |
-| Taco Bar      | Chicken, black beans, tortillas, all toppings    | Self-serve                   |
-| Drink Station | Margarita batch, shaker, glasses, Game Day Ice   | Shake per serve              |
+| Station       | Items                                          | Notes                       |
+| ------------- | ---------------------------------------------- | --------------------------- |
+| Dip Station   | Whipped feta, guacamole, chips, pita, crudité  | Set out at kickoff          |
+| Hot Apps      | Queso fundido (in cast iron)                   | Serve immediately from oven |
+| Taco Bar      | Chicken, black beans, tortillas, all toppings  | Self-serve                  |
+| Drink Station | Margarita batch, shaker, glasses, Game Day Ice | Shake per serve             |
 
 ## Notes
 

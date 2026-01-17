@@ -32,19 +32,22 @@ interface Props {
 const { recipe, baseUrl = import.meta.env.BASE_URL } = Astro.props;
 ---
 
-<div class="flex flex-col gap-4">
+<div class="flex flex-col gap-6">
   <!-- Breadcrumbs -->
-  <nav class="flex text-sm text-slate-500" aria-label="Breadcrumb">
-    <ol class="inline-flex items-center space-x-1 md:space-x-3">
+  <nav class="flex text-sm text-slate-400" aria-label="Breadcrumb">
+    <ol class="inline-flex items-center space-x-1 md:space-x-2">
       <li class="inline-flex items-center">
-        <a href={baseUrl} class="inline-flex items-center hover:text-indigo-600 transition-colors">
+        <a
+          href={baseUrl}
+          class="inline-flex items-center hover:text-indigo-600 transition-colors font-medium"
+        >
           Codex
         </a>
       </li>
       <li>
         <div class="flex items-center">
           <svg
-            class="w-3 h-3 text-slate-400 mx-1"
+            class="w-3 h-3 text-slate-300 mx-1.5"
             aria-hidden="true"
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -57,7 +60,7 @@ const { recipe, baseUrl = import.meta.env.BASE_URL } = Astro.props;
               stroke-width="2"
               d="m1 9 4-4-4-4"></path>
           </svg>
-          <span class="ml-1 font-medium text-slate-900 truncate max-w-[200px] sm:max-w-none">
+          <span class="ml-1 font-medium text-slate-600 truncate max-w-[200px] sm:max-w-none">
             {recipe.data.title}
           </span>
         </div>
@@ -66,61 +69,59 @@ const { recipe, baseUrl = import.meta.env.BASE_URL } = Astro.props;
   </nav>
 
   <!-- Header Section -->
-  <div class="bg-white rounded-xl shadow-sm border border-slate-200 overflow-hidden">
+  <div class="bg-white rounded-2xl shadow-soft border border-slate-200/80 overflow-hidden">
     <!-- Title and Metadata -->
-    <div class="bg-slate-50/50 border-b border-slate-100 p-6 sm:p-10">
-      <h1
-        class="text-3xl sm:text-4xl font-extrabold text-slate-900 mb-6 tracking-tight leading-tight"
-      >
+    <div class="bg-gradient-to-b from-slate-50/80 to-white border-b border-slate-100/80 p-6 sm:p-8">
+      <h1 class="text-2xl sm:text-3xl font-bold text-slate-900 mb-6 tracking-tight leading-tight">
         {recipe.data.title}
       </h1>
 
       <!-- Time Metadata Grid -->
-      <div class="flex flex-wrap gap-6 text-sm text-slate-600 mb-8">
+      <div class="flex flex-wrap gap-8 text-sm text-slate-600 mb-8">
         {
           recipe.data.prepTime && (
             <div class="flex flex-col">
-              <span class="text-xs uppercase tracking-wide text-slate-400 font-semibold mb-1">
+              <span class="text-2xs uppercase tracking-wide text-slate-400 font-semibold mb-1">
                 Prep Time
               </span>
-              <span class="font-medium">{recipe.data.prepTime}</span>
+              <span class="font-semibold text-slate-700">{recipe.data.prepTime}</span>
             </div>
           )
         }
         {
           recipe.data.cookTime && (
             <div class="flex flex-col">
-              <span class="text-xs uppercase tracking-wide text-slate-400 font-semibold mb-1">
+              <span class="text-2xs uppercase tracking-wide text-slate-400 font-semibold mb-1">
                 Cook Time
               </span>
-              <span class="font-medium">{recipe.data.cookTime}</span>
+              <span class="font-semibold text-slate-700">{recipe.data.cookTime}</span>
             </div>
           )
         }
         {
           recipe.data.totalTime && (
             <div class="flex flex-col">
-              <span class="text-xs uppercase tracking-wide text-slate-400 font-semibold mb-1">
+              <span class="text-2xs uppercase tracking-wide text-slate-400 font-semibold mb-1">
                 Total Time
               </span>
-              <span class="font-medium">{recipe.data.totalTime}</span>
+              <span class="font-semibold text-slate-700">{recipe.data.totalTime}</span>
             </div>
           )
         }
         {
           recipe.data.servings && (
             <div class="flex flex-col">
-              <span class="text-xs uppercase tracking-wide text-slate-400 font-semibold mb-1">
+              <span class="text-2xs uppercase tracking-wide text-slate-400 font-semibold mb-1">
                 Servings
               </span>
-              <span class="font-medium">{recipe.data.servings}</span>
+              <span class="font-semibold text-slate-700">{recipe.data.servings}</span>
             </div>
           )
         }
       </div>
 
       <!-- Tags Section -->
-      <div class="pt-6 border-t border-slate-100">
+      <div class="pt-6 border-t border-slate-100/80">
         {/* Primary Metadata - Role, Vibe, Difficulty */}
         <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-6">
           {
