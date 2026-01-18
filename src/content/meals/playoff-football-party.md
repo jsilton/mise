@@ -1,18 +1,17 @@
 ---
 title: Playoff Football Party
 template: grazing
-main: honey-lime-chicken-thighs
+main: bbq-chicken-sliders
 sides:
-  - whipped-feta-with-honey
-  - charred-guacamole-with-pomegranate
-  - queso-fundido-with-chorizo
-  - crispy-black-bean-tacos
+  - sweet-chili-chicken-sliders
+  - crockpot-mac-and-cheese
+  - classic-guacamole
 drink: red-zone-margarita
-totalPrepTime: 60 min
-totalCookTime: 30 min
-totalActiveTime: 60 min
+totalPrepTime: 30 min
+totalCookTime: 2 hr
+totalActiveTime: 30 min
 overallDifficulty: easy
-cuisines: [Mexican, Mediterranean, American]
+cuisines: [American, Thai, Mexican]
 occasions: [entertaining, game-day]
 seasons: [winter, fall]
 nutritionalDensity: moderate
@@ -22,20 +21,26 @@ bestFor: [saturday, sunday]
 
 ## Meal Overview
 
-A quality game-day spread that's sophisticated enough for adults but approachable for kids. Everything works at room temperature for 2+ hours, there are vegetarian options at every station, and the whole thing preps in about an hour. The Red Zone Margarita—bitter-sweet with cranberry and Campari—sets the tone: this isn't a junk food party.
+Simple game day: broiled chicken sliders two ways (BBQ and Sweet Chili), creamy slow cooker mac and cheese, fresh guacamole, and chips with salsa. Friends are bringing chips + dip, salad, and veggie snacks. The sliders are dead simple—season, broil, glaze, done. Mac runs in the slow cooker hands-off. You're drinking margaritas by kickoff.
 
 ## The Menu
 
-**Apps (Set out at kickoff):**
+**Sliders (You're Making):**
 
-- [Whipped Feta with Honey](/recipes/whipped-feta-with-honey) — creamy, salty, sweet with toasted pistachios (V)
-- [Charred Guacamole with Pomegranate](/recipes/charred-guacamole-with-pomegranate) — smoky depth, jewel-toned (V)
-- [Queso Fundido with Chorizo](/recipes/queso-fundido-with-chorizo) — bubbling, shareable, irresistible
+- [BBQ Chicken Sliders](/recipes/bbq-chicken-sliders) — broiled thighs, BBQ glaze, pickles
+- [Sweet Chili Chicken Sliders](/recipes/sweet-chili-chicken-sliders) — broiled thighs, sweet chili glaze, store-bought Asian slaw
 
-**Mains (Taco/Bowl Bar):**
+**Sides (You're Making):**
 
-- [Honey-Lime Chicken Thighs](/recipes/honey-lime-chicken-thighs) — sticky, charred, fast
-- [Crispy Black Bean Tacos](/recipes/crispy-black-bean-tacos) — vegetarian main that meat-eaters love (V)
+- [Crockpot Mac and Cheese](/recipes/crockpot-mac-and-cheese) — set it and forget it
+- [Classic Guacamole](/recipes/classic-guacamole) — chunky, fresh
+- Chips and jarred salsa
+
+**Guests Bringing:**
+
+- Potato chips and onion dip
+- Salad
+- Veggie tray / healthy snacks
 
 **Drink:**
 
@@ -47,41 +52,35 @@ A quality game-day spread that's sophisticated enough for adults but approachabl
 
 1. **Make the margarita syrup** — 10 min active, 30 min steep
 2. **Freeze Game Day Ice** — fill molds with berries and water
-3. **Make whipped feta** — refrigerate (add toppings before serving)
-4. **Optional: Make pickled red onions** — 5 min
+3. **Shred cheese for mac** — refrigerate
 
-### 1 Hour Before Kickoff
+### 2.5 Hours Before Kickoff
 
-| Time    | Task                                                                |
-| ------- | ------------------------------------------------------------------- |
-| T-60    | Preheat oven to 425°F. Roast poblanos for queso (if not done).      |
-| T-50    | Season chicken, get it in the oven.                                 |
-| T-45    | Spread black beans on sheet pan, season, put in oven (second rack). |
-| T-40    | Broil jalapeños and tomatoes for guac.                              |
-| T-35    | Start queso fundido (cook chorizo, prep cheese).                    |
-| T-30    | Make charred guacamole.                                             |
-| T-25    | Check beans (stir), check chicken.                                  |
-| T-20    | Glaze chicken, switch to broil. Put queso in oven.                  |
-| T-15    | Rest and slice chicken. Warm tortillas.                             |
-| T-10    | Pull queso. Set out feta with toppings. Set out guac and chips.     |
-| T-5     | Make avocado crema. Batch the margarita.                            |
-| Kickoff | Done.                                                               |
+| Time     | Task                                                           |
+| -------- | -------------------------------------------------------------- |
+| T-150    | Start mac and cheese in slow cooker on LOW.                    |
+| T-60     | Marinate chicken: BBQ batch + Sweet Chili batch (two bowls).   |
+| T-30     | Make guacamole.                                                |
+| T-25     | Broil chicken (6-7 min per side).                              |
+| T-15     | Glaze chicken. Add cheese to BBQ batch. Broil 1-2 min more.    |
+| T-10     | Toast buttered Hawaiian rolls. Let chicken rest. Slice.        |
+| T-5      | Toss Asian slaw. Set out everything. Batch the margarita.      |
+| Kickoff  | Done. Assemble sliders to order.                               |
 
 ## Station Setup
 
-| Station       | Items                                          | Notes                       |
-| ------------- | ---------------------------------------------- | --------------------------- |
-| Dip Station   | Whipped feta, guacamole, chips, pita, crudité  | Set out at kickoff          |
-| Hot Apps      | Queso fundido (in cast iron)                   | Serve immediately from oven |
-| Taco Bar      | Chicken, black beans, tortillas, all toppings  | Self-serve                  |
-| Drink Station | Margarita batch, shaker, glasses, Game Day Ice | Shake per serve             |
+| Station        | Items                                              | Notes                            |
+| -------------- | -------------------------------------------------- | -------------------------------- |
+| Slider Station | Chicken, Hawaiian rolls, pickles, Asian slaw kit   | Assemble to order                |
+| Mac Station    | Slow cooker on WARM                                | Self-serve                       |
+| Dip Station    | Guacamole, chips, salsa, chips + onion dip         | Set out at kickoff               |
+| Healthy Snacks | Veggie tray, salad                                 | Guests bringing                  |
+| Drink Station  | Margarita batch, shaker, glasses, Game Day Ice     | Shake per serve                  |
 
 ## Notes
 
-- All apps except queso work at room temperature for 2+ hours
-- Queso stays molten for about 10 minutes—plan accordingly
-- Label vegetarian items clearly (marked V above)
-- The black bean tacos are the vegetarian main—substantial enough for a meal
-- Make half the queso without chorizo for vegetarians (see recipe)
-- Have the mocktail version of the margarita ready for non-drinkers
-- Buy dessert from a good bakery—you're doing enough
+- Chicken thighs are forgiving—they stay juicy even if slightly overcooked
+- Keep some plain sliders for picky kids (no sauce)
+- Mac stays creamy on WARM for hours
+- Have kid drinks ready (juice boxes, lemonade)
+- The Asian slaw is a bagged salad kit—zero prep, just toss with dressing
