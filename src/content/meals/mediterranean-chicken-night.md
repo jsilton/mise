@@ -1,6 +1,6 @@
 ---
 title: Mediterranean Chicken Night
-template: mezze
+template: grazing
 main: mediterranean-chicken-thighs
 sides:
   - tzatziki-sauce
@@ -12,7 +12,7 @@ overallDifficulty: easy
 cuisines: [Greek, Mediterranean]
 occasions: [weeknight, entertaining]
 seasons: [year-round]
-nutritionalDensity: high
+nutritionalDensity: hearty
 servings: '4'
 bestFor: [thursday, friday]
 ---
@@ -31,14 +31,14 @@ Greek-inspired mezze night: chicken thighs marinated in Greek dressing roast wit
 
 ## Quick Timeline
 
-| Time | Task |
-|------|------|
+| Time | Task                                          |
+| ---- | --------------------------------------------- |
 | 0:00 | Marinate chicken (or do this in the morning). |
-| 0:30 | Preheat oven. Prep peppers and onions. |
-| 0:35 | Everything on sheet pan, into oven. |
-| 0:50 | Make tzatziki. Prep fresh veg platter. |
-| 1:05 | Wrap pitas, warm in oven last 5 min. |
-| 1:10 | Serve family-style. |
+| 0:30 | Preheat oven. Prep peppers and onions.        |
+| 0:35 | Everything on sheet pan, into oven.           |
+| 0:50 | Make tzatziki. Prep fresh veg platter.        |
+| 1:05 | Wrap pitas, warm in oven last 5 min.          |
+| 1:10 | Serve family-style.                           |
 
 ## Notes
 

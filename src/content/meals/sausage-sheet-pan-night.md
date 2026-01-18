@@ -1,6 +1,6 @@
 ---
 title: Sausage Sheet Pan Night
-template: simple
+template: plate
 main: sheet-pan-italian-sausage-dinner
 sides:
   - steamed-broccoli
@@ -30,13 +30,13 @@ Easy Tuesday night: Italian sausages roast with potatoes on a sheet pan, broccol
 
 ## Quick Timeline
 
-| Time | Task |
-|------|------|
+| Time | Task                                    |
+| ---- | --------------------------------------- |
 | 0:00 | Preheat oven. Prep and season potatoes. |
-| 0:05 | Potatoes in oven alone. |
-| 0:20 | Add sausages to pan. |
-| 0:35 | Start steaming broccoli. |
-| 0:40 | Everything done. Serve. |
+| 0:05 | Potatoes in oven alone.                 |
+| 0:20 | Add sausages to pan.                    |
+| 0:35 | Start steaming broccoli.                |
+| 0:40 | Everything done. Serve.                 |
 
 ## Notes
 

@@ -1,6 +1,6 @@
 ---
 title: Pan Fried Noodles Night
-template: simple
+template: bowl
 main: pan-fried-noodles-with-shrimp
 sides:
   - steamed-bok-choy-with-oyster-sauce
@@ -27,14 +27,14 @@ Cantonese restaurant-style pan fried noodles: a crispy noodle cake topped with s
 
 ## Quick Timeline
 
-| Time | Task |
-|------|------|
+| Time | Task                                           |
+| ---- | ---------------------------------------------- |
 | 0:00 | Prep shrimp with baking soda. Prep vegetables. |
-| 0:05 | Boil noodles briefly. Drain and dry. |
-| 0:10 | Fry noodle cake (10 min undisturbed). |
-| 0:20 | Flip and crisp other side. |
-| 0:25 | Steam bok choy. Sear shrimp, make gravy. |
-| 0:30 | Pour gravy over noodles. Serve immediately. |
+| 0:05 | Boil noodles briefly. Drain and dry.           |
+| 0:10 | Fry noodle cake (10 min undisturbed).          |
+| 0:20 | Flip and crisp other side.                     |
+| 0:25 | Steam bok choy. Sear shrimp, make gravy.       |
+| 0:30 | Pour gravy over noodles. Serve immediately.    |
 
 ## Notes
 

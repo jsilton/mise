@@ -1,6 +1,6 @@
 ---
 title: Chicken Marsala Night
-template: simple
+template: plate
 main: chicken-marsala
 sides:
   - perfect-mashed-potatoes
@@ -29,13 +29,13 @@ Classic Italian-American comfort: pounded chicken thighs in a rich Marsala wine 
 
 ## Quick Timeline
 
-| Time | Task |
-|------|------|
-| 0:00 | Start potatoes boiling. Pound chicken. |
-| 0:15 | Sear chicken in batches. |
+| Time | Task                                          |
+| ---- | --------------------------------------------- |
+| 0:00 | Start potatoes boiling. Pound chicken.        |
+| 0:15 | Sear chicken in batches.                      |
 | 0:25 | Cook mushrooms and make sauce. Mash potatoes. |
-| 0:35 | Sauté green beans. |
-| 0:40 | Plate and serve. |
+| 0:35 | Sauté green beans.                            |
+| 0:40 | Plate and serve.                              |
 
 ## Notes
 
