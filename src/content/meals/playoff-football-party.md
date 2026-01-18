@@ -27,13 +27,13 @@ Simple game day: broiled chicken sliders two ways (BBQ and Sweet Chili), creamy 
 
 **Sliders (You're Making):**
 
-- [BBQ Chicken Sliders](/recipes/bbq-chicken-sliders) — broiled thighs, BBQ glaze, pickles
-- [Sweet Chili Chicken Sliders](/recipes/sweet-chili-chicken-sliders) — broiled thighs, sweet chili glaze, store-bought Asian slaw
+- **BBQ Chicken Sliders** — broiled thighs, BBQ glaze, pickles
+- **Sweet Chili Chicken Sliders** — broiled thighs, sweet chili glaze, store-bought Asian slaw
 
 **Sides (You're Making):**
 
-- [Crockpot Mac and Cheese](/recipes/crockpot-mac-and-cheese) — set it and forget it
-- [Classic Guacamole](/recipes/classic-guacamole) — chunky, fresh
+- **Crockpot Mac and Cheese** — set it and forget it
+- **Classic Guacamole** — chunky, fresh
 - Chips and jarred salsa
 
 **Guests Bringing:**
@@ -44,7 +44,7 @@ Simple game day: broiled chicken sliders two ways (BBQ and Sweet Chili), creamy 
 
 **Drink:**
 
-- [Red Zone Margarita](/recipes/red-zone-margarita) — batch cocktail with Game Day Ice
+- **Red Zone Margarita** — batch cocktail with Game Day Ice
 
 ## Prep Timeline
 

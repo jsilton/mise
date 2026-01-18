@@ -23,8 +23,8 @@ Greek-inspired mezze night: chicken thighs marinated in Greek dressing roast wit
 
 ## The Menu
 
-- [Mediterranean Chicken Thighs](/recipes/mediterranean-chicken-thighs) — marinated in Greek dressing, roasted with peppers and onions
-- Tzatziki Sauce — the yogurt-cucumber sauce from the lamb burgers recipe
+- **Mediterranean Chicken Thighs** — marinated in Greek dressing, roasted with peppers and onions
+- **Tzatziki Sauce** — the yogurt-cucumber sauce from the lamb burgers recipe
 - Warm pita bread
 - Fresh vegetables: cucumbers, tomatoes, romaine
 - Crumbled feta cheese

@@ -22,8 +22,8 @@ Cantonese restaurant-style pan fried noodles: a crispy noodle cake topped with s
 
 ## The Menu
 
-- [Pan Fried Noodles with Shrimp](/recipes/pan-fried-noodles-with-shrimp) — crispy noodle cake with shrimp gravy
-- [Steamed Bok Choy with Oyster Sauce](/recipes/steamed-bok-choy-with-oyster-sauce) — simple Chinese greens
+- **Pan Fried Noodles with Shrimp** — crispy noodle cake with shrimp gravy
+- **Steamed Bok Choy with Oyster Sauce** — simple Chinese greens
 
 ## Quick Timeline
 
