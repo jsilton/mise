@@ -34,7 +34,7 @@ ingredients:
   - 1 cup Cherry Tomatoes (halved)
   - 1 English Cucumber (sliced)
   - 2 cups Romaine Lettuce (shredded)
-  - Tzatziki Sauce (see [[greek-style-lamb-burgers-with-yogurt-cucumber-sauce]])
+  - Tzatziki Sauce (homemade or store-bought)
 ---
 
 ## Chef's Note
@@ -49,7 +49,7 @@ Greek dressing is a marinade cheat code—it's already perfectly balanced with o
 
 3. **Roast:** Preheat oven to 425°F. Spread vegetables on a sheet pan. Nestle marinated chicken thighs among the vegetables. Roast 30-35 minutes until chicken is cooked through (165°F) and vegetables are tender and charred at edges.
 
-4. **Make Tzatziki:** While chicken roasts, prepare the yogurt-cucumber sauce from the [[greek-style-lamb-burgers-with-yogurt-cucumber-sauce]] recipe (or use store-bought tzatziki).
+4. **Make Tzatziki:** While chicken roasts, make tzatziki: mix 1 cup Greek yogurt with 1/2 grated cucumber (squeezed dry), 1 clove minced garlic, 1 tbsp olive oil, 1 tbsp lemon juice, and salt. Or use store-bought.
 
 5. **Warm Pita:** Wrap pitas in foil and warm in oven during last 5 minutes of cooking.
 

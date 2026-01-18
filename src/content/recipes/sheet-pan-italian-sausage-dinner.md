@@ -26,7 +26,7 @@ ingredients:
   - 1 tsp Kosher Salt
   - 1/2 tsp Black Pepper
   - 'For Serving:'
-  - Steamed broccoli (see [[steamed-broccoli]])
+  - Steamed broccoli
   - Store-bought dinner rolls
   - Whole grain mustard or Dijon
 ---
@@ -47,7 +47,7 @@ This is the ultimate Tuesday night dinner: everything roasts on one pan, the bro
 
 5. **Roast Together:** Roast for 20 more minutes, flipping sausages halfway, until sausages are browned and cooked through (160°F internal) and potatoes are golden and crispy.
 
-6. **Steam Broccoli:** While everything roasts, steam broccoli according to [[steamed-broccoli]] recipe (about 5 minutes).
+6. **Steam Broccoli:** While everything roasts, steam broccoli (about 5 minutes in a steamer basket or microwave).
 
 7. **Serve:** Slice sausages on the bias. Serve with crispy potatoes, steamed broccoli, warm rolls, and mustard on the side.
 
@@ -56,4 +56,4 @@ This is the ultimate Tuesday night dinner: everything roasts on one pan, the bro
 - **Sweet Italian Sausage:** Mild, fennel-forward, kid-friendly
 - **Hot Italian Sausage:** Spicy kick, adult-preferred
 - **Chicken Sausage:** Lighter option, same method
-- For extra crispy potatoes, use the smashed potato method from [[crispy-smashed-potatoes]]
+- For extra crispy potatoes, boil them first, smash with a fork, then roast at high heat

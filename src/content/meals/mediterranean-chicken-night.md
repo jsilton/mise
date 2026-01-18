@@ -44,6 +44,6 @@ Greek-inspired mezze night: chicken thighs marinated in Greek dressing roast wit
 
 - Marinate chicken in the morning for deeper flavor
 - Ken's Greek Dressing works great, or use homemade vinaigrette
-- The tzatziki recipe is in the [[greek-style-lamb-burgers-with-yogurt-cucumber-sauce]] recipe
+- For tzatziki: mix Greek yogurt, grated cucumber (squeeze out water), garlic, olive oil, lemon, and salt
 - Store-bought tzatziki (Trader Joe's, Sabra) works in a pinch
 - Add hummus for extra mezze vibes
