@@ -39,7 +39,7 @@ Simple game day: broiled chicken sliders two ways (BBQ and Sweet Chili), creamy 
 **Guests Bringing:**
 
 - Potato chips and onion dip
-- Salad
+- Tahini Caesar salad
 - Veggie tray / healthy snacks
 
 **Drink:**
@@ -56,26 +56,26 @@ Simple game day: broiled chicken sliders two ways (BBQ and Sweet Chili), creamy 
 
 ### 2.5 Hours Before Kickoff
 
-| Time     | Task                                                           |
-| -------- | -------------------------------------------------------------- |
-| T-150    | Start mac and cheese in slow cooker on LOW.                    |
-| T-60     | Marinate chicken: BBQ batch + Sweet Chili batch (two bowls).   |
-| T-30     | Make guacamole.                                                |
-| T-25     | Broil chicken (6-7 min per side).                              |
-| T-15     | Glaze chicken. Add cheese to BBQ batch. Broil 1-2 min more.    |
-| T-10     | Toast buttered Hawaiian rolls. Let chicken rest. Slice.        |
-| T-5      | Toss Asian slaw. Set out everything. Batch the margarita.      |
-| Kickoff  | Done. Assemble sliders to order.                               |
+| Time    | Task                                                         |
+| ------- | ------------------------------------------------------------ |
+| T-150   | Start mac and cheese in slow cooker on LOW.                  |
+| T-60    | Marinate chicken: BBQ batch + Sweet Chili batch (two bowls). |
+| T-30    | Make guacamole.                                              |
+| T-25    | Broil chicken (6-7 min per side).                            |
+| T-15    | Glaze chicken. Add cheese to BBQ batch. Broil 1-2 min more.  |
+| T-10    | Toast buttered Hawaiian rolls. Let chicken rest. Slice.      |
+| T-5     | Toss Asian slaw. Set out everything. Batch the margarita.    |
+| Kickoff | Done. Assemble sliders to order.                             |
 
 ## Station Setup
 
-| Station        | Items                                              | Notes                            |
-| -------------- | -------------------------------------------------- | -------------------------------- |
-| Slider Station | Chicken, Hawaiian rolls, pickles, Asian slaw kit   | Assemble to order                |
-| Mac Station    | Slow cooker on WARM                                | Self-serve                       |
-| Dip Station    | Guacamole, chips, salsa, chips + onion dip         | Set out at kickoff               |
-| Healthy Snacks | Veggie tray, salad                                 | Guests bringing                  |
-| Drink Station  | Margarita batch, shaker, glasses, Game Day Ice     | Shake per serve                  |
+| Station        | Items                                            | Notes              |
+| -------------- | ------------------------------------------------ | ------------------ |
+| Slider Station | Chicken, Hawaiian rolls, pickles, Asian slaw kit | Assemble to order  |
+| Mac Station    | Slow cooker on WARM                              | Self-serve         |
+| Dip Station    | Guacamole, chips, salsa, chips + onion dip       | Set out at kickoff |
+| Healthy Snacks | Veggie tray, salad                               | Guests bringing    |
+| Drink Station  | Margarita batch, shaker, glasses, Game Day Ice   | Shake per serve    |
 
 ## Notes
 
