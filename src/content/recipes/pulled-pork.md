@@ -14,7 +14,15 @@ nutritionalDensity: hearty
 leftovers: excellent
 advancePrep: [season-ahead]
 equipment: [slow-cooker]
-pairsWith: [cornbread, coleslaw, classic-coleslaw, korean-style-tacos-with-kogi-bbq-sauce, crockpot-mac-and-cheese, carnitas-bowl]
+pairsWith:
+  [
+    cornbread,
+    coleslaw,
+    classic-coleslaw,
+    korean-style-tacos-with-kogi-bbq-sauce,
+    crockpot-mac-and-cheese,
+    carnitas-bowl,
+  ]
 prepTime: 15 min
 cookTime: 11 hours
 totalTime: 11.5 hours

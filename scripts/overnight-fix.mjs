@@ -66,66 +66,234 @@ const CUISINE_TO_ORIGIN = {
 
 // When multiple cuisines exist, priority order for origin
 const ORIGIN_PRIORITY = [
-  'Chinese', 'Japanese', 'Korean', 'Thai', 'Vietnamese', 'Indian',
-  'Italian', 'French', 'Spanish', 'Greek', 'Turkish', 'Lebanese',
-  'Moroccan', 'Ethiopian', 'Mexican', 'Cuban', 'Jamaican', 'Brazilian',
-  'Peruvian', 'Argentine', 'Filipino', 'Indonesian', 'Malaysian',
-  'German', 'Irish', 'Polish', 'Russian', 'British',
-  'Southern', 'Cajun', 'Hawaiian',
-  'Middle Eastern', 'Mediterranean', 'Caribbean', 'Southeast-Asian',
+  'Chinese',
+  'Japanese',
+  'Korean',
+  'Thai',
+  'Vietnamese',
+  'Indian',
+  'Italian',
+  'French',
+  'Spanish',
+  'Greek',
+  'Turkish',
+  'Lebanese',
+  'Moroccan',
+  'Ethiopian',
+  'Mexican',
+  'Cuban',
+  'Jamaican',
+  'Brazilian',
+  'Peruvian',
+  'Argentine',
+  'Filipino',
+  'Indonesian',
+  'Malaysian',
+  'German',
+  'Irish',
+  'Polish',
+  'Russian',
+  'British',
+  'Southern',
+  'Cajun',
+  'Hawaiian',
+  'Middle Eastern',
+  'Mediterranean',
+  'Caribbean',
+  'Southeast-Asian',
   'American', // lowest priority — too generic
 ];
 
 // ─── Dietary inference keywords ───
 const MEAT_WORDS = [
-  'chicken', 'beef', 'pork', 'lamb', 'turkey', 'bacon', 'sausage', 'steak',
-  'brisket', 'ribs', 'prosciutto', 'pancetta', 'chorizo', 'ham', 'veal',
-  'duck', 'venison', 'goat', 'meatball', 'ground beef', 'ground pork',
-  'ground turkey', 'ground chicken', 'short rib', 'tenderloin', 'salami',
-  'pepperoni', 'hot dog', 'bratwurst', 'andouille', 'kielbasa', 'carnitas',
-  'pulled pork', 'corned beef', 'pastrami',
+  'chicken',
+  'beef',
+  'pork',
+  'lamb',
+  'turkey',
+  'bacon',
+  'sausage',
+  'steak',
+  'brisket',
+  'ribs',
+  'prosciutto',
+  'pancetta',
+  'chorizo',
+  'ham',
+  'veal',
+  'duck',
+  'venison',
+  'goat',
+  'meatball',
+  'ground beef',
+  'ground pork',
+  'ground turkey',
+  'ground chicken',
+  'short rib',
+  'tenderloin',
+  'salami',
+  'pepperoni',
+  'hot dog',
+  'bratwurst',
+  'andouille',
+  'kielbasa',
+  'carnitas',
+  'pulled pork',
+  'corned beef',
+  'pastrami',
 ];
 
 const FISH_WORDS = [
-  'salmon', 'tuna', 'shrimp', 'cod', 'fish', 'crab', 'lobster', 'scallop',
-  'mussel', 'clam', 'oyster', 'anchov', 'sardine', 'swordfish', 'tilapia',
-  'halibut', 'mahi', 'calamari', 'squid', 'octopus', 'prawn', 'crawfish',
-  'catfish', 'trout', 'snapper', 'sea bass', 'mackerel', 'bonito',
-  'fish sauce', 'dashi',
+  'salmon',
+  'tuna',
+  'shrimp',
+  'cod',
+  'fish',
+  'crab',
+  'lobster',
+  'scallop',
+  'mussel',
+  'clam',
+  'oyster',
+  'anchov',
+  'sardine',
+  'swordfish',
+  'tilapia',
+  'halibut',
+  'mahi',
+  'calamari',
+  'squid',
+  'octopus',
+  'prawn',
+  'crawfish',
+  'catfish',
+  'trout',
+  'snapper',
+  'sea bass',
+  'mackerel',
+  'bonito',
+  'fish sauce',
+  'dashi',
 ];
 
 // Seafood-only words (not fish sauce / dashi which are condiments in many vegetarian contexts)
 const STRICT_FISH_WORDS = [
-  'salmon', 'tuna', 'shrimp', 'cod', 'fish', 'crab', 'lobster', 'scallop',
-  'mussel', 'clam', 'oyster', 'sardine', 'swordfish', 'tilapia',
-  'halibut', 'mahi', 'calamari', 'squid', 'octopus', 'prawn', 'crawfish',
-  'catfish', 'trout', 'snapper', 'sea bass', 'mackerel',
+  'salmon',
+  'tuna',
+  'shrimp',
+  'cod',
+  'fish',
+  'crab',
+  'lobster',
+  'scallop',
+  'mussel',
+  'clam',
+  'oyster',
+  'sardine',
+  'swordfish',
+  'tilapia',
+  'halibut',
+  'mahi',
+  'calamari',
+  'squid',
+  'octopus',
+  'prawn',
+  'crawfish',
+  'catfish',
+  'trout',
+  'snapper',
+  'sea bass',
+  'mackerel',
 ];
 
 const DAIRY_WORDS = [
-  'milk', 'cream', 'cheese', 'butter', 'yogurt', 'sour cream',
-  'mascarpone', 'ricotta', 'mozzarella', 'parmesan', 'cheddar', 'gruyere',
-  'brie', 'feta', 'gouda', 'cream cheese', 'half-and-half', 'ghee',
-  'buttermilk', 'whipping cream', 'heavy cream', 'crème', 'pecorino',
-  'provolone', 'fontina', 'manchego', 'goat cheese', 'queso',
-  'cotija', 'paneer', 'labneh',
+  'milk',
+  'cream',
+  'cheese',
+  'butter',
+  'yogurt',
+  'sour cream',
+  'mascarpone',
+  'ricotta',
+  'mozzarella',
+  'parmesan',
+  'cheddar',
+  'gruyere',
+  'brie',
+  'feta',
+  'gouda',
+  'cream cheese',
+  'half-and-half',
+  'ghee',
+  'buttermilk',
+  'whipping cream',
+  'heavy cream',
+  'crème',
+  'pecorino',
+  'provolone',
+  'fontina',
+  'manchego',
+  'goat cheese',
+  'queso',
+  'cotija',
+  'paneer',
+  'labneh',
 ];
 
 const GLUTEN_WORDS = [
-  'flour', 'bread', 'pasta', 'noodle', 'tortilla', 'pita', 'baguette',
-  'crouton', 'breadcrumb', 'panko', 'soy sauce', 'couscous', 'orzo',
-  'farro', 'barley', 'rye', 'wheat', 'seitan', 'udon', 'ramen',
-  'wonton', 'dumpling', 'gyoza', 'pizza dough', 'pie crust',
-  'puff pastry', 'phyllo', 'croissant', 'brioche', 'sourdough',
-  'all-purpose flour', 'cake flour', 'bread flour',
+  'flour',
+  'bread',
+  'pasta',
+  'noodle',
+  'tortilla',
+  'pita',
+  'baguette',
+  'crouton',
+  'breadcrumb',
+  'panko',
+  'soy sauce',
+  'couscous',
+  'orzo',
+  'farro',
+  'barley',
+  'rye',
+  'wheat',
+  'seitan',
+  'udon',
+  'ramen',
+  'wonton',
+  'dumpling',
+  'gyoza',
+  'pizza dough',
+  'pie crust',
+  'puff pastry',
+  'phyllo',
+  'croissant',
+  'brioche',
+  'sourdough',
+  'all-purpose flour',
+  'cake flour',
+  'bread flour',
 ];
 
 const EGG_WORDS = ['egg', 'eggs', 'yolk', 'egg white', 'meringue', 'custard', 'aioli'];
 
 const NUT_WORDS = [
-  'almond', 'walnut', 'pecan', 'cashew', 'pistachio', 'peanut',
-  'hazelnut', 'macadamia', 'pine nut', 'chestnut', 'nut butter',
-  'almond butter', 'peanut butter', 'cashew cream', 'tahini',
+  'almond',
+  'walnut',
+  'pecan',
+  'cashew',
+  'pistachio',
+  'peanut',
+  'hazelnut',
+  'macadamia',
+  'pine nut',
+  'chestnut',
+  'nut butter',
+  'almond butter',
+  'peanut butter',
+  'cashew cream',
+  'tahini',
 ];
 
 // ─── Equipment keyword → slug mapping ───
@@ -169,17 +337,46 @@ const EQUIPMENT_KEYWORDS = [
 
 // ─── Seasonal ingredient signals ───
 const SUMMER_INGREDIENTS = [
-  'watermelon', 'peach', 'nectarine', 'corn on the cob', 'zucchini',
-  'tomato', 'basil', 'cucumber', 'bell pepper', 'berry', 'blueberr',
-  'strawberr', 'raspberry', 'blackberry', 'melon', 'grilled',
+  'watermelon',
+  'peach',
+  'nectarine',
+  'corn on the cob',
+  'zucchini',
+  'tomato',
+  'basil',
+  'cucumber',
+  'bell pepper',
+  'berry',
+  'blueberr',
+  'strawberr',
+  'raspberry',
+  'blackberry',
+  'melon',
+  'grilled',
 ];
 const FALL_INGREDIENTS = [
-  'pumpkin', 'butternut', 'acorn squash', 'apple cider', 'cranberr',
-  'sweet potato', 'sage', 'cinnamon', 'nutmeg', 'maple',
+  'pumpkin',
+  'butternut',
+  'acorn squash',
+  'apple cider',
+  'cranberr',
+  'sweet potato',
+  'sage',
+  'cinnamon',
+  'nutmeg',
+  'maple',
 ];
 const WINTER_INGREDIENTS = [
-  'stew', 'braise', 'pot roast', 'mulled', 'gingerbread', 'hot cocoa',
-  'root vegetable', 'parsnip', 'turnip', 'rutabaga',
+  'stew',
+  'braise',
+  'pot roast',
+  'mulled',
+  'gingerbread',
+  'hot cocoa',
+  'root vegetable',
+  'parsnip',
+  'turnip',
+  'rutabaga',
 ];
 
 // ─── Advance prep signals ───
@@ -196,7 +393,6 @@ const ADVANCE_PREP_SIGNALS = [
   { pattern: /\bsoak.*\b(overnight|hours)\b/i, tag: 'soak-overnight' },
   { pattern: /\b(sauce|dressing|vinaigrette).*\bahead\b/i, tag: 'make-ahead-sauce' },
 ];
-
 
 // ═══════════════════════════════════════════════════════
 //  INFERENCE FUNCTIONS
@@ -226,20 +422,18 @@ function inferOrigin(data) {
  * Only returns tags we're confident about.
  */
 function inferDietary(data, bodyText) {
-  const searchText = [
-    ...(data.ingredients || []),
-    data.title || '',
-    bodyText,
-  ].join(' ').toLowerCase();
+  const searchText = [...(data.ingredients || []), data.title || '', bodyText]
+    .join(' ')
+    .toLowerCase();
 
   const tags = [];
 
-  const hasMeat = MEAT_WORDS.some(w => searchText.includes(w));
-  const hasFish = STRICT_FISH_WORDS.some(w => searchText.includes(w));
-  const hasDairy = DAIRY_WORDS.some(w => searchText.includes(w));
-  const hasEgg = EGG_WORDS.some(w => searchText.includes(w));
-  const hasGluten = GLUTEN_WORDS.some(w => searchText.includes(w));
-  const hasNuts = NUT_WORDS.some(w => searchText.includes(w));
+  const hasMeat = MEAT_WORDS.some((w) => searchText.includes(w));
+  const hasFish = STRICT_FISH_WORDS.some((w) => searchText.includes(w));
+  const hasDairy = DAIRY_WORDS.some((w) => searchText.includes(w));
+  const hasEgg = EGG_WORDS.some((w) => searchText.includes(w));
+  const hasGluten = GLUTEN_WORDS.some((w) => searchText.includes(w));
+  const hasNuts = NUT_WORDS.some((w) => searchText.includes(w));
 
   if (!hasMeat && !hasFish) tags.push('vegetarian');
   if (!hasMeat && !hasFish && !hasDairy && !hasEgg) tags.push('vegan');
@@ -254,37 +448,75 @@ function inferDietary(data, bodyText) {
  * Infer seasons from recipe characteristics.
  */
 function inferSeasons(data, bodyText) {
-  const searchText = [
-    ...(data.ingredients || []),
-    data.title || '',
-    bodyText,
-  ].join(' ').toLowerCase();
+  const searchText = [...(data.ingredients || []), data.title || '', bodyText]
+    .join(' ')
+    .toLowerCase();
 
   const occasions = data.occasions || [];
   const cookingMethods = data.cookingMethods || [];
 
   // Check for seasonal signals
-  let spring = false, summer = false, fall = false, winter = false;
+  let spring = false,
+    summer = false,
+    fall = false,
+    winter = false;
 
   // Occasion-based signals
-  if (occasions.includes('comfort-food')) { fall = true; winter = true; }
-  if (occasions.includes('light-and-fresh')) { spring = true; summer = true; }
-  if (occasions.includes('bbq')) { spring = true; summer = true; }
-  if (occasions.includes('grilling')) { spring = true; summer = true; }
-  if (occasions.includes('holiday')) { fall = true; winter = true; }
-  if (occasions.includes('thanksgiving')) { fall = true; }
-  if (occasions.includes('summer-party')) { summer = true; }
+  if (occasions.includes('comfort-food')) {
+    fall = true;
+    winter = true;
+  }
+  if (occasions.includes('light-and-fresh')) {
+    spring = true;
+    summer = true;
+  }
+  if (occasions.includes('bbq')) {
+    spring = true;
+    summer = true;
+  }
+  if (occasions.includes('grilling')) {
+    spring = true;
+    summer = true;
+  }
+  if (occasions.includes('holiday')) {
+    fall = true;
+    winter = true;
+  }
+  if (occasions.includes('thanksgiving')) {
+    fall = true;
+  }
+  if (occasions.includes('summer-party')) {
+    summer = true;
+  }
 
   // Cooking method signals
-  if (cookingMethods.includes('grill')) { spring = true; summer = true; }
-  if (cookingMethods.includes('braise')) { fall = true; winter = true; }
-  if (cookingMethods.includes('slow-cook')) { fall = true; winter = true; }
-  if (cookingMethods.includes('no-cook')) { spring = true; summer = true; }
+  if (cookingMethods.includes('grill')) {
+    spring = true;
+    summer = true;
+  }
+  if (cookingMethods.includes('braise')) {
+    fall = true;
+    winter = true;
+  }
+  if (cookingMethods.includes('slow-cook')) {
+    fall = true;
+    winter = true;
+  }
+  if (cookingMethods.includes('no-cook')) {
+    spring = true;
+    summer = true;
+  }
 
   // Ingredient signals
-  if (SUMMER_INGREDIENTS.some(w => searchText.includes(w))) { summer = true; }
-  if (FALL_INGREDIENTS.some(w => searchText.includes(w))) { fall = true; }
-  if (WINTER_INGREDIENTS.some(w => searchText.includes(w))) { winter = true; }
+  if (SUMMER_INGREDIENTS.some((w) => searchText.includes(w))) {
+    summer = true;
+  }
+  if (FALL_INGREDIENTS.some((w) => searchText.includes(w))) {
+    fall = true;
+  }
+  if (WINTER_INGREDIENTS.some((w) => searchText.includes(w))) {
+    winter = true;
+  }
 
   // If we found specific seasonal signals, build the array
   const seasons = [];
@@ -342,7 +574,6 @@ function inferAdvancePrep(bodyText) {
 
   return [...found].sort();
 }
-
 
 // ═══════════════════════════════════════════════════════
 //  BOLD STEP HEADER FORMATTING
@@ -407,28 +638,132 @@ function extractVerbPhrase(text) {
 
   // Stop words — these mark the end of the verb phrase
   const STOP_WORDS = new Set([
-    'in', 'on', 'to', 'for', 'with', 'until', 'over', 'into', 'from',
-    'at', 'by', 'about', 'through', 'according', 'and', 'or', 'but',
-    'while', 'then', 'so', 'if', 'when', 'before', 'after',
+    'in',
+    'on',
+    'to',
+    'for',
+    'with',
+    'until',
+    'over',
+    'into',
+    'from',
+    'at',
+    'by',
+    'about',
+    'through',
+    'according',
+    'and',
+    'or',
+    'but',
+    'while',
+    'then',
+    'so',
+    'if',
+    'when',
+    'before',
+    'after',
   ]);
 
   // Verbs that take a direct object — we want 2 words
   const TRANSITIVE_VERBS = new Set([
-    'preheat', 'heat', 'season', 'cook', 'add', 'mix', 'combine',
-    'whisk', 'stir', 'fold', 'toss', 'place', 'arrange', 'layer',
-    'pour', 'drizzle', 'spread', 'brush', 'rub', 'coat', 'top',
-    'slice', 'dice', 'chop', 'mince', 'julienne', 'shred', 'grate',
-    'sear', 'brown', 'roast', 'bake', 'broil', 'grill', 'fry',
-    'sauté', 'saute', 'braise', 'simmer', 'boil', 'steam', 'poach',
-    'blanch', 'toast', 'char', 'smoke', 'marinate', 'brine',
-    'prepare', 'make', 'build', 'assemble', 'create', 'form', 'shape',
-    'roll', 'stuff', 'fill', 'line', 'grease', 'butter',
-    'remove', 'transfer', 'strain', 'drain', 'squeeze', 'press',
-    'blend', 'puree', 'process', 'mash', 'crush', 'pound',
-    'trim', 'peel', 'core', 'seed', 'debone', 'butterfly',
-    'reduce', 'deglaze', 'mount', 'finish', 'garnish', 'plate',
-    'serve', 'rest', 'cool', 'chill', 'freeze', 'thaw',
-    'set', 'bring', 'let', 'check', 'taste', 'adjust', 'temper',
+    'preheat',
+    'heat',
+    'season',
+    'cook',
+    'add',
+    'mix',
+    'combine',
+    'whisk',
+    'stir',
+    'fold',
+    'toss',
+    'place',
+    'arrange',
+    'layer',
+    'pour',
+    'drizzle',
+    'spread',
+    'brush',
+    'rub',
+    'coat',
+    'top',
+    'slice',
+    'dice',
+    'chop',
+    'mince',
+    'julienne',
+    'shred',
+    'grate',
+    'sear',
+    'brown',
+    'roast',
+    'bake',
+    'broil',
+    'grill',
+    'fry',
+    'sauté',
+    'saute',
+    'braise',
+    'simmer',
+    'boil',
+    'steam',
+    'poach',
+    'blanch',
+    'toast',
+    'char',
+    'smoke',
+    'marinate',
+    'brine',
+    'prepare',
+    'make',
+    'build',
+    'assemble',
+    'create',
+    'form',
+    'shape',
+    'roll',
+    'stuff',
+    'fill',
+    'line',
+    'grease',
+    'butter',
+    'remove',
+    'transfer',
+    'strain',
+    'drain',
+    'squeeze',
+    'press',
+    'blend',
+    'puree',
+    'process',
+    'mash',
+    'crush',
+    'pound',
+    'trim',
+    'peel',
+    'core',
+    'seed',
+    'debone',
+    'butterfly',
+    'reduce',
+    'deglaze',
+    'mount',
+    'finish',
+    'garnish',
+    'plate',
+    'serve',
+    'rest',
+    'cool',
+    'chill',
+    'freeze',
+    'thaw',
+    'set',
+    'bring',
+    'let',
+    'check',
+    'taste',
+    'adjust',
+    'temper',
   ]);
 
   // First word should ideally be a verb
@@ -479,9 +814,7 @@ function fixDirectionsFormatting(body) {
 
   // Find the end of the Directions section (next ## header or end of file)
   const nextHeaderMatch = afterHeader.match(/\n##\s+/);
-  const sectionEnd = nextHeaderMatch
-    ? headerIndex + nextHeaderMatch.index
-    : body.length;
+  const sectionEnd = nextHeaderMatch ? headerIndex + nextHeaderMatch.index : body.length;
 
   const sectionText = body.slice(headerIndex, sectionEnd);
 
@@ -490,7 +823,7 @@ function fixDirectionsFormatting(body) {
 
   // If ALL steps already have bold, skip
   const stepLines = sectionText.match(/^\d+\.\s+.+$/gm) || [];
-  const unformattedSteps = stepLines.filter(l => !/\*\*/.test(l));
+  const unformattedSteps = stepLines.filter((l) => !/\*\*/.test(l));
 
   if (unformattedSteps.length === 0) return { newBody: body, stepsFixed: 0 };
 
@@ -510,10 +843,7 @@ function fixDirectionsFormatting(body) {
     if (newStepText !== stepText) {
       // Escape regex special chars in the original line for replacement
       const escaped = line.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-      newSection = newSection.replace(
-        new RegExp(escaped),
-        `${prefix}${newStepText}`
-      );
+      newSection = newSection.replace(new RegExp(escaped), `${prefix}${newStepText}`);
       stepsFixed++;
     }
   }
@@ -523,7 +853,6 @@ function fixDirectionsFormatting(body) {
   const newBody = body.slice(0, headerIndex) + newSection + body.slice(sectionEnd);
   return { newBody, stepsFixed };
 }
-
 
 // ═══════════════════════════════════════════════════════
 //  FILE SURGERY — add fields without reformatting YAML
@@ -583,7 +912,6 @@ function replaceEmptyArray(raw, fieldName, values) {
   const replacement = `${fieldName}: [${values.join(', ')}]`;
   return raw.replace(pattern, replacement);
 }
-
 
 // ═══════════════════════════════════════════════════════
 //  MAIN PROCESSING
@@ -648,7 +976,10 @@ async function main() {
     }
 
     // ─── 2. Dietary ───
-    if (!recipe.data.dietary || (Array.isArray(recipe.data.dietary) && recipe.data.dietary.length === 0)) {
+    if (
+      !recipe.data.dietary ||
+      (Array.isArray(recipe.data.dietary) && recipe.data.dietary.length === 0)
+    ) {
       const dietary = inferDietary(recipe.data, recipe.body);
       if (dietary.length > 0) {
         if (Array.isArray(recipe.data.dietary) && recipe.data.dietary.length === 0) {
@@ -662,7 +993,10 @@ async function main() {
     }
 
     // ─── 3. Seasons ───
-    if (!recipe.data.seasons || (Array.isArray(recipe.data.seasons) && recipe.data.seasons.length === 0)) {
+    if (
+      !recipe.data.seasons ||
+      (Array.isArray(recipe.data.seasons) && recipe.data.seasons.length === 0)
+    ) {
       const seasons = inferSeasons(recipe.data, recipe.body);
       if (seasons.length > 0) {
         if (Array.isArray(recipe.data.seasons) && recipe.data.seasons.length === 0) {
@@ -676,7 +1010,10 @@ async function main() {
     }
 
     // ─── 4. Equipment ───
-    if (!recipe.data.equipment || (Array.isArray(recipe.data.equipment) && recipe.data.equipment.length === 0)) {
+    if (
+      !recipe.data.equipment ||
+      (Array.isArray(recipe.data.equipment) && recipe.data.equipment.length === 0)
+    ) {
       const equipment = inferEquipment(recipe.body);
       if (equipment.length > 0) {
         if (Array.isArray(recipe.data.equipment) && recipe.data.equipment.length === 0) {
@@ -690,7 +1027,10 @@ async function main() {
     }
 
     // ─── 5. Advance Prep ───
-    if (!recipe.data.advancePrep || (Array.isArray(recipe.data.advancePrep) && recipe.data.advancePrep.length === 0)) {
+    if (
+      !recipe.data.advancePrep ||
+      (Array.isArray(recipe.data.advancePrep) && recipe.data.advancePrep.length === 0)
+    ) {
       const advancePrep = inferAdvancePrep(recipe.body);
       if (advancePrep.length > 0) {
         if (Array.isArray(recipe.data.advancePrep) && recipe.data.advancePrep.length === 0) {
@@ -728,7 +1068,7 @@ async function main() {
       }
 
       // Log progress every recipe
-      const fieldsSummary = changes.map(c => c.field).join(', ');
+      const fieldsSummary = changes.map((c) => c.field).join(', ');
       console.log(`  ✓ ${recipe.slug}: ${fieldsSummary}`);
     } else {
       report.summary.recipesSkipped++;
@@ -768,7 +1108,7 @@ async function main() {
   console.log(`${'═'.repeat(60)}\n`);
 }
 
-main().catch(err => {
+main().catch((err) => {
   console.error('Fatal error:', err);
   process.exit(1);
 });
