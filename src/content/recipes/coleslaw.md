@@ -18,7 +18,7 @@ nutritionalDensity: light
 leftovers: good
 advancePrep: [make-ahead]
 equipment: []
-pairsWith: [bbq-chicken-sliders, best-slow-cooker-pulled-pork, tacos]
+pairsWith: [bbq-chicken-sliders, pulled-pork, tacos]
 ingredients:
   - '1 small head Green Cabbage (about 2 lbs), cored and thinly shredded'
   - '2 medium Carrots, peeled and grated'

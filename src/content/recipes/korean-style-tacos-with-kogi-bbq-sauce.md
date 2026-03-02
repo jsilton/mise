@@ -15,7 +15,7 @@ servings: '4'
 pairsWith: [mexican-street-corn-salad, roasted-sweet-potatoes, guacamole]
 ingredients:
   - >-
-    1 lb Cooked [Pulled Pork](/mise/recipes/best-slow-cooker-pulled-pork)
+    1 lb Cooked [Pulled Pork](/mise/recipes/pulled-pork)
     or Shredded Chicken
   - 12 Corn Tortillas
   - 2 tbsp Gochujang

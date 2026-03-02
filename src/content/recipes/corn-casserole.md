@@ -16,7 +16,7 @@ pairsWith:
   [
     quick-and-easy-drop-biscuits,
     tomato-cobbler-with-cornmeal-cheddar-biscuits,
-    best-slow-cooker-pulled-pork,
+    pulled-pork,
   ]
 ingredients:
   - 1 box (8.5 oz) Jiffy Corn Bread Mix

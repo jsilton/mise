@@ -12,6 +12,8 @@
     "lint": "eslint . --fix",
     "validate-recipes": "node ./scripts/validate-recipes.mjs",
     "chef-review": "node ./scripts/chef-review.mjs",
+    "overnight-fix": "node ./scripts/overnight-fix.mjs",
+    "overnight-fix:dry": "node ./scripts/overnight-fix.mjs --dry-run",
     "qa": "node ./scripts/qa-test.mjs",
     "deploy": "npm run qa && npm run build && echo 'Ready to deploy - push /dist/ to production'",
     "prepare": "husky || true"

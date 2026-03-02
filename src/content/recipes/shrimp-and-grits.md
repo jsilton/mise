@@ -12,7 +12,7 @@ prepTime: 15 min
 cookTime: 25 min
 totalTime: 40 min
 servings: '4'
-pairsWith: [my-favorite-cornbread, nanas-biscuits, corn-bread-dressing]
+pairsWith: [cornbread, nanas-biscuits, corn-bread-dressing]
 ingredients:
   - '1 lb Medium Shrimp, peeled and deveined'
   - '6 slices Smoked Bacon, chopped'

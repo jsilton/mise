@@ -2,7 +2,7 @@
 title: White Chicken Chili Night
 template: soup-and-side
 main: white-chicken-chili
-sides: [cast-iron-skillet-corn-bread]
+sides: [cornbread]
 totalPrepTime: 15 min
 totalCookTime: 30 min
 totalActiveTime: 20 min

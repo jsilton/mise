@@ -25,7 +25,7 @@ ingredients:
   - ¼ teaspoon garlic powder
   - Pinch of cayenne pepper
   - 4 tablespoons unsalted butter, cubed
-pairsWith: [best-slow-cooker-pulled-pork, honey-lime-chicken-thighs]
+pairsWith: [pulled-pork, honey-lime-chicken-thighs]
 advancePrep: [none]
 ---
 

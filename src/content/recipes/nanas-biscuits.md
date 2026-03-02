@@ -13,7 +13,7 @@ cookTime: 12 min
 totalTime: 22 min
 servings: '12'
 pairsWith:
-  [best-slow-cooker-pulled-pork, shrimp-and-grits, tomato-cobbler-with-cornmeal-cheddar-biscuits]
+  [pulled-pork, shrimp-and-grits, tomato-cobbler-with-cornmeal-cheddar-biscuits]
 ingredients:
   - '2 cups Self-Rising Flour (sifted)'
   - '1/4 cup Unsalted Butter, cold and cubed (Replaces Crisco)'

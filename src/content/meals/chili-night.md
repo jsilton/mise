@@ -2,7 +2,7 @@
 title: Chili Night
 template: soup-and-side
 main: chili
-sides: [cast-iron-skillet-corn-bread]
+sides: [cornbread]
 totalPrepTime: 15 min
 totalCookTime: 60 min
 totalActiveTime: 20 min

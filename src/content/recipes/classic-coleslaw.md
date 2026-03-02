@@ -16,7 +16,7 @@ seasons: [spring, summer, year-round]
 nutritionalDensity: light
 leftovers: good
 equipment: []
-pairsWith: [best-slow-cooker-pulled-pork, honey-glazed-spareribs, buttermilk-baked-chicken]
+pairsWith: [pulled-pork, honey-glazed-spareribs, buttermilk-baked-chicken]
 ingredients:
   - 1 medium Green Cabbage (about 2 lbs), cored and thinly sliced
   - 2 large Carrots, peeled and grated

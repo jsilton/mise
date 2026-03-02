@@ -16,7 +16,7 @@ pairsWith:
   [
     quick-and-easy-drop-biscuits,
     tomato-cobbler-with-cornmeal-cheddar-biscuits,
-    best-slow-cooker-pulled-pork,
+    pulled-pork,
   ]
 ingredients:
   - 1 cup Self-rising Corn Meal
