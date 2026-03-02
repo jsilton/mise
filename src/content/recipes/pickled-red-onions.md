@@ -12,6 +12,7 @@ prepTime: 10 min
 cookTime: 0 min
 totalTime: 40 min
 servings: 1 cup
+pairsWith: [carnitas-bowl, chipotle-pork-and-sweet-corn-tamale-bowls, honey-lime-chicken-thighs]
 ingredients:
   - '1 large Red Onion, thinly sliced into half-moons'
   - 1/2 cup Apple Cider Vinegar

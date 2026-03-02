@@ -12,6 +12,7 @@ prepTime: 10 min
 cookTime: 15 min
 totalTime: 25 min
 servings: '4'
+pairsWith: [miso-soup, dashi-japanese-sea-stock, steamed-edamame]
 ingredients:
   - 1 lb Frozen Udon Noodles (preferred over vacuum-sealed)
   - 1/2 lb Ground Pork or Thinly Sliced Beef

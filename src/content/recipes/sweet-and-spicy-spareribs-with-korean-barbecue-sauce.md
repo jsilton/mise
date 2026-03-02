@@ -12,6 +12,7 @@ prepTime: 30 min
 cookTime: 150 min
 totalTime: 180 min
 servings: '10'
+pairsWith: [korean-pickled-cucumbers, fresh-cabbage-cucumber-and-radish-kimchi, seasoned-bean-sprouts]
 ingredients:
   - '8 lbs Pork Spareribs, membranes removed'
   - 1 cup Gochujang (Fermented Hot Pepper Paste)

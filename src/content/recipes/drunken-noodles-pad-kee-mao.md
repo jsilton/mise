@@ -13,6 +13,7 @@ prepTime: 20 min
 cookTime: 15 min
 totalTime: 35 min
 servings: '4'
+pairsWith: [coconut-jasmine-rice, eggplant-with-garlic-sauce, quick-pickled-carrots-and-daikon]
 ingredients:
   - '12 oz Chicken Thighs, thinly sliced'
   - 8 oz Wide Dried Rice Noodles (Bánh Phở)

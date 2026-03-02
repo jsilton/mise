@@ -12,6 +12,7 @@ prepTime: 10 min
 cookTime: 60 min
 totalTime: 70 min
 servings: '8'
+pairsWith: [anadama-bread, garlic-bread, vegan-caesar-pasta-salad]
 ingredients:
   - 1/2 lb (2 sticks) Unsalted Butter (The "Silk" Base)
   - '1 lb Yellow Onions, diced'

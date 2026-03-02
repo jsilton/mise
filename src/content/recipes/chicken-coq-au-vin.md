@@ -12,6 +12,7 @@ prepTime: 30 min
 cookTime: 2 hours
 totalTime: 2.5 hours
 servings: '4'
+pairsWith: [sweet-and-white-potato-gratin, tarragon-potatoes, garlic-bread]
 ingredients:
   - '2 lbs Chicken Thighs, bone-in and skin-on'
   - '4 oz Bacon or Lardons, diced'

@@ -13,6 +13,7 @@ prepTime: 20 min
 cookTime: 10 min
 totalTime: 2 hours
 servings: 8 breads
+pairsWith: [chicken-tikka-masala, lamb-keema-matar, curried-carrot-and-apple-soup]
 ingredients:
   - 2 cups All-Purpose Flour
   - 1 tsp Instant Yeast

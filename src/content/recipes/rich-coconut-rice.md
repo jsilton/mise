@@ -12,6 +12,7 @@ prepTime: 5 min
 cookTime: 20 min
 totalTime: 35 min
 servings: '4'
+pairsWith: [bibimbap, herby-chicken-meatball-bowl, miso-salmon-with-bok-choy]
 ingredients:
   - '1.5 cups Jasmine Rice'
   - '1 can (14 oz) Full-Fat Coconut Milk'

@@ -12,6 +12,7 @@ prepTime: 30 min
 cookTime: 10 min
 totalTime: 40 min
 servings: 12 fritters
+pairsWith: [arugula-feta-salad, peach-salad-with-tomatoes-and-beets, roasted-broccolini-with-lemon]
 ingredients:
   - '2 small Zucchini, grated'
   - '1 small Russet Potato, grated'

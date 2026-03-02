@@ -12,6 +12,7 @@ prepTime: 10 min
 cookTime: 30 min
 totalTime: 40 min
 servings: '6'
+pairsWith: [sweet-and-white-potato-gratin, tarragon-potatoes, peach-salad-with-tomatoes-and-beets]
 ingredients:
   - '10 oz Fresh Baby Spinach'
   - '1 large Yellow Onion, thinly sliced'

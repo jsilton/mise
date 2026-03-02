@@ -12,6 +12,7 @@ prepTime: 10 min
 cookTime: 30 min
 totalTime: 40 min
 servings: '6'
+pairsWith: [cilantro-lime-rice, homemade-enchilada-sauce, mexican-street-corn-salad]
 ingredients:
   - 2 cups Shredded Rotisserie Chicken
   - 1 cup Sour Cream (for richness)

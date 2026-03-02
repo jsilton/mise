@@ -16,7 +16,7 @@ prepTime: 5 min
 cookTime: 10 min
 totalTime: 15 min
 servings: '1'
-pairsWith: []
+pairsWith: [avocado-kale-caesar-salad, brownie-protein-balls, banana-oat-greek-yogurt-muffins]
 ingredients:
   - '1 large ripe Banana (the spottier the better)'
   - '2 large Eggs'

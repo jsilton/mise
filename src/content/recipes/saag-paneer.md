@@ -12,6 +12,7 @@ prepTime: 15 min
 cookTime: 25 min
 totalTime: 40 min
 servings: '4'
+pairsWith: [spiced-coconut-chicken-rice, basmati-rice, cucumber-raita]
 ingredients:
   - '6 oz Paneer Cheese, cubed'
   - '16 oz Frozen Chopped Spinach, thawed and squeezed'

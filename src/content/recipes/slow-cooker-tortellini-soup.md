@@ -12,6 +12,7 @@ prepTime: 15 min
 cookTime: 240 min
 totalTime: 255 min
 servings: '8'
+pairsWith: [garlic-bread, charred-asparagus-with-parmesan, creamy-polenta]
 ingredients:
   - '1 1/2 lbs Chicken Thighs, boneless and skinless'
   - 4 cups Cheese Tortellini (frozen)

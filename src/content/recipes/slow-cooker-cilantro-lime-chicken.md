@@ -12,6 +12,7 @@ prepTime: 10 min
 cookTime: 480 min
 totalTime: 490 min
 servings: '6'
+pairsWith: [mexican-street-corn-salad, queso-fundido-with-chorizo, roasted-sweet-potatoes]
 ingredients:
   - 1 1/2 lbs Chicken Breasts
   - '1 can (15 oz) Black Beans, rinsed'

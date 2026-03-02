@@ -12,6 +12,7 @@ prepTime: 30 min
 cookTime: 60 min
 totalTime: 90 min
 servings: '8'
+pairsWith: [shrimp-and-grits, buttermilk-baked-chicken, quick-and-easy-drop-biscuits]
 ingredients:
   - '1 tray (8x8) Cornbread, cut into 3/4-inch cubes'
   - 3/4 cup Unsalted Butter

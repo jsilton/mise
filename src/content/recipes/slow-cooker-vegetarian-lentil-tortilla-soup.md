@@ -12,6 +12,7 @@ prepTime: 15 min
 cookTime: 300 min
 totalTime: 315 min
 servings: '6'
+pairsWith: [homemade-enchilada-sauce, mexican-street-corn-salad, queso-fundido-with-chorizo]
 ingredients:
   - '3/4 cup Red Lentils, dry'
   - 1 can (15 oz) Black Beans + 1 can Pinto Beans

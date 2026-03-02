@@ -17,6 +17,7 @@ prepTime: 10 min
 cookTime: 55 min
 totalTime: 65 min
 servings: 12 slices
+pairsWith: [banana-oat-greek-yogurt-muffins, almond-zucchini-bread, anadama-bread]
 ingredients:
   - 1 3/4 cups White Whole Wheat Flour
   - '1 cup (225g) Ripe Bananas, mashed'

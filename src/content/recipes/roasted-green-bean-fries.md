@@ -12,6 +12,7 @@ prepTime: 5 min
 cookTime: 12 min
 totalTime: 17 min
 servings: '4'
+pairsWith: [chicken-fingers, chocolate-blended-oats-with-raspberry-chia-jam, classic-beef-stew]
 ingredients:
   - '1 lb Fresh Green Beans, trimmed'
   - '1 tbsp Extra-Virgin Olive Oil'

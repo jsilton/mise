@@ -18,6 +18,7 @@ prepTime: 15 min
 cookTime: 10 min
 totalTime: 25 min
 servings: '4'
+pairsWith: [easy-breakfast-yogurt-popsicles, banana-oat-greek-yogurt-muffins, cinnamon-sweet-potatoes]
 ingredients:
   - 1 lb Ground Turkey (93% lean is best)
   - 1/4 cup Panko Breadcrumbs

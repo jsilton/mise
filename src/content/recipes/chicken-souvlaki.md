@@ -12,6 +12,7 @@ prepTime: 15 min
 cookTime: 10 min
 totalTime: 40 min
 servings: '4'
+pairsWith: [garlic-butter-couscous, greek-salad, lemon-herb-couscous]
 ingredients:
   - '1.5 lbs Chicken Thighs, cut into 1-inch cubes'
   - 1/4 cup Extra-Virgin Olive Oil

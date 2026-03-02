@@ -16,6 +16,7 @@ prepTime: 20 min
 cookTime: 20 min
 totalTime: 40 min
 servings: '6'
+pairsWith: [avocado-kale-caesar-salad, green-beans-with-shallots-and-lemon, cinnamon-sweet-potatoes]
 ingredients:
   - '1 lb Center-cut Salmon, sliced into 6 strips'
   - 1/3 cup Balsamic Vinegar

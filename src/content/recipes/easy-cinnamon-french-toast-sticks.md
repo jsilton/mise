@@ -16,6 +16,7 @@ prepTime: 10 min
 cookTime: 10 min
 totalTime: 20 min
 servings: '6'
+pairsWith: [almond-zucchini-bread, anadama-bread, bakery-style-chocolate-chip-muffins]
 ingredients:
   - 8 slices Thick-cut Texas Toast (Day-old preferred)
   - 4 large Eggs

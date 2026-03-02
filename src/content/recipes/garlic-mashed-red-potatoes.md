@@ -16,6 +16,7 @@ prepTime: 10 min
 cookTime: 20 min
 totalTime: 30 min
 servings: '6'
+pairsWith: [rosemary-pork-tenderloin, chicken-pot-pie-ix, creamy-whole-wheat-mac-and-cheese]
 ingredients:
   - '8 medium Red Potatoes, quartered (Skin-on)'
   - '3 large Garlic Cloves, peeled'

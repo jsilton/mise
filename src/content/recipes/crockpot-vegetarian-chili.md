@@ -12,6 +12,7 @@ prepTime: 15 min
 cookTime: 240 min
 totalTime: 255 min
 servings: '6'
+pairsWith: [mexican-street-corn-salad, cilantro-lime-rice, quick-seasoned-black-beans]
 ingredients:
   - '1 large Red Onion, diced'
   - '2 stalks Celery, diced'

@@ -1,18 +1,19 @@
 ---
 title: Cucumber Raita
-aliases:
-  - 'cucumber-raita-the-indian-cooler'
+origin: India
 difficulty: easy
-cookingMethods: []
-dietary: []
+cookingMethods: [no-cook]
+dietary: [vegetarian, gluten-free, nut-free]
 occasions: [weeknight, quick-lunch]
 flavorProfile: [spicy, sweet]
 cuisines: [Indian]
 role: side
 vibe: quick
-season: [spring, summer, fall, winter]
+seasons: [spring, summer, fall, winter]
+nutritionalDensity: light
 leftovers: poor
-healthiness: light
+advancePrep: [make-ahead]
+equipment: [mixing-bowl, box-grater]
 pairsWith: [coconut-chicken-curry, homemade-naan]
 prepTime: 10 min
 cookTime: 0 min

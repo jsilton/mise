@@ -17,6 +17,7 @@ prepTime: 5 min
 cookTime: 20 min
 totalTime: 25 min
 servings: '12'
+pairsWith: [banana-oat-greek-yogurt-muffins, brownie-protein-balls, easy-breakfast-yogurt-popsicles]
 ingredients:
   - 1 cup Pure Pumpkin Puree
   - '1/3 cup Unsalted Butter, melted'

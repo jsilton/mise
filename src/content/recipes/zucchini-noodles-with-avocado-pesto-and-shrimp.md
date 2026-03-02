@@ -16,7 +16,7 @@ prepTime: 15 min
 cookTime: 10 min
 totalTime: 25 min
 servings: '4'
-pairsWith: []
+pairsWith: [roasted-broccolini-with-lemon, san-marzano-tomato-sauce, charred-asparagus-with-parmesan]
 ingredients:
   - '5 medium Zucchini, spiralized'
   - '1 lb Shrimp, peeled and deveined'

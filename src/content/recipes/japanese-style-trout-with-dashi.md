@@ -12,6 +12,7 @@ prepTime: 15 min
 cookTime: 30 min
 totalTime: 45 min
 servings: '4'
+pairsWith: [master-sushi-rice, miso-soup, soy-ginger-dipping-sauce]
 ingredients:
   - 4 Rainbow Trout Fillets (6 oz each)
   - '[Dashi (Japanese Sea Stock)](/mise/recipes/dashi-japanese-sea-stock)'

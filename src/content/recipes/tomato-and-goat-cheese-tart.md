@@ -12,6 +12,7 @@ prepTime: 20 min
 cookTime: 140 min
 totalTime: 160 min
 servings: '6'
+pairsWith: [sweet-and-white-potato-gratin, tarragon-potatoes, garlic-bread]
 ingredients:
   - 2 cups All-Purpose Flour
   - '3/4 cup (6 oz) Cold Butter, cubed'

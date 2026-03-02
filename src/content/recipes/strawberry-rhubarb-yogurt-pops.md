@@ -17,6 +17,7 @@ prepTime: 15 min
 cookTime: 5 min
 totalTime: 240 min
 servings: 10 pops
+pairsWith: [healthy-carrot-cake-muffins-with-cream-cheese-glaze, whole-wheat-muffins-fruit-nut-or-berry, seared-scallops-with-a-corn-bacon-and-avocado-relish]
 ingredients:
   - '1 lb Fresh Strawberries, minced'
   - '3 stalks Rhubarb, minced'

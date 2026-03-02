@@ -12,6 +12,7 @@ prepTime: 15 min
 cookTime: 55 min
 totalTime: 70 min
 servings: '10'
+pairsWith: [blueberry-baked-oatmeal, blueberry-pancakes, brownie-baked-oatmeal]
 ingredients:
   - '3 large Very Ripe Bananas (about 375g), mashed'
   - '1/2 cup (1 stick) Unsalted Butter, melted and cooled'

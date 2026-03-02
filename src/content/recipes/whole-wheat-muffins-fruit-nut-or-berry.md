@@ -17,6 +17,7 @@ prepTime: 10 min
 cookTime: 15 min
 totalTime: 25 min
 servings: '12'
+pairsWith: [banana-oat-greek-yogurt-muffins, avocado-kale-caesar-salad, roasted-fall-harvest-salad]
 ingredients:
   - 1 1/2 cups White Whole-wheat Flour (King Arthur Standard)
   - 3/4 cup Apple or Orange Juice (The Acid Balance)

@@ -12,6 +12,7 @@ prepTime: 5 min
 cookTime: 600 min
 totalTime: 605 min
 servings: '8'
+pairsWith: [queso-fundido-with-chorizo, mexican-street-corn-salad, roasted-sweet-potatoes]
 ingredients:
   - 1 1/4 lbs Chicken Breasts or Thighs
   - 2 cans (15 oz) Great Northern Beans

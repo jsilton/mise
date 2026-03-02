@@ -17,6 +17,7 @@ prepTime: 10 min
 cookTime: 0 min
 totalTime: 10 min
 servings: 1 large batch
+pairsWith: [healthy-carrot-cake-muffins-with-cream-cheese-glaze, whole-wheat-muffins-fruit-nut-or-berry, avocado-toast]
 ingredients:
   - 2.5 cups All-Purpose Flour
   - 1 1/4 cups Fine Salt

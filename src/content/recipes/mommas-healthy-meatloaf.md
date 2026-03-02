@@ -12,6 +12,7 @@ prepTime: 15 min
 cookTime: 45 min
 totalTime: 60 min
 servings: '4'
+pairsWith: [anadama-bread, cinnamon-sweet-potatoes, coleslaw]
 ingredients:
   - 1 lb Ground Turkey or Lean Ground Beef
   - 1 cup Whole Wheat Breadcrumbs

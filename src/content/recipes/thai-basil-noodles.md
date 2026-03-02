@@ -14,6 +14,7 @@ prepTime: 10 min
 cookTime: 10 min
 totalTime: 20 min
 servings: '4'
+pairsWith: [coconut-jasmine-rice, eggplant-with-garlic-sauce, quick-pickled-carrots-and-daikon]
 ingredients:
   - 8 oz Wide Dried Rice Noodles
   - 1 tbsp Fish Sauce

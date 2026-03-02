@@ -13,6 +13,7 @@ prepTime: 15 min
 cookTime: 10 min
 totalTime: 40 min
 servings: '4'
+pairsWith: [mexican-street-corn-salad, arugula-feta-salad, avocado-kale-caesar-salad]
 ingredients:
   - 1.5 lbs Boneless Skinless Chicken Thighs
   - 2 tbsp Fish Sauce

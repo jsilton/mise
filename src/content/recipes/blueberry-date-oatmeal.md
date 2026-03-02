@@ -16,6 +16,7 @@ prepTime: 5 min
 cookTime: 10 min
 totalTime: 15 min
 servings: '2'
+pairsWith: [avocado-kale-caesar-salad, brownie-protein-balls, banana-oat-greek-yogurt-muffins]
 ingredients:
   - 1 cup Rolled Oats
   - 2 tbsp Frozen Riced Cauliflower (The "Volume" Hack)

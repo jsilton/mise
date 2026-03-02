@@ -17,6 +17,7 @@ prepTime: 5 min
 cookTime: 480 min
 totalTime: 485 min
 servings: '1'
+pairsWith: [avocado-kale-caesar-salad, brownie-protein-balls, banana-oat-greek-yogurt-muffins]
 ingredients:
   - 1/2 cup Rolled Oats
   - 1/2 cup Milk of choice (Coconut or Soy preferred)

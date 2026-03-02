@@ -12,6 +12,7 @@ prepTime: 20 min
 cookTime: 4 hours
 totalTime: 4.5 hours
 servings: '4'
+pairsWith: [roasted-sweet-potatoes, cucumber-raita, coconut-jasmine-rice]
 ingredients:
   - '1 lb Chicken Breast or Thighs, cubed'
   - '1 medium Yellow Onion, diced'

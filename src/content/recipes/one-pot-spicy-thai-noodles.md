@@ -13,6 +13,7 @@ prepTime: 10 min
 cookTime: 15 min
 totalTime: 25 min
 servings: '4'
+pairsWith: [coconut-jasmine-rice, eggplant-with-garlic-sauce, quick-pickled-carrots-and-daikon]
 ingredients:
   - 1 lb Penne or Linguine
   - 1/3 cup Low-sodium Soy Sauce

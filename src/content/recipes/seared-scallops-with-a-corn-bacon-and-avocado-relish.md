@@ -16,6 +16,7 @@ prepTime: 10 min
 cookTime: 10 min
 totalTime: 20 min
 servings: '4'
+pairsWith: [roasted-sunchokes-with-brown-butter-cider-vinaigrette, spicy-peach-and-avocado-salad, roasted-fall-harvest-salad]
 ingredients:
   - 16 Dry Sea Scallops
   - '4 ears Fresh Corn, shucked'

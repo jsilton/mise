@@ -12,6 +12,7 @@ prepTime: 40 min
 cookTime: 20 min
 totalTime: 60 min
 servings: '3'
+pairsWith: [chinese-garlic-sauce-base, steamed-bok-choy-with-oyster-sauce, cantonese-wonton-broth]
 ingredients:
   - 1/2 pkg Wide Rice Noodles (Bánh Phở)
   - '1/4 lb Shrimp, peeled and deveined'

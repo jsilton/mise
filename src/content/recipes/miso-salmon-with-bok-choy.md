@@ -12,6 +12,7 @@ prepTime: 15 min
 cookTime: 15 min
 totalTime: 30 min
 servings: '4'
+pairsWith: [steamed-edamame, avocado-kale-caesar-salad, everyday-arugula-salad]
 ingredients:
   - '4 Salmon Fillets (6 oz each), skin-on or skin-off'
   - 3 tbsp White Miso Paste

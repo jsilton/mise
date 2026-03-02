@@ -12,6 +12,7 @@ prepTime: 20 min
 cookTime: 240 min
 totalTime: 260 min
 servings: '10'
+pairsWith: [honey-glazed-carrots, nana-ruths-applesauce, avocado-kale-caesar-salad]
 ingredients:
   - '6-7 lbs Beef Brisket, flat cut'
   - 2 tbsp Kosher Salt

@@ -12,6 +12,7 @@ prepTime: 15 min
 cookTime: 65 min
 totalTime: 80 min
 servings: 6 cups
+pairsWith: [fresh-pasta-dough, fresh-egg-pasta, garlic-bread]
 ingredients:
   - '1 lb Pork or Veal Shoulder, chopped small'
   - '1 lb Mild or Spicy Italian Sausage, bulk'

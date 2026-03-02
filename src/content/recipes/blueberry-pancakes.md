@@ -12,6 +12,7 @@ prepTime: 10 min
 cookTime: 15 min
 totalTime: 25 min
 servings: '12 pancakes'
+pairsWith: [anadama-bread, cinnamon-sweet-potatoes, honey-glazed-carrots]
 ingredients:
   - '2 large Eggs'
   - '1 cup Whole Milk'

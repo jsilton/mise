@@ -16,6 +16,7 @@ prepTime: 10 min
 cookTime: 35 min
 totalTime: 45 min
 servings: 6 cups
+pairsWith: [sheet-pan-chicken-broccoli, rosemary-pork-tenderloin, beef-tenderloin-dogs-with-corn-relish]
 ingredients:
   - '3 lbs Yukon Gold Potatoes, peeled and cubed'
   - 1/3 cup Unsalted Butter

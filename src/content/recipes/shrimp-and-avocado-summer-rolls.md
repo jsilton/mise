@@ -12,6 +12,7 @@ prepTime: 30 min
 cookTime: 15 min
 totalTime: 45 min
 servings: 6 rolls
+pairsWith: [quick-pickled-carrots-and-daikon, coconut-jasmine-rice, greek-salad]
 ingredients:
   - '18 medium Shrimp, shelled and deveined'
   - 6 round Rice Paper Wrappers

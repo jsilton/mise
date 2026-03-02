@@ -16,6 +16,7 @@ prepTime: 15 min
 cookTime: 20 min
 totalTime: 35 min
 servings: '4'
+pairsWith: [avocado-kale-caesar-salad, cinnamon-sweet-potatoes, green-beans-with-shallots-and-lemon]
 ingredients:
   - '2 lbs Boneless Pork Butt (or Shoulder), butterflied'
   - '6 Fresh Peaches, halved and pitted'

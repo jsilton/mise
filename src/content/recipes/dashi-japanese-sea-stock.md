@@ -13,6 +13,7 @@ prepTime: 5 min
 cookTime: 10 min
 totalTime: 15 min
 servings: '6 cups'
+pairsWith: [lemon-miso-tofu-with-broccoli, miso-salmon-with-bok-choy, soba-noodles-with-shiitakes-broccoli-and-tofu]
 ingredients:
   - '6 cups Cold Water'
   - '1 oz (30g) Kombu (Dried Kelp), approx 20 sq inches'

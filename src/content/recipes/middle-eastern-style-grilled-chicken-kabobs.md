@@ -13,6 +13,7 @@ prepTime: 35 min
 cookTime: 15 min
 totalTime: 50 min
 servings: '6'
+pairsWith: [lemon-herb-couscous, garlic-butter-couscous, garlic-paste-toum-the-washington-post]
 ingredients:
   - '2 1/2 lbs Chicken Thighs, cut into 1.5-inch pieces'
   - '1 large Red Onion, cut into 1-inch chunks'

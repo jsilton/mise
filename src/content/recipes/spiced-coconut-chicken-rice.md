@@ -12,6 +12,7 @@ prepTime: 45 min
 cookTime: 45 min
 totalTime: 90 min
 servings: '4'
+pairsWith: [chicken-tikka-masala, lamb-keema-matar, chana-begoon]
 ingredients:
   - '1 1/2 lbs Chicken Thighs, boneless and skinless'
   - 1 1/2 cups Basmati Rice

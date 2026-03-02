@@ -17,6 +17,7 @@ prepTime: 10 min
 cookTime: 0 min
 totalTime: 240 min
 servings: '8'
+pairsWith: [chicken-apple-and-butternut-stew, dutch-baby-pancake, frozen-blueberry-muffins]
 ingredients:
   - '1 small box Orange Jello'
   - '1 small can Crushed Pineapple (with juice)'

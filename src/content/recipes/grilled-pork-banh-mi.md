@@ -13,6 +13,7 @@ prepTime: 30 min
 cookTime: 10 min
 totalTime: 4 hours
 servings: '4'
+pairsWith: [quick-pickled-carrots-and-daikon, coconut-jasmine-rice, eggplant-with-garlic-sauce]
 ingredients:
   - '1.5 lbs Pork Tenderloin or Butt, thinly sliced'
   - 1/4 cup Fish Sauce

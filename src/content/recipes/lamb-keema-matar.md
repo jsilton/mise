@@ -13,6 +13,7 @@ prepTime: 10 min
 cookTime: 20 min
 totalTime: 30 min
 servings: '4'
+pairsWith: [spiced-coconut-chicken-rice, cucumber-raita, homemade-naan]
 ingredients:
   - 1 lb Ground Lamb
   - 1 cup Frozen Peas

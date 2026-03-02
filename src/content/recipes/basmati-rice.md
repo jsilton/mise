@@ -12,6 +12,7 @@ prepTime: 5 min
 cookTime: 20 min
 totalTime: 35 min
 servings: '6'
+pairsWith: [sheet-pan-chicken-broccoli, avgolemono-soup, chinese-spicy-garlic-eggplant]
 ingredients:
   - '2 cups Extra-Long Grain Basmati Rice (Royal or Tilda)'
   - '3 cups Water'

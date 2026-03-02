@@ -13,6 +13,7 @@ prepTime: 10 min
 cookTime: 5 min
 totalTime: 15 min
 servings: '4'
+pairsWith: [avocado-kale-caesar-salad, sesame-cucumber-salad, sesame-tomato-salad]
 ingredients:
   - '1 lb Ribeye Beef, very thinly sliced (The "Super H-Mart" Shortcut: Buy pre-sliced or pre-marinated "Bulgogi" beef)'
   - '3 tbsp Soy Sauce'

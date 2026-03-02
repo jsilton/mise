@@ -1,16 +1,19 @@
 ---
 title: Everyday Arugula Salad
 difficulty: easy
-cookingMethods: []
-dietary: []
+origin: Italy
+cookingMethods: [no-cook]
+dietary: [vegetarian, gluten-free, nut-free]
 occasions: [weeknight, light-and-fresh, quick-lunch]
 flavorProfile: [acidic, umami, rich]
 cuisines: [Mediterranean]
 role: side
 vibe: quick
-season: [spring, summer, fall, winter]
+seasons: [spring, summer, fall, winter]
+nutritionalDensity: light
 leftovers: poor
-healthiness: light
+advancePrep: []
+equipment: [mixing-bowl]
 pairsWith: [vietnamese-grilled-chicken, miso-salmon-with-bok-choy]
 prepTime: 5 min
 cookTime: 0 min

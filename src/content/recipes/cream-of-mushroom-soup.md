@@ -12,6 +12,7 @@ prepTime: 10 min
 cookTime: 20 min
 totalTime: 30 min
 servings: '6'
+pairsWith: [cinnamon-sweet-potatoes, avocado-kale-caesar-salad, green-beans-with-shallots-and-lemon]
 ingredients:
   - '16 oz Cremini Mushrooms, sliced'
   - '2/3 cup Shiitake Mushrooms, sliced'

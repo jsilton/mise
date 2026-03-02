@@ -16,6 +16,7 @@ prepTime: 10 min
 cookTime: 10 min
 totalTime: 20 min
 servings: '4'
+pairsWith: [instant-pot-butternut-squash-soup, avocado-toast, stovetop-macaroni-and-cheese]
 ingredients:
   - '1 medium head Cauliflower, cut into small florets'
   - '1 tbsp Cream Cheese, softened'

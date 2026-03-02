@@ -16,6 +16,7 @@ prepTime: 5 min
 cookTime: 0 min
 totalTime: 5 min
 servings: '36 cookies'
+pairsWith: [blueberry-baked-oatmeal, breakfast-carrot-cake, chocolate-chip-beet-muffins]
 ingredients:
   - '3 large Egg Whites (room temp)'
   - '1 lb Confectioners’ Sugar, sifted'

@@ -1,5 +1,6 @@
 ---
 title: Pumpkin Breakfast Cookies
+origin: United States
 difficulty: intermediate
 cookingMethods: [bake, blend]
 dietary: [vegetarian]
@@ -17,6 +18,7 @@ prepTime: 10 min
 cookTime: 15 min
 totalTime: 25 min
 servings: 12 cookies
+pairsWith: [banana-oat-greek-yogurt-muffins, brownie-protein-balls, easy-breakfast-yogurt-popsicles]
 ingredients:
   - 1/2 cup Pure Pumpkin Puree
   - '1/4 cup Coconut Oil, melted'

@@ -17,7 +17,7 @@ prepTime: 10 min
 cookTime: 25 min
 totalTime: 35 min
 servings: '8'
-pairsWith: []
+pairsWith: [brownie-protein-balls, homemade-rice-pilaf, puffy-muffin-chicken-salad]
 ingredients:
   - 6 large Eggs
   - 1/4 cup Whole Milk

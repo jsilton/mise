@@ -13,6 +13,7 @@ prepTime: 30 min
 cookTime: 45 min
 totalTime: 75 min
 servings: '6'
+pairsWith: [dashi-japanese-sea-stock, miso-mashed-potatoes, miso-soup]
 ingredients:
   - '2 lbs Chicken Thighs, cut into 1.5-inch chunks'
   - '2 large Onions, thinly sliced'

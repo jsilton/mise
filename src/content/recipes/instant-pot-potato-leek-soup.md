@@ -12,6 +12,7 @@ prepTime: 20 min
 cookTime: 22 min
 totalTime: 42 min
 servings: '6'
+pairsWith: [sweet-and-white-potato-gratin, tarragon-potatoes, garlic-bread]
 ingredients:
   - '1 lb Yukon Gold Potatoes, cubed (Skin-off)'
   - '5 cups Leeks, cleaned and sliced (pale green parts only)'

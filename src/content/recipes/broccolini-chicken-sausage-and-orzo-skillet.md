@@ -12,6 +12,7 @@ prepTime: 10 min
 cookTime: 20 min
 totalTime: 30 min
 servings: '4'
+pairsWith: [everyday-arugula-salad, arugula-feta-salad, charred-asparagus-with-parmesan]
 ingredients:
   - '8 oz Hot Italian Chicken Sausage, sliced into rounds'
   - '1 cup Orzo pasta'

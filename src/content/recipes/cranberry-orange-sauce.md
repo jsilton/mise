@@ -14,6 +14,7 @@ prepTime: 5 min
 cookTime: 15 min
 totalTime: 20 min
 servings: '3 cups'
+pairsWith: [chicken-apple-and-butternut-stew, simple-roast-turkey, brownie-baked-oatmeal]
 ingredients:
   - '12 oz Fresh Cranberries (1 bag)'
   - '1/2 cup Sugar (adjust to taste)'

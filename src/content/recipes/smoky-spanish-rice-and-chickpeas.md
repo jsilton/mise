@@ -12,6 +12,7 @@ prepTime: 10 min
 cookTime: 25 min
 totalTime: 40 min
 servings: '4'
+pairsWith: [spanish-rice-chorizo, steamed-mussels-chorizo, weeknight-paella]
 ingredients:
   - '1 cup Long-grain White Rice, uncooked'
   - '1 can (19 oz) Chickpeas, rinsed and drained'

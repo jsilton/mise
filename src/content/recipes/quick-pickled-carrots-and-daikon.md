@@ -13,6 +13,7 @@ prepTime: 15 min
 cookTime: 0 min
 totalTime: 60 min
 servings: 2 cups
+pairsWith: [caramelized-black-pepper-chicken, grilled-pork-banh-mi, shrimp-and-avocado-summer-rolls]
 ingredients:
   - '1 cup Carrots, julienned or shredded'
   - '1 cup Daikon Radish, julienned or shredded'

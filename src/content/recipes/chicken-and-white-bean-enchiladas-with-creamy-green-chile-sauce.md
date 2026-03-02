@@ -12,6 +12,7 @@ prepTime: 20 min
 cookTime: 30 min
 totalTime: 50 min
 servings: '8'
+pairsWith: [cilantro-lime-rice, queso-fundido-with-chorizo, roasted-sweet-potatoes]
 ingredients:
   - 1 lb Shredded Chicken (Poached or Rotisserie)
   - '15 oz can Navy or Cannellini Beans, rinsed'

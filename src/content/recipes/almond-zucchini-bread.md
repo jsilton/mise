@@ -16,7 +16,7 @@ prepTime: 10 min
 cookTime: 40 min
 totalTime: 50 min
 servings: '10'
-pairsWith: []
+pairsWith: [blueberry-baked-oatmeal, breakfast-carrot-cake, chocolate-chip-beet-muffins]
 ingredients:
   - '1 1/2 cups Almond Flour'
   - '1 cup Grated Zucchini (packed, squeezed bone-dry)'

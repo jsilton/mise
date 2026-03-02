@@ -12,6 +12,7 @@ prepTime: 15 min
 cookTime: 25 min
 totalTime: 40 min
 servings: '4'
+pairsWith: [garlicky-lemon-kale-with-carrots, greek-salad, roasted-broccolini-with-lemon]
 ingredients:
   - 4 Skin-on Salmon Fillets (6-8 oz each)
   - 3 tbsp Extra-Virgin Olive Oil

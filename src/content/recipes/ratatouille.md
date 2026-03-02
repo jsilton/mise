@@ -12,6 +12,7 @@ prepTime: 20 min
 cookTime: 40 min
 totalTime: 60 min
 servings: '6'
+pairsWith: [sweet-and-white-potato-gratin, tarragon-potatoes, garlicky-lemon-kale-with-carrots]
 ingredients:
   - '1 lb Eggplant, cubed'
   - '1 large Bell Pepper, chopped'

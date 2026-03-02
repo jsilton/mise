@@ -12,6 +12,7 @@ prepTime: 15 min
 cookTime: 30 min
 totalTime: 45 min
 servings: '4'
+pairsWith: [miso-soup, dashi-japanese-sea-stock, steamed-edamame]
 ingredients:
   - '14 oz Extra-firm Tofu, pressed dry and cubed'
   - '1 lb Fresh Broccoli, cut into small florets'

@@ -1,17 +1,24 @@
 ---
 title: Whole-Wheat Mac and Cheese
+origin: United States
 difficulty: easy
-cookingMethods: [bake, roast, boil]
-dietary: []
-occasions: [comfort-food]
+cookingMethods: [boil]
+dietary: [vegetarian]
+occasions: [comfort-food, kids-approved]
 flavorProfile: [umami, rich]
 cuisines: [American]
 role: main
 vibe: comfort
+seasons: [fall, winter]
+nutritionalDensity: hearty
+leftovers: good
+advancePrep: []
+equipment: [dutch-oven]
 prepTime: 5 min
 cookTime: 10 min
 totalTime: 15 min
 servings: '4'
+pairsWith: [garlic-mashed-mock-potatoes, garlic-mashed-red-potatoes, avocado-kale-caesar-salad]
 ingredients:
   - 8 oz Whole-Wheat Elbow Macaroni
   - 2 tbsp Unsalted Butter

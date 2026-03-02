@@ -12,6 +12,7 @@ prepTime: 10 min
 cookTime: 10 min
 totalTime: 30 min
 servings: '6'
+pairsWith: [anadama-bread, cinnamon-sweet-potatoes, honey-glazed-carrots]
 ingredients:
   - '2 cups All-Purpose Flour'
   - '2 tbsp Sugar'

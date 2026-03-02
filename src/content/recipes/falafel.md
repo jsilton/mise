@@ -12,6 +12,7 @@ prepTime: 20 min
 cookTime: 10 min
 totalTime: 12 hours
 servings: '15 balls'
+pairsWith: [lemon-herb-couscous, warm-pita-bread, garlic-butter-couscous]
 ingredients:
   - '2 cups Dried Chickpeas (Must be dried, not canned)'
   - '1 cup Fresh Parsley, leaves and tender stems'

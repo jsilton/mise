@@ -12,6 +12,7 @@ prepTime: 15 min
 cookTime: 35 min
 totalTime: 50 min
 servings: '8'
+pairsWith: [sweet-and-white-potato-gratin, tarragon-potatoes, garlic-bread]
 ingredients:
   - 1 9-inch Deep-dish Pie Crust (unbaked)
   - '1 cup Cooked Ham, cubed'

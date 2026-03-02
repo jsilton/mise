@@ -16,7 +16,7 @@ prepTime: 10 min
 cookTime: 20 min
 totalTime: 30 min
 servings: '12'
-pairsWith: []
+pairsWith: [banana-oat-greek-yogurt-muffins, avocado-kale-caesar-salad, almond-zucchini-bread]
 ingredients:
   - 1 cup Beet Puree (Roasted or canned)
   - 2 large Eggs

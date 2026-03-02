@@ -13,6 +13,7 @@ prepTime: 20 min
 cookTime: 3 hours
 totalTime: 3.5 hours
 servings: '6'
+pairsWith: [quick-pickled-carrots-and-daikon, coconut-jasmine-rice, roasted-fall-harvest-salad]
 ingredients:
   - '1 Whole Chicken (3.5 lbs), quartered'
   - 2 lbs Chicken Wings or Backs (for extra gelatin)

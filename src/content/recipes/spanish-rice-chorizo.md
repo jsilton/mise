@@ -12,6 +12,7 @@ prepTime: 20 min
 cookTime: 30 min
 totalTime: 50 min
 servings: '4'
+pairsWith: [smoky-spanish-rice-and-chickpeas, sesame-tomato-salad, charred-asparagus-with-parmesan]
 ingredients:
   - 1.5 cups Short-grain Rice (Arborio or Bomba)
   - '1/2 lb Spanish Chorizo (cured), sliced into rounds'

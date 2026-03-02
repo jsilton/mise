@@ -16,6 +16,7 @@ prepTime: 15 min
 cookTime: 20 min
 totalTime: 35 min
 servings: 12 muffins
+pairsWith: [chicken-and-wild-rice-soup, garlic-butter-roasted-salmon-with-potatoes-and-asparagus, good-eats-roast-turkey]
 ingredients:
   - '1 Apple, finely grated (not pureed)'
   - '1 large Carrot, finely grated'

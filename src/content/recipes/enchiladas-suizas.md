@@ -13,6 +13,7 @@ prepTime: 20 min
 cookTime: 25 min
 totalTime: 45 min
 servings: '6'
+pairsWith: [queso-fundido-with-chorizo, mexican-street-corn-salad, roasted-sweet-potatoes]
 ingredients:
   - 1 lb Shredded Chicken (Poached or Rotisserie)
   - 12 Corn Tortillas

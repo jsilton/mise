@@ -12,6 +12,7 @@ prepTime: 30 min
 cookTime: 2 hours
 totalTime: 12 hours
 servings: '12'
+pairsWith: [nana-ruths-applesauce, honey-glazed-carrots, roasted-sunchokes-with-brown-butter-cider-vinaigrette]
 ingredients:
   - 1 First-cut Brisket (4-5 lbs)
   - 1 bag Baby Carrots

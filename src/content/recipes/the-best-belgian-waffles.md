@@ -13,6 +13,7 @@ prepTime: 15 min
 cookTime: 25 min
 totalTime: 40 min
 servings: '6'
+pairsWith: [homemade-naan, peach-salad-with-tomatoes-and-beets, roasted-sunchokes-with-brown-butter-cider-vinaigrette]
 ingredients:
   - 2 cups All-Purpose Flour
   - '2 large Eggs, separated'

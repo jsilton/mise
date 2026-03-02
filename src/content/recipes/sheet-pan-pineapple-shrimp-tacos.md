@@ -12,6 +12,7 @@ prepTime: 15 min
 cookTime: 15 min
 totalTime: 30 min
 servings: '6'
+pairsWith: [mexican-street-corn-salad, cilantro-lime-rice, quick-seasoned-black-beans]
 ingredients:
   - '1 lb Shrimp, peeled and deveined'
   - '2 cups Fresh Pineapple, 1/2-inch pieces'

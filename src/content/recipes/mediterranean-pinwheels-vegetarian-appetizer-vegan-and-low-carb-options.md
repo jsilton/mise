@@ -12,6 +12,7 @@ prepTime: 15 min
 cookTime: 0 min
 totalTime: 30 min
 servings: 32 pinwheels
+pairsWith: [charred-asparagus-with-parmesan, everyday-arugula-salad, garlic-butter-couscous]
 ingredients:
   - 6 large Spinach or Sun-dried Tomato Tortillas
   - '8 oz Cream Cheese, softened'

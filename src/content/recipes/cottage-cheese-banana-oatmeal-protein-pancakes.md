@@ -16,7 +16,7 @@ prepTime: 10 min
 cookTime: 10 min
 totalTime: 20 min
 servings: '4'
-pairsWith: []
+pairsWith: [avocado-kale-caesar-salad, brownie-protein-balls, banana-oat-greek-yogurt-muffins]
 ingredients:
   - 1/2 cup Old-fashioned Rolled Oats
   - '1/2 medium Banana, very ripe'

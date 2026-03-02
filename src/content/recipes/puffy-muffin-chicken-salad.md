@@ -17,6 +17,7 @@ prepTime: 10 min
 cookTime: 15 min
 totalTime: 25 min
 servings: '4'
+pairsWith: [avocado-toast, healthy-carrot-cake-muffins-with-cream-cheese-glaze, jeris-lentil-soup]
 ingredients:
   - 2 cups Chicken Tenders (about 1 lb)
   - '1/2 cup Celery, finely diced'

@@ -12,6 +12,7 @@ prepTime: 10 min
 cookTime: 180 min
 totalTime: 190 min
 servings: '3'
+pairsWith: [anadama-bread, cinnamon-sweet-potatoes, coleslaw]
 ingredients:
   - 1 cup Unsweetened Vanilla Almond Milk
   - 6 tbsp Chia Seeds

@@ -1,17 +1,24 @@
 ---
 title: Tahini Sauce
-difficulty: intermediate
-cookingMethods: [roast]
-dietary: []
+origin: Middle East
+difficulty: easy
+cookingMethods: [no-cook]
+dietary: [vegetarian, vegan, gluten-free]
 occasions: [meal-prep, entertaining]
 flavorProfile: [acidic, rich]
 cuisines: [Middle Eastern]
 role: condiment
 vibe: quick
+seasons: [spring, summer, fall, winter]
+nutritionalDensity: moderate
+leftovers: excellent
+advancePrep: [make-ahead]
+equipment: [mixing-bowl]
 prepTime: 5 min
 cookTime: 0 min
 totalTime: 5 min
 servings: '1 cup'
+pairsWith: [shakshuka, chicken-shawarma, chicken-thigh-kebabs-with-chile-yogurt-sauce]
 ingredients:
   - '1/2 cup High-Quality Tahini (like Soom)'
   - '1/4 cup Fresh Lemon Juice'

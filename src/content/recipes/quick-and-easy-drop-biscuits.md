@@ -12,6 +12,7 @@ prepTime: 10 min
 cookTime: 15 min
 totalTime: 25 min
 servings: 12 small biscuits
+pairsWith: [cast-iron-skillet-corn-bread, my-favorite-cornbread, corn-casserole]
 ingredients:
   - 1 1/2 cups All-Purpose Flour
   - '4 oz (1 stick) Unsalted Butter, cold and cubed'

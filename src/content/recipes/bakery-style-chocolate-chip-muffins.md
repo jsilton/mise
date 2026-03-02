@@ -16,7 +16,7 @@ prepTime: 15 min
 cookTime: 20 min
 totalTime: 35 min
 servings: '12'
-pairsWith: []
+pairsWith: [blueberry-baked-oatmeal, breakfast-carrot-cake, chocolate-chip-beet-muffins]
 ingredients:
   - '2 1/2 cups All-Purpose Flour'
   - '1 cup Granulated Sugar'

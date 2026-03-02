@@ -12,6 +12,7 @@ prepTime: 10 min
 cookTime: 30 min
 totalTime: 40 min
 servings: '6'
+pairsWith: [garlic-butter-couscous, garlicky-lemon-kale-with-carrots, greek-salad]
 ingredients:
   - '1.5 lbs Chicken Breasts or Thighs, diced'
   - 1 cup Dry Orzo

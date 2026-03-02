@@ -12,6 +12,7 @@ prepTime: 15 min
 cookTime: 30 min
 totalTime: 45 min
 servings: '4'
+pairsWith: [lemon-herb-couscous, whipped-feta-with-honey, garlic-butter-couscous]
 ingredients:
   - 1 lb Ground Chicken
   - 1 cup Whole-Milk Ricotta for richness

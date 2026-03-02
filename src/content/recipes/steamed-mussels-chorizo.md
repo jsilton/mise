@@ -12,6 +12,7 @@ prepTime: 15 min
 cookTime: 15 min
 totalTime: 30 min
 servings: '4'
+pairsWith: [smoky-spanish-rice-and-chickpeas, lemon-herb-couscous, roasted-broccolini-with-lemon]
 ingredients:
   - '4 lbs Fresh Mussels, scrubbed and debearded'
   - '2 oz Dried Spanish Chorizo, thinly sliced'

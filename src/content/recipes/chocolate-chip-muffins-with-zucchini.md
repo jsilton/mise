@@ -16,7 +16,7 @@ prepTime: 15 min
 cookTime: 16 min
 totalTime: 31 min
 servings: '12'
-pairsWith: []
+pairsWith: [banana-oat-greek-yogurt-muffins, avocado-kale-caesar-salad, almond-zucchini-bread]
 ingredients:
   - 1 2/3 cups Buckwheat Flour (or Whole-Wheat)
   - 1/2 cup Chocolate Chips

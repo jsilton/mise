@@ -12,6 +12,7 @@ prepTime: 45 min
 cookTime: 10 min
 totalTime: 55 min
 servings: '6'
+pairsWith: [cilantro-lime-rice, mexican-street-corn-salad, quick-seasoned-black-beans]
 ingredients:
   - 2 lbs Thin-cut Chicken Breasts (Butterflied)
   - 2 tbsp Finely chopped Chipotle Peppers in Adobo

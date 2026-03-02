@@ -17,6 +17,7 @@ prepTime: 10 min
 cookTime: 40 min
 totalTime: 50 min
 servings: '6'
+pairsWith: [almond-zucchini-bread, anadama-bread, bakery-style-chocolate-chip-muffins]
 ingredients:
   - '2 cups Old-Fashioned Rolled Oats'
   - '12 oz Fresh or Frozen Blueberries'

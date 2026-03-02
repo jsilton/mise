@@ -12,6 +12,7 @@ prepTime: 5 min
 cookTime: 10 min
 totalTime: 15 min
 servings: 2 cups
+pairsWith: [crispy-black-bean-tacos, slow-cooker-vegetarian-lentil-tortilla-soup, korean-style-tacos-with-kogi-bbq-sauce]
 ingredients:
   - 3 tbsp Extra-Virgin Olive Oil
   - 3 tbsp All-Purpose Flour (or GF blend)

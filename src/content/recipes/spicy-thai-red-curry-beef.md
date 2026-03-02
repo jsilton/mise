@@ -13,6 +13,7 @@ prepTime: 5 min
 cookTime: 15 min
 totalTime: 20 min
 servings: '4'
+pairsWith: [coconut-jasmine-rice, quick-pickled-carrots-and-daikon, eggplant-with-garlic-sauce]
 ingredients:
   - '12 oz Beef Tenderloin or Flank Steak, paper-thin'
   - 1 can (13.5 oz) Light Coconut Milk

@@ -17,6 +17,7 @@ prepTime: 10 min
 cookTime: 25 min
 totalTime: 35 min
 servings: '8'
+pairsWith: [stovetop-macaroni-and-cheese, instant-pot-butternut-squash-soup, sheet-pan-chicken-broccoli]
 ingredients:
   - 12 oz High-fiber Elbow Pasta
   - 12 oz Fresh Broccoli Florets

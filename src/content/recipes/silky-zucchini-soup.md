@@ -12,6 +12,7 @@ prepTime: 10 min
 cookTime: 30 min
 totalTime: 40 min
 servings: '4'
+pairsWith: [sweet-and-white-potato-gratin, tarragon-potatoes, arugula-feta-salad]
 ingredients:
   - '1 1/2 lbs Zucchini, sliced into 1/4-inch rounds'
   - 1 tbsp Unsalted Butter

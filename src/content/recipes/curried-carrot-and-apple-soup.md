@@ -12,6 +12,7 @@ prepTime: 30 min
 cookTime: 60 min
 totalTime: 90 min
 servings: '12'
+pairsWith: [spiced-coconut-chicken-rice, basmati-rice, homemade-naan]
 ingredients:
   - '2 lbs Carrots, cut into 1/4-inch rounds'
   - '1 1/4 lbs Celery Root, peeled and chopped'

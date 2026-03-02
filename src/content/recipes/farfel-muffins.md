@@ -12,6 +12,7 @@ prepTime: 15 min
 cookTime: 20 min
 totalTime: 35 min
 servings: '8'
+pairsWith: [nana-ruths-applesauce, cinnamon-sweet-potatoes, garlic-mashed-red-potatoes]
 ingredients:
   - '3 cups Matzo Farfel'
   - '2 cups Boiling Water'

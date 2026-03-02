@@ -12,6 +12,7 @@ prepTime: 20 min
 cookTime: 15 min
 totalTime: 35 min
 servings: '4'
+pairsWith: [everyday-arugula-salad, lemon-herb-couscous, arugula-feta-salad]
 ingredients:
   - '1.5 lbs Chicken Thighs, boneless and skinless'
   - 3 tbsp Extra-Virgin Olive Oil

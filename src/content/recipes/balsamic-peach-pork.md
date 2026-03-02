@@ -12,6 +12,7 @@ prepTime: 10 min
 cookTime: 15 min
 totalTime: 25 min
 servings: '4'
+pairsWith: [greek-salad, garlicky-lemon-kale-with-carrots, lemon-herb-couscous]
 ingredients:
   - 4 Bone-in Pork Chops (1-inch thick)
   - '2 Fresh Peaches, sliced'

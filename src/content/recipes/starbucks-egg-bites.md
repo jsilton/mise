@@ -17,6 +17,7 @@ prepTime: 10 min
 cookTime: 20 min
 totalTime: 30 min
 servings: '12 bites'
+pairsWith: [avocado-kale-caesar-salad, brownie-protein-balls, steamed-broccoli]
 ingredients:
   - '6 large Eggs'
   - '1 cup Cottage Cheese for richness'

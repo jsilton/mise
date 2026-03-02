@@ -12,6 +12,7 @@ prepTime: 15 min
 cookTime: 15 min
 totalTime: 30 min
 servings: '4'
+pairsWith: [spiced-coconut-chicken-rice, cucumber-raita, homemade-naan]
 ingredients:
   - '2 large Eggplants, peeled and cubed'
   - 4 tbsp Neutral Oil

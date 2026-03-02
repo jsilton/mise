@@ -16,6 +16,7 @@ prepTime: 10 min
 cookTime: 30 min
 totalTime: 40 min
 servings: '6'
+pairsWith: [roasted-sweet-potatoes, cauliflower-rice, garlic-mashed-mock-potatoes]
 ingredients:
   - '6 Chicken Thighs, boneless and skinless'
   - 1 cup Dry Quinoa (rinsed)

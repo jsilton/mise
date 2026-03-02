@@ -3,6 +3,7 @@ title: Chicken Tikka Masala
 prepTime: 20 min
 cookTime: 40 min
 servings: '6'
+pairsWith: [spiced-coconut-chicken-rice, cucumber-raita, homemade-naan]
 ingredients:
   - '2 lbs boneless, skinless chicken thighs (cut into 1.5-inch chunks)'
   - 3/4 cup Plain Greek Yogurt (Full Fat)

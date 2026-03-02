@@ -1,17 +1,24 @@
 ---
 title: Bibimbap
 difficulty: intermediate
-cookingMethods: []
+origin: Korea
+cookingMethods: [fry, saute]
 dietary: []
 occasions: [weeknight, meal-prep]
 flavorProfile: [spicy, sweet, savory, acidic, rich]
 cuisines: [Korean]
 role: main
 vibe: nutritious
+seasons: [spring, summer, fall, winter]
+nutritionalDensity: hearty
+leftovers: poor
+advancePrep: [components-ahead]
+equipment: [skillet, mixing-bowl]
 prepTime: 10 min
 cookTime: 10 min
 totalTime: 20 min
 servings: '4'
+pairsWith: [korean-pickled-cucumbers, fresh-cabbage-cucumber-and-radish-kimchi, korean-mung-bean-sprouts-salad]
 ingredients:
   - '4 cups Cooked Rice (See note)'
   - '4 Eggs, fried sunny-side up'

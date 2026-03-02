@@ -12,6 +12,7 @@ prepTime: 15 min
 cookTime: 15 min
 totalTime: 30 min
 servings: '6'
+pairsWith: [quick-seasoned-black-beans, cilantro-lime-rice, classic-guacamole]
 ingredients:
   - '2 lbs Chicken Breasts, thinly sliced'
   - '1 Red, 1 Yellow, 1 Green Bell Pepper, sliced'

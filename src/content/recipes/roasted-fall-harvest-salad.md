@@ -17,6 +17,7 @@ prepTime: 20 min
 cookTime: 30 min
 totalTime: 50 min
 servings: '4'
+pairsWith: [herb-marinated-pork-tenderloins, one-pan-citrus-beets-roasted-chicken, garlic-butter-roasted-salmon-with-potatoes-and-asparagus]
 ingredients:
   - '1 can (15 oz) Chickpeas, patted bone-dry'
   - '1 Honeynut or Butternut Squash, cubed'

@@ -12,6 +12,7 @@ prepTime: 20 min
 cookTime: 10 min
 totalTime: 45 min
 servings: '4'
+pairsWith: [garlic-butter-couscous, lemon-herb-couscous, garlic-paste-toum-the-washington-post]
 ingredients:
   - '1 3/4 lbs Boneless, Skin-on Chicken Thighs, cut into 3 pieces each'
   - 1/2 cup + 1 tbsp Extra-Virgin Olive Oil

@@ -12,6 +12,7 @@ prepTime: 10 min
 cookTime: 180 min
 totalTime: 190 min
 servings: '4'
+pairsWith: [honey-glazed-carrots, apple-banana-and-carrot-muffin, roasted-fall-harvest-salad]
 ingredients:
   - 2 cups Uncooked Quinoa (rinsed)
   - '8 oz Mushrooms, sliced'

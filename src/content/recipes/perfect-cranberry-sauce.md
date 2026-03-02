@@ -12,6 +12,7 @@ prepTime: 15 min
 cookTime: 22 min
 totalTime: 37 min
 servings: '8'
+pairsWith: [chicken-apple-and-butternut-stew, simple-roast-turkey, brownie-baked-oatmeal]
 ingredients:
   - '12 oz Fresh or Frozen Cranberries'
   - '1 cup Granulated Sugar'

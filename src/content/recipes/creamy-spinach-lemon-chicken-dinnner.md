@@ -12,6 +12,7 @@ prepTime: 10 min
 cookTime: 15 min
 totalTime: 25 min
 servings: '4'
+pairsWith: [everyday-arugula-salad, garlicky-lemon-kale-with-carrots, arugula-feta-salad]
 ingredients:
   - '4 large Chicken Breasts, halved horizontally (cutlets)'
   - 2 tbsp Olive Oil (Replaces Coconut oil for better savory profile)

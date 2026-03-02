@@ -14,6 +14,7 @@ prepTime: 15 min
 cookTime: 10 min
 totalTime: 25 min
 servings: '4'
+pairsWith: [quick-seasoned-black-beans, mexican-street-corn-salad, roasted-sweet-potatoes]
 ingredients:
   - '1 lb Ground Turkey or Beef'
   - '1 tbsp Taco Seasoning (cumin, chili powder, paprika)'

@@ -16,6 +16,7 @@ prepTime: 5 min
 cookTime: 10 min
 totalTime: 15 min
 servings: '4'
+pairsWith: [brownie-protein-balls, homemade-rice-pilaf, puffy-muffin-chicken-salad]
 ingredients:
   - 4 Chicken Breasts (thin-cut or butterflied)
   - 1/2 cup All-Purpose Flour (for dredging)

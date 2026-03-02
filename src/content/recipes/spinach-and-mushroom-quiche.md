@@ -12,6 +12,7 @@ prepTime: 25 min
 cookTime: 65 min
 totalTime: 90 min
 servings: '6'
+pairsWith: [sweet-and-white-potato-gratin, tarragon-potatoes, arugula-feta-salad]
 ingredients:
   - 1 Pie Crust (Homemade or Store-bought)
   - '8 oz Fresh Mixed Mushrooms, sliced'

@@ -12,6 +12,7 @@ prepTime: 30 min
 cookTime: 5 hours
 totalTime: 12 hours
 servings: '12'
+pairsWith: [nana-ruths-applesauce, cinnamon-sweet-potatoes, green-beans-with-shallots-and-lemon]
 ingredients:
   - 3 lb. First-cut Brisket (well-marbled)
   - '2 large Spanish Onions, sliced into thick rounds'

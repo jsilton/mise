@@ -12,6 +12,7 @@ prepTime: 15 min
 cookTime: 15 min
 totalTime: 30 min
 servings: '4'
+pairsWith: [korean-pickled-cucumbers, seasoned-bean-sprouts, fresh-cabbage-cucumber-and-radish-kimchi]
 ingredients:
   - 12 oz Korean Sweet Potato Glass Noodles (Dangmyeon)
   - 1 lb Ground Chicken or Sliced Thighs

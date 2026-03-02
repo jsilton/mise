@@ -17,6 +17,7 @@ prepTime: 10 min
 cookTime: 0 min
 totalTime: 370 min
 servings: '2'
+pairsWith: [banana-oat-greek-yogurt-muffins, brownie-protein-balls, granola]
 ingredients:
   - 2 cups Rolled Oats (Old-fashioned preferred)
   - 1 cup Boiling Water + 1 Earl Grey Tea Bag

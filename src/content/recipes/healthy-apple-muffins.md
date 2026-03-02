@@ -17,6 +17,7 @@ prepTime: 15 min
 cookTime: 15 min
 totalTime: 30 min
 servings: '12'
+pairsWith: [banana-oat-greek-yogurt-muffins, brownie-protein-balls, easy-breakfast-yogurt-popsicles]
 ingredients:
   - 1 3/4 cups Whole Wheat Flour
   - '1 cup Grated Apple, squeezed dry'

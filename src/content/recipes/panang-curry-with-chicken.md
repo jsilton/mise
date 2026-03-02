@@ -12,6 +12,7 @@ prepTime: 15 min
 cookTime: 20 min
 totalTime: 35 min
 servings: '4'
+pairsWith: [coconut-jasmine-rice, quick-pickled-carrots-and-daikon, cinnamon-sweet-potatoes]
 ingredients:
   - '1 lb Chicken Thighs, thinly sliced'
   - 1 can (14 oz) Full-Fat Coconut Milk (Do not shake)

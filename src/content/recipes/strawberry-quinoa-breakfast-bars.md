@@ -17,6 +17,7 @@ prepTime: 5 min
 cookTime: 20 min
 totalTime: 25 min
 servings: '9'
+pairsWith: [blueberry-banana-pancake-muffins, blueberry-oat-breakfast-bars, freezer-date-cookies]
 ingredients:
   - 3/4 cup Cooked Quinoa (chilled)
   - 1 1/2 cups Old-fashioned Rolled Oats

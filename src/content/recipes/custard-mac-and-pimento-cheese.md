@@ -6,6 +6,7 @@ prepTime: 15 min
 cookTime: 25 min
 totalTime: 40 min
 servings: '6'
+pairsWith: [anadama-bread, cinnamon-sweet-potatoes, garlic-mashed-mock-potatoes]
 ingredients:
   - 1 lb Elbow Macaroni or Cavatappi pasta
   - 4 tablespoons Unsalted Butter (melted)

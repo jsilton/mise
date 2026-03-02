@@ -17,6 +17,7 @@ prepTime: 15 min
 cookTime: 5 hours
 totalTime: 5.5 hours
 servings: 12 cups
+pairsWith: [roasted-fall-harvest-salad, cinnamon-sweet-potatoes, honey-glazed-carrots]
 ingredients:
   - '16 oz Dry Green or Brown Lentils, rinsed'
   - 2 tbsp Extra-Virgin Olive Oil

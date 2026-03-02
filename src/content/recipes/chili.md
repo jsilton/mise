@@ -4,6 +4,7 @@ prepTime: 20 min
 cookTime: 45 min
 totalTime: 65 min
 servings: '6'
+pairsWith: [mexican-street-corn-salad, queso-fundido-with-chorizo, roasted-sweet-potatoes]
 ingredients:
   - 2 lbs Ground Turkey (Lean or 93/7)
   - 2 tablespoons Olive Oil

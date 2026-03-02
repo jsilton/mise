@@ -17,7 +17,7 @@ prepTime: 10 min
 cookTime: 0 min
 totalTime: 10 min
 servings: '12 balls'
-pairsWith: []
+pairsWith: [blueberry-banana-pancake-muffins, blueberry-oat-breakfast-bars, easy-chia-pudding]
 ingredients:
   - '1/2 cup Creamy Almond Butter'
   - '1/2 cup Chocolate Protein Powder'

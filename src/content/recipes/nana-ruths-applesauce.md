@@ -12,6 +12,7 @@ prepTime: 10 min
 cookTime: 30 min
 totalTime: 40 min
 servings: '6'
+pairsWith: [miriams-melt-in-your-mouth-rosh-hashanah-brisket, brisket-with-carrots-and-onions, chef-krigers-recipe-shabbat-brisket]
 ingredients:
   - 6 lbs McIntosh Apples
   - 1/2 cup Granulated Sugar

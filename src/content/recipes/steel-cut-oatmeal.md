@@ -16,6 +16,7 @@ prepTime: 5 min
 cookTime: 35 min
 totalTime: 40 min
 servings: '4'
+pairsWith: [cinnamon-sweet-potatoes, green-beans-with-shallots-and-lemon, roasted-fall-harvest-salad]
 ingredients:
   - 1 cup Steel-cut Oats
   - 3 cups Boiling Water

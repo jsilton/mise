@@ -17,7 +17,7 @@ prepTime: 10 min
 cookTime: 20 min
 totalTime: 30 min
 servings: 12 cups
-pairsWith: []
+pairsWith: [banana-oat-greek-yogurt-muffins, brownie-protein-balls, easy-breakfast-yogurt-popsicles]
 ingredients:
   - 3 cups Rolled Oats (Old Fashioned)
   - 1 tsp Baking Powder

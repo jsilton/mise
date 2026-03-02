@@ -17,6 +17,7 @@ prepTime: 10 min
 cookTime: 20 min
 totalTime: 30 min
 servings: '12'
+pairsWith: [healthy-carrot-cake-muffins-with-cream-cheese-glaze, whole-wheat-muffins-fruit-nut-or-berry, chocolate-blended-oats-with-raspberry-chia-jam]
 ingredients:
   - '1 cup Spinach or Kale, packed'
   - 1 cup Ripe Banana or Applesauce

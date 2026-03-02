@@ -14,6 +14,7 @@ prepTime: 15 min
 cookTime: 20 min
 totalTime: 35 min
 servings: '2'
+pairsWith: [anadama-bread, cinnamon-sweet-potatoes, garlic-mashed-mock-potatoes]
 ingredients:
   - 1 can (28 oz) San Marzano Tomatoes
   - '1 small Onion, diced'

@@ -12,6 +12,7 @@ prepTime: 20 min
 cookTime: 15 min
 totalTime: 35 min
 servings: '4'
+pairsWith: [mexican-street-corn-salad, roasted-sweet-potatoes, cilantro-lime-rice]
 ingredients:
   - 4 Salmon Fillets (6 oz each)
   - '2 Limes, juiced'

@@ -12,6 +12,7 @@ prepTime: 20 min
 cookTime: 60 min
 totalTime: 80 min
 servings: '8'
+pairsWith: [my-favorite-cornbread, grandmothers-buttermilk-cornbread, nanas-biscuits]
 ingredients:
   - '4 lbs Cherry Tomatoes, whole'
   - '2 Red Onions, thinly sliced'

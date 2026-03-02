@@ -12,6 +12,7 @@ prepTime: 20 min
 cookTime: 20 min
 totalTime: 40 min
 servings: '4'
+pairsWith: [queso-fundido-with-chorizo, mexican-street-corn-salad, roasted-sweet-potatoes]
 ingredients:
   - 1 lb Shredded Chicken (Rotisserie or Pressure Cooked)
   - 1 can (15 oz) Red Enchilada Sauce (Hatch or homemade)

@@ -12,6 +12,7 @@ prepTime: 15 min
 cookTime: 180 min
 totalTime: 195 min
 servings: '6'
+pairsWith: [sweet-and-white-potato-gratin, tarragon-potatoes, charred-asparagus-with-parmesan]
 ingredients:
   - '2 lbs Chicken Thighs, boneless and skinless'
   - '16 oz Baby Bella Mushrooms, sliced thick'

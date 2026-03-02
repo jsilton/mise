@@ -17,6 +17,7 @@ prepTime: 5 min
 cookTime: 5 min
 totalTime: 10 min
 servings: 1 large batch
+pairsWith: [blueberry-baked-oatmeal, blueberry-banana-pancake-muffins, blueberry-oat-breakfast-bars]
 ingredients:
   - 1 cup All-Purpose Flour
   - 1/2 cup Fine Salt

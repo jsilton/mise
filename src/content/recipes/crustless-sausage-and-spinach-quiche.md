@@ -12,6 +12,7 @@ prepTime: 15 min
 cookTime: 40 min
 totalTime: 55 min
 servings: '6'
+pairsWith: [sweet-and-white-potato-gratin, tarragon-potatoes, everyday-arugula-salad]
 ingredients:
   - '3 links Italian Chicken Sausage, casings removed'
   - 12 oz Fresh Baby Spinach

@@ -17,6 +17,7 @@ prepTime: 10 min
 cookTime: 20 min
 totalTime: 30 min
 servings: '24'
+pairsWith: [banana-oat-greek-yogurt-muffins, roasted-sunchokes-with-brown-butter-cider-vinaigrette, almond-zucchini-bread]
 ingredients:
   - 4 cups All-Purpose Flour
   - 2 cups Granulated Sugar (divided)

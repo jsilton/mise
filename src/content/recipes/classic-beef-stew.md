@@ -12,6 +12,7 @@ prepTime: 30 min
 cookTime: 3 hours
 totalTime: 3.5 hours
 servings: '6'
+pairsWith: [anadama-bread, avocado-kale-caesar-salad, warm-roasted-veggie-salad-with-maple-dijon-vinaigrette]
 ingredients:
   - '2 lbs Beef Chuck Roast, cut into 1.5-inch cubes'
   - 'Salt and Black Pepper'

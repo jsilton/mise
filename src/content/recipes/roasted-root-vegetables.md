@@ -12,6 +12,7 @@ prepTime: 15 min
 cookTime: 40 min
 totalTime: 55 min
 servings: '6'
+pairsWith: [lemon-ricotta-pasta, oatmeal-risotto, sun-dried-tomato-chicken-orzo]
 ingredients:
   - '4 lbs Mixed Root Veggies (Carrots, Parsnips, Sweet Potatoes, Beets)'
   - 1/4 cup Extra-Virgin Olive Oil

@@ -5,6 +5,7 @@ prepTime: 15 min
 cookTime: 40 min
 totalTime: 55 min
 servings: '6'
+pairsWith: [chicken-apple-and-butternut-stew, good-eats-roast-turkey, simple-roast-turkey]
 ingredients:
   - '1 large butternut squash (about 3-4 pounds), peeled, seeded, and cut into 1-inch cubes'
   - '2 tablespoons olive oil (for roasting)'

@@ -12,6 +12,7 @@ prepTime: 20 min
 cookTime: 50 min
 totalTime: 70 min
 servings: '6'
+pairsWith: [garlic-bread, creamy-polenta, patate-al-forno]
 ingredients:
   - '1 lb Penne or Rigatoni'
   - '3/4 lb Boneless Lamb (Leg or Shoulder), finely diced or ground'

@@ -12,6 +12,7 @@ prepTime: 10 min
 cookTime: 10 min
 totalTime: 20 min
 servings: '4'
+pairsWith: [sweet-and-white-potato-gratin, tarragon-potatoes, arugula-feta-salad]
 ingredients:
   - 8 slices Challah or Brioche (Day-old preferred)
   - 4 large Eggs

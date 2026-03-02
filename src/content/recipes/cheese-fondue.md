@@ -12,6 +12,7 @@ prepTime: 10 min
 cookTime: 15 min
 totalTime: 25 min
 servings: '6'
+pairsWith: [peach-salad-with-tomatoes-and-beets, roasted-sunchokes-with-brown-butter-cider-vinaigrette, arugula-feta-salad]
 ingredients:
   - '1/2 lb Gruyère, shredded'
   - '1/2 lb Emmentaler or Swiss, shredded'

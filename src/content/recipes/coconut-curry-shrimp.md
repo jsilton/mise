@@ -12,6 +12,7 @@ prepTime: 10 min
 cookTime: 15 min
 totalTime: 25 min
 servings: '4'
+pairsWith: [coconut-jasmine-rice, quick-pickled-carrots-and-daikon, cilantro-lime-rice]
 ingredients:
   - '1 1/2 lbs Shrimp (U10 or U12), peeled and deveined'
   - '1 medium Onion, finely diced'

@@ -12,6 +12,7 @@ prepTime: 15 min
 cookTime: 12 min
 totalTime: 45 min
 servings: '4'
+pairsWith: [greek-salad, lemon-herb-couscous, warm-pita-bread]
 ingredients:
   - 1 1/2 lbs Ground Lamb
   - '1 small Yellow Onion, minced'

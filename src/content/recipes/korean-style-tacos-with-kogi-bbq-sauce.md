@@ -12,6 +12,7 @@ prepTime: 15 min
 cookTime: 5 min
 totalTime: 65 min
 servings: '4'
+pairsWith: [mexican-street-corn-salad, roasted-sweet-potatoes, guacamole]
 ingredients:
   - >-
     1 lb Cooked [Pulled Pork](/mise/recipes/best-slow-cooker-pulled-pork)

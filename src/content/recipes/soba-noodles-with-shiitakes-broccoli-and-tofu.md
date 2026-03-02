@@ -12,6 +12,7 @@ prepTime: 10 min
 cookTime: 10 min
 totalTime: 20 min
 servings: '4'
+pairsWith: [miso-soup, dashi-japanese-sea-stock, steamed-edamame]
 ingredients:
   - 8 oz Soba Noodles (Buckwheat)
   - '1/2 lb Extra-firm Tofu, diced'

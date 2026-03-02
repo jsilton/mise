@@ -12,6 +12,7 @@ prepTime: 10 min
 cookTime: 25 min
 totalTime: 35 min
 servings: '4'
+pairsWith: [coconut-jasmine-rice, quick-pickled-carrots-and-daikon, cilantro-lime-rice]
 ingredients:
   - '2 (15 oz) cans Chickpeas, drained and rinsed'
   - 1 can (13.5 oz) Full-fat Coconut Milk

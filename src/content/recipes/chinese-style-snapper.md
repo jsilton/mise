@@ -12,6 +12,7 @@ prepTime: 20 min
 cookTime: 50 min
 totalTime: 70 min
 servings: '6'
+pairsWith: [corn-shrimp-dumplings, smashed-cucumber-salad, cantonese-wonton-broth]
 ingredients:
   - '1.8 kg Whole Snapper, scaled and gutted'
   - '3 cloves Garlic, finely chopped'

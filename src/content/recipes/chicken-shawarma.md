@@ -12,6 +12,7 @@ prepTime: 15 min
 cookTime: 20 min
 totalTime: 4 hours
 servings: '4'
+pairsWith: [lemon-herb-couscous, garlic-butter-couscous, warm-pita-bread]
 ingredients:
   - '1.5 lbs Chicken Thighs, boneless/skinless'
   - 2 tbsp Olive Oil

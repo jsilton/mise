@@ -16,6 +16,7 @@ prepTime: 5 min
 cookTime: 5 min
 totalTime: 10 min
 servings: '4'
+pairsWith: [sheet-pan-italian-sausage-dinner, rosemary-pork-tenderloin, chicken-lettuce-wraps]
 ingredients:
   - '1 lb Fresh Broccoli, cut into bite-sized florets'
   - 2 tbsp Extra-Virgin Olive Oil

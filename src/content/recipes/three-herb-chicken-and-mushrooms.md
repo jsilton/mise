@@ -12,6 +12,7 @@ prepTime: 10 min
 cookTime: 25 min
 totalTime: 35 min
 servings: '4'
+pairsWith: [tarragon-potatoes, sweet-and-white-potato-gratin, garlicky-lemon-kale-with-carrots]
 ingredients:
   - '8 Bone-in Chicken Thighs, skin-on'
   - '8 oz Cremini Mushrooms, quartered'

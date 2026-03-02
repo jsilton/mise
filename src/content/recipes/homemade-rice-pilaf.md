@@ -12,6 +12,7 @@ prepTime: 5 min
 cookTime: 20 min
 totalTime: 35 min
 servings: '4'
+pairsWith: [breakfast-egg-cups, easy-pan-seared-chicken-breasts, jeris-lentil-soup]
 ingredients:
   - 1 cup Long-grain White Rice (or Parboiled)
   - 1/3 cup Orzo Pasta (for texture)

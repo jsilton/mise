@@ -12,6 +12,7 @@ prepTime: 20 min
 cookTime: 30 min
 totalTime: 50 min
 servings: '4'
+pairsWith: [smoky-spanish-rice-and-chickpeas, lemon-herb-couscous, roasted-broccolini-with-lemon]
 ingredients:
   - 1.5 cups Bomba or Calasparra Rice (Short-grain Spanish rice)
   - '1 small Yellow Onion, grated or finely diced'

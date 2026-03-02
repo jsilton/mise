@@ -12,6 +12,7 @@ prepTime: 15 min
 cookTime: 45 min
 totalTime: 60 min
 servings: '4'
+pairsWith: [strawberry-congealed-salad, classic-coleslaw, cinnamon-sweet-potatoes]
 ingredients:
   - '3 lbs Chicken, cut into 8 pieces (pat dry)'
   - 2 cups Buttermilk

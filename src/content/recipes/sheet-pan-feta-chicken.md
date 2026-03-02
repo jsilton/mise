@@ -12,6 +12,7 @@ prepTime: 15 min
 cookTime: 25 min
 totalTime: 40 min
 servings: '4'
+pairsWith: [lemon-herb-couscous, whipped-feta-with-honey, garlic-butter-couscous]
 ingredients:
   - '4 small Chicken Breasts (6 oz each), patted bone-dry'
   - '8 oz Feta Cheese, block-style (in brine)'

@@ -12,6 +12,7 @@ prepTime: 20 min
 cookTime: 380 min
 totalTime: 400 min
 servings: '5'
+pairsWith: [miso-soup, dashi-japanese-sea-stock, miso-mashed-potatoes]
 ingredients:
   - 3 lbs Whole Chicken Legs (skin-on)
   - 1/2 cup Sweet White Miso Paste

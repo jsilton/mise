@@ -12,6 +12,7 @@ prepTime: 15 min
 cookTime: 45 min
 totalTime: 60 min
 servings: '8'
+pairsWith: [garlic-mashed-mock-potatoes, garlic-mashed-red-potatoes, avocado-kale-caesar-salad]
 ingredients:
   - 1 lb Cavatappi or Cellentani Pasta
   - '3 cups Butternut Squash, 1-inch cubes'

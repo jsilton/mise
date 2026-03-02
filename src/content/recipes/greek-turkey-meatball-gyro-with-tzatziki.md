@@ -12,6 +12,7 @@ prepTime: 10 min
 cookTime: 16 min
 totalTime: 26 min
 servings: 4 gyros
+pairsWith: [greek-salad, lemon-herb-couscous, tzatziki-sauce]
 ingredients:
   - 1 lb Ground Turkey (93/7 fat ratio)
   - '1 cup Fresh Spinach, chopped'

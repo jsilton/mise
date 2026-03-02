@@ -13,6 +13,7 @@ prepTime: 15 min
 cookTime: 15 min
 totalTime: 30 min
 servings: '6'
+pairsWith: [classic-guacamole, cilantro-lime-rice, mexican-street-corn-salad]
 ingredients:
   - 1.5 lbs Shredded Chicken (Poached or Rotisserie)
   - '2 large Tomatoes, halved'

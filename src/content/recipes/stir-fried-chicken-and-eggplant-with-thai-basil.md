@@ -12,6 +12,7 @@ prepTime: 15 min
 cookTime: 15 min
 totalTime: 60 min
 servings: '4'
+pairsWith: [coconut-jasmine-rice, quick-pickled-carrots-and-daikon, eggplant-with-garlic-sauce]
 ingredients:
   - '1 lb Japanese Eggplant, diced'
   - '3/4 lb Chicken Breast, minced or finely diced'

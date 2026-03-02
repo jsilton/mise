@@ -12,6 +12,7 @@ prepTime: 15 min
 cookTime: 15 min
 totalTime: 30 min
 servings: '4'
+pairsWith: [quick-pickled-carrots-and-daikon, coconut-jasmine-rice, eggplant-with-garlic-sauce]
 ingredients:
   - '1.5 lbs Chicken Thighs, cut into 1-inch cubes'
   - 1/2 cup Dark Brown Sugar

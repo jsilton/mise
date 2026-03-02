@@ -17,7 +17,7 @@ prepTime: 15 min
 cookTime: 25 min
 totalTime: 40 min
 servings: '12'
-pairsWith: []
+pairsWith: [banana-oat-greek-yogurt-muffins, brownie-protein-balls, strawberry-quinoa-breakfast-bars]
 ingredients:
   - 2 1/2 cups All-Purpose Flour
   - 1 3/4 cups Plain 2% Greek Yogurt

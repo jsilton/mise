@@ -16,6 +16,7 @@ prepTime: 15 min
 cookTime: 0 min
 totalTime: 30 min
 servings: '8'
+pairsWith: [seared-scallops-with-a-corn-bacon-and-avocado-relish, herb-marinated-pork-tenderloins, one-pan-citrus-beets-roasted-chicken]
 ingredients:
   - '3 ripe but firm Peaches, cut into wedges'
   - '2 large Avocados, cut into wedges'

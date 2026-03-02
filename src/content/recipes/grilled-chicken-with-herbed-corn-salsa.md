@@ -12,6 +12,7 @@ prepTime: 15 min
 cookTime: 20 min
 totalTime: 35 min
 servings: '4'
+pairsWith: [greek-salad, cilantro-lime-rice, mexican-street-corn-salad]
 ingredients:
   - '2 1/4 lbs Skin-on, Bone-in Chicken Thighs'
   - '2 large ears Fresh Corn, shucked'

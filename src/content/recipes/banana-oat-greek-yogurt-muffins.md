@@ -17,7 +17,7 @@ prepTime: 10 min
 cookTime: 15 min
 totalTime: 25 min
 servings: '12'
-pairsWith: []
+pairsWith: [blueberry-banana-pancake-muffins, blueberry-oat-breakfast-bars, freezer-date-cookies]
 ingredients:
   - '1 cup Plain Greek Yogurt (Full Fat)'
   - '2 large Ripe Bananas, mashed'

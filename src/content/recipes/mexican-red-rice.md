@@ -13,6 +13,7 @@ prepTime: 5 min
 cookTime: 20 min
 totalTime: 35 min
 servings: '4'
+pairsWith: [crispy-black-bean-tacos, honey-chipotle-lime-chicken-bowls, honey-lime-chicken-thighs]
 ingredients:
   - '1 cup Long-grain White Rice'
   - '2 tbsp Neutral Oil'

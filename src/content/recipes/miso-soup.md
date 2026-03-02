@@ -12,6 +12,7 @@ prepTime: 5 min
 cookTime: 10 min
 totalTime: 15 min
 servings: '4'
+pairsWith: [yaki-udon, lemon-miso-tofu-with-broccoli, miso-salmon-with-bok-choy]
 ingredients:
   - '4 cups Dashi (homemade or use 1 tsp Hon-Dashi powder in 4 cups water)'
   - '3 tbsp Shiro Miso (White Miso)'

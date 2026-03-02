@@ -12,6 +12,7 @@ prepTime: 15 min
 cookTime: 20 min
 totalTime: 35 min
 servings: '6'
+pairsWith: [buttermilk-baked-chicken, quick-and-easy-drop-biscuits, shrimp-and-grits]
 ingredients:
   - 8 oz Elbow Macaroni
   - 3 tbsp Unsalted Butter

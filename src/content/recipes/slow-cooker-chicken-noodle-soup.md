@@ -12,6 +12,7 @@ prepTime: 15 min
 cookTime: 510 min
 totalTime: 525 min
 servings: '10'
+pairsWith: [roasted-root-vegetables, garlicky-lemon-kale-with-carrots, roasted-fall-harvest-salad]
 ingredients:
   - 1 1/2 lbs Chicken Breasts or Thighs
   - 8 cups High-quality Chicken Stock

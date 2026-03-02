@@ -12,6 +12,7 @@ prepTime: 30 min
 cookTime: 75 min
 totalTime: 105 min
 servings: '10'
+pairsWith: [nana-ruths-applesauce, cinnamon-sweet-potatoes, green-beans-with-shallots-and-lemon]
 ingredients:
   - '12 oz Carp or Pike Fillet, chopped'
   - '12 oz Salmon Fillet, chopped'

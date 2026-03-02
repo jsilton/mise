@@ -12,6 +12,7 @@ prepTime: 10 min
 cookTime: 10 min
 totalTime: 30 min
 servings: '4'
+pairsWith: [mexican-street-corn-salad, guacamole, cilantro-lime-rice]
 ingredients:
   - '1 lb Small Shrimp, peeled and deveined'
   - '1 large Ripe Mango, finely chopped'

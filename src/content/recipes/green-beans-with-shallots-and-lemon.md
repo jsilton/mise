@@ -16,6 +16,7 @@ prepTime: 5 min
 cookTime: 10 min
 totalTime: 15 min
 servings: '4'
+pairsWith: [chicken-marsala, herb-marinated-pork-tenderloins, one-pan-citrus-beets-roasted-chicken]
 ingredients:
   - '1 lb Fresh Green Beans, trimmed'
   - '2 Shallots, finely diced'

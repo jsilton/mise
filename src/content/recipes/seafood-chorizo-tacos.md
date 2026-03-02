@@ -12,6 +12,7 @@ prepTime: 10 min
 cookTime: 15 min
 totalTime: 25 min
 servings: '4'
+pairsWith: [mexican-street-corn-salad, cilantro-lime-rice, quick-seasoned-black-beans]
 ingredients:
   - '1/2 lb Fresh Chorizo, crumbled'
   - '1/2 lb Medium Shrimp, chopped'

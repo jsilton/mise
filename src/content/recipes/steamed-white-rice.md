@@ -18,6 +18,7 @@ nutritionalDensity: light
 leftovers: excellent
 advancePrep: []
 equipment: [saucepan]
+pairsWith: [bibimbap, chicken-galbi-noodle-salad, lemon-miso-tofu-with-broccoli]
 ingredients:
   - '2 cups Short-Grain White Rice (Sushi Rice)'
   - '2 1/4 cups Water'

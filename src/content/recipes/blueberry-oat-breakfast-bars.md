@@ -17,6 +17,7 @@ prepTime: 10 min
 cookTime: 20 min
 totalTime: 30 min
 servings: '8'
+pairsWith: [banana-oat-greek-yogurt-muffins, brownie-protein-balls, strawberry-quinoa-breakfast-bars]
 ingredients:
   - 5 tbsp Coconut Oil (or Unsalted Butter)
   - 4 tbsp Honey or Maple Syrup

@@ -12,6 +12,7 @@ prepTime: 10 min
 cookTime: 20 min
 totalTime: 30 min
 servings: 18 muffins
+pairsWith: [banana-oat-greek-yogurt-muffins, easy-breakfast-yogurt-popsicles, almond-zucchini-bread]
 ingredients:
   - 6 oz Fresh Baby Spinach
   - 1 large Ripe Banana

@@ -12,6 +12,7 @@ prepTime: 15 min
 cookTime: 15 min
 totalTime: 30 min
 servings: '4'
+pairsWith: [coconut-jasmine-rice, quick-pickled-carrots-and-daikon, charred-broccoli-with-garlic]
 ingredients:
   - 6.3 oz Dried Mung Bean Glass Noodles
   - 3 tbsp Oyster Sauce

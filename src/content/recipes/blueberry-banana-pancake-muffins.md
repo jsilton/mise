@@ -17,6 +17,7 @@ prepTime: 5 min
 cookTime: 25 min
 totalTime: 30 min
 servings: '12'
+pairsWith: [banana-oat-greek-yogurt-muffins, brownie-protein-balls, strawberry-quinoa-breakfast-bars]
 ingredients:
   - '2 large Ripe Bananas'
   - '1 cup Rolled Oats'

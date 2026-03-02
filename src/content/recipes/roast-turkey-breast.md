@@ -12,6 +12,7 @@ prepTime: 10 min
 cookTime: 60 min
 totalTime: 70 min
 servings: '8'
+pairsWith: [cinnamon-sweet-potatoes, garlic-mashed-red-potatoes, glazed-carrots]
 ingredients:
   - '1 (4-5 lb) Turkey Breast, skin-on'
   - '2 tbsp Unsalted Butter, melted'

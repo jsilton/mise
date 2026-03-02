@@ -12,6 +12,7 @@ prepTime: 15 min
 cookTime: 30 min
 totalTime: 45 min
 servings: '6'
+pairsWith: [garlic-bread, charred-asparagus-with-parmesan, creamy-polenta]
 ingredients:
   - 1 lb Dry Fettuccine
   - '3 cups Butternut Squash, cubed (1-inch)'

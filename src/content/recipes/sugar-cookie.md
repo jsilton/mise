@@ -12,6 +12,7 @@ prepTime: 30 min
 cookTime: 10 min
 totalTime: 40 min
 servings: '36'
+pairsWith: [chicken-apple-and-butternut-stew, good-eats-roast-turkey, simple-roast-turkey]
 ingredients:
   - 4 cups All-Purpose Flour
   - '1 cup (2 sticks) Unsalted Butter, softened'

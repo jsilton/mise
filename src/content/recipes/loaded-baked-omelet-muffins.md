@@ -17,6 +17,7 @@ prepTime: 10 min
 cookTime: 20 min
 totalTime: 30 min
 servings: 12 muffins
+pairsWith: [avocado-kale-caesar-salad, steamed-broccoli, brownie-protein-balls]
 ingredients:
   - 9 large Eggs
   - '3 slices Bacon, cooked and chopped'

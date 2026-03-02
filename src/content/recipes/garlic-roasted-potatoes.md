@@ -16,6 +16,7 @@ prepTime: 10 min
 cookTime: 45 min
 totalTime: 55 min
 servings: '8'
+pairsWith: [herb-marinated-pork-tenderloins, rosemary-pork-tenderloin, good-eats-roast-turkey]
 ingredients:
   - '3 lbs Small Red or Yukon Gold Potatoes, halved'
   - 1/4 cup Extra-Virgin Olive Oil

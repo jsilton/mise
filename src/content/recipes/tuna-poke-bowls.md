@@ -12,6 +12,7 @@ prepTime: 20 min
 cookTime: 20 min
 totalTime: 40 min
 servings: '4'
+pairsWith: [eggplant-with-garlic-sauce, korean-pickled-cucumbers, sesame-cucumber-salad]
 ingredients:
   - '1 lb Sashimi-Grade Yellowfin or Bigeye Tuna, cut into 1/2-inch cubes'
   - 3 tbsp Soy Sauce (or Tamari)

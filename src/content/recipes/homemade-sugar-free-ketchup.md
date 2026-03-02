@@ -17,6 +17,7 @@ prepTime: 5 min
 cookTime: 30 min
 totalTime: 35 min
 servings: '1.5 cups'
+pairsWith: [instant-pot-butternut-squash-soup, healthy-carrot-cake-muffins-with-cream-cheese-glaze, honey-lime-chicken-thighs]
 ingredients:
   - '14 oz (400g) Tomato Passata or Crushed Tomatoes'
   - '3 tbsp Red Wine Vinegar (The Finishing Touch)'

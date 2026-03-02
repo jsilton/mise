@@ -13,6 +13,7 @@ prepTime: 15 min
 cookTime: 10 min
 totalTime: 25 min
 servings: '4'
+pairsWith: [coconut-jasmine-rice, quick-pickled-carrots-and-daikon, eggplant-with-garlic-sauce]
 ingredients:
   - 15 oz Fresh Wide Flat Rice Noodles (Sen Yai)
   - 2 tbsp Dark Soy Sauce

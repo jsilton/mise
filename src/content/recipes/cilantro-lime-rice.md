@@ -12,6 +12,7 @@ prepTime: 5 min
 cookTime: 20 min
 totalTime: 25 min
 servings: '4'
+pairsWith: [crispy-black-bean-tacos, honey-lime-chicken-thighs, carnitas-bowl]
 ingredients:
   - 1 cup Jasmine Rice
   - 1 1/2 cups Water or Chicken Broth

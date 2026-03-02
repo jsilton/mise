@@ -1,17 +1,24 @@
 ---
 title: Miso-Mashed Potatoes
-difficulty: intermediate
-cookingMethods: [roast, boil, steam]
-dietary: []
+origin: Japan
+difficulty: easy
+cookingMethods: [boil]
+dietary: [vegetarian, gluten-free, nut-free]
 occasions: [comfort-food]
 flavorProfile: [savory, rich]
 cuisines: [Japanese]
 role: side
 vibe: comfort
+seasons: [fall, winter]
+nutritionalDensity: moderate
+leftovers: good
+advancePrep: []
+equipment: [dutch-oven, potato-ricer]
 prepTime: 10 min
 cookTime: 20 min
 totalTime: 30 min
 servings: '4'
+pairsWith: [japanese-chicken-curry-kare-raisu, japanese-style-trout-with-dashi, miso-salmon-with-bok-choy]
 ingredients:
   - '2 lbs Yukon Gold Potatoes, peeled and cubed'
   - '4 tbsp Unsalted Butter'

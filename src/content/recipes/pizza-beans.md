@@ -12,6 +12,7 @@ prepTime: 15 min
 cookTime: 30 min
 totalTime: 45 min
 servings: '4'
+pairsWith: [queso-fundido-with-chorizo, homemade-enchilada-sauce, cilantro-lime-rice]
 ingredients:
   - '2 cans (15 oz each) Giant White Beans (Butter or Gigante), rinsed'
   - '1 tbsp Extra-Virgin Olive Oil'

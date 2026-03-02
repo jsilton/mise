@@ -12,6 +12,7 @@ prepTime: 20 min
 cookTime: 40 min
 totalTime: 60 min
 servings: '6'
+pairsWith: [queso-fundido-with-chorizo, roasted-sweet-potatoes, cilantro-lime-rice]
 ingredients:
   - '1 lb Shrimp, peeled and deveined'
   - '4 ears Fresh Corn (or 3 cups frozen)'

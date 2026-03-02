@@ -11,6 +11,7 @@
     "format": "prettier --write .",
     "lint": "eslint . --fix",
     "validate-recipes": "node ./scripts/validate-recipes.mjs",
+    "chef-review": "node ./scripts/chef-review.mjs",
     "qa": "node ./scripts/qa-test.mjs",
     "deploy": "npm run qa && npm run build && echo 'Ready to deploy - push /dist/ to production'",
     "prepare": "husky || true"

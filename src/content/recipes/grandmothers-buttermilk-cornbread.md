@@ -12,6 +12,7 @@ prepTime: 10 min
 cookTime: 25 min
 totalTime: 35 min
 servings: '9'
+pairsWith: [quick-and-easy-drop-biscuits, tomato-cobbler-with-cornmeal-cheddar-biscuits, best-slow-cooker-pulled-pork]
 ingredients:
   - '1 cup Yellow Cornmeal'
   - '1 cup All-Purpose Flour'

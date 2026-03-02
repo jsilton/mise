@@ -12,6 +12,7 @@ prepTime: 15 min
 cookTime: 10 min
 totalTime: 40 min
 servings: '4'
+pairsWith: [miso-soup, dashi-japanese-sea-stock, steamed-edamame]
 ingredients:
   - 4 Skin-on Salmon Fillets (6-8 oz each)
   - 2 cups Sushi Rice (rinsed)

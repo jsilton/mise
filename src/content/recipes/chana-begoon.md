@@ -13,6 +13,7 @@ prepTime: 15 min
 cookTime: 25 min
 totalTime: 40 min
 servings: '4'
+pairsWith: [spiced-coconut-chicken-rice, cucumber-raita, basmati-rice]
 ingredients:
   - '1 lb Chinese Eggplant, cut into 1-inch cubes'
   - '2 cans (15 oz) Chickpeas, rinsed and drained'

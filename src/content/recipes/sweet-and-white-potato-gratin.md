@@ -14,6 +14,7 @@ prepTime: 25 min
 cookTime: 60 min
 totalTime: 85 min
 servings: '8'
+pairsWith: [chicken-coq-au-vin, ham-and-cheese-quiche, tomato-and-goat-cheese-tart]
 ingredients:
   - '2 lbs Sweet Potatoes, peeled'
   - '1.5 lbs White Potatoes (Yukon Gold), peeled'
