@@ -18,7 +18,8 @@ nutritionalDensity: light
 leftovers: good
 advancePrep: []
 equipment: [skillet]
-pairsWith: [buttermilk-baked-chicken, shrimp-fettuccine-alfredo, baked-cod-with-lemon-panko, chicken-marsala]
+pairsWith:
+  [buttermilk-baked-chicken, shrimp-fettuccine-alfredo, baked-cod-with-lemon-panko, chicken-marsala]
 ingredients:
   - '1 lb Green Beans, trimmed'
   - '2 tbsp Olive Oil'

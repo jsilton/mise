@@ -18,7 +18,14 @@ nutritionalDensity: light
 leftovers: poor
 advancePrep: []
 equipment: []
-pairsWith: [char-siu, bibimbap, miso-salmon-with-bok-choy, vietnamese-grilled-chicken, marinated-korean-ribeye]
+pairsWith:
+  [
+    char-siu,
+    bibimbap,
+    miso-salmon-with-bok-choy,
+    vietnamese-grilled-chicken,
+    marinated-korean-ribeye,
+  ]
 ingredients:
   - '4 Persian Cucumbers (or 1 English cucumber)'
   - '1 tsp Kosher Salt (for drawing moisture)'

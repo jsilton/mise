@@ -13,7 +13,8 @@ seasons: [spring, summer, fall, winter]
 nutritionalDensity: moderate
 leftovers: poor
 advancePrep: [components-ahead]
-equipment: [large heavy-bottomed pot or dutch oven, medium saucepan, spider or slotted spoon, thermometer]
+equipment:
+  [large heavy-bottomed pot or dutch oven, medium saucepan, spider or slotted spoon, thermometer]
 prepTime: 20 min
 cookTime: 40 min
 totalTime: 60 min

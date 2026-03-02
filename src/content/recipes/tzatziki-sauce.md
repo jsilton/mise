@@ -18,7 +18,12 @@ prepTime: 15 min
 cookTime: 0 min
 totalTime: 15 min
 servings: '2 cups'
-pairsWith: [mediterranean-chicken-thighs, greek-style-lamb-burgers-with-yogurt-cucumber-sauce, avgolemono-soup]
+pairsWith:
+  [
+    mediterranean-chicken-thighs,
+    greek-style-lamb-burgers-with-yogurt-cucumber-sauce,
+    avgolemono-soup,
+  ]
 ingredients:
   - '2 cups Full-Fat Greek Yogurt'
   - '1 large English Cucumber'

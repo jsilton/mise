@@ -12,7 +12,12 @@ prepTime: 25 min
 cookTime: 45 min
 totalTime: 70 min
 servings: '6'
-pairsWith: [cinnamon-sweet-potatoes, green-beans-with-shallots-and-lemon, roasted-sunchokes-with-brown-butter-cider-vinaigrette]
+pairsWith:
+  [
+    cinnamon-sweet-potatoes,
+    green-beans-with-shallots-and-lemon,
+    roasted-sunchokes-with-brown-butter-cider-vinaigrette,
+  ]
 ingredients:
   - '2 lbs Chicken Thighs, cut into 1-inch chunks'
   - '3 cups Butternut Squash, cubed'

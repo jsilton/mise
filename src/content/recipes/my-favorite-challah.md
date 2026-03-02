@@ -13,7 +13,12 @@ prepTime: 120 min
 cookTime: 40 min
 totalTime: 160 min
 servings: 2 loaves
-pairsWith: [homemade-naan, peach-salad-with-tomatoes-and-beets, roasted-sunchokes-with-brown-butter-cider-vinaigrette]
+pairsWith:
+  [
+    homemade-naan,
+    peach-salad-with-tomatoes-and-beets,
+    roasted-sunchokes-with-brown-butter-cider-vinaigrette,
+  ]
 ingredients:
   - 1 1/2 tbsp Active Dry Yeast
   - 8 to 8 1/2 cups All-Purpose Flour

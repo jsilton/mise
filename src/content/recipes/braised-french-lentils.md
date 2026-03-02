@@ -18,7 +18,8 @@ prepTime: 10 min
 cookTime: 35 min
 totalTime: 45 min
 servings: '6'
-pairsWith: [rosemary-pork-tenderloin, chicken-coq-au-vin, mediterranean-salmon-with-lemon-herb-emulsion]
+pairsWith:
+  [rosemary-pork-tenderloin, chicken-coq-au-vin, mediterranean-salmon-with-lemon-herb-emulsion]
 ingredients:
   - '1.5 cups French Green Lentils (lentilles du Puy), rinsed and picked over'
   - '2 tbsp Olive Oil'

@@ -12,7 +12,12 @@ prepTime: 15 min
 cookTime: 40 min
 totalTime: 55 min
 servings: '8'
-pairsWith: [honey-glazed-carrots, roasted-sunchokes-with-brown-butter-cider-vinaigrette, avocado-kale-caesar-salad]
+pairsWith:
+  [
+    honey-glazed-carrots,
+    roasted-sunchokes-with-brown-butter-cider-vinaigrette,
+    avocado-kale-caesar-salad,
+  ]
 ingredients:
   - '1 lb Fresh Green Beans, trimmed'
   - '1/2 lb Cooked Ham, diced'

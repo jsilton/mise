@@ -41,24 +41,82 @@ const MAX_FRONTMATTER_WEIGHT = Object.values(FRONTMATTER_FIELDS).reduce((a, b) =
 
 // ─── Technique & quality keywords ───
 const TECHNIQUE_WORDS = [
-  'sear', 'bloom', 'deglaze', 'rest', 'temper', 'emulsif', 'reduce',
-  'caramelize', 'render', 'braise', 'blanch', 'fold', 'cure', 'brine',
-  'ferment', 'proof', 'knead', 'velvet', 'marinate', 'dry-brine',
-  'toast', 'char', 'smoke', 'poach', 'confit', 'mount', 'baste',
+  'sear',
+  'bloom',
+  'deglaze',
+  'rest',
+  'temper',
+  'emulsif',
+  'reduce',
+  'caramelize',
+  'render',
+  'braise',
+  'blanch',
+  'fold',
+  'cure',
+  'brine',
+  'ferment',
+  'proof',
+  'knead',
+  'velvet',
+  'marinate',
+  'dry-brine',
+  'toast',
+  'char',
+  'smoke',
+  'poach',
+  'confit',
+  'mount',
+  'baste',
 ];
 
 const VISUAL_CUE_WORDS = [
-  'golden', 'translucent', 'opaque', 'bubbly', 'browned', 'charred',
-  'glossy', 'crispy', 'tender', 'fork-tender', 'jiggly', 'set',
-  'caramelized', 'smoking', 'sizzling', 'fragrant', 'wilted',
-  'al dente', 'just pink', 'clear juices', 'internal temp',
+  'golden',
+  'translucent',
+  'opaque',
+  'bubbly',
+  'browned',
+  'charred',
+  'glossy',
+  'crispy',
+  'tender',
+  'fork-tender',
+  'jiggly',
+  'set',
+  'caramelized',
+  'smoking',
+  'sizzling',
+  'fragrant',
+  'wilted',
+  'al dente',
+  'just pink',
+  'clear juices',
+  'internal temp',
 ];
 
 const PREP_NOTE_WORDS = [
-  'minced', 'diced', 'chopped', 'sliced', 'julienned', 'grated',
-  'zested', 'crushed', 'ground', 'torn', 'halved', 'quartered',
-  'thinly sliced', 'roughly chopped', 'finely diced', 'cut into',
-  'peeled', 'seeded', 'deveined', 'trimmed', 'cubed', 'shredded',
+  'minced',
+  'diced',
+  'chopped',
+  'sliced',
+  'julienned',
+  'grated',
+  'zested',
+  'crushed',
+  'ground',
+  'torn',
+  'halved',
+  'quartered',
+  'thinly sliced',
+  'roughly chopped',
+  'finely diced',
+  'cut into',
+  'peeled',
+  'seeded',
+  'deveined',
+  'trimmed',
+  'cubed',
+  'shredded',
 ];
 
 // ─── Helpers ───
@@ -87,10 +145,7 @@ function scoreFrontmatter(data) {
   for (const [field, weight] of Object.entries(FRONTMATTER_FIELDS)) {
     const val = data[field];
     const populated =
-      val !== undefined &&
-      val !== null &&
-      val !== '' &&
-      !(Array.isArray(val) && val.length === 0);
+      val !== undefined && val !== null && val !== '' && !(Array.isArray(val) && val.length === 0);
 
     if (populated) {
       earned += weight;
@@ -136,7 +191,16 @@ function scoreChefNote(content) {
   if (techniqueCount >= 2) points += 2;
 
   // Has practical tips (look for "you", imperative verbs, "tip", "key")
-  const practicalWords = ['you', 'tip', 'key', 'critical', 'important', 'don\'t', 'make sure', 'the trick'];
+  const practicalWords = [
+    'you',
+    'tip',
+    'key',
+    'critical',
+    'important',
+    "don't",
+    'make sure',
+    'the trick',
+  ];
   const practicalCount = countMatches(noteText, practicalWords);
   details.practicalTips = practicalCount > 0;
   if (practicalCount >= 1) points += 3;
@@ -266,10 +330,7 @@ function scoreMetadata(data) {
   for (const { field, weight } of checks) {
     const val = data[field];
     const has =
-      val !== undefined &&
-      val !== null &&
-      val !== '' &&
-      !(Array.isArray(val) && val.length === 0);
+      val !== undefined && val !== null && val !== '' && !(Array.isArray(val) && val.length === 0);
     if (has) {
       points += weight;
       populated.push(field);
@@ -288,7 +349,7 @@ function scoreMetadata(data) {
 function computeOverall(scores) {
   // Weighted average
   const weights = {
-    frontmatter: 0.20,
+    frontmatter: 0.2,
     chefNote: 0.22,
     directions: 0.28,
     ingredients: 0.15,
@@ -316,7 +377,7 @@ function getTopFixes(recipe) {
 
   // Chef's Note issues
   if (!s.chefNote.details.exists) {
-    fixes.push({ priority: 'high', area: 'chefNote', fix: 'Add a Chef\'s Note section' });
+    fixes.push({ priority: 'high', area: 'chefNote', fix: "Add a Chef's Note section" });
   } else if (s.chefNote.score < 50) {
     fixes.push({
       priority: 'medium',
@@ -337,13 +398,21 @@ function getTopFixes(recipe) {
       });
     }
     if (s.directions.details.stepCount < 3) {
-      fixes.push({ priority: 'medium', area: 'directions', fix: 'Expand directions — too few steps' });
+      fixes.push({
+        priority: 'medium',
+        area: 'directions',
+        fix: 'Expand directions — too few steps',
+      });
     }
     if (!s.directions.details.hasTemperatures && recipe.data.cookTime) {
       fixes.push({ priority: 'low', area: 'directions', fix: 'Add specific temperatures' });
     }
     if (s.directions.details.visualCueCount === 0) {
-      fixes.push({ priority: 'low', area: 'directions', fix: 'Add visual cues (golden, bubbly, fragrant)' });
+      fixes.push({
+        priority: 'low',
+        area: 'directions',
+        fix: 'Add visual cues (golden, bubbly, fragrant)',
+      });
     }
   }
 
@@ -487,7 +556,11 @@ function getTopFixes(recipe) {
   const topMissingFields = Object.entries(fieldMissCounts)
     .sort((a, b) => b[1] - a[1])
     .slice(0, 10)
-    .map(([field, count]) => ({ field, count, pct: Math.round((count / recipes.length) * 100) + '%' }));
+    .map(([field, count]) => ({
+      field,
+      count,
+      pct: Math.round((count / recipes.length) * 100) + '%',
+    }));
 
   // Most common fix recommendations
   const fixCounts = {};

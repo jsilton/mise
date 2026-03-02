@@ -18,7 +18,12 @@ prepTime: 15 min
 cookTime: 0 min
 totalTime: 15 min
 servings: '4'
-pairsWith: [chicken-souvlaki, greek-style-lamb-burgers-with-yogurt-cucumber-sauce, greek-turkey-meatball-gyro-with-tzatziki]
+pairsWith:
+  [
+    chicken-souvlaki,
+    greek-style-lamb-burgers-with-yogurt-cucumber-sauce,
+    greek-turkey-meatball-gyro-with-tzatziki,
+  ]
 ingredients:
   - '4 medium Ripe Tomatoes, cut into irregular chunks'
   - '1 large English Cucumber, cut into half-moons'

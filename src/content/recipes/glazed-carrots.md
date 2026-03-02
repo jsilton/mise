@@ -16,7 +16,8 @@ prepTime: 10 min
 cookTime: 15 min
 totalTime: 25 min
 servings: '8'
-pairsWith: [herb-marinated-pork-tenderloins, one-pan-citrus-beets-roasted-chicken, banana-egg-oat-pancakes]
+pairsWith:
+  [herb-marinated-pork-tenderloins, one-pan-citrus-beets-roasted-chicken, banana-egg-oat-pancakes]
 ingredients:
   - '2 lbs Carrots, peeled and cut into matchsticks'
   - 1/4 cup Unsalted Butter

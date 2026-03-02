@@ -12,7 +12,12 @@ prepTime: 15 min
 cookTime: 15 min
 totalTime: 30 min
 servings: '6'
-pairsWith: [coconut-jasmine-rice, quick-pickled-carrots-and-daikon, roasted-sunchokes-with-brown-butter-cider-vinaigrette]
+pairsWith:
+  [
+    coconut-jasmine-rice,
+    quick-pickled-carrots-and-daikon,
+    roasted-sunchokes-with-brown-butter-cider-vinaigrette,
+  ]
 ingredients:
   - 2 lbs Ground Chicken
   - '1 piece (4-inch) Fresh Ginger, grated'

@@ -12,7 +12,12 @@ prepTime: 5 min
 cookTime: 20 min
 totalTime: 25 min
 servings: '4'
-pairsWith: [roasted-sunchokes-with-brown-butter-cider-vinaigrette, avocado-kale-caesar-salad, cinnamon-sweet-potatoes]
+pairsWith:
+  [
+    roasted-sunchokes-with-brown-butter-cider-vinaigrette,
+    avocado-kale-caesar-salad,
+    cinnamon-sweet-potatoes,
+  ]
 ingredients:
   - 6 large Eggs
   - 1 cup Whole Milk

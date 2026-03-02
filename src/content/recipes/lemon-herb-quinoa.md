@@ -18,7 +18,12 @@ prepTime: 5 min
 cookTime: 20 min
 totalTime: 25 min
 servings: '4'
-pairsWith: [mediterranean-chicken-bowls, grilled-chicken-with-herbed-corn-salsa, seared-salmon-with-summer-vegetables]
+pairsWith:
+  [
+    mediterranean-chicken-bowls,
+    grilled-chicken-with-herbed-corn-salsa,
+    seared-salmon-with-summer-vegetables,
+  ]
 ingredients:
   - '1.5 cups Quinoa, rinsed well'
   - '2.5 cups Water or Low-Sodium Vegetable Broth'

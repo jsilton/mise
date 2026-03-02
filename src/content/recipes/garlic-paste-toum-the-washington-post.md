@@ -13,7 +13,12 @@ prepTime: 20 min
 cookTime: 0 min
 totalTime: 20 min
 servings: '4 cups'
-pairsWith: [chicken-shawarma, chicken-thigh-kebabs-with-chile-yogurt-sauce, middle-eastern-style-grilled-chicken-kabobs]
+pairsWith:
+  [
+    chicken-shawarma,
+    chicken-thigh-kebabs-with-chile-yogurt-sauce,
+    middle-eastern-style-grilled-chicken-kabobs,
+  ]
 ingredients:
   - '2 cups Fresh Garlic Cloves, peeled'
   - '1/2 tsp Kosher Salt'

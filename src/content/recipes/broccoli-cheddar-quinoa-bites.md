@@ -17,7 +17,12 @@ prepTime: 15 min
 cookTime: 30 min
 totalTime: 45 min
 servings: '30 bites'
-pairsWith: [chocolate-chip-beet-muffins, chocolate-chip-muffins-with-zucchini, favorite-pumpkin-oatmeal-muffins]
+pairsWith:
+  [
+    chocolate-chip-beet-muffins,
+    chocolate-chip-muffins-with-zucchini,
+    favorite-pumpkin-oatmeal-muffins,
+  ]
 ingredients:
   - '2 cups Cooked Quinoa'
   - '1 cup Fresh Broccoli, finely chopped (packed)'

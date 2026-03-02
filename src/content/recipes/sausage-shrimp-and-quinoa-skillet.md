@@ -16,7 +16,12 @@ prepTime: 5 min
 cookTime: 15 min
 totalTime: 20 min
 servings: '4'
-pairsWith: [roasted-fall-harvest-salad, garlicky-lemon-kale-with-carrots, roasted-sunchokes-with-brown-butter-cider-vinaigrette]
+pairsWith:
+  [
+    roasted-fall-harvest-salad,
+    garlicky-lemon-kale-with-carrots,
+    roasted-sunchokes-with-brown-butter-cider-vinaigrette,
+  ]
 ingredients:
   - '1/2 lb Medium Shrimp, peeled and deveined'
   - '6 oz Spicy Chicken Sausage, sliced'

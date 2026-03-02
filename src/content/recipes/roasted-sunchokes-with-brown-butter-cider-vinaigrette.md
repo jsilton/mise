@@ -16,7 +16,8 @@ prepTime: 10 min
 cookTime: 60 min
 totalTime: 70 min
 servings: '4'
-pairsWith: [rosemary-pork-tenderloin, herb-marinated-pork-tenderloins, one-pan-citrus-beets-roasted-chicken]
+pairsWith:
+  [rosemary-pork-tenderloin, herb-marinated-pork-tenderloins, one-pan-citrus-beets-roasted-chicken]
 ingredients:
   - '2 lbs Sunchokes (Jerusalem Artichokes), scrubbed and cut'
   - 2 tbsp Unsalted Butter

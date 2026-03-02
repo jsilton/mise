@@ -17,7 +17,8 @@ prepTime: 10 min
 cookTime: 20 min
 totalTime: 30 min
 servings: '12'
-pairsWith: [banana-oat-greek-yogurt-muffins, avocado-kale-caesar-salad, broccoli-cheddar-quinoa-bites]
+pairsWith:
+  [banana-oat-greek-yogurt-muffins, avocado-kale-caesar-salad, broccoli-cheddar-quinoa-bites]
 ingredients:
   - 2 cups Rolled Oats
   - 1 cup Pure Pumpkin Puree

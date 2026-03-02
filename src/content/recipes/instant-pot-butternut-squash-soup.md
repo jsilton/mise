@@ -12,7 +12,12 @@ prepTime: 15 min
 cookTime: 30 min
 totalTime: 45 min
 servings: 8 cups
-pairsWith: [avocado-kale-caesar-salad, roasted-sunchokes-with-brown-butter-cider-vinaigrette, warm-roasted-veggie-salad-with-maple-dijon-vinaigrette]
+pairsWith:
+  [
+    avocado-kale-caesar-salad,
+    roasted-sunchokes-with-brown-butter-cider-vinaigrette,
+    warm-roasted-veggie-salad-with-maple-dijon-vinaigrette,
+  ]
 ingredients:
   - '4 slices Bacon, diced'
   - '1/2 Sweet Onion, diced'

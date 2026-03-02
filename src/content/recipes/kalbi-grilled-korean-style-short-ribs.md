@@ -13,7 +13,8 @@ prepTime: 60 min
 cookTime: 15 min
 totalTime: 600 min
 servings: '6'
-pairsWith: [korean-pickled-cucumbers, seasoned-bean-sprouts, fresh-cabbage-cucumber-and-radish-kimchi]
+pairsWith:
+  [korean-pickled-cucumbers, seasoned-bean-sprouts, fresh-cabbage-cucumber-and-radish-kimchi]
 ingredients:
   - 5 lbs Flanken-style Beef Short Ribs (1/2-inch thick)
   - 1/3 cup Sake

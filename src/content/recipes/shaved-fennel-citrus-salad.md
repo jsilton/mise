@@ -18,7 +18,8 @@ prepTime: 15 min
 cookTime: 0 min
 totalTime: 15 min
 servings: '4'
-pairsWith: [mediterranean-salmon-with-lemon-herb-emulsion, chicken-piccata-unfried, chicken-milanese]
+pairsWith:
+  [mediterranean-salmon-with-lemon-herb-emulsion, chicken-piccata-unfried, chicken-milanese]
 ingredients:
   - '2 large Fennel Bulbs, stalks removed and fronds reserved'
   - '2 large Navel Oranges or Cara Cara Oranges'

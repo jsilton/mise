@@ -31,8 +31,8 @@ const ROLE_PAIRINGS = {
   side: ['main'],
   base: ['main'],
   condiment: ['main'],
-  dessert: [],   // desserts don't automatically pair
-  drink: [],     // drinks don't automatically pair
+  dessert: [], // desserts don't automatically pair
+  drink: [], // drinks don't automatically pair
 };
 
 /**
@@ -134,13 +134,13 @@ function scorePairing(recipe, candidate, candidateSlug, referencedBy, recipeSlug
 
   // Shared flavor profile overlap
   if (recipeData.flavorProfile?.length && candData.flavorProfile?.length) {
-    const shared = recipeData.flavorProfile.filter(f => candData.flavorProfile.includes(f));
+    const shared = recipeData.flavorProfile.filter((f) => candData.flavorProfile.includes(f));
     score += shared.length * 3;
   }
 
   // Shared occasion overlap
   if (recipeData.occasions?.length && candData.occasions?.length) {
-    const shared = recipeData.occasions.filter(o => candData.occasions.includes(o));
+    const shared = recipeData.occasions.filter((o) => candData.occasions.includes(o));
     score += shared.length * 2;
   }
 
@@ -181,7 +181,7 @@ function suggestPairings(recipeSlug, recipes, referencedBy) {
   candidates.sort((a, b) => b.score - a.score);
 
   const topN = Math.min(3, candidates.length);
-  return candidates.slice(0, topN).map(c => c.slug);
+  return candidates.slice(0, topN).map((c) => c.slug);
 }
 
 /**
@@ -298,7 +298,7 @@ async function main() {
   }
 }
 
-main().catch(err => {
+main().catch((err) => {
   console.error('Error:', err);
   process.exit(1);
 });

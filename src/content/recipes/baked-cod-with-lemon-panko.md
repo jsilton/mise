@@ -12,7 +12,8 @@ prepTime: 10 min
 cookTime: 15 min
 totalTime: 25 min
 servings: '4'
-pairsWith: [peach-salad-with-tomatoes-and-beets, charred-asparagus-with-parmesan, sesame-tomato-salad]
+pairsWith:
+  [peach-salad-with-tomatoes-and-beets, charred-asparagus-with-parmesan, sesame-tomato-salad]
 ingredients:
   - '4 Cod Fillets (or Halibut/Haddock), patted dry'
   - '2 tbsp Unsalted Butter, melted'

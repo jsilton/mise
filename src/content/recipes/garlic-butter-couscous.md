@@ -18,7 +18,8 @@ nutritionalDensity: moderate
 leftovers: excellent
 advancePrep: [make-ahead]
 equipment: [saucepan]
-pairsWith: [chicken-shawarma, chicken-souvlaki, chicken-thigh-kebabs-with-chile-yogurt-sauce, tzatziki-sauce]
+pairsWith:
+  [chicken-shawarma, chicken-souvlaki, chicken-thigh-kebabs-with-chile-yogurt-sauce, tzatziki-sauce]
 ingredients:
   - '1 1/2 cups Pearl Couscous (Israeli Couscous)'
   - '2 tbsp Unsalted Butter'

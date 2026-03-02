@@ -17,7 +17,12 @@ prepTime: 10 min
 cookTime: 25 min
 totalTime: 35 min
 servings: '4'
-pairsWith: [garlicky-lemon-kale-with-carrots, spaghetti-and-spinach-with-sun-dried-tomato-cream-sauce, roasted-fall-harvest-salad]
+pairsWith:
+  [
+    garlicky-lemon-kale-with-carrots,
+    spaghetti-and-spinach-with-sun-dried-tomato-cream-sauce,
+    roasted-fall-harvest-salad,
+  ]
 ingredients:
   - '1 1/4 lbs Salmon Fillet, cut into 4 portions'
   - '1 lb Baby Yukon Gold Potatoes, halved'

@@ -18,7 +18,12 @@ prepTime: 5 min
 cookTime: 6 min
 totalTime: 11 min
 servings: '4'
-pairsWith: [grilled-chicken-with-herbed-corn-salsa, greek-style-lamb-burgers-with-yogurt-cucumber-sauce, mediterranean-chicken-thighs]
+pairsWith:
+  [
+    grilled-chicken-with-herbed-corn-salsa,
+    greek-style-lamb-burgers-with-yogurt-cucumber-sauce,
+    mediterranean-chicken-thighs,
+  ]
 ingredients:
   - '4 medium Zucchini (about 1.5 lbs), sliced lengthwise into 1/4-inch planks'
   - '2 tbsp Olive Oil'

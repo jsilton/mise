@@ -16,7 +16,8 @@ prepTime: 5 min
 cookTime: 15 min
 totalTime: 20 min
 servings: '6'
-pairsWith: [garlic-mashed-mock-potatoes, honey-glazed-carrots, skinny-baked-broccoli-macaroni-and-cheese]
+pairsWith:
+  [garlic-mashed-mock-potatoes, honey-glazed-carrots, skinny-baked-broccoli-macaroni-and-cheese]
 ingredients:
   - 1 lb Elbow Macaroni or Shells
   - 1 1/2 cups Whole Milk

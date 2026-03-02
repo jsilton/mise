@@ -16,7 +16,8 @@ prepTime: 10 min
 cookTime: 25 min
 totalTime: 35 min
 servings: '6'
-pairsWith: [honey-lime-chicken-thighs, sweet-chili-chicken-sliders, instant-pot-butternut-squash-soup]
+pairsWith:
+  [honey-lime-chicken-thighs, sweet-chili-chicken-sliders, instant-pot-butternut-squash-soup]
 ingredients:
   - '1 medium Sweet Potato, 1/2-inch cubes'
   - '6 oz Brussels Sprouts, halved'

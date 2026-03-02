@@ -16,7 +16,8 @@ prepTime: 20 min
 cookTime: 40 min
 totalTime: 60 min
 servings: '6'
-pairsWith: [roasted-fall-harvest-salad, cinnamon-sweet-potatoes, green-beans-with-shallots-and-lemon]
+pairsWith:
+  [roasted-fall-harvest-salad, cinnamon-sweet-potatoes, green-beans-with-shallots-and-lemon]
 ingredients:
   - '2 lbs Medium Shrimp, peeled and deveined'
   - 2 cups Fresh Corn Kernels

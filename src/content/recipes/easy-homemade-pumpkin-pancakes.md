@@ -12,7 +12,12 @@ prepTime: 10 min
 cookTime: 20 min
 totalTime: 30 min
 servings: '4'
-pairsWith: [honey-glazed-carrots, avocado-kale-caesar-salad, roasted-sunchokes-with-brown-butter-cider-vinaigrette]
+pairsWith:
+  [
+    honey-glazed-carrots,
+    avocado-kale-caesar-salad,
+    roasted-sunchokes-with-brown-butter-cider-vinaigrette,
+  ]
 ingredients:
   - 2 cups All-Purpose Flour
   - 1 cup Pure Pumpkin Puree (Not pumpkin pie filling)

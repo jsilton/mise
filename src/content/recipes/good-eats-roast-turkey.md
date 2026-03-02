@@ -12,7 +12,12 @@ prepTime: 30 min
 cookTime: 2.5 hours
 totalTime: 3 days
 servings: '12'
-pairsWith: [honey-glazed-carrots, roasted-sunchokes-with-brown-butter-cider-vinaigrette, roasted-fall-harvest-salad]
+pairsWith:
+  [
+    honey-glazed-carrots,
+    roasted-sunchokes-with-brown-butter-cider-vinaigrette,
+    roasted-fall-harvest-salad,
+  ]
 ingredients:
   - '1 (14-16 lb) Young Turkey, thawed'
   - 1 cup Kosher Salt

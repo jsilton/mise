@@ -12,7 +12,12 @@ prepTime: 15 min
 cookTime: 60 min
 totalTime: 75 min
 servings: '10'
-pairsWith: [cinnamon-sweet-potatoes, green-beans-with-shallots-and-lemon, roasted-sunchokes-with-brown-butter-cider-vinaigrette]
+pairsWith:
+  [
+    cinnamon-sweet-potatoes,
+    green-beans-with-shallots-and-lemon,
+    roasted-sunchokes-with-brown-butter-cider-vinaigrette,
+  ]
 ingredients:
   - 1 lb Breakfast Sausage (Jimmy Dean Standard)
   - '30 oz Frozen Shredded Hash Browns, thawed'

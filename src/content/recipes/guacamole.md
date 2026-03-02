@@ -12,7 +12,8 @@ prepTime: 10 min
 cookTime: 0 min
 totalTime: 70 min
 servings: '4'
-pairsWith: [korean-style-tacos-with-kogi-bbq-sauce, seafood-chorizo-tacos, sheet-pan-pineapple-shrimp-tacos]
+pairsWith:
+  [korean-style-tacos-with-kogi-bbq-sauce, seafood-chorizo-tacos, sheet-pan-pineapple-shrimp-tacos]
 ingredients:
   - 3 ripe Haas Avocados
   - '1 large Lime, juiced (The Acid Balance)'

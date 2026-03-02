@@ -17,7 +17,12 @@ prepTime: 10 min
 cookTime: 15 min
 totalTime: 25 min
 servings: '6'
-pairsWith: [roasted-fall-harvest-salad, roasted-sunchokes-with-brown-butter-cider-vinaigrette, cinnamon-sweet-potatoes]
+pairsWith:
+  [
+    roasted-fall-harvest-salad,
+    roasted-sunchokes-with-brown-butter-cider-vinaigrette,
+    cinnamon-sweet-potatoes,
+  ]
 ingredients:
   - 3 Pork Tenderloins (about 1 lb each)
   - 3/4 cup Fresh Lemon Juice

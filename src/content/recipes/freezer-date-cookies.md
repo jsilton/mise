@@ -17,7 +17,8 @@ prepTime: 15 min
 cookTime: 12 min
 totalTime: 30 min
 servings: 24 cookies
-pairsWith: [banana-oat-greek-yogurt-muffins, brownie-protein-balls, strawberry-quinoa-breakfast-bars]
+pairsWith:
+  [banana-oat-greek-yogurt-muffins, brownie-protein-balls, strawberry-quinoa-breakfast-bars]
 ingredients:
   - '1 cup Medjool Dates, pitted'
   - '1/2 cup Unsalted Butter, melted'

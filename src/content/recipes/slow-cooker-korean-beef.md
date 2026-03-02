@@ -12,7 +12,12 @@ prepTime: 10 min
 cookTime: 510 min
 totalTime: 520 min
 servings: '6'
-pairsWith: [steamed-noodles-with-green-beans, korean-pickled-cucumbers, fresh-cabbage-cucumber-and-radish-kimchi]
+pairsWith:
+  [
+    steamed-noodles-with-green-beans,
+    korean-pickled-cucumbers,
+    fresh-cabbage-cucumber-and-radish-kimchi,
+  ]
 ingredients:
   - '3 lb Beef Chuck Roast, 1-inch cubes'
   - 1 cup Beef Broth

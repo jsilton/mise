@@ -16,7 +16,12 @@ prepTime: 20 min
 cookTime: 60 min
 totalTime: 80 min
 servings: '4'
-pairsWith: [roasted-fall-harvest-salad, roasted-sunchokes-with-brown-butter-cider-vinaigrette, cinnamon-sweet-potatoes]
+pairsWith:
+  [
+    roasted-fall-harvest-salad,
+    roasted-sunchokes-with-brown-butter-cider-vinaigrette,
+    cinnamon-sweet-potatoes,
+  ]
 ingredients:
   - '4 Bone-in Chicken Thighs, skin-on'
   - '4 large Beets, sliced into 1/4-inch rounds'

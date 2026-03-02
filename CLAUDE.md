@@ -36,6 +36,7 @@ Every recipe should embody these principles:
 When improving or reviewing any recipe, apply all three perspectives:
 
 ### Lens 1: Food Scientist (Technique)
+
 - Is there a sear step for proteins? Is surface drying mentioned?
 - Are spices bloomed in fat before adding liquid?
 - Is temperature specified where it matters (e.g., "475°F for the crust, reduce to 375°F")?
@@ -43,12 +44,14 @@ When improving or reviewing any recipe, apply all three perspectives:
 - Are visual cues provided ("until golden brown," "until sauce coats the back of a spoon")?
 
 ### Lens 2: Flavor Architect (Balance)
+
 - Where is the acid? Rich dishes need brightness (lemon, vinegar, tomato)
 - Is there enough fat to carry flavors?
 - Is there texture contrast (crispy vs. creamy, fresh vs. cooked)?
 - Does it finish with something (herbs, flaky salt, zest, cold butter)?
 
 ### Lens 3: Purist (Authenticity)
+
 - Is this in season? (Asparagus in winter is a red flag)
 - Does it honor the dish's roots while updating technique?
 - Are shortcuts undermining the result?
@@ -58,6 +61,7 @@ When improving or reviewing any recipe, apply all three perspectives:
 Every recipe is a `.md` file in `src/content/recipes/` with this structure:
 
 ### Required Frontmatter
+
 ```yaml
 title: 'Recipe Name'
 role: main | side | base | dessert | drink | condiment
@@ -69,28 +73,30 @@ totalTime: '35 min'
 servings: '4'
 ingredients:
   - '2 lbs boneless, skinless chicken thighs'
-  - '--- Sauce ---'    # section dividers use triple dashes
+  - '--- Sauce ---' # section dividers use triple dashes
 ```
 
 ### Important Optional Fields
+
 ```yaml
-origin: 'China'                              # single country
-cuisines: [Chinese, Cantonese]               # cultural styles (array)
-cookingMethods: [roast, braise, sear]        # techniques used
-dietary: [gluten-free, dairy-free]           # restrictions
+origin: 'China' # single country
+cuisines: [Chinese, Cantonese] # cultural styles (array)
+cookingMethods: [roast, braise, sear] # techniques used
+dietary: [gluten-free, dairy-free] # restrictions
 occasions: [weeknight, entertaining, meal-prep]
 flavorProfile: [sweet, savory, umami]
-seasons: [fall, winter]                      # or year-round
+seasons: [fall, winter] # or year-round
 nutritionalDensity: light | moderate | hearty
 leftovers: poor | good | excellent
 advancePrep: [marinate-overnight, make-ahead-sauce]
 equipment: [slow-cooker, stand-mixer, grill]
-pairsWith: [basmati-rice, everyday-arugula-salad]  # must be valid recipe slugs
+pairsWith: [basmati-rice, everyday-arugula-salad] # must be valid recipe slugs
 ```
 
 ### Required Content Sections
 
 **## Chef's Note** (2-3 sentences)
+
 - Sentence 1-2: Cultural/historical origin and significance
 - Sentence 3: One practical insight (key ingredient, technique, common mistake)
 - Tone: conversational, educational, respectful of origins
@@ -98,20 +104,23 @@ pairsWith: [basmati-rice, everyday-arugula-salad]  # must be valid recipe slugs
 - See `CHEFS_NOTE_GUIDELINES.md` for full guidelines and examples
 
 **## Directions** (numbered, with bold step headers)
+
 ```markdown
 1. **The Prep:** Detailed step with temperatures and visual cues...
 2. **The Sear:** High heat instructions with timing...
 ```
 
 ### What Makes an Exemplary Recipe (reference: `char-siu.md`)
+
 - Complete frontmatter with all relevant fields
-- Chef's Note explains the *why* (cultural context + technique insight)
+- Chef's Note explains the _why_ (cultural context + technique insight)
 - Directions use specific temperatures, times, and visual cues
 - Ingredients include quantities, cuts, and substitution notes
 - `pairsWith` references real recipe slugs
 - `advancePrep` and `equipment` are filled when relevant
 
 ### What Makes a Skeletal Recipe (needs fixing)
+
 - Missing `cuisines`, `cookingMethods`, `occasions`, `pairsWith`
 - Chef's Note is one generic sentence ("This is a classic dish")
 - Directions say "cook until done" with no temperatures or visual cues
@@ -123,6 +132,7 @@ pairsWith: [basmati-rice, everyday-arugula-salad]  # must be valid recipe slugs
 Meals in `src/content/meals/*.md` compose multiple recipes into a complete dining experience.
 
 ### Templates
+
 - **plate** — protein + starch + vegetable (+ optional salad/sauce)
 - **bowl** — base + protein + vegetables + sauce + toppings
 - **pasta-night** — pasta + sauce + protein/veg + salad
@@ -131,17 +141,19 @@ Meals in `src/content/meals/*.md` compose multiple recipes into a complete dinin
 - **grazing** — multiple small items for entertaining
 
 ### Day-of-Week Profiles (for meal planning)
-| Day | Profile | Time | Density | Style |
-|-----|---------|------|---------|-------|
-| Monday | Recovery | 30-40 min | Light-moderate | Comfort but not heavy |
-| Tuesday | Variety | 40-50 min | Moderate | Different from Monday |
-| Wednesday | Hump Day | 30-45 min | Moderate-hearty | Crowd-pleaser |
-| Thursday | Pre-Weekend | 45-60 min | Hearty | More adventurous OK |
-| Friday | Easy Street | 20-30 min | Light-moderate | Simple or special |
-| Saturday | Project Day | 60-120 min | Any | Learning opportunity |
-| Sunday | Prep + Feast | 30 min cook + prep | Moderate-hearty | Family favorites |
+
+| Day       | Profile      | Time               | Density         | Style                 |
+| --------- | ------------ | ------------------ | --------------- | --------------------- |
+| Monday    | Recovery     | 30-40 min          | Light-moderate  | Comfort but not heavy |
+| Tuesday   | Variety      | 40-50 min          | Moderate        | Different from Monday |
+| Wednesday | Hump Day     | 30-45 min          | Moderate-hearty | Crowd-pleaser         |
+| Thursday  | Pre-Weekend  | 45-60 min          | Hearty          | More adventurous OK   |
+| Friday    | Easy Street  | 20-30 min          | Light-moderate  | Simple or special     |
+| Saturday  | Project Day  | 60-120 min         | Any             | Learning opportunity  |
+| Sunday    | Prep + Feast | 30 min cook + prep | Moderate-hearty | Family favorites      |
 
 ### Planning Constraints
+
 - No cuisine repeated within 3 days
 - Balance light/moderate/hearty across the week
 - At least 2 different cuisines per 3-day window
@@ -150,6 +162,7 @@ Meals in `src/content/meals/*.md` compose multiple recipes into a complete dinin
 ## Common Claude Code Workflows
 
 ### "Plan next week's meals"
+
 1. Check what was recently cooked (calendars, meal history)
 2. Consider the season and what's fresh
 3. Apply day-of-week profiles
@@ -157,6 +170,7 @@ Meals in `src/content/meals/*.md` compose multiple recipes into a complete dinin
 5. Ensure variety in cuisine, density, and cooking method
 
 ### "Fix recipes that need work"
+
 1. Run `npm run chef-review` to get the quality report
 2. Read the lowest-scoring recipes
 3. Apply the 3-lens critique
@@ -164,6 +178,7 @@ Meals in `src/content/meals/*.md` compose multiple recipes into a complete dinin
 5. Run `npm run validate-recipes` to confirm fixes pass
 
 ### "Add a new recipe"
+
 1. Create `src/content/recipes/recipe-name.md` (kebab-case)
 2. Fill complete frontmatter (all relevant fields)
 3. Write Chef's Note following `CHEFS_NOTE_GUIDELINES.md`
@@ -172,12 +187,14 @@ Meals in `src/content/meals/*.md` compose multiple recipes into a complete dinin
 6. Run `npm run validate-recipes`
 
 ### "What should I cook tonight?"
+
 1. Ask about time available, mood, and any constraints
 2. Filter recipes by time, season, and preference
 3. Suggest 3-5 options with brief reasoning
 4. Offer to compose a full meal around the chosen recipe
 
 ### "Teach me about [technique]"
+
 1. Check `src/knowledge/techniques/` for existing reference
 2. Check `src/knowledge/codex/` for related rules
 3. Find recipes that demonstrate the technique
@@ -185,20 +202,20 @@ Meals in `src/content/meals/*.md` compose multiple recipes into a complete dinin
 
 ## Key Files
 
-| Purpose | Path |
-|---------|------|
-| Recipe schema (Zod) | `src/content/config.ts` |
-| Recipe validation | `scripts/validate-recipes.mjs` |
-| Chef quality review | `scripts/chef-review.mjs` |
-| QA test suite | `scripts/qa-test.mjs` |
-| Knowledge codex rules | `src/knowledge/codex/*.json` |
-| Technique references | `src/knowledge/techniques/*.md` |
-| Tagging guide | `src/knowledge/TAGGING_GUIDE.md` |
-| Chef's Note guidelines | `CHEFS_NOTE_GUIDELINES.md` |
-| Meal planning strategy | `MEAL_PLANNING_STRATEGY.md` |
-| Code practices | `CODE_PRACTICES.md` |
-| Site config | `astro.config.mjs` |
-| Tailwind config | `tailwind.config.mjs` |
+| Purpose                | Path                             |
+| ---------------------- | -------------------------------- |
+| Recipe schema (Zod)    | `src/content/config.ts`          |
+| Recipe validation      | `scripts/validate-recipes.mjs`   |
+| Chef quality review    | `scripts/chef-review.mjs`        |
+| QA test suite          | `scripts/qa-test.mjs`            |
+| Knowledge codex rules  | `src/knowledge/codex/*.json`     |
+| Technique references   | `src/knowledge/techniques/*.md`  |
+| Tagging guide          | `src/knowledge/TAGGING_GUIDE.md` |
+| Chef's Note guidelines | `CHEFS_NOTE_GUIDELINES.md`       |
+| Meal planning strategy | `MEAL_PLANNING_STRATEGY.md`      |
+| Code practices         | `CODE_PRACTICES.md`              |
+| Site config            | `astro.config.mjs`               |
+| Tailwind config        | `tailwind.config.mjs`            |
 
 ## Cuisine Tagging Rules
 
@@ -210,6 +227,7 @@ Meals in `src/content/meals/*.md` compose multiple recipes into a complete dinin
 ## Known Gaps (from MEAL_PLANNING_STRATEGY.md)
 
 Areas where more recipes are needed:
+
 - **Salads**: Need 20-30 versatile salads
 - **Vegetable sides**: Need 30-40 different preparations
 - **Grain/starch bases**: More rice, quinoa, couscous, polenta

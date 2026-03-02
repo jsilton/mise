@@ -12,7 +12,12 @@ prepTime: 20 min
 cookTime: 135 min
 totalTime: 155 min
 servings: '10'
-pairsWith: [cinnamon-sweet-potatoes, green-beans-with-shallots-and-lemon, roasted-sunchokes-with-brown-butter-cider-vinaigrette]
+pairsWith:
+  [
+    cinnamon-sweet-potatoes,
+    green-beans-with-shallots-and-lemon,
+    roasted-sunchokes-with-brown-butter-cider-vinaigrette,
+  ]
 ingredients:
   - 4 lbs Whole Butternut Squash
   - 7 cups Filtered Water

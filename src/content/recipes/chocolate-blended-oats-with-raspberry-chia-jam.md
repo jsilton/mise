@@ -17,7 +17,12 @@ prepTime: 10 min
 cookTime: 90 min
 totalTime: 100 min
 servings: '4'
-pairsWith: [avocado-kale-caesar-salad, warm-roasted-veggie-salad-with-maple-dijon-vinaigrette, roasted-fall-harvest-salad]
+pairsWith:
+  [
+    avocado-kale-caesar-salad,
+    warm-roasted-veggie-salad-with-maple-dijon-vinaigrette,
+    roasted-fall-harvest-salad,
+  ]
 ingredients:
   - 1 cup Frozen Raspberries
   - 1 tbsp Chia Seeds

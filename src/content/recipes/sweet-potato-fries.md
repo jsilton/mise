@@ -16,7 +16,12 @@ prepTime: 10 min
 cookTime: 25 min
 totalTime: 35 min
 servings: '4'
-pairsWith: [roasted-sweet-potatoes, honey-glazed-carrots, warm-roasted-veggie-salad-with-maple-dijon-vinaigrette]
+pairsWith:
+  [
+    roasted-sweet-potatoes,
+    honey-glazed-carrots,
+    warm-roasted-veggie-salad-with-maple-dijon-vinaigrette,
+  ]
 ingredients:
   - '2 lbs Sweet Potatoes, peeled'
   - 2 tbsp Extra-Virgin Olive Oil

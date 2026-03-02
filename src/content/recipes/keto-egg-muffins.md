@@ -17,7 +17,12 @@ prepTime: 5 min
 cookTime: 20 min
 totalTime: 25 min
 servings: '12 muffins'
-pairsWith: [avocado-kale-caesar-salad, brownie-protein-balls, roasted-sunchokes-with-brown-butter-cider-vinaigrette]
+pairsWith:
+  [
+    avocado-kale-caesar-salad,
+    brownie-protein-balls,
+    roasted-sunchokes-with-brown-butter-cider-vinaigrette,
+  ]
 ingredients:
   - '12 large Eggs'
   - '5 oz Spanish Chorizo or Salami, finely diced'

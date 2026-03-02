@@ -12,7 +12,12 @@ prepTime: 15 min
 cookTime: 45 min
 totalTime: 60 min
 servings: '6'
-pairsWith: [roasted-fall-harvest-salad, roasted-sunchokes-with-brown-butter-cider-vinaigrette, cinnamon-sweet-potatoes]
+pairsWith:
+  [
+    roasted-fall-harvest-salad,
+    roasted-sunchokes-with-brown-butter-cider-vinaigrette,
+    cinnamon-sweet-potatoes,
+  ]
 ingredients:
   - '3 lbs Roma Tomatoes, halved'
   - '6 cloves Garlic, peeled'

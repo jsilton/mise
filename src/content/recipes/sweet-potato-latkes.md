@@ -12,7 +12,12 @@ prepTime: 30 min
 cookTime: 30 min
 totalTime: 60 min
 servings: 26 pancakes
-pairsWith: [nana-ruths-applesauce, roasted-sunchokes-with-brown-butter-cider-vinaigrette, avocado-kale-caesar-salad]
+pairsWith:
+  [
+    nana-ruths-applesauce,
+    roasted-sunchokes-with-brown-butter-cider-vinaigrette,
+    avocado-kale-caesar-salad,
+  ]
 ingredients:
   - '1 lb Sweet Potatoes, peeled and coarsely grated'
   - '2 large Eggs, beaten'

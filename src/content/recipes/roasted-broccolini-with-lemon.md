@@ -18,7 +18,8 @@ nutritionalDensity: light
 leftovers: good
 advancePrep: []
 equipment: [baking-sheet]
-pairsWith: [shrimp-fettuccine-alfredo, chicken-marsala, baked-chicken-parmesan, miso-salmon-with-bok-choy]
+pairsWith:
+  [shrimp-fettuccine-alfredo, chicken-marsala, baked-chicken-parmesan, miso-salmon-with-bok-choy]
 ingredients:
   - '2 bunches Broccolini (about 12 oz), trimmed'
   - '3 tbsp Extra-Virgin Olive Oil'

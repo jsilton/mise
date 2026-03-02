@@ -18,7 +18,8 @@ prepTime: 10 min
 cookTime: 20 min
 totalTime: 30 min
 servings: '4'
-pairsWith: [japanese-chicken-curry-kare-raisu, japanese-style-trout-with-dashi, miso-salmon-with-bok-choy]
+pairsWith:
+  [japanese-chicken-curry-kare-raisu, japanese-style-trout-with-dashi, miso-salmon-with-bok-choy]
 ingredients:
   - '2 lbs Yukon Gold Potatoes, peeled and cubed'
   - '4 tbsp Unsalted Butter'

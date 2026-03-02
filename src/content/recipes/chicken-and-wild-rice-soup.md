@@ -12,7 +12,12 @@ prepTime: 20 min
 cookTime: 60 min
 totalTime: 80 min
 servings: '8'
-pairsWith: [roasted-fall-harvest-salad, roasted-sunchokes-with-brown-butter-cider-vinaigrette, cinnamon-sweet-potatoes]
+pairsWith:
+  [
+    roasted-fall-harvest-salad,
+    roasted-sunchokes-with-brown-butter-cider-vinaigrette,
+    cinnamon-sweet-potatoes,
+  ]
 ingredients:
   - 1 lb Chicken Thighs + 1 lb Chicken Breast (diced)
   - 1.5 cups Wild Rice Blend

@@ -12,7 +12,12 @@ prepTime: 15 min
 cookTime: 60 min
 totalTime: 12 hours
 servings: '4 cups'
-pairsWith: [middle-eastern-style-grilled-chicken-kabobs, chicken-shawarma, chicken-thigh-kebabs-with-chile-yogurt-sauce]
+pairsWith:
+  [
+    middle-eastern-style-grilled-chicken-kabobs,
+    chicken-shawarma,
+    chicken-thigh-kebabs-with-chile-yogurt-sauce,
+  ]
 ingredients:
   - '1 cup Dried Chickpeas (Must be dried)'
   - '2 tsp Baking Soda (divided)'

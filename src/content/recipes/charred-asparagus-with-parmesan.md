@@ -18,7 +18,8 @@ nutritionalDensity: light
 leftovers: poor
 advancePrep: []
 equipment: [baking-sheet]
-pairsWith: [shrimp-fettuccine-alfredo, chicken-marsala, baked-chicken-parmesan, baked-cod-with-lemon-panko]
+pairsWith:
+  [shrimp-fettuccine-alfredo, chicken-marsala, baked-chicken-parmesan, baked-cod-with-lemon-panko]
 ingredients:
   - '1 lb Asparagus, woody ends snapped off'
   - '2 tbsp Extra-Virgin Olive Oil'

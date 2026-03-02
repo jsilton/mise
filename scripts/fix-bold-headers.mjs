@@ -166,7 +166,10 @@ function getHeaderWord(stepText) {
   // Remove leading whitespace
   const trimmed = stepText.trim();
   // Get the first word (lowercase)
-  const firstWord = trimmed.split(/[\s,]+/)[0].toLowerCase().replace(/[^a-z]/g, '');
+  const firstWord = trimmed
+    .split(/[\s,]+/)[0]
+    .toLowerCase()
+    .replace(/[^a-z]/g, '');
 
   if (VERB_MAP[firstWord]) {
     return VERB_MAP[firstWord];
@@ -221,13 +224,10 @@ async function listMdFiles(dir) {
     let newDirections = directionsContent;
 
     // Match numbered steps: "1. Text here" or "1.  Text here"
-    newDirections = newDirections.replace(
-      /^(\d+)\.\s+(?!\*\*)(.+)/gm,
-      (match, num, text) => {
-        const header = getHeaderWord(text);
-        return `${num}. **${header}:** ${text.trim()}`;
-      }
-    );
+    newDirections = newDirections.replace(/^(\d+)\.\s+(?!\*\*)(.+)/gm, (match, num, text) => {
+      const header = getHeaderWord(text);
+      return `${num}. **${header}:** ${text.trim()}`;
+    });
 
     if (newDirections === directionsContent) {
       continue;

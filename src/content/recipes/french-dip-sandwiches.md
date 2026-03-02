@@ -12,7 +12,8 @@ prepTime: 15 min
 cookTime: 8 hours
 totalTime: 8.5 hours
 servings: '6'
-pairsWith: [avocado-kale-caesar-salad, warm-roasted-veggie-salad-with-maple-dijon-vinaigrette, coleslaw]
+pairsWith:
+  [avocado-kale-caesar-salad, warm-roasted-veggie-salad-with-maple-dijon-vinaigrette, coleslaw]
 ingredients:
   - 3 lb Beef Chuck Roast
   - '1 large Yellow Onion, sliced'

@@ -12,7 +12,12 @@ prepTime: 20 min
 cookTime: 100 min
 totalTime: 120 min
 servings: '12'
-pairsWith: [quick-and-easy-drop-biscuits, tomato-cobbler-with-cornmeal-cheddar-biscuits, best-slow-cooker-pulled-pork]
+pairsWith:
+  [
+    quick-and-easy-drop-biscuits,
+    tomato-cobbler-with-cornmeal-cheddar-biscuits,
+    best-slow-cooker-pulled-pork,
+  ]
 ingredients:
   - 1 cup Self-rising Corn Meal
   - 1 cup All-Purpose Flour

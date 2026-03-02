@@ -12,7 +12,12 @@ prepTime: 10 min
 cookTime: 40 min
 totalTime: 50 min
 servings: '8'
-pairsWith: [quick-and-easy-drop-biscuits, tomato-cobbler-with-cornmeal-cheddar-biscuits, best-slow-cooker-pulled-pork]
+pairsWith:
+  [
+    quick-and-easy-drop-biscuits,
+    tomato-cobbler-with-cornmeal-cheddar-biscuits,
+    best-slow-cooker-pulled-pork,
+  ]
 ingredients:
   - 1 box (8.5 oz) Jiffy Corn Bread Mix
   - 1 can (14.75 oz) Cream-Style Corn
