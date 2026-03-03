@@ -52,22 +52,7 @@ recipes.sort((a, b) => a.data.title.localeCompare(b.data.title));
   </div>
 </Layout>
 
-<script
-  define:vars={{
-    recipes: JSON.stringify(
-      recipes.map((r) => ({
-        difficulty: r.data.difficulty,
-        cuisines: r.data.cuisines,
-        dietary: r.data.dietary,
-        cookingMethods: r.data.cookingMethods,
-        occasions: r.data.occasions,
-        flavorProfile: r.data.flavorProfile,
-        prepTime: r.data.prepTime,
-        title: r.data.title,
-      }))
-    ),
-  }}
->
+<script>
   // Page filtering and sorting logic - works with FilterPanel and search
   const searchInput = document.getElementById('searchInput');
   const recipeCards = document.querySelectorAll('.recipe-card');

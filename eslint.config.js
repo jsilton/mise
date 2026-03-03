@@ -24,6 +24,15 @@ export default [
     },
   },
 
+  // Recipe detail page: set:html is safe here — ingredient HTML is server-rendered
+  // from our own recipe frontmatter strings, not user input
+  {
+    files: ['src/pages/recipes/\\[slug\\].astro'],
+    rules: {
+      'astro/no-set-html-directive': 'off',
+    },
+  },
+
   // TypeScript/JavaScript files
   {
     files: ['**/*.ts', '**/*.mjs', '**/*.js'],

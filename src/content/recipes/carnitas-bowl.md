@@ -28,9 +28,9 @@ ingredients:
   - 2 Bay Leaves
   - 1 Cinnamon Stick
   - 2 tbsp Vegetable Oil
-  - '[Cilantro Lime Rice](/recipes/cilantro-lime-rice)'
-  - '[Seasoned Black Beans](/recipes/quick-seasoned-black-beans)'
-  - '[Pickled Red Onions](/recipes/pickled-red-onions)'
+  - '[Cilantro Lime Rice](/mise/recipes/cilantro-lime-rice)'
+  - '[Seasoned Black Beans](/mise/recipes/quick-seasoned-black-beans)'
+  - '[Pickled Red Onions](/mise/recipes/pickled-red-onions)'
   - 2 ears Corn, charred and cut off cob
   - 1/4 cup Mayo
   - 1/4 cup Sour Cream
@@ -45,7 +45,7 @@ ingredients:
 
 ## Chef's Note
 
-True carnitas from Michoacán are braised low and slow, then crisped to create edges that shatter against tender, pull-apart meat. This technique packs pork tightly in a dish so it braises in its own rendered fat—no vat of lard required. The double-broil finish is non-negotiable: broil, stir, broil again. For a faster weeknight version using ground pork, see [Chipotle Pork Bowls](/recipes/chipotle-pork-and-sweet-corn-tamale-bowls).
+True carnitas from Michoacán are braised low and slow, then crisped to create edges that shatter against tender, pull-apart meat. This technique packs pork tightly in a dish so it braises in its own rendered fat—no vat of lard required. The double-broil finish is non-negotiable: broil, stir, broil again. For a faster weeknight version using ground pork, see [Chipotle Pork Bowls](/mise/recipes/chipotle-pork-and-sweet-corn-tamale-bowls).
 
 ## Directions
 

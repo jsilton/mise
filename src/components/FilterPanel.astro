@@ -74,6 +74,7 @@ const formatLabel = (val: string) => val.charAt(0).toUpperCase() + val.slice(1).
           class="text-xs bg-white border border-slate-200 rounded-lg px-2.5 py-2 focus:ring-2 focus:ring-indigo-500/20 focus:border-indigo-400 transition-all"
         >
           <option value="">All</option>
+          {uniqueFilters.cuisines.map((c) => <option value={c}>{formatLabel(c)}</option>)}
         </select>
       </div>
 
@@ -88,6 +89,7 @@ const formatLabel = (val: string) => val.charAt(0).toUpperCase() + val.slice(1).
           class="text-xs bg-white border border-slate-200 rounded-lg px-2.5 py-2 focus:ring-2 focus:ring-indigo-500/20 focus:border-indigo-400 transition-all"
         >
           <option value="">All</option>
+          {uniqueFilters.dietary.map((d) => <option value={d}>{formatLabel(d)}</option>)}
         </select>
       </div>
 
@@ -102,6 +104,7 @@ const formatLabel = (val: string) => val.charAt(0).toUpperCase() + val.slice(1).
           class="text-xs bg-white border border-slate-200 rounded-lg px-2.5 py-2 focus:ring-2 focus:ring-indigo-500/20 focus:border-indigo-400 transition-all"
         >
           <option value="">All</option>
+          {uniqueFilters.cookingMethods.map((m) => <option value={m}>{formatLabel(m)}</option>)}
         </select>
       </div>
 
@@ -116,6 +119,7 @@ const formatLabel = (val: string) => val.charAt(0).toUpperCase() + val.slice(1).
           class="text-xs bg-white border border-slate-200 rounded-lg px-2.5 py-2 focus:ring-2 focus:ring-indigo-500/20 focus:border-indigo-400 transition-all"
         >
           <option value="">All</option>
+          {uniqueFilters.occasions.map((o) => <option value={o}>{formatLabel(o)}</option>)}
         </select>
       </div>
 
@@ -130,6 +134,7 @@ const formatLabel = (val: string) => val.charAt(0).toUpperCase() + val.slice(1).
           class="text-xs bg-white border border-slate-200 rounded-lg px-2.5 py-2 focus:ring-2 focus:ring-indigo-500/20 focus:border-indigo-400 transition-all"
         >
           <option value="">All</option>
+          {uniqueFilters.flavorProfiles.map((f) => <option value={f}>{formatLabel(f)}</option>)}
         </select>
       </div>
 
@@ -151,64 +156,7 @@ const formatLabel = (val: string) => val.charAt(0).toUpperCase() + val.slice(1).
   </div>
 </div>
 
-<script define:vars={{ uniqueFilters }}>
-  // Populate dynamic filter dropdowns
-  function initializeFilters() {
-    const selects = {
-      cuisine: document.getElementById('filterCuisine'),
-      dietary: document.getElementById('filterDietary'),
-      cookingMethod: document.getElementById('filterCookingMethod'),
-      occasion: document.getElementById('filterOccasion'),
-      flavor: document.getElementById('filterFlavor'),
-    };
-
-    if (selects.cuisine && uniqueFilters.cuisines.length > 0) {
-      uniqueFilters.cuisines.forEach((cuisine) => {
-        const option = document.createElement('option');
-        option.value = cuisine;
-        option.textContent = cuisine.charAt(0).toUpperCase() + cuisine.slice(1);
-        selects.cuisine.appendChild(option);
-      });
-    }
-
-    if (selects.dietary && uniqueFilters.dietary.length > 0) {
-      uniqueFilters.dietary.forEach((diet) => {
-        const option = document.createElement('option');
-        option.value = diet;
-        option.textContent = diet.charAt(0).toUpperCase() + diet.slice(1);
-        selects.dietary.appendChild(option);
-      });
-    }
-
-    if (selects.cookingMethod && uniqueFilters.cookingMethods.length > 0) {
-      uniqueFilters.cookingMethods.forEach((method) => {
-        const option = document.createElement('option');
-        option.value = method;
-        option.textContent = method.charAt(0).toUpperCase() + method.slice(1);
-        selects.cookingMethod.appendChild(option);
-      });
-    }
-
-    if (selects.occasion && uniqueFilters.occasions.length > 0) {
-      uniqueFilters.occasions.forEach((occasion) => {
-        const option = document.createElement('option');
-        option.value = occasion;
-        option.textContent =
-          occasion.charAt(0).toUpperCase() + occasion.slice(1).replace(/-/g, ' ');
-        selects.occasion.appendChild(option);
-      });
-    }
-
-    if (selects.flavor && uniqueFilters.flavorProfiles.length > 0) {
-      uniqueFilters.flavorProfiles.forEach((flavor) => {
-        const option = document.createElement('option');
-        option.value = flavor;
-        option.textContent = flavor.charAt(0).toUpperCase() + flavor.slice(1);
-        selects.flavor.appendChild(option);
-      });
-    }
-  }
-
+<script>
   // Expose filter state and filtering function to parent scope
   window.filterState = {
     difficulty: '',
@@ -275,6 +223,4 @@ const formatLabel = (val: string) => val.charAt(0).toUpperCase() + val.slice(1).
     window.updateFilterState();
     window.applyFiltersAndSort?.();
   });
-
-  initializeFilters();
 </script>
