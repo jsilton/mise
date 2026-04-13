@@ -47,13 +47,13 @@ ingredients:
   - '4 slices Cooked Bacon or 1/2 cup Cooked Breakfast Sausage, crumbled'
   - 'Optional: salsa, hot sauce, sour cream, avocado slices'
 nutrition:
-  calories: 455
-  protein: 29
+  calories: 545
+  protein: 32.5
   carbs: 12
-  fat: 33
+  fat: 41
   fiber: 1
-  sugar: 9.5
-  sodium: 1210
+  sugar: 9
+  sodium: 1310
 ---
 
 ## Chef's Note

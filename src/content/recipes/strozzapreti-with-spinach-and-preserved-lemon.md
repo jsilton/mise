@@ -46,12 +46,12 @@ ingredients:
 origin: Italy
 nutrition:
   calories: 85
-  protein: 3
+  protein: 3.5
   carbs: 16.5
   fat: 1
   fiber: 3.5
   sugar: 2.5
-  sodium: 130
+  sodium: 140
 ---
 
 ## Chef's Note

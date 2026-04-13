@@ -54,13 +54,13 @@ ingredients:
   - 1 tsp Vanilla Extract
 origin: Italy
 nutrition:
-  calories: 285
-  protein: 8
-  carbs: 28
-  fat: 17
-  fiber: 2
+  calories: 445
+  protein: 11
+  carbs: 51
+  fat: 23.5
+  fiber: 3.5
   sugar: 24
-  sodium: 120
+  sodium: 410
 ---
 
 ## Chef's Note

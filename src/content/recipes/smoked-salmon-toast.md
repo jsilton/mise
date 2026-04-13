@@ -46,13 +46,13 @@ ingredients:
   - Freshly Ground Black Pepper
   - Everything Bagel Seasoning (optional)
 nutrition:
-  calories: 275
-  protein: 16.5
-  carbs: 21.5
+  calories: 325
+  protein: 19
+  carbs: 32.5
   fat: 14.5
   fiber: 3.5
-  sugar: 6.5
-  sodium: 260
+  sugar: 6
+  sodium: 390
 ---
 
 ## Chef's Note

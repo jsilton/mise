@@ -50,13 +50,13 @@ ingredients:
   - '4 Eggs (for serving, fried sunny-side up)'
   - Lime Wedges
 nutrition:
-  calories: 235
-  protein: 19
+  calories: 220
+  protein: 17.5
   carbs: 11.5
-  fat: 13.5
+  fat: 12.5
   fiber: 1.5
   sugar: 6.5
-  sodium: 3690
+  sodium: 3670
 ---
 
 ## Chef's Note

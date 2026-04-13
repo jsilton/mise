@@ -43,13 +43,13 @@ ingredients:
   - 'Fresh Chives, chopped'
 origin: United States
 nutrition:
-  calories: 95
+  calories: 20
   protein: 1
   carbs: 2
-  fat: 10
+  fat: 1.5
   fiber: 0.5
   sugar: 0.5
-  sodium: 80
+  sodium: 20
 ---
 
 ## Chef's Note

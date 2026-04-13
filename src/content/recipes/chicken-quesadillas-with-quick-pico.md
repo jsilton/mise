@@ -52,13 +52,13 @@ ingredients:
   - Mexican Crema or Sour Cream for serving
   - Lime wedges
 nutrition:
-  calories: 630
-  protein: 55
-  carbs: 15
-  fat: 39
-  fiber: 2.5
-  sugar: 4.5
-  sodium: 1700
+  calories: 730
+  protein: 58
+  carbs: 34.5
+  fat: 41
+  fiber: 5.5
+  sugar: 5.5
+  sodium: 1940
 ---
 
 ## Chef's Note

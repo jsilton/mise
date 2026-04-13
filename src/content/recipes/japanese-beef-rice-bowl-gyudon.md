@@ -46,13 +46,13 @@ ingredients:
   - '4 Green Onions, sliced (for garnish)'
   - 'Shichimi Togarashi (Japanese 7-spice), optional'
 nutrition:
-  calories: 380
-  protein: 45
-  carbs: 15
-  fat: 16.5
-  fiber: 1.5
-  sugar: 5
-  sodium: 4440
+  calories: 420
+  protein: 49
+  carbs: 12.5
+  fat: 20
+  fiber: 1
+  sugar: 4.5
+  sodium: 4490
 ---
 
 ## Chef's Note

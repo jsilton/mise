@@ -42,13 +42,13 @@ ingredients:
   - 1 tsp Sugar
   - 3 tbsp Neutral Oil (Avocado or Grapeseed)
 nutrition:
-  calories: 515
-  protein: 55
-  carbs: 10.5
+  calories: 555
+  protein: 56
+  carbs: 20.5
   fat: 28.5
-  fiber: 1
-  sugar: 5
-  sodium: 1980
+  fiber: 2.5
+  sugar: 9.5
+  sodium: 1990
 ---
 
 ## Chef's Note

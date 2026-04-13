@@ -42,13 +42,13 @@ ingredients:
     Optional Toppings: everything bagel seasoning, soft-boiled egg, cherry
     tomatoes, radish slices, microgreens, pickled red onions
 nutrition:
-  calories: 160
-  protein: 3.5
-  carbs: 16
-  fat: 10
-  fiber: 4.5
-  sugar: 3.5
-  sodium: 1260
+  calories: 200
+  protein: 5
+  carbs: 25
+  fat: 9.5
+  fiber: 3.5
+  sugar: 2
+  sodium: 1390
 ---
 
 ## Chef's Note

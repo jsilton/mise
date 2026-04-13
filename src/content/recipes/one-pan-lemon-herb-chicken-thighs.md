@@ -47,13 +47,13 @@ ingredients:
   - '1 lb Potatoes or Root Vegetables (optional, cut into 1-inch pieces)'
   - Fresh Parsley for garnish
 nutrition:
-  calories: 220
-  protein: 14.5
+  calories: 300
+  protein: 24
   carbs: 7.5
-  fat: 16
+  fat: 20.5
   fiber: 3
   sugar: 1.5
-  sodium: 740
+  sodium: 770
 ---
 
 ## Chef's Note

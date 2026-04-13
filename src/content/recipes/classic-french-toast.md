@@ -44,13 +44,13 @@ ingredients:
   - 2 tbsp Unsalted Butter (for the pan)
   - 'Powdered Sugar, fresh berries, and warm maple syrup for serving'
 nutrition:
-  calories: 245
-  protein: 9
-  carbs: 17
-  fat: 15.5
-  fiber: 0.5
-  sugar: 13
-  sodium: 760
+  calories: 425
+  protein: 15
+  carbs: 35.5
+  fat: 25.5
+  fiber: 1
+  sugar: 11.5
+  sodium: 1020
 ---
 
 ## Chef's Note

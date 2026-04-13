@@ -53,12 +53,12 @@ ingredients:
   - 1/2 tsp Black Pepper
   - Fresh Cilantro and Lime wedges for serving
 nutrition:
-  calories: 160
+  calories: 155
   protein: 2
-  carbs: 17
+  carbs: 15
   fat: 10.5
-  fiber: 3.5
-  sugar: 3.5
+  fiber: 3
+  sugar: 3
   sodium: 640
 ---
 

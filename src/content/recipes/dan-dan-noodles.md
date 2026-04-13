@@ -55,12 +55,12 @@ ingredients:
   - '1/4 cup Roasted Peanuts, roughly chopped'
   - 'Baby Bok Choy, halved (4 small heads, optional)'
 nutrition:
-  calories: 465
+  calories: 475
   protein: 17
-  carbs: 23
+  carbs: 25.5
   fat: 38.5
-  fiber: 6.5
-  sugar: 6
+  fiber: 7
+  sugar: 7
   sodium: 300
 ---
 

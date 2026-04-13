@@ -45,9 +45,9 @@ ingredients:
   - '1 tbsp Fresh Dill, chopped'
   - 1 tsp Kosher Salt
 nutrition:
-  calories: 295
+  calories: 290
   protein: 25
-  carbs: 20.5
+  carbs: 20
   fat: 14
   fiber: 2
   sugar: 10.5

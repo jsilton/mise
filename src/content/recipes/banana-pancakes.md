@@ -49,12 +49,12 @@ ingredients:
   - Butter or oil for the griddle
   - Maple syrup and sliced bananas for serving
 nutrition:
-  calories: 825
+  calories: 815
   protein: 9.5
-  carbs: 66.5
+  carbs: 63
   fat: 60.5
   fiber: 3.5
-  sugar: 20.5
+  sugar: 17.5
   sodium: 1590
 ---
 

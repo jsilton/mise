@@ -37,12 +37,12 @@ seasons:
 nutritionalDensity: light
 leftovers: good
 nutrition:
-  calories: 35
-  protein: 3
-  carbs: 4
+  calories: 45
+  protein: 3.5
+  carbs: 6.5
   fat: 1.5
-  fiber: 1
-  sugar: 1.5
+  fiber: 1.5
+  sugar: 2.5
   sodium: 10
 ---
 

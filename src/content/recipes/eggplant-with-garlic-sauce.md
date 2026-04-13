@@ -52,12 +52,12 @@ ingredients:
   - '4 Scallions, chopped on the bias'
 origin: China
 nutrition:
-  calories: 225
-  protein: 2
-  carbs: 9
+  calories: 245
+  protein: 3
+  carbs: 13.5
   fat: 20.5
-  fiber: 1.5
-  sugar: 5.5
+  fiber: 3.5
+  sugar: 8.5
   sodium: 1070
 ---
 

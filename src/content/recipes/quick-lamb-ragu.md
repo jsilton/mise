@@ -50,7 +50,7 @@ ingredients:
 nutrition:
   calories: 360
   protein: 11
-  carbs: 67.5
+  carbs: 67
   fat: 6
   fiber: 5
   sugar: 4.5

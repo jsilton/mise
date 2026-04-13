@@ -56,13 +56,13 @@ ingredients:
   - Peanut Oil (for frying)
 origin: China
 nutrition:
-  calories: 410
-  protein: 14
-  carbs: 71.5
+  calories: 425
+  protein: 15
+  carbs: 74
   fat: 6.5
-  fiber: 1.5
-  sugar: 10.5
-  sodium: 5500
+  fiber: 2.5
+  sugar: 11
+  sodium: 5520
 ---
 
 ## Chef's Note

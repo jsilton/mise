@@ -48,12 +48,12 @@ ingredients:
   - '1/2 cup Parmesan, freshly grated'
 origin: Italy
 nutrition:
-  calories: 545
-  protein: 1
-  carbs: 4.5
+  calories: 555
+  protein: 1.5
+  carbs: 6.5
   fat: 60
-  fiber: 1.5
-  sugar: 1.5
+  fiber: 2
+  sugar: 2
   sodium: 60
 ---
 

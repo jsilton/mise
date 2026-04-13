@@ -51,13 +51,13 @@ ingredients:
   - High-quality tortilla chips
 origin: Mexico
 nutrition:
-  calories: 60
-  protein: 1
-  carbs: 7
-  fat: 4.5
-  fiber: 2
-  sugar: 1.5
-  sodium: 600
+  calories: 85
+  protein: 1.5
+  carbs: 9.5
+  fat: 6
+  fiber: 3
+  sugar: 2.5
+  sodium: 610
 ---
 
 ## Chef's Note

@@ -44,13 +44,13 @@ pairsWith:
   - babys-first-smash-cake
   - best-cinnamon-roll-recipe-cinnabon-copycat
 nutrition:
-  calories: 355
+  calories: 480
   protein: 5.5
   carbs: 44.5
-  fat: 17.5
+  fat: 32
   fiber: 0.5
   sugar: 31.5
-  sodium: 370
+  sodium: 480
 ---
 
 ## Chef's Note

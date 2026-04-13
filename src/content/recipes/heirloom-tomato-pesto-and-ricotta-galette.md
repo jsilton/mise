@@ -49,13 +49,13 @@ ingredients:
   - Flaky Sea Salt and Chili Flakes
 origin: Italy
 nutrition:
-  calories: 755
-  protein: 5
-  carbs: 24
-  fat: 73.5
+  calories: 865
+  protein: 12
+  carbs: 24.5
+  fat: 83
   fiber: 2
   sugar: 4.5
-  sodium: 1090
+  sodium: 1260
 ---
 
 ## Chef's Note

@@ -63,12 +63,12 @@ ingredients:
   - 'Gochugaru or red pepper flakes (optional, for heat)'
   - '2 tbsp high-smoke-point oil (avocado or grapeseed), divided'
 nutrition:
-  calories: 710
-  protein: 46.5
-  carbs: 98
+  calories: 745
+  protein: 47.5
+  carbs: 105.5
   fat: 17
-  fiber: 21
-  sugar: 28
+  fiber: 22.5
+  sugar: 31.5
   sodium: 2400
 ---
 

@@ -42,12 +42,12 @@ ingredients:
   - Green Onions for garnish
 origin: China
 nutrition:
-  calories: 305
-  protein: 44
-  carbs: 16.5
+  calories: 295
+  protein: 43.5
+  carbs: 13.5
   fat: 7.5
-  fiber: 3
-  sugar: 1.5
+  fiber: 2.5
+  sugar: 0
   sodium: 1340
 ---
 

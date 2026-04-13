@@ -55,12 +55,12 @@ ingredients:
   - Sesame Seeds
   - Cooked Rice
 nutrition:
-  calories: 110
-  protein: 2.5
-  carbs: 8
+  calories: 120
+  protein: 3
+  carbs: 10.5
   fat: 8
   fiber: 1.5
-  sugar: 3.5
+  sugar: 5
   sodium: 820
 ---
 

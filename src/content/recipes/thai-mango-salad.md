@@ -51,12 +51,12 @@ ingredients:
   - 1 tbsp Honey or Agave
   - '1 clove Garlic, finely grated'
 nutrition:
-  calories: 385
+  calories: 395
   protein: 18
-  carbs: 26.5
+  carbs: 29
   fat: 28
-  fiber: 8
-  sugar: 8
+  fiber: 8.5
+  sugar: 9.5
   sodium: 1630
 ---
 

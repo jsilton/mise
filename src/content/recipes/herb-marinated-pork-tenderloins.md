@@ -45,13 +45,13 @@ ingredients:
   - Kosher Salt and Black Pepper
 origin: United States
 nutrition:
-  calories: 340
-  protein: 1.5
+  calories: 355
+  protein: 4
   carbs: 5
-  fat: 36.5
+  fat: 37
   fiber: 2
   sugar: 1
-  sodium: 80
+  sodium: 100
 ---
 
 ## Chef's Note

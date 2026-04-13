@@ -45,13 +45,13 @@ origin: Italy
 advancePrep:
   - components-ahead
 nutrition:
-  calories: 145
-  protein: 6.5
-  carbs: 9
-  fat: 10.5
+  calories: 160
+  protein: 10
+  carbs: 8.5
+  fat: 11
   fiber: 3
   sugar: 2
-  sodium: 30
+  sodium: 40
 ---
 
 ## Chef's Note

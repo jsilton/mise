@@ -48,12 +48,12 @@ pairsWith:
 advancePrep:
   - freeze-ahead
 nutrition:
-  calories: 100
-  protein: 2.5
-  carbs: 27
-  fat: 1
-  fiber: 6.5
-  sugar: 15
+  calories: 225
+  protein: 5
+  carbs: 57.5
+  fat: 1.5
+  fiber: 13
+  sugar: 39.5
   sodium: 0
 ---
 

@@ -56,12 +56,12 @@ ingredients:
   - '1/2 cup Bamboo Shoots, drained'
   - 1 tbsp Fresh Lime Juice
 nutrition:
-  calories: 80
-  protein: 3.5
-  carbs: 10
-  fat: 4
-  fiber: 3
-  sugar: 3.5
+  calories: 95
+  protein: 4
+  carbs: 15
+  fat: 4.5
+  fiber: 4.5
+  sugar: 4
   sodium: 10
 ---
 

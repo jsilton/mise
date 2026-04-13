@@ -43,7 +43,7 @@ leftovers: good
 nutrition:
   calories: 135
   protein: 13.5
-  carbs: 5
+  carbs: 4.5
   fat: 7.5
   fiber: 1
   sugar: 2

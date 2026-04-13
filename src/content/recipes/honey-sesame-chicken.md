@@ -46,13 +46,13 @@ ingredients:
   - '3 stalks Green Onion, sliced'
 origin: China
 nutrition:
-  calories: 325
-  protein: 3.5
-  carbs: 75.5
+  calories: 380
+  protein: 5
+  carbs: 88
   fat: 5.5
-  fiber: 1
-  sugar: 67.5
-  sodium: 790
+  fiber: 3
+  sugar: 73
+  sodium: 800
 ---
 
 ## Chef's Note

@@ -44,12 +44,12 @@ ingredients:
 origin: China
 nutrition:
   calories: 95
-  protein: 1.5
-  carbs: 5
-  fat: 8
+  protein: 2
+  carbs: 8
+  fat: 7
   fiber: 0.5
-  sugar: 2.5
-  sodium: 860
+  sugar: 4.5
+  sodium: 1130
 ---
 
 ## Chef's Note

@@ -38,11 +38,11 @@ ingredients:
   - Fresh Pineapple (The "Acid Balance" Snap)
 origin: Italy
 nutrition:
-  calories: 60
-  protein: 1.5
-  carbs: 13
+  calories: 85
+  protein: 2.5
+  carbs: 18
   fat: 0.5
-  fiber: 2
+  fiber: 2.5
   sugar: 5.5
   sodium: 20
 ---

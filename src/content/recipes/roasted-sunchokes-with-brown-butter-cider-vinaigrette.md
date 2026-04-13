@@ -48,9 +48,9 @@ ingredients:
   - Fresh Thyme sprigs
 origin: United States
 nutrition:
-  calories: 80
+  calories: 85
   protein: 0.5
-  carbs: 5.5
+  carbs: 6
   fat: 6
   fiber: 0.5
   sugar: 4

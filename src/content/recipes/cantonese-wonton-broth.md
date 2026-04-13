@@ -42,12 +42,12 @@ ingredients:
   - 1 tbsp Black Vinegar
 origin: China
 nutrition:
-  calories: 30
-  protein: 3
-  carbs: 2.5
+  calories: 55
+  protein: 3.5
+  carbs: 8.5
   fat: 0.5
-  fiber: 0.5
-  sugar: 1
+  fiber: 1
+  sugar: 3
   sodium: 1610
 ---
 

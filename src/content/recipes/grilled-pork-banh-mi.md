@@ -46,12 +46,12 @@ leftovers: poor
 advancePrep:
   - marinate-overnight
 nutrition:
-  calories: 145
-  protein: 11
-  carbs: 18.5
+  calories: 160
+  protein: 11.5
+  carbs: 22.5
   fat: 3
-  fiber: 1
-  sugar: 13
+  fiber: 2.5
+  sugar: 14
   sodium: 13090
 ---
 

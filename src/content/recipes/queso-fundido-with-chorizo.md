@@ -43,13 +43,13 @@ ingredients:
   - 'Optional: Pickled Jalapeños for topping'
 origin: Mexico
 nutrition:
-  calories: 265
+  calories: 270
   protein: 18
-  carbs: 4.5
+  carbs: 5.5
   fat: 20
-  fiber: 0.5
+  fiber: 1
   sugar: 1.5
-  sodium: 520
+  sodium: 530
 ---
 
 ## Chef's Note

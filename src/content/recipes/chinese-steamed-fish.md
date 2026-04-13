@@ -43,13 +43,13 @@ ingredients:
   - '1 tbsp Rock Sugar, powdered'
   - 3 dashes White Pepper
 nutrition:
-  calories: 130
-  protein: 3.5
-  carbs: 6
+  calories: 145
+  protein: 4.5
+  carbs: 9
   fat: 10.5
-  fiber: 0.5
-  sugar: 4
-  sodium: 1020
+  fiber: 1.5
+  sugar: 5
+  sodium: 1040
 ---
 
 ## Chef's Note

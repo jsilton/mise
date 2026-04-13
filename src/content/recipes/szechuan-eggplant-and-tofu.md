@@ -51,13 +51,13 @@ ingredients:
   - 1 tbsp Toasted Sesame Oil
   - Peanut Oil (for frying)
 nutrition:
-  calories: 360
-  protein: 3.5
-  carbs: 67
-  fat: 8.5
-  fiber: 1.5
+  calories: 400
+  protein: 8.5
+  carbs: 68.5
+  fat: 11
+  fiber: 2.5
   sugar: 6
-  sodium: 590
+  sodium: 600
 ---
 
 ## Chef's Note

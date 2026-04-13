@@ -53,12 +53,12 @@ ingredients:
   - Lime Wedges
   - 'Roasted Peanuts, chopped (optional)'
 nutrition:
-  calories: 510
-  protein: 18.5
-  carbs: 25
-  fat: 44
+  calories: 505
+  protein: 18
+  carbs: 27
+  fat: 42.5
   fiber: 8
-  sugar: 11
+  sugar: 12.5
   sodium: 1120
 ---
 

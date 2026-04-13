@@ -53,7 +53,7 @@ nutrition:
   fat: 33.5
   fiber: 1.5
   sugar: 3.5
-  sodium: 100
+  sodium: 90
 ---
 
 ## Chef's Note

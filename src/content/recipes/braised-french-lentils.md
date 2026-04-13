@@ -56,7 +56,7 @@ ingredients:
   - 1/2 tsp Black Pepper
 nutrition:
   calories: 100
-  protein: 4
+  protein: 3.5
   carbs: 11
   fat: 5
   fiber: 3.5

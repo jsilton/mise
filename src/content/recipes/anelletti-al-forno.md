@@ -53,13 +53,13 @@ ingredients:
   - '4 Hard-boiled Eggs, chopped (traditional)'
 origin: Italy
 nutrition:
-  calories: 550
-  protein: 29.5
+  calories: 575
+  protein: 31.5
   carbs: 90.5
-  fat: 9.5
+  fat: 11.5
   fiber: 8
   sugar: 5
-  sodium: 300
+  sodium: 330
 ---
 
 ## Chef's Note

@@ -47,13 +47,13 @@ ingredients:
   - Flaky Sea Salt (Maldon) for finishing
   - 'Optional: fresh mint leaves, lemon zest, fresh figs or berries'
 nutrition:
-  calories: 170
-  protein: 2
-  carbs: 27
+  calories: 215
+  protein: 4
+  carbs: 35.5
   fat: 7.5
-  fiber: 2
-  sugar: 17.5
-  sodium: 2400
+  fiber: 1
+  sugar: 16.5
+  sodium: 2530
 ---
 
 ## Chef's Note

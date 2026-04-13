@@ -64,13 +64,13 @@ ingredients:
   - 'Thinly Sliced Jalapenos, for serving'
   - 'Hoisin Sauce and Sriracha, for serving'
 nutrition:
-  calories: 960
-  protein: 85
-  carbs: 69
+  calories: 950
+  protein: 84.5
+  carbs: 66.5
   fat: 37.5
-  fiber: 3
-  sugar: 5.5
-  sodium: 2420
+  fiber: 2.5
+  sugar: 4.5
+  sodium: 2380
 ---
 
 ## Chef's Note

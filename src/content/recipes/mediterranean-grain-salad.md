@@ -64,9 +64,9 @@ ingredients:
   - '1 clove Garlic, finely grated'
   - 1/4 tsp Black Pepper
 nutrition:
-  calories: 500
+  calories: 495
   protein: 8.5
-  carbs: 19
+  carbs: 18.5
   fat: 44.5
   fiber: 3.5
   sugar: 5.5

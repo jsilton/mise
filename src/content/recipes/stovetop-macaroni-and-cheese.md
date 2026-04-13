@@ -43,13 +43,13 @@ ingredients:
   - 1 tbsp Unsalted Butter
 origin: United States
 nutrition:
-  calories: 205
-  protein: 6.5
-  carbs: 35
-  fat: 4.5
+  calories: 660
+  protein: 34.5
+  carbs: 36.5
+  fat: 42
   fiber: 1
-  sugar: 3
-  sodium: 460
+  sugar: 4
+  sodium: 1160
 ---
 
 ## Chef's Note

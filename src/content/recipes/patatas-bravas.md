@@ -65,13 +65,13 @@ ingredients:
   - '1 clove Garlic, finely grated (for alioli)'
   - 1 tbsp Lemon Juice (for alioli)
 nutrition:
-  calories: 525
+  calories: 520
   protein: 2
   carbs: 17.5
   fat: 50.5
   fiber: 2
   sugar: 3.5
-  sodium: 1540
+  sodium: 1530
 ---
 
 ## Chef's Note

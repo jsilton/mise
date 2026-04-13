@@ -54,13 +54,13 @@ ingredients:
   - 1 tbsp Fresh Lemon Juice
   - 'Crusty Bread, for serving'
 nutrition:
-  calories: 630
-  protein: 27.5
-  carbs: 8
+  calories: 620
+  protein: 27
+  carbs: 6.5
   fat: 55.5
   fiber: 1.5
   sugar: 1.5
-  sodium: 1070
+  sodium: 1040
 ---
 
 ## Chef's Note

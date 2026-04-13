@@ -58,13 +58,13 @@ ingredients:
   - 2 tsp Vanilla Extract
 origin: United States
 nutrition:
-  calories: 880
+  calories: 935
   protein: 6.5
   carbs: 118
-  fat: 46.5
+  fat: 53
   fiber: 1
   sugar: 104
-  sodium: 790
+  sodium: 840
 ---
 
 ## Chef's Note

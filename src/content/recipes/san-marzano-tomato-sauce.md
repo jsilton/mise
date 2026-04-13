@@ -48,7 +48,7 @@ ingredients:
 nutrition:
   calories: 90
   protein: 0
-  carbs: 0.5
+  carbs: 0
   fat: 10
   fiber: 0
   sugar: 0

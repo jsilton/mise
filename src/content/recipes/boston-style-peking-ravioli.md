@@ -52,12 +52,12 @@ ingredients:
   - '1 tbsp Ginger, finely grated'
   - 1 tsp Chili Crisp (optional)
 nutrition:
-  calories: 1185
-  protein: 9.5
-  carbs: 42
+  calories: 1225
+  protein: 10.5
+  carbs: 50.5
   fat: 111
-  fiber: 2
-  sugar: 4.5
+  fiber: 3.5
+  sugar: 8.5
   sodium: 3280
 ---
 

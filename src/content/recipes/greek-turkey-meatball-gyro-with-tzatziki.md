@@ -48,7 +48,7 @@ nutrition:
   carbs: 28.5
   fat: 8
   fiber: 4.5
-  sugar: 7
+  sugar: 6.5
   sodium: 180
 ---
 

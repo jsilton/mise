@@ -49,7 +49,7 @@ origin: Italy
 nutrition:
   calories: 540
   protein: 30.5
-  carbs: 9.5
+  carbs: 9
   fat: 44.5
   fiber: 2.5
   sugar: 2.5

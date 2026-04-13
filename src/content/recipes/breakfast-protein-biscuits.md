@@ -42,13 +42,13 @@ ingredients:
   - 1/2 tsp Red Pepper Flakes
 origin: United States
 nutrition:
-  calories: 140
-  protein: 8.5
+  calories: 255
+  protein: 15.5
   carbs: 22.5
-  fat: 2
+  fat: 11.5
   fiber: 1
-  sugar: 1
-  sodium: 550
+  sugar: 1.5
+  sodium: 730
 ---
 
 ## Chef's Note

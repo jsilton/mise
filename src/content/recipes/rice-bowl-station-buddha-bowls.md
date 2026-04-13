@@ -76,13 +76,13 @@ ingredients:
   - Miso-Ginger Dressing (umami-forward)
   - Cilantro-Lime Crema (fresh and creamy)
 nutrition:
-  calories: 890
-  protein: 74
+  calories: 945
+  protein: 78.5
   carbs: 78
-  fat: 38
+  fat: 42
   fiber: 20.5
-  sugar: 12
-  sodium: 580
+  sugar: 12.5
+  sodium: 640
 ---
 
 ## Chef's Note

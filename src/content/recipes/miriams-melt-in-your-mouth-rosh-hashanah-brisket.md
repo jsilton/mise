@@ -38,13 +38,13 @@ leftovers: excellent
 advancePrep:
   - chill-to-set
 nutrition:
-  calories: 120
-  protein: 1.5
+  calories: 130
+  protein: 2.5
   carbs: 30.5
-  fat: 0.5
+  fat: 1
   fiber: 1
   sugar: 27
-  sodium: 600
+  sodium: 610
 ---
 
 ## Chef's Note

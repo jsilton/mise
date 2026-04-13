@@ -49,13 +49,13 @@ ingredients:
   - '1 large Egg, lightly beaten'
   - Sesame Oil and Scallions for garnish
 nutrition:
-  calories: 100
-  protein: 7
+  calories: 90
+  protein: 8
   carbs: 8
-  fat: 4
+  fat: 2
   fiber: 0.5
   sugar: 0.5
-  sodium: 3040
+  sodium: 3050
 ---
 
 ## Chef's Note

@@ -47,12 +47,12 @@ ingredients:
   - 1 tsp Sugar + 1 tsp Duck Fat
 origin: China
 nutrition:
-  calories: 335
+  calories: 350
   protein: 0
-  carbs: 5
+  carbs: 9
   fat: 36
-  fiber: 1
-  sugar: 4
+  fiber: 1.5
+  sugar: 7
   sodium: 20
 ---
 

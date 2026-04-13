@@ -41,12 +41,12 @@ ingredients:
   - 1/2 tsp Garlic Powder
   - Sliced Green Onions for garnish
 nutrition:
-  calories: 200
-  protein: 3.5
-  carbs: 17.5
+  calories: 190
+  protein: 3
+  carbs: 15
   fat: 13.5
-  fiber: 1.5
-  sugar: 5
+  fiber: 1
+  sugar: 3.5
   sodium: 110
 ---
 

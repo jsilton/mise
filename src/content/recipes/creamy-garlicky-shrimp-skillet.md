@@ -48,8 +48,8 @@ ingredients:
 origin: Italy
 nutrition:
   calories: 885
-  protein: 40
-  carbs: 63.5
+  protein: 39.5
+  carbs: 63
   fat: 54
   fiber: 8.5
   sugar: 9

@@ -44,13 +44,13 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 nutrition:
-  calories: 900
-  protein: 17
-  carbs: 28
-  fat: 84.5
-  fiber: 8
+  calories: 915
+  protein: 18
+  carbs: 31.5
+  fat: 85
+  fiber: 8.5
   sugar: 15.5
-  sodium: 700
+  sodium: 710
 ---
 
 ## Chef's Note

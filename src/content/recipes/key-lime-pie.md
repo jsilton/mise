@@ -40,9 +40,9 @@ pairsWith:
   - blackout-chocolate-cake
   - classic-peach-ice-cream
 nutrition:
-  calories: 555
+  calories: 550
   protein: 6
-  carbs: 29.5
+  carbs: 29
   fat: 46.5
   fiber: 1.5
   sugar: 7

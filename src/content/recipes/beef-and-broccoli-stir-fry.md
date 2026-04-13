@@ -51,12 +51,12 @@ ingredients:
   - '2 Green Onions, cut into 1-inch pieces'
   - Sesame seeds for garnish
 nutrition:
-  calories: 295
+  calories: 290
   protein: 20.5
-  carbs: 18.5
-  fat: 17.5
-  fiber: 4
-  sugar: 4
+  carbs: 20.5
+  fat: 16.5
+  fiber: 4.5
+  sugar: 5
   sodium: 1530
 ---
 

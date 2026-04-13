@@ -45,13 +45,13 @@ ingredients:
   - 1/4 tsp Black Pepper
 origin: United States
 nutrition:
-  calories: 25
-  protein: 1.5
-  carbs: 3.5
-  fat: 1
+  calories: 60
+  protein: 3.5
+  carbs: 4
+  fat: 3.5
   fiber: 0.5
   sugar: 0.5
-  sodium: 100
+  sodium: 150
 ---
 
 ## Chef's Note

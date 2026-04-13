@@ -41,12 +41,12 @@ ingredients:
     1/2 cup [All-Purpose Chinese Garlic
     Sauce](/mise/recipes/chinese-garlic-sauce-base)
 nutrition:
-  calories: 140
-  protein: 0.5
-  carbs: 33.5
+  calories: 150
+  protein: 1
+  carbs: 36
   fat: 0
-  fiber: 1
-  sugar: 2
+  fiber: 1.5
+  sugar: 3
   sodium: 0
 ---
 

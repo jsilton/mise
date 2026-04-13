@@ -62,13 +62,13 @@ ingredients:
   - Fresh Thai Basil (or regular basil)
   - Lime Wedges
 nutrition:
-  calories: 365
-  protein: 56.5
-  carbs: 13.5
-  fat: 12.5
-  fiber: 2.5
-  sugar: 5.5
-  sodium: 2810
+  calories: 265
+  protein: 29.5
+  carbs: 21
+  fat: 10.5
+  fiber: 5
+  sugar: 7.5
+  sodium: 2730
 ---
 
 ## Chef's Note

@@ -46,12 +46,12 @@ ingredients:
   - 1/2 tsp Chili Powder (or Tajín seasoning)
   - Kosher Salt and Black Pepper
 nutrition:
-  calories: 40
-  protein: 1.5
-  carbs: 9.5
-  fat: 0.5
-  fiber: 2
-  sugar: 2
+  calories: 90
+  protein: 3.5
+  carbs: 20.5
+  fat: 1
+  fiber: 3
+  sugar: 4
   sodium: 30
 ---
 

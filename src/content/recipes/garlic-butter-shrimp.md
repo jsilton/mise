@@ -48,7 +48,7 @@ ingredients:
 nutrition:
   calories: 155
   protein: 2.5
-  carbs: 6
+  carbs: 6.5
   fat: 14.5
   fiber: 2
   sugar: 1.5

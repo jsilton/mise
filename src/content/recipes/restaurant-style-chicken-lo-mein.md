@@ -46,13 +46,13 @@ ingredients:
   - '1/8 tsp Sugar + 1 clove Garlic, minced'
 origin: China
 nutrition:
-  calories: 440
+  calories: 445
   protein: 19.5
-  carbs: 60.5
+  carbs: 61.5
   fat: 14.5
-  fiber: 3
-  sugar: 3.5
-  sodium: 1160
+  fiber: 3.5
+  sugar: 4
+  sodium: 1170
 ---
 
 ## Chef's Note

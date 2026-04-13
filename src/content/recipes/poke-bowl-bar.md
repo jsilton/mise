@@ -75,13 +75,13 @@ ingredients:
   - Sriracha or Spicy Mayo (for heat)
   - 'Wasabi (Japanese horseradish, optional)'
 nutrition:
-  calories: 635
+  calories: 630
   protein: 57
   carbs: 42.5
   fat: 26.5
   fiber: 6
   sugar: 5.5
-  sodium: 1960
+  sodium: 1710
 ---
 
 ## Chef's Note

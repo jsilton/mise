@@ -53,13 +53,13 @@ ingredients:
   - 2 tbsp Crumbled Feta (optional)
   - Crusty bread for serving
 nutrition:
-  calories: 215
-  protein: 10.5
-  carbs: 10.5
-  fat: 15
-  fiber: 1.5
+  calories: 195
+  protein: 10
+  carbs: 7
+  fat: 14.5
+  fiber: 1
   sugar: 4
-  sodium: 730
+  sodium: 690
 ---
 
 ## Chef's Note

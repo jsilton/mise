@@ -45,10 +45,10 @@ ingredients:
   - 'Sliced Swiss Cheese, Avocado, Spinach, Red Onion'
 origin: United States
 nutrition:
-  calories: 30
-  protein: 1
-  carbs: 5
-  fat: 0.5
+  calories: 55
+  protein: 3
+  carbs: 5.5
+  fat: 2.5
   fiber: 1
   sugar: 0.5
   sodium: 680

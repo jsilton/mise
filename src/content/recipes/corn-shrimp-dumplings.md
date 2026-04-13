@@ -45,11 +45,11 @@ ingredients:
   - Soy Sauce and Chili Oil for dipping
 origin: China
 nutrition:
-  calories: 40
+  calories: 35
   protein: 5.5
-  carbs: 2.5
+  carbs: 1.5
   fat: 1
-  fiber: 0.5
+  fiber: 0
   sugar: 0.5
   sodium: 140
 ---

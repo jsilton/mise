@@ -42,13 +42,13 @@ ingredients:
   - '--- Black vinegar ---'
   - 1 tbsp Black Vinegar
 nutrition:
-  calories: 70
-  protein: 4
-  carbs: 4
+  calories: 75
+  protein: 4.5
+  carbs: 5
   fat: 4.5
-  fiber: 1
+  fiber: 1.5
   sugar: 1
-  sodium: 1610
+  sodium: 1640
 ---
 
 ## Chef's Note

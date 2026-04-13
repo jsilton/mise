@@ -49,13 +49,13 @@ ingredients:
   - '--- Lemon juice ---'
   - '1 Lemon, juiced'
 nutrition:
-  calories: 440
-  protein: 15
+  calories: 495
+  protein: 18.5
   carbs: 35.5
-  fat: 27.5
+  fat: 32.5
   fiber: 6
-  sugar: 2.5
-  sodium: 2710
+  sugar: 2
+  sodium: 2750
 ---
 
 ## Chef's Note

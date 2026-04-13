@@ -58,7 +58,7 @@ origin: China
 nutrition:
   calories: 250
   protein: 15
-  carbs: 31.5
+  carbs: 31
   fat: 11
   fiber: 5
   sugar: 12

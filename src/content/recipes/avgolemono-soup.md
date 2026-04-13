@@ -37,12 +37,12 @@ ingredients:
   - '2 lemons, juiced (about 1/3 cup)'
   - Salt and white pepper
 nutrition:
-  calories: 240
+  calories: 245
   protein: 29.5
-  carbs: 2.5
+  carbs: 3.5
   fat: 13.5
-  fiber: 0.5
-  sugar: 0.5
+  fiber: 1
+  sugar: 1
   sodium: 2200
 ---
 

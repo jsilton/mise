@@ -53,13 +53,13 @@ ingredients:
   - 1/2 tsp Ground cinnamon
 origin: United States
 nutrition:
-  calories: 675
+  calories: 760
   protein: 6
   carbs: 123.5
-  fat: 20
+  fat: 30
   fiber: 1.5
   sugar: 108.5
-  sodium: 690
+  sodium: 760
 ---
 
 ## Chef's Note

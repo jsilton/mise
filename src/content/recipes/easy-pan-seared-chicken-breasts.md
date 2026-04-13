@@ -38,13 +38,13 @@ ingredients:
   - 2 tsp Italian Seasoning
 origin: United States
 nutrition:
-  calories: 185
-  protein: 5
+  calories: 210
+  protein: 10.5
   carbs: 25
-  fat: 7
+  fat: 7.5
   fiber: 1
   sugar: 0
-  sodium: 590
+  sodium: 600
 ---
 
 ## Chef's Note

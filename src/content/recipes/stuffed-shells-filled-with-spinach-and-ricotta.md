@@ -65,11 +65,11 @@ origin: Italy
 nutrition:
   calories: 275
   protein: 10
-  carbs: 43.5
+  carbs: 43
   fat: 8
   fiber: 3.5
   sugar: 1.5
-  sodium: 60
+  sodium: 50
 ---
 
 ## Chef's Note

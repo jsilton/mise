@@ -42,13 +42,13 @@ ingredients:
   - Pinch of Kosher Salt
   - 'Toppings: fresh fruit, nut butter, granola, toasted coconut, or nuts'
 nutrition:
-  calories: 595
+  calories: 555
   protein: 34
-  carbs: 77.5
-  fat: 16.5
-  fiber: 8
-  sugar: 19
-  sodium: 2490
+  carbs: 92.5
+  fat: 5.5
+  fiber: 10.5
+  sugar: 29
+  sodium: 2410
 ---
 
 ## Chef's Note

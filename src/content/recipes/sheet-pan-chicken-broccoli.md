@@ -40,13 +40,13 @@ ingredients:
   - 1 tbsp Olive Oil
 origin: United States
 nutrition:
-  calories: 355
-  protein: 10
-  carbs: 53.5
-  fat: 11
+  calories: 580
+  protein: 24
+  carbs: 54
+  fat: 29.5
   fiber: 3
-  sugar: 0.5
-  sodium: 320
+  sugar: 1
+  sodium: 670
 ---
 
 ## Chef's Note

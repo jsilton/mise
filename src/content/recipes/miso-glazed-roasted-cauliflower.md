@@ -49,11 +49,11 @@ ingredients:
   - 1 tsp Minced Fresh Ginger
   - Sesame Seeds and Scallions for garnish
 nutrition:
-  calories: 55
-  protein: 1.5
-  carbs: 2.5
-  fat: 4.5
-  fiber: 1
+  calories: 40
+  protein: 1
+  carbs: 2
+  fat: 3.5
+  fiber: 0.5
   sugar: 0.5
   sodium: 290
 ---

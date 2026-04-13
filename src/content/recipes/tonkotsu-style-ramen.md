@@ -69,13 +69,13 @@ ingredients:
   - 'Bamboo Shoots or Menma (optional, if you can find them)'
   - 'Garlic Chips (optional, fried crispy)'
 nutrition:
-  calories: 1250
-  protein: 49
-  carbs: 165.5
-  fat: 55
+  calories: 1305
+  protein: 54
+  carbs: 166.5
+  fat: 59
   fiber: 6
-  sugar: 1.5
-  sodium: 8730
+  sugar: 2
+  sodium: 8780
 ---
 
 ## Chef's Note

@@ -43,13 +43,13 @@ ingredients:
   - '2 tbsp Pickled Jalapenos, chopped (optional)'
   - Salsa and sour cream for serving
 nutrition:
-  calories: 605
-  protein: 40.5
-  carbs: 4
-  fat: 49
+  calories: 645
+  protein: 40
+  carbs: 3
+  fat: 53.5
   fiber: 0
   sugar: 2
-  sodium: 2150
+  sodium: 2050
 ---
 
 ## Chef's Note

@@ -45,13 +45,13 @@ ingredients:
   - Neutral Oil
 origin: United States
 nutrition:
-  calories: 140
-  protein: 4.5
-  carbs: 13
-  fat: 8.5
-  fiber: 2.5
-  sugar: 4
-  sodium: 110
+  calories: 735
+  protein: 39.5
+  carbs: 27
+  fat: 51
+  fiber: 4
+  sugar: 6
+  sodium: 1320
 ---
 
 ## Chef's Note

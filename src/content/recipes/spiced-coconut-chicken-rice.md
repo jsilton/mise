@@ -44,12 +44,12 @@ nutritionalDensity: light
 leftovers: excellent
 nutrition:
   calories: 370
-  protein: 36
-  carbs: 22.5
+  protein: 35.5
+  carbs: 22
   fat: 15.5
   fiber: 1.5
   sugar: 1
-  sodium: 140
+  sodium: 130
 ---
 
 ## Chef's Note

@@ -41,12 +41,12 @@ ingredients:
   - 'Italian Seasoning, Garlic Salt, Pepper'
 origin: Italy
 nutrition:
-  calories: 265
-  protein: 37.5
-  carbs: 3.5
-  fat: 12
-  fiber: 1
-  sugar: 1.5
+  calories: 270
+  protein: 38
+  carbs: 6
+  fat: 12.5
+  fiber: 1.5
+  sugar: 2
   sodium: 550
 ---
 

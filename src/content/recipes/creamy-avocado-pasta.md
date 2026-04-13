@@ -47,11 +47,11 @@ ingredients:
   - Parmesan Shavings
 origin: Italy
 nutrition:
-  calories: 715
+  calories: 725
   protein: 9
-  carbs: 47.5
-  fat: 57
-  fiber: 5.5
+  carbs: 48
+  fat: 58
+  fiber: 6
   sugar: 2
   sodium: 20
 ---

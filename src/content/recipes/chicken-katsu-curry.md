@@ -58,8 +58,8 @@ ingredients:
   - 1/2 cup Peas (frozen is fine)
   - Salt and pepper to taste
 nutrition:
-  calories: 520
-  protein: 36.5
+  calories: 510
+  protein: 34.5
   carbs: 44.5
   fat: 22.5
   fiber: 5

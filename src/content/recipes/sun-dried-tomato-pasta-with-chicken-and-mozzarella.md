@@ -44,7 +44,7 @@ origin: Italy
 nutrition:
   calories: 605
   protein: 38.5
-  carbs: 86
+  carbs: 85.5
   fat: 14
   fiber: 6.5
   sugar: 4

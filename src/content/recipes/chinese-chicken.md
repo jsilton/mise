@@ -46,13 +46,13 @@ ingredients:
   - Vegetable Oil
 origin: China
 nutrition:
-  calories: 820
-  protein: 58
+  calories: 890
+  protein: 61.5
   carbs: 86.5
-  fat: 26
+  fat: 32
   fiber: 3
   sugar: 10.5
-  sodium: 6250
+  sodium: 6400
 ---
 
 ## Chef's Note

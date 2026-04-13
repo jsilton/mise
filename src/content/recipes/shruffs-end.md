@@ -42,12 +42,12 @@ ingredients:
   - Orange peel or lemon peel for garnish (optional)
 origin: United States
 nutrition:
-  calories: 155
-  protein: 1.5
-  carbs: 40.5
+  calories: 95
+  protein: 0.5
+  carbs: 25
   fat: 0.5
-  fiber: 7.5
-  sugar: 31
+  fiber: 4.5
+  sugar: 19
   sodium: 0
 ---
 

@@ -49,12 +49,12 @@ ingredients:
   - '3 stalks Green Onion, cut on the diagonal'
 origin: China
 nutrition:
-  calories: 480
-  protein: 43
-  carbs: 51.5
+  calories: 535
+  protein: 44.5
+  carbs: 64
   fat: 12.5
-  fiber: 14.5
-  sugar: 16.5
+  fiber: 16.5
+  sugar: 22
   sodium: 1820
 ---
 

@@ -47,10 +47,10 @@ ingredients:
   - '1-2 Lemons, juiced'
 origin: Italy
 nutrition:
-  calories: 385
-  protein: 7.5
+  calories: 380
+  protein: 6.5
   carbs: 38.5
-  fat: 22.5
+  fat: 22
   fiber: 2
   sugar: 1.5
   sodium: 230

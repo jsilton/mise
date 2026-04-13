@@ -42,13 +42,13 @@ ingredients:
   - Salt and Black Pepper
 origin: Italy
 nutrition:
-  calories: 750
-  protein: 25.5
-  carbs: 132.5
-  fat: 14.5
+  calories: 1110
+  protein: 38
+  carbs: 133
+  fat: 47
   fiber: 11.5
   sugar: 5
-  sodium: 130
+  sodium: 760
 ---
 
 ## Chef's Note

@@ -792,7 +792,7 @@ function buildRecipeSchema() {
                     d="M12 6v6m0 0v6m0-6h6m-6 0H6"
                   />
                 </svg>
-                Nutrition (Estimated)
+                Nutrition Per Serving (Estimated)
               </h2>
               <div class="overflow-x-auto">
                 <table class="w-full text-sm">
@@ -829,7 +829,7 @@ function buildRecipeSchema() {
                 </table>
               </div>
               <p class="mt-3 text-xs text-slate-600 dark:text-slate-400 italic">
-                Estimated values based on standard ingredient data. Actual nutrition may vary.
+                Per serving (1/{recipe.data.servings || '4'} of recipe). Estimated from standard ingredient data. Actual nutrition may vary.
               </p>
             </div>
           )

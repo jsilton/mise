@@ -61,10 +61,10 @@ ingredients:
 nutrition:
   calories: 205
   protein: 14
-  carbs: 4
-  fat: 16.5
+  carbs: 2.5
+  fat: 16
   fiber: 1.5
-  sugar: 0.5
+  sugar: 0
   sodium: 4230
 ---
 

@@ -46,13 +46,13 @@ ingredients:
   - Kosher Salt and Black Pepper
   - Flaky Sea Salt for finishing
 nutrition:
-  calories: 110
-  protein: 1.5
-  carbs: 5
+  calories: 120
+  protein: 2.5
+  carbs: 6.5
   fat: 10.5
-  fiber: 1.5
-  sugar: 1
-  sodium: 610
+  fiber: 2.5
+  sugar: 1.5
+  sodium: 620
 ---
 
 ## Chef's Note

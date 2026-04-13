@@ -45,13 +45,13 @@ seasons:
 nutritionalDensity: moderate
 leftovers: poor
 nutrition:
-  calories: 165
-  protein: 9
-  carbs: 12
-  fat: 9
+  calories: 235
+  protein: 11
+  carbs: 24
+  fat: 11
   fiber: 1.5
   sugar: 4
-  sodium: 1380
+  sodium: 1660
 ---
 
 ## Chef's Note

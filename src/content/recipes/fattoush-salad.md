@@ -60,13 +60,13 @@ ingredients:
   - 1/2 tsp Kosher Salt
   - 1/4 tsp Black Pepper
 nutrition:
-  calories: 640
-  protein: 3
-  carbs: 17.5
-  fat: 64.5
-  fiber: 3.5
-  sugar: 6
-  sodium: 630
+  calories: 710
+  protein: 5.5
+  carbs: 32.5
+  fat: 65
+  fiber: 5.5
+  sugar: 11
+  sodium: 670
 ---
 
 ## Chef's Note

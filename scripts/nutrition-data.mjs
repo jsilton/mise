@@ -69,11 +69,14 @@ export const nutritionDatabase = {
 
   // DAIRY - Cheese
   'cheddar cheese': { unit: 'oz', calories: 113, protein: 7, carbs: 0.4, fat: 9.4, fiber: 0, sugar: 0.2, sodium: 176 },
+  'cheddar': { unit: 'oz', calories: 113, protein: 7, carbs: 0.4, fat: 9.4, fiber: 0, sugar: 0.2, sodium: 176 },
   'parmesan cheese': { unit: 'oz', calories: 110, protein: 10, carbs: 1, fat: 7.3, fiber: 0, sugar: 0.2, sodium: 390 },
   'mozzarella cheese': { unit: 'oz', calories: 85, protein: 6.3, carbs: 0.6, fat: 6.3, fiber: 0, sugar: 0.2, sodium: 178 },
   'feta cheese': { unit: 'oz', calories: 75, protein: 4, carbs: 1.2, fat: 6, fiber: 0, sugar: 0.5, sodium: 316 },
   'brie cheese': { unit: 'oz', calories: 95, protein: 4.9, carbs: 0.1, fat: 7.9, fiber: 0, sugar: 0, sodium: 178 },
   'goat cheese': { unit: 'oz', calories: 76, protein: 5.3, carbs: 0.3, fat: 6, fiber: 0, sugar: 0, sodium: 98 },
+  'gruyere': { unit: 'oz', calories: 117, protein: 8.5, carbs: 0.1, fat: 9.2, fiber: 0, sugar: 0.1, sodium: 170 },
+  'swiss cheese': { unit: 'oz', calories: 106, protein: 7.5, carbs: 1.5, fat: 7.8, fiber: 0, sugar: 0.4, sodium: 54 },
   'ricotta cheese': { unit: 'cup', calories: 428, protein: 28, carbs: 7.3, fat: 32, fiber: 0, sugar: 0.3, sodium: 207 },
 
   // VEGETABLES - Leafy Greens
@@ -150,6 +153,8 @@ export const nutritionDatabase = {
 
   // GRAINS - Bread & Baked
   'bread': { unit: 'slice', calories: 82, protein: 2.7, carbs: 14.1, fat: 1.1, fiber: 2.2, sugar: 0.8, sodium: 154 },
+  'sourdough': { unit: 'slice', calories: 93, protein: 3.8, carbs: 18, fat: 0.6, fiber: 0.9, sugar: 0, sodium: 206 },
+  'brioche': { unit: 'slice', calories: 120, protein: 3.5, carbs: 16, fat: 5, fiber: 0.5, sugar: 4, sodium: 150 },
   'whole wheat bread': { unit: 'slice', calories: 80, protein: 4, carbs: 14, fat: 1.5, fiber: 2.7, sugar: 0.5, sodium: 148 },
   'tortilla': { unit: 'medium', calories: 57, protein: 1.6, carbs: 10.3, fat: 1.3, fiber: 1.6, sugar: 0.1, sodium: 137 },
   'naan': { unit: 'oz', calories: 97, protein: 3, carbs: 16.2, fat: 2.6, fiber: 0.6, sugar: 0.3, sodium: 375 },
@@ -205,11 +210,15 @@ export const nutritionDatabase = {
   'ketchup': { unit: 'tbsp', calories: 17, protein: 0, carbs: 4, fat: 0, fiber: 0, sugar: 4, sodium: 190 },
   'mustard': { unit: 'tbsp', calories: 3, protein: 0.2, carbs: 0.2, fat: 0.2, fiber: 0, sugar: 0, sodium: 195 },
   'mayo': { unit: 'tbsp', calories: 90, protein: 0.1, carbs: 0.1, fat: 10, fiber: 0, sugar: 0, sodium: 84 },
+  'mayonnaise': { unit: 'tbsp', calories: 90, protein: 0.1, carbs: 0.1, fat: 10, fiber: 0, sugar: 0, sodium: 84 },
   'peanut butter': { unit: 'tbsp', calories: 96, protein: 3.6, carbs: 3.5, fat: 8.9, fiber: 1.5, sugar: 1.5, sodium: 75 },
   'tahini': { unit: 'tbsp', calories: 89, protein: 2.6, carbs: 3.2, fat: 8.1, fiber: 1.7, sugar: 0.5, sodium: 8 },
 
   // CANNED GOODS
   'canned tomatoes': { unit: 'cup', calories: 32, protein: 1.5, carbs: 7, fat: 0.3, fiber: 1.5, sugar: 4, sodium: 391 },
+  'san marzano tomatoes': { unit: 'oz', calories: 3, protein: 0.1, carbs: 0.6, fat: 0, fiber: 0.1, sugar: 0.4, sodium: 10 },
+  'crushed tomatoes': { unit: 'cup', calories: 39, protein: 1.8, carbs: 8.7, fat: 0.3, fiber: 2, sugar: 5.1, sodium: 338 },
+  'diced tomatoes': { unit: 'cup', calories: 32, protein: 1.5, carbs: 7, fat: 0.3, fiber: 1.5, sugar: 4, sodium: 391 },
   'coconut milk': { unit: 'cup', calories: 445, protein: 4.6, carbs: 6.3, fat: 43, fiber: 2.3, sugar: 1.3, sodium: 42 },
   'canned beans': { unit: 'cup', calories: 134, protein: 9, carbs: 24, fat: 0.4, fiber: 7, sugar: 1, sodium: 400 },
   'canned chickpeas': { unit: 'cup', calories: 269, protein: 12.3, carbs: 44.7, fat: 4.3, fiber: 11.6, sugar: 8.4, sodium: 865 },
@@ -243,7 +252,8 @@ export const nutritionDatabase = {
 };
 
 export function findNutrition(ingredient) {
-  const lower = ingredient.toLowerCase().trim();
+  // Normalize accented characters for matching (e.g., gruyère → gruyere)
+  const lower = ingredient.toLowerCase().trim().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
 
   // Direct exact match
   if (nutritionDatabase[lower]) {

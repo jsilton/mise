@@ -42,13 +42,13 @@ ingredients:
   - Flaky Salt (optional)
 origin: Greece
 nutrition:
-  calories: 50
-  protein: 0.5
-  carbs: 4
-  fat: 3.5
-  fiber: 0.5
-  sugar: 0
-  sodium: 620
+  calories: 115
+  protein: 3
+  carbs: 16
+  fat: 4
+  fiber: 1.5
+  sugar: 0.5
+  sodium: 730
 ---
 
 ## Chef's Note

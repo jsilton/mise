@@ -60,7 +60,7 @@ nutrition:
   protein: 6
   carbs: 21
   fat: 0.5
-  fiber: 6
+  fiber: 5.5
   sugar: 5
   sodium: 170
 ---

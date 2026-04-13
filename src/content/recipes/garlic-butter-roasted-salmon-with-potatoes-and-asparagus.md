@@ -43,9 +43,9 @@ ingredients:
   - Salt and Black Pepper
   - 'Fresh Parsley, chopped'
 nutrition:
-  calories: 485
+  calories: 480
   protein: 40
-  carbs: 23
+  carbs: 22.5
   fat: 28
   fiber: 9
   sugar: 6.5

@@ -48,13 +48,13 @@ pairsWith:
   - green-beans-with-shallots-and-lemon
 origin: Italy
 nutrition:
-  calories: 900
-  protein: 41
-  carbs: 24.5
-  fat: 73
-  fiber: 1
-  sugar: 0
-  sodium: 1030
+  calories: 940
+  protein: 43
+  carbs: 26.5
+  fat: 76
+  fiber: 1.5
+  sugar: 0.5
+  sodium: 1050
 ---
 
 dietary: []

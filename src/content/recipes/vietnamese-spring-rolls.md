@@ -53,11 +53,11 @@ ingredients:
   - 1 tbsp Warm Water
   - '2 tbsp Crushed Roasted Peanuts, for garnish'
 nutrition:
-  calories: 385
-  protein: 34
-  carbs: 40.5
-  fat: 9.5
-  fiber: 3.5
+  calories: 345
+  protein: 32
+  carbs: 39
+  fat: 6
+  fiber: 3
   sugar: 19.5
   sodium: 1630
 ---

@@ -58,12 +58,12 @@ ingredients:
   - Sesame seeds and sliced scallions for garnish
   - 'Quick Hack: Use 1.5 lbs frozen beef meatballs instead of making from scratch'
 nutrition:
-  calories: 340
+  calories: 335
   protein: 13
-  carbs: 36.5
-  fat: 14
-  fiber: 1
-  sugar: 21.5
+  carbs: 38
+  fat: 13
+  fiber: 1.5
+  sugar: 22.5
   sodium: 2090
 ---
 

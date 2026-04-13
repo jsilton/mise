@@ -63,13 +63,13 @@ ingredients:
   - Hot Sauce (your family''s preference)
   - Cotija Cheese or Queso Fresco (crumbled)
 nutrition:
-  calories: 135
-  protein: 4.5
-  carbs: 9.5
-  fat: 10
-  fiber: 1.5
-  sugar: 2.5
-  sodium: 170
+  calories: 435
+  protein: 28
+  carbs: 49
+  fat: 16
+  fiber: 8
+  sugar: 3
+  sodium: 960
 ---
 
 ## Chef's Note

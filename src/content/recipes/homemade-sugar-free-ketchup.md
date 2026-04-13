@@ -45,11 +45,11 @@ ingredients:
   - Salt and Black Pepper to taste
 origin: United States
 nutrition:
-  calories: 25
+  calories: 20
   protein: 0.5
-  carbs: 3
+  carbs: 2.5
   fat: 0
-  fiber: 0.5
+  fiber: 0
   sugar: 0
   sodium: 580
 ---

@@ -56,10 +56,10 @@ nutrition:
   calories: 535
   protein: 13.5
   carbs: 48
-  fat: 37
-  fiber: 12.5
+  fat: 36.5
+  fiber: 12
   sugar: 20
-  sodium: 70
+  sodium: 60
 ---
 
 ## Chef's Note

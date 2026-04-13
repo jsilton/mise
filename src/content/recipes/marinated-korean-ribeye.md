@@ -44,12 +44,12 @@ advancePrep:
   - marinate-overnight
   - freeze-ahead
 nutrition:
-  calories: 245
-  protein: 25.5
-  carbs: 7.5
+  calories: 255
+  protein: 26
+  carbs: 10
   fat: 13.5
-  fiber: 0.5
-  sugar: 4.5
+  fiber: 1
+  sugar: 6
   sodium: 1030
 ---
 

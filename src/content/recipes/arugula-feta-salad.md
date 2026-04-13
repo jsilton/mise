@@ -50,7 +50,7 @@ nutritionalDensity: moderate
 nutrition:
   calories: 485
   protein: 21.5
-  carbs: 14
+  carbs: 13.5
   fat: 40
   fiber: 4
   sugar: 6

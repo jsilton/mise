@@ -56,13 +56,13 @@ ingredients:
   - Lime Wedges
 origin: Mexico
 nutrition:
-  calories: 350
-  protein: 35
-  carbs: 14
-  fat: 18
+  calories: 85
+  protein: 2
+  carbs: 15
+  fat: 3
   fiber: 2
   sugar: 7.5
-  sodium: 920
+  sodium: 800
 ---
 
 ## Chef's Note

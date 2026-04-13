@@ -43,8 +43,8 @@ nutritionalDensity: moderate
 leftovers: good
 nutrition:
   calories: 435
-  protein: 87
-  carbs: 6
+  protein: 86.5
+  carbs: 5.5
   fat: 9.5
   fiber: 2
   sugar: 2

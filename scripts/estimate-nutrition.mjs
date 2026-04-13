@@ -8,6 +8,7 @@ import { nutritionDatabase, findNutrition } from './nutrition-data.mjs';
 const RECIPES_DIR = path.resolve('src/content/recipes');
 const dryRun = process.argv.includes('--dry-run');
 const verbose = process.argv.includes('--verbose');
+const force = process.argv.includes('--force');
 
 // Parse quantity strings like "1/2", "1 1/2", "2"
 function parseQuantity(qtyStr) {
@@ -82,6 +83,40 @@ function normalizeToBaseUnit(quantity, unit, basePath) {
   return quantity * conversions[unit][basePath];
 }
 
+// Map non-standard units to standard equivalents (in oz unless noted)
+const UNIT_ALIASES = {
+  can: { defaultOz: 14.5 },          // standard can ~14.5 oz
+  slice: { defaultOz: 1 },           // ~1 oz per slice (bread, cheese)
+  clove: { defaultOz: 0.2 },         // ~3g per clove
+  head: { defaultOz: 24 },           // head of lettuce/cauliflower
+  bunch: { defaultOz: 6 },           // bunch of herbs/greens
+  sprig: { defaultOz: 0.1 },         // herb sprig
+  stalk: { defaultOz: 2 },           // celery stalk
+  piece: { defaultOz: 4 },           // generic piece
+  fillet: { defaultOz: 6 },          // fish fillet
+  breast: { defaultOz: 6 },          // chicken breast
+  thigh: { defaultOz: 4 },           // chicken thigh
+  link: { defaultOz: 2 },            // sausage link
+  strip: { defaultOz: 1 },           // bacon strip
+  ear: { defaultOz: 5 },             // ear of corn
+  rib: { defaultOz: 1 },             // celery rib
+  sheet: { defaultOz: 4 },           // puff pastry sheet
+  stick: { defaultOz: 4 },           // butter stick (4 oz)
+  pkg: { defaultOz: 8 },             // generic package
+  package: { defaultOz: 8 },
+  bag: { defaultOz: 10 },
+  jar: { defaultOz: 12 },
+  bottle: { defaultOz: 12 },
+  rack: { defaultOz: 32 },           // rack of ribs
+  block: { defaultOz: 8 },           // block of cheese/tofu
+};
+
+// Extract parenthetical oz from strings like "1 can (28 oz)" or "1 can (14.5-oz)"
+function extractParenOz(str) {
+  const match = str.match(/\((\d+(?:\.\d+)?)\s*-?\s*oz\)/i);
+  return match ? parseFloat(match[1]) : null;
+}
+
 // Estimate nutrition for a single ingredient
 function estimateIngredientNutrition(ingredientStr) {
   // Skip section dividers
@@ -89,46 +124,91 @@ function estimateIngredientNutrition(ingredientStr) {
     return null;
   }
 
-  // Skip "to taste" items
-  if (ingredientStr.toLowerCase().includes('to taste')) {
+  // Skip "to taste", "as needed", garnish-only items
+  const lower = ingredientStr.toLowerCase();
+  if (lower.includes('to taste') || lower.includes('as needed') || lower.includes('for garnish') || lower.includes('for serving')) {
     return null;
   }
 
-  // Parse: "2 1/2 cups flour" or "1/2 lb chicken thighs"
-  const ingredientMatch = ingredientStr.match(
-    /^([\d\s/]*)\s*(cup|tbsp|tsp|oz|lb|g|small|medium|large|each|whole)s?\s+(.+)$/i
+  // Extended unit list including aliases
+  const allUnits = [
+    'cup', 'tbsp', 'tablespoon', 'tsp', 'teaspoon', 'oz', 'ounce', 'lb', 'pound', 'g', 'gram',
+    'small', 'medium', 'large', 'each', 'whole',
+    'can', 'slice', 'clove', 'head', 'bunch', 'sprig', 'stalk', 'piece',
+    'fillet', 'breast', 'thigh', 'link', 'strip', 'ear', 'rib', 'sheet',
+    'stick', 'pkg', 'package', 'bag', 'jar', 'bottle', 'rack', 'block',
+  ].join('|');
+
+  const unitRegex = new RegExp(
+    `^([\\d\\s/]*)\\s*(${allUnits})s?\\b\\s+(.+)$`, 'i'
   );
 
+  const ingredientMatch = ingredientStr.match(unitRegex);
+
   if (!ingredientMatch) {
-    // Try to extract just ingredient name and assume 1 oz
-    const nameOnly = ingredientStr.split('(')[0].trim();
+    // Try: "Unsalted Butter" (no quantity/unit) or "2 Eggs"
+    // First try with just a number: "2 Eggs", "3 Carrots"
+    const numOnlyMatch = ingredientStr.match(/^([\d\s/]+)\s+(.+)$/);
+    if (numOnlyMatch) {
+      const qty = parseQuantity(numOnlyMatch[1]);
+      const cleanName = numOnlyMatch[2].split('(')[0].split(',')[0].trim();
+      const data = findNutrition(cleanName);
+      if (data) {
+        return { quantity: qty, unit: data.unit, ingredient: cleanName, data };
+      }
+    }
+
+    // No quantity at all: "Unsalted Butter", "Salt and Pepper"
+    const nameOnly = ingredientStr.split('(')[0].split(',')[0].trim();
     const data = findNutrition(nameOnly);
     if (data) {
-      return {
-        quantity: 1,
-        unit: 'oz',
-        ingredient: nameOnly,
-        data,
-      };
+      return { quantity: 1, unit: data.unit, ingredient: nameOnly, data };
     }
     return null;
   }
 
-  const [, qtyPart, unit, name] = ingredientMatch;
+  const [, qtyPart, rawUnit, name] = ingredientMatch;
   const quantity = parseQuantity(qtyPart);
-  const normalizedUnit = unit.toLowerCase();
-  const cleanName = name.split('(')[0].trim();
+  const unitKey = rawUnit.toLowerCase().replace(/s$/, '');
+  const cleanName = name.split('(')[0].split(',')[0].trim();
 
   const nutritionData = findNutrition(cleanName);
   if (!nutritionData) {
     return null;
   }
 
+  // Normalize tablespoon/teaspoon aliases
+  const normalizedUnit = unitKey === 'tablespoon' ? 'tbsp'
+    : unitKey === 'teaspoon' ? 'tsp'
+    : unitKey === 'ounce' ? 'oz'
+    : unitKey === 'pound' ? 'lb'
+    : unitKey === 'gram' ? 'g'
+    : unitKey;
+
   // Convert to the base unit that nutrition data uses
   const baseUnit = nutritionData.unit;
   let adjustedQuantity = quantity;
 
-  if (normalizedUnit !== baseUnit) {
+  // Handle alias units (can, slice, clove, etc.) — convert to oz first
+  if (UNIT_ALIASES[normalizedUnit]) {
+    const parenOz = extractParenOz(ingredientStr);
+    const ozPerUnit = parenOz || UNIT_ALIASES[normalizedUnit].defaultOz;
+    const totalOz = quantity * ozPerUnit;
+    // Now convert from oz to the nutrition data's base unit
+    if (baseUnit === 'oz') {
+      adjustedQuantity = totalOz;
+    } else if (baseUnit === 'tbsp') {
+      adjustedQuantity = totalOz * 2; // ~2 tbsp per oz for liquids
+    } else if (baseUnit === 'cup') {
+      adjustedQuantity = totalOz / 8;
+    } else if (baseUnit === 'lb') {
+      adjustedQuantity = totalOz / 16;
+    } else if (baseUnit === 'each' || baseUnit === 'slice') {
+      adjustedQuantity = quantity; // keep original count
+    } else {
+      adjustedQuantity = totalOz; // fallback: treat as oz
+    }
+  } else if (normalizedUnit !== baseUnit) {
     adjustedQuantity = normalizeToBaseUnit(quantity, normalizedUnit, baseUnit);
   }
 
@@ -212,10 +292,10 @@ async function processRecipes() {
       const content = await fs.readFile(filePath, 'utf-8');
       const { data, content: body } = matter(content);
 
-      // Skip if already has nutrition
-      if (data.nutrition) {
+      // Skip if already has nutrition (unless --force)
+      if (data.nutrition && !force) {
         if (verbose) {
-          console.log(`⏭️  ${file} - already has nutrition`);
+          console.log(`⏭️  ${file} - already has nutrition (use --force to recalculate)`);
         }
         skipped++;
         continue;

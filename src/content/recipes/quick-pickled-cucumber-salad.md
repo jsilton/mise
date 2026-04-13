@@ -43,10 +43,10 @@ ingredients:
   - Sesame Seeds for garnish
   - Kosher Salt
 nutrition:
-  calories: 85
+  calories: 70
   protein: 1.5
-  carbs: 7.5
-  fat: 4.5
+  carbs: 7
+  fat: 3.5
   fiber: 0.5
   sugar: 4.5
   sodium: 1590

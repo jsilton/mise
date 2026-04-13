@@ -65,12 +65,12 @@ ingredients:
   - Sesame Seeds
   - Additional Sesame Oil (optional drizzle)
 nutrition:
-  calories: 470
-  protein: 21
-  carbs: 62.5
+  calories: 495
+  protein: 21.5
+  carbs: 67.5
   fat: 17
-  fiber: 10.5
-  sugar: 18
+  fiber: 11
+  sugar: 20.5
   sodium: 1070
 ---
 

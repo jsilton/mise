@@ -64,12 +64,12 @@ ingredients:
   - '1 clove Garlic, finely grated'
   - '1/2 tsp Red Chili Flakes (optional, for heat)'
 nutrition:
-  calories: 430
-  protein: 12.5
-  carbs: 24
+  calories: 440
+  protein: 13
+  carbs: 26
   fat: 34.5
   fiber: 8.5
-  sugar: 8.5
+  sugar: 10
   sodium: 980
 ---
 

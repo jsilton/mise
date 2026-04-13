@@ -73,13 +73,13 @@ ingredients:
   - Crumbled Cotija Cheese
   - Diced White Onion
 nutrition:
-  calories: 530
-  protein: 59
-  carbs: 7.5
-  fat: 30
-  fiber: 1.5
-  sugar: 2
-  sodium: 1330
+  calories: 270
+  protein: 26.5
+  carbs: 9
+  fat: 15
+  fiber: 2
+  sugar: 3
+  sodium: 1220
 ---
 
 ## Chef's Note

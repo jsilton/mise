@@ -45,12 +45,12 @@ ingredients:
   - 1/2 tsp Toasted Sesame Oil
 origin: China
 nutrition:
-  calories: 460
-  protein: 8
-  carbs: 94.5
+  calories: 515
+  protein: 9.5
+  carbs: 107.5
   fat: 4
-  fiber: 2.5
-  sugar: 3
+  fiber: 4.5
+  sugar: 8.5
   sodium: 1780
 ---
 

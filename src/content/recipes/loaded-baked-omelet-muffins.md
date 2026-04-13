@@ -43,13 +43,13 @@ ingredients:
   - Cooking spray
 origin: United States
 nutrition:
-  calories: 90
-  protein: 6
+  calories: 140
+  protein: 8
   carbs: 6.5
-  fat: 5
+  fat: 9
   fiber: 1.5
-  sugar: 3
-  sodium: 280
+  sugar: 3.5
+  sodium: 350
 ---
 
 ## Chef's Note

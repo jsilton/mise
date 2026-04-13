@@ -42,10 +42,10 @@ leftovers: good
 advancePrep:
   - overnight-soak
 nutrition:
-  calories: 460
+  calories: 430
   protein: 14.5
   carbs: 26
-  fat: 37
+  fat: 33.5
   fiber: 10.5
   sugar: 4.5
   sodium: 1290

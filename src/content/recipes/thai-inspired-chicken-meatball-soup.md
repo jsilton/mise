@@ -44,7 +44,7 @@ leftovers: good
 nutrition:
   calories: 260
   protein: 34.5
-  carbs: 2.5
+  carbs: 3
   fat: 13.5
   fiber: 1
   sugar: 0.5

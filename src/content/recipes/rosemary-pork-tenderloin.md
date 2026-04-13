@@ -46,13 +46,13 @@ ingredients:
   - '3 cloves Garlic, smashed'
 origin: United States
 nutrition:
-  calories: 45
-  protein: 2.5
+  calories: 130
+  protein: 6.5
   carbs: 2
-  fat: 3.5
+  fat: 10.5
   fiber: 0.5
   sugar: 0
-  sodium: 580
+  sodium: 730
 ---
 
 ## Chef's Note

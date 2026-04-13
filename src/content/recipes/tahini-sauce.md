@@ -45,13 +45,13 @@ ingredients:
   - 1/4 cup Ice-Cold Water (plus more as needed)
   - Pinch of Cumin (optional)
 nutrition:
-  calories: 1455
-  protein: 43
-  carbs: 58.5
+  calories: 1450
+  protein: 42.5
+  carbs: 57.5
   fat: 130.5
   fiber: 29
   sugar: 9.5
-  sodium: 2470
+  sodium: 2460
 ---
 
 ## Chef's Note

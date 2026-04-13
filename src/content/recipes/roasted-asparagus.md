@@ -45,7 +45,7 @@ origin: United States
 nutrition:
   calories: 45
   protein: 1
-  carbs: 4.5
+  carbs: 4
   fat: 3.5
   fiber: 1.5
   sugar: 1

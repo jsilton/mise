@@ -40,12 +40,12 @@ leftovers: good
 advancePrep:
   - brine-overnight
 nutrition:
-  calories: 20
-  protein: 0
-  carbs: 3
-  fat: 1
-  fiber: 0.5
-  sugar: 1.5
+  calories: 110
+  protein: 0.5
+  carbs: 26.5
+  fat: 1.5
+  fiber: 5
+  sugar: 19
   sodium: 200
 ---
 

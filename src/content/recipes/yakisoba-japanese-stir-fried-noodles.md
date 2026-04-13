@@ -58,7 +58,7 @@ ingredients:
   - Pickled Ginger (optional)
   - 'Scallions, chopped'
 nutrition:
-  calories: 710
+  calories: 705
   protein: 26
   carbs: 94
   fat: 32

@@ -43,7 +43,7 @@ ingredients:
 origin: China
 nutrition:
   calories: 50
-  protein: 3.5
+  protein: 3
   carbs: 4.5
   fat: 2
   fiber: 0

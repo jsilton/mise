@@ -48,12 +48,12 @@ ingredients:
 origin: China
 nutrition:
   calories: 395
-  protein: 27.5
+  protein: 28
   carbs: 37.5
   fat: 13.5
-  fiber: 0.5
+  fiber: 1
   sugar: 17.5
-  sodium: 1870
+  sodium: 1880
 ---
 
 ## Chef's Note

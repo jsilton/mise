@@ -50,12 +50,12 @@ ingredients:
     Wrappers](/mise/recipes/fresh-wonton-wrappers))
 origin: China
 nutrition:
-  calories: 130
-  protein: 19
-  carbs: 5
+  calories: 165
+  protein: 20
+  carbs: 13
   fat: 4
-  fiber: 0.5
-  sugar: 2
+  fiber: 2
+  sugar: 6
   sodium: 870
 ---
 

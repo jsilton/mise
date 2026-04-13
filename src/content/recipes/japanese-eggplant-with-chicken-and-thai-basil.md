@@ -50,7 +50,7 @@ nutrition:
   protein: 28.5
   carbs: 5.5
   fat: 9.5
-  fiber: 0.5
+  fiber: 1
   sugar: 2
   sodium: 2560
 ---

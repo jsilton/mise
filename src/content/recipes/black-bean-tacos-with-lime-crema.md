@@ -56,13 +56,13 @@ ingredients:
   - Lime Wedges
   - Cotija Cheese (optional)
 nutrition:
-  calories: 140
-  protein: 8
-  carbs: 24
-  fat: 3
-  fiber: 6
-  sugar: 4
-  sodium: 1190
+  calories: 395
+  protein: 20.5
+  carbs: 69.5
+  fat: 6
+  fiber: 15
+  sugar: 5
+  sodium: 2800
 ---
 
 ## Chef's Note

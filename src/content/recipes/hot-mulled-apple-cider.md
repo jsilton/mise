@@ -41,12 +41,12 @@ pairsWith:
   - brownie-baked-oatmeal
   - chicken-apple-and-butternut-stew
 nutrition:
-  calories: 120
-  protein: 0
-  carbs: 32
+  calories: 135
+  protein: 0.5
+  carbs: 35
   fat: 0
-  fiber: 1
-  sugar: 31
+  fiber: 1.5
+  sugar: 33.5
   sodium: 300
 ---
 

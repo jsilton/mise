@@ -47,13 +47,13 @@ ingredients:
   - 1 tbsp Water
   - 1 tsp Rice Vinegar
 nutrition:
-  calories: 60
-  protein: 1.5
+  calories: 115
+  protein: 6
   carbs: 3.5
-  fat: 4.5
+  fat: 8.5
   fiber: 0
-  sugar: 3
-  sodium: 50
+  sugar: 3.5
+  sodium: 100
 ---
 
 ## Chef's Note

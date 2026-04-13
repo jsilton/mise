@@ -74,13 +74,13 @@ ingredients:
   - Extra Virgin Olive Oil (for serving)
   - Grated Parmesan Cheese (for serving)
 nutrition:
-  calories: 145
-  protein: 4.5
-  carbs: 15.5
-  fat: 8
+  calories: 115
+  protein: 3
+  carbs: 15
+  fat: 5.5
   fiber: 3.5
   sugar: 5
-  sodium: 760
+  sodium: 710
 ---
 
 ## Chef's Note

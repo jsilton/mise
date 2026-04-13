@@ -44,12 +44,12 @@ ingredients:
   - '1 bunch Baby Bok Choy, trimmed'
   - Neutral Oil
 nutrition:
-  calories: 555
-  protein: 27.5
-  carbs: 88
-  fat: 11.5
+  calories: 570
+  protein: 29
+  carbs: 89.5
+  fat: 12
   fiber: 3.5
-  sugar: 3
+  sugar: 3.5
   sodium: 2020
 ---
 

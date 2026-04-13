@@ -54,13 +54,13 @@ ingredients:
   - Sesame Seeds for garnish (optional)
   - Water in a small bowl (for wet hands)
 nutrition:
-  calories: 40
-  protein: 2.5
-  carbs: 1.5
-  fat: 3
+  calories: 35
+  protein: 4
+  carbs: 0.5
+  fat: 2
   fiber: 0.5
   sugar: 0
-  sodium: 850
+  sodium: 600
 ---
 
 ## Chef's Note

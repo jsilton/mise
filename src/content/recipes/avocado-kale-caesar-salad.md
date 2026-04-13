@@ -50,13 +50,13 @@ ingredients:
   - '1/2 cup Panko Breadcrumbs, toasted in butter (Optional crunch)'
 origin: United States
 nutrition:
-  calories: 1005
+  calories: 625
   protein: 22
-  carbs: 6.5
-  fat: 102
-  fiber: 1.5
-  sugar: 1
-  sodium: 2330
+  carbs: 10
+  fat: 56
+  fiber: 2
+  sugar: 1.5
+  sodium: 2040
 ---
 
 ## Chef's Note

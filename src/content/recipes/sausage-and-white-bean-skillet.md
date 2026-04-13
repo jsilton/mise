@@ -48,13 +48,13 @@ ingredients:
   - Fresh Parsley for garnish
   - Grated Parmesan Cheese for serving
 nutrition:
-  calories: 560
-  protein: 36
-  carbs: 10
-  fat: 42.5
+  calories: 535
+  protein: 33.5
+  carbs: 9.5
+  fat: 40.5
   fiber: 2
   sugar: 3
-  sodium: 1800
+  sodium: 1700
 ---
 
 ## Chef's Note

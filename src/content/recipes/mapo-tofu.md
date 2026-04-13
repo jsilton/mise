@@ -54,12 +54,12 @@ ingredients:
   - 1 tsp Toasted Sesame Oil
   - '1 tsp Chili Oil, for drizzling'
 nutrition:
-  calories: 250
+  calories: 260
   protein: 7
-  carbs: 24
+  carbs: 26.5
   fat: 14.5
   fiber: 4
-  sugar: 4
+  sugar: 5
   sodium: 1400
 ---
 

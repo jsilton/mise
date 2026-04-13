@@ -245,14 +245,20 @@ const baseServings = parseInt(servings) || 4;
 
         // Replace the quantity in the original HTML to preserve links and formatting
         const originalHtml = item.dataset.originalHtml || span.innerHTML;
-        // Find the leading quantity pattern in the HTML and replace it
-        const quantityMatch = originalText.match(/^[\d\s/]+/);
-        const scaledMatch = scaledText.match(/^[\d\s/]+/);
-        if (quantityMatch && scaledMatch) {
-          // Escape HTML entities in the original quantity for matching
-          const escapedOriginal = quantityMatch[0].replace(/&/g, '&amp;');
-          span.innerHTML = originalHtml.replace(escapedOriginal, scaledMatch[0]).replace(quantityMatch[0], scaledMatch[0]);
+        const hasHtmlMarkup = originalHtml !== originalText;
+
+        if (hasHtmlMarkup) {
+          // HTML contains links or formatting — replace quantity in HTML carefully
+          const quantityMatch = originalText.match(/^[\d\s/]+/);
+          const scaledMatch = scaledText.match(/^[\d\s/]+/);
+          if (quantityMatch && scaledMatch) {
+            // Only one replace — the chained replace was causing double-application
+            span.innerHTML = originalHtml.replace(quantityMatch[0], scaledMatch[0]);
+          } else {
+            span.textContent = scaledText;
+          }
         } else {
+          // No HTML markup — safe to use plain text replacement
           span.textContent = scaledText;
         }
 

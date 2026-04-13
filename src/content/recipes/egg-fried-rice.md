@@ -46,13 +46,13 @@ ingredients:
   - 1/2 tsp White Pepper
   - Sesame seeds for garnish
 nutrition:
-  calories: 155
-  protein: 4
-  carbs: 7
-  fat: 13
-  fiber: 1.5
-  sugar: 2.5
-  sodium: 780
+  calories: 215
+  protein: 9
+  carbs: 12
+  fat: 15.5
+  fiber: 2
+  sugar: 5
+  sodium: 840
 ---
 
 ## Chef's Note

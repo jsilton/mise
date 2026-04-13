@@ -43,13 +43,13 @@ ingredients:
   - Sesame Oil and Scallions for garnish
 origin: China
 nutrition:
-  calories: 50
-  protein: 2
-  carbs: 1.5
-  fat: 4
-  fiber: 0
-  sugar: 0
-  sodium: 910
+  calories: 30
+  protein: 3
+  carbs: 3
+  fat: 0.5
+  fiber: 1
+  sugar: 0.5
+  sodium: 970
 ---
 
 ## Chef's Note
