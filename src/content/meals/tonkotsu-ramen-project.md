@@ -7,7 +7,7 @@ sides: []
 totalPrepTime: 60 min
 totalCookTime: 240 min
 totalActiveTime: 90 min
-overallDifficulty: advanced
+overallDifficulty: hard
 cuisines: [Japanese]
 occasions: [saturday, project, special-occasion, learning]
 seasons: [fall, winter]
