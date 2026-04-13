@@ -22,7 +22,7 @@ const searchIndexData: RecipeSearchItem[] = recipes.map((recipe) => ({
 ---
 
 <Layout title="Mise | Recipe Codex">
-  <\!-- Page Header -->
+  <!-- Page Header -->
   <div class="flex flex-col md:flex-row justify-between items-start md:items-end mb-10 gap-6">
     <div>
       <h1 class="text-3xl font-bold text-slate-900 dark:text-slate-100 tracking-tight">The Codex</h1>
@@ -33,15 +33,15 @@ const searchIndexData: RecipeSearchItem[] = recipes.map((recipe) => ({
     </div>
   </div>
 
-  <\!-- Filter and Sort UI -->
+  <!-- Filter and Sort UI -->
   <FilterPanel {recipes} />
 
-  <\!-- Recipe Grid -->
+  <!-- Recipe Grid -->
   <div id="recipeGrid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
     {recipes.map((recipe) => <RecipeCard {recipe} />)}
   </div>
 
-  <\!-- No Results State -->
+  <!-- No Results State -->
   <div id="noResults" class="hidden text-center py-20">
     <div class="inline-flex items-center justify-center w-16 h-16 rounded-full bg-slate-100 dark:bg-slate-800 mb-4">
       <svg class="w-8 h-8 text-slate-400 dark:text-slate-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -112,12 +112,12 @@ const searchIndexData: RecipeSearchItem[] = recipes.map((recipe) => ({
         const matchesFuzzySearch = fuzzySlugSet.has(slug);
 
         // Apply other filters
-        const matchesDifficulty = \!state.difficulty || cardDifficulty === state.difficulty;
-        const matchesCuisine = \!state.cuisine || cardCuisines.includes(state.cuisine);
-        const matchesDietary = \!state.dietary || cardDietary.includes(state.dietary);
-        const matchesMethod = \!state.cookingMethod || cardMethods.includes(state.cookingMethod);
-        const matchesOccasion = \!state.occasion || cardOccasions.includes(state.occasion);
-        const matchesFlavor = \!state.flavor || cardFlavors.includes(state.flavor);
+        const matchesDifficulty = !state.difficulty || cardDifficulty === state.difficulty;
+        const matchesCuisine = !state.cuisine || cardCuisines.includes(state.cuisine);
+        const matchesDietary = !state.dietary || cardDietary.includes(state.dietary);
+        const matchesMethod = !state.cookingMethod || cardMethods.includes(state.cookingMethod);
+        const matchesOccasion = !state.occasion || cardOccasions.includes(state.occasion);
+        const matchesFlavor = !state.flavor || cardFlavors.includes(state.flavor);
 
         const isVisible =
           matchesFuzzySearch &&
@@ -146,12 +146,12 @@ const searchIndexData: RecipeSearchItem[] = recipes.map((recipe) => ({
         const cardFlavors = card.dataset.flavorProfile?.split(',').filter((f) => f) || [];
 
         // Apply all active filters
-        const matchesDifficulty = \!state.difficulty || cardDifficulty === state.difficulty;
-        const matchesCuisine = \!state.cuisine || cardCuisines.includes(state.cuisine);
-        const matchesDietary = \!state.dietary || cardDietary.includes(state.dietary);
-        const matchesMethod = \!state.cookingMethod || cardMethods.includes(state.cookingMethod);
-        const matchesOccasion = \!state.occasion || cardOccasions.includes(state.occasion);
-        const matchesFlavor = \!state.flavor || cardFlavors.includes(state.flavor);
+        const matchesDifficulty = !state.difficulty || cardDifficulty === state.difficulty;
+        const matchesCuisine = !state.cuisine || cardCuisines.includes(state.cuisine);
+        const matchesDietary = !state.dietary || cardDietary.includes(state.dietary);
+        const matchesMethod = !state.cookingMethod || cardMethods.includes(state.cookingMethod);
+        const matchesOccasion = !state.occasion || cardOccasions.includes(state.occasion);
+        const matchesFlavor = !state.flavor || cardFlavors.includes(state.flavor);
 
         const isVisible =
           matchesDifficulty &&

@@ -44,7 +44,7 @@ export function searchRecipes(
   fuse: Fuse<RecipeSearchItem>,
   recipes: RecipeSearchItem[]
 ): SearchResult[] {
-  if (\!query || query.trim().length === 0) {
+  if (!query || query.trim().length === 0) {
     return [];
   }
 
