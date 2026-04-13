@@ -1,7 +1,7 @@
 ---
 title: Tonkotsu-Style Ramen (Weekend Project)
 origin: Japan (Fukuoka)
-difficulty: advanced
+difficulty: hard
 cookingMethods:
   - simmer
   - boil
