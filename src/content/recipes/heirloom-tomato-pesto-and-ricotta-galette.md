@@ -50,11 +50,19 @@ ingredients:
   - 'Fresh Chives and Basil, chopped'
   - Flaky Sea Salt and Chili Flakes
 origin: Italy
+nutrition:
+  calories: 755
+  protein: 5
+  carbs: 24
+  fat: 73.5
+  fiber: 2
+  sugar: 4.5
+  sodium: 1090
 ---
 
 ## Chef's Note
 
-Galettes are rustic free-form tarts from France, though Italians have embraced them with summer ingredients like tomatoes and pesto. The key to avoiding a soggy crust is simple: slice your tomatoes and pat them dry with paper towels for 10 minutes to remove excess moisture. For the flakiest pastry, keep your butter cold and in pea-sized pieces—a food processor makes this easy.
+Galettes are rustic free-form tarts from France, though Italians have embraced them with summer ingredients like tomatoes and pesto. The key to avoiding a soggy crust is simple: slice your tomatoes and pat them dry with paper towels for 10 minutes to remove excess moisture. For the flakiest pastry, keep your butter cold and in pea-sized pieces - a food processor makes this easy.
 
 ## Directions
 

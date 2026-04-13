@@ -19,7 +19,7 @@ bestFor: [tuesday]
 
 ## Meal Overview
 
-The iconic Tuesday tradition—build-your-own tacos with all the fixings. The beauty is in the customization: set out the components and let everyone assemble their perfect taco. Quick, fun, and universally loved.
+The iconic Tuesday tradition - build-your-own tacos with all the fixings. The beauty is in the customization: set out the components and let everyone assemble their perfect taco. Quick, fun, and universally loved.
 
 ## Cooking Strategy
 

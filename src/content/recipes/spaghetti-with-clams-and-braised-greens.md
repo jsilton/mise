@@ -49,11 +49,19 @@ ingredients:
   - '1 Lemon, zested and juiced (The Acid Balance)'
   - '1/2 cup Parmesan, freshly grated'
 origin: Italy
+nutrition:
+  calories: 545
+  protein: 1
+  carbs: 4.5
+  fat: 60
+  fiber: 1.5
+  sugar: 1.5
+  sodium: 60
 ---
 
 ## Chef's Note
 
-Spaghetti with clams is a classic Italian coastal dish, typically made with white wine and garlic. This version adds pureed roasted red peppers to the clam-steaming liquid for a thicker, more colorful sauce—a modern American twist. Sauté the greens separately in garlic oil before combining everything, so they stay bright and flavorful. Finish with cold butter and fresh lemon juice for richness and brightness.
+Spaghetti with clams is a classic Italian coastal dish, typically made with white wine and garlic. This version adds pureed roasted red peppers to the clam-steaming liquid for a thicker, more colorful sauce - a modern American twist. Sauté the greens separately in garlic oil before combining everything, so they stay bright and flavorful. Finish with cold butter and fresh lemon juice for richness and brightness.
 
 ## Directions
 
@@ -65,4 +73,4 @@ Spaghetti with clams is a classic Italian coastal dish, typically made with whit
 6.  **Emulsify:** Toss vigorously over medium heat. Add lemon juice, zest, and Parmesan. Stir until the sauce is glossy.
 7.  **Serve:** Return clams to the pot to warm through. Serve in shallow bowls with plenty of extra Parmesan.
 
-**Rest:** Let jarred Roast rest for 10 minutes before slicing or serving — the juices redistribute and every piece stays moist.
+**Rest:** Let jarred Roast rest for 10 minutes before slicing or serving  -  the juices redistribute and every piece stays moist.

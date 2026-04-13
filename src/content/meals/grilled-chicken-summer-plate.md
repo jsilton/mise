@@ -17,7 +17,7 @@ bestFor: [friday, saturday]
 
 ## Meal Overview
 
-The quintessential summer dinner — juicy grilled chicken with a fresh corn and herb salsa, flanked by crispy smashed potatoes and charred zucchini. Everything benefits from the grill or high heat. This is outdoor cooking season at its best.
+The quintessential summer dinner  -  juicy grilled chicken with a fresh corn and herb salsa, flanked by crispy smashed potatoes and charred zucchini. Everything benefits from the grill or high heat. This is outdoor cooking season at its best.
 
 ## Cooking Strategy
 

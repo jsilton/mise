@@ -47,11 +47,19 @@ ingredients:
   - Extra-Virgin Olive Oil
   - Salt and Black Pepper
 origin: Italy
+nutrition:
+  calories: 285
+  protein: 3.5
+  carbs: 4.5
+  fat: 28
+  fiber: 1
+  sugar: 2.5
+  sodium: 110
 ---
 
 ## Chef's Note
 
-Spaghetti squash strands are a vegetable base for light sauces—they stay tender and separate instead of turning mushy like pasta. The Tuscan profile is garlic, tomato, and basil, with perhaps a bit of cream. The squash cooks in the oven first, then gets tossed with warm sauce so it drinks in the flavor without becoming wet.
+Spaghetti squash strands are a vegetable base for light sauces - they stay tender and separate instead of turning mushy like pasta. The Tuscan profile is garlic, tomato, and basil, with perhaps a bit of cream. The squash cooks in the oven first, then gets tossed with warm sauce so it drinks in the flavor without becoming wet.
 ## Directions
 
 1.  **Roast Squash:** Preheat oven to 400°F. Halve squash, rub with oil, and roast flesh-side down for 40-45 minutes until fork-tender.

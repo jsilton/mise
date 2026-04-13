@@ -23,9 +23,9 @@ Easy Tuesday night: Italian sausages roast with potatoes on a sheet pan, broccol
 
 ## The Menu
 
-- **Sheet Pan Italian Sausage Dinner** — sausage + crispy potatoes in one pan
-- **Steamed Broccoli** — simple and healthy
-- Store-bought dinner rolls — grab Kings Hawaiian or ciabatta rolls
+- **Sheet Pan Italian Sausage Dinner**  -  sausage + crispy potatoes in one pan
+- **Steamed Broccoli**  -  simple and healthy
+- Store-bought dinner rolls  -  grab Kings Hawaiian or ciabatta rolls
 - Whole grain mustard for dipping
 
 ## Quick Timeline
@@ -40,6 +40,6 @@ Easy Tuesday night: Italian sausages roast with potatoes on a sheet pan, broccol
 
 ## Notes
 
-- Get sausage from the butcher counter—way better than pre-packaged
+- Get sausage from the butcher counter - way better than pre-packaged
 - Sweet Italian for kids, hot Italian for adults
 - Smashed potatoes are even crispier if you have time

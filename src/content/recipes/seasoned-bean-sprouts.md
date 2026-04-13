@@ -42,6 +42,14 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 equipment: []
+nutrition:
+  calories: 55
+  protein: 1
+  carbs: 3.5
+  fat: 4.5
+  fiber: 0.5
+  sugar: 1
+  sodium: 580
 ---
 
 ## Chef's Note

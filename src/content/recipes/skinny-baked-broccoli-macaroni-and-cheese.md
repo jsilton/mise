@@ -51,11 +51,19 @@ ingredients:
   - '--- Lemon juice ---'
   - '1 Lemon, juiced'
 origin: United States
+nutrition:
+  calories: 770
+  protein: 12.5
+  carbs: 55
+  fat: 58.5
+  fiber: 6.5
+  sugar: 3
+  sodium: 360
 ---
 
 ## Chef's Note
 
-Lighter mac and cheese works when you lean on technique instead of just cutting fat. The roux here uses less butter than a classic béchamel, but the combination of skim milk and chicken broth creates a sauce with real body — the broth adds savory depth that low-fat cheese alone can't deliver. Cooking the broccoli in the pasta water during the last 2 minutes is a one-pot trick that saves a pan and ensures the florets are perfectly tender without going army-green. The breadcrumb-Parmesan top is non-negotiable — it's the textural contrast that makes this satisfying.
+Lighter mac and cheese works when you lean on technique instead of just cutting fat. The roux here uses less butter than a classic béchamel, but the combination of skim milk and chicken broth creates a sauce with real body  -  the broth adds savory depth that low-fat cheese alone can't deliver. Cooking the broccoli in the pasta water during the last 2 minutes is a one-pot trick that saves a pan and ensures the florets are perfectly tender without going army-green. The breadcrumb-Parmesan top is non-negotiable  -  it's the textural contrast that makes this satisfying.
 ## Directions
 
 1.  **The Pot:** Bring a large pot of salted water to a boil. Add pasta. 2 minutes before the pasta is al dente, add the broccoli florets. Drain.

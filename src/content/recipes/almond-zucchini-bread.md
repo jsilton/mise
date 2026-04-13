@@ -41,6 +41,14 @@ ingredients:
   - 1 1/2 tsp Baking Soda
   - 1/2 tsp Kosher Salt
 origin: United States
+nutrition:
+  calories: 65
+  protein: 2
+  carbs: 8.5
+  fat: 3
+  fiber: 0.5
+  sugar: 6
+  sodium: 440
 ---
 
 ## Chef's Note

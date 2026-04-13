@@ -23,11 +23,11 @@ servings: 8-10
 equipment:
   - slow-cooker
 ingredients:
-  - '1 pound elbow pasta (uncooked, regular—not quick-cook)'
+  - '1 pound elbow pasta (uncooked, regular - not quick-cook)'
   - 2½ cups whole milk
   - 12 ounces evaporated milk (one can)
   - '12 ounces extra-sharp cheddar, freshly shredded (about 3 cups)'
-  - '4 ounces American cheese, shredded (about 1 cup—from the deli, not slices)'
+  - '4 ounces American cheese, shredded (about 1 cup - from the deli, not slices)'
   - 1 teaspoon kosher salt
   - ½ teaspoon black pepper
   - ½ teaspoon dry mustard
@@ -44,15 +44,23 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
+nutrition:
+  calories: 60
+  protein: 2.5
+  carbs: 5
+  fat: 3.5
+  fiber: 0.5
+  sugar: 2
+  sodium: 370
 ---
 
 ## Chef's Note
 
-This is the ultimate hands-off mac and cheese for game day or potlucks—dump everything in the slow cooker and forget about it. The combination of extra-sharp cheddar for flavor and American cheese for melt creates that perfect creamy-but-not-grainy texture. Two keys: use freshly shredded cheese (pre-shredded is coated with anti-clump agents that prevent smooth melting), and rinse your pasta before adding it (removes surface starch that would make things gluey). The evaporated milk adds body without curdling the way straight cream might.
+This is the ultimate hands-off mac and cheese for game day or potlucks - dump everything in the slow cooker and forget about it. The combination of extra-sharp cheddar for flavor and American cheese for melt creates that perfect creamy-but-not-grainy texture. Two keys: use freshly shredded cheese (pre-shredded is coated with anti-clump agents that prevent smooth melting), and rinse your pasta before adding it (removes surface starch that would make things gluey). The evaporated milk adds body without curdling the way straight cream might.
 
 ## Directions
 
-1. **The Setup:** Spray a 6-quart slow cooker with non-stick spray. Rinse the uncooked pasta well in cold water and drain—this washes off excess starch.
+1. **The Setup:** Spray a 6-quart slow cooker with non-stick spray. Rinse the uncooked pasta well in cold water and drain - this washes off excess starch.
 
 2. **The Build:** Add pasta, both milks, both cheeses, salt, pepper, dry mustard, garlic powder, and cayenne to the slow cooker. Stir to combine, making sure pasta is submerged in liquid as much as possible. Dot the top with cubed butter.
 
@@ -60,4 +68,4 @@ This is the ultimate hands-off mac and cheese for game day or potlucks—dump ev
 
 4. **The Check:** If not done, continue cooking and checking every 30 minutes. Pasta should be tender and sauce thick and creamy.
 
-5. **The Rest:** Sauce will thicken even more after the lid comes off. Let it sit 5-10 minutes before serving—this helps it set up to the perfect consistency.
+5. **The Rest:** Sauce will thicken even more after the lid comes off. Let it sit 5-10 minutes before serving - this helps it set up to the perfect consistency.

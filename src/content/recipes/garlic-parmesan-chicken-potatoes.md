@@ -47,11 +47,19 @@ ingredients:
   - '--- Lemon juice ---'
   - '1-2 Lemons, juiced'
 origin: Italy
+nutrition:
+  calories: 385
+  protein: 7.5
+  carbs: 38.5
+  fat: 22.5
+  fiber: 2
+  sugar: 1.5
+  sodium: 230
 ---
 
 ## Chef's Note
 
-This is a French-meets-Italian one-skillet dinner — skin-on thighs seared until the fat renders and the skin shatters, then finished in a garlic-Parmesan cream sauce with roasted potatoes. The sear is non-negotiable: 5-7 minutes skin-side down without touching builds the crust. The fond left in the pan becomes the base of your sauce — deglaze with broth, whisk in cream and Parmesan, and you have a weeknight version of chicken fricassee.
+This is a French-meets-Italian one-skillet dinner  -  skin-on thighs seared until the fat renders and the skin shatters, then finished in a garlic-Parmesan cream sauce with roasted potatoes. The sear is non-negotiable: 5-7 minutes skin-side down without touching builds the crust. The fond left in the pan becomes the base of your sauce  -  deglaze with broth, whisk in cream and Parmesan, and you have a weeknight version of chicken fricassee.
 ## Directions
 
 1.  **Roast Potatoes:** Preheat oven to 425°F. Toss potatoes with oil and salt. Roast on a sheet pan for 20-25 minutes until crispy.

@@ -45,11 +45,19 @@ ingredients:
   - 1/2 cup Fresh Mint leaves
   - Salt and Black Pepper
 origin: United States
+nutrition:
+  calories: 80
+  protein: 0.5
+  carbs: 7
+  fat: 6
+  fiber: 1
+  sugar: 4.5
+  sodium: 0
 ---
 
 ## Chef's Note
 
-Tossing firm peaches in the Fresno chile-lemon dressing for 15 minutes before adding avocado allows acid to soften the peaches slightly while infusing them with chili heat—a technique called maceration. Adding creamy avocado and crunchy pistachios only at serving time ensures a spectrum of textures in every bite, preventing the avocado from oxidizing and the nuts from becoming soggy.
+Tossing firm peaches in the Fresno chile-lemon dressing for 15 minutes before adding avocado allows acid to soften the peaches slightly while infusing them with chili heat - a technique called maceration. Adding creamy avocado and crunchy pistachios only at serving time ensures a spectrum of textures in every bite, preventing the avocado from oxidizing and the nuts from becoming soggy.
 
 ## Directions
 

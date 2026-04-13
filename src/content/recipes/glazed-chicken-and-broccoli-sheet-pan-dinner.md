@@ -38,6 +38,14 @@ ingredients:
   - '1 tsp Fresh Ginger, grated (The Finishing Touch)'
   - Salt and Black Pepper
 origin: China
+nutrition:
+  calories: 375
+  protein: 8
+  carbs: 39.5
+  fat: 22
+  fiber: 5
+  sugar: 2
+  sodium: 70
 ---
 
 ## Chef's Note
@@ -52,4 +60,4 @@ Sheet pan dinners became popular in the 2010s for their simplicity. The key is s
 4.  **Finish:** Return to the oven and roast for another 20-25 minutes until the broccoli is charred, potatoes are tender, and chicken reaches an internal temp of 165°F.
 5.  **Serve:** Serve immediately, drizzling any extra pan juices over the potatoes for a savory "Bounce."
 
-**Rest:** Let 4 Chicken rest for 5 minutes before slicing or serving — the juices redistribute and every piece stays moist.
+**Rest:** Let 4 Chicken rest for 5 minutes before slicing or serving  -  the juices redistribute and every piece stays moist.

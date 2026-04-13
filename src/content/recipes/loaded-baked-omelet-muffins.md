@@ -43,6 +43,14 @@ ingredients:
   - Black Pepper
   - Cooking spray
 origin: United States
+nutrition:
+  calories: 90
+  protein: 6
+  carbs: 6.5
+  fat: 5
+  fiber: 1.5
+  sugar: 3
+  sodium: 280
 ---
 
 ## Chef's Note

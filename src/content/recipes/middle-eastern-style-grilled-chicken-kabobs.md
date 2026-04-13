@@ -44,17 +44,25 @@ leftovers: good
 equipment: []
 advancePrep:
   - marinate-overnight
+nutrition:
+  calories: 390
+  protein: 41.5
+  carbs: 8.5
+  fat: 21.5
+  fiber: 2
+  sugar: 3.5
+  sodium: 150
 ---
 
 ## Chef's Note
 
-Full-fat Greek yogurt's lactic acid gently breaks down chicken's muscle fibers, while lemon juice provides additional tenderizing enzymes—a double-action marinade that oil-based versions can't match. A pinch of cinnamon bridges smoky paprika and bright citrus, a common Middle Eastern seasoning approach. Marinate at least 8 hours for proper texture.
+Full-fat Greek yogurt's lactic acid gently breaks down chicken's muscle fibers, while lemon juice provides additional tenderizing enzymes - a double-action marinade that oil-based versions can't match. A pinch of cinnamon bridges smoky paprika and bright citrus, a common Middle Eastern seasoning approach. Marinate at least 8 hours for proper texture.
 
 ## Directions
 
 1.  **The Marinade:** In a large bowl, whisk together the yogurt, oil, lemon juice, zest, garlic, and all spices.
 2.  **The Soak:** Toss the chicken pieces in the yogurt mixture until heavily coated. **Refrigerate for at least 8 hours** (ideally overnight).
-3.  **Skewer:** Thread the chicken onto metal skewers, alternating with red onion chunks. Do not crowd the skewers—ensure there is space for the heat to circulate.
+3.  **Skewer:** Thread the chicken onto metal skewers, alternating with red onion chunks. Do not crowd the skewers - ensure there is space for the heat to circulate.
 4.  **The Sear:** Preheat a grill to medium-high. Lightly oil the grates.
 5.  **Cook:** Grill kabobs for 12-15 minutes, turning occasionally. The yogurt will create a charred, crispy crust. The internal temp should reach 165°F.
 6.  **Rest:** Transfer to a platter and **rest for 5 minutes** before serving.

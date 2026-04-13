@@ -47,6 +47,14 @@ ingredients:
   - 2 tsp Vanilla Extract
   - 1/2 tsp Ground Nutmeg
 origin: United States
+nutrition:
+  calories: 160
+  protein: 3.5
+  carbs: 33.5
+  fat: 1
+  fiber: 0.5
+  sugar: 17.5
+  sodium: 190
 ---
 
 ## Chef's Note

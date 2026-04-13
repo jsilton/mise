@@ -42,6 +42,14 @@ seasons:
 nutritionalDensity: moderate
 leftovers: good
 equipment: []
+nutrition:
+  calories: 375
+  protein: 14.5
+  carbs: 32
+  fat: 21.5
+  fiber: 1.5
+  sugar: 7
+  sodium: 790
 ---
 
 ## Chef's Note
@@ -55,6 +63,6 @@ This German-American pancake gets its dramatic rise from temperature contrast: c
 3.  **The Jump:** Once the oven is ready, carefully remove the hot skillet. Add the 4 tbsp butter and swirl until melted and foaming.
 4.  **Pour:** Immediately pour the batter directly into the center of the sizzling butter. Do not stir.
 5.  **Bake:** Transfer to the oven. Bake for 20 minutes until the pancake is puffed, deep golden brown, and climbing the sides of the pan. **Do not open the oven door** during the first 15 minutes!
-6.  **Finish:** Remove from the oven. The center will collapse slightly—this is mandatory.
+6.  **Finish:** Remove from the oven. The center will collapse slightly - this is mandatory.
 7.  **Serve:** Dust with powdered sugar and squeeze fresh lemon juice over the top for the mandatory **High Note**.
 

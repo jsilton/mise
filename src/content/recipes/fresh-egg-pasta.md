@@ -37,6 +37,14 @@ ingredients:
   - 1 tbsp Extra-Virgin Olive Oil
   - 3/4 tsp Kosher Salt
 origin: Italy
+nutrition:
+  calories: 105
+  protein: 5
+  carbs: 0.5
+  fat: 9.5
+  fiber: 0
+  sugar: 0
+  sodium: 1780
 ---
 
 ## Chef's Note

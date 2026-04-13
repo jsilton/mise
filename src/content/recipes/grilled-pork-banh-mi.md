@@ -48,11 +48,19 @@ leftovers: poor
 equipment: []
 advancePrep:
   - marinate-overnight
+nutrition:
+  calories: 145
+  protein: 11
+  carbs: 18.5
+  fat: 3
+  fiber: 1
+  sugar: 13
+  sodium: 13090
 ---
 
 ## Chef's Note
 
-Banh mi sandwiches are Vietnamese street food defined by contrast: grilled pork against pickled vegetables, cilantro, and creamy mayo on crusty bread. The marinade is garlic, fish sauce, and brown sugar—a workhorse base that caramelizes on the grill. The pickled vegetables are non-negotiable: they're the cooling, cutting element that makes the sandwich balanced.
+Banh mi sandwiches are Vietnamese street food defined by contrast: grilled pork against pickled vegetables, cilantro, and creamy mayo on crusty bread. The marinade is garlic, fish sauce, and brown sugar - a workhorse base that caramelizes on the grill. The pickled vegetables are non-negotiable: they're the cooling, cutting element that makes the sandwich balanced.
 ## Directions
 
 1.  **Marinate:** Whisk fish sauce, sugar, honey, garlic, and lemongrass. Toss with the pork. Let marinate for at least 2 hours (ideally overnight).

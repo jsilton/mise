@@ -41,6 +41,14 @@ leftovers: good
 advancePrep:
   - brine-overnight
 equipment: []
+nutrition:
+  calories: 20
+  protein: 0
+  carbs: 3
+  fat: 1
+  fiber: 0.5
+  sugar: 1.5
+  sodium: 200
 ---
 
 ## Chef's Note
@@ -50,7 +58,7 @@ This is the ultimate holiday centerpiece. The secret to a bird that is succulent
 ## Directions
 
 1.  **The Brine:** Rub turkey with salt, pepper, and lemon zest. Place in a massive bag with half the herbs and garlic. **Refrigerate for 1-3 days**, flipping once.
-2.  **The Dehydrate:** 12 hours before roasting, remove from bag. Pat **bone-dry** and leave uncovered in the fridge—this is mandatory for crispy skin.
+2.  **The Dehydrate:** 12 hours before roasting, remove from bag. Pat **bone-dry** and leave uncovered in the fridge - this is mandatory for crispy skin.
 3.  **Thermal Prep:** Bring turkey to room temp for 1 hour. Preheat oven to 450°F.
 4.  **The Pan:** Pour cider and 1/2 cup wine into the pan. Stuff the cavity with remaining onions, lemon, and garlic. Brush the skin with melted butter.
 5.  **Sear:** Roast breast-side up for 30 minutes. Cover the breast with foil to prevent over-browning.

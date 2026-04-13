@@ -62,6 +62,14 @@ ingredients:
   - 1 tsp Kashmiri Red Chile Powder (or paprika)
   - '2 tbsp Fresh Cilantro, chopped, for garnish'
   - '1 tbsp Lemon Juice, for finishing'
+nutrition:
+  calories: 85
+  protein: 5.5
+  carbs: 16
+  fat: 0.5
+  fiber: 5.5
+  sugar: 3
+  sodium: 60
 ---
 
 ## Chef's Note

@@ -37,6 +37,14 @@ ingredients:
   - Salt and Pepper to taste
 origin: Mexico
 equipment: []
+nutrition:
+  calories: 40
+  protein: 0.5
+  carbs: 2.5
+  fat: 3.5
+  fiber: 0.5
+  sugar: 0.5
+  sodium: 0
 ---
 
 ## Chef's Note
@@ -47,5 +55,5 @@ This Mexican-style quick black bean side transforms canned beans by blooming cum
 
 1.  **Bloom:** Heat oil in a small pot over medium heat. Add the garlic and cumin. Stir for 30 seconds until fragrant.
 2.  **Simmer:** Pour in the beans (including their liquid). Add the oregano.
-3.  **Mash:** Simmer gently for 8-10 minutes. Use the back of a spoon to mash about 10% of the beans against the side of the pot—this thickens the liquid into a rich gravy.
+3.  **Mash:** Simmer gently for 8-10 minutes. Use the back of a spoon to mash about 10% of the beans against the side of the pot - this thickens the liquid into a rich gravy.
 4.  **Finish:** Stir in the lime juice. Season with salt and pepper.

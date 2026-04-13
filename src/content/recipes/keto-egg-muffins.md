@@ -43,6 +43,14 @@ ingredients:
   - '--- Lemon juice ---'
   - '1 Lemon, juiced'
 origin: United States
+nutrition:
+  calories: 80
+  protein: 6
+  carbs: 1
+  fat: 6
+  fiber: 0
+  sugar: 0.5
+  sodium: 80
 ---
 
 ## Chef's Note

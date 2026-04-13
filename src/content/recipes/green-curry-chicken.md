@@ -2,37 +2,67 @@
 title: Thai Green Curry with Chicken
 origin: Thailand
 difficulty: easy
-cookingMethods: [saute, simmer]
-dietary: [gluten-free, dairy-free]
-occasions: [weeknight, comfort-food]
-flavorProfile: [spicy, savory, herbaceous, rich]
-cuisines: [Thai]
+cookingMethods:
+  - saute
+  - simmer
+dietary:
+  - gluten-free
+  - dairy-free
+occasions:
+  - weeknight
+  - comfort-food
+flavorProfile:
+  - spicy
+  - savory
+  - herbaceous
+  - rich
+cuisines:
+  - Thai
 role: main
 vibe: quick
-seasons: [spring, summer, fall, winter]
+seasons:
+  - spring
+  - summer
+  - fall
+  - winter
 nutritionalDensity: moderate
 leftovers: good
-advancePrep: [make-ahead, components-ahead]
-equipment: [wok or large skillet, medium saucepan]
+advancePrep:
+  - make-ahead
+  - components-ahead
+equipment:
+  - wok or large skillet
+  - medium saucepan
 prepTime: 15 min
 cookTime: 25 min
 totalTime: 40 min
 servings: '4'
-pairsWith: [coconut-jasmine-rice, steamed-white-rice, smashed-cucumber-salad]
+pairsWith:
+  - coconut-jasmine-rice
+  - steamed-white-rice
+  - smashed-cucumber-salad
 ingredients:
   - '1.5 lbs Boneless Skinless Chicken Thighs, cut into 1-inch pieces'
-  - '1 can (14 oz) Full-Fat Coconut Milk'
-  - '3-4 tbsp Green Curry Paste (Mae Ploy or Maesri)'
-  - '1 tbsp Coconut Oil or Neutral Oil'
+  - 1 can (14 oz) Full-Fat Coconut Milk
+  - 3-4 tbsp Green Curry Paste (Mae Ploy or Maesri)
+  - 1 tbsp Coconut Oil or Neutral Oil
   - '1 medium Japanese Eggplant, halved lengthwise and sliced 1/2-inch thick'
   - '1 Red Bell Pepper, sliced into strips'
   - '1 cup Thai Basil Leaves, loosely packed'
   - '4 Kaffir Lime Leaves, torn (or zest of 1 lime)'
   - '1 tbsp Fish Sauce, plus more to taste'
-  - '1 tsp Palm Sugar (or light brown sugar)'
+  - 1 tsp Palm Sugar (or light brown sugar)
   - '2 Thai Bird Chiles, lightly smashed (optional, for extra heat)'
   - '1/2 cup Bamboo Shoots, drained'
-  - '1 tbsp Fresh Lime Juice'
+  - 1 tbsp Fresh Lime Juice
+nutrition:
+  calories: 80
+  protein: 3.5
+  carbs: 10
+  fat: 4
+  fiber: 3
+  sugar: 3.5
+  sodium: 10
 ---
 
 ## Chef's Note

@@ -42,6 +42,14 @@ pairsWith:
   - avocado-kale-caesar-salad
   - bakery-style-chocolate-chip-muffins
   - banana-egg-oat-pancakes
+nutrition:
+  calories: 720
+  protein: 13.5
+  carbs: 99
+  fat: 32.5
+  fiber: 13.5
+  sugar: 27.5
+  sodium: 200
 ---
 
 ## Chef's Note

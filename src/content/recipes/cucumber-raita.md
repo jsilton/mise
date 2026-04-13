@@ -2,30 +2,56 @@
 title: Cucumber Raita
 origin: India
 difficulty: easy
-cookingMethods: [no-cook]
-dietary: [vegetarian, gluten-free, nut-free]
-occasions: [weeknight, quick-lunch]
-flavorProfile: [spicy, sweet]
-cuisines: [Indian]
+cookingMethods:
+  - no-cook
+dietary:
+  - vegetarian
+  - gluten-free
+  - nut-free
+occasions:
+  - weeknight
+  - quick-lunch
+flavorProfile:
+  - spicy
+  - sweet
+cuisines:
+  - Indian
 role: side
 vibe: quick
-seasons: [spring, summer, fall, winter]
+seasons:
+  - spring
+  - summer
+  - fall
+  - winter
 nutritionalDensity: light
 leftovers: poor
-advancePrep: [make-ahead]
-equipment: [mixing-bowl, box-grater]
-pairsWith: [coconut-chicken-curry, homemade-naan]
+advancePrep:
+  - make-ahead
+equipment:
+  - mixing-bowl
+  - box-grater
+pairsWith:
+  - coconut-chicken-curry
+  - homemade-naan
 prepTime: 10 min
 cookTime: 0 min
 totalTime: 10 min
-servings: '2 cups'
+servings: 2 cups
 ingredients:
-  - '2 cups Plain Greek Yogurt (Full fat)'
-  - '1 large English Cucumber'
+  - 2 cups Plain Greek Yogurt (Full fat)
+  - 1 large English Cucumber
   - '1 tsp Cumin Seeds, toasted and crushed'
   - '1/4 cup Fresh Cilantro or Mint, chopped'
-  - '1/2 tsp Kosher Salt'
-  - 'Pinch of Sugar'
+  - 1/2 tsp Kosher Salt
+  - Pinch of Sugar
+nutrition:
+  calories: 175
+  protein: 24.5
+  carbs: 19.5
+  fat: 0.5
+  fiber: 1
+  sugar: 12
+  sodium: 1240
 ---
 
 ## Chef's Note

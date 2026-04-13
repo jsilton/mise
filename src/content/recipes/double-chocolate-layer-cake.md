@@ -53,6 +53,14 @@ ingredients:
   - 2 tbsp Light Corn Syrup for gloss
   - '1/4 cup Unsalted Butter, cubed'
 origin: United States
+nutrition:
+  calories: 1235
+  protein: 8
+  carbs: 84
+  fat: 103
+  fiber: 5
+  sugar: 54
+  sodium: 890
 ---
 
 ## Chef's Note

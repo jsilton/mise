@@ -46,11 +46,19 @@ ingredients:
   - 4 sprigs Fresh Rosemary (whole)
   - '3 cloves Garlic, smashed'
 origin: United States
+nutrition:
+  calories: 45
+  protein: 2.5
+  carbs: 2
+  fat: 3.5
+  fiber: 0.5
+  sugar: 0
+  sodium: 580
 ---
 
 ## Chef's Note
 
-Wrapping lean pork tenderloins in maple bacon prevents them from drying out—the bacon fat renders and bastes the meat as it roasts. Marinating in Dijon mustard, garlic, and rosemary for an hour before cooking tenderizes the meat while creating a flavorful crust. Pulling the pork at 145°F ensures a blush-pink center; the 10-minute rest allows juices to redistribute without overcooking.
+Wrapping lean pork tenderloins in maple bacon prevents them from drying out - the bacon fat renders and bastes the meat as it roasts. Marinating in Dijon mustard, garlic, and rosemary for an hour before cooking tenderizes the meat while creating a flavorful crust. Pulling the pork at 145°F ensures a blush-pink center; the 10-minute rest allows juices to redistribute without overcooking.
 
 ## Directions
 

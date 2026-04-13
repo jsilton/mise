@@ -46,11 +46,19 @@ pairsWith:
   - apple-pie
   - blackout-chocolate-cake
   - classic-peach-ice-cream
+nutrition:
+  calories: 450
+  protein: 5.5
+  carbs: 48
+  fat: 26.5
+  fiber: 0.5
+  sugar: 46.5
+  sodium: 440
 ---
 
 ## Chef's Note
 
-For fruit ice cream without icy chunks, macerate peaches in lemon juice and sugar for 30 minutes before mashing—this draws out natural juices and creates syrup that prevents fruit from freezing solid. Tempering egg yolks with hot cream creates rich, stable custard that provides silky mouthfeel. Add mashed fruit in the final 30 seconds of churning to maintain texture.
+For fruit ice cream without icy chunks, macerate peaches in lemon juice and sugar for 30 minutes before mashing - this draws out natural juices and creates syrup that prevents fruit from freezing solid. Tempering egg yolks with hot cream creates rich, stable custard that provides silky mouthfeel. Add mashed fruit in the final 30 seconds of churning to maintain texture.
 
 ## Directions
 

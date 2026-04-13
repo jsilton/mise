@@ -17,7 +17,7 @@ bestFor: [friday, saturday, sunday]
 
 ## Meal Overview
 
-A restaurant-quality dinner that's surprisingly easy — herb-crusted pork tenderloin, seared and roasted to juicy perfection. Balsamic brussels sprouts provide sweet-tangy depth, and garlic potatoes round out the plate. Impressive enough for guests.
+A restaurant-quality dinner that's surprisingly easy  -  herb-crusted pork tenderloin, seared and roasted to juicy perfection. Balsamic brussels sprouts provide sweet-tangy depth, and garlic potatoes round out the plate. Impressive enough for guests.
 
 ## Cooking Strategy
 
@@ -31,6 +31,6 @@ A restaurant-quality dinner that's surprisingly easy — herb-crusted pork tende
 
 ## Notes
 
-- Rest the pork — the carryover cooking brings it to perfect doneness
+- Rest the pork  -  the carryover cooking brings it to perfect doneness
 - Balsamic glaze drizzled over the sprouts at the end
 - A pan sauce from the pork drippings is a wonderful addition

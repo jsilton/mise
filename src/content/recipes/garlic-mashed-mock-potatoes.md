@@ -43,6 +43,14 @@ ingredients:
   - Salt and Black Pepper
   - 'Fresh Chives, chopped'
 origin: United States
+nutrition:
+  calories: 95
+  protein: 1
+  carbs: 2
+  fat: 10
+  fiber: 0.5
+  sugar: 0.5
+  sodium: 80
 ---
 
 ## Chef's Note

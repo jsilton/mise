@@ -41,11 +41,19 @@ ingredients:
   - 1/2 cup Whole Milk or Cream (warm)
   - 1/2 tsp Garlic Powder
   - Sliced Green Onions for garnish
+nutrition:
+  calories: 200
+  protein: 3.5
+  carbs: 17.5
+  fat: 13.5
+  fiber: 1.5
+  sugar: 5
+  sodium: 110
 ---
 
 ## Chef's Note
 
-White miso adds umami depth to potatoes without overshadowing them—it's a bridge flavor that makes the potato taste more like itself. The miso-butter-milk mixture must be warm when you add it so the potatoes stay fluffy rather than glueing together. This is a staple in Japanese home cooking alongside roasted fish or curry, where it provides creamy contrast without competing for attention.
+White miso adds umami depth to potatoes without overshadowing them - it's a bridge flavor that makes the potato taste more like itself. The miso-butter-milk mixture must be warm when you add it so the potatoes stay fluffy rather than glueing together. This is a staple in Japanese home cooking alongside roasted fish or curry, where it provides creamy contrast without competing for attention.
 ## Directions
 
 1.  **Boil:** Place potatoes in a pot of cold salted water. Bring to a boil and cook for 15-20 minutes until very tender.

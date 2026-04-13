@@ -37,6 +37,14 @@ pairsWith:
   - chili
   - chipotle-pork-and-sweet-corn-tamale-bowls
   - crispy-black-bean-tacos
+nutrition:
+  calories: 40
+  protein: 1.5
+  carbs: 14
+  fat: 0.5
+  fiber: 4
+  sugar: 2
+  sodium: 2330
 ---
 
 ## Chef's Note

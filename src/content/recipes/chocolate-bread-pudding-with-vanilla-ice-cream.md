@@ -40,11 +40,19 @@ pairsWith:
   - apple-pie
   - babys-first-smash-cake
   - best-cinnamon-roll-recipe-cinnabon-copycat
+nutrition:
+  calories: 685
+  protein: 11
+  carbs: 58.5
+  fat: 44.5
+  fiber: 4.5
+  sugar: 35.5
+  sodium: 340
 ---
 
 ## Chef's Note
 
-Bread pudding is a way to honor stale bread—brioche is rich and tender, so it soaks up custard without becoming mushy. The double chocolate (bittersweet and white) creates complexity: dark chocolate for depth, white chocolate for sweetness. The 15-minute soak before baking is mandatory—it lets the bread fully hydrate so the custard distributes evenly and the whole thing sets together.
+Bread pudding is a way to honor stale bread - brioche is rich and tender, so it soaks up custard without becoming mushy. The double chocolate (bittersweet and white) creates complexity: dark chocolate for depth, white chocolate for sweetness. The 15-minute soak before baking is mandatory - it lets the bread fully hydrate so the custard distributes evenly and the whole thing sets together.
 ## Directions
 
 1.  **Prep:** Preheat oven to 350°F. Spray eight 6-oz ramekins (or a 9x13 baking dish) with non-stick spray.

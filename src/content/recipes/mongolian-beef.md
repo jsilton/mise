@@ -44,6 +44,14 @@ ingredients:
   - '5 Dried Red Chilies (optional, for heat)'
   - Neutral Oil for frying
 origin: China
+nutrition:
+  calories: 410
+  protein: 6.5
+  carbs: 90
+  fat: 3.5
+  fiber: 0.5
+  sugar: 55.5
+  sodium: 4030
 ---
 
 ## Chef's Note

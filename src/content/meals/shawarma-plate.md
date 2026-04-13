@@ -20,7 +20,7 @@ bestFor: [tuesday, wednesday, thursday]
 
 ## Meal Overview
 
-A Middle Eastern feast centered on warmly spiced chicken shawarma. The tahini sauce ties everything together — drizzled over the chicken and roasted cauliflower. The fattoush salad provides crispy, acidic contrast to the rich, spiced meat.
+A Middle Eastern feast centered on warmly spiced chicken shawarma. The tahini sauce ties everything together  -  drizzled over the chicken and roasted cauliflower. The fattoush salad provides crispy, acidic contrast to the rich, spiced meat.
 
 ## Cooking Strategy
 

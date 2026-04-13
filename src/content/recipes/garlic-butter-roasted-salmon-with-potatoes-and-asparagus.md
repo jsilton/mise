@@ -43,6 +43,14 @@ ingredients:
   - 2 tbsp Extra-Virgin Olive Oil (divided)
   - Salt and Black Pepper
   - 'Fresh Parsley, chopped'
+nutrition:
+  calories: 485
+  protein: 40
+  carbs: 23
+  fat: 28
+  fiber: 9
+  sugar: 6.5
+  sodium: 300
 ---
 
 ## Chef's Note

@@ -45,11 +45,19 @@ seasons:
 nutritionalDensity: moderate
 leftovers: poor
 equipment: []
+nutrition:
+  calories: 585
+  protein: 4
+  carbs: 8.5
+  fat: 60
+  fiber: 1.5
+  sugar: 4
+  sodium: 610
 ---
 
 ## Chef's Note
 
-Mayonnaise on the bread's exterior creates a more evenly golden crust than butter—mayo's higher smoke point prevents burning and delivers uniform browning. For the soup, simmering San Marzano tomatoes with heavy cream before blending creates a velvety texture far superior to thin, watery versions. Sliced avocado inside the sandwich provides creamy contrast to sharp cheese.
+Mayonnaise on the bread's exterior creates a more evenly golden crust than butter - mayo's higher smoke point prevents burning and delivers uniform browning. For the soup, simmering San Marzano tomatoes with heavy cream before blending creates a velvety texture far superior to thin, watery versions. Sliced avocado inside the sandwich provides creamy contrast to sharp cheese.
 
 ## Directions
 

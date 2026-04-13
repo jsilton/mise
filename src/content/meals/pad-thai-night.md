@@ -17,7 +17,7 @@ bestFor: [tuesday, wednesday, thursday]
 
 ## Meal Overview
 
-Thailand's most famous noodle dish — tamarind-sweet, fish-sauce-savory, with lime and peanut crunch. The cucumber salad provides a cool, refreshing counterpoint to the warm, caramelized noodles. Once everything is prepped, it comes together in minutes.
+Thailand's most famous noodle dish  -  tamarind-sweet, fish-sauce-savory, with lime and peanut crunch. The cucumber salad provides a cool, refreshing counterpoint to the warm, caramelized noodles. Once everything is prepped, it comes together in minutes.
 
 ## Cooking Strategy
 
@@ -30,6 +30,6 @@ Thailand's most famous noodle dish — tamarind-sweet, fish-sauce-savory, with l
 
 ## Notes
 
-- Tamarind paste is non-negotiable — it's the soul of pad thai
-- Prep everything before the wok gets hot — it cooks fast
+- Tamarind paste is non-negotiable  -  it's the soul of pad thai
+- Prep everything before the wok gets hot  -  it cooks fast
 - Crush the peanuts coarsely for the best texture

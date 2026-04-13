@@ -52,6 +52,14 @@ ingredients:
   - 1 tbsp Sriracha
   - 1 tbsp Warm Water
   - '2 tbsp Crushed Roasted Peanuts, for garnish'
+nutrition:
+  calories: 385
+  protein: 34
+  carbs: 40.5
+  fat: 9.5
+  fiber: 3.5
+  sugar: 19.5
+  sodium: 1630
 ---
 
 ## Chef's Note

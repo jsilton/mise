@@ -47,6 +47,14 @@ ingredients:
   - 2 cups Semisweet Chocolate Chips (60% cacao)
   - 1 cup Toasted Sunflower Seeds (Nut-Free option)
 origin: United States
+nutrition:
+  calories: 235
+  protein: 4
+  carbs: 37.5
+  fat: 8
+  fiber: 3
+  sugar: 27
+  sodium: 170
 ---
 
 ## Chef's Note

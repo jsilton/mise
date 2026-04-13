@@ -37,6 +37,14 @@ seasons:
 nutritionalDensity: moderate
 leftovers: good
 equipment: []
+nutrition:
+  calories: 510
+  protein: 45.5
+  carbs: 6
+  fat: 35
+  fiber: 1
+  sugar: 2
+  sodium: 920
 ---
 
 ## Chef's Note
@@ -52,4 +60,4 @@ Traditional Mexican enchiladas briefly fry corn tortillas before dipping them in
 5.  **Melt:** Bake for 15-20 minutes until the cheese is bubbly and the edges of the tortillas are slightly crisp.
 6.  **Serve:** Top with cold sour cream and cilantro to balance the heat.
 
-**Rest:** Let Shredded Chicken rest for 5 minutes before slicing or serving — the juices redistribute and every piece stays moist.
+**Rest:** Let Shredded Chicken rest for 5 minutes before slicing or serving  -  the juices redistribute and every piece stays moist.

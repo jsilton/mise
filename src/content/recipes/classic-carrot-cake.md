@@ -57,11 +57,19 @@ ingredients:
   - 4 cups Powdered Sugar
   - 2 tsp Vanilla Extract
 origin: United States
+nutrition:
+  calories: 880
+  protein: 6.5
+  carbs: 118
+  fat: 46.5
+  fiber: 1
+  sugar: 104
+  sodium: 790
 ---
 
 ## Chef's Note
 
-This Mercer Street classic is elevated using Stella Parks' (Bravetart) brown butter technique. By replacing generic vegetable oil with toasted brown butter, you inject a deep, nutty complexity that perfectly complements the carrots and spices. The apple syrup is the final secret—it is brushed onto the warm cake layers to ensure they stay moist and add a subtle tartness that balances the rich cream cheese frosting.
+This Mercer Street classic is elevated using Stella Parks' (Bravetart) brown butter technique. By replacing generic vegetable oil with toasted brown butter, you inject a deep, nutty complexity that perfectly complements the carrots and spices. The apple syrup is the final secret - it is brushed onto the warm cake layers to ensure they stay moist and add a subtle tartness that balances the rich cream cheese frosting.
 
 ## Directions
 

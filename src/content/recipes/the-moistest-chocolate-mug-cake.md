@@ -40,16 +40,24 @@ pairsWith:
   - apple-pie
   - babys-first-smash-cake
   - best-cinnamon-roll-recipe-cinnabon-copycat
+nutrition:
+  calories: 815
+  protein: 15.5
+  carbs: 127
+  fat: 30
+  fiber: 7
+  sugar: 25.5
+  sodium: 2820
 ---
 
 ## Chef's Note
 
-Mug cakes are a modern microwave technique, but this one works because it respects the physics: oil keeps the crumb moist, cocoa powder blooms with milk, and a hazelnut center stays molten while the surrounding cake sets. Seventy seconds is precise because microwave power varies—you're aiming for a cake that rises high, sinks slightly, then holds that barely-set center.
+Mug cakes are a modern microwave technique, but this one works because it respects the physics: oil keeps the crumb moist, cocoa powder blooms with milk, and a hazelnut center stays molten while the surrounding cake sets. Seventy seconds is precise because microwave power varies - you're aiming for a cake that rises high, sinks slightly, then holds that barely-set center.
 ## Directions
 
 1.  **Dry Mix:** In a large (14 oz) microwave-safe mug, whisk flour, cocoa, sugar, baking powder, and salt.
 2.  **Emulsify:** Add the milk and oil. Whisk with a fork until no flour pockets remain and the batter is glossy.
 3.  **The Core:** Drop the hazelnut spread into the center of the batter. **Do not push it down.**
-4.  **Cook:** Microwave on **High for 70 seconds**. (The cake will riseVertical and then sink slightly—this is the Texture setting).
+4.  **Cook:** Microwave on **High for 70 seconds**. (The cake will riseVertical and then sink slightly - this is the Texture setting).
 5.  **The Finish:** Let stand for 1 minute before eating. This allows the crumb to set and the center to become molten.
 6.  **Serve:** Dust with a tiny bit of powdered sugar if feeling fancy.

@@ -45,6 +45,14 @@ ingredients:
   - '1/4 cup Green Bell Pepper, diced'
   - '1 Scallion, chopped'
 origin: China
+nutrition:
+  calories: 770
+  protein: 90
+  carbs: 46.5
+  fat: 27
+  fiber: 8.5
+  sugar: 3.5
+  sodium: 2830
 ---
 
 ## Chef's Note

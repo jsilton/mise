@@ -38,16 +38,24 @@ pairsWith:
   - grandmommys-pound-cake
   - red-velvet-cupcakes
   - apple-cider-cream-pie
+nutrition:
+  calories: 2195
+  protein: 33
+  carbs: 158.5
+  fat: 173
+  fiber: 21.5
+  sugar: 135.5
+  sodium: 1300
 ---
 
 ## Chef's Note
 
-Southern pecan pie is built on a simple syrup custard that's meant to barely set—you're aiming for that wobbling center that firms up completely as it cools. Karo syrup is traditional for a reason: it creates the right balance of sweetness and texture without crystallizing. Don't skip the cooling step; this pie needs at least two hours to develop its proper structure.
+Southern pecan pie is built on a simple syrup custard that's meant to barely set - you're aiming for that wobbling center that firms up completely as it cools. Karo syrup is traditional for a reason: it creates the right balance of sweetness and texture without crystallizing. Don't skip the cooling step; this pie needs at least two hours to develop its proper structure.
 ## Directions
 
 1.  **Prep:** Preheat oven to 350°F. Place the unbaked pie shells on a baking sheet.
 2.  **The Mix:** In a large bowl, whisk together the sugar, Karo syrup, and slightly beaten eggs until well combined.
 3.  **The Emulsion:** Slowly whisk in the melted butter, vanilla, and salt until the filling is glossy and uniform.
-4.  **Layer:** Divide the pecans evenly between the two pie shells. Pour the syrup mixture over the pecans—they will naturally float to the top to create the Crunch layer.
+4.  **Layer:** Divide the pecans evenly between the two pie shells. Pour the syrup mixture over the pecans - they will naturally float to the top to create the Crunch layer.
 5.  **Bake:** Bake for 40-45 minutes until the edges are set and the center has a slight, stable wobble (the Texture).
 6.  **Cool:** Let cool completely (at least 2 hours) before slicing. This is mandatory for the structure to set.

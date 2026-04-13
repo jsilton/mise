@@ -58,6 +58,14 @@ ingredients:
   - '1 tsp Fresh Ginger, grated'
   - '1 clove Garlic, finely grated'
   - 1/2 tsp Sriracha or Chili Garlic Sauce (optional)
+nutrition:
+  calories: 310
+  protein: 12
+  carbs: 18.5
+  fat: 24
+  fiber: 5
+  sugar: 7.5
+  sodium: 490
 ---
 
 ## Chef's Note

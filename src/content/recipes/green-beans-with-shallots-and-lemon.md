@@ -42,6 +42,14 @@ ingredients:
   - '1 Lemon, zested and juiced (The Finishing Touch)'
   - Salt and Black Pepper
 origin: United States
+nutrition:
+  calories: 60
+  protein: 0.5
+  carbs: 8
+  fat: 3.5
+  fiber: 1
+  sugar: 5.5
+  sodium: 0
 ---
 
 ## Chef's Note

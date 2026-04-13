@@ -43,6 +43,14 @@ ingredients:
   - 1/2 tsp Baking Soda
   - 1/2 cup Chocolate Chips (Dark chocolate preferred)
 origin: United States
+nutrition:
+  calories: 255
+  protein: 6
+  carbs: 44.5
+  fat: 6.5
+  fiber: 4
+  sugar: 31
+  sodium: 200
 ---
 
 ## Chef's Note

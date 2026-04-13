@@ -37,6 +37,14 @@ seasons:
 nutritionalDensity: moderate
 leftovers: good
 equipment: []
+nutrition:
+  calories: 45
+  protein: 2
+  carbs: 0.5
+  fat: 4
+  fiber: 0
+  sugar: 0.5
+  sodium: 30
 ---
 
 ## Chef's Note
@@ -48,6 +56,6 @@ This Southern potluck favorite combines creamed corn for moisture with whole ker
 1.  **Prep:** Preheat oven to 350°F. Lightly grease a 9x13 or 2-quart baking dish.
 2.  **Wet Mix:** In a large bowl, whisk together the melted butter, eggs, and sour cream until smooth.
 3.  **The Corn:** Stir in the cream-style corn and the drained whole kernel corn. If you want a "High Note" kick, fold in the diced green chiles now.
-4.  **Fold:** Sprinkle the corn bread mix over the wet ingredients. Fold gently until **just combined**—do not over-mix.
+4.  **Fold:** Sprinkle the corn bread mix over the wet ingredients. Fold gently until **just combined** - do not over-mix.
 5.  **Bake:** Pour the batter into the prepared dish. If using cheese, sprinkle it over the top now.
 6.  **Finish:** Bake for 35-45 minutes until the center is set and the edges are golden brown. Let sit for 5 minutes before serving to allow the internal structure to firm up.

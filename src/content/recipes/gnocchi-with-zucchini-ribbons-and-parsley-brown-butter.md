@@ -44,6 +44,14 @@ ingredients:
   - 1/4 tsp Ground Nutmeg (The "High Note")
   - Salt and Black Pepper
 origin: Italy
+nutrition:
+  calories: 90
+  protein: 1.5
+  carbs: 8.5
+  fat: 6
+  fiber: 1.5
+  sugar: 1.5
+  sodium: 50
 ---
 
 ## Chef's Note

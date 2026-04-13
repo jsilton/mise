@@ -47,11 +47,19 @@ seasons:
 nutritionalDensity: moderate
 leftovers: good
 equipment: []
+nutrition:
+  calories: 350
+  protein: 11
+  carbs: 48.5
+  fat: 15
+  fiber: 3
+  sugar: 10.5
+  sodium: 50
 ---
 
 ## Chef's Note
 
-Miso-glazed tofu is a Japanese izakaya staple adapted for weeknight cooking — the miso-lemon-maple glaze hits all five taste receptors at once (salt, sweet, acid, umami, and a touch of bitter from the char). The key is pressing the tofu bone-dry and dredging in cornstarch before frying — this creates the shatteringly crisp shell that holds the glaze without going soggy. Make the sauce first and have it ready; once the tofu is fried, you have about 90 seconds before the coating starts to soften.
+Miso-glazed tofu is a Japanese izakaya staple adapted for weeknight cooking  -  the miso-lemon-maple glaze hits all five taste receptors at once (salt, sweet, acid, umami, and a touch of bitter from the char). The key is pressing the tofu bone-dry and dredging in cornstarch before frying  -  this creates the shatteringly crisp shell that holds the glaze without going soggy. Make the sauce first and have it ready; once the tofu is fried, you have about 90 seconds before the coating starts to soften.
 ## Directions
 
 1.  **The Sauce:** In a small bowl, whisk miso, lemon juice, maple syrup, 1 tbsp cornstarch, and hot water until smooth.

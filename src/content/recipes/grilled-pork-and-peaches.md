@@ -39,6 +39,14 @@ ingredients:
   - '4 tbsp Unsalted Butter, diced'
   - Salt and Black Pepper
 origin: United States
+nutrition:
+  calories: 810
+  protein: 44.5
+  carbs: 2
+  fat: 69
+  fiber: 1
+  sugar: 0
+  sodium: 650
 ---
 
 ## Chef's Note

@@ -48,6 +48,14 @@ pairsWith:
   - fresh-egg-pasta
   - green-beans-with-shallots-and-lemon
 origin: Italy
+nutrition:
+  calories: 900
+  protein: 41
+  carbs: 24.5
+  fat: 73
+  fiber: 1
+  sugar: 0
+  sodium: 1030
 ---
 
 dietary: []

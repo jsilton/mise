@@ -44,6 +44,14 @@ ingredients:
   - '8 Fresh Shiitake Mushrooms, sliced'
   - '1 bunch Baby Bok Choy, trimmed'
   - Neutral Oil
+nutrition:
+  calories: 555
+  protein: 27.5
+  carbs: 88
+  fat: 11.5
+  fiber: 3.5
+  sugar: 3
+  sodium: 2020
 ---
 
 ## Chef's Note

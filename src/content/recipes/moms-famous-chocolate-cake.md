@@ -53,6 +53,14 @@ pairsWith:
   - apple-pie
   - babys-first-smash-cake
   - best-cinnamon-roll-recipe-cinnabon-copycat
+nutrition:
+  calories: 590
+  protein: 8
+  carbs: 57.5
+  fat: 39
+  fiber: 2
+  sugar: 40
+  sodium: 470
 ---
 
 ## Chef's Note

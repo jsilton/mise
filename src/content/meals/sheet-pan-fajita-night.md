@@ -19,7 +19,7 @@ bestFor: [monday, tuesday, wednesday]
 
 ## Meal Overview
 
-Sheet pan fajitas are the ultimate weeknight recovery meal — minimal prep, one pan cleanup, maximum flavor. While the fajitas roast, you have time to cook rice and warm beans. Set out warm tortillas and let everyone build their own.
+Sheet pan fajitas are the ultimate weeknight recovery meal  -  minimal prep, one pan cleanup, maximum flavor. While the fajitas roast, you have time to cook rice and warm beans. Set out warm tortillas and let everyone build their own.
 
 ## Cooking Strategy
 

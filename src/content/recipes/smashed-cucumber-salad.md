@@ -44,6 +44,14 @@ ingredients:
   - 1 teaspoon chili crisp or chili oil (optional)
   - 'Toasted sesame seeds, for garnish'
 origin: China
+nutrition:
+  calories: 95
+  protein: 1.5
+  carbs: 5
+  fat: 8
+  fiber: 0.5
+  sugar: 2.5
+  sodium: 860
 ---
 
 ## Chef's Note

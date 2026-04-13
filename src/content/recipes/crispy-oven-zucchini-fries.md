@@ -45,11 +45,19 @@ ingredients:
   - 1 tsp Garlic Powder
   - 1/2 tsp Dried Italian Seasoning
   - 2 tbsp Olive Oil for brushing
+nutrition:
+  calories: 260
+  protein: 9.5
+  carbs: 30.5
+  fat: 11.5
+  fiber: 2
+  sugar: 1
+  sodium: 680
 ---
 
 ## Chef's Note
 
-Zucchini fries are the gateway vegetable for kids who resist anything green—they look like legitimate fries but deliver actual nutrition. The trick is removing excess moisture (zucchini is 95% water) by salting the cut pieces and letting them sit. The panko coating must be toasted golden in the oven while brushed with oil, not baked from wet flour. This creates the crispy exterior that keeps kids coming back.
+Zucchini fries are the gateway vegetable for kids who resist anything green - they look like legitimate fries but deliver actual nutrition. The trick is removing excess moisture (zucchini is 95% water) by salting the cut pieces and letting them sit. The panko coating must be toasted golden in the oven while brushed with oil, not baked from wet flour. This creates the crispy exterior that keeps kids coming back.
 
 ## Directions
 

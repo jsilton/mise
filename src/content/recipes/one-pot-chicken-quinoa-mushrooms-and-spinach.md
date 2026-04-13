@@ -46,6 +46,14 @@ ingredients:
   - '--- Lemon juice ---'
   - '1 Lemon, juiced'
 origin: United States
+nutrition:
+  calories: 115
+  protein: 5
+  carbs: 12
+  fat: 6
+  fiber: 2
+  sugar: 2
+  sodium: 310
 ---
 
 ## Chef's Note
@@ -59,8 +67,8 @@ This one-pot meal brings together protein, whole grains, and vegetables in a sin
 3.  **The Simmer:** Stir in the dry quinoa and broth. Bring to a boil.
 4.  **Nestle:** Place the chicken thighs back into the pan, pressing them down into the quinoa. Cover tightly.
 5.  **Cook:** Reduce heat to low and simmer for 15-20 minutes until the liquid is fully absorbed and the chicken is cooked through.
-6.  **Wilt:** Remove from heat. Gently stir in the fresh spinach—it will collapse in the residual heat.
+6.  **Wilt:** Remove from heat. Gently stir in the fresh spinach - it will collapse in the residual heat.
 7.  **Serve:** Fluff the quinoa with a fork and serve immediately.
 
 
-**Rest:** Let 6 Chicken rest for 5 minutes before slicing or serving — the juices redistribute and every piece stays moist.
+**Rest:** Let 6 Chicken rest for 5 minutes before slicing or serving  -  the juices redistribute and every piece stays moist.

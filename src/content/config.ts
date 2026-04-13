@@ -36,6 +36,19 @@ const recipesCollection = defineCollection({
     // Pairing suggestions
     pairsWith: z.array(z.string()).optional(), // Suggested complementary dishes (must be valid recipe slugs)
 
+    // Nutrition (estimated per serving)
+    nutrition: z
+      .object({
+        calories: z.number(),
+        protein: z.number(),
+        carbs: z.number(),
+        fat: z.number(),
+        fiber: z.number(),
+        sugar: z.number(),
+        sodium: z.number(),
+      })
+      .optional(),
+
     ingredients: z.array(z.string()).optional(),
   }),
 });

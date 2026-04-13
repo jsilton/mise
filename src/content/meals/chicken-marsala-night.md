@@ -23,9 +23,9 @@ Classic Italian-American comfort: pounded chicken thighs in a rich Marsala wine 
 
 ## The Menu
 
-- **Chicken Marsala** — tender chicken in mushroom Marsala sauce
-- **Perfect Mashed Potatoes** — creamy base for the sauce
-- **Green Beans with Shallots and Lemon** — bright, fresh contrast
+- **Chicken Marsala**  -  tender chicken in mushroom Marsala sauce
+- **Perfect Mashed Potatoes**  -  creamy base for the sauce
+- **Green Beans with Shallots and Lemon**  -  bright, fresh contrast
 
 ## Quick Timeline
 

@@ -55,6 +55,14 @@ ingredients:
   - 7 Dried Chinese Red Chilies
   - Peanut Oil (for shallow frying)
 origin: China
+nutrition:
+  calories: 250
+  protein: 15
+  carbs: 31.5
+  fat: 11
+  fiber: 5
+  sugar: 12
+  sodium: 820
 ---
 
 ## Chef's Note

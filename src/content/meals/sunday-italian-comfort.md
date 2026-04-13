@@ -19,7 +19,7 @@ bestFor: [sunday]
 
 ## Meal Overview
 
-The quintessential Sunday dinner—slow-cooked bolognese over fresh pasta with crusty garlic bread and a bright salad to cut through the richness. This is a project meal, perfect for a lazy afternoon when you want the house to smell amazing.
+The quintessential Sunday dinner - slow-cooked bolognese over fresh pasta with crusty garlic bread and a bright salad to cut through the richness. This is a project meal, perfect for a lazy afternoon when you want the house to smell amazing.
 
 ## Cooking Strategy
 
@@ -33,6 +33,6 @@ The quintessential Sunday dinner—slow-cooked bolognese over fresh pasta with c
 
 ## Notes
 
-- The bolognese freezes beautifully—make a double batch
+- The bolognese freezes beautifully - make a double batch
 - If short on time, use dried pasta (but fresh is worth the effort)
 - A good Chianti or Sangiovese pairs perfectly

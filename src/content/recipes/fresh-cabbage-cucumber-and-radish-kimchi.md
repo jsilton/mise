@@ -49,11 +49,19 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 equipment: []
+nutrition:
+  calories: 55
+  protein: 1
+  carbs: 4
+  fat: 3.5
+  fiber: 0.5
+  sugar: 2
+  sodium: 10290
 ---
 
 ## Chef's Note
 
-This is fresh kimchi ready to eat immediately. The key to crisp, non-watery kimchi is salting the vegetables heavily for an hour to draw out excess moisture that would otherwise dilute the spice paste. Using three vegetables—cabbage, cucumber, and daikon—ensures a complex texture in every bite. Always use gochugaru; the specific smoky heat is essential to authentic kimchi.
+This is fresh kimchi ready to eat immediately. The key to crisp, non-watery kimchi is salting the vegetables heavily for an hour to draw out excess moisture that would otherwise dilute the spice paste. Using three vegetables - cabbage, cucumber, and daikon - ensures a complex texture in every bite. Always use gochugaru; the specific smoky heat is essential to authentic kimchi.
 
 ## Directions
 

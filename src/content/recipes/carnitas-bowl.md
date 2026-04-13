@@ -55,11 +55,19 @@ seasons:
 nutritionalDensity: moderate
 leftovers: excellent
 equipment: []
+nutrition:
+  calories: 1070
+  protein: 57
+  carbs: 24.5
+  fat: 83.5
+  fiber: 4.5
+  sugar: 7
+  sodium: 2590
 ---
 
 ## Chef's Note
 
-True carnitas from Michoacán are braised low and slow, then crisped to create edges that shatter against tender, pull-apart meat. This technique packs pork tightly in a dish so it braises in its own rendered fat—no vat of lard required. The double-broil finish is non-negotiable: broil, stir, broil again. For a faster weeknight version using ground pork, see [Chipotle Pork Bowls](/mise/recipes/chipotle-pork-and-sweet-corn-tamale-bowls).
+True carnitas from Michoacán are braised low and slow, then crisped to create edges that shatter against tender, pull-apart meat. This technique packs pork tightly in a dish so it braises in its own rendered fat - no vat of lard required. The double-broil finish is non-negotiable: broil, stir, broil again. For a faster weeknight version using ground pork, see [Chipotle Pork Bowls](/mise/recipes/chipotle-pork-and-sweet-corn-tamale-bowls).
 
 ## Directions
 

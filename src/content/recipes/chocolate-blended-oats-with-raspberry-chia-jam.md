@@ -46,6 +46,14 @@ ingredients:
   - 1/8 tsp Sea Salt
   - '2 oz Dark Chocolate, melted'
 origin: United States
+nutrition:
+  calories: 375
+  protein: 10.5
+  carbs: 80
+  fat: 2
+  fiber: 3.5
+  sugar: 51
+  sodium: 610
 ---
 
 ## Chef's Note

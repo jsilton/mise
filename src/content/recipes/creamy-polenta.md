@@ -2,31 +2,56 @@
 title: Creamy Polenta
 origin: Italy
 difficulty: intermediate
-cookingMethods: [simmer]
-dietary: [vegetarian, gluten-free]
-occasions: [comfort-food, entertaining, weeknight]
-flavorProfile: [savory, rich, umami]
-cuisines: [Italian]
+cookingMethods:
+  - simmer
+dietary:
+  - vegetarian
+  - gluten-free
+occasions:
+  - comfort-food
+  - entertaining
+  - weeknight
+flavorProfile:
+  - savory
+  - rich
+  - umami
+cuisines:
+  - Italian
 role: base
 vibe: comfort
 prepTime: 5 min
 cookTime: 40 min
 totalTime: 45 min
 servings: '4'
-seasons: [fall, winter]
+seasons:
+  - fall
+  - winter
 nutritionalDensity: hearty
 leftovers: good
-advancePrep: [make-ahead]
-equipment: [saucepan]
-pairsWith: [chicken-marsala, chicken-scaloppine-with-tomato-and-white-wine, baked-chicken-parmesan]
+advancePrep:
+  - make-ahead
+equipment:
+  - saucepan
+pairsWith:
+  - chicken-marsala
+  - chicken-scaloppine-with-tomato-and-white-wine
+  - baked-chicken-parmesan
 ingredients:
-  - '1 cup Coarse-Ground Polenta or Yellow Cornmeal (not instant)'
-  - '4 cups Water'
-  - '1 cup Whole Milk'
-  - '1 tsp Kosher Salt'
-  - '2 tbsp Unsalted Butter'
+  - 1 cup Coarse-Ground Polenta or Yellow Cornmeal (not instant)
+  - 4 cups Water
+  - 1 cup Whole Milk
+  - 1 tsp Kosher Salt
+  - 2 tbsp Unsalted Butter
   - '1/2 cup Parmesan, finely grated'
-  - 'Black Pepper to taste'
+  - Black Pepper to taste
+nutrition:
+  calories: 215
+  protein: 5
+  carbs: 29.5
+  fat: 9
+  fiber: 2
+  sugar: 3
+  sodium: 650
 ---
 
 ## Chef's Note

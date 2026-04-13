@@ -46,17 +46,25 @@ ingredients:
   - 1/4 tsp Black Pepper
   - Zest of 1 Lemon
   - Extra butter for finishing (if needed)
+nutrition:
+  calories: 155
+  protein: 2.5
+  carbs: 6
+  fat: 14.5
+  fiber: 2
+  sugar: 1.5
+  sodium: 720
 ---
 
 ## Chef's Note
 
-Shrimp scampi started as a fisherman's lunch in Italy's Adriatic ports—fresh shrimp, garlic, white wine, and lemon became something elegant through nothing but simplicity and heat. This version honors that tradition by keeping everything minimal. The entire dish lives or dies on heat and timing: shrimp go from tender to rubbery in 90 seconds, so stay alert and taste for salt before plating.
+Shrimp scampi started as a fisherman's lunch in Italy's Adriatic ports - fresh shrimp, garlic, white wine, and lemon became something elegant through nothing but simplicity and heat. This version honors that tradition by keeping everything minimal. The entire dish lives or dies on heat and timing: shrimp go from tender to rubbery in 90 seconds, so stay alert and taste for salt before plating.
 
 ## Directions
 
-1. **The Prep:** Pat shrimp completely dry with paper towels. This is non-negotiable—wet shrimp will steam instead of sear high heat (400-450°F). Season with salt and pepper.
+1. **The Prep:** Pat shrimp completely dry with paper towels. This is non-negotiable - wet shrimp will steam instead of sear high heat (400-450°F). Season with salt and pepper.
 
-2. **Heat the Butter:** Melt 2 tbsp butter in a large skillet over medium-high heat. Once foaming (about 1 minute), add shrimp in a single layer. Do not stir—let them sit for 2 minutes until the bottom browns.
+2. **Heat the Butter:** Melt 2 tbsp butter in a large skillet over medium-high heat. Once foaming (about 1 minute), add shrimp in a single layer. Do not stir - let them sit for 2 minutes until the bottom browns.
 
 3. **The First Side:** Toss shrimp and cook another 90 seconds until the second side is opaque and the shells are bright pink.
 
@@ -64,7 +72,7 @@ Shrimp scampi started as a fisherman's lunch in Italy's Adriatic ports—fresh s
 
 5. **Deglaze:** Pour in white wine (or stock) and scrape the bottom of the pan with a wooden spoon to release any browned bits. Simmer for 1-2 minutes until the liquid reduces by half.
 
-6. **Finish:** Remove from heat. Add lemon juice and parsley. Taste and adjust salt and pepper. The sauce should taste bright and balanced—not too acidic, not too buttery.
+6. **Finish:** Remove from heat. Add lemon juice and parsley. Taste and adjust salt and pepper. The sauce should taste bright and balanced - not too acidic, not too buttery.
 
 7. **Plate:** Serve immediately over pasta or rice. Pour every drop of sauce over the shrimp. Garnish with lemon zest.
 

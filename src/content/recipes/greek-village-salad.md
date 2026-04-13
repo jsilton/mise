@@ -2,14 +2,31 @@
 title: Greek Village Salad
 origin: Greece
 difficulty: easy
-cookingMethods: [raw]
-dietary: [vegetarian, gluten-free]
-occasions: [weeknight, summer, light-and-fresh, mediterranean]
-flavorProfile: [acidic, savory, briny, herbaceous, fresh]
-cuisines: [Greek, Mediterranean]
+cookingMethods:
+  - raw
+dietary:
+  - vegetarian
+  - gluten-free
+occasions:
+  - weeknight
+  - summer
+  - light-and-fresh
+  - mediterranean
+flavorProfile:
+  - acidic
+  - savory
+  - briny
+  - herbaceous
+  - fresh
+cuisines:
+  - Greek
+  - Mediterranean
 role: side
 vibe: nutritious
-seasons: [summer, spring, year-round]
+seasons:
+  - summer
+  - spring
+  - year-round
 nutritionalDensity: light
 leftovers: poor
 advancePrep: []
@@ -19,11 +36,9 @@ cookTime: 0 min
 totalTime: 15 min
 servings: '4'
 pairsWith:
-  [
-    chicken-souvlaki,
-    greek-style-lamb-burgers-with-yogurt-cucumber-sauce,
-    greek-turkey-meatball-gyro-with-tzatziki,
-  ]
+  - chicken-souvlaki
+  - greek-style-lamb-burgers-with-yogurt-cucumber-sauce
+  - greek-turkey-meatball-gyro-with-tzatziki
 ingredients:
   - '4 medium Ripe Tomatoes, cut into irregular chunks'
   - '1 large English Cucumber, cut into half-moons'
@@ -31,11 +46,19 @@ ingredients:
   - '1/2 medium Red Onion, thinly sliced into half-rings'
   - '1/3 cup Kalamata Olives, unpitted'
   - '1 block (7 oz) Feta Cheese, placed whole on top'
-  - '2 tsp Dried Oregano (Greek oregano preferred)'
-  - '1/4 cup Extra Virgin Olive Oil (best quality you have)'
-  - '1 tbsp Red Wine Vinegar'
-  - '1/2 tsp Kosher Salt'
+  - 2 tsp Dried Oregano (Greek oregano preferred)
+  - 1/4 cup Extra Virgin Olive Oil (best quality you have)
+  - 1 tbsp Red Wine Vinegar
+  - 1/2 tsp Kosher Salt
   - '1 small handful Capers (optional, traditional in some villages)'
+nutrition:
+  calories: 535
+  protein: 2.5
+  carbs: 14
+  fat: 54.5
+  fiber: 3
+  sugar: 7
+  sodium: 620
 ---
 
 ## Chef's Note

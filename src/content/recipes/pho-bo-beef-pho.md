@@ -63,6 +63,14 @@ ingredients:
   - 'Lime Wedges, for serving'
   - 'Thinly Sliced Jalapenos, for serving'
   - 'Hoisin Sauce and Sriracha, for serving'
+nutrition:
+  calories: 960
+  protein: 85
+  carbs: 69
+  fat: 37.5
+  fiber: 3
+  sugar: 5.5
+  sodium: 2420
 ---
 
 ## Chef's Note

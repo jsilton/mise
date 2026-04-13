@@ -38,11 +38,19 @@ ingredients:
   - '1/2 tsp Fresh Ginger, minced'
   - 1 tbsp Neutral Oil
 origin: China
+nutrition:
+  calories: 230
+  protein: 28
+  carbs: 21.5
+  fat: 4.5
+  fiber: 1
+  sugar: 17
+  sodium: 1210
 ---
 
 ## Chef's Note
 
-This 15-minute meal uses smart shortcuts. Microwave the broccoli for 2 minutes with a bit of water before stir-frying—this pre-cooks it to tender-crisp without needing a separate pot. Sear the shrimp in small batches over high heat so they caramelize instead of steaming. The honey-soy-garlic sauce bubbles into a glossy glaze that coats everything. Simple and fast.
+This 15-minute meal uses smart shortcuts. Microwave the broccoli for 2 minutes with a bit of water before stir-frying - this pre-cooks it to tender-crisp without needing a separate pot. Sear the shrimp in small batches over high heat so they caramelize instead of steaming. The honey-soy-garlic sauce bubbles into a glossy glaze that coats everything. Simple and fast.
 
 ## Directions
 

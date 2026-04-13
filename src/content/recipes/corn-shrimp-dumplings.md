@@ -45,6 +45,14 @@ ingredients:
   - 20 Gyoza or Siu Mai Wrappers
   - Soy Sauce and Chili Oil for dipping
 origin: China
+nutrition:
+  calories: 40
+  protein: 5.5
+  carbs: 2.5
+  fat: 1
+  fiber: 0.5
+  sugar: 0.5
+  sodium: 140
 ---
 
 ## Chef's Note

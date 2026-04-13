@@ -2,22 +2,38 @@
 title: Cantonese Steamed Fish
 origin: China
 difficulty: easy
-cookingMethods: [boil, steam]
+cookingMethods:
+  - boil
+  - steam
 dietary: []
-occasions: [weeknight, quick-lunch, light-and-fresh, entertaining]
-flavorProfile: [sweet, savory, umami, herbaceous]
-cuisines: [Chinese]
+occasions:
+  - weeknight
+  - quick-lunch
+  - light-and-fresh
+  - entertaining
+flavorProfile:
+  - sweet
+  - savory
+  - umami
+  - herbaceous
+cuisines:
+  - Chinese
 role: main
 vibe: quick
 prepTime: 5 min
 cookTime: 15 min
 totalTime: 20 min
 servings: '2'
-seasons: [year-round]
+seasons:
+  - year-round
 nutritionalDensity: light
 leftovers: poor
-equipment: [bamboo-steamer]
-pairsWith: [basmati-rice, steamed-broccoli, garlic-sesame-spinach]
+equipment:
+  - bamboo-steamer
+pairsWith:
+  - basmati-rice
+  - steamed-broccoli
+  - garlic-sesame-spinach
 ingredients:
   - '1 lb Whole Fish or Fillet (Tilapia, Flounder, or Sole)'
   - '3 tbsp Fresh Ginger, julienned'
@@ -26,6 +42,14 @@ ingredients:
   - 3 tbsp Light Soy Sauce
   - 1 tsp Sugar
   - 3 tbsp Neutral Oil (Avocado or Grapeseed)
+nutrition:
+  calories: 515
+  protein: 55
+  carbs: 10.5
+  fat: 28.5
+  fiber: 1
+  sugar: 5
+  sodium: 1980
 ---
 
 ## Chef's Note

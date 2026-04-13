@@ -45,11 +45,19 @@ pairsWith:
   - apple-pie
   - blackout-chocolate-cake
   - classic-peach-ice-cream
+nutrition:
+  calories: 400
+  protein: 4
+  carbs: 43
+  fat: 26
+  fiber: 4
+  sugar: 24
+  sodium: 700
 ---
 
 ## Chef's Note
 
-This cake is pure American efficiency—everything mixes right in the pan, no bowls to clean. The trick is understanding what each ingredient does: vinegar reacts with baking soda to create lift and crumb structure, cocoa powder needs cold water to bloom properly, and the whole formula relies on mixing order so ingredients emulsify correctly into a smooth, lump-free batter.
+This cake is pure American efficiency - everything mixes right in the pan, no bowls to clean. The trick is understanding what each ingredient does: vinegar reacts with baking soda to create lift and crumb structure, cocoa powder needs cold water to bloom properly, and the whole formula relies on mixing order so ingredients emulsify correctly into a smooth, lump-free batter.
 ## Directions
 
 1.  **The Dry Mix:** Preheat oven to 325°F. In an 8x8-inch square baking dish, whisk the flour, sugar, cocoa, baking soda, and salt until uniform. Use your fingers to crush any cocoa lumps.

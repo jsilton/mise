@@ -41,6 +41,14 @@ seasons:
 nutritionalDensity: moderate
 leftovers: good
 equipment: []
+nutrition:
+  calories: 135
+  protein: 4.5
+  carbs: 3
+  fat: 11.5
+  fiber: 0
+  sugar: 0.5
+  sodium: 2810
 ---
 
 ## Chef's Note
@@ -54,5 +62,5 @@ Baking whole fish Chinese-style creates a restaurant-quality presentation. Cutti
 3.  **Season:** Spread half the ginger and garlic into the slits. Whisk soy sauce, broth, rice wine, and sesame oil; pour over the fish.
 4.  **Bake:** Cover the pan tightly with foil to create a steam chamber. Bake for 45-50 minutes until the flesh flakes easily with a fork.
 5.  **Garnish Prep:** Carefully transfer the fish to a warm platter. Reserve the juices from the pan. Pile the scallions and the remaining ginger on top of the fish.
-6.  **The Sizzle:** Heat peanut oil in a small saucepan until just smoking. Carefully pour it over the scallion/ginger pile—it should sizzle loudly.
+6.  **The Sizzle:** Heat peanut oil in a small saucepan until just smoking. Carefully pour it over the scallion/ginger pile - it should sizzle loudly.
 7.  **Finish:** Pour the reserved pan juices over the fish. Garnish with cilantro and serve immediately.

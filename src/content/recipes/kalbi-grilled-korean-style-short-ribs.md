@@ -42,6 +42,14 @@ leftovers: good
 advancePrep:
   - marinate-overnight
 equipment: []
+nutrition:
+  calories: 1150
+  protein: 70.5
+  carbs: 43.5
+  fat: 80
+  fiber: 0
+  sugar: 40.5
+  sodium: 3400
 ---
 
 ## Chef's Note
@@ -59,4 +67,4 @@ Kalbi is Korean barbecue short ribs. The secret to tender meat with crisp edges 
 7.  **Finish:** Move to the cooler side of the grill for 5 minutes until the fat is rendered and "Snappy."
 8.  **Serve:** Use kitchen shears to cut the ribs into bite-sized pieces.
 
-**Rest:** Let style Beef rest for 5 minutes before slicing or serving — the juices redistribute and every piece stays moist.
+**Rest:** Let style Beef rest for 5 minutes before slicing or serving  -  the juices redistribute and every piece stays moist.

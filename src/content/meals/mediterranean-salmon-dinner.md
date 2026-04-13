@@ -19,7 +19,7 @@ bestFor: [wednesday, thursday, friday]
 
 ## Meal Overview
 
-An elegant, health-forward dinner — herb-crusted salmon with a bright lemon emulsion, served alongside herbed quinoa and roasted cauliflower. The fennel-citrus salad adds a fresh, anise-scented contrast. This is the kind of meal that feels like a restaurant dinner.
+An elegant, health-forward dinner  -  herb-crusted salmon with a bright lemon emulsion, served alongside herbed quinoa and roasted cauliflower. The fennel-citrus salad adds a fresh, anise-scented contrast. This is the kind of meal that feels like a restaurant dinner.
 
 ## Cooking Strategy
 

@@ -18,7 +18,7 @@ bestFor: [thursday]
 
 ## Meal Overview
 
-A Thursday adventure that's still approachable—fragrant Thai basil chicken with eggplant, served over coconut jasmine rice and balanced with a cool, tangy cucumber salad. It introduces new flavors without being intimidating, and kids usually love the aromatic basil scent.
+A Thursday adventure that's still approachable - fragrant Thai basil chicken with eggplant, served over coconut jasmine rice and balanced with a cool, tangy cucumber salad. It introduces new flavors without being intimidating, and kids usually love the aromatic basil scent.
 
 ## Cooking Strategy
 
@@ -32,7 +32,7 @@ A Thursday adventure that's still approachable—fragrant Thai basil chicken wit
 
 ## Notes
 
-- High heat is key—eggplant should be tender and slightly charred
-- Thai basil is more aromatic than Italian basil—don't substitute if possible
+- High heat is key - eggplant should be tender and slightly charred
+- Thai basil is more aromatic than Italian basil - don't substitute if possible
 - The cucumber salad provides textural contrast and cuts through richness
 - Serve with extra lime wedges for those who want brightness

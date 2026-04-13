@@ -41,6 +41,14 @@ ingredients:
   - Pinch of Cayenne Pepper
   - Fresh Parsley or Cilantro
 origin: China
+nutrition:
+  calories: 210
+  protein: 27
+  carbs: 18.5
+  fat: 4.5
+  fiber: 1.5
+  sugar: 13.5
+  sodium: 1350
 ---
 
 ## Chef's Note

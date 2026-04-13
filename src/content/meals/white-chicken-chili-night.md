@@ -17,7 +17,7 @@ bestFor: [monday, tuesday, wednesday]
 
 ## Meal Overview
 
-A lighter, brighter cousin to traditional chili — chicken, white beans, green chiles, and a creamy broth that's warming without being heavy. Buttery cornbread on the side is perfect for dunking.
+A lighter, brighter cousin to traditional chili  -  chicken, white beans, green chiles, and a creamy broth that's warming without being heavy. Buttery cornbread on the side is perfect for dunking.
 
 ## Cooking Strategy
 

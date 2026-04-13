@@ -47,6 +47,14 @@ pairsWith:
   - herb-marinated-pork-tenderloins
 advancePrep:
   - freeze-ahead
+nutrition:
+  calories: 100
+  protein: 2.5
+  carbs: 27
+  fat: 1
+  fiber: 6.5
+  sugar: 15
+  sodium: 0
 ---
 
 ## Chef's Note
@@ -59,5 +67,5 @@ Slap the thyme sprig sharply in your palm before garnishing - this ruptures oil 
 2.  **The Base:** Combine gin, mezcal, cognac, lemon juice, Benedictine, agave, and orange bitters in a shaker filled with large ice cubes.
 3.  **Aeration:** Shake vigorously for 15 seconds until the shaker is frosted and the mixture is perfectly emulsified.
 4.  **Strain:** Double strain into the chilled glass to ensure a silky mouthfeel.
-5.  **The Crown:** Top with the chilled Prosecco. Do not stir—let the bubbles naturally integrate the layers.
+5.  **The Crown:** Top with the chilled Prosecco. Do not stir - let the bubbles naturally integrate the layers.
 6.  **The Slap:** Take the thyme sprig, slap it between your palms, and place it in the glass. Express the lemon peel over the rim and drop it in for the mandatory **High Note**.

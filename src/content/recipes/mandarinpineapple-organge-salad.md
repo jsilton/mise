@@ -42,11 +42,19 @@ ingredients:
   - 1/2 cup Granulated Sugar
   - 1 cup Boiling Water
 origin: United States
+nutrition:
+  calories: 510
+  protein: 2.5
+  carbs: 33
+  fat: 42.5
+  fiber: 1
+  sugar: 30.5
+  sodium: 100
 ---
 
 ## Chef's Note
 
-Citrus salads are a Southern and Caribbean tradition—canned or fresh fruit with a bright dressing and sometimes nuts for crunch. The trick is draining fruit well so the salad doesn't turn watery. If you're using canned fruit, rinse it under cold water to remove the heavy syrup, then dress it right before serving.
+Citrus salads are a Southern and Caribbean tradition - canned or fresh fruit with a bright dressing and sometimes nuts for crunch. The trick is draining fruit well so the salad doesn't turn watery. If you're using canned fruit, rinse it under cold water to remove the heavy syrup, then dress it right before serving.
 ## Directions
 
 1.  **Dissolve:** In a large bowl, whisk the Orange Jello and sugar into the boiling water until no crystals remain.

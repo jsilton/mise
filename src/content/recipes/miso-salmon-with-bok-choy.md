@@ -49,6 +49,14 @@ seasons:
 nutritionalDensity: moderate
 leftovers: good
 equipment: []
+nutrition:
+  calories: 150
+  protein: 4
+  carbs: 22.5
+  fat: 5.5
+  fiber: 0.5
+  sugar: 9
+  sodium: 430
 ---
 
 ## Chef's Note
@@ -65,4 +73,4 @@ Miso glaze on salmon is Japanese home cooking: fermented soybean paste with a to
 7.  **Finish:** Remove lid, stir in the oyster sauce and sesame oil. Toss to coat.
 8.  **Serve:** Place a mound of [Jasmine Rice](/mise/recipes/homemade-rice-pilaf) in each bowl, top with the salmon and bok choy. Garnish with sesame seeds and green onions.
 
-**Rest:** Let 4 Salmon rest for 5 minutes before slicing or serving — the juices redistribute and every piece stays moist.
+**Rest:** Let 4 Salmon rest for 5 minutes before slicing or serving  -  the juices redistribute and every piece stays moist.

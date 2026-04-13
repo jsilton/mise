@@ -45,11 +45,19 @@ ingredients:
   - 1/2 tsp Cinnamon + 1/8 tsp Nutmeg
   - '1 cup Blueberries, Strawberries, or Pears'
 origin: United States
+nutrition:
+  calories: 190
+  protein: 1.5
+  carbs: 4.5
+  fat: 19
+  fiber: 1
+  sugar: 3.5
+  sodium: 90
 ---
 
 ## Chef's Note
 
-These are whole-wheat breakfast muffins. The key to a muffin that isn't heavy is using apple or orange juice as the primary liquid. This provides natural sweetness and acidity that ensures the whole-wheat flour fully hydrates without becoming dense. Instead of folding the fruit into the batter, sprinkle it over the raw muffins in the pan—this prevents the berries from bleeding and ensures a crispy golden top.
+These are whole-wheat breakfast muffins. The key to a muffin that isn't heavy is using apple or orange juice as the primary liquid. This provides natural sweetness and acidity that ensures the whole-wheat flour fully hydrates without becoming dense. Instead of folding the fruit into the batter, sprinkle it over the raw muffins in the pan - this prevents the berries from bleeding and ensures a crispy golden top.
 
 ## Directions
 

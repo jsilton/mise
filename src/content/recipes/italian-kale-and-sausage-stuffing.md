@@ -45,6 +45,14 @@ ingredients:
   - 1 tbsp Fresh Basil + 1 tsp Fresh Sage + 1 tsp Fresh Rosemary
   - Kosher Salt and Black Pepper
 origin: Italy
+nutrition:
+  calories: 300
+  protein: 15.5
+  carbs: 8.5
+  fat: 22.5
+  fiber: 1
+  sugar: 2
+  sodium: 590
 ---
 
 ## Chef's Note

@@ -43,11 +43,19 @@ seasons:
 nutritionalDensity: moderate
 leftovers: good
 equipment: []
+nutrition:
+  calories: 155
+  protein: 28
+  carbs: 8
+  fat: 2
+  fiber: 1.5
+  sugar: 3
+  sodium: 1100
 ---
 
 ## Chef's Note
 
-Paella is not a "stir-fry." The soul of this dish is the **Socarrat**: the layer of toasted, crispy rice at the bottom of the pan. The secret is to **STOP STIRRING** once the rice is in the liquid. You want the rice to absorb the broth and then fry in the rendered chorizo fat at the very bottom. Listen for the "crackle"—that is the sound of success.
+Paella is not a "stir-fry." The soul of this dish is the **Socarrat**: the layer of toasted, crispy rice at the bottom of the pan. The secret is to **STOP STIRRING** once the rice is in the liquid. You want the rice to absorb the broth and then fry in the rendered chorizo fat at the very bottom. Listen for the "crackle" - that is the sound of success.
 
 ## Directions
 

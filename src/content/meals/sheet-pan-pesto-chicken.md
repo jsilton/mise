@@ -18,7 +18,7 @@ bestFor: [sunday, monday, tuesday]
 
 ## Meal Overview
 
-Meal prep meets weeknight ease — pesto-slathered chicken thighs roast on a sheet pan alongside vegetables. Paired with herbed quinoa and roasted sweet potatoes, this is a balanced, satisfying plate that works for dinner tonight and lunches all week.
+Meal prep meets weeknight ease  -  pesto-slathered chicken thighs roast on a sheet pan alongside vegetables. Paired with herbed quinoa and roasted sweet potatoes, this is a balanced, satisfying plate that works for dinner tonight and lunches all week.
 
 ## Cooking Strategy
 

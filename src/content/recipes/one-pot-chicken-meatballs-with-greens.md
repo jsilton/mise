@@ -47,6 +47,14 @@ ingredients:
   - 2 tsp Dried Oregano
   - 1/4 tsp Red Pepper Flakes
 origin: Italy
+nutrition:
+  calories: 725
+  protein: 31
+  carbs: 9.5
+  fat: 64.5
+  fiber: 2
+  sugar: 2.5
+  sodium: 350
 ---
 
 ## Chef's Note
@@ -63,4 +71,4 @@ Chicken meatballs can dry out easily since ground chicken is so lean, but adding
 6.  **Cook:** Simmer for 12-15 minutes until the meatballs are cooked through (165°F) and the chard is tender.
 7.  **Serve:** Use a ladle to scoop meatballs and greens together. Squeeze the remaining lemon half over the top for the mandatory **High Note**.
 
-**Rest:** Let Ground Chicken rest for 5 minutes before slicing or serving — the juices redistribute and every piece stays moist.
+**Rest:** Let Ground Chicken rest for 5 minutes before slicing or serving  -  the juices redistribute and every piece stays moist.

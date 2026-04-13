@@ -41,6 +41,14 @@ ingredients:
   - '1 tbsp Sugar (optional, for extra richness)'
   - '2 Pandan Leaves (optional, for authentic aroma)'
 origin: Thailand
+nutrition:
+  calories: 75
+  protein: 1.5
+  carbs: 17.5
+  fat: 0
+  fiber: 0
+  sugar: 2
+  sodium: 390
 ---
 
 ## Chef's Note

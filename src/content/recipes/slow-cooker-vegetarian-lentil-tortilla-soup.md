@@ -43,6 +43,14 @@ seasons:
 nutritionalDensity: moderate
 leftovers: excellent
 equipment: []
+nutrition:
+  calories: 285
+  protein: 11
+  carbs: 28.5
+  fat: 15
+  fiber: 9
+  sugar: 3
+  sodium: 260
 ---
 
 ## Chef's Note
@@ -54,7 +62,7 @@ For kids, serve the heat on the side or reduce/omit the spicy elements.
 
 1.  **Combine:** Add all ingredients (except the cream and toppings) to a 6-quart slow cooker. Stir well to dissolve the tomato paste.
 2.  **Cook:** Cover and cook on **High for 4-6 hours** (or Low for 8 hours) until the lentils have vanished and the soup is thick.
-3.  **The Emulsion:** Stir in the optional heavy cream. For a smoother texture, use an immersion blender to pulse the soup 3-4 times—this keeps it chunky but increases the silkiness.
+3.  **The Emulsion:** Stir in the optional heavy cream. For a smoother texture, use an immersion blender to pulse the soup 3-4 times - this keeps it chunky but increases the silkiness.
 4.  **Finish:** Stir in the fresh lime juice. Season with salt and pepper.
 5.  **Serve:** Ladle into bowls. Pile on the "Texture Stacks": crushed tortilla chips, diced avocado, and fresh cilantro.
 

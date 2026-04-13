@@ -43,11 +43,19 @@ seasons:
 nutritionalDensity: moderate
 leftovers: good
 equipment: []
+nutrition:
+  calories: 160
+  protein: 7.5
+  carbs: 29
+  fat: 2
+  fiber: 3
+  sugar: 0.5
+  sodium: 330
 ---
 
 ## Chef's Note
 
-This is a simplified poulet aux champignons — a French bistro standard built on two things: the sear on the chicken and the fond in the pan. Starting skin-side down in a cold skillet and bringing the heat up gradually renders the fat slowly, producing crispier skin than a screaming-hot pan. The Dijon mustard stirred into the sauce at the end is the classic French move — it emulsifies the pan juices and adds a sharp bite that cuts through the richness.
+This is a simplified poulet aux champignons  -  a French bistro standard built on two things: the sear on the chicken and the fond in the pan. Starting skin-side down in a cold skillet and bringing the heat up gradually renders the fat slowly, producing crispier skin than a screaming-hot pan. The Dijon mustard stirred into the sauce at the end is the classic French move  -  it emulsifies the pan juices and adds a sharp bite that cuts through the richness.
 ## Directions
 
 1.  **The Sear:** Season chicken with half the rosemary and thyme. Place skin-side down in a cold 12-inch oven-proof skillet. Turn heat to medium-high. Fry for 7 minutes until the skin is deep golden and releases easily.

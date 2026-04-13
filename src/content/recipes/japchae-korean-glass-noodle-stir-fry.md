@@ -2,25 +2,49 @@
 title: Japchae (Korean Glass Noodle Stir-Fry)
 origin: Korea
 difficulty: intermediate
-cookingMethods: [stir-fry, boil, sauté]
-dietary: [gluten-free-option, vegan-option]
-occasions: [weeknight, entertaining, meal-prep]
-flavorProfile: [savory, slightly-sweet, nutty, umami]
-cuisines: [Korean]
+cookingMethods:
+  - stir-fry
+  - boil
+  - sauté
+dietary:
+  - gluten-free-option
+  - vegan-option
+occasions:
+  - weeknight
+  - entertaining
+  - meal-prep
+flavorProfile:
+  - savory
+  - slightly-sweet
+  - nutty
+  - umami
+cuisines:
+  - Korean
 role: main
 vibe: nutritious
-seasons: [year-round]
+seasons:
+  - year-round
 nutritionalDensity: moderate
 leftovers: good
-advancePrep: [prep-ingredients-before-cooking, marinate-ahead]
-equipment: [large-skillet, wok, colander, cutting-board]
+advancePrep:
+  - prep-ingredients-before-cooking
+  - marinate-ahead
+equipment:
+  - large-skillet
+  - wok
+  - colander
+  - cutting-board
 prepTime: 15 min
 cookTime: 12 min
 totalTime: 27 min
 servings: '4'
-pairsWith: [steamed-white-rice, korean-pickled-cucumbers]
+pairsWith:
+  - steamed-white-rice
+  - korean-pickled-cucumbers
 ingredients:
-  - '8 oz Sweet Potato Glass Noodles (dangmyeon), also called Korean glass noodles'
+  - >-
+    8 oz Sweet Potato Glass Noodles (dangmyeon), also called Korean glass
+    noodles
   - '8 oz Beef Sirloin or Tenderloin, thinly sliced'
   - '2 Medium Carrots, cut into thin matchsticks'
   - '1 Medium Zucchini, cut into thin matchsticks'
@@ -30,21 +54,29 @@ ingredients:
   - '3 cloves Garlic, minced'
   - '3 Green Onions (scallions), cut into 2-inch pieces'
   - '--- Seasoning ---'
-  - '3 tbsp Soy Sauce'
-  - '1 tbsp Sesame Oil'
-  - '1 tbsp Brown Sugar'
-  - '1 tbsp Rice Vinegar'
+  - 3 tbsp Soy Sauce
+  - 1 tbsp Sesame Oil
+  - 1 tbsp Brown Sugar
+  - 1 tbsp Rice Vinegar
   - '2 tsp Gochugaru (Korean red chili flakes, optional)'
-  - '1/4 tsp Black Pepper'
-  - '1 tbsp Vegetable Oil'
+  - 1/4 tsp Black Pepper
+  - 1 tbsp Vegetable Oil
   - '--- For Serving ---'
-  - 'Sesame Seeds'
-  - 'Additional Sesame Oil (optional drizzle)'
+  - Sesame Seeds
+  - Additional Sesame Oil (optional drizzle)
+nutrition:
+  calories: 470
+  protein: 21
+  carbs: 62.5
+  fat: 17
+  fiber: 10.5
+  sugar: 18
+  sodium: 1070
 ---
 
 ## Chef's Note
 
-Japchae is Korean mixed stir-fry with sweet potato glass noodles—a dish that shows up at celebrations and fancy dinners because it's elegant and looks harder than it is. The glass noodles (also called dangmyeon) have a silky, slightly gelatinous texture that's completely different from wheat or rice noodles. Korean home cooks marinate the beef separately, cook vegetables individually (so each retains its texture), and then combine everything at the last moment with a simple soy-sesame sauce. This technique keeps everything from turning into mush. It's flexible too—add shrimp, more vegetables, or make it vegetarian by skipping the beef.
+Japchae is Korean mixed stir-fry with sweet potato glass noodles - a dish that shows up at celebrations and fancy dinners because it's elegant and looks harder than it is. The glass noodles (also called dangmyeon) have a silky, slightly gelatinous texture that's completely different from wheat or rice noodles. Korean home cooks marinate the beef separately, cook vegetables individually (so each retains its texture), and then combine everything at the last moment with a simple soy-sesame sauce. This technique keeps everything from turning into mush. It's flexible too - add shrimp, more vegetables, or make it vegetarian by skipping the beef.
 
 ## Directions
 
@@ -61,9 +93,9 @@ Japchae is Korean mixed stir-fry with sweet potato glass noodles—a dish that s
    - Onion: 2-3 minutes until softened, then transfer to the bowl
    - Spinach: Cook until wilted (about 1 minute), squeeze out excess moisture, then transfer
 
-5. **Make the Sauce:** In a small bowl, whisk together 2 tbsp soy sauce, 1 tbsp sesame oil, 1 tbsp brown sugar, 1 tbsp rice vinegar, and remaining minced garlic (total 2 tsp). Taste and adjust—it should be balanced between salty, sweet, and tangy.
+5. **Make the Sauce:** In a small bowl, whisk together 2 tbsp soy sauce, 1 tbsp sesame oil, 1 tbsp brown sugar, 1 tbsp rice vinegar, and remaining minced garlic (total 2 tsp). Taste and adjust - it should be balanced between salty, sweet, and tangy.
 
-6. **Combine:** Add the cooked glass noodles and all vegetables back to the large skillet. Return the cooked beef to the pan. Pour the sauce over everything and toss gently but thoroughly for 1-2 minutes until everything is coated and heated through. The heat should be low—you're just combining and warming, not cooking further.
+6. **Combine:** Add the cooked glass noodles and all vegetables back to the large skillet. Return the cooked beef to the pan. Pour the sauce over everything and toss gently but thoroughly for 1-2 minutes until everything is coated and heated through. The heat should be low - you're just combining and warming, not cooking further.
 
 7. **Optional Heat:** If you want spice, add 1-2 tsp gochugaru (Korean red chili flakes) when tossing with the sauce.
 
@@ -71,9 +103,9 @@ Japchae is Korean mixed stir-fry with sweet potato glass noodles—a dish that s
 
 **Glass Noodle Sourcing:** Also labeled as "Korean sweet potato noodles" or "dangmyeon." They're available at any Asian market and increasingly at regular grocery stores. Do not confuse with rice noodles or tapioca noodles.
 
-**Vegetable Flexibility:** This dish is forgiving. Use whatever vegetables need using: bell peppers, green beans, broccoli, shiitake mushrooms, cabbage. The principle is the same—cook each vegetable separately, then combine.
+**Vegetable Flexibility:** This dish is forgiving. Use whatever vegetables need using: bell peppers, green beans, broccoli, shiitake mushrooms, cabbage. The principle is the same - cook each vegetable separately, then combine.
 
-**Beef Alternative:** Shrimp works beautifully (cook the same way). Or skip the protein entirely for a vegetarian version—the noodles and vegetables are hearty enough.
+**Beef Alternative:** Shrimp works beautifully (cook the same way). Or skip the protein entirely for a vegetarian version - the noodles and vegetables are hearty enough.
 
 **Make-Ahead:** Japchae tastes equally good warm or at room temperature and is perfect for meal prep. Store in the refrigerator for up to 3 days. Serve cold or reheat gently over low heat.
 

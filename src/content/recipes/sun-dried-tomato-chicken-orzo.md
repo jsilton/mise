@@ -41,11 +41,19 @@ ingredients:
   - '3 Fresh Lemons (one for juice, two sliced)'
   - 'Italian Seasoning, Garlic Salt, Pepper'
 origin: Italy
+nutrition:
+  calories: 265
+  protein: 37.5
+  carbs: 3.5
+  fat: 12
+  fiber: 1
+  sugar: 1.5
+  sodium: 550
 ---
 
 ## Chef's Note
 
-One-pan baked pastas became wildly popular in the 2010s, and this version uses Boursin cheese as a shortcut to creamy, garlicky flavor. Place the block of Boursin right in the center of the baking dish with the raw orzo and broth—as it bakes, the cheese melts and emulsifies with the chicken juices. Fresh lemon slices over the chicken add brightness to balance the rich cheese. Stir vigorously when it comes out of the oven to create a creamy sauce.
+One-pan baked pastas became wildly popular in the 2010s, and this version uses Boursin cheese as a shortcut to creamy, garlicky flavor. Place the block of Boursin right in the center of the baking dish with the raw orzo and broth - as it bakes, the cheese melts and emulsifies with the chicken juices. Fresh lemon slices over the chicken add brightness to balance the rich cheese. Stir vigorously when it comes out of the oven to create a creamy sauce.
 
 ## Directions
 
@@ -57,4 +65,4 @@ One-pan baked pastas became wildly popular in the 2010s, and this version uses B
 6.  **Bind:** Remove from oven. Remove the lemon slices. **Stir vigorously** for 1 minute until the Boursin has emulsified into a creamy, glossy sauce.
 7.  **Serve:** Garnish with extra black pepper and serve hot.
 
-**Rest:** Let lb Chicken rest for 5 minutes before slicing or serving — the juices redistribute and every piece stays moist.
+**Rest:** Let lb Chicken rest for 5 minutes before slicing or serving  -  the juices redistribute and every piece stays moist.

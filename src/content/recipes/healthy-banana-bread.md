@@ -48,11 +48,19 @@ ingredients:
   - 1/2 tsp Ground Cinnamon
   - 1/2 cup Dark Chocolate Chips or Walnuts
 origin: United States
+nutrition:
+  calories: 385
+  protein: 4.5
+  carbs: 40.5
+  fat: 24
+  fiber: 4
+  sugar: 26
+  sodium: 320
 ---
 
 ## Chef's Note
 
-Replacing butter with extra-virgin olive oil creates a healthier banana bread while maintaining moist, tender crumb—the oil's grassy notes amplify banana sweetness. Blending wet ingredients until perfectly emulsified before folding in flour prevents over-mixing the gluten, ensuring tender texture in every slice.
+Replacing butter with extra-virgin olive oil creates a healthier banana bread while maintaining moist, tender crumb - the oil's grassy notes amplify banana sweetness. Blending wet ingredients until perfectly emulsified before folding in flour prevents over-mixing the gluten, ensuring tender texture in every slice.
 
 ## Directions
 

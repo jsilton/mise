@@ -17,7 +17,7 @@ bestFor: [wednesday, thursday]
 
 ## Meal Overview
 
-Sichuan street food at its finest — springy noodles in a numbing, spicy, savory sauce topped with crispy pork. The smashed cucumber salad is the perfect cooling counterpoint to all that heat and complexity.
+Sichuan street food at its finest  -  springy noodles in a numbing, spicy, savory sauce topped with crispy pork. The smashed cucumber salad is the perfect cooling counterpoint to all that heat and complexity.
 
 ## Cooking Strategy
 
@@ -32,4 +32,4 @@ Sichuan street food at its finest — springy noodles in a numbing, spicy, savor
 
 - The quality of the chili oil makes or breaks this dish
 - Sichuan peppercorn creates the signature numbing tingle
-- Adjust heat to taste — start with less chili oil, add more
+- Adjust heat to taste  -  start with less chili oil, add more

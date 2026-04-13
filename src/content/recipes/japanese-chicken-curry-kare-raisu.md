@@ -46,11 +46,19 @@ seasons:
 nutritionalDensity: moderate
 leftovers: good
 equipment: []
+nutrition:
+  calories: 915
+  protein: 71.5
+  carbs: 79
+  fat: 35.5
+  fiber: 4.5
+  sugar: 7
+  sodium: 780
 ---
 
 ## Chef's Note
 
-Japanese curry (kare raisu) is yoshoku—Western-influenced Japanese cuisine that emerged in the Meiji era. The secret to depth when making it from scratch is cooking butter and flour for 20 minutes until milk-chocolate brown, creating a nutty, roasted roux that curry cubes cannot replicate. The rangiri cut (rolling wedges) for carrots ensures they hold texture through long simmering. Grated apple balances the intensity of curry powder—a common yoshoku trick.
+Japanese curry (kare raisu) is yoshoku - Western-influenced Japanese cuisine that emerged in the Meiji era. The secret to depth when making it from scratch is cooking butter and flour for 20 minutes until milk-chocolate brown, creating a nutty, roasted roux that curry cubes cannot replicate. The rangiri cut (rolling wedges) for carrots ensures they hold texture through long simmering. Grated apple balances the intensity of curry powder - a common yoshoku trick.
 
 ## Directions
 

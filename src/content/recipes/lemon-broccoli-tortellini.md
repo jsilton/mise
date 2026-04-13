@@ -47,11 +47,19 @@ ingredients:
   - 1/4 tsp Red Pepper Flakes
   - Salt and Black Pepper
 origin: Italy
+nutrition:
+  calories: 540
+  protein: 30.5
+  carbs: 9.5
+  fat: 44.5
+  fiber: 2.5
+  sugar: 2.5
+  sodium: 910
 ---
 
 ## Chef's Note
 
-This is Italian comfort food with a bright finish: buttery tortellini with the slight bitterness of broccoli, then lemon juice and zest at the end to tie it together. The lemon isn't subtle—use at least the zest and juice of one full lemon per four servings. Pasta water thickens the sauce and carries the lemon flavor through.
+This is Italian comfort food with a bright finish: buttery tortellini with the slight bitterness of broccoli, then lemon juice and zest at the end to tie it together. The lemon isn't subtle - use at least the zest and juice of one full lemon per four servings. Pasta water thickens the sauce and carries the lemon flavor through.
 ## Directions
 
 1.  **Roast:** Preheat oven to 400°F. On a large baking sheet, toss broccoli with olive oil, half the lemon juice, garlic, salt, and pepper. Roast for 20-25 minutes until crisp and slightly charred at the edges.

@@ -18,7 +18,7 @@ bestFor: [wednesday, thursday, saturday]
 
 ## Meal Overview
 
-The ultimate bowl meal — hot rice crowned with colorful banchan, sliced bulgogi, and a runny fried egg. The magic happens when you break the yolk and mix everything together. Each component can be prepped in advance, making this a great meal-prep candidate.
+The ultimate bowl meal  -  hot rice crowned with colorful banchan, sliced bulgogi, and a runny fried egg. The magic happens when you break the yolk and mix everything together. Each component can be prepped in advance, making this a great meal-prep candidate.
 
 ## Cooking Strategy
 
@@ -30,6 +30,6 @@ The ultimate bowl meal — hot rice crowned with colorful banchan, sliced bulgog
 
 ## Notes
 
-- The more banchan, the better — these three are the essentials
+- The more banchan, the better  -  these three are the essentials
 - Crispy rice bottom: heat rice in a cast iron with sesame oil before topping
 - This is a great "clean out the fridge" template

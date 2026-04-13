@@ -43,6 +43,14 @@ ingredients:
   - Pinch of Nutmeg (The Finishing Touch)
   - '--- Lemon juice ---'
   - '1 Lemon, juiced'
+nutrition:
+  calories: 255
+  protein: 1.5
+  carbs: 3.5
+  fat: 26.5
+  fiber: 0.5
+  sugar: 1.5
+  sodium: 650
 ---
 
 ## Chef's Note
@@ -51,7 +59,7 @@ This whole-wheat version keeps pasta starch by not draining completely dry - com
 
 ## Directions
 
-1.  **Boil:** Cook macaroni in salted water until **al dente**. Drain, but do not rinse—you want the surface starch to remain.
+1.  **Boil:** Cook macaroni in salted water until **al dente**. Drain, but do not rinse - you want the surface starch to remain.
 2.  **Melt:** Return the hot noodles to the pot. Add the butter and 1/3 cup of cream. Stir over medium-low heat until the butter is completely melted and coating the pasta.
 3.  **Bind:** Turn the heat to low. Add the Cheddar and Parmesan one handful at a time, stirring constantly until the cheese has melted into a silky, thick sauce.
 4.  **Finish:** Stir in the final tablespoon of cream, salt, plenty of black pepper, and the pinch of nutmeg.

@@ -52,6 +52,14 @@ ingredients:
   - 1 tsp Kosher Salt
   - 1/2 tsp Black Pepper
   - Fresh Cilantro and Lime wedges for serving
+nutrition:
+  calories: 160
+  protein: 2
+  carbs: 17
+  fat: 10.5
+  fiber: 3.5
+  sugar: 3.5
+  sodium: 640
 ---
 
 ## Chef's Note

@@ -18,7 +18,7 @@ bestFor: [tuesday, wednesday, thursday]
 
 ## Meal Overview
 
-The Roman classic — silky egg-and-cheese sauce clings to every strand of spaghetti, studded with crispy guanciale. No cream. Ever. The arugula-feta salad provides the essential acidic counterbalance to all that richness.
+The Roman classic  -  silky egg-and-cheese sauce clings to every strand of spaghetti, studded with crispy guanciale. No cream. Ever. The arugula-feta salad provides the essential acidic counterbalance to all that richness.
 
 ## Cooking Strategy
 
@@ -33,5 +33,5 @@ The Roman classic — silky egg-and-cheese sauce clings to every strand of spagh
 ## Notes
 
 - The pan MUST be off heat when you add eggs or you get scrambled eggs
-- Pasta water is liquid gold here — use it to adjust sauce consistency
+- Pasta water is liquid gold here  -  use it to adjust sauce consistency
 - Fresh cracked black pepper is mandatory, not optional

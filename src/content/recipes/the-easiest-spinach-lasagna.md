@@ -2,23 +2,37 @@
 title: Spinach Lasagna
 origin: Italy
 difficulty: easy
-cookingMethods: [bake, roast, boil]
-dietary: [vegetarian]
-occasions: [weekend-project, entertaining, comfort-food, potluck]
-seasons: [year-round]
+cookingMethods:
+  - bake
+  - roast
+  - boil
+dietary:
+  - vegetarian
+occasions:
+  - weekend-project
+  - entertaining
+  - comfort-food
+  - potluck
+seasons:
+  - year-round
 nutritionalDensity: hearty
 leftovers: excellent
-advancePrep: [make-ahead]
+advancePrep:
+  - make-ahead
 equipment: []
-flavorProfile: [umami]
-cuisines: [Italian]
+flavorProfile:
+  - umami
+cuisines:
+  - Italian
 role: main
 vibe: technical
 prepTime: 15 min
 cookTime: 55 min
 totalTime: 70 min
 servings: '6'
-pairsWith: [garlic-bread, avocado-kale-caesar-salad]
+pairsWith:
+  - garlic-bread
+  - avocado-kale-caesar-salad
 ingredients:
   - 15 oz Ricotta Cheese
   - '8 oz Mozzarella Cheese, grated'
@@ -29,6 +43,14 @@ ingredients:
   - 8 oz Whole-Wheat No-Boil Lasagna Sheets
   - 1/2 tsp Kosher Salt
   - 1/4 tsp Black Pepper
+nutrition:
+  calories: 1515
+  protein: 94.5
+  carbs: 22.5
+  fat: 117
+  fiber: 1.5
+  sugar: 1.5
+  sodium: 1710
 ---
 
 ## Chef's Note

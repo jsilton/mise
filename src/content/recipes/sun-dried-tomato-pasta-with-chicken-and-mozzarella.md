@@ -43,11 +43,19 @@ ingredients:
   - '3 cloves Garlic, minced'
   - 1/2 cup Reserved Pasta Water
 origin: Italy
+nutrition:
+  calories: 605
+  protein: 38.5
+  carbs: 86
+  fat: 14
+  fiber: 6.5
+  sugar: 4
+  sodium: 310
 ---
 
 ## Chef's Note
 
-Sun-dried tomatoes became hugely popular in Italian-American cooking during the 1990s. The oil from the jar is liquid gold—use it to sear the chicken so the protein absorbs intense tomato flavor before the cream goes in. Whisking shredded mozzarella directly into simmering cream creates a thick, clingy sauce without needing a flour roux. Red pepper flakes add a gentle heat that balances the rich, creamy base.
+Sun-dried tomatoes became hugely popular in Italian-American cooking during the 1990s. The oil from the jar is liquid gold - use it to sear the chicken so the protein absorbs intense tomato flavor before the cream goes in. Whisking shredded mozzarella directly into simmering cream creates a thick, clingy sauce without needing a flour roux. Red pepper flakes add a gentle heat that balances the rich, creamy base.
 
 ## Directions
 
@@ -59,4 +67,4 @@ Sun-dried tomatoes became hugely popular in Italian-American cooking during the 
 6.  **Toss:** Toss vigorously for 1 minute. Add pasta water 1/4 cup at a time until the sauce is creamy and the spinach has just wilted.
 7.  **Serve:** Season with extra red pepper flakes and serve hot.
 
-**Rest:** Let lb Chicken rest for 5 minutes before slicing or serving — the juices redistribute and every piece stays moist.
+**Rest:** Let lb Chicken rest for 5 minutes before slicing or serving  -  the juices redistribute and every piece stays moist.

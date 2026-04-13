@@ -2,36 +2,62 @@
 title: Lemon-Garlic Broccolini
 origin: Italy
 difficulty: easy
-cookingMethods: [sauté]
-dietary: [vegetarian, gluten-free, vegan]
-occasions: [weeknight, quick-lunch]
-flavorProfile: [acidic, herbaceous, bright]
-cuisines: [Italian]
+cookingMethods:
+  - sauté
+dietary:
+  - vegetarian
+  - gluten-free
+  - vegan
+occasions:
+  - weeknight
+  - quick-lunch
+flavorProfile:
+  - acidic
+  - herbaceous
+  - bright
+cuisines:
+  - Italian
 role: side
 vibe: quick
-seasons: [fall, winter, spring, year-round]
+seasons:
+  - fall
+  - winter
+  - spring
+  - year-round
 nutritionalDensity: light
 leftovers: good
 advancePrep: []
-equipment: [large-skillet]
+equipment:
+  - large-skillet
 prepTime: 5 min
 cookTime: 8 min
 totalTime: 13 min
 servings: '4'
-pairsWith: [chicken-piccata-unfried, garlic-butter-shrimp, one-pan-lemon-herb-chicken-thighs]
+pairsWith:
+  - chicken-piccata-unfried
+  - garlic-butter-shrimp
+  - one-pan-lemon-herb-chicken-thighs
 ingredients:
   - '1.5 lbs Fresh Broccolini, trimmed'
-  - '3 tbsp Extra-Virgin Olive Oil'
+  - 3 tbsp Extra-Virgin Olive Oil
   - '4 cloves Garlic, sliced thin'
-  - '1 Lemon'
-  - '1/4 tsp Red Pepper Flakes'
-  - '1/2 tsp Kosher Salt'
-  - 'Black Pepper'
+  - 1 Lemon
+  - 1/4 tsp Red Pepper Flakes
+  - 1/2 tsp Kosher Salt
+  - Black Pepper
+nutrition:
+  calories: 110
+  protein: 1.5
+  carbs: 5
+  fat: 10.5
+  fiber: 1.5
+  sugar: 1
+  sodium: 610
 ---
 
 ## Chef's Note
 
-Italian cooks know the rule: bright greens stay bright only if cooked hot and fast. Broccolini (which is less sulfurous than broccoli) sautés in under 5 minutes over high heat with just garlic, oil, and lemon. The acid from the lemon cuts any bitterness and adds brightness that prevents the dish from feeling heavy. This is a classic preparation called 'garlicky greens' or sautéed spinach technique applied to broccolini—quick, elegant, and perfect for weeknight dinners.
+Italian cooks know the rule: bright greens stay bright only if cooked hot and fast. Broccolini (which is less sulfurous than broccoli) sautés in under 5 minutes over high heat with just garlic, oil, and lemon. The acid from the lemon cuts any bitterness and adds brightness that prevents the dish from feeling heavy. This is a classic preparation called 'garlicky greens' or sautéed spinach technique applied to broccolini - quick, elegant, and perfect for weeknight dinners.
 
 ## Directions
 

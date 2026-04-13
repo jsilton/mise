@@ -18,7 +18,7 @@ bestFor: [tuesday]
 
 ## Meal Overview
 
-A warming Korean stew that's as comforting as it is quick. Kimchi provides all the depth—spicy, sour, umami—while tofu and pork give substance. It's forgiving to timing, making it ideal for busy activity nights when everyone eats at different times.
+A warming Korean stew that's as comforting as it is quick. Kimchi provides all the depth - spicy, sour, umami - while tofu and pork give substance. It's forgiving to timing, making it ideal for busy activity nights when everyone eats at different times.
 
 ## Cooking Strategy
 
@@ -30,6 +30,6 @@ A warming Korean stew that's as comforting as it is quick. Kimchi provides all t
 
 ## Notes
 
-- This stew actually improves if you make it ahead—the flavors deepen
+- This stew actually improves if you make it ahead - the flavors deepen
 - Serve with extra kimchi on the side for those who want more spice
 - Leftovers reheat beautifully and make great next-day lunch

@@ -43,6 +43,14 @@ seasons:
 nutritionalDensity: moderate
 leftovers: good
 equipment: []
+nutrition:
+  calories: 325
+  protein: 24
+  carbs: 9
+  fat: 22.5
+  fiber: 1.5
+  sugar: 4.5
+  sodium: 540
 ---
 
 ## Chef's Note
@@ -57,4 +65,4 @@ Quiche is a savory French tart from the Lorraine region, traditionally made with
 4.  **The Emulsion:** In a large bowl, whisk eggs, milk, half-and-half, mustard, thyme, salt, and pepper until very frothy.
 5.  **Assemble:** Fold the mushroom-spinach mixture and the cheese into the egg base. Pour into the prepared crust.
 6.  **Bake:** Bake for 30-35 minutes until the center is set and the top is deep golden brown.
-7.  **Set:** Let stand for 10 minutes before slicing—this is mandatory for the structural integrity of the "Bounce."
+7.  **Set:** Let stand for 10 minutes before slicing - this is mandatory for the structural integrity of the "Bounce."

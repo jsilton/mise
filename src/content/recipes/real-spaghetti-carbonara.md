@@ -38,6 +38,14 @@ ingredients:
   - Salt for pasta water
   - '--- Lemon juice ---'
   - '1-2 Lemons, juiced'
+nutrition:
+  calories: 100
+  protein: 7
+  carbs: 7
+  fat: 5.5
+  fiber: 1
+  sugar: 0.5
+  sodium: 70
 ---
 
 ## Chef's Note

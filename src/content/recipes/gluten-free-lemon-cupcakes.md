@@ -52,6 +52,14 @@ pairsWith:
   - apple-pie
   - blackout-chocolate-cake
   - classic-peach-ice-cream
+nutrition:
+  calories: 560
+  protein: 3.5
+  carbs: 132
+  fat: 4.5
+  fiber: 2
+  sugar: 119.5
+  sodium: 280
 ---
 
 ## Chef's Note
@@ -62,7 +70,7 @@ Beat oil and sugar for a full minute before adding eggs - this creates a stable 
 
 1.  **Dry Mix:** Whisk together GF flour, baking powder, and salt. Set aside.
 2.  **The Emulsion:** In a large bowl, beat the oil and sugar with an electric mixer for 1 minute. Add eggs one at a time, beating well after each. Stir in vanilla, lemon juice, and zest.
-3.  **Combine:** Gradually add the flour mixture and milk. Mix until **just combined**—GF flour doesn't develop gluten, but over-mixing can still lead to a gummy "Bounce."
+3.  **Combine:** Gradually add the flour mixture and milk. Mix until **just combined** - GF flour doesn't develop gluten, but over-mixing can still lead to a gummy "Bounce."
 4.  **Bake:** Divide batter among 12 lined cups (about 2/3 full). Bake at 350°F for 18-20 minutes until a toothpick comes out clean.
 5.  **Cool:** Let cool **completely** before frosting. GF cakes are structurally fragile while warm.
 6.  **The Frosting:** Beat butter until creamy. Add lemon juice and 1 cup of sugar. Beat until smooth. Gradually add remaining sugar and milk until the frosting holds a stiff peak.

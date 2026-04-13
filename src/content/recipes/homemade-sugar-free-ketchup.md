@@ -44,6 +44,14 @@ ingredients:
   - Pinch of Cinnamon
   - Salt and Black Pepper to taste
 origin: United States
+nutrition:
+  calories: 25
+  protein: 0.5
+  carbs: 3
+  fat: 0
+  fiber: 0.5
+  sugar: 0
+  sodium: 580
 ---
 
 ## Chef's Note

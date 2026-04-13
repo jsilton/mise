@@ -49,11 +49,19 @@ ingredients:
   - 1/2 cup Vegetable Oil
   - 1 tbsp Vanilla Extract
 origin: United States
+nutrition:
+  calories: 1020
+  protein: 12.5
+  carbs: 98
+  fat: 69
+  fiber: 5.5
+  sugar: 61.5
+  sodium: 850
 ---
 
 ## Chef's Note
 
-Blackout cake is impossibly rich and moist—the secret is blooming cocoa powder in boiling water (like tea), which extracts flavor and hydrates the powder fully before it meets the batter. Greek yogurt adds tanginess and moisture while keeping the crumb tender. Espresso powder is invisible but essential—it amplifies chocolate flavor without making the cake taste like coffee.
+Blackout cake is impossibly rich and moist - the secret is blooming cocoa powder in boiling water (like tea), which extracts flavor and hydrates the powder fully before it meets the batter. Greek yogurt adds tanginess and moisture while keeping the crumb tender. Espresso powder is invisible but essential - it amplifies chocolate flavor without making the cake taste like coffee.
 ## Directions
 
 1.  **Bloom:** In a large bowl, whisk the boiling water with the cocoa powder and espresso powder. Let it sit for 2 minutes to bloom the chocolate.

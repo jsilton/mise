@@ -46,6 +46,14 @@ pairsWith:
   - apple-pie
   - blackout-chocolate-cake
   - cranberry-crunch
+nutrition:
+  calories: 290
+  protein: 3
+  carbs: 35.5
+  fat: 15.5
+  fiber: 0
+  sugar: 35
+  sodium: 330
 ---
 
 ## Chef's Note

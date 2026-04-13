@@ -47,6 +47,14 @@ ingredients:
   - 3 Star Anise + 3 slices Ginger
   - '5 cloves Garlic, chopped'
 origin: China
+nutrition:
+  calories: 85
+  protein: 8.5
+  carbs: 5
+  fat: 3.5
+  fiber: 0.5
+  sugar: 1.5
+  sodium: 530
 ---
 
 ## Chef's Note

@@ -30,7 +30,7 @@ The ultimate crowd-pleaser for midweek. Set out carnitas, toppings, and let ever
 
 ## Notes
 
-- Offer both flour and corn tortillas—everyone has preferences
+- Offer both flour and corn tortillas - everyone has preferences
 - Pickled jalapeños and hot sauce on the side for the adventurous
 - Leftover carnitas make great burrito bowls, tacos, or nachos the next day
-- Kids can help assemble their own—great for engagement
+- Kids can help assemble their own - great for engagement

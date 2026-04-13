@@ -2,32 +2,59 @@
 title: Honey-Glazed Carrots
 origin: United States
 difficulty: easy
-cookingMethods: [roast]
-dietary: [vegetarian, gluten-free]
-occasions: [weeknight, comfort-food, entertaining, holiday]
-flavorProfile: [sweet, savory, rich, herbaceous]
-cuisines: [American]
+cookingMethods:
+  - roast
+dietary:
+  - vegetarian
+  - gluten-free
+occasions:
+  - weeknight
+  - comfort-food
+  - entertaining
+  - holiday
+flavorProfile:
+  - sweet
+  - savory
+  - rich
+  - herbaceous
+cuisines:
+  - American
 role: side
 vibe: comfort
 prepTime: 10 min
 cookTime: 30 min
 totalTime: 40 min
 servings: '4'
-seasons: [fall, winter, spring]
+seasons:
+  - fall
+  - winter
+  - spring
 nutritionalDensity: moderate
 leftovers: good
 advancePrep: []
-equipment: [baking-sheet]
-pairsWith: [baked-chicken-parmesan, buttermilk-baked-chicken, brisket-with-carrots-and-onions]
+equipment:
+  - baking-sheet
+pairsWith:
+  - baked-chicken-parmesan
+  - buttermilk-baked-chicken
+  - brisket-with-carrots-and-onions
 ingredients:
   - '2 lbs Carrots, peeled and cut into 3-inch batons (or use whole baby carrots)'
   - '2 tbsp Unsalted Butter, melted'
-  - '2 tbsp Honey'
-  - '1 tbsp Olive Oil'
-  - '1/2 tsp Kosher Salt'
-  - '1/4 tsp Black Pepper'
-  - '1 tsp Fresh Thyme Leaves (or 1/2 tsp dried)'
-  - 'Flaky Sea Salt for finishing'
+  - 2 tbsp Honey
+  - 1 tbsp Olive Oil
+  - 1/2 tsp Kosher Salt
+  - 1/4 tsp Black Pepper
+  - 1 tsp Fresh Thyme Leaves (or 1/2 tsp dried)
+  - Flaky Sea Salt for finishing
+nutrition:
+  calories: 125
+  protein: 0.5
+  carbs: 12
+  fat: 9
+  fiber: 1
+  sugar: 9.5
+  sodium: 1230
 ---
 
 ## Chef's Note

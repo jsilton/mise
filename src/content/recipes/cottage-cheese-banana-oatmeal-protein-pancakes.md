@@ -40,6 +40,14 @@ ingredients:
   - 1/2 tsp Vanilla Extract
   - Fresh Blueberries or Dark Chocolate Chips
 origin: United States
+nutrition:
+  calories: 340
+  protein: 18.5
+  carbs: 23.5
+  fat: 19.5
+  fiber: 3
+  sugar: 6
+  sodium: 540
 ---
 
 ## Chef's Note

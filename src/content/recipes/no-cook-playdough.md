@@ -39,6 +39,14 @@ ingredients:
   - 5 tbsp Vegetable Oil
   - Liquid Watercolors or Wilton Icing Colors
 origin: United States
+nutrition:
+  calories: 1245
+  protein: 13.5
+  carbs: 96
+  fat: 90.5
+  fiber: 3.5
+  sugar: 0.5
+  sodium: 139510
 ---
 
 ## Chef's Note

@@ -42,11 +42,19 @@ pairsWith:
   - apple-pie
   - babys-first-smash-cake
   - best-cinnamon-roll-recipe-cinnabon-copycat
+nutrition:
+  calories: 390
+  protein: 4.5
+  carbs: 69.5
+  fat: 11.5
+  fiber: 4.5
+  sugar: 57
+  sodium: 220
 ---
 
 ## Chef's Note
 
-The secret to extraordinary texture is chilling the dough for 24 hours. Refrigerating the dough overnight is mandatory; it allows the starch to fully hydrate and the sugars to undergo enzymatic breakdown, resulting in a cookie with deep, butterscotch-like flavor. We use dark brown sugar instead of light to provide a richer moisture profile and a more pronounced chewy center. This recipe uses a generous chocolate ratio—4.5 cups ensure that every single bite is dominated by molten chocolate.
+The secret to extraordinary texture is chilling the dough for 24 hours. Refrigerating the dough overnight is mandatory; it allows the starch to fully hydrate and the sugars to undergo enzymatic breakdown, resulting in a cookie with deep, butterscotch-like flavor. We use dark brown sugar instead of light to provide a richer moisture profile and a more pronounced chewy center. This recipe uses a generous chocolate ratio - 4.5 cups ensure that every single bite is dominated by molten chocolate.
 
 ## Directions
 

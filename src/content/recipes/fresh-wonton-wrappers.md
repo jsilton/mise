@@ -34,6 +34,14 @@ ingredients:
   - 1/3 cup Water (Adjust as needed)
   - Cornstarch (for dusting - Do not use flour for dusting!)
 origin: China
+nutrition:
+  calories: 15
+  protein: 0.5
+  carbs: 3.5
+  fat: 0
+  fiber: 0
+  sugar: 0
+  sodium: 40
 ---
 
 ## Chef's Note

@@ -46,11 +46,19 @@ ingredients:
   - 1 tsp Ground Cinnamon
   - 1/2 tsp Sea Salt
 origin: United States
+nutrition:
+  calories: 195
+  protein: 2.5
+  carbs: 30
+  fat: 8
+  fiber: 3
+  sugar: 26
+  sodium: 360
 ---
 
 ## Chef's Note
 
-Zucchini muffins sound like a vegetable sneak, but they're really a moisture strategy: grated zucchini releases water as it bakes, keeping the crumb tender without relying on extra oil or eggs. The chocolate chips are the actual appeal—cocoa butter and sugar carry the flavor. Don't overmix once you add zucchini or you'll crush the shreds and make the muffins dense.
+Zucchini muffins sound like a vegetable sneak, but they're really a moisture strategy: grated zucchini releases water as it bakes, keeping the crumb tender without relying on extra oil or eggs. The chocolate chips are the actual appeal - cocoa butter and sugar carry the flavor. Don't overmix once you add zucchini or you'll crush the shreds and make the muffins dense.
 ## Directions
 
 1.  **Prep:** Preheat oven to 350°F. Grease a 12-cup muffin tin or use paper liners.

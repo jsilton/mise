@@ -44,11 +44,19 @@ seasons:
 nutritionalDensity: moderate
 leftovers: good
 equipment: []
+nutrition:
+  calories: 65
+  protein: 4
+  carbs: 2
+  fat: 4.5
+  fiber: 0.5
+  sugar: 1
+  sodium: 60
 ---
 
 ## Chef's Note
 
-Pre-baking the crust for 5 minutes creates a moisture barrier that prevents soggy bottom—essential for any quiche. A ratio of 5 eggs to 1/2 cup cream produces firm, sliceable custard that remains creamy rather than rubbery. Sautéing the onions in butter first develops their natural sweetness, providing contrast to salty ham.
+Pre-baking the crust for 5 minutes creates a moisture barrier that prevents soggy bottom - essential for any quiche. A ratio of 5 eggs to 1/2 cup cream produces firm, sliceable custard that remains creamy rather than rubbery. Sautéing the onions in butter first develops their natural sweetness, providing contrast to salty ham.
 
 ## Directions
 

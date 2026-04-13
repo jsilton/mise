@@ -47,11 +47,19 @@ pairsWith:
   - apple-cider-cream-pie
   - apple-pie
   - blackout-chocolate-cake
+nutrition:
+  calories: 430
+  protein: 4.5
+  carbs: 39
+  fat: 29.5
+  fiber: 0.5
+  sugar: 22.5
+  sodium: 260
 ---
 
 ## Chef's Note
 
-This dish comes from a home cooking tradition where technique and respect for ingredients matter more than complexity. The key is not overbaking—pull it from the oven when it still looks slightly underdone, and residual heat will finish the job perfectly.
+This dish comes from a home cooking tradition where technique and respect for ingredients matter more than complexity. The key is not overbaking - pull it from the oven when it still looks slightly underdone, and residual heat will finish the job perfectly.
 ## Directions
 
 1.  **Thermal Prep:** Preheat oven to 350°F. Line a 9-inch springform pan with parchment.

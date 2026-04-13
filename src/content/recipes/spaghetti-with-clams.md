@@ -43,6 +43,14 @@ ingredients:
   - 1 tbsp Fresh Lemon Juice (The Acid Balance)
   - Salt and Black Pepper
 origin: Italy
+nutrition:
+  calories: 135
+  protein: 0.5
+  carbs: 3.5
+  fat: 13.5
+  fiber: 1
+  sugar: 1
+  sodium: 10
 ---
 
 ## Chef's Note

@@ -1,33 +1,49 @@
 ---
 title: Asian-Glazed Meatballs
 difficulty: easy
-cookingMethods: [bake, sauté, simmer]
+cookingMethods:
+  - bake
+  - sauté
+  - simmer
 dietary: []
-occasions: [weeknight, meal-prep, kids-approved]
-flavorProfile: [sweet, savory, umami]
-cuisines: [Chinese-American, Asian-Fusion]
+occasions:
+  - weeknight
+  - meal-prep
+  - kids-approved
+flavorProfile:
+  - sweet
+  - savory
+  - umami
+cuisines:
+  - Chinese-American
+  - Asian-Fusion
 role: main
 vibe: comfort
 prepTime: 15 min
 cookTime: 25 min
 totalTime: 40 min
 servings: '5'
-seasons: [year-round]
+seasons:
+  - year-round
 nutritionalDensity: hearty
 leftovers: excellent
 equipment: []
-advancePrep: [make-ahead-sauce]
-pairsWith: [basmati-rice, steamed-broccoli, garlic-sesame-spinach]
+advancePrep:
+  - make-ahead-sauce
+pairsWith:
+  - basmati-rice
+  - steamed-broccoli
+  - garlic-sesame-spinach
 ingredients:
   - 'For the Meatballs:'
   - 1.5 lbs Ground Beef (80/20 blend) or Ground Turkey (93% lean)
   - 1/3 cup Panko Breadcrumbs
-  - 3 tbsp Whole Milk (if using turkey, for moisture)
-  - 1 Egg, beaten
-  - 2 cloves Garlic, minced
-  - 1 tbsp Fresh Ginger, grated
+  - '3 tbsp Whole Milk (if using turkey, for moisture)'
+  - '1 Egg, beaten'
+  - '2 cloves Garlic, minced'
+  - '1 tbsp Fresh Ginger, grated'
   - 2 tbsp Soy Sauce
-  - 2 Green Onions, finely chopped
+  - '2 Green Onions, finely chopped'
   - 1/2 tsp Black Pepper
   - 1/2 tsp Kosher Salt
   - 'For the Glaze:'
@@ -35,14 +51,22 @@ ingredients:
   - 1/3 cup Peking Duck Sauce (or substitute plum sauce)
   - 2 tbsp Rice Vinegar
   - 1 tbsp Soy Sauce
-  - 1 tbsp Fresh Ginger, grated
-  - 2 cloves Garlic, minced
+  - '1 tbsp Fresh Ginger, grated'
+  - '2 cloves Garlic, minced'
   - 1 tsp Sesame Oil
   - 1/4 cup Water
   - 'For Serving:'
   - 1 tsp Vegetable Oil (for searing)
   - Sesame seeds and sliced scallions for garnish
   - 'Quick Hack: Use 1.5 lbs frozen beef meatballs instead of making from scratch'
+nutrition:
+  calories: 340
+  protein: 13
+  carbs: 36.5
+  fat: 14
+  fiber: 1
+  sugar: 21.5
+  sodium: 2090
 ---
 
 ## Chef's Note

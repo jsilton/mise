@@ -48,18 +48,26 @@ ingredients:
   - 1 tsp Dried Oregano
   - Salt and Black Pepper to taste
 origin: Greece
+nutrition:
+  calories: 650
+  protein: 8.5
+  carbs: 15.5
+  fat: 63.5
+  fiber: 3
+  sugar: 8
+  sodium: 550
 ---
 
 ## Chef's Note
 
-A proper Greek salad (horiatiki) has no lettuce—it's a celebration of peak summer produce dressed simply and topped with a generous slab of feta. The key is using the best tomatoes you can find and cutting the feta into thick slices or cubes rather than crumbling it. The dressing should be nothing more than excellent olive oil, a splash of vinegar, and dried oregano. Simplicity is the point.
+A proper Greek salad (horiatiki) has no lettuce - it's a celebration of peak summer produce dressed simply and topped with a generous slab of feta. The key is using the best tomatoes you can find and cutting the feta into thick slices or cubes rather than crumbling it. The dressing should be nothing more than excellent olive oil, a splash of vinegar, and dried oregano. Simplicity is the point.
 
 ## Directions
 
 1. **The Assembly:** Arrange tomato wedges, cucumber slices, red onion, and bell pepper rings on a large platter or in a shallow bowl. Scatter olives throughout.
 
-2. **The Feta:** Place feta cheese in a single large piece or a few thick slices on top of the vegetables—this is traditional and keeps the cheese from getting lost.
+2. **The Feta:** Place feta cheese in a single large piece or a few thick slices on top of the vegetables - this is traditional and keeps the cheese from getting lost.
 
 3. **The Dress:** Drizzle generously with olive oil, then splash with red wine vinegar. Sprinkle dried oregano, salt, and pepper over everything.
 
-4. **The Serve:** Serve immediately at room temperature—chilling mutes the tomato flavor. Let diners break apart the feta as they serve themselves.
+4. **The Serve:** Serve immediately at room temperature - chilling mutes the tomato flavor. Let diners break apart the feta as they serve themselves.

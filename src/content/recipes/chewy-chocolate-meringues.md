@@ -37,6 +37,14 @@ pairsWith:
   - chocolate-souffle
   - flourless-chocolate-cake
   - apple-cider-cream-pie
+nutrition:
+  calories: 75
+  protein: 0.5
+  carbs: 14.5
+  fat: 1.5
+  fiber: 0.5
+  sugar: 14
+  sodium: 70
 ---
 
 ## Chef's Note

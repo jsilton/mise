@@ -2,38 +2,67 @@
 title: Roasted Cauliflower with Tahini
 origin: Middle Eastern
 difficulty: easy
-cookingMethods: [roast]
-dietary: [vegetarian, vegan, gluten-free]
-occasions: [weeknight, light-and-fresh, mediterranean]
-flavorProfile: [savory, nutty, earthy, acidic]
-cuisines: [Middle-Eastern, Mediterranean]
+cookingMethods:
+  - roast
+dietary:
+  - vegetarian
+  - vegan
+  - gluten-free
+occasions:
+  - weeknight
+  - light-and-fresh
+  - mediterranean
+flavorProfile:
+  - savory
+  - nutty
+  - earthy
+  - acidic
+cuisines:
+  - Middle-Eastern
+  - Mediterranean
 role: side
 vibe: nutritious
-seasons: [fall, winter, year-round]
+seasons:
+  - fall
+  - winter
+  - year-round
 nutritionalDensity: moderate
 leftovers: good
-advancePrep: [tahini-sauce-up-to-3-days]
-equipment: [sheet-pan]
+advancePrep:
+  - tahini-sauce-up-to-3-days
+equipment:
+  - sheet-pan
 prepTime: 10 min
 cookTime: 40 min
 totalTime: 50 min
 servings: '4'
-pairsWith: [chicken-shawarma, mediterranean-chicken-thighs, lamb-keema-matar]
+pairsWith:
+  - chicken-shawarma
+  - mediterranean-chicken-thighs
+  - lamb-keema-matar
 ingredients:
   - '1 large head Cauliflower (about 2 lbs), leaves removed and trimmed'
-  - '3 tbsp Olive Oil'
-  - '1 tsp Cumin'
-  - '1 tsp Smoked Paprika'
-  - '1/2 tsp Turmeric'
-  - '1 tsp Kosher Salt'
-  - '1/4 tsp Black Pepper'
-  - '3 tbsp Tahini'
-  - '2 tbsp Lemon Juice (about 1 lemon)'
-  - '1 tbsp Warm Water'
+  - 3 tbsp Olive Oil
+  - 1 tsp Cumin
+  - 1 tsp Smoked Paprika
+  - 1/2 tsp Turmeric
+  - 1 tsp Kosher Salt
+  - 1/4 tsp Black Pepper
+  - 3 tbsp Tahini
+  - 2 tbsp Lemon Juice (about 1 lemon)
+  - 1 tbsp Warm Water
   - '1 clove Garlic, minced'
   - '2 tbsp Fresh Parsley, chopped'
-  - '1 tbsp Pomegranate Seeds (optional)'
-  - '1 tsp Aleppo Pepper or Red Pepper Flakes (optional)'
+  - 1 tbsp Pomegranate Seeds (optional)
+  - 1 tsp Aleppo Pepper or Red Pepper Flakes (optional)
+nutrition:
+  calories: 185
+  protein: 3.5
+  carbs: 9.5
+  fat: 16.5
+  fiber: 3.5
+  sugar: 2
+  sodium: 610
 ---
 
 ## Chef's Note

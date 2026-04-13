@@ -38,11 +38,19 @@ ingredients:
   - Oil of Wintergreen (optional for aroma)
   - Food Coloring or Liquid Watercolors
 origin: United States
+nutrition:
+  calories: 795
+  protein: 13.5
+  carbs: 96
+  fat: 38.5
+  fiber: 3.5
+  sugar: 0.5
+  sodium: 111620
 ---
 
 ## Chef's Note
 
-Homemade play-dough is a rainy-day project that's actually food science at work—a cooked dough that stays pliable for months. The cream of tartar is the key: it acts as a preservative and keeps the dough soft, so it won't crack or harden in an airtight container. The oil and salt also help preserve texture.
+Homemade play-dough is a rainy-day project that's actually food science at work - a cooked dough that stays pliable for months. The cream of tartar is the key: it acts as a preservative and keeps the dough soft, so it won't crack or harden in an airtight container. The oil and salt also help preserve texture.
 ## Directions
 
 1.  **Combine:** In a medium non-stick saucepan, whisk together the flour, salt, and cream of tartar.

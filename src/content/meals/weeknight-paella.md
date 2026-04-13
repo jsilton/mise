@@ -31,6 +31,6 @@ A simplified paella with golden saffron rice, chorizo, shrimp, and the prized cr
 
 ## Notes
 
-- Don't stir once the rice is in — that's how socarrat forms
+- Don't stir once the rice is in  -  that's how socarrat forms
 - Listen for the crackling sound that tells you the bottom is crispy
 - Bomba rice is traditional, but short-grain works

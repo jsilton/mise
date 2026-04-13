@@ -47,16 +47,24 @@ pairsWith:
   - chewy-chocolate-meringues
   - flourless-chocolate-cake
   - apple-cider-cream-pie
+nutrition:
+  calories: 285
+  protein: 7.5
+  carbs: 51
+  fat: 6.5
+  fiber: 0
+  sugar: 51
+  sodium: 690
 ---
 
 ## Chef's Note
 
-This classic dessert requires careful technique. The secret to a tall, even rise is the thumb-run: after filling the dish, you must run your thumb around the inside rim to create a small channel. This prevents the batter from sticking to the edges, allowing it to rise straight up like a top hat. We use a 2:1 ratio of whites to yolks to ensure a light, airy texture while maintaining deep chocolate intensity. Serve straight from the oven—the magic is in the fleeting moment before deflation.
+This classic dessert requires careful technique. The secret to a tall, even rise is the thumb-run: after filling the dish, you must run your thumb around the inside rim to create a small channel. This prevents the batter from sticking to the edges, allowing it to rise straight up like a top hat. We use a 2:1 ratio of whites to yolks to ensure a light, airy texture while maintaining deep chocolate intensity. Serve straight from the oven - the magic is in the fleeting moment before deflation.
 
 ## Directions
 
 1.  **The Ladder:** Preheat oven to 375°F. Generously butter a 6-cup soufflé dish. Coat with 1 tbsp sugar, knocking out the excess.
-2.  **The Base:** Melt chocolate in a heatproof bowl over simmering water. Stir until smooth. Remove from heat and whisk in the egg yolks—the mixture will stiffen, which is expected.
+2.  **The Base:** Melt chocolate in a heatproof bowl over simmering water. Stir until smooth. Remove from heat and whisk in the egg yolks - the mixture will stiffen, which is expected.
 3.  **The Meringue:** In a clean bowl, beat egg whites with a pinch of salt until soft peaks form. Gradually add 1/3 cup sugar, beating until the whites are stiff and glossy.
 4.  **The Lighten:** Stir about 1 cup of the meringue into the stiff chocolate base to loosen it.
 5.  **The Fold:** Gently fold the remaining meringue into the chocolate using a "cut and fold" motion to preserve the air bubbles.

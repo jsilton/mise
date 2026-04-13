@@ -49,11 +49,19 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
+nutrition:
+  calories: 745
+  protein: 73.5
+  carbs: 9
+  fat: 50.5
+  fiber: 2.5
+  sugar: 2
+  sodium: 2510
 ---
 
 ## Chef's Note
 
-The secret to crispy baked wings without frying is baking powder. Mixed into the dry rub, it raises the skin's pH, which breaks down proteins and draws moisture to the surface where it evaporates in the oven's heat. The result: shatteringly crisp skin with almost no effort. Rest the seasoned wings uncovered in the fridge for at least an hour (overnight is better) to dry the surface further. The lemon pepper butter goes on hot wings right out of the oven—the residual heat melts the butter into every crevice while the zest's oils bloom.
+The secret to crispy baked wings without frying is baking powder. Mixed into the dry rub, it raises the skin's pH, which breaks down proteins and draws moisture to the surface where it evaporates in the oven's heat. The result: shatteringly crisp skin with almost no effort. Rest the seasoned wings uncovered in the fridge for at least an hour (overnight is better) to dry the surface further. The lemon pepper butter goes on hot wings right out of the oven - the residual heat melts the butter into every crevice while the zest's oils bloom.
 
 ## Directions
 

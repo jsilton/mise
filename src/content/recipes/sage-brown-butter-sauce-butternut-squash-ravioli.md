@@ -41,11 +41,19 @@ ingredients:
   - 1/2 tsp Fresh Lemon Juice (The Acid Balance)
   - Coarse Sea Salt and Black Pepper
 origin: Italy
+nutrition:
+  calories: 610
+  protein: 2
+  carbs: 3.5
+  fat: 67
+  fiber: 0.5
+  sugar: 1.5
+  sodium: 570
 ---
 
 ## Chef's Note
 
-Brown butter and sage is a classic Northern Italian sauce, especially popular with filled pasta like ravioli or tortellini. The French call it beurre noisette ("hazelnut butter") for its nutty aroma. Cook the butter until golden-brown before adding sage—this deepens the flavor dramatically. Adding broth and cream to brown butter prevents it from feeling too rich or greasy. A squeeze of lemon juice at the end brightens the sweet squash filling.
+Brown butter and sage is a classic Northern Italian sauce, especially popular with filled pasta like ravioli or tortellini. The French call it beurre noisette ("hazelnut butter") for its nutty aroma. Cook the butter until golden-brown before adding sage - this deepens the flavor dramatically. Adding broth and cream to brown butter prevents it from feeling too rich or greasy. A squeeze of lemon juice at the end brightens the sweet squash filling.
 
 ## Directions
 

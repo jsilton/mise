@@ -18,7 +18,7 @@ bestFor: [saturday, sunday]
 
 ## Meal Overview
 
-An ambitious dim sum spread featuring handmade dumplings in two styles—delicate har gow and savory shumai. This is a weekend project meal, best tackled with a partner or family to help with the wrapping. The reward is restaurant-quality dim sum at home.
+An ambitious dim sum spread featuring handmade dumplings in two styles - delicate har gow and savory shumai. This is a weekend project meal, best tackled with a partner or family to help with the wrapping. The reward is restaurant-quality dim sum at home.
 
 ## Cooking Strategy
 

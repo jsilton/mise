@@ -46,6 +46,14 @@ ingredients:
   - '3 cloves Garlic, minced'
   - 1/2 tsp White Pepper
   - '1 tsp Beet Juice (Optional, for natural red color)'
+nutrition:
+  calories: 555
+  protein: 35
+  carbs: 52.5
+  fat: 23
+  fiber: 0.5
+  sugar: 44
+  sodium: 1330
 ---
 
 ## Chef's Note
@@ -61,5 +69,5 @@ Char Siu (叉烧) literally means "fork roasted," referring to the traditional m
 3.  **Roast (High Heat):** Place pork on the rack, ensuring space between strips. Roast at 475°F for 10 minutes to set the crust.
 4.  **Roast (Low Heat):** Reduce oven to 375°F. Flip the meat. Roast for 30-40 minutes more.
 5.  **The Glaze:** Every 10 minutes, brush the pork with the reserved marinade (or pan drippings if safe).
-6.  **Broil (The Char):** For the signature blackened edges, switch on the broiler for the final 2-3 minutes. Watch closely—sugar burns instantly.
+6.  **Broil (The Char):** For the signature blackened edges, switch on the broiler for the final 2-3 minutes. Watch closely - sugar burns instantly.
 7.  **Rest:** Let rest for 10 minutes before slicing against the grain.

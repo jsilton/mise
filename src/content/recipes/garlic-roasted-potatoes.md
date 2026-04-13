@@ -39,6 +39,14 @@ ingredients:
   - '2 tbsp Garlic, minced (6 cloves)'
   - '2 tbsp Fresh Parsley, minced'
 origin: United States
+nutrition:
+  calories: 280
+  protein: 1
+  carbs: 9
+  fat: 27
+  fiber: 1
+  sugar: 0.5
+  sodium: 440
 ---
 
 ## Chef's Note

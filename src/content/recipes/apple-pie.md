@@ -53,6 +53,14 @@ ingredients:
   - 1 tbsp Lemon Juice
   - 1 tsp Cinnamon + 1/4 tsp Nutmeg
   - 1 Egg (for wash)
+nutrition:
+  calories: 760
+  protein: 5.5
+  carbs: 92
+  fat: 44.5
+  fiber: 3
+  sugar: 59.5
+  sodium: 610
 ---
 
 ## Chef's Note

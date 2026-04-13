@@ -2,36 +2,56 @@
 title: Tzatziki Sauce
 origin: Greece
 difficulty: easy
-cookingMethods: [no-cook]
-dietary: [vegetarian, gluten-free, nut-free]
-occasions: [meal-prep, entertaining]
-flavorProfile: [acidic, rich]
-cuisines: [Greek]
+cookingMethods:
+  - no-cook
+dietary:
+  - vegetarian
+  - gluten-free
+  - nut-free
+occasions:
+  - meal-prep
+  - entertaining
+flavorProfile:
+  - acidic
+  - rich
+cuisines:
+  - Greek
 role: condiment
 vibe: quick
-seasons: [spring, summer]
+seasons:
+  - spring
+  - summer
 nutritionalDensity: light
 leftovers: good
-advancePrep: [make-ahead]
-equipment: [mixing-bowl, box-grater]
+advancePrep:
+  - make-ahead
+equipment:
+  - mixing-bowl
+  - box-grater
 prepTime: 15 min
 cookTime: 0 min
 totalTime: 15 min
-servings: '2 cups'
+servings: 2 cups
 pairsWith:
-  [
-    mediterranean-chicken-thighs,
-    greek-style-lamb-burgers-with-yogurt-cucumber-sauce,
-    avgolemono-soup,
-  ]
+  - mediterranean-chicken-thighs
+  - greek-style-lamb-burgers-with-yogurt-cucumber-sauce
+  - avgolemono-soup
 ingredients:
-  - '2 cups Full-Fat Greek Yogurt'
-  - '1 large English Cucumber'
+  - 2 cups Full-Fat Greek Yogurt
+  - 1 large English Cucumber
   - '2 cloves Garlic, grated into a paste'
-  - '2 tbsp Extra-Virgin Olive Oil'
-  - '1 tbsp Fresh Lemon Juice'
+  - 2 tbsp Extra-Virgin Olive Oil
+  - 1 tbsp Fresh Lemon Juice
   - '1 tbsp Fresh Dill, chopped'
-  - '1 tsp Kosher Salt'
+  - 1 tsp Kosher Salt
+nutrition:
+  calories: 295
+  protein: 25
+  carbs: 20.5
+  fat: 14
+  fiber: 2
+  sugar: 10.5
+  sodium: 1240
 ---
 
 ## Chef's Note

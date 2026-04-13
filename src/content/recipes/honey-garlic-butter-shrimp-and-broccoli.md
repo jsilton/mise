@@ -44,6 +44,14 @@ ingredients:
   - 1 tsp Extra-Virgin Olive Oil
   - Salt and Black Pepper
 origin: China
+nutrition:
+  calories: 520
+  protein: 34.5
+  carbs: 82
+  fat: 10.5
+  fiber: 2.5
+  sugar: 67.5
+  sodium: 4530
 ---
 
 ## Chef's Note

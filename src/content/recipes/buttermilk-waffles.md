@@ -38,6 +38,14 @@ seasons:
 nutritionalDensity: moderate
 leftovers: good
 equipment: []
+nutrition:
+  calories: 995
+  protein: 7
+  carbs: 36.5
+  fat: 94
+  fiber: 1
+  sugar: 4.5
+  sodium: 1440
 ---
 
 ## Chef's Note
@@ -48,7 +56,7 @@ Buttermilk's acidity reacts with baking soda for extra lift and tang. Rest the b
 
 1.  **Dry Mix:** In a large bowl, whisk together flour, sugar, baking powder, baking soda, and salt.
 2.  **Wet Mix:** In a separate bowl, whisk the buttermilk and melted butter. Whisk in the eggs until just combined.
-3.  **Combine:** Pour the wet ingredients into the dry. Whisk until **just combined**—a few small lumps are essential for a light texture. Fold in the vanilla.
+3.  **Combine:** Pour the wet ingredients into the dry. Whisk until **just combined** - a few small lumps are essential for a light texture. Fold in the vanilla.
 4.  **The Rest:** Let the batter rest at room temperature for 10-15 minutes. It should become slightly bubbly.
 5.  **Cook:** Preheat your waffle iron and grease lightly. Pour about 1/3 to 1/2 cup of batter (depending on your iron size).
 6.  **Finish:** Cook until the steam stops rising from the iron and the waffles are deep golden brown.

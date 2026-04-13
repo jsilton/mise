@@ -47,6 +47,14 @@ ingredients:
   - 3/4 cup Fresh Orange Juice (The Acid Balance)
   - 1/4 tsp Sea Salt
 origin: United States
+nutrition:
+  calories: 75
+  protein: 9.5
+  carbs: 10
+  fat: 0
+  fiber: 1
+  sugar: 7.5
+  sodium: 260
 ---
 
 ## Chef's Note

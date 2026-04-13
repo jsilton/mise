@@ -41,6 +41,14 @@ ingredients:
   - 1 tsp Sea Salt
   - Pinch of Red Pepper Flakes
 origin: United States
+nutrition:
+  calories: 30
+  protein: 1.5
+  carbs: 3
+  fat: 1
+  fiber: 0.5
+  sugar: 1
+  sodium: 220
 ---
 
 ## Chef's Note
@@ -50,10 +58,10 @@ Lean turkey needs moisture - finely minced carrots release liquid as they bake, 
 ## Directions
 
 1.  **Prep:** Preheat oven to 350°F. Line a large baking sheet with parchment paper.
-2.  **Mince:** Use a food processor or sharp knife to finely mince the carrots and onions until they are almost a paste—this ensures they integrate perfectly into the meat.
+2.  **Mince:** Use a food processor or sharp knife to finely mince the carrots and onions until they are almost a paste - this ensures they integrate perfectly into the meat.
 3.  **Combine:** In a large bowl, combine turkey, breadcrumbs, minced veg, eggs, and seasonings. Use your hands to mix **gently** until just incorporated. Do not over-mix, or the meatballs will become tough.
 4.  **Shape:** Form the mixture into 2-tablespoon-sized balls (about the size of a golf ball). Arrange on the prepared baking sheet.
 5.  **Bake:** Bake for 25-30 minutes until the internal temperature reaches 165°F and there is no pink in the center.
 6.  **Serve:** Serve hot with your favorite tomato sauce or over spaghetti squash.
 
-**Rest:** Let Ground Turkey rest for 5 minutes before slicing or serving — the juices redistribute and every piece stays moist.
+**Rest:** Let Ground Turkey rest for 5 minutes before slicing or serving  -  the juices redistribute and every piece stays moist.

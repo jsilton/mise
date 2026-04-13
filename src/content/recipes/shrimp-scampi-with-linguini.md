@@ -47,6 +47,14 @@ ingredients:
   - '1/4 cup Fresh Parsley, chopped'
   - Freshly Grated Parmesan
 origin: Italy
+nutrition:
+  calories: 285
+  protein: 26.5
+  carbs: 5
+  fat: 18
+  fiber: 1
+  sugar: 1
+  sodium: 450
 ---
 
 ## Chef's Note

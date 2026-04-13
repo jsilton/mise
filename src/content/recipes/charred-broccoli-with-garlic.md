@@ -42,11 +42,19 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 equipment: []
+nutrition:
+  calories: 85
+  protein: 2
+  carbs: 5
+  fat: 7
+  fiber: 1.5
+  sugar: 1
+  sodium: 270
 ---
 
 ## Chef's Note
 
-Charred broccoli with garlic is a staple in Chinese-American restaurants. The key is drying the florets thoroughly and using very high heat—wet broccoli will steam instead of char. Let the broccoli sit undisturbed in the hot pan for 2 minutes to get blackened, nutty spots before tossing. Soy sauce adds deeper umami than salt alone, and a squeeze of lemon at the end brightens everything.
+Charred broccoli with garlic is a staple in Chinese-American restaurants. The key is drying the florets thoroughly and using very high heat - wet broccoli will steam instead of char. Let the broccoli sit undisturbed in the hot pan for 2 minutes to get blackened, nutty spots before tossing. Soy sauce adds deeper umami than salt alone, and a squeeze of lemon at the end brightens everything.
 
 ## Directions
 

@@ -45,11 +45,19 @@ ingredients:
   - 1 tsp Sugar
   - 1/2 tsp Toasted Sesame Oil
 origin: China
+nutrition:
+  calories: 460
+  protein: 8
+  carbs: 94.5
+  fat: 4
+  fiber: 2.5
+  sugar: 3
+  sodium: 1780
 ---
 
 ## Chef's Note
 
-Beef chow fun is a classic Cantonese stir-fry from Guangzhou, famous for showcasing wok hei—the smoky, charred flavor from high-heat cooking. Marinating the beef with baking soda tenderizes it (a technique called "velveting" in Chinese cooking). The key is using very high heat and stirring minimally—let the noodles sit undisturbed so they char and develop flavor without breaking apart. Fresh wide rice noodles (ho fun) are essential for the authentic chewy texture.
+Beef chow fun is a classic Cantonese stir-fry from Guangzhou, famous for showcasing wok hei - the smoky, charred flavor from high-heat cooking. Marinating the beef with baking soda tenderizes it (a technique called "velveting" in Chinese cooking). The key is using very high heat and stirring minimally - let the noodles sit undisturbed so they char and develop flavor without breaking apart. Fresh wide rice noodles (ho fun) are essential for the authentic chewy texture.
 
 ## Directions
 

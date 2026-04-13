@@ -18,7 +18,7 @@ bestFor: [monday, tuesday, wednesday]
 
 ## Meal Overview
 
-A warming, aromatic curry bowl that's deceptively easy to make. The coconut milk base is rich and comforting, while the curry paste does all the heavy lifting on flavor. Perfect for meal prep—the curry actually improves overnight.
+A warming, aromatic curry bowl that's deceptively easy to make. The coconut milk base is rich and comforting, while the curry paste does all the heavy lifting on flavor. Perfect for meal prep - the curry actually improves overnight.
 
 ## Cooking Strategy
 
@@ -30,6 +30,6 @@ A warming, aromatic curry bowl that's deceptively easy to make. The coconut milk
 
 ## Notes
 
-- Red, green, or yellow curry paste all work—choose your heat level
+- Red, green, or yellow curry paste all work - choose your heat level
 - Add Thai basil at the end for authenticity
 - Leftovers reheat beautifully for lunch bowls

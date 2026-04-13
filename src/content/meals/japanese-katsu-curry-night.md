@@ -19,7 +19,7 @@ bestFor: [wednesday, thursday]
 
 ## Meal Overview
 
-A Japanese comfort classic that's milder and sweeter than Indian curry, with crispy fried chicken on top. The combination of crispy katsu, creamy curry, and cool pickled cucumber salad creates perfect textural contrast. Kids usually love this—it's approachable and delicious without being challenging.
+A Japanese comfort classic that's milder and sweeter than Indian curry, with crispy fried chicken on top. The combination of crispy katsu, creamy curry, and cool pickled cucumber salad creates perfect textural contrast. Kids usually love this - it's approachable and delicious without being challenging.
 
 ## Cooking Strategy
 
@@ -32,7 +32,7 @@ A Japanese comfort classic that's milder and sweeter than Indian curry, with cri
 
 ## Notes
 
-- Katsu should be golden, crispy, and not soggy—fry just before serving
-- Japanese curry paste (from a jar) is perfectly acceptable—even home cooks use it
+- Katsu should be golden, crispy, and not soggy - fry just before serving
+- Japanese curry paste (from a jar) is perfectly acceptable - even home cooks use it
 - The cucumber salad provides brightness and cuts through richness
 - This is comfort food that also works for entertaining

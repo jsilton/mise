@@ -46,11 +46,19 @@ ingredients:
   - '2 cloves Garlic, minced'
   - 1 tbsp Shaoxing Wine
 origin: China
+nutrition:
+  calories: 540
+  protein: 54
+  carbs: 49.5
+  fat: 15.5
+  fiber: 3
+  sugar: 2.5
+  sodium: 1740
 ---
 
 ## Chef's Note
 
-Pan-fried noodles (gon chow min) are a Cantonese restaurant specialty. The technique: boil noodles briefly, then pan-fry them into a crispy "bird's nest" cake—crunchy on the outside, soft inside. Treating shrimp with baking soda (then rinsing thoroughly) gives them a firm, snappy texture. The clear, golden gravy poured over the top softens the center noodles while leaving edges crispy. A dramatic presentation dish.
+Pan-fried noodles (gon chow min) are a Cantonese restaurant specialty. The technique: boil noodles briefly, then pan-fry them into a crispy "bird's nest" cake - crunchy on the outside, soft inside. Treating shrimp with baking soda (then rinsing thoroughly) gives them a firm, snappy texture. The clear, golden gravy poured over the top softens the center noodles while leaving edges crispy. A dramatic presentation dish.
 
 ## Directions
 

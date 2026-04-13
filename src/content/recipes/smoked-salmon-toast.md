@@ -2,33 +2,58 @@
 title: Smoked Salmon Toast
 origin: Scandinavia
 difficulty: easy
-cookingMethods: [toast, no-cook]
-dietary: [pescatarian]
-occasions: [weekend-brunch, light-and-fresh, entertaining]
-flavorProfile: [savory, acidic, rich, briny]
-cuisines: [Scandinavian, American]
+cookingMethods:
+  - toast
+  - no-cook
+dietary:
+  - pescatarian
+occasions:
+  - weekend-brunch
+  - light-and-fresh
+  - entertaining
+flavorProfile:
+  - savory
+  - acidic
+  - rich
+  - briny
+cuisines:
+  - Scandinavian
+  - American
 role: main
 vibe: quick
-seasons: [year-round]
+seasons:
+  - year-round
 nutritionalDensity: moderate
 leftovers: poor
 advancePrep: []
-equipment: [toaster]
+equipment:
+  - toaster
 prepTime: 8 min
 cookTime: 3 min
 totalTime: 11 min
 servings: '2'
-pairsWith: [avocado-toast, everyday-arugula-salad, shakshuka]
+pairsWith:
+  - avocado-toast
+  - everyday-arugula-salad
+  - shakshuka
 ingredients:
-  - '2 slices Thick-Cut Sourdough or Pumpernickel Bread'
+  - 2 slices Thick-Cut Sourdough or Pumpernickel Bread
   - '4 oz Smoked Salmon (lox-style, cold-smoked)'
   - '3 tbsp Cream Cheese, softened'
   - '1 tbsp Capers, drained'
   - '2 tbsp Red Onion, very thinly sliced'
-  - '1 tbsp Fresh Dill Fronds'
-  - '1 tsp Fresh Lemon Juice'
-  - 'Freshly Ground Black Pepper'
-  - 'Everything Bagel Seasoning (optional)'
+  - 1 tbsp Fresh Dill Fronds
+  - 1 tsp Fresh Lemon Juice
+  - Freshly Ground Black Pepper
+  - Everything Bagel Seasoning (optional)
+nutrition:
+  calories: 275
+  protein: 16.5
+  carbs: 21.5
+  fat: 14.5
+  fiber: 3.5
+  sugar: 6.5
+  sodium: 260
 ---
 
 ## Chef's Note

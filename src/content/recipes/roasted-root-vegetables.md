@@ -40,11 +40,19 @@ seasons:
 nutritionalDensity: moderate
 leftovers: good
 equipment: []
+nutrition:
+  calories: 375
+  protein: 4
+  carbs: 3.5
+  fat: 39.5
+  fiber: 0
+  sugar: 2.5
+  sodium: 440
 ---
 
 ## Chef's Note
 
-The secret to root vegetables that aren't "mushy" is **Uniformity and Space**. You must cut all the vegetables into equal 1-inch chunks so they cook at the same rate. Most importantly, use two baking sheets if necessary—if the vegetables are touching, they will steam; if they have space, they will caramelize and develop a sweet, nutty crust.
+The secret to root vegetables that aren't "mushy" is **Uniformity and Space**. You must cut all the vegetables into equal 1-inch chunks so they cook at the same rate. Most importantly, use two baking sheets if necessary - if the vegetables are touching, they will steam; if they have space, they will caramelize and develop a sweet, nutty crust.
 
 ## Directions
 

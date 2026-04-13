@@ -39,6 +39,14 @@ ingredients:
   - Ice for stirring
   - Orange peel for garnish
 origin: United States
+nutrition:
+  calories: 60
+  protein: 1
+  carbs: 15.5
+  fat: 0.5
+  fiber: 3
+  sugar: 12
+  sodium: 0
 ---
 
 ## Directions

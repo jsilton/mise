@@ -39,11 +39,19 @@ leftovers: excellent
 equipment: []
 advancePrep:
   - chill-overnight
+nutrition:
+  calories: 120
+  protein: 1.5
+  carbs: 30.5
+  fat: 0.5
+  fiber: 1
+  sugar: 27
+  sodium: 600
 ---
 
 ## Chef's Note
 
-Rosh Hashanah brisket is a Jewish holiday tradition that carries prayer and memory into the kitchen—the dish is as much about the ritual as the flavor. A long, low braise at 300°F for hours breaks down the connective tissue into gelatin, which is why it's so tender. The braising liquid becomes a gravy that coats each slice.
+Rosh Hashanah brisket is a Jewish holiday tradition that carries prayer and memory into the kitchen - the dish is as much about the ritual as the flavor. A long, low braise at 300°F for hours breaks down the connective tissue into gelatin, which is why it's so tender. The braising liquid becomes a gravy that coats each slice.
 ## Directions
 
 1.  **Foundation:** Preheat oven to 400°F. Lay the onion rounds in a single layer at the bottom of a heavy baking dish or Dutch oven.
@@ -54,4 +62,4 @@ Rosh Hashanah brisket is a Jewish holiday tradition that carries prayer and memo
 6.  **The Chill (Optional but Recommended):** Let the meat cool in its juices, then refrigerate overnight. This allows the fat to be easily removed and the meat to be sliced perfectly thin.
 7.  **Serve:** Slice against the grain. Return to the sauce and reheat gently before serving.
 
-**Rest:** Let cut Brisket rest for 10 minutes before slicing or serving — the juices redistribute and every piece stays moist.
+**Rest:** Let cut Brisket rest for 10 minutes before slicing or serving  -  the juices redistribute and every piece stays moist.

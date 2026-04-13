@@ -46,6 +46,14 @@ pairsWith:
   - apple-pie
   - blackout-chocolate-cake
   - classic-peach-ice-cream
+nutrition:
+  calories: 0
+  protein: 0
+  carbs: 0
+  fat: 0
+  fiber: 0
+  sugar: 0
+  sodium: 60
 ---
 
 ## Chef's Note

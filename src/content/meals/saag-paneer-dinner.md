@@ -18,7 +18,7 @@ bestFor: [tuesday, wednesday, thursday]
 
 ## Meal Overview
 
-Cubes of paneer nestled in a rich, deeply spiced spinach sauce — this is vegetarian Indian comfort food at its finest. Fluffy basmati rice and cool cucumber raita complete the classic trio. The raita's cooling effect is essential against the warm spices.
+Cubes of paneer nestled in a rich, deeply spiced spinach sauce  -  this is vegetarian Indian comfort food at its finest. Fluffy basmati rice and cool cucumber raita complete the classic trio. The raita's cooling effect is essential against the warm spices.
 
 ## Cooking Strategy
 

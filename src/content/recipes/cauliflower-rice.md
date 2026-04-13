@@ -43,15 +43,23 @@ ingredients:
   - '2 cloves Garlic, minced (optional)'
   - '2 tbsp Fresh Herbs such as parsley, cilantro, or chives (optional)'
 origin: United States
+nutrition:
+  calories: 70
+  protein: 0.5
+  carbs: 2
+  fat: 7
+  fiber: 0.5
+  sugar: 0.5
+  sodium: 590
 ---
 
 ## Chef's Note
 
-Cauliflower rice is a clever low-carb swap, but it needs proper technique to avoid the two common failures: mushy texture and raw cauliflower taste. The solution is high heat and short cooking time—you want to evaporate moisture quickly while keeping some bite. Don't overcrowd the pan or the cauliflower will steam instead of sauté. Work in batches if needed.
+Cauliflower rice is a clever low-carb swap, but it needs proper technique to avoid the two common failures: mushy texture and raw cauliflower taste. The solution is high heat and short cooking time - you want to evaporate moisture quickly while keeping some bite. Don't overcrowd the pan or the cauliflower will steam instead of sauté. Work in batches if needed.
 
 ## Directions
 
-1. **The Rice:** Working in batches, pulse cauliflower florets in a food processor until they resemble rice grains. Don't over-process—you want texture, not mush.
+1. **The Rice:** Working in batches, pulse cauliflower florets in a food processor until they resemble rice grains. Don't over-process - you want texture, not mush.
 
 2. **The Sauté:** Heat oil in a large skillet over medium-high heat. Add cauliflower rice in an even layer (work in batches to avoid crowding). Cook undisturbed for 2 minutes, then stir.
 

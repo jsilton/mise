@@ -35,6 +35,14 @@ ingredients:
   - 1 tbsp Honey
   - Salt and Black Pepper to taste
 origin: United States
+nutrition:
+  calories: 430
+  protein: 0.5
+  carbs: 20
+  fat: 40.5
+  fiber: 0
+  sugar: 19
+  sodium: 10
 ---
 
 ## Chef's Note

@@ -32,5 +32,5 @@ Rich, nutty Panang curry with tender chicken in a coconut milk sauce fragrant wi
 ## Notes
 
 - Panang curry paste is thicker and nuttier than other Thai curry pastes
-- Kaffir lime leaves are the signature flavor — don't skip them
+- Kaffir lime leaves are the signature flavor  -  don't skip them
 - A squeeze of lime and Thai basil leaves to finish

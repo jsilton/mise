@@ -2,33 +2,59 @@
 title: Sauteed Mushrooms with Thyme
 origin: French
 difficulty: easy
-cookingMethods: [sauté]
-dietary: [vegetarian, gluten-free]
-occasions: [weeknight, date-night]
-flavorProfile: [umami, savory, earthy, rich]
-cuisines: [French, American]
+cookingMethods:
+  - sauté
+dietary:
+  - vegetarian
+  - gluten-free
+occasions:
+  - weeknight
+  - date-night
+flavorProfile:
+  - umami
+  - savory
+  - earthy
+  - rich
+cuisines:
+  - French
+  - American
 role: side
 vibe: quick
-seasons: [fall, winter, year-round]
+seasons:
+  - fall
+  - winter
+  - year-round
 nutritionalDensity: light
 leftovers: good
 advancePrep: []
-equipment: [large-skillet]
+equipment:
+  - large-skillet
 prepTime: 10 min
 cookTime: 12 min
 totalTime: 22 min
 servings: '4'
-pairsWith: [chicken-marsala, rosemary-pork-tenderloin, easy-pan-seared-chicken-breasts]
+pairsWith:
+  - chicken-marsala
+  - rosemary-pork-tenderloin
+  - easy-pan-seared-chicken-breasts
 ingredients:
   - '1.5 lbs Mixed Mushrooms (cremini, shiitake, oyster), cleaned and sliced'
-  - '3 tbsp Unsalted Butter'
-  - '1 tbsp Olive Oil'
+  - 3 tbsp Unsalted Butter
+  - 1 tbsp Olive Oil
   - '3 cloves Garlic, thinly sliced'
   - '4 sprigs Fresh Thyme, leaves stripped'
-  - '2 tbsp Dry Sherry or White Wine'
-  - '1 tsp Kosher Salt'
-  - '1/2 tsp Black Pepper'
+  - 2 tbsp Dry Sherry or White Wine
+  - 1 tsp Kosher Salt
+  - 1/2 tsp Black Pepper
   - '1 tbsp Fresh Parsley, chopped'
+nutrition:
+  calories: 110
+  protein: 0.5
+  carbs: 1
+  fat: 12
+  fiber: 0.5
+  sugar: 0
+  sodium: 640
 ---
 
 ## Chef's Note

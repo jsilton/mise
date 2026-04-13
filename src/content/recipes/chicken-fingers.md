@@ -42,11 +42,19 @@ ingredients:
   - 1 tsp Dried Oregano
   - Salt and Black Pepper
 origin: United States
+nutrition:
+  calories: 575
+  protein: 51
+  carbs: 30.5
+  fat: 27.5
+  fiber: 2
+  sugar: 1
+  sodium: 1140
 ---
 
 ## Chef's Note
 
-We have upgraded the "shaking in a bag" method to the **Standard Breading Procedure**. By using **Panko** and Parmesan instead of crackers, we achieve a much lighter, crispier texture that doesn't turn greasy. The secret to the crunch is **High-Heat Roasting** on a wire rack—this allows the hot air to circulate under the chicken, ensuring it is crispy on all sides without needing deep frying.
+We have upgraded the "shaking in a bag" method to the **Standard Breading Procedure**. By using **Panko** and Parmesan instead of crackers, we achieve a much lighter, crispier texture that doesn't turn greasy. The secret to the crunch is **High-Heat Roasting** on a wire rack - this allows the hot air to circulate under the chicken, ensuring it is crispy on all sides without needing deep frying.
 
 ## Directions
 
@@ -60,4 +68,4 @@ We have upgraded the "shaking in a bag" method to the **Standard Breading Proced
 5.  **Crisp:** Bake for 12-15 minutes until golden brown and the internal temp is 165°F. (No need to flip if using a wire rack!).
 6.  **Finish:** Serve hot with a squeeze of lemon or your favorite dipping sauce.
 
-**Rest:** Let lb Chicken rest for 5 minutes before slicing or serving — the juices redistribute and every piece stays moist.
+**Rest:** Let lb Chicken rest for 5 minutes before slicing or serving  -  the juices redistribute and every piece stays moist.

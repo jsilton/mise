@@ -46,6 +46,14 @@ ingredients:
   - 1 tsp Old Bay Seasoning (The Finishing Touch)
   - 1/4 cup Extra-Virgin Olive Oil
 origin: Italy
+nutrition:
+  calories: 655
+  protein: 29.5
+  carbs: 11.5
+  fat: 57
+  fiber: 3.5
+  sugar: 2.5
+  sodium: 28360
 ---
 
 ## Chef's Note

@@ -19,7 +19,7 @@ bestFor: [wednesday, thursday]
 
 ## Meal Overview
 
-A vegetarian weeknight meal that's as satisfying as any meat dish. Creamy dal with a fragrant tadka spice tempering, saffron-infused rice, crispy potato-cauliflower curry, and a cool cucumber yogurt raita. It's how Indian families cook on busy nights—layered flavors that taste complex but are actually quite straightforward.
+A vegetarian weeknight meal that's as satisfying as any meat dish. Creamy dal with a fragrant tadka spice tempering, saffron-infused rice, crispy potato-cauliflower curry, and a cool cucumber yogurt raita. It's how Indian families cook on busy nights - layered flavors that taste complex but are actually quite straightforward.
 
 ## Cooking Strategy
 
@@ -32,7 +32,7 @@ A vegetarian weeknight meal that's as satisfying as any meat dish. Creamy dal wi
 
 ## Notes
 
-- Dal should be creamy and broken down—the lentils should almost disappear into the broth
-- The tadka (spice tempering) makes all the difference—don't skip it
+- Dal should be creamy and broken down - the lentils should almost disappear into the broth
+- The tadka (spice tempering) makes all the difference - don't skip it
 - Serve with naan or extra rice to soak up the dal
 - Leftovers improve overnight as flavors deepen

@@ -2,41 +2,74 @@
 title: Chana Masala
 origin: India
 difficulty: easy
-cookingMethods: [saute, simmer, blend]
-dietary: [vegetarian, gluten-free, nut-free]
-occasions: [weeknight, meal-prep, comfort-food]
-flavorProfile: [spicy, savory, acidic, umami]
-cuisines: [Indian]
+cookingMethods:
+  - saute
+  - simmer
+  - blend
+dietary:
+  - vegetarian
+  - gluten-free
+  - nut-free
+occasions:
+  - weeknight
+  - meal-prep
+  - comfort-food
+flavorProfile:
+  - spicy
+  - savory
+  - acidic
+  - umami
+cuisines:
+  - Indian
 role: main
 vibe: comfort
-seasons: [spring, summer, fall, winter]
+seasons:
+  - spring
+  - summer
+  - fall
+  - winter
 nutritionalDensity: hearty
 leftovers: excellent
-advancePrep: [make-ahead, freeze-ahead]
-equipment: [large skillet or dutch oven, spice grinder]
+advancePrep:
+  - make-ahead
+  - freeze-ahead
+equipment:
+  - large skillet or dutch oven
+  - spice grinder
 prepTime: 15 min
 cookTime: 35 min
 totalTime: 50 min
 servings: '4'
-pairsWith: [basmati-rice, homemade-naan, dal-tadka]
+pairsWith:
+  - basmati-rice
+  - homemade-naan
+  - dal-tadka
 ingredients:
   - '2 cans (15 oz each) Chickpeas, drained and rinsed'
   - '1 large Yellow Onion, finely diced'
   - '4 cloves Garlic, minced'
   - '1-inch piece Fresh Ginger, grated'
   - '2 Green Serrano Chiles, slit lengthwise'
-  - '1 can (14 oz) Crushed Tomatoes'
-  - '3 tbsp Neutral Oil (or ghee)'
-  - '1 tsp Cumin Seeds'
-  - '1 tbsp Ground Coriander'
+  - 1 can (14 oz) Crushed Tomatoes
+  - 3 tbsp Neutral Oil (or ghee)
+  - 1 tsp Cumin Seeds
+  - 1 tbsp Ground Coriander
   - '2 tsp Garam Masala, divided'
-  - '1 tsp Ground Turmeric'
+  - 1 tsp Ground Turmeric
   - '1 tsp Amchur (dried mango powder, or substitute 1 tbsp lemon juice)'
-  - '1/2 tsp Kashmiri Red Chile Powder (or paprika)'
+  - 1/2 tsp Kashmiri Red Chile Powder (or paprika)
   - '1 tsp Kosher Salt, plus more to taste'
-  - '1 cup Water'
+  - 1 cup Water
   - '2 tbsp Fresh Cilantro, chopped, for garnish'
   - '1 tbsp Lemon Juice, for finishing'
+nutrition:
+  calories: 120
+  protein: 1
+  carbs: 7
+  fat: 10.5
+  fiber: 2
+  sugar: 2
+  sodium: 10
 ---
 
 ## Chef's Note

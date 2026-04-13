@@ -54,6 +54,14 @@ ingredients:
   - 1 tbsp Spicy Bean Paste (La Doubanjiang)
   - Neutral Oil
 origin: China
+nutrition:
+  calories: 100
+  protein: 1
+  carbs: 8.5
+  fat: 7
+  fiber: 1
+  sugar: 4.5
+  sodium: 720
 ---
 
 ## Chef's Note

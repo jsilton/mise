@@ -42,6 +42,14 @@ leftovers: good
 advancePrep:
   - overnight-soak
 equipment: []
+nutrition:
+  calories: 460
+  protein: 14.5
+  carbs: 26
+  fat: 37
+  fiber: 10.5
+  sugar: 4.5
+  sodium: 1290
 ---
 
 ## Chef's Note

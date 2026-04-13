@@ -17,7 +17,7 @@ bestFor: [friday, saturday]
 
 ## Meal Overview
 
-Southern comfort at its finest — creamy, cheesy grits topped with garlicky, buttery shrimp in a quick pan sauce. The charred broccoli provides a smoky, green counterpoint to all that richness. This is a date night meal that feels special but isn't fussy.
+Southern comfort at its finest  -  creamy, cheesy grits topped with garlicky, buttery shrimp in a quick pan sauce. The charred broccoli provides a smoky, green counterpoint to all that richness. This is a date night meal that feels special but isn't fussy.
 
 ## Cooking Strategy
 

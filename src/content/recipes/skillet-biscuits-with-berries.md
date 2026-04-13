@@ -47,11 +47,19 @@ pairsWith:
   - apple-pie
   - blackout-chocolate-cake
   - classic-peach-ice-cream
+nutrition:
+  calories: 390
+  protein: 2.5
+  carbs: 96.5
+  fat: 1
+  fiber: 1
+  sugar: 78
+  sodium: 0
 ---
 
 ## Chef's Note
 
-This is cobbler's close cousin—a skillet dish where biscuits cook directly over fruit, then get a final broiler char for textural contrast. The trick is simmering low and covered first so the biscuits cook through gently without browning, then finishing under the broiler for that crucial crunch against soft fruit and creamy whipped cream.
+This is cobbler's close cousin - a skillet dish where biscuits cook directly over fruit, then get a final broiler char for textural contrast. The trick is simmering low and covered first so the biscuits cook through gently without browning, then finishing under the broiler for that crucial crunch against soft fruit and creamy whipped cream.
 ## Directions
 
 1.  **The Dough:** In a bowl, cut cold butter into flour, sugar, and baking powder until pea-sized. Stir in half-and-half until a shaggy dough forms. Scoop into 8 loose balls.

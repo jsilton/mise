@@ -44,6 +44,14 @@ ingredients:
   - 1 tsp Baking Soda + 1/4 tsp Baking Powder
   - 1/2 tsp Sea Salt
 origin: United States
+nutrition:
+  calories: 225
+  protein: 1.5
+  carbs: 23
+  fat: 16
+  fiber: 0
+  sugar: 22
+  sodium: 360
 ---
 
 ## Chef's Note

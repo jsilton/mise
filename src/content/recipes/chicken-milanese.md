@@ -49,6 +49,14 @@ ingredients:
   - '2 cups [Everyday Arugula Salad](/mise/recipes/everyday-arugula-salad)'
   - Lemon wedges
 origin: Italy
+nutrition:
+  calories: 455
+  protein: 31.5
+  carbs: 34
+  fat: 21.5
+  fiber: 2.5
+  sugar: 1.5
+  sodium: 890
 ---
 
 ## Chef's Note
@@ -67,4 +75,4 @@ Milanese-style breaded cutlets originated in Milan and traditionally use veal, t
 5.  **Drain:** Transfer to a wire rack or paper-towel-lined plate. Season with a tiny pinch of flaky salt immediately.
 6.  **Assemble:** Place the hot chicken on a plate. Pile a generous handful of the [Everyday Arugula Salad](/mise/recipes/everyday-arugula-salad) on top. Squeeze a fresh lemon wedge over everything.
 
-**Rest:** Let large Chicken rest for 5 minutes before slicing or serving — the juices redistribute and every piece stays moist.
+**Rest:** Let large Chicken rest for 5 minutes before slicing or serving  -  the juices redistribute and every piece stays moist.

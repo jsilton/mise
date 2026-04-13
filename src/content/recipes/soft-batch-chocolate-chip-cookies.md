@@ -47,16 +47,24 @@ pairsWith:
   - apple-pie
   - babys-first-smash-cake
   - best-cinnamon-roll-recipe-cinnabon-copycat
+nutrition:
+  calories: 85
+  protein: 1.5
+  carbs: 19.5
+  fat: 0.5
+  fiber: 0.5
+  sugar: 11.5
+  sodium: 90
 ---
 
 ## Chef's Note
 
-Soft-batch cookies are built on restraint: the ratio of brown sugar to granulated sugar favors moisture, and pulling them pale (not golden) means they finish setting on the hot pan rather than in the oven, staying tender throughout. This is the opposite of the crispy-edged cookie—it's about achieving that bakery shelf texture that stays soft for days.
+Soft-batch cookies are built on restraint: the ratio of brown sugar to granulated sugar favors moisture, and pulling them pale (not golden) means they finish setting on the hot pan rather than in the oven, staying tender throughout. This is the opposite of the crispy-edged cookie - it's about achieving that bakery shelf texture that stays soft for days.
 ## Directions
 
 1.  **Dry Mix:** Whisk flour, baking soda, baking powder, and salt.
 2.  **Cream:** In a stand mixer, beat softened butter and both sugars for 2 minutes until light and fluffy. Add eggs and vanilla; beat until emulsified.
 3.  **Incorporate:** Gradually add the dry mix until **just combined**. Fold in the chocolate chips.
 4.  **Shape:** Preheat oven to 375°F. Line sheets with parchment. Roll 2-tbsp balls of dough and place 2 inches apart.
-5.  **Bake:** Bake for 8-10 minutes. **Pull them early**—the Kitchen Standard is a pale, soft center.
+5.  **Bake:** Bake for 8-10 minutes. **Pull them early** - the Kitchen Standard is a pale, soft center.
 6.  **The Finish:** Let rest on the hot pan for exactly 2 minutes before transferring to a wire rack.

@@ -43,11 +43,19 @@ seasons:
 nutritionalDensity: light
 leftovers: good
 equipment: []
+nutrition:
+  calories: 80
+  protein: 2.5
+  carbs: 17
+  fat: 0.5
+  fiber: 1.5
+  sugar: 2
+  sodium: 330
 ---
 
 ## Chef's Note
 
-This Spanish-inspired rice dish draws from paella technique. Frying dry rice in onion-garlic oil for 3 minutes before adding liquid toasts the starch, creating distinct, individual grains rather than sticky clumps—a technique called socarrat in traditional paella. Smoked paprika (pimentón) introduces wood-fired depth that elevates simple canned chickpeas, adding complexity without additional ingredients.
+This Spanish-inspired rice dish draws from paella technique. Frying dry rice in onion-garlic oil for 3 minutes before adding liquid toasts the starch, creating distinct, individual grains rather than sticky clumps - a technique called socarrat in traditional paella. Smoked paprika (pimentón) introduces wood-fired depth that elevates simple canned chickpeas, adding complexity without additional ingredients.
 
 ## Directions
 

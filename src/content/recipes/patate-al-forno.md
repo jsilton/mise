@@ -39,11 +39,19 @@ ingredients:
   - 1 tsp Sea Salt
   - Black Pepper to taste
 origin: Italy
+nutrition:
+  calories: 95
+  protein: 1
+  carbs: 8.5
+  fat: 7
+  fiber: 1
+  sugar: 0.5
+  sodium: 390
 ---
 
 ## Chef's Note
 
-Patate al forno are classic Italian oven-roasted potatoes—a Sunday staple in Roman homes. The secret to crispy edges is drying the potatoes thoroughly after cutting; any moisture will cause them to steam instead of crisp. Roasting at 450°F gets you golden, crunchy exteriors while keeping the insides creamy. Fresh rosemary is traditional and adds a wonderful aromatic note.
+Patate al forno are classic Italian oven-roasted potatoes - a Sunday staple in Roman homes. The secret to crispy edges is drying the potatoes thoroughly after cutting; any moisture will cause them to steam instead of crisp. Roasting at 450°F gets you golden, crunchy exteriors while keeping the insides creamy. Fresh rosemary is traditional and adds a wonderful aromatic note.
 
 ## Directions
 

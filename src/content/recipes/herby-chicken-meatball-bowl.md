@@ -51,11 +51,19 @@ seasons:
 nutritionalDensity: moderate
 leftovers: good
 equipment: []
+nutrition:
+  calories: 425
+  protein: 40
+  carbs: 42.5
+  fat: 13.5
+  fiber: 8.5
+  sugar: 10.5
+  sodium: 450
 ---
 
 ## Chef's Note
 
-Folding whole-milk ricotta into ground chicken creates a fat-moisture barrier that keeps meatballs succulent even after searing—a technique borrowed from Italian polpette. Shaping the meat into small logs rather than balls provides more surface area for browning, developing deeper savory flavor that contrasts beautifully with the bright, herbal yogurt dressing.
+Folding whole-milk ricotta into ground chicken creates a fat-moisture barrier that keeps meatballs succulent even after searing - a technique borrowed from Italian polpette. Shaping the meat into small logs rather than balls provides more surface area for browning, developing deeper savory flavor that contrasts beautifully with the bright, herbal yogurt dressing.
 
 ## Directions
 
@@ -67,4 +75,4 @@ Folding whole-milk ricotta into ground chicken creates a fat-moisture barrier th
 6.  **Assemble:** Divide the kale among four bowls. Top with the roasted chickpeas, sweet potatoes, and meatballs.
 7.  **Finish:** Drizzle generously with the dressing for the mandatory **Acid Balance**.
 
-**Rest:** Let Ground Chicken rest for 10 minutes before slicing or serving — the juices redistribute and every piece stays moist.
+**Rest:** Let Ground Chicken rest for 10 minutes before slicing or serving  -  the juices redistribute and every piece stays moist.

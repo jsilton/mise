@@ -42,11 +42,19 @@ ingredients:
   - 1/4 tsp Dry Mustard Powder (The Finishing Touch)
   - 1 tbsp Unsalted Butter
 origin: United States
+nutrition:
+  calories: 205
+  protein: 6.5
+  carbs: 35
+  fat: 4.5
+  fiber: 1
+  sugar: 3
+  sodium: 460
 ---
 
 ## Chef's Note
 
-Whisking flour into cold milk before heating creates a light, stable base that won't separate when cheese is added—an easier technique than making a traditional butter roux. Boiling pasta for exactly 8 minutes (very al dente) ensures it holds its shape against the heavy cheese sauce instead of turning mushy. Mustard powder adds savory depth that enhances the sharp cheddar without tasting overtly mustardy.
+Whisking flour into cold milk before heating creates a light, stable base that won't separate when cheese is added - an easier technique than making a traditional butter roux. Boiling pasta for exactly 8 minutes (very al dente) ensures it holds its shape against the heavy cheese sauce instead of turning mushy. Mustard powder adds savory depth that enhances the sharp cheddar without tasting overtly mustardy.
 
 ## Directions
 

@@ -40,11 +40,19 @@ ingredients:
   - Chili Crisp or Sriracha
   - Toasted Sesame Seeds
 origin: China
+nutrition:
+  calories: 65
+  protein: 1.5
+  carbs: 5
+  fat: 5
+  fiber: 0.5
+  sugar: 1.5
+  sodium: 600
 ---
 
 ## Chef's Note
 
-Egg roll in a bowl is a deconstructed version of the classic takeout item—all the filling without the wrapper, making it low-carb and quick. The key is cooking the pork first until crispy, then adding the cabbage at the very end. You want it just wilted but still slightly crisp—overcooking turns it mushy. Chili crisp and sesame seeds add finishing flavor and texture.
+Egg roll in a bowl is a deconstructed version of the classic takeout item - all the filling without the wrapper, making it low-carb and quick. The key is cooking the pork first until crispy, then adding the cabbage at the very end. You want it just wilted but still slightly crisp - overcooking turns it mushy. Chili crisp and sesame seeds add finishing flavor and texture.
 For kids, serve the heat on the side or reduce/omit the spicy elements.
 
 ## Directions
@@ -55,4 +63,4 @@ For kids, serve the heat on the side or reduce/omit the spicy elements.
 4.  **Toss:** Stir-fry vigorously for 2-3 minutes. **Stop immediately** when the cabbage starts to collapse but still feels firm.
 5.  **Finish:** Remove from heat. Top with green onions, sesame seeds, and a generous drizzle of chili crisp.
 
-**Rest:** Let Ground Pork rest for 5 minutes before slicing or serving — the juices redistribute and every piece stays moist.
+**Rest:** Let Ground Pork rest for 5 minutes before slicing or serving  -  the juices redistribute and every piece stays moist.

@@ -31,6 +31,6 @@ Vietnamese braised chicken in a sweet-savory coconut caramel sauce, paired with 
 ## Notes
 
 - The key is browning the chicken first for depth, then letting it braise slowly
-- The coconut-caramel sauce is unique to Vietnamese cooking—sweet, salty, and rich
-- Summer rolls provide textural contrast and brightness—the two work beautifully together
+- The coconut-caramel sauce is unique to Vietnamese cooking - sweet, salty, and rich
+- Summer rolls provide textural contrast and brightness - the two work beautifully together
 - This dish actually improves if made ahead and reheated

@@ -19,7 +19,7 @@ bestFor: [sunday]
 
 ## Meal Overview
 
-The classic Sunday dinner that never disappoints. A spatchcocked roast chicken crisps up in 45 minutes, while crispy smashed potatoes and charred broccoli roast alongside. Fresh arugula salad for brightness. This is the meal that fuels the week—it's elegant enough for entertaining, simple enough for family.
+The classic Sunday dinner that never disappoints. A spatchcocked roast chicken crisps up in 45 minutes, while crispy smashed potatoes and charred broccoli roast alongside. Fresh arugula salad for brightness. This is the meal that fuels the week - it's elegant enough for entertaining, simple enough for family.
 
 ## Cooking Strategy
 
@@ -32,7 +32,7 @@ The classic Sunday dinner that never disappoints. A spatchcocked roast chicken c
 
 ## Notes
 
-- Spatchcock means split the backbone and flatten—this exposes more skin for crispiness
-- Dry the skin with paper towels before roasting—this is the secret to crispy skin
-- Use this as Sunday meal-prep—leftover chicken becomes tacos, salads, sandwiches for the week
+- Spatchcock means split the backbone and flatten - this exposes more skin for crispiness
+- Dry the skin with paper towels before roasting - this is the secret to crispy skin
+- Use this as Sunday meal-prep - leftover chicken becomes tacos, salads, sandwiches for the week
 - The pan drippings make a quick jus if you add a splash of wine or stock

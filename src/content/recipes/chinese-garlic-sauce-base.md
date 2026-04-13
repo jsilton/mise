@@ -44,11 +44,19 @@ ingredients:
   - 1/4 tsp White Pepper
   - 1/2 cup Chicken Broth or Water
 origin: China
+nutrition:
+  calories: 440
+  protein: 28.5
+  carbs: 45.5
+  fat: 14.5
+  fiber: 2
+  sugar: 18
+  sodium: 18530
 ---
 
 ## Chef's Note
 
-This is the foundation sauce for countless Chinese-American stir-fries. It balances sweet, salty, sour, and umami while the cornstarch creates that restaurant-quality glossy coating. Mix it ahead and pour it into your hot wok at the end of cooking—stir constantly for 30-60 seconds until it bubbles and turns from cloudy to clear. Use it for any "garlic sauce" dish with eggplant, broccoli, green beans, or protein.
+This is the foundation sauce for countless Chinese-American stir-fries. It balances sweet, salty, sour, and umami while the cornstarch creates that restaurant-quality glossy coating. Mix it ahead and pour it into your hot wok at the end of cooking - stir constantly for 30-60 seconds until it bubbles and turns from cloudy to clear. Use it for any "garlic sauce" dish with eggplant, broccoli, green beans, or protein.
 
 ## Directions
 

@@ -50,7 +50,7 @@ These Mexican-inspired tacos balance sweet mango with savory cumin-spiced shrimp
 
 1.  **The Sear:** Heat oil in a heavy skillet or wok over medium-high. Add shrimp, garlic, and salt. Sauté for 2 minutes until they begin to turn pink.
 2.  **The Pulse:** Add the ground cumin and Serrano chilies. Stir-fry for 1 minute until the spices are fragrant and the chilies are bright.
-3.  **The Glaze:** Stir in the chopped mango and cilantro. Cook for exactly 1 minute—just until the mango starts to soften at the edges.
+3.  **The Glaze:** Stir in the chopped mango and cilantro. Cook for exactly 1 minute - just until the mango starts to soften at the edges.
 4.  **Finish:** Remove from heat. Stir in the lime juice. Taste and adjust with extra salt.
 5.  **Thermal Prep:** Wrap tortillas in a damp towel and microwave for 45 seconds (or char over an open flame).
 6.  **Assemble:** Place 2 tortillas on each plate. Mound the shrimp-mango mixture into the center.

@@ -50,6 +50,14 @@ ingredients:
   - 3 tbsp Cornstarch (mixed with 1/4 cup water)
   - '1 large Egg, lightly beaten'
   - Sesame Oil and Scallions for garnish
+nutrition:
+  calories: 100
+  protein: 7
+  carbs: 8
+  fat: 4
+  fiber: 0.5
+  sugar: 0.5
+  sodium: 3040
 ---
 
 ## Chef's Note
@@ -61,7 +69,7 @@ Hot and sour soup is a Sichuan/Hunan classic. The name is literal: "hot" from wh
 1.  **Prep:** Soak dried mushrooms in boiling water for 30 minutes. Drain, rinse, and slice.
 2.  **Infuse:** In a large pot, heat 2 tbsp oil. Sauté ginger and chili paste for 1 minute. Add the BBQ pork, wood ears, and bamboo shoots.
 3.  **Boil:** Pour in the [Chinese Chicken Stock](/mise/recipes/cantonese-wonton-broth). Bring to a boil and simmer for 10 minutes.
-4.  **Season:** Stir in the soy sauce, vinegar, and white pepper. Taste—it should be sharp and punchy.
+4.  **Season:** Stir in the soy sauce, vinegar, and white pepper. Taste - it should be sharp and punchy.
 5.  **Tofu:** Add the tofu strips and simmer for 3 minutes.
 6.  **Bind:** Stir the cornstarch slurry and slowly pour into the soup. Simmer for 2 minutes until the soup is thick and clear.
 7.  **The Current:** Remove from heat. Stir the soup vigorously in one direction to create a current. Stop stirring and slowly stream in the beaten egg.

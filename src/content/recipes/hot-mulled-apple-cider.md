@@ -41,11 +41,19 @@ pairsWith:
   - beef-tenderloin-dogs-with-corn-relish
   - brownie-baked-oatmeal
   - chicken-apple-and-butternut-stew
+nutrition:
+  calories: 120
+  protein: 0
+  carbs: 32
+  fat: 0
+  fiber: 1
+  sugar: 31
+  sodium: 300
 ---
 
 ## Chef's Note
 
-Never let mulled cider reach a rolling boil once spices are added—high heat turns cinnamon bitter. A tiny pinch of sea salt amplifies the natural sweetness of apples. Studding fresh orange wedges with cloves releases essential oils directly into the mug when served, adding aromatic complexity.
+Never let mulled cider reach a rolling boil once spices are added - high heat turns cinnamon bitter. A tiny pinch of sea salt amplifies the natural sweetness of apples. Studding fresh orange wedges with cloves releases essential oils directly into the mug when served, adding aromatic complexity.
 
 ## Directions
 

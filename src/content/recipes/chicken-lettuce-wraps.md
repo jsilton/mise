@@ -47,11 +47,19 @@ ingredients:
   - 1 head Bibb or Butter Lettuce (cup-shaped leaves)
   - Crispy Rice Noodles (optional)
 origin: China
+nutrition:
+  calories: 395
+  protein: 27.5
+  carbs: 37.5
+  fat: 13.5
+  fiber: 0.5
+  sugar: 17.5
+  sodium: 1870
 ---
 
 ## Chef's Note
 
-Chicken lettuce wraps became popular through restaurants like P.F. Chang's in the 1990s. This version replaces water chestnuts with finely diced celery for a fresher, crisper texture without the chalky mouthfeel. The key is browning the ground chicken over high heat until it has crispy edges before adding the hoisin glaze—this prevents soggy lettuce cups. Serve in cold butter lettuce leaves for the best presentation.
+Chicken lettuce wraps became popular through restaurants like P.F. Chang's in the 1990s. This version replaces water chestnuts with finely diced celery for a fresher, crisper texture without the chalky mouthfeel. The key is browning the ground chicken over high heat until it has crispy edges before adding the hoisin glaze - this prevents soggy lettuce cups. Serve in cold butter lettuce leaves for the best presentation.
 
 ## Directions
 

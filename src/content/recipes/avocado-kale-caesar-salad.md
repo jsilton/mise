@@ -50,6 +50,14 @@ ingredients:
   - 1/3 cup Shaved Parmesan Cheese
   - '1/2 cup Panko Breadcrumbs, toasted in butter (Optional crunch)'
 origin: United States
+nutrition:
+  calories: 1005
+  protein: 22
+  carbs: 6.5
+  fat: 102
+  fiber: 1.5
+  sugar: 1
+  sodium: 2330
 ---
 
 ## Chef's Note
@@ -63,4 +71,4 @@ This isn't your average kale salad. The secret to making kale restaurant-quality
 3.  **Toss:** Pour the dressing over the massaged kale. Toss well to ensure every leaf is coated.
 4.  **Texture:** Add the toasted pepitas and half of the Parmesan. Toss again.
 5.  **Assemble:** Top with the remaining half of the avocado (diced), the rest of the Parmesan, and the toasted panko (if using).
-6.  **Rest:** Let the salad sit for 5 minutes before serving—kale is sturdy and actually improves as it absorbs the dressing.
+6.  **Rest:** Let the salad sit for 5 minutes before serving - kale is sturdy and actually improves as it absorbs the dressing.

@@ -39,11 +39,19 @@ pairsWith:
   - apple-cider-cream-pie
   - apple-pie
   - babys-first-smash-cake
+nutrition:
+  calories: 215
+  protein: 1
+  carbs: 18
+  fat: 16
+  fiber: 0.5
+  sugar: 12
+  sodium: 180
 ---
 
 ## Chef's Note
 
-These triangular Jewish cookies for Purim require careful technique to prevent blowouts during baking. When folding the three sides, tuck one corner under the next flap to create a self-locking triangle. Chilling the dough until stone-cold before rolling prevents butter from melting too quickly, producing delicate, shortbread-like cookies rather than bready ones. Use exactly 1 teaspoon filling—overfilling causes leakage.
+These triangular Jewish cookies for Purim require careful technique to prevent blowouts during baking. When folding the three sides, tuck one corner under the next flap to create a self-locking triangle. Chilling the dough until stone-cold before rolling prevents butter from melting too quickly, producing delicate, shortbread-like cookies rather than bready ones. Use exactly 1 teaspoon filling - overfilling causes leakage.
 
 ## Directions
 

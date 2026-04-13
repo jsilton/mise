@@ -2,30 +2,53 @@
 title: Spinach Gnocchi
 origin: Italy
 difficulty: easy
-cookingMethods: [roast, boil, blend]
-dietary: [vegetarian]
-occasions: [weeknight, quick-lunch, light-and-fresh, post-workout]
-seasons: [year-round]
+cookingMethods:
+  - roast
+  - boil
+  - blend
+dietary:
+  - vegetarian
+occasions:
+  - weeknight
+  - quick-lunch
+  - light-and-fresh
+  - post-workout
+seasons:
+  - year-round
 nutritionalDensity: moderate
 leftovers: excellent
 equipment: []
-flavorProfile: [umami, rich, herbaceous]
-cuisines: [Italian]
+flavorProfile:
+  - umami
+  - rich
+  - herbaceous
+cuisines:
+  - Italian
 role: main
 vibe: quick
 prepTime: 15 min
 cookTime: 5 min
 totalTime: 20 min
 servings: '4'
-pairsWith: [garlic-bread, avocado-kale-caesar-salad]
+pairsWith:
+  - garlic-bread
+  - avocado-kale-caesar-salad
 ingredients:
   - '10 oz Frozen Spinach, defrosted'
-  - '1 1/2 cups Whole-Milk Ricotta'
+  - 1 1/2 cups Whole-Milk Ricotta
   - '3/4 cup Parmesan, freshly grated'
-  - '1 1/4 cups Whole-Wheat Flour (plus extra for dusting)'
-  - '1 large Egg'
-  - 'Salt and Black Pepper'
-  - 'Pinch of Nutmeg (The "High Note")'
+  - 1 1/4 cups Whole-Wheat Flour (plus extra for dusting)
+  - 1 large Egg
+  - Salt and Black Pepper
+  - Pinch of Nutmeg (The "High Note")
+nutrition:
+  calories: 35
+  protein: 4
+  carbs: 3
+  fat: 1.5
+  fiber: 2
+  sugar: 0.5
+  sodium: 80
 ---
 
 ## Chef's Note

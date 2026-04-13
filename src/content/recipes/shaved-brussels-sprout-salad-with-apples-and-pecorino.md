@@ -40,11 +40,19 @@ ingredients:
   - 2 tbsp Honey
   - Salt and Black Pepper
 origin: Italy
+nutrition:
+  calories: 545
+  protein: 1
+  carbs: 17.5
+  fat: 54
+  fiber: 2
+  sugar: 13.5
+  sodium: 110
 ---
 
 ## Chef's Note
 
-Shaving Brussels sprouts paper-thin transforms them from dense and bitter to light and crisp—a technique that became popular in modern Italian-American restaurants during the 2000s. Tossing the shaved sprouts with vinegar dressing 15 minutes before serving softens them slightly while maintaining their crunch. Pecorino Romano adds the sharp, salty note that balances the sweet apple and tangy dressing.
+Shaving Brussels sprouts paper-thin transforms them from dense and bitter to light and crisp - a technique that became popular in modern Italian-American restaurants during the 2000s. Tossing the shaved sprouts with vinegar dressing 15 minutes before serving softens them slightly while maintaining their crunch. Pecorino Romano adds the sharp, salty note that balances the sweet apple and tangy dressing.
 
 ## Directions
 

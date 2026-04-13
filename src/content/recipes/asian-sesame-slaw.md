@@ -63,21 +63,29 @@ ingredients:
   - '1 tsp Ginger, finely grated'
   - '1 clove Garlic, finely grated'
   - '1/2 tsp Red Chili Flakes (optional, for heat)'
+nutrition:
+  calories: 430
+  protein: 12.5
+  carbs: 24
+  fat: 34.5
+  fiber: 8.5
+  sugar: 8.5
+  sodium: 980
 ---
 
 ## Chef's Note
 
-This slaw lives on textural contrast: crisp raw vegetables against creamy sesame dressing, then the final textural punch from crispy wonton strips that shatter between your teeth. Dark sesame oil is key — it has been toasted and has a deep, nutty aroma that light sesame oil simply doesn't deliver. The crispy wontons can be made ahead and stored in an airtight container for up to two days; add them just before serving or they'll soften.
+This slaw lives on textural contrast: crisp raw vegetables against creamy sesame dressing, then the final textural punch from crispy wonton strips that shatter between your teeth. Dark sesame oil is key  -  it has been toasted and has a deep, nutty aroma that light sesame oil simply doesn't deliver. The crispy wontons can be made ahead and stored in an airtight container for up to two days; add them just before serving or they'll soften.
 
 ## Directions
 
 1. **Prepare the Vegetables:** Thinly shred the napa cabbage (a mandoline or food processor helps). Julienne the carrots into matchsticks. Place both in a large mixing bowl along with the edamame and green onions.
 
-2. **Make the Crispy Wonton Strips (Optional):** Cut the wonton wrappers into thin strips. Heat 1/2 inch of oil in a shallow pan or wok over medium-high heat to 350°F. Working in batches, carefully place wonton strips in the oil — they will puff and curl almost immediately (10-15 seconds per side). Transfer to a paper towel and sprinkle with salt. Let cool completely; they will continue to crisp as they cool.
+2. **Make the Crispy Wonton Strips (Optional):** Cut the wonton wrappers into thin strips. Heat 1/2 inch of oil in a shallow pan or wok over medium-high heat to 350°F. Working in batches, carefully place wonton strips in the oil  -  they will puff and curl almost immediately (10-15 seconds per side). Transfer to a paper towel and sprinkle with salt. Let cool completely; they will continue to crisp as they cool.
 
-3. **Make the Dressing:** In a small jar or bowl, whisk together the sesame oil, rice vinegar, soy sauce, honey, grated ginger, grated garlic, and chili flakes (if using). Taste — it should be balanced between nutty (sesame oil), tangy (vinegar), and salty (soy sauce).
+3. **Make the Dressing:** In a small jar or bowl, whisk together the sesame oil, rice vinegar, soy sauce, honey, grated ginger, grated garlic, and chili flakes (if using). Taste  -  it should be balanced between nutty (sesame oil), tangy (vinegar), and salty (soy sauce).
 
-4. **Dress:** Pour the dressing over the slaw and toss vigorously — you want every piece of cabbage and carrot coated. The cabbage will begin to wilt slightly as the acid works on it, which is perfect.
+4. **Dress:** Pour the dressing over the slaw and toss vigorously  -  you want every piece of cabbage and carrot coated. The cabbage will begin to wilt slightly as the acid works on it, which is perfect.
 
 5. **Finish:** Just before serving, scatter the toasted sesame seeds over the top and, if using, shatter the crispy wonton strips and scatter them over. Serve immediately while the wontons are still crispy.
 

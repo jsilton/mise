@@ -56,6 +56,14 @@ pairsWith:
   - banana-pudding
   - grandmommys-pecan-pie
   - apple-cider-cream-pie
+nutrition:
+  calories: 520
+  protein: 3
+  carbs: 33
+  fat: 43.5
+  fiber: 1
+  sugar: 14.5
+  sodium: 310
 ---
 
 ## Chef's Note

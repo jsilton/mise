@@ -34,6 +34,14 @@ seasons:
 nutritionalDensity: moderate
 leftovers: good
 equipment: []
+nutrition:
+  calories: 70
+  protein: 6
+  carbs: 0.5
+  fat: 5.5
+  fiber: 0
+  sugar: 0
+  sodium: 380
 ---
 
 ## Chef's Note
@@ -42,7 +50,7 @@ Most recipes overcook turkey to 165°F, producing dry meat. Pulling the turkey a
 
 ## Directions
 
-1.  **Prep:** Preheat oven to 450°F. Place the turkey breast on a rack inside a roasting pan—this ensures air circulation for crispy skin.
+1.  **Prep:** Preheat oven to 450°F. Place the turkey breast on a rack inside a roasting pan - this ensures air circulation for crispy skin.
 2.  **Glaze:** Brush the skin generously with melted butter. Season aggressively with salt and pepper.
 3.  **Sear:** Bake at 450°F for 15 minutes to kickstart the Crunch of the skin.
 4.  **Baste:** Reduce heat to 350°F. Pour 1/2 cup stock into the pan. Roast for 45-60 minutes, basting every 20 minutes with the pan juices.

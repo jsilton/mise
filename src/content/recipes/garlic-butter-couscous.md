@@ -2,34 +2,57 @@
 title: Garlic Butter Pearl Couscous
 origin: Mediterranean
 difficulty: easy
-cookingMethods: [sauté, simmer]
+cookingMethods:
+  - sauté
+  - simmer
 dietary: []
-occasions: [weeknight, entertaining]
-flavorProfile: [savory, rich, herbaceous]
-cuisines: [Mediterranean, Middle Eastern]
+occasions:
+  - weeknight
+  - entertaining
+flavorProfile:
+  - savory
+  - rich
+  - herbaceous
+cuisines:
+  - Mediterranean
+  - Middle Eastern
 role: base
 vibe: quick
 prepTime: 5 min
 cookTime: 15 min
 totalTime: 20 min
 servings: '4'
-seasons: [year-round]
+seasons:
+  - year-round
 nutritionalDensity: moderate
 leftovers: excellent
-advancePrep: [make-ahead]
-equipment: [saucepan]
+advancePrep:
+  - make-ahead
+equipment:
+  - saucepan
 pairsWith:
-  [chicken-shawarma, chicken-souvlaki, chicken-thigh-kebabs-with-chile-yogurt-sauce, tzatziki-sauce]
+  - chicken-shawarma
+  - chicken-souvlaki
+  - chicken-thigh-kebabs-with-chile-yogurt-sauce
+  - tzatziki-sauce
 ingredients:
-  - '1 1/2 cups Pearl Couscous (Israeli Couscous)'
-  - '2 tbsp Unsalted Butter'
-  - '1 tbsp Olive Oil'
+  - 1 1/2 cups Pearl Couscous (Israeli Couscous)
+  - 2 tbsp Unsalted Butter
+  - 1 tbsp Olive Oil
   - '3 cloves Garlic, minced'
-  - '2 cups Chicken or Vegetable Broth'
-  - '1/2 tsp Kosher Salt'
-  - '1/4 tsp Black Pepper'
+  - 2 cups Chicken or Vegetable Broth
+  - 1/2 tsp Kosher Salt
+  - 1/4 tsp Black Pepper
   - '2 tbsp Fresh Parsley, chopped'
-  - '1 tsp Lemon Zest (optional)'
+  - 1 tsp Lemon Zest (optional)
+nutrition:
+  calories: 160
+  protein: 3
+  carbs: 16.5
+  fat: 9.5
+  fiber: 1.5
+  sugar: 0.5
+  sodium: 1060
 ---
 
 ## Chef's Note

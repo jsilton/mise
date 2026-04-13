@@ -19,7 +19,7 @@ bestFor: [saturday, sunday]
 
 ## Meal Overview
 
-Slow-cooked pork carnitas — tender, juicy, with crispy edges — piled over cilantro-lime rice with black beans and fresh guacamole. This is a build-your-own bowl situation that feeds a crowd with minimal active work.
+Slow-cooked pork carnitas  -  tender, juicy, with crispy edges  -  piled over cilantro-lime rice with black beans and fresh guacamole. This is a build-your-own bowl situation that feeds a crowd with minimal active work.
 
 ## Cooking Strategy
 

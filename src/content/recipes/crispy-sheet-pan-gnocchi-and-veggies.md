@@ -47,11 +47,19 @@ ingredients:
   - Salt and Black Pepper
   - 1/2 lb Shrimp or sliced Chicken Sausage
 origin: Italy
+nutrition:
+  calories: 585
+  protein: 25
+  carbs: 35.5
+  fat: 40
+  fiber: 7
+  sugar: 14.5
+  sodium: 810
 ---
 
 ## Chef's Note
 
-Sheet-pan gnocchi is a weeknight formula: gnocchi crisps on hot oil and high heat like little dumplings, while vegetables roast around them. The gnocchi needs space—don't crowd the pan or they steam instead of frying. Shake the pan halfway through so they brown on all sides and develop that crucial crunchy exterior.
+Sheet-pan gnocchi is a weeknight formula: gnocchi crisps on hot oil and high heat like little dumplings, while vegetables roast around them. The gnocchi needs space - don't crowd the pan or they steam instead of frying. Shake the pan halfway through so they brown on all sides and develop that crucial crunchy exterior.
 ## Directions
 
 1.  **Prep:** Preheat oven to 450°F. Line a large rimmed baking sheet with parchment paper.

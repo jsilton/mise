@@ -44,11 +44,19 @@ ingredients:
   - '--- Black vinegar ---'
   - 1 tbsp Black Vinegar
 origin: China
+nutrition:
+  calories: 275
+  protein: 9
+  carbs: 9.5
+  fat: 23
+  fiber: 2
+  sugar: 3.5
+  sodium: 760
 ---
 
 ## Chef's Note
 
-Fried rice is a Cantonese classic for using up leftover rice. The secret to separated grains instead of mushy clumps: use day-old refrigerated rice—fresh rice is too moist and sticky. Lap cheong (Chinese sausage) adds sweet-savory flavor. Cook the eggs into thin omelets first, then slice and fold them back in at the end—this keeps them bright yellow and distinct instead of coating the rice in a gray film.
+Fried rice is a Cantonese classic for using up leftover rice. The secret to separated grains instead of mushy clumps: use day-old refrigerated rice - fresh rice is too moist and sticky. Lap cheong (Chinese sausage) adds sweet-savory flavor. Cook the eggs into thin omelets first, then slice and fold them back in at the end - this keeps them bright yellow and distinct instead of coating the rice in a gray film.
 For kids, serve the heat on the side or reduce/omit the spicy elements.
 
 ## Directions

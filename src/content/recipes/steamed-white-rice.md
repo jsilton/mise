@@ -2,31 +2,55 @@
 title: Steamed White Rice (Short Grain)
 origin: General Asian
 difficulty: easy
-cookingMethods: [steam, boil]
-dietary: [vegan, gluten-free]
-occasions: [weeknight, staple]
-flavorProfile: [clean, neutral]
-cuisines: [Asian, Korean, Japanese]
+cookingMethods:
+  - steam
+  - boil
+dietary:
+  - vegan
+  - gluten-free
+occasions:
+  - weeknight
+  - staple
+flavorProfile:
+  - clean
+  - neutral
+cuisines:
+  - Asian
+  - Korean
+  - Japanese
 role: base
 vibe: quick
 prepTime: 5 min
 cookTime: 20 min
 totalTime: 25 min
 servings: '4'
-seasons: [year-round]
+seasons:
+  - year-round
 nutritionalDensity: light
 leftovers: excellent
 advancePrep: []
-equipment: [saucepan]
-pairsWith: [bibimbap, chicken-galbi-noodle-salad, lemon-miso-tofu-with-broccoli]
+equipment:
+  - saucepan
+pairsWith:
+  - bibimbap
+  - chicken-galbi-noodle-salad
+  - lemon-miso-tofu-with-broccoli
 ingredients:
-  - '2 cups Short-Grain White Rice (Sushi Rice)'
-  - '2 1/4 cups Water'
+  - 2 cups Short-Grain White Rice (Sushi Rice)
+  - 2 1/4 cups Water
+nutrition:
+  calories: 105
+  protein: 2
+  carbs: 23
+  fat: 0
+  fiber: 0.5
+  sugar: 0
+  sodium: 0
 ---
 
 ## Chef's Note
 
-Fundamental to Korean and Japanese tables, short-grain rice (often called sushi rice) is stickier and starchier than long-grain varieties like Jasmine or Basmati. The goal is distinct, chewy grains that clump slightly—perfect for chopsticks. The most critical step is washing the rice until the water runs clear; this removes excess starch that causes gloopiness.
+Fundamental to Korean and Japanese tables, short-grain rice (often called sushi rice) is stickier and starchier than long-grain varieties like Jasmine or Basmati. The goal is distinct, chewy grains that clump slightly - perfect for chopsticks. The most critical step is washing the rice until the water runs clear; this removes excess starch that causes gloopiness.
 
 ## Directions
 

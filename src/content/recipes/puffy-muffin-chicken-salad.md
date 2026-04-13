@@ -43,11 +43,19 @@ ingredients:
   - 1/2 tsp Sea Salt
   - 1/4 tsp Black Pepper
 origin: United States
+nutrition:
+  calories: 555
+  protein: 25
+  carbs: 4.5
+  fat: 50
+  fiber: 1
+  sugar: 1.5
+  sodium: 1200
 ---
 
 ## Chef's Note
 
-Chicken salad with puffed muffins is a comfort food combo—creamy, chicken-based filling inside a tender, slightly sweet muffin. The muffin base matters: too dense and it overwhelms the filling; too light and it falls apart. Use a standard muffin recipe, then fill and bake so the muffin bakes around the filling rather than being stuffed afterward.
+Chicken salad with puffed muffins is a comfort food combo - creamy, chicken-based filling inside a tender, slightly sweet muffin. The muffin base matters: too dense and it overwhelms the filling; too light and it falls apart. Use a standard muffin recipe, then fill and bake so the muffin bakes around the filling rather than being stuffed afterward.
 ## Directions
 
 1.  **Poach:** Bring a pot of salted water to a gentle boil. Add chicken tenders and cook for 8-10 minutes until just cooked through. Drain and let cool for 5 minutes.

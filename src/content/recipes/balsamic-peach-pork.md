@@ -40,11 +40,19 @@ seasons:
 nutritionalDensity: moderate
 leftovers: good
 equipment: []
+nutrition:
+  calories: 200
+  protein: 8
+  carbs: 20
+  fat: 9
+  fiber: 1.5
+  sugar: 15
+  sodium: 500
 ---
 
 ## Chef's Note
 
-Balsamic and peaches is an Italian pairing—sweet fruit cutting through savory pork, with the vinegar providing acidity that bridges the two. Pork tenderloin is a fast protein that stays tender when you don't overdo it; pull it at 135°F internal temp and let it rest for 5 minutes, then slice against the grain so each piece is tender, not stringy.
+Balsamic and peaches is an Italian pairing - sweet fruit cutting through savory pork, with the vinegar providing acidity that bridges the two. Pork tenderloin is a fast protein that stays tender when you don't overdo it; pull it at 135°F internal temp and let it rest for 5 minutes, then slice against the grain so each piece is tender, not stringy.
 ## Directions
 
 1.  **Sear:** Heat oil in a large cast-iron skillet over high heat. Season pork with salt and pepper. Sear for 3-4 minutes per side until golden.

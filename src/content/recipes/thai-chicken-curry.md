@@ -42,11 +42,19 @@ seasons:
 nutritionalDensity: moderate
 leftovers: good
 equipment: []
+nutrition:
+  calories: 205
+  protein: 23
+  carbs: 5.5
+  fat: 10
+  fiber: 0.5
+  sugar: 4.5
+  sodium: 900
 ---
 
 ## Chef's Note
 
-Thai curry is built on a paste of chiles, aromatics, and spices that blooms in coconut fat to release its essential oils. The paste is where all the flavor lives; frying it in coconut milk (not water) concentrates the spices before adding the rest. Finish with fish sauce and lime for balance—the salty and sour notes should sing equally with the heat.
+Thai curry is built on a paste of chiles, aromatics, and spices that blooms in coconut fat to release its essential oils. The paste is where all the flavor lives; frying it in coconut milk (not water) concentrates the spices before adding the rest. Finish with fish sauce and lime for balance - the salty and sour notes should sing equally with the heat.
 ## Directions
 
 1.  **Bloom:** Heat 1 tbsp oil in a wok over medium heat. Add the red curry paste. Fry for 2 minutes, stirring constantly, until it smells very fragrant and starts to stick.
@@ -56,4 +64,4 @@ Thai curry is built on a paste of chiles, aromatics, and spices that blooms in c
 5.  **Wilt:** Turn off the heat and stir in the Thai basil leaves.
 6.  **Serve:** Serve immediately over [Jasmine Rice](/mise/recipes/homemade-rice-pilaf).
 
-**Rest:** Let lb Chicken rest for 5 minutes before slicing or serving — the juices redistribute and every piece stays moist.
+**Rest:** Let lb Chicken rest for 5 minutes before slicing or serving  -  the juices redistribute and every piece stays moist.

@@ -40,6 +40,14 @@ ingredients:
   - Maraschino cherry (optional)
   - Large ice cube
 origin: United States
+nutrition:
+  calories: 80
+  protein: 1
+  carbs: 19.5
+  fat: 0.5
+  fiber: 3
+  sugar: 16.5
+  sodium: 0
 ---
 
 ## Directions

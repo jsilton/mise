@@ -43,11 +43,19 @@ ingredients:
   - 1/2 cup Reserved Pasta Water
   - Salt and Black Pepper
 origin: Italy
+nutrition:
+  calories: 750
+  protein: 25.5
+  carbs: 132.5
+  fat: 14.5
+  fiber: 11.5
+  sugar: 5
+  sodium: 130
 ---
 
 ## Chef's Note
 
-This spring pasta variation adds peas, which come into season in Italy in April and May. The traditional Italian combination of cured pork with pasta water creates creamy emulsion without needing cream—though this version adds a touch of crème fraîche. Mini-shells trap sauce inside each piece. Fresh mint with peas is a classic Italian pairing found in "pasta e piselli." Render bacon fat slowly so it becomes your cooking fat, then combine with pasta water and cheese to create the sauce. Lemon juice cuts through richness.
+This spring pasta variation adds peas, which come into season in Italy in April and May. The traditional Italian combination of cured pork with pasta water creates creamy emulsion without needing cream - though this version adds a touch of crème fraîche. Mini-shells trap sauce inside each piece. Fresh mint with peas is a classic Italian pairing found in "pasta e piselli." Render bacon fat slowly so it becomes your cooking fat, then combine with pasta water and cheese to create the sauce. Lemon juice cuts through richness.
 
 ## Directions
 

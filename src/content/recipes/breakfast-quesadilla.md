@@ -2,31 +2,55 @@
 title: Breakfast Quesadilla
 origin: Mexico
 difficulty: easy
-cookingMethods: [sauté, toast]
-dietary: [vegetarian]
-occasions: [weeknight, kid-friendly, quick-lunch]
-flavorProfile: [savory, rich, spicy]
-cuisines: [Mexican, American]
+cookingMethods:
+  - sauté
+  - toast
+dietary:
+  - vegetarian
+occasions:
+  - weeknight
+  - kid-friendly
+  - quick-lunch
+flavorProfile:
+  - savory
+  - rich
+  - spicy
+cuisines:
+  - Mexican
+  - American
 role: main
 vibe: quick
-seasons: [year-round]
+seasons:
+  - year-round
 nutritionalDensity: hearty
 leftovers: good
 advancePrep: []
-equipment: [skillet]
+equipment:
+  - skillet
 prepTime: 5 min
 cookTime: 8 min
 totalTime: 13 min
 servings: '2'
-pairsWith: [classic-guacamole, carnitas-bowl, shakshuka]
+pairsWith:
+  - classic-guacamole
+  - carnitas-bowl
+  - shakshuka
 ingredients:
-  - '4 large Eggs'
-  - '1 tbsp Unsalted Butter'
-  - '1/4 tsp Kosher Salt'
-  - '2 large (10-inch) Flour Tortillas'
-  - '1 cup Shredded Cheddar or Mexican Blend Cheese'
+  - 4 large Eggs
+  - 1 tbsp Unsalted Butter
+  - 1/4 tsp Kosher Salt
+  - 2 large (10-inch) Flour Tortillas
+  - 1 cup Shredded Cheddar or Mexican Blend Cheese
   - '2 tbsp Pickled Jalapenos, chopped (optional)'
-  - 'Salsa and sour cream for serving'
+  - Salsa and sour cream for serving
+nutrition:
+  calories: 605
+  protein: 40.5
+  carbs: 4
+  fat: 49
+  fiber: 0
+  sugar: 2
+  sodium: 2150
 ---
 
 ## Chef's Note

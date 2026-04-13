@@ -38,11 +38,19 @@ ingredients:
   - Pinch of Kosher Salt
   - Butter or Coconut Oil for searing
 origin: United States
+nutrition:
+  calories: 810
+  protein: 28.5
+  carbs: 100
+  fat: 38
+  fiber: 14
+  sugar: 23.5
+  sodium: 2540
 ---
 
 ## Chef's Note
 
-These are a gym staple made famous by bodybuilders—a high-protein, no-flour pancake that blends banana, eggs, and oats into a batter with the texture of crepes. The banana provides natural sweetness and moisture, so these need almost no oil; cook them at medium heat or the outside browns before the inside sets.
+These are a gym staple made famous by bodybuilders - a high-protein, no-flour pancake that blends banana, eggs, and oats into a batter with the texture of crepes. The banana provides natural sweetness and moisture, so these need almost no oil; cook them at medium heat or the outside browns before the inside sets.
 ## Directions
 
 1.  **Mash:** In a medium bowl, mash the banana until almost liquid.

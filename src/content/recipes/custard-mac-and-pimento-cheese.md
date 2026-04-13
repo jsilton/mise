@@ -45,11 +45,19 @@ seasons:
 nutritionalDensity: moderate
 leftovers: good
 equipment: []
+nutrition:
+  calories: 370
+  protein: 14.5
+  carbs: 58
+  fat: 9.5
+  fiber: 3.5
+  sugar: 5
+  sodium: 520
 ---
 
 ## Chef's Note
 
-Custard-style mac and cheese is a Southern tradition that predates the béchamel version most people know — eggs and milk form the sauce, not a roux. The custard sets gently in the oven, creating a creamy interior with a golden crust on top. The pimento cheese twist comes from the Carolinas, where pimento cheese is practically a food group. Cook the pasta 2 minutes short of al dente — it finishes in the oven, and overcooked pasta in a baked dish turns to mush.
+Custard-style mac and cheese is a Southern tradition that predates the béchamel version most people know  -  eggs and milk form the sauce, not a roux. The custard sets gently in the oven, creating a creamy interior with a golden crust on top. The pimento cheese twist comes from the Carolinas, where pimento cheese is practically a food group. Cook the pasta 2 minutes short of al dente  -  it finishes in the oven, and overcooked pasta in a baked dish turns to mush.
 ## Directions
 
 1.  **Boil:** Preheat oven to 375°F. Bring a large pot of heavily salted water to a boil. Cook the pasta for 2 minutes **less** than the package instructions (it should be very firm). Drain and return to the pot.

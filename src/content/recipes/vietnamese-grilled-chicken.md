@@ -41,11 +41,19 @@ leftovers: good
 equipment: []
 advancePrep:
   - marinate-overnight
+nutrition:
+  calories: 90
+  protein: 3
+  carbs: 12.5
+  fat: 4
+  fiber: 1.5
+  sugar: 7.5
+  sodium: 1640
 ---
 
 ## Chef's Note
 
-To achieve the **Lemongrass Char** of a Vietnamese street stall, you must treat the lemongrass correctly. Finely mince only the white, tender inner core and pound it with a mortar and pestle (or the back of a knife) to release the essential oils. Thighs are mandatory here—they handle the high heat of the grill without drying out, creating those irresistible crispy, blackened edges.
+To achieve the **Lemongrass Char** of a Vietnamese street stall, you must treat the lemongrass correctly. Finely mince only the white, tender inner core and pound it with a mortar and pestle (or the back of a knife) to release the essential oils. Thighs are mandatory here - they handle the high heat of the grill without drying out, creating those irresistible crispy, blackened edges.
 
 ## Directions
 

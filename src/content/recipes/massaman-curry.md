@@ -61,17 +61,25 @@ ingredients:
   - 'Fresh Cilantro, chopped'
   - Fresh Lime Wedges
   - Steamed Rice
+nutrition:
+  calories: 580
+  protein: 30.5
+  carbs: 32.5
+  fat: 41
+  fiber: 7
+  sugar: 7.5
+  sodium: 1790
 ---
 
 ## Chef's Note
 
-Massaman curry is Thai food with Persian spice influences (cardamom, cinnamon) born from trade routes and centuries of cultural mixing. It's one of the richest, least aggressive curries—earthy from peanuts, balanced by tamarind and palm sugar, warmed by cardamom and cinnamon. Unlike other Thai curries that are bright and lean toward acid, massaman is deep and complex, closer to Indian cuisine. Thai home cooks make it for celebrations and special dinners because it's a slow braise that tastes even better the next day. Store-bought curry paste is genuinely good—even Thai home cooks use it.
+Massaman curry is Thai food with Persian spice influences (cardamom, cinnamon) born from trade routes and centuries of cultural mixing. It's one of the richest, least aggressive curries - earthy from peanuts, balanced by tamarind and palm sugar, warmed by cardamom and cinnamon. Unlike other Thai curries that are bright and lean toward acid, massaman is deep and complex, closer to Indian cuisine. Thai home cooks make it for celebrations and special dinners because it's a slow braise that tastes even better the next day. Store-bought curry paste is genuinely good - even Thai home cooks use it.
 
 ## Directions
 
 1. **Pat the Meat Dry:** Place the beef cubes on a paper towel and pat completely dry. Wet meat won't brown high heat (400-450°F).
 
-2. **Brown the Meat:** Heat the oil in a large skillet over medium-high heat. Add the beef cubes in a single layer (work in batches if needed to avoid crowding). Let each side cook undisturbed for 2-3 minutes to develop a brown crust. You're not cooking it through—just browning the exterior. Transfer to a plate.
+2. **Brown the Meat:** Heat the oil in a large skillet over medium-high heat. Add the beef cubes in a single layer (work in batches if needed to avoid crowding). Let each side cook undisturbed for 2-3 minutes to develop a brown crust. You're not cooking it through - just browning the exterior. Transfer to a plate.
 
 3. **Build the Curry Base:** Add the curry paste to the same skillet and cook for 1-2 minutes, stirring constantly. The paste should darken slightly and smell fragrant and toasted.
 
@@ -99,9 +107,9 @@ Massaman curry is Thai food with Persian spice influences (cardamom, cinnamon) b
 
 **Peanut Texture:** Whole roasted peanuts are more authentic than peanut butter. The peanuts should stay slightly chunky in the sauce, not dissolve completely. If you prefer creamier, grind half the peanuts before adding.
 
-**Tamarind vs. Lime:** Tamarind paste is more traditional and adds complex sourness. Lime juice is brighter and more forward. Use tamarind if available, lime if not—either works.
+**Tamarind vs. Lime:** Tamarind paste is more traditional and adds complex sourness. Lime juice is brighter and more forward. Use tamarind if available, lime if not - either works.
 
-**Meat Options:** Beef is traditional, but pork shoulder, chicken thighs, or even mushrooms (for vegetarian) work beautifully. Cooking times vary—chicken cooks faster (about 20 minutes total braise time), vegetables cook in the same time as potatoes.
+**Meat Options:** Beef is traditional, but pork shoulder, chicken thighs, or even mushrooms (for vegetarian) work beautifully. Cooking times vary - chicken cooks faster (about 20 minutes total braise time), vegetables cook in the same time as potatoes.
 
 **Make-Ahead:** Massaman improves overnight and keeps for 4-5 days in the refrigerator. Reheat gently over low heat, adding a splash of coconut milk if the sauce has thickened too much.
 

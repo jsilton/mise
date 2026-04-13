@@ -30,6 +30,6 @@ A deeply flavored, hearty beef stew with tender chunks of meat, root vegetables,
 
 ## Notes
 
-- Don't skip searing — it builds the foundation of flavor
+- Don't skip searing  -  it builds the foundation of flavor
 - Chuck roast or short rib meat is ideal
 - Even better the next day as the flavors meld overnight

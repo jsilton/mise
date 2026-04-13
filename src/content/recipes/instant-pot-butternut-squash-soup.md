@@ -45,11 +45,19 @@ seasons:
 nutritionalDensity: moderate
 leftovers: good
 equipment: []
+nutrition:
+  calories: 365
+  protein: 26
+  carbs: 9
+  fat: 26
+  fiber: 2
+  sugar: 5
+  sodium: 380
 ---
 
 ## Chef's Note
 
-Sautéing bacon first, removing it for garnish, then cooking aromatics in the rendered fat infuses this soup with smoky umami backbone. Including a Granny Smith apple prevents the squash from becoming overly sweet—the apple's acidity balances the soup's natural sugars and provides brightness within the puree itself.
+Sautéing bacon first, removing it for garnish, then cooking aromatics in the rendered fat infuses this soup with smoky umami backbone. Including a Granny Smith apple prevents the squash from becoming overly sweet - the apple's acidity balances the soup's natural sugars and provides brightness within the puree itself.
 
 ## Directions
 

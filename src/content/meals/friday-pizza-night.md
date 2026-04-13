@@ -19,7 +19,7 @@ bestFor: [friday]
 
 ## Meal Overview
 
-Friday means fun—make homemade pizza with everyone getting a chance to top their own. The dough rises while you're living your week, and suddenly you're pulling hot, crispy pizza from the oven. Simple fresh arugula salad on the side to cut through the richness.
+Friday means fun - make homemade pizza with everyone getting a chance to top their own. The dough rises while you're living your week, and suddenly you're pulling hot, crispy pizza from the oven. Simple fresh arugula salad on the side to cut through the richness.
 
 ## Cooking Strategy
 
@@ -33,6 +33,6 @@ Friday means fun—make homemade pizza with everyone getting a chance to top the
 ## Notes
 
 - Pre-made pizza dough works fine if you're short on time
-- Let kids top their own pizzas—makes it fun and they're more likely to eat
+- Let kids top their own pizzas - makes it fun and they're more likely to eat
 - A baking stone makes a difference but a sheet pan works
 - Fresh arugula tossed with good olive oil and lemon cuts through the richness

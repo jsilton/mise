@@ -40,6 +40,14 @@ ingredients:
   - 1 tbsp Neutral Oil
   - Fresh Parsley for garnish
 origin: United States
+nutrition:
+  calories: 500
+  protein: 41
+  carbs: 39
+  fat: 20
+  fiber: 5
+  sugar: 2.5
+  sodium: 760
 ---
 
 ## Chef's Note
@@ -55,4 +63,4 @@ This 20-minute skillet uses pre-cooked quinoa (frozen or leftover) to speed up d
 5.  **Finish:** Remove from heat. Season with a pinch of salt and pepper.
 6.  **Serve:** Garnish with fresh parsley. Serve immediately.
 
-**Rest:** Let Spicy Chicken rest for 5 minutes before slicing or serving — the juices redistribute and every piece stays moist.
+**Rest:** Let Spicy Chicken rest for 5 minutes before slicing or serving  -  the juices redistribute and every piece stays moist.

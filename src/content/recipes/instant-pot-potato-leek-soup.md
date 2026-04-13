@@ -42,11 +42,19 @@ seasons:
 nutritionalDensity: moderate
 leftovers: good
 equipment: []
+nutrition:
+  calories: 320
+  protein: 7
+  carbs: 47
+  fat: 12
+  fiber: 3
+  sugar: 2
+  sodium: 1180
 ---
 
 ## Chef's Note
 
-This modern update to my Grandpa's recipe achieves silky texture by sautéing leeks in butter and oil until completely soft and translucent before adding flour and broth—this fully develops their natural sugars. White pepper and nutmeg bridge the gap between earthy potatoes and rich cream, classic French seasonings for potato-leek soup.
+This modern update to my Grandpa's recipe achieves silky texture by sautéing leeks in butter and oil until completely soft and translucent before adding flour and broth - this fully develops their natural sugars. White pepper and nutmeg bridge the gap between earthy potatoes and rich cream, classic French seasonings for potato-leek soup.
 
 ## Directions
 

@@ -44,11 +44,19 @@ ingredients:
   - 1 tsp Sugar
   - Salt and Black Pepper
 origin: United States
+nutrition:
+  calories: 285
+  protein: 26.5
+  carbs: 16.5
+  fat: 14
+  fiber: 2.5
+  sugar: 6
+  sodium: 350
 ---
 
 ## Chef's Note
 
-Hot dogs made from beef tenderloin aren't a tradition—they're a luxury. The corn relish is the main event: fresh corn kernels provide sweetness and texture that store-bought relish can't match. The magic is in the quick pickle: fresh corn with vinegar, onion, and mustard seeds transforms an ordinary hot dog stand item into something worth serving at a table.
+Hot dogs made from beef tenderloin aren't a tradition - they're a luxury. The corn relish is the main event: fresh corn kernels provide sweetness and texture that store-bought relish can't match. The magic is in the quick pickle: fresh corn with vinegar, onion, and mustard seeds transforms an ordinary hot dog stand item into something worth serving at a table.
 ## Directions
 
 1.  **The Relish:** In a small bowl, whisk the vinegar, sugar, salt, and pepper. Toss with the roasted corn, peppers, and onions. Let marinate while you cook the beef.

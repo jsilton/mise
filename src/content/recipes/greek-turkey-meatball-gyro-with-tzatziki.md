@@ -44,11 +44,19 @@ seasons:
 nutritionalDensity: moderate
 leftovers: poor
 equipment: []
+nutrition:
+  calories: 225
+  protein: 10.5
+  carbs: 28.5
+  fat: 8
+  fiber: 4.5
+  sugar: 7
+  sodium: 180
 ---
 
 ## Chef's Note
 
-Turkey meatballs can turn dry, but folding in a full cup of chopped spinach creates moisture pockets that keep them succulent during searing. For proper tzatziki, squeeze grated cucumber in a towel until bone-dry before mixing with yogurt—wet cucumber produces a thin, watery sauce instead of the thick, tangy consistency tzatziki should have.
+Turkey meatballs can turn dry, but folding in a full cup of chopped spinach creates moisture pockets that keep them succulent during searing. For proper tzatziki, squeeze grated cucumber in a towel until bone-dry before mixing with yogurt - wet cucumber produces a thin, watery sauce instead of the thick, tangy consistency tzatziki should have.
 
 ## Directions
 
@@ -59,4 +67,4 @@ Turkey meatballs can turn dry, but folding in a full cup of chopped spinach crea
 5.  **Assemble:** Warm the flatbreads in the microwave or on the skillet. Place 3 meatballs in the center of each.
 6.  **Finish:** Top with raw red onion, tomatoes, and cucumber. Drizzle generously with the tzatziki for the mandatory **High Note**.
 
-**Rest:** Let Ground Turkey rest for 10 minutes before slicing or serving — the juices redistribute and every piece stays moist.
+**Rest:** Let Ground Turkey rest for 10 minutes before slicing or serving  -  the juices redistribute and every piece stays moist.

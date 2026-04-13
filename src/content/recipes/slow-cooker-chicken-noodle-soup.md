@@ -39,11 +39,19 @@ seasons:
 nutritionalDensity: moderate
 leftovers: excellent
 equipment: []
+nutrition:
+  calories: 370
+  protein: 55.5
+  carbs: 2.5
+  fat: 17.5
+  fiber: 0.5
+  sugar: 1
+  sodium: 500
 ---
 
 ## Chef's Note
 
-Adding pasta during the final 40 minutes of the slow-cook cycle prevents it from dissolving into the broth—a common problem when noodles cook for hours. Fresh lemon juice stirred in at the end transforms a heavy stew into a bright, restorative soup by cutting through the rich chicken and vegetables with tangy acidity.
+Adding pasta during the final 40 minutes of the slow-cook cycle prevents it from dissolving into the broth - a common problem when noodles cook for hours. Fresh lemon juice stirred in at the end transforms a heavy stew into a bright, restorative soup by cutting through the rich chicken and vegetables with tangy acidity.
 
 ## Directions
 

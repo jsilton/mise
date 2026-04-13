@@ -2,23 +2,45 @@
 title: Fattoush Salad
 origin: Lebanon
 difficulty: easy
-cookingMethods: [bake, no-cook]
-dietary: [vegetarian, vegan, dairy-free, nut-free]
-occasions: [light-and-fresh, quick-lunch, entertaining]
-flavorProfile: [acidic, herbaceous, savory]
-cuisines: [Middle Eastern]
+cookingMethods:
+  - bake
+  - no-cook
+dietary:
+  - vegetarian
+  - vegan
+  - dairy-free
+  - nut-free
+occasions:
+  - light-and-fresh
+  - quick-lunch
+  - entertaining
+flavorProfile:
+  - acidic
+  - herbaceous
+  - savory
+cuisines:
+  - Middle Eastern
 role: side
 vibe: quick
-seasons: [spring, summer]
+seasons:
+  - spring
+  - summer
 nutritionalDensity: light
 leftovers: poor
-advancePrep: [components-ahead]
-equipment: [sheet pan, large mixing bowl, small jar or bowl for dressing]
+advancePrep:
+  - components-ahead
+equipment:
+  - sheet pan
+  - large mixing bowl
+  - small jar or bowl for dressing
 prepTime: 20 min
 cookTime: 10 min
 totalTime: 30 min
 servings: '4'
-pairsWith: [falafel, chicken-shawarma, israeli-style-hummus]
+pairsWith:
+  - falafel
+  - chicken-shawarma
+  - israeli-style-hummus
 ingredients:
   - '2 Pita Bread rounds, split open and torn into 1-inch pieces'
   - '3 tbsp Extra-Virgin Olive Oil, for pita'
@@ -31,12 +53,20 @@ ingredients:
   - '1/2 cup Fresh Mint Leaves, torn'
   - '1 head Little Gem or Romaine Lettuce, torn into pieces'
   - '1/4 cup Extra-Virgin Olive Oil, for dressing'
-  - '3 tbsp Fresh Lemon Juice'
-  - '1 tbsp Pomegranate Molasses'
+  - 3 tbsp Fresh Lemon Juice
+  - 1 tbsp Pomegranate Molasses
   - '1 small clove Garlic, finely grated'
   - '1 tsp Sumac, for dressing'
-  - '1/2 tsp Kosher Salt'
-  - '1/4 tsp Black Pepper'
+  - 1/2 tsp Kosher Salt
+  - 1/4 tsp Black Pepper
+nutrition:
+  calories: 640
+  protein: 3
+  carbs: 17.5
+  fat: 64.5
+  fiber: 3.5
+  sugar: 6
+  sodium: 630
 ---
 
 ## Chef's Note

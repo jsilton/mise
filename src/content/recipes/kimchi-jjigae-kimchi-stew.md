@@ -54,11 +54,19 @@ ingredients:
   - '2 Green Onions (scallions), chopped'
   - Sesame Seeds
   - Cooked Rice
+nutrition:
+  calories: 110
+  protein: 2.5
+  carbs: 8
+  fat: 8
+  fiber: 1.5
+  sugar: 3.5
+  sodium: 820
 ---
 
 ## Chef's Note
 
-Kimchi jjigae is Korean comfort food in its rawest form—kimchi is already fermented and pungent, so when you braise it with pork in stock, it becomes even more funky and complex. This is not a refined dish; it's what Korean mothers make on cold nights when they have leftover kimchi and want something warming and bold. The pork adds richness (or use tofu for vegetarian), and gochugaru (Korean chili flakes) amplifies the heat. Korean home cooks don't measure precisely—they taste and adjust. The final balance should be hot, salty, and deep-savory.
+Kimchi jjigae is Korean comfort food in its rawest form - kimchi is already fermented and pungent, so when you braise it with pork in stock, it becomes even more funky and complex. This is not a refined dish; it's what Korean mothers make on cold nights when they have leftover kimchi and want something warming and bold. The pork adds richness (or use tofu for vegetarian), and gochugaru (Korean chili flakes) amplifies the heat. Korean home cooks don't measure precisely - they taste and adjust. The final balance should be hot, salty, and deep-savory.
 
 ## Directions
 
@@ -66,7 +74,7 @@ Kimchi jjigae is Korean comfort food in its rawest form—kimchi is already ferm
 
 2. **Heat the Pan:** Place a medium saucepan over medium-high heat. Add 1 tbsp vegetable oil and let it get hot.
 
-3. **Cook the Pork:** Add the sliced pork and let it sit for 1-2 minutes without stirring to develop color. Stir and cook another 1-2 minutes until the pork is mostly opaque. Don't fully cook it—it will finish cooking in the braise.
+3. **Cook the Pork:** Add the sliced pork and let it sit for 1-2 minutes without stirring to develop color. Stir and cook another 1-2 minutes until the pork is mostly opaque. Don't fully cook it - it will finish cooking in the braise.
 
 4. **Add Aromatics:** Add the minced garlic and cook for 30 seconds until fragrant. Add the sliced onion and mushrooms, cooking for 2 minutes until they begin to soften.
 
@@ -76,13 +84,13 @@ Kimchi jjigae is Korean comfort food in its rawest form—kimchi is already ferm
 
 7. **Braise:** Add the stock and kimchi brine, stirring well. Bring to a gentle simmer over medium heat. Once simmering, reduce heat to low and simmer uncovered for 12-15 minutes so the flavors meld and the pork becomes tender. The liquid should reduce slightly and taste deeply savory and spicy.
 
-8. **Taste and Season:** Taste carefully. Add fish sauce for more umami, sugar to balance heat and salt, or gochugaru if you want more spice. The balance should feel bold but balanced—no single flavor should overwhelm.
+8. **Taste and Season:** Taste carefully. Add fish sauce for more umami, sugar to balance heat and salt, or gochugaru if you want more spice. The balance should feel bold but balanced - no single flavor should overwhelm.
 
 9. **Finish:** Drizzle with 1 tbsp sesame oil. Remove from heat.
 
 10. **Serve:** Ladle into individual bowls over warm rice. Garnish with chopped green onions and sesame seeds. Serve with kimchi on the side and extra rice.
 
-**Kimchi Quality:** Use kimchi that's at least a few days old—the older and funkier the better. Store-bought kimchi is fine; homemade is better.
+**Kimchi Quality:** Use kimchi that's at least a few days old - the older and funkier the better. Store-bought kimchi is fine; homemade is better.
 
 **Pork Options:** Pork belly is traditional because it becomes tender and adds richness. But pork shoulder, beef, or tofu all work.
 

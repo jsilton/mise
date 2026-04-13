@@ -2,30 +2,54 @@
 title: Smashed Potatoes
 difficulty: easy
 origin: United States
-cookingMethods: [roast, boil]
-dietary: [vegetarian, vegan, gluten-free]
-occasions: [comfort-food]
-flavorProfile: [savory, herbaceous]
-cuisines: [American]
+cookingMethods:
+  - roast
+  - boil
+dietary:
+  - vegetarian
+  - vegan
+  - gluten-free
+occasions:
+  - comfort-food
+flavorProfile:
+  - savory
+  - herbaceous
+cuisines:
+  - American
 role: side
 vibe: comfort
-seasons: [fall, winter]
+seasons:
+  - fall
+  - winter
 nutritionalDensity: moderate
 leftovers: good
-advancePrep: [components-ahead]
-equipment: [baking-sheet]
+advancePrep:
+  - components-ahead
+equipment:
+  - baking-sheet
 prepTime: 10 min
 cookTime: 40 min
 totalTime: 50 min
 servings: '4'
-pairsWith: [sheet-pan-italian-sausage-dinner, blueberry-baked-oatmeal, blueberry-pancakes]
+pairsWith:
+  - sheet-pan-italian-sausage-dinner
+  - blueberry-baked-oatmeal
+  - blueberry-pancakes
 ingredients:
-  - '1.5 lbs Baby Potatoes (Red or Yukon Gold)'
-  - '1/4 cup Olive Oil'
-  - '1 tsp Garlic Powder'
-  - '1 tsp Dried Rosemary or Thyme'
-  - 'Kosher Salt and Black Pepper'
-  - 'Flaky Sea Salt for finishing'
+  - 1.5 lbs Baby Potatoes (Red or Yukon Gold)
+  - 1/4 cup Olive Oil
+  - 1 tsp Garlic Powder
+  - 1 tsp Dried Rosemary or Thyme
+  - Kosher Salt and Black Pepper
+  - Flaky Sea Salt for finishing
+nutrition:
+  calories: 505
+  protein: 0.5
+  carbs: 7
+  fat: 54
+  fiber: 1
+  sugar: 0.5
+  sodium: 580
 ---
 
 ## Chef's Note

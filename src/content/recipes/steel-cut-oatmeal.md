@@ -44,6 +44,14 @@ ingredients:
   - 1/4 tsp Ground Cinnamon
   - Pinch of Sea Salt
 origin: United States
+nutrition:
+  calories: 1980
+  protein: 5
+  carbs: 20
+  fat: 214
+  fiber: 2
+  sugar: 6.5
+  sodium: 960
 ---
 
 ## Chef's Note

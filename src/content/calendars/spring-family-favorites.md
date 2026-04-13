@@ -8,7 +8,7 @@ Seasonal, kid-friendly, balancing familiar comfort with gentle adventures. Sprin
 
 | Day       | Meal                           | Notes                                         |
 | --------- | ------------------------------ | --------------------------------------------- |
-| Sunday    | [[sunday-roast-chicken-feast]] | Family favorite—crispy skin, fresh arugula   |
+| Sunday    | [[sunday-roast-chicken-feast]] | Family favorite - crispy skin, fresh arugula   |
 | Monday    | [[japanese-katsu-curry-night]] | Mild curry, crispy fried chicken, kids love  |
 | Tuesday   | [[build-your-own-taco-bar]]    | Everyone customizes, no one feels left out   |
 | Wednesday | [[thai-basil-chicken-adventure]] | New flavors, but approachable heat level      |

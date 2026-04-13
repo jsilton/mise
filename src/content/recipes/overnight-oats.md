@@ -2,32 +2,53 @@
 title: Overnight Oats
 origin: Switzerland
 difficulty: easy
-cookingMethods: [no-cook]
-dietary: [vegetarian, gluten-free]
-occasions: [meal-prep, weeknight]
-flavorProfile: [sweet]
-cuisines: [American]
+cookingMethods:
+  - no-cook
+dietary:
+  - vegetarian
+  - gluten-free
+occasions:
+  - meal-prep
+  - weeknight
+flavorProfile:
+  - sweet
+cuisines:
+  - American
 role: main
 vibe: nutritious
 prepTime: 5 min
 cookTime: 0 min
 totalTime: 5 min
 servings: '1'
-seasons: [year-round]
+seasons:
+  - year-round
 nutritionalDensity: moderate
 leftovers: excellent
-advancePrep: [make-ahead]
-equipment: [jar]
-pairsWith: [roasted-fall-harvest-salad, roasted-sweet-potatoes, banana-oat-greek-yogurt-muffins]
+advancePrep:
+  - make-ahead
+equipment:
+  - jar
+pairsWith:
+  - roasted-fall-harvest-salad
+  - roasted-sweet-potatoes
+  - banana-oat-greek-yogurt-muffins
 ingredients:
   - '1/2 cup Old-Fashioned Rolled Oats (not instant, not steel-cut)'
-  - '1/2 cup Milk (any variety)'
-  - '1/4 cup Plain Greek Yogurt'
-  - '1 tbsp Chia Seeds'
-  - '1 tbsp Maple Syrup or Honey'
-  - '1/2 tsp Vanilla Extract'
-  - 'Pinch of Kosher Salt'
+  - 1/2 cup Milk (any variety)
+  - 1/4 cup Plain Greek Yogurt
+  - 1 tbsp Chia Seeds
+  - 1 tbsp Maple Syrup or Honey
+  - 1/2 tsp Vanilla Extract
+  - Pinch of Kosher Salt
   - 'Toppings: fresh fruit, nut butter, granola, toasted coconut, or nuts'
+nutrition:
+  calories: 595
+  protein: 34
+  carbs: 77.5
+  fat: 16.5
+  fiber: 8
+  sugar: 19
+  sodium: 2490
 ---
 
 ## Chef's Note

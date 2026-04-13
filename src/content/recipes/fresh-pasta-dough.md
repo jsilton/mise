@@ -35,11 +35,19 @@ ingredients:
   - 1 tbsp Extra-Virgin Olive Oil
   - 1 tsp Kosher Salt
 origin: Italy
+nutrition:
+  calories: 330
+  protein: 18
+  carbs: 1
+  fat: 28.5
+  fiber: 0
+  sugar: 1
+  sodium: 2540
 ---
 
 ## Chef's Note
 
-Traditional pasta dough from Northern Italy uses just flour and eggs—the simplicity lets you taste the quality of each ingredient. The 30-60 minute rest period is essential: it allows the gluten to relax fully so the dough rolls smoothly without springing back. A stand mixer makes quick work of kneading, but hand-kneading works just as well if you have 10 minutes and strong arms.
+Traditional pasta dough from Northern Italy uses just flour and eggs - the simplicity lets you taste the quality of each ingredient. The 30-60 minute rest period is essential: it allows the gluten to relax fully so the dough rolls smoothly without springing back. A stand mixer makes quick work of kneading, but hand-kneading works just as well if you have 10 minutes and strong arms.
 
 ## Directions
 

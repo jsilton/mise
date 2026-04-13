@@ -2,23 +2,37 @@
 title: Shumai
 origin: China
 difficulty: intermediate
-cookingMethods: [boil, steam]
+cookingMethods:
+  - boil
+  - steam
 dietary: []
-occasions: [weekend-project, entertaining]
-flavorProfile: [spicy, sweet, savory, umami]
-cuisines: [Chinese]
+occasions:
+  - weekend-project
+  - entertaining
+flavorProfile:
+  - spicy
+  - sweet
+  - savory
+  - umami
+cuisines:
+  - Chinese
 role: main
 vibe: technical
 prepTime: 60 min
 cookTime: 10 min
 totalTime: 70 min
 servings: 25 shumai
-seasons: [year-round]
+seasons:
+  - year-round
 nutritionalDensity: moderate
 leftovers: excellent
-advancePrep: [make-ahead, freeze-ahead]
-equipment: [bamboo-steamer]
-pairsWith: [steamed-broccoli]
+advancePrep:
+  - make-ahead
+  - freeze-ahead
+equipment:
+  - bamboo-steamer
+pairsWith:
+  - steamed-broccoli
 ingredients:
   - 1/2 lb Ground Pork (80/20 fat ratio)
   - '1/2 lb Shrimp, peeled and deveined (finely chopped)'
@@ -32,11 +46,19 @@ ingredients:
   - 1 tbsp Cornstarch
   - 25-30 Siu Mai Wrappers (Yellow egg wrappers)
   - 1/4 cup Finely diced carrots or Goji berries
+nutrition:
+  calories: 30
+  protein: 4.5
+  carbs: 1.5
+  fat: 1
+  fiber: 0
+  sugar: 0.5
+  sodium: 90
 ---
 
 ## Chef's Note
 
-Shumai (also spelled siu mai) are open-topped Cantonese dumplings, a dim sum staple from Guangdong province. The distinctive bouncy texture comes from stirring the pork and shrimp mixture vigorously in one direction for several minutes until it becomes sticky—this develops the protein and gives it that characteristic snap. Dried shiitake mushrooms are essential for their concentrated umami flavor. The yellow egg wrappers and the small diced carrot or goji berry garnish on top are traditional touches.
+Shumai (also spelled siu mai) are open-topped Cantonese dumplings, a dim sum staple from Guangdong province. The distinctive bouncy texture comes from stirring the pork and shrimp mixture vigorously in one direction for several minutes until it becomes sticky - this develops the protein and gives it that characteristic snap. Dried shiitake mushrooms are essential for their concentrated umami flavor. The yellow egg wrappers and the small diced carrot or goji berry garnish on top are traditional touches.
 
 ## Directions
 

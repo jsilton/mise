@@ -18,7 +18,7 @@ bestFor: [saturday, sunday]
 
 ## Meal Overview
 
-Eggs poached in a spiced tomato sauce — vibrant, warming, and perfect for brunch or a light dinner. The warm pita is essential for scooping, and the fattoush provides crunch and acid. This meal comes together in one skillet.
+Eggs poached in a spiced tomato sauce  -  vibrant, warming, and perfect for brunch or a light dinner. The warm pita is essential for scooping, and the fattoush provides crunch and acid. This meal comes together in one skillet.
 
 ## Cooking Strategy
 

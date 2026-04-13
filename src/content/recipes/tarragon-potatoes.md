@@ -43,11 +43,19 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 equipment: []
+nutrition:
+  calories: 110
+  protein: 1
+  carbs: 8
+  fat: 8.5
+  fiber: 1
+  sugar: 0.5
+  sodium: 420
 ---
 
 ## Chef's Note
 
-The secret to excellent tarragon potatoes is the butter-finish technique. Tarragon has a powerful, anise-like flavor that can become bitter if burned; we toss the potatoes in oil and herbs first, then add cold butter cubes to the pan halfway through roasting. This creates a foaming butter that bastes the potatoes, ensuring a rich interior inside a crispy golden crust. Be precise with the tarragon—its bright flavor defines the dish.
+The secret to excellent tarragon potatoes is the butter-finish technique. Tarragon has a powerful, anise-like flavor that can become bitter if burned; we toss the potatoes in oil and herbs first, then add cold butter cubes to the pan halfway through roasting. This creates a foaming butter that bastes the potatoes, ensuring a rich interior inside a crispy golden crust. Be precise with the tarragon - its bright flavor defines the dish.
 
 ## Directions
 

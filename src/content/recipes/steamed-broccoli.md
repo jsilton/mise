@@ -40,11 +40,19 @@ ingredients:
   - 1/2 tsp Sea Salt
   - 1/4 tsp Black Pepper
 origin: United States
+nutrition:
+  calories: 70
+  protein: 1
+  carbs: 2
+  fat: 7
+  fiber: 1
+  sugar: 0.5
+  sodium: 600
 ---
 
 ## Chef's Note
 
-Warming olive oil and minced garlic in a small pan for exactly 1 minute "blooms" the garlic, removing its harsh sulfurous bite and creating a nutty, aromatic dressing for the steamed broccoli. Steaming for exactly 4 minutes ensures bright green color and tender-crisp texture—overcooking turns broccoli gray and mushy.
+Warming olive oil and minced garlic in a small pan for exactly 1 minute "blooms" the garlic, removing its harsh sulfurous bite and creating a nutty, aromatic dressing for the steamed broccoli. Steaming for exactly 4 minutes ensures bright green color and tender-crisp texture - overcooking turns broccoli gray and mushy.
 
 ## Directions
 

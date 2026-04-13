@@ -54,6 +54,14 @@ ingredients:
   - '1/2 cup Parmesan, grated'
   - '4 Hard-boiled Eggs, chopped (traditional)'
 origin: Italy
+nutrition:
+  calories: 550
+  protein: 29.5
+  carbs: 90.5
+  fat: 9.5
+  fiber: 8
+  sugar: 5
+  sodium: 300
 ---
 
 ## Chef's Note

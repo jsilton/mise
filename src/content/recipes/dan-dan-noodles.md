@@ -2,40 +2,67 @@
 title: Dan Dan Noodles
 origin: China
 difficulty: intermediate
-cookingMethods: [saute, boil, simmer]
+cookingMethods:
+  - saute
+  - boil
+  - simmer
 dietary: []
-occasions: [weeknight, comfort-food]
-flavorProfile: [spicy, savory, umami, rich]
-cuisines: [Chinese]
+occasions:
+  - weeknight
+  - comfort-food
+flavorProfile:
+  - spicy
+  - savory
+  - umami
+  - rich
+cuisines:
+  - Chinese
 role: main
 vibe: comfort
-seasons: [fall, winter]
+seasons:
+  - fall
+  - winter
 nutritionalDensity: hearty
 leftovers: poor
-advancePrep: [components-ahead]
-equipment: [wok or large skillet, large pot, small bowls for sauce]
+advancePrep:
+  - components-ahead
+equipment:
+  - wok or large skillet
+  - large pot
+  - small bowls for sauce
 prepTime: 15 min
 cookTime: 15 min
 totalTime: 30 min
 servings: '4'
-pairsWith: [smashed-cucumber-salad, mapo-tofu, szechuan-eggplant-and-tofu]
+pairsWith:
+  - smashed-cucumber-salad
+  - mapo-tofu
+  - szechuan-eggplant-and-tofu
 ingredients:
-  - '12 oz Dried Chinese Wheat Noodles (or fresh if available)'
-  - '8 oz Ground Pork'
+  - 12 oz Dried Chinese Wheat Noodles (or fresh if available)
+  - 8 oz Ground Pork
   - '2 tbsp Yacai (Sichuan preserved mustard greens), rinsed and minced'
-  - '1 tbsp Neutral Oil'
-  - '1 tbsp Shaoxing Wine'
-  - '2 tbsp Chinese Sesame Paste (or tahini)'
-  - '1 tbsp Soy Sauce'
-  - '1 tbsp Chinkiang Black Vinegar'
-  - '2 tsp Chili Oil with Sediment'
-  - '1/2 tsp Ground Sichuan Peppercorn'
+  - 1 tbsp Neutral Oil
+  - 1 tbsp Shaoxing Wine
+  - 2 tbsp Chinese Sesame Paste (or tahini)
+  - 1 tbsp Soy Sauce
+  - 1 tbsp Chinkiang Black Vinegar
+  - 2 tsp Chili Oil with Sediment
+  - 1/2 tsp Ground Sichuan Peppercorn
   - '1 clove Garlic, finely grated'
-  - '1 tsp Sugar'
-  - '3-4 tbsp Noodle Cooking Water'
+  - 1 tsp Sugar
+  - 3-4 tbsp Noodle Cooking Water
   - '2 Green Onions, thinly sliced'
   - '1/4 cup Roasted Peanuts, roughly chopped'
   - 'Baby Bok Choy, halved (4 small heads, optional)'
+nutrition:
+  calories: 465
+  protein: 17
+  carbs: 23
+  fat: 38.5
+  fiber: 6.5
+  sugar: 6
+  sodium: 300
 ---
 
 ## Chef's Note

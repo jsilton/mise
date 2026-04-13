@@ -46,11 +46,19 @@ seasons:
 nutritionalDensity: moderate
 leftovers: good
 equipment: []
+nutrition:
+  calories: 315
+  protein: 11
+  carbs: 29
+  fat: 18.5
+  fiber: 7
+  sugar: 13.5
+  sodium: 560
 ---
 
 ## Chef's Note
 
-Salmon with herb emulsion is a French technique—a bright, creamy sauce that's built with cold butter whisked into warm liquid. The lemon and fresh herbs do the heavy lifting; the butter is the structure. The salmon needs high heat to crisp the skin; don't move it around the pan once it hits the heat.
+Salmon with herb emulsion is a French technique - a bright, creamy sauce that's built with cold butter whisked into warm liquid. The lemon and fresh herbs do the heavy lifting; the butter is the structure. The salmon needs high heat to crisp the skin; don't move it around the pan once it hits the heat.
 ## Directions
 
 1.  **Stage 1 (Chickpeas):** Preheat oven to 400°F. Toss bone-dry chickpeas with 1 tbsp oil, smoked paprika, and salt. Roast for 20-25 minutes until golden and very crisp.
@@ -60,4 +68,4 @@ Salmon with herb emulsion is a French technique—a bright, creamy sauce that's 
 5.  **Assemble:** Place a generous portion of herbed orzo on each plate. Top with a salmon fillet.
 6.  **Finish:** Drizzle the lemon-herb emulsion generously over the salmon and greens for the mandatory **Acid Balance**.
 
-**Rest:** Let on Salmon rest for 5 minutes before slicing or serving — the juices redistribute and every piece stays moist.
+**Rest:** Let on Salmon rest for 5 minutes before slicing or serving  -  the juices redistribute and every piece stays moist.

@@ -44,6 +44,14 @@ ingredients:
   - 2 tbsp Extra-Virgin Olive Oil
   - Salt and Black Pepper
 origin: Italy
+nutrition:
+  calories: 210
+  protein: 30.5
+  carbs: 4.5
+  fat: 9
+  fiber: 2.5
+  sugar: 0.5
+  sodium: 140
 ---
 
 ## Chef's Note
@@ -59,4 +67,4 @@ This represents the lighter side of Italian-American cooking that emerged in the
 5.  **Bind:** Toss vigorously over medium heat. The spinach will wilt in seconds. Stir in the Parmesan. Add more pasta water if needed until the sauce is glossy and coats the noodles.
 6.  **Serve:** Garnish with extra Parmesan and black pepper.
 
-**Rest:** Let lb Chicken rest for 10 minutes before slicing or serving — the juices redistribute and every piece stays moist.
+**Rest:** Let lb Chicken rest for 10 minutes before slicing or serving  -  the juices redistribute and every piece stays moist.

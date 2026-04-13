@@ -19,7 +19,7 @@ bestFor: [monday, tuesday, wednesday, thursday]
 
 ## Meal Overview
 
-When you need dinner fast, these shrimp bowls deliver. The garlic-honey-lime sauce is addictive—sweet, tangy, with just enough heat—and shrimp cook in minutes. The baking soda trick gives restaurant-quality texture. Start to table in 30 minutes.
+When you need dinner fast, these shrimp bowls deliver. The garlic-honey-lime sauce is addictive - sweet, tangy, with just enough heat - and shrimp cook in minutes. The baking soda trick gives restaurant-quality texture. Start to table in 30 minutes.
 
 ## Cooking Strategy
 

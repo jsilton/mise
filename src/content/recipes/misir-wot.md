@@ -55,6 +55,14 @@ ingredients:
   - 1/2 tsp Ground Cardamom
   - 1/4 tsp Ground Fenugreek
   - '1 tbsp Fresh Lemon Juice, for finishing'
+nutrition:
+  calories: 105
+  protein: 6
+  carbs: 21
+  fat: 0.5
+  fiber: 6
+  sugar: 5
+  sodium: 170
 ---
 
 ## Chef's Note

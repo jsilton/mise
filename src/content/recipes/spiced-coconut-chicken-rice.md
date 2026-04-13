@@ -44,11 +44,19 @@ seasons:
 nutritionalDensity: light
 leftovers: excellent
 equipment: []
+nutrition:
+  calories: 370
+  protein: 36
+  carbs: 22.5
+  fat: 15.5
+  fiber: 1.5
+  sugar: 1
+  sodium: 140
 ---
 
 ## Chef's Note
 
-Soaking basmati rice for 45 minutes hydrates the grains before cooking, ensuring they elongate properly and stay separate rather than clumping into a sticky mass. Covering the pot with a kitchen towel under the lid absorbs excess steam, creating creamy rice from the coconut milk while maintaining individual grain integrity—a technique used in Persian and Indian rice cooking.
+Soaking basmati rice for 45 minutes hydrates the grains before cooking, ensuring they elongate properly and stay separate rather than clumping into a sticky mass. Covering the pot with a kitchen towel under the lid absorbs excess steam, creating creamy rice from the coconut milk while maintaining individual grain integrity - a technique used in Persian and Indian rice cooking.
 
 ## Directions
 

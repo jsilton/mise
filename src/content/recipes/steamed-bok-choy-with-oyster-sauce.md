@@ -39,6 +39,14 @@ ingredients:
   - 1 tbsp Neutral Oil
   - 'Optional: Fried Garlic or Shallots for crunch'
 origin: China
+nutrition:
+  calories: 70
+  protein: 1
+  carbs: 2
+  fat: 7
+  fiber: 0
+  sugar: 1
+  sodium: 510
 ---
 
 ## Chef's Note

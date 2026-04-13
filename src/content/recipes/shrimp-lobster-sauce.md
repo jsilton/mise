@@ -42,6 +42,14 @@ ingredients:
   - 1 tbsp Cornstarch (slurry)
   - Green Onions for garnish
 origin: China
+nutrition:
+  calories: 305
+  protein: 44
+  carbs: 16.5
+  fat: 7.5
+  fiber: 3
+  sugar: 1.5
+  sodium: 1340
 ---
 
 ## Chef's Note

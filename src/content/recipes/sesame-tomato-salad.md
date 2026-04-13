@@ -46,16 +46,24 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 equipment: []
+nutrition:
+  calories: 390
+  protein: 3
+  carbs: 6
+  fat: 40.5
+  fiber: 1.5
+  sugar: 2.5
+  sodium: 1430
 ---
 
 ## Chef's Note
 
-Whisking toasted sesame oil into a traditional vinaigrette introduces nutty, roasted depth that contrasts sweet, watery summer tomatoes. Using a mix of heirloom varieties provides varying textures—some firm and crisp, others soft and juicy. Soy sauce acts as the primary salt source, adding umami backbone that bridges Asian and Mediterranean flavors in this fusion salad.
+Whisking toasted sesame oil into a traditional vinaigrette introduces nutty, roasted depth that contrasts sweet, watery summer tomatoes. Using a mix of heirloom varieties provides varying textures - some firm and crisp, others soft and juicy. Soy sauce acts as the primary salt source, adding umami backbone that bridges Asian and Mediterranean flavors in this fusion salad.
 
 ## Directions
 
 1.  **The Dressing:** In a small jar, whisk together the olive oil, sesame oil, soy sauce, vinegar, garlic, and sugar until completely emulsified and opaque.
 2.  **Prep:** Arrange the tomatoes on a large, shallow platter (layering them too deep will crush the bottom pieces).
-3.  **Bind:** Drizzle half of the dressing over the tomatoes. Let stand for 5 minutes—this allows the tomatoes to release their juices and mix with the emulsion.
+3.  **Bind:** Drizzle half of the dressing over the tomatoes. Let stand for 5 minutes - this allows the tomatoes to release their juices and mix with the emulsion.
 4.  **Finish:** Top with fresh basil, flaky sea salt, and a crack of black pepper.
 5.  **Serve:** Serve the remaining dressing on the side for the mandatory **High Note** of freshness.

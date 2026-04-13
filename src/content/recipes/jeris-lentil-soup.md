@@ -51,11 +51,19 @@ ingredients:
   - 1 tbsp Sherry Vinegar or Fresh Lemon Juice
   - Salt and Black Pepper to taste
 origin: United States
+nutrition:
+  calories: 395
+  protein: 27.5
+  carbs: 68
+  fat: 4
+  fiber: 24.5
+  sugar: 10.5
+  sodium: 540
 ---
 
 ## Chef's Note
 
-This traditional recipe was a wedding gift from Pat Miller and Sean Kilpatrick, passed down from Jeri, a Broadway dancer turned nutritionist. Adding sherry vinegar at the end brightens earthy lentils—the acidity wakes up the palate. For creamier texture without dairy, pulse with an immersion blender a few times before serving, releasing lentil starch while keeping the carrot slices intact.
+This traditional recipe was a wedding gift from Pat Miller and Sean Kilpatrick, passed down from Jeri, a Broadway dancer turned nutritionist. Adding sherry vinegar at the end brightens earthy lentils - the acidity wakes up the palate. For creamier texture without dairy, pulse with an immersion blender a few times before serving, releasing lentil starch while keeping the carrot slices intact.
 
 ## Directions
 

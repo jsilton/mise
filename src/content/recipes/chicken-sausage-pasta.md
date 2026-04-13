@@ -43,6 +43,14 @@ ingredients:
   - 1/2 cup Freshly Grated Parmesan
   - 2 tbsp Extra-Virgin Olive Oil
 origin: Italy
+nutrition:
+  calories: 450
+  protein: 20.5
+  carbs: 5
+  fat: 39
+  fiber: 0.5
+  sugar: 1.5
+  sodium: 800
 ---
 
 ## Chef's Note

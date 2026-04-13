@@ -40,6 +40,14 @@ pairsWith:
   - chicken-apple-and-butternut-stew
 advancePrep:
   - freeze-ahead
+nutrition:
+  calories: 15
+  protein: 0.5
+  carbs: 5.5
+  fat: 0
+  fiber: 1.5
+  sugar: 1.5
+  sodium: 0
 ---
 
 ## Chef's Note

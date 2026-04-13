@@ -34,6 +34,14 @@ ingredients:
   - '1 lb Confectioners’ Sugar, sifted'
   - 1 tsp Pure Vanilla Extract
 origin: United States
+nutrition:
+  calories: 0
+  protein: 0.5
+  carbs: 0
+  fat: 0
+  fiber: 0
+  sugar: 0
+  sodium: 0
 ---
 
 ## Chef's Note
@@ -47,4 +55,4 @@ Royal icing is the traditional coating for decorated sugar cookies, gingerbread 
 3.  **Emulsify:** Once combined, increase speed to medium-high. Beat for 2-3 minutes until the icing is stiff, glossy, and holds a Crunch peak.
 4.  **Dye:** Divide into small bowls. Stir in gel food coloring (The Finishing Touch).
 5.  **Consistency:** For flooding, add water 1/2 tsp at a time until a ribbon of icing disappears back into the bowl in exactly 15 seconds.
-6.  **Store:** Keep bowls tightly covered with plastic wrap—this icing sets instantly when exposed to air.
+6.  **Store:** Keep bowls tightly covered with plastic wrap - this icing sets instantly when exposed to air.

@@ -40,11 +40,19 @@ seasons:
 nutritionalDensity: light
 leftovers: good
 equipment: []
+nutrition:
+  calories: 100
+  protein: 2
+  carbs: 17
+  fat: 4
+  fiber: 1.5
+  sugar: 1
+  sodium: 910
 ---
 
 ## Chef's Note
 
-This Mexican-style rice is a staple for tacos, burrito bowls, and grain bowls. The key is adding cilantro and lime juice after cooking—never during—to preserve the herbs' vibrant green color and the lime's bright, acidic punch. Folding them into hot steamed rice gently releases their aromatics without cooking them.
+This Mexican-style rice is a staple for tacos, burrito bowls, and grain bowls. The key is adding cilantro and lime juice after cooking - never during - to preserve the herbs' vibrant green color and the lime's bright, acidic punch. Folding them into hot steamed rice gently releases their aromatics without cooking them.
 
 ## Directions
 

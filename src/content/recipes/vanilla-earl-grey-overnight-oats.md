@@ -40,11 +40,19 @@ ingredients:
   - 1 Stroopwafel or Crisp Cookie (the crunch garnish)
   - Pinch of Sea Salt
 origin: United States
+nutrition:
+  calories: 1290
+  protein: 11
+  carbs: 63.5
+  fat: 113
+  fiber: 8
+  sugar: 8.5
+  sodium: 1170
 ---
 
 ## Chef's Note
 
-Overnight oats are a Scandinavian trick for zero-effort weekday mornings—the oats hydrate in the fridge while you sleep, becoming creamy without cooking. Earl Grey tea and vanilla extract steeped into the milk give this version a subtle floral complexity that plain oats can't touch. The silky, pudding-like texture comes from the right ratio of oats to liquid, not from added ingredients.
+Overnight oats are a Scandinavian trick for zero-effort weekday mornings - the oats hydrate in the fridge while you sleep, becoming creamy without cooking. Earl Grey tea and vanilla extract steeped into the milk give this version a subtle floral complexity that plain oats can't touch. The silky, pudding-like texture comes from the right ratio of oats to liquid, not from added ingredients.
 ## Directions
 
 1.  **The Infusion:** Steep the Earl Grey bag in 1 cup boiling water for 5 minutes. Discard the bag. Stir in the honey while hot until dissolved.

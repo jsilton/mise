@@ -45,6 +45,14 @@ ingredients:
 origin: Italy
 advancePrep:
   - components-ahead
+nutrition:
+  calories: 145
+  protein: 6.5
+  carbs: 9
+  fat: 10.5
+  fiber: 3
+  sugar: 2
+  sodium: 30
 ---
 
 ## Chef's Note
@@ -60,4 +68,4 @@ Sheet pan meal prep bowls became hugely popular in the 2010s for their simplicit
 5.  **Bake:** Roast for 10 more minutes until the chicken is cooked through (165°F) and the broccoli is tender-crisp.
 6.  **Store:** Divide among 4 bowls. Serve over pasta or rice. Keeps in the fridge for 5 days with a perfect Texture when reheated.
 
-**Rest:** Let 3 Chicken rest for 5 minutes before slicing or serving — the juices redistribute and every piece stays moist.
+**Rest:** Let 3 Chicken rest for 5 minutes before slicing or serving  -  the juices redistribute and every piece stays moist.

@@ -49,6 +49,14 @@ ingredients:
   - 1/4 tsp Red Pepper Flakes
   - Fresh Oregano or Marjoram
   - Extra-Virgin Olive Oil
+nutrition:
+  calories: 360
+  protein: 11
+  carbs: 67.5
+  fat: 6
+  fiber: 5
+  sugar: 4.5
+  sodium: 200
 ---
 
 ## Chef's Note
@@ -65,4 +73,4 @@ Lamb ragù is popular in Central and Southern Italy, especially in regions like 
 6.  **Finish:** Stir the balsamic vinegar and fresh herbs into the sauce. Toss with the hot pasta.
 7.  **Serve:** Garnish with a "High Note" pat of Parmesan or Pecorino.
 
-**Rest:** Let Ground Lamb rest for 5 minutes before slicing or serving — the juices redistribute and every piece stays moist.
+**Rest:** Let Ground Lamb rest for 5 minutes before slicing or serving  -  the juices redistribute and every piece stays moist.

@@ -2,14 +2,27 @@
 title: Greek Yogurt Bowl
 origin: Greece
 difficulty: easy
-cookingMethods: [no-cook]
-dietary: [vegetarian, gluten-free]
-occasions: [weeknight, light-and-fresh, quick-lunch]
-flavorProfile: [sweet, acidic, rich]
-cuisines: [Mediterranean]
+cookingMethods:
+  - no-cook
+dietary:
+  - vegetarian
+  - gluten-free
+occasions:
+  - weeknight
+  - light-and-fresh
+  - quick-lunch
+flavorProfile:
+  - sweet
+  - acidic
+  - rich
+cuisines:
+  - Mediterranean
 role: main
 vibe: nutritious
-seasons: [spring, summer, year-round]
+seasons:
+  - spring
+  - summer
+  - year-round
 nutritionalDensity: moderate
 leftovers: poor
 advancePrep: []
@@ -18,15 +31,26 @@ prepTime: 5 min
 cookTime: 0 min
 totalTime: 5 min
 servings: '1'
-pairsWith: [granola, easy-breakfast-yogurt-popsicles, easy-chia-pudding]
+pairsWith:
+  - granola
+  - easy-breakfast-yogurt-popsicles
+  - easy-chia-pudding
 ingredients:
-  - '1 cup Plain Full-Fat Greek Yogurt'
-  - '1/3 cup Granola'
+  - 1 cup Plain Full-Fat Greek Yogurt
+  - 1/3 cup Granola
   - '1/2 cup Mixed Fresh Berries (blueberries, raspberries, strawberries)'
-  - '1 tbsp Honey or Maple Syrup'
-  - '1 tbsp Chia Seeds or Hemp Hearts'
-  - '1 tbsp Sliced Almonds or Chopped Walnuts'
+  - 1 tbsp Honey or Maple Syrup
+  - 1 tbsp Chia Seeds or Hemp Hearts
+  - 1 tbsp Sliced Almonds or Chopped Walnuts
   - '1/2 Banana, sliced (optional)'
+nutrition:
+  calories: 370
+  protein: 27.5
+  carbs: 52.5
+  fat: 7.5
+  fiber: 5
+  sugar: 33.5
+  sodium: 80
 ---
 
 ## Chef's Note

@@ -43,6 +43,14 @@ ingredients:
   - 1 tbsp Fresh Lemon Juice (The Acid Balance)
   - Salt and Black Pepper
 origin: Italy
+nutrition:
+  calories: 500
+  protein: 11.5
+  carbs: 65.5
+  fat: 23
+  fiber: 6
+  sugar: 1.5
+  sodium: 20
 ---
 
 ## Chef's Note
@@ -53,7 +61,7 @@ This pasta transforms the classic Caprese salad (from the island of Capri) into 
 
 1.  **Boil:** Cook angel hair in a massive pot of salted water for exactly 2-3 minutes (very al dente). Drain.
 2.  **The Base:** In a large skillet, heat olive oil over medium. Sauté garlic and Italian seasoning for 1 minute until fragrant.
-3.  **Stage 2:** Add the chopped tomatoes. Sauté for only 2 minutes—you want them to stay "Snappy," not turn into a puree.
+3.  **Stage 2:** Add the chopped tomatoes. Sauté for only 2 minutes - you want them to stay "Snappy," not turn into a puree.
 4.  **Bind:** Remove the skillet from the heat. Immediately add the hot pasta and the lemon juice. Toss vigorously.
 5.  **Emulsify:** Add the fresh mozzarella and basil. Toss for 30 seconds until the cheese just begins to soften and pull.
 6.  **Serve:** Season generously with black pepper. Serve immediately while the cheese is at its peak "Bounce."

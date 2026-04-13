@@ -42,6 +42,14 @@ pairsWith:
   - apple-pie
   - best-cinnamon-roll-recipe-cinnabon-copycat
   - best-homemade-brownies
+nutrition:
+  calories: 970
+  protein: 28.5
+  carbs: 137.5
+  fat: 39
+  fiber: 22
+  sugar: 15.5
+  sodium: 540
 ---
 
 ## Chef's Note

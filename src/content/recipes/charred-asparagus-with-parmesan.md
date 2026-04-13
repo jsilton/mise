@@ -2,33 +2,57 @@
 title: Charred Asparagus with Parmesan
 origin: Italy
 difficulty: easy
-cookingMethods: [broil]
-dietary: [vegetarian, gluten-free]
-occasions: [weeknight, entertaining, light-and-fresh]
-flavorProfile: [savory, umami, herbaceous]
-cuisines: [Italian, Mediterranean]
+cookingMethods:
+  - broil
+dietary:
+  - vegetarian
+  - gluten-free
+occasions:
+  - weeknight
+  - entertaining
+  - light-and-fresh
+flavorProfile:
+  - savory
+  - umami
+  - herbaceous
+cuisines:
+  - Italian
+  - Mediterranean
 role: side
 vibe: quick
 prepTime: 5 min
 cookTime: 6 min
 totalTime: 11 min
 servings: '4'
-seasons: [spring]
+seasons:
+  - spring
 nutritionalDensity: light
 leftovers: poor
 advancePrep: []
-equipment: [baking-sheet]
+equipment:
+  - baking-sheet
 pairsWith:
-  [shrimp-fettuccine-alfredo, chicken-marsala, baked-chicken-parmesan, baked-cod-with-lemon-panko]
+  - shrimp-fettuccine-alfredo
+  - chicken-marsala
+  - baked-chicken-parmesan
+  - baked-cod-with-lemon-panko
 ingredients:
   - '1 lb Asparagus, woody ends snapped off'
-  - '2 tbsp Extra-Virgin Olive Oil'
+  - 2 tbsp Extra-Virgin Olive Oil
   - '2 cloves Garlic, finely grated on a Microplane'
-  - 'Kosher Salt and Black Pepper'
+  - Kosher Salt and Black Pepper
   - '1/3 cup Parmesan, finely grated'
-  - '1 tsp Lemon Zest'
-  - '1 tbsp Fresh Lemon Juice'
-  - 'Flaky Sea Salt for finishing'
+  - 1 tsp Lemon Zest
+  - 1 tbsp Fresh Lemon Juice
+  - Flaky Sea Salt for finishing
+nutrition:
+  calories: 75
+  protein: 1
+  carbs: 4.5
+  fat: 7
+  fiber: 1.5
+  sugar: 1
+  sodium: 580
 ---
 
 ## Chef's Note

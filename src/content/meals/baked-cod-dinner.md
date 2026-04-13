@@ -30,6 +30,6 @@ A clean, simple fish dinner with the satisfying crunch of panko-crusted cod. The
 
 ## Notes
 
-- Don't overcook the cod — pull at 135°F internal
+- Don't overcook the cod  -  pull at 135°F internal
 - A squeeze of lemon ties everything together
 - Tartar sauce or lemon aioli on the side is a nice touch

@@ -52,6 +52,14 @@ ingredients:
   - 2 tbsp Shaved Parmesan (omit for vegan)
   - '1/4 cup Castelvetrano Olives, pitted and halved (optional)'
   - 'Fennel Fronds, for garnish'
+nutrition:
+  calories: 555
+  protein: 1
+  carbs: 20
+  fat: 54.5
+  fiber: 3.5
+  sugar: 15.5
+  sodium: 580
 ---
 
 ## Chef's Note

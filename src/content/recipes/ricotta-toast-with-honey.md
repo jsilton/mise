@@ -2,32 +2,59 @@
 title: Ricotta Toast with Honey
 origin: Italy
 difficulty: easy
-cookingMethods: [toast, no-cook]
-dietary: [vegetarian]
-occasions: [weekend-brunch, light-and-fresh, entertaining]
-flavorProfile: [sweet, savory, rich]
-cuisines: [Italian, American]
+cookingMethods:
+  - toast
+  - no-cook
+dietary:
+  - vegetarian
+occasions:
+  - weekend-brunch
+  - light-and-fresh
+  - entertaining
+flavorProfile:
+  - sweet
+  - savory
+  - rich
+cuisines:
+  - Italian
+  - American
 role: main
 vibe: quick
-seasons: [spring, summer, year-round]
+seasons:
+  - spring
+  - summer
+  - year-round
 nutritionalDensity: moderate
 leftovers: poor
 advancePrep: []
-equipment: [toaster, mixing-bowl]
+equipment:
+  - toaster
+  - mixing-bowl
 prepTime: 5 min
 cookTime: 3 min
 totalTime: 8 min
 servings: '2'
-pairsWith: [avocado-toast, easy-chia-pudding, granola]
+pairsWith:
+  - avocado-toast
+  - easy-chia-pudding
+  - granola
 ingredients:
-  - '2 slices Thick-Cut Sourdough or Rustic Bread'
-  - '3/4 cup Whole-Milk Ricotta'
-  - '1 tbsp Extra-Virgin Olive Oil'
-  - 'Pinch of Flaky Sea Salt'
+  - 2 slices Thick-Cut Sourdough or Rustic Bread
+  - 3/4 cup Whole-Milk Ricotta
+  - 1 tbsp Extra-Virgin Olive Oil
+  - Pinch of Flaky Sea Salt
   - '2 tbsp Honey (good quality, runny)'
   - '2 tbsp Shelled Pistachios, roughly chopped'
-  - 'Flaky Sea Salt (Maldon) for finishing'
+  - Flaky Sea Salt (Maldon) for finishing
   - 'Optional: fresh mint leaves, lemon zest, fresh figs or berries'
+nutrition:
+  calories: 170
+  protein: 2
+  carbs: 27
+  fat: 7.5
+  fiber: 2
+  sugar: 17.5
+  sodium: 2400
 ---
 
 ## Chef's Note

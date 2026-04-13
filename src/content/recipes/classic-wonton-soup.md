@@ -44,6 +44,14 @@ ingredients:
   - 2 heads Baby Bok Choy
   - Sesame Oil and Scallions for garnish
 origin: China
+nutrition:
+  calories: 50
+  protein: 2
+  carbs: 1.5
+  fat: 4
+  fiber: 0
+  sugar: 0
+  sodium: 910
 ---
 
 ## Chef's Note

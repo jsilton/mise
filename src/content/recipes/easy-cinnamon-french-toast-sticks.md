@@ -43,6 +43,14 @@ ingredients:
   - Warm Maple Syrup
   - Fresh Berries
 origin: United States
+nutrition:
+  calories: 115
+  protein: 5.5
+  carbs: 7.5
+  fat: 6.5
+  fiber: 0
+  sugar: 7.5
+  sodium: 80
 ---
 
 ## Chef's Note
@@ -53,7 +61,7 @@ Slightly stale bread acts like a sponge for custard without falling apart - fres
 
 1.  **Prep:** Cut each slice of Texas toast into 4 uniform sticks. Set aside.
 2.  **The Custard:** In a large wide bowl, whisk together eggs, milk, cinnamon, honey, and vanilla until no streaks of egg remain.
-3.  **The Soak:** Working in batches, dip each bread stick into the custard. Rotate to coat all 4 sides. **Do not over-soak**—you want the custard to penetrate 1/4 inch into the bread, not turn the core into mush.
+3.  **The Soak:** Working in batches, dip each bread stick into the custard. Rotate to coat all 4 sides. **Do not over-soak** - you want the custard to penetrate 1/4 inch into the bread, not turn the core into mush.
 4.  **The Sear:** Heat a large skillet over medium. Add 2 tbsp butter. Once foaming, add the sticks in a single layer (do not crowd).
 5.  **Rotate:** Cook for 2 minutes per side, rotating until all four sides are deep golden brown and slightly crispy.
 6.  **Serve:** Serve hot with a side of warm maple syrup for dipping and fresh berries.

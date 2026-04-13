@@ -34,11 +34,19 @@ seasons:
 nutritionalDensity: moderate
 leftovers: good
 equipment: []
+nutrition:
+  calories: 575
+  protein: 3
+  carbs: 0
+  fat: 63.5
+  fiber: 0
+  sugar: 0
+  sodium: 90
 ---
 
 ## Chef's Note
 
-This dish comes from a home cooking tradition where technique and respect for ingredients matter more than complexity. This is meant to be reliable and honest—quality ingredients cooked with care, nothing fancy, just right.
+This dish comes from a home cooking tradition where technique and respect for ingredients matter more than complexity. This is meant to be reliable and honest - quality ingredients cooked with care, nothing fancy, just right.
 ## Directions
 
 1.  **Hydrate:** Preheat oven to 400°F. In a large bowl, pour the boiling water over the matzo farfel. Stir once and let sit until the water is fully absorbed and the mixture is cool to the touch.

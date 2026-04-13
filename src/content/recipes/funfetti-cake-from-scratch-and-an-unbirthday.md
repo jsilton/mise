@@ -50,6 +50,14 @@ ingredients:
   - 6 tbsp Heavy Cream
   - 2 tsp Vanilla Extract
 origin: United States
+nutrition:
+  calories: 1025
+  protein: 8
+  carbs: 185.5
+  fat: 31
+  fiber: 1
+  sugar: 153.5
+  sodium: 590
 ---
 
 ## Chef's Note

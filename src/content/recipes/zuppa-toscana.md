@@ -44,11 +44,19 @@ ingredients:
   - 1 tsp Red Pepper Flakes (The Finishing Touch)
   - Sea Salt and Black Pepper
 origin: Italy
+nutrition:
+  calories: 485
+  protein: 37
+  carbs: 14.5
+  fat: 32
+  fiber: 2
+  sugar: 1.5
+  sodium: 710
 ---
 
 ## Chef's Note
 
-Zuppa Toscana ("Tuscan soup") became famous in America through Olive Garden in the 1990s, though similar soups with sausage, potatoes, and greens have been made in Tuscany for generations. Russet potatoes naturally thicken the broth as they simmer—their starch helps emulsify the coconut milk into a creamy consistency without heavy cream. Add the kale in the final minute to keep it bright green and slightly crisp against the rich sausage.
+Zuppa Toscana ("Tuscan soup") became famous in America through Olive Garden in the 1990s, though similar soups with sausage, potatoes, and greens have been made in Tuscany for generations. Russet potatoes naturally thicken the broth as they simmer - their starch helps emulsify the coconut milk into a creamy consistency without heavy cream. Add the kale in the final minute to keep it bright green and slightly crisp against the rich sausage.
 
 ## Directions
 

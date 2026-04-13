@@ -42,11 +42,19 @@ pairsWith:
   - strawberry-rhubarb-shortcake-with-whipped-mascarpone
   - apple-cider-cream-pie
   - apple-pie
+nutrition:
+  calories: 105
+  protein: 2.5
+  carbs: 5.5
+  fat: 8.5
+  fiber: 0
+  sugar: 5.5
+  sodium: 120
 ---
 
 ## Chef's Note
 
-These are a shortcut's triumph—using refrigerated biscuits legitimately, not apologetically. The filling is a lesson in flavor layering: warm peaches, creamy melted brie (unexpected richness), brown butter (nutty depth), and brown sugar with cinnamon (familiar sweetness). Brush with brown butter twice—once before baking and again after—for a flaky exterior and luxurious finish.
+These are a shortcut's triumph - using refrigerated biscuits legitimately, not apologetically. The filling is a lesson in flavor layering: warm peaches, creamy melted brie (unexpected richness), brown butter (nutty depth), and brown sugar with cinnamon (familiar sweetness). Brush with brown butter twice - once before baking and again after - for a flaky exterior and luxurious finish.
 ## Directions
 
 1.  **Prep:** Preheat oven to 375°F. Line a baking sheet with parchment.

@@ -2,30 +2,54 @@
 title: Fluffy Scrambled Eggs
 origin: France
 difficulty: easy
-cookingMethods: [sauté]
-dietary: [vegetarian, gluten-free]
-occasions: [weeknight, weekend-brunch, quick-lunch]
-flavorProfile: [savory, rich, buttery]
-cuisines: [French]
+cookingMethods:
+  - sauté
+dietary:
+  - vegetarian
+  - gluten-free
+occasions:
+  - weeknight
+  - weekend-brunch
+  - quick-lunch
+flavorProfile:
+  - savory
+  - rich
+  - buttery
+cuisines:
+  - French
 role: main
 vibe: quick
-seasons: [year-round]
+seasons:
+  - year-round
 nutritionalDensity: moderate
 leftovers: poor
 advancePrep: []
-equipment: [nonstick-skillet, spatula]
+equipment:
+  - nonstick-skillet
+  - spatula
 prepTime: 2 min
 cookTime: 8 min
 totalTime: 10 min
 servings: '2'
-pairsWith: [avocado-toast, classic-french-toast, garlic-bread]
+pairsWith:
+  - avocado-toast
+  - classic-french-toast
+  - garlic-bread
 ingredients:
-  - '6 large Eggs'
+  - 6 large Eggs
   - '2 tbsp Unsalted Butter, cold and cubed'
-  - '1 tbsp Creme Fraiche or Sour Cream'
-  - '1/4 tsp Kosher Salt'
-  - 'Freshly Ground Black Pepper'
+  - 1 tbsp Creme Fraiche or Sour Cream
+  - 1/4 tsp Kosher Salt
+  - Freshly Ground Black Pepper
   - '1 tbsp Fresh Chives, finely snipped'
+nutrition:
+  calories: 325
+  protein: 18.5
+  carbs: 2
+  fat: 28
+  fiber: 0.5
+  sugar: 1
+  sodium: 1460
 ---
 
 ## Chef's Note

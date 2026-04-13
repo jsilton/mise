@@ -50,11 +50,19 @@ ingredients:
   - Whipped Cream
   - Shaved Dark Chocolate
 origin: United States
+nutrition:
+  calories: 255
+  protein: 3.5
+  carbs: 45.5
+  fat: 7
+  fiber: 0
+  sugar: 34
+  sodium: 280
 ---
 
 ## Chef's Note
 
-This is a chocolate cream pie—a pudding custard filling that relies on cornstarch to thicken, not flour (which can create a gummy texture). The custard must reach a boil to fully activate the starch, then you remove it from heat immediately to add chocolate, so it stays silky. Pressing plastic wrap directly on the filling prevents that grainy "skin" from forming during chilling.
+This is a chocolate cream pie - a pudding custard filling that relies on cornstarch to thicken, not flour (which can create a gummy texture). The custard must reach a boil to fully activate the starch, then you remove it from heat immediately to add chocolate, so it stays silky. Pressing plastic wrap directly on the filling prevents that grainy "skin" from forming during chilling.
 ## Directions
 
 1.  **The Base:** In a medium saucepan, whisk together sugar, cornstarch, and salt.

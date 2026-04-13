@@ -2,35 +2,56 @@
 title: Classic French Toast
 origin: France
 difficulty: easy
-cookingMethods: [sauté]
-dietary: [vegetarian]
-occasions: [weekend-brunch, comfort-food]
-flavorProfile: [sweet, rich]
-cuisines: [American, French]
+cookingMethods:
+  - sauté
+dietary:
+  - vegetarian
+occasions:
+  - weekend-brunch
+  - comfort-food
+flavorProfile:
+  - sweet
+  - rich
+cuisines:
+  - American
+  - French
 role: main
 vibe: comfort
 prepTime: 10 min
 cookTime: 15 min
 totalTime: 25 min
 servings: '4'
-seasons: [year-round]
+seasons:
+  - year-round
 nutritionalDensity: hearty
 leftovers: good
 advancePrep: []
-equipment: [skillet]
-pairsWith: [anadama-bread, cinnamon-sweet-potatoes, honey-glazed-carrots]
+equipment:
+  - skillet
+pairsWith:
+  - anadama-bread
+  - cinnamon-sweet-potatoes
+  - honey-glazed-carrots
 ingredients:
-  - '8 slices Thick-Cut Challah or Brioche Bread (3/4 to 1 inch thick)'
-  - '4 large Eggs'
-  - '1 cup Whole Milk'
-  - '2 tbsp Heavy Cream'
-  - '2 tbsp Maple Syrup (plus more for serving)'
-  - '1 tsp Vanilla Extract'
-  - '1/2 tsp Ground Cinnamon'
-  - '1/4 tsp Ground Nutmeg'
-  - 'Pinch of Kosher Salt'
-  - '2 tbsp Unsalted Butter (for the pan)'
+  - 8 slices Thick-Cut Challah or Brioche Bread (3/4 to 1 inch thick)
+  - 4 large Eggs
+  - 1 cup Whole Milk
+  - 2 tbsp Heavy Cream
+  - 2 tbsp Maple Syrup (plus more for serving)
+  - 1 tsp Vanilla Extract
+  - 1/2 tsp Ground Cinnamon
+  - 1/4 tsp Ground Nutmeg
+  - Pinch of Kosher Salt
+  - 2 tbsp Unsalted Butter (for the pan)
   - 'Powdered Sugar, fresh berries, and warm maple syrup for serving'
+nutrition:
+  calories: 245
+  protein: 9
+  carbs: 17
+  fat: 15.5
+  fiber: 0.5
+  sugar: 13
+  sodium: 760
 ---
 
 ## Chef's Note

@@ -46,6 +46,14 @@ ingredients:
   - 1 tsp Vanilla Extract
   - 1/2 cup Frozen Blueberries
 origin: United States
+nutrition:
+  calories: 135
+  protein: 7
+  carbs: 13
+  fat: 6.5
+  fiber: 1.5
+  sugar: 5
+  sodium: 150
 ---
 
 ## Chef's Note

@@ -45,11 +45,19 @@ ingredients:
   - 1 tsp Chili Powder
   - Salt and Black Pepper
 origin: United States
+nutrition:
+  calories: 175
+  protein: 4
+  carbs: 19.5
+  fat: 10
+  fiber: 5
+  sugar: 13
+  sodium: 200
 ---
 
 ## Chef's Note
 
-This one-pan roast builds flavor by placing butter-topped chicken directly onto beets—as chicken fat renders, it emulsifies with orange juice and chili to create vibrant, earthy glaze for the vegetables. Fresh orange juice cuts through beets' sweetness and rich skin-on thighs, ensuring brightness in every bite.
+This one-pan roast builds flavor by placing butter-topped chicken directly onto beets - as chicken fat renders, it emulsifies with orange juice and chili to create vibrant, earthy glaze for the vegetables. Fresh orange juice cuts through beets' sweetness and rich skin-on thighs, ensuring brightness in every bite.
 For kids, serve the heat on the side or reduce/omit the spicy elements.
 
 ## Directions

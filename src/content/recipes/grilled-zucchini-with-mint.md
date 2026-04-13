@@ -2,38 +2,61 @@
 title: Grilled Zucchini with Mint
 origin: Italian
 difficulty: easy
-cookingMethods: [grill]
-dietary: [vegetarian, vegan, gluten-free]
-occasions: [weeknight, summer, bbq, light-and-fresh]
-flavorProfile: [smoky, herbaceous, acidic, fresh]
-cuisines: [Italian, Mediterranean]
+cookingMethods:
+  - grill
+dietary:
+  - vegetarian
+  - vegan
+  - gluten-free
+occasions:
+  - weeknight
+  - summer
+  - bbq
+  - light-and-fresh
+flavorProfile:
+  - smoky
+  - herbaceous
+  - acidic
+  - fresh
+cuisines:
+  - Italian
+  - Mediterranean
 role: side
 vibe: quick
-seasons: [summer, spring]
+seasons:
+  - summer
+  - spring
 nutritionalDensity: light
 leftovers: good
 advancePrep: []
-equipment: [grill-or-grill-pan]
+equipment:
+  - grill-or-grill-pan
 prepTime: 5 min
 cookTime: 6 min
 totalTime: 11 min
 servings: '4'
 pairsWith:
-  [
-    grilled-chicken-with-herbed-corn-salsa,
-    greek-style-lamb-burgers-with-yogurt-cucumber-sauce,
-    mediterranean-chicken-thighs,
-  ]
+  - grilled-chicken-with-herbed-corn-salsa
+  - greek-style-lamb-burgers-with-yogurt-cucumber-sauce
+  - mediterranean-chicken-thighs
 ingredients:
   - '4 medium Zucchini (about 1.5 lbs), sliced lengthwise into 1/4-inch planks'
-  - '2 tbsp Olive Oil'
-  - '1 tsp Kosher Salt'
-  - '1/2 tsp Black Pepper'
+  - 2 tbsp Olive Oil
+  - 1 tsp Kosher Salt
+  - 1/2 tsp Black Pepper
   - '2 tbsp Fresh Mint Leaves, torn'
-  - '1 tbsp Lemon Juice'
+  - 1 tbsp Lemon Juice
   - '1 tbsp Extra Virgin Olive Oil, for finishing'
-  - '1 tsp Lemon Zest'
+  - 1 tsp Lemon Zest
   - 'Flaky Sea Salt, for finishing'
+nutrition:
+  calories: 120
+  protein: 2
+  carbs: 6.5
+  fat: 10.5
+  fiber: 2
+  sugar: 2.5
+  sodium: 1170
 ---
 
 ## Chef's Note

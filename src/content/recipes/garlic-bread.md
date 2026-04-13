@@ -40,6 +40,14 @@ ingredients:
   - 1/4 cup Grated Parmesan Cheese
   - 1/2 tsp Kosher Salt
 origin: Italy
+nutrition:
+  calories: 160
+  protein: 14
+  carbs: 4
+  fat: 10
+  fiber: 0.5
+  sugar: 0.5
+  sodium: 930
 ---
 
 ## Chef's Note

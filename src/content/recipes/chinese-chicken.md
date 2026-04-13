@@ -46,6 +46,14 @@ ingredients:
   - 3 cups White Rice (Jasmine preferred)
   - Vegetable Oil
 origin: China
+nutrition:
+  calories: 820
+  protein: 58
+  carbs: 86.5
+  fat: 26
+  fiber: 3
+  sugar: 10.5
+  sodium: 6250
 ---
 
 ## Chef's Note

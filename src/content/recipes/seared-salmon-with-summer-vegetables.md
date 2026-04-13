@@ -42,11 +42,19 @@ ingredients:
   - '1 Red Onion, thinly sliced'
   - 3 cloves Garlic
 origin: United States
+nutrition:
+  calories: 500
+  protein: 19
+  carbs: 19.5
+  fat: 39.5
+  fiber: 2
+  sugar: 10
+  sodium: 380
 ---
 
 ## Chef's Note
 
-Reducing balsamic vinegar and tomatoes into a syrup, then mounting with cold butter cubes whisked in one at a time creates a thick, glossy emulsion—a technique borrowed from French beurre blanc and beurre rouge. The butter must be cold so it emulsifies rather than separating. Searing salmon strips over high heat for 3 minutes per side develops a crisp crust while keeping the center medium-rare and tender.
+Reducing balsamic vinegar and tomatoes into a syrup, then mounting with cold butter cubes whisked in one at a time creates a thick, glossy emulsion - a technique borrowed from French beurre blanc and beurre rouge. The butter must be cold so it emulsifies rather than separating. Searing salmon strips over high heat for 3 minutes per side develops a crisp crust while keeping the center medium-rare and tender.
 
 ## Directions
 

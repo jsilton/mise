@@ -44,11 +44,19 @@ pairsWith:
   - apple-pie
   - babys-first-smash-cake
   - best-cinnamon-roll-recipe-cinnabon-copycat
+nutrition:
+  calories: 110
+  protein: 1
+  carbs: 26.5
+  fat: 0.5
+  fiber: 0
+  sugar: 19.5
+  sodium: 120
 ---
 
 ## Chef's Note
 
-These autumn cookies achieve incredible softness by whisking pumpkin puree directly into creamed butter and sugar, ensuring moisture is fully emulsified before flour is added. The butter-sugar glaze adds sweetness that balances earthy spices. Don't over-bake—these cookies should be remarkably soft.
+These autumn cookies achieve incredible softness by whisking pumpkin puree directly into creamed butter and sugar, ensuring moisture is fully emulsified before flour is added. The butter-sugar glaze adds sweetness that balances earthy spices. Don't over-bake - these cookies should be remarkably soft.
 
 ## Directions
 

@@ -18,7 +18,7 @@ bestFor: [friday, saturday, sunday]
 
 ## Meal Overview
 
-A French bistro classic — chicken braised in red wine with mushrooms, pearl onions, and lardons. The sauce reduces into something magnificent. Creamy mashed potatoes catch every drop, and lemony green beans cut through the richness.
+A French bistro classic  -  chicken braised in red wine with mushrooms, pearl onions, and lardons. The sauce reduces into something magnificent. Creamy mashed potatoes catch every drop, and lemony green beans cut through the richness.
 
 ## Cooking Strategy
 
@@ -32,6 +32,6 @@ A French bistro classic — chicken braised in red wine with mushrooms, pearl on
 
 ## Notes
 
-- Use a dry, drinkable red wine — Pinot Noir or Burgundy is traditional
+- Use a dry, drinkable red wine  -  Pinot Noir or Burgundy is traditional
 - Fresh thyme and bay leaf are essential aromatics
 - This is even better when made a day ahead and reheated

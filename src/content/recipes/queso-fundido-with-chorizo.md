@@ -43,11 +43,19 @@ ingredients:
   - 'Warm Flour Tortillas, for scooping'
   - 'Optional: Pickled Jalapeños for topping'
 origin: Mexico
+nutrition:
+  calories: 265
+  protein: 18
+  carbs: 4.5
+  fat: 20
+  fiber: 0.5
+  sugar: 1.5
+  sodium: 520
 ---
 
 ## Chef's Note
 
-Queso fundido is Mexico's answer to fondue—molten cheese with smoky chorizo, meant to be scooped with warm tortillas. The key is using Oaxaca cheese, which melts into long, stretchy strands without breaking. Roasting the poblanos first adds a layer of charred sweetness that elevates this beyond typical bar queso. Serve it straight from the oven in the cast iron—it stays molten for about 10 minutes before it starts to set. Make a half-batch without chorizo for vegetarians.
+Queso fundido is Mexico's answer to fondue - molten cheese with smoky chorizo, meant to be scooped with warm tortillas. The key is using Oaxaca cheese, which melts into long, stretchy strands without breaking. Roasting the poblanos first adds a layer of charred sweetness that elevates this beyond typical bar queso. Serve it straight from the oven in the cast iron - it stays molten for about 10 minutes before it starts to set. Make a half-batch without chorizo for vegetarians.
 
 ## Directions
 
@@ -63,7 +71,7 @@ Queso fundido is Mexico's answer to fondue—molten cheese with smoky chorizo, m
 
 6. **The Finish:** Remove from oven. Top with fresh cilantro and pickled jalapeños if using.
 
-7. **Serve:** Serve immediately with warm flour tortillas for scooping. Eat fast—this sets as it cools.
+7. **Serve:** Serve immediately with warm flour tortillas for scooping. Eat fast - this sets as it cools.
 
 ## Vegetarian Variation
 

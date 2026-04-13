@@ -48,11 +48,19 @@ ingredients:
   - 1/2 tsp Baking Soda
   - 1 tsp Vanilla Extract
 origin: United States
+nutrition:
+  calories: 115
+  protein: 2.5
+  carbs: 25.5
+  fat: 0.5
+  fiber: 1
+  sugar: 20.5
+  sodium: 160
 ---
 
 ## Chef's Note
 
-This banana bread is designed for freezer storage. The key to a perfect slice every morning is using Greek yogurt instead of butter to create a dense, moist texture that survives the freezing process without becoming crumbly. We blend the bananas and wet ingredients in a blender to create a smooth mixture before folding in the flour—this ensures even distribution of sweetness and prevents mushy pockets.
+This banana bread is designed for freezer storage. The key to a perfect slice every morning is using Greek yogurt instead of butter to create a dense, moist texture that survives the freezing process without becoming crumbly. We blend the bananas and wet ingredients in a blender to create a smooth mixture before folding in the flour - this ensures even distribution of sweetness and prevents mushy pockets.
 
 ## Directions
 

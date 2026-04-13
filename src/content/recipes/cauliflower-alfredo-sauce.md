@@ -47,11 +47,19 @@ ingredients:
   - '--- Lemon juice ---'
   - '1-2 Lemons, juiced'
 origin: Italy
+nutrition:
+  calories: 595
+  protein: 42.5
+  carbs: 12.5
+  fat: 43
+  fiber: 3
+  sugar: 3
+  sodium: 2760
 ---
 
 ## Chef's Note
 
-Cauliflower replaces some of the cream in traditional alfredo, cutting richness while adding body—the natural starches thicken the sauce. It's a smart weeknight shortcut that tastes more like creamy comfort than a vegetable swap. Blend the cooked cauliflower until completely smooth before adding cheese, or the sauce will be gritty.
+Cauliflower replaces some of the cream in traditional alfredo, cutting richness while adding body - the natural starches thicken the sauce. It's a smart weeknight shortcut that tastes more like creamy comfort than a vegetable swap. Blend the cooked cauliflower until completely smooth before adding cheese, or the sauce will be gritty.
 ## Directions
 
 1.  **Boil:** In a pot, combine cauliflower and milk/broth. Bring to a boil, cover, and simmer for 12-15 minutes until very soft.

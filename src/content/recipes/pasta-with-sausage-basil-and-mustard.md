@@ -45,11 +45,19 @@ ingredients:
   - Pinch of Red Pepper Flakes
   - Parmesan for grating
 origin: Italy
+nutrition:
+  calories: 1220
+  protein: 35.5
+  carbs: 12
+  fat: 114
+  fiber: 1.5
+  sugar: 4
+  sodium: 1430
 ---
 
 ## Chef's Note
 
-This is Italian-American comfort: good sausage with fresh basil and mustard creating a quick sauce that tastes bright instead of heavy. The mustard adds a subtle sharpness that prevents the dish from being one-note sausage and tomato. Taste and adjust mustard to your preference—it should support, not dominate.
+This is Italian-American comfort: good sausage with fresh basil and mustard creating a quick sauce that tastes bright instead of heavy. The mustard adds a subtle sharpness that prevents the dish from being one-note sausage and tomato. Taste and adjust mustard to your preference - it should support, not dominate.
 ## Directions
 
 1.  **Boil:** Cook pasta in a large pot of salted water until **very al dente**. Drain.

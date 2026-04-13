@@ -46,11 +46,19 @@ ingredients:
   - 1/2 tsp Celery Seed
   - Salt and Black Pepper to taste
 origin: United States
+nutrition:
+  calories: 200
+  protein: 0.5
+  carbs: 4.5
+  fat: 20
+  fiber: 1
+  sugar: 3
+  sodium: 240
 ---
 
 ## Chef's Note
 
-Good coleslaw is about texture contrast—crisp cabbage against creamy dressing—and the balance of sweet, tangy, and savory. The secret is salting the cabbage first to draw out excess moisture, then dressing it no more than 30 minutes before serving. Dress too early and you get soggy slaw; too late and the flavors don't meld. The celery seed is non-negotiable—it's what makes this taste like the real deal.
+Good coleslaw is about texture contrast - crisp cabbage against creamy dressing - and the balance of sweet, tangy, and savory. The secret is salting the cabbage first to draw out excess moisture, then dressing it no more than 30 minutes before serving. Dress too early and you get soggy slaw; too late and the flavors don't meld. The celery seed is non-negotiable - it's what makes this taste like the real deal.
 
 ## Directions
 

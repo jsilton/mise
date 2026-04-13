@@ -41,11 +41,19 @@ seasons:
 nutritionalDensity: moderate
 leftovers: good
 equipment: []
+nutrition:
+  calories: 420
+  protein: 16
+  carbs: 10.5
+  fat: 36.5
+  fiber: 3.5
+  sugar: 3
+  sodium: 440
 ---
 
 ## Chef's Note
 
-This Indian dish shows how blooming spices in fat builds flavor from scratch. What looks like a simple process creates something that tastes like it took hours. This is meant to be reliable and honest—quality ingredients cooked with care, nothing fancy, just right.
+This Indian dish shows how blooming spices in fat builds flavor from scratch. What looks like a simple process creates something that tastes like it took hours. This is meant to be reliable and honest - quality ingredients cooked with care, nothing fancy, just right.
 
 ## Directions
 

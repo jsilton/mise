@@ -43,11 +43,19 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
+nutrition:
+  calories: 160
+  protein: 15.5
+  carbs: 1.5
+  fat: 10.5
+  fiber: 0
+  sugar: 0.5
+  sodium: 280
 ---
 
 ## Chef's Note
 
-The difference between good and great sliders is building flavor at every step. Marinating the thighs in BBQ sauce with smoked paprika for even 30 minutes infuses flavor deep into the meat—don't skip this. Broiling chars the edges and caramelizes the sugars in the sauce. Sharp cheddar melted on top adds richness, pickles cut through with acid, and crispy fried onions bring texture. Brush the Hawaiian rolls with melted butter and toast them cut-side down in the oven while the chicken rests—this takes 2 minutes and makes a huge difference.
+The difference between good and great sliders is building flavor at every step. Marinating the thighs in BBQ sauce with smoked paprika for even 30 minutes infuses flavor deep into the meat - don't skip this. Broiling chars the edges and caramelizes the sugars in the sauce. Sharp cheddar melted on top adds richness, pickles cut through with acid, and crispy fried onions bring texture. Brush the Hawaiian rolls with melted butter and toast them cut-side down in the oven while the chicken rests - this takes 2 minutes and makes a huge difference.
 
 ## Directions
 

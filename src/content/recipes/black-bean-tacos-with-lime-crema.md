@@ -2,28 +2,46 @@
 title: Black Bean Tacos with Lime Crema
 origin: Mexico
 difficulty: easy
-cookingMethods: [sauté, simmer]
-dietary: [vegetarian, vegan-option]
-occasions: [weeknight, kids-approved, meal-prep]
-flavorProfile: [savory, fresh, zesty, creamy]
-cuisines: [Mexican]
+cookingMethods:
+  - sauté
+  - simmer
+dietary:
+  - vegetarian
+  - vegan-option
+occasions:
+  - weeknight
+  - kids-approved
+  - meal-prep
+flavorProfile:
+  - savory
+  - fresh
+  - zesty
+  - creamy
+cuisines:
+  - Mexican
 role: main
 vibe: quick
 prepTime: 5 min
 cookTime: 10 min
 totalTime: 15 min
 servings: '4'
-seasons: [year-round]
+seasons:
+  - year-round
 nutritionalDensity: moderate
 leftovers: good
-equipment: [skillet, small-bowl]
+equipment:
+  - skillet
+  - small-bowl
 advancePrep: []
-pairsWith: [cilantro-lime-rice, everyday-arugula-salad, asian-slaw]
+pairsWith:
+  - cilantro-lime-rice
+  - everyday-arugula-salad
+  - asian-slaw
 ingredients:
-  - 2 cans Black Beans (15 oz each), drained and rinsed
+  - '2 cans Black Beans (15 oz each), drained and rinsed'
   - 8 Corn or Flour Tortillas (6-inch)
-  - 1 Onion, diced
-  - 3 cloves Garlic, minced
+  - '1 Onion, diced'
+  - '3 cloves Garlic, minced'
   - 1 tsp Cumin
   - 1/2 tsp Chili Powder
   - 1/4 tsp Smoked Paprika
@@ -38,11 +56,19 @@ ingredients:
   - Fresh Cilantro
   - Lime Wedges
   - Cotija Cheese (optional)
+nutrition:
+  calories: 140
+  protein: 8
+  carbs: 24
+  fat: 3
+  fiber: 6
+  sugar: 4
+  sodium: 1190
 ---
 
 ## Chef's Note
 
-Black bean tacos are the plant-forward equivalent of weeknight perfection: a can of beans becomes dinner through nothing but heat and spices. The crema and lime are what lift this from basic to something bright. This is Mexican home cooking—minimal ingredients, maximum flavor. The spice mixture (cumin, chili, paprika) is forgiving; if you only have one, cumin alone will get you most of the way there.
+Black bean tacos are the plant-forward equivalent of weeknight perfection: a can of beans becomes dinner through nothing but heat and spices. The crema and lime are what lift this from basic to something bright. This is Mexican home cooking - minimal ingredients, maximum flavor. The spice mixture (cumin, chili, paprika) is forgiving; if you only have one, cumin alone will get you most of the way there.
 
 ## Directions
 

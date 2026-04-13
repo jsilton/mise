@@ -45,16 +45,24 @@ ingredients:
   - 2 tsp Dijon Mustard (The Finishing Touch)
   - Kosher Salt and Black Pepper
 origin: United States
+nutrition:
+  calories: 340
+  protein: 1.5
+  carbs: 5
+  fat: 36.5
+  fiber: 2
+  sugar: 1
+  sodium: 80
 ---
 
 ## Chef's Note
 
-Most recipes overcook pork to 160°F, producing dry meat. Searing to develop a crust, then roasting until internal temperature hits 137°F allows residual heat during the 10-minute rest to bring it to 145°F—resulting in succulent, blush-pink pork. The lemon and Dijon marinade provides acidity that cuts through rich pork fat.
+Most recipes overcook pork to 160°F, producing dry meat. Searing to develop a crust, then roasting until internal temperature hits 137°F allows residual heat during the 10-minute rest to bring it to 145°F - resulting in succulent, blush-pink pork. The lemon and Dijon marinade provides acidity that cuts through rich pork fat.
 
 ## Directions
 
 1.  **Marinate:** Combine lemon juice, zest, olive oil, garlic, herbs, mustard, and 2 tsp salt in a large sealable bag. Add pork and toss to coat. **Marinate for at least 3 hours** (ideally overnight) to allow the enzymes to tenderize the meat.
 2.  **The Sear:** Preheat oven to 400°F. Remove pork from marinade (discard liquid). Season aggressively with salt and pepper. Heat 3 tbsp oil in a large oven-proof skillet over medium-high. Sear pork on all sides until deep golden brown.
 3.  **Roast:** Transfer the skillet directly to the oven. Roast for 10-15 minutes until the internal temperature reaches **137°F** at the thickest part.
-4.  **The Finish:** Remove to a platter and cover tightly with foil. **Rest for 10 minutes**—this is mandatory for the juices to redistribute.
+4.  **The Finish:** Remove to a platter and cover tightly with foil. **Rest for 10 minutes** - this is mandatory for the juices to redistribute.
 5.  **Serve:** Carve into 1/2-inch thick diagonal slices. Serve warm with the accumulated juices from the platter.

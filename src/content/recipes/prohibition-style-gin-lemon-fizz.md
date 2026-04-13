@@ -45,6 +45,14 @@ pairsWith:
   - herb-marinated-pork-tenderloins
 advancePrep:
   - freeze-ahead
+nutrition:
+  calories: 110
+  protein: 3.5
+  carbs: 34
+  fat: 1
+  fiber: 9.5
+  sugar: 12
+  sodium: 10
 ---
 
 ## Chef's Note

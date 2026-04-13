@@ -42,6 +42,14 @@ seasons:
 nutritionalDensity: moderate
 leftovers: good
 equipment: []
+nutrition:
+  calories: 135
+  protein: 13.5
+  carbs: 5
+  fat: 7.5
+  fiber: 1
+  sugar: 2
+  sodium: 260
 ---
 
 ## Chef's Note
@@ -59,4 +67,4 @@ This Mediterranean-inspired 25-minute dish sears chicken cutlets first to develo
 7.  **Finish:** Return the chicken breasts to the skillet. Transfer the pan to a 400°F oven for 10-12 minutes until the chicken reaches an internal temp of 165°F.
 8.  **Serve:** Serve the chicken drenched in the lemon-yogurt sauce over rice or greens.
 
-**Rest:** Let large Chicken rest for 5 minutes before slicing or serving — the juices redistribute and every piece stays moist.
+**Rest:** Let large Chicken rest for 5 minutes before slicing or serving  -  the juices redistribute and every piece stays moist.

@@ -2,37 +2,60 @@
 title: Banana Pancakes
 origin: United States
 difficulty: easy
-cookingMethods: [sauté]
-dietary: [vegetarian]
-occasions: [weekend-brunch, comfort-food, kid-friendly]
-flavorProfile: [sweet, rich]
-cuisines: [American]
+cookingMethods:
+  - sauté
+dietary:
+  - vegetarian
+occasions:
+  - weekend-brunch
+  - comfort-food
+  - kid-friendly
+flavorProfile:
+  - sweet
+  - rich
+cuisines:
+  - American
 role: main
 vibe: comfort
-seasons: [year-round]
+seasons:
+  - year-round
 nutritionalDensity: hearty
 leftovers: good
-advancePrep: [freezer-friendly]
-equipment: [griddle, mixing-bowl]
+advancePrep:
+  - freezer-friendly
+equipment:
+  - griddle
+  - mixing-bowl
 prepTime: 10 min
 cookTime: 15 min
 totalTime: 25 min
 servings: '4'
-pairsWith: [classic-french-toast, easy-breakfast-yogurt-popsicles, pumpkin-breakfast-cookies]
+pairsWith:
+  - classic-french-toast
+  - easy-breakfast-yogurt-popsicles
+  - pumpkin-breakfast-cookies
 ingredients:
-  - '1 1/2 cups All-Purpose Flour'
-  - '2 tbsp Granulated Sugar'
-  - '2 tsp Baking Powder'
-  - '1/2 tsp Baking Soda'
-  - '1/4 tsp Kosher Salt'
-  - '1/4 tsp Ground Cinnamon'
-  - '1 cup Buttermilk'
+  - 1 1/2 cups All-Purpose Flour
+  - 2 tbsp Granulated Sugar
+  - 2 tsp Baking Powder
+  - 1/2 tsp Baking Soda
+  - 1/4 tsp Kosher Salt
+  - 1/4 tsp Ground Cinnamon
+  - 1 cup Buttermilk
   - '2 large Ripe Bananas, mashed (about 3/4 cup)'
-  - '2 large Eggs'
+  - 2 large Eggs
   - '3 tbsp Unsalted Butter, melted and slightly cooled'
-  - '1 tsp Vanilla Extract'
-  - 'Butter or oil for the griddle'
-  - 'Maple syrup and sliced bananas for serving'
+  - 1 tsp Vanilla Extract
+  - Butter or oil for the griddle
+  - Maple syrup and sliced bananas for serving
+nutrition:
+  calories: 825
+  protein: 9.5
+  carbs: 66.5
+  fat: 60.5
+  fiber: 3.5
+  sugar: 20.5
+  sodium: 1590
 ---
 
 ## Chef's Note

@@ -18,7 +18,7 @@ bestFor: [saturday]
 
 ## Meal Overview
 
-A weekend project that fills the house with amazing aromas. Tonkotsu is worth the effort—the silky, pork-bone-infused broth takes hours to develop, but it's a lesson in patience and technique. Kids can help assemble their own bowls at the end, making it educational and fun.
+A weekend project that fills the house with amazing aromas. Tonkotsu is worth the effort - the silky, pork-bone-infused broth takes hours to develop, but it's a lesson in patience and technique. Kids can help assemble their own bowls at the end, making it educational and fun.
 
 ## Cooking Strategy
 
@@ -31,7 +31,7 @@ A weekend project that fills the house with amazing aromas. Tonkotsu is worth th
 
 ## Notes
 
-- This is a all-hands project—kids can help prep toppings, assemble bowls, learn about technique
+- This is a all-hands project - kids can help prep toppings, assemble bowls, learn about technique
 - The broth is the star, so don't rush it
 - Tonkotsu is traditionally made with pork bones, but you can use chicken for a lighter version
 - Leftover broth freezes beautifully for quick noodle bowls later

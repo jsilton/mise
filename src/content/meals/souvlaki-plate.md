@@ -19,7 +19,7 @@ bestFor: [tuesday, wednesday, thursday, friday]
 
 ## Meal Overview
 
-A vibrant Greek dinner — marinated chicken skewers with tangy tzatziki, fluffy rice pilaf, and a crisp horiatiki-style salad. This is summer on a plate, bright with lemon, herbs, and olive oil.
+A vibrant Greek dinner  -  marinated chicken skewers with tangy tzatziki, fluffy rice pilaf, and a crisp horiatiki-style salad. This is summer on a plate, bright with lemon, herbs, and olive oil.
 
 ## Cooking Strategy
 

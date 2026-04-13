@@ -45,17 +45,25 @@ ingredients:
   - 1/4 cup Crumbled Feta (optional)
   - Salt and Black Pepper to taste
 origin: Greece
+nutrition:
+  calories: 140
+  protein: 3
+  carbs: 17.5
+  fat: 7
+  fiber: 1.5
+  sugar: 1
+  sodium: 380
 ---
 
 ## Chef's Note
 
-Couscous is the 5-minute miracle of Mediterranean cooking—just boiling water and patience. The key is to let it steam fully before fluffing, then dress it while still warm so it absorbs the bright lemon and olive oil. Fresh herbs are non-negotiable here; they transform this from a bland starch into a fragrant side that complements lamb, chicken, or falafel beautifully.
+Couscous is the 5-minute miracle of Mediterranean cooking - just boiling water and patience. The key is to let it steam fully before fluffing, then dress it while still warm so it absorbs the bright lemon and olive oil. Fresh herbs are non-negotiable here; they transform this from a bland starch into a fragrant side that complements lamb, chicken, or falafel beautifully.
 
 ## Directions
 
 1. **The Boil:** Bring broth to a boil in a medium saucepan. Add a pinch of salt.
 2. **The Pour:** Remove from heat. Stir in couscous. Cover tightly with a lid.
-3. **The Steam:** Let stand for 5 minutes. Do not peek—the steam is doing the work.
+3. **The Steam:** Let stand for 5 minutes. Do not peek - the steam is doing the work.
 4. **The Fluff:** Uncover and fluff with a fork, breaking up any clumps.
 5. **The Dress:** While still warm, drizzle with olive oil and lemon juice. Add zest. Toss gently.
 6. **The Finish:** Fold in fresh parsley and mint. Season with salt and pepper. Top with feta if desired.

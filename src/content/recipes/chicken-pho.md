@@ -47,11 +47,19 @@ seasons:
 nutritionalDensity: moderate
 leftovers: poor
 equipment: []
+nutrition:
+  calories: 315
+  protein: 39.5
+  carbs: 9.5
+  fat: 14
+  fiber: 1
+  sugar: 4.5
+  sodium: 10310
 ---
 
 ## Chef's Note
 
-The secret to a golden, aromatic Chicken Pho is the **Char**. You must roast the onions and ginger until they are blackened and softened; this provides the smoky, sweet backbone of the broth. We use a combination of a whole chicken (for meat) and extra wings (for gelatin) to achieve that lip-smacking richness. Unlike beef pho, chicken pho should be lighter and cleaner—don't over-boil, just a gentle simmer.
+The secret to a golden, aromatic Chicken Pho is the **Char**. You must roast the onions and ginger until they are blackened and softened; this provides the smoky, sweet backbone of the broth. We use a combination of a whole chicken (for meat) and extra wings (for gelatin) to achieve that lip-smacking richness. Unlike beef pho, chicken pho should be lighter and cleaner - don't over-boil, just a gentle simmer.
 For kids, serve the heat on the side or reduce/omit the spicy elements.
 
 ## Directions
@@ -65,4 +73,4 @@ For kids, serve the heat on the side or reduce/omit the spicy elements.
 7.  **Noodles:** Soak rice sticks in warm water for 20 minutes, then flash-boil for 1 minute just before serving.
 8.  **Assemble:** Place noodles in deep bowls. Top with shredded chicken and hot broth. Serve with a plate of fresh herbs, sprouts, and lime.
 
-**Rest:** Let Whole Chicken rest for 10 minutes before slicing or serving — the juices redistribute and every piece stays moist.
+**Rest:** Let Whole Chicken rest for 10 minutes before slicing or serving  -  the juices redistribute and every piece stays moist.

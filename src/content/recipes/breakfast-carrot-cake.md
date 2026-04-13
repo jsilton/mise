@@ -48,17 +48,25 @@ ingredients:
   - 1/4 tsp Sea Salt
   - '1/4 cup Walnuts or Pecans, chopped'
 origin: United States
+nutrition:
+  calories: 995
+  protein: 19.5
+  carbs: 168.5
+  fat: 33
+  fiber: 38
+  sugar: 96.5
+  sodium: 1320
 ---
 
 ## Chef's Note
 
-Breakfast carrot cake splits the difference between muffin and snack cake — whole wheat flour and Greek yogurt give it enough structure and protein to pass as morning food, while the grated carrots keep it moist for days. The trick is grating on the fine holes, not the large ones — larger shreds release too much water during baking and create soggy pockets. This freezes beautifully: wrap individual squares in plastic and pull them out the night before for school mornings.
+Breakfast carrot cake splits the difference between muffin and snack cake  -  whole wheat flour and Greek yogurt give it enough structure and protein to pass as morning food, while the grated carrots keep it moist for days. The trick is grating on the fine holes, not the large ones  -  larger shreds release too much water during baking and create soggy pockets. This freezes beautifully: wrap individual squares in plastic and pull them out the night before for school mornings.
 ## Directions
 
 1.  **Prep:** Preheat oven to 375°F (185°C). Grease an 8-inch square pan or line with parchment paper.
 2.  **The Grate:** Finely grate the carrots using the small holes of a grater. Set aside.
 3.  **The Emulsion:** In a large bowl, whisk the egg, sugars, oil, yogurt, and vanilla for 3-5 minutes until the sugar is completely dissolved and the mixture is pale and frothy.
 4.  **Dry Mix:** Sift in the whole wheat flour, cinnamon, baking powder, baking soda, and salt. Fold gently with a spatula.
-5.  **Fold:** Add the grated carrots and chopped nuts. Fold until just combined—do not overmix, or the whole wheat flour will become tough.
+5.  **Fold:** Add the grated carrots and chopped nuts. Fold until just combined - do not overmix, or the whole wheat flour will become tough.
 6.  **Bake:** Pour into the prepared pan and tap lightly to remove air bubbles. Bake for 25-30 minutes until a toothpick comes out clean.
 7.  **Cool:** Let cool in the pan for 10 minutes, then transfer to a wire rack. This cake is even better the next day once the spices have "bloomed."

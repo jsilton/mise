@@ -41,6 +41,14 @@ ingredients:
   - Pinch of Sea Salt
   - Ground Cinnamon
 origin: United States
+nutrition:
+  calories: 290
+  protein: 7.5
+  carbs: 32.5
+  fat: 16
+  fiber: 6
+  sugar: 1
+  sodium: 1200
 ---
 
 ## Chef's Note
@@ -52,5 +60,5 @@ Frozen riced cauliflower adds volume and fiber without affecting flavor. Stir fr
 1.  **Combine:** In a medium saucepan (stovetop) or a large microwave-safe bowl, combine oats, cauliflower, water/milk, chopped dates, and coconut oil.
 2.  **Cook (Stovetop):** Bring to a gentle boil, then reduce to a simmer. Cook for 5-7 minutes, stirring frequently, until the liquid is absorbed and the oats are creamy.
 3.  **Cook (Microwave):** Heat on high for 3 minutes, stir, then heat for another 2-3 minutes until thickened.
-4.  **The Berry Finish:** Remove from heat. Gently fold in the frozen blueberries. Let sit for 1 minute—the residual heat will thaw the berries while keeping them whole.
+4.  **The Berry Finish:** Remove from heat. Gently fold in the frozen blueberries. Let sit for 1 minute - the residual heat will thaw the berries while keeping them whole.
 5.  **Serve:** Top with a pinch of sea salt and cinnamon.

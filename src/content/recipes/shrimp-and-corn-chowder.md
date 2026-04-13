@@ -49,6 +49,14 @@ ingredients:
   - 2 tbsp Fresh Cilantro
   - 1/4 tsp Cayenne Pepper
 origin: United States
+nutrition:
+  calories: 600
+  protein: 92
+  carbs: 21.5
+  fat: 17.5
+  fiber: 2.5
+  sugar: 8.5
+  sodium: 1120
 ---
 
 ## Chef's Note

@@ -51,11 +51,19 @@ ingredients:
     1 package Wonton Wrappers (Or use [Homemade
     Wrappers](/mise/recipes/fresh-wonton-wrappers))
 origin: China
+nutrition:
+  calories: 130
+  protein: 19
+  carbs: 5
+  fat: 4
+  fiber: 0.5
+  sugar: 2
+  sodium: 870
 ---
 
 ## Chef's Note
 
-Cantonese wontons from Guangdong province have been made for centuries, traditionally served in clear broth. The key to the bouncy texture is stirring the meat mixture vigorously in one direction until it becomes sticky and emulsified—this develops the protein structure. Using a mix of finely chopped and chunky shrimp gives you both flavor and textural contrast. Water chestnuts add crunch; if you don't like them, finely minced celery or Fuji apple work as substitutes.
+Cantonese wontons from Guangdong province have been made for centuries, traditionally served in clear broth. The key to the bouncy texture is stirring the meat mixture vigorously in one direction until it becomes sticky and emulsified - this develops the protein structure. Using a mix of finely chopped and chunky shrimp gives you both flavor and textural contrast. Water chestnuts add crunch; if you don't like them, finely minced celery or Fuji apple work as substitutes.
 
 ## Directions
 
@@ -65,4 +73,4 @@ Cantonese wontons from Guangdong province have been made for centuries, traditio
 4.  **The Test:** Fry a small "tab" of the filling in a skillet. Taste for seasoning and adjust salt if needed.
 5.  **Assemble:** Place 1 tsp of filling in a wrapper. Moisten edges, fold into a triangle, and bring the two side corners together to form a "nurse's cap." Press out all air.
 
-**Rest:** Let Ground Pork rest for 5 minutes before slicing or serving — the juices redistribute and every piece stays moist.
+**Rest:** Let Ground Pork rest for 5 minutes before slicing or serving  -  the juices redistribute and every piece stays moist.

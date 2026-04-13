@@ -48,6 +48,14 @@ ingredients:
   - 1 tsp Vanilla Extract
   - 1/4 cup Dark Chocolate Chips
 origin: United States
+nutrition:
+  calories: 220
+  protein: 4
+  carbs: 37
+  fat: 6.5
+  fiber: 3
+  sugar: 25.5
+  sodium: 320
 ---
 
 ## Chef's Note

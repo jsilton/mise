@@ -50,11 +50,19 @@ seasons:
 nutritionalDensity: moderate
 leftovers: good
 equipment: []
+nutrition:
+  calories: 65
+  protein: 2
+  carbs: 14
+  fat: 1
+  fiber: 3.5
+  sugar: 4.5
+  sodium: 140
 ---
 
 ## Chef's Note
 
-This Tex-Mex style slow-cooker chili builds body and richness without meat by using sweet potatoes—as they simmer for 4 hours, their starches break down to create a thick, velvety consistency without needing a roux. Three types of beans add varied textures and protein. A splash of apple cider vinegar at the end brightens the earthy spices.
+This Tex-Mex style slow-cooker chili builds body and richness without meat by using sweet potatoes - as they simmer for 4 hours, their starches break down to create a thick, velvety consistency without needing a roux. Three types of beans add varied textures and protein. A splash of apple cider vinegar at the end brightens the earthy spices.
 For kids, serve the heat on the side or reduce/omit the spicy elements.
 
 ## Directions

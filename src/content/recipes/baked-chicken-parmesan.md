@@ -40,6 +40,14 @@ ingredients:
   - Fresh Basil leaves
   - 1/2 lb Spaghetti or Rigatoni
 origin: Italy
+nutrition:
+  calories: 285
+  protein: 25.5
+  carbs: 6
+  fat: 17.5
+  fiber: 0.5
+  sugar: 1
+  sodium: 860
 ---
 
 ## Chef's Note

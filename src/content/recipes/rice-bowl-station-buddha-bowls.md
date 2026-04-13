@@ -75,21 +75,29 @@ ingredients:
   - Lemon-Herb Vinaigrette (bright and light)
   - Miso-Ginger Dressing (umami-forward)
   - Cilantro-Lime Crema (fresh and creamy)
+nutrition:
+  calories: 890
+  protein: 74
+  carbs: 78
+  fat: 38
+  fiber: 20.5
+  sugar: 12
+  sodium: 580
 ---
 
 ## Chef's Note
 
-The Buddha Bowl is not a bowl in the religious sense—it's a concept: whole grains + protein + vegetables + sauce = a meal that feels composed but comes together in 15 minutes. The magic is in texture contrast (soft rice, crispy seeds, tender vegetables, something crunchy on top) and in choosing a sauce that actually ties the flavors together instead of sitting on the side. Batch cook your grains on Sunday, prep vegetables the night before, keep a few proteins ready, and you can assemble four different bowls from the same components in minutes. Kids love the "build your own" aspect, and adults appreciate that it's a plate-level lesson in nutrition and balance.
+The Buddha Bowl is not a bowl in the religious sense - it's a concept: whole grains + protein + vegetables + sauce = a meal that feels composed but comes together in 15 minutes. The magic is in texture contrast (soft rice, crispy seeds, tender vegetables, something crunchy on top) and in choosing a sauce that actually ties the flavors together instead of sitting on the side. Batch cook your grains on Sunday, prep vegetables the night before, keep a few proteins ready, and you can assemble four different bowls from the same components in minutes. Kids love the "build your own" aspect, and adults appreciate that it's a plate-level lesson in nutrition and balance.
 
 ## Directions
 
 1. **Start the Base:** Scoop 1/2 cup cooked grain into each bowl (about 3/4 of the way full). If the grain is cold, warm gently or let it come to room temperature.
 
-2. **Add the Protein:** Place your chosen protein in a section of the bowl—soft-boiled eggs on one side, roasted chickpeas in a pile, grilled chicken strips arranged, or tofu cubes clustered. Use 1/4 to 1/3 of the bowl's surface.
+2. **Add the Protein:** Place your chosen protein in a section of the bowl - soft-boiled eggs on one side, roasted chickpeas in a pile, grilled chicken strips arranged, or tofu cubes clustered. Use 1/4 to 1/3 of the bowl's surface.
 
-3. **Layer the Vegetables:** Arrange vegetables in sections around the grain and protein—create little piles and lines so each component is visible. Start with softer items (greens, avocado), then add fresh vegetables (cucumber, tomato, pepper). This makes the bowl look intentional, not chaotic.
+3. **Layer the Vegetables:** Arrange vegetables in sections around the grain and protein - create little piles and lines so each component is visible. Start with softer items (greens, avocado), then add fresh vegetables (cucumber, tomato, pepper). This makes the bowl look intentional, not chaotic.
 
-4. **Add Crunch:** Scatter toasted seeds, crispy fried onions, wonton strips, or nuts over the top. This is non-negotiable—the textural contrast is what makes the bowl exciting to eat.
+4. **Add Crunch:** Scatter toasted seeds, crispy fried onions, wonton strips, or nuts over the top. This is non-negotiable - the textural contrast is what makes the bowl exciting to eat.
 
 5. **Dress:** Drizzle sauce over the entire bowl, or serve it on the side for people to control their own ratio. A bowl should glisten, not be drowned.
 
@@ -112,4 +120,4 @@ The Buddha Bowl is not a bowl in the religious sense—it's a concept: whole gra
 - Roast chickpeas and store in an airtight container (they stay crispy for 3 days)
 - Make dressing in a jar (shakes before serving)
 - Soft-boil eggs on Sunday morning, peel and refrigerate
-- Assemble bowls fresh each time — don't let vegetables sit in grain or they'll release moisture
+- Assemble bowls fresh each time  -  don't let vegetables sit in grain or they'll release moisture

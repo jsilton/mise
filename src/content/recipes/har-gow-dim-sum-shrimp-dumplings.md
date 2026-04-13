@@ -2,23 +2,39 @@
 title: Har Gow (Shrimp Dumplings)
 origin: China
 difficulty: easy
-cookingMethods: [boil, steam, no-cook]
+cookingMethods:
+  - boil
+  - steam
+  - no-cook
 dietary: []
-occasions: [weekend-project, entertaining]
-flavorProfile: [spicy, sweet, savory, umami]
-cuisines: [Chinese]
+occasions:
+  - weekend-project
+  - entertaining
+flavorProfile:
+  - spicy
+  - sweet
+  - savory
+  - umami
+cuisines:
+  - Chinese
 role: main
 vibe: technical
 prepTime: 60 min
 cookTime: 10 min
 totalTime: 140 min
 servings: 18 dumplings
-seasons: [year-round]
+seasons:
+  - year-round
 nutritionalDensity: light
 leftovers: excellent
-advancePrep: [make-ahead, freeze-ahead]
-equipment: [bamboo-steamer]
-pairsWith: [smashed-cucumber-salad, cantonese-shumai-siu-mai]
+advancePrep:
+  - make-ahead
+  - freeze-ahead
+equipment:
+  - bamboo-steamer
+pairsWith:
+  - smashed-cucumber-salad
+  - cantonese-shumai-siu-mai
 ingredients:
   - '1/2 lb Raw Shrimp, peeled, deveined, and patted dry'
   - '1/4 cup Bamboo Shoots, finely minced'
@@ -33,11 +49,19 @@ ingredients:
   - 1/2 cup Cornstarch or Tapioca Starch
   - 1 1/4 cups Boiling Water
   - 3 tsp Lard or Neutral Oil
+nutrition:
+  calories: 220
+  protein: 6
+  carbs: 7.5
+  fat: 19
+  fiber: 0
+  sugar: 0.5
+  sodium: 260
 ---
 
 ## Chef's Note
 
-Har gow are Cantonese shrimp dumplings with translucent, pleated wrappers—a dim sum classic and a test of a chef's skill. The dough uses wheat starch (not wheat flour) mixed with boiling water, which gelatinizes the starch instantly and creates a flexible dough that steams into a glass-like wrapper. For the filling, whip the shrimp mixture vigorously in one direction until sticky—this develops the protein structure for that characteristic bouncy texture.
+Har gow are Cantonese shrimp dumplings with translucent, pleated wrappers - a dim sum classic and a test of a chef's skill. The dough uses wheat starch (not wheat flour) mixed with boiling water, which gelatinizes the starch instantly and creates a flexible dough that steams into a glass-like wrapper. For the filling, whip the shrimp mixture vigorously in one direction until sticky - this develops the protein structure for that characteristic bouncy texture.
 
 ## Directions
 

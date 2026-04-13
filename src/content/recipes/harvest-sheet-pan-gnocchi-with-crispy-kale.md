@@ -46,11 +46,19 @@ ingredients:
   - 1/3 cup Freshly Grated Parmesan or Nutritional Yeast
   - Salt and Black Pepper
 origin: Italy
+nutrition:
+  calories: 1275
+  protein: 23
+  carbs: 22.5
+  fat: 127.5
+  fiber: 8
+  sugar: 4
+  sodium: 1370
 ---
 
 ## Chef's Note
 
-Sheet-pan gnocchi is a weeknight trick that turns frozen cauliflower gnocchi into something crispy and caramelized without a pot of boiling water. The key is a single layer — crowding the pan steams everything into mush instead of roasting it. The kale should emerge dark green and shatteringly crisp, which only happens if it gets coated in oil and given space.
+Sheet-pan gnocchi is a weeknight trick that turns frozen cauliflower gnocchi into something crispy and caramelized without a pot of boiling water. The key is a single layer  -  crowding the pan steams everything into mush instead of roasting it. The kale should emerge dark green and shatteringly crisp, which only happens if it gets coated in oil and given space.
 ## Directions
 
 1.  **Prep:** Preheat oven to 400°F. Line a large rimmed baking sheet with parchment paper.

@@ -18,7 +18,7 @@ bestFor: [monday, tuesday, wednesday]
 
 ## Meal Overview
 
-The fastest complete dinner in the rotation. Stir-fries reward prep — once everything is sliced and sauced, cooking takes under 10 minutes. Snow peas stay crisp-tender, chicken stays juicy, and the sauce coats everything in savory gloss.
+The fastest complete dinner in the rotation. Stir-fries reward prep  -  once everything is sliced and sauced, cooking takes under 10 minutes. Snow peas stay crisp-tender, chicken stays juicy, and the sauce coats everything in savory gloss.
 
 ## Cooking Strategy
 

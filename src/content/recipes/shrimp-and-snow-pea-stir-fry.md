@@ -44,6 +44,14 @@ ingredients:
   - '1 clove Garlic, minced'
   - Neutral Oil
 origin: China
+nutrition:
+  calories: 330
+  protein: 29.5
+  carbs: 43.5
+  fat: 5
+  fiber: 14
+  sugar: 14
+  sodium: 480
 ---
 
 ## Chef's Note

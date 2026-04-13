@@ -42,6 +42,14 @@ pairsWith:
   - roasted-fall-harvest-salad
   - roasted-root-vegetables
   - roasted-sunchokes-with-brown-butter-cider-vinaigrette
+nutrition:
+  calories: 180
+  protein: 1.5
+  carbs: 45.5
+  fat: 1
+  fiber: 7.5
+  sugar: 30
+  sodium: 10
 ---
 
 ## Chef's Note
@@ -53,6 +61,6 @@ Muddling the basil before adding liquids releases its chlorophyll and essential 
 1.  **Muddle:** Place the chopped basil in the bottom of a tall Collins glass or highball glass. Use a muddler or the back of a spoon to press firmly for 10 seconds.
 2.  **Thermal Prep:** Fill the glass to the brim with large ice cubes.
 3.  **Combine:** Pour in the gin and the fresh grapefruit juice. Stir twice to integrate.
-4.  **Effervescence:** Top with the tonic water or seltzer. Do not stir again—let the bubbles carry the basil essence to the top.
+4.  **Effervescence:** Top with the tonic water or seltzer. Do not stir again - let the bubbles carry the basil essence to the top.
 5.  **The Finishing Touch:** Add 3 dashes of bitters directly onto the surface.
 6.  **The Slap:** Take the basil sprig, slap it between your palms to release the scent, and tuck it into the ice as a garnish.

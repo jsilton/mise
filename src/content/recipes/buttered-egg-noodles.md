@@ -2,14 +2,26 @@
 title: Buttered Egg Noodles
 origin: American
 difficulty: easy
-cookingMethods: [boil, sauté]
-dietary: [vegetarian]
-occasions: [weeknight, comfort-food]
-flavorProfile: [rich, savory, buttery, mild]
-cuisines: [American, Eastern-European]
+cookingMethods:
+  - boil
+  - sauté
+dietary:
+  - vegetarian
+occasions:
+  - weeknight
+  - comfort-food
+flavorProfile:
+  - rich
+  - savory
+  - buttery
+  - mild
+cuisines:
+  - American
+  - Eastern-European
 role: base
 vibe: comfort
-seasons: [year-round]
+seasons:
+  - year-round
 nutritionalDensity: moderate
 leftovers: good
 advancePrep: []
@@ -18,14 +30,25 @@ prepTime: 2 min
 cookTime: 10 min
 totalTime: 12 min
 servings: '4'
-pairsWith: [chicken-marsala, classic-beef-stew, chicken-coq-au-vin]
+pairsWith:
+  - chicken-marsala
+  - classic-beef-stew
+  - chicken-coq-au-vin
 ingredients:
-  - '12 oz Wide Egg Noodles'
-  - '3 tbsp Unsalted Butter'
-  - '1 tsp Kosher Salt (plus more for pasta water)'
-  - '1/4 tsp Black Pepper'
+  - 12 oz Wide Egg Noodles
+  - 3 tbsp Unsalted Butter
+  - 1 tsp Kosher Salt (plus more for pasta water)
+  - 1/4 tsp Black Pepper
   - '2 tbsp Fresh Parsley, chopped (optional)'
-  - '1/4 cup Reserved Pasta Water'
+  - 1/4 cup Reserved Pasta Water
+nutrition:
+  calories: 590
+  protein: 18
+  carbs: 99.5
+  fat: 15.5
+  fiber: 5
+  sugar: 1.5
+  sodium: 970
 ---
 
 ## Chef's Note

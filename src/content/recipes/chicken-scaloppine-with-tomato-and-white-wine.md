@@ -45,6 +45,14 @@ ingredients:
   - '1 tbsp Cold Butter, cubed'
   - Salt and Black Pepper
 origin: Italy
+nutrition:
+  calories: 400
+  protein: 32
+  carbs: 17.5
+  fat: 22.5
+  fiber: 1
+  sugar: 0.5
+  sodium: 380
 ---
 
 ## Chef's Note

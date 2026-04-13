@@ -51,6 +51,14 @@ pairsWith:
   - peach-pie-biscuit-bombs
   - apple-cider-cream-pie
   - apple-pie
+nutrition:
+  calories: 1170
+  protein: 19
+  carbs: 90.5
+  fat: 84
+  fiber: 3
+  sugar: 46
+  sodium: 790
 ---
 
 ## Chef's Note

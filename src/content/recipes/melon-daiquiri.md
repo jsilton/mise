@@ -38,11 +38,19 @@ pairsWith:
   - balsamic-peach-pork
 advancePrep:
   - freeze-ahead
+nutrition:
+  calories: 1450
+  protein: 2.5
+  carbs: 418
+  fat: 0
+  fiber: 3
+  sugar: 397.5
+  sodium: 20
 ---
 
 ## Chef's Note
 
-The daiquiri is a Cuban drink named after a beach near Santiago—born from American occupation and the sugar trade. A good daiquiri is balanced: rum, lime juice, and sugar in equal parts, with the lime juice providing the backbone. Using fresh melon brings fruit sweetness without needing extra sugar, which keeps the drink bright instead of cloying.
+The daiquiri is a Cuban drink named after a beach near Santiago - born from American occupation and the sugar trade. A good daiquiri is balanced: rum, lime juice, and sugar in equal parts, with the lime juice providing the backbone. Using fresh melon brings fruit sweetness without needing extra sugar, which keeps the drink bright instead of cloying.
 ## Directions
 
 1.  **Thermal Prep:** Freeze your melon cubes for 30 minutes prior to starting for the best texture.

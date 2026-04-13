@@ -17,7 +17,7 @@ bestFor: [monday, tuesday, wednesday]
 
 ## Meal Overview
 
-Pillowy gnocchi roasted until crispy on the outside, surrounded by caramelized vegetables — all on one sheet pan. A simple arugula salad rounds out the meal with peppery freshness. This is the weeknight hero for when you want comfort with zero effort.
+Pillowy gnocchi roasted until crispy on the outside, surrounded by caramelized vegetables  -  all on one sheet pan. A simple arugula salad rounds out the meal with peppery freshness. This is the weeknight hero for when you want comfort with zero effort.
 
 ## Cooking Strategy
 

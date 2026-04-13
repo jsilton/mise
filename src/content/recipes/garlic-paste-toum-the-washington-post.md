@@ -36,6 +36,14 @@ seasons:
 nutritionalDensity: light
 leftovers: good
 equipment: []
+nutrition:
+  calories: 1435
+  protein: 0.5
+  carbs: 2
+  fat: 162
+  fiber: 0.5
+  sugar: 0.5
+  sodium: 580
 ---
 
 ## Chef's Note
@@ -47,7 +55,7 @@ This Lebanese garlic sauce requires patience - add oil in the thinnest possible 
 1.  **The Puree:** Place the garlic cloves and salt in a food processor. Pulse and scrape until the garlic is a completely smooth, uniform paste.
 2.  **The First Emulsion:** With the motor running, slowly drizzle in 1/2 cup of the oil, drop by drop. The mixture should begin to look like a thick paste.
 3.  **The Stabilizer:** Slowly drizzle in 1 tbsp of the lemon juice. The paste will turn noticeably whiter.
-4.  **The Stream:** Continue the process—alternating between 1/2 cup of oil and 1 tsp of lemon juice—until all the oil and lemon are used. The stream can be slightly thicker now, but never rushed.
+4.  **The Stream:** Continue the process - alternating between 1/2 cup of oil and 1 tsp of lemon juice - until all the oil and lemon are used. The stream can be slightly thicker now, but never rushed.
 5.  **The Texture:** With the motor still running, slowly add the cold water. This will lighten the paste and give it its signature cloud-like fluffiness.
 6.  **Set:** Transfer to a glass jar and refrigerate for at least 4 hours before using. This allows the garlic vapors to mellow and the emulsion to set.
 7.  **Store:** Keeps in the fridge for up to 3 weeks.

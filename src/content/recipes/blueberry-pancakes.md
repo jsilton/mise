@@ -38,6 +38,14 @@ seasons:
 nutritionalDensity: moderate
 leftovers: good
 equipment: []
+nutrition:
+  calories: 120
+  protein: 3.5
+  carbs: 16
+  fat: 4.5
+  fiber: 0.5
+  sugar: 4
+  sodium: 700
 ---
 
 ## Chef's Note
@@ -48,7 +56,7 @@ Letting the batter rest for 5 minutes after mixing allows flour to hydrate and g
 
 1.  **Prep:** Heat a griddle to 350°F (or a large non-stick skillet over medium-low heat). Lightly grease with butter.
 2.  **Aeration:** In a large bowl, whisk eggs, milk, and vanilla until light and frothy (about 2-3 minutes). Whisk in the melted butter and honey.
-3.  **Combine:** Sift in the flour, salt, and baking powder. Stir with a spatula until **just combined**. A few lumps are mandatory—do not overmix!
+3.  **Combine:** Sift in the flour, salt, and baking powder. Stir with a spatula until **just combined**. A few lumps are mandatory - do not overmix!
 4.  **The Rest:** Let the batter sit for 5 minutes. It will thicken and become slightly bubbly.
 5.  **Pour:** Use a 1/4 cup scoop to drop batter onto the hot griddle. Immediately sprinkle 1 tbsp of blueberries onto the wet surface of each pancake.
 6.  **Flip:** Cook for 2 minutes until bubbles form and pop on the surface and the bottom is golden. Flip and cook for another 2 minutes.

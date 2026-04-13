@@ -64,11 +64,19 @@ pairsWith:
   - chili
   - chipotle-pork-and-sweet-corn-tamale-bowls
   - crockpot-vegetarian-chili
+nutrition:
+  calories: 95
+  protein: 0
+  carbs: 25
+  fat: 0
+  fiber: 1
+  sugar: 23.5
+  sodium: 230
 ---
 
 ## Chef's Note
 
-This game-day margarita balances reposado tequila's oak and vanilla against Campari's bitter complexity, bridged by a spiced cranberry syrup that adds tannic structure like a light red wine. The combination creates a deep crimson color and serious flavor—far from a sugary party drink. Use reposado specifically; blanco lacks the oak notes to stand up to Campari, and añejo would be too heavy. Dissolving salt directly into the batch suppresses bitterness chemically while adding savory depth. Each serving must be shaken hard since there's no salt rim to excite the palate.
+This game-day margarita balances reposado tequila's oak and vanilla against Campari's bitter complexity, bridged by a spiced cranberry syrup that adds tannic structure like a light red wine. The combination creates a deep crimson color and serious flavor - far from a sugary party drink. Use reposado specifically; blanco lacks the oak notes to stand up to Campari, and añejo would be too heavy. Dissolving salt directly into the batch suppresses bitterness chemically while adding savory depth. Each serving must be shaken hard since there's no salt rim to excite the palate.
 
 ## Directions
 
@@ -80,11 +88,11 @@ This game-day margarita balances reposado tequila's oak and vanilla against Camp
 
 ### Phase 2: The Batch (Before Kickoff)
 
-3. **The Mix:** In a large pitcher, combine tequila, lime juice, cranberry syrup, Cointreau, and Campari. Add salt and stir vigorously until completely dissolved—this is critical for balance.
+3. **The Mix:** In a large pitcher, combine tequila, lime juice, cranberry syrup, Cointreau, and Campari. Add salt and stir vigorously until completely dissolved - this is critical for balance.
 
-4. **The Taste:** Taste the batch—it should be intense and slightly too strong (it will dilute when shaken). Adjust: too bitter, add 1 oz more syrup; too sweet, add 1 oz more lime; too sharp, add 1/2 tsp more salt. Trust your palate.
+4. **The Taste:** Taste the batch - it should be intense and slightly too strong (it will dilute when shaken). Adjust: too bitter, add 1 oz more syrup; too sweet, add 1 oz more lime; too sharp, add 1/2 tsp more salt. Trust your palate.
 
-5. **The Hold:** Keep pitcher refrigerated until serving. Do not add ice to the pitcher—dilution happens during the shake.
+5. **The Hold:** Keep pitcher refrigerated until serving. Do not add ice to the pitcher - dilution happens during the shake.
 
 ### Phase 3: The Serve (Game Time)
 
@@ -107,4 +115,4 @@ For designated drivers, parents, or anyone not drinking:
 - Game Day Ice cube
 - Orange peel
 
-This is genuinely delicious—not a sad afterthought.
+This is genuinely delicious - not a sad afterthought.

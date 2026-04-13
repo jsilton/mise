@@ -43,6 +43,14 @@ pairsWith:
   - grandmommys-pound-cake
   - red-velvet-cupcakes
   - apple-cider-cream-pie
+nutrition:
+  calories: 585
+  protein: 5.5
+  carbs: 104
+  fat: 18
+  fiber: 2.5
+  sugar: 92
+  sodium: 360
 ---
 
 ## Chef's Note

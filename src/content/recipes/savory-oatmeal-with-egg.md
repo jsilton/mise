@@ -50,6 +50,14 @@ ingredients:
   - 'Optional: shredded cheddar, crumbled bacon, hot sauce, sliced avocado'
   - '--- Lemon juice ---'
   - '1 Lemon, juiced'
+nutrition:
+  calories: 440
+  protein: 15
+  carbs: 35.5
+  fat: 27.5
+  fiber: 6
+  sugar: 2.5
+  sodium: 2710
 ---
 
 ## Chef's Note

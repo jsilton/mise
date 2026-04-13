@@ -40,17 +40,25 @@ seasons:
 nutritionalDensity: moderate
 leftovers: good
 equipment: []
+nutrition:
+  calories: 395
+  protein: 32
+  carbs: 35
+  fat: 15.5
+  fiber: 3.5
+  sugar: 25
+  sodium: 1180
 ---
 
 ## Chef's Note
 
-To keep lean meat meatloaf juicy, use a panade—breadcrumbs soaked in milk that creates a moisture reservoir inside the loaf. This recipe also incorporates substantial vegetables (carrots and zucchini) for bulk and nutrition. Squeeze grated zucchini until bone-dry before adding—wet zucchini produces mushy meatloaf that falls apart.
+To keep lean meat meatloaf juicy, use a panade - breadcrumbs soaked in milk that creates a moisture reservoir inside the loaf. This recipe also incorporates substantial vegetables (carrots and zucchini) for bulk and nutrition. Squeeze grated zucchini until bone-dry before adding - wet zucchini produces mushy meatloaf that falls apart.
 
 ## Directions
 
 1.  **The Panade:** In a small bowl, soak the breadcrumbs in the milk for 5 minutes until it forms a paste.
 2.  **The Veg:** Sauté the onion and bell pepper in a skillet for 5 minutes until soft. Let cool slightly.
-3.  **The Mix:** In a large bowl, combine the meat, the panade paste, the sautéed veg, grated carrots, squeezed zucchini, eggs, garlic powder, salt, and pepper. Use your hands to gently mix until just combined—**do not overwork the meat.**
+3.  **The Mix:** In a large bowl, combine the meat, the panade paste, the sautéed veg, grated carrots, squeezed zucchini, eggs, garlic powder, salt, and pepper. Use your hands to gently mix until just combined - **do not overwork the meat.**
 4.  **Shape:** Press the mixture into a greased 9x5 loaf pan or shape into a free-form loaf on a baking sheet.
 5.  **Bake:** Bake at 400°F for 35-40 minutes until the internal temp hits 160°F.
 6.  **Glaze:** Spread ketchup over the top and bake for another 5 minutes until bubbly and caramelized.

@@ -47,11 +47,19 @@ ingredients:
   - '4 cloves Garlic, minced'
   - '1 tsp Fresh Ginger, minced'
 origin: China
+nutrition:
+  calories: 320
+  protein: 41.5
+  carbs: 10.5
+  fat: 14
+  fiber: 0.5
+  sugar: 4.5
+  sodium: 1440
 ---
 
 ## Chef's Note
 
-Chicken and broccoli became a Chinese-American takeout staple in the mid-20th century. The secret to tender chicken is "velveting"—marinating sliced chicken in Shaoxing wine and cornstarch creates a protective coating that keeps the meat succulent over high heat. Steam the broccoli briefly with water first, then sear the chicken separately so each element has the right texture. The oyster sauce-based glaze should be glossy and coat everything evenly.
+Chicken and broccoli became a Chinese-American takeout staple in the mid-20th century. The secret to tender chicken is "velveting" - marinating sliced chicken in Shaoxing wine and cornstarch creates a protective coating that keeps the meat succulent over high heat. Steam the broccoli briefly with water first, then sear the chicken separately so each element has the right texture. The oyster sauce-based glaze should be glossy and coat everything evenly.
 
 ## Directions
 
@@ -63,4 +71,4 @@ Chicken and broccoli became a Chinese-American takeout staple in the mid-20th ce
 6.  **The Glaze:** Return broccoli to the pan. Whisk the sauce again (cornstarch settles!) and pour it in.
 7.  **Finish:** Toss vigorously for 1 minute until the sauce thickens into a glossy glaze. Serve immediately.
 
-**Rest:** Let lb Chicken rest for 5 minutes before slicing or serving — the juices redistribute and every piece stays moist.
+**Rest:** Let lb Chicken rest for 5 minutes before slicing or serving  -  the juices redistribute and every piece stays moist.

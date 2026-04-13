@@ -50,11 +50,19 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
+nutrition:
+  calories: 650
+  protein: 73.5
+  carbs: 17.5
+  fat: 34.5
+  fiber: 1
+  sugar: 13.5
+  sodium: 2320
 ---
 
 ## Chef's Note
 
-Korean fried chicken (KFC, the other one) is famous for its double-fry technique that creates impossibly crispy skin. We cheat with the baking powder method—same shatteringly crisp result, no deep fryer, no mess. The gochujang glaze is the star: fermented Korean chili paste brings fruity heat and deep umami, balanced by honey's sweetness and rice vinegar's bright acidity. Glaze the wings twice—once out of the oven to coat, then a quick broil to caramelize and lacquer them. The sesame oil goes in off-heat to preserve its nutty fragrance.
+Korean fried chicken (KFC, the other one) is famous for its double-fry technique that creates impossibly crispy skin. We cheat with the baking powder method - same shatteringly crisp result, no deep fryer, no mess. The gochujang glaze is the star: fermented Korean chili paste brings fruity heat and deep umami, balanced by honey's sweetness and rice vinegar's bright acidity. Glaze the wings twice - once out of the oven to coat, then a quick broil to caramelize and lacquer them. The sesame oil goes in off-heat to preserve its nutty fragrance.
 For kids, serve the heat on the side or reduce/omit the spicy elements.
 
 ## Directions

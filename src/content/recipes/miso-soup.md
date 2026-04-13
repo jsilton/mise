@@ -37,11 +37,19 @@ seasons:
 nutritionalDensity: light
 leftovers: good
 equipment: []
+nutrition:
+  calories: 35
+  protein: 3
+  carbs: 4
+  fat: 1.5
+  fiber: 1
+  sugar: 1.5
+  sodium: 10
 ---
 
 ## Chef's Note
 
-Miso soup is a miracle of **Emulsion and Timing**. The most common mistake is boiling the miso—high heat kills the delicate probiotics and ruins the aroma. Always whisk the miso with a little warm broth separately and add it only _after_ the pot has been removed from the heat. The foundation is **Dashi**: if you don't have time to make it from scratch, use "Hon-Dashi" granules for that essential oceanic umami.
+Miso soup is a miracle of **Emulsion and Timing**. The most common mistake is boiling the miso - high heat kills the delicate probiotics and ruins the aroma. Always whisk the miso with a little warm broth separately and add it only _after_ the pot has been removed from the heat. The foundation is **Dashi**: if you don't have time to make it from scratch, use "Hon-Dashi" granules for that essential oceanic umami.
 
 ## Directions
 

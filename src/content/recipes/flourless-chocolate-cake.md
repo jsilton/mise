@@ -52,11 +52,19 @@ pairsWith:
   - chewy-chocolate-meringues
   - chocolate-souffle
   - apple-cider-cream-pie
+nutrition:
+  calories: 560
+  protein: 7
+  carbs: 90
+  fat: 22.5
+  fiber: 7
+  sugar: 83
+  sodium: 280
 ---
 
 ## Chef's Note
 
-This is the classic flourless chocolate cake for Passover and gluten-free celebrations. The key to its texture is melting high-quality chocolate directly into hot cream off the heat to create a mirror-shiny glaze that provides a contrast to the dense, fudgy cake. We use espresso powder for complexity—it doesn't make the cake taste like coffee; instead, it amplifies the natural fruitiness of the cocoa.
+This is the classic flourless chocolate cake for Passover and gluten-free celebrations. The key to its texture is melting high-quality chocolate directly into hot cream off the heat to create a mirror-shiny glaze that provides a contrast to the dense, fudgy cake. We use espresso powder for complexity - it doesn't make the cake taste like coffee; instead, it amplifies the natural fruitiness of the cocoa.
 
 ## Directions
 

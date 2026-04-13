@@ -51,20 +51,28 @@ seasons:
 nutritionalDensity: moderate
 leftovers: good
 equipment: []
+nutrition:
+  calories: 80
+  protein: 2
+  carbs: 11.5
+  fat: 3
+  fiber: 2
+  sugar: 3
+  sodium: 350
 ---
 
 ## Chef's Note
 
-This Tex-Mex style chili uses sweet potatoes for natural sweetness and body—as they simmer, their starches help thicken the stew without needing a roux. Ground turkey and black beans keep it high in protein and lower in saturated fat than traditional beef chili. A splash of apple cider vinegar or lime juice at the end brightens the earthy spices.
+This Tex-Mex style chili uses sweet potatoes for natural sweetness and body - as they simmer, their starches help thicken the stew without needing a roux. Ground turkey and black beans keep it high in protein and lower in saturated fat than traditional beef chili. A splash of apple cider vinegar or lime juice at the end brightens the earthy spices.
 For kids, serve the heat on the side or reduce/omit the spicy elements.
 
 ## Directions
 
 1.  **Brown the Meat:** In a large pot or Dutch oven, heat oil over medium-high heat. Add the ground turkey and cook, breaking it up with a wooden spoon, until browned and cooked through.
-2.  **Sauté Aromatics:** Add the diced onion and sweet potato cubes. Cook for 5–7 minutes until the onions are translucent and the sweet potatoes start to soften at the edges.
+2.  **Sauté Aromatics:** Add the diced onion and sweet potato cubes. Cook for 5 - 7 minutes until the onions are translucent and the sweet potatoes start to soften at the edges.
 3.  **The Bloom:** Add the garlic, chili powder, cumin, and smoked paprika. Stir constantly for 1 minute until the spices are fragrant and coating the meat and veg. (This "blooming" step releases the oil-soluble flavors).
 4.  **The Simmer:** Pour in the crushed tomatoes, chicken broth, and Better Than Bouillon. Stir well, scraping the bottom of the pot to release any "fond."
 5.  **Beans:** Add the drained beans. Bring to a boil, then reduce heat to low.
-6.  **Low & Slow:** Cover and simmer for 30–40 minutes. The sweet potatoes should be very tender, and some should have started to "melt" into the sauce.
+6.  **Low & Slow:** Cover and simmer for 30 - 40 minutes. The sweet potatoes should be very tender, and some should have started to "melt" into the sauce.
 7.  **The Finish:** Stir in the apple cider vinegar (or lime juice). Taste and add salt or pepper as needed.
 8.  **Serve:** Ladle into bowls and let everyone customize with their favorite toppings.

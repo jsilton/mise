@@ -18,7 +18,7 @@ bestFor: [saturday, sunday]
 
 ## Meal Overview
 
-An elegant but effortless brunch — a fluffy frittata loaded with whatever vegetables and cheese you have on hand, alongside roasted sweet potatoes and a bright arugula salad. The frittata goes from stovetop to oven in one skillet.
+An elegant but effortless brunch  -  a fluffy frittata loaded with whatever vegetables and cheese you have on hand, alongside roasted sweet potatoes and a bright arugula salad. The frittata goes from stovetop to oven in one skillet.
 
 ## Cooking Strategy
 
@@ -30,6 +30,6 @@ An elegant but effortless brunch — a fluffy frittata loaded with whatever vege
 
 ## Notes
 
-- The frittata is infinitely customizable — use whatever's in the fridge
+- The frittata is infinitely customizable  -  use whatever's in the fridge
 - Let it set for 5 minutes before slicing for clean wedges
 - Great at room temperature too, making it perfect for a brunch spread

@@ -44,11 +44,19 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
+nutrition:
+  calories: 205
+  protein: 5
+  carbs: 15.5
+  fat: 14.5
+  fiber: 2.5
+  sugar: 1
+  sodium: 750
 ---
 
 ## Chef's Note
 
-This is the ultimate Tuesday night dinner: everything roasts on one pan, the broccoli steams while you wait, and store-bought rolls round it out. The key is getting the potatoes in the oven first—they need a head start to get crispy while the sausages just need to cook through and brown. Use good Italian sausage from the butcher counter (sweet for kids, hot for adults, or one of each). Halving the potatoes gives you more cut surface to crisp up. Piercing the sausages releases fat that bastes the potatoes.
+This is the ultimate Tuesday night dinner: everything roasts on one pan, the broccoli steams while you wait, and store-bought rolls round it out. The key is getting the potatoes in the oven first - they need a head start to get crispy while the sausages just need to cook through and brown. Use good Italian sausage from the butcher counter (sweet for kids, hot for adults, or one of each). Halving the potatoes gives you more cut surface to crisp up. Piercing the sausages releases fat that bastes the potatoes.
 
 ## Directions
 

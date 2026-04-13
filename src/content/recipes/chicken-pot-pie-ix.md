@@ -52,11 +52,19 @@ ingredients:
     2 (9-inch) unbaked pie crusts (Use the [Apple Pie](/mise/recipes/apple-pie)
     Vodka Hack dough!)
   - 1 large Egg (for wash)
+nutrition:
+  calories: 385
+  protein: 20
+  carbs: 18.5
+  fat: 27
+  fiber: 1.5
+  sugar: 4.5
+  sodium: 430
 ---
 
 ## Chef's Note
 
-Chicken pot pie is American comfort food by way of English savory pies — the filling is essentially a chicken velouté (roux + broth + cream) with vegetables, sealed under pastry. The 425°F oven is doing two jobs at once: crisping the crust and keeping the filling at a rolling bubble. If you have time, use the vodka pie dough from the apple pie recipe — it produces a flakier crust because the alcohol evaporates faster than water during baking, creating more air pockets. The 10-minute rest isn't optional: cut too early and the filling runs everywhere.
+Chicken pot pie is American comfort food by way of English savory pies  -  the filling is essentially a chicken velouté (roux + broth + cream) with vegetables, sealed under pastry. The 425°F oven is doing two jobs at once: crisping the crust and keeping the filling at a rolling bubble. If you have time, use the vodka pie dough from the apple pie recipe  -  it produces a flakier crust because the alcohol evaporates faster than water during baking, creating more air pockets. The 10-minute rest isn't optional: cut too early and the filling runs everywhere.
 ## Directions
 
 1.  **Prep:** Preheat oven to 425°F.

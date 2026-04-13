@@ -39,11 +39,19 @@ pairsWith:
   - beef-tenderloin-dogs-with-corn-relish
   - brownie-baked-oatmeal
   - chicken-apple-and-butternut-stew
+nutrition:
+  calories: 40
+  protein: 1
+  carbs: 12
+  fat: 0.5
+  fiber: 2.5
+  sugar: 4.5
+  sodium: 0
 ---
 
 ## Chef's Note
 
-This is the ultimate "In the Park" cocktail—refreshing, low-sugar, and aromatic. We use **Hendricks** for its botanical cucumber notes, which pair perfectly with the real-fruit acidity of Spindrift. The secret is the **Grapefruit Bitters**: it provides the "High Note" that bridges the gin and the juice.
+This is the ultimate "In the Park" cocktail - refreshing, low-sugar, and aromatic. We use **Hendricks** for its botanical cucumber notes, which pair perfectly with the real-fruit acidity of Spindrift. The secret is the **Grapefruit Bitters**: it provides the "High Note" that bridges the gin and the juice.
 
 ## Directions
 

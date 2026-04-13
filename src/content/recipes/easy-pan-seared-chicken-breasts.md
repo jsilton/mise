@@ -38,11 +38,19 @@ ingredients:
   - 1 tsp Onion Powder
   - 2 tsp Italian Seasoning
 origin: United States
+nutrition:
+  calories: 185
+  protein: 5
+  carbs: 25
+  fat: 7
+  fiber: 1
+  sugar: 0
+  sodium: 590
 ---
 
 ## Chef's Note
 
-This is the baseline for 15-minute quick cooking. The secret to avoiding dry, tough chicken is using thin-cut breasts or butterflying them yourself to ensure the meat cooks in exactly 8 minutes. Before dredging, pat the chicken with paper towels until it is bone-dry—this ensures the flour creates a shatteringly crisp crust on the surface rather than a gummy paste.
+This is the baseline for 15-minute quick cooking. The secret to avoiding dry, tough chicken is using thin-cut breasts or butterflying them yourself to ensure the meat cooks in exactly 8 minutes. Before dredging, pat the chicken with paper towels until it is bone-dry - this ensures the flour creates a shatteringly crisp crust on the surface rather than a gummy paste.
 
 ## Directions
 

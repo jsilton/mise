@@ -42,6 +42,14 @@ ingredients:
   - Angostura bitters for garnish (optional)
   - Maraschino cherry and orange slice (optional)
 origin: United States
+nutrition:
+  calories: 130
+  protein: 6.5
+  carbs: 32
+  fat: 1
+  fiber: 8
+  sugar: 17
+  sodium: 60
 ---
 
 ## Directions

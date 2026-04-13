@@ -44,6 +44,14 @@ ingredients:
   - 'Optional: shredded cheese, hot sauce, everything bagel seasoning'
   - '--- Lemon juice ---'
   - '1 Lemon, juiced'
+nutrition:
+  calories: 225
+  protein: 8
+  carbs: 11
+  fat: 17
+  fiber: 2
+  sugar: 1.5
+  sodium: 1450
 ---
 
 ## Chef's Note

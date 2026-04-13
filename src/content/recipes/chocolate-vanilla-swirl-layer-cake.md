@@ -44,11 +44,19 @@ pairsWith:
   - apple-pie
   - babys-first-smash-cake
   - best-cinnamon-roll-recipe-cinnabon-copycat
+nutrition:
+  calories: 355
+  protein: 5.5
+  carbs: 44.5
+  fat: 17.5
+  fiber: 0.5
+  sugar: 31.5
+  sodium: 370
 ---
 
 ## Chef's Note
 
-This cake creates striking visual swirls. The key to the interior pattern is alternating pours of white and chocolate batter directly into the center of the pan, which creates a precise bulls-eye that transforms into elegant swirls as it bakes. We use a mix of cake flour and all-purpose flour—the crumb is tender enough for a layer cake but sturdy enough to support the weight of the rich dark chocolate ganache.
+This cake creates striking visual swirls. The key to the interior pattern is alternating pours of white and chocolate batter directly into the center of the pan, which creates a precise bulls-eye that transforms into elegant swirls as it bakes. We use a mix of cake flour and all-purpose flour - the crumb is tender enough for a layer cake but sturdy enough to support the weight of the rich dark chocolate ganache.
 
 ## Directions
 

@@ -2,23 +2,39 @@
 title: Brownie Oatmeal
 difficulty: easy
 origin: United States
-cookingMethods: [bake, blend]
-dietary: [vegetarian]
-occasions: [comfort-food]
-flavorProfile: [sweet, acidic, rich]
-cuisines: [American]
+cookingMethods:
+  - bake
+  - blend
+dietary:
+  - vegetarian
+occasions:
+  - comfort-food
+flavorProfile:
+  - sweet
+  - acidic
+  - rich
+cuisines:
+  - American
 role: main
 vibe: nutritious
-seasons: [fall, winter]
+seasons:
+  - fall
+  - winter
 nutritionalDensity: moderate
 leftovers: good
-advancePrep: [make-ahead]
-equipment: [blender, ramekin]
+advancePrep:
+  - make-ahead
+equipment:
+  - blender
+  - ramekin
 prepTime: 5 min
 cookTime: 15 min
 totalTime: 20 min
 servings: '1'
-pairsWith: [cinnamon-sweet-potatoes, avocado-kale-caesar-salad, green-beans-with-shallots-and-lemon]
+pairsWith:
+  - cinnamon-sweet-potatoes
+  - avocado-kale-caesar-salad
+  - green-beans-with-shallots-and-lemon
 ingredients:
   - 1/3 cup Rolled Oats
   - '1/2 Banana, very ripe (spotted)'
@@ -29,6 +45,14 @@ ingredients:
   - Pinch of Sea Salt
   - 1 tbsp Dark Chocolate Chips
   - Flaky Sea Salt
+nutrition:
+  calories: 555
+  protein: 20
+  carbs: 93
+  fat: 14.5
+  fiber: 14
+  sugar: 21.5
+  sodium: 5990
 ---
 
 ## Chef's Note

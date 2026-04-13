@@ -43,6 +43,14 @@ ingredients:
   - 1/2 tsp Pure Vanilla Extract
   - Pinch of Sea Salt
 origin: United States
+nutrition:
+  calories: 175
+  protein: 6
+  carbs: 31.5
+  fat: 3.5
+  fiber: 4
+  sugar: 5.5
+  sodium: 280
 ---
 
 ## Chef's Note

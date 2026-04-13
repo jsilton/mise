@@ -17,7 +17,7 @@ bestFor: [monday, tuesday, wednesday, thursday]
 
 ## Meal Overview
 
-The American comfort food trifecta—crispy-skinned chicken, creamy mashed potatoes, and bright green broccoli. Buttermilk marinating makes the chicken incredibly tender while the baking method keeps things simple. A crowd-pleaser for all ages.
+The American comfort food trifecta - crispy-skinned chicken, creamy mashed potatoes, and bright green broccoli. Buttermilk marinating makes the chicken incredibly tender while the baking method keeps things simple. A crowd-pleaser for all ages.
 
 ## Cooking Strategy
 
@@ -30,6 +30,6 @@ The American comfort food trifecta—crispy-skinned chicken, creamy mashed potat
 
 ## Notes
 
-- The buttermilk tenderizes and adds tang—don't skip it
+- The buttermilk tenderizes and adds tang - don't skip it
 - Add garlic to the mashed potatoes for extra flavor
 - Save pan drippings for gravy if desired

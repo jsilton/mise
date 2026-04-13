@@ -22,8 +22,8 @@ Cantonese restaurant-style pan fried noodles: a crispy noodle cake topped with s
 
 ## The Menu
 
-- **Pan Fried Noodles with Shrimp** — crispy noodle cake with shrimp gravy
-- **Steamed Bok Choy with Oyster Sauce** — simple Chinese greens
+- **Pan Fried Noodles with Shrimp**  -  crispy noodle cake with shrimp gravy
+- **Steamed Bok Choy with Oyster Sauce**  -  simple Chinese greens
 
 ## Quick Timeline
 
@@ -39,5 +39,5 @@ Cantonese restaurant-style pan fried noodles: a crispy noodle cake topped with s
 ## Notes
 
 - Fresh Hong Kong egg noodles are in the refrigerated section of Asian markets
-- Don't skip the baking soda step—it makes shrimp crispy
+- Don't skip the baking soda step - it makes shrimp crispy
 - Serve immediately while the noodle edges are still crispy

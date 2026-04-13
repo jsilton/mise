@@ -40,11 +40,19 @@ seasons:
 nutritionalDensity: moderate
 leftovers: excellent
 equipment: []
+nutrition:
+  calories: 715
+  protein: 66.5
+  carbs: 49
+  fat: 33.5
+  fiber: 1.5
+  sugar: 0
+  sodium: 3000
 ---
 
 ## Chef's Note
 
-Using whole chicken legs instead of boneless chicken extracts collagen and fat during slow-cooking, creating a rich, gelatinous broth similar to restaurant ramen. Stirring miso paste in at the start infuses the meat, while whisking in an extra spoonful at the end maintains its fresh, funky flavor—prolonged heat destroys miso's probiotic qualities and mutes its taste. Adding bok choy only during the final 10 minutes keeps it tender-crisp.
+Using whole chicken legs instead of boneless chicken extracts collagen and fat during slow-cooking, creating a rich, gelatinous broth similar to restaurant ramen. Stirring miso paste in at the start infuses the meat, while whisking in an extra spoonful at the end maintains its fresh, funky flavor - prolonged heat destroys miso's probiotic qualities and mutes its taste. Adding bok choy only during the final 10 minutes keeps it tender-crisp.
 
 ## Directions
 

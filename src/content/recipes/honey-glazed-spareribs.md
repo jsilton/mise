@@ -44,6 +44,14 @@ ingredients:
   - 1/2 cup Honey
   - 1/4 cup reserved honey
 origin: China
+nutrition:
+  calories: 670
+  protein: 9
+  carbs: 171.5
+  fat: 0
+  fiber: 1
+  sugar: 148.5
+  sodium: 5040
 ---
 
 ## Chef's Note

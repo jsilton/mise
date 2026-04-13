@@ -45,11 +45,19 @@ equipment: []
 advancePrep:
   - marinate-overnight
   - freeze-ahead
+nutrition:
+  calories: 245
+  protein: 25.5
+  carbs: 7.5
+  fat: 13.5
+  fiber: 0.5
+  sugar: 4.5
+  sodium: 1030
 ---
 
 ## Chef's Note
 
-The secret to authentic Bulgogi is the **thickness of the cut**. It should be paper-thin. If you are not buying it pre-sliced from H-Mart, freeze your ribeye for 45 minutes before slicing—this allows you to get those translucent, restaurant-style strips. The grated pear contains an enzyme called calpain that breaks down the meat fibers, making it melt-in-your-mouth tender.
+The secret to authentic Bulgogi is the **thickness of the cut**. It should be paper-thin. If you are not buying it pre-sliced from H-Mart, freeze your ribeye for 45 minutes before slicing - this allows you to get those translucent, restaurant-style strips. The grated pear contains an enzyme called calpain that breaks down the meat fibers, making it melt-in-your-mouth tender.
 
 ## Directions
 

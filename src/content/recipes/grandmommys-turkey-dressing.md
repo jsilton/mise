@@ -40,11 +40,19 @@ seasons:
 nutritionalDensity: moderate
 leftovers: good
 equipment: []
+nutrition:
+  calories: 90
+  protein: 4
+  carbs: 14
+  fat: 2.5
+  fiber: 1
+  sugar: 2.5
+  sodium: 40
 ---
 
 ## Chef's Note
 
-This is the soul of Thanksgiving. The key to its texture is combining freshly baked cornbread with crumbled stale white bread. This mix of grain structures ensures the dressing has both texture and crunch rather than turning into a uniform mush. We use unsalted butter for a cleaner, holiday-worthy flavor. The golden rule is the broth addition: pour just until it reaches the top of the bread—any more and you'll lose the proper texture.
+This is the soul of Thanksgiving. The key to its texture is combining freshly baked cornbread with crumbled stale white bread. This mix of grain structures ensures the dressing has both texture and crunch rather than turning into a uniform mush. We use unsalted butter for a cleaner, holiday-worthy flavor. The golden rule is the broth addition: pour just until it reaches the top of the bread - any more and you'll lose the proper texture.
 
 ## Directions
 

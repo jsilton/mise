@@ -60,6 +60,14 @@ seasons:
 nutritionalDensity: moderate
 leftovers: good
 equipment: []
+nutrition:
+  calories: 550
+  protein: 43.5
+  carbs: 18
+  fat: 34.5
+  fiber: 2.5
+  sugar: 10
+  sodium: 780
 ---
 
 ## Chef's Note
@@ -69,9 +77,9 @@ This is the ultimate home version of the world's most popular curry. It strikes 
 ## Directions
 
 1.  **The Marinade:** In a large bowl, whisk together the yogurt, garlic, ginger, lemon juice, salt, Kashmiri chili, and Garam Masala. Add the chicken chunks and toss to coat. Cover and refrigerate for at least 4 hours, but ideally **overnight** for the most tender results.
-2.  **The Char (Broil):** Preheat your oven broiler to HIGH. Arrange the marinated chicken on a wire rack set over a foil-lined baking sheet. Broil for 10–12 minutes until you see charred, blackened spots. Do not flip. The chicken should be about 80% cooked; it will finish in the sauce.
-3.  **The Base:** Heat the butter and oil in a large pot over medium heat. Sauté the onions with a pinch of salt until they are a deep, golden brown (10–15 minutes). This "low and slow" onion cook is the foundation of the gravy's body.
-4.  **The Bloom:** Add the garlic, ginger, and tomato paste. Stir constantly for 2 minutes until the paste turns a dark brick-red. Reduce heat to low and add the coriander, cumin, turmeric, and paprika. Stir for 30 seconds until fragrant—do not let the spices burn.
+2.  **The Char (Broil):** Preheat your oven broiler to HIGH. Arrange the marinated chicken on a wire rack set over a foil-lined baking sheet. Broil for 10 - 12 minutes until you see charred, blackened spots. Do not flip. The chicken should be about 80% cooked; it will finish in the sauce.
+3.  **The Base:** Heat the butter and oil in a large pot over medium heat. Sauté the onions with a pinch of salt until they are a deep, golden brown (10 - 15 minutes). This "low and slow" onion cook is the foundation of the gravy's body.
+4.  **The Bloom:** Add the garlic, ginger, and tomato paste. Stir constantly for 2 minutes until the paste turns a dark brick-red. Reduce heat to low and add the coriander, cumin, turmeric, and paprika. Stir for 30 seconds until fragrant - do not let the spices burn.
 5.  **The Simmer:** Pour in the tomato passata and the white sugar. Simmer gently for 15 minutes. The sauce should thicken and darken slightly. For a professional, silky texture, you can blend the sauce now with an immersion blender, but it is not strictly necessary.
-6.  **The Finish:** Stir in the heavy cream and the broiled chicken (plus any juices from the tray). Simmer on low for 5–8 minutes to marry the flavors.
+6.  **The Finish:** Stir in the heavy cream and the broiled chicken (plus any juices from the tray). Simmer on low for 5 - 8 minutes to marry the flavors.
 7.  **The Magic:** Turn off the heat. Stir in the cold butter for a glossy finish. Crush the Kasuri Methi between your palms to release its oils and sprinkle it over the top along with the final teaspoon of Garam Masala.

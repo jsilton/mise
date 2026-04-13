@@ -72,11 +72,19 @@ ingredients:
   - Sliced Radishes
   - Crumbled Cotija Cheese
   - Diced White Onion
+nutrition:
+  calories: 530
+  protein: 59
+  carbs: 7.5
+  fat: 30
+  fiber: 1.5
+  sugar: 2
+  sodium: 1330
 ---
 
 ## Chef's Note
 
-Chili verde is the lighter cousin of chili rojo — it's built on tomatillos, poblanos, and jalapeños instead of dried chilies and tomatoes, which means it stays bright and fresh even after hours of simmering. The chicken thighs stay tender through the long cook and actually improve in flavor as they braize in the sauce. This recipe makes a huge batch on purpose: it freezes beautifully for up to 3 months, and one pot feeds the family for multiple meals. The lime and cilantro are added at the end for freshness — if cooked too long, they taste metallic and bitter. A tablespoon of cumin and coriander adds earthiness that makes you feel like you've simmered this for 8 hours when you actually only used 45 minutes.
+Chili verde is the lighter cousin of chili rojo  -  it's built on tomatillos, poblanos, and jalapeños instead of dried chilies and tomatoes, which means it stays bright and fresh even after hours of simmering. The chicken thighs stay tender through the long cook and actually improve in flavor as they braize in the sauce. This recipe makes a huge batch on purpose: it freezes beautifully for up to 3 months, and one pot feeds the family for multiple meals. The lime and cilantro are added at the end for freshness  -  if cooked too long, they taste metallic and bitter. A tablespoon of cumin and coriander adds earthiness that makes you feel like you've simmered this for 8 hours when you actually only used 45 minutes.
 
 ## Directions
 
@@ -88,13 +96,13 @@ Chili verde is the lighter cousin of chili rojo — it's built on tomatillos, po
 
 4. **Brown the Chicken (Optional but recommended):** Pat the chicken chunks dry and season with 1 tbsp salt. In batches, sear the chicken in the pot over medium-high heat (don't overcrowd) until light brown on 2 sides, about 3-4 minutes total. This step adds flavor but can be skipped if short on time. Return all chicken to the pot.
 
-5. **Bloom the Spices:** Add ground cumin, coriander, and cayenne to the pot. Stir for 30 seconds until fragrant — you're waking up the spices' essential oils.
+5. **Bloom the Spices:** Add ground cumin, coriander, and cayenne to the pot. Stir for 30 seconds until fragrant  -  you're waking up the spices' essential oils.
 
 6. **Make the Tomatillo Base:** Add the charred tomatillos (from the skillet) and the roasted poblanos and jalapeños to a blender with 1 cup of the chicken stock. Blend until smooth. Pour this mixture into the pot with the chicken.
 
 7. **Braise:** Add the remaining 3 cups of chicken stock and the white beans. Stir well. Bring to a simmer over medium heat. Reduce heat to medium-low and simmer gently, uncovered, for 30-40 minutes. The chicken should be fully cooked and the sauce should smell incredibly fragrant. You want the chicken to be so tender it falls apart.
 
-8. **Finish:** Remove from heat. Taste the chili and season with salt (you'll likely need 1-2 additional teaspoons). Stir in the lime juice (this is essential—it brightens everything instantly). Fold in fresh cilantro just before serving.
+8. **Finish:** Remove from heat. Taste the chili and season with salt (you'll likely need 1-2 additional teaspoons). Stir in the lime juice (this is essential - it brightens everything instantly). Fold in fresh cilantro just before serving.
 
 9. **Serve:** Ladle into bowls and top with cilantro crema, crispy fried onions or tortilla strips, sliced radishes, cotija cheese, and diced white onion. Serve alongside cornbread, cilantro-lime rice, or simply with warm flour tortillas.
 

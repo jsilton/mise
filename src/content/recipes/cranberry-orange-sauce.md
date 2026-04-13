@@ -39,6 +39,14 @@ seasons:
 nutritionalDensity: moderate
 leftovers: good
 equipment: []
+nutrition:
+  calories: 60
+  protein: 1
+  carbs: 15.5
+  fat: 0.5
+  fiber: 3
+  sugar: 12
+  sodium: 0
 ---
 
 ## Chef's Note
@@ -49,6 +57,6 @@ This tangy sauce balances the richness of Thanksgiving turkey and creamy sides. 
 
 1.  **Dissolve:** In a medium saucepan, combine the water, orange juice, orange zest, and sugar. Cook over medium heat until the sugar is completely dissolved.
 2.  **Pop:** Stir in the fresh cranberries. Bring to a boil.
-3.  **Simmer:** Reduce heat to low and simmer for 10-15 minutes. You will hear the cranberries "pop"—this is the pectin releasing to thicken the sauce.
+3.  **Simmer:** Reduce heat to low and simmer for 10-15 minutes. You will hear the cranberries "pop" - this is the pectin releasing to thicken the sauce.
 4.  **Cool:** Remove from heat. The sauce will continue to thicken significantly as it cools.
 5.  **Serve:** Serve at room temperature or chilled.

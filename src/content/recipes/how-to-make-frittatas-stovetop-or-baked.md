@@ -2,22 +2,37 @@
 title: Frittata
 origin: Italy
 difficulty: intermediate
-cookingMethods: [bake, sauté, blend]
-dietary: [vegetarian]
-occasions: [weeknight, quick-lunch, entertaining, potluck]
-flavorProfile: [rich, herbaceous]
-cuisines: [Italian]
+cookingMethods:
+  - bake
+  - sauté
+  - blend
+dietary:
+  - vegetarian
+occasions:
+  - weeknight
+  - quick-lunch
+  - entertaining
+  - potluck
+flavorProfile:
+  - rich
+  - herbaceous
+cuisines:
+  - Italian
 role: main
 vibe: quick
 prepTime: 10 min
 cookTime: 15 min
 totalTime: 25 min
 servings: '6'
-seasons: [year-round]
+seasons:
+  - year-round
 nutritionalDensity: moderate
 leftovers: excellent
-equipment: [cast-iron-skillet]
-pairsWith: [everyday-arugula-salad, garlic-bread]
+equipment:
+  - cast-iron-skillet
+pairsWith:
+  - everyday-arugula-salad
+  - garlic-bread
 ingredients:
   - 12 large Eggs
   - 3 tbsp Heavy Cream or Crème Fraîche (for richness)
@@ -26,11 +41,19 @@ ingredients:
   - 1 tbsp Extra-Virgin Olive Oil
   - 1/2 tsp Sea Salt
   - 'Fresh Herbs (Basil, Chives, or Cilantro)'
+nutrition:
+  calories: 190
+  protein: 12.5
+  carbs: 2
+  fat: 15
+  fiber: 0.5
+  sugar: 1
+  sodium: 540
 ---
 
 ## Chef's Note
 
-Frittatas are Italian open-faced omelets perfect for using up vegetables and leftover ingredients—a thrifty tradition that dates back centuries. The ratio matters: 12 eggs to 3 tablespoons of cream creates a custardy texture that stays tender, not rubbery. Start on the stovetop to set the edges, then finish in a 425°F oven for a puffed, golden top with a slightly jiggly center.
+Frittatas are Italian open-faced omelets perfect for using up vegetables and leftover ingredients - a thrifty tradition that dates back centuries. The ratio matters: 12 eggs to 3 tablespoons of cream creates a custardy texture that stays tender, not rubbery. Start on the stovetop to set the edges, then finish in a 425°F oven for a puffed, golden top with a slightly jiggly center.
 
 ## Directions
 

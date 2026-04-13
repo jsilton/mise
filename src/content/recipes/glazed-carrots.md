@@ -40,6 +40,14 @@ ingredients:
   - 1/8 tsp White Pepper (The Finishing Touch)
   - '1 tsp Fresh Thyme, chopped'
 origin: United States
+nutrition:
+  calories: 310
+  protein: 0.5
+  carbs: 29.5
+  fat: 23
+  fiber: 0.5
+  sugar: 28
+  sodium: 480
 ---
 
 ## Chef's Note

@@ -53,6 +53,14 @@ ingredients:
   - 1/4 cup Granulated sugar
   - 1/2 tsp Ground cinnamon
 origin: United States
+nutrition:
+  calories: 675
+  protein: 6
+  carbs: 123.5
+  fat: 20
+  fiber: 1.5
+  sugar: 108.5
+  sodium: 690
 ---
 
 ## Chef's Note

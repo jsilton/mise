@@ -41,6 +41,14 @@ ingredients:
   - 1 tbsp Olive Oil (optional)
   - Flaky Salt (optional)
 origin: Greece
+nutrition:
+  calories: 50
+  protein: 0.5
+  carbs: 4
+  fat: 3.5
+  fiber: 0.5
+  sugar: 0
+  sodium: 620
 ---
 
 ## Chef's Note

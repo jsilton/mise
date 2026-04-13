@@ -2,47 +2,81 @@
 title: Aloo Gobi (Potato Cauliflower Curry)
 origin: India
 difficulty: easy
-cookingMethods: [sauté, simmer]
-dietary: [vegetarian, vegan, gluten-free, dairy-free, nut-free]
-occasions: [weeknight, meal-prep, comfort-food]
-flavorProfile: [savory, spicy, umami, aromatic]
-cuisines: [Indian]
+cookingMethods:
+  - sauté
+  - simmer
+dietary:
+  - vegetarian
+  - vegan
+  - gluten-free
+  - dairy-free
+  - nut-free
+occasions:
+  - weeknight
+  - meal-prep
+  - comfort-food
+flavorProfile:
+  - savory
+  - spicy
+  - umami
+  - aromatic
+cuisines:
+  - Indian
 role: main
 vibe: comfort
-seasons: [fall, winter, spring]
+seasons:
+  - fall
+  - winter
+  - spring
 nutritionalDensity: moderate
 leftovers: excellent
-advancePrep: [make-ahead]
-equipment: [large-skillet, cutting-board]
+advancePrep:
+  - make-ahead
+equipment:
+  - large-skillet
+  - cutting-board
 prepTime: 10 min
 cookTime: 25 min
 totalTime: 35 min
 servings: '4'
-pairsWith: [basmati-rice, homemade-naan, dal-tadka]
+pairsWith:
+  - basmati-rice
+  - homemade-naan
+  - dal-tadka
 ingredients:
   - '1.5 lbs Medium Waxy Potatoes (Yukon Gold), cut into 3/4-inch cubes'
   - '1 Medium Head Cauliflower, cut into 1-inch florets'
-  - '3 tbsp Vegetable Oil'
-  - '1 tsp Cumin Seeds'
-  - '1 tsp Coriander Seeds'
+  - 3 tbsp Vegetable Oil
+  - 1 tsp Cumin Seeds
+  - 1 tsp Coriander Seeds
   - '4 cloves Garlic, minced'
   - '1 tbsp Ginger, minced'
-  - '2 Green Serrano Chiles, slit lengthwise (or 1/2 tsp red chili powder for less heat)'
+  - >-
+    2 Green Serrano Chiles, slit lengthwise (or 1/2 tsp red chili powder for
+    less heat)
   - '1/2 Medium Onion, diced'
-  - '1 tsp Turmeric'
-  - '1 tsp Coriander Powder'
-  - '1/2 tsp Garam Masala'
+  - 1 tsp Turmeric
+  - 1 tsp Coriander Powder
+  - 1/2 tsp Garam Masala
   - '1/4 tsp Cayenne (optional, for heat)'
-  - '1/2 tsp Kosher Salt'
+  - 1/2 tsp Kosher Salt
   - '1 medium Tomato, diced'
-  - '1/2 cup Water'
+  - 1/2 cup Water
   - '2 tbsp Fresh Cilantro, chopped'
-  - '1 tbsp Lemon Juice'
+  - 1 tbsp Lemon Juice
+nutrition:
+  calories: 150
+  protein: 2
+  carbs: 14
+  fat: 11
+  fiber: 3
+  sugar: 3
+  sodium: 600
 ---
 
 ## Chef's Note
 
-Aloo gobi is one of the most satisfying vegetarian curries in the Indian kitchen—a dry-style curry with potatoes and cauliflower cooked until they're crispy at the edges and tender inside, then coated in warm spices. The curry is built by blooming whole spices in hot oil (the tempering, or tadka), then toasting ground spices before adding vegetables. Indian home cooks make this on weeknights because it's one-pot, uses pantry staples, and gets better as it sits. The cauliflower breaks down slightly and coats everything in a creamy consistency—not a sauce, but more like a thick, spiced coating. The key is patience: don't rush the cooking or add too much liquid.
+Aloo gobi is one of the most satisfying vegetarian curries in the Indian kitchen - a dry-style curry with potatoes and cauliflower cooked until they're crispy at the edges and tender inside, then coated in warm spices. The curry is built by blooming whole spices in hot oil (the tempering, or tadka), then toasting ground spices before adding vegetables. Indian home cooks make this on weeknights because it's one-pot, uses pantry staples, and gets better as it sits. The cauliflower breaks down slightly and coats everything in a creamy consistency - not a sauce, but more like a thick, spiced coating. The key is patience: don't rush the cooking or add too much liquid.
 
 ## Directions
 
@@ -52,7 +86,7 @@ Aloo gobi is one of the most satisfying vegetarian curries in the Indian kitchen
 
 3. **Build the Aromatics:** Add the minced garlic, minced ginger, and green chiles. Stir for 30 seconds until golden and fragrant. Add the diced onion and cook for 2-3 minutes until softened.
 
-4. **Toast the Ground Spices:** Add the turmeric, coriander powder, and garam masala to the hot pan. Stir constantly for 30 seconds—this blooming step releases the oils and depth from the spices. If the spices stick or start to scorch, add a tablespoon of water to cool the pan slightly.
+4. **Toast the Ground Spices:** Add the turmeric, coriander powder, and garam masala to the hot pan. Stir constantly for 30 seconds - this blooming step releases the oils and depth from the spices. If the spices stick or start to scorch, add a tablespoon of water to cool the pan slightly.
 
 5. **Add the Tomato:** Add the diced tomato and cook for 2-3 minutes until it breaks down and releases its liquid. This creates a light sauce base.
 
@@ -64,13 +98,13 @@ Aloo gobi is one of the most satisfying vegetarian curries in the Indian kitchen
 
 9. **Cook Together:** Simmer for 8-10 minutes, stirring occasionally, until the cauliflower is tender and the potatoes are completely soft. The liquid should mostly evaporate, leaving a thick, spiced coating on the vegetables. Some of the cauliflower will start to break down and create a creamy texture.
 
-10. **Finish:** Taste and adjust salt and heat (add cayenne if you want more spice). Squeeze in the lemon juice—the acid brightens everything and lifts the flavors. Garnish with fresh cilantro.
+10. **Finish:** Taste and adjust salt and heat (add cayenne if you want more spice). Squeeze in the lemon juice - the acid brightens everything and lifts the flavors. Garnish with fresh cilantro.
 
-11. **Serve:** Serve hot over basmati rice or with warm naan for scooping. Aloo gobi is substantial and filling—a little goes a long way.
+11. **Serve:** Serve hot over basmati rice or with warm naan for scooping. Aloo gobi is substantial and filling - a little goes a long way.
 
 **Potato Type:** Use waxy potatoes like Yukon Gold. Russets are too starchy and will break down too much.
 
-**Cauliflower Breakdown:** Some breakdown is desired—it creates a light, creamy texture without any dairy. Don't panic if some florets get a bit mushy.
+**Cauliflower Breakdown:** Some breakdown is desired - it creates a light, creamy texture without any dairy. Don't panic if some florets get a bit mushy.
 
 **Vegetable Ratio:** The traditional ratio is equal parts potatoes and cauliflower by weight. You can adjust to your preference.
 

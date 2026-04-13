@@ -39,6 +39,14 @@ ingredients:
   - Almond Butter
   - '[Granola](/mise/recipes/granola)'
 origin: United States
+nutrition:
+  calories: 165
+  protein: 0
+  carbs: 14
+  fat: 11.5
+  fiber: 0
+  sugar: 13
+  sodium: 90
 ---
 
 ## Chef's Note

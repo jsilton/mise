@@ -41,6 +41,14 @@ pairsWith:
   - apple-cider-cream-pie
   - apple-pie
   - babys-first-smash-cake
+nutrition:
+  calories: 805
+  protein: 21.5
+  carbs: 102
+  fat: 38
+  fiber: 1.5
+  sugar: 71.5
+  sodium: 650
 ---
 
 ## Chef's Note

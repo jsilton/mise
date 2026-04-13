@@ -2,23 +2,39 @@
 title: Peking Ravioli
 origin: China
 difficulty: intermediate
-cookingMethods: [fry, boil, steam]
+cookingMethods:
+  - fry
+  - boil
+  - steam
 dietary: []
-occasions: [weekend-project, entertaining, comfort-food]
-flavorProfile: [spicy, sweet, savory, acidic, umami]
-cuisines: [Chinese]
+occasions:
+  - weekend-project
+  - entertaining
+  - comfort-food
+flavorProfile:
+  - spicy
+  - sweet
+  - savory
+  - acidic
+  - umami
+cuisines:
+  - Chinese
 role: main
 vibe: technical
 prepTime: 60 min
 cookTime: 20 min
 totalTime: 80 min
 servings: '6'
-seasons: [year-round]
+seasons:
+  - year-round
 nutritionalDensity: hearty
 leftovers: excellent
-advancePrep: [make-ahead, freeze-ahead]
+advancePrep:
+  - make-ahead
+  - freeze-ahead
 equipment: []
-pairsWith: [smashed-cucumber-salad]
+pairsWith:
+  - smashed-cucumber-salad
 ingredients:
   - 1 lb Ground Pork (not too lean)
   - '2 cups Napa Cabbage, finely minced and squeezed dry'
@@ -37,11 +53,19 @@ ingredients:
   - 1 tbsp Brown Sugar or Molasses
   - '1 tbsp Ginger, finely grated'
   - 1 tsp Chili Crisp (optional)
+nutrition:
+  calories: 1185
+  protein: 9.5
+  carbs: 42
+  fat: 111
+  fiber: 2
+  sugar: 4.5
+  sodium: 3280
 ---
 
 ## Chef's Note
 
-Peking ravioli (also called potstickers) were popularized in Boston by Joyce Chen's restaurant in the 1950s-60s. The Boston style is distinctive for its thick, chewy wrapper—more like pasta than delicate dim sum. The secret is using boiling water to make the dough, which partially cooks the flour and creates a chewier texture that stays soft even after frying. The bottom should be fried until deeply golden and crispy. A ginger-forward dipping sauce with black vinegar and a touch of sweetness is traditional.
+Peking ravioli (also called potstickers) were popularized in Boston by Joyce Chen's restaurant in the 1950s-60s. The Boston style is distinctive for its thick, chewy wrapper - more like pasta than delicate dim sum. The secret is using boiling water to make the dough, which partially cooks the flour and creates a chewier texture that stays soft even after frying. The bottom should be fried until deeply golden and crispy. A ginger-forward dipping sauce with black vinegar and a touch of sweetness is traditional.
 
 ## Directions
 

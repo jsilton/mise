@@ -2,36 +2,64 @@
 title: Elote-Style Corn on the Cob
 origin: Mexico
 difficulty: easy
-cookingMethods: [grill, broil]
-dietary: [vegetarian, gluten-free]
-occasions: [weeknight, entertaining, summer]
-flavorProfile: [creamy, savory, spicy, tangy]
-cuisines: [Mexican]
+cookingMethods:
+  - grill
+  - broil
+dietary:
+  - vegetarian
+  - gluten-free
+occasions:
+  - weeknight
+  - entertaining
+  - summer
+flavorProfile:
+  - creamy
+  - savory
+  - spicy
+  - tangy
+cuisines:
+  - Mexican
 role: side
 vibe: comfort
-seasons: [summer, spring, fall]
+seasons:
+  - summer
+  - spring
+  - fall
 nutritionalDensity: moderate
 leftovers: poor
 advancePrep: []
-equipment: [grill, broiler]
+equipment:
+  - grill
+  - broiler
 prepTime: 10 min
 cookTime: 10 min
 totalTime: 20 min
 servings: '4'
-pairsWith: [chicken-tinga, black-bean-tacos-with-lime-crema, weeknight-tacos]
+pairsWith:
+  - chicken-tinga
+  - black-bean-tacos-with-lime-crema
+  - weeknight-tacos
 ingredients:
-  - '4 ears Fresh Corn on the cob'
-  - '3 tbsp Mexican Crema (or sour cream thinned with 1 tbsp milk)'
+  - 4 ears Fresh Corn on the cob
+  - 3 tbsp Mexican Crema (or sour cream thinned with 1 tbsp milk)
   - '1/2 cup Queso Fresco, crumbled'
   - '2 tbsp Fresh Cilantro, chopped'
   - '1 Lime, cut into wedges'
-  - '1/2 tsp Chili Powder (or Tajín seasoning)'
-  - 'Kosher Salt and Black Pepper'
+  - 1/2 tsp Chili Powder (or Tajín seasoning)
+  - Kosher Salt and Black Pepper
+nutrition:
+  calories: 40
+  protein: 1.5
+  carbs: 9.5
+  fat: 0.5
+  fiber: 2
+  sugar: 2
+  sodium: 30
 ---
 
 ## Chef's Note
 
-Elote (Mexican street corn) is simplicity perfected: charred corn, creamy sauce, crumbly cheese, and bright cilantro. The magic happens when you char the corn first to caramelize the kernels—this takes just 8-10 minutes under the broiler or on a hot grill. Don't skip the crema base; it acts as a glue so the cheese and cilantro stick instead of sliding off. Queso fresco is essential—substituting Parmesan changes the entire dish.
+Elote (Mexican street corn) is simplicity perfected: charred corn, creamy sauce, crumbly cheese, and bright cilantro. The magic happens when you char the corn first to caramelize the kernels - this takes just 8-10 minutes under the broiler or on a hot grill. Don't skip the crema base; it acts as a glue so the cheese and cilantro stick instead of sliding off. Queso fresco is essential - substituting Parmesan changes the entire dish.
 
 ## Directions
 

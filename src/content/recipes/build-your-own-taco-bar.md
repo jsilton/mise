@@ -63,11 +63,19 @@ ingredients:
   - 1 cup Salsa (store-bought or fresh)
   - Hot Sauce (your family''s preference)
   - Cotija Cheese or Queso Fresco (crumbled)
+nutrition:
+  calories: 135
+  protein: 4.5
+  carbs: 9.5
+  fat: 10
+  fiber: 1.5
+  sugar: 2.5
+  sodium: 170
 ---
 
 ## Chef's Note
 
-A taco bar teaches kids that dinner is a conversation, not a lecture. Every family member builds exactly what they want, which means no complaints, no waste, and everyone invested in the meal. The secret to a successful bar is having proteins that are completely cooked and ready — either carnitas that can be warmed gently in a dry skillet, or grilled chicken that's seasoned correctly (you can't fix bland chicken by adding sauce at the table). Set everything in bowls, let people assemble, and taste together.
+A taco bar teaches kids that dinner is a conversation, not a lecture. Every family member builds exactly what they want, which means no complaints, no waste, and everyone invested in the meal. The secret to a successful bar is having proteins that are completely cooked and ready  -  either carnitas that can be warmed gently in a dry skillet, or grilled chicken that's seasoned correctly (you can't fix bland chicken by adding sauce at the table). Set everything in bowls, let people assemble, and taste together.
 
 ## Directions
 
@@ -81,11 +89,11 @@ A taco bar teaches kids that dinner is a conversation, not a lecture. Every fami
 
 5. **Assemble:** Lay a tortilla flat on a plate. Add one protein, then build with fixings (a small amount of each goes a long way). Top with sauce, a drizzle of crema, and cheese. Fold or wrap and eat immediately.
 
-6. **The Finish:** Fresh lime squeezed over everything at the end is essential — acidity makes every bite taste brighter and keeps the flavors from becoming one-note.
+6. **The Finish:** Fresh lime squeezed over everything at the end is essential  -  acidity makes every bite taste brighter and keeps the flavors from becoming one-note.
 
 ### Pro Tips for Families
 
 - Set up the bar in stages: proteins and shells first, sauces and fixings last (prevents soggy tortillas)
 - Pre-assemble one taco as a visual guide so young kids know the ratio
 - Offer heat on the side (jalapeños, hot sauce) so kids can opt in rather than being overwhelmed
-- Leftover proteins work for tacos all week — carnitas are especially good reheated and crisped
+- Leftover proteins work for tacos all week  -  carnitas are especially good reheated and crisped

@@ -2,32 +2,58 @@
 title: Roasted Broccolini with Lemon
 origin: Italy
 difficulty: easy
-cookingMethods: [roast]
-dietary: [vegetarian, vegan, gluten-free, dairy-free]
-occasions: [weeknight, light-and-fresh, entertaining]
-flavorProfile: [savory, acidic, herbaceous]
-cuisines: [Italian, Mediterranean]
+cookingMethods:
+  - roast
+dietary:
+  - vegetarian
+  - vegan
+  - gluten-free
+  - dairy-free
+occasions:
+  - weeknight
+  - light-and-fresh
+  - entertaining
+flavorProfile:
+  - savory
+  - acidic
+  - herbaceous
+cuisines:
+  - Italian
+  - Mediterranean
 role: side
 vibe: quick
 prepTime: 5 min
 cookTime: 15 min
 totalTime: 20 min
 servings: '4'
-seasons: [year-round]
+seasons:
+  - year-round
 nutritionalDensity: light
 leftovers: good
 advancePrep: []
-equipment: [baking-sheet]
+equipment:
+  - baking-sheet
 pairsWith:
-  [shrimp-fettuccine-alfredo, chicken-marsala, baked-chicken-parmesan, miso-salmon-with-bok-choy]
+  - shrimp-fettuccine-alfredo
+  - chicken-marsala
+  - baked-chicken-parmesan
+  - miso-salmon-with-bok-choy
 ingredients:
   - '2 bunches Broccolini (about 12 oz), trimmed'
-  - '3 tbsp Extra-Virgin Olive Oil'
+  - 3 tbsp Extra-Virgin Olive Oil
   - '3 cloves Garlic, thinly sliced'
-  - '1/2 tsp Red Pepper Flakes'
+  - 1/2 tsp Red Pepper Flakes
   - '1 Lemon, half juiced and half cut into thin rounds'
-  - 'Kosher Salt and Black Pepper'
-  - 'Flaky Sea Salt for finishing'
+  - Kosher Salt and Black Pepper
+  - Flaky Sea Salt for finishing
+nutrition:
+  calories: 110
+  protein: 1.5
+  carbs: 5
+  fat: 10.5
+  fiber: 1.5
+  sugar: 1
+  sodium: 610
 ---
 
 ## Chef's Note

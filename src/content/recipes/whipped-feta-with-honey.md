@@ -53,15 +53,23 @@ ingredients:
   - 'Warm Pita Bread, cut into triangles'
   - Cucumber spears and bell pepper strips for dipping
 origin: Mediterranean
+nutrition:
+  calories: 400
+  protein: 6
+  carbs: 11.5
+  fat: 38
+  fiber: 1
+  sugar: 6.5
+  sodium: 690
 ---
 
 ## Chef's Note
 
-This Mediterranean dip transforms crumbly feta into a silky, whipped spread by emulsifying it with cream cheese and a generous pour of olive oil. The key is processing for a full 3-4 minutes until completely smooth—any graininess means you stopped too early. Greek feta (made with sheep's milk) whips creamier than French or Bulgarian varieties. Smoked paprika provides gentle warmth with a hint of smoke, while toasted pistachios add the crunch that takes this from "nice dip" to "where's the recipe?" territory. Make this ahead; it improves after a few hours in the fridge as the garlic mellows and flavors meld.
+This Mediterranean dip transforms crumbly feta into a silky, whipped spread by emulsifying it with cream cheese and a generous pour of olive oil. The key is processing for a full 3-4 minutes until completely smooth - any graininess means you stopped too early. Greek feta (made with sheep's milk) whips creamier than French or Bulgarian varieties. Smoked paprika provides gentle warmth with a hint of smoke, while toasted pistachios add the crunch that takes this from "nice dip" to "where's the recipe?" territory. Make this ahead; it improves after a few hours in the fridge as the garlic mellows and flavors meld.
 
 ## Directions
 
-1. **The Whip:** Combine feta, cream cheese, olive oil, garlic, lemon juice, and lemon zest in a food processor. Blend for **3-4 minutes**, scraping down sides twice, until completely smooth and silky—no graininess should remain.
+1. **The Whip:** Combine feta, cream cheese, olive oil, garlic, lemon juice, and lemon zest in a food processor. Blend for **3-4 minutes**, scraping down sides twice, until completely smooth and silky - no graininess should remain.
 
 2. **The Spread:** Transfer to a shallow serving bowl or plate. Use the back of a spoon to create swirls and valleys that will catch the honey and oil.
 

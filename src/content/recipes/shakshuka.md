@@ -52,6 +52,14 @@ ingredients:
   - '1/4 cup Fresh Cilantro or Parsley, chopped'
   - 2 tbsp Crumbled Feta (optional)
   - Crusty bread for serving
+nutrition:
+  calories: 215
+  protein: 10.5
+  carbs: 10.5
+  fat: 15
+  fiber: 1.5
+  sugar: 4
+  sodium: 730
 ---
 
 ## Chef's Note

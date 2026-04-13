@@ -47,11 +47,19 @@ seasons:
 nutritionalDensity: moderate
 leftovers: good
 equipment: []
+nutrition:
+  calories: 375
+  protein: 5.5
+  carbs: 12.5
+  fat: 33.5
+  fiber: 1.5
+  sugar: 3.5
+  sodium: 100
 ---
 
 ## Chef's Note
 
-Gratin dauphinois meets Thanksgiving sweet potatoes — alternating layers of sweet and white potatoes create a dish with more complexity than either alone. The mandoline is non-negotiable: 1/8-inch slices cook evenly and create those paper-thin layers that meld into cream. Thicker cuts leave you with raw centers and burnt edges. The cream infusion (warming it with garlic and spices before pouring) ensures flavor penetrates every layer instead of just sitting on top. Start covered at high heat to cook the potatoes through, then uncover to build the golden crust.
+Gratin dauphinois meets Thanksgiving sweet potatoes  -  alternating layers of sweet and white potatoes create a dish with more complexity than either alone. The mandoline is non-negotiable: 1/8-inch slices cook evenly and create those paper-thin layers that meld into cream. Thicker cuts leave you with raw centers and burnt edges. The cream infusion (warming it with garlic and spices before pouring) ensures flavor penetrates every layer instead of just sitting on top. Start covered at high heat to cook the potatoes through, then uncover to build the golden crust.
 ## Directions
 
 1.  **Infuse:** In a medium pot, whisk together the cream, salt, pepper, garlic, and spices. Warm over low heat (do not boil) just to marry the flavors.

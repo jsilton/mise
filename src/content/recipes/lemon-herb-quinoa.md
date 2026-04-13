@@ -2,39 +2,64 @@
 title: Lemon Herb Quinoa
 origin: American
 difficulty: easy
-cookingMethods: [boil, simmer]
-dietary: [vegetarian, vegan, gluten-free]
-occasions: [weeknight, meal-prep, light-and-fresh]
-flavorProfile: [acidic, herbaceous, fresh, savory]
-cuisines: [American, Mediterranean]
+cookingMethods:
+  - boil
+  - simmer
+dietary:
+  - vegetarian
+  - vegan
+  - gluten-free
+occasions:
+  - weeknight
+  - meal-prep
+  - light-and-fresh
+flavorProfile:
+  - acidic
+  - herbaceous
+  - fresh
+  - savory
+cuisines:
+  - American
+  - Mediterranean
 role: base
 vibe: nutritious
-seasons: [spring, summer, year-round]
+seasons:
+  - spring
+  - summer
+  - year-round
 nutritionalDensity: moderate
 leftovers: excellent
-advancePrep: [quinoa-up-to-4-days, meal-prep-friendly]
+advancePrep:
+  - quinoa-up-to-4-days
+  - meal-prep-friendly
 equipment: []
 prepTime: 5 min
 cookTime: 20 min
 totalTime: 25 min
 servings: '4'
 pairsWith:
-  [
-    mediterranean-chicken-bowls,
-    grilled-chicken-with-herbed-corn-salsa,
-    seared-salmon-with-summer-vegetables,
-  ]
+  - mediterranean-chicken-bowls
+  - grilled-chicken-with-herbed-corn-salsa
+  - seared-salmon-with-summer-vegetables
 ingredients:
   - '1.5 cups Quinoa, rinsed well'
-  - '2.5 cups Water or Low-Sodium Vegetable Broth'
-  - '1 tsp Kosher Salt'
-  - '2 tbsp Extra Virgin Olive Oil'
-  - '3 tbsp Lemon Juice (about 1.5 lemons)'
-  - '1 tsp Lemon Zest'
+  - 2.5 cups Water or Low-Sodium Vegetable Broth
+  - 1 tsp Kosher Salt
+  - 2 tbsp Extra Virgin Olive Oil
+  - 3 tbsp Lemon Juice (about 1.5 lemons)
+  - 1 tsp Lemon Zest
   - '1/4 cup Fresh Parsley, finely chopped'
   - '2 tbsp Fresh Mint, finely chopped'
   - '2 tbsp Fresh Dill, finely chopped'
-  - '1/4 tsp Black Pepper'
+  - 1/4 tsp Black Pepper
+nutrition:
+  calories: 135
+  protein: 3
+  carbs: 16
+  fat: 8
+  fiber: 3
+  sugar: 2
+  sodium: 800
 ---
 
 ## Chef's Note

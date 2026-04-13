@@ -43,6 +43,14 @@ seasons:
 nutritionalDensity: moderate
 leftovers: good
 equipment: []
+nutrition:
+  calories: 435
+  protein: 87
+  carbs: 6
+  fat: 9.5
+  fiber: 2
+  sugar: 2
+  sodium: 1560
 ---
 
 ## Chef's Note
@@ -59,4 +67,4 @@ Pad krapow gai (Thai basil chicken) is a popular Thai stir-fry dish characterize
 6.  **Finish:** Cover and steam for 2 minutes. Uncover, stir in the basil leaves, and toss for 30 seconds until just wilted.
 7.  **Serve:** Serve immediately over steamed jasmine rice.
 
-**Rest:** Let lb Chicken rest for 5 minutes before slicing or serving — the juices redistribute and every piece stays moist.
+**Rest:** Let lb Chicken rest for 5 minutes before slicing or serving  -  the juices redistribute and every piece stays moist.

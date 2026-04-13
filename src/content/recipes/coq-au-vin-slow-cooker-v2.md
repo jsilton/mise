@@ -41,11 +41,19 @@ seasons:
 nutritionalDensity: moderate
 leftovers: excellent
 equipment: []
+nutrition:
+  calories: 355
+  protein: 34.5
+  carbs: 25
+  fat: 14
+  fiber: 3.5
+  sugar: 10
+  sodium: 160
 ---
 
 ## Chef's Note
 
-The secret to a rich slow-cooker braise is developing fond. Many recipes just dump raw meat in; we sear the chicken thighs first to develop a deep brown crust—this caramelized flavor is what elevates the wine sauce from "stew" to "Coq au Vin." We use thick-sliced mushrooms and frozen pearl onions; they hold their shape through the long simmer, providing body that differentiates this from a mushy soup.
+The secret to a rich slow-cooker braise is developing fond. Many recipes just dump raw meat in; we sear the chicken thighs first to develop a deep brown crust - this caramelized flavor is what elevates the wine sauce from "stew" to "Coq au Vin." We use thick-sliced mushrooms and frozen pearl onions; they hold their shape through the long simmer, providing body that differentiates this from a mushy soup.
 
 ## Directions
 
@@ -54,5 +62,5 @@ The secret to a rich slow-cooker braise is developing fond. Many recipes just du
 3.  **Stack:** Place the seared chicken thighs directly on top of the vegetables.
 4.  **The Slurry:** In a small bowl, whisk the cornstarch into the red wine until completely dissolved. Whisk in the onion soup mix, Worcestershire, and thyme.
 5.  **Simmer:** Pour the wine slurry over the chicken.
-6.  **Cook:** Cover and cook on **HIGH for 2.5–3 hours** (or LOW for 5-6 hours) until the chicken is fork-tender.
+6.  **Cook:** Cover and cook on **HIGH for 2.5 - 3 hours** (or LOW for 5-6 hours) until the chicken is fork-tender.
 7.  **Serve:** Serve hot over [Miso-Mashed Potatoes](/mise/recipes/miso-mashed-potatoes) or steamed rice.

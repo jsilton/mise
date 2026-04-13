@@ -18,7 +18,7 @@ bestFor: [wednesday, thursday]
 
 ## Meal Overview
 
-A bright, lemony Italian dinner that comes together in under 30 minutes. The piccata sauce — butter, capers, lemon — is one of the most satisfying pan sauces in the repertoire. Toss the pasta in the sauce for cohesion, and serve the arugula salad on the side for peppery contrast.
+A bright, lemony Italian dinner that comes together in under 30 minutes. The piccata sauce  -  butter, capers, lemon  -  is one of the most satisfying pan sauces in the repertoire. Toss the pasta in the sauce for cohesion, and serve the arugula salad on the side for peppery contrast.
 
 ## Cooking Strategy
 

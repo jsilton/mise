@@ -65,9 +65,14 @@ const searchIndexData: RecipeSearchItem[] = recipes.map((recipe) => ({
 </Layout>
 
 <script define:vars={{ searchIndexData }}>
+  window.__searchIndexData = searchIndexData;
+</script>
+
+<script>
   import Fuse from 'fuse.js';
 
-  // Initialize fuzzy search index
+  // Initialize fuzzy search index from server-injected data
+  const searchIndexData = (window as any).__searchIndexData;
   const fuse = new Fuse(searchIndexData, {
     keys: [
       { name: 'title', weight: 10 },
@@ -82,36 +87,32 @@ const searchIndexData: RecipeSearchItem[] = recipes.map((recipe) => ({
     includeScore: true,
   });
 
-  const searchInput = document.getElementById('searchInput');
+  const searchInput = document.getElementById('searchInput') as HTMLInputElement | null;
   const recipeCards = document.querySelectorAll('.recipe-card');
   const noResults = document.getElementById('noResults');
   const clearSearchBtn = document.getElementById('clearSearch');
 
-  // Perform fuzzy search and filter by active filters
-  window.applyFiltersAndSort = function () {
+  function applyFiltersAndSort() {
     const query = searchInput?.value?.toLowerCase() || '';
-    const state = window.filterState || {};
+    const state = (window as any).filterState || {};
 
-    let visibleCards = [];
+    let visibleCards: { card: Element; difficulty: string; prepTime: string }[] = [];
 
-    // If there's a search query, use fuzzy search results
     if (query.trim()) {
       const fuzzyResults = fuse.search(query.trim());
       const fuzzySlugSet = new Set(fuzzyResults.map((r) => r.item.slug));
 
       recipeCards.forEach((card) => {
-        const slug = card.getAttribute('href')?.split('/').pop();
-        const cardDifficulty = card.dataset.difficulty;
-        const cardCuisines = card.dataset.cuisines?.split(',').filter((c) => c) || [];
-        const cardDietary = card.dataset.dietary?.split(',').filter((d) => d) || [];
-        const cardMethods = card.dataset.cookingMethods?.split(',').filter((m) => m) || [];
-        const cardOccasions = card.dataset.occasions?.split(',').filter((o) => o) || [];
-        const cardFlavors = card.dataset.flavorProfile?.split(',').filter((f) => f) || [];
+        const el = card as HTMLElement;
+        const slug = el.getAttribute('href')?.split('/').pop();
+        const cardDifficulty = el.dataset.difficulty || '';
+        const cardCuisines = el.dataset.cuisines?.split(',').filter((c) => c) || [];
+        const cardDietary = el.dataset.dietary?.split(',').filter((d) => d) || [];
+        const cardMethods = el.dataset.cookingMethods?.split(',').filter((m) => m) || [];
+        const cardOccasions = el.dataset.occasions?.split(',').filter((o) => o) || [];
+        const cardFlavors = el.dataset.flavorProfile?.split(',').filter((f) => f) || [];
 
-        // Match fuzzy search result
         const matchesFuzzySearch = fuzzySlugSet.has(slug);
-
-        // Apply other filters
         const matchesDifficulty = !state.difficulty || cardDifficulty === state.difficulty;
         const matchesCuisine = !state.cuisine || cardCuisines.includes(state.cuisine);
         const matchesDietary = !state.dietary || cardDietary.includes(state.dietary);
@@ -120,32 +121,26 @@ const searchIndexData: RecipeSearchItem[] = recipes.map((recipe) => ({
         const matchesFlavor = !state.flavor || cardFlavors.includes(state.flavor);
 
         const isVisible =
-          matchesFuzzySearch &&
-          matchesDifficulty &&
-          matchesCuisine &&
-          matchesDietary &&
-          matchesMethod &&
-          matchesOccasion &&
-          matchesFlavor;
+          matchesFuzzySearch && matchesDifficulty && matchesCuisine &&
+          matchesDietary && matchesMethod && matchesOccasion && matchesFlavor;
 
         if (isVisible) {
-          card.style.display = 'flex';
-          visibleCards.push({ card, difficulty: cardDifficulty, prepTime: card.dataset.prepTime });
+          el.style.display = 'flex';
+          visibleCards.push({ card: el, difficulty: cardDifficulty, prepTime: el.dataset.prepTime || '' });
         } else {
-          card.style.display = 'none';
+          el.style.display = 'none';
         }
       });
     } else {
-      // No search query - use standard filtering
       recipeCards.forEach((card) => {
-        const cardDifficulty = card.dataset.difficulty;
-        const cardCuisines = card.dataset.cuisines?.split(',').filter((c) => c) || [];
-        const cardDietary = card.dataset.dietary?.split(',').filter((d) => d) || [];
-        const cardMethods = card.dataset.cookingMethods?.split(',').filter((m) => m) || [];
-        const cardOccasions = card.dataset.occasions?.split(',').filter((o) => o) || [];
-        const cardFlavors = card.dataset.flavorProfile?.split(',').filter((f) => f) || [];
+        const el = card as HTMLElement;
+        const cardDifficulty = el.dataset.difficulty || '';
+        const cardCuisines = el.dataset.cuisines?.split(',').filter((c) => c) || [];
+        const cardDietary = el.dataset.dietary?.split(',').filter((d) => d) || [];
+        const cardMethods = el.dataset.cookingMethods?.split(',').filter((m) => m) || [];
+        const cardOccasions = el.dataset.occasions?.split(',').filter((o) => o) || [];
+        const cardFlavors = el.dataset.flavorProfile?.split(',').filter((f) => f) || [];
 
-        // Apply all active filters
         const matchesDifficulty = !state.difficulty || cardDifficulty === state.difficulty;
         const matchesCuisine = !state.cuisine || cardCuisines.includes(state.cuisine);
         const matchesDietary = !state.dietary || cardDietary.includes(state.dietary);
@@ -154,18 +149,14 @@ const searchIndexData: RecipeSearchItem[] = recipes.map((recipe) => ({
         const matchesFlavor = !state.flavor || cardFlavors.includes(state.flavor);
 
         const isVisible =
-          matchesDifficulty &&
-          matchesCuisine &&
-          matchesDietary &&
-          matchesMethod &&
-          matchesOccasion &&
-          matchesFlavor;
+          matchesDifficulty && matchesCuisine && matchesDietary &&
+          matchesMethod && matchesOccasion && matchesFlavor;
 
         if (isVisible) {
-          card.style.display = 'flex';
-          visibleCards.push({ card, difficulty: cardDifficulty, prepTime: card.dataset.prepTime });
+          el.style.display = 'flex';
+          visibleCards.push({ card: el, difficulty: cardDifficulty, prepTime: el.dataset.prepTime || '' });
         } else {
-          card.style.display = 'none';
+          el.style.display = 'none';
         }
       });
     }
@@ -174,32 +165,35 @@ const searchIndexData: RecipeSearchItem[] = recipes.map((recipe) => ({
     if (state.sortMode === 'prepTime') {
       visibleCards.sort((a, b) => parseInt(a.prepTime || '0') - parseInt(b.prepTime || '0'));
     } else if (state.sortMode === 'difficulty') {
-      const diffOrder = { easy: 0, intermediate: 1, advanced: 2 };
-      visibleCards.sort((a, b) => diffOrder[a.difficulty] - diffOrder[b.difficulty]);
+      const diffOrder: Record<string, number> = { easy: 0, intermediate: 1, hard: 2 };
+      visibleCards.sort((a, b) => (diffOrder[a.difficulty] ?? 99) - (diffOrder[b.difficulty] ?? 99));
     }
 
     // Reorder cards in grid
     const grid = document.getElementById('recipeGrid');
-    visibleCards.forEach(({ card }) => grid.appendChild(card));
+    visibleCards.forEach(({ card }) => grid?.appendChild(card));
 
     // Toggle no results message
     if (noResults) {
       noResults.style.display = visibleCards.length === 0 ? 'block' : 'none';
     }
-  };
+  }
 
-  // Search input listener - fuzzy search with live results
-  searchInput?.addEventListener('input', window.applyFiltersAndSort);
+  // Expose globally so FilterPanel can call it
+  (window as any).applyFiltersAndSort = applyFiltersAndSort;
+
+  // Search input listener
+  searchInput?.addEventListener('input', applyFiltersAndSort);
 
   // Clear search button
   clearSearchBtn?.addEventListener('click', () => {
-    searchInput.value = '';
-    window.updateFilterState?.();
-    window.applyFiltersAndSort();
-    searchInput.focus();
+    if (searchInput) searchInput.value = '';
+    (window as any).updateFilterState?.();
+    applyFiltersAndSort();
+    searchInput?.focus();
   });
 
   // Initial state update and render
-  window.updateFilterState?.();
-  window.applyFiltersAndSort();
+  (window as any).updateFilterState?.();
+  applyFiltersAndSort();
 </script>

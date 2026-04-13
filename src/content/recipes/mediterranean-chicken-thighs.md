@@ -50,11 +50,19 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
+nutrition:
+  calories: 650
+  protein: 56
+  carbs: 17
+  fat: 40
+  fiber: 2.5
+  sugar: 6
+  sodium: 2020
 ---
 
 ## Chef's Note
 
-Greek dressing is a marinade cheat code—it's already perfectly balanced with oil, acid, garlic, and oregano. Marinating chicken thighs for even 30 minutes infuses Mediterranean flavor throughout. The peppers and onions roast alongside and get sweet and slightly charred. Serve it mezze-style: warm pita, cool tzatziki, salty feta, and crisp fresh vegetables. Everyone builds their own plate. The tzatziki from the lamb burgers recipe works perfectly here.
+Greek dressing is a marinade cheat code - it's already perfectly balanced with oil, acid, garlic, and oregano. Marinating chicken thighs for even 30 minutes infuses Mediterranean flavor throughout. The peppers and onions roast alongside and get sweet and slightly charred. Serve it mezze-style: warm pita, cool tzatziki, salty feta, and crisp fresh vegetables. Everyone builds their own plate. The tzatziki from the lamb burgers recipe works perfectly here.
 
 ## Directions
 

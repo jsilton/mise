@@ -38,11 +38,19 @@ ingredients:
   - 1 batch Alfredo Sauce (See note)
   - 'Fresh Parsley, chopped'
 origin: Italy
+nutrition:
+  calories: 580
+  protein: 39.5
+  carbs: 82
+  fat: 11.5
+  fiber: 5
+  sugar: 1
+  sodium: 460
 ---
 
 ## Chef's Note
 
-Italian-American fettuccine Alfredo with shrimp traces back to Alfredo di Lelio's 1908 Rome original — just butter and Parmigiano-Reggiano, no cream. Americans added cream for richness and stability, then added shrimp because this is what we do. The key is a quick high-heat sear on the shrimp (2 minutes per side until pink with light char) — overcooking turns them rubbery. If making the [Real Alfredo Sauce](/mise/recipes/real-alfredo-sauce) from scratch, use the same skillet you seared the shrimp in — those browned bits dissolve into the butter and become free flavor.
+Italian-American fettuccine Alfredo with shrimp traces back to Alfredo di Lelio's 1908 Rome original  -  just butter and Parmigiano-Reggiano, no cream. Americans added cream for richness and stability, then added shrimp because this is what we do. The key is a quick high-heat sear on the shrimp (2 minutes per side until pink with light char)  -  overcooking turns them rubbery. If making the [Real Alfredo Sauce](/mise/recipes/real-alfredo-sauce) from scratch, use the same skillet you seared the shrimp in  -  those browned bits dissolve into the butter and become free flavor.
 
 ## Directions
 

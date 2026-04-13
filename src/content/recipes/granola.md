@@ -43,6 +43,14 @@ ingredients:
   - 1/2 tsp Sea Salt
   - 1/2 cup Dried Fruit (Raisins or Cranberries)
 origin: United States
+nutrition:
+  calories: 575
+  protein: 3.5
+  carbs: 57
+  fat: 37.5
+  fiber: 3
+  sugar: 35
+  sodium: 390
 ---
 
 ## Chef's Note

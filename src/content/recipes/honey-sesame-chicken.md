@@ -46,11 +46,19 @@ ingredients:
   - 1 tbsp Cornstarch
   - '3 stalks Green Onion, sliced'
 origin: China
+nutrition:
+  calories: 325
+  protein: 3.5
+  carbs: 75.5
+  fat: 5.5
+  fiber: 1
+  sugar: 67.5
+  sodium: 790
 ---
 
 ## Chef's Note
 
-Honey sesame chicken is a lighter take on Chinese-American takeout—no deep frying or heavy breading. Instead, sear chicken chunks over high heat to get crispy edges, then glaze them in a sauce that balances honey's sweetness with rice vinegar's sharpness. Toasted sesame seeds and green onions add finishing flavor and texture. Much healthier than the fried version but still intensely flavorful.
+Honey sesame chicken is a lighter take on Chinese-American takeout - no deep frying or heavy breading. Instead, sear chicken chunks over high heat to get crispy edges, then glaze them in a sauce that balances honey's sweetness with rice vinegar's sharpness. Toasted sesame seeds and green onions add finishing flavor and texture. Much healthier than the fried version but still intensely flavorful.
 
 ## Directions
 

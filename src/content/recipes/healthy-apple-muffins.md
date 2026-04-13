@@ -51,16 +51,24 @@ ingredients:
   - 1/2 tsp Sea Salt
   - 1 tbsp Turbinado Sugar (for the Crunch)
 origin: United States
+nutrition:
+  calories: 340
+  protein: 5.5
+  carbs: 39
+  fat: 19
+  fiber: 3
+  sugar: 23
+  sodium: 380
 ---
 
 ## Chef's Note
 
-Combining applesauce and Greek yogurt creates incredibly moist muffins without excessive oil—a healthier approach that maintains dense, cake-like texture. Including both grated apple (for moisture) and cubed apple (for textural crunch) ensures every bite has distinct character. Turbinado sugar sprinkled on top creates a crystalline, crunchy crust.
+Combining applesauce and Greek yogurt creates incredibly moist muffins without excessive oil - a healthier approach that maintains dense, cake-like texture. Including both grated apple (for moisture) and cubed apple (for textural crunch) ensures every bite has distinct character. Turbinado sugar sprinkled on top creates a crystalline, crunchy crust.
 
 ## Directions
 
 1.  **Dry Mix:** Preheat oven to 425°F. In a large bowl, whisk together flour, baking powder, baking soda, cinnamon, and salt.
-2.  **The Apples:** Add the grated and cubed apples to the dry mix. Toss to coat—this prevents the fruit from sinking to the bottom.
+2.  **The Apples:** Add the grated and cubed apples to the dry mix. Toss to coat - this prevents the fruit from sinking to the bottom.
 3.  **Wet Mix:** In a separate bowl, whisk oil, maple syrup, eggs, yogurt, applesauce, and vanilla until smooth and aerated.
 4.  **Combine:** Pour the wet into the dry. Stir with a spatula until **just combined**. A few streaks of flour are the mandatory guard against a tough muffin.
 5.  **Bake:** Divide into a lined 12-cup tin. Sprinkle the turbinado sugar over the tops. Bake at 425°F for 13-16 minutes until golden and a toothpick comes out clean.

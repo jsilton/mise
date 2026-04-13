@@ -39,6 +39,14 @@ ingredients:
   - 1 tsp Pure Vanilla Extract
   - 1/8 tsp Sea Salt (The Finishing Touch)
 origin: United States
+nutrition:
+  calories: 1035
+  protein: 6
+  carbs: 206
+  fat: 26.5
+  fiber: 0
+  sugar: 204
+  sodium: 1070
 ---
 
 ## Chef's Note

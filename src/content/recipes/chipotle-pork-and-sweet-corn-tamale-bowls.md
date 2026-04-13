@@ -49,6 +49,14 @@ seasons:
 nutritionalDensity: moderate
 leftovers: good
 equipment: []
+nutrition:
+  calories: 390
+  protein: 19
+  carbs: 25.5
+  fat: 25
+  fiber: 3.5
+  sugar: 4.5
+  sodium: 1340
 ---
 
 ## Chef's Note
@@ -64,4 +72,4 @@ This weeknight bowl delivers big Mexican flavors in 35 minutes. Polenta cooked i
 5.  **The Sauce:** Add tomatoes. Scrape fond. Simmer 5 minutes until thick.
 6.  **Assemble:** Polenta in bowls, topped with pork, charred corn, avocado, cabbage, pepitas, sour cream, and a lime wedge.
 
-**Rest:** Let Ground Pork rest for 5 minutes before slicing or serving — the juices redistribute and every piece stays moist.
+**Rest:** Let Ground Pork rest for 5 minutes before slicing or serving  -  the juices redistribute and every piece stays moist.

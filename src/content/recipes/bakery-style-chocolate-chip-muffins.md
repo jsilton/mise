@@ -42,6 +42,14 @@ ingredients:
   - 1 tbsp Vanilla Extract
   - 1 1/2 cups Semisweet Chocolate Chips
 origin: United States
+nutrition:
+  calories: 570
+  protein: 6
+  carbs: 52
+  fat: 39
+  fiber: 3.5
+  sugar: 30.5
+  sodium: 660
 ---
 
 ## Chef's Note

@@ -53,6 +53,14 @@ ingredients:
   - 4 cups Powdered Sugar
   - 1 tsp Vanilla Extract
 origin: United States
+nutrition:
+  calories: 1680
+  protein: 8
+  carbs: 160.5
+  fat: 119.5
+  fiber: 1
+  sugar: 139
+  sodium: 1300
 ---
 
 ## Chef's Note

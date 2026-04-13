@@ -17,7 +17,7 @@ bestFor: [sunday, saturday]
 
 ## Meal Overview
 
-Slow-simmered chili with warm cornbread — the ultimate cold-weather comfort pairing. The longer the chili simmers, the better it gets. Serve with all the fixings and let everyone top their own bowl.
+Slow-simmered chili with warm cornbread  -  the ultimate cold-weather comfort pairing. The longer the chili simmers, the better it gets. Serve with all the fixings and let everyone top their own bowl.
 
 ## Cooking Strategy
 

@@ -51,11 +51,19 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
+nutrition:
+  calories: 275
+  protein: 15.5
+  carbs: 1
+  fat: 23.5
+  fiber: 0
+  sugar: 0
+  sodium: 470
 ---
 
 ## Chef's Note
 
-This slider gets its depth from a quick soy-sesame-garlic marinade that seasons the chicken before it hits the broiler. The sweet chili glaze goes on at the end for that sticky, lacquered finish. Don't skip the sriracha mayo—it bridges the sweet glaze and savory chicken. The store-bought Asian salad kit (cabbage, crispy wontons, sesame dressing) is a legit shortcut that adds crunch, freshness, and another layer of sesame flavor. Toast those Hawaiian rolls—the butter helps them stand up to the juicy chicken.
+This slider gets its depth from a quick soy-sesame-garlic marinade that seasons the chicken before it hits the broiler. The sweet chili glaze goes on at the end for that sticky, lacquered finish. Don't skip the sriracha mayo - it bridges the sweet glaze and savory chicken. The store-bought Asian salad kit (cabbage, crispy wontons, sesame dressing) is a legit shortcut that adds crunch, freshness, and another layer of sesame flavor. Toast those Hawaiian rolls - the butter helps them stand up to the juicy chicken.
 For kids, serve the heat on the side or reduce/omit the spicy elements.
 
 ## Directions

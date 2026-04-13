@@ -43,6 +43,14 @@ ingredients:
   - '1/2 Lemon, for finishing'
   - 'Optional: 1 tbsp Grated Parmesan or Lemon Zest'
 origin: United States
+nutrition:
+  calories: 45
+  protein: 1
+  carbs: 4.5
+  fat: 3.5
+  fiber: 1.5
+  sugar: 1
+  sodium: 580
 ---
 
 ## Chef's Note

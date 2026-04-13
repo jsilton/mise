@@ -18,7 +18,7 @@ bestFor: [monday, tuesday, wednesday]
 
 ## Meal Overview
 
-Sweet, sticky, and crispy — homemade honey sesame chicken that puts takeout to shame. The sauce is perfectly balanced between sweet honey and savory soy. Charred broccoli adds smoky depth, and fluffy rice catches every drop.
+Sweet, sticky, and crispy  -  homemade honey sesame chicken that puts takeout to shame. The sauce is perfectly balanced between sweet honey and savory soy. Charred broccoli adds smoky depth, and fluffy rice catches every drop.
 
 ## Cooking Strategy
 

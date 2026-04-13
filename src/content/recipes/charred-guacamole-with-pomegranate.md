@@ -51,11 +51,19 @@ ingredients:
   - Flaky Sea Salt for finishing
   - High-quality tortilla chips
 origin: Mexico
+nutrition:
+  calories: 60
+  protein: 1
+  carbs: 7
+  fat: 4.5
+  fiber: 2
+  sugar: 1.5
+  sodium: 600
 ---
 
 ## Chef's Note
 
-Broiling the jalapeños and tomatoes transforms familiar guacamole into something with smoky depth and caramelized sweetness. The charred vegetables add complexity that raw versions can't match—their sugars concentrate and their skins develop bitter-sweet char. Two upgrades make this version exceptional: toasting the cumin first (30 seconds in a dry pan until fragrant) blooms its essential oils, and adding olive oil to the mash creates silkiness that carries the smoke flavor across your palate. Pomegranate seeds contribute jewel-like color, tart juice bursts, and unexpected crunch.
+Broiling the jalapeños and tomatoes transforms familiar guacamole into something with smoky depth and caramelized sweetness. The charred vegetables add complexity that raw versions can't match - their sugars concentrate and their skins develop bitter-sweet char. Two upgrades make this version exceptional: toasting the cumin first (30 seconds in a dry pan until fragrant) blooms its essential oils, and adding olive oil to the mash creates silkiness that carries the smoke flavor across your palate. Pomegranate seeds contribute jewel-like color, tart juice bursts, and unexpected crunch.
 
 ## Directions
 
@@ -63,7 +71,7 @@ Broiling the jalapeños and tomatoes transforms familiar guacamole into somethin
 
 2. **The Char:** Position oven rack 6 inches from broiler. Place jalapeño and tomato halves cut-side down on a foil-lined sheet pan. Broil for **5-7 minutes** until skins are blistered and blackened in spots. Let cool slightly. Peel off and discard the blackened tomato skins (they can be bitter). Chop the flesh and jalapeños finely.
 
-3. **The Mash:** Scoop avocado flesh into a large bowl. Add lime juice and zest immediately and toss to coat. Add olive oil. Mash with a fork to desired consistency—slightly chunky is ideal for texture.
+3. **The Mash:** Scoop avocado flesh into a large bowl. Add lime juice and zest immediately and toss to coat. Add olive oil. Mash with a fork to desired consistency - slightly chunky is ideal for texture.
 
 4. **The Fold:** Add the chopped charred vegetables, red onion, garlic, cilantro, toasted cumin, and salt. Fold gently until just combined. Taste and adjust salt and lime.
 

@@ -52,6 +52,14 @@ ingredients:
   - 1/2 tsp Vanilla Bean Paste
   - 1 tbsp Heavy Cream
 origin: United States
+nutrition:
+  calories: 710
+  protein: 4
+  carbs: 95.5
+  fat: 38
+  fiber: 1
+  sugar: 89.5
+  sodium: 910
 ---
 
 ## Chef's Note

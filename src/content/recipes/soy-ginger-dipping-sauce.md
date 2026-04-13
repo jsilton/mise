@@ -44,11 +44,19 @@ ingredients:
   - 1 tsp Sugar
   - 1/2 tsp Chili Garlic Sauce or Sriracha (optional)
 origin: China
+nutrition:
+  calories: 50
+  protein: 3.5
+  carbs: 4.5
+  fat: 2
+  fiber: 0
+  sugar: 1.5
+  sodium: 2080
 ---
 
 ## Chef's Note
 
-This is the dipping sauce you get at dim sum restaurants—salty, tangy, and aromatic with fresh ginger. The key is using freshly grated ginger (not jarred) and letting the sauce sit for at least 10 minutes so the flavors bloom. The ratio of soy to vinegar to sesame oil is 4:2:1—easy to scale up for a crowd.
+This is the dipping sauce you get at dim sum restaurants - salty, tangy, and aromatic with fresh ginger. The key is using freshly grated ginger (not jarred) and letting the sauce sit for at least 10 minutes so the flavors bloom. The ratio of soy to vinegar to sesame oil is 4:2:1 - easy to scale up for a crowd.
 For kids, serve the heat on the side or reduce/omit the spicy elements.
 
 ## Directions
@@ -57,6 +65,6 @@ For kids, serve the heat on the side or reduce/omit the spicy elements.
 
 2. **The Aromatics:** Stir in grated ginger, minced garlic, and sliced green onion. Add chili sauce if you want heat.
 
-3. **The Rest:** Let sit at room temperature for at least 10 minutes to let flavors meld. Taste and adjust seasoning—add more vinegar for tang or sugar to balance saltiness.
+3. **The Rest:** Let sit at room temperature for at least 10 minutes to let flavors meld. Taste and adjust seasoning - add more vinegar for tang or sugar to balance saltiness.
 
 4. **The Serve:** Serve in small individual dishes for dipping. Store refrigerated for up to 1 week; bring to room temperature before serving.

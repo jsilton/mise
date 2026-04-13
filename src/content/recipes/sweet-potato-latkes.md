@@ -37,6 +37,14 @@ seasons:
 nutritionalDensity: moderate
 leftovers: good
 equipment: []
+nutrition:
+  calories: 245
+  protein: 1
+  carbs: 4.5
+  fat: 25.5
+  fiber: 0.5
+  sugar: 0
+  sodium: 100
 ---
 
 ## Chef's Note

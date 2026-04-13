@@ -49,6 +49,14 @@ ingredients:
   - '1/2 cup Parmesan, grated'
   - 1/2 cup Dried Cranberries
 origin: United States
+nutrition:
+  calories: 455
+  protein: 4.5
+  carbs: 22
+  fat: 41
+  fiber: 3.5
+  sugar: 8
+  sodium: 160
 ---
 
 ## Chef's Note

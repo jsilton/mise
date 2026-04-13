@@ -48,6 +48,14 @@ ingredients:
   - 1 tsp Vanilla Extract
   - 1/2 tsp Kosher Salt
 origin: United States
+nutrition:
+  calories: 575
+  protein: 15.5
+  carbs: 64.5
+  fat: 32
+  fiber: 10
+  sugar: 36
+  sodium: 550
 ---
 
 ## Chef's Note

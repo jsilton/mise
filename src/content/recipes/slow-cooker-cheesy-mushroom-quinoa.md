@@ -40,11 +40,19 @@ seasons:
 nutritionalDensity: moderate
 leftovers: excellent
 equipment: []
+nutrition:
+  calories: 460
+  protein: 24.5
+  carbs: 30
+  fat: 29
+  fiber: 4
+  sugar: 5
+  sodium: 1390
 ---
 
 ## Chef's Note
 
-Using a strict 1:2 ratio of quinoa to liquid and cooking on High for a shorter duration (2-3 hours instead of 4-5) ensures each grain maintains its texture and distinct curly tail rather than turning to porridge. Adding cream cheese cubes at the very end creates risotto-like silkiness that standard shredded cheese cannot achieve—the residual heat melts it into a smooth, creamy sauce.
+Using a strict 1:2 ratio of quinoa to liquid and cooking on High for a shorter duration (2-3 hours instead of 4-5) ensures each grain maintains its texture and distinct curly tail rather than turning to porridge. Adding cream cheese cubes at the very end creates risotto-like silkiness that standard shredded cheese cannot achieve - the residual heat melts it into a smooth, creamy sauce.
 
 ## Directions
 

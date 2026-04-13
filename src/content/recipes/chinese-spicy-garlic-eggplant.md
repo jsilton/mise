@@ -2,22 +2,36 @@
 title: Spicy Garlic Eggplant
 origin: China
 difficulty: easy
-cookingMethods: [sauté, steam]
+cookingMethods:
+  - sauté
+  - steam
 dietary: []
-occasions: [weeknight, quick-lunch, summer]
-flavorProfile: [spicy, rich]
-cuisines: [Chinese]
+occasions:
+  - weeknight
+  - quick-lunch
+  - summer
+flavorProfile:
+  - spicy
+  - rich
+cuisines:
+  - Chinese
 role: main
 vibe: quick
 prepTime: 15 min
 cookTime: 10 min
 totalTime: 25 min
 servings: '4'
-seasons: [summer, fall, year-round]
+seasons:
+  - summer
+  - fall
+  - year-round
 nutritionalDensity: light
 leftovers: good
-equipment: [wok]
-pairsWith: [basmati-rice, easy-pan-seared-chicken-breasts]
+equipment:
+  - wok
+pairsWith:
+  - basmati-rice
+  - easy-pan-seared-chicken-breasts
 ingredients:
   - '1 lb Chinese Eggplant (the long, thin ones), cut into 2-inch batons'
   - 1/4 cup Cornstarch (for dredging)
@@ -28,6 +42,14 @@ ingredients:
   - >-
     1/2 cup [All-Purpose Chinese Garlic
     Sauce](/mise/recipes/chinese-garlic-sauce-base)
+nutrition:
+  calories: 140
+  protein: 0.5
+  carbs: 33.5
+  fat: 0
+  fiber: 1
+  sugar: 2
+  sodium: 0
 ---
 
 ## Chef's Note

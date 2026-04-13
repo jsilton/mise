@@ -64,6 +64,14 @@ ingredients:
   - 1/3 cup Mayonnaise (for alioli)
   - '1 clove Garlic, finely grated (for alioli)'
   - 1 tbsp Lemon Juice (for alioli)
+nutrition:
+  calories: 525
+  protein: 2
+  carbs: 17.5
+  fat: 50.5
+  fiber: 2
+  sugar: 3.5
+  sodium: 1540
 ---
 
 ## Chef's Note

@@ -48,6 +48,14 @@ ingredients:
   - '1/4 tsp Red Pepper Flakes (optional, for heat)'
   - '1 tsp Sesame Oil (optional, for Asian-style preparation)'
 origin: United States
+nutrition:
+  calories: 135
+  protein: 2
+  carbs: 10
+  fat: 10.5
+  fiber: 2.5
+  sugar: 3
+  sodium: 260
 ---
 
 ## Chef's Note

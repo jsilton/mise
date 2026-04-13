@@ -46,11 +46,19 @@ seasons:
 nutritionalDensity: moderate
 leftovers: good
 equipment: []
+nutrition:
+  calories: 225
+  protein: 7.5
+  carbs: 37
+  fat: 5.5
+  fiber: 2.5
+  sugar: 2
+  sodium: 900
 ---
 
 ## Chef's Note
 
-The key to orzo soup is sautéing the vegetables and then stirring in a small amount of flour before the broth. This creates a light body that holds the ingredients in suspension without being heavy. Simmer the orzo directly in the broth only until al dente—overcooking will turn the soup into a thick porridge. The fresh lemon juice bridges the earthy herbs and savory chicken.
+The key to orzo soup is sautéing the vegetables and then stirring in a small amount of flour before the broth. This creates a light body that holds the ingredients in suspension without being heavy. Simmer the orzo directly in the broth only until al dente - overcooking will turn the soup into a thick porridge. The fresh lemon juice bridges the earthy herbs and savory chicken.
 
 ## Directions
 

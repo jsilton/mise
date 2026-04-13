@@ -18,7 +18,7 @@ bestFor: [tuesday, wednesday, thursday]
 
 ## Meal Overview
 
-Fresh, vibrant, and deeply satisfying — poke bowls are the perfect warm-weather dinner. Sushi-quality tuna dressed in soy and sesame sits atop seasoned rice, surrounded by cool cucumber and earthy edamame. No cooking required for the main protein.
+Fresh, vibrant, and deeply satisfying  -  poke bowls are the perfect warm-weather dinner. Sushi-quality tuna dressed in soy and sesame sits atop seasoned rice, surrounded by cool cucumber and earthy edamame. No cooking required for the main protein.
 
 ## Cooking Strategy
 

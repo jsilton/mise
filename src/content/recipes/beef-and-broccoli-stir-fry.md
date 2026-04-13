@@ -50,19 +50,27 @@ ingredients:
   - 1/2 cup Beef Stock or Water
   - '2 Green Onions, cut into 1-inch pieces'
   - Sesame seeds for garnish
+nutrition:
+  calories: 295
+  protein: 20.5
+  carbs: 18.5
+  fat: 17.5
+  fiber: 4
+  sugar: 4
+  sodium: 1530
 ---
 
 ## Chef's Note
 
-Beef and broccoli is Cantonese weeknight cooking at its essence: high heat, fast hands, and everything prepared before the pan touches fire. A Cantonese grandmother would never start cooking without mise en place—every vegetable prepped, every sauce mixed. The heat is so high and the timing so tight that reaching for a cutting board mid-cook ruins the entire dish. Dry the beef thoroughly before searing; wet meat steams instead of caramelizing.
+Beef and broccoli is Cantonese weeknight cooking at its essence: high heat, fast hands, and everything prepared before the pan touches fire. A Cantonese grandmother would never start cooking without mise en place - every vegetable prepped, every sauce mixed. The heat is so high and the timing so tight that reaching for a cutting board mid-cook ruins the entire dish. Dry the beef thoroughly before searing; wet meat steams instead of caramelizing.
 
 ## Directions
 
 1. **Mise en Place (Critical):** Slice beef thinly against the grain. Pat completely dry with paper towels. Mix soy sauce, oyster sauce, vinegar, sesame oil, cornstarch, and stock in a small bowl. Have garlic, ginger, broccoli, and green onions within arm's reach. Nothing happens until everything is ready.
 
-2. **Heat the Wok:** Place a wok or large skillet over high heat for 2-3 minutes until smoking. This is non-negotiable—a cold wok steams food instead of searing it.
+2. **Heat the Wok:** Place a wok or large skillet over high heat for 2-3 minutes until smoking. This is non-negotiable - a cold wok steams food instead of searing it.
 
-3. **Sear the Beef:** Add 1 tbsp oil and let it smoke for 15 seconds. Add half the beef in a single layer. Do not stir for 2 minutes—let it develop a brown crust. Toss quickly and cook another 1 minute. Transfer to a plate. Repeat with remaining beef.
+3. **Sear the Beef:** Add 1 tbsp oil and let it smoke for 15 seconds. Add half the beef in a single layer. Do not stir for 2 minutes - let it develop a brown crust. Toss quickly and cook another 1 minute. Transfer to a plate. Repeat with remaining beef.
 
 4. **Cook the Broccoli:** Add remaining 1 tbsp oil. Add broccoli and stir constantly for 3-4 minutes until the florets are bright green and just starting to brown at the edges. The broccoli should still have some bite.
 

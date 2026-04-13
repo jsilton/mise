@@ -42,6 +42,14 @@ ingredients:
   - 1-2 tbsp Water or Almond Milk (if needed)
   - Pinch of Sea Salt
 origin: United States
+nutrition:
+  calories: 255
+  protein: 5.5
+  carbs: 11.5
+  fat: 22
+  fiber: 2
+  sugar: 10
+  sodium: 360
 ---
 
 ## Chef's Note

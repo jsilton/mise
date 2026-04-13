@@ -42,6 +42,14 @@ leftovers: good
 equipment: []
 advancePrep:
   - marinate-overnight
+nutrition:
+  calories: 105
+  protein: 2.5
+  carbs: 3.5
+  fat: 10
+  fiber: 1.5
+  sugar: 0.5
+  sodium: 590
 ---
 
 ## Chef's Note

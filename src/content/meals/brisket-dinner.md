@@ -17,7 +17,7 @@ bestFor: [saturday, sunday]
 
 ## Meal Overview
 
-A weekend centerpiece meal — the brisket braises low and slow until it's fork-tender and deeply flavored. Creamy mashed potatoes soak up the rich braising liquid, and glazed carrots add sweetness and color. This is the kind of dinner that brings everyone to the table.
+A weekend centerpiece meal  -  the brisket braises low and slow until it's fork-tender and deeply flavored. Creamy mashed potatoes soak up the rich braising liquid, and glazed carrots add sweetness and color. This is the kind of dinner that brings everyone to the table.
 
 ## Cooking Strategy
 
@@ -31,5 +31,5 @@ A weekend centerpiece meal — the brisket braises low and slow until it's fork-
 ## Notes
 
 - Always slice against the grain for tender brisket
-- The braising liquid is liquid gold — strain and reduce for gravy
+- The braising liquid is liquid gold  -  strain and reduce for gravy
 - Leftovers make incredible sandwiches the next day

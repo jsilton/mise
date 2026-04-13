@@ -45,11 +45,19 @@ ingredients:
   - 1/2 tsp Red Pepper Flakes
   - 1 tsp Lemon Zest
 origin: Italy
+nutrition:
+  calories: 85
+  protein: 3
+  carbs: 16.5
+  fat: 1
+  fiber: 3.5
+  sugar: 2.5
+  sodium: 130
 ---
 
 ## Chef's Note
 
-Strozzapreti ("priest stranglers") is a hand-rolled pasta shape from Emilia-Romagna and other Italian regions. Browning panko breadcrumbs in garlic butter before starting the pasta gives you a crispy topping that contrasts beautifully with the soft, chewy noodles. Preserved lemon adds a fermented, salty complexity that fresh citrus can't match—it's become popular in modern Italian cooking though it originally comes from North African cuisine. Brown butter ties the earthy spinach and bright lemon together.
+Strozzapreti ("priest stranglers") is a hand-rolled pasta shape from Emilia-Romagna and other Italian regions. Browning panko breadcrumbs in garlic butter before starting the pasta gives you a crispy topping that contrasts beautifully with the soft, chewy noodles. Preserved lemon adds a fermented, salty complexity that fresh citrus can't match - it's become popular in modern Italian cooking though it originally comes from North African cuisine. Brown butter ties the earthy spinach and bright lemon together.
 
 ## Directions
 

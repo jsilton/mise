@@ -43,6 +43,14 @@ seasons:
 nutritionalDensity: moderate
 leftovers: good
 equipment: []
+nutrition:
+  calories: 370
+  protein: 17.5
+  carbs: 30.5
+  fat: 19.5
+  fiber: 2
+  sugar: 24
+  sodium: 730
 ---
 
 ## Chef's Note
@@ -58,4 +66,4 @@ Adding cherry tomatoes in two stages ensures both a rich sauce and whole, crispy
 5.  **Bake:** Roast for 10-15 more minutes until the chicken reaches **160°F** (it will carry to 165°F) and the tomatoes have just burst.
 6.  **Finish:** Garnish with a massive amount of fresh basil and cracked black pepper for the mandatory **High Note**.
 
-**Rest:** Let small Chicken rest for 5 minutes before slicing or serving — the juices redistribute and every piece stays moist.
+**Rest:** Let small Chicken rest for 5 minutes before slicing or serving  -  the juices redistribute and every piece stays moist.

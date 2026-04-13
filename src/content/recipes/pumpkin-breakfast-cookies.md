@@ -2,23 +2,40 @@
 title: Pumpkin Breakfast Cookies
 origin: United States
 difficulty: intermediate
-cookingMethods: [bake, blend]
-dietary: [vegetarian]
-occasions: [meal-prep, post-workout, kids-approved]
-seasons: [fall, winter]
+cookingMethods:
+  - bake
+  - blend
+dietary:
+  - vegetarian
+occasions:
+  - meal-prep
+  - post-workout
+  - kids-approved
+seasons:
+  - fall
+  - winter
 nutritionalDensity: moderate
 leftovers: excellent
-equipment: [baking-sheet, mixing-bowl]
-advancePrep: [make-ahead, freeze-ahead]
-flavorProfile: [sweet]
-cuisines: [American]
+equipment:
+  - baking-sheet
+  - mixing-bowl
+advancePrep:
+  - make-ahead
+  - freeze-ahead
+flavorProfile:
+  - sweet
+cuisines:
+  - American
 role: main
 vibe: nutritious
 prepTime: 10 min
 cookTime: 15 min
 totalTime: 25 min
 servings: 12 cookies
-pairsWith: [banana-oat-greek-yogurt-muffins, brownie-protein-balls, easy-breakfast-yogurt-popsicles]
+pairsWith:
+  - banana-oat-greek-yogurt-muffins
+  - brownie-protein-balls
+  - easy-breakfast-yogurt-popsicles
 ingredients:
   - 1/2 cup Pure Pumpkin Puree
   - '1/4 cup Coconut Oil, melted'
@@ -31,6 +48,14 @@ ingredients:
   - 2/3 cup Pumpkin Seeds (Pepitas)
   - 1 tsp Pumpkin Pie Spice
   - 1/2 tsp Sea Salt
+nutrition:
+  calories: 420
+  protein: 8.5
+  carbs: 37
+  fat: 30.5
+  fiber: 3.5
+  sugar: 22
+  sodium: 210
 ---
 
 ## Chef's Note

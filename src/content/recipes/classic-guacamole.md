@@ -44,11 +44,19 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
+nutrition:
+  calories: 20
+  protein: 0.5
+  carbs: 4
+  fat: 0.5
+  fiber: 1
+  sugar: 1.5
+  sodium: 290
 ---
 
 ## Chef's Note
 
-Great guacamole is about texture and restraint. You want chunks, not baby food. The key technique: mash only half the avocado to create a creamy base that holds everything together, then fold in the rest in rough chunks for texture. Salt early and generously—avocado absorbs salt and needs more than you think. Lime juice isn't just for flavor; the acid slows oxidation (browning). The traditional molcajete (Mexican mortar and pestle) gives you control over texture, but a fork works fine. Skip the tomato if you want pure avocado flavor—it's optional in authentic Mexican versions. Serve within an hour; guacamole doesn't keep.
+Great guacamole is about texture and restraint. You want chunks, not baby food. The key technique: mash only half the avocado to create a creamy base that holds everything together, then fold in the rest in rough chunks for texture. Salt early and generously - avocado absorbs salt and needs more than you think. Lime juice isn't just for flavor; the acid slows oxidation (browning). The traditional molcajete (Mexican mortar and pestle) gives you control over texture, but a fork works fine. Skip the tomato if you want pure avocado flavor - it's optional in authentic Mexican versions. Serve within an hour; guacamole doesn't keep.
 For kids, serve the heat on the side or reduce/omit the spicy elements.
 
 ## Directions

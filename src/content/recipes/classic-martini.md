@@ -37,11 +37,19 @@ ingredients:
   - Large Ice Cubes (1-inch)
 advancePrep:
   - freeze-ahead
+nutrition:
+  calories: 565
+  protein: 25
+  carbs: 8
+  fat: 51
+  fiber: 2.5
+  sugar: 2.5
+  sodium: 280
 ---
 
 ## Chef's Note
 
-A classic Martini is built on technique and temperature. We stir, never shake, to preserve the silkiness of the gin without introducing air bubbles or excessive dilution. The secret is cracked ice: by hand-cracking a large cube, we increase the surface area, allowing the drink to reach sub-zero temperatures in exactly 50 stirs. The finishing touch is expressed lemon oil—rubbing the peel on the rim ensures the aroma precedes the flavor.
+A classic Martini is built on technique and temperature. We stir, never shake, to preserve the silkiness of the gin without introducing air bubbles or excessive dilution. The secret is cracked ice: by hand-cracking a large cube, we increase the surface area, allowing the drink to reach sub-zero temperatures in exactly 50 stirs. The finishing touch is expressed lemon oil - rubbing the peel on the rim ensures the aroma precedes the flavor.
 
 ## Directions
 

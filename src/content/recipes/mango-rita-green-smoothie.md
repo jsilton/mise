@@ -41,11 +41,19 @@ pairsWith:
   - brownie-baked-oatmeal
   - chicken-apple-and-butternut-stew
   - cinnamon-sweet-potatoes
+nutrition:
+  calories: 95
+  protein: 2
+  carbs: 25
+  fat: 0.5
+  fiber: 5.5
+  sugar: 16
+  sodium: 1190
 ---
 
 ## Chef's Note
 
-A green smoothie with mango and lime is tropical and tart—the acid cuts through the sweet fruit and mild greens. The trick is using ripe mango (it should yield slightly to pressure) so the smoothie is thick and creamy without needing yogurt or ice cream. Blend greens first with liquid, then add the fruit so it breaks down evenly.
+A green smoothie with mango and lime is tropical and tart - the acid cuts through the sweet fruit and mild greens. The trick is using ripe mango (it should yield slightly to pressure) so the smoothie is thick and creamy without needing yogurt or ice cream. Blend greens first with liquid, then add the fruit so it breaks down evenly.
 ## Directions
 
 1.  **The Base:** In a high-powered blender, combine the spinach, coconut water, and orange. Blend on high for 30 seconds until the greens are completely pulverized.

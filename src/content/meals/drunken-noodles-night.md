@@ -31,5 +31,5 @@ Wide rice noodles stir-fried with Thai basil, chili, garlic, and a sweet-salty s
 ## Notes
 
 - Fresh wide rice noodles from an Asian market are far superior to dried
-- Don't skimp on the Thai basil — it makes the dish
+- Don't skimp on the Thai basil  -  it makes the dish
 - Adjust chili to taste, but it should have some heat

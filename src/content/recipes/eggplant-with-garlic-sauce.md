@@ -52,11 +52,19 @@ ingredients:
   - '3 Dried Red Chilies, chopped'
   - '4 Scallions, chopped on the bias'
 origin: China
+nutrition:
+  calories: 225
+  protein: 2
+  carbs: 9
+  fat: 20.5
+  fiber: 1.5
+  sugar: 5.5
+  sodium: 1070
 ---
 
 ## Chef's Note
 
-Chinese eggplant with garlic sauce is a Sichuan/Hunan classic that's incredibly fast. Stir-fry the eggplant sticks alone over medium-high heat until the flesh turns deep golden and the skin is purple-gold—this develops smoky sweetness that boiling or steaming can't achieve. Chinkiang black vinegar adds the signature malty, complex acidity that balances the rich peanut oil and savory garlic. Chinese eggplants (long, thin ones) work best.
+Chinese eggplant with garlic sauce is a Sichuan/Hunan classic that's incredibly fast. Stir-fry the eggplant sticks alone over medium-high heat until the flesh turns deep golden and the skin is purple-gold - this develops smoky sweetness that boiling or steaming can't achieve. Chinkiang black vinegar adds the signature malty, complex acidity that balances the rich peanut oil and savory garlic. Chinese eggplants (long, thin ones) work best.
 For kids, serve the heat on the side or reduce/omit the spicy elements.
 
 ## Directions

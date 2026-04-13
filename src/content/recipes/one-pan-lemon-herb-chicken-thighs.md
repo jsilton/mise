@@ -47,11 +47,19 @@ ingredients:
   - 1/2 tsp Black Pepper
   - '1 lb Potatoes or Root Vegetables (optional, cut into 1-inch pieces)'
   - Fresh Parsley for garnish
+nutrition:
+  calories: 220
+  protein: 14.5
+  carbs: 7.5
+  fat: 16
+  fiber: 3
+  sugar: 1.5
+  sodium: 740
 ---
 
 ## Chef's Note
 
-Lemon and herb chicken is the Mediterranean weeknight answer: bone-in, skin-on thighs are forgiving, hard to overcook, and get crispy skin when seared first. The acid from lemon cuts the richness of the thighs, and the herbs—oregano especially—are what makes you taste the Mediterranean. Searing the chicken before roasting develops a golden, crispy skin while keeping the inside moist.
+Lemon and herb chicken is the Mediterranean weeknight answer: bone-in, skin-on thighs are forgiving, hard to overcook, and get crispy skin when seared first. The acid from lemon cuts the richness of the thighs, and the herbs - oregano especially - are what makes you taste the Mediterranean. Searing the chicken before roasting develops a golden, crispy skin while keeping the inside moist.
 
 ## Directions
 
@@ -69,6 +77,6 @@ Lemon and herb chicken is the Mediterranean weeknight answer: bone-in, skin-on t
 
 7. **Finish:** Remove from oven. Taste the sauce and adjust lemon juice, salt, or herbs. Garnish with fresh parsley.
 
-**One-Pan Magic:** Everything cooks in the same skillet—proteins, sauce, and vegetables if you add them. The cleanup is minimal.
+**One-Pan Magic:** Everything cooks in the same skillet - proteins, sauce, and vegetables if you add them. The cleanup is minimal.
 
-**Rest:** Let 8 Chicken rest for 5 minutes before slicing or serving — the juices redistribute and every piece stays moist.
+**Rest:** Let 8 Chicken rest for 5 minutes before slicing or serving  -  the juices redistribute and every piece stays moist.

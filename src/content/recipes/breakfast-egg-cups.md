@@ -41,6 +41,14 @@ ingredients:
   - '1 oz Sharp Cheddar Cheese, shredded'
   - Cooking spray
 origin: United States
+nutrition:
+  calories: 90
+  protein: 6.5
+  carbs: 3
+  fat: 6
+  fiber: 0.5
+  sugar: 2.5
+  sodium: 380
 ---
 
 ## Chef's Note

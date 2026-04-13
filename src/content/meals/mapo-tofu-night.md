@@ -18,7 +18,7 @@ bestFor: [tuesday, wednesday, thursday]
 
 ## Meal Overview
 
-The iconic Sichuan dish — silky tofu in a fiery, numbing sauce of doubanjiang and Sichuan peppercorn. Steamed rice is essential to temper the heat, and bok choy adds a fresh green element. Bold, complex, and deeply satisfying.
+The iconic Sichuan dish  -  silky tofu in a fiery, numbing sauce of doubanjiang and Sichuan peppercorn. Steamed rice is essential to temper the heat, and bok choy adds a fresh green element. Bold, complex, and deeply satisfying.
 
 ## Cooking Strategy
 
@@ -31,6 +31,6 @@ The iconic Sichuan dish — silky tofu in a fiery, numbing sauce of doubanjiang 
 
 ## Notes
 
-- Silken or soft tofu is traditional — firm tofu changes the character
+- Silken or soft tofu is traditional  -  firm tofu changes the character
 - Ground Sichuan peppercorn sprinkled on top at the end
 - Adjust the doubanjiang quantity to control heat level

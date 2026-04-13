@@ -43,6 +43,14 @@ ingredients:
   - White Pepper
   - '--- Black vinegar ---'
   - 1 tbsp Black Vinegar
+nutrition:
+  calories: 70
+  protein: 4
+  carbs: 4
+  fat: 4.5
+  fiber: 1
+  sugar: 1
+  sodium: 1610
 ---
 
 ## Chef's Note

@@ -47,11 +47,19 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
+nutrition:
+  calories: 155
+  protein: 21.5
+  carbs: 11.5
+  fat: 3
+  fiber: 1
+  sugar: 0.5
+  sodium: 300
 ---
 
 ## Chef's Note
 
-The Chick-fil-A secret is pickle brine. Soaking chicken in pickle juice accomplishes two things: the salt brines the meat (keeping it juicy) while the vinegar's acid tenderizes it. The result is that distinctive tangy flavor in every bite. Baking on a wire rack lets air circulate underneath, crisping the bottom without flipping. A blast at 425°F with a light coat of cooking spray gives you that golden crunch without the deep fryer mess. These are the base for both BBQ and Sweet Chili variations—sauce them however you like.
+The Chick-fil-A secret is pickle brine. Soaking chicken in pickle juice accomplishes two things: the salt brines the meat (keeping it juicy) while the vinegar's acid tenderizes it. The result is that distinctive tangy flavor in every bite. Baking on a wire rack lets air circulate underneath, crisping the bottom without flipping. A blast at 425°F with a light coat of cooking spray gives you that golden crunch without the deep fryer mess. These are the base for both BBQ and Sweet Chili variations - sauce them however you like.
 For kids, serve the heat on the side or reduce/omit the spicy elements.
 
 ## Directions

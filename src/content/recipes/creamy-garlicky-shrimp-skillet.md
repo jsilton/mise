@@ -47,6 +47,14 @@ ingredients:
   - '1 tbsp Fresh Parsley, chopped'
   - Salt and Black Pepper
 origin: Italy
+nutrition:
+  calories: 885
+  protein: 40
+  carbs: 63.5
+  fat: 54
+  fiber: 8.5
+  sugar: 9
+  sodium: 650
 ---
 
 ## Chef's Note

@@ -49,6 +49,14 @@ ingredients:
   - '2 cloves Garlic, thinly sliced'
   - '3 stalks Green Onion, cut on the diagonal'
 origin: China
+nutrition:
+  calories: 480
+  protein: 43
+  carbs: 51.5
+  fat: 12.5
+  fiber: 14.5
+  sugar: 16.5
+  sodium: 1820
 ---
 
 ## Chef's Note

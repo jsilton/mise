@@ -39,11 +39,19 @@ seasons:
 nutritionalDensity: moderate
 leftovers: good
 equipment: []
+nutrition:
+  calories: 855
+  protein: 46
+  carbs: 10
+  fat: 72
+  fiber: 2.5
+  sugar: 4.5
+  sodium: 180
 ---
 
 ## Chef's Note
 
-Yogurt-marinated chicken comes from Central Asian and Middle Eastern home cooking, where tangy dairy is a staple marinade base. Yogurt's acidity and enzymes tenderize fast, so even a 1-hour marinate makes a difference. The chile yogurt sauce is the finishing touch—same base with fresh chiles stirred through, bright and cooling against the charred meat.
+Yogurt-marinated chicken comes from Central Asian and Middle Eastern home cooking, where tangy dairy is a staple marinade base. Yogurt's acidity and enzymes tenderize fast, so even a 1-hour marinate makes a difference. The chile yogurt sauce is the finishing touch - same base with fresh chiles stirred through, bright and cooling against the charred meat.
 ## Directions
 
 1.  **The Paprika Rub:** In a large bowl, whisk 1/2 cup olive oil with the paprika. Toss the chicken pieces to coat. Let stand at room temperature for 15-20 minutes.

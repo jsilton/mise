@@ -32,6 +32,6 @@ A fresh, light Monday recovery meal that feels elegant without requiring effort.
 
 ## Notes
 
-- Don't overcrowd the pan with shrimp—sear in batches for crispy edges
+- Don't overcrowd the pan with shrimp - sear in batches for crispy edges
 - Fresh lemon juice at the end brightens everything
 - This meal is even faster if you use pre-cooked rice

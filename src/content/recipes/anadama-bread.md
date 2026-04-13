@@ -44,6 +44,14 @@ ingredients:
   - 3 cups All-Purpose Flour
   - 1 tsp Kosher Salt
 origin: United States
+nutrition:
+  calories: 2070
+  protein: 51
+  carbs: 393.5
+  fat: 31
+  fiber: 19
+  sugar: 1
+  sodium: 2510
 ---
 
 ## Chef's Note
@@ -53,7 +61,7 @@ Anadama is a quintessential New England bread, supposedly named after a fisherma
 ## Directions
 
 1.  **The Porridge:** In a small saucepan, whisk 1/2 cup water and cornmeal. Bring to a boil, stirring constantly for 5 minutes until thickened. Remove from heat.
-2.  **Melt:** Stir in the butter and molasses. Let cool until lukewarm (critical—if too hot, it will kill the yeast).
+2.  **Melt:** Stir in the butter and molasses. Let cool until lukewarm (critical - if too hot, it will kill the yeast).
 3.  **The Yeast:** In a large bowl, dissolve the yeast in the warm water. Let sit for 10 minutes until foamy.
 4.  **The Dough:** Stir the cornmeal mixture into the yeast. Add 2 cups of flour and the salt. Gradually add the remaining flour until a shaggy dough forms.
 5.  **Knead:** Turn out onto a floured surface. Knead for 8-10 minutes until smooth and elastic. The dough should be slightly tacky but not sticky.

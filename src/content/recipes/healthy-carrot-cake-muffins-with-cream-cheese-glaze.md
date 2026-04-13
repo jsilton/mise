@@ -52,11 +52,19 @@ ingredients:
   - 1 tbsp Milk
   - 1/2 tsp Vanilla Extract
 origin: United States
+nutrition:
+  calories: 205
+  protein: 1.5
+  carbs: 38
+  fat: 6
+  fiber: 0.5
+  sugar: 35.5
+  sodium: 350
 ---
 
 ## Chef's Note
 
-Using the finest holes on your grater for the carrots allows them to melt into the batter, providing moisture without large, distracting chunks. Applesauce reduces oil content while maintaining dense texture. The cream cheese glaze adds welcome tanginess—dip muffin tops while cold for clean coating.
+Using the finest holes on your grater for the carrots allows them to melt into the batter, providing moisture without large, distracting chunks. Applesauce reduces oil content while maintaining dense texture. The cream cheese glaze adds welcome tanginess - dip muffin tops while cold for clean coating.
 
 ## Directions
 

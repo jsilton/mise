@@ -18,7 +18,7 @@ bestFor: [saturday, sunday]
 
 ## Meal Overview
 
-Low and slow pulled pork that practically cooks itself — set it in the morning, feast by dinner. The cornbread is warm and buttery, the coleslaw adds crunch and acid, and the black beans round out the plate. Perfect for feeding a crowd with minimal effort.
+Low and slow pulled pork that practically cooks itself  -  set it in the morning, feast by dinner. The cornbread is warm and buttery, the coleslaw adds crunch and acid, and the black beans round out the plate. Perfect for feeding a crowd with minimal effort.
 
 ## Cooking Strategy
 

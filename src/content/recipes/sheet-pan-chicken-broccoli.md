@@ -40,6 +40,14 @@ ingredients:
   - 1/2 cup Panko Breadcrumbs
   - 1 tbsp Olive Oil
 origin: United States
+nutrition:
+  calories: 355
+  protein: 10
+  carbs: 53.5
+  fat: 11
+  fiber: 3
+  sugar: 0.5
+  sodium: 320
 ---
 
 ## Chef's Note

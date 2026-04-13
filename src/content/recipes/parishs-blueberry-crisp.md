@@ -41,11 +41,19 @@ pairsWith:
   - apple-pie
   - blackout-chocolate-cake
   - classic-peach-ice-cream
+nutrition:
+  calories: 345
+  protein: 2.5
+  carbs: 67
+  fat: 8.5
+  fiber: 1
+  sugar: 46.5
+  sodium: 390
 ---
 
 ## Chef's Note
 
-A crisp lives or dies by its topping—here, the secret is cooking the butter to brown butter stage (dark milk solids, nutty aroma) before mixing with the dry ingredients, so every crumb tastes like toasted nuts. The blueberry filling is tightened with cornstarch and lemon juice, preventing a soupy cobbler while keeping the fruit's bright acidity front and center.
+A crisp lives or dies by its topping - here, the secret is cooking the butter to brown butter stage (dark milk solids, nutty aroma) before mixing with the dry ingredients, so every crumb tastes like toasted nuts. The blueberry filling is tightened with cornstarch and lemon juice, preventing a soupy cobbler while keeping the fruit's bright acidity front and center.
 ## Directions
 
 1.  **The Fruit:** In a saucepan, combine blueberries, 1/4 cup water, and lemon juice. Whisk sugar and cornstarch together and stir into the fruit. Cook over medium for 4 minutes until the juices thicken. Pour into a greased 9-inch square dish.

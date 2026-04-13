@@ -44,11 +44,19 @@ ingredients:
   - '1/2 cup Fresh Basil, torn'
   - Salt and Black Pepper
 origin: Italy
+nutrition:
+  calories: 610
+  protein: 9
+  carbs: 7.5
+  fat: 62
+  fiber: 2.5
+  sugar: 1
+  sodium: 60
 ---
 
 ## Chef's Note
 
-Lemon-ricotta pasta is Italian elegance that's fast and forgiving: creamy ricotta with bright lemon, finished with fresh basil. Ricotta is mild, so the lemon has to be bold—don't be shy with zest. The pasta water emulsifies the ricotta into a silky sauce without needing cream or extra fat.
+Lemon-ricotta pasta is Italian elegance that's fast and forgiving: creamy ricotta with bright lemon, finished with fresh basil. Ricotta is mild, so the lemon has to be bold - don't be shy with zest. The pasta water emulsifies the ricotta into a silky sauce without needing cream or extra fat.
 ## Directions
 
 1.  **Boil:** Cook pasta in heavily salted water for 1 minute **less** than the package instructions.

@@ -17,7 +17,7 @@ bestFor: [monday, tuesday, wednesday, thursday]
 
 ## Meal Overview
 
-One of the fastest pasta meals you can make — creamy ricotta, bright lemon, and pasta water create a silky sauce with zero fuss. The arugula-feta salad adds substance and peppery bite. Perfect for nights when you want something delicious with minimal effort.
+One of the fastest pasta meals you can make  -  creamy ricotta, bright lemon, and pasta water create a silky sauce with zero fuss. The arugula-feta salad adds substance and peppery bite. Perfect for nights when you want something delicious with minimal effort.
 
 ## Cooking Strategy
 
@@ -29,6 +29,6 @@ One of the fastest pasta meals you can make — creamy ricotta, bright lemon, an
 
 ## Notes
 
-- Use good-quality whole-milk ricotta — it makes a huge difference
+- Use good-quality whole-milk ricotta  -  it makes a huge difference
 - Lots of black pepper and a drizzle of good olive oil to finish
 - Fresh herbs (basil or mint) are a beautiful addition

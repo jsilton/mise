@@ -47,15 +47,23 @@ seasons:
 nutritionalDensity: moderate
 leftovers: poor
 equipment: []
+nutrition:
+  calories: 165
+  protein: 9
+  carbs: 12
+  fat: 9
+  fiber: 1.5
+  sugar: 4
+  sodium: 1380
 ---
 
 ## Chef's Note
 
-Because lamb is naturally fatty, shaping patties into ovals rather than rounds maximizes surface area for searing, rendering external fat into a crispy crust. Finely diced cucumber in the sauce provides textural crunch that contrasts the rich meat—grated cucumber releases too much water. The cool yogurt sauce cuts through lamb's gaminess with welcome acidity.
+Because lamb is naturally fatty, shaping patties into ovals rather than rounds maximizes surface area for searing, rendering external fat into a crispy crust. Finely diced cucumber in the sauce provides textural crunch that contrasts the rich meat - grated cucumber releases too much water. The cool yogurt sauce cuts through lamb's gaminess with welcome acidity.
 
 ## Directions
 
-1.  **The Sauce:** In a small bowl, whisk yogurt, diced cucumber, minced mint, olive oil, and garlic. Season with salt and pepper. Cover and refrigerate for 30 minutes—this is mandatory for the flavors to meld.
+1.  **The Sauce:** In a small bowl, whisk yogurt, diced cucumber, minced mint, olive oil, and garlic. Season with salt and pepper. Cover and refrigerate for 30 minutes - this is mandatory for the flavors to meld.
 2.  **The Mix:** In a large bowl, combine lamb, onion, garlic, herbs, salt, and pepper. Knead gently until **just incorporated**. Over-mixing will cause the lamb to turn tough.
 3.  **Shape:** Form into 4 long oval patties (about 1/2-inch thick). Brush both sides lightly with olive oil.
 4.  **Sear:** Preheat a grill or cast-iron skillet to medium-high. Grill for 5-6 minutes per side for medium doneness.
@@ -63,4 +71,4 @@ Because lamb is naturally fatty, shaping patties into ovals rather than rounds m
 6.  **Assemble:** Place a burger on each pita. Top with a massive dollop of the yogurt sauce, feta, tomatoes, and greens.
 7.  **Serve:** Fold and serve immediately while the lamb juices are still hot.
 
-**Rest:** Let Ground Lamb rest for 5 minutes before slicing or serving — the juices redistribute and every piece stays moist.
+**Rest:** Let Ground Lamb rest for 5 minutes before slicing or serving  -  the juices redistribute and every piece stays moist.

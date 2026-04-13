@@ -39,6 +39,14 @@ ingredients:
     Standard)
   - 1 cup Fresh Berries or chopped fruit
 origin: United States
+nutrition:
+  calories: 55
+  protein: 4
+  carbs: 9
+  fat: 1
+  fiber: 0.5
+  sugar: 7.5
+  sodium: 20
 ---
 
 ## Chef's Note

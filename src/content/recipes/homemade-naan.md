@@ -42,6 +42,14 @@ leftovers: good
 advancePrep:
   - rise-dough
 equipment: []
+nutrition:
+  calories: 185
+  protein: 6
+  carbs: 25.5
+  fat: 6.5
+  fiber: 1
+  sugar: 1.5
+  sodium: 320
 ---
 
 ## Chef's Note

@@ -48,6 +48,14 @@ pairsWith:
   - avocado-kale-caesar-salad
   - herb-marinated-pork-tenderloins
   - honey-glazed-carrots
+nutrition:
+  calories: 130
+  protein: 0.5
+  carbs: 34
+  fat: 0
+  fiber: 2
+  sugar: 30.5
+  sodium: 0
 ---
 
 ## Chef's Note

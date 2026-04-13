@@ -2,49 +2,74 @@
 title: Thit Kho (Vietnamese Caramelized Pork)
 origin: Vietnam
 difficulty: easy
-cookingMethods: [braise, simmer, sauté]
+cookingMethods:
+  - braise
+  - simmer
+  - sauté
 dietary: []
-occasions: [weeknight, comfort-food, entertaining]
-flavorProfile: [savory, sweet, umami, aromatic]
-cuisines: [Vietnamese]
+occasions:
+  - weeknight
+  - comfort-food
+  - entertaining
+flavorProfile:
+  - savory
+  - sweet
+  - umami
+  - aromatic
+cuisines:
+  - Vietnamese
 role: main
 vibe: comfort
-seasons: [year-round]
+seasons:
+  - year-round
 nutritionalDensity: hearty
 leftovers: excellent
-advancePrep: [make-ahead]
-equipment: [medium-saucepan, cutting-board]
+advancePrep:
+  - make-ahead
+equipment:
+  - medium-saucepan
+  - cutting-board
 prepTime: 10 min
 cookTime: 45 min
 totalTime: 55 min
 servings: '4'
-pairsWith: [steamed-white-rice, cilantro-lime-rice]
+pairsWith:
+  - steamed-white-rice
+  - cilantro-lime-rice
 ingredients:
   - '1.5 lbs Pork Shoulder or Belly, cut into 1-inch cubes'
   - '2 medium Shallots, halved lengthwise'
   - '4 cloves Garlic, peeled'
-  - '2 tsp Fish Sauce'
-  - '3 tbsp Brown Sugar (or palm sugar)'
-  - '1 cup Coconut Water (or regular water)'
-  - '1 tbsp Vegetable Oil'
-  - '2 whole Dried Chilies (optional but recommended)'
-  - '1 tsp Black Pepper'
-  - '3 tbsp Fish Sauce (for sauce adjustment)'
+  - 2 tsp Fish Sauce
+  - 3 tbsp Brown Sugar (or palm sugar)
+  - 1 cup Coconut Water (or regular water)
+  - 1 tbsp Vegetable Oil
+  - 2 whole Dried Chilies (optional but recommended)
+  - 1 tsp Black Pepper
+  - 3 tbsp Fish Sauce (for sauce adjustment)
   - '--- For Serving ---'
   - 'Fresh Cilantro, chopped'
   - 'Scallions, chopped'
-  - 'Fresh Lime Wedges'
+  - Fresh Lime Wedges
+nutrition:
+  calories: 105
+  protein: 4
+  carbs: 13
+  fat: 4.5
+  fiber: 0.5
+  sugar: 10.5
+  sodium: 4100
 ---
 
 ## Chef's Note
 
-Thit kho is Vietnamese home cooking at its most elemental—pork braised in a sticky, aromatic sauce of caramelized sugar, fish sauce, and garlic until the meat is tender and the braising liquid turns glossy and complex. Vietnamese mothers have made this for generations because it's forgiving, improves with time, and tastes even better the next day. The magic is in the caramel: brown sugar is cooked in oil until it darkens and smells toasty, then the pork is added to the hot sugar and left to sit—the pork cubes caramelize at the edges while the sugar dissolves into the braising liquid. Low heat, patience, and fish sauce are all you need.
+Thit kho is Vietnamese home cooking at its most elemental - pork braised in a sticky, aromatic sauce of caramelized sugar, fish sauce, and garlic until the meat is tender and the braising liquid turns glossy and complex. Vietnamese mothers have made this for generations because it's forgiving, improves with time, and tastes even better the next day. The magic is in the caramel: brown sugar is cooked in oil until it darkens and smells toasty, then the pork is added to the hot sugar and left to sit - the pork cubes caramelize at the edges while the sugar dissolves into the braising liquid. Low heat, patience, and fish sauce are all you need.
 
 ## Directions
 
-1. **Pat the Pork Dry:** Place the pork cubes on a paper towel and pat dry. Wet meat won't brown properly. Don't skip this step—it's the difference between caramelized and steamed.
+1. **Pat the Pork Dry:** Place the pork cubes on a paper towel and pat dry. Wet meat won't brown properly. Don't skip this step - it's the difference between caramelized and steamed.
 
-2. **Make the Caramel:** Heat the oil in a medium saucepan over medium heat. Add the brown sugar and cook, stirring occasionally, for 2-3 minutes until the sugar melts, darkens, and smells toasty and caramel-like. The color should be deep amber, not burned (if it smells acrid, you've gone too far—start over).
+2. **Make the Caramel:** Heat the oil in a medium saucepan over medium heat. Add the brown sugar and cook, stirring occasionally, for 2-3 minutes until the sugar melts, darkens, and smells toasty and caramel-like. The color should be deep amber, not burned (if it smells acrid, you've gone too far - start over).
 
 3. **Add the Pork:** Carefully add the pork cubes to the hot caramel. Stir gently so each piece makes contact with the hot caramel. Let it sit undisturbed for 2 minutes so the meat develops a caramelized crust.
 
@@ -54,7 +79,7 @@ Thit kho is Vietnamese home cooking at its most elemental—pork braised in a st
 
 6. **Braise:** Bring to a gentle simmer over medium heat. Once simmering, reduce heat to low and cover partially (leave the lid slightly ajar to allow some reduction). Simmer gently for 35-40 minutes, stirring occasionally, until the pork is tender and the braising liquid has reduced by about half and turned glossy and thick. The sauce should coat the back of a spoon.
 
-7. **Taste and Adjust:** Remove from heat. The sauce should be balanced between salty (from fish sauce) and sweet (from caramel). Add more fish sauce (a few drops at a time) if it needs more salt and umami. Add a pinch more sugar if it tastes too salty. The balance is personal—taste and adjust.
+7. **Taste and Adjust:** Remove from heat. The sauce should be balanced between salty (from fish sauce) and sweet (from caramel). Add more fish sauce (a few drops at a time) if it needs more salt and umami. Add a pinch more sugar if it tastes too salty. The balance is personal - taste and adjust.
 
 8. **Rest:** Let the pork rest for 5 minutes off heat. The sauce will thicken slightly as it cools.
 

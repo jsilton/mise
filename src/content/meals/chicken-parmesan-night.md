@@ -19,7 +19,7 @@ bestFor: [wednesday, thursday, friday]
 
 ## Meal Overview
 
-The Italian-American crowd-pleaser — crispy breaded chicken topped with marinara and melted mozzarella, served over pasta. Garlic bread and a simple salad round out the plate. Everyone loves chicken parm night.
+The Italian-American crowd-pleaser  -  crispy breaded chicken topped with marinara and melted mozzarella, served over pasta. Garlic bread and a simple salad round out the plate. Everyone loves chicken parm night.
 
 ## Cooking Strategy
 

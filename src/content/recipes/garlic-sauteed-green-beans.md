@@ -2,31 +2,54 @@
 title: Garlic Sauteed Green Beans
 origin: United States
 difficulty: easy
-cookingMethods: [sauté]
-dietary: [vegetarian, vegan, gluten-free, dairy-free]
-occasions: [weeknight, light-and-fresh]
-flavorProfile: [savory, herbaceous]
-cuisines: [American]
+cookingMethods:
+  - sauté
+dietary:
+  - vegetarian
+  - vegan
+  - gluten-free
+  - dairy-free
+occasions:
+  - weeknight
+  - light-and-fresh
+flavorProfile:
+  - savory
+  - herbaceous
+cuisines:
+  - American
 role: side
 vibe: quick
 prepTime: 5 min
 cookTime: 8 min
 totalTime: 13 min
 servings: '4'
-seasons: [year-round]
+seasons:
+  - year-round
 nutritionalDensity: light
 leftovers: good
 advancePrep: []
-equipment: [skillet]
+equipment:
+  - skillet
 pairsWith:
-  [buttermilk-baked-chicken, shrimp-fettuccine-alfredo, baked-cod-with-lemon-panko, chicken-marsala]
+  - buttermilk-baked-chicken
+  - shrimp-fettuccine-alfredo
+  - baked-cod-with-lemon-panko
+  - chicken-marsala
 ingredients:
   - '1 lb Green Beans, trimmed'
-  - '2 tbsp Olive Oil'
+  - 2 tbsp Olive Oil
   - '4 cloves Garlic, thinly sliced'
-  - '1/4 tsp Red Pepper Flakes (optional)'
-  - 'Kosher Salt and Black Pepper'
-  - '1 tsp Lemon Juice'
+  - 1/4 tsp Red Pepper Flakes (optional)
+  - Kosher Salt and Black Pepper
+  - 1 tsp Lemon Juice
+nutrition:
+  calories: 80
+  protein: 1
+  carbs: 5
+  fat: 7
+  fiber: 1.5
+  sugar: 1.5
+  sodium: 10
 ---
 
 ## Chef's Note

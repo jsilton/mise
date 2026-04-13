@@ -47,11 +47,19 @@ seasons:
 nutritionalDensity: moderate
 leftovers: good
 equipment: []
+nutrition:
+  calories: 250
+  protein: 0.5
+  carbs: 4
+  fat: 26.5
+  fiber: 0.5
+  sugar: 1
+  sodium: 50
 ---
 
 ## Chef's Note
 
-Butternut squash soup exists in many cuisines—this version uses the American strategy of infusing the broth itself with whole spices and the squash's own trimmings, building depth before the puree. The pomegranate arils and cilantro finish is not traditional to early American cooking, but it honors the principle: acid and herbaceous brightness must cut the richness of a creamed soup.
+Butternut squash soup exists in many cuisines - this version uses the American strategy of infusing the broth itself with whole spices and the squash's own trimmings, building depth before the puree. The pomegranate arils and cilantro finish is not traditional to early American cooking, but it honors the principle: acid and herbaceous brightness must cut the richness of a creamed soup.
 ## Directions
 
 1.  **Harvest Broth:** Peel and seed the squash. Place all trimmings, seeds, and whole spices in a pot with 7 cups water. Simmer for 45 minutes. Strain and reserve the liquid.

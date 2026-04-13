@@ -43,6 +43,14 @@ ingredients:
   - '1/4 cup Fresh Parsley, chopped'
   - 1/2 cup Reserved Pasta Water
 origin: China
+nutrition:
+  calories: 360
+  protein: 23
+  carbs: 44
+  fat: 11
+  fiber: 3
+  sugar: 1
+  sodium: 1050
 ---
 
 ## Chef's Note

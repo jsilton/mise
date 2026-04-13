@@ -41,6 +41,14 @@ pairsWith:
   - apple-pie
   - blackout-chocolate-cake
   - classic-peach-ice-cream
+nutrition:
+  calories: 555
+  protein: 6
+  carbs: 29.5
+  fat: 46.5
+  fiber: 1.5
+  sugar: 7
+  sodium: 350
 ---
 
 ## Chef's Note
@@ -51,7 +59,7 @@ This is classic Key lime pie for the holiday table. The key to its texture is wh
 
 1.  **The Crust:** Preheat oven to 350°F. Stir together crumbs, sugar, and melted butter until it looks like wet sand. Press firmly into the bottom and up the sides of a 9-inch glass pie plate. Bake for 10 minutes. Let cool.
 2.  **The Emulsion:** In a large bowl, whisk the condensed milk and egg yolks until pale and thick.
-3.  **The Bind:** Slowly whisk in the key lime juice—the mixture will noticeably thicken.
+3.  **The Bind:** Slowly whisk in the key lime juice - the mixture will noticeably thicken.
 4.  **Bake:** Pour the filling into the cooled crust. Bake for 15 minutes until set around the edges but still having a slight "jiggle" in the center.
 5.  **The Finish:** Cool completely on a rack, then refrigerate for **at least 8 hours** (mandatory).
 6.  **The Crown:** Just before serving, whip the heavy cream and powdered sugar until stiff peaks form.

@@ -2,36 +2,59 @@
 title: Bibimbap
 difficulty: intermediate
 origin: Korea
-cookingMethods: [fry, saute]
+cookingMethods:
+  - fry
+  - saute
 dietary: []
-occasions: [weeknight, meal-prep]
-flavorProfile: [spicy, sweet, savory, acidic, rich]
-cuisines: [Korean]
+occasions:
+  - weeknight
+  - meal-prep
+flavorProfile:
+  - spicy
+  - sweet
+  - savory
+  - acidic
+  - rich
+cuisines:
+  - Korean
 role: main
 vibe: nutritious
-seasons: [spring, summer, fall, winter]
+seasons:
+  - spring
+  - summer
+  - fall
+  - winter
 nutritionalDensity: hearty
 leftovers: poor
-advancePrep: [components-ahead]
-equipment: [skillet, mixing-bowl]
+advancePrep:
+  - components-ahead
+equipment:
+  - skillet
+  - mixing-bowl
 prepTime: 10 min
 cookTime: 10 min
 totalTime: 20 min
 servings: '4'
 pairsWith:
-  [
-    korean-pickled-cucumbers,
-    fresh-cabbage-cucumber-and-radish-kimchi,
-    korean-mung-bean-sprouts-salad,
-  ]
+  - korean-pickled-cucumbers
+  - fresh-cabbage-cucumber-and-radish-kimchi
+  - korean-mung-bean-sprouts-salad
 ingredients:
-  - '4 cups Cooked Rice (See note)'
+  - 4 cups Cooked Rice (See note)
   - '4 Eggs, fried sunny-side up'
-  - '2 tbsp Gochujang'
-  - '1 tbsp Toasted Sesame Oil'
-  - '1 tbsp Sugar'
-  - '1 tbsp Water'
-  - '1 tsp Rice Vinegar'
+  - 2 tbsp Gochujang
+  - 1 tbsp Toasted Sesame Oil
+  - 1 tbsp Sugar
+  - 1 tbsp Water
+  - 1 tsp Rice Vinegar
+nutrition:
+  calories: 60
+  protein: 1.5
+  carbs: 3.5
+  fat: 4.5
+  fiber: 0
+  sugar: 3
+  sodium: 50
 ---
 
 ## Chef's Note

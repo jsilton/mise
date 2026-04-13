@@ -41,6 +41,14 @@ ingredients:
   - 1/4 cup Reserved Pasta Water
   - '--- Lemon juice ---'
   - '1-2 Lemons, juiced'
+nutrition:
+  calories: 735
+  protein: 38
+  carbs: 46.5
+  fat: 44.5
+  fiber: 3
+  sugar: 2.5
+  sodium: 1200
 ---
 
 ## Chef's Note

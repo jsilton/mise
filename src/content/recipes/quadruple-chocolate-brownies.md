@@ -41,11 +41,19 @@ pairsWith:
   - apple-pie
   - babys-first-smash-cake
   - best-cinnamon-roll-recipe-cinnabon-copycat
+nutrition:
+  calories: 150
+  protein: 3
+  carbs: 30.5
+  fat: 2
+  fiber: 0.5
+  sugar: 23.5
+  sodium: 100
 ---
 
 ## Chef's Note
 
-Folding chunks of bittersweet, white, and milk chocolate into unsweetened chocolate batter, then drizzling melted versions on top before swirling creates varying textures in every square—some pockets stay fudgy, others develop crisp edges. A full pound of unsweetened chocolate as the base provides bitter depth that balances the sugar and eggs, preventing these dense, rich brownies from tasting overly sweet.
+Folding chunks of bittersweet, white, and milk chocolate into unsweetened chocolate batter, then drizzling melted versions on top before swirling creates varying textures in every square - some pockets stay fudgy, others develop crisp edges. A full pound of unsweetened chocolate as the base provides bitter depth that balances the sugar and eggs, preventing these dense, rich brownies from tasting overly sweet.
 
 ## Directions
 

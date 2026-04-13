@@ -53,6 +53,14 @@ ingredients:
   - '2 tbsp Fresh Flat-Leaf Parsley, roughly chopped'
   - 1 tbsp Fresh Lemon Juice
   - 'Crusty Bread, for serving'
+nutrition:
+  calories: 630
+  protein: 27.5
+  carbs: 8
+  fat: 55.5
+  fiber: 1.5
+  sugar: 1.5
+  sodium: 1070
 ---
 
 ## Chef's Note

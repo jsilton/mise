@@ -38,11 +38,19 @@ ingredients:
   - 1/2 tsp Toasted Sesame Oil (optional)
   - 1/4 tsp Red Pepper Flakes (optional)
 origin: Japan
+nutrition:
+  calories: 85
+  protein: 5
+  carbs: 3.5
+  fat: 5.5
+  fiber: 2.5
+  sugar: 1
+  sodium: 630
 ---
 
 ## Chef's Note
 
-Edamame is the ultimate low-effort side dish—frozen pods go straight to the pot, and five minutes later you have a protein-rich snack that pairs with almost any Asian main. The key is generous salting while still warm so the crystals stick to the fuzzy pods. Don't skip the flaky salt; fine table salt slides right off and doesn't deliver that satisfying crunch.
+Edamame is the ultimate low-effort side dish - frozen pods go straight to the pot, and five minutes later you have a protein-rich snack that pairs with almost any Asian main. The key is generous salting while still warm so the crystals stick to the fuzzy pods. Don't skip the flaky salt; fine table salt slides right off and doesn't deliver that satisfying crunch.
 
 ## Directions
 
@@ -52,4 +60,4 @@ Edamame is the ultimate low-effort side dish—frozen pods go straight to the po
 
 3. **The Season:** Transfer to a serving bowl while still hot. Drizzle with sesame oil if using, then sprinkle generously with flaky salt and red pepper flakes.
 
-4. **The Serve:** Serve immediately. Eat by squeezing pods to pop beans into your mouth—discard the pods.
+4. **The Serve:** Serve immediately. Eat by squeezing pods to pop beans into your mouth - discard the pods.

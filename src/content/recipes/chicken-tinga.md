@@ -39,11 +39,19 @@ seasons:
 nutritionalDensity: moderate
 leftovers: good
 equipment: []
+nutrition:
+  calories: 25
+  protein: 2
+  carbs: 4
+  fat: 0.5
+  fiber: 1
+  sugar: 2
+  sodium: 550
 ---
 
 ## Chef's Note
 
-Tinga is a Pueblan dish of shredded meat in smoky chipotle-tomato sauce. The key technique is tatemar—charring tomatoes and garlic directly on a hot skillet or comal to deepen their flavor before blending into a smooth sauce. This creates the characteristic smoky, earthy base. A squeeze of lime at the end brightens the rich, savory flavors.
+Tinga is a Pueblan dish of shredded meat in smoky chipotle-tomato sauce. The key technique is tatemar - charring tomatoes and garlic directly on a hot skillet or comal to deepen their flavor before blending into a smooth sauce. This creates the characteristic smoky, earthy base. A squeeze of lime at the end brightens the rich, savory flavors.
 
 ## Directions
 

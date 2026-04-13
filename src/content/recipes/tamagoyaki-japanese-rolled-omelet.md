@@ -46,17 +46,25 @@ ingredients:
   - '1 tbsp Vegetable Oil, plus more for the pan'
   - '--- Optional ---'
   - '1 tbsp Mitsuba (Japanese parsley) or chives, finely chopped'
+nutrition:
+  calories: 185
+  protein: 12.5
+  carbs: 4
+  fat: 13.5
+  fiber: 0
+  sugar: 4
+  sodium: 970
 ---
 
 ## Chef's Note
 
-Tamagoyaki is a Japanese omelet rolled into a compact log and sliced thin—a technique that's been perfected by home cooks for generations and looks more impressive than it is. The egg is whisked with dashi and mirin (sweet rice vinegar), creating something between an omelet and a custard. The rolling happens directly in the pan: you layer thin sheets of cooked egg, rolling from one end to the other, then slice it into rounds. It appears on every bento box, appears at breakfast, and is surprisingly forgiving once you understand the roll. The key is a rectangular tamagoyaki pan, which makes the rolling intuitive—but a regular 8-inch square skillet works fine too.
+Tamagoyaki is a Japanese omelet rolled into a compact log and sliced thin - a technique that's been perfected by home cooks for generations and looks more impressive than it is. The egg is whisked with dashi and mirin (sweet rice vinegar), creating something between an omelet and a custard. The rolling happens directly in the pan: you layer thin sheets of cooked egg, rolling from one end to the other, then slice it into rounds. It appears on every bento box, appears at breakfast, and is surprisingly forgiving once you understand the roll. The key is a rectangular tamagoyaki pan, which makes the rolling intuitive - but a regular 8-inch square skillet works fine too.
 
 ## Directions
 
 1. **Make the Egg Mixture:** In a small bowl, whisk together eggs, dashi, mirin, soy sauce, sugar, and salt until completely combined and uniform. The mixture should be light yellow and frothy. If using mitsuba, fold it in gently now. Let the mixture rest for 1 minute while you heat the pan.
 
-2. **Heat the Pan:** Use a tamagoyaki pan (rectangular Japanese omelet pan) or a small non-stick skillet over medium heat. Add 1 tbsp vegetable oil and let it coat the pan evenly. Wait 30 seconds until the oil shimmers—do not let it smoke.
+2. **Heat the Pan:** Use a tamagoyaki pan (rectangular Japanese omelet pan) or a small non-stick skillet over medium heat. Add 1 tbsp vegetable oil and let it coat the pan evenly. Wait 30 seconds until the oil shimmers - do not let it smoke.
 
 3. **First Layer:** Pour about 1/4 of the egg mixture into the hot pan, tilting to distribute it evenly in a thin, even layer. Let it cook for about 1-2 minutes until the bottom is set and the top is still slightly wet. This should happen quickly.
 
@@ -74,10 +82,10 @@ Tamagoyaki is a Japanese omelet rolled into a compact log and sliced thin—a te
 
 10. **Serve:** Serve warm or at room temperature, often with a small dish of soy sauce for dipping. Can be packed in bento boxes with rice and pickles.
 
-**Pan Choice:** A tamagoyaki pan is narrow and rectangular (about 3 by 4 inches), which makes rolling intuitive. But a regular 8-inch non-stick skillet works—just make slightly thinner layers and be gentler with the roll.
+**Pan Choice:** A tamagoyaki pan is narrow and rectangular (about 3 by 4 inches), which makes rolling intuitive. But a regular 8-inch non-stick skillet works - just make slightly thinner layers and be gentler with the roll.
 
 **Dashi Source:** Quick dashi takes 5 minutes (kombu and bonito flakes steeped in hot water) but instant dashi powder (available at any Asian market) is fine. Regular chicken stock works if you prefer.
 
-**Rolling Confidence:** The first roll feels awkward; by the second, you'll get the rhythm. Don't overthink it—the egg is forgiving and will fuse as it cooks.
+**Rolling Confidence:** The first roll feels awkward; by the second, you'll get the rhythm. Don't overthink it - the egg is forgiving and will fuse as it cooks.
 
 **Make-Ahead:** Tamagoyaki tastes equally good warm or at room temperature and keeps well in the fridge for 2-3 days, making it perfect for bento box prep.

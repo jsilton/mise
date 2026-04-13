@@ -18,8 +18,8 @@ role: main
 vibe: quick
 prepTime: 15 min
 cookTime: 0 min
-totalTime: '15 min'
-servings: '32 pinwheels'
+totalTime: 15 min
+servings: 32 pinwheels
 pairsWith:
   - charred-asparagus-with-parmesan
   - everyday-arugula-salad
@@ -40,11 +40,19 @@ seasons:
 nutritionalDensity: moderate
 leftovers: good
 equipment: []
+nutrition:
+  calories: 75
+  protein: 2.5
+  carbs: 5
+  fat: 5.5
+  fiber: 1
+  sugar: 1
+  sodium: 150
 ---
 
 ## Chef's Note
 
-These quick appetizers or lunch components require proper technique to avoid falling apart. Blending cream cheese with flavored oil from sun-dried tomatoes creates a tacky, flavor-rich spread that binds the fillings to the tortilla. Squeeze spinach until bone-dry—wet spinach makes tortillas soggy and causes rolls to unravel.
+These quick appetizers or lunch components require proper technique to avoid falling apart. Blending cream cheese with flavored oil from sun-dried tomatoes creates a tacky, flavor-rich spread that binds the fillings to the tortilla. Squeeze spinach until bone-dry - wet spinach makes tortillas soggy and causes rolls to unravel.
 
 ## Directions
 

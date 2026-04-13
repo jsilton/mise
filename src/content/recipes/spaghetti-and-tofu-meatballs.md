@@ -51,11 +51,19 @@ ingredients:
   - '--- Lemon juice ---'
   - '1-2 Lemons, juiced'
 origin: Italy
+nutrition:
+  calories: 1010
+  protein: 43.5
+  carbs: 34.5
+  fat: 90.5
+  fiber: 14.5
+  sugar: 6.5
+  sodium: 700
 ---
 
 ## Chef's Note
 
-Vegetarian "meatballs" have been made with nuts and grains for centuries, though tofu-based versions became popular in the 1970s and 80s. The key to firm texture is pressing the tofu bone-dry, then binding it with ground walnuts and breadcrumbs. Sauté your vegetables until tender before mixing them into the tofu—this ensures they don't release water during baking. Dijon mustard adds a tangy note that balances the earthy soy and nutty flavors.
+Vegetarian "meatballs" have been made with nuts and grains for centuries, though tofu-based versions became popular in the 1970s and 80s. The key to firm texture is pressing the tofu bone-dry, then binding it with ground walnuts and breadcrumbs. Sauté your vegetables until tender before mixing them into the tofu - this ensures they don't release water during baking. Dijon mustard adds a tangy note that balances the earthy soy and nutty flavors.
 
 ## Directions
 

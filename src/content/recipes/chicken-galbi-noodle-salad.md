@@ -47,11 +47,19 @@ seasons:
 nutritionalDensity: moderate
 leftovers: good
 equipment: []
+nutrition:
+  calories: 805
+  protein: 41.5
+  carbs: 95
+  fat: 32.5
+  fiber: 18
+  sugar: 24
+  sodium: 2030
 ---
 
 ## Chef's Note
 
-Galbi marinade is Korean shorthand for a marinade: soy, pear juice, sesame, garlic, and ginger create a sweet-savory base that tenderizes thin chicken slices in a couple of hours. The pear juice matters—its natural enzymes and sweetness are why Korean marinades work so fast compared to just vinegar and soy. Serve this at room temperature as a complete meal.
+Galbi marinade is Korean shorthand for a marinade: soy, pear juice, sesame, garlic, and ginger create a sweet-savory base that tenderizes thin chicken slices in a couple of hours. The pear juice matters - its natural enzymes and sweetness are why Korean marinades work so fast compared to just vinegar and soy. Serve this at room temperature as a complete meal.
 ## Directions
 
 1.  **Noodles:** Boil glass noodles for 7-8 minutes until translucent and chewy. Drain and rinse with cold water. **Tip:** Use kitchen shears to cut the noodles into manageable 6-inch lengths.

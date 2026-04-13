@@ -43,6 +43,14 @@ ingredients:
   - 1 tbsp Unsalted Butter
   - 1/4 tsp Red Pepper Flakes
 origin: Italy
+nutrition:
+  calories: 165
+  protein: 4
+  carbs: 9
+  fat: 13.5
+  fiber: 2
+  sugar: 4
+  sodium: 340
 ---
 
 ## Chef's Note

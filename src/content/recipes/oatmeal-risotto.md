@@ -45,11 +45,19 @@ ingredients:
   - 'Parmesan Cheese, for shaving'
   - Pinch of Kosher Salt
 origin: Italy
+nutrition:
+  calories: 155
+  protein: 6.5
+  carbs: 24.5
+  fat: 3.5
+  fiber: 3
+  sugar: 7
+  sodium: 1400
 ---
 
 ## Chef's Note
 
-Oatmeal risotto treats steel-cut oats with the same respect Italians give Arborio rice — an overnight soak followed by a slow simmer until each grain is creamy outside and slightly chewy at the center. The mashed banana folded in at the end acts like the butter-and-cheese mantecatura in real risotto, creating body without dairy. The sherry-vinegar raisins and Parmesan shavings provide the finishing acid and umami.
+Oatmeal risotto treats steel-cut oats with the same respect Italians give Arborio rice  -  an overnight soak followed by a slow simmer until each grain is creamy outside and slightly chewy at the center. The mashed banana folded in at the end acts like the butter-and-cheese mantecatura in real risotto, creating body without dairy. The sherry-vinegar raisins and Parmesan shavings provide the finishing acid and umami.
 ## Directions
 
 1.  **The Hydration:** In a medium bowl, combine the oats and water/broth. Cover and **let stand overnight** at room temperature.

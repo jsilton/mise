@@ -44,6 +44,14 @@ ingredients:
   - 1 tsp Red Pepper Flakes
   - Neutral Oil for searing
 origin: China
+nutrition:
+  calories: 480
+  protein: 58.5
+  carbs: 45
+  fat: 7.5
+  fiber: 0.5
+  sugar: 11
+  sodium: 1550
 ---
 
 ## Chef's Note

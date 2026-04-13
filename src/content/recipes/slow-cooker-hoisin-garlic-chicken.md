@@ -41,6 +41,14 @@ ingredients:
   - 1 tsp Garlic Powder
   - Sliced Scallions for garnish
 origin: China
+nutrition:
+  calories: 610
+  protein: 58
+  carbs: 32.5
+  fat: 25
+  fiber: 0.5
+  sugar: 18
+  sodium: 1330
 ---
 
 ## Chef's Note

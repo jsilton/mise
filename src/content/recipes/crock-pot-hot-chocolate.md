@@ -40,11 +40,19 @@ pairsWith:
   - avocado-kale-caesar-salad
   - bakery-style-chocolate-chip-muffins
   - banana-egg-oat-pancakes
+nutrition:
+  calories: 485
+  protein: 9.5
+  carbs: 42
+  fat: 33.5
+  fiber: 3.5
+  sugar: 36
+  sodium: 400
 ---
 
 ## Chef's Note
 
-While serious chocolatiers prefer the stovetop, the slow cooker is an excellent tool for **gentle tempering**. The low, consistent heat prevents the chocolate from seizing and allows the espresso and vanilla to infuse deeply into the dairy. By using real bittersweet chocolate bars instead of just powder, we transform this from "cocoa" into a rich "drinking chocolate" with a luxurious mouthfeel. A pinch of salt is non-negotiable—it cuts the sweetness and makes the cacao sing.
+While serious chocolatiers prefer the stovetop, the slow cooker is an excellent tool for **gentle tempering**. The low, consistent heat prevents the chocolate from seizing and allows the espresso and vanilla to infuse deeply into the dairy. By using real bittersweet chocolate bars instead of just powder, we transform this from "cocoa" into a rich "drinking chocolate" with a luxurious mouthfeel. A pinch of salt is non-negotiable - it cuts the sweetness and makes the cacao sing.
 
 ## Directions
 

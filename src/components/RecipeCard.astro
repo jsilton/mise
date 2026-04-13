@@ -3,6 +3,7 @@
 // Encapsulates all card styling, tags, and data attributes
 
 import TagBadge from './TagBadge.astro';
+import DietaryBadges from './DietaryBadges.astro';
 
 interface Recipe {
   slug: string;
@@ -64,6 +65,15 @@ const primaryDietaryTag =
       }
       {primaryDietaryTag && <TagBadge tag={primaryDietaryTag} category="dietary" size="sm" />}
     </div>
+
+    <!-- Dietary badges -->
+    {
+      recipe.data.dietary && recipe.data.dietary.length > 0 && (
+        <div class="mt-3 mb-3">
+          <DietaryBadges dietary={recipe.data.dietary} size="sm" />
+        </div>
+      )
+    }
 
     <!-- Time metadata -->
     <div

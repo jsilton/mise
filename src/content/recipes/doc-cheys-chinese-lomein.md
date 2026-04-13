@@ -46,6 +46,14 @@ ingredients:
   - '2 tbsp Scallions, sliced'
   - Vegetable Oil
 origin: China
+nutrition:
+  calories: 2350
+  protein: 141.5
+  carbs: 368
+  fat: 41
+  fiber: 19
+  sugar: 36.5
+  sodium: 14000
 ---
 
 ## Chef's Note

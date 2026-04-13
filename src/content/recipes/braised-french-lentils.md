@@ -55,6 +55,14 @@ ingredients:
   - '2 tbsp Fresh Parsley, chopped'
   - 1 tsp Kosher Salt
   - 1/2 tsp Black Pepper
+nutrition:
+  calories: 100
+  protein: 4
+  carbs: 11
+  fat: 5
+  fiber: 3.5
+  sugar: 2
+  sodium: 600
 ---
 
 ## Chef's Note

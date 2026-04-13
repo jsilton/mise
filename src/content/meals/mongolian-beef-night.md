@@ -18,7 +18,7 @@ bestFor: [tuesday, wednesday, thursday]
 
 ## Meal Overview
 
-Sweet-savory beef with scallions over steamed rice — a Chinese-American takeout classic that's better made at home. The sauce caramelizes into a sticky glaze that clings to the tender beef. Bok choy adds a fresh, green element.
+Sweet-savory beef with scallions over steamed rice  -  a Chinese-American takeout classic that's better made at home. The sauce caramelizes into a sticky glaze that clings to the tender beef. Bok choy adds a fresh, green element.
 
 ## Cooking Strategy
 

@@ -71,7 +71,7 @@ const formatLabel = (val: string) => val.charAt(0).toUpperCase() + val.slice(1).
         >
         <select
           id="filterCuisine"
-          class="text-xs bg-white border border-slate-200 rounded-lg px-2.5 py-2 focus:ring-2 focus:ring-indigo-500/20 focus:border-indigo-400 transition-all"
+          class="text-xs bg-white dark:bg-slate-800 text-slate-900 dark:text-slate-100 border border-slate-200 dark:border-slate-700 rounded-lg px-2.5 py-2 focus:ring-2 focus:ring-indigo-500/20 dark:focus:ring-indigo-400/20 focus:border-indigo-400 dark:focus:border-indigo-500 transition-all"
         >
           <option value="">All</option>
           {uniqueFilters.cuisines.map((c) => <option value={c}>{formatLabel(c)}</option>)}
@@ -86,7 +86,7 @@ const formatLabel = (val: string) => val.charAt(0).toUpperCase() + val.slice(1).
         >
         <select
           id="filterDietary"
-          class="text-xs bg-white border border-slate-200 rounded-lg px-2.5 py-2 focus:ring-2 focus:ring-indigo-500/20 focus:border-indigo-400 transition-all"
+          class="text-xs bg-white dark:bg-slate-800 text-slate-900 dark:text-slate-100 border border-slate-200 dark:border-slate-700 rounded-lg px-2.5 py-2 focus:ring-2 focus:ring-indigo-500/20 dark:focus:ring-indigo-400/20 focus:border-indigo-400 dark:focus:border-indigo-500 transition-all"
         >
           <option value="">All</option>
           {uniqueFilters.dietary.map((d) => <option value={d}>{formatLabel(d)}</option>)}
@@ -101,7 +101,7 @@ const formatLabel = (val: string) => val.charAt(0).toUpperCase() + val.slice(1).
         >
         <select
           id="filterCookingMethod"
-          class="text-xs bg-white border border-slate-200 rounded-lg px-2.5 py-2 focus:ring-2 focus:ring-indigo-500/20 focus:border-indigo-400 transition-all"
+          class="text-xs bg-white dark:bg-slate-800 text-slate-900 dark:text-slate-100 border border-slate-200 dark:border-slate-700 rounded-lg px-2.5 py-2 focus:ring-2 focus:ring-indigo-500/20 dark:focus:ring-indigo-400/20 focus:border-indigo-400 dark:focus:border-indigo-500 transition-all"
         >
           <option value="">All</option>
           {uniqueFilters.cookingMethods.map((m) => <option value={m}>{formatLabel(m)}</option>)}
@@ -116,7 +116,7 @@ const formatLabel = (val: string) => val.charAt(0).toUpperCase() + val.slice(1).
         >
         <select
           id="filterOccasion"
-          class="text-xs bg-white border border-slate-200 rounded-lg px-2.5 py-2 focus:ring-2 focus:ring-indigo-500/20 focus:border-indigo-400 transition-all"
+          class="text-xs bg-white dark:bg-slate-800 text-slate-900 dark:text-slate-100 border border-slate-200 dark:border-slate-700 rounded-lg px-2.5 py-2 focus:ring-2 focus:ring-indigo-500/20 dark:focus:ring-indigo-400/20 focus:border-indigo-400 dark:focus:border-indigo-500 transition-all"
         >
           <option value="">All</option>
           {uniqueFilters.occasions.map((o) => <option value={o}>{formatLabel(o)}</option>)}
@@ -131,7 +131,7 @@ const formatLabel = (val: string) => val.charAt(0).toUpperCase() + val.slice(1).
         >
         <select
           id="filterFlavor"
-          class="text-xs bg-white border border-slate-200 rounded-lg px-2.5 py-2 focus:ring-2 focus:ring-indigo-500/20 focus:border-indigo-400 transition-all"
+          class="text-xs bg-white dark:bg-slate-800 text-slate-900 dark:text-slate-100 border border-slate-200 dark:border-slate-700 rounded-lg px-2.5 py-2 focus:ring-2 focus:ring-indigo-500/20 dark:focus:ring-indigo-400/20 focus:border-indigo-400 dark:focus:border-indigo-500 transition-all"
         >
           <option value="">All</option>
           {uniqueFilters.flavorProfiles.map((f) => <option value={f}>{formatLabel(f)}</option>)}
@@ -145,7 +145,7 @@ const formatLabel = (val: string) => val.charAt(0).toUpperCase() + val.slice(1).
         >
         <select
           id="sortBy"
-          class="text-xs bg-white border border-slate-200 rounded-lg px-2.5 py-2 focus:ring-2 focus:ring-indigo-500/20 focus:border-indigo-400 transition-all"
+          class="text-xs bg-white dark:bg-slate-800 text-slate-900 dark:text-slate-100 border border-slate-200 dark:border-slate-700 rounded-lg px-2.5 py-2 focus:ring-2 focus:ring-indigo-500/20 dark:focus:ring-indigo-400/20 focus:border-indigo-400 dark:focus:border-indigo-500 transition-all"
         >
           <option value="title">Alphabetical</option>
           <option value="prepTime">Prep Time</option>

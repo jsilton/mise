@@ -48,6 +48,14 @@ ingredients:
   - 3 tbsp Sweet Bean Sauce (Tian Mian Jiang)
   - 1 tsp Sugar + 1 tsp Duck Fat
 origin: China
+nutrition:
+  calories: 335
+  protein: 0
+  carbs: 5
+  fat: 36
+  fiber: 1
+  sugar: 4
+  sodium: 20
 ---
 
 ## Chef's Note

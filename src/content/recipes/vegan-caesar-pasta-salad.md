@@ -41,11 +41,19 @@ ingredients:
   - '1 1/2 cups Cherry Tomatoes, halved'
   - Sea Salt and Black Pepper
 origin: Italy
+nutrition:
+  calories: 320
+  protein: 13
+  carbs: 60
+  fat: 4.5
+  fiber: 8
+  sugar: 4.5
+  sodium: 90
 ---
 
 ## Chef's Note
 
-Vegan Caesar dressings became mainstream in the 2010s, using cashews or tofu to replicate the creamy texture traditionally from anchovies and egg. Roasted chickpeas replace croutons for protein and crunch. The trick is dressing the warm pasta first—it absorbs more flavor than cold pasta would. Add the fresh romaine and avocado just before serving so they stay crisp and bright.
+Vegan Caesar dressings became mainstream in the 2010s, using cashews or tofu to replicate the creamy texture traditionally from anchovies and egg. Roasted chickpeas replace croutons for protein and crunch. The trick is dressing the warm pasta first - it absorbs more flavor than cold pasta would. Add the fresh romaine and avocado just before serving so they stay crisp and bright.
 
 ## Directions
 

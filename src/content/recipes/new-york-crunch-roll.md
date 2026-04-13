@@ -45,16 +45,24 @@ ingredients:
     browning)
   - '1/2 English Cucumber, cut into thin matchsticks'
   - >-
-    1/3 cup Tempura Flakes (tenkasu — or crushed panko fried golden, or even
+    1/3 cup Tempura Flakes (tenkasu  -  or crushed panko fried golden, or even
     crushed potato chips in a pinch)
-  - '4 half-sheets Nori (unseasoned, roasted Japanese nori — rough side up)'
+  - '4 half-sheets Nori (unseasoned, roasted Japanese nori  -  rough side up)'
   - '2 cups Master Sushi Rice, prepared and at body temperature'
   - 'Tezu: small bowl of water with a splash of rice vinegar'
+nutrition:
+  calories: 105
+  protein: 17.5
+  carbs: 3.5
+  fat: 1.5
+  fiber: 1
+  sugar: 1.5
+  sodium: 110
 ---
 
 ## Chef's Note
 
-The crunch roll is a Japanese-American sushi bar staple that adds textural contrast to the standard maki. Tenkasu (tempura flakes) are the traditional crunch element — they're the bits of batter that fall off during tempura frying and are saved specifically for this purpose. When cutting the tuna, always slice perpendicular (across) the white connective tissue lines into batons, never parallel — this prevents chewy, stringy pieces.
+The crunch roll is a Japanese-American sushi bar staple that adds textural contrast to the standard maki. Tenkasu (tempura flakes) are the traditional crunch element  -  they're the bits of batter that fall off during tempura frying and are saved specifically for this purpose. When cutting the tuna, always slice perpendicular (across) the white connective tissue lines into batons, never parallel  -  this prevents chewy, stringy pieces.
 
 ## Directions
 
@@ -66,4 +74,4 @@ The crunch roll is a Japanese-American sushi bar staple that adds textural contr
 6. **Roll:** Lift the bottom edge and roll over the filling, tucking tightly. Squeeze gently to compact.
 7. **Cut:** Wet a sharp knife with tezu. Cut in half, then each half into 3-4 pieces. Clean and re-wet the knife between every cut.
 
-**Rest:** Let roast rest for 5 minutes before slicing or serving — the juices redistribute and every piece stays moist.
+**Rest:** Let roast rest for 5 minutes before slicing or serving  -  the juices redistribute and every piece stays moist.

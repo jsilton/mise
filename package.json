@@ -31,6 +31,9 @@
     "lint-recipe": "node ./scripts/lint-recipe.mjs",
     "lint-recipe:staged": "node ./scripts/lint-recipe.mjs --staged",
     "batch-guard": "node ./scripts/batch-guard.mjs",
+    "estimate-nutrition": "node ./scripts/estimate-nutrition.mjs",
+    "estimate-nutrition:dry": "node ./scripts/estimate-nutrition.mjs --dry-run",
+    "estimate-nutrition:verbose": "node ./scripts/estimate-nutrition.mjs --dry-run --verbose",
     "precommit": "npm run validate-recipes && npm run lint-recipe:staged"
   },
   "dependencies": {

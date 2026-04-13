@@ -18,7 +18,7 @@ bestFor: [monday, wednesday, thursday]
 
 ## Meal Overview
 
-The famous Olive Garden soup, done better at home. Creamy, spicy, loaded with sausage and potatoes—this is pure comfort in a bowl. The crusty garlic bread is non-negotiable for soaking up every drop.
+The famous Olive Garden soup, done better at home. Creamy, spicy, loaded with sausage and potatoes - this is pure comfort in a bowl. The crusty garlic bread is non-negotiable for soaking up every drop.
 
 ## Cooking Strategy
 

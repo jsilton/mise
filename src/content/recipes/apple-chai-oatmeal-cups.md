@@ -47,6 +47,14 @@ ingredients:
   - 1/4 tsp Nutmeg
   - 1/4 tsp Allspice
 origin: United States
+nutrition:
+  calories: 145
+  protein: 4.5
+  carbs: 23.5
+  fat: 4
+  fiber: 3
+  sugar: 7.5
+  sodium: 60
 ---
 
 ## Chef's Note

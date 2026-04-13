@@ -64,22 +64,30 @@ ingredients:
   - Hot Sauce (Cholula or Valentina)
   - Lime Wedges
 origin: Mexico
+nutrition:
+  calories: 290
+  protein: 12
+  carbs: 11
+  fat: 24
+  fiber: 2.5
+  sugar: 3
+  sodium: 1300
 ---
 
 ## Chef's Note
 
-These are not sad vegetarian tacos. The secret is treating black beans like you'd treat meat: smash them for texture, hit them with soy sauce for umami depth, and roast until the edges are properly crispy and caramelized. You get creamy centers with crunchy, charred edges that rival any carnitas. The tangy avocado crema—spiked with pickled jalapeño brine—adds richness and acid in one swoop. Meat-eaters will reach for these.
+These are not sad vegetarian tacos. The secret is treating black beans like you'd treat meat: smash them for texture, hit them with soy sauce for umami depth, and roast until the edges are properly crispy and caramelized. You get creamy centers with crunchy, charred edges that rival any carnitas. The tangy avocado crema - spiked with pickled jalapeño brine - adds richness and acid in one swoop. Meat-eaters will reach for these.
 
 ## Directions
 
 1. **The Crisp:** Preheat oven to 425°F. Spread drained beans on a sheet pan. Using a fork or potato masher, lightly smash about half the beans (leaving some whole creates texture contrast). Drizzle with olive oil and soy sauce. Sprinkle with cumin, paprika, garlic powder, and salt. Toss to coat evenly.
 
-2. **The Roast:** Roast for **20-25 minutes**, stirring halfway through, until edges are dark and crispy. Add lime zest and squeeze lime juice over immediately while hot—the acid brightens everything.
+2. **The Roast:** Roast for **20-25 minutes**, stirring halfway through, until edges are dark and crispy. Add lime zest and squeeze lime juice over immediately while hot - the acid brightens everything.
 
-3. **The Crema:** While beans roast, blend avocado, sour cream, lime juice, jalapeño brine, cilantro, garlic, and salt until smooth. Add water to reach drizzling consistency. Taste—it should be tangy and bright.
+3. **The Crema:** While beans roast, blend avocado, sour cream, lime juice, jalapeño brine, cilantro, garlic, and salt until smooth. Add water to reach drizzling consistency. Taste - it should be tangy and bright.
 
 4. **The Char:** Heat a dry cast iron skillet or hold tortillas directly over a gas flame. Char 20-30 seconds per side until pliable with dark spots. Stack and wrap in a towel to keep warm.
 
 5. **The Build:** Layer each tortilla with crispy beans, shredded cabbage, a generous drizzle of crema, cotija, pickled jalapeños, and fresh cilantro.
 
-6. **Serve:** Serve immediately with lime wedges and hot sauce on the side. These don't hold—eat them fresh.
+6. **Serve:** Serve immediately with lime wedges and hot sauce on the side. These don't hold - eat them fresh.

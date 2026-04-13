@@ -46,6 +46,14 @@ ingredients:
   - '2 tbsp Fresh Parsley, chopped'
   - Neutral Oil
 origin: United States
+nutrition:
+  calories: 140
+  protein: 4.5
+  carbs: 13
+  fat: 8.5
+  fiber: 2.5
+  sugar: 4
+  sodium: 110
 ---
 
 ## Chef's Note
