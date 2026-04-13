@@ -1,15 +1,25 @@
 ---
 title: Spindrift Gin Fizz
 difficulty: easy
-cookingMethods: []
+cookingMethods:
+  - no-cook
 dietary: []
-occasions: [date-night, entertaining, summer]
-seasons: [summer, year-round]
+occasions:
+  - date-night
+  - entertaining
+  - summer
+seasons:
+  - summer
+  - year-round
 nutritionalDensity: light
 leftovers: poor
-equipment: [cocktail-shaker]
-flavorProfile: [sweet, acidic]
-cuisines: [American]
+equipment:
+  - cocktail-shaker
+flavorProfile:
+  - sweet
+  - acidic
+cuisines:
+  - American
 role: drink
 vibe: nutritious
 prepTime: 5 min
@@ -17,12 +27,18 @@ cookTime: 0 min
 totalTime: 5 min
 servings: '3'
 ingredients:
-  - '4.5 oz Hendricks Gin'
-  - '1 can (12 oz) Spindrift Grapefruit'
-  - '2 oz Fresh Lime Juice'
-  - '0.5 oz Agave Syrup'
-  - '6 dashes Grapefruit Bitters'
-  - 'Lime wheels for garnish'
+  - 4.5 oz Hendricks Gin
+  - 1 can (12 oz) Spindrift Grapefruit
+  - 2 oz Fresh Lime Juice
+  - 0.5 oz Agave Syrup
+  - 6 dashes Grapefruit Bitters
+  - Lime wheels for garnish
+origin: United States
+pairsWith:
+  - avocado-kale-caesar-salad
+  - beef-tenderloin-dogs-with-corn-relish
+  - brownie-baked-oatmeal
+  - chicken-apple-and-butternut-stew
 ---
 
 ## Chef's Note

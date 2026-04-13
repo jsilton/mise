@@ -1,17 +1,31 @@
 ---
 title: Executive Granola
 difficulty: easy
-cookingMethods: [bake, roast, blend]
-dietary: [vegetarian]
-occasions: [meal-prep, post-workout]
-seasons: [year-round]
+cookingMethods:
+  - bake
+  - roast
+  - blend
+dietary:
+  - vegetarian
+occasions:
+  - meal-prep
+  - post-workout
+seasons:
+  - year-round
 nutritionalDensity: moderate
 leftovers: excellent
-equipment: [baking-sheet, mixing-bowl]
-advancePrep: [make-ahead]
-pairsWith: [easy-breakfast-yogurt-popsicles, easy-chia-pudding]
-flavorProfile: [sweet]
-cuisines: [American]
+equipment:
+  - baking-sheet
+  - mixing-bowl
+advancePrep:
+  - make-ahead
+pairsWith:
+  - easy-breakfast-yogurt-popsicles
+  - easy-chia-pudding
+flavorProfile:
+  - sweet
+cuisines:
+  - American
 role: base
 vibe: nutritious
 prepTime: 10 min
@@ -28,6 +42,7 @@ ingredients:
   - 1 tsp Ground Cinnamon
   - 1/2 tsp Sea Salt
   - 1/2 cup Dried Fruit (Raisins or Cranberries)
+origin: United States
 ---
 
 ## Chef's Note

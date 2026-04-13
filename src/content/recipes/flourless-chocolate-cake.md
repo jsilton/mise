@@ -1,14 +1,29 @@
 ---
 title: Flourless Chocolate Cake
 difficulty: easy
-cookingMethods: [bake, steam]
-dietary: [vegetarian, gluten-free]
-occasions: [holiday, entertaining, weekend-project, indulgent]
-flavorProfile: [sweet, rich]
-cuisines: [French]
+cookingMethods:
+  - bake
+  - steam
+dietary:
+  - vegetarian
+  - gluten-free
+occasions:
+  - holiday
+  - entertaining
+  - weekend-project
+  - indulgent
+flavorProfile:
+  - sweet
+  - rich
+cuisines:
+  - French
 role: dessert
 vibe: technical
-season: [spring, summer, fall, winter]
+season:
+  - spring
+  - summer
+  - fall
+  - winter
 leftovers: excellent
 healthiness: hearty
 makeAhead: true
@@ -27,6 +42,16 @@ ingredients:
   - 1/4 tsp Sea Salt
   - 1 cup Semisweet Chocolate Chips
   - 1/2 cup Heavy Cream
+origin: France
+seasons:
+  - year-round
+nutritionalDensity: moderate
+equipment: []
+pairsWith:
+  - brown-butter-chocolate-souffle
+  - chewy-chocolate-meringues
+  - chocolate-souffle
+  - apple-cider-cream-pie
 ---
 
 ## Chef's Note

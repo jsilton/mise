@@ -1,34 +1,49 @@
 ---
 title: All-Purpose Chinese Garlic Sauce
 difficulty: easy
-cookingMethods: [fry, steam]
+cookingMethods:
+  - fry
+  - steam
 dietary: []
-occasions: [weeknight, meal-prep]
-flavorProfile: [spicy, sweet, savory, acidic, umami]
-cuisines: [Chinese]
+occasions:
+  - weeknight
+  - meal-prep
+flavorProfile:
+  - spicy
+  - sweet
+  - savory
+  - acidic
+  - umami
+cuisines:
+  - Chinese
 role: condiment
 vibe: quick
 prepTime: 5 min
 cookTime: 2 min
 totalTime: 7 min
-servings: '1 cup'
-seasons: [year-round]
+servings: 1 cup
+seasons:
+  - year-round
 nutritionalDensity: light
 leftovers: excellent
-advancePrep: [make-ahead]
+advancePrep:
+  - make-ahead
 equipment: []
-pairsWith: [pad-thai, roasted-root-vegetables]
+pairsWith:
+  - pad-thai
+  - roasted-root-vegetables
 ingredients:
-  - '1/4 cup Soy Sauce'
-  - '1 tbsp Dark Soy Sauce (for color)'
-  - '1 tbsp Oyster Sauce'
-  - '1 tbsp Shaoxing Wine'
-  - '1 tbsp Rice Vinegar'
-  - '1 tbsp Sugar'
-  - '1 tsp Toasted Sesame Oil'
-  - '1 tsp Cornstarch'
-  - '1/4 tsp White Pepper'
-  - '1/2 cup Chicken Broth or Water'
+  - 1/4 cup Soy Sauce
+  - 1 tbsp Dark Soy Sauce (for color)
+  - 1 tbsp Oyster Sauce
+  - 1 tbsp Shaoxing Wine
+  - 1 tbsp Rice Vinegar
+  - 1 tbsp Sugar
+  - 1 tsp Toasted Sesame Oil
+  - 1 tsp Cornstarch
+  - 1/4 tsp White Pepper
+  - 1/2 cup Chicken Broth or Water
+origin: China
 ---
 
 ## Chef's Note

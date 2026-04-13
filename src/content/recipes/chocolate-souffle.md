@@ -1,14 +1,28 @@
 ---
 title: Chocolate Soufflé
 difficulty: easy
-cookingMethods: [bake, simmer]
-dietary: [vegetarian]
-occasions: [entertaining, weekend-project, indulgent, date-night]
-flavorProfile: [sweet, rich]
-cuisines: [French]
+cookingMethods:
+  - bake
+  - simmer
+dietary:
+  - vegetarian
+occasions:
+  - entertaining
+  - weekend-project
+  - indulgent
+  - date-night
+flavorProfile:
+  - sweet
+  - rich
+cuisines:
+  - French
 role: dessert
 vibe: technical
-season: [spring, summer, fall, winter]
+season:
+  - spring
+  - summer
+  - fall
+  - winter
 leftovers: poor
 healthiness: hearty
 makeAhead: false
@@ -18,11 +32,21 @@ totalTime: 45 min
 servings: '4'
 ingredients:
   - '5 oz Bittersweet Chocolate (not unsweetened), chopped'
-  - '3 large Egg Yolks (room temp)'
-  - '6 large Egg Whites (room temp)'
-  - '1/3 cup + 1 tbsp Granulated Sugar'
-  - 'Pinch of Sea Salt'
-  - 'Unsalted Butter (for the dish)'
+  - 3 large Egg Yolks (room temp)
+  - 6 large Egg Whites (room temp)
+  - 1/3 cup + 1 tbsp Granulated Sugar
+  - Pinch of Sea Salt
+  - Unsalted Butter (for the dish)
+origin: France
+seasons:
+  - year-round
+nutritionalDensity: moderate
+equipment: []
+pairsWith:
+  - brown-butter-chocolate-souffle
+  - chewy-chocolate-meringues
+  - flourless-chocolate-cake
+  - apple-cider-cream-pie
 ---
 
 ## Chef's Note

@@ -1,33 +1,47 @@
 ---
 title: Israeli Style Hummus
 difficulty: intermediate
-cookingMethods: [boil, blend]
-dietary: [vegetarian]
-occasions: [meal-prep, entertaining]
-flavorProfile: [acidic, rich]
-cuisines: [Lebanese]
+cookingMethods:
+  - boil
+  - blend
+dietary:
+  - vegetarian
+occasions:
+  - meal-prep
+  - entertaining
+flavorProfile:
+  - acidic
+  - rich
+cuisines:
+  - Lebanese
 role: base
 vibe: nutritious
 prepTime: 15 min
 cookTime: 60 min
-totalTime: 12 hours
-servings: '4 cups'
+totalTime: 12 hr
+servings: 4 cups
 pairsWith:
-  [
-    middle-eastern-style-grilled-chicken-kabobs,
-    chicken-shawarma,
-    chicken-thigh-kebabs-with-chile-yogurt-sauce,
-  ]
+  - middle-eastern-style-grilled-chicken-kabobs
+  - chicken-shawarma
+  - chicken-thigh-kebabs-with-chile-yogurt-sauce
 ingredients:
-  - '1 cup Dried Chickpeas (Must be dried)'
-  - '2 tsp Baking Soda (divided)'
-  - '1 cup High-Quality Tahini (like Soom)'
-  - '1/4 cup Fresh Lemon Juice'
+  - 1 cup Dried Chickpeas (Must be dried)
+  - 2 tsp Baking Soda (divided)
+  - 1 cup High-Quality Tahini (like Soom)
+  - 1/4 cup Fresh Lemon Juice
   - '4 cloves Garlic, unpeeled'
-  - '1 tsp Kosher Salt'
-  - '1/2 tsp Cumin'
-  - '2 Ice Cubes (The smoothing secret)'
-  - 'Extra-Virgin Olive Oil for serving'
+  - 1 tsp Kosher Salt
+  - 1/2 tsp Cumin
+  - 2 Ice Cubes (The smoothing secret)
+  - Extra-Virgin Olive Oil for serving
+origin: Lebanon
+seasons:
+  - year-round
+nutritionalDensity: light
+leftovers: good
+advancePrep:
+  - overnight-soak
+equipment: []
 ---
 
 ## Chef's Note

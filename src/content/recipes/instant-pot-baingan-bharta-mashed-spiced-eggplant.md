@@ -1,18 +1,34 @@
 ---
 title: Instant Pot Baingan Bharta
 difficulty: easy
-cookingMethods: [roast, fry, sauté, boil]
-dietary: [vegetarian]
-occasions: [comfort-food, meal-prep]
-flavorProfile: [spicy, sweet, savory, acidic, umami]
-cuisines: [Indian]
+cookingMethods:
+  - roast
+  - fry
+  - sauté
+  - boil
+dietary:
+  - vegetarian
+occasions:
+  - comfort-food
+  - meal-prep
+flavorProfile:
+  - spicy
+  - sweet
+  - savory
+  - acidic
+  - umami
+cuisines:
+  - Indian
 role: main
 vibe: nutritious
 prepTime: 15 min
 cookTime: 15 min
 totalTime: 30 min
 servings: '4'
-pairsWith: [spiced-coconut-chicken-rice, cucumber-raita, homemade-naan]
+pairsWith:
+  - spiced-coconut-chicken-rice
+  - cucumber-raita
+  - homemade-naan
 ingredients:
   - '2 large Eggplants, peeled and cubed'
   - 4 tbsp Neutral Oil
@@ -29,6 +45,12 @@ ingredients:
   - 2 tsp Sea Salt
   - '1/4 cup Fresh Cilantro, chopped'
   - '1/2 Lemon, juiced (The Acid Balance)'
+origin: India
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: good
+equipment: []
 ---
 
 ## Chef's Note

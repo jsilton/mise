@@ -3,18 +3,27 @@ title: Crispy Baked Chicken Sliders
 role: main
 vibe: comfort
 difficulty: easy
-cuisines: [American]
-occasions: [entertaining, game-day, weeknight]
-cookingMethods: [roast]
-flavorProfile: [savory, crispy]
+cuisines:
+  - American
+occasions:
+  - entertaining
+  - game-day
+  - weeknight
+cookingMethods:
+  - roast
+flavorProfile:
+  - savory
+  - crispy
 prepTime: 20 min
 cookTime: 20 min
 totalTime: 40 min
-servings: '12 sliders'
+servings: 12 sliders
 pairsWith:
   - crockpot-mac-and-cheese
   - classic-guacamole
-equipment: [sheet-pan, wire-rack]
+equipment:
+  - sheet-pan
+  - wire-rack
 ingredients:
   - 'For the Chicken:'
   - 2 lbs Boneless Skinless Chicken Breasts
@@ -33,11 +42,17 @@ ingredients:
   - 12 Hawaiian Rolls (or slider buns)
   - Dill Pickle Chips
   - Mayonnaise
+origin: United States
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: good
 ---
 
 ## Chef's Note
 
 The Chick-fil-A secret is pickle brine. Soaking chicken in pickle juice accomplishes two things: the salt brines the meat (keeping it juicy) while the vinegar's acid tenderizes it. The result is that distinctive tangy flavor in every bite. Baking on a wire rack lets air circulate underneath, crisping the bottom without flipping. A blast at 425°F with a light coat of cooking spray gives you that golden crunch without the deep fryer mess. These are the base for both BBQ and Sweet Chili variations—sauce them however you like.
+For kids, serve the heat on the side or reduce/omit the spicy elements.
 
 ## Directions
 

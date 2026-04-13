@@ -1,18 +1,30 @@
 ---
 title: Zucchini Soup
 difficulty: easy
-cookingMethods: [sauté, simmer, boil, blend]
+cookingMethods:
+  - sauté
+  - simmer
+  - boil
+  - blend
 dietary: []
-occasions: [comfort-food]
-flavorProfile: [sweet, acidic, rich]
-cuisines: [French]
+occasions:
+  - comfort-food
+flavorProfile:
+  - sweet
+  - acidic
+  - rich
+cuisines:
+  - French
 role: main
 vibe: comfort
 prepTime: 10 min
 cookTime: 30 min
 totalTime: 40 min
 servings: '4'
-pairsWith: [sweet-and-white-potato-gratin, tarragon-potatoes, arugula-feta-salad]
+pairsWith:
+  - sweet-and-white-potato-gratin
+  - tarragon-potatoes
+  - arugula-feta-salad
 ingredients:
   - '1 1/2 lbs Zucchini, sliced into 1/4-inch rounds'
   - 1 tbsp Unsalted Butter
@@ -24,6 +36,12 @@ ingredients:
   - 1/2 tsp Fresh Lemon Juice (The Acid Balance)
   - Julienned Raw Zucchini (for the Crunch garnish)
   - Sea Salt and White Pepper
+origin: France
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: good
+equipment: []
 ---
 
 ## Chef's Note

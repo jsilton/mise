@@ -1,15 +1,25 @@
 ---
 title: Green Smoothie
 difficulty: easy
-cookingMethods: [blend]
-dietary: [vegetarian]
-occasions: [kids-approved, post-workout, quick-lunch]
-seasons: [year-round]
+cookingMethods:
+  - blend
+dietary:
+  - vegetarian
+occasions:
+  - kids-approved
+  - post-workout
+  - quick-lunch
+seasons:
+  - year-round
 nutritionalDensity: moderate
 leftovers: poor
-equipment: [blender]
-flavorProfile: [sweet, rich]
-cuisines: [American]
+equipment:
+  - blender
+flavorProfile:
+  - sweet
+  - rich
+cuisines:
+  - American
 role: drink
 vibe: nutritious
 prepTime: 5 min
@@ -26,6 +36,12 @@ ingredients:
   - 2 tsp Nut Butter (Almond or Sunflower)
   - 1/2 tsp Pure Vanilla Extract
   - 1-2 tsp Maple Syrup (Optional)
+origin: United States
+pairsWith:
+  - almond-zucchini-bread
+  - avocado-kale-caesar-salad
+  - bakery-style-chocolate-chip-muffins
+  - banana-egg-oat-pancakes
 ---
 
 ## Chef's Note

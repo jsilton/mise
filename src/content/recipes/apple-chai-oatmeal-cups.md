@@ -1,23 +1,37 @@
 ---
 title: Apple Chai Oatmeal Cups
 difficulty: easy
-cookingMethods: [bake]
-dietary: [vegetarian]
-occasions: [meal-prep, kids-approved, post-workout]
-seasons: [fall, winter]
+cookingMethods:
+  - bake
+dietary:
+  - vegetarian
+occasions:
+  - meal-prep
+  - kids-approved
+  - post-workout
+seasons:
+  - fall
+  - winter
 nutritionalDensity: moderate
 leftovers: excellent
-advancePrep: [make-ahead]
-equipment: [muffin-tin]
-flavorProfile: [sweet]
-cuisines: [American]
+advancePrep:
+  - make-ahead
+equipment:
+  - muffin-tin
+flavorProfile:
+  - sweet
+cuisines:
+  - American
 role: main
 vibe: quick
 prepTime: 10 min
 cookTime: 20 min
 totalTime: 30 min
 servings: 12 cups
-pairsWith: [banana-oat-greek-yogurt-muffins, brownie-protein-balls, easy-breakfast-yogurt-popsicles]
+pairsWith:
+  - banana-oat-greek-yogurt-muffins
+  - brownie-protein-balls
+  - easy-breakfast-yogurt-popsicles
 ingredients:
   - 3 cups Rolled Oats (Old Fashioned)
   - 1 tsp Baking Powder
@@ -32,12 +46,12 @@ ingredients:
   - 1/2 tsp Ginger powder
   - 1/4 tsp Nutmeg
   - 1/4 tsp Allspice
+origin: United States
 ---
 
 ## Chef's Note
 
-This is a grab-and-go breakfast staple. To elevate the flavor, stir the chai spices into the melted coconut oil before adding to the wet mix. This releases the fat-soluble aromas of the cardamom and cinnamon, ensuring the spice flavor is baked into every oat rather than just sitting on the surface.
-
+Chai-spiced oatmeal is a meal-prep staple that tastes warm and comforting straight from the fridge, no reheating needed. Cardamom, ginger, and allspice bloom in melted coconut oil before mixing into the batter, distributing the spice evenly instead of leaving it in scattered bits. The mashed banana and eggs bind everything into dense, satisfying cups that stay moist for days.
 ## Directions
 
 1.  **Bloom:** In a small bowl, whisk the melted coconut oil with all the chai spices. Let sit for 2 minutes.

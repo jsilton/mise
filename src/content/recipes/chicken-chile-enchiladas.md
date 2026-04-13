@@ -1,18 +1,28 @@
 ---
 title: Chicken Chile Enchiladas
 difficulty: easy
-cookingMethods: [bake, fry, blend]
+cookingMethods:
+  - bake
+  - fry
+  - blend
 dietary: []
-occasions: [comfort-food]
-flavorProfile: [spicy, rich]
-cuisines: [Mexican]
+occasions:
+  - comfort-food
+flavorProfile:
+  - spicy
+  - rich
+cuisines:
+  - Mexican
 role: main
 vibe: comfort
 prepTime: 20 min
 cookTime: 20 min
 totalTime: 40 min
 servings: '4'
-pairsWith: [queso-fundido-with-chorizo, mexican-street-corn-salad, roasted-sweet-potatoes]
+pairsWith:
+  - queso-fundido-with-chorizo
+  - mexican-street-corn-salad
+  - roasted-sweet-potatoes
 ingredients:
   - 1 lb Shredded Chicken (Rotisserie or Pressure Cooked)
   - 1 can (15 oz) Red Enchilada Sauce (Hatch or homemade)
@@ -21,6 +31,12 @@ ingredients:
   - 1 can (4 oz) Diced Green Chiles
   - '12 oz Mexican Blend Cheese, shredded'
   - 'Sour Cream, Fresh Cilantro, and Sliced Jalapeños'
+origin: Mexico
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: good
+equipment: []
 ---
 
 ## Chef's Note
@@ -35,3 +51,5 @@ Traditional Mexican enchiladas briefly fry corn tortillas before dipping them in
 4.  **Bake:** Pour the remaining sauce over the top and cover generously with cheese.
 5.  **Melt:** Bake for 15-20 minutes until the cheese is bubbly and the edges of the tortillas are slightly crisp.
 6.  **Serve:** Top with cold sour cream and cilantro to balance the heat.
+
+**Rest:** Let Shredded Chicken rest for 5 minutes before slicing or serving — the juices redistribute and every piece stays moist.

@@ -1,18 +1,33 @@
 ---
 title: Spanish Rice with Chorizo and Chickpeas
 difficulty: easy
-cookingMethods: [bake, fry, sauté, simmer, boil]
+cookingMethods:
+  - bake
+  - fry
+  - sauté
+  - simmer
+  - boil
 dietary: []
-occasions: [comfort-food]
-flavorProfile: [spicy, sweet, savory, umami, smoky]
-cuisines: [Spanish]
+occasions:
+  - comfort-food
+flavorProfile:
+  - spicy
+  - sweet
+  - savory
+  - umami
+  - smoky
+cuisines:
+  - Spanish
 role: main
 vibe: comfort
 prepTime: 20 min
 cookTime: 30 min
 totalTime: 50 min
 servings: '4'
-pairsWith: [smoky-spanish-rice-and-chickpeas, sesame-tomato-salad, charred-asparagus-with-parmesan]
+pairsWith:
+  - smoky-spanish-rice-and-chickpeas
+  - sesame-tomato-salad
+  - charred-asparagus-with-parmesan
 ingredients:
   - 1.5 cups Short-grain Rice (Arborio or Bomba)
   - '1/2 lb Spanish Chorizo (cured), sliced into rounds'
@@ -26,12 +41,17 @@ ingredients:
   - 3 cups Chicken Broth
   - 1/4 cup Dry Sherry or White Wine
   - 1/2 cup Raisins (for sweetness balance)
+origin: Spain
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: good
+equipment: []
 ---
 
 ## Chef's Note
 
-This is a one-pot masterpiece that utilizes **Flavor Layering**. We start by rendering the fat from the cured **Chorizo**; this spicy, red oil becomes the cooking medium for the vegetables and the rice. The result is a deeply savory, aromatic dish where every grain of rice is infused with smoke and spice. The raisins provide the vital sweet contrast to the salty pork and earthy chickpeas.
-
+Spanish cooking builds flavor through slow cooking, proper heat, and the principle that onions, garlic, and tomato are the foundation of nearly everything. This is meant to be reliable and honest—quality ingredients cooked with care, nothing fancy, just right.
 ## Directions
 
 1.  **Render:** In a large oven-safe skillet or Dutch oven, cook the chorizo rounds over medium heat until they are crispy and have released their red oil. Remove chorizo to a plate.

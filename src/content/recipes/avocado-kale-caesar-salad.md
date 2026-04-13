@@ -1,22 +1,40 @@
 ---
 title: Avocado Kale Caesar
 difficulty: easy
-cookingMethods: [bake, no-cook, blend]
+cookingMethods:
+  - bake
+  - no-cook
+  - blend
 dietary: []
-occasions: [quick-lunch, light-and-fresh, post-workout, entertaining]
-seasons: [year-round]
+occasions:
+  - quick-lunch
+  - light-and-fresh
+  - post-workout
+  - entertaining
+seasons:
+  - year-round
 nutritionalDensity: light
 leftovers: poor
-equipment: [blender]
-flavorProfile: [sweet, savory, acidic, umami, rich]
-cuisines: [American]
+equipment:
+  - blender
+flavorProfile:
+  - sweet
+  - savory
+  - acidic
+  - umami
+  - rich
+cuisines:
+  - American
 role: side
 vibe: nutritious
 prepTime: 15 min
 cookTime: 0 min
 totalTime: 15 min
 servings: '4'
-pairsWith: [vietnamese-grilled-chicken, miso-salmon-with-bok-choy, marinated-korean-ribeye]
+pairsWith:
+  - vietnamese-grilled-chicken
+  - miso-salmon-with-bok-choy
+  - marinated-korean-ribeye
 ingredients:
   - '1 bunch Lacinato (Dino) Kale, stems removed and finely shredded'
   - '1 large Avocado (Half for dressing, half for topping)'
@@ -31,6 +49,7 @@ ingredients:
   - 1/4 cup Toasted Pepitas (Pumpkin Seeds)
   - 1/3 cup Shaved Parmesan Cheese
   - '1/2 cup Panko Breadcrumbs, toasted in butter (Optional crunch)'
+origin: United States
 ---
 
 ## Chef's Note

@@ -1,11 +1,18 @@
 ---
 title: Ham & Cheese Green Bean Casserole
 difficulty: easy
-cookingMethods: [bake, boil, no-cook]
+cookingMethods:
+  - bake
+  - boil
+  - no-cook
 dietary: []
-occasions: [holiday]
-flavorProfile: [savory, rich]
-cuisines: [American]
+occasions:
+  - holiday
+flavorProfile:
+  - savory
+  - rich
+cuisines:
+  - American
 role: main
 vibe: holiday
 prepTime: 15 min
@@ -13,11 +20,9 @@ cookTime: 40 min
 totalTime: 55 min
 servings: '8'
 pairsWith:
-  [
-    honey-glazed-carrots,
-    roasted-sunchokes-with-brown-butter-cider-vinaigrette,
-    avocado-kale-caesar-salad,
-  ]
+  - honey-glazed-carrots
+  - roasted-sunchokes-with-brown-butter-cider-vinaigrette
+  - avocado-kale-caesar-salad
 ingredients:
   - '1 lb Fresh Green Beans, trimmed'
   - '1/2 lb Cooked Ham, diced'
@@ -29,6 +34,14 @@ ingredients:
   - '2 1/2 cups Sharp Cheddar, freshly grated'
   - 1 cup Canned French Fried Onions (divided)
   - Unsalted Butter (for the dish)
+  - '--- Lemon juice ---'
+  - '1 Lemon, juiced'
+origin: United States
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: good
+equipment: []
 ---
 
 ## Chef's Note
@@ -45,3 +58,4 @@ This modern update transforms the classic holiday side into a main dish by addin
 6.  **Bake:** Bake for 30 minutes until bubbling.
 7.  **The Crunch Finish:** Remove the pan. Sprinkle the remaining 1/2 cup of cheese and the remaining 1/2 cup of fried onions over the top. Bake for an additional 10 minutes until the crust is deep golden and shatteringly crisp.
 8.  **Rest:** Let sit for 5 minutes before serving to allow the sauce to set.
+

@@ -1,23 +1,43 @@
 ---
 title: Jeri's Lentil Soup
 difficulty: easy
-cookingMethods: [sauté, slow-cook, blend]
+cookingMethods:
+  - sauté
+  - slow-cook
+  - blend
 dietary: []
-occasions: [comfort-food, meal-prep, weeknight]
-seasons: [fall, winter, year-round]
+occasions:
+  - comfort-food
+  - meal-prep
+  - weeknight
+seasons:
+  - fall
+  - winter
+  - year-round
 nutritionalDensity: moderate
 leftovers: excellent
-equipment: [slow-cooker, large-pot]
-advancePrep: [make-ahead, freeze-ahead]
-flavorProfile: [acidic, rich, herbaceous]
-cuisines: [American]
+equipment:
+  - slow-cooker
+  - large-pot
+advancePrep:
+  - make-ahead
+  - freeze-ahead
+flavorProfile:
+  - acidic
+  - rich
+  - herbaceous
+cuisines:
+  - American
 role: main
 vibe: nutritious
 prepTime: 15 min
-cookTime: 5 hours
-totalTime: 5.5 hours
+cookTime: 5 hr
+totalTime: 5.5 hr
 servings: 12 cups
-pairsWith: [roasted-fall-harvest-salad, cinnamon-sweet-potatoes, honey-glazed-carrots]
+pairsWith:
+  - roasted-fall-harvest-salad
+  - cinnamon-sweet-potatoes
+  - honey-glazed-carrots
 ingredients:
   - '16 oz Dry Green or Brown Lentils, rinsed'
   - 2 tbsp Extra-Virgin Olive Oil
@@ -30,6 +50,7 @@ ingredients:
   - '3 tbsp Fresh Parsley, chopped'
   - 1 tbsp Sherry Vinegar or Fresh Lemon Juice
   - Salt and Black Pepper to taste
+origin: United States
 ---
 
 ## Chef's Note

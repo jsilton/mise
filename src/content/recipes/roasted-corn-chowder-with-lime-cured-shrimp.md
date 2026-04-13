@@ -1,30 +1,50 @@
 ---
 title: Corn Chowder with Lime Shrimp
 difficulty: easy
-cookingMethods: [bake, roast, sauté, simmer, boil, blend]
+cookingMethods:
+  - bake
+  - roast
+  - sauté
+  - simmer
+  - boil
+  - blend
 dietary: []
-occasions: [comfort-food]
-flavorProfile: [sweet, rich, smoky]
-cuisines: [Mexican]
+occasions:
+  - comfort-food
+flavorProfile:
+  - sweet
+  - rich
+  - smoky
+cuisines:
+  - Mexican
 role: main
 vibe: comfort
 prepTime: 20 min
 cookTime: 40 min
 totalTime: 60 min
 servings: '6'
-pairsWith: [queso-fundido-with-chorizo, roasted-sweet-potatoes, cilantro-lime-rice]
+pairsWith:
+  - queso-fundido-with-chorizo
+  - roasted-sweet-potatoes
+  - cilantro-lime-rice
 ingredients:
   - '1 lb Shrimp, peeled and deveined'
-  - '4 ears Fresh Corn (or 3 cups frozen)'
+  - 4 ears Fresh Corn (or 3 cups frozen)
   - '4 slices Bacon, diced'
   - '1 Red Onion, diced'
   - '2 cloves Garlic, minced'
   - '1 lb Red Bliss Potatoes, diced'
-  - '4 cups Chicken Stock'
-  - '1 cup Heavy Cream'
-  - '1 tbsp Fresh Lime Juice'
-  - '1/2 tsp Smoked Paprika'
-  - 'Salt and Black Pepper'
+  - 4 cups Chicken Stock
+  - 1 cup Heavy Cream
+  - 1 tbsp Fresh Lime Juice
+  - 1/2 tsp Smoked Paprika
+  - Salt and Black Pepper
+origin: Mexico
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: good
+equipment: []
 ---
 
 ## Chef's Note

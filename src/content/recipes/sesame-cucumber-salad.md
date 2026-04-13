@@ -2,40 +2,49 @@
 title: Smashed Cucumber Salad (Pai Huang Gua)
 origin: China
 difficulty: easy
-cookingMethods: [no-cook]
-dietary: [vegan, gluten-free, dairy-free]
-occasions: [weeknight, light-and-fresh]
-flavorProfile: [savory, acidic, spicy, umami]
-cuisines: [Chinese]
+cookingMethods:
+  - no-cook
+dietary:
+  - vegan
+  - dairy-free
+occasions:
+  - weeknight
+  - light-and-fresh
+flavorProfile:
+  - savory
+  - acidic
+  - spicy
+  - umami
+cuisines:
+  - Chinese
 role: side
 vibe: quick
 prepTime: 15 min
 cookTime: 0 min
-totalTime: 25 min
-servings: '4'
-seasons: [spring, summer]
+totalTime: 15 min
+seasons:
+  - spring
+  - summer
 nutritionalDensity: light
 leftovers: poor
 advancePrep: []
 equipment: []
 pairsWith:
-  [
-    char-siu,
-    bibimbap,
-    miso-salmon-with-bok-choy,
-    vietnamese-grilled-chicken,
-    marinated-korean-ribeye,
-  ]
+  - char-siu
+  - bibimbap
+  - miso-salmon-with-bok-choy
+  - vietnamese-grilled-chicken
+  - marinated-korean-ribeye
 ingredients:
-  - '4 Persian Cucumbers (or 1 English cucumber)'
-  - '1 tsp Kosher Salt (for drawing moisture)'
+  - 4 Persian Cucumbers (or 1 English cucumber)
+  - 1 tsp Kosher Salt (for drawing moisture)
   - '2 cloves Garlic, finely minced'
-  - '1 tbsp Light Soy Sauce'
-  - '2 tsp Black Vinegar (Chinkiang) or Rice Vinegar'
-  - '1 tsp Toasted Sesame Oil'
-  - '1/2 tsp Sugar'
-  - '1/2 tsp Chili Crisp or Red Pepper Flakes'
-  - '1 tbsp Toasted Sesame Seeds'
+  - 1 tbsp Light Soy Sauce
+  - 2 tsp Black Vinegar (Chinkiang) or Rice Vinegar
+  - 1 tsp Toasted Sesame Oil
+  - 1/2 tsp Sugar
+  - 1/2 tsp Chili Crisp or Red Pepper Flakes
+  - 1 tbsp Toasted Sesame Seeds
   - '1 scallion, thinly sliced'
 ---
 

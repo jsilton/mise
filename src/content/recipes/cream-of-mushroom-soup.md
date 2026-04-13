@@ -1,18 +1,30 @@
 ---
 title: Cream of Mushroom Soup
 difficulty: easy
-cookingMethods: [sauté, simmer, boil, blend]
-dietary: [vegetarian]
-occasions: [comfort-food]
-flavorProfile: [acidic, rich]
-cuisines: [American]
+cookingMethods:
+  - sauté
+  - simmer
+  - boil
+  - blend
+dietary:
+  - vegetarian
+occasions:
+  - comfort-food
+flavorProfile:
+  - acidic
+  - rich
+cuisines:
+  - American
 role: main
 vibe: comfort
 prepTime: 10 min
 cookTime: 20 min
 totalTime: 30 min
 servings: '6'
-pairsWith: [cinnamon-sweet-potatoes, avocado-kale-caesar-salad, green-beans-with-shallots-and-lemon]
+pairsWith:
+  - cinnamon-sweet-potatoes
+  - avocado-kale-caesar-salad
+  - green-beans-with-shallots-and-lemon
 ingredients:
   - '16 oz Cremini Mushrooms, sliced'
   - '2/3 cup Shiitake Mushrooms, sliced'
@@ -24,6 +36,12 @@ ingredients:
   - 1 tsp Dried Thyme
   - Salt and Black Pepper
   - 1 tbsp Dry Sherry (The Finishing Touch)
+origin: United States
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: good
+equipment: []
 ---
 
 ## Chef's Note

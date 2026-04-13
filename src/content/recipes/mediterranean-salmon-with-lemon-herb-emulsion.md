@@ -1,18 +1,32 @@
 ---
 title: Mediterranean Salmon with Lemon-Herb Emulsion
 difficulty: easy
-cookingMethods: [bake, roast, boil, no-cook]
-dietary: [vegetarian]
-occasions: [weeknight, light-and-fresh]
-flavorProfile: [sweet, acidic, herbaceous, smoky]
-cuisines: [Mediterranean]
+cookingMethods:
+  - bake
+  - roast
+  - boil
+  - no-cook
+dietary: []
+occasions:
+  - weeknight
+  - light-and-fresh
+flavorProfile:
+  - sweet
+  - acidic
+  - herbaceous
+  - smoky
+cuisines:
+  - Mediterranean
 role: main
 vibe: quick
 prepTime: 15 min
 cookTime: 25 min
 totalTime: 40 min
 servings: '4'
-pairsWith: [garlicky-lemon-kale-with-carrots, greek-salad, roasted-broccolini-with-lemon]
+pairsWith:
+  - garlicky-lemon-kale-with-carrots
+  - greek-salad
+  - roasted-broccolini-with-lemon
 ingredients:
   - 4 Skin-on Salmon Fillets (6-8 oz each)
   - 3 tbsp Extra-Virgin Olive Oil
@@ -26,12 +40,17 @@ ingredients:
   - '4 oz Feta Cheese, crumbled'
   - 'Fresh Parsley and Mint, chopped'
   - Salt and Black Pepper
+origin: Mediterranean
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: good
+equipment: []
 ---
 
 ## Chef's Note
 
-This dish builds textural contrast through staged roasting. Roasting chickpeas at 400°F until crispy creates crunch that contrasts soft orzo and succulent salmon. Whisking lemon juice and honey into olive oil creates a thick, glossy dressing that's drizzled over seared salmon to preserve its clean flavor rather than baking it in.
-
+Salmon with herb emulsion is a French technique—a bright, creamy sauce that's built with cold butter whisked into warm liquid. The lemon and fresh herbs do the heavy lifting; the butter is the structure. The salmon needs high heat to crisp the skin; don't move it around the pan once it hits the heat.
 ## Directions
 
 1.  **Stage 1 (Chickpeas):** Preheat oven to 400°F. Toss bone-dry chickpeas with 1 tbsp oil, smoked paprika, and salt. Roast for 20-25 minutes until golden and very crisp.
@@ -40,3 +59,5 @@ This dish builds textural contrast through staged roasting. Roasting chickpeas a
 4.  **The Orzo:** Boil orzo until al dente. Drain and toss with 1 tbsp oil, the roasted chickpeas, tomatoes, feta, and fresh herbs. Season with salt and pepper.
 5.  **Assemble:** Place a generous portion of herbed orzo on each plate. Top with a salmon fillet.
 6.  **Finish:** Drizzle the lemon-herb emulsion generously over the salmon and greens for the mandatory **Acid Balance**.
+
+**Rest:** Let on Salmon rest for 5 minutes before slicing or serving — the juices redistribute and every piece stays moist.

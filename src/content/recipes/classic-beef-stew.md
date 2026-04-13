@@ -1,36 +1,56 @@
 ---
 title: Beef Stew
 difficulty: easy
-cookingMethods: [bake, roast, fry, sauté, simmer, boil, steam]
+cookingMethods:
+  - bake
+  - roast
+  - fry
+  - sauté
+  - simmer
+  - boil
+  - steam
 dietary: []
-occasions: [comfort-food]
-flavorProfile: [savory, acidic, umami]
-cuisines: [American]
+occasions:
+  - comfort-food
+flavorProfile:
+  - savory
+  - acidic
+  - umami
+cuisines:
+  - American
 role: main
 vibe: comfort
 prepTime: 30 min
-cookTime: 3 hours
-totalTime: 3.5 hours
+cookTime: 3 hr
+totalTime: 3.5 hr
 servings: '6'
 pairsWith:
-  [anadama-bread, avocado-kale-caesar-salad, warm-roasted-veggie-salad-with-maple-dijon-vinaigrette]
+  - anadama-bread
+  - avocado-kale-caesar-salad
+  - warm-roasted-veggie-salad-with-maple-dijon-vinaigrette
 ingredients:
   - '2 lbs Beef Chuck Roast, cut into 1.5-inch cubes'
-  - 'Salt and Black Pepper'
-  - '1/4 cup All-Purpose Flour (for dredging)'
-  - '3 tbsp Neutral Oil'
+  - Salt and Black Pepper
+  - 1/4 cup All-Purpose Flour (for dredging)
+  - 3 tbsp Neutral Oil
   - '2 oz Pancetta or Bacon, diced'
   - '1 large Yellow Onion, diced'
   - '3 Carrots, cut into 1-inch chunks'
   - '2 stalks Celery, diced'
   - '3 cloves Garlic, minced'
-  - '2 tbsp Tomato Paste'
-  - '2 cups Dry Red Wine (Cabernet or Merlot)'
-  - '4 cups Beef Stock (Low sodium)'
-  - '2 sprigs Fresh Thyme'
+  - 2 tbsp Tomato Paste
+  - 2 cups Dry Red Wine (Cabernet or Merlot)
+  - 4 cups Beef Stock (Low sodium)
+  - 2 sprigs Fresh Thyme
   - '1 lb Yukon Gold Potatoes, cut into 1-inch chunks'
-  - '1 cup Frozen Peas'
-  - '1 tbsp Balsamic Vinegar (The Acid Balance)'
+  - 1 cup Frozen Peas
+  - 1 tbsp Balsamic Vinegar (The Acid Balance)
+origin: United States
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: good
+equipment: []
 ---
 
 ## Chef's Note
@@ -47,3 +67,4 @@ The secret to a restaurant-quality stew is **The Batched Sear**. Never crowd the
 6.  **Simmer:** Return the beef to the pot. Add stock and thyme. Bring to a simmer, then cover and cook on **LOW** for 2 hours.
 7.  **Potatoes:** Add the potatoes. Cover and cook for another 45 minutes until meat and potatoes are tender.
 8.  **Finish:** Stir in the peas and balsamic vinegar. Taste and adjust salt. Serve hot.
+

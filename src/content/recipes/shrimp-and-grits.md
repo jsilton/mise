@@ -1,18 +1,34 @@
 ---
 title: Shrimp and Grits
 difficulty: intermediate
-cookingMethods: [roast, fry, simmer, boil, no-cook]
+cookingMethods:
+  - roast
+  - fry
+  - simmer
+  - boil
+  - no-cook
 dietary: []
-occasions: [comfort-food, entertaining]
-flavorProfile: [savory, acidic, rich, herbaceous, smoky]
-cuisines: [Southern]
+occasions:
+  - comfort-food
+  - entertaining
+flavorProfile:
+  - savory
+  - acidic
+  - rich
+  - herbaceous
+  - smoky
+cuisines:
+  - Southern
 role: main
 vibe: quick
 prepTime: 15 min
 cookTime: 25 min
 totalTime: 40 min
 servings: '4'
-pairsWith: [cornbread, nanas-biscuits, corn-bread-dressing]
+pairsWith:
+  - cornbread
+  - nanas-biscuits
+  - corn-bread-dressing
 ingredients:
   - '1 lb Medium Shrimp, peeled and deveined'
   - '6 slices Smoked Bacon, chopped'
@@ -25,6 +41,12 @@ ingredients:
   - '2 tbsp Fresh Parsley, chopped'
   - '1 clove Garlic, minced'
   - Salt and Black Pepper
+origin: United States
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: poor
+equipment: []
 ---
 
 ## Chef's Note
@@ -40,3 +62,4 @@ The secret to great shrimp and grits is the contrast between crispy protein and 
 5.  **Bind:** Add the garlic, scallions, parsley, and lemon juice to the skillet. Toss for 1 minute to create a light, smoky glaze.
 6.  **Assemble:** Spoon a generous mound of cheesy grits into 4 bowls. Top with the shrimp and bacon mixture.
 7.  **Finish:** Garnish with extra scallions and a "High Note" crack of black pepper.
+

@@ -1,22 +1,38 @@
 ---
 title: Chinese Chicken
 difficulty: easy
-cookingMethods: [fry, sauté, simmer, boil, steam]
+cookingMethods:
+  - fry
+  - sauté
+  - simmer
+  - boil
+  - steam
 dietary: []
-occasions: [weeknight, meal-prep, comfort-food]
-flavorProfile: [sweet, savory, umami]
-cuisines: [Chinese]
+occasions:
+  - weeknight
+  - meal-prep
+  - comfort-food
+flavorProfile:
+  - sweet
+  - savory
+  - umami
+cuisines:
+  - Chinese
 role: main
 vibe: nutritious
 prepTime: 20 min
 cookTime: 30 min
 totalTime: 50 min
 servings: '4'
-seasons: [year-round]
+seasons:
+  - year-round
 nutritionalDensity: hearty
 leftovers: excellent
-equipment: [large-skillet]
-pairsWith: [basmati-rice, basmati-rice]
+equipment:
+  - large-skillet
+pairsWith:
+  - basmati-rice
+  - basmati-rice
 ingredients:
   - '2 lbs Chicken Thighs, chopped'
   - 2 links Chinese Sausage (Lap Cheong)
@@ -29,6 +45,7 @@ ingredients:
   - 1/3 cup Cornstarch (mixed with 1/2 cup water)
   - 3 cups White Rice (Jasmine preferred)
   - Vegetable Oil
+origin: China
 ---
 
 ## Chef's Note

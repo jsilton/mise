@@ -1,0 +1,297 @@
+---
+// RecipeScaler.astro - Servings adjuster component with ingredient scaling
+// Displays servings control and dynamically scales ingredient quantities
+
+interface Props {
+  servings: string;
+}
+
+const { servings } = Astro.props;
+const baseServings = parseInt(servings) || 4;
+---
+
+<div id="recipe-scaler" class="mb-6 p-4 bg-slate-50/80 rounded-lg border border-slate-200/80">
+  <div class="flex items-center justify-between">
+    <div class="flex items-center gap-4">
+      <label for="servings-input" class="text-sm font-semibold text-slate-700">
+        Servings:
+      </label>
+      <div class="flex items-center gap-2 bg-white rounded-lg border border-slate-300 p-1">
+        <button
+          id="servings-decrease"
+          class="px-3 py-1 text-slate-600 hover:text-slate-900 hover:bg-slate-100 rounded transition-colors font-semibold"
+          aria-label="Decrease servings"
+        >
+          −
+        </button>
+        <input
+          id="servings-input"
+          type="number"
+          min="1"
+          max="20"
+          value={baseServings}
+          class="w-12 text-center font-semibold text-slate-900 border-0 focus:ring-0"
+        />
+        <button
+          id="servings-increase"
+          class="px-3 py-1 text-slate-600 hover:text-slate-900 hover:bg-slate-100 rounded transition-colors font-semibold"
+          aria-label="Increase servings"
+        >
+          +
+        </button>
+      </div>
+      <span class="text-sm text-slate-500">
+        (Base: {baseServings} servings)
+      </span>
+    </div>
+    <button
+      id="reset-servings"
+      class="text-xs font-medium text-indigo-600 hover:text-indigo-700 hover:underline transition-colors"
+    >
+      Reset
+    </button>
+  </div>
+</div>
+
+<script define:vars={{ baseServings }}>
+  // Utility functions for parsing and formatting fractions
+
+  function parseQuantity(str) {
+    if (!str) return null;
+
+    const trimmed = str.trim();
+
+    // Handle "to taste" and similar non-scalable items
+    if (
+      /^(to taste|as needed|for|oil for|salt and|pinch of|dash of|a bit of)/i.test(
+        trimmed
+      )
+    ) {
+      return null;
+    }
+
+    // Match pattern: optional whole number + optional space + optional fraction + optional unit
+    // Examples: "1", "1/2", "1 1/2", "2 cups", "1/2 tsp"
+    const pattern = /^(\d+(?:\s+\d+\/\d+)?(?:\s*\d+\/\d+)?)\s*(.*)$/;
+    const match = trimmed.match(pattern);
+
+    if (!match) {
+      return null;
+    }
+
+    const quantityStr = match[1].trim();
+    const rest = match[2].trim();
+
+    // Parse the quantity (whole number + fraction)
+    let quantity = 0;
+
+    // Check for mixed number (e.g., "1 1/2")
+    const mixedMatch = quantityStr.match(/^(\d+)\s+(\d+)\/(\d+)$/);
+    if (mixedMatch) {
+      const whole = parseInt(mixedMatch[1]);
+      const num = parseInt(mixedMatch[2]);
+      const denom = parseInt(mixedMatch[3]);
+      quantity = whole + num / denom;
+    } else {
+      // Check for fraction (e.g., "1/2")
+      const fractionMatch = quantityStr.match(/^(\d+)\/(\d+)$/);
+      if (fractionMatch) {
+        const num = parseInt(fractionMatch[1]);
+        const denom = parseInt(fractionMatch[2]);
+        quantity = num / denom;
+      } else {
+        // Just a whole number
+        quantity = parseFloat(quantityStr);
+      }
+    }
+
+    return {
+      quantity,
+      unit: rest || '',
+    };
+  }
+
+  function gcd(a, b) {
+    return b === 0 ? a : gcd(b, a % b);
+  }
+
+  function toFraction(decimal) {
+    // Handle simple common fractions
+    const tolerance = 0.0001;
+
+    // Check common fractions
+    const commonFractions = [
+      { num: 1, denom: 8 },
+      { num: 1, denom: 6 },
+      { num: 1, denom: 4 },
+      { num: 1, denom: 3 },
+      { num: 3, denom: 8 },
+      { num: 1, denom: 2 },
+      { num: 5, denom: 8 },
+      { num: 2, denom: 3 },
+      { num: 3, denom: 4 },
+      { num: 5, denom: 6 },
+      { num: 7, denom: 8 },
+    ];
+
+    for (const frac of commonFractions) {
+      const value = frac.num / frac.denom;
+      if (Math.abs(decimal - value) < tolerance) {
+        return frac;
+      }
+    }
+
+    // If not a common fraction, try to convert
+    const denominator = 8;
+    const numerator = Math.round(decimal * denominator);
+
+    if (numerator === 0) {
+      return null;
+    }
+
+    const g = gcd(numerator, denominator);
+    return { num: numerator / g, denom: denominator / g };
+  }
+
+  function formatQuantity(quantity) {
+    const epsilon = 0.0001;
+
+    if (quantity < epsilon) {
+      return null;
+    }
+
+    // Round to nearest eighth
+    const rounded = Math.round(quantity * 8) / 8;
+
+    const whole = Math.floor(rounded);
+    const frac = rounded - whole;
+
+    if (Math.abs(frac) < epsilon) {
+      return whole.toString();
+    }
+
+    const fraction = toFraction(frac);
+
+    if (!fraction) {
+      return rounded.toFixed(2).replace(/\.?0+$/, '');
+    }
+
+    if (whole === 0) {
+      return `${fraction.num}/${fraction.denom}`;
+    } else {
+      return `${whole} ${fraction.num}/${fraction.denom}`;
+    }
+  }
+
+  function scaleIngredient(ingredientText, scaleFactor) {
+    const parsed = parseQuantity(ingredientText);
+
+    if (!parsed) {
+      return ingredientText;
+    }
+
+    const scaledQuantity = parsed.quantity * scaleFactor;
+    const formatted = formatQuantity(scaledQuantity);
+
+    if (!formatted) {
+      return ingredientText;
+    }
+
+    // Replace the original quantity with the scaled quantity
+    const newText = ingredientText.replace(/^\d+(?:\s+\d+\/\d+)?(?:\s*\d+\/\d+)?/, formatted);
+    return newText;
+  }
+
+  // Initialize scaler
+  function initializeScaler() {
+    const scalerDiv = document.getElementById('recipe-scaler');
+    if (!scalerDiv) return;
+
+    const servingsInput = document.getElementById('servings-input');
+    const decreaseBtn = document.getElementById('servings-decrease');
+    const increaseBtn = document.getElementById('servings-increase');
+    const resetBtn = document.getElementById('reset-servings');
+
+    if (!servingsInput) return;
+
+    function updateIngredients() {
+      const currentServings = parseInt(servingsInput.value) || baseServings;
+      const scaleFactor = currentServings / baseServings;
+
+      // Find all ingredient list items
+      const ingredientsList = document.querySelector('article ul');
+      if (!ingredientsList) return;
+
+      const items = ingredientsList.querySelectorAll('li');
+
+      items.forEach((item) => {
+        const span = item.querySelector('span');
+        if (!span) return;
+
+        // Get the original ingredient text
+        let originalText = item.dataset.originalText;
+        if (!originalText) {
+          originalText = span.textContent;
+          item.dataset.originalText = originalText;
+        }
+
+        // Check if this is a divider
+        const isDivider = /^-{3}\s+.+\s+-{3}$/.test(originalText.trim());
+        if (isDivider) return;
+
+        // Scale the ingredient
+        const scaledText = scaleIngredient(originalText, scaleFactor);
+
+        // Update the display
+        span.innerHTML = span.innerHTML.replace(originalText, scaledText);
+
+        // Highlight if scaled
+        if (Math.abs(scaleFactor - 1) > 0.01) {
+          item.classList.add('scaled-ingredient');
+        } else {
+          item.classList.remove('scaled-ingredient');
+        }
+      });
+    }
+
+    // Event handlers
+    decreaseBtn.addEventListener('click', () => {
+      const current = parseInt(servingsInput.value) || baseServings;
+      if (current > 1) {
+        servingsInput.value = current - 1;
+        updateIngredients();
+      }
+    });
+
+    increaseBtn.addEventListener('click', () => {
+      const current = parseInt(servingsInput.value) || baseServings;
+      servingsInput.value = current + 1;
+      updateIngredients();
+    });
+
+    servingsInput.addEventListener('change', updateIngredients);
+
+    resetBtn.addEventListener('click', () => {
+      servingsInput.value = baseServings;
+      updateIngredients();
+    });
+  }
+
+  // Wait for DOM to load
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initializeScaler);
+  } else {
+    initializeScaler();
+  }
+</script>
+
+<style is:global>
+  .scaled-ingredient {
+    background-color: rgba(251, 191, 36, 0.1);
+    transition: background-color 0.2s ease;
+  }
+
+  .scaled-ingredient:hover {
+    background-color: rgba(251, 191, 36, 0.15);
+  }
+</style>

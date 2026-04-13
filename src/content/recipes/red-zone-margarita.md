@@ -3,42 +3,67 @@ title: Red Zone Margarita
 aliases:
   - foxboro-red-margarita
 difficulty: intermediate
-cookingMethods: [simmer, no-cook]
-dietary: [vegetarian, vegan, gluten-free]
-occasions: [entertaining, game-day, holiday]
-flavorProfile: [sweet, bitter, acidic, herbaceous]
-cuisines: [Mexican, American]
+cookingMethods:
+  - simmer
+  - no-cook
+dietary:
+  - vegetarian
+  - vegan
+  - gluten-free
+occasions:
+  - entertaining
+  - game-day
+  - holiday
+flavorProfile:
+  - sweet
+  - bitter
+  - acidic
+  - herbaceous
+cuisines:
+  - Mexican
+  - American
 role: drink
 vibe: technical
 prepTime: 20 min
 cookTime: 10 min
 totalTime: 30 min
 servings: '10'
-seasons: [winter, fall]
+seasons:
+  - winter
+  - fall
 nutritionalDensity: light
 leftovers: excellent
-equipment: [cocktail-shaker, saucepan]
-advancePrep: [make-ahead-syrup]
+equipment:
+  - cocktail-shaker
+  - saucepan
+advancePrep:
+  - make-ahead-syrup
 ingredients:
   - 'For the Spiced Cranberry Syrup:'
-  - '1 cup Unsweetened 100% Cranberry Juice'
-  - '1 cup White Sugar'
+  - 1 cup Unsweetened 100% Cranberry Juice
+  - 1 cup White Sugar
   - '2 Cinnamon Sticks, cracked in half'
-  - '4-5 sprigs Fresh Thyme'
+  - 4-5 sprigs Fresh Thyme
   - '3 whole Cloves (optional, adds depth)'
   - 'For the Game Day Ice:'
-  - 'Fresh Cranberries'
-  - 'Fresh Blueberries'
-  - 'Water'
+  - Fresh Cranberries
+  - Fresh Blueberries
+  - Water
   - 'For the Batch (10 servings):'
-  - '2.5 cups (20 oz) Reposado Tequila'
-  - '1.25 cups (10 oz) Fresh Lime Juice (8-10 limes)'
-  - '0.75 cups (6 oz) Spiced Cranberry Syrup'
-  - '0.6 cups (5 oz) Cointreau'
-  - '0.5 cups (4 oz) Campari'
-  - '1 tsp Fine Sea Salt'
+  - 2.5 cups (20 oz) Reposado Tequila
+  - 1.25 cups (10 oz) Fresh Lime Juice (8-10 limes)
+  - 0.75 cups (6 oz) Spiced Cranberry Syrup
+  - 0.6 cups (5 oz) Cointreau
+  - 0.5 cups (4 oz) Campari
+  - 1 tsp Fine Sea Salt
   - 'For Serving:'
-  - 'Fresh Orange Peel strips'
+  - Fresh Orange Peel strips
+origin: Mexico
+pairsWith:
+  - grilled-chicken-with-herbed-corn-salsa
+  - chili
+  - chipotle-pork-and-sweet-corn-tamale-bowls
+  - crockpot-vegetarian-chili
 ---
 
 ## Chef's Note

@@ -1,17 +1,29 @@
 ---
 title: Slow Cooker Vegetable Korma
 difficulty: intermediate
-cookingMethods: [braise, slow-cook]
-dietary: [vegetarian]
-occasions: [weekend-project, entertaining, make-ahead]
-flavorProfile: [rich]
-cuisines: [Indian]
+cookingMethods:
+  - braise
+  - slow-cook
+dietary:
+  - vegetarian
+occasions:
+  - weekend-project
+  - entertaining
+  - make-ahead
+flavorProfile:
+  - rich
+cuisines:
+  - Indian
 role: side
 vibe: nutritious
-season: [fall, winter]
+season:
+  - fall
+  - winter
 leftovers: excellent
 healthiness: moderate
-pairsWith: [basmati-rice, homemade-naan]
+pairsWith:
+  - basmati-rice
+  - homemade-naan
 prepTime: 15 min
 cookTime: 300 min
 totalTime: 315 min
@@ -27,6 +39,13 @@ ingredients:
   - '2 cloves Garlic, minced'
   - '1/2 large Onion, chopped'
   - 1 tbsp Sea Salt
+  - '--- Yogurt ---'
+  - 1/4 cup Plain Yogurt
+origin: India
+seasons:
+  - year-round
+nutritionalDensity: moderate
+equipment: []
 ---
 
 ## Chef's Note
@@ -41,3 +60,4 @@ Korma is traditionally a thick, rich braise rather than a watery curry. Whisking
 4.  **Cook:** Cover and cook on **High for 5 hours** (or Low for 8 hours) until the sauce is very thick and the vegetables are tender.
 5.  **Finish:** Stir once more before serving. Taste and adjust salt if needed.
 6.  **Serve:** Serve immediately with warm naan or basmati rice.
+

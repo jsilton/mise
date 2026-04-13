@@ -1,17 +1,32 @@
 ---
 title: Sesame Tomato Salad
 difficulty: intermediate
-cookingMethods: [roast]
-dietary: [vegetarian]
-occasions: [light-and-fresh, entertaining, weekend-project]
-flavorProfile: [sweet, savory, acidic, umami, herbaceous]
-cuisines: [Mediterranean]
+cookingMethods:
+  - roast
+dietary:
+  - vegetarian
+occasions:
+  - light-and-fresh
+  - entertaining
+  - weekend-project
+flavorProfile:
+  - sweet
+  - savory
+  - acidic
+  - umami
+  - herbaceous
+cuisines:
+  - Mediterranean
 role: side
 vibe: nutritious
-season: [summer]
+season:
+  - summer
 leftovers: good
 healthiness: light
-pairsWith: [vietnamese-grilled-chicken, baked-cod-with-lemon-panko, marinated-korean-ribeye]
+pairsWith:
+  - vietnamese-grilled-chicken
+  - baked-cod-with-lemon-panko
+  - marinated-korean-ribeye
 prepTime: 10 min
 cookTime: 0 min
 totalTime: 20 min
@@ -26,6 +41,11 @@ ingredients:
   - 1 tsp Granulated Sugar
   - '1/4 cup Fresh Basil, chopped'
   - Flaky Sea Salt
+origin: Mediterranean
+seasons:
+  - year-round
+nutritionalDensity: moderate
+equipment: []
 ---
 
 ## Chef's Note

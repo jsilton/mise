@@ -1,24 +1,39 @@
 ---
 title: Pickled Red Onions
 difficulty: intermediate
-cookingMethods: []
+cookingMethods:
+  - no-cook
 dietary: []
-occasions: [meal-prep, entertaining]
-flavorProfile: [sweet, acidic]
-cuisines: [Mexican]
+occasions:
+  - meal-prep
+  - entertaining
+flavorProfile:
+  - sweet
+  - acidic
+cuisines:
+  - Mexican
 role: condiment
 vibe: quick
 prepTime: 10 min
 cookTime: 0 min
-totalTime: 40 min
+totalTime: 10 min
 servings: 1 cup
-pairsWith: [carnitas-bowl, chipotle-pork-and-sweet-corn-tamale-bowls, honey-lime-chicken-thighs]
+pairsWith:
+  - carnitas-bowl
+  - chipotle-pork-and-sweet-corn-tamale-bowls
+  - honey-lime-chicken-thighs
 ingredients:
   - '1 large Red Onion, thinly sliced into half-moons'
   - 1/2 cup Apple Cider Vinegar
   - 1/2 cup Warm Water
   - 1 tbsp Sugar
   - 1 1/2 tsp Kosher Salt
+origin: Mexico
+seasons:
+  - year-round
+nutritionalDensity: light
+leftovers: good
+equipment: []
 ---
 
 ## Chef's Note

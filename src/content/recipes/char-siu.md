@@ -2,34 +2,49 @@
 title: Char Siu (Chinese BBQ Pork)
 origin: China
 difficulty: intermediate
-cookingMethods: [roast, boil, broil]
+cookingMethods:
+  - roast
+  - boil
+  - broil
 dietary: []
-occasions: [weekend-project, meal-prep]
-flavorProfile: [sweet, savory, umami]
-cuisines: [Chinese]
+occasions:
+  - weekend-project
+  - meal-prep
+flavorProfile:
+  - sweet
+  - savory
+  - umami
+cuisines:
+  - Chinese
 role: main
 vibe: technical
 prepTime: 20 min
 cookTime: 1 hr
-totalTime: 12 hours
+totalTime: 12 hr
 servings: '8'
-seasons: [year-round]
+seasons:
+  - year-round
 nutritionalDensity: hearty
 leftovers: excellent
-advancePrep: [marinate-overnight]
-equipment: [wire-rack, baking-sheet]
-pairsWith: [basmati-rice, steamed-bok-choy-with-oyster-sauce]
+advancePrep:
+  - marinate-overnight
+equipment:
+  - wire-rack
+  - baking-sheet
+pairsWith:
+  - basmati-rice
+  - steamed-bok-choy-with-oyster-sauce
 ingredients:
-  - '3 lbs Pork Butt (Shoulder) (Use Pork Tenderloin for a leaner option)'
-  - '1/4 cup Hoisin Sauce'
-  - '1/4 cup Honey (or Maltose for authentic shine)'
-  - '2 tbsp Soy Sauce'
-  - '1 tbsp Dark Soy Sauce'
-  - '1 tbsp Shaoxing Wine'
-  - '1 tbsp Brown Sugar'
-  - '1 tsp Five Spice Powder'
+  - 3 lbs Pork Butt (Shoulder) (Use Pork Tenderloin for a leaner option)
+  - 1/4 cup Hoisin Sauce
+  - 1/4 cup Honey (or Maltose for authentic shine)
+  - 2 tbsp Soy Sauce
+  - 1 tbsp Dark Soy Sauce
+  - 1 tbsp Shaoxing Wine
+  - 1 tbsp Brown Sugar
+  - 1 tsp Five Spice Powder
   - '3 cloves Garlic, minced'
-  - '1/2 tsp White Pepper'
+  - 1/2 tsp White Pepper
   - '1 tsp Beet Juice (Optional, for natural red color)'
 ---
 

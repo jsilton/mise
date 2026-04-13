@@ -1,22 +1,40 @@
 ---
 title: General Tso's Cauliflower
 difficulty: easy
-cookingMethods: [fry, sauté, simmer, steam]
-dietary: [vegetarian]
-occasions: [weeknight, meal-prep, comfort-food]
-flavorProfile: [spicy, sweet, savory, acidic, umami]
-cuisines: [Chinese]
+cookingMethods:
+  - fry
+  - sauté
+  - simmer
+  - steam
+dietary:
+  - vegetarian
+occasions:
+  - weeknight
+  - meal-prep
+  - comfort-food
+flavorProfile:
+  - spicy
+  - sweet
+  - savory
+  - acidic
+  - umami
+cuisines:
+  - Chinese
 role: main
 vibe: nutritious
 prepTime: 30 min
 cookTime: 30 min
 totalTime: 60 min
 servings: '4'
-seasons: [year-round]
+seasons:
+  - year-round
 nutritionalDensity: moderate
 leftovers: excellent
-equipment: [large-skillet]
-pairsWith: [basmati-rice, steamed-broccoli]
+equipment:
+  - large-skillet
+pairsWith:
+  - basmati-rice
+  - steamed-broccoli
 ingredients:
   - '1 head Cauliflower, cut into bite-sized florets'
   - 1/2 cup All-Purpose Flour
@@ -36,11 +54,13 @@ ingredients:
   - '1 tbsp Fresh Ginger, minced'
   - 5 Dried Red Chilies
   - Peanut Oil (for frying)
+origin: China
 ---
 
 ## Chef's Note
 
 General Tso's chicken was invented in the 1970s by Taiwanese chef Peng Chang-kuei and became a Chinese-American takeout staple. This vegetarian version uses cauliflower with a high ratio of cornstarch and baking powder in the batter, creating a light, crispy coating that stays crunchy even after being tossed in the sticky-sweet glaze. Rice vinegar in both the batter and sauce keeps the flavors balanced and bright.
+For kids, serve the heat on the side or reduce/omit the spicy elements.
 
 ## Directions
 

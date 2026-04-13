@@ -1,22 +1,39 @@
 ---
 title: Lemon Broccoli Tortellini
 difficulty: intermediate
-cookingMethods: [bake, roast, sauté, boil]
-dietary: [vegetarian]
-occasions: [weeknight, quick-lunch, light-and-fresh]
-flavorProfile: [acidic, umami, rich]
-cuisines: [Italian]
+cookingMethods:
+  - bake
+  - roast
+  - sauté
+  - boil
+dietary:
+  - vegetarian
+occasions:
+  - weeknight
+  - quick-lunch
+  - light-and-fresh
+flavorProfile:
+  - acidic
+  - umami
+  - rich
+cuisines:
+  - Italian
 role: main
 vibe: quick
 prepTime: 10 min
 cookTime: 25 min
 totalTime: 35 min
 servings: '4'
-seasons: [spring, summer, year-round]
+seasons:
+  - spring
+  - summer
+  - year-round
 nutritionalDensity: moderate
 leftovers: good
 equipment: []
-pairsWith: [everyday-arugula-salad, garlic-bread]
+pairsWith:
+  - everyday-arugula-salad
+  - garlic-bread
 ingredients:
   - 1 lb Cheese Tortellini (Refrigerated or frozen)
   - '1 1/2 lbs Fresh Broccoli, cut into bite-sized florets'
@@ -29,12 +46,12 @@ ingredients:
   - 1/2 cup Freshly Grated Parmesan
   - 1/4 tsp Red Pepper Flakes
   - Salt and Black Pepper
+origin: Italy
 ---
 
 ## Chef's Note
 
-This is a modern quick pasta that uses store-bought cheese tortellini (originally from Emilia-Romagna) with roasted vegetables. The key to keeping the broccoli from turning mushy is roasting it separately at high heat (400°F) until slightly charred before tossing with the pasta - this gives it a smoky, crispy texture that contrasts nicely with the soft, pillowy tortellini. Use both lemon zest and juice for maximum brightness - the zest has aromatic oils that the juice doesn't have. Pasta water creates a light sauce when mixed with butter and Parmesan. This is weeknight cooking at its best.
-
+This is Italian comfort food with a bright finish: buttery tortellini with the slight bitterness of broccoli, then lemon juice and zest at the end to tie it together. The lemon isn't subtle—use at least the zest and juice of one full lemon per four servings. Pasta water thickens the sauce and carries the lemon flavor through.
 ## Directions
 
 1.  **Roast:** Preheat oven to 400°F. On a large baking sheet, toss broccoli with olive oil, half the lemon juice, garlic, salt, and pepper. Roast for 20-25 minutes until crisp and slightly charred at the edges.

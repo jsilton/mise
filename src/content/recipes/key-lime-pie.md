@@ -1,11 +1,17 @@
 ---
 title: Key Lime Pie
 difficulty: easy
-cookingMethods: [bake]
-dietary: [vegetarian]
-occasions: [holiday]
-flavorProfile: [sweet, acidic, rich]
-cuisines: [American]
+cookingMethods:
+  - bake
+dietary: []
+occasions:
+  - holiday
+flavorProfile:
+  - sweet
+  - acidic
+  - rich
+cuisines:
+  - American
 role: dessert
 vibe: technical
 prepTime: 20 min
@@ -22,6 +28,19 @@ ingredients:
   - '3/4 cup Heavy Cream, chilled'
   - 1 tbsp Powdered Sugar
   - Lime Zest for garnish
+origin: United States
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: good
+advancePrep:
+  - chill-to-set
+equipment: []
+pairsWith:
+  - apple-cider-cream-pie
+  - apple-pie
+  - blackout-chocolate-cake
+  - classic-peach-ice-cream
 ---
 
 ## Chef's Note

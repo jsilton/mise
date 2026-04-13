@@ -1,15 +1,32 @@
 ---
 title: Sunchokes with Brown Butter Vinaigrette
 difficulty: easy
-cookingMethods: [bake, roast, simmer]
+cookingMethods:
+  - bake
+  - roast
+  - simmer
 dietary: []
-occasions: [entertaining, holiday, weekend-project]
-seasons: [fall, winter]
+occasions:
+  - entertaining
+  - holiday
+  - weekend-project
+seasons:
+  - fall
+  - winter
 nutritionalDensity: moderate
 leftovers: good
-equipment: [sheet-pan, small-saucepan]
-flavorProfile: [spicy, sweet, savory, acidic, rich, herbaceous]
-cuisines: [American]
+equipment:
+  - sheet-pan
+  - small-saucepan
+flavorProfile:
+  - spicy
+  - sweet
+  - savory
+  - acidic
+  - rich
+  - herbaceous
+cuisines:
+  - American
 role: side
 vibe: nutritious
 prepTime: 10 min
@@ -17,7 +34,9 @@ cookTime: 60 min
 totalTime: 70 min
 servings: '4'
 pairsWith:
-  [rosemary-pork-tenderloin, herb-marinated-pork-tenderloins, one-pan-citrus-beets-roasted-chicken]
+  - rosemary-pork-tenderloin
+  - herb-marinated-pork-tenderloins
+  - one-pan-citrus-beets-roasted-chicken
 ingredients:
   - '2 lbs Sunchokes (Jerusalem Artichokes), scrubbed and cut'
   - 2 tbsp Unsalted Butter
@@ -28,6 +47,7 @@ ingredients:
   - '1/4 cup Fresh Chives, chopped'
   - '8 cloves Garlic, crushed'
   - Fresh Thyme sprigs
+origin: United States
 ---
 
 ## Chef's Note

@@ -1,34 +1,49 @@
 ---
 title: Anadama Bread
 aliases:
-  - 'anadama-bread-the-new-england-classic'
+  - anadama-bread-the-new-england-classic
 difficulty: easy
-cookingMethods: [bake, roast, boil]
+cookingMethods:
+  - bake
+  - roast
+  - boil
 dietary: []
-occasions: [weekend-project, comfort-food]
-seasons: [year-round]
+occasions:
+  - weekend-project
+  - comfort-food
+seasons:
+  - year-round
 nutritionalDensity: moderate
 leftovers: excellent
-advancePrep: [freeze-ahead, make-ahead]
+advancePrep:
+  - freeze-ahead
+  - make-ahead
+  - rise-dough
 equipment: []
-flavorProfile: [sweet, rich]
-cuisines: [American]
+flavorProfile:
+  - sweet
+  - rich
+cuisines:
+  - American
 role: base
 vibe: technical
 prepTime: 30 min
 cookTime: 30 min
-totalTime: 3 hours
-servings: '1 loaf'
-pairsWith: [tomato-soup, classic-beef-stew]
+totalTime: 3 hr
+servings: 1 loaf
+pairsWith:
+  - tomato-soup
+  - classic-beef-stew
 ingredients:
-  - '1/2 cup Water'
-  - '1/4 cup Yellow Cornmeal'
-  - '2 tbsp Unsalted Butter'
-  - '1/2 cup Molasses (The signature flavor)'
-  - '1 pkg (.25 oz) Active Dry Yeast'
-  - '1/2 cup Warm Water (110°F)'
-  - '3 cups All-Purpose Flour'
-  - '1 tsp Kosher Salt'
+  - 1/2 cup Water
+  - 1/4 cup Yellow Cornmeal
+  - 2 tbsp Unsalted Butter
+  - 1/2 cup Molasses (The signature flavor)
+  - 1 pkg (.25 oz) Active Dry Yeast
+  - 1/2 cup Warm Water (110°F)
+  - 3 cups All-Purpose Flour
+  - 1 tsp Kosher Salt
+origin: United States
 ---
 
 ## Chef's Note

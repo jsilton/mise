@@ -1,22 +1,36 @@
 ---
 title: Lemony Broccoli Pasta
 difficulty: intermediate
-cookingMethods: [roast, boil]
-dietary: [vegetarian]
-occasions: [weeknight, quick-lunch, light-and-fresh]
-flavorProfile: [acidic, umami]
-cuisines: [Italian]
+cookingMethods:
+  - roast
+  - boil
+dietary:
+  - vegetarian
+occasions:
+  - weeknight
+  - quick-lunch
+  - light-and-fresh
+flavorProfile:
+  - acidic
+  - umami
+cuisines:
+  - Italian
 role: main
 vibe: nutritious
 prepTime: 5 min
 cookTime: 15 min
 totalTime: 20 min
 servings: '6'
-seasons: [spring, summer, year-round]
+seasons:
+  - spring
+  - summer
+  - year-round
 nutritionalDensity: light
 leftovers: good
 equipment: []
-pairsWith: [vietnamese-grilled-chicken, garlic-bread]
+pairsWith:
+  - vietnamese-grilled-chicken
+  - garlic-bread
 ingredients:
   - 1 lb Dry Spaghetti
   - 5 cups Fresh Broccoli Florets
@@ -26,12 +40,12 @@ ingredients:
   - '1 Lemon, zested and juiced'
   - 1/2 cup Reserved Pasta Water
   - Salt and Black Pepper
+origin: Italy
 ---
 
 ## Chef's Note
 
-This is a simple Italian vegetable pasta that showcases the classic technique of using starchy pasta water as a sauce base. Southern Italians have been making versions of this for generations with whatever vegetables are in season. The key is adding the broccoli to the boiling pasta water in the last 2 minutes so it stays bright green and slightly crisp - not overcooked and gray. The pasta water's starch binds with the olive oil and Parmesan to create a light, clingy sauce without heavy cream. Lemon zest (not just juice) is essential for brightness. This is the kind of simple, economical pasta working-class Italian families made nightly.
-
+Broccoli and lemon is a classic Italian pairing—the vegetable's slight bitterness needs bright acid to sing. The broccoli cooks in the same pot as the pasta, so its starchy water enriches the sauce. Finish with fresh lemon juice and good olive oil so the citrus and fat bridge the bitter greens and creamy pasta.
 ## Directions
 
 1.  **Boil:** Bring a large pot of salted water to a boil. Add spaghetti and cook for 8 minutes.

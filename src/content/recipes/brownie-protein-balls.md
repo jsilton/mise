@@ -1,33 +1,47 @@
 ---
 title: Brownie Protein Balls
 difficulty: easy
-cookingMethods: []
-dietary: [vegetarian]
-occasions: [post-workout, quick-lunch, meal-prep]
-seasons: [year-round]
+cookingMethods:
+  - bake
+dietary:
+  - vegetarian
+occasions:
+  - post-workout
+  - quick-lunch
+  - meal-prep
+seasons:
+  - year-round
 nutritionalDensity: moderate
 leftovers: excellent
-advancePrep: [make-ahead]
+advancePrep:
+  - make-ahead
 equipment: []
-flavorProfile: [sweet, rich]
-cuisines: [American]
+flavorProfile:
+  - sweet
+  - rich
+cuisines:
+  - American
 role: base
 vibe: quick
 prepTime: 10 min
 cookTime: 0 min
 totalTime: 10 min
-servings: '12 balls'
-pairsWith: [blueberry-banana-pancake-muffins, blueberry-oat-breakfast-bars, easy-chia-pudding]
+servings: 12 balls
+pairsWith:
+  - blueberry-banana-pancake-muffins
+  - blueberry-oat-breakfast-bars
+  - easy-chia-pudding
 ingredients:
-  - '1/2 cup Creamy Almond Butter'
-  - '1/2 cup Chocolate Protein Powder'
-  - '1/4 cup Almond Flour'
-  - '2 tbsp Unsweetened Cocoa Powder'
-  - '3-4 tbsp Maple Syrup'
-  - '2 tbsp Ground Flaxseed or Chia Seeds'
-  - '1/4 cup Mini Chocolate Chips'
-  - '1-2 tbsp Water or Almond Milk (if needed)'
-  - 'Pinch of Sea Salt'
+  - 1/2 cup Creamy Almond Butter
+  - 1/2 cup Chocolate Protein Powder
+  - 1/4 cup Almond Flour
+  - 2 tbsp Unsweetened Cocoa Powder
+  - 3-4 tbsp Maple Syrup
+  - 2 tbsp Ground Flaxseed or Chia Seeds
+  - 1/4 cup Mini Chocolate Chips
+  - 1-2 tbsp Water or Almond Milk (if needed)
+  - Pinch of Sea Salt
+origin: United States
 ---
 
 ## Chef's Note

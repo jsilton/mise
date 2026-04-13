@@ -1,23 +1,38 @@
 ---
 title: Strawberry Quinoa Breakfast Bars
 difficulty: easy
-cookingMethods: [bake]
-dietary: [vegetarian]
-occasions: [meal-prep, post-workout, quick-lunch, kids-approved]
-seasons: [spring, summer]
+cookingMethods:
+  - bake
+dietary:
+  - vegetarian
+occasions:
+  - meal-prep
+  - post-workout
+  - quick-lunch
+  - kids-approved
+seasons:
+  - spring
+  - summer
 nutritionalDensity: moderate
 leftovers: excellent
-equipment: [baking-dish]
-advancePrep: [make-ahead]
-flavorProfile: [rich]
-cuisines: [American]
+equipment:
+  - baking-dish
+advancePrep:
+  - make-ahead
+flavorProfile:
+  - rich
+cuisines:
+  - American
 role: base
 vibe: quick
 prepTime: 5 min
 cookTime: 20 min
 totalTime: 25 min
 servings: '9'
-pairsWith: [blueberry-banana-pancake-muffins, blueberry-oat-breakfast-bars, freezer-date-cookies]
+pairsWith:
+  - blueberry-banana-pancake-muffins
+  - blueberry-oat-breakfast-bars
+  - freezer-date-cookies
 ingredients:
   - 3/4 cup Cooked Quinoa (chilled)
   - 1 1/2 cups Old-fashioned Rolled Oats
@@ -27,6 +42,7 @@ ingredients:
   - 1/4 cup Raisins or Golden Raisins
   - 1/2 tsp Pure Vanilla Extract
   - Pinch of Sea Salt
+origin: United States
 ---
 
 ## Chef's Note

@@ -2,28 +2,51 @@
 title: New York Crunch Roll
 origin: Japan
 difficulty: intermediate
-cookingMethods: [no-cook, raw, fry]
-dietary: [dairy-free]
-occasions: [date-night, entertaining, weekend-project]
-flavorProfile: [umami, fresh, savory]
-cuisines: [Japanese, American]
+cookingMethods:
+  - no-cook
+  - raw
+  - fry
+dietary:
+  - dairy-free
+occasions:
+  - date-night
+  - entertaining
+  - weekend-project
+flavorProfile:
+  - umami
+  - fresh
+  - savory
+cuisines:
+  - Japanese
+  - American
 role: main
 vibe: technical
 prepTime: 25 min
 cookTime: 0 min
 totalTime: 25 min
 servings: '4'
-seasons: [year-round]
+seasons:
+  - year-round
 nutritionalDensity: light
 leftovers: poor
 advancePrep: []
-equipment: [bamboo-rolling-mat]
-pairsWith: [master-sushi-rice, spicy-tuna-roll, philly-tuna-roll]
+equipment:
+  - bamboo-rolling-mat
+pairsWith:
+  - master-sushi-rice
+  - spicy-tuna-roll
+  - philly-tuna-roll
 ingredients:
-  - '8 oz Sushi-grade Tuna, cut into 1/2-inch batons (cut perpendicular to the white grain lines)'
-  - '1 ripe Avocado, sliced into thin 1/4-inch strips (cut last to prevent browning)'
+  - >-
+    8 oz Sushi-grade Tuna, cut into 1/2-inch batons (cut perpendicular to the
+    white grain lines)
+  - >-
+    1 ripe Avocado, sliced into thin 1/4-inch strips (cut last to prevent
+    browning)
   - '1/2 English Cucumber, cut into thin matchsticks'
-  - '1/3 cup Tempura Flakes (tenkasu — or crushed panko fried golden, or even crushed potato chips in a pinch)'
+  - >-
+    1/3 cup Tempura Flakes (tenkasu — or crushed panko fried golden, or even
+    crushed potato chips in a pinch)
   - '4 half-sheets Nori (unseasoned, roasted Japanese nori — rough side up)'
   - '2 cups Master Sushi Rice, prepared and at body temperature'
   - 'Tezu: small bowl of water with a splash of rice vinegar'
@@ -42,3 +65,5 @@ The crunch roll is a Japanese-American sushi bar staple that adds textural contr
 5. **Fill:** Lay tuna batons, avocado strips, and cucumber matchsticks in a line across the center. Sprinkle tempura flakes generously over the filling.
 6. **Roll:** Lift the bottom edge and roll over the filling, tucking tightly. Squeeze gently to compact.
 7. **Cut:** Wet a sharp knife with tezu. Cut in half, then each half into 3-4 pieces. Clean and re-wet the knife between every cut.
+
+**Rest:** Let roast rest for 5 minutes before slicing or serving — the juices redistribute and every piece stays moist.

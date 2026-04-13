@@ -1,18 +1,27 @@
 ---
 title: Sugar Cookies
 difficulty: easy
-cookingMethods: [bake]
-dietary: [vegetarian]
-occasions: [holiday]
-flavorProfile: [sweet, rich]
-cuisines: [American]
+cookingMethods:
+  - bake
+dietary:
+  - vegetarian
+occasions:
+  - holiday
+flavorProfile:
+  - sweet
+  - rich
+cuisines:
+  - American
 role: base
 vibe: quick
 prepTime: 30 min
 cookTime: 10 min
 totalTime: 40 min
 servings: '36'
-pairsWith: [chicken-apple-and-butternut-stew, good-eats-roast-turkey, simple-roast-turkey]
+pairsWith:
+  - chicken-apple-and-butternut-stew
+  - good-eats-roast-turkey
+  - simple-roast-turkey
 ingredients:
   - 4 cups All-Purpose Flour
   - '1 cup (2 sticks) Unsalted Butter, softened'
@@ -21,6 +30,12 @@ ingredients:
   - 2 tsp Pure Vanilla Extract
   - 3/4 tsp Baking Powder
   - 3/4 tsp Sea Salt
+origin: United States
+seasons:
+  - year-round
+nutritionalDensity: light
+leftovers: good
+equipment: []
 ---
 
 ## Chef's Note

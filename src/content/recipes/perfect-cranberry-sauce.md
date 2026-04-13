@@ -1,24 +1,41 @@
 ---
 title: Cranberry Sauce
 difficulty: intermediate
-cookingMethods: [roast, simmer]
-dietary: [vegetarian]
-occasions: [holiday]
-flavorProfile: [sweet, acidic, rich]
-cuisines: [American]
+cookingMethods:
+  - roast
+  - simmer
+dietary:
+  - vegetarian
+occasions:
+  - holiday
+flavorProfile:
+  - sweet
+  - acidic
+  - rich
+cuisines:
+  - American
 role: base
 vibe: holiday
 prepTime: 15 min
 cookTime: 22 min
 totalTime: 37 min
 servings: '8'
-pairsWith: [chicken-apple-and-butternut-stew, simple-roast-turkey, brownie-baked-oatmeal]
+pairsWith:
+  - chicken-apple-and-butternut-stew
+  - simple-roast-turkey
+  - brownie-baked-oatmeal
 ingredients:
-  - '12 oz Fresh or Frozen Cranberries'
-  - '1 cup Granulated Sugar'
-  - '1 strip Orange Zest (The Finishing Touch)'
-  - '2 tbsp Filtered Water'
-  - 'Pinch of Sea Salt'
+  - 12 oz Fresh or Frozen Cranberries
+  - 1 cup Granulated Sugar
+  - 1 strip Orange Zest (The Finishing Touch)
+  - 2 tbsp Filtered Water
+  - Pinch of Sea Salt
+origin: United States
+seasons:
+  - year-round
+nutritionalDensity: light
+leftovers: good
+equipment: []
 ---
 
 ## Chef's Note

@@ -1,18 +1,29 @@
 ---
 title: Rice Pilaf
 difficulty: easy
-cookingMethods: [sauté, simmer, boil, steam]
+cookingMethods:
+  - sauté
+  - simmer
+  - boil
+  - steam
 dietary: []
-occasions: [weeknight, meal-prep]
-flavorProfile: [rich]
-cuisines: [Middle Eastern, American]
+occasions:
+  - weeknight
+  - meal-prep
+flavorProfile:
+  - rich
+cuisines:
+  - Middle Eastern
+  - American
 role: base
 vibe: quick
 prepTime: 5 min
 cookTime: 20 min
-totalTime: 35 min
-servings: '4'
-pairsWith: [breakfast-egg-cups, easy-pan-seared-chicken-breasts, jeris-lentil-soup]
+totalTime: 25 min
+pairsWith:
+  - breakfast-egg-cups
+  - easy-pan-seared-chicken-breasts
+  - jeris-lentil-soup
 ingredients:
   - 1 cup Long-grain White Rice (or Parboiled)
   - 1/3 cup Orzo Pasta (for texture)
@@ -23,6 +34,14 @@ ingredients:
   - 1/8 tsp Turmeric (for color)
   - 1 tsp Dried Parsley
   - Salt and Black Pepper
+  - '--- Lemon juice ---'
+  - '1-2 Lemons, juiced'
+origin: Middle East
+seasons:
+  - year-round
+nutritionalDensity: light
+leftovers: good
+equipment: []
 ---
 
 ## Chef's Note
@@ -38,3 +57,4 @@ This versatile Middle Eastern-inspired side dish gains its nutty complexity from
 5.  **Cooking:** Reduce heat to low. Cover tightly with a lid. Simmer for 15-18 minutes until the liquid is fully absorbed.
 6.  **Steaming:** Remove from heat. **Do not open the lid.** Let the rice steam for 10 minutes (essential for structure).
 7.  **Finishing:** Remove lid, stir in dried parsley, and fluff with a fork.
+

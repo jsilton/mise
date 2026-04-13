@@ -1,11 +1,22 @@
 ---
 title: Dutch Baby Pancake
 difficulty: intermediate
-cookingMethods: [bake, steam, blend]
-dietary: [vegetarian]
-occasions: [weekend-project, entertaining]
-flavorProfile: [sweet, acidic, rich]
-cuisines: [German, American]
+cookingMethods:
+  - bake
+  - steam
+  - blend
+dietary:
+  - vegetarian
+occasions:
+  - weekend-project
+  - entertaining
+flavorProfile:
+  - sweet
+  - acidic
+  - rich
+cuisines:
+  - German
+  - American
 role: main
 vibe: technical
 prepTime: 5 min
@@ -13,11 +24,9 @@ cookTime: 20 min
 totalTime: 25 min
 servings: '4'
 pairsWith:
-  [
-    roasted-sunchokes-with-brown-butter-cider-vinaigrette,
-    avocado-kale-caesar-salad,
-    cinnamon-sweet-potatoes,
-  ]
+  - roasted-sunchokes-with-brown-butter-cider-vinaigrette
+  - avocado-kale-caesar-salad
+  - cinnamon-sweet-potatoes
 ingredients:
   - 6 large Eggs
   - 1 cup Whole Milk
@@ -27,6 +36,12 @@ ingredients:
   - Pinch of Sea Salt
   - Fresh Lemon Juice and Powdered Sugar
   - Warm Maple Syrup
+origin: Germany
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: good
+equipment: []
 ---
 
 ## Chef's Note
@@ -42,3 +57,4 @@ This German-American pancake gets its dramatic rise from temperature contrast: c
 5.  **Bake:** Transfer to the oven. Bake for 20 minutes until the pancake is puffed, deep golden brown, and climbing the sides of the pan. **Do not open the oven door** during the first 15 minutes!
 6.  **Finish:** Remove from the oven. The center will collapse slightly—this is mandatory.
 7.  **Serve:** Dust with powdered sugar and squeeze fresh lemon juice over the top for the mandatory **High Note**.
+

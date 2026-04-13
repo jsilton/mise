@@ -1,15 +1,27 @@
 ---
 title: Mashed Potatoes
 difficulty: easy
-cookingMethods: [simmer, boil, steam]
+cookingMethods:
+  - simmer
+  - boil
+  - steam
 dietary: []
-occasions: [holiday, entertaining, comfort-food, weeknight]
-seasons: [year-round]
+occasions:
+  - holiday
+  - entertaining
+  - comfort-food
+  - weeknight
+seasons:
+  - year-round
 nutritionalDensity: hearty
 leftovers: good
-equipment: [large-pot, electric-mixer]
-flavorProfile: [rich]
-cuisines: [American]
+equipment:
+  - large-pot
+  - electric-mixer
+flavorProfile:
+  - rich
+cuisines:
+  - American
 role: side
 vibe: nutritious
 prepTime: 10 min
@@ -17,7 +29,9 @@ cookTime: 35 min
 totalTime: 45 min
 servings: 6 cups
 pairsWith:
-  [sheet-pan-chicken-broccoli, rosemary-pork-tenderloin, beef-tenderloin-dogs-with-corn-relish]
+  - sheet-pan-chicken-broccoli
+  - rosemary-pork-tenderloin
+  - beef-tenderloin-dogs-with-corn-relish
 ingredients:
   - '3 lbs Yukon Gold Potatoes, peeled and cubed'
   - 1/3 cup Unsalted Butter
@@ -25,6 +39,9 @@ ingredients:
   - '4 oz Cream Cheese, softened'
   - 2 tsp Sea Salt
   - 3/4 tsp Coarsely Ground Black Pepper
+  - '--- Lemon juice ---'
+  - '1 Lemon, juiced'
+origin: United States
 ---
 
 ## Chef's Note
@@ -38,3 +55,4 @@ These are classic mashed potatoes. To ensure the best texture, after draining th
 3.  **The Emulsion:** Mound the potatoes to one side. Add the butter, cream cheese, and warmed half-and-half to the empty side. Let the butter melt into the liquid.
 4.  **Beat:** Remove from heat. Using a handheld electric mixer, beat on medium speed for 30-60 seconds. **Stop immediately** once the mixture is smooth and billowy.
 5.  **Serve:** Stir in the salt and plenty of black pepper. Serve immediately with a "High Note" pat of butter.
+

@@ -1,6 +1,7 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import RecipeHeader from '../../components/RecipeHeader.astro';
+import RecipeScaler from '../../components/RecipeScaler.astro';
 import { getCollection } from 'astro:content';
 
 export async function getStaticPaths() {
@@ -36,14 +37,648 @@ function parseIngredientHtml(str: string): string {
   });
   return html;
 }
+
+// Convert time strings like "15 min", "1 hr 30 min" to ISO 8601 duration format like "PT15M", "PT1H30M"
+function timeStringToISO8601(timeStr: string | undefined): string | undefined {
+  if (!timeStr) return undefined;
+
+  const timeStr2 = timeStr.toLowerCase().trim();
+  const hoursMatch = timeStr2.match(/(\d+)\s*(?:hrs?|hours?)/);
+  const minutesMatch = timeStr2.match(/(\d+)\s*(?:mins?|minutes?)/);
+
+  const hours = hoursMatch ? parseInt(hoursMatch[1]) : 0;
+  const minutes = minutesMatch ? parseInt(minutesMatch[1]) : 0;
+
+  if (hours === 0 && minutes === 0) return undefined;
+
+  let iso = 'PT';
+  if (hours > 0) iso += `${hours}H`;
+  if (minutes > 0) iso += `${minutes}M`;
+
+  return iso;
+}
+
+// Map recipe role to Schema.org recipeCategory
+function roleToRecipeCategory(role: string | undefined): string {
+  const categoryMap: Record<string, string> = {
+    main: 'Main course',
+    side: 'Side dish',
+    base: 'Base',
+    dessert: 'Dessert',
+    drink: 'Beverage',
+    condiment: 'Condiment',
+  };
+  return role ? categoryMap[role] || role : 'Main course';
+}
+
+// Map dietary restrictions to Schema.org suitableForDiet
+function dietaryToDietType(dietary: string[]): string[] {
+  const dietMap: Record<string, string> = {
+    'gluten-free': 'GlutenFreeDiet',
+    'dairy-free': 'DairyFreeDiet',
+    'vegan': 'VeganDiet',
+    'vegetarian': 'VegetarianDiet',
+    'keto': 'KetoDiet',
+    'paleo': 'PaleoDiet',
+    'kosher': 'KosherDiet',
+    'halal': 'HalalDiet',
+  };
+
+  return dietary
+    .map(d => dietMap[d.toLowerCase()] || null)
+    .filter((d): d is string => d !== null);
+}
+
+// Extract first 2 sentences from Chef's Note for description
+function getRecipeDescription(body: string): string {
+  const chefNoteMatch = body.match(/##\s+Chef's Note\s+([\s\S]*?)(?=##|$)/);
+  if (!chefNoteMatch) return `${recipe.data.title} recipe`;
+
+  const chefNoteText = chefNoteMatch[1].trim();
+  // Remove markdown formatting and get sentences
+  const cleanText = chefNoteText
+    .replace(/\*\*(.*?)\*\*/g, '$1')  // Remove bold
+    .replace(/\*(.*?)\*/g, '$1')      // Remove italic
+    .replace(/\[([^\]]+)\]\([^)]+\)/g, '$1'); // Remove links
+
+  // Split by sentence endings and get first 2 sentences
+  const sentenceRegex = /[^.!?]*[.!?]+/g;
+  const matches = cleanText.match(sentenceRegex);
+  if (!matches) return recipe.data.title;
+
+  const sentences = matches.slice(0, 2).map(s => s.trim()).join(' ').trim();
+  return sentences || recipe.data.title;
+}
+
+// Get clean ingredients array (remove section dividers)
+function getCleanIngredients(ingredients: string[]): string[] {
+  return ingredients.filter(ing => !isDivider(ing));
+}
+
+// Build HowToStep array from directions
+function getRecipeInstructions(body: string) {
+  const directionsMatch = body.match(/##\s+Directions\s+([\s\S]*?)(?=##|$)/);
+  if (!directionsMatch) return [];
+
+  const directionsText = directionsMatch[1].trim();
+  const steps = directionsText.split(/\n(?=\d+\.)/);
+
+  return steps
+    .map((step, index) => {
+      const stepNum = index + 1;
+      // Extract the text after the bold header if present, or use the whole step
+      const textMatch = step.match(/\d+\.\s+\*\*[^*]+\*\*:\s*([\s\S]*)/);
+      let stepText = '';
+
+      if (textMatch) {
+        // Has bold header format
+        stepText = textMatch[1].trim();
+      } else {
+        // Get everything after the number
+        stepText = step.replace(/^\d+\.\s+/, '').trim();
+      }
+
+      // Remove markdown formatting
+      stepText = stepText
+        .replace(/\*\*(.*?)\*\*/g, '$1')  // Remove bold
+        .replace(/\*(.*?)\*/g, '$1')      // Remove italic
+        .replace(/\[([^\]]+)\]\([^)]+\)/g, '$1'); // Remove links
+
+      return {
+        '@type': 'HowToStep',
+        'position': stepNum,
+        'text': stepText,
+      };
+    })
+    .filter(step => step.text.length > 0);
+}
+
+// Build the complete JSON-LD schema
+function buildRecipeSchema() {
+  const body = recipe.body || '';
+  const description = getRecipeDescription(body);
+  const cleanIngredients = getCleanIngredients(recipe.data.ingredients || []);
+  const instructions = getRecipeInstructions(body);
+
+  const keywords = [
+    ...(recipe.data.cuisines || []),
+    ...(recipe.data.flavorProfile || []),
+    ...(recipe.data.occasions || []),
+    ...(recipe.data.cookingMethods || []),
+  ].filter(k => k && typeof k === 'string').join(', ');
+
+  const suitableForDiet = dietaryToDietType(recipe.data.dietary || []);
+
+  const schema: any = {
+    '@context': 'https://schema.org',
+    '@type': 'Recipe',
+    'name': recipe.data.title,
+    'description': description,
+    'url': `${BASE}recipes/${recipe.slug}`,
+  };
+
+  if (recipe.data.prepTime) {
+    const prepTimeISO = timeStringToISO8601(recipe.data.prepTime);
+    if (prepTimeISO) schema['prepTime'] = prepTimeISO;
+  }
+
+  if (recipe.data.cookTime) {
+    const cookTimeISO = timeStringToISO8601(recipe.data.cookTime);
+    if (cookTimeISO) schema['cookTime'] = cookTimeISO;
+  }
+
+  if (recipe.data.totalTime) {
+    const totalTimeISO = timeStringToISO8601(recipe.data.totalTime);
+    if (totalTimeISO) schema['totalTime'] = totalTimeISO;
+  }
+
+  if (recipe.data.servings) {
+    schema['recipeYield'] = recipe.data.servings;
+  }
+
+  if (recipe.data.role) {
+    schema['recipeCategory'] = roleToRecipeCategory(recipe.data.role);
+  }
+
+  if (recipe.data.cuisines && recipe.data.cuisines.length > 0) {
+    schema['recipeCuisine'] = recipe.data.cuisines;
+  }
+
+  if (cleanIngredients.length > 0) {
+    schema['recipeIngredient'] = cleanIngredients;
+  }
+
+  if (instructions.length > 0) {
+    schema['recipeInstructions'] = instructions;
+  }
+
+  if (keywords) {
+    schema['keywords'] = keywords;
+  }
+
+  if (suitableForDiet.length > 0) {
+    schema['suitableForDiet'] = suitableForDiet;
+  }
+
+  if (recipe.data.origin) {
+    schema['author'] = {
+      '@type': 'Person',
+      'name': recipe.data.origin,
+    };
+  }
+
+  return JSON.stringify(schema);
+}
 ---
 
-<Layout title={`${recipe.data.title} | Mise`}>
+<script>
+  // Cook Mode implementation
+  let cookModeActive = false;
+  let wakeLock: WakeLockSentinel | null = null;
+
+  function toggleCookMode() {
+    cookModeActive = !cookModeActive;
+    applyRecipePageLayout();
+    updateToggleButton();
+
+    if (cookModeActive) {
+      activateWakeLock();
+    } else {
+      releaseWakeLock();
+    }
+  }
+
+  async function activateWakeLock() {
+    try {
+      if (navigator.wakeLock) {
+        wakeLock = await navigator.wakeLock.request('screen');
+      }
+    } catch (err) {
+      console.log('Wake Lock request failed:', err);
+    }
+  }
+
+  function releaseWakeLock() {
+    if (wakeLock) {
+      wakeLock.release().then(() => {
+        wakeLock = null;
+      });
+    }
+  }
+
+  function applyRecipePageLayout() {
+    const mainContent = document.querySelector('article');
+    const header = document.querySelector('[data-recipe-header]');
+    const toggleBtn = document.getElementById('cook-mode-toggle');
+
+    if (!mainContent) return;
+
+    if (cookModeActive) {
+      // Enter Cook Mode
+      mainContent.classList.add('cook-mode-active');
+      if (header) header.classList.add('hidden');
+
+      // Increase font sizes
+      const ingredientsList = mainContent.querySelector('ul');
+      const contentColumn = mainContent.querySelector('.prose-refined');
+
+      if (ingredientsList) {
+        ingredientsList.classList.add('cook-mode-ingredients');
+      }
+      if (contentColumn) {
+        contentColumn.classList.add('cook-mode-content');
+      }
+
+      // Enable checkboxes for direction steps
+      const olLists = contentColumn?.querySelectorAll('ol');
+      olLists?.forEach((ol) => {
+        ol.querySelectorAll('li').forEach((li) => {
+          if (!li.querySelector('input[type="checkbox"]')) {
+            const checkbox = document.createElement('input');
+            checkbox.type = 'checkbox';
+            checkbox.className =
+              'mt-1 mr-3 h-5 w-5 rounded border-slate-300 text-indigo-500 focus:ring-indigo-500 cursor-pointer shrink-0';
+            li.insertBefore(checkbox, li.firstChild);
+            li.classList.add('flex', 'items-start', 'gap-3');
+          }
+        });
+      });
+
+      if (toggleBtn) {
+        toggleBtn.classList.add('ring-2', 'ring-green-500', 'ring-offset-2');
+        toggleBtn.textContent = 'Exit Cook Mode';
+      }
+    } else {
+      // Exit Cook Mode
+      mainContent.classList.remove('cook-mode-active');
+      if (header) header.classList.remove('hidden');
+
+      // Revert font sizes
+      const ingredientsList = mainContent.querySelector('ul');
+      const contentColumn = mainContent.querySelector('.prose-refined');
+
+      if (ingredientsList) {
+        ingredientsList.classList.remove('cook-mode-ingredients');
+      }
+      if (contentColumn) {
+        contentColumn.classList.remove('cook-mode-content');
+      }
+
+      // Remove checkboxes from direction steps
+      const olLists = contentColumn?.querySelectorAll('ol');
+      olLists?.forEach((ol) => {
+        ol.querySelectorAll('li').forEach((li) => {
+          const checkbox = li.querySelector('input[type="checkbox"]');
+          if (checkbox) {
+            checkbox.remove();
+            li.classList.remove('flex', 'items-start', 'gap-3');
+          }
+        });
+      });
+
+      if (toggleBtn) {
+        toggleBtn.classList.remove('ring-2', 'ring-green-500', 'ring-offset-2');
+        toggleBtn.textContent = 'Cook Mode';
+      }
+    }
+  }
+
+  function updateToggleButton() {
+    const toggleBtn = document.getElementById('cook-mode-toggle');
+    if (toggleBtn) {
+      if (cookModeActive) {
+        toggleBtn.classList.add('ring-2', 'ring-green-500', 'ring-offset-2');
+        toggleBtn.textContent = 'Exit Cook Mode';
+      } else {
+        toggleBtn.classList.remove('ring-2', 'ring-green-500', 'ring-offset-2');
+        toggleBtn.textContent = 'Cook Mode';
+      }
+    }
+  }
+
+  // Keyboard shortcut: 'c' to toggle Cook Mode
+  function handleKeyPress(e: KeyboardEvent) {
+    if (e.key === 'c' || e.key === 'C') {
+      if (e.target instanceof HTMLElement && (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA')) {
+        return;
+      }
+      toggleCookMode();
+    }
+  }
+
+  // Initialize
+  document.addEventListener('DOMContentLoaded', () => {
+    const toggleBtn = document.getElementById('cook-mode-toggle');
+    if (toggleBtn) {
+      toggleBtn.addEventListener('click', toggleCookMode);
+    }
+    document.addEventListener('keydown', handleKeyPress);
+  });
+
+  // Handle wake lock release on visibility change
+  if (document.visibilityState === 'visible') {
+    document.addEventListener('visibilitychange', () => {
+      if (document.visibilityState === 'visible' && cookModeActive && !wakeLock) {
+        activateWakeLock();
+      } else if (document.visibilityState === 'hidden') {
+        releaseWakeLock();
+      }
+    });
+  }
+</script>
+
+<style is:global>
+  /* Cook Mode Styles */
+  .cook-mode-active {
+    max-width: 100% !important;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .cook-mode-active .grid {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .cook-mode-ingredients {
+    column-count: 1 !important;
+  }
+
+  .cook-mode-ingredients li {
+    font-size: 1.125rem;
+    line-height: 1.8;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border-radius: 0.375rem;
+    transition: background-color 0.15s;
+  }
+
+  .cook-mode-ingredients li:hover {
+    background-color: rgba(226, 232, 240, 0.5);
+  }
+
+  .cook-mode-ingredients input[type='checkbox'] {
+    width: 1.25rem;
+    height: 1.25rem;
+    margin-top: 0.25rem;
+  }
+
+  .cook-mode-content {
+    font-size: 1.125rem;
+    line-height: 1.75;
+  }
+
+  .cook-mode-content h2 {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .cook-mode-content p {
+    font-size: 1.125rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .cook-mode-content ol li {
+    font-size: 1.125rem;
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    border-radius: 0.375rem;
+    background-color: rgba(249, 250, 251, 0.5);
+    transition: background-color 0.15s;
+  }
+
+  .cook-mode-content ol li:hover {
+    background-color: rgba(226, 232, 240, 0.5);
+  }
+
+  .cook-mode-content ol li input[type='checkbox'] {
+    width: 1.25rem;
+    height: 1.25rem;
+    min-width: 1.25rem;
+  }
+
+  /* Print Styles for Recipe Pages */
+  @media print {
+    /* Hide UI elements not needed for printing */
+    header,
+    footer,
+    #darkModeToggle,
+    #cook-mode-toggle,
+    .filter-panel,
+    [data-recipe-header],
+    .RecipeScaler {
+      display: none !important;
+    }
+
+    /* Force white background and black text */
+    html,
+    body {
+      background-color: white !important;
+      color: black !important;
+    }
+
+    /* Main content area */
+    main {
+      max-width: 8.5in !important;
+      padding: 0.5in !important;
+      margin: 0 !important;
+    }
+
+    /* Article container */
+    article {
+      background-color: white !important;
+      border: none !important;
+      box-shadow: none !important;
+      padding: 0 !important;
+      border-radius: 0 !important;
+    }
+
+    /* Grid layout for ingredients and content */
+    article .grid {
+      display: grid !important;
+      grid-template-columns: 1fr 1.5fr !important;
+      gap: 2rem !important;
+      page-break-inside: avoid !important;
+    }
+
+    /* Ingredients column */
+    article .grid > div:first-child {
+      page-break-inside: avoid !important;
+    }
+
+    /* Recipe title in header (from RecipeHeader) */
+    h1 {
+      font-size: 1.75rem !important;
+      margin: 0 0 0.5rem 0 !important;
+      color: black !important;
+      page-break-after: avoid !important;
+    }
+
+    /* Ingredients heading */
+    h3 {
+      font-size: 1rem !important;
+      font-weight: bold !important;
+      color: black !important;
+      margin: 0 0 1rem 0 !important;
+      page-break-after: avoid !important;
+      border: none !important;
+      padding: 0 !important;
+    }
+
+    /* Ingredients list */
+    article ul {
+      margin: 0 !important;
+      padding-left: 0 !important;
+      page-break-inside: avoid !important;
+    }
+
+    article li {
+      font-size: 12pt !important;
+      color: black !important;
+      list-style: none !important;
+      margin-bottom: 0.25rem !important;
+      padding-left: 1.25rem !important;
+      position: relative !important;
+      page-break-inside: avoid !important;
+    }
+
+    article li::before {
+      content: '•' !important;
+      position: absolute !important;
+      left: 0 !important;
+      color: black !important;
+    }
+
+    /* Hide checkboxes in ingredients */
+    article input[type='checkbox'] {
+      display: none !important;
+    }
+
+    /* Content column (directions, notes, etc.) */
+    article .prose-refined {
+      page-break-inside: avoid !important;
+    }
+
+    /* Headings in prose */
+    .prose-refined h2 {
+      font-size: 1.25rem !important;
+      color: black !important;
+      margin: 1.5rem 0 0.5rem 0 !important;
+      border-bottom: 1px solid #ccc !important;
+      padding-bottom: 0.25rem !important;
+      page-break-after: avoid !important;
+    }
+
+    .prose-refined h2:first-child {
+      margin-top: 0 !important;
+    }
+
+    .prose-refined h3 {
+      font-size: 1.0625rem !important;
+      color: black !important;
+      margin: 1rem 0 0.5rem 0 !important;
+      page-break-after: avoid !important;
+    }
+
+    /* Paragraphs */
+    .prose-refined p {
+      font-size: 12pt !important;
+      color: black !important;
+      margin: 0 0 0.75rem 0 !important;
+      line-height: 1.5 !important;
+    }
+
+    /* Ordered lists (directions) */
+    .prose-refined ol {
+      margin: 0 0 1rem 0 !important;
+      padding-left: 0 !important;
+      counter-reset: step-counter !important;
+    }
+
+    .prose-refined ol li {
+      font-size: 12pt !important;
+      color: black !important;
+      padding-left: 2rem !important;
+      margin-bottom: 0.5rem !important;
+      counter-increment: step-counter !important;
+      page-break-inside: avoid !important;
+      position: relative !important;
+    }
+
+    .prose-refined ol li::before {
+      content: counter(step-counter) '.' !important;
+      position: absolute !important;
+      left: 0 !important;
+      top: 0 !important;
+      font-weight: bold !important;
+      color: black !important;
+    }
+
+    /* Links */
+    .prose-refined a {
+      color: black !important;
+      text-decoration: underline !important;
+    }
+
+    .prose-refined a::after {
+      content: ' (' attr(href) ')' !important;
+      font-size: 0.75rem !important;
+      word-break: break-all !important;
+    }
+
+    /* Strong text */
+    .prose-refined strong {
+      font-weight: bold !important;
+      color: black !important;
+    }
+
+    /* Remove borders and backgrounds */
+    .prose-refined table,
+    .prose-refined blockquote,
+    .prose-refined code {
+      border: 1px solid #ccc !important;
+      background-color: white !important;
+      color: black !important;
+    }
+
+    .prose-refined blockquote {
+      border-left: 3px solid #999 !important;
+      margin: 1rem 0 !important;
+      padding: 0.5rem 1rem !important;
+    }
+
+    /* Hide pairs section in print */
+    article > div:has(> .prose-refined) + div {
+      display: none !important;
+    }
+
+    /* Footer with recipe URL */
+    article::after {
+      content: 'Recipe: ' attr(data-url) !important;
+      display: block !important;
+      margin-top: 2rem !important;
+      padding-top: 1rem !important;
+      border-top: 1px solid #ccc !important;
+      font-size: 10pt !important;
+      color: #666 !important;
+    }
+
+    /* Print page breaks */
+    @page {
+      margin: 0.5in !important;
+      size: letter !important;
+    }
+  }
+</style>
+
+<Layout title={`${recipe.data.title} | Mise`} jsonLd={buildRecipeSchema()}>
   <!-- Recipe Header with breadcrumb, metadata, and tags -->
   <RecipeHeader {recipe} />
 
   <!-- Recipe Content -->
-  <article class="mt-8 bg-white rounded-2xl shadow-soft border border-slate-200/80 overflow-hidden">
+  <article class="mt-8 bg-white rounded-2xl shadow-soft border border-slate-200/80 overflow-hidden" data-url={`${import.meta.env.BASE_URL}recipes/${recipe.slug}`}>
     <div class="p-6 sm:p-8 grid md:grid-cols-[1fr_1.5fr] gap-10">
       <!-- Ingredients Column -->
       <div>
@@ -65,6 +700,7 @@ function parseIngredientHtml(str: string): string {
           </svg>
           Ingredients
         </h3>
+        {recipe.data.servings && <RecipeScaler servings={recipe.data.servings} />}
         {
           recipe.data.ingredients && recipe.data.ingredients.length > 0 ? (
             <ul class="space-y-2.5">

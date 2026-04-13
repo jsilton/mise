@@ -1,42 +1,59 @@
 ---
 title: Blackout Chocolate Cake
 difficulty: easy
-cookingMethods: [bake, boil]
-dietary: [vegetarian]
-occasions: [holiday, entertaining, weekend-project, indulgent]
-seasons: [year-round]
+cookingMethods:
+  - bake
+  - boil
+dietary:
+  - vegetarian
+occasions:
+  - holiday
+  - entertaining
+  - weekend-project
+  - indulgent
+seasons:
+  - year-round
 nutritionalDensity: hearty
 leftovers: excellent
-advancePrep: [make-ahead]
+advancePrep:
+  - make-ahead
 equipment: []
-flavorProfile: [sweet, acidic, rich]
-cuisines: [American]
+flavorProfile:
+  - sweet
+  - acidic
+  - rich
+cuisines:
+  - American
 role: dessert
 vibe: technical
 prepTime: 45 min
 cookTime: 35 min
-totalTime: 3 hours
+totalTime: 3 hr
 servings: '10'
-pairsWith: []
+pairsWith:
+  - apple-cider-cream-pie
+  - apple-pie
+  - classic-peach-ice-cream
+  - cranberry-crunch
 ingredients:
-  - '3 cups All-Purpose Flour'
-  - '3 cups Granulated Sugar'
-  - '1 1/2 cups High-Quality Unsweetened Cocoa Powder'
-  - '1 tbsp Instant Espresso Powder (The depth secret)'
-  - '1 tbsp Baking Soda'
-  - '1 1/2 tsp Baking Powder'
-  - '1 1/2 tsp Sea Salt'
-  - '4 large Eggs'
-  - '1 1/2 cups Full-Fat Greek Yogurt'
-  - '2 cups Boiling Water (for blooming)'
-  - '1/2 cup Vegetable Oil'
-  - '1 tbsp Vanilla Extract'
+  - 3 cups All-Purpose Flour
+  - 3 cups Granulated Sugar
+  - 1 1/2 cups High-Quality Unsweetened Cocoa Powder
+  - 1 tbsp Instant Espresso Powder (The depth secret)
+  - 1 tbsp Baking Soda
+  - 1 1/2 tsp Baking Powder
+  - 1 1/2 tsp Sea Salt
+  - 4 large Eggs
+  - 1 1/2 cups Full-Fat Greek Yogurt
+  - 2 cups Boiling Water (for blooming)
+  - 1/2 cup Vegetable Oil
+  - 1 tbsp Vanilla Extract
+origin: United States
 ---
 
 ## Chef's Note
 
-This is a masterpiece of **Flavor Layering**. To get the "Blackout" depth, we use **Boiling Water and Espresso** to bloom the cocoa powder. The intense heat releases the oils in the cacao, resulting in a dark, fudgy crumb that chocolate alone cannot achieve. The Greek yogurt provides the acidity needed to react with the baking soda for a massive rise.
-
+Blackout cake is impossibly rich and moist—the secret is blooming cocoa powder in boiling water (like tea), which extracts flavor and hydrates the powder fully before it meets the batter. Greek yogurt adds tanginess and moisture while keeping the crumb tender. Espresso powder is invisible but essential—it amplifies chocolate flavor without making the cake taste like coffee.
 ## Directions
 
 1.  **Bloom:** In a large bowl, whisk the boiling water with the cocoa powder and espresso powder. Let it sit for 2 minutes to bloom the chocolate.

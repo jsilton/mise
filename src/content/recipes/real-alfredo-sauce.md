@@ -2,31 +2,45 @@
 title: Alfredo Sauce
 origin: Italy
 difficulty: intermediate
-cookingMethods: [simmer, boil, steam]
+cookingMethods:
+  - simmer
+  - boil
+  - steam
 dietary: []
-occasions: [weeknight, quick-lunch]
-flavorProfile: [umami, rich]
-cuisines: [Italian]
+occasions:
+  - weeknight
+  - quick-lunch
+flavorProfile:
+  - umami
+  - rich
+cuisines:
+  - Italian
 role: base
 vibe: quick
 prepTime: 2 min
 cookTime: 5 min
 totalTime: 7 min
 servings: '4'
-seasons: [year-round]
+seasons:
+  - year-round
 nutritionalDensity: hearty
 leftovers: good
-advancePrep: [make-ahead]
+advancePrep:
+  - make-ahead
 equipment: []
-pairsWith: [shrimp-fettuccine-alfredo, buttermilk-baked-chicken]
+pairsWith:
+  - shrimp-fettuccine-alfredo
+  - buttermilk-baked-chicken
 ingredients:
-  - '1 stick (8 tbsp) Unsalted Butter'
-  - '1 cup Heavy Cream'
-  - '1 1/2 cups Freshly Grated Parmesan Cheese (Do not use the green shaker!)'
+  - 1 stick (8 tbsp) Unsalted Butter
+  - 1 cup Heavy Cream
+  - 1 1/2 cups Freshly Grated Parmesan Cheese (Do not use the green shaker!)
   - '1/2 tsp Garlic Powder or 1 clove fresh garlic, grated'
-  - 'Pinch of Nutmeg (optional)'
-  - 'Salt and Black Pepper to taste'
-  - '1/4 cup Reserved Pasta Water'
+  - Pinch of Nutmeg (optional)
+  - Salt and Black Pepper to taste
+  - 1/4 cup Reserved Pasta Water
+  - '--- Lemon juice ---'
+  - '1-2 Lemons, juiced'
 ---
 
 ## Chef's Note
@@ -41,3 +55,4 @@ Fettuccine Alfredo was created in 1908 by Alfredo di Lelio in Rome for his pregn
 4.  **Bind:** Add the reserved pasta water and whisk vigorously. This is the "glue" that holds it all together.
 5.  **Season:** Stir in salt, pepper, and a tiny pinch of nutmeg if using.
 6.  **Toss:** Add your hot, cooked pasta directly to the skillet and toss until every strand is coated.
+

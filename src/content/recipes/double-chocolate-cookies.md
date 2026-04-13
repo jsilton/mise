@@ -1,11 +1,17 @@
 ---
 title: Double Chocolate Cookies
 difficulty: easy
-cookingMethods: [bake]
-dietary: [vegetarian]
-occasions: [comfort-food]
-flavorProfile: [sweet, rich]
-cuisines: [American]
+cookingMethods:
+  - bake
+dietary:
+  - vegetarian
+occasions:
+  - comfort-food
+flavorProfile:
+  - sweet
+  - rich
+cuisines:
+  - American
 role: dessert
 vibe: comfort
 prepTime: 20 min
@@ -24,6 +30,19 @@ ingredients:
   - 1/2 tsp Baking Powder
   - 1/2 tsp Baking Soda
   - 2 cups Semisweet Chocolate Discs (preferred)
+origin: United States
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: good
+advancePrep:
+  - chill-dough
+equipment: []
+pairsWith:
+  - apple-cider-cream-pie
+  - apple-pie
+  - babys-first-smash-cake
+  - best-cinnamon-roll-recipe-cinnabon-copycat
 ---
 
 ## Chef's Note

@@ -1,17 +1,35 @@
 ---
 title: Pork Tenderloin
 difficulty: easy
-cookingMethods: [bake, roast]
+cookingMethods:
+  - bake
+  - roast
 dietary: []
-occasions: [entertaining, date-night, holiday, weekend-project]
-seasons: [fall, winter, year-round]
+occasions:
+  - entertaining
+  - date-night
+  - holiday
+  - weekend-project
+seasons:
+  - fall
+  - winter
+  - year-round
 nutritionalDensity: hearty
 leftovers: excellent
-equipment: [roasting-pan]
-advancePrep: [make-ahead]
-pairsWith: [perfect-mashed-potatoes, garlic-mashed-red-potatoes, steamed-broccoli]
-flavorProfile: [sweet, savory, herbaceous]
-cuisines: [American]
+equipment:
+  - roasting-pan
+advancePrep:
+  - make-ahead
+pairsWith:
+  - perfect-mashed-potatoes
+  - garlic-mashed-red-potatoes
+  - steamed-broccoli
+flavorProfile:
+  - sweet
+  - savory
+  - herbaceous
+cuisines:
+  - American
 role: main
 vibe: nutritious
 prepTime: 15 min
@@ -27,6 +45,7 @@ ingredients:
   - 4 slices Maple Bacon
   - 4 sprigs Fresh Rosemary (whole)
   - '3 cloves Garlic, smashed'
+origin: United States
 ---
 
 ## Chef's Note

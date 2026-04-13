@@ -1,22 +1,40 @@
 ---
 title: Chinese Eggplant with Garlic Sauce
 difficulty: easy
-cookingMethods: [fry, simmer, steam]
+cookingMethods:
+  - fry
+  - simmer
+  - steam
 dietary: []
-occasions: [weeknight, quick-lunch, comfort-food]
-flavorProfile: [spicy, sweet, savory, acidic, umami]
-cuisines: [Chinese]
+occasions:
+  - weeknight
+  - quick-lunch
+  - comfort-food
+flavorProfile:
+  - spicy
+  - sweet
+  - savory
+  - acidic
+  - umami
+cuisines:
+  - Chinese
 role: main
 vibe: nutritious
 prepTime: 15 min
 cookTime: 20 min
 totalTime: 35 min
 servings: '4'
-seasons: [summer, fall, year-round]
+seasons:
+  - summer
+  - fall
+  - year-round
 nutritionalDensity: moderate
 leftovers: excellent
-equipment: [wok]
-pairsWith: [basmati-rice, slow-cooker-general-tsos-chicken]
+equipment:
+  - wok
+pairsWith:
+  - basmati-rice
+  - slow-cooker-general-tsos-chicken
 ingredients:
   - 1 lb Chinese or Japanese Eggplants (2-3 eggplants)
   - 4 oz Ground Pork (optional)
@@ -35,11 +53,13 @@ ingredients:
   - '2 Scallions, chopped'
   - 1 tbsp Spicy Bean Paste (La Doubanjiang)
   - Neutral Oil
+origin: China
 ---
 
 ## Chef's Note
 
 Chinese eggplant with garlic sauce (yu xiang qiezi) is a Sichuan restaurant classic. The challenge is preventing eggplant from absorbing too much oil. Instead of deep-frying, sear it in a lightly oiled wok over medium heat until the skin is golden and the flesh is translucent but holds its shape. Cutting on an angle into triangular chunks maximizes surface area for the sauce to cling. Rice vinegar at the end brightens the rich, savory flavors.
+For kids, serve the heat on the side or reduce/omit the spicy elements.
 
 ## Directions
 

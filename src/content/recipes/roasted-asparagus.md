@@ -1,29 +1,48 @@
 ---
 title: Asparagus
 difficulty: easy
-cookingMethods: [bake, roast, steam]
-dietary: [vegetarian, vegan, gluten-free]
-occasions: [weeknight, entertaining, spring, light-and-fresh]
-flavorProfile: [acidic, umami]
-cuisines: [American]
+cookingMethods:
+  - bake
+  - roast
+  - steam
+dietary:
+  - vegetarian
+  - gluten-free
+occasions:
+  - weeknight
+  - entertaining
+  - spring
+  - light-and-fresh
+flavorProfile:
+  - acidic
+  - umami
+cuisines:
+  - American
 role: side
 vibe: nutritious
 prepTime: 5 min
 cookTime: 10 min
 totalTime: 15 min
 servings: '4'
-seasons: [spring, summer]
+seasons:
+  - spring
+  - summer
 nutritionalDensity: light
 leftovers: poor
-equipment: [sheet-pan]
-pairsWith: [vietnamese-grilled-chicken, miso-salmon-with-bok-choy, marinated-korean-ribeye]
+equipment:
+  - sheet-pan
+pairsWith:
+  - vietnamese-grilled-chicken
+  - miso-salmon-with-bok-choy
+  - marinated-korean-ribeye
 ingredients:
   - '1 bunch Fresh Asparagus, woody ends trimmed'
-  - '1 tbsp Extra-Virgin Olive Oil'
-  - '1/2 tsp Kosher Salt'
-  - '1/4 tsp Black Pepper'
+  - 1 tbsp Extra-Virgin Olive Oil
+  - 1/2 tsp Kosher Salt
+  - 1/4 tsp Black Pepper
   - '1/2 Lemon, for finishing'
   - 'Optional: 1 tbsp Grated Parmesan or Lemon Zest'
+origin: United States
 ---
 
 ## Chef's Note

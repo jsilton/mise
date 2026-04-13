@@ -1,30 +1,49 @@
 ---
 title: Falafel
 difficulty: easy
-cookingMethods: [fry, steam, blend]
-dietary: [vegetarian]
-occasions: [weeknight, meal-prep]
-flavorProfile: [herbaceous]
-cuisines: [Middle Eastern]
+cookingMethods:
+  - fry
+  - steam
+  - blend
+dietary:
+  - vegetarian
+occasions:
+  - weeknight
+  - meal-prep
+flavorProfile:
+  - herbaceous
+cuisines:
+  - Middle Eastern
 role: main
 vibe: nutritious
 prepTime: 20 min
 cookTime: 10 min
-totalTime: 12 hours
-servings: '15 balls'
-pairsWith: [lemon-herb-couscous, warm-pita-bread, garlic-butter-couscous]
+totalTime: 12 hr
+servings: 15 balls
+pairsWith:
+  - lemon-herb-couscous
+  - warm-pita-bread
+  - garlic-butter-couscous
 ingredients:
   - '2 cups Dried Chickpeas (Must be dried, not canned)'
   - '1 cup Fresh Parsley, leaves and tender stems'
-  - '1 cup Fresh Cilantro'
+  - 1 cup Fresh Cilantro
   - '1 small Yellow Onion, quartered'
-  - '4 cloves Garlic'
+  - 4 cloves Garlic
   - '1 tbsp Cumin Seeds, toasted'
   - '1 tbsp Coriander Seeds, toasted'
-  - '1 tsp Baking Powder (The secret to fluffiness)'
-  - '1 tsp Kosher Salt'
-  - '1/2 tsp Black Pepper'
-  - 'Neutral Oil for frying'
+  - 1 tsp Baking Powder (The secret to fluffiness)
+  - 1 tsp Kosher Salt
+  - 1/2 tsp Black Pepper
+  - Neutral Oil for frying
+origin: Middle East
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: good
+advancePrep:
+  - overnight-soak
+equipment: []
 ---
 
 ## Chef's Note

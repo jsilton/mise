@@ -1,18 +1,31 @@
 ---
 title: Brisket with Carrots and Onions
 difficulty: intermediate
-cookingMethods: [bake, roast, boil, braise]
+cookingMethods:
+  - bake
+  - roast
+  - boil
+  - braise
 dietary: []
-occasions: [holiday]
-flavorProfile: [savory, acidic, umami, rich]
-cuisines: [Jewish]
+occasions:
+  - holiday
+flavorProfile:
+  - savory
+  - acidic
+  - umami
+  - rich
+cuisines:
+  - Jewish
 role: main
 vibe: holiday
 prepTime: 20 min
 cookTime: 240 min
 totalTime: 260 min
 servings: '10'
-pairsWith: [honey-glazed-carrots, nana-ruths-applesauce, avocado-kale-caesar-salad]
+pairsWith:
+  - honey-glazed-carrots
+  - nana-ruths-applesauce
+  - avocado-kale-caesar-salad
 ingredients:
   - '6-7 lbs Beef Brisket, flat cut'
   - 2 tbsp Kosher Salt
@@ -24,6 +37,11 @@ ingredients:
   - '6 large Yellow Onions, sliced'
   - 6 Fresh Bay Leaves
   - 1 (46 oz) can Tomato Juice
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: excellent
+equipment: []
 ---
 
 ## Chef's Note

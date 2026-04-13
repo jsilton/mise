@@ -1,22 +1,36 @@
 ---
 title: Restaurant-Style Chicken Lo Mein
 difficulty: easy
-cookingMethods: [fry, sauté, steam]
+cookingMethods:
+  - fry
+  - sauté
+  - steam
 dietary: []
-occasions: [weeknight, kids-approved, meal-prep]
-flavorProfile: [sweet, savory, umami]
-cuisines: [Chinese]
+occasions:
+  - weeknight
+  - kids-approved
+  - meal-prep
+flavorProfile:
+  - sweet
+  - savory
+  - umami
+cuisines:
+  - Chinese
 role: main
 vibe: nutritious
 prepTime: 20 min
 cookTime: 15 min
 totalTime: 35 min
 servings: '6'
-seasons: [year-round]
+seasons:
+  - year-round
 nutritionalDensity: hearty
 leftovers: excellent
-equipment: [wok]
-pairsWith: [smashed-cucumber-salad, steamed-broccoli]
+equipment:
+  - wok
+pairsWith:
+  - smashed-cucumber-salad
+  - steamed-broccoli
 ingredients:
   - 1 lb Fresh Lo Mein Egg Noodles
   - '8 oz Chicken Thighs, cut into thin strips'
@@ -31,6 +45,7 @@ ingredients:
   - 1 tbsp Shaoxing Wine
   - 1 tsp Toasted Sesame Oil
   - '1/8 tsp Sugar + 1 clove Garlic, minced'
+origin: China
 ---
 
 ## Chef's Note

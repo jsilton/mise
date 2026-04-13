@@ -1,22 +1,44 @@
 ---
 title: Speedy Chinese Eggplant
 difficulty: easy
-cookingMethods: [fry, sauté, boil, steam]
-dietary: [vegetarian]
-occasions: [weeknight, quick-lunch, summer]
-flavorProfile: [spicy, sweet, savory, acidic, umami, rich]
-cuisines: [Chinese]
+cookingMethods:
+  - fry
+  - sauté
+  - boil
+  - steam
+dietary:
+  - vegetarian
+occasions:
+  - weeknight
+  - quick-lunch
+  - summer
+flavorProfile:
+  - spicy
+  - sweet
+  - savory
+  - acidic
+  - umami
+  - rich
+cuisines:
+  - Chinese
 role: side
 vibe: quick
 prepTime: 5 min
 cookTime: 10 min
 totalTime: 15 min
 servings: '2'
-seasons: [summer, fall, year-round]
+seasons:
+  - summer
+  - fall
+  - year-round
 nutritionalDensity: light
 leftovers: good
-equipment: [wok]
-pairsWith: [basmati-rice, slow-cooker-general-tsos-chicken, mongolian-beef]
+equipment:
+  - wok
+pairsWith:
+  - basmati-rice
+  - slow-cooker-general-tsos-chicken
+  - mongolian-beef
 ingredients:
   - '3 Chinese Eggplants, cut into 2-inch sticks'
   - '4 cloves Garlic, minced'
@@ -29,11 +51,13 @@ ingredients:
   - 2 tbsp Peanut Oil
   - '3 Dried Red Chilies, chopped'
   - '4 Scallions, chopped on the bias'
+origin: China
 ---
 
 ## Chef's Note
 
 Chinese eggplant with garlic sauce is a Sichuan/Hunan classic that's incredibly fast. Stir-fry the eggplant sticks alone over medium-high heat until the flesh turns deep golden and the skin is purple-gold—this develops smoky sweetness that boiling or steaming can't achieve. Chinkiang black vinegar adds the signature malty, complex acidity that balances the rich peanut oil and savory garlic. Chinese eggplants (long, thin ones) work best.
+For kids, serve the heat on the side or reduce/omit the spicy elements.
 
 ## Directions
 

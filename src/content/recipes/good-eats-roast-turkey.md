@@ -1,23 +1,30 @@
 ---
 title: Good Eats Roast Turkey
 difficulty: easy
-cookingMethods: [bake, roast, boil, steam]
+cookingMethods:
+  - bake
+  - roast
+  - boil
+  - steam
 dietary: []
-occasions: [holiday]
-flavorProfile: [sweet, rich, herbaceous]
-cuisines: [American]
+occasions:
+  - holiday
+flavorProfile:
+  - sweet
+  - rich
+  - herbaceous
+cuisines:
+  - American
 role: main
 vibe: holiday
 prepTime: 30 min
-cookTime: 2.5 hours
+cookTime: 2.5 hr
 totalTime: 3 days
 servings: '12'
 pairsWith:
-  [
-    honey-glazed-carrots,
-    roasted-sunchokes-with-brown-butter-cider-vinaigrette,
-    roasted-fall-harvest-salad,
-  ]
+  - honey-glazed-carrots
+  - roasted-sunchokes-with-brown-butter-cider-vinaigrette
+  - roasted-fall-harvest-salad
 ingredients:
   - '1 (14-16 lb) Young Turkey, thawed'
   - 1 cup Kosher Salt
@@ -33,6 +40,12 @@ ingredients:
   - 4 sprigs Fresh Rosemary
   - 6 leaves Fresh Sage
   - Canola Oil (for coating)
+origin: United States
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: good
+equipment: []
 ---
 
 ## Chef's Note

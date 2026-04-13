@@ -1,14 +1,28 @@
 ---
 title: Brown Butter-Chocolate Soufflé
 difficulty: easy
-cookingMethods: [bake, steam]
-dietary: [vegetarian]
-occasions: [entertaining, weekend-project, indulgent, date-night]
-flavorProfile: [sweet, rich]
-cuisines: [French]
+cookingMethods:
+  - bake
+  - steam
+dietary:
+  - vegetarian
+occasions:
+  - entertaining
+  - weekend-project
+  - indulgent
+  - date-night
+flavorProfile:
+  - sweet
+  - rich
+cuisines:
+  - French
 role: dessert
 vibe: technical
-season: [spring, summer, fall, winter]
+season:
+  - spring
+  - summer
+  - fall
+  - winter
 leftovers: poor
 healthiness: hearty
 makeAhead: false
@@ -27,6 +41,16 @@ ingredients:
   - 1/2 tsp Sea Salt
   - 1 tbsp Dark Rum (optional)
   - 1 1/2 quart Soufflé Dish
+origin: France
+seasons:
+  - year-round
+nutritionalDensity: moderate
+equipment: []
+pairsWith:
+  - chewy-chocolate-meringues
+  - chocolate-souffle
+  - flourless-chocolate-cake
+  - apple-cider-cream-pie
 ---
 
 ## Chef's Note

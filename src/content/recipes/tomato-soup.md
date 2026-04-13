@@ -1,18 +1,30 @@
 ---
 title: Tomato Soup
 difficulty: easy
-cookingMethods: [grill, sauté, simmer, blend]
+cookingMethods:
+  - grill
+  - sauté
+  - simmer
+  - blend
 dietary: []
-occasions: [comfort-food]
-flavorProfile: [sweet, acidic, rich]
-cuisines: [American]
+occasions:
+  - comfort-food
+flavorProfile:
+  - sweet
+  - acidic
+  - rich
+cuisines:
+  - American
 role: main
 vibe: comfort
 prepTime: 10 min
 cookTime: 60 min
 totalTime: 70 min
 servings: '8'
-pairsWith: [anadama-bread, garlic-bread, vegan-caesar-pasta-salad]
+pairsWith:
+  - anadama-bread
+  - garlic-bread
+  - vegan-caesar-pasta-salad
 ingredients:
   - 1/2 lb (2 sticks) Unsalted Butter (The "Silk" Base)
   - '1 lb Yellow Onions, diced'
@@ -24,6 +36,12 @@ ingredients:
   - 1 tsp Celery Salt (The Finishing Touch)
   - 1/2 cup All-Purpose Flour
   - Salt and Black Pepper
+origin: United States
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: good
+equipment: []
 ---
 
 ## Chef's Note
@@ -39,3 +57,4 @@ This is classic restorative tomato soup. The key to its velvety texture is using
 5.  **The Emulsion:** Stir in the half-and-half. Remove from heat.
 6.  **Puree:** Use a high-speed blender to puree the soup until completely smooth and mirror-glossy.
 7.  **Serve:** Return to low heat just to warm through. Serve hot.
+

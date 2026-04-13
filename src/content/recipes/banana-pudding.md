@@ -1,16 +1,23 @@
 ---
 title: Banana Pudding
 difficulty: intermediate
-cookingMethods: [simmer]
-dietary: [vegetarian, egg-free]
-occasions: [comfort-food]
-flavorProfile: [sweet, rich]
-cuisines: [Southern]
+cookingMethods:
+  - simmer
+dietary:
+  - vegetarian
+  - egg-free
+occasions:
+  - comfort-food
+flavorProfile:
+  - sweet
+  - rich
+cuisines:
+  - Southern
 role: dessert
 vibe: comfort
 prepTime: 30 min
 cookTime: 15 min
-totalTime: 4 hours
+totalTime: 4 hr
 servings: '8'
 ingredients:
   - 3 cups Whole Milk
@@ -23,6 +30,19 @@ ingredients:
   - 1 box Vanilla Wafers (Nilla)
   - '4 large Bananas, sliced'
   - '1 cup Heavy Cream, whipped to stiff peaks'
+origin: United States
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: good
+advancePrep:
+  - chill-to-set
+equipment: []
+pairsWith:
+  - grandmommys-pecan-pie
+  - grandmommys-pound-cake
+  - red-velvet-cupcakes
+  - apple-cider-cream-pie
 ---
 
 ## Chef's Note

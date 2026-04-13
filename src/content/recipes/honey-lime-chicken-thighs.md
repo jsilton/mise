@@ -1,42 +1,61 @@
 ---
 title: Honey-Lime Chicken Thighs
 difficulty: easy
-cookingMethods: [roast, bake]
-dietary: [gluten-free]
-occasions: [weeknight, entertaining, meal-prep, game-day]
-flavorProfile: [sweet, savory, acidic, smoky, umami]
-cuisines: [Mexican, American]
+cookingMethods:
+  - roast
+  - bake
+dietary: []
+occasions:
+  - weeknight
+  - entertaining
+  - meal-prep
+  - game-day
+flavorProfile:
+  - sweet
+  - savory
+  - acidic
+  - smoky
+  - umami
+cuisines:
+  - Mexican
+  - American
 role: main
 vibe: quick
 prepTime: 10 min
 cookTime: 25 min
 totalTime: 35 min
 servings: '8'
-seasons: [year-round]
+seasons:
+  - year-round
 nutritionalDensity: hearty
 leftovers: excellent
-equipment: [sheet-pan]
-pairsWith: [cilantro-lime-rice, crispy-black-bean-tacos, charred-guacamole-with-pomegranate]
+equipment:
+  - sheet-pan
+pairsWith:
+  - cilantro-lime-rice
+  - crispy-black-bean-tacos
+  - charred-guacamole-with-pomegranate
 ingredients:
   - '3 lbs Boneless, Skinless Chicken Thighs'
-  - '3 tbsp Honey'
-  - '3 tbsp Soy Sauce'
-  - '1 tbsp Fish Sauce (the secret weapon)'
+  - 3 tbsp Honey
+  - 3 tbsp Soy Sauce
+  - 1 tbsp Fish Sauce (the secret weapon)
   - '2 Limes, juiced (about 1/4 cup)'
-  - '1 tsp Lime Zest'
-  - '1 tsp Ground Cumin'
-  - '1 tsp Smoked Paprika'
+  - 1 tsp Lime Zest
+  - 1 tsp Ground Cumin
+  - 1 tsp Smoked Paprika
   - '4 cloves Garlic, minced'
-  - '1 tbsp Neutral Oil'
-  - 'Kosher Salt and Black Pepper'
+  - 1 tbsp Neutral Oil
+  - Kosher Salt and Black Pepper
   - 'For Serving:'
-  - 'Warm Corn or Flour Tortillas'
+  - Warm Corn or Flour Tortillas
   - '[Cilantro Lime Rice](/mise/recipes/cilantro-lime-rice)'
-  - 'Sliced Avocado'
+  - Sliced Avocado
   - '[Pickled Red Onions](/mise/recipes/pickled-red-onions)'
-  - 'Fresh Cilantro'
-  - 'Toasted Sesame Seeds (optional)'
-  - 'Lime Wedges'
+  - Fresh Cilantro
+  - Toasted Sesame Seeds (optional)
+  - Lime Wedges
+origin: Mexico
 ---
 
 ## Chef's Note

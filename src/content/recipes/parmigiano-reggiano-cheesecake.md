@@ -1,23 +1,45 @@
 ---
 title: Parmigiano Reggiano Cheesecake
 difficulty: intermediate
-cookingMethods: [bake, roast, blend]
-dietary: [vegetarian, nut-free]
-occasions: [holiday, entertaining, weekend-project, indulgent]
-seasons: [year-round]
+cookingMethods:
+  - bake
+  - roast
+  - blend
+dietary:
+  - vegetarian
+  - nut-free
+occasions:
+  - holiday
+  - entertaining
+  - weekend-project
+  - indulgent
+seasons:
+  - year-round
 nutritionalDensity: hearty
 leftovers: excellent
-advancePrep: [make-ahead]
+advancePrep:
+  - make-ahead
+  - chill-to-set
 equipment: []
-flavorProfile: [sweet, savory, acidic, umami, rich]
-cuisines: [Italian]
+flavorProfile:
+  - sweet
+  - savory
+  - acidic
+  - umami
+  - rich
+cuisines:
+  - Italian
 role: dessert
 vibe: technical
 prepTime: 45 min
 cookTime: 90 min
-totalTime: 6 hours
+totalTime: 6 hr
 servings: '12'
-pairsWith: []
+pairsWith:
+  - super-lemony-olive-oil-cake
+  - old-fashioned-strawberry-ice-cream
+  - apple-cider-cream-pie
+  - apple-pie
 ingredients:
   - 3/4 cup Finely Ground Parmigiano Reggiano
   - '18 Graham Crackers, crushed'
@@ -31,12 +53,12 @@ ingredients:
   - 1 cup Finely Grated Parmigiano Reggiano (Microplaned)
   - '5 large Eggs, room temperature'
   - 1 tsp Vanilla Extract
+origin: Italy
 ---
 
 ## Chef's Note
 
-This is a sophisticated, "Restaurant Style" cheesecake that plays with the boundary between savory and sweet. The key is the **Water Bath (Bain-Marie)**: it provides gentle, even heat that prevents the top from cracking and ensures a creamy, custardy texture rather than a grainy one. The inclusion of real Parmigiano Reggiano adds a complex, salty umami that makes this the most interesting dessert in your library.
-
+Savory cheesecake with Parmigiano-Reggiano is a Northern Italian tradition that blurs the line between cheese course and dessert — the aged cheese brings nutty, crystalline depth against the graham cracker crust. The water bath is non-negotiable: it creates gentle, even heat that prevents the edges from overcooking while the center sets. Pull it when the center still jiggles — residual heat finishes the job.
 ## Directions
 
 1.  **The Crust:** Pulse the cheese, crackers, and seeds in a food processor. Mix with butter and press into a 10-inch springform pan. Bake at 350°F for 15 minutes. Cool.

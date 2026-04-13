@@ -2,37 +2,50 @@
 title: Miso-Mashed Potatoes
 origin: Japan
 difficulty: easy
-cookingMethods: [boil]
-dietary: [vegetarian, gluten-free, nut-free]
-occasions: [comfort-food]
-flavorProfile: [savory, rich]
-cuisines: [Japanese]
+cookingMethods:
+  - boil
+dietary:
+  - vegetarian
+  - gluten-free
+  - nut-free
+occasions:
+  - comfort-food
+flavorProfile:
+  - savory
+  - rich
+cuisines:
+  - Japanese
 role: side
 vibe: comfort
-seasons: [fall, winter]
+seasons:
+  - fall
+  - winter
 nutritionalDensity: moderate
 leftovers: good
 advancePrep: []
-equipment: [dutch-oven, potato-ricer]
+equipment:
+  - dutch-oven
+  - potato-ricer
 prepTime: 10 min
 cookTime: 20 min
 totalTime: 30 min
 servings: '4'
 pairsWith:
-  [japanese-chicken-curry-kare-raisu, japanese-style-trout-with-dashi, miso-salmon-with-bok-choy]
+  - japanese-chicken-curry-kare-raisu
+  - japanese-style-trout-with-dashi
+  - miso-salmon-with-bok-choy
 ingredients:
   - '2 lbs Yukon Gold Potatoes, peeled and cubed'
-  - '4 tbsp Unsalted Butter'
-  - '2 tbsp White Miso Paste (Shiro Miso)'
-  - '1/2 cup Whole Milk or Cream (warm)'
-  - '1/2 tsp Garlic Powder'
-  - 'Sliced Green Onions for garnish'
+  - 4 tbsp Unsalted Butter
+  - 2 tbsp White Miso Paste (Shiro Miso)
+  - 1/2 cup Whole Milk or Cream (warm)
+  - 1/2 tsp Garlic Powder
+  - Sliced Green Onions for garnish
 ---
 
 ## Chef's Note
 
-This is a **Palate Tuning** masterclass. We use white miso to provide a complex, savory "earthiness" that enhances the natural flavor of the potatoes. Yukon Golds are mandatory for their naturally buttery texture. The secret is to **Warm the Milk and Miso** together before adding to the potatoes—this ensures a silky emulsion that won't turn gummy.
-
+White miso adds umami depth to potatoes without overshadowing them—it's a bridge flavor that makes the potato taste more like itself. The miso-butter-milk mixture must be warm when you add it so the potatoes stay fluffy rather than glueing together. This is a staple in Japanese home cooking alongside roasted fish or curry, where it provides creamy contrast without competing for attention.
 ## Directions
 
 1.  **Boil:** Place potatoes in a pot of cold salted water. Bring to a boil and cook for 15-20 minutes until very tender.

@@ -3,7 +3,7 @@ title: Chana Masala
 origin: India
 difficulty: easy
 cookingMethods: [saute, simmer, blend]
-dietary: [vegetarian, vegan, gluten-free, dairy-free, nut-free]
+dietary: [vegetarian, gluten-free, nut-free]
 occasions: [weeknight, meal-prep, comfort-food]
 flavorProfile: [spicy, savory, acidic, umami]
 cuisines: [Indian]

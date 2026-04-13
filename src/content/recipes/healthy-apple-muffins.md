@@ -1,23 +1,40 @@
 ---
 title: Apple Muffins
 difficulty: easy
-cookingMethods: [bake]
-dietary: [vegetarian]
-occasions: [meal-prep, kids-approved, post-workout]
-seasons: [fall, winter]
+cookingMethods:
+  - bake
+dietary:
+  - vegetarian
+occasions:
+  - meal-prep
+  - kids-approved
+  - post-workout
+seasons:
+  - fall
+  - winter
 nutritionalDensity: moderate
 leftovers: excellent
-equipment: [muffin-tin, grater]
-advancePrep: [make-ahead, freeze-ahead]
-flavorProfile: [sweet, rich]
-cuisines: [American]
+equipment:
+  - muffin-tin
+  - grater
+advancePrep:
+  - make-ahead
+  - freeze-ahead
+flavorProfile:
+  - sweet
+  - rich
+cuisines:
+  - American
 role: main
 vibe: nutritious
 prepTime: 15 min
 cookTime: 15 min
 totalTime: 30 min
 servings: '12'
-pairsWith: [banana-oat-greek-yogurt-muffins, brownie-protein-balls, easy-breakfast-yogurt-popsicles]
+pairsWith:
+  - banana-oat-greek-yogurt-muffins
+  - brownie-protein-balls
+  - easy-breakfast-yogurt-popsicles
 ingredients:
   - 1 3/4 cups Whole Wheat Flour
   - '1 cup Grated Apple, squeezed dry'
@@ -33,6 +50,7 @@ ingredients:
   - 1 tsp Ground Cinnamon
   - 1/2 tsp Sea Salt
   - 1 tbsp Turbinado Sugar (for the Crunch)
+origin: United States
 ---
 
 ## Chef's Note

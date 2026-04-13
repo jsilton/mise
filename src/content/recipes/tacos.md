@@ -1,48 +1,73 @@
 ---
 title: Weeknight Tacos
 aliases:
-  - 'weeknight-tacos-the-family-setup'
+  - weeknight-tacos-the-family-setup
 difficulty: easy
-cookingMethods: [bake, simmer, no-cook]
+cookingMethods:
+  - simmer
+  - no-cook
 dietary: []
-occasions: [weeknight, quick-lunch]
-flavorProfile: [savory, acidic, umami]
-cuisines: [Mexican]
+occasions:
+  - weeknight
+  - quick-lunch
+  - kid-friendly
+flavorProfile:
+  - savory
+  - umami
+cuisines:
+  - Mexican
+  - American
 role: main
 vibe: quick
 prepTime: 15 min
 cookTime: 10 min
 totalTime: 25 min
-servings: '4'
-pairsWith: [quick-seasoned-black-beans, mexican-street-corn-salad, roasted-sweet-potatoes]
+servings: '4-6'
+pairsWith:
+  - quick-seasoned-black-beans
+  - mexican-street-corn-salad
+  - cilantro-lime-rice
 ingredients:
-  - '1 lb Ground Turkey or Beef'
-  - '1 tbsp Taco Seasoning (cumin, chili powder, paprika)'
-  - '1 tsp Better Than Bouillon Chicken Base (The flavor secret)'
-  - '1/2 cup Water'
-  - 'Hard Taco Shells and Flour Tortillas'
-  - 'Shredded Cheese'
-  - 'Avocado and Diced Tomato'
+  - '--- The Meat ---'
+  - 1 lb ground turkey or 85/15 ground beef
+  - '1 tbsp taco seasoning (cumin, chili powder, paprika, garlic powder, onion powder)'
+  - 1 tsp Better Than Bouillon chicken base
+  - 1/2 cup water
+  - '--- The Setup ---'
+  - '8-10 hard taco shells'
+  - '6-8 small flour tortillas (6-inch)'
+  - '--- Toppings (set out in bowls) ---'
+  - '1 cup sharp cheddar, freshly shredded'
+  - '2 ripe avocados, sliced or mashed'
+  - '2 Roma tomatoes, diced'
+  - '1/2 cup sour cream'
+  - '1/4 head iceberg lettuce, shredded'
+  - '1 lime, cut into wedges'
+  - 'Hot sauce (on the side for adults)'
+origin: United States
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: good
+equipment: []
 ---
 
 ## Chef's Note
 
-This is the standard weeknight taco setup. Cooking the meat with "Better Than Bouillon" and water creates a rich sauce that coats the meat, preventing the dreaded dry taco filling. While traditional salsa is great, we like to mix cultures by adding Korean pickles for crunch.
+Tex-Mex weeknight tacos are an American institution for a reason — the whole thing hits the table in 25 minutes and everyone builds their own plate. The Better Than Bouillon trick is the move here: dissolve it in the water before adding to the meat, and it creates a rich, saucy coating that prevents the dry, crumbly taco filling nobody wants. Don't drain the fat from the meat — it carries the seasoning.
 
 ## The Taco Bar Components
 
-A proper taco night requires prepared sides. Use these recipes:
+A proper taco night requires prepared sides. These are our go-tos:
 
-- **The Rice:** [Mexican Rice](/mise/recipes/spanish-rice-chorizo) (or use plain [Rice Pilaf](/mise/recipes/homemade-rice-pilaf))
-- **The Crunch:** [Korean Pickled Cucumbers](/mise/recipes/korean-pickled-cucumbers) (Oi Muchim) - highly recommended!
+- **The Rice:** [Mexican Rice](/mise/recipes/spanish-rice-chorizo) or [Cilantro-Lime Rice](/mise/recipes/cilantro-lime-rice)
+- **The Crunch:** [Korean Pickled Cucumbers](/mise/recipes/korean-pickled-cucumbers) — a surprising cross-cultural hit
 - **The Bean:** [Quick Seasoned Black Beans](/mise/recipes/quick-seasoned-black-beans)
 
 ## Directions
 
-This Tex-Mex weeknight taco bar keeps lean ground turkey flavorful by simmering it with Better Than Bouillon chicken base, which adds umami depth that mimics slow-cooked meat. Korean pickled cucumbers provide a surprising tangy crunch that elevates the meal beyond standard taco seasoning.
+1. **The Meat:** Heat a large skillet over medium-high heat. Add ground meat and break it up with a wooden spoon. Cook 5-6 minutes until browned with no pink remaining. Don't drain — the fat carries the flavor. Dissolve the Better Than Bouillon in 1/2 cup water, then pour it over the meat along with the taco seasoning. Stir and simmer 3-4 minutes until the liquid reduces to a saucy glaze that coats every piece.
 
-## Directions
+2. **The Shells:** While the meat simmers, warm hard shells in a 350°F oven for 3-4 minutes until crisp and fragrant. Warm flour tortillas one at a time in a dry skillet over high heat — 20 seconds per side until they puff slightly and get light char marks.
 
-1.  **Meat:** Brown the meat in a large skillet. Add the 1/2 cup water, taco seasoning, and the 1 tsp of Better Than Bouillon. Simmer for 5 minutes until the liquid is reduced and the meat is saucy.
-2.  **Shells:** Warm the hard shells in a 350°F oven for 5 minutes to crisp them. Warm tortillas in a dry pan.
-3.  **Assemble:** Set everything out in bowls and let everyone build their own.
+3. **The Assembly:** Set out the meat, shells, tortillas, and all toppings in bowls. Everyone builds their own — that's the whole point. Squeeze lime over everything at the table.

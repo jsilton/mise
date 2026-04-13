@@ -1,27 +1,44 @@
 ---
 title: Chocolate Pie
 difficulty: intermediate
-cookingMethods: [bake, boil]
-dietary: [vegetarian]
-occasions: [holiday, entertaining, weekend-project, indulgent]
-seasons: [year-round]
+cookingMethods:
+  - bake
+  - boil
+dietary:
+  - vegetarian
+occasions:
+  - holiday
+  - entertaining
+  - weekend-project
+  - indulgent
+seasons:
+  - year-round
 nutritionalDensity: hearty
 leftovers: excellent
-advancePrep: [make-ahead]
+advancePrep:
+  - make-ahead
+  - chill-to-set
 equipment: []
-flavorProfile: [sweet, rich]
-cuisines: [American]
+flavorProfile:
+  - sweet
+  - rich
+cuisines:
+  - American
 role: dessert
 vibe: technical
 prepTime: 30 min
 cookTime: 10 min
 totalTime: 280 min
 servings: '10'
-pairsWith: []
+pairsWith:
+  - apple-cider-cream-pie
+  - apple-pie
+  - babys-first-smash-cake
+  - best-cinnamon-roll-recipe-cinnabon-copycat
 ingredients:
   - >-
-    1 Pie Crust, baked and cooled (Use the [Apple
-    Pie](/mise/recipes/apple-pie) Vodka Hack dough!)
+    1 Pie Crust, baked and cooled (Use the [Apple Pie](/mise/recipes/apple-pie)
+    Vodka Hack dough!)
   - '6 1/2 oz Bittersweet Chocolate, finely chopped'
   - 1 1/2 cups Granulated Sugar
   - 1/4 cup Cornstarch
@@ -32,12 +49,12 @@ ingredients:
   - 2 tsp Vanilla Extract
   - Whipped Cream
   - Shaved Dark Chocolate
+origin: United States
 ---
 
 ## Chef's Note
 
-This is an upgrade to the old-school "pudding pie." The secret is using 70% cacao bittersweet chocolate instead of milk chocolate, creating a sophisticated, intense filling that balances the sweetness of the sugar. Whisking the egg yolks directly into the cold milk before cooking ensures a silky, custard-like texture that never turns grainy. For the best result, use the Vodka Hack crust from our [Apple Pie](/mise/recipes/apple-pie).
-
+This is a chocolate cream pie—a pudding custard filling that relies on cornstarch to thicken, not flour (which can create a gummy texture). The custard must reach a boil to fully activate the starch, then you remove it from heat immediately to add chocolate, so it stays silky. Pressing plastic wrap directly on the filling prevents that grainy "skin" from forming during chilling.
 ## Directions
 
 1.  **The Base:** In a medium saucepan, whisk together sugar, cornstarch, and salt.

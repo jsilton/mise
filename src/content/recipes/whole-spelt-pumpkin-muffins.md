@@ -1,23 +1,39 @@
 ---
 title: Whole Spelt Pumpkin Muffins
 difficulty: easy
-cookingMethods: [bake]
-dietary: [vegetarian]
-occasions: [meal-prep, kids-approved]
-seasons: [fall, winter]
+cookingMethods:
+  - bake
+dietary:
+  - vegetarian
+occasions:
+  - meal-prep
+  - kids-approved
+seasons:
+  - fall
+  - winter
 nutritionalDensity: moderate
 leftovers: excellent
-equipment: [muffin-tin, mixing-bowl]
-advancePrep: [make-ahead, freeze-ahead]
-flavorProfile: [sweet, rich]
-cuisines: [American]
+equipment:
+  - muffin-tin
+  - mixing-bowl
+advancePrep:
+  - make-ahead
+  - freeze-ahead
+flavorProfile:
+  - sweet
+  - rich
+cuisines:
+  - American
 role: main
 vibe: quick
 prepTime: 5 min
 cookTime: 20 min
 totalTime: 25 min
 servings: '12'
-pairsWith: [banana-oat-greek-yogurt-muffins, brownie-protein-balls, easy-breakfast-yogurt-popsicles]
+pairsWith:
+  - banana-oat-greek-yogurt-muffins
+  - brownie-protein-balls
+  - easy-breakfast-yogurt-popsicles
 ingredients:
   - 1 cup Pure Pumpkin Puree
   - '1/3 cup Unsalted Butter, melted'
@@ -27,6 +43,7 @@ ingredients:
   - 1 tbsp Pumpkin Pie Spice (The Finishing Touch)
   - 1 tsp Baking Soda + 1/4 tsp Baking Powder
   - 1/2 tsp Sea Salt
+origin: United States
 ---
 
 ## Chef's Note
@@ -40,3 +57,4 @@ The key to spelt muffins that aren't dry is high hydration. Spelt has a more fra
 3.  **Combine:** Make a well in the dry ingredients. Pour in the pumpkin mix. Fold with a spatula until **just combined**.
 4.  **Bake:** Preheat oven to 350°F. Line a 12-cup tin. Fill each cup 3/4 full. Bake for 18-20 minutes until a toothpick inserted into the center comes out clean.
 5.  **Cool:** Let cool completely in the pan to allow the spelt structure to set into a Crunch tender crumb.
+

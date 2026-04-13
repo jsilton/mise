@@ -1,16 +1,28 @@
 ---
 title: Chocolate Blended Oats with Raspberry Chia Jam
 difficulty: easy
-cookingMethods: [blend]
-dietary: [vegetarian]
-occasions: [meal-prep, post-workout, weekend-project]
-seasons: [year-round]
+cookingMethods:
+  - blend
+dietary:
+  - vegetarian
+occasions:
+  - meal-prep
+  - post-workout
+  - weekend-project
+seasons:
+  - year-round
 nutritionalDensity: moderate
 leftovers: excellent
-advancePrep: [make-ahead]
-equipment: [blender]
-flavorProfile: [sweet, acidic, umami]
-cuisines: [American]
+advancePrep:
+  - make-ahead
+equipment:
+  - blender
+flavorProfile:
+  - sweet
+  - acidic
+  - umami
+cuisines:
+  - American
 role: main
 vibe: nutritious
 prepTime: 10 min
@@ -18,11 +30,9 @@ cookTime: 90 min
 totalTime: 100 min
 servings: '4'
 pairsWith:
-  [
-    avocado-kale-caesar-salad,
-    warm-roasted-veggie-salad-with-maple-dijon-vinaigrette,
-    roasted-fall-harvest-salad,
-  ]
+  - avocado-kale-caesar-salad
+  - warm-roasted-veggie-salad-with-maple-dijon-vinaigrette
+  - roasted-fall-harvest-salad
 ingredients:
   - 1 cup Frozen Raspberries
   - 1 tbsp Chia Seeds
@@ -35,6 +45,7 @@ ingredients:
   - 1 tsp Vanilla Extract
   - 1/8 tsp Sea Salt
   - '2 oz Dark Chocolate, melted'
+origin: United States
 ---
 
 ## Chef's Note

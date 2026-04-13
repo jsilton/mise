@@ -2,11 +2,17 @@
 title: Challah
 origin: Israel
 difficulty: easy
-cookingMethods: [bake]
+cookingMethods:
+  - bake
 dietary: []
-occasions: [weekend-project, entertaining]
-flavorProfile: [sweet, rich]
-cuisines: [Israeli]
+occasions:
+  - weekend-project
+  - entertaining
+flavorProfile:
+  - sweet
+  - rich
+cuisines:
+  - Israeli
 role: main
 vibe: technical
 prepTime: 120 min
@@ -14,11 +20,9 @@ cookTime: 40 min
 totalTime: 160 min
 servings: 2 loaves
 pairsWith:
-  [
-    homemade-naan,
-    peach-salad-with-tomatoes-and-beets,
-    roasted-sunchokes-with-brown-butter-cider-vinaigrette,
-  ]
+  - homemade-naan
+  - peach-salad-with-tomatoes-and-beets
+  - roasted-sunchokes-with-brown-butter-cider-vinaigrette
 ingredients:
   - 1 1/2 tbsp Active Dry Yeast
   - 8 to 8 1/2 cups All-Purpose Flour
@@ -28,6 +32,11 @@ ingredients:
   - 1 tbsp Kosher Salt
   - 1 egg (for wash)
   - Poppy or Sesame Seeds
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: good
+equipment: []
 ---
 
 ## Chef's Note

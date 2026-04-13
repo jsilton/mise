@@ -1,29 +1,48 @@
 ---
 title: Cauliflower Rice
 difficulty: easy
-cookingMethods: [sauté, raw]
-dietary: [vegetarian, vegan, gluten-free, low-carb, keto]
-occasions: [weeknight, meal-prep, light-and-fresh]
-flavorProfile: [savory, mild]
-cuisines: [American]
+cookingMethods:
+  - sauté
+  - raw
+dietary:
+  - vegetarian
+  - vegan
+  - gluten-free
+  - low-carb
+  - keto
+occasions:
+  - weeknight
+  - meal-prep
+  - light-and-fresh
+flavorProfile:
+  - savory
+  - mild
+cuisines:
+  - American
 role: base
 vibe: nutritious
 prepTime: 10 min
 cookTime: 5 min
 totalTime: 15 min
 servings: '4'
-seasons: [year-round]
+seasons:
+  - year-round
 nutritionalDensity: light
 leftovers: good
-equipment: [food-processor]
-pairsWith: [garlic-honey-lime-shrimp, thai-chicken-curry, mongolian-beef]
+equipment:
+  - food-processor
+pairsWith:
+  - garlic-honey-lime-shrimp
+  - thai-chicken-curry
+  - mongolian-beef
 ingredients:
-  - 1 large head Cauliflower (about 2 lbs), cut into florets
+  - '1 large head Cauliflower (about 2 lbs), cut into florets'
   - 2 tbsp Olive Oil or Avocado Oil
   - 1/2 tsp Salt
   - 1/4 tsp Black Pepper
-  - 2 cloves Garlic, minced (optional)
-  - 2 tbsp Fresh Herbs such as parsley, cilantro, or chives (optional)
+  - '2 cloves Garlic, minced (optional)'
+  - '2 tbsp Fresh Herbs such as parsley, cilantro, or chives (optional)'
+origin: United States
 ---
 
 ## Chef's Note

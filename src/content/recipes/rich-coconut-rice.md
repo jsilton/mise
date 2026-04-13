@@ -1,25 +1,42 @@
 ---
 title: Coconut Rice
 difficulty: easy
-cookingMethods: [simmer, boil, steam]
+cookingMethods:
+  - simmer
+  - boil
+  - steam
 dietary: []
-occasions: [weeknight, meal-prep]
-flavorProfile: [sweet, savory, rich]
-cuisines: [Caribbean]
+occasions:
+  - weeknight
+  - meal-prep
+flavorProfile:
+  - sweet
+  - savory
+  - rich
+cuisines:
+  - Caribbean
 role: base
 vibe: quick
 prepTime: 5 min
 cookTime: 20 min
-totalTime: 35 min
-servings: '4'
-pairsWith: [bibimbap, herby-chicken-meatball-bowl, miso-salmon-with-bok-choy]
+totalTime: '25 min'
+pairsWith:
+  - bibimbap
+  - herby-chicken-meatball-bowl
+  - miso-salmon-with-bok-choy
 ingredients:
-  - '1.5 cups Jasmine Rice'
-  - '1 can (14 oz) Full-Fat Coconut Milk'
-  - '1 cup Water'
-  - '1 tsp Sugar'
-  - '1 tsp Kosher Salt'
+  - 1.5 cups Jasmine Rice
+  - 1 can (14 oz) Full-Fat Coconut Milk
+  - 1 cup Water
+  - 1 tsp Sugar
+  - 1 tsp Kosher Salt
   - 'Optional: 2 Pandan leaves or 1 kaffir lime leaf'
+origin: Caribbean
+seasons:
+  - year-round
+nutritionalDensity: light
+leftovers: good
+equipment: []
 ---
 
 ## Chef's Note

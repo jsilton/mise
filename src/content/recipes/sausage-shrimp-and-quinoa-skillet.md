@@ -1,15 +1,26 @@
 ---
 title: 'Sausage, Shrimp & Quinoa Skillet'
 difficulty: easy
-cookingMethods: [fry, sauté]
+cookingMethods:
+  - fry
+  - sauté
 dietary: []
-occasions: [weeknight, quick-lunch, meal-prep]
-seasons: [year-round]
+occasions:
+  - weeknight
+  - quick-lunch
+  - meal-prep
+seasons:
+  - year-round
 nutritionalDensity: hearty
 leftovers: good
-equipment: [large-skillet]
-flavorProfile: [spicy, acidic, herbaceous]
-cuisines: [American]
+equipment:
+  - large-skillet
+flavorProfile:
+  - spicy
+  - acidic
+  - herbaceous
+cuisines:
+  - American
 role: main
 vibe: quick
 prepTime: 5 min
@@ -17,11 +28,9 @@ cookTime: 15 min
 totalTime: 20 min
 servings: '4'
 pairsWith:
-  [
-    roasted-fall-harvest-salad,
-    garlicky-lemon-kale-with-carrots,
-    roasted-sunchokes-with-brown-butter-cider-vinaigrette,
-  ]
+  - roasted-fall-harvest-salad
+  - garlicky-lemon-kale-with-carrots
+  - roasted-sunchokes-with-brown-butter-cider-vinaigrette
 ingredients:
   - '1/2 lb Medium Shrimp, peeled and deveined'
   - '6 oz Spicy Chicken Sausage, sliced'
@@ -30,6 +39,7 @@ ingredients:
   - 1 tsp Creole Seasoning (The Finishing Touch)
   - 1 tbsp Neutral Oil
   - Fresh Parsley for garnish
+origin: United States
 ---
 
 ## Chef's Note
@@ -44,3 +54,5 @@ This 20-minute skillet uses pre-cooked quinoa (frozen or leftover) to speed up d
 4.  **The Crunch:** Add the shrimp. Cook for 2-3 minutes, tossing constantly, until the shrimp are pink and just opaque.
 5.  **Finish:** Remove from heat. Season with a pinch of salt and pepper.
 6.  **Serve:** Garnish with fresh parsley. Serve immediately.
+
+**Rest:** Let Spicy Chicken rest for 5 minutes before slicing or serving — the juices redistribute and every piece stays moist.

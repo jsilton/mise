@@ -1,23 +1,38 @@
 ---
 title: Classic Wonton Soup
 difficulty: easy
-cookingMethods: [boil, no-cook]
+cookingMethods:
+  - boil
+  - no-cook
 dietary: []
-occasions: [weekend-project, entertaining, comfort-food]
-flavorProfile: [spicy, savory, umami]
-cuisines: [Chinese]
+occasions:
+  - weekend-project
+  - entertaining
+  - comfort-food
+flavorProfile:
+  - spicy
+  - savory
+  - umami
+cuisines:
+  - Chinese
 role: main
 vibe: technical
 prepTime: 30 min
 cookTime: 6 min
 totalTime: 36 min
 servings: '4'
-seasons: [year-round, winter]
+seasons:
+  - year-round
+  - winter
 nutritionalDensity: moderate
 leftovers: good
-advancePrep: [make-ahead, freeze-ahead]
+advancePrep:
+  - make-ahead
+  - freeze-ahead
 equipment: []
-pairsWith: [steamed-bok-choy-with-oyster-sauce, steamed-broccoli]
+pairsWith:
+  - steamed-bok-choy-with-oyster-sauce
+  - steamed-broccoli
 ingredients:
   - 300g Ground Pork
   - '1 tsp Ginger, minced'
@@ -28,6 +43,7 @@ ingredients:
   - 1 liter Wonton Broth (See note below)
   - 2 heads Baby Bok Choy
   - Sesame Oil and Scallions for garnish
+origin: China
 ---
 
 ## Chef's Note
@@ -44,3 +60,4 @@ Cantonese wonton soup features delicate pork wontons in clear, aromatic broth. S
 4.  **Boil:** In a large pot of water, boil wontons for 3-4 minutes until they float. During the final 20 seconds, add the bok choy.
 5.  **Bind:** Heat the [Wonton Broth](/mise/recipes/cantonese-wonton-broth) to boiling. Ladle the hot broth into the serving bowls.
 6.  **Serve:** Transfer the wontons and bok choy to the bowls. Garnish with scallions and chili oil for the final **High Note**.
+

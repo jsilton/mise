@@ -1,22 +1,39 @@
 ---
 title: Honey Sesame Chicken
 difficulty: easy
-cookingMethods: [fry, sauté, steam]
+cookingMethods:
+  - fry
+  - sauté
+  - steam
 dietary: []
-occasions: [weeknight, quick-lunch, kids-approved]
-flavorProfile: [sweet, savory, acidic, umami]
-cuisines: [Chinese]
+occasions:
+  - weeknight
+  - quick-lunch
+  - kids-approved
+flavorProfile:
+  - sweet
+  - savory
+  - acidic
+  - umami
+cuisines:
+  - Chinese
 role: main
 vibe: quick
 prepTime: 10 min
 cookTime: 15 min
 totalTime: 25 min
 servings: '4'
-seasons: [year-round]
+seasons:
+  - year-round
 nutritionalDensity: moderate
 leftovers: excellent
-equipment: [wok, large-skillet]
-pairsWith: [basmati-rice, steamed-broccoli, garlic-sesame-spinach]
+equipment:
+  - wok
+  - large-skillet
+pairsWith:
+  - basmati-rice
+  - steamed-broccoli
+  - garlic-sesame-spinach
 ingredients:
   - '1.5 lbs Chicken Thighs, cut into bite-sized chunks'
   - 1/4 cup Honey
@@ -28,6 +45,7 @@ ingredients:
   - 1 tbsp Toasted Sesame Seeds
   - 1 tbsp Cornstarch
   - '3 stalks Green Onion, sliced'
+origin: China
 ---
 
 ## Chef's Note

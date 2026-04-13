@@ -1,18 +1,31 @@
 ---
 title: Spinach Lemon Chicken
 difficulty: intermediate
-cookingMethods: [bake, roast, sauté, simmer]
+cookingMethods:
+  - bake
+  - roast
+  - sauté
+  - simmer
 dietary: []
-occasions: [weeknight, quick-lunch]
-flavorProfile: [savory, acidic, rich]
-cuisines: [Mediterranean]
+occasions:
+  - weeknight
+  - quick-lunch
+flavorProfile:
+  - savory
+  - acidic
+  - rich
+cuisines:
+  - Mediterranean
 role: main
 vibe: quick
 prepTime: 10 min
 cookTime: 15 min
 totalTime: 25 min
 servings: '4'
-pairsWith: [everyday-arugula-salad, garlicky-lemon-kale-with-carrots, arugula-feta-salad]
+pairsWith:
+  - everyday-arugula-salad
+  - garlicky-lemon-kale-with-carrots
+  - arugula-feta-salad
 ingredients:
   - '4 large Chicken Breasts, halved horizontally (cutlets)'
   - 2 tbsp Olive Oil (Replaces Coconut oil for better savory profile)
@@ -23,6 +36,12 @@ ingredients:
   - 2 tsp Dried Oregano
   - 1 bag (9 oz) Fresh Spinach
   - Salt and Black Pepper
+origin: Mediterranean
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: good
+equipment: []
 ---
 
 ## Chef's Note
@@ -39,3 +58,5 @@ This Mediterranean-inspired 25-minute dish sears chicken cutlets first to develo
 6.  **Wilt:** Fold in the spinach. Stir for 30 seconds until it just begins to collapse.
 7.  **Finish:** Return the chicken breasts to the skillet. Transfer the pan to a 400°F oven for 10-12 minutes until the chicken reaches an internal temp of 165°F.
 8.  **Serve:** Serve the chicken drenched in the lemon-yogurt sauce over rice or greens.
+
+**Rest:** Let large Chicken rest for 5 minutes before slicing or serving — the juices redistribute and every piece stays moist.

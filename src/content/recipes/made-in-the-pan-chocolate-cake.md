@@ -1,15 +1,27 @@
 ---
 title: Made-In-The-Pan Chocolate Cake
 difficulty: easy
-cookingMethods: [bake]
-dietary: [vegetarian]
-occasions: [weeknight, kids-approved, comfort-food, quick-lunch]
-seasons: [year-round]
+cookingMethods:
+  - bake
+dietary:
+  - vegetarian
+occasions:
+  - weeknight
+  - kids-approved
+  - comfort-food
+  - quick-lunch
+seasons:
+  - year-round
 nutritionalDensity: hearty
 leftovers: excellent
-equipment: [baking-dish]
-flavorProfile: [sweet, acidic, rich]
-cuisines: [American]
+equipment:
+  - baking-dish
+flavorProfile:
+  - sweet
+  - acidic
+  - rich
+cuisines:
+  - American
 role: dessert
 vibe: technical
 prepTime: 10 min
@@ -27,12 +39,17 @@ ingredients:
   - 1 tsp Apple Cider Vinegar for richness
   - 1 cup Cold Water
   - 2 tbsp Semisweet Chocolate Chips
+origin: United States
+pairsWith:
+  - apple-cider-cream-pie
+  - apple-pie
+  - blackout-chocolate-cake
+  - classic-peach-ice-cream
 ---
 
 ## Chef's Note
 
-This is an updated take on "Wacky Cake" or "Depression Cake." The key is mixing the entire cake directly in the baking dish, eliminating the need for bowls. The magic moment is adding apple cider vinegar to the baking soda; this creates a chemical reaction that provides lift in a cake that has no eggs or butter. It results in a crumb that is surprisingly dark, moist, and tender.
-
+This cake is pure American efficiency—everything mixes right in the pan, no bowls to clean. The trick is understanding what each ingredient does: vinegar reacts with baking soda to create lift and crumb structure, cocoa powder needs cold water to bloom properly, and the whole formula relies on mixing order so ingredients emulsify correctly into a smooth, lump-free batter.
 ## Directions
 
 1.  **The Dry Mix:** Preheat oven to 325°F. In an 8x8-inch square baking dish, whisk the flour, sugar, cocoa, baking soda, and salt until uniform. Use your fingers to crush any cocoa lumps.

@@ -3,11 +3,23 @@ title: Classic Guacamole
 role: side
 vibe: quick
 difficulty: easy
-cuisines: [Mexican]
-occasions: [entertaining, game-day, weeknight]
-dietary: [vegetarian, vegan, gluten-free, dairy-free]
-cookingMethods: [raw]
-flavorProfile: [savory, acidic, fresh]
+cuisines:
+  - Mexican
+occasions:
+  - entertaining
+  - game-day
+  - weeknight
+dietary:
+  - vegetarian
+  - vegan
+  - gluten-free
+  - dairy-free
+cookingMethods:
+  - raw
+flavorProfile:
+  - savory
+  - acidic
+  - fresh
 prepTime: 15 min
 totalTime: 15 min
 servings: '8'
@@ -16,7 +28,8 @@ pairsWith:
   - bbq-chicken-sliders
   - sweet-chili-chicken-sliders
   - crispy-black-bean-tacos
-equipment: [molcajete]
+equipment:
+  - molcajete
 ingredients:
   - 4 Ripe Avocados
   - 1/2 cup White Onion (finely diced)
@@ -25,12 +38,18 @@ ingredients:
   - 2 tbsp Fresh Lime Juice (about 1 lime)
   - 1 tsp Kosher Salt
   - 1/4 tsp Cumin
-  - 1 Roma Tomato (seeded and diced, optional)
+  - '1 Roma Tomato (seeded and diced, optional)'
+origin: Mexico
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: good
 ---
 
 ## Chef's Note
 
 Great guacamole is about texture and restraint. You want chunks, not baby food. The key technique: mash only half the avocado to create a creamy base that holds everything together, then fold in the rest in rough chunks for texture. Salt early and generously—avocado absorbs salt and needs more than you think. Lime juice isn't just for flavor; the acid slows oxidation (browning). The traditional molcajete (Mexican mortar and pestle) gives you control over texture, but a fork works fine. Skip the tomato if you want pure avocado flavor—it's optional in authentic Mexican versions. Serve within an hour; guacamole doesn't keep.
+For kids, serve the heat on the side or reduce/omit the spicy elements.
 
 ## Directions
 

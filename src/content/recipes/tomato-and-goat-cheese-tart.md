@@ -1,18 +1,32 @@
 ---
 title: Heirloom Tomato & Goat Cheese Tart
 difficulty: easy
-cookingMethods: [bake, roast, no-cook, blend]
-dietary: [vegetarian]
-occasions: [holiday, comfort-food]
-flavorProfile: [acidic, rich, herbaceous]
-cuisines: [French]
+cookingMethods:
+  - bake
+  - roast
+  - no-cook
+  - blend
+dietary:
+  - vegetarian
+occasions:
+  - holiday
+  - comfort-food
+flavorProfile:
+  - acidic
+  - rich
+  - herbaceous
+cuisines:
+  - French
 role: main
 vibe: comfort
 prepTime: 20 min
 cookTime: 140 min
 totalTime: 160 min
 servings: '6'
-pairsWith: [sweet-and-white-potato-gratin, tarragon-potatoes, garlic-bread]
+pairsWith:
+  - sweet-and-white-potato-gratin
+  - tarragon-potatoes
+  - garlic-bread
 ingredients:
   - 2 cups All-Purpose Flour
   - '3/4 cup (6 oz) Cold Butter, cubed'
@@ -23,6 +37,14 @@ ingredients:
   - 4 tsp Fresh Thyme
   - '3 lbs Heirloom Tomatoes, thinly sliced'
   - Fresh Green and Purple Basil
+origin: France
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: good
+equipment: []
+advancePrep:
+  - freeze-ahead
 ---
 
 ## Chef's Note
@@ -39,3 +61,5 @@ This is the ultimate holiday tart. The key is roasting the sliced heirloom tomat
 6.  **Assemble:** Layer the roasted tomatoes in a beautiful overlapping pattern over the cheese.
 7.  **Final Bake:** Bake at 425°F for 20 minutes until the crust is mahogany brown.
 8.  **Serve:** Garnish with fresh purple and green basil for the aromatic **High Note**.
+
+**Rest:** Let Cold Butt rest for 10 minutes before slicing or serving — the juices redistribute and every piece stays moist.

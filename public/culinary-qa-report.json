@@ -1,0 +1,4659 @@
+{
+  "timestamp": "2026-04-12T20:53:40.969Z",
+  "recipesScanned": 599,
+  "summary": {
+    "ratioSanity": 45,
+    "timeHonesty": 24,
+    "techniqueConsistency": 61,
+    "duplicates": 23,
+    "contentQuality": 583,
+    "metadataConsistency": 36,
+    "totalIssues": 772
+  },
+  "issues": {
+    "ratioSanity": [
+      {
+        "severity": "warning",
+        "recipe": "Aloo Gobi (Potato Cauliflower Curry)",
+        "file": "aloo-gobi-potato-cauliflower-curry.md",
+        "message": "Soup/stew likely underfilled (only 180ml liquid detected). Check for missing liquid ingredients."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Anelletti Al Forno",
+        "file": "anelletti-al-forno.md",
+        "message": "Main dish servings 8 but only 227g protein detected. Likely underfilled."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Butternut Squash Fettuccine Alfredo",
+        "file": "butternut-squash-fettuccine-alfredo.md",
+        "message": "Main dish servings 6 but only 120g protein detected. Likely underfilled."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Chicken and Wild Rice Soup",
+        "file": "chicken-and-wild-rice-soup.md",
+        "message": "Soup/stew likely underfilled (only 15ml liquid detected). Check for missing liquid ingredients."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Chicken Piccata",
+        "file": "chicken-piccata-unfried.md",
+        "message": "Main dish servings 4 but only 120g protein detected. Likely underfilled."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Chicken Thigh Kebabs with Chile-Yogurt Sauce",
+        "file": "chicken-thigh-kebabs-with-chile-yogurt-sauce.md",
+        "message": "Main dish servings 4 but only 113g protein detected. Likely underfilled."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Chinese Eggplant with Garlic Sauce",
+        "file": "chinese-eggplant-with-garlic-sauce.md",
+        "message": "Main dish servings 4 but only 113g protein detected. Likely underfilled."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Chinese-Style Snapper",
+        "file": "chinese-style-snapper.md",
+        "message": "Main dish servings 6 but only 60g protein detected. Likely underfilled."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Classic Wonton Soup",
+        "file": "classic-wonton-soup.md",
+        "message": "Soup/stew likely underfilled (only 60ml liquid detected). Check for missing liquid ingredients."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Coconut Chickpea Curry",
+        "file": "coconut-chickpea-curry.md",
+        "message": "Soup/stew likely underfilled (only 30ml liquid detected). Check for missing liquid ingredients."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Coconut Curry Shrimp",
+        "file": "coconut-curry-shrimp.md",
+        "message": "Main dish servings 4 but only 227g protein detected. Likely underfilled."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Sheet Pan Gnocchi & Veggies",
+        "file": "crispy-sheet-pan-gnocchi-and-veggies.md",
+        "message": "Main dish servings 4 but only 227g protein detected. Likely underfilled."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Cu Chao Mian (Shanghai Fried Noodles)",
+        "file": "cu-chao-mian.md",
+        "message": "Main dish servings 4 but only 170g protein detected. Likely underfilled."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Dan Dan Noodles",
+        "file": "dan-dan-noodles.md",
+        "message": "Main dish servings 4 but only 227g protein detected. Likely underfilled."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Thai Green Curry with Chicken",
+        "file": "green-curry-chicken.md",
+        "message": "Soup/stew likely underfilled (only 45ml liquid detected). Check for missing liquid ingredients."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Chicken with Herbed Corn Salsa",
+        "file": "grilled-chicken-with-herbed-corn-salsa.md",
+        "message": "Main dish servings 4 but only 227g protein detected. Likely underfilled."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Har Gow (Shrimp Dumplings)",
+        "file": "har-gow-dim-sum-shrimp-dumplings.md",
+        "message": "Main dish servings 18 but only 227g protein detected. Likely underfilled."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Hot and Sour Soup",
+        "file": "hot-and-sour-soup.md",
+        "message": "Soup/stew likely underfilled (only 105ml liquid detected). Check for missing liquid ingredients."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Hot and Sour Soup",
+        "file": "hot-and-sour-soup.md",
+        "message": "Main dish servings 6 but only 113g protein detected. Likely underfilled."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Japchae (Korean Glass Noodle Stir-Fry)",
+        "file": "japchae-korean-glass-noodle-stir-fry.md",
+        "message": "Main dish servings 4 but only 227g protein detected. Likely underfilled."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Lemon Basil Shrimp Risotto",
+        "file": "lemon-basil-shrimp-risotto.md",
+        "message": "Main dish servings 4 but only 227g protein detected. Likely underfilled."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Lime & Honey Glazed Salmon",
+        "file": "lime-and-honey-glazed-salmon-with-warm-black-bean-and-corn-salad.md",
+        "message": "Main dish servings 4 but only 120g protein detected. Likely underfilled."
+      },
+      {
+        "severity": "warning",
+        "recipe": "One-Pan Lemon Herb Chicken Thighs",
+        "file": "one-pan-lemon-herb-chicken-thighs.md",
+        "message": "Main dish servings 4 but only 120g protein detected. Likely underfilled."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Pad Woon Sen",
+        "file": "pad-woon-sen.md",
+        "message": "Main dish servings 4 but only 45g protein detected. Likely underfilled."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Panang Curry with Chicken",
+        "file": "panang-curry-with-chicken.md",
+        "message": "Soup/stew likely underfilled (only 15ml liquid detected). Check for missing liquid ingredients."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Restaurant-Style Chicken Lo Mein",
+        "file": "restaurant-style-chicken-lo-mein.md",
+        "message": "Main dish servings 6 but only 227g protein detected. Likely underfilled."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Roast Turkey Breast",
+        "file": "roast-turkey-breast.md",
+        "message": "Main dish servings 8 but only 120g protein detected. Likely underfilled."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Sage Brown Butter Ravioli",
+        "file": "sage-brown-butter-sauce-butternut-squash-ravioli.md",
+        "message": "Main dish servings 4 but only 120g protein detected. Likely underfilled."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Seafood-Chorizo Tacos",
+        "file": "seafood-chorizo-tacos.md",
+        "message": "Main dish servings 4 but only 227g protein detected. Likely underfilled."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Shrimp & Snow Pea Stir Fry",
+        "file": "shrimp-and-snow-pea-stir-fry.md",
+        "message": "Main dish servings 4 but only 227g protein detected. Likely underfilled."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Shrimp Wonton Soup",
+        "file": "shrimp-wonton-soup.md",
+        "message": "Soup/stew likely underfilled (only 15ml liquid detected). Check for missing liquid ingredients."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Zucchini Soup",
+        "file": "silky-zucchini-soup.md",
+        "message": "Main dish servings 4 but only 160g protein detected. Likely underfilled."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Slow Cooker Cilantro Lime Chicken",
+        "file": "slow-cooker-cilantro-lime-chicken.md",
+        "message": "Main dish servings 6 but only 227g protein detected. Likely underfilled."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Soy Sauce Butter Pasta with Shrimp",
+        "file": "soy-sauce-butter-pasta-with-shrimp-and-shiitakes.md",
+        "message": "Main dish servings 4 but only 227g protein detected. Likely underfilled."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Spatchcocked Roast Chicken (The Best Method)",
+        "file": "spatchcocked-roast-chicken.md",
+        "message": "Main dish servings 4 but only 120g protein detected. Likely underfilled."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Thai Red Curry Beef",
+        "file": "spicy-thai-red-curry-beef.md",
+        "message": "Soup/stew likely underfilled (only 15ml liquid detected). Check for missing liquid ingredients."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Sweet Chili Chicken Sliders",
+        "file": "sweet-chili-chicken-sliders.md",
+        "message": "Soup/stew likely underfilled (only 180ml liquid detected). Check for missing liquid ingredients."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Szechuan Eggplant & Tofu",
+        "file": "szechuan-eggplant-and-tofu.md",
+        "message": "Main dish servings 4 but only 60g protein detected. Likely underfilled."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Thai Red Chicken Curry",
+        "file": "thai-chicken-curry.md",
+        "message": "Soup/stew likely underfilled (only 15ml liquid detected). Check for missing liquid ingredients."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Tomato Soup",
+        "file": "tomato-soup.md",
+        "message": "Soup/stew likely underfilled (only 60ml liquid detected). Check for missing liquid ingredients."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Tomato Soup",
+        "file": "tomato-soup.md",
+        "message": "Main dish servings 8 but only 60g protein detected. Likely underfilled."
+      },
+      {
+        "severity": "warning",
+        "recipe": "White Chicken Chili",
+        "file": "white-chicken-chili.md",
+        "message": "Soup/stew likely underfilled (only 120ml liquid detected). Check for missing liquid ingredients."
+      },
+      {
+        "severity": "warning",
+        "recipe": "White Chicken Chili",
+        "file": "white-chicken-chili.md",
+        "message": "Main dish servings 8 but only 113g protein detected. Likely underfilled."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Yaki Udon",
+        "file": "yaki-udon.md",
+        "message": "Main dish servings 4 but only 227g protein detected. Likely underfilled."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Yakisoba (Japanese Stir-Fried Noodles)",
+        "file": "yakisoba-japanese-stir-fried-noodles.md",
+        "message": "Main dish servings 4 but only 227g protein detected. Likely underfilled."
+      }
+    ],
+    "timeHonesty": [
+      {
+        "severity": "warning",
+        "recipe": "Baby’s First Smash Cake",
+        "file": "babys-first-smash-cake.md",
+        "message": "Time math doesn't add up: prepTime (20min) + cookTime (20min) = 40min, but totalTime says 60min. Difference: 20min. Add advancePrep to explain passive time."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Carnitas Bowl",
+        "file": "carnitas-bowl.md",
+        "message": "Time math doesn't add up: prepTime (20min) + cookTime (300min) = 320min, but totalTime says 240min. Difference: 80min. Add advancePrep to explain passive time."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Chicken Coq au Vin",
+        "file": "chicken-coq-au-vin.md",
+        "message": "Time math doesn't add up: prepTime (30min) + cookTime (120min) = 150min, but totalTime says 300min. Difference: 150min. Add advancePrep to explain passive time."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Phở Gà",
+        "file": "chicken-pho.md",
+        "message": "Time math doesn't add up: prepTime (20min) + cookTime (180min) = 200min, but totalTime says 300min. Difference: 100min. Add advancePrep to explain passive time."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Chicken Souvlaki",
+        "file": "chicken-souvlaki.md",
+        "message": "Time math doesn't add up: prepTime (15min) + cookTime (10min) = 25min, but totalTime says 40min. Difference: 15min. Add advancePrep to explain passive time."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Chicken Thigh Kebabs with Chile-Yogurt Sauce",
+        "file": "chicken-thigh-kebabs-with-chile-yogurt-sauce.md",
+        "message": "Time math doesn't add up: prepTime (20min) + cookTime (10min) = 30min, but totalTime says 45min. Difference: 15min. Add advancePrep to explain passive time."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Beef Stew",
+        "file": "classic-beef-stew.md",
+        "message": "Time math doesn't add up: prepTime (30min) + cookTime (180min) = 210min, but totalTime says 300min. Difference: 90min. Add advancePrep to explain passive time."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Coconut Chicken Curry",
+        "file": "coconut-chicken-curry.md",
+        "message": "Time math doesn't add up: prepTime (20min) + cookTime (240min) = 260min, but totalTime says 300min. Difference: 40min. Add advancePrep to explain passive time."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Slow Cooker French Dip Sandwiches",
+        "file": "french-dip-sandwiches.md",
+        "message": "Time math doesn't add up: prepTime (15min) + cookTime (480min) = 495min, but totalTime says 300min. Difference: 195min. Add advancePrep to explain passive time."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Strawberry Vinaigrette",
+        "file": "fresh-strawberry-vinaigrette-salad-dressing.md",
+        "message": "Time math doesn't add up: prepTime (10min) + cookTime (0min) = 10min, but totalTime says 40min. Difference: 30min. Add advancePrep to explain passive time."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Greek-Style Lamb Burgers",
+        "file": "greek-style-lamb-burgers-with-yogurt-cucumber-sauce.md",
+        "message": "Time math doesn't add up: prepTime (15min) + cookTime (12min) = 27min, but totalTime says 45min. Difference: 18min. Add advancePrep to explain passive time."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Honey-Glazed Spareribs",
+        "file": "honey-glazed-spareribs.md",
+        "message": "Time math doesn't add up: prepTime (15min) + cookTime (30min) = 45min, but totalTime says 60min. Difference: 15min. Add advancePrep to explain passive time."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Japanese Cucumber Sunomono",
+        "file": "japanese-cucumber-sunomono.md",
+        "message": "Directions mention 4 hour(s) of marinating/chilling, but totalTime (10min) doesn't reflect this. Either include marinating in totalTime or clarify it's separate."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Oi Muchim",
+        "file": "korean-pickled-cucumbers.md",
+        "message": "Time math doesn't add up: prepTime (10min) + cookTime (0min) = 10min, but totalTime says 30min. Difference: 20min. Add advancePrep to explain passive time."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Chicken Kabobs",
+        "file": "middle-eastern-style-grilled-chicken-kabobs.md",
+        "message": "Directions mention 8 hour(s) of marinating/chilling, but totalTime (50min) doesn't reflect this. Either include marinating in totalTime or clarify it's separate."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Quadruple Chocolate Brownies",
+        "file": "quadruple-chocolate-brownies.md",
+        "message": "Time math doesn't add up: prepTime (30min) + cookTime (35min) = 65min, but totalTime says 120min. Difference: 55min. Add advancePrep to explain passive time."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Do Chua",
+        "file": "quick-pickled-carrots-and-daikon.md",
+        "message": "Time math doesn't add up: prepTime (15min) + cookTime (0min) = 15min, but totalTime says 60min. Difference: 45min. Add advancePrep to explain passive time."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Shaved Brussels Sprout Salad",
+        "file": "shaved-brussels-sprout-salad-with-apples-and-pecorino.md",
+        "message": "Time math doesn't add up: prepTime (15min) + cookTime (0min) = 15min, but totalTime says 30min. Difference: 15min. Add advancePrep to explain passive time."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Smashed Cucumber Salad",
+        "file": "smashed-cucumber-salad.md",
+        "message": "Time math doesn't add up: prepTime (10min) + cookTime (0min) = 10min, but totalTime says 40min. Difference: 30min. Add advancePrep to explain passive time."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Snickerdoodles",
+        "file": "snickerdoodles.md",
+        "message": "Time math doesn't add up: prepTime (15min) + cookTime (8min) = 23min, but totalTime says 45min. Difference: 22min. Add advancePrep to explain passive time."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Peach and Avocado Salad",
+        "file": "spicy-peach-and-avocado-salad.md",
+        "message": "Time math doesn't add up: prepTime (15min) + cookTime (0min) = 15min, but totalTime says 30min. Difference: 15min. Add advancePrep to explain passive time."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Sticky Miso Salmon Bowls",
+        "file": "sticky-miso-salmon-bowl.md",
+        "message": "Time math doesn't add up: prepTime (15min) + cookTime (10min) = 25min, but totalTime says 40min. Difference: 15min. Add advancePrep to explain passive time."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Thai Basil Chicken & Eggplant",
+        "file": "stir-fried-chicken-and-eggplant-with-thai-basil.md",
+        "message": "Time math doesn't add up: prepTime (15min) + cookTime (15min) = 30min, but totalTime says 60min. Difference: 30min. Add advancePrep to explain passive time."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Rice Krispies Treats",
+        "file": "the-original-rice-krispies-treatstm.md",
+        "message": "Time math doesn't add up: prepTime (10min) + cookTime (10min) = 20min, but totalTime says 40min. Difference: 20min. Add advancePrep to explain passive time."
+      }
+    ],
+    "techniqueConsistency": [
+      {
+        "severity": "warning",
+        "recipe": "Arugula & Feta Salad with Strawberry Vinaigrette",
+        "file": "arugula-feta-salad.md",
+        "message": "cookingMethods includes \"roast\" or \"bake\" but no oven temperature found in directions."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Avocado Kale Caesar",
+        "file": "avocado-kale-caesar-salad.md",
+        "message": "cookingMethods includes \"roast\" or \"bake\" but no oven temperature found in directions."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Banana Egg Oat Pancakes",
+        "file": "banana-egg-oat-pancakes.md",
+        "message": "cookingMethods includes \"sear\" but no temperature (e.g., 450°F) found in directions."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Beef and Broccoli Stir-Fry",
+        "file": "beef-and-broccoli-stir-fry.md",
+        "message": "cookingMethods includes \"sear\" but no temperature (e.g., 450°F) found in directions."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Blistered Shishito Peppers",
+        "file": "blistered-shishito-peppers.md",
+        "message": "cookingMethods includes \"sear\" but no temperature (e.g., 450°F) found in directions."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Brownie Protein Balls",
+        "file": "brownie-protein-balls.md",
+        "message": "cookingMethods includes \"roast\" or \"bake\" but no oven temperature found in directions."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Build-Your-Own Taco Bar",
+        "file": "build-your-own-taco-bar.md",
+        "message": "cookingMethods includes \"roast\" or \"bake\" but no oven temperature found in directions."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Cantonese Shrimp and Pork Wontons",
+        "file": "cantonese-shrimp-and-pork-wontons.md",
+        "message": "cookingMethods includes \"roast\" or \"bake\" but no oven temperature found in directions."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Cantonese Wonton Broth",
+        "file": "cantonese-wonton-broth.md",
+        "message": "cookingMethods includes \"roast\" or \"bake\" but no oven temperature found in directions."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Cauliflower Alfredo",
+        "file": "cauliflower-alfredo-sauce.md",
+        "message": "cookingMethods includes \"roast\" or \"bake\" but no oven temperature found in directions."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Charred Guacamole with Pomegranate",
+        "file": "charred-guacamole-with-pomegranate.md",
+        "message": "cookingMethods includes \"roast\" or \"bake\" but no oven temperature found in directions."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Cheese Fondue",
+        "file": "cheese-fondue.md",
+        "message": "cookingMethods includes \"roast\" or \"bake\" but no oven temperature found in directions."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Chicken Coq au Vin",
+        "file": "chicken-coq-au-vin.md",
+        "message": "cookingMethods includes \"roast\" or \"bake\" but no oven temperature found in directions."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Chicken Milanese",
+        "file": "chicken-milanese.md",
+        "message": "cookingMethods includes \"roast\" or \"bake\" but no oven temperature found in directions."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Phở Gà",
+        "file": "chicken-pho.md",
+        "message": "cookingMethods includes \"roast\" or \"bake\" but no oven temperature found in directions."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Chicken Piccata",
+        "file": "chicken-piccata-unfried.md",
+        "message": "cookingMethods includes \"roast\" or \"bake\" but no oven temperature found in directions."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Chicken Tikka Masala",
+        "file": "chicken-tikka-masala.md",
+        "message": "cookingMethods includes \"roast\" or \"bake\" but no oven temperature found in directions."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Turkey and Sweet Potato Chili",
+        "file": "chili.md",
+        "message": "cookingMethods includes \"roast\" or \"bake\" but no oven temperature found in directions."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Chocolate Pie",
+        "file": "chocolate-pie.md",
+        "message": "cookingMethods includes \"roast\" or \"bake\" but no oven temperature found in directions."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Beef Stew",
+        "file": "classic-beef-stew.md",
+        "message": "cookingMethods includes \"roast\" or \"bake\" but no oven temperature found in directions."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Coconut Chickpea Curry",
+        "file": "coconut-chickpea-curry.md",
+        "message": "cookingMethods includes \"roast\" or \"bake\" but no oven temperature found in directions."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Cranberry Orange Sauce",
+        "file": "cranberry-orange-sauce.md",
+        "message": "cookingMethods includes \"roast\" or \"bake\" but no oven temperature found in directions."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Curried Carrot and Apple Soup",
+        "file": "curried-carrot-and-apple-soup.md",
+        "message": "cookingMethods includes \"roast\" or \"bake\" but no oven temperature found in directions."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Cinnamon French Toast Sticks",
+        "file": "easy-cinnamon-french-toast-sticks.md",
+        "message": "cookingMethods includes \"sear\" but no temperature (e.g., 450°F) found in directions."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Spinach Gnocchi",
+        "file": "easy-spinach-gnocchi.md",
+        "message": "cookingMethods includes \"roast\" or \"bake\" but no oven temperature found in directions."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Fennel and Carrot Soup",
+        "file": "fennel-and-carrot-soup.md",
+        "message": "cookingMethods includes \"roast\" or \"bake\" but no oven temperature found in directions."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Glazed Carrots",
+        "file": "glazed-carrots.md",
+        "message": "cookingMethods includes \"roast\" or \"bake\" but no oven temperature found in directions."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Gnocchi with Zucchini Ribbons & Brown Butter",
+        "file": "gnocchi-with-zucchini-ribbons-and-parsley-brown-butter.md",
+        "message": "cookingMethods includes \"roast\" or \"bake\" but no oven temperature found in directions."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Green Beans with Shallots & Lemon",
+        "file": "green-beans-with-shallots-and-lemon.md",
+        "message": "cookingMethods includes \"roast\" or \"bake\" but no oven temperature found in directions."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Naan",
+        "file": "homemade-naan.md",
+        "message": "cookingMethods includes \"roast\" or \"bake\" but no oven temperature found in directions."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Lemon Basil Shrimp Risotto",
+        "file": "lemon-basil-shrimp-risotto.md",
+        "message": "cookingMethods includes \"roast\" or \"bake\" but no oven temperature found in directions."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Mandarin/Pineapple Orange Salad",
+        "file": "mandarinpineapple-organge-salad.md",
+        "message": "cookingMethods includes \"roast\" or \"bake\" but no oven temperature found in directions."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Bulgogi",
+        "file": "marinated-korean-ribeye.md",
+        "message": "cookingMethods includes \"sear\" but no temperature (e.g., 450°F) found in directions."
+      },
+      {
+        "severity": "info",
+        "recipe": "Bulgogi",
+        "file": "marinated-korean-ribeye.md",
+        "message": "cookingMethods includes \"sear\" with protein, but no mention of drying/patting dry. Surface drying is key for good sear."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Nana Ruth’s Applesauce",
+        "file": "nana-ruths-applesauce.md",
+        "message": "cookingMethods includes \"roast\" or \"bake\" but no oven temperature found in directions."
+      },
+      {
+        "severity": "warning",
+        "recipe": "One-Pot Chicken Meatballs with Greens",
+        "file": "one-pot-chicken-meatballs-with-greens.md",
+        "message": "cookingMethods includes \"braise\" but no low temperature (e.g., 300°F) or \"low heat\" found in directions."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Pasta with Sausage, Basil & Mustard",
+        "file": "pasta-with-sausage-basil-and-mustard.md",
+        "message": "cookingMethods includes \"roast\" or \"bake\" but no oven temperature found in directions."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Pear & Spinach Salad",
+        "file": "pear-and-spinach-salad.md",
+        "message": "cookingMethods includes \"roast\" or \"bake\" but no oven temperature found in directions."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Pho Bo (Beef Pho)",
+        "file": "pho-bo-beef-pho.md",
+        "message": "cookingMethods includes \"roast\" or \"bake\" but no oven temperature found in directions."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Puffy Muffin Chicken Salad",
+        "file": "puffy-muffin-chicken-salad.md",
+        "message": "cookingMethods includes \"roast\" or \"bake\" but no oven temperature found in directions."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Lamb Ragù",
+        "file": "quick-lamb-ragu.md",
+        "message": "cookingMethods includes \"braise\" but no low temperature (e.g., 300°F) or \"low heat\" found in directions."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Seared Scallops with Corn & Avocado Relish",
+        "file": "seared-scallops-with-a-corn-bacon-and-avocado-relish.md",
+        "message": "cookingMethods includes \"roast\" or \"bake\" but no oven temperature found in directions."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Sesame Tomato Salad",
+        "file": "sesame-tomato-salad.md",
+        "message": "cookingMethods includes \"roast\" or \"bake\" but no oven temperature found in directions."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Shaved Brussels Sprout Salad",
+        "file": "shaved-brussels-sprout-salad-with-apples-and-pecorino.md",
+        "message": "cookingMethods includes \"roast\" or \"bake\" but no oven temperature found in directions."
+      },
+      {
+        "severity": "info",
+        "recipe": "Shrimp & Sweet Potato Noodle Stir-Fry",
+        "file": "shrimp-and-sweet-potato-noodle-stir-fry.md",
+        "message": "cookingMethods includes \"sear\" with protein, but no mention of drying/patting dry. Surface drying is key for good sear."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Shrimp Vodka Pasta",
+        "file": "shrimp-vodka-pasta.md",
+        "message": "cookingMethods includes \"roast\" or \"bake\" but no oven temperature found in directions."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Slow Cooker Cheesy Mushroom Quinoa",
+        "file": "slow-cooker-cheesy-mushroom-quinoa.md",
+        "message": "cookingMethods includes \"roast\" or \"bake\" but no oven temperature found in directions."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Tortellini Soup",
+        "file": "slow-cooker-tortellini-soup.md",
+        "message": "cookingMethods includes \"roast\" or \"bake\" but no oven temperature found in directions."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Spanish Rice and Chickpeas",
+        "file": "smoky-spanish-rice-and-chickpeas.md",
+        "message": "cookingMethods includes \"roast\" or \"bake\" but no oven temperature found in directions."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Sun-Dried Tomato Cream Spaghetti",
+        "file": "spaghetti-and-spinach-with-sun-dried-tomato-cream-sauce.md",
+        "message": "cookingMethods includes \"roast\" or \"bake\" but no oven temperature found in directions."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Spaghetti with Clams & Braised Greens",
+        "file": "spaghetti-with-clams-and-braised-greens.md",
+        "message": "cookingMethods includes \"braise\" but no low temperature (e.g., 300°F) or \"low heat\" found in directions."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Peach and Avocado Salad",
+        "file": "spicy-peach-and-avocado-salad.md",
+        "message": "cookingMethods includes \"roast\" or \"bake\" but no oven temperature found in directions."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Broccoli with Garlic",
+        "file": "steamed-broccoli.md",
+        "message": "cookingMethods includes \"roast\" or \"bake\" but no oven temperature found in directions."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Noodles with Green Beans",
+        "file": "steamed-noodles-with-green-beans.md",
+        "message": "cookingMethods includes \"braise\" but no low temperature (e.g., 300°F) or \"low heat\" found in directions."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Strawberry Orange Jello Salad",
+        "file": "strawberry-congealed-salad.md",
+        "message": "cookingMethods includes \"roast\" or \"bake\" but no oven temperature found in directions."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Strozzapreti with Preserved Lemon & Spinach",
+        "file": "strozzapreti-with-spinach-and-preserved-lemon.md",
+        "message": "cookingMethods includes \"roast\" or \"bake\" but no oven temperature found in directions."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Thai Chicken Meatball Soup",
+        "file": "thai-inspired-chicken-meatball-soup.md",
+        "message": "cookingMethods includes \"roast\" or \"bake\" but no oven temperature found in directions."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Tonkotsu-Style Ramen (Weekend Project)",
+        "file": "tonkotsu-style-ramen.md",
+        "message": "cookingMethods includes \"braise\" but no low temperature (e.g., 300°F) or \"low heat\" found in directions."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Vieux Carré",
+        "file": "vieux-carre.md",
+        "message": "cookingMethods includes \"roast\" or \"bake\" but no oven temperature found in directions."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Zucchini Noodles with Avocado & Shrimp",
+        "file": "zucchini-noodles-with-avocado-pesto-and-shrimp.md",
+        "message": "cookingMethods includes \"roast\" or \"bake\" but no oven temperature found in directions."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Zuppa Toscana",
+        "file": "zuppa-toscana.md",
+        "message": "cookingMethods includes \"roast\" or \"bake\" but no oven temperature found in directions."
+      }
+    ],
+    "duplicates": [
+      {
+        "severity": "warning",
+        "recipe": "Anadama Bread <-> Banana Bread",
+        "file": "anadama-bread.md, healthy-banana-bread.md",
+        "message": "Very similar titles (distance: 4). Verify these aren't duplicates."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Avocado Toast <-> Avocado Pasta",
+        "file": "avocado-toast.md, creamy-avocado-pasta.md",
+        "message": "Very similar titles (distance: 3). Verify these aren't duplicates."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Banana Nut Bread <-> Banana Bread",
+        "file": "banana-nut-bread.md, healthy-banana-bread.md",
+        "message": "Very similar titles (distance: 4). Verify these aren't duplicates."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Shumai <-> Toum",
+        "file": "cantonese-shumai-siu-mai.md, garlic-paste-toum-the-washington-post.md",
+        "message": "Very similar titles (distance: 4). Verify these aren't duplicates."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Chicken Fingers <-> Chicken Tinga",
+        "file": "chicken-fingers.md, chicken-tinga.md",
+        "message": "Very similar titles (distance: 4). Verify these aren't duplicates."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Chocolate Bread Pudding <-> Chocolate Chia Pudding",
+        "file": "chocolate-bread-pudding-with-vanilla-ice-cream.md, chocolate-chia-pudding.md",
+        "message": "Very similar titles (distance: 4). Verify these aren't duplicates."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Chocolate Pie <-> Chocolate Cake",
+        "file": "chocolate-pie.md, moms-famous-chocolate-cake.md",
+        "message": "Very similar titles (distance: 3). Verify these aren't duplicates."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Coconut Chicken Curry <-> Coconut Chickpea Curry",
+        "file": "coconut-chicken-curry.md, coconut-chickpea-curry.md",
+        "message": "Very similar titles (distance: 2). Verify these aren't duplicates."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Smashed Potatoes <-> Miso-Mashed Potatoes",
+        "file": "crispy-smashed-potatoes.md, miso-mashed-potatoes.md",
+        "message": "Very similar titles (distance: 4). Verify these aren't duplicates."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Smashed Potatoes <-> Mashed Potatoes",
+        "file": "crispy-smashed-potatoes.md, perfect-mashed-potatoes.md",
+        "message": "Very similar titles (distance: 1). Verify these aren't duplicates."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Dashi <-> Banh Mi",
+        "file": "dashi-japanese-sea-stock.md, grilled-pork-banh-mi.md",
+        "message": "Very similar titles (distance: 4). Verify these aren't duplicates."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Dashi <-> Naan",
+        "file": "dashi-japanese-sea-stock.md, homemade-naan.md",
+        "message": "Very similar titles (distance: 4). Verify these aren't duplicates."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Dashi <-> Kalbi",
+        "file": "dashi-japanese-sea-stock.md, kalbi-grilled-korean-style-short-ribs.md",
+        "message": "Very similar titles (distance: 3). Verify these aren't duplicates."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Pad Kee Mao <-> Pad See Ew",
+        "file": "drunken-noodles-pad-kee-mao.md, pad-see-ew-thai-stir-fried-noodles.md",
+        "message": "Very similar titles (distance: 4). Verify these aren't duplicates."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Garlic Butter Green Beans <-> Garlic Sauteed Green Beans",
+        "file": "garlic-butter-green-beans.md, garlic-sauteed-green-beans.md",
+        "message": "Very similar titles (distance: 4). Verify these aren't duplicates."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Toum <-> Naan",
+        "file": "garlic-paste-toum-the-washington-post.md, homemade-naan.md",
+        "message": "Very similar titles (distance: 4). Verify these aren't duplicates."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Apple Muffins <-> Omelet Muffins",
+        "file": "healthy-apple-muffins.md, loaded-baked-omelet-muffins.md",
+        "message": "Very similar titles (distance: 4). Verify these aren't duplicates."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Naan <-> Kalbi",
+        "file": "homemade-naan.md, kalbi-grilled-korean-style-short-ribs.md",
+        "message": "Very similar titles (distance: 4). Verify these aren't duplicates."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Ketchup <-> Do Chua",
+        "file": "homemade-sugar-free-ketchup.md, quick-pickled-carrots-and-daikon.md",
+        "message": "Very similar titles (distance: 4). Verify these aren't duplicates."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Miso Soup <-> Tomato Soup",
+        "file": "miso-soup.md, tomato-soup.md",
+        "message": "Very similar titles (distance: 4). Verify these aren't duplicates."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Chocolate Cake <-> Chocolate Mug Cake",
+        "file": "moms-famous-chocolate-cake.md, the-moistest-chocolate-mug-cake.md",
+        "message": "Very similar titles (distance: 4). Verify these aren't duplicates."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Philly Tuna Roll <-> Spicy Tuna Roll",
+        "file": "philly-tuna-roll.md, spicy-tuna-roll.md",
+        "message": "Very similar titles (distance: 4). Verify these aren't duplicates."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Tahini Sauce <-> Tzatziki Sauce",
+        "file": "tahini-sauce.md, tzatziki-sauce.md",
+        "message": "Very similar titles (distance: 4). Verify these aren't duplicates."
+      }
+    ],
+    "contentQuality": [
+      {
+        "severity": "warning",
+        "recipe": "Almond Zucchini Bread",
+        "file": "almond-zucchini-bread.md",
+        "message": "Chef's Note is only 13 characters (should be ~150-200). Too brief to explain technique or context."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Almond Zucchini Bread",
+        "file": "almond-zucchini-bread.md",
+        "message": "Directions have only 2 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "info",
+        "recipe": "Almond Zucchini Bread",
+        "file": "almond-zucchini-bread.md",
+        "message": "Directions have 2 numbered steps but only 1 bold headers. Each step should have a bold header."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Aloo Gobi (Potato Cauliflower Curry)",
+        "file": "aloo-gobi-potato-cauliflower-curry.md",
+        "message": "Directions have only 2 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Anadama Bread",
+        "file": "anadama-bread.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Anelletti Al Forno",
+        "file": "anelletti-al-forno.md",
+        "message": "Directions have only 1 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Apple Banana and Carrot Muffins",
+        "file": "apple-banana-and-carrot-muffin.md",
+        "message": "Directions have only 2 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Apple Chai Oatmeal Cups",
+        "file": "apple-chai-oatmeal-cups.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Apple Cider Cream Pie",
+        "file": "apple-cider-cream-pie.md",
+        "message": "Directions have only 1 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Apple Pie",
+        "file": "apple-pie.md",
+        "message": "Directions have only 1 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Asian-Glazed Meatballs",
+        "file": "asian-glazed-meatballs.md",
+        "message": "Chef's Note is only 90 characters (should be ~150-200). Too brief to explain technique or context."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Asian-Glazed Meatballs",
+        "file": "asian-glazed-meatballs.md",
+        "message": "Directions have only 1 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Asian Sesame Slaw",
+        "file": "asian-sesame-slaw.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Asian Slaw",
+        "file": "asian-slaw.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Authentic Roman Alfredo (Fettuccine al Burro)",
+        "file": "authentic-roman-alfredo.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Avgolemono",
+        "file": "avgolemono-soup.md",
+        "message": "Chef's Note is only 96 characters (should be ~150-200). Too brief to explain technique or context."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Avgolemono",
+        "file": "avgolemono-soup.md",
+        "message": "Directions have only 1 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Avocado Kale Caesar",
+        "file": "avocado-kale-caesar-salad.md",
+        "message": "Directions have only 1 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Avocado Toast",
+        "file": "avocado-toast.md",
+        "message": "Directions have only 1 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Baby’s First Smash Cake",
+        "file": "babys-first-smash-cake.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Baked Creamy Macaroni and Pimento Cheese",
+        "file": "baked-creamy-mac-and-pimento-cheese.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Bakery Style Chocolate Chip Muffins",
+        "file": "bakery-style-chocolate-chip-muffins.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Balsamic Peach Pork Chops",
+        "file": "balsamic-peach-pork.md",
+        "message": "Directions have only 2 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "info",
+        "recipe": "Balsamic Peach Pork Chops",
+        "file": "balsamic-peach-pork.md",
+        "message": "Directions have 2 numbered steps but only 1 bold headers. Each step should have a bold header."
+      },
+      {
+        "severity": "info",
+        "recipe": "Banana Egg Oat Pancakes",
+        "file": "banana-egg-oat-pancakes.md",
+        "message": "Directions have 6 numbered steps but only 7 bold headers. Each step should have a bold header."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Banana Nut Bread",
+        "file": "banana-nut-bread.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Banana Oat Greek Yogurt Muffins",
+        "file": "banana-oat-greek-yogurt-muffins.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Banana Pudding",
+        "file": "banana-pudding.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Basmati Rice",
+        "file": "basmati-rice.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "info",
+        "recipe": "BBQ Chicken Sliders",
+        "file": "bbq-chicken-sliders.md",
+        "message": "Directions have 3 numbered steps but only 2 bold headers. Each step should have a bold header."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Beef and Broccoli Stir-Fry",
+        "file": "beef-and-broccoli-stir-fry.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Beef Chow Fun",
+        "file": "beef-chow-fun.md",
+        "message": "Chef's Note is only 56 characters (should be ~150-200). Too brief to explain technique or context."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Beef Chow Fun",
+        "file": "beef-chow-fun.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Beef Hot Dogs with Corn Relish",
+        "file": "beef-tenderloin-dogs-with-corn-relish.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Cinnamon Rolls",
+        "file": "best-cinnamon-roll-recipe-cinnabon-copycat.md",
+        "message": "Chef's Note is only 8 characters (should be ~150-200). Too brief to explain technique or context."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Cinnamon Rolls",
+        "file": "best-cinnamon-roll-recipe-cinnabon-copycat.md",
+        "message": "Directions have only 1 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "info",
+        "recipe": "Cinnamon Rolls",
+        "file": "best-cinnamon-roll-recipe-cinnabon-copycat.md",
+        "message": "Directions have 1 numbered steps but only 0 bold headers. Each step should have a bold header."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Brownies",
+        "file": "best-homemade-brownies.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Big-Batch Chicken Chili Verde",
+        "file": "big-batch-chicken-chili-verde.md",
+        "message": "Directions have only 2 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Blackout Chocolate Cake",
+        "file": "blackout-chocolate-cake.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Blueberry Banana Pancake Muffins",
+        "file": "blueberry-banana-pancake-muffins.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Blueberry Date Oatmeal",
+        "file": "blueberry-date-oatmeal.md",
+        "message": "Chef's Note is only 3 characters (should be ~150-200). Too brief to explain technique or context."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Blueberry Pancakes",
+        "file": "blueberry-pancakes.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Peking Ravioli",
+        "file": "boston-style-peking-ravioli.md",
+        "message": "Chef's Note is only 54 characters (should be ~150-200). Too brief to explain technique or context."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Boulevardier",
+        "file": "boulevardier.md",
+        "message": "Chef's Note is only 73 characters (should be ~150-200). Too brief to explain technique or context."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Braised French Lentils",
+        "file": "braised-french-lentils.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Breakfast Carrot Cake",
+        "file": "breakfast-carrot-cake.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Breakfast Egg Cups",
+        "file": "breakfast-egg-cups.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Breakfast Protein Biscuits",
+        "file": "breakfast-protein-biscuits.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Breakfast Quesadilla",
+        "file": "breakfast-quesadilla.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Brisket with Carrots and Onions",
+        "file": "brisket-with-carrots-and-onions.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Broccoli Cheddar Quinoa Bites",
+        "file": "broccoli-cheddar-quinoa-bites.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Brown Butter Carrot Cake",
+        "file": "brown-butter-carrot-cake.md",
+        "message": "Directions have only 1 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Brown Butter-Chocolate Soufflé",
+        "file": "brown-butter-chocolate-souffle.md",
+        "message": "Chef's Note is only 67 characters (should be ~150-200). Too brief to explain technique or context."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Brown Butter-Chocolate Soufflé",
+        "file": "brown-butter-chocolate-souffle.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Brownie Oatmeal",
+        "file": "brownie-baked-oatmeal.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Brownie Protein Balls",
+        "file": "brownie-protein-balls.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Buttered Egg Noodles",
+        "file": "buttered-egg-noodles.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Buttermilk Chicken",
+        "file": "buttermilk-baked-chicken.md",
+        "message": "Chef's Note is only 62 characters (should be ~150-200). Too brief to explain technique or context."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Buttermilk Chicken",
+        "file": "buttermilk-baked-chicken.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "info",
+        "recipe": "Buttermilk Waffles",
+        "file": "buttermilk-waffles.md",
+        "message": "Directions have 5 numbered steps but only 6 bold headers. Each step should have a bold header."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Butternut Squash Fettuccine Alfredo",
+        "file": "butternut-squash-fettuccine-alfredo.md",
+        "message": "Directions have only 1 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Cantonese Steamed Fish",
+        "file": "cantonese-fish.md",
+        "message": "Chef's Note is only 64 characters (should be ~150-200). Too brief to explain technique or context."
+      },
+      {
+        "severity": "info",
+        "recipe": "Cantonese Steamed Fish",
+        "file": "cantonese-fish.md",
+        "message": "Directions have 5 numbered steps but only 4 bold headers. Each step should have a bold header."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Cantonese Shrimp and Pork Wontons",
+        "file": "cantonese-shrimp-and-pork-wontons.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "info",
+        "recipe": "Shumai",
+        "file": "cantonese-shumai-siu-mai.md",
+        "message": "Directions have 3 numbered steps but only 4 bold headers. Each step should have a bold header."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Cantonese Wonton Broth",
+        "file": "cantonese-wonton-broth.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "info",
+        "recipe": "Caramelized Black Pepper Chicken",
+        "file": "caramelized-black-pepper-chicken.md",
+        "message": "Directions have 3 numbered steps but only 2 bold headers. Each step should have a bold header."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Carnitas Bowl",
+        "file": "carnitas-bowl.md",
+        "message": "Directions have only 2 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Cauliflower Alfredo",
+        "file": "cauliflower-alfredo-sauce.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Cauliflower Rice",
+        "file": "cauliflower-rice.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Chana Begoon",
+        "file": "chana-begoon.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Chana Masala",
+        "file": "chana-masala.md",
+        "message": "Directions have only 1 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Char Siu (Chinese BBQ Pork)",
+        "file": "char-siu.md",
+        "message": "Directions have only 1 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "info",
+        "recipe": "Charred Guacamole with Pomegranate",
+        "file": "charred-guacamole-with-pomegranate.md",
+        "message": "Directions have 3 numbered steps but only 4 bold headers. Each step should have a bold header."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Cheese Fondue",
+        "file": "cheese-fondue.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Chef Kriger’s Recipe Shabbat Brisket",
+        "file": "chef-krigers-recipe-shabbat-brisket.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Chewy Chocolate Meringues",
+        "file": "chewy-chocolate-meringues.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "info",
+        "recipe": "Chicken & Spinach Skillet Pasta",
+        "file": "chicken-and-spinach-skillet-pasta-with-lemon-and-parmesan.md",
+        "message": "Directions have 3 numbered steps but only 5 bold headers. Each step should have a bold header."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Chicken and White Bean Enchiladas",
+        "file": "chicken-and-white-bean-enchiladas-with-creamy-green-chile-sauce.md",
+        "message": "Chef's Note is only 14 characters (should be ~150-200). Too brief to explain technique or context."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Chicken and White Bean Enchiladas",
+        "file": "chicken-and-white-bean-enchiladas-with-creamy-green-chile-sauce.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Chicken and Wild Rice Soup",
+        "file": "chicken-and-wild-rice-soup.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Chicken, Apple, and Butternut Stew",
+        "file": "chicken-apple-and-butternut-stew.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Chicken Chile Enchiladas",
+        "file": "chicken-chile-enchiladas.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "info",
+        "recipe": "Chicken Coq au Vin",
+        "file": "chicken-coq-au-vin.md",
+        "message": "Directions have 4 numbered steps but only 3 bold headers. Each step should have a bold header."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Chicken Galbi Noodle Salad",
+        "file": "chicken-galbi-noodle-salad.md",
+        "message": "Directions have only 2 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "info",
+        "recipe": "Chicken Galbi Noodle Salad",
+        "file": "chicken-galbi-noodle-salad.md",
+        "message": "Directions have 2 numbered steps but only 3 bold headers. Each step should have a bold header."
+      },
+      {
+        "severity": "info",
+        "recipe": "Chicken Lettuce Wraps",
+        "file": "chicken-lettuce-wraps.md",
+        "message": "Directions have 3 numbered steps but only 2 bold headers. Each step should have a bold header."
+      },
+      {
+        "severity": "info",
+        "recipe": "Chicken Marsala",
+        "file": "chicken-marsala.md",
+        "message": "Directions have 4 numbered steps but only 3 bold headers. Each step should have a bold header."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Phở Gà",
+        "file": "chicken-pho.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "info",
+        "recipe": "Chicken Piccata",
+        "file": "chicken-piccata-unfried.md",
+        "message": "Directions have 4 numbered steps but only 3 bold headers. Each step should have a bold header."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Chicken Pot Pie",
+        "file": "chicken-pot-pie-ix.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Chicken Quesadillas with Quick Pico",
+        "file": "chicken-quesadillas-with-quick-pico.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "info",
+        "recipe": "Chicken Sausage Pasta",
+        "file": "chicken-sausage-pasta.md",
+        "message": "Directions have 4 numbered steps but only 5 bold headers. Each step should have a bold header."
+      },
+      {
+        "severity": "info",
+        "recipe": "Chicken Scaloppine with Tomato & White Wine",
+        "file": "chicken-scaloppine-with-tomato-and-white-wine.md",
+        "message": "Directions have 5 numbered steps but only 4 bold headers. Each step should have a bold header."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Chicken Shawarma",
+        "file": "chicken-shawarma.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Chicken Thigh Kebabs with Chile-Yogurt Sauce",
+        "file": "chicken-thigh-kebabs-with-chile-yogurt-sauce.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Chicken Tikka Masala",
+        "file": "chicken-tikka-masala.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Chimichurri",
+        "file": "chimichurri.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "info",
+        "recipe": "Chinese Chicken and Broccoli",
+        "file": "chinese-chicken-broccoli.md",
+        "message": "Directions have 6 numbered steps but only 5 bold headers. Each step should have a bold header."
+      },
+      {
+        "severity": "info",
+        "recipe": "Chinese Chicken",
+        "file": "chinese-chicken.md",
+        "message": "Directions have 4 numbered steps but only 3 bold headers. Each step should have a bold header."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Chinese Eggplant with Garlic Sauce",
+        "file": "chinese-eggplant-with-garlic-sauce.md",
+        "message": "Chef's Note is only 48 characters (should be ~150-200). Too brief to explain technique or context."
+      },
+      {
+        "severity": "info",
+        "recipe": "Chinese Eggplant with Garlic Sauce",
+        "file": "chinese-eggplant-with-garlic-sauce.md",
+        "message": "Directions have 5 numbered steps but only 4 bold headers. Each step should have a bold header."
+      },
+      {
+        "severity": "warning",
+        "recipe": "All-Purpose Chinese Garlic Sauce",
+        "file": "chinese-garlic-sauce-base.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Steamed Fish",
+        "file": "chinese-steamed-fish.md",
+        "message": "Directions have only 2 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "info",
+        "recipe": "Steamed Fish",
+        "file": "chinese-steamed-fish.md",
+        "message": "Directions have 2 numbered steps but only 3 bold headers. Each step should have a bold header."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Chipotle Pork Bowls",
+        "file": "chipotle-pork-and-sweet-corn-tamale-bowls.md",
+        "message": "Directions have only 2 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Chocolate Bread Pudding",
+        "file": "chocolate-bread-pudding-with-vanilla-ice-cream.md",
+        "message": "Directions have only 1 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Chocolate Chia Pudding",
+        "file": "chocolate-chia-pudding.md",
+        "message": "Directions have only 2 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "info",
+        "recipe": "Chocolate Chia Pudding",
+        "file": "chocolate-chia-pudding.md",
+        "message": "Directions have 2 numbered steps but only 1 bold headers. Each step should have a bold header."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Chocolate Chip Beet Muffins",
+        "file": "chocolate-chip-beet-muffins.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Chocolate Chip Cookie Cake",
+        "file": "chocolate-chip-cookie-cake.md",
+        "message": "Directions have only 1 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Chocolate Chip Zucchini Muffins",
+        "file": "chocolate-chip-muffins-with-zucchini.md",
+        "message": "Chef's Note is only 0 characters (should be ~150-200). Too brief to explain technique or context."
+      },
+      {
+        "severity": "info",
+        "recipe": "Chocolate Chip Zucchini Muffins",
+        "file": "chocolate-chip-muffins-with-zucchini.md",
+        "message": "Directions have 5 numbered steps but only 6 bold headers. Each step should have a bold header."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Chocolate Crinkle Cookies",
+        "file": "chocolate-crinkle-cookies.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Chocolate Pie",
+        "file": "chocolate-pie.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Chocolate Soufflé",
+        "file": "chocolate-souffle.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Chocolate Vanilla Swirl Layer Cake",
+        "file": "chocolate-vanilla-swirl-layer-cake.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "info",
+        "recipe": "Cilantro Lime Rice",
+        "file": "cilantro-lime-rice.md",
+        "message": "Directions have 4 numbered steps but only 5 bold headers. Each step should have a bold header."
+      },
+      {
+        "severity": "info",
+        "recipe": "Beef Stew",
+        "file": "classic-beef-stew.md",
+        "message": "Directions have 5 numbered steps but only 4 bold headers. Each step should have a bold header."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Classic Carrot Cake",
+        "file": "classic-carrot-cake.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Classic Chocolate Chip Cookies",
+        "file": "classic-chocolate-chip-cookies.md",
+        "message": "Directions have only 1 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Classic Coleslaw",
+        "file": "classic-coleslaw.md",
+        "message": "Directions have only 1 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Classic French Toast",
+        "file": "classic-french-toast.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Classic Manhattan",
+        "file": "classic-manhattan.md",
+        "message": "Chef's Note is only 0 characters (should be ~150-200). Too brief to explain technique or context."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Martini",
+        "file": "classic-martini.md",
+        "message": "Directions have only 1 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "info",
+        "recipe": "Classic Peach Ice Cream",
+        "file": "classic-peach-ice-cream.md",
+        "message": "Directions have 8 numbered steps but only 9 bold headers. Each step should have a bold header."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Classic Wonton Soup",
+        "file": "classic-wonton-soup.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Coconut Chicken Curry",
+        "file": "coconut-chicken-curry.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Coconut Chickpea Curry",
+        "file": "coconut-chickpea-curry.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "info",
+        "recipe": "Coconut Curry Shrimp",
+        "file": "coconut-curry-shrimp.md",
+        "message": "Directions have 3 numbered steps but only 2 bold headers. Each step should have a bold header."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Coconut Jasmine Rice",
+        "file": "coconut-jasmine-rice.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Classic Creamy Coleslaw",
+        "file": "coleslaw.md",
+        "message": "Directions have only 1 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Coq au Vin",
+        "file": "coq-au-vin-slow-cooker-v2.md",
+        "message": "Directions have only 2 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Corn Bread Dressing",
+        "file": "corn-bread-dressing.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Corn Casserole",
+        "file": "corn-casserole.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Corn-Shrimp Dumplings",
+        "file": "corn-shrimp-dumplings.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Cornbread",
+        "file": "cornbread.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "info",
+        "recipe": "Cottage Cheese Banana Oatmeal Protein Pancakes",
+        "file": "cottage-cheese-banana-oatmeal-protein-pancakes.md",
+        "message": "Directions have 6 numbered steps but only 7 bold headers. Each step should have a bold header."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Cranberry Apple Crunch",
+        "file": "cranberry-crunch.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Cranberry Orange Sauce",
+        "file": "cranberry-orange-sauce.md",
+        "message": "Chef's Note is only 92 characters (should be ~150-200). Too brief to explain technique or context."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Cranberry Orange Sauce",
+        "file": "cranberry-orange-sauce.md",
+        "message": "Directions have only 1 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Cream of Mushroom Soup",
+        "file": "cream-of-mushroom-soup.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "info",
+        "recipe": "Avocado Pasta",
+        "file": "creamy-avocado-pasta.md",
+        "message": "Directions have 3 numbered steps but only 5 bold headers. Each step should have a bold header."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Garlicky Shrimp Fettuccine",
+        "file": "creamy-garlicky-shrimp-skillet.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Creamy Polenta",
+        "file": "creamy-polenta.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Whole-Wheat Mac and Cheese",
+        "file": "creamy-whole-wheat-mac-and-cheese.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Crispy Baked Chicken Sliders",
+        "file": "crispy-baked-chicken-sliders.md",
+        "message": "Directions have only 1 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Crispy Black Bean Tacos",
+        "file": "crispy-black-bean-tacos.md",
+        "message": "Directions have only 1 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Crispy Oven Zucchini Fries",
+        "file": "crispy-oven-zucchini-fries.md",
+        "message": "Chef's Note is only 0 characters (should be ~150-200). Too brief to explain technique or context."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Crispy Oven Zucchini Fries",
+        "file": "crispy-oven-zucchini-fries.md",
+        "message": "Directions have only 1 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Crispy Parmesan Roasted Broccoli",
+        "file": "crispy-parmesan-roasted-broccoli.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Sheet Pan Gnocchi & Veggies",
+        "file": "crispy-sheet-pan-gnocchi-and-veggies.md",
+        "message": "Directions have only 2 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "info",
+        "recipe": "Smashed Potatoes",
+        "file": "crispy-smashed-potatoes.md",
+        "message": "Directions have 4 numbered steps but only 5 bold headers. Each step should have a bold header."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Hot Chocolate",
+        "file": "crock-pot-hot-chocolate.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Crockpot Mac and Cheese",
+        "file": "crockpot-mac-and-cheese.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Crockpot Vegetarian Chili",
+        "file": "crockpot-vegetarian-chili.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Crustless Sausage & Spinach Quiche",
+        "file": "crustless-sausage-and-spinach-quiche.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Crustless Spinach & Gruyère Quiche",
+        "file": "crustless-spinach-quiche.md",
+        "message": "Chef's Note is only 83 characters (should be ~150-200). Too brief to explain technique or context."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Crustless Spinach & Gruyère Quiche",
+        "file": "crustless-spinach-quiche.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Cu Chao Mian (Shanghai Fried Noodles)",
+        "file": "cu-chao-mian.md",
+        "message": "Chef's Note is only 45 characters (should be ~150-200). Too brief to explain technique or context."
+      },
+      {
+        "severity": "info",
+        "recipe": "Cu Chao Mian (Shanghai Fried Noodles)",
+        "file": "cu-chao-mian.md",
+        "message": "Directions have 4 numbered steps but only 3 bold headers. Each step should have a bold header."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Cucumber Raita",
+        "file": "cucumber-raita.md",
+        "message": "Chef's Note is only 78 characters (should be ~150-200). Too brief to explain technique or context."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Cucumber Raita",
+        "file": "cucumber-raita.md",
+        "message": "Directions have only 2 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "info",
+        "recipe": "Cucumber Raita",
+        "file": "cucumber-raita.md",
+        "message": "Directions have 2 numbered steps but only 1 bold headers. Each step should have a bold header."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Curried Carrot and Apple Soup",
+        "file": "curried-carrot-and-apple-soup.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Custard Macaroni and Pimento Cheese",
+        "file": "custard-mac-and-pimento-cheese.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "info",
+        "recipe": "Custard Peach Ice Cream",
+        "file": "custard-peach-ice-cream.md",
+        "message": "Directions have 7 numbered steps but only 8 bold headers. Each step should have a bold header."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Dan Dan Noodles",
+        "file": "dan-dan-noodles.md",
+        "message": "Directions have only 2 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "info",
+        "recipe": "Dashi",
+        "file": "dashi-japanese-sea-stock.md",
+        "message": "Directions have 5 numbered steps but only 6 bold headers. Each step should have a bold header."
+      },
+      {
+        "severity": "info",
+        "recipe": "Doc Chey’s Chinese Lo Mein",
+        "file": "doc-cheys-chinese-lomein.md",
+        "message": "Directions have 4 numbered steps but only 3 bold headers. Each step should have a bold header."
+      },
+      {
+        "severity": "info",
+        "recipe": "Double Chocolate Cookies",
+        "file": "double-chocolate-cookies.md",
+        "message": "Directions have 6 numbered steps but only 8 bold headers. Each step should have a bold header."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Double Chocolate Layer Cake",
+        "file": "double-chocolate-layer-cake.md",
+        "message": "Directions have only 1 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Pad Kee Mao",
+        "file": "drunken-noodles-pad-kee-mao.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "info",
+        "recipe": "Turkey Meatballs",
+        "file": "easy-baked-turkey-meatballs.md",
+        "message": "Directions have 4 numbered steps but only 5 bold headers. Each step should have a bold header."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Chia Pudding",
+        "file": "easy-chia-pudding.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Cinnamon French Toast Sticks",
+        "file": "easy-cinnamon-french-toast-sticks.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Pumpkin Pancakes",
+        "file": "easy-homemade-pumpkin-pancakes.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Oreo Truffles",
+        "file": "easy-oreo-truffles.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Overnight Oats",
+        "file": "easy-overnight-oats.md",
+        "message": "Directions have only 1 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Pan-Seared Chicken Breasts",
+        "file": "easy-pan-seared-chicken-breasts.md",
+        "message": "Directions have only 1 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Spinach Gnocchi",
+        "file": "easy-spinach-gnocchi.md",
+        "message": "Directions have only 1 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "info",
+        "recipe": "Spinach Gnocchi",
+        "file": "easy-spinach-gnocchi.md",
+        "message": "Directions have 1 numbered steps but only 0 bold headers. Each step should have a bold header."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Egg Fried Rice",
+        "file": "egg-fried-rice.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Egg in a Hole",
+        "file": "egg-in-a-hole.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "info",
+        "recipe": "Egg Roll in a Bowl",
+        "file": "egg-roll-in-a-bowl.md",
+        "message": "Directions have 5 numbered steps but only 6 bold headers. Each step should have a bold header."
+      },
+      {
+        "severity": "info",
+        "recipe": "Speedy Chinese Eggplant",
+        "file": "eggplant-with-garlic-sauce.md",
+        "message": "Directions have 4 numbered steps but only 3 bold headers. Each step should have a bold header."
+      },
+      {
+        "severity": "info",
+        "recipe": "Elderberry Syrup",
+        "file": "elderberry-syrup.md",
+        "message": "Directions have 5 numbered steps but only 4 bold headers. Each step should have a bold header."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Enchiladas Suizas",
+        "file": "enchiladas-suizas.md",
+        "message": "Chef's Note is only 14 characters (should be ~150-200). Too brief to explain technique or context."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Enchiladas Suizas",
+        "file": "enchiladas-suizas.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Esquites (Mexican Street Corn Salad)",
+        "file": "esquites-mexican-street-corn-salad.md",
+        "message": "Directions have only 1 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Everyday Arugula Salad",
+        "file": "everyday-arugula-salad.md",
+        "message": "Directions have only 2 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "info",
+        "recipe": "Everyday Arugula Salad",
+        "file": "everyday-arugula-salad.md",
+        "message": "Directions have 2 numbered steps but only 1 bold headers. Each step should have a bold header."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Extraordinary Chocolate Chip Cookie",
+        "file": "extraordinary-chocolate-chip-cookie.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Falafel",
+        "file": "falafel.md",
+        "message": "Directions have only 1 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Farfel Muffins",
+        "file": "farfel-muffins.md",
+        "message": "Directions have only 1 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Fattoush Salad",
+        "file": "fattoush-salad.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Cream Cheese Frosting",
+        "file": "favorite-cream-cheese-frosting.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "info",
+        "recipe": "Pumpkin Oatmeal Muffins",
+        "file": "favorite-pumpkin-oatmeal-muffins.md",
+        "message": "Directions have 3 numbered steps but only 2 bold headers. Each step should have a bold header."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Fennel and Carrot Soup",
+        "file": "fennel-and-carrot-soup.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "info",
+        "recipe": "Flourless Chocolate Cake",
+        "file": "flourless-chocolate-cake.md",
+        "message": "Directions have 5 numbered steps but only 7 bold headers. Each step should have a bold header."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Fluffy Scrambled Eggs",
+        "file": "fluffy-scrambled-eggs.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Freezer Banana Bread",
+        "file": "freezer-banana-bread.md",
+        "message": "Chef's Note is only 38 characters (should be ~150-200). Too brief to explain technique or context."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Freezer Date Cookies",
+        "file": "freezer-date-cookies.md",
+        "message": "Chef's Note is only 56 characters (should be ~150-200). Too brief to explain technique or context."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Slow Cooker French Dip Sandwiches",
+        "file": "french-dip-sandwiches.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "French Toast",
+        "file": "french-toast.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "info",
+        "recipe": "Fresh Cabbage, Cucumber and Radish Kimchi",
+        "file": "fresh-cabbage-cucumber-and-radish-kimchi.md",
+        "message": "Directions have 3 numbered steps but only 4 bold headers. Each step should have a bold header."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Egg Pasta",
+        "file": "fresh-egg-pasta.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Pasta Dough",
+        "file": "fresh-pasta-dough.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Strawberry Vinaigrette",
+        "file": "fresh-strawberry-vinaigrette-salad-dressing.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Frozen Blueberry Muffins",
+        "file": "frozen-blueberry-muffins.md",
+        "message": "Chef's Note is only 20 characters (should be ~150-200). Too brief to explain technique or context."
+      },
+      {
+        "severity": "info",
+        "recipe": "Frozen Blueberry Muffins",
+        "file": "frozen-blueberry-muffins.md",
+        "message": "Directions have 4 numbered steps but only 5 bold headers. Each step should have a bold header."
+      },
+      {
+        "severity": "info",
+        "recipe": "Funfetti Cake",
+        "file": "funfetti-cake-from-scratch-and-an-unbirthday.md",
+        "message": "Directions have 9 numbered steps but only 10 bold headers. Each step should have a bold header."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Gambas al Ajillo",
+        "file": "gambas-al-ajillo.md",
+        "message": "Directions have only 2 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Garlic Bread",
+        "file": "garlic-bread.md",
+        "message": "Chef's Note is only 69 characters (should be ~150-200). Too brief to explain technique or context."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Garlic Bread",
+        "file": "garlic-bread.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Garlic Butter Green Beans",
+        "file": "garlic-butter-green-beans.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "info",
+        "recipe": "Garlic Butter Salmon with Potatoes and Asparagus",
+        "file": "garlic-butter-roasted-salmon-with-potatoes-and-asparagus.md",
+        "message": "Directions have 4 numbered steps but only 3 bold headers. Each step should have a bold header."
+      },
+      {
+        "severity": "info",
+        "recipe": "Garlic Butter Shrimp",
+        "file": "garlic-butter-shrimp.md",
+        "message": "Directions have 5 numbered steps but only 4 bold headers. Each step should have a bold header."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Garlic Mashed Red Potatoes",
+        "file": "garlic-mashed-red-potatoes.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Chicken and Potatoes with Garlic Parmesan Cream",
+        "file": "garlic-parmesan-chicken-potatoes.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Toum",
+        "file": "garlic-paste-toum-the-washington-post.md",
+        "message": "Directions have only 2 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "info",
+        "recipe": "Garlic Potatoes",
+        "file": "garlic-roasted-potatoes.md",
+        "message": "Directions have 3 numbered steps but only 4 bold headers. Each step should have a bold header."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Garlic Sauteed Green Beans",
+        "file": "garlic-sauteed-green-beans.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "info",
+        "recipe": "Sigeumchi Namul",
+        "file": "garlic-sesame-spinach.md",
+        "message": "Directions have 3 numbered steps but only 2 bold headers. Each step should have a bold header."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Gefilte Fish Terrine",
+        "file": "gefilte-fish-terrine.md",
+        "message": "Chef's Note is only 38 characters (should be ~150-200). Too brief to explain technique or context."
+      },
+      {
+        "severity": "warning",
+        "recipe": "General Tso's Cauliflower",
+        "file": "general-tsos-cauliflower.md",
+        "message": "Directions have only 2 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "info",
+        "recipe": "General Tso's Tofu",
+        "file": "general-tsos-tofu.md",
+        "message": "Directions have 5 numbered steps but only 4 bold headers. Each step should have a bold header."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Glazed Chicken & Broccoli Sheet Pan Dinner",
+        "file": "glazed-chicken-and-broccoli-sheet-pan-dinner.md",
+        "message": "Directions have only 1 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Gluten-Free Lemon Cupcakes",
+        "file": "gluten-free-lemon-cupcakes.md",
+        "message": "Directions have only 2 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Gnocchi with Zucchini Ribbons & Brown Butter",
+        "file": "gnocchi-with-zucchini-ribbons-and-parsley-brown-butter.md",
+        "message": "Chef's Note is only 54 characters (should be ~150-200). Too brief to explain technique or context."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Golden Veil",
+        "file": "golden-veil.md",
+        "message": "Directions have only 1 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Good Eats Roast Turkey",
+        "file": "good-eats-roast-turkey.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Grandmommy’s Pecan Pie",
+        "file": "grandmommys-pecan-pie.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Grandmommy’s Pound Cake",
+        "file": "grandmommys-pound-cake.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Grandmommy’s Turkey Dressing",
+        "file": "grandmommys-turkey-dressing.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Executive Granola",
+        "file": "granola.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Greek-Style Lamb Burgers",
+        "file": "greek-style-lamb-burgers-with-yogurt-cucumber-sauce.md",
+        "message": "Chef's Note is only 85 characters (should be ~150-200). Too brief to explain technique or context."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Greek-Style Lamb Burgers",
+        "file": "greek-style-lamb-burgers-with-yogurt-cucumber-sauce.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "info",
+        "recipe": "Greek Turkey Meatball Gyro",
+        "file": "greek-turkey-meatball-gyro-with-tzatziki.md",
+        "message": "Directions have 4 numbered steps but only 5 bold headers. Each step should have a bold header."
+      },
+      {
+        "severity": "info",
+        "recipe": "Greek Yogurt Bowl",
+        "file": "greek-yogurt-bowl.md",
+        "message": "Directions have 4 numbered steps but only 3 bold headers. Each step should have a bold header."
+      },
+      {
+        "severity": "info",
+        "recipe": "Green Beans with Shallots & Lemon",
+        "file": "green-beans-with-shallots-and-lemon.md",
+        "message": "Directions have 5 numbered steps but only 6 bold headers. Each step should have a bold header."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Thai Green Curry with Chicken",
+        "file": "green-curry-chicken.md",
+        "message": "Directions have only 2 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Green Smoothie",
+        "file": "green-smoothie-for-kids-with-2-hidden-veggies.md",
+        "message": "Chef's Note is only 3 characters (should be ~150-200). Too brief to explain technique or context."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Green Smoothie",
+        "file": "green-smoothie-for-kids-with-2-hidden-veggies.md",
+        "message": "Directions have only 1 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Grilled Cheese and Tomato Soup",
+        "file": "grilled-cheese-and-tomato-soup.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Pork and Peaches",
+        "file": "grilled-pork-and-peaches.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Grilled Zucchini with Mint",
+        "file": "grilled-zucchini-with-mint.md",
+        "message": "Chef's Note is only 0 characters (should be ~150-200). Too brief to explain technique or context."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Grilled Zucchini with Mint",
+        "file": "grilled-zucchini-with-mint.md",
+        "message": "Directions have only 2 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Guacamole",
+        "file": "guacamole.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Ham & Cheese Green Bean Casserole",
+        "file": "ham-and-cheese-green-bean-casserole.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Ham & Cheese Quiche",
+        "file": "ham-and-cheese-quiche.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Hamantaschen",
+        "file": "hamantaschen.md",
+        "message": "Directions have only 1 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Har Gow (Shrimp Dumplings)",
+        "file": "har-gow-dim-sum-shrimp-dumplings.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Harvest Sheet Pan Gnocchi with Kale",
+        "file": "harvest-sheet-pan-gnocchi-with-crispy-kale.md",
+        "message": "Chef's Note is only 53 characters (should be ~150-200). Too brief to explain technique or context."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Harvest Sheet Pan Gnocchi with Kale",
+        "file": "harvest-sheet-pan-gnocchi-with-crispy-kale.md",
+        "message": "Directions have only 2 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Apple Muffins",
+        "file": "healthy-apple-muffins.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "info",
+        "recipe": "Banana Bread",
+        "file": "healthy-banana-bread.md",
+        "message": "Directions have 4 numbered steps but only 5 bold headers. Each step should have a bold header."
+      },
+      {
+        "severity": "info",
+        "recipe": "Carrot Cake Muffins",
+        "file": "healthy-carrot-cake-muffins-with-cream-cheese-glaze.md",
+        "message": "Directions have 5 numbered steps but only 7 bold headers. Each step should have a bold header."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Heirloom Tomato & Pesto Galette",
+        "file": "heirloom-tomato-pesto-and-ricotta-galette.md",
+        "message": "Directions have only 1 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Herb Pork Tenderloin",
+        "file": "herb-marinated-pork-tenderloins.md",
+        "message": "Directions have only 1 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Herby Chicken Meatball Bowl",
+        "file": "herby-chicken-meatball-bowl.md",
+        "message": "Directions have only 2 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Enchilada Sauce",
+        "file": "homemade-enchilada-sauce.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Naan",
+        "file": "homemade-naan.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Rice Pilaf",
+        "file": "homemade-rice-pilaf.md",
+        "message": "Chef's Note is only 96 characters (should be ~150-200). Too brief to explain technique or context."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Rice Pilaf",
+        "file": "homemade-rice-pilaf.md",
+        "message": "Directions have only 1 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Ketchup",
+        "file": "homemade-sugar-free-ketchup.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Honey Chipotle Lime Chicken Bowls",
+        "file": "honey-chipotle-lime-chicken-bowls.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "info",
+        "recipe": "Honey Garlic Butter Shrimp & Broccoli",
+        "file": "honey-garlic-butter-shrimp-and-broccoli.md",
+        "message": "Directions have 4 numbered steps but only 3 bold headers. Each step should have a bold header."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Honey-Glazed Carrots",
+        "file": "honey-glazed-carrots.md",
+        "message": "Chef's Note is only 22 characters (should be ~150-200). Too brief to explain technique or context."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Honey-Glazed Carrots",
+        "file": "honey-glazed-carrots.md",
+        "message": "Directions have only 2 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Honey-Glazed Spareribs",
+        "file": "honey-glazed-spareribs.md",
+        "message": "Chef's Note is only 9 characters (should be ~150-200). Too brief to explain technique or context."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Honey-Glazed Spareribs",
+        "file": "honey-glazed-spareribs.md",
+        "message": "Directions have only 2 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "info",
+        "recipe": "Honey-Glazed Spareribs",
+        "file": "honey-glazed-spareribs.md",
+        "message": "Directions have 2 numbered steps but only 1 bold headers. Each step should have a bold header."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Honey-Lime Chicken Thighs",
+        "file": "honey-lime-chicken-thighs.md",
+        "message": "Directions have only 1 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "info",
+        "recipe": "Honey-Lime Chicken Thighs",
+        "file": "honey-lime-chicken-thighs.md",
+        "message": "Directions have 1 numbered steps but only 0 bold headers. Each step should have a bold header."
+      },
+      {
+        "severity": "info",
+        "recipe": "Honey Sesame Chicken",
+        "file": "honey-sesame-chicken.md",
+        "message": "Directions have 4 numbered steps but only 3 bold headers. Each step should have a bold header."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Honey Sriracha Salmon Bowls",
+        "file": "honey-sriracha-salmon-bowls.md",
+        "message": "Chef's Note is only 35 characters (should be ~150-200). Too brief to explain technique or context."
+      },
+      {
+        "severity": "info",
+        "recipe": "Honey Sriracha Salmon Bowls",
+        "file": "honey-sriracha-salmon-bowls.md",
+        "message": "Directions have 4 numbered steps but only 3 bold headers. Each step should have a bold header."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Hot and Sour Soup",
+        "file": "hot-and-sour-soup.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Hot Mulled Apple Cider",
+        "file": "hot-mulled-apple-cider.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Frittata",
+        "file": "how-to-make-frittatas-stovetop-or-baked.md",
+        "message": "Directions have only 2 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Instant Pot Baingan Bharta",
+        "file": "instant-pot-baingan-bharta-mashed-spiced-eggplant.md",
+        "message": "Directions have only 1 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Instant Pot Butternut Squash Soup",
+        "file": "instant-pot-butternut-squash-soup.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "info",
+        "recipe": "Instant Pot Potato Leek Soup",
+        "file": "instant-pot-potato-leek-soup.md",
+        "message": "Directions have 3 numbered steps but only 2 bold headers. Each step should have a bold header."
+      },
+      {
+        "severity": "info",
+        "recipe": "Israeli Style Hummus",
+        "file": "israeli-style-hummus.md",
+        "message": "Directions have 6 numbered steps but only 9 bold headers. Each step should have a bold header."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Italian Kale & Sausage Stuffing",
+        "file": "italian-kale-and-sausage-stuffing.md",
+        "message": "Directions have only 1 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Japanese Beef Rice Bowl (Gyudon)",
+        "file": "japanese-beef-rice-bowl-gyudon.md",
+        "message": "Directions have only 2 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Kare Raisu",
+        "file": "japanese-chicken-curry-kare-raisu.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Japanese Cucumber Sunomono",
+        "file": "japanese-cucumber-sunomono.md",
+        "message": "Directions have only 2 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "info",
+        "recipe": "Japanese Eggplant with Chicken & Thai Basil",
+        "file": "japanese-eggplant-with-chicken-and-thai-basil.md",
+        "message": "Directions have 6 numbered steps but only 5 bold headers. Each step should have a bold header."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Japanese Short-Grain Rice (Gohan)",
+        "file": "japanese-short-grain-rice-gohan.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Japanese-Style Trout with Dashi",
+        "file": "japanese-style-trout-with-dashi.md",
+        "message": "Directions have only 1 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "info",
+        "recipe": "Japanese-Style Trout with Dashi",
+        "file": "japanese-style-trout-with-dashi.md",
+        "message": "Directions have 1 numbered steps but only 0 bold headers. Each step should have a bold header."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Japchae (Korean Glass Noodle Stir-Fry)",
+        "file": "japchae-korean-glass-noodle-stir-fry.md",
+        "message": "Directions have only 1 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "info",
+        "recipe": "Jeri's Lentil Soup",
+        "file": "jeris-lentil-soup.md",
+        "message": "Directions have 6 numbered steps but only 7 bold headers. Each step should have a bold header."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Kalbi",
+        "file": "kalbi-grilled-korean-style-short-ribs.md",
+        "message": "Directions have only 2 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Kale Caesar with Crispy Chickpeas",
+        "file": "kale-caesar-with-crispy-chickpeas.md",
+        "message": "Directions have only 2 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Kale Salad with Mango, Avocado and Feta",
+        "file": "kale-salad-with-mango-avocado-and-feta.md",
+        "message": "Chef's Note is only 84 characters (should be ~150-200). Too brief to explain technique or context."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Kale Salad with Mango, Avocado and Feta",
+        "file": "kale-salad-with-mango-avocado-and-feta.md",
+        "message": "Directions have only 1 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Katharine Hepburn’s Brownies",
+        "file": "katharine-hepburns-brownies.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Keto Egg Muffins",
+        "file": "keto-egg-muffins.md",
+        "message": "Directions have only 2 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Key Lime Pie Ice Cream",
+        "file": "key-lime-pie-ice-cream.md",
+        "message": "Chef's Note is only 8 characters (should be ~150-200). Too brief to explain technique or context."
+      },
+      {
+        "severity": "info",
+        "recipe": "Key Lime Pie",
+        "file": "key-lime-pie.md",
+        "message": "Directions have 7 numbered steps but only 8 bold headers. Each step should have a bold header."
+      },
+      {
+        "severity": "info",
+        "recipe": "Korean Gochujang Wings",
+        "file": "korean-gochujang-wings.md",
+        "message": "Directions have 4 numbered steps but only 3 bold headers. Each step should have a bold header."
+      },
+      {
+        "severity": "info",
+        "recipe": "Sukju Namul",
+        "file": "korean-mung-bean-sprouts-salad.md",
+        "message": "Directions have 4 numbered steps but only 3 bold headers. Each step should have a bold header."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Oi Muchim",
+        "file": "korean-pickled-cucumbers.md",
+        "message": "Directions have only 2 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "info",
+        "recipe": "Oi Muchim",
+        "file": "korean-pickled-cucumbers.md",
+        "message": "Directions have 2 numbered steps but only 1 bold headers. Each step should have a bold header."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Korean Style Tacos",
+        "file": "korean-style-tacos-with-kogi-bbq-sauce.md",
+        "message": "Chef's Note is only 47 characters (should be ~150-200). Too brief to explain technique or context."
+      },
+      {
+        "severity": "info",
+        "recipe": "Korean Style Tacos",
+        "file": "korean-style-tacos-with-kogi-bbq-sauce.md",
+        "message": "Directions have 5 numbered steps but only 6 bold headers. Each step should have a bold header."
+      },
+      {
+        "severity": "info",
+        "recipe": "Lemon Basil Shrimp Risotto",
+        "file": "lemon-basil-shrimp-risotto.md",
+        "message": "Directions have 4 numbered steps but only 3 bold headers. Each step should have a bold header."
+      },
+      {
+        "severity": "info",
+        "recipe": "Lemon Broccoli Tortellini",
+        "file": "lemon-broccoli-tortellini.md",
+        "message": "Directions have 4 numbered steps but only 5 bold headers. Each step should have a bold header."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Lemon Chicken Orzo Soup",
+        "file": "lemon-chicken-orzo-soup.md",
+        "message": "Chef's Note is only 13 characters (should be ~150-200). Too brief to explain technique or context."
+      },
+      {
+        "severity": "info",
+        "recipe": "Lemon Chicken Orzo Soup",
+        "file": "lemon-chicken-orzo-soup.md",
+        "message": "Directions have 4 numbered steps but only 3 bold headers. Each step should have a bold header."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Lemon-Garlic Broccolini",
+        "file": "lemon-garlic-broccolini.md",
+        "message": "Directions have only 1 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Lemon-Miso Tofu with Broccoli",
+        "file": "lemon-miso-tofu-with-broccoli.md",
+        "message": "Chef's Note is only 8 characters (should be ~150-200). Too brief to explain technique or context."
+      },
+      {
+        "severity": "info",
+        "recipe": "Lemon-Miso Tofu with Broccoli",
+        "file": "lemon-miso-tofu-with-broccoli.md",
+        "message": "Directions have 5 numbered steps but only 4 bold headers. Each step should have a bold header."
+      },
+      {
+        "severity": "info",
+        "recipe": "Lemon Ricotta Pasta",
+        "file": "lemon-ricotta-pasta.md",
+        "message": "Directions have 3 numbered steps but only 5 bold headers. Each step should have a bold header."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Lime & Honey Glazed Salmon",
+        "file": "lime-and-honey-glazed-salmon-with-warm-black-bean-and-corn-salad.md",
+        "message": "Chef's Note is only 59 characters (should be ~150-200). Too brief to explain technique or context."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Lime & Honey Glazed Salmon",
+        "file": "lime-and-honey-glazed-salmon-with-warm-black-bean-and-corn-salad.md",
+        "message": "Directions have only 2 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "info",
+        "recipe": "Lime & Honey Glazed Salmon",
+        "file": "lime-and-honey-glazed-salmon-with-warm-black-bean-and-corn-salad.md",
+        "message": "Directions have 2 numbered steps but only 1 bold headers. Each step should have a bold header."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Made-In-The-Pan Chocolate Cake",
+        "file": "made-in-the-pan-chocolate-cake.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Mandarin/Pineapple Orange Salad",
+        "file": "mandarinpineapple-organge-salad.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Mango-Rita Green Smoothie",
+        "file": "mango-rita-green-smoothie.md",
+        "message": "Directions have only 1 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Maple-Roasted Sweet Potato Wedges",
+        "file": "maple-roasted-sweet-potato-wedges.md",
+        "message": "Chef's Note is only 82 characters (should be ~150-200). Too brief to explain technique or context."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Bulgogi",
+        "file": "marinated-korean-ribeye.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "info",
+        "recipe": "Master Sushi Rice (Shari)",
+        "file": "master-sushi-rice.md",
+        "message": "Directions have 4 numbered steps but only 3 bold headers. Each step should have a bold header."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Mediterranean Chicken Bowls",
+        "file": "mediterranean-chicken-bowls.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Mediterranean Chicken Thighs",
+        "file": "mediterranean-chicken-thighs.md",
+        "message": "Directions have only 1 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Mediterranean Grain Salad",
+        "file": "mediterranean-grain-salad.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Mediterranean Pinwheels",
+        "file": "mediterranean-pinwheels-vegetarian-appetizer-vegan-and-low-carb-options.md",
+        "message": "Chef's Note is only 18 characters (should be ~150-200). Too brief to explain technique or context."
+      },
+      {
+        "severity": "info",
+        "recipe": "Mediterranean Pinwheels",
+        "file": "mediterranean-pinwheels-vegetarian-appetizer-vegan-and-low-carb-options.md",
+        "message": "Directions have 4 numbered steps but only 5 bold headers. Each step should have a bold header."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Mediterranean Salmon with Lemon-Herb Emulsion",
+        "file": "mediterranean-salmon-with-lemon-herb-emulsion.md",
+        "message": "Directions have only 2 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Melon Daiquiri",
+        "file": "melon-daiquiri.md",
+        "message": "Directions have only 1 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Arroz Rojo",
+        "file": "mexican-red-rice.md",
+        "message": "Chef's Note is only 4 characters (should be ~150-200). Too brief to explain technique or context."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Arroz Rojo",
+        "file": "mexican-red-rice.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Esquites",
+        "file": "mexican-street-corn-salad.md",
+        "message": "Chef's Note is only 97 characters (should be ~150-200). Too brief to explain technique or context."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Esquites",
+        "file": "mexican-street-corn-salad.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Chicken Kabobs",
+        "file": "middle-eastern-style-grilled-chicken-kabobs.md",
+        "message": "Directions have only 1 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "info",
+        "recipe": "Mini-Shell Pasta with Bacon and Peas",
+        "file": "mini-shell-pasta-with-creamy-smoked-bacon-and-peas.md",
+        "message": "Directions have 3 numbered steps but only 5 bold headers. Each step should have a bold header."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Miriam’s Melt-In-Your-Mouth Rosh Hashanah Brisket",
+        "file": "miriams-melt-in-your-mouth-rosh-hashanah-brisket.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Misir Wot (Ethiopian Red Lentil Stew)",
+        "file": "misir-wot.md",
+        "message": "Chef's Note is only 56 characters (should be ~150-200). Too brief to explain technique or context."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Misir Wot (Ethiopian Red Lentil Stew)",
+        "file": "misir-wot.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Miso-Glazed Roasted Cauliflower",
+        "file": "miso-glazed-roasted-cauliflower.md",
+        "message": "Directions have only 1 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "info",
+        "recipe": "Miso-Glazed Roasted Cauliflower",
+        "file": "miso-glazed-roasted-cauliflower.md",
+        "message": "Directions have 1 numbered steps but only 0 bold headers. Each step should have a bold header."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Miso-Mashed Potatoes",
+        "file": "miso-mashed-potatoes.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Miso-Glazed Salmon with Crunchy Bok Choy",
+        "file": "miso-salmon-with-bok-choy.md",
+        "message": "Chef's Note is only 8 characters (should be ~150-200). Too brief to explain technique or context."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Miso-Glazed Salmon with Crunchy Bok Choy",
+        "file": "miso-salmon-with-bok-choy.md",
+        "message": "Directions have only 1 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "info",
+        "recipe": "Miso-Glazed Salmon with Crunchy Bok Choy",
+        "file": "miso-salmon-with-bok-choy.md",
+        "message": "Directions have 1 numbered steps but only 0 bold headers. Each step should have a bold header."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Miso Soup",
+        "file": "miso-soup.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "info",
+        "recipe": "M&M Cookies",
+        "file": "mm-cookies.md",
+        "message": "Directions have 4 numbered steps but only 5 bold headers. Each step should have a bold header."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Chocolate Cake",
+        "file": "moms-famous-chocolate-cake.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Mongolian Beef",
+        "file": "mongolian-beef.md",
+        "message": "Directions have only 2 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "info",
+        "recipe": "Mongolian Beef",
+        "file": "mongolian-beef.md",
+        "message": "Directions have 2 numbered steps but only 1 bold headers. Each step should have a bold header."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Challah",
+        "file": "my-favorite-challah.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Nana’s Biscuits",
+        "file": "nanas-biscuits.md",
+        "message": "Directions have only 2 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Noodle Pudding",
+        "file": "noodle-pudding.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Oatmeal Risotto",
+        "file": "oatmeal-risotto.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "info",
+        "recipe": "Old-Fashioned Strawberry Ice Cream",
+        "file": "old-fashioned-strawberry-ice-cream.md",
+        "message": "Directions have 7 numbered steps but only 10 bold headers. Each step should have a bold header."
+      },
+      {
+        "severity": "info",
+        "recipe": "Old-Fashioned Vanilla Ice Cream",
+        "file": "old-fashioned-vanilla-ice-cream.md",
+        "message": "Directions have 6 numbered steps but only 8 bold headers. Each step should have a bold header."
+      },
+      {
+        "severity": "info",
+        "recipe": "One-Pan Lemon Herb Chicken Thighs",
+        "file": "one-pan-lemon-herb-chicken-thighs.md",
+        "message": "Directions have 4 numbered steps but only 3 bold headers. Each step should have a bold header."
+      },
+      {
+        "severity": "info",
+        "recipe": "One-Pot Chicken Meatballs with Greens",
+        "file": "one-pot-chicken-meatballs-with-greens.md",
+        "message": "Directions have 7 numbered steps but only 8 bold headers. Each step should have a bold header."
+      },
+      {
+        "severity": "warning",
+        "recipe": "One-Pot Chicken, Quinoa, & Mushrooms",
+        "file": "one-pot-chicken-quinoa-mushrooms-and-spinach.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Oreo Chocolate Cream Cheesecake",
+        "file": "oreo-chocolate-cream-cheesecake.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Pad See Ew",
+        "file": "pad-see-ew-thai-stir-fried-noodles.md",
+        "message": "Chef's Note is only 54 characters (should be ~150-200). Too brief to explain technique or context."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Pad See Ew",
+        "file": "pad-see-ew-thai-stir-fried-noodles.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Pad Thai",
+        "file": "pad-thai.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Pad Woon Sen",
+        "file": "pad-woon-sen.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Palak Paneer (Spinach and Paneer Cheese)",
+        "file": "palak-paneer-spinach-paneer-cheese.md",
+        "message": "Directions have only 1 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Pan Fried Noodles with Shrimp",
+        "file": "pan-fried-noodles-with-shrimp.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Panang Curry with Chicken",
+        "file": "panang-curry-with-chicken.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Parmigiano Reggiano Cheesecake",
+        "file": "parmigiano-reggiano-cheesecake.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Pasta with Abruzzi-Style Lamb Sauce",
+        "file": "pasta-with-abruzzi-style-lamb-sauce.md",
+        "message": "Chef's Note is only 25 characters (should be ~150-200). Too brief to explain technique or context."
+      },
+      {
+        "severity": "info",
+        "recipe": "Pasta with Abruzzi-Style Lamb Sauce",
+        "file": "pasta-with-abruzzi-style-lamb-sauce.md",
+        "message": "Directions have 3 numbered steps but only 2 bold headers. Each step should have a bold header."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Patate al Forno",
+        "file": "patate-al-forno.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Peach Pie Biscuit Bombs",
+        "file": "peach-pie-biscuit-bombs.md",
+        "message": "Directions have only 2 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Peach Pie Pancakes",
+        "file": "peach-pie-pancakes.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "info",
+        "recipe": "Peanut Noodles",
+        "file": "peanut-noodles.md",
+        "message": "Directions have 5 numbered steps but only 6 bold headers. Each step should have a bold header."
+      },
+      {
+        "severity": "info",
+        "recipe": "Pear & Spinach Salad",
+        "file": "pear-and-spinach-salad.md",
+        "message": "Directions have 4 numbered steps but only 5 bold headers. Each step should have a bold header."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Peking Duck",
+        "file": "peking-duck-an-easy-home-version.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Cranberry Sauce",
+        "file": "perfect-cranberry-sauce.md",
+        "message": "Directions have only 2 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Mashed Potatoes",
+        "file": "perfect-mashed-potatoes.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Pho Bo (Beef Pho)",
+        "file": "pho-bo-beef-pho.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Pickled Red Onions",
+        "file": "pickled-red-onions.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Pizza Beans",
+        "file": "pizza-beans.md",
+        "message": "Chef's Note is only 43 characters (should be ~150-200). Too brief to explain technique or context."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Pizza",
+        "file": "pizza.md",
+        "message": "Chef's Note is only 2 characters (should be ~150-200). Too brief to explain technique or context."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Pizza",
+        "file": "pizza.md",
+        "message": "Directions have only 1 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Play-Dough",
+        "file": "play-dough.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Poke Bowl Bar (Build-Your-Own)",
+        "file": "poke-bowl-bar.md",
+        "message": "Directions have only 1 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "info",
+        "recipe": "Pressure-Cooker Bolognese",
+        "file": "pressure-cooker-bolognase.md",
+        "message": "Directions have 4 numbered steps but only 3 bold headers. Each step should have a bold header."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Prohibition-Style Gin Lemon Fizz",
+        "file": "prohibition-style-gin-lemon-fizz.md",
+        "message": "Directions have only 1 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Puffy Muffin Chicken Salad",
+        "file": "puffy-muffin-chicken-salad.md",
+        "message": "Directions have only 2 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Pulled Pork",
+        "file": "pulled-pork.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Pumpkin Breakfast Cookies",
+        "file": "pumpkin-breakfast-cookies.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Pumpkin Cheesecake Cookies",
+        "file": "pumpkin-cheesecake-cookies.md",
+        "message": "Chef's Note is only 79 characters (should be ~150-200). Too brief to explain technique or context."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Pumpkin Cheesecake Cookies",
+        "file": "pumpkin-cheesecake-cookies.md",
+        "message": "Directions have only 1 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "info",
+        "recipe": "Quadruple Chocolate Brownies",
+        "file": "quadruple-chocolate-brownies.md",
+        "message": "Directions have 3 numbered steps but only 4 bold headers. Each step should have a bold header."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Queso Fundido with Chorizo",
+        "file": "queso-fundido-with-chorizo.md",
+        "message": "Chef's Note is only 73 characters (should be ~150-200). Too brief to explain technique or context."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Queso Fundido with Chorizo",
+        "file": "queso-fundido-with-chorizo.md",
+        "message": "Directions have only 2 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "info",
+        "recipe": "Drop Biscuits",
+        "file": "quick-and-easy-drop-biscuits.md",
+        "message": "Directions have 5 numbered steps but only 6 bold headers. Each step should have a bold header."
+      },
+      {
+        "severity": "info",
+        "recipe": "Honey Garlic Shrimp and Broccoli",
+        "file": "quick-honey-garlic-shrimp-and-broccoli.md",
+        "message": "Directions have 5 numbered steps but only 6 bold headers. Each step should have a bold header."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Lamb Ragù",
+        "file": "quick-lamb-ragu.md",
+        "message": "Chef's Note is only 83 characters (should be ~150-200). Too brief to explain technique or context."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Lamb Ragù",
+        "file": "quick-lamb-ragu.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Do Chua",
+        "file": "quick-pickled-carrots-and-daikon.md",
+        "message": "Directions have only 2 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Quick-Pickled Cucumber Salad",
+        "file": "quick-pickled-cucumber-salad.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Seasoned Black Beans",
+        "file": "quick-seasoned-black-beans.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Quick Wonton Soup",
+        "file": "quick-wonton-soup.md",
+        "message": "Chef's Note is only 40 characters (should be ~150-200). Too brief to explain technique or context."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Ratatouille",
+        "file": "ratatouille.md",
+        "message": "Directions have only 1 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Alfredo Sauce",
+        "file": "real-alfredo-sauce.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Spaghetti Carbonara",
+        "file": "real-spaghetti-carbonara.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Red Velvet Cupcakes",
+        "file": "red-velvet-cupcakes.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Red Zone Margarita",
+        "file": "red-zone-margarita.md",
+        "message": "Directions have only 2 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "info",
+        "recipe": "Red Zone Margarita",
+        "file": "red-zone-margarita.md",
+        "message": "Directions have 2 numbered steps but only 4 bold headers. Each step should have a bold header."
+      },
+      {
+        "severity": "info",
+        "recipe": "Restaurant-Style Chicken Lo Mein",
+        "file": "restaurant-style-chicken-lo-mein.md",
+        "message": "Directions have 4 numbered steps but only 3 bold headers. Each step should have a bold header."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Coconut Rice",
+        "file": "rich-coconut-rice.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Roast Turkey Breast",
+        "file": "roast-turkey-breast.md",
+        "message": "Directions have only 2 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "info",
+        "recipe": "Roast Turkey Breast",
+        "file": "roast-turkey-breast.md",
+        "message": "Directions have 2 numbered steps but only 1 bold headers. Each step should have a bold header."
+      },
+      {
+        "severity": "info",
+        "recipe": "Asparagus",
+        "file": "roasted-asparagus.md",
+        "message": "Directions have 4 numbered steps but only 5 bold headers. Each step should have a bold header."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Roasted Brussels Sprouts with Balsamic",
+        "file": "roasted-brussels-sprouts-with-balsamic.md",
+        "message": "Chef's Note is only 68 characters (should be ~150-200). Too brief to explain technique or context."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Butternut Squash Mac and Cheese",
+        "file": "roasted-butternut-squash-mac-and-cheese.md",
+        "message": "Directions have only 1 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Corn Chowder with Lime Shrimp",
+        "file": "roasted-corn-chowder-with-lime-cured-shrimp.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "info",
+        "recipe": "Fall Harvest Salad",
+        "file": "roasted-fall-harvest-salad.md",
+        "message": "Directions have 6 numbered steps but only 7 bold headers. Each step should have a bold header."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Green Bean Fries",
+        "file": "roasted-green-bean-fries.md",
+        "message": "Chef's Note is only 68 characters (should be ~150-200). Too brief to explain technique or context."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Green Bean Fries",
+        "file": "roasted-green-bean-fries.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "info",
+        "recipe": "Root Vegetables",
+        "file": "roasted-root-vegetables.md",
+        "message": "Directions have 5 numbered steps but only 6 bold headers. Each step should have a bold header."
+      },
+      {
+        "severity": "info",
+        "recipe": "Tomato Basil Soup",
+        "file": "roasted-tomato-basil-soup.md",
+        "message": "Directions have 6 numbered steps but only 7 bold headers. Each step should have a bold header."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Pork Tenderloin",
+        "file": "rosemary-pork-tenderloin.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Royal Icing",
+        "file": "royal-icing.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Saag Paneer",
+        "file": "saag-paneer.md",
+        "message": "Directions have only 2 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "info",
+        "recipe": "Saag Paneer",
+        "file": "saag-paneer.md",
+        "message": "Directions have 2 numbered steps but only 3 bold headers. Each step should have a bold header."
+      },
+      {
+        "severity": "info",
+        "recipe": "Saffron Cardamom Rice",
+        "file": "saffron-cardamom-rice.md",
+        "message": "Directions have 4 numbered steps but only 3 bold headers. Each step should have a bold header."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Sage Brown Butter Ravioli",
+        "file": "sage-brown-butter-sauce-butternut-squash-ravioli.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Salsa Verde Chicken Casserole",
+        "file": "salsa-verde-chicken-casserole.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "San Marzano Tomato Sauce",
+        "file": "san-marzano-tomato-sauce.md",
+        "message": "Directions have only 1 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Sausage and White Bean Skillet",
+        "file": "sausage-and-white-bean-skillet.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Sausage Breakfast Casserole",
+        "file": "sausage-breakfast-casserole.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Sausage, Shrimp & Quinoa Skillet",
+        "file": "sausage-shrimp-and-quinoa-skillet.md",
+        "message": "Chef's Note is only 50 characters (should be ~150-200). Too brief to explain technique or context."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Sausage, Shrimp & Quinoa Skillet",
+        "file": "sausage-shrimp-and-quinoa-skillet.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "info",
+        "recipe": "Sauteed Mushrooms with Thyme",
+        "file": "sauteed-mushrooms-with-thyme.md",
+        "message": "Directions have 4 numbered steps but only 3 bold headers. Each step should have a bold header."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Savory Oatmeal with Egg",
+        "file": "savory-oatmeal-with-egg.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Sazerac",
+        "file": "sazerac.md",
+        "message": "Chef's Note is only 6 characters (should be ~150-200). Too brief to explain technique or context."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Sazerac",
+        "file": "sazerac.md",
+        "message": "Directions have only 1 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Seafood-Chorizo Tacos",
+        "file": "seafood-chorizo-tacos.md",
+        "message": "Chef's Note is only 45 characters (should be ~150-200). Too brief to explain technique or context."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Seafood-Chorizo Tacos",
+        "file": "seafood-chorizo-tacos.md",
+        "message": "Directions have only 1 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Seared Scallops with Corn & Avocado Relish",
+        "file": "seared-scallops-with-a-corn-bacon-and-avocado-relish.md",
+        "message": "Directions have only 2 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Seasoned Bean Sprouts (Kongnamul Namul)",
+        "file": "seasoned-bean-sprouts.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Smashed Cucumber Salad (Pai Huang Gua)",
+        "file": "sesame-cucumber-salad.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Sesame Roasted Edamame",
+        "file": "sesame-roasted-edamame.md",
+        "message": "Directions have only 1 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Shakshuka",
+        "file": "shakshuka.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Shaved Brussels Sprout Salad",
+        "file": "shaved-brussels-sprout-salad-with-apples-and-pecorino.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Shaved Fennel Citrus Salad",
+        "file": "shaved-fennel-citrus-salad.md",
+        "message": "Directions have only 2 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Sheet Pan Chicken and Broccoli",
+        "file": "sheet-pan-chicken-broccoli.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "info",
+        "recipe": "Sheet Pan Chicken Fajitas",
+        "file": "sheet-pan-chicken-fajitas.md",
+        "message": "Directions have 5 numbered steps but only 6 bold headers. Each step should have a bold header."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Sheet Pan Pineapple Shrimp Tacos",
+        "file": "sheet-pan-pineapple-shrimp-tacos.md",
+        "message": "Directions have only 2 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "info",
+        "recipe": "Sheet Pan Pineapple Shrimp Tacos",
+        "file": "sheet-pan-pineapple-shrimp-tacos.md",
+        "message": "Directions have 2 numbered steps but only 3 bold headers. Each step should have a bold header."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Shrimp & Avocado Summer Rolls",
+        "file": "shrimp-and-avocado-summer-rolls.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Shrimp and Corn Chowder",
+        "file": "shrimp-and-corn-chowder.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "info",
+        "recipe": "Shrimp and Grits",
+        "file": "shrimp-and-grits.md",
+        "message": "Directions have 5 numbered steps but only 6 bold headers. Each step should have a bold header."
+      },
+      {
+        "severity": "info",
+        "recipe": "Shrimp & Mango Tacos",
+        "file": "shrimp-and-mango-tacos.md",
+        "message": "Directions have 3 numbered steps but only 2 bold headers. Each step should have a bold header."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Shrimp & Snow Pea Stir Fry",
+        "file": "shrimp-and-snow-pea-stir-fry.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Shrimp Fettuccine Alfredo",
+        "file": "shrimp-fettuccine-alfredo.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Shrimp Vodka Pasta",
+        "file": "shrimp-vodka-pasta.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Shrimp with Black Bean Sauce",
+        "file": "shrimp-with-black-bean-sauce.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "info",
+        "recipe": "Shrimp with Snow Peas",
+        "file": "shrimp-with-snow-peas.md",
+        "message": "Directions have 7 numbered steps but only 8 bold headers. Each step should have a bold header."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Shrimp Wonton Soup",
+        "file": "shrimp-wonton-soup.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Zucchini Soup",
+        "file": "silky-zucchini-soup.md",
+        "message": "Chef's Note is only 88 characters (should be ~150-200). Too brief to explain technique or context."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Zucchini Soup",
+        "file": "silky-zucchini-soup.md",
+        "message": "Directions have only 2 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Roast Turkey",
+        "file": "simple-roast-turkey.md",
+        "message": "Directions have only 1 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "info",
+        "recipe": "Korean Spinach Salad (Sigeumchi Namul)",
+        "file": "simply-seasoned-korean-spinach-salad.md",
+        "message": "Directions have 4 numbered steps but only 3 bold headers. Each step should have a bold header."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Skillet Biscuits with Berries",
+        "file": "skillet-biscuits-with-berries.md",
+        "message": "Directions have only 1 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Skinny Broccoli Mac & Cheese",
+        "file": "skinny-baked-broccoli-macaroni-and-cheese.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Slow Cooker Cheesy Mushroom Quinoa",
+        "file": "slow-cooker-cheesy-mushroom-quinoa.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Slow Cooker Chicken Noodle Soup",
+        "file": "slow-cooker-chicken-noodle-soup.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Slow Cooker Chicken Ramen with Miso",
+        "file": "slow-cooker-chicken-ramen-with-bok-choy-and-miso.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Slow Cooker Cilantro Lime Chicken",
+        "file": "slow-cooker-cilantro-lime-chicken.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Slow Cooker Korean Beef",
+        "file": "slow-cooker-korean-beef.md",
+        "message": "Chef's Note is only 94 characters (should be ~150-200). Too brief to explain technique or context."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Slow Cooker Korean Beef",
+        "file": "slow-cooker-korean-beef.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "info",
+        "recipe": "Tortellini Soup",
+        "file": "slow-cooker-tortellini-soup.md",
+        "message": "Directions have 4 numbered steps but only 5 bold headers. Each step should have a bold header."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Slow Cooker Vegetable Korma",
+        "file": "slow-cooker-vegetable-korma.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Slow Cooker Lentil Tortilla Soup",
+        "file": "slow-cooker-vegetarian-lentil-tortilla-soup.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Smashed Cucumber Salad",
+        "file": "smashed-cucumber-salad.md",
+        "message": "Directions have only 1 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Smoked Salmon Toast",
+        "file": "smoked-salmon-toast.md",
+        "message": "Directions have only 1 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Spanish Rice and Chickpeas",
+        "file": "smoky-spanish-rice-and-chickpeas.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "info",
+        "recipe": "Soba Noodles with Shiitakes & Tofu",
+        "file": "soba-noodles-with-shiitakes-broccoli-and-tofu.md",
+        "message": "Directions have 6 numbered steps but only 7 bold headers. Each step should have a bold header."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Soft Batch Chocolate Chip Cookies",
+        "file": "soft-batch-chocolate-chip-cookies.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Soy Ginger Dipping Sauce",
+        "file": "soy-ginger-dipping-sauce.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "info",
+        "recipe": "Soy Sauce Butter Pasta with Shrimp",
+        "file": "soy-sauce-butter-pasta-with-shrimp-and-shiitakes.md",
+        "message": "Directions have 4 numbered steps but only 5 bold headers. Each step should have a bold header."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Sun-Dried Tomato Cream Spaghetti",
+        "file": "spaghetti-and-spinach-with-sun-dried-tomato-cream-sauce.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Spaghetti with Tofu Meatballs",
+        "file": "spaghetti-and-tofu-meatballs.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "info",
+        "recipe": "Spaghetti with Clams & Braised Greens",
+        "file": "spaghetti-with-clams-and-braised-greens.md",
+        "message": "Directions have 6 numbered steps but only 7 bold headers. Each step should have a bold header."
+      },
+      {
+        "severity": "info",
+        "recipe": "Spaghetti with Clams",
+        "file": "spaghetti-with-clams.md",
+        "message": "Directions have 8 numbered steps but only 10 bold headers. Each step should have a bold header."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Spanish Rice with Chorizo and Chickpeas",
+        "file": "spanish-rice-chorizo.md",
+        "message": "Directions have only 1 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Butternut Squash Purée",
+        "file": "spiced-butternut-squash-puree.md",
+        "message": "Directions have only 1 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Spiced Coconut Chicken & Rice",
+        "file": "spiced-coconut-chicken-rice.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "info",
+        "recipe": "Peach and Avocado Salad",
+        "file": "spicy-peach-and-avocado-salad.md",
+        "message": "Directions have 5 numbered steps but only 6 bold headers. Each step should have a bold header."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Thai Red Curry Beef",
+        "file": "spicy-thai-red-curry-beef.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Spicy Tuna Roll",
+        "file": "spicy-tuna-roll.md",
+        "message": "Directions have only 2 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Spinach & Mushroom Quiche",
+        "file": "spinach-and-mushroom-quiche.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Spindrift Gin Fizz",
+        "file": "spindrift-gin-fizz.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Starbucks Egg Bites",
+        "file": "starbucks-egg-bites.md",
+        "message": "Chef's Note is only 18 characters (should be ~150-200). Too brief to explain technique or context."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Starbucks Egg Bites",
+        "file": "starbucks-egg-bites.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Steamed Edamame",
+        "file": "steamed-edamame.md",
+        "message": "Chef's Note is only 48 characters (should be ~150-200). Too brief to explain technique or context."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Steamed Edamame",
+        "file": "steamed-edamame.md",
+        "message": "Directions have only 1 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Mussels with Chorizo Broth",
+        "file": "steamed-mussels-chorizo.md",
+        "message": "Chef's Note is only 61 characters (should be ~150-200). Too brief to explain technique or context."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Mussels with Chorizo Broth",
+        "file": "steamed-mussels-chorizo.md",
+        "message": "Directions have only 1 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Noodles with Green Beans",
+        "file": "steamed-noodles-with-green-beans.md",
+        "message": "Directions have only 2 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Steamed White Rice (Short Grain)",
+        "file": "steamed-white-rice.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "info",
+        "recipe": "Steel-Cut Oatmeal",
+        "file": "steel-cut-oatmeal.md",
+        "message": "Directions have 5 numbered steps but only 7 bold headers. Each step should have a bold header."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Steven’s Margaritas",
+        "file": "stevens-margs.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Sticky Miso Salmon Bowls",
+        "file": "sticky-miso-salmon-bowl.md",
+        "message": "Chef's Note is only 94 characters (should be ~150-200). Too brief to explain technique or context."
+      },
+      {
+        "severity": "info",
+        "recipe": "Sticky Miso Salmon Bowls",
+        "file": "sticky-miso-salmon-bowl.md",
+        "message": "Directions have 3 numbered steps but only 4 bold headers. Each step should have a bold header."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Thai Basil Chicken & Eggplant",
+        "file": "stir-fried-chicken-and-eggplant-with-thai-basil.md",
+        "message": "Chef's Note is only 78 characters (should be ~150-200). Too brief to explain technique or context."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Thai Basil Chicken & Eggplant",
+        "file": "stir-fried-chicken-and-eggplant-with-thai-basil.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Shrimp with Snow Peas & Ginger",
+        "file": "stir-fried-shrimp-with-snow-peas-and-ginger.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Stovetop Macaroni & Cheese",
+        "file": "stovetop-macaroni-and-cheese.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Strawberry Orange Jello Salad",
+        "file": "strawberry-congealed-salad.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Strawberry Quinoa Breakfast Bars",
+        "file": "strawberry-quinoa-breakfast-bars.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Strawberry Rhubarb Shortcake",
+        "file": "strawberry-rhubarb-shortcake-with-whipped-mascarpone.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Strawberry Summer Cake",
+        "file": "strawberry-summer-cake.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Strozzapreti with Preserved Lemon & Spinach",
+        "file": "strozzapreti-with-spinach-and-preserved-lemon.md",
+        "message": "Chef's Note is only 4 characters (should be ~150-200). Too brief to explain technique or context."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Strozzapreti with Preserved Lemon & Spinach",
+        "file": "strozzapreti-with-spinach-and-preserved-lemon.md",
+        "message": "Directions have only 1 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Spinach & Ricotta Stuffed Shells",
+        "file": "stuffed-shells-filled-with-spinach-and-ricotta.md",
+        "message": "Directions have only 2 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "info",
+        "recipe": "Spinach & Ricotta Stuffed Shells",
+        "file": "stuffed-shells-filled-with-spinach-and-ricotta.md",
+        "message": "Directions have 2 numbered steps but only 4 bold headers. Each step should have a bold header."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Sugar Cookies",
+        "file": "sugar-cookie.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Sun-Dried Tomato Chicken Orzo",
+        "file": "sun-dried-tomato-chicken-orzo.md",
+        "message": "Directions have only 1 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "info",
+        "recipe": "Sun-Dried Tomato Chicken Pasta",
+        "file": "sun-dried-tomato-pasta-with-chicken-and-mozzarella.md",
+        "message": "Directions have 4 numbered steps but only 6 bold headers. Each step should have a bold header."
+      },
+      {
+        "severity": "info",
+        "recipe": "Sweet and Spicy Spareribs",
+        "file": "sweet-and-spicy-spareribs-with-korean-barbecue-sauce.md",
+        "message": "Directions have 6 numbered steps but only 5 bold headers. Each step should have a bold header."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Sweet Chili Chicken Sliders",
+        "file": "sweet-chili-chicken-sliders.md",
+        "message": "Directions have only 2 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "info",
+        "recipe": "Sweet Chili Chicken Sliders",
+        "file": "sweet-chili-chicken-sliders.md",
+        "message": "Directions have 2 numbered steps but only 1 bold headers. Each step should have a bold header."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Sweet Potato Fries",
+        "file": "sweet-potato-fries.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Potato Latkes",
+        "file": "sweet-potato-latkes.md",
+        "message": "Directions have only 1 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "info",
+        "recipe": "Potato Latkes",
+        "file": "sweet-potato-latkes.md",
+        "message": "Directions have 1 numbered steps but only 0 bold headers. Each step should have a bold header."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Spinach Muffins",
+        "file": "sweet-spinach-muffins.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "info",
+        "recipe": "Szechuan Eggplant & Tofu",
+        "file": "szechuan-eggplant-and-tofu.md",
+        "message": "Directions have 3 numbered steps but only 2 bold headers. Each step should have a bold header."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Weeknight Tacos",
+        "file": "tacos.md",
+        "message": "Directions have only 1 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Tamagoyaki (Japanese Rolled Omelet)",
+        "file": "tamagoyaki-japanese-rolled-omelet.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "info",
+        "recipe": "Thai Basil-Ginger Spritzer",
+        "file": "thai-basil-ginger-spritzer.md",
+        "message": "Directions have 3 numbered steps but only 4 bold headers. Each step should have a bold header."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Thai Red Chicken Curry",
+        "file": "thai-chicken-curry.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Thai Chicken Meatball Soup",
+        "file": "thai-inspired-chicken-meatball-soup.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Thai Mango Salad",
+        "file": "thai-mango-salad.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Belgian Waffles",
+        "file": "the-best-belgian-waffles.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Spinach Lasagna",
+        "file": "the-easiest-spinach-lasagna.md",
+        "message": "Directions have only 1 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Chocolate Mug Cake",
+        "file": "the-moistest-chocolate-mug-cake.md",
+        "message": "Directions have only 1 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "New England Express",
+        "file": "the-new-england-express.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Rice Krispies Treats",
+        "file": "the-original-rice-krispies-treatstm.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Thit Kho (Vietnamese Caramelized Pork)",
+        "file": "thit-kho-vietnamese-caramelized-pork.md",
+        "message": "Directions have only 1 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Three Herb Chicken & Mushrooms",
+        "file": "three-herb-chicken-and-mushrooms.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Heirloom Tomato & Goat Cheese Tart",
+        "file": "tomato-and-goat-cheese-tart.md",
+        "message": "Directions have only 1 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Tomato Cobbler with Cornmeal-Cheddar Biscuits",
+        "file": "tomato-cobbler-with-cornmeal-cheddar-biscuits.md",
+        "message": "Chef's Note is only 79 characters (should be ~150-200). Too brief to explain technique or context."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Tomato Soup",
+        "file": "tomato-soup.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Tuna Poke Bowls",
+        "file": "tuna-poke-bowls.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Turkey Burgers",
+        "file": "turkey-burgers.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Tuscan Spaghetti Squash",
+        "file": "tuscan-spaghetti-squash.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Tzatziki Sauce",
+        "file": "tzatziki-sauce.md",
+        "message": "Chef's Note is only 29 characters (should be ~150-200). Too brief to explain technique or context."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Tzatziki Sauce",
+        "file": "tzatziki-sauce.md",
+        "message": "Directions have only 2 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "info",
+        "recipe": "Tzatziki Sauce",
+        "file": "tzatziki-sauce.md",
+        "message": "Directions have 2 numbered steps but only 1 bold headers. Each step should have a bold header."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Vanilla Earl Grey Overnight Oats",
+        "file": "vanilla-earl-grey-overnight-oats.md",
+        "message": "Chef's Note is only 43 characters (should be ~150-200). Too brief to explain technique or context."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Vanilla Earl Grey Overnight Oats",
+        "file": "vanilla-earl-grey-overnight-oats.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Vegan Caesar Pasta Salad",
+        "file": "vegan-caesar-pasta-salad.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "info",
+        "recipe": "Vegetable Minestrone (Italian Grandmother's Soup)",
+        "file": "vegetable-minestrone.md",
+        "message": "Directions have 3 numbered steps but only 2 bold headers. Each step should have a bold header."
+      },
+      {
+        "severity": "info",
+        "recipe": "Vegetable Green Muffins",
+        "file": "vegetable-muffin.md",
+        "message": "Directions have 5 numbered steps but only 6 bold headers. Each step should have a bold header."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Chicken",
+        "file": "vietnamese-grilled-chicken.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Vietnamese Fresh Spring Rolls (Goi Cuon)",
+        "file": "vietnamese-spring-rolls.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Vieux Carré",
+        "file": "vieux-carre.md",
+        "message": "Directions have only 1 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Veggie Salad",
+        "file": "warm-roasted-veggie-salad-with-maple-dijon-vinaigrette.md",
+        "message": "Directions have only 1 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Spiced Butternut Squash Soup",
+        "file": "warm-spiced-butternut-squash-soup.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Weeknight Paella",
+        "file": "weeknight-paella.md",
+        "message": "Directions have only 1 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "info",
+        "recipe": "Weeknight Paella",
+        "file": "weeknight-paella.md",
+        "message": "Directions have 1 numbered steps but only 0 bold headers. Each step should have a bold header."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Whipped Feta with Honey",
+        "file": "whipped-feta-with-honey.md",
+        "message": "Directions have only 1 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Whiskey Sour",
+        "file": "whiskey-sour.md",
+        "message": "Chef's Note is only 0 characters (should be ~150-200). Too brief to explain technique or context."
+      },
+      {
+        "severity": "warning",
+        "recipe": "White Chicken Chili",
+        "file": "white-chicken-chili.md",
+        "message": "Chef's Note is only 43 characters (should be ~150-200). Too brief to explain technique or context."
+      },
+      {
+        "severity": "warning",
+        "recipe": "White Chicken Chili",
+        "file": "white-chicken-chili.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Whole Spelt Pumpkin Muffins",
+        "file": "whole-spelt-pumpkin-muffins.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Whole-Wheat Fruit Muffins",
+        "file": "whole-wheat-muffins-fruit-nut-or-berry.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Yaki Udon",
+        "file": "yaki-udon.md",
+        "message": "Chef's Note is only 57 characters (should be ~150-200). Too brief to explain technique or context."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Yaki Udon",
+        "file": "yaki-udon.md",
+        "message": "Directions have only 1 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Yellow Cake with Chocolate Frosting",
+        "file": "yellow-cake-with-chocolate-frosting.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Zucchini Herb Fritters",
+        "file": "zucchini-herb-fritters-with-garlic-yogurt.md",
+        "message": "Chef's Note is only 96 characters (should be ~150-200). Too brief to explain technique or context."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Zucchini Herb Fritters",
+        "file": "zucchini-herb-fritters-with-garlic-yogurt.md",
+        "message": "Directions have only 1 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "info",
+        "recipe": "Zucchini Herb Fritters",
+        "file": "zucchini-herb-fritters-with-garlic-yogurt.md",
+        "message": "Directions have 1 numbered steps but only 0 bold headers. Each step should have a bold header."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Zucchini Noodles with Avocado & Shrimp",
+        "file": "zucchini-noodles-with-avocado-pesto-and-shrimp.md",
+        "message": "Chef's Note is only 0 characters (should be ~150-200). Too brief to explain technique or context."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Zucchini Noodles with Avocado & Shrimp",
+        "file": "zucchini-noodles-with-avocado-pesto-and-shrimp.md",
+        "message": "Directions have only 1 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Zuppa Toscana",
+        "file": "zuppa-toscana.md",
+        "message": "Chef's Note is only 0 characters (should be ~150-200). Too brief to explain technique or context."
+      }
+    ],
+    "metadataConsistency": [
+      {
+        "severity": "info",
+        "recipe": "Arugula & Feta Salad with Strawberry Vinaigrette",
+        "file": "arugula-feta-salad.md",
+        "message": "cookingMethods includes \"grill\" but equipment does not. Add grill to equipment list."
+      },
+      {
+        "severity": "info",
+        "recipe": "Chicken Souvlaki",
+        "file": "chicken-souvlaki.md",
+        "message": "cookingMethods includes \"grill\" but equipment does not. Add grill to equipment list."
+      },
+      {
+        "severity": "info",
+        "recipe": "Chicken Thigh Kebabs with Chile-Yogurt Sauce",
+        "file": "chicken-thigh-kebabs-with-chile-yogurt-sauce.md",
+        "message": "cookingMethods includes \"grill\" but equipment does not. Add grill to equipment list."
+      },
+      {
+        "severity": "info",
+        "recipe": "Avocado Pasta",
+        "file": "creamy-avocado-pasta.md",
+        "message": "cookingMethods includes \"grill\" but equipment does not. Add grill to equipment list."
+      },
+      {
+        "severity": "info",
+        "recipe": "Custard Macaroni and Pimento Cheese",
+        "file": "custard-mac-and-pimento-cheese.md",
+        "message": "cookingMethods includes \"grill\" but equipment does not. Add grill to equipment list."
+      },
+      {
+        "severity": "info",
+        "recipe": "Strawberry Vinaigrette",
+        "file": "fresh-strawberry-vinaigrette-salad-dressing.md",
+        "message": "cookingMethods includes \"grill\" but equipment does not. Add grill to equipment list."
+      },
+      {
+        "severity": "info",
+        "recipe": "Toum",
+        "file": "garlic-paste-toum-the-washington-post.md",
+        "message": "cookingMethods includes \"grill\" but equipment does not. Add grill to equipment list."
+      },
+      {
+        "severity": "info",
+        "recipe": "Grapefruit-Basil Gin Fizz",
+        "file": "grapefruit-basil-gin-fizz.md",
+        "message": "cookingMethods includes \"grill\" but equipment does not. Add grill to equipment list."
+      },
+      {
+        "severity": "info",
+        "recipe": "Greek-Style Lamb Burgers",
+        "file": "greek-style-lamb-burgers-with-yogurt-cucumber-sauce.md",
+        "message": "cookingMethods includes \"grill\" but equipment does not. Add grill to equipment list."
+      },
+      {
+        "severity": "info",
+        "recipe": "Grilled Cheese and Tomato Soup",
+        "file": "grilled-cheese-and-tomato-soup.md",
+        "message": "cookingMethods includes \"grill\" but equipment does not. Add grill to equipment list."
+      },
+      {
+        "severity": "info",
+        "recipe": "Chicken with Herbed Corn Salsa",
+        "file": "grilled-chicken-with-herbed-corn-salsa.md",
+        "message": "cookingMethods includes \"grill\" but equipment does not. Add grill to equipment list."
+      },
+      {
+        "severity": "info",
+        "recipe": "Banh Mi",
+        "file": "grilled-pork-banh-mi.md",
+        "message": "cookingMethods includes \"grill\" but equipment does not. Add grill to equipment list."
+      },
+      {
+        "severity": "info",
+        "recipe": "Honey Chipotle Lime Chicken Bowls",
+        "file": "honey-chipotle-lime-chicken-bowls.md",
+        "message": "cookingMethods includes \"grill\" but equipment does not. Add grill to equipment list."
+      },
+      {
+        "severity": "info",
+        "recipe": "Instant Pot Butternut Squash Soup",
+        "file": "instant-pot-butternut-squash-soup.md",
+        "message": "cookingMethods includes \"grill\" but equipment does not. Add grill to equipment list."
+      },
+      {
+        "severity": "info",
+        "recipe": "Kalbi",
+        "file": "kalbi-grilled-korean-style-short-ribs.md",
+        "message": "cookingMethods includes \"grill\" but equipment does not. Add grill to equipment list."
+      },
+      {
+        "severity": "info",
+        "recipe": "Kale Salad with Mango, Avocado and Feta",
+        "file": "kale-salad-with-mango-avocado-and-feta.md",
+        "message": "cookingMethods includes \"grill\" but equipment does not. Add grill to equipment list."
+      },
+      {
+        "severity": "error",
+        "recipe": "Key Lime Pie Ice Cream",
+        "file": "key-lime-pie-ice-cream.md",
+        "message": "dietary includes \"vegetarian\" but ingredients contain meat."
+      },
+      {
+        "severity": "info",
+        "recipe": "Oi Muchim",
+        "file": "korean-pickled-cucumbers.md",
+        "message": "cookingMethods includes \"grill\" but equipment does not. Add grill to equipment list."
+      },
+      {
+        "severity": "info",
+        "recipe": "Mediterranean Chicken Bowls",
+        "file": "mediterranean-chicken-bowls.md",
+        "message": "cookingMethods includes \"grill\" but equipment does not. Add grill to equipment list."
+      },
+      {
+        "severity": "error",
+        "recipe": "Mediterranean Grain Salad",
+        "file": "mediterranean-grain-salad.md",
+        "message": "dietary includes \"gluten-free\" but ingredients contain gluten. Mark as \"contains gluten\" or remove tag."
+      },
+      {
+        "severity": "info",
+        "recipe": "Esquites",
+        "file": "mexican-street-corn-salad.md",
+        "message": "cookingMethods includes \"grill\" but equipment does not. Add grill to equipment list."
+      },
+      {
+        "severity": "info",
+        "recipe": "Chicken Kabobs",
+        "file": "middle-eastern-style-grilled-chicken-kabobs.md",
+        "message": "cookingMethods includes \"grill\" but equipment does not. Add grill to equipment list."
+      },
+      {
+        "severity": "error",
+        "recipe": "Parmigiano Reggiano Cheesecake",
+        "file": "parmigiano-reggiano-cheesecake.md",
+        "message": "dietary includes \"vegetarian\" but ingredients contain meat."
+      },
+      {
+        "severity": "info",
+        "recipe": "Peach Salad with Tomatoes & Beets",
+        "file": "peach-salad-with-tomatoes-and-beets.md",
+        "message": "cookingMethods includes \"grill\" but equipment does not. Add grill to equipment list."
+      },
+      {
+        "severity": "info",
+        "recipe": "Do Chua",
+        "file": "quick-pickled-carrots-and-daikon.md",
+        "message": "cookingMethods includes \"grill\" but equipment does not. Add grill to equipment list."
+      },
+      {
+        "severity": "info",
+        "recipe": "Rice Bowl Station (Buddha Bowls)",
+        "file": "rice-bowl-station-buddha-bowls.md",
+        "message": "cookingMethods includes \"grill\" but equipment does not. Add grill to equipment list."
+      },
+      {
+        "severity": "info",
+        "recipe": "Fall Harvest Salad",
+        "file": "roasted-fall-harvest-salad.md",
+        "message": "cookingMethods includes \"grill\" but equipment does not. Add grill to equipment list."
+      },
+      {
+        "severity": "info",
+        "recipe": "Tomato Basil Soup",
+        "file": "roasted-tomato-basil-soup.md",
+        "message": "cookingMethods includes \"grill\" but equipment does not. Add grill to equipment list."
+      },
+      {
+        "severity": "info",
+        "recipe": "Slow Cooker Chicken Noodle Soup",
+        "file": "slow-cooker-chicken-noodle-soup.md",
+        "message": "cookingMethods includes \"grill\" but equipment does not. Add grill to equipment list."
+      },
+      {
+        "severity": "info",
+        "recipe": "Peach and Avocado Salad",
+        "file": "spicy-peach-and-avocado-salad.md",
+        "message": "cookingMethods includes \"grill\" but equipment does not. Add grill to equipment list."
+      },
+      {
+        "severity": "info",
+        "recipe": "Sweet and Spicy Spareribs",
+        "file": "sweet-and-spicy-spareribs-with-korean-barbecue-sauce.md",
+        "message": "cookingMethods includes \"grill\" but equipment does not. Add grill to equipment list."
+      },
+      {
+        "severity": "info",
+        "recipe": "Tomato Soup",
+        "file": "tomato-soup.md",
+        "message": "cookingMethods includes \"grill\" but equipment does not. Add grill to equipment list."
+      },
+      {
+        "severity": "error",
+        "recipe": "Vegetable Minestrone (Italian Grandmother's Soup)",
+        "file": "vegetable-minestrone.md",
+        "message": "dietary includes \"vegetarian\" but ingredients contain meat."
+      },
+      {
+        "severity": "info",
+        "recipe": "Chicken",
+        "file": "vietnamese-grilled-chicken.md",
+        "message": "cookingMethods includes \"grill\" but equipment does not. Add grill to equipment list."
+      },
+      {
+        "severity": "info",
+        "recipe": "Veggie Salad",
+        "file": "warm-roasted-veggie-salad-with-maple-dijon-vinaigrette.md",
+        "message": "cookingMethods includes \"grill\" but equipment does not. Add grill to equipment list."
+      },
+      {
+        "severity": "info",
+        "recipe": "Spiced Butternut Squash Soup",
+        "file": "warm-spiced-butternut-squash-soup.md",
+        "message": "cookingMethods includes \"grill\" but equipment does not. Add grill to equipment list."
+      }
+    ]
+  }
+}

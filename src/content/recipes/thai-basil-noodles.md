@@ -1,20 +1,33 @@
 ---
 title: Thai Basil Noodles
 aliases:
-  - 'thai-basil-noodles-the-15-minute-wok'
+  - thai-basil-noodles-the-15-minute-wok
 difficulty: easy
-cookingMethods: [fry]
+cookingMethods:
+  - fry
 dietary: []
-occasions: [weeknight, quick-lunch]
-flavorProfile: [spicy, sweet, savory, acidic, umami, herbaceous]
-cuisines: [Thai]
+occasions:
+  - weeknight
+  - quick-lunch
+flavorProfile:
+  - spicy
+  - sweet
+  - savory
+  - acidic
+  - umami
+  - herbaceous
+cuisines:
+  - Thai
 role: main
 vibe: quick
 prepTime: 10 min
 cookTime: 10 min
 totalTime: 20 min
 servings: '4'
-pairsWith: [coconut-jasmine-rice, eggplant-with-garlic-sauce, quick-pickled-carrots-and-daikon]
+pairsWith:
+  - coconut-jasmine-rice
+  - eggplant-with-garlic-sauce
+  - quick-pickled-carrots-and-daikon
 ingredients:
   - 8 oz Wide Dried Rice Noodles
   - 1 tbsp Fish Sauce
@@ -28,12 +41,17 @@ ingredients:
   - '1-3 Thai Bird’s Eye Chilies, minced'
   - '1/2 Bell Pepper, thinly sliced'
   - '1 Fresh Lime, cut into wedges'
+origin: Thailand
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: good
+equipment: []
 ---
 
 ## Chef's Note
 
-This is a high-heat, high-speed meal. The key is the acidity: the heavy, salty sauce (Oyster/Fish/Soy) needs the bright lift of fresh lime juice at the very end to make the flavors pop. Don't crowd the wok—cook the meat until it gets crispy edges for maximum texture.
-
+Pad Kra Pao is Thailand's most popular street food—a fast, pungent stir-fry of holy basil and ground pork that goes from wok to plate in under 10 minutes. The key is very high heat and not stirring too much—let the meat get some color and the basil char slightly before you toss. Serve over rice with a fried egg.
 ## Directions
 
 1.  **Noodles:** Soak rice noodles in hot water for 15-20 minutes until pliable but still firm (al dente). Drain and set aside.

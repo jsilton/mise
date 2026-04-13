@@ -2,23 +2,46 @@
 title: Asian Slaw
 origin: Asian-Fusion
 difficulty: easy
-cookingMethods: [raw, mix]
-dietary: [vegetarian, vegan, gluten-free]
-occasions: [weeknight, bbq, potluck, summer]
-flavorProfile: [acidic, sweet, nutty, umami, fresh]
-cuisines: [Asian-Fusion, Chinese, Japanese]
+cookingMethods:
+  - raw
+  - mix
+dietary:
+  - vegetarian
+occasions:
+  - weeknight
+  - bbq
+  - potluck
+  - summer
+flavorProfile:
+  - acidic
+  - sweet
+  - nutty
+  - umami
+  - fresh
+cuisines:
+  - Asian-Fusion
+  - Chinese
+  - Japanese
 role: side
 vibe: quick
-seasons: [spring, summer, year-round]
+seasons:
+  - spring
+  - summer
+  - year-round
 nutritionalDensity: light
 leftovers: good
-advancePrep: [dressing-up-to-5-days, shred-veg-up-to-1-day]
+advancePrep:
+  - dressing-up-to-5-days
+  - shred-veg-up-to-1-day
 equipment: []
 prepTime: 15 min
 cookTime: 0 min
 totalTime: 15 min
 servings: '6'
-pairsWith: [honey-sesame-chicken, korean-style-tacos-with-kogi-bbq-sauce, slow-cooker-korean-beef]
+pairsWith:
+  - honey-sesame-chicken
+  - korean-style-tacos-with-kogi-bbq-sauce
+  - slow-cooker-korean-beef
 ingredients:
   - '4 cups Green Cabbage, thinly shredded'
   - '2 cups Red Cabbage, thinly shredded'
@@ -27,14 +50,14 @@ ingredients:
   - '1/2 cup Cilantro Leaves, roughly chopped'
   - '1/4 cup Roasted Peanuts, roughly chopped'
   - '1 tbsp Sesame Seeds, toasted'
-  - '3 tbsp Rice Vinegar'
-  - '2 tbsp Soy Sauce or Tamari (for gluten-free)'
-  - '1 tbsp Toasted Sesame Oil'
-  - '1 tbsp Neutral Oil (avocado or grapeseed)'
-  - '1 tbsp Honey or Maple Syrup'
+  - 3 tbsp Rice Vinegar
+  - 2 tbsp Soy Sauce or Tamari (for gluten-free)
+  - 1 tbsp Toasted Sesame Oil
+  - 1 tbsp Neutral Oil (avocado or grapeseed)
+  - 1 tbsp Honey or Maple Syrup
   - '1 tsp Fresh Ginger, grated'
   - '1 clove Garlic, finely grated'
-  - '1/2 tsp Sriracha or Chili Garlic Sauce (optional)'
+  - 1/2 tsp Sriracha or Chili Garlic Sauce (optional)
 ---
 
 ## Chef's Note

@@ -2,36 +2,54 @@
 title: Savory Oatmeal with Egg
 origin: United States
 difficulty: easy
-cookingMethods: [simmer, fry]
-dietary: [vegetarian]
-occasions: [weeknight, comfort-food]
-flavorProfile: [savory, umami, rich]
-cuisines: [American]
+cookingMethods:
+  - simmer
+  - fry
+dietary: []
+occasions:
+  - weeknight
+  - comfort-food
+flavorProfile:
+  - savory
+  - umami
+  - rich
+cuisines:
+  - American
 role: main
 vibe: nutritious
-seasons: [fall, winter, year-round]
+seasons:
+  - fall
+  - winter
+  - year-round
 nutritionalDensity: hearty
 leftovers: poor
 advancePrep: []
-equipment: [saucepan, skillet]
+equipment:
+  - saucepan
+  - skillet
 prepTime: 5 min
 cookTime: 10 min
 totalTime: 15 min
 servings: '2'
-pairsWith: [steel-cut-oatmeal, avocado-toast, shakshuka]
+pairsWith:
+  - steel-cut-oatmeal
+  - avocado-toast
+  - shakshuka
 ingredients:
-  - '1 cup Old-Fashioned Rolled Oats'
-  - '2 cups Water or Low-Sodium Chicken Broth'
-  - '1/2 tsp Kosher Salt'
-  - '2 large Eggs'
-  - '1 tbsp Unsalted Butter'
-  - '1 tbsp Olive Oil'
+  - 1 cup Old-Fashioned Rolled Oats
+  - 2 cups Water or Low-Sodium Chicken Broth
+  - 1/2 tsp Kosher Salt
+  - 2 large Eggs
+  - 1 tbsp Unsalted Butter
+  - 1 tbsp Olive Oil
   - '2 Scallions, thinly sliced (white and green parts separated)'
-  - '1 tsp Soy Sauce or Tamari'
-  - '1/2 tsp Sesame Oil'
-  - 'Red Pepper Flakes'
-  - 'Freshly Ground Black Pepper'
+  - 1 tsp Soy Sauce or Tamari
+  - 1/2 tsp Sesame Oil
+  - Red Pepper Flakes
+  - Freshly Ground Black Pepper
   - 'Optional: shredded cheddar, crumbled bacon, hot sauce, sliced avocado'
+  - '--- Lemon juice ---'
+  - '1 Lemon, juiced'
 ---
 
 ## Chef's Note

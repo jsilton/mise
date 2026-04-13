@@ -1,23 +1,37 @@
 ---
 title: Shrimp Wonton Soup
 difficulty: intermediate
-cookingMethods: [boil, no-cook]
+cookingMethods:
+  - boil
+  - no-cook
 dietary: []
-occasions: [weekend-project, comfort-food, entertaining]
-flavorProfile: [savory, umami]
-cuisines: [Chinese]
+occasions:
+  - weekend-project
+  - comfort-food
+  - entertaining
+flavorProfile:
+  - savory
+  - umami
+cuisines:
+  - Chinese
 role: main
 vibe: technical
 prepTime: 30 min
 cookTime: 10 min
 totalTime: 40 min
 servings: '4'
-seasons: [year-round, winter]
+seasons:
+  - year-round
+  - winter
 nutritionalDensity: moderate
 leftovers: good
-advancePrep: [make-ahead, freeze-ahead]
+advancePrep:
+  - make-ahead
+  - freeze-ahead
 equipment: []
-pairsWith: [steamed-bok-choy-with-oyster-sauce, smashed-cucumber-salad]
+pairsWith:
+  - steamed-bok-choy-with-oyster-sauce
+  - smashed-cucumber-salad
 ingredients:
   - 200g Ground Pork
   - '100g Shrimp, minced'
@@ -29,6 +43,9 @@ ingredients:
   - '[Cantonese Wonton Broth](/mise/recipes/cantonese-wonton-broth)'
   - '1 sheet Nori, shredded'
   - Baby Bok Choy or Spinach
+  - '--- Black vinegar ---'
+  - 1 tbsp Black Vinegar
+origin: China
 ---
 
 ## Chef's Note
@@ -43,3 +60,5 @@ Cantonese wontons rely on a filling that's sticky and cohesive, achieved by stir
 4.  **Boil:** Bring a pot of [Wonton Broth](/mise/recipes/cantonese-wonton-broth) to a boil. Add the wontons. Cook for 3-4 minutes until they float. During the final 1 minute, add the greens.
 5.  **Bind:** Ladle 1 cup of the boiling broth into each serving bowl to "wake up" the seasonings.
 6.  **Serve:** Transfer wontons and greens to the bowls. Garnish with fresh coriander and serve immediately.
+
+

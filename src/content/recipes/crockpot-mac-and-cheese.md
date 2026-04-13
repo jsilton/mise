@@ -3,30 +3,47 @@ title: Crockpot Mac and Cheese
 role: side
 vibe: comfort
 difficulty: easy
-cuisines: [American]
-occasions: [entertaining, game-day, potluck]
-dietary: [vegetarian]
-cookingMethods: [slow-cooker]
-flavorProfile: [savory, rich]
+cuisines:
+  - American
+occasions:
+  - entertaining
+  - game-day
+  - potluck
+dietary:
+  - vegetarian
+cookingMethods:
+  - slow-cooker
+flavorProfile:
+  - savory
+  - rich
 prepTime: 20 min
-cookTime: 2 hours
-totalTime: 2 hours 20 min
-servings: '8-10'
-equipment: [slow-cooker]
+cookTime: 2 hr
+totalTime: 2 hr 20 min
+servings: 8-10
+equipment:
+  - slow-cooker
 ingredients:
-  - 1 pound elbow pasta (uncooked, regular—not quick-cook)
+  - '1 pound elbow pasta (uncooked, regular—not quick-cook)'
   - 2½ cups whole milk
   - 12 ounces evaporated milk (one can)
-  - 12 ounces extra-sharp cheddar, freshly shredded (about 3 cups)
-  - 4 ounces American cheese, shredded (about 1 cup—from the deli, not slices)
+  - '12 ounces extra-sharp cheddar, freshly shredded (about 3 cups)'
+  - '4 ounces American cheese, shredded (about 1 cup—from the deli, not slices)'
   - 1 teaspoon kosher salt
   - ½ teaspoon black pepper
   - ½ teaspoon dry mustard
   - ¼ teaspoon garlic powder
   - Pinch of cayenne pepper
-  - 4 tablespoons unsalted butter, cubed
-pairsWith: [pulled-pork, honey-lime-chicken-thighs]
-advancePrep: [none]
+  - '4 tablespoons unsalted butter, cubed'
+pairsWith:
+  - pulled-pork
+  - honey-lime-chicken-thighs
+advancePrep:
+  - none
+origin: United States
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: good
 ---
 
 ## Chef's Note

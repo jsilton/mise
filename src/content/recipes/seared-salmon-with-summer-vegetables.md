@@ -1,22 +1,36 @@
 ---
 title: Seared Salmon with Summer Vegetables
 difficulty: easy
-cookingMethods: [sauté, simmer]
+cookingMethods:
+  - sauté
+  - simmer
 dietary: []
-occasions: [date-night, entertaining, light-and-fresh]
-seasons: [summer]
+occasions:
+  - date-night
+  - entertaining
+  - light-and-fresh
+seasons:
+  - summer
 nutritionalDensity: moderate
 leftovers: poor
-equipment: [large-skillet, saucepan]
-flavorProfile: [acidic, rich]
-cuisines: [American]
+equipment:
+  - large-skillet
+  - saucepan
+flavorProfile:
+  - acidic
+  - rich
+cuisines:
+  - American
 role: main
 vibe: quick
 prepTime: 20 min
 cookTime: 20 min
 totalTime: 40 min
 servings: '6'
-pairsWith: [avocado-kale-caesar-salad, green-beans-with-shallots-and-lemon, cinnamon-sweet-potatoes]
+pairsWith:
+  - avocado-kale-caesar-salad
+  - green-beans-with-shallots-and-lemon
+  - cinnamon-sweet-potatoes
 ingredients:
   - '1 lb Center-cut Salmon, sliced into 6 strips'
   - 1/3 cup Balsamic Vinegar
@@ -27,6 +41,7 @@ ingredients:
   - 2 cups Fresh Corn kernels
   - '1 Red Onion, thinly sliced'
   - 3 cloves Garlic
+origin: United States
 ---
 
 ## Chef's Note

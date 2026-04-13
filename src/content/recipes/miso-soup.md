@@ -1,24 +1,42 @@
 ---
 title: Miso Soup
 difficulty: easy
-cookingMethods: [simmer, boil]
-dietary: [vegetarian]
-occasions: [weeknight, quick-lunch]
-flavorProfile: [sweet, savory, umami]
-cuisines: [Japanese]
+cookingMethods:
+  - simmer
+  - boil
+dietary:
+  - vegetarian
+occasions:
+  - weeknight
+  - quick-lunch
+flavorProfile:
+  - sweet
+  - savory
+  - umami
+cuisines:
+  - Japanese
 role: base
 vibe: quick
 prepTime: 5 min
 cookTime: 10 min
 totalTime: 15 min
 servings: '4'
-pairsWith: [yaki-udon, lemon-miso-tofu-with-broccoli, miso-salmon-with-bok-choy]
+pairsWith:
+  - yaki-udon
+  - lemon-miso-tofu-with-broccoli
+  - miso-salmon-with-bok-choy
 ingredients:
-  - '4 cups Dashi (homemade or use 1 tsp Hon-Dashi powder in 4 cups water)'
-  - '3 tbsp Shiro Miso (White Miso)'
+  - 4 cups Dashi (homemade or use 1 tsp Hon-Dashi powder in 4 cups water)
+  - 3 tbsp Shiro Miso (White Miso)
   - '4 oz Silken Tofu, cut into small cubes'
-  - '1 tbsp Dried Wakame Seaweed'
+  - 1 tbsp Dried Wakame Seaweed
   - '2 Green Onions, thinly sliced'
+origin: Japan
+seasons:
+  - year-round
+nutritionalDensity: light
+leftovers: good
+equipment: []
 ---
 
 ## Chef's Note
@@ -32,3 +50,4 @@ Miso soup is a miracle of **Emulsion and Timing**. The most common mistake is bo
 3.  **The Miso:** Place the miso paste in a small bowl. Ladle in about 1/2 cup of the hot broth. Whisk until the miso is completely smooth and liquid.
 4.  **Finish:** **Turn off the heat.** Stir the miso liquid back into the pot.
 5.  **Serve:** Add the green onions and serve immediately in small bowls.
+

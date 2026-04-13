@@ -1,22 +1,40 @@
 ---
 title: Tuscan Spaghetti Squash
 difficulty: intermediate
-cookingMethods: [bake, roast, fry, sauté, simmer]
-dietary: [vegetarian]
-occasions: [weeknight, comfort-food, meal-prep]
-seasons: [fall, winter, year-round]
+cookingMethods:
+  - bake
+  - roast
+  - fry
+  - sauté
+  - simmer
+dietary: []
+occasions:
+  - weeknight
+  - comfort-food
+  - meal-prep
+seasons:
+  - fall
+  - winter
+  - year-round
 nutritionalDensity: hearty
 leftovers: good
 equipment: []
-flavorProfile: [savory, umami, rich, herbaceous, smoky]
-cuisines: [Italian]
+flavorProfile:
+  - savory
+  - umami
+  - rich
+  - herbaceous
+  - smoky
+cuisines:
+  - Italian
 role: main
-vibe: quick
+vibe: comfort
 prepTime: 10 min
 cookTime: 45 min
 totalTime: 55 min
 servings: '4'
-pairsWith: [garlic-bread]
+pairsWith:
+  - garlic-bread
 ingredients:
   - 1 large Spaghetti Squash
   - '4 slices Smoked Bacon, chopped'
@@ -28,12 +46,12 @@ ingredients:
   - 'Fresh Basil, chopped (The Finishing Touch)'
   - Extra-Virgin Olive Oil
   - Salt and Black Pepper
+origin: Italy
 ---
 
 ## Chef's Note
 
-This is a modern American creation that takes Tuscan flavors (bacon, cream, tomatoes, spinach) and applies them to spaghetti squash, a New World vegetable. Spaghetti squash is native to Mexico and Central America, and the variety we eat today was popularized in Japan and brought to North America in the 1930s. It became trendy in the 2000s as a low-carb pasta substitute. The trick is roasting it cut-side down so moisture doesn't pool in the hollow - this keeps the strands firmer. Tossing the squash in bacon fat and cream transforms it from a sad diet food into something genuinely delicious.
-
+Spaghetti squash strands are a vegetable base for light sauces—they stay tender and separate instead of turning mushy like pasta. The Tuscan profile is garlic, tomato, and basil, with perhaps a bit of cream. The squash cooks in the oven first, then gets tossed with warm sauce so it drinks in the flavor without becoming wet.
 ## Directions
 
 1.  **Roast Squash:** Preheat oven to 400°F. Halve squash, rub with oil, and roast flesh-side down for 40-45 minutes until fork-tender.

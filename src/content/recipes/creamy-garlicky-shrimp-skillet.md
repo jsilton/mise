@@ -1,22 +1,39 @@
 ---
 title: Garlicky Shrimp Fettuccine
 difficulty: easy
-cookingMethods: [roast, sauté, simmer, boil]
+cookingMethods:
+  - roast
+  - sauté
+  - simmer
+  - boil
 dietary: []
-occasions: [weeknight, quick-lunch, date-night]
-flavorProfile: [sweet, umami, rich, herbaceous, smoky]
-cuisines: [Italian]
+occasions:
+  - weeknight
+  - quick-lunch
+  - date-night
+flavorProfile:
+  - sweet
+  - umami
+  - rich
+  - herbaceous
+  - smoky
+cuisines:
+  - Italian
 role: main
 vibe: quick
 prepTime: 10 min
 cookTime: 15 min
 totalTime: 25 min
 servings: '4'
-seasons: [year-round]
+seasons:
+  - year-round
 nutritionalDensity: moderate
 leftovers: good
-equipment: [large-skillet]
-pairsWith: [avocado-kale-caesar-salad, garlic-bread]
+equipment:
+  - large-skillet
+pairsWith:
+  - avocado-kale-caesar-salad
+  - garlic-bread
 ingredients:
   - '1 lb Shrimp, peeled and deveined (tails removed)'
   - 12 oz Dry Fettuccine
@@ -29,12 +46,12 @@ ingredients:
   - 1/2 cup Reserved Pasta Water
   - '1 tbsp Fresh Parsley, chopped'
   - Salt and Black Pepper
+origin: Italy
 ---
 
 ## Chef's Note
 
-This is an Italian-American cream sauce pasta with shrimp, popular in red sauce Italian restaurants from the 1980s onward. The key is not overcooking the shrimp - sear them briefly until just pink, then remove them while you build the sauce. Pasta water is essential here: its starch helps the cream and Parmesan emulsify into a stable, glossy sauce that coats the fettuccine rather than separating into greasy pools. The roasted red peppers add sweetness and a hint of smoke that balances the rich garlic and cream. Smoked paprika reinforces that flavor.
-
+Shrimp in garlicky cream is Italian comfort food that tastes fancier than it is. The entire dish lives in a 6-minute window: shrimp go from raw to overcooked in 90 seconds, so have everything prepped and ready. The garlic blooms in butter first, then the shrimp go in just until pink, and the cream finishes off heat so it doesn't break.
 ## Directions
 
 1.  **Boil:** Cook fettuccine in salted water for 1 minute **less** than package directions. **Reserve 1/2 cup of pasta water** before draining.

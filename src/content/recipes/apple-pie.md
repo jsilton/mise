@@ -1,24 +1,45 @@
 ---
 title: Apple Pie
 origin: USA
-difficulty: easy
-cookingMethods: [bake, sauté, boil, steam, blend]
-dietary: [vegetarian]
-occasions: [holiday, entertaining, weekend-project, comfort-food]
-seasons: [fall, winter]
+difficulty: intermediate
+cookingMethods:
+  - bake
+  - sauté
+  - boil
+  - steam
+  - blend
+dietary:
+  - vegetarian
+occasions:
+  - holiday
+  - entertaining
+  - weekend-project
+  - comfort-food
+seasons:
+  - fall
+  - winter
 nutritionalDensity: hearty
 leftovers: excellent
-advancePrep: [make-ahead]
+advancePrep:
+  - make-ahead
 equipment: []
-flavorProfile: [sweet, acidic, rich]
-cuisines: [American]
+flavorProfile:
+  - sweet
+  - acidic
+  - rich
+cuisines:
+  - American
 role: dessert
 vibe: technical
 prepTime: 90 min
 cookTime: 50 min
-totalTime: 4 hours
+totalTime: 4 hr
 servings: '8'
-pairsWith: []
+pairsWith:
+  - apple-cider-cream-pie
+  - blackout-chocolate-cake
+  - classic-peach-ice-cream
+  - cranberry-crunch
 ingredients:
   - 2 1/2 cups All-Purpose Flour
   - '14 tbsp Unsalted Butter, ice cold and cubed'

@@ -1,16 +1,29 @@
 ---
 title: Strawberry Summer Cake
 difficulty: intermediate
-cookingMethods: [bake, roast]
-dietary: [vegetarian]
-occasions: [entertaining, summer, weekend-project]
-seasons: [summer]
+cookingMethods:
+  - bake
+  - roast
+dietary:
+  - vegetarian
+occasions:
+  - entertaining
+  - summer
+  - weekend-project
+seasons:
+  - summer
 nutritionalDensity: hearty
 leftovers: excellent
-equipment: [cake-pan, stand-mixer]
-advancePrep: [make-ahead]
-flavorProfile: [sweet, rich]
-cuisines: [American]
+equipment:
+  - cake-pan
+  - stand-mixer
+advancePrep:
+  - make-ahead
+flavorProfile:
+  - sweet
+  - rich
+cuisines:
+  - American
 role: dessert
 vibe: technical
 prepTime: 15 min
@@ -27,12 +40,17 @@ ingredients:
   - 1/2 cup Whole Milk
   - 1 tsp Pure Vanilla Extract
   - 1/2 tsp Sea Salt
+origin: United States
+pairsWith:
+  - apple-cider-cream-pie
+  - apple-pie
+  - babys-first-smash-cake
+  - best-cinnamon-roll-recipe-cinnabon-copycat
 ---
 
 ## Chef's Note
 
-This is a beautiful summer dessert cake showcasing fresh strawberries. The secret is arranging the strawberries cut-side down in a single, tight layer over the entire surface of the batter. As the cake bakes, the strawberries sink slightly and release their juices, creating a jammy texture while the exposed edges caramelize. Sprinkling extra sugar over the raw berries creates a crackly, crystalline finish that defines this dish.
-
+This is a justifiably fussy cake—the batter is thin (meant to be), fresh strawberries sink and weep during baking (meant to), and the magic is in the temperature adjustment midway (lowering heat prevents a hard top while the fruit releases its juice). The result is something between cake and cobbler, tender crumb shot through with caramelized strawberry juice.
 ## Directions
 
 1.  **Cream:** Preheat oven to 350°F. Butter a 9-inch deep-dish pie pan (mandatory for volume). Beat butter and 1 cup sugar for 3 minutes until pale and fluffy.

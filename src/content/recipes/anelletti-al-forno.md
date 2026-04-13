@@ -1,25 +1,42 @@
 ---
 title: Anelletti Al Forno
 aliases:
-  - 'anelletti-al-forno-the-sicilian-pasta-bake'
+  - anelletti-al-forno-the-sicilian-pasta-bake
 difficulty: easy
-cookingMethods: [bake, fry, sauté, simmer, boil]
+cookingMethods:
+  - bake
+  - fry
+  - sauté
+  - simmer
+  - boil
 dietary: []
-occasions: [weekend-project, entertaining, potluck, holiday]
-flavorProfile: [umami]
-cuisines: [Italian]
+occasions:
+  - weekend-project
+  - entertaining
+  - potluck
+  - holiday
+flavorProfile:
+  - umami
+cuisines:
+  - Italian
 role: main
 vibe: technical
 prepTime: 45 min
-cookTime: 3 hours
-totalTime: 4 hours
+cookTime: 3 hr
+totalTime: 4 hr
 servings: '8'
-seasons: [year-round, fall, winter]
+seasons:
+  - year-round
+  - fall
+  - winter
 nutritionalDensity: hearty
 leftovers: excellent
-advancePrep: [make-ahead]
+advancePrep:
+  - make-ahead
 equipment: []
-pairsWith: [everyday-arugula-salad, garlic-bread]
+pairsWith:
+  - everyday-arugula-salad
+  - garlic-bread
 ingredients:
   - 2 lbs Anelletti Pasta (or small rings/ditalini)
   - 1/2 lb Ground Beef + 1/2 lb Ground Pork
@@ -36,6 +53,7 @@ ingredients:
   - '12 oz Provolone or Caciocavallo, cubed'
   - '1/2 cup Parmesan, grated'
   - '4 Hard-boiled Eggs, chopped (traditional)'
+origin: Italy
 ---
 
 ## Chef's Note
@@ -44,7 +62,7 @@ Anelletti al Forno is a traditional Sicilian pasta bake, often served on special
 
 ## Directions
 
-1.  **The Ragu:** Sauté the carrot, celery, and onion in oil until soft (15 mins). Brown the beef and pork. Deglaze with red wine. Stir in tomato paste, tomatoes, cinnamon, and nutmeg. Simmer on **LOW** for 2 hours until thick and dark. Stir in peas at the end.
+1.  **The Ragu:** Sauté the carrot, celery, and onion in oil cook until golden brown and softened (15 mins). Brown the beef and pork. Deglaze with red wine. Stir in tomato paste, tomatoes, cinnamon, and nutmeg. Simmer on **LOW** for 2 hours until thick and dark. Stir in peas at the end.
 2.  **The Eggplant:** Salt eggplant cubes for 30 mins, rinse, and pat dry. Fry in 1 inch of oil until deep golden. Drain on paper towels.
 3.  **The Pasta:** Boil anelletti in salted water until **very al dente** (2 minutes less than package). Drain.
 4.  **Toss:** In a massive bowl, toss the pasta with 4 cups of the ragu and the fried eggplant.

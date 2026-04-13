@@ -1,19 +1,36 @@
 ---
 title: Classic Carrot Cake
 aliases:
-  - 'mercer-street-carrot-cake-the-brown-butter-upgrade'
+  - mercer-street-carrot-cake-the-brown-butter-upgrade
 difficulty: intermediate
-cookingMethods: [bake, boil, no-cook]
-dietary: [vegetarian]
-occasions: [holiday, entertaining, weekend-project, indulgent]
-seasons: [year-round]
+cookingMethods:
+  - bake
+  - boil
+  - no-cook
+dietary:
+  - vegetarian
+occasions:
+  - holiday
+  - entertaining
+  - weekend-project
+  - indulgent
+seasons:
+  - year-round
 nutritionalDensity: hearty
 leftovers: excellent
-equipment: [cake-pans, stand-mixer, grater]
-advancePrep: [make-ahead]
-pairsWith: [favorite-cream-cheese-frosting]
-flavorProfile: [sweet, rich]
-cuisines: [American]
+equipment:
+  - cake-pans
+  - stand-mixer
+  - grater
+advancePrep:
+  - make-ahead
+pairsWith:
+  - favorite-cream-cheese-frosting
+flavorProfile:
+  - sweet
+  - rich
+cuisines:
+  - American
 role: dessert
 vibe: technical
 prepTime: 30 min
@@ -39,6 +56,7 @@ ingredients:
   - '1 stick Butter, softened'
   - 4 cups Powdered Sugar
   - 2 tsp Vanilla Extract
+origin: United States
 ---
 
 ## Chef's Note
@@ -47,7 +65,7 @@ This Mercer Street classic is elevated using Stella Parks' (Bravetart) brown but
 
 ## Directions
 
-1.  **Brown the Butter:** Melt the 2/3 cup butter in a pan until the solids turn dark brown and smell nutty. Cool to room temperature.
+1.  **Brown high heat (400-450°F) the Butter:** Melt the 2/3 cup butter in a pan until the solids turn dark brown and smell nutty. Cool to room temperature.
 2.  **Bake:** Whisk the brown butter with eggs, carrots, and sugar. Fold in the dry ingredients. Pour into two 8-inch greased pans. Bake at 350°F for 25-30 minutes.
 3.  **The Syrup:** Boil the apple, sugar, and water for 5 minutes. Strain and discard solids. **Brush the warm syrup** over the warm cake layers immediately after removing them from the pans.
 4.  **Frosting:** Beat the cream cheese and butter until smooth. Add powdered sugar and vanilla.

@@ -1,19 +1,27 @@
 ---
 title: Guacamole
 difficulty: intermediate
-cookingMethods: []
+cookingMethods:
+  - no-cook
 dietary: []
-occasions: [entertaining, summer]
-flavorProfile: [spicy, sweet, acidic]
-cuisines: [Mexican]
+occasions:
+  - entertaining
+  - summer
+flavorProfile:
+  - spicy
+  - sweet
+  - acidic
+cuisines:
+  - Mexican
 role: condiment
 vibe: quick
 prepTime: 10 min
 cookTime: 0 min
-totalTime: 70 min
-servings: '4'
+totalTime: 10 min
 pairsWith:
-  [korean-style-tacos-with-kogi-bbq-sauce, seafood-chorizo-tacos, sheet-pan-pineapple-shrimp-tacos]
+  - korean-style-tacos-with-kogi-bbq-sauce
+  - seafood-chorizo-tacos
+  - sheet-pan-pineapple-shrimp-tacos
 ingredients:
   - 3 ripe Haas Avocados
   - '1 large Lime, juiced (The Acid Balance)'
@@ -25,6 +33,12 @@ ingredients:
   - 1/2 tsp Kosher Salt
   - 1/2 tsp Ground Cumin
   - 1/2 tsp Cayenne Pepper
+origin: Mexico
+seasons:
+  - year-round
+nutritionalDensity: light
+leftovers: good
+equipment: []
 ---
 
 ## Chef's Note

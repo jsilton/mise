@@ -1,12 +1,8 @@
 {
+  "_deprecated": true,
+  "_reason": "Removed 2026-04-12: generic 'pat dry' advice fires on every seared recipe. Already covered by core cooking principles in CLAUDE.md.",
   "id": "kb.maillard-note",
-  "title": "Maillard note: dry surface for browning",
-  "category": "Technique",
-  "severity": "hint",
-  "description": "If recipe relies on searing/browning, remind authors to dry the surface and avoid overcrowding pans to enable Maillard browning.",
-  "detection": [
-    { "type": "method_presence", "words": ["sear", "pan-fry", "fry", "brown", "searing"] }
-  ],
-  "suggestionTemplate": "For better browning, pat proteins dry and avoid overcrowding the pan; use a hot pan and enough fat to reach Maillard temperatures.",
-  "examples": []
+  "title": "DEPRECATED — Maillard note",
+  "severity": "disabled",
+  "detection": []
 }

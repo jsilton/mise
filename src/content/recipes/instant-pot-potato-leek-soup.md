@@ -1,18 +1,28 @@
 ---
 title: Instant Pot Potato Leek Soup
 difficulty: easy
-cookingMethods: [sauté, steam, blend]
+cookingMethods:
+  - sauté
+  - steam
+  - blend
 dietary: []
-occasions: [comfort-food]
-flavorProfile: [sweet, rich]
-cuisines: [French]
+occasions:
+  - comfort-food
+flavorProfile:
+  - sweet
+  - rich
+cuisines:
+  - French
 role: main
 vibe: comfort
 prepTime: 20 min
 cookTime: 22 min
 totalTime: 42 min
 servings: '6'
-pairsWith: [sweet-and-white-potato-gratin, tarragon-potatoes, garlic-bread]
+pairsWith:
+  - sweet-and-white-potato-gratin
+  - tarragon-potatoes
+  - garlic-bread
 ingredients:
   - '1 lb Yukon Gold Potatoes, cubed (Skin-off)'
   - '5 cups Leeks, cleaned and sliced (pale green parts only)'
@@ -26,6 +36,12 @@ ingredients:
   - 1 Fresh Bay Leaf
   - Salt and White Pepper
   - Sour Cream and Fresh Chives
+origin: France
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: good
+equipment: []
 ---
 
 ## Chef's Note
@@ -34,7 +50,7 @@ This modern update to my Grandpa's recipe achieves silky texture by sautéing le
 
 ## Directions
 
-1.  **The Sweat:** Set Instant Pot to "Sauté." Add butter and olive oil. Once hot, add leeks and sauté for 5-7 minutes until soft. Do not brown.
+1.  **The Sweat:** Set Instant Pot to "Sauté." Add butter and olive oil. Once hot, add leeks and sauté for 5-7 minutes cook until golden brown and softened. Do not brown.
 2.  **Aromatics:** Add garlic and sauté for 30 seconds. Sprinkle the flour over the leeks and stir for 1 minute to cook out the raw starch taste.
 3.  **Deglaze:** Pour in the broth slowly, scraping the bottom of the pot to ensure no flour sticks.
 4.  **Pressure:** Add potatoes, bay leaf, nutmeg, salt, and pepper. Secure the lid. Set to **High Pressure for 7 minutes**.
@@ -42,3 +58,4 @@ This modern update to my Grandpa's recipe achieves silky texture by sautéing le
 6.  **The Emulsion:** Remove the bay leaf. Use an immersion blender to puree the soup directly in the pot until perfectly smooth.
 7.  **Finish:** Stir in the half-and-half. Taste and adjust salt if needed.
 8.  **Serve:** Garnish with a dollop of sour cream and fresh chives for **Textural Balance**.
+

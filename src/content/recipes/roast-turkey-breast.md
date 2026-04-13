@@ -1,18 +1,26 @@
 ---
 title: Roast Turkey Breast
 difficulty: easy
-cookingMethods: [bake, roast]
+cookingMethods:
+  - bake
+  - roast
 dietary: []
-occasions: [holiday]
-flavorProfile: [rich]
-cuisines: [American]
+occasions:
+  - holiday
+flavorProfile:
+  - rich
+cuisines:
+  - American
 role: main
 vibe: holiday
 prepTime: 10 min
 cookTime: 60 min
 totalTime: 70 min
 servings: '8'
-pairsWith: [cinnamon-sweet-potatoes, garlic-mashed-red-potatoes, glazed-carrots]
+pairsWith:
+  - cinnamon-sweet-potatoes
+  - garlic-mashed-red-potatoes
+  - glazed-carrots
 ingredients:
   - '1 (4-5 lb) Turkey Breast, skin-on'
   - '2 tbsp Unsalted Butter, melted'
@@ -20,6 +28,12 @@ ingredients:
   - 1 tsp Kosher Salt
   - 1 tsp Black Pepper
   - Fresh Rosemary or Thyme sprigs
+origin: United States
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: good
+equipment: []
 ---
 
 ## Chef's Note

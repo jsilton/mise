@@ -1,27 +1,43 @@
 ---
 title: Steamed Edamame
 difficulty: easy
-cookingMethods: [steam, boil]
-dietary: [vegetarian, vegan, gluten-free]
-occasions: [weeknight, appetizer, snack]
-flavorProfile: [savory, umami]
-cuisines: [Japanese]
+cookingMethods:
+  - steam
+  - boil
+dietary:
+  - vegetarian
+  - vegan
+  - gluten-free
+occasions:
+  - weeknight
+  - appetizer
+  - snack
+flavorProfile:
+  - savory
+  - umami
+cuisines:
+  - Japanese
 role: side
 vibe: quick
 prepTime: 2 min
 cookTime: 5 min
 totalTime: 7 min
 servings: '4'
-seasons: [year-round]
+seasons:
+  - year-round
 nutritionalDensity: light
 leftovers: good
 equipment: []
-pairsWith: [miso-salmon-with-bok-choy, honey-sriracha-salmon-bowls, pad-thai]
+pairsWith:
+  - miso-salmon-with-bok-choy
+  - honey-sriracha-salmon-bowls
+  - pad-thai
 ingredients:
   - 1 lb Frozen Edamame (in pods)
   - 1 tsp Flaky Sea Salt (Maldon or similar)
   - 1/2 tsp Toasted Sesame Oil (optional)
   - 1/4 tsp Red Pepper Flakes (optional)
+origin: Japan
 ---
 
 ## Chef's Note

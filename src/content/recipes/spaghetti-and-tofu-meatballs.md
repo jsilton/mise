@@ -1,23 +1,40 @@
 ---
 title: Spaghetti with Tofu Meatballs
 difficulty: intermediate
-cookingMethods: [bake, roast, sauté]
+cookingMethods:
+  - bake
+  - roast
+  - sauté
 dietary: []
-occasions: [weekend-project, meal-prep, kids-approved]
-flavorProfile: [savory, acidic, umami, herbaceous]
-cuisines: [Italian]
+occasions:
+  - weekend-project
+  - meal-prep
+  - kids-approved
+flavorProfile:
+  - savory
+  - acidic
+  - umami
+  - herbaceous
+cuisines:
+  - Italian
 role: main
 vibe: nutritious
 prepTime: 15 min
 cookTime: 30 min
 totalTime: 45 min
 servings: '6'
-seasons: [year-round]
+seasons:
+  - year-round
 nutritionalDensity: moderate
 leftovers: excellent
-advancePrep: [make-ahead, freeze-ahead]
-equipment: [sheet-pan]
-pairsWith: [garlic-bread, avocado-kale-caesar-salad]
+advancePrep:
+  - make-ahead
+  - freeze-ahead
+equipment:
+  - sheet-pan
+pairsWith:
+  - garlic-bread
+  - avocado-kale-caesar-salad
 ingredients:
   - '3 lbs Extra-firm Tofu, pressed bone-dry'
   - '3/4 cup Walnuts, ground'
@@ -31,6 +48,9 @@ ingredients:
   - '1 Green Pepper, chopped'
   - '3 cloves Garlic, minced'
   - 1 1/2 tsp Dried Basil + 3/4 tsp Oregano
+  - '--- Lemon juice ---'
+  - '1-2 Lemons, juiced'
+origin: Italy
 ---
 
 ## Chef's Note
@@ -39,10 +59,11 @@ Vegetarian "meatballs" have been made with nuts and grains for centuries, though
 
 ## Directions
 
-1.  **Foundation:** In a large skillet, sauté onion, carrot, pepper, and garlic in olive oil for 10 minutes until soft. Let cool slightly.
+1.  **Foundation:** In a large skillet, sauté onion, carrot, pepper, and garlic in olive oil for 10 minutes cook until golden brown and softened. Let cool slightly.
 2.  **The Base:** In a massive bowl, crumble the pressed tofu with your hands until it looks like ground meat.
 3.  **Emulsify:** Add the eggs, breadcrumbs, walnuts, herbs, mustard, sesame oil, and soy sauce to the tofu.
 4.  **Combine:** Add the sautéed vegetables. Mix vigorously with your hands until a sticky, uniform dough forms.
 5.  **Shape:** Form into 1.5-inch balls. Arrange on an oiled baking sheet.
 6.  **Bake:** Bake at 350°F for 20-30 minutes, flipping once, until the exterior is deep brown and "Snappy."
 7.  **Serve:** Add the meatballs to your favorite [Roasted Tomato Sauce](/mise/recipes/roasted-tomato-basil-soup) and serve over [Fresh Egg Pasta](/mise/recipes/fresh-egg-pasta).
+

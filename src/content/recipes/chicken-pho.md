@@ -2,18 +2,31 @@
 title: Phở Gà
 origin: Vietnam
 difficulty: easy
-cookingMethods: [roast, simmer, boil, no-cook]
+cookingMethods:
+  - roast
+  - simmer
+  - boil
+  - no-cook
 dietary: []
-occasions: [comfort-food]
-flavorProfile: [spicy, sweet, rich, herbaceous]
-cuisines: [Vietnamese]
+occasions:
+  - comfort-food
+flavorProfile:
+  - spicy
+  - sweet
+  - rich
+  - herbaceous
+cuisines:
+  - Vietnamese
 role: main
 vibe: comfort
 prepTime: 20 min
-cookTime: 3 hours
-totalTime: 3.5 hours
+cookTime: 3 hr
+totalTime: 3.5 hr
 servings: '6'
-pairsWith: [quick-pickled-carrots-and-daikon, coconut-jasmine-rice, roasted-fall-harvest-salad]
+pairsWith:
+  - quick-pickled-carrots-and-daikon
+  - coconut-jasmine-rice
+  - roasted-fall-harvest-salad
 ingredients:
   - '1 Whole Chicken (3.5 lbs), quartered'
   - 2 lbs Chicken Wings or Backs (for extra gelatin)
@@ -29,11 +42,17 @@ ingredients:
   - 1 lb Dried Rice Sticks (Bánh Phở)
   - 'Bean Sprouts, Thai Basil, Lime Wedges, Jalapeños'
   - Hoisin and Sriracha
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: poor
+equipment: []
 ---
 
 ## Chef's Note
 
 The secret to a golden, aromatic Chicken Pho is the **Char**. You must roast the onions and ginger until they are blackened and softened; this provides the smoky, sweet backbone of the broth. We use a combination of a whole chicken (for meat) and extra wings (for gelatin) to achieve that lip-smacking richness. Unlike beef pho, chicken pho should be lighter and cleaner—don't over-boil, just a gentle simmer.
+For kids, serve the heat on the side or reduce/omit the spicy elements.
 
 ## Directions
 
@@ -45,3 +64,5 @@ The secret to a golden, aromatic Chicken Pho is the **Char**. You must roast the
 6.  **Finish:** Strain the broth through a fine-mesh sieve. Discard solids. Stir in the fish sauce, sugar, and salt. Adjust to your palate.
 7.  **Noodles:** Soak rice sticks in warm water for 20 minutes, then flash-boil for 1 minute just before serving.
 8.  **Assemble:** Place noodles in deep bowls. Top with shredded chicken and hot broth. Serve with a plate of fresh herbs, sprouts, and lime.
+
+**Rest:** Let Whole Chicken rest for 10 minutes before slicing or serving — the juices redistribute and every piece stays moist.

@@ -1,0 +1,59 @@
+TECHNIQUE INDEX BUILD SUMMARY
+=============================
+
+Created: scripts/technique-index.mjs
+Output Files:
+  - src/knowledge/technique-index.json (99KB)
+  - src/knowledge/technique-recipe-map.md (85KB)
+
+STATISTICS
+==========
+Techniques Indexed: 8
+Total Recipes Analyzed: 598
+Recipes Matched: 516 (86.3% coverage)
+
+TECHNIQUE BREAKDOWN
+===================
+1. Wok Hei (Breath of the Wok)          498 recipes
+2. Butter Finish (Monter au Beurre)     486 recipes
+3. Braising (Low and Slow)              481 recipes
+4. Pasta Water Emulsification           480 recipes
+5. Velveting (Chinese Protein Prep)     430 recipes
+6. Brining (Wet and Dry)                303 recipes
+7. Sushi-Zu (Sushi Vinegar Ratio)        81 recipes
+8. The Dam Method (Sushi Rolling)        41 recipes
+
+INSIGHTS
+========
+- Most recipes demonstrate multiple core techniques
+- Wok-hei, butter finishing, and braising are foundational to the collection
+- Pasta water and velveting are heavily represented (high-leverage techniques)
+- Sushi techniques have limited representation (specialty skill)
+- 82 recipes (13.7%) don't match any indexed technique keywords
+  (likely specialty recipes or non-technique-based dishes)
+
+MATCHING ALGORITHM
+==================
+The script identifies technique usage by:
+1. Checking cookingMethods field for technique keywords
+2. Scanning directions for technique terminology
+3. Searching ingredients for technique-specific ingredients
+
+Keywords extracted from:
+- Technique filename (kebab-case segments)
+- Technique content (common culinary terms)
+- Common variations of each technique name
+
+USAGE
+=====
+Run script: node scripts/technique-index.mjs
+
+The script runs from the mise root directory and regenerates both output files.
+Useful for maintaining the index as recipes are added or updated.
+
+NEXT STEPS
+==========
+- Monitor underrepresented techniques (sushi methods only have 41 and 81 recipes)
+- Consider expanding sushi technique examples
+- Use JSON index for programmatic recipe discovery by technique
+- Reference markdown for human-readable cross-reference documentation

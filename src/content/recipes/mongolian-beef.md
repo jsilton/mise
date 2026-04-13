@@ -1,32 +1,49 @@
 ---
 title: Mongolian Beef
 difficulty: easy
-cookingMethods: [fry, simmer]
+cookingMethods:
+  - fry
+  - simmer
 dietary: []
-occasions: [weeknight, meal-prep, comfort-food]
-flavorProfile: [sweet, savory, umami]
-cuisines: [Chinese]
+occasions:
+  - weeknight
+  - meal-prep
+  - comfort-food
+flavorProfile:
+  - sweet
+  - savory
+  - umami
+cuisines:
+  - Chinese
 role: main
 vibe: quick
 prepTime: 15 min
 cookTime: 10 min
 totalTime: 25 min
 servings: '4'
-seasons: [year-round]
+seasons:
+  - year-round
 nutritionalDensity: hearty
 leftovers: excellent
-equipment: [wok]
-pairsWith: [basmati-rice, steamed-broccoli, garlic-sesame-spinach]
+equipment:
+  - wok
+pairsWith:
+  - basmati-rice
+  - steamed-broccoli
+  - garlic-sesame-spinach
 ingredients:
-  - '1.5 lbs Flank Steak, sliced very thin against the grain (or chicken thighs/breast)'
+  - >-
+    1.5 lbs Flank Steak, sliced very thin against the grain (or chicken
+    thighs/breast)
   - 1/4 cup Cornstarch (for velveting)
   - 1/2 cup Soy Sauce
   - 1/2 cup Brown Sugar
   - '1 tbsp Fresh Ginger, grated'
   - '3 cloves Garlic, minced'
   - '1 cup Green Onions, cut into 2-inch lengths'
-  - 5 Dried Red Chilies (optional, for heat)
+  - '5 Dried Red Chilies (optional, for heat)'
   - Neutral Oil for frying
+origin: China
 ---
 
 ## Chef's Note
@@ -34,6 +51,7 @@ ingredients:
 Mongolian beef is a Chinese-American restaurant creation (nothing to do with Mongolia). The key is coating protein slices in cornstarch and searing them at extreme heat until crispy-edged. The ginger-heavy glaze should be thick enough to coat the meat without pooling. Green onions add color and mild bite. Velveting with cornstarch keeps the protein tender while creating texture.
 
 **Chicken Variation:** Substitute 1.5 lbs chicken thighs or breast, sliced 1/4-inch thick. Double-dredge for extra crispiness: coat in cornstarch, let sit 5 minutes until absorbed, then dredge again before frying. Cook 1-2 minutes per side.
+For kids, serve the heat on the side or reduce/omit the spicy elements.
 
 ## Directions
 

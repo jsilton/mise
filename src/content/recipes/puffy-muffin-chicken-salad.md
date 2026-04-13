@@ -1,23 +1,38 @@
 ---
 title: Puffy Muffin Chicken Salad
 difficulty: easy
-cookingMethods: [roast, boil, poach]
+cookingMethods:
+  - roast
+  - boil
+  - poach
 dietary: []
-occasions: [quick-lunch, meal-prep, potluck]
-seasons: [year-round]
+occasions:
+  - quick-lunch
+  - meal-prep
+  - potluck
+seasons:
+  - year-round
 nutritionalDensity: moderate
 leftovers: excellent
-equipment: [large-pot]
-advancePrep: [make-ahead]
-flavorProfile: [acidic, rich]
-cuisines: [American]
+equipment:
+  - large-pot
+advancePrep:
+  - make-ahead
+flavorProfile:
+  - acidic
+  - rich
+cuisines:
+  - American
 role: side
 vibe: nutritious
 prepTime: 10 min
 cookTime: 15 min
 totalTime: 25 min
 servings: '4'
-pairsWith: [avocado-toast, healthy-carrot-cake-muffins-with-cream-cheese-glaze, jeris-lentil-soup]
+pairsWith:
+  - avocado-toast
+  - healthy-carrot-cake-muffins-with-cream-cheese-glaze
+  - jeris-lentil-soup
 ingredients:
   - 2 cups Chicken Tenders (about 1 lb)
   - '1/2 cup Celery, finely diced'
@@ -27,12 +42,12 @@ ingredients:
   - 1 tbsp Fresh Lemon Juice (The Acid Balance)
   - 1/2 tsp Sea Salt
   - 1/4 tsp Black Pepper
+origin: United States
 ---
 
 ## Chef's Note
 
-This is a classic recipe for satisfying lunch fuel. The technique is poaching the chicken tenders and then manually pulling them into shreds while warm. This ensures maximum surface area for the mayonnaise to bind to, resulting in a rich, cohesive salad. Using quartered grapes and finely diced celery provides necessary crisp texture that cuts through the rich mayo. Always add a hit of fresh lemon for brightness.
-
+Chicken salad with puffed muffins is a comfort food combo—creamy, chicken-based filling inside a tender, slightly sweet muffin. The muffin base matters: too dense and it overwhelms the filling; too light and it falls apart. Use a standard muffin recipe, then fill and bake so the muffin bakes around the filling rather than being stuffed afterward.
 ## Directions
 
 1.  **Poach:** Bring a pot of salted water to a gentle boil. Add chicken tenders and cook for 8-10 minutes until just cooked through. Drain and let cool for 5 minutes.

@@ -1,46 +1,60 @@
 ---
 title: Carnitas Bowl
 difficulty: intermediate
-cookingMethods: [braise, roast]
+cookingMethods:
+  - braise
+  - roast
 dietary: []
-occasions: [entertaining, meal-prep, weekend-project]
-flavorProfile: [savory, acidic, smoky, rich]
-cuisines: [Mexican]
+occasions:
+  - entertaining
+  - meal-prep
+  - weekend-project
+flavorProfile:
+  - savory
+  - acidic
+  - smoky
+  - rich
+cuisines:
+  - Mexican
 role: main
 vibe: technical
 prepTime: 20 min
-cookTime: 3.5 hours
-totalTime: 4 hours
+cookTime: 3.5 hr
+totalTime: 4 hr
 servings: '6'
 pairsWith:
-  [
-    cilantro-lime-rice,
-    pickled-red-onions,
-    quick-seasoned-black-beans,
-    chipotle-pork-and-sweet-corn-tamale-bowls,
-  ]
+  - cilantro-lime-rice
+  - pickled-red-onions
+  - quick-seasoned-black-beans
+  - chipotle-pork-and-sweet-corn-tamale-bowls
 ingredients:
-  - 3 lbs Pork Shoulder, cut into 2-inch chunks
+  - '3 lbs Pork Shoulder, cut into 2-inch chunks'
   - 1 tbsp Kosher Salt
-  - 1 Orange, quartered
-  - 1 Yellow Onion, quartered
-  - 4 cloves Garlic, smashed
+  - '1 Orange, quartered'
+  - '1 Yellow Onion, quartered'
+  - '4 cloves Garlic, smashed'
   - 2 Bay Leaves
   - 1 Cinnamon Stick
   - 2 tbsp Vegetable Oil
   - '[Cilantro Lime Rice](/mise/recipes/cilantro-lime-rice)'
   - '[Seasoned Black Beans](/mise/recipes/quick-seasoned-black-beans)'
   - '[Pickled Red Onions](/mise/recipes/pickled-red-onions)'
-  - 2 ears Corn, charred and cut off cob
+  - '2 ears Corn, charred and cut off cob'
   - 1/4 cup Mayo
   - 1/4 cup Sour Cream
-  - 1/2 cup Cotija Cheese, crumbled
+  - '1/2 cup Cotija Cheese, crumbled'
   - 1 tsp Ancho Chile Powder
-  - 2 cups Green Cabbage, shredded
-  - 2 Avocados, sliced
-  - 1/4 cup Pepitas, toasted
+  - '2 cups Green Cabbage, shredded'
+  - '2 Avocados, sliced'
+  - '1/4 cup Pepitas, toasted'
   - Fresh Cilantro
-  - 2 Limes, cut into wedges
+  - '2 Limes, cut into wedges'
+origin: Mexico
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: excellent
+equipment: []
 ---
 
 ## Chef's Note

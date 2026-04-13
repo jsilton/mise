@@ -1,18 +1,32 @@
 ---
 title: Tomato Cobbler with Cornmeal-Cheddar Biscuits
 difficulty: intermediate
-cookingMethods: [bake, roast, sauté, simmer, steam, blend]
-dietary: [vegetarian]
-occasions: [comfort-food]
-flavorProfile: [sweet, acidic, rich]
-cuisines: [Southern]
+cookingMethods:
+  - bake
+  - roast
+  - sauté
+  - simmer
+  - steam
+  - blend
+dietary:
+  - vegetarian
+occasions:
+  - comfort-food
+flavorProfile:
+  - sweet
+  - acidic
+  - rich
+cuisines:
+  - Southern
 role: main
 vibe: comfort
 prepTime: 20 min
 cookTime: 60 min
 totalTime: 80 min
 servings: '8'
-pairsWith: [cornbread, nanas-biscuits]
+pairsWith:
+  - cornbread
+  - nanas-biscuits
 ingredients:
   - '4 lbs Cherry Tomatoes, whole'
   - '2 Red Onions, thinly sliced'
@@ -24,12 +38,17 @@ ingredients:
   - '1 1/2 cups Sharp Cheddar, shredded'
   - 1 cup Whole Buttermilk
   - 1 tbsp Baking Powder
+origin: United States
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: good
+equipment: []
 ---
 
 ## Chef's Note
 
-This is all about contrasting textures. The secret is deeply caramelizing the onions: we sauté the red onions for a full 20 minutes until they become a sweet, jammy paste _before_ adding the cherry tomatoes. This creates a rich base that holds the whole tomatoes in suspension. The cornmeal in the biscuits provides a gritty crunch that contrasts the velvety tomatoes. The red wine provides the acidity needed to cut the rich cheddar crust.
-
+Tomato cobbler is a Southern riff on savory fruit cobblers, where long-caramelized onions create depth and cherry tomatoes collapse into a jammy, bittersweet sauce. The cornmeal-cheddar biscuits are pure Southern technique—cornmeal for texture and corn flavor, shredded cheddar for savory richness, and buttermilk for tang that bridges sweet fruit and cheese.
 ## Directions
 
 1.  **Reduction:** In a massive skillet, sauté onions in oil for 20 minutes until mahogany brown. Add garlic and wine; simmer until the wine has vanished.

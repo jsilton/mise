@@ -1,11 +1,18 @@
 ---
 title: Steven’s Margaritas
 difficulty: easy
-cookingMethods: []
-dietary: [vegetarian]
-occasions: [entertaining, summer]
-flavorProfile: [acidic, smoky]
-cuisines: [Mexican]
+cookingMethods:
+  - smoke
+dietary:
+  - vegetarian
+occasions:
+  - entertaining
+  - summer
+flavorProfile:
+  - acidic
+  - smoky
+cuisines:
+  - Mexican
 role: drink
 vibe: quick
 prepTime: 5 min
@@ -19,6 +26,17 @@ ingredients:
   - 1 squirt Agave Syrup
   - Pinch of Smoked Sea Salt (The complex flavor)
   - Lime wedge for garnish
+origin: Mexico
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: good
+equipment: []
+pairsWith:
+  - carnitas-bowl
+  - chili
+  - chipotle-pork-and-sweet-corn-tamale-bowls
+  - crispy-black-bean-tacos
 ---
 
 ## Chef's Note

@@ -1,29 +1,46 @@
 ---
 title: Coconut Jasmine Rice
 difficulty: easy
-cookingMethods: [boil, simmer]
-dietary: [vegetarian, vegan, gluten-free]
-occasions: [weeknight, meal-prep]
-flavorProfile: [sweet, rich, aromatic]
-cuisines: [Thai, Southeast-Asian]
+cookingMethods:
+  - boil
+  - simmer
+dietary:
+  - vegetarian
+  - gluten-free
+occasions:
+  - weeknight
+  - meal-prep
+flavorProfile:
+  - sweet
+  - rich
+  - aromatic
+cuisines:
+  - Thai
+  - Southeast-Asian
 role: base
 vibe: quick
 prepTime: 5 min
 cookTime: 20 min
 totalTime: 25 min
 servings: '6'
-seasons: [year-round]
+seasons:
+  - year-round
 nutritionalDensity: moderate
 leftovers: excellent
 equipment: []
-pairsWith: [thai-chicken-curry, coconut-curry-shrimp, steamed-broccoli, garlic-sesame-spinach]
+pairsWith:
+  - thai-chicken-curry
+  - coconut-curry-shrimp
+  - steamed-broccoli
+  - garlic-sesame-spinach
 ingredients:
   - 2 cups Jasmine Rice
   - 1 can (13.5 oz) Coconut Milk (full-fat)
   - 1.5 cups Water
   - 1 tsp Kosher Salt
-  - 1 tbsp Sugar (optional, for extra richness)
-  - 2 Pandan Leaves (optional, for authentic aroma)
+  - '1 tbsp Sugar (optional, for extra richness)'
+  - '2 Pandan Leaves (optional, for authentic aroma)'
+origin: Thailand
 ---
 
 ## Chef's Note

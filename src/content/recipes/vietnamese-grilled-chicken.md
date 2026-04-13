@@ -2,18 +2,28 @@
 title: Chicken
 origin: Vietnam
 difficulty: easy
-cookingMethods: [grill]
+cookingMethods:
+  - grill
 dietary: []
-occasions: [summer, light-and-fresh]
-flavorProfile: [spicy, sweet, acidic]
-cuisines: [Vietnamese]
+occasions:
+  - summer
+  - light-and-fresh
+flavorProfile:
+  - spicy
+  - sweet
+  - acidic
+cuisines:
+  - Vietnamese
 role: main
 vibe: nutritious
 prepTime: 15 min
 cookTime: 10 min
 totalTime: 40 min
 servings: '4'
-pairsWith: [mexican-street-corn-salad, arugula-feta-salad, avocado-kale-caesar-salad]
+pairsWith:
+  - mexican-street-corn-salad
+  - arugula-feta-salad
+  - avocado-kale-caesar-salad
 ingredients:
   - 1.5 lbs Boneless Skinless Chicken Thighs
   - 2 tbsp Fish Sauce
@@ -24,6 +34,13 @@ ingredients:
   - '3 cloves Garlic, minced'
   - '1 tbsp Ginger, grated'
   - 1 tsp Red Chili Flakes
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: good
+equipment: []
+advancePrep:
+  - marinate-overnight
 ---
 
 ## Chef's Note

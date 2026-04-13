@@ -1,18 +1,26 @@
 ---
 title: Chicken Souvlaki
 difficulty: easy
-cookingMethods: [grill]
+cookingMethods:
+  - grill
 dietary: []
-occasions: [summer, entertaining]
-flavorProfile: [acidic]
-cuisines: [Greek]
+occasions:
+  - summer
+  - entertaining
+flavorProfile:
+  - acidic
+cuisines:
+  - Greek
 role: main
 vibe: nutritious
 prepTime: 15 min
 cookTime: 10 min
 totalTime: 40 min
 servings: '4'
-pairsWith: [garlic-butter-couscous, greek-salad, lemon-herb-couscous]
+pairsWith:
+  - garlic-butter-couscous
+  - greek-salad
+  - lemon-herb-couscous
 ingredients:
   - '1.5 lbs Chicken Thighs, cut into 1-inch cubes'
   - 1/4 cup Extra-Virgin Olive Oil
@@ -21,6 +29,12 @@ ingredients:
   - '3 cloves Garlic, grated'
   - 1 tsp Salt
   - 1/2 tsp Black Pepper
+origin: Greece
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: good
+equipment: []
 ---
 
 ## Chef's Note

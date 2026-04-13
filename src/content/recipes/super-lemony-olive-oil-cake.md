@@ -1,14 +1,25 @@
 ---
 title: Super Lemony Olive Oil Cake
 difficulty: intermediate
-cookingMethods: [bake]
-dietary: [vegetarian]
-occasions: [entertaining, weekend-project, light-and-fresh]
-flavorProfile: [sweet, acidic, rich]
-cuisines: [Mediterranean]
+cookingMethods:
+  - bake
+dietary:
+  - vegetarian
+occasions:
+  - entertaining
+  - weekend-project
+  - light-and-fresh
+flavorProfile:
+  - sweet
+  - acidic
+  - rich
+cuisines:
+  - Mediterranean
 role: dessert
 vibe: technical
-season: [spring, summer]
+season:
+  - spring
+  - summer
 leftovers: excellent
 healthiness: moderate
 makeAhead: true
@@ -26,12 +37,21 @@ ingredients:
   - 2 tsp Pure Vanilla Extract
   - 1/2 tsp Baking Powder + 1/2 tsp Baking Soda
   - 1 tsp Sea Salt
+origin: Mediterranean
+seasons:
+  - year-round
+nutritionalDensity: moderate
+equipment: []
+pairsWith:
+  - parmigiano-reggiano-cheesecake
+  - apple-cider-cream-pie
+  - apple-pie
+  - blackout-chocolate-cake
 ---
 
 ## Chef's Note
 
-This is a Mediterranean-style olive oil cake with intense lemon flavor. The secret to its incredible texture is the olive oil itself. Unlike butter cakes, olive oil provides a consistent, liquid fat that ensures a moist texture that lasts for days. We use both baking soda and powder to ensure a tall, airy rise that contrasts the heavy oil. The brightness comes from using the full juice and zest of two lemons—essential to cut through the grassy notes of the extra-virgin oil.
-
+This dish comes from a home cooking tradition where technique and respect for ingredients matter more than complexity. The key is not overbaking—pull it from the oven when it still looks slightly underdone, and residual heat will finish the job perfectly.
 ## Directions
 
 1.  **Thermal Prep:** Preheat oven to 350°F. Line a 9-inch springform pan with parchment.

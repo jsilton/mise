@@ -1,18 +1,28 @@
 ---
 title: Mediterranean Chicken Bowls
 difficulty: easy
-cookingMethods: [grill, no-cook]
+cookingMethods:
+  - grill
+  - no-cook
 dietary: []
-occasions: [weeknight, meal-prep]
-flavorProfile: [acidic, rich]
-cuisines: [Mediterranean]
+occasions:
+  - weeknight
+  - meal-prep
+flavorProfile:
+  - acidic
+  - rich
+cuisines:
+  - Mediterranean
 role: main
 vibe: nutritious
 prepTime: 20 min
 cookTime: 15 min
 totalTime: 35 min
 servings: '4'
-pairsWith: [everyday-arugula-salad, lemon-herb-couscous, arugula-feta-salad]
+pairsWith:
+  - everyday-arugula-salad
+  - lemon-herb-couscous
+  - arugula-feta-salad
 ingredients:
   - '1.5 lbs Chicken Thighs, boneless and skinless'
   - 3 tbsp Extra-Virgin Olive Oil
@@ -26,6 +36,12 @@ ingredients:
   - '1/2 cup Feta Cheese, crumbled'
   - '[Pickled Red Onions](/mise/recipes/pickled-red-onions)'
   - Fresh Lemon wedges
+origin: Mediterranean
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: poor
+equipment: []
 ---
 
 ## Chef's Note

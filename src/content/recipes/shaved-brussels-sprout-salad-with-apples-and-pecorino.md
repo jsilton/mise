@@ -1,22 +1,36 @@
 ---
 title: Shaved Brussels Sprout Salad
 difficulty: intermediate
-cookingMethods: [roast]
+cookingMethods:
+  - roast
 dietary: []
-occasions: [entertaining, potluck, light-and-fresh, holiday]
-flavorProfile: [sweet, acidic, rich]
-cuisines: [Italian]
+occasions:
+  - entertaining
+  - potluck
+  - light-and-fresh
+  - holiday
+flavorProfile:
+  - sweet
+  - acidic
+  - rich
+cuisines:
+  - Italian
 role: side
 vibe: nutritious
 prepTime: 15 min
 cookTime: 0 min
 totalTime: 30 min
 servings: '4'
-seasons: [fall, winter, year-round]
+seasons:
+  - fall
+  - winter
+  - year-round
 nutritionalDensity: light
 leftovers: poor
 equipment: []
-pairsWith: [buttermilk-baked-chicken, rosemary-pork-tenderloin]
+pairsWith:
+  - buttermilk-baked-chicken
+  - rosemary-pork-tenderloin
 ingredients:
   - '1 lb Brussels Sprouts, shaved paper-thin'
   - '1 Granny Smith Apple, matchsticked'
@@ -25,6 +39,7 @@ ingredients:
   - 3 tbsp Apple Cider Vinegar (The Acid Balance)
   - 2 tbsp Honey
   - Salt and Black Pepper
+origin: Italy
 ---
 
 ## Chef's Note

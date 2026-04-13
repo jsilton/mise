@@ -4,35 +4,47 @@ import SearchBar from '../components/SearchBar.astro';
 import FilterPanel from '../components/FilterPanel.astro';
 import RecipeCard from '../components/RecipeCard.astro';
 import { getCollection } from 'astro:content';
+import type { RecipeSearchItem } from '../lib/fuzzySearch';
 
 const recipes = await getCollection('recipes');
 recipes.sort((a, b) => a.data.title.localeCompare(b.data.title));
+
+// Prepare search index data - convert recipes to searchable format
+const searchIndexData: RecipeSearchItem[] = recipes.map((recipe) => ({
+  slug: recipe.slug,
+  title: recipe.data.title,
+  cuisines: recipe.data.cuisines,
+  ingredients: recipe.data.ingredients,
+  flavorProfile: recipe.data.flavorProfile,
+  cookingMethods: recipe.data.cookingMethods,
+  origin: recipe.data.origin,
+}));
 ---
 
 <Layout title="Mise | Recipe Codex">
-  <!-- Page Header -->
+  <\!-- Page Header -->
   <div class="flex flex-col md:flex-row justify-between items-start md:items-end mb-10 gap-6">
     <div>
-      <h1 class="text-3xl font-bold text-slate-900 tracking-tight">The Codex</h1>
-      <p class="text-slate-500 mt-1.5 text-sm">Exploring {recipes.length} family recipes.</p>
+      <h1 class="text-3xl font-bold text-slate-900 dark:text-slate-100 tracking-tight">The Codex</h1>
+      <p class="text-slate-500 dark:text-slate-400 mt-1.5 text-sm">Exploring {recipes.length} family recipes.</p>
     </div>
     <div class="w-full md:w-80">
       <SearchBar id="searchInput" placeholder="Search by name or ingredient..." />
     </div>
   </div>
 
-  <!-- Filter and Sort UI -->
+  <\!-- Filter and Sort UI -->
   <FilterPanel {recipes} />
 
-  <!-- Recipe Grid -->
+  <\!-- Recipe Grid -->
   <div id="recipeGrid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
     {recipes.map((recipe) => <RecipeCard {recipe} />)}
   </div>
 
-  <!-- No Results State -->
+  <\!-- No Results State -->
   <div id="noResults" class="hidden text-center py-20">
-    <div class="inline-flex items-center justify-center w-16 h-16 rounded-full bg-slate-100 mb-4">
-      <svg class="w-8 h-8 text-slate-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+    <div class="inline-flex items-center justify-center w-16 h-16 rounded-full bg-slate-100 dark:bg-slate-800 mb-4">
+      <svg class="w-8 h-8 text-slate-400 dark:text-slate-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
         <path
           stroke-linecap="round"
           stroke-linejoin="round"
@@ -41,65 +53,122 @@ recipes.sort((a, b) => a.data.title.localeCompare(b.data.title));
         ></path>
       </svg>
     </div>
-    <h3 class="text-lg font-medium text-slate-900">No recipes found</h3>
-    <p class="text-slate-500 mt-1">Try adjusting your search terms.</p>
+    <h3 class="text-lg font-medium text-slate-900 dark:text-slate-100">No recipes found</h3>
+    <p class="text-slate-500 dark:text-slate-400 mt-1">Try adjusting your search terms or filters.</p>
     <button
       id="clearSearch"
-      class="mt-4 text-sm font-medium text-indigo-600 hover:text-indigo-800 hover:underline"
+      class="mt-4 text-sm font-medium text-indigo-600 dark:text-indigo-400 hover:text-indigo-800 dark:hover:text-indigo-300 hover:underline"
     >
       Clear search
     </button>
   </div>
 </Layout>
 
-<script>
-  // Page filtering and sorting logic - works with FilterPanel and search
+<script define:vars={{ searchIndexData }}>
+  import Fuse from 'fuse.js';
+
+  // Initialize fuzzy search index
+  const fuse = new Fuse(searchIndexData, {
+    keys: [
+      { name: 'title', weight: 10 },
+      { name: 'ingredients', weight: 5 },
+      { name: 'cuisines', weight: 3 },
+      { name: 'flavorProfile', weight: 2 },
+      { name: 'cookingMethods', weight: 2 },
+      { name: 'origin', weight: 2 },
+    ],
+    threshold: 0.35,
+    minMatchCharLength: 2,
+    includeScore: true,
+  });
+
   const searchInput = document.getElementById('searchInput');
   const recipeCards = document.querySelectorAll('.recipe-card');
   const noResults = document.getElementById('noResults');
   const clearSearchBtn = document.getElementById('clearSearch');
 
-  // Main filtering function - applies all active filters and sort
+  // Perform fuzzy search and filter by active filters
   window.applyFiltersAndSort = function () {
     const query = searchInput?.value?.toLowerCase() || '';
     const state = window.filterState || {};
 
     let visibleCards = [];
 
-    recipeCards.forEach((card) => {
-      const searchData = card.querySelector('.search-data')?.textContent?.toLowerCase() || '';
-      const cardDifficulty = card.dataset.difficulty;
-      const cardCuisines = card.dataset.cuisines?.split(',').filter((c) => c) || [];
-      const cardDietary = card.dataset.dietary?.split(',').filter((d) => d) || [];
-      const cardMethods = card.dataset.cookingMethods?.split(',').filter((m) => m) || [];
-      const cardOccasions = card.dataset.occasions?.split(',').filter((o) => o) || [];
-      const cardFlavors = card.dataset.flavorProfile?.split(',').filter((f) => f) || [];
+    // If there's a search query, use fuzzy search results
+    if (query.trim()) {
+      const fuzzyResults = fuse.search(query.trim());
+      const fuzzySlugSet = new Set(fuzzyResults.map((r) => r.item.slug));
 
-      // Apply all active filters
-      const matchesSearch = !query || searchData.includes(query);
-      const matchesDifficulty = !state.difficulty || cardDifficulty === state.difficulty;
-      const matchesCuisine = !state.cuisine || cardCuisines.includes(state.cuisine);
-      const matchesDietary = !state.dietary || cardDietary.includes(state.dietary);
-      const matchesMethod = !state.cookingMethod || cardMethods.includes(state.cookingMethod);
-      const matchesOccasion = !state.occasion || cardOccasions.includes(state.occasion);
-      const matchesFlavor = !state.flavor || cardFlavors.includes(state.flavor);
+      recipeCards.forEach((card) => {
+        const slug = card.getAttribute('href')?.split('/').pop();
+        const cardDifficulty = card.dataset.difficulty;
+        const cardCuisines = card.dataset.cuisines?.split(',').filter((c) => c) || [];
+        const cardDietary = card.dataset.dietary?.split(',').filter((d) => d) || [];
+        const cardMethods = card.dataset.cookingMethods?.split(',').filter((m) => m) || [];
+        const cardOccasions = card.dataset.occasions?.split(',').filter((o) => o) || [];
+        const cardFlavors = card.dataset.flavorProfile?.split(',').filter((f) => f) || [];
 
-      const isVisible =
-        matchesSearch &&
-        matchesDifficulty &&
-        matchesCuisine &&
-        matchesDietary &&
-        matchesMethod &&
-        matchesOccasion &&
-        matchesFlavor;
+        // Match fuzzy search result
+        const matchesFuzzySearch = fuzzySlugSet.has(slug);
 
-      if (isVisible) {
-        card.style.display = 'flex';
-        visibleCards.push({ card, difficulty: cardDifficulty, prepTime: card.dataset.prepTime });
-      } else {
-        card.style.display = 'none';
-      }
-    });
+        // Apply other filters
+        const matchesDifficulty = \!state.difficulty || cardDifficulty === state.difficulty;
+        const matchesCuisine = \!state.cuisine || cardCuisines.includes(state.cuisine);
+        const matchesDietary = \!state.dietary || cardDietary.includes(state.dietary);
+        const matchesMethod = \!state.cookingMethod || cardMethods.includes(state.cookingMethod);
+        const matchesOccasion = \!state.occasion || cardOccasions.includes(state.occasion);
+        const matchesFlavor = \!state.flavor || cardFlavors.includes(state.flavor);
+
+        const isVisible =
+          matchesFuzzySearch &&
+          matchesDifficulty &&
+          matchesCuisine &&
+          matchesDietary &&
+          matchesMethod &&
+          matchesOccasion &&
+          matchesFlavor;
+
+        if (isVisible) {
+          card.style.display = 'flex';
+          visibleCards.push({ card, difficulty: cardDifficulty, prepTime: card.dataset.prepTime });
+        } else {
+          card.style.display = 'none';
+        }
+      });
+    } else {
+      // No search query - use standard filtering
+      recipeCards.forEach((card) => {
+        const cardDifficulty = card.dataset.difficulty;
+        const cardCuisines = card.dataset.cuisines?.split(',').filter((c) => c) || [];
+        const cardDietary = card.dataset.dietary?.split(',').filter((d) => d) || [];
+        const cardMethods = card.dataset.cookingMethods?.split(',').filter((m) => m) || [];
+        const cardOccasions = card.dataset.occasions?.split(',').filter((o) => o) || [];
+        const cardFlavors = card.dataset.flavorProfile?.split(',').filter((f) => f) || [];
+
+        // Apply all active filters
+        const matchesDifficulty = \!state.difficulty || cardDifficulty === state.difficulty;
+        const matchesCuisine = \!state.cuisine || cardCuisines.includes(state.cuisine);
+        const matchesDietary = \!state.dietary || cardDietary.includes(state.dietary);
+        const matchesMethod = \!state.cookingMethod || cardMethods.includes(state.cookingMethod);
+        const matchesOccasion = \!state.occasion || cardOccasions.includes(state.occasion);
+        const matchesFlavor = \!state.flavor || cardFlavors.includes(state.flavor);
+
+        const isVisible =
+          matchesDifficulty &&
+          matchesCuisine &&
+          matchesDietary &&
+          matchesMethod &&
+          matchesOccasion &&
+          matchesFlavor;
+
+        if (isVisible) {
+          card.style.display = 'flex';
+          visibleCards.push({ card, difficulty: cardDifficulty, prepTime: card.dataset.prepTime });
+        } else {
+          card.style.display = 'none';
+        }
+      });
+    }
 
     // Apply sorting
     if (state.sortMode === 'prepTime') {
@@ -119,7 +188,7 @@ recipes.sort((a, b) => a.data.title.localeCompare(b.data.title));
     }
   };
 
-  // Search input listener
+  // Search input listener - fuzzy search with live results
   searchInput?.addEventListener('input', window.applyFiltersAndSort);
 
   // Clear search button

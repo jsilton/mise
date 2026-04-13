@@ -1,15 +1,26 @@
 ---
 title: Peach Pie Pancakes
 difficulty: easy
-cookingMethods: []
-dietary: [vegetarian]
-occasions: [kids-approved, summer, weekend-project]
-seasons: [summer]
+cookingMethods:
+  - no-cook
+dietary:
+  - vegetarian
+occasions:
+  - kids-approved
+  - summer
+  - weekend-project
+seasons:
+  - summer
 nutritionalDensity: moderate
 leftovers: poor
-equipment: [large-skillet, mixing-bowl]
-flavorProfile: [sweet, rich]
-cuisines: [American]
+equipment:
+  - large-skillet
+  - mixing-bowl
+flavorProfile:
+  - sweet
+  - rich
+cuisines:
+  - American
 role: dessert
 vibe: technical
 prepTime: 15 min
@@ -26,6 +37,12 @@ ingredients:
   - 1/4 tsp Sea Salt
   - 2 tsp Pure Vanilla Extract
   - '1 tsp Unsalted Butter, melted'
+origin: United States
+pairsWith:
+  - apple-cider-cream-pie
+  - apple-pie
+  - babys-first-smash-cake
+  - best-cinnamon-roll-recipe-cinnabon-copycat
 ---
 
 ## Chef's Note

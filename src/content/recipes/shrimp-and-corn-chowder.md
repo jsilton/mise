@@ -1,23 +1,40 @@
 ---
 title: Shrimp and Corn Chowder
 difficulty: easy
-cookingMethods: [sauté, simmer, boil, blend]
+cookingMethods:
+  - sauté
+  - simmer
+  - boil
+  - blend
 dietary: []
-occasions: [weeknight, comfort-food, light-and-fresh]
-seasons: [summer, year-round]
+occasions:
+  - weeknight
+  - comfort-food
+  - light-and-fresh
+seasons:
+  - summer
+  - year-round
 nutritionalDensity: hearty
 leftovers: excellent
-equipment: [large-pot, blender]
-flavorProfile: [spicy, acidic, rich]
-cuisines: [American]
+equipment:
+  - large-pot
+  - blender
+flavorProfile:
+  - spicy
+  - acidic
+  - rich
+cuisines:
+  - American
 role: main
-vibe: quick
+vibe: comfort
 prepTime: 20 min
 cookTime: 40 min
 totalTime: 60 min
 servings: '6'
 pairsWith:
-  [roasted-fall-harvest-salad, cinnamon-sweet-potatoes, green-beans-with-shallots-and-lemon]
+  - roasted-fall-harvest-salad
+  - cinnamon-sweet-potatoes
+  - green-beans-with-shallots-and-lemon
 ingredients:
   - '2 lbs Medium Shrimp, peeled and deveined'
   - 2 cups Fresh Corn Kernels
@@ -31,6 +48,7 @@ ingredients:
   - 2 tbsp Fresh Lime Juice (The Acid Balance)
   - 2 tbsp Fresh Cilantro
   - 1/4 tsp Cayenne Pepper
+origin: United States
 ---
 
 ## Chef's Note
@@ -46,3 +64,4 @@ The key to chowder without heavy flour is grating an unripe green plantain direc
 5.  **Refine:** For the Kitchen Standard texture, ladle 2 cups of the soup into a blender and pulse until smooth, then return to the pot.
 6.  **The Crunch:** Add the shrimp and its marinade. Cook for 2-3 minutes until just opaque.
 7.  **Serve:** Stir in cilantro and cayenne. Serve in warmed bowls.
+

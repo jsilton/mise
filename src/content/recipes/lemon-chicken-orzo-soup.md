@@ -1,18 +1,30 @@
 ---
 title: Lemon Chicken Orzo Soup
 difficulty: easy
-cookingMethods: [sauté, simmer, boil]
+cookingMethods:
+  - sauté
+  - simmer
+  - boil
 dietary: []
-occasions: [comfort-food]
-flavorProfile: [savory, acidic, rich, herbaceous]
-cuisines: [Mediterranean]
+occasions:
+  - comfort-food
+flavorProfile:
+  - savory
+  - acidic
+  - rich
+  - herbaceous
+cuisines:
+  - Mediterranean
 role: main
 vibe: comfort
 prepTime: 10 min
 cookTime: 30 min
 totalTime: 40 min
 servings: '6'
-pairsWith: [garlic-butter-couscous, garlicky-lemon-kale-with-carrots, greek-salad]
+pairsWith:
+  - garlic-butter-couscous
+  - garlicky-lemon-kale-with-carrots
+  - greek-salad
 ingredients:
   - '1.5 lbs Chicken Breasts or Thighs, diced'
   - 1 cup Dry Orzo
@@ -28,6 +40,12 @@ ingredients:
   - '1/4 cup Fresh Parsley, chopped'
   - 2 tbsp Fresh Lemon Juice (The Finishing Touch)
   - Salt and Black Pepper
+origin: Mediterranean
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: good
+equipment: []
 ---
 
 ## Chef's Note
@@ -36,9 +54,10 @@ The key to orzo soup is sautéing the vegetables and then stirring in a small am
 
 ## Directions
 
-1.  **Aromatics:** In a large soup pot, heat butter and oil over medium-high. Sauté onion, carrots, and celery for 5-7 minutes until soft.
+1.  **Aromatics:** In a large soup pot, heat butter and oil over medium-high. Sauté onion, carrots, and celery for 5-7 minutes cook until golden brown and softened.
 2.  **The Roux:** Add garlic and sauté for 30 seconds. Sprinkle the flour over the vegetables and stir for 1 minute to cook out the raw flour taste.
 3.  **The Simmer:** Slowly pour in the chicken broth, whisking to dissolve the flour. Add Italian seasoning and the diced chicken. Bring to a boil.
 4.  **The Orzo:** Reduce heat to medium-low. Add the dry orzo. Simmer for 10-12 minutes, stirring occasionally (orzo loves to stick to the bottom), until the pasta is al dente and the chicken is cooked through (165°F).
 5.  **Finish:** Remove from heat. Stir in the fresh parsley and lemon juice.
 6.  **Serve:** Season generously with salt and pepper. Serve immediately. Note: orzo will continue to absorb liquid as it sits; add a splash of broth when reheating.
+

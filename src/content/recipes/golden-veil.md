@@ -1,15 +1,27 @@
 ---
 title: Golden Veil
 difficulty: intermediate
-cookingMethods: []
-dietary: [vegetarian, vegan]
-occasions: [date-night, entertaining]
-seasons: [year-round]
+cookingMethods:
+  - no-cook
+dietary:
+  - vegetarian
+  - vegan
+occasions:
+  - date-night
+  - entertaining
+seasons:
+  - year-round
 nutritionalDensity: light
 leftovers: poor
-equipment: [cocktail-shaker]
-flavorProfile: [acidic, rich, herbaceous, smoky]
-cuisines: [American]
+equipment:
+  - cocktail-shaker
+flavorProfile:
+  - acidic
+  - rich
+  - herbaceous
+  - smoky
+cuisines:
+  - American
 role: drink
 vibe: technical
 prepTime: 10 min
@@ -27,6 +39,14 @@ ingredients:
   - '6 oz Prosecco, chilled'
   - Lemon Peel Twist
   - Fresh Thyme Sprig
+origin: United States
+pairsWith:
+  - seared-scallops-with-a-corn-bacon-and-avocado-relish
+  - chicken-and-wild-rice-soup
+  - garlic-butter-roasted-salmon-with-potatoes-and-asparagus
+  - herb-marinated-pork-tenderloins
+advancePrep:
+  - freeze-ahead
 ---
 
 ## Chef's Note

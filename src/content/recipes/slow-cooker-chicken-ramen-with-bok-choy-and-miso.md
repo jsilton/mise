@@ -1,18 +1,29 @@
 ---
 title: Slow Cooker Chicken Ramen with Miso
 difficulty: intermediate
-cookingMethods: [simmer, boil, slow-cook, no-cook]
+cookingMethods:
+  - simmer
+  - boil
+  - slow-cook
+  - no-cook
 dietary: []
-occasions: [comfort-food]
-flavorProfile: [sweet, savory]
-cuisines: [Japanese]
+occasions:
+  - comfort-food
+flavorProfile:
+  - sweet
+  - savory
+cuisines:
+  - Japanese
 role: main
 vibe: comfort
 prepTime: 20 min
 cookTime: 380 min
 totalTime: 400 min
 servings: '5'
-pairsWith: [miso-soup, dashi-japanese-sea-stock, miso-mashed-potatoes]
+pairsWith:
+  - miso-soup
+  - dashi-japanese-sea-stock
+  - miso-mashed-potatoes
 ingredients:
   - 3 lbs Whole Chicken Legs (skin-on)
   - 1/2 cup Sweet White Miso Paste
@@ -23,6 +34,12 @@ ingredients:
   - '1 lb Baby Bok Choy, chopped'
   - 12 oz Fresh Ramen Noodles
   - Soft-boiled Eggs and Nori for garnish
+origin: Japan
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: excellent
+equipment: []
 ---
 
 ## Chef's Note
@@ -31,7 +48,7 @@ Using whole chicken legs instead of boneless chicken extracts collagen and fat d
 
 ## Directions
 
-1.  **Simmer:** In a 6-quart slow cooker, combine chicken legs, miso, scallion whites, garlic, dried shiitakes, and 6 cups water. **Cook on Low for 6 hours**.
+1.  **Simmer:** In a 6-quart slow cooker, combine chicken legs, miso, scallion whites, garlic, dried shiitakes, and 6 cups water. **cook until sauce coats the back of a spoon on Low for 6 hours**.
 2.  **The Pull:** Using a slotted spoon, remove the chicken and shiitakes. Set aside to cool. Shred the meat, discarding skin and bones. Slice the shiitakes.
 3.  **The Infusion:** Set slow cooker to **High**. Stir in the kombu, baby bok choy, tamari, and mirin. Cover and cook for 10 minutes until the bok choy is tender-crisp. Discard kombu.
 4.  **Emulsify:** Return the chicken and shiitakes to the pot. Taste and whisk in an extra spoonful of miso if you want a saltier "Snap."

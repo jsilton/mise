@@ -1,22 +1,37 @@
 ---
 title: Queso Fundido with Chorizo
 difficulty: easy
-cookingMethods: [bake, sauté]
+cookingMethods:
+  - bake
+  - sauté
 dietary: []
-occasions: [entertaining, game-day, comfort-food]
-flavorProfile: [spicy, savory, rich, smoky]
-cuisines: [Mexican]
+occasions:
+  - entertaining
+  - game-day
+  - comfort-food
+flavorProfile:
+  - spicy
+  - savory
+  - rich
+  - smoky
+cuisines:
+  - Mexican
 role: side
 vibe: comfort
 prepTime: 10 min
 cookTime: 15 min
 totalTime: 25 min
 servings: '8'
-seasons: [year-round]
+seasons:
+  - year-round
 nutritionalDensity: hearty
 leftovers: poor
-equipment: [cast-iron-skillet, oven]
-pairsWith: [charred-guacamole-with-pomegranate, honey-lime-chicken-thighs]
+equipment:
+  - cast-iron-skillet
+  - oven
+pairsWith:
+  - charred-guacamole-with-pomegranate
+  - honey-lime-chicken-thighs
 ingredients:
   - '8 oz Fresh Chorizo, casings removed'
   - '1 lb Oaxaca Cheese (or Mozzarella), shredded'
@@ -27,6 +42,7 @@ ingredients:
   - '1/4 cup Fresh Cilantro, chopped'
   - 'Warm Flour Tortillas, for scooping'
   - 'Optional: Pickled Jalapeños for topping'
+origin: Mexico
 ---
 
 ## Chef's Note

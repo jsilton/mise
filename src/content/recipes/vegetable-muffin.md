@@ -1,16 +1,30 @@
 ---
 title: Vegetable Green Muffins
 difficulty: intermediate
-cookingMethods: [bake, blend]
-dietary: [vegetarian]
-occasions: [meal-prep, kids-approved, post-workout]
-seasons: [year-round]
+cookingMethods:
+  - bake
+  - blend
+dietary:
+  - vegetarian
+occasions:
+  - meal-prep
+  - kids-approved
+  - post-workout
+seasons:
+  - year-round
 nutritionalDensity: moderate
 leftovers: excellent
-equipment: [muffin-tin, blender]
-advancePrep: [make-ahead, freeze-ahead]
-flavorProfile: [sweet, acidic]
-cuisines: [American]
+equipment:
+  - muffin-tin
+  - blender
+advancePrep:
+  - make-ahead
+  - freeze-ahead
+flavorProfile:
+  - sweet
+  - acidic
+cuisines:
+  - American
 role: side
 vibe: quick
 prepTime: 10 min
@@ -18,11 +32,9 @@ cookTime: 20 min
 totalTime: 30 min
 servings: '12'
 pairsWith:
-  [
-    healthy-carrot-cake-muffins-with-cream-cheese-glaze,
-    whole-wheat-muffins-fruit-nut-or-berry,
-    chocolate-blended-oats-with-raspberry-chia-jam,
-  ]
+  - healthy-carrot-cake-muffins-with-cream-cheese-glaze
+  - whole-wheat-muffins-fruit-nut-or-berry
+  - chocolate-blended-oats-with-raspberry-chia-jam
 ingredients:
   - '1 cup Spinach or Kale, packed'
   - 1 cup Ripe Banana or Applesauce
@@ -35,6 +47,7 @@ ingredients:
   - 1 tsp Ground Cinnamon
   - 1 tsp Baking Soda + 1 tsp Baking Powder
   - 1/4 cup Dark Chocolate Chips
+origin: United States
 ---
 
 ## Chef's Note

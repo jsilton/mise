@@ -1,11 +1,21 @@
 ---
 title: Chicken and Wild Rice Soup
 difficulty: easy
-cookingMethods: [sauté, simmer, boil, poach, blend]
+cookingMethods:
+  - sauté
+  - simmer
+  - boil
+  - poach
+  - blend
 dietary: []
-occasions: [comfort-food]
-flavorProfile: [acidic, rich, herbaceous]
-cuisines: [American]
+occasions:
+  - comfort-food
+flavorProfile:
+  - acidic
+  - rich
+  - herbaceous
+cuisines:
+  - American
 role: main
 vibe: comfort
 prepTime: 20 min
@@ -13,11 +23,9 @@ cookTime: 60 min
 totalTime: 80 min
 servings: '8'
 pairsWith:
-  [
-    roasted-fall-harvest-salad,
-    roasted-sunchokes-with-brown-butter-cider-vinaigrette,
-    cinnamon-sweet-potatoes,
-  ]
+  - roasted-fall-harvest-salad
+  - roasted-sunchokes-with-brown-butter-cider-vinaigrette
+  - cinnamon-sweet-potatoes
 ingredients:
   - 1 lb Chicken Thighs + 1 lb Chicken Breast (diced)
   - 1.5 cups Wild Rice Blend
@@ -29,6 +37,12 @@ ingredients:
   - 1 tbsp Fresh Thyme or Sage
   - 1 tbsp Lemon Juice (The Acid Balance)
   - '1/4 cup Fresh Parsley, chopped'
+origin: United States
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: good
+equipment: []
 ---
 
 ## Chef's Note
@@ -37,8 +51,9 @@ Wild rice needs 45-50 minutes of simmering to fully bloom - the grains split sli
 
 ## Directions
 
-1.  **The Base:** Heat oil in a large pot. Sauté the onion, carrots, celery, and garlic for 10 minutes until soft and starting to turn golden.
+1.  **The Base:** Heat oil in a large pot. Sauté the onion, carrots, celery, and garlic for 10 minutes cook until golden brown and softened and starting to turn golden.
 2.  **Simmer Rice:** Add the broth and the wild rice. Bring to a boil, then reduce to low and cover. Simmer for 40 minutes.
 3.  **Poach Chicken:** Add the diced chicken to the pot. Season with salt, pepper, and herbs. Continue simmering for 15-20 minutes until the chicken is cooked through and the rice is tender.
 4.  **Finish:** Stir in the fresh parsley and lemon juice.
 5.  **Adjust:** If the soup is too thick (wild rice absorbs a lot of liquid), add a splash more broth.
+

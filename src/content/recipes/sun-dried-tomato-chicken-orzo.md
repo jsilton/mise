@@ -1,22 +1,36 @@
 ---
 title: Sun-Dried Tomato Chicken Orzo
 difficulty: intermediate
-cookingMethods: [bake, roast, no-cook]
+cookingMethods:
+  - bake
+  - roast
+  - no-cook
 dietary: []
-occasions: [weeknight, meal-prep, comfort-food]
-flavorProfile: [acidic, rich, herbaceous]
-cuisines: [Italian]
+occasions:
+  - weeknight
+  - meal-prep
+  - comfort-food
+flavorProfile:
+  - acidic
+  - rich
+  - herbaceous
+cuisines:
+  - Italian
 role: main
-vibe: quick
+vibe: comfort
 prepTime: 10 min
 cookTime: 35 min
 totalTime: 45 min
 servings: '4'
-seasons: [year-round]
+seasons:
+  - year-round
 nutritionalDensity: hearty
 leftovers: excellent
-equipment: [sheet-pan]
-pairsWith: [everyday-arugula-salad, roasted-root-vegetables]
+equipment:
+  - sheet-pan
+pairsWith:
+  - everyday-arugula-salad
+  - roasted-root-vegetables
 ingredients:
   - '1 lb Chicken Breast, diced'
   - 1.5 cups Dry Orzo
@@ -26,6 +40,7 @@ ingredients:
   - '1/2 bag (5 oz) Frozen Spinach, thawed and squeezed dry'
   - '3 Fresh Lemons (one for juice, two sliced)'
   - 'Italian Seasoning, Garlic Salt, Pepper'
+origin: Italy
 ---
 
 ## Chef's Note
@@ -41,3 +56,5 @@ One-pan baked pastas became wildly popular in the 2010s, and this version uses B
 5.  **Bake:** Bake at 400°F for 35 minutes until the orzo is tender and the chicken is cooked through.
 6.  **Bind:** Remove from oven. Remove the lemon slices. **Stir vigorously** for 1 minute until the Boursin has emulsified into a creamy, glossy sauce.
 7.  **Serve:** Garnish with extra black pepper and serve hot.
+
+**Rest:** Let lb Chicken rest for 5 minutes before slicing or serving — the juices redistribute and every piece stays moist.

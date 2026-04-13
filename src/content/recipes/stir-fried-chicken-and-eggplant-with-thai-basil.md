@@ -1,18 +1,31 @@
 ---
 title: Thai Basil Chicken & Eggplant
 difficulty: intermediate
-cookingMethods: [fry, sauté, steam]
+cookingMethods:
+  - fry
+  - sauté
+  - steam
 dietary: []
-occasions: [weeknight, quick-lunch]
-flavorProfile: [sweet, savory, umami, herbaceous]
-cuisines: [Thai]
+occasions:
+  - weeknight
+  - quick-lunch
+flavorProfile:
+  - sweet
+  - savory
+  - umami
+  - herbaceous
+cuisines:
+  - Thai
 role: main
 vibe: nutritious
 prepTime: 15 min
 cookTime: 15 min
 totalTime: 60 min
 servings: '4'
-pairsWith: [coconut-jasmine-rice, quick-pickled-carrots-and-daikon, eggplant-with-garlic-sauce]
+pairsWith:
+  - coconut-jasmine-rice
+  - quick-pickled-carrots-and-daikon
+  - eggplant-with-garlic-sauce
 ingredients:
   - '1 lb Japanese Eggplant, diced'
   - '3/4 lb Chicken Breast, minced or finely diced'
@@ -24,6 +37,12 @@ ingredients:
   - 1 tsp Granulated Sugar
   - '1 cup Fresh Thai Basil leaves, torn'
   - Neutral Oil (Peanut or Vegetable)
+origin: Thailand
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: good
+equipment: []
 ---
 
 ## Chef's Note
@@ -39,3 +58,5 @@ Pad krapow gai (Thai basil chicken) is a popular Thai stir-fry dish characterize
 5.  **Bind:** Return the chicken to the wok. Add the fish sauce, soy sauce, sugar, and 1/4 cup water.
 6.  **Finish:** Cover and steam for 2 minutes. Uncover, stir in the basil leaves, and toss for 30 seconds until just wilted.
 7.  **Serve:** Serve immediately over steamed jasmine rice.
+
+**Rest:** Let lb Chicken rest for 5 minutes before slicing or serving — the juices redistribute and every piece stays moist.

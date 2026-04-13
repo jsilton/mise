@@ -2,27 +2,42 @@
 title: Hot and Sour Soup
 origin: China
 difficulty: easy
-cookingMethods: [sauté, simmer, boil]
+cookingMethods:
+  - sauté
+  - simmer
+  - boil
 dietary: []
-occasions: [comfort-food, weekend-project, meal-prep]
-flavorProfile: [spicy, savory, acidic, umami]
-cuisines: [Chinese]
+occasions:
+  - comfort-food
+  - weekend-project
+  - meal-prep
+flavorProfile:
+  - spicy
+  - savory
+  - acidic
+  - umami
+cuisines:
+  - Chinese
 role: main
 vibe: comfort
 prepTime: 30 min
 cookTime: 140 min
 totalTime: 170 min
 servings: '6'
-seasons: [year-round, winter, fall]
+seasons:
+  - year-round
+  - winter
+  - fall
 nutritionalDensity: moderate
 leftovers: excellent
-advancePrep: [make-ahead]
+advancePrep:
+  - make-ahead
 equipment: []
-pairsWith: [har-gow-dim-sum-shrimp-dumplings, basmati-rice]
+pairsWith:
+  - har-gow-dim-sum-shrimp-dumplings
+  - basmati-rice
 ingredients:
-  - >-
-    2 quarts [Chinese Chicken
-    Stock](/mise/recipes/cantonese-wonton-broth)
+  - '2 quarts [Chinese Chicken Stock](/mise/recipes/cantonese-wonton-broth)'
   - '1/4 lb Chinese BBQ Pork (Char Siu), shredded'
   - '1 square Firm Tofu, cut into 1/4-inch strips'
   - '1/2 cup Bamboo Shoots, sliced'
@@ -51,3 +66,4 @@ Hot and sour soup is a Sichuan/Hunan classic. The name is literal: "hot" from wh
 6.  **Bind:** Stir the cornstarch slurry and slowly pour into the soup. Simmer for 2 minutes until the soup is thick and clear.
 7.  **The Current:** Remove from heat. Stir the soup vigorously in one direction to create a current. Stop stirring and slowly stream in the beaten egg.
 8.  **Serve:** Ladle into bowls and garnish with sesame oil and fresh scallions for the final **High Note**.
+

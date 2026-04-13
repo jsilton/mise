@@ -1,18 +1,29 @@
 ---
 title: Chicken and White Bean Enchiladas
 difficulty: easy
-cookingMethods: [bake, poach, no-cook, blend]
+cookingMethods:
+  - bake
+  - poach
+  - no-cook
+  - blend
 dietary: []
-occasions: [comfort-food, meal-prep]
-flavorProfile: [rich]
-cuisines: [Mexican]
+occasions:
+  - comfort-food
+  - meal-prep
+flavorProfile:
+  - rich
+cuisines:
+  - Mexican
 role: main
 vibe: nutritious
 prepTime: 20 min
 cookTime: 30 min
 totalTime: 50 min
 servings: '8'
-pairsWith: [cilantro-lime-rice, queso-fundido-with-chorizo, roasted-sweet-potatoes]
+pairsWith:
+  - cilantro-lime-rice
+  - queso-fundido-with-chorizo
+  - roasted-sweet-potatoes
 ingredients:
   - 1 lb Shredded Chicken (Poached or Rotisserie)
   - '15 oz can Navy or Cannellini Beans, rinsed'
@@ -23,6 +34,12 @@ ingredients:
   - 1/2 cup Fresh Cilantro
   - '1 cup Mexican Cheese Blend, shredded'
   - Pickled Red Onions for garnish
+origin: Mexico
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: good
+equipment: []
 ---
 
 ## Chef's Note

@@ -1,22 +1,33 @@
 ---
 title: Pan-Seared Chicken Breasts
 difficulty: easy
-cookingMethods: []
+cookingMethods:
+  - sear
 dietary: []
-occasions: [weeknight, quick-lunch, meal-prep]
-seasons: [year-round]
+occasions:
+  - weeknight
+  - quick-lunch
+  - meal-prep
+seasons:
+  - year-round
 nutritionalDensity: moderate
 leftovers: excellent
-equipment: [large-skillet]
-flavorProfile: [rich]
-cuisines: [American]
+equipment:
+  - large-skillet
+flavorProfile:
+  - rich
+cuisines:
+  - American
 role: main
 vibe: quick
 prepTime: 5 min
 cookTime: 10 min
 totalTime: 15 min
 servings: '4'
-pairsWith: [brownie-protein-balls, homemade-rice-pilaf, puffy-muffin-chicken-salad]
+pairsWith:
+  - brownie-protein-balls
+  - homemade-rice-pilaf
+  - puffy-muffin-chicken-salad
 ingredients:
   - 4 Chicken Breasts (thin-cut or butterflied)
   - 1/2 cup All-Purpose Flour (for dredging)
@@ -26,6 +37,7 @@ ingredients:
   - 1 tsp Garlic Powder
   - 1 tsp Onion Powder
   - 2 tsp Italian Seasoning
+origin: United States
 ---
 
 ## Chef's Note

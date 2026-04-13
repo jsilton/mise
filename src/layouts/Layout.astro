@@ -1,13 +1,14 @@
 ---
 interface Props {
   title: string;
+  jsonLd?: string;
 }
 
-const { title } = Astro.props;
+const { title, jsonLd } = Astro.props;
 ---
 
 <!doctype html>
-<html lang="en" class="h-full bg-stone-50">
+<html lang="en" class="h-full bg-stone-50 dark:bg-slate-950">
   <head>
     <meta charset="UTF-8" />
     <meta name="description" content="The Recipe Collection" />
@@ -21,6 +22,7 @@ const { title } = Astro.props;
       rel="stylesheet"
     />
     <title>{title}</title>
+    {jsonLd && <script type="application/ld+json" set:html={jsonLd} />}
     <style is:global>
       /* 
        * Typography System
@@ -242,20 +244,91 @@ const { title } = Astro.props;
         border-radius: 0.25rem;
         color: #334155;
       }
+
+      /* Dark mode styles for prose */
+      :is(html.dark) .prose-refined h2 {
+        color: #f1f5f9;
+        border-bottom-color: #334155;
+      }
+      :is(html.dark) .prose-refined h3 {
+        color: #e2e8f0;
+      }
+      :is(html.dark) .prose-refined p {
+        color: #cbd5e1;
+      }
+      :is(html.dark) .prose-refined strong {
+        color: #e2e8f0;
+      }
+      :is(html.dark) .prose-refined ul li {
+        color: #cbd5e1;
+      }
+      :is(html.dark) .prose-refined ul li::before {
+        color: #64748b;
+      }
+      :is(html.dark) .prose-refined ul li em {
+        color: #94a3b8;
+      }
+      :is(html.dark) .prose-refined ol li {
+        color: #cbd5e1;
+      }
+      :is(html.dark) .prose-refined ol li strong:first-child {
+        color: #e2e8f0;
+      }
+      :is(html.dark) .prose-refined a {
+        color: #818cf8;
+      }
+      :is(html.dark) .prose-refined a:hover {
+        color: #a5b4fc;
+      }
+      :is(html.dark) .prose-refined table {
+        background: #1e293b;
+        border-color: #334155;
+      }
+      :is(html.dark) .prose-refined thead {
+        background: #0f172a;
+      }
+      :is(html.dark) .prose-refined thead tr {
+        border-bottom-color: #334155;
+      }
+      :is(html.dark) .prose-refined th {
+        color: #94a3b8;
+      }
+      :is(html.dark) .prose-refined td {
+        color: #cbd5e1;
+        background: #1e293b;
+        border-bottom-color: #334155;
+      }
+      :is(html.dark) .prose-refined td:first-child {
+        color: #e2e8f0;
+      }
+      :is(html.dark) .prose-refined hr {
+        background: linear-gradient(to right, transparent, #475569, transparent);
+      }
+      :is(html.dark) .prose-refined blockquote {
+        background: #1e1f0f;
+        border-left-color: #854d0e;
+      }
+      :is(html.dark) .prose-refined blockquote p {
+        color: #fcd34d;
+      }
+      :is(html.dark) .prose-refined code {
+        background: #1e293b;
+        color: #cbd5e1;
+      }
     </style>
   </head>
-  <body class="h-full flex flex-col font-sans text-slate-900 antialiased">
-    <header class="bg-white/80 backdrop-blur-md border-b border-slate-200/80 sticky top-0 z-20">
+  <body class="h-full flex flex-col font-sans text-slate-900 dark:text-slate-100 antialiased">
+    <header class="bg-white/80 dark:bg-slate-950/80 dark:border-slate-800/80 backdrop-blur-md border-b border-slate-200/80 sticky top-0 z-20">
       <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 h-14 flex items-center justify-between">
         <div class="flex items-center gap-4">
           <a href={import.meta.env.BASE_URL} class="flex items-center gap-2.5 group">
             <div
-              class="w-7 h-7 bg-gradient-to-br from-indigo-500 to-indigo-600 rounded-lg flex items-center justify-center text-white font-bold text-sm shadow-sm group-hover:shadow-md group-hover:from-indigo-600 group-hover:to-indigo-700 transition-all duration-200"
+              class="w-7 h-7 bg-gradient-to-br from-indigo-500 to-indigo-600 dark:from-indigo-400 dark:to-indigo-500 rounded-lg flex items-center justify-center text-white font-bold text-sm shadow-sm group-hover:shadow-md group-hover:from-indigo-600 dark:group-hover:from-indigo-300 group-hover:to-indigo-700 dark:group-hover:to-indigo-600 transition-all duration-200"
             >
               M
             </div>
             <span
-              class="text-lg font-bold text-slate-900 tracking-tight group-hover:text-indigo-600 transition-colors"
+              class="text-lg font-bold text-slate-900 dark:text-slate-100 tracking-tight group-hover:text-indigo-600 dark:group-hover:text-indigo-400 transition-colors"
               >Mise</span
             >
           </a>
@@ -264,19 +337,32 @@ const { title } = Astro.props;
         <nav class="flex items-center gap-1">
           <a
             href={import.meta.env.BASE_URL}
-            class="px-3 py-1.5 text-sm font-medium text-slate-600 hover:text-slate-900 hover:bg-slate-100 rounded-lg transition-colors"
+            class="px-3 py-1.5 text-sm font-medium text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-slate-100 hover:bg-slate-100 dark:hover:bg-slate-800 rounded-lg transition-colors"
             >Recipes</a
           >
           <a
             href={`${import.meta.env.BASE_URL}meals`}
-            class="px-3 py-1.5 text-sm font-medium text-slate-600 hover:text-slate-900 hover:bg-slate-100 rounded-lg transition-colors"
+            class="px-3 py-1.5 text-sm font-medium text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-slate-100 hover:bg-slate-100 dark:hover:bg-slate-800 rounded-lg transition-colors"
             >Meals</a
           >
           <a
             href={`${import.meta.env.BASE_URL}calendar`}
-            class="px-3 py-1.5 text-sm font-medium text-slate-600 hover:text-slate-900 hover:bg-slate-100 rounded-lg transition-colors"
+            class="px-3 py-1.5 text-sm font-medium text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-slate-100 hover:bg-slate-100 dark:hover:bg-slate-800 rounded-lg transition-colors"
             >Calendar</a
           >
+          <button
+            id="darkModeToggle"
+            aria-label="Toggle dark mode"
+            class="ml-2 px-2 py-1.5 text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-slate-100 hover:bg-slate-100 dark:hover:bg-slate-800 rounded-lg transition-colors"
+            title="Toggle dark mode (press '?' for help)"
+          >
+            <svg id="sunIcon" class="h-5 w-5 block dark:hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1m-16 0H1m15.364 1.636l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
+            </svg>
+            <svg id="moonIcon" class="h-5 w-5 hidden dark:block" fill="currentColor" viewBox="0 0 20 20">
+              <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z" />
+            </svg>
+          </button>
         </nav>
       </div>
     </header>
@@ -285,21 +371,65 @@ const { title } = Astro.props;
       <slot />
     </main>
 
-    <footer class="border-t border-slate-200/60 mt-auto bg-white/50">
+    <footer class="border-t border-slate-200/60 dark:border-slate-800/60 mt-auto bg-white/50 dark:bg-slate-950/50">
       <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
         <div class="flex flex-col md:flex-row justify-between items-center gap-3">
-          <p class="text-xs text-slate-400">
+          <p class="text-xs text-slate-400 dark:text-slate-600">
             &copy; {new Date().getFullYear()} Mise. All rights reserved.
           </p>
-          <div class="flex gap-2 text-xs text-slate-400">
+          <div class="flex gap-2 text-xs text-slate-400 dark:text-slate-600">
             <span>Taste</span>
-            <span class="text-slate-300">·</span>
+            <span class="text-slate-300 dark:text-slate-700">·</span>
             <span>Tradition</span>
-            <span class="text-slate-300">·</span>
+            <span class="text-slate-300 dark:text-slate-700">·</span>
             <span>Together</span>
           </div>
         </div>
       </div>
     </footer>
+
+    <script>
+      // Dark mode toggle
+      const darkModeToggle = document.getElementById('darkModeToggle');
+      const html = document.documentElement;
+
+      // Initialize dark mode from system preference
+      function initializeDarkMode() {
+        const isDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        if (isDark) {
+          html.classList.add('dark');
+        }
+      }
+
+      // Initialize on page load
+      initializeDarkMode();
+
+      // Toggle dark mode
+      darkModeToggle?.addEventListener('click', () => {
+        html.classList.toggle('dark');
+      });
+
+      // Keyboard shortcuts
+      document.addEventListener('keydown', (e) => {
+        // Forward slash or Cmd+K to focus search
+        if ((e.key === '/' || (e.metaKey && e.key === 'k')) && !e.ctrlKey) {
+          e.preventDefault();
+          const searchInput = document.getElementById('searchInput');
+          if (searchInput) {
+            searchInput.focus();
+            searchInput.select();
+          }
+        }
+
+        // Escape to clear search
+        if (e.key === 'Escape') {
+          const searchInput = document.getElementById('searchInput');
+          if (searchInput && searchInput.value) {
+            searchInput.value = '';
+            window.applyFiltersAndSort?.();
+          }
+        }
+      });
+    </script>
   </body>
 </html>

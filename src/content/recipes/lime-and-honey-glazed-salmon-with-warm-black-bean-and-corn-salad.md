@@ -1,18 +1,28 @@
 ---
 title: Lime & Honey Glazed Salmon
 difficulty: easy
-cookingMethods: [sauté, simmer]
+cookingMethods:
+  - sauté
+  - simmer
 dietary: []
-occasions: [weeknight, light-and-fresh]
-flavorProfile: [spicy, sweet]
-cuisines: [Mexican]
+occasions:
+  - weeknight
+  - light-and-fresh
+flavorProfile:
+  - spicy
+  - sweet
+cuisines:
+  - Mexican
 role: main
 vibe: nutritious
 prepTime: 20 min
 cookTime: 15 min
 totalTime: 35 min
 servings: '4'
-pairsWith: [mexican-street-corn-salad, roasted-sweet-potatoes, cilantro-lime-rice]
+pairsWith:
+  - mexican-street-corn-salad
+  - roasted-sweet-potatoes
+  - cilantro-lime-rice
 ingredients:
   - 4 Salmon Fillets (6 oz each)
   - '2 Limes, juiced'
@@ -26,11 +36,18 @@ ingredients:
   - 1/2 cup Chicken Broth
   - 2 tbsp Fresh Cilantro
   - 2 tbsp Extra-Virgin Olive Oil
+origin: Mexico
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: good
+equipment: []
 ---
 
 ## Chef's Note
 
 This Mexican-inspired salmon dish features a lime-honey glaze that caramelizes during searing, creating a sweet-tangy crust. Using the same pan to build the black bean and corn salad allows the caramelized juices from the fish to infuse the vegetables. Baby spinach is folded in at the end so it wilts without losing its vibrant color.
+For kids, serve the heat on the side or reduce/omit the spicy elements.
 
 ## Directions
 

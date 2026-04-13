@@ -1,15 +1,24 @@
 ---
 title: Chocolate Mug Cake
 difficulty: intermediate
-cookingMethods: [steam]
-dietary: [vegetarian]
-occasions: [quick-lunch, indulgent]
-seasons: [year-round]
+cookingMethods:
+  - steam
+dietary:
+  - vegetarian
+occasions:
+  - quick-lunch
+  - indulgent
+seasons:
+  - year-round
 nutritionalDensity: hearty
 leftovers: poor
-equipment: [microwave]
-flavorProfile: [sweet, rich]
-cuisines: [American]
+equipment:
+  - microwave
+flavorProfile:
+  - sweet
+  - rich
+cuisines:
+  - American
 role: dessert
 vibe: technical
 prepTime: 1 min
@@ -25,12 +34,17 @@ ingredients:
   - 2 tbsp Vegetable Oil
   - 1 tbsp Hazelnut Chocolate Spread (Nutella)
   - Pinch of Sea Salt
+origin: United States
+pairsWith:
+  - apple-cider-cream-pie
+  - apple-pie
+  - babys-first-smash-cake
+  - best-cinnamon-roll-recipe-cinnabon-copycat
 ---
 
 ## Chef's Note
 
-This is a quick microwave mug cake. The secret to a mug cake that isn't a rubbery brick is dropping a spoonful of hazelnut spread into the center without stirring. This creates a molten core that keeps the cake moist from the inside out. The high-heat microwave gelatinizes the starch in 70 seconds, providing an immediate rise. The tiny pinch of salt bridges the dark cocoa and rich hazelnut.
-
+Mug cakes are a modern microwave technique, but this one works because it respects the physics: oil keeps the crumb moist, cocoa powder blooms with milk, and a hazelnut center stays molten while the surrounding cake sets. Seventy seconds is precise because microwave power varies—you're aiming for a cake that rises high, sinks slightly, then holds that barely-set center.
 ## Directions
 
 1.  **Dry Mix:** In a large (14 oz) microwave-safe mug, whisk flour, cocoa, sugar, baking powder, and salt.

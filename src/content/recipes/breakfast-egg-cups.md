@@ -1,23 +1,36 @@
 ---
 title: Breakfast Egg Cups
 difficulty: easy
-cookingMethods: [bake]
-dietary: [vegetarian]
-occasions: [meal-prep, weeknight, quick-lunch]
-seasons: [year-round]
+cookingMethods:
+  - bake
+dietary:
+  - vegetarian
+occasions:
+  - meal-prep
+  - weeknight
+  - quick-lunch
+seasons:
+  - year-round
 nutritionalDensity: moderate
 leftovers: excellent
-advancePrep: [make-ahead]
-equipment: [muffin-tin]
-flavorProfile: [rich]
-cuisines: [American]
+advancePrep:
+  - make-ahead
+equipment:
+  - muffin-tin
+flavorProfile:
+  - rich
+cuisines:
+  - American
 role: main
 vibe: nutritious
 prepTime: 10 min
 cookTime: 25 min
 totalTime: 35 min
 servings: '8'
-pairsWith: [brownie-protein-balls, homemade-rice-pilaf, puffy-muffin-chicken-salad]
+pairsWith:
+  - brownie-protein-balls
+  - homemade-rice-pilaf
+  - puffy-muffin-chicken-salad
 ingredients:
   - 6 large Eggs
   - 1/4 cup Whole Milk
@@ -27,6 +40,7 @@ ingredients:
   - '1 cup Fresh Spinach, chiffonade'
   - '1 oz Sharp Cheddar Cheese, shredded'
   - Cooking spray
+origin: United States
 ---
 
 ## Chef's Note

@@ -1,22 +1,38 @@
 ---
 title: Garlic Mashed "Mock" Potatoes
 difficulty: easy
-cookingMethods: [boil, steam, blend]
+cookingMethods:
+  - boil
+  - steam
+  - blend
 dietary: []
-occasions: [weeknight, comfort-food, light-and-fresh]
-seasons: [year-round]
+occasions:
+  - weeknight
+  - comfort-food
+  - light-and-fresh
+seasons:
+  - year-round
 nutritionalDensity: light
 leftovers: good
-equipment: [large-pot, food-processor]
-flavorProfile: [savory, umami, rich]
-cuisines: [American]
+equipment:
+  - large-pot
+  - food-processor
+flavorProfile:
+  - savory
+  - umami
+  - rich
+cuisines:
+  - American
 role: side
 vibe: quick
 prepTime: 10 min
 cookTime: 10 min
 totalTime: 20 min
 servings: '4'
-pairsWith: [instant-pot-butternut-squash-soup, avocado-toast, stovetop-macaroni-and-cheese]
+pairsWith:
+  - instant-pot-butternut-squash-soup
+  - avocado-toast
+  - stovetop-macaroni-and-cheese
 ingredients:
   - '1 medium head Cauliflower, cut into small florets'
   - '1 tbsp Cream Cheese, softened'
@@ -26,6 +42,7 @@ ingredients:
   - 1/2 tsp Better Than Bouillon (Chicken or Veggie base)
   - Salt and Black Pepper
   - 'Fresh Chives, chopped'
+origin: United States
 ---
 
 ## Chef's Note

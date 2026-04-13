@@ -1,39 +1,48 @@
 ---
 title: Shrimp Fettuccine Alfredo
 difficulty: easy
-cookingMethods: [boil, steam]
+cookingMethods:
+  - boil
+  - steam
 dietary: []
-occasions: [comfort-food, weeknight, date-night, indulgent]
-flavorProfile: [rich, herbaceous]
-cuisines: [Italian]
+occasions:
+  - comfort-food
+  - weeknight
+  - date-night
+  - indulgent
+flavorProfile:
+  - rich
+  - herbaceous
+cuisines:
+  - Italian
 role: main
 vibe: quick
 prepTime: 10 min
 cookTime: 15 min
 totalTime: 25 min
 servings: '4'
-seasons: [year-round]
+seasons:
+  - year-round
 nutritionalDensity: hearty
 leftovers: good
 equipment: []
-pairsWith: [avocado-kale-caesar-salad, garlic-bread]
+pairsWith:
+  - avocado-kale-caesar-salad
+  - garlic-bread
 ingredients:
   - 1 lb Fettuccine Pasta
   - '1 lb Jumbo Shrimp, peeled and deveined'
   - 2 tbsp Olive Oil
   - 1 tsp Garlic Powder
   - Salt and Black Pepper
-  - '1 batch Alfredo Sauce (See note)'
+  - 1 batch Alfredo Sauce (See note)
   - 'Fresh Parsley, chopped'
+origin: Italy
 ---
 
 ## Chef's Note
 
-Classic comfort food. While jarred sauce is a valid weeknight shortcut, making the [Real Alfredo Sauce](/mise/recipes/real-alfredo-sauce) takes only 5 minutes while the pasta boils and transforms the dish. Serve with the [Everyday Arugula Salad](/mise/recipes/everyday-arugula-salad) to cut the richness.
-
-## Directions
-
-This is an American combination of Italian fettuccine Alfredo with seafood, popularized by Italian-American restaurants in the mid-20th century. [Real Alfredo Sauce](/mise/recipes/real-alfredo-sauce) was created in 1908 by Alfredo di Lelio in Rome using only butter and Parmigiano-Reggiano - Americans later added cream to make it richer and more stable. The key with shrimp is a quick high-heat sear for about 2 minutes per side so they get some color but stay juicy inside - overcooking makes them rubbery. If making the sauce from scratch, be sure to scrape up any browned shrimp bits from the pan as they add tremendous flavor to the butter and cheese.
+Italian-American fettuccine Alfredo with shrimp traces back to Alfredo di Lelio's 1908 Rome original — just butter and Parmigiano-Reggiano, no cream. Americans added cream for richness and stability, then added shrimp because this is what we do. The key is a quick high-heat sear on the shrimp (2 minutes per side until pink with light char) — overcooking turns them rubbery. If making the [Real Alfredo Sauce](/mise/recipes/real-alfredo-sauce) from scratch, use the same skillet you seared the shrimp in — those browned bits dissolve into the butter and become free flavor.
 
 ## Directions
 

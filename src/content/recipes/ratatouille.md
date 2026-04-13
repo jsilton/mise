@@ -1,18 +1,31 @@
 ---
 title: Ratatouille
 difficulty: intermediate
-cookingMethods: [bake, roast, sauté, simmer]
-dietary: [vegetarian]
-occasions: [comfort-food, weekend-project]
-flavorProfile: [acidic, herbaceous]
-cuisines: [French]
+cookingMethods:
+  - bake
+  - roast
+  - sauté
+  - simmer
+dietary:
+  - vegetarian
+occasions:
+  - comfort-food
+  - weekend-project
+flavorProfile:
+  - acidic
+  - herbaceous
+cuisines:
+  - French
 role: main
 vibe: nutritious
 prepTime: 20 min
 cookTime: 40 min
 totalTime: 60 min
 servings: '6'
-pairsWith: [sweet-and-white-potato-gratin, tarragon-potatoes, garlicky-lemon-kale-with-carrots]
+pairsWith:
+  - sweet-and-white-potato-gratin
+  - tarragon-potatoes
+  - garlicky-lemon-kale-with-carrots
 ingredients:
   - '1 lb Eggplant, cubed'
   - '1 large Bell Pepper, chopped'
@@ -25,6 +38,12 @@ ingredients:
   - 1/4 tsp Red Pepper Flakes
   - 1 tsp Fresh Lemon Juice
   - Extra-Virgin Olive Oil
+origin: France
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: good
+equipment: []
 ---
 
 ## Chef's Note

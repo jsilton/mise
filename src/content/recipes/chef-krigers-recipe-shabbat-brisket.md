@@ -1,23 +1,27 @@
 ---
 title: Chef Kriger’s Recipe Shabbat Brisket
 difficulty: intermediate
-cookingMethods: [bake, braise]
+cookingMethods:
+  - bake
+  - braise
 dietary: []
-occasions: [holiday]
-flavorProfile: [sweet, savory]
-cuisines: [Jewish]
+occasions:
+  - holiday
+flavorProfile:
+  - sweet
+  - savory
+cuisines:
+  - Jewish
 role: main
 vibe: holiday
 prepTime: 30 min
-cookTime: 2 hours
-totalTime: 12 hours
+cookTime: 2 hr
+totalTime: 12 hr
 servings: '12'
 pairsWith:
-  [
-    nana-ruths-applesauce,
-    honey-glazed-carrots,
-    roasted-sunchokes-with-brown-butter-cider-vinaigrette,
-  ]
+  - nana-ruths-applesauce
+  - honey-glazed-carrots
+  - roasted-sunchokes-with-brown-butter-cider-vinaigrette
 ingredients:
   - 1 First-cut Brisket (4-5 lbs)
   - 1 bag Baby Carrots
@@ -30,12 +34,18 @@ ingredients:
   - 1 tbsp Garlic Powder
   - 1 tbsp Onion Powder
   - Salt and Black Pepper
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: excellent
+advancePrep:
+  - chill-overnight
+equipment: []
 ---
 
 ## Chef's Note
 
-This is a true "Traditional Recipe." While a traditional French braise uses wine and mirepoix, the American-Jewish Shabbat brisket relies on the **Ketchup and Grape Jelly** base to create a thick, sweet-and-savory glaze that is unmistakable. The secret to the texture is the **Overnight Chill**: by refrigerating the brisket in its sauce, the meat relaxes and becomes much easier to slice against the grain without falling apart.
-
+Shabbat brisket is the Friday ritual that defines Jewish home cooking—it goes into the oven before sundown and emerges fall-apart tender hours later. The slow braise at low temperature (275-300°F) breaks down collagen without drying the meat. Slice against the grain and spoon the braising liquid over each portion to keep it moist.
 ## Directions
 
 1.  **Season:** Season the brisket generously with salt and pepper on both sides. Place fat-side up in a heavy foil pan or Dutch oven.
@@ -45,3 +55,5 @@ This is a true "Traditional Recipe." While a traditional French braise uses wine
 5.  **The Chill:** Remove from oven. Let cool, then refrigerate the entire pan **overnight**.
 6.  **Slice:** Remove the cold meat from the sauce. Slice very thin **against the grain**.
 7.  **Finish:** Return the slices to the sauce. Re-bake, covered, at 325°F for 30-45 minutes until hot and the sauce is bubbling.
+
+**Rest:** Let cut Brisket rest for 5 minutes before slicing or serving — the juices redistribute and every piece stays moist.

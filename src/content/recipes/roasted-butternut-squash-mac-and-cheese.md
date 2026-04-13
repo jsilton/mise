@@ -1,18 +1,31 @@
 ---
 title: Butternut Squash Mac and Cheese
 difficulty: intermediate
-cookingMethods: [bake, roast, simmer, boil]
-dietary: [vegetarian]
-occasions: [comfort-food]
-flavorProfile: [spicy, umami, rich]
-cuisines: [American]
+cookingMethods:
+  - bake
+  - roast
+  - simmer
+  - boil
+dietary:
+  - vegetarian
+occasions:
+  - comfort-food
+flavorProfile:
+  - spicy
+  - umami
+  - rich
+cuisines:
+  - American
 role: main
 vibe: comfort
 prepTime: 15 min
 cookTime: 45 min
 totalTime: 60 min
 servings: '8'
-pairsWith: [garlic-mashed-mock-potatoes, garlic-mashed-red-potatoes, avocado-kale-caesar-salad]
+pairsWith:
+  - garlic-mashed-mock-potatoes
+  - garlic-mashed-red-potatoes
+  - avocado-kale-caesar-salad
 ingredients:
   - 1 lb Cavatappi or Cellentani Pasta
   - '3 cups Butternut Squash, 1-inch cubes'
@@ -25,6 +38,14 @@ ingredients:
   - Pinch of Nutmeg and Cayenne
   - 1/2 cup Panko Breadcrumbs
   - '2 tbsp Unsalted Butter, melted'
+  - '--- Lemon juice ---'
+  - '1 Lemon, juiced'
+origin: United States
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: good
+equipment: []
 ---
 
 ## Chef's Note
@@ -33,10 +54,12 @@ Roasting butternut squash at 400°F until tender and charred before folding it i
 
 ## Directions
 
-1.  **Roast Squash:** Preheat oven to 400°F. Toss squash cubes with olive oil, salt, and pepper. Roast for 25-30 minutes until tender and caramelized. Lower oven to 350°F.
+1.  **Roast Squash:** Preheat oven to 400°F. Toss squash cubes with olive oil, salt, and pepper. Roast for 25-30 minutes cook until caramelized and golden brown and caramelized. Lower oven to 350°F.
 2.  **Boil:** Cook pasta in salted water for 2 minutes **less** than package directions (very al dente).
 3.  **The Roux:** In a large pot, melt 4 tbsp butter. Whisk in flour and cook for 2 minutes until golden.
 4.  **Emulsify:** Slowly whisk in milk. Simmer until the sauce coats a spoon. Stir in the cheddar, mustard, nutmeg, and cayenne until molten.
 5.  **Combine:** Fold the pasta and roasted squash into the cheese sauce. Transfer to a greased 2-quart dish.
 6.  **The Crunch:** Toss panko with 2 tbsp melted butter and Parmesan. Sprinkle over the top.
 7.  **Bake:** Bake at 350°F for 30 minutes until bubbling and mahogany gold.
+
+

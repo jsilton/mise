@@ -1,11 +1,17 @@
 ---
 title: Hot Chocolate
 difficulty: intermediate
-cookingMethods: [slow-cook]
-dietary: [vegetarian]
-occasions: [holiday]
-flavorProfile: [sweet, rich]
-cuisines: [American]
+cookingMethods:
+  - slow-cook
+dietary:
+  - vegetarian
+occasions:
+  - holiday
+flavorProfile:
+  - sweet
+  - rich
+cuisines:
+  - American
 role: drink
 vibe: holiday
 prepTime: 10 min
@@ -13,16 +19,27 @@ cookTime: 120 min
 totalTime: 130 min
 servings: '8'
 ingredients:
-  - '6 cups Whole Milk'
-  - '2 cups Heavy Cream'
-  - '1/2 cup Granulated Sugar'
-  - '1/3 cup High-Quality Unsweetened Cocoa Powder'
+  - 6 cups Whole Milk
+  - 2 cups Heavy Cream
+  - 1/2 cup Granulated Sugar
+  - 1/3 cup High-Quality Unsweetened Cocoa Powder
   - '8 oz Bittersweet Chocolate (60% cacao), finely chopped'
-  - '2 teaspoons Vanilla Extract'
-  - '1 teaspoon Instant Espresso Powder (Brings out the chocolate depth)'
-  - '1/4 teaspoon Fine Sea Salt'
-  - 'Marshmallows and Shaved Chocolate for garnish'
+  - 2 teaspoons Vanilla Extract
+  - 1 teaspoon Instant Espresso Powder (Brings out the chocolate depth)
+  - 1/4 teaspoon Fine Sea Salt
+  - Marshmallows and Shaved Chocolate for garnish
   - '8 oz Irish Cream Liqueur (Optional, for adults)'
+origin: United States
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: excellent
+equipment: []
+pairsWith:
+  - almond-zucchini-bread
+  - avocado-kale-caesar-salad
+  - bakery-style-chocolate-chip-muffins
+  - banana-egg-oat-pancakes
 ---
 
 ## Chef's Note

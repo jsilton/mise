@@ -1,18 +1,27 @@
 ---
 title: Salsa Verde Chicken Casserole
 difficulty: easy
-cookingMethods: [bake]
+cookingMethods:
+  - bake
 dietary: []
-occasions: [comfort-food, meal-prep]
-flavorProfile: [acidic, rich]
-cuisines: [Mexican]
+occasions:
+  - comfort-food
+  - meal-prep
+flavorProfile:
+  - acidic
+  - rich
+cuisines:
+  - Mexican
 role: main
 vibe: nutritious
 prepTime: 10 min
 cookTime: 30 min
 totalTime: 40 min
 servings: '6'
-pairsWith: [cilantro-lime-rice, homemade-enchilada-sauce, mexican-street-corn-salad]
+pairsWith:
+  - cilantro-lime-rice
+  - homemade-enchilada-sauce
+  - mexican-street-corn-salad
 ingredients:
   - 2 cups Shredded Rotisserie Chicken
   - 1 cup Sour Cream (for richness)
@@ -22,6 +31,12 @@ ingredients:
   - '2 cups Roma Tomatoes, chopped'
   - '1/4 cup Fresh Cilantro, minced'
   - '1 Avocado, sliced (The Finishing Touch)'
+origin: Mexico
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: good
+equipment: []
 ---
 
 ## Chef's Note

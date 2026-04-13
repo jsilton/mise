@@ -1,22 +1,37 @@
 ---
 title: Shrimp with Black Bean Sauce
 difficulty: easy
-cookingMethods: [fry, sauté, simmer, boil, steam]
+cookingMethods:
+  - fry
+  - sauté
+  - simmer
+  - boil
+  - steam
 dietary: []
-occasions: [weeknight, quick-lunch]
-flavorProfile: [sweet, savory, umami]
-cuisines: [Chinese]
+occasions:
+  - weeknight
+  - quick-lunch
+flavorProfile:
+  - sweet
+  - savory
+  - umami
+cuisines:
+  - Chinese
 role: base
 vibe: quick
 prepTime: 20 min
 cookTime: 10 min
 totalTime: 30 min
 servings: '2'
-seasons: [year-round]
+seasons:
+  - year-round
 nutritionalDensity: moderate
 leftovers: good
-equipment: [wok]
-pairsWith: [basmati-rice, doc-cheys-chinese-lomein]
+equipment:
+  - wok
+pairsWith:
+  - basmati-rice
+  - doc-cheys-chinese-lomein
 ingredients:
   - 12 oz Shrimp (21/25 size)
   - 4 oz Ground Pork
@@ -29,6 +44,7 @@ ingredients:
   - 2 1/2 tbsp Cornstarch (slurry)
   - '1/4 cup Green Bell Pepper, diced'
   - '1 Scallion, chopped'
+origin: China
 ---
 
 ## Chef's Note

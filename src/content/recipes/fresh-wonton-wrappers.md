@@ -1,29 +1,39 @@
 ---
 title: Wonton Wrappers
 difficulty: intermediate
-cookingMethods: [boil]
+cookingMethods:
+  - boil
 dietary: []
-occasions: [weekend-project]
+occasions:
+  - weekend-project
 flavorProfile: []
-cuisines: [Chinese]
+cuisines:
+  - Chinese
 role: base
 vibe: technical
 prepTime: 20 min
 cookTime: 0 min
 totalTime: 60 min
-servings: '60 wrappers'
-seasons: [year-round]
+servings: 60 wrappers
+seasons:
+  - year-round
 nutritionalDensity: moderate
 leftovers: excellent
-advancePrep: [make-ahead, freeze-ahead]
-equipment: [pasta-roller]
-pairsWith: [cantonese-shrimp-and-pork-wontons, har-gow-dim-sum-shrimp-dumplings]
+advancePrep:
+  - make-ahead
+  - freeze-ahead
+equipment:
+  - pasta-roller
+pairsWith:
+  - cantonese-shrimp-and-pork-wontons
+  - har-gow-dim-sum-shrimp-dumplings
 ingredients:
-  - '2 cups All-Purpose Flour'
-  - '1/2 tsp Kosher Salt'
+  - 2 cups All-Purpose Flour
+  - 1/2 tsp Kosher Salt
   - '1 Egg, beaten'
-  - '1/3 cup Water (Adjust as needed)'
-  - 'Cornstarch (for dusting - Do not use flour for dusting!)'
+  - 1/3 cup Water (Adjust as needed)
+  - Cornstarch (for dusting - Do not use flour for dusting!)
+origin: China
 ---
 
 ## Chef's Note

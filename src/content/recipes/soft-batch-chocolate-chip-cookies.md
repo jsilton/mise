@@ -1,16 +1,30 @@
 ---
 title: Soft Batch Chocolate Chip Cookies
 difficulty: intermediate
-cookingMethods: [bake]
-dietary: [vegetarian]
-occasions: [holiday, entertaining, kids-approved, indulgent]
-seasons: [year-round]
+cookingMethods:
+  - bake
+dietary:
+  - vegetarian
+occasions:
+  - holiday
+  - entertaining
+  - kids-approved
+  - indulgent
+seasons:
+  - year-round
 nutritionalDensity: hearty
 leftovers: excellent
-equipment: [baking-sheet, stand-mixer]
-advancePrep: [make-ahead, freeze-ahead]
-flavorProfile: [sweet, rich]
-cuisines: [American]
+equipment:
+  - baking-sheet
+  - stand-mixer
+advancePrep:
+  - make-ahead
+  - freeze-ahead
+flavorProfile:
+  - sweet
+  - rich
+cuisines:
+  - American
 role: dessert
 vibe: quick
 prepTime: 10 min
@@ -27,12 +41,17 @@ ingredients:
   - 1 tsp Baking Soda + 1/2 tsp Baking Powder
   - 1 tsp Sea Salt
   - 2 cups (14 oz) Semi-sweet Chocolate Chips
+origin: United States
+pairsWith:
+  - apple-cider-cream-pie
+  - apple-pie
+  - babys-first-smash-cake
+  - best-cinnamon-roll-recipe-cinnabon-copycat
 ---
 
 ## Chef's Note
 
-This is a quick chocolate chip cookie recipe. The key is removing the cookies from the oven when the edges are barely golden but the centers still look wet and underdone. The residual heat on the baking pan will finish the cooking in about 2 minutes, resulting in a cookie with a crisp edge and soft, gooey center. We use a full 3 cups of flour to provide the structure needed to hold the massive amount of chocolate.
-
+Soft-batch cookies are built on restraint: the ratio of brown sugar to granulated sugar favors moisture, and pulling them pale (not golden) means they finish setting on the hot pan rather than in the oven, staying tender throughout. This is the opposite of the crispy-edged cookie—it's about achieving that bakery shelf texture that stays soft for days.
 ## Directions
 
 1.  **Dry Mix:** Whisk flour, baking soda, baking powder, and salt.

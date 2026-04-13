@@ -1,22 +1,36 @@
 ---
 title: Mini-Shell Pasta with Bacon and Peas
 difficulty: intermediate
-cookingMethods: [fry, boil]
-dietary: [vegetarian]
-occasions: [weeknight, quick-lunch, comfort-food]
-flavorProfile: [acidic, umami, rich, smoky]
-cuisines: [Italian]
+cookingMethods:
+  - fry
+  - boil
+dietary: []
+occasions:
+  - weeknight
+  - quick-lunch
+  - comfort-food
+flavorProfile:
+  - acidic
+  - umami
+  - rich
+  - smoky
+cuisines:
+  - Italian
 role: main
 vibe: quick
 prepTime: 10 min
 cookTime: 15 min
 totalTime: 25 min
 servings: '4'
-seasons: [year-round, spring]
+seasons:
+  - year-round
+  - spring
 nutritionalDensity: hearty
 leftovers: excellent
 equipment: []
-pairsWith: [everyday-arugula-salad, garlic-bread]
+pairsWith:
+  - everyday-arugula-salad
+  - garlic-bread
 ingredients:
   - 1 lb Dried Mini-Shell Pasta
   - '10 slices Smoked Bacon, slivered'
@@ -28,6 +42,7 @@ ingredients:
   - 1 tbsp Unsalted Butter
   - 1/2 cup Reserved Pasta Water
   - Salt and Black Pepper
+origin: Italy
 ---
 
 ## Chef's Note
@@ -43,3 +58,4 @@ This spring pasta variation adds peas, which come into season in Italy in April 
 5.  **Emulsify:** Add the hot pasta and the reserved pasta water to the skillet. Pour in the lemon juice.
 6.  **Toss:** Toss vigorously over medium-low heat for 1 minute. Add the Parmesan one handful at a time, stirring until the sauce is glossy and thick.
 7.  **Serve:** Garnish with extra mint and plenty of black pepper.
+

@@ -1,36 +1,48 @@
 ---
 title: Keto Egg Muffins
 difficulty: easy
-cookingMethods: [bake]
+cookingMethods:
+  - bake
 dietary: []
-occasions: [meal-prep, post-workout, quick-lunch]
-seasons: [year-round]
+occasions:
+  - meal-prep
+  - post-workout
+  - quick-lunch
+seasons:
+  - year-round
 nutritionalDensity: moderate
 leftovers: excellent
-equipment: [muffin-tin]
-advancePrep: [make-ahead]
-flavorProfile: [spicy, savory, rich]
-cuisines: [American]
+equipment:
+  - muffin-tin
+advancePrep:
+  - make-ahead
+flavorProfile:
+  - spicy
+  - savory
+  - rich
+cuisines:
+  - American
 role: main
 vibe: quick
 prepTime: 5 min
 cookTime: 20 min
 totalTime: 25 min
-servings: '12 muffins'
+servings: 12 muffins
 pairsWith:
-  [
-    avocado-kale-caesar-salad,
-    brownie-protein-balls,
-    roasted-sunchokes-with-brown-butter-cider-vinaigrette,
-  ]
+  - avocado-kale-caesar-salad
+  - brownie-protein-balls
+  - roasted-sunchokes-with-brown-butter-cider-vinaigrette
 ingredients:
-  - '12 large Eggs'
+  - 12 large Eggs
   - '5 oz Spanish Chorizo or Salami, finely diced'
   - '6 oz Sharp Cheddar, shredded'
   - '2 Scallions, finely chopped'
-  - '2 tbsp Basil Pesto (homemade or storebought)'
-  - 'Salt and Black Pepper'
-  - 'Unsalted Butter (for the tin)'
+  - 2 tbsp Basil Pesto (homemade or storebought)
+  - Salt and Black Pepper
+  - Unsalted Butter (for the tin)
+  - '--- Lemon juice ---'
+  - '1 Lemon, juiced'
+origin: United States
 ---
 
 ## Chef's Note
@@ -46,3 +58,5 @@ These are ideal for high-protein, low-carb meal prep. The secret to avoiding the
 5.  **Fill:** Pour the egg mixture into the muffin cups, filling each about 3/4 full. Sprinkle the remaining cheese over the tops for a golden "Bounce."
 6.  **Bake:** Bake for 15-20 minutes until the centers are set and the tops are slightly golden.
 7.  **Serve:** Let cool for 5 minutes before popping them out with a knife.
+
+

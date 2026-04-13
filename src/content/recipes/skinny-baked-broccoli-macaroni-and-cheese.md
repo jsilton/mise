@@ -1,16 +1,33 @@
 ---
 title: Skinny Broccoli Mac & Cheese
 difficulty: intermediate
-cookingMethods: [bake, sauté, simmer, boil]
+cookingMethods:
+  - bake
+  - sauté
+  - simmer
+  - boil
 dietary: []
-occasions: [weeknight, kids-approved, comfort-food, meal-prep]
-seasons: [year-round]
+occasions:
+  - weeknight
+  - kids-approved
+  - comfort-food
+  - meal-prep
+seasons:
+  - year-round
 nutritionalDensity: moderate
 leftovers: excellent
-equipment: [large-pot, large-skillet, baking-dish]
-advancePrep: [make-ahead]
-flavorProfile: [savory, umami, rich]
-cuisines: [American]
+equipment:
+  - large-pot
+  - large-skillet
+  - baking-dish
+advancePrep:
+  - make-ahead
+flavorProfile:
+  - savory
+  - umami
+  - rich
+cuisines:
+  - American
 role: side
 vibe: nutritious
 prepTime: 10 min
@@ -18,7 +35,9 @@ cookTime: 25 min
 totalTime: 35 min
 servings: '8'
 pairsWith:
-  [stovetop-macaroni-and-cheese, instant-pot-butternut-squash-soup, sheet-pan-chicken-broccoli]
+  - stovetop-macaroni-and-cheese
+  - instant-pot-butternut-squash-soup
+  - sheet-pan-chicken-broccoli
 ingredients:
   - 12 oz High-fiber Elbow Pasta
   - 12 oz Fresh Broccoli Florets
@@ -29,12 +48,14 @@ ingredients:
   - 1/4 cup Minced Onion
   - 1/4 cup Seasoned Breadcrumbs
   - '2 tbsp Parmesan, grated'
+  - '--- Lemon juice ---'
+  - '1 Lemon, juiced'
+origin: United States
 ---
 
 ## Chef's Note
 
-This is a lighter take on the classic side. The secret is using a mix of skim milk and chicken broth for the sauce—we achieve a rich, savory flavor without the heavy calories of cream. We cook the pasta and broccoli in the same pot, adding the broccoli during the final 2 minutes. This ensures the florets stay vibrant and crisp rather than dissolving into the sauce.
-
+Lighter mac and cheese works when you lean on technique instead of just cutting fat. The roux here uses less butter than a classic béchamel, but the combination of skim milk and chicken broth creates a sauce with real body — the broth adds savory depth that low-fat cheese alone can't deliver. Cooking the broccoli in the pasta water during the last 2 minutes is a one-pot trick that saves a pan and ensures the florets are perfectly tender without going army-green. The breadcrumb-Parmesan top is non-negotiable — it's the textural contrast that makes this satisfying.
 ## Directions
 
 1.  **The Pot:** Bring a large pot of salted water to a boil. Add pasta. 2 minutes before the pasta is al dente, add the broccoli florets. Drain.
@@ -43,3 +64,4 @@ This is a lighter take on the classic side. The secret is using a mix of skim mi
 4.  **Bind:** Remove from heat. Stir in the cheddar until molten. Fold in the cooked macaroni and broccoli.
 5.  **Bake:** Transfer to a greased baking dish. Sprinkle with breadcrumbs and Parmesan.
 6.  **Finish:** Bake at 375°F for 15-20 minutes. Broil for 2 minutes until the top is crispy and the cheese is "Snappy."
+

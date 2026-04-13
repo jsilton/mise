@@ -1,30 +1,47 @@
 ---
 title: Sweet Potatoes with Cinnamon
 difficulty: easy
-cookingMethods: [bake, roast, boil, steam]
+cookingMethods:
+  - bake
+  - roast
+  - boil
+  - steam
 dietary: []
-occasions: [weeknight, holiday, entertaining, comfort-food]
-seasons: [fall, winter]
+occasions:
+  - weeknight
+  - holiday
+  - entertaining
+  - comfort-food
+seasons:
+  - fall
+  - winter
 nutritionalDensity: moderate
 leftovers: good
 equipment: []
-flavorProfile: [sweet, acidic, rich]
-cuisines: [American]
+flavorProfile:
+  - sweet
+  - acidic
+  - rich
+cuisines:
+  - American
 role: side
 vibe: quick
 prepTime: 10 min
 cookTime: 25 min
 totalTime: 35 min
 servings: '4'
-pairsWith: [buttermilk-baked-chicken, rosemary-pork-tenderloin]
+pairsWith:
+  - buttermilk-baked-chicken
+  - rosemary-pork-tenderloin
 ingredients:
   - '2 lbs Sweet Potatoes, peeled and cut into 1/3-inch rounds'
   - '2 tbsp Unsalted Butter, melted'
-  - '2 tbsp Honey'
-  - '1 tbsp Fresh Lime Juice'
-  - '1/2 tsp Ground Cinnamon'
-  - 'Salt and Black Pepper'
-  - 'Cooking spray'
+  - 2 tbsp Honey
+  - 1 tbsp Fresh Lime Juice
+  - 1/2 tsp Ground Cinnamon
+  - Salt and Black Pepper
+  - Cooking spray
+origin: United States
 ---
 
 ## Chef's Note

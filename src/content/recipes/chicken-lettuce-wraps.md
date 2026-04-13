@@ -1,22 +1,39 @@
 ---
 title: Chicken Lettuce Wraps
 difficulty: easy
-cookingMethods: [fry]
+cookingMethods:
+  - fry
 dietary: []
-occasions: [weeknight, quick-lunch, light-and-fresh, entertaining]
-flavorProfile: [spicy, savory, acidic, umami, rich]
-cuisines: [Chinese]
+occasions:
+  - weeknight
+  - quick-lunch
+  - light-and-fresh
+  - entertaining
+flavorProfile:
+  - spicy
+  - savory
+  - acidic
+  - umami
+  - rich
+cuisines:
+  - Chinese
 role: main
 vibe: quick
 prepTime: 15 min
 cookTime: 10 min
 totalTime: 25 min
 servings: '4'
-seasons: [spring, summer, year-round]
+seasons:
+  - spring
+  - summer
+  - year-round
 nutritionalDensity: light
 leftovers: good
-equipment: [large-skillet]
-pairsWith: [smashed-cucumber-salad, steamed-broccoli]
+equipment:
+  - large-skillet
+pairsWith:
+  - smashed-cucumber-salad
+  - steamed-broccoli
 ingredients:
   - 1 lb Ground Chicken or Turkey
   - '1 cup Celery, finely diced (The crunch substitute)'
@@ -29,6 +46,7 @@ ingredients:
   - 1 tsp Toasted Sesame Oil
   - 1 head Bibb or Butter Lettuce (cup-shaped leaves)
   - Crispy Rice Noodles (optional)
+origin: China
 ---
 
 ## Chef's Note

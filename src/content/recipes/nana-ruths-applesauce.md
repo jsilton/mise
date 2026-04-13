@@ -1,11 +1,20 @@
 ---
 title: Nana Ruth’s Applesauce
 difficulty: easy
-cookingMethods: [roast, simmer, boil, blend]
-dietary: [vegetarian]
-occasions: [holiday]
-flavorProfile: [sweet, acidic]
-cuisines: [Jewish]
+cookingMethods:
+  - roast
+  - simmer
+  - boil
+  - blend
+dietary:
+  - vegetarian
+occasions:
+  - holiday
+flavorProfile:
+  - sweet
+  - acidic
+cuisines:
+  - Jewish
 role: base
 vibe: nutritious
 prepTime: 10 min
@@ -13,11 +22,9 @@ cookTime: 30 min
 totalTime: 40 min
 servings: '6'
 pairsWith:
-  [
-    miriams-melt-in-your-mouth-rosh-hashanah-brisket,
-    brisket-with-carrots-and-onions,
-    chef-krigers-recipe-shabbat-brisket,
-  ]
+  - miriams-melt-in-your-mouth-rosh-hashanah-brisket
+  - brisket-with-carrots-and-onions
+  - chef-krigers-recipe-shabbat-brisket
 ingredients:
   - 6 lbs McIntosh Apples
   - 1/2 cup Granulated Sugar
@@ -26,6 +33,11 @@ ingredients:
   - 3 shakes Ground Cinnamon
   - 1 shake Ground Nutmeg
   - Filtered Water
+seasons:
+  - year-round
+nutritionalDensity: light
+leftovers: good
+equipment: []
 ---
 
 ## Chef's Note

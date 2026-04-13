@@ -2,37 +2,60 @@
 title: Oi Muchim
 origin: Korea
 difficulty: easy
-cookingMethods: [grill]
-dietary: [vegetarian]
-occasions: [weeknight, light-and-fresh]
-flavorProfile: [spicy, sweet, savory, acidic, umami]
-cuisines: [Korean]
+cookingMethods:
+  - grill
+dietary:
+  - vegetarian
+occasions:
+  - weeknight
+  - light-and-fresh
+flavorProfile:
+  - spicy
+  - sweet
+  - savory
+  - acidic
+  - umami
+cuisines:
+  - Korean
 role: side
 vibe: nutritious
-season: [spring, summer, fall, winter]
+season:
+  - spring
+  - summer
+  - fall
+  - winter
 leftovers: good
 healthiness: light
-pairsWith: [bibimbap, kalbi-grilled-korean-style-short-ribs, basmati-rice, tacos]
+pairsWith:
+  - bibimbap
+  - kalbi-grilled-korean-style-short-ribs
+  - basmati-rice
+  - tacos
 prepTime: 10 min
 cookTime: 0 min
 totalTime: 30 min
 servings: '4'
 ingredients:
   - '2 English cucumbers (or 6 Persian cucumbers), sliced into 1/8-inch rounds'
-  - '1 tsp Salt (for drawing out moisture)'
-  - '1 tbsp Gochugaru (Korean red chili flakes)'
-  - '1 tbsp Rice Vinegar'
-  - '1 tbsp Soy Sauce'
-  - '1 tsp Sugar'
-  - '1 tsp Toasted Sesame Oil'
-  - '1 tsp Toasted Sesame Seeds'
+  - 1 tsp Salt (for drawing out moisture)
+  - 1 tbsp Gochugaru (Korean red chili flakes)
+  - 1 tbsp Rice Vinegar
+  - 1 tbsp Soy Sauce
+  - 1 tsp Sugar
+  - 1 tsp Toasted Sesame Oil
+  - 1 tsp Toasted Sesame Seeds
   - '1 clove Garlic, minced'
   - '2 Green Onions, thinly sliced'
+seasons:
+  - year-round
+nutritionalDensity: moderate
+equipment: []
 ---
 
 ## Chef's Note
 
 These are quick Korean pickles. To get the crisp texture, you must salt the cucumbers first and let them sit for 20 minutes to draw out excess water. This prevents the dressing from becoming watery and allows the flavors to penetrate the vegetable.
+For kids, serve the heat on the side or reduce/omit the spicy elements.
 
 ## Directions
 

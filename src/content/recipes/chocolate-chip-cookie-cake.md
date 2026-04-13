@@ -1,11 +1,17 @@
 ---
 title: Chocolate Chip Cookie Cake
 difficulty: easy
-cookingMethods: [bake]
-dietary: [vegetarian]
-occasions: [holiday]
-flavorProfile: [sweet, rich]
-cuisines: [American]
+cookingMethods:
+  - bake
+dietary:
+  - vegetarian
+occasions:
+  - holiday
+flavorProfile:
+  - sweet
+  - rich
+cuisines:
+  - American
 role: dessert
 vibe: holiday
 prepTime: 20 min
@@ -23,6 +29,17 @@ ingredients:
   - 1/2 tsp Sea Salt
   - 2 cups Semisweet Chocolate Discs (preferred over chips)
   - 1 1/4 cups M&Ms (divided)
+origin: United States
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: good
+equipment: []
+pairsWith:
+  - apple-cider-cream-pie
+  - apple-pie
+  - babys-first-smash-cake
+  - best-cinnamon-roll-recipe-cinnabon-copycat
 ---
 
 ## Chef's Note

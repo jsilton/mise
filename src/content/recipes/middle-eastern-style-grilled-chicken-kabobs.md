@@ -2,18 +2,28 @@
 title: Chicken Kabobs
 origin: Middle East
 difficulty: easy
-cookingMethods: [grill]
+cookingMethods:
+  - grill
 dietary: []
-occasions: [summer, entertaining]
-flavorProfile: [acidic, herbaceous]
-cuisines: [Lebanese, Middle Eastern]
+occasions:
+  - summer
+  - entertaining
+flavorProfile:
+  - acidic
+  - herbaceous
+cuisines:
+  - Lebanese
+  - Middle Eastern
 role: main
 vibe: nutritious
 prepTime: 35 min
 cookTime: 15 min
 totalTime: 50 min
 servings: '6'
-pairsWith: [lemon-herb-couscous, garlic-butter-couscous, garlic-paste-toum-the-washington-post]
+pairsWith:
+  - lemon-herb-couscous
+  - garlic-butter-couscous
+  - garlic-paste-toum-the-washington-post
 ingredients:
   - '2 1/2 lbs Chicken Thighs, cut into 1.5-inch pieces'
   - '1 large Red Onion, cut into 1-inch chunks'
@@ -27,6 +37,13 @@ ingredients:
   - 1/8 tsp Cinnamon (The complex flavor)
   - 1 tsp Red Pepper Flakes
   - Salt and Black Pepper
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: good
+equipment: []
+advancePrep:
+  - marinate-overnight
 ---
 
 ## Chef's Note

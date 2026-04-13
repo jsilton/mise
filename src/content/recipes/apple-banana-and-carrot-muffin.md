@@ -1,15 +1,23 @@
 ---
 title: Apple Banana and Carrot Muffins
-audience: 'kids'
+audience: kids
 kb:
   disable:
-    - 'kb.plating-suggestion'
+    - kb.plating-suggestion
 difficulty: easy
-cookingMethods: [bake, simmer, boil]
-dietary: [vegetarian]
-occasions: [kids-approved]
-flavorProfile: [rich, herbaceous]
-cuisines: [American]
+cookingMethods:
+  - bake
+  - simmer
+  - boil
+dietary:
+  - vegetarian
+occasions:
+  - kids-approved
+flavorProfile:
+  - rich
+  - herbaceous
+cuisines:
+  - American
 role: side
 vibe: nutritious
 prepTime: 15 min
@@ -17,11 +25,9 @@ cookTime: 20 min
 totalTime: 35 min
 servings: 12 muffins
 pairsWith:
-  [
-    chicken-and-wild-rice-soup,
-    garlic-butter-roasted-salmon-with-potatoes-and-asparagus,
-    good-eats-roast-turkey,
-  ]
+  - chicken-and-wild-rice-soup
+  - garlic-butter-roasted-salmon-with-potatoes-and-asparagus
+  - good-eats-roast-turkey
 ingredients:
   - '1 Apple, finely grated (not pureed)'
   - '1 large Carrot, finely grated'
@@ -33,6 +39,12 @@ ingredients:
   - 1 tsp Vanilla Extract
   - 1/2 tsp Cinnamon
   - Pinch of Salt
+origin: United States
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: good
+equipment: []
 ---
 
 ## Chef's Note

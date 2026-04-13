@@ -1,11 +1,25 @@
 ---
 title: Spiced Butternut Squash Soup
 difficulty: easy
-cookingMethods: [bake, roast, grill, sauté, simmer, boil, steam, blend]
-dietary: [vegetarian]
-occasions: [holiday, comfort-food]
-flavorProfile: [acidic, rich]
-cuisines: [American]
+cookingMethods:
+  - bake
+  - roast
+  - grill
+  - sauté
+  - simmer
+  - boil
+  - steam
+  - blend
+dietary:
+  - vegetarian
+occasions:
+  - holiday
+  - comfort-food
+flavorProfile:
+  - acidic
+  - rich
+cuisines:
+  - American
 role: main
 vibe: comfort
 prepTime: 20 min
@@ -13,11 +27,9 @@ cookTime: 135 min
 totalTime: 155 min
 servings: '10'
 pairsWith:
-  [
-    cinnamon-sweet-potatoes,
-    green-beans-with-shallots-and-lemon,
-    roasted-sunchokes-with-brown-butter-cider-vinaigrette,
-  ]
+  - cinnamon-sweet-potatoes
+  - green-beans-with-shallots-and-lemon
+  - roasted-sunchokes-with-brown-butter-cider-vinaigrette
 ingredients:
   - 4 lbs Whole Butternut Squash
   - 7 cups Filtered Water
@@ -29,12 +41,17 @@ ingredients:
   - 1 tbsp Apple Cider Vinegar (The Acid Balance)
   - 1/2 cup Pomegranate Arils
   - 1/4 cup Fresh Cilantro
+origin: United States
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: good
+equipment: []
 ---
 
 ## Chef's Note
 
-This is a wonderful holiday soup with deep flavor. The secret is making a scrap stock: we simmer the squash peels, seeds, and trimmings with whole cinnamon and star anise for 45 minutes to create a concentrated, spiced broth. This introduces a complex flavor that plain water lacks. We use a two-stage cooking method: roasting the squash cubes in the pot with onions _before_ adding the broth creates caramelized flavors that define the puree.
-
+Butternut squash soup exists in many cuisines—this version uses the American strategy of infusing the broth itself with whole spices and the squash's own trimmings, building depth before the puree. The pomegranate arils and cilantro finish is not traditional to early American cooking, but it honors the principle: acid and herbaceous brightness must cut the richness of a creamed soup.
 ## Directions
 
 1.  **Harvest Broth:** Peel and seed the squash. Place all trimmings, seeds, and whole spices in a pot with 7 cups water. Simmer for 45 minutes. Strain and reserve the liquid.

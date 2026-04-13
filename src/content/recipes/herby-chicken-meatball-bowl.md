@@ -1,18 +1,34 @@
 ---
 title: Herby Chicken Meatball Bowl
 difficulty: easy
-cookingMethods: [bake, roast, no-cook, blend]
+cookingMethods:
+  - bake
+  - roast
+  - no-cook
+  - blend
 dietary: []
-occasions: [weeknight, meal-prep]
-flavorProfile: [spicy, sweet, savory, acidic, rich, herbaceous]
-cuisines: [Mediterranean]
+occasions:
+  - weeknight
+  - meal-prep
+flavorProfile:
+  - spicy
+  - sweet
+  - savory
+  - acidic
+  - rich
+  - herbaceous
+cuisines:
+  - Mediterranean
 role: main
 vibe: nutritious
 prepTime: 15 min
 cookTime: 30 min
 totalTime: 45 min
 servings: '4'
-pairsWith: [lemon-herb-couscous, whipped-feta-with-honey, garlic-butter-couscous]
+pairsWith:
+  - lemon-herb-couscous
+  - whipped-feta-with-honey
+  - garlic-butter-couscous
 ingredients:
   - 1 lb Ground Chicken
   - 1 cup Whole-Milk Ricotta for richness
@@ -29,6 +45,12 @@ ingredients:
   - '1 Jalapeño, seeded'
   - 1 tbsp Honey
   - 1 tbsp Fresh Lemon Juice
+origin: Mediterranean
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: good
+equipment: []
 ---
 
 ## Chef's Note
@@ -44,3 +66,5 @@ Folding whole-milk ricotta into ground chicken creates a fat-moisture barrier th
 5.  **The Emulsion:** In a food processor, blend the yogurt, basil, jalapeño, honey, and lemon juice until vibrant green and smooth.
 6.  **Assemble:** Divide the kale among four bowls. Top with the roasted chickpeas, sweet potatoes, and meatballs.
 7.  **Finish:** Drizzle generously with the dressing for the mandatory **Acid Balance**.
+
+**Rest:** Let Ground Chicken rest for 10 minutes before slicing or serving — the juices redistribute and every piece stays moist.

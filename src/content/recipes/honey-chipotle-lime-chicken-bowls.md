@@ -1,18 +1,29 @@
 ---
 title: Honey Chipotle Lime Chicken Bowls
 difficulty: easy
-cookingMethods: [grill, no-cook]
+cookingMethods:
+  - grill
+  - no-cook
 dietary: []
-occasions: [weeknight, meal-prep]
-flavorProfile: [sweet, acidic, rich]
-cuisines: [Mexican]
+occasions:
+  - weeknight
+  - meal-prep
+flavorProfile:
+  - sweet
+  - acidic
+  - rich
+cuisines:
+  - Mexican
 role: main
 vibe: nutritious
 prepTime: 45 min
 cookTime: 10 min
 totalTime: 55 min
 servings: '6'
-pairsWith: [cilantro-lime-rice, mexican-street-corn-salad, quick-seasoned-black-beans]
+pairsWith:
+  - cilantro-lime-rice
+  - mexican-street-corn-salad
+  - quick-seasoned-black-beans
 ingredients:
   - 2 lbs Thin-cut Chicken Breasts (Butterflied)
   - 2 tbsp Finely chopped Chipotle Peppers in Adobo
@@ -25,6 +36,12 @@ ingredients:
   - Fresh Spinach or Spring Mix
   - Chopped Tomatoes and Avocado
   - Fresh Lime wedges
+origin: Mexico
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: poor
+equipment: []
 ---
 
 ## Chef's Note

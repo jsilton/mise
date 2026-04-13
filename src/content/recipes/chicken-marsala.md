@@ -5,30 +5,49 @@ cookTime: 25 min
 totalTime: 45 min
 servings: '4'
 ingredients:
-  - '1.5 lbs boneless skinless chicken thighs (pounded 1/4-inch thick)'
-  - '1/2 cup all-purpose flour (for dredging)'
-  - '1/2 tsp kosher salt'
-  - '1/2 tsp freshly ground black pepper'
-  - '1/4 cup extra-virgin olive oil'
+  - 1.5 lbs boneless skinless chicken thighs (pounded 1/4-inch thick)
+  - 1/2 cup all-purpose flour (for dredging)
+  - 1/2 tsp kosher salt
+  - 1/2 tsp freshly ground black pepper
+  - 1/4 cup extra-virgin olive oil
   - '4 ounces prosciutto, thinly sliced and chopped'
   - '8 ounces crimini or porcini mushrooms, stemmed and halved'
-  - '3/4 cup Dry Marsala wine (Avoid sweet Marsala for savory dishes)'
-  - '3/4 cup chicken stock'
+  - 3/4 cup Dry Marsala wine (Avoid sweet Marsala for savory dishes)
+  - 3/4 cup chicken stock
   - '2 tablespoons unsalted butter, cold and cubed'
   - 'Fresh parsley, chopped'
 difficulty: easy
-cookingMethods: [sauté, simmer, boil]
+cookingMethods:
+  - sauté
+  - simmer
+  - boil
 dietary: []
-occasions: [weeknight, date-night, entertaining, comfort-food]
-flavorProfile: [savory, umami, rich]
-cuisines: [Italian]
+occasions:
+  - weeknight
+  - date-night
+  - entertaining
+  - comfort-food
+flavorProfile:
+  - savory
+  - umami
+  - rich
+cuisines:
+  - Italian
 role: main
 vibe: comfort
-seasons: [year-round, fall, winter]
+seasons:
+  - year-round
+  - fall
+  - winter
 nutritionalDensity: moderate
 leftovers: good
-equipment: [large-skillet]
-pairsWith: [perfect-mashed-potatoes, fresh-egg-pasta, green-beans-with-shallots-and-lemon]
+equipment:
+  - large-skillet
+pairsWith:
+  - perfect-mashed-potatoes
+  - fresh-egg-pasta
+  - green-beans-with-shallots-and-lemon
+origin: Italy
 ---
 
 dietary: []

@@ -1,13 +1,19 @@
 ---
 title: Snickerdoodles
 aliases:
-  - 'snickerdoodles-the-tangy-classic'
+  - snickerdoodles-the-tangy-classic
 difficulty: easy
-cookingMethods: [bake]
-dietary: [vegetarian]
-occasions: [comfort-food]
-flavorProfile: [sweet, rich]
-cuisines: [American]
+cookingMethods:
+  - bake
+dietary:
+  - vegetarian
+occasions:
+  - comfort-food
+flavorProfile:
+  - sweet
+  - rich
+cuisines:
+  - American
 role: dessert
 vibe: comfort
 prepTime: 15 min
@@ -24,6 +30,17 @@ ingredients:
   - 1/2 tsp Kosher Salt
   - 3 tbsp Sugar
   - 3 tsp Ground Cinnamon
+origin: United States
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: good
+equipment: []
+pairsWith:
+  - apple-cider-cream-pie
+  - apple-pie
+  - babys-first-smash-cake
+  - best-cinnamon-roll-recipe-cinnabon-copycat
 ---
 
 ## Chef's Note

@@ -5,7 +5,17 @@
   "severity": "hint",
   "description": "If a recipe sears or roasts a large piece of meat and doesn't mention resting, recommend a rest to allow juices to redistribute.",
   "detection": [
-    { "type": "method_presence", "words": ["sear", "roast", "grill"] },
+    { "type": "method_presence", "words": ["roast", "grill"] },
+    {
+      "type": "ingredient_presence",
+      "words": ["steak", "roast", "chop", "cutlet", "whole", "breast", "thigh", "leg", "shank", "shoulder"],
+      "optional": true
+    },
+    {
+      "type": "ingredient_absence",
+      "words": ["ground", "minced", "shredded", "crumbled"],
+      "optional": false
+    },
     {
       "type": "text_absence",
       "words": ["rest", "resting", "let rest", "carryover"],

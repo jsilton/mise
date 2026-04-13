@@ -1,31 +1,51 @@
 ---
 title: Classic Coleslaw
 difficulty: easy
-cookingMethods: [raw, mix]
-dietary: [vegetarian, gluten-free]
-occasions: [summer, bbq, picnic, potluck]
-flavorProfile: [acidic, sweet, creamy]
-cuisines: [American, Southern]
+cookingMethods:
+  - raw
+  - mix
+dietary:
+  - vegetarian
+  - gluten-free
+occasions:
+  - summer
+  - bbq
+  - picnic
+  - potluck
+flavorProfile:
+  - acidic
+  - sweet
+  - creamy
+cuisines:
+  - American
+  - Southern
 role: side
 vibe: quick
 prepTime: 15 min
 cookTime: 0 min
 totalTime: 15 min
 servings: '8'
-seasons: [spring, summer, year-round]
+seasons:
+  - spring
+  - summer
+  - year-round
 nutritionalDensity: light
 leftovers: good
 equipment: []
-pairsWith: [pulled-pork, honey-glazed-spareribs, buttermilk-baked-chicken]
+pairsWith:
+  - pulled-pork
+  - honey-glazed-spareribs
+  - buttermilk-baked-chicken
 ingredients:
-  - 1 medium Green Cabbage (about 2 lbs), cored and thinly sliced
-  - 2 large Carrots, peeled and grated
+  - '1 medium Green Cabbage (about 2 lbs), cored and thinly sliced'
+  - '2 large Carrots, peeled and grated'
   - 1 cup Mayonnaise
   - 2 tbsp Apple Cider Vinegar
   - 1 tbsp Sugar
   - 1 tsp Dijon Mustard
   - 1/2 tsp Celery Seed
   - Salt and Black Pepper to taste
+origin: United States
 ---
 
 ## Chef's Note

@@ -1,22 +1,37 @@
 ---
 title: Cinnamon French Toast Sticks
 difficulty: easy
-cookingMethods: []
-dietary: [vegetarian]
-occasions: [weeknight, kids-approved, weekend-project]
-seasons: [year-round]
+cookingMethods:
+  - sear
+  - toast
+dietary:
+  - vegetarian
+occasions:
+  - weeknight
+  - kids-approved
+  - weekend-project
+seasons:
+  - year-round
 nutritionalDensity: hearty
 leftovers: poor
-equipment: [large-skillet, mixing-bowl]
-flavorProfile: [sweet, rich]
-cuisines: [American]
+equipment:
+  - large-skillet
+  - mixing-bowl
+flavorProfile:
+  - sweet
+  - rich
+cuisines:
+  - American
 role: main
 vibe: quick
 prepTime: 10 min
 cookTime: 10 min
 totalTime: 20 min
 servings: '6'
-pairsWith: [almond-zucchini-bread, anadama-bread, bakery-style-chocolate-chip-muffins]
+pairsWith:
+  - almond-zucchini-bread
+  - anadama-bread
+  - bakery-style-chocolate-chip-muffins
 ingredients:
   - 8 slices Thick-cut Texas Toast (Day-old preferred)
   - 4 large Eggs
@@ -27,6 +42,7 @@ ingredients:
   - Unsalted Butter (for the pan)
   - Warm Maple Syrup
   - Fresh Berries
+origin: United States
 ---
 
 ## Chef's Note
@@ -41,3 +57,4 @@ Slightly stale bread acts like a sponge for custard without falling apart - fres
 4.  **The Sear:** Heat a large skillet over medium. Add 2 tbsp butter. Once foaming, add the sticks in a single layer (do not crowd).
 5.  **Rotate:** Cook for 2 minutes per side, rotating until all four sides are deep golden brown and slightly crispy.
 6.  **Serve:** Serve hot with a side of warm maple syrup for dipping and fresh berries.
+

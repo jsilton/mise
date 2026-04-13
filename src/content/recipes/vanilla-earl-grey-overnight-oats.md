@@ -1,23 +1,36 @@
 ---
 title: Vanilla Earl Grey Overnight Oats
 difficulty: intermediate
-cookingMethods: [boil]
-dietary: [vegetarian]
-occasions: [meal-prep, post-workout]
-seasons: [year-round]
+cookingMethods:
+  - boil
+dietary:
+  - vegetarian
+occasions:
+  - meal-prep
+  - post-workout
+seasons:
+  - year-round
 nutritionalDensity: moderate
 leftovers: excellent
-equipment: [mason-jar]
-advancePrep: [make-ahead]
-flavorProfile: [sweet]
-cuisines: [American]
+equipment:
+  - mason-jar
+advancePrep:
+  - make-ahead
+  - overnight-soak
+flavorProfile:
+  - sweet
+cuisines:
+  - American
 role: main
 vibe: nutritious
 prepTime: 10 min
 cookTime: 0 min
 totalTime: 370 min
 servings: '2'
-pairsWith: [banana-oat-greek-yogurt-muffins, brownie-protein-balls, granola]
+pairsWith:
+  - banana-oat-greek-yogurt-muffins
+  - brownie-protein-balls
+  - granola
 ingredients:
   - 2 cups Rolled Oats (Old-fashioned preferred)
   - 1 cup Boiling Water + 1 Earl Grey Tea Bag
@@ -26,12 +39,12 @@ ingredients:
   - 1 tsp Pure Vanilla Extract
   - 1 Stroopwafel or Crisp Cookie (the crunch garnish)
   - Pinch of Sea Salt
+origin: United States
 ---
 
 ## Chef's Note
 
-This is an energizing breakfast that uses a smart infusion technique. By steeping the oats in a concentrated Earl Grey base _before_ the milk, we ensure the bergamot oils penetrate the grains deeply. This results in a flavor that is fragrant and complex rather than just sweet. Overnight hydration (at least 6 hours) is essential to ensure the oats are chewy to the bite (al dente). The Stroopwafel provides the final textural contrast.
-
+Overnight oats are a Scandinavian trick for zero-effort weekday mornings—the oats hydrate in the fridge while you sleep, becoming creamy without cooking. Earl Grey tea and vanilla extract steeped into the milk give this version a subtle floral complexity that plain oats can't touch. The silky, pudding-like texture comes from the right ratio of oats to liquid, not from added ingredients.
 ## Directions
 
 1.  **The Infusion:** Steep the Earl Grey bag in 1 cup boiling water for 5 minutes. Discard the bag. Stir in the honey while hot until dissolved.

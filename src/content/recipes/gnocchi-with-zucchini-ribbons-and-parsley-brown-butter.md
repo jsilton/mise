@@ -1,22 +1,38 @@
 ---
 title: Gnocchi with Zucchini Ribbons & Brown Butter
 difficulty: intermediate
-cookingMethods: [roast, sauté, boil]
-dietary: [vegetarian]
-occasions: [weeknight, quick-lunch, light-and-fresh]
-flavorProfile: [umami, rich, herbaceous]
-cuisines: [Italian]
+cookingMethods:
+  - roast
+  - sauté
+  - boil
+dietary:
+  - vegetarian
+occasions:
+  - weeknight
+  - quick-lunch
+  - light-and-fresh
+flavorProfile:
+  - umami
+  - rich
+  - herbaceous
+cuisines:
+  - Italian
 role: main
 vibe: quick
 prepTime: 10 min
 cookTime: 10 min
 totalTime: 20 min
 servings: '4'
-seasons: [spring, summer, year-round]
+seasons:
+  - spring
+  - summer
+  - year-round
 nutritionalDensity: moderate
 leftovers: good
 equipment: []
-pairsWith: [everyday-arugula-salad, vietnamese-grilled-chicken]
+pairsWith:
+  - everyday-arugula-salad
+  - vietnamese-grilled-chicken
 ingredients:
   - 1 lb Fresh or Frozen Potato Gnocchi
   - '1 lb Zucchini (about 3 small), shaved into ribbons'
@@ -27,6 +43,7 @@ ingredients:
   - 1/2 cup Freshly Grated Parmesan
   - 1/4 tsp Ground Nutmeg (The "High Note")
   - Salt and Black Pepper
+origin: Italy
 ---
 
 ## Chef's Note
@@ -41,3 +58,4 @@ Brown butter (beurre noisette in French, literally "hazelnut butter") is a class
 4.  **Emulsify:** Add halved tomatoes, salt, nutmeg, and pepper. Cook for 2 minutes until the tomatoes just begin to release their juices and form a light sauce.
 5.  **Toss:** Add the drained gnocchi, Parmesan, and parsley to the skillet.
 6.  **Bind:** Toss vigorously for 30 seconds until the cheese is melted and the gnocchi is glossy and coated. Serve immediately.
+

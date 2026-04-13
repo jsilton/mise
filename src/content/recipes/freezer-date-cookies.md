@@ -1,16 +1,31 @@
 ---
 title: Freezer Date Cookies
 difficulty: easy
-cookingMethods: [bake, blend]
-dietary: [vegetarian]
-occasions: [meal-prep, post-workout, quick-lunch, kids-approved]
-seasons: [year-round]
+cookingMethods:
+  - bake
+  - blend
+dietary:
+  - vegetarian
+occasions:
+  - meal-prep
+  - post-workout
+  - quick-lunch
+  - kids-approved
+seasons:
+  - year-round
 nutritionalDensity: moderate
 leftovers: excellent
-equipment: [baking-sheet, food-processor]
-advancePrep: [make-ahead, freeze-ahead]
-flavorProfile: [sweet, rich]
-cuisines: [American]
+equipment:
+  - baking-sheet
+  - food-processor
+advancePrep:
+  - make-ahead
+  - freeze-ahead
+flavorProfile:
+  - sweet
+  - rich
+cuisines:
+  - American
 role: main
 vibe: nutritious
 prepTime: 15 min
@@ -18,7 +33,9 @@ cookTime: 12 min
 totalTime: 30 min
 servings: 24 cookies
 pairsWith:
-  [banana-oat-greek-yogurt-muffins, brownie-protein-balls, strawberry-quinoa-breakfast-bars]
+  - banana-oat-greek-yogurt-muffins
+  - brownie-protein-balls
+  - strawberry-quinoa-breakfast-bars
 ingredients:
   - '1 cup Medjool Dates, pitted'
   - '1/2 cup Unsalted Butter, melted'
@@ -31,6 +48,7 @@ ingredients:
   - 1/2 tsp Baking Soda
   - 1/2 tsp Ground Cinnamon
   - Pinch of Sea Salt
+origin: United States
 ---
 
 ## Chef's Note
@@ -46,3 +64,4 @@ These are nutritious cookies designed for long-term freezer storage. The key to 
 5.  **Shape:** Preheat oven to 350°F. Roll the dough into small balls (about 1 tbsp each). Place on a greased cookie sheet and **press down firmly** with your palm to create a 1/2-inch thick disk.
 6.  **Bake:** Bake for 12-15 minutes until the edges are lightly browned.
 7.  **The Freeze:** Let cool completely. Transfer to a freezer bag. These are at their Kitchen Standard when eaten straight from the freezer.
+

@@ -1,14 +1,28 @@
 ---
 title: Grandmommy’s Pound Cake
 difficulty: intermediate
-cookingMethods: [bake]
-dietary: [vegetarian]
-occasions: [holiday, entertaining, weekend-project, comfort-food]
-flavorProfile: [sweet, acidic, rich]
-cuisines: [Southern]
+cookingMethods:
+  - bake
+dietary:
+  - vegetarian
+occasions:
+  - holiday
+  - entertaining
+  - weekend-project
+  - comfort-food
+flavorProfile:
+  - sweet
+  - acidic
+  - rich
+cuisines:
+  - Southern
 role: dessert
 vibe: technical
-season: [spring, summer, fall, winter]
+season:
+  - spring
+  - summer
+  - fall
+  - winter
 leftovers: excellent
 healthiness: hearty
 makeAhead: true
@@ -24,6 +38,16 @@ ingredients:
   - 1 tsp Lemon Extract
   - 1 tsp Almond Extract
   - 1 tsp Pure Vanilla Extract
+origin: United States
+seasons:
+  - year-round
+nutritionalDensity: moderate
+equipment: []
+pairsWith:
+  - red-velvet-cupcakes
+  - banana-pudding
+  - grandmommys-pecan-pie
+  - apple-cider-cream-pie
 ---
 
 ## Chef's Note

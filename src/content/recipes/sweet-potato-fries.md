@@ -1,15 +1,28 @@
 ---
 title: Sweet Potato Fries
 difficulty: easy
-cookingMethods: [bake, roast, fry, steam]
-dietary: [vegetarian]
-occasions: [weeknight, kids-approved]
-seasons: [year-round]
+cookingMethods:
+  - bake
+  - roast
+  - fry
+  - steam
+dietary:
+  - vegetarian
+occasions:
+  - weeknight
+  - kids-approved
+seasons:
+  - year-round
 nutritionalDensity: moderate
 leftovers: poor
-equipment: [sheet-pan]
-flavorProfile: [sweet, savory, smoky]
-cuisines: [American]
+equipment:
+  - sheet-pan
+flavorProfile:
+  - sweet
+  - savory
+  - smoky
+cuisines:
+  - American
 role: main
 vibe: nutritious
 prepTime: 10 min
@@ -17,11 +30,9 @@ cookTime: 25 min
 totalTime: 35 min
 servings: '4'
 pairsWith:
-  [
-    roasted-sweet-potatoes,
-    honey-glazed-carrots,
-    warm-roasted-veggie-salad-with-maple-dijon-vinaigrette,
-  ]
+  - roasted-sweet-potatoes
+  - honey-glazed-carrots
+  - warm-roasted-veggie-salad-with-maple-dijon-vinaigrette
 ingredients:
   - '2 lbs Sweet Potatoes, peeled'
   - 2 tbsp Extra-Virgin Olive Oil
@@ -29,6 +40,7 @@ ingredients:
   - 1 tsp Smoked Paprika
   - 1 tsp Sea Salt
   - 1/2 tsp Black Pepper
+origin: United States
 ---
 
 ## Chef's Note

@@ -2,18 +2,31 @@
 title: Banh Mi
 origin: Vietnam
 difficulty: easy
-cookingMethods: [grill, no-cook]
+cookingMethods:
+  - grill
+  - no-cook
 dietary: []
-occasions: [summer, light-and-fresh]
-flavorProfile: [spicy, sweet, savory, acidic, umami]
-cuisines: [Vietnamese]
+occasions:
+  - summer
+  - light-and-fresh
+flavorProfile:
+  - spicy
+  - sweet
+  - savory
+  - acidic
+  - umami
+cuisines:
+  - Vietnamese
 role: main
 vibe: nutritious
 prepTime: 30 min
 cookTime: 10 min
-totalTime: 4 hours
+totalTime: 4 hr
 servings: '4'
-pairsWith: [quick-pickled-carrots-and-daikon, coconut-jasmine-rice, eggplant-with-garlic-sauce]
+pairsWith:
+  - quick-pickled-carrots-and-daikon
+  - coconut-jasmine-rice
+  - eggplant-with-garlic-sauce
 ingredients:
   - '1.5 lbs Pork Tenderloin or Butt, thinly sliced'
   - 1/4 cup Fish Sauce
@@ -28,12 +41,18 @@ ingredients:
   - Fresh Cilantro and Sliced Jalapeños
   - Cucumber spears
   - Mayo and Maggi Seasoning (or Soy Sauce)
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: poor
+equipment: []
+advancePrep:
+  - marinate-overnight
 ---
 
 ## Chef's Note
 
-A great Banh Mi is an exercise in **Structural Contrast**. You need the "Shure" crunch of the bread, the fatty char of the pork, and the ice-cold acid of the pickles. We use **Lemongrass** in the marinade to provide that unmistakable floral aroma. The secret to the bread: if it's too tough, hollow out some of the crumb to make room for more fillings.
-
+Banh mi sandwiches are Vietnamese street food defined by contrast: grilled pork against pickled vegetables, cilantro, and creamy mayo on crusty bread. The marinade is garlic, fish sauce, and brown sugar—a workhorse base that caramelizes on the grill. The pickled vegetables are non-negotiable: they're the cooling, cutting element that makes the sandwich balanced.
 ## Directions
 
 1.  **Marinate:** Whisk fish sauce, sugar, honey, garlic, and lemongrass. Toss with the pork. Let marinate for at least 2 hours (ideally overnight).

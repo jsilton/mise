@@ -1,31 +1,43 @@
 ---
 title: Pizza
 difficulty: intermediate
-cookingMethods: [bake]
-dietary: [vegetarian]
-occasions: [weeknight, kids-approved, entertaining, comfort-food]
-seasons: [year-round]
+cookingMethods:
+  - bake
+dietary:
+  - vegetarian
+occasions:
+  - weeknight
+  - kids-approved
+  - entertaining
+  - comfort-food
+seasons:
+  - year-round
 nutritionalDensity: moderate
 leftovers: good
 equipment: []
-flavorProfile: [acidic]
-cuisines: [Italian]
+flavorProfile:
+  - acidic
+cuisines:
+  - Italian
 role: main
 vibe: nutritious
 prepTime: 10 min
 cookTime: 12 min
 totalTime: 22 min
 servings: '4'
-pairsWith: [avocado-kale-caesar-salad, garlic-bread]
+pairsWith:
+  - avocado-kale-caesar-salad
+  - garlic-bread
 ingredients:
   - >-
-    2 balls [Fresh Pasta Dough](/mise/recipes/fresh-pasta-dough) (or
-    Pizza Dough)
+    2 balls [Fresh Pasta Dough](/mise/recipes/fresh-pasta-dough) (or Pizza
+    Dough)
   - 1 cup Pizza Sauce (The "Silk" Base)
   - 12 oz Shredded Mozzarella (Whole-milk preferred)
   - Pepperoni slices
   - Fresh Spinach (greens)
   - Fresh Pineapple (The "Acid Balance" Snap)
+origin: Italy
 ---
 
 ## Chef's Note

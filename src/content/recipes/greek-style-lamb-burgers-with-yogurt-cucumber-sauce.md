@@ -1,18 +1,29 @@
 ---
 title: Greek-Style Lamb Burgers
 difficulty: easy
-cookingMethods: [grill, no-cook]
+cookingMethods:
+  - grill
+  - no-cook
 dietary: []
-occasions: [summer, entertaining]
-flavorProfile: [acidic, rich, herbaceous]
-cuisines: [Greek]
+occasions:
+  - summer
+  - entertaining
+flavorProfile:
+  - acidic
+  - rich
+  - herbaceous
+cuisines:
+  - Greek
 role: main
 vibe: quick
 prepTime: 15 min
 cookTime: 12 min
 totalTime: 45 min
 servings: '4'
-pairsWith: [greek-salad, lemon-herb-couscous, warm-pita-bread]
+pairsWith:
+  - greek-salad
+  - lemon-herb-couscous
+  - warm-pita-bread
 ingredients:
   - 1 1/2 lbs Ground Lamb
   - '1 small Yellow Onion, minced'
@@ -30,6 +41,12 @@ ingredients:
   - 4 Pocketless Pitas or Naan
   - 'Feta Cheese, crumbled'
   - Sliced Tomatoes and Mixed Greens
+origin: Greece
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: poor
+equipment: []
 ---
 
 ## Chef's Note
@@ -45,3 +62,5 @@ Because lamb is naturally fatty, shaping patties into ovals rather than rounds m
 5.  **Toast:** During the last minute, place the pitas on the grill until warm and pliable.
 6.  **Assemble:** Place a burger on each pita. Top with a massive dollop of the yogurt sauce, feta, tomatoes, and greens.
 7.  **Serve:** Fold and serve immediately while the lamb juices are still hot.
+
+**Rest:** Let Ground Lamb rest for 5 minutes before slicing or serving — the juices redistribute and every piece stays moist.

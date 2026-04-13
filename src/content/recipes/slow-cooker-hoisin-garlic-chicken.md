@@ -1,22 +1,36 @@
 ---
 title: Slow Cooker Hoisin Garlic Chicken
 difficulty: easy
-cookingMethods: [boil, slow-cook]
+cookingMethods:
+  - boil
+  - slow-cook
 dietary: []
-occasions: [comfort-food, meal-prep, weeknight]
-flavorProfile: [sweet, savory, acidic, umami]
-cuisines: [Chinese]
+occasions:
+  - comfort-food
+  - meal-prep
+  - weeknight
+flavorProfile:
+  - sweet
+  - savory
+  - acidic
+  - umami
+cuisines:
+  - Chinese
 role: main
 vibe: comfort
 prepTime: 10 min
 cookTime: 140 min
 totalTime: 150 min
 servings: '4'
-seasons: [year-round]
+seasons:
+  - year-round
 nutritionalDensity: hearty
 leftovers: excellent
-equipment: [slow-cooker]
-pairsWith: [basmati-rice, steamed-broccoli]
+equipment:
+  - slow-cooker
+pairsWith:
+  - basmati-rice
+  - steamed-broccoli
 ingredients:
   - '2 1/2 lbs Chicken Thighs, boneless and skinless'
   - 1/4 cup Hoisin Sauce
@@ -26,6 +40,7 @@ ingredients:
   - 1/2 tsp Red Pepper Flakes
   - 1 tsp Garlic Powder
   - Sliced Scallions for garnish
+origin: China
 ---
 
 ## Chef's Note

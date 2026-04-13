@@ -1,20 +1,32 @@
 ---
 title: Grilled Cheese and Tomato Soup
 aliases:
-  - 'grilled-cheese-and-tomato-soup-the-ultimate-pair'
+  - grilled-cheese-and-tomato-soup-the-ultimate-pair
 difficulty: intermediate
-cookingMethods: [grill, sauté, simmer, no-cook, blend]
+cookingMethods:
+  - grill
+  - sauté
+  - simmer
+  - no-cook
+  - blend
 dietary: []
-occasions: [comfort-food]
-flavorProfile: [rich, smoky]
-cuisines: [American]
+occasions:
+  - comfort-food
+flavorProfile:
+  - rich
+  - smoky
+cuisines:
+  - American
 role: main
 vibe: comfort
 prepTime: 15 min
 cookTime: 20 min
 totalTime: 35 min
 servings: '2'
-pairsWith: [anadama-bread, cinnamon-sweet-potatoes, garlic-mashed-mock-potatoes]
+pairsWith:
+  - anadama-bread
+  - cinnamon-sweet-potatoes
+  - garlic-mashed-mock-potatoes
 ingredients:
   - 1 can (28 oz) San Marzano Tomatoes
   - '1 small Onion, diced'
@@ -27,6 +39,12 @@ ingredients:
   - '1/2 Avocado, sliced thin'
   - 2 tbsp Mayonnaise (The "Crust" Hack)
   - Unsalted Butter
+origin: United States
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: poor
+equipment: []
 ---
 
 ## Chef's Note
@@ -35,7 +53,7 @@ Mayonnaise on the bread's exterior creates a more evenly golden crust than butte
 
 ## Directions
 
-1.  **The Soup:** In a medium pot, sauté onion and garlic in 1 tbsp butter until soft. Add tomatoes, broth, and basil. Simmer for 15 minutes.
+1.  **The Soup:** In a medium pot, sauté onion and garlic in 1 tbsp butter cook until golden brown and softened. Add tomatoes, broth, and basil. Simmer for 15 minutes.
 2.  **The Emulsion:** Use an immersion blender to puree the soup until smooth. Stir in the heavy cream and season with salt and pepper. Keep warm on low.
 3.  **The Sandwich:** Spread a thin layer of mayonnaise on one side of each slice of bread.
 4.  **Assemble:** Place two slices, mayo-side down, in a cool skillet. Layer with cheese and avocado slices. Top with the remaining bread, mayo-side up.

@@ -2,18 +2,30 @@
 title: Spicy Thai Noodles
 origin: Thailand
 difficulty: intermediate
-cookingMethods: [sauté, boil]
+cookingMethods:
+  - sauté
+  - boil
 dietary: []
-occasions: [weeknight, quick-lunch]
-flavorProfile: [spicy, sweet, savory, umami]
-cuisines: [Thai]
+occasions:
+  - weeknight
+  - quick-lunch
+flavorProfile:
+  - spicy
+  - sweet
+  - savory
+  - umami
+cuisines:
+  - Thai
 role: main
 vibe: nutritious
 prepTime: 10 min
 cookTime: 15 min
 totalTime: 25 min
 servings: '4'
-pairsWith: [coconut-jasmine-rice, eggplant-with-garlic-sauce, quick-pickled-carrots-and-daikon]
+pairsWith:
+  - coconut-jasmine-rice
+  - eggplant-with-garlic-sauce
+  - quick-pickled-carrots-and-daikon
 ingredients:
   - 1 lb Penne or Linguine
   - 1/3 cup Low-sodium Soy Sauce
@@ -28,11 +40,17 @@ ingredients:
   - '1/2 cup Fresh Cilantro, chopped'
   - '1/2 cup Peanuts, crushed'
   - Chicken or Shrimp
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: good
+equipment: []
 ---
 
 ## Chef's Note
 
 This Thai-inspired one-pot noodle dish builds the sauce directly in the pasta pot, using residual heat to emulsify the sriracha-ginger glaze without extra fat. Scrambling eggs separately first keeps them distinct with bright yellow texture rather than forming a coating. Fresh cilantro and lime add brightness.
+For kids, serve the heat on the side or reduce/omit the spicy elements.
 
 ## Directions
 

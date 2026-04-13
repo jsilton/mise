@@ -1,15 +1,29 @@
 ---
 title: Steel-Cut Oatmeal
 difficulty: intermediate
-cookingMethods: [fry, simmer, boil]
-dietary: [vegetarian]
-occasions: [weeknight, comfort-food]
-seasons: [fall, winter, year-round]
+cookingMethods:
+  - fry
+  - simmer
+  - boil
+dietary:
+  - vegetarian
+occasions:
+  - weeknight
+  - comfort-food
+seasons:
+  - fall
+  - winter
+  - year-round
 nutritionalDensity: moderate
 leftovers: poor
-equipment: [saucepan]
-flavorProfile: [sweet, acidic, rich]
-cuisines: [American]
+equipment:
+  - saucepan
+flavorProfile:
+  - sweet
+  - acidic
+  - rich
+cuisines:
+  - American
 role: main
 vibe: nutritious
 prepTime: 5 min
@@ -17,7 +31,9 @@ cookTime: 35 min
 totalTime: 40 min
 servings: '4'
 pairsWith:
-  [cinnamon-sweet-potatoes, green-beans-with-shallots-and-lemon, roasted-fall-harvest-salad]
+  - cinnamon-sweet-potatoes
+  - green-beans-with-shallots-and-lemon
+  - roasted-fall-harvest-salad
 ingredients:
   - 1 cup Steel-cut Oats
   - 3 cups Boiling Water
@@ -27,6 +43,7 @@ ingredients:
   - 1 tbsp Light Brown Sugar
   - 1/4 tsp Ground Cinnamon
   - Pinch of Sea Salt
+origin: United States
 ---
 
 ## Chef's Note

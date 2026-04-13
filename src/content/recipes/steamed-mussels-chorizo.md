@@ -1,18 +1,32 @@
 ---
 title: Mussels with Chorizo Broth
 difficulty: easy
-cookingMethods: [sauté, simmer, boil, steam]
-dietary: [vegetarian]
-occasions: [entertaining, weeknight]
-flavorProfile: [sweet, savory, acidic, herbaceous]
-cuisines: [Spanish]
+cookingMethods:
+  - sauté
+  - simmer
+  - boil
+  - steam
+dietary: []
+occasions:
+  - entertaining
+  - weeknight
+flavorProfile:
+  - sweet
+  - savory
+  - acidic
+  - herbaceous
+cuisines:
+  - Spanish
 role: main
 vibe: quick
 prepTime: 15 min
 cookTime: 15 min
 totalTime: 30 min
 servings: '4'
-pairsWith: [smoky-spanish-rice-and-chickpeas, lemon-herb-couscous, roasted-broccolini-with-lemon]
+pairsWith:
+  - smoky-spanish-rice-and-chickpeas
+  - lemon-herb-couscous
+  - roasted-broccolini-with-lemon
 ingredients:
   - '4 lbs Fresh Mussels, scrubbed and debearded'
   - '2 oz Dried Spanish Chorizo, thinly sliced'
@@ -23,6 +37,12 @@ ingredients:
   - 2 tbsp Extra-Virgin Olive Oil
   - '2 tbsp Fresh Tarragon, chopped'
   - 'Thick country-style bread, charred'
+origin: Spain
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: good
+equipment: []
 ---
 
 ## Chef's Note

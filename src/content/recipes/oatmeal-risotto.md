@@ -1,23 +1,40 @@
 ---
 title: Oatmeal Risotto
 difficulty: intermediate
-cookingMethods: [simmer, boil]
+cookingMethods:
+  - simmer
+  - boil
 dietary: []
-occasions: [weekend-project, entertaining]
-flavorProfile: [sweet, savory, acidic, umami, rich]
-cuisines: [Italian]
+occasions:
+  - weekend-project
+  - entertaining
+flavorProfile:
+  - sweet
+  - savory
+  - acidic
+  - umami
+  - rich
+cuisines:
+  - Italian
 role: main
 vibe: technical
 prepTime: 10 min
 cookTime: 20 min
 totalTime: 600 min
 servings: '4'
-seasons: [fall, winter, year-round]
+seasons:
+  - fall
+  - winter
+  - year-round
 nutritionalDensity: hearty
 leftovers: good
-advancePrep: [make-ahead]
+advancePrep:
+  - make-ahead
+  - overnight-soak
 equipment: []
-pairsWith: [roasted-root-vegetables, everyday-arugula-salad]
+pairsWith:
+  - roasted-root-vegetables
+  - everyday-arugula-salad
 ingredients:
   - 1 cup Steel-cut Oats
   - 3 cups Chicken Broth or Filtered Water
@@ -27,12 +44,12 @@ ingredients:
   - 1 tbsp Light Brown Sugar
   - 'Parmesan Cheese, for shaving'
   - Pinch of Kosher Salt
+origin: Italy
 ---
 
 ## Chef's Note
 
-This is a creative fusion dish that applies risotto technique to steel-cut oats, creating a savory breakfast that blurs the line between morning and dinner. Soaking the oats overnight in broth hydrates them fully so they cook up creamy with a pleasant chewy texture, similar to arborio rice in risotto. The genius combination is mashed banana for sweetness and creaminess, balanced by sharp sherry vinegar and golden raisins for acidity. Finishing with shaved Parmesan adds a savory, salty element that makes this sophisticated enough for brunch entertaining. It's unusual but delicious - think of it as Italian risotto meets American oatmeal.
-
+Oatmeal risotto treats steel-cut oats with the same respect Italians give Arborio rice — an overnight soak followed by a slow simmer until each grain is creamy outside and slightly chewy at the center. The mashed banana folded in at the end acts like the butter-and-cheese mantecatura in real risotto, creating body without dairy. The sherry-vinegar raisins and Parmesan shavings provide the finishing acid and umami.
 ## Directions
 
 1.  **The Hydration:** In a medium bowl, combine the oats and water/broth. Cover and **let stand overnight** at room temperature.

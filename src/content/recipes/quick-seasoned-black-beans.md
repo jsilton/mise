@@ -1,17 +1,28 @@
 ---
 title: Seasoned Black Beans
 difficulty: easy
-cookingMethods: [simmer]
+cookingMethods:
+  - simmer
 dietary: []
-occasions: [weeknight, quick-lunch]
-flavorProfile: [sweet, acidic, rich]
-cuisines: [Mexican]
+occasions:
+  - weeknight
+  - quick-lunch
+flavorProfile:
+  - sweet
+  - acidic
+  - rich
+cuisines:
+  - Mexican
 role: side
 vibe: quick
-season: [spring, summer, fall, winter]
+seasons:
+  - year-round
 leftovers: excellent
-healthiness: moderate
-pairsWith: [tacos, basmati-rice, vietnamese-grilled-chicken]
+nutritionalDensity: moderate
+pairsWith:
+  - tacos
+  - basmati-rice
+  - vietnamese-grilled-chicken
 prepTime: 2 min
 cookTime: 10 min
 totalTime: 12 min
@@ -24,6 +35,8 @@ ingredients:
   - 1 tsp Dried Oregano
   - 1 tbsp Lime Juice
   - Salt and Pepper to taste
+origin: Mexico
+equipment: []
 ---
 
 ## Chef's Note

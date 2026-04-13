@@ -1,11 +1,18 @@
 ---
 title: Noodle Pudding
 difficulty: easy
-cookingMethods: [bake, boil, no-cook]
+cookingMethods:
+  - bake
+  - boil
+  - no-cook
 dietary: []
-occasions: [comfort-food]
-flavorProfile: [sweet, rich]
-cuisines: [Jewish]
+occasions:
+  - comfort-food
+flavorProfile:
+  - sweet
+  - rich
+cuisines:
+  - Jewish
 role: dessert
 vibe: comfort
 prepTime: 30 min
@@ -24,6 +31,16 @@ ingredients:
   - '2 cups Corn Flakes, crushed'
   - 1/2 cup Light Brown Sugar
   - 1/2 cup Golden Raisins
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: good
+equipment: []
+pairsWith:
+  - hamantaschen
+  - apple-cider-cream-pie
+  - apple-pie
+  - babys-first-smash-cake
 ---
 
 ## Chef's Note

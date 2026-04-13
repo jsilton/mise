@@ -4,7 +4,10 @@ prepTime: 20 min
 cookTime: 45 min
 totalTime: 65 min
 servings: '6'
-pairsWith: [mexican-street-corn-salad, queso-fundido-with-chorizo, roasted-sweet-potatoes]
+pairsWith:
+  - mexican-street-corn-salad
+  - queso-fundido-with-chorizo
+  - roasted-sweet-potatoes
 ingredients:
   - 2 lbs Ground Turkey (Lean or 93/7)
   - 2 tablespoons Olive Oil
@@ -22,18 +25,38 @@ ingredients:
   - Salt and pepper to taste
   - 'Shredded Cheddar, Sour Cream, Avocado, and Cilantro'
 difficulty: easy
-cookingMethods: [bake, roast, sauté, simmer, boil]
+cookingMethods:
+  - bake
+  - roast
+  - sauté
+  - simmer
+  - boil
 dietary: []
-occasions: [comfort-food, kids-approved]
-flavorProfile: [spicy, sweet, acidic, rich, smoky]
-cuisines: [Mexican]
+occasions:
+  - comfort-food
+  - kids-approved
+flavorProfile:
+  - spicy
+  - sweet
+  - acidic
+  - rich
+  - smoky
+cuisines:
+  - Mexican
 role: main
 vibe: comfort
+origin: Mexico
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: good
+equipment: []
 ---
 
 ## Chef's Note
 
 This Tex-Mex style chili uses sweet potatoes for natural sweetness and body—as they simmer, their starches help thicken the stew without needing a roux. Ground turkey and black beans keep it high in protein and lower in saturated fat than traditional beef chili. A splash of apple cider vinegar or lime juice at the end brightens the earthy spices.
+For kids, serve the heat on the side or reduce/omit the spicy elements.
 
 ## Directions
 

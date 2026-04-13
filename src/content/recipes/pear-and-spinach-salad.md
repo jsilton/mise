@@ -1,17 +1,30 @@
 ---
 title: Pear & Spinach Salad
 difficulty: easy
-cookingMethods: [roast, no-cook]
+cookingMethods:
+  - roast
+  - no-cook
 dietary: []
-occasions: [light-and-fresh, quick-lunch, entertaining, holiday]
-flavorProfile: [sweet, acidic]
-cuisines: [Mediterranean]
+occasions:
+  - light-and-fresh
+  - quick-lunch
+  - entertaining
+  - holiday
+flavorProfile:
+  - sweet
+  - acidic
+cuisines:
+  - Mediterranean
 role: side
 vibe: nutritious
-season: [fall, winter]
+season:
+  - fall
+  - winter
 leftovers: poor
 healthiness: light
-pairsWith: [buttermilk-baked-chicken, rosemary-pork-tenderloin]
+pairsWith:
+  - buttermilk-baked-chicken
+  - rosemary-pork-tenderloin
 prepTime: 15 min
 cookTime: 0 min
 totalTime: 25 min
@@ -26,12 +39,16 @@ ingredients:
   - 1 tbsp Honey
   - 2 tbsp Water
   - Salt and Black Pepper
+origin: Mediterranean
+seasons:
+  - year-round
+nutritionalDensity: moderate
+equipment: []
 ---
 
 ## Chef's Note
 
-This is a quick side salad with bright flavors. The secret is soaking the red onion slices in ice water for 10 minutes before adding them to the salad. This removes the harsh sulfurous bite, leaving only sweet crunch that won't overpower the delicate Bosc pear. Whisking the Dijon and vinegar with honey creates a stable, thick dressing that coats the spinach leaves without weighing them down.
-
+Pear and spinach is an autumn salad that balances sweet fruit against slightly bitter greens, often finished with nuts for crunch and something rich like cheese or bacon. Raw spinach needs a flavorful dressing and light tossing or it becomes limp. The pear adds enough moisture that you don't need to over-dress; use a restrained hand with vinaigrette.
 ## Directions
 
 1.  **Shock:** Place sliced red onions in a bowl of ice water. Let stand for 10 minutes. Drain and pat **bone-dry**.

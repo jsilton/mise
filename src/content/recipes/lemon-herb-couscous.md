@@ -1,33 +1,50 @@
 ---
 title: Lemon Herb Couscous
 difficulty: easy
-cookingMethods: [boil, steam]
-dietary: [vegetarian]
-occasions: [weeknight, meal-prep, entertaining]
-flavorProfile: [herbaceous, acidic, savory]
-cuisines: [Greek, Mediterranean, Middle Eastern]
+cookingMethods:
+  - boil
+  - steam
+dietary: []
+occasions:
+  - weeknight
+  - meal-prep
+  - entertaining
+flavorProfile:
+  - herbaceous
+  - acidic
+  - savory
+cuisines:
+  - Greek
+  - Mediterranean
+  - Middle Eastern
 role: base
 vibe: quick
 prepTime: 5 min
 cookTime: 5 min
 totalTime: 10 min
 servings: '4'
-seasons: [year-round]
+seasons:
+  - year-round
 nutritionalDensity: moderate
 leftovers: excellent
-equipment: [saucepan]
+equipment:
+  - saucepan
 pairsWith:
-  [greek-style-lamb-burgers-with-yogurt-cucumber-sauce, falafel, chicken-shawarma, greek-salad]
+  - greek-style-lamb-burgers-with-yogurt-cucumber-sauce
+  - falafel
+  - chicken-shawarma
+  - greek-salad
 ingredients:
-  - '1 1/2 cups Couscous'
-  - '1 3/4 cups Chicken or Vegetable Broth'
-  - '2 tbsp Olive Oil'
-  - '1 tbsp Lemon Juice'
-  - '1 tsp Lemon Zest'
+  - 1 1/2 cups Couscous
+  - 1 3/4 cups Chicken or Vegetable Broth
+  - 2 tbsp Olive Oil
+  - 1 tbsp Lemon Juice
+  - 1 tsp Lemon Zest
   - '2 tbsp Fresh Parsley, chopped'
   - '2 tbsp Fresh Mint, chopped'
-  - '1/4 cup Crumbled Feta (optional)'
-  - 'Salt and Black Pepper to taste'
+  - 1/4 cup Crumbled Feta (optional)
+  - Salt and Black Pepper to taste
+origin: Greece
 ---
 
 ## Chef's Note

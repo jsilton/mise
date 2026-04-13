@@ -1,18 +1,28 @@
 ---
 title: Slow Cooker Cheesy Mushroom Quinoa
 difficulty: intermediate
-cookingMethods: [roast, slow-cook, blend]
+cookingMethods:
+  - roast
+  - slow-cook
+  - blend
 dietary: []
-occasions: [comfort-food]
-flavorProfile: [rich, herbaceous]
-cuisines: [American]
+occasions:
+  - comfort-food
+flavorProfile:
+  - rich
+  - herbaceous
+cuisines:
+  - American
 role: main
 vibe: comfort
 prepTime: 10 min
 cookTime: 180 min
 totalTime: 190 min
 servings: '4'
-pairsWith: [honey-glazed-carrots, apple-banana-and-carrot-muffin, roasted-fall-harvest-salad]
+pairsWith:
+  - honey-glazed-carrots
+  - apple-banana-and-carrot-muffin
+  - roasted-fall-harvest-salad
 ingredients:
   - 2 cups Uncooked Quinoa (rinsed)
   - '8 oz Mushrooms, sliced'
@@ -24,6 +34,12 @@ ingredients:
   - '1 tbsp Garlic, minced'
   - 1 tsp Italian Seasoning
   - Salt and Black Pepper
+origin: United States
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: excellent
+equipment: []
 ---
 
 ## Chef's Note
@@ -37,3 +53,4 @@ Using a strict 1:2 ratio of quinoa to liquid and cooking on High for a shorter d
 3.  **Emulsify:** Open the lid. Add the cream cheese cubes. Stir vigorously for 1 minute until the cream cheese has melted and emulsified with the grain.
 4.  **Bind:** Top with the Italian cheese blend. Cover and cook for another 15 minutes until molten.
 5.  **Finish:** Stir once more. Garnish with fresh green onions for the mandatory **High Note**.
+

@@ -1,18 +1,29 @@
 ---
 title: Soba Noodles with Shiitakes & Tofu
 difficulty: intermediate
-cookingMethods: [fry, sauté, boil]
+cookingMethods:
+  - fry
+  - sauté
+  - boil
 dietary: []
-occasions: [weeknight, quick-lunch]
-flavorProfile: [savory, umami]
-cuisines: [Japanese]
+occasions:
+  - weeknight
+  - quick-lunch
+flavorProfile:
+  - savory
+  - umami
+cuisines:
+  - Japanese
 role: main
 vibe: quick
 prepTime: 10 min
 cookTime: 10 min
 totalTime: 20 min
 servings: '4'
-pairsWith: [miso-soup, dashi-japanese-sea-stock, steamed-edamame]
+pairsWith:
+  - miso-soup
+  - dashi-japanese-sea-stock
+  - steamed-edamame
 ingredients:
   - 8 oz Soba Noodles (Buckwheat)
   - '1/2 lb Extra-firm Tofu, diced'
@@ -25,6 +36,12 @@ ingredients:
   - 2 tsp Toasted Sesame Oil (The complex flavor)
   - '1/2 cup Fresh Cilantro, chopped'
   - 1/2 tsp Red Pepper Flakes
+origin: Japan
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: good
+equipment: []
 ---
 
 ## Chef's Note

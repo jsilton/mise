@@ -1,18 +1,28 @@
 ---
 title: Baked Creamy Macaroni and Pimento Cheese
 difficulty: easy
-cookingMethods: [bake, roast]
+cookingMethods:
+  - bake
+  - roast
 dietary: []
-occasions: [comfort-food]
-flavorProfile: [spicy, umami, rich]
-cuisines: [Southern]
+occasions:
+  - comfort-food
+flavorProfile:
+  - spicy
+  - umami
+  - rich
+cuisines:
+  - Southern
 role: side
 vibe: comfort
 prepTime: 15 min
 cookTime: 20 min
 totalTime: 35 min
 servings: '6'
-pairsWith: [buttermilk-baked-chicken, quick-and-easy-drop-biscuits, shrimp-and-grits]
+pairsWith:
+  - buttermilk-baked-chicken
+  - quick-and-easy-drop-biscuits
+  - shrimp-and-grits
 ingredients:
   - 8 oz Elbow Macaroni
   - 3 tbsp Unsalted Butter
@@ -25,6 +35,12 @@ ingredients:
   - '4 oz Diced Pimentos, drained'
   - 1/2 cup Panko Breadcrumbs
   - 3/4 cup Freshly Grated Parmesan
+origin: United States
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: good
+equipment: []
 ---
 
 ## Chef's Note

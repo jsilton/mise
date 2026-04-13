@@ -2,39 +2,56 @@
 title: Shakshuka
 origin: North Africa / Israel
 difficulty: easy
-cookingMethods: [sauté, simmer]
-dietary: [vegetarian, gluten-free, dairy-free]
-occasions: [weekend-brunch, weeknight, comfort-food]
-flavorProfile: [savory, acidic, spicy, umami]
-cuisines: [Middle Eastern, Mediterranean]
+cookingMethods:
+  - sauté
+  - simmer
+dietary:
+  - vegetarian
+  - dairy-free
+occasions:
+  - weekend-brunch
+  - weeknight
+  - comfort-food
+flavorProfile:
+  - savory
+  - acidic
+  - spicy
+  - umami
+cuisines:
+  - Middle Eastern
+  - Mediterranean
 role: main
 vibe: comfort
 prepTime: 10 min
 cookTime: 25 min
 totalTime: 35 min
 servings: '4'
-seasons: [year-round]
+seasons:
+  - year-round
 nutritionalDensity: moderate
 leftovers: poor
-advancePrep: [make-ahead]
-equipment: [skillet]
-pairsWith: [tahini-sauce]
+advancePrep:
+  - make-ahead
+equipment:
+  - skillet
+pairsWith:
+  - tahini-sauce
 ingredients:
-  - '2 tbsp Olive Oil'
+  - 2 tbsp Olive Oil
   - '1 medium Yellow Onion, diced'
   - '1 Red Bell Pepper, diced'
   - '4 cloves Garlic, thinly sliced'
-  - '1 tsp Ground Cumin'
-  - '1 tsp Smoked Paprika'
-  - '1/2 tsp Ground Coriander'
-  - '1/4 tsp Cayenne Pepper (or to taste)'
-  - '1 (28 oz) can Crushed Tomatoes (San Marzano preferred)'
-  - '1 tsp Sugar'
-  - '1 tsp Kosher Salt'
-  - '6 large Eggs'
+  - 1 tsp Ground Cumin
+  - 1 tsp Smoked Paprika
+  - 1/2 tsp Ground Coriander
+  - 1/4 tsp Cayenne Pepper (or to taste)
+  - 1 (28 oz) can Crushed Tomatoes (San Marzano preferred)
+  - 1 tsp Sugar
+  - 1 tsp Kosher Salt
+  - 6 large Eggs
   - '1/4 cup Fresh Cilantro or Parsley, chopped'
-  - '2 tbsp Crumbled Feta (optional)'
-  - 'Crusty bread for serving'
+  - 2 tbsp Crumbled Feta (optional)
+  - Crusty bread for serving
 ---
 
 ## Chef's Note

@@ -1,29 +1,47 @@
 ---
 title: Green Beans with Shallots & Lemon
 difficulty: easy
-cookingMethods: [bake, sauté, boil]
+cookingMethods:
+  - bake
+  - sauté
+  - boil
 dietary: []
-occasions: [holiday, entertaining, weeknight, light-and-fresh]
-seasons: [year-round]
+occasions:
+  - holiday
+  - entertaining
+  - weeknight
+  - light-and-fresh
+seasons:
+  - year-round
 nutritionalDensity: light
 leftovers: poor
-equipment: [large-pot, large-skillet]
-flavorProfile: [sweet, acidic, rich]
-cuisines: [American]
+equipment:
+  - large-pot
+  - large-skillet
+flavorProfile:
+  - sweet
+  - acidic
+  - rich
+cuisines:
+  - American
 role: side
 vibe: quick
 prepTime: 5 min
 cookTime: 10 min
 totalTime: 15 min
 servings: '4'
-pairsWith: [chicken-marsala, herb-marinated-pork-tenderloins, one-pan-citrus-beets-roasted-chicken]
+pairsWith:
+  - chicken-marsala
+  - herb-marinated-pork-tenderloins
+  - one-pan-citrus-beets-roasted-chicken
 ingredients:
   - '1 lb Fresh Green Beans, trimmed'
   - '2 Shallots, finely diced'
-  - '1 tbsp Unsalted Butter or Olive Oil'
-  - '1 tbsp Honey'
+  - 1 tbsp Unsalted Butter or Olive Oil
+  - 1 tbsp Honey
   - '1 Lemon, zested and juiced (The Finishing Touch)'
-  - 'Salt and Black Pepper'
+  - Salt and Black Pepper
+origin: United States
 ---
 
 ## Chef's Note

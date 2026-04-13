@@ -2,16 +2,33 @@
 title: New England Express
 origin: USA
 difficulty: easy
-cookingMethods: [boil, no-cook]
-dietary: [vegetarian]
-occasions: [entertaining, holiday, potluck]
-seasons: [fall, winter]
+cookingMethods:
+  - boil
+  - no-cook
+dietary:
+  - vegetarian
+occasions:
+  - entertaining
+  - holiday
+  - potluck
+seasons:
+  - fall
+  - winter
 nutritionalDensity: light
 leftovers: good
-equipment: [saucepan, pitcher]
-advancePrep: [make-ahead]
-flavorProfile: [sweet, savory, acidic, rich, herbaceous]
-cuisines: [American]
+equipment:
+  - saucepan
+  - pitcher
+advancePrep:
+  - make-ahead
+flavorProfile:
+  - sweet
+  - savory
+  - acidic
+  - rich
+  - herbaceous
+cuisines:
+  - American
 role: drink
 vibe: nutritious
 prepTime: 10 min
@@ -26,6 +43,11 @@ ingredients:
   - 3/4 cup Fresh Lime Juice (The Acid Balance)
   - 1 tsp Angostura Bitters
   - Club Soda (to top)
+pairsWith:
+  - roasted-sunchokes-with-brown-butter-cider-vinaigrette
+  - avocado-kale-caesar-salad
+  - herb-marinated-pork-tenderloins
+  - honey-glazed-carrots
 ---
 
 ## Chef's Note

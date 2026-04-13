@@ -1,22 +1,37 @@
 ---
 title: Chicken with Snow Peas Stir-Fry
 difficulty: easy
-cookingMethods: [fry, steam]
+cookingMethods:
+  - fry
+  - steam
 dietary: []
-occasions: [weeknight, quick-lunch, light-and-fresh]
-flavorProfile: [sweet, savory, umami]
-cuisines: [Chinese]
+occasions:
+  - weeknight
+  - quick-lunch
+  - light-and-fresh
+flavorProfile:
+  - sweet
+  - savory
+  - umami
+cuisines:
+  - Chinese
 role: main
 vibe: quick
 prepTime: 10 min
 cookTime: 15 min
 totalTime: 25 min
 servings: '4'
-seasons: [spring, summer, year-round]
+seasons:
+  - spring
+  - summer
+  - year-round
 nutritionalDensity: light
 leftovers: good
-equipment: [wok]
-pairsWith: [basmati-rice, chinese-sausage-fried-rice]
+equipment:
+  - wok
+pairsWith:
+  - basmati-rice
+  - chinese-sausage-fried-rice
 ingredients:
   - '12 oz Chicken Breasts, sliced into thin strips'
   - 1 tsp Cornstarch
@@ -31,6 +46,7 @@ ingredients:
   - 1/8 tsp Sugar + pinch of White Pepper
   - 1/3 cup Chicken Stock
   - 1/2 tbsp Cornstarch
+origin: China
 ---
 
 ## Chef's Note

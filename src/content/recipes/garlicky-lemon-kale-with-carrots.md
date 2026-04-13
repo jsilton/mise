@@ -1,38 +1,53 @@
 ---
 title: Garlicky Lemon Kale with Carrots
 difficulty: easy
-cookingMethods: [sauté, steam]
-dietary: [vegetarian, vegan, gluten-free]
-occasions: [weeknight, quick-lunch, light-and-fresh]
-flavorProfile: [acidic, savory, herbaceous]
-cuisines: [American, Mediterranean]
+cookingMethods:
+  - sauté
+  - steam
+dietary:
+  - vegetarian
+  - vegan
+  - gluten-free
+occasions:
+  - weeknight
+  - quick-lunch
+  - light-and-fresh
+flavorProfile:
+  - acidic
+  - savory
+  - herbaceous
+cuisines:
+  - American
+  - Mediterranean
 role: side
 vibe: nutritious
 prepTime: 5 min
 cookTime: 8 min
 totalTime: 13 min
 servings: '4'
-seasons: [year-round, fall, winter]
+seasons:
+  - year-round
+  - fall
+  - winter
 nutritionalDensity: light
 leftovers: good
 equipment: []
 pairsWith:
-  [
-    asian-glazed-meatballs,
-    vietnamese-grilled-chicken,
-    garlic-butter-roasted-salmon-with-potatoes-and-asparagus,
-  ]
+  - asian-glazed-meatballs
+  - vietnamese-grilled-chicken
+  - garlic-butter-roasted-salmon-with-potatoes-and-asparagus
 ingredients:
-  - 1 large bunch Kale (about 8 cups chopped, stems removed)
-  - 3 medium Carrots, sliced into thin coins
-  - 4 cloves Garlic, minced
+  - '1 large bunch Kale (about 8 cups chopped, stems removed)'
+  - '3 medium Carrots, sliced into thin coins'
+  - '4 cloves Garlic, minced'
   - 2 tbsp Olive Oil (or vegetable oil)
   - 1/4 cup Water or Vegetable Broth
-  - 1/2 Lemon, juiced (about 2 tbsp)
+  - '1/2 Lemon, juiced (about 2 tbsp)'
   - 1/2 tsp Kosher Salt (plus more to taste)
   - 1/4 tsp Black Pepper
-  - 1/4 tsp Red Pepper Flakes (optional, for heat)
-  - 1 tsp Sesame Oil (optional, for Asian-style preparation)
+  - '1/4 tsp Red Pepper Flakes (optional, for heat)'
+  - '1 tsp Sesame Oil (optional, for Asian-style preparation)'
+origin: United States
 ---
 
 ## Chef's Note

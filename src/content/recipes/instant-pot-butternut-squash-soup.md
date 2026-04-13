@@ -1,11 +1,21 @@
 ---
 title: Instant Pot Butternut Squash Soup
 difficulty: easy
-cookingMethods: [grill, sauté, blend]
+cookingMethods:
+  - grill
+  - sauté
+  - blend
 dietary: []
-occasions: [comfort-food]
-flavorProfile: [sweet, savory, acidic, umami, rich]
-cuisines: [American]
+occasions:
+  - comfort-food
+flavorProfile:
+  - sweet
+  - savory
+  - acidic
+  - umami
+  - rich
+cuisines:
+  - American
 role: main
 vibe: comfort
 prepTime: 15 min
@@ -13,11 +23,9 @@ cookTime: 30 min
 totalTime: 45 min
 servings: 8 cups
 pairsWith:
-  [
-    avocado-kale-caesar-salad,
-    roasted-sunchokes-with-brown-butter-cider-vinaigrette,
-    warm-roasted-veggie-salad-with-maple-dijon-vinaigrette,
-  ]
+  - avocado-kale-caesar-salad
+  - roasted-sunchokes-with-brown-butter-cider-vinaigrette
+  - warm-roasted-veggie-salad-with-maple-dijon-vinaigrette
 ingredients:
   - '4 slices Bacon, diced'
   - '1/2 Sweet Onion, diced'
@@ -31,6 +39,12 @@ ingredients:
   - 1/3 cup Heavy Cream
   - '2 tbsp Fresh Chives, chopped'
   - Kosher Salt and Black Pepper
+origin: United States
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: good
+equipment: []
 ---
 
 ## Chef's Note
@@ -46,3 +60,4 @@ Sautéing bacon first, removing it for garnish, then cooking aromatics in the re
 5.  **Release:** Perform a "quick Release" of the pressure. Remove and discard the thyme sprigs.
 6.  **The Emulsion:** Stir in the heavy cream. Using an immersion blender, puree the soup directly in the pot until completely velvety and smooth.
 7.  **Serve:** Ladle into bowls. Garnish with the reserved crispy bacon and chives for the mandatory **Textural Snap**.
+

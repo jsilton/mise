@@ -61,7 +61,7 @@ Cultural/regional origin(s). Supports multiple if fusion.
 
 Example: `cuisines: [Italian, French]` for a fusion dish
 
-**Note:** This overlaps with the `origin` field (single country). Use `cuisines` for broader cultural classification and multiple origins.
+**Note on Origin vs. Cuisines:** See the "Origin vs. Cuisines" section below for detailed guidance on when to use each field.
 
 ---
 
@@ -198,7 +198,164 @@ Example: `advancePrep: [marinate-overnight]`
 
 ---
 
-## Schema Example
+## Origin vs. Cuisines (Field Clarification)
+
+### The Difference
+
+- **`origin`** (single string): The specific country or region where this dish historically originated. Example: "Japan"
+- **`cuisines`** (array): The broader culinary traditions or cultural styles the dish belongs to. Can be multiple. Example: `[Japanese, Korean]` for a fusion dish, or just `[Japanese]` for purely Japanese
+
+### When They Differ
+
+A dish's historical birthplace can differ from the culinary traditions it now embodies.
+
+**Example 1: Chicken Tikka Masala**
+
+- `origin: "Britain"` — This dish was invented in Glasgow in the 1960s, not in India
+- `cuisines: [Indian]` — It uses Indian technique and flavoring, even if British chefs created it
+
+**Example 2: Pho**
+
+- `origin: "Vietnam"` — Originated in Northern Vietnam in the early 20th century
+- `cuisines: [Vietnamese]` — Modern pho is quintessentially Vietnamese
+
+**Example 3: Korean Fried Chicken (Fusion)**
+
+- `origin: "Korea"` — Created in South Korea in the 1980s
+- `cuisines: [Korean, American]` — Blends Korean spicing and technique with American deep frying traditions
+
+### Quick Rules
+
+- **Same country origin and cuisine?** Use both: `origin: "Italy"` + `cuisines: [Italian]`
+- **Fusion dish?** Use the most specific origin you know, and list all relevant cuisines: `origin: "Thailand"` + `cuisines: [Thai, Chinese]` if it blends both traditions
+- **Created in one place, belongs to another tradition?** Use accurate origin + appropriate cuisine: `origin: "Germany"` + `cuisines: [American]` for a German immigrant recipe now considered American comfort food
+
+---
+
+## Decision Trees (Ambiguous Tagging Cases)
+
+### Case 1: Is This Ramen Japanese or Chinese?
+
+**The Question:** Ramen clearly has Chinese origins (lamian) but is quintessentially Japanese now. Where do we tag it?
+
+**The Decision Tree:**
+
+```
+Is this a Japanese ramen shop's recipe (tonkotsu, miso, shoyu)?
+    → YES: origin: "Japan", cuisines: [Japanese]
+    
+Is this a Chinese hand-pulled noodle recipe (lamian)?
+    → YES: origin: "China", cuisines: [Chinese]
+    
+Is this a fusion ramen (Korean broth, Japanese technique)?
+    → YES: origin: "Japan", cuisines: [Korean, Japanese]
+```
+
+**Why:** Modern ramen is codified and distinctive in Japan. Chinese lamian is separate. When they blend, we show both.
+
+---
+
+### Case 2: Is This Item a Main Course, Side, or Base?
+
+**The Question:** Risotto can be a main dish (with protein), a side (with meat), or a base component (in a larger composition). What's the `role`?
+
+**The Decision Tree:**
+
+```
+Does this recipe come with sufficient protein to be a full meal?
+    → YES (risotto with mushrooms + cheese): role: "main"
+    → NO (plain risotto, rice pilaff): role: "base"
+    
+Is it meant to accompany meat/fish as a starch?
+    → YES (risotto as the starch for a chicken dish): role: "base"
+    → NO (risotto is hearty and self-sufficient): role: "main"
+```
+
+**Why:** Role definition depends on how the recipe is typically served. When in doubt, tag it as the most common use case.
+
+---
+
+### Case 3: Difficulty When a Recipe Has Multiple Techniques
+
+**The Question:** A braise requires searing (easy) + slow cooking (easy) but precise temperature (intermediate) and timing judgment (intermediate). Is it easy or intermediate?
+
+**The Decision Tree:**
+
+```
+Can a competent home cook follow this recipe and get good results with minimal instruction?
+    → YES: difficulty: "easy"
+    
+Does this require specialized knowledge (e.g., "braise at 325°F, not 350°F")?
+    → YES: difficulty: "intermediate"
+    
+Does this require deep technique mastery or multiple precision steps?
+    → YES (e.g., sous-vide pastry, multi-stage emulsion): difficulty: "advanced"
+```
+
+**Why:** Difficulty should reflect what a home cook needs to know, not just the presence of steps. A braise is "easy" because it's forgiving; a hollandaise is "intermediate" because temperature control is critical.
+
+---
+
+### Case 4: Seasonal vs. Year-Round
+
+**The Question:** A recipe calls for asparagus, which is seasonal. But frozen asparagus works fine and is available year-round. How do we tag it?
+
+**The Decision Tree:**
+
+```
+Can this recipe be made equally well with out-of-season/frozen/pantry substitutes?
+    → YES (tomato soup made with canned tomatoes): seasons: ["year-round"]
+    
+Does the recipe specifically call for fresh seasonal ingredients?
+    → YES (asparagus in a fresh spring salad): seasons: ["spring"]
+    
+Is it dramatically better in one season but doable in others?
+    → YES (pumpkin pie works year-round but tastes best in fall): seasons: ["fall", "year-round"]
+```
+
+**Why:** This helps users find recipes for "what's in season" vs. "what I can make anytime."
+
+---
+
+## Common Tagging Mistakes & Corrections
+
+### Mistake 1: Over-Tagging Origin
+
+**Bad:** `origin: "China, Thailand"` or `origin: "East Asian"`
+
+**Why it fails:** `origin` is a single string for one country/region. Multi-region origins belong in `cuisines`.
+
+**Fix:** `origin: "Thailand"` + `cuisines: [Thai, Chinese]` if it's a fusion dish.
+
+---
+
+### Mistake 2: Missing `cookingMethods`
+
+**Bad:** A recipe with no `cookingMethods` array.
+
+**Why it fails:** Users can't find the recipe by method (searching for "sauté" recipes won't show this one).
+
+**Fix:** Always include at least one method. For a raw dish: `cookingMethods: [no-cook]`. For a multi-method dish: `cookingMethods: [sear, braise]`.
+
+---
+
+### Mistake 3: Vague `occasions` Tags
+
+**Bad:** `occasions: [entertaining, weeknight, comfort-food, holiday]` — too many categories dilute the signal.
+
+**Why it fails:** If everything is an occasion, the tag becomes useless. Users can't narrow down.
+
+**Fix:** Limit to 1-2 most accurate occasions. **Weeknight** means it's practical for Tuesday. **Entertaining** means it impresses guests. Pick the primary use case.
+
+---
+
+### Mistake 4: Conflating `role` with `nutritionalDensity`
+
+**Bad:** `role: "light"` or `nutritionalDensity: "main"`
+
+**Why it fails:** `role` describes what the dish is (main, side, base, dessert). `nutritionalDensity` describes how heavy it feels (light, moderate, hearty). A dessert can be light. A side can be hearty.
+
+**Fix:** Separate these concepts. Example: `role: "main"` + `nutritionalDensity: "light"` for a seafood-forward pasta dish.
 
 ```yaml
 ---

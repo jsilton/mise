@@ -1,18 +1,30 @@
 ---
 title: Pressure-Cooker Bolognese
 difficulty: easy
-cookingMethods: [sauté, simmer]
+cookingMethods:
+  - sauté
+  - simmer
 dietary: []
-occasions: [comfort-food]
-flavorProfile: [spicy, acidic, umami, rich, herbaceous]
-cuisines: [Italian]
+occasions:
+  - comfort-food
+flavorProfile:
+  - spicy
+  - acidic
+  - umami
+  - rich
+  - herbaceous
+cuisines:
+  - Italian
 role: main
 vibe: comfort
 prepTime: 15 min
 cookTime: 65 min
 totalTime: 80 min
 servings: 6 cups
-pairsWith: [fresh-pasta-dough, fresh-egg-pasta, garlic-bread]
+pairsWith:
+  - fresh-pasta-dough
+  - fresh-egg-pasta
+  - garlic-bread
 ingredients:
   - '1 lb Pork or Veal Shoulder, chopped small'
   - '1 lb Mild or Spicy Italian Sausage, bulk'
@@ -26,6 +38,12 @@ ingredients:
   - 2 tbsp Balsamic Vinegar (The Acid Balance)
   - 20 Fresh Basil Leaves
   - 1 Fresh Bay Leaf
+origin: Italy
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: good
+equipment: []
 ---
 
 ## Chef's Note
@@ -34,7 +52,7 @@ Ragù alla Bolognese originated in Bologna in the late 18th century as a slow-co
 
 ## Directions
 
-1.  **The Sear:** Set pressure cooker to "Sauté" (High). Brown the pork pieces in olive oil (5 mins); remove. Brown the crumbled sausage; remove.
+1.  **The Sear high heat (400-450°F):** Set pressure cooker to "Sauté" (High). Brown the pork pieces in olive oil (5 mins); remove. Brown the crumbled sausage; remove.
 2.  **The Base:** Add onion, carrots, and celery. Sauté for 5 minutes until soft. Add garlic and bay leaf; cook for 2 minutes.
 3.  **The Bloom:** Stir in the tomato paste. Cook for 2 minutes until it turns a deep brick-red.
 4.  **Deglaze:** Pour in the wine. Scrape the bottom of the pot vigorously to release the fond. Simmer for 2 minutes.

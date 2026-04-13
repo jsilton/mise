@@ -1,18 +1,31 @@
 ---
 title: Sheet Pan Pineapple Shrimp Tacos
 difficulty: easy
-cookingMethods: [bake, roast, no-cook]
+cookingMethods:
+  - bake
+  - roast
+  - no-cook
 dietary: []
-occasions: [weeknight, summer]
-flavorProfile: [spicy, sweet, acidic, rich]
-cuisines: [Mexican]
+occasions:
+  - weeknight
+  - summer
+flavorProfile:
+  - spicy
+  - sweet
+  - acidic
+  - rich
+cuisines:
+  - Mexican
 role: main
 vibe: quick
 prepTime: 15 min
 cookTime: 15 min
 totalTime: 30 min
 servings: '6'
-pairsWith: [mexican-street-corn-salad, cilantro-lime-rice, quick-seasoned-black-beans]
+pairsWith:
+  - mexican-street-corn-salad
+  - cilantro-lime-rice
+  - quick-seasoned-black-beans
 ingredients:
   - '1 lb Shrimp, peeled and deveined'
   - '2 cups Fresh Pineapple, 1/2-inch pieces'
@@ -25,11 +38,18 @@ ingredients:
   - 1/2 cup Fresh Cilantro
   - '1 Lime, juiced (The Acid Balance)'
   - 'Corn Tortillas, Avocado, Sour Cream'
+origin: Mexico
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: good
+equipment: []
 ---
 
 ## Chef's Note
 
 These Mexican-inspired shrimp tacos roast on a divided sheet pan where shrimp, pineapple, and onions cook in separate zones, allowing the pineapple's sugars to caramelize without making the shrimp soggy. A cold cabbage-cilantro slaw dressed at the last moment provides crisp contrast to the sweet, sticky shrimp. Lime juice adds brightness.
+For kids, serve the heat on the side or reduce/omit the spicy elements.
 
 ## Directions
 

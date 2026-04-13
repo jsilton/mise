@@ -1,18 +1,31 @@
 ---
 title: Three Herb Chicken & Mushrooms
 difficulty: intermediate
-cookingMethods: [bake, roast, fry, sauté, simmer]
+cookingMethods:
+  - bake
+  - roast
+  - fry
+  - sauté
+  - simmer
 dietary: []
-occasions: [weeknight, comfort-food]
-flavorProfile: [acidic, herbaceous]
-cuisines: [French]
+occasions:
+  - weeknight
+  - comfort-food
+flavorProfile:
+  - acidic
+  - herbaceous
+cuisines:
+  - French
 role: main
 vibe: nutritious
 prepTime: 10 min
 cookTime: 25 min
 totalTime: 35 min
 servings: '4'
-pairsWith: [tarragon-potatoes, sweet-and-white-potato-gratin, garlicky-lemon-kale-with-carrots]
+pairsWith:
+  - tarragon-potatoes
+  - sweet-and-white-potato-gratin
+  - garlicky-lemon-kale-with-carrots
 ingredients:
   - '8 Bone-in Chicken Thighs, skin-on'
   - '8 oz Cremini Mushrooms, quartered'
@@ -24,12 +37,17 @@ ingredients:
   - 2 tbsp Dijon Mustard (The Finishing Touch)
   - 1 tbsp All-Purpose Flour
   - Salt and Black Pepper
+origin: France
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: good
+equipment: []
 ---
 
 ## Chef's Note
 
-This recipe uses a skillet-to-oven approach for perfectly cooked chicken. The secret is the cold-start sear: we place the chicken thighs skin-side down in a cold skillet and _then_ turn on the heat; this ensures the fat renders slowly, resulting in shatteringly crisp skin while the meat stays juicy. We use Dijon mustard to emulsify the herb-flecked wine sauce into a thick, glossy coating.
-
+This is a simplified poulet aux champignons — a French bistro standard built on two things: the sear on the chicken and the fond in the pan. Starting skin-side down in a cold skillet and bringing the heat up gradually renders the fat slowly, producing crispier skin than a screaming-hot pan. The Dijon mustard stirred into the sauce at the end is the classic French move — it emulsifies the pan juices and adds a sharp bite that cuts through the richness.
 ## Directions
 
 1.  **The Sear:** Season chicken with half the rosemary and thyme. Place skin-side down in a cold 12-inch oven-proof skillet. Turn heat to medium-high. Fry for 7 minutes until the skin is deep golden and releases easily.

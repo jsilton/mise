@@ -1,16 +1,31 @@
 ---
 title: Pumpkin Oatmeal Muffins
 difficulty: easy
-cookingMethods: [bake, blend]
-dietary: [vegetarian]
-occasions: [meal-prep, kids-approved, post-workout]
-seasons: [fall, winter]
+cookingMethods:
+  - bake
+  - blend
+dietary:
+  - vegetarian
+occasions:
+  - meal-prep
+  - kids-approved
+  - post-workout
+seasons:
+  - fall
+  - winter
 nutritionalDensity: moderate
 leftovers: excellent
-equipment: [muffin-tin, blender]
-advancePrep: [make-ahead, freeze-ahead]
-flavorProfile: [sweet, umami]
-cuisines: [American]
+equipment:
+  - muffin-tin
+  - blender
+advancePrep:
+  - make-ahead
+  - freeze-ahead
+flavorProfile:
+  - sweet
+  - umami
+cuisines:
+  - American
 role: main
 vibe: nutritious
 prepTime: 10 min
@@ -18,7 +33,9 @@ cookTime: 20 min
 totalTime: 30 min
 servings: '12'
 pairsWith:
-  [banana-oat-greek-yogurt-muffins, avocado-kale-caesar-salad, broccoli-cheddar-quinoa-bites]
+  - banana-oat-greek-yogurt-muffins
+  - avocado-kale-caesar-salad
+  - broccoli-cheddar-quinoa-bites
 ingredients:
   - 2 cups Rolled Oats
   - 1 cup Pure Pumpkin Puree
@@ -30,6 +47,7 @@ ingredients:
   - 1/4 tsp Sea Salt
   - 1 tsp Vanilla Extract
   - 1/4 cup Dark Chocolate Chips
+origin: United States
 ---
 
 ## Chef's Note

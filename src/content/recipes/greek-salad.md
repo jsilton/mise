@@ -1,38 +1,53 @@
 ---
 title: Greek Salad
 difficulty: easy
-cookingMethods: [raw]
-dietary: [vegetarian, gluten-free]
-occasions: [weeknight, light-and-fresh, summer, mediterranean]
-flavorProfile: [acidic, savory, herbaceous, briny]
-cuisines: [Greek, Mediterranean]
+cookingMethods:
+  - raw
+dietary:
+  - vegetarian
+  - gluten-free
+occasions:
+  - weeknight
+  - light-and-fresh
+  - summer
+  - mediterranean
+flavorProfile:
+  - acidic
+  - savory
+  - herbaceous
+  - briny
+cuisines:
+  - Greek
+  - Mediterranean
 role: side
 vibe: nutritious
 prepTime: 15 min
 cookTime: 0 min
 totalTime: 15 min
 servings: '4'
-seasons: [spring, summer, year-round]
+seasons:
+  - spring
+  - summer
+  - year-round
 nutritionalDensity: light
 leftovers: poor
 equipment: []
 pairsWith:
-  [
-    greek-style-lamb-burgers-with-yogurt-cucumber-sauce,
-    buttermilk-baked-chicken,
-    grilled-chicken-with-herbed-corn-salsa,
-  ]
+  - greek-style-lamb-burgers-with-yogurt-cucumber-sauce
+  - buttermilk-baked-chicken
+  - grilled-chicken-with-herbed-corn-salsa
 ingredients:
-  - 4 medium Ripe Tomatoes, cut into wedges
-  - 1 large English Cucumber, halved and sliced into half-moons
-  - 1/2 medium Red Onion, thinly sliced
-  - 1 Green Bell Pepper, seeded and sliced into rings
+  - '4 medium Ripe Tomatoes, cut into wedges'
+  - '1 large English Cucumber, halved and sliced into half-moons'
+  - '1/2 medium Red Onion, thinly sliced'
+  - '1 Green Bell Pepper, seeded and sliced into rings'
   - 1 cup Kalamata Olives
-  - 6 oz Feta Cheese, cut into large cubes (not crumbled)
+  - '6 oz Feta Cheese, cut into large cubes (not crumbled)'
   - 1/4 cup Extra Virgin Olive Oil
   - 2 tbsp Red Wine Vinegar
   - 1 tsp Dried Oregano
   - Salt and Black Pepper to taste
+origin: Greece
 ---
 
 ## Chef's Note

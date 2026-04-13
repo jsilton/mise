@@ -1,22 +1,41 @@
 ---
 title: Spaghetti with Clams & Braised Greens
 difficulty: intermediate
-cookingMethods: [roast, sauté, boil, steam, braise, blend]
-dietary: [vegetarian]
-occasions: [comfort-food, date-night, entertaining, weekend-project]
-flavorProfile: [spicy, acidic, umami, rich]
-cuisines: [Italian]
+cookingMethods:
+  - roast
+  - sauté
+  - boil
+  - steam
+  - braise
+  - blend
+dietary: []
+occasions:
+  - comfort-food
+  - date-night
+  - entertaining
+  - weekend-project
+flavorProfile:
+  - spicy
+  - acidic
+  - umami
+  - rich
+cuisines:
+  - Italian
 role: main
 vibe: comfort
 prepTime: 15 min
 cookTime: 30 min
 totalTime: 45 min
 servings: '4'
-seasons: [year-round, summer, fall]
+seasons:
+  - year-round
+  - summer
+  - fall
 nutritionalDensity: moderate
 leftovers: poor
 equipment: []
-pairsWith: [garlic-bread]
+pairsWith:
+  - garlic-bread
 ingredients:
   - 1/2 lb Spaghetti
   - '4 dozen Littleneck Clams, scrubbed'
@@ -29,6 +48,7 @@ ingredients:
   - 2 tbsp Unsalted Butter (cold)
   - '1 Lemon, zested and juiced (The Acid Balance)'
   - '1/2 cup Parmesan, freshly grated'
+origin: Italy
 ---
 
 ## Chef's Note
@@ -44,3 +64,5 @@ Spaghetti with clams is a classic Italian coastal dish, typically made with whit
 5.  **Bind:** Pour the pepper broth into the greens. Add the hot pasta and the cold butter.
 6.  **Emulsify:** Toss vigorously over medium heat. Add lemon juice, zest, and Parmesan. Stir until the sauce is glossy.
 7.  **Serve:** Return clams to the pot to warm through. Serve in shallow bowls with plenty of extra Parmesan.
+
+**Rest:** Let jarred Roast rest for 10 minutes before slicing or serving — the juices redistribute and every piece stays moist.

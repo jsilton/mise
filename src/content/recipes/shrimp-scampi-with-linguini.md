@@ -1,22 +1,39 @@
 ---
 title: Shrimp Scampi with Linguini
 difficulty: intermediate
-cookingMethods: [sauté, boil]
+cookingMethods:
+  - sauté
+  - boil
 dietary: []
-occasions: [date-night, weeknight, entertaining, light-and-fresh]
-seasons: [spring, summer, year-round]
+occasions:
+  - date-night
+  - weeknight
+  - entertaining
+  - light-and-fresh
+seasons:
+  - spring
+  - summer
+  - year-round
 nutritionalDensity: moderate
 leftovers: poor
-equipment: [large-skillet]
-flavorProfile: [acidic, umami, rich, herbaceous]
-cuisines: [Italian]
+equipment:
+  - large-skillet
+flavorProfile:
+  - acidic
+  - umami
+  - rich
+  - herbaceous
+cuisines:
+  - Italian
 role: main
 vibe: quick
 prepTime: 15 min
 cookTime: 10 min
 totalTime: 25 min
 servings: '4'
-pairsWith: [garlic-bread, avocado-kale-caesar-salad]
+pairsWith:
+  - garlic-bread
+  - avocado-kale-caesar-salad
 ingredients:
   - 1 lb Dried Linguini
   - '1 lb Large Shrimp, peeled and deveined'
@@ -29,6 +46,7 @@ ingredients:
   - 1/4 tsp Red Pepper Flakes
   - '1/4 cup Fresh Parsley, chopped'
   - Freshly Grated Parmesan
+origin: Italy
 ---
 
 ## Chef's Note

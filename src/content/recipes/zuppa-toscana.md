@@ -1,22 +1,38 @@
 ---
 title: Zuppa Toscana
 difficulty: intermediate
-cookingMethods: [bake, roast, sauté, simmer, boil]
+cookingMethods:
+  - bake
+  - roast
+  - sauté
+  - simmer
+  - boil
 dietary: []
-occasions: [comfort-food, meal-prep, weeknight]
-flavorProfile: [sweet, rich]
-cuisines: [Italian]
+occasions:
+  - comfort-food
+  - meal-prep
+  - weeknight
+flavorProfile:
+  - sweet
+  - rich
+cuisines:
+  - Italian
 role: main
 vibe: nutritious
 prepTime: 15 min
 cookTime: 35 min
 totalTime: 50 min
 servings: '8'
-seasons: [fall, winter, year-round]
+seasons:
+  - fall
+  - winter
+  - year-round
 nutritionalDensity: hearty
 leftovers: excellent
 equipment: []
-pairsWith: [garlic-bread, everyday-arugula-salad]
+pairsWith:
+  - garlic-bread
+  - everyday-arugula-salad
 ingredients:
   - '1 lb Hot or Sweet Italian Sausage, bulk'
   - '2 lbs Russet Potatoes, 1/2-inch cubes'
@@ -27,6 +43,7 @@ ingredients:
   - '1 Yellow Onion, diced'
   - 1 tsp Red Pepper Flakes (The Finishing Touch)
   - Sea Salt and Black Pepper
+origin: Italy
 ---
 
 ## Chef's Note

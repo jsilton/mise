@@ -1,18 +1,29 @@
 ---
 title: Pad Thai
 difficulty: intermediate
-cookingMethods: [fry, sauté, boil]
+cookingMethods:
+  - fry
+  - sauté
+  - boil
 dietary: []
-occasions: [comfort-food]
-flavorProfile: [spicy, sweet, acidic]
-cuisines: [Thai]
+occasions:
+  - comfort-food
+flavorProfile:
+  - spicy
+  - sweet
+  - acidic
+cuisines:
+  - Thai
 role: main
 vibe: comfort
 prepTime: 40 min
 cookTime: 20 min
 totalTime: 60 min
 servings: '3'
-pairsWith: [chinese-garlic-sauce-base, steamed-bok-choy-with-oyster-sauce, cantonese-wonton-broth]
+pairsWith:
+  - chinese-garlic-sauce-base
+  - steamed-bok-choy-with-oyster-sauce
+  - cantonese-wonton-broth
 ingredients:
   - 1/2 pkg Wide Rice Noodles (Bánh Phở)
   - '1/4 lb Shrimp, peeled and deveined'
@@ -27,11 +38,18 @@ ingredients:
   - 1 large Egg
   - '1/2 cup Peanuts, toasted and crushed'
   - '1/2 Lime, wedges'
+origin: Thailand
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: good
+equipment: []
 ---
 
 ## Chef's Note
 
 In the 1930s, Thai Prime Minister Plaek Phibunsongkhram launched a cultural campaign to create a unified national identity, which included promoting a 'national dish.' Pad Thai was born from this movement - a street food that used local ingredients and represented Thai cuisine to the world. The name literally means 'Thai-style stir-fried noodles,' and by the 1960s it had become Thailand's most recognizable dish internationally, despite being less than a century old. Real tamarind paste (sold in blocks, not concentrate) gives it the distinctive tangy-funky flavor that separates authentic Pad Thai from overly-sweet takeout versions.
+For kids, serve the heat on the side or reduce/omit the spicy elements.
 
 ## Directions
 

@@ -1,11 +1,18 @@
 ---
 title: Cranberry Apple Crunch
 difficulty: intermediate
-cookingMethods: [bake]
-dietary: [vegetarian]
-occasions: [holiday]
-flavorProfile: [sweet, acidic, rich]
-cuisines: [American]
+cookingMethods:
+  - bake
+dietary:
+  - vegetarian
+occasions:
+  - holiday
+flavorProfile:
+  - sweet
+  - acidic
+  - rich
+cuisines:
+  - American
 role: dessert
 vibe: holiday
 prepTime: 15 min
@@ -21,6 +28,17 @@ ingredients:
   - 1/3 cup All-Purpose Flour
   - '1/2 cup (1 stick) Unsalted Butter, melted (Replaces Margarine)'
   - '1/3 cup Pecans, chopped'
+origin: United States
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: good
+equipment: []
+pairsWith:
+  - apple-cider-cream-pie
+  - apple-pie
+  - blackout-chocolate-cake
+  - classic-peach-ice-cream
 ---
 
 ## Chef's Note

@@ -1,18 +1,29 @@
 ---
 title: Crockpot Vegetarian Chili
 difficulty: easy
-cookingMethods: [simmer]
-dietary: [vegetarian]
-occasions: [comfort-food]
-flavorProfile: [spicy, sweet, acidic, rich]
-cuisines: [Mexican]
+cookingMethods:
+  - simmer
+dietary:
+  - vegetarian
+occasions:
+  - comfort-food
+flavorProfile:
+  - spicy
+  - sweet
+  - acidic
+  - rich
+cuisines:
+  - Mexican
 role: main
 vibe: comfort
 prepTime: 15 min
 cookTime: 240 min
 totalTime: 255 min
 servings: '6'
-pairsWith: [mexican-street-corn-salad, cilantro-lime-rice, quick-seasoned-black-beans]
+pairsWith:
+  - mexican-street-corn-salad
+  - cilantro-lime-rice
+  - quick-seasoned-black-beans
 ingredients:
   - '1 large Red Onion, diced'
   - '2 stalks Celery, diced'
@@ -33,11 +44,18 @@ ingredients:
   - 1 tbsp Apple Cider Vinegar (The Finishing Touch)
   - 1 cup Water (or Veggie Stock)
   - Salt and Black Pepper
+origin: Mexico
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: good
+equipment: []
 ---
 
 ## Chef's Note
 
 This Tex-Mex style slow-cooker chili builds body and richness without meat by using sweet potatoes—as they simmer for 4 hours, their starches break down to create a thick, velvety consistency without needing a roux. Three types of beans add varied textures and protein. A splash of apple cider vinegar at the end brightens the earthy spices.
+For kids, serve the heat on the side or reduce/omit the spicy elements.
 
 ## Directions
 

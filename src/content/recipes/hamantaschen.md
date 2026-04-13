@@ -1,11 +1,17 @@
 ---
 title: Hamantaschen
 difficulty: easy
-cookingMethods: [bake]
-dietary: [vegetarian]
-occasions: [holiday]
-flavorProfile: [sweet, rich]
-cuisines: [Jewish]
+cookingMethods:
+  - bake
+dietary:
+  - vegetarian
+occasions:
+  - holiday
+flavorProfile:
+  - sweet
+  - rich
+cuisines:
+  - Jewish
 role: dessert
 vibe: holiday
 prepTime: 20 min
@@ -14,13 +20,25 @@ totalTime: 220 min
 servings: '35'
 ingredients:
   - '3/4 cup Unsalted Butter, room temp'
-  - '2/3 cup Granulated Sugar'
+  - 2/3 cup Granulated Sugar
   - '1 large Egg, room temp'
-  - '2 1/4 cups All-Purpose Flour'
-  - '1 tsp Pure Vanilla Extract'
+  - 2 1/4 cups All-Purpose Flour
+  - 1 tsp Pure Vanilla Extract
   - '1 tsp Orange Zest, grated'
-  - '1/4 tsp Sea Salt'
+  - 1/4 tsp Sea Salt
   - 'Apricot Jam, Poppy Seed Paste, or Nutella'
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: good
+advancePrep:
+  - chill-dough
+equipment: []
+pairsWith:
+  - noodle-pudding
+  - apple-cider-cream-pie
+  - apple-pie
+  - babys-first-smash-cake
 ---
 
 ## Chef's Note

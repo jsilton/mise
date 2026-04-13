@@ -1,18 +1,30 @@
 ---
 title: Slow Cooker Lentil Tortilla Soup
 difficulty: easy
-cookingMethods: [slow-cook, blend]
-dietary: [vegetarian]
-occasions: [comfort-food]
-flavorProfile: [spicy, acidic, umami, rich]
-cuisines: [Mexican]
+cookingMethods:
+  - slow-cook
+  - blend
+dietary:
+  - vegetarian
+occasions:
+  - comfort-food
+flavorProfile:
+  - spicy
+  - acidic
+  - umami
+  - rich
+cuisines:
+  - Mexican
 role: main
 vibe: comfort
 prepTime: 15 min
 cookTime: 300 min
 totalTime: 315 min
 servings: '6'
-pairsWith: [homemade-enchilada-sauce, mexican-street-corn-salad, queso-fundido-with-chorizo]
+pairsWith:
+  - homemade-enchilada-sauce
+  - mexican-street-corn-salad
+  - queso-fundido-with-chorizo
 ingredients:
   - '3/4 cup Red Lentils, dry'
   - 1 can (15 oz) Black Beans + 1 can Pinto Beans
@@ -25,11 +37,18 @@ ingredients:
   - 1/4 tsp Cayenne (The Finishing Touch)
   - 1/4 cup Heavy Cream (Optional)
   - 'Tortilla Chips, Avocado, and Lime wedges'
+origin: Mexico
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: excellent
+equipment: []
 ---
 
 ## Chef's Note
 
 This Tex-Mex vegetarian tortilla soup uses red lentils that dissolve completely during slow-cooking, creating a naturally thick, protein-rich base that binds beans and corn together. A splash of heavy cream or sour cream stirred in at serving adds richness that balances the tart salsa verde. Lime juice brightens the finished soup.
+For kids, serve the heat on the side or reduce/omit the spicy elements.
 
 ## Directions
 
@@ -38,3 +57,4 @@ This Tex-Mex vegetarian tortilla soup uses red lentils that dissolve completely 
 3.  **The Emulsion:** Stir in the optional heavy cream. For a smoother texture, use an immersion blender to pulse the soup 3-4 times—this keeps it chunky but increases the silkiness.
 4.  **Finish:** Stir in the fresh lime juice. Season with salt and pepper.
 5.  **Serve:** Ladle into bowls. Pile on the "Texture Stacks": crushed tortilla chips, diced avocado, and fresh cilantro.
+

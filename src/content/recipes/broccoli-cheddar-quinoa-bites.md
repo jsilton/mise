@@ -1,38 +1,49 @@
 ---
 title: Broccoli Cheddar Quinoa Bites
 difficulty: easy
-cookingMethods: [bake]
-dietary: [vegetarian]
-occasions: [entertaining, potluck, kids-approved, meal-prep]
-seasons: [year-round]
+cookingMethods:
+  - bake
+dietary:
+  - vegetarian
+occasions:
+  - entertaining
+  - potluck
+  - kids-approved
+  - meal-prep
+seasons:
+  - year-round
 nutritionalDensity: moderate
 leftovers: excellent
-advancePrep: [make-ahead]
-equipment: [muffin-tin]
-flavorProfile: [umami, herbaceous]
-cuisines: [American]
+advancePrep:
+  - make-ahead
+equipment:
+  - muffin-tin
+flavorProfile:
+  - umami
+  - herbaceous
+cuisines:
+  - American
 role: side
 vibe: nutritious
 prepTime: 15 min
 cookTime: 30 min
 totalTime: 45 min
-servings: '30 bites'
+servings: 30 bites
 pairsWith:
-  [
-    chocolate-chip-beet-muffins,
-    chocolate-chip-muffins-with-zucchini,
-    favorite-pumpkin-oatmeal-muffins,
-  ]
+  - chocolate-chip-beet-muffins
+  - chocolate-chip-muffins-with-zucchini
+  - favorite-pumpkin-oatmeal-muffins
 ingredients:
-  - '2 cups Cooked Quinoa'
+  - 2 cups Cooked Quinoa
   - '1 cup Fresh Broccoli, finely chopped (packed)'
   - '1 cup Sharp Cheddar, freshly grated'
   - '2 Green Onions, thinly sliced'
   - '2 large Eggs, lightly beaten'
   - '2 tbsp Parmesan Cheese, grated'
-  - '1/2 tsp Garlic Powder'
-  - '1/2 tsp Sea Salt'
-  - '1/4 tsp Black Pepper'
+  - 1/2 tsp Garlic Powder
+  - 1/2 tsp Sea Salt
+  - 1/4 tsp Black Pepper
+origin: United States
 ---
 
 ## Chef's Note

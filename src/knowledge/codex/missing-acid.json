@@ -4,8 +4,18 @@
   "category": "Flavor Balance",
   "severity": "hint",
   "description": "If a rich, starchy, or fatty dish has no obvious acidic component, suggest adding an acidic finishing component (vinegar, citrus, fermented dairy).",
-  "appliesToTags": ["braise", "stew", "roast", "casserole", "pasta"],
+  "appliesToTags": ["braise", "stew"],
   "detection": [
+    {
+      "type": "ingredient_presence",
+      "words": ["beef", "pork", "chicken", "lamb", "veal", "game", "ribs", "brisket", "chuck", "shoulder", "thighs"],
+      "optional": false
+    },
+    {
+      "type": "method_presence",
+      "words": ["braise", "stew"],
+      "optional": false
+    },
     {
       "type": "ingredient_absence",
       "words": [
@@ -18,11 +28,8 @@
         "buttermilk",
         "pickles",
         "kimchi"
-      ]
-    },
-    {
-      "type": "method_presence",
-      "words": ["braise", "stew", "roast", "bake", "fry", "pan-fry", "pan sear"]
+      ],
+      "optional": false
     }
   ],
   "suggestionTemplate": "Consider adding an acid (lemon, a splash of vinegar, or a finishing yogurt) to brighten and balance the dish.",

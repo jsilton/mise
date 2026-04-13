@@ -1,18 +1,26 @@
 ---
 title: Slow Cooker Cilantro Lime Chicken
 difficulty: easy
-cookingMethods: [slow-cook]
+cookingMethods:
+  - slow-cook
 dietary: []
-occasions: [comfort-food]
-flavorProfile: [spicy, acidic]
-cuisines: [Mexican]
+occasions:
+  - comfort-food
+flavorProfile:
+  - spicy
+  - acidic
+cuisines:
+  - Mexican
 role: main
 vibe: comfort
 prepTime: 10 min
 cookTime: 480 min
 totalTime: 490 min
 servings: '6'
-pairsWith: [mexican-street-corn-salad, queso-fundido-with-chorizo, roasted-sweet-potatoes]
+pairsWith:
+  - mexican-street-corn-salad
+  - queso-fundido-with-chorizo
+  - roasted-sweet-potatoes
 ingredients:
   - 1 1/2 lbs Chicken Breasts
   - '1 can (15 oz) Black Beans, rinsed'
@@ -25,11 +33,18 @@ ingredients:
   - 2 tsp Cumin + 2 tsp Chili Powder
   - Juice of 2 Limes (The Acid Balance)
   - Avocado and Tortillas for serving
+origin: Mexico
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: excellent
+equipment: []
 ---
 
 ## Chef's Note
 
 This Tex-Mex slow-cooker chicken cooks in a bath of salsa verde and Rotel tomatoes, where the tomatillos' natural acidity tenderizes the meat over long cooking. After shredding, fresh lime juice and cilantro stirred in at the end provide bright, fresh flavor that contrasts the slow-cooked base.
+For kids, serve the heat on the side or reduce/omit the spicy elements.
 
 ## Directions
 

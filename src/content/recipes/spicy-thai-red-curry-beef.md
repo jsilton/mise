@@ -2,18 +2,32 @@
 title: Thai Red Curry Beef
 origin: Thailand
 difficulty: easy
-cookingMethods: [fry, simmer, boil]
+cookingMethods:
+  - fry
+  - simmer
+  - boil
 dietary: []
-occasions: [weeknight, quick-lunch]
-flavorProfile: [sweet, savory, acidic, rich, herbaceous]
-cuisines: [Thai]
+occasions:
+  - weeknight
+  - quick-lunch
+flavorProfile:
+  - sweet
+  - savory
+  - acidic
+  - rich
+  - herbaceous
+cuisines:
+  - Thai
 role: main
 vibe: quick
 prepTime: 5 min
 cookTime: 15 min
 totalTime: 20 min
 servings: '4'
-pairsWith: [coconut-jasmine-rice, quick-pickled-carrots-and-daikon, eggplant-with-garlic-sauce]
+pairsWith:
+  - coconut-jasmine-rice
+  - quick-pickled-carrots-and-daikon
+  - eggplant-with-garlic-sauce
 ingredients:
   - '12 oz Beef Tenderloin or Flank Steak, paper-thin'
   - 1 can (13.5 oz) Light Coconut Milk
@@ -25,6 +39,11 @@ ingredients:
   - 1 cup Fresh Basil leaves (The Finishing Touch)
   - 1 tbsp Fresh Lime Juice
   - 4 Lime wedges for serving
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: good
+equipment: []
 ---
 
 ## Chef's Note

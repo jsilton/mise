@@ -1,11 +1,19 @@
 ---
 title: Potato Latkes
 difficulty: easy
-cookingMethods: [fry]
-dietary: [vegetarian]
-occasions: [entertaining, weekend-project]
-flavorProfile: [sweet, savory, rich]
-cuisines: [Jewish]
+cookingMethods:
+  - fry
+dietary:
+  - vegetarian
+occasions:
+  - entertaining
+  - weekend-project
+flavorProfile:
+  - sweet
+  - savory
+  - rich
+cuisines:
+  - Jewish
 role: main
 vibe: nutritious
 prepTime: 30 min
@@ -13,11 +21,9 @@ cookTime: 30 min
 totalTime: 60 min
 servings: 26 pancakes
 pairsWith:
-  [
-    nana-ruths-applesauce,
-    roasted-sunchokes-with-brown-butter-cider-vinaigrette,
-    avocado-kale-caesar-salad,
-  ]
+  - nana-ruths-applesauce
+  - roasted-sunchokes-with-brown-butter-cider-vinaigrette
+  - avocado-kale-caesar-salad
 ingredients:
   - '1 lb Sweet Potatoes, peeled and coarsely grated'
   - '2 large Eggs, beaten'
@@ -26,6 +32,11 @@ ingredients:
   - 1 tsp Sea Salt
   - 1/2 tsp Black Pepper
   - 3/4 cup Neutral Oil (for frying)
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: good
+equipment: []
 ---
 
 ## Chef's Note

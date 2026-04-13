@@ -1,16 +1,32 @@
 ---
 title: Blueberry Banana Pancake Muffins
 difficulty: intermediate
-cookingMethods: [bake, blend]
-dietary: [vegetarian]
-occasions: [meal-prep, kids-approved, post-workout, quick-lunch]
-seasons: [year-round]
+cookingMethods:
+  - bake
+  - blend
+dietary:
+  - vegetarian
+occasions:
+  - meal-prep
+  - kids-approved
+  - post-workout
+  - quick-lunch
+seasons:
+  - year-round
 nutritionalDensity: moderate
 leftovers: excellent
-equipment: [muffin-tin, blender, mixing-bowl]
-advancePrep: [make-ahead, freeze-ahead]
-flavorProfile: [sweet, rich]
-cuisines: [American]
+equipment:
+  - muffin-tin
+  - blender
+  - mixing-bowl
+advancePrep:
+  - make-ahead
+  - freeze-ahead
+flavorProfile:
+  - sweet
+  - rich
+cuisines:
+  - American
 role: main
 vibe: quick
 prepTime: 5 min
@@ -18,15 +34,18 @@ cookTime: 25 min
 totalTime: 30 min
 servings: '12'
 pairsWith:
-  [banana-oat-greek-yogurt-muffins, brownie-protein-balls, strawberry-quinoa-breakfast-bars]
+  - banana-oat-greek-yogurt-muffins
+  - brownie-protein-balls
+  - strawberry-quinoa-breakfast-bars
 ingredients:
-  - '2 large Ripe Bananas'
-  - '1 cup Rolled Oats'
-  - '1 cup Full-Fat Cottage Cheese (The protein secret)'
-  - '2 large Eggs'
-  - '1 tbsp Maple Syrup'
-  - '1 tsp Vanilla Extract'
-  - '1/2 cup Frozen Blueberries'
+  - 2 large Ripe Bananas
+  - 1 cup Rolled Oats
+  - 1 cup Full-Fat Cottage Cheese (The protein secret)
+  - 2 large Eggs
+  - 1 tbsp Maple Syrup
+  - 1 tsp Vanilla Extract
+  - 1/2 cup Frozen Blueberries
+origin: United States
 ---
 
 ## Chef's Note

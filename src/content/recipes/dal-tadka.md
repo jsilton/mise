@@ -2,39 +2,64 @@
 title: Dal Tadka
 origin: India
 difficulty: easy
-cookingMethods: [simmer, saute]
-dietary: [vegetarian, vegan, gluten-free, dairy-free, nut-free]
-occasions: [weeknight, meal-prep, comfort-food]
-flavorProfile: [savory, spicy, umami, herbaceous]
-cuisines: [Indian]
+cookingMethods:
+  - simmer
+  - saute
+dietary:
+  - vegetarian
+  - gluten-free
+  - dairy-free
+  - nut-free
+occasions:
+  - weeknight
+  - meal-prep
+  - comfort-food
+flavorProfile:
+  - savory
+  - spicy
+  - umami
+  - herbaceous
+cuisines:
+  - Indian
 role: main
 vibe: comfort
-seasons: [spring, summer, fall, winter]
+seasons:
+  - spring
+  - summer
+  - fall
+  - winter
 nutritionalDensity: hearty
 leftovers: excellent
-advancePrep: [make-ahead, freeze-ahead]
-equipment: [medium saucepan, small skillet]
+advancePrep:
+  - make-ahead
+  - freeze-ahead
+equipment:
+  - medium saucepan
+  - small skillet
 prepTime: 10 min
 cookTime: 35 min
 totalTime: 45 min
 servings: '4'
-pairsWith: [basmati-rice, homemade-naan, chana-masala]
+pairsWith:
+  - basmati-rice
+  - homemade-naan
+  - chana-masala
 ingredients:
   - '1 cup Yellow Lentils (moong dal or toor dal), rinsed until water runs clear'
-  - '3 cups Water'
-  - '1/2 tsp Ground Turmeric'
+  - 3 cups Water
+  - 1/2 tsp Ground Turmeric
   - '1 tsp Kosher Salt, plus more to taste'
   - '1 medium Tomato, finely diced'
   - '2 Green Serrano Chiles, slit lengthwise'
-  - '3 tbsp Ghee (or neutral oil for vegan)'
-  - '1 tsp Cumin Seeds'
-  - '1 tsp Black Mustard Seeds'
-  - '8-10 Fresh Curry Leaves (optional but highly recommended)'
+  - 3 tbsp Ghee (or neutral oil for vegan)
+  - 1 tsp Cumin Seeds
+  - 1 tsp Black Mustard Seeds
+  - 8-10 Fresh Curry Leaves (optional but highly recommended)
   - '2 Dried Red Chiles, broken in half'
-  - '1/4 tsp Asafoetida (hing)'
+  - 1/4 tsp Asafoetida (hing)
   - '4 cloves Garlic, thinly sliced'
   - '1 medium Yellow Onion, finely diced'
-  - '1 tsp Kashmiri Red Chile Powder (or paprika)'
+  - 1 tsp Kashmiri Red Chile Powder (or paprika)
   - '2 tbsp Fresh Cilantro, chopped, for garnish'
   - '1 tbsp Lemon Juice, for finishing'
 ---

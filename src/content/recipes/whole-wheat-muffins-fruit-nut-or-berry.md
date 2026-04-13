@@ -1,23 +1,40 @@
 ---
 title: Whole-Wheat Fruit Muffins
 difficulty: easy
-cookingMethods: [bake]
-dietary: [vegetarian]
-occasions: [meal-prep, kids-approved, post-workout]
-seasons: [year-round]
+cookingMethods:
+  - bake
+dietary:
+  - vegetarian
+occasions:
+  - meal-prep
+  - kids-approved
+  - post-workout
+seasons:
+  - year-round
 nutritionalDensity: moderate
 leftovers: excellent
-equipment: [muffin-tin, mixing-bowl]
-advancePrep: [make-ahead, freeze-ahead]
-flavorProfile: [sweet, acidic, rich]
-cuisines: [American]
+equipment:
+  - muffin-tin
+  - mixing-bowl
+advancePrep:
+  - make-ahead
+  - freeze-ahead
+flavorProfile:
+  - sweet
+  - acidic
+  - rich
+cuisines:
+  - American
 role: main
 vibe: quick
 prepTime: 10 min
 cookTime: 15 min
 totalTime: 25 min
 servings: '12'
-pairsWith: [banana-oat-greek-yogurt-muffins, avocado-kale-caesar-salad, roasted-fall-harvest-salad]
+pairsWith:
+  - banana-oat-greek-yogurt-muffins
+  - avocado-kale-caesar-salad
+  - roasted-fall-harvest-salad
 ingredients:
   - 1 1/2 cups White Whole-wheat Flour (King Arthur Standard)
   - 3/4 cup Apple or Orange Juice (The Acid Balance)
@@ -27,6 +44,7 @@ ingredients:
   - 2 tsp Baking Powder
   - 1/2 tsp Cinnamon + 1/8 tsp Nutmeg
   - '1 cup Blueberries, Strawberries, or Pears'
+origin: United States
 ---
 
 ## Chef's Note

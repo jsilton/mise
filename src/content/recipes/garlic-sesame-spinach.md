@@ -2,27 +2,43 @@
 title: Sigeumchi Namul
 origin: Korea
 difficulty: intermediate
-cookingMethods: [boil]
-dietary: [vegetarian]
-occasions: [weeknight, light-and-fresh]
+cookingMethods:
+  - boil
+dietary:
+  - vegetarian
+occasions:
+  - weeknight
+  - light-and-fresh
 flavorProfile: []
-cuisines: [Korean]
+cuisines:
+  - Korean
 role: side
 vibe: quick
-season: [spring, summer, fall, winter]
+season:
+  - spring
+  - summer
+  - fall
+  - winter
 leftovers: good
 healthiness: light
-pairsWith: [bibimbap, kalbi-grilled-korean-style-short-ribs, basmati-rice]
+pairsWith:
+  - bibimbap
+  - kalbi-grilled-korean-style-short-ribs
+  - basmati-rice
 prepTime: 5 min
 cookTime: 2 min
 totalTime: 7 min
 servings: '4'
 ingredients:
-  - '1 lb Fresh Baby Spinach'
-  - '1 tsp Toasted Sesame Oil'
+  - 1 lb Fresh Baby Spinach
+  - 1 tsp Toasted Sesame Oil
   - '1 tsp Garlic, minced'
-  - '1/2 tsp Sea Salt'
-  - '1 tsp Toasted Sesame Seeds'
+  - 1/2 tsp Sea Salt
+  - 1 tsp Toasted Sesame Seeds
+seasons:
+  - year-round
+nutritionalDensity: moderate
+equipment: []
 ---
 
 ## Chef's Note

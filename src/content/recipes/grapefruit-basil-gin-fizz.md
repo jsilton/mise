@@ -1,15 +1,27 @@
 ---
 title: Grapefruit-Basil Gin Fizz
 difficulty: easy
-cookingMethods: [grill]
-dietary: [vegan]
-occasions: [entertaining, summer, light-and-fresh]
-seasons: [spring, summer]
+cookingMethods:
+  - grill
+dietary:
+  - vegan
+occasions:
+  - entertaining
+  - summer
+  - light-and-fresh
+seasons:
+  - spring
+  - summer
 nutritionalDensity: light
 leftovers: poor
-equipment: [cocktail-shaker]
-flavorProfile: [sweet, acidic, herbaceous]
-cuisines: [American]
+equipment:
+  - cocktail-shaker
+flavorProfile:
+  - sweet
+  - acidic
+  - herbaceous
+cuisines:
+  - American
 role: drink
 vibe: quick
 prepTime: 5 min
@@ -24,6 +36,12 @@ ingredients:
   - 3 dashes Angostura Bitters (The Finishing Touch)
   - 1 Fresh Basil sprig
   - Large Ice Cubes
+origin: United States
+pairsWith:
+  - herb-marinated-pork-tenderloins
+  - roasted-fall-harvest-salad
+  - roasted-root-vegetables
+  - roasted-sunchokes-with-brown-butter-cider-vinaigrette
 ---
 
 ## Chef's Note

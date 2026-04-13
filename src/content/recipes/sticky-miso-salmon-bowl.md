@@ -1,18 +1,32 @@
 ---
 title: Sticky Miso Salmon Bowls
 difficulty: easy
-cookingMethods: [simmer, boil, steam, no-cook]
-dietary: [vegetarian]
-occasions: [weeknight, meal-prep]
-flavorProfile: [sweet, savory, acidic, rich]
-cuisines: [Japanese]
+cookingMethods:
+  - simmer
+  - boil
+  - steam
+  - no-cook
+dietary: []
+occasions:
+  - weeknight
+  - meal-prep
+flavorProfile:
+  - sweet
+  - savory
+  - acidic
+  - rich
+cuisines:
+  - Japanese
 role: main
 vibe: nutritious
 prepTime: 15 min
 cookTime: 10 min
 totalTime: 40 min
 servings: '4'
-pairsWith: [miso-soup, dashi-japanese-sea-stock, steamed-edamame]
+pairsWith:
+  - miso-soup
+  - dashi-japanese-sea-stock
+  - steamed-edamame
 ingredients:
   - 4 Skin-on Salmon Fillets (6-8 oz each)
   - 2 cups Sushi Rice (rinsed)
@@ -24,6 +38,12 @@ ingredients:
   - Kimchi and Chile Crisp
   - Toasted Nori sheets
   - '4 Scallions, sliced'
+origin: Japan
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: poor
+equipment: []
 ---
 
 ## Chef's Note

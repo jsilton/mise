@@ -1,30 +1,44 @@
 ---
 title: Bok Choy with Oyster Sauce
 difficulty: easy
-cookingMethods: [sauté, steam]
+cookingMethods:
+  - sauté
+  - steam
 dietary: []
-occasions: [weeknight, quick-lunch, light-and-fresh]
-flavorProfile: [sweet, savory, umami]
-cuisines: [Chinese]
+occasions:
+  - weeknight
+  - quick-lunch
+  - light-and-fresh
+flavorProfile:
+  - sweet
+  - savory
+  - umami
+cuisines:
+  - Chinese
 role: side
 vibe: quick
 prepTime: 5 min
 cookTime: 5 min
 totalTime: 10 min
 servings: '4'
-seasons: [year-round]
+seasons:
+  - year-round
 nutritionalDensity: light
 leftovers: poor
 equipment: []
-pairsWith: [mongolian-beef, chinese-sausage-fried-rice, pad-thai]
+pairsWith:
+  - mongolian-beef
+  - chinese-sausage-fried-rice
+  - pad-thai
 ingredients:
   - '1 lb Baby Bok Choy, halved lengthwise'
-  - '2 tbsp Oyster Sauce'
-  - '1 tbsp Soy Sauce'
-  - '1 tsp Toasted Sesame Oil'
+  - 2 tbsp Oyster Sauce
+  - 1 tbsp Soy Sauce
+  - 1 tsp Toasted Sesame Oil
   - '2 cloves Garlic, thinly sliced'
-  - '1 tbsp Neutral Oil'
+  - 1 tbsp Neutral Oil
   - 'Optional: Fried Garlic or Shallots for crunch'
+origin: China
 ---
 
 ## Chef's Note

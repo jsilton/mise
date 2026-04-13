@@ -2,31 +2,46 @@
 title: Avocado Toast
 origin: Australia
 difficulty: easy
-cookingMethods: [toast]
-dietary: [vegetarian, vegan, dairy-free]
-occasions: [weeknight, light-and-fresh, quick-lunch]
-flavorProfile: [savory, acidic, rich]
-cuisines: [American]
+cookingMethods:
+  - toast
+dietary:
+  - vegetarian
+  - dairy-free
+occasions:
+  - weeknight
+  - light-and-fresh
+  - quick-lunch
+flavorProfile:
+  - savory
+  - acidic
+  - rich
+cuisines:
+  - American
 role: main
 vibe: quick
 prepTime: 5 min
 cookTime: 3 min
 totalTime: 8 min
 servings: '2'
-seasons: [year-round]
+seasons:
+  - year-round
 nutritionalDensity: moderate
 leftovers: poor
 advancePrep: []
-equipment: [toaster]
-pairsWith: [everyday-arugula-salad]
+equipment:
+  - toaster
+pairsWith:
+  - everyday-arugula-salad
 ingredients:
-  - '2 slices Thick-Cut Sourdough or Rustic Bread'
-  - '1 large Ripe Avocado'
-  - '1 tbsp Fresh Lemon or Lime Juice'
-  - 'Flaky Sea Salt (Maldon)'
-  - 'Red Pepper Flakes'
-  - 'Extra-Virgin Olive Oil for drizzling'
-  - 'Optional Toppings: everything bagel seasoning, soft-boiled egg, cherry tomatoes, radish slices, microgreens, pickled red onions'
+  - 2 slices Thick-Cut Sourdough or Rustic Bread
+  - 1 large Ripe Avocado
+  - 1 tbsp Fresh Lemon or Lime Juice
+  - Flaky Sea Salt (Maldon)
+  - Red Pepper Flakes
+  - Extra-Virgin Olive Oil for drizzling
+  - >-
+    Optional Toppings: everything bagel seasoning, soft-boiled egg, cherry
+    tomatoes, radish slices, microgreens, pickled red onions
 ---
 
 ## Chef's Note

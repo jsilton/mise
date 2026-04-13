@@ -1,26 +1,44 @@
 ---
 title: Cranberry Orange Sauce
 aliases:
-  - 'cranberry-orange-sauce-the-bright-finish'
+  - cranberry-orange-sauce-the-bright-finish
 difficulty: intermediate
-cookingMethods: [roast, simmer, boil]
-dietary: [vegetarian]
-occasions: [holiday]
-flavorProfile: [sweet, acidic, rich]
-cuisines: [American]
+cookingMethods:
+  - roast
+  - simmer
+  - boil
+dietary:
+  - vegetarian
+occasions:
+  - holiday
+flavorProfile:
+  - sweet
+  - acidic
+  - rich
+cuisines:
+  - American
 role: side
 vibe: holiday
 prepTime: 5 min
 cookTime: 15 min
 totalTime: 20 min
-servings: '3 cups'
-pairsWith: [chicken-apple-and-butternut-stew, simple-roast-turkey, brownie-baked-oatmeal]
+servings: 3 cups
+pairsWith:
+  - chicken-apple-and-butternut-stew
+  - simple-roast-turkey
+  - brownie-baked-oatmeal
 ingredients:
-  - '12 oz Fresh Cranberries (1 bag)'
-  - '1/2 cup Sugar (adjust to taste)'
-  - '1/4 cup Freshly Squeezed Orange Juice'
-  - '2 tbsp Orange Zest (The acid punch)'
-  - '3/4 cup Water'
+  - 12 oz Fresh Cranberries (1 bag)
+  - 1/2 cup Sugar (adjust to taste)
+  - 1/4 cup Freshly Squeezed Orange Juice
+  - 2 tbsp Orange Zest (The acid punch)
+  - 3/4 cup Water
+origin: United States
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: good
+equipment: []
 ---
 
 ## Chef's Note

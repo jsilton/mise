@@ -1,18 +1,29 @@
 ---
 title: Mediterranean Pinwheels
 difficulty: easy
-cookingMethods: [blend]
-dietary: [vegetarian]
-occasions: [entertaining, quick-lunch]
-flavorProfile: [umami, rich, herbaceous]
-cuisines: [Mediterranean]
+cookingMethods:
+  - blend
+dietary:
+  - vegetarian
+occasions:
+  - entertaining
+  - quick-lunch
+flavorProfile:
+  - umami
+  - rich
+  - herbaceous
+cuisines:
+  - Mediterranean
 role: main
 vibe: quick
 prepTime: 15 min
 cookTime: 0 min
-totalTime: 30 min
-servings: 32 pinwheels
-pairsWith: [charred-asparagus-with-parmesan, everyday-arugula-salad, garlic-butter-couscous]
+totalTime: '15 min'
+servings: '32 pinwheels'
+pairsWith:
+  - charred-asparagus-with-parmesan
+  - everyday-arugula-salad
+  - garlic-butter-couscous
 ingredients:
   - 6 large Spinach or Sun-dried Tomato Tortillas
   - '8 oz Cream Cheese, softened'
@@ -23,6 +34,12 @@ ingredients:
   - 1/4 cup Grated Parmesan
   - '1/3 cup Feta Cheese, crumbled'
   - 1 cup Fresh Basil leaves
+origin: Mediterranean
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: good
+equipment: []
 ---
 
 ## Chef's Note

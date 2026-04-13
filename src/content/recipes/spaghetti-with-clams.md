@@ -1,22 +1,37 @@
 ---
 title: Spaghetti with Clams
 difficulty: intermediate
-cookingMethods: [sauté, boil]
-dietary: [vegetarian]
-occasions: [date-night, entertaining, weekend-project]
-seasons: [spring, summer, year-round]
+cookingMethods:
+  - sauté
+  - boil
+dietary: []
+occasions:
+  - date-night
+  - entertaining
+  - weekend-project
+seasons:
+  - spring
+  - summer
+  - year-round
 nutritionalDensity: moderate
 leftovers: poor
-equipment: [large-skillet]
-flavorProfile: [acidic, rich, herbaceous]
-cuisines: [Italian]
+equipment:
+  - large-skillet
+flavorProfile:
+  - acidic
+  - rich
+  - herbaceous
+cuisines:
+  - Italian
 role: main
 vibe: quick
 prepTime: 10 min
 cookTime: 15 min
 totalTime: 25 min
 servings: '4'
-pairsWith: [garlic-bread, avocado-kale-caesar-salad]
+pairsWith:
+  - garlic-bread
+  - avocado-kale-caesar-salad
 ingredients:
   - 1 lb Spaghetti
   - '2 lbs Littleneck Clams, scrubbed'
@@ -27,6 +42,7 @@ ingredients:
   - '1/4 cup Fresh Parsley, chopped'
   - 1 tbsp Fresh Lemon Juice (The Acid Balance)
   - Salt and Black Pepper
+origin: Italy
 ---
 
 ## Chef's Note

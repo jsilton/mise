@@ -1,18 +1,31 @@
 ---
 title: Sheet Pan Feta Chicken
 difficulty: intermediate
-cookingMethods: [bake, roast]
+cookingMethods:
+  - bake
+  - roast
 dietary: []
-occasions: [weeknight, meal-prep]
-flavorProfile: [sweet, savory, acidic, rich, herbaceous]
-cuisines: [Mediterranean]
+occasions:
+  - weeknight
+  - meal-prep
+flavorProfile:
+  - sweet
+  - savory
+  - acidic
+  - rich
+  - herbaceous
+cuisines:
+  - Mediterranean
 role: main
 vibe: nutritious
 prepTime: 15 min
 cookTime: 25 min
 totalTime: 40 min
 servings: '4'
-pairsWith: [lemon-herb-couscous, whipped-feta-with-honey, garlic-butter-couscous]
+pairsWith:
+  - lemon-herb-couscous
+  - whipped-feta-with-honey
+  - garlic-butter-couscous
 ingredients:
   - '4 small Chicken Breasts (6 oz each), patted bone-dry'
   - '8 oz Feta Cheese, block-style (in brine)'
@@ -24,6 +37,12 @@ ingredients:
   - 1 tbsp Dijon Mustard
   - 1/2 tsp Dried Oregano + 1/2 tsp Garlic Powder
   - Fresh Basil for garnish
+origin: Mediterranean
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: good
+equipment: []
 ---
 
 ## Chef's Note
@@ -38,3 +57,5 @@ Adding cherry tomatoes in two stages ensures both a rich sauce and whole, crispy
 4.  **Stage 2:** Add the remaining 2 cups of tomatoes to the pan. Drizzle with any leftover balsamic glaze from the bowl.
 5.  **Bake:** Roast for 10-15 more minutes until the chicken reaches **160°F** (it will carry to 165°F) and the tomatoes have just burst.
 6.  **Finish:** Garnish with a massive amount of fresh basil and cracked black pepper for the mandatory **High Note**.
+
+**Rest:** Let small Chicken rest for 5 minutes before slicing or serving — the juices redistribute and every piece stays moist.

@@ -1,17 +1,33 @@
 ---
 title: Funfetti Cake
 difficulty: easy
-cookingMethods: [bake, no-cook]
-dietary: [vegetarian]
-occasions: [holiday, entertaining, kids-approved, indulgent]
-seasons: [year-round]
+cookingMethods:
+  - bake
+  - no-cook
+dietary:
+  - vegetarian
+occasions:
+  - holiday
+  - entertaining
+  - kids-approved
+  - indulgent
+seasons:
+  - year-round
 nutritionalDensity: hearty
 leftovers: excellent
-equipment: [cake-pans, stand-mixer, mixing-bowl]
-advancePrep: [make-ahead]
-pairsWith: [favorite-cream-cheese-frosting]
-flavorProfile: [sweet, rich]
-cuisines: [American]
+equipment:
+  - cake-pans
+  - stand-mixer
+  - mixing-bowl
+advancePrep:
+  - make-ahead
+pairsWith:
+  - favorite-cream-cheese-frosting
+flavorProfile:
+  - sweet
+  - rich
+cuisines:
+  - American
 role: dessert
 vibe: technical
 prepTime: 50 min
@@ -33,6 +49,7 @@ ingredients:
   - 6 cups Confectioners’ Sugar
   - 6 tbsp Heavy Cream
   - 2 tsp Vanilla Extract
+origin: United States
 ---
 
 ## Chef's Note

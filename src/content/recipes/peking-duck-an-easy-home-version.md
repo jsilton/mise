@@ -1,23 +1,41 @@
 ---
 title: Peking Duck
 difficulty: easy
-cookingMethods: [bake, roast, simmer, boil]
+cookingMethods:
+  - bake
+  - roast
+  - simmer
+  - boil
 dietary: []
-occasions: [entertaining, holiday, weekend-project, indulgent]
-flavorProfile: [sweet, acidic]
-cuisines: [Chinese]
+occasions:
+  - entertaining
+  - holiday
+  - weekend-project
+  - indulgent
+flavorProfile:
+  - sweet
+  - acidic
+cuisines:
+  - Chinese
 role: main
 vibe: technical
 prepTime: 120 min
 cookTime: 75 min
 totalTime: 3000 min
 servings: '6'
-seasons: [year-round, winter, fall]
+seasons:
+  - year-round
+  - winter
+  - fall
 nutritionalDensity: hearty
 leftovers: good
-advancePrep: [marinate-overnight]
+advancePrep:
+  - marinate-overnight
+  - air-dry
 equipment: []
-pairsWith: [smashed-cucumber-salad, basmati-rice]
+pairsWith:
+  - smashed-cucumber-salad
+  - basmati-rice
 ingredients:
   - 1 Whole Duck (5.5 lbs)
   - 2 tbsp Maltose (or Honey)
@@ -29,6 +47,7 @@ ingredients:
   - 2 pieces Cassia Cinnamon
   - 3 tbsp Sweet Bean Sauce (Tian Mian Jiang)
   - 1 tsp Sugar + 1 tsp Duck Fat
+origin: China
 ---
 
 ## Chef's Note

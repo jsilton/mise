@@ -1,46 +1,66 @@
 ---
 title: Roasted Brussels Sprouts with Balsamic
-origin: American
+origin: Italy
 difficulty: easy
-cookingMethods: [roast]
-dietary: [vegetarian, vegan, gluten-free]
-occasions: [weeknight, thanksgiving, holiday, fall-harvest]
-flavorProfile: [sweet, savory, acidic, caramelized]
-cuisines: [American, Italian]
+cookingMethods:
+  - roast
+dietary:
+  - vegetarian
+  - gluten-free
+occasions:
+  - weeknight
+  - entertaining
+  - comfort-food
+  - fall
+flavorProfile:
+  - sweet
+  - acidic
+  - caramelized
+  - savory
+cuisines:
+  - Italian
+  - American
 role: side
 vibe: comfort
-seasons: [fall, winter]
+seasons:
+  - fall
+  - winter
+  - spring
 nutritionalDensity: moderate
 leftovers: good
-advancePrep: [halve-sprouts-up-to-1-day]
-equipment: [sheet-pan]
+advancePrep: []
+equipment:
+  - baking-sheet
 prepTime: 10 min
 cookTime: 25 min
 totalTime: 35 min
 servings: '4'
-pairsWith: [rosemary-pork-tenderloin, buttermilk-baked-chicken, chicken-marsala]
+pairsWith:
+  - baked-chicken-parmesan
+  - one-pan-lemon-herb-chicken-thighs
+  - sausage-and-white-bean-skillet
 ingredients:
-  - '1.5 lbs Brussels Sprouts, trimmed and halved'
-  - '3 tbsp Olive Oil'
-  - '1 tsp Kosher Salt'
-  - '1/2 tsp Black Pepper'
-  - '2 tbsp Balsamic Vinegar'
-  - '1 tbsp Honey or Maple Syrup'
-  - '2 tbsp Shaved Parmesan (optional)'
+  - 1.5 lbs Fresh Brussels Sprouts
+  - 3 tbsp Olive Oil
+  - 1/2 tsp Kosher Salt
+  - 1/4 tsp Black Pepper
+  - 3 tbsp Aged Balsamic Vinegar
+  - 1 tbsp Honey
+  - Flaky Sea Salt for finishing
 ---
 
 ## Chef's Note
 
-The key to brussels sprouts that convert skeptics is ruthless caramelization. Cut them in half, lay them flat-side down on a screaming hot sheet pan, and do not touch them. The flat face needs uninterrupted contact with the hot surface to develop a deep mahogany crust. The balsamic glaze goes on at the very end -- toss it on too early and the sugars burn. That combination of crispy charred leaves, tender interior, and sweet-tart glaze is what makes this the side dish that disappears first at every table.
+The secret to making kids eat Brussels sprouts is high-heat caramelization that turns the edges dark brown and crispy—this creates a deeply savory umami note and actual sweetness. The balsamic-honey glaze adds sweetness and acidity, which balances the sulfurous vegetables. This is the technique restaurants use: cut the sprouts in half, sear the cut-side down at high heat to create a burnished, browned exterior before roasting. Crowding the pan prevents browning, so use two sheets if needed.
 
 ## Directions
 
-1.  **Preheat:** Set oven to 425F with a sheet pan inside (preheating the pan ensures immediate searing contact). Line with parchment if preferred, but a bare pan gives better browning.
-
-2.  **Prep:** Trim the stem ends of the brussels sprouts and halve them through the root. Toss in a large bowl with olive oil, salt, and pepper.
-
-3.  **Roast:** Carefully remove the hot sheet pan from the oven. Spread the brussels sprouts cut-side down in a single layer -- do not crowd. Roast for 20-25 minutes without flipping until the flat sides are deeply browned and crispy-edged.
-
-4.  **Glaze:** While sprouts roast, whisk together balsamic vinegar and honey in a small bowl. When sprouts come out of the oven, immediately drizzle the balsamic glaze over them and toss gently to coat.
-
-5.  **Finish:** Transfer to a serving dish and top with shaved Parmesan if using. Serve hot while the edges are still crispy.
+1. **Prep:** Preheat oven to 425°F. Line a large baking sheet (or two sheets) with parchment paper.
+2. **Cut and Dry:** Trim the bottom off each Brussels sprout and remove any yellowed outer leaves. Cut in half lengthwise. Pat completely dry with paper towels—moisture prevents browning.
+3. **Toss:** Toss Brussels sprouts with olive oil, salt, and pepper.
+4. **Arrange:** Spread on the baking sheet in a single layer, cut-side down. Do not crowd or they will steam. Use a second sheet if needed.
+5. **Roast:** Bake for 20 minutes without stirring. The cut-side should be deeply browned and caramelized.
+6. **Make Glaze:** While sprouts roast, whisk together balsamic vinegar and honey in a small bowl.
+7. **Glaze:** Remove pan from oven. Drizzle the balsamic glaze over the sprouts. Toss gently and return to oven.
+8. **Finish Roast:** Bake for 5 more minutes until the glaze is bubbling and sticky.
+9. **Serve:** Transfer to a serving dish. Finish with flaky sea salt. Serve hot.

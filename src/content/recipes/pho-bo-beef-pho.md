@@ -2,23 +2,45 @@
 title: Pho Bo (Beef Pho)
 origin: Vietnam
 difficulty: intermediate
-cookingMethods: [roast, simmer, boil, no-cook]
-dietary: [dairy-free]
-occasions: [comfort-food, entertaining]
-flavorProfile: [savory, herbaceous, umami, spicy]
-cuisines: [Vietnamese]
+cookingMethods:
+  - roast
+  - simmer
+  - boil
+  - no-cook
+dietary:
+  - dairy-free
+occasions:
+  - comfort-food
+  - entertaining
+flavorProfile:
+  - savory
+  - herbaceous
+  - umami
+  - spicy
+cuisines:
+  - Vietnamese
 role: main
 vibe: comfort
-seasons: [fall, winter]
+seasons:
+  - fall
+  - winter
 nutritionalDensity: hearty
 leftovers: good
-advancePrep: [make-ahead, components-ahead]
-equipment: [stockpot, sheet pan, fine-mesh strainer]
+advancePrep:
+  - make-ahead
+  - components-ahead
+equipment:
+  - stockpot
+  - sheet pan
+  - fine-mesh strainer
 prepTime: 30 min
-cookTime: 4 hours
-totalTime: 4.5 hours
+cookTime: 4 hr
+totalTime: 4.5 hr
 servings: '6'
-pairsWith: [quick-pickled-carrots-and-daikon, vietnamese-spring-rolls, smashed-cucumber-salad]
+pairsWith:
+  - quick-pickled-carrots-and-daikon
+  - vietnamese-spring-rolls
+  - smashed-cucumber-salad
 ingredients:
   - '3 lbs Beef Marrow Bones, cut into 3-inch pieces'
   - '2 lbs Beef Brisket, whole piece'
@@ -26,13 +48,13 @@ ingredients:
   - '4-inch piece Fresh Ginger, halved lengthwise'
   - '4 Star Anise, whole'
   - '1 Cinnamon Stick (3-inch, Vietnamese preferred)'
-  - '6 whole Cloves'
-  - '1 tbsp Coriander Seeds'
-  - '1 Cardamom Pod'
-  - '6 quarts Cold Water'
+  - 6 whole Cloves
+  - 1 tbsp Coriander Seeds
+  - 1 Cardamom Pod
+  - 6 quarts Cold Water
   - '3 tbsp Fish Sauce, plus more to taste'
-  - '1 tbsp Sugar'
-  - '1 tbsp Kosher Salt'
+  - 1 tbsp Sugar
+  - 1 tbsp Kosher Salt
   - '1 lb Dried Rice Noodles (banh pho, medium width)'
   - '1/2 lb Eye of Round, sliced paper-thin against the grain'
   - 'Bean Sprouts, for serving'

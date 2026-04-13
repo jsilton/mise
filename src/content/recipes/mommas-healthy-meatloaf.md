@@ -1,18 +1,27 @@
 ---
 title: Momma’s Healthy Meatloaf
 difficulty: easy
-cookingMethods: [bake, roast, sauté, steam]
+cookingMethods:
+  - bake
+  - roast
+  - sauté
+  - steam
 dietary: []
-occasions: [comfort-food]
+occasions:
+  - comfort-food
 flavorProfile: []
-cuisines: [American]
+cuisines:
+  - American
 role: main
 vibe: comfort
 prepTime: 15 min
 cookTime: 45 min
 totalTime: 60 min
 servings: '4'
-pairsWith: [anadama-bread, cinnamon-sweet-potatoes, coleslaw]
+pairsWith:
+  - anadama-bread
+  - cinnamon-sweet-potatoes
+  - coleslaw
 ingredients:
   - 1 lb Ground Turkey or Lean Ground Beef
   - 1 cup Whole Wheat Breadcrumbs
@@ -25,6 +34,12 @@ ingredients:
   - 1/2 tsp Garlic Powder
   - 1/4 cup Ketchup
   - Salt and Black Pepper
+origin: United States
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: good
+equipment: []
 ---
 
 ## Chef's Note

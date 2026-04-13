@@ -1,22 +1,35 @@
 ---
 title: Pork and Peaches
 difficulty: easy
-cookingMethods: [grill]
+cookingMethods:
+  - grill
 dietary: []
-occasions: [entertaining, summer, date-night]
-seasons: [summer]
+occasions:
+  - entertaining
+  - summer
+  - date-night
+seasons:
+  - summer
 nutritionalDensity: moderate
 leftovers: good
-equipment: [grill, cast-iron-skillet]
-flavorProfile: [acidic, rich]
-cuisines: [American]
+equipment:
+  - grill
+  - cast-iron-skillet
+flavorProfile:
+  - acidic
+  - rich
+cuisines:
+  - American
 role: main
 vibe: nutritious
 prepTime: 15 min
 cookTime: 20 min
 totalTime: 35 min
 servings: '4'
-pairsWith: [avocado-kale-caesar-salad, cinnamon-sweet-potatoes, green-beans-with-shallots-and-lemon]
+pairsWith:
+  - avocado-kale-caesar-salad
+  - cinnamon-sweet-potatoes
+  - green-beans-with-shallots-and-lemon
 ingredients:
   - '2 lbs Boneless Pork Butt (or Shoulder), butterflied'
   - '6 Fresh Peaches, halved and pitted'
@@ -25,6 +38,7 @@ ingredients:
   - 8 tbsp Extra-Virgin Olive Oil (divided)
   - '4 tbsp Unsalted Butter, diced'
   - Salt and Black Pepper
+origin: United States
 ---
 
 ## Chef's Note

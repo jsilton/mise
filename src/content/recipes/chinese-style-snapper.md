@@ -1,18 +1,29 @@
 ---
 title: Chinese-Style Snapper
 difficulty: easy
-cookingMethods: [bake, roast, steam]
+cookingMethods:
+  - bake
+  - roast
+  - steam
 dietary: []
-occasions: [entertaining, weekend-project]
-flavorProfile: [savory, umami]
-cuisines: [Chinese]
+occasions:
+  - entertaining
+  - weekend-project
+flavorProfile:
+  - savory
+  - umami
+cuisines:
+  - Chinese
 role: main
 vibe: technical
 prepTime: 20 min
 cookTime: 50 min
 totalTime: 70 min
 servings: '6'
-pairsWith: [corn-shrimp-dumplings, smashed-cucumber-salad, cantonese-wonton-broth]
+pairsWith:
+  - corn-shrimp-dumplings
+  - smashed-cucumber-salad
+  - cantonese-wonton-broth
 ingredients:
   - '1.8 kg Whole Snapper, scaled and gutted'
   - '3 cloves Garlic, finely chopped'
@@ -24,6 +35,12 @@ ingredients:
   - 2 tbsp Peanut Oil
   - '6 Scallions, shredded into 4-inch threads'
   - 1/2 cup Fresh Cilantro
+origin: China
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: good
+equipment: []
 ---
 
 ## Chef's Note

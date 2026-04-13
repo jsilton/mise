@@ -2,18 +2,29 @@
 title: Chicken Tinga
 origin: Mexico
 difficulty: easy
-cookingMethods: [sauté, simmer, poach, blend]
+cookingMethods:
+  - sauté
+  - simmer
+  - poach
+  - blend
 dietary: []
-occasions: [kids-approved]
-flavorProfile: [savory, acidic]
-cuisines: [Mexican]
+occasions:
+  - kids-approved
+flavorProfile:
+  - savory
+  - acidic
+cuisines:
+  - Mexican
 role: main
 vibe: quick
 prepTime: 15 min
 cookTime: 15 min
 totalTime: 30 min
 servings: '6'
-pairsWith: [classic-guacamole, cilantro-lime-rice, mexican-street-corn-salad]
+pairsWith:
+  - classic-guacamole
+  - cilantro-lime-rice
+  - mexican-street-corn-salad
 ingredients:
   - 1.5 lbs Shredded Chicken (Poached or Rotisserie)
   - '2 large Tomatoes, halved'
@@ -23,6 +34,11 @@ ingredients:
   - 1/2 tsp Dried Oregano
   - 1/2 cup Chicken Broth
   - 1 tsp Salt
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: good
+equipment: []
 ---
 
 ## Chef's Note

@@ -1,18 +1,34 @@
 ---
 title: Miso-Glazed Salmon with Crunchy Bok Choy
 difficulty: easy
-cookingMethods: [bake, roast, sauté, boil, steam]
-dietary: [vegetarian]
-occasions: [weeknight, meal-prep]
-flavorProfile: [sweet, savory, acidic, umami, rich]
-cuisines: [Japanese]
+cookingMethods:
+  - bake
+  - roast
+  - sauté
+  - boil
+  - steam
+dietary: []
+occasions:
+  - weeknight
+  - meal-prep
+flavorProfile:
+  - sweet
+  - savory
+  - acidic
+  - umami
+  - rich
+cuisines:
+  - Japanese
 role: main
 vibe: quick
 prepTime: 15 min
 cookTime: 15 min
 totalTime: 30 min
 servings: '4'
-pairsWith: [steamed-edamame, avocado-kale-caesar-salad, everyday-arugula-salad]
+pairsWith:
+  - steamed-edamame
+  - avocado-kale-caesar-salad
+  - everyday-arugula-salad
 ingredients:
   - '4 Salmon Fillets (6 oz each), skin-on or skin-off'
   - 3 tbsp White Miso Paste
@@ -27,12 +43,17 @@ ingredients:
   - 1 tsp Oyster Sauce
   - Cooked Jasmine Rice
   - Toasted Sesame Seeds and sliced Green Onions
+origin: Japan
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: good
+equipment: []
 ---
 
 ## Chef's Note
 
-This dish is about the interplay between the buttery, caramelized salmon and the crisp, mineral bite of the bok choy. To get that restaurant-quality "Miso Crust," we use the broiler to bubble and char the sugars in the miso. **The secret to the Bok Choy:** do not boil it! Sauté the garlic and stems first to get a sear, then add the leaves and a splash of water to steam them for 90 seconds. This ensures they stay bright green and crunchy.
-
+Miso glaze on salmon is Japanese home cooking: fermented soybean paste with a touch of sugar creates a deep, umami-rich coating. The miso caramelizes on the hot fish, which is why you finish it under the broiler rather than pan-searing. Bok choy cooks fast and drinks in the salty glaze, balancing the fish.
 ## Directions
 
 1.  **The Glaze:** In a small bowl, whisk together the miso, honey, soy sauce, mirin, rice vinegar, and ginger until smooth.
@@ -43,3 +64,5 @@ This dish is about the interplay between the buttery, caramelized salmon and the
 6.  **Steam:** Pour in 2 tablespoons of water or broth, immediately cover with a lid, and steam for 1 minute.
 7.  **Finish:** Remove lid, stir in the oyster sauce and sesame oil. Toss to coat.
 8.  **Serve:** Place a mound of [Jasmine Rice](/mise/recipes/homemade-rice-pilaf) in each bowl, top with the salmon and bok choy. Garnish with sesame seeds and green onions.
+
+**Rest:** Let 4 Salmon rest for 5 minutes before slicing or serving — the juices redistribute and every piece stays moist.

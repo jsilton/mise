@@ -1,17 +1,31 @@
 ---
 title: 'Fresh Cabbage, Cucumber and Radish Kimchi'
 difficulty: intermediate
-cookingMethods: [blend]
+cookingMethods:
+  - blend
 dietary: []
-occasions: [weekend-project, make-ahead]
-flavorProfile: [sweet, acidic]
-cuisines: [Korean]
+occasions:
+  - weekend-project
+  - make-ahead
+flavorProfile:
+  - sweet
+  - acidic
+cuisines:
+  - Korean
 role: side
 vibe: technical
-season: [spring, summer, fall, winter]
+season:
+  - spring
+  - summer
+  - fall
+  - winter
 leftovers: excellent
 healthiness: light
-pairsWith: [bibimbap, kalbi-grilled-korean-style-short-ribs, basmati-rice, tacos]
+pairsWith:
+  - bibimbap
+  - kalbi-grilled-korean-style-short-ribs
+  - basmati-rice
+  - tacos
 prepTime: 30 min
 cookTime: 345 min
 totalTime: 375 min
@@ -30,6 +44,11 @@ ingredients:
   - 3 tbsp Fish Sauce
   - '2 Scallions, chopped'
   - 3/4 tsp Sugar
+origin: Korea
+seasons:
+  - year-round
+nutritionalDensity: moderate
+equipment: []
 ---
 
 ## Chef's Note

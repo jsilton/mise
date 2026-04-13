@@ -1,12 +1,15 @@
 ---
 title: Custard Macaroni and Pimento Cheese
 aliases:
-  - 'baked-macaroni-and-pimento-cheese-the-comfort-classic'
+  - baked-macaroni-and-pimento-cheese-the-comfort-classic
 prepTime: 15 min
 cookTime: 25 min
 totalTime: 40 min
 servings: '6'
-pairsWith: [anadama-bread, cinnamon-sweet-potatoes, garlic-mashed-mock-potatoes]
+pairsWith:
+  - anadama-bread
+  - cinnamon-sweet-potatoes
+  - garlic-mashed-mock-potatoes
 ingredients:
   - 1 lb Elbow Macaroni or Cavatappi pasta
   - 4 tablespoons Unsalted Butter (melted)
@@ -21,19 +24,32 @@ ingredients:
   - 1 tsp Kosher Salt
   - 1/2 tsp Black Pepper
 difficulty: easy
-cookingMethods: [bake, roast, grill, boil]
+cookingMethods:
+  - bake
+  - roast
+  - grill
+  - boil
 dietary: []
-occasions: [comfort-food]
-flavorProfile: [rich, smoky]
-cuisines: [American]
+occasions:
+  - comfort-food
+flavorProfile:
+  - rich
+  - smoky
+cuisines:
+  - American
 role: main
 vibe: nutritious
+origin: United States
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: good
+equipment: []
 ---
 
 ## Chef's Note
 
-This is a Southern-style **Custard Mac and Cheese** with a pimento-infused twist. Unlike the stove-top version which uses a flour-based roux, this version uses eggs and milk to create a rich, souffle-like binder that sets in the oven. The result is a dish that is deeply comforting and sliceable. The secret is to **shred your own cheese** from a block; pre-shredded cheese is coated in potato starch which prevents a silky melt.
-
+Custard-style mac and cheese is a Southern tradition that predates the béchamel version most people know — eggs and milk form the sauce, not a roux. The custard sets gently in the oven, creating a creamy interior with a golden crust on top. The pimento cheese twist comes from the Carolinas, where pimento cheese is practically a food group. Cook the pasta 2 minutes short of al dente — it finishes in the oven, and overcooked pasta in a baked dish turns to mush.
 ## Directions
 
 1.  **Boil:** Preheat oven to 375°F. Bring a large pot of heavily salted water to a boil. Cook the pasta for 2 minutes **less** than the package instructions (it should be very firm). Drain and return to the pot.

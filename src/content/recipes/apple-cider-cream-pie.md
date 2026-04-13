@@ -1,23 +1,41 @@
 ---
 title: Apple Cider Cream Pie
 difficulty: easy
-cookingMethods: [bake, boil, blend]
-dietary: [vegetarian]
-occasions: [holiday, entertaining, weekend-project, indulgent]
-seasons: [fall]
+cookingMethods:
+  - bake
+  - boil
+  - blend
+dietary:
+  - vegetarian
+occasions:
+  - holiday
+  - entertaining
+  - weekend-project
+  - indulgent
+seasons:
+  - fall
 nutritionalDensity: hearty
 leftovers: good
-advancePrep: [make-ahead]
+advancePrep:
+  - make-ahead
 equipment: []
-flavorProfile: [sweet, acidic, rich]
-cuisines: [American]
+flavorProfile:
+  - sweet
+  - acidic
+  - rich
+cuisines:
+  - American
 role: dessert
 vibe: technical
 prepTime: 45 min
 cookTime: 180 min
 totalTime: 225 min
 servings: '8'
-pairsWith: []
+pairsWith:
+  - apple-pie
+  - blackout-chocolate-cake
+  - classic-peach-ice-cream
+  - cranberry-crunch
 ingredients:
   - 1 cup All-purpose flour
   - 1 tbsp Cornstarch
@@ -34,6 +52,7 @@ ingredients:
   - 1 cup Heavy cream
   - 1/4 cup Granulated sugar
   - 1/2 tsp Ground cinnamon
+origin: United States
 ---
 
 ## Chef's Note

@@ -1,22 +1,35 @@
 ---
 title: Doc Chey’s Chinese Lo Mein
 difficulty: easy
-cookingMethods: [sauté, simmer]
+cookingMethods:
+  - sauté
+  - simmer
 dietary: []
-occasions: [weeknight, kids-approved, meal-prep]
-flavorProfile: [sweet, savory, umami]
-cuisines: [Chinese]
+occasions:
+  - weeknight
+  - kids-approved
+  - meal-prep
+flavorProfile:
+  - sweet
+  - savory
+  - umami
+cuisines:
+  - Chinese
 role: main
 vibe: nutritious
 prepTime: 15 min
 cookTime: 15 min
 totalTime: 30 min
 servings: '2'
-seasons: [year-round]
+seasons:
+  - year-round
 nutritionalDensity: hearty
 leftovers: excellent
-equipment: [wok]
-pairsWith: [smashed-cucumber-salad, steamed-broccoli]
+equipment:
+  - wok
+pairsWith:
+  - smashed-cucumber-salad
+  - steamed-broccoli
 ingredients:
   - '1 lb Chicken Breast, thinly sliced'
   - 4 cups Cooked Egg Noodles (Al dente)
@@ -32,12 +45,12 @@ ingredients:
   - '1 tsp Fresh Ginger, minced'
   - '2 tbsp Scallions, sliced'
   - Vegetable Oil
+origin: China
 ---
 
 ## Chef's Note
 
-This recipe is inspired by Doc Chey's, an Atlanta noodle house favorite. The secret to restaurant-quality lo mein: simmer the sauce with the vegetables until it reduces by half, creating a thick glaze that coats every noodle strand. Sear the chicken quickly and remove it so the breast meat stays juicy while the vegetables caramelize. Use fresh egg noodles cooked al dente for the best texture.
-
+Lo mein is Cantonese home cooking, not restaurant theater. The dish depends on high heat and timing: noodles go into the wok once the sauce and vegetables are ready, then everything comes together in 90 seconds. Cook noodles al dente because they'll finish in the wok; they should have some chew, not be falling apart.
 ## Directions
 
 1.  **The Sauce:** Whisk together soy sauce, Shaoxing wine, oyster sauce, and sugar until dissolved. Set aside.

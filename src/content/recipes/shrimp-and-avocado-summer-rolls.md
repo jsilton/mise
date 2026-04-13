@@ -1,18 +1,30 @@
 ---
 title: Shrimp & Avocado Summer Rolls
 difficulty: easy
-cookingMethods: [boil, no-cook]
+cookingMethods:
+  - boil
+  - no-cook
 dietary: []
-occasions: [light-and-fresh, summer]
-flavorProfile: [sweet, savory, acidic, herbaceous]
-cuisines: [Vietnamese]
+occasions:
+  - light-and-fresh
+  - summer
+flavorProfile:
+  - sweet
+  - savory
+  - acidic
+  - herbaceous
+cuisines:
+  - Vietnamese
 role: main
 vibe: quick
 prepTime: 30 min
 cookTime: 15 min
 totalTime: 45 min
 servings: 6 rolls
-pairsWith: [quick-pickled-carrots-and-daikon, coconut-jasmine-rice, greek-salad]
+pairsWith:
+  - quick-pickled-carrots-and-daikon
+  - coconut-jasmine-rice
+  - greek-salad
 ingredients:
   - '18 medium Shrimp, shelled and deveined'
   - 6 round Rice Paper Wrappers
@@ -24,6 +36,12 @@ ingredients:
   - 1 tbsp Fresh Lime Juice (The Acid Balance)
   - '1 Thai Bird Chile (Fresno), minced'
   - '1 small Garlic clove, minced'
+origin: Vietnam
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: poor
+equipment: []
 ---
 
 ## Chef's Note

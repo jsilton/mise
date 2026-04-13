@@ -3,38 +3,56 @@ title: Whipped Feta with Honey
 aliases:
   - whipped-feta-with-honey-and-aleppo
 difficulty: easy
-cookingMethods: [blend]
-dietary: [vegetarian, gluten-free]
-occasions: [entertaining, light-and-fresh, game-day]
-flavorProfile: [sweet, savory, rich, herbaceous]
-cuisines: [Mediterranean, Greek]
+cookingMethods:
+  - blend
+dietary:
+  - vegetarian
+occasions:
+  - entertaining
+  - light-and-fresh
+  - game-day
+flavorProfile:
+  - sweet
+  - savory
+  - rich
+  - herbaceous
+cuisines:
+  - Mediterranean
+  - Greek
 role: side
 vibe: quick
 prepTime: 10 min
 cookTime: 0 min
 totalTime: 10 min
 servings: '8'
-seasons: [year-round]
+seasons:
+  - year-round
 nutritionalDensity: moderate
 leftovers: excellent
-equipment: [food-processor]
-advancePrep: [make-ahead]
-pairsWith: [warm-pita-bread, greek-salad, charred-guacamole-with-pomegranate]
+equipment:
+  - food-processor
+advancePrep:
+  - make-ahead
+pairsWith:
+  - warm-pita-bread
+  - greek-salad
+  - charred-guacamole-with-pomegranate
 ingredients:
   - '8 oz Greek Feta Cheese (block, not pre-crumbled)'
   - '4 oz Cream Cheese, softened (leave out 30 min before)'
   - '1/4 cup Extra-Virgin Olive Oil, plus more for drizzling'
   - '1 small clove Garlic, grated'
-  - '1 tbsp Fresh Lemon Juice'
-  - '1/2 tsp Lemon Zest'
+  - 1 tbsp Fresh Lemon Juice
+  - 1/2 tsp Lemon Zest
   - '2 tbsp Honey, for drizzling'
-  - '1/2 tsp Smoked Paprika'
-  - 'Pinch of Cayenne Pepper'
+  - 1/2 tsp Smoked Paprika
+  - Pinch of Cayenne Pepper
   - '2 tbsp Fresh Dill, chopped'
   - '3 tbsp Pistachios, toasted and roughly chopped'
-  - 'Flaky Sea Salt (Maldon)'
+  - Flaky Sea Salt (Maldon)
   - 'Warm Pita Bread, cut into triangles'
-  - 'Cucumber spears and bell pepper strips for dipping'
+  - Cucumber spears and bell pepper strips for dipping
+origin: Mediterranean
 ---
 
 ## Chef's Note

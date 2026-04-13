@@ -1,0 +1,21 @@
+{
+  "id": "kb.recipe-completeness",
+  "title": "Recipe metadata completeness check",
+  "category": "Metadata",
+  "severity": "hint",
+  "description": "Flags recipes missing 3 or more important optional metadata fields (cuisines, cookingMethods, occasions, seasons, nutritionalDensity, leftovers, pairsWith). These fields improve discoverability and user guidance.",
+  "detection": [
+    {
+      "type": "metadata_absence",
+      "fields": ["cuisines", "cookingMethods", "occasions", "seasons", "nutritionalDensity", "leftovers", "pairsWith"],
+      "threshold": 3
+    }
+  ],
+  "suggestionTemplate": "This recipe is missing several metadata fields that improve discoverability and user guidance. Consider adding: cuisines (cultural styles), cookingMethods (techniques used), occasions (when to serve), seasons (when ingredients peak), nutritionalDensity (light/moderate/hearty), leftovers (storage/reuse potential), and pairsWith (complementary recipes).",
+  "examples": [
+    {
+      "recipe": "example-incomplete-recipe",
+      "note": "Missing cuisines, seasons, occasions, and pairsWith. Add these for better findability and context."
+    }
+  ]
+}

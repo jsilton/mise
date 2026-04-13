@@ -1,34 +1,46 @@
 ---
 title: Warm Pita Bread
 difficulty: easy
-cookingMethods: [toast, grill]
-dietary: [vegetarian, vegan]
-occasions: [weeknight, entertaining]
-flavorProfile: [savory]
-cuisines: [Greek, Middle Eastern, Mediterranean]
+cookingMethods:
+  - toast
+  - grill
+dietary:
+  - vegetarian
+  - vegan
+occasions:
+  - weeknight
+  - entertaining
+flavorProfile:
+  - savory
+cuisines:
+  - Greek
+  - Middle Eastern
+  - Mediterranean
 role: base
 vibe: quick
 prepTime: 1 min
 cookTime: 2 min
 totalTime: 3 min
 servings: '4'
-seasons: [year-round]
+seasons:
+  - year-round
 nutritionalDensity: light
 leftovers: poor
-equipment: [skillet, grill]
+equipment:
+  - skillet
+  - grill
 pairsWith:
-  [
-    greek-style-lamb-burgers-with-yogurt-cucumber-sauce,
-    falafel,
-    israeli-style-hummus,
-    chicken-shawarma,
-    greek-salad,
-    tzatziki-sauce,
-  ]
+  - greek-style-lamb-burgers-with-yogurt-cucumber-sauce
+  - falafel
+  - israeli-style-hummus
+  - chicken-shawarma
+  - greek-salad
+  - tzatziki-sauce
 ingredients:
-  - '4 Pita Breads (store-bought or homemade)'
-  - '1 tbsp Olive Oil (optional)'
-  - 'Flaky Salt (optional)'
+  - 4 Pita Breads (store-bought or homemade)
+  - 1 tbsp Olive Oil (optional)
+  - Flaky Salt (optional)
+origin: Greece
 ---
 
 ## Chef's Note

@@ -1,16 +1,29 @@
 ---
 title: Key Lime Pie Ice Cream
 difficulty: easy
-cookingMethods: []
-dietary: [vegetarian]
-occasions: [entertaining, summer, indulgent]
-seasons: [summer]
+cookingMethods:
+  - no-cook
+dietary:
+  - vegetarian
+occasions:
+  - entertaining
+  - summer
+  - indulgent
+seasons:
+  - summer
 nutritionalDensity: hearty
 leftovers: excellent
-equipment: [ice-cream-maker]
-advancePrep: [make-ahead]
-flavorProfile: [sweet, acidic, rich]
-cuisines: [American]
+equipment:
+  - ice-cream-maker
+advancePrep:
+  - make-ahead
+  - freeze
+flavorProfile:
+  - sweet
+  - acidic
+  - rich
+cuisines:
+  - American
 role: dessert
 vibe: technical
 prepTime: 15 min
@@ -25,6 +38,12 @@ ingredients:
   - '6 Graham Crackers, coarsely crushed'
   - Key Lime wedges for garnish
   - Pinch of Sea Salt
+origin: United States
+pairsWith:
+  - apple-cider-cream-pie
+  - apple-pie
+  - blackout-chocolate-cake
+  - classic-peach-ice-cream
 ---
 
 ## Chef's Note

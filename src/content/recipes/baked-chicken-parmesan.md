@@ -1,22 +1,35 @@
 ---
 title: Chicken Parmesan
 difficulty: easy
-cookingMethods: [bake]
+cookingMethods:
+  - bake
 dietary: []
-occasions: [comfort-food, weeknight, kids-approved, entertaining]
-flavorProfile: [acidic, umami, herbaceous]
-cuisines: [Italian]
+occasions:
+  - comfort-food
+  - weeknight
+  - kids-approved
+  - entertaining
+flavorProfile:
+  - acidic
+  - umami
+  - herbaceous
+cuisines:
+  - Italian
 role: main
 vibe: comfort
 prepTime: 15 min
 cookTime: 25 min
 totalTime: 40 min
 servings: '4'
-seasons: [year-round]
+seasons:
+  - year-round
 nutritionalDensity: hearty
 leftovers: excellent
-equipment: [sheet-pan]
-pairsWith: [garlic-bread, avocado-kale-caesar-salad]
+equipment:
+  - sheet-pan
+pairsWith:
+  - garlic-bread
+  - avocado-kale-caesar-salad
 ingredients:
   - '1.5 lbs Chicken Breasts, halved horizontally and pounded thin'
   - 1 cup Panko Breadcrumbs (for maximum crunch)
@@ -26,6 +39,7 @@ ingredients:
   - '8 oz Fresh Mozzarella or Low-Moisture Mozzarella, sliced'
   - Fresh Basil leaves
   - 1/2 lb Spaghetti or Rigatoni
+origin: Italy
 ---
 
 ## Chef's Note

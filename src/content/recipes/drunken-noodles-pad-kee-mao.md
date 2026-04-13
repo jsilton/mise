@@ -2,18 +2,31 @@
 title: Pad Kee Mao
 origin: Thailand
 difficulty: easy
-cookingMethods: [fry, sauté, boil]
+cookingMethods:
+  - fry
+  - sauté
+  - boil
 dietary: []
-occasions: [weeknight, quick-lunch]
-flavorProfile: [spicy, sweet, savory, umami]
-cuisines: [Thai]
+occasions:
+  - weeknight
+  - quick-lunch
+flavorProfile:
+  - spicy
+  - sweet
+  - savory
+  - umami
+cuisines:
+  - Thai
 role: main
 vibe: nutritious
 prepTime: 20 min
 cookTime: 15 min
 totalTime: 35 min
 servings: '4'
-pairsWith: [coconut-jasmine-rice, eggplant-with-garlic-sauce, quick-pickled-carrots-and-daikon]
+pairsWith:
+  - coconut-jasmine-rice
+  - eggplant-with-garlic-sauce
+  - quick-pickled-carrots-and-daikon
 ingredients:
   - '12 oz Chicken Thighs, thinly sliced'
   - 8 oz Wide Dried Rice Noodles (Bánh Phở)
@@ -33,11 +46,17 @@ ingredients:
   - '5-6 pieces Baby Corn, halved'
   - 2 tsp Shaoxing Wine
   - Neutral Oil
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: good
+equipment: []
 ---
 
 ## Chef's Note
 
 Pad kee mao ('drunken noodles') is a Thai stir-fry known for its bold, spicy flavors and charred edges. Velveting the chicken in cornstarch and water keeps it tender during high-heat cooking. Wide rice noodles are scraped vigorously with a metal spatula during the final toss to create slightly charred, chewy edges and prevent sticking - the hallmark of good wok hei (breath of the wok).
+For kids, serve the heat on the side or reduce/omit the spicy elements.
 
 ## Directions
 

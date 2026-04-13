@@ -1,16 +1,8 @@
 {
+  "_deprecated": true,
+  "_reason": "Removed 2026-04-12: flags nearly all savory recipes, creating noise. Umami awareness is better handled via Chef's Note guidelines.",
   "id": "kb.insufficient-umami",
-  "title": "Suggest an umami-boost for savory dishes",
-  "category": "Flavor",
-  "severity": "hint",
-  "description": "If a savory recipe lacks common umami ingredients (soy, miso, tomato, mushrooms, anchovy, parm), suggest an umami booster.",
-  "detection": [
-    {
-      "type": "ingredient_absence",
-      "words": ["soy", "miso", "anchovy", "tomato", "mushroom", "parmesan", "fish sauce", "dashi"]
-    },
-    { "type": "method_presence", "words": ["stew", "braise", "sauce", "ragu", "stir-fry"] }
-  ],
-  "suggestionTemplate": "Consider adding an umami ingredient (miso, soy, anchovy, mushroom, or Parmesan) to deepen savoriness.",
-  "examples": []
+  "title": "DEPRECATED — Umami suggestion",
+  "severity": "disabled",
+  "detection": []
 }

@@ -2,35 +2,58 @@
 title: Misir Wot (Ethiopian Red Lentil Stew)
 origin: Ethiopia
 difficulty: easy
-cookingMethods: [saute, simmer]
-dietary: [vegetarian, vegan, gluten-free, dairy-free, nut-free]
-occasions: [weeknight, meal-prep, comfort-food]
-flavorProfile: [spicy, savory, rich, umami]
-cuisines: [Ethiopian]
+cookingMethods:
+  - saute
+  - simmer
+dietary:
+  - vegetarian
+  - gluten-free
+  - nut-free
+occasions:
+  - weeknight
+  - meal-prep
+  - comfort-food
+flavorProfile:
+  - spicy
+  - savory
+  - rich
+  - umami
+cuisines:
+  - Ethiopian
 role: main
 vibe: comfort
-seasons: [fall, winter]
+seasons:
+  - fall
+  - winter
 nutritionalDensity: hearty
 leftovers: excellent
-advancePrep: [make-ahead, freeze-ahead]
-equipment: [large heavy-bottomed pot or dutch oven]
+advancePrep:
+  - make-ahead
+  - freeze-ahead
+equipment:
+  - large heavy-bottomed pot or dutch oven
 prepTime: 15 min
 cookTime: 45 min
 totalTime: 60 min
 servings: '4'
-pairsWith: [basmati-rice, steamed-white-rice, everyday-arugula-salad]
+pairsWith:
+  - basmati-rice
+  - steamed-white-rice
+  - everyday-arugula-salad
 ingredients:
   - '1.5 cups Red Lentils, rinsed until water runs clear'
-  - '3 cups Water'
-  - '3 tbsp Niter Kibbeh (Ethiopian spiced butter) or Extra-Virgin Olive Oil for vegan'
+  - 3 cups Water
+  - >-
+    3 tbsp Niter Kibbeh (Ethiopian spiced butter) or Extra-Virgin Olive Oil for
+    vegan
   - '2 large Red Onions, finely diced (about 3 cups)'
   - '4 cloves Garlic, minced'
   - '1-inch piece Fresh Ginger, grated'
-  - '3 tbsp Berbere Spice Blend'
-  - '2 tbsp Tomato Paste'
+  - 3 tbsp Berbere Spice Blend
+  - 2 tbsp Tomato Paste
   - '1 tsp Kosher Salt, plus more to taste'
-  - '1/2 tsp Ground Cardamom'
-  - '1/4 tsp Ground Fenugreek'
+  - 1/2 tsp Ground Cardamom
+  - 1/4 tsp Ground Fenugreek
   - '1 tbsp Fresh Lemon Juice, for finishing'
 ---
 
@@ -51,3 +74,4 @@ Misir wot gets its soul from two things: deeply caramelized onions and berbere s
 5.  **Finish:** Stir in the lemon juice. Taste and adjust salt and berbere to your heat preference.
 
 6.  **Serve:** Traditionally served on injera (Ethiopian sourdough flatbread) for scooping. Alternatively, serve over steamed basmati rice. The wot should be vibrant red, thick, and deeply spiced.
+

@@ -1,15 +1,26 @@
 ---
 title: Rice Krispies Treats
 difficulty: intermediate
-cookingMethods: []
-dietary: [vegetarian]
-occasions: [kids-approved, quick-lunch, potluck]
-seasons: [year-round]
+cookingMethods:
+  - no-cook
+dietary:
+  - vegetarian
+occasions:
+  - kids-approved
+  - quick-lunch
+  - potluck
+seasons:
+  - year-round
 nutritionalDensity: hearty
 leftovers: excellent
-equipment: [large-pot, baking-dish]
-flavorProfile: [sweet, rich]
-cuisines: [American]
+equipment:
+  - large-pot
+  - baking-dish
+flavorProfile:
+  - sweet
+  - rich
+cuisines:
+  - American
 role: dessert
 vibe: technical
 prepTime: 10 min
@@ -22,6 +33,12 @@ ingredients:
   - 3 tbsp Unsalted Butter (Cold)
   - Pinch of Sea Salt
   - 1/2 tsp Pure Vanilla Extract
+origin: United States
+pairsWith:
+  - apple-cider-cream-pie
+  - apple-pie
+  - babys-first-smash-cake
+  - best-cinnamon-roll-recipe-cinnabon-copycat
 ---
 
 ## Chef's Note

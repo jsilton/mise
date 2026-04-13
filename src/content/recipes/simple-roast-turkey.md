@@ -1,18 +1,28 @@
 ---
 title: Roast Turkey
 difficulty: easy
-cookingMethods: [bake, roast]
+cookingMethods:
+  - bake
+  - roast
 dietary: []
-occasions: [holiday]
-flavorProfile: [sweet, acidic, rich]
-cuisines: [American]
+occasions:
+  - holiday
+flavorProfile:
+  - sweet
+  - acidic
+  - rich
+cuisines:
+  - American
 role: main
 vibe: holiday
 prepTime: 120 min
 cookTime: 120 min
 totalTime: 3000 min
 servings: '12'
-pairsWith: [strawberry-congealed-salad, italian-kale-and-sausage-stuffing, cinnamon-sweet-potatoes]
+pairsWith:
+  - strawberry-congealed-salad
+  - italian-kale-and-sausage-stuffing
+  - cinnamon-sweet-potatoes
 ingredients:
   - 1 Whole Turkey (10-12 lbs)
   - 1/2 tsp Coarse Kosher Salt (per lb of bird)
@@ -23,6 +33,14 @@ ingredients:
   - '1 bunch Thyme, Rosemary, and Sage'
   - 'Unsalted Butter, melted'
   - Dry White Wine
+origin: United States
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: good
+advancePrep:
+  - brine-overnight
+equipment: []
 ---
 
 ## Chef's Note

@@ -1,11 +1,21 @@
 ---
 title: Chicken Galbi Noodle Salad
 difficulty: intermediate
-cookingMethods: [sauté, boil]
+cookingMethods:
+  - sauté
+  - boil
 dietary: []
-occasions: [weeknight, meal-prep]
-flavorProfile: [sweet, savory, acidic, umami, herbaceous]
-cuisines: [Korean]
+occasions:
+  - weeknight
+  - meal-prep
+flavorProfile:
+  - sweet
+  - savory
+  - acidic
+  - umami
+  - herbaceous
+cuisines:
+  - Korean
 role: main
 vibe: nutritious
 prepTime: 15 min
@@ -13,7 +23,9 @@ cookTime: 15 min
 totalTime: 30 min
 servings: '4'
 pairsWith:
-  [korean-pickled-cucumbers, seasoned-bean-sprouts, fresh-cabbage-cucumber-and-radish-kimchi]
+  - korean-pickled-cucumbers
+  - seasoned-bean-sprouts
+  - fresh-cabbage-cucumber-and-radish-kimchi
 ingredients:
   - 12 oz Korean Sweet Potato Glass Noodles (Dangmyeon)
   - 1 lb Ground Chicken or Sliced Thighs
@@ -27,14 +39,19 @@ ingredients:
   - 1/4 cup Toasted Sesame Seeds
   - 1/2 cup Fresh Basil or Cilantro
   - >-
-    1/2 cup [Korean Pickled
-    Cucumbers](/mise/recipes/korean-pickled-cucumbers) (Optional crunch)
+    1/2 cup [Korean Pickled Cucumbers](/mise/recipes/korean-pickled-cucumbers)
+    (Optional crunch)
+origin: Korea
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: good
+equipment: []
 ---
 
 ## Chef's Note
 
-This dish is a play on Korean Japchae but served as a bright, protein-heavy salad. To elevate the texture, we add **Toasted Seeds** and ensure the bell peppers remain raw and crunchy to contrast with the "bouncy" chew of the glass noodles.
-
+Galbi marinade is Korean shorthand for a marinade: soy, pear juice, sesame, garlic, and ginger create a sweet-savory base that tenderizes thin chicken slices in a couple of hours. The pear juice matters—its natural enzymes and sweetness are why Korean marinades work so fast compared to just vinegar and soy. Serve this at room temperature as a complete meal.
 ## Directions
 
 1.  **Noodles:** Boil glass noodles for 7-8 minutes until translucent and chewy. Drain and rinse with cold water. **Tip:** Use kitchen shears to cut the noodles into manageable 6-inch lengths.

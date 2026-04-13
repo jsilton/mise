@@ -1,25 +1,41 @@
 ---
 title: Brown Butter Carrot Cake
 aliases:
-  - 'bas-best-carrot-cake-the-brown-butter-upgrade'
+  - bas-best-carrot-cake-the-brown-butter-upgrade
 difficulty: intermediate
-cookingMethods: [bake, no-cook]
-dietary: [vegetarian]
-occasions: [holiday, entertaining, weekend-project, indulgent]
-seasons: [year-round]
+cookingMethods:
+  - bake
+  - no-cook
+dietary:
+  - vegetarian
+occasions:
+  - holiday
+  - entertaining
+  - weekend-project
+  - indulgent
+seasons:
+  - year-round
 nutritionalDensity: hearty
 leftovers: excellent
-advancePrep: [make-ahead]
+advancePrep:
+  - make-ahead
 equipment: []
-flavorProfile: [sweet, rich]
-cuisines: [American]
+flavorProfile:
+  - sweet
+  - rich
+cuisines:
+  - American
 role: dessert
 vibe: technical
 prepTime: 45 min
 cookTime: 40 min
-totalTime: 3 hours
+totalTime: 3 hr
 servings: '12'
-pairsWith: []
+pairsWith:
+  - apple-cider-cream-pie
+  - apple-pie
+  - babys-first-smash-cake
+  - best-cinnamon-roll-recipe-cinnabon-copycat
 ingredients:
   - '3/4 cup Unsalted Butter, browned and cooled'
   - '1 lb Carrots, finely grated'
@@ -36,6 +52,7 @@ ingredients:
   - '3/4 cup Butter, softened'
   - 4 cups Powdered Sugar
   - 1 tsp Vanilla Extract
+origin: United States
 ---
 
 ## Chef's Note
@@ -44,7 +61,7 @@ This is the **Bravetart Upgrade** to the BA classic. We replace generic vegetabl
 
 ## Directions
 
-1.  **Brown the Butter:** Melt the 3/4 cup butter until dark golden and smelling like hazelnuts. Cool.
+1.  **Brown high heat (400-450°F) the Butter:** Melt the 3/4 cup butter until dark golden and smelling like hazelnuts. Cool.
 2.  **Batter:** Whisk the brown butter, both sugars, eggs, and vanilla for 4 minutes until pale and thick.
 3.  **Fold:** Whisk together the dry ingredients. Add to the butter mixture in 3 parts, alternating with the buttermilk and carrots.
 4.  **Bake:** Pour into two 9-inch lined pans. Bake at 350°F for 35-45 minutes. Cool completely.

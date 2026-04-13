@@ -1,18 +1,32 @@
 ---
 title: Yaki Udon
 difficulty: easy
-cookingMethods: [sauté, boil, steam]
+cookingMethods:
+  - sauté
+  - boil
+  - steam
 dietary: []
-occasions: [weeknight, quick-lunch]
-flavorProfile: [spicy, sweet, savory, acidic, umami]
-cuisines: [Japanese]
+occasions:
+  - weeknight
+  - quick-lunch
+flavorProfile:
+  - spicy
+  - sweet
+  - savory
+  - acidic
+  - umami
+cuisines:
+  - Japanese
 role: main
 vibe: quick
 prepTime: 10 min
 cookTime: 15 min
 totalTime: 25 min
 servings: '4'
-pairsWith: [miso-soup, dashi-japanese-sea-stock, steamed-edamame]
+pairsWith:
+  - miso-soup
+  - dashi-japanese-sea-stock
+  - steamed-edamame
 ingredients:
   - 1 lb Frozen Udon Noodles (preferred over vacuum-sealed)
   - 1/2 lb Ground Pork or Thinly Sliced Beef
@@ -24,6 +38,12 @@ ingredients:
   - 1 tbsp Mirin
   - 1 tsp Rice Vinegar
   - 1 tsp Sugar
+origin: Japan
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: good
+equipment: []
 ---
 
 ## Chef's Note

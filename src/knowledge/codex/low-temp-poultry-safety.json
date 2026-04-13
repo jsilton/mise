@@ -2,7 +2,7 @@
   "id": "kb.low-temp-poultry",
   "title": "Poultry low-temperature safety note",
   "category": "Safety",
-  "severity": "warn",
+  "severity": "fail",
   "description": "If a recipe suggests holding or cooking poultry at low temperatures, check for recommended time/temperature to ensure safe pasteurization.",
   "detection": [
     { "type": "ingredient_presence", "words": ["chicken", "poultry", "turkey"] },

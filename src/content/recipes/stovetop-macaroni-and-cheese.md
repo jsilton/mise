@@ -1,15 +1,28 @@
 ---
 title: Stovetop Macaroni & Cheese
 difficulty: intermediate
-cookingMethods: [roast, boil, steam]
-dietary: [vegetarian]
-occasions: [weeknight, kids-approved, comfort-food]
-seasons: [year-round]
+cookingMethods:
+  - roast
+  - boil
+  - steam
+dietary:
+  - vegetarian
+occasions:
+  - weeknight
+  - kids-approved
+  - comfort-food
+seasons:
+  - year-round
 nutritionalDensity: hearty
 leftovers: excellent
-equipment: [large-pot, saucepan]
-flavorProfile: [savory, rich]
-cuisines: [American]
+equipment:
+  - large-pot
+  - saucepan
+flavorProfile:
+  - savory
+  - rich
+cuisines:
+  - American
 role: main
 vibe: nutritious
 prepTime: 5 min
@@ -17,7 +30,9 @@ cookTime: 15 min
 totalTime: 20 min
 servings: '6'
 pairsWith:
-  [garlic-mashed-mock-potatoes, honey-glazed-carrots, skinny-baked-broccoli-macaroni-and-cheese]
+  - garlic-mashed-mock-potatoes
+  - honey-glazed-carrots
+  - skinny-baked-broccoli-macaroni-and-cheese
 ingredients:
   - 1 lb Elbow Macaroni or Shells
   - 1 1/2 cups Whole Milk
@@ -26,6 +41,7 @@ ingredients:
   - 1/2 tsp Sea Salt
   - 1/4 tsp Dry Mustard Powder (The Finishing Touch)
   - 1 tbsp Unsalted Butter
+origin: United States
 ---
 
 ## Chef's Note
@@ -41,3 +57,4 @@ Whisking flour into cold milk before heating creates a light, stable base that w
 5.  **Season:** Stir in the salt, mustard powder, and butter.
 6.  **Bind:** Return the hot pasta to the saucepan. Toss vigorously until every noodle is saturated in the cheese silk.
 7.  **Serve:** Serve immediately while hot. (Note: if baking, top with breadcrumbs and broil for 2 minutes).
+

@@ -1,16 +1,24 @@
 ---
 title: Breakfast Protein Biscuits
 difficulty: intermediate
-cookingMethods: [bake]
-dietary: [vegetarian]
-occasions: [meal-prep, post-workout, weekend-project]
-seasons: [year-round]
+cookingMethods:
+  - bake
+dietary: []
+occasions:
+  - meal-prep
+  - post-workout
+  - weekend-project
+seasons:
+  - year-round
 nutritionalDensity: moderate
 leftovers: excellent
-advancePrep: [make-ahead]
+advancePrep:
+  - make-ahead
 equipment: []
-flavorProfile: [rich]
-cuisines: [American]
+flavorProfile:
+  - rich
+cuisines:
+  - American
 role: main
 vibe: nutritious
 prepTime: 15 min
@@ -18,7 +26,9 @@ cookTime: 25 min
 totalTime: 40 min
 servings: '12'
 pairsWith:
-  [banana-oat-greek-yogurt-muffins, brownie-protein-balls, strawberry-quinoa-breakfast-bars]
+  - banana-oat-greek-yogurt-muffins
+  - brownie-protein-balls
+  - strawberry-quinoa-breakfast-bars
 ingredients:
   - 2 1/2 cups All-Purpose Flour
   - 1 3/4 cups Plain 2% Greek Yogurt
@@ -32,6 +42,7 @@ ingredients:
   - '2 cups Cooked Ham, diced small'
   - 1 tsp Garlic Powder
   - 1/2 tsp Red Pepper Flakes
+origin: United States
 ---
 
 ## Chef's Note

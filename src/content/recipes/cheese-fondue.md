@@ -1,11 +1,18 @@
 ---
 title: Cheese Fondue
 difficulty: easy
-cookingMethods: [roast, simmer]
-dietary: [vegetarian]
-occasions: [entertaining, weekend-project]
-flavorProfile: [acidic]
-cuisines: [Swiss]
+cookingMethods:
+  - roast
+  - simmer
+dietary:
+  - vegetarian
+occasions:
+  - entertaining
+  - weekend-project
+flavorProfile:
+  - acidic
+cuisines:
+  - Swiss
 role: main
 vibe: technical
 prepTime: 10 min
@@ -13,21 +20,24 @@ cookTime: 15 min
 totalTime: 25 min
 servings: '6'
 pairsWith:
-  [
-    peach-salad-with-tomatoes-and-beets,
-    roasted-sunchokes-with-brown-butter-cider-vinaigrette,
-    arugula-feta-salad,
-  ]
+  - peach-salad-with-tomatoes-and-beets
+  - roasted-sunchokes-with-brown-butter-cider-vinaigrette
+  - arugula-feta-salad
 ingredients:
   - '1/2 lb Gruyère, shredded'
   - '1/2 lb Emmentaler or Swiss, shredded'
-  - '2 tbsp Cornstarch'
+  - 2 tbsp Cornstarch
   - '1 clove Garlic, halved'
-  - '1 cup Dry White Wine (Sauvignon Blanc or Riesling)'
-  - '1 tbsp Fresh Lemon Juice'
-  - '1 tbsp Kirsch (Cherry Brandy)'
-  - 'Pinch of Nutmeg'
-  - '1/2 tsp Dry Mustard'
+  - 1 cup Dry White Wine (Sauvignon Blanc or Riesling)
+  - 1 tbsp Fresh Lemon Juice
+  - 1 tbsp Kirsch (Cherry Brandy)
+  - Pinch of Nutmeg
+  - 1/2 tsp Dry Mustard
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: good
+equipment: []
 ---
 
 ## Chef's Note

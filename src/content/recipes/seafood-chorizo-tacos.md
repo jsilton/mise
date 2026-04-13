@@ -1,18 +1,31 @@
 ---
 title: Seafood-Chorizo Tacos
 difficulty: easy
-cookingMethods: [fry, sauté, no-cook]
+cookingMethods:
+  - fry
+  - sauté
+  - no-cook
 dietary: []
-occasions: [weeknight, summer]
-flavorProfile: [spicy, sweet, acidic, rich]
-cuisines: [Mexican]
+occasions:
+  - weeknight
+  - summer
+flavorProfile:
+  - spicy
+  - sweet
+  - acidic
+  - rich
+cuisines:
+  - Mexican
 role: main
 vibe: quick
 prepTime: 10 min
 cookTime: 15 min
 totalTime: 25 min
 servings: '4'
-pairsWith: [mexican-street-corn-salad, cilantro-lime-rice, quick-seasoned-black-beans]
+pairsWith:
+  - mexican-street-corn-salad
+  - cilantro-lime-rice
+  - quick-seasoned-black-beans
 ingredients:
   - '1/2 lb Fresh Chorizo, crumbled'
   - '1/2 lb Medium Shrimp, chopped'
@@ -24,6 +37,12 @@ ingredients:
   - Pinch of Cumin
   - 'Corn Tortillas, charred'
   - 'Avocado, Cilantro, and Sour Cream'
+origin: Mexico
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: poor
+equipment: []
 ---
 
 ## Chef's Note

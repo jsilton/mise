@@ -2,18 +2,30 @@
 title: Chana Begoon
 origin: India
 difficulty: easy
-cookingMethods: [bake, roast, sauté, simmer]
+cookingMethods:
+  - bake
+  - roast
+  - sauté
+  - simmer
 dietary: []
-occasions: [comfort-food, meal-prep]
-flavorProfile: [spicy, acidic]
-cuisines: [Indian]
+occasions:
+  - comfort-food
+  - meal-prep
+flavorProfile:
+  - spicy
+  - acidic
+cuisines:
+  - Indian
 role: main
 vibe: nutritious
 prepTime: 15 min
 cookTime: 25 min
 totalTime: 40 min
 servings: '4'
-pairsWith: [spiced-coconut-chicken-rice, cucumber-raita, basmati-rice]
+pairsWith:
+  - spiced-coconut-chicken-rice
+  - cucumber-raita
+  - basmati-rice
 ingredients:
   - '1 lb Chinese Eggplant, cut into 1-inch cubes'
   - '2 cans (15 oz) Chickpeas, rinsed and drained'
@@ -27,6 +39,11 @@ ingredients:
   - 1/2 tsp Kashmiri Chili Powder
   - 1 (14 oz) can Crushed Tomatoes
   - Fresh Cilantro and Lemon juice
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: good
+equipment: []
 ---
 
 ## Chef's Note

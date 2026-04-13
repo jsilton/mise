@@ -1,23 +1,36 @@
 ---
 title: Omelet Muffins
 difficulty: easy
-cookingMethods: [bake, no-cook]
-dietary: [vegetarian]
-occasions: [meal-prep, quick-lunch, post-workout]
-seasons: [year-round]
+cookingMethods:
+  - bake
+  - no-cook
+dietary: []
+occasions:
+  - meal-prep
+  - quick-lunch
+  - post-workout
+seasons:
+  - year-round
 nutritionalDensity: moderate
 leftovers: excellent
-equipment: [muffin-tin]
-advancePrep: [make-ahead]
-flavorProfile: [savory]
-cuisines: [American]
+equipment:
+  - muffin-tin
+advancePrep:
+  - make-ahead
+flavorProfile:
+  - savory
+cuisines:
+  - American
 role: main
 vibe: quick
 prepTime: 10 min
 cookTime: 20 min
 totalTime: 30 min
 servings: 12 muffins
-pairsWith: [avocado-kale-caesar-salad, steamed-broccoli, brownie-protein-balls]
+pairsWith:
+  - avocado-kale-caesar-salad
+  - steamed-broccoli
+  - brownie-protein-balls
 ingredients:
   - 9 large Eggs
   - '3 slices Bacon, cooked and chopped'
@@ -29,6 +42,7 @@ ingredients:
   - 1/4 tsp Kosher Salt
   - Black Pepper
   - Cooking spray
+origin: United States
 ---
 
 ## Chef's Note

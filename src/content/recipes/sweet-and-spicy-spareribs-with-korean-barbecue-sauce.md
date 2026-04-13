@@ -1,11 +1,23 @@
 ---
 title: Sweet and Spicy Spareribs
 difficulty: intermediate
-cookingMethods: [bake, grill, steam, braise]
+cookingMethods:
+  - bake
+  - grill
+  - steam
+  - braise
 dietary: []
-occasions: [comfort-food]
-flavorProfile: [spicy, sweet, savory, acidic, umami, rich]
-cuisines: [Korean]
+occasions:
+  - comfort-food
+flavorProfile:
+  - spicy
+  - sweet
+  - savory
+  - acidic
+  - umami
+  - rich
+cuisines:
+  - Korean
 role: main
 vibe: comfort
 prepTime: 30 min
@@ -13,7 +25,9 @@ cookTime: 150 min
 totalTime: 180 min
 servings: '10'
 pairsWith:
-  [korean-pickled-cucumbers, fresh-cabbage-cucumber-and-radish-kimchi, seasoned-bean-sprouts]
+  - korean-pickled-cucumbers
+  - fresh-cabbage-cucumber-and-radish-kimchi
+  - seasoned-bean-sprouts
 ingredients:
   - '8 lbs Pork Spareribs, membranes removed'
   - 1 cup Gochujang (Fermented Hot Pepper Paste)
@@ -24,6 +38,12 @@ ingredients:
   - '2 tbsp Fresh Ginger, grated'
   - '1 tbsp Fresh Garlic, minced'
   - 2 tbsp White Pepper
+origin: Korea
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: excellent
+equipment: []
 ---
 
 ## Chef's Note

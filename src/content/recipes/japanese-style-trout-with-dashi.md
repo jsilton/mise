@@ -1,18 +1,34 @@
 ---
 title: Japanese-Style Trout with Dashi
 difficulty: easy
-cookingMethods: [simmer, boil, steam, poach, no-cook]
+cookingMethods:
+  - simmer
+  - boil
+  - steam
+  - poach
+  - no-cook
 dietary: []
-occasions: [entertaining, weekend-project]
-flavorProfile: [sweet, savory, acidic, umami, rich]
-cuisines: [Japanese]
+occasions:
+  - entertaining
+  - weekend-project
+flavorProfile:
+  - sweet
+  - savory
+  - acidic
+  - umami
+  - rich
+cuisines:
+  - Japanese
 role: main
 vibe: technical
 prepTime: 15 min
 cookTime: 30 min
 totalTime: 45 min
 servings: '4'
-pairsWith: [master-sushi-rice, miso-soup, soy-ginger-dipping-sauce]
+pairsWith:
+  - master-sushi-rice
+  - miso-soup
+  - soy-ginger-dipping-sauce
 ingredients:
   - 4 Rainbow Trout Fillets (6 oz each)
   - '[Dashi (Japanese Sea Stock)](/mise/recipes/dashi-japanese-sea-stock)'
@@ -24,6 +40,12 @@ ingredients:
   - '2 Leeks, julienned (white parts only)'
   - Steamed Sushi Rice
   - Crumbled Nori
+origin: Japan
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: poor
+equipment: []
 ---
 
 ## Chef's Note

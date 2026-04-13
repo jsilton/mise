@@ -2,30 +2,45 @@
 title: Pulled Pork
 origin: United States
 difficulty: easy
-cookingMethods: [slow-cook]
-dietary: [dairy-free]
-occasions: [comfort-food, meal-prep, entertaining, game-day]
-flavorProfile: [smoky, savory, sweet]
-cuisines: [American, Southern]
+cookingMethods:
+  - slow-cook
+dietary:
+  - dairy-free
+occasions:
+  - comfort-food
+  - meal-prep
+  - entertaining
+  - game-day
+flavorProfile:
+  - smoky
+  - savory
+  - sweet
+cuisines:
+  - American
+  - Southern
 role: main
 vibe: comfort
-seasons: [spring, summer, fall, winter]
+seasons:
+  - spring
+  - summer
+  - fall
+  - winter
 nutritionalDensity: hearty
 leftovers: excellent
-advancePrep: [season-ahead]
-equipment: [slow-cooker]
+advancePrep:
+  - season-ahead
+equipment:
+  - slow-cooker
 pairsWith:
-  [
-    cornbread,
-    coleslaw,
-    classic-coleslaw,
-    korean-style-tacos-with-kogi-bbq-sauce,
-    crockpot-mac-and-cheese,
-    carnitas-bowl,
-  ]
+  - cornbread
+  - coleslaw
+  - classic-coleslaw
+  - korean-style-tacos-with-kogi-bbq-sauce
+  - crockpot-mac-and-cheese
+  - carnitas-bowl
 prepTime: 15 min
-cookTime: 11 hours
-totalTime: 11.5 hours
+cookTime: 11 hr
+totalTime: 11.5 hr
 servings: '8'
 ingredients:
   - '--- The Rub ---'
@@ -37,7 +52,7 @@ ingredients:
   - 1 tsp ground cumin
   - 1/2 tsp black pepper
   - '--- The Pot ---'
-  - '4-5 lb bone-in pork shoulder (Boston butt)'
+  - 4-5 lb bone-in pork shoulder (Boston butt)
   - '1 yellow onion, chopped'
   - '4 cloves garlic, smashed'
   - 1/4 cup apple cider vinegar
@@ -50,7 +65,7 @@ Pulled pork is a patience recipe — the slow cooker does all the work over 10-1
 
 ## Directions
 
-1. **The Rub:** Mix brown sugar, smoked salt, smoked paprika, garlic powder, onion powder, cumin, and black pepper in a small bowl. Massage the rub into all surfaces of the pork shoulder, getting into every crevice. If you have time, season the night before and refrigerate uncovered for even deeper flavor.
+1. **The Rub:** Mix brown high heat (400-450°F) sugar, smoked salt, smoked paprika, garlic powder, onion powder, cumin, and black pepper in a small bowl. Massage the rub into all surfaces of the pork shoulder, getting into every crevice. If you have time, season the night before and refrigerate uncovered for even deeper flavor.
 
 2. **The Pot Base:** Scatter the chopped onion and smashed garlic across the bottom of a 6-quart slow cooker. Pour in the apple cider vinegar and Worcestershire sauce.
 

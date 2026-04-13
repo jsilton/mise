@@ -1,32 +1,48 @@
 ---
 title: Banana Oat Greek Yogurt Muffins
 difficulty: easy
-cookingMethods: [bake, blend]
-dietary: [vegetarian]
-occasions: [meal-prep, kids-approved, post-workout]
-seasons: [year-round]
+cookingMethods:
+  - bake
+  - blend
+dietary:
+  - vegetarian
+occasions:
+  - meal-prep
+  - kids-approved
+  - post-workout
+seasons:
+  - year-round
 nutritionalDensity: moderate
 leftovers: excellent
-advancePrep: [make-ahead]
-equipment: [muffin-tin]
-flavorProfile: [sweet, rich]
-cuisines: [American]
+advancePrep:
+  - make-ahead
+equipment:
+  - muffin-tin
+flavorProfile:
+  - sweet
+  - rich
+cuisines:
+  - American
 role: side
 vibe: nutritious
 prepTime: 10 min
 cookTime: 15 min
 totalTime: 25 min
 servings: '12'
-pairsWith: [blueberry-banana-pancake-muffins, blueberry-oat-breakfast-bars, freezer-date-cookies]
+pairsWith:
+  - blueberry-banana-pancake-muffins
+  - blueberry-oat-breakfast-bars
+  - freezer-date-cookies
 ingredients:
-  - '1 cup Plain Greek Yogurt (Full Fat)'
+  - 1 cup Plain Greek Yogurt (Full Fat)
   - '2 large Ripe Bananas, mashed'
-  - '2 cups Rolled Oats'
-  - '2 large Eggs'
-  - '1/4 cup Brown Sugar'
-  - '1 1/2 tsp Baking Powder'
-  - '1/2 tsp Baking Soda'
-  - '1/2 cup Chocolate Chips (Dark chocolate preferred)'
+  - 2 cups Rolled Oats
+  - 2 large Eggs
+  - 1/4 cup Brown Sugar
+  - 1 1/2 tsp Baking Powder
+  - 1/2 tsp Baking Soda
+  - 1/2 cup Chocolate Chips (Dark chocolate preferred)
+origin: United States
 ---
 
 ## Chef's Note

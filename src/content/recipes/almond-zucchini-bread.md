@@ -1,32 +1,46 @@
 ---
 title: Almond Zucchini Bread
 difficulty: intermediate
-cookingMethods: [bake]
-dietary: [vegetarian]
-occasions: [kids-approved, weekend-project, comfort-food]
-seasons: [summer, fall]
+cookingMethods:
+  - bake
+dietary:
+  - vegetarian
+occasions:
+  - kids-approved
+  - weekend-project
+  - comfort-food
+seasons:
+  - summer
+  - fall
 nutritionalDensity: moderate
 leftovers: excellent
 equipment: []
-flavorProfile: [sweet, rich]
-cuisines: [American]
+flavorProfile:
+  - sweet
+  - rich
+cuisines:
+  - American
 role: side
 vibe: nutritious
 prepTime: 10 min
 cookTime: 40 min
 totalTime: 50 min
 servings: '10'
-pairsWith: [blueberry-baked-oatmeal, breakfast-carrot-cake, chocolate-chip-beet-muffins]
+pairsWith:
+  - blueberry-baked-oatmeal
+  - breakfast-carrot-cake
+  - chocolate-chip-beet-muffins
 ingredients:
-  - '1 1/2 cups Almond Flour'
+  - 1 1/2 cups Almond Flour
   - '1 cup Grated Zucchini (packed, squeezed bone-dry)'
   - '1 large Banana, mashed (about 1/2 cup)'
   - '3 large Eggs, room temperature'
-  - '3 tbsp Maple Syrup'
+  - 3 tbsp Maple Syrup
   - '1 tbsp Coconut Oil, melted'
-  - '1 tsp Ground Cinnamon'
-  - '1 1/2 tsp Baking Soda'
-  - '1/2 tsp Kosher Salt'
+  - 1 tsp Ground Cinnamon
+  - 1 1/2 tsp Baking Soda
+  - 1/2 tsp Kosher Salt
+origin: United States
 ---
 
 ## Chef's Note

@@ -1,23 +1,34 @@
 ---
 title: Play-Dough
 difficulty: intermediate
-cookingMethods: [no-cook]
-dietary: [vegetarian]
-occasions: [kids-approved]
-seasons: [year-round]
+cookingMethods:
+  - no-cook
+dietary:
+  - vegetarian
+occasions:
+  - kids-approved
+seasons:
+  - year-round
 nutritionalDensity: light
 leftovers: excellent
-equipment: [saucepan]
-advancePrep: [make-ahead]
-flavorProfile: [rich]
-cuisines: [American]
+equipment:
+  - saucepan
+advancePrep:
+  - make-ahead
+flavorProfile:
+  - rich
+cuisines:
+  - American
 role: base
 vibe: nutritious
 prepTime: 5 min
 cookTime: 5 min
 totalTime: 10 min
 servings: 1 large batch
-pairsWith: [blueberry-baked-oatmeal, blueberry-banana-pancake-muffins, blueberry-oat-breakfast-bars]
+pairsWith:
+  - blueberry-baked-oatmeal
+  - blueberry-banana-pancake-muffins
+  - blueberry-oat-breakfast-bars
 ingredients:
   - 1 cup All-Purpose Flour
   - 1/2 cup Fine Salt
@@ -26,12 +37,12 @@ ingredients:
   - 1 tbsp Vegetable Oil
   - Oil of Wintergreen (optional for aroma)
   - Food Coloring or Liquid Watercolors
+origin: United States
 ---
 
 ## Chef's Note
 
-This is an easy homemade play-dough recipe. The secret to a resilient, professional texture is cooking it on the stovetop. Unlike no-cook versions, heating the dough ensures the starch molecules are fully gelatinized, resulting in a smooth consistency that doesn't stick to hands. The cream of tartar is essential—it acts as a stabilizer and a natural preservative.
-
+Homemade play-dough is a rainy-day project that's actually food science at work—a cooked dough that stays pliable for months. The cream of tartar is the key: it acts as a preservative and keeps the dough soft, so it won't crack or harden in an airtight container. The oil and salt also help preserve texture.
 ## Directions
 
 1.  **Combine:** In a medium non-stick saucepan, whisk together the flour, salt, and cream of tartar.

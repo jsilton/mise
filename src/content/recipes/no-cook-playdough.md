@@ -1,16 +1,26 @@
 ---
 title: No-Cook Playdough
 difficulty: easy
-cookingMethods: [boil, no-cook]
-dietary: [vegetarian]
-occasions: [kids-approved]
-seasons: [year-round]
+cookingMethods:
+  - boil
+  - no-cook
+dietary:
+  - vegetarian
+occasions:
+  - kids-approved
+seasons:
+  - year-round
 nutritionalDensity: light
 leftovers: excellent
-equipment: [mixing-bowl]
-advancePrep: [make-ahead]
-flavorProfile: [acidic, rich]
-cuisines: [American]
+equipment:
+  - mixing-bowl
+advancePrep:
+  - make-ahead
+flavorProfile:
+  - acidic
+  - rich
+cuisines:
+  - American
 role: base
 vibe: nutritious
 prepTime: 10 min
@@ -18,11 +28,9 @@ cookTime: 0 min
 totalTime: 10 min
 servings: 1 large batch
 pairsWith:
-  [
-    healthy-carrot-cake-muffins-with-cream-cheese-glaze,
-    whole-wheat-muffins-fruit-nut-or-berry,
-    avocado-toast,
-  ]
+  - healthy-carrot-cake-muffins-with-cream-cheese-glaze
+  - whole-wheat-muffins-fruit-nut-or-berry
+  - avocado-toast
 ingredients:
   - 2.5 cups All-Purpose Flour
   - 1 1/4 cups Fine Salt
@@ -30,6 +38,7 @@ ingredients:
   - 2.5 cups Boiling Water
   - 5 tbsp Vegetable Oil
   - Liquid Watercolors or Wilton Icing Colors
+origin: United States
 ---
 
 ## Chef's Note

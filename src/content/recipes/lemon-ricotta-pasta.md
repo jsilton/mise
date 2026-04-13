@@ -1,39 +1,54 @@
 ---
 title: Lemon Ricotta Pasta
 aliases:
-  - 'lemon-ricotta-pasta-the-15-minute-brightness'
+  - lemon-ricotta-pasta-the-15-minute-brightness
 difficulty: easy
-cookingMethods: [roast, boil]
+cookingMethods:
+  - roast
+  - boil
 dietary: []
-occasions: [weeknight, quick-lunch, light-and-fresh]
-flavorProfile: [savory, acidic, rich, herbaceous]
-cuisines: [Italian]
+occasions:
+  - weeknight
+  - quick-lunch
+  - light-and-fresh
+flavorProfile:
+  - savory
+  - acidic
+  - rich
+  - herbaceous
+cuisines:
+  - Italian
 role: main
 vibe: quick
 prepTime: 5 min
 cookTime: 10 min
 totalTime: 15 min
 servings: '4'
-seasons: [spring, summer, year-round]
+seasons:
+  - spring
+  - summer
+  - year-round
 nutritionalDensity: moderate
 leftovers: good
 equipment: []
-pairsWith: [everyday-arugula-salad, roasted-root-vegetables]
+pairsWith:
+  - everyday-arugula-salad
+  - roasted-root-vegetables
 ingredients:
-  - '1 lb Bucatini or Spaghetti'
-  - '1 cup Fresh Ricotta Cheese'
-  - '1/2 cup Extra-Virgin Olive Oil'
-  - '1/2 cup Freshly Grated Pecorino Romano'
+  - 1 lb Bucatini or Spaghetti
+  - 1 cup Fresh Ricotta Cheese
+  - 1/2 cup Extra-Virgin Olive Oil
+  - 1/2 cup Freshly Grated Pecorino Romano
   - '1 Lemon, zested and juiced'
-  - '1/2 tsp Red Pepper Flakes'
+  - 1/2 tsp Red Pepper Flakes
   - '1/2 cup Fresh Basil, torn'
-  - 'Salt and Black Pepper'
+  - Salt and Black Pepper
+origin: Italy
 ---
 
 ## Chef's Note
 
-This is a simple spring pasta from the Roman/Lazio tradition, similar to cacio e pepe but made with ricotta instead of pecorino alone. Fresh sheep's milk ricotta is traditional in Rome, where it's been made for centuries. The secret is using starchy pasta water to emulsify the ricotta and olive oil into a creamy sauce that coats the noodles - the pasta water acts as a binding agent. Lemon zest (not just juice) is critical for brightness without adding too much liquid that would thin the sauce. Pecorino Romano adds the salty, sheep's milk tang that's essential to Roman pasta dishes.
-
+Lemon-ricotta pasta is Italian elegance that's fast and forgiving: creamy ricotta with bright lemon, finished with fresh basil. Ricotta is mild, so the lemon has to be bold—don't be shy with zest. The pasta water emulsifies the ricotta into a silky sauce without needing cream or extra fat.
 ## Directions
 
 1.  **Boil:** Cook pasta in heavily salted water for 1 minute **less** than the package instructions.

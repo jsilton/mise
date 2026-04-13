@@ -2,37 +2,55 @@
 title: Vietnamese Fresh Spring Rolls (Goi Cuon)
 origin: Vietnam
 difficulty: easy
-cookingMethods: [boil, no-cook]
-dietary: [gluten-free, dairy-free]
-occasions: [light-and-fresh, quick-lunch, entertaining]
-flavorProfile: [herbaceous, acidic, savory]
-cuisines: [Vietnamese]
+cookingMethods:
+  - boil
+  - no-cook
+dietary:
+  - dairy-free
+occasions:
+  - light-and-fresh
+  - quick-lunch
+  - entertaining
+flavorProfile:
+  - herbaceous
+  - acidic
+  - savory
+cuisines:
+  - Vietnamese
 role: side
 vibe: quick
-seasons: [spring, summer]
+seasons:
+  - spring
+  - summer
 nutritionalDensity: light
 leftovers: poor
-advancePrep: [components-ahead]
-equipment: [large bowl, medium saucepan]
+advancePrep:
+  - components-ahead
+equipment:
+  - large bowl
+  - medium saucepan
 prepTime: 30 min
 cookTime: 10 min
 totalTime: 40 min
 servings: '4'
-pairsWith: [chicken-pho, pho-bo-beef-pho, smashed-cucumber-salad]
+pairsWith:
+  - chicken-pho
+  - pho-bo-beef-pho
+  - smashed-cucumber-salad
 ingredients:
-  - '8 Rice Paper Wrappers (8.5-inch rounds)'
+  - 8 Rice Paper Wrappers (8.5-inch rounds)
   - '1/2 lb Large Shrimp, peeled and deveined'
-  - '4 oz Rice Vermicelli Noodles'
+  - 4 oz Rice Vermicelli Noodles
   - '1 cup Red Leaf Lettuce, torn into pieces'
-  - '1 cup Fresh Mint Leaves'
-  - '1 cup Fresh Cilantro Leaves'
-  - '1 cup Fresh Thai Basil Leaves'
+  - 1 cup Fresh Mint Leaves
+  - 1 cup Fresh Cilantro Leaves
+  - 1 cup Fresh Thai Basil Leaves
   - '1 large Carrot, julienned'
   - '1 medium English Cucumber, julienned'
-  - '1/4 cup Hoisin Sauce'
-  - '2 tbsp Creamy Peanut Butter'
-  - '1 tbsp Sriracha'
-  - '1 tbsp Warm Water'
+  - 1/4 cup Hoisin Sauce
+  - 2 tbsp Creamy Peanut Butter
+  - 1 tbsp Sriracha
+  - 1 tbsp Warm Water
   - '2 tbsp Crushed Roasted Peanuts, for garnish'
 ---
 

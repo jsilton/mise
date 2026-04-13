@@ -1,19 +1,29 @@
 ---
 title: Slow Cooker French Dip Sandwiches
 difficulty: easy
-cookingMethods: [roast, slow-cook, no-cook]
+cookingMethods:
+  - roast
+  - slow-cook
+  - no-cook
 dietary: []
-occasions: [comfort-food]
-flavorProfile: [sweet, savory, umami]
-cuisines: [American]
+occasions:
+  - comfort-food
+flavorProfile:
+  - sweet
+  - savory
+  - umami
+cuisines:
+  - American
 role: main
 vibe: comfort
 prepTime: 15 min
-cookTime: 8 hours
-totalTime: 8.5 hours
+cookTime: 8 hr
+totalTime: 8.5 hr
 servings: '6'
 pairsWith:
-  [avocado-kale-caesar-salad, warm-roasted-veggie-salad-with-maple-dijon-vinaigrette, coleslaw]
+  - avocado-kale-caesar-salad
+  - warm-roasted-veggie-salad-with-maple-dijon-vinaigrette
+  - coleslaw
 ingredients:
   - 3 lb Beef Chuck Roast
   - '1 large Yellow Onion, sliced'
@@ -24,6 +34,12 @@ ingredients:
   - 1 tsp Dried Rosemary
   - 6 Hoagie Rolls or Baguette pieces
   - 6 slices Provolone Cheese
+origin: United States
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: excellent
+equipment: []
 ---
 
 ## Chef's Note
@@ -32,7 +48,7 @@ The French Dip is all about the **Jus** (the juice). Most home versions are wate
 
 ## Directions
 
-1.  **Sear (Optional but better):** Sear the beef roast in a hot skillet with a little oil until browned on all sides. Place in the slow cooker.
+1.  **Sear high heat (400-450°F) (Optional but better):** Sear the beef roast in a hot skillet with a little oil until browned on all sides. Place in the slow cooker.
 2.  **Combine:** Add the sliced onion, garlic, stock, soy sauce, Worcestershire, and rosemary to the slow cooker.
 3.  **Slow Cook:** Cook on **LOW** for 8 hours (or high for 4-5 hours) until the beef pulls apart with a fork.
 4.  **Shred:** Remove beef to a cutting board. Shred into large chunks or slice thin.

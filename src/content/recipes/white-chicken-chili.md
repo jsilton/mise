@@ -1,18 +1,28 @@
 ---
 title: White Chicken Chili
 difficulty: easy
-cookingMethods: [slow-cook]
+cookingMethods:
+  - slow-cook
 dietary: []
-occasions: [comfort-food]
-flavorProfile: [spicy, savory, acidic, rich]
-cuisines: [Mexican]
+occasions:
+  - comfort-food
+flavorProfile:
+  - spicy
+  - savory
+  - acidic
+  - rich
+cuisines:
+  - Mexican
 role: main
 vibe: comfort
 prepTime: 5 min
 cookTime: 600 min
 totalTime: 605 min
 servings: '8'
-pairsWith: [queso-fundido-with-chorizo, mexican-street-corn-salad, roasted-sweet-potatoes]
+pairsWith:
+  - queso-fundido-with-chorizo
+  - mexican-street-corn-salad
+  - roasted-sweet-potatoes
 ingredients:
   - 1 1/4 lbs Chicken Breasts or Thighs
   - 2 cans (15 oz) Great Northern Beans
@@ -23,6 +33,12 @@ ingredients:
   - 1/2 cup Sour Cream (for richness)
   - 1 pkg Taco Seasoning
   - 'Monterey Jack Cheese, shredded'
+origin: Mexico
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: excellent
+equipment: []
 ---
 
 ## Chef's Note

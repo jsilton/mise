@@ -1,17 +1,31 @@
 ---
 title: Seasoned Bean Sprouts (Kongnamul Namul)
 difficulty: intermediate
-cookingMethods: [steam]
-dietary: [vegetarian]
-occasions: [weeknight, light-and-fresh]
-flavorProfile: [savory, umami]
-cuisines: [Korean]
+cookingMethods:
+  - steam
+dietary:
+  - vegetarian
+occasions:
+  - weeknight
+  - light-and-fresh
+flavorProfile:
+  - savory
+  - umami
+cuisines:
+  - Korean
 role: side
 vibe: quick
-season: [spring, summer, fall, winter]
+season:
+  - spring
+  - summer
+  - fall
+  - winter
 leftovers: good
 healthiness: light
-pairsWith: [bibimbap, kalbi-grilled-korean-style-short-ribs, basmati-rice]
+pairsWith:
+  - bibimbap
+  - kalbi-grilled-korean-style-short-ribs
+  - basmati-rice
 prepTime: 5 min
 cookTime: 5 min
 totalTime: 10 min
@@ -23,6 +37,11 @@ ingredients:
   - 1/2 tsp Fine Sea Salt
   - '1 Green Onion, minced'
   - 1 tsp Toasted Sesame Seeds
+origin: Korea
+seasons:
+  - year-round
+nutritionalDensity: moderate
+equipment: []
 ---
 
 ## Chef's Note

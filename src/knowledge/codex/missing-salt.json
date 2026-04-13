@@ -1,12 +1,8 @@
 {
+  "_deprecated": true,
+  "_reason": "Removed 2026-04-12: applies to nearly every recipe. Seasoning guidance is a writing standard, not a rule to automate.",
   "id": "kb.missing-salt",
-  "title": "Recommend tasting and seasoning",
-  "category": "Flavor Balance",
-  "severity": "hint",
-  "description": "Flag recipes that don't mention seasoning guidance, tasting, or finishing salt, especially for dishes where seasoning timing matters.",
-  "detection": [
-    { "type": "text_absence", "words": ["season", "salt", "taste", "adjust"], "contextWindow": 200 }
-  ],
-  "suggestionTemplate": "Consider adding a step to taste and adjust seasoning (salt and acid) before serving.",
-  "examples": []
+  "title": "DEPRECATED — Seasoning suggestion",
+  "severity": "disabled",
+  "detection": []
 }

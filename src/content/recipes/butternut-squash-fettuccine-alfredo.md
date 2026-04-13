@@ -1,18 +1,31 @@
 ---
 title: Butternut Squash Fettuccine Alfredo
 difficulty: easy
-cookingMethods: [bake, roast, boil, blend]
+cookingMethods:
+  - bake
+  - roast
+  - boil
+  - blend
 dietary: []
-occasions: [comfort-food]
-flavorProfile: [sweet, umami, rich, herbaceous]
-cuisines: [Italian]
+occasions:
+  - comfort-food
+flavorProfile:
+  - sweet
+  - umami
+  - rich
+  - herbaceous
+cuisines:
+  - Italian
 role: main
 vibe: comfort
 prepTime: 15 min
 cookTime: 30 min
 totalTime: 45 min
 servings: '6'
-pairsWith: [garlic-bread, charred-asparagus-with-parmesan, creamy-polenta]
+pairsWith:
+  - garlic-bread
+  - charred-asparagus-with-parmesan
+  - creamy-polenta
 ingredients:
   - 1 lb Dry Fettuccine
   - '3 cups Butternut Squash, cubed (1-inch)'
@@ -24,6 +37,12 @@ ingredients:
   - 1/4 tsp Ground Nutmeg (The "High Note")
   - '2 tbsp Fresh Parsley, chopped'
   - Salt and Black Pepper
+origin: Italy
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: good
+equipment: []
 ---
 
 ## Chef's Note
@@ -32,7 +51,7 @@ This modern variation on Roman fettuccine Alfredo adds roasted butternut squash 
 
 ## Directions
 
-1.  **Roast:** Preheat oven to 425°F. Toss squash cubes and garlic with olive oil, salt, and pepper. Spread on a baking sheet and roast for 25-30 minutes until tender and caramelized.
+1.  **Roast:** Preheat oven to 425°F. Toss squash cubes and garlic with olive oil, salt, and pepper. Spread on a baking sheet and roast for 25-30 minutes cook until caramelized and golden brown and caramelized.
 2.  **The Emulsion:** Let squash cool for 10 minutes. Transfer to a blender. Add heavy cream, broth, Parmesan, and nutmeg. Blend on high until completely smooth and velvety.
 3.  **Pasta:** Boil fettuccine in salted water until **al dente**. **Reserve 1/2 cup of pasta water**, then drain.
 4.  **Combine:** Return pasta to the pot. Pour the butternut sauce over the noodles and toss vigorously.

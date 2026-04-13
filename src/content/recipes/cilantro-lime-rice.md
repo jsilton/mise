@@ -1,18 +1,31 @@
 ---
 title: Cilantro Lime Rice
 difficulty: easy
-cookingMethods: [simmer, boil, steam]
+cookingMethods:
+  - simmer
+  - boil
+  - steam
 dietary: []
-occasions: [weeknight, meal-prep]
-flavorProfile: [sweet, acidic, rich, herbaceous]
-cuisines: [Mexican]
+occasions:
+  - weeknight
+  - meal-prep
+flavorProfile:
+  - sweet
+  - acidic
+  - rich
+  - herbaceous
+cuisines:
+  - Mexican
 role: base
 vibe: quick
 prepTime: 5 min
 cookTime: 20 min
 totalTime: 25 min
 servings: '4'
-pairsWith: [crispy-black-bean-tacos, honey-lime-chicken-thighs, carnitas-bowl]
+pairsWith:
+  - crispy-black-bean-tacos
+  - honey-lime-chicken-thighs
+  - carnitas-bowl
 ingredients:
   - 1 cup Jasmine Rice
   - 1 1/2 cups Water or Chicken Broth
@@ -21,6 +34,12 @@ ingredients:
   - 2 tbsp Fresh Lime Juice
   - 1 tsp Lime Zest
   - 1 tbsp Butter or Olive Oil
+origin: Mexico
+seasons:
+  - year-round
+nutritionalDensity: light
+leftovers: good
+equipment: []
 ---
 
 ## Chef's Note

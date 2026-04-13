@@ -1,11 +1,18 @@
 ---
 title: Chocolate Bread Pudding
 difficulty: easy
-cookingMethods: [bake, no-cook]
-dietary: [vegetarian]
-occasions: [comfort-food]
-flavorProfile: [sweet, rich]
-cuisines: [American]
+cookingMethods:
+  - bake
+  - no-cook
+dietary:
+  - vegetarian
+occasions:
+  - comfort-food
+flavorProfile:
+  - sweet
+  - rich
+cuisines:
+  - American
 role: dessert
 vibe: comfort
 prepTime: 25 min
@@ -22,12 +29,22 @@ ingredients:
   - 1 1/2 cups Heavy Cream
   - 1/2 cup Whole Milk
   - 2 cups Vanilla Bean Ice Cream
+origin: United States
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: good
+equipment: []
+pairsWith:
+  - apple-cider-cream-pie
+  - apple-pie
+  - babys-first-smash-cake
+  - best-cinnamon-roll-recipe-cinnabon-copycat
 ---
 
 ## Chef's Note
 
-This is an elevated take on the comfort dessert. By using brioche instead of standard white bread, we ensure a rich, buttery texture that absorbs the custard without falling apart. The key is using both bittersweet and white chocolate to create pockets of intense dark cocoa and creamy sweetness. Let the bread soak for the full 15 minutes for the best texture.
-
+Bread pudding is a way to honor stale bread—brioche is rich and tender, so it soaks up custard without becoming mushy. The double chocolate (bittersweet and white) creates complexity: dark chocolate for depth, white chocolate for sweetness. The 15-minute soak before baking is mandatory—it lets the bread fully hydrate so the custard distributes evenly and the whole thing sets together.
 ## Directions
 
 1.  **Prep:** Preheat oven to 350°F. Spray eight 6-oz ramekins (or a 9x13 baking dish) with non-stick spray.

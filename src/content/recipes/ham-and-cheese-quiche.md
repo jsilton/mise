@@ -1,18 +1,30 @@
 ---
 title: Ham & Cheese Quiche
 difficulty: easy
-cookingMethods: [bake, sauté, no-cook]
-dietary: [vegetarian]
-occasions: [comfort-food]
-flavorProfile: [sweet, acidic, rich, herbaceous]
-cuisines: [French]
+cookingMethods:
+  - bake
+  - sauté
+  - no-cook
+dietary: []
+occasions:
+  - comfort-food
+flavorProfile:
+  - sweet
+  - acidic
+  - rich
+  - herbaceous
+cuisines:
+  - French
 role: main
 vibe: comfort
 prepTime: 15 min
 cookTime: 35 min
 totalTime: 50 min
 servings: '8'
-pairsWith: [sweet-and-white-potato-gratin, tarragon-potatoes, garlic-bread]
+pairsWith:
+  - sweet-and-white-potato-gratin
+  - tarragon-potatoes
+  - garlic-bread
 ingredients:
   - 1 9-inch Deep-dish Pie Crust (unbaked)
   - '1 cup Cooked Ham, cubed'
@@ -26,6 +38,12 @@ ingredients:
   - 1/2 tsp Dried Parsley
   - 1/4 tsp Black Pepper
   - Pinch of Nutmeg
+origin: France
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: good
+equipment: []
 ---
 
 ## Chef's Note

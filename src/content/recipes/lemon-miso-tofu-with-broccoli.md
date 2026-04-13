@@ -1,18 +1,32 @@
 ---
 title: Lemon-Miso Tofu with Broccoli
 difficulty: easy
-cookingMethods: [fry, sauté, simmer]
-dietary: [vegetarian]
-occasions: [weeknight, meal-prep]
-flavorProfile: [sweet, savory, acidic, umami]
-cuisines: [Japanese]
+cookingMethods:
+  - fry
+  - sauté
+  - simmer
+dietary:
+  - vegetarian
+occasions:
+  - weeknight
+  - meal-prep
+flavorProfile:
+  - sweet
+  - savory
+  - acidic
+  - umami
+cuisines:
+  - Japanese
 role: main
 vibe: nutritious
 prepTime: 15 min
 cookTime: 30 min
 totalTime: 45 min
 servings: '4'
-pairsWith: [miso-soup, dashi-japanese-sea-stock, steamed-edamame]
+pairsWith:
+  - miso-soup
+  - dashi-japanese-sea-stock
+  - steamed-edamame
 ingredients:
   - '14 oz Extra-firm Tofu, pressed dry and cubed'
   - '1 lb Fresh Broccoli, cut into small florets'
@@ -27,12 +41,17 @@ ingredients:
   - 1/3 cup Cornstarch (for dredging)
   - '2 Scallions, chopped'
   - Neutral Oil
+origin: Japan
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: good
+equipment: []
 ---
 
 ## Chef's Note
 
-This is a quick, nutritious dish that solves the problem of soggy tofu. By dredging the tofu in cornstarch before searing, we create a barrier that ensures a shatteringly crisp exterior. We char the broccoli in the same pan to pick up the tofu's crispiness. The combination of miso and lemon provides the essential brightness that bridges the earthy soy and citrus flavors.
-
+Miso-glazed tofu is a Japanese izakaya staple adapted for weeknight cooking — the miso-lemon-maple glaze hits all five taste receptors at once (salt, sweet, acid, umami, and a touch of bitter from the char). The key is pressing the tofu bone-dry and dredging in cornstarch before frying — this creates the shatteringly crisp shell that holds the glaze without going soggy. Make the sauce first and have it ready; once the tofu is fried, you have about 90 seconds before the coating starts to soften.
 ## Directions
 
 1.  **The Sauce:** In a small bowl, whisk miso, lemon juice, maple syrup, 1 tbsp cornstarch, and hot water until smooth.

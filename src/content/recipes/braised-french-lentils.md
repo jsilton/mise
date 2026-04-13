@@ -2,39 +2,59 @@
 title: Braised French Lentils
 origin: France
 difficulty: easy
-cookingMethods: [braise, simmer, sauté]
-dietary: [vegetarian, vegan, gluten-free]
-occasions: [weeknight, meal-prep, fall-harvest]
-flavorProfile: [earthy, savory, herbaceous, aromatic]
-cuisines: [French]
+cookingMethods:
+  - braise
+  - simmer
+  - sauté
+dietary:
+  - gluten-free
+occasions:
+  - weeknight
+  - meal-prep
+  - fall-harvest
+flavorProfile:
+  - earthy
+  - savory
+  - herbaceous
+  - aromatic
+cuisines:
+  - French
 role: side
 vibe: comfort
-seasons: [fall, winter, year-round]
+seasons:
+  - fall
+  - winter
+  - year-round
 nutritionalDensity: hearty
 leftovers: excellent
-advancePrep: [lentils-up-to-4-days, freezes-well]
-equipment: [dutch-oven]
+advancePrep:
+  - lentils-up-to-4-days
+  - freezes-well
+equipment:
+  - dutch-oven
 prepTime: 10 min
 cookTime: 35 min
 totalTime: 45 min
 servings: '6'
 pairsWith:
-  [rosemary-pork-tenderloin, chicken-coq-au-vin, mediterranean-salmon-with-lemon-herb-emulsion]
+  - rosemary-pork-tenderloin
+  - chicken-coq-au-vin
+  - mediterranean-salmon-with-lemon-herb-emulsion
 ingredients:
   - '1.5 cups French Green Lentils (lentilles du Puy), rinsed and picked over'
-  - '2 tbsp Olive Oil'
+  - 2 tbsp Olive Oil
   - '1 medium Onion, finely diced'
   - '2 medium Carrots, finely diced'
   - '2 stalks Celery, finely diced'
   - '4 cloves Garlic, minced'
-  - '2 sprigs Fresh Thyme'
-  - '1 Bay Leaf'
-  - '1 tbsp Dijon Mustard'
-  - '3.5 cups Low-Sodium Vegetable or Chicken Broth'
-  - '1 tbsp Red Wine Vinegar'
+  - 2 sprigs Fresh Thyme
+  - 1 Bay Leaf
+  - 1 tbsp Dijon Mustard
+  - 3.5 cups Low-Sodium Vegetable or Chicken Broth
+  - 1 tbsp Red Wine Vinegar
   - '2 tbsp Fresh Parsley, chopped'
-  - '1 tsp Kosher Salt'
-  - '1/2 tsp Black Pepper'
+  - 1 tsp Kosher Salt
+  - 1/2 tsp Black Pepper
 ---
 
 ## Chef's Note

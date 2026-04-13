@@ -2,18 +2,31 @@
 title: Kare Raisu
 origin: Japan
 difficulty: intermediate
-cookingMethods: [roast, sauté, simmer, boil, steam]
+cookingMethods:
+  - roast
+  - sauté
+  - simmer
+  - boil
+  - steam
 dietary: []
-occasions: [comfort-food]
-flavorProfile: [savory, umami, rich]
-cuisines: [Japanese]
+occasions:
+  - comfort-food
+flavorProfile:
+  - savory
+  - umami
+  - rich
+cuisines:
+  - Japanese
 role: main
 vibe: comfort
 prepTime: 30 min
 cookTime: 45 min
 totalTime: 75 min
 servings: '6'
-pairsWith: [dashi-japanese-sea-stock, miso-mashed-potatoes, miso-soup]
+pairsWith:
+  - dashi-japanese-sea-stock
+  - miso-mashed-potatoes
+  - miso-soup
 ingredients:
   - '2 lbs Chicken Thighs, cut into 1.5-inch chunks'
   - '2 large Onions, thinly sliced'
@@ -28,6 +41,11 @@ ingredients:
   - 1 tbsp Worcestershire Sauce
   - 1 tbsp Ketchup
   - 1 tsp Soy Sauce
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: good
+equipment: []
 ---
 
 ## Chef's Note

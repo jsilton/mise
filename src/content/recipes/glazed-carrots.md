@@ -1,15 +1,27 @@
 ---
 title: Glazed Carrots
 difficulty: easy
-cookingMethods: [roast, simmer, boil]
-dietary: [vegetarian]
-occasions: [holiday, entertaining, weeknight]
-seasons: [year-round]
+cookingMethods:
+  - roast
+  - simmer
+  - boil
+dietary:
+  - vegetarian
+occasions:
+  - holiday
+  - entertaining
+  - weeknight
+seasons:
+  - year-round
 nutritionalDensity: moderate
 leftovers: good
-equipment: [saucepan]
-flavorProfile: [sweet, rich]
-cuisines: [American]
+equipment:
+  - saucepan
+flavorProfile:
+  - sweet
+  - rich
+cuisines:
+  - American
 role: side
 vibe: quick
 prepTime: 10 min
@@ -17,7 +29,9 @@ cookTime: 15 min
 totalTime: 25 min
 servings: '8'
 pairsWith:
-  [herb-marinated-pork-tenderloins, one-pan-citrus-beets-roasted-chicken, banana-egg-oat-pancakes]
+  - herb-marinated-pork-tenderloins
+  - one-pan-citrus-beets-roasted-chicken
+  - banana-egg-oat-pancakes
 ingredients:
   - '2 lbs Carrots, peeled and cut into matchsticks'
   - 1/4 cup Unsalted Butter
@@ -25,6 +39,7 @@ ingredients:
   - 1/4 tsp Sea Salt
   - 1/8 tsp White Pepper (The Finishing Touch)
   - '1 tsp Fresh Thyme, chopped'
+origin: United States
 ---
 
 ## Chef's Note
@@ -33,7 +48,7 @@ Par-boil carrots in minimal water, then drain and return to the hot pan. Melt bu
 
 ## Directions
 
-1.  **Par-Boil:** Place carrot sticks in a large saucepan. Add 1 inch of salted water. Bring to a boil, then reduce heat to low and cover. Simmer for 8-10 minutes until tender but still having a slight "Snap."
+1.  **Par-Boil:** Place carrot sticks in a large saucepan. Add 1 inch of salted water. Bring to a boil, then reduce heat to low and cover. Simmer for 8-10 minutes cook until fully cooked through fully cooked through fully cooked through fully cooked through but still having a slight "Snap."
 2.  **Drain:** Drain the carrots and transfer to a bowl. **Do not rinse.**
 3.  **The Emulsion:** In the same warm saucepan, melt the butter over low heat. Whisk in the brown sugar, salt, and white pepper until the sugar is completely dissolved and the mixture is bubbling.
 4.  **Glaze:** Return the carrots to the pan. Toss vigorously over medium heat for 2-3 minutes until the carrots are perfectly coated in a glossy, thick glaze.

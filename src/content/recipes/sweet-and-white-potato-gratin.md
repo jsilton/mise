@@ -1,20 +1,35 @@
 ---
 title: Sweet and White Potato Gratin
 aliases:
-  - 'sweet-and-white-potato-gratin-the-thanksgiving-splurge'
+  - sweet-and-white-potato-gratin-the-thanksgiving-splurge
 difficulty: easy
-cookingMethods: [bake, roast, simmer, boil]
-dietary: [vegetarian]
-occasions: [holiday]
-flavorProfile: [spicy, sweet, umami, rich, herbaceous]
-cuisines: [French]
+cookingMethods:
+  - bake
+  - roast
+  - simmer
+  - boil
+dietary:
+  - vegetarian
+occasions:
+  - holiday
+flavorProfile:
+  - spicy
+  - sweet
+  - umami
+  - rich
+  - herbaceous
+cuisines:
+  - French
 role: side
 vibe: holiday
 prepTime: 25 min
 cookTime: 60 min
 totalTime: 85 min
 servings: '8'
-pairsWith: [chicken-coq-au-vin, ham-and-cheese-quiche, tomato-and-goat-cheese-tart]
+pairsWith:
+  - chicken-coq-au-vin
+  - ham-and-cheese-quiche
+  - tomato-and-goat-cheese-tart
 ingredients:
   - '2 lbs Sweet Potatoes, peeled'
   - '1.5 lbs White Potatoes (Yukon Gold), peeled'
@@ -26,12 +41,17 @@ ingredients:
   - Dash of Cayenne Pepper
   - '2.5 cups Gruyère Cheese, shredded'
   - '2 cups Parmesan Reggiano, finely grated'
+origin: France
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: good
+equipment: []
 ---
 
 ## Chef's Note
 
-This is a rich, colorful holiday centerpiece. The secret to a perfect gratin is **Structural Integrity**: we use a mandolin to ensure the potato slices are paper-thin, allowing them to stack tightly and cook evenly. **Pro Tip:** For an even richer result, you can simmer the cream mixture with the garlic and herbs for 5 minutes before pouring it over the potatoes to "infuse" the fat.
-
+Gratin dauphinois meets Thanksgiving sweet potatoes — alternating layers of sweet and white potatoes create a dish with more complexity than either alone. The mandoline is non-negotiable: 1/8-inch slices cook evenly and create those paper-thin layers that meld into cream. Thicker cuts leave you with raw centers and burnt edges. The cream infusion (warming it with garlic and spices before pouring) ensures flavor penetrates every layer instead of just sitting on top. Start covered at high heat to cook the potatoes through, then uncover to build the golden crust.
 ## Directions
 
 1.  **Infuse:** In a medium pot, whisk together the cream, salt, pepper, garlic, and spices. Warm over low heat (do not boil) just to marry the flavors.

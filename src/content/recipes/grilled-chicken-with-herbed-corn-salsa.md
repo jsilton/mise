@@ -1,18 +1,31 @@
 ---
 title: Chicken with Herbed Corn Salsa
 difficulty: easy
-cookingMethods: [grill, blend]
+cookingMethods:
+  - grill
+  - blend
 dietary: []
-occasions: [summer, entertaining]
-flavorProfile: [sweet, acidic, umami, rich, herbaceous]
-cuisines: [Mexican]
+occasions:
+  - summer
+  - entertaining
+flavorProfile:
+  - sweet
+  - acidic
+  - umami
+  - rich
+  - herbaceous
+cuisines:
+  - Mexican
 role: main
 vibe: nutritious
 prepTime: 15 min
 cookTime: 20 min
 totalTime: 35 min
 servings: '4'
-pairsWith: [greek-salad, cilantro-lime-rice, mexican-street-corn-salad]
+pairsWith:
+  - greek-salad
+  - cilantro-lime-rice
+  - mexican-street-corn-salad
 ingredients:
   - '2 1/4 lbs Skin-on, Bone-in Chicken Thighs'
   - '2 large ears Fresh Corn, shucked'
@@ -23,6 +36,12 @@ ingredients:
   - 1/4 cup Fresh Lemon Juice (The Finishing Touch)
   - 2 tbsp Extra-Virgin Olive Oil
   - Salt and Black Pepper
+origin: Mexico
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: good
+equipment: []
 ---
 
 ## Chef's Note

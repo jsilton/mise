@@ -1,22 +1,34 @@
 ---
 title: Sheet Pan Chicken and Broccoli
 difficulty: easy
-cookingMethods: [bake, roast]
+cookingMethods:
+  - bake
+  - roast
 dietary: []
-occasions: [weeknight, comfort-food, kids-approved, meal-prep]
-seasons: [year-round]
+occasions:
+  - weeknight
+  - comfort-food
+  - kids-approved
+  - meal-prep
+seasons:
+  - year-round
 nutritionalDensity: hearty
 leftovers: excellent
-equipment: [sheet-pan]
-flavorProfile: [rich]
-cuisines: [American]
+equipment:
+  - sheet-pan
+flavorProfile:
+  - rich
+cuisines:
+  - American
 role: main
 vibe: quick
 prepTime: 15 min
 cookTime: 30 min
 totalTime: 45 min
 servings: '4'
-pairsWith: [basmati-rice, perfect-mashed-potatoes]
+pairsWith:
+  - basmati-rice
+  - perfect-mashed-potatoes
 ingredients:
   - '1.5 lbs Chicken Thighs, boneless/skinless'
   - 1 lb Fresh Broccoli Florets (cut small)
@@ -27,6 +39,7 @@ ingredients:
   - 1/2 tsp Garlic Powder
   - 1/2 cup Panko Breadcrumbs
   - 1 tbsp Olive Oil
+origin: United States
 ---
 
 ## Chef's Note

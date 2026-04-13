@@ -1,22 +1,37 @@
 ---
 title: Chocolate Chip Beet Muffins
 difficulty: easy
-cookingMethods: [bake, roast]
-dietary: [vegetarian]
-occasions: [kids-approved, meal-prep, weekend-project]
-seasons: [year-round]
+cookingMethods:
+  - bake
+  - roast
+dietary:
+  - vegetarian
+occasions:
+  - kids-approved
+  - meal-prep
+  - weekend-project
+seasons:
+  - year-round
 nutritionalDensity: moderate
 leftovers: excellent
-equipment: [muffin-tin]
-flavorProfile: [sweet, umami, rich]
-cuisines: [American]
+equipment:
+  - muffin-tin
+flavorProfile:
+  - sweet
+  - umami
+  - rich
+cuisines:
+  - American
 role: main
 vibe: nutritious
 prepTime: 10 min
 cookTime: 20 min
 totalTime: 30 min
 servings: '12'
-pairsWith: [banana-oat-greek-yogurt-muffins, avocado-kale-caesar-salad, almond-zucchini-bread]
+pairsWith:
+  - banana-oat-greek-yogurt-muffins
+  - avocado-kale-caesar-salad
+  - almond-zucchini-bread
 ingredients:
   - 1 cup Beet Puree (Roasted or canned)
   - 2 large Eggs
@@ -29,12 +44,12 @@ ingredients:
   - 1 1/2 tsp Baking Soda
   - 1/4 tsp Sea Salt
   - 1/3 cup Semisweet Chocolate Chips
+origin: United States
 ---
 
 ## Chef's Note
 
-This is a nutritious twist on the classic chocolate muffin. We use beet puree as a moisture source; it provides a deep, earthy richness that keeps the muffins succulent for days without needing excessive oil. The key to good texture is having a thick batter that's scoopable, not pourable. This ensures that the whole-wheat flour doesn't become gummy and the chocolate chips stay suspended rather than sinking to the bottom.
-
+Beet muffins are the original stealth-vegetable trick — the beet puree turns the batter a deep red-brown that looks exactly like chocolate, and the earthy sweetness disappears behind cocoa and brown sugar. Kids won't know unless you tell them. Use roasted beets pureed smooth for the best flavor, but canned beet puree (drained and blended) works in a pinch. Don't overmix once the flour goes in — whole wheat develops gluten fast, and tough muffins are nobody's idea of a treat.
 ## Directions
 
 1.  **Prep:** Preheat oven to 375°F. Line a 12-cup muffin tin with paper liners or grease generously.

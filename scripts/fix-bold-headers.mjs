@@ -1,244 +1,105 @@
-import fs from 'fs/promises';
-/* eslint-disable no-console */
+import fs from 'fs';
 import path from 'path';
-import matter from 'gray-matter';
 
-/**
- * Auto-fix: Add bold step headers to recipe directions.
- *
- * Transforms lines like:
- *   1. Add the bourbon...
- * Into:
- *   1. **Add:** Add the bourbon...
- *
- * Picks the first verb or key phrase as the header word.
- * Skips recipes that already have bold headers in most steps.
- */
+const DRY_RUN = process.argv.includes('--dry-run');
+const recipesDir = path.join(process.cwd(), 'src/content/recipes');
 
-const RECIPES_DIR = path.resolve('src/content/recipes');
+function fixBoldHeaders() {
+  let fixedCount = 0;
+  const fixes = [];
 
-// Common cooking verbs to use as step headers
-const VERB_MAP = {
-  // Cooking actions
-  add: 'Add',
-  pour: 'Pour',
-  whisk: 'Whisk',
-  stir: 'Stir',
-  mix: 'Mix',
-  combine: 'Combine',
-  blend: 'Blend',
-  fold: 'Fold',
-  toss: 'Toss',
-  // Heat actions
-  heat: 'Heat',
-  preheat: 'Preheat',
-  boil: 'Boil',
-  simmer: 'Simmer',
-  sear: 'Sear',
-  sauté: 'Sauté',
-  saute: 'Sauté',
-  fry: 'Fry',
-  roast: 'Roast',
-  bake: 'Bake',
-  broil: 'Broil',
-  grill: 'Grill',
-  toast: 'Toast',
-  char: 'Char',
-  brown: 'Brown',
-  braise: 'Braise',
-  steam: 'Steam',
-  poach: 'Poach',
-  blanch: 'Blanch',
-  // Prep actions
-  chop: 'Chop',
-  dice: 'Dice',
-  slice: 'Slice',
-  mince: 'Mince',
-  grate: 'Grate',
-  peel: 'Peel',
-  trim: 'Trim',
-  cut: 'Cut',
-  drain: 'Drain',
-  rinse: 'Rinse',
-  wash: 'Wash',
-  dry: 'Dry',
-  pat: 'Pat Dry',
-  season: 'Season',
-  marinate: 'Marinate',
-  coat: 'Coat',
-  dredge: 'Dredge',
-  bread: 'Bread',
-  stuff: 'Stuff',
-  fill: 'Fill',
-  roll: 'Roll',
-  wrap: 'Wrap',
-  shape: 'Shape',
-  flatten: 'Flatten',
-  pound: 'Pound',
-  // Assembly/finishing
-  place: 'Place',
-  arrange: 'Arrange',
-  layer: 'Layer',
-  spread: 'Spread',
-  top: 'Top',
-  garnish: 'Garnish',
-  drizzle: 'Drizzle',
-  sprinkle: 'Sprinkle',
-  serve: 'Serve',
-  plate: 'Plate',
-  transfer: 'Transfer',
-  remove: 'Remove',
-  set: 'Set',
-  let: 'Rest',
-  rest: 'Rest',
-  cool: 'Cool',
-  chill: 'Chill',
-  refrigerate: 'Chill',
-  freeze: 'Freeze',
-  cover: 'Cover',
-  // Measurement/prep
-  measure: 'Measure',
-  weigh: 'Weigh',
-  prep: 'Prep',
-  prepare: 'Prep',
-  assemble: 'Assemble',
-  build: 'Build',
-  make: 'Make',
-  create: 'Make',
-  // Techniques
-  knead: 'Knead',
-  proof: 'Proof',
-  rise: 'Rise',
-  ferment: 'Ferment',
-  reduce: 'Reduce',
-  deglaze: 'Deglaze',
-  temper: 'Temper',
-  strain: 'Strain',
-  skim: 'Skim',
-  render: 'Render',
-  caramelize: 'Caramelize',
-  melt: 'Melt',
-  dissolve: 'Dissolve',
-  bloom: 'Bloom',
-  infuse: 'Infuse',
-  smoke: 'Smoke',
-  cure: 'Cure',
-  brine: 'Brine',
-  glaze: 'Glaze',
-  baste: 'Baste',
-  flip: 'Flip',
-  turn: 'Turn',
-  rotate: 'Rotate',
-  // Special
-  bring: 'Bring',
-  return: 'Return',
-  repeat: 'Repeat',
-  continue: 'Continue',
-  finish: 'Finish',
-  taste: 'Taste',
-  adjust: 'Adjust',
-  check: 'Check',
-  test: 'Test',
-  divide: 'Divide',
-  portion: 'Portion',
-  scoop: 'Scoop',
-  ladle: 'Ladle',
-  squeeze: 'Squeeze',
-  press: 'Press',
-  brush: 'Brush',
-  rub: 'Rub',
-  score: 'Score',
-  // Context starters
-  in: 'Prep',
-  using: 'Prep',
-  with: 'Prep',
-  on: 'Prep',
-  while: 'Meanwhile',
-  meanwhile: 'Meanwhile',
-  once: 'Finish',
-  when: 'Finish',
-  after: 'Finish',
-  if: 'Adjust',
-  for: 'Prep',
-};
+  const files = fs.readdirSync(recipesDir).filter(f => f.endsWith('.md'));
 
-function getHeaderWord(stepText) {
-  // Remove leading whitespace
-  const trimmed = stepText.trim();
-  // Get the first word (lowercase)
-  const firstWord = trimmed
-    .split(/[\s,]+/)[0]
-    .toLowerCase()
-    .replace(/[^a-z]/g, '');
+  for (const filename of files) {
+    const filepath = path.join(recipesDir, filename);
+    let content = fs.readFileSync(filepath, 'utf8');
 
-  if (VERB_MAP[firstWord]) {
-    return VERB_MAP[firstWord];
+    const directionsMatch = content.match(/^## Directions\n([\s\S]*?)(?:^## |\Z)/m);
+    if (directionsMatch === null) continue;
+
+    const directionsIndex = content.indexOf('## Directions\n');
+    const directionsEnd = content.indexOf('\n## ', directionsIndex + 1);
+    const endIndex = directionsEnd === -1 ? content.length : directionsEnd;
+    
+    let directionsText = content.slice(directionsIndex, endIndex);
+    const originalDirections = directionsText;
+    
+    const lines = directionsText.split('\n');
+    let modified = false;
+    
+    for (let i = 0; i < lines.length; i++) {
+      const line = lines[i];
+      
+      const numberMatch = line.match(/^(\d+\.\s+)(.+)$/);
+      if (numberMatch) {
+        const number = numberMatch[1];
+        const rest = numberMatch[2];
+        
+        if (rest.startsWith('**')) continue;
+        
+        const words = rest.split(/\s+/);
+        let boldPart = words[0];
+        
+        if (boldPart.endsWith(':')) {
+          boldPart = boldPart.slice(0, -1);
+          lines[i] = number + '**' + boldPart + ':** ' + words.slice(1).join(' ');
+        } else {
+          let wordCount = 1;
+          while (wordCount < 4 && wordCount < words.length && boldPart.length < 30) {
+            boldPart += ' ' + words[wordCount];
+            wordCount++;
+          }
+          const remainingWords = words.slice(wordCount).join(' ');
+          lines[i] = number + '**' + boldPart + ':** ' + remainingWords;
+        }
+        
+        modified = true;
+      }
+    }
+    
+    if (modified) {
+      directionsText = lines.join('\n');
+      content = content.slice(0, directionsIndex) + directionsText + content.slice(endIndex);
+      fixedCount++;
+      
+      const originalLine = originalDirections.split('\n').find(l => {
+        return l.match(/^\d+\.\s+/) && l.match(/^\d+\.\s+\*\*/) === null;
+      });
+      const fixedLine = directionsText.split('\n').find(l => l.match(/^\d+\.\s+\*\*/));
+      
+      fixes.push({
+        file: filename,
+        original: originalLine ? originalLine.substring(0, 75) : '',
+        fixed: fixedLine ? fixedLine.substring(0, 75) : ''
+      });
+      
+      if (DRY_RUN === false) {
+        fs.writeFileSync(filepath, content, 'utf8');
+      }
+    }
   }
 
-  // Fallback: capitalize the first word
-  return firstWord.charAt(0).toUpperCase() + firstWord.slice(1);
-}
-
-async function listMdFiles(dir) {
-  const entries = await fs.readdir(dir, { withFileTypes: true });
-  const files = [];
-  for (const entry of entries) {
-    const res = path.join(dir, entry.name);
-    if (entry.isDirectory()) files.push(...(await listMdFiles(res)));
-    else if (entry.isFile() && res.endsWith('.md')) files.push(res);
-  }
-  return files;
-}
-
-(async function main() {
-  const files = await listMdFiles(RECIPES_DIR);
-  let fixed = 0;
-  let skipped = 0;
-
-  for (const file of files) {
-    const raw = await fs.readFile(file, 'utf8');
-    const slug = path.basename(file, '.md');
-
-    // Find Directions section
-    const directionsMatch = raw.match(/(## Directions\s*\n)([\s\S]*?)(?=\n## |\n*$)/i);
-    if (!directionsMatch) {
-      continue;
-    }
-
-    const directionsContent = directionsMatch[2];
-
-    // Check if already has bold headers in majority of steps
-    const allSteps = directionsContent.match(/^\d+\.\s+/gm);
-    const boldSteps = directionsContent.match(/^\d+\.\s+\*\*/gm);
-
-    if (!allSteps || allSteps.length === 0) continue;
-
-    const boldRatio = (boldSteps ? boldSteps.length : 0) / allSteps.length;
-    if (boldRatio >= 0.5) {
-      // Already has bold headers on most steps
-      skipped++;
-      continue;
-    }
-
-    // Transform each numbered step
-    let newDirections = directionsContent;
-
-    // Match numbered steps: "1. Text here" or "1.  Text here"
-    newDirections = newDirections.replace(/^(\d+)\.\s+(?!\*\*)(.+)/gm, (match, num, text) => {
-      const header = getHeaderWord(text);
-      return `${num}. **${header}:** ${text.trim()}`;
+  console.log('\n' + '='.repeat(70));
+  console.log('BOLD HEADERS FIX REPORT' + (DRY_RUN ? ' (DRY RUN)' : ''));
+  console.log('='.repeat(70) + '\n');
+  console.log('Recipes fixed: ' + fixedCount);
+  
+  if (fixes.length > 0) {
+    console.log('\nFixed recipes:');
+    fixes.forEach(fix => {
+      console.log('\n  File: ' + fix.file);
+      console.log('  Before: ' + fix.original);
+      console.log('  After:  ' + fix.fixed);
     });
-
-    if (newDirections === directionsContent) {
-      continue;
-    }
-
-    // Replace in the full file
-    const newRaw = raw.replace(directionsContent, newDirections);
-    await fs.writeFile(file, newRaw);
-    fixed++;
   }
+  
+  if (DRY_RUN) {
+    console.log('\nRun without --dry-run to apply changes.');
+  } else {
+    console.log('\nChanges applied successfully.');
+  }
+  
+  console.log('\n' + '='.repeat(70) + '\n');
+}
 
-  console.log(`Fixed bold step headers: ${fixed} recipes`);
-  console.log(`Already had headers: ${skipped} recipes`);
-})();
+fixBoldHeaders();

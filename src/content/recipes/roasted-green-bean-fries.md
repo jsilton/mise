@@ -1,24 +1,42 @@
 ---
 title: Green Bean Fries
 difficulty: easy
-cookingMethods: [bake, roast, fry, boil, steam]
+cookingMethods:
+  - bake
+  - roast
+  - fry
+  - boil
+  - steam
 dietary: []
-occasions: [kids-approved]
-flavorProfile: [acidic, umami]
-cuisines: [American]
+occasions:
+  - kids-approved
+flavorProfile:
+  - acidic
+  - umami
+cuisines:
+  - American
 role: side
 vibe: quick
 prepTime: 5 min
 cookTime: 12 min
 totalTime: 17 min
 servings: '4'
-pairsWith: [chicken-fingers, chocolate-blended-oats-with-raspberry-chia-jam, classic-beef-stew]
+pairsWith:
+  - chicken-fingers
+  - chocolate-blended-oats-with-raspberry-chia-jam
+  - classic-beef-stew
 ingredients:
   - '1 lb Fresh Green Beans, trimmed'
-  - '1 tbsp Extra-Virgin Olive Oil'
-  - '1/2 tsp Garlic Powder'
-  - '1/2 tsp Salt'
-  - '1/4 cup Grated Parmesan or Panko (Optional crunch)'
+  - 1 tbsp Extra-Virgin Olive Oil
+  - 1/2 tsp Garlic Powder
+  - 1/2 tsp Salt
+  - 1/4 cup Grated Parmesan or Panko (Optional crunch)
+origin: United States
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: good
+equipment: []
 ---
 
 ## Chef's Note

@@ -1,22 +1,37 @@
 ---
 title: Chocolate Chip Zucchini Muffins
 difficulty: intermediate
-cookingMethods: [bake]
-dietary: [vegetarian]
-occasions: [kids-approved, meal-prep, weekend-project]
-seasons: [summer, fall]
+cookingMethods:
+  - bake
+dietary:
+  - vegetarian
+occasions:
+  - kids-approved
+  - meal-prep
+  - weekend-project
+seasons:
+  - summer
+  - fall
 nutritionalDensity: moderate
 leftovers: excellent
-equipment: [muffin-tin]
-flavorProfile: [sweet, umami, rich]
-cuisines: [American]
+equipment:
+  - muffin-tin
+flavorProfile:
+  - sweet
+  - umami
+  - rich
+cuisines:
+  - American
 role: main
 vibe: nutritious
 prepTime: 15 min
 cookTime: 16 min
 totalTime: 31 min
 servings: '12'
-pairsWith: [banana-oat-greek-yogurt-muffins, avocado-kale-caesar-salad, almond-zucchini-bread]
+pairsWith:
+  - banana-oat-greek-yogurt-muffins
+  - avocado-kale-caesar-salad
+  - almond-zucchini-bread
 ingredients:
   - 1 2/3 cups Buckwheat Flour (or Whole-Wheat)
   - 1/2 cup Chocolate Chips
@@ -30,12 +45,12 @@ ingredients:
   - 1 tsp Baking Soda
   - 1 tsp Ground Cinnamon
   - 1/2 tsp Sea Salt
+origin: United States
 ---
 
 ## Chef's Note
 
-This is a nutritious breakfast muffin. By using buckwheat flour, we get a nutty flavor that stands up to the richness of the chocolate. The secret to good texture is squeezing the shredded zucchini in a towel until it is bone-dry before adding it to the batter. This ensures the muffins stay tender and moist rather than turning into mushy pucks.
-
+Zucchini muffins sound like a vegetable sneak, but they're really a moisture strategy: grated zucchini releases water as it bakes, keeping the crumb tender without relying on extra oil or eggs. The chocolate chips are the actual appeal—cocoa butter and sugar carry the flavor. Don't overmix once you add zucchini or you'll crush the shreds and make the muffins dense.
 ## Directions
 
 1.  **Prep:** Preheat oven to 350°F. Grease a 12-cup muffin tin or use paper liners.

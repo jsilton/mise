@@ -1,11 +1,19 @@
 ---
 title: Baby’s First Smash Cake
 difficulty: easy
-cookingMethods: [bake, no-cook, blend]
-dietary: [vegetarian]
-occasions: [holiday]
-flavorProfile: [sweet, rich]
-cuisines: [American]
+cookingMethods:
+  - bake
+  - no-cook
+  - blend
+dietary:
+  - vegetarian
+occasions:
+  - holiday
+flavorProfile:
+  - sweet
+  - rich
+cuisines:
+  - American
 role: dessert
 vibe: holiday
 prepTime: 20 min
@@ -23,12 +31,22 @@ ingredients:
   - '8 oz Cream Cheese, softened'
   - 1/2 cup Apple Juice Concentrate (The sweetener)
   - 2 tsp Vanilla Extract
+origin: United States
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: good
+equipment: []
+pairsWith:
+  - apple-cider-cream-pie
+  - apple-pie
+  - best-cinnamon-roll-recipe-cinnabon-copycat
+  - best-homemade-brownies
 ---
 
 ## Chef's Note
 
-This recipe is designed for a baby's first birthday. It contains no refined sugar; we rely entirely on the natural fructose of over-ripe bananas and apple juice concentrate for sweetness. The key to a successful smash cake is the oat flour: it provides a soft, easy-to-smash texture that is safer and more digestible for toddlers than a heavy dense cake.
-
+This cake is designed for an 8-month-old to grab and taste, so it contains only familiar foods and no added sugar (bananas and applesauce do the sweetening). The whole wheat and oat flours provide nutrition and fiber, while the cream cheese frosting sweetened with apple juice concentrate is mild enough for a baby's palate. Small, stackable cakes make it easy for little hands to hold and explore.
 ## Directions
 
 1.  **Batter:** Mash bananas until smooth. Whisk in applesauce, coconut oil, and vanilla. Fold in the flours, baking soda, and cinnamon.

@@ -1,18 +1,35 @@
 ---
 title: Oreo Truffles
 difficulty: easy
-cookingMethods: [simmer, blend]
-dietary: [vegetarian]
-occasions: [holiday, entertaining, kids-approved, indulgent]
-seasons: [year-round]
+cookingMethods:
+  - simmer
+  - blend
+dietary:
+  - vegetarian
+occasions:
+  - holiday
+  - entertaining
+  - kids-approved
+  - indulgent
+seasons:
+  - year-round
 nutritionalDensity: hearty
 leftovers: excellent
-equipment: [food-processor, mixing-bowl, double-boiler]
-advancePrep: [make-ahead, freeze-ahead]
-flavorProfile: [sweet, acidic, rich]
-cuisines: [American]
+equipment:
+  - food-processor
+  - mixing-bowl
+  - double-boiler
+advancePrep:
+  - make-ahead
+  - freeze-ahead
+flavorProfile:
+  - sweet
+  - acidic
+  - rich
+cuisines:
+  - American
 role: dessert
-vibe: quick
+vibe: comfort
 prepTime: 20 min
 cookTime: 0 min
 totalTime: 80 min
@@ -23,6 +40,12 @@ ingredients:
   - '16 oz Semi-Sweet Baking Chocolate, melted'
   - Reserved Oreo Crumbs
   - Flaky Sea Salt (Optional)
+origin: United States
+pairsWith:
+  - apple-cider-cream-pie
+  - apple-pie
+  - blackout-chocolate-cake
+  - classic-peach-ice-cream
 ---
 
 ## Chef's Note

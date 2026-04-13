@@ -1,22 +1,37 @@
 ---
 title: Shrimp Vodka Pasta
 difficulty: easy
-cookingMethods: [roast, sauté, simmer, boil]
+cookingMethods:
+  - roast
+  - sauté
+  - simmer
+  - boil
 dietary: []
-occasions: [weeknight, date-night, comfort-food, entertaining]
-seasons: [year-round]
+occasions:
+  - weeknight
+  - date-night
+  - comfort-food
+  - entertaining
+seasons:
+  - year-round
 nutritionalDensity: hearty
 leftovers: poor
 equipment: []
-flavorProfile: [umami, rich, herbaceous]
-cuisines: [Italian]
+flavorProfile:
+  - umami
+  - rich
+  - herbaceous
+cuisines:
+  - Italian
 role: main
 vibe: quick
 prepTime: 20 min
 cookTime: 10 min
 totalTime: 30 min
 servings: '4'
-pairsWith: [garlic-bread, avocado-kale-caesar-salad]
+pairsWith:
+  - garlic-bread
+  - avocado-kale-caesar-salad
 ingredients:
   - 1 lb Rigatoni Pasta
   - '1 lb Shrimp, peeled and deveined'
@@ -27,6 +42,9 @@ ingredients:
   - '3 cloves Garlic, minced'
   - '1/2 cup Fresh Basil, chopped'
   - Extra-Virgin Olive Oil
+  - '--- Lemon juice ---'
+  - '1-2 Lemons, juiced'
+origin: Italy
 ---
 
 ## Chef's Note
@@ -42,3 +60,4 @@ Vodka sauce is a purely Italian-American invention from 1970s New York, with mul
 5.  **Combine:** Return the pasta, broccoli, and shrimp to the skillet. Stir in half the fresh basil.
 6.  **Toss:** Toss over medium heat for 1 minute until the sauce clings to the rigatoni.
 7.  **Serve:** Garnish with the remaining basil and a "High Note" pat of Parmesan.
+

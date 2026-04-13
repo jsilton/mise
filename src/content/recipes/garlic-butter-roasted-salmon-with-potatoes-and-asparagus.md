@@ -2,15 +2,27 @@
 title: Garlic Butter Salmon with Potatoes and Asparagus
 origin: USA
 difficulty: easy
-cookingMethods: [bake, roast]
+cookingMethods:
+  - bake
+  - roast
 dietary: []
-occasions: [weeknight, date-night, light-and-fresh]
-seasons: [spring, year-round]
+occasions:
+  - weeknight
+  - date-night
+  - light-and-fresh
+seasons:
+  - spring
+  - year-round
 nutritionalDensity: moderate
 leftovers: good
-equipment: [sheet-pan]
-flavorProfile: [acidic, rich, herbaceous]
-cuisines: [American]
+equipment:
+  - sheet-pan
+flavorProfile:
+  - acidic
+  - rich
+  - herbaceous
+cuisines:
+  - American
 role: main
 vibe: quick
 prepTime: 10 min
@@ -18,11 +30,9 @@ cookTime: 25 min
 totalTime: 35 min
 servings: '4'
 pairsWith:
-  [
-    garlicky-lemon-kale-with-carrots,
-    spaghetti-and-spinach-with-sun-dried-tomato-cream-sauce,
-    roasted-fall-harvest-salad,
-  ]
+  - garlicky-lemon-kale-with-carrots
+  - spaghetti-and-spinach-with-sun-dried-tomato-cream-sauce
+  - roasted-fall-harvest-salad
 ingredients:
   - '1 1/4 lbs Salmon Fillet, cut into 4 portions'
   - '1 lb Baby Yukon Gold Potatoes, halved'

@@ -1,29 +1,47 @@
 ---
 title: Garlic Mashed Red Potatoes
 difficulty: easy
-cookingMethods: [simmer, boil, steam]
+cookingMethods:
+  - simmer
+  - boil
+  - steam
 dietary: []
-occasions: [holiday, entertaining, comfort-food, weeknight]
-seasons: [year-round]
+occasions:
+  - holiday
+  - entertaining
+  - comfort-food
+  - weeknight
+seasons:
+  - year-round
 nutritionalDensity: hearty
 leftovers: good
-equipment: [large-pot]
-flavorProfile: [umami, rich]
-cuisines: [American]
+equipment:
+  - large-pot
+flavorProfile:
+  - umami
+  - rich
+cuisines:
+  - American
 role: side
 vibe: nutritious
 prepTime: 10 min
 cookTime: 20 min
 totalTime: 30 min
 servings: '6'
-pairsWith: [rosemary-pork-tenderloin, chicken-pot-pie-ix, creamy-whole-wheat-mac-and-cheese]
+pairsWith:
+  - rosemary-pork-tenderloin
+  - chicken-pot-pie-ix
+  - creamy-whole-wheat-mac-and-cheese
 ingredients:
   - '8 medium Red Potatoes, quartered (Skin-on)'
   - '3 large Garlic Cloves, peeled'
-  - '2 tbsp Unsalted Butter'
+  - 2 tbsp Unsalted Butter
   - '1/2 cup Whole Milk, warmed'
-  - '1/4 cup Freshly Grated Parmesan'
-  - 'Salt and Black Pepper'
+  - 1/4 cup Freshly Grated Parmesan
+  - Salt and Black Pepper
+  - '--- Lemon juice ---'
+  - '1 Lemon, juiced'
+origin: United States
 ---
 
 ## Chef's Note
@@ -38,3 +56,4 @@ Leaving red skins on provides texture and earthy flavor that peeled potatoes lac
 4.  **Mash:** Add the butter, salt, and pepper. Start mashing by hand (for a rustic texture).
 5.  **The Emulsion:** Gradually add the warmed milk and Parmesan. Continue mashing until the mixture is creamy but still has distinct "pops" of red skin.
 6.  **Serve:** Serve immediately with a crack of black pepper.
+

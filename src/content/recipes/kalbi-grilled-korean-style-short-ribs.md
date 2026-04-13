@@ -2,11 +2,18 @@
 title: Kalbi
 origin: Korea
 difficulty: intermediate
-cookingMethods: [grill]
+cookingMethods:
+  - grill
 dietary: []
-occasions: [entertaining, weekend-project]
-flavorProfile: [sweet, savory, umami]
-cuisines: [Korean]
+occasions:
+  - entertaining
+  - weekend-project
+flavorProfile:
+  - sweet
+  - savory
+  - umami
+cuisines:
+  - Korean
 role: main
 vibe: technical
 prepTime: 60 min
@@ -14,7 +21,9 @@ cookTime: 15 min
 totalTime: 600 min
 servings: '6'
 pairsWith:
-  [korean-pickled-cucumbers, seasoned-bean-sprouts, fresh-cabbage-cucumber-and-radish-kimchi]
+  - korean-pickled-cucumbers
+  - seasoned-bean-sprouts
+  - fresh-cabbage-cucumber-and-radish-kimchi
 ingredients:
   - 5 lbs Flanken-style Beef Short Ribs (1/2-inch thick)
   - 1/3 cup Sake
@@ -26,6 +35,13 @@ ingredients:
   - '7 cloves Garlic, minced'
   - 1/4 tsp Black Pepper
   - 2 tbsp Vegetable Oil
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: good
+advancePrep:
+  - marinate-overnight
+equipment: []
 ---
 
 ## Chef's Note
@@ -42,3 +58,5 @@ Kalbi is Korean barbecue short ribs. The secret to tender meat with crisp edges 
 6.  **The Sear:** Light a charcoal grill to high heat. Place ribs directly over the hottest coals. Grill for 2 minutes per side until seared and charred.
 7.  **Finish:** Move to the cooler side of the grill for 5 minutes until the fat is rendered and "Snappy."
 8.  **Serve:** Use kitchen shears to cut the ribs into bite-sized pieces.
+
+**Rest:** Let style Beef rest for 5 minutes before slicing or serving — the juices redistribute and every piece stays moist.

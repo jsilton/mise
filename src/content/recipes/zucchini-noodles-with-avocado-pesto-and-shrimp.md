@@ -1,15 +1,30 @@
 ---
 title: Zucchini Noodles with Avocado & Shrimp
 difficulty: easy
-cookingMethods: [roast, sauté, blend]
+cookingMethods:
+  - roast
+  - sauté
+  - blend
 dietary: []
-occasions: [quick-lunch, light-and-fresh, post-workout, summer]
-seasons: [summer]
+occasions:
+  - quick-lunch
+  - light-and-fresh
+  - post-workout
+  - summer
+seasons:
+  - summer
 nutritionalDensity: light
 leftovers: poor
-equipment: [blender, spiralizer]
-flavorProfile: [sweet, savory, acidic, herbaceous]
-cuisines: [Italian]
+equipment:
+  - blender
+  - spiralizer
+flavorProfile:
+  - sweet
+  - savory
+  - acidic
+  - herbaceous
+cuisines:
+  - Italian
 role: main
 vibe: quick
 prepTime: 15 min
@@ -17,7 +32,9 @@ cookTime: 10 min
 totalTime: 25 min
 servings: '4'
 pairsWith:
-  [roasted-broccolini-with-lemon, san-marzano-tomato-sauce, charred-asparagus-with-parmesan]
+  - roasted-broccolini-with-lemon
+  - san-marzano-tomato-sauce
+  - charred-asparagus-with-parmesan
 ingredients:
   - '5 medium Zucchini, spiralized'
   - '1 lb Shrimp, peeled and deveined'
@@ -28,6 +45,7 @@ ingredients:
   - '3 cloves Garlic, minced'
   - 1 tsp Old Bay Seasoning (The Finishing Touch)
   - 1/4 cup Extra-Virgin Olive Oil
+origin: Italy
 ---
 
 ## Chef's Note

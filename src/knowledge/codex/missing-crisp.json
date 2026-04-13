@@ -4,8 +4,18 @@
   "category": "Texture",
   "severity": "hint",
   "description": "If a recipe is dominated by soft/creamy textures, suggest a crisp element (toasted nuts, crispy shallots, breadcrumbs, quick-fried herbs).",
-  "appliesToTags": ["soup", "stew", "casserole", "pudding", "porridge"],
+  "appliesToTags": ["soup", "stew"],
   "detection": [
+    {
+      "type": "method_presence",
+      "words": ["soup", "stew", "puree"],
+      "optional": false
+    },
+    {
+      "type": "ingredient_presence",
+      "words": ["cream", "milk", "butter", "coconut milk", "pureed", "blended"],
+      "optional": false
+    },
     {
       "type": "ingredient_absence",
       "words": [
@@ -18,9 +28,9 @@
         "nuts",
         "crisps",
         "crunch"
-      ]
-    },
-    { "type": "method_presence", "words": ["stew", "soup", "puree", "porridge", "pudding"] }
+      ],
+      "optional": false
+    }
   ],
   "suggestionTemplate": "Add a crunchy finishing element (toasted nuts, fried shallots, or a breadcrumb crunch) to provide texture contrast.",
   "examples": [

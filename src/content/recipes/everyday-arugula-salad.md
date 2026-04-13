@@ -2,36 +2,53 @@
 title: Everyday Arugula Salad
 difficulty: easy
 origin: Italy
-cookingMethods: [no-cook]
-dietary: [vegetarian, gluten-free, nut-free]
-occasions: [weeknight, light-and-fresh, quick-lunch]
-flavorProfile: [acidic, umami, rich]
-cuisines: [Mediterranean]
+cookingMethods:
+  - no-cook
+dietary:
+  - vegetarian
+  - gluten-free
+  - nut-free
+occasions:
+  - weeknight
+  - light-and-fresh
+  - quick-lunch
+flavorProfile:
+  - acidic
+  - umami
+  - rich
+cuisines:
+  - Mediterranean
 role: side
 vibe: quick
-seasons: [spring, summer, fall, winter]
+seasons:
+  - spring
+  - summer
+  - fall
+  - winter
 nutritionalDensity: light
 leftovers: poor
 advancePrep: []
-equipment: [mixing-bowl]
-pairsWith: [vietnamese-grilled-chicken, miso-salmon-with-bok-choy]
+equipment:
+  - mixing-bowl
+pairsWith:
+  - vietnamese-grilled-chicken
+  - miso-salmon-with-bok-choy
 prepTime: 5 min
 cookTime: 0 min
 totalTime: 5 min
 servings: '4'
 ingredients:
-  - '5 oz Baby Arugula (1 container)'
-  - '2 tbsp Extra-Virgin Olive Oil'
-  - '1 tbsp Fresh Lemon Juice (The Acid Balance)'
+  - 5 oz Baby Arugula (1 container)
+  - 2 tbsp Extra-Virgin Olive Oil
+  - 1 tbsp Fresh Lemon Juice (The Acid Balance)
   - '1/3 cup Parmesan, shaved with a peeler'
-  - 'Flaky Sea Salt (Maldon)'
-  - 'Freshly Cracked Black Pepper'
+  - Flaky Sea Salt (Maldon)
+  - Freshly Cracked Black Pepper
 ---
 
 ## Chef's Note
 
-This is a simple, versatile side salad. The secret to avoiding a wilted, soggy salad is proper dressing technique: never pour oil and lemon directly onto the leaves. Instead, drizzle them around the inner rim of the bowl and toss from the bottom up. This ensures a thin, even coating that keeps the greens crisp and peppery. The lemon adds essential brightness that cuts through any rich main course.
-
+Arugula's peppery bite is distinctly Italian—it comes from wild greens that were foraged before they were farmed. The key to a good arugula salad is heat balance: don't over-dress it or the leaves wilt and turn bitter. A light hand with vinaigrette lets the peppery flavor and tender leaves be the main event.
 ## Directions
 
 1.  **Prep:** Place the baby arugula in a large, wide wooden or ceramic bowl.

@@ -1,11 +1,19 @@
 ---
 title: Hot Mulled Apple Cider
 difficulty: easy
-cookingMethods: [simmer, boil, slow-cook]
-dietary: [vegetarian]
-occasions: [holiday]
-flavorProfile: [sweet, acidic]
-cuisines: [American]
+cookingMethods:
+  - simmer
+  - boil
+  - slow-cook
+dietary:
+  - vegetarian
+occasions:
+  - holiday
+flavorProfile:
+  - sweet
+  - acidic
+cuisines:
+  - American
 role: drink
 vibe: holiday
 prepTime: 5 min
@@ -22,6 +30,17 @@ ingredients:
   - 1/4 tsp Sea Salt (The complex flavor)
   - '1 Orange, sliced into wedges'
   - 8 Whole Cloves (for studding)
+origin: United States
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: excellent
+equipment: []
+pairsWith:
+  - avocado-kale-caesar-salad
+  - beef-tenderloin-dogs-with-corn-relish
+  - brownie-baked-oatmeal
+  - chicken-apple-and-butternut-stew
 ---
 
 ## Chef's Note
@@ -30,7 +49,7 @@ Never let mulled cider reach a rolling boil once spices are added—high heat tu
 
 ## Directions
 
-1.  **Combine:** In a large heavy-bottomed saucepan, combine the apple cider, brown sugar, allspice, 1 tsp cloves, salt, nutmeg, and cinnamon sticks.
+1.  **Combine:** In a large heavy-bottomed saucepan, combine the apple cider, brown high heat (400-450°F) sugar, allspice, 1 tsp cloves, salt, nutmeg, and cinnamon sticks.
 2.  **Heat:** Bring the mixture just to a boil over medium-high heat, stirring until the sugar dissolves.
 3.  **Infuse:** Immediately reduce heat to low. Cover and simmer for 20 minutes. **Do not let it reach a rolling boil.**
 4.  **Strain:** Pour the cider through a fine-mesh sieve into a clean pot or slow cooker to remove the whole spices.

@@ -1,17 +1,33 @@
 ---
 title: Strawberry Orange Jello Salad
 difficulty: intermediate
-cookingMethods: [roast, boil]
-dietary: [vegetarian]
-occasions: [holiday, entertaining, make-ahead]
-flavorProfile: [sweet, acidic, rich]
-cuisines: [Southern]
+cookingMethods:
+  - roast
+  - boil
+dietary:
+  - vegetarian
+occasions:
+  - holiday
+  - entertaining
+  - make-ahead
+flavorProfile:
+  - sweet
+  - acidic
+  - rich
+cuisines:
+  - Southern
 role: side
 vibe: nutritious
-season: [spring, summer]
+season:
+  - spring
+  - summer
 leftovers: excellent
 healthiness: moderate
-pairsWith: [simple-roast-turkey, buttermilk-baked-chicken]
+advancePrep:
+  - chill-to-set
+pairsWith:
+  - simple-roast-turkey
+  - buttermilk-baked-chicken
 prepTime: 15 min
 cookTime: 0 min
 totalTime: 240 min
@@ -24,12 +40,16 @@ ingredients:
   - 1 pint Sour Cream (for richness)
   - 1 cup Boiling Water
   - '1/2 cup Pecans, chopped (Optional)'
+origin: United States
+seasons:
+  - year-round
+nutritionalDensity: moderate
+equipment: []
 ---
 
 ## Chef's Note
 
-This is an improved take on the definitive family gathering side. The secret is layering the sour cream: instead of mixing everything together, we set half the fruit-jello mixture, spread a thick layer of sour cream, and then top with the remaining jello. This creates distinct layers with contrasting textures and tangy richness that cuts through the sweet fruit. We use mashed bananas as a structural binder, providing a dense, velvety consistency that standard gelatin lacks.
-
+Congealed salads are a Southern tradition—aspic-based dishes that served as both side dish and dessert at mid-century dinners. Despite their reputation, they work because the gelatin provides a light texture that carries fruit and nuts without heaviness. The trick is chilling just until set but not rock-hard, so each spoonful has a slight wobble.
 ## Directions
 
 1.  **Dissolve:** In a large bowl, whisk the Jello into the boiling water until no crystals remain.

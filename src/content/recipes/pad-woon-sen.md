@@ -1,18 +1,29 @@
 ---
 title: Pad Woon Sen
 difficulty: intermediate
-cookingMethods: [sauté, boil]
+cookingMethods:
+  - sauté
+  - boil
 dietary: []
-occasions: [weeknight, meal-prep]
-flavorProfile: [sweet, savory, umami]
-cuisines: [Thai]
+occasions:
+  - weeknight
+  - meal-prep
+flavorProfile:
+  - sweet
+  - savory
+  - umami
+cuisines:
+  - Thai
 role: main
 vibe: nutritious
 prepTime: 15 min
 cookTime: 15 min
 totalTime: 30 min
 servings: '4'
-pairsWith: [coconut-jasmine-rice, quick-pickled-carrots-and-daikon, charred-broccoli-with-garlic]
+pairsWith:
+  - coconut-jasmine-rice
+  - quick-pickled-carrots-and-daikon
+  - charred-broccoli-with-garlic
 ingredients:
   - 6.3 oz Dried Mung Bean Glass Noodles
   - 3 tbsp Oyster Sauce
@@ -28,6 +39,12 @@ ingredients:
   - '1 Thai Bird Chile, sliced'
   - '4 Scallions, sliced'
   - Grapeseed Oil
+origin: Thailand
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: good
+equipment: []
 ---
 
 ## Chef's Note

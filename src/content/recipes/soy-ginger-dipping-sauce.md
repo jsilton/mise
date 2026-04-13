@@ -1,36 +1,55 @@
 ---
 title: Soy Ginger Dipping Sauce
 difficulty: easy
-cookingMethods: [raw, mix]
-dietary: [vegetarian, vegan]
-occasions: [condiment, appetizer]
-flavorProfile: [savory, umami, acidic, aromatic]
-cuisines: [Chinese, Japanese, Asian-Fusion]
+cookingMethods:
+  - raw
+  - mix
+dietary:
+  - vegetarian
+  - vegan
+occasions:
+  - condiment
+  - appetizer
+flavorProfile:
+  - savory
+  - umami
+  - acidic
+  - aromatic
+cuisines:
+  - Chinese
+  - Japanese
+  - Asian-Fusion
 role: condiment
 vibe: quick
 prepTime: 5 min
 cookTime: 0 min
 totalTime: 5 min
 servings: '8'
-seasons: [year-round]
+seasons:
+  - year-round
 nutritionalDensity: light
 leftovers: excellent
 equipment: []
-pairsWith: [har-gow-dim-sum-shrimp-dumplings, cantonese-shumai-siu-mai, boston-style-peking-ravioli]
+pairsWith:
+  - har-gow-dim-sum-shrimp-dumplings
+  - cantonese-shumai-siu-mai
+  - boston-style-peking-ravioli
 ingredients:
   - 1/4 cup Soy Sauce (regular or low-sodium)
   - 2 tbsp Rice Vinegar
   - 1 tbsp Sesame Oil
-  - 1 tbsp Fresh Ginger, finely grated
-  - 2 cloves Garlic, minced
-  - 1 Green Onion, thinly sliced
+  - '1 tbsp Fresh Ginger, finely grated'
+  - '2 cloves Garlic, minced'
+  - '1 Green Onion, thinly sliced'
   - 1 tsp Sugar
   - 1/2 tsp Chili Garlic Sauce or Sriracha (optional)
+origin: China
 ---
 
 ## Chef's Note
 
 This is the dipping sauce you get at dim sum restaurants—salty, tangy, and aromatic with fresh ginger. The key is using freshly grated ginger (not jarred) and letting the sauce sit for at least 10 minutes so the flavors bloom. The ratio of soy to vinegar to sesame oil is 4:2:1—easy to scale up for a crowd.
+For kids, serve the heat on the side or reduce/omit the spicy elements.
 
 ## Directions
 

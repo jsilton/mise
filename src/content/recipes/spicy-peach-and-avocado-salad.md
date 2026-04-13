@@ -1,15 +1,28 @@
 ---
 title: Peach and Avocado Salad
 difficulty: intermediate
-cookingMethods: [roast, grill]
+cookingMethods:
+  - roast
+  - grill
 dietary: []
-occasions: [entertaining, light-and-fresh, summer]
-seasons: [summer]
+occasions:
+  - entertaining
+  - light-and-fresh
+  - summer
+seasons:
+  - summer
 nutritionalDensity: light
 leftovers: poor
-equipment: [mixing-bowl]
-flavorProfile: [spicy, sweet, acidic, rich, herbaceous]
-cuisines: [American]
+equipment:
+  - mixing-bowl
+flavorProfile:
+  - spicy
+  - sweet
+  - acidic
+  - rich
+  - herbaceous
+cuisines:
+  - American
 role: side
 vibe: nutritious
 prepTime: 15 min
@@ -17,11 +30,9 @@ cookTime: 0 min
 totalTime: 30 min
 servings: '8'
 pairsWith:
-  [
-    seared-scallops-with-a-corn-bacon-and-avocado-relish,
-    herb-marinated-pork-tenderloins,
-    one-pan-citrus-beets-roasted-chicken,
-  ]
+  - seared-scallops-with-a-corn-bacon-and-avocado-relish
+  - herb-marinated-pork-tenderloins
+  - one-pan-citrus-beets-roasted-chicken
 ingredients:
   - '3 ripe but firm Peaches, cut into wedges'
   - '2 large Avocados, cut into wedges'
@@ -33,6 +44,7 @@ ingredients:
   - '1/4 cup Roasted Pistachios, chopped'
   - 1/2 cup Fresh Mint leaves
   - Salt and Black Pepper
+origin: United States
 ---
 
 ## Chef's Note

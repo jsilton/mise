@@ -1,22 +1,39 @@
 ---
 title: Strozzapreti with Preserved Lemon & Spinach
 difficulty: easy
-cookingMethods: [roast, fry, sauté, boil]
-dietary: [vegetarian]
-occasions: [weeknight, quick-lunch, light-and-fresh]
-flavorProfile: [savory, acidic, rich]
-cuisines: [Italian]
+cookingMethods:
+  - roast
+  - fry
+  - sauté
+  - boil
+dietary:
+  - vegetarian
+occasions:
+  - weeknight
+  - quick-lunch
+  - light-and-fresh
+flavorProfile:
+  - savory
+  - acidic
+  - rich
+cuisines:
+  - Italian
 role: main
 vibe: nutritious
 prepTime: 10 min
 cookTime: 10 min
 totalTime: 20 min
 servings: '4'
-seasons: [spring, summer, year-round]
+seasons:
+  - spring
+  - summer
+  - year-round
 nutritionalDensity: moderate
 leftovers: good
 equipment: []
-pairsWith: [vietnamese-grilled-chicken, roasted-root-vegetables]
+pairsWith:
+  - vietnamese-grilled-chicken
+  - roasted-root-vegetables
 ingredients:
   - 12 oz Fresh Strozzapreti (or Cavatappi)
   - 1 stick (8 tbsp) Unsalted Butter
@@ -27,6 +44,7 @@ ingredients:
   - '1 clove Garlic, crushed'
   - 1/2 tsp Red Pepper Flakes
   - 1 tsp Lemon Zest
+origin: Italy
 ---
 
 ## Chef's Note
@@ -35,9 +53,10 @@ Strozzapreti ("priest stranglers") is a hand-rolled pasta shape from Emilia-Roma
 
 ## Directions
 
-1.  **The Crunch:** In a large skillet, melt 2 tbsp butter with 2 tbsp olive oil. Sauté garlic and red pepper flakes for 1 minute. Add panko and cook until mahogany brown (2 mins). Stir in lemon zest. Remove to a plate.
+1.  **The Crunch:** In a large skillet, melt 2 tbsp butter with 2 tbsp olive oil. Sauté garlic and red pepper flakes for 1 minute. Add panko and cook until golden brown and softened mahogany brown (2 mins). Stir in lemon zest. Remove to a plate.
 2.  **Boil:** Cook pasta in a massive pot of salted water until **very al dente** (5 mins for fresh). Drain.
 3.  **Brown Butter:** In the same skillet, melt remaining 6 tbsp butter. Whisk over medium for 3 minutes until foamy and dark brown.
 4.  **The Wilt:** Add half of the spinach to the butter. Toss for 1 minute until collapsed.
 5.  **Bind:** Add the hot pasta, lemon juice, and preserved lemon. Toss vigorously. Add the remaining spinach and toss for 30 seconds.
 6.  **Serve:** Divide into bowls. Top with a massive pile of the reserved garlic-lemon panko for the final **High Note**.
+

@@ -2,17 +2,31 @@
 title: Esquites
 origin: Mexico
 difficulty: easy
-cookingMethods: [grill, boil]
+cookingMethods:
+  - grill
+  - boil
 dietary: []
-occasions: [weeknight, entertaining, light-and-fresh]
-flavorProfile: [spicy, sweet, acidic, rich]
-cuisines: [Mexican]
+occasions:
+  - weeknight
+  - entertaining
+  - light-and-fresh
+flavorProfile:
+  - spicy
+  - sweet
+  - acidic
+  - rich
+cuisines:
+  - Mexican
 role: side
 vibe: quick
-season: [summer]
+season:
+  - summer
 leftovers: good
 healthiness: moderate
-pairsWith: [vietnamese-grilled-chicken, marinated-korean-ribeye, tacos]
+pairsWith:
+  - vietnamese-grilled-chicken
+  - marinated-korean-ribeye
+  - tacos
 prepTime: 10 min
 cookTime: 10 min
 totalTime: 20 min
@@ -27,11 +41,16 @@ ingredients:
   - '1/2 cup Fresh Cilantro, chopped'
   - '1 Fresh Lime, juiced'
   - '2 Green Onions, sliced'
+seasons:
+  - year-round
+nutritionalDensity: moderate
+equipment: []
 ---
 
 ## Chef's Note
 
 Esquites is a Mexican street food where corn kernels are charred or grilled until deeply caramelized, then tossed with lime, mayo, cotija cheese, and chili powder. Searing the kernels in a hot pan until they develop dark, charred spots creates nutty sweetness that balances the creamy dressing and sharp lime.
+For kids, serve the heat on the side or reduce/omit the spicy elements.
 
 ## Directions
 

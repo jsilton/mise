@@ -2,18 +2,31 @@
 title: Enchiladas Suizas
 origin: Mexico
 difficulty: easy
-cookingMethods: [bake, roast, fry, poach, no-cook, blend]
+cookingMethods:
+  - bake
+  - roast
+  - fry
+  - poach
+  - no-cook
+  - blend
 dietary: []
-occasions: [comfort-food]
-flavorProfile: [spicy, rich]
-cuisines: [Mexican]
+occasions:
+  - comfort-food
+flavorProfile:
+  - spicy
+  - rich
+cuisines:
+  - Mexican
 role: main
 vibe: comfort
 prepTime: 20 min
 cookTime: 25 min
 totalTime: 45 min
 servings: '6'
-pairsWith: [queso-fundido-with-chorizo, mexican-street-corn-salad, roasted-sweet-potatoes]
+pairsWith:
+  - queso-fundido-with-chorizo
+  - mexican-street-corn-salad
+  - roasted-sweet-potatoes
 ingredients:
   - 1 lb Shredded Chicken (Poached or Rotisserie)
   - 12 Corn Tortillas
@@ -25,11 +38,17 @@ ingredients:
   - 1/2 cup Fresh Cilantro
   - '8 oz Monterey Jack or Chihuahua Cheese, shredded'
   - Pickled Red Onions (for garnish)
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: good
+equipment: []
 ---
 
 ## Chef's Note
 
 Enchiladas Suizas (Swiss-style) refers to the generous use of cream and cheese, a style that originated in Mexico City in the 1950s. The dish balances tart, roasted tomatillos with rich heavy cream. Briefly frying tortillas in oil for 10 seconds before filling creates a protective layer that prevents them from dissolving under the wet sauce.
+For kids, serve the heat on the side or reduce/omit the spicy elements.
 
 ## Directions
 

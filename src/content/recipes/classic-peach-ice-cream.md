@@ -1,16 +1,31 @@
 ---
 title: Classic Peach Ice Cream
 difficulty: intermediate
-cookingMethods: [simmer, boil]
-dietary: [vegetarian]
-occasions: [entertaining, summer, indulgent]
-seasons: [summer]
+cookingMethods:
+  - simmer
+  - boil
+dietary:
+  - vegetarian
+occasions:
+  - entertaining
+  - summer
+  - indulgent
+seasons:
+  - summer
 nutritionalDensity: hearty
 leftovers: excellent
-equipment: [ice-cream-maker, double-boiler]
-advancePrep: [make-ahead]
-flavorProfile: [sweet, acidic, rich]
-cuisines: [American]
+equipment:
+  - ice-cream-maker
+  - double-boiler
+advancePrep:
+  - make-ahead
+  - freeze
+flavorProfile:
+  - sweet
+  - acidic
+  - rich
+cuisines:
+  - American
 role: dessert
 vibe: nutritious
 prepTime: 20 min
@@ -19,12 +34,18 @@ totalTime: 240 min
 servings: '8'
 ingredients:
   - '1 pint Ripe Peaches, chopped (skin-on)'
-  - '1 1/2 cups Whole Milk'
-  - '1 1/4 cups Heavy Cream'
-  - '1 1/4 cups Granulated Sugar (divided)'
-  - '2 large Eggs + 2 large Egg Yolks'
+  - 1 1/2 cups Whole Milk
+  - 1 1/4 cups Heavy Cream
+  - 1 1/4 cups Granulated Sugar (divided)
+  - 2 large Eggs + 2 large Egg Yolks
   - '1/2 Lemon, juiced (The Acid Balance)'
-  - 'Pinch of Sea Salt'
+  - Pinch of Sea Salt
+origin: United States
+pairsWith:
+  - apple-cider-cream-pie
+  - apple-pie
+  - blackout-chocolate-cake
+  - cranberry-crunch
 ---
 
 ## Chef's Note

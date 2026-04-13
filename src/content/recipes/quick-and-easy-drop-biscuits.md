@@ -1,18 +1,29 @@
 ---
 title: Drop Biscuits
 difficulty: easy
-cookingMethods: [bake, steam, blend]
+cookingMethods:
+  - bake
+  - steam
+  - blend
 dietary: []
-occasions: [weeknight, quick-lunch]
-flavorProfile: [spicy, sweet, rich]
-cuisines: [Southern]
+occasions:
+  - weeknight
+  - quick-lunch
+flavorProfile:
+  - spicy
+  - sweet
+  - rich
+cuisines:
+  - Southern
 role: main
 vibe: quick
 prepTime: 10 min
 cookTime: 15 min
 totalTime: 25 min
 servings: 12 small biscuits
-pairsWith: [cornbread, corn-casserole]
+pairsWith:
+  - cornbread
+  - corn-casserole
 ingredients:
   - 1 1/2 cups All-Purpose Flour
   - '4 oz (1 stick) Unsalted Butter, cold and cubed'
@@ -20,6 +31,12 @@ ingredients:
   - 2 tsp Baking Powder
   - 1 tsp Sea Salt
   - 1/4 tsp Garlic Powder (Optional)
+origin: United States
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: good
+equipment: []
 ---
 
 ## Chef's Note
@@ -35,3 +52,4 @@ Drop biscuits are a Southern staple for quick weeknight meals—they skip the ro
 5.  **Drop:** Using a large spoon or cookie scoop, drop walnut-sized mounds onto the pan. Do not smooth the tops—the "nooks and crannies" are essential for the final "Snap."
 6.  **Bake:** Bake for 15-18 minutes until the tops are golden brown and the bottoms are crispy.
 7.  **Serve:** Serve warm with plenty of salted butter and honey.
+

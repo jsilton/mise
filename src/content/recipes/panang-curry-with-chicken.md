@@ -1,18 +1,30 @@
 ---
 title: Panang Curry with Chicken
 difficulty: easy
-cookingMethods: [fry, simmer, poach]
-dietary: [nut-free]
-occasions: [weeknight, comfort-food]
-flavorProfile: [sweet, rich]
-cuisines: [Thai]
+cookingMethods:
+  - fry
+  - simmer
+  - poach
+dietary:
+  - nut-free
+occasions:
+  - weeknight
+  - comfort-food
+flavorProfile:
+  - sweet
+  - rich
+cuisines:
+  - Thai
 role: main
 vibe: nutritious
 prepTime: 15 min
 cookTime: 20 min
 totalTime: 35 min
 servings: '4'
-pairsWith: [coconut-jasmine-rice, quick-pickled-carrots-and-daikon, cinnamon-sweet-potatoes]
+pairsWith:
+  - coconut-jasmine-rice
+  - quick-pickled-carrots-and-daikon
+  - cinnamon-sweet-potatoes
 ingredients:
   - '1 lb Chicken Thighs, thinly sliced'
   - 1 can (14 oz) Full-Fat Coconut Milk (Do not shake)
@@ -23,6 +35,12 @@ ingredients:
   - '1 Red Bell Pepper, sliced'
   - Handful of Thai Basil
   - Crushed Toasted Peanuts or Sunflower Seeds (Nut-Free option)
+origin: Thailand
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: good
+equipment: []
 ---
 
 ## Chef's Note

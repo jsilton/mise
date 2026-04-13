@@ -8,7 +8,7 @@ The version-controlled culinary standard for the Master Kitchen.
 
 ### What is Mise?
 
-A searchable, filterable recipe repository with 474+ family recipes organized by:
+A searchable, filterable recipe repository with 550+ family recipes organized by:
 
 - **Cuisine** (Italian, Thai, Chinese, American, Mediterranean, etc.)
 - **Difficulty** (Easy, Intermediate, Advanced)
@@ -92,7 +92,7 @@ src/
 │   ├── TagBadge.astro
 │   └── TagSection.astro
 ├── content/
-│   └── recipes/         # 474+ recipes in Markdown
+│   └── recipes/         # 550+ recipes in Markdown
 ├── layouts/
 │   └── Layout.astro     # Base page layout
 ├── pages/

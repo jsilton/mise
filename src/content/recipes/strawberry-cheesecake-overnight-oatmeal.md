@@ -1,16 +1,30 @@
 ---
 title: Strawberry Cheesecake Overnight Oats
 difficulty: easy
-cookingMethods: []
-dietary: [vegetarian]
-occasions: [meal-prep, post-workout, indulgent]
-seasons: [spring, summer]
+cookingMethods:
+  - no-cook
+dietary:
+  - vegetarian
+occasions:
+  - meal-prep
+  - post-workout
+  - indulgent
+seasons:
+  - spring
+  - summer
 nutritionalDensity: moderate
 leftovers: excellent
-equipment: [mason-jar]
-advancePrep: [make-ahead]
-flavorProfile: [sweet, acidic, rich]
-cuisines: [American]
+equipment:
+  - mason-jar
+advancePrep:
+  - make-ahead
+  - overnight-soak
+flavorProfile:
+  - sweet
+  - acidic
+  - rich
+cuisines:
+  - American
 role: dessert
 vibe: technical
 prepTime: 10 min
@@ -27,6 +41,12 @@ ingredients:
   - '1/2 Lemon, zested and juiced (The Acid Balance)'
   - 1/2 tsp Pure Vanilla Extract
   - 1 tbsp Maple Syrup
+origin: United States
+pairsWith:
+  - apple-cider-cream-pie
+  - apple-pie
+  - blackout-chocolate-cake
+  - classic-peach-ice-cream
 ---
 
 ## Chef's Note

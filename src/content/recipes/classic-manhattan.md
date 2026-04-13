@@ -1,21 +1,34 @@
 ---
-title: 'Classic Manhattan'
-prepTime: '5 minutes'
-cookTime: '0 minutes'
-totalTime: '5 minutes'
-servings: '1 cocktail'
-difficulty: 'easy'
-cuisines: ['American']
+title: Classic Manhattan
+prepTime: 5 min
+cookTime: 0 min
+totalTime: 5 min
+servings: 1 cocktail
+role: drink
+difficulty: easy
+cuisines:
+  - American
 dietary: []
-occasions: ['entertaining', 'date-night', 'indulgent']
-seasons: ['year-round']
-flavorProfile: ['rich', 'sweet', 'savory']
-nutritionalDensity: 'light'
-leftovers: 'poor'
-equipment: ['mixing-glass', 'strainer']
-cookingMethods: ['no-cook']
+occasions:
+  - entertaining
+  - date-night
+  - indulgent
+seasons:
+  - year-round
+flavorProfile:
+  - rich
+  - sweet
+  - savory
+nutritionalDensity: light
+leftovers: poor
+equipment:
+  - mixing-glass
+  - strainer
+cookingMethods:
+  - no-cook
 advancePrep: []
-pairsWith: [marinated-korean-ribeye]
+pairsWith:
+  - marinated-korean-ribeye
 ingredients:
   - 2 oz rye whiskey (or bourbon for a sweeter Manhattan)
   - 1 oz sweet vermouth
@@ -23,19 +36,20 @@ ingredients:
   - Ice for stirring
   - Maraschino cherry for garnish
   - Orange peel (optional)
+origin: United States
 ---
 
 ## Directions
 
-1. Add the whiskey, sweet vermouth, and bitters to a mixing glass filled with ice.
+1. **Add the whiskey, sweet:** vermouth, and bitters to a mixing glass filled with ice.
 
-2. Stir well for 20-30 seconds until properly chilled and diluted.
+2. **Stir well for 20-30:** seconds until properly chilled and diluted.
 
-3. Strain into a chilled coupe or cocktail glass.
+3. **Strain into a chilled:** coupe or cocktail glass.
 
-4. Garnish with a maraschino cherry and optionally express an orange peel over the drink.
+4. **Garnish with a maraschino:** cherry and optionally express an orange peel over the drink.
 
-5. Serve immediately.
+5. **Serve immediately.:** 
 
 ## Chef's Note
 

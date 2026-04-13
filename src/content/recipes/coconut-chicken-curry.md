@@ -1,18 +1,28 @@
 ---
 title: Coconut Chicken Curry
 difficulty: easy
-cookingMethods: [slow-cook, no-cook]
+cookingMethods:
+  - slow-cook
+  - no-cook
 dietary: []
-occasions: [comfort-food]
-flavorProfile: [acidic, umami, rich]
-cuisines: [Thai]
+occasions:
+  - comfort-food
+flavorProfile:
+  - acidic
+  - umami
+  - rich
+cuisines:
+  - Thai
 role: main
 vibe: comfort
 prepTime: 20 min
-cookTime: 4 hours
-totalTime: 4.5 hours
+cookTime: 4 hr
+totalTime: 4.5 hr
 servings: '4'
-pairsWith: [roasted-sweet-potatoes, cucumber-raita, coconut-jasmine-rice]
+pairsWith:
+  - roasted-sweet-potatoes
+  - cucumber-raita
+  - coconut-jasmine-rice
 ingredients:
   - '1 lb Chicken Breast or Thighs, cubed'
   - '1 medium Yellow Onion, diced'
@@ -28,6 +38,12 @@ ingredients:
   - '1 cup Brown Rice, cooked'
   - '1 Fresh Mango, sliced (The Acid Balance)'
   - Fresh Cilantro
+origin: Thailand
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: excellent
+equipment: []
 ---
 
 ## Chef's Note

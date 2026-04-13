@@ -1,15 +1,31 @@
 ---
 title: Veggie Salad
 difficulty: easy
-cookingMethods: [bake, roast, grill, no-cook]
+cookingMethods:
+  - bake
+  - roast
+  - grill
+  - no-cook
 dietary: []
-occasions: [light-and-fresh, weeknight, entertaining]
-seasons: [fall, winter]
+occasions:
+  - light-and-fresh
+  - weeknight
+  - entertaining
+seasons:
+  - fall
+  - winter
 nutritionalDensity: light
 leftovers: good
-equipment: [sheet-pan, mixing-bowl]
-flavorProfile: [sweet, savory, acidic, umami]
-cuisines: [American]
+equipment:
+  - sheet-pan
+  - mixing-bowl
+flavorProfile:
+  - sweet
+  - savory
+  - acidic
+  - umami
+cuisines:
+  - American
 role: side
 vibe: nutritious
 prepTime: 10 min
@@ -17,7 +33,9 @@ cookTime: 25 min
 totalTime: 35 min
 servings: '6'
 pairsWith:
-  [honey-lime-chicken-thighs, sweet-chili-chicken-sliders, instant-pot-butternut-squash-soup]
+  - honey-lime-chicken-thighs
+  - sweet-chili-chicken-sliders
+  - instant-pot-butternut-squash-soup
 ingredients:
   - '1 medium Sweet Potato, 1/2-inch cubes'
   - '6 oz Brussels Sprouts, halved'
@@ -30,6 +48,7 @@ ingredients:
   - '3 cups Curly Kale, massaged'
   - '1/2 cup Parmesan, grated'
   - 1/2 cup Dried Cranberries
+origin: United States
 ---
 
 ## Chef's Note

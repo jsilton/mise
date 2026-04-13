@@ -1,28 +1,40 @@
 ---
 title: Pasta Dough
 difficulty: easy
-cookingMethods: []
-dietary: [vegetarian]
-occasions: [weekend-project]
-flavorProfile: [herbaceous]
-cuisines: [Italian]
+cookingMethods:
+  - no-cook
+dietary:
+  - vegetarian
+occasions:
+  - weekend-project
+flavorProfile:
+  - herbaceous
+cuisines:
+  - Italian
 role: base
 vibe: technical
 prepTime: 15 min
 cookTime: 0 min
 totalTime: 60 min
 servings: 1 lb dough
-seasons: [year-round]
+seasons:
+  - year-round
 nutritionalDensity: moderate
 leftovers: excellent
-advancePrep: [make-ahead, freeze-ahead]
-equipment: [pasta-roller]
-pairsWith: [pressure-cooker-bolognase, cauliflower-alfredo-sauce]
+advancePrep:
+  - make-ahead
+  - freeze-ahead
+equipment:
+  - pasta-roller
+pairsWith:
+  - pressure-cooker-bolognase
+  - cauliflower-alfredo-sauce
 ingredients:
   - 2 cups All-Purpose or "00" Flour
   - '3 large Eggs, lightly beaten'
   - 1 tbsp Extra-Virgin Olive Oil
   - 1 tsp Kosher Salt
+origin: Italy
 ---
 
 ## Chef's Note

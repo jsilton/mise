@@ -1,22 +1,36 @@
 ---
 title: Shrimp with Lobster Sauce
 difficulty: easy
-cookingMethods: [fry, sauté, simmer, boil]
+cookingMethods:
+  - fry
+  - sauté
+  - simmer
+  - boil
 dietary: []
-occasions: [comfort-food, weeknight, quick-lunch]
-flavorProfile: [savory, umami]
-cuisines: [Chinese]
+occasions:
+  - comfort-food
+  - weeknight
+  - quick-lunch
+flavorProfile:
+  - savory
+  - umami
+cuisines:
+  - Chinese
 role: main
 vibe: comfort
 prepTime: 15 min
 cookTime: 10 min
 totalTime: 25 min
 servings: '4'
-seasons: [year-round]
+seasons:
+  - year-round
 nutritionalDensity: moderate
 leftovers: good
-equipment: [wok]
-pairsWith: [basmati-rice, steamed-broccoli]
+equipment:
+  - wok
+pairsWith:
+  - basmati-rice
+  - steamed-broccoli
 ingredients:
   - '1 lb Shrimp, peeled and deveined'
   - 1/4 lb Ground Pork (The Savory Base)
@@ -27,6 +41,7 @@ ingredients:
   - '1 large Egg, beaten (The Egg Ribbon Method)'
   - 1 tbsp Cornstarch (slurry)
   - Green Onions for garnish
+origin: China
 ---
 
 ## Chef's Note
@@ -35,7 +50,7 @@ Lobster sauce is a Chinese-American invention from the mid-20th century, origina
 
 ## Directions
 
-1.  **The Render:** Heat 1 tbsp oil in a wok. Brown the ground pork until crispy (5 mins).
+1.  **The Render:** Heat 1 tbsp oil in a wok. Brown high heat (400-450°F) the ground pork until crispy (5 mins).
 2.  **Aromatics:** Add the garlic and mashed black beans. Sauté for 1 minute until fragrant.
 3.  **The Crunch:** Add the shrimp. Stir-fry for 2 minutes over high heat until just pink.
 4.  **Simmer:** Pour in the chicken stock and soy sauces. Bring to a rapid boil.

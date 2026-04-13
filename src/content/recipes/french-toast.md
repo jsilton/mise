@@ -1,18 +1,28 @@
 ---
 title: French Toast
 difficulty: easy
-cookingMethods: [fry]
-dietary: [vegetarian]
-occasions: [comfort-food]
-flavorProfile: [sweet, acidic, rich]
-cuisines: [French]
+cookingMethods:
+  - fry
+dietary:
+  - vegetarian
+occasions:
+  - comfort-food
+flavorProfile:
+  - sweet
+  - acidic
+  - rich
+cuisines:
+  - French
 role: main
 vibe: comfort
 prepTime: 10 min
 cookTime: 10 min
 totalTime: 20 min
 servings: '4'
-pairsWith: [sweet-and-white-potato-gratin, tarragon-potatoes, arugula-feta-salad]
+pairsWith:
+  - sweet-and-white-potato-gratin
+  - tarragon-potatoes
+  - arugula-feta-salad
 ingredients:
   - 8 slices Challah or Brioche (Day-old preferred)
   - 4 large Eggs
@@ -24,6 +34,12 @@ ingredients:
   - 1/2 tsp Pure Vanilla Extract
   - Warm Maple Syrup
   - Fresh Berries
+origin: France
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: good
+equipment: []
 ---
 
 ## Chef's Note

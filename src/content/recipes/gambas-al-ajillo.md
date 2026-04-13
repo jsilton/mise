@@ -2,33 +2,56 @@
 title: Gambas al Ajillo
 origin: Spain
 difficulty: easy
-cookingMethods: [saute]
-dietary: [gluten-free, dairy-free, nut-free, low-carb, pescatarian]
-occasions: [date-night, entertaining, quick-lunch]
-flavorProfile: [savory, spicy, umami, rich]
-cuisines: [Spanish]
+cookingMethods:
+  - saute
+dietary:
+  - dairy-free
+  - nut-free
+  - low-carb
+  - pescatarian
+occasions:
+  - date-night
+  - entertaining
+  - quick-lunch
+flavorProfile:
+  - savory
+  - spicy
+  - umami
+  - rich
+cuisines:
+  - Spanish
 role: main
 vibe: quick
-seasons: [spring, summer, fall, winter]
+seasons:
+  - spring
+  - summer
+  - fall
+  - winter
 nutritionalDensity: moderate
 leftovers: poor
-advancePrep: [components-ahead]
-equipment: [cast-iron skillet or cazuela, small bowl]
+advancePrep:
+  - components-ahead
+equipment:
+  - cast-iron skillet or cazuela
+  - small bowl
 prepTime: 10 min
 cookTime: 8 min
 totalTime: 18 min
 servings: '4'
-pairsWith: [patatas-bravas, garlic-bread, everyday-arugula-salad]
+pairsWith:
+  - patatas-bravas
+  - garlic-bread
+  - everyday-arugula-salad
 ingredients:
   - '1 lb Large Shrimp (16-20 count), peeled and deveined, tails on'
-  - '1/3 cup Extra-Virgin Olive Oil'
+  - 1/3 cup Extra-Virgin Olive Oil
   - '8 cloves Garlic, thinly sliced'
-  - '2 Dried Guindilla Peppers (or 1 tsp red pepper flakes)'
-  - '1/4 cup Dry Sherry (fino or amontillado)'
-  - '1 tsp Smoked Paprika (pimenton de la Vera)'
-  - '1/2 tsp Kosher Salt'
+  - 2 Dried Guindilla Peppers (or 1 tsp red pepper flakes)
+  - 1/4 cup Dry Sherry (fino or amontillado)
+  - 1 tsp Smoked Paprika (pimenton de la Vera)
+  - 1/2 tsp Kosher Salt
   - '2 tbsp Fresh Flat-Leaf Parsley, roughly chopped'
-  - '1 tbsp Fresh Lemon Juice'
+  - 1 tbsp Fresh Lemon Juice
   - 'Crusty Bread, for serving'
 ---
 

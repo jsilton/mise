@@ -1,28 +1,45 @@
 ---
 title: Broccoli with Garlic
 difficulty: easy
-cookingMethods: [bake, boil, steam]
+cookingMethods:
+  - bake
+  - boil
+  - steam
 dietary: []
-occasions: [weeknight, quick-lunch, post-workout, light-and-fresh]
-seasons: [year-round]
+occasions:
+  - weeknight
+  - quick-lunch
+  - post-workout
+  - light-and-fresh
+seasons:
+  - year-round
 nutritionalDensity: light
 leftovers: good
-equipment: [saucepan, steamer-basket]
-flavorProfile: [savory, acidic]
-cuisines: [American]
+equipment:
+  - saucepan
+  - steamer-basket
+flavorProfile:
+  - savory
+  - acidic
+cuisines:
+  - American
 role: side
 vibe: quick
 prepTime: 5 min
 cookTime: 5 min
 totalTime: 10 min
 servings: '4'
-pairsWith: [sheet-pan-italian-sausage-dinner, rosemary-pork-tenderloin, chicken-lettuce-wraps]
+pairsWith:
+  - sheet-pan-italian-sausage-dinner
+  - rosemary-pork-tenderloin
+  - chicken-lettuce-wraps
 ingredients:
   - '1 lb Fresh Broccoli, cut into bite-sized florets'
   - 2 tbsp Extra-Virgin Olive Oil
   - '2 cloves Garlic, grated or finely minced'
   - 1/2 tsp Sea Salt
   - 1/4 tsp Black Pepper
+origin: United States
 ---
 
 ## Chef's Note

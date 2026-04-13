@@ -1,11 +1,18 @@
 ---
 title: Pumpkin Pancakes
 difficulty: intermediate
-cookingMethods: []
-dietary: [vegetarian]
-occasions: [comfort-food]
-flavorProfile: [sweet, savory, rich]
-cuisines: [American]
+cookingMethods:
+  - no-cook
+dietary:
+  - vegetarian
+occasions:
+  - comfort-food
+flavorProfile:
+  - sweet
+  - savory
+  - rich
+cuisines:
+  - American
 role: main
 vibe: comfort
 prepTime: 10 min
@@ -13,11 +20,9 @@ cookTime: 20 min
 totalTime: 30 min
 servings: '4'
 pairsWith:
-  [
-    honey-glazed-carrots,
-    avocado-kale-caesar-salad,
-    roasted-sunchokes-with-brown-butter-cider-vinaigrette,
-  ]
+  - honey-glazed-carrots
+  - avocado-kale-caesar-salad
+  - roasted-sunchokes-with-brown-butter-cider-vinaigrette
 ingredients:
   - 2 cups All-Purpose Flour
   - 1 cup Pure Pumpkin Puree (Not pumpkin pie filling)
@@ -29,6 +34,12 @@ ingredients:
   - 1 tsp Baking Soda
   - 2 tsp Pumpkin Pie Spice
   - 1/2 tsp Sea Salt
+origin: United States
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: good
+equipment: []
 ---
 
 ## Chef's Note
@@ -37,7 +48,7 @@ Pumpkin puree adds weight and moisture that can make pancakes rubbery. Mix dry i
 
 ## Directions
 
-1.  **Dry Mix:** In a medium bowl, whisk together flour, brown sugar, baking powder, baking soda, spice mix, and salt.
+1.  **Dry Mix:** In a medium bowl, whisk together flour, brown high heat (400-450°F) sugar, baking powder, baking soda, spice mix, and salt.
 2.  **Wet Mix:** In a large bowl, whisk milk, pumpkin puree, egg, and oil until perfectly smooth and emulsified.
 3.  **Combine:** Gradually add the dry mix to the pumpkin mixture. Stir with a spatula until the large clumps disappear. **Stop stirring immediately**—even if there are tiny lumps.
 4.  **The Rest:** Let the batter sit for 5 minutes while you heat the griddle (The Hydration Rest).

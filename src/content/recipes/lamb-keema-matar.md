@@ -2,18 +2,31 @@
 title: Lamb Keema Matar
 origin: India
 difficulty: easy
-cookingMethods: [simmer]
-dietary: [vegetarian]
-occasions: [comfort-food, weeknight]
-flavorProfile: [spicy, sweet, savory, acidic, umami, rich]
-cuisines: [Indian]
+cookingMethods:
+  - simmer
+dietary: []
+occasions:
+  - comfort-food
+  - weeknight
+flavorProfile:
+  - spicy
+  - sweet
+  - savory
+  - acidic
+  - umami
+  - rich
+cuisines:
+  - Indian
 role: main
 vibe: quick
 prepTime: 10 min
 cookTime: 20 min
 totalTime: 30 min
 servings: '4'
-pairsWith: [spiced-coconut-chicken-rice, cucumber-raita, homemade-naan]
+pairsWith:
+  - spiced-coconut-chicken-rice
+  - cucumber-raita
+  - homemade-naan
 ingredients:
   - 1 lb Ground Lamb
   - 1 cup Frozen Peas
@@ -27,11 +40,17 @@ ingredients:
   - 1 tbsp Tomato Paste
   - '1/2 Lemon, juiced'
   - 'Fresh Cilantro, chopped'
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: good
+equipment: []
 ---
 
 ## Chef's Note
 
 The secret to a great Keema is **Deep Browning**. You must sear the ground lamb until it develops a dark, savory crust before adding the aromatics. The peas provide a sweet "pop" that balances the richness of the lamb. We finish with a heavy hit of lemon juice and fresh cilantro to provide the **Acid Balance** that keeps this dish from feeling heavy.
+For kids, serve the heat on the side or reduce/omit the spicy elements.
 
 ## Directions
 

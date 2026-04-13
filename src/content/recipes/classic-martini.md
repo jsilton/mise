@@ -2,27 +2,41 @@
 title: Martini
 origin: USA
 difficulty: intermediate
-cookingMethods: []
-dietary: [vegan]
-occasions: [entertaining, date-night]
-seasons: [year-round]
+cookingMethods:
+  - no-cook
+dietary: []
+occasions:
+  - entertaining
+  - date-night
+seasons:
+  - year-round
 nutritionalDensity: light
 leftovers: poor
-equipment: [cocktail-shaker]
-flavorProfile: [acidic, smoky]
-cuisines: [American]
+equipment:
+  - cocktail-shaker
+flavorProfile:
+  - acidic
+  - smoky
+cuisines:
+  - American
 role: drink
 vibe: technical
 prepTime: 5 min
 cookTime: 0 min
 totalTime: 5 min
 servings: '1'
-pairsWith: []
+pairsWith:
+  - seared-scallops-with-a-corn-bacon-and-avocado-relish
+  - avocado-kale-caesar-salad
+  - avocado-toast
+  - bbq-chicken-sliders
 ingredients:
-  - '4 oz Beefeater Gin (or high-quality London Dry)'
-  - '3/4 oz Noilly Prat Dry Vermouth'
-  - '1 large Lemon (for peel)'
-  - 'Large Ice Cubes (1-inch)'
+  - 4 oz Beefeater Gin (or high-quality London Dry)
+  - 3/4 oz Noilly Prat Dry Vermouth
+  - 1 large Lemon (for peel)
+  - Large Ice Cubes (1-inch)
+advancePrep:
+  - freeze-ahead
 ---
 
 ## Chef's Note

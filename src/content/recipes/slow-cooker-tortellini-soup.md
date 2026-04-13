@@ -1,18 +1,28 @@
 ---
 title: Tortellini Soup
 difficulty: easy
-cookingMethods: [roast, slow-cook]
+cookingMethods:
+  - roast
+  - slow-cook
 dietary: []
-occasions: [comfort-food]
-flavorProfile: [umami, rich, herbaceous]
-cuisines: [Italian]
+occasions:
+  - comfort-food
+flavorProfile:
+  - umami
+  - rich
+  - herbaceous
+cuisines:
+  - Italian
 role: main
 vibe: comfort
 prepTime: 15 min
 cookTime: 240 min
 totalTime: 255 min
 servings: '8'
-pairsWith: [garlic-bread, charred-asparagus-with-parmesan, creamy-polenta]
+pairsWith:
+  - garlic-bread
+  - charred-asparagus-with-parmesan
+  - creamy-polenta
 ingredients:
   - '1 1/2 lbs Chicken Thighs, boneless and skinless'
   - 4 cups Cheese Tortellini (frozen)
@@ -25,6 +35,12 @@ ingredients:
   - 3 cups Fresh Spinach
   - '1/2 cup Parmesan, grated'
   - 1 tbsp Dried Basil
+origin: Italy
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: excellent
+equipment: []
 ---
 
 ## Chef's Note
@@ -40,3 +56,4 @@ Creamy tortellini soup is comfort food that became popular in American slow-cook
 5.  **The Bind:** Stir in the frozen tortellini, fresh spinach, Parmesan, and **warmed heavy cream**.
 6.  **Finish:** Cover and cook on High for 10 more minutes until the pasta is al dente and the spinach has collapsed.
 7.  **Serve:** Ladle into bowls and top with an extra "High Note" of black pepper.
+

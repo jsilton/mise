@@ -1,18 +1,27 @@
 ---
 title: Sheet Pan Chicken Fajitas
 difficulty: easy
-cookingMethods: [bake, roast]
+cookingMethods:
+  - bake
+  - roast
 dietary: []
-occasions: [weeknight, quick-lunch]
-flavorProfile: [acidic]
-cuisines: [Mexican]
+occasions:
+  - weeknight
+  - quick-lunch
+flavorProfile:
+  - acidic
+cuisines:
+  - Mexican
 role: main
 vibe: quick
 prepTime: 15 min
 cookTime: 15 min
 totalTime: 30 min
 servings: '6'
-pairsWith: [quick-seasoned-black-beans, cilantro-lime-rice, classic-guacamole]
+pairsWith:
+  - quick-seasoned-black-beans
+  - cilantro-lime-rice
+  - classic-guacamole
 ingredients:
   - '2 lbs Chicken Breasts, thinly sliced'
   - '1 Red, 1 Yellow, 1 Green Bell Pepper, sliced'
@@ -22,6 +31,12 @@ ingredients:
   - '1 Lime, juiced (The Acid Balance)'
   - Warm Flour Tortillas
   - Avocado and Fresh Cilantro
+origin: Mexico
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: good
+equipment: []
 ---
 
 ## Chef's Note

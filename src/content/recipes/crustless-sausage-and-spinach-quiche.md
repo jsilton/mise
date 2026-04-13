@@ -1,18 +1,30 @@
 ---
 title: Crustless Sausage & Spinach Quiche
 difficulty: easy
-cookingMethods: [bake, roast, sauté, no-cook]
+cookingMethods:
+  - bake
+  - roast
+  - sauté
+  - no-cook
 dietary: []
-occasions: [meal-prep, weekend-project]
-flavorProfile: [umami, rich]
-cuisines: [French]
+occasions:
+  - meal-prep
+  - weekend-project
+flavorProfile:
+  - umami
+  - rich
+cuisines:
+  - French
 role: main
 vibe: nutritious
 prepTime: 15 min
 cookTime: 40 min
 totalTime: 55 min
 servings: '6'
-pairsWith: [sweet-and-white-potato-gratin, tarragon-potatoes, everyday-arugula-salad]
+pairsWith:
+  - sweet-and-white-potato-gratin
+  - tarragon-potatoes
+  - everyday-arugula-salad
 ingredients:
   - '3 links Italian Chicken Sausage, casings removed'
   - 12 oz Fresh Baby Spinach
@@ -25,6 +37,12 @@ ingredients:
   - 1/8 tsp Black Pepper
   - Pinch of Freshly Grated Nutmeg
   - Cooking spray
+origin: France
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: good
+equipment: []
 ---
 
 ## Chef's Note

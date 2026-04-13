@@ -1,23 +1,41 @@
 ---
 title: Freezer Banana Bread
 difficulty: easy
-cookingMethods: [bake, blend]
-dietary: [vegetarian]
-occasions: [meal-prep, kids-approved, weekend-project]
-seasons: [year-round]
+cookingMethods:
+  - bake
+  - blend
+dietary:
+  - vegetarian
+occasions:
+  - meal-prep
+  - kids-approved
+  - weekend-project
+seasons:
+  - year-round
 nutritionalDensity: moderate
 leftovers: excellent
-equipment: [loaf-pan, blender, mixing-bowl]
-advancePrep: [make-ahead, freeze-ahead]
-flavorProfile: [sweet, rich]
-cuisines: [American]
+equipment:
+  - loaf-pan
+  - blender
+  - mixing-bowl
+advancePrep:
+  - make-ahead
+  - freeze-ahead
+flavorProfile:
+  - sweet
+  - rich
+cuisines:
+  - American
 role: main
 vibe: nutritious
 prepTime: 15 min
 cookTime: 50 min
 totalTime: 65 min
 servings: 12 slices
-pairsWith: [banana-oat-greek-yogurt-muffins, almond-zucchini-bread, anadama-bread]
+pairsWith:
+  - banana-oat-greek-yogurt-muffins
+  - almond-zucchini-bread
+  - anadama-bread
 ingredients:
   - '3 medium Ripe Bananas, mashed'
   - 1 3/4 cups Whole-Wheat Flour
@@ -29,6 +47,7 @@ ingredients:
   - 1 tsp Baking Powder
   - 1/2 tsp Baking Soda
   - 1 tsp Vanilla Extract
+origin: United States
 ---
 
 ## Chef's Note

@@ -1,11 +1,19 @@
 ---
 title: Parish’s Blueberry Crisp
 difficulty: easy
-cookingMethods: [bake, simmer]
-dietary: [vegetarian]
-occasions: [comfort-food]
-flavorProfile: [sweet, acidic, rich]
-cuisines: [American]
+cookingMethods:
+  - bake
+  - simmer
+dietary:
+  - vegetarian
+occasions:
+  - comfort-food
+flavorProfile:
+  - sweet
+  - acidic
+  - rich
+cuisines:
+  - American
 role: dessert
 vibe: comfort
 prepTime: 20 min
@@ -21,15 +29,23 @@ ingredients:
   - '1 cup Light Brown Sugar, packed'
   - 6 tbsp Unsalted Butter (Beurre Noisette)
   - 1 1/4 tsp Sea Salt
-  - >-
-    [Vanilla Bean Ice
-    Cream](/mise/recipes/old-fashioned-vanilla-ice-cream)
+  - '[Vanilla Bean Ice Cream](/mise/recipes/old-fashioned-vanilla-ice-cream)'
+origin: United States
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: good
+equipment: []
+pairsWith:
+  - apple-cider-cream-pie
+  - apple-pie
+  - blackout-chocolate-cake
+  - classic-peach-ice-cream
 ---
 
 ## Chef's Note
 
-This is an improved take on a classic summer crisp. The secret to its depth is browning the butter until it reaches its nutty, aromatic peak _before_ mixing it with the flour and sugar. This creates a crumble with a sophisticated crunch that standard butter lacks. We get the right texture by simmering the blueberries with lemon juice and cornstarch first; this ensures the fruit sets into a thick, glossy jam that doesn't turn the topping soggy. The lemon juice provides the bright acidity needed to balance the sweet topping.
-
+A crisp lives or dies by its topping—here, the secret is cooking the butter to brown butter stage (dark milk solids, nutty aroma) before mixing with the dry ingredients, so every crumb tastes like toasted nuts. The blueberry filling is tightened with cornstarch and lemon juice, preventing a soupy cobbler while keeping the fruit's bright acidity front and center.
 ## Directions
 
 1.  **The Fruit:** In a saucepan, combine blueberries, 1/4 cup water, and lemon juice. Whisk sugar and cornstarch together and stir into the fruit. Cook over medium for 4 minutes until the juices thicken. Pour into a greased 9-inch square dish.

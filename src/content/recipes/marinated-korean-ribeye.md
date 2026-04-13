@@ -2,28 +2,49 @@
 title: Bulgogi
 origin: Korea
 difficulty: easy
-cookingMethods: []
+cookingMethods:
+  - sear
+  - smoke
 dietary: []
-occasions: [weeknight, meal-prep]
-flavorProfile: [sweet, savory, umami]
-cuisines: [Korean]
+occasions:
+  - weeknight
+  - meal-prep
+flavorProfile:
+  - sweet
+  - savory
+  - umami
+cuisines:
+  - Korean
 role: main
 vibe: quick
 prepTime: 10 min
 cookTime: 5 min
 totalTime: 15 min
 servings: '4'
-pairsWith: [avocado-kale-caesar-salad, sesame-cucumber-salad, sesame-tomato-salad]
+pairsWith:
+  - avocado-kale-caesar-salad
+  - sesame-cucumber-salad
+  - sesame-tomato-salad
 ingredients:
-  - '1 lb Ribeye Beef, very thinly sliced (The "Super H-Mart" Shortcut: Buy pre-sliced or pre-marinated "Bulgogi" beef)'
-  - '3 tbsp Soy Sauce'
-  - '1 tbsp Toasted Sesame Oil'
-  - '1 tbsp Brown Sugar'
+  - >-
+    1 lb Ribeye Beef, very thinly sliced (The "Super H-Mart" Shortcut: Buy
+    pre-sliced or pre-marinated "Bulgogi" beef)
+  - 3 tbsp Soy Sauce
+  - 1 tbsp Toasted Sesame Oil
+  - 1 tbsp Brown Sugar
   - '1/2 Pear (Bosc or Asian), grated (The enzyme that tenderizes the meat)'
   - '2 cloves Garlic, minced'
   - '1 tsp Ginger, grated'
   - '2 Green Onions, minced'
-  - '1/4 tsp Black Pepper'
+  - 1/4 tsp Black Pepper
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: good
+equipment: []
+advancePrep:
+  - marinate-overnight
+  - freeze-ahead
 ---
 
 ## Chef's Note

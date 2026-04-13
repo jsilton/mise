@@ -1,22 +1,31 @@
 ---
 title: Korean Style Tacos
 difficulty: easy
-cookingMethods: [no-cook]
+cookingMethods:
+  - no-cook
 dietary: []
-occasions: [weeknight, summer]
-flavorProfile: [spicy, sweet, savory, acidic, umami]
-cuisines: [Mexican]
+occasions:
+  - weeknight
+  - summer
+flavorProfile:
+  - spicy
+  - sweet
+  - savory
+  - acidic
+  - umami
+cuisines:
+  - Mexican
 role: main
 vibe: quick
 prepTime: 15 min
 cookTime: 5 min
-totalTime: 65 min
-servings: '4'
-pairsWith: [mexican-street-corn-salad, roasted-sweet-potatoes, guacamole]
+totalTime: '20 min'
+pairsWith:
+  - mexican-street-corn-salad
+  - roasted-sweet-potatoes
+  - guacamole
 ingredients:
-  - >-
-    1 lb Cooked [Pulled Pork](/mise/recipes/pulled-pork)
-    or Shredded Chicken
+  - '1 lb Cooked [Pulled Pork](/mise/recipes/pulled-pork) or Shredded Chicken'
   - 12 Corn Tortillas
   - 2 tbsp Gochujang
   - 3 tbsp Granulated Sugar
@@ -28,6 +37,12 @@ ingredients:
   - 1/2 tsp Sugar
   - '1/2 tsp Fresh Chili Pepper, minced'
   - Generous pinch of Sea Salt
+origin: Mexico
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: poor
+equipment: []
 ---
 
 ## Chef's Note

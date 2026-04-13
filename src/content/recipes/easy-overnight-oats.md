@@ -1,23 +1,38 @@
 ---
 title: Overnight Oats
 difficulty: intermediate
-cookingMethods: []
-dietary: [vegetarian]
-occasions: [meal-prep, post-workout, quick-lunch]
-seasons: [year-round]
+cookingMethods:
+  - no-cook
+dietary:
+  - vegetarian
+occasions:
+  - meal-prep
+  - post-workout
+  - quick-lunch
+seasons:
+  - year-round
 nutritionalDensity: moderate
 leftovers: excellent
-equipment: [mason-jar]
-advancePrep: [make-ahead]
-flavorProfile: [sweet, umami, rich]
-cuisines: [American]
+equipment:
+  - mason-jar
+advancePrep:
+  - make-ahead
+flavorProfile:
+  - sweet
+  - umami
+  - rich
+cuisines:
+  - American
 role: main
 vibe: nutritious
 prepTime: 5 min
 cookTime: 480 min
 totalTime: 485 min
 servings: '1'
-pairsWith: [avocado-kale-caesar-salad, brownie-protein-balls, banana-oat-greek-yogurt-muffins]
+pairsWith:
+  - avocado-kale-caesar-salad
+  - brownie-protein-balls
+  - banana-oat-greek-yogurt-muffins
 ingredients:
   - 1/2 cup Rolled Oats
   - 1/2 cup Milk of choice (Coconut or Soy preferred)
@@ -27,6 +42,7 @@ ingredients:
   - '**Banana Bread:** 1/2 Banana + Walnuts + Cinnamon'
   - '**PB&J:** 1 tbsp Peanut Butter + Raspberry Jam'
   - '**Carrot Cake:** 1/4 cup Shredded Carrot + Raisins'
+origin: United States
 ---
 
 ## Chef's Note

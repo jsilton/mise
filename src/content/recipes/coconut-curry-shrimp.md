@@ -1,18 +1,30 @@
 ---
 title: Coconut Curry Shrimp
 difficulty: easy
-cookingMethods: [sauté, simmer, boil]
+cookingMethods:
+  - sauté
+  - simmer
+  - boil
 dietary: []
-occasions: [weeknight, quick-lunch]
-flavorProfile: [sweet, rich, herbaceous]
-cuisines: [Thai]
+occasions:
+  - weeknight
+  - quick-lunch
+flavorProfile:
+  - sweet
+  - rich
+  - herbaceous
+cuisines:
+  - Thai
 role: main
 vibe: quick
 prepTime: 10 min
 cookTime: 15 min
 totalTime: 25 min
 servings: '4'
-pairsWith: [coconut-jasmine-rice, quick-pickled-carrots-and-daikon, cilantro-lime-rice]
+pairsWith:
+  - coconut-jasmine-rice
+  - quick-pickled-carrots-and-daikon
+  - cilantro-lime-rice
 ingredients:
   - '1 1/2 lbs Shrimp (U10 or U12), peeled and deveined'
   - '1 medium Onion, finely diced'
@@ -26,6 +38,12 @@ ingredients:
   - 2 tbsp Honey
   - '12 Fresh Basil Leaves, chiffonade'
   - Salt and Black Pepper
+origin: Thailand
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: good
+equipment: []
 ---
 
 ## Chef's Note

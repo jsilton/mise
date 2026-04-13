@@ -2,27 +2,38 @@
 title: Dashi
 origin: Japan
 difficulty: easy
-cookingMethods: [simmer, boil]
-dietary: [vegetarian]
-occasions: [weeknight, meal-prep]
-flavorProfile: [savory, umami]
-cuisines: [Japanese]
+cookingMethods:
+  - simmer
+  - boil
+dietary:
+  - vegetarian
+occasions:
+  - weeknight
+  - meal-prep
+flavorProfile:
+  - savory
+  - umami
+cuisines:
+  - Japanese
 role: base
 vibe: quick
 prepTime: 5 min
 cookTime: 10 min
 totalTime: 15 min
-servings: '6 cups'
+servings: 6 cups
 pairsWith:
-  [
-    lemon-miso-tofu-with-broccoli,
-    miso-salmon-with-bok-choy,
-    soba-noodles-with-shiitakes-broccoli-and-tofu,
-  ]
+  - lemon-miso-tofu-with-broccoli
+  - miso-salmon-with-bok-choy
+  - soba-noodles-with-shiitakes-broccoli-and-tofu
 ingredients:
-  - '6 cups Cold Water'
+  - 6 cups Cold Water
   - '1 oz (30g) Kombu (Dried Kelp), approx 20 sq inches'
   - '2 packs (5g each) Katsuo Bushi (Dried Bonito Flakes), approx 1 cup'
+seasons:
+  - year-round
+nutritionalDensity: light
+leftovers: good
+equipment: []
 ---
 
 ## Chef's Note

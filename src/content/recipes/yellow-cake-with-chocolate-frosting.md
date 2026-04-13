@@ -1,16 +1,30 @@
 ---
 title: Yellow Cake with Chocolate Frosting
 difficulty: intermediate
-cookingMethods: [bake]
-dietary: [vegetarian]
-occasions: [holiday, entertaining, kids-approved, indulgent]
-seasons: [year-round]
+cookingMethods:
+  - bake
+dietary:
+  - vegetarian
+occasions:
+  - holiday
+  - entertaining
+  - kids-approved
+  - indulgent
+seasons:
+  - year-round
 nutritionalDensity: hearty
 leftovers: excellent
-equipment: [cake-pans, stand-mixer]
-advancePrep: [make-ahead]
-flavorProfile: [sweet, acidic, rich]
-cuisines: [American]
+equipment:
+  - cake-pans
+  - stand-mixer
+advancePrep:
+  - make-ahead
+flavorProfile:
+  - sweet
+  - acidic
+  - rich
+cuisines:
+  - American
 role: dessert
 vibe: technical
 prepTime: 20 min
@@ -29,6 +43,12 @@ ingredients:
   - 2/3 cup Unsweetened Cocoa Powder
   - 3 cups Confectioners’ Sugar
   - 1/3 cup Whole Milk
+origin: United States
+pairsWith:
+  - apple-cider-cream-pie
+  - apple-pie
+  - blackout-chocolate-cake
+  - classic-peach-ice-cream
 ---
 
 ## Chef's Note

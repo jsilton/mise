@@ -1,18 +1,30 @@
 ---
 title: Japanese Eggplant with Chicken & Thai Basil
 difficulty: easy
-cookingMethods: [fry, sauté, steam]
+cookingMethods:
+  - fry
+  - sauté
+  - steam
 dietary: []
-occasions: [weeknight, quick-lunch]
-flavorProfile: [sweet, savory, umami]
-cuisines: [Thai]
+occasions:
+  - weeknight
+  - quick-lunch
+flavorProfile:
+  - sweet
+  - savory
+  - umami
+cuisines:
+  - Thai
 role: main
 vibe: nutritious
 prepTime: 15 min
 cookTime: 15 min
 totalTime: 30 min
 servings: '4'
-pairsWith: [coconut-jasmine-rice, quick-pickled-carrots-and-daikon, eggplant-with-garlic-sauce]
+pairsWith:
+  - coconut-jasmine-rice
+  - quick-pickled-carrots-and-daikon
+  - eggplant-with-garlic-sauce
 ingredients:
   - '1 lb Japanese Eggplant, cut on an angle into 1.5-inch wedges'
   - '8 oz Chicken Breast, thinly sliced'
@@ -29,6 +41,12 @@ ingredients:
   - 1/2 tsp Sugar + Pinch of White Pepper
   - 1/4 cup Hot Chicken Stock
   - Neutral Oil
+origin: Thailand
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: good
+equipment: []
 ---
 
 ## Chef's Note

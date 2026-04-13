@@ -1,27 +1,44 @@
 ---
 title: Crustless Spinach & Gruyère Quiche
 difficulty: intermediate
-cookingMethods: [bake, sauté]
-dietary: [vegetarian]
-occasions: [meal-prep, weekend-project]
-flavorProfile: [sweet, rich]
-cuisines: [French]
+cookingMethods:
+  - bake
+  - sauté
+dietary:
+  - vegetarian
+occasions:
+  - meal-prep
+  - weekend-project
+flavorProfile:
+  - sweet
+  - rich
+cuisines:
+  - French
 role: main
 vibe: nutritious
 prepTime: 10 min
 cookTime: 30 min
 totalTime: 40 min
 servings: '6'
-pairsWith: [sweet-and-white-potato-gratin, tarragon-potatoes, peach-salad-with-tomatoes-and-beets]
+pairsWith:
+  - sweet-and-white-potato-gratin
+  - tarragon-potatoes
+  - peach-salad-with-tomatoes-and-beets
 ingredients:
-  - '10 oz Fresh Baby Spinach'
+  - 10 oz Fresh Baby Spinach
   - '1 large Yellow Onion, thinly sliced'
-  - '6 large Eggs'
+  - 6 large Eggs
   - '1 cup Gruyère Cheese, freshly grated'
-  - '1/2 cup Plain Greek Yogurt for richness'
-  - '1/2 tsp Sea Salt'
-  - '1/4 tsp Black Pepper'
-  - '1 tbsp Olive Oil'
+  - 1/2 cup Plain Greek Yogurt for richness
+  - 1/2 tsp Sea Salt
+  - 1/4 tsp Black Pepper
+  - 1 tbsp Olive Oil
+origin: France
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: good
+equipment: []
 ---
 
 ## Chef's Note

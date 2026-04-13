@@ -1,18 +1,32 @@
 ---
 title: Coconut Chickpea Curry
 difficulty: easy
-cookingMethods: [bake, sauté, simmer, boil]
-dietary: [vegetarian, vegan]
-occasions: [weeknight, meal-prep]
-flavorProfile: [sweet, acidic, rich]
-cuisines: [Thai]
+cookingMethods:
+  - bake
+  - sauté
+  - simmer
+  - boil
+dietary:
+  - vegetarian
+occasions:
+  - weeknight
+  - meal-prep
+flavorProfile:
+  - sweet
+  - acidic
+  - rich
+cuisines:
+  - Thai
 role: main
 vibe: quick
 prepTime: 10 min
 cookTime: 25 min
 totalTime: 35 min
 servings: '4'
-pairsWith: [coconut-jasmine-rice, quick-pickled-carrots-and-daikon, cilantro-lime-rice]
+pairsWith:
+  - coconut-jasmine-rice
+  - quick-pickled-carrots-and-daikon
+  - cilantro-lime-rice
 ingredients:
   - '2 (15 oz) cans Chickpeas, drained and rinsed'
   - 1 can (13.5 oz) Full-fat Coconut Milk
@@ -27,6 +41,12 @@ ingredients:
   - '2 tsp Coconut Flour (optional, for thickening)'
   - Fresh Cilantro
   - Salt and Black Pepper
+origin: Thailand
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: good
+equipment: []
 ---
 
 ## Chef's Note

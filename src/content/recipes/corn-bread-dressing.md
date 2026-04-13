@@ -1,18 +1,28 @@
 ---
 title: Corn Bread Dressing
 difficulty: easy
-cookingMethods: [bake, roast, sauté]
+cookingMethods:
+  - bake
+  - roast
+  - sauté
 dietary: []
-occasions: [holiday]
-flavorProfile: [rich, herbaceous]
-cuisines: [Southern]
+occasions:
+  - holiday
+flavorProfile:
+  - rich
+  - herbaceous
+cuisines:
+  - Southern
 role: side
 vibe: holiday
 prepTime: 30 min
 cookTime: 60 min
 totalTime: 90 min
 servings: '8'
-pairsWith: [shrimp-and-grits, buttermilk-baked-chicken, quick-and-easy-drop-biscuits]
+pairsWith:
+  - shrimp-and-grits
+  - buttermilk-baked-chicken
+  - quick-and-easy-drop-biscuits
 ingredients:
   - '1 tray (8x8) Cornbread, cut into 3/4-inch cubes'
   - 3/4 cup Unsalted Butter
@@ -25,6 +35,12 @@ ingredients:
   - 1/4 tsp Ground Sage
   - 1.5 cups Chicken Stock (No salt added)
   - Salt and Black Pepper
+origin: United States
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: good
+equipment: []
 ---
 
 ## Chef's Note

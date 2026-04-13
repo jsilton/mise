@@ -1,22 +1,36 @@
 ---
 title: Sheet Pan Pesto Chicken Bowls
 difficulty: easy
-cookingMethods: [bake, roast]
+cookingMethods:
+  - bake
+  - roast
 dietary: []
-occasions: [meal-prep, weeknight, post-workout]
-flavorProfile: [umami, herbaceous]
-cuisines: [Italian]
+occasions:
+  - meal-prep
+  - weeknight
+  - post-workout
+flavorProfile:
+  - umami
+  - herbaceous
+cuisines:
+  - Italian
 role: main
 vibe: nutritious
 prepTime: 20 min
 cookTime: 20 min
 totalTime: 40 min
 servings: '4'
-seasons: [spring, summer, year-round]
+seasons:
+  - spring
+  - summer
+  - year-round
 nutritionalDensity: moderate
 leftovers: excellent
-equipment: [sheet-pan]
-pairsWith: [basmati-rice, everyday-arugula-salad]
+equipment:
+  - sheet-pan
+pairsWith:
+  - basmati-rice
+  - everyday-arugula-salad
 ingredients:
   - '3 Chicken Breasts, diced into 1-inch cubes'
   - '1 lb Fresh Broccoli, cut into florets'
@@ -28,6 +42,9 @@ ingredients:
   - 3 tbsp Extra-Virgin Olive Oil
   - '2 cloves Garlic, minced'
   - Salt and Black Pepper
+origin: Italy
+advancePrep:
+  - components-ahead
 ---
 
 ## Chef's Note
@@ -42,3 +59,5 @@ Sheet pan meal prep bowls became hugely popular in the 2010s for their simplicit
 4.  **Stage 2:** Remove pan. Add the broccoli, zucchini, and cherry tomatoes. Toss with another 2 tbsp of pesto.
 5.  **Bake:** Roast for 10 more minutes until the chicken is cooked through (165°F) and the broccoli is tender-crisp.
 6.  **Store:** Divide among 4 bowls. Serve over pasta or rice. Keeps in the fridge for 5 days with a perfect Texture when reheated.
+
+**Rest:** Let 3 Chicken rest for 5 minutes before slicing or serving — the juices redistribute and every piece stays moist.

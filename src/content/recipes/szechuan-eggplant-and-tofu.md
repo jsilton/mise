@@ -2,22 +2,41 @@
 title: Szechuan Eggplant & Tofu
 origin: China
 difficulty: easy
-cookingMethods: [fry, sauté, simmer, steam]
-dietary: [vegan]
-occasions: [weeknight, meal-prep, comfort-food]
-flavorProfile: [sweet, savory, acidic, umami]
-cuisines: [Chinese]
+cookingMethods:
+  - fry
+  - sauté
+  - simmer
+  - steam
+dietary: []
+occasions:
+  - weeknight
+  - meal-prep
+  - comfort-food
+flavorProfile:
+  - sweet
+  - savory
+  - acidic
+  - umami
+cuisines:
+  - Chinese
 role: main
 vibe: nutritious
 prepTime: 15 min
 cookTime: 35 min
 totalTime: 50 min
 servings: '4'
-seasons: [summer, fall, year-round]
+seasons:
+  - summer
+  - fall
+  - year-round
 nutritionalDensity: moderate
 leftovers: excellent
-equipment: [wok, large-skillet]
-pairsWith: [basmati-rice, steamed-broccoli]
+equipment:
+  - wok
+  - large-skillet
+pairsWith:
+  - basmati-rice
+  - steamed-broccoli
 ingredients:
   - '1 medium Eggplant, cut into 3/4-inch cubes'
   - '1 block Extra-firm Tofu, pressed dry and cubed'
@@ -47,3 +66,5 @@ This Sichuan-inspired dish showcases crispy textures with spicy-sour flavors. Dr
 5.  **Bind:** Simmer for 2 minutes until the sauce thickens into a glossy syrup.
 6.  **Toss:** Add the crispy eggplant and tofu back to the pan. Toss vigorously for 30 seconds until every cube is coated. Stir in sesame oil.
 7.  **Serve:** Garnish with fresh cilantro and serve immediately over steamed rice.
+
+**Rest:** Let cup Chicken rest for 5 minutes before slicing or serving — the juices redistribute and every piece stays moist.

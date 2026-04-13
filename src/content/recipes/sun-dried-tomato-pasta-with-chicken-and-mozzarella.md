@@ -1,22 +1,36 @@
 ---
 title: Sun-Dried Tomato Chicken Pasta
 difficulty: intermediate
-cookingMethods: [roast, sauté, simmer, boil]
+cookingMethods:
+  - roast
+  - sauté
+  - simmer
+  - boil
 dietary: []
-occasions: [weeknight, comfort-food, meal-prep]
-seasons: [year-round]
+occasions:
+  - weeknight
+  - comfort-food
+  - meal-prep
+seasons:
+  - year-round
 nutritionalDensity: hearty
 leftovers: excellent
 equipment: []
-flavorProfile: [savory, rich, herbaceous]
-cuisines: [Italian]
+flavorProfile:
+  - savory
+  - rich
+  - herbaceous
+cuisines:
+  - Italian
 role: main
 vibe: quick
 prepTime: 10 min
 cookTime: 20 min
 totalTime: 30 min
 servings: '4'
-pairsWith: [garlic-bread, avocado-kale-caesar-salad]
+pairsWith:
+  - garlic-bread
+  - avocado-kale-caesar-salad
 ingredients:
   - '1 lb Chicken Tenderloins, sliced'
   - 8 oz Penne Pasta
@@ -28,6 +42,7 @@ ingredients:
   - 1/4 tsp Red Pepper Flakes + 1/4 tsp Paprika
   - '3 cloves Garlic, minced'
   - 1/2 cup Reserved Pasta Water
+origin: Italy
 ---
 
 ## Chef's Note
@@ -43,3 +58,5 @@ Sun-dried tomatoes became hugely popular in Italian-American cooking during the 
 5.  **Bind:** Return the chicken and any juices to the pan. Add the hot pasta, spinach, and basil.
 6.  **Toss:** Toss vigorously for 1 minute. Add pasta water 1/4 cup at a time until the sauce is creamy and the spinach has just wilted.
 7.  **Serve:** Season with extra red pepper flakes and serve hot.
+
+**Rest:** Let lb Chicken rest for 5 minutes before slicing or serving — the juices redistribute and every piece stays moist.

@@ -1,22 +1,36 @@
 ---
 title: Patate al Forno
 difficulty: easy
-cookingMethods: [bake, roast, steam]
+cookingMethods:
+  - bake
+  - roast
+  - steam
 dietary: []
-occasions: [weeknight, entertaining, holiday, potluck]
-seasons: [year-round]
+occasions:
+  - weeknight
+  - entertaining
+  - holiday
+  - potluck
+seasons:
+  - year-round
 nutritionalDensity: moderate
 leftovers: good
-equipment: [sheet-pan]
-flavorProfile: [rich, herbaceous]
-cuisines: [Italian]
+equipment:
+  - sheet-pan
+flavorProfile:
+  - rich
+  - herbaceous
+cuisines:
+  - Italian
 role: side
 vibe: nutritious
 prepTime: 10 min
 cookTime: 40 min
 totalTime: 50 min
 servings: '6'
-pairsWith: [buttermilk-baked-chicken, rosemary-pork-tenderloin]
+pairsWith:
+  - buttermilk-baked-chicken
+  - rosemary-pork-tenderloin
 ingredients:
   - '2 lbs Yukon Gold Potatoes, cut into 1-inch chunks'
   - 3 tbsp Extra-Virgin Olive Oil
@@ -24,6 +38,7 @@ ingredients:
   - 1 tsp Garlic Powder
   - 1 tsp Sea Salt
   - Black Pepper to taste
+origin: Italy
 ---
 
 ## Chef's Note

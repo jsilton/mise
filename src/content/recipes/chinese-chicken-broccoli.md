@@ -1,22 +1,36 @@
 ---
 title: Chinese Chicken and Broccoli
 difficulty: easy
-cookingMethods: [fry, sauté, steam]
+cookingMethods:
+  - fry
+  - sauté
+  - steam
 dietary: []
-occasions: [weeknight, kids-approved, quick-lunch]
-flavorProfile: [sweet, savory, umami]
-cuisines: [Chinese]
+occasions:
+  - weeknight
+  - kids-approved
+  - quick-lunch
+flavorProfile:
+  - sweet
+  - savory
+  - umami
+cuisines:
+  - Chinese
 role: main
 vibe: quick
 prepTime: 15 min
 cookTime: 10 min
 totalTime: 25 min
 servings: '4'
-seasons: [year-round]
+seasons:
+  - year-round
 nutritionalDensity: moderate
 leftovers: excellent
-equipment: [wok]
-pairsWith: [basmati-rice, smashed-cucumber-salad]
+equipment:
+  - wok
+pairsWith:
+  - basmati-rice
+  - smashed-cucumber-salad
 ingredients:
   - '1 lb Chicken Breast, sliced thin against the grain'
   - 1 tbsp Shaoxing Wine
@@ -32,6 +46,7 @@ ingredients:
   - 2 tbsp Peanut Oil (or high-heat oil)
   - '4 cloves Garlic, minced'
   - '1 tsp Fresh Ginger, minced'
+origin: China
 ---
 
 ## Chef's Note
@@ -47,3 +62,5 @@ Chicken and broccoli became a Chinese-American takeout staple in the mid-20th ce
 5.  **Aromatics:** Push chicken to the side. Add garlic and ginger. Sauté for 30 seconds until fragrant.
 6.  **The Glaze:** Return broccoli to the pan. Whisk the sauce again (cornstarch settles!) and pour it in.
 7.  **Finish:** Toss vigorously for 1 minute until the sauce thickens into a glossy glaze. Serve immediately.
+
+**Rest:** Let lb Chicken rest for 5 minutes before slicing or serving — the juices redistribute and every piece stays moist.

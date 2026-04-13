@@ -1,11 +1,18 @@
 ---
 title: Chocolate Crinkle Cookies
 difficulty: easy
-cookingMethods: [bake, simmer]
-dietary: [vegetarian]
-occasions: [comfort-food]
-flavorProfile: [sweet, rich]
-cuisines: [American]
+cookingMethods:
+  - bake
+  - simmer
+dietary:
+  - vegetarian
+occasions:
+  - comfort-food
+flavorProfile:
+  - sweet
+  - rich
+cuisines:
+  - American
 role: dessert
 vibe: comfort
 prepTime: 25 min
@@ -25,6 +32,19 @@ ingredients:
   - 1/4 tsp Baking Soda
   - 1/4 tsp Sea Salt
   - 1 cup Powdered Sugar
+origin: United States
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: good
+advancePrep:
+  - chill-dough
+equipment: []
+pairsWith:
+  - apple-cider-cream-pie
+  - apple-pie
+  - babys-first-smash-cake
+  - best-cinnamon-roll-recipe-cinnabon-copycat
 ---
 
 ## Chef's Note

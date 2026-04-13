@@ -1,28 +1,43 @@
 ---
 title: Buttermilk Waffles
 difficulty: intermediate
-cookingMethods: [steam]
-dietary: [vegetarian]
-occasions: [comfort-food]
-flavorProfile: [sweet, rich]
-cuisines: [American]
+cookingMethods:
+  - steam
+dietary:
+  - vegetarian
+occasions:
+  - comfort-food
+flavorProfile:
+  - sweet
+  - rich
+cuisines:
+  - American
 role: main
 vibe: comfort
 prepTime: 10 min
 cookTime: 10 min
 totalTime: 30 min
 servings: '6'
-pairsWith: [anadama-bread, cinnamon-sweet-potatoes, honey-glazed-carrots]
+pairsWith:
+  - anadama-bread
+  - cinnamon-sweet-potatoes
+  - honey-glazed-carrots
 ingredients:
-  - '2 cups All-Purpose Flour'
-  - '2 tbsp Sugar'
-  - '2 tsp Baking Powder'
-  - '1 tsp Baking Soda'
-  - '1/2 tsp Sea Salt'
-  - '2 cups Whole Buttermilk'
+  - 2 cups All-Purpose Flour
+  - 2 tbsp Sugar
+  - 2 tsp Baking Powder
+  - 1 tsp Baking Soda
+  - 1/2 tsp Sea Salt
+  - 2 cups Whole Buttermilk
   - '1/3 cup Unsalted Butter, melted'
-  - '2 large Eggs'
-  - '1 tsp Vanilla Extract'
+  - 2 large Eggs
+  - 1 tsp Vanilla Extract
+origin: United States
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: good
+equipment: []
 ---
 
 ## Chef's Note

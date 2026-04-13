@@ -1,22 +1,36 @@
 ---
 title: Sage Brown Butter Ravioli
 difficulty: intermediate
-cookingMethods: [fry, boil]
+cookingMethods:
+  - fry
+  - boil
 dietary: []
-occasions: [weeknight, date-night, entertaining]
-flavorProfile: [acidic, umami, rich]
-cuisines: [Italian]
+occasions:
+  - weeknight
+  - date-night
+  - entertaining
+flavorProfile:
+  - acidic
+  - umami
+  - rich
+cuisines:
+  - Italian
 role: main
 vibe: quick
 prepTime: 5 min
 cookTime: 15 min
 totalTime: 20 min
 servings: '4'
-seasons: [fall, winter, year-round]
+seasons:
+  - fall
+  - winter
+  - year-round
 nutritionalDensity: moderate
 leftovers: good
 equipment: []
-pairsWith: [everyday-arugula-salad, roasted-root-vegetables]
+pairsWith:
+  - everyday-arugula-salad
+  - roasted-root-vegetables
 ingredients:
   - 16 oz Butternut Squash Ravioli (fresh or frozen)
   - 1/2 cup (1 stick) Unsalted Butter
@@ -26,6 +40,7 @@ ingredients:
   - 1/4 cup Freshly Grated Parmesan
   - 1/2 tsp Fresh Lemon Juice (The Acid Balance)
   - Coarse Sea Salt and Black Pepper
+origin: Italy
 ---
 
 ## Chef's Note

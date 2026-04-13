@@ -1,24 +1,41 @@
 ---
 title: Basmati Rice
 difficulty: easy
-cookingMethods: [simmer, steam]
+cookingMethods:
+  - simmer
+  - steam
 dietary: []
-occasions: [weeknight, meal-prep]
-flavorProfile: [rich]
-cuisines: [Indian, Middle Eastern]
+occasions:
+  - weeknight
+  - meal-prep
+flavorProfile:
+  - rich
+cuisines:
+  - Indian
+  - Middle Eastern
 role: base
 vibe: quick
 prepTime: 5 min
 cookTime: 20 min
-totalTime: 35 min
-servings: '6'
-pairsWith: [sheet-pan-chicken-broccoli, avgolemono-soup, chinese-spicy-garlic-eggplant]
+totalTime: 25 min
+pairsWith:
+  - sheet-pan-chicken-broccoli
+  - avgolemono-soup
+  - chinese-spicy-garlic-eggplant
 ingredients:
-  - '2 cups Extra-Long Grain Basmati Rice (Royal or Tilda)'
-  - '3 cups Water'
-  - '1 tbsp Butter or Ghee'
-  - '1 tsp Kosher Salt'
-  - '1 tsp Cumin Seeds (optional)'
+  - 2 cups Extra-Long Grain Basmati Rice (Royal or Tilda)
+  - 3 cups Water
+  - 1 tbsp Butter or Ghee
+  - 1 tsp Kosher Salt
+  - 1 tsp Cumin Seeds (optional)
+  - '--- Yogurt ---'
+  - 1/4 cup Plain Yogurt
+origin: India
+seasons:
+  - year-round
+nutritionalDensity: light
+leftovers: good
+equipment: []
 ---
 
 ## Chef's Note
@@ -32,3 +49,4 @@ Perfect Basmati rice is an exercise in **Surface Area Management**. The secret i
 3.  **Cook:** Set rice cooker to "White Rice" or simmer on low for 15-18 minutes if using a pot.
 4.  **The Rest (Critical):** Once cooked, **do not open the lid.** Let the rice steam for 10 minutes. This allows the moisture to redistribute into the center of each grain.
 5.  **Fluff:** Gently fluff with a fork and serve.
+

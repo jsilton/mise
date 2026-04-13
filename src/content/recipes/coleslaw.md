@@ -11,8 +11,7 @@ role: side
 vibe: quick
 prepTime: 15 min
 cookTime: 0 min
-totalTime: 75 min
-servings: '8'
+totalTime: '15 min'
 seasons: [spring, summer, year-round]
 nutritionalDensity: light
 leftovers: good

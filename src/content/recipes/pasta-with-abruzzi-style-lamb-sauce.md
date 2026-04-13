@@ -1,27 +1,41 @@
 ---
 title: Pasta with Abruzzi-Style Lamb Sauce
 difficulty: easy
-cookingMethods: [simmer, boil]
+cookingMethods:
+  - simmer
+  - boil
 dietary: []
-occasions: [comfort-food]
-flavorProfile: [rich]
-cuisines: [Italian]
+occasions:
+  - comfort-food
+flavorProfile:
+  - rich
+cuisines:
+  - Italian
 role: main
 vibe: comfort
 prepTime: 20 min
 cookTime: 50 min
 totalTime: 70 min
 servings: '6'
-pairsWith: [garlic-bread, creamy-polenta, patate-al-forno]
+pairsWith:
+  - garlic-bread
+  - creamy-polenta
+  - patate-al-forno
 ingredients:
-  - '1 lb Penne or Rigatoni'
+  - 1 lb Penne or Rigatoni
   - '3/4 lb Boneless Lamb (Leg or Shoulder), finely diced or ground'
   - '2 oz Pancetta, finely chopped'
   - '1/4 cup Yellow Onion, diced'
   - '1 tbsp Fresh Rosemary, chopped'
-  - '3/4 cup Dry White Wine'
+  - 3/4 cup Dry White Wine
   - '1 (28 oz) can Whole Peeled Tomatoes, crushed by hand'
   - '1/3 cup Pecorino Romano, grated'
+origin: Italy
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: good
+equipment: []
 ---
 
 ## Chef's Note

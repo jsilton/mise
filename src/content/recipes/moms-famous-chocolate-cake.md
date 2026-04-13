@@ -1,16 +1,31 @@
 ---
 title: Chocolate Cake
 difficulty: intermediate
-cookingMethods: [bake, boil]
-dietary: [vegetarian]
-occasions: [holiday, entertaining, kids-approved, indulgent]
-seasons: [year-round]
+cookingMethods:
+  - bake
+  - boil
+dietary:
+  - vegetarian
+occasions:
+  - holiday
+  - entertaining
+  - kids-approved
+  - indulgent
+seasons:
+  - year-round
 nutritionalDensity: hearty
 leftovers: excellent
-equipment: [cake-pans, saucepan, mixing-bowl]
-advancePrep: [make-ahead]
-flavorProfile: [sweet, rich]
-cuisines: [American]
+equipment:
+  - cake-pans
+  - saucepan
+  - mixing-bowl
+advancePrep:
+  - make-ahead
+flavorProfile:
+  - sweet
+  - rich
+cuisines:
+  - American
 role: dessert
 vibe: technical
 prepTime: 10 min
@@ -32,6 +47,12 @@ ingredients:
   - 4 tbsp Cocoa Powder
   - 6 tbsp Whole Milk
   - 1 box (1 lb) Confectioners’ Sugar
+origin: United States
+pairsWith:
+  - apple-cider-cream-pie
+  - apple-pie
+  - babys-first-smash-cake
+  - best-cinnamon-roll-recipe-cinnabon-copycat
 ---
 
 ## Chef's Note

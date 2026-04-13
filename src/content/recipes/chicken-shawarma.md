@@ -1,18 +1,28 @@
 ---
 title: Chicken Shawarma
 difficulty: intermediate
-cookingMethods: [bake, roast]
+cookingMethods:
+  - bake
+  - roast
 dietary: []
-occasions: [weeknight, meal-prep]
-flavorProfile: [acidic, smoky]
-cuisines: [Middle Eastern]
+occasions:
+  - weeknight
+  - meal-prep
+flavorProfile:
+  - acidic
+  - smoky
+cuisines:
+  - Middle Eastern
 role: main
 vibe: nutritious
 prepTime: 15 min
 cookTime: 20 min
-totalTime: 4 hours
+totalTime: 4 hr
 servings: '4'
-pairsWith: [lemon-herb-couscous, garlic-butter-couscous, warm-pita-bread]
+pairsWith:
+  - lemon-herb-couscous
+  - garlic-butter-couscous
+  - warm-pita-bread
 ingredients:
   - '1.5 lbs Chicken Thighs, boneless/skinless'
   - 2 tbsp Olive Oil
@@ -24,6 +34,14 @@ ingredients:
   - 1/2 tsp Smoked Paprika
   - 1/2 tsp Salt
   - '[Tahini Sauce](/mise/recipes/tahini-sauce)'
+origin: Middle East
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: good
+equipment: []
+advancePrep:
+  - marinate-overnight
 ---
 
 ## Chef's Note

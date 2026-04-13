@@ -2,34 +2,54 @@
 title: Shaved Fennel Citrus Salad
 origin: Italian
 difficulty: easy
-cookingMethods: [raw]
-dietary: [vegetarian, vegan, gluten-free]
-occasions: [weeknight, light-and-fresh, holiday, date-night]
-flavorProfile: [acidic, sweet, fresh, anise, herbaceous]
-cuisines: [Italian, Mediterranean]
+cookingMethods:
+  - raw
+dietary:
+  - vegetarian
+  - gluten-free
+occasions:
+  - weeknight
+  - light-and-fresh
+  - holiday
+  - date-night
+flavorProfile:
+  - acidic
+  - sweet
+  - fresh
+  - anise
+  - herbaceous
+cuisines:
+  - Italian
+  - Mediterranean
 role: side
 vibe: nutritious
-seasons: [winter, spring]
+seasons:
+  - winter
+  - spring
 nutritionalDensity: light
 leftovers: poor
-advancePrep: [shave-fennel-up-to-2-hours-in-ice-water]
-equipment: [mandoline]
+advancePrep:
+  - shave-fennel-up-to-2-hours-in-ice-water
+equipment:
+  - mandoline
 prepTime: 15 min
 cookTime: 0 min
 totalTime: 15 min
 servings: '4'
 pairsWith:
-  [mediterranean-salmon-with-lemon-herb-emulsion, chicken-piccata-unfried, chicken-milanese]
+  - mediterranean-salmon-with-lemon-herb-emulsion
+  - chicken-piccata-unfried
+  - chicken-milanese
 ingredients:
   - '2 large Fennel Bulbs, stalks removed and fronds reserved'
-  - '2 large Navel Oranges or Cara Cara Oranges'
-  - '1 small Grapefruit (optional)'
-  - '1/4 cup Extra Virgin Olive Oil'
-  - '1 tbsp Lemon Juice'
-  - '1 tsp Honey or Agave'
-  - '1/4 tsp Kosher Salt'
-  - '1/4 tsp Black Pepper'
-  - '2 tbsp Shaved Parmesan (omit for vegan)'
+  - 2 large Navel Oranges or Cara Cara Oranges
+  - 1 small Grapefruit (optional)
+  - 1/4 cup Extra Virgin Olive Oil
+  - 1 tbsp Lemon Juice
+  - 1 tsp Honey or Agave
+  - 1/4 tsp Kosher Salt
+  - 1/4 tsp Black Pepper
+  - 2 tbsp Shaved Parmesan (omit for vegan)
   - '1/4 cup Castelvetrano Olives, pitted and halved (optional)'
   - 'Fennel Fronds, for garnish'
 ---

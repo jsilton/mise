@@ -3,11 +3,20 @@ title: Lemon Pepper Wings
 role: main
 vibe: comfort
 difficulty: easy
-cuisines: [American]
-occasions: [entertaining, game-day]
-dietary: [gluten-free]
-cookingMethods: [roast, broil]
-flavorProfile: [savory, acidic, peppery]
+cuisines:
+  - American
+occasions:
+  - entertaining
+  - game-day
+dietary:
+  - gluten-free
+cookingMethods:
+  - roast
+  - broil
+flavorProfile:
+  - savory
+  - acidic
+  - peppery
 prepTime: 15 min
 cookTime: 45 min
 totalTime: 60 min
@@ -16,7 +25,9 @@ pairsWith:
   - crockpot-mac-and-cheese
   - korean-gochujang-wings
   - charred-guacamole-with-pomegranate
-equipment: [sheet-pan, wire-rack]
+equipment:
+  - sheet-pan
+  - wire-rack
 ingredients:
   - 'For the Wings:'
   - 3 lbs Chicken Wings (separated into flats and drums)
@@ -33,6 +44,11 @@ ingredients:
   - 'For Serving:'
   - Fresh Parsley (chopped)
   - Lemon Wedges
+origin: United States
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: good
 ---
 
 ## Chef's Note

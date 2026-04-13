@@ -1,16 +1,29 @@
 ---
 title: Herb Pork Tenderloin
 difficulty: intermediate
-cookingMethods: [bake, roast]
+cookingMethods:
+  - bake
+  - roast
 dietary: []
-occasions: [weeknight, date-night, entertaining]
-seasons: [year-round]
+occasions:
+  - weeknight
+  - date-night
+  - entertaining
+seasons:
+  - year-round
 nutritionalDensity: moderate
 leftovers: excellent
-equipment: [large-skillet]
-advancePrep: [make-ahead]
-flavorProfile: [sweet, acidic, rich, herbaceous]
-cuisines: [American]
+equipment:
+  - large-skillet
+advancePrep:
+  - make-ahead
+flavorProfile:
+  - sweet
+  - acidic
+  - rich
+  - herbaceous
+cuisines:
+  - American
 role: main
 vibe: quick
 prepTime: 10 min
@@ -18,11 +31,9 @@ cookTime: 15 min
 totalTime: 25 min
 servings: '6'
 pairsWith:
-  [
-    roasted-fall-harvest-salad,
-    roasted-sunchokes-with-brown-butter-cider-vinaigrette,
-    cinnamon-sweet-potatoes,
-  ]
+  - roasted-fall-harvest-salad
+  - roasted-sunchokes-with-brown-butter-cider-vinaigrette
+  - cinnamon-sweet-potatoes
 ingredients:
   - 3 Pork Tenderloins (about 1 lb each)
   - 3/4 cup Fresh Lemon Juice
@@ -33,6 +44,7 @@ ingredients:
   - '1 tbsp Fresh Thyme, chopped'
   - 2 tsp Dijon Mustard (The Finishing Touch)
   - Kosher Salt and Black Pepper
+origin: United States
 ---
 
 ## Chef's Note

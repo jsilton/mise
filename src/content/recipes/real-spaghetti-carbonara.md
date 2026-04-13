@@ -2,29 +2,42 @@
 title: Spaghetti Carbonara
 origin: Italy
 difficulty: intermediate
-cookingMethods: [sauté, boil]
+cookingMethods:
+  - sauté
+  - boil
 dietary: []
-occasions: [weeknight, date-night, comfort-food]
-flavorProfile: [umami, rich]
-cuisines: [Italian]
+occasions:
+  - weeknight
+  - date-night
+  - comfort-food
+flavorProfile:
+  - umami
+  - rich
+cuisines:
+  - Italian
 role: main
 vibe: quick
 prepTime: 5 min
 cookTime: 15 min
 totalTime: 20 min
 servings: '4'
-seasons: [year-round]
+seasons:
+  - year-round
 nutritionalDensity: hearty
 leftovers: poor
 equipment: []
-pairsWith: [avocado-kale-caesar-salad, garlic-bread]
+pairsWith:
+  - avocado-kale-caesar-salad
+  - garlic-bread
 ingredients:
-  - '1 lb Spaghetti or Rigatoni'
-  - '4 oz Guanciale or Pancetta (thickly diced)'
+  - 1 lb Spaghetti or Rigatoni
+  - 4 oz Guanciale or Pancetta (thickly diced)
   - '4 large Eggs (2 whole, 2 yolks)'
   - '1 cup Pecorino Romano or Parmesan, freshly grated'
-  - '1 tsp Freshly Cracked Black Pepper (lots!)'
-  - 'Salt for pasta water'
+  - 1 tsp Freshly Cracked Black Pepper (lots!)
+  - Salt for pasta water
+  - '--- Lemon juice ---'
+  - '1-2 Lemons, juiced'
 ---
 
 ## Chef's Note
@@ -40,3 +53,4 @@ Carbonara is a Roman dish that dates to the 1940s, with debates about whether it
 5.  **Toss:** Add the hot pasta to the skillet with the rendered fat. Pour the warm egg/cheese mixture over the pasta.
 6.  **Emulsify:** Add 1/4 cup of pasta water. Toss vigorously and constantly. The heat from the pasta will finish cooking the eggs into a silky, glossy sauce. Add more water if it looks too thick.
 7.  **Serve:** Serve immediately with extra Pecorino and pepper.
+

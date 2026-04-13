@@ -2,22 +2,34 @@
 title: Quick Wonton Soup
 origin: China
 difficulty: easy
-cookingMethods: [simmer, boil]
+cookingMethods:
+  - simmer
+  - boil
 dietary: []
-occasions: [weeknight, quick-lunch, comfort-food]
-flavorProfile: [savory, umami]
-cuisines: [Chinese]
+occasions:
+  - weeknight
+  - quick-lunch
+  - comfort-food
+flavorProfile:
+  - savory
+  - umami
+cuisines:
+  - Chinese
 role: main
 vibe: quick
 prepTime: 10 min
 cookTime: 15 min
 totalTime: 25 min
 servings: '4'
-seasons: [year-round, winter]
+seasons:
+  - year-round
+  - winter
 nutritionalDensity: moderate
 leftovers: good
 equipment: []
-pairsWith: [smashed-cucumber-salad, steamed-broccoli]
+pairsWith:
+  - smashed-cucumber-salad
+  - steamed-broccoli
 ingredients:
   - 20 Mini Frozen Wontons (Trader Joe’s or H-Mart)
   - 6 cups Low-sodium Chicken Broth
@@ -29,6 +41,8 @@ ingredients:
   - 1 tsp Toasted Sesame Oil
   - 'Scallions, sliced green parts only'
   - White Pepper
+  - '--- Black vinegar ---'
+  - 1 tbsp Black Vinegar
 ---
 
 ## Chef's Note
@@ -42,3 +56,4 @@ Quick wonton soup using store-bought frozen wontons makes a comforting 25-minute
 3.  **Wontons:** Add the frozen wontons. Simmer for 2-3 minutes until they float and are heated through.
 4.  **Finish:** Stir in the soy sauce and toasted sesame oil. Add a pinch of white pepper for the mandatory **High Note**.
 5.  **Serve:** Divide into bowls, ensuring everyone gets 5 wontons. Garnish with fresh scallions.
+

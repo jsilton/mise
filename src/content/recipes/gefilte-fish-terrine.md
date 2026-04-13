@@ -1,18 +1,29 @@
 ---
 title: Gefilte Fish Terrine
 difficulty: easy
-cookingMethods: [bake, sauté, boil, blend]
+cookingMethods:
+  - bake
+  - sauté
+  - boil
+  - blend
 dietary: []
-occasions: [holiday]
-flavorProfile: [acidic, rich]
-cuisines: [Jewish]
+occasions:
+  - holiday
+flavorProfile:
+  - acidic
+  - rich
+cuisines:
+  - Jewish
 role: main
 vibe: holiday
 prepTime: 30 min
 cookTime: 75 min
 totalTime: 105 min
 servings: '10'
-pairsWith: [nana-ruths-applesauce, cinnamon-sweet-potatoes, green-beans-with-shallots-and-lemon]
+pairsWith:
+  - nana-ruths-applesauce
+  - cinnamon-sweet-potatoes
+  - green-beans-with-shallots-and-lemon
 ingredients:
   - '12 oz Carp or Pike Fillet, chopped'
   - '12 oz Salmon Fillet, chopped'
@@ -27,6 +38,11 @@ ingredients:
   - 2 cups Baby Arugula
   - '4 Radishes, sliced'
   - '1 tbsp Fresh Horseradish, grated'
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: good
+equipment: []
 ---
 
 ## Chef's Note

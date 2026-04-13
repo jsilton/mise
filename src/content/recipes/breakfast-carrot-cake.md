@@ -1,43 +1,58 @@
 ---
 title: Breakfast Carrot Cake
 difficulty: easy
-cookingMethods: [bake]
-dietary: [vegetarian]
-occasions: [meal-prep, kids-approved, weekend-project]
-seasons: [year-round]
+cookingMethods:
+  - bake
+dietary:
+  - vegetarian
+occasions:
+  - meal-prep
+  - kids-approved
+  - weekend-project
+seasons:
+  - year-round
 nutritionalDensity: moderate
 leftovers: excellent
-equipment: [baking-dish, mixing-bowl, grater]
-advancePrep: [make-ahead, freeze-ahead]
-pairsWith: [favorite-cream-cheese-frosting]
-flavorProfile: [sweet, rich]
-cuisines: [American]
+equipment:
+  - baking-dish
+  - mixing-bowl
+  - grater
+advancePrep:
+  - make-ahead
+  - freeze-ahead
+pairsWith:
+  - favorite-cream-cheese-frosting
+flavorProfile:
+  - sweet
+  - rich
+cuisines:
+  - American
 role: main
 vibe: nutritious
 prepTime: 15 min
 cookTime: 30 min
 totalTime: 45 min
-servings: '12 pieces'
+servings: 12 pieces
 ingredients:
   - '250g Carrots (2 large), finely grated'
-  - '1 1/4 cups Whole Wheat Flour'
-  - '1 large Egg'
-  - '1/4 cup Granulated Sugar'
+  - 1 1/4 cups Whole Wheat Flour
+  - 1 large Egg
+  - 1/4 cup Granulated Sugar
   - '1/4 cup Brown Sugar, packed'
-  - '1/2 cup Canola or Avocado Oil'
-  - '1/3 cup Plain Greek Yogurt'
-  - '1 tsp Vanilla Extract'
-  - '1/2 tsp Ground Cinnamon'
-  - '3/4 tsp Baking Powder'
-  - '1/2 tsp Baking Soda'
-  - '1/4 tsp Sea Salt'
+  - 1/2 cup Canola or Avocado Oil
+  - 1/3 cup Plain Greek Yogurt
+  - 1 tsp Vanilla Extract
+  - 1/2 tsp Ground Cinnamon
+  - 3/4 tsp Baking Powder
+  - 1/2 tsp Baking Soda
+  - 1/4 tsp Sea Salt
   - '1/4 cup Walnuts or Pecans, chopped'
+origin: United States
 ---
 
 ## Chef's Note
 
-This is a nutritious take on carrot cake, reimagined as a high-fiber breakfast. By using whole wheat flour and Greek yogurt, we achieve a dense, moist crumb that provides sustained energy. The secret to the texture is finely grating the carrots—they should almost melt into the batter during baking, providing moisture without any mushy texture. This is a great option for busy mornings.
-
+Breakfast carrot cake splits the difference between muffin and snack cake — whole wheat flour and Greek yogurt give it enough structure and protein to pass as morning food, while the grated carrots keep it moist for days. The trick is grating on the fine holes, not the large ones — larger shreds release too much water during baking and create soggy pockets. This freezes beautifully: wrap individual squares in plastic and pull them out the night before for school mornings.
 ## Directions
 
 1.  **Prep:** Preheat oven to 375°F (185°C). Grease an 8-inch square pan or line with parchment paper.

@@ -1,11 +1,20 @@
 ---
 title: Cod with Lemon Panko
 difficulty: easy
-cookingMethods: [bake, roast, poach]
+cookingMethods:
+  - bake
+  - roast
+  - poach
 dietary: []
-occasions: [weeknight, light-and-fresh]
-flavorProfile: [acidic, rich, herbaceous]
-cuisines: [Mediterranean]
+occasions:
+  - weeknight
+  - light-and-fresh
+flavorProfile:
+  - acidic
+  - rich
+  - herbaceous
+cuisines:
+  - Mediterranean
 role: main
 vibe: quick
 prepTime: 10 min
@@ -13,7 +22,9 @@ cookTime: 15 min
 totalTime: 25 min
 servings: '4'
 pairsWith:
-  [peach-salad-with-tomatoes-and-beets, charred-asparagus-with-parmesan, sesame-tomato-salad]
+  - peach-salad-with-tomatoes-and-beets
+  - charred-asparagus-with-parmesan
+  - sesame-tomato-salad
 ingredients:
   - '4 Cod Fillets (or Halibut/Haddock), patted dry'
   - '2 tbsp Unsalted Butter, melted'
@@ -26,6 +37,12 @@ ingredients:
   - '1 clove Garlic, minced'
   - 1/4 tsp Paprika
   - '2 tbsp Fresh Parsley, chopped'
+origin: Mediterranean
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: good
+equipment: []
 ---
 
 ## Chef's Note
@@ -40,3 +57,4 @@ This Mediterranean-style preparation uses two butter applications: one mixed wit
 4.  **Press:** Press the panko mixture firmly onto the top of each fillet to create an even, thick coating.
 5.  **Bake:** Bake for 12-15 minutes until the fish flakes easily with a fork and the panko is deep golden brown.
 6.  **Serve:** Spoon some of the lemon butter from the pan over the fish just before serving.
+

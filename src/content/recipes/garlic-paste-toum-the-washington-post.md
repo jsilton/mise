@@ -2,29 +2,40 @@
 title: Toum
 origin: Lebanon
 difficulty: easy
-cookingMethods: [grill, blend]
+cookingMethods:
+  - grill
+  - blend
 dietary: []
-occasions: [meal-prep, entertaining]
-flavorProfile: [acidic, rich]
-cuisines: [Lebanese, Middle Eastern]
+occasions:
+  - meal-prep
+  - entertaining
+flavorProfile:
+  - acidic
+  - rich
+cuisines:
+  - Lebanese
+  - Middle Eastern
 role: condiment
 vibe: nutritious
 prepTime: 20 min
 cookTime: 0 min
 totalTime: 20 min
-servings: '4 cups'
+servings: 4 cups
 pairsWith:
-  [
-    chicken-shawarma,
-    chicken-thigh-kebabs-with-chile-yogurt-sauce,
-    middle-eastern-style-grilled-chicken-kabobs,
-  ]
+  - chicken-shawarma
+  - chicken-thigh-kebabs-with-chile-yogurt-sauce
+  - middle-eastern-style-grilled-chicken-kabobs
 ingredients:
   - '2 cups Fresh Garlic Cloves, peeled'
-  - '1/2 tsp Kosher Salt'
-  - '3 cups Neutral Oil (Grapeseed or Canola)'
-  - '1/4 cup Fresh Lemon Juice'
-  - '1/3 cup Cold Water'
+  - 1/2 tsp Kosher Salt
+  - 3 cups Neutral Oil (Grapeseed or Canola)
+  - 1/4 cup Fresh Lemon Juice
+  - 1/3 cup Cold Water
+seasons:
+  - year-round
+nutritionalDensity: light
+leftovers: good
+equipment: []
 ---
 
 ## Chef's Note

@@ -2,17 +2,30 @@
 title: Sukju Namul
 origin: Korea
 difficulty: intermediate
-cookingMethods: [boil]
-dietary: [vegetarian]
-occasions: [weeknight, light-and-fresh]
-flavorProfile: [savory]
-cuisines: [Korean]
+cookingMethods:
+  - boil
+dietary:
+  - vegetarian
+occasions:
+  - weeknight
+  - light-and-fresh
+flavorProfile:
+  - savory
+cuisines:
+  - Korean
 role: side
 vibe: nutritious
-season: [spring, summer, fall, winter]
+season:
+  - spring
+  - summer
+  - fall
+  - winter
 leftovers: good
 healthiness: light
-pairsWith: [bibimbap, kalbi-grilled-korean-style-short-ribs, basmati-rice]
+pairsWith:
+  - bibimbap
+  - kalbi-grilled-korean-style-short-ribs
+  - basmati-rice
 prepTime: 5 min
 cookTime: 5 min
 totalTime: 10 min
@@ -25,12 +38,15 @@ ingredients:
   - 1/2 tsp Fine Sea Salt
   - 1 tbsp Toasted Sesame Oil
   - 1 tsp Toasted Sesame Seeds
+seasons:
+  - year-round
+nutritionalDensity: moderate
+equipment: []
 ---
 
 ## Chef's Note
 
-This is a classic Korean side dish. The key to crisp sprouts is blanching them for exactly 2 minutes and immediately plunging them into ice water. To avoid a watery dressing, gather the chilled sprouts and squeeze with your hands until bone-dry. This ensures the sesame-garlic dressing binds directly to the sprouts, providing a nutty, savory flavor in every bite.
-
+Seasoned mung bean sprouts are a Korean side dish served at almost every meal—tender, nutty, and finished with sesame oil and toasted sesame seeds. The bean sprouts cook just until tender but still have a slight crunch. Toast the sesame seeds before adding them so you get their full nutty flavor, not just a starchy taste.
 ## Directions
 
 1.  **Thermal Prep:** Bring a large pot of water to a boil with 1 tsp salt. Prepare an ice-water bath.

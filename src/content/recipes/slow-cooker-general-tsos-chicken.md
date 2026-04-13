@@ -1,32 +1,49 @@
 ---
-title: "Slow Cooker General Tso's Chicken"
+title: Slow Cooker General Tso's Chicken
 difficulty: easy
-cookingMethods: [fry, steam, slow-cook]
+cookingMethods:
+  - fry
+  - steam
+  - slow-cook
 dietary: []
-occasions: [meal-prep, comfort-food, weeknight]
-flavorProfile: [sweet, savory, acidic, umami]
-cuisines: [Chinese]
+occasions:
+  - meal-prep
+  - comfort-food
+  - weeknight
+flavorProfile:
+  - sweet
+  - savory
+  - acidic
+  - umami
+cuisines:
+  - Chinese
 role: main
 vibe: comfort
 prepTime: 15 min
 cookTime: 240 min
 totalTime: 255 min
 servings: '4'
-seasons: [year-round]
+seasons:
+  - year-round
 nutritionalDensity: hearty
 leftovers: excellent
-equipment: [slow-cooker]
-pairsWith: [basmati-rice, steamed-broccoli, garlic-sesame-spinach]
+equipment:
+  - slow-cooker
+pairsWith:
+  - basmati-rice
+  - steamed-broccoli
+  - garlic-sesame-spinach
 ingredients:
   - '2 lbs Chicken Breasts, chopped into bite-sized pieces'
-  - '1 cup Cornstarch (as binder)'
-  - '4 tbsp Hoisin Sauce'
-  - '4 tbsp Soy Sauce'
-  - '4 tbsp Rice Vinegar (The Acid Balance)'
-  - '2 tbsp Granulated Sugar'
+  - 1 cup Cornstarch (as binder)
+  - 4 tbsp Hoisin Sauce
+  - 4 tbsp Soy Sauce
+  - 4 tbsp Rice Vinegar (The Acid Balance)
+  - 2 tbsp Granulated Sugar
   - '1 tbsp Fresh Ginger, grated'
-  - '1 tsp Red Pepper Flakes'
-  - 'Neutral Oil for searing'
+  - 1 tsp Red Pepper Flakes
+  - Neutral Oil for searing
+origin: China
 ---
 
 ## Chef's Note

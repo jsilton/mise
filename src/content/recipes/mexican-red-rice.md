@@ -2,27 +2,41 @@
 title: Arroz Rojo
 origin: Mexico
 difficulty: easy
-cookingMethods: [fry, simmer, boil, blend]
+cookingMethods:
+  - fry
+  - simmer
+  - boil
+  - blend
 dietary: []
-occasions: [weeknight, meal-prep]
+occasions:
+  - weeknight
+  - meal-prep
 flavorProfile: []
-cuisines: [Mexican]
+cuisines:
+  - Mexican
 role: base
 vibe: quick
 prepTime: 5 min
 cookTime: 20 min
-totalTime: 35 min
-servings: '4'
-pairsWith: [crispy-black-bean-tacos, honey-chipotle-lime-chicken-bowls, honey-lime-chicken-thighs]
+totalTime: '25 min'
+pairsWith:
+  - crispy-black-bean-tacos
+  - honey-chipotle-lime-chicken-bowls
+  - honey-lime-chicken-thighs
 ingredients:
-  - '1 cup Long-grain White Rice'
-  - '2 tbsp Neutral Oil'
-  - '1 cup Tomato Puree (or 2 Roma tomatoes blended smooth)'
-  - '1 cup Chicken Broth'
+  - 1 cup Long-grain White Rice
+  - 2 tbsp Neutral Oil
+  - 1 cup Tomato Puree (or 2 Roma tomatoes blended smooth)
+  - 1 cup Chicken Broth
   - '1/4 cup Yellow Onion, finely diced'
   - '2 cloves Garlic, minced'
-  - '1 tsp Salt'
-  - '1 sprig Cilantro'
+  - 1 tsp Salt
+  - 1 sprig Cilantro
+seasons:
+  - year-round
+nutritionalDensity: light
+leftovers: good
+equipment: []
 ---
 
 ## Chef's Note

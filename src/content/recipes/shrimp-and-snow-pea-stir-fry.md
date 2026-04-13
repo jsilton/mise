@@ -1,22 +1,39 @@
 ---
 title: Shrimp & Snow Pea Stir Fry
 difficulty: easy
-cookingMethods: [fry, sauté, boil]
+cookingMethods:
+  - fry
+  - sauté
+  - boil
 dietary: []
-occasions: [weeknight, quick-lunch, light-and-fresh]
-flavorProfile: [spicy, sweet, savory, umami]
-cuisines: [Chinese]
+occasions:
+  - weeknight
+  - quick-lunch
+  - light-and-fresh
+flavorProfile:
+  - spicy
+  - sweet
+  - savory
+  - umami
+cuisines:
+  - Chinese
 role: main
 vibe: quick
 prepTime: 10 min
 cookTime: 10 min
 totalTime: 20 min
 servings: '4'
-seasons: [spring, summer, year-round]
+seasons:
+  - spring
+  - summer
+  - year-round
 nutritionalDensity: moderate
 leftovers: good
-equipment: [wok]
-pairsWith: [smashed-cucumber-salad, steamed-broccoli]
+equipment:
+  - wok
+pairsWith:
+  - smashed-cucumber-salad
+  - steamed-broccoli
 ingredients:
   - 8 oz Rice Linguine Noodles
   - '8 oz Raw Shrimp, peeled and deveined'
@@ -26,6 +43,7 @@ ingredients:
   - '1 tbsp Fresh Ginger, grated'
   - '1 clove Garlic, minced'
   - Neutral Oil
+origin: China
 ---
 
 ## Chef's Note

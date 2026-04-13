@@ -1,18 +1,30 @@
 ---
 title: Spinach & Mushroom Quiche
 difficulty: easy
-cookingMethods: [bake, sauté, no-cook]
-dietary: [vegetarian]
-occasions: [comfort-food]
-flavorProfile: [sweet, acidic, rich]
-cuisines: [French]
+cookingMethods:
+  - bake
+  - sauté
+  - no-cook
+dietary:
+  - vegetarian
+occasions:
+  - comfort-food
+flavorProfile:
+  - sweet
+  - acidic
+  - rich
+cuisines:
+  - French
 role: main
 vibe: comfort
 prepTime: 25 min
 cookTime: 65 min
 totalTime: 90 min
 servings: '6'
-pairsWith: [sweet-and-white-potato-gratin, tarragon-potatoes, arugula-feta-salad]
+pairsWith:
+  - sweet-and-white-potato-gratin
+  - tarragon-potatoes
+  - arugula-feta-salad
 ingredients:
   - 1 Pie Crust (Homemade or Store-bought)
   - '8 oz Fresh Mixed Mushrooms, sliced'
@@ -25,6 +37,12 @@ ingredients:
   - 1 tbsp Fresh Thyme
   - '1 1/2 cups Sweet Onion, thinly sliced'
   - '1 tbsp Garlic, sliced'
+origin: France
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: good
+equipment: []
 ---
 
 ## Chef's Note

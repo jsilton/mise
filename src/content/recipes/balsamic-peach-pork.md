@@ -1,18 +1,30 @@
 ---
 title: Balsamic Peach Pork Chops
 difficulty: easy
-cookingMethods: [bake, simmer]
+cookingMethods:
+  - bake
+  - simmer
 dietary: []
-occasions: [weeknight, summer]
-flavorProfile: [spicy, sweet, acidic, herbaceous]
-cuisines: [Mediterranean]
+occasions:
+  - weeknight
+  - summer
+flavorProfile:
+  - spicy
+  - sweet
+  - acidic
+  - herbaceous
+cuisines:
+  - Mediterranean
 role: main
 vibe: nutritious
 prepTime: 10 min
 cookTime: 15 min
 totalTime: 25 min
 servings: '4'
-pairsWith: [greek-salad, garlicky-lemon-kale-with-carrots, lemon-herb-couscous]
+pairsWith:
+  - greek-salad
+  - garlicky-lemon-kale-with-carrots
+  - lemon-herb-couscous
 ingredients:
   - 4 Bone-in Pork Chops (1-inch thick)
   - '2 Fresh Peaches, sliced'
@@ -22,12 +34,17 @@ ingredients:
   - 1 tbsp Fresh Thyme
   - '1/2 cup Fresh Basil, torn'
   - Salt and Black Pepper
+origin: Mediterranean
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: good
+equipment: []
 ---
 
 ## Chef's Note
 
-This dish is a masterclass in **Flavor Balancing**: the sweetness of the peaches, the funk of the feta, and the sharp acid of the balsamic glaze work together to elevate the humble pork chop. The secret is the **Broiler Char**: we sear the pork in a skillet first, then finish it under the broiler with the peach slices to caramelize the fruit sugars and melt the cheese simultaneously.
-
+Balsamic and peaches is an Italian pairing—sweet fruit cutting through savory pork, with the vinegar providing acidity that bridges the two. Pork tenderloin is a fast protein that stays tender when you don't overdo it; pull it at 135°F internal temp and let it rest for 5 minutes, then slice against the grain so each piece is tender, not stringy.
 ## Directions
 
 1.  **Sear:** Heat oil in a large cast-iron skillet over high heat. Season pork with salt and pepper. Sear for 3-4 minutes per side until golden.

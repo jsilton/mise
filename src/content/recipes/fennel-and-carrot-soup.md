@@ -1,18 +1,33 @@
 ---
 title: Fennel and Carrot Soup
 difficulty: easy
-cookingMethods: [roast, sauté, simmer, boil, blend]
-dietary: [vegetarian]
-occasions: [comfort-food]
-flavorProfile: [sweet, acidic, rich, herbaceous]
-cuisines: [Mediterranean]
+cookingMethods:
+  - roast
+  - sauté
+  - simmer
+  - boil
+  - blend
+dietary:
+  - vegetarian
+occasions:
+  - comfort-food
+flavorProfile:
+  - sweet
+  - acidic
+  - rich
+  - herbaceous
+cuisines:
+  - Mediterranean
 role: main
 vibe: comfort
 prepTime: 15 min
 cookTime: 70 min
 totalTime: 85 min
 servings: '6'
-pairsWith: [arugula-feta-salad, peach-salad-with-tomatoes-and-beets, whipped-feta-with-honey]
+pairsWith:
+  - arugula-feta-salad
+  - peach-salad-with-tomatoes-and-beets
+  - whipped-feta-with-honey
 ingredients:
   - '2 lbs Carrots, peeled and chopped'
   - '1 large Fennel Bulb, thinly sliced'
@@ -26,6 +41,12 @@ ingredients:
   - 1/4 cup Crème Fraîche
   - 1 tbsp Pure Maple Syrup
   - Salt and Black Pepper
+origin: Mediterranean
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: good
+equipment: []
 ---
 
 ## Chef's Note

@@ -1,16 +1,28 @@
 ---
 title: Katharine Hepburn’s Brownies
 difficulty: intermediate
-cookingMethods: [bake]
-dietary: [vegetarian]
-occasions: [indulgent, entertaining, kids-approved]
-seasons: [year-round]
+cookingMethods:
+  - bake
+dietary:
+  - vegetarian
+occasions:
+  - indulgent
+  - entertaining
+  - kids-approved
+seasons:
+  - year-round
 nutritionalDensity: hearty
 leftovers: excellent
-equipment: [baking-dish, saucepan]
-advancePrep: [make-ahead]
-flavorProfile: [sweet, rich]
-cuisines: [American]
+equipment:
+  - baking-dish
+  - saucepan
+advancePrep:
+  - make-ahead
+flavorProfile:
+  - sweet
+  - rich
+cuisines:
+  - American
 role: dessert
 vibe: nutritious
 prepTime: 10 min
@@ -18,14 +30,20 @@ cookTime: 30 min
 totalTime: 40 min
 servings: '12'
 ingredients:
-  - '1/2 cup Unsalted Butter (1 stick)'
-  - '1/2 cup Unsweetened Cocoa Powder'
-  - '1 cup Granulated Sugar'
-  - '2 large Eggs'
-  - '1/4 cup All-Purpose Flour'
+  - 1/2 cup Unsalted Butter (1 stick)
+  - 1/2 cup Unsweetened Cocoa Powder
+  - 1 cup Granulated Sugar
+  - 2 large Eggs
+  - 1/4 cup All-Purpose Flour
   - '1 cup Walnuts or Pecans, coarsely chopped'
-  - '1 tsp Pure Vanilla Extract'
-  - 'Pinch of Sea Salt'
+  - 1 tsp Pure Vanilla Extract
+  - Pinch of Sea Salt
+origin: United States
+pairsWith:
+  - apple-cider-cream-pie
+  - apple-pie
+  - babys-first-smash-cake
+  - best-cinnamon-roll-recipe-cinnabon-copycat
 ---
 
 ## Chef's Note

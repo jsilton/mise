@@ -1,14 +1,28 @@
 ---
 title: Red Velvet Cupcakes
 difficulty: easy
-cookingMethods: [bake]
-dietary: [vegetarian]
-occasions: [holiday, entertaining, weekend-project, kids-approved]
-flavorProfile: [sweet, acidic, rich]
-cuisines: [Southern]
+cookingMethods:
+  - bake
+dietary:
+  - vegetarian
+occasions:
+  - holiday
+  - entertaining
+  - weekend-project
+  - kids-approved
+flavorProfile:
+  - sweet
+  - acidic
+  - rich
+cuisines:
+  - Southern
 role: dessert
 vibe: technical
-season: [spring, summer, fall, winter]
+season:
+  - spring
+  - summer
+  - fall
+  - winter
 leftovers: excellent
 healthiness: hearty
 makeAhead: true
@@ -32,6 +46,16 @@ ingredients:
   - >-
     [Favorite Cream Cheese
     Frosting](/mise/recipes/favorite-cream-cheese-frosting)
+origin: United States
+seasons:
+  - year-round
+nutritionalDensity: moderate
+equipment: []
+pairsWith:
+  - grandmommys-pound-cake
+  - banana-pudding
+  - grandmommys-pecan-pie
+  - apple-cider-cream-pie
 ---
 
 ## Chef's Note

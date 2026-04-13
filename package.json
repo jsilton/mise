@@ -10,17 +10,33 @@
     "preview": "astro preview",
     "format": "prettier --write .",
     "lint": "eslint . --fix",
+    "new-recipe": "node ./scripts/new-recipe.mjs",
     "validate-recipes": "node ./scripts/validate-recipes.mjs",
     "chef-review": "node ./scripts/chef-review.mjs",
+    "culinary-qa": "node ./scripts/culinary-qa.mjs",
+    "batch-chefs-notes": "node ./scripts/batch-chefs-notes.mjs",
+    "batch-chefs-notes:dry": "node ./scripts/batch-chefs-notes.mjs --dry-run",
+    "batch-technique": "node ./scripts/batch-technique.mjs",
+    "batch-technique:dry": "node ./scripts/batch-technique.mjs --dry-run",
     "overnight-fix": "node ./scripts/overnight-fix.mjs",
     "overnight-fix:dry": "node ./scripts/overnight-fix.mjs --dry-run",
+    "batch-metadata-complete": "node ./scripts/batch-metadata-complete.mjs",
+    "batch-metadata-complete:dry": "node ./scripts/batch-metadata-complete.mjs --dry-run",
+    "fix-time-math": "node ./scripts/fix-time-math.mjs",
+    "fix-time-math:dry": "node ./scripts/fix-time-math.mjs --dry-run",
     "qa": "node ./scripts/qa-test.mjs",
     "deploy": "npm run qa && npm run build && echo 'Ready to deploy - push /dist/ to production'",
-    "prepare": "husky || true"
+    "prepare": "husky || true",
+    "plan-meals": "node ./scripts/meal-planner.mjs",
+    "lint-recipe": "node ./scripts/lint-recipe.mjs",
+    "lint-recipe:staged": "node ./scripts/lint-recipe.mjs --staged",
+    "batch-guard": "node ./scripts/batch-guard.mjs",
+    "precommit": "npm run validate-recipes && npm run lint-recipe:staged"
   },
   "dependencies": {
     "@astrojs/tailwind": "^6.0.0",
     "astro": "^5.1.4",
+    "fuse.js": "^7.3.0",
     "gray-matter": "^4.0.3",
     "tailwindcss": "^3.4.17"
   },
@@ -36,6 +52,10 @@
     "prettier-plugin-astro": "^0.14.1"
   },
   "lint-staged": {
+    "src/content/recipes/**/*.md": [
+      "npm run validate-recipes",
+      "node ./scripts/lint-recipe.mjs"
+    ],
     "*.{js,mjs,ts,astro}": [
       "eslint --fix",
       "prettier --write"

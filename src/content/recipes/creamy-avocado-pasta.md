@@ -1,22 +1,39 @@
 ---
 title: Avocado Pasta
 difficulty: easy
-cookingMethods: [grill, boil, blend]
+cookingMethods:
+  - grill
+  - boil
+  - blend
 dietary: []
-occasions: [weeknight, quick-lunch, light-and-fresh, post-workout]
-flavorProfile: [acidic, umami, rich, herbaceous]
-cuisines: [Italian]
+occasions:
+  - weeknight
+  - quick-lunch
+  - light-and-fresh
+  - post-workout
+flavorProfile:
+  - acidic
+  - umami
+  - rich
+  - herbaceous
+cuisines:
+  - Italian
 role: main
 vibe: nutritious
 prepTime: 10 min
 cookTime: 10 min
 totalTime: 20 min
 servings: '4'
-seasons: [spring, summer, year-round]
+seasons:
+  - spring
+  - summer
+  - year-round
 nutritionalDensity: light
 leftovers: poor
-equipment: [blender]
-pairsWith: [vietnamese-grilled-chicken]
+equipment:
+  - blender
+pairsWith:
+  - vietnamese-grilled-chicken
 ingredients:
   - 12 oz Dry Spaghetti or Fettuccine
   - 2 ripe Medium Avocados
@@ -29,12 +46,12 @@ ingredients:
   - Salt and Black Pepper
   - 'Cherry Tomatoes, halved'
   - Parmesan Shavings
+origin: Italy
 ---
 
 ## Chef's Note
 
-This is a modern healthy fusion that became popular in the 2010s as avocados went mainstream in American cooking. It's not traditionally Italian - Italy doesn't grow avocados - but it uses Italian pasta techniques with California ingredients. The trick is blending raw avocado with olive oil to create a creamy cold sauce that stays smooth and doesn't separate. Lemon juice is critical for two reasons: it adds brightness and it prevents the avocado from turning brown by stabilizing the chlorophyll in the greens. Never cook the sauce - just let the hot pasta warm it. Eat immediately as avocado sauces don't hold well.
-
+Avocado as a sauce base is a Mexican and California trick that became mainstream—mashed avocado with lime and garlic replaces cream or oil. The trick is timing: toss hot pasta with cold avocado mixture at the last second so the heat softens it without cooking it to gray mush. Use pasta water to loosen the sauce to coating consistency.
 ## Directions
 
 1.  **Boil:** Cook pasta in a large pot of salted water until **al dente**. **Reserve 1 cup of pasta water** before draining.

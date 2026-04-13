@@ -1,28 +1,47 @@
 ---
 title: Charred Broccoli
 difficulty: easy
-cookingMethods: [steam]
+cookingMethods:
+  - steam
 dietary: []
-occasions: [weeknight, light-and-fresh]
-flavorProfile: [sweet, savory, acidic, umami, rich]
-cuisines: [Chinese]
+occasions:
+  - weeknight
+  - light-and-fresh
+flavorProfile:
+  - sweet
+  - savory
+  - acidic
+  - umami
+  - rich
+cuisines:
+  - Chinese
 role: side
 vibe: quick
-season: [fall, winter, spring]
+season:
+  - fall
+  - winter
+  - spring
 leftovers: poor
 healthiness: light
-pairsWith: [buttermilk-baked-chicken, mongolian-beef]
+pairsWith:
+  - buttermilk-baked-chicken
+  - mongolian-beef
 prepTime: 5 min
 cookTime: 10 min
 totalTime: 15 min
 servings: '4'
 ingredients:
-  - '1 lb Fresh Broccoli Florets (cut small)'
-  - '2 tbsp Olive Oil'
+  - 1 lb Fresh Broccoli Florets (cut small)
+  - 2 tbsp Olive Oil
   - '2 cloves Garlic, thinly sliced'
-  - '1/2 tsp Red Pepper Flakes'
-  - '1 tsp Soy Sauce or Salt'
+  - 1/2 tsp Red Pepper Flakes
+  - 1 tsp Soy Sauce or Salt
   - '1/2 Lemon, for finishing'
+origin: China
+seasons:
+  - year-round
+nutritionalDensity: moderate
+equipment: []
 ---
 
 ## Chef's Note

@@ -1,49 +1,69 @@
 ---
 title: Crispy Black Bean Tacos
 difficulty: easy
-cookingMethods: [roast, blend]
-dietary: [vegetarian, gluten-free]
-occasions: [weeknight, entertaining, meal-prep, game-day]
-flavorProfile: [smoky, savory, acidic, rich, umami]
-cuisines: [Mexican]
+cookingMethods:
+  - roast
+  - blend
+dietary:
+  - vegetarian
+occasions:
+  - weeknight
+  - entertaining
+  - meal-prep
+  - game-day
+flavorProfile:
+  - smoky
+  - savory
+  - acidic
+  - rich
+  - umami
+cuisines:
+  - Mexican
 role: main
 vibe: quick
 prepTime: 10 min
 cookTime: 25 min
 totalTime: 35 min
 servings: '6'
-seasons: [year-round]
+seasons:
+  - year-round
 nutritionalDensity: moderate
 leftovers: good
-equipment: [sheet-pan, blender]
-pairsWith: [charred-guacamole-with-pomegranate, cilantro-lime-rice, red-zone-margarita]
+equipment:
+  - sheet-pan
+  - blender
+pairsWith:
+  - charred-guacamole-with-pomegranate
+  - cilantro-lime-rice
+  - red-zone-margarita
 ingredients:
   - 'For the Crispy Beans:'
   - '2 cans (15 oz each) Black Beans, drained and rinsed'
-  - '2 tbsp Olive Oil'
-  - '1 tbsp Soy Sauce or Tamari'
-  - '1 tsp Ground Cumin'
-  - '1 tsp Smoked Paprika'
-  - '1/2 tsp Garlic Powder'
-  - '1/2 tsp Kosher Salt'
+  - 2 tbsp Olive Oil
+  - 1 tbsp Soy Sauce or Tamari
+  - 1 tsp Ground Cumin
+  - 1 tsp Smoked Paprika
+  - 1/2 tsp Garlic Powder
+  - 1/2 tsp Kosher Salt
   - '1 Lime, zested and juiced'
   - 'For the Tangy Avocado Crema:'
-  - '1 ripe Avocado'
-  - '1/2 cup Sour Cream (or Greek Yogurt)'
+  - 1 ripe Avocado
+  - 1/2 cup Sour Cream (or Greek Yogurt)
   - '1 Lime, juiced'
-  - '2 tbsp Pickled Jalapeño Brine'
-  - '1/4 cup Fresh Cilantro'
-  - '1 clove Garlic'
-  - '1/4 tsp Kosher Salt'
-  - '2-3 tbsp Water'
+  - 2 tbsp Pickled Jalapeño Brine
+  - 1/4 cup Fresh Cilantro
+  - 1 clove Garlic
+  - 1/4 tsp Kosher Salt
+  - 2-3 tbsp Water
   - 'For Building:'
   - '12 Corn Tortillas, charred'
   - '2 cups Green Cabbage, shredded'
   - '1/2 cup Cotija Cheese, crumbled'
-  - '1/2 cup Pickled Jalapeños'
-  - 'Fresh Cilantro'
-  - 'Hot Sauce (Cholula or Valentina)'
-  - 'Lime Wedges'
+  - 1/2 cup Pickled Jalapeños
+  - Fresh Cilantro
+  - Hot Sauce (Cholula or Valentina)
+  - Lime Wedges
+origin: Mexico
 ---
 
 ## Chef's Note

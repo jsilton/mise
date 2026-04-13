@@ -1,24 +1,36 @@
 ---
 title: Chipotle Pork Bowls
 difficulty: easy
-cookingMethods: [fry, simmer]
+cookingMethods:
+  - fry
+  - simmer
 dietary: []
-occasions: [weeknight, comfort-food]
-flavorProfile: [spicy, sweet, acidic, smoky]
-cuisines: [Mexican]
+occasions:
+  - weeknight
+  - comfort-food
+flavorProfile:
+  - spicy
+  - sweet
+  - acidic
+  - smoky
+cuisines:
+  - Mexican
 role: main
 vibe: quick
 prepTime: 10 min
 cookTime: 25 min
 totalTime: 35 min
 servings: '4'
-pairsWith: [pickled-red-onions, cilantro-lime-rice, carnitas-bowl]
+pairsWith:
+  - pickled-red-onions
+  - cilantro-lime-rice
+  - carnitas-bowl
 ingredients:
   - 1.5 lbs Ground Pork
   - 1 cup Dry Polenta (Cornmeal)
   - 4 cups Chicken Broth
   - 1 cup Frozen Sweet Corn
-  - 1/4 cup Cotija Cheese, crumbled
+  - '1/4 cup Cotija Cheese, crumbled'
   - 2 tbsp Unsalted Butter
   - 1/2 tsp Ground Cumin
   - '1 Red Bell Pepper, diced'
@@ -27,10 +39,16 @@ ingredients:
   - '3 cloves Garlic, minced'
   - 1 tsp Dried Oregano
   - '1 Avocado, cubed'
-  - 1 Lime, cut into wedges
+  - '1 Lime, cut into wedges'
   - 1 cup Shredded Green Cabbage
   - 2 tbsp Pepitas (toasted)
   - Sour Cream
+origin: Mexico
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: good
+equipment: []
 ---
 
 ## Chef's Note
@@ -45,3 +63,5 @@ This weeknight bowl delivers big Mexican flavors in 35 minutes. Polenta cooked i
 4.  **The Bloom:** Push meat aside. Add garlic, oregano, and chipotles. Fry 45 seconds until fragrant.
 5.  **The Sauce:** Add tomatoes. Scrape fond. Simmer 5 minutes until thick.
 6.  **Assemble:** Polenta in bowls, topped with pork, charred corn, avocado, cabbage, pepitas, sour cream, and a lime wedge.
+
+**Rest:** Let Ground Pork rest for 5 minutes before slicing or serving — the juices redistribute and every piece stays moist.

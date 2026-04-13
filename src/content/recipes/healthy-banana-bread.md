@@ -1,23 +1,40 @@
 ---
 title: Banana Bread
 difficulty: intermediate
-cookingMethods: [bake, blend]
-dietary: [vegetarian]
-occasions: [meal-prep, kids-approved, weekend-project]
-seasons: [year-round]
+cookingMethods:
+  - bake
+  - blend
+dietary:
+  - vegetarian
+occasions:
+  - meal-prep
+  - kids-approved
+  - weekend-project
+seasons:
+  - year-round
 nutritionalDensity: moderate
 leftovers: excellent
-equipment: [loaf-pan, blender]
-advancePrep: [make-ahead, freeze-ahead]
-flavorProfile: [sweet, rich]
-cuisines: [American]
+equipment:
+  - loaf-pan
+  - blender
+advancePrep:
+  - make-ahead
+  - freeze-ahead
+flavorProfile:
+  - sweet
+  - rich
+cuisines:
+  - American
 role: main
 vibe: nutritious
 prepTime: 10 min
 cookTime: 55 min
 totalTime: 65 min
 servings: 12 slices
-pairsWith: [banana-oat-greek-yogurt-muffins, almond-zucchini-bread, anadama-bread]
+pairsWith:
+  - banana-oat-greek-yogurt-muffins
+  - almond-zucchini-bread
+  - anadama-bread
 ingredients:
   - 1 3/4 cups White Whole Wheat Flour
   - '1 cup (225g) Ripe Bananas, mashed'
@@ -30,6 +47,7 @@ ingredients:
   - 1/2 tsp Sea Salt
   - 1/2 tsp Ground Cinnamon
   - 1/2 cup Dark Chocolate Chips or Walnuts
+origin: United States
 ---
 
 ## Chef's Note

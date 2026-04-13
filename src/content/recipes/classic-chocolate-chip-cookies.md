@@ -1,34 +1,52 @@
 ---
 title: Classic Chocolate Chip Cookies
 difficulty: intermediate
-cookingMethods: [bake]
-dietary: [vegetarian, nut-free]
-occasions: [comfort-food, kids-approved, weekend-project, holiday]
-seasons: [year-round]
+cookingMethods:
+  - bake
+dietary:
+  - vegetarian
+  - nut-free
+occasions:
+  - comfort-food
+  - kids-approved
+  - weekend-project
+  - holiday
+seasons:
+  - year-round
 nutritionalDensity: moderate
 leftovers: excellent
-advancePrep: [make-ahead]
+advancePrep:
+  - make-ahead
+  - chill-dough
 equipment: []
-flavorProfile: [sweet, rich]
-cuisines: [American]
+flavorProfile:
+  - sweet
+  - rich
+cuisines:
+  - American
 role: dessert
 vibe: technical
 prepTime: 20 min
 cookTime: 10 min
-totalTime: 24 hours
+totalTime: 24 hr
 servings: '24'
-pairsWith: []
+pairsWith:
+  - apple-cider-cream-pie
+  - apple-pie
+  - babys-first-smash-cake
+  - best-cinnamon-roll-recipe-cinnabon-copycat
 ingredients:
-  - '1 cup (2 sticks) Unsalted Butter'
+  - 1 cup (2 sticks) Unsalted Butter
   - '1 cup Light Brown Sugar, packed'
-  - '1/2 cup Granulated White Sugar'
+  - 1/2 cup Granulated White Sugar
   - '2 large Eggs, room temperature'
-  - '2 tsp Vanilla Extract'
-  - '2 1/4 cups All-Purpose Flour'
-  - '1 tsp Baking Soda'
-  - '1/2 tsp Kosher Salt'
-  - '2 cups Semisweet Chocolate Chips (60% cacao)'
-  - '1 cup Toasted Sunflower Seeds (Nut-Free option)'
+  - 2 tsp Vanilla Extract
+  - 2 1/4 cups All-Purpose Flour
+  - 1 tsp Baking Soda
+  - 1/2 tsp Kosher Salt
+  - 2 cups Semisweet Chocolate Chips (60% cacao)
+  - 1 cup Toasted Sunflower Seeds (Nut-Free option)
+origin: United States
 ---
 
 ## Chef's Note

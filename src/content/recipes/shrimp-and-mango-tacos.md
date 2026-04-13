@@ -1,18 +1,29 @@
 ---
 title: Shrimp & Mango Tacos
 difficulty: intermediate
-cookingMethods: [fry, sauté, no-cook]
+cookingMethods:
+  - fry
+  - sauté
+  - no-cook
 dietary: []
-occasions: [weeknight, summer]
-flavorProfile: [spicy, sweet, acidic]
-cuisines: [Mexican]
+occasions:
+  - weeknight
+  - summer
+flavorProfile:
+  - spicy
+  - sweet
+  - acidic
+cuisines:
+  - Mexican
 role: main
 vibe: quick
 prepTime: 10 min
 cookTime: 10 min
-totalTime: 30 min
-servings: '4'
-pairsWith: [mexican-street-corn-salad, guacamole, cilantro-lime-rice]
+totalTime: '20 min'
+pairsWith:
+  - mexican-street-corn-salad
+  - guacamole
+  - cilantro-lime-rice
 ingredients:
   - '1 lb Small Shrimp, peeled and deveined'
   - '1 large Ripe Mango, finely chopped'
@@ -23,6 +34,12 @@ ingredients:
   - '1/4 cup Fresh Cilantro, chopped'
   - '8 Corn Tortillas, charred'
   - Neutral Oil
+origin: Mexico
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: poor
+equipment: []
 ---
 
 ## Chef's Note

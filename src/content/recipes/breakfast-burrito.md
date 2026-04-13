@@ -2,32 +2,49 @@
 title: Breakfast Burrito
 origin: United States
 difficulty: easy
-cookingMethods: [sauté, toast]
+cookingMethods:
+  - sauté
+  - toast
 dietary: []
-occasions: [weeknight, meal-prep, quick-lunch]
-flavorProfile: [savory, spicy, rich]
-cuisines: [Mexican, American]
+occasions:
+  - weeknight
+  - meal-prep
+  - quick-lunch
+flavorProfile:
+  - savory
+  - spicy
+  - rich
+cuisines:
+  - Mexican
+  - American
 role: main
 vibe: quick
-seasons: [year-round]
+seasons:
+  - year-round
 nutritionalDensity: hearty
 leftovers: good
-advancePrep: [freezer-friendly]
-equipment: [skillet, foil]
+advancePrep:
+  - freezer-friendly
+equipment:
+  - skillet
+  - foil
 prepTime: 10 min
 cookTime: 10 min
 totalTime: 20 min
 servings: '4'
-pairsWith: [classic-guacamole, carnitas-bowl, shakshuka]
+pairsWith:
+  - classic-guacamole
+  - carnitas-bowl
+  - shakshuka
 ingredients:
-  - '6 large Eggs'
-  - '2 tbsp Whole Milk'
-  - '1/4 tsp Kosher Salt'
-  - '1 tbsp Unsalted Butter'
+  - 6 large Eggs
+  - 2 tbsp Whole Milk
+  - 1/4 tsp Kosher Salt
+  - 1 tbsp Unsalted Butter
   - '1/2 cup Red or Green Bell Pepper, diced small'
   - '1/4 cup Yellow Onion, diced small'
-  - '1 cup Shredded Cheddar or Pepper Jack Cheese'
-  - '4 large (10-inch) Flour Tortillas'
+  - 1 cup Shredded Cheddar or Pepper Jack Cheese
+  - 4 large (10-inch) Flour Tortillas
   - '4 slices Cooked Bacon or 1/2 cup Cooked Breakfast Sausage, crumbled'
   - 'Optional: salsa, hot sauce, sour cream, avocado slices'
 ---

@@ -20,14 +20,14 @@ const { tag, category, href, size = 'md' } = Astro.props;
 
 // Color mappings by category
 const categoryColors = {
-  'cooking-method': 'bg-blue-50 text-blue-600 border-blue-100 hover:bg-blue-100',
-  cuisine: 'bg-purple-50 text-purple-600 border-purple-100 hover:bg-purple-100',
-  dietary: 'bg-emerald-50 text-emerald-600 border-emerald-100 hover:bg-emerald-100',
-  occasion: 'bg-amber-50 text-amber-600 border-amber-100 hover:bg-amber-100',
-  flavor: 'bg-rose-50 text-rose-600 border-rose-100 hover:bg-rose-100',
-  difficulty: 'bg-slate-50 text-slate-600 border-slate-150 hover:bg-slate-100',
-  role: 'bg-indigo-50 text-indigo-600 border-indigo-100 hover:bg-indigo-100',
-  vibe: 'bg-teal-50 text-teal-600 border-teal-100 hover:bg-teal-100',
+  'cooking-method': 'bg-blue-50 dark:bg-blue-950 text-blue-600 dark:text-blue-300 border-blue-100 dark:border-blue-800 hover:bg-blue-100 dark:hover:bg-blue-900',
+  cuisine: 'bg-purple-50 dark:bg-purple-950 text-purple-600 dark:text-purple-300 border-purple-100 dark:border-purple-800 hover:bg-purple-100 dark:hover:bg-purple-900',
+  dietary: 'bg-emerald-50 dark:bg-emerald-950 text-emerald-600 dark:text-emerald-300 border-emerald-100 dark:border-emerald-800 hover:bg-emerald-100 dark:hover:bg-emerald-900',
+  occasion: 'bg-amber-50 dark:bg-amber-950 text-amber-600 dark:text-amber-300 border-amber-100 dark:border-amber-800 hover:bg-amber-100 dark:hover:bg-amber-900',
+  flavor: 'bg-rose-50 dark:bg-rose-950 text-rose-600 dark:text-rose-300 border-rose-100 dark:border-rose-800 hover:bg-rose-100 dark:hover:bg-rose-900',
+  difficulty: 'bg-slate-50 dark:bg-slate-800 text-slate-600 dark:text-slate-300 border-slate-150 dark:border-slate-700 hover:bg-slate-100 dark:hover:bg-slate-700',
+  role: 'bg-indigo-50 dark:bg-indigo-950 text-indigo-600 dark:text-indigo-300 border-indigo-100 dark:border-indigo-800 hover:bg-indigo-100 dark:hover:bg-indigo-900',
+  vibe: 'bg-teal-50 dark:bg-teal-950 text-teal-600 dark:text-teal-300 border-teal-100 dark:border-teal-800 hover:bg-teal-100 dark:hover:bg-teal-900',
 };
 
 const sizeClasses = {

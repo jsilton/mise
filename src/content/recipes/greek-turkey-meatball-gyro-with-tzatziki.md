@@ -1,18 +1,28 @@
 ---
 title: Greek Turkey Meatball Gyro
 difficulty: easy
-cookingMethods: [roast, no-cook]
+cookingMethods:
+  - roast
+  - no-cook
 dietary: []
-occasions: [weeknight, quick-lunch]
-flavorProfile: [acidic, rich]
-cuisines: [Greek]
+occasions:
+  - weeknight
+  - quick-lunch
+flavorProfile:
+  - acidic
+  - rich
+cuisines:
+  - Greek
 role: main
 vibe: quick
 prepTime: 10 min
 cookTime: 16 min
 totalTime: 26 min
 servings: 4 gyros
-pairsWith: [greek-salad, lemon-herb-couscous, tzatziki-sauce]
+pairsWith:
+  - greek-salad
+  - lemon-herb-couscous
+  - tzatziki-sauce
 ingredients:
   - 1 lb Ground Turkey (93/7 fat ratio)
   - '1 cup Fresh Spinach, chopped'
@@ -28,6 +38,12 @@ ingredients:
   - 4 Whole Wheat Flatbreads or Pitas
   - 'Sliced Red Onion, Diced Tomato, and Diced Cucumber'
   - Salt and Black Pepper
+origin: Greece
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: poor
+equipment: []
 ---
 
 ## Chef's Note
@@ -42,3 +58,5 @@ Turkey meatballs can turn dry, but folding in a full cup of chopped spinach crea
 4.  **The Sauce:** While meatballs cook, whisk yogurt, squeezed-dry cucumber, lemon juice, dill, and garlic powder in a small bowl. Season with salt.
 5.  **Assemble:** Warm the flatbreads in the microwave or on the skillet. Place 3 meatballs in the center of each.
 6.  **Finish:** Top with raw red onion, tomatoes, and cucumber. Drizzle generously with the tzatziki for the mandatory **High Note**.
+
+**Rest:** Let Ground Turkey rest for 10 minutes before slicing or serving — the juices redistribute and every piece stays moist.

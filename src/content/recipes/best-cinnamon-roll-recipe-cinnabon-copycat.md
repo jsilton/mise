@@ -1,22 +1,36 @@
 ---
 title: Cinnamon Rolls
 difficulty: easy
-cookingMethods: [bake]
-dietary: [vegetarian]
-occasions: [weekend-project, indulgent, holiday, comfort-food]
-seasons: [year-round]
+cookingMethods:
+  - bake
+dietary:
+  - vegetarian
+occasions:
+  - weekend-project
+  - indulgent
+  - holiday
+  - comfort-food
+seasons:
+  - year-round
 nutritionalDensity: hearty
 leftovers: good
 equipment: []
-flavorProfile: [sweet, rich]
-cuisines: [American]
+flavorProfile:
+  - sweet
+  - rich
+cuisines:
+  - American
 role: dessert
 vibe: technical
 prepTime: 120 min
 cookTime: 30 min
 totalTime: 150 min
 servings: '12'
-pairsWith: []
+pairsWith:
+  - apple-cider-cream-pie
+  - apple-pie
+  - babys-first-smash-cake
+  - best-homemade-brownies
 ingredients:
   - 1/4 cup Bread Flour
   - 3/4 cup Water
@@ -37,6 +51,7 @@ ingredients:
   - 1 cup Powdered Sugar
   - 1/2 tsp Vanilla Bean Paste
   - 1 tbsp Heavy Cream
+origin: United States
 ---
 
 ## Chef's Note

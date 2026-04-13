@@ -1,22 +1,38 @@
 ---
 title: Harvest Sheet Pan Gnocchi with Kale
 difficulty: easy
-cookingMethods: [bake, roast, boil]
+cookingMethods:
+  - bake
+  - roast
+  - boil
 dietary: []
-occasions: [weeknight, meal-prep, comfort-food]
-seasons: [fall, winter]
+occasions:
+  - weeknight
+  - meal-prep
+  - comfort-food
+seasons:
+  - fall
+  - winter
 nutritionalDensity: hearty
 leftovers: excellent
-equipment: [sheet-pan]
-flavorProfile: [savory, umami, rich, smoky]
-cuisines: [Italian]
+equipment:
+  - sheet-pan
+flavorProfile:
+  - savory
+  - umami
+  - rich
+  - smoky
+cuisines:
+  - Italian
 role: main
 vibe: nutritious
 prepTime: 15 min
 cookTime: 25 min
 totalTime: 40 min
 servings: '4'
-pairsWith: [garlic-bread, avocado-kale-caesar-salad]
+pairsWith:
+  - garlic-bread
+  - avocado-kale-caesar-salad
 ingredients:
   - 12 oz Frozen Cauliflower Gnocchi
   - '12 oz Apple Chicken Sausage, sliced into rounds'
@@ -29,12 +45,12 @@ ingredients:
   - 1 tsp Garlic Powder
   - 1/3 cup Freshly Grated Parmesan or Nutritional Yeast
   - Salt and Black Pepper
+origin: Italy
 ---
 
 ## Chef's Note
 
-This is a modern American sheet pan meal using Italian gnocchi, popularized in the 2010s as busy home cooks discovered that frozen gnocchi could go straight into the oven without boiling. The trick with kale is roasting it at high heat (400°F) until it becomes crispy like chips rather than wilting into a soggy mess - spread everything in a single layer so the kale can dehydrate properly. Cauliflower gnocchi is a more recent innovation from brands like Trader Joe's, offering a lower-carb alternative to traditional potato gnocchi. The combination of butternut squash, apple sausage, and rosemary is quintessential fall American comfort food.
-
+Sheet-pan gnocchi is a weeknight trick that turns frozen cauliflower gnocchi into something crispy and caramelized without a pot of boiling water. The key is a single layer — crowding the pan steams everything into mush instead of roasting it. The kale should emerge dark green and shatteringly crisp, which only happens if it gets coated in oil and given space.
 ## Directions
 
 1.  **Prep:** Preheat oven to 400°F. Line a large rimmed baking sheet with parchment paper.

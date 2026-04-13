@@ -1,26 +1,44 @@
 ---
 title: M&M Cookies
 difficulty: easy
-cookingMethods: [bake]
-dietary: [vegetarian]
-occasions: [comfort-food, kids-approved]
-flavorProfile: [sweet, rich]
-cuisines: [American]
+cookingMethods:
+  - bake
+dietary:
+  - vegetarian
+occasions:
+  - comfort-food
+  - kids-approved
+flavorProfile:
+  - sweet
+  - rich
+cuisines:
+  - American
 role: dessert
 vibe: comfort
 prepTime: 15 min
 cookTime: 10 min
 totalTime: 25 min
-servings: '72 small cookies'
+servings: 72 small cookies
 ingredients:
-  - '1 cup Shortening (or Unsalted Butter)'
+  - 1 cup Shortening (or Unsalted Butter)
   - '1 cup Light Brown Sugar, packed'
-  - '1/2 cup Granulated Sugar'
-  - '2 large Eggs'
-  - '1 1/2 tsp Pure Vanilla Extract'
-  - '2 1/2 cups All-Purpose Flour'
-  - '1 tsp Baking Soda + 1 tsp Sea Salt'
-  - '1 1/2 cups M&M’s Milk Chocolate Candies'
+  - 1/2 cup Granulated Sugar
+  - 2 large Eggs
+  - 1 1/2 tsp Pure Vanilla Extract
+  - 2 1/2 cups All-Purpose Flour
+  - 1 tsp Baking Soda + 1 tsp Sea Salt
+  - 1 1/2 cups M&M’s Milk Chocolate Candies
+origin: United States
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: good
+equipment: []
+pairsWith:
+  - apple-cider-cream-pie
+  - apple-pie
+  - babys-first-smash-cake
+  - best-cinnamon-roll-recipe-cinnabon-copycat
 ---
 
 ## Chef's Note

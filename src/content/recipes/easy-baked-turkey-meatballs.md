@@ -1,33 +1,46 @@
 ---
 title: Turkey Meatballs
 difficulty: intermediate
-cookingMethods: [bake, blend]
+cookingMethods:
+  - bake
+  - blend
 dietary: []
-occasions: [meal-prep, kids-approved, weeknight]
-seasons: [year-round]
+occasions:
+  - meal-prep
+  - kids-approved
+  - weeknight
+seasons:
+  - year-round
 nutritionalDensity: moderate
 leftovers: excellent
-advancePrep: [freeze-ahead, make-ahead]
-equipment: [sheet-pan]
+advancePrep:
+  - freeze-ahead
+  - make-ahead
+equipment:
+  - sheet-pan
 flavorProfile: []
-cuisines: [American]
+cuisines:
+  - American
 role: main
 vibe: quick
 prepTime: 15 min
 cookTime: 30 min
 totalTime: 45 min
 servings: '12'
-pairsWith: [fresh-egg-pasta, garlic-bread]
+pairsWith:
+  - fresh-egg-pasta
+  - garlic-bread
 ingredients:
-  - '2 lbs Ground Turkey (93/7 fat ratio preferred)'
-  - '1/2 cup Unseasoned Breadcrumbs'
+  - 2 lbs Ground Turkey (93/7 fat ratio preferred)
+  - 1/2 cup Unseasoned Breadcrumbs
   - '1/2 cup Carrots, finely minced'
   - '1/4 cup Yellow Onion, finely minced'
-  - '2 large Eggs'
-  - '1 tbsp Italian Seasoning'
-  - '1 tsp Garlic Powder'
-  - '1 tsp Sea Salt'
-  - 'Pinch of Red Pepper Flakes'
+  - 2 large Eggs
+  - 1 tbsp Italian Seasoning
+  - 1 tsp Garlic Powder
+  - 1 tsp Sea Salt
+  - Pinch of Red Pepper Flakes
+origin: United States
 ---
 
 ## Chef's Note
@@ -42,3 +55,5 @@ Lean turkey needs moisture - finely minced carrots release liquid as they bake, 
 4.  **Shape:** Form the mixture into 2-tablespoon-sized balls (about the size of a golf ball). Arrange on the prepared baking sheet.
 5.  **Bake:** Bake for 25-30 minutes until the internal temperature reaches 165°F and there is no pink in the center.
 6.  **Serve:** Serve hot with your favorite tomato sauce or over spaghetti squash.
+
+**Rest:** Let Ground Turkey rest for 5 minutes before slicing or serving — the juices redistribute and every piece stays moist.

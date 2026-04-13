@@ -1,17 +1,28 @@
 ---
 title: 'Kale Salad with Mango, Avocado and Feta'
 difficulty: intermediate
-cookingMethods: [grill]
+cookingMethods:
+  - grill
 dietary: []
-occasions: [light-and-fresh, quick-lunch, entertaining]
-flavorProfile: [sweet, rich]
-cuisines: [Mediterranean]
+occasions:
+  - light-and-fresh
+  - quick-lunch
+  - entertaining
+flavorProfile:
+  - sweet
+  - rich
+cuisines:
+  - Mediterranean
 role: side
 vibe: nutritious
-season: [spring, summer]
+season:
+  - spring
+  - summer
 leftovers: poor
 healthiness: light
-pairsWith: [vietnamese-grilled-chicken, miso-salmon-with-bok-choy]
+pairsWith:
+  - vietnamese-grilled-chicken
+  - miso-salmon-with-bok-choy
 prepTime: 15 min
 cookTime: 0 min
 totalTime: 15 min
@@ -29,6 +40,11 @@ ingredients:
   - 1 tsp Dijon Mustard
   - 2 tsp Honey
   - Salt and Black Pepper
+origin: Mediterranean
+seasons:
+  - year-round
+nutritionalDensity: moderate
+equipment: []
 ---
 
 ## Chef's Note

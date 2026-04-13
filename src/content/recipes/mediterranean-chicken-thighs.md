@@ -1,13 +1,22 @@
 ---
 title: Mediterranean Chicken Thighs
 role: main
-vibe: quick
+vibe: nutritious
 difficulty: easy
-cuisines: [Greek, Mediterranean]
-occasions: [weeknight, entertaining, meal-prep]
-dietary: [gluten-free]
-cookingMethods: [roast]
-flavorProfile: [savory, acidic, herbaceous]
+cuisines:
+  - Greek
+  - Mediterranean
+occasions:
+  - weeknight
+  - entertaining
+  - meal-prep
+dietary: []
+cookingMethods:
+  - roast
+flavorProfile:
+  - savory
+  - acidic
+  - herbaceous
 prepTime: 15 min
 cookTime: 35 min
 totalTime: 50 min
@@ -16,15 +25,16 @@ pairsWith:
   - tzatziki-sauce
   - warm-pita-bread
   - greek-salad
-equipment: [sheet-pan]
+equipment:
+  - sheet-pan
 ingredients:
   - 'For the Chicken:'
   - 2 lbs Boneless Skinless Chicken Thighs
-  - 1/2 cup Greek Dressing (store-bought, like Ken's or homemade)
+  - '1/2 cup Greek Dressing (store-bought, like Ken''s or homemade)'
   - 1 tsp Dried Oregano
   - 1/2 tsp Kosher Salt
   - 'For the Vegetables:'
-  - 2 Bell Peppers (mixed colors, sliced)
+  - '2 Bell Peppers (mixed colors, sliced)'
   - 1 Red Onion (sliced into wedges)
   - 2 tbsp Olive Oil
   - 1/2 tsp Kosher Salt
@@ -35,6 +45,11 @@ ingredients:
   - 1 English Cucumber (sliced)
   - 2 cups Romaine Lettuce (shredded)
   - Tzatziki Sauce (homemade or store-bought)
+origin: Greece
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: good
 ---
 
 ## Chef's Note

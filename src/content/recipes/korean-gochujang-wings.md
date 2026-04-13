@@ -3,10 +3,20 @@ title: Korean Gochujang Wings
 role: main
 vibe: comfort
 difficulty: easy
-cuisines: [Korean, American]
-occasions: [entertaining, game-day]
-cookingMethods: [roast, broil]
-flavorProfile: [savory, sweet, spicy, umami]
+cuisines:
+  - Korean
+  - American
+occasions:
+  - entertaining
+  - game-day
+cookingMethods:
+  - roast
+  - broil
+flavorProfile:
+  - savory
+  - sweet
+  - spicy
+  - umami
 prepTime: 15 min
 cookTime: 50 min
 totalTime: 65 min
@@ -15,7 +25,9 @@ pairsWith:
   - crockpot-mac-and-cheese
   - lemon-pepper-wings
   - korean-pickled-cucumbers
-equipment: [sheet-pan, wire-rack]
+equipment:
+  - sheet-pan
+  - wire-rack
 ingredients:
   - 'For the Wings:'
   - 3 lbs Chicken Wings (separated into flats and drums)
@@ -32,12 +44,18 @@ ingredients:
   - 'For Serving:'
   - 2 Green Onions (thinly sliced)
   - 1 tbsp Sesame Seeds
-  - Gochugaru (optional, for extra heat)
+  - 'Gochugaru (optional, for extra heat)'
+origin: Korea
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: good
 ---
 
 ## Chef's Note
 
 Korean fried chicken (KFC, the other one) is famous for its double-fry technique that creates impossibly crispy skin. We cheat with the baking powder method—same shatteringly crisp result, no deep fryer, no mess. The gochujang glaze is the star: fermented Korean chili paste brings fruity heat and deep umami, balanced by honey's sweetness and rice vinegar's bright acidity. Glaze the wings twice—once out of the oven to coat, then a quick broil to caramelize and lacquer them. The sesame oil goes in off-heat to preserve its nutty fragrance.
+For kids, serve the heat on the side or reduce/omit the spicy elements.
 
 ## Directions
 

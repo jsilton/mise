@@ -3,19 +3,28 @@ title: BBQ Chicken Sliders
 role: main
 vibe: quick
 difficulty: easy
-cuisines: [American]
-occasions: [entertaining, game-day, weeknight]
-cookingMethods: [broil]
-flavorProfile: [savory, sweet, smoky]
+cuisines:
+  - American
+occasions:
+  - entertaining
+  - game-day
+  - weeknight
+cookingMethods:
+  - broil
+flavorProfile:
+  - savory
+  - sweet
+  - smoky
 prepTime: 15 min
 cookTime: 15 min
 totalTime: 30 min
-servings: '12 sliders'
+servings: 12 sliders
 pairsWith:
   - crockpot-mac-and-cheese
   - classic-guacamole
   - sweet-chili-chicken-sliders
-equipment: [sheet-pan]
+equipment:
+  - sheet-pan
 ingredients:
   - 2 lbs Boneless Skinless Chicken Thighs
   - 1 cup BBQ Sauce (divided)
@@ -29,6 +38,11 @@ ingredients:
   - Dill Pickle Chips
   - 1/2 cup Crispy Fried Onions (like French's)
   - 2 tbsp Butter (melted)
+origin: United States
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: good
 ---
 
 ## Chef's Note

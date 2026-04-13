@@ -1,22 +1,34 @@
 ---
 title: Glazed Chicken & Broccoli Sheet Pan Dinner
 difficulty: easy
-cookingMethods: [bake, roast, steam]
+cookingMethods:
+  - bake
+  - roast
+  - steam
 dietary: []
-occasions: [weeknight, comfort-food, meal-prep]
-flavorProfile: [savory]
-cuisines: [Chinese]
+occasions:
+  - weeknight
+  - comfort-food
+  - meal-prep
+flavorProfile:
+  - savory
+cuisines:
+  - Chinese
 role: main
 vibe: comfort
 prepTime: 15 min
 cookTime: 45 min
 totalTime: 60 min
 servings: '2'
-seasons: [year-round]
+seasons:
+  - year-round
 nutritionalDensity: hearty
 leftovers: good
-equipment: [sheet-pan]
-pairsWith: [basmati-rice, everyday-arugula-salad]
+equipment:
+  - sheet-pan
+pairsWith:
+  - basmati-rice
+  - everyday-arugula-salad
 ingredients:
   - '4 Chicken Drumsticks, skin-on'
   - '3/4 lb Fingerling Potatoes, halved'
@@ -25,6 +37,7 @@ ingredients:
   - 2 tbsp Teriyaki Glaze (Scratch or high-quality store bought)
   - '1 tsp Fresh Ginger, grated (The Finishing Touch)'
   - Salt and Black Pepper
+origin: China
 ---
 
 ## Chef's Note
@@ -38,3 +51,5 @@ Sheet pan dinners became popular in the 2010s for their simplicity. The key is s
 3.  **The Glaze:** Whisk the teriyaki glaze with the grated ginger. Brush the glaze generously over all sides of the chicken drumsticks.
 4.  **Finish:** Return to the oven and roast for another 20-25 minutes until the broccoli is charred, potatoes are tender, and chicken reaches an internal temp of 165°F.
 5.  **Serve:** Serve immediately, drizzling any extra pan juices over the potatoes for a savory "Bounce."
+
+**Rest:** Let 4 Chicken rest for 5 minutes before slicing or serving — the juices redistribute and every piece stays moist.

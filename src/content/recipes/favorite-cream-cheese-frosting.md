@@ -1,30 +1,44 @@
 ---
 title: Cream Cheese Frosting
 difficulty: intermediate
-cookingMethods: []
-dietary: [vegetarian]
-occasions: [holiday, entertaining, indulgent]
-seasons: [year-round]
+cookingMethods:
+  - no-cook
+dietary:
+  - vegetarian
+occasions:
+  - holiday
+  - entertaining
+  - indulgent
+seasons:
+  - year-round
 nutritionalDensity: hearty
 leftovers: excellent
-equipment: [stand-mixer]
-advancePrep: [make-ahead]
+equipment:
+  - stand-mixer
+advancePrep:
+  - make-ahead
 pairsWith:
-  [classic-carrot-cake, breakfast-carrot-cake, funfetti-cake-from-scratch-and-an-unbirthday]
-flavorProfile: [sweet, rich]
-cuisines: [American]
+  - classic-carrot-cake
+  - breakfast-carrot-cake
+  - funfetti-cake-from-scratch-and-an-unbirthday
+flavorProfile:
+  - sweet
+  - rich
+cuisines:
+  - American
 role: condiment
 vibe: quick
 prepTime: 5 min
 cookTime: 0 min
 totalTime: 5 min
-servings: '3 cups'
+servings: 3 cups
 ingredients:
   - '8 oz Full-fat Block Cream Cheese, softened'
   - '1/2 cup (1 stick) Unsalted Butter, softened'
-  - '3 cups Confectioners’ Sugar (plus extra if needed)'
-  - '1 tsp Pure Vanilla Extract'
-  - '1/8 tsp Sea Salt (The Finishing Touch)'
+  - 3 cups Confectioners’ Sugar (plus extra if needed)
+  - 1 tsp Pure Vanilla Extract
+  - 1/8 tsp Sea Salt (The Finishing Touch)
+origin: United States
 ---
 
 ## Chef's Note

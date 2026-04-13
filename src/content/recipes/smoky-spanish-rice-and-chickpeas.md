@@ -1,18 +1,32 @@
 ---
 title: Spanish Rice and Chickpeas
 difficulty: easy
-cookingMethods: [roast, fry, sauté, simmer, boil, steam]
+cookingMethods:
+  - roast
+  - fry
+  - sauté
+  - simmer
+  - boil
+  - steam
 dietary: []
-occasions: [weeknight, meal-prep]
-flavorProfile: [savory, smoky]
-cuisines: [Spanish]
+occasions:
+  - weeknight
+  - meal-prep
+flavorProfile:
+  - savory
+  - smoky
+cuisines:
+  - Spanish
 role: base
 vibe: nutritious
 prepTime: 10 min
 cookTime: 25 min
 totalTime: 40 min
 servings: '4'
-pairsWith: [spanish-rice-chorizo, steamed-mussels-chorizo, weeknight-paella]
+pairsWith:
+  - spanish-rice-chorizo
+  - steamed-mussels-chorizo
+  - weeknight-paella
 ingredients:
   - '1 cup Long-grain White Rice, uncooked'
   - '1 can (19 oz) Chickpeas, rinsed and drained'
@@ -23,6 +37,12 @@ ingredients:
   - 1 can (19 oz) Diced Tomatoes
   - 1 1/2 cups Vegetable Broth
   - Shrimp or Fresh Spinach
+origin: Spain
+seasons:
+  - year-round
+nutritionalDensity: light
+leftovers: good
+equipment: []
 ---
 
 ## Chef's Note
@@ -31,7 +51,7 @@ This Spanish-inspired rice dish draws from paella technique. Frying dry rice in 
 
 ## Directions
 
-1.  **Foundation:** In a large deep skillet, heat 2 tbsp oil. Sauté onion for 7 minutes until soft. Add garlic, paprika, and oregano; sauté for 2 minutes until the spices bloom.
+1.  **Foundation:** In a large deep skillet, heat 2 tbsp oil. Sauté onion for 7 minutes cook until golden brown and softened. Add garlic, paprika, and oregano; sauté for 2 minutes until the spices bloom.
 2.  **The Toast:** Add the dry rice. Stir constantly for 3 minutes until the grains are coated in the red oil and smell nutty.
 3.  **The Simmer:** Stir in the tomatoes, chickpeas, and broth. Bring to a boil.
 4.  **The Finish:** Reduce heat to **low**. Cover tightly. Simmer for 20-22 minutes until the liquid is absorbed.

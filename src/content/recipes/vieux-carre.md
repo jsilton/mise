@@ -1,29 +1,45 @@
 ---
 title: Vieux Carré
 difficulty: easy
-cookingMethods: [roast]
+cookingMethods:
+  - roast
 dietary: []
-occasions: [date-night, entertaining]
-seasons: [year-round]
+occasions:
+  - date-night
+  - entertaining
+seasons:
+  - year-round
 nutritionalDensity: light
 leftovers: poor
-equipment: [cocktail-shaker]
-flavorProfile: [sweet, acidic]
-cuisines: [American]
+equipment:
+  - cocktail-shaker
+flavorProfile:
+  - sweet
+  - acidic
+cuisines:
+  - American
 role: drink
 vibe: technical
 prepTime: 5 min
 cookTime: 0 min
 totalTime: 5 min
-servings: '1 cocktail'
+servings: 1 cocktail
 ingredients:
-  - '3/4 oz Rye Whiskey'
-  - '3/4 oz Cognac (VSOP preferred)'
-  - '3/4 oz Sweet Vermouth (Antica Formula or Carpano)'
-  - '1 barspoon (1/2 tsp) Benedictine Liqueur'
-  - '2 dashes Angostura Bitters'
-  - '2 dashes Peychaud’s Bitters'
-  - '1 Lemon twist or Maraschino cherry'
+  - 3/4 oz Rye Whiskey
+  - 3/4 oz Cognac (VSOP preferred)
+  - 3/4 oz Sweet Vermouth (Antica Formula or Carpano)
+  - 1 barspoon (1/2 tsp) Benedictine Liqueur
+  - 2 dashes Angostura Bitters
+  - 2 dashes Peychaud’s Bitters
+  - 1 Lemon twist or Maraschino cherry
+origin: United States
+pairsWith:
+  - avocado-kale-caesar-salad
+  - beef-tenderloin-dogs-with-corn-relish
+  - brownie-baked-oatmeal
+  - chicken-apple-and-butternut-stew
+advancePrep:
+  - freeze-ahead
 ---
 
 ## Chef's Note

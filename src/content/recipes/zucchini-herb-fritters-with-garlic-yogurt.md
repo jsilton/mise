@@ -1,18 +1,29 @@
 ---
 title: Zucchini Herb Fritters
 difficulty: easy
-cookingMethods: [fry]
-dietary: [vegetarian]
-occasions: [light-and-fresh, entertaining]
-flavorProfile: [acidic, rich, herbaceous]
-cuisines: [Mediterranean]
+cookingMethods:
+  - fry
+dietary:
+  - vegetarian
+occasions:
+  - light-and-fresh
+  - entertaining
+flavorProfile:
+  - acidic
+  - rich
+  - herbaceous
+cuisines:
+  - Mediterranean
 role: main
 vibe: nutritious
 prepTime: 30 min
 cookTime: 10 min
 totalTime: 40 min
 servings: 12 fritters
-pairsWith: [arugula-feta-salad, peach-salad-with-tomatoes-and-beets, roasted-broccolini-with-lemon]
+pairsWith:
+  - arugula-feta-salad
+  - peach-salad-with-tomatoes-and-beets
+  - roasted-broccolini-with-lemon
 ingredients:
   - '2 small Zucchini, grated'
   - '1 small Russet Potato, grated'
@@ -26,6 +37,12 @@ ingredients:
   - 1/2 cup Plain Yogurt
   - 1 tbsp Fresh Lemon Juice
   - '1 tbsp Fresh Mint, chopped'
+origin: Mediterranean
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: good
+equipment: []
 ---
 
 ## Chef's Note

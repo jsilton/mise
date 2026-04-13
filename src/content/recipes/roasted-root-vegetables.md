@@ -1,18 +1,30 @@
 ---
 title: Root Vegetables
 difficulty: easy
-cookingMethods: [bake, roast, steam]
+cookingMethods:
+  - bake
+  - roast
+  - steam
 dietary: []
-occasions: [comfort-food]
-flavorProfile: [sweet, savory, acidic, herbaceous]
-cuisines: [American]
+occasions:
+  - comfort-food
+flavorProfile:
+  - sweet
+  - savory
+  - acidic
+  - herbaceous
+cuisines:
+  - American
 role: side
 vibe: comfort
 prepTime: 15 min
 cookTime: 40 min
 totalTime: 55 min
 servings: '6'
-pairsWith: [lemon-ricotta-pasta, oatmeal-risotto, sun-dried-tomato-chicken-orzo]
+pairsWith:
+  - lemon-ricotta-pasta
+  - oatmeal-risotto
+  - sun-dried-tomato-chicken-orzo
 ingredients:
   - '4 lbs Mixed Root Veggies (Carrots, Parsnips, Sweet Potatoes, Beets)'
   - 1/4 cup Extra-Virgin Olive Oil
@@ -22,6 +34,12 @@ ingredients:
   - 1/2 tsp Black Pepper
   - 1 tbsp Maple Syrup or Honey
   - 1 tbsp Balsamic Vinegar
+origin: United States
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: good
+equipment: []
 ---
 
 ## Chef's Note

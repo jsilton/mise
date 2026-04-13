@@ -1,32 +1,49 @@
 ---
-title: 'Smashed Cucumber Salad'
+title: Smashed Cucumber Salad
 difficulty: easy
-cookingMethods: []
+cookingMethods:
+  - no-cook
 dietary: []
-occasions: [weeknight, entertaining, light-and-fresh]
-flavorProfile: [spicy, sweet, savory, acidic, umami]
-cuisines: [Chinese]
+occasions:
+  - weeknight
+  - entertaining
+  - light-and-fresh
+flavorProfile:
+  - spicy
+  - sweet
+  - savory
+  - acidic
+  - umami
+cuisines:
+  - Chinese
 role: side
 vibe: nutritious
 prepTime: 10 min
 cookTime: 0 min
 totalTime: 40 min
 servings: '4'
-seasons: [spring, summer, year-round]
+seasons:
+  - spring
+  - summer
+  - year-round
 nutritionalDensity: light
 leftovers: poor
 equipment: []
-pairsWith: [doc-cheys-chinese-lomein, har-gow-dim-sum-shrimp-dumplings, mongolian-beef]
+pairsWith:
+  - doc-cheys-chinese-lomein
+  - har-gow-dim-sum-shrimp-dumplings
+  - mongolian-beef
 ingredients:
-  - '2 English cucumbers (or 6 Persian cucumbers)'
-  - '1 teaspoon kosher salt'
-  - '2 teaspoons sugar'
-  - '1 1/2 tablespoons rice vinegar'
-  - '2 teaspoons soy sauce'
-  - '1 teaspoon sesame oil'
+  - 2 English cucumbers (or 6 Persian cucumbers)
+  - 1 teaspoon kosher salt
+  - 2 teaspoons sugar
+  - 1 1/2 tablespoons rice vinegar
+  - 2 teaspoons soy sauce
+  - 1 teaspoon sesame oil
   - '2 cloves garlic, grated or finely minced'
-  - '1 teaspoon chili crisp or chili oil (optional)'
+  - 1 teaspoon chili crisp or chili oil (optional)
   - 'Toasted sesame seeds, for garnish'
+origin: China
 ---
 
 ## Chef's Note

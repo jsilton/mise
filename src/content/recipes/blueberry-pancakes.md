@@ -1,28 +1,43 @@
 ---
 title: Blueberry Pancakes
 difficulty: easy
-cookingMethods: []
-dietary: [vegetarian]
-occasions: [comfort-food]
-flavorProfile: [sweet, rich]
-cuisines: [American]
+cookingMethods:
+  - no-cook
+dietary:
+  - vegetarian
+occasions:
+  - comfort-food
+flavorProfile:
+  - sweet
+  - rich
+cuisines:
+  - American
 role: main
 vibe: comfort
 prepTime: 10 min
 cookTime: 15 min
 totalTime: 25 min
-servings: '12 pancakes'
-pairsWith: [anadama-bread, cinnamon-sweet-potatoes, honey-glazed-carrots]
+servings: 12 pancakes
+pairsWith:
+  - anadama-bread
+  - cinnamon-sweet-potatoes
+  - honey-glazed-carrots
 ingredients:
-  - '2 large Eggs'
-  - '1 cup Whole Milk'
-  - '2 tsp Vanilla Extract'
+  - 2 large Eggs
+  - 1 cup Whole Milk
+  - 2 tsp Vanilla Extract
   - '3 tbsp Unsalted Butter, melted and cooled'
-  - '1 1/2 cups All-Purpose Flour'
-  - '3/4 tsp Fine Sea Salt'
-  - '2 tsp Baking Powder'
-  - '2 tbsp Honey'
-  - '3/4 cup Fresh Blueberries'
+  - 1 1/2 cups All-Purpose Flour
+  - 3/4 tsp Fine Sea Salt
+  - 2 tsp Baking Powder
+  - 2 tbsp Honey
+  - 3/4 cup Fresh Blueberries
+origin: United States
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: good
+equipment: []
 ---
 
 ## Chef's Note

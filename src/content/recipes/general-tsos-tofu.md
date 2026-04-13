@@ -1,22 +1,41 @@
 ---
 title: General Tso's Tofu
 difficulty: easy
-cookingMethods: [fry, sauté, simmer, boil]
-dietary: [vegetarian]
-occasions: [weeknight, quick-lunch, meal-prep]
-flavorProfile: [spicy, sweet, savory, acidic, umami]
-cuisines: [Chinese]
+cookingMethods:
+  - fry
+  - sauté
+  - simmer
+  - boil
+dietary:
+  - vegetarian
+occasions:
+  - weeknight
+  - quick-lunch
+  - meal-prep
+flavorProfile:
+  - spicy
+  - sweet
+  - savory
+  - acidic
+  - umami
+cuisines:
+  - Chinese
 role: main
 vibe: quick
 prepTime: 15 min
 cookTime: 20 min
 totalTime: 35 min
 servings: '4'
-seasons: [year-round]
+seasons:
+  - year-round
 nutritionalDensity: moderate
 leftovers: excellent
-equipment: [large-skillet]
-pairsWith: [basmati-rice, steamed-broccoli, garlic-sesame-spinach]
+equipment:
+  - large-skillet
+pairsWith:
+  - basmati-rice
+  - steamed-broccoli
+  - garlic-sesame-spinach
 ingredients:
   - '1 lb Extra-firm Tofu, pressed dry and cut into 1-inch squares'
   - 1 1/2 tbsp Honey
@@ -35,11 +54,13 @@ ingredients:
   - '2 cloves Garlic, minced'
   - 7 Dried Chinese Red Chilies
   - Peanut Oil (for shallow frying)
+origin: China
 ---
 
 ## Chef's Note
 
 General Tso's tofu brings the classic Chinese-American sauce to plant-based protein. The trick to crispy tofu that isn't soggy: toss the pressed tofu cubes in honey and hot sauce before coating with cornstarch and sesame seeds. This creates a sticky surface that the starch can fuse to, resulting in maximum crispiness even after glazing. Dark soy sauce gives the signature deep amber color. Serve immediately for best texture.
+For kids, serve the heat on the side or reduce/omit the spicy elements.
 
 ## Directions
 

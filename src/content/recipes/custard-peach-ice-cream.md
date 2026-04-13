@@ -1,16 +1,30 @@
 ---
 title: Custard Peach Ice Cream
 difficulty: intermediate
-cookingMethods: [steam]
-dietary: [vegetarian]
-occasions: [entertaining, summer, indulgent]
-seasons: [summer]
+cookingMethods:
+  - steam
+dietary:
+  - vegetarian
+occasions:
+  - entertaining
+  - summer
+  - indulgent
+seasons:
+  - summer
 nutritionalDensity: hearty
 leftovers: excellent
-equipment: [ice-cream-maker, saucepan]
-advancePrep: [make-ahead]
-flavorProfile: [sweet, acidic, rich]
-cuisines: [American]
+equipment:
+  - ice-cream-maker
+  - saucepan
+advancePrep:
+  - make-ahead
+  - freeze
+flavorProfile:
+  - sweet
+  - acidic
+  - rich
+cuisines:
+  - American
 role: dessert
 vibe: nutritious
 prepTime: 30 min
@@ -19,13 +33,19 @@ totalTime: 300 min
 servings: '6'
 ingredients:
   - '3 medium Ripe Peaches, peeled and mashed'
-  - '1 1/4 cups Granulated Sugar (divided)'
-  - '1/2 tsp Fresh Lemon Juice (The Acid Balance)'
-  - '1/4 tsp Sea Salt'
-  - '5 large Egg Yolks (room temp)'
-  - '1 1/2 cups Heavy Cream'
-  - '1 1/2 cups Whole Milk'
-  - '1 tsp Pure Vanilla Extract'
+  - 1 1/4 cups Granulated Sugar (divided)
+  - 1/2 tsp Fresh Lemon Juice (The Acid Balance)
+  - 1/4 tsp Sea Salt
+  - 5 large Egg Yolks (room temp)
+  - 1 1/2 cups Heavy Cream
+  - 1 1/2 cups Whole Milk
+  - 1 tsp Pure Vanilla Extract
+origin: United States
+pairsWith:
+  - apple-cider-cream-pie
+  - apple-pie
+  - blackout-chocolate-cake
+  - classic-peach-ice-cream
 ---
 
 ## Chef's Note

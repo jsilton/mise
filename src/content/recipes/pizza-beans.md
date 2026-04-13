@@ -1,29 +1,46 @@
 ---
 title: Pizza Beans
 difficulty: easy
-cookingMethods: [bake, sauté, simmer, no-cook]
+cookingMethods:
+  - bake
+  - sauté
+  - simmer
+  - no-cook
 dietary: []
-occasions: [comfort-food]
-flavorProfile: [umami, rich]
-cuisines: [Mexican]
+occasions:
+  - comfort-food
+flavorProfile:
+  - umami
+  - rich
+cuisines:
+  - Mexican
 role: main
 vibe: comfort
 prepTime: 15 min
 cookTime: 30 min
 totalTime: 45 min
 servings: '4'
-pairsWith: [queso-fundido-with-chorizo, homemade-enchilada-sauce, cilantro-lime-rice]
+pairsWith:
+  - queso-fundido-with-chorizo
+  - homemade-enchilada-sauce
+  - cilantro-lime-rice
 ingredients:
   - '2 cans (15 oz each) Giant White Beans (Butter or Gigante), rinsed'
-  - '1 tbsp Extra-Virgin Olive Oil'
+  - 1 tbsp Extra-Virgin Olive Oil
   - '1 Yellow Onion, diced'
   - '2 cloves Garlic, minced'
-  - '1 (28 oz) can Crushed Tomatoes'
+  - 1 (28 oz) can Crushed Tomatoes
   - '1 bunch Lacinato Kale, chopped'
   - '8 oz Mozzarella Cheese, shredded'
-  - '1/3 cup Grated Parmesan'
-  - '1 tsp Dried Oregano'
-  - 'Salt and Black Pepper'
+  - 1/3 cup Grated Parmesan
+  - 1 tsp Dried Oregano
+  - Salt and Black Pepper
+origin: Mexico
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: good
+equipment: []
 ---
 
 ## Chef's Note

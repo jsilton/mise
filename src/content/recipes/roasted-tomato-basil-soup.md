@@ -1,11 +1,23 @@
 ---
 title: Tomato Basil Soup
 difficulty: easy
-cookingMethods: [bake, roast, grill, sauté, simmer, blend]
+cookingMethods:
+  - bake
+  - roast
+  - grill
+  - sauté
+  - simmer
+  - blend
 dietary: []
-occasions: [comfort-food]
-flavorProfile: [sweet, acidic, rich, herbaceous]
-cuisines: [American]
+occasions:
+  - comfort-food
+flavorProfile:
+  - sweet
+  - acidic
+  - rich
+  - herbaceous
+cuisines:
+  - American
 role: main
 vibe: comfort
 prepTime: 15 min
@@ -13,11 +25,9 @@ cookTime: 45 min
 totalTime: 60 min
 servings: '6'
 pairsWith:
-  [
-    roasted-fall-harvest-salad,
-    roasted-sunchokes-with-brown-butter-cider-vinaigrette,
-    cinnamon-sweet-potatoes,
-  ]
+  - roasted-fall-harvest-salad
+  - roasted-sunchokes-with-brown-butter-cider-vinaigrette
+  - cinnamon-sweet-potatoes
 ingredients:
   - '3 lbs Roma Tomatoes, halved'
   - '6 cloves Garlic, peeled'
@@ -29,6 +39,12 @@ ingredients:
   - 1/2 tsp Red Pepper Flakes
   - 3 tbsp Extra-Virgin Olive Oil
   - Salt and Black Pepper
+origin: United States
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: good
+equipment: []
 ---
 
 ## Chef's Note
@@ -43,3 +59,4 @@ Roasting fresh tomatoes and whole garlic cloves at 400°F until charred and soft
 4.  **The Emulsion:** Stir in the fresh basil. Use an immersion blender to puree until completely velvety and smooth.
 5.  **Finish:** Stir in the cream for the mandatory **Acid/Fat Finish**. Taste and adjust salt.
 6.  **Serve:** Serve with a drizzle of high-quality olive oil.
+

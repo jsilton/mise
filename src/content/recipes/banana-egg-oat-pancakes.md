@@ -1,36 +1,48 @@
 ---
 title: Banana Egg Oat Pancakes
 difficulty: easy
-cookingMethods: []
-dietary: [vegetarian]
-occasions: [quick-lunch, post-workout, weeknight]
-seasons: [year-round]
+cookingMethods:
+  - sear
+dietary:
+  - vegetarian
+occasions:
+  - quick-lunch
+  - post-workout
+  - weeknight
+seasons:
+  - year-round
 nutritionalDensity: moderate
 leftovers: poor
 equipment: []
-flavorProfile: [sweet, rich]
-cuisines: [American]
+flavorProfile:
+  - sweet
+  - rich
+cuisines:
+  - American
 role: main
 vibe: quick
 prepTime: 5 min
 cookTime: 10 min
 totalTime: 15 min
 servings: '1'
-pairsWith: [avocado-kale-caesar-salad, brownie-protein-balls, banana-oat-greek-yogurt-muffins]
+pairsWith:
+  - avocado-kale-caesar-salad
+  - brownie-protein-balls
+  - banana-oat-greek-yogurt-muffins
 ingredients:
-  - '1 large ripe Banana (the spottier the better)'
-  - '2 large Eggs'
-  - '1/4 cup Rolled Oats (Old Fashioned)'
-  - '1 tbsp Almond Butter or Peanut Butter'
-  - '1/2 tsp Cinnamon'
-  - 'Pinch of Kosher Salt'
-  - 'Butter or Coconut Oil for searing'
+  - 1 large ripe Banana (the spottier the better)
+  - 2 large Eggs
+  - 1/4 cup Rolled Oats (Old Fashioned)
+  - 1 tbsp Almond Butter or Peanut Butter
+  - 1/2 tsp Cinnamon
+  - Pinch of Kosher Salt
+  - Butter or Coconut Oil for searing
+origin: United States
 ---
 
 ## Chef's Note
 
-This is a high-protein, flourless breakfast. The challenge is **Structural Integrity**: without flour or gluten, these pancakes are fragile. The secret is the **Nut Butter Binder**: the fats in the almond or peanut butter help the eggs hold the banana fibers together. Cook these smaller than traditional pancakes—about 3 inches wide—to make them easier to flip without breaking.
-
+These are a gym staple made famous by bodybuilders—a high-protein, no-flour pancake that blends banana, eggs, and oats into a batter with the texture of crepes. The banana provides natural sweetness and moisture, so these need almost no oil; cook them at medium heat or the outside browns before the inside sets.
 ## Directions
 
 1.  **Mash:** In a medium bowl, mash the banana until almost liquid.

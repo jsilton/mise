@@ -2,18 +2,28 @@
 title: Naan
 origin: India
 difficulty: easy
-cookingMethods: [bake, steam]
+cookingMethods:
+  - bake
+  - steam
 dietary: []
-occasions: [weekend-project, entertaining]
-flavorProfile: [sweet, rich]
-cuisines: [Indian]
+occasions:
+  - weekend-project
+  - entertaining
+flavorProfile:
+  - sweet
+  - rich
+cuisines:
+  - Indian
 role: base
 vibe: technical
 prepTime: 20 min
 cookTime: 10 min
-totalTime: 2 hours
+totalTime: 2 hr
 servings: 8 breads
-pairsWith: [chicken-tikka-masala, lamb-keema-matar, curried-carrot-and-apple-soup]
+pairsWith:
+  - chicken-tikka-masala
+  - lamb-keema-matar
+  - curried-carrot-and-apple-soup
 ingredients:
   - 2 cups All-Purpose Flour
   - 1 tsp Instant Yeast
@@ -25,6 +35,13 @@ ingredients:
   - 2 tbsp Melted Butter
   - '1 clove Garlic, minced'
   - Fresh Cilantro
+seasons:
+  - year-round
+nutritionalDensity: light
+leftovers: good
+advancePrep:
+  - rise-dough
+equipment: []
 ---
 
 ## Chef's Note

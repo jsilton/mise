@@ -1,24 +1,37 @@
 ---
 title: Chicken Fingers
 aliases:
-  - 'crispy-chicken-milanese-family-chicken-fingers'
+  - crispy-chicken-milanese-family-chicken-fingers
 difficulty: easy
-cookingMethods: [bake, roast, fry]
+cookingMethods:
+  - bake
+  - roast
+  - fry
 dietary: []
-occasions: [kids-approved, weeknight, comfort-food]
-seasons: [year-round]
+occasions:
+  - kids-approved
+  - weeknight
+  - comfort-food
+seasons:
+  - year-round
 nutritionalDensity: moderate
 leftovers: good
 equipment: []
-flavorProfile: [sweet, acidic, umami]
-cuisines: [American]
+flavorProfile:
+  - sweet
+  - acidic
+  - umami
+cuisines:
+  - American
 role: main
 vibe: quick
 prepTime: 15 min
 cookTime: 10 min
 totalTime: 25 min
 servings: '4'
-pairsWith: [everyday-arugula-salad, stovetop-macaroni-and-cheese]
+pairsWith:
+  - everyday-arugula-salad
+  - stovetop-macaroni-and-cheese
 ingredients:
   - 1 lb Chicken Tenderloins or Breasts cut into strips
   - 1/2 cup All-Purpose Flour
@@ -28,6 +41,7 @@ ingredients:
   - 1 tsp Garlic Powder
   - 1 tsp Dried Oregano
   - Salt and Black Pepper
+origin: United States
 ---
 
 ## Chef's Note
@@ -45,3 +59,5 @@ We have upgraded the "shaking in a bag" method to the **Standard Breading Proced
 4.  **Roast:** Arrange on the wire rack. Spray the tops of the chicken lightly with oil.
 5.  **Crisp:** Bake for 12-15 minutes until golden brown and the internal temp is 165°F. (No need to flip if using a wire rack!).
 6.  **Finish:** Serve hot with a squeeze of lemon or your favorite dipping sauce.
+
+**Rest:** Let lb Chicken rest for 5 minutes before slicing or serving — the juices redistribute and every piece stays moist.

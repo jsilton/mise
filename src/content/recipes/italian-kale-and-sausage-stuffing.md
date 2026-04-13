@@ -1,23 +1,37 @@
 ---
 title: Italian Kale & Sausage Stuffing
 difficulty: easy
-cookingMethods: [bake, roast, sauté]
-dietary: [vegetarian]
-occasions: [holiday, entertaining, potluck]
-flavorProfile: [umami, herbaceous]
-cuisines: [Italian]
+cookingMethods:
+  - bake
+  - roast
+  - sauté
+dietary: []
+occasions:
+  - holiday
+  - entertaining
+  - potluck
+flavorProfile:
+  - umami
+  - herbaceous
+cuisines:
+  - Italian
 role: side
 vibe: holiday
 prepTime: 20 min
 cookTime: 30 min
 totalTime: 80 min
 servings: '12'
-seasons: [fall, winter]
+seasons:
+  - fall
+  - winter
 nutritionalDensity: hearty
 leftovers: excellent
-advancePrep: [make-ahead]
+advancePrep:
+  - make-ahead
 equipment: []
-pairsWith: [simple-roast-turkey, perfect-cranberry-sauce]
+pairsWith:
+  - simple-roast-turkey
+  - perfect-cranberry-sauce
 ingredients:
   - '3/4 lb Ciabatta Bread, sliced 1/2-inch thick'
   - 1 1/2 cups Whole Milk
@@ -30,12 +44,12 @@ ingredients:
   - 1 1/4 cups Freshly Grated Parmesan
   - 1 tbsp Fresh Basil + 1 tsp Fresh Sage + 1 tsp Fresh Rosemary
   - Kosher Salt and Black Pepper
+origin: Italy
 ---
 
 ## Chef's Note
 
-This is an Italian-American twist on traditional Thanksgiving stuffing, reflecting how Italian immigrant families adapted American holiday traditions with their own ingredients. Using ciabatta (Italian bread with large air pockets) instead of white bread, Italian sausage instead of sage sausage, and kale with Parmesan gives this stuffing a distinctly Italian character. Soaking the bread in milk creates a custardy texture rather than dry croutons. Brown the sausage well to render its fat, which becomes your cooking medium for the vegetables. The combination of fresh herbs - parsley, basil, sage, rosemary - is classically Italian. Make this a day ahead and refrigerate, then bake before serving.
-
+Italian-American stuffing started showing up at Thanksgiving tables in the 1950s when Italian immigrant families blended their sausage-and-bread traditions with the American holiday. Soaking the ciabatta in milk creates pockets of custard-like richness between the crispy top and the tender interior. The kale adds bitterness that cuts through the sausage fat, and fresh herbs go in at the end so they stay bright.
 ## Directions
 
 1.  **The Soak:** Place ciabatta slices in a large bowl. Drizzle with milk and let sit for 30 minutes, flipping once, until fully saturated.

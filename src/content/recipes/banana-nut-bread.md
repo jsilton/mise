@@ -1,28 +1,43 @@
 ---
 title: Banana Nut Bread
 difficulty: intermediate
-cookingMethods: [bake]
-dietary: [vegetarian]
-occasions: [comfort-food]
-flavorProfile: [sweet, rich]
-cuisines: [American]
+cookingMethods:
+  - bake
+dietary:
+  - vegetarian
+occasions:
+  - comfort-food
+flavorProfile:
+  - sweet
+  - rich
+cuisines:
+  - American
 role: side
 vibe: comfort
 prepTime: 15 min
 cookTime: 55 min
 totalTime: 70 min
 servings: '10'
-pairsWith: [blueberry-baked-oatmeal, blueberry-pancakes, brownie-baked-oatmeal]
+pairsWith:
+  - blueberry-baked-oatmeal
+  - blueberry-pancakes
+  - brownie-baked-oatmeal
 ingredients:
   - '3 large Very Ripe Bananas (about 375g), mashed'
   - '1/2 cup (1 stick) Unsalted Butter, melted and cooled'
-  - '1 cup Granulated Sugar'
+  - 1 cup Granulated Sugar
   - '2 large Eggs, room temperature'
-  - '2 cups All-Purpose Flour (250g)'
-  - '1 tsp Baking Soda'
-  - '1/2 tsp Kosher Salt'
+  - 2 cups All-Purpose Flour (250g)
+  - 1 tsp Baking Soda
+  - 1/2 tsp Kosher Salt
   - '1/2 cup Walnuts or Toasted Sunflower Seeds, chopped'
-  - '1 tsp Vanilla Extract'
+  - 1 tsp Vanilla Extract
+origin: United States
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: good
+equipment: []
 ---
 
 ## Chef's Note

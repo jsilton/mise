@@ -1,16 +1,30 @@
 ---
 title: Frozen Blueberry Muffins
 difficulty: easy
-cookingMethods: [bake]
-dietary: [vegetarian]
-occasions: [meal-prep, kids-approved, entertaining, weekend-project]
-seasons: [year-round]
+cookingMethods:
+  - bake
+dietary:
+  - vegetarian
+occasions:
+  - meal-prep
+  - kids-approved
+  - entertaining
+  - weekend-project
+seasons:
+  - year-round
 nutritionalDensity: moderate
 leftovers: excellent
-equipment: [muffin-tin, stand-mixer]
-advancePrep: [make-ahead, freeze-ahead]
-flavorProfile: [sweet, rich]
-cuisines: [American]
+equipment:
+  - muffin-tin
+  - stand-mixer
+advancePrep:
+  - make-ahead
+  - freeze-ahead
+flavorProfile:
+  - sweet
+  - rich
+cuisines:
+  - American
 role: main
 vibe: quick
 prepTime: 10 min
@@ -18,11 +32,9 @@ cookTime: 20 min
 totalTime: 30 min
 servings: '24'
 pairsWith:
-  [
-    banana-oat-greek-yogurt-muffins,
-    roasted-sunchokes-with-brown-butter-cider-vinaigrette,
-    almond-zucchini-bread,
-  ]
+  - banana-oat-greek-yogurt-muffins
+  - roasted-sunchokes-with-brown-butter-cider-vinaigrette
+  - almond-zucchini-bread
 ingredients:
   - 4 cups All-Purpose Flour
   - 2 cups Granulated Sugar (divided)
@@ -34,6 +46,7 @@ ingredients:
   - 1/2 tsp Sea Salt
   - 2 tsp Vanilla Extract
   - 1/2 tsp Ground Nutmeg
+origin: United States
 ---
 
 ## Chef's Note

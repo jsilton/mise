@@ -1,15 +1,28 @@
 ---
 title: Citrus Beet Chicken
 difficulty: intermediate
-cookingMethods: [bake, roast]
+cookingMethods:
+  - bake
+  - roast
 dietary: []
-occasions: [weeknight, date-night, entertaining]
-seasons: [fall, winter]
+occasions:
+  - weeknight
+  - date-night
+  - entertaining
+seasons:
+  - fall
+  - winter
 nutritionalDensity: moderate
 leftovers: good
-equipment: [sheet-pan]
-flavorProfile: [spicy, sweet, acidic, rich]
-cuisines: [American]
+equipment:
+  - sheet-pan
+flavorProfile:
+  - spicy
+  - sweet
+  - acidic
+  - rich
+cuisines:
+  - American
 role: main
 vibe: nutritious
 prepTime: 20 min
@@ -17,11 +30,9 @@ cookTime: 60 min
 totalTime: 80 min
 servings: '4'
 pairsWith:
-  [
-    roasted-fall-harvest-salad,
-    roasted-sunchokes-with-brown-butter-cider-vinaigrette,
-    cinnamon-sweet-potatoes,
-  ]
+  - roasted-fall-harvest-salad
+  - roasted-sunchokes-with-brown-butter-cider-vinaigrette
+  - cinnamon-sweet-potatoes
 ingredients:
   - '4 Bone-in Chicken Thighs, skin-on'
   - '4 large Beets, sliced into 1/4-inch rounds'
@@ -33,11 +44,13 @@ ingredients:
   - '4 cloves Garlic, minced'
   - 1 tsp Chili Powder
   - Salt and Black Pepper
+origin: United States
 ---
 
 ## Chef's Note
 
 This one-pan roast builds flavor by placing butter-topped chicken directly onto beets—as chicken fat renders, it emulsifies with orange juice and chili to create vibrant, earthy glaze for the vegetables. Fresh orange juice cuts through beets' sweetness and rich skin-on thighs, ensuring brightness in every bite.
+For kids, serve the heat on the side or reduce/omit the spicy elements.
 
 ## Directions
 

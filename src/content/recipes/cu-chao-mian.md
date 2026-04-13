@@ -2,22 +2,36 @@
 title: Cu Chao Mian (Shanghai Fried Noodles)
 origin: China
 difficulty: easy
-cookingMethods: [fry, sauté]
+cookingMethods:
+  - fry
+  - sauté
 dietary: []
-occasions: [weeknight, quick-lunch, kids-approved]
-flavorProfile: [sweet, savory, acidic, umami]
-cuisines: [Chinese]
+occasions:
+  - weeknight
+  - quick-lunch
+  - kids-approved
+flavorProfile:
+  - sweet
+  - savory
+  - acidic
+  - umami
+cuisines:
+  - Chinese
 role: main
 vibe: quick
 prepTime: 10 min
 cookTime: 10 min
 totalTime: 20 min
 servings: '4'
-seasons: [year-round]
+seasons:
+  - year-round
 nutritionalDensity: hearty
 leftovers: excellent
-equipment: [wok]
-pairsWith: [smashed-cucumber-salad, steamed-broccoli]
+equipment:
+  - wok
+pairsWith:
+  - smashed-cucumber-salad
+  - steamed-broccoli
 ingredients:
   - 1 lb Japanese-style Udon or thick Egg Noodles
   - '6 oz Pork Tenderloin, sliced into thin strips'

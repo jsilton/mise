@@ -2,18 +2,29 @@
 title: Pad See Ew
 origin: Thailand
 difficulty: easy
-cookingMethods: [sauté]
+cookingMethods:
+  - sauté
 dietary: []
-occasions: [weeknight, quick-lunch]
-flavorProfile: [sweet, savory, acidic, umami]
-cuisines: [Thai]
+occasions:
+  - weeknight
+  - quick-lunch
+flavorProfile:
+  - sweet
+  - savory
+  - acidic
+  - umami
+cuisines:
+  - Thai
 role: main
 vibe: quick
 prepTime: 15 min
 cookTime: 10 min
 totalTime: 25 min
 servings: '4'
-pairsWith: [coconut-jasmine-rice, quick-pickled-carrots-and-daikon, eggplant-with-garlic-sauce]
+pairsWith:
+  - coconut-jasmine-rice
+  - quick-pickled-carrots-and-daikon
+  - eggplant-with-garlic-sauce
 ingredients:
   - 15 oz Fresh Wide Flat Rice Noodles (Sen Yai)
   - 2 tbsp Dark Soy Sauce
@@ -26,6 +37,11 @@ ingredients:
   - 4 stems Chinese Broccoli (Gai Lan)
   - '2 cloves Garlic, minced'
   - Neutral Oil (Peanut or Vegetable)
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: good
+equipment: []
 ---
 
 ## Chef's Note

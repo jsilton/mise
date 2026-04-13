@@ -1,11 +1,17 @@
 ---
 title: Soft Pumpkin Cookies
 difficulty: intermediate
-cookingMethods: [bake]
-dietary: [vegetarian]
-occasions: [comfort-food]
-flavorProfile: [sweet, rich]
-cuisines: [American]
+cookingMethods:
+  - bake
+dietary:
+  - vegetarian
+occasions:
+  - comfort-food
+flavorProfile:
+  - sweet
+  - rich
+cuisines:
+  - American
 role: dessert
 vibe: comfort
 prepTime: 10 min
@@ -27,6 +33,17 @@ ingredients:
   - 2 cups Confectioners’ Sugar
   - 3 tbsp Milk
   - '1 tbsp Unsalted Butter, melted'
+origin: United States
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: good
+equipment: []
+pairsWith:
+  - apple-cider-cream-pie
+  - apple-pie
+  - babys-first-smash-cake
+  - best-cinnamon-roll-recipe-cinnabon-copycat
 ---
 
 ## Chef's Note

@@ -1,24 +1,38 @@
 ---
 title: Honey-Glazed Spareribs
 aliases:
-  - 'honey-glazed-spareribs-the-bbq-shortcut'
+  - honey-glazed-spareribs-the-bbq-shortcut
 difficulty: easy
-cookingMethods: [boil, blend]
+cookingMethods:
+  - boil
+  - blend
 dietary: []
-occasions: [entertaining, comfort-food, indulgent]
-flavorProfile: [sweet, savory, umami, smoky]
-cuisines: [Chinese]
+occasions:
+  - entertaining
+  - comfort-food
+  - indulgent
+flavorProfile:
+  - sweet
+  - savory
+  - umami
+  - smoky
+cuisines:
+  - Chinese
 role: main
 vibe: comfort
 prepTime: 15 min
 cookTime: 30 min
 totalTime: 60 min
 servings: '4'
-seasons: [year-round, summer]
+seasons:
+  - year-round
+  - summer
 nutritionalDensity: hearty
 leftovers: excellent
 equipment: []
-pairsWith: [basmati-rice, smashed-cucumber-salad]
+pairsWith:
+  - basmati-rice
+  - smashed-cucumber-salad
 ingredients:
   - '2 racks Pork Spareribs (4 lbs), cut into 3-rib sections'
   - 1/2 cup Hoisin Sauce
@@ -29,6 +43,7 @@ ingredients:
   - 1 tbsp Sambal Oelek
   - 1/2 cup Honey
   - 1/4 cup reserved honey
+origin: China
 ---
 
 ## Chef's Note

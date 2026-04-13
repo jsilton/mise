@@ -1,15 +1,31 @@
 ---
 title: Strawberry Rhubarb Shortcake
 difficulty: easy
-cookingMethods: [bake, roast, no-cook]
-dietary: [vegetarian]
-occasions: [entertaining, summer, weekend-project, indulgent]
-seasons: [spring, summer]
+cookingMethods:
+  - bake
+  - roast
+  - no-cook
+dietary:
+  - vegetarian
+occasions:
+  - entertaining
+  - summer
+  - weekend-project
+  - indulgent
+seasons:
+  - spring
+  - summer
 nutritionalDensity: hearty
 leftovers: good
-equipment: [baking-sheet, mixing-bowl]
-flavorProfile: [sweet, savory, rich]
-cuisines: [American]
+equipment:
+  - baking-sheet
+  - mixing-bowl
+flavorProfile:
+  - sweet
+  - savory
+  - rich
+cuisines:
+  - American
 role: dessert
 vibe: technical
 prepTime: 30 min
@@ -29,6 +45,12 @@ ingredients:
   - '1/2 Vanilla Bean, seeds scraped'
   - 1 cup Mascarpone Cheese (for richness)
   - 3/4 cup Heavy Cream
+origin: United States
+pairsWith:
+  - old-fashioned-strawberry-ice-cream
+  - peach-pie-biscuit-bombs
+  - apple-cider-cream-pie
+  - apple-pie
 ---
 
 ## Chef's Note

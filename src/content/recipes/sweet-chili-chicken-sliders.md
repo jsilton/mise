@@ -3,19 +3,30 @@ title: Sweet Chili Chicken Sliders
 role: main
 vibe: quick
 difficulty: easy
-cuisines: [Thai, American]
-occasions: [entertaining, game-day, weeknight]
-cookingMethods: [broil]
-flavorProfile: [sweet, spicy, savory, umami]
+cuisines:
+  - Thai
+  - American
+occasions:
+  - entertaining
+  - game-day
+  - weeknight
+cookingMethods:
+  - broil
+flavorProfile:
+  - sweet
+  - spicy
+  - savory
+  - umami
 prepTime: 15 min
 cookTime: 15 min
 totalTime: 30 min
-servings: '12 sliders'
+servings: 12 sliders
 pairsWith:
   - crockpot-mac-and-cheese
   - classic-guacamole
   - bbq-chicken-sliders
-equipment: [sheet-pan]
+equipment:
+  - sheet-pan
 ingredients:
   - 2 lbs Boneless Skinless Chicken Thighs
   - 'For the Marinade:'
@@ -35,11 +46,17 @@ ingredients:
   - 2 tbsp Butter (melted)
   - Sesame Seeds
   - Fresh Cilantro (optional)
+origin: Thailand
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: good
 ---
 
 ## Chef's Note
 
 This slider gets its depth from a quick soy-sesame-garlic marinade that seasons the chicken before it hits the broiler. The sweet chili glaze goes on at the end for that sticky, lacquered finish. Don't skip the sriracha mayo—it bridges the sweet glaze and savory chicken. The store-bought Asian salad kit (cabbage, crispy wontons, sesame dressing) is a legit shortcut that adds crunch, freshness, and another layer of sesame flavor. Toast those Hawaiian rolls—the butter helps them stand up to the juicy chicken.
+For kids, serve the heat on the side or reduce/omit the spicy elements.
 
 ## Directions
 

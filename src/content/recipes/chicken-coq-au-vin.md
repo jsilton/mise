@@ -1,18 +1,32 @@
 ---
 title: Chicken Coq au Vin
 difficulty: easy
-cookingMethods: [bake, sauté, simmer, boil]
+cookingMethods:
+  - bake
+  - sauté
+  - simmer
+  - boil
 dietary: []
-occasions: [comfort-food, weekend-project]
-flavorProfile: [savory, umami, rich, herbaceous]
-cuisines: [French]
+occasions:
+  - comfort-food
+  - weekend-project
+flavorProfile:
+  - savory
+  - umami
+  - rich
+  - herbaceous
+cuisines:
+  - French
 role: main
 vibe: technical
 prepTime: 30 min
-cookTime: 2 hours
-totalTime: 2.5 hours
+cookTime: 2 hr
+totalTime: 2.5 hr
 servings: '4'
-pairsWith: [sweet-and-white-potato-gratin, tarragon-potatoes, garlic-bread]
+pairsWith:
+  - sweet-and-white-potato-gratin
+  - tarragon-potatoes
+  - garlic-bread
 ingredients:
   - '2 lbs Chicken Thighs, bone-in and skin-on'
   - '4 oz Bacon or Lardons, diced'
@@ -26,6 +40,12 @@ ingredients:
   - 2 sprigs Fresh Thyme
   - '2 tbsp Cold Butter, cubed (The Butter Mount)'
   - Fresh Parsley
+origin: France
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: good
+equipment: []
 ---
 
 ## Chef's Note

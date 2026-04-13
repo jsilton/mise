@@ -1,22 +1,36 @@
 ---
 title: Garlic Potatoes
 difficulty: easy
-cookingMethods: [bake, roast, steam]
+cookingMethods:
+  - bake
+  - roast
+  - steam
 dietary: []
-occasions: [holiday, entertaining, weeknight]
-seasons: [year-round]
+occasions:
+  - holiday
+  - entertaining
+  - weeknight
+seasons:
+  - year-round
 nutritionalDensity: moderate
 leftovers: good
-equipment: [sheet-pan]
-flavorProfile: [sweet, herbaceous]
-cuisines: [American]
+equipment:
+  - sheet-pan
+flavorProfile:
+  - sweet
+  - herbaceous
+cuisines:
+  - American
 role: side
 vibe: nutritious
 prepTime: 10 min
 cookTime: 45 min
 totalTime: 55 min
 servings: '8'
-pairsWith: [herb-marinated-pork-tenderloins, rosemary-pork-tenderloin, good-eats-roast-turkey]
+pairsWith:
+  - herb-marinated-pork-tenderloins
+  - rosemary-pork-tenderloin
+  - good-eats-roast-turkey
 ingredients:
   - '3 lbs Small Red or Yukon Gold Potatoes, halved'
   - 1/4 cup Extra-Virgin Olive Oil
@@ -24,6 +38,7 @@ ingredients:
   - 1 tsp Black Pepper
   - '2 tbsp Garlic, minced (6 cloves)'
   - '2 tbsp Fresh Parsley, minced'
+origin: United States
 ---
 
 ## Chef's Note

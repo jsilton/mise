@@ -2,23 +2,42 @@
 title: Chicken Pot Pie
 origin: USA
 difficulty: intermediate
-cookingMethods: [bake, roast, sauté, simmer, boil, steam, poach, no-cook]
+cookingMethods:
+  - bake
+  - roast
+  - sauté
+  - simmer
+  - boil
+  - steam
+  - poach
+  - no-cook
 dietary: []
-occasions: [comfort-food, entertaining, weekend-project, holiday]
-seasons: [fall, winter]
+occasions:
+  - comfort-food
+  - entertaining
+  - weekend-project
+  - holiday
+seasons:
+  - fall
+  - winter
 nutritionalDensity: hearty
 leftovers: excellent
-advancePrep: [make-ahead]
+advancePrep:
+  - make-ahead
 equipment: []
-flavorProfile: [savory, rich]
-cuisines: [American]
+flavorProfile:
+  - savory
+  - rich
+cuisines:
+  - American
 role: main
 vibe: technical
 prepTime: 45 min
 cookTime: 40 min
 totalTime: 90 min
 servings: '8'
-pairsWith: [avocado-kale-caesar-salad]
+pairsWith:
+  - avocado-kale-caesar-salad
 ingredients:
   - '1 lb Chicken Breast, poached and cubed'
   - '1 cup Carrots, diced'
@@ -30,15 +49,14 @@ ingredients:
   - 2/3 cup Whole Milk
   - 1/2 tsp Garlic Powder + 1/4 tsp Celery Seed
   - >-
-    2 (9-inch) unbaked pie crusts (Use the [Apple
-    Pie](/mise/recipes/apple-pie) Vodka Hack dough!)
+    2 (9-inch) unbaked pie crusts (Use the [Apple Pie](/mise/recipes/apple-pie)
+    Vodka Hack dough!)
   - 1 large Egg (for wash)
 ---
 
 ## Chef's Note
 
-A great pot pie is defined by the velouté (the gravy) and the flaky crust. This version uses poached or roasted chicken chunks rather than boiled chicken to preserve the meaty texture. The secret is celery seed: it provides that savory depth that makes the pie taste like a professional bakery version. For the best result, use the Vodka Hack dough from our Apple Pie recipe.
-
+Chicken pot pie is American comfort food by way of English savory pies — the filling is essentially a chicken velouté (roux + broth + cream) with vegetables, sealed under pastry. The 425°F oven is doing two jobs at once: crisping the crust and keeping the filling at a rolling bubble. If you have time, use the vodka pie dough from the apple pie recipe — it produces a flakier crust because the alcohol evaporates faster than water during baking, creating more air pockets. The 10-minute rest isn't optional: cut too early and the filling runs everywhere.
 ## Directions
 
 1.  **Prep:** Preheat oven to 425°F.

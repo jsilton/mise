@@ -1,22 +1,40 @@
 ---
 title: Chicken Piccata
 difficulty: easy
-cookingMethods: [roast, sauté, simmer]
+cookingMethods:
+  - roast
+  - sauté
+  - simmer
 dietary: []
-occasions: [weeknight, date-night, quick-lunch, light-and-fresh]
-seasons: [spring, summer, year-round]
+occasions:
+  - weeknight
+  - date-night
+  - quick-lunch
+  - light-and-fresh
+seasons:
+  - spring
+  - summer
+  - year-round
 nutritionalDensity: moderate
 leftovers: good
-equipment: [large-skillet]
-flavorProfile: [acidic, rich, herbaceous]
-cuisines: [Italian]
+equipment:
+  - large-skillet
+flavorProfile:
+  - acidic
+  - rich
+  - herbaceous
+cuisines:
+  - Italian
 role: main
 vibe: quick
 prepTime: 10 min
 cookTime: 15 min
 totalTime: 25 min
 servings: '4'
-pairsWith: [fresh-egg-pasta, perfect-mashed-potatoes, roasted-root-vegetables]
+pairsWith:
+  - fresh-egg-pasta
+  - perfect-mashed-potatoes
+  - roasted-root-vegetables
 ingredients:
   - '2 large Chicken Breasts, halved horizontally (cutlets) and pounded thin'
   - 2 tbsp Extra-Virgin Olive Oil
@@ -27,6 +45,7 @@ ingredients:
   - '2 tbsp Capers, drained'
   - 'Fresh Parsley, chopped'
   - Salt and Black Pepper
+origin: Italy
 ---
 
 ## Chef's Note

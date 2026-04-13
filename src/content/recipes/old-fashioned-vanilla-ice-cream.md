@@ -1,29 +1,48 @@
 ---
 title: Old-Fashioned Vanilla Ice Cream
 difficulty: intermediate
-cookingMethods: [simmer, boil]
-dietary: [vegetarian]
-occasions: [entertaining, indulgent]
-seasons: [year-round]
+cookingMethods:
+  - simmer
+  - boil
+dietary:
+  - vegetarian
+occasions:
+  - entertaining
+  - indulgent
+seasons:
+  - year-round
 nutritionalDensity: hearty
 leftovers: excellent
-equipment: [ice-cream-maker, saucepan]
-advancePrep: [make-ahead]
-flavorProfile: [sweet, rich]
-cuisines: [American]
+equipment:
+  - ice-cream-maker
+  - saucepan
+advancePrep:
+  - make-ahead
+  - freeze
+flavorProfile:
+  - sweet
+  - rich
+cuisines:
+  - American
 role: dessert
-vibe: quick
+vibe: technical
 prepTime: 5 min
 cookTime: 10 min
 totalTime: 300 min
-servings: '1 quart'
+servings: 1 quart
 ingredients:
-  - '4 large Egg Yolks'
-  - '1/2 cup Granulated Sugar'
-  - '1 cup Whole Milk'
-  - '1 cup Heavy Cream'
-  - '2 tsp Pure Vanilla Bean Paste'
-  - 'Pinch of Sea Salt'
+  - 4 large Egg Yolks
+  - 1/2 cup Granulated Sugar
+  - 1 cup Whole Milk
+  - 1 cup Heavy Cream
+  - 2 tsp Pure Vanilla Bean Paste
+  - Pinch of Sea Salt
+origin: United States
+pairsWith:
+  - apple-cider-cream-pie
+  - apple-pie
+  - babys-first-smash-cake
+  - best-cinnamon-roll-recipe-cinnabon-copycat
 ---
 
 ## Chef's Note

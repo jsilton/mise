@@ -1,33 +1,47 @@
 ---
 title: Bakery Style Chocolate Chip Muffins
 difficulty: intermediate
-cookingMethods: [bake]
-dietary: [vegetarian]
-occasions: [kids-approved, weekend-project, comfort-food]
-seasons: [year-round]
+cookingMethods:
+  - bake
+dietary:
+  - vegetarian
+occasions:
+  - kids-approved
+  - weekend-project
+  - comfort-food
+seasons:
+  - year-round
 nutritionalDensity: moderate
 leftovers: excellent
-equipment: [muffin-tin]
-flavorProfile: [sweet, rich]
-cuisines: [American]
+equipment:
+  - muffin-tin
+flavorProfile:
+  - sweet
+  - rich
+cuisines:
+  - American
 role: side
 vibe: technical
 prepTime: 15 min
 cookTime: 20 min
 totalTime: 35 min
 servings: '12'
-pairsWith: [blueberry-baked-oatmeal, breakfast-carrot-cake, chocolate-chip-beet-muffins]
+pairsWith:
+  - blueberry-baked-oatmeal
+  - breakfast-carrot-cake
+  - chocolate-chip-beet-muffins
 ingredients:
-  - '2 1/2 cups All-Purpose Flour'
-  - '1 cup Granulated Sugar'
-  - '1 tbsp Baking Powder'
-  - '1 tsp Baking Soda'
-  - '1/2 tsp Salt'
+  - 2 1/2 cups All-Purpose Flour
+  - 1 cup Granulated Sugar
+  - 1 tbsp Baking Powder
+  - 1 tsp Baking Soda
+  - 1/2 tsp Salt
   - '1/2 cup Unsalted Butter, melted and cooled'
-  - '1 cup Buttermilk (The moisture secret)'
-  - '2 large Eggs'
-  - '1 tbsp Vanilla Extract'
-  - '1 1/2 cups Semisweet Chocolate Chips'
+  - 1 cup Buttermilk (The moisture secret)
+  - 2 large Eggs
+  - 1 tbsp Vanilla Extract
+  - 1 1/2 cups Semisweet Chocolate Chips
+origin: United States
 ---
 
 ## Chef's Note

@@ -1,22 +1,39 @@
 ---
 title: One-Pot Chicken Meatballs with Greens
 difficulty: intermediate
-cookingMethods: [bake, sauté, simmer, steam, braise]
+cookingMethods:
+  - bake
+  - sauté
+  - simmer
+  - steam
+  - braise
 dietary: []
-occasions: [weeknight, meal-prep, comfort-food]
-flavorProfile: [acidic, rich]
-cuisines: [Italian]
+occasions:
+  - weeknight
+  - meal-prep
+  - comfort-food
+flavorProfile:
+  - acidic
+  - rich
+cuisines:
+  - Italian
 role: main
 vibe: nutritious
 prepTime: 15 min
 cookTime: 25 min
 totalTime: 40 min
 servings: '4'
-seasons: [year-round, fall, winter]
+seasons:
+  - year-round
+  - fall
+  - winter
 nutritionalDensity: moderate
 leftovers: excellent
-equipment: [large-skillet]
-pairsWith: [garlic-bread, everyday-arugula-salad]
+equipment:
+  - large-skillet
+pairsWith:
+  - garlic-bread
+  - everyday-arugula-salad
 ingredients:
   - 1 lb Ground Chicken
   - 1/3 cup Plain Greek Yogurt for richness
@@ -29,6 +46,7 @@ ingredients:
   - 1 tsp Ground Cumin
   - 2 tsp Dried Oregano
   - 1/4 tsp Red Pepper Flakes
+origin: Italy
 ---
 
 ## Chef's Note
@@ -44,3 +62,5 @@ Chicken meatballs can dry out easily since ground chicken is so lean, but adding
 5.  **The Braise:** Pile the chard and lemon slices directly on top of the meatballs. Cover tightly.
 6.  **Cook:** Simmer for 12-15 minutes until the meatballs are cooked through (165°F) and the chard is tender.
 7.  **Serve:** Use a ladle to scoop meatballs and greens together. Squeeze the remaining lemon half over the top for the mandatory **High Note**.
+
+**Rest:** Let Ground Chicken rest for 5 minutes before slicing or serving — the juices redistribute and every piece stays moist.

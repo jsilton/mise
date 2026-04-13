@@ -1,22 +1,36 @@
 ---
 title: Honey Garlic Butter Shrimp & Broccoli
 difficulty: easy
-cookingMethods: [sauté, simmer]
+cookingMethods:
+  - sauté
+  - simmer
 dietary: []
-occasions: [weeknight, quick-lunch, light-and-fresh]
-flavorProfile: [sweet, savory, umami, rich]
-cuisines: [Chinese]
+occasions:
+  - weeknight
+  - quick-lunch
+  - light-and-fresh
+flavorProfile:
+  - sweet
+  - savory
+  - umami
+  - rich
+cuisines:
+  - Chinese
 role: main
 vibe: quick
 prepTime: 10 min
 cookTime: 10 min
 totalTime: 20 min
 servings: '4'
-seasons: [year-round]
+seasons:
+  - year-round
 nutritionalDensity: light
 leftovers: good
-equipment: [large-skillet]
-pairsWith: [basmati-rice, steamed-broccoli]
+equipment:
+  - large-skillet
+pairsWith:
+  - basmati-rice
+  - steamed-broccoli
 ingredients:
   - '1 lb Large Shrimp (16/20 size), peeled and deveined'
   - 2 cups Fresh Broccoli Florets
@@ -29,6 +43,7 @@ ingredients:
   - 2 tbsp Unsalted Butter
   - 1 tsp Extra-Virgin Olive Oil
   - Salt and Black Pepper
+origin: China
 ---
 
 ## Chef's Note

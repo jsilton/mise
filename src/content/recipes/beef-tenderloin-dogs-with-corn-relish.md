@@ -1,22 +1,36 @@
 ---
 title: Beef Hot Dogs with Corn Relish
 difficulty: easy
-cookingMethods: [bake, roast, grill, no-cook]
+cookingMethods:
+  - bake
+  - roast
+  - grill
+  - no-cook
 dietary: []
-occasions: [entertaining, summer, weekend-project]
-seasons: [summer]
+occasions:
+  - entertaining
+  - summer
+  - weekend-project
+seasons:
+  - summer
 nutritionalDensity: moderate
 leftovers: good
-equipment: [grill]
-flavorProfile: [sweet, acidic]
-cuisines: [American]
+equipment:
+  - grill
+flavorProfile:
+  - sweet
+  - acidic
+cuisines:
+  - American
 role: main
 vibe: technical
 prepTime: 20 min
 cookTime: 15 min
 totalTime: 35 min
 servings: '4'
-pairsWith: [perfect-mashed-potatoes, everyday-arugula-salad]
+pairsWith:
+  - perfect-mashed-potatoes
+  - everyday-arugula-salad
 ingredients:
   - '1 lb Center-cut Beef Tenderloin, cut into 4 long "dogs"'
   - 1 tbsp Olive Oil
@@ -29,12 +43,12 @@ ingredients:
   - 2 tbsp Apple Cider Vinegar
   - 1 tsp Sugar
   - Salt and Black Pepper
+origin: United States
 ---
 
 ## Chef's Note
 
-This is a high-end take on a cookout classic. The beef tenderloin is incredibly tender, so we use high-heat cooking: a hard sear to get a crust while keeping the center medium-rare. The corn relish provides the essential acidity and crunch that makes this dish feel light and balanced rather than heavy.
-
+Hot dogs made from beef tenderloin aren't a tradition—they're a luxury. The corn relish is the main event: fresh corn kernels provide sweetness and texture that store-bought relish can't match. The magic is in the quick pickle: fresh corn with vinegar, onion, and mustard seeds transforms an ordinary hot dog stand item into something worth serving at a table.
 ## Directions
 
 1.  **The Relish:** In a small bowl, whisk the vinegar, sugar, salt, and pepper. Toss with the roasted corn, peppers, and onions. Let marinate while you cook the beef.

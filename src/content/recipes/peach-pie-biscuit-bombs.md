@@ -1,15 +1,27 @@
 ---
 title: Peach Pie Biscuit Bombs
 difficulty: easy
-cookingMethods: [bake]
-dietary: [vegetarian]
-occasions: [entertaining, summer, kids-approved]
-seasons: [summer]
+cookingMethods:
+  - bake
+dietary:
+  - vegetarian
+occasions:
+  - entertaining
+  - summer
+  - kids-approved
+seasons:
+  - summer
 nutritionalDensity: hearty
 leftovers: good
-equipment: [baking-sheet, saucepan]
-flavorProfile: [sweet, savory, rich]
-cuisines: [American]
+equipment:
+  - baking-sheet
+  - saucepan
+flavorProfile:
+  - sweet
+  - savory
+  - rich
+cuisines:
+  - American
 role: dessert
 vibe: technical
 prepTime: 10 min
@@ -24,12 +36,17 @@ ingredients:
   - 1 tsp Ground Cinnamon
   - 1 tbsp Honey
   - 3 tbsp Unsalted Butter (Beurre Noisette)
+origin: United States
+pairsWith:
+  - old-fashioned-strawberry-ice-cream
+  - strawberry-rhubarb-shortcake-with-whipped-mascarpone
+  - apple-cider-cream-pie
+  - apple-pie
 ---
 
 ## Chef's Note
 
-This is a quick take on the hand pie. The key is brushing the biscuits with butter that has been cooked until nutty and brown before baking. This creates a toasted, savory flavor that balances the creamy Brie and sweet peaches. Using Brie prevents the peach juices from turning the biscuit base into mush.
-
+These are a shortcut's triumph—using refrigerated biscuits legitimately, not apologetically. The filling is a lesson in flavor layering: warm peaches, creamy melted brie (unexpected richness), brown butter (nutty depth), and brown sugar with cinnamon (familiar sweetness). Brush with brown butter twice—once before baking and again after—for a flaky exterior and luxurious finish.
 ## Directions
 
 1.  **Prep:** Preheat oven to 375°F. Line a baking sheet with parchment.

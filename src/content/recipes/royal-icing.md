@@ -1,26 +1,39 @@
 ---
 title: Royal Icing
 difficulty: intermediate
-cookingMethods: []
-dietary: [vegetarian]
-occasions: [holiday, kids-approved, weekend-project]
-seasons: [year-round]
+cookingMethods:
+  - no-cook
+dietary:
+  - vegetarian
+occasions:
+  - holiday
+  - kids-approved
+  - weekend-project
+seasons:
+  - year-round
 nutritionalDensity: light
 leftovers: good
-equipment: [stand-mixer]
-flavorProfile: [sweet]
-cuisines: [American]
+equipment:
+  - stand-mixer
+flavorProfile:
+  - sweet
+cuisines:
+  - American
 role: base
 vibe: quick
 prepTime: 5 min
 cookTime: 0 min
 totalTime: 5 min
-servings: '36 cookies'
-pairsWith: [blueberry-baked-oatmeal, breakfast-carrot-cake, chocolate-chip-beet-muffins]
+servings: 36 cookies
+pairsWith:
+  - blueberry-baked-oatmeal
+  - breakfast-carrot-cake
+  - chocolate-chip-beet-muffins
 ingredients:
-  - '3 large Egg Whites (room temp)'
+  - 3 large Egg Whites (room temp)
   - '1 lb Confectioners’ Sugar, sifted'
-  - '1 tsp Pure Vanilla Extract'
+  - 1 tsp Pure Vanilla Extract
+origin: United States
 ---
 
 ## Chef's Note

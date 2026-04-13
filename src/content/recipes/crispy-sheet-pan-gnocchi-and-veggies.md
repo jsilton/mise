@@ -1,22 +1,39 @@
 ---
 title: Sheet Pan Gnocchi & Veggies
 difficulty: intermediate
-cookingMethods: [bake, roast, boil, steam]
+cookingMethods:
+  - bake
+  - roast
+  - boil
+  - steam
 dietary: []
-occasions: [weeknight, meal-prep, comfort-food]
-flavorProfile: [acidic, umami, herbaceous]
-cuisines: [Italian]
+occasions:
+  - weeknight
+  - meal-prep
+  - comfort-food
+flavorProfile:
+  - acidic
+  - umami
+  - herbaceous
+cuisines:
+  - Italian
 role: main
 vibe: quick
 prepTime: 10 min
 cookTime: 20 min
 totalTime: 30 min
 servings: '4'
-seasons: [year-round, fall, winter]
+seasons:
+  - year-round
+  - fall
+  - winter
 nutritionalDensity: hearty
 leftovers: excellent
-equipment: [sheet-pan]
-pairsWith: [everyday-arugula-salad, garlic-bread]
+equipment:
+  - sheet-pan
+pairsWith:
+  - everyday-arugula-salad
+  - garlic-bread
 ingredients:
   - 1 lb Fresh or Shelf-stable Potato Gnocchi
   - '12 oz Mini Bell Peppers, cut into 1-inch chunks'
@@ -29,12 +46,12 @@ ingredients:
   - 1/2 cup Freshly Grated Parmesan
   - Salt and Black Pepper
   - 1/2 lb Shrimp or sliced Chicken Sausage
+origin: Italy
 ---
 
 ## Chef's Note
 
-This is a modern Italian-American technique from the 2010s that revolutionized gnocchi cooking by skipping the pot of boiling water entirely. Shelf-stable gnocchi from the grocery store can go straight from package to sheet pan - roasting at 450°F creates a crispy golden crust on the outside while keeping the center pillowy soft. The cherry tomatoes burst in the oven, releasing their juices which emulsify with the olive oil and garlic to create a rustic sauce. Make sure to spread everything in a single layer - crowding the pan will steam the gnocchi instead of crisping it.
-
+Sheet-pan gnocchi is a weeknight formula: gnocchi crisps on hot oil and high heat like little dumplings, while vegetables roast around them. The gnocchi needs space—don't crowd the pan or they steam instead of frying. Shake the pan halfway through so they brown on all sides and develop that crucial crunchy exterior.
 ## Directions
 
 1.  **Prep:** Preheat oven to 450°F. Line a large rimmed baking sheet with parchment paper.

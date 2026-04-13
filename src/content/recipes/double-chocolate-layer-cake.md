@@ -1,23 +1,40 @@
 ---
 title: Double Chocolate Layer Cake
 difficulty: intermediate
-cookingMethods: [bake, boil, no-cook]
-dietary: [vegetarian]
-occasions: [holiday, entertaining, weekend-project, indulgent]
-seasons: [year-round]
+cookingMethods:
+  - bake
+  - boil
+  - no-cook
+dietary:
+  - vegetarian
+occasions:
+  - holiday
+  - entertaining
+  - weekend-project
+  - indulgent
+seasons:
+  - year-round
 nutritionalDensity: hearty
 leftovers: excellent
-advancePrep: [make-ahead]
+advancePrep:
+  - make-ahead
 equipment: []
-flavorProfile: [sweet, rich]
-cuisines: [American]
+flavorProfile:
+  - sweet
+  - rich
+cuisines:
+  - American
 role: dessert
 vibe: technical
 prepTime: 45 min
 cookTime: 70 min
 totalTime: 115 min
 servings: '12'
-pairsWith: []
+pairsWith:
+  - apple-cider-cream-pie
+  - apple-pie
+  - babys-first-smash-cake
+  - best-cinnamon-roll-recipe-cinnabon-copycat
 ingredients:
   - '3 oz Semisweet Chocolate, finely chopped'
   - 1 1/2 cups Hot Brewed Coffee
@@ -35,6 +52,7 @@ ingredients:
   - 2 tbsp Granulated Sugar
   - 2 tbsp Light Corn Syrup for gloss
   - '1/4 cup Unsalted Butter, cubed'
+origin: United States
 ---
 
 ## Chef's Note

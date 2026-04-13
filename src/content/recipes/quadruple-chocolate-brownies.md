@@ -1,11 +1,18 @@
 ---
 title: Quadruple Chocolate Brownies
 difficulty: easy
-cookingMethods: [bake, no-cook]
-dietary: [vegetarian]
-occasions: [comfort-food]
-flavorProfile: [sweet, rich]
-cuisines: [American]
+cookingMethods:
+  - bake
+  - no-cook
+dietary:
+  - vegetarian
+occasions:
+  - comfort-food
+flavorProfile:
+  - sweet
+  - rich
+cuisines:
+  - American
 role: dessert
 vibe: comfort
 prepTime: 30 min
@@ -23,6 +30,17 @@ ingredients:
   - '1/2 lb Bittersweet Chocolate, chopped'
   - '1/2 lb White Chocolate, chopped'
   - '1/2 lb Milk Chocolate, chopped'
+origin: United States
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: good
+equipment: []
+pairsWith:
+  - apple-cider-cream-pie
+  - apple-pie
+  - babys-first-smash-cake
+  - best-cinnamon-roll-recipe-cinnabon-copycat
 ---
 
 ## Chef's Note

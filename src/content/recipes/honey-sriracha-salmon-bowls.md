@@ -1,22 +1,36 @@
 ---
 title: Honey Sriracha Salmon Bowls
 difficulty: easy
-cookingMethods: [steam, no-cook]
-dietary: [vegetarian]
-occasions: [weeknight, quick-lunch, light-and-fresh, post-workout]
-flavorProfile: [spicy, sweet, savory, umami]
-cuisines: [Chinese]
+cookingMethods:
+  - steam
+  - no-cook
+dietary: []
+occasions:
+  - weeknight
+  - quick-lunch
+  - light-and-fresh
+  - post-workout
+flavorProfile:
+  - spicy
+  - sweet
+  - savory
+  - umami
+cuisines:
+  - Chinese
 role: main
 vibe: nutritious
 prepTime: 15 min
 cookTime: 10 min
 totalTime: 25 min
 servings: '4'
-seasons: [year-round]
+seasons:
+  - year-round
 nutritionalDensity: moderate
 leftovers: good
 equipment: []
-pairsWith: [basmati-rice, smashed-cucumber-salad]
+pairsWith:
+  - basmati-rice
+  - smashed-cucumber-salad
 ingredients:
   - '1.5 lbs Salmon Fillets, cut into 1-inch cubes'
   - 3 tbsp Soy Sauce
@@ -28,11 +42,13 @@ ingredients:
   - '[Smashed Cucumber Salad](/mise/recipes/smashed-cucumber-salad)'
   - '1 cup Edamame, shelled and steamed'
   - Sriracha Mayo (for drizzling)
+origin: China
 ---
 
 ## Chef's Note
 
 Asian-inspired grain bowls with glazed proteins became hugely popular in the 2010s. Cutting salmon into cubes and searing them creates crispy, spicy edges while keeping the inside tender. The honey-sriracha marinade doubles as the glaze—reduce it in the hot pan after searing for a thick, syrupy coating. Build bowls with rice, cucumber salad, avocado, and edamame for a balanced, flavorful meal.
+For kids, serve the heat on the side or reduce/omit the spicy elements.
 
 ## Directions
 

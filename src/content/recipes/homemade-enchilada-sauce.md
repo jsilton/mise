@@ -1,11 +1,21 @@
 ---
 title: Enchilada Sauce
 difficulty: intermediate
-cookingMethods: [simmer, boil, blend]
+cookingMethods:
+  - simmer
+  - boil
+  - blend
 dietary: []
-occasions: [meal-prep, weeknight]
-flavorProfile: [spicy, acidic, umami, rich]
-cuisines: [Mexican]
+occasions:
+  - meal-prep
+  - weeknight
+flavorProfile:
+  - spicy
+  - acidic
+  - umami
+  - rich
+cuisines:
+  - Mexican
 role: base
 vibe: quick
 prepTime: 5 min
@@ -13,11 +23,9 @@ cookTime: 10 min
 totalTime: 15 min
 servings: 2 cups
 pairsWith:
-  [
-    crispy-black-bean-tacos,
-    slow-cooker-vegetarian-lentil-tortilla-soup,
-    korean-style-tacos-with-kogi-bbq-sauce,
-  ]
+  - crispy-black-bean-tacos
+  - slow-cooker-vegetarian-lentil-tortilla-soup
+  - korean-style-tacos-with-kogi-bbq-sauce
 ingredients:
   - 3 tbsp Extra-Virgin Olive Oil
   - 3 tbsp All-Purpose Flour (or GF blend)
@@ -31,11 +39,18 @@ ingredients:
   - 2 cups Vegetable or Chicken Broth
   - 1 tsp Apple Cider Vinegar (The Finishing Touch)
   - Black Pepper
+origin: Mexico
+seasons:
+  - year-round
+nutritionalDensity: light
+leftovers: good
+equipment: []
 ---
 
 ## Chef's Note
 
 This homemade enchilada sauce builds deeper flavor than store-bought versions by toasting chili powder and cumin directly in the hot oil-flour roux before adding liquid. This blooming technique releases the spices' fat-soluble aromatic oils. A splash of apple cider vinegar at the end brightens the earthy cumin and tomato paste.
+For kids, serve the heat on the side or reduce/omit the spicy elements.
 
 ## Directions
 

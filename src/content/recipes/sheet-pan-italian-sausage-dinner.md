@@ -1,12 +1,19 @@
 ---
 title: Sheet Pan Italian Sausage Dinner
 role: main
-vibe: quick
+vibe: comfort
 difficulty: easy
-cuisines: [Italian, American]
-occasions: [weeknight, comfort-food]
-cookingMethods: [roast]
-flavorProfile: [savory, herbaceous]
+cuisines:
+  - Italian
+  - American
+occasions:
+  - weeknight
+  - comfort-food
+cookingMethods:
+  - roast
+flavorProfile:
+  - savory
+  - herbaceous
 prepTime: 10 min
 cookTime: 35 min
 totalTime: 45 min
@@ -14,10 +21,11 @@ servings: '4'
 pairsWith:
   - steamed-broccoli
   - crispy-smashed-potatoes
-equipment: [sheet-pan]
+equipment:
+  - sheet-pan
 ingredients:
   - 'For the Sausage:'
-  - 1.5 lbs Italian Sausage Links (sweet or hot, your preference)
+  - '1.5 lbs Italian Sausage Links (sweet or hot, your preference)'
   - 'For the Potatoes:'
   - 1.5 lbs Baby Potatoes (halved)
   - 3 tbsp Olive Oil
@@ -29,6 +37,13 @@ ingredients:
   - Steamed broccoli
   - Store-bought dinner rolls
   - Whole grain mustard or Dijon
+  - '--- Lemon juice ---'
+  - '1-2 Lemons, juiced'
+origin: Italy
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: good
 ---
 
 ## Chef's Note

@@ -1,16 +1,33 @@
 ---
 title: Old-Fashioned Strawberry Ice Cream
 difficulty: intermediate
-cookingMethods: [simmer, boil]
-dietary: [vegetarian]
-occasions: [entertaining, summer, indulgent]
-seasons: [summer]
+cookingMethods:
+  - simmer
+  - boil
+dietary:
+  - vegetarian
+occasions:
+  - entertaining
+  - summer
+  - indulgent
+seasons:
+  - summer
 nutritionalDensity: hearty
 leftovers: excellent
-equipment: [ice-cream-maker, saucepan]
-advancePrep: [make-ahead]
-flavorProfile: [sweet, savory, acidic, rich, herbaceous]
-cuisines: [American]
+equipment:
+  - ice-cream-maker
+  - saucepan
+advancePrep:
+  - make-ahead
+  - freeze
+flavorProfile:
+  - sweet
+  - savory
+  - acidic
+  - rich
+  - herbaceous
+cuisines:
+  - American
 role: dessert
 vibe: nutritious
 prepTime: 30 min
@@ -27,6 +44,12 @@ ingredients:
   - 1 1/2 cups Whole Milk
   - '1 Vanilla Bean, seeds scraped'
   - 1/4 tsp Kosher Salt
+origin: United States
+pairsWith:
+  - apple-cider-cream-pie
+  - apple-pie
+  - blackout-chocolate-cake
+  - classic-peach-ice-cream
 ---
 
 ## Chef's Note

@@ -1,29 +1,45 @@
 ---
-title: 'Nana’s Biscuits'
+title: Nana’s Biscuits
 difficulty: easy
-cookingMethods: [bake, roast]
-dietary: [vegetarian]
-occasions: [comfort-food]
-flavorProfile: [sweet, savory, rich]
-cuisines: [Southern]
+cookingMethods:
+  - bake
+  - roast
+dietary:
+  - vegetarian
+occasions:
+  - comfort-food
+flavorProfile:
+  - sweet
+  - savory
+  - rich
+cuisines:
+  - Southern
 role: side
 vibe: comfort
 prepTime: 10 min
 cookTime: 12 min
 totalTime: 22 min
 servings: '12'
-pairsWith: [pulled-pork, shrimp-and-grits, tomato-cobbler-with-cornmeal-cheddar-biscuits]
+pairsWith:
+  - pulled-pork
+  - shrimp-and-grits
+  - tomato-cobbler-with-cornmeal-cheddar-biscuits
 ingredients:
-  - '2 cups Self-Rising Flour (sifted)'
+  - 2 cups Self-Rising Flour (sifted)
   - '1/4 cup Unsalted Butter, cold and cubed (Replaces Crisco)'
-  - '3/4 cup Buttermilk'
-  - 'Pinch of Baking Soda'
+  - 3/4 cup Buttermilk
+  - Pinch of Baking Soda
+origin: United States
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: good
+equipment: []
 ---
 
 ## Chef's Note
 
-This is a "Traditional Recipe" with a vital modern upgrade. While the original family recipe used Crisco, we have evolved to use high-quality **cold butter**. Butter provides a superior flavor and a better nutritional profile than hydrogenated oils, while the self-rising flour keeps the texture cotton-soft. The "Nana" technique—mixing by hand and flattening by palm—remains the secret to a biscuit that isn't over-worked or tough. It is a humble, soulful side that tastes like home.
-
+Biscuits are Southern breakfast staple, but the technique is universal—cold butter cut into flour creates pockets of steam that make them rise and flake. Buttermilk adds tang and helps with rise. The shaping matters: fold dough gently a few times to create layers, then cut straight down (don't twist) so the edges seal and the biscuits puff instead of spreading.
 ## Directions
 
 1.  **Prep:** Preheat oven to 425°F. Lightly grease a baking sheet with a little butter.

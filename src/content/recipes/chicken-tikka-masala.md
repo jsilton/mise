@@ -3,7 +3,10 @@ title: Chicken Tikka Masala
 prepTime: 20 min
 cookTime: 40 min
 servings: '6'
-pairsWith: [spiced-coconut-chicken-rice, cucumber-raita, homemade-naan]
+pairsWith:
+  - spiced-coconut-chicken-rice
+  - cucumber-raita
+  - homemade-naan
 ingredients:
   - '2 lbs boneless, skinless chicken thighs (cut into 1.5-inch chunks)'
   - 3/4 cup Plain Greek Yogurt (Full Fat)
@@ -28,20 +31,40 @@ ingredients:
   - 1 tbsp cold butter
   - 1 tbsp Kasuri Methi (dried fenugreek leaves)
   - 1 tsp Garam Masala (for finishing)
-totalTime: 60 min
-difficulty: easy
-cookingMethods: [bake, sauté, simmer, blend]
+totalTime: 5 hr
+difficulty: intermediate
+advancePrep:
+  - marinate-overnight
+cookingMethods:
+  - bake
+  - sauté
+  - simmer
+  - blend
 dietary: []
-occasions: [comfort-food]
-flavorProfile: [spicy, sweet, savory, acidic, umami, rich]
-cuisines: [Indian]
+occasions:
+  - comfort-food
+flavorProfile:
+  - spicy
+  - sweet
+  - savory
+  - acidic
+  - umami
+  - rich
+cuisines:
+  - Indian
 role: main
 vibe: technical
+origin: India
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: good
+equipment: []
 ---
 
 ## Chef's Note
 
-This is the ultimate home version of the world's most popular curry. It strikes a perfect balance between the smoky, charred edges of the chicken and a velvety, spice-rich tomato sauce. The secret to its "restaurant" soul is the Kasuri Methi (dried fenugreek), which provides that unmistakable savory aroma that lingers in the air of the best curry houses. It is a technical dish dish that rewards the extra effort of blooming spices and simmering with a deep, complex comfort.
+This is the ultimate home version of the world's most popular curry. It strikes a perfect balance between the smoky, charred edges of the chicken and a velvety, spice-rich tomato sauce. The secret to its "restaurant" soul is the Kasuri Methi (dried fenugreek), which provides that unmistakable savory aroma that lingers in the air of the best curry houses. It is a technical dish that rewards the extra effort of blooming spices and simmering with a deep, complex comfort.
 
 ## Directions
 

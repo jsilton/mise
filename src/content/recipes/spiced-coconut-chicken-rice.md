@@ -1,18 +1,32 @@
 ---
 title: Spiced Coconut Chicken & Rice
 difficulty: intermediate
-cookingMethods: [sauté, simmer, boil, steam, braise]
+cookingMethods:
+  - sauté
+  - simmer
+  - boil
+  - steam
+  - braise
 dietary: []
-occasions: [comfort-food, meal-prep]
-flavorProfile: [spicy, acidic, rich]
-cuisines: [Indian]
+occasions:
+  - comfort-food
+  - meal-prep
+flavorProfile:
+  - spicy
+  - acidic
+  - rich
+cuisines:
+  - Indian
 role: base
 vibe: nutritious
 prepTime: 45 min
 cookTime: 45 min
 totalTime: 90 min
 servings: '4'
-pairsWith: [chicken-tikka-masala, lamb-keema-matar, chana-begoon]
+pairsWith:
+  - chicken-tikka-masala
+  - lamb-keema-matar
+  - chana-begoon
 ingredients:
   - '1 1/2 lbs Chicken Thighs, boneless and skinless'
   - 1 1/2 cups Basmati Rice
@@ -24,6 +38,12 @@ ingredients:
   - '1/2 bunch Dino Kale, sliced into ribbons'
   - Pickled Red Chiles (Optional)
   - Lime wedges (The Acid Balance)
+origin: India
+seasons:
+  - year-round
+nutritionalDensity: light
+leftovers: excellent
+equipment: []
 ---
 
 ## Chef's Note

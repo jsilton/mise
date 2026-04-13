@@ -1,22 +1,36 @@
 ---
 title: Shrimp with Snow Peas
 difficulty: easy
-cookingMethods: [fry]
+cookingMethods:
+  - fry
 dietary: []
-occasions: [weeknight, quick-lunch, light-and-fresh]
-flavorProfile: [sweet, savory, umami]
-cuisines: [Chinese]
+occasions:
+  - weeknight
+  - quick-lunch
+  - light-and-fresh
+flavorProfile:
+  - sweet
+  - savory
+  - umami
+cuisines:
+  - Chinese
 role: main
 vibe: quick
 prepTime: 15 min
 cookTime: 5 min
 totalTime: 20 min
 servings: '4'
-seasons: [spring, summer, year-round]
+seasons:
+  - spring
+  - summer
+  - year-round
 nutritionalDensity: light
 leftovers: good
-equipment: [wok]
-pairsWith: [basmati-rice, chinese-sausage-fried-rice]
+equipment:
+  - wok
+pairsWith:
+  - basmati-rice
+  - chinese-sausage-fried-rice
 ingredients:
   - '1 lb Jumbo Shrimp, peeled and deveined'
   - 1/4 tsp Baking Soda (The secret to the "snap")
@@ -34,6 +48,7 @@ ingredients:
   - '1 tbsp Ginger, julienned'
   - '2 cloves Garlic, thinly sliced'
   - '3 stalks Green Onion, cut on the diagonal'
+origin: China
 ---
 
 ## Chef's Note

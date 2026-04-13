@@ -1,11 +1,18 @@
 ---
 title: Elderberry Syrup
 difficulty: easy
-cookingMethods: [simmer, boil, blend]
-dietary: [vegetarian]
-occasions: [kids-approved]
-flavorProfile: [sweet]
-cuisines: [American]
+cookingMethods:
+  - simmer
+  - boil
+  - blend
+dietary:
+  - vegetarian
+occasions:
+  - kids-approved
+flavorProfile:
+  - sweet
+cuisines:
+  - American
 role: drink
 vibe: technical
 prepTime: 5 min
@@ -19,12 +26,22 @@ ingredients:
   - 1 tsp Ground Cinnamon
   - 1/2 tsp Whole Cloves
   - 1 cup Raw Honey (Local preferred)
+origin: United States
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: good
+equipment: []
+pairsWith:
+  - almond-zucchini-bread
+  - apple-chai-oatmeal-cups
+  - avocado-kale-caesar-salad
+  - bakery-style-chocolate-chip-muffins
 ---
 
 ## Chef's Note
 
-This is a traditional seasonal wellness syrup. The technique is reduction: we simmer the berries until the liquid has decreased by exactly half, concentrating the anthocyanins into a potent base. The most critical step is honey timing: you must wait until the syrup is lukewarm before adding the honey. This preserves the natural enzymes and probiotics in the raw honey that would be destroyed by heat.
-
+Elderberry syrup is an old folk remedy that's held up surprisingly well — elderberries are genuinely rich in anthocyanins and vitamin C, and the ginger-cinnamon-clove base adds its own anti-inflammatory punch. The critical step is letting the liquid cool below 110°F before adding honey — heat destroys the enzymes and beneficial compounds in raw honey, which is the whole point of using it. This keeps in the fridge for about 2 months; if you want it shelf-stable longer, you'd need to add alcohol or citric acid.
 ## Directions
 
 1.  **Concentrate:** In a medium saucepan, combine water, elderberries, ginger, cinnamon, and cloves.

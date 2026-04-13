@@ -2,34 +2,56 @@
 title: Cumin-Chili Roasted Sweet Potatoes
 origin: United States
 difficulty: easy
-cookingMethods: [roast]
-dietary: [vegan, gluten-free, dairy-free]
-occasions: [weeknight, meal-prep, comfort-food]
-flavorProfile: [sweet, savory, spicy, smoky]
-cuisines: [American, Mexican]
+cookingMethods:
+  - roast
+dietary:
+  - vegan
+  - gluten-free
+  - dairy-free
+occasions:
+  - weeknight
+  - meal-prep
+  - comfort-food
+flavorProfile:
+  - sweet
+  - savory
+  - spicy
+  - smoky
+cuisines:
+  - American
+  - Mexican
 role: side
 vibe: nutritious
 prepTime: 10 min
 cookTime: 30 min
 totalTime: 40 min
 servings: '4'
-seasons: [fall, winter, year-round]
+seasons:
+  - fall
+  - winter
+  - year-round
 nutritionalDensity: moderate
 leftovers: excellent
-advancePrep: [make-ahead]
-equipment: [baking-sheet]
-pairsWith: [tacos, carnitas-bowl, coconut-chicken-curry, everyday-arugula-salad]
+advancePrep:
+  - make-ahead
+equipment:
+  - baking-sheet
+pairsWith:
+  - tacos
+  - carnitas-bowl
+  - coconut-chicken-curry
+  - everyday-arugula-salad
 ingredients:
   - '2 lbs Sweet Potatoes (about 3 medium), peeled and cut into 3/4-inch wedges'
-  - '3 tbsp Olive Oil'
-  - '1 tsp Ground Cumin'
-  - '1 tsp Chili Powder'
-  - '1/2 tsp Smoked Paprika'
-  - '1/2 tsp Garlic Powder'
-  - '1/4 tsp Cayenne Pepper (optional)'
-  - '1 tsp Kosher Salt'
-  - '1/2 tsp Black Pepper'
-  - 'Fresh Cilantro and Lime wedges for serving'
+  - 3 tbsp Olive Oil
+  - 1 tsp Ground Cumin
+  - 1 tsp Chili Powder
+  - 1/2 tsp Smoked Paprika
+  - 1/2 tsp Garlic Powder
+  - 1/4 tsp Cayenne Pepper (optional)
+  - 1 tsp Kosher Salt
+  - 1/2 tsp Black Pepper
+  - Fresh Cilantro and Lime wedges for serving
 ---
 
 ## Chef's Note

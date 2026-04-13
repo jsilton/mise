@@ -1,16 +1,36 @@
 ---
 title: Fall Harvest Salad
 difficulty: easy
-cookingMethods: [bake, roast, grill, simmer, steam, no-cook]
+cookingMethods:
+  - bake
+  - roast
+  - grill
+  - simmer
+  - steam
+  - no-cook
 dietary: []
-occasions: [weeknight, meal-prep, light-and-fresh]
-seasons: [fall, year-round]
+occasions:
+  - weeknight
+  - meal-prep
+  - light-and-fresh
+seasons:
+  - fall
+  - year-round
 nutritionalDensity: moderate
 leftovers: excellent
-equipment: [sheet-pan, saucepan]
-advancePrep: [make-ahead]
-flavorProfile: [spicy, sweet, acidic, rich, herbaceous]
-cuisines: [American]
+equipment:
+  - sheet-pan
+  - saucepan
+advancePrep:
+  - make-ahead
+flavorProfile:
+  - spicy
+  - sweet
+  - acidic
+  - rich
+  - herbaceous
+cuisines:
+  - American
 role: side
 vibe: nutritious
 prepTime: 20 min
@@ -18,11 +38,9 @@ cookTime: 30 min
 totalTime: 50 min
 servings: '4'
 pairsWith:
-  [
-    herb-marinated-pork-tenderloins,
-    one-pan-citrus-beets-roasted-chicken,
-    garlic-butter-roasted-salmon-with-potatoes-and-asparagus,
-  ]
+  - herb-marinated-pork-tenderloins
+  - one-pan-citrus-beets-roasted-chicken
+  - garlic-butter-roasted-salmon-with-potatoes-and-asparagus
 ingredients:
   - '1 can (15 oz) Chickpeas, patted bone-dry'
   - '1 Honeynut or Butternut Squash, cubed'
@@ -34,6 +52,7 @@ ingredients:
   - 1/4 cup Fresh Lemon Juice
   - 3 tbsp Apple Cider
   - 1 tbsp Maple Syrup
+origin: United States
 ---
 
 ## Chef's Note

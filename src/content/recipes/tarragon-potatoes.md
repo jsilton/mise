@@ -1,17 +1,32 @@
 ---
 title: Tarragon Potatoes
 difficulty: easy
-cookingMethods: [bake, roast]
+cookingMethods:
+  - bake
+  - roast
 dietary: []
-occasions: [weeknight, entertaining, holiday]
-flavorProfile: [acidic, rich]
-cuisines: [French]
+occasions:
+  - weeknight
+  - entertaining
+  - holiday
+flavorProfile:
+  - acidic
+  - rich
+cuisines:
+  - French
 role: side
 vibe: nutritious
-season: [spring, summer, fall, winter]
+season:
+  - spring
+  - summer
+  - fall
+  - winter
 leftovers: good
 healthiness: moderate
-pairsWith: [buttermilk-baked-chicken, baked-cod-with-lemon-panko, rosemary-pork-tenderloin]
+pairsWith:
+  - buttermilk-baked-chicken
+  - baked-cod-with-lemon-panko
+  - rosemary-pork-tenderloin
 prepTime: 10 min
 cookTime: 45 min
 totalTime: 55 min
@@ -23,6 +38,11 @@ ingredients:
   - 1 tbsp Dried Tarragon (The "High Note")
   - 1 tsp Sea Salt
   - 1/2 tsp Black Pepper
+origin: France
+seasons:
+  - year-round
+nutritionalDensity: moderate
+equipment: []
 ---
 
 ## Chef's Note

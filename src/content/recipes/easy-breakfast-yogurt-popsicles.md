@@ -1,29 +1,44 @@
 ---
 title: Yogurt Popsicles
 difficulty: easy
-cookingMethods: []
-dietary: [vegetarian]
-occasions: [kids-approved, post-workout, summer]
-seasons: [summer]
+cookingMethods:
+  - no-cook
+dietary:
+  - vegetarian
+occasions:
+  - kids-approved
+  - post-workout
+  - summer
+seasons:
+  - summer
 nutritionalDensity: light
 leftovers: excellent
-equipment: [popsicle-molds]
-advancePrep: [make-ahead]
-pairsWith: [granola]
-flavorProfile: [sweet, rich]
-cuisines: [American]
+equipment:
+  - popsicle-molds
+advancePrep:
+  - make-ahead
+pairsWith:
+  - granola
+flavorProfile:
+  - sweet
+  - rich
+cuisines:
+  - American
 role: base
-vibe: quick
+vibe: comfort
 prepTime: 10 min
 cookTime: 240 min
 totalTime: 250 min
 servings: '8'
 ingredients:
-  - '1 cup Plain Greek Yogurt (Full-fat preferred)'
-  - '1/2 cup Whole Milk'
-  - '2 tsp Honey'
-  - '1/2 cup Granola (Use [Granola](/mise/recipes/granola) for the Kitchen Standard)'
-  - '1 cup Fresh Berries or chopped fruit'
+  - 1 cup Plain Greek Yogurt (Full-fat preferred)
+  - 1/2 cup Whole Milk
+  - 2 tsp Honey
+  - >-
+    1/2 cup Granola (Use [Granola](/mise/recipes/granola) for the Kitchen
+    Standard)
+  - 1 cup Fresh Berries or chopped fruit
+origin: United States
 ---
 
 ## Chef's Note

@@ -1,18 +1,29 @@
 ---
 title: Tuna Poke Bowls
 difficulty: intermediate
-cookingMethods: [no-cook]
+cookingMethods:
+  - no-cook
 dietary: []
-occasions: [light-and-fresh, summer]
-flavorProfile: [spicy, savory, acidic, umami]
-cuisines: [Hawaiian]
+occasions:
+  - light-and-fresh
+  - summer
+flavorProfile:
+  - spicy
+  - savory
+  - acidic
+  - umami
+cuisines:
+  - Hawaiian
 role: main
 vibe: nutritious
 prepTime: 20 min
 cookTime: 20 min
 totalTime: 40 min
 servings: '4'
-pairsWith: [eggplant-with-garlic-sauce, korean-pickled-cucumbers, sesame-cucumber-salad]
+pairsWith:
+  - eggplant-with-garlic-sauce
+  - korean-pickled-cucumbers
+  - sesame-cucumber-salad
 ingredients:
   - '1 lb Sashimi-Grade Yellowfin or Bigeye Tuna, cut into 1/2-inch cubes'
   - 3 tbsp Soy Sauce (or Tamari)
@@ -25,11 +36,16 @@ ingredients:
     Rice](/mise/recipes/homemade-rice-pilaf)
   - '1 Avocado, diced'
   - >-
-    [Korean Pickled Cucumbers](/mise/recipes/korean-pickled-cucumbers)
-    (The crunch secret)
+    [Korean Pickled Cucumbers](/mise/recipes/korean-pickled-cucumbers) (The
+    crunch secret)
   - 1/2 cup Shelled Edamame
   - Sliced Scallions and Toasted Sesame Seeds
   - Shredded Nori (Seaweed)
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: poor
+equipment: []
 ---
 
 ## Chef's Note

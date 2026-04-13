@@ -1,11 +1,17 @@
 ---
 title: Grandmommy’s Turkey Dressing
 difficulty: easy
-cookingMethods: [bake, roast]
+cookingMethods:
+  - bake
+  - roast
 dietary: []
-occasions: [holiday]
-flavorProfile: [sweet, rich]
-cuisines: [Southern]
+occasions:
+  - holiday
+flavorProfile:
+  - sweet
+  - rich
+cuisines:
+  - Southern
 role: side
 vibe: holiday
 prepTime: 20 min
@@ -13,7 +19,9 @@ cookTime: 100 min
 totalTime: 120 min
 servings: '12'
 pairsWith:
-  [quick-and-easy-drop-biscuits, tomato-cobbler-with-cornmeal-cheddar-biscuits, pulled-pork]
+  - quick-and-easy-drop-biscuits
+  - tomato-cobbler-with-cornmeal-cheddar-biscuits
+  - pulled-pork
 ingredients:
   - 1 cup Self-rising Corn Meal
   - 1 cup All-Purpose Flour
@@ -26,6 +34,12 @@ ingredients:
   - 2-3 cans (14 oz each) High-quality Chicken Broth
   - 1 tbsp Poultry Seasoning (to taste)
   - Salt and Black Pepper
+origin: United States
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: good
+equipment: []
 ---
 
 ## Chef's Note

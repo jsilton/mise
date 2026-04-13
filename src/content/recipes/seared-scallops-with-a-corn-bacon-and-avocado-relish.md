@@ -1,15 +1,30 @@
 ---
 title: Seared Scallops with Corn & Avocado Relish
 difficulty: easy
-cookingMethods: [roast, sauté, no-cook]
+cookingMethods:
+  - roast
+  - sauté
+  - no-cook
 dietary: []
-occasions: [date-night, entertaining, indulgent, summer]
-seasons: [summer]
+occasions:
+  - date-night
+  - entertaining
+  - indulgent
+  - summer
+seasons:
+  - summer
 nutritionalDensity: moderate
 leftovers: poor
-equipment: [large-skillet]
-flavorProfile: [sweet, acidic, rich, herbaceous, smoky]
-cuisines: [American]
+equipment:
+  - large-skillet
+flavorProfile:
+  - sweet
+  - acidic
+  - rich
+  - herbaceous
+  - smoky
+cuisines:
+  - American
 role: main
 vibe: quick
 prepTime: 10 min
@@ -17,11 +32,9 @@ cookTime: 10 min
 totalTime: 20 min
 servings: '4'
 pairsWith:
-  [
-    roasted-sunchokes-with-brown-butter-cider-vinaigrette,
-    spicy-peach-and-avocado-salad,
-    roasted-fall-harvest-salad,
-  ]
+  - roasted-sunchokes-with-brown-butter-cider-vinaigrette
+  - spicy-peach-and-avocado-salad
+  - roasted-fall-harvest-salad
 ingredients:
   - 16 Dry Sea Scallops
   - '4 ears Fresh Corn, shucked'
@@ -32,6 +45,7 @@ ingredients:
   - '1 Lemon, halved'
   - '2 tbsp Fresh Parsley, chopped'
   - Neutral Oil
+origin: United States
 ---
 
 ## Chef's Note

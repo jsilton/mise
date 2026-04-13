@@ -1,18 +1,29 @@
 ---
 title: Buttermilk Chicken
 difficulty: easy
-cookingMethods: [bake, roast, fry]
+cookingMethods:
+  - bake
+  - roast
+  - fry
 dietary: []
-occasions: [comfort-food]
-flavorProfile: [acidic, umami, rich]
-cuisines: [Southern]
+occasions:
+  - comfort-food
+flavorProfile:
+  - acidic
+  - umami
+  - rich
+cuisines:
+  - Southern
 role: main
 vibe: comfort
 prepTime: 15 min
 cookTime: 45 min
 totalTime: 60 min
 servings: '4'
-pairsWith: [strawberry-congealed-salad, classic-coleslaw, cinnamon-sweet-potatoes]
+pairsWith:
+  - strawberry-congealed-salad
+  - classic-coleslaw
+  - cinnamon-sweet-potatoes
 ingredients:
   - '3 lbs Chicken, cut into 8 pieces (pat dry)'
   - 2 cups Buttermilk
@@ -25,6 +36,12 @@ ingredients:
   - 3/4 cup Freshly Grated Parmesan
   - '2 tsp Fresh Thyme, chopped'
   - Salt and Black Pepper
+origin: United States
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: good
+equipment: []
 ---
 
 ## Chef's Note

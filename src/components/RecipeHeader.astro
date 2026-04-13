@@ -32,7 +32,18 @@ interface Props {
 const { recipe, baseUrl = import.meta.env.BASE_URL } = Astro.props;
 ---
 
-<div class="flex flex-col gap-6">
+<div class="flex flex-col gap-6" data-recipe-header>
+  <!-- Cook Mode Toggle -->
+  <div class="flex justify-end">
+    <button
+      id="cook-mode-toggle"
+      class="px-4 py-2 text-sm font-medium text-white bg-indigo-600 hover:bg-indigo-700 rounded-lg transition-all duration-200 active:scale-95"
+      title="Toggle Cook Mode (Press 'c')"
+    >
+      Cook Mode
+    </button>
+  </div>
+
   <!-- Breadcrumbs -->
   <nav class="flex text-sm text-slate-400" aria-label="Breadcrumb">
     <ol class="inline-flex items-center space-x-1 md:space-x-2">

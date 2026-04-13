@@ -1,11 +1,19 @@
 ---
 title: Thai Basil-Ginger Spritzer
 difficulty: easy
-cookingMethods: [boil, no-cook]
+cookingMethods:
+  - boil
+  - no-cook
 dietary: []
-occasions: [entertaining, summer]
-flavorProfile: [sweet, acidic, herbaceous]
-cuisines: [Thai]
+occasions:
+  - entertaining
+  - summer
+flavorProfile:
+  - sweet
+  - acidic
+  - herbaceous
+cuisines:
+  - Thai
 role: drink
 vibe: quick
 prepTime: 5 min
@@ -21,12 +29,24 @@ ingredients:
   - 3 cups Prosecco or Sparkling Wine (chilled)
   - 6 Fresh Thai Basil leaves (for bruising)
   - 6 Lime wedges
+origin: Thailand
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: poor
+equipment: []
+pairsWith:
+  - chicken-galbi-noodle-salad
+  - shrimp-and-avocado-summer-rolls
+  - spicy-thai-red-curry-beef
+  - thai-basil-noodles
+advancePrep:
+  - freeze-ahead
 ---
 
 ## Chef's Note
 
-This is a refreshing Thai-inspired garden cocktail. The technique is cold infusion: we boil the sugar and ginger to create a base, but add the Thai basil and Kaffir lime leaves only after removing from heat. This preserves the delicate essential oils, providing a floral brightness that standard syrups lack. We use bruised basil in each glass to ensure the aromatic experience precedes the first sip.
-
+Thai basil (horapha) has a stronger anise note than Italian basil—floral and slightly spicy rather than sweet. Fresh ginger and lime juice make this a refreshing, non-alcoholic drink that cuts through heat and richness. Muddle the basil gently so the leaves release their flavor without breaking apart and turning the drink bitter.
 ## Directions
 
 1.  **The Syrup:** In a small saucepan, boil water and sugar for 1 minute until dissolved. Remove from heat.

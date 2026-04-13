@@ -1,11 +1,17 @@
 ---
 title: Extraordinary Chocolate Chip Cookie
 difficulty: easy
-cookingMethods: [bake]
-dietary: [vegetarian]
-occasions: [comfort-food]
-flavorProfile: [sweet, rich]
-cuisines: [American]
+cookingMethods:
+  - bake
+dietary:
+  - vegetarian
+occasions:
+  - comfort-food
+flavorProfile:
+  - sweet
+  - rich
+cuisines:
+  - American
 role: dessert
 vibe: comfort
 prepTime: 20 min
@@ -23,6 +29,19 @@ ingredients:
   - 1 tsp Baking Powder
   - 1 tsp Baking Soda
   - 4 1/2 cups Semisweet Chocolate Chips (The "Maximum Chocolate" Method)
+origin: United States
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: good
+advancePrep:
+  - chill-dough
+equipment: []
+pairsWith:
+  - apple-cider-cream-pie
+  - apple-pie
+  - babys-first-smash-cake
+  - best-cinnamon-roll-recipe-cinnabon-copycat
 ---
 
 ## Chef's Note

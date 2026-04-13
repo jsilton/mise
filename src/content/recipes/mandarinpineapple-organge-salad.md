@@ -1,36 +1,52 @@
 ---
 title: Mandarin/Pineapple Orange Salad
 difficulty: intermediate
-cookingMethods: [bake, roast, boil]
+cookingMethods:
+  - bake
+  - roast
+  - boil
 dietary: []
-occasions: [holiday, potluck, entertaining]
-seasons: [year-round]
+occasions:
+  - holiday
+  - potluck
+  - entertaining
+seasons:
+  - year-round
 nutritionalDensity: moderate
 leftovers: excellent
-equipment: [mixing-bowl, mold]
-advancePrep: [make-ahead]
-flavorProfile: [sweet, rich]
-cuisines: [American]
+equipment:
+  - mixing-bowl
+  - mold
+advancePrep:
+  - make-ahead
+flavorProfile:
+  - sweet
+  - rich
+cuisines:
+  - American
 role: side
 vibe: nutritious
 prepTime: 10 min
 cookTime: 0 min
 totalTime: 240 min
 servings: '8'
-pairsWith: [chicken-apple-and-butternut-stew, dutch-baby-pancake, frozen-blueberry-muffins]
+pairsWith:
+  - chicken-apple-and-butternut-stew
+  - dutch-baby-pancake
+  - frozen-blueberry-muffins
 ingredients:
-  - '1 small box Orange Jello'
-  - '1 small can Crushed Pineapple (with juice)'
+  - 1 small box Orange Jello
+  - 1 small can Crushed Pineapple (with juice)
   - '1 small can Mandarin Oranges, drained'
-  - '3/4 cup Sour Cream (for richness)'
-  - '1/2 cup Granulated Sugar'
-  - '1 cup Boiling Water'
+  - 3/4 cup Sour Cream (for richness)
+  - 1/2 cup Granulated Sugar
+  - 1 cup Boiling Water
+origin: United States
 ---
 
 ## Chef's Note
 
-This is an updated take on a classic family "congealed salad." The key is whisking the sour cream into the hot Jello base until perfectly smooth. This transforms a translucent gelatin into a creamy, opaque mousse. Using crushed pineapple with its rice-like particles provides texture to contrast the velvety base.
-
+Citrus salads are a Southern and Caribbean tradition—canned or fresh fruit with a bright dressing and sometimes nuts for crunch. The trick is draining fruit well so the salad doesn't turn watery. If you're using canned fruit, rinse it under cold water to remove the heavy syrup, then dress it right before serving.
 ## Directions
 
 1.  **Dissolve:** In a large bowl, whisk the Orange Jello and sugar into the boiling water until no crystals remain.

@@ -1,18 +1,28 @@
 ---
 title: Chicken Thigh Kebabs with Chile-Yogurt Sauce
 difficulty: intermediate
-cookingMethods: [grill]
+cookingMethods:
+  - grill
 dietary: []
-occasions: [summer, entertaining]
-flavorProfile: [spicy, sweet, acidic]
-cuisines: [Middle Eastern]
+occasions:
+  - summer
+  - entertaining
+flavorProfile:
+  - spicy
+  - sweet
+  - acidic
+cuisines:
+  - Middle Eastern
 role: main
 vibe: nutritious
 prepTime: 20 min
 cookTime: 10 min
 totalTime: 45 min
 servings: '4'
-pairsWith: [garlic-butter-couscous, lemon-herb-couscous, garlic-paste-toum-the-washington-post]
+pairsWith:
+  - garlic-butter-couscous
+  - lemon-herb-couscous
+  - garlic-paste-toum-the-washington-post
 ingredients:
   - '1 3/4 lbs Boneless, Skin-on Chicken Thighs, cut into 3 pieces each'
   - 1/2 cup + 1 tbsp Extra-Virgin Olive Oil
@@ -23,12 +33,17 @@ ingredients:
   - 1/4 tsp Red Pepper Flakes
   - Salt and Black Pepper
   - Lemon wedges for serving
+origin: Middle East
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: good
+equipment: []
 ---
 
 ## Chef's Note
 
-This is a high-protein meal that relies on proper marinating for tenderness. By using Greek yogurt in the sauce and lemon juice as a tenderizer, we break down the chicken's muscle fibers before they hit the high heat of the grill. The paprika-oil marinade provides color and a slight char. Always use skin-on thighs if possible—the rendered fat provides flavor that skinless meat lacks.
-
+Yogurt-marinated chicken comes from Central Asian and Middle Eastern home cooking, where tangy dairy is a staple marinade base. Yogurt's acidity and enzymes tenderize fast, so even a 1-hour marinate makes a difference. The chile yogurt sauce is the finishing touch—same base with fresh chiles stirred through, bright and cooling against the charred meat.
 ## Directions
 
 1.  **The Paprika Rub:** In a large bowl, whisk 1/2 cup olive oil with the paprika. Toss the chicken pieces to coat. Let stand at room temperature for 15-20 minutes.

@@ -1,15 +1,27 @@
 ---
 title: Prohibition-Style Gin Lemon Fizz
 difficulty: easy
-cookingMethods: []
-dietary: [vegetarian, vegan]
-occasions: [entertaining, date-night]
-seasons: [summer]
+cookingMethods:
+  - no-cook
+dietary:
+  - vegetarian
+  - vegan
+occasions:
+  - entertaining
+  - date-night
+seasons:
+  - summer
 nutritionalDensity: light
 leftovers: poor
-equipment: [cocktail-shaker]
-flavorProfile: [acidic, rich, herbaceous, smoky]
-cuisines: [American]
+equipment:
+  - cocktail-shaker
+flavorProfile:
+  - acidic
+  - rich
+  - herbaceous
+  - smoky
+cuisines:
+  - American
 role: drink
 vibe: nutritious
 prepTime: 10 min
@@ -25,6 +37,14 @@ ingredients:
   - 7 dashes Orange Bitters
   - 12 oz Spindrift Lemon (to top)
   - Lemon Peel twists
+origin: United States
+pairsWith:
+  - seared-scallops-with-a-corn-bacon-and-avocado-relish
+  - chicken-and-wild-rice-soup
+  - garlic-butter-roasted-salmon-with-potatoes-and-asparagus
+  - herb-marinated-pork-tenderloins
+advancePrep:
+  - freeze-ahead
 ---
 
 ## Chef's Note

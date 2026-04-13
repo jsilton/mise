@@ -1,18 +1,30 @@
 ---
 title: Caramelized Black Pepper Chicken
 difficulty: easy
-cookingMethods: [simmer]
+cookingMethods:
+  - simmer
 dietary: []
-occasions: [weeknight, quick-lunch]
-flavorProfile: [spicy, sweet, savory, acidic, umami]
-cuisines: [Vietnamese]
+occasions:
+  - weeknight
+  - quick-lunch
+flavorProfile:
+  - spicy
+  - sweet
+  - savory
+  - acidic
+  - umami
+cuisines:
+  - Vietnamese
 role: main
 vibe: quick
 prepTime: 15 min
 cookTime: 15 min
 totalTime: 30 min
 servings: '4'
-pairsWith: [quick-pickled-carrots-and-daikon, coconut-jasmine-rice, eggplant-with-garlic-sauce]
+pairsWith:
+  - quick-pickled-carrots-and-daikon
+  - coconut-jasmine-rice
+  - eggplant-with-garlic-sauce
 ingredients:
   - '1.5 lbs Chicken Thighs, cut into 1-inch cubes'
   - 1/2 cup Dark Brown Sugar
@@ -24,6 +36,12 @@ ingredients:
   - '2 Thai Bird’s Eye Chilies, halved'
   - '1 Shallot, thinly sliced'
   - Fresh Cilantro
+origin: Vietnam
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: good
+equipment: []
 ---
 
 ## Chef's Note

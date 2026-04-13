@@ -1,11 +1,17 @@
 ---
 title: Corn Casserole
 difficulty: easy
-cookingMethods: [bake]
+cookingMethods:
+  - bake
 dietary: []
-occasions: [holiday]
-flavorProfile: [spicy, sweet, rich]
-cuisines: [Southern]
+occasions:
+  - holiday
+flavorProfile:
+  - spicy
+  - sweet
+  - rich
+cuisines:
+  - Southern
 role: side
 vibe: holiday
 prepTime: 10 min
@@ -13,7 +19,9 @@ cookTime: 40 min
 totalTime: 50 min
 servings: '8'
 pairsWith:
-  [quick-and-easy-drop-biscuits, tomato-cobbler-with-cornmeal-cheddar-biscuits, pulled-pork]
+  - quick-and-easy-drop-biscuits
+  - tomato-cobbler-with-cornmeal-cheddar-biscuits
+  - pulled-pork
 ingredients:
   - 1 box (8.5 oz) Jiffy Corn Bread Mix
   - 1 can (14.75 oz) Cream-Style Corn
@@ -23,6 +31,12 @@ ingredients:
   - '2 large Eggs, well beaten'
   - '1/2 cup Sharp Cheddar, shredded'
   - 1 can (4 oz) Diced Green Chiles
+origin: United States
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: good
+equipment: []
 ---
 
 ## Chef's Note

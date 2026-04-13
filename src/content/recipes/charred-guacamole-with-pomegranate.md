@@ -1,37 +1,56 @@
 ---
 title: Charred Guacamole with Pomegranate
 difficulty: easy
-cookingMethods: [roast, no-cook]
-dietary: [vegetarian, vegan, gluten-free]
-occasions: [entertaining, game-day, summer]
-flavorProfile: [spicy, smoky, acidic]
-cuisines: [Mexican]
+cookingMethods:
+  - roast
+  - no-cook
+dietary:
+  - vegetarian
+  - vegan
+occasions:
+  - entertaining
+  - game-day
+  - summer
+flavorProfile:
+  - spicy
+  - smoky
+  - acidic
+cuisines:
+  - Mexican
 role: condiment
 vibe: quick
 prepTime: 10 min
 cookTime: 7 min
 totalTime: 17 min
 servings: '8'
-seasons: [year-round]
+seasons:
+  - year-round
 nutritionalDensity: moderate
 leftovers: poor
-equipment: [sheet-pan]
-pairsWith: [honey-lime-chicken-thighs, crispy-black-bean-tacos, queso-fundido-with-chorizo]
+equipment:
+  - sheet-pan
+pairsWith:
+  - honey-lime-chicken-thighs
+  - crispy-black-bean-tacos
+  - queso-fundido-with-chorizo
 ingredients:
-  - '4 ripe Hass Avocados'
+  - 4 ripe Hass Avocados
   - '2 Jalapeños, halved and seeded'
   - '3 Roma Tomatoes, halved'
-  - '3 tbsp Fresh Lime Juice (about 2 limes)'
-  - '1 tsp Lime Zest'
+  - 3 tbsp Fresh Lime Juice (about 2 limes)
+  - 1 tsp Lime Zest
   - '1/2 medium Red Onion, finely diced'
   - '2 cloves Garlic, minced'
   - '1/2 cup Fresh Cilantro, chopped'
-  - '1 tsp Cumin Seeds, toasted and ground (or 1 tsp ground cumin, toasted in dry pan)'
-  - '1 tsp Kosher Salt'
-  - '2 tbsp Extra-Virgin Olive Oil'
-  - '1/2 cup Pomegranate Seeds'
-  - 'Flaky Sea Salt for finishing'
-  - 'High-quality tortilla chips'
+  - >-
+    1 tsp Cumin Seeds, toasted and ground (or 1 tsp ground cumin, toasted in dry
+    pan)
+  - 1 tsp Kosher Salt
+  - 2 tbsp Extra-Virgin Olive Oil
+  - 1/2 cup Pomegranate Seeds
+  - Flaky Sea Salt for finishing
+  - High-quality tortilla chips
+origin: Mexico
 ---
 
 ## Chef's Note

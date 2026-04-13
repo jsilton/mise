@@ -1,22 +1,38 @@
 ---
 title: Chicken & Spinach Skillet Pasta
 difficulty: easy
-cookingMethods: [roast, simmer, boil]
+cookingMethods:
+  - roast
+  - simmer
+  - boil
 dietary: []
-occasions: [weeknight, quick-lunch, light-and-fresh]
-flavorProfile: [acidic, umami, rich]
-cuisines: [Italian]
+occasions:
+  - weeknight
+  - quick-lunch
+  - light-and-fresh
+flavorProfile:
+  - acidic
+  - umami
+  - rich
+cuisines:
+  - Italian
 role: main
 vibe: quick
 prepTime: 10 min
 cookTime: 15 min
 totalTime: 25 min
 servings: '4'
-seasons: [spring, summer, year-round]
+seasons:
+  - spring
+  - summer
+  - year-round
 nutritionalDensity: moderate
 leftovers: good
-equipment: [large-skillet]
-pairsWith: [avocado-kale-caesar-salad, garlic-bread]
+equipment:
+  - large-skillet
+pairsWith:
+  - avocado-kale-caesar-salad
+  - garlic-bread
 ingredients:
   - 1 lb Penne or Rigatoni (Whole wheat or GF)
   - '1 lb Chicken Breast or Thighs, cut into bite-sized pieces'
@@ -27,6 +43,7 @@ ingredients:
   - 4 tbsp Freshly Grated Parmesan
   - 2 tbsp Extra-Virgin Olive Oil
   - Salt and Black Pepper
+origin: Italy
 ---
 
 ## Chef's Note
@@ -41,3 +58,5 @@ This represents the lighter side of Italian-American cooking that emerged in the
 4.  **Toss:** Add the hot pasta and 1/2 cup of the reserved pasta water to the pan. Add the chicken and the spinach.
 5.  **Bind:** Toss vigorously over medium heat. The spinach will wilt in seconds. Stir in the Parmesan. Add more pasta water if needed until the sauce is glossy and coats the noodles.
 6.  **Serve:** Garnish with extra Parmesan and black pepper.
+
+**Rest:** Let lb Chicken rest for 10 minutes before slicing or serving — the juices redistribute and every piece stays moist.

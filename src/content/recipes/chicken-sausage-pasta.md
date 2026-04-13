@@ -1,22 +1,36 @@
 ---
 title: Chicken Sausage Pasta
 difficulty: easy
-cookingMethods: [sauté, simmer, boil]
+cookingMethods:
+  - sauté
+  - simmer
+  - boil
 dietary: []
-occasions: [weeknight, quick-lunch, kids-approved]
-flavorProfile: [sweet, acidic, umami, herbaceous]
-cuisines: [Italian]
+occasions:
+  - weeknight
+  - quick-lunch
+  - kids-approved
+flavorProfile:
+  - sweet
+  - acidic
+  - umami
+  - herbaceous
+cuisines:
+  - Italian
 role: main
 vibe: quick
 prepTime: 10 min
 cookTime: 15 min
 totalTime: 25 min
 servings: '4'
-seasons: [year-round]
+seasons:
+  - year-round
 nutritionalDensity: hearty
 leftovers: excellent
 equipment: []
-pairsWith: [garlic-bread, everyday-arugula-salad]
+pairsWith:
+  - garlic-bread
+  - everyday-arugula-salad
 ingredients:
   - 1 lb Linguine or Fettuccine
   - '1 lb Italian Chicken Sausage, sliced'
@@ -28,12 +42,12 @@ ingredients:
   - 1 tsp Dried Basil
   - 1/2 cup Freshly Grated Parmesan
   - 2 tbsp Extra-Virgin Olive Oil
+origin: Italy
 ---
 
 ## Chef's Note
 
-This is a modern Italian-American weeknight staple that combines the convenience of pre-made chicken sausage with the technique of building flavor through layering. Chicken sausage became popular in the 1990s as a leaner alternative to pork, though purists would argue nothing beats traditional Italian sausage's richness. San Marzano tomatoes from the volcanic soil near Mount Vesuvius have protected DOP status and are worth seeking out for their sweet, low-acid flavor. Don't skip the red wine reduction - it adds depth that makes this taste like it simmered for hours.
-
+This is Italian home cooking at its most forgiving: good sausage, simple tomato, pasta water for sauce. Sausage has enough fat to build flavor without extra oil; brown it well, break it into small pieces, and let the rendered fat become your cooking base. The pasta water thickens and emulsifies the sauce into something silky.
 ## Directions
 
 1.  **Boil:** Cook pasta in salted water for 1 minute **less** than package instructions. **Reserve 1/2 cup of pasta water.**

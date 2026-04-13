@@ -1,18 +1,27 @@
 ---
 title: Slow Cooker Chicken Noodle Soup
 difficulty: easy
-cookingMethods: [grill, slow-cook]
+cookingMethods:
+  - grill
+  - slow-cook
 dietary: []
-occasions: [comfort-food]
-flavorProfile: [acidic, herbaceous]
-cuisines: [American]
+occasions:
+  - comfort-food
+flavorProfile:
+  - acidic
+  - herbaceous
+cuisines:
+  - American
 role: main
 vibe: comfort
 prepTime: 15 min
 cookTime: 510 min
 totalTime: 525 min
 servings: '10'
-pairsWith: [roasted-root-vegetables, garlicky-lemon-kale-with-carrots, roasted-fall-harvest-salad]
+pairsWith:
+  - roasted-root-vegetables
+  - garlicky-lemon-kale-with-carrots
+  - roasted-fall-harvest-salad
 ingredients:
   - 1 1/2 lbs Chicken Breasts or Thighs
   - 8 cups High-quality Chicken Stock
@@ -24,6 +33,12 @@ ingredients:
   - 2 cups Corkscrew (Fusilli) Pasta
   - '1 Lemon, juiced (The Acid Balance)'
   - '1/4 cup Fresh Parsley, chopped'
+origin: United States
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: excellent
+equipment: []
 ---
 
 ## Chef's Note
@@ -38,3 +53,4 @@ Adding pasta during the final 40 minutes of the slow-cook cycle prevents it from
 4.  **The Pasta:** Stir in the dry noodles. Cover and cook on **Low for 30-40 minutes** until the pasta is perfectly al dente.
 5.  **Finish:** Stir in the lemon juice and fresh parsley.
 6.  **Serve:** Ladle into massive bowls. Serve immediately to maintain **Textural Balance**.
+

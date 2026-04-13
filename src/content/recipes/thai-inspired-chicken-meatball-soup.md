@@ -1,11 +1,21 @@
 ---
 title: Thai Chicken Meatball Soup
 difficulty: easy
-cookingMethods: [bake, sauté, simmer]
+cookingMethods:
+  - bake
+  - sauté
+  - simmer
 dietary: []
-occasions: [comfort-food]
-flavorProfile: [spicy, sweet, savory, acidic, herbaceous]
-cuisines: [Thai]
+occasions:
+  - comfort-food
+flavorProfile:
+  - spicy
+  - sweet
+  - savory
+  - acidic
+  - herbaceous
+cuisines:
+  - Thai
 role: main
 vibe: comfort
 prepTime: 15 min
@@ -13,11 +23,9 @@ cookTime: 15 min
 totalTime: 30 min
 servings: '6'
 pairsWith:
-  [
-    coconut-jasmine-rice,
-    quick-pickled-carrots-and-daikon,
-    roasted-sunchokes-with-brown-butter-cider-vinaigrette,
-  ]
+  - coconut-jasmine-rice
+  - quick-pickled-carrots-and-daikon
+  - roasted-sunchokes-with-brown-butter-cider-vinaigrette
 ingredients:
   - 2 lbs Ground Chicken
   - '1 piece (4-inch) Fresh Ginger, grated'
@@ -29,6 +37,12 @@ ingredients:
   - 2 cups Chicken Broth
   - 5 oz Fresh Baby Spinach
   - 1 tbsp Lime Juice (The Acid Balance)
+origin: Thailand
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: good
+equipment: []
 ---
 
 ## Chef's Note

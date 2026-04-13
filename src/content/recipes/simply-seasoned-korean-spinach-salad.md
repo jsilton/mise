@@ -1,17 +1,30 @@
 ---
 title: Korean Spinach Salad (Sigeumchi Namul)
 difficulty: intermediate
-cookingMethods: [boil]
-dietary: [vegetarian]
-occasions: [weeknight, light-and-fresh]
-flavorProfile: [savory]
-cuisines: [Korean]
+cookingMethods:
+  - boil
+dietary:
+  - vegetarian
+occasions:
+  - weeknight
+  - light-and-fresh
+flavorProfile:
+  - savory
+cuisines:
+  - Korean
 role: side
 vibe: nutritious
-season: [spring, summer, fall, winter]
+season:
+  - spring
+  - summer
+  - fall
+  - winter
 leftovers: good
 healthiness: light
-pairsWith: [bibimbap, kalbi-grilled-korean-style-short-ribs, basmati-rice]
+pairsWith:
+  - bibimbap
+  - kalbi-grilled-korean-style-short-ribs
+  - basmati-rice
 prepTime: 5 min
 cookTime: 10 min
 totalTime: 15 min
@@ -23,6 +36,11 @@ ingredients:
   - '1/2 tsp Garlic, minced'
   - 1/4 tsp Fine Sea Salt
   - 1 tsp Toasted Sesame Seeds
+origin: Korea
+seasons:
+  - year-round
+nutritionalDensity: moderate
+equipment: []
 ---
 
 ## Chef's Note

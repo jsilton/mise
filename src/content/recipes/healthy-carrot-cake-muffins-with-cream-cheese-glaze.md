@@ -1,17 +1,33 @@
 ---
 title: Carrot Cake Muffins
 difficulty: intermediate
-cookingMethods: [bake, blend]
-dietary: [vegetarian]
-occasions: [meal-prep, kids-approved, post-workout]
-seasons: [year-round]
+cookingMethods:
+  - bake
+  - blend
+dietary:
+  - vegetarian
+occasions:
+  - meal-prep
+  - kids-approved
+  - post-workout
+seasons:
+  - year-round
 nutritionalDensity: moderate
 leftovers: excellent
-equipment: [muffin-tin, grater]
-advancePrep: [make-ahead, freeze-ahead]
-pairsWith: [favorite-cream-cheese-frosting]
-flavorProfile: [sweet, acidic, rich]
-cuisines: [American]
+equipment:
+  - muffin-tin
+  - grater
+advancePrep:
+  - make-ahead
+  - freeze-ahead
+pairsWith:
+  - favorite-cream-cheese-frosting
+flavorProfile:
+  - sweet
+  - acidic
+  - rich
+cuisines:
+  - American
 role: main
 vibe: nutritious
 prepTime: 15 min
@@ -35,6 +51,7 @@ ingredients:
   - 1/4 cup Powdered Sugar
   - 1 tbsp Milk
   - 1/2 tsp Vanilla Extract
+origin: United States
 ---
 
 ## Chef's Note

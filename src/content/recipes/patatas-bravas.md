@@ -2,41 +2,68 @@
 title: Patatas Bravas
 origin: Spain
 difficulty: intermediate
-cookingMethods: [fry, simmer, boil]
-dietary: [vegetarian, vegan, gluten-free, dairy-free, nut-free]
-occasions: [entertaining, game-day, date-night]
-flavorProfile: [spicy, savory, smoky, acidic]
-cuisines: [Spanish]
+cookingMethods:
+  - fry
+  - simmer
+  - boil
+dietary:
+  - vegetarian
+  - vegan
+  - gluten-free
+  - dairy-free
+  - nut-free
+occasions:
+  - entertaining
+  - game-day
+  - date-night
+flavorProfile:
+  - spicy
+  - savory
+  - smoky
+  - acidic
+cuisines:
+  - Spanish
 role: side
 vibe: comfort
-seasons: [spring, summer, fall, winter]
+seasons:
+  - spring
+  - summer
+  - fall
+  - winter
 nutritionalDensity: moderate
 leftovers: poor
-advancePrep: [components-ahead]
+advancePrep:
+  - components-ahead
 equipment:
-  [large heavy-bottomed pot or dutch oven, medium saucepan, spider or slotted spoon, thermometer]
+  - large heavy-bottomed pot or dutch oven
+  - medium saucepan
+  - spider or slotted spoon
+  - thermometer
 prepTime: 20 min
 cookTime: 40 min
 totalTime: 60 min
 servings: '4'
-pairsWith: [gambas-al-ajillo, smoky-spanish-rice-and-chickpeas, everyday-arugula-salad]
+pairsWith:
+  - gambas-al-ajillo
+  - smoky-spanish-rice-and-chickpeas
+  - everyday-arugula-salad
 ingredients:
   - '2 lbs Yukon Gold Potatoes, peeled and cut into 1.5-inch irregular chunks'
   - 'Neutral Oil, for frying (about 4 cups)'
   - 'Flaky Sea Salt, for finishing'
-  - '2 tbsp Extra-Virgin Olive Oil'
+  - 2 tbsp Extra-Virgin Olive Oil
   - '3 cloves Garlic, minced'
   - '1 small Yellow Onion, finely diced'
-  - '1 can (14 oz) Crushed Tomatoes'
+  - 1 can (14 oz) Crushed Tomatoes
   - '2 tsp Smoked Paprika (pimenton de la Vera, hot or sweet)'
   - '1/2 tsp Cayenne Pepper, or to taste'
-  - '1 tsp Sweet Paprika'
-  - '1 tbsp Sherry Vinegar'
-  - '1 tsp Sugar'
-  - '1/2 tsp Kosher Salt'
-  - '1/3 cup Mayonnaise (for alioli)'
+  - 1 tsp Sweet Paprika
+  - 1 tbsp Sherry Vinegar
+  - 1 tsp Sugar
+  - 1/2 tsp Kosher Salt
+  - 1/3 cup Mayonnaise (for alioli)
   - '1 clove Garlic, finely grated (for alioli)'
-  - '1 tbsp Lemon Juice (for alioli)'
+  - 1 tbsp Lemon Juice (for alioli)
 ---
 
 ## Chef's Note

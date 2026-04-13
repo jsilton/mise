@@ -1,22 +1,39 @@
 ---
 title: 'Pasta with Sausage, Basil & Mustard'
 difficulty: easy
-cookingMethods: [roast, simmer, boil]
-dietary: [vegetarian]
-occasions: [weeknight, comfort-food, date-night]
-flavorProfile: [savory, acidic, umami, rich, herbaceous]
-cuisines: [Italian]
+cookingMethods:
+  - roast
+  - simmer
+  - boil
+dietary: []
+occasions:
+  - weeknight
+  - comfort-food
+  - date-night
+flavorProfile:
+  - savory
+  - acidic
+  - umami
+  - rich
+  - herbaceous
+cuisines:
+  - Italian
 role: main
 vibe: quick
 prepTime: 10 min
 cookTime: 20 min
 totalTime: 30 min
 servings: '4'
-seasons: [year-round, fall, winter]
+seasons:
+  - year-round
+  - fall
+  - winter
 nutritionalDensity: hearty
 leftovers: excellent
 equipment: []
-pairsWith: [everyday-arugula-salad, garlic-bread]
+pairsWith:
+  - everyday-arugula-salad
+  - garlic-bread
 ingredients:
   - 1 lb Penne or Rigatoni
   - '1 1/2 lbs Hot Italian Sausage, casings removed'
@@ -27,12 +44,12 @@ ingredients:
   - 1 tbsp Extra-Virgin Olive Oil
   - Pinch of Red Pepper Flakes
   - Parmesan for grating
+origin: Italy
 ---
 
 ## Chef's Note
 
-This is a modern Italian-French fusion that combines Italian sausage and fresh basil with French-style Dijon mustard and cream. The grainy Dijon adds a tangy, slightly sharp note that cuts through the rich cream and fatty sausage - it's an unexpected twist that works brilliantly. The technique of deglazing the pan with white wine after browning the sausage captures all those flavorful browned bits (called "fond" in French cooking) and builds a deeply savory base. Tube-shaped pasta like penne or rigatoni traps the thick sauce inside each piece. This is the kind of creative fusion dish you'd find in a modern Italian trattoria.
-
+This is Italian-American comfort: good sausage with fresh basil and mustard creating a quick sauce that tastes bright instead of heavy. The mustard adds a subtle sharpness that prevents the dish from being one-note sausage and tomato. Taste and adjust mustard to your preference—it should support, not dominate.
 ## Directions
 
 1.  **Boil:** Cook pasta in a large pot of salted water until **very al dente**. Drain.

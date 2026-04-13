@@ -2,11 +2,18 @@
 title: Belgian Waffles
 origin: Belgium
 difficulty: easy
-cookingMethods: [bake, steam]
-dietary: [vegetarian]
-occasions: [weekend-project, entertaining]
-flavorProfile: [sweet]
-cuisines: [Belgian]
+cookingMethods:
+  - bake
+  - steam
+dietary:
+  - vegetarian
+occasions:
+  - weekend-project
+  - entertaining
+flavorProfile:
+  - sweet
+cuisines:
+  - Belgian
 role: main
 vibe: nutritious
 prepTime: 15 min
@@ -14,11 +21,9 @@ cookTime: 25 min
 totalTime: 40 min
 servings: '6'
 pairsWith:
-  [
-    homemade-naan,
-    peach-salad-with-tomatoes-and-beets,
-    roasted-sunchokes-with-brown-butter-cider-vinaigrette,
-  ]
+  - homemade-naan
+  - peach-salad-with-tomatoes-and-beets
+  - roasted-sunchokes-with-brown-butter-cider-vinaigrette
 ingredients:
   - 2 cups All-Purpose Flour
   - '2 large Eggs, separated'
@@ -28,6 +33,11 @@ ingredients:
   - 4 tsp Baking Powder
   - 1 tsp Pure Vanilla Extract
   - 1/2 tsp Sea Salt
+seasons:
+  - year-round
+nutritionalDensity: moderate
+leftovers: good
+equipment: []
 ---
 
 ## Chef's Note

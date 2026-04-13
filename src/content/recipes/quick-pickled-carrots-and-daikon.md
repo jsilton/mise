@@ -2,18 +2,27 @@
 title: Do Chua
 origin: Vietnam
 difficulty: easy
-cookingMethods: [grill]
+cookingMethods:
+  - grill
 dietary: []
-occasions: [meal-prep, entertaining]
-flavorProfile: [sweet, acidic]
-cuisines: [Vietnamese]
+occasions:
+  - meal-prep
+  - entertaining
+flavorProfile:
+  - sweet
+  - acidic
+cuisines:
+  - Vietnamese
 role: condiment
 vibe: nutritious
 prepTime: 15 min
 cookTime: 0 min
 totalTime: 60 min
 servings: 2 cups
-pairsWith: [caramelized-black-pepper-chicken, grilled-pork-banh-mi, shrimp-and-avocado-summer-rolls]
+pairsWith:
+  - caramelized-black-pepper-chicken
+  - grilled-pork-banh-mi
+  - shrimp-and-avocado-summer-rolls
 ingredients:
   - '1 cup Carrots, julienned or shredded'
   - '1 cup Daikon Radish, julienned or shredded'
@@ -21,6 +30,11 @@ ingredients:
   - 1/2 cup Water
   - 1/4 cup Sugar
   - 1 tsp Kosher Salt
+seasons:
+  - year-round
+nutritionalDensity: light
+leftovers: good
+equipment: []
 ---
 
 ## Chef's Note

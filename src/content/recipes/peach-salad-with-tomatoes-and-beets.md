@@ -1,17 +1,32 @@
 ---
 title: Peach Salad with Tomatoes & Beets
 difficulty: easy
-cookingMethods: [bake, roast, grill, no-cook]
+cookingMethods:
+  - bake
+  - roast
+  - grill
+  - no-cook
 dietary: []
-occasions: [light-and-fresh, entertaining, weekend-project]
-flavorProfile: [sweet, acidic, rich]
-cuisines: [Mediterranean]
+occasions:
+  - light-and-fresh
+  - entertaining
+  - weekend-project
+flavorProfile:
+  - sweet
+  - acidic
+  - rich
+cuisines:
+  - Mediterranean
 role: side
 vibe: nutritious
-season: [summer]
+season:
+  - summer
 leftovers: good
 healthiness: light
-pairsWith: [vietnamese-grilled-chicken, rosemary-pork-tenderloin, baked-cod-with-lemon-panko]
+pairsWith:
+  - vietnamese-grilled-chicken
+  - rosemary-pork-tenderloin
+  - baked-cod-with-lemon-panko
 prepTime: 25 min
 cookTime: 60 min
 totalTime: 85 min
@@ -28,6 +43,11 @@ ingredients:
   - 3 tbsp Fresh Mint
   - 2 tsp Fresh Thyme
   - Salt and Black Pepper
+origin: Mediterranean
+seasons:
+  - year-round
+nutritionalDensity: moderate
+equipment: []
 ---
 
 ## Chef's Note
@@ -36,7 +56,7 @@ This salad showcases contrasting textures and temperatures. Roast golden beets a
 
 ## Directions
 
-1.  **Roast Beets:** Preheat oven to 425°F. Place scrubbed beets in a baking dish with 1 inch of water. Cover tightly with foil. Bake for 1 hour until tender. Cool, peel, and slice into 1/4-inch rounds.
+1.  **Roast Beets:** Preheat oven to 425°F. Place scrubbed beets in a baking dish with 1 inch of water. Cover tightly with foil. Bake for 1 hour cook until golden brown and cooked through. Cool, peel, and slice into 1/4-inch rounds.
 2.  **Prep:** Slice tomatoes into 1/4-inch rounds. Arrange the beet and tomato slices in an overlapping pattern on a large platter. Season with salt and pepper.
 3.  **The Emulsion:** In a small bowl, whisk olive oil, 1 tbsp lemon juice, honey, and shallots until thick.
 4.  **Macerate:** Toss the sliced peaches with the remaining 1 tbsp lemon juice.

@@ -1,22 +1,36 @@
 ---
 title: Blueberry Date Oatmeal
 difficulty: easy
-cookingMethods: [simmer, boil]
-dietary: [vegetarian]
-occasions: [weeknight, quick-lunch, post-workout]
-seasons: [year-round]
+cookingMethods:
+  - simmer
+  - boil
+dietary:
+  - vegetarian
+occasions:
+  - weeknight
+  - quick-lunch
+  - post-workout
+seasons:
+  - year-round
 nutritionalDensity: moderate
 leftovers: poor
-equipment: [saucepan]
-flavorProfile: [sweet, rich]
-cuisines: [American]
+equipment:
+  - saucepan
+flavorProfile:
+  - sweet
+  - rich
+cuisines:
+  - American
 role: main
 vibe: nutritious
 prepTime: 5 min
 cookTime: 10 min
 totalTime: 15 min
 servings: '2'
-pairsWith: [avocado-kale-caesar-salad, brownie-protein-balls, banana-oat-greek-yogurt-muffins]
+pairsWith:
+  - avocado-kale-caesar-salad
+  - brownie-protein-balls
+  - banana-oat-greek-yogurt-muffins
 ingredients:
   - 1 cup Rolled Oats
   - 2 tbsp Frozen Riced Cauliflower (The "Volume" Hack)
@@ -26,6 +40,7 @@ ingredients:
   - 1/2 cup Frozen Blueberries
   - Pinch of Sea Salt
   - Ground Cinnamon
+origin: United States
 ---
 
 ## Chef's Note
