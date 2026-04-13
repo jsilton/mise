@@ -9,7 +9,6 @@ dietary:
   - vegan
   - gluten-free
 occasions:
-  - condiment
   - meal-prep
 flavorProfile:
   - spicy
@@ -29,7 +28,6 @@ seasons:
   - year-round
 nutritionalDensity: light
 leftovers: excellent
-equipment: []
 pairsWith:
   - har-gow-dim-sum-shrimp-dumplings
   - cantonese-shrimp-and-pork-wontons

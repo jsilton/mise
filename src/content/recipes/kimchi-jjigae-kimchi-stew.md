@@ -15,7 +15,7 @@ flavorProfile:
   - spicy
   - savory
   - umami
-  - funky
+  - complex
 cuisines:
   - Korean
 role: main

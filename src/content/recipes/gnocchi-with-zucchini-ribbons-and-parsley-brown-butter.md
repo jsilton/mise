@@ -3,7 +3,7 @@ title: Gnocchi with Zucchini Ribbons & Brown Butter
 difficulty: intermediate
 cookingMethods:
   - roast
-  - sauté
+  - saute
   - boil
 dietary:
   - vegetarian
@@ -29,7 +29,6 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
-equipment: []
 pairsWith:
   - everyday-arugula-salad
   - vietnamese-grilled-chicken

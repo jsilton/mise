@@ -26,7 +26,6 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: poor
-advancePrep: []
 equipment:
   - toaster
   - mixing-bowl

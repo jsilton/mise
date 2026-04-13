@@ -4,9 +4,8 @@ difficulty: easy
 cookingMethods:
   - bake
   - roast
-  - sauté
+  - saute
   - no-cook
-dietary: []
 occasions:
   - meal-prep
   - weekend-project
@@ -42,7 +41,6 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
-equipment: []
 nutrition:
   calories: 130
   protein: 10.5

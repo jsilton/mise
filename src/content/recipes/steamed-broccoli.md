@@ -5,11 +5,10 @@ cookingMethods:
   - bake
   - boil
   - steam
-dietary: []
 occasions:
   - weeknight
   - quick-lunch
-  - post-workout
+  - snack
   - light-and-fresh
 seasons:
   - year-round

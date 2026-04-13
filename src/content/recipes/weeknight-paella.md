@@ -3,9 +3,8 @@ title: Weeknight Paella
 difficulty: easy
 cookingMethods:
   - fry
-  - sauté
+  - saute
   - simmer
-dietary: []
 occasions:
   - entertaining
   - weekend-project
@@ -42,7 +41,6 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
-equipment: []
 nutrition:
   calories: 155
   protein: 28

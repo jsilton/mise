@@ -3,12 +3,11 @@ title: Chinese Chicken and Broccoli
 difficulty: easy
 cookingMethods:
   - fry
-  - sauté
+  - saute
   - steam
-dietary: []
 occasions:
   - weeknight
-  - kids-approved
+  - kid-friendly
   - quick-lunch
 flavorProfile:
   - sweet

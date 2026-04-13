@@ -3,9 +3,8 @@ title: Garlic Butter Pearl Couscous
 origin: Mediterranean
 difficulty: easy
 cookingMethods:
-  - sauté
+  - saute
   - simmer
-dietary: []
 occasions:
   - weeknight
   - entertaining

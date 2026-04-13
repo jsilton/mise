@@ -3,7 +3,7 @@ title: Fennel and Carrot Soup
 difficulty: easy
 cookingMethods:
   - roast
-  - sauté
+  - saute
   - simmer
   - boil
   - blend
@@ -46,7 +46,6 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
-equipment: []
 nutrition:
   calories: 145
   protein: 1.5

@@ -36,7 +36,6 @@ seasons:
   - year-round
 nutritionalDensity: light
 leftovers: good
-equipment: []
 nutrition:
   calories: 35
   protein: 3

@@ -4,7 +4,6 @@ difficulty: easy
 cookingMethods:
   - fry
   - steam
-dietary: []
 occasions:
   - weeknight
   - quick-lunch

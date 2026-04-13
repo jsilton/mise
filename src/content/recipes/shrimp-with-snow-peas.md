@@ -3,7 +3,6 @@ title: Shrimp with Snow Peas
 difficulty: easy
 cookingMethods:
   - fry
-dietary: []
 occasions:
   - weeknight
   - quick-lunch

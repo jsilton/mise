@@ -30,11 +30,11 @@ seasons:
 nutritionalDensity: moderate
 leftovers: excellent
 advancePrep:
-  - make-ahead-full-salad
+  - make-ahead
   - meal-prep-friendly
 equipment:
   - pot
-  - large bowl
+  - large-bowl
 prepTime: 15 min
 cookTime: 25 min
 totalTime: 40 min

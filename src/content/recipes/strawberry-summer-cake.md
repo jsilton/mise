@@ -8,7 +8,6 @@ dietary:
   - vegetarian
 occasions:
   - entertaining
-  - summer
   - weekend-project
 seasons:
   - summer

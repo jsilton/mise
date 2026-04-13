@@ -5,13 +5,12 @@ difficulty: easy
 cookingMethods:
   - braise
   - simmer
-  - sauté
+  - saute
 dietary:
   - gluten-free
 occasions:
   - weeknight
   - meal-prep
-  - fall-harvest
 flavorProfile:
   - earthy
   - savory
@@ -28,8 +27,8 @@ seasons:
 nutritionalDensity: hearty
 leftovers: excellent
 advancePrep:
-  - lentils-up-to-4-days
-  - freezes-well
+  - cook-ahead
+  - freeze-ahead
 equipment:
   - dutch-oven
 prepTime: 10 min

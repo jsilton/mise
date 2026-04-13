@@ -3,10 +3,8 @@ title: Korean Style Tacos
 difficulty: easy
 cookingMethods:
   - no-cook
-dietary: []
 occasions:
   - weeknight
-  - summer
 flavorProfile:
   - spicy
   - sweet
@@ -19,7 +17,7 @@ role: main
 vibe: quick
 prepTime: 15 min
 cookTime: 5 min
-totalTime: '20 min'
+totalTime: 20 min
 pairsWith:
   - mexican-street-corn-salad
   - roasted-sweet-potatoes
@@ -42,7 +40,6 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: poor
-equipment: []
 ---
 
 ## Chef's Note

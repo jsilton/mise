@@ -49,7 +49,6 @@ ingredients:
 seasons:
   - year-round
 nutritionalDensity: moderate
-equipment: []
 nutrition:
   calories: 75
   protein: 1.5

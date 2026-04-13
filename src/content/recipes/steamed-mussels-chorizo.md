@@ -2,11 +2,10 @@
 title: Mussels with Chorizo Broth
 difficulty: easy
 cookingMethods:
-  - sauté
+  - saute
   - simmer
   - boil
   - steam
-dietary: []
 occasions:
   - entertaining
   - weeknight
@@ -42,7 +41,6 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
-equipment: []
 nutrition:
   calories: 535
   protein: 65

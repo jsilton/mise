@@ -2,9 +2,8 @@
 title: Bok Choy with Oyster Sauce
 difficulty: easy
 cookingMethods:
-  - sauté
+  - saute
   - steam
-dietary: []
 occasions:
   - weeknight
   - quick-lunch
@@ -25,7 +24,6 @@ seasons:
   - year-round
 nutritionalDensity: light
 leftovers: poor
-equipment: []
 pairsWith:
   - mongolian-beef
   - chinese-sausage-fried-rice

@@ -3,14 +3,14 @@ title: Black Bean Tacos with Lime Crema
 origin: Mexico
 difficulty: easy
 cookingMethods:
-  - sauté
+  - saute
   - simmer
 dietary:
   - vegetarian
   - vegan-option
 occasions:
   - weeknight
-  - kids-approved
+  - kid-friendly
   - meal-prep
 flavorProfile:
   - savory
@@ -32,7 +32,6 @@ leftovers: good
 equipment:
   - skillet
   - small-bowl
-advancePrep: []
 pairsWith:
   - cilantro-lime-rice
   - everyday-arugula-salad

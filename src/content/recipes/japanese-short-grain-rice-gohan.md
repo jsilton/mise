@@ -2,18 +2,35 @@
 title: Japanese Short-Grain Rice (Gohan)
 origin: Japan
 difficulty: intermediate
-cookingMethods: [boil, steam]
-dietary: [vegetarian, vegan, gluten-free]
-occasions: [weeknight, meal-prep, everyday]
-flavorProfile: [sweet, nutty, subtle, aromatic]
-cuisines: [Japanese]
+cookingMethods:
+  - boil
+  - steam
+dietary:
+  - vegetarian
+  - vegan
+  - gluten-free
+occasions:
+  - weeknight
+  - meal-prep
+  - everyday
+flavorProfile:
+  - sweet
+  - nutty
+  - mild
+  - aromatic
+cuisines:
+  - Japanese
 role: base
 vibe: quick
-seasons: [year-round]
+seasons:
+  - year-round
 nutritionalDensity: moderate
 leftovers: excellent
-advancePrep: [cook-ahead, meal-prep-friendly]
-equipment: [rice-cooker-or-heavy-bottomed-pot]
+advancePrep:
+  - cook-ahead
+  - meal-prep-friendly
+equipment:
+  - rice-cooker-or-heavy-bottomed-pot
 prepTime: 10 min
 cookTime: 25 min
 totalTime: 35 min
@@ -23,7 +40,7 @@ pairsWith:
   - miso-soup
   - chicken-lettuce-wraps
 ingredients:
-  - 2 cups Japanese Short-Grain Rice (such as Koshihikari, Nishiki, or Calrose)
+  - '2 cups Japanese Short-Grain Rice (such as Koshihikari, Nishiki, or Calrose)'
   - 2.5 cups Water
 ---
 

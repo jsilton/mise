@@ -27,7 +27,6 @@ seasons:
   - year-round
 nutritionalDensity: light
 leftovers: good
-equipment: []
 pairsWith:
   - vietnamese-grilled-chicken
   - garlic-bread

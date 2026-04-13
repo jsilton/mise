@@ -4,7 +4,6 @@ difficulty: easy
 cookingMethods:
   - fry
   - simmer
-dietary: []
 occasions:
   - weeknight
   - comfort-food
@@ -48,7 +47,6 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
-equipment: []
 nutrition:
   calories: 390
   protein: 19

@@ -8,7 +8,7 @@ dietary:
   - nut-free
 occasions:
   - meal-prep
-  - kids-approved
+  - kid-friendly
   - weekend-project
   - comfort-food
 seasons:

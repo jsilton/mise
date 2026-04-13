@@ -3,7 +3,6 @@ title: Garlic Honey Lime Shrimp
 difficulty: intermediate
 cookingMethods:
   - simmer
-dietary: []
 occasions:
   - weeknight
   - quick-lunch

@@ -44,7 +44,6 @@ origin: United States
 seasons:
   - year-round
 nutritionalDensity: moderate
-equipment: []
 nutrition:
   calories: 505
   protein: 3.5

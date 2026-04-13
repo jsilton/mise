@@ -3,7 +3,6 @@ title: Salsa Verde Chicken Casserole
 difficulty: easy
 cookingMethods:
   - bake
-dietary: []
 occasions:
   - comfort-food
   - meal-prep
@@ -36,7 +35,6 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
-equipment: []
 nutrition:
   calories: 475
   protein: 39

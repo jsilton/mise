@@ -3,10 +3,9 @@ title: Breakfast Protein Biscuits
 difficulty: intermediate
 cookingMethods:
   - bake
-dietary: []
 occasions:
   - meal-prep
-  - post-workout
+  - snack
   - weekend-project
 seasons:
   - year-round
@@ -14,7 +13,6 @@ nutritionalDensity: moderate
 leftovers: excellent
 advancePrep:
   - make-ahead
-equipment: []
 flavorProfile:
   - rich
 cuisines:

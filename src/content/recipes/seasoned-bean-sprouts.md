@@ -41,7 +41,6 @@ origin: Korea
 seasons:
   - year-round
 nutritionalDensity: moderate
-equipment: []
 nutrition:
   calories: 55
   protein: 1

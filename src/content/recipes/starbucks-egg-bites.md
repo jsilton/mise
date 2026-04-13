@@ -6,12 +6,11 @@ cookingMethods:
   - steam
   - no-cook
   - blend
-dietary: []
 occasions:
   - weeknight
   - quick-lunch
   - meal-prep
-  - post-workout
+  - snack
 seasons:
   - year-round
 nutritionalDensity: moderate

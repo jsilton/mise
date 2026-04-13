@@ -5,7 +5,7 @@ difficulty: easy
 cookingMethods:
   - no-cook
   - roast
-  - sauté
+  - saute
   - grill
 dietary:
   - vegetarian-option
@@ -34,7 +34,7 @@ seasons:
 nutritionalDensity: moderate
 leftovers: excellent
 advancePrep:
-  - batch-cook-grains
+  - cook-ahead
   - prep-vegetables
   - make-ahead-sauce
 equipment:

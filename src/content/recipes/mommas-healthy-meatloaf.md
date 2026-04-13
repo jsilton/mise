@@ -4,12 +4,10 @@ difficulty: easy
 cookingMethods:
   - bake
   - roast
-  - sauté
+  - saute
   - steam
-dietary: []
 occasions:
   - comfort-food
-flavorProfile: []
 cuisines:
   - American
 role: main
@@ -39,7 +37,6 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
-equipment: []
 nutrition:
   calories: 395
   protein: 32

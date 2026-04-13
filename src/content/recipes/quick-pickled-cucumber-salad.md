@@ -2,7 +2,6 @@
 title: Quick-Pickled Cucumber Salad
 origin: Korea
 difficulty: easy
-cookingMethods: []
 dietary:
   - vegetarian
   - vegan
@@ -24,8 +23,6 @@ seasons:
   - year-round
 nutritionalDensity: light
 leftovers: excellent
-advancePrep: []
-equipment: []
 prepTime: 10 min
 cookTime: 0 min
 totalTime: 10 min

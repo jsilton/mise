@@ -41,7 +41,6 @@ nutritionalDensity: light
 leftovers: good
 advancePrep:
   - overnight-soak
-equipment: []
 nutrition:
   calories: 460
   protein: 14.5

@@ -6,7 +6,6 @@ cookingMethods:
   - roast
   - grill
   - no-cook
-dietary: []
 occasions:
   - light-and-fresh
   - entertaining
@@ -47,7 +46,6 @@ origin: Mediterranean
 seasons:
   - year-round
 nutritionalDensity: moderate
-equipment: []
 nutrition:
   calories: 90
   protein: 2

@@ -4,9 +4,8 @@ difficulty: intermediate
 cookingMethods:
   - bake
   - roast
-  - sauté
+  - saute
   - simmer
-dietary: []
 occasions:
   - weeknight
   - quick-lunch
@@ -41,7 +40,6 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
-equipment: []
 nutrition:
   calories: 135
   protein: 13.5

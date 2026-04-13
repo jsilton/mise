@@ -4,7 +4,7 @@ origin: Italy
 difficulty: intermediate
 cookingMethods:
   - bake
-  - sauté
+  - saute
   - blend
 dietary:
   - vegetarian

@@ -3,12 +3,10 @@ title: Shrimp & Mango Tacos
 difficulty: intermediate
 cookingMethods:
   - fry
-  - sauté
+  - saute
   - no-cook
-dietary: []
 occasions:
   - weeknight
-  - summer
 flavorProfile:
   - spicy
   - sweet
@@ -19,7 +17,7 @@ role: main
 vibe: quick
 prepTime: 10 min
 cookTime: 10 min
-totalTime: '20 min'
+totalTime: 20 min
 pairsWith:
   - mexican-street-corn-salad
   - guacamole
@@ -39,7 +37,6 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: poor
-equipment: []
 ---
 
 ## Chef's Note

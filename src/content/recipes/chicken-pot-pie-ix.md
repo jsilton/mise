@@ -5,13 +5,12 @@ difficulty: intermediate
 cookingMethods:
   - bake
   - roast
-  - sauté
+  - saute
   - simmer
   - boil
   - steam
   - poach
   - no-cook
-dietary: []
 occasions:
   - comfort-food
   - entertaining
@@ -24,7 +23,6 @@ nutritionalDensity: hearty
 leftovers: excellent
 advancePrep:
   - make-ahead
-equipment: []
 flavorProfile:
   - savory
   - rich

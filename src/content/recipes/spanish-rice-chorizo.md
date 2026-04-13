@@ -4,10 +4,9 @@ difficulty: easy
 cookingMethods:
   - bake
   - fry
-  - sauté
+  - saute
   - simmer
   - boil
-dietary: []
 occasions:
   - comfort-food
 flavorProfile:
@@ -46,7 +45,6 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
-equipment: []
 nutrition:
   calories: 1045
   protein: 56.5

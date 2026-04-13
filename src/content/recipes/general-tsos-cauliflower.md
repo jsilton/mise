@@ -3,7 +3,7 @@ title: General Tso's Cauliflower
 difficulty: easy
 cookingMethods:
   - fry
-  - sauté
+  - saute
   - simmer
   - steam
 dietary:

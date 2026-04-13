@@ -2,10 +2,9 @@
 title: Chicken Scaloppine with Tomato & White Wine
 difficulty: intermediate
 cookingMethods:
-  - sauté
+  - saute
   - simmer
   - steam
-dietary: []
 occasions:
   - comfort-food
   - weeknight

@@ -7,14 +7,13 @@ dietary:
   - vegetarian
 occasions:
   - weeknight
-  - kids-approved
+  - kid-friendly
   - entertaining
   - comfort-food
 seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
-equipment: []
 flavorProfile:
   - acidic
 cuisines:

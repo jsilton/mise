@@ -3,10 +3,9 @@ title: Garlicky Shrimp Fettuccine
 difficulty: easy
 cookingMethods:
   - roast
-  - sauté
+  - saute
   - simmer
   - boil
-dietary: []
 occasions:
   - weeknight
   - quick-lunch

@@ -3,9 +3,8 @@ title: Shrimp & Snow Pea Stir Fry
 difficulty: easy
 cookingMethods:
   - fry
-  - sauté
+  - saute
   - boil
-dietary: []
 occasions:
   - weeknight
   - quick-lunch

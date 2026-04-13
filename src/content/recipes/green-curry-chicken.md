@@ -31,8 +31,8 @@ advancePrep:
   - make-ahead
   - components-ahead
 equipment:
-  - wok or large skillet
-  - medium saucepan
+  - wok
+  - medium-saucepan
 prepTime: 15 min
 cookTime: 25 min
 totalTime: 40 min

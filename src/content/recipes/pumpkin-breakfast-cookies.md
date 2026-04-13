@@ -9,8 +9,8 @@ dietary:
   - vegetarian
 occasions:
   - meal-prep
-  - post-workout
-  - kids-approved
+  - snack
+  - kid-friendly
 seasons:
   - fall
   - winter

@@ -28,7 +28,6 @@ seasons:
   - year-round
 nutritionalDensity: light
 leftovers: good
-equipment: []
 pairsWith:
   - mongolian-beef
   - kalbi-grilled-korean-style-short-ribs

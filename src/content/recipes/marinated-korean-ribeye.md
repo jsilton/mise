@@ -5,7 +5,6 @@ difficulty: easy
 cookingMethods:
   - sear
   - smoke
-dietary: []
 occasions:
   - weeknight
   - meal-prep
@@ -41,7 +40,6 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
-equipment: []
 advancePrep:
   - marinate-overnight
   - freeze-ahead

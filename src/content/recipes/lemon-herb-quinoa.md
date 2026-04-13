@@ -30,9 +30,8 @@ seasons:
 nutritionalDensity: moderate
 leftovers: excellent
 advancePrep:
-  - quinoa-up-to-4-days
+  - cook-ahead
   - meal-prep-friendly
-equipment: []
 prepTime: 5 min
 cookTime: 20 min
 totalTime: 25 min

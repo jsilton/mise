@@ -4,12 +4,11 @@ difficulty: intermediate
 cookingMethods:
   - bake
   - roast
-  - sauté
-dietary: []
+  - saute
 occasions:
   - weekend-project
   - meal-prep
-  - kids-approved
+  - kid-friendly
 flavorProfile:
   - savory
   - acidic

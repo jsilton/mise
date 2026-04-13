@@ -28,7 +28,6 @@ seasons:
   - year-round
 nutritionalDensity: light
 leftovers: poor
-advancePrep: []
 equipment:
   - bamboo-rolling-mat
 pairsWith:

@@ -3,9 +3,8 @@ title: Sausage Breakfast Casserole
 difficulty: easy
 cookingMethods:
   - bake
-  - sauté
+  - saute
   - no-cook
-dietary: []
 occasions:
   - holiday
   - comfort-food
@@ -40,7 +39,6 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
-equipment: []
 nutrition:
   calories: 325
   protein: 14.5

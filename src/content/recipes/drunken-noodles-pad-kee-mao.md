@@ -4,9 +4,8 @@ origin: Thailand
 difficulty: easy
 cookingMethods:
   - fry
-  - sauté
+  - saute
   - boil
-dietary: []
 occasions:
   - weeknight
   - quick-lunch
@@ -50,7 +49,6 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
-equipment: []
 nutrition:
   calories: 455
   protein: 24.5

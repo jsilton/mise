@@ -29,7 +29,6 @@ cookingMethods:
   - roast
   - grill
   - boil
-dietary: []
 occasions:
   - comfort-food
 flavorProfile:
@@ -44,7 +43,6 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
-equipment: []
 nutrition:
   calories: 370
   protein: 14.5

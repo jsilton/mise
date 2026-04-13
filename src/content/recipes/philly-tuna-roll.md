@@ -5,7 +5,6 @@ difficulty: intermediate
 cookingMethods:
   - no-cook
   - raw
-dietary: []
 occasions:
   - date-night
   - entertaining
@@ -27,7 +26,6 @@ seasons:
   - year-round
 nutritionalDensity: light
 leftovers: poor
-advancePrep: []
 equipment:
   - bamboo-rolling-mat
 pairsWith:

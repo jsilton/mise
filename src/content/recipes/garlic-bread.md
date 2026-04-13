@@ -4,7 +4,6 @@ difficulty: easy
 cookingMethods:
   - bake
   - roast
-dietary: []
 occasions:
   - comfort-food
   - weeknight
@@ -27,7 +26,6 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: poor
-equipment: []
 pairsWith:
   - fresh-egg-pasta
   - tomato-soup

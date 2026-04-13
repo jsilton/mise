@@ -1,11 +1,10 @@
 ---
 title: Chinese-Style Snapper
-difficulty: easy
+difficulty: intermediate
 cookingMethods:
   - bake
   - roast
   - steam
-dietary: []
 occasions:
   - entertaining
   - weekend-project
@@ -40,7 +39,6 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
-equipment: []
 nutrition:
   calories: 135
   protein: 4.5

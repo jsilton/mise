@@ -3,19 +3,18 @@ title: Sausage and White Bean Skillet
 origin: Italy
 difficulty: easy
 cookingMethods:
-  - sauté
+  - saute
   - simmer
-dietary: []
 occasions:
   - weeknight
   - meal-prep
 flavorProfile:
   - savory
-  - herby
+  - herbaceous
   - rich
 cuisines:
   - Italian
-  - Italian-American
+  - American
 role: main
 vibe: quick
 prepTime: 5 min
@@ -28,7 +27,6 @@ nutritionalDensity: hearty
 leftovers: excellent
 equipment:
   - large-skillet
-advancePrep: []
 pairsWith:
   - everyday-arugula-salad
   - cornbread

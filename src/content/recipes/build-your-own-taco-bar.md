@@ -3,16 +3,15 @@ title: Build-Your-Own Taco Bar
 origin: Mexico
 difficulty: easy
 cookingMethods:
-  - sauté
+  - saute
   - grill
   - roast
   - no-cook
-dietary: []
 occasions:
   - weeknight
   - entertaining
   - family-meal
-  - kids-friendly
+  - kid-friendly
 flavorProfile:
   - savory
   - spicy
@@ -31,8 +30,8 @@ seasons:
 nutritionalDensity: moderate
 leftovers: excellent
 advancePrep:
-  - prep-components
-  - marinate-proteins
+  - components-ahead
+  - marinate-overnight
 equipment:
   - skillet
   - grill-optional

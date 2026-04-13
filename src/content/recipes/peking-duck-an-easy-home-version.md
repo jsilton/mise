@@ -1,17 +1,16 @@
 ---
 title: Peking Duck
-difficulty: easy
+difficulty: intermediate
 cookingMethods:
   - bake
   - roast
   - simmer
   - boil
-dietary: []
 occasions:
   - entertaining
   - holiday
   - weekend-project
-  - indulgent
+  - comfort-food
 flavorProfile:
   - sweet
   - acidic
@@ -32,7 +31,6 @@ leftovers: good
 advancePrep:
   - marinate-overnight
   - air-dry
-equipment: []
 pairsWith:
   - smashed-cucumber-salad
   - basmati-rice

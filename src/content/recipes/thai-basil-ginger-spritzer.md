@@ -4,10 +4,8 @@ difficulty: easy
 cookingMethods:
   - boil
   - no-cook
-dietary: []
 occasions:
   - entertaining
-  - summer
 flavorProfile:
   - sweet
   - acidic
@@ -34,7 +32,6 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: poor
-equipment: []
 pairsWith:
   - chicken-galbi-noodle-salad
   - shrimp-and-avocado-summer-rolls

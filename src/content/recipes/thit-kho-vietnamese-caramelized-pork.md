@@ -5,8 +5,7 @@ difficulty: easy
 cookingMethods:
   - braise
   - simmer
-  - sauté
-dietary: []
+  - saute
 occasions:
   - weeknight
   - comfort-food

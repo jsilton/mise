@@ -4,7 +4,6 @@ origin: Vietnam
 difficulty: easy
 cookingMethods:
   - grill
-dietary: []
 occasions:
   - meal-prep
   - entertaining
@@ -34,7 +33,6 @@ seasons:
   - year-round
 nutritionalDensity: light
 leftovers: good
-equipment: []
 nutrition:
   calories: 420
   protein: 0.5

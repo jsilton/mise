@@ -4,7 +4,6 @@ difficulty: easy
 cookingMethods:
   - roast
   - bake
-dietary: []
 occasions:
   - weeknight
   - entertaining

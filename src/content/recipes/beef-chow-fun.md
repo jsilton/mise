@@ -2,8 +2,7 @@
 title: Beef Chow Fun
 difficulty: easy
 cookingMethods:
-  - sauté
-dietary: []
+  - saute
 occasions:
   - weeknight
   - comfort-food

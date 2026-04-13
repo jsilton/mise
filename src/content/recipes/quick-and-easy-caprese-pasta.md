@@ -2,7 +2,7 @@
 title: Caprese Pasta
 difficulty: intermediate
 cookingMethods:
-  - sauté
+  - saute
   - boil
 dietary:
   - vegetarian
@@ -10,7 +10,6 @@ occasions:
   - weeknight
   - quick-lunch
   - light-and-fresh
-  - summer
 flavorProfile:
   - sweet
   - acidic
@@ -28,7 +27,6 @@ seasons:
   - summer
 nutritionalDensity: moderate
 leftovers: good
-equipment: []
 pairsWith:
   - everyday-arugula-salad
   - vietnamese-grilled-chicken

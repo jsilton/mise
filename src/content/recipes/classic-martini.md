@@ -4,7 +4,6 @@ origin: USA
 difficulty: intermediate
 cookingMethods:
   - no-cook
-dietary: []
 occasions:
   - entertaining
   - date-night

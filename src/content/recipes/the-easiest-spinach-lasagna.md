@@ -19,7 +19,6 @@ nutritionalDensity: hearty
 leftovers: excellent
 advancePrep:
   - make-ahead
-equipment: []
 flavorProfile:
   - umami
 cuisines:

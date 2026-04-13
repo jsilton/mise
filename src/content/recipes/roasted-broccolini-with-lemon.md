@@ -30,7 +30,6 @@ seasons:
   - year-round
 nutritionalDensity: light
 leftovers: good
-advancePrep: []
 equipment:
   - baking-sheet
 pairsWith:

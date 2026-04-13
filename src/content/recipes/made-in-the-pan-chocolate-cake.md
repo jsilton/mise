@@ -7,7 +7,7 @@ dietary:
   - vegetarian
 occasions:
   - weeknight
-  - kids-approved
+  - kid-friendly
   - comfort-food
   - quick-lunch
 seasons:

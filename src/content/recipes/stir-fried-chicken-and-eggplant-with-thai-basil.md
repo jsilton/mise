@@ -3,9 +3,8 @@ title: Thai Basil Chicken & Eggplant
 difficulty: intermediate
 cookingMethods:
   - fry
-  - sauté
+  - saute
   - steam
-dietary: []
 occasions:
   - weeknight
   - quick-lunch
@@ -42,7 +41,6 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
-equipment: []
 nutrition:
   calories: 435
   protein: 87

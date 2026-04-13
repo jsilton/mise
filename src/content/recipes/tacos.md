@@ -6,7 +6,6 @@ difficulty: easy
 cookingMethods:
   - simmer
   - no-cook
-dietary: []
 occasions:
   - weeknight
   - quick-lunch
@@ -51,7 +50,6 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
-equipment: []
 nutrition:
   calories: 325
   protein: 27

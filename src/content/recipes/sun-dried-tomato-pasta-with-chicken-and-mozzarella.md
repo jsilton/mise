@@ -3,10 +3,9 @@ title: Sun-Dried Tomato Chicken Pasta
 difficulty: intermediate
 cookingMethods:
   - roast
-  - sauté
+  - saute
   - simmer
   - boil
-dietary: []
 occasions:
   - weeknight
   - comfort-food
@@ -15,7 +14,6 @@ seasons:
   - year-round
 nutritionalDensity: hearty
 leftovers: excellent
-equipment: []
 flavorProfile:
   - savory
   - rich

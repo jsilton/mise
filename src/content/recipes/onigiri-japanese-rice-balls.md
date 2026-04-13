@@ -11,7 +11,7 @@ occasions:
   - weeknight
   - meal-prep
   - entertaining
-  - packed-lunch
+  - lunch
 flavorProfile:
   - savory
   - umami

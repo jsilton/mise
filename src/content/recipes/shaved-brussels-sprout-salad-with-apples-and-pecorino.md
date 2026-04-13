@@ -3,7 +3,6 @@ title: Shaved Brussels Sprout Salad
 difficulty: intermediate
 cookingMethods:
   - roast
-dietary: []
 occasions:
   - entertaining
   - potluck
@@ -27,7 +26,6 @@ seasons:
   - year-round
 nutritionalDensity: light
 leftovers: poor
-equipment: []
 pairsWith:
   - buttermilk-baked-chicken
   - rosemary-pork-tenderloin

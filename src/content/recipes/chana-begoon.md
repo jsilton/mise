@@ -5,9 +5,8 @@ difficulty: easy
 cookingMethods:
   - bake
   - roast
-  - sauté
+  - saute
   - simmer
-dietary: []
 occasions:
   - comfort-food
   - meal-prep
@@ -43,7 +42,6 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
-equipment: []
 nutrition:
   calories: 35
   protein: 1

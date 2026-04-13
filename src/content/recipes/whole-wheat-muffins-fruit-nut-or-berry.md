@@ -7,8 +7,8 @@ dietary:
   - vegetarian
 occasions:
   - meal-prep
-  - kids-approved
-  - post-workout
+  - kid-friendly
+  - snack
 seasons:
   - year-round
 nutritionalDensity: moderate

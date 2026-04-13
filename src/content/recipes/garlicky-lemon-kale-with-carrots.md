@@ -2,7 +2,7 @@
 title: Garlicky Lemon Kale with Carrots
 difficulty: easy
 cookingMethods:
-  - sauté
+  - saute
   - steam
 dietary:
   - vegetarian
@@ -31,7 +31,6 @@ seasons:
   - winter
 nutritionalDensity: light
 leftovers: good
-equipment: []
 pairsWith:
   - asian-glazed-meatballs
   - vietnamese-grilled-chicken

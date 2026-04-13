@@ -3,7 +3,7 @@ title: Classic French Toast
 origin: France
 difficulty: easy
 cookingMethods:
-  - sauté
+  - saute
 dietary:
   - vegetarian
 occasions:
@@ -25,7 +25,6 @@ seasons:
   - year-round
 nutritionalDensity: hearty
 leftovers: good
-advancePrep: []
 equipment:
   - skillet
 pairsWith:

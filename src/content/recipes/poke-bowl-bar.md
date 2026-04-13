@@ -4,7 +4,6 @@ origin: Hawaii
 difficulty: intermediate
 cookingMethods:
   - no-cook
-dietary: []
 occasions:
   - entertaining
   - date-night
@@ -29,8 +28,8 @@ seasons:
 nutritionalDensity: moderate
 leftovers: poor
 advancePrep:
-  - prep-toppings
-  - make-dressing
+  - components-ahead
+  - dressing-ahead
 equipment:
   - cutting-board
   - mixing-bowls

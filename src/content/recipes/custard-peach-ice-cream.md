@@ -7,8 +7,7 @@ dietary:
   - vegetarian
 occasions:
   - entertaining
-  - summer
-  - indulgent
+  - comfort-food
 seasons:
   - summer
 nutritionalDensity: hearty
@@ -18,7 +17,7 @@ equipment:
   - saucepan
 advancePrep:
   - make-ahead
-  - freeze
+  - freeze-ahead
 flavorProfile:
   - sweet
   - acidic

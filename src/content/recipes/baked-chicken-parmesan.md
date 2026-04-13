@@ -3,11 +3,10 @@ title: Chicken Parmesan
 difficulty: easy
 cookingMethods:
   - bake
-dietary: []
 occasions:
   - comfort-food
   - weeknight
-  - kids-approved
+  - kid-friendly
   - entertaining
 flavorProfile:
   - acidic

@@ -7,7 +7,6 @@ cookingMethods:
   - bake
   - roast
   - boil
-dietary: []
 occasions:
   - weekend-project
   - comfort-food
@@ -19,7 +18,6 @@ advancePrep:
   - freeze-ahead
   - make-ahead
   - rise-dough
-equipment: []
 flavorProfile:
   - sweet
   - rich

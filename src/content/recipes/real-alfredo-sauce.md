@@ -6,7 +6,6 @@ cookingMethods:
   - simmer
   - boil
   - steam
-dietary: []
 occasions:
   - weeknight
   - quick-lunch
@@ -27,7 +26,6 @@ nutritionalDensity: hearty
 leftovers: good
 advancePrep:
   - make-ahead
-equipment: []
 pairsWith:
   - shrimp-fettuccine-alfredo
   - buttermilk-baked-chicken

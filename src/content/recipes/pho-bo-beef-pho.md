@@ -31,8 +31,8 @@ advancePrep:
   - components-ahead
 equipment:
   - stockpot
-  - sheet pan
-  - fine-mesh strainer
+  - sheet-pan
+  - fine-mesh-strainer
 prepTime: 30 min
 cookTime: 4 hr
 totalTime: 4.5 hr

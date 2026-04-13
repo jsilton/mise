@@ -2,11 +2,10 @@
 title: Zucchini Soup
 difficulty: easy
 cookingMethods:
-  - sauté
+  - saute
   - simmer
   - boil
   - blend
-dietary: []
 occasions:
   - comfort-food
 flavorProfile:
@@ -41,7 +40,6 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
-equipment: []
 nutrition:
   calories: 125
   protein: 2

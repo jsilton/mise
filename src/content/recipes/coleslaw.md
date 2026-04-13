@@ -2,32 +2,48 @@
 title: Classic Creamy Coleslaw
 origin: United States
 difficulty: easy
-cookingMethods: [no-cook]
-dietary: [vegetarian, gluten-free]
-occasions: [summer-cookout, entertaining, comfort-food]
-flavorProfile: [acidic, sweet, savory]
-cuisines: [American]
+cookingMethods:
+  - no-cook
+dietary:
+  - vegetarian
+  - gluten-free
+occasions:
+  - bbq
+  - entertaining
+  - comfort-food
+flavorProfile:
+  - acidic
+  - sweet
+  - savory
+cuisines:
+  - American
 role: side
 vibe: quick
 prepTime: 15 min
 cookTime: 0 min
-totalTime: '15 min'
-seasons: [spring, summer, year-round]
+totalTime: 15 min
+seasons:
+  - spring
+  - summer
+  - year-round
 nutritionalDensity: light
 leftovers: good
-advancePrep: [make-ahead]
-equipment: []
-pairsWith: [bbq-chicken-sliders, pulled-pork, tacos]
+advancePrep:
+  - make-ahead
+pairsWith:
+  - bbq-chicken-sliders
+  - pulled-pork
+  - tacos
 ingredients:
   - '1 small head Green Cabbage (about 2 lbs), cored and thinly shredded'
   - '2 medium Carrots, peeled and grated'
-  - '3/4 cup Mayonnaise'
-  - '2 tbsp Apple Cider Vinegar'
-  - '1 tbsp Dijon Mustard'
-  - '2 tbsp Sugar'
-  - '1/2 tsp Celery Seed'
-  - '1 tsp Kosher Salt'
-  - '1/2 tsp Black Pepper'
+  - 3/4 cup Mayonnaise
+  - 2 tbsp Apple Cider Vinegar
+  - 1 tbsp Dijon Mustard
+  - 2 tbsp Sugar
+  - 1/2 tsp Celery Seed
+  - 1 tsp Kosher Salt
+  - 1/2 tsp Black Pepper
 ---
 
 ## Chef's Note

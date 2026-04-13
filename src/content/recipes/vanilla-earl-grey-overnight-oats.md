@@ -7,7 +7,7 @@ dietary:
   - vegetarian
 occasions:
   - meal-prep
-  - post-workout
+  - snack
 seasons:
   - year-round
 nutritionalDensity: moderate

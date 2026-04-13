@@ -2,10 +2,9 @@
 title: Soy Sauce Butter Pasta with Shrimp
 difficulty: intermediate
 cookingMethods:
-  - sauté
+  - saute
   - simmer
   - boil
-dietary: []
 occasions:
   - weeknight
   - date-night
@@ -26,7 +25,6 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
-equipment: []
 pairsWith:
   - everyday-arugula-salad
   - garlic-bread

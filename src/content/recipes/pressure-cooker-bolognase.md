@@ -2,9 +2,8 @@
 title: Pressure-Cooker Bolognese
 difficulty: easy
 cookingMethods:
-  - sauté
+  - saute
   - simmer
-dietary: []
 occasions:
   - comfort-food
 flavorProfile:
@@ -43,7 +42,6 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
-equipment: []
 nutrition:
   calories: 280
   protein: 14

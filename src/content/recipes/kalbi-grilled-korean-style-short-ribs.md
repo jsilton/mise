@@ -4,7 +4,6 @@ origin: Korea
 difficulty: intermediate
 cookingMethods:
   - grill
-dietary: []
 occasions:
   - entertaining
   - weekend-project
@@ -41,7 +40,6 @@ nutritionalDensity: moderate
 leftovers: good
 advancePrep:
   - marinate-overnight
-equipment: []
 nutrition:
   calories: 1150
   protein: 70.5

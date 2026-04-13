@@ -7,7 +7,7 @@ cookingMethods:
 dietary:
   - vegetarian
 occasions:
-  - kids-approved
+  - kid-friendly
 flavorProfile:
   - sweet
   - rich
@@ -40,7 +40,6 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
-equipment: []
 nutrition:
   calories: 185
   protein: 2

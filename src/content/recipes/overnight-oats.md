@@ -67,4 +67,5 @@ Overnight oats are essentially Bircher muesli, invented by Swiss physician Maxim
 - **PB&J:** Stir in 1 tbsp peanut butter and top with smashed raspberries.
 - **Banana Nut:** Add half a mashed banana to the base mixture and top with walnuts and a drizzle of honey.
 - **Berry:** Top with mixed berries and a sprinkle of granola.
+- **Carrot Cake:** Stir in 1/4 cup shredded carrot, a handful of raisins, and a pinch of cinnamon. Top with walnuts and a drizzle of maple syrup.
 - **Tropical:** Use coconut milk and top with mango, toasted coconut, and macadamia nuts.

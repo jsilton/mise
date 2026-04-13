@@ -3,7 +3,6 @@ title: Egg Roll in a Bowl
 difficulty: easy
 cookingMethods:
   - fry
-dietary: []
 occasions:
   - weeknight
   - quick-lunch

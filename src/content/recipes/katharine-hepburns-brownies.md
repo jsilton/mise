@@ -6,9 +6,9 @@ cookingMethods:
 dietary:
   - vegetarian
 occasions:
-  - indulgent
+  - comfort-food
   - entertaining
-  - kids-approved
+  - kid-friendly
 seasons:
   - year-round
 nutritionalDensity: hearty

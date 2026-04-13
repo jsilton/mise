@@ -8,7 +8,7 @@ dietary:
 occasions:
   - entertaining
   - potluck
-  - kids-approved
+  - kid-friendly
   - meal-prep
 seasons:
   - year-round

@@ -7,7 +7,6 @@ cookingMethods:
   - roast
   - fry
   - no-cook
-dietary: []
 occasions:
   - weeknight
   - date-night

@@ -4,10 +4,8 @@ difficulty: intermediate
 cookingMethods:
   - grill
   - blend
-dietary: []
 occasions:
   - light-and-fresh
-  - summer
 seasons:
   - spring
   - summer

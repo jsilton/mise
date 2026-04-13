@@ -5,9 +5,8 @@ cookingMethods:
   - bake
   - roast
   - fry
-  - sauté
+  - saute
   - simmer
-dietary: []
 occasions:
   - weeknight
   - comfort-food
@@ -18,7 +17,6 @@ seasons:
   - year-round
 nutritionalDensity: hearty
 leftovers: good
-equipment: []
 flavorProfile:
   - savory
   - umami

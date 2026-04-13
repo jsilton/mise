@@ -6,7 +6,6 @@ cookingMethods:
   - fry
   - boil
   - steam
-dietary: []
 occasions:
   - weekend-project
   - entertaining
@@ -32,7 +31,6 @@ leftovers: excellent
 advancePrep:
   - make-ahead
   - freeze-ahead
-equipment: []
 pairsWith:
   - smashed-cucumber-salad
 ingredients:

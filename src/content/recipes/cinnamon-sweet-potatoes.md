@@ -6,7 +6,6 @@ cookingMethods:
   - roast
   - boil
   - steam
-dietary: []
 occasions:
   - weeknight
   - holiday
@@ -17,7 +16,6 @@ seasons:
   - winter
 nutritionalDensity: moderate
 leftovers: good
-equipment: []
 flavorProfile:
   - sweet
   - acidic

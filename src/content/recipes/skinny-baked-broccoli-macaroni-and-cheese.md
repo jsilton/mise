@@ -3,13 +3,12 @@ title: Skinny Broccoli Mac & Cheese
 difficulty: intermediate
 cookingMethods:
   - bake
-  - sauté
+  - saute
   - simmer
   - boil
-dietary: []
 occasions:
   - weeknight
-  - kids-approved
+  - kid-friendly
   - comfort-food
   - meal-prep
 seasons:

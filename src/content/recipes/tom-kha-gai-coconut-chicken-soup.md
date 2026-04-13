@@ -24,7 +24,6 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: excellent
-advancePrep: []
 equipment:
   - medium-saucepan
   - cutting-board

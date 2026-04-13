@@ -2,12 +2,11 @@
 title: Spiced Coconut Chicken & Rice
 difficulty: intermediate
 cookingMethods:
-  - sauté
+  - saute
   - simmer
   - boil
   - steam
   - braise
-dietary: []
 occasions:
   - comfort-food
   - meal-prep
@@ -43,7 +42,6 @@ seasons:
   - year-round
 nutritionalDensity: light
 leftovers: excellent
-equipment: []
 nutrition:
   calories: 370
   protein: 36

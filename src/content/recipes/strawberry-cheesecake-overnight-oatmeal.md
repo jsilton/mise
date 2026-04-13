@@ -7,8 +7,8 @@ dietary:
   - vegetarian
 occasions:
   - meal-prep
-  - post-workout
-  - indulgent
+  - snack
+  - comfort-food
 seasons:
   - spring
   - summer

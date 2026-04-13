@@ -3,11 +3,9 @@ title: Spindrift Gin Fizz
 difficulty: easy
 cookingMethods:
   - no-cook
-dietary: []
 occasions:
   - date-night
   - entertaining
-  - summer
 seasons:
   - summer
   - year-round

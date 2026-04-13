@@ -9,7 +9,7 @@ dietary:
 occasions:
   - entertaining
   - weekend-project
-  - indulgent
+  - comfort-food
   - date-night
 flavorProfile:
   - sweet
@@ -41,7 +41,6 @@ origin: France
 seasons:
   - year-round
 nutritionalDensity: moderate
-equipment: []
 pairsWith:
   - brown-butter-chocolate-souffle
   - chewy-chocolate-meringues

@@ -3,7 +3,6 @@ title: Honey Garlic Shrimp and Broccoli
 difficulty: easy
 cookingMethods:
   - steam
-dietary: []
 occasions:
   - weeknight
   - quick-lunch

@@ -18,10 +18,9 @@ ingredients:
   - 'Fresh parsley, chopped'
 difficulty: easy
 cookingMethods:
-  - sauté
+  - saute
   - simmer
   - boil
-dietary: []
 occasions:
   - weeknight
   - date-night

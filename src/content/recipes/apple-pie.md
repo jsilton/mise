@@ -4,7 +4,7 @@ origin: USA
 difficulty: intermediate
 cookingMethods:
   - bake
-  - sauté
+  - saute
   - boil
   - steam
   - blend
@@ -22,7 +22,6 @@ nutritionalDensity: hearty
 leftovers: excellent
 advancePrep:
   - make-ahead
-equipment: []
 flavorProfile:
   - sweet
   - acidic

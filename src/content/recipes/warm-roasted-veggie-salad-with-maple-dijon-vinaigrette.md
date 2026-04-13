@@ -6,7 +6,6 @@ cookingMethods:
   - roast
   - grill
   - no-cook
-dietary: []
 occasions:
   - light-and-fresh
   - weeknight

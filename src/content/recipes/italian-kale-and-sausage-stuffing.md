@@ -4,8 +4,7 @@ difficulty: easy
 cookingMethods:
   - bake
   - roast
-  - sauté
-dietary: []
+  - saute
 occasions:
   - holiday
   - entertaining
@@ -28,7 +27,6 @@ nutritionalDensity: hearty
 leftovers: excellent
 advancePrep:
   - make-ahead
-equipment: []
 pairsWith:
   - simple-roast-turkey
   - perfect-cranberry-sauce

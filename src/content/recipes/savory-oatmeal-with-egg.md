@@ -5,7 +5,6 @@ difficulty: easy
 cookingMethods:
   - simmer
   - fry
-dietary: []
 occasions:
   - weeknight
   - comfort-food
@@ -23,7 +22,6 @@ seasons:
   - year-round
 nutritionalDensity: hearty
 leftovers: poor
-advancePrep: []
 equipment:
   - saucepan
   - skillet

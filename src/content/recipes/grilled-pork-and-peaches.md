@@ -3,10 +3,8 @@ title: Pork and Peaches
 difficulty: easy
 cookingMethods:
   - grill
-dietary: []
 occasions:
   - entertaining
-  - summer
   - date-night
 seasons:
   - summer

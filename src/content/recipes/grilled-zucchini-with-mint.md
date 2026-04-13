@@ -10,7 +10,6 @@ dietary:
   - gluten-free
 occasions:
   - weeknight
-  - summer
   - bbq
   - light-and-fresh
 flavorProfile:
@@ -28,7 +27,6 @@ seasons:
   - spring
 nutritionalDensity: light
 leftovers: good
-advancePrep: []
 equipment:
   - grill-or-grill-pan
 prepTime: 5 min

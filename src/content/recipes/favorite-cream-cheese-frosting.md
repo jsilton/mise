@@ -8,7 +8,7 @@ dietary:
 occasions:
   - holiday
   - entertaining
-  - indulgent
+  - comfort-food
 seasons:
   - year-round
 nutritionalDensity: hearty

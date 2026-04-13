@@ -5,7 +5,6 @@ cookingMethods:
   - bake
   - roast
   - boil
-dietary: []
 occasions:
   - holiday
   - potluck

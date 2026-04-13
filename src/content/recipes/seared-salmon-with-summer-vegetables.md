@@ -2,9 +2,8 @@
 title: Seared Salmon with Summer Vegetables
 difficulty: easy
 cookingMethods:
-  - sauté
+  - saute
   - simmer
-dietary: []
 occasions:
   - date-night
   - entertaining

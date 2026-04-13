@@ -5,7 +5,6 @@ difficulty: easy
 cookingMethods:
   - boil
   - steam
-dietary: []
 occasions:
   - weeknight
   - quick-lunch

@@ -4,9 +4,7 @@ difficulty: easy
 cookingMethods:
   - grill
   - blend
-dietary: []
 occasions:
-  - summer
   - entertaining
 flavorProfile:
   - sweet
@@ -41,7 +39,6 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
-equipment: []
 nutrition:
   calories: 550
   protein: 53.5

@@ -5,7 +5,6 @@ difficulty: easy
 cookingMethods:
   - bake
   - steam
-dietary: []
 occasions:
   - weekend-project
   - entertaining
@@ -41,7 +40,6 @@ nutritionalDensity: light
 leftovers: good
 advancePrep:
   - rise-dough
-equipment: []
 nutrition:
   calories: 185
   protein: 6

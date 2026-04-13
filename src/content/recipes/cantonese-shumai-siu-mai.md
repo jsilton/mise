@@ -5,7 +5,6 @@ difficulty: intermediate
 cookingMethods:
   - boil
   - steam
-dietary: []
 occasions:
   - weekend-project
   - entertaining

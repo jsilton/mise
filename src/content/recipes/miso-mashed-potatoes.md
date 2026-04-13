@@ -22,7 +22,6 @@ seasons:
   - winter
 nutritionalDensity: moderate
 leftovers: good
-advancePrep: []
 equipment:
   - dutch-oven
   - potato-ricer

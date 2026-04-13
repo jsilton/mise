@@ -4,7 +4,6 @@ difficulty: easy
 cookingMethods:
   - grill
   - no-cook
-dietary: []
 occasions:
   - weeknight
   - meal-prep
@@ -41,7 +40,6 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: poor
-equipment: []
 nutrition:
   calories: 405
   protein: 15

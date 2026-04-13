@@ -8,7 +8,7 @@ dietary:
 occasions:
   - entertaining
   - holiday
-  - kids-approved
+  - kid-friendly
 seasons:
   - spring
   - summer

@@ -3,10 +3,9 @@ title: Gefilte Fish Terrine
 difficulty: easy
 cookingMethods:
   - bake
-  - sauté
+  - saute
   - boil
   - blend
-dietary: []
 occasions:
   - holiday
 flavorProfile:
@@ -42,7 +41,6 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
-equipment: []
 nutrition:
   calories: 165
   protein: 9

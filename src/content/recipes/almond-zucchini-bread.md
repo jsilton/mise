@@ -6,7 +6,7 @@ cookingMethods:
 dietary:
   - vegetarian
 occasions:
-  - kids-approved
+  - kid-friendly
   - weekend-project
   - comfort-food
 seasons:
@@ -14,7 +14,6 @@ seasons:
   - fall
 nutritionalDensity: moderate
 leftovers: excellent
-equipment: []
 flavorProfile:
   - sweet
   - rich

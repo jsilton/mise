@@ -4,7 +4,6 @@ difficulty: intermediate
 cookingMethods:
   - braise
   - roast
-dietary: []
 occasions:
   - entertaining
   - meal-prep
@@ -54,7 +53,6 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: excellent
-equipment: []
 nutrition:
   calories: 1070
   protein: 57

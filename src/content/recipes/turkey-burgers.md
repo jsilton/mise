@@ -7,11 +7,9 @@ cookingMethods:
   - roast
   - grill
   - no-cook
-dietary: []
 occasions:
   - weeknight
-  - summer
-  - kids-approved
+  - kid-friendly
 seasons:
   - summer
   - year-round

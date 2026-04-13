@@ -3,7 +3,7 @@ title: Breakfast Quesadilla
 origin: Mexico
 difficulty: easy
 cookingMethods:
-  - sauté
+  - saute
   - toast
 dietary:
   - vegetarian
@@ -24,7 +24,6 @@ seasons:
   - year-round
 nutritionalDensity: hearty
 leftovers: good
-advancePrep: []
 equipment:
   - skillet
 prepTime: 5 min

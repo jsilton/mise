@@ -6,7 +6,6 @@ cookingMethods:
   - saute
   - boil
   - simmer
-dietary: []
 occasions:
   - weeknight
   - comfort-food
@@ -27,9 +26,9 @@ leftovers: poor
 advancePrep:
   - components-ahead
 equipment:
-  - wok or large skillet
-  - large pot
-  - small bowls for sauce
+  - wok
+  - large-pot
+  - small-bowl
 prepTime: 15 min
 cookTime: 15 min
 totalTime: 30 min

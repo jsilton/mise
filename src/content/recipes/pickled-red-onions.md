@@ -3,7 +3,6 @@ title: Pickled Red Onions
 difficulty: intermediate
 cookingMethods:
   - no-cook
-dietary: []
 occasions:
   - meal-prep
   - entertaining
@@ -33,7 +32,6 @@ seasons:
   - year-round
 nutritionalDensity: light
 leftovers: good
-equipment: []
 nutrition:
   calories: 160
   protein: 2

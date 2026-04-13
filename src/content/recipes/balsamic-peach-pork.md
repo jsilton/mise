@@ -4,10 +4,8 @@ difficulty: easy
 cookingMethods:
   - bake
   - simmer
-dietary: []
 occasions:
   - weeknight
-  - summer
 flavorProfile:
   - spicy
   - sweet
@@ -39,7 +37,6 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
-equipment: []
 nutrition:
   calories: 200
   protein: 8

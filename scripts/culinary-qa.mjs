@@ -138,6 +138,7 @@ async function runQA() {
     duplicates: [],
     contentQuality: [],
     metadataConsistency: [],
+    pairsWithValidation: [],
   };
 
   let recipeCount = 0;
@@ -614,6 +615,53 @@ async function runQA() {
       }
     }
 
+    // ─── 7. PAIRSWITH VALIDATION CHECKS ───
+    console.log('Checking pairsWith references...');
+
+    // Build set of valid recipe slugs
+    const validSlugs = new Set(recipes.map((r) => r.slug));
+
+    // Track which base/condiment recipes are referenced
+    const referencedBaseRecipes = new Set();
+
+    for (const recipe of recipes) {
+      const { title, pairsWith, slug, file, role } = recipe;
+
+      if (!pairsWith || !Array.isArray(pairsWith) || pairsWith.length === 0) continue;
+
+      for (const pairedSlug of pairsWith) {
+        // Check if paired recipe exists
+        if (!validSlugs.has(pairedSlug)) {
+          issues.pairsWithValidation.push({
+            severity: 'error',
+            recipe: title,
+            file,
+            message: `pairsWith references "${pairedSlug}" but no recipe with that slug exists.`,
+          });
+        } else {
+          // Track that this base/condiment recipe is referenced
+          const pairedRecipe = recipes.find((r) => r.slug === pairedSlug);
+          if (pairedRecipe && (pairedRecipe.role === 'base' || pairedRecipe.role === 'condiment')) {
+            referencedBaseRecipes.add(pairedSlug);
+          }
+        }
+      }
+    }
+
+    // Check for orphaned base/condiment recipes
+    for (const recipe of recipes) {
+      const { title, slug, role, file } = recipe;
+
+      if ((role === 'base' || role === 'condiment') && !referencedBaseRecipes.has(slug)) {
+        issues.pairsWithValidation.push({
+          severity: 'warning',
+          recipe: title,
+          file,
+          message: `Orphaned ${role} recipe — not referenced by any other recipe's pairsWith.`,
+        });
+      }
+    }
+
     // ─── GENERATE REPORT ───
     const report = {
       timestamp: new Date().toISOString(),
@@ -625,6 +673,7 @@ async function runQA() {
         duplicates: issues.duplicates.length,
         contentQuality: issues.contentQuality.length,
         metadataConsistency: issues.metadataConsistency.length,
+        pairsWithValidation: issues.pairsWithValidation.length,
         totalIssues: Object.values(issues).reduce((sum, arr) => sum + arr.length, 0),
       },
       issues,
@@ -644,6 +693,7 @@ async function runQA() {
     console.log(`  Duplicates:             ${issues.duplicates.length}`);
     console.log(`  Content Quality:        ${issues.contentQuality.length}`);
     console.log(`  Metadata Consistency:   ${issues.metadataConsistency.length}`);
+    console.log(`  PairsWith Validation:   ${issues.pairsWithValidation.length}`);
     console.log(`  ${'─'.repeat(45)}`);
     console.log(`  TOTAL:                  ${report.summary.totalIssues}`);
 
@@ -678,6 +728,7 @@ async function runQA() {
         duplicates: warnings.filter((w) => issues.duplicates.includes(w)),
         contentQuality: warnings.filter((w) => issues.contentQuality.includes(w)),
         metadataConsistency: warnings.filter((w) => issues.metadataConsistency.includes(w)),
+        pairsWithValidation: warnings.filter((w) => issues.pairsWithValidation.includes(w)),
       };
 
       for (const [category, categoryWarnings] of Object.entries(byCategory)) {

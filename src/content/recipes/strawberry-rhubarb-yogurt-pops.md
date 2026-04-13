@@ -8,9 +8,8 @@ cookingMethods:
 dietary:
   - vegetarian
 occasions:
-  - kids-approved
-  - summer
-  - post-workout
+  - kid-friendly
+  - snack
 seasons:
   - spring
   - summer
@@ -22,7 +21,7 @@ equipment:
   - blender
 advancePrep:
   - make-ahead
-  - freeze
+  - freeze-ahead
 flavorProfile:
   - sweet
   - acidic

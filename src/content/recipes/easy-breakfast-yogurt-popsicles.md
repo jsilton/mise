@@ -6,9 +6,8 @@ cookingMethods:
 dietary:
   - vegetarian
 occasions:
-  - kids-approved
-  - post-workout
-  - summer
+  - kid-friendly
+  - snack
 seasons:
   - summer
 nutritionalDensity: light

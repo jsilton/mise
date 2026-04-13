@@ -7,18 +7,16 @@ cookingMethods:
   - simmer
   - boil
   - blend
-dietary: []
 occasions:
   - weeknight
   - meal-prep
-flavorProfile: []
 cuisines:
   - Mexican
 role: base
 vibe: quick
 prepTime: 5 min
 cookTime: 20 min
-totalTime: '25 min'
+totalTime: 25 min
 pairsWith:
   - crispy-black-bean-tacos
   - honey-chipotle-lime-chicken-bowls
@@ -36,7 +34,6 @@ seasons:
   - year-round
 nutritionalDensity: light
 leftovers: good
-equipment: []
 ---
 
 ## Chef's Note

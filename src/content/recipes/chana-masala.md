@@ -34,8 +34,8 @@ advancePrep:
   - make-ahead
   - freeze-ahead
 equipment:
-  - large skillet or dutch oven
-  - spice grinder
+  - large-skillet
+  - spice-grinder
 prepTime: 15 min
 cookTime: 35 min
 totalTime: 50 min

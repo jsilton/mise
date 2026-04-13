@@ -6,7 +6,6 @@ cookingMethods:
   - poach
   - no-cook
   - blend
-dietary: []
 occasions:
   - comfort-food
   - meal-prep
@@ -39,7 +38,6 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
-equipment: []
 nutrition:
   calories: 220
   protein: 22

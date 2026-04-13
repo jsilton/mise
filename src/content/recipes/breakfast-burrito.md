@@ -3,9 +3,8 @@ title: Breakfast Burrito
 origin: United States
 difficulty: easy
 cookingMethods:
-  - sauté
+  - saute
   - toast
-dietary: []
 occasions:
   - weeknight
   - meal-prep
@@ -24,7 +23,7 @@ seasons:
 nutritionalDensity: hearty
 leftovers: good
 advancePrep:
-  - freezer-friendly
+  - freeze-ahead
 equipment:
   - skillet
   - foil

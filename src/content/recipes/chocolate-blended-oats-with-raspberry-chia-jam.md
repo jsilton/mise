@@ -7,7 +7,7 @@ dietary:
   - vegetarian
 occasions:
   - meal-prep
-  - post-workout
+  - snack
   - weekend-project
 seasons:
   - year-round

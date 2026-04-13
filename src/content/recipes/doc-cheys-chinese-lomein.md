@@ -2,12 +2,11 @@
 title: Doc Chey’s Chinese Lo Mein
 difficulty: easy
 cookingMethods:
-  - sauté
+  - saute
   - simmer
-dietary: []
 occasions:
   - weeknight
-  - kids-approved
+  - kid-friendly
   - meal-prep
 flavorProfile:
   - sweet

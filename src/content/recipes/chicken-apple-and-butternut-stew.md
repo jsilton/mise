@@ -3,9 +3,8 @@ title: 'Chicken, Apple, and Butternut Stew'
 difficulty: easy
 cookingMethods:
   - bake
-  - sauté
+  - saute
   - simmer
-dietary: []
 occasions:
   - holiday
   - comfort-food
@@ -42,7 +41,6 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
-equipment: []
 nutrition:
   calories: 1345
   protein: 38.5

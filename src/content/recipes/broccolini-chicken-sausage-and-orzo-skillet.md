@@ -2,12 +2,11 @@
 title: 'Broccolini, Chicken Sausage, and Orzo Skillet'
 difficulty: easy
 cookingMethods:
-  - sauté
+  - saute
   - simmer
   - boil
-dietary: []
 occasions:
-  - kids-approved
+  - kid-friendly
 flavorProfile:
   - spicy
   - umami
@@ -39,7 +38,6 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
-equipment: []
 nutrition:
   calories: 495
   protein: 20.5

@@ -11,7 +11,6 @@ dietary:
 occasions:
   - weeknight
   - entertaining
-  - spring
   - light-and-fresh
 flavorProfile:
   - acidic

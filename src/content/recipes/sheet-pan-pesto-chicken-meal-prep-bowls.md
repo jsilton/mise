@@ -4,11 +4,10 @@ difficulty: easy
 cookingMethods:
   - bake
   - roast
-dietary: []
 occasions:
   - meal-prep
   - weeknight
-  - post-workout
+  - snack
 flavorProfile:
   - umami
   - herbaceous

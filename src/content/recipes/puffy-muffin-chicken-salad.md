@@ -5,7 +5,6 @@ cookingMethods:
   - roast
   - boil
   - poach
-dietary: []
 occasions:
   - quick-lunch
   - meal-prep

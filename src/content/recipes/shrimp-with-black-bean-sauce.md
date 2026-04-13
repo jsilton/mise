@@ -3,11 +3,10 @@ title: Shrimp with Black Bean Sauce
 difficulty: easy
 cookingMethods:
   - fry
-  - sauté
+  - saute
   - simmer
   - boil
   - steam
-dietary: []
 occasions:
   - weeknight
   - quick-lunch

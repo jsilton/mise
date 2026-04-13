@@ -3,9 +3,7 @@ title: Chicken Thigh Kebabs with Chile-Yogurt Sauce
 difficulty: intermediate
 cookingMethods:
   - grill
-dietary: []
 occasions:
-  - summer
   - entertaining
 flavorProfile:
   - spicy
@@ -38,7 +36,6 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
-equipment: []
 nutrition:
   calories: 855
   protein: 46

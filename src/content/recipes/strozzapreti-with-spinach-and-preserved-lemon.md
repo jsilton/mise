@@ -4,7 +4,7 @@ difficulty: easy
 cookingMethods:
   - roast
   - fry
-  - sauté
+  - saute
   - boil
 dietary:
   - vegetarian
@@ -30,7 +30,6 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
-equipment: []
 pairsWith:
   - vietnamese-grilled-chicken
   - roasted-root-vegetables

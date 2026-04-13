@@ -9,9 +9,8 @@ dietary:
   - vegetarian
 occasions:
   - entertaining
-  - summer
   - weekend-project
-  - indulgent
+  - comfort-food
 seasons:
   - spring
   - summer

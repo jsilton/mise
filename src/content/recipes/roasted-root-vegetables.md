@@ -5,7 +5,6 @@ cookingMethods:
   - bake
   - roast
   - steam
-dietary: []
 occasions:
   - comfort-food
 flavorProfile:
@@ -39,7 +38,6 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
-equipment: []
 nutrition:
   calories: 375
   protein: 4

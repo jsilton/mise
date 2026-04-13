@@ -5,7 +5,6 @@ cookingMethods:
   - boil
   - steam
   - blend
-dietary: []
 occasions:
   - weeknight
   - comfort-food

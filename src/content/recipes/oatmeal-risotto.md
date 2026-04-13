@@ -4,7 +4,6 @@ difficulty: intermediate
 cookingMethods:
   - simmer
   - boil
-dietary: []
 occasions:
   - weekend-project
   - entertaining
@@ -31,7 +30,6 @@ leftovers: good
 advancePrep:
   - make-ahead
   - overnight-soak
-equipment: []
 pairsWith:
   - roasted-root-vegetables
   - everyday-arugula-salad

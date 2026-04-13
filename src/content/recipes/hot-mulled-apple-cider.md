@@ -35,7 +35,6 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: excellent
-equipment: []
 pairsWith:
   - avocado-kale-caesar-salad
   - beef-tenderloin-dogs-with-corn-relish

@@ -2,9 +2,8 @@
 title: Shrimp with Snow Peas & Ginger
 difficulty: easy
 cookingMethods:
-  - sauté
+  - saute
   - boil
-dietary: []
 occasions:
   - weeknight
   - quick-lunch
@@ -19,7 +18,7 @@ role: main
 vibe: quick
 prepTime: 10 min
 cookTime: 10 min
-totalTime: '20 min'
+totalTime: 20 min
 seasons:
   - spring
   - summer

@@ -31,7 +31,7 @@ seasons:
 nutritionalDensity: light
 leftovers: good
 advancePrep:
-  - marinate-ahead
+  - marinate-overnight
 equipment:
   - mandoline
   - bowl

@@ -7,16 +7,14 @@ cookingMethods:
   - bake
   - roast
   - fry
-dietary: []
 occasions:
-  - kids-approved
+  - kid-friendly
   - weeknight
   - comfort-food
 seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
-equipment: []
 flavorProfile:
   - sweet
   - acidic

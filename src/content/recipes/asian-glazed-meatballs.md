@@ -3,20 +3,19 @@ title: Asian-Glazed Meatballs
 difficulty: easy
 cookingMethods:
   - bake
-  - sauté
+  - saute
   - simmer
-dietary: []
 occasions:
   - weeknight
   - meal-prep
-  - kids-approved
+  - kid-friendly
 flavorProfile:
   - sweet
   - savory
   - umami
 cuisines:
-  - Chinese-American
-  - Asian-Fusion
+  - Chinese
+  - American
 role: main
 vibe: comfort
 prepTime: 15 min
@@ -27,7 +26,6 @@ seasons:
   - year-round
 nutritionalDensity: hearty
 leftovers: excellent
-equipment: []
 advancePrep:
   - make-ahead-sauce
 pairsWith:

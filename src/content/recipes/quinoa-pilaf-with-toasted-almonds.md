@@ -27,11 +27,11 @@ seasons:
 nutritionalDensity: moderate
 leftovers: excellent
 advancePrep:
-  - make-ahead-full-dish
+  - make-ahead
   - meal-prep-friendly
 equipment:
   - saucepan
-  - large skillet
+  - large-skillet
 prepTime: 10 min
 cookTime: 25 min
 totalTime: 35 min

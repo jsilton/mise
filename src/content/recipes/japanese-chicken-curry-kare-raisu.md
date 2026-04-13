@@ -4,11 +4,10 @@ origin: Japan
 difficulty: intermediate
 cookingMethods:
   - roast
-  - sauté
+  - saute
   - simmer
   - boil
   - steam
-dietary: []
 occasions:
   - comfort-food
 flavorProfile:
@@ -45,7 +44,6 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
-equipment: []
 nutrition:
   calories: 915
   protein: 71.5

@@ -3,13 +3,12 @@ title: Honey Sesame Chicken
 difficulty: easy
 cookingMethods:
   - fry
-  - sauté
+  - saute
   - steam
-dietary: []
 occasions:
   - weeknight
   - quick-lunch
-  - kids-approved
+  - kid-friendly
 flavorProfile:
   - sweet
   - savory

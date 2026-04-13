@@ -4,7 +4,7 @@ difficulty: intermediate
 cookingMethods:
   - bake
   - roast
-  - sauté
+  - saute
   - simmer
   - steam
   - blend
@@ -43,7 +43,6 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
-equipment: []
 nutrition:
   calories: 420
   protein: 4.5

@@ -3,7 +3,6 @@ title: 'Kale Salad with Mango, Avocado and Feta'
 difficulty: intermediate
 cookingMethods:
   - grill
-dietary: []
 occasions:
   - light-and-fresh
   - quick-lunch
@@ -44,7 +43,6 @@ origin: Mediterranean
 seasons:
   - year-round
 nutritionalDensity: moderate
-equipment: []
 nutrition:
   calories: 900
   protein: 17

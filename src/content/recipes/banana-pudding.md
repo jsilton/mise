@@ -37,7 +37,6 @@ nutritionalDensity: moderate
 leftovers: good
 advancePrep:
   - chill-to-set
-equipment: []
 pairsWith:
   - grandmommys-pecan-pie
   - grandmommys-pound-cake

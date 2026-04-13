@@ -2,9 +2,8 @@
 title: Shrimp Scampi with Linguini
 difficulty: intermediate
 cookingMethods:
-  - sauté
+  - saute
   - boil
-dietary: []
 occasions:
   - date-night
   - weeknight

@@ -3,7 +3,6 @@ title: Chicken Lettuce Wraps
 difficulty: easy
 cookingMethods:
   - fry
-dietary: []
 occasions:
   - weeknight
   - quick-lunch

@@ -4,7 +4,6 @@ difficulty: easy
 cookingMethods:
   - bake
   - roast
-dietary: []
 occasions:
   - weeknight
   - quick-lunch
@@ -36,7 +35,6 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
-equipment: []
 nutrition:
   calories: 220
   protein: 38

@@ -3,9 +3,8 @@ title: Instant Pot Butternut Squash Soup
 difficulty: easy
 cookingMethods:
   - grill
-  - sauté
+  - saute
   - blend
-dietary: []
 occasions:
   - comfort-food
 flavorProfile:
@@ -44,7 +43,6 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
-equipment: []
 nutrition:
   calories: 365
   protein: 26

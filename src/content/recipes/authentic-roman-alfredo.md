@@ -27,8 +27,6 @@ seasons:
   - year-round
 nutritionalDensity: hearty
 leftovers: poor
-advancePrep: []
-equipment: []
 pairsWith:
   - everyday-arugula-salad
   - garlic-bread

@@ -11,7 +11,7 @@ occasions:
   - holiday
   - entertaining
   - weekend-project
-  - indulgent
+  - comfort-food
 flavorProfile:
   - sweet
   - rich
@@ -46,7 +46,6 @@ origin: France
 seasons:
   - year-round
 nutritionalDensity: moderate
-equipment: []
 pairsWith:
   - brown-butter-chocolate-souffle
   - chewy-chocolate-meringues

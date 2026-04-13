@@ -5,7 +5,6 @@ cookingMethods:
   - bake
   - roast
   - no-cook
-dietary: []
 occasions:
   - weeknight
   - meal-prep

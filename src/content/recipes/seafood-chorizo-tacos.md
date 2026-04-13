@@ -3,12 +3,10 @@ title: Seafood-Chorizo Tacos
 difficulty: easy
 cookingMethods:
   - fry
-  - sauté
+  - saute
   - no-cook
-dietary: []
 occasions:
   - weeknight
-  - summer
 flavorProfile:
   - spicy
   - sweet
@@ -42,7 +40,6 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: poor
-equipment: []
 nutrition:
   calories: 160
   protein: 27

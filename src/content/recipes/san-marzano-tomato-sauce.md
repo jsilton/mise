@@ -31,11 +31,10 @@ nutritionalDensity: light
 leftovers: excellent
 advancePrep:
   - make-ahead
-equipment: []
 pairsWith:
   - stuffed-shells-filled-with-spinach-and-ricotta
   - shrimp-fettuccine-alfredo
-  - chicken-parmesan
+  - baked-chicken-parmesan
 ingredients:
   - >-
     1 can (28 oz) Crushed San Marzano Tomatoes (look for DOP certification;

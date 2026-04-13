@@ -3,7 +3,7 @@ title: Garlic Butter Shrimp
 origin: Italy
 difficulty: easy
 cookingMethods:
-  - sauté
+  - saute
   - simmer
 dietary:
   - gluten-free
@@ -29,7 +29,6 @@ nutritionalDensity: moderate
 leftovers: poor
 equipment:
   - large-skillet
-advancePrep: []
 pairsWith:
   - buttered-egg-noodles
   - cilantro-lime-rice

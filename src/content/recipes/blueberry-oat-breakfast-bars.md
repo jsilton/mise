@@ -7,9 +7,9 @@ dietary:
   - vegetarian
 occasions:
   - meal-prep
-  - post-workout
+  - snack
   - quick-lunch
-  - kids-approved
+  - kid-friendly
 seasons:
   - year-round
 nutritionalDensity: moderate

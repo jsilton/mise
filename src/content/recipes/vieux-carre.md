@@ -3,7 +3,6 @@ title: Vieux Carré
 difficulty: easy
 cookingMethods:
   - roast
-dietary: []
 occasions:
   - date-night
   - entertaining

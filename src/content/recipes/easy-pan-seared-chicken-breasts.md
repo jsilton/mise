@@ -3,7 +3,6 @@ title: Pan-Seared Chicken Breasts
 difficulty: easy
 cookingMethods:
   - sear
-dietary: []
 occasions:
   - weeknight
   - quick-lunch

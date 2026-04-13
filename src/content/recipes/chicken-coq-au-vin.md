@@ -3,10 +3,9 @@ title: Chicken Coq au Vin
 difficulty: easy
 cookingMethods:
   - bake
-  - sauté
+  - saute
   - simmer
   - boil
-dietary: []
 occasions:
   - comfort-food
   - weekend-project
@@ -45,7 +44,6 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
-equipment: []
 nutrition:
   calories: 690
   protein: 63

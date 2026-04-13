@@ -9,7 +9,7 @@ occasions:
   - holiday
   - entertaining
   - weekend-project
-  - kids-approved
+  - kid-friendly
 flavorProfile:
   - sweet
   - acidic
@@ -50,7 +50,6 @@ origin: United States
 seasons:
   - year-round
 nutritionalDensity: moderate
-equipment: []
 pairsWith:
   - grandmommys-pound-cake
   - banana-pudding

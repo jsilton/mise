@@ -5,7 +5,7 @@ cookingMethods:
   - bake
   - roast
   - grill
-  - sauté
+  - saute
   - simmer
   - boil
   - steam
@@ -46,7 +46,6 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
-equipment: []
 nutrition:
   calories: 250
   protein: 0.5

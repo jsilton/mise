@@ -4,9 +4,7 @@ difficulty: easy
 cookingMethods:
   - grill
   - no-cook
-dietary: []
 occasions:
-  - summer
   - entertaining
 flavorProfile:
   - acidic
@@ -46,7 +44,6 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: poor
-equipment: []
 nutrition:
   calories: 165
   protein: 9

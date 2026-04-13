@@ -5,7 +5,6 @@ cookingMethods:
   - fry
   - simmer
   - steam
-dietary: []
 occasions:
   - weeknight
   - quick-lunch

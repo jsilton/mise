@@ -4,7 +4,6 @@ difficulty: easy
 cookingMethods:
   - boil
   - no-cook
-dietary: []
 occasions:
   - weekend-project
   - entertaining
@@ -29,7 +28,6 @@ leftovers: good
 advancePrep:
   - make-ahead
   - freeze-ahead
-equipment: []
 pairsWith:
   - steamed-bok-choy-with-oyster-sauce
   - steamed-broccoli

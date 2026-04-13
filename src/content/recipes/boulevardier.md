@@ -8,11 +8,10 @@ role: drink
 difficulty: easy
 cuisines:
   - American
-dietary: []
 occasions:
   - entertaining
   - date-night
-  - indulgent
+  - comfort-food
 seasons:
   - year-round
   - fall
@@ -28,7 +27,6 @@ equipment:
   - strainer
 cookingMethods:
   - no-cook
-advancePrep: []
 pairsWith:
   - marinated-korean-ribeye
   - fresh-egg-pasta

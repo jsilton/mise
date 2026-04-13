@@ -8,7 +8,6 @@ cookingMethods:
   - simmer
   - steam
   - no-cook
-dietary: []
 occasions:
   - weeknight
   - meal-prep

@@ -4,7 +4,6 @@ difficulty: easy
 cookingMethods:
   - roast
   - slow-cook
-dietary: []
 occasions:
   - comfort-food
 flavorProfile:
@@ -40,7 +39,6 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: excellent
-equipment: []
 nutrition:
   calories: 710
   protein: 48

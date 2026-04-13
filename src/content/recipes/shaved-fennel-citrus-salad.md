@@ -16,7 +16,7 @@ flavorProfile:
   - acidic
   - sweet
   - fresh
-  - anise
+  - aromatic
   - herbaceous
 cuisines:
   - Italian
@@ -29,7 +29,7 @@ seasons:
 nutritionalDensity: light
 leftovers: poor
 advancePrep:
-  - shave-fennel-up-to-2-hours-in-ice-water
+  - prep-vegetables
 equipment:
   - mandoline
 prepTime: 15 min

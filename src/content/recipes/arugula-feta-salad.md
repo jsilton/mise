@@ -47,7 +47,6 @@ origin: Mediterranean
 seasons:
   - year-round
 nutritionalDensity: moderate
-equipment: []
 nutrition:
   calories: 485
   protein: 21.5

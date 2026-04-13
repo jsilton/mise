@@ -4,10 +4,8 @@ difficulty: easy
 cookingMethods:
   - boil
   - no-cook
-dietary: []
 occasions:
   - light-and-fresh
-  - summer
 flavorProfile:
   - sweet
   - savory
@@ -41,7 +39,6 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: poor
-equipment: []
 nutrition:
   calories: 230
   protein: 20

@@ -3,10 +3,8 @@ title: Tuna Poke Bowls
 difficulty: intermediate
 cookingMethods:
   - no-cook
-dietary: []
 occasions:
   - light-and-fresh
-  - summer
 flavorProfile:
   - spicy
   - savory
@@ -45,7 +43,6 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: poor
-equipment: []
 nutrition:
   calories: 495
   protein: 45

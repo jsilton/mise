@@ -3,7 +3,6 @@ title: Caramelized Black Pepper Chicken
 difficulty: easy
 cookingMethods:
   - simmer
-dietary: []
 occasions:
   - weeknight
   - quick-lunch
@@ -41,7 +40,6 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
-equipment: []
 nutrition:
   calories: 275
   protein: 10

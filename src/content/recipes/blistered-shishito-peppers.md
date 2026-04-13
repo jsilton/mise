@@ -4,7 +4,7 @@ origin: Japanese
 difficulty: easy
 cookingMethods:
   - sear
-  - sauté
+  - saute
 dietary:
   - vegetarian
   - vegan
@@ -12,14 +12,12 @@ dietary:
 occasions:
   - weeknight
   - appetizer
-  - summer
 flavorProfile:
   - smoky
   - savory
-  - mild-heat
+  - mild
 cuisines:
   - Japanese
-  - Asian-Fusion
 role: side
 vibe: quick
 seasons:
@@ -28,7 +26,6 @@ seasons:
   - year-round
 nutritionalDensity: light
 leftovers: poor
-advancePrep: []
 equipment:
   - cast-iron-skillet
 prepTime: 2 min

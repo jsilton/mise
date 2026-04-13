@@ -6,7 +6,6 @@ cookingMethods:
   - roast
   - no-cook
   - blend
-dietary: []
 occasions:
   - weeknight
   - meal-prep
@@ -50,7 +49,6 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
-equipment: []
 nutrition:
   calories: 425
   protein: 40

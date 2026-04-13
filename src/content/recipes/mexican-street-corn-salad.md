@@ -5,7 +5,6 @@ difficulty: easy
 cookingMethods:
   - grill
   - boil
-dietary: []
 occasions:
   - weeknight
   - entertaining
@@ -44,7 +43,6 @@ ingredients:
 seasons:
   - year-round
 nutritionalDensity: moderate
-equipment: []
 nutrition:
   calories: 295
   protein: 20.5

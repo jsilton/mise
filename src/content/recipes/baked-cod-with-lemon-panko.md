@@ -5,7 +5,6 @@ cookingMethods:
   - bake
   - roast
   - poach
-dietary: []
 occasions:
   - weeknight
   - light-and-fresh
@@ -42,7 +41,6 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
-equipment: []
 nutrition:
   calories: 140
   protein: 2.5

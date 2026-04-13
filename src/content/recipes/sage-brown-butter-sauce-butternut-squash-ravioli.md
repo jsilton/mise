@@ -4,7 +4,6 @@ difficulty: intermediate
 cookingMethods:
   - fry
   - boil
-dietary: []
 occasions:
   - weeknight
   - date-night
@@ -27,7 +26,6 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
-equipment: []
 pairsWith:
   - everyday-arugula-salad
   - roasted-root-vegetables

@@ -42,7 +42,6 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
-equipment: []
 advancePrep:
   - freeze-ahead
 nutrition:

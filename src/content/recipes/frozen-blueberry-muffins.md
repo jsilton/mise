@@ -7,7 +7,7 @@ dietary:
   - vegetarian
 occasions:
   - meal-prep
-  - kids-approved
+  - kid-friendly
   - entertaining
   - weekend-project
 seasons:

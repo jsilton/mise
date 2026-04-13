@@ -12,7 +12,6 @@ occasions:
   - weeknight
   - comfort-food
   - entertaining
-  - fall
 flavorProfile:
   - sweet
   - savory
@@ -26,7 +25,6 @@ seasons:
   - winter
 nutritionalDensity: moderate
 leftovers: good
-advancePrep: []
 equipment:
   - baking-sheet
 prepTime: 10 min

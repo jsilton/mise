@@ -6,7 +6,7 @@ cookingMethods:
 dietary:
   - vegetarian
 occasions:
-  - post-workout
+  - snack
   - quick-lunch
   - light-and-fresh
 seasons:

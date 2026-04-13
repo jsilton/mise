@@ -3,10 +3,9 @@ title: Hot and Sour Soup
 origin: China
 difficulty: easy
 cookingMethods:
-  - sauté
+  - saute
   - simmer
   - boil
-dietary: []
 occasions:
   - comfort-food
   - weekend-project
@@ -32,7 +31,6 @@ nutritionalDensity: moderate
 leftovers: excellent
 advancePrep:
   - make-ahead
-equipment: []
 pairsWith:
   - har-gow-dim-sum-shrimp-dumplings
   - basmati-rice

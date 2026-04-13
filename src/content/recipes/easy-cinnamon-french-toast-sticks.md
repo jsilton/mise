@@ -8,7 +8,7 @@ dietary:
   - vegetarian
 occasions:
   - weeknight
-  - kids-approved
+  - kid-friendly
   - weekend-project
 seasons:
   - year-round

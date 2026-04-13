@@ -5,7 +5,7 @@ difficulty: intermediate
 cookingMethods:
   - boil
   - steam
-  - sauté
+  - saute
 dietary:
   - gluten-free
 occasions:
@@ -15,8 +15,7 @@ occasions:
 flavorProfile:
   - aromatic
   - warm
-  - floral
-  - slightly sweet
+  - sweet
 cuisines:
   - Indian
 role: base

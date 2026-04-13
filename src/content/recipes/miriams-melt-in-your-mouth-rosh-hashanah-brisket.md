@@ -5,7 +5,6 @@ cookingMethods:
   - bake
   - roast
   - braise
-dietary: []
 occasions:
   - holiday
 flavorProfile:
@@ -36,9 +35,8 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: excellent
-equipment: []
 advancePrep:
-  - chill-overnight
+  - chill-to-set
 nutrition:
   calories: 120
   protein: 1.5

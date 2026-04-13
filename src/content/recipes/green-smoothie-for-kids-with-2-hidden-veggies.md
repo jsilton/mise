@@ -6,8 +6,8 @@ cookingMethods:
 dietary:
   - vegetarian
 occasions:
-  - kids-approved
-  - post-workout
+  - kid-friendly
+  - snack
   - quick-lunch
 seasons:
   - year-round

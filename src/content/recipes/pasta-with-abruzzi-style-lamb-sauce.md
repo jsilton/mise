@@ -4,7 +4,6 @@ difficulty: easy
 cookingMethods:
   - simmer
   - boil
-dietary: []
 occasions:
   - comfort-food
 flavorProfile:
@@ -35,7 +34,6 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
-equipment: []
 nutrition:
   calories: 10
   protein: 0.5

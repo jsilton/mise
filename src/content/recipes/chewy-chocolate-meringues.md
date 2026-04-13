@@ -31,7 +31,6 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
-equipment: []
 pairsWith:
   - brown-butter-chocolate-souffle
   - chocolate-souffle

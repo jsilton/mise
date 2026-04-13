@@ -4,12 +4,11 @@ origin: China
 difficulty: easy
 cookingMethods:
   - fry
-  - sauté
-dietary: []
+  - saute
 occasions:
   - weeknight
   - quick-lunch
-  - kids-approved
+  - kid-friendly
 flavorProfile:
   - sweet
   - savory

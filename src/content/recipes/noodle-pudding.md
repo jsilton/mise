@@ -5,7 +5,6 @@ cookingMethods:
   - bake
   - boil
   - no-cook
-dietary: []
 occasions:
   - comfort-food
 flavorProfile:
@@ -35,7 +34,6 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
-equipment: []
 pairsWith:
   - hamantaschen
   - apple-cider-cream-pie

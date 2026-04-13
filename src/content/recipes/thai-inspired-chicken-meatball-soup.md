@@ -3,9 +3,8 @@ title: Thai Chicken Meatball Soup
 difficulty: easy
 cookingMethods:
   - bake
-  - sauté
+  - saute
   - simmer
-dietary: []
 occasions:
   - comfort-food
 flavorProfile:
@@ -42,7 +41,6 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
-equipment: []
 nutrition:
   calories: 260
   protein: 34.5

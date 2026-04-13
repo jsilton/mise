@@ -10,7 +10,7 @@ dietary:
   - gluten-free
 occasions:
   - weeknight
-  - staple
+  - everyday
 flavorProfile:
   - clean
   - neutral
@@ -28,7 +28,6 @@ seasons:
   - year-round
 nutritionalDensity: light
 leftovers: excellent
-advancePrep: []
 equipment:
   - saucepan
 pairsWith:

@@ -3,7 +3,7 @@ title: Sauteed Mushrooms with Thyme
 origin: French
 difficulty: easy
 cookingMethods:
-  - sauté
+  - saute
 dietary:
   - vegetarian
   - gluten-free
@@ -26,7 +26,6 @@ seasons:
   - year-round
 nutritionalDensity: light
 leftovers: good
-advancePrep: []
 equipment:
   - large-skillet
 prepTime: 10 min

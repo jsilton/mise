@@ -41,7 +41,6 @@ origin: Mediterranean
 seasons:
   - year-round
 nutritionalDensity: moderate
-equipment: []
 pairsWith:
   - parmigiano-reggiano-cheesecake
   - apple-cider-cream-pie

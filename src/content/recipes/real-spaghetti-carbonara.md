@@ -3,9 +3,8 @@ title: Spaghetti Carbonara
 origin: Italy
 difficulty: intermediate
 cookingMethods:
-  - sauté
+  - saute
   - boil
-dietary: []
 occasions:
   - weeknight
   - date-night
@@ -25,7 +24,6 @@ seasons:
   - year-round
 nutritionalDensity: hearty
 leftovers: poor
-equipment: []
 pairsWith:
   - avocado-kale-caesar-salad
   - garlic-bread

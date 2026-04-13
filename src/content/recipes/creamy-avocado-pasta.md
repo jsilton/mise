@@ -5,12 +5,11 @@ cookingMethods:
   - grill
   - boil
   - blend
-dietary: []
 occasions:
   - weeknight
   - quick-lunch
   - light-and-fresh
-  - post-workout
+  - snack
 flavorProfile:
   - acidic
   - umami

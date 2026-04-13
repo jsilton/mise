@@ -5,7 +5,6 @@ difficulty: easy
 cookingMethods:
   - grill
   - blend
-dietary: []
 occasions:
   - meal-prep
   - entertaining
@@ -35,7 +34,6 @@ seasons:
   - year-round
 nutritionalDensity: light
 leftovers: good
-equipment: []
 nutrition:
   calories: 1435
   protein: 0.5

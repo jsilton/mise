@@ -6,7 +6,6 @@ cookingMethods:
   - simmer
   - boil
   - braise
-dietary: []
 occasions:
   - weekend-project
   - entertaining
@@ -30,8 +29,8 @@ seasons:
 nutritionalDensity: hearty
 leftovers: excellent
 advancePrep:
-  - make-broth-ahead
-  - prep-toppings
+  - make-ahead-sauce
+  - components-ahead
 equipment:
   - large-pot
   - dutch-oven

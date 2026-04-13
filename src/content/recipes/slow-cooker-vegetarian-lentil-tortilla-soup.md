@@ -42,7 +42,6 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: excellent
-equipment: []
 nutrition:
   calories: 285
   protein: 11

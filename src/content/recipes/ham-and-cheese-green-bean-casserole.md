@@ -5,7 +5,6 @@ cookingMethods:
   - bake
   - boil
   - no-cook
-dietary: []
 occasions:
   - holiday
 flavorProfile:
@@ -41,7 +40,6 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
-equipment: []
 nutrition:
   calories: 30
   protein: 0.5

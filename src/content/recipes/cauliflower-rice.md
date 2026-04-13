@@ -2,7 +2,7 @@
 title: Cauliflower Rice
 difficulty: easy
 cookingMethods:
-  - sauté
+  - saute
   - raw
 dietary:
   - vegetarian

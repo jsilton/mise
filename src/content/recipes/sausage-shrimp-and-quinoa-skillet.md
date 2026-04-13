@@ -3,8 +3,7 @@ title: 'Sausage, Shrimp & Quinoa Skillet'
 difficulty: easy
 cookingMethods:
   - fry
-  - sauté
-dietary: []
+  - saute
 occasions:
   - weeknight
   - quick-lunch

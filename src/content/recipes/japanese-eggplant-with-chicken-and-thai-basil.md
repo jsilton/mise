@@ -3,9 +3,8 @@ title: Japanese Eggplant with Chicken & Thai Basil
 difficulty: easy
 cookingMethods:
   - fry
-  - sauté
+  - saute
   - steam
-dietary: []
 occasions:
   - weeknight
   - quick-lunch
@@ -46,7 +45,6 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
-equipment: []
 nutrition:
   calories: 215
   protein: 28.5

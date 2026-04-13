@@ -3,14 +3,12 @@ title: Zucchini Noodles with Avocado & Shrimp
 difficulty: easy
 cookingMethods:
   - roast
-  - sauté
+  - saute
   - blend
-dietary: []
 occasions:
   - quick-lunch
   - light-and-fresh
-  - post-workout
-  - summer
+  - snack
 seasons:
   - summer
 nutritionalDensity: light

@@ -5,7 +5,6 @@ cookingMethods:
   - simmer
   - boil
   - steam
-dietary: []
 occasions:
   - weeknight
   - meal-prep
@@ -19,7 +18,7 @@ role: base
 vibe: quick
 prepTime: 5 min
 cookTime: 20 min
-totalTime: '25 min'
+totalTime: 25 min
 pairsWith:
   - bibimbap
   - herby-chicken-meatball-bowl
@@ -36,7 +35,6 @@ seasons:
   - year-round
 nutritionalDensity: light
 leftovers: good
-equipment: []
 ---
 
 ## Chef's Note

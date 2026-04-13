@@ -3,12 +3,11 @@ title: Spaghetti with Clams & Braised Greens
 difficulty: intermediate
 cookingMethods:
   - roast
-  - sauté
+  - saute
   - boil
   - steam
   - braise
   - blend
-dietary: []
 occasions:
   - comfort-food
   - date-night
@@ -33,7 +32,6 @@ seasons:
   - fall
 nutritionalDensity: moderate
 leftovers: poor
-equipment: []
 pairsWith:
   - garlic-bread
 ingredients:

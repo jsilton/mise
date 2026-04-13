@@ -3,10 +3,8 @@ title: Wonton Wrappers
 difficulty: intermediate
 cookingMethods:
   - boil
-dietary: []
 occasions:
   - weekend-project
-flavorProfile: []
 cuisines:
   - Chinese
 role: base

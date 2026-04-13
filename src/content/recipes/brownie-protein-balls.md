@@ -6,7 +6,7 @@ cookingMethods:
 dietary:
   - vegetarian
 occasions:
-  - post-workout
+  - snack
   - quick-lunch
   - meal-prep
 seasons:
@@ -15,7 +15,6 @@ nutritionalDensity: moderate
 leftovers: excellent
 advancePrep:
   - make-ahead
-equipment: []
 flavorProfile:
   - sweet
   - rich

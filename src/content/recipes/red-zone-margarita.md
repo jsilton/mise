@@ -37,7 +37,7 @@ equipment:
   - cocktail-shaker
   - saucepan
 advancePrep:
-  - make-ahead-syrup
+  - make-ahead-sauce
 ingredients:
   - 'For the Spiced Cranberry Syrup:'
   - 1 cup Unsweetened 100% Cranberry Juice

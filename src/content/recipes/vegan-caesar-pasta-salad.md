@@ -10,10 +10,9 @@ dietary:
 occasions:
   - weeknight
   - quick-lunch
-  - post-workout
+  - snack
   - light-and-fresh
   - potluck
-flavorProfile: []
 cuisines:
   - Italian
 role: side
@@ -28,7 +27,6 @@ seasons:
   - year-round
 nutritionalDensity: light
 leftovers: good
-equipment: []
 pairsWith:
   - vietnamese-grilled-chicken
   - tomato-soup

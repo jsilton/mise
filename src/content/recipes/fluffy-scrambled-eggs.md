@@ -3,7 +3,7 @@ title: Fluffy Scrambled Eggs
 origin: France
 difficulty: easy
 cookingMethods:
-  - sauté
+  - saute
 dietary:
   - vegetarian
   - gluten-free
@@ -23,7 +23,6 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: poor
-advancePrep: []
 equipment:
   - nonstick-skillet
   - spatula

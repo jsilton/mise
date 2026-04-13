@@ -3,7 +3,7 @@ title: Speedy Chinese Eggplant
 difficulty: easy
 cookingMethods:
   - fry
-  - sauté
+  - saute
   - boil
   - steam
 dietary:
@@ -11,7 +11,6 @@ dietary:
 occasions:
   - weeknight
   - quick-lunch
-  - summer
 flavorProfile:
   - spicy
   - sweet

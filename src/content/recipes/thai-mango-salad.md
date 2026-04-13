@@ -9,7 +9,6 @@ dietary:
 occasions:
   - weeknight
   - quick-lunch
-  - summer
   - light-and-fresh
 flavorProfile:
   - sweet
@@ -26,15 +25,14 @@ seasons:
   - year-round
 nutritionalDensity: light
 leftovers: poor
-advancePrep: []
 equipment:
-  - large mixing bowl
+  - mixing-bowl
 prepTime: 15 min
 cookTime: 0 min
 totalTime: 15 min
 servings: '4'
 pairsWith:
-  - thai-green-curry-with-chicken
+  - green-curry-chicken
   - coconut-jasmine-rice
   - coconut-chicken-curry
 ingredients:

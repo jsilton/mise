@@ -5,7 +5,6 @@ cookingMethods:
   - simmer
   - boil
   - steam
-dietary: []
 occasions:
   - weeknight
   - meal-prep
@@ -39,7 +38,6 @@ seasons:
   - year-round
 nutritionalDensity: light
 leftovers: good
-equipment: []
 nutrition:
   calories: 100
   protein: 2

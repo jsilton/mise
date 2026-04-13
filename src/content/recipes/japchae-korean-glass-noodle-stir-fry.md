@@ -5,7 +5,7 @@ difficulty: intermediate
 cookingMethods:
   - stir-fry
   - boil
-  - sauté
+  - saute
 dietary:
   - gluten-free-option
   - vegan-option
@@ -15,7 +15,7 @@ occasions:
   - meal-prep
 flavorProfile:
   - savory
-  - slightly-sweet
+  - sweet
   - nutty
   - umami
 cuisines:
@@ -27,8 +27,8 @@ seasons:
 nutritionalDensity: moderate
 leftovers: good
 advancePrep:
-  - prep-ingredients-before-cooking
-  - marinate-ahead
+  - prep-vegetables
+  - marinate-overnight
 equipment:
   - large-skillet
   - wok

@@ -7,7 +7,6 @@ dietary:
   - vegan
 occasions:
   - entertaining
-  - summer
   - light-and-fresh
 seasons:
   - spring

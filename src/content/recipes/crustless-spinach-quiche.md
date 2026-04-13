@@ -3,7 +3,7 @@ title: Crustless Spinach & Gruyère Quiche
 difficulty: intermediate
 cookingMethods:
   - bake
-  - sauté
+  - saute
 dietary:
   - vegetarian
 occasions:
@@ -38,7 +38,6 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
-equipment: []
 nutrition:
   calories: 270
   protein: 21

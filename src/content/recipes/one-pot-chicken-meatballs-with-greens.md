@@ -3,11 +3,10 @@ title: One-Pot Chicken Meatballs with Greens
 difficulty: intermediate
 cookingMethods:
   - bake
-  - sauté
+  - saute
   - simmer
   - steam
   - braise
-dietary: []
 occasions:
   - weeknight
   - meal-prep

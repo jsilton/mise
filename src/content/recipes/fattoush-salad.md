@@ -30,9 +30,9 @@ leftovers: poor
 advancePrep:
   - components-ahead
 equipment:
-  - sheet pan
-  - large mixing bowl
-  - small jar or bowl for dressing
+  - sheet-pan
+  - mixing-bowl
+  - jar
 prepTime: 20 min
 cookTime: 10 min
 totalTime: 30 min

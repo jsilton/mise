@@ -34,7 +34,6 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: excellent
-equipment: []
 pairsWith:
   - almond-zucchini-bread
   - avocado-kale-caesar-salad

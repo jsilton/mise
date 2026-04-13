@@ -3,7 +3,6 @@ title: Slow Cooker Cilantro Lime Chicken
 difficulty: easy
 cookingMethods:
   - slow-cook
-dietary: []
 occasions:
   - comfort-food
 flavorProfile:
@@ -38,7 +37,6 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: excellent
-equipment: []
 nutrition:
   calories: 170
   protein: 29.5

@@ -2,9 +2,8 @@
 title: Chicken Galbi Noodle Salad
 difficulty: intermediate
 cookingMethods:
-  - sauté
+  - saute
   - boil
-dietary: []
 occasions:
   - weeknight
   - meal-prep
@@ -46,7 +45,6 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
-equipment: []
 nutrition:
   calories: 805
   protein: 41.5

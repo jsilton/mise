@@ -3,7 +3,6 @@ title: Charred Broccoli
 difficulty: easy
 cookingMethods:
   - steam
-dietary: []
 occasions:
   - weeknight
   - light-and-fresh
@@ -41,7 +40,6 @@ origin: China
 seasons:
   - year-round
 nutritionalDensity: moderate
-equipment: []
 nutrition:
   calories: 85
   protein: 2

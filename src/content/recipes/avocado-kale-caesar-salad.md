@@ -5,11 +5,10 @@ cookingMethods:
   - bake
   - no-cook
   - blend
-dietary: []
 occasions:
   - quick-lunch
   - light-and-fresh
-  - post-workout
+  - snack
   - entertaining
 seasons:
   - year-round

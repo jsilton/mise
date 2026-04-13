@@ -5,7 +5,6 @@ cookingMethods:
   - roast
   - simmer
   - boil
-dietary: []
 occasions:
   - weeknight
   - quick-lunch

@@ -11,7 +11,6 @@ dietary:
 occasions:
   - weeknight
   - quick-lunch
-  - summer
   - entertaining
 flavorProfile:
   - savory
@@ -29,10 +28,10 @@ seasons:
 nutritionalDensity: moderate
 leftovers: good
 advancePrep:
-  - char-corn-ahead
+  - components-ahead
 equipment:
-  - large skillet
-  - large bowl
+  - large-skillet
+  - large-bowl
 prepTime: 10 min
 cookTime: 10 min
 totalTime: 20 min

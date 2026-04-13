@@ -2,11 +2,10 @@
 title: Shrimp and Corn Chowder
 difficulty: easy
 cookingMethods:
-  - sauté
+  - saute
   - simmer
   - boil
   - blend
-dietary: []
 occasions:
   - weeknight
   - comfort-food

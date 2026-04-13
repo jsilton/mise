@@ -8,7 +8,6 @@ dietary:
   - vegetarian
   - vegan
 occasions:
-  - condiment
   - appetizer
 flavorProfile:
   - savory
@@ -18,7 +17,6 @@ flavorProfile:
 cuisines:
   - Chinese
   - Japanese
-  - Asian-Fusion
 role: condiment
 vibe: quick
 prepTime: 5 min
@@ -29,7 +27,6 @@ seasons:
   - year-round
 nutritionalDensity: light
 leftovers: excellent
-equipment: []
 pairsWith:
   - har-gow-dim-sum-shrimp-dumplings
   - cantonese-shumai-siu-mai

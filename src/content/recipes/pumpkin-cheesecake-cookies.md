@@ -9,7 +9,7 @@ dietary:
 occasions:
   - holiday
   - entertaining
-  - indulgent
+  - comfort-food
 seasons:
   - fall
   - winter

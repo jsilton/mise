@@ -4,14 +4,14 @@ origin: India
 difficulty: intermediate
 cookingMethods:
   - simmer
-  - sauté
+  - saute
 dietary:
   - vegetarian
   - gluten-free
 occasions:
   - weeknight
   - entertaining
-  - elevated
+  - date-night
 flavorProfile:
   - savory
   - umami
@@ -26,7 +26,7 @@ seasons:
 nutritionalDensity: hearty
 leftovers: good
 advancePrep:
-  - marinate-ahead
+  - marinate-overnight
 equipment:
   - large-skillet
   - blender-or-food-processor

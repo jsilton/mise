@@ -4,10 +4,9 @@ difficulty: intermediate
 cookingMethods:
   - bake
   - roast
-  - sauté
+  - saute
   - simmer
   - boil
-dietary: []
 occasions:
   - comfort-food
   - meal-prep
@@ -29,7 +28,6 @@ seasons:
   - year-round
 nutritionalDensity: hearty
 leftovers: excellent
-equipment: []
 pairsWith:
   - garlic-bread
   - everyday-arugula-salad

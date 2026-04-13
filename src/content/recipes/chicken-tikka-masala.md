@@ -37,10 +37,9 @@ advancePrep:
   - marinate-overnight
 cookingMethods:
   - bake
-  - sauté
+  - saute
   - simmer
   - blend
-dietary: []
 occasions:
   - comfort-food
 flavorProfile:
@@ -59,7 +58,6 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
-equipment: []
 nutrition:
   calories: 550
   protein: 43.5

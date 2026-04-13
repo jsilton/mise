@@ -23,7 +23,6 @@ seasons:
   - fall
 nutritionalDensity: light
 leftovers: good
-advancePrep: []
 equipment:
   - baking-sheet
 prepTime: 15 min

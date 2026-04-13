@@ -45,7 +45,6 @@ origin: India
 seasons:
   - year-round
 nutritionalDensity: moderate
-equipment: []
 nutrition:
   calories: 130
   protein: 6

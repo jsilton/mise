@@ -4,10 +4,9 @@ difficulty: intermediate
 cookingMethods:
   - bake
   - blend
-dietary: []
 occasions:
   - meal-prep
-  - kids-approved
+  - kid-friendly
   - weeknight
 seasons:
   - year-round
@@ -18,7 +17,6 @@ advancePrep:
   - make-ahead
 equipment:
   - sheet-pan
-flavorProfile: []
 cuisines:
   - American
 role: main

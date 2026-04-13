@@ -7,7 +7,6 @@ dietary:
   - vegetarian
 occasions:
   - entertaining
-  - summer
 flavorProfile:
   - acidic
   - smoky
@@ -31,7 +30,6 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
-equipment: []
 pairsWith:
   - carnitas-bowl
   - chili

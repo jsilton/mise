@@ -10,14 +10,13 @@ occasions:
   - holiday
   - entertaining
   - weekend-project
-  - indulgent
+  - comfort-food
 seasons:
   - year-round
 nutritionalDensity: hearty
 leftovers: excellent
 advancePrep:
   - make-ahead
-equipment: []
 flavorProfile:
   - sweet
   - acidic

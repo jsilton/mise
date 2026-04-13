@@ -42,7 +42,6 @@ origin: United States
 seasons:
   - year-round
 nutritionalDensity: moderate
-equipment: []
 pairsWith:
   - red-velvet-cupcakes
   - banana-pudding

@@ -6,7 +6,6 @@ cookingMethods:
   - boil
   - steam
   - no-cook
-dietary: []
 occasions:
   - weeknight
   - meal-prep
@@ -43,7 +42,6 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: poor
-equipment: []
 nutrition:
   calories: 70
   protein: 2

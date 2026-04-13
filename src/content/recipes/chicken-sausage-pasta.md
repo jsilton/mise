@@ -2,14 +2,13 @@
 title: Chicken Sausage Pasta
 difficulty: easy
 cookingMethods:
-  - sauté
+  - saute
   - simmer
   - boil
-dietary: []
 occasions:
   - weeknight
   - quick-lunch
-  - kids-approved
+  - kid-friendly
 flavorProfile:
   - sweet
   - acidic
@@ -27,7 +26,6 @@ seasons:
   - year-round
 nutritionalDensity: hearty
 leftovers: excellent
-equipment: []
 pairsWith:
   - garlic-bread
   - everyday-arugula-salad

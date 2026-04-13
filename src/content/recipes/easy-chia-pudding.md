@@ -7,7 +7,7 @@ dietary:
   - vegetarian
 occasions:
   - meal-prep
-  - post-workout
+  - snack
   - quick-lunch
 seasons:
   - year-round

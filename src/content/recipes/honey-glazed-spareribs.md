@@ -6,11 +6,9 @@ difficulty: easy
 cookingMethods:
   - boil
   - blend
-dietary: []
 occasions:
   - entertaining
   - comfort-food
-  - indulgent
 flavorProfile:
   - sweet
   - savory
@@ -29,7 +27,6 @@ seasons:
   - summer
 nutritionalDensity: hearty
 leftovers: excellent
-equipment: []
 pairsWith:
   - basmati-rice
   - smashed-cucumber-salad

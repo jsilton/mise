@@ -3,10 +3,9 @@ title: Shrimp Vodka Pasta
 difficulty: easy
 cookingMethods:
   - roast
-  - sauté
+  - saute
   - simmer
   - boil
-dietary: []
 occasions:
   - weeknight
   - date-night
@@ -16,7 +15,6 @@ seasons:
   - year-round
 nutritionalDensity: hearty
 leftovers: poor
-equipment: []
 flavorProfile:
   - umami
   - rich

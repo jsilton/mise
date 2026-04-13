@@ -11,7 +11,6 @@ occasions:
   - weeknight
   - entertaining
   - comfort-food
-  - fall
 flavorProfile:
   - sweet
   - acidic
@@ -28,7 +27,6 @@ seasons:
   - spring
 nutritionalDensity: moderate
 leftovers: good
-advancePrep: []
 equipment:
   - baking-sheet
 prepTime: 10 min

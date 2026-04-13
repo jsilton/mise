@@ -2,10 +2,9 @@
 title: Jeri's Lentil Soup
 difficulty: easy
 cookingMethods:
-  - sauté
+  - saute
   - slow-cook
   - blend
-dietary: []
 occasions:
   - comfort-food
   - meal-prep

@@ -2,10 +2,9 @@
 title: Lemon Chicken Orzo Soup
 difficulty: easy
 cookingMethods:
-  - sauté
+  - saute
   - simmer
   - boil
-dietary: []
 occasions:
   - comfort-food
 flavorProfile:
@@ -45,7 +44,6 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
-equipment: []
 nutrition:
   calories: 225
   protein: 7.5

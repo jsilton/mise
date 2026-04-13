@@ -1,9 +1,8 @@
 ---
 title: Key Lime Pie
-difficulty: easy
+difficulty: intermediate
 cookingMethods:
   - bake
-dietary: []
 occasions:
   - holiday
 flavorProfile:
@@ -35,7 +34,6 @@ nutritionalDensity: moderate
 leftovers: good
 advancePrep:
   - chill-to-set
-equipment: []
 pairsWith:
   - apple-cider-cream-pie
   - apple-pie

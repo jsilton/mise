@@ -5,7 +5,6 @@ cookingMethods:
   - roast
   - steam
   - slow-cook
-dietary: []
 occasions:
   - comfort-food
 flavorProfile:
@@ -43,7 +42,6 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: excellent
-equipment: []
 nutrition:
   calories: 560
   protein: 52.5

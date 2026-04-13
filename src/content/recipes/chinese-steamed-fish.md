@@ -4,7 +4,6 @@ origin: China
 difficulty: easy
 cookingMethods:
   - steam
-dietary: []
 occasions:
   - weeknight
   - entertaining

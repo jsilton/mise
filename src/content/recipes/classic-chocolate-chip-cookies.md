@@ -8,7 +8,7 @@ dietary:
   - nut-free
 occasions:
   - comfort-food
-  - kids-approved
+  - kid-friendly
   - weekend-project
   - holiday
 seasons:
@@ -18,7 +18,6 @@ leftovers: excellent
 advancePrep:
   - make-ahead
   - chill-dough
-equipment: []
 flavorProfile:
   - sweet
   - rich

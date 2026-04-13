@@ -4,7 +4,6 @@ difficulty: easy
 cookingMethods:
   - grill
   - slow-cook
-dietary: []
 occasions:
   - comfort-food
 flavorProfile:
@@ -38,7 +37,6 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: excellent
-equipment: []
 nutrition:
   calories: 370
   protein: 55.5

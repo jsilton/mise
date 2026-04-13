@@ -35,9 +35,9 @@ leftovers: poor
 advancePrep:
   - components-ahead
 equipment:
-  - large heavy-bottomed pot or dutch oven
-  - medium saucepan
-  - spider or slotted spoon
+  - dutch-oven
+  - medium-saucepan
+  - spider-strainer
   - thermometer
 prepTime: 20 min
 cookTime: 40 min

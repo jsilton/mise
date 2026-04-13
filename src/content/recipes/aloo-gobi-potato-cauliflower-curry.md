@@ -3,7 +3,7 @@ title: Aloo Gobi (Potato Cauliflower Curry)
 origin: India
 difficulty: easy
 cookingMethods:
-  - sauté
+  - saute
   - simmer
 dietary:
   - vegetarian

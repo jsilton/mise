@@ -5,7 +5,6 @@ cookingMethods:
   - bake
   - fry
   - blend
-dietary: []
 occasions:
   - comfort-food
 flavorProfile:
@@ -36,7 +35,6 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
-equipment: []
 nutrition:
   calories: 510
   protein: 45.5

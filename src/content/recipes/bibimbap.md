@@ -5,7 +5,6 @@ origin: Korea
 cookingMethods:
   - fry
   - saute
-dietary: []
 occasions:
   - weeknight
   - meal-prep

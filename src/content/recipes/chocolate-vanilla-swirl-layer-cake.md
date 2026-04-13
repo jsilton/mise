@@ -1,6 +1,6 @@
 ---
 title: Chocolate Vanilla Swirl Layer Cake
-difficulty: easy
+difficulty: intermediate
 cookingMethods:
   - bake
   - boil
@@ -38,7 +38,6 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
-equipment: []
 pairsWith:
   - apple-cider-cream-pie
   - apple-pie

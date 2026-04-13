@@ -3,7 +3,6 @@ title: Chinese Sausage Fried Rice
 difficulty: easy
 cookingMethods:
   - fry
-dietary: []
 occasions:
   - weeknight
   - quick-lunch

@@ -5,7 +5,6 @@ cookingMethods:
   - fry
   - simmer
   - boil
-dietary: []
 occasions:
   - weeknight
   - comfort-food
@@ -41,7 +40,6 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
-equipment: []
 nutrition:
   calories: 205
   protein: 23

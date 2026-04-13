@@ -3,9 +3,8 @@ title: Green Beans with Shallots & Lemon
 difficulty: easy
 cookingMethods:
   - bake
-  - sauté
+  - saute
   - boil
-dietary: []
 occasions:
   - holiday
   - entertaining

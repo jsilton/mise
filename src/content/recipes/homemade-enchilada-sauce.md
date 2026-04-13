@@ -5,7 +5,6 @@ cookingMethods:
   - simmer
   - boil
   - blend
-dietary: []
 occasions:
   - meal-prep
   - weeknight
@@ -44,7 +43,6 @@ seasons:
   - year-round
 nutritionalDensity: light
 leftovers: good
-equipment: []
 nutrition:
   calories: 915
   protein: 22.5

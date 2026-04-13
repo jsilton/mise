@@ -8,8 +8,8 @@ dietary:
   - vegetarian
 occasions:
   - meal-prep
-  - kids-approved
-  - post-workout
+  - kid-friendly
+  - snack
   - quick-lunch
 seasons:
   - year-round

@@ -8,12 +8,12 @@ dietary:
   - dairy-free
 occasions:
   - weeknight
-  - packed-lunch
+  - lunch
   - breakfast
   - entertaining
 flavorProfile:
   - savory
-  - slightly-sweet
+  - sweet
   - umami
 cuisines:
   - Japanese
@@ -23,7 +23,6 @@ seasons:
   - year-round
 nutritionalDensity: light
 leftovers: excellent
-advancePrep: []
 equipment:
   - tamagoyaki-pan
   - small-bowl

@@ -10,7 +10,6 @@ dietary:
 occasions:
   - entertaining
   - game-day
-  - summer
 flavorProfile:
   - spicy
   - smoky

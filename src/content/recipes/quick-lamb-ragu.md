@@ -4,11 +4,10 @@ origin: Italy
 difficulty: intermediate
 cookingMethods:
   - fry
-  - sauté
+  - saute
   - simmer
   - boil
   - braise
-dietary: []
 occasions:
   - comfort-food
   - weekend-project
@@ -33,7 +32,6 @@ seasons:
   - year-round
 nutritionalDensity: hearty
 leftovers: excellent
-equipment: []
 pairsWith:
   - garlic-bread
   - everyday-arugula-salad

@@ -3,9 +3,8 @@ title: Ham & Cheese Quiche
 difficulty: easy
 cookingMethods:
   - bake
-  - sauté
+  - saute
   - no-cook
-dietary: []
 occasions:
   - comfort-food
 flavorProfile:
@@ -43,7 +42,6 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
-equipment: []
 nutrition:
   calories: 65
   protein: 4

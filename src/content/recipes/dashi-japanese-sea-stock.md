@@ -33,7 +33,6 @@ seasons:
   - year-round
 nutritionalDensity: light
 leftovers: good
-equipment: []
 ---
 
 ## Chef's Note

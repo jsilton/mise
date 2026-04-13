@@ -18,7 +18,6 @@ advancePrep:
   - rest-dough
 equipment:
   - pasta-roller
-flavorProfile: []
 cuisines:
   - Italian
 role: base

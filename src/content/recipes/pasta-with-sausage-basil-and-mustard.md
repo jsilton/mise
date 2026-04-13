@@ -5,7 +5,6 @@ cookingMethods:
   - roast
   - simmer
   - boil
-dietary: []
 occasions:
   - weeknight
   - comfort-food
@@ -30,7 +29,6 @@ seasons:
   - winter
 nutritionalDensity: hearty
 leftovers: excellent
-equipment: []
 pairsWith:
   - everyday-arugula-salad
   - garlic-bread

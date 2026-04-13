@@ -5,8 +5,7 @@ difficulty: intermediate
 cookingMethods:
   - fry
   - simmer
-  - sauté
-dietary: []
+  - saute
 occasions:
   - weeknight
   - entertaining
@@ -24,7 +23,7 @@ seasons:
 nutritionalDensity: hearty
 leftovers: good
 advancePrep:
-  - marinate-ahead
+  - marinate-overnight
 equipment:
   - large-skillet
   - saucepan

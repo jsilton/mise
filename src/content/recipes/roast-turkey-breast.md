@@ -4,7 +4,6 @@ difficulty: easy
 cookingMethods:
   - bake
   - roast
-dietary: []
 occasions:
   - holiday
 flavorProfile:
@@ -33,7 +32,6 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
-equipment: []
 nutrition:
   calories: 70
   protein: 6

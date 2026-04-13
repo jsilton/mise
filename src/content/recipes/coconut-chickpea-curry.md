@@ -3,7 +3,7 @@ title: Coconut Chickpea Curry
 difficulty: easy
 cookingMethods:
   - bake
-  - sauté
+  - saute
   - simmer
   - boil
 dietary:
@@ -46,7 +46,6 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
-equipment: []
 nutrition:
   calories: 75
   protein: 0.5

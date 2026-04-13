@@ -2,11 +2,10 @@
 title: Rice Pilaf
 difficulty: easy
 cookingMethods:
-  - sauté
+  - saute
   - simmer
   - boil
   - steam
-dietary: []
 occasions:
   - weeknight
   - meal-prep
@@ -41,7 +40,6 @@ seasons:
   - year-round
 nutritionalDensity: light
 leftovers: good
-equipment: []
 ---
 
 ## Chef's Note

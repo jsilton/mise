@@ -7,7 +7,6 @@ cookingMethods:
   - steam
   - poach
   - no-cook
-dietary: []
 occasions:
   - entertaining
   - weekend-project
@@ -45,7 +44,6 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: poor
-equipment: []
 nutrition:
   calories: 270
   protein: 6.5

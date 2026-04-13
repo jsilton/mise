@@ -6,7 +6,6 @@ cookingMethods:
   - steam
   - braise
   - slow-cook
-dietary: []
 occasions:
   - comfort-food
 flavorProfile:
@@ -40,7 +39,6 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: excellent
-equipment: []
 nutrition:
   calories: 355
   protein: 34.5

@@ -39,7 +39,6 @@ nutritionalDensity: moderate
 leftovers: good
 advancePrep:
   - chill-dough
-equipment: []
 pairsWith:
   - apple-cider-cream-pie
   - apple-pie

@@ -3,7 +3,7 @@ title: Garlic Butter Green Beans
 origin: France
 difficulty: easy
 cookingMethods:
-  - sauté
+  - saute
 dietary:
   - vegetarian
   - gluten-free
@@ -26,7 +26,6 @@ seasons:
   - fall
 nutritionalDensity: light
 leftovers: good
-advancePrep: []
 equipment:
   - large-skillet
 prepTime: 5 min

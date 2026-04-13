@@ -2,10 +2,9 @@
 title: Yaki Udon
 difficulty: easy
 cookingMethods:
-  - sauté
+  - saute
   - boil
   - steam
-dietary: []
 occasions:
   - weeknight
   - quick-lunch
@@ -43,7 +42,6 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
-equipment: []
 nutrition:
   calories: 205
   protein: 25.5

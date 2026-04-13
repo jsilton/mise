@@ -4,7 +4,7 @@ origin: American
 difficulty: easy
 cookingMethods:
   - boil
-  - sauté
+  - saute
 dietary:
   - vegetarian
 occasions:
@@ -17,15 +17,13 @@ flavorProfile:
   - mild
 cuisines:
   - American
-  - Eastern-European
+  - Eastern European
 role: base
 vibe: comfort
 seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
-advancePrep: []
-equipment: []
 prepTime: 2 min
 cookTime: 10 min
 totalTime: 12 min

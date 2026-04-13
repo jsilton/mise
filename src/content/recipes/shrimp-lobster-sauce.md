@@ -3,10 +3,9 @@ title: Shrimp with Lobster Sauce
 difficulty: easy
 cookingMethods:
   - fry
-  - sauté
+  - saute
   - simmer
   - boil
-dietary: []
 occasions:
   - comfort-food
   - weeknight

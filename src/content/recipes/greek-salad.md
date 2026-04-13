@@ -9,8 +9,6 @@ dietary:
 occasions:
   - weeknight
   - light-and-fresh
-  - summer
-  - mediterranean
 flavorProfile:
   - acidic
   - savory
@@ -31,7 +29,6 @@ seasons:
   - year-round
 nutritionalDensity: light
 leftovers: poor
-equipment: []
 pairsWith:
   - greek-style-lamb-burgers-with-yogurt-cucumber-sauce
   - buttermilk-baked-chicken

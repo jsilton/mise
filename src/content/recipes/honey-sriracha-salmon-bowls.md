@@ -4,12 +4,11 @@ difficulty: easy
 cookingMethods:
   - steam
   - no-cook
-dietary: []
 occasions:
   - weeknight
   - quick-lunch
   - light-and-fresh
-  - post-workout
+  - snack
 flavorProfile:
   - spicy
   - sweet
@@ -27,7 +26,6 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
-equipment: []
 pairsWith:
   - basmati-rice
   - smashed-cucumber-salad

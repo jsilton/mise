@@ -5,7 +5,6 @@ cookingMethods:
   - fry
   - steam
   - slow-cook
-dietary: []
 occasions:
   - meal-prep
   - comfort-food

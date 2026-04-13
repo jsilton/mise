@@ -2,12 +2,11 @@
 title: Chicken and Wild Rice Soup
 difficulty: easy
 cookingMethods:
-  - sauté
+  - saute
   - simmer
   - boil
   - poach
   - blend
-dietary: []
 occasions:
   - comfort-food
 flavorProfile:
@@ -42,7 +41,6 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
-equipment: []
 nutrition:
   calories: 80
   protein: 14.5

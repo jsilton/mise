@@ -4,7 +4,6 @@ difficulty: intermediate
 cookingMethods:
   - bake
   - braise
-dietary: []
 occasions:
   - holiday
 flavorProfile:
@@ -39,8 +38,7 @@ seasons:
 nutritionalDensity: moderate
 leftovers: excellent
 advancePrep:
-  - chill-overnight
-equipment: []
+  - chill-to-set
 nutrition:
   calories: 40
   protein: 1

@@ -5,7 +5,6 @@ cookingMethods:
   - roast
   - slow-cook
   - blend
-dietary: []
 occasions:
   - comfort-food
 flavorProfile:
@@ -39,7 +38,6 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: excellent
-equipment: []
 nutrition:
   calories: 460
   protein: 24.5

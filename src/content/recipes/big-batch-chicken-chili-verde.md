@@ -30,11 +30,11 @@ seasons:
 nutritionalDensity: moderate
 leftovers: excellent
 advancePrep:
-  - freezer-friendly
+  - freeze-ahead
   - make-ahead
 equipment:
   - large-pot
-  - dutch-oven-optional
+  - dutch-oven
 pairsWith:
   - cilantro-lime-rice
   - cornbread

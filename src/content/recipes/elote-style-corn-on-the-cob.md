@@ -11,7 +11,6 @@ dietary:
 occasions:
   - weeknight
   - entertaining
-  - summer
 flavorProfile:
   - creamy
   - savory
@@ -27,7 +26,6 @@ seasons:
   - fall
 nutritionalDensity: moderate
 leftovers: poor
-advancePrep: []
 equipment:
   - grill
   - broiler
@@ -38,7 +36,7 @@ servings: '4'
 pairsWith:
   - chicken-tinga
   - black-bean-tacos-with-lime-crema
-  - weeknight-tacos
+  - build-your-own-taco-bar
 ingredients:
   - 4 ears Fresh Corn on the cob
   - 3 tbsp Mexican Crema (or sour cream thinned with 1 tbsp milk)

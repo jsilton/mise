@@ -4,10 +4,9 @@ difficulty: easy
 cookingMethods:
   - bake
   - roast
-  - sauté
+  - saute
   - boil
   - steam
-dietary: []
 occasions:
   - weeknight
   - meal-prep
@@ -48,7 +47,6 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
-equipment: []
 nutrition:
   calories: 150
   protein: 4

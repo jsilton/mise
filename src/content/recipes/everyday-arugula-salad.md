@@ -27,7 +27,6 @@ seasons:
   - winter
 nutritionalDensity: light
 leftovers: poor
-advancePrep: []
 equipment:
   - mixing-bowl
 pairsWith:

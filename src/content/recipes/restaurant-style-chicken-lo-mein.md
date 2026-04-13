@@ -3,12 +3,11 @@ title: Restaurant-Style Chicken Lo Mein
 difficulty: easy
 cookingMethods:
   - fry
-  - sauté
+  - saute
   - steam
-dietary: []
 occasions:
   - weeknight
-  - kids-approved
+  - kid-friendly
   - meal-prep
 flavorProfile:
   - sweet

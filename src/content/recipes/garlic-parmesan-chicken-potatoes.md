@@ -4,7 +4,6 @@ difficulty: intermediate
 cookingMethods:
   - bake
   - roast
-dietary: []
 occasions:
   - comfort-food
   - entertaining

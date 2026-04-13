@@ -10,7 +10,7 @@ dietary:
   - vegetarian
 occasions:
   - weeknight
-  - kids-approved
+  - kid-friendly
 seasons:
   - year-round
 nutritionalDensity: moderate

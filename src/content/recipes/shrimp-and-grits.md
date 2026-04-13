@@ -7,7 +7,6 @@ cookingMethods:
   - simmer
   - boil
   - no-cook
-dietary: []
 occasions:
   - comfort-food
   - entertaining
@@ -46,7 +45,6 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: poor
-equipment: []
 nutrition:
   calories: 270
   protein: 29.5

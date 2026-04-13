@@ -12,8 +12,7 @@ dietary:
 occasions:
   - entertaining
   - weekend-project
-  - indulgent
-  - summer
+  - comfort-food
 seasons:
   - summer
 nutritionalDensity: hearty

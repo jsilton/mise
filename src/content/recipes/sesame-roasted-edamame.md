@@ -23,7 +23,6 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
-advancePrep: []
 equipment:
   - baking-sheet
 prepTime: 5 min

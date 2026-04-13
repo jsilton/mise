@@ -4,7 +4,6 @@ difficulty: easy
 cookingMethods:
   - fry
   - boil
-dietary: []
 occasions:
   - weeknight
   - weekend-project

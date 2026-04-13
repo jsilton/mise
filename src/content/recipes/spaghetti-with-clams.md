@@ -2,9 +2,8 @@
 title: Spaghetti with Clams
 difficulty: intermediate
 cookingMethods:
-  - sauté
+  - saute
   - boil
-dietary: []
 occasions:
   - date-night
   - entertaining

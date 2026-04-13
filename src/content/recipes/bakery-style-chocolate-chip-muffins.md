@@ -6,7 +6,7 @@ cookingMethods:
 dietary:
   - vegetarian
 occasions:
-  - kids-approved
+  - kid-friendly
   - weekend-project
   - comfort-food
 seasons:

@@ -4,11 +4,9 @@ difficulty: intermediate
 cookingMethods:
   - roast
   - grill
-dietary: []
 occasions:
   - entertaining
   - light-and-fresh
-  - summer
 seasons:
   - summer
 nutritionalDensity: light

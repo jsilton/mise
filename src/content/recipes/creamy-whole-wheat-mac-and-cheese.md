@@ -8,7 +8,7 @@ dietary:
   - vegetarian
 occasions:
   - comfort-food
-  - kids-approved
+  - kid-friendly
 flavorProfile:
   - umami
   - rich
@@ -21,7 +21,6 @@ seasons:
   - winter
 nutritionalDensity: hearty
 leftovers: good
-advancePrep: []
 equipment:
   - dutch-oven
 prepTime: 5 min

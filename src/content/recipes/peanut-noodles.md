@@ -10,15 +10,15 @@ dietary:
 occasions:
   - weeknight
   - meal-prep
-  - kids-approved
+  - kid-friendly
 flavorProfile:
   - nutty
   - savory
   - bright
-  - spicy-optional
+  - mild
 cuisines:
   - Chinese
-  - Chinese-American
+  - American
 role: main
 vibe: quick
 prepTime: 5 min
@@ -32,7 +32,6 @@ leftovers: excellent
 equipment:
   - pot
   - small-bowl
-advancePrep: []
 pairsWith:
   - steamed-bok-choy-with-oyster-sauce
   - asian-slaw

@@ -34,6 +34,8 @@
     "estimate-nutrition": "node ./scripts/estimate-nutrition.mjs",
     "estimate-nutrition:dry": "node ./scripts/estimate-nutrition.mjs --dry-run",
     "estimate-nutrition:verbose": "node ./scripts/estimate-nutrition.mjs --dry-run --verbose",
+    "export:paprika": "node scripts/export-paprika.mjs",
+    "export:jsonld": "node scripts/export-jsonld.mjs",
     "precommit": "npm run validate-recipes && npm run lint-recipe:staged"
   },
   "dependencies": {

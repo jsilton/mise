@@ -3,9 +3,8 @@ title: Soba Noodles with Shiitakes & Tofu
 difficulty: intermediate
 cookingMethods:
   - fry
-  - sauté
+  - saute
   - boil
-dietary: []
 occasions:
   - weeknight
   - quick-lunch
@@ -41,7 +40,6 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
-equipment: []
 nutrition:
   calories: 190
   protein: 15

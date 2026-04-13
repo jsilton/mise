@@ -8,11 +8,10 @@ role: drink
 difficulty: intermediate
 cuisines:
   - American
-dietary: []
 occasions:
   - entertaining
   - date-night
-  - indulgent
+  - comfort-food
 seasons:
   - year-round
   - fall

@@ -6,7 +6,6 @@ cookingMethods:
   - roast
   - boil
   - no-cook
-dietary: []
 occasions:
   - weeknight
   - light-and-fresh
@@ -45,7 +44,6 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
-equipment: []
 nutrition:
   calories: 315
   protein: 11

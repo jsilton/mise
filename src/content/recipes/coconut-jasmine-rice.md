@@ -16,7 +16,7 @@ flavorProfile:
   - aromatic
 cuisines:
   - Thai
-  - Southeast-Asian
+  - Southeast Asian
 role: base
 vibe: quick
 prepTime: 5 min
@@ -27,7 +27,6 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: excellent
-equipment: []
 pairsWith:
   - thai-chicken-curry
   - coconut-curry-shrimp

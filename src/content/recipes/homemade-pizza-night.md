@@ -11,7 +11,7 @@ dietary:
 occasions:
   - weeknight
   - family-meal
-  - kids-friendly
+  - kid-friendly
   - entertaining
 flavorProfile:
   - savory
@@ -31,8 +31,8 @@ seasons:
 nutritionalDensity: moderate
 leftovers: good
 advancePrep:
-  - make-dough-ahead
-  - batch-prep-toppings
+  - rest-dough
+  - components-ahead
 equipment:
   - baking-sheet
   - pizza-stone-optional

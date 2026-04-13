@@ -12,12 +12,11 @@ occasions:
   - weeknight
   - quick-lunch
   - light-and-fresh
-  - post-workout
+  - snack
 seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: excellent
-equipment: []
 flavorProfile:
   - umami
   - rich

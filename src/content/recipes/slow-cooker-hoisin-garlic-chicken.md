@@ -4,7 +4,6 @@ difficulty: easy
 cookingMethods:
   - boil
   - slow-cook
-dietary: []
 occasions:
   - comfort-food
   - meal-prep

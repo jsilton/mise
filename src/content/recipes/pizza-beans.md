@@ -3,10 +3,9 @@ title: Pizza Beans
 difficulty: easy
 cookingMethods:
   - bake
-  - sauté
+  - saute
   - simmer
   - no-cook
-dietary: []
 occasions:
   - comfort-food
 flavorProfile:
@@ -40,7 +39,6 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
-equipment: []
 nutrition:
   calories: 225
   protein: 13.5

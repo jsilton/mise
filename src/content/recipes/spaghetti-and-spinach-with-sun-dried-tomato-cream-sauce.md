@@ -3,10 +3,9 @@ title: Sun-Dried Tomato Cream Spaghetti
 difficulty: intermediate
 cookingMethods:
   - roast
-  - sauté
+  - saute
   - simmer
   - boil
-dietary: []
 occasions:
   - weeknight
   - quick-lunch
@@ -27,7 +26,6 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
-equipment: []
 pairsWith:
   - vietnamese-grilled-chicken
   - garlic-butter-roasted-salmon-with-potatoes-and-asparagus

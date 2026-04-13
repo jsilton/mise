@@ -1,6 +1,6 @@
 ---
 title: Funfetti Cake
-difficulty: easy
+difficulty: intermediate
 cookingMethods:
   - bake
   - no-cook
@@ -9,8 +9,8 @@ dietary:
 occasions:
   - holiday
   - entertaining
-  - kids-approved
-  - indulgent
+  - kid-friendly
+  - comfort-food
 seasons:
   - year-round
 nutritionalDensity: hearty

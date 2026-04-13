@@ -6,7 +6,6 @@ cookingMethods:
   - roast
   - boil
   - braise
-dietary: []
 occasions:
   - holiday
 flavorProfile:
@@ -41,7 +40,6 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: excellent
-equipment: []
 nutrition:
   calories: 50
   protein: 2

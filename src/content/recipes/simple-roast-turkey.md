@@ -4,7 +4,6 @@ difficulty: easy
 cookingMethods:
   - bake
   - roast
-dietary: []
 occasions:
   - holiday
 flavorProfile:
@@ -40,7 +39,6 @@ nutritionalDensity: moderate
 leftovers: good
 advancePrep:
   - brine-overnight
-equipment: []
 nutrition:
   calories: 20
   protein: 0

@@ -6,7 +6,6 @@ cookingMethods:
   - roast
   - boil
   - broil
-dietary: []
 occasions:
   - weekend-project
   - meal-prep

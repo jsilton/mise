@@ -1,11 +1,10 @@
 ---
 title: Cantonese Shrimp and Pork Wontons
-difficulty: easy
+difficulty: intermediate
 cookingMethods:
   - roast
   - fry
   - no-cook
-dietary: []
 occasions:
   - weekend-project
   - entertaining
@@ -28,7 +27,6 @@ leftovers: excellent
 advancePrep:
   - make-ahead
   - freeze-ahead
-equipment: []
 pairsWith:
   - classic-wonton-soup
 ingredients:

@@ -33,7 +33,6 @@ nutritionalDensity: moderate
 leftovers: good
 advancePrep:
   - chill-dough
-equipment: []
 pairsWith:
   - noodle-pudding
   - apple-cider-cream-pie

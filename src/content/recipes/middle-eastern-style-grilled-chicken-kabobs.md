@@ -4,9 +4,7 @@ origin: Middle East
 difficulty: easy
 cookingMethods:
   - grill
-dietary: []
 occasions:
-  - summer
   - entertaining
 flavorProfile:
   - acidic
@@ -41,7 +39,6 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
-equipment: []
 advancePrep:
   - marinate-overnight
 nutrition:

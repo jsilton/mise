@@ -3,9 +3,8 @@ title: Chicken Piccata
 difficulty: easy
 cookingMethods:
   - roast
-  - sauté
+  - saute
   - simmer
-dietary: []
 occasions:
   - weeknight
   - date-night

@@ -5,11 +5,10 @@ aliases:
 difficulty: intermediate
 cookingMethods:
   - grill
-  - sauté
+  - saute
   - simmer
   - no-cook
   - blend
-dietary: []
 occasions:
   - comfort-food
 flavorProfile:
@@ -44,7 +43,6 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: poor
-equipment: []
 nutrition:
   calories: 585
   protein: 4

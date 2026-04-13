@@ -5,7 +5,6 @@ aliases:
 difficulty: easy
 cookingMethods:
   - fry
-dietary: []
 occasions:
   - weeknight
   - quick-lunch
@@ -46,7 +45,6 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
-equipment: []
 nutrition:
   calories: 440
   protein: 31

@@ -3,9 +3,8 @@ title: Pad Thai
 difficulty: intermediate
 cookingMethods:
   - fry
-  - sauté
+  - saute
   - boil
-dietary: []
 occasions:
   - comfort-food
 flavorProfile:
@@ -43,7 +42,6 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
-equipment: []
 nutrition:
   calories: 760
   protein: 67

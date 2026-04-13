@@ -5,11 +5,10 @@ cookingMethods:
   - bake
   - roast
   - fry
-  - sauté
+  - saute
   - simmer
   - boil
   - steam
-dietary: []
 occasions:
   - comfort-food
 flavorProfile:
@@ -50,7 +49,6 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
-equipment: []
 nutrition:
   calories: 730
   protein: 70.5

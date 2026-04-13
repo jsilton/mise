@@ -3,9 +3,8 @@ title: Spicy Thai Noodles
 origin: Thailand
 difficulty: intermediate
 cookingMethods:
-  - sauté
+  - saute
   - boil
-dietary: []
 occasions:
   - weeknight
   - quick-lunch
@@ -44,7 +43,6 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
-equipment: []
 nutrition:
   calories: 480
   protein: 28.5

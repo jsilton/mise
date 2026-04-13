@@ -4,9 +4,8 @@ origin: Thailand
 difficulty: intermediate
 cookingMethods:
   - simmer
-  - sauté
+  - saute
   - braise
-dietary: []
 occasions:
   - weeknight
   - entertaining

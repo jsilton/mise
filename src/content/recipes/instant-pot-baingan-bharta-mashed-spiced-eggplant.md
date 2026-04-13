@@ -4,7 +4,7 @@ difficulty: easy
 cookingMethods:
   - roast
   - fry
-  - sauté
+  - saute
   - boil
 dietary:
   - vegetarian
@@ -50,7 +50,6 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
-equipment: []
 nutrition:
   calories: 165
   protein: 1.5

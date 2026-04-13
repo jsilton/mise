@@ -3,7 +3,6 @@ title: Corn Casserole
 difficulty: easy
 cookingMethods:
   - bake
-dietary: []
 occasions:
   - holiday
 flavorProfile:
@@ -36,7 +35,6 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
-equipment: []
 nutrition:
   calories: 45
   protein: 2

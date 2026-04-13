@@ -2,9 +2,8 @@
 title: Lime & Honey Glazed Salmon
 difficulty: easy
 cookingMethods:
-  - sauté
+  - saute
   - simmer
-dietary: []
 occasions:
   - weeknight
   - light-and-fresh
@@ -41,7 +40,6 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
-equipment: []
 nutrition:
   calories: 190
   protein: 5.5

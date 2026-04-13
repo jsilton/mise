@@ -4,7 +4,6 @@ difficulty: easy
 cookingMethods:
   - boil
   - steam
-dietary: []
 occasions:
   - weeknight
   - meal-prep

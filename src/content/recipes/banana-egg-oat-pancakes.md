@@ -7,13 +7,12 @@ dietary:
   - vegetarian
 occasions:
   - quick-lunch
-  - post-workout
+  - snack
   - weeknight
 seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: poor
-equipment: []
 flavorProfile:
   - sweet
   - rich

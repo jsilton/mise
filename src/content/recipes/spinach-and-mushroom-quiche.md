@@ -3,7 +3,7 @@ title: Spinach & Mushroom Quiche
 difficulty: easy
 cookingMethods:
   - bake
-  - sauté
+  - saute
   - no-cook
 dietary:
   - vegetarian
@@ -42,7 +42,6 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
-equipment: []
 nutrition:
   calories: 325
   protein: 24

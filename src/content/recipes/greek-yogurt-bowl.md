@@ -25,8 +25,6 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: poor
-advancePrep: []
-equipment: []
 prepTime: 5 min
 cookTime: 0 min
 totalTime: 5 min

@@ -4,11 +4,10 @@ difficulty: easy
 cookingMethods:
   - roast
   - fry
-  - sauté
+  - saute
   - simmer
   - boil
   - steam
-dietary: []
 occasions:
   - weeknight
   - meal-prep
@@ -42,7 +41,6 @@ seasons:
   - year-round
 nutritionalDensity: light
 leftovers: good
-equipment: []
 nutrition:
   calories: 80
   protein: 2.5

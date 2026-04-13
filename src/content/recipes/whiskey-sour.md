@@ -8,10 +8,8 @@ role: drink
 difficulty: easy
 cuisines:
   - American
-dietary: []
 occasions:
   - entertaining
-  - summer
   - light-and-fresh
 seasons:
   - year-round
@@ -27,7 +25,6 @@ equipment:
   - strainer
 cookingMethods:
   - no-cook
-advancePrep: []
 pairsWith:
   - apple-cider-cream-pie
   - apple-pie

@@ -3,7 +3,7 @@ title: Lemon-Miso Tofu with Broccoli
 difficulty: easy
 cookingMethods:
   - fry
-  - sauté
+  - saute
   - simmer
 dietary:
   - vegetarian
@@ -46,7 +46,6 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
-equipment: []
 nutrition:
   calories: 350
   protein: 11

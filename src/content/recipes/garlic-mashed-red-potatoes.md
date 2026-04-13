@@ -5,7 +5,6 @@ cookingMethods:
   - simmer
   - boil
   - steam
-dietary: []
 occasions:
   - holiday
   - entertaining

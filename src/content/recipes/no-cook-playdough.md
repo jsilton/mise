@@ -7,7 +7,7 @@ cookingMethods:
 dietary:
   - vegetarian
 occasions:
-  - kids-approved
+  - kid-friendly
 seasons:
   - year-round
 nutritionalDensity: light

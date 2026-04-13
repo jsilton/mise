@@ -1,10 +1,9 @@
 ---
 title: Challah
 origin: Israel
-difficulty: easy
+difficulty: intermediate
 cookingMethods:
   - bake
-dietary: []
 occasions:
   - weekend-project
   - entertaining
@@ -36,7 +35,6 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
-equipment: []
 nutrition:
   calories: 1800
   protein: 25.5

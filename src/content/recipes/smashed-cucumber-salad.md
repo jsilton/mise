@@ -3,7 +3,6 @@ title: Smashed Cucumber Salad
 difficulty: easy
 cookingMethods:
   - no-cook
-dietary: []
 occasions:
   - weeknight
   - entertaining
@@ -28,7 +27,6 @@ seasons:
   - year-round
 nutritionalDensity: light
 leftovers: poor
-equipment: []
 pairsWith:
   - doc-cheys-chinese-lomein
   - har-gow-dim-sum-shrimp-dumplings

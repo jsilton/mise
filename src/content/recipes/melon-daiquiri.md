@@ -3,10 +3,8 @@ title: Melon Daiquiri
 difficulty: easy
 cookingMethods:
   - blend
-dietary: []
 occasions:
   - entertaining
-  - summer
 flavorProfile:
   - sweet
   - acidic
@@ -30,7 +28,6 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
-equipment: []
 pairsWith:
   - arugula-feta-salad
   - asian-slaw

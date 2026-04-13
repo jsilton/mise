@@ -31,12 +31,12 @@ seasons:
 nutritionalDensity: light
 leftovers: good
 advancePrep:
-  - crispy-wontons-ahead
-  - vegetables-ahead
+  - components-ahead
+  - prep-vegetables
 equipment:
-  - large mixing bowl
-  - small jar for dressing
-  - wok or shallow pan
+  - mixing-bowl
+  - jar
+  - wok
 prepTime: 15 min
 cookTime: 5 min
 totalTime: 20 min

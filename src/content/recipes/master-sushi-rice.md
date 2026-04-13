@@ -31,7 +31,7 @@ seasons:
 nutritionalDensity: moderate
 leftovers: poor
 advancePrep:
-  - soak-30-min
+  - overnight-soak
 equipment:
   - rice-cooker
 pairsWith:

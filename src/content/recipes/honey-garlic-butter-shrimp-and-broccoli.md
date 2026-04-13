@@ -2,9 +2,8 @@
 title: Honey Garlic Butter Shrimp & Broccoli
 difficulty: easy
 cookingMethods:
-  - sauté
+  - saute
   - simmer
-dietary: []
 occasions:
   - weeknight
   - quick-lunch

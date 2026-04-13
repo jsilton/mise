@@ -7,8 +7,7 @@ dietary:
   - vegetarian
 occasions:
   - entertaining
-  - summer
-  - indulgent
+  - comfort-food
 seasons:
   - summer
 nutritionalDensity: hearty
@@ -17,7 +16,7 @@ equipment:
   - ice-cream-maker
 advancePrep:
   - make-ahead
-  - freeze
+  - freeze-ahead
 flavorProfile:
   - sweet
   - acidic

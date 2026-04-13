@@ -4,7 +4,6 @@ difficulty: easy
 cookingMethods:
   - fry
   - simmer
-dietary: []
 occasions:
   - weeknight
   - meal-prep

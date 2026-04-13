@@ -28,7 +28,6 @@ seasons:
   - spring
 nutritionalDensity: light
 leftovers: poor
-advancePrep: []
 equipment:
   - baking-sheet
 pairsWith:

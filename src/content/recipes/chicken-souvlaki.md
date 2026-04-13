@@ -3,9 +3,7 @@ title: Chicken Souvlaki
 difficulty: easy
 cookingMethods:
   - grill
-dietary: []
 occasions:
-  - summer
   - entertaining
 flavorProfile:
   - acidic
@@ -34,7 +32,6 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
-equipment: []
 nutrition:
   calories: 500
   protein: 2

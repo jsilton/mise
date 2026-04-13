@@ -9,9 +9,7 @@ dietary:
   - gluten-free
 occasions:
   - weeknight
-  - summer
   - light-and-fresh
-  - mediterranean
 flavorProfile:
   - acidic
   - savory
@@ -29,8 +27,6 @@ seasons:
   - year-round
 nutritionalDensity: light
 leftovers: poor
-advancePrep: []
-equipment: []
 prepTime: 15 min
 cookTime: 0 min
 totalTime: 15 min

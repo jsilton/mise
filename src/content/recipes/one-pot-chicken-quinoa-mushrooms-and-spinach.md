@@ -3,10 +3,9 @@ title: 'One-Pot Chicken, Quinoa, & Mushrooms'
 difficulty: easy
 cookingMethods:
   - roast
-  - sauté
+  - saute
   - simmer
   - boil
-dietary: []
 occasions:
   - weeknight
   - meal-prep

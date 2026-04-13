@@ -5,10 +5,8 @@ cookingMethods:
   - bake
   - roast
   - no-cook
-dietary: []
 occasions:
   - weeknight
-  - summer
 flavorProfile:
   - spicy
   - sweet
@@ -43,7 +41,6 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
-equipment: []
 nutrition:
   calories: 180
   protein: 18.5

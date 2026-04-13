@@ -2,7 +2,7 @@
 title: Cream of Mushroom Soup
 difficulty: easy
 cookingMethods:
-  - sauté
+  - saute
   - simmer
   - boil
   - blend
@@ -41,7 +41,6 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
-equipment: []
 nutrition:
   calories: 445
   protein: 5.5

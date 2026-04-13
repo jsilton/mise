@@ -10,7 +10,6 @@ occasions:
   - weeknight
   - entertaining
   - meal-prep
-dietary: []
 cookingMethods:
   - roast
 flavorProfile:

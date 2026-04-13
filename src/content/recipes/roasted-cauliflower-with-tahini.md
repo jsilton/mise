@@ -11,14 +11,13 @@ dietary:
 occasions:
   - weeknight
   - light-and-fresh
-  - mediterranean
 flavorProfile:
   - savory
   - nutty
   - earthy
   - acidic
 cuisines:
-  - Middle-Eastern
+  - Middle Eastern
   - Mediterranean
 role: side
 vibe: nutritious
@@ -29,7 +28,7 @@ seasons:
 nutritionalDensity: moderate
 leftovers: good
 advancePrep:
-  - tahini-sauce-up-to-3-days
+  - make-ahead-sauce
 equipment:
   - sheet-pan
 prepTime: 10 min

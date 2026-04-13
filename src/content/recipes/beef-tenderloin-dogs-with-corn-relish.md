@@ -6,10 +6,8 @@ cookingMethods:
   - roast
   - grill
   - no-cook
-dietary: []
 occasions:
   - entertaining
-  - summer
   - weekend-project
 seasons:
   - summer

@@ -3,14 +3,12 @@ title: Seared Scallops with Corn & Avocado Relish
 difficulty: easy
 cookingMethods:
   - roast
-  - sauté
+  - saute
   - no-cook
-dietary: []
 occasions:
   - date-night
   - entertaining
-  - indulgent
-  - summer
+  - comfort-food
 seasons:
   - summer
 nutritionalDensity: moderate

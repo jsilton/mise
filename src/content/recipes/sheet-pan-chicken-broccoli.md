@@ -4,11 +4,10 @@ difficulty: easy
 cookingMethods:
   - bake
   - roast
-dietary: []
 occasions:
   - weeknight
   - comfort-food
-  - kids-approved
+  - kid-friendly
   - meal-prep
 seasons:
   - year-round

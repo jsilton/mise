@@ -4,7 +4,6 @@ difficulty: easy
 cookingMethods:
   - roast
   - no-cook
-dietary: []
 occasions:
   - light-and-fresh
   - quick-lunch
@@ -43,7 +42,6 @@ origin: Mediterranean
 seasons:
   - year-round
 nutritionalDensity: moderate
-equipment: []
 nutrition:
   calories: 70
   protein: 1.5

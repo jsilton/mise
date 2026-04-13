@@ -5,9 +5,7 @@ difficulty: easy
 cookingMethods:
   - grill
   - no-cook
-dietary: []
 occasions:
-  - summer
   - light-and-fresh
 flavorProfile:
   - spicy
@@ -45,7 +43,6 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: poor
-equipment: []
 advancePrep:
   - marinate-overnight
 nutrition:

@@ -4,9 +4,7 @@ origin: Vietnam
 difficulty: easy
 cookingMethods:
   - grill
-dietary: []
 occasions:
-  - summer
   - light-and-fresh
 flavorProfile:
   - spicy
@@ -38,7 +36,6 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
-equipment: []
 advancePrep:
   - marinate-overnight
 nutrition:

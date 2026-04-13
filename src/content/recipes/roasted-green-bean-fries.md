@@ -7,9 +7,8 @@ cookingMethods:
   - fry
   - boil
   - steam
-dietary: []
 occasions:
-  - kids-approved
+  - kid-friendly
 flavorProfile:
   - acidic
   - umami
@@ -36,7 +35,6 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
-equipment: []
 nutrition:
   calories: 40
   protein: 0.5

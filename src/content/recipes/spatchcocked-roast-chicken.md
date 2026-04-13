@@ -4,7 +4,6 @@ origin: Italy / France
 difficulty: intermediate
 cookingMethods:
   - roast
-  - rest
 dietary:
   - gluten-free
   - dairy-free
@@ -33,7 +32,7 @@ nutritionalDensity: hearty
 leftovers: excellent
 advancePrep:
   - season-ahead
-  - spatchcock-ahead
+  - components-ahead
 equipment:
   - sheet-pan
   - instant-read-thermometer

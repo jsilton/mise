@@ -2,10 +2,9 @@
 title: Instant Pot Potato Leek Soup
 difficulty: easy
 cookingMethods:
-  - sauté
+  - saute
   - steam
   - blend
-dietary: []
 occasions:
   - comfort-food
 flavorProfile:
@@ -41,7 +40,6 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
-equipment: []
 nutrition:
   calories: 320
   protein: 7

@@ -1,6 +1,6 @@
 ---
 title: Heirloom Tomato & Pesto Galette
-difficulty: easy
+difficulty: intermediate
 cookingMethods:
   - bake
   - roast
@@ -13,7 +13,6 @@ occasions:
   - entertaining
   - weekend-project
   - potluck
-  - summer
 flavorProfile:
   - spicy
   - sweet
@@ -32,8 +31,7 @@ seasons:
 nutritionalDensity: moderate
 leftovers: good
 advancePrep:
-  - make-ahead-crust
-equipment: []
+  - make-ahead
 pairsWith:
   - everyday-arugula-salad
 ingredients:

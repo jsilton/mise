@@ -28,13 +28,12 @@ difficulty: easy
 cookingMethods:
   - bake
   - roast
-  - sauté
+  - saute
   - simmer
   - boil
-dietary: []
 occasions:
   - comfort-food
-  - kids-approved
+  - kid-friendly
 flavorProfile:
   - spicy
   - sweet
@@ -50,7 +49,6 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
-equipment: []
 nutrition:
   calories: 80
   protein: 2

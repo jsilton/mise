@@ -27,8 +27,6 @@ seasons:
   - summer
 nutritionalDensity: light
 leftovers: poor
-advancePrep: []
-equipment: []
 pairsWith:
   - char-siu
   - bibimbap

@@ -9,7 +9,7 @@ dietary:
   - vegetarian
 occasions:
   - weeknight
-  - kids-approved
+  - kid-friendly
   - comfort-food
 seasons:
   - year-round

@@ -3,11 +3,10 @@ title: Noodles with Green Beans
 difficulty: intermediate
 cookingMethods:
   - fry
-  - sauté
+  - saute
   - boil
   - steam
   - braise
-dietary: []
 occasions:
   - comfort-food
   - weeknight

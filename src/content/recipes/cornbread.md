@@ -28,7 +28,6 @@ seasons:
   - winter
 nutritionalDensity: moderate
 leftovers: good
-advancePrep: []
 equipment:
   - baking-dish
   - mixing-bowl

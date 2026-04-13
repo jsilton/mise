@@ -3,11 +3,10 @@ title: Chinese Chicken
 difficulty: easy
 cookingMethods:
   - fry
-  - sauté
+  - saute
   - simmer
   - boil
   - steam
-dietary: []
 occasions:
   - weeknight
   - meal-prep

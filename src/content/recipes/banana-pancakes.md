@@ -3,7 +3,7 @@ title: Banana Pancakes
 origin: United States
 difficulty: easy
 cookingMethods:
-  - sauté
+  - saute
 dietary:
   - vegetarian
 occasions:
@@ -22,7 +22,7 @@ seasons:
 nutritionalDensity: hearty
 leftovers: good
 advancePrep:
-  - freezer-friendly
+  - freeze-ahead
 equipment:
   - griddle
   - mixing-bowl

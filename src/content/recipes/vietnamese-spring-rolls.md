@@ -27,8 +27,8 @@ leftovers: poor
 advancePrep:
   - components-ahead
 equipment:
-  - large bowl
-  - medium saucepan
+  - large-bowl
+  - medium-saucepan
 prepTime: 30 min
 cookTime: 10 min
 totalTime: 40 min

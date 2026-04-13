@@ -4,7 +4,6 @@ difficulty: intermediate
 cookingMethods:
   - boil
   - no-cook
-dietary: []
 occasions:
   - weekend-project
   - comfort-food
@@ -28,7 +27,6 @@ leftovers: good
 advancePrep:
   - make-ahead
   - freeze-ahead
-equipment: []
 pairsWith:
   - steamed-bok-choy-with-oyster-sauce
   - smashed-cucumber-salad

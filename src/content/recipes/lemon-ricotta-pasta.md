@@ -6,7 +6,6 @@ difficulty: easy
 cookingMethods:
   - roast
   - boil
-dietary: []
 occasions:
   - weeknight
   - quick-lunch
@@ -30,7 +29,6 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
-equipment: []
 pairsWith:
   - everyday-arugula-salad
   - roasted-root-vegetables

@@ -8,11 +8,10 @@ role: drink
 difficulty: easy
 cuisines:
   - American
-dietary: []
 occasions:
   - entertaining
   - date-night
-  - indulgent
+  - comfort-food
 seasons:
   - year-round
 flavorProfile:
@@ -26,7 +25,6 @@ equipment:
   - strainer
 cookingMethods:
   - no-cook
-advancePrep: []
 pairsWith:
   - marinated-korean-ribeye
 ingredients:

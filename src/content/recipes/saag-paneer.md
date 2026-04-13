@@ -3,8 +3,7 @@ title: Saag Paneer
 difficulty: easy
 cookingMethods:
   - fry
-  - sauté
-dietary: []
+  - saute
 occasions:
   - comfort-food
 flavorProfile:
@@ -40,7 +39,6 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
-equipment: []
 nutrition:
   calories: 420
   protein: 16

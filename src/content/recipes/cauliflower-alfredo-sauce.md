@@ -3,7 +3,7 @@ title: Cauliflower Alfredo
 difficulty: intermediate
 cookingMethods:
   - roast
-  - sauté
+  - saute
   - simmer
   - boil
   - blend
@@ -12,7 +12,7 @@ dietary:
 occasions:
   - weeknight
   - quick-lunch
-  - post-workout
+  - snack
 flavorProfile:
   - umami
   - rich

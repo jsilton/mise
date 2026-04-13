@@ -9,7 +9,7 @@ dietary:
 occasions:
   - weeknight
   - quick-lunch
-  - post-workout
+  - snack
 seasons:
   - year-round
 nutritionalDensity: moderate

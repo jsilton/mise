@@ -3,8 +3,7 @@ title: Lemon Basil Shrimp Risotto
 difficulty: easy
 cookingMethods:
   - roast
-  - sauté
-dietary: []
+  - saute
 occasions:
   - date-night
   - entertaining
@@ -28,7 +27,6 @@ seasons:
   - year-round
 nutritionalDensity: hearty
 leftovers: poor
-equipment: []
 pairsWith:
   - everyday-arugula-salad
   - roasted-asparagus

@@ -12,7 +12,7 @@ occasions:
   - entertaining
 flavorProfile:
   - savory
-  - slightly-sweet
+  - sweet
   - umami
 cuisines:
   - Japanese
@@ -23,7 +23,7 @@ seasons:
 nutritionalDensity: moderate
 leftovers: good
 advancePrep:
-  - prep-ingredients-before-cooking
+  - prep-vegetables
 equipment:
   - large-skillet
   - wok

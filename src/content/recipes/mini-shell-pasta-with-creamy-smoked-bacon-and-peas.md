@@ -4,7 +4,6 @@ difficulty: intermediate
 cookingMethods:
   - fry
   - boil
-dietary: []
 occasions:
   - weeknight
   - quick-lunch
@@ -27,7 +26,6 @@ seasons:
   - spring
 nutritionalDensity: hearty
 leftovers: excellent
-equipment: []
 pairsWith:
   - everyday-arugula-salad
   - garlic-bread

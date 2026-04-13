@@ -3,7 +3,7 @@ title: Garlic Sauteed Green Beans
 origin: United States
 difficulty: easy
 cookingMethods:
-  - sauté
+  - saute
 dietary:
   - vegetarian
   - vegan
@@ -27,7 +27,6 @@ seasons:
   - year-round
 nutritionalDensity: light
 leftovers: good
-advancePrep: []
 equipment:
   - skillet
 pairsWith:

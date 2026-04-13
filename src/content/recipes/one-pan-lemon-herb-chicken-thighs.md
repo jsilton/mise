@@ -13,7 +13,7 @@ occasions:
 flavorProfile:
   - bright
   - savory
-  - herby
+  - herbaceous
 cuisines:
   - Mediterranean
   - Italian
@@ -29,7 +29,6 @@ nutritionalDensity: moderate
 leftovers: excellent
 equipment:
   - sheet-pan
-advancePrep: []
 pairsWith:
   - cilantro-lime-rice
   - basmati-rice

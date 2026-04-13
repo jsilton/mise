@@ -4,7 +4,6 @@ difficulty: easy
 cookingMethods:
   - slow-cook
   - no-cook
-dietary: []
 occasions:
   - comfort-food
 flavorProfile:
@@ -43,7 +42,6 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: excellent
-equipment: []
 nutrition:
   calories: 380
   protein: 34

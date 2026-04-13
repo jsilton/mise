@@ -3,8 +3,7 @@ title: Queso Fundido with Chorizo
 difficulty: easy
 cookingMethods:
   - bake
-  - sauté
-dietary: []
+  - saute
 occasions:
   - entertaining
   - game-day

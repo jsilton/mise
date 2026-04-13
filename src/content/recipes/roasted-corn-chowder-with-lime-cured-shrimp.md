@@ -4,11 +4,10 @@ difficulty: easy
 cookingMethods:
   - bake
   - roast
-  - sauté
+  - saute
   - simmer
   - boil
   - blend
-dietary: []
 occasions:
   - comfort-food
 flavorProfile:
@@ -44,7 +43,6 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
-equipment: []
 nutrition:
   calories: 530
   protein: 52.5

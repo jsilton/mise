@@ -31,7 +31,7 @@ advancePrep:
   - make-ahead
   - freeze-ahead
 equipment:
-  - large heavy-bottomed pot or dutch oven
+  - dutch-oven
 prepTime: 15 min
 cookTime: 45 min
 totalTime: 60 min

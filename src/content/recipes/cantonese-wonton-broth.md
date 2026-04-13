@@ -5,7 +5,6 @@ cookingMethods:
   - roast
   - simmer
   - boil
-dietary: []
 occasions:
   - comfort-food
   - weeknight
@@ -28,7 +27,6 @@ nutritionalDensity: light
 leftovers: excellent
 advancePrep:
   - make-ahead
-equipment: []
 pairsWith:
   - cantonese-shrimp-and-pork-wontons
   - pad-thai

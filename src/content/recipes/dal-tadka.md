@@ -34,8 +34,8 @@ advancePrep:
   - make-ahead
   - freeze-ahead
 equipment:
-  - medium saucepan
-  - small skillet
+  - medium-saucepan
+  - skillet
 prepTime: 10 min
 cookTime: 35 min
 totalTime: 45 min

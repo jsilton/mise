@@ -30,12 +30,11 @@ seasons:
 nutritionalDensity: hearty
 leftovers: excellent
 advancePrep:
-  - freezer-friendly
+  - freeze-ahead
   - make-ahead
-  - improves-overnight
 equipment:
   - large-pot
-  - dutch-oven-optional
+  - dutch-oven
 pairsWith:
   - garlic-bread
   - everyday-arugula-salad

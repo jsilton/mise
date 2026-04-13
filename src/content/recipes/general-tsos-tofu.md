@@ -3,7 +3,7 @@ title: General Tso's Tofu
 difficulty: easy
 cookingMethods:
   - fry
-  - sauté
+  - saute
   - simmer
   - boil
 dietary:

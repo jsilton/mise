@@ -3,10 +3,8 @@ title: Guacamole
 difficulty: intermediate
 cookingMethods:
   - no-cook
-dietary: []
 occasions:
   - entertaining
-  - summer
 flavorProfile:
   - spicy
   - sweet
@@ -38,7 +36,6 @@ seasons:
   - year-round
 nutritionalDensity: light
 leftovers: good
-equipment: []
 ---
 
 ## Chef's Note

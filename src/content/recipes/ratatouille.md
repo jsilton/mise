@@ -4,7 +4,7 @@ difficulty: intermediate
 cookingMethods:
   - bake
   - roast
-  - sauté
+  - saute
   - simmer
 dietary:
   - vegetarian
@@ -43,7 +43,6 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
-equipment: []
 nutrition:
   calories: 65
   protein: 2.5

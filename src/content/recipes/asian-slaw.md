@@ -11,7 +11,6 @@ occasions:
   - weeknight
   - bbq
   - potluck
-  - summer
 flavorProfile:
   - acidic
   - sweet
@@ -19,7 +18,7 @@ flavorProfile:
   - umami
   - fresh
 cuisines:
-  - Asian-Fusion
+  - Asian
   - Chinese
   - Japanese
 role: side
@@ -31,9 +30,8 @@ seasons:
 nutritionalDensity: light
 leftovers: good
 advancePrep:
-  - dressing-up-to-5-days
-  - shred-veg-up-to-1-day
-equipment: []
+  - dressing-ahead
+  - prep-vegetables
 prepTime: 15 min
 cookTime: 0 min
 totalTime: 15 min

@@ -3,11 +3,10 @@ title: Curried Carrot and Apple Soup
 difficulty: easy
 cookingMethods:
   - roast
-  - sauté
+  - saute
   - simmer
   - boil
   - blend
-dietary: []
 occasions:
   - comfort-food
 flavorProfile:
@@ -47,7 +46,6 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
-equipment: []
 nutrition:
   calories: 95
   protein: 1.5

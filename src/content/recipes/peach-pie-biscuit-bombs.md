@@ -7,8 +7,7 @@ dietary:
   - vegetarian
 occasions:
   - entertaining
-  - summer
-  - kids-approved
+  - kid-friendly
 seasons:
   - summer
 nutritionalDensity: hearty

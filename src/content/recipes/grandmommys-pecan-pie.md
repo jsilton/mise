@@ -32,7 +32,6 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
-equipment: []
 pairsWith:
   - banana-pudding
   - grandmommys-pound-cake

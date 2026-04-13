@@ -8,7 +8,7 @@ cookingMethods:
 dietary:
   - vegetarian
 occasions:
-  - kids-approved
+  - kid-friendly
 flavorProfile:
   - sweet
 cuisines:
@@ -31,7 +31,6 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
-equipment: []
 pairsWith:
   - almond-zucchini-bread
   - apple-chai-oatmeal-cups

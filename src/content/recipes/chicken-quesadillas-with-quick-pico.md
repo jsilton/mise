@@ -3,13 +3,13 @@ title: Chicken Quesadillas with Quick Pico
 origin: Mexico
 difficulty: easy
 cookingMethods:
-  - sauté
+  - saute
   - griddle
 dietary:
   - vegetarian-option
 occasions:
   - weeknight
-  - kids-approved
+  - kid-friendly
   - entertaining
 flavorProfile:
   - savory
@@ -30,7 +30,6 @@ leftovers: good
 equipment:
   - skillet
   - cutting-board
-advancePrep: []
 pairsWith:
   - black-bean-tacos-with-lime-crema
   - cilantro-lime-rice

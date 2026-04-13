@@ -31,7 +31,6 @@ seasons:
   - spring
 nutritionalDensity: moderate
 leftovers: good
-advancePrep: []
 equipment:
   - baking-sheet
 pairsWith:

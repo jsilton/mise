@@ -27,7 +27,6 @@ seasons:
   - year-round
 nutritionalDensity: light
 leftovers: good
-equipment: []
 pairsWith:
   - miso-salmon-with-bok-choy
   - honey-sriracha-salmon-bowls

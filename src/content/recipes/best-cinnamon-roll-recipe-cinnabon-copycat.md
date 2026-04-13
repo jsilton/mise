@@ -1,20 +1,18 @@
 ---
 title: Cinnamon Rolls
-difficulty: easy
+difficulty: intermediate
 cookingMethods:
   - bake
 dietary:
   - vegetarian
 occasions:
   - weekend-project
-  - indulgent
-  - holiday
   - comfort-food
+  - holiday
 seasons:
   - year-round
 nutritionalDensity: hearty
 leftovers: good
-equipment: []
 flavorProfile:
   - sweet
   - rich

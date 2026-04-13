@@ -3,7 +3,6 @@ title: Seasoned Black Beans
 difficulty: easy
 cookingMethods:
   - simmer
-dietary: []
 occasions:
   - weeknight
   - quick-lunch
@@ -36,7 +35,6 @@ ingredients:
   - 1 tbsp Lime Juice
   - Salt and Pepper to taste
 origin: Mexico
-equipment: []
 nutrition:
   calories: 40
   protein: 0.5

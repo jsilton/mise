@@ -4,7 +4,7 @@ origin: Japan
 difficulty: easy
 cookingMethods:
   - simmer
-  - sauté
+  - saute
 dietary:
   - gluten-free-option
 occasions:
@@ -28,7 +28,6 @@ leftovers: good
 equipment:
   - skillet
   - cutting-board
-advancePrep: []
 pairsWith:
   - basmati-rice
   - coconut-jasmine-rice

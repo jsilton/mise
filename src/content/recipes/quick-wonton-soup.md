@@ -5,7 +5,6 @@ difficulty: easy
 cookingMethods:
   - simmer
   - boil
-dietary: []
 occasions:
   - weeknight
   - quick-lunch
@@ -26,7 +25,6 @@ seasons:
   - winter
 nutritionalDensity: moderate
 leftovers: good
-equipment: []
 pairsWith:
   - smashed-cucumber-salad
   - steamed-broccoli

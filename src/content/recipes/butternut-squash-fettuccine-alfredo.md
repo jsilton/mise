@@ -6,7 +6,6 @@ cookingMethods:
   - roast
   - boil
   - blend
-dietary: []
 occasions:
   - comfort-food
 flavorProfile:
@@ -42,7 +41,6 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
-equipment: []
 nutrition:
   calories: 1225
   protein: 3.5

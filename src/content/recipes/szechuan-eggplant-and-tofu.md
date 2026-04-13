@@ -4,10 +4,9 @@ origin: China
 difficulty: easy
 cookingMethods:
   - fry
-  - sauté
+  - saute
   - simmer
   - steam
-dietary: []
 occasions:
   - weeknight
   - meal-prep

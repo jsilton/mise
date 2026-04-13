@@ -9,8 +9,8 @@ dietary:
 occasions:
   - holiday
   - entertaining
-  - kids-approved
-  - indulgent
+  - kid-friendly
+  - comfort-food
 seasons:
   - year-round
 nutritionalDensity: hearty

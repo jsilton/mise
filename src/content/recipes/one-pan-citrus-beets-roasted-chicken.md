@@ -4,7 +4,6 @@ difficulty: intermediate
 cookingMethods:
   - bake
   - roast
-dietary: []
 occasions:
   - weeknight
   - date-night

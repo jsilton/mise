@@ -3,13 +3,12 @@ title: Chicken Tinga
 origin: Mexico
 difficulty: easy
 cookingMethods:
-  - sauté
+  - saute
   - simmer
   - poach
   - blend
-dietary: []
 occasions:
-  - kids-approved
+  - kid-friendly
 flavorProfile:
   - savory
   - acidic
@@ -38,7 +37,6 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
-equipment: []
 nutrition:
   calories: 25
   protein: 2

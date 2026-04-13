@@ -36,7 +36,6 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
-equipment: []
 pairsWith:
   - apple-cider-cream-pie
   - apple-pie

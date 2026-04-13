@@ -5,9 +5,8 @@ cookingMethods:
   - bake
   - roast
   - fry
-  - sauté
+  - saute
   - simmer
-dietary: []
 occasions:
   - weeknight
   - comfort-food
@@ -42,7 +41,6 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
-equipment: []
 nutrition:
   calories: 160
   protein: 7.5

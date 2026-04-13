@@ -5,7 +5,6 @@ cookingMethods:
   - bake
   - steam
   - blend
-dietary: []
 occasions:
   - weeknight
   - quick-lunch
@@ -36,7 +35,6 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
-equipment: []
 nutrition:
   calories: 95
   protein: 3.5

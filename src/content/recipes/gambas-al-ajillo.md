@@ -32,8 +32,8 @@ leftovers: poor
 advancePrep:
   - components-ahead
 equipment:
-  - cast-iron skillet or cazuela
-  - small bowl
+  - cast-iron-skillet
+  - small-bowl
 prepTime: 10 min
 cookTime: 8 min
 totalTime: 18 min

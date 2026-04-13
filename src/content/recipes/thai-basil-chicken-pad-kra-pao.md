@@ -4,7 +4,7 @@ origin: Thailand
 difficulty: easy
 cookingMethods:
   - stir-fry
-  - sauté
+  - saute
 dietary:
   - gluten-free-option
 occasions:
@@ -30,7 +30,7 @@ equipment:
   - wok
   - large-skillet
 advancePrep:
-  - prep-ingredients-before-cooking
+  - prep-vegetables
 pairsWith:
   - basmati-rice
   - coconut-jasmine-rice

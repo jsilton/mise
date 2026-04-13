@@ -4,7 +4,6 @@ difficulty: easy
 cookingMethods:
   - fry
   - steam
-dietary: []
 occasions:
   - weeknight
   - meal-prep
@@ -28,7 +27,6 @@ nutritionalDensity: light
 leftovers: excellent
 advancePrep:
   - make-ahead
-equipment: []
 pairsWith:
   - pad-thai
   - roasted-root-vegetables

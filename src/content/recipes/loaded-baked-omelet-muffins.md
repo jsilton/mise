@@ -4,11 +4,10 @@ difficulty: easy
 cookingMethods:
   - bake
   - no-cook
-dietary: []
 occasions:
   - meal-prep
   - quick-lunch
-  - post-workout
+  - snack
 seasons:
   - year-round
 nutritionalDensity: moderate

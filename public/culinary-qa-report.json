@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-12T20:53:40.969Z",
+  "timestamp": "2026-04-13T12:41:43.848Z",
   "recipesScanned": 599,
   "summary": {
     "ratioSanity": 45,
@@ -7,8 +7,9 @@
     "techniqueConsistency": 61,
     "duplicates": 23,
     "contentQuality": 583,
-    "metadataConsistency": 36,
-    "totalIssues": 772
+    "metadataConsistency": 11,
+    "pairsWithValidation": 15,
+    "totalIssues": 762
   },
   "issues": {
     "ratioSanity": [
@@ -3324,7 +3325,7 @@
         "severity": "warning",
         "recipe": "Queso Fundido with Chorizo",
         "file": "queso-fundido-with-chorizo.md",
-        "message": "Chef's Note is only 73 characters (should be ~150-200). Too brief to explain technique or context."
+        "message": "Chef's Note is only 75 characters (should be ~150-200). Too brief to explain technique or context."
       },
       {
         "severity": "warning",
@@ -3948,7 +3949,7 @@
         "severity": "warning",
         "recipe": "Steamed Edamame",
         "file": "steamed-edamame.md",
-        "message": "Chef's Note is only 48 characters (should be ~150-200). Too brief to explain technique or context."
+        "message": "Chef's Note is only 50 characters (should be ~150-200). Too brief to explain technique or context."
       },
       {
         "severity": "warning",
@@ -4440,32 +4441,8 @@
     "metadataConsistency": [
       {
         "severity": "info",
-        "recipe": "Arugula & Feta Salad with Strawberry Vinaigrette",
-        "file": "arugula-feta-salad.md",
-        "message": "cookingMethods includes \"grill\" but equipment does not. Add grill to equipment list."
-      },
-      {
-        "severity": "info",
-        "recipe": "Chicken Souvlaki",
-        "file": "chicken-souvlaki.md",
-        "message": "cookingMethods includes \"grill\" but equipment does not. Add grill to equipment list."
-      },
-      {
-        "severity": "info",
-        "recipe": "Chicken Thigh Kebabs with Chile-Yogurt Sauce",
-        "file": "chicken-thigh-kebabs-with-chile-yogurt-sauce.md",
-        "message": "cookingMethods includes \"grill\" but equipment does not. Add grill to equipment list."
-      },
-      {
-        "severity": "info",
         "recipe": "Avocado Pasta",
         "file": "creamy-avocado-pasta.md",
-        "message": "cookingMethods includes \"grill\" but equipment does not. Add grill to equipment list."
-      },
-      {
-        "severity": "info",
-        "recipe": "Custard Macaroni and Pimento Cheese",
-        "file": "custard-mac-and-pimento-cheese.md",
         "message": "cookingMethods includes \"grill\" but equipment does not. Add grill to equipment list."
       },
       {
@@ -4476,62 +4453,8 @@
       },
       {
         "severity": "info",
-        "recipe": "Toum",
-        "file": "garlic-paste-toum-the-washington-post.md",
-        "message": "cookingMethods includes \"grill\" but equipment does not. Add grill to equipment list."
-      },
-      {
-        "severity": "info",
         "recipe": "Grapefruit-Basil Gin Fizz",
         "file": "grapefruit-basil-gin-fizz.md",
-        "message": "cookingMethods includes \"grill\" but equipment does not. Add grill to equipment list."
-      },
-      {
-        "severity": "info",
-        "recipe": "Greek-Style Lamb Burgers",
-        "file": "greek-style-lamb-burgers-with-yogurt-cucumber-sauce.md",
-        "message": "cookingMethods includes \"grill\" but equipment does not. Add grill to equipment list."
-      },
-      {
-        "severity": "info",
-        "recipe": "Grilled Cheese and Tomato Soup",
-        "file": "grilled-cheese-and-tomato-soup.md",
-        "message": "cookingMethods includes \"grill\" but equipment does not. Add grill to equipment list."
-      },
-      {
-        "severity": "info",
-        "recipe": "Chicken with Herbed Corn Salsa",
-        "file": "grilled-chicken-with-herbed-corn-salsa.md",
-        "message": "cookingMethods includes \"grill\" but equipment does not. Add grill to equipment list."
-      },
-      {
-        "severity": "info",
-        "recipe": "Banh Mi",
-        "file": "grilled-pork-banh-mi.md",
-        "message": "cookingMethods includes \"grill\" but equipment does not. Add grill to equipment list."
-      },
-      {
-        "severity": "info",
-        "recipe": "Honey Chipotle Lime Chicken Bowls",
-        "file": "honey-chipotle-lime-chicken-bowls.md",
-        "message": "cookingMethods includes \"grill\" but equipment does not. Add grill to equipment list."
-      },
-      {
-        "severity": "info",
-        "recipe": "Instant Pot Butternut Squash Soup",
-        "file": "instant-pot-butternut-squash-soup.md",
-        "message": "cookingMethods includes \"grill\" but equipment does not. Add grill to equipment list."
-      },
-      {
-        "severity": "info",
-        "recipe": "Kalbi",
-        "file": "kalbi-grilled-korean-style-short-ribs.md",
-        "message": "cookingMethods includes \"grill\" but equipment does not. Add grill to equipment list."
-      },
-      {
-        "severity": "info",
-        "recipe": "Kale Salad with Mango, Avocado and Feta",
-        "file": "kale-salad-with-mango-avocado-and-feta.md",
         "message": "cookingMethods includes \"grill\" but equipment does not. Add grill to equipment list."
       },
       {
@@ -4541,52 +4464,16 @@
         "message": "dietary includes \"vegetarian\" but ingredients contain meat."
       },
       {
-        "severity": "info",
-        "recipe": "Oi Muchim",
-        "file": "korean-pickled-cucumbers.md",
-        "message": "cookingMethods includes \"grill\" but equipment does not. Add grill to equipment list."
-      },
-      {
-        "severity": "info",
-        "recipe": "Mediterranean Chicken Bowls",
-        "file": "mediterranean-chicken-bowls.md",
-        "message": "cookingMethods includes \"grill\" but equipment does not. Add grill to equipment list."
-      },
-      {
         "severity": "error",
         "recipe": "Mediterranean Grain Salad",
         "file": "mediterranean-grain-salad.md",
         "message": "dietary includes \"gluten-free\" but ingredients contain gluten. Mark as \"contains gluten\" or remove tag."
       },
       {
-        "severity": "info",
-        "recipe": "Esquites",
-        "file": "mexican-street-corn-salad.md",
-        "message": "cookingMethods includes \"grill\" but equipment does not. Add grill to equipment list."
-      },
-      {
-        "severity": "info",
-        "recipe": "Chicken Kabobs",
-        "file": "middle-eastern-style-grilled-chicken-kabobs.md",
-        "message": "cookingMethods includes \"grill\" but equipment does not. Add grill to equipment list."
-      },
-      {
         "severity": "error",
         "recipe": "Parmigiano Reggiano Cheesecake",
         "file": "parmigiano-reggiano-cheesecake.md",
         "message": "dietary includes \"vegetarian\" but ingredients contain meat."
-      },
-      {
-        "severity": "info",
-        "recipe": "Peach Salad with Tomatoes & Beets",
-        "file": "peach-salad-with-tomatoes-and-beets.md",
-        "message": "cookingMethods includes \"grill\" but equipment does not. Add grill to equipment list."
-      },
-      {
-        "severity": "info",
-        "recipe": "Do Chua",
-        "file": "quick-pickled-carrots-and-daikon.md",
-        "message": "cookingMethods includes \"grill\" but equipment does not. Add grill to equipment list."
       },
       {
         "severity": "info",
@@ -4602,32 +4489,8 @@
       },
       {
         "severity": "info",
-        "recipe": "Tomato Basil Soup",
-        "file": "roasted-tomato-basil-soup.md",
-        "message": "cookingMethods includes \"grill\" but equipment does not. Add grill to equipment list."
-      },
-      {
-        "severity": "info",
-        "recipe": "Slow Cooker Chicken Noodle Soup",
-        "file": "slow-cooker-chicken-noodle-soup.md",
-        "message": "cookingMethods includes \"grill\" but equipment does not. Add grill to equipment list."
-      },
-      {
-        "severity": "info",
         "recipe": "Peach and Avocado Salad",
         "file": "spicy-peach-and-avocado-salad.md",
-        "message": "cookingMethods includes \"grill\" but equipment does not. Add grill to equipment list."
-      },
-      {
-        "severity": "info",
-        "recipe": "Sweet and Spicy Spareribs",
-        "file": "sweet-and-spicy-spareribs-with-korean-barbecue-sauce.md",
-        "message": "cookingMethods includes \"grill\" but equipment does not. Add grill to equipment list."
-      },
-      {
-        "severity": "info",
-        "recipe": "Tomato Soup",
-        "file": "tomato-soup.md",
         "message": "cookingMethods includes \"grill\" but equipment does not. Add grill to equipment list."
       },
       {
@@ -4638,21 +4501,101 @@
       },
       {
         "severity": "info",
-        "recipe": "Chicken",
-        "file": "vietnamese-grilled-chicken.md",
-        "message": "cookingMethods includes \"grill\" but equipment does not. Add grill to equipment list."
-      },
-      {
-        "severity": "info",
         "recipe": "Veggie Salad",
         "file": "warm-roasted-veggie-salad-with-maple-dijon-vinaigrette.md",
         "message": "cookingMethods includes \"grill\" but equipment does not. Add grill to equipment list."
+      }
+    ],
+    "pairsWithValidation": [
+      {
+        "severity": "warning",
+        "recipe": "Chimichurri",
+        "file": "chimichurri.md",
+        "message": "Orphaned condiment recipe — not referenced by any other recipe's pairsWith."
       },
       {
-        "severity": "info",
-        "recipe": "Spiced Butternut Squash Soup",
-        "file": "warm-spiced-butternut-squash-soup.md",
-        "message": "cookingMethods includes \"grill\" but equipment does not. Add grill to equipment list."
+        "severity": "warning",
+        "recipe": "Strawberry Vinaigrette",
+        "file": "fresh-strawberry-vinaigrette-salad-dressing.md",
+        "message": "Orphaned base recipe — not referenced by any other recipe's pairsWith."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Wonton Wrappers",
+        "file": "fresh-wonton-wrappers.md",
+        "message": "Orphaned base recipe — not referenced by any other recipe's pairsWith."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Homemade Chili Oil",
+        "file": "homemade-chili-oil.md",
+        "message": "Orphaned condiment recipe — not referenced by any other recipe's pairsWith."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Japanese Short-Grain Rice (Gohan)",
+        "file": "japanese-short-grain-rice-gohan.md",
+        "message": "Orphaned base recipe — not referenced by any other recipe's pairsWith."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Arroz Rojo",
+        "file": "mexican-red-rice.md",
+        "message": "Orphaned base recipe — not referenced by any other recipe's pairsWith."
+      },
+      {
+        "severity": "warning",
+        "recipe": "No-Cook Playdough",
+        "file": "no-cook-playdough.md",
+        "message": "Orphaned base recipe — not referenced by any other recipe's pairsWith."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Play-Dough",
+        "file": "play-dough.md",
+        "message": "Orphaned base recipe — not referenced by any other recipe's pairsWith."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Quinoa Pilaf with Toasted Almonds",
+        "file": "quinoa-pilaf-with-toasted-almonds.md",
+        "message": "Orphaned base recipe — not referenced by any other recipe's pairsWith."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Alfredo Sauce",
+        "file": "real-alfredo-sauce.md",
+        "message": "Orphaned base recipe — not referenced by any other recipe's pairsWith."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Coconut Rice",
+        "file": "rich-coconut-rice.md",
+        "message": "Orphaned base recipe — not referenced by any other recipe's pairsWith."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Royal Icing",
+        "file": "royal-icing.md",
+        "message": "Orphaned base recipe — not referenced by any other recipe's pairsWith."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Saffron Cardamom Rice",
+        "file": "saffron-cardamom-rice.md",
+        "message": "Orphaned base recipe — not referenced by any other recipe's pairsWith."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Shrimp with Black Bean Sauce",
+        "file": "shrimp-with-black-bean-sauce.md",
+        "message": "Orphaned base recipe — not referenced by any other recipe's pairsWith."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Sugar Cookies",
+        "file": "sugar-cookie.md",
+        "message": "Orphaned base recipe — not referenced by any other recipe's pairsWith."
       }
     ]
   }

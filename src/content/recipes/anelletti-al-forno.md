@@ -6,10 +6,9 @@ difficulty: easy
 cookingMethods:
   - bake
   - fry
-  - sauté
+  - saute
   - simmer
   - boil
-dietary: []
 occasions:
   - weekend-project
   - entertaining
@@ -33,7 +32,6 @@ nutritionalDensity: hearty
 leftovers: excellent
 advancePrep:
   - make-ahead
-equipment: []
 pairsWith:
   - everyday-arugula-salad
   - garlic-bread

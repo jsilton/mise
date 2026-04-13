@@ -33,7 +33,6 @@ nutritionalDensity: moderate
 leftovers: good
 advancePrep:
   - chill-to-set
-equipment: []
 pairsWith:
   - apple-cider-cream-pie
   - apple-pie

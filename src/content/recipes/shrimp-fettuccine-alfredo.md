@@ -4,12 +4,10 @@ difficulty: easy
 cookingMethods:
   - boil
   - steam
-dietary: []
 occasions:
   - comfort-food
   - weeknight
   - date-night
-  - indulgent
 flavorProfile:
   - rich
   - herbaceous
@@ -25,7 +23,6 @@ seasons:
   - year-round
 nutritionalDensity: hearty
 leftovers: good
-equipment: []
 pairsWith:
   - avocado-kale-caesar-salad
   - garlic-bread

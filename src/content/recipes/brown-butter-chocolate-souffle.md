@@ -1,6 +1,6 @@
 ---
 title: Brown Butter-Chocolate Soufflé
-difficulty: easy
+difficulty: intermediate
 cookingMethods:
   - bake
   - steam
@@ -9,7 +9,7 @@ dietary:
 occasions:
   - entertaining
   - weekend-project
-  - indulgent
+  - comfort-food
   - date-night
 flavorProfile:
   - sweet
@@ -45,7 +45,6 @@ origin: France
 seasons:
   - year-round
 nutritionalDensity: moderate
-equipment: []
 pairsWith:
   - chewy-chocolate-meringues
   - chocolate-souffle

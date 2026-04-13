@@ -7,7 +7,7 @@ dietary:
   - vegetarian
 occasions:
   - quick-lunch
-  - indulgent
+  - comfort-food
 seasons:
   - year-round
 nutritionalDensity: hearty

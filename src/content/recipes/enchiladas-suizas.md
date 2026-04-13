@@ -9,7 +9,6 @@ cookingMethods:
   - poach
   - no-cook
   - blend
-dietary: []
 occasions:
   - comfort-food
 flavorProfile:
@@ -42,7 +41,6 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
-equipment: []
 nutrition:
   calories: 410
   protein: 27

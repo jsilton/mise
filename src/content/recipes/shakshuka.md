@@ -3,7 +3,7 @@ title: Shakshuka
 origin: North Africa / Israel
 difficulty: easy
 cookingMethods:
-  - sauté
+  - saute
   - simmer
 dietary:
   - vegetarian

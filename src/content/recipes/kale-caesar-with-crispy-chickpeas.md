@@ -17,7 +17,7 @@ flavorProfile:
   - savory
   - umami
   - acidic
-  - herbal
+  - herbaceous
 cuisines:
   - American
   - Mediterranean
@@ -28,12 +28,12 @@ seasons:
 nutritionalDensity: moderate
 leftovers: good
 advancePrep:
-  - crispy-chickpeas-ahead
+  - components-ahead
   - dressing-ahead
 equipment:
-  - large bowl
+  - large-bowl
   - blender
-  - sheet pan
+  - sheet-pan
 prepTime: 15 min
 cookTime: 20 min
 totalTime: 35 min

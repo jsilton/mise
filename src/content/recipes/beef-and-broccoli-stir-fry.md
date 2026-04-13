@@ -12,7 +12,7 @@ occasions:
 flavorProfile:
   - savory
   - umami
-  - ginger
+  - warm
 cuisines:
   - Chinese
   - Cantonese
@@ -30,7 +30,7 @@ equipment:
   - wok
   - large-skillet
 advancePrep:
-  - prep-all-ingredients-before-cooking
+  - prep-vegetables
 pairsWith:
   - basmati-rice
   - coconut-jasmine-rice

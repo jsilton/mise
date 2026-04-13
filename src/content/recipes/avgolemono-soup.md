@@ -5,7 +5,6 @@ difficulty: intermediate
 cookingMethods:
   - simmer
   - boil
-dietary: []
 occasions:
   - comfort-food
   - weeknight
@@ -27,7 +26,6 @@ seasons:
   - spring
 nutritionalDensity: moderate
 leftovers: good
-equipment: []
 pairsWith:
   - basmati-rice
   - garlic-bread

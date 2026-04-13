@@ -28,7 +28,7 @@ seasons:
 nutritionalDensity: moderate
 leftovers: good
 advancePrep:
-  - marinate-ahead
+  - marinate-overnight
 equipment:
   - baking-sheet
 prepTime: 10 min

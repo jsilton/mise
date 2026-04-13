@@ -5,7 +5,6 @@ cookingMethods:
   - bake
   - roast
   - steam
-dietary: []
 occasions:
   - holiday
   - entertaining

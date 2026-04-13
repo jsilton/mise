@@ -8,7 +8,6 @@ dietary:
   - vegetarian
   - gluten-free
 occasions:
-  - summer
   - bbq
   - picnic
   - potluck
@@ -31,7 +30,6 @@ seasons:
   - year-round
 nutritionalDensity: light
 leftovers: good
-equipment: []
 pairsWith:
   - pulled-pork
   - honey-glazed-spareribs

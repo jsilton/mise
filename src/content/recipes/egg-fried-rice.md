@@ -10,7 +10,6 @@ dietary:
 occasions:
   - weeknight
   - meal-prep
-  - leftover-friendly
 flavorProfile:
   - savory
   - umami

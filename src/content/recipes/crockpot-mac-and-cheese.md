@@ -12,7 +12,7 @@ occasions:
 dietary:
   - vegetarian
 cookingMethods:
-  - slow-cooker
+  - slow-cook
 flavorProfile:
   - savory
   - rich
@@ -37,8 +37,6 @@ ingredients:
 pairsWith:
   - pulled-pork
   - honey-lime-chicken-thighs
-advancePrep:
-  - none
 origin: United States
 seasons:
   - year-round
