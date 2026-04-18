@@ -229,6 +229,14 @@ function normalizeKey(str) {
     );
 
     for (const rule of kbRules) {
+      // skip deprecated/disabled rules (tombstones retained for history)
+      if (rule.severity === 'disabled' || rule._deprecated === true) continue;
+
+      // skip files that aren't actually detection rules (e.g., standards docs
+      // with guidelines but no detection clauses) — otherwise they'd fire on
+      // every recipe because the empty detection loop trivially matches.
+      if (!Array.isArray(rule.detection) || rule.detection.length === 0) continue;
+
       // skip if the recipe explicitly disables this rule
       if (recipeDisabledRules.includes(rule.id)) continue;
 

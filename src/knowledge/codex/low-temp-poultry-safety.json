@@ -3,10 +3,28 @@
   "title": "Poultry low-temperature safety note",
   "category": "Safety",
   "severity": "fail",
-  "description": "If a recipe suggests holding or cooking poultry at low temperatures, check for recommended time/temperature to ensure safe pasteurization.",
+  "description": "If a recipe suggests holding or cooking poultry at low temperatures (sous vide, water bath, vacuum, or explicit low-temp language), check for recommended time/temperature to ensure safe pasteurization.",
   "detection": [
     { "type": "ingredient_presence", "words": ["chicken", "poultry", "turkey"] },
-    { "type": "text_presence", "words": ["sous-vide", "water bath", "vacuum"], "optional": true }
+    {
+      "type": "text_presence",
+      "words": [
+        "sous vide",
+        "sous-vide",
+        "water bath",
+        "immersion circulator",
+        "vacuum seal",
+        "vacuum-seal",
+        "140°f",
+        "145°f",
+        "150°f",
+        "155°f",
+        "60°c",
+        "63°c",
+        "65°c",
+        "pasteuriz"
+      ]
+    }
   ],
   "suggestionTemplate": "This recipe references low-temperature cooking for poultry. Ensure it includes safe time/temperature notes (e.g., 60°C for 2 hours for pasteurization) or use higher temperatures to guarantee safety.",
   "examples": []

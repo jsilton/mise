@@ -40,6 +40,10 @@ nutrition:
   fiber: 0
   sugar: 0
   sodium: 380
+kb:
+  disable:
+    - kb.low-temp-poultry
+  disableReason: "Pull-at-155°F technique relies on documented carryover cooking to reach 165°F during rest. Chef's Note explains the safety rationale."
 ---
 
 ## Chef's Note

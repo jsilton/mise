@@ -31,44 +31,132 @@ const TEMPLATE_PHRASES = [
   'at its best is built on good ingredients',
   'simplicity is a discipline',
   'Let the flavors do the talking',
-  "treat it with the same care you give the main dish",
+  'treat it with the same care you give the main dish',
   'The technique matters here—understand why each step exists',
   'teaches that technique is everything',
 ];
 
 const NON_PROTEIN_INDICATORS = [
-  'soup', 'stew', 'chowder', 'bisque', 'smoothie', 'drink', 'syrup',
-  'bread', 'muffin', 'cake', 'cookie', 'pie', 'crisp', 'pudding',
-  'bar', 'brownie', 'pancake', 'waffle', 'oatmeal', 'risotto',
-  'salad', 'slaw', 'dressing', 'vinaigrette', 'sauce', 'condiment',
-  'rice', 'beans', 'hummus', 'dip', 'guacamole', 'salsa',
+  'soup',
+  'stew',
+  'chowder',
+  'bisque',
+  'smoothie',
+  'drink',
+  'syrup',
+  'bread',
+  'muffin',
+  'cake',
+  'cookie',
+  'pie',
+  'crisp',
+  'pudding',
+  'bar',
+  'brownie',
+  'pancake',
+  'waffle',
+  'oatmeal',
+  'risotto',
+  'salad',
+  'slaw',
+  'dressing',
+  'vinaigrette',
+  'sauce',
+  'condiment',
+  'rice',
+  'beans',
+  'hummus',
+  'dip',
+  'guacamole',
+  'salsa',
 ];
 
 const STIR_FRY_INDICATORS = [
-  'stir-fry', 'stir fry', 'pad thai', 'pad kee mao', 'lo mein',
-  'fried rice', 'noodles', 'wok',
+  'stir-fry',
+  'stir fry',
+  'pad thai',
+  'pad kee mao',
+  'lo mein',
+  'fried rice',
+  'noodles',
+  'wok',
 ];
 
 const MEAT_INGREDIENTS = [
-  'chicken', 'beef', 'pork', 'lamb', 'turkey', 'duck', 'veal',
-  'bacon', 'sausage', ' ham', 'prosciutto', 'pancetta', 'salami',
-  'brisket', 'ribs', 'steak', 'ground meat', 'meatball',
+  'chicken',
+  'beef',
+  'pork',
+  'lamb',
+  'turkey',
+  'duck',
+  'veal',
+  'bacon',
+  'sausage',
+  ' ham',
+  'prosciutto',
+  'pancetta',
+  'salami',
+  'brisket',
+  'ribs',
+  'steak',
+  'ground meat',
+  'meatball',
 ];
 // " ham" with leading space avoids matching "graham", "hamantaschen", etc.
 
 const DAIRY_INGREDIENTS = [
-  'butter', 'cream', 'milk', 'cheese', 'yogurt', 'sour cream',
-  'ghee', 'mascarpone', 'ricotta', 'mozzarella', 'parmesan',
-  'cheddar', 'gruyère', 'gruyere', 'brie', 'goat cheese',
-  'cream cheese', 'half-and-half', 'whipped cream', 'custard',
+  'butter',
+  'cream',
+  'milk',
+  'cheese',
+  'yogurt',
+  'sour cream',
+  'ghee',
+  'mascarpone',
+  'ricotta',
+  'mozzarella',
+  'parmesan',
+  'cheddar',
+  'gruyère',
+  'gruyere',
+  'brie',
+  'goat cheese',
+  'cream cheese',
+  'half-and-half',
+  'whipped cream',
+  'custard',
 ];
 
 const GLUTEN_INGREDIENTS = [
-  'flour', 'bread', 'pasta', 'noodle', 'spaghetti', 'fettuccine',
-  'penne', 'orzo', 'couscous', 'breadcrumb', 'panko', 'tortilla',
-  'pita', 'naan', 'baguette', 'ciabatta', 'sourdough', 'cracker',
-  'soy sauce', 'teriyaki', 'hoisin', 'wonton', 'dumpling',
-  'pie crust', 'biscuit', 'cake', 'muffin', 'waffle', 'pancake',
+  'flour',
+  'bread',
+  'pasta',
+  'noodle',
+  'spaghetti',
+  'fettuccine',
+  'penne',
+  'orzo',
+  'couscous',
+  'breadcrumb',
+  'panko',
+  'tortilla',
+  'pita',
+  'naan',
+  'baguette',
+  'ciabatta',
+  'sourdough',
+  'cracker',
+  'soy sauce',
+  'teriyaki',
+  'hoisin',
+  'wonton',
+  'dumpling',
+  'pie crust',
+  'biscuit',
+  'cake',
+  'muffin',
+  'waffle',
+  'pancake',
 ];
 
 const VALID_VIBES = ['quick', 'nutritious', 'comfort', 'technical', 'holiday'];
@@ -100,7 +188,7 @@ function lintRecipe(filePath) {
   const { data, content: body } = matter(content);
   const slug = path.basename(filePath, '.md');
   const titleLower = (data.title || slug).toLowerCase();
-  const ingredientsLower = (data.ingredients || []).map(i => i.toLowerCase()).join(' ');
+  const ingredientsLower = (data.ingredients || []).map((i) => i.toLowerCase()).join(' ');
 
   // ── Template Chef's Notes ──────────────────────────────────────────────
 
@@ -150,8 +238,8 @@ function lintRecipe(filePath) {
     }
 
     // Check for rest on non-protein recipes
-    const isNonProtein = NON_PROTEIN_INDICATORS.some(ind => titleLower.includes(ind));
-    const isStirFry = STIR_FRY_INDICATORS.some(ind => titleLower.includes(ind));
+    const isNonProtein = NON_PROTEIN_INDICATORS.some((ind) => titleLower.includes(ind));
+    const isStirFry = STIR_FRY_INDICATORS.some((ind) => titleLower.includes(ind));
     if (isNonProtein && !restText.includes('quiche') && !restText.includes('lasagna')) {
       errors.push('Rest instruction on a non-protein recipe (soup, baked good, condiment, etc.)');
     }
@@ -162,34 +250,61 @@ function lintRecipe(filePath) {
 
   // ── Dietary tag contradictions ─────────────────────────────────────────
 
-  const dietary = (data.dietary || []).map(d => d.toLowerCase());
+  const dietary = (data.dietary || []).map((d) => d.toLowerCase());
 
   // Build a clean ingredient text that ignores optional/substitution notes
   // e.g., "Vegetable or Chicken Broth (optional)" shouldn't flag vegetarian
-  const ingredientLines = (data.ingredients || []).map(i => i.toLowerCase());
+  const ingredientLines = (data.ingredients || []).map((i) => i.toLowerCase());
 
   if (dietary.includes('vegetarian') || dietary.includes('vegan')) {
     for (const meat of MEAT_INGREDIENTS) {
-      const found = ingredientLines.find(line => {
+      const found = ingredientLines.find((line) => {
         // Skip lines where the meat word is inside optional/substitution context
         if (line.includes('optional') || line.includes('can use') || line.includes('or ')) {
           // Only skip if the meat is in the optional part, not the main ingredient
-          if (line.includes(meat) && (line.includes(`can use ${meat}`) || line.includes(`or ${meat}`))) return false;
+          if (
+            line.includes(meat) &&
+            (line.includes(`can use ${meat}`) || line.includes(`or ${meat}`))
+          )
+            return false;
         }
         // Skip brand names containing meat words (e.g., "Beefeater" gin)
         if (meat === 'beef' && line.includes('beefeater')) return false;
         return line.includes(meat);
       });
       if (found) {
-        errors.push(`Tagged ${dietary.includes('vegan') ? 'vegan' : 'vegetarian'} but ingredients contain "${meat}" in: "${found.slice(0, 60)}"`);
+        errors.push(
+          `Tagged ${dietary.includes('vegan') ? 'vegan' : 'vegetarian'} but ingredients contain "${meat}" in: "${found.slice(0, 60)}"`
+        );
         break;
       }
     }
   }
 
   if (dietary.includes('vegan')) {
+    // Plant-based "milks" and "creams" are vegan but contain the substrings
+    // "milk"/"cream" — strip them before checking.
+    const NON_DAIRY_MILKS = [
+      'coconut milk',
+      'almond milk',
+      'oat milk',
+      'soy milk',
+      'rice milk',
+      'cashew milk',
+      'hemp milk',
+      'macadamia milk',
+    ];
     for (const dairy of DAIRY_INGREDIENTS) {
-      const found = ingredientLines.find(line => line.includes(dairy));
+      const found = ingredientLines.find((line) => {
+        let checkLine = line;
+        if (dairy === 'milk') {
+          for (const nd of NON_DAIRY_MILKS) checkLine = checkLine.split(nd).join('');
+        }
+        if (dairy === 'cream') {
+          checkLine = checkLine.split('cream of coconut').join('').split('coconut cream').join('');
+        }
+        return checkLine.includes(dairy);
+      });
       if (found) {
         errors.push(`Tagged vegan but ingredients contain "${dairy}" in: "${found.slice(0, 60)}"`);
         break;
@@ -199,9 +314,11 @@ function lintRecipe(filePath) {
 
   if (dietary.includes('gluten-free')) {
     for (const gluten of GLUTEN_INGREDIENTS) {
-      const found = ingredientLines.find(line => line.includes(gluten));
+      const found = ingredientLines.find((line) => line.includes(gluten));
       if (found) {
-        errors.push(`Tagged gluten-free but ingredients contain "${gluten}" in: "${found.slice(0, 60)}"`);
+        errors.push(
+          `Tagged gluten-free but ingredients contain "${gluten}" in: "${found.slice(0, 60)}"`
+        );
         break;
       }
     }
@@ -221,7 +338,7 @@ function lintRecipe(filePath) {
     if (total > computed * 2 && total - computed > 60 && !hasAdvancePrep) {
       warnings.push(
         `Time gap: prep(${prep}m) + cook(${cook}m) = ${computed}m, but total = ${total}m. ` +
-        `Add advancePrep field to explain (e.g., marinate-overnight, chill-to-set, freeze).`
+          `Add advancePrep field to explain (e.g., marinate-overnight, chill-to-set, freeze).`
       );
     }
   }
@@ -276,10 +393,12 @@ let files = process.argv.slice(2);
 // Handle --staged flag
 if (files.includes('--staged')) {
   try {
-    const staged = execSync('git diff --cached --name-only --diff-filter=ACM', { encoding: 'utf8' });
+    const staged = execSync('git diff --cached --name-only --diff-filter=ACM', {
+      encoding: 'utf8',
+    });
     files = staged
       .split('\n')
-      .filter(f => f.startsWith('src/content/recipes/') && f.endsWith('.md'));
+      .filter((f) => f.startsWith('src/content/recipes/') && f.endsWith('.md'));
   } catch {
     files = [];
   }
@@ -315,7 +434,9 @@ for (const file of files) {
 
 if (totalErrors > 0 || totalWarnings > 0) {
   console.log(`\n${'─'.repeat(60)}`);
-  console.log(`${totalErrors} error(s), ${totalWarnings} warning(s) across ${files.length} file(s)`);
+  console.log(
+    `${totalErrors} error(s), ${totalWarnings} warning(s) across ${files.length} file(s)`
+  );
 }
 
 if (totalErrors > 0) {

@@ -93,7 +93,7 @@ This document explains how to access and follow the established development prac
 
 - **[/src/knowledge/codex/](./src/knowledge/codex/)**
   - `recipe-validation-rules.json` - Recipe validation constraints
-  - `development-standards.json` - Architectural standards for future models
+  - `architecture-standards.json` - Architectural standards for future models
   - `tagging-rules.json` - Tag detection and suggestion rules
 
 ---
@@ -103,7 +103,7 @@ This document explains how to access and follow the established development prac
 ### For Development Standards
 
 ```javascript
-// Read: src/knowledge/codex/development-standards.json
+// Read: src/knowledge/codex/architecture-standards.json
 // Contains: component architecture, styling rules, testing procedures
 // Key sections:
 //   - component-architecture: when to create components
@@ -351,7 +351,7 @@ ROOT
 │   ├── knowledge/
 │   │   ├── TAGGING_GUIDE.md         ← Tag system documentation
 │   │   └── codex/
-│   │       ├── development-standards.json
+│   │       ├── architecture-standards.json
 │   │       ├── recipe-validation-rules.json
 │   │       └── tagging-rules.json
 │   │
