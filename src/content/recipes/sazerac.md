@@ -5,6 +5,7 @@ cookTime: 0 min
 totalTime: 7 min
 servings: 1 cocktail
 role: drink
+vibe: technical
 difficulty: intermediate
 cuisines:
   - American
@@ -65,7 +66,7 @@ nutrition:
 
 5. **Express a lemon peel:** over the drink by twisting it to release the oils. Discard the peel or rest it on the rim (traditionally, it's discarded).
 
-6. **Serve immediately.:** 
+6. **Serve immediately.:**
 
 ## Chef's Note
 

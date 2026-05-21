@@ -5,6 +5,7 @@ cookTime: 0 min
 totalTime: 5 min
 servings: 1 cocktail
 role: drink
+vibe: technical
 difficulty: easy
 cuisines:
   - American
@@ -55,7 +56,7 @@ nutrition:
 
 4. **Garnish with a maraschino:** cherry and optionally express an orange peel over the drink.
 
-5. **Serve immediately.:** 
+5. **Serve immediately.:**
 
 ## Chef's Note
 

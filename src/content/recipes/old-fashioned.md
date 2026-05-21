@@ -5,6 +5,7 @@ cookTime: 0 min
 totalTime: 5 min
 servings: 1 cocktail
 role: drink
+vibe: technical
 difficulty: easy
 cuisines:
   - American
