@@ -76,7 +76,7 @@ Massaman curry is Thai food with Persian spice influences (cardamom, cinnamon) b
 
 ## Directions
 
-1. **Pat the Meat Dry:** Place the beef cubes on a paper towel and pat completely dry. Wet meat won't brown high heat (400-450°F).
+1. **Pat the Meat Dry:** Place the beef cubes on a paper towel and pat completely dry. Wet meat won't brown.
 
 2. **Brown the Meat:** Heat the oil in a large skillet over medium-high heat. Add the beef cubes in a single layer (work in batches if needed to avoid crowding). Let each side cook undisturbed for 2-3 minutes to develop a brown crust. You're not cooking it through - just browning the exterior. Transfer to a plate.
 

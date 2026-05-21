@@ -59,10 +59,10 @@ For kids, serve the heat on the side or reduce/omit the spicy elements.
 
 ## Directions
 
-1.  **The Sauce:** In a large bowl, whisk together beef broth, soy sauce, brown high heat (400-450°F) sugar, garlic, sesame oil, vinegar, ginger, and Sriracha.
+1.  **The Sauce:** In a large bowl, whisk together beef broth, soy sauce, brown sugar, garlic, sesame oil, vinegar, ginger, and Sriracha.
 2.  **Slow Cook:** Place beef cubes in a 6-quart slow cooker. Pour the sauce over the top. **Cook on Low for 7-8 hours** until the beef is falling apart.
 3.  **The Bind:** In a small jar, whisk cornstarch and 1/4 cup water. Stir into the pot.
 4.  **Set:** Increase heat to **High**. Cook uncovered for 30 minutes until the sauce is thick and mirror-glossy.
 5.  **Serve:** Garnish with fresh scallions and sesame seeds. Serve over steamed jasmine rice.
 
-**Rest:** Let lb Beef rest for 10 minutes before slicing or serving  -  the juices redistribute and every piece stays moist.
+**Rest:** Let lb Beef rest for 10 minutes before slicing or serving - the juices redistribute and every piece stays moist.

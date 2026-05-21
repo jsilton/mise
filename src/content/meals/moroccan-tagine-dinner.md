@@ -2,7 +2,7 @@
 title: Moroccan Tagine Dinner
 template: plate
 main: moroccan-chicken-tagine-apricot-chickpea
-base: garlic-butter-pearl-couscous
+base: garlic-butter-couscous
 salad: moroccan-carrot-salad
 totalPrepTime: 40 min
 totalCookTime: 1 hr 15 min

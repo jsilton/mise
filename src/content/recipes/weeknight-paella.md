@@ -57,7 +57,7 @@ Paella is not a "stir-fry." The soul of this dish is the **Socarrat**: the layer
 
 ## Directions
 
-1.  **Chorizo:** In a large wide skillet (paella pan or cast iron), sear high heat (400-450°F) the chorizo rounds until crispy. Remove to a plate.
+1.  **Chorizo:** In a large wide skillet (paella pan or cast iron), sear the chorizo rounds until crispy. Remove to a plate.
 2.  **Sofrito:** In the same fat, sauté the onion and bell pepper until soft (8 mins). Stir in the garlic, pimentón, and tomato puree. Cook for 5 minutes until it becomes a thick, dark jam.
 3.  **The Rice:** Add the rice to the pan. Stir for 2 minutes to toast the grains in the sofrito.
 4.  **Simmer:** Add the saffron to the warm broth. Pour the broth over the rice. Shake the pan to distribute the rice evenly. **DO NOT STIR AGAIN.**

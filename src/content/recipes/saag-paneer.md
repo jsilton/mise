@@ -55,11 +55,10 @@ This Indian dish shows how blooming spices in fat builds flavor from scratch. Wh
 
 ## Directions
 
-1.  **The Soak:** Heat a splash of oil in a non-stick pan. Fry medium-high heat (350-375°F) paneer cubes until golden on two sides. **Immediately transfer to a bowl of hot water** and let soak until needed.
+1.  **The Soak:** Heat a splash of oil in a non-stick pan. Fry paneer cubes until golden on two sides. **Immediately transfer to a bowl of hot water** and let soak until needed.
 2.  **The Spinach:** Ensure your thawed spinach is squeezed bone-dry in a kitchen towel. (Watery spinach leads to a muddy sauce).
 3.  **The Base:** Melt ghee in a large skillet. Sauté onions until golden brown (8-10 mins). Add ginger, garlic, and jalapeño and fry for 2 minutes.
 4.  **Bloom:** Add coriander, turmeric, and salt. Stir for 30 seconds. Add the dry spinach and stir vigorously to coat in the spiced oil. Cook for 3 minutes.
 5.  **Cream:** Reduce heat to low. Stir in the heavy cream.
 6.  **Combine:** Drain the paneer and fold gently into the spinach.
 7.  **Finish:** Stir in the Garam Masala and crushed Kasuri Methi. Cover and let sit for 5 minutes off the heat before serving.
-

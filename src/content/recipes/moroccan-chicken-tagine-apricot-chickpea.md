@@ -45,7 +45,7 @@ equipment:
   - dutch-oven
   - tagine
 pairsWith:
-  - garlic-butter-pearl-couscous
+  - garlic-butter-couscous
   - moroccan-carrot-salad
   - fattoush-salad
 ingredients:

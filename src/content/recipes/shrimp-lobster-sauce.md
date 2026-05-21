@@ -57,7 +57,7 @@ Lobster sauce is a Chinese-American invention from the mid-20th century, origina
 
 ## Directions
 
-1.  **The Render:** Heat 1 tbsp oil in a wok. Brown high heat (400-450°F) the ground pork until crispy (5 mins).
+1.  **The Render:** Heat 1 tbsp oil in a wok. Brown the ground pork until crispy (5 mins).
 2.  **Aromatics:** Add the garlic and mashed black beans. Sauté for 1 minute until fragrant.
 3.  **The Crunch:** Add the shrimp. Stir-fry for 2 minutes over high heat until just pink.
 4.  **Simmer:** Pour in the chicken stock and soy sauces. Bring to a rapid boil.

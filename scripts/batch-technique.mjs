@@ -70,18 +70,22 @@ async function listMdFiles(dir) {
  * Check if a step already has a temperature mention
  */
 function hasTemperature(stepText) {
-  return /(\d+[-–]\d+)?°[CF]|high heat|medium heat|low heat|medium-high|medium-low/.test(
-    stepText
-  );
+  return /(\d+[-–]\d+)?°[CF]|high heat|medium heat|low heat|medium-high|medium-low/.test(stepText);
 }
 
 /**
- * Check if a step has cooking method keywords
+ * Check if a step has cooking method keywords (word-boundary safe)
  */
 function getCookingMethod(stepText) {
-  const lower = stepText.toLowerCase();
+  // Only check the body text, not the bold header label, to prevent
+  // injecting temperatures into header words like "Brown the Butter"
+  const bodyText = extractStepBody(stepText);
+  const lower = bodyText.toLowerCase();
   for (const method of Object.keys(METHOD_TEMPERATURES)) {
-    if (lower.includes(method)) {
+    // Use word boundaries to avoid false positives:
+    // "brown" should not match "brownie", "sear" should not match "search"
+    const wordBoundaryRegex = new RegExp(`\\b${method}\\b`, 'i');
+    if (wordBoundaryRegex.test(lower)) {
       return method;
     }
   }
@@ -89,7 +93,21 @@ function getCookingMethod(stepText) {
 }
 
 /**
+ * Extract the body text of a step (everything after the bold ** header **)
+ * e.g. "1. **The Sear:** Heat oil..." → "Heat oil..."
+ */
+function extractStepBody(stepText) {
+  // Match numbered step with bold header: "1.  **Header:** body text"
+  const headerMatch = stepText.match(/^\d+\.\s+\*\*[^*]+\*\*:?\s*(.*)/s);
+  if (headerMatch) {
+    return headerMatch[1];
+  }
+  return stepText;
+}
+
+/**
  * Add temperature to a step if it has a cooking method but no temp
+ * Temperature is only inserted into the body text, never the header.
  */
 function addTemperatureToStep(stepText) {
   const method = getCookingMethod(stepText);
@@ -100,10 +118,26 @@ function addTemperatureToStep(stepText) {
   const { temp, fahrenheit } = METHOD_TEMPERATURES[method];
   const insertPhrase = `${temp} (${fahrenheit})`;
 
-  // Find the cooking method word and insert temp after it
+  // Split the line into header and body to only modify the body
+  const headerMatch = stepText.match(/^(\d+\.\s+\*\*[^*]+\*\*:?\s*)(.*)/s);
+  if (headerMatch) {
+    const header = headerMatch[1];
+    const body = headerMatch[2];
+
+    // Find the cooking method word in the body only
+    const regex = new RegExp(`\\b${method}\\b`, 'i');
+    const match = body.match(regex);
+    if (match) {
+      const endPos = match.index + match[0].length;
+      const newBody = body.slice(0, endPos) + ' ' + insertPhrase + body.slice(endPos);
+      return header + newBody;
+    }
+    return null;
+  }
+
+  // Fallback for lines without bold header
   const regex = new RegExp(`\\b${method}\\b`, 'i');
   const match = stepText.match(regex);
-
   if (match) {
     const endPos = match.index + match[0].length;
     return stepText.slice(0, endPos) + ' ' + insertPhrase + stepText.slice(endPos);
@@ -132,7 +166,7 @@ function needsVisualCue(stepText) {
   ];
 
   const lower = stepText.toLowerCase();
-  return vaguePhrases.some(phrase => lower.includes(phrase)) && !hasGoodVisualCue(stepText);
+  return vaguePhrases.some((phrase) => lower.includes(phrase)) && !hasGoodVisualCue(stepText);
 }
 
 /**
@@ -159,7 +193,7 @@ function hasGoodVisualCue(stepText) {
     'internal temp',
   ];
 
-  return goodCues.some(cue => stepText.toLowerCase().includes(cue));
+  return goodCues.some((cue) => stepText.toLowerCase().includes(cue));
 }
 
 /**
@@ -206,13 +240,13 @@ function needsRestInstruction(data, content) {
   // Check if it has searing/roasting methods
   const methods = Array.isArray(data.cookingMethods) ? data.cookingMethods : [];
   const needsRestMethods = ['sear', 'roast', 'grill', 'bake', 'braise', 'fry'];
-  const hasRestMethod = methods.some(m => needsRestMethods.includes(m.toLowerCase()));
+  const hasRestMethod = methods.some((m) => needsRestMethods.includes(m.toLowerCase()));
 
   if (!hasRestMethod) return false;
 
   // Check if recipe has protein-related ingredients
   const ingredientsText = Array.isArray(data.ingredients) ? data.ingredients.join(' ') : '';
-  const hasProtein = PROTEINS_NEEDING_REST.some(p => ingredientsText.toLowerCase().includes(p));
+  const hasProtein = PROTEINS_NEEDING_REST.some((p) => ingredientsText.toLowerCase().includes(p));
 
   if (!hasProtein) return false;
 
@@ -227,11 +261,13 @@ function needsRestInstruction(data, content) {
  */
 function getRestTime(data) {
   const methods = Array.isArray(data.cookingMethods) ? data.cookingMethods : [];
-  const ingredients = Array.isArray(data.ingredients) ? data.ingredients.join(' ').toLowerCase() : '';
+  const ingredients = Array.isArray(data.ingredients)
+    ? data.ingredients.join(' ').toLowerCase()
+    : '';
 
   // Large roasts: 10 min
   if (
-    methods.some(m => m === 'roast') &&
+    methods.some((m) => m === 'roast') &&
     (ingredients.includes('roast') ||
       ingredients.includes('brisket') ||
       ingredients.includes('whole') ||
@@ -241,7 +277,7 @@ function getRestTime(data) {
   }
 
   // Braised items: 5 min
-  if (methods.some(m => m === 'braise')) {
+  if (methods.some((m) => m === 'braise')) {
     return '5';
   }
 
@@ -258,9 +294,7 @@ function getProteinName(data) {
     for (const protein of PROTEINS_NEEDING_REST) {
       if (ingredient.toLowerCase().includes(protein)) {
         // Extract just the protein word with optional descriptor
-        const match = ingredient.match(
-          new RegExp(`(\\w+\\s+)?${protein}(s)?`, 'i')
-        );
+        const match = ingredient.match(new RegExp(`(\\w+\\s+)?${protein}(s)?`, 'i'));
         if (match) {
           return match[0].replace(/,.*/, '').trim();
         }
@@ -313,7 +347,7 @@ function addRestInstruction(content, data) {
     const slug = path.basename(file, '.md');
 
     let changed = false;
-    let changeLog = [];
+    const changeLog = [];
     let updatedContent = content;
 
     // 1. & 2. Add temperatures and visual cues to directions
@@ -321,7 +355,7 @@ function addRestInstruction(content, data) {
     if (directionMatch) {
       const directionsSection = directionMatch[1];
       let modified = false;
-      const steps = directionsSection.split('\n').map(line => {
+      const steps = directionsSection.split('\n').map((line) => {
         // Check if this is a numbered step with a header
         if (line.match(/^\d+\.\s+\*\*/)) {
           let updatedLine = line;
@@ -353,7 +387,10 @@ function addRestInstruction(content, data) {
 
       if (modified) {
         const newDirectionsSection = steps.join('\n');
-        updatedContent = updatedContent.replace(directionMatch[0], `## Directions\n${newDirectionsSection}`);
+        updatedContent = updatedContent.replace(
+          directionMatch[0],
+          `## Directions\n${newDirectionsSection}`
+        );
         changed = true;
       }
     }

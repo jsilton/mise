@@ -55,7 +55,7 @@ Pumpkin puree adds weight and moisture that can make pancakes rubbery. Mix dry i
 
 ## Directions
 
-1.  **Dry Mix:** In a medium bowl, whisk together flour, brown high heat (400-450°F) sugar, baking powder, baking soda, spice mix, and salt.
+1.  **Dry Mix:** In a medium bowl, whisk together flour, brown sugar, baking powder, baking soda, spice mix, and salt.
 2.  **Wet Mix:** In a large bowl, whisk milk, pumpkin puree, egg, and oil until perfectly smooth and emulsified.
 3.  **Combine:** Gradually add the dry mix to the pumpkin mixture. Stir with a spatula until the large clumps disappear. **Stop stirring immediately** - even if there are tiny lumps.
 4.  **The Rest:** Let the batter sit for 5 minutes while you heat the griddle (The Hydration Rest).

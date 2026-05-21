@@ -61,7 +61,7 @@ This one-pot meal brings together protein, whole grains, and vegetables in a sin
 
 ## Directions
 
-1.  **The Sear high heat (400-450°F):** Season chicken with rosemary and paprika. Heat 1 tsp oil in a large skillet. Sear chicken for 2 minutes per side until golden. Remove to a plate.
+1.  **The Sear:** Season chicken with rosemary and paprika. Heat 1 tsp oil in a large skillet. Sear chicken for 2 minutes per side until golden. Remove to a plate.
 2.  **The Veg:** Add the remaining oil to the pan. Sauté onion and mushrooms for 5 minutes until tender and browned.
 3.  **The Simmer:** Stir in the dry quinoa and broth. Bring to a boil.
 4.  **Nestle:** Place the chicken thighs back into the pan, pressing them down into the quinoa. Cover tightly.
@@ -69,5 +69,4 @@ This one-pot meal brings together protein, whole grains, and vegetables in a sin
 6.  **Wilt:** Remove from heat. Gently stir in the fresh spinach - it will collapse in the residual heat.
 7.  **Serve:** Fluff the quinoa with a fork and serve immediately.
 
-
-**Rest:** Let 6 Chicken rest for 5 minutes before slicing or serving  -  the juices redistribute and every piece stays moist.
+**Rest:** Let 6 Chicken rest for 5 minutes before slicing or serving - the juices redistribute and every piece stays moist.

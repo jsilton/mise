@@ -61,7 +61,7 @@ Shrimp scampi started as a fisherman's lunch in Italy's Adriatic ports - fresh s
 
 ## Directions
 
-1. **The Prep:** Pat shrimp completely dry with paper towels. This is non-negotiable - wet shrimp will steam instead of sear high heat (400-450°F). Season with salt and pepper.
+1. **The Prep:** Pat shrimp completely dry with paper towels. This is non-negotiable - wet shrimp will steam instead of sear. Season with salt and pepper.
 
 2. **Heat the Butter:** Melt 2 tbsp butter in a large skillet over medium-high heat. Once foaming (about 1 minute), add shrimp in a single layer. Do not stir - let them sit for 2 minutes until the bottom browns.
 

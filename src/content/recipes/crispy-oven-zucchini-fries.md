@@ -60,7 +60,7 @@ Zucchini fries are the gateway vegetable for kids who resist anything green - th
 
 ## Directions
 
-1. **Remove Moisture:** Cut zucchini lengthwise into quarters, then cut each quarter into fry medium-high heat (350-375°F)-sized sticks (about 1/2-inch thick). Place on a paper towel-lined plate. Sprinkle generously with 1/4 tsp salt. Let sit for 5 minutes while the zucchini weeps water. Pat completely dry.
+1. **Remove Moisture:** Cut zucchini lengthwise into quarters, then cut each quarter into fry-sized sticks (about 1/2-inch thick). Place on a paper towel-lined plate. Sprinkle generously with 1/4 tsp salt. Let sit for 5 minutes while the zucchini weeps water. Pat completely dry.
 2. **Set Up Stations:** Preheat oven to 400°F. Line a baking sheet with parchment paper. Set up three shallow bowls: one with flour mixed with salt and pepper; one with beaten egg; one with panko mixed with Parmigiano, garlic powder, and Italian seasoning.
 3. **Coat:** Working with a few zucchini sticks at a time, coat in the flour mixture (shake off excess), dip in egg, then roll in the panko mixture, pressing gently so the coating sticks.
 4. **Arrange:** Place breaded zucchini on the prepared baking sheet in a single layer, not touching.

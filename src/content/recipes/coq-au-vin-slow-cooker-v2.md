@@ -55,7 +55,7 @@ The secret to a rich slow-cooker braise is developing fond. Many recipes just du
 
 ## Directions
 
-1.  **The Sear high heat (400-450°F):** Season chicken thighs with pepper. In a large skillet, sear the chicken on both sides until deep golden brown (3-4 mins total).
+1.  **The Sear:** Season chicken thighs with pepper. In a large skillet, sear the chicken on both sides until deep golden brown (3-4 mins total).
 2.  **The Base:** Spray the slow cooker with oil. Layer the minced garlic, carrot chunks, frozen pearl onions, and thick-sliced mushrooms at the bottom.
 3.  **Stack:** Place the seared chicken thighs directly on top of the vegetables.
 4.  **The Slurry:** In a small bowl, whisk the cornstarch into the red wine until completely dissolved. Whisk in the onion soup mix, Worcestershire, and thyme.

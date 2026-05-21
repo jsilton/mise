@@ -42,7 +42,7 @@ equipment:
   - mixing-bowl
 pairsWith:
   - moroccan-chicken-tagine-apricot-chickpea
-  - garlic-butter-pearl-couscous
+  - garlic-butter-couscous
   - fattoush-salad
 ingredients:
   - 1.5 lbs Carrots (about 6 large), peeled

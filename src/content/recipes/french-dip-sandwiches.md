@@ -54,7 +54,7 @@ The French Dip is all about the **Jus** (the juice). Most home versions are wate
 
 ## Directions
 
-1.  **Sear high heat (400-450°F) (Optional but better):** Sear the beef roast in a hot skillet with a little oil until browned on all sides. Place in the slow cooker.
+1.  **Sear (Optional but better):** Sear the beef roast in a hot skillet with a little oil until browned on all sides. Place in the slow cooker.
 2.  **Combine:** Add the sliced onion, garlic, stock, soy sauce, Worcestershire, and rosemary to the slow cooker.
 3.  **Slow Cook:** Cook on **LOW** for 8 hours (or high for 4-5 hours) until the beef pulls apart with a fork.
 4.  **Shred:** Remove beef to a cutting board. Shred into large chunks or slice thin.

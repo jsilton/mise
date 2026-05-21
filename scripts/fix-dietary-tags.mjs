@@ -85,10 +85,7 @@ const DAIRY_INGREDIENTS = new Set([
   'cream cheese',
 ]);
 
-const OTHER_ANIMAL_INGREDIENTS = new Set([
-  'honey',
-  'gelatin',
-]);
+const OTHER_ANIMAL_INGREDIENTS = new Set(['honey', 'gelatin']);
 
 const GLUTEN_INGREDIENTS = new Set([
   'flour',
@@ -124,11 +121,7 @@ const EXCEPTIONS = {
     'chicken broth',
     'beef broth',
   ]),
-  vegan: new Set([
-    'vegetable stock',
-    'mushroom stock',
-    'vegetable broth',
-  ]),
+  vegan: new Set(['vegetable stock', 'mushroom stock', 'vegetable broth']),
   glutenFree: new Set([
     'tamari',
     'gf flour',
@@ -140,8 +133,38 @@ const EXCEPTIONS = {
     'gluten-free pasta',
     'rice pasta',
     'corn tortilla',
+    'coconut milk', // "milk" should not flag dairy-free/vegan checks for non-dairy milks
+    'oat milk',
+    'almond milk',
+    'soy milk',
   ]),
 };
+
+// Non-dairy milks that should NOT count as dairy
+const NON_DAIRY_MILKS = new Set([
+  'coconut milk',
+  'oat milk',
+  'almond milk',
+  'soy milk',
+  'rice milk',
+  'hemp milk',
+  'cashew milk',
+]);
+
+/**
+ * Check if a normalized ingredient string contains a keyword as a whole word.
+ * Uses word boundaries to prevent "ham" from matching inside "graham",
+ * "milk" from matching inside "coconut milk" when we want to allow non-dairy milks, etc.
+ */
+function ingredientContainsKeyword(normalized, keyword) {
+  // Multi-word keywords: check as substring (e.g., "ground beef", "cream cheese")
+  if (keyword.includes(' ')) {
+    return normalized.includes(keyword);
+  }
+  // Single-word keywords: use word boundaries
+  const regex = new RegExp(`\\b${keyword}\\b`, 'i');
+  return regex.test(normalized);
+}
 
 /**
  * Extract normalized ingredient keywords from ingredient string
@@ -177,9 +200,9 @@ function checkDietaryViolations(ingredients, dietaryTags) {
       }
       if (isException) continue;
 
-      // Check for meat/fish
+      // Check for meat/fish using word-boundary matching
       for (const meat of MEAT_INGREDIENTS) {
-        if (normalized.includes(meat)) {
+        if (ingredientContainsKeyword(normalized, meat)) {
           violations.push({
             tag: 'vegetarian',
             ingredient: ing,
@@ -189,7 +212,7 @@ function checkDietaryViolations(ingredients, dietaryTags) {
         }
       }
       for (const fish of FISH_SEAFOOD_INGREDIENTS) {
-        if (normalized.includes(fish)) {
+        if (ingredientContainsKeyword(normalized, fish)) {
           violations.push({
             tag: 'vegetarian',
             ingredient: ing,
@@ -215,9 +238,9 @@ function checkDietaryViolations(ingredients, dietaryTags) {
       }
       if (isException) continue;
 
-      // Check for meat/fish
+      // Check for meat/fish using word-boundary matching
       for (const meat of MEAT_INGREDIENTS) {
-        if (normalized.includes(meat)) {
+        if (ingredientContainsKeyword(normalized, meat)) {
           violations.push({
             tag: 'vegan',
             ingredient: ing,
@@ -227,7 +250,7 @@ function checkDietaryViolations(ingredients, dietaryTags) {
         }
       }
       for (const fish of FISH_SEAFOOD_INGREDIENTS) {
-        if (normalized.includes(fish)) {
+        if (ingredientContainsKeyword(normalized, fish)) {
           violations.push({
             tag: 'vegan',
             ingredient: ing,
@@ -236,18 +259,22 @@ function checkDietaryViolations(ingredients, dietaryTags) {
           break;
         }
       }
-      for (const dairy of DAIRY_INGREDIENTS) {
-        if (normalized.includes(dairy)) {
-          violations.push({
-            tag: 'vegan',
-            ingredient: ing,
-            reason: `contains "${dairy}"`,
-          });
-          break;
+      // Skip non-dairy milks before checking dairy
+      const isNonDairyMilk = Array.from(NON_DAIRY_MILKS).some((ndm) => normalized.includes(ndm));
+      if (!isNonDairyMilk) {
+        for (const dairy of DAIRY_INGREDIENTS) {
+          if (ingredientContainsKeyword(normalized, dairy)) {
+            violations.push({
+              tag: 'vegan',
+              ingredient: ing,
+              reason: `contains "${dairy}"`,
+            });
+            break;
+          }
         }
       }
       for (const animal of OTHER_ANIMAL_INGREDIENTS) {
-        if (normalized.includes(animal)) {
+        if (ingredientContainsKeyword(normalized, animal)) {
           violations.push({
             tag: 'vegan',
             ingredient: ing,
@@ -273,9 +300,9 @@ function checkDietaryViolations(ingredients, dietaryTags) {
       }
       if (isException) continue;
 
-      // Check for gluten
+      // Check for gluten using word-boundary matching
       for (const gluten of GLUTEN_INGREDIENTS) {
-        if (normalized.includes(gluten)) {
+        if (ingredientContainsKeyword(normalized, gluten)) {
           violations.push({
             tag: 'gluten-free',
             ingredient: ing,
@@ -354,9 +381,7 @@ async function main() {
 
     // Fix: remove problematic tags
     if (!isDryRun) {
-      const newDietary = dietary.filter(
-        (tag) => !violationsByTag[tag],
-      );
+      const newDietary = dietary.filter((tag) => !violationsByTag[tag]);
       data.dietary = newDietary;
 
       // Reconstruct file with updated frontmatter
@@ -365,9 +390,7 @@ async function main() {
       report.fixed++;
       console.log(`  FIXED: removed ${Object.keys(violationsByTag).join(', ')}\n`);
     } else {
-      console.log(
-        `  WOULD FIX: remove ${Object.keys(violationsByTag).join(', ')}\n`,
-      );
+      console.log(`  WOULD FIX: remove ${Object.keys(violationsByTag).join(', ')}\n`);
     }
   }
 

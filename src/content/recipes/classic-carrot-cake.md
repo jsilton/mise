@@ -73,7 +73,7 @@ This Mercer Street classic is elevated using Stella Parks' (Bravetart) brown but
 
 ## Directions
 
-1.  **Brown high heat (400-450°F) the Butter:** Melt the 2/3 cup butter in a pan until the solids turn dark brown and smell nutty. Cool to room temperature.
+1.  **Brown the Butter:** Melt the 2/3 cup butter in a pan until the solids turn dark brown and smell nutty. Cool to room temperature.
 2.  **Bake:** Whisk the brown butter with eggs, carrots, and sugar. Fold in the dry ingredients. Pour into two 8-inch greased pans. Bake at 350°F for 25-30 minutes.
 3.  **The Syrup:** Boil the apple, sugar, and water for 5 minutes. Strain and discard solids. **Brush the warm syrup** over the warm cake layers immediately after removing them from the pans.
 4.  **Frosting:** Beat the cream cheese and butter until smooth. Add powdered sugar and vanilla.

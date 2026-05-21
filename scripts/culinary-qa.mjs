@@ -180,7 +180,7 @@ async function runQA() {
       let hasProtein = false;
       let proteinAmount = 0;
       let pastaAmount = 0;
-      let sauceAmount = 0;
+      const sauceAmount = 0;
 
       for (const ingredient of ingredients) {
         const ing = ingredient.toLowerCase();
@@ -208,11 +208,7 @@ async function runQA() {
         }
 
         // Detect sauce/liquid quantity
-        if (
-          /stock|broth|water|sauce|cream|milk|oil|wine|juice|yogurt|tomato|coconut/.test(
-            ing
-          )
-        ) {
+        if (/stock|broth|water|sauce|cream|milk|oil|wine|juice|yogurt|tomato|coconut/.test(ing)) {
           const quantity = parseQuantity(ingredient);
           if (quantity && /^(cup|ml|oz|tbsp)/.test(quantity.unit)) {
             const normalized = normalizeToGrams(quantity);
@@ -263,8 +259,7 @@ async function runQA() {
     console.log('Running time honesty checks...');
 
     for (const recipe of recipes) {
-      const { title, prepTime, cookTime, totalTime, vibe, advancePrep, markdown, file } =
-        recipe;
+      const { title, prepTime, cookTime, totalTime, vibe, advancePrep, markdown, file } = recipe;
 
       const prepMin = parseTime(prepTime);
       const cookMin = parseTime(cookTime);
@@ -296,10 +291,15 @@ async function runQA() {
       if (advancePrep && Array.isArray(advancePrep)) {
         const advanceStr = advancePrep.join(' ').toLowerCase();
         const hasMarinate =
-          advanceStr.includes('marinate') || advanceStr.includes('chill') || advanceStr.includes('overnight');
+          advanceStr.includes('marinate') ||
+          advanceStr.includes('chill') ||
+          advanceStr.includes('overnight');
         const markdownLower = markdown.toLowerCase();
 
-        if (hasMarinate && (markdownLower.includes('marinate') || markdownLower.includes('chill'))) {
+        if (
+          hasMarinate &&
+          (markdownLower.includes('marinate') || markdownLower.includes('chill'))
+        ) {
           // Check if substantial time is mentioned in directions
           const hasHours = markdownLower.match(/(\d+)\s*(?:hour|hr)/);
           if (hasHours && !totalTime.toLowerCase().includes('overnight')) {
@@ -336,7 +336,8 @@ async function runQA() {
             severity: 'warning',
             recipe: title,
             file,
-            message: 'cookingMethods includes "sear" but no temperature (e.g., 450°F) found in directions.',
+            message:
+              'cookingMethods includes "sear" but no temperature (e.g., 450°F) found in directions.',
           });
         }
       }
@@ -355,7 +356,8 @@ async function runQA() {
               severity: 'info',
               recipe: title,
               file,
-              message: 'cookingMethods includes "sear" with protein, but no mention of drying/patting dry. Surface drying is key for good sear.',
+              message:
+                'cookingMethods includes "sear" with protein, but no mention of drying/patting dry. Surface drying is key for good sear.',
             });
           }
         }
@@ -369,19 +371,25 @@ async function runQA() {
             severity: 'warning',
             recipe: title,
             file,
-            message: 'cookingMethods includes "braise" but no low temperature (e.g., 300°F) or "low heat" found in directions.',
+            message:
+              'cookingMethods includes "braise" but no low temperature (e.g., 300°F) or "low heat" found in directions.',
           });
         }
       }
 
       // Stir-fry requires high heat mention
       if (methods.includes('stir-fry') || methods.includes('stir fry')) {
-        if (!dirLower.includes('high') && !dirLower.includes('smoking') && !dirLower.match(/450|400/i)) {
+        if (
+          !dirLower.includes('high') &&
+          !dirLower.includes('smoking') &&
+          !dirLower.match(/450|400/i)
+        ) {
           issues.techniqueConsistency.push({
             severity: 'warning',
             recipe: title,
             file,
-            message: 'cookingMethods includes "stir-fry" but no mention of "high heat" or high temperature in directions.',
+            message:
+              'cookingMethods includes "stir-fry" but no mention of "high heat" or high temperature in directions.',
           });
         }
       }
@@ -393,7 +401,8 @@ async function runQA() {
             severity: 'warning',
             recipe: title,
             file,
-            message: 'cookingMethods includes "roast" or "bake" but no oven temperature found in directions.',
+            message:
+              'cookingMethods includes "roast" or "bake" but no oven temperature found in directions.',
           });
         }
       }
@@ -470,9 +479,7 @@ async function runQA() {
       }
 
       // Extract directions
-      const directionsMatch = markdown.match(
-        /##\s+Directions?\s*\n([\s\S]*?)(?=\n##|\Z)/i
-      );
+      const directionsMatch = markdown.match(/##\s+Directions?\s*\n([\s\S]*?)(?=\n##|\Z)/i);
       const directions = directionsMatch ? directionsMatch[1].trim() : '';
 
       // Check for bold headers in directions
@@ -527,8 +534,19 @@ async function runQA() {
     console.log('Checking metadata consistency...');
 
     for (const recipe of recipes) {
-      const { title, vibe, cookTime, origin, cuisines, dietary, ingredients, cookingMethods, equipment, file, role } =
-        recipe;
+      const {
+        title,
+        vibe,
+        cookTime,
+        origin,
+        cuisines,
+        dietary,
+        ingredients,
+        cookingMethods,
+        equipment,
+        file,
+        role,
+      } = recipe;
 
       const cookMin = parseTime(cookTime);
 
@@ -554,9 +572,20 @@ async function runQA() {
 
       // Vegetarian dietary but has meat
       if (dietary && dietary.includes('vegetarian')) {
-        const hasProtein = ingredients.some((i) =>
-          /chicken|beef|pork|fish|shrimp|turkey|duck|lamb|bacon|ham|sausage/.test(i.toLowerCase())
-        );
+        const hasProtein = ingredients.some((i) => {
+          const lower = i.toLowerCase();
+          // Exclude stock/broth references which may mention meat names as qualifiers
+          // e.g. "Vegetable Stock or Water (can use chicken stock for non-vegetarian)"
+          if (
+            /\bchicken\s+stock\b|\bchicken\s+broth\b|\bbeef\s+stock\b|\bbeef\s+broth\b/i.test(lower)
+          ) {
+            return false;
+          }
+          // Use word boundaries to prevent "ham" matching "graham", etc.
+          return /\bchicken\b|\bbeef\b|\bpork\b|\bfish\b|\bshrimp\b|\bturkey\b|\bduck\b|\blamb\b|\bbacon\b|\bham\b|\bsausage\b/.test(
+            lower
+          );
+        });
         if (hasProtein) {
           issues.metadataConsistency.push({
             severity: 'error',
@@ -574,7 +603,8 @@ async function runQA() {
             severity: 'info',
             recipe: title,
             file,
-            message: 'cookingMethods includes "grill" but equipment does not. Add grill to equipment list.',
+            message:
+              'cookingMethods includes "grill" but equipment does not. Add grill to equipment list.',
           });
         }
       }
@@ -585,9 +615,14 @@ async function runQA() {
         const isGF = dietary.includes('gluten-free');
 
         if (isVegan) {
-          const hasDairy = ingredients.some((i) =>
-            /cheese|milk|cream|butter|yogurt|egg/.test(i.toLowerCase())
-          );
+          // Non-dairy milks (coconut, oat, almond, soy) should not trigger dairy flag
+          const NON_DAIRY_MILK_PATTERN = /\b(coconut|oat|almond|soy|rice|hemp|cashew)\s+milk\b/i;
+          const hasDairy = ingredients.some((i) => {
+            const lower = i.toLowerCase();
+            // Skip non-dairy milks
+            if (NON_DAIRY_MILK_PATTERN.test(lower)) return false;
+            return /\bcheese\b|\bmilk\b|\bcream\b|\bbutter\b|\byogurt\b|\begg\b/.test(lower);
+          });
           if (hasDairy) {
             issues.metadataConsistency.push({
               severity: 'error',
@@ -600,7 +635,7 @@ async function runQA() {
 
         if (isGF) {
           const hasGluten = ingredients.some((i) =>
-            /bread|flour|pasta|wheat|barley|rye/.test(i.toLowerCase())
+            /\bbread\b|\bflour\b|\bpasta\b|\bwheat\b|\bbarley\b|\brye\b/.test(i.toLowerCase())
           );
           if (hasGluten) {
             issues.metadataConsistency.push({
@@ -751,9 +786,7 @@ async function runQA() {
     await fs.mkdir(path.dirname(reportPath), { recursive: true });
     await fs.writeFile(reportPath, JSON.stringify(report, null, 2));
 
-    console.log(
-      `\n\nFull report saved to public/culinary-qa-report.json\n`
-    );
+    console.log(`\n\nFull report saved to public/culinary-qa-report.json\n`);
 
     process.exit(errors.length > 0 ? 1 : 0);
   } catch (error) {

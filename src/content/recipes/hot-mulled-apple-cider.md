@@ -56,7 +56,7 @@ Never let mulled cider reach a rolling boil once spices are added - high heat tu
 
 ## Directions
 
-1.  **Combine:** In a large heavy-bottomed saucepan, combine the apple cider, brown high heat (400-450°F) sugar, allspice, 1 tsp cloves, salt, nutmeg, and cinnamon sticks.
+1.  **Combine:** In a large heavy-bottomed saucepan, combine the apple cider, brown sugar, allspice, 1 tsp cloves, salt, nutmeg, and cinnamon sticks.
 2.  **Heat:** Bring the mixture just to a boil over medium-high heat, stirring until the sugar dissolves.
 3.  **Infuse:** Immediately reduce heat to low. Cover and simmer for 20 minutes. **Do not let it reach a rolling boil.**
 4.  **Strain:** Pour the cider through a fine-mesh sieve into a clean pot or slow cooker to remove the whole spices.

@@ -1,15 +1,15 @@
 {
-  "timestamp": "2026-04-13T12:41:43.848Z",
-  "recipesScanned": 599,
+  "timestamp": "2026-05-21T01:19:46.792Z",
+  "recipesScanned": 606,
   "summary": {
     "ratioSanity": 45,
     "timeHonesty": 24,
-    "techniqueConsistency": 61,
+    "techniqueConsistency": 63,
     "duplicates": 23,
-    "contentQuality": 583,
-    "metadataConsistency": 11,
+    "contentQuality": 591,
+    "metadataConsistency": 7,
     "pairsWithValidation": 15,
-    "totalIssues": 762
+    "totalIssues": 768
   },
   "issues": {
     "ratioSanity": [
@@ -505,6 +505,12 @@
       },
       {
         "severity": "warning",
+        "recipe": "Chicken, Apple, and Butternut Stew",
+        "file": "chicken-apple-and-butternut-stew.md",
+        "message": "cookingMethods includes \"roast\" or \"bake\" but no oven temperature found in directions."
+      },
+      {
+        "severity": "warning",
         "recipe": "Chicken Coq au Vin",
         "file": "chicken-coq-au-vin.md",
         "message": "cookingMethods includes \"roast\" or \"bake\" but no oven temperature found in directions."
@@ -585,6 +591,12 @@
         "severity": "warning",
         "recipe": "Fennel and Carrot Soup",
         "file": "fennel-and-carrot-soup.md",
+        "message": "cookingMethods includes \"roast\" or \"bake\" but no oven temperature found in directions."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Slow Cooker French Dip Sandwiches",
+        "file": "french-dip-sandwiches.md",
         "message": "cookingMethods includes \"roast\" or \"bake\" but no oven temperature found in directions."
       },
       {
@@ -1439,6 +1451,18 @@
       },
       {
         "severity": "warning",
+        "recipe": "Chicken Biryani",
+        "file": "chicken-biryani.md",
+        "message": "Chef's Note is only 33 characters (should be ~150-200). Too brief to explain technique or context."
+      },
+      {
+        "severity": "info",
+        "recipe": "Chicken Biryani",
+        "file": "chicken-biryani.md",
+        "message": "Directions have 5 numbered steps but only 8 bold headers. Each step should have a bold header."
+      },
+      {
+        "severity": "warning",
         "recipe": "Chicken Chile Enchiladas",
         "file": "chicken-chile-enchiladas.md",
         "message": "Directions have only 0 steps (should be 3+). May be too simplified."
@@ -1733,6 +1757,12 @@
       },
       {
         "severity": "warning",
+        "recipe": "Coconut Rice and Peas",
+        "file": "coconut-rice-and-peas.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
         "recipe": "Classic Creamy Coleslaw",
         "file": "coleslaw.md",
         "message": "Directions have only 1 steps (should be 3+). May be too simplified."
@@ -2015,12 +2045,6 @@
       },
       {
         "severity": "warning",
-        "recipe": "Overnight Oats",
-        "file": "easy-overnight-oats.md",
-        "message": "Directions have only 1 steps (should be 3+). May be too simplified."
-      },
-      {
-        "severity": "warning",
         "recipe": "Pan-Seared Chicken Breasts",
         "file": "easy-pan-seared-chicken-breasts.md",
         "message": "Directions have only 1 steps (should be 3+). May be too simplified."
@@ -2198,6 +2222,12 @@
         "recipe": "Strawberry Vinaigrette",
         "file": "fresh-strawberry-vinaigrette-salad-dressing.md",
         "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Fried Sweet Plantains (Maduros)",
+        "file": "fried-plantains.md",
+        "message": "Chef's Note is only 93 characters (should be ~150-200). Too brief to explain technique or context."
       },
       {
         "severity": "warning",
@@ -2716,6 +2746,24 @@
         "message": "Directions have 6 numbered steps but only 7 bold headers. Each step should have a bold header."
       },
       {
+        "severity": "info",
+        "recipe": "Jerk Pork Shoulder",
+        "file": "jerk-pork-shoulder.md",
+        "message": "Directions have 8 numbered steps but only 10 bold headers. Each step should have a bold header."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Kachumber Salad",
+        "file": "kachumber-salad.md",
+        "message": "Directions have only 2 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "info",
+        "recipe": "Kachumber Salad",
+        "file": "kachumber-salad.md",
+        "message": "Directions have 2 numbered steps but only 3 bold headers. Each step should have a bold header."
+      },
+      {
         "severity": "warning",
         "recipe": "Kalbi",
         "file": "kalbi-grilled-korean-style-short-ribs.md",
@@ -3062,6 +3110,18 @@
         "recipe": "Mongolian Beef",
         "file": "mongolian-beef.md",
         "message": "Directions have 2 numbered steps but only 1 bold headers. Each step should have a bold header."
+      },
+      {
+        "severity": "warning",
+        "recipe": "Moroccan Carrot Salad",
+        "file": "moroccan-carrot-salad.md",
+        "message": "Directions have only 0 steps (should be 3+). May be too simplified."
+      },
+      {
+        "severity": "info",
+        "recipe": "Moroccan Chicken Tagine with Apricots, Chickpeas & Almonds",
+        "file": "moroccan-chicken-tagine-apricot-chickpea.md",
+        "message": "Directions have 3 numbered steps but only 5 bold headers. Each step should have a bold header."
       },
       {
         "severity": "warning",
@@ -4458,24 +4518,6 @@
         "message": "cookingMethods includes \"grill\" but equipment does not. Add grill to equipment list."
       },
       {
-        "severity": "error",
-        "recipe": "Key Lime Pie Ice Cream",
-        "file": "key-lime-pie-ice-cream.md",
-        "message": "dietary includes \"vegetarian\" but ingredients contain meat."
-      },
-      {
-        "severity": "error",
-        "recipe": "Mediterranean Grain Salad",
-        "file": "mediterranean-grain-salad.md",
-        "message": "dietary includes \"gluten-free\" but ingredients contain gluten. Mark as \"contains gluten\" or remove tag."
-      },
-      {
-        "severity": "error",
-        "recipe": "Parmigiano Reggiano Cheesecake",
-        "file": "parmigiano-reggiano-cheesecake.md",
-        "message": "dietary includes \"vegetarian\" but ingredients contain meat."
-      },
-      {
         "severity": "info",
         "recipe": "Rice Bowl Station (Buddha Bowls)",
         "file": "rice-bowl-station-buddha-bowls.md",
@@ -4492,12 +4534,6 @@
         "recipe": "Peach and Avocado Salad",
         "file": "spicy-peach-and-avocado-salad.md",
         "message": "cookingMethods includes \"grill\" but equipment does not. Add grill to equipment list."
-      },
-      {
-        "severity": "error",
-        "recipe": "Vegetable Minestrone (Italian Grandmother's Soup)",
-        "file": "vegetable-minestrone.md",
-        "message": "dietary includes \"vegetarian\" but ingredients contain meat."
       },
       {
         "severity": "info",
