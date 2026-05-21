@@ -105,6 +105,31 @@ const searchIndexData: RecipeSearchItem[] = recipes.map((recipe) => ({
   const noResults = document.getElementById('noResults');
   const clearSearchBtn = document.getElementById('clearSearch');
 
+  function updateUrlParams() {
+    const params = new URLSearchParams();
+    const query = searchInput?.value?.trim() || '';
+    if (query) {
+      params.set('q', query);
+    }
+
+    const state = (window as any).filterState || {};
+    if (state.difficulty) params.set('difficulty', state.difficulty);
+    if (state.role) params.set('role', state.role);
+    if (state.vibe) params.set('vibe', state.vibe);
+    if (state.cuisine) params.set('cuisine', state.cuisine);
+    if (state.dietary) params.set('dietary', state.dietary);
+    if (state.cookingMethod) params.set('method', state.cookingMethod);
+    if (state.occasion) params.set('occasion', state.occasion);
+    if (state.flavor) params.set('flavor', state.flavor);
+    if (state.sortMode && state.sortMode !== 'title') {
+      params.set('sort', state.sortMode);
+    }
+
+    const queryString = params.toString();
+    const newUrl = queryString ? `?${queryString}` : window.location.pathname;
+    history.replaceState(null, '', newUrl);
+  }
+
   function applyFiltersAndSort() {
     const query = searchInput?.value?.toLowerCase() || '';
     const state = (window as any).filterState || {};
@@ -221,6 +246,9 @@ const searchIndexData: RecipeSearchItem[] = recipes.map((recipe) => ({
     if (noResults) {
       noResults.style.display = visibleCards.length === 0 ? 'block' : 'none';
     }
+
+    // Synchronize to URL query parameters
+    updateUrlParams();
   }
 
   // Expose globally so FilterPanel can call it
@@ -256,8 +284,6 @@ const searchIndexData: RecipeSearchItem[] = recipes.map((recipe) => ({
   // Clear search button
   clearSearchBtn?.addEventListener('click', () => {
     if (searchInput) searchInput.value = '';
-    history.replaceState(null, '', window.location.pathname);
-    (window as any).updateFilterState?.();
     applyFiltersAndSort();
     searchInput?.focus();
   });
