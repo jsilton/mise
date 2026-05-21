@@ -39,11 +39,7 @@ export function createRecipeSearchIndex(recipes: RecipeSearchItem[]): Fuse<Recip
 }
 
 // Perform fuzzy search on recipes
-export function searchRecipes(
-  query: string,
-  fuse: Fuse<RecipeSearchItem>,
-  recipes: RecipeSearchItem[]
-): SearchResult[] {
+export function searchRecipes(query: string, fuse: Fuse<RecipeSearchItem>): SearchResult[] {
   if (!query || query.trim().length === 0) {
     return [];
   }

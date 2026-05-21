@@ -3,8 +3,6 @@ import path from 'path';
 import matter from 'gray-matter';
 import { fileURLToPath } from 'url';
 
-/* eslint-disable no-console */
-
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const RECIPES_DIR = path.resolve(__dirname, '../src/content/recipes');
 
@@ -100,34 +98,6 @@ function parseTime(timeStr) {
   if (minMatch) totalMinutes += parseInt(minMatch[1]);
 
   return totalMinutes;
-}
-
-// Check for brightness/acid in directions
-function hasBrightness(directions) {
-  const brightnessTerms = [
-    'lemon',
-    'lime',
-    'vinegar',
-    'acid',
-    'yogurt',
-    'sour cream',
-    'crema',
-    'squeeze',
-    'pickle',
-    'fermented',
-    'tartness',
-    'bright',
-    'fresh',
-    'citrus',
-  ];
-  const dirText = directions.toLowerCase();
-  return brightnessTerms.some((term) => dirText.includes(term));
-}
-
-// Check for specific techniques in directions
-function checkTechnique(directions, techniques) {
-  const dirText = directions.toLowerCase();
-  return techniques.every((term) => dirText.includes(term.toLowerCase()));
 }
 
 async function runQA() {
@@ -411,7 +381,6 @@ async function runQA() {
     // ─── 4. DUPLICATE/NEAR-DUPLICATE DETECTION ───
     console.log('Detecting duplicates...');
 
-    const titleDistance = new Map();
     const ingredientHashes = new Map();
 
     for (let i = 0; i < recipes.length; i++) {
@@ -447,7 +416,7 @@ async function runQA() {
     }
 
     // Check for identical ingredient lists
-    for (const [hash, recipeGroup] of ingredientHashes) {
+    for (const recipeGroup of ingredientHashes.values()) {
       if (recipeGroup.length > 1) {
         issues.duplicates.push({
           severity: 'warning',
@@ -545,7 +514,6 @@ async function runQA() {
         cookingMethods,
         equipment,
         file,
-        role,
       } = recipe;
 
       const cookMin = parseTime(cookTime);
@@ -660,7 +628,7 @@ async function runQA() {
     const referencedBaseRecipes = new Set();
 
     for (const recipe of recipes) {
-      const { title, pairsWith, slug, file, role } = recipe;
+      const { title, pairsWith, file } = recipe;
 
       if (!pairsWith || !Array.isArray(pairsWith) || pairsWith.length === 0) continue;
 

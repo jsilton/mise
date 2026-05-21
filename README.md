@@ -92,7 +92,7 @@ src/
 │   ├── TagBadge.astro
 │   └── TagSection.astro
 ├── content/
-│   └── recipes/         # 550+ recipes in Markdown
+│   └── recipes/         # 600+ recipes in Markdown
 ├── layouts/
 │   └── Layout.astro     # Base page layout
 ├── pages/
@@ -108,17 +108,11 @@ scripts/
 
 ### Key Documentation
 
-- **[CODE_PRACTICES.md](CODE_PRACTICES.md)** - Development standards and architecture
 - **[DEPLOYMENT.md](DEPLOYMENT.md)** - Deployment workflow and checklist
 - **[CONTRIBUTING.md](CONTRIBUTING.md)** - How to contribute recipes
-- **[KNOWLEDGE_PRESERVATION.md](KNOWLEDGE_PRESERVATION.md)** - Guide for future contributors
-- **[CHANGELOG.md](CHANGELOG.md)** - Version history and changes
 - **[LICENSE](LICENSE)** - MIT License for code, usage terms for recipes
-
-- **[CODE_PRACTICES.md](./CODE_PRACTICES.md)** - Development standards, component architecture, testing guidelines
-- **[DEPLOYMENT.md](./DEPLOYMENT.md)** - Deployment workflow, pre-deployment checklist, rollback procedures
-- **[CONTRIBUTING.md](./CONTRIBUTING.md)** - How to add recipes and follow conventions
 - **[src/knowledge/TAGGING_GUIDE.md](./src/knowledge/TAGGING_GUIDE.md)** - Recipe tagging best practices
+- **[src/knowledge/NAMING_STANDARDS.md](./src/knowledge/NAMING_STANDARDS.md)** - Naming conventions for recipe content
 
 2.  **Fire the Oven (Dev):**
 

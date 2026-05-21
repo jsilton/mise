@@ -10,6 +10,8 @@ interface Recipe {
   data: {
     title: string;
     difficulty?: string;
+    role?: string;
+    vibe?: string;
     cuisines?: string[];
     dietary?: string[];
     cookingMethods?: string[];
@@ -37,6 +39,8 @@ const primaryDietaryTag =
   href={`${baseUrl}recipes/${recipe.slug}`}
   class="recipe-card group bg-white dark:bg-slate-900 rounded-xl border border-slate-200/80 dark:border-slate-700/80 hover:border-indigo-300 dark:hover:border-indigo-500 shadow-soft hover:shadow-soft-lg transition-all duration-200 overflow-hidden flex flex-col h-full"
   data-difficulty={recipe.data.difficulty}
+  data-role={recipe.data.role}
+  data-vibe={recipe.data.vibe}
   data-cuisines={recipe.data.cuisines?.join(',')}
   data-dietary={recipe.data.dietary?.join(',')}
   data-cooking-methods={recipe.data.cookingMethods?.join(',')}

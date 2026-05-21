@@ -28,24 +28,7 @@ function isSkeletalNote(note) {
 
 // Template-based Chef's Note generation
 function generateChefsNote(recipe) {
-  const {
-    title,
-    origin,
-    cuisines = [],
-    cookingMethods = [],
-    role,
-    vibe,
-    difficulty,
-    ingredients = [],
-    prepTime,
-    cookTime,
-  } = recipe;
-
-  // Extract key ingredients (first 3 main ingredients, skip section dividers)
-  const keyIngredients = ingredients
-    .filter((ing) => !ing.startsWith('---'))
-    .slice(0, 3)
-    .map((ing) => ing.split(',')[0].trim());
+  const { origin, cuisines = [], cookingMethods = [], role, vibe, difficulty, cookTime } = recipe;
 
   let note = '';
   let originSentence = '';
@@ -118,7 +101,6 @@ const files = fs
   .sort();
 
 let skeletalCount = 0;
-let updatedCount = 0;
 const updates = [];
 
 console.log(`\nScanning ${files.length} recipes for skeletal Chef's Notes...\n`);
@@ -142,7 +124,7 @@ files.forEach((file) => {
     const newNote = generateChefsNote(data);
     const oldBody = body.replace(
       /## Chef's Note\n\n[\s\S]*?(?=\n## |\n---|\Z)/,
-      `## Chef's Note\n\n${newNote}`,
+      `## Chef's Note\n\n${newNote}`
     );
 
     updates.push({
@@ -155,8 +137,6 @@ files.forEach((file) => {
       newContent: matter.stringify(oldBody, data),
       data,
     });
-
-    updatedCount++;
   }
 });
 
@@ -169,7 +149,9 @@ if (dryRun) {
     console.log(`${idx + 1}. ${update.file}`);
     console.log(`   Title: ${update.data.title}`);
     console.log(`   Origin: ${update.data.origin || 'Not specified'}`);
-    console.log(`   Cuisines: ${Array.isArray(update.data.cuisines) ? update.data.cuisines.join(', ') : 'Not specified'}`);
+    console.log(
+      `   Cuisines: ${Array.isArray(update.data.cuisines) ? update.data.cuisines.join(', ') : 'Not specified'}`
+    );
     console.log(`   Vibe: ${update.data.vibe}`);
     console.log(`\n   OLD: "${update.oldNote}"`);
     console.log(`\n   NEW: "${update.newNote}"`);
@@ -214,5 +196,5 @@ if (errorCount > 0) {
 console.log(`\nNext steps:`);
 console.log(`  1. Review the changes: git diff src/content/recipes/`);
 console.log(`  2. Run validation: npm run validate-recipes`);
-console.log(`  3. Review quality: npm run chef-review`);
+console.log(`  3. Review quality: npm run culinary-qa`);
 console.log(`  4. Commit: git add . && git commit -m "refactor: rewrite skeletal Chef's Notes"`);

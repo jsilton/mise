@@ -70,9 +70,9 @@ The Kitchen Standard draws from many traditions. These are the approaches that i
 
 **The Obsessive Testers** — Serious Eats (Kenji López-Alt), America's Test Kitchen, Cook's Illustrated. They test 30 versions so you don't have to. When a recipe says "this is the ratio" or "this step actually doesn't matter," it's because someone proved it. We borrow their rigor: understand why a technique works, then decide if it's worth the time for a weeknight.
 
-**The Science Explainers** — Alton Brown (Good Eats), Harold McGee, Samin Nosrat (Salt Fat Acid Heat). They teach the *why* behind cooking so you can improvise. Alton's wonton soup or Thanksgiving turkey aren't just recipes — they're lessons. When we write Chef's Notes, this is the spirit: give people one insight that makes them a better cook, not just a follower of instructions.
+**The Science Explainers** — Alton Brown (Good Eats), Harold McGee, Samin Nosrat (Salt Fat Acid Heat). They teach the _why_ behind cooking so you can improvise. Alton's wonton soup or Thanksgiving turkey aren't just recipes — they're lessons. When we write Chef's Notes, this is the spirit: give people one insight that makes them a better cook, not just a follower of instructions.
 
-**The Home Cook Traditions** — This is the deepest well. Every culture has home cooks who've perfected dishes over generations without ever writing a recipe. A Cantonese grandmother's wok timing. A Mexican abuela's masa technique. An Italian nonna's pasta water instinct. A Korean mother's kimchi jjigae that's never the same twice but always right. An Indian home cook's understanding of when the masala is ready by smell alone. These traditions are technique, even when they don't use that word. We learn from them by paying attention to *how* they actually cook, not just what Western food media says about their cuisine.
+**The Home Cook Traditions** — This is the deepest well. Every culture has home cooks who've perfected dishes over generations without ever writing a recipe. A Cantonese grandmother's wok timing. A Mexican abuela's masa technique. An Italian nonna's pasta water instinct. A Korean mother's kimchi jjigae that's never the same twice but always right. An Indian home cook's understanding of when the masala is ready by smell alone. These traditions are technique, even when they don't use that word. We learn from them by paying attention to _how_ they actually cook, not just what Western food media says about their cuisine.
 
 **The Restaurant-to-Home Translators** — David Chang, Yotam Ottolenghi, Marcella Hazan, Diana Kennedy, Fuschia Dunlop, Madhur Jaffrey. Chefs and food writers who bridge restaurant-level knowledge and home cooking reality. They respect the source cuisine deeply and make it accessible without dumbing it down. When we adapt a dish, this is the standard: honor the original, explain what we changed and why, and make sure the home version is worth cooking.
 
@@ -228,13 +228,13 @@ Context: Family of 5 (kids ages 8, 10, 12). Weeknights are constrained by school
 
 | Day       | Profile        | Active Time | Density         | Style                                       |
 | --------- | -------------- | ----------- | --------------- | ------------------------------------------- |
-| Monday    | Quick Recovery | 20-30 min   | Light-moderate  | Comfort but fast — everyone's adjusting      |
-| Tuesday   | One-Pot Night  | 25-35 min   | Moderate        | Minimal cleanup, often activity nights       |
-| Wednesday | Crowd-Pleaser  | 30-40 min   | Moderate-hearty | Mid-week morale boost, kid-friendly          |
-| Thursday  | Adventure Lite | 30-45 min   | Moderate-hearty | Try something new, but keep it approachable  |
-| Friday    | Easy / Fun     | 15-25 min   | Any             | Pizza, tacos, build-your-own, or takeout     |
-| Saturday  | Project Day    | 60-120 min  | Any             | Learning opportunity, kids can help cook     |
-| Sunday    | Prep + Feast   | 45 min cook | Moderate-hearty | Family favorite + batch prep for the week    |
+| Monday    | Quick Recovery | 20-30 min   | Light-moderate  | Comfort but fast — everyone's adjusting     |
+| Tuesday   | One-Pot Night  | 25-35 min   | Moderate        | Minimal cleanup, often activity nights      |
+| Wednesday | Crowd-Pleaser  | 30-40 min   | Moderate-hearty | Mid-week morale boost, kid-friendly         |
+| Thursday  | Adventure Lite | 30-45 min   | Moderate-hearty | Try something new, but keep it approachable |
+| Friday    | Easy / Fun     | 15-25 min   | Any             | Pizza, tacos, build-your-own, or takeout    |
+| Saturday  | Project Day    | 60-120 min  | Any             | Learning opportunity, kids can help cook    |
+| Sunday    | Prep + Feast   | 45 min cook | Moderate-hearty | Family favorite + batch prep for the week   |
 
 ### Planning Constraints
 
@@ -258,7 +258,7 @@ Context: Family of 5 (kids ages 8, 10, 12). Weeknights are constrained by school
 
 ### "Fix recipes that need work"
 
-1. Run `npm run chef-review` to get the quality report
+1. Run `npm run culinary-qa` to get the quality report
 2. Read the lowest-scoring recipes
 3. Apply the 4-lens critique
 4. Rewrite Chef's Notes, flesh out Directions, complete frontmatter
@@ -290,20 +290,18 @@ Context: Family of 5 (kids ages 8, 10, 12). Weeknights are constrained by school
 
 ## Key Files
 
-| Purpose                | Path                             |
-| ---------------------- | -------------------------------- |
-| Recipe schema (Zod)    | `src/content/config.ts`          |
-| Recipe validation      | `scripts/validate-recipes.mjs`   |
-| Chef quality review    | `scripts/chef-review.mjs`        |
-| QA test suite          | `scripts/qa-test.mjs`            |
-| Knowledge codex rules  | `src/knowledge/codex/*.json`     |
-| Technique references   | `src/knowledge/techniques/*.md`  |
-| Tagging guide          | `src/knowledge/TAGGING_GUIDE.md` |
-| Chef's Note guidelines | `CHEFS_NOTE_GUIDELINES.md`       |
-| Meal planning strategy | `MEAL_PLANNING_STRATEGY.md`      |
-| Code practices         | `CODE_PRACTICES.md`              |
-| Site config            | `astro.config.mjs`               |
-| Tailwind config        | `tailwind.config.mjs`            |
+| Purpose                 | Path                             |
+| ----------------------- | -------------------------------- |
+| Recipe schema (Zod)     | `src/content/config.ts`          |
+| Recipe validation       | `scripts/validate-recipes.mjs`   |
+| Culinary quality review | `scripts/culinary-qa.mjs`        |
+| QA test suite           | `scripts/qa-test.mjs`            |
+| Knowledge codex rules   | `src/knowledge/codex/*.json`     |
+| Technique references    | `src/knowledge/techniques/*.md`  |
+| Tagging guide           | `src/knowledge/TAGGING_GUIDE.md` |
+| Chef's Note guidelines  | `CHEFS_NOTE_GUIDELINES.md`       |
+| Site config             | `astro.config.mjs`               |
+| Tailwind config         | `tailwind.config.mjs`            |
 
 ## Cuisine Tagging Rules
 
@@ -312,7 +310,7 @@ Context: Family of 5 (kids ages 8, 10, 12). Weeknights are constrained by school
 - Valid multi-word: `Middle Eastern` (space), invalid: `Middle-Eastern` (hyphen)
 - Common cuisines: American, Italian, Chinese, Japanese, Korean, Thai, Vietnamese, Indian, Mexican, French, Greek, Middle Eastern, Jewish, Southern, Mediterranean, Caribbean, Filipino, Brazilian
 
-## Known Gaps (from MEAL_PLANNING_STRATEGY.md)
+## Known Gaps
 
 Areas where more recipes are needed, prioritized by family impact:
 
@@ -332,7 +330,7 @@ Areas where more recipes are needed, prioritized by family impact:
 npm run dev              # Dev server at localhost:4321/mise/
 npm run build            # Production build to /dist/
 npm run validate-recipes # Check all recipe frontmatter + structure
-npm run chef-review      # Quality audit with culinary scoring
+npm run culinary-qa      # Quality audit with culinary scoring
 npm run qa               # Full QA test suite
 npm run lint             # ESLint
 npm run format           # Prettier

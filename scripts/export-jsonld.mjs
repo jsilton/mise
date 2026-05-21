@@ -2,8 +2,6 @@ import fs from 'fs/promises';
 import path from 'path';
 import matter from 'gray-matter';
 
-/* eslint-disable no-console */
-
 const RECIPES_DIR = path.resolve('src/content/recipes');
 const EXPORTS_DIR = path.resolve('exports');
 
@@ -137,9 +135,7 @@ async function createRecipeJsonLd(filePath) {
     totalTime: parseTime(data.totalTime),
     recipeYield: data.servings || '4',
     recipeCategory: data.role || 'main',
-    recipeCuisine: Array.isArray(data.cuisines)
-      ? data.cuisines.join(', ')
-      : 'international',
+    recipeCuisine: Array.isArray(data.cuisines) ? data.cuisines.join(', ') : 'international',
     recipeIngredient: Array.isArray(data.ingredients) ? data.ingredients : [],
     recipeInstructions: directions.length > 0 ? directions : [],
   };
@@ -200,19 +196,16 @@ async function main() {
       '@context': 'https://schema.org',
       '@type': 'Collection',
       name: 'Mise Kitchen Standard - Recipes',
-      description: 'A comprehensive culinary knowledge base and collection of recipes from the Mise Kitchen Standard',
+      description:
+        'A comprehensive culinary knowledge base and collection of recipes from the Mise Kitchen Standard',
       url: 'https://jordansilton.com/mise/',
       recipes: recipes,
     };
 
     await fs.writeFile(outputPath, JSON.stringify(output, null, 2));
 
-    console.log(
-      `\n✅ JSON-LD export complete: ${outputPath}`
-    );
-    console.log(
-      `   Total recipes: ${recipes.length}`
-    );
+    console.log(`\n✅ JSON-LD export complete: ${outputPath}`);
+    console.log(`   Total recipes: ${recipes.length}`);
   } catch (error) {
     console.error('Export failed:', error.message);
     process.exit(1);

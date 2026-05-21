@@ -3,7 +3,7 @@
   "title": "Development Standards & Architecture",
   "description": "Core coding practices, component architecture, and deployment workflow for the project",
   "severity": "high",
-  "source": "CODE_PRACTICES.md",
+  "source": "src/knowledge/codex/architecture-standards.json",
   "created": "2026-01-04",
   "guidelines": [
     {
@@ -105,7 +105,7 @@
     }
   ],
   "knowledge_references": [
-    "CODE_PRACTICES.md - comprehensive standards guide",
+    "src/knowledge/codex/architecture-standards.json - architecture and practices reference",
     "DEPLOYMENT.md - deployment workflow and checklist",
     "scripts/qa-test.mjs - automated QA verification",
     "CONTRIBUTING.md - content guidelines"

@@ -1,5 +1,4 @@
 #!/usr/bin/env node
-/* eslint-disable no-console */
 
 /**
  * QA & Regression Testing Suite
@@ -49,6 +48,13 @@ function recordTest(passed) {
   if (passed) passedTests++;
 }
 
+function listRecipeMarkdownFiles() {
+  return fs
+    .readdirSync(path.join(process.cwd(), 'src/content/recipes'))
+    .filter((file) => file.endsWith('.md'))
+    .sort();
+}
+
 // ============================================================================
 // BUILD VERIFICATION
 // ============================================================================
@@ -93,8 +99,8 @@ try {
   recordTest(testResult('Recipe validation passes', passed));
 
   // Count recipes
-  const recipeFiles = fs.readdirSync(path.join(process.cwd(), 'src/content/recipes'));
-  testResult(`All ${recipeFiles.length} recipes present`, recipeFiles.length > 450);
+  const recipeFiles = listRecipeMarkdownFiles();
+  recordTest(testResult(`All ${recipeFiles.length} recipes present`, recipeFiles.length > 450));
 
   // Check for valid frontmatter
   const recipesWithIssues = [];
@@ -130,7 +136,8 @@ const checks = [
   { path: 'src/components/TagSection.astro', name: 'TagSection component exists' },
   { path: 'src/layouts/Layout.astro', name: 'Layout template exists' },
   { path: 'CONTRIBUTING.md', name: 'Contributing guide exists' },
-  { path: 'CODE_PRACTICES.md', name: 'Code practices guide exists' },
+  { path: 'DEPLOYMENT.md', name: 'Deployment guide exists' },
+  { path: 'src/knowledge/TAGGING_GUIDE.md', name: 'Tagging guide exists' },
 ];
 
 checks.forEach((check) => {
@@ -170,7 +177,7 @@ recordTest(testResult('TagBadge has category mapping', tagBadgeContent.includes(
 
 section('5. CONTENT QUALITY CHECKS');
 
-const sampleRecipes = fs.readdirSync(path.join(process.cwd(), 'src/content/recipes')).slice(0, 5);
+const sampleRecipes = listRecipeMarkdownFiles().slice(0, 5);
 let qualityIssues = 0;
 
 sampleRecipes.forEach((file) => {
@@ -217,7 +224,8 @@ section('6. DOCUMENTATION');
 const docChecks = [
   { path: 'README.md', key: 'recipe codex', name: 'README describes project' },
   { path: 'CONTRIBUTING.md', key: 'frontmatter', name: 'Contributing guide complete' },
-  { path: 'CODE_PRACTICES.md', key: 'Component Architecture', name: 'Code practices documented' },
+  { path: 'DEPLOYMENT.md', key: 'Deployment', name: 'Deployment guide complete' },
+  { path: 'src/knowledge/TAGGING_GUIDE.md', key: 'Tagging', name: 'Tagging guide complete' },
 ];
 
 docChecks.forEach((doc) => {

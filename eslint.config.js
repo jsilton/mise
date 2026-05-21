@@ -33,6 +33,15 @@ export default [
     },
   },
 
+  // These files use controlled raw HTML: static local SVG snippets and
+  // internally generated JSON-LD, respectively.
+  {
+    files: ['src/components/DietaryBadges.astro', 'src/layouts/Layout.astro'],
+    rules: {
+      'astro/no-set-html-directive': 'off',
+    },
+  },
+
   // TypeScript/JavaScript files
   {
     files: ['**/*.ts', '**/*.mjs', '**/*.js'],
@@ -52,6 +61,14 @@ export default [
       'no-console': ['warn', { allow: ['warn', 'error'] }],
       'prefer-const': 'error',
       'no-var': 'error',
+    },
+  },
+
+  // Repository scripts are CLIs; console output is their user interface.
+  {
+    files: ['scripts/**/*.mjs', 'scripts/**/*.js'],
+    rules: {
+      'no-console': 'off',
     },
   },
 

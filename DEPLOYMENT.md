@@ -360,7 +360,7 @@ npm run validate-recipes
 
 ## Support & Questions
 
-- **Code standards:** See `CODE_PRACTICES.md`
+- **Project standards:** See `CLAUDE.md`
 - **Content guidelines:** See `CONTRIBUTING.md`
 - **Tagging system:** See `src/knowledge/TAGGING_GUIDE.md`
 - **Validator rules:** See `/scripts/validate-recipes.mjs`

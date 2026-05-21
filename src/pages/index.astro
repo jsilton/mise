@@ -25,8 +25,12 @@ const searchIndexData: RecipeSearchItem[] = recipes.map((recipe) => ({
   <!-- Page Header -->
   <div class="flex flex-col md:flex-row justify-between items-start md:items-end mb-10 gap-6">
     <div>
-      <h1 class="text-3xl font-bold text-slate-900 dark:text-slate-100 tracking-tight">The Codex</h1>
-      <p class="text-slate-500 dark:text-slate-400 mt-1.5 text-sm">Exploring {recipes.length} family recipes.</p>
+      <h1 class="text-3xl font-bold text-slate-900 dark:text-slate-100 tracking-tight">
+        The Codex
+      </h1>
+      <p class="text-slate-500 dark:text-slate-400 mt-1.5 text-sm">
+        Exploring {recipes.length} family recipes.
+      </p>
     </div>
     <div class="w-full md:w-80">
       <SearchBar id="searchInput" placeholder="Search by name or ingredient..." />
@@ -43,8 +47,15 @@ const searchIndexData: RecipeSearchItem[] = recipes.map((recipe) => ({
 
   <!-- No Results State -->
   <div id="noResults" class="hidden text-center py-20">
-    <div class="inline-flex items-center justify-center w-16 h-16 rounded-full bg-slate-100 dark:bg-slate-800 mb-4">
-      <svg class="w-8 h-8 text-slate-400 dark:text-slate-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+    <div
+      class="inline-flex items-center justify-center w-16 h-16 rounded-full bg-slate-100 dark:bg-slate-800 mb-4"
+    >
+      <svg
+        class="w-8 h-8 text-slate-400 dark:text-slate-600"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke="currentColor"
+      >
         <path
           stroke-linecap="round"
           stroke-linejoin="round"
@@ -54,7 +65,9 @@ const searchIndexData: RecipeSearchItem[] = recipes.map((recipe) => ({
       </svg>
     </div>
     <h3 class="text-lg font-medium text-slate-900 dark:text-slate-100">No recipes found</h3>
-    <p class="text-slate-500 dark:text-slate-400 mt-1">Try adjusting your search terms or filters.</p>
+    <p class="text-slate-500 dark:text-slate-400 mt-1">
+      Try adjusting your search terms or filters.
+    </p>
     <button
       id="clearSearch"
       class="mt-4 text-sm font-medium text-indigo-600 dark:text-indigo-400 hover:text-indigo-800 dark:hover:text-indigo-300 hover:underline"
@@ -106,6 +119,8 @@ const searchIndexData: RecipeSearchItem[] = recipes.map((recipe) => ({
         const el = card as HTMLElement;
         const slug = el.getAttribute('href')?.split('/').pop();
         const cardDifficulty = el.dataset.difficulty || '';
+        const cardRole = el.dataset.role || '';
+        const cardVibe = el.dataset.vibe || '';
         const cardCuisines = el.dataset.cuisines?.split(',').filter((c) => c) || [];
         const cardDietary = el.dataset.dietary?.split(',').filter((d) => d) || [];
         const cardMethods = el.dataset.cookingMethods?.split(',').filter((m) => m) || [];
@@ -114,6 +129,8 @@ const searchIndexData: RecipeSearchItem[] = recipes.map((recipe) => ({
 
         const matchesFuzzySearch = fuzzySlugSet.has(slug);
         const matchesDifficulty = !state.difficulty || cardDifficulty === state.difficulty;
+        const matchesRole = !state.role || cardRole === state.role;
+        const matchesVibe = !state.vibe || cardVibe === state.vibe;
         const matchesCuisine = !state.cuisine || cardCuisines.includes(state.cuisine);
         const matchesDietary = !state.dietary || cardDietary.includes(state.dietary);
         const matchesMethod = !state.cookingMethod || cardMethods.includes(state.cookingMethod);
@@ -121,12 +138,23 @@ const searchIndexData: RecipeSearchItem[] = recipes.map((recipe) => ({
         const matchesFlavor = !state.flavor || cardFlavors.includes(state.flavor);
 
         const isVisible =
-          matchesFuzzySearch && matchesDifficulty && matchesCuisine &&
-          matchesDietary && matchesMethod && matchesOccasion && matchesFlavor;
+          matchesFuzzySearch &&
+          matchesDifficulty &&
+          matchesRole &&
+          matchesVibe &&
+          matchesCuisine &&
+          matchesDietary &&
+          matchesMethod &&
+          matchesOccasion &&
+          matchesFlavor;
 
         if (isVisible) {
           el.style.display = 'flex';
-          visibleCards.push({ card: el, difficulty: cardDifficulty, prepTime: el.dataset.prepTime || '' });
+          visibleCards.push({
+            card: el,
+            difficulty: cardDifficulty,
+            prepTime: el.dataset.prepTime || '',
+          });
         } else {
           el.style.display = 'none';
         }
@@ -135,6 +163,8 @@ const searchIndexData: RecipeSearchItem[] = recipes.map((recipe) => ({
       recipeCards.forEach((card) => {
         const el = card as HTMLElement;
         const cardDifficulty = el.dataset.difficulty || '';
+        const cardRole = el.dataset.role || '';
+        const cardVibe = el.dataset.vibe || '';
         const cardCuisines = el.dataset.cuisines?.split(',').filter((c) => c) || [];
         const cardDietary = el.dataset.dietary?.split(',').filter((d) => d) || [];
         const cardMethods = el.dataset.cookingMethods?.split(',').filter((m) => m) || [];
@@ -142,6 +172,8 @@ const searchIndexData: RecipeSearchItem[] = recipes.map((recipe) => ({
         const cardFlavors = el.dataset.flavorProfile?.split(',').filter((f) => f) || [];
 
         const matchesDifficulty = !state.difficulty || cardDifficulty === state.difficulty;
+        const matchesRole = !state.role || cardRole === state.role;
+        const matchesVibe = !state.vibe || cardVibe === state.vibe;
         const matchesCuisine = !state.cuisine || cardCuisines.includes(state.cuisine);
         const matchesDietary = !state.dietary || cardDietary.includes(state.dietary);
         const matchesMethod = !state.cookingMethod || cardMethods.includes(state.cookingMethod);
@@ -149,12 +181,22 @@ const searchIndexData: RecipeSearchItem[] = recipes.map((recipe) => ({
         const matchesFlavor = !state.flavor || cardFlavors.includes(state.flavor);
 
         const isVisible =
-          matchesDifficulty && matchesCuisine && matchesDietary &&
-          matchesMethod && matchesOccasion && matchesFlavor;
+          matchesDifficulty &&
+          matchesRole &&
+          matchesVibe &&
+          matchesCuisine &&
+          matchesDietary &&
+          matchesMethod &&
+          matchesOccasion &&
+          matchesFlavor;
 
         if (isVisible) {
           el.style.display = 'flex';
-          visibleCards.push({ card: el, difficulty: cardDifficulty, prepTime: el.dataset.prepTime || '' });
+          visibleCards.push({
+            card: el,
+            difficulty: cardDifficulty,
+            prepTime: el.dataset.prepTime || '',
+          });
         } else {
           el.style.display = 'none';
         }
@@ -166,7 +208,9 @@ const searchIndexData: RecipeSearchItem[] = recipes.map((recipe) => ({
       visibleCards.sort((a, b) => parseInt(a.prepTime || '0') - parseInt(b.prepTime || '0'));
     } else if (state.sortMode === 'difficulty') {
       const diffOrder: Record<string, number> = { easy: 0, intermediate: 1, hard: 2 };
-      visibleCards.sort((a, b) => (diffOrder[a.difficulty] ?? 99) - (diffOrder[b.difficulty] ?? 99));
+      visibleCards.sort(
+        (a, b) => (diffOrder[a.difficulty] ?? 99) - (diffOrder[b.difficulty] ?? 99)
+      );
     }
 
     // Reorder cards in grid
@@ -185,15 +229,41 @@ const searchIndexData: RecipeSearchItem[] = recipes.map((recipe) => ({
   // Search input listener
   searchInput?.addEventListener('input', applyFiltersAndSort);
 
+  function setSelectFromParam(id: string, value: string | null) {
+    if (!value) return;
+    const select = document.getElementById(id) as HTMLSelectElement | null;
+    if (!select) return;
+    const hasOption = Array.from(select.options).some((option) => option.value === value);
+    if (hasOption) select.value = value;
+  }
+
+  function applyInitialUrlState() {
+    const params = new URLSearchParams(window.location.search);
+    const query = params.get('q') || params.get('search');
+    if (query && searchInput) searchInput.value = query;
+
+    setSelectFromParam('filterDifficulty', params.get('difficulty'));
+    setSelectFromParam('filterRole', params.get('role'));
+    setSelectFromParam('filterVibe', params.get('vibe'));
+    setSelectFromParam('filterCuisine', params.get('cuisine'));
+    setSelectFromParam('filterDietary', params.get('dietary'));
+    setSelectFromParam('filterCookingMethod', params.get('method') || params.get('cookingMethod'));
+    setSelectFromParam('filterOccasion', params.get('occasion'));
+    setSelectFromParam('filterFlavor', params.get('flavor'));
+    setSelectFromParam('sortBy', params.get('sort') || params.get('sortMode'));
+  }
+
   // Clear search button
   clearSearchBtn?.addEventListener('click', () => {
     if (searchInput) searchInput.value = '';
+    history.replaceState(null, '', window.location.pathname);
     (window as any).updateFilterState?.();
     applyFiltersAndSort();
     searchInput?.focus();
   });
 
   // Initial state update and render
+  applyInitialUrlState();
   (window as any).updateFilterState?.();
   applyFiltersAndSort();
 </script>

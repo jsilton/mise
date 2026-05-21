@@ -13,7 +13,7 @@ This changelog documents notable changes to the Omnivore's Codex KB rules (files
 - **Actually deleted the tombstone files** from the 2026-04-12 redesign that had been left in place with `severity: "disabled"`: `plating-suggestion.json`, `insufficient-umami.json`, `maillard-note.json`, `missing-salt.json`, `development-standards.json`. These had `detection: []` and were firing on every recipe as "disabled" noise — 3,030 false suggestions per validation run.
 - **Hardened the validator** (`scripts/validate-recipes.mjs`): now skips any rule where `severity === "disabled"`, `_deprecated === true`, or `detection` is missing/empty. Prevents tombstones and documentation-style JSON (like `architecture-standards.json`) from trivially matching every recipe.
 - **Updated `_README.md`** in `src/knowledge/codex/` to document that every rule must have a non-empty detection array, and that documentation-style JSON belongs outside this folder.
-- **Updated stale references** to `development-standards.json` in `KNOWLEDGE_PRESERVATION.md` — now point to the renamed `architecture-standards.json`.
+- **Updated stale references** to `development-standards.json` in the preservation notes — now point to the renamed `architecture-standards.json`.
 - **Outcome:** Validation suggestion count drops by ~3,600+ (from 3,815 to the true signal: acid/crisp/resting/completeness hints + poultry-safety fails on recipes that actually trigger them).
 
 ## 2026-04-12 — Codex rule system redesign

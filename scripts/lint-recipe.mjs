@@ -188,7 +188,6 @@ function lintRecipe(filePath) {
   const { data, content: body } = matter(content);
   const slug = path.basename(filePath, '.md');
   const titleLower = (data.title || slug).toLowerCase();
-  const ingredientsLower = (data.ingredients || []).map((i) => i.toLowerCase()).join(' ');
 
   // ── Template Chef's Notes ──────────────────────────────────────────────
 

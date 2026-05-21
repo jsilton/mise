@@ -122,7 +122,7 @@ const cuisineFusions = {
 const args = process.argv.slice(2);
 const dryRun = args.includes('--dry-run');
 
-let stats = {
+const stats = {
   filesProcessed: 0,
   filesModified: 0,
   normalizations: {
@@ -237,7 +237,7 @@ function normalizeEquipment(arr) {
 
 // Handle seasons migration from occasions
 function migrateSeasons(occasions, seasons) {
-  let seasonsMigrated = seasons || [];
+  const seasonsMigrated = seasons || [];
   const seasonKeywords = ['fall', 'spring', 'summer', 'winter'];
 
   for (const keyword of seasonKeywords) {
@@ -250,7 +250,7 @@ function migrateSeasons(occasions, seasons) {
 }
 
 async function processRecipes() {
-  const files = fs.readdirSync(recipesDir).filter(f => f.endsWith('.md'));
+  const files = fs.readdirSync(recipesDir).filter((f) => f.endsWith('.md'));
 
   for (const file of files) {
     const filePath = path.join(recipesDir, file);
@@ -258,12 +258,15 @@ async function processRecipes() {
     const { data, content: body } = matter(content);
 
     let modified = false;
-    let originalData = JSON.stringify(data);
+    const originalData = JSON.stringify(data);
 
     // Normalize cookingMethods
     if (data.cookingMethods && Array.isArray(data.cookingMethods)) {
       const normalized = normalizeArray(data.cookingMethods, 'cookingMethods');
-      if (normalized.length !== data.cookingMethods.length || JSON.stringify(normalized) !== JSON.stringify(data.cookingMethods)) {
+      if (
+        normalized.length !== data.cookingMethods.length ||
+        JSON.stringify(normalized) !== JSON.stringify(data.cookingMethods)
+      ) {
         if (normalized.length > 0) {
           data.cookingMethods = normalized;
         } else {
@@ -276,7 +279,10 @@ async function processRecipes() {
     // Normalize occasions
     if (data.occasions && Array.isArray(data.occasions)) {
       const normalized = normalizeArray(data.occasions, 'occasions');
-      if (normalized.length !== data.occasions.length || JSON.stringify(normalized) !== JSON.stringify(data.occasions)) {
+      if (
+        normalized.length !== data.occasions.length ||
+        JSON.stringify(normalized) !== JSON.stringify(data.occasions)
+      ) {
         if (normalized.length > 0) {
           data.occasions = normalized;
         } else {
@@ -297,7 +303,9 @@ async function processRecipes() {
 
     // Remove season keywords from occasions
     if (data.occasions && Array.isArray(data.occasions)) {
-      const filtered = data.occasions.filter(o => !['fall', 'spring', 'summer', 'winter'].includes(o));
+      const filtered = data.occasions.filter(
+        (o) => !['fall', 'spring', 'summer', 'winter'].includes(o)
+      );
       if (filtered.length !== data.occasions.length) {
         if (filtered.length > 0) {
           data.occasions = filtered;
@@ -311,7 +319,10 @@ async function processRecipes() {
     // Normalize flavorProfile
     if (data.flavorProfile && Array.isArray(data.flavorProfile)) {
       const normalized = normalizeArray(data.flavorProfile, 'flavorProfile');
-      if (normalized.length !== data.flavorProfile.length || JSON.stringify(normalized) !== JSON.stringify(data.flavorProfile)) {
+      if (
+        normalized.length !== data.flavorProfile.length ||
+        JSON.stringify(normalized) !== JSON.stringify(data.flavorProfile)
+      ) {
         if (normalized.length > 0) {
           data.flavorProfile = normalized;
         } else {
@@ -324,7 +335,10 @@ async function processRecipes() {
     // Normalize advancePrep
     if (data.advancePrep && Array.isArray(data.advancePrep)) {
       const normalized = normalizeArray(data.advancePrep, 'advancePrep');
-      if (normalized.length !== data.advancePrep.length || JSON.stringify(normalized) !== JSON.stringify(data.advancePrep)) {
+      if (
+        normalized.length !== data.advancePrep.length ||
+        JSON.stringify(normalized) !== JSON.stringify(data.advancePrep)
+      ) {
         if (normalized.length > 0) {
           data.advancePrep = normalized;
         } else {
@@ -337,7 +351,10 @@ async function processRecipes() {
     // Normalize equipment
     if (data.equipment && Array.isArray(data.equipment)) {
       const normalized = normalizeEquipment(data.equipment);
-      if (normalized.length !== data.equipment.length || JSON.stringify(normalized) !== JSON.stringify(data.equipment)) {
+      if (
+        normalized.length !== data.equipment.length ||
+        JSON.stringify(normalized) !== JSON.stringify(data.equipment)
+      ) {
         if (normalized.length > 0) {
           data.equipment = normalized;
         } else {
@@ -350,7 +367,10 @@ async function processRecipes() {
     // Normalize cuisines
     if (data.cuisines && Array.isArray(data.cuisines)) {
       const normalized = normalizeCuisines(data.cuisines);
-      if (normalized.length !== data.cuisines.length || JSON.stringify(normalized) !== JSON.stringify(data.cuisines)) {
+      if (
+        normalized.length !== data.cuisines.length ||
+        JSON.stringify(normalized) !== JSON.stringify(data.cuisines)
+      ) {
         if (normalized.length > 0) {
           data.cuisines = normalized;
         } else {
@@ -410,7 +430,7 @@ async function main() {
   }
 }
 
-main().catch(err => {
+main().catch((err) => {
   console.error('Error:', err);
   process.exit(1);
 });

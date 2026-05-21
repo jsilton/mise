@@ -19,11 +19,10 @@
  */
 
 import { execSync } from 'child_process';
-import fs from 'fs';
 
 const args = process.argv.slice(2);
 const autoAccept = args.includes('--auto-accept');
-const command = args.filter(a => a !== '--auto-accept')[0];
+const command = args.filter((a) => a !== '--auto-accept')[0];
 
 if (!command) {
   console.log('Usage: node scripts/batch-guard.mjs "<command>" [--auto-accept]');
@@ -74,7 +73,7 @@ console.log('\n📊 Change Summary:');
 const changedFiles = run('git diff --name-only')
   .trim()
   .split('\n')
-  .filter(f => f.startsWith('src/content/recipes/') && f.endsWith('.md'));
+  .filter((f) => f.startsWith('src/content/recipes/') && f.endsWith('.md'));
 
 if (changedFiles.length === 0) {
   console.log('   No recipe files changed.');

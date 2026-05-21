@@ -28,44 +28,197 @@ const PANTRY_STAPLES = new Set([
 
 // Category mapping for ingredients
 const INGREDIENT_CATEGORIES = {
-  'Produce': [
-    'garlic', 'onion', 'carrot', 'celery', 'broccoli', 'spinach', 'kale',
-    'lettuce', 'tomato', 'cucumber', 'bell pepper', 'potato', 'sweet potato',
-    'zucchini', 'asparagus', 'mushroom', 'lemon', 'lime', 'orange', 'apple',
-    'banana', 'ginger', 'cilantro', 'basil', 'parsley', 'mint', 'arugula',
-    'cabbage', 'leek', 'scallion', 'green onion', 'jalapeño', 'avocado',
-    'corn', 'peas', 'green beans', 'broccolini', 'cauliflower', 'eggplant',
-    'fennel', 'shallot', 'radish', 'turnip', 'caraway', 'dill', 'thyme',
-    'rosemary', 'sage', 'oregano', 'lavender', 'tarragon', 'chive',
-    'bok choy', 'kombu', 'pandan', 'serrano chile', 'orange', 'cucumber',
+  Produce: [
+    'garlic',
+    'onion',
+    'carrot',
+    'celery',
+    'broccoli',
+    'spinach',
+    'kale',
+    'lettuce',
+    'tomato',
+    'cucumber',
+    'bell pepper',
+    'potato',
+    'sweet potato',
+    'zucchini',
+    'asparagus',
+    'mushroom',
+    'lemon',
+    'lime',
+    'orange',
+    'apple',
+    'banana',
+    'ginger',
+    'cilantro',
+    'basil',
+    'parsley',
+    'mint',
+    'arugula',
+    'cabbage',
+    'leek',
+    'scallion',
+    'green onion',
+    'jalapeño',
+    'avocado',
+    'corn',
+    'peas',
+    'green beans',
+    'broccolini',
+    'cauliflower',
+    'eggplant',
+    'fennel',
+    'shallot',
+    'radish',
+    'turnip',
+    'caraway',
+    'dill',
+    'thyme',
+    'rosemary',
+    'sage',
+    'oregano',
+    'lavender',
+    'tarragon',
+    'chive',
+    'bok choy',
+    'kombu',
+    'pandan',
+    'serrano chile',
+    'orange',
+    'cucumber',
     'english cucumber',
   ],
   'Meat & Seafood': [
-    'chicken', 'beef', 'pork', 'lamb', 'turkey', 'duck', 'fish', 'salmon',
-    'shrimp', 'crab', 'lobster', 'mussels', 'clams', 'squid', 'octopus',
-    'steak', 'brisket', 'ribs', 'roast', 'ground beef', 'ground chicken',
-    'ground pork', 'ground turkey', 'sausage', 'bacon', 'ham', 'prosciutto',
-    'anchovy', 'tuna', 'cod', 'snapper', 'halibut', 'trout', 'sole', 'flounder',
+    'chicken',
+    'beef',
+    'pork',
+    'lamb',
+    'turkey',
+    'duck',
+    'fish',
+    'salmon',
+    'shrimp',
+    'crab',
+    'lobster',
+    'mussels',
+    'clams',
+    'squid',
+    'octopus',
+    'steak',
+    'brisket',
+    'ribs',
+    'roast',
+    'ground beef',
+    'ground chicken',
+    'ground pork',
+    'ground turkey',
+    'sausage',
+    'bacon',
+    'ham',
+    'prosciutto',
+    'anchovy',
+    'tuna',
+    'cod',
+    'snapper',
+    'halibut',
+    'trout',
+    'sole',
+    'flounder',
   ],
-  'Dairy': [
-    'milk', 'cream', 'butter', 'cheese', 'cheddar', 'mozzarella', 'parmesan',
-    'ricotta', 'feta', 'goat cheese', 'yogurt', 'sour cream', 'greek yogurt',
-    'cottage cheese', 'mascarpone', 'cream cheese', 'brie', 'camembert',
-    'provolone', 'gorgonzola', 'gruyere', 'fontina', 'manchego',
+  Dairy: [
+    'milk',
+    'cream',
+    'butter',
+    'cheese',
+    'cheddar',
+    'mozzarella',
+    'parmesan',
+    'ricotta',
+    'feta',
+    'goat cheese',
+    'yogurt',
+    'sour cream',
+    'greek yogurt',
+    'cottage cheese',
+    'mascarpone',
+    'cream cheese',
+    'brie',
+    'camembert',
+    'provolone',
+    'gorgonzola',
+    'gruyere',
+    'fontina',
+    'manchego',
   ],
   'Pantry & Grains': [
-    'rice', 'pasta', 'couscous', 'quinoa', 'bread', 'tortilla', 'noodle',
-    'bean', 'lentil', 'chickpea', 'peanut', 'almond', 'walnut', 'pecan',
-    'cashew', 'sesame', 'sunflower', 'nut', 'seed', 'grain', 'oat',
-    'barley', 'wheat', 'rye', 'corn meal', 'polenta', 'flour', 'sugar',
-    'honey', 'maple syrup', 'molasses', 'soy sauce', 'vinegar', 'balsamic',
-    'worcestershire', 'hot sauce', 'mayonnaise', 'mustard', 'ketchup',
+    'rice',
+    'pasta',
+    'couscous',
+    'quinoa',
+    'bread',
+    'tortilla',
+    'noodle',
+    'bean',
+    'lentil',
+    'chickpea',
+    'peanut',
+    'almond',
+    'walnut',
+    'pecan',
+    'cashew',
+    'sesame',
+    'sunflower',
+    'nut',
+    'seed',
+    'grain',
+    'oat',
+    'barley',
+    'wheat',
+    'rye',
+    'corn meal',
+    'polenta',
+    'flour',
+    'sugar',
+    'honey',
+    'maple syrup',
+    'molasses',
+    'soy sauce',
+    'vinegar',
+    'balsamic',
+    'worcestershire',
+    'hot sauce',
+    'mayonnaise',
+    'mustard',
+    'ketchup',
   ],
   'Spices & Seasonings': [
-    'salt', 'pepper', 'cumin', 'coriander', 'turmeric', 'paprika', 'chili',
-    'cinnamon', 'nutmeg', 'ginger', 'cardamom', 'clove', 'star anise',
-    'fennel', 'caraway', 'mustard seed', 'cayenne', 'thyme', 'oregano',
-    'basil', 'rosemary', 'sage', 'marjoram', 'tarragon', 'dill', 'chive',
+    'salt',
+    'pepper',
+    'cumin',
+    'coriander',
+    'turmeric',
+    'paprika',
+    'chili',
+    'cinnamon',
+    'nutmeg',
+    'ginger',
+    'cardamom',
+    'clove',
+    'star anise',
+    'fennel',
+    'caraway',
+    'mustard seed',
+    'cayenne',
+    'thyme',
+    'oregano',
+    'basil',
+    'rosemary',
+    'sage',
+    'marjoram',
+    'tarragon',
+    'dill',
+    'chive',
   ],
 };
 
@@ -91,7 +244,7 @@ function parseFrontmatter(content) {
       if (value.startsWith('[')) {
         // Inline array like [main, side]
         const arrayStr = value.slice(1, -1);
-        currentArray = arrayStr.split(',').map(s => s.trim());
+        currentArray = arrayStr.split(',').map((s) => s.trim());
       } else {
         currentArray.push(value);
       }
@@ -109,7 +262,7 @@ function parseFrontmatter(content) {
       // Handle inline array
       if (value.startsWith('[')) {
         const arrayStr = value.slice(1, -1);
-        data[currentKey] = arrayStr.split(',').map(s => s.trim());
+        data[currentKey] = arrayStr.split(',').map((s) => s.trim());
       } else if (value) {
         // Remove quotes if present
         data[currentKey] = value.replace(/^['"]|['"]$/g, '');
@@ -135,7 +288,7 @@ function getMealRecipes(frontmatter) {
   const recipes = [];
   const fields = ['main', 'base', 'sides', 'salad', 'sauce', 'protein', 'vegetable'];
 
-  fields.forEach(field => {
+  fields.forEach((field) => {
     if (frontmatter[field]) {
       if (Array.isArray(frontmatter[field])) {
         recipes.push(...frontmatter[field]);
@@ -240,12 +393,22 @@ function shouldSkipIngredient(parsed) {
   }
 
   // Skip common instruction/description lines
-  if (parsed.fullName.match(/^(Cooked|Sliced|Shredded|Roasted|Caramelized|Fresh|Seasoned|Pickled)\s+[A-Z]/)) {
+  if (
+    parsed.fullName.match(
+      /^(Cooked|Sliced|Shredded|Roasted|Caramelized|Fresh|Seasoned|Pickled)\s+[A-Z]/
+    )
+  ) {
     // But keep ones that look like actual ingredients (e.g., "Fresh Basil" is ok)
     // Only skip if it looks like a reference to a made component
-    if (parsed.fullName.match(/^(Cooked|Seasoned|Roasted|Caramelized|Pickled)\s+([A-Z][a-z]+\s+)?[A-Z][a-z]+\s*$/) &&
-        !parsed.fullName.includes('inch') && !parsed.fullName.includes('oz') &&
-        !parsed.fullName.includes('cup') && !parsed.fullName.includes('tbsp')) {
+    if (
+      parsed.fullName.match(
+        /^(Cooked|Seasoned|Roasted|Caramelized|Pickled)\s+([A-Z][a-z]+\s+)?[A-Z][a-z]+\s*$/
+      ) &&
+      !parsed.fullName.includes('inch') &&
+      !parsed.fullName.includes('oz') &&
+      !parsed.fullName.includes('cup') &&
+      !parsed.fullName.includes('tbsp')
+    ) {
       // Skip references to components made elsewhere
       return true;
     }
@@ -283,7 +446,6 @@ function readAndParseFile(filePath) {
     const match = content.match(/^---\n([\s\S]*?)\n---\n([\s\S]*)/);
 
     if (match) {
-      const frontmatterStr = match[1];
       const body = match[2];
       const frontmatter = parseFrontmatter(content);
       return { frontmatter, body, content };
@@ -317,7 +479,6 @@ async function generateShoppingList(calendarName) {
 
   // Collect all ingredients
   const ingredientsByCategory = {};
-  const processedIngredients = new Map(); // For combining duplicates
 
   // For each meal
   for (const mealSlug of mealSlugs) {
@@ -408,7 +569,7 @@ async function generateShoppingList(calendarName) {
             const qty2 = eval(ingredient.quantity.replace(/\s+/g, '+'));
             existing.quantity = (qty1 + qty2).toString();
             existing.fullName = `${existing.quantity}${existing.unit ? ' ' + existing.unit : ''} ${ingredient.name}`;
-          } catch (e) {
+          } catch {
             // If parsing fails, just keep the original
             existing.isDuplicate = true;
           }

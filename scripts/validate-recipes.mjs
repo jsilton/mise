@@ -1,5 +1,5 @@
 import fs from 'fs/promises';
-/* eslint-disable no-console */
+
 import path from 'path';
 import matter from 'gray-matter';
 

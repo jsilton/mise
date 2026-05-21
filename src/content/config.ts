@@ -116,41 +116,6 @@ const mealsCollection = defineCollection({
   }),
 });
 
-// Meal history - track what was made and feedback
-const mealHistoryCollection = defineCollection({
-  type: 'content',
-  schema: z.object({
-    // What was made
-    meal: z.string().optional(), // Meal slug if from curated meal
-    recipes: z.array(z.string()).optional(), // Recipe slugs if ad-hoc combination
-
-    // When
-    date: z.string(), // ISO date string (YYYY-MM-DD)
-    dayOfWeek: z.string().optional(),
-
-    // Feedback
-    rating: z.number().min(1).max(5).optional(), // Overall meal rating
-    recipeRatings: z
-      .array(
-        z.object({
-          recipe: z.string(),
-          rating: z.number().min(1).max(5),
-          notes: z.string().optional(),
-        })
-      )
-      .optional(),
-
-    // Notes
-    notes: z.string().optional(), // General meal notes
-    wouldMakeAgain: z.boolean().optional(),
-    modifications: z.array(z.string()).optional(), // What was changed
-
-    // Context
-    occasion: z.string().optional(), // weeknight, date-night, etc.
-    guests: z.number().optional(), // How many people
-  }),
-});
-
 // Weekly calendar plans
 const calendarsCollection = defineCollection({
   type: 'content',
@@ -165,6 +130,5 @@ const calendarsCollection = defineCollection({
 export const collections = {
   recipes: recipesCollection,
   meals: mealsCollection,
-  'meal-history': mealHistoryCollection,
   calendars: calendarsCollection,
 };

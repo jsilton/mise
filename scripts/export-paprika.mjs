@@ -5,8 +5,6 @@ import matter from 'gray-matter';
 import { randomUUID } from 'crypto';
 import zlib from 'zlib';
 
-/* eslint-disable no-console */
-
 const RECIPES_DIR = path.resolve('src/content/recipes');
 const EXPORTS_DIR = path.resolve('exports');
 
@@ -61,10 +59,7 @@ async function listRecipeFiles(dir) {
 }
 
 function buildNutritionInfo(nutrition) {
-  if (
-    !nutrition ||
-    (typeof nutrition !== 'object' && !nutrition.calories)
-  ) {
+  if (!nutrition || (typeof nutrition !== 'object' && !nutrition.calories)) {
     return '';
   }
 
@@ -175,14 +170,12 @@ async function main() {
     try {
       // Use ditto to create ZIP archive (macOS native)
       const { execSync } = await import('child_process');
-      execSync(
-        `ditto -c -k --sequesterRsrc --keepParent "${tempDir}" "${outputPath}"`,
-        { stdio: 'pipe', encoding: 'utf-8' }
-      );
+      execSync(`ditto -c -k --sequesterRsrc --keepParent "${tempDir}" "${outputPath}"`, {
+        stdio: 'pipe',
+        encoding: 'utf-8',
+      });
 
-      console.log(
-        `\n✅ Paprika export complete: ${outputPath}`
-      );
+      console.log(`\n✅ Paprika export complete: ${outputPath}`);
       console.log(`   Total recipes: ${count}`);
 
       // Cleanup temp directory

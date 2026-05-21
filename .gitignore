@@ -26,10 +26,11 @@ shopping-list-*.md
 
 # Logs
 *.log
+*.bak
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
 # macOS
 .DS_Store
-
+.fuse_hidden*
