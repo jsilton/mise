@@ -18,6 +18,8 @@ vibe: comfort
 prepTime: 30 min
 cookTime: 35 min
 totalTime: 120 min
+advancePrep:
+  - cool-completely
 servings: 48 squares
 ingredients:
   - '1 lb (4 sticks) Unsalted Butter, softened'

@@ -19,6 +19,8 @@ vibe: comfort
 prepTime: 15 min
 cookTime: 8 min
 totalTime: 45 min
+advancePrep:
+  - chill
 servings: '36'
 ingredients:
   - '1 cup (2 sticks) Unsalted Butter, softened'

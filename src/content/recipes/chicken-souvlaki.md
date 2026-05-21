@@ -15,6 +15,8 @@ prepTime: 15 min
 cookTime: 10 min
 totalTime: 40 min
 servings: '4'
+advancePrep:
+  - marinate
 pairsWith:
   - garlic-butter-couscous
   - greek-salad

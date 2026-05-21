@@ -28,6 +28,7 @@ pairsWith:
   - vietnamese-grilled-chicken
   - miso-salmon-with-bok-choy
   - marinated-korean-ribeye
+  - fresh-strawberry-vinaigrette-salad-dressing
 prepTime: 10 min
 cookTime: 0 min
 totalTime: 10 min

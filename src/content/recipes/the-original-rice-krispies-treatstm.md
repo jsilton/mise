@@ -26,6 +26,8 @@ vibe: technical
 prepTime: 10 min
 cookTime: 10 min
 totalTime: 40 min
+advancePrep:
+  - cool-completely
 servings: '12'
 ingredients:
   - 6 cups Rice Krispies Cereal

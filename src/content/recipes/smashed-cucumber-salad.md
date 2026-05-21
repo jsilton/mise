@@ -20,6 +20,8 @@ vibe: nutritious
 prepTime: 10 min
 cookTime: 0 min
 totalTime: 40 min
+advancePrep:
+  - draw-moisture
 servings: '4'
 seasons:
   - spring

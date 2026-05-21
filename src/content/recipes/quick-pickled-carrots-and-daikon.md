@@ -17,6 +17,8 @@ vibe: nutritious
 prepTime: 15 min
 cookTime: 0 min
 totalTime: 60 min
+advancePrep:
+  - pickle
 servings: 2 cups
 pairsWith:
   - caramelized-black-pepper-chicken

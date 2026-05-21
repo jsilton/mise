@@ -21,6 +21,8 @@ vibe: comfort
 prepTime: 15 min
 cookTime: 30 min
 totalTime: 60 min
+advancePrep:
+  - preheat-cooker
 servings: '4'
 seasons:
   - year-round

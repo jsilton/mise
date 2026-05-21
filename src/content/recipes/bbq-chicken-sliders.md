@@ -18,6 +18,8 @@ flavorProfile:
 prepTime: 15 min
 cookTime: 15 min
 totalTime: 30 min
+advancePrep:
+  - marinate
 servings: 12 sliders
 pairsWith:
   - crockpot-mac-and-cheese

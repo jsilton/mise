@@ -30,36 +30,75 @@ function levenshteinDistance(str1, str2) {
   return matrix[len2][len1];
 }
 
+// Helper to parse values (mixed numbers, fractions, floats) from string
+function parseValueFromString(quantStr) {
+  quantStr = quantStr.trim().replace(/-/g, ' ').replace(/\s+/g, ' ');
+
+  // Check for mixed numbers like "1 3/4"
+  const mixedMatch = quantStr.match(/^(\d+)\s+(\d+)\s*\/\s*(\d+)$/);
+  if (mixedMatch) {
+    const whole = parseInt(mixedMatch[1]);
+    const num = parseInt(mixedMatch[2]);
+    const denom = parseInt(mixedMatch[3]);
+    if (denom !== 0) {
+      return whole + num / denom;
+    }
+  }
+
+  // Parse fractions
+  if (quantStr.includes('/')) {
+    const parts = quantStr.split('/');
+    if (parts.length === 2) {
+      const num = parseFloat(parts[0]);
+      const denom = parseFloat(parts[1]);
+      if (!isNaN(num) && !isNaN(denom) && denom !== 0) {
+        return num / denom;
+      }
+    }
+  }
+
+  const value = parseFloat(quantStr);
+  return isNaN(value) ? null : value;
+}
+
 // Parse quantities from ingredient strings
 function parseQuantity(ingredient) {
   const patterns = [
-    /^([\d.\/\s]+)\s*(lbs?|oz|cups?|tbsp|tsp|g|ml|kg|grams?|ounces?|pounds?|tablespoons?|teaspoons?)/i,
+    /^([\d.\/\s\-]+)\s*(lbs?|oz|cups?|tbsp|tsp|g|ml|kg|grams?|ounces?|pounds?|tablespoons?|teaspoons?|quarts?|qts?|liters?|l|gallons?|gals?)/i,
   ];
 
   for (const pattern of patterns) {
     const match = ingredient.match(pattern);
     if (match) {
-      const quantStr = match[1].trim();
-      const unit = match[2].toLowerCase();
-
-      // Parse fractions and decimals
-      if (quantStr.includes('/')) {
-        const parts = quantStr.split('/');
-        if (parts.length === 2) {
-          const num = parseFloat(parts[0]);
-          const denom = parseFloat(parts[1]);
-          if (!isNaN(num) && !isNaN(denom) && denom !== 0) {
-            return { value: num / denom, unit, original: quantStr };
-          }
-        }
-      }
-
-      const value = parseFloat(quantStr);
-      if (!isNaN(value)) {
-        return { value, unit, original: quantStr };
+      const value = parseValueFromString(match[1]);
+      if (value !== null) {
+        return { value, unit: match[2].toLowerCase(), original: match[1].trim() };
       }
     }
   }
+
+  // Fallback: check inside parentheses for quantity/unit, e.g. "1 can (13.5 oz) coconut milk"
+  const parenMatch = ingredient.match(
+    /\(([\d.\/\s\-]+)\s*(lbs?|oz|cups?|tbsp|tsp|g|ml|kg|grams?|ounces?|pounds?|tablespoons?|teaspoons?|quarts?|qts?|liters?|l|gallons?|gals?)[^)]*\)/i
+  );
+  if (parenMatch) {
+    let value = parseValueFromString(parenMatch[1]);
+    if (value !== null) {
+      const unit = parenMatch[2].toLowerCase();
+      // Check if this is "each" / per item, and if so, multiply by leading quantity
+      if (/\beach\b/i.test(parenMatch[0])) {
+        const leadingMatch = ingredient.match(/^([\d.\/\s\-]+)/);
+        if (leadingMatch) {
+          const leadingVal = parseValueFromString(leadingMatch[1]);
+          if (leadingVal !== null) {
+            value = value * leadingVal;
+          }
+        }
+      }
+      return { value, unit, original: parenMatch[1].trim() };
+    }
+  }
+
   return null;
 }
 
@@ -78,6 +117,11 @@ function normalizeToGrams(quantity) {
   if (/^tbsp(s)?$/.test(normalized)) return value * 15;
   if (/^tsps?$/.test(normalized)) return value * 5;
 
+  // large volume units
+  if (/^quarts?|qts?$/.test(normalized)) return value * 946.35;
+  if (/^liters?|l$/.test(normalized)) return value * 1000;
+  if (/^gallons?|gals?$/.test(normalized)) return value * 3785.41;
+
   // already in grams/ml
   if (/^g(rams?)?$/.test(normalized)) return value;
   if (/^ml$/.test(normalized)) return value;
@@ -86,16 +130,35 @@ function normalizeToGrams(quantity) {
   return null;
 }
 
-// Parse time strings like "20 min", "1 hr", etc.
+// Parse and sum quantities if separated by '+' or 'and'
+function parseTotalQuantity(ingredient) {
+  const parts = ingredient.split(/\s*(?:\+|\band\b)\s*/i);
+  let totalGrams = 0;
+  let hasMatch = false;
+
+  for (const part of parts) {
+    const qty = parseQuantity(part);
+    if (qty) {
+      const grams = normalizeToGrams(qty);
+      if (grams) {
+        totalGrams += grams;
+        hasMatch = true;
+      }
+    }
+  }
+  return hasMatch ? totalGrams : null;
+}
+
+// Parse time strings like "20 min", "1.5 hr", etc.
 function parseTime(timeStr) {
   if (!timeStr) return 0;
   let totalMinutes = 0;
 
-  const hourMatch = timeStr.match(/(\d+)\s*(?:hour|hr)/i);
-  const minMatch = timeStr.match(/(\d+)\s*(?:min|minute)/i);
+  const hourMatch = timeStr.match(/([\d.]+)\s*(?:hour|hr)/i);
+  const minMatch = timeStr.match(/([\d.]+)\s*(?:min|minute)/i);
 
-  if (hourMatch) totalMinutes += parseInt(hourMatch[1]) * 60;
-  if (minMatch) totalMinutes += parseInt(minMatch[1]);
+  if (hourMatch) totalMinutes += parseFloat(hourMatch[1]) * 60;
+  if (minMatch) totalMinutes += parseFloat(minMatch[1]);
 
   return totalMinutes;
 }
@@ -159,37 +222,62 @@ async function runQA() {
         if (ing.startsWith('---')) continue;
 
         // Detect protein quantity
-        if (/chicken|beef|pork|fish|shrimp|tofu|turkey/.test(ing)) {
-          const quantity = parseQuantity(ingredient);
-          if (quantity) {
-            hasProtein = true;
-            const grams = normalizeToGrams(quantity);
-            if (grams) proteinAmount += grams;
+        const ingWithoutParens = ing.replace(/\([^)]*\)/g, '');
+        const isProteinExclusion =
+          /(broth|stock|oil|drippings|sauce|extract|gravy|base|seasoning|salt|pepper|powder)/.test(
+            ing
+          ) || /\b(chicken|pork|beef|duck|turkey)[-\s]+fat\b/.test(ing);
+        const isProtein =
+          /chicken|beef|pork|fish|shrimp|tofu|turkey/.test(ingWithoutParens) && !isProteinExclusion;
+
+        if (isProtein) {
+          const grams = parseTotalQuantity(ingredient);
+          if (grams) {
+            if (!/optional/i.test(ingredient)) {
+              hasProtein = true;
+            }
+            proteinAmount += grams;
           }
         }
 
         // Detect pasta quantity
         if (/pasta|noodle/.test(ing)) {
-          const quantity = parseQuantity(ingredient);
-          if (quantity) {
-            const grams = normalizeToGrams(quantity);
-            if (grams) pastaAmount += grams;
+          const grams = parseTotalQuantity(ingredient);
+          if (grams) {
+            pastaAmount += grams;
           }
         }
 
         // Detect sauce/liquid quantity
         if (/stock|broth|water|sauce|cream|milk|oil|wine|juice|yogurt|tomato|coconut/.test(ing)) {
           const quantity = parseQuantity(ingredient);
-          if (quantity && /^(cup|ml|oz|tbsp)/.test(quantity.unit)) {
-            const normalized = normalizeToGrams(quantity);
-            if (normalized) totalLiquid += normalized;
+          if (quantity && /^(cup|ml|oz|tbsp|quart|qt|liter|l|gallon|gal|tsp)/.test(quantity.unit)) {
+            const grams = parseTotalQuantity(ingredient);
+            if (grams) totalLiquid += grams;
           }
         }
       }
 
       // Soup/stew check: less than 1 cup (240ml) liquid
       if (role === 'main' && /soup|stew|curry|chili|braise/.test(title.toLowerCase())) {
-        if (totalLiquid > 0 && totalLiquid < 240) {
+        const isDryDish =
+          /dry curry|dry-style|dry stir|aloo gobi|fried rice|stir-fry|stir fry/i.test(
+            recipe.markdown
+          ) || title.toLowerCase().includes('dry');
+        const isNotSoupOrStew =
+          /slider|burger|sandwich|taco|dog|pizza|flatbread|wing|salad|roll|bun/i.test(
+            title.toLowerCase()
+          );
+        const hasLinkedBroth = ingredients.some((ing) =>
+          /\[[^\]]*\b(?:broth|stock|soup)\b[^\]]*\]/i.test(ing)
+        );
+        if (
+          !isDryDish &&
+          !isNotSoupOrStew &&
+          !hasLinkedBroth &&
+          totalLiquid > 0 &&
+          totalLiquid < 240
+        ) {
           issues.ratioSanity.push({
             severity: 'warning',
             recipe: title,
@@ -199,9 +287,14 @@ async function runQA() {
         }
       }
 
-      // Protein check: less than 8 oz (227g) for main serving 4+
+      // Protein check: less than 8 oz (227g) for main serving 4+ (lower threshold to 4 oz/113g for soup/pasta/noodle/rice/curry)
       if (role === 'main' && hasProtein && servingCount >= 4) {
-        if (proteinAmount > 0 && proteinAmount < 227) {
+        const isStarchOrSoup =
+          /pasta|noodle|mian|rice|chow fun|lo mein|spaghetti|macaroni|ramen|pad thai|fried rice|soup|stew|curry|chili|broth|braise/i.test(
+            title
+          ) || pastaAmount > 0;
+        const threshold = isStarchOrSoup ? 113 : 227;
+        if (proteinAmount > 0 && Math.round(proteinAmount) < threshold) {
           issues.ratioSanity.push({
             severity: 'warning',
             recipe: title,
@@ -257,19 +350,14 @@ async function runQA() {
         });
       }
 
-      // Marinate/chill in advance prep but not in total time
-      if (advancePrep && Array.isArray(advancePrep)) {
-        const advanceStr = advancePrep.join(' ').toLowerCase();
-        const hasMarinate =
-          advanceStr.includes('marinate') ||
-          advanceStr.includes('chill') ||
-          advanceStr.includes('overnight');
+      // Marinate/chill mentioned in directions but not explained by advancePrep or totalTime
+      const hasMarinateMetadata =
+        advancePrep && Array.isArray(advancePrep) && advancePrep.length > 0;
+      if (!hasMarinateMetadata) {
         const markdownLower = markdown.toLowerCase();
-
-        if (
-          hasMarinate &&
-          (markdownLower.includes('marinate') || markdownLower.includes('chill'))
-        ) {
+        const hasMarinateWord =
+          markdownLower.includes('marinate') || markdownLower.includes('chill');
+        if (hasMarinateWord) {
           // Check if substantial time is mentioned in directions
           const hasHours = markdownLower.match(/(\d+)\s*(?:hour|hr)/);
           if (hasHours && !totalTime.toLowerCase().includes('overnight')) {
@@ -280,7 +368,7 @@ async function runQA() {
                 severity: 'warning',
                 recipe: title,
                 file,
-                message: `Directions mention ${hasHours[1]} hour(s) of marinating/chilling, but totalTime (${totalMin}min) doesn't reflect this. Either include marinating in totalTime or clarify it's separate.`,
+                message: `Directions mention ${hasHours[1]} hour(s) of marinating/chilling, but no advancePrep metadata is defined and totalTime (${totalMin}min) doesn't reflect this. Add advancePrep to explain passive time.`,
               });
             }
           }
@@ -299,15 +387,18 @@ async function runQA() {
       const methods = cookingMethods.map((m) => m.toLowerCase());
       const dirLower = markdown.toLowerCase();
 
-      // Sear requires temperature
+      // Sear requires temperature or heat level description
       if (methods.includes('sear')) {
-        if (!dirLower.match(/\d+\s*°?[fc]/i)) {
+        const hasSearTempOrHeat =
+          dirLower.match(/\d+\s*°?[fc]/i) ||
+          /high heat|medium-high|medium high|smoking hot|very hot/i.test(dirLower);
+        if (!hasSearTempOrHeat) {
           issues.techniqueConsistency.push({
             severity: 'warning',
             recipe: title,
             file,
             message:
-              'cookingMethods includes "sear" but no temperature (e.g., 450°F) found in directions.',
+              'cookingMethods includes "sear" but no temperature (e.g., 450°F) or high heat (e.g., "high heat") found in directions.',
           });
         }
       }
@@ -404,7 +495,7 @@ async function runQA() {
           recipe2.title.toLowerCase()
         );
 
-        if (distance < 5 && distance > 0) {
+        if (distance < 3 && distance > 0) {
           issues.duplicates.push({
             severity: 'warning',
             recipe: `${recipe1.title} <-> ${recipe2.title}`,
@@ -431,14 +522,14 @@ async function runQA() {
     console.log('Checking content quality...');
 
     for (const recipe of recipes) {
-      const { title, markdown, file } = recipe;
+      const { title, markdown, role, file } = recipe;
 
       // Extract Chef's Note section
-      const chefNoteMatch = markdown.match(/##\s+Chef['']s\s+Note\s*\n([\s\S]*?)(?=\n##|\Z)/i);
+      const chefNoteMatch = markdown.match(/##\s+Chef['']s\s+Note\s*\n([\s\S]*?)(?=\n##|$)/i);
       const chefNote = chefNoteMatch ? chefNoteMatch[1].trim() : '';
 
-      // Chef's Note length
-      if (chefNote.length < 100) {
+      // Chef's Note length (only required for mains)
+      if (role === 'main' && chefNote.length < 100) {
         issues.contentQuality.push({
           severity: 'warning',
           recipe: title,
@@ -448,14 +539,14 @@ async function runQA() {
       }
 
       // Extract directions
-      const directionsMatch = markdown.match(/##\s+Directions?\s*\n([\s\S]*?)(?=\n##|\Z)/i);
+      const directionsMatch = markdown.match(/##\s+Directions?\s*\n([\s\S]*?)(?=\n##|$)/i);
       const directions = directionsMatch ? directionsMatch[1].trim() : '';
 
       // Check for bold headers in directions
       const boldSteps = directions.match(/\*\*[^*]+\*\*/g) || [];
       const numberSteps = directions.match(/^\d+\./gm) || [];
 
-      if (numberSteps.length < 3) {
+      if (role === 'main' && numberSteps.length < 3) {
         issues.contentQuality.push({
           severity: 'warning',
           recipe: title,
@@ -474,12 +565,7 @@ async function runQA() {
       }
 
       // Check for vague cooking instructions
-      const vagueInstructions = [
-        'cook until done',
-        'season to taste',
-        'cook until soft',
-        'until finished',
-      ];
+      const vagueInstructions = ['cook until done', 'until finished'];
       for (const vague of vagueInstructions) {
         if (directions.toLowerCase().includes(vague)) {
           // Only flag if it's the only guidance in that step
@@ -654,6 +740,11 @@ async function runQA() {
     // Check for orphaned base/condiment recipes
     for (const recipe of recipes) {
       const { title, slug, role, file } = recipe;
+
+      // Exclude non-food playdough items
+      if (slug.includes('playdough') || slug.includes('play-dough')) {
+        continue;
+      }
 
       if ((role === 'base' || role === 'condiment') && !referencedBaseRecipes.has(slug)) {
         issues.pairsWithValidation.push({

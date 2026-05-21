@@ -16,7 +16,7 @@ flavorProfile:
   - umami
 cuisines:
   - Chinese
-role: base
+role: main
 vibe: quick
 prepTime: 20 min
 cookTime: 10 min

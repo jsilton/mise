@@ -17,6 +17,8 @@ vibe: nutritious
 prepTime: 20 min
 cookTime: 15 min
 totalTime: 35 min
+advancePrep:
+  - marinate
 servings: '4'
 pairsWith:
   - everyday-arugula-salad

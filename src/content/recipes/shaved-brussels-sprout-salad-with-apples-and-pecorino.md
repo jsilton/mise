@@ -19,6 +19,8 @@ vibe: nutritious
 prepTime: 15 min
 cookTime: 0 min
 totalTime: 30 min
+advancePrep:
+  - rest
 servings: '4'
 seasons:
   - fall

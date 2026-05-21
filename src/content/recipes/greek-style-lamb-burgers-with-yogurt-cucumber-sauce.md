@@ -17,6 +17,8 @@ vibe: quick
 prepTime: 15 min
 cookTime: 12 min
 totalTime: 45 min
+advancePrep:
+  - chill-sauce
 servings: '4'
 pairsWith:
   - greek-salad
@@ -68,4 +70,4 @@ Because lamb is naturally fatty, shaping patties into ovals rather than rounds m
 6.  **Assemble:** Place a burger on each pita. Top with a massive dollop of the yogurt sauce, feta, tomatoes, and greens.
 7.  **Serve:** Fold and serve immediately while the lamb juices are still hot.
 
-**Rest:** Let Ground Lamb rest for 5 minutes before slicing or serving  -  the juices redistribute and every piece stays moist.
+**Rest:** Let Ground Lamb rest for 5 minutes before slicing or serving - the juices redistribute and every piece stays moist.

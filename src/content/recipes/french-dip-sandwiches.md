@@ -19,6 +19,8 @@ prepTime: 15 min
 cookTime: 8 hr
 totalTime: 8.5 hr
 servings: '6'
+advancePrep:
+  - slow-cook
 pairsWith:
   - avocado-kale-caesar-salad
   - warm-roasted-veggie-salad-with-maple-dijon-vinaigrette

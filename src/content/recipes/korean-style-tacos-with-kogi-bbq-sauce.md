@@ -18,6 +18,8 @@ vibe: quick
 prepTime: 15 min
 cookTime: 5 min
 totalTime: 20 min
+advancePrep:
+  - pickle
 pairsWith:
   - mexican-street-corn-salad
   - roasted-sweet-potatoes

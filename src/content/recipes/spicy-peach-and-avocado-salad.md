@@ -26,6 +26,8 @@ vibe: nutritious
 prepTime: 15 min
 cookTime: 0 min
 totalTime: 30 min
+advancePrep:
+  - macerate
 servings: '8'
 pairsWith:
   - seared-scallops-with-a-corn-bacon-and-avocado-relish

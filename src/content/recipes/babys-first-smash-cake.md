@@ -20,6 +20,8 @@ prepTime: 20 min
 cookTime: 20 min
 totalTime: 60 min
 servings: 4 mini cakes
+advancePrep:
+  - cool-completely
 ingredients:
   - 4 very ripe Bananas (The sweetener)
   - 1/2 cup Natural Unsweetened Applesauce
@@ -54,6 +56,7 @@ nutrition:
 ## Chef's Note
 
 This cake is designed for an 8-month-old to grab and taste, so it contains only familiar foods and no added sugar (bananas and applesauce do the sweetening). The whole wheat and oat flours provide nutrition and fiber, while the cream cheese frosting sweetened with apple juice concentrate is mild enough for a baby's palate. Small, stackable cakes make it easy for little hands to hold and explore.
+
 ## Directions
 
 1.  **Batter:** Mash bananas until smooth. Whisk in applesauce, coconut oil, and vanilla. Fold in the flours, baking soda, and cinnamon.

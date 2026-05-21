@@ -26,6 +26,8 @@ prepTime: 10 min
 cookTime: 0 min
 totalTime: 40 min
 servings: 1/2 cup
+advancePrep:
+  - macerate
 ingredients:
   - '1 cup Fresh Strawberries, hulled and sliced'
   - 3 tbsp Extra-Virgin Olive Oil
@@ -46,6 +48,7 @@ nutrition:
 ## Chef's Note
 
 Fresh strawberry vinaigrette is a spring and early summer opportunity: ripe berries become a bright emulsion that's both fruit and acid in one ingredient. Blend or mash the strawberries until they release their juices, then whisk with oil to create a velvety dressing that tastes more interesting than typical vinaigrettes.
+
 ## Directions
 
 1.  **Macerate:** In a small bowl, whisk together the balsamic vinegar and honey. Add the sliced strawberries and toss to coat. **Let stand for 30 minutes** at room temperature.

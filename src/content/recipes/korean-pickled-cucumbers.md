@@ -34,6 +34,8 @@ pairsWith:
 prepTime: 10 min
 cookTime: 0 min
 totalTime: 30 min
+advancePrep:
+  - draw-moisture
 servings: '4'
 ingredients:
   - '2 English cucumbers (or 6 Persian cucumbers), sliced into 1/8-inch rounds'

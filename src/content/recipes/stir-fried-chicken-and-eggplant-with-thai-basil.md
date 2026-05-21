@@ -20,6 +20,8 @@ vibe: nutritious
 prepTime: 15 min
 cookTime: 15 min
 totalTime: 60 min
+advancePrep:
+  - sweat-eggplant
 servings: '4'
 pairsWith:
   - coconut-jasmine-rice
@@ -65,4 +67,4 @@ Pad krapow gai (Thai basil chicken) is a popular Thai stir-fry dish characterize
 6.  **Finish:** Cover and steam for 2 minutes. Uncover, stir in the basil leaves, and toss for 30 seconds until just wilted.
 7.  **Serve:** Serve immediately over steamed jasmine rice.
 
-**Rest:** Let lb Chicken rest for 5 minutes before slicing or serving  -  the juices redistribute and every piece stays moist.
+**Rest:** Let lb Chicken rest for 5 minutes before slicing or serving - the juices redistribute and every piece stays moist.

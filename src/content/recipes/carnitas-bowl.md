@@ -26,6 +26,7 @@ pairsWith:
   - pickled-red-onions
   - quick-seasoned-black-beans
   - chipotle-pork-and-sweet-corn-tamale-bowls
+  - chimichurri
 ingredients:
   - '3 lbs Pork Shoulder, cut into 2-inch chunks'
   - 1 tbsp Kosher Salt

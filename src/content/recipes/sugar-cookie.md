@@ -17,6 +17,8 @@ vibe: quick
 prepTime: 30 min
 cookTime: 10 min
 totalTime: 40 min
+advancePrep:
+  - chill
 servings: '36'
 pairsWith:
   - chicken-apple-and-butternut-stew

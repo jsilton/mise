@@ -21,6 +21,8 @@ vibe: nutritious
 prepTime: 15 min
 cookTime: 10 min
 totalTime: 40 min
+advancePrep:
+  - steam-rice
 servings: '4'
 pairsWith:
   - miso-soup

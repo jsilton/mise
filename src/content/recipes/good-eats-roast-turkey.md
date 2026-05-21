@@ -19,6 +19,8 @@ vibe: holiday
 prepTime: 30 min
 cookTime: 2.5 hr
 totalTime: 3 days
+advancePrep:
+  - brine
 servings: '12'
 pairsWith:
   - honey-glazed-carrots

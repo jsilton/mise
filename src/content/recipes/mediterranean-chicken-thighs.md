@@ -19,6 +19,8 @@ flavorProfile:
 prepTime: 15 min
 cookTime: 35 min
 totalTime: 50 min
+advancePrep:
+  - marinate
 servings: '4'
 pairsWith:
   - tzatziki-sauce
@@ -29,7 +31,7 @@ equipment:
 ingredients:
   - 'For the Chicken:'
   - 2 lbs Boneless Skinless Chicken Thighs
-  - '1/2 cup Greek Dressing (store-bought, like Ken''s or homemade)'
+  - "1/2 cup Greek Dressing (store-bought, like Ken's or homemade)"
   - 1 tsp Dried Oregano
   - 1/2 tsp Kosher Salt
   - 'For the Vegetables:'
