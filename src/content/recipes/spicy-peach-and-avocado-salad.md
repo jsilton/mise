@@ -2,8 +2,8 @@
 title: Peach and Avocado Salad
 difficulty: intermediate
 cookingMethods:
-  - roast
-  - grill
+  - no-cook
+  - toss
 occasions:
   - entertaining
   - light-and-fresh

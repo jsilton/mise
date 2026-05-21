@@ -2,7 +2,6 @@
 title: 'Chicken, Apple, and Butternut Stew'
 difficulty: easy
 cookingMethods:
-  - bake
   - saute
   - simmer
 occasions:

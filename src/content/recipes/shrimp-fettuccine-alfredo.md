@@ -24,6 +24,7 @@ seasons:
 nutritionalDensity: hearty
 leftovers: good
 pairsWith:
+  - real-alfredo-sauce
   - avocado-kale-caesar-salad
   - garlic-bread
 ingredients:
@@ -47,7 +48,7 @@ nutrition:
 
 ## Chef's Note
 
-Italian-American fettuccine Alfredo with shrimp traces back to Alfredo di Lelio's 1908 Rome original  -  just butter and Parmigiano-Reggiano, no cream. Americans added cream for richness and stability, then added shrimp because this is what we do. The key is a quick high-heat sear on the shrimp (2 minutes per side until pink with light char)  -  overcooking turns them rubbery. If making the [Real Alfredo Sauce](/mise/recipes/real-alfredo-sauce) from scratch, use the same skillet you seared the shrimp in  -  those browned bits dissolve into the butter and become free flavor.
+Italian-American fettuccine Alfredo with shrimp traces back to Alfredo di Lelio's 1908 Rome original - just butter and Parmigiano-Reggiano, no cream. Americans added cream for richness and stability, then added shrimp because this is what we do. The key is a quick high-heat sear on the shrimp (2 minutes per side until pink with light char) - overcooking turns them rubbery. If making the [Real Alfredo Sauce](/mise/recipes/real-alfredo-sauce) from scratch, use the same skillet you seared the shrimp in - those browned bits dissolve into the butter and become free flavor.
 
 ## Directions
 

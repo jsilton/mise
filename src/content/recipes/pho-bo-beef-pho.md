@@ -3,7 +3,6 @@ title: Pho Bo (Beef Pho)
 origin: Vietnam
 difficulty: intermediate
 cookingMethods:
-  - roast
   - simmer
   - boil
   - no-cook

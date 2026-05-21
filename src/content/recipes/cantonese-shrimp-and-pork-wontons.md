@@ -2,7 +2,6 @@
 title: Cantonese Shrimp and Pork Wontons
 difficulty: intermediate
 cookingMethods:
-  - roast
   - fry
   - no-cook
 occasions:
@@ -28,6 +27,8 @@ advancePrep:
   - make-ahead
   - freeze-ahead
 pairsWith:
+  - fresh-wonton-wrappers
+  - homemade-chili-oil
   - classic-wonton-soup
 ingredients:
   - 1 lb Ground Pork (20% fat is ideal)
@@ -71,4 +72,4 @@ Cantonese wontons from Guangdong province have been made for centuries, traditio
 4.  **The Test:** Fry a small "tab" of the filling in a skillet. Taste for seasoning and adjust salt if needed.
 5.  **Assemble:** Place 1 tsp of filling in a wrapper. Moisten edges, fold into a triangle, and bring the two side corners together to form a "nurse's cap." Press out all air.
 
-**Rest:** Let Ground Pork rest for 5 minutes before slicing or serving  -  the juices redistribute and every piece stays moist.
+**Rest:** Let Ground Pork rest for 5 minutes before slicing or serving - the juices redistribute and every piece stays moist.

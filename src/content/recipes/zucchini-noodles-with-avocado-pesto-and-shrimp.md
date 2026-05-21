@@ -2,7 +2,6 @@
 title: Zucchini Noodles with Avocado & Shrimp
 difficulty: easy
 cookingMethods:
-  - roast
   - saute
   - blend
 occasions:

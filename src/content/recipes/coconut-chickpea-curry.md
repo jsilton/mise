@@ -2,7 +2,6 @@
 title: Coconut Chickpea Curry
 difficulty: easy
 cookingMethods:
-  - bake
   - saute
   - simmer
   - boil

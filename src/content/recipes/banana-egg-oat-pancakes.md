@@ -2,7 +2,7 @@
 title: Banana Egg Oat Pancakes
 difficulty: easy
 cookingMethods:
-  - sear
+  - pan-fry
 dietary:
   - vegetarian
 occasions:
@@ -50,6 +50,7 @@ nutrition:
 ## Chef's Note
 
 These are a gym staple made famous by bodybuilders - a high-protein, no-flour pancake that blends banana, eggs, and oats into a batter with the texture of crepes. The banana provides natural sweetness and moisture, so these need almost no oil; cook them at medium heat or the outside browns before the inside sets.
+
 ## Directions
 
 1.  **Mash:** In a medium bowl, mash the banana until almost liquid.

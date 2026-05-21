@@ -2,7 +2,6 @@
 title: Puffy Muffin Chicken Salad
 difficulty: easy
 cookingMethods:
-  - roast
   - boil
   - poach
 occasions:
@@ -55,6 +54,7 @@ nutrition:
 ## Chef's Note
 
 Chicken salad with puffed muffins is a comfort food combo - creamy, chicken-based filling inside a tender, slightly sweet muffin. The muffin base matters: too dense and it overwhelms the filling; too light and it falls apart. Use a standard muffin recipe, then fill and bake so the muffin bakes around the filling rather than being stuffed afterward.
+
 ## Directions
 
 1.  **Poach:** Bring a pot of salted water to a gentle boil. Add chicken tenders and cook for 8-10 minutes until just cooked through. Drain and let cool for 5 minutes.

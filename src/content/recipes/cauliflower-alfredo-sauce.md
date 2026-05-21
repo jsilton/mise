@@ -2,7 +2,6 @@
 title: Cauliflower Alfredo
 difficulty: intermediate
 cookingMethods:
-  - roast
   - saute
   - simmer
   - boil
@@ -60,6 +59,7 @@ nutrition:
 ## Chef's Note
 
 Cauliflower replaces some of the cream in traditional alfredo, cutting richness while adding body - the natural starches thicken the sauce. It's a smart weeknight shortcut that tastes more like creamy comfort than a vegetable swap. Blend the cooked cauliflower until completely smooth before adding cheese, or the sauce will be gritty.
+
 ## Directions
 
 1.  **Boil:** In a pot, combine cauliflower and milk/broth. Bring to a boil, cover, and simmer for 12-15 minutes until very soft.
@@ -67,4 +67,3 @@ Cauliflower replaces some of the cream in traditional alfredo, cutting richness 
 3.  **Blend:** Transfer the hot cauliflower and its cooking liquid to a blender. Add the garlic butter, Parmesan, salt, and nutmeg.
 4.  **Emulsify:** Blend on high for 1 minute until completely smooth and velvety.
 5.  **Serve:** Toss immediately with your favorite pasta or use as a base for roasted veg.
-

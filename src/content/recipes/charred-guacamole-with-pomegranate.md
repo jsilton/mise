@@ -2,8 +2,8 @@
 title: Charred Guacamole with Pomegranate
 difficulty: easy
 cookingMethods:
-  - roast
   - no-cook
+  - broil
 dietary:
   - vegetarian
   - vegan

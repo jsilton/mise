@@ -26,6 +26,7 @@ cookTime: 0 min
 totalTime: 5 min
 servings: 36 cookies
 pairsWith:
+  - sugar-cookie
   - blueberry-baked-oatmeal
   - breakfast-carrot-cake
   - chocolate-chip-beet-muffins

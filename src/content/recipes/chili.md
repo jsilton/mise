@@ -26,8 +26,6 @@ ingredients:
   - 'Shredded Cheddar, Sour Cream, Avocado, and Cilantro'
 difficulty: easy
 cookingMethods:
-  - bake
-  - roast
   - saute
   - simmer
   - boil

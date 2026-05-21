@@ -2,7 +2,6 @@
 title: Spanish Rice and Chickpeas
 difficulty: easy
 cookingMethods:
-  - roast
   - fry
   - saute
   - simmer

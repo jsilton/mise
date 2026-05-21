@@ -2,7 +2,6 @@
 title: Pear & Spinach Salad
 difficulty: easy
 cookingMethods:
-  - roast
   - no-cook
 occasions:
   - light-and-fresh
@@ -55,6 +54,7 @@ nutrition:
 ## Chef's Note
 
 Pear and spinach is an autumn salad that balances sweet fruit against slightly bitter greens, often finished with nuts for crunch and something rich like cheese or bacon. Raw spinach needs a flavorful dressing and light tossing or it becomes limp. The pear adds enough moisture that you don't need to over-dress; use a restrained hand with vinaigrette.
+
 ## Directions
 
 1.  **Shock:** Place sliced red onions in a bowl of ice water. Let stand for 10 minutes. Drain and pat **bone-dry**.

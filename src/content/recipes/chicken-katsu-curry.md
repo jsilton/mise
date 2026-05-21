@@ -33,6 +33,7 @@ cookTime: 25 min
 totalTime: 40 min
 servings: '4'
 pairsWith:
+  - japanese-short-grain-rice-gohan
   - steamed-white-rice
   - japanese-cucumber-sunomono
 ingredients:

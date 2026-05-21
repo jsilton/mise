@@ -23,6 +23,7 @@ advancePrep:
   - marinate
 servings: '4'
 pairsWith:
+  - quinoa-pilaf-with-toasted-almonds
   - tzatziki-sauce
   - warm-pita-bread
   - greek-salad

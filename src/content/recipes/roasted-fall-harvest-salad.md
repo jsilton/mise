@@ -4,7 +4,6 @@ difficulty: easy
 cookingMethods:
   - bake
   - roast
-  - grill
   - simmer
   - steam
   - no-cook

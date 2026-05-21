@@ -2,7 +2,6 @@
 title: Nana Ruth’s Applesauce
 difficulty: easy
 cookingMethods:
-  - roast
   - simmer
   - boil
   - blend

@@ -426,7 +426,9 @@ async function runQA() {
 
       // Braise requires low temp (275-325°F) or "low"
       if (methods.includes('braise')) {
-        const hasLowHeat = dirLower.includes(' low') || dirLower.match(/[23]\d{2}\s*°?[fc]/i);
+        const hasLowHeat =
+          dirLower.match(/\b(?:low|simmer|slow cooker|slow-cooker)\b/i) ||
+          dirLower.match(/[23]\d{2}\s*°?[fc]/i);
         if (!hasLowHeat) {
           issues.techniqueConsistency.push({
             severity: 'warning',
@@ -555,12 +557,23 @@ async function runQA() {
         });
       }
 
-      if (boldSteps.length !== numberSteps.length) {
+      // Check if each numbered step starts with a bold header
+      const steps = directions.split(/^\d+\.\s+/gm);
+      const actualSteps = steps.slice(1).filter(Boolean);
+      let missingHeader = false;
+      for (const step of actualSteps) {
+        if (!step.trim().startsWith('**')) {
+          missingHeader = true;
+          break;
+        }
+      }
+
+      if (missingHeader && numberSteps.length > 0) {
         issues.contentQuality.push({
           severity: 'info',
           recipe: title,
           file,
-          message: `Directions have ${numberSteps.length} numbered steps but only ${boldSteps.length} bold headers. Each step should have a bold header.`,
+          message: `Some numbered steps in directions are missing a starting bold header (e.g., 1. **The Header:** step details).`,
         });
       }
 

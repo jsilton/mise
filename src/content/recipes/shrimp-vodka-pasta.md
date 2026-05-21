@@ -2,7 +2,6 @@
 title: Shrimp Vodka Pasta
 difficulty: easy
 cookingMethods:
-  - roast
   - saute
   - simmer
   - boil
@@ -66,4 +65,3 @@ Vodka sauce is a purely Italian-American invention from 1970s New York, with mul
 5.  **Combine:** Return the pasta, broccoli, and shrimp to the skillet. Stir in half the fresh basil.
 6.  **Toss:** Toss over medium heat for 1 minute until the sauce clings to the rigatoni.
 7.  **Serve:** Garnish with the remaining basil and a "High Note" pat of Parmesan.
-

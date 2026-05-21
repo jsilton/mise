@@ -2,7 +2,6 @@
 title: Sun-Dried Tomato Cream Spaghetti
 difficulty: intermediate
 cookingMethods:
-  - roast
   - saute
   - simmer
   - boil

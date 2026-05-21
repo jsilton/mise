@@ -2,7 +2,6 @@
 title: Chocolate Pie
 difficulty: intermediate
 cookingMethods:
-  - bake
   - boil
 dietary:
   - vegetarian
@@ -62,6 +61,7 @@ nutrition:
 ## Chef's Note
 
 This is a chocolate cream pie - a pudding custard filling that relies on cornstarch to thicken, not flour (which can create a gummy texture). The custard must reach a boil to fully activate the starch, then you remove it from heat immediately to add chocolate, so it stays silky. Pressing plastic wrap directly on the filling prevents that grainy "skin" from forming during chilling.
+
 ## Directions
 
 1.  **The Base:** In a medium saucepan, whisk together sugar, cornstarch, and salt.

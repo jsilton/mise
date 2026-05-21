@@ -3,7 +3,6 @@ title: Spinach Gnocchi
 origin: Italy
 difficulty: easy
 cookingMethods:
-  - roast
   - boil
   - blend
 dietary:

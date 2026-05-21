@@ -2,7 +2,8 @@
 title: Brownie Protein Balls
 difficulty: easy
 cookingMethods:
-  - bake
+  - no-cook
+  - assemble
 dietary:
   - vegetarian
 occasions:

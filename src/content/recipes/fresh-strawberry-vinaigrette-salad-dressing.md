@@ -2,7 +2,6 @@
 title: Strawberry Vinaigrette
 difficulty: intermediate
 cookingMethods:
-  - grill
   - blend
 occasions:
   - light-and-fresh

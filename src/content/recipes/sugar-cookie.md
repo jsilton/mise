@@ -21,6 +21,7 @@ advancePrep:
   - chill
 servings: '36'
 pairsWith:
+  - royal-icing
   - chicken-apple-and-butternut-stew
   - good-eats-roast-turkey
   - simple-roast-turkey

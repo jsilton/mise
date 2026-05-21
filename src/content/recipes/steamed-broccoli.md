@@ -2,7 +2,6 @@
 title: Broccoli with Garlic
 difficulty: easy
 cookingMethods:
-  - bake
   - boil
   - steam
 occasions:

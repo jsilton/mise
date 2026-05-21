@@ -2,7 +2,7 @@
 title: Grapefruit-Basil Gin Fizz
 difficulty: easy
 cookingMethods:
-  - grill
+  - mix
 dietary:
   - vegan
 occasions:

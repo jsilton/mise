@@ -2,7 +2,6 @@
 title: Lemon Basil Shrimp Risotto
 difficulty: easy
 cookingMethods:
-  - roast
   - saute
 occasions:
   - date-night

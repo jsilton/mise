@@ -2,8 +2,6 @@
 title: Zuppa Toscana
 difficulty: intermediate
 cookingMethods:
-  - bake
-  - roast
   - saute
   - simmer
   - boil

@@ -2,7 +2,6 @@
 title: Thai Chicken Meatball Soup
 difficulty: easy
 cookingMethods:
-  - bake
   - saute
   - simmer
 occasions:

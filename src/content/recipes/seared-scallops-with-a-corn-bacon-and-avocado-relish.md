@@ -2,7 +2,6 @@
 title: Seared Scallops with Corn & Avocado Relish
 difficulty: easy
 cookingMethods:
-  - roast
   - saute
   - no-cook
 occasions:

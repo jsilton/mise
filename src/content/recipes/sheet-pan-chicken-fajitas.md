@@ -18,6 +18,7 @@ cookTime: 15 min
 totalTime: 30 min
 servings: '6'
 pairsWith:
+  - mexican-red-rice
   - quick-seasoned-black-beans
   - cilantro-lime-rice
   - classic-guacamole

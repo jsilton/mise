@@ -2,7 +2,6 @@
 title: Avocado Pasta
 difficulty: easy
 cookingMethods:
-  - grill
   - boil
   - blend
 occasions:
@@ -59,6 +58,7 @@ nutrition:
 ## Chef's Note
 
 Avocado as a sauce base is a Mexican and California trick that became mainstream - mashed avocado with lime and garlic replaces cream or oil. The trick is timing: toss hot pasta with cold avocado mixture at the last second so the heat softens it without cooking it to gray mush. Use pasta water to loosen the sauce to coating consistency.
+
 ## Directions
 
 1.  **Boil:** Cook pasta in a large pot of salted water until **al dente**. **Reserve 1 cup of pasta water** before draining.

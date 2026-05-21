@@ -2,7 +2,6 @@
 title: Strozzapreti with Preserved Lemon & Spinach
 difficulty: easy
 cookingMethods:
-  - roast
   - fry
   - saute
   - boil
@@ -66,4 +65,3 @@ Strozzapreti ("priest stranglers") is a hand-rolled pasta shape from Emilia-Roma
 4.  **The Wilt:** Add half of the spinach to the butter. Toss for 1 minute until collapsed.
 5.  **Bind:** Add the hot pasta, lemon juice, and preserved lemon. Toss vigorously. Add the remaining spinach and toss for 30 seconds.
 6.  **Serve:** Divide into bowls. Top with a massive pile of the reserved garlic-lemon panko for the final **High Note**.
-

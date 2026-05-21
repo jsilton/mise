@@ -73,9 +73,9 @@ These meatballs bridge Chinese and American flavors - the hoisin and Peking duck
 
 ## Directions
 
-f using turkey, first soak the panko in milk for 5 minutes to create a panade (moisture reservoir). In a large bowl, combine ground meat, panko mixture (or dry panko if using beef)
+If using ground turkey, first soak the panko in the milk for 5 minutes to create a panade (moisture reservoir).
 
-1.  **Make the Meatballs:** In a large bowl, combine ground beef, panko, egg, garlic, ginger, soy sauce, green onions, pepper, and salt. Mix gently with your hands just until combined - don't overmix or the meatballs will be tough. Roll into 24 meatballs (about 1.5 inches each, roughly 1 oz each).
+1.  **Make the Meatballs:** In a large bowl, combine ground beef (or ground turkey and panade mixture), egg, garlic, ginger, soy sauce, green onions, pepper, and salt. Mix gently with your hands just until combined - don't overmix or the meatballs will be tough. Roll into 24 meatballs (about 1.5 inches each, roughly 1 oz each).
 
 2.  **Bake the Meatballs:** Preheat oven to 400°F. Line a baking sheet with parchment paper. Arrange meatballs on the sheet with space between them. Bake for 15-18 minutes until browned and cooked through (internal temp 160°F).
 

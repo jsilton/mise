@@ -4,7 +4,6 @@ difficulty: easy
 cookingMethods:
   - bake
   - roast
-  - grill
   - no-cook
 occasions:
   - light-and-fresh

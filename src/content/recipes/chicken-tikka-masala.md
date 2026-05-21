@@ -36,10 +36,10 @@ difficulty: intermediate
 advancePrep:
   - marinate-overnight
 cookingMethods:
-  - bake
   - saute
   - simmer
   - blend
+  - broil
 occasions:
   - comfort-food
 flavorProfile:

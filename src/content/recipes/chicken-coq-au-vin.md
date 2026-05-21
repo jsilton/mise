@@ -2,7 +2,6 @@
 title: Chicken Coq au Vin
 difficulty: easy
 cookingMethods:
-  - bake
   - saute
   - simmer
   - boil

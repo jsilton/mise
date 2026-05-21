@@ -2,7 +2,6 @@
 title: Gnocchi with Zucchini Ribbons & Brown Butter
 difficulty: intermediate
 cookingMethods:
-  - roast
   - saute
   - boil
 dietary:
@@ -65,4 +64,3 @@ Brown butter (beurre noisette in French, literally "hazelnut butter") is a class
 4.  **Emulsify:** Add halved tomatoes, salt, nutmeg, and pepper. Cook for 2 minutes until the tomatoes just begin to release their juices and form a light sauce.
 5.  **Toss:** Add the drained gnocchi, Parmesan, and parsley to the skillet.
 6.  **Bind:** Toss vigorously for 30 seconds until the cheese is melted and the gnocchi is glossy and coated. Serve immediately.
-

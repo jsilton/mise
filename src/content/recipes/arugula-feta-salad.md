@@ -2,7 +2,6 @@
 title: Arugula & Feta Salad with Strawberry Vinaigrette
 difficulty: easy
 cookingMethods:
-  - roast
   - grill
   - blend
 dietary:

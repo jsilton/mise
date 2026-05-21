@@ -2,7 +2,8 @@
 title: Shaved Brussels Sprout Salad
 difficulty: intermediate
 cookingMethods:
-  - roast
+  - no-cook
+  - toss
 occasions:
   - entertaining
   - potluck

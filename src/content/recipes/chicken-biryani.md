@@ -43,6 +43,7 @@ equipment:
   - heavy-pot
   - fine-mesh-strainer
 pairsWith:
+  - saffron-cardamom-rice
   - cucumber-raita
   - kachumber-salad
   - homemade-naan

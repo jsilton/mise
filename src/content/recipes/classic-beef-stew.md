@@ -2,8 +2,6 @@
 title: Beef Stew
 difficulty: easy
 cookingMethods:
-  - bake
-  - roast
   - fry
   - saute
   - simmer
@@ -73,4 +71,3 @@ The secret to a restaurant-quality stew is **The Batched Sear**. Never crowd the
 6.  **Simmer:** Return the beef to the pot. Add stock and thyme. Bring to a simmer, then cover and cook on **LOW** for 2 hours.
 7.  **Potatoes:** Add the potatoes. Cover and cook for another 45 minutes until meat and potatoes are tender.
 8.  **Finish:** Stir in the peas and balsamic vinegar. Taste and adjust salt. Serve hot.
-

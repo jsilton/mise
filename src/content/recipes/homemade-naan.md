@@ -3,7 +3,6 @@ title: Naan
 origin: India
 difficulty: easy
 cookingMethods:
-  - bake
   - steam
 occasions:
   - weekend-project

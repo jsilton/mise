@@ -2,7 +2,6 @@
 title: Glazed Carrots
 difficulty: easy
 cookingMethods:
-  - roast
   - simmer
   - boil
 dietary:

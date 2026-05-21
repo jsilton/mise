@@ -3,7 +3,6 @@ title: Phở Gà
 origin: Vietnam
 difficulty: easy
 cookingMethods:
-  - roast
   - simmer
   - boil
   - no-cook
@@ -71,4 +70,4 @@ For kids, serve the heat on the side or reduce/omit the spicy elements.
 7.  **Noodles:** Soak rice sticks in warm water for 20 minutes, then flash-boil for 1 minute just before serving.
 8.  **Assemble:** Place noodles in deep bowls. Top with shredded chicken and hot broth. Serve with a plate of fresh herbs, sprouts, and lime.
 
-**Rest:** Let Whole Chicken rest for 10 minutes before slicing or serving  -  the juices redistribute and every piece stays moist.
+**Rest:** Let Whole Chicken rest for 10 minutes before slicing or serving - the juices redistribute and every piece stays moist.

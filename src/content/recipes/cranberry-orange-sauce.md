@@ -4,7 +4,6 @@ aliases:
   - cranberry-orange-sauce-the-bright-finish
 difficulty: intermediate
 cookingMethods:
-  - roast
   - simmer
   - boil
 dietary:

@@ -2,8 +2,6 @@
 title: Mandarin/Pineapple Orange Salad
 difficulty: intermediate
 cookingMethods:
-  - bake
-  - roast
   - boil
 occasions:
   - holiday
@@ -54,6 +52,7 @@ nutrition:
 ## Chef's Note
 
 Citrus salads are a Southern and Caribbean tradition - canned or fresh fruit with a bright dressing and sometimes nuts for crunch. The trick is draining fruit well so the salad doesn't turn watery. If you're using canned fruit, rinse it under cold water to remove the heavy syrup, then dress it right before serving.
+
 ## Directions
 
 1.  **Dissolve:** In a large bowl, whisk the Orange Jello and sugar into the boiling water until no crystals remain.

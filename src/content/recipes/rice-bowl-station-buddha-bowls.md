@@ -4,9 +4,6 @@ origin: Hawaii / California Fusion
 difficulty: easy
 cookingMethods:
   - no-cook
-  - roast
-  - saute
-  - grill
 dietary:
   - vegetarian-option
   - vegan-option
@@ -69,7 +66,7 @@ ingredients:
   - 1/4 cup Toasted Sesame Seeds or Sunflower Seeds
   - 1/4 cup Sliced Scallions
   - Crispy Fried Onions or Wonton Strips (for crunch)'
-  - 'Fresh Herbs (cilantro, basil, mint)'''
+  - "Fresh Herbs (cilantro, basil, mint)'"
   - '--- The Sauce (Choose 1) ---'
   - Tahini Sauce (nutty and rich)
   - Lemon-Herb Vinaigrette (bright and light)
@@ -120,4 +117,4 @@ The Buddha Bowl is not a bowl in the religious sense - it's a concept: whole gra
 - Roast chickpeas and store in an airtight container (they stay crispy for 3 days)
 - Make dressing in a jar (shakes before serving)
 - Soft-boil eggs on Sunday morning, peel and refrigerate
-- Assemble bowls fresh each time  -  don't let vegetables sit in grain or they'll release moisture
+- Assemble bowls fresh each time - don't let vegetables sit in grain or they'll release moisture

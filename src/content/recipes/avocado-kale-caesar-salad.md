@@ -2,7 +2,6 @@
 title: Avocado Kale Caesar
 difficulty: easy
 cookingMethods:
-  - bake
   - no-cook
   - blend
 occasions:

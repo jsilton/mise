@@ -2,7 +2,6 @@
 title: Fennel and Carrot Soup
 difficulty: easy
 cookingMethods:
-  - roast
   - saute
   - simmer
   - boil

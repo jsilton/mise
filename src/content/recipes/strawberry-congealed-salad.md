@@ -2,7 +2,6 @@
 title: Strawberry Orange Jello Salad
 difficulty: intermediate
 cookingMethods:
-  - roast
   - boil
 dietary:
   - vegetarian
@@ -57,6 +56,7 @@ nutrition:
 ## Chef's Note
 
 Congealed salads are a Southern tradition - aspic-based dishes that served as both side dish and dessert at mid-century dinners. Despite their reputation, they work because the gelatin provides a light texture that carries fruit and nuts without heaviness. The trick is chilling just until set but not rock-hard, so each spoonful has a slight wobble.
+
 ## Directions
 
 1.  **Dissolve:** In a large bowl, whisk the Jello into the boiling water until no crystals remain.

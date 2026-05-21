@@ -2,9 +2,7 @@
 title: Slow Cooker French Dip Sandwiches
 difficulty: easy
 cookingMethods:
-  - roast
   - slow-cook
-  - no-cook
 occasions:
   - comfort-food
 flavorProfile:

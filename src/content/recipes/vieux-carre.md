@@ -2,7 +2,8 @@
 title: Vieux Carré
 difficulty: easy
 cookingMethods:
-  - roast
+  - no-cook
+  - mix
 occasions:
   - date-night
   - entertaining

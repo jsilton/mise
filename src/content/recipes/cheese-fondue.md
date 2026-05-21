@@ -2,7 +2,6 @@
 title: Cheese Fondue
 difficulty: easy
 cookingMethods:
-  - roast
   - simmer
 dietary:
   - vegetarian

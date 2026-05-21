@@ -2,7 +2,8 @@
 title: Sesame Tomato Salad
 difficulty: intermediate
 cookingMethods:
-  - roast
+  - no-cook
+  - toss
 dietary:
   - vegetarian
 occasions:
