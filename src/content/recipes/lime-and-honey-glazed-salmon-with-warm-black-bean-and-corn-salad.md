@@ -4,62 +4,73 @@ difficulty: easy
 cookingMethods:
   - saute
   - simmer
+  - char
 occasions:
   - weeknight
   - light-and-fresh
+  - family-meal
 flavorProfile:
   - spicy
   - sweet
+  - smoky
+  - tangy
 cuisines:
   - Mexican
+  - American
 role: main
 vibe: nutritious
 prepTime: 20 min
 cookTime: 15 min
 totalTime: 35 min
-servings: '4'
+servings: '5'
 pairsWith:
+  - purple-rice
   - mexican-street-corn-salad
   - roasted-sweet-potatoes
   - cilantro-lime-rice
 ingredients:
-  - 4 Salmon Fillets (6 oz each)
-  - '2 Limes, juiced'
-  - 3 tbsp Honey
-  - 1 tsp Chili Powder
-  - '1 can (15 oz) Black Beans, rinsed'
-  - 4 ears Fresh Corn (kernels cut off)
-  - '1 Red Bell Pepper, chopped'
-  - '1 Red Onion, diced'
-  - 6 cups Baby Spinach
+  - 5 Salmon Fillets (6 oz each)
+  - 3 Limes (2 juiced, 1 cut into wedges for serving)
+  - 4 tbsp Honey
+  - 1.5 tsp Chili Powder
+  - 1.5 tsp Ground Cumin (divided)
+  - 1/2 tsp Red Pepper Flakes (optional, for serving)
+  - 2 cans (15 oz each) Black Beans, rinsed and drained
+  - 5 ears Fresh Corn (kernels cut off)
+  - 1 Red Bell Pepper, chopped
+  - 1 Red Onion, diced
+  - 3 Garlic Cloves, minced
+  - 8 cups Baby Spinach
   - 1/2 cup Chicken Broth
-  - 2 tbsp Fresh Cilantro
-  - 2 tbsp Extra-Virgin Olive Oil
+  - 1/4 cup Fresh Cilantro, chopped
+  - 2 tbsp Extra-Virgin Olive Oil (divided)
+  - 1/2 tsp Kosher Salt
+  - 1/4 tsp Black Pepper
 origin: Mexico
 seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
 nutrition:
-  calories: 285
-  protein: 12
-  carbs: 41
-  fat: 11.5
-  fiber: 5.5
-  sugar: 19.5
-  sodium: 340
+  calories: 685
+  protein: 44
+  carbs: 64
+  fat: 26
+  fiber: 11
+  sugar: 16
+  sodium: 480
 ---
 
 ## Chef's Note
 
-This Mexican-inspired salmon dish features a lime-honey glaze that caramelizes during searing, creating a sweet-tangy crust. Using the same pan to build the black bean and corn salad allows the caramelized juices from the fish to infuse the vegetables. Baby spinach is folded in at the end so it wilts without losing its vibrant color.
-For kids, serve the heat on the side or reduce/omit the spicy elements.
+Combining ingredients native to the Americas—corn, black beans, and wild salmon—this dish highlights the vibrant crossover flavors of modern Southwestern cooking. The trick is to sear the dry-rubbed fish first and brush on the honey glaze during the final minute of cooking, preventing the sugars from scorching. The sweet, spiced pan fond then seasons the warm salad.
 
 ## Directions
 
-1.  **Aromatics:** In a large skillet, sauté onion, garlic, red pepper flakes, and cumin in 1 tbsp oil for 3 minutes.
-2.  **The Glaze:** In a shallow dish, whisk the juice of 1 lime, honey, and chili powder. Coat the salmon fillets in this mixture.
-3.  **The Sear:** In a separate non-stick skillet, heat 1 tbsp oil over medium-high. Sear salmon for 5 minutes per side until the honey has created a dark, crispy crust. Cover the pan during the final 2 minutes to ensure it is cooked through.
-4.  **The Salad:** To the onion skillet, add the corn and bell peppers. Sauté for 1 minute. Add chicken broth and simmer for 2 minutes. Stir in the black beans until heated through.
-5.  **Finish:** Remove from heat. Add the second lime's juice, cilantro, and spinach. Toss until the spinach just collapses.
-6.  **Serve:** Mound the warm bean salad in bowls and top with the glazed salmon.
+1.  **The Prep:** Pat the salmon fillets dry with paper towels (critical for a good sear). Season both sides of the fillets with chili powder, 1/2 tsp cumin, salt, and black pepper. In a small bowl, whisk the juice of 1 lime with the honey to create the glaze; set aside.
+2.  **Char the Corn:** Heat a large skillet over medium-high heat without oil. Add the fresh corn kernels and cook, stirring occasionally, for 4–5 minutes until the corn is slightly charred and fragrant. Transfer the corn to a bowl and set aside.
+3.  **Sear the Salmon:** Return the skillet to medium-high heat and add 1 tbsp olive oil. Place the salmon fillets in the pan and sear for 4 minutes until a deep, golden crust forms. Flip the fillets and cook for another 3 minutes. Brush the honey-lime glaze generously over the salmon, allowing it to bubble and caramelize in the pan for the final 60 seconds. Remove the salmon to a plate to rest.
+4.  **Sauté the Aromatics:** Reduce the skillet heat to medium and add the remaining 1 tbsp olive oil. Stir in the red onion, bell pepper, and garlic. Sauté for 3 minutes until the vegetables soften and begin to brown.
+5.  **Build the Salad:** Return the charred corn to the skillet along with the black beans, the remaining 1 tsp cumin, and red pepper flakes (if using). Pour in the chicken broth, using a wooden spoon to scrape up the caramelized glaze and salmon drippings from the bottom of the pan. Simmer for 2 minutes until the liquid is slightly reduced.
+6.  **The Finish:** Remove the skillet from the heat. Squeeze in the juice of the second lime, then fold in the baby spinach and cilantro. Toss gently for 30 seconds until the spinach just wilts in the residual heat.
+7.  **Serve:** Divide the warm corn and black bean salad among wide bowls. Top each with a seared salmon fillet and serve immediately with lime wedges and Aromatic Purple Rice on the side.
