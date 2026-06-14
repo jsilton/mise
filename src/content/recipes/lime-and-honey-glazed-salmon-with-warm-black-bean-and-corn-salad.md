@@ -2,6 +2,7 @@
 title: Lime & Honey Glazed Salmon
 difficulty: easy
 cookingMethods:
+  - broil
   - saute
   - simmer
   - char
@@ -23,6 +24,9 @@ prepTime: 20 min
 cookTime: 15 min
 totalTime: 35 min
 servings: '5'
+equipment:
+  - toaster-oven
+  - skillet
 pairsWith:
   - purple-rice
   - mexican-street-corn-salad
@@ -43,7 +47,7 @@ ingredients:
   - 8 cups Baby Spinach
   - 1/2 cup Chicken Broth
   - 1/4 cup Fresh Cilantro, chopped
-  - 2 tbsp Extra-Virgin Olive Oil (divided)
+  - 1 tbsp Extra-Virgin Olive Oil
   - 1/2 tsp Kosher Salt
   - 1/4 tsp Black Pepper
 origin: Mexico
@@ -52,10 +56,10 @@ seasons:
 nutritionalDensity: moderate
 leftovers: good
 nutrition:
-  calories: 685
+  calories: 650
   protein: 44
   carbs: 64
-  fat: 26
+  fat: 21
   fiber: 11
   sugar: 16
   sodium: 480
@@ -63,14 +67,14 @@ nutrition:
 
 ## Chef's Note
 
-Combining ingredients native to the Americas—corn, black beans, and wild salmon—this dish highlights the vibrant crossover flavors of modern Southwestern cooking. The trick is to sear the dry-rubbed fish first and brush on the honey glaze during the final minute of cooking, preventing the sugars from scorching. The sweet, spiced pan fond then seasons the warm salad.
+Combining ingredients native to the Americas—corn, black beans, and wild salmon—this dish highlights the crossover flavors of modern Southwestern cooking. Broiling the dry-rubbed fish in a toaster oven keeps it tender, while brushing the glaze on in the final minutes creates a bubbly, caramelized crust. Scraping any sweet tray juices into the warm salad ties the plate together.
 
 ## Directions
 
-1.  **The Prep:** Pat the salmon fillets dry with paper towels (critical for a good sear). Season both sides of the fillets with chili powder, 1/2 tsp cumin, salt, and black pepper. In a small bowl, whisk the juice of 1 lime with the honey to create the glaze; set aside.
+1.  **The Prep:** Pat the salmon fillets dry with paper towels. Season both sides of the fillets with chili powder, 1/2 tsp cumin, salt, and black pepper. Arrange the fillets on a foil-lined baking sheet or toaster oven tray. In a small bowl, whisk the juice of 1 lime with the honey to create the glaze; set aside.
 2.  **Char the Corn:** Heat a large skillet over medium-high heat without oil. Add the fresh corn kernels and cook, stirring occasionally, for 4–5 minutes until the corn is slightly charred and fragrant. Transfer the corn to a bowl and set aside.
-3.  **Sear the Salmon:** Return the skillet to medium-high heat and add 1 tbsp olive oil. Place the salmon fillets in the pan and sear for 4 minutes until a deep, golden crust forms. Flip the fillets and cook for another 3 minutes. Brush the honey-lime glaze generously over the salmon, allowing it to bubble and caramelize in the pan for the final 60 seconds. Remove the salmon to a plate to rest.
-4.  **Sauté the Aromatics:** Reduce the skillet heat to medium and add the remaining 1 tbsp olive oil. Stir in the red onion, bell pepper, and garlic. Sauté for 3 minutes until the vegetables soften and begin to brown.
-5.  **Build the Salad:** Return the charred corn to the skillet along with the black beans, the remaining 1 tsp cumin, and red pepper flakes (if using). Pour in the chicken broth, using a wooden spoon to scrape up the caramelized glaze and salmon drippings from the bottom of the pan. Simmer for 2 minutes until the liquid is slightly reduced.
+3.  **Broil the Salmon:** Preheat the toaster oven broiler to High. Place the salmon tray on the top rack (3–4 inches from the heat source). Broil for 5–6 minutes. Carefully slide the tray out, brush the honey-lime glaze generously over the fillets, and broil for an additional 2–3 minutes until the glaze is bubbling, glossy, and caramelized. Remove the salmon and let rest.
+4.  **Sauté the Aromatics:** Heat 1 tbsp olive oil in the same skillet over medium heat. Stir in the red onion, bell pepper, and garlic. Sauté for 3 minutes until the vegetables soften.
+5.  **Build the Salad:** Return the charred corn to the skillet along with the black beans, the remaining 1 tsp cumin, and red pepper flakes (if using). Pour in the chicken broth. Carefully scrape any caramelized honey and juices from the salmon foil tray directly into the skillet. Simmer for 2 minutes until the liquid reduces slightly.
 6.  **The Finish:** Remove the skillet from the heat. Squeeze in the juice of the second lime, then fold in the baby spinach and cilantro. Toss gently for 30 seconds until the spinach just wilts in the residual heat.
-7.  **Serve:** Divide the warm corn and black bean salad among wide bowls. Top each with a seared salmon fillet and serve immediately with lime wedges and Aromatic Purple Rice on the side.
+7.  **Serve:** Divide the warm corn and black bean salad among wide bowls. Top each with a broiled salmon fillet and serve immediately with lime wedges and Aromatic Purple Rice on the side.
