@@ -15,7 +15,7 @@ occasions:
   - meal-prep
 flavorProfile:
   - nutty
-  - earthy
+  - mild
   - aromatic
 cuisines:
   - American
@@ -24,8 +24,8 @@ cuisines:
 role: base
 vibe: nutritious
 prepTime: 5 min
-cookTime: 45 min
-totalTime: 50 min
+cookTime: 30 min
+totalTime: 40 min
 servings: '5'
 seasons:
   - year-round
@@ -40,31 +40,31 @@ equipment:
 pairsWith:
   - lime-and-honey-glazed-salmon-with-warm-black-bean-and-corn-salad
 ingredients:
-  - 2 cups Ralston Family Farms Aromatic Purple Rice (or similar whole-grain purple/black rice)
-  - 4 cups Vegetable Stock, water, or chicken stock
-  - 1 tsp Kosher Salt
-  - 1 tbsp Coconut Oil or Unsalted Butter (optional)
+  - 1.5 cups Kokuho Rose Medium-Grain White Rice
+  - 0.5 cups Ralston Family Farms Aromatic Purple Rice
+  - 2 1/4 cups Vegetable Stock, water, or chicken stock
+  - 1/2 tsp Kosher Salt
+  - 1 tsp Coconut Oil or Unsalted Butter (optional)
 ---
 
 ## Chef's Note
 
-Once reserved solely for the Chinese emperor's longevity, purple rice is prized for its nutty flavor and antioxidant-rich bran. Modern regenerative farms now grow aromatic versions of this heirloom grain in the American South. The key is using your rice cooker's Brown Rice setting—the gentle, extended cycle is essential to soften the toothsome bran.
+This recipe blends premium California medium-grain rice (Kokuho Rose) with whole-grain purple rice to create a custom version of Korean Heukmibap. Cooking 100% whole-grain purple rice can result in a dense, heavy texture that competes with the light salmon. By blending them in a 3:1 ratio, you get the best of both worlds: a striking, deep violet color and a soft, fluffy texture with just a hint of nutty chew.
 
 ## Directions
 
-1.  **The Rinse:** Place the purple rice in a fine-mesh strainer and rinse under cold running water, swirling with your hand, for 30–60 seconds to remove surface dust. Unlike white rice, you do not need to rinse until the water runs completely clear, as the purple pigments will continue to color the water.
-2.  **Combine:** Transfer the drained rice to your rice cooker pot (or a medium heavy-bottomed saucepan). Add 4 cups of liquid (chicken stock adds a deep savory flavor that pairs beautifully with seared fish, but water works well too). Stir in the salt and oil or butter if using.
-3.  **Rice Cooker Method (Recommended):** Close the lid and set the rice cooker to the **Brown Rice** or **Whole Grain** setting. Because this is a whole-grain rice with its bran intact, the standard white rice setting will not cook it long enough, leaving the grains tough.
-4.  **Stovetop Method (Alternative):** If cooking on the stovetop, bring the mixture to a boil over medium-high heat. Stir once, cover tightly with a lid, and reduce the heat to the lowest simmer setting. Cook for 45 minutes without lifting the lid.
-5.  **The Rest:** Once the cooking cycle completes (or the stovetop time is up), leave the lid closed and let the rice steam undisturbed for 10 minutes. This allows the moisture to redistribute and finish softening the core of each grain.
-6.  **Fluff and Serve:** Open the lid, gently fluff the rice with a wooden rice paddle or fork to separate the grains, and serve warm.
+1.  **The Rinse:** Combine the Kokuho Rose and Ralston Purple Rice in a bowl. Cover with cold water, swirl with your hand, and drain. Repeat 3–4 times until the water runs mostly clear. This removes excess surface starch from the white rice so the grains stay distinct and fluffy instead of gummy.
+2.  **Combine:** Transfer the rinsed and drained rice to your rice cooker pot (or a medium saucepan). Add 2 1/4 cups of liquid (chicken stock adds a delicious savory depth that bridges the salmon, but water works well too). Stir in the salt and oil or butter if using.
+3.  **Rice Cooker Method (Recommended):** Close the lid and set the rice cooker to the standard **White Rice** or **Sushi Rice** setting. Because the white rice makes up 75% of the blend, the white rice cycle is perfect; the purple rice grains will steam beautifully, retaining a pleasant, toothsome "pop."
+4.  **Stovetop Method (Alternative):** If cooking on the stovetop, bring the mixture to a boil over medium-high heat. Stir once, cover tightly with a lid, and reduce the heat to the lowest simmer setting. Cook for 18–20 minutes without lifting the lid.
+5.  **The Rest:** Once the cooking cycle finishes, leave the lid closed and let the rice steam undisturbed for 10 minutes. This allows the moisture to redistribute evenly into the core of each grain.
+6.  **Fluff and Serve:** Gently fluff the purple rice with a wooden rice paddle or fork, and serve warm as a base for your salmon bowls.
 
 ## Variations
 
-### Korean Purple Rice (Heukmibap)
+### 100% Whole-Grain Aromatic Purple Rice
 
-If using a Korean purple rice blend (which is mostly short-grain white rice with a small amount of black glutinous rice):
+If you prefer to cook the Ralston Family Farms Purple Rice on its own without blending:
 
-- Use **2 cups short-grain white rice** mixed with **2 tablespoons black glutinous rice**.
-- Rinse 3–4 times until water runs mostly clear.
-- Combine with **2 1/4 cups water or stock**, 1/2 tsp salt, and cook on the standard **White Rice** setting.
+- Use **2 cups Ralston Purple Rice** and **4 cups liquid** (1:2 ratio).
+- Cook on the **Brown Rice** or **Whole Grain** setting of your rice cooker (takes approximately 45–50 minutes).
