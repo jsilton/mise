@@ -1,0 +1,22 @@
+---
+// Redirect: palak-paneer was consolidated into the canonical saag-paneer recipe.
+// Static (GitHub Pages) redirect via meta refresh + canonical link, base-path aware.
+const target = `${import.meta.env.BASE_URL}recipes/saag-paneer/`;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="refresh" content={`0; url=${target}`} />
+    <link rel="canonical" href={target} />
+    <meta name="robots" content="noindex" />
+    <title>Redirecting to Saag Paneer</title>
+  </head>
+  <body>
+    <p>This recipe has moved to <a href={target}>Saag Paneer</a>.</p>
+    <script is:inline define:vars={{ target }}>
+      window.location.replace(target);
+    </script>
+  </body>
+</html>

@@ -18,15 +18,15 @@ bestFor: [tuesday, wednesday, thursday]
 
 ## Meal Overview
 
-Cubes of paneer nestled in a rich, deeply spiced spinach sauce  -  this is vegetarian Indian comfort food at its finest. Fluffy basmati rice and cool cucumber raita complete the classic trio. The raita's cooling effect is essential against the warm spices.
+Cubes of paneer nestled in a rich, deeply spiced spinach sauce - this is vegetarian Indian comfort food at its finest. Fluffy basmati rice and cool cucumber raita complete the classic trio. The raita's cooling effect is essential against the warm spices.
 
 ## Cooking Strategy
 
 1. **Start rice** - basmati, 20 minutes
-2. **Blanch spinach** - 2 minutes, ice bath, blend smooth
-3. **Fry paneer** - golden on all sides, set aside
-4. **Build sauce** - onion, garlic, ginger, spices, add spinach puree
-5. **Combine** - add paneer to sauce, simmer briefly
+2. **Blanch spinach** - 1 minute, ice bath, squeeze bone-dry, chop to 1/4"
+3. **Fry paneer** - golden on most sides, then soak in hot salted water
+4. **Build sauce** - onion, garlic, ginger, spices, fry in the chopped spinach
+5. **Combine** - fold in paneer, warm through, finish with kasuri methi and lemon
 6. **Make raita** - grate cucumber, mix with yogurt and cumin
 7. **Serve** - rice, saag paneer, raita alongside
 
