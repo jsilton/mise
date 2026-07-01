@@ -3,7 +3,7 @@ title: Indian Curry Night
 template: bowl
 main: slow-cooker-vegetable-korma
 base: basmati-rice
-sides: [homemade-naan]
+sides: [naan]
 totalPrepTime: 25 min
 totalCookTime: 360 min
 totalActiveTime: 40 min

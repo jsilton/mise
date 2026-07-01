@@ -37,7 +37,7 @@ servings: '4'
 pairsWith:
   - basmati-rice
   - cucumber-raita
-  - homemade-naan
+  - naan
 ingredients:
   - '14 oz Paneer Cheese, cut into 3/4-inch cubes'
   - '1.5 lbs Fresh Spinach (or 10-12 oz frozen, thawed)'

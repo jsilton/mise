@@ -41,7 +41,7 @@ totalTime: 35 min
 servings: '4'
 pairsWith:
   - basmati-rice
-  - homemade-naan
+  - naan
   - dal-tadka
 ingredients:
   - '1.5 lbs Medium Waxy Potatoes (Yukon Gold), cut into 3/4-inch cubes'

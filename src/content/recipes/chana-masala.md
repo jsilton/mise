@@ -42,7 +42,7 @@ totalTime: 50 min
 servings: '4'
 pairsWith:
   - basmati-rice
-  - homemade-naan
+  - naan
   - dal-tadka
 ingredients:
   - '2 cans (15 oz each) Chickpeas, drained and rinsed'

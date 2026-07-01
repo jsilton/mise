@@ -25,7 +25,7 @@ servings: '4'
 pairsWith:
   - spiced-coconut-chicken-rice
   - cucumber-raita
-  - homemade-naan
+  - naan
 ingredients:
   - 1 lb Ground Lamb
   - 1 cup Frozen Peas

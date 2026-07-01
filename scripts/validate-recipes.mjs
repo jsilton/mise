@@ -38,7 +38,6 @@ const PAIRS_WITH_SUGGESTIONS = {
   ribs: ['honey-glazed-spareribs', 'kalbi-grilled-korean-style-short-ribs'],
   'cranberry-sauce': ['perfect-cranberry-sauce', 'cranberry-orange-sauce'],
   'green-beans': ['green-beans-with-shallots-and-lemon'],
-  naan: ['homemade-naan'],
   wontons: ['cantonese-shrimp-and-pork-wontons'],
   dumplings: ['boston-style-peking-ravioli', 'har-gow-dim-sum-shrimp-dumplings'],
   'wonton-soup': ['classic-wonton-soup', 'shrimp-wonton-soup'],

@@ -19,7 +19,7 @@ cookTime: 40 min
 totalTime: 160 min
 servings: 2 loaves
 pairsWith:
-  - homemade-naan
+  - naan
   - peach-salad-with-tomatoes-and-beets
   - roasted-sunchokes-with-brown-butter-cider-vinaigrette
 ingredients:

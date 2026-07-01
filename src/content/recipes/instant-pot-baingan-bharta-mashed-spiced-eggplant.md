@@ -28,7 +28,7 @@ servings: '4'
 pairsWith:
   - spiced-coconut-chicken-rice
   - cucumber-raita
-  - homemade-naan
+  - naan
 ingredients:
   - '2 large Eggplants, peeled and cubed'
   - 4 tbsp Neutral Oil

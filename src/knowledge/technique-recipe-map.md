@@ -4,22 +4,22 @@ Maps which recipes demonstrate each culinary technique.
 
 ## Overview
 
-Total Recipes: 512
+Total Recipes: 510
 Total Techniques: 9
 
 ## Summary
 
 | Technique                                | Slug                   | Recipe Count |
 | ---------------------------------------- | ---------------------- | ------------ |
-| Wok Hei (Breath of the Wok)              | `wok-hei`              | 499          |
-| Butter Finish (Monter au Beurre)         | `butter-finish-sauce`  | 484          |
-| Pasta Water Emulsification               | `pasta-emulsification` | 478          |
-| Braising (Low and Slow)                  | `braising`             | 475          |
-| Velveting (Chinese Protein Prep)         | `velveting`            | 427          |
-| Pan-Searing & The Maillard Reaction      | `searing`              | 409          |
-| Brining (Wet and Dry)                    | `brining`              | 302          |
-| Sushi-Zu (Sushi Vinegar Seasoning Ratio) | `sushi-zu-ratio`       | 85           |
-| The Dam Method (Sushi Rolling)           | `sushi-dam-method`     | 42           |
+| Wok Hei (Breath of the Wok)              | `wok-hei`              | 497          |
+| Butter Finish (Monter au Beurre)         | `butter-finish-sauce`  | 482          |
+| Pasta Water Emulsification               | `pasta-emulsification` | 476          |
+| Braising (Low and Slow)                  | `braising`             | 473          |
+| Velveting (Chinese Protein Prep)         | `velveting`            | 424          |
+| Pan-Searing & The Maillard Reaction      | `searing`              | 407          |
+| Brining (Wet and Dry)                    | `brining`              | 299          |
+| Sushi-Zu (Sushi Vinegar Seasoning Ratio) | `sushi-zu-ratio`       | 86           |
+| The Dam Method (Sushi Rolling)           | `sushi-dam-method`     | 43           |
 
 ## Recipes by Technique
 
@@ -112,7 +112,6 @@ Recipes:
 - `chicken-shawarma`
 - `chicken-souvlaki`
 - `chicken-thigh-kebabs-with-chile-yogurt-sauce`
-- `chicken-tikka-masala`
 - `chicken-tinga`
 - `chicken-with-snow-peas-stir-fry`
 - `chili`
@@ -264,7 +263,6 @@ Recipes:
 - `homemade-chicken-stock`
 - `homemade-chili-oil`
 - `homemade-enchilada-sauce`
-- `homemade-naan`
 - `homemade-sugar-free-ketchup`
 - `honey-chipotle-lime-chicken-bowls`
 - `honey-garlic-butter-shrimp-and-broccoli`
@@ -306,7 +304,6 @@ Recipes:
 - `lemon-pepper-wings`
 - `lemon-ricotta-pasta`
 - `lemony-broccoli-pasta`
-- `lime-and-honey-glazed-salmon-with-warm-black-bean-and-corn-salad`
 - `made-in-the-pan-chocolate-cake`
 - `mandarinpineapple-organge-salad`
 - `mango-rita-green-smoothie`
@@ -330,6 +327,7 @@ Recipes:
 - `mm-cookies`
 - `moms-famous-chocolate-cake`
 - `mongolian-beef`
+- `naan`
 - `nana-ruths-applesauce`
 - `nanas-biscuits`
 - `new-york-crunch-roll`
@@ -373,6 +371,7 @@ Recipes:
 - `prohibition-style-gin-lemon-fizz`
 - `pumpkin-breakfast-cookies`
 - `pumpkin-cheesecake-cookies`
+- `purple-rice`
 - `quadruple-chocolate-brownies`
 - `queso-fundido-with-chorizo`
 - `quick-and-easy-caprese-pasta`
@@ -401,7 +400,6 @@ Recipes:
 - `roasted-sweet-potatoes`
 - `roasted-tomato-basil-soup`
 - `royal-icing`
-- `saag-paneer`
 - `saffron-cardamom-rice`
 - `sage-brown-butter-sauce-butternut-squash-ravioli`
 - `salsa-verde-chicken-casserole`
@@ -615,7 +613,6 @@ Recipes:
 - `chicken-shawarma`
 - `chicken-souvlaki`
 - `chicken-thigh-kebabs-with-chile-yogurt-sauce`
-- `chicken-tikka-masala`
 - `chicken-tinga`
 - `chicken-with-snow-peas-stir-fry`
 - `chili`
@@ -765,7 +762,6 @@ Recipes:
 - `homemade-chicken-stock`
 - `homemade-chili-oil`
 - `homemade-enchilada-sauce`
-- `homemade-naan`
 - `homemade-sugar-free-ketchup`
 - `honey-chipotle-lime-chicken-bowls`
 - `honey-garlic-butter-shrimp-and-broccoli`
@@ -807,7 +803,6 @@ Recipes:
 - `lemon-pepper-wings`
 - `lemon-ricotta-pasta`
 - `lemony-broccoli-pasta`
-- `lime-and-honey-glazed-salmon-with-warm-black-bean-and-corn-salad`
 - `made-in-the-pan-chocolate-cake`
 - `mandarinpineapple-organge-salad`
 - `mango-rita-green-smoothie`
@@ -830,6 +825,7 @@ Recipes:
 - `mm-cookies`
 - `moms-famous-chocolate-cake`
 - `mongolian-beef`
+- `naan`
 - `nana-ruths-applesauce`
 - `nanas-biscuits`
 - `no-cook-playdough`
@@ -870,6 +866,7 @@ Recipes:
 - `prohibition-style-gin-lemon-fizz`
 - `pumpkin-breakfast-cookies`
 - `pumpkin-cheesecake-cookies`
+- `purple-rice`
 - `quadruple-chocolate-brownies`
 - `queso-fundido-with-chorizo`
 - `quick-and-easy-caprese-pasta`
@@ -898,7 +895,6 @@ Recipes:
 - `roasted-sweet-potatoes`
 - `roasted-tomato-basil-soup`
 - `royal-icing`
-- `saag-paneer`
 - `saffron-cardamom-rice`
 - `sage-brown-butter-sauce-butternut-squash-ravioli`
 - `salsa-verde-chicken-casserole`
@@ -1105,7 +1101,6 @@ Recipes:
 - `chicken-shawarma`
 - `chicken-souvlaki`
 - `chicken-thigh-kebabs-with-chile-yogurt-sauce`
-- `chicken-tikka-masala`
 - `chicken-tinga`
 - `chicken-with-snow-peas-stir-fry`
 - `chili`
@@ -1254,7 +1249,6 @@ Recipes:
 - `homemade-chicken-stock`
 - `homemade-chili-oil`
 - `homemade-enchilada-sauce`
-- `homemade-naan`
 - `homemade-sugar-free-ketchup`
 - `honey-chipotle-lime-chicken-bowls`
 - `honey-garlic-butter-shrimp-and-broccoli`
@@ -1294,7 +1288,6 @@ Recipes:
 - `lemon-pepper-wings`
 - `lemon-ricotta-pasta`
 - `lemony-broccoli-pasta`
-- `lime-and-honey-glazed-salmon-with-warm-black-bean-and-corn-salad`
 - `made-in-the-pan-chocolate-cake`
 - `mandarinpineapple-organge-salad`
 - `maple-roasted-sweet-potato-wedges`
@@ -1315,6 +1308,7 @@ Recipes:
 - `mm-cookies`
 - `moms-famous-chocolate-cake`
 - `mongolian-beef`
+- `naan`
 - `nana-ruths-applesauce`
 - `nanas-biscuits`
 - `no-cook-playdough`
@@ -1354,6 +1348,7 @@ Recipes:
 - `prohibition-style-gin-lemon-fizz`
 - `pumpkin-breakfast-cookies`
 - `pumpkin-cheesecake-cookies`
+- `purple-rice`
 - `quadruple-chocolate-brownies`
 - `queso-fundido-with-chorizo`
 - `quick-and-easy-caprese-pasta`
@@ -1382,7 +1377,6 @@ Recipes:
 - `roasted-sweet-potatoes`
 - `roasted-tomato-basil-soup`
 - `royal-icing`
-- `saag-paneer`
 - `saffron-cardamom-rice`
 - `sage-brown-butter-sauce-butternut-squash-ravioli`
 - `salsa-verde-chicken-casserole`
@@ -1590,7 +1584,6 @@ Recipes:
 - `chicken-shawarma`
 - `chicken-souvlaki`
 - `chicken-thigh-kebabs-with-chile-yogurt-sauce`
-- `chicken-tikka-masala`
 - `chicken-tinga`
 - `chicken-with-snow-peas-stir-fry`
 - `chili`
@@ -1738,7 +1731,6 @@ Recipes:
 - `homemade-chicken-stock`
 - `homemade-chili-oil`
 - `homemade-enchilada-sauce`
-- `homemade-naan`
 - `homemade-sugar-free-ketchup`
 - `honey-chipotle-lime-chicken-bowls`
 - `honey-garlic-butter-shrimp-and-broccoli`
@@ -1779,7 +1771,6 @@ Recipes:
 - `lemon-pepper-wings`
 - `lemon-ricotta-pasta`
 - `lemony-broccoli-pasta`
-- `lime-and-honey-glazed-salmon-with-warm-black-bean-and-corn-salad`
 - `made-in-the-pan-chocolate-cake`
 - `mandarinpineapple-organge-salad`
 - `maple-roasted-sweet-potato-wedges`
@@ -1801,6 +1792,7 @@ Recipes:
 - `mm-cookies`
 - `moms-famous-chocolate-cake`
 - `mongolian-beef`
+- `naan`
 - `nana-ruths-applesauce`
 - `nanas-biscuits`
 - `no-cook-playdough`
@@ -1841,6 +1833,7 @@ Recipes:
 - `prohibition-style-gin-lemon-fizz`
 - `pumpkin-breakfast-cookies`
 - `pumpkin-cheesecake-cookies`
+- `purple-rice`
 - `quadruple-chocolate-brownies`
 - `queso-fundido-with-chorizo`
 - `quick-and-easy-caprese-pasta`
@@ -1869,7 +1862,6 @@ Recipes:
 - `roasted-sweet-potatoes`
 - `roasted-tomato-basil-soup`
 - `royal-icing`
-- `saag-paneer`
 - `saffron-cardamom-rice`
 - `sage-brown-butter-sauce-butternut-squash-ravioli`
 - `salsa-verde-chicken-casserole`
@@ -2061,7 +2053,6 @@ Recipes:
 - `chicken-shawarma`
 - `chicken-souvlaki`
 - `chicken-thigh-kebabs-with-chile-yogurt-sauce`
-- `chicken-tikka-masala`
 - `chicken-tinga`
 - `chicken-with-snow-peas-stir-fry`
 - `chili`
@@ -2186,7 +2177,6 @@ Recipes:
 - `homemade-chicken-stock`
 - `homemade-chili-oil`
 - `homemade-enchilada-sauce`
-- `homemade-naan`
 - `homemade-sugar-free-ketchup`
 - `honey-chipotle-lime-chicken-bowls`
 - `honey-garlic-butter-shrimp-and-broccoli`
@@ -2228,7 +2218,6 @@ Recipes:
 - `lemon-pepper-wings`
 - `lemon-ricotta-pasta`
 - `lemony-broccoli-pasta`
-- `lime-and-honey-glazed-salmon-with-warm-black-bean-and-corn-salad`
 - `made-in-the-pan-chocolate-cake`
 - `mandarinpineapple-organge-salad`
 - `mango-rita-green-smoothie`
@@ -2283,6 +2272,7 @@ Recipes:
 - `pressure-cooker-bolognase`
 - `prohibition-style-gin-lemon-fizz`
 - `pumpkin-breakfast-cookies`
+- `purple-rice`
 - `quadruple-chocolate-brownies`
 - `queso-fundido-with-chorizo`
 - `quick-and-easy-caprese-pasta`
@@ -2310,7 +2300,6 @@ Recipes:
 - `roasted-sweet-potatoes`
 - `roasted-tomato-basil-soup`
 - `royal-icing`
-- `saag-paneer`
 - `saffron-cardamom-rice`
 - `sage-brown-butter-sauce-butternut-squash-ravioli`
 - `salsa-verde-chicken-casserole`
@@ -2498,7 +2487,6 @@ Recipes:
 - `chicken-shawarma`
 - `chicken-souvlaki`
 - `chicken-thigh-kebabs-with-chile-yogurt-sauce`
-- `chicken-tikka-masala`
 - `chicken-tinga`
 - `chicken-with-snow-peas-stir-fry`
 - `chili`
@@ -2625,7 +2613,6 @@ Recipes:
 - `herby-chicken-meatball-bowl`
 - `homemade-chicken-stock`
 - `homemade-enchilada-sauce`
-- `homemade-naan`
 - `honey-chipotle-lime-chicken-bowls`
 - `honey-garlic-butter-shrimp-and-broccoli`
 - `honey-glazed-carrots`
@@ -2659,7 +2646,6 @@ Recipes:
 - `lemon-pepper-wings`
 - `lemon-ricotta-pasta`
 - `lemony-broccoli-pasta`
-- `lime-and-honey-glazed-salmon-with-warm-black-bean-and-corn-salad`
 - `made-in-the-pan-chocolate-cake`
 - `mandarinpineapple-organge-salad`
 - `maple-roasted-sweet-potato-wedges`
@@ -2680,6 +2666,7 @@ Recipes:
 - `mm-cookies`
 - `moms-famous-chocolate-cake`
 - `mongolian-beef`
+- `naan`
 - `nanas-biscuits`
 - `no-cook-playdough`
 - `noodle-pudding`
@@ -2711,6 +2698,7 @@ Recipes:
 - `prohibition-style-gin-lemon-fizz`
 - `pumpkin-breakfast-cookies`
 - `pumpkin-cheesecake-cookies`
+- `purple-rice`
 - `quadruple-chocolate-brownies`
 - `queso-fundido-with-chorizo`
 - `quick-and-easy-drop-biscuits`
@@ -2738,7 +2726,6 @@ Recipes:
 - `roasted-sweet-potatoes`
 - `roasted-tomato-basil-soup`
 - `royal-icing`
-- `saag-paneer`
 - `saffron-cardamom-rice`
 - `sage-brown-butter-sauce-butternut-squash-ravioli`
 - `salsa-verde-chicken-casserole`
@@ -2900,7 +2887,6 @@ Recipes:
 - `chicken-shawarma`
 - `chicken-souvlaki`
 - `chicken-thigh-kebabs-with-chile-yogurt-sauce`
-- `chicken-tikka-masala`
 - `chicken-tinga`
 - `chicken-with-snow-peas-stir-fry`
 - `chili`
@@ -2981,7 +2967,6 @@ Recipes:
 - `herby-chicken-meatball-bowl`
 - `homemade-chili-oil`
 - `homemade-enchilada-sauce`
-- `homemade-naan`
 - `homemade-sugar-free-ketchup`
 - `honey-chipotle-lime-chicken-bowls`
 - `honey-garlic-butter-shrimp-and-broccoli`
@@ -3012,7 +2997,6 @@ Recipes:
 - `lemon-pepper-wings`
 - `lemon-ricotta-pasta`
 - `lemony-broccoli-pasta`
-- `lime-and-honey-glazed-salmon-with-warm-black-bean-and-corn-salad`
 - `made-in-the-pan-chocolate-cake`
 - `mapo-tofu`
 - `marinated-korean-ribeye`
@@ -3054,6 +3038,7 @@ Recipes:
 - `pizza`
 - `play-dough`
 - `pressure-cooker-bolognase`
+- `purple-rice`
 - `quadruple-chocolate-brownies`
 - `quick-and-easy-caprese-pasta`
 - `quick-honey-garlic-shrimp-and-broccoli`
@@ -3067,7 +3052,6 @@ Recipes:
 - `roast-turkey-breast`
 - `roasted-brussels-sprouts-with-balsamic`
 - `roasted-cauliflower-with-tahini`
-- `saag-paneer`
 - `saffron-cardamom-rice`
 - `sage-brown-butter-sauce-butternut-squash-ravioli`
 - `salsa-verde-chicken-casserole`
@@ -3210,6 +3194,7 @@ Recipes:
 - `philly-tuna-roll`
 - `pho-bo-beef-pho`
 - `prohibition-style-gin-lemon-fizz`
+- `purple-rice`
 - `quick-pickled-cucumber-salad`
 - `ratatouille`
 - `red-velvet-cupcakes`
@@ -3273,6 +3258,7 @@ Recipes:
 - `peanut-noodles`
 - `philly-tuna-roll`
 - `pho-bo-beef-pho`
+- `purple-rice`
 - `quinoa-pilaf-with-toasted-almonds`
 - `saffron-cardamom-rice`
 - `sauteed-mushrooms-with-thyme`

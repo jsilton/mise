@@ -32,7 +32,7 @@ equipment:
   - box-grater
 pairsWith:
   - coconut-chicken-curry
-  - homemade-naan
+  - naan
 prepTime: 10 min
 cookTime: 0 min
 totalTime: 10 min

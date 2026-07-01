@@ -42,7 +42,7 @@ totalTime: 45 min
 servings: '4'
 pairsWith:
   - basmati-rice
-  - homemade-naan
+  - naan
   - chana-masala
 ingredients:
   - '1 cup Yellow Lentils (moong dal or toor dal), rinsed until water runs clear'

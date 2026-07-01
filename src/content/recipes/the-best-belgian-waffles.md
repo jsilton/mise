@@ -21,7 +21,7 @@ cookTime: 25 min
 totalTime: 40 min
 servings: '6'
 pairsWith:
-  - homemade-naan
+  - naan
   - peach-salad-with-tomatoes-and-beets
   - roasted-sunchokes-with-brown-butter-cider-vinaigrette
 ingredients:

@@ -46,7 +46,7 @@ pairsWith:
   - saffron-cardamom-rice
   - cucumber-raita
   - kachumber-salad
-  - homemade-naan
+  - naan
 ingredients:
   - '--- Chicken Marinade ---'
   - 2.5 lbs Boneless Skinless Chicken Thighs, cut into 2-inch pieces

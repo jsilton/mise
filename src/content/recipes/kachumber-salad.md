@@ -44,7 +44,7 @@ equipment:
 pairsWith:
   - chicken-biryani
   - cucumber-raita
-  - homemade-naan
+  - naan
 ingredients:
   - 1 English Cucumber, small dice (about 2 cups)
   - 2 Roma Tomatoes, seeded and small dice

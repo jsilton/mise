@@ -7,7 +7,7 @@ pairsWith:
   - basmati-rice
   - spiced-coconut-chicken-rice
   - cucumber-raita
-  - homemade-naan
+  - naan
 ingredients:
   - '--- Marinade ---'
   - '2 lbs boneless, skinless chicken thighs, preferred (or breasts, broiled less - see Directions steps 2 & 6; cut into 1.5-inch chunks)'
