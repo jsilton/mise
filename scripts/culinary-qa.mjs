@@ -638,7 +638,7 @@ async function runQA() {
       }
 
       // Vegetarian dietary but has meat
-      if (dietary && dietary.includes('vegetarian')) {
+      if (dietary && dietary.includes('vegetarian') && ingredients && Array.isArray(ingredients)) {
         const hasProtein = ingredients.some((i) => {
           const lower = i.toLowerCase();
           // Exclude stock/broth references which may mention meat names as qualifiers
@@ -677,7 +677,7 @@ async function runQA() {
       }
 
       // Vegan/GF but mentions dairy/gluten
-      if (dietary) {
+      if (dietary && ingredients && Array.isArray(ingredients)) {
         const isVegan = dietary.includes('vegan');
         const isGF = dietary.includes('gluten-free');
 
