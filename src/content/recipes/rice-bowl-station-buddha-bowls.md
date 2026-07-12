@@ -117,4 +117,4 @@ The Buddha Bowl is not a bowl in the religious sense - it's a concept: whole gra
 - Roast chickpeas and store in an airtight container (they stay crispy for 3 days)
 - Make dressing in a jar (shakes before serving)
 - Soft-boil eggs on Sunday morning, peel and refrigerate
-- Assemble bowls fresh each time - don't let vegetables sit in grain or they'll release moisture
+- Assemble bowls fresh each time - don't let vegetables sit in grain or they'll release moisture.

@@ -44,6 +44,7 @@ ingredients:
   - 1/2 tsp Chili Crisp or Red Pepper Flakes
   - 1 tbsp Toasted Sesame Seeds
   - '1 scallion, thinly sliced'
+servings: '4'
 ---
 
 ## Chef's Note

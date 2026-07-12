@@ -94,4 +94,4 @@ A taco bar teaches kids that dinner is a conversation, not a lecture. Every fami
 - Set up the bar in stages: proteins and shells first, sauces and fixings last (prevents soggy tortillas)
 - Pre-assemble one taco as a visual guide so young kids know the ratio
 - Offer heat on the side (jalapeños, hot sauce) so kids can opt in rather than being overwhelmed
-- Leftover proteins work for tacos all week - carnitas are especially good reheated and crisped
+- Leftover proteins work for tacos all week - carnitas are especially good reheated and crisped.

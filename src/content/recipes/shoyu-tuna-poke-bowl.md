@@ -1,5 +1,5 @@
 ---
-title: Classic Shoyu Tuna Poke Bowl
+title: Shoyu Tuna Poke Bowl
 origin: Hawaiian
 difficulty: easy
 role: main
@@ -69,7 +69,7 @@ Poke originated as a simple snack made by Hawaiian fishermen who seasoned raw of
 ## Directions
 
 1. **Rinse and Cook Rice:** Rinse the short-grain rice in a fine-mesh strainer under cold running water 3 to 4 times, swirling with your hand, until the water runs mostly clear. Cook in a rice cooker or on the stove according to package instructions.
-2. **Season the Rice:** While the rice is hot, whisk together 2 tbsp rice vinegar, 1 tbsp sugar, and 1/2 tsp salt in a small bowl until dissolved. Gently fold this seasoning mixture (sushi-zu) into the cooked rice using a rice paddle or silicone spatula in a cutting motion to avoid mashing the grains. Cover the bowl with a clean, damp towel to keep the rice lukewarm and glossy at room temperature.
+2. **Season the Rice (Skip if using pre-made Master Sushi Rice):** While the rice is hot, whisk together 2 tbsp rice vinegar, 1 tbsp sugar, and 1/2 tsp salt in a small bowl until dissolved. Gently fold this seasoning mixture (sushi-zu) into the cooked rice using a rice paddle or silicone spatula in a cutting motion to avoid mashing the grains. Cover the bowl with a clean, damp towel to keep the rice lukewarm and glossy at room temperature.
 3. **Whisk the Sauce:** In a medium bowl, whisk together the soy sauce, toasted sesame oil, 1 tsp rice vinegar, grated ginger, 1/2 tsp sugar, and the sliced scallion until the sugar is fully dissolved.
 4. **Marinate the Fish:** Add the cold, cubed Ahi tuna to the bowl with the sauce. Gently toss with a spoon to coat all the tuna cubes. Place in the refrigerator to marinate for exactly 10 to 15 minutes.
 5. **Assemble:** To serve, portion the seasoned lukewarm rice into three serving bowls. Spoon the cold shoyu tuna over the rice. Arrange the cucumber slices, diced avocado, and edamame around the sides.

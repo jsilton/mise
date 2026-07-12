@@ -42,6 +42,7 @@ ingredients:
   - '1 Scallion, chopped'
   - Neutral Oil
 origin: China
+servings: '4'
 ---
 
 ## Chef's Note

@@ -86,13 +86,13 @@ nutrition:
 
 ## Chef's Note
 
-Poke (pronounced "poh-kay") is Hawaiian marinated fish served over rice, and it's the gateway to understanding how simple ingredients at peak freshness need very little embellishment. The sourcing is everything  -  "sashimi grade" isn't a flavor claim, it's a freshness guarantee. The fish should be marinated only 5-10 minutes before serving; any longer and the acid starts to "cook" the flesh into mush. This build-your-own bar works because every component is already finished  -  the fish is marinated, vegetables are prepped, rice is cooked. Assembly is 2 minutes per bowl. Serve this for a Friday or Saturday dinner when the day's catch is freshest.
+Poke (pronounced "poh-kay") is Hawaiian marinated fish served over rice, and it's the gateway to understanding how simple ingredients at peak freshness need very little embellishment. The sourcing is everything - "sashimi grade" isn't a flavor claim, it's a freshness guarantee. The fish should be marinated only 5-10 minutes before serving; any longer and the acid starts to "cook" the flesh into mush. This build-your-own bar works because every component is already finished - the fish is marinated, vegetables are prepped, rice is cooked. Assembly is 2 minutes per bowl. Serve this for a Friday or Saturday dinner when the day's catch is freshest.
 
 ## Directions
 
 ### Prep (30 minutes ahead or up to 4 hours)
 
-1. **Select and Cube Fish:** Work with a sharp knife and a clean cutting board (preferably one designated for raw fish). Cube the sashimi-grade fish into uniform 1/2-inch pieces. Work quickly  -  you want to minimize the time the fish is exposed to air and warmth.
+1. **Select and Cube Fish:** Work with a sharp knife and a clean cutting board (preferably one designated for raw fish). Cube the sashimi-grade fish into uniform 1/2-inch pieces. Work quickly - you want to minimize the time the fish is exposed to air and warmth.
 
 2. **Make the Marinade:** In a small bowl, whisk together soy sauce, toasted sesame oil, rice vinegar, grated ginger, chili crisp, and lime juice. Taste and adjust for salt and brightness (rice vinegar or lime juice).
 
@@ -125,13 +125,13 @@ Poke (pronounced "poh-kay") is Hawaiian marinated fish served over rice, and it'
 
 - Keep everything cold until the moment of assembly
 - Don't mix the fish into the rice until the eater is ready (fish sitting on warm rice will cook slightly)
-- The pickled cucumbers are crucial  -  they add acidic snap that balances the fatty fish
+- The pickled cucumbers are crucial - they add acidic snap that balances the fatty fish
 - Furikake (a Japanese seasoning blend of seaweed, sesame, fish powder) adds umami depth if you have it
-- Offer wasabi as optional  -  not everyone wants it, and it's overpowering if included in the base
+- Offer wasabi as optional - not everyone wants it, and it's overpowering if included in the base
 
 ### Sourcing Fish
 
 - **Ahi Tuna:** The most traditional choice, buttery and mild
 - **Wild Salmon:** Richer and more flavorful than farm-raised; look for Alaskan or Pacific wild-caught
 - **Scallops:** A more delicate, sweet option; slice thin since they're tender
-- **Never use supermarket "sushi-grade"**  -  the term isn't regulated. Go to a fish counter and ask for "sashimi-grade" or buy from a Japanese market. The fishmonger will know what's fresh that day
+- **Never use supermarket "sushi-grade"** - the term isn't regulated. Go to a fish counter and ask for "sashimi-grade" or buy from a Japanese market. The fishmonger will know what's fresh that day.

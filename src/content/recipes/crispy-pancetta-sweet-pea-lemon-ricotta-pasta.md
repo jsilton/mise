@@ -46,7 +46,7 @@ ingredients:
   - '1/4 cup Dry White Wine (or Chicken Stock)'
   - '1/2 cup Whole Milk Ricotta'
   - '1/2 cup Grated Parmesan Cheese'
-  - 'Zest of 1 Lemon'
+  - 'Zest and Juice of 1 Lemon (about 2 tbsp fresh juice)'
   - 'Kosher Salt and Freshly Ground Black Pepper, to taste'
 ---
 
@@ -63,5 +63,5 @@ This pasta replicates the deep, emulsified richness of restaurant sauces without
 5. **Boil the Pasta:** Meanwhile, bring a large pot of water to a rolling boil. Season generously with kosher salt (it should taste like the sea). Drop the orecchiette and cook according to package instructions.
 6. **Reserve Pasta Water:** One minute before the pasta is perfectly al dente, carefully scoop out 1 cup of the starchy cooking water and set it aside. Drain the pasta.
 7. **Combine:** Add the hot pasta and sweet peas directly into the skillet with the aromatics. Toss to coat them in the reduced pan sauce.
-8. **Emulsify (Off the Heat):** Remove the skillet **completely from the heat source**. Add the ricotta, grated Parmesan, lemon zest, and 1/2 cup of the reserved hot pasta water. Toss and stir vigorously for 1 to 2 minutes. The cheese and starch-filled pasta water will combine with the rendered fat to form a smooth, glossy, creamy sauce that coats the pasta. If it is too thick, add a splash more pasta water.
+8. **Emulsify (Off the Heat):** Remove the skillet **completely from the heat source**. Add the ricotta, grated Parmesan, lemon zest, lemon juice, and 1/2 cup of the reserved hot pasta water. Toss and stir vigorously for 1 to 2 minutes. The cheese and starch-filled pasta water will combine with the rendered fat to form a smooth, glossy, creamy sauce that coats the pasta. If it is too thick, add a splash more pasta water.
 9. **Finish:** Season with freshly ground black pepper and taste for salt (pancetta and Parmesan are already salty, so adjust cautiously). Portion into bowls and top with the reserved crispy pancetta. Serve immediately.

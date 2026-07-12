@@ -1,7 +1,7 @@
 ---
-title: Classic Shoyu Tuna Poke Bowl Night
+title: Shoyu Tuna Poke Bowl Night
 template: bowl
-main: classic-shoyu-tuna-poke-bowl
+main: shoyu-tuna-poke-bowl
 base: master-sushi-rice
 totalPrepTime: 20 min
 totalCookTime: 20 min

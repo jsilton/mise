@@ -37,6 +37,7 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: poor
+servings: '4'
 ---
 
 ## Chef's Note

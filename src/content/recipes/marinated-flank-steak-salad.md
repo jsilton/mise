@@ -8,6 +8,9 @@ prepTime: 20 min
 cookTime: 10 min
 totalTime: 2 hr 30 min
 servings: '3'
+kb:
+  disable:
+    - kb.acid-metal-reactivity
 cuisines:
   - American
 cookingMethods:
@@ -50,6 +53,7 @@ ingredients:
   - '1 tbsp Dijon Mustard'
   - '2 cloves Garlic, minced'
   - '1 tbsp Fresh Lemon Juice'
+  - '1 tbsp Neutral Cooking Oil (or shallot oil, for searing)'
   - '--- The Salad Base & Toppings ---'
   - '1 large head Romaine Lettuce, washed and torn'
   - '1 head Butter Lettuce, washed and torn'

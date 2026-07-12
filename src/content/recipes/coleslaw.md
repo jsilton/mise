@@ -44,6 +44,7 @@ ingredients:
   - 1/2 tsp Celery Seed
   - 1 tsp Kosher Salt
   - 1/2 tsp Black Pepper
+servings: 4 to 6
 ---
 
 ## Chef's Note

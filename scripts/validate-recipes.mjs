@@ -54,6 +54,104 @@ const INVALID_INGREDIENTS = new Set([
   'dark-chocolate',
 ]);
 
+const STRIP_WORDS = new Set([
+  'and',
+  'the',
+  'for',
+  'with',
+  'into',
+  'from',
+  'about',
+  'some',
+  'any',
+  'such',
+  'very',
+  'tbsp',
+  'tsp',
+  'cup',
+  'cups',
+  'oz',
+  'lbs',
+  'lb',
+  'can',
+  'cans',
+  'pinch',
+  'pinches',
+  'clove',
+  'cloves',
+  'head',
+  'heads',
+  'medium',
+  'large',
+  'small',
+  'softened',
+  'diced',
+  'minced',
+  'sliced',
+  'peeled',
+  'cubed',
+  'grated',
+  'to',
+  'taste',
+  'divided',
+  'optional',
+  'fresh',
+  'freshly',
+  'ground',
+  'chopped',
+  'finely',
+  'coarsely',
+  'thinly',
+  'shredded',
+  'package',
+  'packages',
+  'warmed',
+  'melted',
+  'dry',
+  'kosher',
+  'sea',
+  'fine',
+  'black',
+  'white',
+  'neutral',
+  'cooking',
+  'extra',
+  'virgin',
+  'olive',
+  'oil',
+  'plus',
+  'extra',
+  'serving',
+  'servings',
+  'halved',
+  'quartered',
+  'crushed',
+  'beaten',
+  'drained',
+  'rinsed',
+  'extra-virgin',
+  'for-serving',
+  'sliced-into-thin-strips',
+]);
+
+function getIngredientKeywords(ingredientStr) {
+  if (
+    ingredientStr.startsWith('---') ||
+    ingredientStr.includes('(optional') ||
+    ingredientStr.includes('(for serving')
+  ) {
+    if (ingredientStr.startsWith('---')) return [];
+  }
+  const clean = ingredientStr
+    .toLowerCase()
+    .replace(/[0-9]+/g, ' ')
+    .replace(/[\/\\()\[\].,:;!@#\$%\^&\*\+=\?]/g, ' ')
+    .trim();
+  const words = clean.split(/\s+/).filter((w) => w.length > 2);
+  const keywords = words.filter((w) => !STRIP_WORDS.has(w));
+  return keywords;
+}
+
 async function listMdFiles(dir) {
   const entries = await fs.readdir(dir, { withFileTypes: true });
   const files = [];
@@ -326,7 +424,7 @@ function normalizeKey(str) {
     if (!/##\s*Directions/i.test(content)) report.missing.directions.push(slug);
 
     // directions formatting (numbered steps with bold header)
-    const directionsMatch = content.match(/##\s*Directions[\s\S]*?(?=^##\s|\z)/im);
+    const directionsMatch = content.match(/##\s*Directions[\s\S]*?(?=\n##\s|$)/i);
     if (directionsMatch) {
       if (!/\d+\.\s+\*\*/.test(directionsMatch[0]))
         ((report.missing.directionsFormatting = report.missing.directionsFormatting || []),
@@ -404,6 +502,270 @@ function normalizeKey(str) {
       }
     } catch (err) {
       console.warn(`KB check failed for ${slug}: ${err && err.message}`);
+    }
+
+    // Verify that ingredients listed in frontmatter are mentioned in directions
+    if (data.ingredients && Array.isArray(data.ingredients)) {
+      const directionsMatch = content.match(/##\s*Directions[\s\S]*$/i);
+      if (directionsMatch) {
+        const directionsText = directionsMatch[0].toLowerCase();
+        for (const ingredientLine of data.ingredients) {
+          if (ingredientLine.startsWith('---')) continue;
+          const keywords = getIngredientKeywords(ingredientLine);
+          if (keywords.length === 0) continue;
+          const found = keywords.some((keyword) => directionsText.includes(keyword));
+          if (!found) {
+            report.suggestions[slug] = report.suggestions[slug] || [];
+            report.suggestions[slug].push({
+              ruleId: 'kb.missing-ingredient-in-directions',
+              title: 'Ingredient potentially missing from directions',
+              severity: 'hint',
+              suggestion: `The ingredient "${ingredientLine}" is listed in the frontmatter but doesn't seem to be mentioned in the directions. Verify it is used in the instructions.`,
+            });
+          }
+        }
+      }
+    }
+
+    // 1. Reactive metal check
+    if (data.equipment && data.ingredients) {
+      const hasReactivePan = data.equipment.some((e) =>
+        ['cast-iron-skillet', 'cast-iron', 'aluminum-pot'].includes(e)
+      );
+      if (hasReactivePan) {
+        const acidKeywords = [
+          'tomato',
+          'lemon',
+          'lime',
+          'vinegar',
+          'wine',
+          'orange',
+          'pineapple',
+          'tamarind',
+        ];
+        const hasAcid = data.ingredients.some((i) => {
+          const lower = i.toLowerCase();
+          return acidKeywords.some((acid) => lower.includes(acid));
+        });
+        if (hasAcid) {
+          report.suggestions[slug] = report.suggestions[slug] || [];
+          report.suggestions[slug].push({
+            ruleId: 'kb.acid-metal-reactivity',
+            title: 'Acidic ingredient cooked in reactive pan',
+            severity: 'hint',
+            suggestion: `This recipe contains acidic ingredients and lists a reactive pan (cast iron/aluminum) in equipment. Consider using stainless steel or enameled cast iron to avoid metallic flavors and stripping the pan's seasoning.`,
+          });
+        }
+      }
+    }
+
+    // 2. Pasta water emulsion guard
+    if (data.ingredients && (data.role === 'main' || data.role === 'side')) {
+      const ingredientsText = data.ingredients.join(' ').toLowerCase();
+      const hasPasta =
+        /\bpasta\b|\bspaghetti\b|\blinguine\b|\bfettuccine\b|\bpenne\b|\brigatoni\b|\borecchiette\b|\bmacaroni\b|\bshells\b|\bnoodles\b/.test(
+          ingredientsText
+        );
+      const hasFatOrCheese =
+        /\bbutter\b|\bcheese\b|\bparmesan\b|\bpecorino\b|\bricotta\b|\bcream\b|\bolive oil\b/.test(
+          ingredientsText
+        );
+      if (hasPasta && hasFatOrCheese) {
+        const directionsMatch = content.match(/##\s*Directions[\s\S]*$/i);
+        if (directionsMatch) {
+          const directionsText = directionsMatch[0].toLowerCase();
+          const hasPastaWaterWord =
+            /\b(?:reserve|retained|saving|starchy|pasta water|cooking water)\b/.test(
+              directionsText
+            );
+          if (!hasPastaWaterWord) {
+            report.suggestions[slug] = report.suggestions[slug] || [];
+            report.suggestions[slug].push({
+              ruleId: 'kb.missing-pasta-water-emulsion',
+              title: 'Pasta cooking water not reserved',
+              severity: 'hint',
+              suggestion: `This pasta dish uses a fat or cheese-based sauce but doesn't mention reserving starchy pasta cooking water. Reserving and mixing in pasta water is key to emulsifying the sauce and keeping it smooth.`,
+            });
+          }
+        }
+      }
+    }
+
+    // 3. Pan-crowding (batches) verification
+    if (data.ingredients && data.cookingMethods) {
+      const methods = data.cookingMethods.map((m) => m.toLowerCase());
+      const hasPanFry = methods.some((m) =>
+        ['stir-fry', 'saute', 'sauté', 'sear', 'fry'].includes(m)
+      );
+      if (hasPanFry) {
+        const hasLargeMeat = data.ingredients.some((i) => {
+          const lower = i.toLowerCase();
+          const isMeat =
+            /\b(?:chicken|beef|pork|turkey|lamb|shrimp)\b/.test(lower) &&
+            !/\b(?:steak|whole|roast|chop|chops)\b/.test(lower);
+          if (!isMeat) return false;
+          const match = lower.match(/^(\d+(?:\.\d+)?|\d+\s+\d+\/\d+)\s*(?:lbs?|pound|pounds)/);
+          if (match) {
+            let qty = parseFloat(match[1]);
+            if (match[1].includes('/')) {
+              const parts = match[1].split(/\s+/);
+              if (parts.length === 2) qty = parseFloat(parts[0]) + 0.5;
+            }
+            return qty >= 1;
+          }
+          return false;
+        });
+        if (hasLargeMeat) {
+          const directionsMatch = content.match(/##\s*Directions[\s\S]*$/i);
+          if (directionsMatch) {
+            const directionsText = directionsMatch[0].toLowerCase();
+            const hasBatchesWord = /\b(?:batch|batches|portions|separate parts|in parts)\b/.test(
+              directionsText
+            );
+            if (!hasBatchesWord) {
+              report.suggestions[slug] = report.suggestions[slug] || [];
+              report.suggestions[slug].push({
+                ruleId: 'kb.pan-crowding-risk',
+                title: 'Pan-crowding risk during searing/stir-frying',
+                severity: 'hint',
+                suggestion: `Searing/stir-frying a large quantity of meat (1 lb or more) at once can crowd the pan and steam the meat instead of browning it. Consider adding instructions to cook in batches.`,
+              });
+            }
+          }
+        }
+      }
+    }
+
+    // 4. Delicate herb oxidation timing
+    if (data.ingredients) {
+      const delicateHerbs = ['basil', 'cilantro', 'parsley', 'chives', 'mint', 'tarragon', 'dill'];
+      const hasDelicateHerb = data.ingredients.some((i) => {
+        const lower = i.toLowerCase();
+        if (lower.includes('dried') || lower.includes('dry')) return false;
+        return delicateHerbs.some((herb) => lower.includes(herb));
+      });
+      if (hasDelicateHerb) {
+        const directionsMatch = content.match(/##\s*Directions[\s\S]*$/i);
+        if (directionsMatch) {
+          const directionsText = directionsMatch[0].toLowerCase();
+          const hasLateAdd =
+            /\b(?:garnish|finish|off the heat|end|serving|just before|last minute|fresh topping)\b/.test(
+              directionsText
+            );
+          if (!hasLateAdd) {
+            report.suggestions[slug] = report.suggestions[slug] || [];
+            report.suggestions[slug].push({
+              ruleId: 'kb.delicate-herb-oxidation',
+              title: 'Delicate herbs added too early',
+              severity: 'hint',
+              suggestion: `This recipe uses fresh, delicate herbs (basil, cilantro, parsley, etc.). To prevent them from losing flavor or turning black from heat, add them at the very end of cooking or as a raw garnish.`,
+            });
+          }
+        }
+      }
+    }
+
+    // 5. Fat-soluble spice blooming check
+    if (data.ingredients && data.cookingMethods) {
+      const methods = data.cookingMethods.map((m) => m.toLowerCase());
+      const isSimmer = methods.some((m) => ['simmer', 'boil', 'braise', 'slow-cook'].includes(m));
+      if (isSimmer) {
+        const groundSpices = [
+          'curry powder',
+          'garam masala',
+          'turmeric',
+          'chili powder',
+          'ground cumin',
+          'ground coriander',
+          'paprika',
+          'cayenne',
+        ];
+        const hasSpice = data.ingredients.some((i) => {
+          const lower = i.toLowerCase();
+          return groundSpices.some((spice) => lower.includes(spice));
+        });
+        if (hasSpice) {
+          const directionsMatch = content.match(/##\s*Directions[\s\S]*$/i);
+          if (directionsMatch) {
+            const directionsText = directionsMatch[0].toLowerCase();
+            const hasBloomWord =
+              /\b(?:bloom|sauté|saute|cook for 1 minute|fragrant|stir-fry|stir in oil|cook in oil)\b/.test(
+                directionsText
+              );
+            if (!hasBloomWord) {
+              report.suggestions[slug] = report.suggestions[slug] || [];
+              report.suggestions[slug].push({
+                ruleId: 'kb.spice-blooming-recommended',
+                title: 'Bloom spices in fat for maximum flavor',
+                severity: 'hint',
+                suggestion: `This recipe uses ground spices in a simmered dish. To extract their fat-soluble flavor compounds, bloom them in hot oil or butter for 30-60 seconds until fragrant before adding liquid.`,
+              });
+            }
+          }
+        }
+      }
+    }
+
+    // 6. Chemical leavening acid-base check
+    if (data.ingredients && data.cookingMethods) {
+      const methods = data.cookingMethods.map((m) => m.toLowerCase());
+      if (methods.includes('bake')) {
+        const ingredientsText = data.ingredients.join(' ').toLowerCase();
+        const hasBakingSoda = /\bbaking soda\b|\bsodium bicarbonate\b/.test(ingredientsText);
+        if (hasBakingSoda) {
+          const acids = [
+            'buttermilk',
+            'lemon',
+            'lime',
+            'vinegar',
+            'yogurt',
+            'sour cream',
+            'molasses',
+            'brown sugar',
+            'cocoa',
+            'applesauce',
+            'cream of tartar',
+            'orange juice',
+            'banana',
+          ];
+          const hasAcid = acids.some((acid) => ingredientsText.includes(acid));
+          if (!hasAcid) {
+            report.suggestions[slug] = report.suggestions[slug] || [];
+            report.suggestions[slug].push({
+              ruleId: 'kb.missing-acid-for-leavening',
+              title: 'Missing acid to activate baking soda',
+              severity: 'hint',
+              suggestion: `This baking recipe uses baking soda but does not list any acidic ingredients. Baking soda requires acid (like buttermilk, lemon juice, sour cream, molasses, or brown sugar) to activate and rise.`,
+            });
+          }
+        }
+      }
+    }
+
+    // 7. Yeast temperature safety range
+    if (data.ingredients) {
+      const hasYeast = data.ingredients.some((i) => i.toLowerCase().includes('yeast'));
+      if (hasYeast) {
+        const directionsMatch = content.match(/##\s*Directions[\s\S]*$/i);
+        if (directionsMatch) {
+          const directionsText = directionsMatch[0].toLowerCase();
+          const tempMatches = directionsText.match(/\b(\d+)\s*(?:°?\s*[fc]|degrees)\b/gi);
+          if (tempMatches) {
+            for (const match of tempMatches) {
+              const numVal = parseInt(match);
+              if (numVal >= 120 && numVal <= 160) {
+                report.suggestions[slug] = report.suggestions[slug] || [];
+                report.suggestions[slug].push({
+                  ruleId: 'kb.yeast-temperature-warning',
+                  title: 'Water temperature too high for yeast',
+                  severity: 'hint',
+                  suggestion: `Directions mention a temperature of ${match}. Water temperatures above 120°F (49°C) will kill yeast cells. Standardize yeast activation liquids to 100°F-115°F (38°C-46°C).`,
+                });
+              }
+            }
+          }
+        }
+      }
     }
   }
 

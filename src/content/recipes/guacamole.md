@@ -36,6 +36,7 @@ seasons:
   - year-round
 nutritionalDensity: light
 leftovers: good
+servings: '4'
 ---
 
 ## Chef's Note
