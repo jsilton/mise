@@ -1,7 +1,7 @@
 ---
 title: Chicken Pad See Ew & Smashed Cucumber Salad Night
 template: one-pot
-main: chicken-pad-see-ew
+main: pad-see-ew-thai-stir-fried-noodles
 salad: smashed-cucumber-salad
 totalPrepTime: 25 min
 totalCookTime: 15 min
