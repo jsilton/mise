@@ -66,15 +66,15 @@ nutrition:
 
 ## Chef's Note
 
-Esquites is Mexico's answer to coleslaw  -  street vendors in every city serve it from stalls, served in cups with a spoon and drizzled with crema. The magic is in charring the corn kernels hard enough to develop sweetness and depth without completely blackening them. Fresh corn off the cob tastes dramatically better than canned, but frozen corn (thawed) works well if fresh isn't available. Cotija cheese brings a salty, slightly crumbly texture that's essential; if you can't find it, feta or even Parmesan will work in a pinch.
+Esquites is Mexico's answer to coleslaw - street vendors in every city serve it from stalls, served in cups with a spoon and drizzled with crema. The magic is in charring the corn kernels hard enough to develop sweetness and depth without completely blackening them. Fresh corn off the cob tastes dramatically better than canned, but frozen corn (thawed) works well if fresh isn't available. Cotija cheese brings a salty, slightly crumbly texture that's essential; if you can't find it, feta or even Parmesan will work in a pinch.
 
 ## Directions
 
-1. **Char the Corn:** Heat butter or oil in a large skillet over medium-high heat until the fat shimmers. Add the corn kernels and let them sit undisturbed for 2-3 minutes  -  this allows them to char and caramelize. Stir and char for another 2-3 minutes. You want some kernels to be golden brown, even slightly blackened. This should take 5-7 minutes total.
+1. **Char the Corn:** Heat butter or oil in a large skillet over medium-high heat until the fat shimmers. Add the corn kernels and let them sit undisturbed for 2-3 minutes - this allows them to char and caramelize. Stir and char for another 2-3 minutes. You want some kernels to be golden brown, even slightly blackened. This should take 5-7 minutes total.
 
 2. **Cool Slightly:** Transfer the corn to a large bowl and let it cool for 2-3 minutes. This stops the cooking and makes the dish more pleasant to eat hot or room temperature.
 
-3. **Combine:** Add the diced red onion, cotija, cilantro, lime juice, jalapeño (if using), chili powder, and salt. Toss gently to combine. Taste and adjust salt and lime juice  -  it should be balanced between creamy (cheese), bright (lime), and slightly spicy.
+3. **Combine:** Add the diced red onion, cotija, cilantro, lime juice, jalapeño (if using), chili powder, and salt. Toss gently to combine. Taste and adjust salt and lime juice - it should be balanced between creamy (cheese), bright (lime), and slightly spicy.
 
 4. **Finish (Optional):** If using Mexican crema, drizzle it over the top just before serving. Serve warm or at room temperature.
 

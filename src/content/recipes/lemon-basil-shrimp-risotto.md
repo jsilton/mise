@@ -60,7 +60,7 @@ Risotto originated in Northern Italy (Milan and the Veneto) where short-grain ri
 ## Directions
 
 1.  **The Crunch:** In a large wide skillet, melt butter over medium-high. Add shrimp in a single layer. Sear for 2 minutes per side until just opaque. Remove to a plate.
-2.  **Foundation:** In the same pan, add onions and garlic. Sauté for 3 minutes until translucent.
+2.  **Foundation:** In the same pan, add onions and sauté for 2-3 minutes until translucent. Add garlic and sauté for 30-45 seconds.
 3.  **Toast:** Add the Arborio rice. Stir for 2 minutes until the edges of the grains look translucent (The Toast Method).
 4.  **Deglaze:** Pour in the wine. Stir until completely absorbed.
 5.  **The Bind:** Add the hot broth one ladle at a time. Stir constantly. Wait until each ladle is fully absorbed before adding the next. This will take 18-22 minutes.

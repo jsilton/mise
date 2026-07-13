@@ -66,7 +66,7 @@ nutrition:
 
 ## Chef's Note
 
-Sunomono is elegance distilled to its essence: sliced cucumbers in a clean rice vinegar dressing. The simplicity is the point. Slice the cucumbers very thin on a mandoline  -  the paper-thin pieces allow the dressing to penetrate completely, turning what could be watery and bland into something delicate and balanced. This salad pairs beautifully with rich or savory mains because the acidity and lightness cut through richness perfectly. It's a Japanese principle: balance the whole meal with one bright, acidic element.
+Sunomono is elegance distilled to its essence: sliced cucumbers in a clean rice vinegar dressing. The simplicity is the point. Slice the cucumbers very thin on a mandoline - the paper-thin pieces allow the dressing to penetrate completely, turning what could be watery and bland into something delicate and balanced. This salad pairs beautifully with rich or savory mains because the acidity and lightness cut through richness perfectly. It's a Japanese principle: balance the whole meal with one bright, acidic element.
 
 ## Directions
 
@@ -80,6 +80,6 @@ Sunomono is elegance distilled to its essence: sliced cucumbers in a clean rice 
 
 5. **Finish:** Just before serving, sprinkle the toasted sesame seeds and shichimi togarashi over the top. Add the grated ginger if using.
 
-6. **Serve:** Serve chilled or at room temperature. The cucumber will continue to release water as it sits, creating a light, flavorful broth at the bottom of the bowl  -  don't discard this when serving.
+6. **Serve:** Serve chilled or at room temperature. The cucumber will continue to release water as it sits, creating a light, flavorful broth at the bottom of the bowl - don't discard this when serving.
 
 7. **Make-Ahead:** This salad actually improves as it sits and the flavors meld. Make it up to 4 hours ahead and store in the refrigerator. Add the sesame seeds just before serving to keep them crispy.

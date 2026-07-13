@@ -54,13 +54,14 @@ nutrition:
 ## Chef's Note
 
 This is Italian home cooking at its most forgiving: good sausage, simple tomato, pasta water for sauce. Sausage has enough fat to build flavor without extra oil; brown it well, break it into small pieces, and let the rendered fat become your cooking base. The pasta water thickens and emulsifies the sauce into something silky.
+
 ## Directions
 
 1.  **Boil:** Cook pasta in salted water for 1 minute **less** than package instructions. **Reserve 1/2 cup of pasta water.**
 2.  **Sear:** In a large skillet, heat oil. Brown the sausage slices until crispy. Remove to a plate.
-3.  **The Base:** Sauté the bell pepper and garlic in the same pan for 3 minutes.
+3.  **The Base:** Sauté the bell pepper in the same pan for 2 minutes. Add garlic and dried basil, and sauté for 45 seconds to bloom the flavors.
 4.  **Deglaze:** Pour in the red wine. Scrape the bottom of the pan and let it reduce for 2 minutes.
-5.  **Simmer:** Add the tomatoes and dried basil. Simmer for 10 minutes to thicken.
+5.  **Simmer:** Add the tomatoes. Simmer for 10 minutes to thicken.
 6.  **Combine:** Return the sausage to the pan. Add the hot pasta and the spinach.
 7.  **Bind:** Toss vigorously over medium heat, adding pasta water a tablespoon at a time until the sauce is glossy and the spinach is wilted.
 8.  **Finish:** Stir in the Parmesan and plenty of black pepper.

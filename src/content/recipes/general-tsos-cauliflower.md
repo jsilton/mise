@@ -75,7 +75,7 @@ For kids, serve the heat on the side or reduce/omit the spicy elements.
 1.  **The Batter:** Whisk flour, 1/3 cup cornstarch, baking powder, and salt. In a separate jar, whisk eggs, 3 tbsp soy sauce, and 1 tbsp vinegar. Slowly pour the wet into the dry, whisking until a thick, dip-able batter forms.
 2.  **The Crunch:** Heat 1/2 inch of oil in a cast-iron skillet until a drop of batter sizzles immediately. Dip each floret into the batter and fry for 4-5 minutes until deep golden on all sides. Drain on paper towels.
 3.  **The Sauce:** In a small bowl, whisk all General Tso sauce ingredients until the sugar and cornstarch are dissolved.
-4.  **Aromatics:** Heat 2 tsp sesame oil in a pot. Sauté the scallion whites, garlic, ginger, and chilies for 2 minutes until fragrant.
+4.  **Aromatics:** Heat 2 tsp sesame oil in a pot. Sauté the scallion whites, garlic, ginger, and chilies for 30 seconds until fragrant.
 5.  **Bind:** Pour the sauce into the pot. Bring to a simmer for 5-7 minutes until thick enough to coat a spoon and mirror-glossy. Stir in the scallion greens.
 6.  **Glaze:** Add the crispy cauliflower to the pot. Toss vigorously for 30 seconds until every floret is coated in the glaze.
 7.  **Serve:** Garnish with sesame seeds and serve immediately over steamed rice.

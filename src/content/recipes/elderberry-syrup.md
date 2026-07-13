@@ -48,7 +48,8 @@ nutrition:
 
 ## Chef's Note
 
-Elderberry syrup is an old folk remedy that's held up surprisingly well  -  elderberries are genuinely rich in anthocyanins and vitamin C, and the ginger-cinnamon-clove base adds its own anti-inflammatory punch. The critical step is letting the liquid cool below 110°F before adding honey  -  heat destroys the enzymes and beneficial compounds in raw honey, which is the whole point of using it. This keeps in the fridge for about 2 months; if you want it shelf-stable longer, you'd need to add alcohol or citric acid.
+Elderberry syrup is an old folk remedy that's held up surprisingly well - elderberries are genuinely rich in anthocyanins and vitamin C, and the ginger-cinnamon-clove base adds its own anti-inflammatory punch. The critical step is letting the liquid cool below 110°F before adding honey - heat destroys the enzymes and beneficial compounds in raw honey, which is the whole point of using it. This keeps in the fridge for about 2 months; if you want it shelf-stable longer, you'd need to add alcohol or citric acid.
+
 ## Directions
 
 1.  **Concentrate:** In a medium saucepan, combine water, elderberries, ginger, cinnamon, and cloves.

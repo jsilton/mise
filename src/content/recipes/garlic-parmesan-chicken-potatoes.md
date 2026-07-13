@@ -58,7 +58,8 @@ nutrition:
 
 ## Chef's Note
 
-This is a French-meets-Italian one-skillet dinner  -  skin-on thighs seared until the fat renders and the skin shatters, then finished in a garlic-Parmesan cream sauce with roasted potatoes. The sear is non-negotiable: 5-7 minutes skin-side down without touching builds the crust. The fond left in the pan becomes the base of your sauce  -  deglaze with broth, whisk in cream and Parmesan, and you have a weeknight version of chicken fricassee.
+This is a French-meets-Italian one-skillet dinner - skin-on thighs seared until the fat renders and the skin shatters, then finished in a garlic-Parmesan cream sauce with roasted potatoes. The sear is non-negotiable: 5-7 minutes skin-side down without touching builds the crust. The fond left in the pan becomes the base of your sauce - deglaze with broth, whisk in cream and Parmesan, and you have a weeknight version of chicken fricassee.
+
 ## Directions
 
 1.  **Roast Potatoes:** Preheat oven to 425°F. Toss potatoes with oil and salt. Roast on a sheet pan for 20-25 minutes until crispy.
@@ -67,4 +68,3 @@ This is a French-meets-Italian one-skillet dinner  -  skin-on thighs seared unti
 4.  **Emulsify:** Gradually whisk in broth and cream until thickened. Stir in the Parmesan and spinach until wilted.
 5.  **Combine:** Return the chicken and the **crispy roasted potatoes** to the skillet.
 6.  **Finish:** Transfer the skillet to the oven for 10 minutes to finish cooking the chicken (165°F). Serve immediately.
-

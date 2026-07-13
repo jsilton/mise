@@ -69,4 +69,4 @@ This is the ultimate holiday tart. The key is roasting the sliced heirloom tomat
 7.  **Final Bake:** Bake at 425°F for 20 minutes until the crust is mahogany brown.
 8.  **Serve:** Garnish with fresh purple and green basil for the aromatic **High Note**.
 
-**Rest:** Let Cold Butt rest for 10 minutes before slicing or serving  -  the juices redistribute and every piece stays moist.
+**Rest:** Let Cold Butt rest for 10 minutes before slicing or serving - the juices redistribute and every piece stays moist.

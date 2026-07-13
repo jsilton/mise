@@ -65,7 +65,7 @@ nutrition:
 
 ## Chef's Note
 
-Quinoa pilaf elevates the grain from a simple side into something memorable through toasting and the pilaf method  -  aromatics bloomed in fat, then grains cooked in broth with a brief rest. The toasted almonds add both crunch and richness that make this base substantial enough to support delicate proteins like fish or white meat. Rinsing the quinoa is non-negotiable to remove the bitter saponin coating. The brief toast before liquid is added develops a nutty flavor that sets this apart from plain cooked quinoa.
+Quinoa pilaf elevates the grain from a simple side into something memorable through toasting and the pilaf method - aromatics bloomed in fat, then grains cooked in broth with a brief rest. The toasted almonds add both crunch and richness that make this base substantial enough to support delicate proteins like fish or white meat. Rinsing the quinoa is non-negotiable to remove the bitter saponin coating. The brief toast before liquid is added develops a nutty flavor that sets this apart from plain cooked quinoa.
 
 ## Directions
 

@@ -71,7 +71,7 @@ Gambas al ajillo is the ultimate proof that Spanish cooking is about restraint a
 
 1.  **Prep Everything First:** Pat the shrimp dry with paper towels and season with 1/2 tsp salt and the smoked paprika. Have the sliced garlic, dried peppers, sherry, parsley, and lemon juice ready beside the stove. This dish moves fast.
 
-2.  **Heat the Oil:** Pour the olive oil into a cast-iron skillet or cazuela over medium heat. When the oil begins to shimmer, add the sliced garlic and dried guindilla peppers. Cook for 60-90 seconds, swirling constantly, until the garlic is pale golden. Do not walk away.
+2.  **Heat the Oil:** Pour the olive oil into a cast-iron skillet or cazuela over medium heat. When the oil begins to shimmer, add the sliced garlic and dried guindilla peppers. Cook for 30-45 seconds, swirling constantly, until the garlic is pale golden. Do not walk away.
 
 3.  **Add the Shrimp:** Increase heat to medium-high. Add the shrimp in a single layer and cook for 1 minute without moving them. Flip and cook for 30 seconds more.
 

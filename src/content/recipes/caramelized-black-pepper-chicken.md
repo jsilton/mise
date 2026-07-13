@@ -57,7 +57,7 @@ This Vietnamese dish uses coarsely ground black pepper as the primary flavor, no
 ## Directions
 
 1.  **Sear:** Heat oil in a wok or large skillet over high heat. Add the chicken in a single layer. Sear undisturbed for 3 minutes until a dark crust forms. Flip and cook for 2 more minutes. Remove to a plate.
-2.  **Shallots:** Add the sliced shallots to the pan. Cook until softened and starting to brown (3 mins).
-3.  **The Glaze:** Pour in the fish sauce, sugar, vinegar, ginger, garlic, pepper, and chilies. Simmer for 2 minutes until the sauce bubbles and turns into a thick, dark syrup.
+2.  **Shallots & Spices:** Add the sliced shallots to the pan. Cook until softened and starting to brown (3 mins). Add black pepper and chilies and bloom in the oil for 30 seconds.
+3.  **The Glaze:** Pour in the fish sauce, sugar, vinegar, ginger, and garlic. Simmer for 2 minutes until the sauce bubbles and turns into a thick, dark syrup.
 4.  **Toss:** Return the chicken to the pan. Toss vigorously over high heat until the chicken is lacquered in the black pepper glaze.
 5.  **Serve:** Garnish with cilantro. Serve over rice.

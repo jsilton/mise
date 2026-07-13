@@ -59,7 +59,7 @@ For kids, serve the heat on the side or reduce/omit the spicy elements.
 ## Directions
 
 1.  **Marinate:** Whisk soy sauce, honey, sriracha, and garlic. Toss with salmon cubes. Let sit for 15-20 minutes.
-2.  **The Sear:** Heat a large non-stick or cast-iron skillet over high heat with a splash of oil. Drain salmon from marinade (reserve it!).
+2.  **The Sear:** Heat a large non-stick or cast-iron skillet over medium heat with a splash of oil. Wipe excess marinade off salmon (reserve it!).
 3.  **Crisp:** Add salmon in a single layer. Cook for 2-3 minutes without moving until a crust forms. Flip and cook for 1 minute. Remove to a plate.
 4.  **The Glaze:** Pour the reserved marinade into the hot pan. Let it bubble and reduce for 1-2 minutes until thick and syrupy. Toss the salmon back in to coat.
 5.  **Assemble:** Build bowls with a base of [Jasmine Rice](/mise/recipes/homemade-rice-pilaf). Top with salmon, avocado, edamame, and cucumber salad.

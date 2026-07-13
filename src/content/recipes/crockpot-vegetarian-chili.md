@@ -68,7 +68,7 @@ For kids, serve the heat on the side or reduce/omit the spicy elements.
 
 1.  **The Base:** Place the diced onion, celery, carrot, peppers, and sweet potato in the bottom of the crockpot.
 2.  **The Mix:** Add all three types of beans, green chiles, diced tomatoes, and tomato sauce.
-3.  **Season:** Sprinkle the chili powder, cumin, garlic powder, oregano, salt, and pepper over the top. Pour in the water or stock and stir until well combined.
+3.  **Season:** In a small skillet, heat 1 tbsp oil over medium. Add the chili powder, cumin, garlic powder, and oregano. Toast for 30-45 seconds until fragrant to bloom the spices, then transfer to the crockpot. Add the salt and pepper. Pour in the water or stock and stir until well combined.
 4.  **Cook:** Cover and cook on **HIGH for 4 hours** or **LOW for 8 hours** until the sweet potatoes are tender and the flavors have melded.
 5.  **The Finish:** 5 minutes before serving, stir in the **Apple Cider Vinegar**. Taste and adjust salt if needed.
 6.  **Serve:** Ladle into deep bowls. Top with Greek yogurt, avocado, and fresh cilantro.

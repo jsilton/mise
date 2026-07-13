@@ -77,7 +77,7 @@ A taco bar teaches kids that dinner is a conversation, not a lecture. Every fami
 
 ## Directions
 
-1. **Prep Proteins (Do ahead, ideally):** If using carnitas, warm gently in a dry skillet over medium heat until edges are crispy, about 5 minutes. If using grilled chicken, season with salt, lime juice, and a pinch of cumin while warm. If using shrimp, sauté quickly in a hot skillet with chili powder, garlic, and lime until just cooked through (about 3 minutes per side).
+1. **Prep Proteins (Do ahead, ideally):** If using carnitas, warm gently in a dry skillet over medium heat until edges are crispy, about 5 minutes. If using grilled chicken, season with salt, lime juice, and a pinch of cumin while warm. If using shrimp, sauté quickly in a hot skillet with chili powder and lime for about 2.5 minutes per side, adding the garlic during the last 30-45 seconds until just cooked through and fragrant.
 
 2. **Char the Shells:** Place each corn tortilla directly over a gas flame or in a dry skillet over high heat for 30 seconds per side until lightly charred and fragrant. (Flour tortillas can simply be warmed in a dry skillet for 15 seconds per side.) Stack in a clean kitchen towel to keep warm.
 

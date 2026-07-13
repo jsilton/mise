@@ -60,15 +60,16 @@ nutrition:
 ## Chef's Note
 
 Miso glaze on salmon is Japanese home cooking: fermented soybean paste with a touch of sugar creates a deep, umami-rich coating. The miso caramelizes on the hot fish, which is why you finish it under the broiler rather than pan-searing. Bok choy cooks fast and drinks in the salty glaze, balancing the fish.
+
 ## Directions
 
 1.  **The Glaze:** In a small bowl, whisk together the miso, honey, soy sauce, mirin, rice vinegar, and ginger until smooth.
 2.  **Prep Salmon:** Pat the salmon fillets bone-dry with paper towels. Arrange on a foil-lined baking sheet.
 3.  **Initial Roast:** Brush half of the miso glaze over the salmon. Roast in a 400°F oven for 8 minutes.
 4.  **The Char:** Remove salmon, brush with the remaining glaze, and switch the oven to **BROIL**. Place the tray 6 inches from the heat and broil for 2-3 minutes until the glaze is bubbling and has dark charred spots. Pull at an internal temp of 135-140°F.
-5.  **The Bok Choy:** While salmon roasts, heat a large skillet or wok over high heat with a splash of oil. Add the garlic and the bok choy (cut-side down). Sear for 2 minutes without moving until the edges are browned.
+5.  **The Bok Choy:** While salmon roasts, heat a large skillet or wok over high heat with a splash of oil. Add the bok choy (cut-side down) and sear for 2 minutes without moving until the edges are browned. Add the garlic and sauté for 30-45 seconds.
 6.  **Steam:** Pour in 2 tablespoons of water or broth, immediately cover with a lid, and steam for 1 minute.
 7.  **Finish:** Remove lid, stir in the oyster sauce and sesame oil. Toss to coat.
 8.  **Serve:** Place a mound of [Jasmine Rice](/mise/recipes/homemade-rice-pilaf) in each bowl, top with the salmon and bok choy. Garnish with sesame seeds and green onions.
 
-**Rest:** Let 4 Salmon rest for 5 minutes before slicing or serving  -  the juices redistribute and every piece stays moist.
+**Rest:** Let 4 Salmon rest for 5 minutes before slicing or serving - the juices redistribute and every piece stays moist.

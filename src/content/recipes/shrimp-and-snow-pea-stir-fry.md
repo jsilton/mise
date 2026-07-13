@@ -61,7 +61,7 @@ This quick stir-fry showcases the Cantonese approach to spring vegetables, pairi
 
 1.  **Noodles:** Place rice noodles in a bowl of hot (not boiling) water. Let soak for 25 minutes until flexible. Drain and rinse in cold water.
 2.  **Velvet:** Toss shrimp with 1 tbsp sweet chili sauce and salt. **Let stand for 15 minutes**.
-3.  **The Sear:** Heat 1 tbsp oil in a wok until smoking. Sear shrimp for 1 minute per side until charred and pink. Remove.
-4.  **The Crunch:** Add 1 tbsp oil. Sauté snow peas, ginger, and garlic for 2 minutes over high heat until bright green.
+3.  **The Sear:** Heat 1 tbsp oil in a wok over medium-high heat. Wipe excess marinade off shrimp and sear for 1 minute per side until charred and pink. Remove.
+4.  **The Crunch:** Add 1 tbsp oil. Sauté snow peas and ginger for 1-2 minutes over high heat until bright green. Add garlic and sauté for 30-45 seconds.
 5.  **Bind:** Add the drained noodles and the remaining sweet chili sauce. Toss vigorously for 4 minutes until the noodles are hot and glossy.
 6.  **Serve:** Return shrimp to the pan. Toss for 30 seconds. Serve immediately.

@@ -55,8 +55,8 @@ Sheet pan dinners became popular in the 2010s for their simplicity. The key is s
 
 1.  **Stage 1 (Heavy):** Preheat oven to 450°F. Line a rimmed sheet pan with parchment. Place drumsticks on one side and potatoes on the other. Drizzle potatoes with 1 tbsp oil, salt, and pepper. Roast for 20 minutes.
 2.  **Stage 2 (Greens):** Remove the pan. Place the broccoli in the center space. Drizzle with 2 tbsp oil and a pinch of salt.
-3.  **The Glaze:** Whisk the teriyaki glaze with the grated ginger. Brush the glaze generously over all sides of the chicken drumsticks.
-4.  **Finish:** Return to the oven and roast for another 20-25 minutes until the broccoli is charred, potatoes are tender, and chicken reaches an internal temp of 165°F.
+3.  **The Glaze:** Whisk the teriyaki glaze with the grated ginger. Brush the glaze generously over all sides of the chicken drumsticks. Wipe off excess glaze to prevent burning.
+4.  **Finish:** Reduce heat to 375°F. Return to the oven and roast for another 20-25 minutes until the broccoli is charred, potatoes are tender, and chicken reaches an internal temp of 165°F.
 5.  **Serve:** Serve immediately, drizzling any extra pan juices over the potatoes for a savory "Bounce."
 
-**Rest:** Let 4 Chicken rest for 5 minutes before slicing or serving  -  the juices redistribute and every piece stays moist.
+**Rest:** Let 4 Chicken rest for 5 minutes before slicing or serving - the juices redistribute and every piece stays moist.

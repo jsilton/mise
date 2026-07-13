@@ -65,7 +65,8 @@ nutrition:
 
 ## Chef's Note
 
-Savory cheesecake with Parmigiano-Reggiano is a Northern Italian tradition that blurs the line between cheese course and dessert  -  the aged cheese brings nutty, crystalline depth against the graham cracker crust. The water bath is non-negotiable: it creates gentle, even heat that prevents the edges from overcooking while the center sets. Pull it when the center still jiggles  -  residual heat finishes the job.
+Savory cheesecake with Parmigiano-Reggiano is a Northern Italian tradition that blurs the line between cheese course and dessert - the aged cheese brings nutty, crystalline depth against the graham cracker crust. The water bath is non-negotiable: it creates gentle, even heat that prevents the edges from overcooking while the center sets. Pull it when the center still jiggles - residual heat finishes the job.
+
 ## Directions
 
 1.  **The Crust:** Pulse the cheese, crackers, and seeds in a food processor. Mix with butter and press into a 10-inch springform pan. Bake at 350°F for 15 minutes. Cool.

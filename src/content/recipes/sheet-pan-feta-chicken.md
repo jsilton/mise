@@ -64,4 +64,4 @@ Adding cherry tomatoes in two stages ensures both a rich sauce and whole, crispy
 5.  **Bake:** Roast for 10-15 more minutes until the chicken reaches **160°F** (it will carry to 165°F) and the tomatoes have just burst.
 6.  **Finish:** Garnish with a massive amount of fresh basil and cracked black pepper for the mandatory **High Note**.
 
-**Rest:** Let small Chicken rest for 5 minutes before slicing or serving  -  the juices redistribute and every piece stays moist.
+**Rest:** Let small Chicken rest for 5 minutes before slicing or serving - the juices redistribute and every piece stays moist.

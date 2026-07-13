@@ -59,6 +59,6 @@ Charred broccoli with garlic is a staple in Chinese-American restaurants. The ke
 1.  **Prep:** Dry the broccoli florets thoroughly. If they are wet, they will steam instead of char.
 2.  **Sear:** Heat oil in a large skillet or wok over high heat until smoking. Add the broccoli in a single layer. **Do not move them** for 2 minutes. You want dark, blackened spots.
 3.  **Toss:** Toss the broccoli and cook for another 3 minutes.
-4.  **Aromatics:** Add the garlic and red pepper flakes. Cook for 1 minute until the garlic is golden.
+4.  **Aromatics:** Add the garlic and red pepper flakes. Cook for 30-45 seconds until the garlic is golden.
 5.  **Glaze:** Stir in the soy sauce. It will bubble and evaporate instantly, seasoning the broccoli.
 6.  **Finish:** Turn off the heat. Squeeze fresh lemon juice over the top.

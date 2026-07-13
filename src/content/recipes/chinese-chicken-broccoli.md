@@ -70,4 +70,4 @@ Chicken and broccoli became a Chinese-American takeout staple in the mid-20th ce
 6.  **The Glaze:** Return broccoli to the pan. Whisk the sauce again (cornstarch settles!) and pour it in.
 7.  **Finish:** Toss vigorously for 1 minute until the sauce thickens into a glossy glaze. Serve immediately.
 
-**Rest:** Let lb Chicken rest for 5 minutes before slicing or serving  -  the juices redistribute and every piece stays moist.
+**Rest:** Let lb Chicken rest for 5 minutes before slicing or serving - the juices redistribute and every piece stays moist.

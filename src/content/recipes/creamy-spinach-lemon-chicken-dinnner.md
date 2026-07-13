@@ -58,11 +58,11 @@ This Mediterranean-inspired 25-minute dish sears chicken cutlets first to develo
 
 1.  **Prep:** Pound chicken breasts to an even 1/2-inch thickness. Season generously with salt and pepper.
 2.  **Sear:** Heat 1 tbsp oil in a large ovenproof skillet over high heat. Sear chicken for 2-3 minutes per side until golden brown. Remove to a plate.
-3.  **Aromatics:** Reduce heat to medium. Add remaining 1 tbsp oil and garlic. Sauté for 30 seconds until fragrant.
-4.  **Emulsify:** Pour in the chicken broth, Greek yogurt, lemon juice, zest, and oregano. Whisk constantly until the mixture is smooth and begins to simmer.
+3.  **Aromatics:** Reduce heat to medium. Add remaining 1 tbsp oil, garlic, and oregano. Sauté for 30-45 seconds to bloom the spices until fragrant.
+4.  **Emulsify:** Pour in the chicken broth, Greek yogurt, lemon juice, and zest. Whisk constantly until the mixture is smooth and begins to simmer.
 5.  **Reduce:** Let the sauce simmer for 3 minutes to thicken slightly.
 6.  **Wilt:** Fold in the spinach. Stir for 30 seconds until it just begins to collapse.
 7.  **Finish:** Return the chicken breasts to the skillet. Transfer the pan to a 400°F oven for 10-12 minutes until the chicken reaches an internal temp of 165°F.
 8.  **Serve:** Serve the chicken drenched in the lemon-yogurt sauce over rice or greens.
 
-**Rest:** Let large Chicken rest for 5 minutes before slicing or serving  -  the juices redistribute and every piece stays moist.
+**Rest:** Let large Chicken rest for 5 minutes before slicing or serving - the juices redistribute and every piece stays moist.

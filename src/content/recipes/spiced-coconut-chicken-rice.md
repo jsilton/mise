@@ -59,7 +59,7 @@ Soaking basmati rice for 45 minutes hydrates the grains before cooking, ensuring
 ## Directions
 
 1.  **The Soak:** Rinse rice 3 times until water is clear. Soak in cool water for 45 minutes. Drain.
-2.  **Foundation:** In a large heavy pot, sauté shallots and garlic in oil until golden (3 mins).
+2.  **Foundation:** In a large heavy pot, sauté shallots in oil until softened (about 2 mins). Add garlic and sauté for 30-45 seconds until golden and fragrant.
 3.  **The Bloom:** Add chicken, turmeric, cayenne, and salt. Sauté for 2 minutes until spices are toasted and chicken is opaque.
 4.  **Braise:** Pour in 3/4 cup water. Simmer on low, covered, for 20 minutes until chicken is tender.
 5.  **The Bind:** Add the drained rice, coconut milk, and remaining salt. Stir once.

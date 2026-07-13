@@ -58,12 +58,13 @@ nutrition:
 ## Chef's Note
 
 Spaghetti squash strands are a vegetable base for light sauces - they stay tender and separate instead of turning mushy like pasta. The Tuscan profile is garlic, tomato, and basil, with perhaps a bit of cream. The squash cooks in the oven first, then gets tossed with warm sauce so it drinks in the flavor without becoming wet.
+
 ## Directions
 
 1.  **Roast Squash:** Preheat oven to 400°F. Halve squash, rub with oil, and roast flesh-side down for 40-45 minutes until fork-tender.
 2.  **Shred:** Let cool for 5 minutes. Use two forks to scrape the flesh into "noodles." Set aside.
 3.  **The Crunch:** In a large skillet, fry bacon until crispy. Remove to a plate, leaving the fat in the pan.
-4.  **Aromatics:** Add garlic and cherry tomatoes to the bacon fat. Sauté for 2 minutes until the tomatoes just begin to soften.
+4.  **Aromatics:** Add cherry tomatoes to the bacon fat. Sauté for 1-2 minutes until they just begin to soften. Add garlic and sauté for 30-45 seconds until fragrant.
 5.  **Emulsify:** Pour in the heavy cream and Parmesan. Simmer for 2 minutes until the sauce is thick and bubbly.
 6.  **Bind:** Add the spaghetti squash and spinach to the skillet. Toss vigorously for 1 minute until the spinach has collapsed.
 7.  **Serve:** Top with the crispy bacon and fresh basil for the final aromatic **High Note**.

@@ -82,7 +82,7 @@ Japchae is Korean mixed stir-fry with sweet potato glass noodles - a dish that s
 
 1. **Cook the Noodles:** Bring a large pot of water to a boil. Add the glass noodles and cook for 4-5 minutes until translucent and tender. Drain in a colander, rinse under cool water, and set aside. The noodles can be tossed with a small drizzle of sesame oil to prevent sticking.
 
-2. **Marinate the Beef:** While the noodles cook, combine the thinly sliced beef with 1 tbsp soy sauce, 1 tsp sesame oil, 1/2 tsp minced garlic, and 1/4 tsp black pepper in a small bowl. Let sit for 5 minutes while you prep vegetables.
+2. **Marinate the Beef:** While the noodles cook, combine the thinly sliced beef with 1 tbsp soy sauce, 1 tsp sesame oil, 1/2 tsp minced garlic, 1/4 tsp black pepper, and 1 tsp cornstarch in a small bowl. This cornstarch coating (velveting) protects the meat from the high heat of the skillet. Let sit for 15 minutes while you prep vegetables.
 
 3. **Cook the Beef:** Heat 1 tbsp vegetable oil in a large skillet over high heat until it shimmers. Add the marinated beef in a single layer and let it sit for 1 minute without stirring to develop color. Stir and cook another 30 seconds until the beef is mostly cooked. Transfer to a plate.
 

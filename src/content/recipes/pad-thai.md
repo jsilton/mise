@@ -61,7 +61,7 @@ For kids, serve the heat on the side or reduce/omit the spicy elements.
 
 1.  **The Soak:** Place dry noodles in a large bowl of cool water. Soak for 40 minutes until flexible but still firm. Drain.
 2.  **The Crunch:** Heat 1 tbsp oil in a wok. Fry peanuts until golden; remove. Fry tofu matchsticks until golden and firm; remove.
-3.  **Aromatics:** Heat 1 tbsp oil. Sauté garlic and shallots until fragrant. Add the drained noodles and the tamarind mixture (sugar, fish sauce, chili).
+3.  **Aromatics:** Heat 1 tbsp oil. Sauté garlic, shallots, and dried chili for 30 seconds until fragrant. Add the drained noodles and the tamarind mixture (sugar, fish sauce).
 4.  **Toss:** Stir-fry over high heat. If the noodles feel too firm, add 1 tbsp of water at a time until they are chewy and translucent.
 5.  **The Egg:** Push noodles to the side. Scramble the egg until set, then fold into the noodles.
 6.  **Combine:** Add the shrimp and cooked tofu. Toss for 2 minutes until shrimp are pink and just opaque.

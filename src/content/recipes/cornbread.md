@@ -65,7 +65,7 @@ nutrition:
 
 ## Chef's Note
 
-This cornbread is built to pair with big, bold flavors  -  pulled pork bark, chili, ribs. The sugar is deliberately low so it complements rather than competes with sweet and smoky mains. Buttermilk's acidity activates the baking soda for a tender crumb with just enough tang. Fold gently and stop mixing the moment the flour disappears  -  lumps are fine, toughness is not. No buttermilk? Stir 1/3 cup plain Greek yogurt into 2/3 cup whole milk and let it sit for 5 minutes.
+This cornbread is built to pair with big, bold flavors - pulled pork bark, chili, ribs. The sugar is deliberately low so it complements rather than competes with sweet and smoky mains. Buttermilk's acidity activates the baking soda for a tender crumb with just enough tang. Fold gently and stop mixing the moment the flour disappears - lumps are fine, toughness is not. No buttermilk? Stir 1/3 cup plain Greek yogurt into 2/3 cup whole milk and let it sit for 5 minutes.
 
 ## Directions
 
@@ -75,7 +75,7 @@ This cornbread is built to pair with big, bold flavors  -  pulled pork bark, chi
 
 3. **Mix the wet:** In a separate bowl, whisk the melted butter, brown sugar, and honey until smooth. Whisk in the egg, then whisk in the buttermilk until fully combined.
 
-4. **The fold:** Pour the wet ingredients into the dry. Use a spatula to gently fold together  -  stop mixing as soon as you no longer see dry flour. Overmixing makes cornbread tough and dense. Lumps are totally fine.
+4. **The fold:** Pour the wet ingredients into the dry. Use a spatula to gently fold together - stop mixing as soon as you no longer see dry flour. Overmixing makes cornbread tough and dense. Lumps are totally fine.
 
 5. **Bake:** Pour the batter into the prepared dish and smooth the top. Bake for 20 - 25 minutes, or until the top is golden brown and a toothpick inserted into the center comes out clean.
 

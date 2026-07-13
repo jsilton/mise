@@ -64,7 +64,7 @@ Sunchokes (Jerusalem artichokes) require a long roast at 375°F - about 60 minut
 ## Directions
 
 1.  **Roast:** Preheat oven to 375°F. Toss sunchokes with oil, thyme, garlic, and salt. Roast for 1 hour, flipping once, until golden and fork-tender. Discard herbs/garlic.
-2.  **Reduce:** In a small pan, simmer cider vinegar until reduced to 2 tbsp (about 3 mins). Stir in shallots, honey, and chili flakes.
-3.  **Brown Butter:** In the same pan, melt butter over medium heat. Cook for 3 minutes until foamy and dark brown. Whisk immediately into the vinegar mixture.
+2.  **Reduce:** In a small pan, simmer cider vinegar until reduced to 2 tbsp (about 3 mins). Stir in shallots and honey.
+3.  **Brown Butter:** In the same pan, melt butter over medium heat. Cook for 2 minutes until foamy, then add the chili flakes to bloom for the final minute until the butter is dark brown and fragrant. Whisk immediately into the vinegar mixture.
 4.  **Bind:** Toss the hot sunchokes with the fresh spinach - the heat will wilt the leaves perfectly.
 5.  **Finish:** Drizzle with the brown butter vinaigrette and top with chives for the mandatory **High Note**.

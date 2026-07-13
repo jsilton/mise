@@ -57,7 +57,7 @@ Sun-dried tomatoes became hugely popular in Italian-American cooking during the 
 
 ## Directions
 
-1.  **The Base:** Drain sun-dried tomatoes, reserving 2 tbsp of their oil. Sauté garlic and the tomatoes in that oil for 1 minute until fragrant.
+1.  **The Base:** Drain sun-dried tomatoes, reserving 2 tbsp of their oil. Sauté the tomatoes in that oil for 1 minute. Add garlic and sauté for 30-45 seconds until fragrant.
 2.  **The Sear:** Add sliced chicken (seasoned with paprika and salt). Cook over high heat for 2 minutes per side until charred. Remove to a plate.
 3.  **Boil:** Cook penne until **al dente**. **Reserve 1 cup of pasta water**.
 4.  **Emulsify:** In the skillet, combine the half-and-half and mozzarella. Bring to a gentle boil, then simmer, stirring constantly, until the cheese has melted into a thick, glossy silk.
@@ -65,4 +65,4 @@ Sun-dried tomatoes became hugely popular in Italian-American cooking during the 
 6.  **Toss:** Toss vigorously for 1 minute. Add pasta water 1/4 cup at a time until the sauce is creamy and the spinach has just wilted.
 7.  **Serve:** Season with extra red pepper flakes and serve hot.
 
-**Rest:** Let lb Chicken rest for 5 minutes before slicing or serving  -  the juices redistribute and every piece stays moist.
+**Rest:** Let lb Chicken rest for 5 minutes before slicing or serving - the juices redistribute and every piece stays moist.

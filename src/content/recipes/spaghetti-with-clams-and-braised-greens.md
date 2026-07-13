@@ -61,9 +61,9 @@ Spaghetti with clams is a classic Italian coastal dish, typically made with whit
 
 ## Directions
 
-1.  **Steaming:** In a large pot, heat 1/4 cup oil. Sauté half the garlic for 1 minute. Add clams and wine. Cover and boil for 5-7 minutes until clams open.
+1.  **Steaming:** In a large pot, heat 1/4 cup oil. Sauté half the garlic for 30-45 seconds. Add clams and wine. Cover and boil for 5-7 minutes until clams open.
 2.  **The Puree:** Transfer opened clams to a plate. Strain the liquid into a blender. Add roasted peppers and pulse until smooth.
-3.  **The Greens:** Wipe the pot. Heat 1/4 cup oil. Sauté remaining garlic and chili flakes. Add the chard in batches; sauté for 3 minutes until wilted.
+3.  **The Greens:** Wipe the pot. Heat 1/4 cup oil. Sauté remaining garlic and chili flakes for 30-45 seconds. Add the chard in batches; sauté for 3 minutes until wilted.
 4.  **Boil:** Cook spaghetti until **very al dente**.
 5.  **Bind:** Pour the pepper broth into the greens. Add the hot pasta and the cold butter.
 6.  **Emulsify:** Toss vigorously over medium heat. Add lemon juice, zest, and Parmesan. Stir until the sauce is glossy.

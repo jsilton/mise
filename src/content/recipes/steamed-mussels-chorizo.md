@@ -57,7 +57,7 @@ This Spanish-style mussel dish builds flavor by cooking chorizo, garlic, and che
 
 ## Directions
 
-1.  **The Render:** In a large heavy pot, heat oil. Sauté chorizo for 4 minutes until crispy. Add garlic and fennel seeds; cook for 1 minute.
+1.  **The Render:** In a large heavy pot, heat oil. Sauté chorizo for 4 minutes until crispy. Add garlic and fennel seeds; cook for 30-45 seconds.
 2.  **The Glaze:** Add tomatoes and wine. Season with black pepper. Simmer for 6-8 minutes over medium-high until the liquid has reduced by 3/4 and looks like a thick syrup.
 3.  **The Crunch:** Add the mussels to the pot. Cover tightly.
 4.  **Steam:** Cook for 6-8 minutes, shaking the pot occasionally, until all mussels have popped open.

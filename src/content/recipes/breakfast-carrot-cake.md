@@ -60,7 +60,8 @@ nutrition:
 
 ## Chef's Note
 
-Breakfast carrot cake splits the difference between muffin and snack cake  -  whole wheat flour and Greek yogurt give it enough structure and protein to pass as morning food, while the grated carrots keep it moist for days. The trick is grating on the fine holes, not the large ones  -  larger shreds release too much water during baking and create soggy pockets. This freezes beautifully: wrap individual squares in plastic and pull them out the night before for school mornings.
+Breakfast carrot cake splits the difference between muffin and snack cake - whole wheat flour and Greek yogurt give it enough structure and protein to pass as morning food, while the grated carrots keep it moist for days. The trick is grating on the fine holes, not the large ones - larger shreds release too much water during baking and create soggy pockets. This freezes beautifully: wrap individual squares in plastic and pull them out the night before for school mornings.
+
 ## Directions
 
 1.  **Prep:** Preheat oven to 375°F (185°C). Grease an 8-inch square pan or line with parchment paper.

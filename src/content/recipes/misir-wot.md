@@ -73,7 +73,7 @@ Misir wot gets its soul from two things: deeply caramelized onions and berbere s
 
 1.  **Dry-Saute the Onions:** Place the diced red onions in a large, heavy-bottomed pot or Dutch oven over medium heat with no oil. Cook, stirring frequently, for 8-10 minutes. The onions will release their moisture and begin to dry out, soften, and concentrate in flavor. This traditional step is essential.
 
-2.  **Add the Fat and Spices:** Add the niter kibbeh (or olive oil) to the softened onions. Cook for 3-4 minutes until the onions begin to turn golden. Add the garlic and ginger, stirring for 1 minute. Stir in the berbere spice blend, tomato paste, cardamom, and fenugreek. Cook for 2 minutes, stirring constantly to prevent burning. The pot should be deeply red and intensely fragrant.
+2.  **Add the Fat and Spices:** Add the niter kibbeh (or olive oil) to the softened onions. Cook for 3-4 minutes until the onions begin to turn golden. Add the garlic and ginger, stirring for 30-45 seconds. Stir in the berbere spice blend, tomato paste, cardamom, and fenugreek. Cook for 2 minutes, stirring constantly to prevent burning. The pot should be deeply red and intensely fragrant.
 
 3.  **Cook the Lentils:** Add the rinsed red lentils, 3 cups water, and salt. Stir well to combine. Bring to a boil, then reduce to a gentle simmer. Cover and cook for 25-30 minutes, stirring every 5-7 minutes to prevent sticking, until the lentils have completely broken down into a thick, porridge-like stew.
 
@@ -82,4 +82,3 @@ Misir wot gets its soul from two things: deeply caramelized onions and berbere s
 5.  **Finish:** Stir in the lemon juice. Taste and adjust salt and berbere to your heat preference.
 
 6.  **Serve:** Traditionally served on injera (Ethiopian sourdough flatbread) for scooping. Alternatively, serve over steamed basmati rice. The wot should be vibrant red, thick, and deeply spiced.
-

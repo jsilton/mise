@@ -66,7 +66,7 @@ Lemon and herb chicken is the Mediterranean weeknight answer: bone-in, skin-on t
 
 2. **Sear the Chicken:** Heat 2 tbsp olive oil in a large oven-safe skillet over medium-high heat. Once shimmering, add chicken skin-side down. Do not move them for 5-6 minutes until the skin is deeply golden and crispy. Flip and sear the other side for 2 minutes. Transfer to a plate.
 
-3. **Aromatics:** Reduce heat to medium. Add remaining 1 tbsp oil and sliced garlic. Sauté for 1 minute until fragrant. Add fresh oregano and thyme, stirring for 15 seconds.
+3. **Aromatics:** Reduce heat to medium. Add remaining 1 tbsp oil and sliced garlic. Sauté for 30-45 seconds until fragrant. Add fresh oregano and thyme, stirring for 15 seconds.
 
 4. **Deglaze:** Pour in lemon juice and chicken stock. Scrape the bottom of the pan with a wooden spoon to release any browned bits. Stir in lemon zest.
 
@@ -78,4 +78,4 @@ Lemon and herb chicken is the Mediterranean weeknight answer: bone-in, skin-on t
 
 **One-Pan Magic:** Everything cooks in the same skillet - proteins, sauce, and vegetables if you add them. The cleanup is minimal.
 
-**Rest:** Let 8 Chicken rest for 5 minutes before slicing or serving  -  the juices redistribute and every piece stays moist.
+**Rest:** Let 8 Chicken rest for 5 minutes before slicing or serving - the juices redistribute and every piece stays moist.

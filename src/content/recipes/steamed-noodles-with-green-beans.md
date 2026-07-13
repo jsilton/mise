@@ -64,7 +64,7 @@ Bian dou men mian is a northern Chinese braised noodle dish where steamed noodle
 
 1.  **Velvet:** Toss pork with marinade ingredients. Let stand for 20 minutes.
 2.  **Steam Noodles:** Line a steamer with parchment. Pile noodles on top, drizzle with 1 tbsp oil, and steam for 10-12 minutes until flexible. Set aside.
-3.  **The Sear:** In a wok, sauté ginger, star anise, garlic, and scallions for 1 minute. Add the pork and stir-fry over high heat until opaque and browned.
+3.  **The Sear:** In a wok, sauté ginger, star anise, garlic, and scallions for 30-45 seconds. Add the pork and stir-fry over high heat until opaque and browned.
 4.  **The Crunch:** Add the green beans. Sauté for 3 minutes until bright green.
 5.  **The Bind:** Stir in both soy sauces, sugar, and water. Bring to a boil, then reduce to a simmer.
 6.  **The Layer:** Lay the steamed noodles directly on top of the beans. **Do not stir.** Cover tightly with a lid.

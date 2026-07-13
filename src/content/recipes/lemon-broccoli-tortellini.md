@@ -59,11 +59,12 @@ nutrition:
 ## Chef's Note
 
 This is Italian comfort food with a bright finish: buttery tortellini with the slight bitterness of broccoli, then lemon juice and zest at the end to tie it together. The lemon isn't subtle - use at least the zest and juice of one full lemon per four servings. Pasta water thickens the sauce and carries the lemon flavor through.
+
 ## Directions
 
 1.  **Roast:** Preheat oven to 400°F. On a large baking sheet, toss broccoli with olive oil, half the lemon juice, garlic, salt, and pepper. Roast for 20-25 minutes until crisp and slightly charred at the edges.
 2.  **Boil:** Bring a large pot of salted water to a boil. Cook tortellini according to package directions. **Reserve 1/2 cup of pasta water** before draining.
-3.  **The Wilt:** In the same pot, melt the butter over medium heat. Sauté shallots, minced garlic, and red pepper flakes for 2 minutes. Fold in the spinach and cook until just collapsed (about 2 mins).
+3.  **The Wilt:** In the same pot, melt the butter over medium heat. Sauté shallots and red pepper flakes for 2 minutes. Add minced garlic and sauté for 30-45 seconds. Fold in the spinach and cook until just collapsed (about 2 mins).
 4.  **Emulsify:** Add the lemon zest and the reserved pasta water. Stir until a light, glossy sauce forms.
 5.  **Combine:** Add the cooked tortellini and roasted broccoli back to the pot.
 6.  **Bind:** Toss gently over low heat for 1 minute until everything is coated.

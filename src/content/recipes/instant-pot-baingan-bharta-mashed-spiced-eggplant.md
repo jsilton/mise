@@ -67,7 +67,7 @@ Baingan bharta is traditionally made by roasting eggplant over an open flame for
 ## Directions
 
 1.  **The Bloom:** Press "Sauté" on the Instant Pot. Add oil. Once hot, add cumin seeds and let them sizzle for 30 seconds. Add the onion and sauté for 6-7 minutes until deep golden brown.
-2.  **Aromatics:** Stir in the garlic, ginger, and all ground spices. Sauté for 1 minute until fragrant. Add tomatoes and cook for 4 minutes until they break down into a thick paste.
+2.  **Aromatics:** Stir in the garlic, ginger, and all ground spices. Sauté for 30-45 seconds until fragrant. Add tomatoes and cook for 4 minutes until they break down into a thick paste.
 3.  **Pressure:** Add the eggplant cubes and 1/4 cup water. Secure the lid. Set to **High Pressure for 7 minutes**.
 4.  **Release:** Perform a "quick Release" of the pressure.
 5.  **The Mash:** Open the lid. Use a potato masher or heavy spoon to crush the eggplant into a coarse, uniform mash.

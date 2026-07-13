@@ -52,10 +52,11 @@ Most recipes overcook turkey to 165°F, producing dry meat. Pulling the turkey a
 
 ## Directions
 
-1.  **Prep:** Preheat oven to 450°F. Place the turkey breast on a rack inside a roasting pan - this ensures air circulation for crispy skin.
-2.  **Glaze:** Brush the skin generously with melted butter. Season aggressively with salt and pepper.
-3.  **Sear:** Bake at 450°F for 15 minutes to kickstart the Crunch of the skin.
-4.  **Baste:** Reduce heat to 350°F. Pour 1/2 cup stock into the pan. Roast for 45-60 minutes, basting every 20 minutes with the pan juices.
-5.  **The Pull:** Use an instant-read thermometer. Remove the turkey when it hits **155°F** in the thickest part.
-6.  **Rest:** Transfer to a carving board. Cover loosely with foil and **let rest for 20 minutes** (mandatory for moisture).
-7.  **Serve:** Carve into 1/2-inch slices and serve with the pan drippings.
+1.  **Temper:** Remove the turkey breast from the refrigerator and let it sit at room temperature for 30-45 minutes before roasting to ensure even cooking.
+2.  **Prep:** Preheat oven to 450°F. Place the turkey breast on a rack inside a roasting pan - this ensures air circulation for crispy skin.
+3.  **Glaze:** Brush the skin generously with melted butter. Season aggressively with salt and pepper.
+4.  **Sear:** Bake at 450°F for 15 minutes to kickstart the Crunch of the skin.
+5.  **Baste:** Reduce heat to 350°F. Pour 1/2 cup stock into the pan. Roast for 45-60 minutes, basting every 20 minutes with the pan juices.
+6.  **The Pull:** Use an instant-read thermometer. Remove the turkey when it hits **155°F** in the thickest part.
+7.  **Rest:** Transfer to a carving board. Cover loosely with foil and **let rest for 20 minutes** (mandatory for moisture).
+8.  **Serve:** Carve into 1/2-inch slices and serve with the pan drippings.

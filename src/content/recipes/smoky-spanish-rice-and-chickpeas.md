@@ -56,7 +56,7 @@ This Spanish-inspired rice dish draws from paella technique. Frying dry rice in 
 
 ## Directions
 
-1.  **Foundation:** In a large deep skillet, heat 2 tbsp oil. Sauté onion for 7 minutes cook until golden brown and softened. Add garlic, paprika, and oregano; sauté for 2 minutes until the spices bloom.
+1.  **Foundation:** In a large deep skillet, heat 2 tbsp oil. Sauté onion for 7 minutes cook until golden brown and softened. Add garlic, paprika, and oregano; sauté for 30-45 seconds until the spices bloom.
 2.  **The Toast:** Add the dry rice. Stir constantly for 3 minutes until the grains are coated in the red oil and smell nutty.
 3.  **The Simmer:** Stir in the tomatoes, chickpeas, and broth. Bring to a boil.
 4.  **The Finish:** Reduce heat to **low**. Cover tightly. Simmer for 20-22 minutes until the liquid is absorbed.

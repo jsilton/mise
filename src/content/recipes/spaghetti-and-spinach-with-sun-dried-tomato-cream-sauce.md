@@ -58,7 +58,7 @@ This lighter pasta became popular in Italian-American cooking during the 1990s h
 
 1.  **Boil:** Cook pasta in salted water according to package directions.
 2.  **The Wilt:** Place raw spinach in a large colander. Pour the boiling pasta and its water directly over the spinach. Toss gently to wilt. Drain well.
-3.  **The Base:** In the same pot, heat 1 tbsp of the tomato oil and the butter. Sauté onion and tomatoes for 3 minutes until soft. Add garlic and red pepper flakes; cook for 1 minute.
+3.  **The Base:** In the same pot, heat 1 tbsp of the tomato oil and the butter. Sauté onion and tomatoes for 3 minutes until soft. Add garlic and red pepper flakes; cook for 45 seconds.
 4.  **Simmer:** Pour in the broth. Simmer for 2 minutes until reduced by half.
 5.  **Emulsify:** Whisk in the sour cream and Parmesan until a thick, creamy sauce forms.
 6.  **Bind:** Return the spaghetti and spinach to the pot. Toss for 1 minute over low heat until the sauce is completely absorbed.

@@ -41,7 +41,7 @@ ingredients:
     rolling)
   - '1/2 English Cucumber, cut into thin matchsticks'
   - 1 tbsp Toasted Sesame Seeds
-  - '4 half-sheets Nori (unseasoned, roasted Japanese nori  -  rough side up)'
+  - '4 half-sheets Nori (unseasoned, roasted Japanese nori - rough side up)'
   - '2 cups Master Sushi Rice, prepared and at body temperature'
   - 'Tezu: small bowl of water with a splash of rice vinegar'
 nutrition:
@@ -56,12 +56,12 @@ nutrition:
 
 ## Chef's Note
 
-The Philadelphia roll (usually made with salmon) gets its name from Philadelphia cream cheese, which first appeared in American sushi bars in the 1980s as part of the same creative wave that produced the California roll. This tuna variation pairs the clean, lean bite of raw tuna with the cool richness of cream cheese  -  the key is cutting the cream cheese into cold, firm strips rather than spreading it, so each bite has a distinct creamy pocket rather than a smear.
+The Philadelphia roll (usually made with salmon) gets its name from Philadelphia cream cheese, which first appeared in American sushi bars in the 1980s as part of the same creative wave that produced the California roll. This tuna variation pairs the clean, lean bite of raw tuna with the cool richness of cream cheese - the key is cutting the cream cheese into cold, firm strips rather than spreading it, so each bite has a distinct creamy pocket rather than a smear.
 
 ## Directions
 
 1. **Prep Tuna:** Cut the tuna into clean 1/2-inch batons, slicing across the grain lines. Keep cold.
-2. **Prep Cream Cheese:** Cut the cream cheese block into thin strips (about 1/4-inch wide). Keep cold and firm  -  warm cream cheese will mush during rolling.
+2. **Prep Cream Cheese:** Cut the cream cheese block into thin strips (about 1/4-inch wide). Keep cold and firm - warm cream cheese will mush during rolling.
 3. **Lay the Nori:** Place a half-sheet rough side up on the bamboo mat. Spread a thin, even layer of rice with damp hands, leaving a 1-inch bare strip at the top.
 4. **Build the Dam:** Create a small rice ridge at the top edge.
 5. **Fill:** Lay tuna batons, cream cheese strips, and cucumber matchsticks in a line across the center.

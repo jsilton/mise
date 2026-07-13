@@ -172,6 +172,8 @@ async function runQA() {
     contentQuality: [],
     metadataConsistency: [],
     pairsWithValidation: [],
+    chemistryAntipatterns: [],
+    formattingAntipatterns: [],
   };
 
   let recipeCount = 0;
@@ -769,6 +771,86 @@ async function runQA() {
       }
     }
 
+    // ─── 8. CHEMISTRY & TECHNIQUE ANTIPATTERNS ───
+    console.log('Checking chemistry, technique, and formatting antipatterns...');
+    for (const recipe of recipes) {
+      const { title, markdown, file, ingredients } = recipe;
+      if (!markdown) continue;
+      const lower = markdown.toLowerCase();
+
+      const ings = Array.isArray(ingredients) ? ingredients.join(' ').toLowerCase() : '';
+
+      const parts = lower.split('## directions');
+      const directions = parts.length > 1 ? parts[1] : parts[0];
+      const steps = directions.split(/\n+/);
+
+      // Sugar Searing
+      const highSugar = /honey|molasses|brown sugar|maple syrup/i.test(ings);
+      if (highSugar) {
+        for (const step of steps) {
+          if (
+            /(high heat|smoking hot|grill to high)/i.test(step) &&
+            /(sear|grill|cook) (the )?(chicken|beef|pork|shrimp|meat|protein).*?(marinade|glaze)/i.test(
+              step
+            ) &&
+            !/(wipe|medium|low)/i.test(step)
+          ) {
+            issues.chemistryAntipatterns.push({
+              severity: 'error',
+              recipe: title,
+              file,
+              message:
+                'High-sugar ingredient seared at high heat without wiping off or reducing heat.',
+            });
+            break;
+          }
+        }
+      }
+
+      // Aromatics Timing
+      for (const step of steps) {
+        if (
+          /(add |sauté |cook ).{0,30}(garlic|minced garlic).{0,30}(for)? (2|3|4|5|10|15) minutes/i.test(
+            step
+          )
+        ) {
+          issues.chemistryAntipatterns.push({
+            severity: 'warning',
+            recipe: title,
+            file,
+            message: 'Garlic sautéed for too long (2+ minutes) alone, risking bitterness.',
+          });
+          break;
+        }
+      }
+
+      // Spice Blooming
+      for (const step of steps) {
+        if (
+          /(boil|simmer).{0,30}(turmeric|cumin|coriander).{0,30}in water/i.test(step) &&
+          !/oil|butter|fat|ghee|pan|skillet/i.test(step)
+        ) {
+          issues.chemistryAntipatterns.push({
+            severity: 'warning',
+            recipe: title,
+            file,
+            message: 'Spices boiled in water instead of bloomed in oil/fat.',
+          });
+          break;
+        }
+      }
+
+      // Double-Spacing
+      if (/\w  -  \w/.test(markdown) || /\w  \w/.test(markdown)) {
+        issues.formattingAntipatterns.push({
+          severity: 'warning',
+          recipe: title,
+          file,
+          message: 'Double spaces detected inside text.',
+        });
+      }
+    }
+
     // ─── GENERATE REPORT ───
     const report = {
       timestamp: new Date().toISOString(),
@@ -781,6 +863,8 @@ async function runQA() {
         contentQuality: issues.contentQuality.length,
         metadataConsistency: issues.metadataConsistency.length,
         pairsWithValidation: issues.pairsWithValidation.length,
+        chemistryAntipatterns: issues.chemistryAntipatterns.length,
+        formattingAntipatterns: issues.formattingAntipatterns.length,
         totalIssues: Object.values(issues).reduce((sum, arr) => sum + arr.length, 0),
       },
       issues,
@@ -801,6 +885,8 @@ async function runQA() {
     console.log(`  Content Quality:        ${issues.contentQuality.length}`);
     console.log(`  Metadata Consistency:   ${issues.metadataConsistency.length}`);
     console.log(`  PairsWith Validation:   ${issues.pairsWithValidation.length}`);
+    console.log(`  Chemistry Antipatterns: ${issues.chemistryAntipatterns.length}`);
+    console.log(`  Formatting Errors:      ${issues.formattingAntipatterns.length}`);
     console.log(`  ${'─'.repeat(45)}`);
     console.log(`  TOTAL:                  ${report.summary.totalIssues}`);
 

@@ -73,4 +73,4 @@ Folding whole-milk ricotta into ground chicken creates a fat-moisture barrier th
 6.  **Assemble:** Divide the kale among four bowls. Top with the roasted chickpeas, sweet potatoes, and meatballs.
 7.  **Finish:** Drizzle generously with the dressing for the mandatory **Acid Balance**.
 
-**Rest:** Let Ground Chicken rest for 10 minutes before slicing or serving  -  the juices redistribute and every piece stays moist.
+**Rest:** Let Ground Chicken rest for 10 minutes before slicing or serving - the juices redistribute and every piece stays moist.

@@ -64,4 +64,4 @@ One-pan baked pastas became wildly popular in the 2010s, and this version uses B
 6.  **Bind:** Remove from oven. Remove the lemon slices. **Stir vigorously** for 1 minute until the Boursin has emulsified into a creamy, glossy sauce.
 7.  **Serve:** Garnish with extra black pepper and serve hot.
 
-**Rest:** Let lb Chicken rest for 5 minutes before slicing or serving  -  the juices redistribute and every piece stays moist.
+**Rest:** Let lb Chicken rest for 5 minutes before slicing or serving - the juices redistribute and every piece stays moist.

@@ -63,7 +63,7 @@ Scaloppine refers to the Italian technique of pounding meat thin for quick cooki
 1.  **Prep:** Place chicken thighs between plastic wrap and pound to a uniform 1/2-inch thickness.
 2.  **Dredge:** Whisk flour, salt, and pepper. Lightly coat chicken, shaking off any excess.
 3.  **Sear:** In a large skillet, heat oil over medium-high. Sear chicken for 4 minutes per side until golden. Remove to a plate.
-4.  **The Bloom:** Reduce heat to medium. Add garlic and tomato paste. Sauté for 2 minutes, stirring constantly, until the paste is fragrant and dark.
+4.  **The Bloom:** Reduce heat to medium. Add tomato paste and sauté for 2 minutes, stirring constantly, until the paste is fragrant and dark. Add garlic and cook for 30-45 seconds.
 5.  **Deglaze:** Pour in the wine. Scrape up the fond. Add the chicken broth and return the chicken to the pan.
 6.  **Simmer:** Cook for 5 minutes until the sauce has thickened and the chicken is tender.
 7.  **The Mount:** Turn off the heat. Stir in the cold butter cubes and the spinach. Toss until the butter emulsifies into a silky glaze and the spinach is just wilted.

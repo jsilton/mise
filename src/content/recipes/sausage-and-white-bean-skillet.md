@@ -65,11 +65,11 @@ Sausage and white beans is Italian comfort food - sausage brings the fat and sea
 
 1. **Cook the Sausage:** Heat a large skillet over medium-high heat. If using sausage links, slice them into 1-inch rounds. Add sausage to the dry pan and let it brown without stirring for 2 minutes. Break it apart if using bulk sausage, or stir links to brown on all sides (about 5 minutes total). Transfer to a plate.
 
-2. **Aromatics:** Reduce heat to medium. In the same pan (don't clean it - those brown bits are flavor), add diced onion. Sauté for 3 minutes until softened. Add minced garlic and cook for 1 minute until fragrant.
+2. **Aromatics:** Reduce heat to medium. In the same pan (don't clean it - those brown bits are flavor), add diced onion. Sauté for 3 minutes until softened. Add minced garlic and cook for 30-45 seconds until fragrant.
 
-3. **Tomato Paste:** Add tomato paste and stir constantly for 1 minute. This blooms the tomato and prevents it from being raw and bitter.
+3. **Tomato Paste:** Add tomato paste, oregano, thyme, and red pepper flakes. Stir constantly for 1 minute. This blooms the spices and tomato and prevents them from being raw and bitter.
 
-4. **Beans and Stock:** Add beans, chicken stock, oregano, thyme, and red pepper flakes. Stir to combine. Return sausage to the pan.
+4. **Beans and Stock:** Add beans and chicken stock. Stir to combine. Return sausage to the pan.
 
 5. **Simmer:** Reduce heat to medium-low and simmer for 8-10 minutes until the broth reduces slightly and the flavors meld. The mixture should be thickened but still saucy.
 

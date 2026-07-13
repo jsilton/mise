@@ -61,8 +61,8 @@ Kalbi is Korean barbecue short ribs. The secret to tender meat with crisp edges 
 3.  **The Marinade:** In a separate jar, whisk together the soy sauce, brown sugar, sesame oil, garlic, scallions, pepper, and oil until the sugar is dissolved.
 4.  **The Soak:** Pour the marinade over the ribs. Ensure every slice is coated. Cover and refrigerate for **at least 8 hours** (overnight is mandatory for the Kitchen Standard).
 5.  **Thermal Prep:** Bring the ribs to room temperature for 30 minutes before cooking. Discard the marinade.
-6.  **The Sear:** Light a charcoal grill to high heat. Place ribs directly over the hottest coals. Grill for 2 minutes per side until seared and charred.
+6.  **The Sear:** Light a charcoal grill to medium-high heat. Wipe off excess marinade from the ribs to prevent the sugars from burning, then place directly over the coals. Grill for 2-3 minutes per side until seared and charred.
 7.  **Finish:** Move to the cooler side of the grill for 5 minutes until the fat is rendered and "Snappy."
 8.  **Serve:** Use kitchen shears to cut the ribs into bite-sized pieces.
 
-**Rest:** Let style Beef rest for 5 minutes before slicing or serving  -  the juices redistribute and every piece stays moist.
+**Rest:** Let style Beef rest for 5 minutes before slicing or serving - the juices redistribute and every piece stays moist.

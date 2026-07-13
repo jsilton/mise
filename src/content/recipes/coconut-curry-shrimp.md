@@ -59,7 +59,7 @@ This Thai-inspired coconut curry sears shrimp in butter first, then removes them
 ## Directions
 
 1.  **The Crunch:** In a large skillet, melt butter over medium-high heat. Add shrimp and cook for 2-3 minutes total, turning once, until pink and just opaque. Remove to a plate.
-2.  **Aromatics:** In the same pan, add onions, garlic, and mushrooms. Sauté for 3 minutes. Sprinkle the curry powder over the vegetables and stir for 1 minute to "bloom" the spices.
+2.  **Aromatics:** In the same pan, add onions and mushrooms. Sauté for 2-3 minutes. Add garlic and curry powder, and stir for 30-45 seconds to "bloom" the spices.
 3.  **The Glaze:** Pour in the coconut milk. Add honey and lime juice. Bring to a gentle boil, then reduce heat to medium-low.
 4.  **Veg:** Add the zucchini slices. Simmer for 3 minutes until just tender but still bright.
 5.  **Combine:** Return the shrimp and any plate juices to the pan. Toss to coat and simmer for 1 minute.

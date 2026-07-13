@@ -54,7 +54,7 @@ nutrition:
 
 ## Chef's Note
 
-The key to restaurant-quality spareribs is baking the ribs tightly sealed in heavy-duty foil. This allows the meat to steam in the gochujang marinade, breaking down the tough connective tissue into succulent meat without losing any flavor to a pot of water. We finish by grilling the sections at high heat for the final 4 minutes to ensure the sugar-rich sauce sets into a sticky, mahogany glaze.
+The key to restaurant-quality spareribs is baking the ribs tightly sealed in heavy-duty foil. This allows the meat to steam in the gochujang marinade, breaking down the tough connective tissue into succulent meat without losing any flavor to a pot of water. We finish by grilling the sections at medium-low heat to ensure the sugar-rich sauce sets into a sticky, mahogany glaze without burning.
 
 ## Directions
 
@@ -62,6 +62,6 @@ The key to restaurant-quality spareribs is baking the ribs tightly sealed in hea
 2.  **Braise:** Preheat oven to 325°F. Layout three double-layers of heavy-duty foil. Place 1 rack of ribs in the center of each.
 3.  **Seal:** Brush each rack with 3/4 cup of the sauce. Wrap tightly to ensure no steam escapes. Place on rimmed baking sheets.
 4.  **Bake:** Bake for 2 hours until the meat is tender but not quite falling off the bone.
-5.  **The Crunch:** Preheat a grill to high. Remove ribs from foil and cut into 4-rib sections.
-6.  **Glaze:** Brush with remaining sauce. Grill for 2-3 minutes per side until charred and the lacquer is bubbling.
+5.  **The Crunch:** Preheat a grill to medium-low. Remove ribs from foil, wipe off excess marinade, and cut into 4-rib sections.
+6.  **Glaze:** Brush lightly with remaining sauce. Grill for 3-4 minutes per side until caramelized; watch carefully so the sugar doesn't burn.
 7.  **Serve:** Transfer to a platter. Serve with extra lime wedges for the mandatory **Acid Balance**.

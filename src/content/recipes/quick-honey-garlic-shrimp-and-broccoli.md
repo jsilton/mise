@@ -55,7 +55,7 @@ This 15-minute meal uses smart shortcuts. Microwave the broccoli for 2 minutes w
 
 1.  **Steam:** Place broccoli in a small bowl with 2 tsp water. Cover and microwave for 2 minutes. Drain.
 2.  **The Sauce:** In a small jar, whisk honey, soy sauce, garlic, and ginger until smooth.
-3.  **Velvet:** Toss the shrimp with half of the sauce. Let sit for 5 minutes.
-4.  **The Sear:** Heat oil in a heavy skillet or wok on **high**. Add shrimp in two batches. Sear for 1 minute per side until pink and charred. remove.
+3.  **Velvet:** Toss the shrimp with half of the sauce. Let sit for 5 minutes, then wipe off excess sauce to prevent the sugar from burning.
+4.  **The Sear:** Heat oil in a heavy skillet or wok on **medium-high**. Add shrimp in two batches. Sear for 1 minute per side until pink and charred. remove.
 5.  **Bind:** Add the steamed broccoli and the remaining sauce to the pan. Toss for 1 minute over high heat until the honey bubbles and thickens into a glossy glaze.
 6.  **Serve:** Return shrimp to the pan. Toss for 30 seconds. Serve immediately over steamed rice.

@@ -56,11 +56,12 @@ nutrition:
 ## Chef's Note
 
 Italian-American stuffing started showing up at Thanksgiving tables in the 1950s when Italian immigrant families blended their sausage-and-bread traditions with the American holiday. Soaking the ciabatta in milk creates pockets of custard-like richness between the crispy top and the tender interior. The kale adds bitterness that cuts through the sausage fat, and fresh herbs go in at the end so they stay bright.
+
 ## Directions
 
 1.  **The Soak:** Place ciabatta slices in a large bowl. Drizzle with milk and let sit for 30 minutes, flipping once, until fully saturated.
 2.  **The Sear:** In a large Dutch oven, cook sausage over medium-high, breaking it up until golden brown (10-15 mins).
-3.  **Aromatics:** Add onion, celery, parsley, and garlic to the sausage fat. Sauté for 8 minutes until soft and fragrant.
+3.  **Aromatics:** Add onion, celery, and parsley to the sausage fat. Sauté for 7 minutes until soft. Add garlic and cook for 30-45 seconds until fragrant.
 4.  **The Wilt:** Add kale and 1/2 cup water. Cover and cook for 5 minutes until just wilted.
 5.  **The Mix:** In a massive bowl, tear the soaked ciabatta into bite-sized pieces. Add the sausage-kale mixture, Parmesan, and all fresh herbs. Toss gently with your hands until perfectly integrated.
 6.  **Bake:** Preheat oven to 350°F. Transfer mixture to a greased 9x13 baking dish. Bake uncovered for 25-30 minutes until the top is deep golden and the center is 150°F.

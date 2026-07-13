@@ -69,7 +69,7 @@ Shakshuka is a North African dish of eggs poached in spiced tomato sauce that ha
 ## Directions
 
 1.  **Build the Base:** Heat olive oil in a large (10-12 inch) skillet over medium heat. Add onion and bell pepper. Cook for 5-6 minutes, stirring occasionally, until softened and the onion is translucent.
-2.  **Bloom Spices:** Add garlic, cumin, paprika, coriander, and cayenne. Stir for 60 seconds until very fragrant -- the spices should darken slightly and smell toasty.
+2.  **Bloom Spices:** Add cumin, paprika, coriander, and cayenne. Stir for 1 minute until very fragrant -- the spices should darken slightly and smell toasty. Add garlic and stir for 30-45 seconds.
 3.  **Simmer the Sauce:** Pour in crushed tomatoes. Add sugar and salt. Stir well and bring to a gentle simmer. Cook uncovered for 10 minutes, stirring occasionally, until the sauce has thickened and reduced slightly. You should be able to drag a spoon through it and see the bottom of the pan for a moment.
 4.  **Create Wells:** Using the back of a large spoon, make 6 evenly spaced wells in the sauce. Crack one egg into each well.
 5.  **Poach the Eggs:** Cover the skillet with a lid. Reduce heat to medium-low. Cook for 5-8 minutes depending on your preference: 5 minutes for very runny yolks, 7-8 minutes for yolks that are jammy and just set. Check at 5 minutes -- the whites should be fully opaque.

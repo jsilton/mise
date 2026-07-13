@@ -62,12 +62,13 @@ nutrition:
 
 ## Chef's Note
 
-Chicken pot pie is American comfort food by way of English savory pies  -  the filling is essentially a chicken velouté (roux + broth + cream) with vegetables, sealed under pastry. The 425°F oven is doing two jobs at once: crisping the crust and keeping the filling at a rolling bubble. If you have time, use the vodka pie dough from the apple pie recipe  -  it produces a flakier crust because the alcohol evaporates faster than water during baking, creating more air pockets. The 10-minute rest isn't optional: cut too early and the filling runs everywhere.
+Chicken pot pie is American comfort food by way of English savory pies - the filling is essentially a chicken velouté (roux + broth + cream) with vegetables, sealed under pastry. The 425°F oven is doing two jobs at once: crisping the crust and keeping the filling at a rolling bubble. If you have time, use the vodka pie dough from the apple pie recipe - it produces a flakier crust because the alcohol evaporates faster than water during baking, creating more air pockets. The 10-minute rest isn't optional: cut too early and the filling runs everywhere.
+
 ## Directions
 
 1.  **Prep:** Preheat oven to 425°F.
-2.  **The Gravy (The Roux):** In a large saucepan, melt butter. Sauté onions and celery until soft (5 mins). Whisk in flour and cook for 1 minute.
-3.  **Emulsify:** Gradually whisk in the broth and milk. Simmer until the sauce is thick and glossy. Stir in the garlic powder, celery seed, salt, and pepper.
+2.  **The Gravy (The Roux):** In a large saucepan, melt butter. Sauté onions and celery until soft (5 mins). Whisk in flour, garlic powder, and celery seed, and cook for 1 minute to bloom.
+3.  **Emulsify:** Gradually whisk in the broth and milk. Simmer until the sauce is thick and glossy. Season with salt and pepper.
 4.  **Mix:** Fold in the cooked chicken, carrots, and peas.
 5.  **Assemble:** Line a 9-inch pie pan with the bottom crust. Pour in the filling. Top with the second crust. Seal and flute the edges.
 6.  **The Wash:** Cut 4 steam vents in the top. Brush with a beaten egg.

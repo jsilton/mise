@@ -46,7 +46,7 @@ ingredients:
   - 1 cup Dried Red Kidney Beans (or 1.5 cups canned, drained and rinsed)
   - 2 cups Long-Grain White Rice (rinsed until water runs clear)
   - 1 can (14 oz) Full-Fat Coconut Milk
-  - 2 cups Water (approximate — adjusted after bean cook)
+  - 1/4 cup Water (to bring total liquid to exactly 3 cups)
   - '4 Scallions, smashed with the flat of a knife'
   - 4 sprigs Fresh Thyme (Jamaican thyme if you can find it)
   - '4 cloves Garlic, smashed'
@@ -73,7 +73,7 @@ In Jamaica, "peas" means red kidney beans — the dish is the Sunday staple that
 
 1. **Soak the beans (night before):** Cover dried kidney beans with 4 inches of water and soak 8 hours or overnight. Drain. _(Skip to step 3 if using canned beans.)_
 2. **Cook the beans:** In a heavy pot, combine soaked beans with 4 cups fresh water. Bring to a boil, reduce to a simmer, and cook uncovered 45-60 minutes until just tender but not mushy. Drain, reserving 1 cup of the bean liquid.
-3. **Build the pot:** In the same pot (or a fresh one if using canned), combine beans, 1 cup reserved bean liquid (or plain water for canned), coconut milk, 2 cups water, scallions, thyme, garlic, allspice, salt, pepper, and coconut oil. Nestle the whole scotch bonnet on top — handle it gently.
+3. **Build the pot:** In the same pot (or a fresh one if using canned), combine beans, 1 cup reserved bean liquid (or plain water for canned), coconut milk, 1/4 cup water (ensuring total liquid is exactly 3 cups for the 2 cups of rice), scallions, thyme, garlic, allspice, salt, pepper, and coconut oil. Nestle the whole scotch bonnet on top — handle it gently.
 4. **Simmer and infuse:** Bring to a gentle simmer and cook uncovered for 10 minutes to let the aromatics bloom into the coconut milk.
 5. **Add rice:** Stir in the rinsed rice. Taste the liquid and adjust salt — it should taste slightly over-seasoned before the rice absorbs it. Cover tightly, reduce heat to low, and cook **18-20 minutes** without lifting the lid.
 6. **The rest (critical):** Turn off the heat. Leave covered for **10 full minutes**. This is where the rice finishes — skip it and the grains stay tacky.

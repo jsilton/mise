@@ -62,4 +62,4 @@ For kids, serve the heat on the side or reduce/omit the spicy elements.
 4.  **Toss:** Stir-fry vigorously for 2-3 minutes. **Stop immediately** when the cabbage starts to collapse but still feels firm.
 5.  **Finish:** Remove from heat. Top with green onions, sesame seeds, and a generous drizzle of chili crisp.
 
-**Rest:** Let Ground Pork rest for 5 minutes before slicing or serving  -  the juices redistribute and every piece stays moist.
+**Rest:** Let Ground Pork rest for 5 minutes before slicing or serving - the juices redistribute and every piece stays moist.

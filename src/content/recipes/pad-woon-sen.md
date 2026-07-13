@@ -63,7 +63,7 @@ Pad woon sen is a Thai glass noodle stir-fry that's lighter than pad thai. Mung 
 2.  **The Sauce:** In a small bowl, whisk together oyster sauce, fish sauce, soy sauce, and sugar.
 3.  **The Egg:** In a wok, heat a splash of oil. Scramble the eggs with a pinch of salt until just set. Remove and roughly chop.
 4.  **The Crunch:** Heat oil until smoking. Sauté cabbage and peppers for 3-4 minutes until charred at the edges but still firm. Transfer to the egg plate.
-5.  **Aromatics:** Add fresh oil. Sauté onions, carrots, and garlic for 3 minutes until soft.
+5.  **Aromatics:** Add fresh oil. Sauté onions and carrots for 2 minutes until soft. Add garlic and sauté for 45 seconds.
 6.  **Bind:** Add the drained noodles and the sauce. Toss vigorously over medium-high for 3 minutes until the noodles are glossy and have absorbed the liquid.
 7.  **Finish:** Return the eggs and charred veg to the wok. Stir in the Thai chile and scallions for the mandatory **High Note**.
 8.  **Serve:** Serve hot or at room temperature for the Kitchen Standard fuel profile.

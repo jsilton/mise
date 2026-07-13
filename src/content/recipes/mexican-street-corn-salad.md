@@ -60,8 +60,8 @@ For kids, serve the heat on the side or reduce/omit the spicy elements.
 
 ## Directions
 
-1.  **The Sear:** Heat oil in a large skillet or wok over high heat. Add the corn in a single layer. Let it cook undisturbed for 2-3 minutes until charred. Toss and cook for another 2 minutes. Remove to a bowl.
-2.  **The Mix:** In a small bowl, whisk together the mayo, cheese, chili powder, and garlic.
+1.  **The Sear:** Heat oil in a large skillet or wok over high heat. Add the corn in a single layer. Let it cook undisturbed for 2-3 minutes until charred. Toss and cook for another 2 minutes. Stir in the chili powder and cook for 30 seconds to bloom the spices in the oil. Remove to a bowl.
+2.  **The Mix:** In a small bowl, whisk together the mayo, cheese, and garlic.
 3.  **Toss:** Add the creamy mixture to the warm corn. Toss to coat evenly.
 4.  **Finish:** Stir in the cilantro, green onions, and lime juice.
 5.  **Serve:** Serve warm or chilled.

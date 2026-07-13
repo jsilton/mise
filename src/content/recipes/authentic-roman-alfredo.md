@@ -49,12 +49,12 @@ nutrition:
 
 ## Chef's Note
 
-The original Fettuccine Alfredo was created in 1908 by Alfredo di Lelio in Rome for his pregnant wife who had lost her appetite  -  it contained only butter, Parmigiano-Reggiano, and pasta, no cream whatsoever. The dish depends entirely on the emulsion between hot starchy pasta water, melted butter, and finely grated cheese. The critical moment is turning the heat completely off before adding the cheese  -  too much heat causes the proteins to seize into clumps instead of melting into a silky sauce.
+The original Fettuccine Alfredo was created in 1908 by Alfredo di Lelio in Rome for his pregnant wife who had lost her appetite - it contained only butter, Parmigiano-Reggiano, and pasta, no cream whatsoever. The dish depends entirely on the emulsion between hot starchy pasta water, melted butter, and finely grated cheese. The critical moment is turning the heat completely off before adding the cheese - too much heat causes the proteins to seize into clumps instead of melting into a silky sauce.
 
 ## Directions
 
 1. **The Pasta:** Cook fettuccine in well-salted water until 1 minute short of al dente. Reserve at least 1 cup of pasta water before draining.
-2. **The Butter:** In a large, cold skillet, melt the butter over low heat. Add 1/2 cup of the hot starchy pasta water and swirl to combine  -  this starts the emulsion.
+2. **The Butter:** In a large, cold skillet, melt the butter over low heat. Add 1/2 cup of the hot starchy pasta water and swirl to combine - this starts the emulsion.
 3. **The Drag:** Use tongs to drag the underdone pasta directly from the water into the butter pan. Toss vigorously for 1 minute, letting the pasta finish cooking in the butter and absorbing flavor.
 4. **The Cheese (Off Heat):** **Turn the heat completely off.** Add the Parmigiano in three batches, tossing vigorously between each addition. The residual heat and starchy water emulsify the cheese into a velvety, glossy sauce. If it tightens, add a splash more pasta water.
-5. **Serve:** Plate immediately  -  this sauce waits for no one. Finish with a few cracks of black pepper.
+5. **Serve:** Plate immediately - this sauce waits for no one. Finish with a few cracks of black pepper.

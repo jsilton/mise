@@ -63,7 +63,7 @@ ingredients:
   - 4 cups Chicken Stock (store-bought or homemade)
   - 1 (15 oz) can White Beans (drained and rinsed; or cooked dried beans)
   - '--- The Finish ---'
-  - 'Juice of 2 Limes (add at the end, essential)'''
+  - "Juice of 2 Limes (add at the end, essential)'"
   - '1/4 cup Fresh Cilantro (chopped, add at the end)'
   - 1 tsp Kosher Salt (to taste at the end)
   - '--- Optional Toppings ---'
@@ -84,7 +84,7 @@ nutrition:
 
 ## Chef's Note
 
-Chili verde is the lighter cousin of chili rojo  -  it's built on tomatillos, poblanos, and jalapeños instead of dried chilies and tomatoes, which means it stays bright and fresh even after hours of simmering. The chicken thighs stay tender through the long cook and actually improve in flavor as they braize in the sauce. This recipe makes a huge batch on purpose: it freezes beautifully for up to 3 months, and one pot feeds the family for multiple meals. The lime and cilantro are added at the end for freshness  -  if cooked too long, they taste metallic and bitter. A tablespoon of cumin and coriander adds earthiness that makes you feel like you've simmered this for 8 hours when you actually only used 45 minutes.
+Chili verde is the lighter cousin of chili rojo - it's built on tomatillos, poblanos, and jalapeños instead of dried chilies and tomatoes, which means it stays bright and fresh even after hours of simmering. The chicken thighs stay tender through the long cook and actually improve in flavor as they braize in the sauce. This recipe makes a huge batch on purpose: it freezes beautifully for up to 3 months, and one pot feeds the family for multiple meals. The lime and cilantro are added at the end for freshness - if cooked too long, they taste metallic and bitter. A tablespoon of cumin and coriander adds earthiness that makes you feel like you've simmered this for 8 hours when you actually only used 45 minutes.
 
 ## Directions
 
@@ -92,11 +92,11 @@ Chili verde is the lighter cousin of chili rojo  -  it's built on tomatillos, po
 
 2. **Char the Tomatillos:** In a large skillet over medium-high heat (no oil needed), place tomatillo halves cut-side down. Let them sit undisturbed for 3-4 minutes until they release water and the cut side caramelizes. Flip and cook another 2 minutes. This charring adds depth. Transfer to a blender.
 
-3. **Sauté the Aromatics:** Heat olive oil in a large pot or Dutch oven over medium-high heat. Add diced onion and cook for 5 minutes, stirring occasionally, until softened and translucent. Add minced garlic and cook for 1 minute until fragrant.
+3. **Sauté the Aromatics:** Heat olive oil in a large pot or Dutch oven over medium-high heat. Add diced onion and cook for 5 minutes, stirring occasionally, until softened and translucent. Add minced garlic and cook for 30-45 seconds until fragrant.
 
 4. **Brown the Chicken (Optional but recommended):** Pat the chicken chunks dry and season with 1 tbsp salt. In batches, sear the chicken in the pot over medium-high heat (don't overcrowd) until light brown on 2 sides, about 3-4 minutes total. This step adds flavor but can be skipped if short on time. Return all chicken to the pot.
 
-5. **Bloom the Spices:** Add ground cumin, coriander, and cayenne to the pot. Stir for 30 seconds until fragrant  -  you're waking up the spices' essential oils.
+5. **Bloom the Spices:** Add ground cumin, coriander, and cayenne to the pot. Stir for 30 seconds until fragrant - you're waking up the spices' essential oils.
 
 6. **Make the Tomatillo Base:** Add the charred tomatillos (from the skillet) and the roasted poblanos and jalapeños to a blender with 1 cup of the chicken stock. Blend until smooth. Pour this mixture into the pot with the chicken.
 

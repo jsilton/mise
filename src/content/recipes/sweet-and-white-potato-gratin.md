@@ -58,10 +58,11 @@ nutrition:
 
 ## Chef's Note
 
-Gratin dauphinois meets Thanksgiving sweet potatoes  -  alternating layers of sweet and white potatoes create a dish with more complexity than either alone. The mandoline is non-negotiable: 1/8-inch slices cook evenly and create those paper-thin layers that meld into cream. Thicker cuts leave you with raw centers and burnt edges. The cream infusion (warming it with garlic and spices before pouring) ensures flavor penetrates every layer instead of just sitting on top. Start covered at high heat to cook the potatoes through, then uncover to build the golden crust.
+Gratin dauphinois meets Thanksgiving sweet potatoes - alternating layers of sweet and white potatoes create a dish with more complexity than either alone. The mandoline is non-negotiable: 1/8-inch slices cook evenly and create those paper-thin layers that meld into cream. Thicker cuts leave you with raw centers and burnt edges. The cream infusion (warming it with garlic and spices before pouring) ensures flavor penetrates every layer instead of just sitting on top. Start covered at high heat to cook the potatoes through, then uncover to build the golden crust.
+
 ## Directions
 
-1.  **Infuse:** In a medium pot, whisk together the cream, salt, pepper, garlic, and spices. Warm over low heat (do not boil) just to marry the flavors.
+1.  **Infuse:** In a medium pot, heat 1 tbsp butter over low heat. Add garlic and spices and bloom for 1 minute. Whisk in the cream, salt, and pepper. Warm over low heat (do not boil) just to marry the flavors.
 2.  **Slice:** Use a mandolin to slice all potatoes into 1/8-inch thick rounds. Keep the colors separate for layering.
 3.  **Cheese Mix:** Combine the shredded Gruyère and Parmesan in a bowl.
 4.  **Layer:** Lightly butter a 9x13 baking dish. Pour 1/2 cup of the cream on the bottom.

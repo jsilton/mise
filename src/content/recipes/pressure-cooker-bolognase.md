@@ -59,7 +59,7 @@ Ragù alla Bolognese originated in Bologna in the late 18th century as a slow-co
 ## Directions
 
 1.  **The Sear:** Set pressure cooker to "Sauté" (High). Brown the pork pieces in olive oil (5 mins); remove. Brown the crumbled sausage; remove.
-2.  **The Base:** Add onion, carrots, and celery. Sauté for 5 minutes until soft. Add garlic and bay leaf; cook for 2 minutes.
+2.  **The Base:** Add onion, carrots, and celery. Sauté for 5 minutes until soft. Add garlic and bay leaf; cook for 30-45 seconds.
 3.  **The Bloom:** Stir in the tomato paste. Cook for 2 minutes until it turns a deep brick-red.
 4.  **Deglaze:** Pour in the wine. Scrape the bottom of the pot vigorously to release the fond. Simmer for 2 minutes.
 5.  **Pressure:** Return the meat to the pot. Add the crushed tomatoes. Secure the lid. Set to **High Pressure for 45 minutes**.

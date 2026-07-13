@@ -86,7 +86,7 @@ Aloo gobi is one of the most satisfying vegetarian curries in the Indian kitchen
 
 3. **Build the Aromatics:** Add the minced garlic, minced ginger, and green chiles. Stir for 30 seconds until golden and fragrant. Add the diced onion and cook for 2-3 minutes until softened.
 
-4. **Toast the Ground Spices:** Add the turmeric, coriander powder, and garam masala to the hot pan. Stir constantly for 30 seconds - this blooming step releases the oils and depth from the spices. If the spices stick or start to scorch, add a tablespoon of water to cool the pan slightly.
+4. **Toast the Ground Spices:** Add the turmeric, coriander powder, and garam masala to the hot pan. Stir constantly for 30-45 seconds in the hot oil to bloom the spices and release their oils. Do not add water yet; let them toast in the fat.
 
 5. **Add the Tomato:** Add the diced tomato and cook for 2-3 minutes until it breaks down and releases its liquid. This creates a light sauce base.
 

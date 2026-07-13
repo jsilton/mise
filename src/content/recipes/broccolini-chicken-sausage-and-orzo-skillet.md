@@ -56,7 +56,7 @@ This is a sheet-pan formula: protein, vegetable, starch, all in one vessel. Broc
 
 1.  **The Sear:** Heat oil in a large skillet. Brown the sausage rounds for 3-4 minutes. Remove to a plate.
 2.  **The Veg:** Add broccolini to the same pan. Sauté over high heat for 5 minutes until charred and tender-crisp. Remove and keep with the sausage.
-3.  **The Toast:** Add the orzo and garlic to the pan. Toast for 1 minute until the orzo smells nutty.
+3.  **The Toast:** Add the orzo and garlic to the pan. Toast for 30-45 seconds until fragrant and the orzo smells nutty.
 4.  **The Simmer:** Pour in the broth. Bring to a boil, then reduce to low and cover. Simmer for 10 minutes until liquid is absorbed and pasta is al dente.
 5.  **The Fold:** Stir in the Parmesan, the reserved sausage, and the broccolini.
 6.  **Finish:** If the pasta is too dry, add a splash of hot water. Season with plenty of black pepper.

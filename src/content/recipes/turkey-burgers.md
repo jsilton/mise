@@ -67,4 +67,4 @@ The challenge with turkey burgers is preventing them from turning into dry, flav
 5.  **Cook:** Grill or sear the patties for 4-5 minutes per side. If using cheese, add it in the last 60 seconds and cover the pan to melt.
 6.  **Assemble:** Build the burgers on toasted buns with spinach, sliced avocado, and red onion.
 
-**Rest:** Let Ground Turkey rest for 5 minutes before slicing or serving  -  the juices redistribute and every piece stays moist.
+**Rest:** Let Ground Turkey rest for 5 minutes before slicing or serving - the juices redistribute and every piece stays moist.

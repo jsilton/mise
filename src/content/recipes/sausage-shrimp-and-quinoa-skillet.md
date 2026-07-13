@@ -56,10 +56,10 @@ This 20-minute skillet uses pre-cooked quinoa (frozen or leftover) to speed up d
 ## Directions
 
 1.  **The Sear:** Heat oil in a large non-stick skillet. Add the chicken sausage and "Holy Trinity" veg. Sauté for 5-7 minutes over medium-high until the sausage is browned and the veg are soft.
-2.  **The Grain:** Add the pre-cooked quinoa to the skillet. Stir vigorously for 2 minutes, allowing the grains to absorb the sausage fat and toast slightly.
-3.  **Season:** Stir in the Creole seasoning.
+2.  **Season:** Stir the Creole seasoning into the pan, blooming it in the oil for 30 seconds.
+3.  **The Grain:** Add the pre-cooked quinoa to the skillet. Stir vigorously for 2 minutes, allowing the grains to absorb the spiced sausage fat and toast slightly.
 4.  **The Crunch:** Add the shrimp. Cook for 2-3 minutes, tossing constantly, until the shrimp are pink and just opaque.
 5.  **Finish:** Remove from heat. Season with a pinch of salt and pepper.
 6.  **Serve:** Garnish with fresh parsley. Serve immediately.
 
-**Rest:** Let Spicy Chicken rest for 5 minutes before slicing or serving  -  the juices redistribute and every piece stays moist.
+**Rest:** Let Spicy Chicken rest for 5 minutes before slicing or serving - the juices redistribute and every piece stays moist.

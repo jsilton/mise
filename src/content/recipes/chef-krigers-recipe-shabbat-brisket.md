@@ -52,6 +52,7 @@ nutrition:
 ## Chef's Note
 
 Shabbat brisket is the Friday ritual that defines Jewish home cooking - it goes into the oven before sundown and emerges fall-apart tender hours later. The slow braise at low temperature (275-300°F) breaks down collagen without drying the meat. Slice against the grain and spoon the braising liquid over each portion to keep it moist.
+
 ## Directions
 
 1.  **Season:** Season the brisket generously with salt and pepper on both sides. Place fat-side up in a heavy foil pan or Dutch oven.
@@ -62,4 +63,4 @@ Shabbat brisket is the Friday ritual that defines Jewish home cooking - it goes 
 6.  **Slice:** Remove the cold meat from the sauce. Slice very thin **against the grain**.
 7.  **Finish:** Return the slices to the sauce. Re-bake, covered, at 325°F for 30-45 minutes until hot and the sauce is bubbling.
 
-**Rest:** Let cut Brisket rest for 5 minutes before slicing or serving  -  the juices redistribute and every piece stays moist.
+**Rest:** Let cut Brisket rest for 5 minutes before slicing or serving - the juices redistribute and every piece stays moist.

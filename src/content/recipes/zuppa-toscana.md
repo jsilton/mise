@@ -57,7 +57,7 @@ Zuppa Toscana ("Tuscan soup") became famous in America through Olive Garden in t
 ## Directions
 
 1.  **The Render:** In a large Dutch oven, brown the sausage over medium heat for 8 minutes, breaking it into small crumbles. Remove sausage to a plate, leaving the fat in the pot.
-2.  **Foundation:** In the sausage fat, sauté onion and garlic for 5 minutes until soft. Stir in the red pepper flakes.
+2.  **Foundation:** In the sausage fat, sauté onion for 4-5 minutes until soft. Add garlic and sauté for 30-45 seconds until fragrant. Stir in the red pepper flakes.
 3.  **Simmer:** Add the potatoes and bone broth. Season with salt and pepper. Bring to a boil, then reduce heat and simmer for 10-12 minutes until potatoes are soft.
 4.  **Emulsify:** Pour in the coconut milk and return the sausage to the pot. Stir for 5 minutes to allow the flavors to bridge.
 5.  **Wilt:** Stir in the fresh kale. Cook for exactly 1 minute until just collapsed.

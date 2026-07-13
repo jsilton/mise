@@ -59,10 +59,11 @@ nutrition:
 ## Chef's Note
 
 Shrimp in garlicky cream is Italian comfort food that tastes fancier than it is. The entire dish lives in a 6-minute window: shrimp go from raw to overcooked in 90 seconds, so have everything prepped and ready. The garlic blooms in butter first, then the shrimp go in just until pink, and the cream finishes off heat so it doesn't break.
+
 ## Directions
 
 1.  **Boil:** Cook fettuccine in salted water for 1 minute **less** than package directions. **Reserve 1/2 cup of pasta water** before draining.
-2.  **The Base:** In a large skillet, melt butter over medium heat. Sauté sliced garlic, roasted peppers, and paprika for 2 minutes until the butter is fragrant and red.
+2.  **The Base:** In a large skillet, melt butter over medium heat. Sauté roasted peppers for 1-2 minutes. Add sliced garlic and paprika, and sauté for 30-45 seconds to bloom the spices and until the butter is fragrant and red.
 3.  **Simmer:** Pour in the heavy cream. Bring to a gentle boil, then reduce heat and simmer for 3-4 minutes until slightly thickened.
 4.  **Snap:** Add the shrimp to the sauce. Cook for 2-3 minutes until pink and just opaque.
 5.  **Bind:** Add the hot pasta and Parmesan to the skillet. Pour in the reserved pasta water.

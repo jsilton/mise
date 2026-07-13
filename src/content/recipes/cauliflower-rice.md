@@ -63,6 +63,6 @@ Cauliflower rice is a clever low-carb swap, but it needs proper technique to avo
 
 2. **The Sauté:** Heat oil in a large skillet over medium-high heat. Add cauliflower rice in an even layer (work in batches to avoid crowding). Cook undisturbed for 2 minutes, then stir.
 
-3. **The Season:** Continue cooking, stirring occasionally, for 3-4 more minutes until lightly golden and tender-crisp. Add garlic in the last minute if using.
+3. **The Season:** Continue cooking, stirring occasionally, for 3-4 more minutes until lightly golden and tender-crisp. Add garlic in the last 30-45 seconds if using, until fragrant.
 
 4. **The Finish:** Remove from heat, season with salt and pepper, and toss with fresh herbs if desired. Serve immediately.

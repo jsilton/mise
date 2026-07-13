@@ -57,7 +57,7 @@ These Mexican-style tacos combine spicy chorizo with delicate seafood by renderi
 ## Directions
 
 1.  **The Render:** In a large skillet, heat 1 tbsp oil. Add chorizo. Cook over high heat for 4 minutes, breaking it up until crispy and the fat is released.
-2.  **Aromatics:** Add the onion, garlic, and cumin. Sauté for 2 minutes until soft.
+2.  **Aromatics:** Add the onion and cumin. Sauté for 2 minutes until soft. Add garlic and sauté for 30-45 seconds.
 3.  **The Crunch:** Add the shrimp, squid, and lager to the skillet. Toss vigorously over **moderately high** heat for exactly 3 minutes until the seafood is opaque. **Do not overcook.**
 4.  **Finish:** Stir in the lime juice. Remove from heat. Season with salt and pepper.
 5.  **Assemble:** Warm corn tortillas over an open flame until charred.

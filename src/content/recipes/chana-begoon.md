@@ -60,7 +60,7 @@ This Indian chickpea and eggplant curry keeps the eggplant from turning mushy by
 
 1.  **Roast Eggplant:** Preheat oven to 425°F. Toss eggplant cubes with oil and salt. Roast on a sheet pan for 15-20 minutes until golden and tender. Set aside.
 2.  **The Gravy:** In a large skillet, sauté the onion until deep golden brown (10 mins). Add ginger and garlic; sauté for 2 minutes.
-3.  **Bloom:** Add all dry spices and the crushed tomatoes. Simmer for 10 minutes until the oil starts to separate from the sauce.
+3.  **Bloom:** Add all dry spices and sauté in the oil for 1 minute to bloom. Add the crushed tomatoes and simmer for 10 minutes until the oil starts to separate from the sauce.
 4.  **Chickpeas:** Stir in the chickpeas and a splash of water. Simmer for 5 minutes.
 5.  **Fold:** Gently fold the roasted eggplant into the gravy. Let it sit for 2 minutes to absorb the spices (do not over-stir).
 6.  **Finish:** Stir in the cilantro and lemon juice.

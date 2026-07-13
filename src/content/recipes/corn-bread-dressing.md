@@ -56,7 +56,7 @@ The secret to this family classic is getting the right texture. Most dressings a
 ## Directions
 
 1.  **Dry the Bread:** Preheat oven to 350°F. Spread cornbread cubes on a baking sheet. Bake for 20-25 minutes until the edges are golden and the cubes feel like croutons. Cool completely.
-2.  **The Base:** Melt the butter in a large skillet over medium heat. Sauté shallots and garlic until soft (6 mins).
+2.  **The Base:** Melt the butter in a large skillet over medium heat. Sauté shallots until soft (5 mins), then add garlic and sauté for 30-45 seconds.
 3.  **The Veg:** Add mushrooms and celery. Cook for 5 minutes until the mushrooms have released their liquid and are browned.
 4.  **Aromatics:** Stir in parsley, thyme, and sage. Remove from heat.
 5.  **Combine:** In a large bowl, toss the dried cornbread with the mushroom mixture.

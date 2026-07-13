@@ -60,6 +60,6 @@ Soba noodles are made from buckwheat, making them more delicate than wheat pasta
 2.  **Blanch:** Boil baby broccoli for 1 minute. Shock in ice water. Drain and pat **bone-dry**.
 3.  **Boil Soba:** Cook soba noodles for 4-5 minutes until al dente. Drain and rinse under cold water for 1 minute. Toss with 1 tsp sesame oil.
 4.  **The Sear:** Heat 1 tbsp oil in a wok until smoking. Sear tofu for 2 minutes until golden. Remove.
-5.  **The Crunch:** Add 1 tbsp oil. Sauté shiitakes and scallions for 2 minutes. Add the blanched broccoli.
+5.  **The Crunch:** Add 1 tbsp oil and the red pepper flakes. Sauté shiitakes and scallions for 2 minutes. Add the blanched broccoli.
 6.  **Bind:** Add the noodles, tofu, and the stock mixture. Toss vigorously over high heat for 2 minutes until the liquid has emulsified into a glossy glaze.
 7.  **Serve:** Stir in the cilantro and sesame oil. Serve immediately.

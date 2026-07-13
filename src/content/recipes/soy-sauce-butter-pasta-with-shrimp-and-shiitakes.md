@@ -59,7 +59,7 @@ This fusion dish combines Italian pasta with Japanese-influenced soy butter sauc
 
 1.  **Boil:** Cook pasta in salted water for 1 minute **less** than package directions. **Reserve 1 cup of pasta water**.
 2.  **The Crunch:** In a large skillet, heat 1 tbsp oil until smoking. Sear shrimp for 1 minute per side until pink. Remove.
-3.  **Aromatics:** Add 1 tbsp butter. Sauté shallots and garlic for 2 minutes. Add shiitakes and cook until dark and crispy (5 mins).
+3.  **Aromatics:** Add 1 tbsp butter. Sauté shallots for 1 minute. Add garlic and cook for 30-45 seconds. Add shiitakes and cook until dark and crispy (5 mins).
 4.  **Deglaze:** Pour in the wine. Simmer for 2 minutes until reduced by half.
 5.  **Emulsify:** Add the soy sauce and the cold butter. Whisk until a thick, glossy sauce forms.
 6.  **Bind:** Add the pasta, shrimp, and 1/2 cup of the reserved pasta water. Toss over medium heat for 1 minute until the sauce is creamy.

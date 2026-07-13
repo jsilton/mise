@@ -57,7 +57,8 @@ nutrition:
 
 ## Chef's Note
 
-Beet muffins are the original stealth-vegetable trick  -  the beet puree turns the batter a deep red-brown that looks exactly like chocolate, and the earthy sweetness disappears behind cocoa and brown sugar. Kids won't know unless you tell them. Use roasted beets pureed smooth for the best flavor, but canned beet puree (drained and blended) works in a pinch. Don't overmix once the flour goes in  -  whole wheat develops gluten fast, and tough muffins are nobody's idea of a treat.
+Beet muffins are the original stealth-vegetable trick - the beet puree turns the batter a deep red-brown that looks exactly like chocolate, and the earthy sweetness disappears behind cocoa and brown sugar. Kids won't know unless you tell them. Use roasted beets pureed smooth for the best flavor, but canned beet puree (drained and blended) works in a pinch. Don't overmix once the flour goes in - whole wheat develops gluten fast, and tough muffins are nobody's idea of a treat.
+
 ## Directions
 
 1.  **Prep:** Preheat oven to 375°F. Line a 12-cup muffin tin with paper liners or grease generously.

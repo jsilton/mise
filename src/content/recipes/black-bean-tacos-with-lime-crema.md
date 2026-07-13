@@ -73,7 +73,7 @@ Black bean tacos are the plant-forward equivalent of weeknight perfection: a can
 
 1. **Make the Crema:** In a small bowl, mix crema, lime juice, and salt until smooth. Taste and adjust lime juice. Set aside. This can be made up to 4 hours ahead.
 
-2. **Cook the Beans:** Heat a skillet over medium heat. Add diced onion and cook for 3 minutes until softened. Add minced garlic and cook for 1 minute until fragrant.
+2. **Cook the Beans:** Heat a skillet over medium heat. Add diced onion and cook for 3 minutes until softened. Add minced garlic and cook for 30-45 seconds until fragrant.
 
 3. **Season:** Add cumin, chili powder, and paprika. Stir for 30 seconds until the spices are fragrant and the oil from them coats the pan.
 

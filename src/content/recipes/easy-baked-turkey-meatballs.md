@@ -62,4 +62,4 @@ Lean turkey needs moisture - finely minced carrots release liquid as they bake, 
 5.  **Bake:** Bake for 25-30 minutes until the internal temperature reaches 165°F and there is no pink in the center.
 6.  **Serve:** Serve hot with your favorite tomato sauce or over spaghetti squash.
 
-**Rest:** Let Ground Turkey rest for 5 minutes before slicing or serving  -  the juices redistribute and every piece stays moist.
+**Rest:** Let Ground Turkey rest for 5 minutes before slicing or serving - the juices redistribute and every piece stays moist.

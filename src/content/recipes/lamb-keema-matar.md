@@ -61,7 +61,7 @@ For kids, serve the heat on the side or reduce/omit the spicy elements.
 ## Directions
 
 1.  **Sear:** Heat a large skillet over high heat. Add the lamb and cook, breaking it up with a spoon, until deeply browned and slightly crispy.
-2.  **Aromatics:** Add the diced onion to the lamb fat. Cook for 5 minutes until soft. Stir in the ginger and garlic.
+2.  **Aromatics:** Add the diced onion to the lamb fat. Cook for 5 minutes until soft. Stir in the ginger and garlic and sauté for 30-45 seconds.
 3.  **Bloom:** Add the cumin seeds, turmeric, chili, and tomato paste. Stir constantly for 1 minute until fragrant.
 4.  **Simmer:** Add a splash of water (about 1/4 cup) to keep it saucy. Stir in the frozen peas. Cover and simmer for 5 minutes.
 5.  **Finish:** Stir in the Garam Masala, lemon juice, and cilantro.

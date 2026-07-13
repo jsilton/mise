@@ -59,7 +59,7 @@ Quiche is a savory French tart from the Lorraine region, traditionally made with
 ## Directions
 
 1.  **Thermal Prep:** Preheat oven to 375°F. Line a 9-inch pie pan with the crust and prick with a fork.
-2.  **The Crunch:** In a large skillet, sauté mushrooms in oil until deep golden and all moisture has evaporated (8 mins). Add onion and garlic; cook for 5 minutes until soft.
+2.  **The Crunch:** In a large skillet, sauté mushrooms in oil until deep golden and all moisture has evaporated (8 mins). Add onion and cook for 5 minutes until soft. Add garlic and cook for 30-45 seconds until fragrant.
 3.  **The Wilt:** Add the spinach. Toss for 1 minute until just collapsed. Remove from heat and let cool.
 4.  **The Emulsion:** In a large bowl, whisk eggs, milk, half-and-half, mustard, thyme, salt, and pepper until very frothy.
 5.  **Assemble:** Fold the mushroom-spinach mixture and the cheese into the egg base. Pour into the prepared crust.

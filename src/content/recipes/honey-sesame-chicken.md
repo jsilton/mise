@@ -62,7 +62,7 @@ Honey sesame chicken is a lighter take on Chinese-American takeout - no deep fry
 ## Directions
 
 1.  **Prep:** Toss chicken chunks with 1 tbsp soy sauce and the cornstarch.
-2.  **Sear:** Heat a large skillet or wok over high heat with 2 tbsp oil. Add the chicken in a single layer. Let it sear undisturbed for 2-3 minutes until a golden crust forms. Flip and cook for 2 more minutes.
+2.  **Sear:** Heat a large skillet or wok over medium heat with 2 tbsp oil. Wipe excess liquid off the chicken, then add it in a single layer. Let it sear undisturbed for 2-3 minutes until a golden crust forms. Flip and cook for 2 more minutes.
 3.  **Aromatics:** Add the garlic and ginger to the pan. Sauté for 30 seconds.
 4.  **Glaze:** Pour in the honey, soy sauce, rice vinegar, and sesame oil. Toss the chicken constantly for 1-2 minutes until the sauce bubbles and thickens into a glossy lacquer.
 5.  **Finish:** Stir in the toasted sesame seeds and green onions.
