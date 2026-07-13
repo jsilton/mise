@@ -2,17 +2,36 @@
 interface Props {
   title: string;
   jsonLd?: string;
+  description?: string;
+  image?: string;
 }
 
-const { title, jsonLd } = Astro.props;
+const {
+  title,
+  jsonLd,
+  description = 'The Recipe Collection',
+  image = `${import.meta.env.BASE_URL}favicon.svg`,
+} = Astro.props;
 ---
 
 <!doctype html>
 <html lang="en" class="h-full">
   <head>
     <meta charset="UTF-8" />
-    <meta name="description" content="The Recipe Collection" />
+    <meta name="description" content={description} />
     <meta name="viewport" content="width=device-width" />
+
+    <!-- OpenGraph / Social Metadata -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:image" content={image} />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:title" content={title} />
+    <meta property="twitter:description" content={description} />
+    <meta property="twitter:image" content={image} />
     <link rel="icon" type="image/svg+xml" href={`${import.meta.env.BASE_URL}favicon.svg`} />
     <link rel="stylesheet" href={`${import.meta.env.BASE_URL}styles/print.css`} media="print" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />

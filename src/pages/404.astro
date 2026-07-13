@@ -1,0 +1,77 @@
+---
+import Layout from '../layouts/Layout.astro';
+import SearchBar from '../components/SearchBar.astro';
+---
+
+<Layout title="Page Not Found | Mise">
+  <div
+    class="max-w-3xl mx-auto px-4 py-16 sm:py-24 text-center flex flex-col items-center justify-center min-h-[60vh]"
+  >
+    <!-- Error Icon -->
+    <div
+      class="mb-8 p-4 rounded-full"
+      style="background: var(--bg-surface); border: 1px solid var(--border-subtle);"
+    >
+      <svg
+        class="w-8 h-8"
+        style="color: var(--accent-gold);"
+        fill="none"
+        stroke="currentColor"
+        viewBox="0 0 24 24"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="1.5"
+          d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"
+        ></path>
+      </svg>
+    </div>
+
+    <!-- Message -->
+    <h1
+      class="text-4xl sm:text-5xl font-display font-semibold mb-6 tracking-tight"
+      style="color: var(--text-primary);"
+    >
+      Page Not Found
+    </h1>
+    <p
+      class="text-base sm:text-lg max-w-lg mx-auto mb-10 leading-relaxed"
+      style="color: var(--text-secondary);"
+    >
+      The recipe or page you are looking for has been moved, deleted, or never existed in the codex.
+    </p>
+
+    <!-- Search / Actions -->
+    <div class="w-full max-w-md mx-auto mb-10">
+      <SearchBar placeholder="Search the codex instead..." id="error-search" />
+    </div>
+
+    <a
+      href={import.meta.env.BASE_URL}
+      class="inline-flex items-center gap-2 px-6 py-3 rounded-lg font-medium transition-all duration-200 hover:opacity-90"
+      style="background: var(--bg-elevated); border: 1px solid var(--border-subtle); color: var(--text-primary);"
+    >
+      <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          d="M10 19l-7-7m0 0l7-7m-7 7h18"></path>
+      </svg>
+      Return to Codex
+    </a>
+  </div>
+
+  <script>
+    // Make the search bar functional by redirecting to home with query
+    const searchInput = document.getElementById('error-search');
+    if (searchInput) {
+      searchInput.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter' && searchInput.value.trim()) {
+          window.location.href = `${import.meta.env.BASE_URL}?q=${encodeURIComponent(searchInput.value.trim())}`;
+        }
+      });
+    }
+  </script>
+</Layout>
