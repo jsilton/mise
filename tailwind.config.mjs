@@ -15,9 +15,6 @@ export default {
         ],
         display: ['Cormorant Garamond', 'Georgia', 'serif'],
       },
-      fontSize: {
-        '2xs': ['0.625rem', { lineHeight: '0.875rem' }],
-      },
       letterSpacing: {
         tighter: '-0.04em',
       },

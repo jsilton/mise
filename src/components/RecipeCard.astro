@@ -37,7 +37,7 @@ const primaryDietaryTag =
 
 <a
   href={`${baseUrl}recipes/${recipe.slug}`}
-  class="recipe-card group rounded-xl shadow-soft hover:shadow-glow transition-all duration-200 overflow-hidden flex flex-col h-full"
+  class="recipe-card group rounded-xl shadow-soft hover:shadow-glow transition-all duration-200 overflow-hidden flex flex-col h-full min-h-[15rem]"
   style="background: linear-gradient(to bottom, var(--bg-elevated), var(--bg-surface)); border: 1px solid var(--border-subtle);"
   data-difficulty={recipe.data.difficulty}
   data-role={recipe.data.role}
@@ -51,14 +51,14 @@ const primaryDietaryTag =
 >
   <div class="p-4 flex flex-col h-full">
     <h2
-      class="text-sm font-semibold line-clamp-2 mb-2.5 leading-snug tracking-tight transition-colors"
+      class="text-base font-semibold line-clamp-2 mb-3 leading-snug tracking-tight transition-colors"
       style="color: var(--text-primary);"
     >
       {recipe.data.title}
     </h2>
 
     <!-- Key Tags -->
-    <div class="flex flex-wrap gap-1.5 mb-3">
+    <div class="flex flex-wrap gap-2 mb-3">
       {
         recipe.data.cuisines?.[0] && (
           <TagBadge tag={recipe.data.cuisines[0]} category="cuisine" size="sm" />
@@ -83,7 +83,7 @@ const primaryDietaryTag =
 
     <!-- Time metadata -->
     <div
-      class="mt-auto pt-3 flex items-center justify-between text-2xs font-medium"
+      class="mt-auto pt-3 flex items-center justify-between text-xs font-medium"
       style="border-top: 1px solid var(--border-subtle); color: var(--text-tertiary);"
     >
       <div class="flex items-center gap-2">

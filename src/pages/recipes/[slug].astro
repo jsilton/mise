@@ -303,8 +303,17 @@ function buildRecipeSchema() {
             const checkbox = document.createElement('input');
             checkbox.type = 'checkbox';
             checkbox.className =
-              'h-5 w-5 rounded cursor-pointer ingredient-checkbox absolute cook-mode-checkbox';
-            li.insertBefore(checkbox, li.firstChild);
+              'h-5 w-5 rounded cursor-pointer ingredient-checkbox shrink-0 mt-0.5';
+
+            // Wrap text content in a div for perfect flex alignment
+            const contentDiv = document.createElement('div');
+            contentDiv.className = 'step-content flex-1';
+            contentDiv.innerHTML = li.innerHTML;
+
+            li.innerHTML = '';
+            li.appendChild(checkbox);
+            li.appendChild(contentDiv);
+
             li.classList.add('cook-mode-step');
           }
         });
@@ -334,9 +343,9 @@ function buildRecipeSchema() {
       const olLists = contentColumn?.querySelectorAll('ol');
       olLists?.forEach((ol) => {
         ol.querySelectorAll('li').forEach((li) => {
-          const checkbox = li.querySelector('input[type="checkbox"]');
-          if (checkbox) {
-            checkbox.remove();
+          const contentDiv = li.querySelector('.step-content');
+          if (contentDiv) {
+            li.innerHTML = contentDiv.innerHTML;
             li.classList.remove('cook-mode-step');
           }
         });
@@ -458,11 +467,14 @@ function buildRecipeSchema() {
   .cook-mode-content ol li {
     font-size: 1.125rem;
     margin-bottom: 1.5rem;
-    padding: 1rem 1rem 1rem 4rem; /* Extra padding for checkbox */
+    padding: 1rem;
     border-radius: 0.375rem;
     background-color: var(--bg-elevated);
     transition: background-color 0.15s;
     position: relative;
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
   }
 
   .cook-mode-content ol li:hover {
@@ -471,15 +483,10 @@ function buildRecipeSchema() {
 
   /* Move the counter number */
   .cook-mode-content ol li::before {
-    left: 1rem !important;
-    top: 1rem !important;
-  }
-
-  /* Position the checkbox perfectly between counter and text */
-  .cook-mode-checkbox {
-    left: 2.25rem !important;
-    top: 1.25rem !important;
-    margin: 0 !important;
+    position: static;
+    flex-shrink: 0;
+    width: 1.5rem;
+    margin-top: 0.125rem; /* Optical alignment with text */
   }
 
   .ingredient-checkbox {
@@ -847,59 +854,59 @@ function buildRecipeSchema() {
               <div class="overflow-x-auto">
                 <table class="w-full text-sm">
                   <tbody>
-                    <tr style="border-bottom: 1px solid var(--border-subtle);">
-                      <td class="py-2 pr-4 font-semibold" style="color: var(--text-secondary);">
+                    <tr>
+                      <td class="py-2.5 pr-4 font-semibold" style="color: var(--text-secondary);">
                         Calories
                       </td>
-                      <td class="py-2 text-right" style="color: var(--text-primary);">
+                      <td class="py-2.5 text-right font-medium" style="color: var(--text-primary);">
                         {recipe.data.nutrition.calories}
                       </td>
                     </tr>
-                    <tr style="border-bottom: 1px solid var(--border-subtle);">
-                      <td class="py-2 pr-4 font-semibold" style="color: var(--text-secondary);">
+                    <tr>
+                      <td class="py-2.5 pr-4 font-semibold" style="color: var(--text-secondary);">
                         Protein
                       </td>
-                      <td class="py-2 text-right" style="color: var(--text-primary);">
+                      <td class="py-2.5 text-right font-medium" style="color: var(--text-primary);">
                         {recipe.data.nutrition.protein.toFixed(1)}g
                       </td>
                     </tr>
-                    <tr style="border-bottom: 1px solid var(--border-subtle);">
-                      <td class="py-2 pr-4 font-semibold" style="color: var(--text-secondary);">
+                    <tr>
+                      <td class="py-2.5 pr-4 font-semibold" style="color: var(--text-secondary);">
                         Carbohydrates
                       </td>
-                      <td class="py-2 text-right" style="color: var(--text-primary);">
+                      <td class="py-2.5 text-right font-medium" style="color: var(--text-primary);">
                         {recipe.data.nutrition.carbs.toFixed(1)}g
                       </td>
                     </tr>
-                    <tr style="border-bottom: 1px solid var(--border-subtle);">
-                      <td class="py-2 pr-4 font-semibold" style="color: var(--text-secondary);">
+                    <tr>
+                      <td class="py-2.5 pr-4 font-semibold" style="color: var(--text-secondary);">
                         Fat
                       </td>
-                      <td class="py-2 text-right" style="color: var(--text-primary);">
+                      <td class="py-2.5 text-right font-medium" style="color: var(--text-primary);">
                         {recipe.data.nutrition.fat.toFixed(1)}g
                       </td>
                     </tr>
-                    <tr style="border-bottom: 1px solid var(--border-subtle);">
-                      <td class="py-2 pr-4 font-semibold" style="color: var(--text-secondary);">
+                    <tr>
+                      <td class="py-2.5 pr-4 font-semibold" style="color: var(--text-secondary);">
                         Fiber
                       </td>
-                      <td class="py-2 text-right" style="color: var(--text-primary);">
+                      <td class="py-2.5 text-right font-medium" style="color: var(--text-primary);">
                         {recipe.data.nutrition.fiber.toFixed(1)}g
                       </td>
                     </tr>
-                    <tr style="border-bottom: 1px solid var(--border-subtle);">
-                      <td class="py-2 pr-4 font-semibold" style="color: var(--text-secondary);">
+                    <tr>
+                      <td class="py-2.5 pr-4 font-semibold" style="color: var(--text-secondary);">
                         Sugar
                       </td>
-                      <td class="py-2 text-right" style="color: var(--text-primary);">
+                      <td class="py-2.5 text-right font-medium" style="color: var(--text-primary);">
                         {recipe.data.nutrition.sugar.toFixed(1)}g
                       </td>
                     </tr>
                     <tr>
-                      <td class="py-2 pr-4 font-semibold" style="color: var(--text-secondary);">
+                      <td class="py-2.5 pr-4 font-semibold" style="color: var(--text-secondary);">
                         Sodium
                       </td>
-                      <td class="py-2 text-right" style="color: var(--text-primary);">
+                      <td class="py-2.5 text-right font-medium" style="color: var(--text-primary);">
                         {recipe.data.nutrition.sodium.toFixed(0)}mg
                       </td>
                     </tr>
