@@ -81,9 +81,9 @@ const baseServings = parseInt(servings) || 4;
       return null;
     }
 
-    // Match pattern: optional whole number + optional space + optional fraction + optional unit
-    // Examples: "1", "1/2", "1 1/2", "2 cups", "1/2 tsp"
-    const pattern = /^(\d+(?:\s+\d+\/\d+)?(?:\s*\d+\/\d+)?)\s*(.*)$/;
+    // Match pattern: whole number, mixed number, fraction, or decimal + optional space + optional unit
+    // Examples: "1", "1/2", "1 1/2", "2 cups", "0.5 tsp"
+    const pattern = /^(\d+(?:\s+\d+\/\d+)?|\d+\/\d+|\d+(?:\.\d+)?)\s*(.*)$/;
     const match = trimmed.match(pattern);
 
     if (!match) {
@@ -280,6 +280,49 @@ const baseServings = parseInt(servings) || 4;
           item.classList.remove('scaled-ingredient');
         }
       });
+
+      // Find all direction list items to scale safe units
+      const directionsList = document.querySelector('.prose-refined ol');
+      if (directionsList) {
+        const directionItems = directionsList.querySelectorAll('li');
+        const safeUnitsRegex =
+          /(?:^|\s)(\d+(?:\s+\d+\/\d+|\/\d+|\.\d+)?)\s+(cup|cups|tsp|teaspoon|teaspoons|tbsp|tablespoon|tablespoons|oz|ounce|ounces|lb|pound|pounds|g|gram|grams|ml|pkg|package|packages|clove|cloves|can|cans|egg|eggs|slice|slices|piece|pieces|head|heads|stalk|stalks|sprig|sprigs|bunch|bunches)\b/gi;
+
+        directionItems.forEach((item) => {
+          // Exclude any child elements we don't want to parse, like bold headers, but for now we'll parse text nodes.
+          // The safest way is to replace html directly if we match carefully, similar to ingredients.
+          let originalHtml = item.dataset.originalHtml;
+          if (!originalHtml) {
+            originalHtml = item.innerHTML;
+            item.dataset.originalHtml = originalHtml;
+          }
+
+          if (Math.abs(scaleFactor - 1) < 0.01) {
+            item.innerHTML = originalHtml;
+            return;
+          }
+
+          // We replace quantities safely in HTML
+          // Because HTML might have tags, we have to be careful not to match inside tags.
+          // A simple replace on the HTML string works if the numbers aren't part of tags.
+          let newHtml = originalHtml.replace(safeUnitsRegex, (match, p1, p2, offset, string) => {
+            // p1 is the quantity, p2 is the unit
+            const parsed = parseQuantity(p1);
+            if (!parsed) return match;
+            const scaledQty = parsed.quantity * scaleFactor;
+            const formattedQty = formatQuantity(scaledQty);
+            if (!formattedQty) return match;
+
+            // Reconstruct the match replacing just the quantity
+            return match.replace(
+              p1,
+              `<span class="scaled-ingredient" style="padding: 0 0.2rem; border-radius: 0.2rem;">${formattedQty}</span>`
+            );
+          });
+
+          item.innerHTML = newHtml;
+        });
+      }
     }
 
     // Event handlers

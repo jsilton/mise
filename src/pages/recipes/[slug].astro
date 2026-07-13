@@ -303,9 +303,9 @@ function buildRecipeSchema() {
             const checkbox = document.createElement('input');
             checkbox.type = 'checkbox';
             checkbox.className =
-              'mt-1 mr-3 h-5 w-5 rounded cursor-pointer shrink-0 ingredient-checkbox';
+              'h-5 w-5 rounded cursor-pointer ingredient-checkbox absolute cook-mode-checkbox';
             li.insertBefore(checkbox, li.firstChild);
-            li.classList.add('flex', 'items-start', 'gap-3');
+            li.classList.add('cook-mode-step');
           }
         });
       });
@@ -337,7 +337,7 @@ function buildRecipeSchema() {
           const checkbox = li.querySelector('input[type="checkbox"]');
           if (checkbox) {
             checkbox.remove();
-            li.classList.remove('flex', 'items-start', 'gap-3');
+            li.classList.remove('cook-mode-step');
           }
         });
       });
@@ -458,20 +458,28 @@ function buildRecipeSchema() {
   .cook-mode-content ol li {
     font-size: 1.125rem;
     margin-bottom: 1.5rem;
-    padding: 1rem;
+    padding: 1rem 1rem 1rem 4rem; /* Extra padding for checkbox */
     border-radius: 0.375rem;
     background-color: var(--bg-elevated);
     transition: background-color 0.15s;
+    position: relative;
   }
 
   .cook-mode-content ol li:hover {
     background-color: var(--bg-hover);
   }
 
-  .cook-mode-content ol li input[type='checkbox'] {
-    width: 1.25rem;
-    height: 1.25rem;
-    min-width: 1.25rem;
+  /* Move the counter number */
+  .cook-mode-content ol li::before {
+    left: 1rem !important;
+    top: 1rem !important;
+  }
+
+  /* Position the checkbox perfectly between counter and text */
+  .cook-mode-checkbox {
+    left: 2.25rem !important;
+    top: 1.25rem !important;
+    margin: 0 !important;
   }
 
   .ingredient-checkbox {
