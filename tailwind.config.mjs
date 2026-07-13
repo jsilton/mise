@@ -1,6 +1,5 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  darkMode: 'class',
   content: ['./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}'],
   theme: {
     extend: {
@@ -14,7 +13,7 @@ export default {
           'Roboto',
           'sans-serif',
         ],
-        display: ['Cal Sans', 'Inter', 'system-ui', 'sans-serif'],
+        display: ['Cormorant Garamond', 'Georgia', 'serif'],
       },
       fontSize: {
         '2xs': ['0.625rem', { lineHeight: '0.875rem' }],
@@ -23,8 +22,10 @@ export default {
         tighter: '-0.04em',
       },
       boxShadow: {
-        soft: '0 2px 8px -2px rgba(0, 0, 0, 0.05), 0 4px 16px -4px rgba(0, 0, 0, 0.05)',
-        'soft-lg': '0 4px 12px -2px rgba(0, 0, 0, 0.08), 0 8px 24px -4px rgba(0, 0, 0, 0.06)',
+        soft: '0 1px 3px rgba(0, 0, 0, 0.3), 0 1px 2px rgba(0, 0, 0, 0.2)',
+        'soft-lg': '0 4px 12px rgba(0, 0, 0, 0.4), 0 2px 4px rgba(0, 0, 0, 0.3)',
+        glow: '0 0 20px rgba(201, 169, 97, 0.08)',
+        'glow-lg': '0 0 30px rgba(201, 169, 97, 0.12)',
       },
       animation: {
         'fade-in': 'fadeIn 0.3s ease-out',

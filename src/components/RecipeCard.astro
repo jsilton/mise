@@ -37,7 +37,8 @@ const primaryDietaryTag =
 
 <a
   href={`${baseUrl}recipes/${recipe.slug}`}
-  class="recipe-card group bg-white dark:bg-slate-900 rounded-xl border border-slate-200/80 dark:border-slate-700/80 hover:border-indigo-300 dark:hover:border-indigo-500 shadow-soft hover:shadow-soft-lg transition-all duration-200 overflow-hidden flex flex-col h-full"
+  class="recipe-card group rounded-xl shadow-soft hover:shadow-glow transition-all duration-200 overflow-hidden flex flex-col h-full"
+  style="background: linear-gradient(to bottom, var(--bg-elevated), var(--bg-surface)); border: 1px solid var(--border-subtle);"
   data-difficulty={recipe.data.difficulty}
   data-role={recipe.data.role}
   data-vibe={recipe.data.vibe}
@@ -50,7 +51,8 @@ const primaryDietaryTag =
 >
   <div class="p-4 flex flex-col h-full">
     <h2
-      class="text-sm font-semibold text-slate-800 dark:text-slate-100 group-hover:text-indigo-600 dark:group-hover:text-indigo-400 line-clamp-2 mb-2.5 leading-snug tracking-tight"
+      class="text-sm font-semibold line-clamp-2 mb-2.5 leading-snug tracking-tight transition-colors"
+      style="color: var(--text-primary);"
     >
       {recipe.data.title}
     </h2>
@@ -81,13 +83,15 @@ const primaryDietaryTag =
 
     <!-- Time metadata -->
     <div
-      class="mt-auto pt-3 border-t border-slate-100/80 dark:border-slate-700/80 flex items-center justify-between text-2xs text-slate-400 dark:text-slate-500 font-medium"
+      class="mt-auto pt-3 flex items-center justify-between text-2xs font-medium"
+      style="border-top: 1px solid var(--border-subtle); color: var(--text-tertiary);"
     >
       <div class="flex items-center gap-2">
         {recipe.data.prepTime && <span>{recipe.data.prepTime}</span>}
         {
           recipe.data.cookTime && (
-            <span class="flex items-center gap-1 before:content-['·'] before:mr-1 before:text-slate-300 dark:before:text-slate-700">
+            <span class="flex items-center gap-1">
+              <span style="color: var(--border-emphasis);">·</span>
               {recipe.data.cookTime} cook
             </span>
           )
@@ -102,3 +106,12 @@ const primaryDietaryTag =
     {recipe.data.ingredients?.join(' ').toLowerCase()}
   </div>
 </a>
+
+<style>
+  .recipe-card:hover {
+    border-color: var(--accent-gold-muted) !important;
+  }
+  .recipe-card:hover h2 {
+    color: var(--accent-gold) !important;
+  }
+</style>

@@ -8,7 +8,7 @@ const { title, jsonLd } = Astro.props;
 ---
 
 <!doctype html>
-<html lang="en" class="h-full bg-stone-50 dark:bg-slate-950">
+<html lang="en" class="h-full">
   <head>
     <meta charset="UTF-8" />
     <meta name="description" content="The Recipe Collection" />
@@ -18,30 +18,67 @@ const { title, jsonLd } = Astro.props;
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Inter:wght@400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
     <title>{title}</title>
     <!-- eslint-disable-next-line astro/no-set-html-directive -->
     {jsonLd && <script type="application/ld+json" set:html={jsonLd} />}
     <style is:global>
-      /* 
-       * Typography System
-       * Based on a 1.25 (Major Third) modular scale
-       * Base: 16px, Line height: 1.6 for body, 1.3 for headings
-       * Spacing: 1.5em between major blocks
-       */
+      /* ═══════════════════════════════════════════════════════
+       * MISE DESIGN SYSTEM — Dark-Mode-First
+       * Japanese-inspired warm dark palette
+       * 
+       * Color Tokens:
+       *   --bg-deep:      #0C0C0E  (page background)
+       *   --bg-surface:   #141416  (card/panel)
+       *   --bg-elevated:  #1A1A1E  (elevated cards)
+       *   --bg-hover:     #222226  (hover state)
+       *   --border-subtle:   #2A2A2E
+       *   --border-emphasis: #3A3A3E
+       *   --text-primary:   #F0EDE6  (warm off-white)
+       *   --text-secondary: #9A9690  (muted)
+       *   --text-tertiary:  #5A5854  (hint)
+       *   --accent-gold:       #C9A961
+       *   --accent-gold-muted: #8B7A4A
+       *   --accent-gold-bright:#DFC07C
+       *   --accent-link:       #7B8EB8  (links)
+       *   --accent-link-bright:#9AADCF  (link hover)
+       * ═══════════════════════════════════════════════════════ */
 
-      /* Headings - Clear hierarchy with weight and size differentiation */
+      :root {
+        --bg-deep: #0c0c0e;
+        --bg-surface: #141416;
+        --bg-elevated: #1a1a1e;
+        --bg-hover: #222226;
+        --border-subtle: #2a2a2e;
+        --border-emphasis: #3a3a3e;
+        --text-primary: #f0ede6;
+        --text-secondary: #9a9690;
+        --text-tertiary: #5a5854;
+        --accent-gold: #c9a961;
+        --accent-gold-muted: #8b7a4a;
+        --accent-gold-bright: #dfc07c;
+        --accent-link: #7b8eb8;
+        --accent-link-bright: #9aadcf;
+      }
+
+      /* ───────────────────────────────────
+       * Typography System — Prose Refined
+       * Cormorant Garamond headings + Inter body
+       * ─────────────────────────────────── */
+
+      /* Headings - Clear hierarchy with serif display */
       .prose-refined h2 {
-        font-size: 1.25rem; /* 20px - Major section headers */
-        font-weight: 700;
+        font-family: 'Cormorant Garamond', Georgia, serif;
+        font-size: 1.5rem;
+        font-weight: 600;
         letter-spacing: -0.02em;
-        color: #0f172a; /* slate-900 */
+        color: var(--text-primary);
         margin-top: 2.5rem;
         margin-bottom: 1rem;
         padding-bottom: 0.625rem;
-        border-bottom: 1px solid #e2e8f0;
+        border-bottom: 1px solid var(--border-subtle);
         line-height: 1.3;
       }
       .prose-refined h2:first-child {
@@ -49,49 +86,46 @@ const { title, jsonLd } = Astro.props;
       }
 
       .prose-refined h3 {
-        font-size: 1.0625rem; /* 17px - Subsections */
+        font-size: 1.0625rem;
         font-weight: 600;
-        color: #1e293b; /* slate-800 */
+        color: var(--text-primary);
         margin-top: 2rem;
         margin-bottom: 0.75rem;
         line-height: 1.3;
       }
 
-      /* Paragraphs - Optimal reading experience */
+      /* Paragraphs */
       .prose-refined p {
-        font-size: 0.9375rem; /* 15px - Slightly smaller than 16 for density */
-        color: #475569; /* slate-600 */
-        line-height: 1.65; /* Optimal for body text */
-        margin-bottom: 1.25em; /* Proportional to font size */
+        font-size: 0.9375rem;
+        color: var(--text-secondary);
+        line-height: 1.65;
+        margin-bottom: 1.25em;
       }
 
-      /* Paragraphs that contain ONLY a strong tag (category headers like "Apps:") */
+      /* Category headers (paragraphs containing only a strong tag) */
       .prose-refined p > strong:only-child {
         display: block;
-        font-size: 0.875rem; /* 14px */
+        font-size: 0.875rem;
         font-weight: 700;
-        color: #334155; /* slate-700 */
+        color: var(--text-secondary);
         text-transform: uppercase;
         letter-spacing: 0.05em;
         margin-top: 1.5rem;
         margin-bottom: 0.25rem;
         padding-bottom: 0;
       }
-      /* Remove the parent paragraph's margin when it's a category header */
       .prose-refined p:has(> strong:only-child) {
         margin-bottom: 0.5rem;
       }
 
-      /* Regular strong tags within text */
+      /* Strong and emphasis */
       .prose-refined strong {
         font-weight: 600;
-        color: #1e293b; /* slate-800 */
+        color: var(--text-primary);
       }
-
-      /* Emphasis */
       .prose-refined em {
         font-style: italic;
-        color: #475569;
+        color: var(--text-secondary);
       }
 
       /* Unordered lists */
@@ -105,7 +139,7 @@ const { title, jsonLd } = Astro.props;
         position: relative;
         padding-left: 1.25rem;
         font-size: 0.9375rem;
-        color: #475569;
+        color: var(--text-secondary);
         line-height: 1.6;
         margin-bottom: 0.375rem;
       }
@@ -113,16 +147,14 @@ const { title, jsonLd } = Astro.props;
         content: '•';
         position: absolute;
         left: 0;
-        color: #94a3b8; /* slate-400 */
+        color: var(--text-tertiary);
         font-weight: 600;
       }
-      /* Links in list items should be prominent */
       .prose-refined ul li a {
         font-weight: 600;
       }
-      /* Em dashes in list items (descriptions) */
       .prose-refined ul li em {
-        color: #64748b; /* slate-500 */
+        color: var(--text-tertiary);
         font-style: normal;
         font-size: 0.875rem;
       }
@@ -139,7 +171,7 @@ const { title, jsonLd } = Astro.props;
         position: relative;
         padding-left: 2rem;
         font-size: 0.9375rem;
-        color: #475569;
+        color: var(--text-secondary);
         line-height: 1.65;
         margin-bottom: 0.75rem;
         counter-increment: step-counter;
@@ -151,58 +183,57 @@ const { title, jsonLd } = Astro.props;
         top: 0;
         font-size: 0.875rem;
         font-weight: 700;
-        color: #6366f1; /* indigo-500 */
+        color: var(--accent-gold);
         width: 1.5rem;
       }
-      /* Bold step labels in ordered lists */
       .prose-refined ol li strong:first-child {
         font-weight: 700;
-        color: #1e293b; /* slate-800 */
+        color: var(--text-primary);
       }
 
       /* Links */
       .prose-refined a {
-        color: #4f46e5; /* indigo-600 */
+        color: var(--accent-link);
         text-decoration: none;
         font-weight: 500;
         transition: color 0.15s ease;
       }
       .prose-refined a:hover {
-        color: #4338ca; /* indigo-700 */
+        color: var(--accent-link-bright);
         text-decoration: underline;
         text-underline-offset: 2px;
       }
 
-      /* Tables - Modern card-style instead of traditional borders */
+      /* Tables */
       .prose-refined table {
         width: 100%;
         margin: 1.5rem 0;
         font-size: 0.875rem;
         border-radius: 0.5rem;
         overflow: hidden;
-        background: #f8fafc; /* slate-50 */
-        border: 1px solid #e2e8f0;
+        background: var(--bg-elevated);
+        border: 1px solid var(--border-subtle);
       }
       .prose-refined thead {
-        background: #f1f5f9; /* slate-100 */
+        background: var(--bg-deep);
       }
       .prose-refined thead tr {
-        border-bottom: 1px solid #e2e8f0;
+        border-bottom: 1px solid var(--border-subtle);
       }
       .prose-refined th {
         padding: 0.75rem 1rem;
         text-align: left;
-        font-size: 0.6875rem; /* 11px */
+        font-size: 0.6875rem;
         font-weight: 700;
-        color: #64748b; /* slate-500 */
+        color: var(--text-tertiary);
         text-transform: uppercase;
         letter-spacing: 0.08em;
       }
       .prose-refined td {
         padding: 0.625rem 1rem;
-        color: #334155; /* slate-700 */
-        background: white;
-        border-bottom: 1px solid #f1f5f9;
+        color: var(--text-secondary);
+        background: var(--bg-surface);
+        border-bottom: 1px solid var(--border-subtle);
         line-height: 1.5;
       }
       .prose-refined tbody tr:last-child td {
@@ -210,7 +241,7 @@ const { title, jsonLd } = Astro.props;
       }
       .prose-refined td:first-child {
         font-weight: 600;
-        color: #1e293b; /* slate-800 */
+        color: var(--text-primary);
         white-space: nowrap;
       }
 
@@ -218,121 +249,55 @@ const { title, jsonLd } = Astro.props;
       .prose-refined hr {
         border: none;
         height: 1px;
-        background: linear-gradient(to right, transparent, #cbd5e1, transparent);
+        background: linear-gradient(to right, transparent, var(--border-emphasis), transparent);
         margin: 2.5rem 0;
       }
 
-      /* Block quotes (for notes/tips) */
+      /* Block quotes */
       .prose-refined blockquote {
         margin: 1.5rem 0;
         padding: 1rem 1.25rem;
-        background: #fefce8; /* yellow-50 */
-        border-left: 3px solid #facc15; /* yellow-400 */
+        background: rgba(201, 169, 97, 0.06);
+        border-left: 3px solid var(--accent-gold-muted);
         border-radius: 0 0.375rem 0.375rem 0;
       }
       .prose-refined blockquote p {
         margin-bottom: 0;
         font-size: 0.875rem;
-        color: #713f12; /* yellow-900 */
+        color: var(--accent-gold-bright);
       }
 
       /* Code inline */
       .prose-refined code {
         font-size: 0.875em;
         font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
-        background: #f1f5f9;
+        background: var(--bg-elevated);
         padding: 0.125rem 0.375rem;
         border-radius: 0.25rem;
-        color: #334155;
-      }
-
-      /* Dark mode styles for prose */
-      :is(html.dark) .prose-refined h2 {
-        color: #f1f5f9;
-        border-bottom-color: #334155;
-      }
-      :is(html.dark) .prose-refined h3 {
-        color: #e2e8f0;
-      }
-      :is(html.dark) .prose-refined p {
-        color: #cbd5e1;
-      }
-      :is(html.dark) .prose-refined strong {
-        color: #e2e8f0;
-      }
-      :is(html.dark) .prose-refined ul li {
-        color: #cbd5e1;
-      }
-      :is(html.dark) .prose-refined ul li::before {
-        color: #64748b;
-      }
-      :is(html.dark) .prose-refined ul li em {
-        color: #94a3b8;
-      }
-      :is(html.dark) .prose-refined ol li {
-        color: #cbd5e1;
-      }
-      :is(html.dark) .prose-refined ol li strong:first-child {
-        color: #e2e8f0;
-      }
-      :is(html.dark) .prose-refined a {
-        color: #818cf8;
-      }
-      :is(html.dark) .prose-refined a:hover {
-        color: #a5b4fc;
-      }
-      :is(html.dark) .prose-refined table {
-        background: #1e293b;
-        border-color: #334155;
-      }
-      :is(html.dark) .prose-refined thead {
-        background: #0f172a;
-      }
-      :is(html.dark) .prose-refined thead tr {
-        border-bottom-color: #334155;
-      }
-      :is(html.dark) .prose-refined th {
-        color: #94a3b8;
-      }
-      :is(html.dark) .prose-refined td {
-        color: #cbd5e1;
-        background: #1e293b;
-        border-bottom-color: #334155;
-      }
-      :is(html.dark) .prose-refined td:first-child {
-        color: #e2e8f0;
-      }
-      :is(html.dark) .prose-refined hr {
-        background: linear-gradient(to right, transparent, #475569, transparent);
-      }
-      :is(html.dark) .prose-refined blockquote {
-        background: #1e1f0f;
-        border-left-color: #854d0e;
-      }
-      :is(html.dark) .prose-refined blockquote p {
-        color: #fcd34d;
-      }
-      :is(html.dark) .prose-refined code {
-        background: #1e293b;
-        color: #cbd5e1;
+        color: var(--text-secondary);
       }
     </style>
   </head>
-  <body class="h-full flex flex-col font-sans text-slate-900 dark:text-slate-100 antialiased">
+  <body
+    class="h-full flex flex-col font-sans antialiased"
+    style="background-color: var(--bg-deep); color: var(--text-primary);"
+  >
     <header
-      class="bg-white/80 dark:bg-slate-950/80 dark:border-slate-800/80 backdrop-blur-md border-b border-slate-200/80 sticky top-0 z-20"
+      style="background-color: rgba(12, 12, 14, 0.85); border-bottom: 1px solid var(--border-subtle);"
+      class="backdrop-blur-md sticky top-0 z-20"
     >
       <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 h-14 flex items-center justify-between">
         <div class="flex items-center gap-4">
           <a href={import.meta.env.BASE_URL} class="flex items-center gap-2.5 group">
             <div
-              class="w-7 h-7 bg-gradient-to-br from-indigo-500 to-indigo-600 dark:from-indigo-400 dark:to-indigo-500 rounded-lg flex items-center justify-center text-white font-bold text-sm shadow-sm group-hover:shadow-md group-hover:from-indigo-600 dark:group-hover:from-indigo-300 group-hover:to-indigo-700 dark:group-hover:to-indigo-600 transition-all duration-200"
+              class="w-7 h-7 rounded-lg flex items-center justify-center text-sm shadow-sm transition-all duration-200"
+              style="background: linear-gradient(135deg, var(--accent-gold), var(--accent-gold-muted)); color: var(--bg-deep); font-weight: 700;"
             >
               M
             </div>
             <span
-              class="text-lg font-bold text-slate-900 dark:text-slate-100 tracking-tight group-hover:text-indigo-600 dark:group-hover:text-indigo-400 transition-colors"
-              >Mise</span
+              class="text-lg font-bold tracking-tight transition-colors"
+              style="color: var(--text-primary);">Mise</span
             >
           </a>
         </div>
@@ -340,48 +305,28 @@ const { title, jsonLd } = Astro.props;
         <nav class="flex items-center gap-1">
           <a
             href={import.meta.env.BASE_URL}
-            class="px-3 py-1.5 text-sm font-medium text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-slate-100 hover:bg-slate-100 dark:hover:bg-slate-800 rounded-lg transition-colors"
+            class="px-3 py-1.5 text-sm font-medium rounded-lg transition-colors"
+            style="color: var(--text-secondary);"
+            onmouseover="this.style.color='var(--text-primary)';this.style.backgroundColor='var(--bg-hover)'"
+            onmouseout="this.style.color='var(--text-secondary)';this.style.backgroundColor='transparent'"
             >Recipes</a
           >
           <a
             href={`${import.meta.env.BASE_URL}meals`}
-            class="px-3 py-1.5 text-sm font-medium text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-slate-100 hover:bg-slate-100 dark:hover:bg-slate-800 rounded-lg transition-colors"
+            class="px-3 py-1.5 text-sm font-medium rounded-lg transition-colors"
+            style="color: var(--text-secondary);"
+            onmouseover="this.style.color='var(--text-primary)';this.style.backgroundColor='var(--bg-hover)'"
+            onmouseout="this.style.color='var(--text-secondary)';this.style.backgroundColor='transparent'"
             >Meals</a
           >
           <a
             href={`${import.meta.env.BASE_URL}calendar`}
-            class="px-3 py-1.5 text-sm font-medium text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-slate-100 hover:bg-slate-100 dark:hover:bg-slate-800 rounded-lg transition-colors"
+            class="px-3 py-1.5 text-sm font-medium rounded-lg transition-colors"
+            style="color: var(--text-secondary);"
+            onmouseover="this.style.color='var(--text-primary)';this.style.backgroundColor='var(--bg-hover)'"
+            onmouseout="this.style.color='var(--text-secondary)';this.style.backgroundColor='transparent'"
             >Calendar</a
           >
-          <button
-            id="darkModeToggle"
-            aria-label="Toggle dark mode"
-            class="ml-2 px-2 py-1.5 text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-slate-100 hover:bg-slate-100 dark:hover:bg-slate-800 rounded-lg transition-colors"
-            title="Toggle dark mode (press '?' for help)"
-          >
-            <svg
-              id="sunIcon"
-              class="h-5 w-5 block dark:hidden"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M12 3v1m0 16v1m9-9h-1m-16 0H1m15.364 1.636l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"
-              ></path>
-            </svg>
-            <svg
-              id="moonIcon"
-              class="h-5 w-5 hidden dark:block"
-              fill="currentColor"
-              viewBox="0 0 20 20"
-            >
-              <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path>
-            </svg>
-          </button>
         </nav>
       </div>
     </header>
@@ -391,18 +336,19 @@ const { title, jsonLd } = Astro.props;
     </main>
 
     <footer
-      class="border-t border-slate-200/60 dark:border-slate-800/60 mt-auto bg-white/50 dark:bg-slate-950/50"
+      style="border-top: 1px solid var(--border-subtle); background-color: rgba(12, 12, 14, 0.5);"
+      class="mt-auto"
     >
       <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
         <div class="flex flex-col md:flex-row justify-between items-center gap-3">
-          <p class="text-xs text-slate-400 dark:text-slate-600">
+          <p class="text-xs" style="color: var(--text-tertiary);">
             &copy; {new Date().getFullYear()} Mise. All rights reserved.
           </p>
-          <div class="flex gap-2 text-xs text-slate-400 dark:text-slate-600">
+          <div class="flex gap-2 text-xs" style="color: var(--text-tertiary);">
             <span>Taste</span>
-            <span class="text-slate-300 dark:text-slate-700">·</span>
+            <span style="color: var(--border-emphasis);">·</span>
             <span>Tradition</span>
-            <span class="text-slate-300 dark:text-slate-700">·</span>
+            <span style="color: var(--border-emphasis);">·</span>
             <span>Together</span>
           </div>
         </div>
@@ -410,26 +356,6 @@ const { title, jsonLd } = Astro.props;
     </footer>
 
     <script>
-      // Dark mode toggle
-      const darkModeToggle = document.getElementById('darkModeToggle');
-      const html = document.documentElement;
-
-      // Initialize dark mode from system preference
-      function initializeDarkMode() {
-        const isDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-        if (isDark) {
-          html.classList.add('dark');
-        }
-      }
-
-      // Initialize on page load
-      initializeDarkMode();
-
-      // Toggle dark mode
-      darkModeToggle?.addEventListener('click', () => {
-        html.classList.toggle('dark');
-      });
-
       // Keyboard shortcuts
       document.addEventListener('keydown', (e) => {
         // Forward slash or Cmd+K to focus search

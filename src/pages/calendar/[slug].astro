@@ -116,15 +116,15 @@ function getDescription(rawContent: string): string {
 
 const description = thisWeekRaw ? getDescription(thisWeekRaw) : '';
 
-// Day of week styling
-const dayColors: Record<string, string> = {
-  Sunday: 'bg-rose-50 border-rose-200',
-  Monday: 'bg-slate-50 border-slate-200',
-  Tuesday: 'bg-amber-50 border-amber-200',
-  Wednesday: 'bg-emerald-50 border-emerald-200',
-  Thursday: 'bg-sky-50 border-sky-200',
-  Friday: 'bg-violet-50 border-violet-200',
-  Saturday: 'bg-indigo-50 border-indigo-200',
+// Day of week styling (dark-native)
+const dayColors: Record<string, { bg: string; border: string }> = {
+  Sunday: { bg: 'rgba(251,113,133,0.06)', border: 'rgba(251,113,133,0.15)' },
+  Monday: { bg: 'rgba(148,163,184,0.06)', border: 'rgba(148,163,184,0.15)' },
+  Tuesday: { bg: 'rgba(251,191,36,0.06)', border: 'rgba(251,191,36,0.15)' },
+  Wednesday: { bg: 'rgba(52,211,153,0.06)', border: 'rgba(52,211,153,0.15)' },
+  Thursday: { bg: 'rgba(56,189,248,0.06)', border: 'rgba(56,189,248,0.15)' },
+  Friday: { bg: 'rgba(167,139,250,0.06)', border: 'rgba(167,139,250,0.15)' },
+  Saturday: { bg: 'rgba(129,140,248,0.06)', border: 'rgba(129,140,248,0.15)' },
 };
 ---
 
@@ -134,7 +134,8 @@ const dayColors: Record<string, string> = {
     <nav class="mb-6">
       <a
         href={`${import.meta.env.BASE_URL}calendar`}
-        class="inline-flex items-center gap-2 text-sm text-slate-500 hover:text-indigo-600 transition-colors"
+        class="breadcrumb-link inline-flex items-center gap-2 text-sm transition-colors"
+        style="color: var(--text-tertiary);"
       >
         <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"
@@ -145,25 +146,40 @@ const dayColors: Record<string, string> = {
     </nav>
 
     {/* Week Header */}
-    <header class="mb-8 pb-6 border-b border-slate-200">
-      <h1 class="text-3xl font-bold text-slate-900 mb-2">{week.data.title}</h1>
+    <header class="mb-8 pb-6" style={`border-bottom: 1px solid var(--border-subtle);`}>
+      <h1 class="font-display text-3xl font-bold mb-2" style="color: var(--text-primary);">
+        {week.data.title}
+      </h1>
       {
         week.data.weekStart && week.data.weekEnd && (
-          <p class="text-lg text-slate-600">
+          <p class="text-lg" style="color: var(--text-secondary);">
             {formatFullDate(week.data.weekStart)} – {formatFullDate(week.data.weekEnd)}
           </p>
         )
       }
-      {description && <p class="mt-4 text-slate-600 leading-relaxed">{description}</p>}
+      {
+        description && (
+          <p class="mt-4 leading-relaxed" style="color: var(--text-secondary);">
+            {description}
+          </p>
+        )
+      }
     </header>
 
     {/* Placeholder State */}
     {
       week.data.isPlaceholder ? (
-        <div class="bg-amber-50 border-2 border-dashed border-amber-200 rounded-xl p-8 text-center">
-          <div class="w-12 h-12 mx-auto mb-4 rounded-full bg-amber-100 flex items-center justify-center">
+        <div
+          class="rounded-xl p-8 text-center"
+          style="background: rgba(251,191,36,0.04); border: 2px dashed rgba(251,191,36,0.2);"
+        >
+          <div
+            class="w-12 h-12 mx-auto mb-4 rounded-full flex items-center justify-center"
+            style="background: rgba(251,191,36,0.1);"
+          >
             <svg
-              class="w-6 h-6 text-amber-600"
+              class="w-6 h-6"
+              style="color: var(--accent-gold-muted);"
               fill="none"
               stroke="currentColor"
               viewBox="0 0 24 24"
@@ -176,38 +192,60 @@ const dayColors: Record<string, string> = {
               />
             </svg>
           </div>
-          <h2 class="text-lg font-semibold text-amber-800 mb-2">Meal Plan Coming Soon</h2>
-          <p class="text-amber-700">This week's meals will be filled in shortly.</p>
+          <h2 class="text-lg font-semibold mb-2" style="color: var(--accent-gold);">
+            Meal Plan Coming Soon
+          </h2>
+          <p style="color: var(--accent-gold-muted);">
+            This week's meals will be filled in shortly.
+          </p>
         </div>
       ) : (
         /* Meal Plan Grid */
         <section class="mb-10">
-          <h2 class="text-sm font-semibold text-slate-400 uppercase tracking-wider mb-4">
+          <h2
+            class="text-sm font-semibold uppercase tracking-wider mb-4"
+            style="color: var(--text-tertiary);"
+          >
             This Week's Meals
           </h2>
           <div class="space-y-3">
             {mealPlan.map(({ day, mealSlug, notes }) => {
               const meal = mealsMap.get(mealSlug);
-              const colorClass = dayColors[day] || 'bg-slate-50 border-slate-200';
+              const colors = dayColors[day] || {
+                bg: 'var(--bg-elevated)',
+                border: 'var(--border-subtle)',
+              };
 
               return (
-                <div class={`rounded-xl border-2 ${colorClass} p-4 transition-all hover:shadow-md`}>
+                <div
+                  class="rounded-xl p-4 transition-all hover:shadow-md"
+                  style={`background: ${colors.bg}; border: 2px solid ${colors.border};`}
+                >
                   <div class="flex items-start gap-4">
                     <div class="w-24 flex-shrink-0">
-                      <span class="text-sm font-semibold text-slate-700">{day}</span>
+                      <span class="text-sm font-semibold" style="color: var(--text-primary);">
+                        {day}
+                      </span>
                     </div>
                     <div class="flex-1 min-w-0">
                       {meal ? (
                         <a
                           href={`${import.meta.env.BASE_URL}meals/${mealSlug}`}
-                          class="font-medium text-slate-900 hover:text-indigo-600 transition-colors"
+                          class="meal-day-link font-medium transition-colors"
+                          style="color: var(--text-primary);"
                         >
                           {meal.data.title}
                         </a>
                       ) : (
-                        <span class="font-medium text-slate-900">{mealSlug}</span>
+                        <span class="font-medium" style="color: var(--text-primary);">
+                          {mealSlug}
+                        </span>
                       )}
-                      {notes && <p class="text-sm text-slate-500 mt-1">{notes}</p>}
+                      {notes && (
+                        <p class="text-sm mt-1" style="color: var(--text-tertiary);">
+                          {notes}
+                        </p>
+                      )}
                     </div>
                   </div>
                 </div>
@@ -219,12 +257,16 @@ const dayColors: Record<string, string> = {
     }
 
     {/* Week Navigation */}
-    <nav class="flex items-center justify-between pt-6 border-t border-slate-200">
+    <nav
+      class="flex items-center justify-between pt-6"
+      style={`border-top: 1px solid var(--border-subtle);`}
+    >
       {
         prevWeek ? (
           <a
             href={`${import.meta.env.BASE_URL}calendar/${prevWeek.slug}`}
-            class="flex items-center gap-2 text-sm text-slate-600 hover:text-indigo-600 transition-colors"
+            class="nav-link flex items-center gap-2 text-sm transition-colors"
+            style="color: var(--text-secondary);"
           >
             <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path
@@ -245,7 +287,8 @@ const dayColors: Record<string, string> = {
         nextWeek && !nextWeek.data.isPlaceholder ? (
           <a
             href={`${import.meta.env.BASE_URL}calendar/${nextWeek.slug}`}
-            class="flex items-center gap-2 text-sm text-slate-600 hover:text-indigo-600 transition-colors"
+            class="nav-link flex items-center gap-2 text-sm transition-colors"
+            style="color: var(--text-secondary);"
           >
             {nextWeek.data.title}
             <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -264,3 +307,15 @@ const dayColors: Record<string, string> = {
     </nav>
   </div>
 </Layout>
+
+<style>
+  .breadcrumb-link:hover {
+    color: var(--accent-gold) !important;
+  }
+  .meal-day-link:hover {
+    color: var(--accent-gold) !important;
+  }
+  .nav-link:hover {
+    color: var(--accent-gold) !important;
+  }
+</style>

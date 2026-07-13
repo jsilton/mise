@@ -12,12 +12,25 @@ const { label, id, options = [] } = Astro.props;
 ---
 
 <div class="flex flex-col gap-1">
-  <label for={id} class="text-xs font-medium text-slate-600">{label}</label>
+  <label for={id} class="text-xs font-medium" style="color: var(--text-tertiary);">{label}</label>
   <select
     {id}
-    class="text-xs bg-white border border-slate-300 rounded px-2 py-1.5 focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500"
+    class="filter-select text-xs rounded px-2 py-1.5 focus:outline-none transition-colors"
+    style={`background: var(--bg-surface); border: 1px solid var(--border-subtle); color: var(--text-primary);`}
   >
     <option value="">All</option>
     {options.map((opt) => <option value={opt.value}>{opt.label}</option>)}
   </select>
 </div>
+
+<style>
+  .filter-select:focus {
+    box-shadow: 0 0 0 2px rgba(201, 169, 97, 0.3);
+    border-color: var(--accent-gold-muted) !important;
+  }
+
+  .filter-select option {
+    background: var(--bg-elevated);
+    color: var(--text-primary);
+  }
+</style>

@@ -69,10 +69,17 @@ function getRecipeTitle(slug: string): string {
   <div class="max-w-3xl mx-auto">
     {/* Page Header */}
     <header class="mb-12">
-      <h1 class="text-3xl font-bold text-slate-900 tracking-tight mb-2">Meal Compositions</h1>
-      <p class="text-base text-slate-500">
+      <h1
+        class="font-display text-3xl font-bold tracking-tight mb-2"
+        style="color: var(--text-primary);"
+      >
+        Meal Compositions
+      </h1>
+      <p class="text-base" style="color: var(--text-secondary);">
         Complete meals combining recipes for balanced, delicious dining.
-        <span class="text-slate-400 ml-1">{meals.length} meals available.</span>
+        <span style="color: var(--text-tertiary);" class="ml-1"
+          >{meals.length} meals available.</span
+        >
       </p>
     </header>
 
@@ -83,11 +90,18 @@ function getRecipeTitle(slug: string): string {
         .map((template) => (
           <section class="mb-12">
             {/* Section Header */}
-            <div class="flex items-center gap-3 mb-5 pb-3 border-b border-slate-200/60">
+            <div
+              class="flex items-center gap-3 mb-5 pb-3"
+              style={`border-bottom: 1px solid var(--border-subtle);`}
+            >
               <span class="text-xl">{templateIcons[template]}</span>
               <div>
-                <h2 class="text-lg font-semibold text-slate-900">{templateLabels[template]}</h2>
-                <p class="text-sm text-slate-400">{templateDescriptions[template]}</p>
+                <h2 class="text-lg font-semibold" style="color: var(--text-primary);">
+                  {templateLabels[template]}
+                </h2>
+                <p class="text-sm" style="color: var(--text-tertiary);">
+                  {templateDescriptions[template]}
+                </p>
               </div>
             </div>
 
@@ -96,26 +110,38 @@ function getRecipeTitle(slug: string): string {
               {mealsByTemplate[template].map((meal) => (
                 <a
                   href={`${import.meta.env.BASE_URL}meals/${meal.slug}`}
-                  class="block bg-white rounded-xl border border-slate-200/80 p-5 shadow-soft hover:border-indigo-300 hover:shadow-soft-lg transition-all duration-200 group"
+                  class="meal-card block rounded-xl p-5 transition-all duration-200 group"
+                  style={`background: linear-gradient(to bottom, var(--bg-elevated), var(--bg-surface)); border: 1px solid var(--border-subtle);`}
                 >
                   <div class="flex items-start justify-between gap-4">
                     <div class="flex-1 min-w-0">
-                      <h3 class="font-semibold text-base text-slate-900 group-hover:text-indigo-600 transition-colors mb-2">
+                      <h3
+                        class="meal-card-title font-semibold text-base transition-colors mb-2"
+                        style="color: var(--text-primary);"
+                      >
                         {meal.data.title}
                       </h3>
 
                       {/* Recipe Components Preview */}
                       <div class="flex flex-wrap gap-2 text-sm">
                         {meal.data.main && (
-                          <span class="inline-flex items-center gap-1.5 px-2.5 py-1 bg-slate-50 text-slate-600 rounded-lg text-xs">
-                            <span class="text-slate-400 font-medium">Main:</span>
-                            <span class="font-medium text-slate-700">
+                          <span
+                            class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg text-xs"
+                            style={`background: var(--bg-hover); color: var(--text-secondary);`}
+                          >
+                            <span class="font-medium" style="color: var(--text-tertiary);">
+                              Main:
+                            </span>
+                            <span class="font-medium" style="color: var(--text-secondary);">
                               {getRecipeTitle(meal.data.main)}
                             </span>
                           </span>
                         )}
                         {meal.data.sides && meal.data.sides.length > 0 && (
-                          <span class="inline-flex items-center gap-1 px-2.5 py-1 bg-slate-50 text-slate-500 rounded-lg text-xs font-medium">
+                          <span
+                            class="inline-flex items-center gap-1 px-2.5 py-1 rounded-lg text-xs font-medium"
+                            style={`background: var(--bg-hover); color: var(--text-secondary);`}
+                          >
                             +{meal.data.sides.length} side{meal.data.sides.length > 1 ? 's' : ''}
                           </span>
                         )}
@@ -125,7 +151,10 @@ function getRecipeTitle(slug: string): string {
                       {meal.data.bestFor && meal.data.bestFor.length > 0 && (
                         <div class="flex flex-wrap gap-1.5 mt-3">
                           {meal.data.bestFor.map((day) => (
-                            <span class="text-2xs font-semibold uppercase tracking-wide px-2 py-0.5 bg-indigo-50 text-indigo-600 rounded border border-indigo-100">
+                            <span
+                              class="text-2xs font-semibold uppercase tracking-wide px-2 py-0.5 rounded"
+                              style="background: rgba(201,169,97,0.12); color: var(--accent-gold); border: 1px solid rgba(201,169,97,0.2);"
+                            >
                               {day}
                             </span>
                           ))}
@@ -136,7 +165,8 @@ function getRecipeTitle(slug: string): string {
                     {/* Arrow */}
                     <div class="flex-shrink-0 mt-1">
                       <svg
-                        class="w-4 h-4 text-slate-300 group-hover:text-indigo-400 group-hover:translate-x-0.5 transition-all"
+                        class="meal-card-arrow w-4 h-4 group-hover:translate-x-0.5 transition-all"
+                        style="color: var(--text-tertiary);"
                         fill="none"
                         stroke="currentColor"
                         viewBox="0 0 24 24"
@@ -161,13 +191,32 @@ function getRecipeTitle(slug: string): string {
     {
       meals.length === 0 && (
         <div class="text-center py-20">
-          <div class="w-14 h-14 mx-auto mb-4 rounded-2xl bg-slate-100 flex items-center justify-center">
+          <div
+            class="w-14 h-14 mx-auto mb-4 rounded-2xl flex items-center justify-center"
+            style="background: var(--bg-elevated);"
+          >
             <span class="text-2xl">🍽️</span>
           </div>
-          <p class="text-slate-600 font-medium">No meals created yet.</p>
-          <p class="text-slate-400 text-sm mt-1">Meal compositions will appear here.</p>
+          <p class="font-medium" style="color: var(--text-secondary);">
+            No meals created yet.
+          </p>
+          <p class="text-sm mt-1" style="color: var(--text-tertiary);">
+            Meal compositions will appear here.
+          </p>
         </div>
       )
     }
   </div>
 </Layout>
+
+<style>
+  .meal-card:hover {
+    border-color: var(--accent-gold) !important;
+  }
+  .meal-card:hover .meal-card-title {
+    color: var(--accent-gold) !important;
+  }
+  .meal-card:hover .meal-card-arrow {
+    color: var(--accent-gold) !important;
+  }
+</style>

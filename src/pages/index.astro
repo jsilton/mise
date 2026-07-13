@@ -25,11 +25,14 @@ const searchIndexData: RecipeSearchItem[] = recipes.map((recipe) => ({
   <!-- Page Header -->
   <div class="flex flex-col md:flex-row justify-between items-start md:items-end mb-10 gap-6">
     <div>
-      <h1 class="text-3xl font-bold text-slate-900 dark:text-slate-100 tracking-tight">
+      <h1
+        class="text-3xl font-display font-semibold tracking-tight"
+        style="color: var(--text-primary);"
+      >
         The Codex
       </h1>
-      <p class="text-slate-500 dark:text-slate-400 mt-1.5 text-sm">
-        Exploring {recipes.length} family recipes.
+      <p class="mt-1.5 text-sm" style="color: var(--text-secondary);">
+        Exploring <span style="color: var(--accent-gold);">{recipes.length}</span> family recipes.
       </p>
     </div>
     <div class="w-full md:w-80">
@@ -41,17 +44,19 @@ const searchIndexData: RecipeSearchItem[] = recipes.map((recipe) => ({
   <FilterPanel {recipes} />
 
   <!-- Recipe Grid -->
-  <div id="recipeGrid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
+  <div id="recipeGrid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
     {recipes.map((recipe) => <RecipeCard {recipe} />)}
   </div>
 
   <!-- No Results State -->
   <div id="noResults" class="hidden text-center py-20">
     <div
-      class="inline-flex items-center justify-center w-16 h-16 rounded-full bg-slate-100 dark:bg-slate-800 mb-4"
+      class="inline-flex items-center justify-center w-16 h-16 rounded-full mb-4"
+      style="background: var(--bg-elevated);"
     >
       <svg
-        class="w-8 h-8 text-slate-400 dark:text-slate-600"
+        class="w-8 h-8"
+        style="color: var(--text-tertiary);"
         fill="none"
         viewBox="0 0 24 24"
         stroke="currentColor"
@@ -64,13 +69,14 @@ const searchIndexData: RecipeSearchItem[] = recipes.map((recipe) => ({
         ></path>
       </svg>
     </div>
-    <h3 class="text-lg font-medium text-slate-900 dark:text-slate-100">No recipes found</h3>
-    <p class="text-slate-500 dark:text-slate-400 mt-1">
+    <h3 class="text-lg font-medium" style="color: var(--text-primary);">No recipes found</h3>
+    <p class="mt-1" style="color: var(--text-secondary);">
       Try adjusting your search terms or filters.
     </p>
     <button
       id="clearSearch"
-      class="mt-4 text-sm font-medium text-indigo-600 dark:text-indigo-400 hover:text-indigo-800 dark:hover:text-indigo-300 hover:underline"
+      class="mt-4 text-sm font-medium hover:underline"
+      style="color: var(--accent-gold);"
     >
       Clear search
     </button>

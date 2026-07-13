@@ -10,16 +10,28 @@ const { servings } = Astro.props;
 const baseServings = parseInt(servings) || 4;
 ---
 
-<div id="recipe-scaler" class="mb-6 p-4 bg-slate-50/80 dark:bg-slate-800/50 rounded-lg border border-slate-200/80 dark:border-slate-700/80">
+<div
+  id="recipe-scaler"
+  class="mb-6 p-4 rounded-lg"
+  style={`background: var(--bg-elevated); border: 1px solid var(--border-subtle);`}
+>
   <div class="flex items-center justify-between">
     <div class="flex items-center gap-4">
-      <label for="servings-input" class="text-sm font-semibold text-slate-700 dark:text-slate-300">
+      <label
+        for="servings-input"
+        class="text-sm font-semibold"
+        style="color: var(--text-secondary);"
+      >
         Servings:
       </label>
-      <div class="flex items-center gap-2 bg-white dark:bg-slate-700 rounded-lg border border-slate-300 dark:border-slate-600 p-1">
+      <div
+        class="flex items-center gap-2 rounded-lg p-1"
+        style={`background: var(--bg-surface); border: 1px solid var(--border-subtle);`}
+      >
         <button
           id="servings-decrease"
-          class="px-3 py-1 text-slate-600 dark:text-slate-300 hover:text-slate-900 dark:hover:text-slate-100 hover:bg-slate-100 dark:hover:bg-slate-600 rounded transition-colors font-semibold"
+          class="scaler-btn px-3 py-1 rounded transition-colors font-semibold"
+          style="color: var(--text-secondary);"
           aria-label="Decrease servings"
         >
           −
@@ -30,23 +42,26 @@ const baseServings = parseInt(servings) || 4;
           min="1"
           max="20"
           value={baseServings}
-          class="w-12 text-center font-semibold text-slate-900 dark:text-slate-100 bg-transparent border-0 focus:ring-0"
+          class="w-12 text-center font-semibold bg-transparent border-0 focus:ring-0 focus:outline-none"
+          style="color: var(--text-primary);"
         />
         <button
           id="servings-increase"
-          class="px-3 py-1 text-slate-600 dark:text-slate-300 hover:text-slate-900 dark:hover:text-slate-100 hover:bg-slate-100 dark:hover:bg-slate-600 rounded transition-colors font-semibold"
+          class="scaler-btn px-3 py-1 rounded transition-colors font-semibold"
+          style="color: var(--text-secondary);"
           aria-label="Increase servings"
         >
           +
         </button>
       </div>
-      <span class="text-sm text-slate-500 dark:text-slate-400">
+      <span class="text-sm" style="color: var(--text-tertiary);">
         (Base: {baseServings} servings)
       </span>
     </div>
     <button
       id="reset-servings"
-      class="text-xs font-medium text-indigo-600 hover:text-indigo-700 hover:underline transition-colors"
+      class="reset-link text-xs font-medium transition-colors"
+      style="color: var(--accent-gold);"
     >
       Reset
     </button>
@@ -62,11 +77,7 @@ const baseServings = parseInt(servings) || 4;
     const trimmed = str.trim();
 
     // Handle "to taste" and similar non-scalable items
-    if (
-      /^(to taste|as needed|for|oil for|salt and|pinch of|dash of|a bit of)/i.test(
-        trimmed
-      )
-    ) {
+    if (/^(to taste|as needed|for|oil for|salt and|pinch of|dash of|a bit of)/i.test(trimmed)) {
       return null;
     }
 
@@ -304,11 +315,34 @@ const baseServings = parseInt(servings) || 4;
 
 <style is:global>
   .scaled-ingredient {
-    background-color: rgba(251, 191, 36, 0.1);
+    background-color: rgba(201, 169, 97, 0.1);
     transition: background-color 0.2s ease;
   }
 
   .scaled-ingredient:hover {
-    background-color: rgba(251, 191, 36, 0.15);
+    background-color: rgba(201, 169, 97, 0.15);
+  }
+</style>
+
+<style>
+  .scaler-btn:hover {
+    color: var(--text-primary);
+    background: var(--bg-hover);
+  }
+
+  .reset-link:hover {
+    color: var(--accent-gold-bright);
+    text-decoration: underline;
+  }
+
+  /* Hide number input spinners */
+  input[type='number']::-webkit-inner-spin-button,
+  input[type='number']::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  input[type='number'] {
+    -moz-appearance: textfield;
   }
 </style>

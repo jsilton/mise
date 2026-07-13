@@ -34,27 +34,18 @@ const dietaryIcons = {
     '<svg class="w-3 h-3" fill="currentColor" viewBox="0 0 16 16"><path d="M8 1a7 7 0 1 0 0 14A7 7 0 0 0 8 1zm3.5 8.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM5.5 10a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"/></svg>',
 };
 
-// Color scheme for each dietary tag - distinct, accessible colors
-const dietaryColors = {
-  vegan:
-    'bg-emerald-100 dark:bg-emerald-900 text-emerald-700 dark:text-emerald-200 border-emerald-200 dark:border-emerald-700',
-  vegetarian:
-    'bg-lime-100 dark:bg-lime-900 text-lime-700 dark:text-lime-200 border-lime-200 dark:border-lime-700',
-  'gluten-free':
-    'bg-blue-100 dark:bg-blue-900 text-blue-700 dark:text-blue-200 border-blue-200 dark:border-blue-700',
-  'dairy-free':
-    'bg-indigo-100 dark:bg-indigo-900 text-indigo-700 dark:text-indigo-200 border-indigo-200 dark:border-indigo-700',
-  'nut-free':
-    'bg-pink-100 dark:bg-pink-900 text-pink-700 dark:text-pink-200 border-pink-200 dark:border-pink-700',
-  'low-carb':
-    'bg-orange-100 dark:bg-orange-900 text-orange-700 dark:text-orange-200 border-orange-200 dark:border-orange-700',
-  'low-sugar':
-    'bg-rose-100 dark:bg-rose-900 text-rose-700 dark:text-rose-200 border-rose-200 dark:border-rose-700',
-  keto: 'bg-amber-100 dark:bg-amber-900 text-amber-700 dark:text-amber-200 border-amber-200 dark:border-amber-700',
-  'high-protein':
-    'bg-red-100 dark:bg-red-900 text-red-700 dark:text-red-200 border-red-200 dark:border-red-700',
-  'whole30-friendly':
-    'bg-teal-100 dark:bg-teal-900 text-teal-700 dark:text-teal-200 border-teal-200 dark:border-teal-700',
+// Map dietary tag to CSS class name
+const dietaryClassMap: Record<string, string> = {
+  vegan: 'dietary-vegan',
+  vegetarian: 'dietary-vegetarian',
+  'gluten-free': 'dietary-gluten-free',
+  'dairy-free': 'dietary-dairy-free',
+  'nut-free': 'dietary-nut-free',
+  'low-carb': 'dietary-low-carb',
+  'low-sugar': 'dietary-low-sugar',
+  keto: 'dietary-keto',
+  'high-protein': 'dietary-high-protein',
+  'whole30-friendly': 'dietary-whole30-friendly',
 };
 
 // Size classes
@@ -66,7 +57,7 @@ const sizeClasses = {
 const sizeClass = sizeClasses[size];
 
 // Filter dietary tags and get colors
-const validDietaryTags = dietary.filter((tag) => tag in dietaryColors);
+const validDietaryTags = dietary.filter((tag) => tag in dietaryClassMap);
 ---
 
 {
@@ -74,10 +65,9 @@ const validDietaryTags = dietary.filter((tag) => tag in dietaryColors);
     <div class={`flex flex-wrap gap-2 ${className}`}>
       {validDietaryTags.map((tag) => (
         <span
-          class={`inline-flex items-center font-medium rounded-full border transition-colors hover:opacity-80 ${sizeClass} ${dietaryColors[tag as keyof typeof dietaryColors]}`}
+          class={`inline-flex items-center font-medium rounded-full border transition-colors hover:opacity-80 ${sizeClass} ${dietaryClassMap[tag]}`}
           title={tag.charAt(0).toUpperCase() + tag.slice(1)}
         >
-          {}
           <Fragment set:html={dietaryIcons[tag as keyof typeof dietaryIcons]} />
           <span>{tag}</span>
         </span>
@@ -85,3 +75,65 @@ const validDietaryTags = dietary.filter((tag) => tag in dietaryColors);
     </div>
   )
 }
+
+<style>
+  .dietary-vegan {
+    background-color: rgba(16, 185, 129, 0.12);
+    color: #6ee7b7;
+    border-color: rgba(16, 185, 129, 0.2);
+  }
+
+  .dietary-vegetarian {
+    background-color: rgba(132, 204, 22, 0.12);
+    color: #bef264;
+    border-color: rgba(132, 204, 22, 0.2);
+  }
+
+  .dietary-gluten-free {
+    background-color: rgba(59, 130, 246, 0.12);
+    color: #93c5fd;
+    border-color: rgba(59, 130, 246, 0.2);
+  }
+
+  .dietary-dairy-free {
+    background-color: rgba(99, 102, 241, 0.12);
+    color: #a5b4fc;
+    border-color: rgba(99, 102, 241, 0.2);
+  }
+
+  .dietary-nut-free {
+    background-color: rgba(236, 72, 153, 0.12);
+    color: #f9a8d4;
+    border-color: rgba(236, 72, 153, 0.2);
+  }
+
+  .dietary-low-carb {
+    background-color: rgba(249, 115, 22, 0.12);
+    color: #fdba74;
+    border-color: rgba(249, 115, 22, 0.2);
+  }
+
+  .dietary-low-sugar {
+    background-color: rgba(244, 63, 94, 0.12);
+    color: #fda4af;
+    border-color: rgba(244, 63, 94, 0.2);
+  }
+
+  .dietary-keto {
+    background-color: rgba(245, 158, 11, 0.12);
+    color: #fcd34d;
+    border-color: rgba(245, 158, 11, 0.2);
+  }
+
+  .dietary-high-protein {
+    background-color: rgba(239, 68, 68, 0.12);
+    color: #fca5a5;
+    border-color: rgba(239, 68, 68, 0.2);
+  }
+
+  .dietary-whole30-friendly {
+    background-color: rgba(20, 184, 166, 0.12);
+    color: #5eead4;
+    border-color: rgba(20, 184, 166, 0.2);
+  }
+</style>

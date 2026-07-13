@@ -33,7 +33,7 @@ function parseIngredientHtml(str: string): string {
     if (href.startsWith('/recipes/')) {
       href = `${BASE}recipes/${href.slice('/recipes/'.length)}`;
     }
-    return `<a href="${href}" class="text-indigo-600 hover:text-indigo-500 hover:underline font-medium">${text}</a>`;
+    return `<a href="${href}" style="color: var(--accent-link);" class="hover:underline font-medium">${text}</a>`;
   });
   return html;
 }
@@ -76,16 +76,16 @@ function dietaryToDietType(dietary: string[]): string[] {
   const dietMap: Record<string, string> = {
     'gluten-free': 'GlutenFreeDiet',
     'dairy-free': 'DairyFreeDiet',
-    'vegan': 'VeganDiet',
-    'vegetarian': 'VegetarianDiet',
-    'keto': 'KetoDiet',
-    'paleo': 'PaleoDiet',
-    'kosher': 'KosherDiet',
-    'halal': 'HalalDiet',
+    vegan: 'VeganDiet',
+    vegetarian: 'VegetarianDiet',
+    keto: 'KetoDiet',
+    paleo: 'PaleoDiet',
+    kosher: 'KosherDiet',
+    halal: 'HalalDiet',
   };
 
   return dietary
-    .map(d => dietMap[d.toLowerCase()] || null)
+    .map((d) => dietMap[d.toLowerCase()] || null)
     .filter((d): d is string => d !== null);
 }
 
@@ -97,8 +97,8 @@ function getRecipeDescription(body: string): string {
   const chefNoteText = chefNoteMatch[1].trim();
   // Remove markdown formatting and get sentences
   const cleanText = chefNoteText
-    .replace(/\*\*(.*?)\*\*/g, '$1')  // Remove bold
-    .replace(/\*(.*?)\*/g, '$1')      // Remove italic
+    .replace(/\*\*(.*?)\*\*/g, '$1') // Remove bold
+    .replace(/\*(.*?)\*/g, '$1') // Remove italic
     .replace(/\[([^\]]+)\]\([^)]+\)/g, '$1'); // Remove links
 
   // Split by sentence endings and get first 2 sentences
@@ -106,13 +106,17 @@ function getRecipeDescription(body: string): string {
   const matches = cleanText.match(sentenceRegex);
   if (!matches) return recipe.data.title;
 
-  const sentences = matches.slice(0, 2).map(s => s.trim()).join(' ').trim();
+  const sentences = matches
+    .slice(0, 2)
+    .map((s) => s.trim())
+    .join(' ')
+    .trim();
   return sentences || recipe.data.title;
 }
 
 // Get clean ingredients array (remove section dividers)
 function getCleanIngredients(ingredients: string[]): string[] {
-  return ingredients.filter(ing => !isDivider(ing));
+  return ingredients.filter((ing) => !isDivider(ing));
 }
 
 // Build HowToStep array from directions
@@ -140,17 +144,17 @@ function getRecipeInstructions(body: string) {
 
       // Remove markdown formatting
       stepText = stepText
-        .replace(/\*\*(.*?)\*\*/g, '$1')  // Remove bold
-        .replace(/\*(.*?)\*/g, '$1')      // Remove italic
+        .replace(/\*\*(.*?)\*\*/g, '$1') // Remove bold
+        .replace(/\*(.*?)\*/g, '$1') // Remove italic
         .replace(/\[([^\]]+)\]\([^)]+\)/g, '$1'); // Remove links
 
       return {
         '@type': 'HowToStep',
-        'position': stepNum,
-        'text': stepText,
+        position: stepNum,
+        text: stepText,
       };
     })
-    .filter(step => step.text.length > 0);
+    .filter((step) => step.text.length > 0);
 }
 
 // Build the complete JSON-LD schema
@@ -165,16 +169,18 @@ function buildRecipeSchema() {
     ...(recipe.data.flavorProfile || []),
     ...(recipe.data.occasions || []),
     ...(recipe.data.cookingMethods || []),
-  ].filter(k => k && typeof k === 'string').join(', ');
+  ]
+    .filter((k) => k && typeof k === 'string')
+    .join(', ');
 
   const suitableForDiet = dietaryToDietType(recipe.data.dietary || []);
 
   const schema: any = {
     '@context': 'https://schema.org',
     '@type': 'Recipe',
-    'name': recipe.data.title,
-    'description': description,
-    'url': `${BASE}recipes/${recipe.slug}`,
+    name: recipe.data.title,
+    description: description,
+    url: `${BASE}recipes/${recipe.slug}`,
   };
 
   if (recipe.data.prepTime) {
@@ -223,7 +229,7 @@ function buildRecipeSchema() {
   if (recipe.data.origin) {
     schema['author'] = {
       '@type': 'Person',
-      'name': recipe.data.origin,
+      name: recipe.data.origin,
     };
   }
 
@@ -297,7 +303,7 @@ function buildRecipeSchema() {
             const checkbox = document.createElement('input');
             checkbox.type = 'checkbox';
             checkbox.className =
-              'mt-1 mr-3 h-5 w-5 rounded border-slate-300 text-indigo-500 focus:ring-indigo-500 cursor-pointer shrink-0';
+              'mt-1 mr-3 h-5 w-5 rounded cursor-pointer shrink-0 ingredient-checkbox';
             li.insertBefore(checkbox, li.firstChild);
             li.classList.add('flex', 'items-start', 'gap-3');
           }
@@ -305,7 +311,7 @@ function buildRecipeSchema() {
       });
 
       if (toggleBtn) {
-        toggleBtn.classList.add('ring-2', 'ring-green-500', 'ring-offset-2');
+        toggleBtn.classList.add('cook-mode-active-btn');
         toggleBtn.textContent = 'Exit Cook Mode';
       }
     } else {
@@ -337,7 +343,7 @@ function buildRecipeSchema() {
       });
 
       if (toggleBtn) {
-        toggleBtn.classList.remove('ring-2', 'ring-green-500', 'ring-offset-2');
+        toggleBtn.classList.remove('cook-mode-active-btn');
         toggleBtn.textContent = 'Cook Mode';
       }
     }
@@ -347,10 +353,10 @@ function buildRecipeSchema() {
     const toggleBtn = document.getElementById('cook-mode-toggle');
     if (toggleBtn) {
       if (cookModeActive) {
-        toggleBtn.classList.add('ring-2', 'ring-green-500', 'ring-offset-2');
+        toggleBtn.classList.add('cook-mode-active-btn');
         toggleBtn.textContent = 'Exit Cook Mode';
       } else {
-        toggleBtn.classList.remove('ring-2', 'ring-green-500', 'ring-offset-2');
+        toggleBtn.classList.remove('cook-mode-active-btn');
         toggleBtn.textContent = 'Cook Mode';
       }
     }
@@ -359,7 +365,10 @@ function buildRecipeSchema() {
   // Keyboard shortcut: 'c' to toggle Cook Mode
   function handleKeyPress(e: KeyboardEvent) {
     if ((e.key === 'c' || e.key === 'C') && !e.metaKey && !e.ctrlKey && !e.altKey) {
-      if (e.target instanceof HTMLElement && (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA')) {
+      if (
+        e.target instanceof HTMLElement &&
+        (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA')
+      ) {
         return;
       }
       toggleCookMode();
@@ -401,6 +410,12 @@ function buildRecipeSchema() {
     gap: 2rem;
   }
 
+  .cook-mode-active-btn {
+    box-shadow:
+      0 0 0 2px var(--accent-gold-muted),
+      0 0 12px rgba(201, 169, 97, 0.2);
+  }
+
   .cook-mode-ingredients {
     column-count: 1 !important;
   }
@@ -415,7 +430,7 @@ function buildRecipeSchema() {
   }
 
   .cook-mode-ingredients li:hover {
-    background-color: rgba(226, 232, 240, 0.5);
+    background-color: rgba(201, 169, 97, 0.08);
   }
 
   .cook-mode-ingredients input[type='checkbox'] {
@@ -445,18 +460,24 @@ function buildRecipeSchema() {
     margin-bottom: 1.5rem;
     padding: 1rem;
     border-radius: 0.375rem;
-    background-color: rgba(249, 250, 251, 0.5);
+    background-color: var(--bg-elevated);
     transition: background-color 0.15s;
   }
 
   .cook-mode-content ol li:hover {
-    background-color: rgba(226, 232, 240, 0.5);
+    background-color: var(--bg-hover);
   }
 
   .cook-mode-content ol li input[type='checkbox'] {
     width: 1.25rem;
     height: 1.25rem;
     min-width: 1.25rem;
+  }
+
+  .ingredient-checkbox {
+    accent-color: var(--accent-gold);
+    background-color: var(--bg-elevated);
+    border-color: var(--border-emphasis);
   }
 
   /* Print Styles for Recipe Pages */
@@ -678,15 +699,21 @@ function buildRecipeSchema() {
   <RecipeHeader {recipe} />
 
   <!-- Recipe Content -->
-  <article class="mt-8 bg-white dark:bg-slate-900 rounded-2xl shadow-soft border border-slate-200/80 dark:border-slate-700/80 overflow-hidden" data-url={`${import.meta.env.BASE_URL}recipes/${recipe.slug}`}>
+  <article
+    class="mt-8 rounded-2xl shadow-soft overflow-hidden"
+    style="background: linear-gradient(to bottom, var(--bg-elevated), var(--bg-surface)); border: 1px solid var(--border-subtle);"
+    data-url={`${import.meta.env.BASE_URL}recipes/${recipe.slug}`}
+  >
     <div class="p-6 sm:p-8 grid md:grid-cols-[1fr_1.5fr] gap-10">
       <!-- Ingredients Column -->
       <div>
         <h3
-          class="text-sm font-bold text-slate-900 dark:text-slate-100 mb-4 flex items-center gap-2 border-b border-slate-100 dark:border-slate-700 pb-3 uppercase tracking-wide"
+          class="text-sm font-bold mb-4 flex items-center gap-2 pb-3 uppercase tracking-wide"
+          style="color: var(--text-primary); border-bottom: 1px solid var(--border-subtle);"
         >
           <svg
-            class="w-4 h-4 text-indigo-500"
+            class="w-4 h-4"
+            style="color: var(--accent-gold);"
             fill="none"
             stroke="currentColor"
             viewBox="0 0 24 24"
@@ -707,7 +734,10 @@ function buildRecipeSchema() {
               {recipe.data.ingredients.map((ingredient) =>
                 isDivider(ingredient) ? (
                   <li class="pt-3 first:pt-0">
-                    <span class="text-xs font-bold text-slate-500 dark:text-slate-400 uppercase tracking-wide">
+                    <span
+                      class="text-xs font-bold uppercase tracking-wide"
+                      style="color: var(--text-tertiary);"
+                    >
                       {getDividerLabel(ingredient)}
                     </span>
                   </li>
@@ -715,10 +745,11 @@ function buildRecipeSchema() {
                   <li class="flex items-start group">
                     <input
                       type="checkbox"
-                      class="mt-1 mr-3 h-4 w-4 rounded border-slate-300 dark:border-slate-600 text-indigo-500 focus:ring-indigo-500 cursor-pointer shrink-0 dark:bg-slate-700"
+                      class="mt-1 mr-3 h-4 w-4 rounded cursor-pointer shrink-0 ingredient-checkbox"
                     />
                     <span
-                      class="text-sm text-slate-600 dark:text-slate-400 leading-relaxed group-hover:text-slate-800 dark:group-hover:text-slate-300 transition-colors"
+                      class="text-sm leading-relaxed transition-colors"
+                      style="color: var(--text-secondary);"
                       set:html={parseIngredientHtml(ingredient)}
                     />
                   </li>
@@ -726,7 +757,9 @@ function buildRecipeSchema() {
               )}
             </ul>
           ) : (
-            <p class="text-slate-400 italic text-sm">No ingredients listed.</p>
+            <p class="italic text-sm" style="color: var(--text-tertiary);">
+              No ingredients listed.
+            </p>
           )
         }
       </div>
@@ -738,10 +771,14 @@ function buildRecipeSchema() {
         <!-- PairsWith Section (if available) -->
         {
           recipe.data.pairsWith && recipe.data.pairsWith.length > 0 && (
-            <div class="mt-8 pt-6 border-t border-slate-200 dark:border-slate-700">
-              <h2 class="text-sm font-bold text-slate-900 dark:text-slate-100 mb-4 flex items-center gap-2 border-b border-slate-100 dark:border-slate-700 pb-3 uppercase tracking-wide">
+            <div class="mt-8 pt-6" style="border-top: 1px solid var(--border-subtle);">
+              <h2
+                class="text-sm font-bold mb-4 flex items-center gap-2 pb-3 uppercase tracking-wide"
+                style="color: var(--text-primary); border-bottom: 1px solid var(--border-subtle);"
+              >
                 <svg
-                  class="w-4 h-4 text-indigo-500"
+                  class="w-4 h-4"
+                  style="color: var(--accent-gold);"
                   fill="none"
                   stroke="currentColor"
                   viewBox="0 0 24 24"
@@ -760,7 +797,8 @@ function buildRecipeSchema() {
                   <li>
                     <a
                       href={`${import.meta.env.BASE_URL}recipes/${pairing}`}
-                      class="text-sm text-indigo-600 dark:text-indigo-400 hover:text-indigo-500 dark:hover:text-indigo-300 hover:underline font-medium"
+                      class="text-sm hover:underline font-medium"
+                      style="color: var(--accent-link);"
                     >
                       {pairing
                         .split('-')
@@ -777,10 +815,14 @@ function buildRecipeSchema() {
         <!-- Nutrition Section (if available) -->
         {
           recipe.data.nutrition && (
-            <div class="mt-8 pt-6 border-t border-slate-200 dark:border-slate-700">
-              <h2 class="text-sm font-bold text-slate-900 dark:text-slate-100 mb-4 flex items-center gap-2 border-b border-slate-100 dark:border-slate-700 pb-3 uppercase tracking-wide">
+            <div class="mt-8 pt-6" style="border-top: 1px solid var(--border-subtle);">
+              <h2
+                class="text-sm font-bold mb-4 flex items-center gap-2 pb-3 uppercase tracking-wide"
+                style="color: var(--text-primary); border-bottom: 1px solid var(--border-subtle);"
+              >
                 <svg
-                  class="w-4 h-4 text-green-500"
+                  class="w-4 h-4"
+                  style="color: var(--accent-gold);"
                   fill="none"
                   stroke="currentColor"
                   viewBox="0 0 24 24"
@@ -797,39 +839,68 @@ function buildRecipeSchema() {
               <div class="overflow-x-auto">
                 <table class="w-full text-sm">
                   <tbody>
-                    <tr class="border-b border-slate-100 dark:border-slate-700">
-                      <td class="py-2 pr-4 font-semibold text-slate-700 dark:text-slate-300">Calories</td>
-                      <td class="py-2 text-right text-slate-900 dark:text-slate-100">{recipe.data.nutrition.calories}</td>
+                    <tr style="border-bottom: 1px solid var(--border-subtle);">
+                      <td class="py-2 pr-4 font-semibold" style="color: var(--text-secondary);">
+                        Calories
+                      </td>
+                      <td class="py-2 text-right" style="color: var(--text-primary);">
+                        {recipe.data.nutrition.calories}
+                      </td>
                     </tr>
-                    <tr class="border-b border-slate-100 dark:border-slate-700">
-                      <td class="py-2 pr-4 font-semibold text-slate-700 dark:text-slate-300">Protein</td>
-                      <td class="py-2 text-right text-slate-900 dark:text-slate-100">{recipe.data.nutrition.protein.toFixed(1)}g</td>
+                    <tr style="border-bottom: 1px solid var(--border-subtle);">
+                      <td class="py-2 pr-4 font-semibold" style="color: var(--text-secondary);">
+                        Protein
+                      </td>
+                      <td class="py-2 text-right" style="color: var(--text-primary);">
+                        {recipe.data.nutrition.protein.toFixed(1)}g
+                      </td>
                     </tr>
-                    <tr class="border-b border-slate-100 dark:border-slate-700">
-                      <td class="py-2 pr-4 font-semibold text-slate-700 dark:text-slate-300">Carbohydrates</td>
-                      <td class="py-2 text-right text-slate-900 dark:text-slate-100">{recipe.data.nutrition.carbs.toFixed(1)}g</td>
+                    <tr style="border-bottom: 1px solid var(--border-subtle);">
+                      <td class="py-2 pr-4 font-semibold" style="color: var(--text-secondary);">
+                        Carbohydrates
+                      </td>
+                      <td class="py-2 text-right" style="color: var(--text-primary);">
+                        {recipe.data.nutrition.carbs.toFixed(1)}g
+                      </td>
                     </tr>
-                    <tr class="border-b border-slate-100 dark:border-slate-700">
-                      <td class="py-2 pr-4 font-semibold text-slate-700 dark:text-slate-300">Fat</td>
-                      <td class="py-2 text-right text-slate-900 dark:text-slate-100">{recipe.data.nutrition.fat.toFixed(1)}g</td>
+                    <tr style="border-bottom: 1px solid var(--border-subtle);">
+                      <td class="py-2 pr-4 font-semibold" style="color: var(--text-secondary);">
+                        Fat
+                      </td>
+                      <td class="py-2 text-right" style="color: var(--text-primary);">
+                        {recipe.data.nutrition.fat.toFixed(1)}g
+                      </td>
                     </tr>
-                    <tr class="border-b border-slate-100 dark:border-slate-700">
-                      <td class="py-2 pr-4 font-semibold text-slate-700 dark:text-slate-300">Fiber</td>
-                      <td class="py-2 text-right text-slate-900 dark:text-slate-100">{recipe.data.nutrition.fiber.toFixed(1)}g</td>
+                    <tr style="border-bottom: 1px solid var(--border-subtle);">
+                      <td class="py-2 pr-4 font-semibold" style="color: var(--text-secondary);">
+                        Fiber
+                      </td>
+                      <td class="py-2 text-right" style="color: var(--text-primary);">
+                        {recipe.data.nutrition.fiber.toFixed(1)}g
+                      </td>
                     </tr>
-                    <tr class="border-b border-slate-100 dark:border-slate-700">
-                      <td class="py-2 pr-4 font-semibold text-slate-700 dark:text-slate-300">Sugar</td>
-                      <td class="py-2 text-right text-slate-900 dark:text-slate-100">{recipe.data.nutrition.sugar.toFixed(1)}g</td>
+                    <tr style="border-bottom: 1px solid var(--border-subtle);">
+                      <td class="py-2 pr-4 font-semibold" style="color: var(--text-secondary);">
+                        Sugar
+                      </td>
+                      <td class="py-2 text-right" style="color: var(--text-primary);">
+                        {recipe.data.nutrition.sugar.toFixed(1)}g
+                      </td>
                     </tr>
                     <tr>
-                      <td class="py-2 pr-4 font-semibold text-slate-700 dark:text-slate-300">Sodium</td>
-                      <td class="py-2 text-right text-slate-900 dark:text-slate-100">{recipe.data.nutrition.sodium.toFixed(0)}mg</td>
+                      <td class="py-2 pr-4 font-semibold" style="color: var(--text-secondary);">
+                        Sodium
+                      </td>
+                      <td class="py-2 text-right" style="color: var(--text-primary);">
+                        {recipe.data.nutrition.sodium.toFixed(0)}mg
+                      </td>
                     </tr>
                   </tbody>
                 </table>
               </div>
-              <p class="mt-3 text-xs text-slate-600 dark:text-slate-400 italic">
-                Per serving (1/{recipe.data.servings || '4'} of recipe). Estimated from standard ingredient data. Actual nutrition may vary.
+              <p class="mt-3 text-xs italic" style="color: var(--text-tertiary);">
+                Per serving (1/{recipe.data.servings || '4'} of recipe). Estimated from standard
+                ingredient data. Actual nutrition may vary.
               </p>
             </div>
           )
