@@ -44,6 +44,20 @@ The wok's curved shape and high heat create an environment where:
 - **Electric or flat-top (challenging):** Wok won't sit flush; you lose direct contact and heat transfer. Wok hei is nearly impossible without modification (wok ring or adapters)
 - **Induction (possible):** Use an induction-compatible carbon steel wok; heat transfer is slower than gas but manageable with patience
 
+### The BTU Problem (and What to Do About It)
+
+Be honest about the ceiling. A home range burner tops out around **12,000 BTU**. A commercial Chinese wok burner runs **65,000 BTU or more**. That gap is why a home stir-fry can follow every rule and still not taste like the restaurant — it isn't technique, it's thermal mass and recovery time.
+
+Three real workarounds, in order of how much they help:
+
+1. **An outdoor wok burner** (a turkey-fryer-style ring or a dedicated jet burner). This actually closes the gap. Everything else is compensation.
+2. **Cook in smaller batches than feels necessary** — and for a crowd, run the entire dish twice rather than doubling it. Half a pound of protein at a time. The pan can't recover from a full load, so stop asking it to.
+3. **Use the strongest burner on the range and preheat longer than feels right.** Recovery time between additions is the scarce resource, not peak temperature.
+
+(J. Kenji López-Alt's "torch hei" — sweeping a kitchen torch over the finished dish on a sheet pan — is a documented fourth option if you happen to own a torch. It works, but it's equipment-dependent and not assumed anywhere in this codex.)
+
+One free technique that costs nothing: **pour liquid seasoning down the side of the wok, not into the middle.** Soy sauce, Shaoxing wine, and stir-fry sauces sear against the hot metal on the way down and pick up a caramelized, faintly smoky note. Poured into the center they land on food and just steam.
+
 ### Temperature Expectations
 
 - Your wok should be screaming hot — a drop of water should evaporate in a fraction of a second

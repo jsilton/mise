@@ -30,7 +30,7 @@ seasons:
 nutritionalDensity: light
 leftovers: poor
 pairsWith:
-  - doc-cheys-chinese-lomein
+  - lo-mein
   - har-gow-dim-sum-shrimp-dumplings
   - mongolian-beef
 ingredients:

@@ -1,17 +1,17 @@
 ---
 title: Lo Mein Night
 template: bowl
-main: doc-cheys-chinese-lomein
+main: lo-mein
 sides: [smashed-cucumber-salad, steamed-edamame]
-totalPrepTime: 20 min
+totalPrepTime: 30 min
 totalCookTime: 15 min
-totalActiveTime: 25 min
-overallDifficulty: easy
+totalActiveTime: 30 min
+overallDifficulty: intermediate
 cuisines: [Chinese, American]
 occasions: [weeknight, comfort-food]
 seasons: [year-round]
 nutritionalDensity: moderate
-servings: '4'
+servings: '5'
 bestFor: [monday, tuesday, wednesday, thursday]
 ---
 
@@ -21,16 +21,18 @@ Better-than-takeout lo mein with silky noodles, crisp vegetables, and savory sau
 
 ## Cooking Strategy
 
-1. **Make cucumber salad first** - needs 15+ minutes to marinate
-2. **Prep all stir-fry ingredients** - slice vegetables, make sauce
-3. **Boil noodles** - slightly undercook, they'll finish in the wok
-4. **Steam broccoli** while prepping
-5. **Stir-fry vegetables** - high heat, quick cooking
-6. **Add noodles and sauce** - toss until coated
-7. **Serve immediately** with cucumber salad on the side
+1. **Start the protein** - shrimp brine or chicken velvet, then straight into the fridge for 15 minutes
+2. **Make the cucumber salad** - it needs that same 15 minutes to marinate, so the two run in parallel
+3. **Whisk the sauce and set the station** - every bowl in reach, in cooking order, before the burner goes on
+4. **Boil the noodles** - 45-60 seconds shy of package time, then toss with oil and a spoonful of sauce
+5. **Steam the edamame** while the wok heats
+6. **Sear the protein in two batches** and pull it to a plate
+7. **Aromatics, vegetables, then noodles and sauce** - high heat, constant tossing
+8. **Protein back in off the heat**, finish with black vinegar, serve immediately
 
 ## Notes
 
-- Fresh lo mein noodles are best, but dried work in a pinch
+- Fresh lo mein noodles are best, but dried egg noodles work in a pinch
+- Shrimp or chicken both work — see the variations on the recipe for pork and tofu
 - Add extra vegetables based on what's in the fridge
-- Leftovers reheat well in a hot pan with a splash of water
+- Leftovers reheat well in a hot dry pan with a splash of water; the microwave turns the noodles gummy

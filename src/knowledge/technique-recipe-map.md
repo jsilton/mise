@@ -4,22 +4,22 @@ Maps which recipes demonstrate each culinary technique.
 
 ## Overview
 
-Total Recipes: 510
+Total Recipes: 511
 Total Techniques: 9
 
 ## Summary
 
 | Technique                                | Slug                   | Recipe Count |
 | ---------------------------------------- | ---------------------- | ------------ |
-| Wok Hei (Breath of the Wok)              | `wok-hei`              | 497          |
-| Butter Finish (Monter au Beurre)         | `butter-finish-sauce`  | 482          |
+| Wok Hei (Breath of the Wok)              | `wok-hei`              | 498          |
+| Butter Finish (Monter au Beurre)         | `butter-finish-sauce`  | 483          |
 | Pasta Water Emulsification               | `pasta-emulsification` | 476          |
 | Braising (Low and Slow)                  | `braising`             | 473          |
-| Velveting (Chinese Protein Prep)         | `velveting`            | 424          |
+| Velveting (Chinese Protein Prep)         | `velveting`            | 425          |
 | Pan-Searing & The Maillard Reaction      | `searing`              | 407          |
 | Brining (Wet and Dry)                    | `brining`              | 299          |
 | Sushi-Zu (Sushi Vinegar Seasoning Ratio) | `sushi-zu-ratio`       | 86           |
-| The Dam Method (Sushi Rolling)           | `sushi-dam-method`     | 43           |
+| The Dam Method (Sushi Rolling)           | `sushi-dam-method`     | 42           |
 
 ## Recipes by Technique
 
@@ -161,7 +161,9 @@ Recipes:
 - `crispy-baked-chicken-sliders`
 - `crispy-black-bean-tacos`
 - `crispy-oven-zucchini-fries`
+- `crispy-pancetta-sweet-pea-lemon-ricotta-pasta`
 - `crispy-parmesan-roasted-broccoli`
+- `crispy-shallots`
 - `crispy-sheet-pan-gnocchi-and-veggies`
 - `crispy-smashed-potatoes`
 - `crock-pot-hot-chocolate`
@@ -177,7 +179,6 @@ Recipes:
 - `dal-tadka`
 - `dan-dan-noodles`
 - `dashi-japanese-sea-stock`
-- `doc-cheys-chinese-lomein`
 - `double-chocolate-cookies`
 - `double-chocolate-layer-cake`
 - `drunken-noodles-pad-kee-mao`
@@ -384,7 +385,6 @@ Recipes:
 - `ratatouille`
 - `red-velvet-cupcakes`
 - `red-zone-margarita`
-- `restaurant-style-chicken-lo-mein`
 - `rich-coconut-rice`
 - `ricotta-toast-with-honey`
 - `roast-turkey-breast`
@@ -407,6 +407,7 @@ Recipes:
 - `sausage-breakfast-casserole`
 - `sausage-shrimp-and-quinoa-skillet`
 - `sauteed-mushrooms-with-thyme`
+- `scallion-shallot-oil`
 - `seafood-chorizo-tacos`
 - `seared-salmon-with-summer-vegetables`
 - `seared-scallops-with-a-corn-bacon-and-avocado-relish`
@@ -662,7 +663,9 @@ Recipes:
 - `crispy-baked-chicken-sliders`
 - `crispy-black-bean-tacos`
 - `crispy-oven-zucchini-fries`
+- `crispy-pancetta-sweet-pea-lemon-ricotta-pasta`
 - `crispy-parmesan-roasted-broccoli`
+- `crispy-shallots`
 - `crispy-sheet-pan-gnocchi-and-veggies`
 - `crispy-smashed-potatoes`
 - `crock-pot-hot-chocolate`
@@ -678,7 +681,6 @@ Recipes:
 - `dal-tadka`
 - `dan-dan-noodles`
 - `dashi-japanese-sea-stock`
-- `doc-cheys-chinese-lomein`
 - `double-chocolate-cookies`
 - `double-chocolate-layer-cake`
 - `drunken-noodles-pad-kee-mao`
@@ -879,7 +881,6 @@ Recipes:
 - `ratatouille`
 - `red-velvet-cupcakes`
 - `red-zone-margarita`
-- `restaurant-style-chicken-lo-mein`
 - `rich-coconut-rice`
 - `ricotta-toast-with-honey`
 - `roast-turkey-breast`
@@ -902,6 +903,7 @@ Recipes:
 - `sausage-breakfast-casserole`
 - `sausage-shrimp-and-quinoa-skillet`
 - `sauteed-mushrooms-with-thyme`
+- `scallion-shallot-oil`
 - `seafood-chorizo-tacos`
 - `seared-salmon-with-summer-vegetables`
 - `seared-scallops-with-a-corn-bacon-and-avocado-relish`
@@ -1150,7 +1152,9 @@ Recipes:
 - `crispy-baked-chicken-sliders`
 - `crispy-black-bean-tacos`
 - `crispy-oven-zucchini-fries`
+- `crispy-pancetta-sweet-pea-lemon-ricotta-pasta`
 - `crispy-parmesan-roasted-broccoli`
+- `crispy-shallots`
 - `crispy-sheet-pan-gnocchi-and-veggies`
 - `crispy-smashed-potatoes`
 - `crock-pot-hot-chocolate`
@@ -1165,7 +1169,6 @@ Recipes:
 - `dal-tadka`
 - `dan-dan-noodles`
 - `dashi-japanese-sea-stock`
-- `doc-cheys-chinese-lomein`
 - `double-chocolate-cookies`
 - `double-chocolate-layer-cake`
 - `drunken-noodles-pad-kee-mao`
@@ -1322,7 +1325,6 @@ Recipes:
 - `one-pot-spicy-thai-noodles`
 - `oreo-chocolate-cream-cheesecake`
 - `overnight-oats`
-- `pad-see-ew-thai-stir-fried-noodles`
 - `pad-thai`
 - `pad-woon-sen`
 - `pan-fried-noodles-with-shrimp`
@@ -1361,7 +1363,6 @@ Recipes:
 - `ratatouille`
 - `red-velvet-cupcakes`
 - `red-zone-margarita`
-- `restaurant-style-chicken-lo-mein`
 - `rich-coconut-rice`
 - `ricotta-toast-with-honey`
 - `roast-turkey-breast`
@@ -1384,6 +1385,7 @@ Recipes:
 - `sausage-breakfast-casserole`
 - `sausage-shrimp-and-quinoa-skillet`
 - `sauteed-mushrooms-with-thyme`
+- `scallion-shallot-oil`
 - `seafood-chorizo-tacos`
 - `seared-salmon-with-summer-vegetables`
 - `seared-scallops-with-a-corn-bacon-and-avocado-relish`
@@ -1633,7 +1635,9 @@ Recipes:
 - `crispy-baked-chicken-sliders`
 - `crispy-black-bean-tacos`
 - `crispy-oven-zucchini-fries`
+- `crispy-pancetta-sweet-pea-lemon-ricotta-pasta`
 - `crispy-parmesan-roasted-broccoli`
+- `crispy-shallots`
 - `crispy-sheet-pan-gnocchi-and-veggies`
 - `crispy-smashed-potatoes`
 - `crock-pot-hot-chocolate`
@@ -1649,7 +1653,6 @@ Recipes:
 - `dal-tadka`
 - `dan-dan-noodles`
 - `dashi-japanese-sea-stock`
-- `doc-cheys-chinese-lomein`
 - `double-chocolate-cookies`
 - `double-chocolate-layer-cake`
 - `drunken-noodles-pad-kee-mao`
@@ -1807,7 +1810,6 @@ Recipes:
 - `one-pot-spicy-thai-noodles`
 - `oreo-chocolate-cream-cheesecake`
 - `overnight-oats`
-- `pad-see-ew-thai-stir-fried-noodles`
 - `pad-thai`
 - `pad-woon-sen`
 - `pan-fried-noodles-with-shrimp`
@@ -1846,7 +1848,6 @@ Recipes:
 - `ratatouille`
 - `red-velvet-cupcakes`
 - `red-zone-margarita`
-- `restaurant-style-chicken-lo-mein`
 - `rich-coconut-rice`
 - `ricotta-toast-with-honey`
 - `roast-turkey-breast`
@@ -1869,6 +1870,7 @@ Recipes:
 - `sausage-breakfast-casserole`
 - `sausage-shrimp-and-quinoa-skillet`
 - `sauteed-mushrooms-with-thyme`
+- `scallion-shallot-oil`
 - `seafood-chorizo-tacos`
 - `seared-salmon-with-summer-vegetables`
 - `seared-scallops-with-a-corn-bacon-and-avocado-relish`
@@ -2091,7 +2093,9 @@ Recipes:
 - `crispy-baked-chicken-sliders`
 - `crispy-black-bean-tacos`
 - `crispy-oven-zucchini-fries`
+- `crispy-pancetta-sweet-pea-lemon-ricotta-pasta`
 - `crispy-parmesan-roasted-broccoli`
+- `crispy-shallots`
 - `crispy-sheet-pan-gnocchi-and-veggies`
 - `crispy-smashed-potatoes`
 - `crock-pot-hot-chocolate`
@@ -2107,7 +2111,6 @@ Recipes:
 - `dal-tadka`
 - `dan-dan-noodles`
 - `dashi-japanese-sea-stock`
-- `doc-cheys-chinese-lomein`
 - `drunken-noodles-pad-kee-mao`
 - `dutch-baby-pancake`
 - `easy-baked-turkey-meatballs`
@@ -2284,7 +2287,6 @@ Recipes:
 - `ratatouille`
 - `red-velvet-cupcakes`
 - `red-zone-margarita`
-- `restaurant-style-chicken-lo-mein`
 - `rich-coconut-rice`
 - `ricotta-toast-with-honey`
 - `roast-turkey-breast`
@@ -2307,6 +2309,7 @@ Recipes:
 - `sausage-breakfast-casserole`
 - `sausage-shrimp-and-quinoa-skillet`
 - `sauteed-mushrooms-with-thyme`
+- `scallion-shallot-oil`
 - `seafood-chorizo-tacos`
 - `seared-salmon-with-summer-vegetables`
 - `seared-scallops-with-a-corn-bacon-and-avocado-relish`
@@ -2529,7 +2532,9 @@ Recipes:
 - `creamy-garlicky-shrimp-skillet`
 - `creamy-polenta`
 - `creamy-spinach-lemon-chicken-dinnner`
+- `crispy-pancetta-sweet-pea-lemon-ricotta-pasta`
 - `crispy-parmesan-roasted-broccoli`
+- `crispy-shallots`
 - `crispy-sheet-pan-gnocchi-and-veggies`
 - `crispy-smashed-potatoes`
 - `crock-pot-hot-chocolate`
@@ -2541,7 +2546,6 @@ Recipes:
 - `cucumber-raita`
 - `curried-carrot-and-apple-soup`
 - `custard-mac-and-pimento-cheese`
-- `doc-cheys-chinese-lomein`
 - `double-chocolate-cookies`
 - `double-chocolate-layer-cake`
 - `drunken-noodles-pad-kee-mao`
@@ -2677,7 +2681,6 @@ Recipes:
 - `one-pot-chicken-meatballs-with-greens`
 - `oreo-chocolate-cream-cheesecake`
 - `overnight-oats`
-- `pad-see-ew-thai-stir-fried-noodles`
 - `pad-thai`
 - `pad-woon-sen`
 - `pan-fried-noodles-with-shrimp`
@@ -2710,7 +2713,6 @@ Recipes:
 - `ratatouille`
 - `red-velvet-cupcakes`
 - `red-zone-margarita`
-- `restaurant-style-chicken-lo-mein`
 - `rich-coconut-rice`
 - `ricotta-toast-with-honey`
 - `roast-turkey-breast`
@@ -2733,6 +2735,7 @@ Recipes:
 - `sausage-breakfast-casserole`
 - `sausage-shrimp-and-quinoa-skillet`
 - `sauteed-mushrooms-with-thyme`
+- `scallion-shallot-oil`
 - `seafood-chorizo-tacos`
 - `seared-salmon-with-summer-vegetables`
 - `seared-scallops-with-a-corn-bacon-and-avocado-relish`
@@ -2916,6 +2919,8 @@ Recipes:
 - `crispy-baked-chicken-sliders`
 - `crispy-black-bean-tacos`
 - `crispy-oven-zucchini-fries`
+- `crispy-pancetta-sweet-pea-lemon-ricotta-pasta`
+- `crispy-shallots`
 - `crockpot-mac-and-cheese`
 - `crockpot-vegetarian-chili`
 - `crustless-sausage-and-spinach-quiche`
@@ -2925,7 +2930,6 @@ Recipes:
 - `dal-tadka`
 - `dan-dan-noodles`
 - `dashi-japanese-sea-stock`
-- `doc-cheys-chinese-lomein`
 - `drunken-noodles-pad-kee-mao`
 - `easy-baked-turkey-meatballs`
 - `easy-cinnamon-french-toast-sticks`
@@ -3021,7 +3025,6 @@ Recipes:
 - `one-pot-chicken-meatballs-with-greens`
 - `one-pot-spicy-thai-noodles`
 - `overnight-oats`
-- `pad-see-ew-thai-stir-fried-noodles`
 - `pad-thai`
 - `pad-woon-sen`
 - `pan-fried-noodles-with-shrimp`
@@ -3047,7 +3050,6 @@ Recipes:
 - `quick-seasoned-black-beans`
 - `ratatouille`
 - `red-zone-margarita`
-- `restaurant-style-chicken-lo-mein`
 - `rich-coconut-rice`
 - `roast-turkey-breast`
 - `roasted-brussels-sprouts-with-balsamic`
@@ -3059,6 +3061,7 @@ Recipes:
 - `sausage-breakfast-casserole`
 - `sausage-shrimp-and-quinoa-skillet`
 - `sauteed-mushrooms-with-thyme`
+- `scallion-shallot-oil`
 - `seared-salmon-with-summer-vegetables`
 - `seared-scallops-with-a-corn-bacon-and-avocado-relish`
 - `sesame-cucumber-salad`
@@ -3156,7 +3159,6 @@ Recipes:
 - `coconut-curry-shrimp`
 - `coconut-jasmine-rice`
 - `crispy-oven-zucchini-fries`
-- `doc-cheys-chinese-lomein`
 - `double-chocolate-layer-cake`
 - `easy-homemade-pumpkin-pancakes`
 - `extraordinary-chocolate-chip-cookie`
@@ -3201,6 +3203,7 @@ Recipes:
 - `rich-coconut-rice`
 - `saffron-cardamom-rice`
 - `sauteed-mushrooms-with-thyme`
+- `scallion-shallot-oil`
 - `sesame-roasted-edamame`
 - `sheet-pan-pesto-chicken-meal-prep-bowls`
 - `shrimp-and-mango-tacos`
@@ -3238,7 +3241,6 @@ Recipes:
 - `chicken-fingers`
 - `chocolate-chia-pudding`
 - `coconut-jasmine-rice`
-- `doc-cheys-chinese-lomein`
 - `fresh-egg-pasta`
 - `garlic-mashed-mock-potatoes`
 - `good-eats-roast-turkey`

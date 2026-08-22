@@ -17,7 +17,6 @@ const PAIRS_WITH_SUGGESTIONS = {
   'arugula-salad': ['everyday-arugula-salad', 'arugula-feta-salad'],
   'caesar-salad': ['avocado-kale-caesar-salad'],
   'bok-choy': ['steamed-bok-choy-with-oyster-sauce'],
-  'lo-mein': ['doc-cheys-chinese-lomein', 'restaurant-style-chicken-lo-mein'],
   'fried-rice': ['chinese-sausage-fried-rice'],
   'steamed-rice': ['steamed-white-rice', 'basmati-rice'],
   'roasted-broccoli': ['charred-broccoli-with-garlic', 'steamed-broccoli'],

@@ -31,7 +31,7 @@ leftovers: excellent
 pairsWith:
   - har-gow-dim-sum-shrimp-dumplings
   - cantonese-shrimp-and-pork-wontons
-  - doc-cheys-chinese-lomein
+  - lo-mein
 ingredients:
   - '1 cup Neutral Oil (vegetable, canola, or peanut)'
   - 1/2 cup Red Pepper Flakes (gochugaru or crushed red pepper)

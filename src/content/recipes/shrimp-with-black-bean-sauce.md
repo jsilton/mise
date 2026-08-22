@@ -30,7 +30,7 @@ equipment:
   - wok
 pairsWith:
   - basmati-rice
-  - doc-cheys-chinese-lomein
+  - lo-mein
 ingredients:
   - 12 oz Shrimp (21/25 size)
   - 4 oz Ground Pork
