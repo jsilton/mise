@@ -9,10 +9,10 @@ export const dishVisuals: Record<
     alt: 'Mise watercolor illustration: loose fettuccine ribbons with Parmesan and pepper on a white plate.',
   },
   'crispy-parmesan-roasted-broccoli': {
-    file: 'crispy-parmesan-roasted-broccoli-watercolor.webp',
+    file: 'crispy-parmesan-roasted-broccoli-watercolor-v2.webp',
     studyFile: 'crispy-parmesan-roasted-broccoli-study.svg',
     title: 'Roasted broccoli',
-    alt: 'Mise watercolor illustration: branching roasted broccoli florets with Parmesan and a lemon wedge.',
+    alt: 'Mise watercolor illustration: roasted broccoli with finely grated Parmesan and browned tips on a softly suggested pale plate.',
   },
   'dal-tadka': {
     file: 'dal-tadka-watercolor.webp',

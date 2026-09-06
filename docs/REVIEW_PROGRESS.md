@@ -638,3 +638,13 @@ Verification: all 29 QA checks pass and 731 built pages have no missing destinat
 Dessert batch f7453bca2c5450d8c263ce7cb48f295daac424ea deployed successfully in Pages run 34040011758. Live checks passed recovered dessert identities, full times, pudding half/reset quantities and fixed packet strength, fixed cheesecake geometry, cookie allocations, source link, cook mode and mobile/print.
 
 Root held the initial rice/eggplant proposals despite their structural pass: separately cooked rice lost the shared purple cooking liquid, and basket-steamed eggplant discarded flavorful juices. Revised one-pot methods are being evaluated. The isolated mint SVG refinement also remains held after visual comparison; clearer subject size did not resolve the smoothly constructed yogurt forms.
+
+## Broccoli artwork: selective watercolor and recipe fidelity
+
+Published a versioned refinement of the existing broccoli painting, generated with the built-in image tool and inspected against the complete recipe. Removed the unlisted lemon wedge, retained branching cut stems and finely grated Parmesan, quieted the distant crowns, and broke most of the plate contour. Two additional image passes corrected an initially exaggerated pale cheese network. Preserved the former assets and original SVG study; exact prompts and source provenance are recorded. The selected original PNG has an optimized 170 KB WebP for delivery.
+
+The warm paper rectangle is still visible under multiply blending and remains a known visual limitation. This is a concrete illustration improvement, not completion of the full SVG/photo workflow or evidence of a kitchen test. No culinary coverage counts changed.
+
+Verification: all 29 QA checks pass; 731 pages have no broken internal destinations or anchors. Browser checks passed the new 1536 × 1024 asset and descriptive alt, all three persistent palettes, recipe and gallery rendering, the three paintings/four vector studies, mobile/desktop width and print title. Root inspected the rendered mobile Porcelain and desktop Sage recipe views as well as the full-size artwork and card comparison.
+
+Naan batch 9d89464c3b4c6eb5d9173a6e56fecb5b03328bd2 deployed successfully in Pages run 34041157072. Live checks passed complete preparation times, attribution, measured reserves, half/double/reset quantities and yields, unchanged milk temperature, method cues, cook mode, corrected meal dependency and mobile/print.

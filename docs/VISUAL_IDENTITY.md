@@ -61,3 +61,13 @@ Mint-study verification: all 29 QA checks pass. Chrome confirmed four SVG studie
 ## Photo framing prototype: hold for further art direction
 
 Root and an independent reviewer evaluated the isolated subject-protection prototype in `/tmp/mise-photo-framing`. It preserves chosen subject bounds and paper margins, with validated geometry, input escaping and latest-render guards. It remains outside the repository: the mobile controls dominate small previews, and the output still reads as a rectangular photograph with softened edges. It does not achieve the reference images’ selective watercolor forms or an editable dish drawing. Keep current artwork unchanged until a better actual-dish study demonstrates the desired visual character. This is a recorded design decision, not completed recipe imagery.
+
+## Broccoli painting: recipe fidelity and selective edges
+
+Replaced the active broccoli painting with a versioned second site asset, preserving the previous PNG/WebP. Built-in image generation edited the original site painting, with two further targeted passes to reduce an exaggerated cheese pattern. No user reference photograph was uploaded. The selected final PNG is unchanged tool output; its WebP companion is an optimized format conversion, not a further color or drawing edit. Exact prompts are stored in `docs/art-prompts/broccoli-watercolor-v2-{initial,cheese,final}.txt`.
+
+The unlisted lemon wedge is removed. Foreground cut stems and browned crowns remain clear, while peripheral florets and most of the plate rim dissolve into lighter washes. Root read the complete recipe and visually compared the candidate with the original at full and card sizes. The revised image better represents finely grated Parmesan, lemon juice and roasted broccoli; absorbed seasoning does not need invented visible garnish. Updated alt text describes an illustration, not a dish photograph.
+
+The image still has slightly warm baked-in paper and a visible rectangular boundary under multiply blending, especially on Sage. This publication improves recipe fidelity and selective rendering; it does not complete seamless paper compositing, the editable SVG direction, or the actual-photo workflow. The mint SVG refinement remains experimental because its larger, clearer subject still looks digitally sculpted.
+
+Selected source: `public/images/dishes/crispy-parmesan-roasted-broccoli-watercolor-v2.png`, 1536 × 1024. Original built-in output SHA-256: `5d80a889beaf05511da4dceeab1ab74d4792cb8ecb1d5a98f140d67826627ef7`. The shared dish map selects the matching WebP for both recipe pages and the style guide; the original SVG study is unchanged.
