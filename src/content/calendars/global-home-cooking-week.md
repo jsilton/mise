@@ -9,9 +9,9 @@ A week celebrating how the world's home cooks handle busy weeknight dinners - fr
 | Day       | Meal                              | Notes                                              |
 | --------- | --------------------------------- | -------------------------------------------------- |
 | Sunday    | [[sunday-roast-chicken-feast]]    | Italian-style roast with crispy skin and all sides |
-| Monday    | [[garlic-butter-shrimp-recovery]] | Light and fresh for easing back in                |
-| Tuesday   | [[kimchi-jjigae-comfort]]         | Korean warmth - perfect for activity nights         |
-| Wednesday | [[indian-dal-night]]              | Vegetarian Indian weeknight classic               |
-| Thursday  | [[thai-basil-chicken-adventure]]  | Thai aromatic basil chicken with cucumber salad   |
-| Friday    | [[friday-pizza-night]]            | Fun and customizable - everyone builds their own    |
+| Monday    | [[garlic-butter-shrimp-recovery]] | Light and fresh for easing back in                 |
+| Tuesday   | [[kimchi-jjigae-comfort]]         | Korean warmth - perfect for activity nights        |
+| Wednesday | [[indian-dal-night]]              | Dal dinner; prepare dal and aloo gobi ahead        |
+| Thursday  | [[thai-basil-chicken-adventure]]  | Thai aromatic basil chicken with cucumber salad    |
+| Friday    | [[friday-pizza-night]]            | Fun and customizable - everyone builds their own   |
 | Saturday  | [[tonkotsu-ramen-project]]        | Weekend project with family involvement            |

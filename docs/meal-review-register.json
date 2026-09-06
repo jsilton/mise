@@ -1,9 +1,9 @@
 {
   "originalMeals": 88,
   "currentMeals": 86,
-  "individuallyReviewed": 33,
+  "individuallyReviewed": 34,
   "consolidatedAfterReview": 2,
-  "pending": 53,
+  "pending": 52,
   "kitchenTested": 0,
   "records": [
     {
@@ -185,7 +185,14 @@
     },
     {
       "slug": "indian-dal-night",
-      "status": "pending"
+      "status": "editorial-review",
+      "record": "docs/meal-reviews/indian-dal-night.md",
+      "components": [
+        "dal-tadka",
+        "saffron-cardamom-rice",
+        "cucumber-raita",
+        "aloo-gobi-potato-cauliflower-curry"
+      ]
     },
     {
       "slug": "japanese-katsu-curry-night",

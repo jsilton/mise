@@ -1,0 +1,60 @@
+# Independent check: Saffron Cardamom Rice and Indian Dal Night
+
+Date: 2026-09-06. Independent culinary review of the isolated proposals, their complete originals/history and their actual dependencies. No repository changes, review-status changes, deployment or physical cooking test.
+
+## Disposition
+
+**Rice and meal: pass editorial review on the final versions read, including the four-person composition and complete five-person ingredient plan. No outstanding correction is requested.** Root should approve the actual rice and aloo versions together with the existing reviewed dal/raita before assigning the meal its review status. This check does not certify calendars or optional pairing recipes.
+
+## Full read set and provenance
+
+Read both full original snapshots, both creation files and all saved follow-history patches; both complete proposed public files; both individual records; source-comparison.md and README. Read the full current Dal Tadka and Cucumber Raita, the final proposed Aloo Gobi in /tmp/mise-vegetable-curry-review and its complete record, and the already-reviewed basmati/related meal context. My separate completed vegetable-curry independent check approves the final aloo amounts, including the revised salt and half-pan plan.
+
+The rice and meal first appear in repository commit 2a7f38534f68f09454b2c68637139fd966b5584f without a named author or source. Subsequent saved changes concern tags/nutrition/punctuation, not a recovered older family formula. No earlier matching HTML establishes attribution. The drafts correctly preserve the food without inventing a traditional regional or family provenance. The old universal claim about busy Indian families is removed. Indian Curry Night remains a distinct korma/rice/naan dinner with different preparation and composition; no duplicate consolidation is justified.
+
+## Concrete findings and corrections
+
+1. **Rice scaling and missing introductory copy — corrected.** The final draft has a description, leads with 150 g peeled onion rather than a count followed by an unscaled mass, explicitly labels 600 ml water + 60 ml milk as the original batch in its teaching note, and adds the measured cooking water in the method. Half/quarter correction reserves and narrower pans are stated. The fixed full-batch method-water defect is resolved.
+2. **Five-person UI arithmetic — corrected.** The meal now supplies complete quantities for every ingredient in all four components, rather than requiring an unavailable 5/8 scaling preset. It explains ordinary spoon combinations for 5/8 and 3/8 teaspoon. The extra diner gets a proportional pulse share as well as starch and vegetables.
+3. **Five-person timeline routing — corrected and reread.** The start of “For Five Diners” now says: **“Follow the same cooking sequence, using the amounts below in place of the four-person quantities in the timeline.”** The earlier timeline necessarily names 30 ml milk, 300 ml rice water and the dal's 2 + 1 tbsp ghee. The five-person ingredients correctly supply larger values, including their own 2 1/2 + 1 1/2 tbsp ghee split; the sentence prevents accidentally reverting to smaller quantities during cooking. No further formula change is needed.
+4. **Dal startup seasoning — corrected.** Meal step 1 now includes the linked recipe's turmeric and initial salt with mung and water. All subsequent tomato, onion, fat, spice, lemon and herb destinations are retained.
+5. **Rice-start clock — acceptable as an approximate window, not a hard deadline.** Whole spices, 10–15 minutes of onion, grain coating and approximately five minutes to heat liquid take roughly 17–22 minutes before pauses to check potatoes. The 48–65 window covers the quicker end. The final method uses “about,” retains all texture endpoints and explicitly allows the finish to run longer. Do not later tighten this into a guaranteed minute-65 transition or omit the ten-minute rest to meet the headline.
+6. **Delays and prepared-food age — corrected/retained.** The final meal instructs hot holding at at least 140°F / 60°C or prompt chilling for prolonged delays, and preserves each component's original cooking date. Fresh raita does not extend the older food's storage clock.
+
+## Rice: formula, technique and ingredient challenge
+
+The proposal conserves the defining 300 g dry basmati, all 600 ml cooking water and 60 ml saffron milk, loosely measured half-teaspoon saffron, six green cardamom pods, three tablespoons ghee, onion, cloves, cinnamon, bay, cilantro and optional toasted nuts. Rinsing water is drained; every thread and drop of infusion enters the pot. The separate 60 ml corrective reserve is conditional, not an unnoticed increase to the starting liquid. Milk contributes liquid but also contains solids. The total 660 ml starting cooking liquid is approximately 1.83 volumes to one dry-rice volume using the recipe's measures; it is not established as universal absorption across bags or pans.
+
+Changing three optional black pods to one optional pod is a material flavor edit, explicitly recorded. The evidence supports black cardamom's distinctive smoky/resinous character; it does not establish a three-to-one conversion or prove three pods are universally wrong. Keeping six green pods, saffron, ghee and milk preserves this rice's identity. Omitting the optional black pod in the meal is a reasonable disclosed composition choice beside two spiced dishes. No mandatory flavor or richness is silently removed.
+
+The unsoaked aged-white-basmati specification avoids mixing another author's soaked rice ratio into this method. Light-golden onion is a plausible 10–15-minute target; deep caramelization is no longer falsely promised after 5–7 minutes. Moderate spice frying, thorough draining, full-liquid accounting, gentle simmer, grain tasting and covered rest are coherent. Tough whole spices may be removed rather than obligately served; a warning about small remaining pieces is appropriate. Burnt lower grains are left behind rather than stirred through the dish.
+
+A snug 2–3-quart pot fits the full batch and approximate 4 1/2–5-cup yield; smaller pan guidance addresses evaporation when halving/quartering, and doubling requires more capacity. Larger batches are separate. The half-batch recipe still needs onion, grain and rest endpoints. Roughly 52–62 minutes from the component stages supports the 60-minute planning estimate, with correction time additional. The four generous full-recipe side servings are not misrepresented as four complete meals.
+
+The fine-salt choice is clearly an editorial amount, not a claimed conversion from unspecified kosher salt. Stock is unsalted and replaces only cooking water; optional chicken stock removes vegetarian suitability. Both ghee and milk must change for the vegan/dairy-free option. Optional nuts remain explicit allergens. The removed unsupported nutrition figures are not silently re-created.
+
+## Meal: four/five portions, labor and heat
+
+For four, the meal is one full dal plus half each rice, aloo and raita: 50 g dry mung, 37.5 g dry rice, 85 g potatoes, 85 g cauliflower, 60 g yogurt and 37.5 g cucumber per person before aromatics and losses. Rice is about a little over half a cup each; raita is a real five-to-six-tablespoon side. Divide actual dal/vegetables rather than promising an unmeasured exact cooked volume. The dal remains the main; rice and potato intentionally share the starch portion. No extra naan or second rice is added.
+
+All three tablespoons dal ghee, 1 1/2 tablespoons rice ghee and 1 1/2 tablespoons vegetable oil remain in the four-person dinner. There is no second tadka on the prepared-component path. The raita remains cumin/yogurt/cucumber with its own mint option, not a silent substitution of mint-honey tzatziki. Calling it sauce in the relationship metadata better fits its actual cool side role.
+
+For five, 250 g pulses/900 ml starting water, 190 g rice/375 ml water/37.5 ml milk, 425 g each main vegetable and 300 g yogurt/190 g cucumber retain essentially the same portion structure. The complete remaining seasonings have destinations. Small rounding differences, including 3/8 tsp rice saffron/salt and eight total tablespoons fat rather than the exact proportional 7 1/2, are disclosed editorial choices. They are not presented as exact original ratios. A 2-quart rice pot, 3-quart dal pot and deep 4-quart vegetable pan are plausible at these volumes; the larger cutting load gets 10–15 more minutes.
+
+The three-burner plan is executable on paper: dal first, vegetables second, rice third; cooked dal moves off heat to free a burner for the raita cumin; the final dal onion/tadka follows the delicate vegetable/rice work. The onion stage is properly counted, not compressed into a quick spice bloom. Preparing raita during covered cooking is a real overlap. The final skillet may use a burner freed by resting rice, while dal reheats on another. No fourth simultaneous burner or oven is silently needed.
+
+The roughly 110-minute elapsed/80–90-minute active plan is credible for a practiced cook, with upper stage times extending it. It is substantially more honest than the original 30-minute active weeknight claim. The earlier dal's covered pause is ordinarily under two hours before reheating; rice and vegetables wait briefly near the finish. The explicit prolonged-delay instruction avoids treating those pauses as unlimited holding. Prepared chilled dal and aloo shorten service to the fresh rice's clock; the route includes full reheating and fresh raita and does not assume frozen food thaws instantly.
+
+## Evidence checked and precise applicability
+
+- [Swasthi Shreekanth, Saffron Rice](https://www.indianhealthyrecipes.com/saffron-rice/): direct complete recipe and relevant method discussion read. Supports rinsed unsoaked rice as a viable approach, different needs by grain age/type, covered cooking and rest. Its formula does not independently validate this milk/onion combination or yield.
+- [Dassana Amit, Saffron Rice](https://www.vegrecipesofindia.com/saffron-rice-or-kesar-rice/): direct method read. Relevant whole-spice/ghee rice; its separate soak and liquid allowance are not interchangeable with this unsoaked method.
+- [Sohla El-Waylly, How to Use Saffron](https://www.seriouseats.com/how-to-use-saffron): direct article read. Warm-water or milk steeping and direct addition to sufficiently wet cooking are alternatives; milk is not uniquely essential. The retained infusion fits the recipe rather than proving a universal extraction rule.
+- [Burlap & Barrel, Smoked Black Cardamom](https://www.burlapandbarrel.com/products/smoked-black-cardamom): independently read the indexed primary flavor/sourcing text; direct extraction was limited. The current product is ground. This supports distinguishing the smoky flavor, not dosing whole pods or endorsing a brand.
+- [FoodSafety.gov, Leftovers: The Gift That Keeps on Giving](https://www.foodsafety.gov/blog/leftovers-gift-keeps-giving): directly read in the preceding review. Supports prompt shallow chilling, two-hour/one-hot-hour limits and 165°F reheating. [USDA FSIS leftovers guidance](https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety) was available as indexed primary content; direct fetch returned 403. Do not report that access limitation as missing safety guidance.
+
+None of these sources proves the exact one-cook clock, fullness of the dinner or sensory preference. No physical cooking test was performed.
+
+## Remaining kitchen questions
+
+Measure actual full/half rice yield and absorption in the named pot sizes; compare zero/one black pod beside dal; check the loosely measured saffron strength and fine salt with the actual rice. Time the half aloo potato/cauliflower transition and simultaneous rice-onion work, then measure the complete one-cook service clock and food temperatures after the tadka. Evaluate four/five appetite satisfaction and reheated vegetable texture. These are practical uncertainties, not reasons to restore the unsupported original timing or duplicate starches.
