@@ -1,9 +1,9 @@
 {
   "originalMeals": 88,
   "currentMeals": 86,
-  "individuallyReviewed": 32,
+  "individuallyReviewed": 33,
   "consolidatedAfterReview": 2,
-  "pending": 54,
+  "pending": 53,
   "kitchenTested": 0,
   "records": [
     {
@@ -179,7 +179,9 @@
     },
     {
       "slug": "indian-curry-night",
-      "status": "pending"
+      "status": "editorial-review",
+      "record": "docs/meal-reviews/indian-curry-night.md",
+      "components": ["slow-cooker-vegetable-korma", "basmati-rice", "naan"]
     },
     {
       "slug": "indian-dal-night",
