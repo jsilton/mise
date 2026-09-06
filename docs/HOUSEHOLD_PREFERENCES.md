@@ -7,3 +7,9 @@
 - Meal names should read like meals. The user rejected “Brined Turkey Feast for Twelve”: brining is preparation and twelve is a serving attribute. Display the count separately and retain useful cooking details in the instructions.
 
 The favorite indication does not certify that our edited recipe has been kitchen-tested or identify an external source the user has not supplied.
+
+## Public recipe presentation
+
+Keep editorial references, review dates and kitchen-test disclosures off individual recipe and meal pages. Explain the review process and helpful references on the universal footer-linked standards page. Remove the separate “The skill you take away” and “What success looks like” panels; use useful content in ordinary recipe introductions, methods and checkpoints. Avoid wording such as “the household’s preferred” in public recipe prose. Preserve real attribution and the underlying preferences without narrating private editing history.
+
+Use generic ingredient/product descriptions rather than manufacturer names in recipes. Preserve quantities: where a named kosher salt has an explicit fine-salt alternative, use that fine-salt amount; never substitute equal spoon volumes across different salt crystal densities. Any separate preferred-products discussion needs a specific cooking reason rather than manufacturer promotion.

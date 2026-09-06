@@ -1,6 +1,8 @@
 ---
 title: Mint Tzatziki with Honey
-origin: Greek-inspired household variation
+source: Adapted from Food & Wine’s Greek-Style Lamb Burgers with Yogurt-Cucumber Sauce
+sourceUrl: https://www.foodandwine.com/recipes/greek-style-lamb-burgers-with-yogurt-cucumber-sauce
+origin: Greek-inspired
 difficulty: easy
 cookingMethods:
   - no-cook
@@ -43,7 +45,7 @@ ingredients:
   - 2 tbsp extra-virgin olive oil
   - 1 tsp (7 g) honey
   - '1 small clove garlic, finely minced'
-  - '1/2 tsp Diamond Crystal kosher salt or 1/4 tsp fine salt, divided'
+  - '1/4 tsp fine salt, divided'
 description: >-
   Thick Greek yogurt with crisp diced cucumber, fresh mint, olive oil, garlic
   and a little honey. Spoon it into lamb pitas or serve alongside grilled meat
@@ -51,8 +53,7 @@ description: >-
 learning:
   focus: Balance a mint yogurt sauce while keeping its cucumber texture
   outcome: >-
-    Cool, spoonable yogurt with distinct tiny cucumber pieces, fresh mint and
-    a gentle touch of sweetness; the honey should not make it taste like dessert.
+    Aim for a soft mound on the spoon, crisp cucumber pieces and a tangy finish.
   techniques:
     - seasoning
     - cold-preparation
@@ -121,7 +122,7 @@ learning:
 
 ## Chef's Note
 
-This is the household's preferred mint-and-honey variation of the cucumber yogurt sauce served with the lamb burgers. Fine cucumber dice keeps a little crunch, while thick yogurt and olive oil make it spoonable. A teaspoon of honey softens the tart impression without replacing the yogurt's tang.
+Fine cucumber dice keeps a little crunch, while thick Greek yogurt and olive oil give the sauce a cool, spoonable texture. Fresh mint should stay clear, with garlic and a little honey in the background. The honey softens the tartness without making the sauce taste sweet.
 
 ## Directions
 
@@ -129,8 +130,6 @@ This is the household's preferred mint-and-honey variation of the cucumber yogur
 2. **Mix:** Stir the yogurt, olive oil and honey together until evenly blended. Fold in the cucumber, mint, garlic and half the measured salt.
 3. **Taste and serve:** Taste, then add the reserved salt only if needed. Serve now, or cover and refrigerate while preparing the meal; stir and taste again before serving. For four lamb pitas, start with 2–3 tablespoons in each and offer the rest alongside. The full batch makes approximately 1 1/2 cups, depending on the yogurt and cucumber.
 
-## Source and household variation
+## Another variation
 
-The archived lamb-burger recipe credits [Food & Wine's Greek-Style Lamb Burgers with Yogurt-Cucumber Sauce](https://www.foodandwine.com/recipes/greek-style-lamb-burgers-with-yogurt-cucumber-sauce). Its saved sauce formula includes yogurt, diced cucumber, mint, olive oil, garlic, salt and pepper. This version uses Greek yogurt and the household's requested little honey, with no added lemon or pepper; one teaspoon is the starting amount for this variation. The archived recipe did not include honey.
-
-For a dill-and-lemon sauce with drained grated cucumber, use [Dill Tzatziki](/mise/recipes/tzatziki-sauce). It is a separate variation with a larger batch yield.
+For a dill-and-lemon sauce with drained grated cucumber, use [Dill Tzatziki](/mise/recipes/tzatziki-sauce). It has a smoother cucumber texture and a larger batch yield.

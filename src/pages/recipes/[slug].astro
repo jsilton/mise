@@ -2,7 +2,6 @@
 import Layout from '../../layouts/Layout.astro';
 import RecipeHeader from '../../components/RecipeHeader.astro';
 import { timeToISO } from '../../lib/time.mjs';
-import RecipeSources from '../../components/RecipeSources.astro';
 import RecipeLearning from '../../components/RecipeLearning.astro';
 import RecipeScaler from '../../components/RecipeScaler.astro';
 import { getCollection } from 'astro:content';
@@ -304,6 +303,7 @@ function buildRecipeSchema() {
           <>
             <section id="checkpoints" class="prose-refined checkpoint-section">
               <h2>What to watch for</h2>
+              <p class="recipe-outcome">{learning.outcome}</p>
               {learning.checkpoints.map((checkpoint) => (
                 <div class="checkpoint" data-checkpoint-step={checkpoint.step}>
                   <p class="eyebrow">Step {checkpoint.step} · Look for</p>
@@ -348,19 +348,6 @@ function buildRecipeSchema() {
                 <p>{learning.storage}</p>
               </>
             </section>
-            <section id="recipe-sources" class="prose-refined source-notes">
-              <RecipeSources sources={learning.sources} />
-              <p class="review-status">
-                {learning.review.status === 'kitchen-tested'
-                  ? 'Kitchen-tested'
-                  : 'Editorially reviewed'}{' '}
-                · <time datetime={learning.review.date}>{learning.review.date}</time>
-                {learning.review.status === 'editorial-review' &&
-                  ' · Kitchen testing not yet recorded.'}
-              </p>
-              {learning.review.testNotes && <p>{learning.review.testNotes}</p>}
-              <a href={`${BASE}standards`}>How we review recipes →</a>
-            </section>
           </>
         )
       }
@@ -380,19 +367,6 @@ function buildRecipeSchema() {
               </ul>
             </>
           </section>
-        )
-      }
-      {
-        !learning && (
-          <div class="collection-note">
-            <>
-              <p>
-                This recipe is part of the family collection. Detailed technique review and kitchen
-                testing are not yet documented.
-              </p>
-              <a href={`${BASE}standards`}>Our recipe standard →</a>
-            </>
-          </div>
         )
       }
       {
@@ -561,25 +535,11 @@ function buildRecipeSchema() {
   .substitution {
     margin-bottom: 1.3rem;
   }
-  .source-notes,
-  .collection-note {
-    border-top: 1px solid var(--border-subtle);
-    margin-top: 2.5rem;
-    padding-top: 1rem;
-  }
-  .collection-note p,
   .attribution {
     color: var(--text-secondary);
     font-size: 0.8rem;
     line-height: 1.7;
-  }
-  .collection-note a,
-  .source-notes > a {
-    font-size: 0.8rem;
-    color: var(--accent-gold);
-  }
-  .review-status {
-    font-size: 0.75rem !important;
+    margin-top: 2.5rem;
   }
   .step-check {
     display: none;

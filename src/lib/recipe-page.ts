@@ -41,7 +41,9 @@ steps.forEach((step, index) => {
     .forEach((checkpoint) => step.append(checkpoint));
 });
 const checkpointSection = document.getElementById('checkpoints');
-if (checkpointSection && !checkpointSection.querySelector('.checkpoint'))
+const outcome = checkpointSection?.querySelector('.recipe-outcome');
+if (directionHeading && outcome) directionHeading.insertAdjacentElement('afterend', outcome);
+if (checkpointSection && !checkpointSection.querySelector('.checkpoint, .recipe-outcome'))
   checkpointSection.hidden = true;
 const checkboxes = Array.from(
   document.querySelectorAll<HTMLInputElement>('[data-step-check], [data-ingredient-check]')

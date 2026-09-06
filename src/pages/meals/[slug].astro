@@ -161,15 +161,6 @@ const templateColors: Record<string, { bg: string; text: string }> = Object.from
       </div>
     </header>
 
-    {
-      meal.data.review && (
-        <p class="mb-6 text-sm" style="color: var(--text-secondary);" data-meal-review>
-          Meal composition and schedule editorially reviewed · {meal.data.review.date}. Kitchen
-          testing not yet recorded.
-        </p>
-      )
-    }
-
     {/* Recipe Components */}
     <section data-meal-components class="mb-8">
       <h2

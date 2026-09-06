@@ -58,7 +58,7 @@ const fixed = scaling?.mode === 'fixed';
         note.textContent =
           factor === 1
             ? 'Original quantities. Choose a batch size.'
-            : `Ingredients at ${factor}×. Method quantities refer to the original batch. Use the scaled list; pan sizes, heat, and cooking times do not multiply. For fractional eggs, beat an egg and weigh the portion needed.`;
+            : `Ingredients at ${factor}×. Method quantities refer to the original batch. Use the scaled list; pan sizes, heat, and cooking times do not multiply.`;
       document.dispatchEvent(new CustomEvent('mise:scaled', { detail: { factor } }));
     });
   });

@@ -52,8 +52,8 @@ for (const [slug, meal] of meals) {
   direct.forEach((id) => inspect(id));
   const html = fs.readFileSync(`dist/meals/${slug}/index.html`, 'utf8');
   assert(
-    html.includes('data-meal-review') && html.includes(meal.review.date),
-    `Missing rendered review status: ${slug}`
+    !html.includes('data-meal-review') && html.includes('How we review recipes'),
+    `Review policy should be in the shared footer, not meal content: ${slug}`
   );
   assert(html.includes('Elapsed:'), `Missing rendered elapsed time: ${slug}`);
   records.push({

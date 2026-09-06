@@ -574,3 +574,15 @@ Coverage: 151 reviewed original recipes + nine consolidations + 452 pending = 61
 The cold-preparation lesson batch 53b6679f722b446834026674de64478e9f287989 deployed successfully in Pages run 34036757214. Live checks passed ten lessons, the new complete lesson, all seven deliberate recipe mappings, four practice links, seven sources, mobile width, keyboard section navigation and print title.
 
 Salmon batch verification: all 29 QA checks pass; 731 built pages have no missing internal destinations or anchors. Browser checks passed all three recovered attributions, complete times, half fish/rice/vegetable/topping quantities, correct lesson links, the two-component miso dinner, cucumber sequence, mobile width and print titles. Root visually inspected the mobile meal. These checks do not substitute for physical flavor or timing tests.
+
+## Public recipe presentation: user-directed simplification
+
+Removed the repeated source/reference block, review date, kitchen-test notice and inline review-policy link from every recipe. Pending recipes and meal pages also no longer carry workflow notices in their cooking content. Kept internal evidence and review status; the shared footer links to “How we review recipes,” with a concise helpful-reference section on that page.
+
+Removed the two standalone teaching-summary panels. The sensory outcome now becomes ordinary prose at the start of the method, and numbered checkpoints remain attached to their steps. Without JavaScript, the outcome remains visible with the checkpoints. Retained lesson links and teaching data. Removed the unrelated fractional-egg sentence from the universal scale note.
+
+Mint tzatziki now uses natural cooking prose, brief original-source attribution and the existing quarter-teaspoon fine-salt alternative; ingredient proportions are unchanged. Broader manufacturer-name and public-prose cleanup is a separate active batch. No culinary-review coverage counts changed.
+
+Verification: 29 QA checks, 27 focused tests and the 731-page link/anchor scan pass. All 615 recipe/alias outputs omit the removed panel and review-source markup. Browser checks passed reviewed and pending recipes, the shared footer and reference page, mint’s half-scale fine-salt amount, visible method outcome, mobile/print and cook-mode controls. Independent browser checks additionally verified no-JavaScript content, persisted checklists and jump anchors.
+
+Salmon batch 5805f16a1815c48a1666e2950f53f605d9f804a9 deployed successfully in Pages run 34037334407. Live checks passed the three recipe attributions, measured half quantities and full times, plus Miso Salmon Dinner’s two components, sequence and responsive layout.
