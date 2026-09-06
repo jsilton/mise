@@ -27,50 +27,115 @@ dietary:
   - dairy-free-option
 role: base
 vibe: quick
-prepTime: 10 min
+prepTime: 5 min
 cookTime: 25 min
-totalTime: 35 min
-servings: 4 to 6
+totalTime: 40 min
+servings: 6 side portions
 equipment:
-  - rice-cooker
+  - saucepan-with-tight-lid
+  - fine-mesh-strainer
 pairsWith:
   - chicken-tikka-masala
   - saag-paneer
   - dal-tadka
   - chana-masala
 ingredients:
-  - 2 cups Extra-Long Grain Basmati Rice (Royal or Tilda)
-  - 3 cups Water
-  - 1 tbsp Ghee or Butter (neutral oil to keep it vegan/dairy-free)
-  - 1 tsp Kosher Salt (1½ tsp if using Diamond Crystal)
-  - '--- Aromatics (bloom these in the fat) ---'
-  - 1 tsp Cumin Seeds (jeera)
-  - 1 small Cinnamon Stick, about 1 inch (or 3 green cardamom pods, lightly cracked)
-  - 1 Bay Leaf
-origin: India
+  - '2 cups (400 g) aged white basmati rice, not parboiled or quick-cooking'
+  - '3 cups (720 ml) water, for the unsoaked stovetop method'
+  - '1 tbsp ghee, butter, or neutral oil'
+  - 1 1/2 tsp Diamond Crystal kosher salt or 3/4 tsp fine salt
+  - '1 tsp cumin seeds, optional'
+  - '1 small cinnamon stick, about 1 inch long, optional'
+  - '1 bay leaf, optional'
+  - '2 tbsp hot water, only if needed to finish firm grains'
+origin: South Asian and Middle Eastern rice traditions
 seasons:
   - year-round
 nutritionalDensity: light
 leftovers: good
+description: >-
+  A controlled stovetop absorption method, with plain, cumin, or whole-spice options and clear
+  checks before resting.
+learning:
+  focus: Control hydration and evaporation
+  outcome: 'Tender, distinct grains with no hard centers or wet layer at the bottom.'
+  techniques:
+    - starch
+  before:
+    - >-
+      Use a 2–3 quart heavy saucepan with a tight lid. The written water amount is for rinsed,
+      well-drained, unsoaked rice.
+    - >-
+      For plain rice omit all whole spices; for cumin rice use only cumin; for a more aromatic
+      version use all three listed spices.
+  checkpoints:
+    - step: 2
+      cue: Optional cumin smells fragrant and sizzles gently without blackening.
+      why: >-
+        Heating spices in fat releases aroma into the fat; excessive heat burns the small seeds
+        quickly.
+    - step: 4
+      cue: The water is absorbed and a tasted grain is almost tender.
+      why: >-
+        A dry pot alone is not proof of hydration. Pot width, lid fit, heat, and rice processing
+        change water needs.
+    - step: 5
+      cue: 'After resting, the bottom is not wet and grains separate with gentle lifting.'
+      why: >-
+        A covered off-heat rest gives remaining moisture time to distribute without more direct
+        bottom heat.
+  troubleshooting:
+    - problem: Rice is hard and dry
+      cause: The pan lost too much steam or the rice needs more water.
+      fix: >-
+        Sprinkle in 2 tbsp hot water, cover, and cook gently another 3–5 minutes before resting.
+        Repeat sparingly if needed.
+    - problem: Rice is soft and wet
+      cause: More water was retained than this rice needed.
+      fix: >-
+        Uncover briefly over very low heat to evaporate surface moisture, then rest off heat. Next
+        time reduce water slightly for the same rice and pot.
+    - problem: Bottom scorches
+      cause: Heat stayed too high after boiling or the pan conducts heat unevenly.
+      fix: >-
+        Transfer the unburned upper rice without scraping the base. Use a lower steady simmer and a
+        heavier pot next time.
+  substitutions:
+    - ingredient: Ghee or butter
+      alternative: Neutral oil
+      effect: >-
+        Makes the vegan and dairy-free version when other ingredients are unchanged, with a less
+        buttery aroma.
+  timing: >-
+    40 minutes includes rinsing, heating, approximately 15–18 minutes simmering, and a ten-minute
+    covered rest. Soaked rice and rice cookers need their own water/timing guidance.
+  storage: >-
+    Refrigerate in shallow containers within 2 hours (1 hour above 90°F / 32°C), at 40°F / 4°C or
+    below. Use within 3–4 days; reheat leftovers to 165°F / 74°C. Divide rice into shallow
+    containers promptly rather than cooling the entire pot slowly. A fresh smell does not prove
+    poorly stored rice is safe.
+  sources:
+    - title: 'FoodSafety.gov — Clean, separate, cook, chill'
+      url: 'https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety'
+    - title: Tilda — Basmati absorption and open-pan methods
+      url: 'https://www.tilda.com/blog/quick-guides/how-to-cook-the-perfect-basmati-rice/'
+  review:
+    status: editorial-review
+    date: '2026-09-06'
 ---
 
 ## Chef's Note
 
-In North Indian kitchens the everyday version is jeera rice — basmati perfumed with cumin seeds bloomed in ghee — while a festive meal earns whole warm spices like cinnamon, cardamom, and bay. Two steps decide whether it comes out fluffy or gummy: rinse the rice until the water runs clear to wash off the loose surface starch, and bloom the whole spices in hot fat before the rice and water go in, so their aroma soaks into the oil instead of sitting flat in the water. Match the spicing to the meal — plain or jeera rice beside a heavily spiced curry that's already carrying the flavor, aromatic whole-spice rice when you want the grains themselves to shine.
+Basmati can be cooked plain or with a small amount of spice. Choose the version to fit the meal: plain rice leaves room for a richly seasoned main; cumin and whole spices make the rice more prominent. The useful lesson is controlling water and steam. One ratio does not cover every rice brand, soaking method, cooker, and pan.
 
 ## Directions
 
-1.  **Rinse Until Clear:** Place the rice in a bowl, cover with water, swirl with your hand, and pour off the cloudy water. Repeat 3–4 times until the water runs nearly clear. This removes the surface starch that turns rice into a sticky clump.
-2.  **Soak (Optional, 20–30 min):** For longer, more elegant grains, cover the rinsed rice with water and soak 20–30 minutes, then drain well. If you soak, reduce the cooking water by about 2 tablespoons since the grains are already partly hydrated.
-3.  **Bloom the Spices (the whole game):** In a small pan — or the rice cooker's sauté setting — melt the ghee over medium heat. Add the cumin seeds, cinnamon stick, and bay leaf and sizzle 30–45 seconds, until the cumin is fragrant and just starting to color. This is what takes the rice from good to great; ground spices dumped into the water can't do this.
-4.  **Combine:** Add the rinsed rice and stir to coat every grain in the spiced fat. Transfer to the rice cooker (or a heavy pot), then add the 3 cups water and salt and stir once. For firmer, more separate grains in a sealed rice cooker, you can pull the water back to 2¾ cups.
-5.  **Cook:** Set the rice cooker to "White Rice." On the stove, bring to a boil, then cover, drop to the lowest heat, and cook 15–18 minutes until the water is absorbed.
-6.  **Rest (Don't Skip):** Leave the lid on and let the rice steam off the heat for 10 minutes. This redistributes the moisture so the grains finish evenly — open it early and you get gummy bottoms and dry tops.
-7.  **Fluff & Serve:** Fluff gently with a fork, fish out the cinnamon stick and bay leaf, and serve.
+1. **Rinse and drain:** Rinse rice in several changes of cool water until much of the loose starch has washed away. Drain thoroughly. Do not soak for this written method.
+2. **Heat fat and optional spices:** In a 2–3 quart heavy saucepan, heat the ghee, butter, or oil over medium heat. If using spices, add them and stir for 20–30 seconds until fragrant. For plain rice, proceed directly to the next step.
+3. **Add rice and water:** Stir in drained rice briefly to coat. Add the measured water and salt and bring to a gentle boil. Stir once, cover tightly, and lower heat to maintain a gentle simmer.
+4. **Cook and check:** Simmer about 15–18 minutes. Check near the end that water is absorbed and taste a grain for an almost tender center. If it is still hard and the pot is dry, add the measured hot water, re-cover, and cook a little longer. If water remains and grains are firm, continue gently before resting.
+5. **Rest and fluff:** Turn off heat and rest covered for 10 minutes. Remove visible whole spices and fluff gently with a fork. Serve promptly or cool safely for storage.
 
-### Spice It to the Meal
+## Other equipment or soaked rice
 
-- **Plain:** Salt and a little ghee only — the right call beside a rich, heavily spiced curry that's already doing the work.
-- **Jeera rice (everyday):** Cumin seeds + ghee + salt. The North Indian weeknight standard.
-- **Aromatic (as written):** Cumin + cinnamon (or cardamom) + bay. Enough perfume to stand out without competing with the main.
-- **Skip the powder:** Don't stir ground garam masala or curry powder into the rice — it clouds the grains and just echoes the curry. Save a fresh pinch of garam masala to sprinkle over the main dish instead.
+For a rice cooker, use its basmati/white-rice guidance and measuring system, including its water level; do not combine its markings with the stovetop water quantity. Bloom optional spices separately and add them with the rice. If choosing to soak, follow the rice producer's soaked-rice method rather than subtracting an arbitrary two tablespoons of water. These are separate methods with different timing.

@@ -3,11 +3,14 @@
   "title": "Poultry low-temperature safety note",
   "category": "Safety",
   "severity": "fail",
-  "description": "If a recipe suggests holding or cooking poultry at low temperatures (sous vide, water bath, vacuum, or explicit low-temp language), check for recommended time/temperature to ensure safe pasteurization.",
+  "description": "Flag possible low-temperature poultry cooking for editorial review. Explicit 140\u00b0F hot holding of cooked food is distinguished from cooking when a 165\u00b0F / 74\u00b0C endpoint is also present; an explicitly sliced-pork 145°F endpoint with a three-minute wait is also distinguished. This heuristic does not certify safety.",
   "detection": [
-    { "type": "ingredient_presence", "words": ["chicken", "poultry", "turkey"] },
     {
-      "type": "text_presence",
+      "type": "ingredient_presence",
+      "words": ["chicken", "poultry", "turkey"]
+    },
+    {
+      "type": "low_temperature_reference",
       "words": [
         "sous vide",
         "sous-vide",
@@ -15,17 +18,17 @@
         "immersion circulator",
         "vacuum seal",
         "vacuum-seal",
-        "140°f",
-        "145°f",
-        "150°f",
-        "155°f",
-        "60°c",
-        "63°c",
-        "65°c",
+        "140\u00b0f",
+        "145\u00b0f",
+        "150\u00b0f",
+        "155\u00b0f",
+        "60\u00b0c",
+        "63\u00b0c",
+        "65\u00b0c",
         "pasteuriz"
       ]
     }
   ],
-  "suggestionTemplate": "This recipe references low-temperature cooking for poultry. Ensure it includes safe time/temperature notes (e.g., 60°C for 2 hours for pasteurization) or use higher temperatures to guarantee safety.",
+  "suggestionTemplate": "Review the low-temperature poultry reference in context. A valid process depends on both time and temperature and the food being cooked; do not infer pasteurization from a temperature alone. Distinguish raw cooking from reheating and hot holding.",
   "examples": []
 }

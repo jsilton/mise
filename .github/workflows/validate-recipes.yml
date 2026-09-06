@@ -9,7 +9,23 @@ on:
   pull_request:
     paths:
       - 'src/content/recipes/**'
+      - 'src/content/meals/**'
+      - 'src/content/calendars/**'
+      - 'src/pages/recipes/**'
+      - 'src/components/RecipeRedirect.astro'
+      - 'docs/recipe-review-baseline.json'
+      - 'docs/reviews/**'
+      - 'docs/meal-reviews/**'
+      - 'docs/meal-review-baseline.json'
+      - 'scripts/check-meal-reviews.mjs'
+      - 'src/pages/meals/**'
+      - 'scripts/check-recipe-aliases.mjs'
       - 'scripts/validate-recipes.mjs'
+      - 'scripts/recipe-editorial.mjs'
+      - 'scripts/tests/**'
+      - 'src/data/**'
+      - 'src/lib/**'
+      - 'src/content/config.ts'
       - '.github/workflows/validate-recipes.yml'
 
 jobs:
@@ -28,6 +44,18 @@ jobs:
 
       - name: Install dependencies
         run: npm ci
+
+      - name: Check recipe foundations
+        run: npm test
+
+      - name: Audit editorial integrity
+        run: npm run editorial-audit
+
+      - name: Build and verify consolidated recipe links
+        run: |
+          npm run build
+          node scripts/check-recipe-aliases.mjs
+          node scripts/check-meal-reviews.mjs
 
       - name: Run recipe validator
         id: run-validator

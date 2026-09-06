@@ -1,0 +1,455 @@
+{
+  "originalMeals": 88,
+  "currentMeals": 87,
+  "individuallyReviewed": 26,
+  "consolidatedAfterReview": 1,
+  "pending": 61,
+  "kitchenTested": 0,
+  "records": [
+    {
+      "slug": "asian-stir-fry-night",
+      "canonical": "mongolian-beef-night",
+      "status": "consolidated",
+      "record": "docs/meal-reviews/asian-stir-fry-night.md"
+    },
+    {
+      "slug": "baked-cod-dinner",
+      "status": "pending"
+    },
+    {
+      "slug": "bbq-pulled-pork-spread",
+      "status": "pending"
+    },
+    {
+      "slug": "beef-stew-night",
+      "status": "pending"
+    },
+    {
+      "slug": "bibimbap-night",
+      "status": "pending"
+    },
+    {
+      "slug": "brisket-dinner",
+      "status": "pending"
+    },
+    {
+      "slug": "build-your-own-taco-bar",
+      "status": "editorial-review",
+      "record": "docs/meal-reviews/build-your-own-taco-bar.md",
+      "components": ["build-your-own-taco-bar", "mexican-street-corn-salad"]
+    },
+    {
+      "slug": "carbonara-night",
+      "status": "pending"
+    },
+    {
+      "slug": "carnitas-bowl-night",
+      "status": "pending"
+    },
+    {
+      "slug": "chicken-biryani-night",
+      "status": "editorial-review",
+      "record": "docs/meal-reviews/chicken-biryani-night.md",
+      "components": ["chicken-biryani", "cucumber-raita", "kachumber-salad"]
+    },
+    {
+      "slug": "chicken-lettuce-wrap-night",
+      "status": "pending"
+    },
+    {
+      "slug": "chicken-marsala-dinner",
+      "status": "pending"
+    },
+    {
+      "slug": "chicken-marsala-night",
+      "status": "editorial-review",
+      "record": "docs/meal-reviews/chicken-marsala-night.md",
+      "components": [
+        "chicken-marsala",
+        "perfect-mashed-potatoes",
+        "green-beans-with-shallots-and-lemon"
+      ]
+    },
+    {
+      "slug": "chicken-noodle-soup-night",
+      "status": "editorial-review",
+      "record": "docs/meal-reviews/chicken-noodle-soup-night.md",
+      "components": ["slow-cooker-chicken-noodle-soup", "garlic-bread"]
+    },
+    {
+      "slug": "chicken-pad-see-ew-night",
+      "status": "editorial-review",
+      "record": "docs/meal-reviews/chicken-pad-see-ew-night.md",
+      "components": ["pad-see-ew-thai-stir-fried-noodles", "smashed-cucumber-salad"]
+    },
+    {
+      "slug": "chicken-parmesan-night",
+      "status": "pending"
+    },
+    {
+      "slug": "chicken-piccata-dinner",
+      "status": "editorial-review",
+      "record": "docs/meal-reviews/chicken-piccata-dinner.md",
+      "components": ["chicken-piccata-unfried", "fresh-egg-pasta", "everyday-arugula-salad"]
+    },
+    {
+      "slug": "chili-night",
+      "status": "editorial-review",
+      "record": "docs/meal-reviews/chili-night.md",
+      "components": ["chili", "cornbread"]
+    },
+    {
+      "slug": "coq-au-vin-dinner",
+      "status": "pending"
+    },
+    {
+      "slug": "curry-chicken-bowl",
+      "status": "editorial-review",
+      "record": "docs/meal-reviews/curry-chicken-bowl.md",
+      "components": ["coconut-chicken-curry", "cucumber-raita"]
+    },
+    {
+      "slug": "dan-dan-noodle-night",
+      "status": "pending"
+    },
+    {
+      "slug": "dim-sum-feast",
+      "status": "pending"
+    },
+    {
+      "slug": "drunken-noodles-night",
+      "status": "editorial-review",
+      "record": "docs/meal-reviews/drunken-noodles-night.md",
+      "components": ["drunken-noodles-pad-kee-mao", "steamed-edamame"]
+    },
+    {
+      "slug": "enchilada-night",
+      "status": "pending"
+    },
+    {
+      "slug": "friday-pizza-night",
+      "status": "pending"
+    },
+    {
+      "slug": "frittata-brunch",
+      "status": "pending"
+    },
+    {
+      "slug": "garlic-butter-shrimp-recovery",
+      "status": "pending"
+    },
+    {
+      "slug": "general-tsos-night",
+      "status": "editorial-review",
+      "record": "docs/meal-reviews/general-tsos-night.md",
+      "components": [
+        "slow-cooker-general-tsos-chicken",
+        "steamed-white-rice",
+        "garlic-sesame-spinach"
+      ]
+    },
+    {
+      "slug": "gnocchi-sheet-pan",
+      "status": "pending"
+    },
+    {
+      "slug": "greek-night",
+      "status": "editorial-review",
+      "record": "docs/meal-reviews/greek-night.md",
+      "components": [
+        "greek-style-lamb-burgers-with-yogurt-cucumber-sauce",
+        "warm-pita-bread",
+        "greek-village-salad"
+      ]
+    },
+    {
+      "slug": "grilled-chicken-summer-plate",
+      "status": "pending"
+    },
+    {
+      "slug": "honey-lime-shrimp-bowls",
+      "status": "pending"
+    },
+    {
+      "slug": "honey-sesame-chicken-night",
+      "status": "editorial-review",
+      "record": "docs/meal-reviews/honey-sesame-chicken-night.md",
+      "components": ["honey-sesame-chicken", "steamed-white-rice", "charred-broccoli-with-garlic"]
+    },
+    {
+      "slug": "indian-curry-night",
+      "status": "pending"
+    },
+    {
+      "slug": "indian-dal-night",
+      "status": "pending"
+    },
+    {
+      "slug": "japanese-katsu-curry-night",
+      "status": "editorial-review",
+      "record": "docs/meal-reviews/japanese-katsu-curry-night.md",
+      "components": ["chicken-katsu-curry", "steamed-white-rice", "japanese-cucumber-sunomono"]
+    },
+    {
+      "slug": "jerk-pork-dinner",
+      "status": "pending"
+    },
+    {
+      "slug": "kimchi-jjigae-comfort",
+      "status": "pending"
+    },
+    {
+      "slug": "korean-bbq-night",
+      "status": "pending"
+    },
+    {
+      "slug": "lemon-ricotta-pasta-night",
+      "status": "pending"
+    },
+    {
+      "slug": "lo-mein-night",
+      "status": "editorial-review",
+      "record": "docs/meal-reviews/lo-mein-night.md",
+      "components": ["lo-mein", "smashed-cucumber-salad"]
+    },
+    {
+      "slug": "mapo-tofu-night",
+      "status": "pending"
+    },
+    {
+      "slug": "marinated-flank-steak-salad-night",
+      "status": "pending"
+    },
+    {
+      "slug": "mediterranean-chicken-night",
+      "status": "editorial-review",
+      "record": "docs/meal-reviews/mediterranean-chicken-night.md",
+      "components": ["mediterranean-chicken-thighs", "warm-pita-bread", "tzatziki-sauce"]
+    },
+    {
+      "slug": "mediterranean-salmon-dinner",
+      "status": "pending"
+    },
+    {
+      "slug": "miso-salmon-dinner",
+      "status": "pending"
+    },
+    {
+      "slug": "mongolian-beef-night",
+      "status": "editorial-review",
+      "record": "docs/meal-reviews/mongolian-beef-night.md",
+      "components": ["mongolian-beef", "steamed-white-rice", "steamed-bok-choy-with-oyster-sauce"]
+    },
+    {
+      "slug": "moroccan-tagine-dinner",
+      "status": "editorial-review",
+      "record": "docs/meal-reviews/moroccan-tagine-dinner.md",
+      "components": [
+        "moroccan-chicken-tagine-apricot-chickpea",
+        "garlic-butter-couscous",
+        "moroccan-carrot-salad"
+      ]
+    },
+    {
+      "slug": "pad-thai-night",
+      "status": "pending"
+    },
+    {
+      "slug": "pan-fried-noodles-night",
+      "status": "pending"
+    },
+    {
+      "slug": "panang-curry-night",
+      "status": "editorial-review",
+      "record": "docs/meal-reviews/panang-curry-night.md",
+      "components": ["panang-curry-with-chicken", "steamed-white-rice", "steamed-edamame"]
+    },
+    {
+      "slug": "pancetta-pea-ricotta-pasta-night",
+      "status": "pending"
+    },
+    {
+      "slug": "pasta-primavera-night",
+      "status": "pending"
+    },
+    {
+      "slug": "playoff-football-party",
+      "status": "pending"
+    },
+    {
+      "slug": "poke-bowl-night",
+      "status": "pending"
+    },
+    {
+      "slug": "pork-tenderloin-dinner",
+      "status": "pending"
+    },
+    {
+      "slug": "pulled-pork-spread",
+      "status": "pending"
+    },
+    {
+      "slug": "quick-chicken-dinner",
+      "status": "pending"
+    },
+    {
+      "slug": "quick-wonton-soup-supper",
+      "status": "pending"
+    },
+    {
+      "slug": "ratatouille-dinner",
+      "status": "pending"
+    },
+    {
+      "slug": "saag-paneer-dinner",
+      "status": "pending"
+    },
+    {
+      "slug": "salmon-bowl-night",
+      "status": "pending"
+    },
+    {
+      "slug": "salmon-rice-bowl",
+      "status": "pending"
+    },
+    {
+      "slug": "sausage-sheet-pan-night",
+      "status": "pending"
+    },
+    {
+      "slug": "shakshuka-brunch",
+      "status": "pending"
+    },
+    {
+      "slug": "shawarma-plate",
+      "status": "editorial-review",
+      "record": "docs/meal-reviews/shawarma-plate.md",
+      "components": ["chicken-shawarma", "tahini-sauce", "basmati-rice", "fattoush-salad"]
+    },
+    {
+      "slug": "sheet-pan-fajita-night",
+      "status": "pending"
+    },
+    {
+      "slug": "sheet-pan-pesto-chicken",
+      "status": "pending"
+    },
+    {
+      "slug": "shoyu-tuna-poke-bowl-night",
+      "status": "pending"
+    },
+    {
+      "slug": "shrimp-and-grits-night",
+      "status": "pending"
+    },
+    {
+      "slug": "shrimp-scampi-night",
+      "status": "pending"
+    },
+    {
+      "slug": "southern-bbq-spread",
+      "status": "pending"
+    },
+    {
+      "slug": "souvlaki-plate",
+      "status": "editorial-review",
+      "record": "docs/meal-reviews/souvlaki-plate.md",
+      "components": [
+        "chicken-souvlaki",
+        "homemade-rice-pilaf",
+        "greek-village-salad",
+        "tzatziki-sauce"
+      ]
+    },
+    {
+      "slug": "spaghetti-night",
+      "status": "pending"
+    },
+    {
+      "slug": "stir-fry-weeknight",
+      "status": "pending"
+    },
+    {
+      "slug": "stuffed-shells-dinner",
+      "status": "pending"
+    },
+    {
+      "slug": "sunday-italian-comfort",
+      "status": "pending"
+    },
+    {
+      "slug": "sunday-roast-chicken-feast",
+      "status": "pending"
+    },
+    {
+      "slug": "taco-tuesday",
+      "status": "editorial-review",
+      "record": "docs/meal-reviews/taco-tuesday.md",
+      "components": ["tacos", "mexican-street-corn-salad"]
+    },
+    {
+      "slug": "thai-basil-chicken-adventure",
+      "status": "editorial-review",
+      "record": "docs/meal-reviews/thai-basil-chicken-adventure.md",
+      "components": [
+        "stir-fried-chicken-and-eggplant-with-thai-basil",
+        "coconut-jasmine-rice",
+        "japanese-cucumber-sunomono"
+      ]
+    },
+    {
+      "slug": "thai-curry-bowl",
+      "status": "editorial-review",
+      "record": "docs/meal-reviews/thai-curry-bowl.md",
+      "components": ["thai-chicken-curry", "coconut-jasmine-rice", "smashed-cucumber-salad"]
+    },
+    {
+      "slug": "thanksgiving-feast",
+      "status": "editorial-review",
+      "record": "docs/meal-reviews/thanksgiving-feast.md",
+      "components": [
+        "good-eats-roast-turkey",
+        "italian-kale-and-sausage-stuffing",
+        "turkey-pan-gravy",
+        "perfect-mashed-potatoes",
+        "perfect-cranberry-sauce",
+        "green-beans-with-shallots-and-lemon"
+      ]
+    },
+    {
+      "slug": "thanksgiving-practice",
+      "status": "editorial-review",
+      "record": "docs/meal-reviews/thanksgiving-practice.md",
+      "components": [
+        "simple-roast-turkey",
+        "italian-kale-and-sausage-stuffing",
+        "everyday-arugula-salad",
+        "turkey-pan-gravy",
+        "perfect-mashed-potatoes",
+        "perfect-cranberry-sauce"
+      ]
+    },
+    {
+      "slug": "tonkotsu-ramen-project",
+      "status": "pending"
+    },
+    {
+      "slug": "tuscan-soup-night",
+      "status": "pending"
+    },
+    {
+      "slug": "vietnamese-thit-kho-dinner",
+      "status": "pending"
+    },
+    {
+      "slug": "weeknight-paella",
+      "status": "pending"
+    },
+    {
+      "slug": "white-chicken-chili-night",
+      "status": "editorial-review",
+      "record": "docs/meal-reviews/white-chicken-chili-night.md",
+      "components": ["white-chicken-chili", "cornbread"]
+    }
+  ]
+}

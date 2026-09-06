@@ -40,8 +40,7 @@ equipment:
   - mixing-bowl
 pairsWith:
   - everyday-arugula-salad
-  - everyday-arugula-salad
-  - classic-coleslaw
+  - coleslaw
 ingredients:
   - '--- The Dough (Make 1-2 days ahead) ---'
   - 3 cups All-Purpose Flour (or bread flour for chewier crust)
@@ -57,9 +56,7 @@ ingredients:
   - 1/4 tsp Red Pepper Flakes (optional)
   - 'Fresh Basil (add at the end, optional)'
   - '--- The Cheese ---'
-  - >-
-    12 oz Fresh Mozzarella (or low-moisture mozzarella if making ahead, torn
-    into pieces)
+  - '12 oz Fresh Mozzarella (or low-moisture mozzarella if making ahead, torn into pieces)'
   - 1 oz Parmesan (freshly grated)
   - '--- Topping Suggestions (Choose 3-4) ---'
   - Pepperoni Slices

@@ -22,7 +22,7 @@ totalTime: 15 min
 servings: '4'
 pairsWith:
   - avocado-kale-caesar-salad
-  - sesame-cucumber-salad
+  - smashed-cucumber-salad
   - sesame-tomato-salad
 ingredients:
   - >-

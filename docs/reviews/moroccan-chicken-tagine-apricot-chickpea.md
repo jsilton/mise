@@ -1,0 +1,11 @@
+# Moroccan-Inspired Chicken with Apricots, Chickpeas and Almonds: individual editorial review
+
+Date: 2026-09-06. Status: editorial review; no physical kitchen test recorded.
+
+Read the full original, both proposed meal sides and the entire meal schedule. Removed unsupported Fez/medieval-lineage claims and the assertion that bone-in skin-on is mandatory for every good version. Retained six thighs but specified about 1.5 kg so a six-person meal does not depend on an ambiguous six-to-eight piece count. Described a Moroccan-inspired Dutch-oven braise, with an explicit soft-skin result rather than a covered/uncovered crisp-skin promise.
+
+Reduced and clarified the spice system: cumin/ginger 1.5 tsp each, paprika/turmeric/coriander 1 tsp, one cinnamon stick without extra ground cinnamon/allspice. Sear salt-and-pepper thighs in two rounds, then bloom ground spices in the onion base to avoid burning them on skin. Weighed 400 g onion, 120 g apricots, 255 g drained chickpeas and 20 g preserved rind. Initial broth is 360 ml with controlled 120 ml correction, honey is only an optional teaspoon, and fresh lemon is staged. Late chickpeas/rind preserve texture and allow salinity checks. Almonds are 40 g and herbs 2 tbsp each.
+
+Two oil spoons are a searing supply, with unused oil reserved if rendered chicken fat suffices; pour off excess before onion cooking. Chicken endpoint is 165°F plus tenderness. Sauce reduces separately if needed. Two-hour estimate includes both sears, onion base, braise, finishing and five-minute rest. It no longer claims a tight lid preserves crisp skin or that ten uncovered minutes re-crisps it. Earthenware tagines require their own handling and are not interchangeable with high-heat metal cookware.
+
+Emma Christensen's primary recipe supports this ingredient family and broad braising method, not a precise historical attribution or proof of Mise's altered spice/fruit proportions. Its week-long storage guidance is not adopted; federal 3–4-day refrigeration and 165°F reheat apply. No fixed 20–25-minute reheat or inevitable overnight improvement is promised. Meal and side reviews are separate. Test spice balance, apricot sweetness, preserved-rind salt, six-thigh pan geometry, 360 ml broth, actual tenderness/skin texture, almonds and two-hour timing. No physical kitchen test recorded.

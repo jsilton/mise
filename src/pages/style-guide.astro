@@ -1,0 +1,304 @@
+---
+import Layout from '../layouts/Layout.astro';
+import DishArt from '../components/DishArt.astro';
+import PhotoLab from '../components/PhotoLab.astro';
+import PaletteOptions from '../components/PaletteOptions.astro';
+import { dishVisuals } from '../data/dish-visuals';
+const BASE = import.meta.env.BASE_URL;
+---
+
+<Layout
+  title="Paper, pigment & mise. | Mise"
+  description="Explore three quieter palettes, a simple wordmark, and watercolor dish studies for Mise."
+>
+  <p class="eyebrow">A new visual direction</p>
+  <div class="identity-heading">
+    <h1>Paper. Pigment.<br /><em>A sense of the dish.</em></h1><p>
+      Loose watercolor washes, a few considered lines, and room to breathe. A cooking notebook built
+      around the food.
+    </p>
+  </div>
+  <section class="identity-section palette-section" aria-labelledby="palette-title">
+    <div class="section-intro">
+      <p class="eyebrow">01 / Three color studies</p><h2 id="palette-title">
+        Less yellow. More space.
+      </h2><p>
+        Try each palette on the whole site. The paper stays light; the ink and small accents carry
+        the color.
+      </p>
+    </div>
+    <PaletteOptions />
+    <div class="preview-links">
+      <a href={`${BASE}recipes/authentic-roman-alfredo`}>See a recipe in this palette ↗</a><a
+        href={BASE}>See the homepage ↗</a>
+    </div>
+  </section>
+  <section class="identity-section" aria-labelledby="wordmark-title">
+    <div class="wordmark-layout">
+      <div class="section-intro">
+        <p class="eyebrow">02 / The wordmark</p><h2 id="wordmark-title">Simply, mise.</h2><p>
+          The name is the logo. A considered serif, close spacing, and a full stop. No separate
+          symbol.
+        </p>
+      </div><div class="wordmark-specimen" aria-label="mise.">mise<span>.</span></div>
+    </div>
+    <a class="asset-link" href={`${BASE}brand/mise-wordmark.svg`} download
+      >Download the wordmark SVG ↗</a
+    >
+  </section>
+  <section class="identity-section" aria-labelledby="art-title">
+    <div class="section-intro">
+      <p class="eyebrow">03 / The recipe studies</p><h2 id="art-title">
+        Paint the character of the dish.
+      </h2><p>
+        Keep the forms that make a dish recognizable. Let small details dissolve into the paper.
+        Natural ingredient colors belong in the painting; the page itself stays quiet.
+      </p>
+    </div>
+    <div class="art-grid">
+      {
+        Object.entries(dishVisuals).map(([slug, visual]) => (
+          <a href={`${BASE}recipes/${slug}`}>
+            <>
+              <DishArt {slug} />
+              <span>{visual.title} ↗</span>
+            </>
+          </a>
+        ))
+      }
+    </div>
+    <p class="note">
+      These generated watercolor paintings explore the reference style. The editable drawings below
+      simplify their forms further. Both are illustrations, not photographs of tested recipes.
+    </p>
+  </section>
+  <section class="identity-section" aria-labelledby="vector-title">
+    <div class="section-intro">
+      <p class="eyebrow">04 / Editable dish drawings</p><h2 id="vector-title">
+        The same dish, in a few layers.
+      </h2><p>
+        Three original SVG studies with transparent paper, soft pigment, and separate layers for the
+        vessel, food, and finishing details. These are working drawings to compare with the
+        paintings above; the recipe pages retain the watercolor paintings.
+      </p>
+    </div>
+    <div class="vector-grid">
+      {
+        Object.entries(dishVisuals).map(([slug, visual]) => (
+          <figure>
+            <>
+              <img
+                src={`${BASE}images/dishes/${visual.studyFile}`}
+                alt={`Editable Mise drawing study of ${visual.title}`}
+                width="960"
+                height="640"
+                loading="lazy"
+              />
+              <figcaption>
+                <>
+                  <strong>{visual.title}</strong>
+                  <a href={`${BASE}images/dishes/${visual.studyFile}`} download>
+                    Download editable SVG ↗
+                  </a>
+                  <a href={`${BASE}recipes/${slug}`}>Read the recipe ↗</a>
+                </>
+              </figcaption>
+            </>
+          </figure>
+        ))
+      }
+    </div>
+    <p class="note">
+      The drawings contain editable shapes, with no embedded photograph. Their ingredients follow
+      the recipes: fine grated Parmesan, no added broccoli garnish, and broken dried chiles in the
+      dal. They remain studies; the softer, more detailed watercolor finish is still being refined.
+    </p>
+  </section>
+  <section class="identity-section" aria-labelledby="photo-title">
+    <div class="section-intro">
+      <p class="eyebrow">05 / From photograph to study</p><h2 id="photo-title">
+        Observe first. Simplify with care.
+      </h2><p>
+        Start from a photograph of the actual dish. A soft wash treatment establishes color and
+        texture; a separate drawing interprets the plate, ingredients, and negative space. A filter
+        alone does not make an illustration.
+      </p>
+    </div>
+    <PhotoLab />
+    <ol class="art-process">
+      <li>
+        <strong>Keep the original.</strong><span
+          >Use it for ingredient identity, proportions, and honest cooking cues.</span>
+      </li><li>
+        <strong>Find the essential forms.</strong><span
+          >Trace the plate, the main ingredients, and a few distinctive details into separate SVG
+          layers.</span>
+      </li><li>
+        <strong>Let the edges breathe.</strong><span
+          >Use translucent fills, interrupted contours, a restrained pigment texture, and unpainted
+          paper.</span>
+      </li>
+    </ol>
+  </section>
+</Layout>
+<style>
+  h1 {
+    font:
+      500 clamp(3rem, 6vw, 5rem)/1.03 'Cormorant Garamond',
+      Georgia,
+      serif;
+    margin: 1.5rem 0;
+    letter-spacing: -0.03em;
+  }
+  h1 em {
+    font-weight: 400;
+    color: var(--accent);
+  }
+  .identity-heading {
+    display: grid;
+    grid-template-columns: 1.4fr 1fr;
+    gap: 3rem;
+    align-items: center;
+  }
+  .identity-heading > p,
+  .section-intro > p:not(.eyebrow) {
+    max-width: 650px;
+    color: var(--text-secondary);
+    line-height: 1.8;
+  }
+  .identity-section {
+    margin-top: 4rem;
+    padding-top: 2rem;
+    border-top: 1px solid var(--border-subtle);
+  }
+  .palette-section {
+    margin-top: 2rem;
+  }
+  h2 {
+    font:
+      500 2.5rem/1.15 'Cormorant Garamond',
+      Georgia,
+      serif;
+    margin: 0.7rem 0 1rem;
+  }
+  .section-intro {
+    margin-bottom: 2rem;
+  }
+  .preview-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem 2rem;
+    margin-top: 1.5rem;
+    font-size: 0.8rem;
+    color: var(--accent);
+  }
+  .wordmark-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 2rem;
+  }
+  .wordmark-specimen {
+    text-align: center;
+    font:
+      500 clamp(5rem, 12vw, 9rem)/1 'Cormorant Garamond',
+      Georgia,
+      serif;
+    letter-spacing: -0.06em;
+    padding: 2rem;
+  }
+  .wordmark-specimen span {
+    color: var(--accent);
+  }
+  .asset-link {
+    display: inline-block;
+    font-size: 0.8rem;
+    color: var(--accent);
+  }
+  .art-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 2rem;
+  }
+  .art-grid a {
+    border-bottom: 1px solid var(--border-subtle);
+  }
+  .art-grid a:hover {
+    border-color: var(--accent);
+  }
+  .art-grid a > span {
+    display: block;
+    padding: 1rem;
+    font-size: 0.8rem;
+    letter-spacing: 0.03em;
+  }
+  .vector-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1.5rem;
+  }
+  .vector-grid figure {
+    margin: 0;
+    border: 1px solid var(--border-subtle);
+    background: var(--bg-deep);
+  }
+  .vector-grid img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  .vector-grid figcaption {
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+    padding: 1.2rem;
+    font-size: 0.8rem;
+  }
+  .vector-grid a {
+    color: var(--accent);
+  }
+  .note {
+    color: var(--text-secondary);
+    font-size: 0.8rem;
+    line-height: 1.8;
+    margin-top: 1.5rem;
+  }
+  .art-process {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    margin-top: 2rem;
+    list-style: none;
+  }
+  .art-process li {
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+    font-size: 0.8rem;
+    line-height: 1.7;
+    color: var(--text-secondary);
+  }
+  .art-process strong {
+    color: var(--text-primary);
+    font-weight: 500;
+  }
+  @media (max-width: 680px) {
+    .art-grid,
+    .vector-grid,
+    .identity-heading,
+    .wordmark-layout,
+    .art-process {
+      grid-template-columns: 1fr;
+    }
+    .identity-heading {
+      gap: 0;
+    }
+    .wordmark-layout {
+      gap: 0;
+    }
+    .wordmark-specimen {
+      padding-top: 0;
+      text-align: left;
+    }
+  }
+</style>

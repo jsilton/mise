@@ -1,0 +1,90 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import { getTechniquesForRecipe } from '../data/techniques';
+interface Props {
+  recipe: CollectionEntry<'recipes'>;
+}
+const { recipe } = Astro.props;
+const learning = recipe.data.learning;
+const lessons = getTechniquesForRecipe(recipe);
+const BASE = import.meta.env.BASE_URL;
+---
+
+{
+  learning && (
+    <section class="learning-summary" aria-labelledby="learning-title">
+      <div>
+        <>
+          <p class="eyebrow">The skill you take away</p>
+          <h2 id="learning-title">{learning.focus}</h2>
+        </>
+      </div>
+      <div>
+        <>
+          <p class="eyebrow">What success looks like</p>
+          <p>{learning.outcome}</p>
+        </>
+      </div>
+    </section>
+  )
+}
+{
+  lessons.length > 0 && (
+    <div class="lesson-links" aria-label="Related cooking lessons">
+      <span>Understand the technique</span>
+      {lessons.map((t) => (
+        <a href={`${BASE}learn/${t.slug}`}>
+          {t.title} <span aria-hidden="true">↗</span>
+        </a>
+      ))}
+    </div>
+  )
+}
+<style>
+  .learning-summary {
+    background: var(--bg-elevated);
+    border: 1px solid var(--border-emphasis);
+    border-left: 3px solid var(--accent-gold);
+    display: grid;
+    grid-template-columns: 1fr 1.4fr;
+    gap: 2rem;
+    padding: 1.6rem;
+    margin: 2rem 0 1rem;
+  }
+  h2 {
+    font:
+      500 1.9rem/1.15 'Cormorant Garamond',
+      Georgia,
+      serif;
+    margin-top: 0.65rem;
+  }
+  .learning-summary p:not(.eyebrow) {
+    color: var(--text-secondary);
+    line-height: 1.65;
+    margin-top: 0.6rem;
+    font-size: 0.95rem;
+  }
+  .lesson-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem 1.3rem;
+    font-size: 0.8rem;
+    align-items: center;
+    padding: 0.7rem 0;
+  }
+  .lesson-links > span {
+    color: var(--text-secondary);
+  }
+  a {
+    color: var(--accent-gold);
+    text-decoration: underline;
+    text-underline-offset: 4px;
+  }
+  @media (max-width: 600px) {
+    .learning-summary {
+      grid-template-columns: 1fr;
+      gap: 1.4rem;
+      padding: 1.3rem;
+    }
+  }
+</style>

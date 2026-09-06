@@ -1,5 +1,5 @@
 ---
-title: Thai Basil Chicken (Pad Kra Pao)
+title: Holy Basil Chicken (Pad Kra Pao)
 origin: Thailand
 difficulty: easy
 cookingMethods:
@@ -18,69 +18,121 @@ cuisines:
   - Thai
 role: main
 vibe: quick
-prepTime: 10 min
-cookTime: 8 min
-totalTime: 18 min
+prepTime: 15 min
+cookTime: 25 min
+totalTime: 40 min
 servings: '4'
 seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
 equipment:
-  - wok
-  - large-skillet
-advancePrep:
-  - prep-vegetables
+  - 12-inch-skillet-or-wok
+  - second-skillet-for-eggs
+  - instant-read-thermometer
+advancePrep: []
 pairsWith:
-  - basmati-rice
-  - coconut-jasmine-rice
-  - cilantro-lime-rice
+  - steamed-white-rice
 ingredients:
-  - 1.5 lbs Ground Chicken (or chopped chicken breast)
-  - 4 tbsp Fish Sauce
-  - 2 tbsp Palm Sugar (or brown sugar)
-  - 1 tbsp Soy Sauce
-  - '4 cloves Garlic, minced'
-  - >-
-    3-4 Thai Bird Chilies (or 1 larger jalapeño, minced, adjust to heat
-    tolerance)
-  - 1 Cup Fresh Thai Basil (or Italian basil in a pinch)
-  - 2 tbsp Vegetable Oil
-  - 1/4 cup Chicken Stock or Water
-  - '4 Eggs (for serving, fried sunny-side up)'
-  - Lime Wedges
-nutrition:
-  calories: 220
-  protein: 17.5
-  carbs: 11.5
-  fat: 12.5
-  fiber: 1.5
-  sugar: 6.5
-  sodium: 3670
+  - '680 g ground chicken, preferably thigh meat'
+  - 2 tbsp fish sauce
+  - 1 tbsp light soy sauce
+  - 2 tsp palm sugar or brown sugar
+  - 1/4 cup (60 ml) unsalted chicken stock or water
+  - '4 cloves garlic, finely chopped'
+  - '1 to 4 Thai bird chiles, finely chopped, to suit your heat preference'
+  - '30 g holy basil leaves, tough stems removed'
+  - '4 tbsp neutral oil, divided between chicken and eggs'
+  - 4 large eggs
+  - '1 lime, cut into wedges, optional at the table'
+description: >-
+  Ground chicken with garlic, chiles, and holy basil, served with a freshly fried egg and separately
+  prepared rice.
+learning:
+  focus: Keep holy basil fragrant and the salty glaze controlled
+  outcome: >-
+    Savory, chile-scented chicken with distinct basil aroma and a small amount of sauce, topped with
+    a fried egg.
+  techniques:
+    - stir-frying
+    - temperature
+    - seasoning
+  before:
+    - >-
+      Holy basil is the defining herb here. Thai basil gives a different, anise-like aroma; use the
+      substitution note if holy basil is unavailable.
+    - >-
+      Prepare rice separately and have it close to ready before cooking chicken. A second skillet
+      lets the eggs finish near the stir-fry.
+  checkpoints:
+    - step: 2
+      cue: Ground chicken is broken into small pieces and reaches 165°F / 74°C.
+      why: Ground poultry must cook throughout; color alone does not establish doneness.
+    - step: 4
+      cue: Sauce moistens the chicken but does not form a deep puddle.
+      why: >-
+        A short reduction concentrates seasoning. Excessive reduction makes the same amount of fish
+        sauce taste much saltier.
+    - step: 5
+      cue: Basil is just wilted and aromatic when the heat is turned off.
+      why: Adding the leaves at the end limits their time in hot liquid and preserves a fresher aroma.
+  troubleshooting:
+    - problem: The dish is too salty
+      cause: 'Fish sauce or soy was especially concentrated, or the sauce reduced too far.'
+      fix: >-
+        Add a small splash of water to restore a light glaze. Next time begin with less fish sauce;
+        do not add extra sugar as the only correction.
+    - problem: Ground chicken is dry
+      cause: Very lean meat cooked too long while waiting for the sauce or eggs.
+      fix: >-
+        Use a little of the measured stock to loosen it and finish promptly. Thigh mince gives a
+        more forgiving texture.
+    - problem: Garlic turns bitter
+      cause: It browned too far in the hot pan.
+      fix: >-
+        Remove blackened garlic and wipe the pan before proceeding. Lower the heat for aromatics
+        after cooking chicken.
+  substitutions:
+    - ingredient: Holy basil
+      alternative: 30 g Thai basil or Italian basil leaves
+      effect: >-
+        Creates a different basil-chicken variation. Thai basil is more anise-like; neither is
+        identical to holy basil.
+    - ingredient: Light soy sauce
+      alternative: Gluten-free tamari
+      effect: >-
+        Use a labeled gluten-free fish sauce too and check all packaged ingredients. Salt
+        concentration can differ, so taste the cooked glaze.
+  timing: >-
+    About 40 minutes for the chicken and eggs, using two skillets and overlapping the eggs with the
+    sauce stage. Two egg batches or a single-pan sequence takes longer. Rice preparation is
+    separate.
+  storage: >-
+    Refrigerate in shallow containers within 2 hours (1 hour above 90°F / 32°C), at 40°F / 4°C or
+    below. Use within 3–4 days; reheat leftovers to 165°F / 74°C. Keep any eggs separate; fried eggs
+    are best freshly cooked. Reheat chicken before adding fresh basil if available.
+  sources:
+    - title: FoodSafety.gov — Safe cooking temperatures
+      url: 'https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures'
+    - title: 'FoodSafety.gov — Clean, separate, cook, chill'
+      url: 'https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety'
+    - title: Pailin Chongchitnant — Holy basil stir-fry identity and seasoning variations
+      url: 'https://hot-thai-kitchen.com/pad-kra-pao-anything/'
+    - title: Pailin Chongchitnant — Fish-sauce-led pad kra pao and holy basil
+      url: 'https://hot-thai-kitchen.com/pad-kra-pao-beef/'
+  review:
+    status: editorial-review
+    date: '2026-09-06'
 ---
 
 ## Chef's Note
 
-Pad kra pao is Thailand's most popular street food - a fast, pungent stir-fry of holy basil and ground chicken that goes from wok to plate in under 10 minutes. The sauce is dominated by fish sauce and palm sugar in equal measure, which sounds strange until you taste it: the funk of fish sauce and the sweetness of palm sugar create something almost caramel-like. The entire dish is made in one wok, and the key is high heat and not stirring too much - let the chicken get some color and crust before tossing.
+Holy basil, garlic, and chile give pad kra pao its character. This version retains the site's fish-sauce-and-soy seasoning, with a small amount of sugar to round it out. It should taste savory, not like a honey glaze. Thai basil is a useful substitution with a different aroma. The fried egg is part of this serving; rice is prepared separately. This home method uses a shallow layer of oil for the eggs rather than a deep pool.
 
 ## Directions
 
-1. **Make the Sauce:** In a small bowl, whisk together fish sauce, palm sugar, and soy sauce until the sugar dissolves. Set aside. This should taste aggressively salty and sweet - balance comes when it hits hot chicken.
-
-2. **Prep Everything:** Have garlic, chilies, basil, and chicken stock prepped and within reach. Pad kra pao is too fast to chop during cooking.
-
-3. **Heat the Wok:** Place a wok or large skillet over high heat for 2 minutes until smoking. Add 1 tbsp oil and let it smoke for 15 seconds.
-
-4. **Cook the Chicken:** Add ground chicken without stirring for 2 minutes. Let it sit and brown. Break it apart with a spoon and cook another 2 minutes until no pink remains and the chicken has some caramelized bits.
-
-5. **Aromatics:** Push chicken to the side. Add remaining 1 tbsp oil, minced garlic, and minced chilies. Stir for 15 seconds until fragrant.
-
-6. **Sauce:** Pour in the fish sauce mixture and chicken stock. Stir everything together for 30 seconds. The sauce should coat the chicken and reduce slightly - this should be quick, not a long simmer.
-
-7. **Basil:** Remove from heat. Tear the Thai basil roughly and toss it in. The residual heat will slightly wilt it while keeping the aroma alive.
-
-8. **Serve:** Serve over warm rice with a fried egg on top. Squeeze lime over everything before eating.
-
-**Heat Note:** Thai Bird chilies are hot. Start with 2 and taste; you can always add more. If cooking for kids, remove the chilies or use just one jalapeño.
-
-**Basil Swap:** Thai basil has licorice-like notes. If unavailable, Italian basil works but tastes different - the dish will be less anise-forward but still delicious.
+1. **Prepare everything:** Stir fish sauce, light soy, sugar, and stock until the sugar dissolves. Chop garlic and chiles and pick basil leaves. Keep chicken refrigerated until the pan is ready. Set out a second skillet for the eggs.
+2. **Cook chicken in two batches:** Heat 2 tsp oil in a 12-inch skillet or wok over medium-high heat. Add half the chicken, spread it out, and leave about 1–2 minutes. Break into small pieces and continue cooking, stirring, until the chicken reaches 165°F / 74°C, usually about 5–7 minutes total. Transfer to a clean bowl. Repeat with another 2 tsp oil and the remaining chicken.
+3. **Fry the eggs near serving:** Heat 2 tbsp oil in the second skillet over medium heat. Crack in the eggs, leaving space between them; use two batches if they crowd. Cook until whites set and edges begin to color, then turn carefully and finish until both whites and yolks are firm, about 4–6 minutes depending on heat. Reduce heat if the bottoms darken too quickly. Transfer to plates as the chicken finishes.
+4. **Make the glaze:** Meanwhile reduce the chicken skillet to medium, add the remaining 2 tsp oil, and stir garlic and chiles for about 30 seconds until fragrant without blackening. Add the mixed sauce and cooked chicken. Simmer and stir about 2–3 minutes until hot and lightly glazed. Taste the cooked mixture; stop reducing if it is already strongly seasoned.
+5. **Finish with basil:** Turn off heat and fold in basil until just wilted. Divide chicken among four plates with separately prepared rice and one fried egg per diner. Offer lime wedges only if wanted at the table.

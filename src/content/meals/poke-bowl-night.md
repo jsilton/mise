@@ -3,7 +3,7 @@ title: Poke Bowl Night
 template: bowl
 main: tuna-poke-bowls
 base: master-sushi-rice
-sides: [sesame-cucumber-salad, steamed-edamame]
+sides: [smashed-cucumber-salad, steamed-edamame]
 totalPrepTime: 20 min
 totalCookTime: 20 min
 totalActiveTime: 25 min
@@ -18,7 +18,7 @@ bestFor: [tuesday, wednesday, thursday]
 
 ## Meal Overview
 
-Fresh, vibrant, and deeply satisfying  -  poke bowls are the perfect warm-weather dinner. Sushi-quality tuna dressed in soy and sesame sits atop seasoned rice, surrounded by cool cucumber and earthy edamame. No cooking required for the main protein.
+Fresh, vibrant, and deeply satisfying - poke bowls are the perfect warm-weather dinner. Sushi-quality tuna dressed in soy and sesame sits atop seasoned rice, surrounded by cool cucumber and earthy edamame. No cooking required for the main protein.
 
 ## Cooking Strategy
 

@@ -1,0 +1,257 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { techniques } from '../../data/techniques';
+import { getCollection } from 'astro:content';
+import LeaveningComparison from '../../components/LeaveningComparison.astro';
+export function getStaticPaths() {
+  return techniques.map((technique) => ({
+    params: { slug: technique.slug },
+    props: { technique },
+  }));
+}
+const { technique } = Astro.props;
+const BASE = import.meta.env.BASE_URL;
+const recipes = await getCollection('recipes');
+const practice = technique.recipes.map((slug) => {
+  const recipe = recipes.find((r) => r.slug === slug);
+  if (!recipe) throw new Error(`Missing practice recipe for ${technique.slug}: ${slug}`);
+  return recipe;
+});
+---
+
+<Layout title={`${technique.title} | Mise`} description={technique.summary}>
+  <nav class="breadcrumb" aria-label="Breadcrumb">
+    <a href={`${BASE}learn`}>The learning kitchen</a><span aria-hidden="true">/</span><span
+      >{technique.category}</span
+    >
+  </nav>
+  <div class="lesson-hero">
+    <p class="eyebrow">{technique.category}</p><h1>{technique.title}</h1><p>{technique.summary}</p>
+  </div>
+  <div class="lesson-layout">
+    <aside class="lesson-toc">
+      <p class="eyebrow">In this lesson</p><nav aria-label="Lesson sections">
+        <a href="#principle">The science</a>
+        {technique.slug === 'leavening' && <a href="#leaveners">Compare leaveners</a>}
+        <a href="#controls">What you control</a><a href="#cues">Read the cues</a><a href="#rescue"
+          >Troubleshoot</a
+        ><a href="#experiment">Try a comparison</a><a href="#practice">Cook to learn</a>
+      </nav>
+    </aside>
+    <div class="prose-refined lesson-content">
+      <section id="principle">
+        <h2>The science, in plain language</h2><p>{technique.principle}</p>
+      </section>
+      {technique.slug === 'leavening' && <LeaveningComparison />}
+      <section id="controls">
+        <h2>What you control</h2>{
+          technique.controls.map((control, i) => (
+            <div class="control">
+              <>
+                <span class="control-number">0{i + 1}</span>
+                <div>
+                  <>
+                    <h3>{control.name}</h3>
+                    <p>
+                      <strong>{control.action}</strong>
+                    </p>
+                    <p>{control.reason}</p>
+                  </>
+                </div>
+              </>
+            </div>
+          ))
+        }
+      </section>
+      <section id="cues">
+        <h2>Read the cues</h2><p>
+          Watch the food as well as the clock. These observations help you decide your next move.
+        </p><div class="cue-track">
+          {
+            technique.cues.map((cue) => (
+              <div>
+                <>
+                  <span class="eyebrow">{cue.stage}</span>
+                  <p>{cue.cue}</p>
+                </>
+              </div>
+            ))
+          }
+        </div>
+      </section>
+      <section id="rescue">
+        <h2>When it goes differently</h2>{
+          technique.troubleshooting.map((item) => (
+            <details>
+              <>
+                <summary>{item.problem}</summary>
+                <p>
+                  <strong>Likely cause:</strong> {item.cause}
+                </p>
+                <p>
+                  <strong>Try this:</strong> {item.fix}
+                </p>
+              </>
+            </details>
+          ))
+        }
+      </section>
+      <section id="experiment" class="experiment">
+        <p class="eyebrow">Build your cooking intuition</p><h2>
+          Change one thing. Notice the difference.
+        </h2><p>{technique.experiment}</p><p class="experiment-note">
+          This is a suggested comparison for your kitchen, not a claim of a completed Mise test.
+        </p>
+      </section>
+      <section id="practice">
+        <h2>Cook to learn</h2><p>
+          Put the idea into practice with a recipe from the collection.
+        </p><div class="practice-list">
+          {
+            practice.map((recipe) => (
+              <a href={`${BASE}recipes/${recipe.slug}`}>
+                <>
+                  <span>{recipe.data.title}</span>
+                  <small>{recipe.data.learning?.focus || 'Explore this recipe'} →</small>
+                </>
+              </a>
+            ))
+          }
+        </div>
+      </section>
+      <section class="sources">
+        <h2>Sources & further reading</h2><p>
+          Sources support the underlying principles. The practical checks and comparisons are Mise’s
+          editorial guidance.
+        </p><ul>
+          {
+            technique.sources.map((source) => (
+              <li>
+                <a href={source.url}>{source.title} ↗</a>
+              </li>
+            ))
+          }
+        </ul>
+      </section>
+    </div>
+  </div>
+</Layout>
+<style>
+  .lesson-hero {
+    max-width: 850px;
+    padding: 3rem 0;
+  }
+  h1 {
+    font:
+      500 clamp(2.8rem, 5vw, 4.6rem)/1.05 'Cormorant Garamond',
+      Georgia,
+      serif;
+    letter-spacing: -0.03em;
+    margin: 1rem 0;
+  }
+  .lesson-hero > p:last-child {
+    color: var(--text-secondary);
+    font-size: 1.1rem;
+    line-height: 1.8;
+  }
+  .lesson-layout {
+    display: grid;
+    grid-template-columns: 220px minmax(0, 1fr);
+    gap: 4rem;
+  }
+  .lesson-toc {
+    align-self: start;
+    position: sticky;
+    top: 100px;
+    border-top: 1px solid var(--border-subtle);
+    padding-top: 1.5rem;
+  }
+  .lesson-toc nav {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 1.5rem;
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+  }
+  .lesson-content section {
+    margin-bottom: 3rem;
+  }
+  .control {
+    display: flex;
+    gap: 1.5rem;
+    padding: 1.5rem 0;
+    border-bottom: 1px solid var(--border-subtle);
+  }
+  .control h3 {
+    margin-top: 0;
+  }
+  .control p {
+    margin-bottom: 0.5rem;
+  }
+  .control-number {
+    font:
+      400 2rem/1.3 'Cormorant Garamond',
+      Georgia,
+      serif;
+    color: var(--accent-gold);
+  }
+  .cue-track {
+    border-left: 2px solid var(--accent-gold);
+    padding-left: 1.5rem;
+  }
+  .cue-track p {
+    margin-top: 0.5rem;
+  }
+  details {
+    border-bottom: 1px solid var(--border-subtle);
+  }
+  summary {
+    padding: 1rem 0;
+    cursor: pointer;
+  }
+  .experiment {
+    background: var(--bg-elevated);
+    border: 1px solid var(--border-emphasis);
+    padding: 1.6rem;
+  }
+  .experiment h2 {
+    margin-top: 1rem;
+    border: 0;
+  }
+  .experiment-note {
+    font-size: 0.8rem;
+  }
+  .practice-list {
+    display: grid;
+    gap: 0.75rem;
+  }
+  .practice-list a {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    border: 1px solid var(--border-subtle);
+  }
+  .practice-list small {
+    color: var(--text-secondary);
+    font-size: 0.75rem;
+    margin-top: 0.3rem;
+  }
+  .sources p {
+    font-size: 0.85rem;
+  }
+  @media (max-width: 700px) {
+    .lesson-layout {
+      grid-template-columns: 1fr;
+      gap: 1rem;
+    }
+    .lesson-toc {
+      position: static;
+    }
+    .lesson-toc nav {
+      flex-direction: row;
+      flex-wrap: wrap;
+      margin-bottom: 2rem;
+    }
+  }
+</style>

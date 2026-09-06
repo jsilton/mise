@@ -1,0 +1,58 @@
+/* Paper and pigment. Legacy accent-gold aliases keep older pages on the same palette. */
+:root, :root[data-palette='porcelain'] {
+  --bg-deep: #f7f6f2;
+  --bg-surface: #fcfbf8;
+  --bg-elevated: #f0f1ee;
+  --bg-hover: #e5ebe9;
+  --border-subtle: #d9dedb;
+  --border-emphasis: #a9b7ba;
+  --text-primary: #263a49;
+  --text-secondary: #52616a;
+  --text-tertiary: #657078;
+  --accent: #486b7b;
+  --accent-muted: #8ca2ab;
+  --accent-strong: #304f60;
+  --accent-link: #365f73;
+  --accent-link-bright: #203f52;
+  --wash: #dce8eb;
+  --wash-secondary: #e9e3dd;
+  --accent-gold: var(--accent);
+  --accent-gold-muted: var(--accent-muted);
+  --accent-gold-bright: var(--accent-strong);
+}
+:root[data-palette='sage'] {
+  --bg-deep: #f4f6f0;
+  --bg-surface: #fafbf7;
+  --bg-elevated: #edf0e8;
+  --bg-hover: #e0e7dc;
+  --border-subtle: #d6ded1;
+  --border-emphasis: #a3b29e;
+  --text-primary: #303c35;
+  --text-secondary: #566459;
+  --text-tertiary: #657165;
+  --accent: #4b6a5b;
+  --accent-muted: #8da491;
+  --accent-strong: #304f40;
+  --accent-link: #3a6551;
+  --accent-link-bright: #274b38;
+  --wash: #dbe5d6;
+  --wash-secondary: #e9e5df;
+}
+:root[data-palette='rose'] {
+  --bg-deep: #f8f4f3;
+  --bg-surface: #fdfaf9;
+  --bg-elevated: #f1eae9;
+  --bg-hover: #eadee1;
+  --border-subtle: #e0d6d8;
+  --border-emphasis: #b9a7b0;
+  --text-primary: #40343f;
+  --text-secondary: #695c65;
+  --text-tertiary: #786871;
+  --accent: #85586c;
+  --accent-muted: #b69ba6;
+  --accent-strong: #684256;
+  --accent-link: #794b65;
+  --accent-link-bright: #5c354b;
+  --wash: #ebdee3;
+  --wash-secondary: #dfe6e9;
+}

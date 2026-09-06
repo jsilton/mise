@@ -34,7 +34,7 @@ equipment:
 pairsWith:
   - cornbread
   - coleslaw
-  - classic-coleslaw
+  - coleslaw
   - korean-style-tacos-with-kogi-bbq-sauce
   - crockpot-mac-and-cheese
   - carnitas-bowl

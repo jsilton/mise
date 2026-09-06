@@ -1,0 +1,13 @@
+# Green Beans with Shallots and Lemon: individual editorial review
+
+Date: 2026-09-06. Editorial review only; no physical kitchen test recorded.
+
+Read the entire recipe and its Chicken Marsala Night, Quick Chicken Dinner and Thanksgiving Feast contexts. It remains a distinct shallot/lemon vegetable side. Quick Chicken Dinner actually uses pending buttermilk-baked-chicken and incorrectly refers to broccoli; reading that recipe exposed an uncounted minimum three-hour marinade and an unsupported natural-enzymes explanation. That main and its meal remain pending, not silently swapped to another reviewed chicken recipe.
+
+Defined 450 g trimmed beans, 60 g peeled shallots, one tablespoon butter, one teaspoon zest, one tablespoon juice plus one optional teaspoon, and named cooking-water and finishing salt. Honey changes from one tablespoon to an optional teaspoon so it does not dominate a savory side. Pepper and optional pan water are listed. Two liters water with ten grams salt is separate from the optional one-eighth teaspoon finishing salt. Olive oil with honey omitted supplies a real vegan option; frozen beans follow their package cooking instructions rather than pretending they behave like raw fresh beans.
+
+Thirty-five minutes includes trimming, shallot preparation, heating water and the pan finish. The immediate-serving route drains cooked beans directly into the shallot workflow rather than chilling and reheating for no reason. The advance route cools promptly in ice water, drains and refrigerates, then reheats to the measured endpoint before the fresh lemon finish. Bean tenderness is tasted across size/age variation rather than defined by exactly three minutes or bright color. Shallots receive five-to-seven-minute softening rather than two minutes followed by a claimed instant honey-lemon caramelization. Lemon goes off heat near service; ice water does not permanently lock chlorophyll in place.
+
+Sources: directly accessed Exploratorium green-pigment/acid explanation at https://annex.exploratorium.edu/cooking/icooks/5-19-03.html ; University of Minnesota Extension blanching guidance supports cooling to stop ongoing cooking, not permanent color preservation. FoodSafety.gov handling guidance supports cold storage, reheating and short service limits. The sweet/acid ratios and practical home-pan method are editorial development from the repository original. Removed unverified nutrition.
+
+Kitchen questions: bean-size cooking range, shallot softness, lemon/honey balance beside each main, water needs for cold-bean reheating, 450 g skillet capacity, thirty-five-minute elapsed time and color/texture through the twelve-person menu's staggered finish. No physical test recorded.

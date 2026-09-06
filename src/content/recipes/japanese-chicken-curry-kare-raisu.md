@@ -1,13 +1,10 @@
 ---
-title: Kare Raisu
+title: Japanese Chicken Curry
 origin: Japan
 difficulty: intermediate
 cookingMethods:
-  - roast
   - saute
   - simmer
-  - boil
-  - steam
 occasions:
   - comfort-food
 flavorProfile:
@@ -18,52 +15,135 @@ cuisines:
   - Japanese
 role: main
 vibe: comfort
-prepTime: 30 min
-cookTime: 45 min
-totalTime: 75 min
+prepTime: 25 min
+cookTime: 1 hr
+totalTime: 1 hr 25 min
 servings: '6'
 pairsWith:
-  - dashi-japanese-sea-stock
-  - miso-mashed-potatoes
-  - miso-soup
+  - steamed-white-rice
+  - japanese-cucumber-sunomono
 ingredients:
-  - '2 lbs Chicken Thighs, cut into 1.5-inch chunks'
-  - '2 large Onions, thinly sliced'
-  - '2 Carrots, cut into "Rangiri" (rolling wedges)'
-  - '2 Yukon Gold Potatoes, cubed'
-  - 4 cups Chicken Stock
-  - 4 tbsp Unsalted Butter
-  - 4 tbsp All-Purpose Flour
-  - 3 tbsp S&B Oriental Curry Powder (Red Tin)
-  - 1 tbsp Garam Masala
-  - '1/2 Apple, grated (The "Secret" Note)'
-  - 1 tbsp Worcestershire Sauce
-  - 1 tbsp Ketchup
-  - 1 tsp Soy Sauce
+  - '900 g boneless skinless chicken thighs, cut into 1 1/2-inch pieces'
+  - '400 g yellow onions, thinly sliced'
+  - '300 g carrots, cut into pieces no thicker than 3/4 inch'
+  - '400 g Yukon Gold potatoes, peeled and cut into 1-inch pieces'
+  - 1 tbsp neutral oil
+  - '2 cloves garlic, minced'
+  - 1 tbsp finely grated fresh ginger
+  - '4 cups (960 ml) unsalted chicken stock, plus a little water only if needed'
+  - '100 g peeled apple, coarsely grated'
+  - 1 tbsp Worcestershire sauce
+  - 1 tbsp ketchup
+  - 1 tbsp soy sauce
+  - '1 tsp Diamond Crystal kosher salt or 1/2 tsp fine salt, plus more only if needed'
+  - '--- Curry roux ---'
+  - 70 g unsalted butter
+  - 70 g all-purpose flour
+  - '3 tbsp Japanese curry powder, such as S&B'
+  - 1 tsp garam masala
 seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
-nutrition:
-  calories: 935
-  protein: 72
-  carbs: 84
-  fat: 35.5
-  fiber: 5
-  sugar: 7.5
-  sodium: 790
+description: >-
+  Chicken thighs and vegetables in a gently thickened curry gravy with golden onions, apple, and a
+  freshly made spiced roux.
+equipment:
+  - 5-quart-heavy-pot
+  - small-saucepan
+  - whisk
+  - instant-read-thermometer
+learning:
+  focus: Cook vegetables before thickening the curry
+  outcome: >-
+    Tender chicken and distinct potato and carrot pieces in a glossy gravy that flows slowly from a
+    spoon.
+  techniques:
+    - starch
+    - gentle-proteins
+    - temperature
+  before:
+    - >-
+      This recipe makes six portions of curry; rice is prepared separately. A 1 1/2 batch of the
+      linked four-portion rice gives six side portions.
+    - >-
+      Measure flour by weight and keep the roux separate until the vegetables are almost tender.
+      Curry powder is not a commercial curry-roux block.
+  checkpoints:
+    - step: 1
+      cue: 'Onion slices are soft with golden edges, without burned patches.'
+      why: >-
+        Browning adds depth, but a fixed 20-minute promise cannot guarantee a fully caramelized
+        paste in every pot.
+    - step: 3
+      cue: Potatoes and carrots are nearly tender before the roux is added.
+      why: >-
+        Thin liquid circulates around the vegetables more easily than a thick gravy. Thickening too
+        early also increases the risk of scorching.
+    - step: 5
+      cue: The diluted roux is smooth before it is stirred into the pot.
+      why: >-
+        Adding liquid gradually disperses the flour-fat mixture instead of leaving dense lumps in
+        the finished curry.
+    - step: 6
+      cue: Several large chicken pieces reach 165°F / 74°C and vegetables yield to a fork.
+      why: >-
+        Chicken opacity is not an adequate doneness check; vegetable tenderness is a separate
+        endpoint.
+  troubleshooting:
+    - problem: Curry is too thick
+      cause: More water evaporated or the gravy cooled while standing.
+      fix: >-
+        Stir in hot water a tablespoon or two at a time until it flows slowly again. Retaste
+        seasoning.
+    - problem: Curry is too thin
+      cause: Vegetables released more moisture or the roux has not finished thickening.
+      fix: >-
+        Simmer gently for another few minutes, stirring the bottom. If meat and vegetables are
+        ready, remove them while reducing the liquid so they do not overcook. Do not sprinkle raw
+        flour directly into the curry.
+    - problem: Roux smells burned
+      cause: Heat was too high or the pan was not stirred.
+      fix: >-
+        Discard that roux and make a fresh batch. Blackened flour or spices will make the whole pot
+        bitter.
+  substitutions:
+    - ingredient: Japanese curry powder
+      alternative: Another curry powder you enjoy
+      effect: >-
+        The spice profile and heat will change. Start with less if it is unusually hot; do not
+        assume garam masala alone is equivalent.
+  timing: >-
+    About 85 minutes for the curry, with the roux made during the vegetable simmer. Rice can soak
+    and cook alongside it; allow its complete 65-minute process.
+  storage: >-
+    Refrigerate in shallow containers within 2 hours (1 hour above 90°F / 32°C), at 40°F / 4°C or
+    below. Use within 3–4 days; reheat leftovers to 165°F / 74°C. Cool the thick curry in shallow
+    portions, separately from rice. Add a little water when reheating and stir the bottom to prevent
+    scorching.
+  sources:
+    - title: FoodSafety.gov — Safe cooking temperatures
+      url: 'https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures'
+    - title: 'FoodSafety.gov — Clean, separate, cook, chill'
+      url: 'https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety'
+    - title: Namiko Hirasawa Chen — Japanese curry roux and thickening
+      url: 'https://www.justonecookbook.com/how-to-make-curry-roux/'
+    - title: 'Namiko Hirasawa Chen — Chicken curry, vegetables, and seasoning'
+      url: 'https://www.justonecookbook.com/simple-chicken-curry/'
+  review:
+    status: editorial-review
+    date: '2026-09-06'
 ---
 
 ## Chef's Note
 
-Japanese curry (kare raisu) is yoshoku - Western-influenced Japanese cuisine that emerged in the Meiji era. The secret to depth when making it from scratch is cooking butter and flour for 20 minutes until milk-chocolate brown, creating a nutty, roasted roux that curry cubes cannot replicate. The rangiri cut (rolling wedges) for carrots ensures they hold texture through long simmering. Grated apple balances the intensity of curry powder - a common yoshoku trick.
+The onion, apple, and condiments build the sauce's flavor; the cooked flour supplies its body. Bring the vegetables close to tenderness in the broth before thickening it. This is chicken simmered in curry, distinct from katsu curry, where a separately fried cutlet stays crisp beside the sauce. Serve this curry with rice prepared separately.
 
 ## Directions
 
-1.  **Foundation:** Heat oil in a large pot. Sauté onions with a pinch of salt for 20 minutes until they turn into a deep golden brown paste. Do not rush this.
-2.  **Simmer:** Add chicken and cook until opaque. Add garlic, ginger, carrots, potatoes, and stock. Bring to a boil, skim the surface, then simmer for 15 minutes.
-3.  **The Roux:** In a separate pan, melt 4 tbsp butter. Whisk in flour. Stir constantly for 15-20 minutes until the roux is dark brown.
-4.  **Bloom:** Add the curry powder and garam masala to the roux. Stir for 30 seconds until fragrant.
-5.  **Emulsify:** Whisk 1/2 cup of the hot broth into the roux to form a paste, then pour the paste back into the main pot.
-6.  **Season:** Stir in the grated apple, Worcestershire, ketchup, and soy sauce.
-7.  **Finish:** Simmer uncovered for 10 more minutes until the sauce is glossy and thick. Serve over steamed rice.
+1. **Soften and brown onions:** Heat oil in a heavy 5-quart pot over medium heat. Add onions and the measured salt. Cook about 15–20 minutes, stirring regularly, until soft and golden at the edges. Lower heat if they catch; a spoonful of the measured stock can loosen browned material.
+2. **Add aromatics and chicken:** Stir in garlic and ginger for about 30 seconds. Add chicken and turn in the onions for 3–4 minutes. This starts cooking the surface; the chicken is not yet ready to eat.
+3. **Simmer vegetables:** Add carrots, potatoes, remaining stock, apple, Worcestershire sauce, ketchup, and soy sauce. Bring to a gentle simmer. Partly cover and cook about 20 minutes, stirring occasionally, until potatoes and carrots are nearly tender. Add a little water only if needed to keep most pieces in the liquid.
+4. **Make the roux:** While the curry simmers, melt butter in a small saucepan over medium-low heat. Stir in the 70 g flour and cook, stirring continuously, about 10–15 minutes until golden to light brown and smelling toasted. Use color and aroma rather than forcing it to a dark chocolate color. Turn the heat very low, stir in curry powder and garam masala for about 30 seconds, then remove from heat.
+5. **Incorporate smoothly:** Ladle about a cup of liquid from the curry into a heatproof measuring jug. Gradually whisk it into the roux, beginning with small additions and smoothing each one before adding more. Scrape the loosened roux into the curry pot and stir thoroughly.
+6. **Finish gently:** Simmer uncovered about 8–10 minutes, stirring the bottom often, until the gravy thickens and vegetables are fully tender. Check several large chicken pieces for at least 165°F / 74°C. Thin with a little water if the gravy stands in a mound; it should flow slowly. Taste and adjust salt only as needed. Divide into six curry portions and serve with separately prepared rice.

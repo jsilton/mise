@@ -1,0 +1,77 @@
+<section id="leaveners" class="leavener-comparison" aria-labelledby="leavener-heading">
+  <h2 id="leavener-heading">Two white powders. Different jobs.</h2>
+  <div class="leavener-grid">
+    <article>
+      <p class="eyebrow">Baking soda</p>
+      <h3>The base</h3>
+      <dl>
+        <dt>In the container</dt><dd>Sodium bicarbonate.</dd>
+        <dt>In a quick-bread recipe</dt><dd>
+          Needs an appropriate acidic ingredient, such as cultured buttermilk.
+        </dd>
+        <dt>After mixing</dt><dd>
+          The acid reaction starts when ingredients meet in the wet batter.
+        </dd>
+      </dl>
+    </article>
+    <article>
+      <p class="eyebrow">Double-acting baking powder</p>
+      <h3>A balanced mixture</h3>
+      <dl>
+        <dt>In the container</dt><dd>
+          Bicarbonate plus acid salts, usually with starch to keep the mixture dry.
+        </dd>
+        <dt>In a quick-bread recipe</dt><dd>Brings its own acid for its leavening reaction.</dd>
+        <dt>After mixing</dt><dd>Releases some gas when moistened, then more as it heats.</dd>
+      </dl>
+    </article>
+  </div>
+  <p class="comparison-note">
+    A recipe may use both. Its acidic ingredients, flavor, browning and rise all matter, so swapping
+    equal spoonfuls changes the formula.
+  </p>
+</section>
+<style>
+  .leavener-comparison {
+    margin-bottom: 3rem;
+  }
+  .leavener-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+  }
+  article {
+    background: var(--bg-surface);
+    border: 1px solid var(--border-subtle);
+    padding: 1.4rem;
+  }
+  h3 {
+    font:
+      500 1.8rem/1.15 'Cormorant Garamond',
+      Georgia,
+      serif;
+    margin: 0.6rem 0 1.5rem;
+  }
+  dt {
+    color: var(--text-primary);
+    font-weight: 600;
+    font-size: 0.82rem;
+    margin-top: 1rem;
+  }
+  dd {
+    margin: 0.3rem 0 0;
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+    line-height: 1.65;
+  }
+  .comparison-note {
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+    line-height: 1.7;
+  }
+  @media (max-width: 620px) {
+    .leavener-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

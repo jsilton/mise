@@ -1,37 +1,45 @@
 ---
-title: Taco Tuesday
+title: Ground-Turkey Taco Night
 template: plate
 main: tacos
-base: mexican-red-rice
-sides: [quick-seasoned-black-beans]
-salad: mexican-street-corn-salad
+sides:
+  - mexican-street-corn-salad
 totalPrepTime: 20 min
 totalCookTime: 25 min
-totalActiveTime: 30 min
+totalActiveTime: 40 min
 overallDifficulty: easy
-cuisines: [Mexican, American]
-occasions: [weeknight, family, kids-approved]
-seasons: [year-round]
-nutritionalDensity: hearty
+cuisines:
+  - Tex-Mex
+  - American
+occasions:
+  - weeknight
+  - family
+seasons:
+  - year-round
+nutritionalDensity: moderate
 servings: '4'
-bestFor: [tuesday]
+bestFor:
+  - tuesday
+totalTime: 45 min
+review:
+  status: editorial-review
+  date: '2026-09-06'
 ---
 
 ## Meal Overview
 
-The iconic Tuesday tradition - build-your-own tacos with all the fixings. The beauty is in the customization: set out the components and let everyone assemble their perfect taco. Quick, fun, and universally loved.
+Make one full batch of Weeknight Ground-Turkey Tacos: twelve small tacos for four people. Add half a batch of Skillet Esquites, using 300 g corn, and divide it into four small sides. The corn recipe's half batch is normally three side portions; here each person gets a smaller portion alongside three tacos.
+
+The tortillas supply the starch; the filling and measured cheese supply the savory center; lettuce and tomato provide fresh crunch. Corn is a small sweet, tangy accompaniment. This plan takes about 45 minutes elapsed and 40 minutes active for one cook. It does not require separate rice, beans or another set of taco toppings.
 
 ## Cooking Strategy
 
-1. **Start rice** - 35 minutes, set and forget
-2. **Prep toppings** - shred cheese, chop cilantro, slice limes, dice onions
-3. **Cook black beans** - warm through with spices
-4. **Cook taco filling** - ground beef or chicken, 10-15 minutes
-5. **Warm tortillas** - in a dry skillet or wrapped in foil in oven
-6. **Set up taco bar** - all components in serving dishes
+1. **Prepare both component lists:** Use the full taco quantities and half of every corn-salad ingredient. Drain and dry the 300 g corn. Prepare the taco lettuce, tomato, cheese and lime; mix the half-batch corn dressing and set aside its herbs and cheese. Keep dairy chilled until needed and leave avocado for the end.
+2. **Brown the corn first:** Heat the corn's half-batch oil, 1 tbsp, in a 12-inch skillet over medium-high. The 300 g corn fits the same pan load as one batch in the full recipe. Cook in one layer for about 5–7 minutes until tender with browned patches, following its sensory cues. Transfer to a wide plate; let vigorous steaming stop, then dress with the half-batch finishing ingredients and taste. Hold briefly while making tacos.
+3. **Cook the taco filling:** Use the same skillet after removing any burned residue, adding the taco recipe's separate tablespoon of oil. Brown turkey, briefly cook spices, then add measured broth and staged salt. Check several substantial clumps reach 165°F / 74°C and stop reducing when the coating clings without a puddle. The ground-beef variation follows its own oil and 160°F / 71°C instructions.
+4. **Warm shells near serving:** Preheat for hard shells early enough to follow their package instructions. Warm soft tortillas in a second dry skillet or in the taco recipe's damp-paper-towel microwave batches while the finished filling rests briefly, covered off heat. Use twelve shells total across the chosen types.
+5. **Finish and divide:** Slice the avocado, bring out chilled toppings and divide the corn into four small sides. Serve three tacos per person, letting each diner choose modest amounts of the measured toppings. Add lime only after tasting; the corn already has its own dressing.
 
 ## Notes
 
-- Offer both flour and corn tortillas
-- Add pickled jalapeños and hot sauce for the adventurous
-- Leftover filling makes great next-day burrito bowls
+The corn step is part of the schedule, not an unscheduled salad link. Corn and turkey have separate measured oil allocations. Store corn and meat separately and chill promptly as their recipes direct; do not pack assembled tacos for later crispness. A single-skillet workflow is practical with microwave warming for soft tortillas.

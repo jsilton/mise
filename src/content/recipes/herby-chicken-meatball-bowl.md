@@ -26,7 +26,6 @@ totalTime: 45 min
 servings: '4'
 pairsWith:
   - lemon-herb-couscous
-  - whipped-feta-with-honey
   - garlic-butter-couscous
 ingredients:
   - 1 lb Ground Chicken

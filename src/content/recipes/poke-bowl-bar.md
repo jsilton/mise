@@ -36,7 +36,7 @@ equipment:
   - serving-bowls
 pairsWith:
   - master-sushi-rice
-  - sesame-cucumber-salad
+  - smashed-cucumber-salad
   - korean-pickled-cucumbers
   - sesame-roasted-edamame
 ingredients:

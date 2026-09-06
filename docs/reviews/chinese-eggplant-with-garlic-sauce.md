@@ -1,0 +1,9 @@
+# Chili-Bean Eggplant with Pork: individual editorial review
+
+Date: 2026-09-06. Status: editorial review; no physical kitchen test recorded.
+
+Read full original and neighboring simple garlic-eggplant and tofu recipes. The original mixed generic garlic sauce with la doubanjiang but never clearly allocated the paste; optional pork, unnamed remaining oil, half the garlic and a large all-in slurry were ambiguous. Retained the fermented broad-bean chili/pork identity as a distinct Sichuan-inspired preparation rather than calling all garlic eggplant yu xiang qiezi. The title now describes its actual flavor/components without an exact authenticity claim.
+
+Defined 600 g eggplant and 150 g ground pork as four shared sides, not four complete mains. Specified three tablespoons oil (two for eggplant batches, one for pork/aromatics), listed steam water, 15 g paste, small soy quantity, measured stock/wine/sugar, a one-teaspoon conditional slurry and staged vinegar. Omitted stacked oyster/dark-soy/dried-chili additions to let fermented paste lead; ordinary mushroom garlic sauce is not interchangeable. Two pan batches have tenderness checks; pork has its correct 160°F endpoint. Garlic follows paste/ginger at lower heat, and all scallions are divided correctly.
+
+Bill Leung's primary source supports the distinction of fermented chili-bean seasoning from a plain garlic sauce; Sarah Leung's source supports the pan/moisture cooking approach. These do not prove the new formula's optimum balance. Pork-free variation retains the side role and checks packaged ingredients. Forty-five minutes includes all stages, and reheating handles soft eggplant gently. Test paste brands/salt, 15 g starting amount, vinegar range, pork-to-eggplant proportions, pan batches and measured endpoint. No physical kitchen test recorded.

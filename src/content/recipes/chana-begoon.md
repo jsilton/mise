@@ -22,7 +22,6 @@ cookTime: 25 min
 totalTime: 40 min
 servings: '4'
 pairsWith:
-  - spiced-coconut-chicken-rice
   - cucumber-raita
   - basmati-rice
 ingredients:

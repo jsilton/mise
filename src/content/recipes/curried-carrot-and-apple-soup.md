@@ -21,7 +21,6 @@ cookTime: 60 min
 totalTime: 90 min
 servings: '12'
 pairsWith:
-  - spiced-coconut-chicken-rice
   - basmati-rice
   - naan
 ingredients:

@@ -1,0 +1,11 @@
+# Cranberry Orange Sauce: individual consolidation review
+
+Date: 2026-09-06. Consolidated after considered review; no physical kitchen test recorded.
+
+Compared every ingredient, step, yield and intended use in Cranberry Orange Sauce and Cranberry Sauce. Both cook one 12 oz bag of cranberries with sugar and water, using orange for aroma and serving as a tart holiday condiment. One contains half a cup sugar, sixty milliliters juice and two tablespoons zest; the other one cup sugar and a peel strip. Neither has a separate fruit, spice, uncooked relish or chutney technique that warrants another standalone recipe. Sugar and orange intensity are preserved as explicit options within one sauce.
+
+The removed record mislabeled zest as an acid punch, implied popping itself was pectin release, gave a twenty-minute total without cooling, and claimed three cups from a quantity more consistent with roughly two to two-and-a-quarter cups before its long simmer. No storage guidance existed. It also duplicated the other's unrelated pairings and had unverified nutrition. The canonical review addresses the companion recipe's raw reserved berries, inadequate starting liquid and unsupported two-week hold.
+
+Retain perfect-cranberry-sauce as Whole-Berry Cranberry Sauce. The cranberry-orange option uses 120 ml water plus 60 ml juice and one teaspoon fresh zest instead of the peel strip, while the separately labeled 100 g sugar option preserves a tarter approach without claiming identical body. This is a measured adaptation, not the exact removed recipe. All content references now use the canonical slug; the holiday feast explicitly selects the orange variation.
+
+Added an explicit static redirect from cranberry-orange-sauce, preserving query/fragment handling through the shared component. The old source also contained an aliases field with cranberry-orange-sauce-the-bright-finish; that field was not part of the recipe schema and no corresponding public route was present in the source tree. No evidence of a previously functioning second URL was found. The original baseline slug remains accounted for as a considered consolidation, with no extra reviewed canonical count. Kitchen testing belongs to the canonical recipe and is still outstanding.

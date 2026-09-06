@@ -1,29 +1,30 @@
 ---
 title: Big-Batch Chicken Chili Verde
-origin: Mexico
-difficulty: easy
+origin: Mexican-inspired home cooking
+difficulty: intermediate
 cookingMethods:
+  - broil
+  - sear
   - simmer
-  - slow-cook
 dietary:
-  - dairy-free
+  - dairy-free-option
 occasions:
   - meal-prep
-  - weeknight
   - entertaining
   - comfort-food
+  - weekend-project
 flavorProfile:
   - savory
   - spicy
   - acidic
   - umami
 cuisines:
-  - Mexican
+  - Mexican-inspired
 role: main
 vibe: comfort
-prepTime: 15 min
-cookTime: 45 min
-totalTime: 60 min
+prepTime: 30 min
+cookTime: 1 hr 30 min
+totalTime: 2 hr
 servings: '8'
 seasons:
   - year-round
@@ -33,87 +34,138 @@ advancePrep:
   - freeze-ahead
   - make-ahead
 equipment:
-  - large-pot
-  - dutch-oven
+  - 7-to-8-quart-dutch-oven
+  - rimmed-baking-sheet
+  - blender-suitable-for-warm-liquid
+  - instant-read-thermometer
 pairsWith:
-  - cilantro-lime-rice
   - cornbread
-  - classic-coleslaw
-  - cilantro-lime-rice
+  - coleslaw
 ingredients:
-  - '--- The Aromatics ---'
-  - 2 tbsp Olive Oil
-  - 1 large Yellow Onion (diced large)
-  - 4 cloves Garlic (minced)
-  - '--- The Protein ---'
+  - '--- Chicken and aromatics ---'
+  - '1.35 kg (3 lb) boneless skinless chicken thighs, fully thawed, cut into 1 1/2-inch pieces'
+  - '3 tbsp olive oil, divided'
+  - '200 g yellow onion, finely diced'
+  - '4 cloves garlic, minced'
+  - '1 tbsp Diamond Crystal kosher salt or 1 1/2 tsp fine salt, divided and partly added to taste'
+  - 2 tsp ground cumin
+  - 1 tsp ground coriander
+  - '1/4 tsp cayenne, optional'
+  - '--- Green sauce ---'
+  - '1.35 kg (3 lb) tomatillos, weighed after removing husks, rinsed and halved'
+  - '3 poblano peppers, about 450 g before trimming'
+  - '2 jalapeños, optional or reduced for milder heat'
   - >-
-    3 lbs Boneless, Skinless Chicken Thighs (cut into bite-sized chunks, or use
-    2 lbs shredded rotisserie chicken)
-  - 1 tbsp Kosher Salt (for seasoning chicken)
-  - '--- The Base ---'
-  - '3 lbs Fresh Tomatillos (husked, rinsed, halved)'
-  - >-
-    3 poblano Peppers (roasted, peeled, seeded, chopped; or jarred roasted
-    peppers)
-  - '2 jalapeños (diced, seeds optional for heat control)'
-  - 1 tbsp Ground Cumin
-  - 1 tsp Ground Coriander
-  - 1/4 tsp Cayenne Pepper (or more for heat)
-  - '--- The Liquid ---'
-  - 4 cups Chicken Stock (store-bought or homemade)
-  - 1 (15 oz) can White Beans (drained and rinsed; or cooked dried beans)
-  - '--- The Finish ---'
-  - "Juice of 2 Limes (add at the end, essential)'"
-  - '1/4 cup Fresh Cilantro (chopped, add at the end)'
-  - 1 tsp Kosher Salt (to taste at the end)
-  - '--- Optional Toppings ---'
-  - Cilantro Crema or Sour Cream
-  - Crispy Fried Onions or Tortilla Strips
-  - Sliced Radishes
-  - Crumbled Cotija Cheese
-  - Diced White Onion
-nutrition:
-  calories: 270
-  protein: 26.5
-  carbs: 9
-  fat: 15
-  fiber: 2
-  sugar: 3
-  sodium: 1220
+    2 cups (480 ml) low-sodium chicken broth, divided, plus up to 1 cup (240 ml) only if needed to
+    loosen
+  - '1 can (15 oz / 425 g) plain white beans, rinsed and drained, about 255 g drained'
+  - '2 tbsp fresh lime juice, added gradually only if needed'
+  - 1/4 cup chopped fresh cilantro
+  - '--- Optional toppings, for the whole batch ---'
+  - 1/2 cup (120 g) sour cream
+  - '80 g radishes, thinly sliced'
+  - 40 g prepared tortilla strips
+description: >-
+  Browned chicken thighs braised in roasted tomatillo and poblano sauce, with a small white-bean
+  addition and measured fresh toppings.
+learning:
+  focus: Build the roasted sauce before judging broth and acid
+  outcome: >-
+    Tender chicken pieces in a tangy, savory green sauce with roasted chile depth, enough body to
+    coat a spoon and a restrained fresh finish.
+  techniques:
+    - browning
+    - braising
+    - temperature
+    - seasoning
+  before:
+    - >-
+      Roast and blend the vegetables before searing chicken so the browned meat can proceed directly
+      into its braise. Use a roomy pot for the batch.
+    - >-
+      Tomatillos already taste tart. The lime is an adjustment supply, not an instruction to add two
+      whole limes regardless of the sauce.
+  checkpoints:
+    - step: 1
+      cue: Peppers blister on most surfaces before resting in a covered bowl.
+      why: >-
+        Blistering loosens the skin for peeling; a little steam helps release it. The pepper flesh
+        should remain usable rather than burn through.
+    - step: 4
+      cue: Chicken has browned patches in three batches without scorched garlic or onion underneath.
+      why: >-
+        Searing the meat before the aromatics avoids exposing minced garlic to repeated high-heat
+        batches.
+    - step: 6
+      cue: Several thick pieces reach 165°F / 74°C and yield readily to a fork.
+      why: >-
+        A braise has both a safety endpoint and a tenderness endpoint. Extra hours are not
+        automatically an improvement for small boneless pieces.
+    - step: 7
+      cue: 'Sauce coats a spoon but still flows, and tastes balanced before optional lime is added.'
+      why: Tomatillos and stock vary in water and acidity; set thickness before deciding seasoning.
+  troubleshooting:
+    - problem: Sauce is watery
+      cause: Roasted tomatillos released a large amount of liquid or too much broth was added.
+      fix: >-
+        Lift out finished chicken and simmer sauce uncovered briefly before returning it. Do not
+        continue cooking tender chicken just to reduce liquid.
+    - problem: Sauce is too sour
+      cause: Tomatillos were especially tart or all lime was added without tasting.
+      fix: >-
+        Omit further lime. Check salt and serve with the optional measured sour cream or a plain
+        starch; do not promise that more cooking removes all acidity.
+  substitutions:
+    - ingredient: Raw chicken thighs
+      alternative: '900 g fully cooked, shredded chicken with skin and bones removed'
+      effect: >-
+        Skip chicken searing and its initial salt. Cook the roasted sauce with aromatics about 20–25
+        minutes, add beans, then cooked chicken and heat every portion to 165°F / 74°C before
+        finishing. Its saltiness and texture differ; it is not simply raw chicken added at a
+        different time.
+  timing: >-
+    Allow about two hours for one cook, including pepper/tomatillo roasting, peeling and blending,
+    three searing batches, sauce preparation and a 25–35-minute braise. Work can overlap, but a
+    one-hour promise does not cover the full raw-ingredient method.
+  storage: >-
+    Refrigerate in shallow containers within 2 hours (1 hour above 90°F / 32°C), at 40°F / 4°C or
+    below. Use within 3–4 days; reheat leftovers to 165°F / 74°C. Freeze cooled portions promptly
+    for up to 3 months for quality and thaw in the refrigerator. Reheat to 165°F / 74°C. For packed
+    lunches, keep chilled portions at 40°F / 4°C or below in an insulated bag with at least two cold
+    sources, or refrigerate on arrival. Reheat before eating; do not rely on a frozen container
+    thawing unchilled by lunchtime.
+  sources:
+    - title: FoodSafety.gov — Safe cooking temperatures
+      url: 'https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures'
+    - title: 'FoodSafety.gov — Clean, separate, cook, chill'
+      url: 'https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety'
+    - title: American Chemical Society — Chemistry of grilling
+      url: 'https://www.acs.org/pressroom/reactions/library/grilling.html'
+    - title: USDA FSIS — Keeping a packed lunch cold
+      url: 'https://ask.fsis.usda.gov/article/How-do-you-keep-a-bag-lunch-safe'
+    - title: Rick Bayless — Roasted tomatillo and poblano chicken braise
+      url: >-
+        https://www.rickbayless.com/recipe/chicken-or-pork-with-roasted-tomatillos-poblanos-and-potatoes/
+  review:
+    status: editorial-review
+    date: '2026-09-06'
 ---
 
 ## Chef's Note
 
-Chili verde is the lighter cousin of chili rojo - it's built on tomatillos, poblanos, and jalapeños instead of dried chilies and tomatoes, which means it stays bright and fresh even after hours of simmering. The chicken thighs stay tender through the long cook and actually improve in flavor as they braize in the sauce. This recipe makes a huge batch on purpose: it freezes beautifully for up to 3 months, and one pot feeds the family for multiple meals. The lime and cilantro are added at the end for freshness - if cooked too long, they taste metallic and bitter. A tablespoon of cumin and coriander adds earthiness that makes you feel like you've simmered this for 8 hours when you actually only used 45 minutes.
+Roasted tomatillos and poblanos give this home chili verde its character. Brown the chicken separately, then braise it in the blended sauce; the small white-bean addition gives texture without turning it into white chicken chili. Adjust broth and lime after seeing the actual roasted-vegetable yield. This is a weekend batch intended to divide into eight portions.
 
 ## Directions
 
-1. **Roast the Peppers (Can do this ahead):** If using fresh poblanos and jalapeños, char them directly over a gas flame or under the broiler until the skin is blackened and blistered (about 5 minutes). Transfer to a plastic bag for 5 minutes to steam. Peel off the skin, remove the seeds, and chop coarsely. (Jarred roasted poblanos and jalapeños work fine if short on time.)
+1. **Roast peppers:** Heat the broiler and position a rimmed tray about 6 inches from the element, following the oven's guidance. Broil whole poblanos and optional jalapeños, turning regularly, about 12–20 minutes until blistered. Put them in a heatproof bowl and cover for 10 minutes. Peel loose charred skin, remove stems and seed cores, and chop; handle hot chiles with care and wash hands before touching eyes.
+2. **Roast tomatillos:** Arrange halved tomatillos cut-side down on the tray, retaining their juices. Broil about 10–15 minutes until soft with browned or blistered tops. Use two batches if they cannot fit in one layer. Watch rather than following the clock past burning.
+3. **Blend the sauce:** Let vegetables cool enough for your blender's warm-liquid guidance. Blend tomatillos and collected juices with peeled peppers and 1 cup of the measured broth, in batches as needed. Vent as the appliance directs; do not seal steaming liquid in a personal blender. Have this sauce ready before beginning the chicken.
+4. **Brown chicken:** Pat chicken dry and season with two-thirds of the listed salt. Heat 2 tsp oil in a roomy Dutch oven over medium-high heat. Brown one-third of the chicken on two sides, about 5–6 minutes, then transfer to a bowl. Repeat twice with 2 tsp oil per batch. The centers need the following braise; continue directly.
+5. **Build aromatics:** Lower heat to medium and add the remaining 1 tbsp oil. Cook onion about 6–8 minutes until softened. Add garlic, cumin, coriander and optional cayenne and stir about 30 seconds. Pour in the remaining initial 1 cup broth and scrape up brown residue, then add the blended green sauce and chicken with its juices.
+6. **Braise and check:** Bring to a gentle simmer, partly cover and cook about 25–35 minutes, stirring occasionally, until thick chicken pieces reach 165°F / 74°C and are tender. Add a little of the extra broth only if sauce is too thick before the meat is ready. Stir in drained beans for the final 5 minutes to heat through.
+7. **Finish:** If sauce needs further reduction, remove finished chicken briefly and simmer the sauce alone, then return it. Turn off heat. Taste and add the remaining salt only if needed. Stir in cilantro and start with just a little lime juice, adding more only if the sauce benefits.
+8. **Serve and portion:** Divide into eight servings. Offer the listed sour cream, radishes and tortilla strips as optional full-batch supplies. Omit sour cream for a dairy-free version and check packaged ingredients. Bread or slaw is prepared separately.
 
-2. **Char the Tomatillos:** In a large skillet over medium-high heat (no oil needed), place tomatillo halves cut-side down. Let them sit undisturbed for 3-4 minutes until they release water and the cut side caramelizes. Flip and cook another 2 minutes. This charring adds depth. Transfer to a blender.
+## Scaling and make-ahead
 
-3. **Sauté the Aromatics:** Heat olive oil in a large pot or Dutch oven over medium-high heat. Add diced onion and cook for 5 minutes, stirring occasionally, until softened and translucent. Add minced garlic and cook for 30-45 seconds until fragrant.
-
-4. **Brown the Chicken (Optional but recommended):** Pat the chicken chunks dry and season with 1 tbsp salt. In batches, sear the chicken in the pot over medium-high heat (don't overcrowd) until light brown on 2 sides, about 3-4 minutes total. This step adds flavor but can be skipped if short on time. Return all chicken to the pot.
-
-5. **Bloom the Spices:** Add ground cumin, coriander, and cayenne to the pot. Stir for 30 seconds until fragrant - you're waking up the spices' essential oils.
-
-6. **Make the Tomatillo Base:** Add the charred tomatillos (from the skillet) and the roasted poblanos and jalapeños to a blender with 1 cup of the chicken stock. Blend until smooth. Pour this mixture into the pot with the chicken.
-
-7. **Braise:** Add the remaining 3 cups of chicken stock and the white beans. Stir well. Bring to a simmer over medium heat. Reduce heat to medium-low and simmer gently, uncovered, for 30-40 minutes. The chicken should be fully cooked and the sauce should smell incredibly fragrant. You want the chicken to be so tender it falls apart.
-
-8. **Finish:** Remove from heat. Taste the chili and season with salt (you'll likely need 1-2 additional teaspoons). Stir in the lime juice (this is essential - it brightens everything instantly). Fold in fresh cilantro just before serving.
-
-9. **Serve:** Ladle into bowls and top with cilantro crema, crispy fried onions or tortilla strips, sliced radishes, cotija cheese, and diced white onion. Serve alongside cornbread, cilantro-lime rice, or simply with warm flour tortillas.
-
-### Make-Ahead and Freezing Notes
-
-- **The day before:** Make the chili completely through step 8. Refrigerate overnight. The flavors meld even more. Reheat gently before serving and taste for salt and lime.
-- **Freezing:** Cool the chili completely, then transfer to airtight containers or freezer bags in 2-cup portions. Freeze for up to 3 months. Thaw in the refrigerator overnight and reheat gently on the stovetop over low heat. Add fresh lime juice and cilantro after reheating.
-- **School lunch prep:** Portion into containers, freeze, and pack a frozen container in your child's lunch box in the morning. It will thaw by lunch and can be reheated in the microwave.
-
-### Scaling Notes
-
-- **Half batch:** Use 1.5 lbs chicken, 1.5 lbs tomatillos, and halve all other ingredients. Everything scales linearly.
-- **Double batch:** This recipe already makes 8 servings (about 12 cups). If you want more, just double everything.
-- **Chicken shortcuts:** Use 2 lbs shredded rotisserie chicken instead of raw thighs. Add it at the very end (step 8), let it warm through for 5 minutes, then finish with lime and cilantro.
+A half batch uses half the ingredients, but smaller pans and evaporation can change timing and liquid needs. A double batch requires additional roasting/searing batches and suitable pot capacity; do not double the cooking temperature or assume the same elapsed time. For future meals, portion promptly into shallow containers and follow the storage guidance, including cold transport for lunches.

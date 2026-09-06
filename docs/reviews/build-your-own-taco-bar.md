@@ -1,0 +1,11 @@
+# Cooked-Chicken Taco Bar: individual editorial review
+
+Date: 2026-09-06. Status: editorial review; no physical kitchen test recorded.
+
+Read the whole original choose-one-or-two-proteins bar, including the unfinished raw-shrimp option, and compared it with Weeknight Tacos and both bean tacos. Original quantities offered up to 1.5 lb each of two meats, 24 tortillas, a whole cabbage, two cups dairy/salsa and unmeasured cheese/seasonings for six. It obscured raw versus cooked work and claimed leftovers could be used all week. Reframed as an explicitly cooked-chicken recipe with a fully cooked pork variation, preserving the useful leftover-protein role rather than duplicating the ground-meat method. Raw shrimp is not a drop-in for this leftover reheating workflow and the incomplete option was removed; independent shrimp taco recipes remain separate and pending.
+
+Set 600 g cooked meat total for six/18 small tortillas, 300 g cabbage, 120 g radish, 60 g onion, 300 g avocado, 120 g each crema and salsa, optional 60 g cheese and measured heat/lime. The two lime-juice allocations are distinct. Added oil, cumin, broth and staged salt to match the actual method. Microwave stacks make eighteen tortillas feasible for one cook; direct flame is unnecessary. Thirty-five minutes explicitly excludes initial protein cooking. Removed irrelevant marinate-overnight metadata and grill claims.
+
+Reheat cooked meat gently with a small broth allowance and lid to 165°F, check multiple portions, then season around the existing meat's salt. Pork variation uses less oil and optionally omits cumin. Cold topping preparation precedes hot filling; explicit hot/cold holding replaces unlimited room-temperature bowls. Leftover storage is tied to the original ingredient's age rather than promising a new week. Federal pages and indexed USDA leftover content support handling; Mission supports packaged tortilla warming. No optimal flavor or physical test evidence is claimed.
+
+The identically named meal previously pointed to a carnitas rice bowl instead of this taco recipe; its full replacement composition is recorded separately. Test rotisserie versus home-roast chicken salinity, amount of broth needed, multiple-protein splitting, actual six-person topping demand, tortilla batch time, moisture at 165°F and short service hold. No physical kitchen test recorded.

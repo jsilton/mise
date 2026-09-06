@@ -2,62 +2,56 @@
 title: Chicken Biryani Night
 template: one-pot
 main: chicken-biryani
-sides: [cucumber-raita, kachumber-salad]
-totalPrepTime: 45 min
-totalCookTime: 1 hr
-totalActiveTime: 1 hr 15 min
+sides:
+  - cucumber-raita
+  - kachumber-salad
+totalPrepTime: 1 hr
+totalCookTime: 1 hr 30 min
+totalActiveTime: 1 hr 30 min
 overallDifficulty: intermediate
-cuisines: [Indian]
-occasions: [family-meal, entertaining, make-ahead, weekend-project, meal-prep]
-seasons: [year-round]
+cuisines:
+  - Indian
+occasions:
+  - family-meal
+  - entertaining
+  - make-ahead
+  - weekend-project
+  - meal-prep
+seasons:
+  - year-round
 nutritionalDensity: hearty
 servings: '6'
-bestFor: [saturday, sunday, tuesday]
+bestFor:
+  - saturday
+  - sunday
+  - tuesday
+totalTime: 6 hr 45 min
+review:
+  status: editorial-review
+  date: '2026-09-06'
 ---
 
 ## Meal Overview
 
-Biryani is the all-in-one dish — chicken, rice, and spice sealed into a single pot and finished in its own steam. It asks for Saturday-level attention but pays back across the week: a proper biryani on day three has deeper flavor than it had at the first meal. Cucumber raita cools the spice, and kachumber salad gives the fresh, acidic crunch the pot is built to sit next to.
+Layered chicken biryani, cucumber raita, and a fresh kachumber salad make six generous dinners. Use **one batch of biryani**, **half a batch of raita**, and **one batch of kachumber**. The biryani already includes rice. Half the raita recipe makes about **1 1/4–1 1/2 cups**, allowing roughly three to four tablespoons per person.
+
+Allow about **6 hours 45 minutes with the minimum four-hour marinade**. Marinating overnight extends elapsed time and moves that work to the previous day. On cooking day, plan roughly two and a half hours, with sides prepared during the biryani work. Pot, burner, and rice differences can extend the final cook.
 
 ## Cooking Strategy
 
-**Friday night (or early Saturday):**
+1. **Marinate within the recipe's window:** Refrigerate the chicken in its marinade for 4–24 hours. Longer is not automatically better. Keep it cold until layering.
+2. **Coordinate onions and rice:** Fry onions in the specified two batches until golden brown and lift them out before they turn dark. During this work, soak rice and steep saffron as directed. Par-cook the rice by tasting for a soft exterior and firm core, rather than using an exact minute count alone.
+3. **Layer and steam:** Layer promptly using the main recipe's reserved onion oil, chicken and marinade, partly cooked rice, saffron milk, ghee, and herbs. Maintain a gentle simmer under the snug lid rather than assuming the lowest burner setting is sufficient.
+4. **Prepare sides during cooking:** Make half the raita recipe and refrigerate. Toast cumin and chop the kachumber vegetables, keeping the lemon dressing separate until serving. Wash and prepare salad ingredients away from raw-chicken tools.
+5. **Verify before resting:** Check several chicken pieces and several rice locations for 165°F / 74°C, and taste rice for tenderness. Continue cooking if needed before starting the full 15-minute off-heat rest. Do not use resting to finish an unverified raw-chicken center.
+6. **Serve:** Dress kachumber near the end of the rest. Lift biryani portions from the bottom so each includes chicken and rice. Remove visible whole spices and tell diners some may remain. Offer cold raita and small portions of salad alongside.
 
-1. Marinate the chicken in yogurt, spices, and herbs. The longer the better — overnight is ideal.
+## Making dinner ahead
 
-**Saturday (make-ahead day, about 1 hr 15 min active):**
+Portion cooked biryani promptly into shallow containers and refrigerate within two hours, or one hour above 90°F / 32°C. Do not leave the full pot out until completely cool. Use refrigerated biryani within 3–4 days or freeze portions for later. Reheat portions covered with a small splash of water, checking that both chicken and rice reach 165°F / 74°C; a fixed oven time cannot guarantee this.
 
-1. Fry the onions to deep mahogany — 15-20 minutes. This is the single most important step; don't stop early.
-2. Bloom saffron in warm milk.
-3. Par-cook the rice with whole spices (5-6 min exactly — grains firm in the center).
-4. Layer chicken, onions, rice, saffron milk, ghee, and herbs in the dutch oven.
-5. Seal and dum-cook: 4 min medium-high, then 25-30 min on lowest heat.
-6. Rest 15 minutes without lifting the lid. Cool completely before refrigerating.
-7. Make the raita up to 1 day ahead (it improves overnight).
+Make raita and kachumber close to the meal when practical. Use raita within one day for quality, and dress kachumber immediately before serving. The side recipes do not promise better texture after several days.
 
-**Tuesday (reheat day — 30 minutes):**
+## Heat and serving notes
 
-1. Transfer biryani portions to a baking dish. Sprinkle 2 tbsp water over the rice, cover with foil, reheat at 325°F for 20-25 minutes.
-2. Pull raita from fridge 10 minutes before serving to take off the chill.
-3. Make the kachumber fresh: toast cumin (60-90 sec), dice vegetables, whisk dressing, toss. Rest 15 minutes.
-4. Plate: mound biryani on plates, raita in a small bowl on the side, kachumber scattered alongside.
-
-## Make-Ahead Notes
-
-- **Biryani genuinely improves with rest.** The rice absorbs more of the spice and chicken juices overnight.
-- **Raita holds 2-3 days** in the fridge. The cucumber stays crisp if you squeezed it dry before mixing.
-- **Kachumber should be made the day of** — the tomatoes release water and soften the cucumbers within hours of dressing.
-- When reheating biryani, always add a splash of water and cover — the steam is what keeps the rice fluffy.
-
-## Kid Notes
-
-- Kashmiri chili powder has color, not heat — use it over cayenne to keep the biryani kid-friendly.
-- Omit the serrano from the kachumber for kids; plate it separately for adults.
-- The fried onions are candy to kids — set some aside before layering for snacking.
-- Serve raita on the side, not over the biryani, so kids can dip at their own pace.
-
-## Notes
-
-- Use _only_ extra-long basmati (Royal, Tilda, or Kohinoor). Standard basmati grains break during par-cooking.
-- Rose water or kewra water is subtle but authentic Hyderabadi — skip if you don't have it.
-- Homemade naan or store-bought roti rounds out the plate if anyone is extra hungry.
+Kashmiri chile powder can still have heat. Use the main recipe's substitution guidance and adjust chile to your diners; omit optional serrano from the salad for a milder side. Keep raita alongside for individual portions. Extra naan is unnecessary for the planned six-portion meal.

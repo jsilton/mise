@@ -1,302 +1,191 @@
 ---
-// RecipeHeader.astro - Recipe detail header with breadcrumb, title, metadata, and tags
-// Self-contained logical unit for recipe pages
-
-import TagSection from './TagSection.astro';
-import TagBadge from './TagBadge.astro';
-import DietaryBadges from './DietaryBadges.astro';
-
-interface Recipe {
-  slug: string;
-  data: {
-    title: string;
-    prepTime?: string;
-    cookTime?: string;
-    totalTime?: string;
-    servings?: string;
-    difficulty?: string;
-    role?: string;
-    vibe?: string;
-    cuisines?: string[];
-    cookingMethods?: string[];
-    dietary?: string[];
-    occasions?: string[];
-    flavorProfile?: string[];
-  };
-}
-
+import DishArt from './DishArt.astro';
+import { dishVisuals } from '../data/dish-visuals';
+import type { CollectionEntry } from 'astro:content';
 interface Props {
-  recipe: Recipe;
+  recipe: CollectionEntry<'recipes'>;
   baseUrl?: string;
 }
-
 const { recipe, baseUrl = import.meta.env.BASE_URL } = Astro.props;
+const { data } = recipe;
 ---
 
-<div class="flex flex-col gap-6" data-recipe-header>
-  <!-- Cook Mode Toggle -->
-  <div class="flex justify-end">
-    <button
-      id="cook-mode-toggle"
-      class="px-4 py-2 text-sm font-medium rounded-lg transition-all duration-200 active:scale-95"
-      style="background: var(--accent-gold); color: var(--bg-deep);"
-      title="Toggle Cook Mode (Press 'c')"
+<div data-recipe-header class:list={{ 'has-art': !!dishVisuals[recipe.slug] }}>
+  <img class="print-wordmark" src={`${baseUrl}brand/mise-wordmark.svg`} alt="mise." />
+  <nav class="breadcrumb" aria-label="Breadcrumb">
+    <a href={baseUrl}>Recipes</a><span aria-hidden="true">/</span><span
+      >{data.cuisines?.[0] || 'The collection'}</span
     >
-      Cook Mode
-    </button>
-  </div>
-
-  <!-- Breadcrumbs -->
-  <nav class="flex text-sm" style="color: var(--text-tertiary);" aria-label="Breadcrumb">
-    <ol class="inline-flex items-center space-x-1 md:space-x-2">
-      <li class="inline-flex items-center">
-        <a
-          href={baseUrl}
-          class="inline-flex items-center font-medium transition-colors"
-          style="color: var(--text-tertiary);"
-          onmouseover="this.style.color='var(--accent-gold)'"
-          onmouseout="this.style.color='var(--text-tertiary)'"
-        >
-          Codex
-        </a>
-      </li>
-      <li>
-        <div class="flex items-center">
-          <svg
-            class="w-3 h-3 mx-1.5"
-            style="color: var(--border-emphasis);"
-            aria-hidden="true"
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 6 10"
-          >
-            <path
-              stroke="currentColor"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              d="m1 9 4-4-4-4"></path>
-          </svg>
-          <span
-            class="ml-1 font-medium truncate max-w-[200px] sm:max-w-none"
-            style="color: var(--text-secondary);"
-          >
-            {recipe.data.title}
-          </span>
-        </div>
-      </li>
-    </ol>
   </nav>
-
-  <!-- Header Section -->
-  <div
-    class="rounded-2xl shadow-soft overflow-hidden"
-    style="background: var(--bg-surface); border: 1px solid var(--border-subtle);"
-  >
-    <!-- Title and Metadata -->
-    <div
-      class="p-6 sm:p-8"
-      style="background: linear-gradient(to bottom, var(--bg-elevated), var(--bg-surface)); border-bottom: 1px solid var(--border-subtle);"
-    >
-      <h1
-        class="text-2xl sm:text-3xl font-display font-semibold mb-4 tracking-tight leading-tight"
-        style="color: var(--text-primary);"
-      >
-        {recipe.data.title}
-      </h1>
-
-      <!-- Dietary Badges -->
+  <div class="recipe-intro">
+    <p class="eyebrow">
+      {data.learning ? 'Cook & understand' : 'From the collection'}
+      <span aria-hidden="true"> / </span>
+      {data.difficulty || 'All levels'}
+    </p>
+    <h1>{data.title}</h1>
+    {data.description && <p class="recipe-description">{data.description}</p>}
+    <dl class="recipe-facts">
       {
-        recipe.data.dietary && recipe.data.dietary.length > 0 && (
-          <div class="mb-6">
-            <DietaryBadges dietary={recipe.data.dietary} size="md" />
-          </div>
+        [
+          ['Prep', data.prepTime],
+          ['Cook', data.cookTime],
+          ['Total', data.totalTime],
+          ['Serves / makes', data.servings],
+        ]
+          .filter(([, value]) => value)
+          .map(([label, value]) => (
+            <div>
+              <>
+                <dt>{label}</dt>
+                <dd data-header-yield={label === 'Serves / makes' ? '' : undefined}>{value}</dd>
+              </>
+            </div>
+          ))
+      }
+    </dl>
+    {data.learning && <p class="timing-note">{data.learning.timing}</p>}
+    <details class="recipe-details">
+      <summary>Recipe details & dietary notes</summary>
+      <dl>
+        {
+          [
+            ['Cuisine', data.cuisines?.join(', ')],
+            ['Methods', data.cookingMethods?.join(', ')],
+            ['Dietary tags', data.dietary?.join(', ')],
+            ['Equipment', data.equipment?.map((x) => x.replaceAll('-', ' ')).join(', ')],
+            ['Make ahead', data.advancePrep?.map((x) => x.replaceAll('-', ' ')).join(', ')],
+          ]
+            .filter(([, value]) => value)
+            .map(([label, value]) => (
+              <div>
+                <>
+                  <dt>{label}</dt>
+                  <dd>{value}</dd>
+                </>
+              </div>
+            ))
+        }
+      </dl>
+      {
+        data.dietary?.length && (
+          <p>
+            Tags describe the listed ingredients and noted options. Check packaged ingredients and
+            substitutions for your dietary needs.
+          </p>
         )
       }
-
-      <!-- Time Metadata Grid -->
-      <div class="flex flex-wrap gap-8 text-sm mb-8">
-        {
-          recipe.data.prepTime && (
-            <div class="flex flex-col">
-              <span
-                class="text-xs uppercase tracking-wide font-semibold mb-1"
-                style="color: var(--text-tertiary);"
-              >
-                Prep Time
-              </span>
-              <span class="font-semibold" style="color: var(--text-secondary);">
-                {recipe.data.prepTime}
-              </span>
-            </div>
-          )
-        }
-        {
-          recipe.data.cookTime && (
-            <div class="flex flex-col">
-              <span
-                class="text-xs uppercase tracking-wide font-semibold mb-1"
-                style="color: var(--text-tertiary);"
-              >
-                Cook Time
-              </span>
-              <span class="font-semibold" style="color: var(--text-secondary);">
-                {recipe.data.cookTime}
-              </span>
-            </div>
-          )
-        }
-        {
-          recipe.data.totalTime && (
-            <div class="flex flex-col">
-              <span
-                class="text-xs uppercase tracking-wide font-semibold mb-1"
-                style="color: var(--text-tertiary);"
-              >
-                Total Time
-              </span>
-              <span class="font-semibold" style="color: var(--text-secondary);">
-                {recipe.data.totalTime}
-              </span>
-            </div>
-          )
-        }
-        {
-          recipe.data.servings && (
-            <div class="flex flex-col">
-              <span
-                class="text-2xs uppercase tracking-wide font-semibold mb-1"
-                style="color: var(--text-tertiary);"
-              >
-                Servings
-              </span>
-              <span class="font-semibold" style="color: var(--text-secondary);">
-                {recipe.data.servings}
-              </span>
-            </div>
-          )
-        }
-      </div>
-
-      <!-- Tags Section -->
-      <div class="pt-6" style="border-top: 1px solid var(--border-subtle);">
-        {/* Primary Metadata - Role, Vibe, Difficulty */}
-        <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-6">
-          {
-            recipe.data.role && (
-              <div>
-                <h4
-                  class="text-xs uppercase tracking-wide font-semibold mb-2"
-                  style="color: var(--text-tertiary);"
-                >
-                  Role
-                </h4>
-                <TagBadge
-                  tag={recipe.data.role}
-                  category="role"
-                  size="md"
-                  href={`${baseUrl}?role=${recipe.data.role}`}
-                />
-              </div>
-            )
-          }
-          {
-            recipe.data.vibe && (
-              <div>
-                <h4
-                  class="text-xs uppercase tracking-wide font-semibold mb-2"
-                  style="color: var(--text-tertiary);"
-                >
-                  Vibe
-                </h4>
-                <TagBadge
-                  tag={recipe.data.vibe}
-                  category="vibe"
-                  size="md"
-                  href={`${baseUrl}?vibe=${recipe.data.vibe}`}
-                />
-              </div>
-            )
-          }
-          {
-            recipe.data.difficulty && (
-              <div>
-                <h4
-                  class="text-xs uppercase tracking-wide font-semibold mb-2"
-                  style="color: var(--text-tertiary);"
-                >
-                  Difficulty
-                </h4>
-                <TagBadge
-                  tag={recipe.data.difficulty}
-                  category="difficulty"
-                  size="md"
-                  href={`${baseUrl}?difficulty=${recipe.data.difficulty}`}
-                />
-              </div>
-            )
-          }
-        </div>
-
-        {/* Secondary Metadata - Cuisines and Methods */}
-        <div class="space-y-4">
-          {
-            recipe.data.cuisines && recipe.data.cuisines.length > 0 && (
-              <TagSection
-                title="Cuisines"
-                tags={recipe.data.cuisines}
-                category="cuisine"
-                size="sm"
-                baseUrl={baseUrl}
-              />
-            )
-          }
-          {
-            recipe.data.cookingMethods && recipe.data.cookingMethods.length > 0 && (
-              <TagSection
-                title="Cooking Methods"
-                tags={recipe.data.cookingMethods}
-                category="cooking-method"
-                size="sm"
-                baseUrl={baseUrl}
-              />
-            )
-          }
-          {
-            recipe.data.flavorProfile && recipe.data.flavorProfile.length > 0 && (
-              <TagSection
-                title="Flavor Profile"
-                tags={recipe.data.flavorProfile}
-                category="flavor"
-                size="sm"
-                baseUrl={baseUrl}
-              />
-            )
-          }
-          {
-            recipe.data.dietary && recipe.data.dietary.length > 0 && (
-              <TagSection
-                title="Dietary"
-                tags={recipe.data.dietary}
-                category="dietary"
-                size="sm"
-                baseUrl={baseUrl}
-              />
-            )
-          }
-          {
-            recipe.data.occasions && recipe.data.occasions.length > 0 && (
-              <TagSection
-                title="Occasions"
-                tags={recipe.data.occasions}
-                category="occasion"
-                size="sm"
-                baseUrl={baseUrl}
-              />
-            )
-          }
-        </div>
-      </div>
-    </div>
+    </details>
   </div>
+  {
+    dishVisuals[recipe.slug] && (
+      <div class="recipe-art">
+        <DishArt slug={recipe.slug} eager caption />
+      </div>
+    )
+  }
 </div>
+<style>
+  .print-wordmark {
+    display: none;
+  }
+  .has-art {
+    display: grid;
+    grid-template-columns: 1.3fr 1fr;
+    gap: 0 2.5rem;
+    align-items: start;
+  }
+  .has-art .breadcrumb {
+    grid-column: 1/-1;
+  }
+  .recipe-art {
+    padding-top: 2.2rem;
+  }
+  .has-art h1 {
+    font-size: clamp(2.4rem, 4vw, 3.5rem);
+  }
+  @media (max-width: 760px) {
+    .has-art {
+      grid-template-columns: 1fr;
+    }
+    .recipe-art {
+      padding-top: 1rem;
+    }
+  }
+  @media print {
+    .recipe-art {
+      display: none;
+    }
+    .has-art {
+      display: block;
+    }
+    .print-wordmark {
+      display: block;
+      width: 24mm;
+      height: auto;
+      margin-bottom: 3mm;
+    }
+  }
+  .recipe-intro {
+    max-width: 850px;
+    padding: 2rem 0 0;
+  }
+  h1 {
+    font:
+      500 clamp(2.4rem, 5vw, 4.4rem)/1.05 'Cormorant Garamond',
+      Georgia,
+      serif;
+    letter-spacing: -0.025em;
+    margin: 0.8rem 0 1.2rem;
+    text-wrap: balance;
+  }
+  .recipe-description {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: var(--text-secondary);
+    max-width: 660px;
+  }
+  .recipe-facts {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem 2.5rem;
+    border-block: 1px solid var(--border-subtle);
+    padding: 1.3rem 0;
+    margin-top: 1.8rem;
+  }
+  dt {
+    color: var(--text-secondary);
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+  }
+  dd {
+    margin-top: 0.35rem;
+    font-size: 1rem;
+  }
+  .timing-note {
+    font-size: 0.82rem;
+    color: var(--text-secondary);
+    line-height: 1.6;
+    margin-top: 1rem;
+  }
+  .recipe-details {
+    margin: 1rem 0;
+    font-size: 0.85rem;
+  }
+  summary {
+    cursor: pointer;
+    padding: 0.6rem 0;
+    color: var(--accent-gold);
+  }
+  .recipe-details dl {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    margin: 1rem 0;
+  }
+  .recipe-details p {
+    color: var(--text-secondary);
+    font-size: 0.8rem;
+  }
+</style>

@@ -22,7 +22,7 @@ cookTime: 510 min
 totalTime: 520 min
 servings: '6'
 pairsWith:
-  - steamed-noodles-with-green-beans
+  - steamed-white-rice
   - korean-pickled-cucumbers
   - fresh-cabbage-cucumber-and-radish-kimchi
 ingredients:

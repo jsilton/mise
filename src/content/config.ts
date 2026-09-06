@@ -1,4 +1,5 @@
 import { defineCollection, z } from 'astro:content';
+import { techniques } from '../data/techniques';
 
 const recipesCollection = defineCollection({
   type: 'content',
@@ -18,6 +19,12 @@ const recipesCollection = defineCollection({
     cookTime: z.string().optional(),
     totalTime: z.string().optional(),
     servings: z.string().optional(),
+    scaling: z
+      .object({
+        mode: z.literal('fixed'),
+        reason: z.string().min(1),
+      })
+      .optional(),
 
     // Classification arrays
     // Canonical cookingMethods: assemble, bake, blend, boil, braise, broil, char, fry, griddle, grill, infuse, marinate, mix, no-cook, pan-fry, poach, raw, roast, saute, sear, shape, simmer, slow-cook, smoke, steam, stir-fry, toast, toss
@@ -74,6 +81,56 @@ const recipesCollection = defineCollection({
     rating: z.number().min(1).max(5).optional(), // Family rating (1-5 stars)
     notes: z.string().optional(), // Additional notes beyond Chef's Note
 
+    description: z.string().optional(),
+    learning: z
+      .object({
+        focus: z.string().min(1),
+        outcome: z.string().min(1),
+        techniques: z
+          .array(
+            z
+              .string()
+              .refine((value) => techniques.some((t) => t.slug === value), 'Unknown technique')
+          )
+          .min(1),
+        before: z.array(z.string().min(1)).min(1),
+        checkpoints: z
+          .array(
+            z.object({
+              step: z.number().int().positive(),
+              cue: z.string().min(1),
+              why: z.string().min(1),
+            })
+          )
+          .min(1),
+        troubleshooting: z
+          .array(
+            z.object({
+              problem: z.string().min(1),
+              cause: z.string().min(1),
+              fix: z.string().min(1),
+            })
+          )
+          .min(1),
+        substitutions: z
+          .array(z.object({ ingredient: z.string(), alternative: z.string(), effect: z.string() }))
+          .optional(),
+        storage: z.string().min(1),
+        timing: z.string().min(1),
+        sources: z.array(z.object({ title: z.string().min(1), url: z.string().url() })).min(1),
+        // Source review never implies that the recipe has been cooked and tested.
+        review: z
+          .object({
+            status: z.enum(['editorial-review', 'kitchen-tested']),
+            date: z.string().regex(/^\d{4}-\d{2}-\d{2}$/),
+            testNotes: z.string().optional(),
+          })
+          .refine(
+            (value) => value.status !== 'kitchen-tested' || !!value.testNotes?.trim(),
+            'Kitchen-tested requires a documented test record'
+          ),
+      })
+      .optional(),
     ingredients: z.array(z.string()).optional(),
   }),
 });
@@ -102,6 +159,13 @@ const mealsCollection = defineCollection({
     totalPrepTime: z.string().optional(), // Sum of all prep times
     totalCookTime: z.string().optional(), // Longest cook time (parallel cooking)
     totalActiveTime: z.string().optional(), // Hands-on time estimate
+    totalTime: z.string().optional(), // Elapsed time, including marinating/resting
+    review: z
+      .object({
+        status: z.literal('editorial-review'),
+        date: z.string().regex(/^\d{4}-\d{2}-\d{2}$/),
+      })
+      .optional(),
     overallDifficulty: z.enum(['easy', 'intermediate', 'medium', 'hard']).optional(),
 
     // Planning metadata

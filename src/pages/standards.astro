@@ -1,0 +1,127 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { getCollection } from 'astro:content';
+const recipes = (await getCollection('recipes')).filter(
+  (recipe) => !['no-cook-playdough', 'play-dough'].includes(recipe.slug)
+);
+const reviewed = recipes.filter(
+  (r) => r.data.learning?.review.status === 'editorial-review'
+).length;
+const tested = recipes.filter((r) => r.data.learning?.review.status === 'kitchen-tested').length;
+const meals = await getCollection('meals');
+const reviewedMeals = meals.filter(
+  (meal) => meal.data.review?.status === 'editorial-review'
+).length;
+---
+
+<Layout
+  title="Our recipe standard | Mise"
+  description="How Mise develops, reviews, and teaches recipes, and what editorial review and kitchen testing actually mean."
+>
+  <div class="standards prose-refined">
+    <p class="eyebrow">Our recipe standard</p><h1>Good recipes earn your trust.</h1><p>
+      Mise is growing from a family recipe collection into a kitchen that teaches. That means being
+      specific about what works, explaining why, and being honest about what has—and has not—been
+      tested.
+    </p>
+    <div class="review-counts">
+      <div><strong>{recipes.length}</strong><span>recipes in the collection</span></div><div>
+        <strong>{reviewed}</strong><span>with detailed editorial review</span>
+      </div><div><strong>{tested}</strong><span>with recorded kitchen tests</span></div>
+    </div>
+    <p>
+      {reviewedMeals} of {meals.length} composed meals have also received an individual review of portions,
+      components, and cooking order. These are editorial reviews, not recorded whole-meal kitchen tests.
+    </p>
+    <h2>What every recipe should teach</h2><ol>
+      <li>
+        <strong>The intended result.</strong> Describe flavor, texture, and what success looks like before
+        cooking starts.
+      </li><li>
+        <strong>The important decisions.</strong> Connect a technique to a reason and an observable cue.
+        Explain when the clock is only an estimate.
+      </li><li>
+        <strong>A reproducible method.</strong> Specify meaningful weights, cuts, pan sizes, temperatures,
+        sequencing, and total elapsed time, including rests and preparation.
+      </li><li>
+        <strong>How to adapt.</strong> Explain the effect of a substitution and when a different ingredient
+        needs a different method.
+      </li><li>
+        <strong>How to recover.</strong> Identify likely causes, useful fixes, and changes that cannot
+        be reversed.
+      </li><li>
+        <strong>Context and evidence.</strong> Respect the dish’s origins, preserve family attribution,
+        and cite sources for scientific and safety claims.
+      </li>
+    </ol>
+    <h2>What our review labels mean</h2><h3>In the collection</h3><p>
+      An existing recipe, preserved with its family and source context. Detailed technique review
+      and testing may still be outstanding. Availability on the site is not a testing certification.
+    </p><h3>Editorially reviewed</h3><p>
+      The written recipe has been checked for internal consistency, method, quantities, timing,
+      technique explanations, and relevant sources. It has not necessarily been cooked. A review
+      date records an editorial revision, not independent verification.
+    </p><h3>Kitchen-tested</h3><p>
+      Reserved for a documented cook: ingredient weights and brands where relevant, equipment,
+      actual timings, measured temperatures, yield, sensory results, and any changes. Repeated tests
+      and a second cook strengthen confidence. We do not assign this label from automated checks or
+      generated prose.
+    </p>
+    <h2>Science serves the food</h2><p>
+      A chemical mechanism explains a useful decision; it is not decoration. “Starch helps stabilize
+      this sauce” should lead to reserving water, controlling heat, and recognizing a glossy
+      coating. Traditions differ, so a technique that helps one dish is not a universal rule for
+      every cuisine.
+    </p>
+    <h2>Measurements and nutrition</h2><p>
+      Weights make variable ingredients such as grated cheese more reproducible. Portion controls
+      scale ingredient amounts; they do not automatically scale cookware, cooking times, or every
+      quantity mentioned in the method. Legacy nutrition estimates are withheld from recipe pages
+      while ingredient-based calculations and yields are reviewed.
+    </p>
+    <h2>How we improve the collection</h2><p>
+      Automated checks identify missing teaching fields, inconsistent timing, broken references, and
+      claims that need review across the whole collection. They create an editorial queue; passing
+      them does not prove a recipe tastes good. Each recipe still needs individual attention and
+      real cooking evidence.
+    </p>
+    <p><a href={`${import.meta.env.BASE_URL}learn`}>Explore the learning kitchen →</a></p>
+  </div>
+</Layout>
+<style>
+  .standards {
+    max-width: 800px;
+    margin: auto;
+  }
+  h1 {
+    font:
+      500 clamp(2.5rem, 5vw, 4.4rem)/1.1 'Cormorant Garamond',
+      Georgia,
+      serif;
+    margin: 1.5rem 0;
+    letter-spacing: -0.025em;
+  }
+  .review-counts {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.2rem;
+    border-block: 1px solid var(--border-subtle);
+    padding: 1.5rem 0;
+    margin: 2rem 0;
+  }
+  .review-counts strong {
+    display: block;
+    font:
+      500 2.6rem/1 'Cormorant Garamond',
+      Georgia,
+      serif;
+    color: var(--accent-gold);
+  }
+  .review-counts span {
+    display: block;
+    font-size: 0.75rem;
+    color: var(--text-secondary);
+    line-height: 1.6;
+    margin-top: 0.6rem;
+  }
+</style>

@@ -1,24 +1,22 @@
 ---
-title: Moroccan Carrot Salad
-origin: Morocco
+title: Moroccan-Inspired Carrot Salad with Orange and Mint
+origin: Moroccan-inspired raw carrot salad
 difficulty: easy
 role: side
 vibe: quick
 prepTime: 15 min
 cookTime: 0 min
-totalTime: 15 min
-servings: '6'
+totalTime: 35 min
+servings: 6 side portions
 cuisines:
-  - Middle Eastern
-  - Mediterranean
+  - Moroccan-inspired
+  - North African
 cookingMethods:
   - no-cook
   - toss
 dietary:
   - vegan
-  - gluten-free
   - dairy-free
-  - nut-free
 occasions:
   - weeknight
   - family-meal
@@ -38,47 +36,98 @@ advancePrep:
   - make-ahead
   - prep-vegetables
 equipment:
-  - box-grater
+  - box-grater-or-food-processor
   - mixing-bowl
 pairsWith:
   - moroccan-chicken-tagine-apricot-chickpea
   - garlic-butter-couscous
-  - fattoush-salad
 ingredients:
-  - 1.5 lbs Carrots (about 6 large), peeled
-  - '--- Dressing ---'
-  - 3 tbsp Fresh Orange Juice
-  - 2 tbsp Fresh Lemon Juice
-  - 2 tbsp Extra-Virgin Olive Oil
-  - 1 tbsp Honey
-  - 1 tsp Orange Blossom Water (optional but classic)
-  - 1 tsp Ground Cumin (toasted if possible)
-  - 1/2 tsp Sweet Paprika
-  - 1/4 tsp Ground Cinnamon
-  - 1/4 tsp Cayenne or Harissa (optional)
-  - 1/2 tsp Kosher Salt
-  - '--- To Finish ---'
-  - '1/4 cup Fresh Mint, thinly sliced'
-  - '2 tbsp Fresh Parsley, chopped'
-  - 2 tbsp Golden Raisins (optional)
-nutrition:
-  calories: 115
-  protein: 1.5
-  carbs: 19
-  fat: 5
-  fiber: 4
-  sugar: 13
-  sodium: 230
+  - '680 g peeled carrots, coarsely grated'
+  - 1/4 cup (60 ml) fresh orange juice
+  - 2 tbsp fresh lemon juice
+  - 2 tbsp extra-virgin olive oil
+  - '1 tsp sugar, optional and only if needed'
+  - '1/4 tsp orange blossom water, optional, plus up to 1/4 tsp more to taste'
+  - 1/2 tsp ground cumin
+  - 1/4 tsp sweet paprika
+  - 1/8 tsp ground cinnamon
+  - '1/8 tsp cayenne, optional'
+  - '1 tsp Diamond Crystal kosher salt or 1/2 tsp fine salt, divided and partly added to taste'
+  - '1/4 cup fresh mint, thinly sliced just before serving'
+  - 2 tbsp chopped parsley
+  - '20 g golden raisins, optional'
+description: >-
+  Coarsely grated carrots with a light citrus dressing, mint and a restrained optional
+  orange-blossom aroma.
+learning:
+  focus: Let grated carrot soften briefly without overwhelming it with perfume or sweetness
+  outcome: >-
+    Cool, lightly softened carrot shreds with citrus, fresh herbs and a subtle spice background, not
+    a syrupy or heavily floral dressing.
+  techniques:
+    - seasoning
+  before:
+    - >-
+      Grate coarsely with a box grater or food-processor shredding disc. The tool alone does not
+      determine whether carrots become watery.
+    - >-
+      Sugar, raisins and orange-blossom water are optional. Taste the carrot and orange juice before
+      using all the sweet or floral additions.
+  checkpoints:
+    - step: 2
+      cue: 'The dressing tastes citrus-led, with only a light floral note if using orange-blossom water.'
+      why: >-
+        Concentration varies across bottles. A staged small amount is easier to balance than a full
+        teaspoon added automatically.
+    - step: 3
+      cue: >-
+        After twenty minutes chilled, the carrot bends more easily and a little liquid has
+        collected.
+      why: >-
+        Cut carrots release some water after salting. A short rest changes texture but does not
+        guarantee indefinite crispness.
+    - step: 4
+      cue: Mint and parsley still look fresh when folded through just before serving.
+      why: Delicate herbs soften and darken with longer contact with dressing.
+  troubleshooting:
+    - problem: Salad tastes perfumed
+      cause: Orange-blossom water was concentrated or added too generously.
+      fix: >-
+        Dilute with more undressed carrot and citrus. Next time start with a quarter teaspoon or
+        omit it; extra salt will not remove the aroma.
+    - problem: Salad is sweeter than the meal needs
+      cause: 'Sweet carrots, juice, sugar and raisins were all used together.'
+      fix: >-
+        Omit optional sugar and raisins beside a fruit-containing braise. Taste before adding a
+        little more lemon; acidity changes balance but does not remove sugar.
+  substitutions:
+    - ingredient: Orange blossom water
+      alternative: Omit it
+      effect: Keeps a simpler citrus-and-mint salad without the floral note.
+  timing: >-
+    Thirty-five minutes includes fifteen minutes grating and mixing plus twenty minutes chilling.
+    Chop and add herbs near serving.
+  storage: >-
+    Refrigerate at 40°F / 4°C or below within 2 hours, or 1 hour above 90°F / 32°C. Best within 1–2
+    days for texture. For make-ahead, keep herbs separate until serving and expect some liquid
+    release; freezing is not useful for this fresh texture.
+  sources:
+    - title: Christine Benlafquih — Moroccan carrot and orange salad
+      url: 'https://tasteofmaroc.com/moroccan-carrot-and-orange-salad/'
+    - title: 'FoodSafety.gov — Clean, separate, cook, chill'
+      url: 'https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety'
+  review:
+    status: editorial-review
+    date: '2026-09-06'
 ---
 
 ## Chef's Note
 
-Carrot salad — _sharmoula_ in some Moroccan kitchens — is the cold counterpoint to a warm tagine: sweet from carrots and honey, bright from citrus, and spiced with the same warm notes (cumin, cinnamon) that live inside the main dish, so the plate stays unified. Grate the carrots on the large holes of a box grater rather than shredding them in a processor — the texture stays delicate instead of wet and shredded. Let it sit 15 minutes before serving; the salt and acid soften the carrots slightly and pull out their natural sweetness.
+Carrot, orange and orange-blossom water appear together in Moroccan salads. This version adds a light savory spice background and fresh herbs. Beside an apricot braise, start without sugar or raisins so the salad provides a cool citrus contrast rather than a second sweet course. It is a raw grated salad, not a cooked carrot chermoula preparation.
 
 ## Directions
 
-1. **Grate the carrots:** Using the large holes of a box grater, grate the carrots into a bowl. _(A food processor shred gives the wrong texture — too watery.)_
-2. **Make the dressing:** In a small bowl, whisk orange juice, lemon juice, olive oil, honey, orange blossom water, cumin, paprika, cinnamon, cayenne, and salt until emulsified.
-3. **Toss:** Pour dressing over carrots. Add raisins if using. Toss thoroughly with your hands or tongs so every strand is coated.
-4. **Rest:** Let sit **15-30 minutes** at room temperature. The carrots will release some water and the flavors will deepen.
-5. **Finish:** Just before serving, toss in the mint and parsley. Taste — it should be vivid: sweet, sour, warm, and a little floral. Adjust salt or lemon if needed.
+1. **Grate carrots:** Use the coarse holes of a box grater or a food-processor shredding disc. Transfer to a bowl. If loose liquid has already collected, pour it away without squeezing the shreds dry.
+2. **Mix and taste the dressing:** Whisk orange juice, lemon juice, olive oil, cumin, paprika, cinnamon, optional cayenne and half the salt. Add the optional quarter-teaspoon orange-blossom water and taste a small amount with a carrot shred. Add sugar or more blossom water only if the balance needs it.
+3. **Dress and chill:** Toss dressing through carrots, adding the optional raisins if chosen. Cover and refrigerate for about 20 minutes to let the shreds soften lightly. There is no need for a long warm countertop rest.
+4. **Finish freshly:** Slice mint and chop parsley just before serving, fold them through and taste. Add remaining salt only if needed. Toss up any dressing from the bottom and divide into six side portions. If excess water has accumulated, drain a little before the final seasoning check.

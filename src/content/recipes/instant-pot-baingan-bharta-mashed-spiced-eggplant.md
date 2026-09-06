@@ -26,7 +26,7 @@ cookTime: 15 min
 totalTime: 30 min
 servings: '4'
 pairsWith:
-  - spiced-coconut-chicken-rice
+  - basmati-rice
   - cucumber-raita
   - naan
 ingredients:

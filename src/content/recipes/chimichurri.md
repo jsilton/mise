@@ -29,7 +29,6 @@ seasons:
 nutritionalDensity: light
 leftovers: good
 pairsWith:
-  - mongolian-beef
   - kalbi-grilled-korean-style-short-ribs
   - grilled-chicken-with-herbed-corn-salsa
   - carnitas-bowl

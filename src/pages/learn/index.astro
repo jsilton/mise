@@ -1,0 +1,139 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { techniques } from '../../data/techniques';
+const BASE = import.meta.env.BASE_URL;
+---
+
+<Layout
+  title="Learn to cook with understanding | Mise"
+  description="Practical lessons in heat, proteins, starch, leavening, emulsions, and seasoning, with cooking cues and recipes to practice."
+>
+  <p class="eyebrow">The learning kitchen</p>
+  <h1>A better cook.<br /><em>One understanding at a time.</em></h1>
+  <p class="intro">
+    Recipes get dinner on the table. Understanding helps you adapt when the pan, the ingredients, or
+    the evening has other ideas.
+  </p>
+  <div class="learning-path">
+    <span class="eyebrow">A good place to begin</span><a href={`${BASE}learn/browning`}
+      >01 · Manage heat</a
+    ><span aria-hidden="true">→</span><a href={`${BASE}learn/emulsions`}>02 · Build a sauce</a><span
+      aria-hidden="true">→</span
+    ><a href={`${BASE}learn/seasoning`}>03 · Trust your taste</a>
+  </div>
+  <div class="technique-grid">
+    {
+      techniques.map((technique, i) => (
+        <a class="technique-card" href={`${BASE}learn/${technique.slug}`}>
+          <>
+            <span class="lesson-number">{String(i + 1).padStart(2, '0')}</span>
+            <p class="eyebrow">{technique.category}</p>
+            <h2>{technique.title}</h2>
+            <p>{technique.summary}</p>
+            <span class="read-link">
+              Explore the lesson <span aria-hidden="true">↗</span>
+            </span>
+          </>
+        </a>
+      ))
+    }
+  </div>
+  <p class="editorial-note">
+    Each lesson connects a mechanism to a cooking decision, an observable cue, and a recipe to
+    practice. <a href={`${BASE}standards`}>Read our editorial standard →</a>
+  </p>
+</Layout>
+<style>
+  h1 {
+    font:
+      500 clamp(2.5rem, 5vw, 4.6rem)/1.05 'Cormorant Garamond',
+      Georgia,
+      serif;
+    letter-spacing: -0.03em;
+    margin: 1.5rem 0;
+  }
+  h1 em {
+    color: var(--accent-gold);
+    font-weight: 400;
+  }
+  .intro {
+    max-width: 640px;
+    color: var(--text-secondary);
+    line-height: 1.8;
+    font-size: 1.05rem;
+  }
+  .learning-path {
+    display: flex;
+    gap: 1rem 1.5rem;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 1.5rem 0;
+    margin: 2.5rem 0;
+    border-block: 1px solid var(--border-subtle);
+    font-size: 0.85rem;
+  }
+  .learning-path > span[aria-hidden] {
+    color: var(--accent-gold);
+  }
+  .technique-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1.2rem;
+  }
+  .technique-card {
+    position: relative;
+    border: 1px solid var(--border-subtle);
+    padding: 2rem;
+    background: var(--bg-surface);
+    display: flex;
+    flex-direction: column;
+    transition: border-color 0.2s;
+  }
+  .technique-card:hover {
+    border-color: var(--accent-gold);
+  }
+  .lesson-number {
+    font:
+      400 2rem/1 'Cormorant Garamond',
+      Georgia,
+      serif;
+    color: var(--text-tertiary);
+    margin-bottom: 2rem;
+  }
+  h2 {
+    font:
+      500 2.1rem/1.15 'Cormorant Garamond',
+      Georgia,
+      serif;
+    margin: 0.8rem 0;
+  }
+  .technique-card > p:not(.eyebrow) {
+    color: var(--text-secondary);
+    line-height: 1.7;
+    max-width: 350px;
+    font-size: 0.95rem;
+  }
+  .read-link {
+    margin-top: auto;
+    padding-top: 1.8rem;
+    font-size: 0.8rem;
+    color: var(--accent-gold);
+  }
+  .editorial-note {
+    color: var(--text-secondary);
+    font-size: 0.85rem;
+    line-height: 1.8;
+    margin-top: 2rem;
+  }
+  .editorial-note a {
+    color: var(--accent-gold);
+  }
+  @media (max-width: 600px) {
+    .technique-grid {
+      grid-template-columns: 1fr;
+    }
+    .technique-card {
+      padding: 1.5rem;
+    }
+  }
+</style>

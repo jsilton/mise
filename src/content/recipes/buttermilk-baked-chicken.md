@@ -21,7 +21,7 @@ totalTime: 60 min
 servings: '4'
 pairsWith:
   - strawberry-congealed-salad
-  - classic-coleslaw
+  - coleslaw
   - cinnamon-sweet-potatoes
 ingredients:
   - '3 lbs Chicken, cut into 8 pieces (pat dry)'

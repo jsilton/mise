@@ -5,9 +5,10 @@ difficulty: easy
 cookingMethods:
   - no-cook
 dietary:
-  - vegetarian
   - vegan
   - gluten-free
+  - dairy-free
+  - egg-free
 occasions:
   - meal-prep
   - entertaining
@@ -24,7 +25,7 @@ seasons:
   - fall
   - winter
 nutritionalDensity: moderate
-leftovers: excellent
+leftovers: good
 advancePrep:
   - make-ahead
 equipment:
@@ -32,35 +33,76 @@ equipment:
 prepTime: 5 min
 cookTime: 0 min
 totalTime: 5 min
-servings: 1 cup
+servings: '1 cup, approximately'
 pairsWith:
-  - shakshuka
   - chicken-shawarma
-  - chicken-thigh-kebabs-with-chile-yogurt-sauce
+  - roasted-cauliflower-with-tahini
 ingredients:
-  - 1/2 cup High-Quality Tahini (like Soom)
-  - 1/4 cup Fresh Lemon Juice
-  - '1 clove Garlic, grated into a paste'
-  - 1/4 tsp Kosher Salt
-  - 1/4 cup Ice-Cold Water (plus more as needed)
-  - Pinch of Cumin (optional)
-nutrition:
-  calories: 1450
-  protein: 42.5
-  carbs: 57.5
-  fat: 130.5
-  fiber: 29
-  sugar: 9.5
-  sodium: 2460
+  - '1/2 cup (120 g) tahini, thoroughly stirred in its jar'
+  - '3 tbsp fresh lemon juice, plus up to 1 tbsp more to taste'
+  - '1 small clove garlic, finely grated'
+  - 1/4 tsp fine salt or 1/2 tsp Diamond Crystal kosher salt
+  - '1/4 cup (60 ml) cool water, plus more a tablespoon at a time as needed'
+  - '1/8 tsp ground cumin, optional'
+description: >-
+  A lemon-garlic sesame sauce that moves from thick paste to a smooth drizzle as water is whisked
+  in.
+learning:
+  focus: Thin tahini gradually without losing control
+  outcome: >-
+    A smooth sauce that falls from a spoon in a ribbon, with lemon and garlic balanced against
+    sesame.
+  techniques:
+    - emulsions
+    - seasoning
+  before:
+    - Stir separated sesame oil fully back into the tahini jar before measuring.
+    - >-
+      Taste the plain tahini first. Pleasant sesame bitterness differs from stale, rancid oil; use a
+      fresh jar if it smells off.
+  checkpoints:
+    - step: 2
+      cue: 'The paste thickens at first, then becomes smoother and looser as more water is added.'
+      why: >-
+        Adding liquid changes the structure of the concentrated sesame paste. Initial thickening is
+        expected; it does not mean the sauce is ruined.
+    - step: 3
+      cue: Sauce falls from the spoon in a broad ribbon rather than a stiff lump.
+      why: >-
+        The right water quantity depends on the tahini’s texture and whether you want a dip or
+        drizzle.
+  troubleshooting:
+    - problem: Sauce looks stiff or grainy
+      cause: 'Only a small amount of liquid has been incorporated, or the jar was not mixed well.'
+      fix: >-
+        Keep whisking and add water a tablespoon at a time. If the starting paste itself is coarse,
+        a blender can smooth it further.
+    - problem: Sauce is too thin
+      cause: Too much water was added at once.
+      fix: 'Whisk in a spoonful of well-stirred tahini, then retaste lemon and salt.'
+  timing: >-
+    5 minutes; allow a little more if the jar needs thorough stirring. A full batch makes roughly
+    one cup, depending on thinning.
+  storage: >-
+    Refrigerate in a clean covered container at 40°F / 4°C or below and use within 3–4 days.
+    Refrigerate within 2 hours of preparation or serving. The sauce thickens when cold; stir in a
+    little water before using.
+  sources:
+    - title: 'FoodSafety.gov — Clean, separate, cook, chill'
+      url: 'https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety'
+    - title: Ottolenghi — Tahini sauce and uses
+      url: 'https://ottolenghi.co.uk/pages/foodipedia/tahini'
+  review:
+    status: editorial-review
+    date: '2026-09-06'
 ---
 
 ## Chef's Note
 
-Tahini is an oil-rich paste that can behave unexpectedly. When you add lemon juice, it will often "seize" and turn thick and grainy. The secret to a silky, pourable sauce is **Emulsifying with Ice Water**. By whisking in cold water a tablespoon at a time, you force the fat and liquid to bind into a pale, creamy emulsion that is perfect for drizzling over shawarma or roasted veg.
+Tahini sauce turns concentrated sesame paste into a dressing with lemon, garlic, salt, and water. The first addition of liquid can make it unexpectedly stiff. Keep whisking in water gradually until it reaches the texture you need. Ice water is not a requirement; cool water gives you control without adding more acidity every time the sauce needs thinning.
 
 ## Directions
 
-1.  **The Base:** In a medium bowl, whisk together the tahini, lemon juice, grated garlic, and salt. The mixture will likely thicken and look "broken" - this is normal.
-2.  **The Emulsion:** Whisk in the ice-cold water, one tablespoon at a time. Continue whisking until the sauce turns pale and reaches the consistency of heavy cream.
-3.  **Balance:** Taste and adjust for salt or acid. If it's too thick, add another splash of water.
-4.  **Serve:** Serve as a dip or a drizzle.
+1. **Stir and season:** Stir the tahini jar thoroughly, then measure into a bowl. Add 3 tbsp lemon juice, garlic, salt, and optional cumin. Whisk together; the mixture may become thick.
+2. **Add water gradually:** Whisk in the measured cool water a tablespoon at a time. Continue whisking until smooth. Add more water in small increments if needed for a drizzle, or leave thicker for a dip.
+3. **Balance and serve:** Taste on a bite of the food it will accompany. Add some or all of the remaining tablespoon of lemon juice only if needed; adjust salt sparingly. Use immediately or refrigerate. For four shawarma portions, set aside 1/2 cup sauce and refrigerate the rest.

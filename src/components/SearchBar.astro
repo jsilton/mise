@@ -13,7 +13,8 @@ const { placeholder = 'Search...', id = 'searchInput' } = Astro.props;
 <div class="relative w-full">
   <input
     {id}
-    type="text"
+    type="search"
+    aria-label="Search recipes by dish, ingredient, or technique"
     {placeholder}
     class="search-input w-full pl-9 pr-4 py-2 rounded-xl text-sm focus:outline-none shadow-soft transition-all"
     style={`background: var(--bg-surface); border: 1px solid var(--border-subtle); color: var(--text-primary);`}

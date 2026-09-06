@@ -2,6 +2,8 @@ import fs from 'fs/promises';
 
 import path from 'path';
 import matter from 'gray-matter';
+import { hasLowTemperatureReference } from '../src/lib/low-temperature-reference.mjs';
+import { extractRecipeTargets } from './lib/recipe-link-targets.mjs';
 
 const RECIPES_DIR = path.resolve('src/content/recipes');
 const allowedRoles = new Set(['main', 'side', 'dessert', 'base', 'drink', 'condiment']);
@@ -160,14 +162,6 @@ async function listMdFiles(dir) {
     else if (entry.isFile() && res.endsWith('.md')) files.push(res);
   }
   return files;
-}
-
-function extractInternalLinks(body) {
-  const re = /\(\/mise\/recipes\/([^)\/\s)]+)\)/g;
-  const links = [];
-  let m;
-  while ((m = re.exec(body)) !== null) links.push(m[1]);
-  return links;
 }
 
 // Normalize a string for lookup (title -> slug etc.)
@@ -370,6 +364,8 @@ function normalizeKey(str) {
           });
         } else if (type === 'method_presence') {
           clauseMatched = words.some((w) => lowerContent.includes(String(w || '').toLowerCase()));
+        } else if (type === 'low_temperature_reference') {
+          clauseMatched = hasLowTemperatureReference(content, words);
         } else if (type === 'text_presence') {
           clauseMatched = words.some((w) => lowerContent.includes(String(w || '').toLowerCase()));
         } else if (type === 'text_absence') {
@@ -434,7 +430,7 @@ function normalizeKey(str) {
     }
 
     // internal links check: /mise/recipes/slug
-    const links = extractInternalLinks(content);
+    const links = extractRecipeTargets(content);
     for (const link of links) {
       if (!linkTargetMap.has(link)) {
         report.brokenInternalLinks.push({ from: slug, to: link });
@@ -825,6 +821,9 @@ function normalizeKey(str) {
   }
   output.suggestionsCount = totalSuggestions;
   output.sampleSuggestions = sample(suggestionsSample, 50);
+  output.failingSuggestions = suggestionsSample.filter(
+    (suggestion) => suggestion.severity === 'fail'
+  );
 
   // write report JSON for CI consumers
   const reportPath = path.resolve('public', 'recipes', 'validation-report.json');

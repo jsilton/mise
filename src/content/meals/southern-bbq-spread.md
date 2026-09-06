@@ -3,7 +3,7 @@ title: Southern BBQ Spread
 template: plate
 main: pulled-pork
 base: cornbread
-sides: [classic-coleslaw]
+sides: [coleslaw]
 totalPrepTime: 20 min
 totalCookTime: 660 min
 totalActiveTime: 30 min
@@ -23,11 +23,11 @@ Classic Southern BBQ that's almost entirely hands-off thanks to the slow cooker.
 ## Cooking Strategy
 
 1. **Start pulled pork in the morning** - rub and load slow cooker, 10-11 hours on low
-2. **Make cornbread batter** 30 minutes before serving
-3. **Prep coleslaw** while cornbread bakes - salt cabbage, make dressing
+2. **Start coleslaw at least 75 minutes before serving** - prepare one full eight-portion batch, drain for 30 minutes, dress, then chill at least 30 minutes
+3. **Make cornbread batter** following the component recipe’s full preparation and baking time
 4. **Chop pork** - pull out bone and fat, chop meat, toss in cooking juices
 5. **Bake cornbread** until golden brown, about 20-25 minutes
-6. **Finish coleslaw** and let rest 15 minutes
+6. **Check the chilled coleslaw** - stir gently and lift out of any pooled liquid before serving
 7. **Serve buffet-style** - let people build their own plates
 
 ## Notes

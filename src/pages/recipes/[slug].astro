@@ -1,6 +1,9 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import RecipeHeader from '../../components/RecipeHeader.astro';
+import { timeToISO } from '../../lib/time.mjs';
+import RecipeSources from '../../components/RecipeSources.astro';
+import RecipeLearning from '../../components/RecipeLearning.astro';
 import RecipeScaler from '../../components/RecipeScaler.astro';
 import { getCollection } from 'astro:content';
 
@@ -16,6 +19,10 @@ const { recipe } = Astro.props;
 const { Content } = await recipe.render();
 
 const BASE = import.meta.env.BASE_URL;
+const learning = recipe.data.learning;
+const allRecipes = await getCollection('recipes');
+const recipeTitles = new Map(allRecipes.map((r) => [r.slug, r.data.title]));
+const canonicalUrl = new URL(`${BASE}recipes/${recipe.slug}/`, Astro.site).href;
 
 function isDivider(str: string): boolean {
   return /^-{3}\s+.+\s+-{3}$/.test(str);
@@ -27,35 +34,21 @@ function getDividerLabel(str: string): string {
 }
 
 function parseIngredientHtml(str: string): string {
-  let html = str.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+  let html = str
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#39;');
   html = html.replace(/\[([^\]]+)\]\(([^)]+)\)/g, (_match, text, url) => {
     let href = url;
+    if (!/^(?:https?:\/\/|\/(?!\/))/.test(href)) return text;
     if (href.startsWith('/recipes/')) {
       href = `${BASE}recipes/${href.slice('/recipes/'.length)}`;
     }
     return `<a href="${href}" style="color: var(--accent-link);" class="hover:underline font-medium">${text}</a>`;
   });
   return html;
-}
-
-// Convert time strings like "15 min", "1 hr 30 min" to ISO 8601 duration format like "PT15M", "PT1H30M"
-function timeStringToISO8601(timeStr: string | undefined): string | undefined {
-  if (!timeStr) return undefined;
-
-  const timeStr2 = timeStr.toLowerCase().trim();
-  const hoursMatch = timeStr2.match(/(\d+)\s*(?:hrs?|hours?)/);
-  const minutesMatch = timeStr2.match(/(\d+)\s*(?:mins?|minutes?)/);
-
-  const hours = hoursMatch ? parseInt(hoursMatch[1]) : 0;
-  const minutes = minutesMatch ? parseInt(minutesMatch[1]) : 0;
-
-  if (hours === 0 && minutes === 0) return undefined;
-
-  let iso = 'PT';
-  if (hours > 0) iso += `${hours}H`;
-  if (minutes > 0) iso += `${minutes}M`;
-
-  return iso;
 }
 
 // Map recipe role to Schema.org recipeCategory
@@ -75,17 +68,16 @@ function roleToRecipeCategory(role: string | undefined): string {
 function dietaryToDietType(dietary: string[]): string[] {
   const dietMap: Record<string, string> = {
     'gluten-free': 'GlutenFreeDiet',
-    'dairy-free': 'DairyFreeDiet',
     vegan: 'VeganDiet',
     vegetarian: 'VegetarianDiet',
-    keto: 'KetoDiet',
-    paleo: 'PaleoDiet',
     kosher: 'KosherDiet',
     halal: 'HalalDiet',
   };
 
   return dietary
-    .map((d) => dietMap[d.toLowerCase()] || null)
+    .map((d) =>
+      dietMap[d.toLowerCase()] ? `https://schema.org/${dietMap[d.toLowerCase()]}` : null
+    )
     .filter((d): d is string => d !== null);
 }
 
@@ -160,7 +152,7 @@ function getRecipeInstructions(body: string) {
 // Build the complete JSON-LD schema
 function buildRecipeSchema() {
   const body = recipe.body || '';
-  const description = getRecipeDescription(body);
+  const description = recipe.data.description || getRecipeDescription(body);
   const cleanIngredients = getCleanIngredients(recipe.data.ingredients || []);
   const instructions = getRecipeInstructions(body);
 
@@ -180,21 +172,21 @@ function buildRecipeSchema() {
     '@type': 'Recipe',
     name: recipe.data.title,
     description: description,
-    url: `${BASE}recipes/${recipe.slug}`,
+    url: canonicalUrl,
   };
 
   if (recipe.data.prepTime) {
-    const prepTimeISO = timeStringToISO8601(recipe.data.prepTime);
+    const prepTimeISO = timeToISO(recipe.data.prepTime);
     if (prepTimeISO) schema['prepTime'] = prepTimeISO;
   }
 
   if (recipe.data.cookTime) {
-    const cookTimeISO = timeStringToISO8601(recipe.data.cookTime);
+    const cookTimeISO = timeToISO(recipe.data.cookTime);
     if (cookTimeISO) schema['cookTime'] = cookTimeISO;
   }
 
   if (recipe.data.totalTime) {
-    const totalTimeISO = timeStringToISO8601(recipe.data.totalTime);
+    const totalTimeISO = timeToISO(recipe.data.totalTime);
     if (totalTimeISO) schema['totalTime'] = totalTimeISO;
   }
 
@@ -226,701 +218,463 @@ function buildRecipeSchema() {
     schema['suitableForDiet'] = suitableForDiet;
   }
 
-  if (recipe.data.origin) {
-    schema['author'] = {
-      '@type': 'Person',
-      name: recipe.data.origin,
-    };
-  }
+  // Origin is a place, not an author. Do not invent author or testing claims.
 
-  return JSON.stringify(schema);
+  return JSON.stringify(schema).replace(/</g, '\\u003c');
 }
 ---
 
-<script>
-  // Cook Mode implementation
-  let cookModeActive = false;
-  let wakeLock: WakeLockSentinel | null = null;
-
-  function toggleCookMode() {
-    cookModeActive = !cookModeActive;
-    applyRecipePageLayout();
-    updateToggleButton();
-
-    if (cookModeActive) {
-      activateWakeLock();
-    } else {
-      releaseWakeLock();
-    }
-  }
-
-  async function activateWakeLock() {
-    try {
-      if (navigator.wakeLock) {
-        wakeLock = await navigator.wakeLock.request('screen');
-      }
-    } catch (err) {
-      console.log('Wake Lock request failed:', err);
-    }
-  }
-
-  function releaseWakeLock() {
-    if (wakeLock) {
-      wakeLock.release().then(() => {
-        wakeLock = null;
-      });
-    }
-  }
-
-  function applyRecipePageLayout() {
-    const mainContent = document.querySelector('article');
-    const header = document.querySelector('[data-recipe-header]');
-    const toggleBtn = document.getElementById('cook-mode-toggle');
-
-    if (!mainContent) return;
-
-    if (cookModeActive) {
-      // Enter Cook Mode
-      mainContent.classList.add('cook-mode-active');
-      if (header) header.classList.add('hidden');
-
-      // Increase font sizes
-      const ingredientsList = mainContent.querySelector('ul');
-      const contentColumn = mainContent.querySelector('.prose-refined');
-
-      if (ingredientsList) {
-        ingredientsList.classList.add('cook-mode-ingredients');
-      }
-      if (contentColumn) {
-        contentColumn.classList.add('cook-mode-content');
-      }
-
-      // Enable checkboxes for direction steps
-      const olLists = contentColumn?.querySelectorAll('ol');
-      olLists?.forEach((ol) => {
-        ol.querySelectorAll('li').forEach((li) => {
-          if (!li.querySelector('input[type="checkbox"]')) {
-            const checkbox = document.createElement('input');
-            checkbox.type = 'checkbox';
-            checkbox.className =
-              'h-5 w-5 rounded cursor-pointer ingredient-checkbox shrink-0 mt-0.5';
-
-            // Wrap text content in a div for perfect flex alignment
-            const contentDiv = document.createElement('div');
-            contentDiv.className = 'step-content flex-1';
-            contentDiv.innerHTML = li.innerHTML;
-
-            li.innerHTML = '';
-            li.appendChild(checkbox);
-            li.appendChild(contentDiv);
-
-            li.classList.add('cook-mode-step');
-          }
-        });
-      });
-
-      if (toggleBtn) {
-        toggleBtn.classList.add('cook-mode-active-btn');
-        toggleBtn.textContent = 'Exit Cook Mode';
-      }
-    } else {
-      // Exit Cook Mode
-      mainContent.classList.remove('cook-mode-active');
-      if (header) header.classList.remove('hidden');
-
-      // Revert font sizes
-      const ingredientsList = mainContent.querySelector('ul');
-      const contentColumn = mainContent.querySelector('.prose-refined');
-
-      if (ingredientsList) {
-        ingredientsList.classList.remove('cook-mode-ingredients');
-      }
-      if (contentColumn) {
-        contentColumn.classList.remove('cook-mode-content');
-      }
-
-      // Remove checkboxes from direction steps
-      const olLists = contentColumn?.querySelectorAll('ol');
-      olLists?.forEach((ol) => {
-        ol.querySelectorAll('li').forEach((li) => {
-          const contentDiv = li.querySelector('.step-content');
-          if (contentDiv) {
-            li.innerHTML = contentDiv.innerHTML;
-            li.classList.remove('cook-mode-step');
-          }
-        });
-      });
-
-      if (toggleBtn) {
-        toggleBtn.classList.remove('cook-mode-active-btn');
-        toggleBtn.textContent = 'Cook Mode';
-      }
-    }
-  }
-
-  function updateToggleButton() {
-    const toggleBtn = document.getElementById('cook-mode-toggle');
-    if (toggleBtn) {
-      if (cookModeActive) {
-        toggleBtn.classList.add('cook-mode-active-btn');
-        toggleBtn.textContent = 'Exit Cook Mode';
-      } else {
-        toggleBtn.classList.remove('cook-mode-active-btn');
-        toggleBtn.textContent = 'Cook Mode';
-      }
-    }
-  }
-
-  // Keyboard shortcut: 'c' to toggle Cook Mode
-  function handleKeyPress(e: KeyboardEvent) {
-    if ((e.key === 'c' || e.key === 'C') && !e.metaKey && !e.ctrlKey && !e.altKey) {
-      if (
-        e.target instanceof HTMLElement &&
-        (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA')
-      ) {
-        return;
-      }
-      toggleCookMode();
-    }
-  }
-
-  // Initialize
-  document.addEventListener('DOMContentLoaded', () => {
-    const toggleBtn = document.getElementById('cook-mode-toggle');
-    if (toggleBtn) {
-      toggleBtn.addEventListener('click', toggleCookMode);
-    }
-    document.addEventListener('keydown', handleKeyPress);
-  });
-
-  // Handle wake lock release on visibility change
-  if (document.visibilityState === 'visible') {
-    document.addEventListener('visibilitychange', () => {
-      if (document.visibilityState === 'visible' && cookModeActive && !wakeLock) {
-        activateWakeLock();
-      } else if (document.visibilityState === 'hidden') {
-        releaseWakeLock();
-      }
-    });
-  }
-</script>
-
-<style is:global>
-  /* Cook Mode Styles */
-  .cook-mode-active {
-    max-width: 100% !important;
-    display: flex;
-    flex-direction: column;
-  }
-
-  .cook-mode-active .grid {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-  }
-
-  .cook-mode-active-btn {
-    box-shadow:
-      0 0 0 2px var(--accent-gold-muted),
-      0 0 12px rgba(201, 169, 97, 0.2);
-  }
-
-  .cook-mode-ingredients {
-    column-count: 1 !important;
-  }
-
-  .cook-mode-ingredients li {
-    font-size: 1.125rem;
-    line-height: 1.8;
-    margin-bottom: 1rem;
-    padding: 0.5rem;
-    border-radius: 0.375rem;
-    transition: background-color 0.15s;
-  }
-
-  .cook-mode-ingredients li:hover {
-    background-color: rgba(201, 169, 97, 0.08);
-  }
-
-  .cook-mode-ingredients input[type='checkbox'] {
-    width: 1.25rem;
-    height: 1.25rem;
-    margin-top: 0.25rem;
-  }
-
-  .cook-mode-content {
-    font-size: 1.125rem;
-    line-height: 1.75;
-  }
-
-  .cook-mode-content h2 {
-    font-size: 1.5rem;
-    margin-top: 2rem;
-    margin-bottom: 1.5rem;
-  }
-
-  .cook-mode-content p {
-    font-size: 1.125rem;
-    margin-bottom: 1.5rem;
-  }
-
-  .cook-mode-content ol li {
-    font-size: 1.125rem;
-    margin-bottom: 1.5rem;
-    padding: 1rem;
-    border-radius: 0.375rem;
-    background-color: var(--bg-elevated);
-    transition: background-color 0.15s;
-    position: relative;
-    display: flex;
-    align-items: flex-start;
-    gap: 1rem;
-  }
-
-  .cook-mode-content ol li:hover {
-    background-color: var(--bg-hover);
-  }
-
-  /* Move the counter number */
-  .cook-mode-content ol li::before {
-    position: static;
-    flex-shrink: 0;
-    width: 1.5rem;
-    margin-top: 0.125rem; /* Optical alignment with text */
-  }
-
-  .ingredient-checkbox {
-    accent-color: var(--accent-gold);
-    background-color: var(--bg-elevated);
-    border-color: var(--border-emphasis);
-  }
-
-  /* Print Styles for Recipe Pages */
-  @media print {
-    /* Hide UI elements not needed for printing */
-    header,
-    footer,
-    #darkModeToggle,
-    #cook-mode-toggle,
-    .filter-panel,
-    [data-recipe-header],
-    .RecipeScaler {
-      display: none !important;
-    }
-
-    /* Force white background and black text */
-    html,
-    body {
-      background-color: white !important;
-      color: black !important;
-    }
-
-    /* Main content area */
-    main {
-      max-width: 8.5in !important;
-      padding: 0.5in !important;
-      margin: 0 !important;
-    }
-
-    /* Article container */
-    article {
-      background-color: white !important;
-      border: none !important;
-      box-shadow: none !important;
-      padding: 0 !important;
-      border-radius: 0 !important;
-    }
-
-    /* Grid layout for ingredients and content */
-    article .grid {
-      display: grid !important;
-      grid-template-columns: 1fr 1.5fr !important;
-      gap: 2rem !important;
-      page-break-inside: avoid !important;
-    }
-
-    /* Ingredients column */
-    article .grid > div:first-child {
-      page-break-inside: avoid !important;
-    }
-
-    /* Recipe title in header (from RecipeHeader) */
-    h1 {
-      font-size: 1.75rem !important;
-      margin: 0 0 0.5rem 0 !important;
-      color: black !important;
-      page-break-after: avoid !important;
-    }
-
-    /* Ingredients heading */
-    h3 {
-      font-size: 1rem !important;
-      font-weight: bold !important;
-      color: black !important;
-      margin: 0 0 1rem 0 !important;
-      page-break-after: avoid !important;
-      border: none !important;
-      padding: 0 !important;
-    }
-
-    /* Ingredients list */
-    article ul {
-      margin: 0 !important;
-      padding-left: 0 !important;
-      page-break-inside: avoid !important;
-    }
-
-    article li {
-      font-size: 12pt !important;
-      color: black !important;
-      list-style: none !important;
-      margin-bottom: 0.25rem !important;
-      padding-left: 1.25rem !important;
-      position: relative !important;
-      page-break-inside: avoid !important;
-    }
-
-    article li::before {
-      content: '•' !important;
-      position: absolute !important;
-      left: 0 !important;
-      color: black !important;
-    }
-
-    /* Hide checkboxes in ingredients */
-    article input[type='checkbox'] {
-      display: none !important;
-    }
-
-    /* Content column (directions, notes, etc.) */
-    article .prose-refined {
-      page-break-inside: avoid !important;
-    }
-
-    /* Headings in prose */
-    .prose-refined h2 {
-      font-size: 1.25rem !important;
-      color: black !important;
-      margin: 1.5rem 0 0.5rem 0 !important;
-      border-bottom: 1px solid #ccc !important;
-      padding-bottom: 0.25rem !important;
-      page-break-after: avoid !important;
-    }
-
-    .prose-refined h2:first-child {
-      margin-top: 0 !important;
-    }
-
-    .prose-refined h3 {
-      font-size: 1.0625rem !important;
-      color: black !important;
-      margin: 1rem 0 0.5rem 0 !important;
-      page-break-after: avoid !important;
-    }
-
-    /* Paragraphs */
-    .prose-refined p {
-      font-size: 12pt !important;
-      color: black !important;
-      margin: 0 0 0.75rem 0 !important;
-      line-height: 1.5 !important;
-    }
-
-    /* Ordered lists (directions) */
-    .prose-refined ol {
-      margin: 0 0 1rem 0 !important;
-      padding-left: 0 !important;
-      counter-reset: step-counter !important;
-    }
-
-    .prose-refined ol li {
-      font-size: 12pt !important;
-      color: black !important;
-      padding-left: 2rem !important;
-      margin-bottom: 0.5rem !important;
-      counter-increment: step-counter !important;
-      page-break-inside: avoid !important;
-      position: relative !important;
-    }
-
-    .prose-refined ol li::before {
-      content: counter(step-counter) '.' !important;
-      position: absolute !important;
-      left: 0 !important;
-      top: 0 !important;
-      font-weight: bold !important;
-      color: black !important;
-    }
-
-    /* Links */
-    .prose-refined a {
-      color: black !important;
-      text-decoration: underline !important;
-    }
-
-    .prose-refined a::after {
-      content: ' (' attr(href) ')' !important;
-      font-size: 0.75rem !important;
-      word-break: break-all !important;
-    }
-
-    /* Strong text */
-    .prose-refined strong {
-      font-weight: bold !important;
-      color: black !important;
-    }
-
-    /* Remove borders and backgrounds */
-    .prose-refined table,
-    .prose-refined blockquote,
-    .prose-refined code {
-      border: 1px solid #ccc !important;
-      background-color: white !important;
-      color: black !important;
-    }
-
-    .prose-refined blockquote {
-      border-left: 3px solid #999 !important;
-      margin: 1rem 0 !important;
-      padding: 0.5rem 1rem !important;
-    }
-
-    /* Hide pairs section in print */
-    article > div:has(> .prose-refined) + div {
-      display: none !important;
-    }
-
-    /* Footer with recipe URL */
-    article::after {
-      content: 'Recipe: ' attr(data-url) !important;
-      display: block !important;
-      margin-top: 2rem !important;
-      padding-top: 1rem !important;
-      border-top: 1px solid #ccc !important;
-      font-size: 10pt !important;
-      color: #666 !important;
-    }
-
-    /* Print page breaks */
-    @page {
-      margin: 0.5in !important;
-      size: letter !important;
-    }
-  }
-</style>
-
-<Layout title={`${recipe.data.title} | Mise`} jsonLd={buildRecipeSchema()}>
-  <!-- Recipe Header with breadcrumb, metadata, and tags -->
+<Layout
+  title={`${recipe.data.title} | Mise`}
+  description={recipe.data.description || getRecipeDescription(recipe.body)}
+  jsonLd={buildRecipeSchema()}
+>
   <RecipeHeader {recipe} />
-
-  <!-- Recipe Content -->
-  <article
-    class="mt-8 rounded-2xl shadow-soft overflow-hidden"
-    style="background: linear-gradient(to bottom, var(--bg-elevated), var(--bg-surface)); border: 1px solid var(--border-subtle);"
-    data-url={`${import.meta.env.BASE_URL}recipes/${recipe.slug}`}
-  >
-    <div class="p-6 sm:p-8 grid md:grid-cols-[1fr_1.5fr] gap-10">
-      <!-- Ingredients Column -->
-      <div>
-        <h3
-          class="text-sm font-bold mb-4 flex items-center gap-2 pb-3 uppercase tracking-wide"
-          style="color: var(--text-primary); border-bottom: 1px solid var(--border-subtle);"
-        >
-          <svg
-            class="w-4 h-4"
-            style="color: var(--accent-gold);"
-            fill="none"
-            stroke="currentColor"
-            viewBox="0 0 24 24"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"
-            ></path>
-          </svg>
-          Ingredients
-        </h3>
-        {recipe.data.servings && <RecipeScaler servings={recipe.data.servings} />}
+  <RecipeLearning {recipe} />
+  <nav class="recipe-toolbar" aria-label="Recipe navigation">
+    <div class="jump-links">
+      <a href="#ingredients">Ingredients</a><a href="#directions">Method</a>{
+        learning && <a href="#troubleshooting">Troubleshooting</a>
+      }
+    </div>
+    <div class="recipe-actions">
+      <button id="print-recipe" hidden>Print</button><button
+        id="cook-mode-toggle"
+        hidden
+        aria-pressed="false">Cook mode</button
+      >
+    </div>
+  </nav>
+  <article class="recipe-body" data-recipe-slug={recipe.slug} data-url={canonicalUrl}>
+    <aside class="ingredients-panel" aria-labelledby="ingredients">
+      <h2 id="ingredients">Ingredients</h2>
+      {
+        recipe.data.servings && (
+          <RecipeScaler servings={recipe.data.servings} scaling={recipe.data.scaling} />
+        )
+      }
+      <ul class="ingredient-list">
         {
-          recipe.data.ingredients && recipe.data.ingredients.length > 0 ? (
-            <ul class="space-y-2.5">
-              {recipe.data.ingredients.map((ingredient) =>
-                isDivider(ingredient) ? (
-                  <li class="pt-3 first:pt-0">
-                    <span
-                      class="text-xs font-bold uppercase tracking-wide"
-                      style="color: var(--text-tertiary);"
-                    >
-                      {getDividerLabel(ingredient)}
-                    </span>
-                  </li>
-                ) : (
-                  <li class="flex items-start group">
-                    <input
-                      type="checkbox"
-                      class="mt-1 mr-3 h-4 w-4 rounded cursor-pointer shrink-0 ingredient-checkbox"
-                    />
-                    <span
-                      class="text-sm leading-relaxed transition-colors"
-                      style="color: var(--text-secondary);"
-                      set:html={parseIngredientHtml(ingredient)}
-                    />
-                  </li>
-                )
-              )}
-            </ul>
-          ) : (
-            <p class="italic text-sm" style="color: var(--text-tertiary);">
-              No ingredients listed.
-            </p>
+          (recipe.data.ingredients || []).map((ingredient, i) =>
+            isDivider(ingredient) ? (
+              <li class="ingredient-divider">{getDividerLabel(ingredient)}</li>
+            ) : (
+              <li class="ingredient-row">
+                <input
+                  id={`ingredient-${i}`}
+                  type="checkbox"
+                  data-ingredient-check={i}
+                  aria-labelledby={`ingredient-label-${i}`}
+                />
+                <label
+                  for={`ingredient-${i}`}
+                  id={`ingredient-label-${i}`}
+                  data-ingredient-text
+                  set:html={parseIngredientHtml(ingredient)}
+                />
+              </li>
+            )
           )
         }
-      </div>
-
-      <!-- Content Column (Description, Directions, Notes, Nutrition) -->
-      <div class="prose-refined">
-        <Content />
-
-        <!-- PairsWith Section (if available) -->
-        {
-          recipe.data.pairsWith && recipe.data.pairsWith.length > 0 && (
-            <div class="mt-8 pt-6" style="border-top: 1px solid var(--border-subtle);">
-              <h2
-                class="text-sm font-bold mb-4 flex items-center gap-2 pb-3 uppercase tracking-wide"
-                style="color: var(--text-primary); border-bottom: 1px solid var(--border-subtle);"
-              >
-                <svg
-                  class="w-4 h-4"
-                  style="color: var(--accent-gold);"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"
-                  />
-                </svg>
-                Pairs Well With
-              </h2>
-              <ul class="space-y-2">
-                {recipe.data.pairsWith.map((pairing) => (
-                  <li>
-                    <a
-                      href={`${import.meta.env.BASE_URL}recipes/${pairing}`}
-                      class="text-sm hover:underline font-medium"
-                      style="color: var(--accent-link);"
-                    >
-                      {pairing
-                        .split('-')
-                        .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
-                        .join(' ')}
-                    </a>
-                  </li>
+      </ul>
+      {
+        learning && (
+          <section class="before-cooking">
+            <>
+              <h3>Before you start</h3>
+              <ul>
+                {learning.before.map((item) => (
+                  <li>{item}</li>
                 ))}
               </ul>
-            </div>
-          )
-        }
-
-        <!-- Nutrition Section (if available) -->
-        {
-          recipe.data.nutrition && (
-            <div class="mt-8 pt-6" style="border-top: 1px solid var(--border-subtle);">
-              <h2
-                class="text-sm font-bold mb-4 flex items-center gap-2 pb-3 uppercase tracking-wide"
-                style="color: var(--text-primary); border-bottom: 1px solid var(--border-subtle);"
-              >
-                <svg
-                  class="w-4 h-4"
-                  style="color: var(--accent-gold);"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M12 6v6m0 0v6m0-6h6m-6 0H6"
-                  />
-                </svg>
-                Nutrition Per Serving (Estimated)
-              </h2>
-              <div class="overflow-x-auto">
-                <table class="w-full text-sm">
-                  <tbody>
-                    <tr>
-                      <td class="py-2.5 pr-4 font-semibold" style="color: var(--text-secondary);">
-                        Calories
-                      </td>
-                      <td class="py-2.5 text-right font-medium" style="color: var(--text-primary);">
-                        {recipe.data.nutrition.calories}
-                      </td>
-                    </tr>
-                    <tr>
-                      <td class="py-2.5 pr-4 font-semibold" style="color: var(--text-secondary);">
-                        Protein
-                      </td>
-                      <td class="py-2.5 text-right font-medium" style="color: var(--text-primary);">
-                        {recipe.data.nutrition.protein.toFixed(1)}g
-                      </td>
-                    </tr>
-                    <tr>
-                      <td class="py-2.5 pr-4 font-semibold" style="color: var(--text-secondary);">
-                        Carbohydrates
-                      </td>
-                      <td class="py-2.5 text-right font-medium" style="color: var(--text-primary);">
-                        {recipe.data.nutrition.carbs.toFixed(1)}g
-                      </td>
-                    </tr>
-                    <tr>
-                      <td class="py-2.5 pr-4 font-semibold" style="color: var(--text-secondary);">
-                        Fat
-                      </td>
-                      <td class="py-2.5 text-right font-medium" style="color: var(--text-primary);">
-                        {recipe.data.nutrition.fat.toFixed(1)}g
-                      </td>
-                    </tr>
-                    <tr>
-                      <td class="py-2.5 pr-4 font-semibold" style="color: var(--text-secondary);">
-                        Fiber
-                      </td>
-                      <td class="py-2.5 text-right font-medium" style="color: var(--text-primary);">
-                        {recipe.data.nutrition.fiber.toFixed(1)}g
-                      </td>
-                    </tr>
-                    <tr>
-                      <td class="py-2.5 pr-4 font-semibold" style="color: var(--text-secondary);">
-                        Sugar
-                      </td>
-                      <td class="py-2.5 text-right font-medium" style="color: var(--text-primary);">
-                        {recipe.data.nutrition.sugar.toFixed(1)}g
-                      </td>
-                    </tr>
-                    <tr>
-                      <td class="py-2.5 pr-4 font-semibold" style="color: var(--text-secondary);">
-                        Sodium
-                      </td>
-                      <td class="py-2.5 text-right font-medium" style="color: var(--text-primary);">
-                        {recipe.data.nutrition.sodium.toFixed(0)}mg
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-              <p class="mt-3 text-xs italic" style="color: var(--text-tertiary);">
-                Per serving (1/{recipe.data.servings || '4'} of recipe). Estimated from standard
-                ingredient data. Actual nutrition may vary.
-              </p>
-            </div>
-          )
-        }
+            </>
+          </section>
+        )
+      }
+      <div class="cook-progress" hidden>
+        <p id="cook-progress" role="status" aria-live="polite"></p><button id="reset-progress"
+          >Reset checkmarks</button
+        ><p id="wake-status">Keep your recipe close as you cook.</p>
       </div>
+    </aside>
+    <div class="recipe-main">
+      <div class="recipe-method prose-refined"><Content /></div>
+      {
+        learning && (
+          <>
+            <section id="checkpoints" class="prose-refined checkpoint-section">
+              <h2>What to watch for</h2>
+              {learning.checkpoints.map((checkpoint) => (
+                <div class="checkpoint" data-checkpoint-step={checkpoint.step}>
+                  <p class="eyebrow">Step {checkpoint.step} · Look for</p>
+                  <p>{checkpoint.cue}</p>
+                  <details>
+                    <summary>Why this matters</summary>
+                    <p>{checkpoint.why}</p>
+                  </details>
+                </div>
+              ))}
+            </section>
+            <section id="troubleshooting" class="prose-refined troubleshooting">
+              <h2>Something not quite right?</h2>
+              {learning.troubleshooting.map((item) => (
+                <details>
+                  <summary>{item.problem}</summary>
+                  <p>
+                    <strong>Likely cause:</strong> {item.cause}
+                  </p>
+                  <p>
+                    <strong>What to do:</strong> {item.fix}
+                  </p>
+                </details>
+              ))}
+            </section>
+            {learning.substitutions?.length > 0 && (
+              <section class="prose-refined">
+                <h2>Substitutions & tradeoffs</h2>
+                {learning.substitutions.map((item) => (
+                  <div class="substitution">
+                    <h3>
+                      {item.ingredient} → {item.alternative}
+                    </h3>
+                    <p>{item.effect}</p>
+                  </div>
+                ))}
+              </section>
+            )}
+            <section class="prose-refined">
+              <>
+                <h2>Make ahead & store</h2>
+                <p>{learning.storage}</p>
+              </>
+            </section>
+            <section id="recipe-sources" class="prose-refined source-notes">
+              <RecipeSources sources={learning.sources} />
+              <p class="review-status">
+                {learning.review.status === 'kitchen-tested'
+                  ? 'Kitchen-tested'
+                  : 'Editorially reviewed'}{' '}
+                · <time datetime={learning.review.date}>{learning.review.date}</time>
+                {learning.review.status === 'editorial-review' &&
+                  ' · Kitchen testing not yet recorded.'}
+              </p>
+              {learning.review.testNotes && <p>{learning.review.testNotes}</p>}
+              <a href={`${BASE}standards`}>How we review recipes →</a>
+            </section>
+          </>
+        )
+      }
+      {
+        recipe.data.pairsWith?.length > 0 && (
+          <section class="prose-refined pairings">
+            <>
+              <h2>Build the meal</h2>
+              <ul>
+                {recipe.data.pairsWith
+                  .filter((slug) => recipeTitles.has(slug))
+                  .map((slug) => (
+                    <li>
+                      <a href={`${BASE}recipes/${slug}`}>{recipeTitles.get(slug)}</a>
+                    </li>
+                  ))}
+              </ul>
+            </>
+          </section>
+        )
+      }
+      {
+        !learning && (
+          <div class="collection-note">
+            <>
+              <p>
+                This recipe is part of the family collection. Detailed technique review and kitchen
+                testing are not yet documented.
+              </p>
+              <a href={`${BASE}standards`}>Our recipe standard →</a>
+            </>
+          </div>
+        )
+      }
+      {
+        recipe.data.source && (
+          <p class="attribution">
+            Recipe source:{' '}
+            {recipe.data.sourceUrl ? (
+              <a href={recipe.data.sourceUrl}>{recipe.data.source}</a>
+            ) : (
+              recipe.data.source
+            )}
+          </p>
+        )
+      }
     </div>
   </article>
 </Layout>
+<script src="../../lib/recipe-page.ts"></script>
+<style is:global>
+  .recipe-toolbar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 1rem 0;
+    margin: 1.5rem 0 2rem;
+    border-block: 1px solid var(--border-subtle);
+    position: sticky;
+    top: 64px;
+    z-index: 15;
+    background: var(--bg-deep);
+  }
+  .jump-links,
+  .recipe-actions {
+    display: flex;
+    align-items: center;
+    gap: 0.65rem;
+    flex-wrap: wrap;
+  }
+  .jump-links a {
+    font-size: 0.8rem;
+    padding: 0.6rem 0.4rem;
+    color: var(--text-secondary);
+  }
+  .recipe-actions button {
+    min-height: 44px;
+    padding: 0.6rem 1rem;
+    font-size: 0.8rem;
+    border: 1px solid var(--border-emphasis);
+    border-radius: 4px;
+  }
+  #cook-mode-toggle {
+    background: var(--accent-gold);
+    color: var(--bg-deep);
+    font-weight: 600;
+  }
+  .recipe-body {
+    display: grid;
+    grid-template-columns: minmax(230px, 0.8fr) minmax(0, 1.6fr);
+    gap: 3.5rem;
+  }
+  .ingredients-panel {
+    align-self: start;
+    padding: 1.4rem;
+    background: var(--bg-surface);
+    border: 1px solid var(--border-subtle);
+  }
+  .ingredients-panel h2 {
+    font:
+      500 2rem/1.2 'Cormorant Garamond',
+      Georgia,
+      serif;
+  }
+  .ingredient-list {
+    list-style: none;
+    padding: 0;
+  }
+  .ingredient-row {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.7rem;
+    font-size: 0.9rem;
+    line-height: 1.65;
+    padding: 0.65rem 0;
+    border-bottom: 1px solid var(--border-subtle);
+  }
+  .ingredient-row input {
+    width: 18px;
+    height: 18px;
+    flex-shrink: 0;
+    margin-top: 0.3rem;
+    accent-color: var(--accent-gold);
+    cursor: pointer;
+  }
+  .ingredient-row:has(input:checked) [data-ingredient-text] {
+    text-decoration: line-through;
+    color: var(--text-secondary);
+  }
+  .ingredient-divider {
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--accent-gold);
+    margin-top: 1.5rem;
+  }
+  .before-cooking {
+    margin-top: 2rem;
+  }
+  .before-cooking h3 {
+    font-size: 0.9rem;
+    font-weight: 600;
+  }
+  .before-cooking li {
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+    line-height: 1.7;
+    margin-top: 0.8rem;
+  }
+  .recipe-main {
+    min-width: 0;
+  }
+  .recipe-method ol > li {
+    padding-top: 0.5rem;
+    padding-bottom: 0.9rem;
+    border-bottom: 1px solid var(--border-subtle);
+  }
+  .recipe-method ol > li::before {
+    top: 0.5rem;
+  }
+  .checkpoint {
+    border-left: 2px solid var(--accent-gold-muted);
+    background: var(--bg-surface);
+    padding: 1rem 1.1rem;
+    margin: 1.3rem 0;
+  }
+  .checkpoint p {
+    margin-bottom: 0.6rem;
+  }
+  .checkpoint summary {
+    font-size: 0.82rem;
+    color: var(--accent-gold);
+    cursor: pointer;
+  }
+  .checkpoint details p {
+    margin: 0.75rem 0 0;
+    font-size: 0.85rem;
+  }
+  .troubleshooting {
+    margin-top: 3rem;
+  }
+  .troubleshooting h2 {
+    margin-top: 0.5rem;
+  }
+  .troubleshooting > details {
+    border-bottom: 1px solid var(--border-subtle);
+  }
+  .troubleshooting summary {
+    padding: 1rem 0;
+    cursor: pointer;
+    font-weight: 500;
+  }
+  .troubleshooting details p {
+    padding: 0 0.5rem;
+  }
+  .substitution {
+    margin-bottom: 1.3rem;
+  }
+  .source-notes,
+  .collection-note {
+    border-top: 1px solid var(--border-subtle);
+    margin-top: 2.5rem;
+    padding-top: 1rem;
+  }
+  .collection-note p,
+  .attribution {
+    color: var(--text-secondary);
+    font-size: 0.8rem;
+    line-height: 1.7;
+  }
+  .collection-note a,
+  .source-notes > a {
+    font-size: 0.8rem;
+    color: var(--accent-gold);
+  }
+  .review-status {
+    font-size: 0.75rem !important;
+  }
+  .step-check {
+    display: none;
+  }
+  .cook-mode-active .step-check {
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    accent-color: var(--accent-gold);
+    margin: 0 0.7rem 0.4rem 0;
+    vertical-align: middle;
+  }
+  .cook-mode-active .recipe-method ol > li {
+    font-size: 1.15rem;
+    line-height: 1.8;
+    padding-bottom: 1.5rem;
+  }
+  .cook-mode-active .ingredient-row {
+    font-size: 1rem;
+  }
+  .cook-mode-active .completed-step > .step-copy {
+    text-decoration: line-through;
+    color: var(--text-secondary);
+  }
+  .cook-progress {
+    margin-top: 1.5rem;
+    font-size: 0.8rem;
+  }
+  #reset-progress {
+    color: var(--accent-gold);
+    text-decoration: underline;
+    padding: 0.75rem 0;
+  }
+  #wake-status {
+    font-size: 0.7rem;
+    color: var(--text-secondary);
+  }
+  @media (max-width: 760px) {
+    .recipe-body {
+      grid-template-columns: 1fr;
+      gap: 2rem;
+    }
+    .recipe-toolbar {
+      top: 64px;
+      gap: 0.5rem;
+    }
+    .jump-links {
+      gap: 0.25rem;
+    }
+    .jump-links a {
+      padding: 0.4rem 0.2rem;
+      font-size: 0.75rem;
+    }
+    .recipe-actions button {
+      padding: 0.45rem 0.7rem;
+    }
+  }
+  @media print {
+    .recipe-toolbar,
+    .step-check,
+    .cook-progress,
+    #recipe-scaler,
+    .recipe-details,
+    .lesson-links {
+      display: none !important;
+    }
+    [data-recipe-header] {
+      display: block !important;
+    }
+    .recipe-body {
+      display: block;
+    }
+    .ingredients-panel {
+      margin-bottom: 1.5rem;
+      border: 1px solid #bbb;
+    }
+    .ingredient-row input {
+      display: none;
+    }
+    .ingredient-row:has(input:checked) [data-ingredient-text],
+    .completed-step > .step-copy {
+      text-decoration: none !important;
+      color: black !important;
+    }
+    .recipe-method ol > li,
+    .checkpoint {
+      break-inside: avoid;
+    }
+    .prose-refined,
+    .recipe-body,
+    .recipe-main {
+      break-inside: auto !important;
+    }
+    details > * {
+      display: block !important;
+    }
+  }
+</style>

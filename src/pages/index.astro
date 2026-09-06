@@ -1,12 +1,19 @@
 ---
+import DishArt from '../components/DishArt.astro';
 import Layout from '../layouts/Layout.astro';
 import SearchBar from '../components/SearchBar.astro';
 import FilterPanel from '../components/FilterPanel.astro';
 import RecipeCard from '../components/RecipeCard.astro';
 import { getCollection } from 'astro:content';
+import { getTechniquesForRecipe } from '../data/techniques';
 import type { RecipeSearchItem } from '../lib/fuzzySearch';
 
-const recipes = await getCollection('recipes');
+const recipes = (await getCollection('recipes')).filter(
+  (r) => !['no-cook-playdough', 'play-dough'].includes(r.slug)
+);
+const BASE = import.meta.env.BASE_URL;
+const featuredSlugs = ['authentic-roman-alfredo', 'crispy-parmesan-roasted-broccoli', 'dal-tadka'];
+const featured = featuredSlugs.map((slug) => recipes.find((r) => r.slug === slug)).filter(Boolean);
 recipes.sort((a, b) => a.data.title.localeCompare(b.data.title));
 
 // Prepare search index data - convert recipes to searchable format
@@ -16,71 +23,142 @@ const searchIndexData: RecipeSearchItem[] = recipes.map((recipe) => ({
   cuisines: recipe.data.cuisines,
   ingredients: recipe.data.ingredients,
   flavorProfile: recipe.data.flavorProfile,
-  cookingMethods: recipe.data.cookingMethods,
+  cookingMethods: [
+    ...(recipe.data.cookingMethods || []),
+    ...getTechniquesForRecipe(recipe).map((t) => t.title),
+    ...(recipe.data.learning ? [recipe.data.learning.focus] : []),
+  ],
   origin: recipe.data.origin,
 }));
 ---
 
-<Layout title="Mise | Recipe Codex">
-  <!-- Page Header -->
-  <div class="flex flex-col md:flex-row justify-between items-start md:items-end mb-10 gap-6">
-    <div>
-      <h1
-        class="text-3xl font-display font-semibold tracking-tight"
-        style="color: var(--text-primary);"
-      >
-        The Codex
-      </h1>
-      <p class="mt-1.5 text-sm" style="color: var(--text-secondary);">
-        Exploring <span style="color: var(--accent-gold);">{recipes.length}</span> family recipes.
-      </p>
+<Layout
+  title="Mise | Cook with understanding"
+  description="A recipe collection and learning kitchen. Explore the science, recognize the cues, and understand what makes your cooking work."
+>
+  <section class="home-hero" aria-labelledby="home-title">
+    <div class="hero-copy">
+      <p class="eyebrow">A collection. A practice. A better cook.</p><h1 id="home-title">
+        Good food starts<br />with a recipe.<br /><em>Great cooking<br />starts with why.</em>
+      </h1><p class="hero-description">
+        Learn what the heat is doing. Know what to look for. Find the confidence to make a recipe
+        your own.
+      </p><div class="hero-actions">
+        <a class="primary-link" href="#collection"
+          >Find your next recipe <span aria-hidden="true">↓</span></a
+        ><a href={`${BASE}learn`}>Explore the learning kitchen ↗</a>
+      </div>
     </div>
-    <div class="w-full md:w-80">
-      <SearchBar id="searchInput" placeholder="Search by name or ingredient..." />
-    </div>
-  </div>
-
-  <!-- Filter and Sort UI -->
-  <FilterPanel {recipes} />
-
-  <!-- Recipe Grid -->
-  <div id="recipeGrid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-    {recipes.map((recipe) => <RecipeCard {recipe} />)}
-  </div>
-
-  <!-- No Results State -->
-  <div id="noResults" class="hidden text-center py-20">
-    <div
-      class="inline-flex items-center justify-center w-16 h-16 rounded-full mb-4"
-      style="background: var(--bg-elevated);"
+    <a
+      class="hero-study"
+      href={`${BASE}learn/emulsions`}
+      aria-label="Inside a silky sauce: explore the emulsion lesson"
     >
-      <svg
-        class="w-8 h-8"
-        style="color: var(--text-tertiary);"
-        fill="none"
-        viewBox="0 0 24 24"
-        stroke="currentColor"
-      >
-        <path
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-width="2"
-          d="M9.172 16.172a4 4 0 015.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-        ></path>
-      </svg>
+      <div class="study-header">
+        <span class="eyebrow">A closer look · 01</span><span class="study-arrow" aria-hidden="true"
+          >↗</span
+        >
+      </div>
+      <DishArt slug="authentic-roman-alfredo" eager />
+      <div class="study-caption">
+        <p class="eyebrow">Fat + water + movement</p><h2>Inside a silky sauce.</h2><p>
+          Butter and water want to separate.<br />Your technique brings them together.
+        </p><span class="study-foot">Understand emulsions <span aria-hidden="true">→</span></span>
+      </div>
+    </a>
+  </section>
+  <section class="featured-section" aria-labelledby="featured-title">
+    <div class="section-heading">
+      <div>
+        <p class="eyebrow">Cook something. Learn something.</p><h2 id="featured-title">
+          Three recipes, three useful lessons.
+        </h2>
+      </div><a href={`${BASE}learn`}>All lessons ↗</a>
+    </div><div class="featured-grid">
+      {
+        featured.map((recipe, i) => (
+          <a class="featured-recipe" href={`${BASE}recipes/${recipe.slug}`}>
+            <>
+              <>
+                <DishArt slug={recipe.slug} />
+                <span class="feature-number">0{i + 1}</span>
+              </>
+              <p class="eyebrow">{recipe.data.learning.focus}</p>
+              <h3>{recipe.data.title}</h3>
+              <p>{recipe.data.learning.outcome}</p>
+              <span class="feature-meta">
+                {recipe.data.totalTime} <span aria-hidden="true">·</span> {recipe.data.difficulty}{' '}
+                <span aria-hidden="true">↗</span>
+              </span>
+            </>
+          </a>
+        ))
+      }
     </div>
-    <h3 class="text-lg font-medium" style="color: var(--text-primary);">No recipes found</h3>
-    <p class="mt-1" style="color: var(--text-secondary);">
-      Try adjusting your search terms or filters.
+  </section>
+  <section id="collection" aria-labelledby="collection-title">
+    <div class="collection-heading">
+      <div>
+        <p class="eyebrow">The recipe collection</p><h2 id="collection-title">
+          What will you cook next?
+        </h2><p>
+          {recipes.length} recipes to explore. Search an ingredient, a dish, or a technique.
+        </p>
+      </div><div class="collection-search">
+        <SearchBar id="searchInput" placeholder="Try chicken, lentils, or browning…" />
+      </div>
+    </div>
+    <!-- Filter and Sort UI -->
+    <FilterPanel {recipes} />
+
+    <p
+      id="result-count"
+      role="status"
+      aria-live="polite"
+      class="text-sm mb-4"
+      style="color:var(--text-secondary)"
+    >
+      {recipes.length} recipes
     </p>
-    <button
-      id="clearSearch"
-      class="mt-4 text-sm font-medium hover:underline"
-      style="color: var(--accent-gold);"
-    >
-      Clear search
-    </button>
-  </div>
+    <!-- Recipe Grid -->
+    <div id="recipeGrid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+      {recipes.map((recipe) => <RecipeCard {recipe} />)}
+    </div>
+
+    <!-- No Results State -->
+    <div id="noResults" class="hidden text-center py-20">
+      <div
+        class="inline-flex items-center justify-center w-16 h-16 rounded-full mb-4"
+        style="background: var(--bg-elevated);"
+      >
+        <svg
+          class="w-8 h-8"
+          style="color: var(--text-tertiary);"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M9.172 16.172a4 4 0 015.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+          ></path>
+        </svg>
+      </div>
+      <h3 class="text-lg font-medium" style="color: var(--text-primary);">No recipes found</h3>
+      <p class="mt-1" style="color: var(--text-secondary);">
+        Try adjusting your search terms or filters.
+      </p>
+      <button
+        id="clearSearch"
+        class="mt-4 text-sm font-medium hover:underline"
+        style="color: var(--accent-gold);"
+      >
+        Reset search and filters
+      </button>
+    </div>
+  </section>
 </Layout>
 
 <script define:vars={{ searchIndexData }}>
@@ -89,6 +167,7 @@ const searchIndexData: RecipeSearchItem[] = recipes.map((recipe) => ({
 
 <script>
   import Fuse from 'fuse.js';
+  import { timeToMinutes } from '../lib/time.mjs';
 
   // Initialize fuzzy search index from server-injected data
   const searchIndexData = (window as any).__searchIndexData;
@@ -236,13 +315,31 @@ const searchIndexData: RecipeSearchItem[] = recipes.map((recipe) => ({
 
     // Apply sorting
     if (state.sortMode === 'prepTime') {
-      visibleCards.sort((a, b) => parseInt(a.prepTime || '0') - parseInt(b.prepTime || '0'));
+      visibleCards.sort(
+        (a, b) => (timeToMinutes(a.prepTime) ?? Infinity) - (timeToMinutes(b.prepTime) ?? Infinity)
+      );
     } else if (state.sortMode === 'difficulty') {
-      const diffOrder: Record<string, number> = { easy: 0, intermediate: 1, hard: 2 };
+      const diffOrder: Record<string, number> = {
+        easy: 0,
+        intermediate: 1,
+        medium: 1,
+        hard: 2,
+        advanced: 2,
+      };
       visibleCards.sort(
         (a, b) => (diffOrder[a.difficulty] ?? 99) - (diffOrder[b.difficulty] ?? 99)
       );
     }
+
+    if (!state.sortMode || state.sortMode === 'title')
+      visibleCards.sort((a, b) =>
+        (a.card.querySelector('h2')?.textContent || '').localeCompare(
+          b.card.querySelector('h2')?.textContent || ''
+        )
+      );
+    const count = document.getElementById('result-count');
+    if (count)
+      count.textContent = `${visibleCards.length} recipes${query.trim() ? ` matching “${query.trim()}”` : ''}`;
 
     // Reorder cards in grid
     const grid = document.getElementById('recipeGrid');
@@ -290,6 +387,7 @@ const searchIndexData: RecipeSearchItem[] = recipes.map((recipe) => ({
   // Clear search button
   clearSearchBtn?.addEventListener('click', () => {
     if (searchInput) searchInput.value = '';
+    document.getElementById('resetFilters')?.click();
     applyFiltersAndSort();
     searchInput?.focus();
   });
@@ -299,3 +397,215 @@ const searchIndexData: RecipeSearchItem[] = recipes.map((recipe) => ({
   (window as any).updateFilterState?.();
   applyFiltersAndSort();
 </script>
+
+<style>
+  .home-hero {
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+    gap: 3rem;
+    padding: 1.5rem 0 4.5rem;
+    align-items: center;
+  }
+  h1 {
+    font:
+      500 clamp(3.1rem, 5.5vw, 5.3rem)/0.99 'Cormorant Garamond',
+      Georgia,
+      serif;
+    letter-spacing: -0.035em;
+    margin: 1.7rem 0;
+  }
+  h1 em {
+    color: var(--accent-gold);
+    font-weight: 400;
+  }
+  .hero-description {
+    max-width: 365px;
+    color: var(--text-secondary);
+    line-height: 1.85;
+    font-size: 0.95rem;
+  }
+  .hero-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.3rem;
+    align-items: center;
+    margin-top: 2rem;
+    font-size: 0.78rem;
+  }
+  .primary-link {
+    background: var(--accent-gold);
+    color: var(--bg-deep);
+    padding: 1rem 1.2rem;
+    display: flex;
+    gap: 1rem;
+    font-weight: 600;
+    border-radius: 3px;
+  }
+  .hero-study {
+    background: var(--bg-surface);
+    border: 1px solid var(--border-emphasis);
+    display: block;
+    padding: 1.5rem 1.8rem 2rem;
+    position: relative;
+  }
+  .hero-study:hover {
+    border-color: var(--accent-gold);
+  }
+  .study-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .study-arrow {
+    color: var(--accent-gold);
+    font-size: 1.3rem;
+  }
+  .study-caption {
+    border-top: 1px solid var(--border-emphasis);
+    padding-top: 1.6rem;
+  }
+  .study-caption h2 {
+    font:
+      500 2.5rem/1.1 'Cormorant Garamond',
+      Georgia,
+      serif;
+    margin: 0.8rem 0;
+  }
+  .study-caption > p:not(.eyebrow) {
+    color: var(--text-secondary);
+    font-size: 0.85rem;
+    line-height: 1.8;
+  }
+  .study-foot {
+    display: flex;
+    justify-content: space-between;
+    color: var(--accent-gold);
+    font-size: 0.75rem;
+    margin-top: 1.5rem;
+  }
+  .section-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  .section-heading h2,
+  .collection-heading h2 {
+    font:
+      500 clamp(2rem, 3vw, 2.6rem)/1.15 'Cormorant Garamond',
+      Georgia,
+      serif;
+    margin: 0.6rem 0;
+  }
+  .section-heading > a {
+    color: var(--accent-gold);
+    font-size: 0.8rem;
+    white-space: nowrap;
+  }
+  .featured-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    border: 1px solid var(--border-subtle);
+  }
+  .featured-recipe {
+    display: flex;
+    flex-direction: column;
+    padding: 1.6rem;
+    background: var(--bg-surface);
+  }
+  .featured-recipe + .featured-recipe {
+    border-left: 1px solid var(--border-subtle);
+  }
+  .featured-recipe:hover {
+    background: var(--bg-elevated);
+  }
+  .feature-number {
+    font:
+      500 2rem 'Cormorant Garamond',
+      Georgia,
+      serif;
+    color: var(--text-tertiary);
+    margin-bottom: 1.5rem;
+  }
+  .featured-recipe h3 {
+    font:
+      500 1.75rem/1.15 'Cormorant Garamond',
+      Georgia,
+      serif;
+    margin: 0.8rem 0;
+  }
+  .featured-recipe > p:not(.eyebrow) {
+    color: var(--text-secondary);
+    font-size: 0.85rem;
+    line-height: 1.7;
+  }
+  .feature-meta {
+    display: flex;
+    gap: 0.6rem;
+    font-size: 0.72rem;
+    color: var(--accent-gold);
+    margin-top: auto;
+    padding-top: 1.5rem;
+  }
+  .collection-heading {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    gap: 2rem;
+    padding-top: 4.5rem;
+    margin-bottom: 1.8rem;
+  }
+  .collection-heading p:not(.eyebrow) {
+    color: var(--text-secondary);
+    font-size: 0.85rem;
+    line-height: 1.7;
+  }
+  .collection-search {
+    width: 350px;
+    max-width: 100%;
+    flex-shrink: 0;
+  }
+  @media (max-width: 850px) {
+    .home-hero {
+      gap: 2rem;
+      grid-template-columns: 1fr 1fr;
+    }
+    .hero-study {
+      padding: 1.2rem;
+    }
+    .collection-heading {
+      flex-direction: column;
+      align-items: stretch;
+    }
+    .collection-search {
+      width: 100%;
+    }
+  }
+  @media (max-width: 640px) {
+    .home-hero {
+      grid-template-columns: 1fr;
+      padding-top: 0.5rem;
+      gap: 2.5rem;
+    }
+    h1 {
+      font-size: 3.8rem;
+    }
+    .hero-study {
+      padding: 1.5rem;
+    }
+    .featured-grid {
+      grid-template-columns: 1fr;
+    }
+    .featured-recipe + .featured-recipe {
+      border-left: 0;
+      border-top: 1px solid var(--border-subtle);
+    }
+    .section-heading {
+      align-items: start;
+    }
+    .feature-number {
+      margin-bottom: 0.8rem;
+    }
+  }
+</style>

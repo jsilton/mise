@@ -21,7 +21,7 @@ cookTime: 20 min
 totalTime: 35 min
 servings: '4'
 pairsWith:
-  - greek-salad
+  - greek-village-salad
   - cilantro-lime-rice
   - mexican-street-corn-salad
 ingredients:

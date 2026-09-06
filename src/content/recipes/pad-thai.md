@@ -20,7 +20,6 @@ cookTime: 20 min
 totalTime: 60 min
 servings: '3'
 pairsWith:
-  - chinese-garlic-sauce-base
   - steamed-bok-choy-with-oyster-sauce
   - cantonese-wonton-broth
 ingredients:

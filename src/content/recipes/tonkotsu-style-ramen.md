@@ -38,7 +38,7 @@ equipment:
   - thermometer-optional
 pairsWith:
   - steamed-edamame
-  - sesame-cucumber-salad
+  - smashed-cucumber-salad
   - sesame-roasted-edamame
 ingredients:
   - '--- The Broth (6+ hours) ---'

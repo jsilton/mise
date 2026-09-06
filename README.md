@@ -165,3 +165,9 @@ The key to this dish is **Culinary Technique** through **The [Method Name]**.
 
 - [Everyday Arugula Salad](/mise/recipes/everyday-arugula-salad)
 ```
+
+## The learning kitchen
+
+Mise now connects recipes to public lessons in browning, emulsions, eggs, braising, stir-frying, starch, seasoning, and temperature. Reviewed recipes show preparation decisions, step-specific cues and explanations, troubleshooting, substitutions, storage, and direct sources. The public recipe standard distinguishes editorial review from documented kitchen testing.
+
+Read [the recipe development standard](docs/RECIPE_STANDARD.md). Run `npm test` and `npm run editorial-audit` for the new integrity checks and the full collection review queue. Automated checks are not a substitute for cooking the recipe.

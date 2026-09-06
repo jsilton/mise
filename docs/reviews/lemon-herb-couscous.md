@@ -1,0 +1,9 @@
+# Lemon and Herb Instant Couscous: individual editorial review
+
+Date: 2026-09-06. Status: editorial review; no physical kitchen test recorded.
+
+Read the complete original and compared it with individually reviewed Garlic Butter Pearl Couscous. These are distinct products/methods and finishes, not duplicates: fine instant/off-heat/lemon-oil-herbs versus pearl/simmer/butter-garlic. Specify 250 g plain instant product and 420 ml broth derived from the directly accessed Near East whole-box 284 g/480 ml guidance. Brand-specific water and hydration instructions take priority; no universal ratio claim. No assumption that all couscous is a five-minute product. Removed the overly specific Greek origin and mandatory-herbs rhetoric while retaining a Mediterranean-inspired accompaniment.
+
+Lemon is two measured tablespoons, staged; oil two tablespoons; parsley and mint two each; zest, pepper, density-defined salt and 40 g optional feta are accounted for. Vegan status requires vegetable broth and no feta. Twenty minutes includes ten prep, heating, five-minute hydration and finishing. Sensory grain checks, measured dry correction and honest limits for mushy grains replace a timer-only guarantee. Four side portions are based on 250 g dry, not the inaccurate legacy nutrition. Storage separates herb quality from federal cooling/reheating guidance. Its Greek Night relationship was initially pending. The twenty-fourth batch reviewed the main and pita and completed the dinner: this couscous now appears as an explicit replacement for all four pitas, with its own longer dinner allowance and no optional feta because the salad already supplies cheese.
+
+Test product brands and the 420 ml/250 g starting ratio, lemon strength, feta/salt choice, parsley-to-mint balance, four-side yield and full elapsed time. No physical kitchen test recorded.

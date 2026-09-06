@@ -19,12 +19,12 @@ bestFor: [monday, tuesday, wednesday]
 
 ## Meal Overview
 
-Sheet pan fajitas are the ultimate weeknight recovery meal  -  minimal prep, one pan cleanup, maximum flavor. While the fajitas roast, you have time to cook rice and warm beans. Set out warm tortillas and let everyone build their own.
+Sheet pan fajitas are the ultimate weeknight recovery meal - minimal prep, one pan cleanup, maximum flavor. While the fajitas roast, you have time to cook rice and warm beans. Set out warm tortillas and let everyone build their own.
 
 ## Cooking Strategy
 
 1. **Preheat oven** to 425°F
-2. **Start rice** - cilantro lime rice takes 35 minutes
+2. **Start rice** - cilantro lime rice takes about 40 minutes including its covered rest
 3. **Prep fajitas** - slice peppers and onions, season chicken
 4. **Roast fajitas** - 20-25 minutes on sheet pan
 5. **Warm beans** - heat through with cumin and lime

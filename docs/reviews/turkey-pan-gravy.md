@@ -1,0 +1,15 @@
+# Turkey Pan Gravy: development and editorial review
+
+Date: 2026-09-06. Newly authored recipe extracted from the considered inline gravy in Thanksgiving Practice. Editorial review only; no physical kitchen test recorded.
+
+The eight-person dinner's previously completed gravy formulation is now needed by the twelve-person feast. Extracted it into one canonical recipe rather than copying ingredients and directions between menus. This is an additional recipe beyond the immutable 612-original baseline; the register now shows additional authored recipes separately. It is not counted as another reviewed original or as a duplicate consolidation.
+
+Retained thirty grams each butter/flour, 450 ml unsalted stock and thirty milliliters acceptable strained/defatted pan liquid or water, one-eighth teaspoon pepper, optional quarter-teaspoon fine salt and bounded sixty milliliters loosening water. The starting liquid is 480 ml, with approximately two cups finished gravy and eight quarter-cup condiment portions. Butter supplies roux fat; rendered roasting-pan fat is not added again. A thirty-gram clean rendered-fat alternative replaces butter, not supplements it. Stock is unsalted because brined-turkey pan liquid may be highly concentrated. Burned or bitter drippings are excluded, with the water option supporting an ahead-of-roast gravy.
+
+The method explicitly assesses fully cooked turkey pan liquid, separates fat, cooks a pale roux, adds stock gradually, and gently simmers ten to fifteen minutes before seasoning. Thirty minutes includes straining and defatting, not roasting a bird or making stock from scratch. Troubleshooting covers lumps, thickening during evaporation/holding, salt dilution and irreparable burned flavor. Explained the practical role of fat dispersing flour before hydration without claiming it removes salt. Storage distinguishes a brief measured hot hold from cooling and reheating. All quantities, source effects and allergens were individually considered.
+
+King Arthur Baking's indexed Make-Ahead Gravy text supports gradual stock additions and a spoon-coating simmer; direct opening returned a challenge, so no unseen content was relied on. Its different full formula is not represented as this recipe. FoodSafety.gov's four handling steps support holding, cooling and reheating. The formula itself comes from the prior meal's recorded editorial development.
+
+Updated the smaller dinner to declare and link one complete gravy batch, removing the duplicate inline ingredient/method sections. The feast uses one and a half batches with water replacing pan liquid so it can be made before the turkey finishes. This is an intentional service decision, not a promise that stock-based gravy is identical to a drippings-heavy one.
+
+Kitchen questions: actual two-cup yield, viscosity with flour brands and simmer strength, salinity at the restrained dripping dose, flavor of the stock-only option, rendered-fat substitution, larger-batch heating time and reheated texture. No physical test recorded.

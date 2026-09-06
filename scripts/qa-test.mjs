@@ -82,9 +82,37 @@ try {
   recordTest(testResult('Astro build succeeds', false, error.message));
 }
 
+try {
+  execSync('node scripts/check-recipe-aliases.mjs', { cwd: process.cwd(), encoding: 'utf-8' });
+  recordTest(testResult('Consolidated recipes preserve original coverage and working links', true));
+} catch (error) {
+  recordTest(
+    testResult(
+      'Consolidated recipes preserve original coverage and working links',
+      false,
+      error.message
+    )
+  );
+}
+
 // ============================================================================
 // RECIPE VALIDATION
 // ============================================================================
+
+try {
+  execSync('node scripts/check-meal-reviews.mjs', { cwd: process.cwd(), encoding: 'utf-8' });
+  recordTest(
+    testResult('Reviewed meals have reviewed components, records, and elapsed time', true)
+  );
+} catch (error) {
+  recordTest(
+    testResult(
+      'Reviewed meals have reviewed components, records, and elapsed time',
+      false,
+      error.message
+    )
+  );
+}
 
 section('2. RECIPE VALIDATION');
 
@@ -165,11 +193,14 @@ const recipeContent = fs.readFileSync(
 recordTest(testResult('Recipe page imports RecipeHeader', recipeContent.includes('RecipeHeader')));
 
 // Check components have proper structure
-const tagBadgeContent = fs.readFileSync(
-  path.join(process.cwd(), 'src/components/TagBadge.astro'),
-  'utf-8'
+const renderedHome = fs.readFileSync(path.join(process.cwd(), 'dist/index.html'), 'utf-8');
+recordTest(
+  testResult(
+    'Recipe cards render cuisine and difficulty tags',
+    /class="[^"]*\btag-cuisine\b/.test(renderedHome) &&
+      /class="[^"]*\btag-difficulty\b/.test(renderedHome)
+  )
 );
-recordTest(testResult('TagBadge has category mapping', tagBadgeContent.includes('categoryColors')));
 
 // ============================================================================
 // CONTENT QUALITY CHECKS
@@ -309,7 +340,7 @@ if (percentage === 100) {
   process.exit(0);
 } else if (percentage >= 80) {
   log(`\n⚠ Most checks passed, review failures above.`, 'yellow');
-  process.exit(0);
+  process.exit(1);
 } else {
   log(`\n✗ Fix failures before deploying.`, 'red');
   process.exit(1);

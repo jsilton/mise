@@ -3,7 +3,7 @@ title: Salmon Rice Bowl
 template: bowl
 main: honey-sriracha-salmon-bowls
 base: steamed-white-rice
-sides: [sesame-cucumber-salad, steamed-edamame]
+sides: [smashed-cucumber-salad, steamed-edamame]
 totalPrepTime: 10 min
 totalCookTime: 15 min
 totalActiveTime: 20 min

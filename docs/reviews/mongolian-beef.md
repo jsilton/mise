@@ -1,0 +1,13 @@
+# Mongolian Beef with Ginger and Scallions: individual editorial review
+
+Date: 2026-09-06. Status: editorial review; no physical kitchen test recorded.
+
+Read the full original including the chicken double-dredge variation. The original 680 g beef had 120 ml soy plus about 100 g brown sugar with no water, followed by five-minute syrup reduction. Reduced to 60 ml reduced-sodium soy, 40 g sugar and 120 ml water, with a separate small slurry added only as needed. Three tablespoons coating starch are measured; no extra double dredge is assumed. The formula remains an editorial development proposal, not a tested optimal sweetness.
+
+Specified 1/4-inch across-grain strips, three 225 g pan batches, three tablespoons frying oil plus a separate teaspoon aromatics oil, 80 g scallions divided white/green, and two optional dried chilies rather than a fixed five. Shimmering oil replaces an indiscriminate smoking instruction. Ginger/chilies precede garlic/scallion whites, and wet sauce follows before they burn. Loose starch and blackened residue are removed. The sauce thickens by starch hydration; no caramelization-at-a-wet-simmer or guaranteed permanent crispness claim is made. Dry dusting is distinguished from velveting.
+
+Beef has a 145°F/three-minute endpoint and fine-probe placement; chicken retains the same single coating and explicit 165°F checks with additional time as needed. No fixed one-to-two-minute chicken safety assumption remains. Forty minutes counts slicing, three rounds, sauce and rest. Legacy nutrition claiming 6.5 g protein for a beef main removed. Chinese-American framing avoids invented Mongolian origin. Plain rice, lighter bok choy or cucumber replace a list that silently treated all rice types and sauces alike.
+
+Bill Leung's primary source supports separate pan browning, staged aromatics and slurry finish; this recipe does not reproduce its longer baking-soda marinade, deeper oil, or ingredient formula. Federal endpoints/storage are separate sources. Test three-batch skillet capacity, flank/sirloin thickness and probe access, sugar/soy brand balance, slurry need after coating carryover, chicken variation, resting texture and forty-minute timing. No physical kitchen test recorded.
+
+The broad low-temperature poultry rule matches the beef temperatures because a chicken substitution is also present. A documented per-recipe exemption follows this full context review: all 145°F/63°C instructions refer to beef, the final method requires a three-minute wait, and chicken explicitly requires 165°F/74°C. This exemption does not validate an alternative low-temperature poultry process; revisit it whenever protein/endpoints change.

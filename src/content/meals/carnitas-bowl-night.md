@@ -19,12 +19,12 @@ bestFor: [saturday, sunday]
 
 ## Meal Overview
 
-Slow-cooked pork carnitas  -  tender, juicy, with crispy edges  -  piled over cilantro-lime rice with black beans and fresh guacamole. This is a build-your-own bowl situation that feeds a crowd with minimal active work.
+Slow-cooked pork carnitas - tender, juicy, with crispy edges - piled over cilantro-lime rice with black beans and fresh guacamole. This is a build-your-own bowl situation that feeds a crowd with minimal active work.
 
 ## Cooking Strategy
 
 1. **Morning: start carnitas** - season pork, slow cook 4-6 hours
-2. **Cook rice** - cilantro-lime rice, 35 minutes
+2. **Cook rice** - cilantro-lime rice, about 40 minutes including its covered rest
 3. **Warm beans** - season with cumin and lime
 4. **Crisp carnitas** - shred, then broil for crispy edges
 5. **Make guacamole** - fresh, just before serving

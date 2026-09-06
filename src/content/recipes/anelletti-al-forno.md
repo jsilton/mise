@@ -44,9 +44,7 @@ ingredients:
   - '1 (28 oz) can Whole Peeled Tomatoes, crushed'
   - 1/2 cup Dry Red Wine
   - 1/2 tsp Cinnamon + Pinch of Nutmeg
-  - >-
-    1 Eggplant, cubed and fried ([Garlic
-    Sauce](/mise/recipes/chinese-garlic-sauce-base) style technique)
+  - '1 Eggplant, cubed and fried'
   - 3/4 cup Frozen Peas
   - '12 oz Provolone or Caciocavallo, cubed'
   - '1/2 cup Parmesan, grated'

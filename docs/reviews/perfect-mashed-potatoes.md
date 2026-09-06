@@ -1,0 +1,15 @@
+# Cream Cheese Mashed Potatoes: individual editorial review
+
+Date: 2026-09-06. Editorial review only; no physical kitchen test recorded.
+
+Read the entire recipe, Miso-Mashed Potatoes and the two holiday meal contexts. Cream cheese is a defining ingredient, so it is named in the title rather than hidden under a generic claim of perfection. Miso mash is a meaningful different seasoning treatment and remains pending; its broad Japanese-staple and cold-dairy science claims are not endorsed by this comparison.
+
+Clarified 1360 g peeled/trimmed Yukon Gold potatoes, approximately 1.6 kg shopping weight, even one-inch pieces, a roughly three-liter cold-water starting amount and twelve grams salt allocated only to that cooking water. Defined 75 g butter and 115 g cream cheese, increasing initial half-and-half from about 80 to 180 ml with a bounded further 60 ml for a soft mash. This dairy level is an editorial texture decision for this potato weight; no kitchen test or universal absorption claim is made. Finishing salt is separate, named by type and divided after tasting; pepper is half a teaspoon. Removed the unused full lemon and unlisted extra butter finish. Cream cheese supplies mild tang without automatically adding an entire lemon to potatoes.
+
+Replaced the electric mixer's supposedly exact sixty seconds with fully tender grains, a ricer or hand masher, and limited gentle folding. A short return to the warm pot removes clinging surface water without pretending the potatoes must lose every drop before starch can absorb dairy. Warm dairy helps preserve serving temperature and mixes readily; it is not said that cold milk instantly creates irreversible glue. Detailed troubleshooting distinguishes hard lumps, a stiff but unbroken mash and a gluey mash that cannot be repaired by further beating.
+
+Fifty-five minutes includes peeling, heating the large water volume, eighteen to twenty-two minutes simmering and final work, with warming dairy overlapped. Eight side portions and approximately six cups give the old cup yield a practical role. A measured short water-bath hold is limited to about thirty minutes for texture and above 140°F / 60°C; leftovers are cooled shallow and reheated to 165°F / 74°C. Removed implausible unverified nutrition and the misleading nutritious vibe. Default vegetarian/gluten-free tags follow the defined ingredients.
+
+Direct source https://potatogoodness.com/7-tips-for-the-best-mashed-potatoes/ supports variety, complete tenderness, ricer/masher choices and avoiding overworking. Its simplistic cold-dairy starch-retraction explanation was not repeated. USDA FSIS leftover guidance supports the measured holding, storage and reheating approach. The cream-cheese formula is developed from the repository source, not copied from the potato industry article.
+
+Kitchen questions: actual net shopping weight and six-cup yield, required dairy range, ricer versus masher texture, salt uptake from cooking water, time to heat this pot, gravy compatibility and texture after the thirty-minute hold and refrigerated reheat. No physical kitchen test recorded.

@@ -77,63 +77,9 @@ const validDietaryTags = dietary.filter((tag) => tag in dietaryClassMap);
 }
 
 <style>
-  .dietary-vegan {
-    background-color: rgba(16, 185, 129, 0.12);
-    color: #6ee7b7;
-    border-color: rgba(16, 185, 129, 0.2);
-  }
-
-  .dietary-vegetarian {
-    background-color: rgba(132, 204, 22, 0.12);
-    color: #bef264;
-    border-color: rgba(132, 204, 22, 0.2);
-  }
-
-  .dietary-gluten-free {
-    background-color: rgba(59, 130, 246, 0.12);
-    color: #93c5fd;
-    border-color: rgba(59, 130, 246, 0.2);
-  }
-
-  .dietary-dairy-free {
-    background-color: rgba(99, 102, 241, 0.12);
-    color: #a5b4fc;
-    border-color: rgba(99, 102, 241, 0.2);
-  }
-
-  .dietary-nut-free {
-    background-color: rgba(236, 72, 153, 0.12);
-    color: #f9a8d4;
-    border-color: rgba(236, 72, 153, 0.2);
-  }
-
-  .dietary-low-carb {
-    background-color: rgba(249, 115, 22, 0.12);
-    color: #fdba74;
-    border-color: rgba(249, 115, 22, 0.2);
-  }
-
-  .dietary-low-sugar {
-    background-color: rgba(244, 63, 94, 0.12);
-    color: #fda4af;
-    border-color: rgba(244, 63, 94, 0.2);
-  }
-
-  .dietary-keto {
-    background-color: rgba(245, 158, 11, 0.12);
-    color: #fcd34d;
-    border-color: rgba(245, 158, 11, 0.2);
-  }
-
-  .dietary-high-protein {
-    background-color: rgba(239, 68, 68, 0.12);
-    color: #fca5a5;
-    border-color: rgba(239, 68, 68, 0.2);
-  }
-
-  .dietary-whole30-friendly {
-    background-color: rgba(20, 184, 166, 0.12);
-    color: #5eead4;
-    border-color: rgba(20, 184, 166, 0.2);
+  span[class*='dietary-'] {
+    background: var(--bg-elevated);
+    color: var(--accent);
+    border-color: var(--border-subtle);
   }
 </style>

@@ -3,37 +3,48 @@ title: Shawarma Plate
 template: plate
 main: chicken-shawarma
 base: basmati-rice
-sides: [roasted-cauliflower-with-tahini]
 salad: fattoush-salad
-sauce: tahini-sauce
-totalPrepTime: 25 min
-totalCookTime: 25 min
-totalActiveTime: 35 min
+totalPrepTime: 40 min
+totalCookTime: 40 min
+totalActiveTime: 1 hr
 overallDifficulty: intermediate
-cuisines: [Middle Eastern]
-occasions: [weeknight, entertaining]
-seasons: [spring, summer, fall, winter]
+cuisines:
+  - Middle Eastern
+occasions:
+  - weeknight
+  - entertaining
+seasons:
+  - spring
+  - summer
+  - fall
+  - winter
 nutritionalDensity: hearty
 servings: '4'
-bestFor: [tuesday, wednesday, thursday]
+bestFor:
+  - tuesday
+  - wednesday
+  - thursday
+review:
+  status: editorial-review
+  date: '2026-09-06'
+totalTime: About 5 hr including marination
 ---
 
 ## Meal Overview
 
-A Middle Eastern feast centered on warmly spiced chicken shawarma. The tahini sauce ties everything together  -  drizzled over the chicken and roasted cauliflower. The fattoush salad provides crispy, acidic contrast to the rich, spiced meat.
+Shawarma-style roast chicken with its tahini drizzle, a modest portion of rice, and fattoush make a complete plate for four. Prepare one chicken batch, **half a batch of the linked basmati rice**, and one fattoush batch. The chicken recipe already includes **1/2 cup prepared tahini sauce**; do not make a second whole sauce batch for this meal.
+
+Allow **about 5 hours including the four-hour chicken marinade**, or roughly one hour of dinner preparation when chicken is already marinated. Fattoush includes pita, so additional bread and a second roasted vegetable are not necessary for this plate.
 
 ## Cooking Strategy
 
-1. **Marinate chicken** - at least 30 minutes, overnight is ideal
-2. **Start rice** - 35 minutes, set and forget
-3. **Roast cauliflower** - 425°F while chicken cooks
-4. **Cook shawarma** - grill or pan-sear until charred
-5. **Make tahini sauce** - 5 minutes while chicken rests
-6. **Assemble fattoush** - toast pita, toss salad
-7. **Plate** - rice bed, sliced shawarma, cauliflower, salad alongside
+1. **Marinate ahead:** Refrigerate chicken in its spice mixture for 4–24 hours, following its recipe.
+2. **Crisp the salad pita first:** Use the fattoush recipe's 375°F oven to toast its pita, then cool it uncovered. Increase the oven to the chicken recipe's 425°F afterward.
+3. **Start rice:** Use half of the linked basmati recipe's ingredient quantities. Choose its plain variation, which lets the chicken supply the main warm-spice flavor. Allow its full covered resting period.
+4. **Roast chicken and prepare salad:** Roast the thighs to 165°F / 74°C. While they cook, chop fattoush vegetables, mix its dressing, and prepare the tahini sauce. Keep salad, dressing, and crisp pita separate.
+5. **Finish chicken:** Rest, slice, and briefly sear the cooked chicken in batches as directed. This recipe uses the oven and skillet; it is not a grill-only preparation.
+6. **Serve together:** Fluff rice. Toss fattoush with dressing and add the crisp pita at the last moment. Divide rice and chicken among four plates and use the chicken recipe's measured tahini drizzle.
 
 ## Notes
 
-- Marinate chicken overnight for the best flavor
-- Warm pita on the side turns this into a build-your-own wrap station
-- Pickled red onions are an excellent addition
+For a larger gathering, roasted cauliflower can be an additional dish, with extra preparation and oven time. The everyday plate above already includes protein, starch, fresh vegetables, and sauce.

@@ -1,0 +1,254 @@
+<div class="photo-lab">
+  <div class="upload-row">
+    <label class="upload-label" for="photo-input">Choose a dish photo</label><input
+      id="photo-input"
+      type="file"
+      accept="image/jpeg,image/png,image/webp"
+    /><p>Preview your own photo. It stays in this browser.</p>
+  </div>
+  <div class="photo-comparison" hidden>
+    <figure>
+      <img id="original-photo" alt="Your original uploaded image" /><figcaption>
+        Original image
+      </figcaption>
+    </figure>
+    <figure>
+      <img id="treated-photo" alt="Your photograph with the Mise soft paper treatment" /><figcaption
+      >
+        Mise treatment · Soft pigment, quiet color
+      </figcaption>
+    </figure>
+  </div>
+  <p id="photo-status" role="status" aria-live="polite">
+    Use a well-lit photograph with the whole dish in view. The treatment creates consistency; it
+    cannot repair a poorly lit or out-of-focus image.
+  </p>
+  <div class="photo-actions">
+    <button type="button" id="photo-download" disabled>Download treated photo</button><a
+      href={`${import.meta.env.BASE_URL}brand/mise-photo-treatment.svg`}
+      download>Get the reusable filter ↗</a>
+  </div>
+  <p class="export-note">
+    The download is a PNG, up to 1,600 pixels on its longest side, with your selected paper color.
+    Your original stays unchanged. The editable dish drawings above are separate SVG artwork.
+  </p>
+</div>
+<script>
+  import { photoOutputSize, photoStudySvg } from '../lib/photo-treatment.mjs';
+  const input = document.getElementById('photo-input') as HTMLInputElement;
+  const original = document.getElementById('original-photo') as HTMLImageElement;
+  const treated = document.getElementById('treated-photo') as HTMLImageElement;
+  const download = document.getElementById('photo-download') as HTMLButtonElement;
+  const status = document.getElementById('photo-status');
+  let version = 0;
+  let sourceUrl: string | null = null;
+  let previewUrl: string | null = null;
+  let current: { data: string; width: number; height: number; name: string } | null = null;
+  const say = (message: string) => {
+    if (status) status.textContent = message;
+  };
+  function clearPreview() {
+    current = null;
+    download.disabled = true;
+    original.removeAttribute('src');
+    treated.removeAttribute('src');
+    if (sourceUrl) URL.revokeObjectURL(sourceUrl);
+    if (previewUrl) URL.revokeObjectURL(previewUrl);
+    sourceUrl = previewUrl = null;
+    document.querySelector('.photo-comparison')?.setAttribute('hidden', '');
+  }
+  function showTreatment() {
+    if (!current) return;
+    download.disabled = true;
+    const paper = getComputedStyle(document.documentElement).getPropertyValue('--bg-deep').trim();
+    const svg = photoStudySvg(current.data, current.width, current.height, paper);
+    if (previewUrl) URL.revokeObjectURL(previewUrl);
+    previewUrl = URL.createObjectURL(new Blob([svg], { type: 'image/svg+xml' }));
+    const expected = previewUrl;
+    treated.onload = () => {
+      if (treated.src !== expected) return;
+      download.disabled = false;
+      say(
+        'Your treatment is ready. Compare it with the original, then download a PNG. Use the original to judge browning and doneness.'
+      );
+    };
+    treated.onerror = () => {
+      if (treated.src === expected)
+        say('The treatment could not be rendered in this browser. Your original is unchanged.');
+    };
+    treated.src = previewUrl;
+  }
+  input?.addEventListener('change', async () => {
+    const file = input.files?.[0];
+    if (!file) return;
+    const attempt = ++version;
+    clearPreview();
+    if (
+      !['image/jpeg', 'image/png', 'image/webp'].includes(file.type) ||
+      file.size > 15 * 1024 * 1024
+    ) {
+      say('Choose a JPEG, PNG, or WebP photo smaller than 15 MB.');
+      return;
+    }
+    say('Preparing your photo in this browser…');
+    sourceUrl = URL.createObjectURL(file);
+    const decoded = new Image();
+    decoded.src = sourceUrl;
+    try {
+      await decoded.decode();
+      if (attempt !== version) return;
+      const { width, height } = photoOutputSize(decoded.naturalWidth, decoded.naturalHeight);
+      const canvas = document.createElement('canvas');
+      canvas.width = width;
+      canvas.height = height;
+      const ctx = canvas.getContext('2d');
+      if (!ctx) throw new Error('Canvas unavailable');
+      ctx.drawImage(decoded, 0, 0, width, height);
+      current = {
+        data: canvas.toDataURL('image/png'),
+        width,
+        height,
+        name:
+          file.name
+            .replace(/\.[^.]+$/, '')
+            .replace(/[^a-z0-9_-]+/gi, '-')
+            .slice(0, 70) || 'dish',
+      };
+      original.src = sourceUrl!;
+      original.width = treated.width = width;
+      original.height = treated.height = height;
+      document.querySelector('.photo-comparison')?.removeAttribute('hidden');
+      showTreatment();
+    } catch {
+      if (attempt !== version) return;
+      clearPreview();
+      say('That image could not be opened. Try another JPEG, PNG, or WebP.');
+    }
+  });
+  download?.addEventListener('click', async () => {
+    if (!current || !treated.complete || download.disabled) return;
+    const selected = current,
+      expected = treated.src;
+    download.disabled = true;
+    try {
+      const canvas = document.createElement('canvas');
+      canvas.width = selected.width;
+      canvas.height = selected.height;
+      const ctx = canvas.getContext('2d');
+      if (!ctx) throw new Error('Canvas unavailable');
+      ctx.drawImage(treated, 0, 0);
+      const blob = await new Promise<Blob | null>((resolve) => canvas.toBlob(resolve, 'image/png'));
+      if (!blob) throw new Error('Export unavailable');
+      if (current !== selected || treated.src !== expected) return;
+      const url = URL.createObjectURL(blob);
+      const link = document.createElement('a');
+      link.href = url;
+      link.download = `${selected.name}-mise.png`;
+      link.click();
+      setTimeout(() => URL.revokeObjectURL(url), 10000);
+      say('Your treated PNG has been downloaded. The original photo remains unchanged.');
+    } catch {
+      if (current === selected)
+        say('The download could not be created. Try again or use the reusable filter.');
+    } finally {
+      if (current === selected && treated.src === expected) download.disabled = false;
+    }
+  });
+  const observer = new MutationObserver(() => showTreatment());
+  observer.observe(document.documentElement, {
+    attributes: true,
+    attributeFilter: ['data-palette'],
+  });
+  window.addEventListener('pagehide', () => {
+    ++version;
+    observer.disconnect();
+    clearPreview();
+    input.value = '';
+  });
+  window.addEventListener('pageshow', () =>
+    observer.observe(document.documentElement, {
+      attributes: true,
+      attributeFilter: ['data-palette'],
+    })
+  );
+</script>
+<style>
+  .photo-lab {
+    border: 1px solid var(--border-emphasis);
+    background: var(--bg-surface);
+    padding: 1.5rem;
+  }
+  .upload-row {
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+  }
+  .upload-label {
+    color: var(--accent);
+    font-weight: 600;
+  }
+  input {
+    max-width: 100%;
+    font-size: 0.8rem;
+  }
+  input::file-selector-button,
+  button {
+    background: var(--accent);
+    color: var(--bg-deep);
+    border: 0;
+    padding: 0.7rem 1rem;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  input::file-selector-button {
+    margin-right: 0.7rem;
+  }
+  button:disabled {
+    opacity: 0.45;
+    cursor: default;
+  }
+  .upload-row p,
+  #photo-status,
+  .export-note {
+    color: var(--text-secondary);
+    font-size: 0.8rem;
+    line-height: 1.7;
+    margin: 0.5rem 0;
+  }
+  .photo-comparison {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+  }
+  .photo-comparison[hidden] {
+    display: none;
+  }
+  .photo-actions {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 1rem 0;
+    font-size: 0.8rem;
+  }
+  .photo-actions a {
+    color: var(--accent);
+  }
+  img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  figcaption {
+    font-size: 0.72rem;
+    color: var(--text-secondary);
+    line-height: 1.6;
+    padding: 0.7rem 0;
+  }
+  @media (max-width: 600px) {
+    .photo-comparison {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

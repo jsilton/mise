@@ -18,13 +18,13 @@ bestFor: [saturday, sunday]
 
 ## Meal Overview
 
-Low and slow pulled pork that practically cooks itself  -  set it in the morning, feast by dinner. The cornbread is warm and buttery, the coleslaw adds crunch and acid, and the black beans round out the plate. Perfect for feeding a crowd with minimal effort.
+Low and slow pulled pork that practically cooks itself - set it in the morning, feast by dinner. The cornbread is warm and buttery, the coleslaw adds crunch and acid, and the black beans round out the plate. Perfect for feeding a crowd with minimal effort.
 
 ## Cooking Strategy
 
 1. **Morning: start pulled pork** - rub, place in slow cooker, 10-11 hours on low
 2. **1 hour before serving: make cornbread** - batter and bake
-3. **30 min before: prep coleslaw** - shred, dress, chill
+3. **Start coleslaw at least 75 minutes before serving** - prepare one full eight-portion batch, drain for 30 minutes, dress, then chill at least 30 minutes. Begin this before the cornbread stage.
 4. **20 min before: warm beans** - season and heat through
 5. **Chop pork** - pull out bone and fat, chop meat, toss in cooking juices
 6. **Serve family-style** - everything in serving dishes

@@ -1,0 +1,9 @@
+# Garlic-Ginger Eggplant: individual editorial review
+
+Date: 2026-09-06. Status: editorial review; no physical kitchen test recorded.
+
+Read all three garlic-eggplant originals and the tofu dish. Retain this URL as the simple garlic-ginger vegetable side and merge chinese-spicy-garlic-eggplant into it. Both aimed at glazed garlic/ginger eggplant with optional chili; a dry starch dusting and vague alternative chili condiments did not justify two independent recipes. The former spicy version had four tablespoons method oil missing from ingredients, no real center-tenderness check and a sauce component missing required metadata. Its coating-as-oil-barrier and permanent-crispness promises were removed. Preserve useful component reuse, optional heat and scallion finish in the canonical recipe.
+
+Specified 600 g eggplant, 1/2-inch-thick batons, two oil allocations totaling two tablespoons, and measured covered-cooking water. Garlic/ginger now arrive through 120 ml of the reviewed sauce, with its mushroom version required for vegan/vegetarian badges. No duplicate unmeasured aromatics. Pan browning and short steam precede light coating, with fork resistance as the endpoint. The normal forty-five minutes includes making half the sauce; thirty minutes is reserved for sauce already prepared. Storage follows the older sauce date where applicable.
+
+Compared the chili-bean/pork recipe: it has fermented broad-bean chili paste and ground-meat seasoning, so remains distinct. The tofu dish remains a separate protein-containing sweet-sour preparation. Removed automatic pairings with other strong soy-glazed mains in favor of plain rice and simpler components. Recipe variants do not claim universal regional authenticity. Test baton thickness, two-batch capacity, two-tablespoon oil, steam water, sauce-to-eggplant ratio, optional chili and total time from scratch. No physical kitchen test recorded.

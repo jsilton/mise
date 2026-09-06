@@ -4,9 +4,7 @@ origin: Japan
 difficulty: easy
 cookingMethods:
   - no-cook
-  - marinate
 dietary:
-  - vegetarian
   - vegan
   - gluten-free
 occasions:
@@ -17,9 +15,8 @@ occasions:
 flavorProfile:
   - acidic
   - sweet
-  - salty
+  - fresh
   - nutty
-  - aromatic
 cuisines:
   - Japanese
 role: side
@@ -29,57 +26,95 @@ seasons:
   - summer
   - year-round
 nutritionalDensity: light
-leftovers: good
+leftovers: poor
 advancePrep:
-  - marinate-overnight
+  - dressing-ahead
 equipment:
-  - mandoline
-  - bowl
+  - knife-or-mandoline-with-hand-guard
+  - colander
+  - mixing-bowl
 prepTime: 10 min
 cookTime: 0 min
-totalTime: 10 min
-servings: '4'
+totalTime: 25 min
+servings: 4 small side portions
 pairsWith:
-  - chinese-steamed-fish
   - chicken-katsu-curry
-  - coconut-jasmine-rice
+  - japanese-chicken-curry-kare-raisu
+  - chinese-steamed-fish
 ingredients:
-  - 2 large English Cucumbers (or 4 regular cucumbers)
-  - 1/2 tsp Kosher Salt
-  - '--- Vinegar Dressing (Amazu) ---'
-  - 3 tbsp Rice Vinegar
-  - 2 tbsp Sugar
-  - 1/2 tsp Kosher Salt
-  - '2 tsp Sesame Seeds (white, toasted)'
-  - 1/4 tsp Shichimi Togarashi (or a pinch of Red Chili Flakes)
-  - '1 tsp Ginger, finely grated (optional)'
-  - '1 tsp Dashi Stock powder (optional, for umami depth)'
-nutrition:
-  calories: 85
-  protein: 2.5
-  carbs: 16
-  fat: 2.5
-  fiber: 1.5
-  sugar: 10
-  sodium: 1260
+  - '400 g Japanese, Persian, or English cucumber, washed and ends trimmed'
+  - '1/2 tsp Diamond Crystal kosher salt or 1/4 tsp fine salt, for draining'
+  - '--- Dressing ---'
+  - 3 tbsp unseasoned rice vinegar
+  - 1 tbsp sugar
+  - 1/4 tsp Diamond Crystal kosher salt or 1/8 tsp fine salt
+  - 2 tsp toasted sesame seeds
+  - '1 tsp finely grated fresh ginger, optional'
+  - '1/4 tsp shichimi togarashi, optional; check the label'
+description: 'Thin cucumber slices in a light sweet-sour rice-vinegar dressing, finished with toasted sesame.'
+learning:
+  focus: Control cucumber water before adding the vinegar dressing
+  outcome: >-
+    Delicate, lightly crisp cucumber slices with a clear sweet-sour dressing that remains bright at
+    serving.
+  techniques:
+    - seasoning
+  before:
+    - >-
+      Weigh cucumber rather than substituting two large English cucumbers for four unspecified
+      garden cucumbers. Remove a tough peel or large watery seed core if needed, then weigh the
+      usable portion.
+    - >-
+      Use unseasoned rice vinegar. Seasoned vinegar already contains sugar and salt and changes this
+      balance.
+  checkpoints:
+    - step: 2
+      cue: 'Cucumber slices bend without becoming limp, and some liquid has drained after 10 minutes.'
+      why: A measured salt rest removes some water before it can dilute the dressing.
+    - step: 3
+      cue: No sugar grains remain in the dressing.
+      why: Undissolved sugar gives uneven sweetness instead of a consistent sweet-sour liquid.
+    - step: 4
+      cue: The dressed slices taste lightly sweet and distinctly vinegary after a short chill.
+      why: >-
+        Salting and draining reduce immediate dilution, but the salad continues to soften and
+        release water as it stands.
+  troubleshooting:
+    - problem: Dressing tastes weak
+      cause: Cucumber was not drained well or the usable weight was much larger than specified.
+      fix: >-
+        Lift slices from excess pooled liquid, then add a small amount of unseasoned rice vinegar to
+        taste. Next time weigh and drain as directed.
+    - problem: Salad is too sweet
+      cause: Seasoned vinegar was used or sugar was measured generously.
+      fix: >-
+        Add unseasoned rice vinegar gradually to rebalance. Check the bottle before making the next
+        batch.
+  timing: >-
+    About 25 minutes includes slicing, a 10-minute salt rest with dressing preparation alongside,
+    and a brief 5-minute chill after dressing.
+  storage: >-
+    Best on the day it is made. Refrigerate promptly at 40°F / 4°C or below; use within 1–2 days for
+    quality. Keep dressing separate from prepared cucumber for a few hours if assembling later. This
+    quick vinegar dressing is not a shelf-stable pickle.
+  sources:
+    - title: 'FoodSafety.gov — Clean, separate, cook, chill'
+      url: 'https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety'
+    - title: 'Noriko and Yuko — Sunomono: sliced cucumber and rice-vinegar dressing'
+      url: 'https://japanesecooking101.com/sunomono-cucumber-salad-recipe/'
+  review:
+    status: editorial-review
+    date: '2026-09-06'
 ---
 
 ## Chef's Note
 
-Sunomono is elegance distilled to its essence: sliced cucumbers in a clean rice vinegar dressing. The simplicity is the point. Slice the cucumbers very thin on a mandoline - the paper-thin pieces allow the dressing to penetrate completely, turning what could be watery and bland into something delicate and balanced. This salad pairs beautifully with rich or savory mains because the acidity and lightness cut through richness perfectly. It's a Japanese principle: balance the whole meal with one bright, acidic element.
+This small side offers acidity and a delicate cucumber texture beside a rich curry or fried cutlet. Salt and drain the slices before dressing, then serve soon. Unlike garlic-led smashed cucumber salad or gochugaru-seasoned oi muchim, this version centers on thin slices, rice vinegar, and a little sweetness. Sesame, optional ginger, and optional shichimi finish the dish.
 
 ## Directions
 
-1. **Prepare the Cucumbers:** Thinly slice the cucumbers on a mandoline into rounds about 1/8-inch thick. If using regular cucumbers (which have larger seeds), halve them lengthwise first, scoop out the seeds with a spoon, then slice. Sprinkle the slices with 1/2 tsp kosher salt and let sit for 5 minutes. This draws out excess water and seasons the cucumbers evenly.
-
-2. **Drain:** Gently squeeze the cucumber slices between your hands (don't crush them) to remove excess moisture. Transfer to a serving bowl or shallow dish.
-
-3. **Make the Dressing (Amazu):** In a small bowl, whisk together the rice vinegar, sugar, and salt until the sugar and salt dissolve completely. You should not see any granules. If using dashi powder, whisk it in now.
-
-4. **Combine:** Pour the vinegar dressing over the cucumbers and toss gently to coat evenly. Let sit for at least 5 minutes (or up to 30 minutes) so the cucumbers absorb the dressing.
-
-5. **Finish:** Just before serving, sprinkle the toasted sesame seeds and shichimi togarashi over the top. Add the grated ginger if using.
-
-6. **Serve:** Serve chilled or at room temperature. The cucumber will continue to release water as it sits, creating a light, flavorful broth at the bottom of the bowl - don't discard this when serving.
-
-7. **Make-Ahead:** This salad actually improves as it sits and the flavors meld. Make it up to 4 hours ahead and store in the refrigerator. Add the sesame seeds just before serving to keep them crispy.
+1. **Slice evenly:** Cut cucumber into rounds about 1–2 mm thick with a sharp knife or a mandoline with its hand guard. Halve and remove large seed cores first if necessary. Aim for thin intact slices, not crushed fragments.
+2. **Salt and drain:** Toss with the draining salt in a colander over a bowl. Leave for 10 minutes. Gently squeeze small handfuls to remove excess water without crushing, then transfer to a clean bowl. Discard the drained liquid.
+3. **Dissolve the dressing:** While the cucumber rests, stir rice vinegar, sugar, and dressing salt until fully dissolved. Stir in optional grated ginger.
+4. **Dress briefly:** Toss the drained cucumber with dressing and refrigerate for about 5 minutes. Taste a slice with some dressing; adjust with a little extra vinegar only if needed.
+5. **Finish:** Divide among four small side bowls, including a little dressing. Sprinkle with toasted sesame and optional shichimi just before serving. For preparation a few hours ahead, refrigerate cucumber and dressing separately and combine near serving.

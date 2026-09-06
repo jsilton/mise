@@ -1,0 +1,11 @@
+# Asian Stir-Fry Night: individual consolidation review
+
+Date: 2026-09-06. Status: consolidated after considered review; no physical meal test recorded.
+
+Read both full meal sources and all four complete component recipes: Mongolian Beef, Plain Short-Grain White Rice, Bok Choy with Garlic and Oyster Sauce, and Sigeumchi Namul. Both dinner records use the same main, base and bok choy. The duplicate adds spinach while its instructions mistakenly cook broccoli and call the spinach sautéed, even though the component is blanched, cooled and dressed. Its suggestion to swap spinach for bok choy repeats the bok choy already listed. The extra fried egg and automatic double rice were not included in the recipe portions or timing.
+
+Consolidate into mongolian-beef-night with its reviewed 680 g beef/300 g dry rice/600 g bok choy for four and 75-minute one-cook schedule. Preserve the useful spinach idea as a replacement side: one full 450 g raw spinach recipe yields four small banchan portions. It replaces, rather than silently adds to, the bok choy. Its twenty-minute blanch/cool/press/dress method fits during the rice soak and retains the conservative 75-minute planning allowance. The smaller vegetable yield and mixed Korean/Chinese-American menu are explicit. The default main/base/side quantities remain unchanged.
+
+The original thirty-five-minute rice expectation conflicts with the actual thirty-minute soak plus heating/cooking/rest. The canonical schedule includes those stages, beef's three batches and final wait, and the greens' preparation. Removing a second page avoids inconsistent scheduling and redundant menus without claiming the original could be cooked in twenty active minutes.
+
+Keep this original in the immutable 88-meal baseline and add a documented meal alias. The static redirect preserves site base, query and fragment, has an absolute canonical URL and noindex, and remains outside meal discovery and the sitemap. Update the Week 8 calendar to the retained meal; this link change does not constitute a review of that full calendar. No physical meal test recorded. Verify both green options, portion balance and full service timing in the kitchen before claiming reproducibility.

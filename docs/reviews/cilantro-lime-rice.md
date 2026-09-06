@@ -1,0 +1,15 @@
+# Cilantro-Lime Rice: individual editorial review
+
+Date: 2026-09-06. Editorial review only; no physical kitchen test recorded.
+
+Read the entire original ingredients, method and relationships, the reviewed coconut jasmine rice and honey-lime taco recipe, the pending honey-chipotle bowl, and the Carnitas Bowl Night and Sheet Pan Fajita Night plans. This is a fresh-finished white rice base, distinct from coconut rice and tomato/toasted Mexican rice. Kept the jasmine choice but described its Mexican-inspired use rather than asserting a national origin. No duplicate was consolidated.
+
+Defined the original cup as 180 g dry rice, retained a four-side-portion yield and specified roughly 2 1/2–3 cups cooked. Changed starting water from 360 to 300 ml for drained jasmine in a tight-lidded saucepan, with grain and free-liquid checks and a small hot-water correction. Mahatma's primary page explicitly permits this drier 1:1 1/4 volume option; Pailin Chongchitnant's indexed stovetop recipe also gives 1 1/4 cups. The latter direct page returned 402, so no unseen article detail is claimed. This is not a universal ratio for every brand, pot, cooker or batch size. The 180 g cup is consistent with Mahatma's 45 g quarter-cup, but weighing remains the default.
+
+Reduced unspecified one-teaspoon salt to named 1/2 tsp Diamond Crystal or 1/4 tsp fine salt, with water as the default. Broth is a measured alternative and its seasoning/dietary effects are explicit. Oil makes the default vegan; butter is a dairy variation. Cilantro is 15 g rather than an ambiguous chopped half cup, and juice starts at one tablespoon with up to one further tablespoon after tasting. Zest is one teaspoon. Every ingredient is used, the ten-minute covered rest is included, and total time is forty minutes rather than twenty-five. Ten prep + five heating + fifteen simmer + ten rest is a conservative sequential allowance, with herb preparation able to overlap. The finish is explained without an absolute claim that herbs can never be cooked.
+
+Removed the default pairing with another tortilla meal and made the honey-chipotle bowl a declared consumer. Its two rice batches are already included in the bowl; the page explains not to add more as a separate side. The two pending composed meals' explicit rice time references now say forty minutes, but their component quantities and complete schedules remain pending. Removed unverified legacy nutrition.
+
+Evidence: https://mahatmarice.com/products/jasmine-white-rice/ directly opened, and https://hot-thai-kitchen.com/how-to-cook-rice/ indexed recipe text; USDA FSIS leftover guidance supports shallow rapid cooling, refrigerated storage and reheating. The cilantro/lime balance and yield remain editorial development from the existing recipe, not the cited rice makers' finished dish or a kitchen test.
+
+Kitchen questions: tenderness at 300 ml across brands, saucepan evaporation at half and double batches, measured cooked yield, cilantro weight/strength, lime range beside each main and actual forty-minute elapsed time. Check reheated texture separately.

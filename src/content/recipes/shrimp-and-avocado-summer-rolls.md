@@ -22,7 +22,7 @@ servings: 6 rolls
 pairsWith:
   - quick-pickled-carrots-and-daikon
   - coconut-jasmine-rice
-  - greek-salad
+  - greek-village-salad
 ingredients:
   - '18 medium Shrimp, shelled and deveined'
   - 6 round Rice Paper Wrappers

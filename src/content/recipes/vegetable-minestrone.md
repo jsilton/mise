@@ -38,7 +38,6 @@ equipment:
 pairsWith:
   - garlic-bread
   - everyday-arugula-salad
-  - garlic-bread
 ingredients:
   - '--- The Base ---'
   - 3 tbsp Olive Oil
@@ -52,13 +51,9 @@ ingredients:
   - '1 cup Green Beans (cut into 1-inch pieces, fresh or frozen)'
   - 1 cup Spinach or Lacinato Kale (roughly chopped)
   - 1 (15 oz) can Cannellini Beans (drained and rinsed)
-  - >-
-    1 (15 oz) can Kidney Beans (drained and rinsed; optional, can use all
-    cannellini)
+  - '1 (15 oz) can Kidney Beans (drained and rinsed; optional, can use all cannellini)'
   - '--- The Broth ---'
-  - >-
-    6 cups Vegetable Stock or Water (can use chicken stock for non-vegetarian
-    version)
+  - 6 cups Vegetable Stock or Water (can use chicken stock for non-vegetarian version)
   - 2 tbsp Tomato Paste (adds depth)
   - 1 tbsp Balsamic Vinegar (adds brightness)
   - '--- The Seasonings ---'

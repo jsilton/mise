@@ -1,0 +1,29 @@
+---
+import { getEntry } from 'astro:content';
+interface Props {
+  targetSlug: string;
+}
+const { targetSlug } = Astro.props;
+const meal = await getEntry('meals', targetSlug);
+if (!meal) throw new Error(`Meal redirect target does not exist: ${targetSlug}`);
+const target = `${import.meta.env.BASE_URL}meals/${targetSlug}/`;
+const canonical = new URL(target, Astro.site).href;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta http-equiv="refresh" content={`0; url=${target}`} />
+    <link rel="canonical" href={canonical} />
+    <meta name="robots" content="noindex" />
+    <title>{meal.data.title} | Meals | Mise</title>
+  </head>
+  <body>
+    <p>This dinner plan is now part of <a href={target}>{meal.data.title}</a>.</p>
+    <script is:inline define:vars={{ target }}>
+      window.location.replace(target + window.location.search + window.location.hash);
+    </script>
+  </body>
+</html>

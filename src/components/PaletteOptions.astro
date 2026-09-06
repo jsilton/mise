@@ -1,0 +1,143 @@
+---
+const options = [
+  {
+    id: 'porcelain',
+    name: 'Porcelain & ink',
+    note: 'Neutral paper, blue-gray ink, a quiet coastal wash.',
+    colors: ['#f7f6f2', '#263a49', '#486b7b', '#dce8eb'],
+  },
+  {
+    id: 'sage',
+    name: 'Sage & graphite',
+    note: 'Cool botanical greens with soft charcoal type.',
+    colors: ['#f4f6f0', '#303c35', '#4b6a5b', '#dbe5d6'],
+  },
+  {
+    id: 'rose',
+    name: 'Rose & slate',
+    note: 'Pale rose paper, plum ink, a little blue-gray.',
+    colors: ['#f8f4f3', '#40343f', '#85586c', '#dfe6e9'],
+  },
+];
+---
+
+<div class="palette-options" role="group" aria-label="Choose a site color palette">
+  {
+    options.map((option) => (
+      <button
+        type="button"
+        data-palette-option={option.id}
+        aria-pressed={option.id === 'porcelain'}
+      >
+        <>
+          <span class="swatches" aria-hidden="true">
+            {option.colors.map((color) => (
+              <i style={`background:${color}`} />
+            ))}
+          </span>
+          <strong>{option.name}</strong>
+          <span>{option.note}</span>
+          <small class="selection-label">
+            {option.id === 'porcelain' ? 'Selected' : 'Try this palette'}
+          </small>
+        </>
+      </button>
+    ))
+  }
+</div>
+<p class="palette-status" role="status" aria-live="polite">
+  The selected palette applies throughout Mise and is saved in this browser.
+</p>
+<script>
+  const buttons = document.querySelectorAll<HTMLButtonElement>('[data-palette-option]');
+  function syncPaletteButtons() {
+    for (const button of buttons) {
+      const selected =
+        button.dataset.paletteOption === (document.documentElement.dataset.palette || 'porcelain');
+      button.setAttribute('aria-pressed', String(selected));
+      const label = button.querySelector('.selection-label');
+      if (label) label.textContent = selected ? 'Selected' : 'Try this palette';
+    }
+  }
+  syncPaletteButtons();
+  for (const button of buttons)
+    button.addEventListener('click', () => {
+      const palette = button.dataset.paletteOption || 'porcelain';
+      document.documentElement.dataset.palette = palette;
+      try {
+        localStorage.setItem('mise-palette', palette);
+      } catch {
+        /* The preview still works without storage. */
+      }
+      syncPaletteButtons();
+      const status = document.querySelector('.palette-status');
+      if (status)
+        status.textContent = `${button.querySelector('strong')?.textContent} selected. Open any recipe to see it in context.`;
+    });
+</script>
+<style>
+  .palette-options {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1rem;
+  }
+  button {
+    padding: 1.3rem;
+    text-align: left;
+    border: 1px solid var(--border-subtle);
+    background: var(--bg-surface);
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    color: var(--text-primary);
+    cursor: pointer;
+  }
+  button[aria-pressed='true'] {
+    border-color: var(--accent);
+    box-shadow: inset 0 0 0 1px var(--accent);
+  }
+  button:hover {
+    background: var(--bg-hover);
+  }
+  .swatches {
+    display: flex;
+    height: 50px;
+    width: 100%;
+  }
+  i {
+    flex: 1;
+  }
+  strong {
+    font-size: 0.92rem;
+    font-weight: 600;
+  }
+  button > span:not(.swatches),
+  .palette-status {
+    font-size: 0.78rem;
+    line-height: 1.6;
+    color: var(--text-secondary);
+  }
+  small {
+    font-size: 0.7rem;
+    margin-top: auto;
+    color: var(--accent);
+  }
+  .palette-status {
+    margin-top: 1rem;
+  }
+  @media (max-width: 680px) {
+    .palette-options {
+      grid-template-columns: 1fr;
+    }
+    button {
+      display: grid;
+      grid-template-columns: 90px 1fr;
+      gap: 0.4rem 1rem;
+    }
+    .swatches {
+      grid-row: 1/4;
+      height: 100%;
+      min-height: 75px;
+    }
+  }
+</style>

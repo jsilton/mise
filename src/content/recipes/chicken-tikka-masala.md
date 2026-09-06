@@ -5,12 +5,13 @@ cookTime: 40 min
 servings: '6'
 pairsWith:
   - basmati-rice
-  - spiced-coconut-chicken-rice
   - cucumber-raita
   - naan
 ingredients:
   - '--- Marinade ---'
-  - '2 lbs boneless, skinless chicken thighs, preferred (or breasts, broiled less - see Directions steps 2 & 6; cut into 1.5-inch chunks)'
+  - >-
+    2 lbs boneless, skinless chicken thighs, preferred (or breasts, broiled less - see Directions
+    steps 2 & 6; cut into 1.5-inch chunks)
   - 3/4 cup Plain Greek Yogurt (Full Fat)
   - '1 tbsp fresh garlic, grated'
   - '1 tbsp fresh ginger, grated'
@@ -30,7 +31,7 @@ ingredients:
   - 1 tbsp Paprika (for color and mildness)
   - 3 cups tomato puree (Passata)
   - 1 tbsp white sugar
-  - 1 to 1.5 tsp salt, for the sauce (plus more to taste)
+  - '1 to 1.5 tsp salt, for the sauce (plus more to taste)'
   - 1 cup heavy whipping cream
   - 1 tbsp cold butter
   - 1 tbsp Kasuri Methi (dried fenugreek leaves)
