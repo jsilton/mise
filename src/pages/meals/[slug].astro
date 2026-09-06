@@ -93,13 +93,22 @@ const templateColors: Record<string, { bg: string; text: string }> = Object.from
           }
         </div>
 
-        {/* Time Info */}
+        {/* Meal facts */}
         {
-          (meal.data.totalTime ||
+          (meal.data.servings ||
+            meal.data.totalTime ||
             meal.data.totalPrepTime ||
             meal.data.totalCookTime ||
             meal.data.totalActiveTime) && (
             <div class="flex flex-wrap gap-6 text-sm">
+              {meal.data.servings && (
+                <div class="flex items-center gap-2" data-meal-servings>
+                  <span style="color: var(--text-tertiary);">Serves:</span>
+                  <span class="font-medium" style="color: var(--text-secondary);">
+                    {meal.data.servings}
+                  </span>
+                </div>
+              )}
               {meal.data.totalTime && (
                 <div class="flex items-center gap-2">
                   <span style="color: var(--text-tertiary);">Elapsed:</span>

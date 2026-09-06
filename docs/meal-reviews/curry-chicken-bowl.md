@@ -1,4 +1,4 @@
-# Slow-Cooker Coconut Curry Bowls: individual editorial review
+# Coconut Chicken Curry Bowls: individual meal review
 
 Date: 2026-09-06. Status: editorial review; no physical meal test recorded.
 
@@ -13,3 +13,5 @@ The main supplies sweet mango and coconut richness; lime provides adjustable aci
 ## Kitchen-test questions
 
 Verify cooker timing/fill, carrot tenderness, rice package yield, sauce concentration, quarter-batch raita yield and cumin measurement, and four-portion balance. No physical meal test recorded.
+
+Naming follow-up, 2026-09-06: the user requires natural meal titles, with serving count and preparation details in attributes and instructions. Updated the display name without changing the URL, portions or composed cooking plan.

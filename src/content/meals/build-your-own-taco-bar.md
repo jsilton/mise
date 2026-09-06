@@ -1,5 +1,5 @@
 ---
-title: Cooked-Chicken Taco Bar Dinner
+title: Chicken Taco Bar
 template: plate
 main: build-your-own-taco-bar
 sides:

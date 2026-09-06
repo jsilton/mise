@@ -122,6 +122,16 @@ function getRecipeTitle(slug: string): string {
                         {meal.data.title}
                       </h3>
 
+                      {meal.data.servings && (
+                        <p
+                          class="text-sm mb-3"
+                          style="color: var(--text-secondary);"
+                          data-meal-servings
+                        >
+                          Serves {meal.data.servings}
+                        </p>
+                      )}
+
                       {/* Recipe Components Preview */}
                       <div class="flex flex-wrap gap-2 text-sm">
                         {meal.data.main && (

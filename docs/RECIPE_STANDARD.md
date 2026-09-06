@@ -58,6 +58,10 @@ Newly authored recipes are tracked in the register separately from the original 
 
 The user authorizes committing, pushing and deploying coherent verified batches throughout the project. Do not wait for the full collection. Give parallel reviewers bounded recipes and relationships, require source evidence and individual decisions, and evaluate their complete proposals before integration. Proposal files alone do not count as completed reviews. Verify local checks and the resulting production deployment for every release.
 
+## Meal names and household preferences
+
+Use a natural meal name based on the dish or occasion. Keep serving counts, preparation requirements and equipment labels in their attributes and cooking guidance, not appended to titles. For example, use "Thanksgiving Feast" with a visible "Serves 12" fact; brining belongs in its turkey preparation. Preserve culinary dish names where technique is part of the recognized name, rather than mechanically deleting words such as roast or stir-fry. Consult [household preferences](HOUSEHOLD_PREFERENCES.md) before altering a favorite's defining ingredients or character.
+
 ## Composed meal review
 
 A meal review examines complete component recipes, amounts actually needed for the planned diners, included starch/sauce/vegetables, shared equipment, preparation dependencies, elapsed versus hands-on time, and flavor/texture balance. Record it under docs/meal-reviews. All required recipe components must have individual reviews before assigning the meal editorial label. The meal baseline preserves all 88 originals; check-meal-reviews.mjs refreshes the register and enforces structural prerequisites after building. Passing it does not replace the considered meal review or a physical service test.

@@ -1,5 +1,5 @@
 ---
-title: Slow-Cooker Coconut Curry Bowls
+title: Coconut Chicken Curry Bowls
 template: bowl
 main: coconut-chicken-curry
 sauce: cucumber-raita

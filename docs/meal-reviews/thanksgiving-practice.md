@@ -1,4 +1,4 @@
-# Cider-Roast Turkey Dinner for Eight: individual meal review
+# Thanksgiving Dinner: individual meal review
 
 Date: 2026-09-06. Editorial review only; no physical meal test recorded.
 
@@ -17,3 +17,5 @@ Thanksgiving Feast remains pending even though its direct cranberry and stuffing
 Kitchen questions: default rack clearance and temperature recovery, simultaneous turkey/stuffing timing, one-cook workload and 150-minute active estimate, cranberry and salad portion balance, potato texture during hold, actual gravy viscosity/salinity and yield, carving time, total edible turkey yield and the separate fallback service. No physical test recorded.
 
 Follow-up, twenty-ninth batch: extracted the fully specified gravy into the individually reviewed turkey-pan-gravy recipe because the twelve-person feast also needs it. The meal now declares that dependency and links one full batch; duplicated inline ingredients and directions were removed. Six linked recipe components are reviewed. The gravy formulation is unchanged by extraction, and the original eight-person schedule and thirty-hour allowance remain. The recipe register separately accounts for this newly authored recipe without changing the immutable 612-original baseline. No additional meal review is counted for this maintenance update.
+
+Naming follow-up, 2026-09-06: the user requires natural meal titles, with serving count and preparation details in attributes and instructions. Updated the display name without changing the URL, portions or composed cooking plan.

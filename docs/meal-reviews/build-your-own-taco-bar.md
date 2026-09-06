@@ -1,4 +1,4 @@
-# Cooked-Chicken Taco Bar Dinner: individual editorial review
+# Chicken Taco Bar: individual meal review
 
 Date: 2026-09-06. Status: editorial review; no physical meal test recorded.
 
@@ -9,3 +9,5 @@ The plan explicitly starts from cooked meat and its storage age; raw carnitas pr
 Twenty minutes cold preparation, two corn batches with a brief cooling/dressing step, gentle chicken reheating to 165°F and batch tortilla warming produce a conservative 55-minute elapsed/45-minute active estimate. One skillet works with microwave tortilla warming. The short off-heat wait is distinguished from a prolonged buffet requiring 140°F hot and 40°F cold holding. Cold toppings and meat are stored separately; no all-week leftover claim.
 
 Test six diners' taco and corn portion sizes, 600 g cooked meat dryness/salinity, one-cook 55-minute sequence, eighteen-tortilla warming, corn served after the short hold, and topping demand. No physical meal test recorded.
+
+Naming follow-up, 2026-09-06: the user requires natural meal titles, with serving count and preparation details in attributes and instructions. Updated the display name without changing the URL, portions or composed cooking plan.

@@ -1,5 +1,5 @@
 ---
-title: Brined Turkey Feast for Twelve
+title: Thanksgiving Feast
 template: plate
 main: good-eats-roast-turkey
 base: italian-kale-and-sausage-stuffing

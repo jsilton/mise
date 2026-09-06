@@ -1,5 +1,5 @@
 ---
-title: Cider-Roast Turkey Dinner for Eight
+title: Thanksgiving Dinner
 template: plate
 main: simple-roast-turkey
 base: italian-kale-and-sausage-stuffing

@@ -1,4 +1,4 @@
-# Brined Turkey Feast for Twelve: individual meal review
+# Thanksgiving Feast: individual meal review
 
 Date: 2026-09-06. Editorial review only; no physical meal test recorded.
 
@@ -15,3 +15,5 @@ Twenty-six hours starts with an already refrigerator-thawed bird; 210 active min
 A larger-pot mash, ahead-of-roast gravy, three sequential bean rounds and short measured hot holds are coordinated around the turkey rest. None of the turkey/sausage/casserole center checks is substituted for another. Delays are handled by measured holding or cooling/reheating, not a warm-setting assumption. The old warm-carcass-to-stock shortcut is not included as an unplanned component. All leftovers use separate shallow containers and source-supported temperature/storage guidance.
 
 Kitchen questions: whole refrigerator fit, default oven rack clearance with the larger bird, temperature recovery, actual 210-minute active time and final half-hour workload, shared-oven stuffing timing, nine-cup potato yield, smaller stuffing portions, three-batch bean quality/holding, stock-only gravy flavor and the longer single-oven fallback. No physical meal test recorded.
+
+Naming follow-up, 2026-09-06: the user requires natural meal titles, with serving count and preparation details in attributes and instructions. Updated the display name without changing the URL, portions or composed cooking plan.
