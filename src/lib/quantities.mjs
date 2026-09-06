@@ -77,11 +77,11 @@ export function scaleIngredient(text, factor) {
         : `(${qualifier || ''}${formatQuantity(value * factor)} ${unit})`;
     });
   }
-  const alternative = new RegExp(
-    `(\\bor\\s+)(${number})(?=\\s+(?:cups?|tbsp|tsp|oz|lbs?|g|ml|eggs?|cloves?)\\b)`,
+  const additionalOrAlternative = new RegExp(
+    `(\\b(?:or|plus)(?:\\s+up\\s+to)?\\s+)(${number})(?=\\s+(?:cups?|tbsp|tsp|oz|lbs?|g|ml|eggs?|cloves?)\\b)`,
     'gi'
   );
-  rest = rest.replace(alternative, (match, prefix, amount) => {
+  rest = rest.replace(additionalOrAlternative, (match, prefix, amount) => {
     const value = numeric(amount);
     return value === null ? match : prefix + formatQuantity(value * factor);
   });

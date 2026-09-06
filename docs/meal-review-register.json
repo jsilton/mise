@@ -1,9 +1,9 @@
 {
   "originalMeals": 88,
   "currentMeals": 87,
-  "individuallyReviewed": 27,
+  "individuallyReviewed": 28,
   "consolidatedAfterReview": 1,
-  "pending": 60,
+  "pending": 59,
   "kitchenTested": 0,
   "records": [
     {
@@ -347,7 +347,9 @@
     },
     {
       "slug": "shrimp-and-grits-night",
-      "status": "pending"
+      "status": "editorial-review",
+      "record": "docs/meal-reviews/shrimp-and-grits-night.md",
+      "components": ["shrimp-and-grits", "charred-broccoli-with-garlic"]
     },
     {
       "slug": "shrimp-scampi-night",

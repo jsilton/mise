@@ -38,6 +38,24 @@ test('litre equivalents scale together while bottle sizes stay fixed', () => {
   assert.equal(scaleIngredient('2 litres (2000 ml) water', 2), '4 litres (4000 ml) water');
   assert.equal(scaleIngredient('2 (1 L) bottles stock', 0.5), '1 (1 L) bottles stock');
 });
+test('additional measured amounts scale with their equivalent volumes', () => {
+  assert.equal(
+    scaleIngredient('1/2 cup (120 ml) milk, plus up to 1/4 cup (60 ml) more if needed', 0.5),
+    '1/4 cup (60 ml) milk, plus up to 1/8 cup (30 ml) more if needed'
+  );
+  assert.equal(
+    scaleIngredient('1/2 tsp pepper flakes, plus up to 1/2 tsp more', 0.5),
+    '1/4 tsp pepper flakes, plus up to 1/4 tsp more'
+  );
+  assert.equal(
+    scaleIngredient('1 tbsp juice, plus 1 tsp to taste', 2),
+    '2 tbsp juice, plus 2 tsp to taste'
+  );
+  assert.equal(
+    scaleIngredient('2 (14 oz) cans tomatoes, plus a 1-inch piece ginger', 0.5),
+    '1 (14 oz) cans tomatoes, plus a 1-inch piece ginger'
+  );
+});
 test('unquantified amounts and exact original formatting survive reset', () => {
   assert.equal(scaleIngredient('Salt, to taste', 2), 'Salt, to taste');
   assert.equal(scaleIngredient('1½ cups milk', 1), '1½ cups milk');
