@@ -1,74 +1,130 @@
 ---
-title: Master Sushi Rice (Shari)
+title: Sushi Rice (Shari)
 origin: Japan
 difficulty: intermediate
 cookingMethods:
   - boil
+  - simmer
   - steam
 dietary:
   - vegan
   - gluten-free
-  - dairy-free
-  - nut-free
 occasions:
-  - weekend-project
   - entertaining
-  - date-night
+  - weekend-project
 flavorProfile:
   - acidic
   - sweet
-  - umami
+  - salty
 cuisines:
   - Japanese
 role: base
 vibe: technical
-prepTime: 40 min
-cookTime: 20 min
-totalTime: 60 min
-servings: '4'
-seasons:
-  - year-round
-nutritionalDensity: moderate
-leftovers: poor
-advancePrep:
-  - overnight-soak
+prepTime: 15 min
+cookTime: 25 min
+totalTime: 1 hr 20 min
+servings: '5 1/2–6 cups seasoned rice, approximately'
+leftovers: good
 equipment:
-  - rice-cooker
+  - 3-quart-heavy-saucepan-with-lid
+  - fine-mesh-strainer
+  - wide-nonreactive-bowl
+  - rice-paddle
 pairsWith:
   - spicy-tuna-roll
   - new-york-crunch-roll
   - philly-tuna-roll
 ingredients:
-  - '--- Rice ---'
-  - 2 cups Japanese Short-Grain Rice (Koshihikari preferred)
-  - Scant 2 cups Cold Water (remove 2 tbsp to account for seasoning vinegar)
-  - >-
-    1 strip Dried Kombu (wiped gently with a damp cloth - do NOT wash off the
-    white mannitol powder, that is flavor)
-  - '--- Sushi-Zu (Seasoning) ---'
-  - 5 tbsp High-quality Rice Vinegar (Marukan or Mizkan)
-  - 1.5 tbsp White Sugar
-  - 1.5 tsp Fine Sea Salt
-nutrition:
-  calories: 10
-  protein: 0
-  carbs: 1
-  fat: 0
-  fiber: 0
-  sugar: 1
-  sodium: 740
+  - '400 g Japanese short-grain white rice, not glutinous rice'
+  - '480 ml cold water, plus water for rinsing'
+  - '1 piece dried kombu, about 5 cm square'
+  - 5 tbsp unseasoned rice vinegar
+  - 1 1/2 tbsp granulated sugar
+  - '1 1/2 tsp fine sea salt, divided'
+description: >-
+  Vinegar-seasoned short-grain rice with tender, distinct grains that cling
+  together lightly. Includes soaking, resting, seasoning and short cooling time.
+learning:
+  focus: Season tender rice without mashing it
+  outcome: >-
+    Glossy, cohesive grains with a tender center and even vinegar seasoning,
+    without a puddle or a gluey paste.
+  techniques:
+    - starch
+    - seasoning
+  before:
+    - >-
+      Weigh the dry rice. A 180 ml rice-cooker cup is different from a 240 ml
+      kitchen cup. The measured water is a covered-pot starting formula; follow
+      a rice cooker's own sushi-rice instructions for that appliance.
+    - >-
+      Use unseasoned rice vinegar. This seasoning is for flavor, not a verified
+      preservation process; plan to serve promptly or refrigerate the rice.
+  checkpoints:
+    - step: 3
+      cue: The rested rice has no hard center or pool of water.
+      why: Seasoning cannot repair rice that was underhydrated during cooking.
+    - step: 5
+      cue: The vinegar disappears between intact grains as the steam subsides.
+      why: Gentle lifting and folding distributes seasoning without crushing the soft grains.
+  troubleshooting:
+    - problem: Rice is hard and the pot is dry
+      cause: The rice needed more water or too much escaped from the lid.
+      fix: >-
+        Before seasoning, sprinkle in 1–2 tbsp hot water, cover and cook on very
+        low heat for 3–5 minutes, then rest 5 minutes and check again.
+    - problem: Seasoned rice is mushy
+      cause: Excess cooking water or forceful stirring softened and broke the grains.
+      fix: >-
+        Stop stirring; spread gently and let steam escape. It cannot be restored
+        to firm roll-making rice. Use as a soft rice bowl base if palatable and
+        within its handling limit; record less cooking water next time.
+  substitutions:
+    - ingredient: Japanese short-grain white rice
+      alternative: Japanese-style medium-grain Calrose rice
+      effect: >-
+        A practical cohesive-rice option, but not a short-grain variety. Follow
+        package or cooker hydration guidance where it differs.
+    - ingredient: Kombu
+      alternative: Omit it
+      effect: Less kelp flavor; water, vinegar, sugar and salt remain unchanged.
+  timing: >-
+    About 80 minutes includes rinsing, a 30-minute soak, heating, 12–15 minutes
+    simmering, a 10-minute rest and seasoning/cooling. A cooker may take longer;
+    if its program includes soaking, do not add that wait a second time.
+  storage: >-
+    Serve soon after seasoning. Refrigerate unused rice promptly in shallow
+    containers within 2 hours of cooking, or 1 hour above 90°F / 32°C, at 40°F /
+    4°C or below. Use within 3–4 days; reheat to 165°F / 74°C. Chilling firms the
+    grains but is preferable to extended room-temperature holding. Added vinegar
+    does not make this home recipe shelf-stable.
+  sources:
+    - title: Namiko Hirasawa Chen — How to make sushi rice
+      url: 'https://www.justonecookbook.com/how-to-make-sushi-rice/'
+    - title: 'FoodSafety.gov — Clean, separate, cook, chill'
+      url: 'https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety'
+    - title: FoodSafety.gov — Safe minimum internal temperatures
+      url: 'https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures'
+    - title: FoodSafety.gov — Food safety and eating out
+      url: 'https://www.foodsafety.gov/blog/food-safety-and-eating-out'
+  review:
+    status: editorial-review
+    date: '2026-09-06'
 ---
 
 ## Chef's Note
 
-Sushi rice (shari or sumeshi) is the single element that separates good sushi from great. The word "sushi" actually refers to the seasoned rice, not the fish - the vinegared rice is the star. The traditional "cut and fan" technique (te-zu) rapidly cools the rice while separating grains, creating individual glossy kernels rather than a sticky clump. The rice should be kept at body temperature (around 98°F) and never refrigerated, as cold rice hardens and loses its delicate texture.
+Shari is seasoned rice used for sushi; a bowl of plain short-grain rice has a different flavor. Add the vinegar seasoning while the cooked grains are hot and lift them gently with a paddle. Fan briefly to release steam, then use the rice soon rather than keeping it warm on the counter for hours.
 
 ## Directions
 
-1. **Wash:** Rinse the rice in cold water 3-4 times, swirling gently with your hand. Drain when the water runs mostly clear - some starch is fine, but surface powder needs to go.
-2. **Soak:** Place the washed rice in the rice cooker pot with the scant 2 cups of cold water and the kombu strip. Let it soak for 30 minutes - this hydrates the grain cores for even cooking.
-3. **Cook:** Start the rice cooker. Discard the kombu immediately when the cooker finishes (leaving it in makes the rice slimy).
-4. **Make the Sushi-Zu:** While the rice cooks, whisk the rice vinegar, sugar, and salt together until fully dissolved. For deeper flavor, drop a small piece of kombu into the mixture and let it steep.
-5. **The Cut & Fan:** Dump the hot rice into a wide, non-metal bowl (a wooden hangiri is traditional, but any wide glass or ceramic bowl works). Pour the sushi-zu over the rice in a thin stream. Using a rice paddle held at a 45-degree angle, **cut** through the rice in slicing motions to separate grains - never mash, stir, or press.
-6. **Fan:** While cutting, fan the rice vigorously with your other hand (or recruit a helper). This rapid cooling gives the rice its signature glossy sheen. Continue for 2-3 minutes until the rice reaches body temperature.
-7. **Hold:** Cover with a damp kitchen towel. Use within 1-2 hours at room temperature. Do not refrigerate.
+1. **Rinse and soak:** Rinse the rice several times, gently swishing and draining until the water is less cloudy. Drain well, transfer to a heavy 3-quart saucepan and add the measured 480 ml water. Wipe away visible grit from the kombu with a barely damp cloth and add it. Soak for 30 minutes.
+2. **Heat and cook:** Bring toward a boil over medium heat with the lid slightly ajar. Remove the kombu when the water starts bubbling. Close the lid, reduce to low and simmer gently for 12–15 minutes.
+3. **Rest and check:** Move off the heat and leave covered for 10 minutes. Check a grain for a tender center. If grains are still firm and water remains, cover and cook on low for 3–5 minutes, then rest off heat for 5 minutes and check again. If the pot is dry but the center is hard, use the measured-water correction in troubleshooting. Already mushy rice will not become firm through extra stirring or cooking.
+4. **Mix the seasoning:** While the rice cooks, stir 4 tbsp of the vinegar, the sugar and 1 tsp of the salt in a small bowl. Warm briefly if needed to dissolve, without boiling. Reserve the remaining 1 tbsp vinegar and 1/2 tsp salt.
+5. **Season and cool briefly:** Transfer hot rice to a wide nonreactive bowl. Distribute the seasoning over it and gently lift and fold with a rice paddle. Fan as steam escapes, about 5–10 minutes; judge by the rice rather than expecting a fixed temperature after two minutes. Taste, dissolve any reserved salt needed in the reserved tablespoon of vinegar, then fold in that vinegar whether or not extra salt is used. For poke, let the portion being used become only barely warm before topping with cold fish and serving immediately.
+6. **Use or refrigerate:** Cover loosely with a clean damp towel only during brief assembly. Measure the amount required by the main recipe; this batch makes approximately 5 1/2–6 cups. Refrigerate extra rice promptly rather than leaving the whole batch out while eating.
+
+## Rice-cooker alternative
+
+Use the cooker's matched cup and sushi-rice water line, or its weight-based instructions for 400 g rice. Choose its sushi-rice cycle and follow its soaking/resting guidance. The 480 ml pot quantity and 80-minute schedule are not universal cooker settings. Remove the kombu after cooking if the appliance remains closed throughout the cycle, then season as above.

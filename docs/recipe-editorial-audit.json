@@ -1,11 +1,11 @@
 {
   "summary": {
     "recipes": 605,
-    "editoriallyReviewed": 141,
+    "editoriallyReviewed": 145,
     "kitchenTested": 0,
     "errors": 0,
     "priorityReviews": 0,
-    "reviewItems": 920
+    "reviewItems": 913
   },
   "limitations": "Automated triage only. Does not establish culinary quality, food safety, source validity, or kitchen testing.",
   "recipes": [
@@ -5081,21 +5081,10 @@
     },
     {
       "slug": "master-sushi-rice",
-      "title": "Master Sushi Rice (Shari)",
-      "status": "collection",
-      "stepCount": 7,
-      "issues": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ]
+      "title": "Sushi Rice (Shari)",
+      "status": "editorial-review",
+      "stepCount": 6,
+      "issues": []
     },
     {
       "slug": "mediterranean-chicken-bowls",
@@ -6152,21 +6141,10 @@
     },
     {
       "slug": "poke-bowl-bar",
-      "title": "Poke Bowl Bar (Build-Your-Own)",
-      "status": "collection",
-      "stepCount": 10,
-      "issues": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ]
+      "title": "Poke Bowl Bar",
+      "status": "editorial-review",
+      "stepCount": 5,
+      "issues": []
     },
     {
       "slug": "pressure-cooker-bolognase",
@@ -7306,15 +7284,9 @@
     {
       "slug": "shoyu-tuna-poke-bowl",
       "title": "Shoyu Tuna Poke Bowl",
-      "status": "collection",
-      "stepCount": 6,
-      "issues": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        }
-      ]
+      "status": "editorial-review",
+      "stepCount": 5,
+      "issues": []
     },
     {
       "slug": "shrimp-and-avocado-summer-rolls",
@@ -8912,21 +8884,10 @@
     },
     {
       "slug": "tuna-poke-bowls",
-      "title": "Tuna Poke Bowls",
-      "status": "collection",
+      "title": "Tuna Poke Bowls with Chile and Cucumber Salad",
+      "status": "editorial-review",
       "stepCount": 5,
-      "issues": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ]
+      "issues": []
     },
     {
       "slug": "turkey-burgers",

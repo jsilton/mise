@@ -1,9 +1,9 @@
 {
   "originalMeals": 88,
   "currentMeals": 87,
-  "individuallyReviewed": 28,
+  "individuallyReviewed": 30,
   "consolidatedAfterReview": 1,
-  "pending": 59,
+  "pending": 57,
   "kitchenTested": 0,
   "records": [
     {
@@ -279,7 +279,9 @@
     },
     {
       "slug": "poke-bowl-night",
-      "status": "pending"
+      "status": "editorial-review",
+      "record": "docs/meal-reviews/poke-bowl-night.md",
+      "components": ["tuna-poke-bowls", "master-sushi-rice", "korean-pickled-cucumbers"]
     },
     {
       "slug": "pork-tenderloin-dinner",
@@ -343,7 +345,9 @@
     },
     {
       "slug": "shoyu-tuna-poke-bowl-night",
-      "status": "pending"
+      "status": "editorial-review",
+      "record": "docs/meal-reviews/shoyu-tuna-poke-bowl-night.md",
+      "components": ["shoyu-tuna-poke-bowl", "steamed-white-rice"]
     },
     {
       "slug": "shrimp-and-grits-night",
