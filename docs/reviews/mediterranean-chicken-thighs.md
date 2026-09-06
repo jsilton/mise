@@ -11,3 +11,7 @@ Moved the complete serving spread into the composed meal, with an explicit link 
 Direct references: Suzy Karadsheh's Greek sheet-pan chicken at https://www.themediterraneandish.com/greek-sheet-pan-chicken/ (roasting context, different oil/formula and two-tray redesign); USDA poultry marinating https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/poultry/poultry-basting-brining-and-marinating ; FoodSafety.gov endpoints and four handling steps, plus USDA leftovers guidance linked on the recipe. Color-only doneness and unrelated brand endorsements are not adopted.
 
 Kitchen questions: marinade salt/lemon balance, thigh size variation, two-rack oven behavior, actual vegetable and meat finish times, eighty-minute elapsed workflow, yield for four and reheating. No physical test recorded.
+
+## Household sauce relationship follow-up
+
+The original main and meal at e956346b^ explicitly link the lamb burger sauce, despite contradictory grated-cucumber/lemon inline notes. Following extraction of the user-preferred mint tzatziki, the main pairing now points to mint-tzatziki and the composed platter uses a half batch. Main ingredients and cooking remain unchanged; the meal preserves a measured dill alternative. See docs/meal-reviews/mediterranean-chicken-night.md for the full reassessment.

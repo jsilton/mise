@@ -23,7 +23,7 @@ advancePrep:
   - marinate
 servings: '4'
 pairsWith:
-  - tzatziki-sauce
+  - mint-tzatziki
   - warm-pita-bread
   - lemon-herb-couscous
 equipment:
