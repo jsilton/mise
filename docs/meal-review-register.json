@@ -1,9 +1,9 @@
 {
   "originalMeals": 88,
   "currentMeals": 87,
-  "individuallyReviewed": 30,
+  "individuallyReviewed": 31,
   "consolidatedAfterReview": 1,
-  "pending": 57,
+  "pending": 56,
   "kitchenTested": 0,
   "records": [
     {
@@ -233,7 +233,9 @@
     },
     {
       "slug": "miso-salmon-dinner",
-      "status": "pending"
+      "status": "editorial-review",
+      "record": "docs/meal-reviews/miso-salmon-dinner.md",
+      "components": ["miso-salmon-with-bok-choy", "smashed-cucumber-salad"]
     },
     {
       "slug": "mongolian-beef-night",
