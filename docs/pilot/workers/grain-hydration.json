@@ -1,0 +1,424 @@
+{
+  "model": "gpt-5",
+  "startedAt": "2026-09-06T23:30:40.000Z",
+  "finishedAt": "2026-09-06T23:31:32.000Z",
+  "usage": { "inputTokens": null, "outputTokens": null, "usd": null },
+  "recipes": [
+    {
+      "slug": "mexican-red-rice",
+      "inputSha256": "105cbc0518f90d062ae07b93f8584305ff8e8e09cd50903eabae4ad6db4dd935",
+      "ingredientLedger": [
+        { "text": "1 cup Long-grain White Rice", "destinations": [1, 2, 4, 5], "status": "clear" },
+        { "text": "2 tbsp Neutral Oil", "destinations": [2], "status": "clear" },
+        {
+          "text": "1 cup Tomato Puree (or 2 Roma tomatoes blended smooth)",
+          "destinations": [4],
+          "status": "clear"
+        },
+        { "text": "1 cup Chicken Broth", "destinations": [4], "status": "clear" },
+        { "text": "1/4 cup Yellow Onion, finely diced", "destinations": [3], "status": "clear" },
+        { "text": "2 cloves Garlic, minced", "destinations": [3], "status": "clear" },
+        { "text": "1 tsp Salt", "destinations": [4], "status": "clear" },
+        { "text": "1 sprig Cilantro", "destinations": [5, 7], "status": "clear" }
+      ],
+      "process": [
+        {
+          "stage": 1,
+          "minutes": null,
+          "dependencies": [],
+          "attention": true,
+          "equipment": "fine-mesh strainer"
+        },
+        {
+          "stage": 2,
+          "minutes": "3-5",
+          "dependencies": [1],
+          "attention": true,
+          "equipment": "saucepan"
+        },
+        {
+          "stage": 3,
+          "minutes": 1,
+          "dependencies": [2],
+          "attention": true,
+          "equipment": "saucepan"
+        },
+        {
+          "stage": 4,
+          "minutes": null,
+          "dependencies": [3],
+          "attention": true,
+          "equipment": "saucepan"
+        },
+        {
+          "stage": 5,
+          "minutes": "15-18",
+          "dependencies": [4],
+          "attention": false,
+          "equipment": "saucepan with tight lid"
+        },
+        {
+          "stage": 6,
+          "minutes": 10,
+          "dependencies": [5],
+          "attention": false,
+          "equipment": "covered saucepan"
+        },
+        { "stage": 7, "minutes": null, "dependencies": [6], "attention": true, "equipment": "fork" }
+      ],
+      "findings": [
+        {
+          "id": "mrr-1",
+          "supportingText": "totalTime: 25 min; Toast ... 3-5 minutes ... Simmer ... 15-18 minutes ... Keep the lid on for 10 minutes.",
+          "category": "timing",
+          "severity": "material",
+          "evidenceIds": ["grains", "IC3"],
+          "explanation": "The stated 25-minute total cannot include the mandatory 3-5 minute toast, 15-18 minute simmer, and 10-minute covered rest, before unspecified rinse/dry and boil time."
+        },
+        {
+          "id": "mrr-2",
+          "supportingText": "1 cup Tomato Puree ... 1 cup Chicken Broth; liquid is absorbed",
+          "category": "scaling",
+          "severity": "minor",
+          "evidenceIds": ["grains", "IC1"],
+          "explanation": "Liquid and finished tenderness/yield should be verified for this product and pan; packet does not support a universal ratio."
+        }
+      ],
+      "proposedEdits": [],
+      "unresolved": [
+        "nutrition plausibility: no nutrition block is present; no recalculation made",
+        "equipment: saucepan/lid/strainer are stated in directions; capacity is unspecified",
+        "substitutions: tomato puree/Roma tomatoes and broth choice are explicit; no further review basis",
+        "attribution: no source attribution supplied; unresolved provenance question",
+        "relationships: pairsWith references are present; duplicate status not assessed",
+        "scaling: verify liquid absorption and yield at other servings"
+      ],
+      "identityPreserved": [
+        "long-grain white rice toasted in oil",
+        "tomato-based liquid",
+        "cilantro",
+        "Mexican origin and red-rice technique"
+      ]
+    },
+    {
+      "slug": "lemon-herb-quinoa",
+      "inputSha256": "e2cf0b762e4f9a00d28006d6e8479617119fe22665c01a21427cf7ad64b863f4",
+      "ingredientLedger": [
+        { "text": "1.5 cups Quinoa, rinsed well", "destinations": [1, 2, 3], "status": "clear" },
+        {
+          "text": "2.5 cups Water or Low-Sodium Vegetable Broth",
+          "destinations": [3],
+          "status": "clear"
+        },
+        { "text": "1 tsp Kosher Salt", "destinations": [3, 5], "status": "clear" },
+        { "text": "2 tbsp Extra Virgin Olive Oil", "destinations": [5], "status": "clear" },
+        { "text": "3 tbsp Lemon Juice (about 1.5 lemons)", "destinations": [5], "status": "clear" },
+        { "text": "1 tsp Lemon Zest", "destinations": [5], "status": "clear" },
+        { "text": "1/4 cup Fresh Parsley, finely chopped", "destinations": [5], "status": "clear" },
+        { "text": "2 tbsp Fresh Mint, finely chopped", "destinations": [5], "status": "clear" },
+        { "text": "2 tbsp Fresh Dill, finely chopped", "destinations": [5], "status": "clear" },
+        { "text": "1/4 tsp Black Pepper", "destinations": [5], "status": "clear" }
+      ],
+      "process": [
+        {
+          "stage": 1,
+          "minutes": 0.5,
+          "dependencies": [],
+          "attention": true,
+          "equipment": "fine-mesh strainer"
+        },
+        {
+          "stage": 2,
+          "minutes": 2,
+          "dependencies": [1],
+          "attention": true,
+          "equipment": "dry saucepan"
+        },
+        {
+          "stage": 3,
+          "minutes": 15,
+          "dependencies": [2],
+          "attention": false,
+          "equipment": "covered saucepan"
+        },
+        {
+          "stage": 4,
+          "minutes": 5,
+          "dependencies": [3],
+          "attention": false,
+          "equipment": "covered saucepan"
+        },
+        { "stage": 5, "minutes": null, "dependencies": [4], "attention": true, "equipment": "fork" }
+      ],
+      "findings": [
+        {
+          "id": "lhq-1",
+          "supportingText": "totalTime: 25 min; Rinse ... 30 seconds ... Toast (Optional) ... 2 minutes ... cook for 15 minutes ... Rest ... 5 minutes",
+          "category": "timing",
+          "severity": "material",
+          "evidenceIds": ["IC3"],
+          "explanation": "If optional toast is performed, listed active stages already total 22.5 minutes before boiling/heat transitions and dressing; 25 minutes is not supported as a complete total."
+        },
+        {
+          "id": "lhq-2",
+          "supportingText": "nutrition: calories: 135, protein: 3, carbs: 16, fat: 8, fiber: 3, sugar: 2, sodium: 800",
+          "category": "nutrition plausibility",
+          "severity": "material",
+          "evidenceIds": [],
+          "explanation": "The nutrition block's serving basis and values cannot be reconciled from the supplied ingredient quantities without recalculation; flag for nutrition review rather than inventing corrected values."
+        }
+      ],
+      "proposedEdits": [],
+      "unresolved": [
+        "scaling: verify quinoa/liquid absorption and finished yield; packet says timing varies",
+        "equipment: saucepan, lid and strainer are stated; capacity unspecified",
+        "substitutions: water or low-sodium broth is explicit",
+        "attribution: no source attribution supplied",
+        "relationships: pairsWith present; no duplicate determination",
+        "texture endpoint: 'fluffy individual grains' stated, but tenderness remains a kitchen verification question"
+      ],
+      "identityPreserved": [
+        "rinsed quinoa",
+        "optional dry toast",
+        "lemon and fresh herb finish",
+        "American/Mediterranean positioning"
+      ]
+    },
+    {
+      "slug": "quinoa-pilaf-with-toasted-almonds",
+      "inputSha256": "bbb219c4593f43e7539ee9f2fdb9ff60cd911686c2d38c9ec3f1cf6ef546ff3b",
+      "ingredientLedger": [
+        { "text": "1.5 cups Quinoa, rinsed well", "destinations": [1, 4, 6], "status": "clear" },
+        { "text": "2.5 cups Vegetable or Chicken Broth", "destinations": [5], "status": "clear" },
+        { "text": "1/2 tsp Kosher Salt", "destinations": [5, 8], "status": "clear" },
+        { "text": "2 tbsp Olive Oil or Butter", "destinations": [3, 8], "status": "clear" },
+        {
+          "text": "1/2 cup Raw Almonds, roughly chopped",
+          "destinations": [2, 8],
+          "status": "clear"
+        },
+        { "text": "1 small Onion, finely diced", "destinations": [3], "status": "clear" },
+        { "text": "2 cloves Garlic, minced", "destinations": [3], "status": "clear" },
+        {
+          "text": "1/2 cup Dried Apricots or Cranberries (optional, for sweetness)",
+          "destinations": [8],
+          "status": "clear"
+        },
+        { "text": "2 tbsp Fresh Parsley, chopped", "destinations": [8], "status": "clear" },
+        {
+          "text": "1 tbsp Fresh Dill or Tarragon, chopped (optional)",
+          "destinations": [8],
+          "status": "clear"
+        },
+        { "text": "1/4 tsp Black Pepper", "destinations": [8], "status": "clear" },
+        { "text": "Zest of 1 Lemon", "destinations": [8], "status": "clear" }
+      ],
+      "process": [
+        {
+          "stage": 1,
+          "minutes": 0.5,
+          "dependencies": [],
+          "attention": true,
+          "equipment": "fine-mesh strainer"
+        },
+        {
+          "stage": 2,
+          "minutes": "3-4",
+          "dependencies": [1],
+          "attention": true,
+          "equipment": "large skillet"
+        },
+        {
+          "stage": 3,
+          "minutes": "3-4",
+          "dependencies": [2],
+          "attention": true,
+          "equipment": "large skillet"
+        },
+        {
+          "stage": 4,
+          "minutes": 2,
+          "dependencies": [3],
+          "attention": true,
+          "equipment": "large skillet"
+        },
+        {
+          "stage": 5,
+          "minutes": null,
+          "dependencies": [4],
+          "attention": true,
+          "equipment": "large skillet"
+        },
+        {
+          "stage": 6,
+          "minutes": 15,
+          "dependencies": [5],
+          "attention": false,
+          "equipment": "covered skillet"
+        },
+        {
+          "stage": 7,
+          "minutes": 5,
+          "dependencies": [6],
+          "attention": false,
+          "equipment": "covered skillet"
+        },
+        {
+          "stage": 8,
+          "minutes": null,
+          "dependencies": [7],
+          "attention": true,
+          "equipment": "fork"
+        },
+        { "stage": 9, "minutes": null, "dependencies": [8], "attention": false, "equipment": null },
+        {
+          "stage": 10,
+          "minutes": null,
+          "dependencies": [9],
+          "attention": true,
+          "equipment": "refrigerator; reheating vessel unspecified"
+        }
+      ],
+      "findings": [
+        {
+          "id": "qpa-1",
+          "supportingText": "totalTime: 35 min; Toast almonds 3-4 minutes; sauté aromatics 3-4 minutes; toast quinoa 2 minutes; simmer 15 minutes; rest 5 minutes",
+          "category": "timing",
+          "severity": "material",
+          "evidenceIds": ["IC3"],
+          "explanation": "These mandatory sequential stages total 28-30.5 minutes before broth reaches a boil and finish work; 35 minutes may be understated, with preheat/boil time unknown."
+        },
+        {
+          "id": "qpa-2",
+          "supportingText": "1/2 tsp Kosher Salt; Add the diced onion and a pinch of salt; add 1/2 tsp salt",
+          "category": "ingredient accounting",
+          "severity": "minor",
+          "evidenceIds": ["IC2"],
+          "explanation": "The pinch is an additional unquantified salt addition beyond the listed 1/2 tsp; exact total salt is ambiguous."
+        },
+        {
+          "id": "qpa-3",
+          "supportingText": "keeps refrigerated for up to 4 days",
+          "category": "safety/storage",
+          "severity": "material",
+          "evidenceIds": [],
+          "explanation": "Storage duration is an unverified safety claim and the supplied packet expressly lacks cooling/storage guidance; requires review."
+        }
+      ],
+      "proposedEdits": [],
+      "unresolved": [
+        "scaling: verify absorption and yield across servings; broth product and pan affect results",
+        "nutrition plausibility: no recalculation; values need serving-basis review",
+        "equipment: large skillet and tight lid are stated; capacity and reheating vessel unspecified",
+        "substitutions: broth, oil/butter, dried fruit, and dill/tarragon alternatives are explicit",
+        "attribution: no source attribution supplied",
+        "relationships: pairsWith present; no duplicate determination"
+      ],
+      "identityPreserved": [
+        "quinoa pilaf method",
+        "toasted almonds",
+        "aromatics in fat",
+        "optional dried fruit and herbs"
+      ]
+    },
+    {
+      "slug": "creamy-polenta",
+      "inputSha256": "a86765d1ae397eab25f6cd0744956b12794545acc9b40d84f063eae792d8fa35",
+      "ingredientLedger": [
+        {
+          "text": "1 cup Coarse-Ground Polenta or Yellow Cornmeal (not instant)",
+          "destinations": [2, 3],
+          "status": "clear"
+        },
+        { "text": "4 cups Water", "destinations": [1, 3, 6], "status": "clear" },
+        { "text": "1 cup Whole Milk", "destinations": [1, 3, 6], "status": "clear" },
+        { "text": "1 tsp Kosher Salt", "destinations": [1, 5], "status": "clear" },
+        { "text": "2 tbsp Unsalted Butter", "destinations": [5], "status": "clear" },
+        { "text": "1/2 cup Parmesan, finely grated", "destinations": [5], "status": "clear" },
+        { "text": "Black Pepper to taste", "destinations": [5], "status": "clear" }
+      ],
+      "process": [
+        {
+          "stage": 1,
+          "minutes": null,
+          "dependencies": [],
+          "attention": true,
+          "equipment": "medium heavy-bottomed saucepan"
+        },
+        {
+          "stage": 2,
+          "minutes": 2,
+          "dependencies": [1],
+          "attention": true,
+          "equipment": "saucepan; whisk"
+        },
+        {
+          "stage": 3,
+          "minutes": "35-40",
+          "dependencies": [2],
+          "attention": true,
+          "equipment": "saucepan; wooden spoon or silicone spatula"
+        },
+        {
+          "stage": 4,
+          "minutes": null,
+          "dependencies": [3],
+          "attention": true,
+          "equipment": "saucepan"
+        },
+        {
+          "stage": 5,
+          "minutes": null,
+          "dependencies": [4],
+          "attention": true,
+          "equipment": "saucepan"
+        },
+        {
+          "stage": 6,
+          "minutes": null,
+          "dependencies": [5],
+          "attention": true,
+          "equipment": "saucepan; whisk"
+        }
+      ],
+      "findings": [
+        {
+          "id": "cp-1",
+          "supportingText": "prepTime: 5 min; cookTime: 40 min; totalTime: 45 min; Combine ... Bring to a gentle boil ... Cook for 35-40 minutes",
+          "category": "timing",
+          "severity": "minor",
+          "evidenceIds": ["IC3"],
+          "explanation": "The 5-minute prep plus a full 40-minute cook leaves no allowance for the unspecified time to bring liquid to a boil or enrichment/serve steps; total is a planning estimate rather than fully supported elapsed time."
+        },
+        {
+          "id": "cp-2",
+          "supportingText": "If the polenta becomes too thick ... add splashes of warm water or milk",
+          "category": "scaling",
+          "severity": "minor",
+          "evidenceIds": ["grains"],
+          "explanation": "Added loosening liquid is intentionally variable, so finished yield and exact absorption remain unknown."
+        }
+      ],
+      "proposedEdits": [],
+      "unresolved": [
+        "nutrition plausibility: values are present but no recalculation performed",
+        "equipment: saucepan and stirring tools are stated; capacity unspecified",
+        "substitutions: polenta/cornmeal and water/milk choices are explicit; no further substitutions assessed",
+        "attribution: no source attribution supplied",
+        "relationships: pairsWith present; no duplicate determination",
+        "texture endpoint: creamy/not gritty and thick porridge are stated; grain product variation remains"
+      ],
+      "identityPreserved": [
+        "coarse-ground non-instant polenta",
+        "slow hydration",
+        "butter and Parmesan enrichment",
+        "Italian origin"
+      ]
+    }
+  ],
+  "limitations": [
+    "Reviewed only the four assigned recipe files, grain-hydration evidence packet, and internal-consistency packet; no kitchen test or recalculation performed.",
+    "Cost unavailable (null).",
+    "No source recipe bytes were modified."
+  ]
+}

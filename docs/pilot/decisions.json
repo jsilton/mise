@@ -98,5 +98,21 @@
     "referenceId": "buttered-egg-noodles-2",
     "workerFindingId": null,
     "trial": "pasta-internal-only"
+  },
+  {
+    "id": "BP-E1",
+    "slug": "blueberry-pancakes",
+    "category": "routine-edit",
+    "disposition": "accepted",
+    "trial": "source-backed-v2",
+    "rationale": "Exact source block matches. Griddle is an existing canonical method and explicit cooking equipment; no-cook contradicts cooking the batter."
+  },
+  {
+    "id": "BW-E1",
+    "slug": "buttermilk-waffles",
+    "category": "routine-edit",
+    "disposition": "rejected",
+    "trial": "source-backed-v2",
+    "rationale": "Worker invents waffle-iron taxonomy without checking allowed canonical methods. Source steam tag may be incomplete but replacement needs taxonomy decision; not accepted unchanged."
   }
 ]

@@ -1,0 +1,24 @@
+{
+  "recordedAt": "2026-09-06",
+  "workers": [
+    {
+      "file": "quick-batters.json",
+      "assignedModel": "gpt-5.6-luna",
+      "reasoning": "low",
+      "reportedModelValid": false,
+      "reportedTimingValid": false,
+      "timingReason": "Future local timestamps inconsistent with receipt; do not use in metrics.",
+      "actualCostUSD": null
+    },
+    {
+      "file": "grain-hydration.json",
+      "assignedModel": "gpt-5.6-luna",
+      "reasoning": "low",
+      "reportedModelValid": false,
+      "reportedTimingValid": null,
+      "timingReason": "Worker asked to confirm clock observation; no verified timing measurement yet.",
+      "actualCostUSD": null
+    }
+  ],
+  "note": "Raw worker outputs preserved. Metadata is not trusted merely because supplied by a worker. Full adjudication pending."
+}

@@ -1,0 +1,451 @@
+{
+  "model": "gpt-5",
+  "startedAt": "2026-09-06T23:35:00-04:00",
+  "finishedAt": "2026-09-06T23:43:00-04:00",
+  "usage": { "inputTokens": null, "outputTokens": null, "usd": null },
+  "recipes": [
+    {
+      "slug": "banana-nut-bread",
+      "inputSha256": "97d2a7b947f9239904c9b4719d0258945482304d660a40c8db5fa4934c251dda",
+      "ingredientLedger": [
+        {
+          "text": "3 large Very Ripe Bananas (about 375g), mashed",
+          "destinations": [3],
+          "status": "ok"
+        },
+        {
+          "text": "1/2 cup (1 stick) Unsalted Butter, melted and cooled",
+          "destinations": [2, 3],
+          "status": "ok"
+        },
+        { "text": "1 cup Granulated Sugar", "destinations": [3], "status": "ok" },
+        { "text": "2 large Eggs, room temperature", "destinations": [3], "status": "ok" },
+        { "text": "2 cups All-Purpose Flour (250g)", "destinations": [4, 5], "status": "ok" },
+        { "text": "1 tsp Baking Soda", "destinations": [4, 5], "status": "ok" },
+        { "text": "1/2 tsp Kosher Salt", "destinations": [4, 5], "status": "ok" },
+        {
+          "text": "1/2 cup Walnuts or Toasted Sunflower Seeds, chopped",
+          "destinations": [5],
+          "status": "ok; substitution stated"
+        },
+        { "text": "1 tsp Vanilla Extract", "destinations": [3], "status": "ok" }
+      ],
+      "process": [
+        {
+          "stage": "Prep/preheat",
+          "minutes": null,
+          "dependsOn": [],
+          "attention": true,
+          "equipment": "oven; 9x5 loaf pan"
+        },
+        {
+          "stage": "Melt/cool butter",
+          "minutes": null,
+          "dependsOn": [1],
+          "attention": false,
+          "equipment": "unspecified"
+        },
+        {
+          "stage": "Whisk wet",
+          "minutes": null,
+          "dependsOn": [2],
+          "attention": true,
+          "equipment": "large bowl; whisk"
+        },
+        {
+          "stage": "Whisk dry",
+          "minutes": null,
+          "dependsOn": [],
+          "attention": true,
+          "equipment": "separate bowl; whisk"
+        },
+        {
+          "stage": "Fold and add nuts",
+          "minutes": null,
+          "dependsOn": [3, 4],
+          "attention": true,
+          "equipment": "spatula"
+        },
+        {
+          "stage": "Bake",
+          "minutes": "55-60",
+          "dependsOn": [1, 5],
+          "attention": true,
+          "equipment": "9x5 loaf pan; oven"
+        },
+        {
+          "stage": "Cool",
+          "minutes": 10,
+          "dependsOn": [6],
+          "attention": false,
+          "equipment": "wire rack"
+        }
+      ],
+      "findings": [
+        {
+          "id": "BNB-1",
+          "supportingText": "prepTime: 15 min; cookTime: 55 min; totalTime: 70 min; Bake for 55-60 minutes... cool in the pan for 10 minutes",
+          "category": "timing",
+          "severity": "material",
+          "evidenceIds": ["IC3"],
+          "explanation": "Listed total omits the stated 10-minute cooling and the 60-minute upper bake bound; minimum sequential prep+bake+cool is 80 minutes."
+        },
+        {
+          "id": "BNB-2",
+          "supportingText": "nutrition: calories: 310; protein: 7.5; carbs: 54.5; fat: 8.5; fiber: 4.5; sugar: 27.5; sodium: 380",
+          "category": "nutrition plausibility",
+          "severity": "material",
+          "evidenceIds": [],
+          "explanation": "Per-serving nutrition is not internally verifiable from the frozen text without recalculation; fat/fiber values require formula-specific review."
+        }
+      ],
+      "proposedEdits": [],
+      "unresolved": [
+        "Confirm totalTime against bake range and 10-minute cooling; do not infer a replacement value.",
+        "Verify nutrition per serving and whether 10 servings is finished loaf yield.",
+        "Confirm whether walnuts/sunflower-seed alternative has intended allergen labeling."
+      ],
+      "identityPreserved": [
+        "very ripe bananas",
+        "melted butter",
+        "banana bread bake",
+        "walnuts or toasted sunflower seeds option",
+        "United States attribution"
+      ]
+    },
+    {
+      "slug": "blueberry-pancakes",
+      "inputSha256": "676fc78f37e15dfe041108be5209f98ff081a8e70f1b45130f48c354b35d7cb7",
+      "ingredientLedger": [
+        { "text": "2 large Eggs", "destinations": [2], "status": "ok" },
+        { "text": "1 cup Whole Milk", "destinations": [2], "status": "ok" },
+        { "text": "2 tsp Vanilla Extract", "destinations": [2], "status": "ok" },
+        {
+          "text": "3 tbsp Unsalted Butter, melted and cooled",
+          "destinations": [2],
+          "status": "ok"
+        },
+        { "text": "1 1/2 cups All-Purpose Flour", "destinations": [3], "status": "ok" },
+        { "text": "3/4 tsp Fine Sea Salt", "destinations": [3], "status": "ok" },
+        { "text": "2 tsp Baking Powder", "destinations": [3], "status": "ok" },
+        { "text": "2 tbsp Honey", "destinations": [2], "status": "ok" },
+        { "text": "3/4 cup Fresh Blueberries", "destinations": [5], "status": "ok" }
+      ],
+      "process": [
+        {
+          "stage": "Heat/grease griddle",
+          "minutes": null,
+          "dependsOn": [],
+          "attention": true,
+          "equipment": "350°F griddle or skillet"
+        },
+        {
+          "stage": "Whisk aeration",
+          "minutes": "2-3",
+          "dependsOn": [],
+          "attention": true,
+          "equipment": "large bowl; whisk"
+        },
+        {
+          "stage": "Combine",
+          "minutes": null,
+          "dependsOn": [2],
+          "attention": true,
+          "equipment": "spatula; sifter"
+        },
+        {
+          "stage": "Rest",
+          "minutes": 5,
+          "dependsOn": [3],
+          "attention": false,
+          "equipment": "unspecified"
+        },
+        {
+          "stage": "Portion/add berries",
+          "minutes": null,
+          "dependsOn": [1, 4],
+          "attention": true,
+          "equipment": "1/4 cup scoop; griddle"
+        },
+        {
+          "stage": "Cook/flip",
+          "minutes": "2 + 2 per pancake",
+          "dependsOn": [5],
+          "attention": true,
+          "equipment": "griddle/skillet"
+        }
+      ],
+      "findings": [
+        {
+          "id": "BP-1",
+          "supportingText": "cookingMethods:\n  - no-cook",
+          "category": "metadata",
+          "severity": "material",
+          "evidenceIds": ["IC5"],
+          "explanation": "Recipe heats and cooks batter on a griddle; no-cook contradicts the body."
+        },
+        {
+          "id": "BP-2",
+          "supportingText": "A few lumps are mandatory - do not overmix!",
+          "category": "process",
+          "severity": "minor",
+          "evidenceIds": ["mixing-experiment"],
+          "explanation": "Packet supports gentle combining and says small lumps are acceptable, but does not support a mandatory lump count; dry flour spots should be incorporated."
+        },
+        {
+          "id": "BP-3",
+          "supportingText": "nutrition: ... sodium: 700",
+          "category": "nutrition plausibility",
+          "severity": "material",
+          "evidenceIds": [],
+          "explanation": "Sodium per stated 12-pancake yield is unusually high and cannot be validated without formula-specific recalculation."
+        }
+      ],
+      "proposedEdits": [
+        {
+          "id": "BP-E1",
+          "original": "cookingMethods:\n  - no-cook",
+          "replacement": "cookingMethods:\n  - griddle",
+          "routine": true,
+          "findingIds": ["BP-1"],
+          "explanation": "Corrects the mechanically contradicted cooking-method label to match the explicit griddle process."
+        }
+      ],
+      "unresolved": [
+        "Confirm whether 3/4 cup berries and 1 tbsp per pancake reconcile with exactly 12 pancakes.",
+        "Confirm finished yield and nutrition basis; no recalculation performed.",
+        "No equipment capacity or batch count is stated, so total cook time cannot be independently reconstructed."
+      ],
+      "identityPreserved": [
+        "blueberries added on griddle",
+        "honey-sweetened batter",
+        "rest step",
+        "United States attribution"
+      ]
+    },
+    {
+      "slug": "buttermilk-waffles",
+      "inputSha256": "c718e22f8f327d96c8a10d00a57a776c8b44e0315272366cd0108fd90e296b51",
+      "ingredientLedger": [
+        { "text": "2 cups All-Purpose Flour", "destinations": [1, 3], "status": "ok" },
+        { "text": "2 tbsp Sugar", "destinations": [1], "status": "ok" },
+        { "text": "2 tsp Baking Powder", "destinations": [1], "status": "ok" },
+        { "text": "1 tsp Baking Soda", "destinations": [1], "status": "ok" },
+        { "text": "1/2 tsp Sea Salt", "destinations": [1], "status": "ok" },
+        { "text": "2 cups Whole Buttermilk", "destinations": [2], "status": "ok" },
+        { "text": "1/3 cup Unsalted Butter, melted", "destinations": [2], "status": "ok" },
+        { "text": "2 large Eggs", "destinations": [2], "status": "ok" },
+        { "text": "1 tsp Vanilla Extract", "destinations": [3], "status": "ok" }
+      ],
+      "process": [
+        {
+          "stage": "Dry mix",
+          "minutes": null,
+          "dependsOn": [],
+          "attention": true,
+          "equipment": "large bowl; whisk"
+        },
+        {
+          "stage": "Wet mix",
+          "minutes": null,
+          "dependsOn": [],
+          "attention": true,
+          "equipment": "separate bowl; whisk"
+        },
+        {
+          "stage": "Combine",
+          "minutes": null,
+          "dependsOn": [1, 2],
+          "attention": true,
+          "equipment": "whisk"
+        },
+        {
+          "stage": "Rest",
+          "minutes": "10-15",
+          "dependsOn": [3],
+          "attention": false,
+          "equipment": "room temperature"
+        },
+        {
+          "stage": "Preheat/grease/cook",
+          "minutes": null,
+          "dependsOn": [4],
+          "attention": true,
+          "equipment": "waffle iron"
+        }
+      ],
+      "findings": [
+        {
+          "id": "BW-1",
+          "supportingText": "cookingMethods:\n  - steam",
+          "category": "metadata",
+          "severity": "material",
+          "evidenceIds": ["IC5"],
+          "explanation": "The directions use a waffle iron and a steam-stop endpoint; steam is not a sufficient cooking-method label for the described appliance process."
+        },
+        {
+          "id": "BW-2",
+          "supportingText": "prepTime: 10 min; cookTime: 10 min; totalTime: 30 min; rest ... 10-15 minutes; Cook ... depending on your iron size",
+          "category": "timing",
+          "severity": "material",
+          "evidenceIds": ["IC3"],
+          "explanation": "Total includes an unstated/uncertain waffle-iron preheat and batch capacity while cookTime does not explain whether 10 minutes is per batch or total."
+        },
+        {
+          "id": "BW-3",
+          "supportingText": "nutrition: calories: 995; protein: 7; carbs: 36.5; fat: 94; ... servings: '6'",
+          "category": "nutrition plausibility",
+          "severity": "material",
+          "evidenceIds": [],
+          "explanation": "The frozen nutrition panel has internally suspect per-serving values and requires formula-specific recalculation/review."
+        }
+      ],
+      "proposedEdits": [
+        {
+          "id": "BW-E1",
+          "original": "cookingMethods:\n  - steam",
+          "replacement": "cookingMethods:\n  - waffle-iron",
+          "routine": true,
+          "findingIds": ["BW-1"],
+          "explanation": "Corrects the metadata label to the explicit appliance process; confirm allowed taxonomy before publication."
+        }
+      ],
+      "unresolved": [
+        "Confirm supported cookingMethods taxonomy for waffle iron and whether steam should remain as a secondary method.",
+        "State waffle-iron size/capacity and batch count before resolving totalTime/cookTime.",
+        "Verify nutrition panel and serving basis; no recalculation performed."
+      ],
+      "identityPreserved": [
+        "buttermilk acidity",
+        "rested batter",
+        "waffle-iron cooking",
+        "United States attribution"
+      ]
+    },
+    {
+      "slug": "frozen-blueberry-muffins",
+      "inputSha256": "1b554b7e83f6afc360d590ac192ed088f202cc942c0d16048cf7b03ca2797314",
+      "ingredientLedger": [
+        { "text": "4 cups All-Purpose Flour", "destinations": [2, 3], "status": "ok" },
+        {
+          "text": "2 cups Granulated Sugar (divided)",
+          "destinations": [1, 5],
+          "status": "ok; method allocations total 2 cups"
+        },
+        {
+          "text": "1 cup (2 sticks) Unsalted Butter, softened",
+          "destinations": [1],
+          "status": "ok"
+        },
+        { "text": "4 large Eggs", "destinations": [1], "status": "ok" },
+        { "text": "1 cup 2% Milk", "destinations": [1], "status": "ok" },
+        { "text": "2 cups Frozen Unsweetened Blueberries", "destinations": [4], "status": "ok" },
+        { "text": "4 tsp Baking Powder", "destinations": [2], "status": "ok" },
+        { "text": "1/2 tsp Sea Salt", "destinations": [2], "status": "ok" },
+        { "text": "2 tsp Vanilla Extract", "destinations": [1], "status": "ok" },
+        { "text": "1/2 tsp Ground Nutmeg", "destinations": [5], "status": "ok" }
+      ],
+      "process": [
+        {
+          "stage": "Preheat/grease tins/cream",
+          "minutes": "3-5 for creaming; preheat unknown",
+          "dependsOn": [],
+          "attention": true,
+          "equipment": "oven; two 12-cup muffin tins; large bowl; stand mixer listed"
+        },
+        {
+          "stage": "Add eggs/milk/vanilla",
+          "minutes": null,
+          "dependsOn": [1],
+          "attention": true,
+          "equipment": "large bowl"
+        },
+        {
+          "stage": "Dry mix",
+          "minutes": null,
+          "dependsOn": [],
+          "attention": true,
+          "equipment": "whisk; bowl"
+        },
+        {
+          "stage": "Fold dry into wet",
+          "minutes": null,
+          "dependsOn": [2, 3],
+          "attention": true,
+          "equipment": "unspecified"
+        },
+        {
+          "stage": "Fold frozen berries",
+          "minutes": null,
+          "dependsOn": [4],
+          "attention": true,
+          "equipment": "unspecified"
+        },
+        {
+          "stage": "Make topping/fill",
+          "minutes": null,
+          "dependsOn": [1, 5],
+          "attention": true,
+          "equipment": "small bowl; muffin tins"
+        },
+        {
+          "stage": "Bake",
+          "minutes": "20-25",
+          "dependsOn": [6],
+          "attention": true,
+          "equipment": "oven; muffin tins"
+        },
+        {
+          "stage": "Cool",
+          "minutes": 10,
+          "dependsOn": [7],
+          "attention": false,
+          "equipment": "wire rack"
+        }
+      ],
+      "findings": [
+        {
+          "id": "FBM-1",
+          "supportingText": "prepTime: 10 min; cookTime: 20 min; totalTime: 30 min; Bake for 20-25 minutes ... Cool ... 10 minutes",
+          "category": "timing",
+          "severity": "material",
+          "evidenceIds": ["IC3"],
+          "explanation": "Listed total omits the stated 10-minute cooling and the 25-minute upper bake bound; the stated stages already exceed 30 minutes before preheating."
+        },
+        {
+          "id": "FBM-2",
+          "supportingText": "servings: '24'; Grease two 12-cup muffin tins; Divide the batter among the cups (about 2/3 full)",
+          "category": "scaling/yield",
+          "severity": "minor",
+          "evidenceIds": ["IC1"],
+          "explanation": "Yield and pan capacity align, but batter volume and fill level are not independently demonstrated by the frozen text."
+        },
+        {
+          "id": "FBM-3",
+          "supportingText": "nutrition: calories: 160; ... fat: 1",
+          "category": "nutrition plausibility",
+          "severity": "material",
+          "evidenceIds": [],
+          "explanation": "Fat value is not plausible on its face for a formula containing one cup butter, but no recalculation is authorized; requires formula-specific review."
+        }
+      ],
+      "proposedEdits": [],
+      "unresolved": [
+        "Confirm totalTime after accounting for preheat, 20-25 minute bake and 10-minute cooling.",
+        "Verify nutrition panel, especially fat, against the stated 24-serving yield; no recalculation performed.",
+        "Clarify whether stand mixer is required or merely available equipment."
+      ],
+      "identityPreserved": [
+        "frozen blueberries",
+        "nutmeg sugar topping",
+        "two-tin muffin bake",
+        "make-ahead/freeze-ahead identity",
+        "United States attribution"
+      ]
+    }
+  ],
+  "limitations": [
+    "Reviewed only the four assigned recipe files, quick-batters evidence packet, internal-consistency packet and manifest hashes.",
+    "No kitchen test, independent browsing, nutrition recalculation, or source-recipe edits performed."
+  ]
+}
