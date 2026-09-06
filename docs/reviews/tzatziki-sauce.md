@@ -14,3 +14,7 @@ Date: 2026-09-06. Status: editorial review; no physical kitchen test recorded.
 Four souvlaki plates use 1/2 cup prepared sauce; a quarter batch should provide at least that amount, with small variation from draining. The larger batch suits meal prep or gatherings. Test drained cucumber weight, final volume, garlic development after 15 minutes and overnight, and 35-minute workflow.
 
 Twenty-fourth batch relationship check: removed the lamb burger from automatic pairsWith because it already contains a mint yogurt sauce. The burger and turkey pita recipes now link to this tzatziki explicitly as a measured replacement, never as a second required sauce. The tzatziki formula is unchanged.
+
+## Household-preference follow-up
+
+Household-preference naming clarification, 6 September 2026: display title changed to Dill Tzatziki while retaining the tzatziki-sauce slug, grated-cucumber/dill/lemon formula and approximate 2 1/2–3-cup yield. The new Mint Tzatziki with Honey is a distinct household variation extracted from the lamb burger, not a duplicate of this sauce. Existing chicken, souvlaki and turkey replacement quantities are not automatically changed by the household's preference.

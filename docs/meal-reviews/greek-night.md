@@ -13,3 +13,7 @@ The preserved couscous plate is a replacement variation: omit all four breads, m
 A separate attribution error in pending Mediterranean Chicken Night was corrected: standalone tzatziki is not the lamb recipe's mint sauce. Its overall timing/composition remains pending and is not counted by that correction.
 
 Kitchen validation still needed: four-person portion size, yogurt quantity, salad salt alongside lamb, two-batch skillet pace and holding texture, simultaneous oven bread timing, one-cook attention for the couscous variation, full elapsed/active estimates and reheated quality. No physical meal test recorded.
+
+## Household-preference follow-up
+
+Household-preference extraction, 6 September 2026: the burger's already-included mint yogurt is now one full standalone Mint Tzatziki with Honey batch, approximately 1 1/2 cups, with explicit links in the meal overview and first preparation step. Keep one main, one village salad and four breads; do not count a second sauce preparation/card. Initial sauce portions remain 2–3 tablespoons per pita with extra at the table. The extraction preserves the 75-minute elapsed/55-minute active schedule and all existing couscous-variation accounting. Honey is a user-requested adaptation with a proposed one-teaspoon starting amount, not a historical quantity verified in the archive.

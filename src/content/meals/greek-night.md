@@ -30,7 +30,7 @@ review:
 
 ## Meal Overview
 
-For four diners, prepare one full batch of Greek-Style Lamb Burgers with Mint Yogurt and one full Greek Village Salad. The main already includes **680 g lamb, four pitas and its cucumber-mint yogurt sauce**. Do not add another batch of bread or a second yogurt sauce.
+For four diners, prepare one full batch of Greek-Style Lamb Burgers with Mint Yogurt and one full Greek Village Salad. The main already includes **680 g lamb, four pitas and one batch of [Mint Tzatziki with Honey](/mise/recipes/mint-tzatziki), approximately 1 1/2 cups**. Do not add another batch of bread or a second yogurt sauce.
 
 For this dinner, omit the burger recipe’s optional feta, tomato and greens: the salad already provides 600 g tomatoes, 300 g cucumber, 120 g pepper, 50 g onion, 60 g olives and 150 g feta. Keep the salad’s light oil-and-vinegar dressing; the mint yogurt belongs in the pitas. This gives rich hot lamb, soft bread, cool tangy sauce and substantial crisp vegetables without repeating cheese and salad toppings inside every sandwich.
 
@@ -38,7 +38,7 @@ Allow about **75 minutes elapsed and 55 minutes active** for one cook using a sk
 
 ## Cooking Strategy
 
-1. **Prepare the cold components:** Make the lamb recipe’s full cucumber-mint yogurt sauce and refrigerate it. Wash and cut all the village-salad vegetables before handling raw meat; refrigerate them separately from the dressing, feta and olives. Omit the burger’s optional toppings for this menu.
+1. **Prepare the cold components:** Make the one full batch of [Mint Tzatziki with Honey](/mise/recipes/mint-tzatziki) already included in the lamb recipe, approximately 1 1/2 cups, and refrigerate it. Wash and cut all the village-salad vegetables before handling raw meat; refrigerate them separately from the dressing, feta and olives. Omit the burger’s optional toppings for this menu.
 2. **Shape and heat:** Follow the lamb recipe’s measured onion, garlic, herbs and seasonings; form four equal patties about 3/4 inch thick. Heat the oven to 350°F / 175°C and preheat the skillet. Keep the second pair of raw patties refrigerated while the first pair cooks.
 3. **Cook the first pair:** Use the first teaspoon of the recipe’s skillet oil. Brown both sides, lower heat as needed, and measure each center from the side to confirm 160°F / 71°C. Transfer to a clean plate and cover loosely. Do not use the raw-meat plate for cooked burgers.
 4. **Finish meat and bread:** Cook the second pair with the remaining teaspoon of oil and the same endpoint check. During this batch, warm **the four breads already counted in the burger recipe** as a foil-wrapped stack using [Warm, Soft Pita Bread’s oven method](/mise/recipes/warm-pita-bread#oven-alternative). Omit its optional oil and salt. Check the center bread and keep the stack wrapped. The first pair of burgers has a short wait and will lose some crispness; do not promise simultaneous fresh-off-the-pan texture from one small skillet.
@@ -52,4 +52,4 @@ The couscous needs about twenty minutes including preparation and finishing, not
 
 ## Make ahead and leftovers
 
-Prepare the sauce and washed vegetables ahead and refrigerate; dress the salad and fill the breads just before serving. Store cooked meat and sauce separately in shallow containers at 40°F / 4°C or below within 2 hours (1 hour above 90°F / 32°C). Use within 3–4 days and reheat meat to 165°F / 74°C. The dressed salad is best by the next day for texture. Follow the individual recipes for bread and couscous storage.
+Prepare the sauce and washed vegetables ahead and refrigerate; dress the salad and fill the breads just before serving. Store cooked meat and sauce separately in shallow containers at 40°F / 4°C or below within 2 hours (1 hour above 90°F / 32°C). Use within 3–4 days, counting sauce storage from its original mixing date, and reheat meat to 165°F / 74°C. The dressed salad is best by the next day for texture. Follow the individual recipes for bread and couscous storage.

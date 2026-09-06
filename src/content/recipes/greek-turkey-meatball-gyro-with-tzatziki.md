@@ -111,7 +111,7 @@ learning:
         Keep the 165°F / 74°C poultry endpoint. Lean breast-only mince dries
         more readily; the same time is not guaranteed.
     - ingredient: Inline cucumber-yogurt sauce
-      alternative: About 1 cup already prepared Tzatziki Sauce
+      alternative: About 1 cup already prepared Dill Tzatziki
       effect: >-
         Replaces the entire inline sauce. Do not add a second batch; keep its
         original storage date.
@@ -162,4 +162,4 @@ This is a Greek-inspired meatball sandwich, not shaved spit-roasted gyro meat. A
 
 ## Sauce alternative
 
-Use about 1 cup [prepared Tzatziki Sauce](/mise/recipes/tzatziki-sauce) instead of the whole inline sauce if it is already available. This is a substitution, not an extra component.
+Use about 1 cup [prepared Dill Tzatziki](/mise/recipes/tzatziki-sauce) instead of the whole inline sauce if it is already available. This is a substitution, not an extra component.

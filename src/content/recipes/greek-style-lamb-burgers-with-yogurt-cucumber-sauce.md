@@ -32,15 +32,10 @@ ingredients:
   - '1 tsp Diamond Crystal kosher salt or 1/2 tsp fine salt, for the patties'
   - '1/2 tsp ground black pepper, for the patties'
   - '2 tsp olive oil, for the skillet, divided'
-  - '--- Cucumber-mint yogurt ---'
-  - 1 cup (240 g) plain full-fat Greek yogurt
-  - '100 g English cucumber, finely diced and patted dry'
-  - '1 tbsp finely chopped fresh mint, for the sauce'
-  - '1 tbsp extra-virgin olive oil, for the sauce'
-  - '1 small clove garlic, finely grated, for the sauce'
-  - '1 tsp fresh lemon juice, plus 1 tsp more only if needed'
-  - '1/4 tsp Diamond Crystal kosher salt or 1/8 tsp fine salt, for the sauce'
-  - '1/8 tsp ground black pepper, for the sauce'
+  - '--- Mint tzatziki ---'
+  - >-
+    1 1/2 cups prepared [Mint Tzatziki with Honey](/mise/recipes/mint-tzatziki),
+    approximately
   - '--- To serve ---'
   - >-
     4 pita breads, about 6–7 inches across; warm using [Warm, Soft Pita
@@ -63,6 +58,7 @@ equipment:
   - rimmed-baking-sheet
 usesBase:
   - warm-pita-bread
+  - mint-tzatziki
 learning:
   focus: 'Build a browned lamb patty without compacting it, then measure its center'
   outcome: >-
@@ -129,7 +125,7 @@ learning:
         Less lamb flavor; retain the 160°F / 71°C ground-meat endpoint and
         measure each patty.
     - ingredient: Mint yogurt sauce
-      alternative: About 1 1/4 cups prepared Tzatziki Sauce
+      alternative: About 1 1/4 cups prepared Dill Tzatziki
       effect: >-
         Use as a replacement, not an additional sauce. The linked standalone
         tzatziki uses drained grated cucumber and dill and makes more than is
@@ -142,7 +138,7 @@ learning:
     elapsed time, but endpoints still govern.
   storage: >-
     Refrigerate cooked patties and sauce separately within 2 hours (1 hour above
-    90°F / 32°C), at 40°F / 4°C or below. Use within 3–4 days; reheat patties to
+    90°F / 32°C), at 40°F / 4°C or below. Use within 3–4 days; count sauce storage from its original mixing date. Reheat patties to
     165°F / 74°C. Keep bread unfilled until serving. Prepared raw patties follow
     the meat’s original use-by/storage limit.
   sources:
@@ -170,11 +166,11 @@ Mint and parsley lighten the impression of rich lamb, while thick yogurt adds a 
 
 ## Directions
 
-1. **Make the sauce and prepare toppings:** Stir yogurt, the dried diced cucumber, sauce mint, sauce oil, sauce garlic, the initial teaspoon of lemon juice, sauce salt and sauce pepper. Refrigerate while preparing the meat. Slice any optional tomato and wash/dry greens before handling raw lamb. Heat the oven to 350°F / 175°C for the bread.
+1. **Make the sauce and prepare toppings:** Make one full batch of [Mint Tzatziki with Honey](/mise/recipes/mint-tzatziki), approximately 1 1/2 cups, or measure the same amount already prepared. This is the sauce counted in the ingredients; make it once. Refrigerate while preparing the meat. Slice any optional tomato and wash/dry greens before handling raw lamb. Heat the oven to 350°F / 175°C for the bread.
 2. **Mix and shape:** Combine cold lamb with onion, patty garlic, the three tablespoons each of mint and parsley, patty salt and patty pepper. Fold gently just until evenly mixed and cohesive. Divide into four equal patties, each using about 170 g meat plus its share of aromatics. Shape into broad rounds or ovals about 3/4 inch thick. Keep the second pair refrigerated while the first cooks.
 3. **Cook the first pair:** Heat a 12-inch heavy skillet over medium-high heat. Add 1 tsp of the skillet oil and two patties with space between them. Cook about 4–5 minutes on the first side until well browned, then turn with a broad spatula. Reduce to medium as needed and cook another 4–5 minutes, then check from the side into each center. Continue cooking and turning as needed until each reaches 160°F / 71°C; allow roughly 10–14 minutes per batch. Do not press out the juices. Transfer to a clean plate and cover loosely.
 4. **Cook the second pair and warm bread:** Carefully spoon excessive rendered fat into a heatproof container, leaving a thin film in the pan; add the remaining 1 tsp skillet oil. Cook the second pair with the same temperature check. During this batch, warm the four pitas as a foil-wrapped stack using the [oven method](/mise/recipes/warm-pita-bread#oven-alternative), without the optional finishing oil or salt. Check the center bread and keep the stack wrapped. The first patties soften and cool slightly during this brief wait; a large griddle avoids the wait if available.
-5. **Balance and assemble:** Stir and taste the chilled sauce, adding the reserved teaspoon of lemon only if needed. Start with 2–3 tbsp inside each pita and offer the remaining sauce alongside. Add one cooked patty to each and divide any optional feta, tomato and greens among them. Fold or serve open-faced if the bread is small. Serve promptly.
+5. **Balance and assemble:** Stir and taste the chilled mint tzatziki. Start with 2–3 tbsp inside each pita and offer the remaining sauce alongside. Add one cooked patty to each and divide any optional feta, tomato and greens among them. Fold or serve open-faced if the bread is small. Serve promptly.
 
 ## Grill option
 
@@ -182,4 +178,4 @@ Use clean grates and a medium-high cooking zone with a cooler area available. Us
 
 ## Sauce alternative
 
-If [Tzatziki Sauce](/mise/recipes/tzatziki-sauce) is already prepared, use about 1 1/4 cups in place of the entire cucumber-mint sauce. Do not make both. Keep its original preparation date when planning storage.
+If [Dill Tzatziki](/mise/recipes/tzatziki-sauce) is already prepared, use about 1 1/4 cups in place of the entire batch of Mint Tzatziki with Honey. Do not make both. Keep its original preparation date when planning storage.

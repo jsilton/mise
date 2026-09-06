@@ -29,7 +29,7 @@ review:
 
 ## Meal Overview
 
-For four people, make one full batch of Lemon-Oregano Chicken with Roasted Peppers, one full batch of Warm, Soft Pita Bread, and set aside **1/2 cup prepared Tzatziki Sauce**. A quarter batch of the tzatziki recipe supplies that amount with a little extra; do not make or serve a whole sauce batch by default.
+For four people, make one full batch of Lemon-Oregano Chicken with Roasted Peppers, one full batch of Warm, Soft Pita Bread, and set aside **1/2 cup prepared Dill Tzatziki**. A quarter batch of the tzatziki recipe supplies that amount with a little extra; do not make or serve a whole sauce batch by default.
 
 The main supplies 900 g raw boneless chicken thighs, 400 g trimmed peppers and 200 g onion. Four pitas are the starch. The cool sauce contrasts with the hot roast, and the fresh vegetables below add crispness. This is a generous dinner for four, with no extra rice, hummus or second cheese dip needed.
 

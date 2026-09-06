@@ -1,5 +1,5 @@
 ---
-title: Tzatziki Sauce
+title: Dill Tzatziki
 origin: Greece
 difficulty: easy
 cookingMethods:
