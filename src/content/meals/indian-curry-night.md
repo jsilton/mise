@@ -24,9 +24,9 @@ A rich, creamy vegetable korma that cooks itself in the slow cooker while you go
 
 1. **Morning: Start korma** - prep vegetables, add to slow cooker
 2. **Let slow cooker do its thing** - 6-8 hours on low
-3. **1 hour before dinner: Make naan dough** - needs time to rest
+3. **3 hours before dinner: Start naan** - allow for mixing, a full rise, dough relaxation and all twelve pan rounds; keep the dough covered as directed
 4. **45 min before: Start rice**
-5. **30 min before: Roll and cook naan**
+5. **45 min before: Roll and cook naan** - finish in successive rounds and keep the breads wrapped
 6. **Finish korma** - stir in cream/yogurt at the end
 7. **Serve family-style** with rice, naan, and chutneys
 

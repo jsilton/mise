@@ -626,3 +626,15 @@ Coverage: 154 reviewed original recipes + nine consolidations + 449 pending = 61
 Verification: all 29 QA checks pass, both explicit recipe checks have no errors, and 731 built pages have no broken destinations or anchors. The two expected pairing warnings reflect deliberately removed dessert-on-dessert links. Browser checks passed recovered authorship, complete times, pudding half/reset ingredients and fixed mix strength, the cheesecake’s fixed pan controls, all cookie destinations, working source link, cook mode and mobile/print. Root visually inspected the mobile cheesecake method.
 
 Do Chua and salmon meal batch 1bdaad090463304c03f9cf6b7cc73ff6e79b0d7c deployed successfully in Pages run 34039532632. Live checks passed sugar allocations, half scaling, two-component composition, four/five-diner instructions, full times, the redirect preserving query/fragment, sandwich dependency and mobile/print.
+
+## Thirty-ninth culinary batch: Meera Sodha's naan
+
+Individually reviewed the complete original naan and its sole creation history, corroborating its core formula with a permission-reprinted source. Preserved Meera Sodha and aunt Harsha attribution, milk/yogurt/oil richness, both leaveners and optional garlic butter. Defined weighed flour, deliberately selected fine salt, separate bounded hydration/dusting reserves, covered relaxation, all twelve pan rounds, and a thick-center doneness check. Independent review challenged the initial timing and edge-only check; the final three-hour planning allowance includes the entire process. Corrected Indian Curry Night's naan start time while its full composition remains pending.
+
+Coverage: 155 reviewed original recipes + nine consolidations + 448 pending = 612. Two additional reviewed recipes yield 157 reviewed canonical recipes among 605. Meals remain 32 reviewed, two consolidations and 54 pending; all eleven calendars remain pending. No physical kitchen tests.
+
+Verification: all 29 QA checks pass and 731 built pages have no missing destinations or anchors. Local browser checks passed complete timing and attribution, separate reserves, half/double/reset ingredients and yields, unchanged milk temperature, inline method cues, cook mode, corrected meal dependency, mobile width and print title. Root visually inspected the mobile method. One browser assertion incorrectly expected a plural cup label; the actual singular label and scaled amount were correct, and the corrected check passes.
+
+Dessert batch f7453bca2c5450d8c263ce7cb48f295daac424ea deployed successfully in Pages run 34040011758. Live checks passed recovered dessert identities, full times, pudding half/reset quantities and fixed packet strength, fixed cheesecake geometry, cookie allocations, source link, cook mode and mobile/print.
+
+Root held the initial rice/eggplant proposals despite their structural pass: separately cooked rice lost the shared purple cooking liquid, and basket-steamed eggplant discarded flavorful juices. Revised one-pot methods are being evaluated. The isolated mint SVG refinement also remains held after visual comparison; clearer subject size did not resolve the smoothly constructed yogurt forms.
