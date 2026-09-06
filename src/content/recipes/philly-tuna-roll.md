@@ -51,6 +51,7 @@ learning:
     A closed roll with a distinct cream-cheese center, crunchy cucumber and
     clean slices rather than a flattened cheese smear.
   techniques:
+    - cold-preparation
     - starch
   before:
     - >-

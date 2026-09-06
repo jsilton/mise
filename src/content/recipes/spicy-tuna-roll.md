@@ -53,6 +53,7 @@ learning:
   techniques:
     - seasoning
     - starch
+    - cold-preparation
   before:
     - >-
       Read the raw-fish sourcing note before buying. Freshly prepared shari

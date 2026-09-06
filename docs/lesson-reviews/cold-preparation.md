@@ -1,0 +1,60 @@
+# Cold preparation lesson — individual editorial proposal
+
+Date: 2026-09-06. Status: proposed editorial teaching; no kitchen test, repository change, meal certification or publication.
+
+## Intended lesson
+
+`cold-preparation.json` is a complete object with the exact `Technique` fields. `lesson.md` is its readable public copy. The organizing skill is sequencing cold assembly so that texture survives until service. Temperature and water are separate controls: firm cheese is easier to portion; cucumber preparation manages free liquid; dry finishes are added late; cold reserves and prompt rice cooling keep the assembly schedule responsible.
+
+This fills a real gap beside the existing temperature lesson, which chiefly teaches meat endpoints and probe placement. It complements the starch lesson's cooking and gelatinization content without duplicating a full starch explanation. It is not a raw-seafood certification guide, a refrigerator inventory checklist, or a claim that cold food is universally safer than cooked food. All relevant raw recipes retain their own detailed species, supplier, diner and storage guidance.
+
+Five controls, three cues, three troubleshooting cases and one cheese comparison are proposed. That is longer than the shortest existing lessons but each control addresses a distinct action required by the reviewed roll and poke methods. If space must be reduced, shorten prose rather than deleting the limits on raw seafood or turning rice's barely-warm assembly cue into a holding instruction.
+
+## Read set and rendering
+
+Read `CLAUDE.md`, the full current `docs/RECIPE_STANDARD.md`, `src/data/techniques.ts`, both public learning page templates, and full current Philly, spicy tuna and New York crunch roll recipes, Sushi Rice (Shari), Poke Bowl Bar, Mint Tzatziki with Honey and Dill Tzatziki. These are the only proposed recipe mappings. Recipe identities, formulas, servings, shopping choices and household preferences remain unchanged.
+
+The existing detail template renders every proposed field. It already supplies the disclaimer that an experiment is suggested rather than completed and that sources support principles while practical comparisons are editorial. Its cue-section lead says observations inform choices; the proposed service cue explicitly says barely-warm rice is a texture cue, not a safety test. Four practice links keep that section focused. No bespoke visual is necessary for this first lesson.
+
+`getTechniquesForRecipe` uses a reviewed recipe's explicit `learning.techniques` array before fallback matching. Consequently adding a recipe to this lesson's `recipes` only creates its practice card; it does not automatically add the lesson to that recipe. `methods: []` is intentional: `no-cook` includes many unrelated recipes and is insufficient evidence of fit. Parent should apply only the considered mappings in `recipe-mappings.md` after accepting the lesson.
+
+## Evidence and boundaries
+
+Sources were accessed on 2026-09-06. Links are primary research or original agency guidance; accessibility and exact applicability are stated below.
+
+1. [Bemer et al., Vegetable organogels incorporation in cream cheese products, Food Research International 85 (2016), 67–75](https://bpb-us-w2.wpmucdn.com/u.osu.edu/dist/4/14506/files/2019/07/Vegetable-organogels-incorporation-in-cream-cheese-products.pdf). Full university-hosted paper accessible. Section 3.5.1 and Figures 5–6 report a marked decline in the full-fat commercial control's elastic modulus during heating from 5 to 30°C. This supports temperature-dependent firmness; the authors connect that response to milk-fat melting within the casein network, drawing on earlier work. The public explanation uses that mechanism without proposing a universal melting point. The study compares experimental formulations with commercial spreads; it does not test the site's block cheese, sushi strip geometry, rolling pressure or a ten-minute kitchen rest. Cutting cold block cheese is the recipe's practical application, not a trial result. No universal melting threshold, brand ranking or nutrition claim is taken from the paper.
+
+2. [Ogawa et al., Texture of Nori Porphyra spp. (1991)](https://www.jstage.jst.go.jp/article/suisan1932/57/2/57_2_301/_article). Publisher-hosted English abstract accessible and read; full Japanese paper not translated or used. The study compares mechanical and sensory properties of dry and wetted dried nori. It supports the modest statement that hydration changes nori's bite, not an exact softening interval for roasted nori in sushi. The more directly titled [Effect of moisture uptake on the texture of dried laver (2022)](https://www.sciencedirect.com/science/article/pii/S0268005X21006391) appeared in publisher search excerpts, but direct access returned 403; it is not needed for the public evidence chain. Late addition of tempura flakes is editorial application from the reviewed recipe, with no promise of permanent or measured crunch. Cucumber blotting versus squeezing is also a mechanical preparation decision, not a claim that every cucumber must be salted or that refrigeration removes water.
+
+3. [FDA, Refrigerator Thermometers—Cold Facts about Food Safety](https://www.fda.gov/food/buy-store-serve-safe-food/refrigerator-thermometers-cold-facts-about-food-safety). Full page accessible. Supports appliance measurement, slower microbial growth under refrigeration, and putting hot leftovers into smaller containers promptly. It also explains that food can be hazardous without looking spoiled. The lesson therefore uses a thermometer for cold holding and offers sensory cues only for texture; chilling is not represented as a corrective kill step.
+
+4. [FoodSafety.gov, Four steps to food safety](https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety). Full page accessible. Supports separate equipment, washing after raw contact, drying produce and the household 40°F / 4°C and cumulative two-hour/one-hour-above-90°F limits. These are outer limits, not a proposed counter-rest schedule. Portioning, clean dipping water and the particular rice-bowl service order are editorial applications. The clock does not restart when food returns to refrigeration. Storage durations remain in individual component recipes rather than being replaced with a universal lesson duration.
+
+5. [FDA, Selecting and serving fresh and frozen seafood safely](https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-and-frozen-seafood-safely). Full page accessible. Supports retaining cold seafood until service, the distinction between freezing and eliminating harmful germs, and advice for susceptible diners to avoid raw seafood. The lesson points shoppers to recipe-specific sourcing before purchase and gives a cooked choice for those diners. It does not imply that a previously frozen package is automatically suitable for raw service.
+
+6. [FDA, Fish and Fishery Products Hazards and Controls Guidance, chapter 5: Parasites](https://www.fda.gov/media/80777/download). Full chapter accessible; opening hazard and control sections read. Describes controlled freezing conditions and why pickling/brining does not reliably remove the parasite hazard. The public lesson deliberately omits a domestic freezer protocol. It neither requires identical treatment for every seafood species nor relaxes species-specific controls. The reviewed recipes carry the applicable exemptions and supplier-documentation details. A marinade's taste or whitening effect does not establish raw safety.
+
+7. [FDA, Bad Bug Book, second edition (2012)](https://www.fda.gov/media/83271/download?attachment=). Full PDF accessible; consumer introduction plus Bacillus cereus chapter's consumer, disease and food-source sections read (PDF pages 90–92 using one-based page numbering). Supports surviving spores, the association with cooked rice, and heat-resistant preformed toxin. The lesson's plain wording therefore avoids a reheat-to-rescue instruction. This is not a pH-validation source for the shari formula. The home recipe has no measured equilibrium pH or verified preservation protocol, so the proposal gives it ordinary prompt-cooling treatment. No scientific claim about the exact safety of its vinegar ratio is made.
+
+Two FSA rice links surfaced in search but returned 404 when opened; their excerpts were not adopted. The proposal consistently uses the existing US household guidance rather than mixing a second jurisdiction's rice-storage schedule into one lesson.
+
+## Editorial decisions and limits
+
+- Cold block cheese and light handling remain practical texture decisions. A colder ingredient can still be overcompressed; temperature is not a cure for bad roll geometry.
+- Diced mint sauce keeps its fine cucumber pieces. Grated dill sauce keeps its salt/drain/squeeze method. The lesson explicitly distinguishes them and introduces no household sauce switch.
+- Short rice cooling is for immediate assembly. Excess rice goes promptly into shallow refrigerated containers, and delays trigger refrigeration. No body-temperature holding program, universal five-minute cooling promise, pH assumption or indefinite damp-towel hold is taught.
+- Raw-fish control is a chain from purchasing through service. The lesson does not duplicate commercial freezing tables or make a raw meal suitable for children through a new label.
+- Texture troubleshooting includes irreversible outcomes. A wet roll will not recover its original crunch merely by chilling. A sauce can be stirred or drained only within its existing handling limits.
+- The comparison uses cream cheese alone, clean equipment and a short ordinary-kitchen interval. It does not ask the reader to experiment with time-abused fish or rice. Its observation may vary with brand and room conditions.
+
+## Remaining evaluation
+
+Parent should review public length and hierarchy in the actual page at phone and desktop widths after integration, including the raw-sourcing control and seven source links. Confirm all four practice slugs resolve, and that the individually updated recipes actually show this lesson alongside their retained lessons. No repository build or browser rendering is claimed from these proposal files.
+
+A physical teaching trial should record cream-cheese brand/formulation, sample dimensions, refrigerator and room temperature, cutting resistance and edge definition after the ten-minute comparison. A separate real roll test can measure time per roll and reserve-ingredient temperature while assessing cheese shape and nori/flake texture; the research above does not establish those kitchen results. Rice cooling time requires measured batch depth, room conditions and timing in the actual kitchen. None of these unanswered texture questions changes the handling limits.
+
+## Root integration and evidence check
+
+Read the complete lesson, evidence record, seven individual mappings and independent challenge. Independently opened the Bemer paper and its temperature section, the Ogawa publisher abstract, FDA refrigerator guidance, parasite chapter and Bacillus chapter. Accepted their limited application; no exact cream-cheese cutting or nori-crunch interval is attributed to the papers. Applied the peer corrections: a refrigerated starting block and a clean blade per comparison sample, an explicit cold-bar corrective action, and the correct chapter link at PDF page 90. Added the lesson to the existing public renderer and seven exact recipe arrays; kept method fallback empty and four deliberately different practice recipes. Recipe formulas and review counts remain unchanged.
+
+Root integration verification: full 29-check QA and 731-page link/anchor scan pass. The actual browser page renders five controls, three cues, three expandable troubleshooting items, four practice cards and seven primary-source links. All seven exact recipe mappings resolve, while the unrelated Alfredo page remains unmapped. Mobile overflow, keyboard section navigation and print title checks pass. Physical teaching trials remain pending.

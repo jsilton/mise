@@ -73,7 +73,7 @@ learning:
     Four balanced bowls with the selected seafood kept cold, one total rice
     allowance and toppings that stay distinct until each diner assembles a bowl.
   techniques:
-    - temperature
+    - cold-preparation
     - seasoning
   before:
     - >-

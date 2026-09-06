@@ -52,6 +52,7 @@ learning:
   techniques:
     - starch
     - seasoning
+    - cold-preparation
   before:
     - >-
       Weigh the dry rice. A 180 ml rice-cooker cup is different from a 240 ml

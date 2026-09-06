@@ -55,6 +55,7 @@ learning:
     a gentle touch of sweetness; the honey should not make it taste like dessert.
   techniques:
     - seasoning
+    - cold-preparation
   before:
     - >-
       Use thick plain Greek yogurt. Wash and dry the cucumber and mint before

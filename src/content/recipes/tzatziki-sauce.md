@@ -52,6 +52,7 @@ learning:
     A spoonable sauce with cucumber texture, balanced garlic, and little free
     liquid on the surface.
   techniques:
+    - cold-preparation
     - seasoning
   before:
     - >-

@@ -51,6 +51,7 @@ learning:
     A closed roll with creamy avocado, crisp cucumber and some delicate tempura
     crunch, cut cleanly without compressing the filling.
   techniques:
+    - cold-preparation
     - starch
   before:
     - >-

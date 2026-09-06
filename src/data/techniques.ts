@@ -621,6 +621,117 @@ export const techniques: Technique[] = [
     methods: [],
     recipes: ['easy-pan-seared-chicken-breasts', 'char-siu', 'fluffy-scrambled-eggs'],
   },
+  {
+    slug: 'cold-preparation',
+    title: 'Prepare cold food in the right order',
+    category: 'Temperature & texture',
+    summary:
+      'Cut firm ingredients cold, manage loose water and bring moist fillings together with crisp finishes just before eating.',
+    principle:
+      'Temperature and water change food in different ways. Cold cream cheese holds its shape more readily; loose cucumber juice thins a yogurt sauce, and moisture changes the bite of dry nori. Refrigeration also slows microbial growth, but it cannot make mishandled food safe. Prepare components separately, then assemble only what you are ready to serve.',
+    controls: [
+      {
+        name: 'Firmness before cutting',
+        action:
+          'Cut block cream cheese straight from the refrigerator. Divide the strips into portions and keep them chilled until each roll is ready.',
+        reason:
+          'Milk fat held in the cheese’s protein network softens as it warms, making the cheese easier to deform. Starting cold helps preserve a distinct filling; exact firmness depends on formulation.',
+      },
+      {
+        name: 'Water before mixing',
+        action:
+          'Pat cucumber strips or small dice dry. For a recipe calling for grated, salted cucumber, drain and squeeze it as directed. Keep nori and crisp crumbs dry until assembly.',
+        reason:
+          'Blotting removes surface water while squeezing removes more juice from grated cucumber. These treatments produce different textures. Wet ingredients gradually change a crisp finish, even in the refrigerator.',
+      },
+      {
+        name: 'Small portions at the station',
+        action:
+          'Prepare vegetables and clean equipment first; cut raw fish near assembly with separate equipment. Keep reserve fish and dairy refrigerated at 40°F / 4°C or below, taking out only the next portion.',
+        reason:
+          'Small portions shorten counter time. Clean hands and separate utensils keep raw-fish juices out of shared ingredients; a bowl of vinegared hand-dipping water is not a sanitizer.',
+      },
+      {
+        name: 'A short cooling step for rice',
+        action:
+          'Spread freshly seasoned sushi rice in a wide bowl and fan briefly while steam escapes. Use the serving portion as soon as it is barely warm; refrigerate extra rice promptly in shallow containers, without waiting for it to become cold on the counter.',
+        reason:
+          'A shallow layer releases heat more readily than a deep mound. Brief cooling prepares rice for assembly; body temperature is not a holding target. Cooking can leave bacterial spores, and this home vinegar seasoning is not a validated preservation process.',
+      },
+      {
+        name: 'Raw-fish sourcing before preparation',
+        action:
+          'Before buying, follow the recipe’s species and supplier guidance for raw service. Choose fully cooked seafood for children, pregnant people, older adults and people with weakened immune systems.',
+        reason:
+          'Controlled freezing can address parasites; a household freezer is not an assumed substitute. Freezing does not kill all harmful germs, and citrus or vinegar does not establish raw safety. Keeping fish cold remains necessary after appropriate sourcing.',
+      },
+    ],
+    cues: [
+      {
+        stage: 'Before assembly',
+        cue: 'Cheese strips retain their edges; cucumber has no obvious surface droplets; dry garnishes are still separate. If cheese smears, return the unused portions to the refrigerator.',
+      },
+      {
+        stage: 'At the cold-food bar',
+        cue: 'Check the refrigerator with an appliance thermometer and seafood held over ice with a clean food thermometer: confirm 40°F / 4°C or below; return portions to the refrigerator if the ice setup cannot keep them cold. An icy-looking bowl or cool touch does not establish the food’s temperature.',
+      },
+      {
+        stage: 'At service',
+        cue: 'Rice has stopped steaming heavily and the serving portion is barely warm. Add cold fish and dry finishes only as the food is eaten. This is a texture cue, not a safety test; count preparation and service time together.',
+      },
+    ],
+    troubleshooting: [
+      {
+        problem: 'The yogurt sauce has a watery edge',
+        cause: 'Cucumber released juice, or the yogurt itself shed some liquid.',
+        fix: 'If the sauce is within its storage limit, spoon off a visible pool and stir gently. Next time follow the specified cucumber treatment. Extra oil or honey will not remove water.',
+      },
+      {
+        problem: 'The nori or crisp filling has lost its bite',
+        cause: 'It absorbed moisture before or after assembly.',
+        fix: 'Serve the current dish promptly if properly handled. Keep unused dry components sealed and add them later in the next batch; refrigeration will not restore the original crunch.',
+      },
+      {
+        problem: 'Dinner is delayed after preparation',
+        cause: 'Components were set out before diners were ready.',
+        fix: 'Refrigerate perishable components promptly and keep dry finishes separate. Discard perishables after more than 2 hours out of temperature control, or 1 hour above 90°F / 32°C. If that history is uncertain, discard; chilling or reheating does not reset it.',
+      },
+    ],
+    experiment:
+      'Cut two equal small pieces from the same refrigerated block of cream cheese with a clean knife. Keep one covered in the refrigerator and leave the other covered on a clean plate for 10 minutes in a cool kitchen. With a clean blade for each sample, use the same knife motion to cut a thin strip from each, then compare the edges and resistance to gentle pressure. Note the brand and whether the warmer piece smears more; use both promptly. This compares workability, not safe storage life.',
+    sources: [
+      {
+        title: 'Bemer and colleagues — Temperature response of cream cheese (2016, section 3.5.1)',
+        url: 'https://bpb-us-w2.wpmucdn.com/u.osu.edu/dist/4/14506/files/2019/07/Vegetable-organogels-incorporation-in-cream-cheese-products.pdf',
+      },
+      {
+        title: 'Ogawa and colleagues — Texture of dry and wetted nori (1991, abstract)',
+        url: 'https://www.jstage.jst.go.jp/article/suisan1932/57/2/57_2_301/_article',
+      },
+      {
+        title: 'FDA — Refrigerator thermometers and prompt chilling',
+        url: 'https://www.fda.gov/food/buy-store-serve-safe-food/refrigerator-thermometers-cold-facts-about-food-safety',
+      },
+      {
+        title: 'FoodSafety.gov — Clean, separate, cook, chill',
+        url: 'https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety',
+      },
+      {
+        title: 'FDA — Selecting and serving fresh and frozen seafood safely',
+        url: 'https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-and-frozen-seafood-safely',
+      },
+      {
+        title: 'FDA — Fish and fishery products guidance, chapter 5: parasites',
+        url: 'https://www.fda.gov/media/80777/download',
+      },
+      {
+        title: 'FDA — Bad Bug Book: Bacillus cereus chapter (2012)',
+        url: 'https://www.fda.gov/media/83271/download?attachment=#page=90',
+      },
+    ],
+    methods: [],
+    recipes: ['philly-tuna-roll', 'tzatziki-sauce', 'master-sushi-rice', 'poke-bowl-bar'],
+  },
 ];
 
 // Deliberate links and exact method matches only. Never infer techniques from a word
