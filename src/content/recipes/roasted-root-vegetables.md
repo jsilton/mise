@@ -58,4 +58,4 @@ The secret to root vegetables that aren't "mushy" is **Uniformity and Space**. Y
 2.  **Toss:** In a large bowl, toss the vegetables with oil, salt, pepper, garlic, and herbs.
 3.  **Spread:** Spread in a single layer on two large rimmed baking sheets. **Ensure no chunks are overlapping.**
 4.  **Roast:** Bake for 35-40 minutes, tossing with a spatula halfway through, until the edges are dark brown and crispy.
-5.  **Finish:** In the final 5 minutes, drizzle the maple syrup and balsamic vinegar over the pan and toss one last time. This creates a sticky, savory-sweet glaze.
+5.  **Finish:** In the final 5 minutes, drizzle the maple syrup or honey and balsamic vinegar evenly over both sheets and toss one last time. This creates a sticky, savory-sweet glaze.

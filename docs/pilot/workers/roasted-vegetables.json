@@ -1,0 +1,424 @@
+{
+  "model": "gpt-5.6-luna",
+  "startedAt": null,
+  "finishedAt": "2026-09-06T23:33:45.000Z",
+  "usage": { "inputTokens": null, "outputTokens": null, "usd": null },
+  "recipes": [
+    {
+      "slug": "roasted-asparagus",
+      "inputSha256": "b2c79d98b86e831fa89658b0c0152164cee37f00c3034c439c917757fba348c2",
+      "ingredientLedger": [
+        {
+          "text": "1 bunch Fresh Asparagus, woody ends trimmed",
+          "destinations": [2, 3],
+          "status": "clear"
+        },
+        { "text": "1 tbsp Extra-Virgin Olive Oil", "destinations": [2], "status": "clear" },
+        { "text": "1/2 tsp Kosher Salt", "destinations": [2], "status": "clear" },
+        { "text": "1/4 tsp Black Pepper", "destinations": [2], "status": "clear" },
+        { "text": "1/2 Lemon, for finishing", "destinations": [4], "status": "clear" },
+        {
+          "text": "Optional: 1 tbsp Grated Parmesan or Lemon Zest",
+          "destinations": [4],
+          "status": "clear"
+        }
+      ],
+      "process": [
+        {
+          "stage": 1,
+          "minutes": null,
+          "dependencies": [],
+          "attention": true,
+          "statedEquipment": "oven",
+          "inferredEquipment": null
+        },
+        {
+          "stage": 2,
+          "minutes": null,
+          "dependencies": [1],
+          "attention": true,
+          "statedEquipment": "large baking sheet",
+          "inferredEquipment": null
+        },
+        {
+          "stage": 3,
+          "minutes": "8-12",
+          "dependencies": [2],
+          "attention": false,
+          "statedEquipment": "oven",
+          "inferredEquipment": null
+        },
+        {
+          "stage": 4,
+          "minutes": null,
+          "dependencies": [3],
+          "attention": true,
+          "statedEquipment": null,
+          "inferredEquipment": null
+        }
+      ],
+      "findings": [
+        {
+          "id": "ra-1",
+          "supportingText": "cookingMethods: bake, roast, steam",
+          "category": "metadata",
+          "severity": "minor",
+          "evidenceIds": [],
+          "explanation": "The directions only bake/roast; steam is an unsupported method label and is a routine metadata presentation correction."
+        },
+        {
+          "id": "ra-2",
+          "supportingText": "cookTime: 10 min; Roast: Bake for 8-12 minutes",
+          "category": "timing",
+          "severity": "minor",
+          "evidenceIds": ["roasting", "IC3"],
+          "explanation": "The nominal cook time is narrower than the stated 8-12 minute range; thickness-dependent endpoint is the controlling instruction."
+        }
+      ],
+      "proposedEdits": [
+        {
+          "id": "ra-edit-1",
+          "originalText": "  - steam",
+          "replacementText": "",
+          "routine": true,
+          "findingIds": ["ra-1"],
+          "explanation": "Remove the unused cooking-method label."
+        }
+      ],
+      "coverage": {
+        "timing": "finding ra-2; preheat time unspecified",
+        "equipment": "examined: sheet-pan and oven stated; capacity/rack unspecified",
+        "proportions": "examined; no direct contradiction",
+        "yield": "servings 4 stated; finished yield unresolved",
+        "scaling": "single-layer capacity requires review at scale",
+        "substitutions": "Parmesan or lemon zest optional; no further basis",
+        "attribution": "origin United States; no source credit",
+        "relationships": "pairsWith present; duplicate status unresolved",
+        "nutrition": "values present; no recalculation performed"
+      },
+      "unresolved": [
+        "Thickness and sheet capacity affect endpoint and scaling.",
+        "No storage timing guidance in packet."
+      ],
+      "identityPreserved": ["asparagus", "425°F roasting", "lemon finish"]
+    },
+    {
+      "slug": "roasted-root-vegetables",
+      "inputSha256": "d31c1f2497849d7614a5fe8e76c357315f1d1076e424485e57b56b201c1b831f",
+      "ingredientLedger": [
+        {
+          "text": "4 lbs Mixed Root Veggies (Carrots, Parsnips, Sweet Potatoes, Beets)",
+          "destinations": [1, 2, 3, 4],
+          "status": "clear"
+        },
+        { "text": "1/4 cup Extra-Virgin Olive Oil", "destinations": [2], "status": "clear" },
+        { "text": "3 sprigs Fresh Rosemary or Thyme", "destinations": [2], "status": "clear" },
+        { "text": "4 cloves Garlic, smashed", "destinations": [2], "status": "clear" },
+        { "text": "1 tsp Kosher Salt", "destinations": [2], "status": "clear" },
+        { "text": "1/2 tsp Black Pepper", "destinations": [2], "status": "clear" },
+        { "text": "1 tbsp Maple Syrup or Honey", "destinations": [5], "status": "clear" },
+        { "text": "1 tbsp Balsamic Vinegar", "destinations": [5], "status": "clear" }
+      ],
+      "process": [
+        {
+          "stage": 1,
+          "minutes": null,
+          "dependencies": [],
+          "attention": true,
+          "statedEquipment": "oven",
+          "inferredEquipment": null
+        },
+        {
+          "stage": 2,
+          "minutes": null,
+          "dependencies": [1],
+          "attention": true,
+          "statedEquipment": "large bowl",
+          "inferredEquipment": null
+        },
+        {
+          "stage": 3,
+          "minutes": null,
+          "dependencies": [2],
+          "attention": true,
+          "statedEquipment": "two large rimmed baking sheets",
+          "inferredEquipment": null
+        },
+        {
+          "stage": 4,
+          "minutes": "35-40",
+          "dependencies": [3],
+          "attention": true,
+          "statedEquipment": "oven; spatula",
+          "inferredEquipment": null
+        },
+        {
+          "stage": 5,
+          "minutes": 5,
+          "dependencies": [4],
+          "attention": true,
+          "statedEquipment": "baking sheets",
+          "inferredEquipment": null
+        }
+      ],
+      "findings": [
+        {
+          "id": "rr-1",
+          "supportingText": "nutrition: calories: 375, protein: 4, carbs: 3.5, fat: 39.5, fiber: 0",
+          "category": "nutrition plausibility",
+          "severity": "material",
+          "evidenceIds": [],
+          "explanation": "The nutrition block appears inconsistent with the listed 4 lb vegetables and oil, but no recalculation is authorized; nutrition review is unresolved."
+        },
+        {
+          "id": "rr-2",
+          "supportingText": "Mixed Root Veggies (Carrots, Parsnips, Sweet Potatoes, Beets); cut ... uniform 1-inch cubes",
+          "category": "proportions",
+          "severity": "material",
+          "evidenceIds": ["roasting"],
+          "explanation": "Different vegetables and sizes can have different finish behavior; the packet supports geometry and endpoint checks but not assuming this mixture finishes uniformly."
+        }
+      ],
+      "proposedEdits": [],
+      "coverage": {
+        "timing": "examined; 35-40 minute range and final 5 minutes stated, preheat/prep unspecified",
+        "equipment": "two sheets explicitly stated; usable area/rack arrangement unresolved",
+        "proportions": "finding rr-2",
+        "yield": "6 servings stated; finished mass/yield unresolved",
+        "scaling": "two-sheet capacity is explicit; further scale review needed",
+        "substitutions": "rosemary/thyme and maple/honey explicit",
+        "attribution": "origin United States; no source credit",
+        "relationships": "pairsWith present; no duplicate determination",
+        "nutrition": "finding rr-1; no recalculation"
+      },
+      "unresolved": [
+        "Oven airflow, rack arrangement, vegetable mix and glaze scorching need review.",
+        "Storage duration absent."
+      ],
+      "identityPreserved": [
+        "mixed root vegetables",
+        "uniform cubes",
+        "single-layer two-sheet roasting",
+        "maple/balsamic glaze"
+      ]
+    },
+    {
+      "slug": "roasted-sweet-potatoes",
+      "inputSha256": "8ac8056fabeec01127a40aaeb88977577abbd61675516ddf5ac3b486ef3618d5",
+      "ingredientLedger": [
+        {
+          "text": "2 lbs Sweet Potatoes (about 3 medium), peeled and cut into 3/4-inch wedges",
+          "destinations": [2, 3, 4],
+          "status": "clear"
+        },
+        { "text": "3 tbsp Olive Oil", "destinations": [2], "status": "clear" },
+        { "text": "1 tsp Ground Cumin", "destinations": [2], "status": "clear" },
+        { "text": "1 tsp Chili Powder", "destinations": [2], "status": "clear" },
+        { "text": "1/2 tsp Smoked Paprika", "destinations": [2], "status": "clear" },
+        { "text": "1/2 tsp Garlic Powder", "destinations": [2], "status": "clear" },
+        { "text": "1/4 tsp Cayenne Pepper (optional)", "destinations": [2], "status": "clear" },
+        { "text": "1 tsp Kosher Salt", "destinations": [2], "status": "clear" },
+        { "text": "1/2 tsp Black Pepper", "destinations": [2], "status": "clear" },
+        {
+          "text": "Fresh Cilantro and Lime wedges for serving",
+          "destinations": [5],
+          "status": "clear"
+        }
+      ],
+      "process": [
+        {
+          "stage": 1,
+          "minutes": null,
+          "dependencies": [],
+          "attention": true,
+          "statedEquipment": "oven; baking sheet; parchment",
+          "inferredEquipment": null
+        },
+        {
+          "stage": 2,
+          "minutes": null,
+          "dependencies": [1],
+          "attention": true,
+          "statedEquipment": "large bowl",
+          "inferredEquipment": null
+        },
+        {
+          "stage": 3,
+          "minutes": null,
+          "dependencies": [2],
+          "attention": true,
+          "statedEquipment": "hot baking sheet",
+          "inferredEquipment": null
+        },
+        {
+          "stage": 4,
+          "minutes": "30-32",
+          "dependencies": [3],
+          "attention": true,
+          "statedEquipment": "oven; fork",
+          "inferredEquipment": null
+        },
+        {
+          "stage": 5,
+          "minutes": null,
+          "dependencies": [4],
+          "attention": true,
+          "statedEquipment": null,
+          "inferredEquipment": null
+        }
+      ],
+      "findings": [
+        {
+          "id": "rs-1",
+          "supportingText": "cookTime: 30 min; Roast: Bake for 20 minutes ... another 10-12 minutes",
+          "category": "timing",
+          "severity": "minor",
+          "evidenceIds": ["roasting", "IC3"],
+          "explanation": "The method states 30-32 minutes, while frontmatter says 30; the endpoint and stated range should govern review."
+        },
+        {
+          "id": "rs-2",
+          "supportingText": "place it on the lower oven rack to preheat",
+          "category": "equipment",
+          "severity": "minor",
+          "evidenceIds": ["roasting"],
+          "explanation": "Rack placement is explicit, but one sheet versus two-sheet arrangement and usable spacing remain capacity questions."
+        }
+      ],
+      "proposedEdits": [],
+      "coverage": {
+        "timing": "finding rs-1; preheat duration unspecified",
+        "equipment": "sheet, parchment, lower rack stated; capacity unresolved",
+        "proportions": "3/4-inch wedges and 1/2-inch spacing stated",
+        "yield": "4 servings; finished yield unresolved",
+        "scaling": "use two sheets if needed; airflow/rack impact unresolved",
+        "substitutions": "cayenne optional; no other substitutions",
+        "attribution": "origin United States; no source credit",
+        "relationships": "pairsWith present; no duplicate determination",
+        "nutrition": "values present; no recalculation"
+      },
+      "unresolved": ["Parchment limits, airflow and two-sheet roasting require equipment review."],
+      "identityPreserved": [
+        "sweet potatoes",
+        "cumin-chili seasoning",
+        "425°F high-heat roasting",
+        "lime and cilantro finish"
+      ]
+    },
+    {
+      "slug": "crispy-smashed-potatoes",
+      "inputSha256": "3c8616b59392c580148ed7d4de716da7c1b6578822ea6c34a3470dabfa85a466",
+      "ingredientLedger": [
+        {
+          "text": "1.5 lbs Baby Potatoes (Red or Yukon Gold)",
+          "destinations": [1, 2],
+          "status": "clear"
+        },
+        { "text": "1/4 cup Olive Oil", "destinations": [4], "status": "clear" },
+        { "text": "1 tsp Garlic Powder", "destinations": [4], "status": "clear" },
+        { "text": "1 tsp Dried Rosemary or Thyme", "destinations": [4], "status": "clear" },
+        {
+          "text": "Kosher Salt and Black Pepper",
+          "destinations": [1, 4],
+          "status": "ambiguous quantity"
+        },
+        { "text": "Flaky Sea Salt for finishing", "destinations": [6], "status": "clear" }
+      ],
+      "process": [
+        {
+          "stage": 1,
+          "minutes": "15-20",
+          "dependencies": [],
+          "attention": true,
+          "statedEquipment": "pot; fork",
+          "inferredEquipment": null
+        },
+        {
+          "stage": 2,
+          "minutes": null,
+          "dependencies": [1],
+          "attention": true,
+          "statedEquipment": "oven; baking sheet; parchment; heavy glass or potato masher",
+          "inferredEquipment": null
+        },
+        {
+          "stage": 3,
+          "minutes": 5,
+          "dependencies": [2],
+          "attention": false,
+          "statedEquipment": null,
+          "inferredEquipment": null
+        },
+        {
+          "stage": 4,
+          "minutes": null,
+          "dependencies": [3],
+          "attention": true,
+          "statedEquipment": null,
+          "inferredEquipment": null
+        },
+        {
+          "stage": 5,
+          "minutes": "25-30",
+          "dependencies": [4],
+          "attention": true,
+          "statedEquipment": "oven",
+          "inferredEquipment": null
+        },
+        {
+          "stage": 6,
+          "minutes": null,
+          "dependencies": [5],
+          "attention": true,
+          "statedEquipment": null,
+          "inferredEquipment": null
+        }
+      ],
+      "findings": [
+        {
+          "id": "csp-1",
+          "supportingText": "Kosher Salt and Black Pepper",
+          "category": "ingredient accounting",
+          "severity": "material",
+          "evidenceIds": ["IC2"],
+          "explanation": "The ingredient line has no quantities; salt is also used in the boiling water and seasoning, so exact allocation and scaling are ambiguous."
+        },
+        {
+          "id": "csp-2",
+          "supportingText": "nutrition: calories: 505, protein: 0.5, carbs: 7, fat: 54",
+          "category": "nutrition plausibility",
+          "severity": "material",
+          "evidenceIds": [],
+          "explanation": "The nutrition block appears inconsistent with listed potatoes/oil, but no recalculation is authorized; requires nutrition review."
+        }
+      ],
+      "proposedEdits": [],
+      "coverage": {
+        "timing": "examined; boiling, 5-minute dry, and 25-30 minute roast stated; preheat unspecified",
+        "equipment": "pot, sheet, parchment and smashing tool stated; capacity/rack unresolved",
+        "proportions": "salt/pepper quantity ambiguous; otherwise explicit",
+        "yield": "4 servings stated; finished yield unresolved",
+        "scaling": "sheet capacity and spacing absent",
+        "substitutions": "potato varieties and herb alternative explicit",
+        "attribution": "origin United States; no source credit",
+        "relationships": "pairsWith present; possible overlap with blueberry-pancakes is only a relationship question",
+        "nutrition": "finding csp-2; no recalculation"
+      },
+      "unresolved": [
+        "Boiling-water salt amount and seasoning amount need review.",
+        "Storage duration absent."
+      ],
+      "identityPreserved": [
+        "baby potatoes boiled then smashed",
+        "425°F roasting",
+        "olive oil and herb seasoning",
+        "flaky salt finish"
+      ]
+    }
+  ],
+  "limitations": [
+    "Reviewed only assigned recipes and supplied packets; no browse or kitchen test.",
+    "No source recipe mutations.",
+    "Cost unavailable (null)."
+  ]
+}

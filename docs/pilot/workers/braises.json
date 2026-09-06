@@ -1,0 +1,559 @@
+{
+  "model": "gpt-5.6-luna",
+  "startedAt": null,
+  "finishedAt": "2026-09-06T23:36:10.000Z",
+  "usage": { "inputTokens": null, "outputTokens": null, "usd": null },
+  "recipes": [
+    {
+      "slug": "brisket-with-carrots-and-onions",
+      "inputSha256": "10ef669ecd0533fe8f5eb1595ee87b889d2236f576c51055f8c0e6695b40e2c7",
+      "ingredientLedger": [
+        {
+          "text": "6-7 lbs Beef Brisket, flat cut",
+          "destinations": [2, 3, 4, 5, 7],
+          "status": "clear"
+        },
+        { "text": "2 tbsp Kosher Salt", "destinations": [2], "status": "clear" },
+        { "text": "2 tsp Black Pepper", "destinations": [2], "status": "clear" },
+        { "text": "1 tbsp Garlic, minced", "destinations": [2], "status": "clear" },
+        { "text": "2 tsp Dried Oregano", "destinations": [2], "status": "clear" },
+        {
+          "text": "1 lb Carrots, cut into 2-inch chunks",
+          "destinations": [3, 7],
+          "status": "clear"
+        },
+        {
+          "text": "8 stalks Celery, cut into 2-inch chunks",
+          "destinations": [3],
+          "status": "clear"
+        },
+        { "text": "6 large Yellow Onions, sliced", "destinations": [3, 7], "status": "clear" },
+        { "text": "6 Fresh Bay Leaves", "destinations": [3], "status": "clear" },
+        { "text": "1 (46 oz) can Tomato Juice", "destinations": [4, 6], "status": "clear" }
+      ],
+      "process": [
+        {
+          "stage": 1,
+          "minutes": null,
+          "dependencies": [],
+          "attention": true,
+          "statedEquipment": "oven",
+          "inferredEquipment": null
+        },
+        {
+          "stage": 2,
+          "minutes": null,
+          "dependencies": [1],
+          "attention": true,
+          "statedEquipment": null,
+          "inferredEquipment": null
+        },
+        {
+          "stage": 3,
+          "minutes": null,
+          "dependencies": [2],
+          "attention": true,
+          "statedEquipment": "heavy roasting pan",
+          "inferredEquipment": null
+        },
+        {
+          "stage": 4,
+          "minutes": null,
+          "dependencies": [3],
+          "attention": true,
+          "statedEquipment": "roasting pan; parchment; aluminum foil",
+          "inferredEquipment": null
+        },
+        {
+          "stage": 5,
+          "minutes": 210,
+          "dependencies": [4],
+          "attention": false,
+          "statedEquipment": "oven",
+          "inferredEquipment": null
+        },
+        {
+          "stage": 6,
+          "minutes": "20-30",
+          "dependencies": [5],
+          "attention": true,
+          "statedEquipment": "cutting board; two-burner stovetop",
+          "inferredEquipment": null
+        },
+        {
+          "stage": 7,
+          "minutes": null,
+          "dependencies": [6],
+          "attention": true,
+          "statedEquipment": null,
+          "inferredEquipment": null
+        }
+      ],
+      "findings": [
+        {
+          "id": "br-1",
+          "supportingText": "nutrition: calories: 50, protein: 2, fat: 0.5",
+          "category": "nutrition plausibility",
+          "severity": "material",
+          "evidenceIds": [],
+          "explanation": "Values appear incompatible with the listed brisket and vegetables, but no recalculation is authorized; nutrition review is unresolved."
+        }
+      ],
+      "proposedEdits": [],
+      "coverage": {
+        "timing": "examined; 3.5 hour braise and 20-30 minute reduction stated; preheat/rest unspecified",
+        "equipment": "roasting pan, foil and two burners stated; capacity unresolved",
+        "proportions": "examined; tomato juice depth instruction stated",
+        "yield": "10 servings stated; finished yield unresolved",
+        "scaling": "6-7 lb cut and pan capacity require review",
+        "substitutions": "none stated",
+        "attribution": "Jewish-American context in note; no formal source credit",
+        "relationships": "pairsWith present; no duplicate determination",
+        "nutrition": "finding br-1; no recalculation"
+      },
+      "unresolved": [
+        "Fork tenderness is endpoint; safety temperature is not stated.",
+        "No storage duration guidance."
+      ],
+      "identityPreserved": ["beef brisket", "tomato-juice braise", "against-grain slicing"]
+    },
+    {
+      "slug": "pulled-pork",
+      "inputSha256": "489140e98ed53b3ae67fd757f01233340b8231c47d9e280809b6f843d5a420cc",
+      "ingredientLedger": [
+        { "text": "--- The Rub ---", "destinations": [], "status": "section label" },
+        { "text": "3 tbsp dark brown sugar", "destinations": [1], "status": "clear" },
+        { "text": "1 tbsp hickory smoked salt", "destinations": [1], "status": "clear" },
+        { "text": "1 tbsp smoked paprika", "destinations": [1], "status": "clear" },
+        { "text": "1 tsp garlic powder", "destinations": [1], "status": "clear" },
+        { "text": "1 tsp onion powder", "destinations": [1], "status": "clear" },
+        { "text": "1 tsp ground cumin", "destinations": [1], "status": "clear" },
+        { "text": "1/2 tsp black pepper", "destinations": [1], "status": "clear" },
+        { "text": "--- The Pot ---", "destinations": [], "status": "section label" },
+        {
+          "text": "4-5 lb bone-in pork shoulder (Boston butt)",
+          "destinations": [2, 3, 4, 5],
+          "status": "clear"
+        },
+        { "text": "1 yellow onion, chopped", "destinations": [2], "status": "clear" },
+        { "text": "4 cloves garlic, smashed", "destinations": [2], "status": "clear" },
+        { "text": "1/4 cup apple cider vinegar", "destinations": [2], "status": "clear" },
+        { "text": "1 tbsp Worcestershire sauce", "destinations": [2], "status": "clear" }
+      ],
+      "process": [
+        {
+          "stage": 1,
+          "minutes": null,
+          "dependencies": [],
+          "attention": true,
+          "statedEquipment": "small bowl; refrigerator optional",
+          "inferredEquipment": null
+        },
+        {
+          "stage": 2,
+          "minutes": null,
+          "dependencies": [1],
+          "attention": true,
+          "statedEquipment": "6-quart slow cooker",
+          "inferredEquipment": null
+        },
+        {
+          "stage": 3,
+          "minutes": null,
+          "dependencies": [2],
+          "attention": true,
+          "statedEquipment": "slow cooker",
+          "inferredEquipment": null
+        },
+        {
+          "stage": 4,
+          "minutes": "10-11 hr",
+          "dependencies": [3],
+          "attention": false,
+          "statedEquipment": "slow cooker",
+          "inferredEquipment": null
+        },
+        {
+          "stage": 5,
+          "minutes": null,
+          "dependencies": [4],
+          "attention": true,
+          "statedEquipment": "cutting board",
+          "inferredEquipment": null
+        },
+        {
+          "stage": 6,
+          "minutes": null,
+          "dependencies": [5],
+          "attention": true,
+          "statedEquipment": "slow cooker",
+          "inferredEquipment": null
+        },
+        {
+          "stage": 7,
+          "minutes": null,
+          "dependencies": [6],
+          "attention": false,
+          "statedEquipment": null,
+          "inferredEquipment": null
+        }
+      ],
+      "findings": [
+        {
+          "id": "pp-1",
+          "supportingText": "pairsWith: cornbread, coleslaw, coleslaw",
+          "category": "metadata",
+          "severity": "minor",
+          "evidenceIds": ["IC5"],
+          "explanation": "Duplicate relationship entry is a routine presentation correction."
+        },
+        {
+          "id": "pp-2",
+          "supportingText": "nutrition: calories: 45, protein: 1, fat: 0.5",
+          "category": "nutrition plausibility",
+          "severity": "material",
+          "evidenceIds": [],
+          "explanation": "Values appear incompatible with 4-5 lb pork shoulder, but no recalculation is authorized."
+        }
+      ],
+      "proposedEdits": [
+        {
+          "id": "pp-edit-1",
+          "originalText": "  - coleslaw\n  - coleslaw",
+          "replacementText": "  - coleslaw",
+          "routine": true,
+          "findingIds": ["pp-1"],
+          "explanation": "Remove the exact duplicate pair entry."
+        }
+      ],
+      "coverage": {
+        "timing": "examined; 10-11 hour cook, optional overnight seasoning; preheat not applicable",
+        "equipment": "6-quart slow cooker stated; capacity fit unresolved",
+        "proportions": "examined; no direct contradiction",
+        "yield": "8 servings stated; finished yield unresolved",
+        "scaling": "cut size and cooker capacity require review",
+        "substitutions": "none stated",
+        "attribution": "United States/Southern; no source credit",
+        "relationships": "duplicate fixed in pp-1",
+        "nutrition": "finding pp-2; no recalculation"
+      },
+      "unresolved": [
+        "Pork tenderness timing is not transferable from beef packet; endpoint is fork pull-apart.",
+        "No storage duration guidance."
+      ],
+      "identityPreserved": [
+        "bone-in pork shoulder",
+        "slow-cooker rub method",
+        "vinegar/Worcestershire pot base"
+      ]
+    },
+    {
+      "slug": "thit-kho-vietnamese-caramelized-pork",
+      "inputSha256": "67b4c56a0ef5541ccc7cf2603535535212fc38096bc5f2bdaa71d57af1f7aee7",
+      "ingredientLedger": [
+        {
+          "text": "1.5 lbs Pork Shoulder or Belly, cut into 1-inch cubes",
+          "destinations": [1, 3, 6],
+          "status": "clear alternate"
+        },
+        { "text": "2 medium Shallots, halved lengthwise", "destinations": [4], "status": "clear" },
+        { "text": "4 cloves Garlic, peeled", "destinations": [4], "status": "clear" },
+        { "text": "2 tsp Fish Sauce", "destinations": [4], "status": "clear" },
+        {
+          "text": "3 tbsp Brown Sugar (or palm sugar)",
+          "destinations": [2],
+          "status": "clear alternate"
+        },
+        {
+          "text": "1 cup Coconut Water (or regular water)",
+          "destinations": [5],
+          "status": "clear alternate"
+        },
+        { "text": "1 tbsp Vegetable Oil", "destinations": [2], "status": "clear" },
+        {
+          "text": "2 whole Dried Chilies (optional but recommended)",
+          "destinations": [4],
+          "status": "clear optional"
+        },
+        { "text": "1 tsp Black Pepper", "destinations": [4], "status": "clear" },
+        {
+          "text": "3 tbsp Fish Sauce (for sauce adjustment)",
+          "destinations": [7],
+          "status": "clear"
+        },
+        { "text": "Fresh Cilantro, chopped", "destinations": [9], "status": "clear" },
+        { "text": "Scallions, chopped", "destinations": [9], "status": "clear" },
+        { "text": "Fresh Lime Wedges", "destinations": [9], "status": "clear" }
+      ],
+      "process": [
+        {
+          "stage": 1,
+          "minutes": null,
+          "dependencies": [],
+          "attention": true,
+          "statedEquipment": "paper towel",
+          "inferredEquipment": null
+        },
+        {
+          "stage": 2,
+          "minutes": "2-3",
+          "dependencies": [1],
+          "attention": true,
+          "statedEquipment": "medium saucepan",
+          "inferredEquipment": null
+        },
+        {
+          "stage": 3,
+          "minutes": 2,
+          "dependencies": [2],
+          "attention": true,
+          "statedEquipment": "saucepan",
+          "inferredEquipment": null
+        },
+        {
+          "stage": 4,
+          "minutes": null,
+          "dependencies": [3],
+          "attention": true,
+          "statedEquipment": "saucepan",
+          "inferredEquipment": null
+        },
+        {
+          "stage": 5,
+          "minutes": null,
+          "dependencies": [4],
+          "attention": true,
+          "statedEquipment": "saucepan; spoon",
+          "inferredEquipment": null
+        },
+        {
+          "stage": 6,
+          "minutes": "35-40",
+          "dependencies": [5],
+          "attention": true,
+          "statedEquipment": "covered saucepan",
+          "inferredEquipment": null
+        },
+        {
+          "stage": 7,
+          "minutes": null,
+          "dependencies": [6],
+          "attention": true,
+          "statedEquipment": null,
+          "inferredEquipment": null
+        },
+        {
+          "stage": 8,
+          "minutes": 5,
+          "dependencies": [7],
+          "attention": false,
+          "statedEquipment": null,
+          "inferredEquipment": null
+        },
+        {
+          "stage": 9,
+          "minutes": null,
+          "dependencies": [8],
+          "attention": true,
+          "statedEquipment": "warm white rice (serving accompaniment)",
+          "inferredEquipment": null
+        }
+      ],
+      "findings": [
+        {
+          "id": "tk-1",
+          "supportingText": "nutrition: calories: 105 ... sodium: 4100",
+          "category": "nutrition plausibility",
+          "severity": "material",
+          "evidenceIds": [],
+          "explanation": "Values and sodium merit nutrition review, but no recalculation is authorized."
+        },
+        {
+          "id": "tk-2",
+          "supportingText": "Add more fish sauce ... Add a pinch more sugar if it tastes too salty",
+          "category": "ingredient accounting",
+          "severity": "minor",
+          "evidenceIds": ["IC2"],
+          "explanation": "Adjustment quantities are intentionally unspecified; exact scaling total remains unknown."
+        }
+      ],
+      "proposedEdits": [],
+      "coverage": {
+        "timing": "examined; caramel 2-3, crust 2, braise 35-40, rest 5; other transitions unknown",
+        "equipment": "medium saucepan stated; capacity/reduction surface unresolved",
+        "proportions": "alternates and adjustment additions all assigned; no direct contradiction",
+        "yield": "4 servings stated; finished yield unresolved",
+        "scaling": "1-inch cubes and uncovered/partially covered reduction require review",
+        "substitutions": "sugar, water, pork cut and coconut milk alternatives explicitly covered in prose",
+        "attribution": "Vietnamese context; no formal source credit",
+        "relationships": "pairsWith present; no duplicate determination",
+        "nutrition": "finding tk-1; no recalculation"
+      },
+      "unresolved": [
+        "Pork-specific tenderness and safety endpoint need appropriate review.",
+        "Storage claim 'Refrigerate for up to 3 days' lacks packet support."
+      ],
+      "identityPreserved": [
+        "Vietnamese caramelized pork",
+        "fish sauce/caramel profile",
+        "pork shoulder or belly alternative"
+      ]
+    },
+    {
+      "slug": "jerk-pork-shoulder",
+      "inputSha256": "f4a0c5f0ab0d6c37c966ca57c7d6eb846002976a9d0b7d64d8e9d60f8e02b25e",
+      "ingredientLedger": [
+        {
+          "text": "4 lbs Boneless Pork Shoulder (Boston Butt), trimmed",
+          "destinations": [2, 3, 4, 5],
+          "status": "clear"
+        },
+        {
+          "text": "6 Scallions, roughly chopped (white and green)",
+          "destinations": [1],
+          "status": "clear"
+        },
+        {
+          "text": "1-2 Scotch Bonnet or Habanero Peppers, stemmed (seeded for mild, whole for heat)",
+          "destinations": [1],
+          "status": "clear alternate"
+        },
+        { "text": "1 small Yellow Onion, quartered", "destinations": [1], "status": "clear" },
+        { "text": "8 cloves Garlic", "destinations": [1], "status": "clear" },
+        { "text": "2-inch piece Fresh Ginger, peeled", "destinations": [1], "status": "clear" },
+        {
+          "text": "2 tbsp Fresh Thyme Leaves (or 2 tsp dried)",
+          "destinations": [1],
+          "status": "clear alternate"
+        },
+        { "text": "2 tbsp Ground Allspice", "destinations": [1], "status": "clear" },
+        { "text": "1 tbsp Brown Sugar", "destinations": [1], "status": "clear" },
+        { "text": "1 tbsp Kosher Salt", "destinations": [1], "status": "clear" },
+        { "text": "2 tsp Black Pepper", "destinations": [1], "status": "clear" },
+        { "text": "1 tsp Ground Cinnamon", "destinations": [1], "status": "clear" },
+        { "text": "1 tsp Ground Nutmeg", "destinations": [1], "status": "clear" },
+        {
+          "text": "3 tbsp Soy Sauce (or tamari for gluten-free)",
+          "destinations": [1],
+          "status": "clear alternate"
+        },
+        { "text": "2 tbsp Dark Brown Sugar", "destinations": [1], "status": "clear" },
+        { "text": "3 tbsp Lime Juice (about 2 limes)", "destinations": [1], "status": "clear" },
+        { "text": "2 tbsp White Vinegar", "destinations": [1], "status": "clear" },
+        { "text": "1/4 cup Neutral Oil", "destinations": [1, 4], "status": "clear" },
+        { "text": "1 cup Chicken Stock", "destinations": [5], "status": "clear" },
+        { "text": "1 cup Fresh Orange Juice", "destinations": [5], "status": "clear" }
+      ],
+      "process": [
+        {
+          "stage": 1,
+          "minutes": null,
+          "dependencies": [],
+          "attention": true,
+          "statedEquipment": "blender",
+          "inferredEquipment": null
+        },
+        {
+          "stage": 2,
+          "minutes": "8-24 hr",
+          "dependencies": [1],
+          "attention": false,
+          "statedEquipment": "refrigerator; bag or cover",
+          "inferredEquipment": null
+        },
+        {
+          "stage": 3,
+          "minutes": 30,
+          "dependencies": [2],
+          "attention": true,
+          "statedEquipment": "oven",
+          "inferredEquipment": null
+        },
+        {
+          "stage": 4,
+          "minutes": "24-32",
+          "dependencies": [3],
+          "attention": true,
+          "statedEquipment": "Dutch oven",
+          "inferredEquipment": null
+        },
+        {
+          "stage": 5,
+          "minutes": "180-210",
+          "dependencies": [4],
+          "attention": false,
+          "statedEquipment": "Dutch oven; oven",
+          "inferredEquipment": null
+        },
+        {
+          "stage": 6,
+          "minutes": 30,
+          "dependencies": [5],
+          "attention": true,
+          "statedEquipment": "cutting board; stovetop",
+          "inferredEquipment": null
+        },
+        {
+          "stage": 7,
+          "minutes": null,
+          "dependencies": [6],
+          "attention": true,
+          "statedEquipment": null,
+          "inferredEquipment": null
+        },
+        {
+          "stage": 8,
+          "minutes": "20-25",
+          "dependencies": [7],
+          "attention": true,
+          "statedEquipment": "baking dish; oven; foil",
+          "inferredEquipment": null
+        }
+      ],
+      "findings": [
+        {
+          "id": "jp-1",
+          "supportingText": "cookTime: 3 hr 30 min; totalTime: 12 hr; marinate at least 8 hours, ideally 24; sear 3-4 minutes per side; braise 3 to 3.5 hours; rest 20 minutes; reduce 10 minutes",
+          "category": "timing",
+          "severity": "material",
+          "evidenceIds": ["IC3"],
+          "explanation": "Total-time basis is unclear: 12 hours includes some but not all stated ranges, and reheat is separately optional; verify whether overnight marination is included."
+        },
+        {
+          "id": "jp-2",
+          "supportingText": "last spoonful of raw marinade",
+          "category": "safety",
+          "severity": "material",
+          "evidenceIds": ["safe-temperatures"],
+          "explanation": "Raw reserved marinade is added after cooking; this is a food-safety question requiring review, not a proven correction from the packet."
+        }
+      ],
+      "proposedEdits": [],
+      "coverage": {
+        "timing": "finding jp-1; optional reheat separate",
+        "equipment": "blender, Dutch oven and roasting pan metadata; roasting pan not used in directions",
+        "proportions": "all marinade and braising alternatives assigned",
+        "yield": "8 servings stated; finished yield unresolved",
+        "scaling": "shoulder dimensions and Dutch-oven capacity unresolved",
+        "substitutions": "pepper, thyme, soy/tamari alternatives explicitly assigned",
+        "attribution": "Jamaican/Maroon context in note; no formal source credit",
+        "relationships": "pairsWith present; no duplicate determination",
+        "nutrition": "values present; no recalculation"
+      },
+      "unresolved": [
+        "Pork tenderness and raw-marinade safety need appropriate review.",
+        "Storage/reheat food safety beyond supplied packet is unresolved."
+      ],
+      "identityPreserved": [
+        "Jamaican jerk marinade",
+        "scotch bonnet/habanero",
+        "allspice",
+        "slow-roasted pork shoulder"
+      ]
+    }
+  ],
+  "limitations": [
+    "Reviewed only assigned braise recipes and supplied packets; no browse or kitchen test.",
+    "No recipe mutations. Cost unavailable (null)."
+  ]
+}

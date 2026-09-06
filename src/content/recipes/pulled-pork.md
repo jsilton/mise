@@ -34,7 +34,6 @@ equipment:
 pairsWith:
   - cornbread
   - coleslaw
-  - coleslaw
   - korean-style-tacos-with-kogi-bbq-sauce
   - crockpot-mac-and-cheese
   - carnitas-bowl
@@ -83,6 +82,6 @@ Pulled pork is a patience recipe - the slow cooker does all the work over 10-11 
 
 5. **The Finish:** Transfer the pork to a cutting board. Pull out the bone - it should slide right out. Remove any large pieces of fat or gristle. Chop the meat into rough pieces.
 
-6. **The Juice:** Skim excess fat from the cooking liquid in the slow cooker. Return the chopped pork to the pot and toss in just enough of the cooking liquid to keep it moist and flavorful.
+6. **The Juice:** Pour the cooking liquid into a heatproof jug and skim off excess fat. Return the chopped pork to the slow cooker, then add the skimmed liquid a little at a time, tossing until the meat is moist and flavorful.
 
 7. **Serve:** Pile on plates alongside cornbread and coleslaw, or use as the base for tacos, bowls, and sandwiches all week.

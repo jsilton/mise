@@ -73,17 +73,17 @@ Quinoa pilaf elevates the grain from a simple side into something memorable thro
 
 2. **Toast the Almonds:** In a large skillet over medium heat, add the roughly chopped almonds. Stir constantly for 3-4 minutes until fragrant and light golden brown. Be careful not to burn them. Transfer to a plate and set aside.
 
-3. **Sauté the Aromatics:** In the same skillet, add 1 tbsp of the olive oil or butter over medium heat. Add the diced onion and a pinch of salt. Cook for 3-4 minutes until softened and translucent. Add the minced garlic and cook for 30 seconds until fragrant.
+3. **Sauté the Aromatics:** In the same skillet, add half of the olive oil or butter over medium heat. Add the diced onion and a pinch of salt. Cook for 3-4 minutes until softened and translucent. Add the minced garlic and cook for 30 seconds until fragrant.
 
 4. **Toast the Quinoa:** Add the drained quinoa to the skillet and stir constantly for 2 minutes. The grains should start to pop slightly and smell nutty. This develops flavor and helps each grain cook separately.
 
-5. **Add Liquid:** Pour in the broth (it will sizzle) and add 1/2 tsp salt. Stir to distribute the quinoa evenly. Bring to a boil over high heat.
+5. **Add Liquid:** Pour in the broth (it will sizzle) and add the measured salt. Stir to distribute the quinoa evenly. Bring to a boil over high heat.
 
 6. **Simmer:** Once boiling, reduce heat to the lowest setting, cover with a tight-fitting lid, and simmer for 15 minutes without lifting the lid. The residual steam will finish cooking the grains perfectly.
 
 7. **Rest:** Remove from heat and let sit, covered, for 5 minutes. This allows any remaining liquid to be absorbed and ensures fluffy, separated grains.
 
-8. **Finish:** Fluff the quinoa with a fork. Fold in the toasted almonds, dried apricots (if using), remaining 1 tbsp butter, parsley, dill, black pepper, and lemon zest. Taste and adjust salt.
+8. **Finish:** Fluff the quinoa with a fork. Fold in the toasted almonds, dried apricots or cranberries (if using), remaining olive oil or butter, parsley, dill or tarragon (if using), black pepper, and lemon zest. Taste and adjust salt.
 
 9. **Serve:** Serve warm as a base for grilled proteins, roasted vegetables, or alongside saucy dishes. This pilaf reheats well and keeps refrigerated for up to 4 days.
 

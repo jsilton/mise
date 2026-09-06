@@ -114,5 +114,631 @@
     "disposition": "rejected",
     "trial": "source-backed-v2",
     "rationale": "Worker invents waffle-iron taxonomy without checking allowed canonical methods. Source steam tag may be incomplete but replacement needs taxonomy decision; not accepted unchanged."
+  },
+  {
+    "id": "v2-garlic-butter-shrimp-1",
+    "slug": "garlic-butter-shrimp",
+    "category": "material-defect",
+    "disposition": "accepted",
+    "rationale": "GBS-2 identifies endpoint gap; peeled-shell contradiction and sauce sequencing need further editor work.",
+    "referenceId": "garlic-butter-shrimp-1",
+    "trial": "source-backed-v2"
+  },
+  {
+    "id": "v2-garlic-butter-shrimp-2",
+    "slug": "garlic-butter-shrimp",
+    "category": "material-defect",
+    "disposition": "accepted",
+    "rationale": "GBS-1 identifies contradictory totals.",
+    "referenceId": "garlic-butter-shrimp-2",
+    "trial": "source-backed-v2"
+  },
+  {
+    "id": "v2-garlic-butter-shrimp-3",
+    "slug": "garlic-butter-shrimp",
+    "category": "material-defect",
+    "disposition": "missed",
+    "rationale": "Butter ledger maps both stages but never flags fixed method amounts.",
+    "referenceId": "garlic-butter-shrimp-3",
+    "trial": "source-backed-v2"
+  },
+  {
+    "id": "v2-gambas-al-ajillo-1",
+    "slug": "gambas-al-ajillo",
+    "category": "material-defect",
+    "disposition": "accepted",
+    "rationale": "GAA-2 flags inadequate interior endpoint.",
+    "referenceId": "gambas-al-ajillo-1",
+    "trial": "source-backed-v2"
+  },
+  {
+    "id": "v2-gambas-al-ajillo-2",
+    "slug": "gambas-al-ajillo",
+    "category": "material-defect",
+    "disposition": "missed",
+    "rationale": "Fixed salt amount omitted from scaling review.",
+    "referenceId": "gambas-al-ajillo-2",
+    "trial": "source-backed-v2"
+  },
+  {
+    "id": "v2-shrimp-and-snow-pea-stir-fry-1",
+    "slug": "shrimp-and-snow-pea-stir-fry",
+    "category": "material-defect",
+    "disposition": "accepted",
+    "rationale": "SPS-1 unused soy.",
+    "referenceId": "shrimp-and-snow-pea-stir-fry-1",
+    "trial": "source-backed-v2"
+  },
+  {
+    "id": "v2-shrimp-and-snow-pea-stir-fry-2",
+    "slug": "shrimp-and-snow-pea-stir-fry",
+    "category": "material-defect",
+    "disposition": "accepted",
+    "rationale": "SPS-2 identifies impossible total, but proposed overlap cannot rescue 25-minute soak within 20 minutes.",
+    "referenceId": "shrimp-and-snow-pea-stir-fry-2",
+    "trial": "source-backed-v2"
+  },
+  {
+    "id": "v2-shrimp-and-snow-pea-stir-fry-3",
+    "slug": "shrimp-and-snow-pea-stir-fry",
+    "category": "material-defect",
+    "disposition": "accepted",
+    "rationale": "SPS-3 flags salt and ledger flags unquantified oil; exact oil total still needs editor.",
+    "referenceId": "shrimp-and-snow-pea-stir-fry-3",
+    "trial": "source-backed-v2"
+  },
+  {
+    "id": "v2-shrimp-and-snow-pea-stir-fry-4",
+    "slug": "shrimp-and-snow-pea-stir-fry",
+    "category": "material-defect",
+    "disposition": "accepted",
+    "rationale": "SPS-4 interior endpoint.",
+    "referenceId": "shrimp-and-snow-pea-stir-fry-4",
+    "trial": "source-backed-v2"
+  },
+  {
+    "id": "v2-shrimp-and-snow-pea-stir-fry-5",
+    "slug": "shrimp-and-snow-pea-stir-fry",
+    "category": "material-defect",
+    "disposition": "missed",
+    "rationale": "Split chili sauce and oil fixed amounts not identified.",
+    "referenceId": "shrimp-and-snow-pea-stir-fry-5",
+    "trial": "source-backed-v2"
+  },
+  {
+    "id": "v2-seared-scallops-with-a-corn-bacon-and-avocado-relish-1",
+    "slug": "seared-scallops-with-a-corn-bacon-and-avocado-relish",
+    "category": "material-defect",
+    "disposition": "accepted",
+    "rationale": "SSC-3 flags categorical one-minute sear without interior endpoint.",
+    "referenceId": "seared-scallops-with-a-corn-bacon-and-avocado-relish-1",
+    "trial": "source-backed-v2"
+  },
+  {
+    "id": "v2-seared-scallops-with-a-corn-bacon-and-avocado-relish-2",
+    "slug": "seared-scallops-with-a-corn-bacon-and-avocado-relish",
+    "category": "material-defect",
+    "disposition": "accepted",
+    "rationale": "Unresolved oil quantity detects part of combined accounting defect; missing salt/pepper still needs editor.",
+    "referenceId": "seared-scallops-with-a-corn-bacon-and-avocado-relish-2",
+    "trial": "source-backed-v2"
+  },
+  {
+    "id": "v2-seared-scallops-with-a-corn-bacon-and-avocado-relish-3",
+    "slug": "seared-scallops-with-a-corn-bacon-and-avocado-relish",
+    "category": "material-defect",
+    "disposition": "missed",
+    "rationale": "Bacon-fat note versus oil method not flagged.",
+    "referenceId": "seared-scallops-with-a-corn-bacon-and-avocado-relish-3",
+    "trial": "source-backed-v2"
+  },
+  {
+    "id": "v2-seared-scallops-with-a-corn-bacon-and-avocado-relish-4",
+    "slug": "seared-scallops-with-a-corn-bacon-and-avocado-relish",
+    "category": "material-defect",
+    "disposition": "pending",
+    "rationale": "Cooked bacon is explicitly purchased/prepared state; total should clarify prerequisite, but no proof it claims bacon cooking included.",
+    "referenceId": "seared-scallops-with-a-corn-bacon-and-avocado-relish-4",
+    "trial": "source-backed-v2"
+  },
+  {
+    "id": "v2-seared-scallops-with-a-corn-bacon-and-avocado-relish-5",
+    "slug": "seared-scallops-with-a-corn-bacon-and-avocado-relish",
+    "category": "material-defect",
+    "disposition": "missed",
+    "rationale": "Fixed four plates and parsley split not flagged.",
+    "referenceId": "seared-scallops-with-a-corn-bacon-and-avocado-relish-5",
+    "trial": "source-backed-v2"
+  },
+  {
+    "id": "v2-brisket-with-carrots-and-onions-1",
+    "slug": "brisket-with-carrots-and-onions",
+    "category": "material-defect",
+    "disposition": "missed",
+    "rationale": "Worker lists two burners but misses pan compatibility.",
+    "referenceId": "brisket-with-carrots-and-onions-1",
+    "trial": "source-backed-v2"
+  },
+  {
+    "id": "v2-brisket-with-carrots-and-onions-2",
+    "slug": "brisket-with-carrots-and-onions",
+    "category": "material-defect",
+    "disposition": "pending",
+    "rationale": "Pan geometry unresolved in coverage, but fixed juice versus level is conditional rather than proved wrong.",
+    "referenceId": "brisket-with-carrots-and-onions-2",
+    "trial": "source-backed-v2"
+  },
+  {
+    "id": "v2-brisket-with-carrots-and-onions-3",
+    "slug": "brisket-with-carrots-and-onions",
+    "category": "material-defect",
+    "disposition": "missed",
+    "rationale": "Bay leaves mapped into braise but removal omitted.",
+    "referenceId": "brisket-with-carrots-and-onions-3",
+    "trial": "source-backed-v2"
+  },
+  {
+    "id": "v2-pulled-pork-1",
+    "slug": "pulled-pork",
+    "category": "material-defect",
+    "disposition": "accepted",
+    "rationale": "Unresolved storage duration detects missing guidance, though it misses explicit all-week implication.",
+    "referenceId": "pulled-pork-1",
+    "trial": "source-backed-v2"
+  },
+  {
+    "id": "v2-pulled-pork-2",
+    "slug": "pulled-pork",
+    "category": "material-defect",
+    "disposition": "missed",
+    "rationale": "Universal nine-hour minimum not flagged.",
+    "referenceId": "pulled-pork-2",
+    "trial": "source-backed-v2"
+  },
+  {
+    "id": "v2-pulled-pork-3",
+    "slug": "pulled-pork",
+    "category": "material-defect",
+    "disposition": "missed",
+    "rationale": "Returning to full pot while adding just enough juice not flagged.",
+    "referenceId": "pulled-pork-3",
+    "trial": "source-backed-v2"
+  },
+  {
+    "id": "v2-thit-kho-vietnamese-caramelized-pork-1",
+    "slug": "thit-kho-vietnamese-caramelized-pork",
+    "category": "material-defect",
+    "disposition": "pending",
+    "rationale": "Adjustment amount explicitly named; maximum versus intended use needs clarification, not proof all must be used.",
+    "referenceId": "thit-kho-vietnamese-caramelized-pork-1",
+    "trial": "source-backed-v2"
+  },
+  {
+    "id": "v2-thit-kho-vietnamese-caramelized-pork-2",
+    "slug": "thit-kho-vietnamese-caramelized-pork",
+    "category": "material-defect",
+    "disposition": "missed",
+    "rationale": "Coverage lists stages but does not identify combined upper-bound omission.",
+    "referenceId": "thit-kho-vietnamese-caramelized-pork-2",
+    "trial": "source-backed-v2"
+  },
+  {
+    "id": "v2-thit-kho-vietnamese-caramelized-pork-3",
+    "slug": "thit-kho-vietnamese-caramelized-pork",
+    "category": "material-defect",
+    "disposition": "missed",
+    "rationale": "Separate tenderness and reduction contingencies missing.",
+    "referenceId": "thit-kho-vietnamese-caramelized-pork-3",
+    "trial": "source-backed-v2"
+  },
+  {
+    "id": "v2-thit-kho-vietnamese-caramelized-pork-4",
+    "slug": "thit-kho-vietnamese-caramelized-pork",
+    "category": "material-defect",
+    "disposition": "accepted",
+    "rationale": "Unresolved storage/safety endpoint correctly escalates incomplete make-ahead guidance.",
+    "referenceId": "thit-kho-vietnamese-caramelized-pork-4",
+    "trial": "source-backed-v2"
+  },
+  {
+    "id": "v2-jerk-pork-shoulder-1",
+    "slug": "jerk-pork-shoulder",
+    "category": "material-defect",
+    "disposition": "missed",
+    "rationale": "Both sugar entries marked clear without resolving duplicate versus intentional total.",
+    "referenceId": "jerk-pork-shoulder-1",
+    "trial": "source-backed-v2"
+  },
+  {
+    "id": "v2-jerk-pork-shoulder-2",
+    "slug": "jerk-pork-shoulder",
+    "category": "material-defect",
+    "disposition": "missed",
+    "rationale": "Worker wrongly treats raw finishing marinade as pork-contact rather than distinguishing clean reserved portion and its refrigeration.",
+    "referenceId": "jerk-pork-shoulder-2",
+    "trial": "source-backed-v2"
+  },
+  {
+    "id": "v2-jerk-pork-shoulder-3",
+    "slug": "jerk-pork-shoulder",
+    "category": "material-defect",
+    "disposition": "accepted",
+    "rationale": "Unresolved reheat safety flags need for endpoint; does not resolve.",
+    "referenceId": "jerk-pork-shoulder-3",
+    "trial": "source-backed-v2"
+  },
+  {
+    "id": "v2-jerk-pork-shoulder-4",
+    "slug": "jerk-pork-shoulder",
+    "category": "material-defect",
+    "disposition": "accepted",
+    "rationale": "jp-1 identifies incomplete total.",
+    "referenceId": "jerk-pork-shoulder-4",
+    "trial": "source-backed-v2"
+  },
+  {
+    "id": "v2-jerk-pork-shoulder-5",
+    "slug": "jerk-pork-shoulder",
+    "category": "material-defect",
+    "disposition": "missed",
+    "rationale": "Ground/fresh allspice and habanero contradiction omitted.",
+    "referenceId": "jerk-pork-shoulder-5",
+    "trial": "source-backed-v2"
+  },
+  {
+    "id": "v2-mexican-red-rice-1",
+    "slug": "mexican-red-rice",
+    "category": "material-defect",
+    "disposition": "accepted",
+    "rationale": "mrr-1 catches minimum elapsed conflict.",
+    "referenceId": "mexican-red-rice-1",
+    "trial": "source-backed-v2"
+  },
+  {
+    "id": "v2-mexican-red-rice-2",
+    "slug": "mexican-red-rice",
+    "category": "material-defect",
+    "disposition": "missed",
+    "rationale": "Unmeasured Roma alternative marked clear; generic liquid uncertainty is not detection of equivalence issue.",
+    "referenceId": "mexican-red-rice-2",
+    "trial": "source-backed-v2"
+  },
+  {
+    "id": "v2-mexican-red-rice-3",
+    "slug": "mexican-red-rice",
+    "category": "material-defect",
+    "disposition": "missed",
+    "rationale": "Dry thoroughly prerequisite lacks practical method; not flagged.",
+    "referenceId": "mexican-red-rice-3",
+    "trial": "source-backed-v2"
+  },
+  {
+    "id": "v2-lemon-herb-quinoa-1",
+    "slug": "lemon-herb-quinoa",
+    "category": "material-defect",
+    "disposition": "accepted",
+    "rationale": "lhq-1 flags missing toast/heat-up assumptions; no proof every 25-minute run fails.",
+    "referenceId": "lemon-herb-quinoa-1",
+    "trial": "source-backed-v2"
+  },
+  {
+    "id": "v2-quinoa-pilaf-with-toasted-almonds-1",
+    "slug": "quinoa-pilaf-with-toasted-almonds",
+    "category": "material-defect",
+    "disposition": "missed",
+    "rationale": "Oil option disappears at finish, ledger incorrectly clear.",
+    "referenceId": "quinoa-pilaf-with-toasted-almonds-1",
+    "trial": "source-backed-v2"
+  },
+  {
+    "id": "v2-quinoa-pilaf-with-toasted-almonds-2",
+    "slug": "quinoa-pilaf-with-toasted-almonds",
+    "category": "material-defect",
+    "disposition": "missed",
+    "rationale": "Cranberry and tarragon options disappear, ledger incorrectly clear.",
+    "referenceId": "quinoa-pilaf-with-toasted-almonds-2",
+    "trial": "source-backed-v2"
+  },
+  {
+    "id": "v2-quinoa-pilaf-with-toasted-almonds-3",
+    "slug": "quinoa-pilaf-with-toasted-almonds",
+    "category": "material-defect",
+    "disposition": "accepted",
+    "rationale": "qpa-1 flags total but weaker arithmetic; cook stages alone exceed cookTime.",
+    "referenceId": "quinoa-pilaf-with-toasted-almonds-3",
+    "trial": "source-backed-v2"
+  },
+  {
+    "id": "v2-quinoa-pilaf-with-toasted-almonds-4",
+    "slug": "quinoa-pilaf-with-toasted-almonds",
+    "category": "material-defect",
+    "disposition": "missed",
+    "rationale": "Fixed fat and salt method amounts omitted.",
+    "referenceId": "quinoa-pilaf-with-toasted-almonds-4",
+    "trial": "source-backed-v2"
+  },
+  {
+    "id": "v2-creamy-polenta-1",
+    "slug": "creamy-polenta",
+    "category": "material-defect",
+    "disposition": "accepted",
+    "rationale": "cp-1 flags incomplete upper-bound elapsed.",
+    "referenceId": "creamy-polenta-1",
+    "trial": "source-backed-v2"
+  },
+  {
+    "id": "v2-creamy-polenta-2",
+    "slug": "creamy-polenta",
+    "category": "material-defect",
+    "disposition": "missed",
+    "rationale": "Universal instant-polenta claim not flagged.",
+    "referenceId": "creamy-polenta-2",
+    "trial": "source-backed-v2"
+  },
+  {
+    "id": "v2-lemon-ricotta-pasta-1",
+    "slug": "lemon-ricotta-pasta",
+    "category": "material-defect",
+    "disposition": "missed",
+    "rationale": "No final tenderness check for undercooked pasta in bowl.",
+    "referenceId": "lemon-ricotta-pasta-1",
+    "trial": "source-backed-v2"
+  },
+  {
+    "id": "v2-lemon-ricotta-pasta-2",
+    "slug": "lemon-ricotta-pasta",
+    "category": "material-defect",
+    "disposition": "pending",
+    "rationale": "Total depends on heat-up and overlap; unresolved package time insufficient to prove wrong.",
+    "referenceId": "lemon-ricotta-pasta-2",
+    "trial": "source-backed-v2"
+  },
+  {
+    "id": "v2-real-spaghetti-carbonara-1",
+    "slug": "real-spaghetti-carbonara",
+    "category": "material-defect",
+    "disposition": "accepted",
+    "rationale": "SC-1 unused lemon.",
+    "referenceId": "real-spaghetti-carbonara-1",
+    "trial": "source-backed-v2"
+  },
+  {
+    "id": "v2-real-spaghetti-carbonara-2",
+    "slug": "real-spaghetti-carbonara",
+    "category": "material-defect",
+    "disposition": "accepted",
+    "rationale": "SC-2 flags residual-heat assurance with supplied egg packet.",
+    "referenceId": "real-spaghetti-carbonara-2",
+    "trial": "source-backed-v2"
+  },
+  {
+    "id": "v2-real-spaghetti-carbonara-3",
+    "slug": "real-spaghetti-carbonara",
+    "category": "material-defect",
+    "disposition": "missed",
+    "rationale": "Ledger calls egg split okay; generic alternate scaling question does not detect verified 8 eggs (2 whole,2 yolks) defect.",
+    "referenceId": "real-spaghetti-carbonara-3",
+    "trial": "source-backed-v2"
+  },
+  {
+    "id": "v2-real-alfredo-sauce-1",
+    "slug": "real-alfredo-sauce",
+    "category": "material-defect",
+    "disposition": "accepted",
+    "rationale": "AF-1 unused lemon.",
+    "referenceId": "real-alfredo-sauce-1",
+    "trial": "source-backed-v2"
+  },
+  {
+    "id": "v2-real-alfredo-sauce-2",
+    "slug": "real-alfredo-sauce",
+    "category": "material-defect",
+    "disposition": "accepted",
+    "rationale": "Unresolved explicitly asks for pasta quantity and reserved water source.",
+    "referenceId": "real-alfredo-sauce-2",
+    "trial": "source-backed-v2"
+  },
+  {
+    "id": "v2-real-alfredo-sauce-3",
+    "slug": "real-alfredo-sauce",
+    "category": "material-defect",
+    "disposition": "missed",
+    "rationale": "Make-ahead guidance missing and not flagged.",
+    "referenceId": "real-alfredo-sauce-3",
+    "trial": "source-backed-v2"
+  },
+  {
+    "id": "v2-buttered-egg-noodles-1",
+    "slug": "buttered-egg-noodles",
+    "category": "material-defect",
+    "disposition": "pending",
+    "rationale": "Sea-water analogy imprecise; oversalting plausible rather than measured.",
+    "referenceId": "buttered-egg-noodles-1",
+    "trial": "source-backed-v2"
+  },
+  {
+    "id": "v2-buttered-egg-noodles-2",
+    "slug": "buttered-egg-noodles",
+    "category": "material-defect",
+    "disposition": "pending",
+    "rationale": "BEN-1 flags heating uncertainty, no evidence every 12-minute run impossible.",
+    "referenceId": "buttered-egg-noodles-2",
+    "trial": "source-backed-v2"
+  },
+  {
+    "id": "v2-banana-nut-bread-1",
+    "slug": "banana-nut-bread",
+    "category": "material-defect",
+    "disposition": "accepted",
+    "rationale": "BNB-1 missing mandatory cooling.",
+    "referenceId": "banana-nut-bread-1",
+    "trial": "source-backed-v2"
+  },
+  {
+    "id": "v2-blueberry-pancakes-1",
+    "slug": "blueberry-pancakes",
+    "category": "material-defect",
+    "disposition": "accepted",
+    "rationale": "BP-1 wrong no-cook tag.",
+    "referenceId": "blueberry-pancakes-1",
+    "trial": "source-backed-v2"
+  },
+  {
+    "id": "v2-blueberry-pancakes-2",
+    "slug": "blueberry-pancakes",
+    "category": "material-defect",
+    "disposition": "accepted",
+    "rationale": "Unresolved explicitly flags capacity/batch count.",
+    "referenceId": "blueberry-pancakes-2",
+    "trial": "source-backed-v2"
+  },
+  {
+    "id": "v2-blueberry-pancakes-3",
+    "slug": "blueberry-pancakes",
+    "category": "material-defect",
+    "disposition": "missed",
+    "rationale": "Butter for greasing absent from ingredient allowance, not flagged.",
+    "referenceId": "blueberry-pancakes-3",
+    "trial": "source-backed-v2"
+  },
+  {
+    "id": "v2-buttermilk-waffles-1",
+    "slug": "buttermilk-waffles",
+    "category": "material-defect",
+    "disposition": "accepted",
+    "rationale": "BW-2/unresolved batch count and iron size.",
+    "referenceId": "buttermilk-waffles-1",
+    "trial": "source-backed-v2"
+  },
+  {
+    "id": "v2-buttermilk-waffles-2",
+    "slug": "buttermilk-waffles",
+    "category": "material-defect",
+    "disposition": "accepted",
+    "rationale": "BW-2 flags preheat/rest dependencies.",
+    "referenceId": "buttermilk-waffles-2",
+    "trial": "source-backed-v2"
+  },
+  {
+    "id": "v2-frozen-blueberry-muffins-1",
+    "slug": "frozen-blueberry-muffins",
+    "category": "material-defect",
+    "disposition": "accepted",
+    "rationale": "FBM-1 cooling omitted.",
+    "referenceId": "frozen-blueberry-muffins-1",
+    "trial": "source-backed-v2"
+  },
+  {
+    "id": "v2-frozen-blueberry-muffins-2",
+    "slug": "frozen-blueberry-muffins",
+    "category": "material-defect",
+    "disposition": "missed",
+    "rationale": "Sugar allocations marked okay at base yield; scaling conflict missed.",
+    "referenceId": "frozen-blueberry-muffins-2",
+    "trial": "source-backed-v2"
+  },
+  {
+    "id": "v2-frozen-blueberry-muffins-3",
+    "slug": "frozen-blueberry-muffins",
+    "category": "material-defect",
+    "disposition": "missed",
+    "rationale": "Freeze-ahead storage workflow omitted, not flagged.",
+    "referenceId": "frozen-blueberry-muffins-3",
+    "trial": "source-backed-v2"
+  },
+  {
+    "id": "v2-roasted-asparagus-1",
+    "slug": "roasted-asparagus",
+    "category": "material-defect",
+    "disposition": "missed",
+    "rationale": "Generic finished yield uncertainty does not identify unweighed bunch.",
+    "referenceId": "roasted-asparagus-1",
+    "trial": "source-backed-v2"
+  },
+  {
+    "id": "v2-roasted-asparagus-2",
+    "slug": "roasted-asparagus",
+    "category": "material-defect",
+    "disposition": "missed",
+    "rationale": "Unsupported steaming/instant evaporation absolutes not flagged.",
+    "referenceId": "roasted-asparagus-2",
+    "trial": "source-backed-v2"
+  },
+  {
+    "id": "v2-roasted-root-vegetables-1",
+    "slug": "roasted-root-vegetables",
+    "category": "material-defect",
+    "disposition": "accepted",
+    "rationale": "rr-2 flags unequal finish behavior.",
+    "referenceId": "roasted-root-vegetables-1",
+    "trial": "source-backed-v2"
+  },
+  {
+    "id": "v2-crispy-smashed-potatoes-1",
+    "slug": "crispy-smashed-potatoes",
+    "category": "material-defect",
+    "disposition": "missed",
+    "rationale": "Coverage lists time stages but does not identify total/rest conflict.",
+    "referenceId": "crispy-smashed-potatoes-1",
+    "trial": "source-backed-v2"
+  },
+  {
+    "id": "v2-crispy-smashed-potatoes-2",
+    "slug": "crispy-smashed-potatoes",
+    "category": "material-defect",
+    "disposition": "accepted",
+    "rationale": "Coverage explicitly identifies missing spacing and capacity.",
+    "referenceId": "crispy-smashed-potatoes-2",
+    "trial": "source-backed-v2"
+  },
+  {
+    "id": "SSC-E1",
+    "slug": "seared-scallops-with-a-corn-bacon-and-avocado-relish",
+    "category": "routine-edit",
+    "disposition": "accepted",
+    "trial": "source-backed-v2",
+    "rationale": "Root verified exact source span and method/relationship contradiction; removes unused method or duplicate pair without changing formula.",
+    "original": "cookingMethods:\n  - saute\n  - no-cook",
+    "replacement": "cookingMethods:\n  - saute"
+  },
+  {
+    "id": "ra-edit-1",
+    "slug": "roasted-asparagus",
+    "category": "routine-edit",
+    "disposition": "accepted",
+    "trial": "source-backed-v2",
+    "rationale": "Root verified exact source span and method/relationship contradiction; removes unused method or duplicate pair without changing formula.",
+    "original": "  - steam",
+    "replacement": ""
+  },
+  {
+    "id": "pp-edit-1",
+    "slug": "pulled-pork",
+    "category": "routine-edit",
+    "disposition": "accepted",
+    "trial": "source-backed-v2",
+    "rationale": "Root verified exact source span and method/relationship contradiction; removes unused method or duplicate pair without changing formula.",
+    "original": "  - coleslaw\n  - coleslaw",
+    "replacement": "  - coleslaw"
+  },
+  {
+    "id": "LRP-E1",
+    "slug": "lemon-ricotta-pasta",
+    "category": "routine-edit",
+    "disposition": "accepted",
+    "trial": "source-backed-v2",
+    "rationale": "Root verified exact source span and method/relationship contradiction; removes unused method or duplicate pair without changing formula.",
+    "original": "cookingMethods:\n  - roast\n  - boil",
+    "replacement": "cookingMethods:\n  - boil"
+  },
+  {
+    "id": "AF-E1",
+    "slug": "real-alfredo-sauce",
+    "category": "routine-edit",
+    "disposition": "accepted",
+    "trial": "source-backed-v2",
+    "rationale": "Root verified exact source span and method/relationship contradiction; removes unused method or duplicate pair without changing formula.",
+    "original": "cookingMethods:\n  - simmer\n  - boil\n  - steam",
+    "replacement": "cookingMethods:\n  - simmer\n  - boil"
   }
 ]

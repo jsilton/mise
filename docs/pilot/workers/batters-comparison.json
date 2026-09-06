@@ -1,0 +1,87 @@
+{
+  "model": "gpt-5.6-luna",
+  "startedAt": "2026-09-06T23:37:00+00:00",
+  "finishedAt": "2026-09-06T23:37:00+00:00",
+  "usage": { "inputTokens": null, "outputTokens": null, "usd": null },
+  "comparisons": [
+    {
+      "referenceId": "banana-nut-bread-1",
+      "status": "detected",
+      "workerFindingIds": ["BNB-1"],
+      "workerUnresolved": [
+        "Confirm totalTime against bake range and 10-minute cooling; do not infer a replacement value."
+      ],
+      "explanation": "Worker identified omission of cooling and upper bake range; reference's 80-85 minute implication is consistent, though worker did not add rack-cooling detail."
+    },
+    {
+      "referenceId": "blueberry-pancakes-1",
+      "status": "detected",
+      "workerFindingIds": ["BP-1"],
+      "workerUnresolved": [],
+      "explanation": "Worker found no-cook contradiction and proposed routine label correction."
+    },
+    {
+      "referenceId": "blueberry-pancakes-2",
+      "status": "detected",
+      "workerFindingIds": [],
+      "workerUnresolved": [
+        "No equipment capacity or batch count is stated, so total cook time cannot be independently reconstructed."
+      ],
+      "explanation": "Worker covered missing capacity/batch timing as unresolved but did not elevate the reference's four-per-batch implication to a finding."
+    },
+    {
+      "referenceId": "blueberry-pancakes-3",
+      "status": "detected",
+      "workerFindingIds": [],
+      "workerUnresolved": [
+        "Confirm whether 3/4 cup berries and 1 tbsp per pancake reconcile with exactly 12 pancakes."
+      ],
+      "explanation": "Worker explicitly checked berry allocation and yield; it did not flag greasing butter as an additional unlisted allowance."
+    },
+    {
+      "referenceId": "buttermilk-waffles-1",
+      "status": "detected",
+      "workerFindingIds": ["BW-2"],
+      "workerUnresolved": [
+        "State waffle-iron size/capacity and batch count before resolving totalTime/cookTime."
+      ],
+      "explanation": "Worker identified absent iron capacity/batch basis and timing audit gap, but did not separately state that six servings lacks a waffle count."
+    },
+    {
+      "referenceId": "buttermilk-waffles-2",
+      "status": "detected",
+      "workerFindingIds": ["BW-2"],
+      "workerUnresolved": [],
+      "explanation": "Worker identified rest, preheat and cook-time dependency conflict."
+    },
+    {
+      "referenceId": "frozen-blueberry-muffins-1",
+      "status": "detected",
+      "workerFindingIds": ["FBM-1"],
+      "workerUnresolved": [
+        "Confirm totalTime after accounting for preheat, 20-25 minute bake and 10-minute cooling."
+      ],
+      "explanation": "Worker found omitted cooling and bake-range timing; it did not repeat the reference's exact 40-45 minute arithmetic."
+    },
+    {
+      "referenceId": "frozen-blueberry-muffins-2",
+      "status": "missed",
+      "workerFindingIds": [],
+      "workerUnresolved": [],
+      "explanation": "Worker verified that 2 cups minus 2 tbsp plus remaining 2 tbsp totals the listed 2 cups, but missed that fixed prose fails under scaling."
+    },
+    {
+      "referenceId": "frozen-blueberry-muffins-3",
+      "status": "missed",
+      "workerFindingIds": [],
+      "workerUnresolved": [
+        "Clarify whether stand mixer is required or merely available equipment."
+      ],
+      "explanation": "Worker checked equipment ambiguity but did not address make-ahead/freeze-ahead cooling, packing, duration or thawing guidance."
+    }
+  ],
+  "limitations": [
+    "Comparison covers only quick-batters reference IDs and the preserved quick-batters worker report; reference items were not autoaccepted.",
+    "No recipe edits or independent recalculation performed."
+  ]
+}

@@ -39,8 +39,12 @@ A worker may correct a clear duplicated word or apply an approved template rule.
 
 Build small, sourced method packets as needed by queued families; avoid an enormous generic cooking encyclopedia. Separate source-supported facts from editorial operating choices and physical-test questions. Store provenance once and reference it from findings. Cache full-recipe history extracts and recovered originals once rather than repeatedly fetching them.
 
-Benchmark a small set of strong recipe sites on the same tasks: ingredient precision, timing honesty, sensory cues, troubleshooting, substitutions, source transparency, scaling and mobile cooking usability. Compare representative matched dishes and record observed examples. Use the result to prioritize product gaps, not to copy prose, average recipe ratios or equate popularity with correctness. This benchmark is proposed, not yet performed.
+Benchmark a small set of strong recipe sites on the same tasks: ingredient precision, timing honesty, sensory cues, troubleshooting, substitutions, source transparency, scaling and mobile cooking usability. Compare representative matched dishes and record observed examples. Use the result to prioritize product gaps, not to copy prose, average recipe ratios or equate popularity with correctness. A bounded two-publisher content benchmark is complete in RECIPE_SITE_BENCHMARK.md; its prioritized actions are part of the remaining family edits.
 
 ## Release gates
 
 Verify input hashes, full diffs, all ingredient destinations, approved family-rule applicability, resolved critical flags, working recipe/meal relationships and appropriate automated/browser checks. Review counts distinguish machine-audited, editorially accepted and physically tested work. Existing editorial-review status is not granted merely because a worker produced a report. Keep kitchen testing separate; prioritize changed formulas, sensitive methods and representative family anchors for real cooking.
+
+## Pilot outcome and active operating rule
+
+The 24-recipe pilot failed the broad lightweight-review gate: 6/7 routine edits accepted, 29/58 confirmed reference issues detected, and unreliable timing metadata. See [pilot results](pilot/RESULTS.md). Continue the full collection using stronger whole-recipe editing grouped by method, shared evidence and deterministic maintenance. Restrict inexpensive workers to narrow independently verifiable tasks. Do not spend another full pilot trying to force a passing percentage, and do not treat lack of cost telemetry as a blocker to actual recipe improvements.

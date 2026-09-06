@@ -1,0 +1,86 @@
+{
+  "scope": "Targeted corrections after full frozen-input reading; comprehensive recipe completion remains pending.",
+  "sources": [
+    "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-and-frozen-seafood-safely"
+  ],
+  "changes": [
+    {
+      "slug": "blueberry-pancakes",
+      "original": "cookingMethods:\n  - no-cook",
+      "replacement": "cookingMethods:\n  - griddle",
+      "reason": "Accepted routine pilot proposal BP-E1"
+    },
+    {
+      "slug": "seared-scallops-with-a-corn-bacon-and-avocado-relish",
+      "original": "cookingMethods:\n  - saute\n  - no-cook",
+      "replacement": "cookingMethods:\n  - saute",
+      "reason": "Accepted routine pilot proposal SSC-E1"
+    },
+    {
+      "slug": "roasted-asparagus",
+      "original": "  - steam",
+      "replacement": "",
+      "reason": "Accepted routine pilot proposal ra-edit-1"
+    },
+    {
+      "slug": "pulled-pork",
+      "original": "  - coleslaw\n  - coleslaw",
+      "replacement": "  - coleslaw",
+      "reason": "Accepted routine pilot proposal pp-edit-1"
+    },
+    {
+      "slug": "lemon-ricotta-pasta",
+      "original": "cookingMethods:\n  - roast\n  - boil",
+      "replacement": "cookingMethods:\n  - boil",
+      "reason": "Accepted routine pilot proposal LRP-E1"
+    },
+    {
+      "slug": "real-alfredo-sauce",
+      "original": "cookingMethods:\n  - simmer\n  - boil\n  - steam",
+      "replacement": "cookingMethods:\n  - simmer\n  - boil",
+      "reason": "Accepted routine pilot proposal AF-E1"
+    },
+    {
+      "slug": "quinoa-pilaf-with-toasted-almonds",
+      "original": "add 1 tbsp of the olive oil or butter",
+      "replacement": "add half of the olive oil or butter",
+      "reason": "Preserve chosen fat and its split when scaling."
+    },
+    {
+      "slug": "quinoa-pilaf-with-toasted-almonds",
+      "original": "add 1/2 tsp salt",
+      "replacement": "add the measured salt",
+      "reason": "Keep method aligned with ingredient scaler; unquantified pinch remains a separate review question."
+    },
+    {
+      "slug": "quinoa-pilaf-with-toasted-almonds",
+      "original": "Fold in the toasted almonds, dried apricots (if using), remaining 1 tbsp butter, parsley, dill, black pepper, and lemon zest.",
+      "replacement": "Fold in the toasted almonds, dried apricots or cranberries (if using), remaining olive oil or butter, parsley, dill or tarragon (if using), black pepper, and lemon zest.",
+      "reason": "Carry every offered alternative through the method; preserve original total fat."
+    },
+    {
+      "slug": "brisket-with-carrots-and-onions",
+      "original": "Place the roasting pan across two burners on the stovetop. Boil the vegetables and sauce",
+      "replacement": "Remove and discard the bay leaves. If the roasting pan is approved by its manufacturer for stovetop use across two burners, place it on the stovetop; otherwise transfer the vegetables and sauce to a wide saucepan. Boil the vegetables and sauce",
+      "reason": "Do not imply any heavy roasting pan is burner-compatible; account for bay removal."
+    },
+    {
+      "slug": "pulled-pork",
+      "original": "Skim excess fat from the cooking liquid in the slow cooker. Return the chopped pork to the pot and toss in just enough of the cooking liquid to keep it moist and flavorful.",
+      "replacement": "Pour the cooking liquid into a heatproof jug and skim off excess fat. Return the chopped pork to the slow cooker, then add the skimmed liquid a little at a time, tossing until the meat is moist and flavorful.",
+      "reason": "Decant before controlled return; no invented amount."
+    },
+    {
+      "slug": "roasted-root-vegetables",
+      "original": "drizzle the maple syrup and balsamic vinegar over the pan",
+      "replacement": "drizzle the maple syrup or honey and balsamic vinegar evenly over both sheets",
+      "reason": "Preserve offered honey alternative and explicit two-sheet distribution."
+    },
+    {
+      "slug": "seared-scallops-with-a-corn-bacon-and-avocado-relish",
+      "original": "Sear for exactly **1 minute per side** until a deep golden crust forms. Remove immediately.",
+      "replacement": "Sear until the underside develops a golden crust, then turn. Check the center of a thick scallop with an instant-read thermometer inserted from the side; cook to 145\u00b0F. The flesh should be firm, pearly, and opaque throughout. Lower the heat if the crust darkens before the center is done. Remove each scallop as it finishes; size and pan heat determine the time.",
+      "reason": "Replace unsafe categorical time-only removal with FDA-supported endpoint; no kitchen-test claim."
+    }
+  ]
+}

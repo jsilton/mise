@@ -1,0 +1,389 @@
+{
+  "model": "gpt-5.6-luna",
+  "startedAt": "2026-09-06T23:36:00+00:00",
+  "finishedAt": "2026-09-06T23:36:00+00:00",
+  "usage": { "inputTokens": null, "outputTokens": null, "usd": null },
+  "recipes": [
+    {
+      "slug": "lemon-ricotta-pasta",
+      "inputSha256": "ddb68f05aa03e8ca40ac9a56e13ad4eefa6a032b6b9d7cfd0c09f1e410d88789",
+      "ingredientLedger": [
+        { "text": "1 lb Bucatini or Spaghetti", "destinations": [1, 5], "status": "ok; alternate" },
+        { "text": "1 cup Fresh Ricotta Cheese", "destinations": [3, 4], "status": "ok" },
+        { "text": "1/2 cup Extra-Virgin Olive Oil", "destinations": [3, 6], "status": "ok" },
+        { "text": "1/2 cup Freshly Grated Pecorino Romano", "destinations": [3], "status": "ok" },
+        { "text": "1 Lemon, zested and juiced", "destinations": [3, 6], "status": "ok" },
+        { "text": "1/2 tsp Red Pepper Flakes", "destinations": [3], "status": "ok" },
+        { "text": "1/2 cup Fresh Basil, torn", "destinations": [6], "status": "ok" },
+        { "text": "Salt and Black Pepper", "destinations": [1, 6], "status": "ok; quantity open" }
+      ],
+      "process": [
+        {
+          "stage": "Boil pasta",
+          "minutes": "package time minus 1; unknown absolute",
+          "dependsOn": [],
+          "attention": true,
+          "equipment": "large pot"
+        },
+        {
+          "stage": "Reserve water/drain",
+          "minutes": null,
+          "dependsOn": [1],
+          "attention": true,
+          "equipment": "large pot"
+        },
+        {
+          "stage": "Make base",
+          "minutes": null,
+          "dependsOn": [],
+          "attention": true,
+          "equipment": "large bowl; whisk"
+        },
+        {
+          "stage": "Bind",
+          "minutes": null,
+          "dependsOn": [2, 3],
+          "attention": true,
+          "equipment": "bowl; whisk"
+        },
+        {
+          "stage": "Toss/finish",
+          "minutes": null,
+          "dependsOn": [4],
+          "attention": true,
+          "equipment": "bowl"
+        }
+      ],
+      "findings": [
+        {
+          "id": "LRP-1",
+          "supportingText": "cookingMethods: roast, boil",
+          "category": "metadata",
+          "severity": "material",
+          "evidenceIds": ["IC5"],
+          "explanation": "No roasting step appears; boil is explicit."
+        },
+        {
+          "id": "LRP-2",
+          "supportingText": "nutrition: calories: 610; protein: 9; carbs: 7.5; fat: 62",
+          "category": "nutrition plausibility",
+          "severity": "material",
+          "evidenceIds": [],
+          "explanation": "Panel requires formula-specific review; no recalculation."
+        }
+      ],
+      "proposedEdits": [
+        {
+          "id": "LRP-E1",
+          "original": "cookingMethods:\n  - roast\n  - boil",
+          "replacement": "cookingMethods:\n  - boil",
+          "routine": true,
+          "findingIds": ["LRP-1"],
+          "explanation": "Removes contradicted method label."
+        }
+      ],
+      "unresolved": [
+        "Confirm package time, bowl capacity and additional pasta-water quantity under scaling.",
+        "Verify nutrition and 4-serving yield."
+      ],
+      "identityPreserved": [
+        "ricotta, Pecorino, lemon, basil; bucatini-or-spaghetti alternate; Italy"
+      ]
+    },
+    {
+      "slug": "real-spaghetti-carbonara",
+      "inputSha256": "4f1c254da4fcea064420732b94f5860a0855f3590eb4a210a2283ae4c28becaa",
+      "ingredientLedger": [
+        { "text": "1 lb Spaghetti or Rigatoni", "destinations": [1, 5], "status": "ok; alternate" },
+        {
+          "text": "4 oz Guanciale or Pancetta (thickly diced)",
+          "destinations": [2, 5],
+          "status": "ok; alternate"
+        },
+        {
+          "text": "4 large Eggs (2 whole, 2 yolks)",
+          "destinations": [3, 6],
+          "status": "ok; split allocation"
+        },
+        {
+          "text": "1 cup Pecorino Romano or Parmesan, freshly grated",
+          "destinations": [3, 7],
+          "status": "ok; alternate"
+        },
+        {
+          "text": "1 tsp Freshly Cracked Black Pepper (lots!)",
+          "destinations": [3, 7],
+          "status": "ok"
+        },
+        { "text": "Salt for pasta water", "destinations": [1], "status": "ok; quantity open" },
+        {
+          "text": "--- Lemon juice ---",
+          "destinations": [],
+          "status": "separator-like ingredient line; unresolved"
+        },
+        { "text": "1-2 Lemons, juiced", "destinations": [], "status": "no method destination" }
+      ],
+      "process": [
+        {
+          "stage": "Boil pasta",
+          "minutes": "package time minus 1; unknown absolute",
+          "dependsOn": [],
+          "attention": true,
+          "equipment": "large pot"
+        },
+        {
+          "stage": "Render pork",
+          "minutes": null,
+          "dependsOn": [1],
+          "attention": true,
+          "equipment": "large skillet"
+        },
+        {
+          "stage": "Temper egg/cheese",
+          "minutes": 1,
+          "dependsOn": [1],
+          "attention": true,
+          "equipment": "bowl over boiling pot"
+        },
+        {
+          "stage": "Reserve/drain",
+          "minutes": null,
+          "dependsOn": [1],
+          "attention": true,
+          "equipment": "pot"
+        },
+        {
+          "stage": "Toss/emulsify",
+          "minutes": null,
+          "dependsOn": [2, 3, 4],
+          "attention": true,
+          "equipment": "skillet"
+        }
+      ],
+      "findings": [
+        {
+          "id": "SC-1",
+          "supportingText": "'--- Lemon juice ---'; '1-2 Lemons, juiced'",
+          "category": "ingredient allocation",
+          "severity": "material",
+          "evidenceIds": ["IC2"],
+          "explanation": "Lemon lines have no method destination and separator line is not a clearly edible ingredient."
+        },
+        {
+          "id": "SC-2",
+          "supportingText": "The heat from the pasta will finish cooking the eggs",
+          "category": "safety/endpoint",
+          "severity": "material",
+          "evidenceIds": ["egg-safety"],
+          "explanation": "Packet requires pasteurized eggs/egg products for sauces not thoroughly cooked; residual heat is not measured."
+        },
+        {
+          "id": "SC-3",
+          "supportingText": "nutrition: calories: 100; carbs: 7; fat: 5.5",
+          "category": "nutrition plausibility",
+          "severity": "material",
+          "evidenceIds": [],
+          "explanation": "Panel requires formula-specific review; no recalculation."
+        }
+      ],
+      "proposedEdits": [],
+      "unresolved": [
+        "Decide whether lemon is accidental/stale and preserve as unresolved until reviewed.",
+        "Specify pasteurized egg handling or validated endpoint; confirm bowl/pan capacities.",
+        "Verify 4-serving nutrition and alternate scaling."
+      ],
+      "identityPreserved": ["guanciale-or-pancetta, egg/cheese emulsion, off-heat technique, Italy"]
+    },
+    {
+      "slug": "real-alfredo-sauce",
+      "inputSha256": "b190666d460b884bbe324f06fdcc2d3f89db2c86f0bd363e106128d2f8816f99",
+      "ingredientLedger": [
+        { "text": "1 stick (8 tbsp) Unsalted Butter", "destinations": [1], "status": "ok" },
+        { "text": "1 cup Heavy Cream", "destinations": [2], "status": "ok" },
+        {
+          "text": "1 1/2 cups Freshly Grated Parmesan Cheese (Do not use the green shaker!)",
+          "destinations": [3],
+          "status": "ok"
+        },
+        {
+          "text": "1/2 tsp Garlic Powder or 1 clove fresh garlic, grated",
+          "destinations": [2],
+          "status": "ok; alternate"
+        },
+        { "text": "Pinch of Nutmeg (optional)", "destinations": [5], "status": "ok" },
+        {
+          "text": "Salt and Black Pepper to taste",
+          "destinations": [5],
+          "status": "ok; quantity open"
+        },
+        { "text": "1/4 cup Reserved Pasta Water", "destinations": [4], "status": "ok" },
+        {
+          "text": "--- Lemon juice ---",
+          "destinations": [],
+          "status": "separator-like line; unresolved"
+        },
+        { "text": "1-2 Lemons, juiced", "destinations": [], "status": "no method destination" }
+      ],
+      "process": [
+        {
+          "stage": "Melt",
+          "minutes": null,
+          "dependsOn": [],
+          "attention": true,
+          "equipment": "large skillet or saucepan"
+        },
+        {
+          "stage": "Simmer cream/garlic",
+          "minutes": 2,
+          "dependsOn": [1],
+          "attention": true,
+          "equipment": "skillet/saucepan"
+        },
+        {
+          "stage": "Whisk cheese",
+          "minutes": null,
+          "dependsOn": [2],
+          "attention": true,
+          "equipment": "skillet"
+        },
+        {
+          "stage": "Bind water/season",
+          "minutes": null,
+          "dependsOn": [3],
+          "attention": true,
+          "equipment": "skillet"
+        },
+        {
+          "stage": "Toss pasta",
+          "minutes": null,
+          "dependsOn": [4],
+          "attention": true,
+          "equipment": "skillet"
+        }
+      ],
+      "findings": [
+        {
+          "id": "AF-1",
+          "supportingText": "'--- Lemon juice ---'; '1-2 Lemons, juiced'",
+          "category": "ingredient allocation",
+          "severity": "material",
+          "evidenceIds": ["IC2"],
+          "explanation": "Lemon lines have no method destination."
+        },
+        {
+          "id": "AF-2",
+          "supportingText": "cookingMethods: simmer, boil, steam",
+          "category": "metadata",
+          "severity": "minor",
+          "evidenceIds": ["IC5"],
+          "explanation": "Directions describe simmer and pasta boiling but no steam stage."
+        },
+        {
+          "id": "AF-3",
+          "supportingText": "nutrition: calories: 735; protein: 38; carbs: 46.5; fat: 44.5",
+          "category": "nutrition plausibility",
+          "severity": "material",
+          "evidenceIds": [],
+          "explanation": "Panel requires formula-specific review; no recalculation."
+        }
+      ],
+      "proposedEdits": [
+        {
+          "id": "AF-E1",
+          "original": "cookingMethods:\n  - simmer\n  - boil\n  - steam",
+          "replacement": "cookingMethods:\n  - simmer\n  - boil",
+          "routine": true,
+          "findingIds": ["AF-2"],
+          "explanation": "Removes unsupported steam label."
+        }
+      ],
+      "unresolved": [
+        "Resolve lemon separator/ingredient lines and clarify whether sauce is intended as standalone or pasta-toss component.",
+        "Confirm reserved-water source, pasta quantity, pan capacity and 4-serving nutrition.",
+        "Preserve optional garlic and nutmeg alternatives under scaling."
+      ],
+      "identityPreserved": [
+        "butter/cream/Parmesan sauce, optional garlic/nutmeg, Italy attribution"
+      ]
+    },
+    {
+      "slug": "buttered-egg-noodles",
+      "inputSha256": "41473456ba6c5a075d91fb9f5c155f0d165a89118a83137d94319e2e8b6b0bca",
+      "ingredientLedger": [
+        { "text": "12 oz Wide Egg Noodles", "destinations": [1, 3], "status": "ok" },
+        { "text": "3 tbsp Unsalted Butter", "destinations": [3], "status": "ok" },
+        {
+          "text": "1 tsp Kosher Salt (plus more for pasta water)",
+          "destinations": [1, 3],
+          "status": "ok; split/open"
+        },
+        { "text": "1/4 tsp Black Pepper", "destinations": [3], "status": "ok" },
+        {
+          "text": "2 tbsp Fresh Parsley, chopped (optional)",
+          "destinations": [4],
+          "status": "ok; optional"
+        },
+        { "text": "1/4 cup Reserved Pasta Water", "destinations": [2, 3], "status": "ok" }
+      ],
+      "process": [
+        {
+          "stage": "Boil",
+          "minutes": "7-8 after unknown heating",
+          "dependsOn": [],
+          "attention": true,
+          "equipment": "large pot"
+        },
+        {
+          "stage": "Reserve/drain",
+          "minutes": null,
+          "dependsOn": [1],
+          "attention": true,
+          "equipment": "pot"
+        },
+        {
+          "stage": "Toss",
+          "minutes": "0.5-1",
+          "dependsOn": [2],
+          "attention": true,
+          "equipment": "pot over low heat"
+        },
+        {
+          "stage": "Serve",
+          "minutes": null,
+          "dependsOn": [3],
+          "attention": true,
+          "equipment": "warm serving bowl"
+        }
+      ],
+      "findings": [
+        {
+          "id": "BEN-1",
+          "supportingText": "prepTime: 2 min; cookTime: 10 min; totalTime: 12 min; cook ... usually 7-8 minutes",
+          "category": "timing",
+          "severity": "minor",
+          "evidenceIds": ["IC3"],
+          "explanation": "Boil time excludes unknown water-heating time; total is not independently reconstructable."
+        },
+        {
+          "id": "BEN-2",
+          "supportingText": "nutrition: calories: 590; protein: 18; carbs: 99.5; fat: 15.5",
+          "category": "nutrition plausibility",
+          "severity": "material",
+          "evidenceIds": [],
+          "explanation": "Panel requires formula-specific review; no recalculation."
+        }
+      ],
+      "proposedEdits": [],
+      "unresolved": [
+        "Confirm package guidance, pot capacity and heating time; preserve reserved-water quantity when scaling.",
+        "Verify nutrition and 4-serving yield."
+      ],
+      "identityPreserved": [
+        "wide egg noodles, butter, reserved pasta water, optional parsley, American/Eastern European attribution"
+      ]
+    }
+  ],
+  "limitations": [
+    "Reviewed only assigned frozen pasta recipes, pasta packet, internal-consistency packet and manifest; no browse, test, recalculation or recipe mutation."
+  ]
+}

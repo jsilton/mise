@@ -1,3 +1,9 @@
+# Latest milestone: pilot decision and targeted corrections
+
+The 24-recipe source-backed pilot has been assessed against all 64 reference findings. It failed broad lightweight rollout: 6/7 routine proposals accepted and 29/58 confirmed reference issues detected. Six conditional concerns remain outside that denominator. Timing/cost savings are not supported by reliable telemetry. See [pilot results](pilot/RESULTS.md).
+
+Thirteen targeted corrections across nine recipes have passed local QA (29 checks), 28 focused tests, the 719-page build and mobile browser checks. Publication verification is recorded after deployment. These are partial corrections and do not advance comprehensive review counts. Stronger method-family editing continues with shared evidence; inexpensive workers are restricted to independently verifiable tasks. The bounded recipe-site benchmark is in [RECIPE_SITE_BENCHMARK.md](RECIPE_SITE_BENCHMARK.md).
+
 # Current scope update
 
 Meal calendars and weekly planning were removed at the user’s request. Historical entries below retain their original scope; calendar review is no longer outstanding work. Current recipe/meal counts are authoritative in the respective JSON registers.

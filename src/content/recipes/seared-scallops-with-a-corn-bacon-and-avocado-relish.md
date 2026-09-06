@@ -3,7 +3,6 @@ title: Seared Scallops with Corn & Avocado Relish
 difficulty: easy
 cookingMethods:
   - saute
-  - no-cook
 occasions:
   - date-night
   - entertaining
@@ -62,6 +61,6 @@ nutrition:
 1.  **Relish:** Use the "Inverted Bowl Hack" to cut corn kernels into a large bowl. Add onion, pepper, and 1 tbsp parsley.
 2.  **Sauté:** Heat 1 tbsp oil in a large skillet. Sauté the corn mixture for 5 minutes until tender and caramelized. Remove from heat and let cool for 2 minutes.
 3.  **Bind:** Fold in the diced avocados and crispy bacon. Season with salt and plenty of black pepper.
-4.  **The Crunch:** Wipe the skillet. Heat oil over high until just beginning to smoke. Season scallops with salt. Sear for exactly **1 minute per side** until a deep golden crust forms. Remove immediately.
+4.  **The Crunch:** Wipe the skillet. Heat oil over high until just beginning to smoke. Season scallops with salt. Sear until the underside develops a golden crust, then turn. Check the center of a thick scallop with an instant-read thermometer inserted from the side; cook to 145°F. The flesh should be firm, pearly, and opaque throughout. Lower the heat if the crust darkens before the center is done. Remove each scallop as it finishes; size and pan heat determine the time.
 5.  **Assemble:** Mound the warm corn-avocado relish on 4 plates. Top each with 4 seared scallops.
 6.  **Finish:** Squeeze fresh lemon juice over the scallops and garnish with the remaining parsley for the final **High Note**.

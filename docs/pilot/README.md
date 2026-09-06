@@ -18,4 +18,4 @@ Record timestamps per assignment and reviewer session. Wall time includes waitin
 
 ## Current state
 
-Cohort frozen and both blind reference groups preserved. Six compact primary-source packets are available, with access limitations recorded. The four-recipe internal-only pasta baseline is adjudicated in BASELINE_EVALUATION.md and failed the rollout gate. Revised source-backed workers are in progress; full pilot evaluation and recipe changes remain pending. Existing curry/fajita proposals are preserved outside this pilot and must not be counted as pilot wins.
+All 24 source-backed worker reviews and 64 reference comparisons are recorded. The process failed the quality gate; see RESULTS.md. Lightweight whole-recipe review is not authorized for rollout. Continue stronger family-based editing with the reusable evidence and narrow deterministic maintenance. Timing/cost comparison remains incomplete. The first targeted recipe corrections are recorded separately and do not advance comprehensive review counts.

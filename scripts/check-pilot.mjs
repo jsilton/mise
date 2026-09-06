@@ -31,27 +31,79 @@ for (const decision of decisions) {
   assert(['accepted', 'corrected', 'rejected', 'missed', 'pending'].includes(decision.disposition));
   assert(decision.rationale?.trim(), 'Decision needs reviewer rationale');
 }
-const routine = decisions.filter(
-  (d) => d.category === 'routine-edit' && d.disposition !== 'pending'
+const trialNames = [...new Set(decisions.map((d) => d.trial))];
+const trials = Object.fromEntries(
+  trialNames.map((trial) => {
+    const entries = decisions.filter((d) => d.trial === trial);
+    const routine = entries.filter(
+      (d) => d.category === 'routine-edit' && d.disposition !== 'pending'
+    );
+    const defects = entries.filter(
+      (d) => d.category === 'material-defect' && d.disposition !== 'pending'
+    );
+    const accepted = routine.filter((d) => d.disposition === 'accepted').length;
+    return [
+      trial,
+      {
+        adjudicatedRoutineEdits: routine.length,
+        acceptedWithoutCorrection: accepted,
+        routineAcceptanceRate: routine.length ? accepted / routine.length : null,
+        adjudicatedMaterialDefects: defects.length,
+        missedMaterialDefects: defects.length
+          ? defects.filter((d) => d.disposition === 'missed').length
+          : null,
+        conditionalReferenceConcerns: entries.filter(
+          (d) => d.category === 'material-defect' && d.disposition === 'pending'
+        ).length,
+      },
+    ];
+  })
 );
-const accepted = routine.filter((d) => d.disposition === 'accepted').length;
-const adjudicatedDefects = decisions.filter(
-  (d) => d.category === 'material-defect' && d.disposition !== 'pending'
-);
+const sourceWorkers = [
+  'quick-seafood',
+  'braises',
+  'grain-hydration',
+  'pasta-sauces',
+  'quick-batters',
+  'roasted-vegetables',
+];
+const workerSlugs = new Set();
+for (const family of sourceWorkers) {
+  const worker = JSON.parse(read(`docs/pilot/workers/${family}.json`));
+  assert.equal(worker.recipes.length, 4, `Worker count: ${family}`);
+  for (const recipe of worker.recipes) {
+    const expected = manifest.recipes.find((r) => r.slug === recipe.slug);
+    assert.equal(expected?.family, family);
+    assert.equal(recipe.inputSha256, expected.inputSha256);
+    assert(!workerSlugs.has(recipe.slug), 'Duplicate worker recipe');
+    workerSlugs.add(recipe.slug);
+  }
+}
+let referenceCount = 0;
+for (const group of ['group-a', 'group-b']) {
+  for (const recipe of JSON.parse(read(`docs/pilot/reference/${group}.json`)).recipes) {
+    for (const finding of recipe.findings || recipe.materialFindings) {
+      referenceCount++;
+      assert.equal(
+        decisions.filter((d) => d.trial === 'source-backed-v2' && d.referenceId === finding.id)
+          .length,
+        1,
+        `Missing/duplicate adjudication: ${finding.id}`
+      );
+    }
+  }
+}
 console.log(
   JSON.stringify(
     {
       frozenInputs: manifest.recipes.length,
       families: families.size,
-      adjudicatedRoutineEdits: routine.length,
-      acceptedWithoutCorrection: accepted,
-      routineAcceptanceRate: routine.length ? accepted / routine.length : null,
-      adjudicatedMaterialDefects: adjudicatedDefects.length,
-      missedMaterialDefects: adjudicatedDefects.length
-        ? adjudicatedDefects.filter((d) => d.disposition === 'missed').length
-        : null,
+      sourceBackedWorkerRecipes: workerSlugs.size,
+      referenceFindingsCompared: referenceCount,
+      trials,
       evaluationComplete: false,
-      note: 'Input integrity and recorded decisions only; no culinary certification. Missing results are not passes.',
+      rolloutApproved: false,
+      note: 'Quality assessment failed. Economic comparison incomplete. Conditional concerns excluded from confirmed-defect denominator; baseline and source-backed trials remain separate. No culinary certification.',
     },
     null,
     2

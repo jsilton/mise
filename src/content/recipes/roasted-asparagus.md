@@ -4,7 +4,7 @@ difficulty: easy
 cookingMethods:
   - bake
   - roast
-  - steam
+
 dietary:
   - vegetarian
   - gluten-free

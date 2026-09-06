@@ -1,0 +1,462 @@
+{
+  "model": "gpt-5.6-luna",
+  "startedAt": "2026-09-06T23:34:08+00:00",
+  "finishedAt": "2026-09-06T23:34:08+00:00",
+  "usage": { "inputTokens": null, "outputTokens": null, "usd": null },
+  "recipes": [
+    {
+      "slug": "garlic-butter-shrimp",
+      "inputSha256": "ac96da56cabe7366b7ce9a4575aa29097ef8b77d97b2a446795c72b5452843ba",
+      "ingredientLedger": [
+        {
+          "text": "1.5 lbs Large Shrimp (20-24 count, peeled and deveined)",
+          "destinations": [1, 2, 3, 5],
+          "status": "ok"
+        },
+        { "text": "4 tbsp Unsalted Butter", "destinations": [2, 4], "status": "ok" },
+        { "text": "6 cloves Garlic, minced", "destinations": [4], "status": "ok" },
+        { "text": "1/4 tsp Red Pepper Flakes", "destinations": [4], "status": "ok" },
+        {
+          "text": "1/2 cup Dry White Wine (or chicken stock)",
+          "destinations": [5],
+          "status": "ok; substitution stated"
+        },
+        { "text": "2 tbsp Fresh Lemon Juice", "destinations": [6], "status": "ok" },
+        { "text": "2 tbsp Fresh Parsley, chopped", "destinations": [6], "status": "ok" },
+        { "text": "1/2 tsp Kosher Salt", "destinations": [1, 6], "status": "ok" },
+        { "text": "1/4 tsp Black Pepper", "destinations": [1, 6], "status": "ok" },
+        { "text": "Zest of 1 Lemon", "destinations": [7], "status": "ok" },
+        {
+          "text": "Extra butter for finishing (if needed)",
+          "destinations": [6],
+          "status": "allowance; quantity unspecified"
+        }
+      ],
+      "process": [
+        {
+          "stage": "Prep/season",
+          "minutes": null,
+          "dependsOn": [],
+          "attention": true,
+          "equipment": "paper towels"
+        },
+        {
+          "stage": "Heat butter/sear first side",
+          "minutes": 2,
+          "dependsOn": [1],
+          "attention": true,
+          "equipment": "large skillet"
+        },
+        {
+          "stage": "Cook second side",
+          "minutes": 1.5,
+          "dependsOn": [2],
+          "attention": true,
+          "equipment": "large skillet"
+        },
+        {
+          "stage": "Aromatics",
+          "minutes": "0.75",
+          "dependsOn": [3],
+          "attention": true,
+          "equipment": "large skillet"
+        },
+        {
+          "stage": "Deglaze/reduce",
+          "minutes": "1-2",
+          "dependsOn": [4],
+          "attention": true,
+          "equipment": "wooden spoon; skillet"
+        },
+        {
+          "stage": "Finish/plate",
+          "minutes": null,
+          "dependsOn": [5],
+          "attention": true,
+          "equipment": "pasta or rice optional"
+        }
+      ],
+      "findings": [
+        {
+          "id": "GBS-1",
+          "supportingText": "totalTime: 18 min; Timing Note: This is a 15-minute dinner from start to plating.",
+          "category": "timing",
+          "severity": "material",
+          "evidenceIds": ["IC3"],
+          "explanation": "Two conflicting totals are stated; process also includes unspecified prep and plating time."
+        },
+        {
+          "id": "GBS-2",
+          "supportingText": "Shrimp go from tender to rubbery in 90 seconds",
+          "category": "safety/endpoint",
+          "severity": "material",
+          "evidenceIds": ["seafood-safety"],
+          "explanation": "The claim is unsupported by this packet, and the directions provide no interior endpoint; seafood safety packet supports firm, pearly, opaque shrimp/145°F."
+        },
+        {
+          "id": "GBS-3",
+          "supportingText": "nutrition: calories: 155; protein: 2.5; fat: 14.5",
+          "category": "nutrition plausibility",
+          "severity": "material",
+          "evidenceIds": [],
+          "explanation": "Panel is not verifiable from frozen text without recalculation and appears inconsistent with stated shrimp/butter quantities."
+        }
+      ],
+      "proposedEdits": [],
+      "unresolved": [
+        "Resolve 15 versus 18 minute total and include prep/plating.",
+        "Add or verify a seafood doneness endpoint using source review; do not infer timing from size alone.",
+        "Confirm large-shrimp quantity/count and nutrition basis; no recalculation performed."
+      ],
+      "identityPreserved": [
+        "garlic-butter shrimp",
+        "wine-or-stock option",
+        "lemon/parsley finish",
+        "Italian/Mediterranean attribution"
+      ]
+    },
+    {
+      "slug": "gambas-al-ajillo",
+      "inputSha256": "55c88f03ead497b96df32b4478a66f7d3008265ba3e82541644e42f2843285c0",
+      "ingredientLedger": [
+        {
+          "text": "1 lb Large Shrimp (16-20 count), peeled and deveined, tails on",
+          "destinations": [1, 3, 4, 5],
+          "status": "ok"
+        },
+        { "text": "1/3 cup Extra-Virgin Olive Oil", "destinations": [2], "status": "ok" },
+        { "text": "8 cloves Garlic, thinly sliced", "destinations": [1, 2], "status": "ok" },
+        {
+          "text": "2 Dried Guindilla Peppers (or 1 tsp red pepper flakes)",
+          "destinations": [1, 2],
+          "status": "ok; substitution stated"
+        },
+        {
+          "text": "1/4 cup Dry Sherry (fino or amontillado)",
+          "destinations": [1, 4],
+          "status": "ok"
+        },
+        {
+          "text": "1 tsp Smoked Paprika (pimenton de la Vera)",
+          "destinations": [1],
+          "status": "ok; named ingredient"
+        },
+        { "text": "1/2 tsp Kosher Salt", "destinations": [1], "status": "ok" },
+        {
+          "text": "2 tbsp Fresh Flat-Leaf Parsley, roughly chopped",
+          "destinations": [1, 5],
+          "status": "ok"
+        },
+        { "text": "1 tbsp Fresh Lemon Juice", "destinations": [1, 5], "status": "ok" },
+        {
+          "text": "Crusty Bread, for serving",
+          "destinations": [6],
+          "status": "ok; quantity unspecified"
+        }
+      ],
+      "process": [
+        {
+          "stage": "Prep/season",
+          "minutes": null,
+          "dependsOn": [],
+          "attention": true,
+          "equipment": "paper towels; small-bowl"
+        },
+        {
+          "stage": "Heat oil/aromatics",
+          "minutes": "0.5-0.75",
+          "dependsOn": [1],
+          "attention": true,
+          "equipment": "cast-iron skillet or cazuela"
+        },
+        {
+          "stage": "Cook shrimp",
+          "minutes": 1.5,
+          "dependsOn": [2],
+          "attention": true,
+          "equipment": "skillet"
+        },
+        {
+          "stage": "Deglaze",
+          "minutes": 0.5,
+          "dependsOn": [3],
+          "attention": true,
+          "equipment": "skillet"
+        },
+        {
+          "stage": "Finish/serve",
+          "minutes": null,
+          "dependsOn": [4],
+          "attention": true,
+          "equipment": "sizzling skillet"
+        }
+      ],
+      "findings": [
+        {
+          "id": "GAA-1",
+          "supportingText": "Chef's Note: The entire dish cooks in under 5 minutes; prepTime: 10 min; cookTime: 8 min; totalTime: 18 min",
+          "category": "timing",
+          "severity": "material",
+          "evidenceIds": ["IC3"],
+          "explanation": "Cook-stage durations total about 2.5-2.75 minutes, while metadata says 8 minutes and note says under 5; reconcile scope and totals."
+        },
+        {
+          "id": "GAA-2",
+          "supportingText": "The shrimp should be just pink and curled into a C-shape",
+          "category": "safety/endpoint",
+          "severity": "material",
+          "evidenceIds": ["seafood-safety"],
+          "explanation": "Packet supports firm, pearly, opaque shrimp/145°F; pink/C-shape alone does not establish the stated safe endpoint."
+        },
+        {
+          "id": "GAA-3",
+          "supportingText": "nutrition: calories: 620; ... fat: 55.5; sodium: 1040",
+          "category": "nutrition plausibility",
+          "severity": "material",
+          "evidenceIds": [],
+          "explanation": "Panel requires formula-specific verification; no recalculation performed."
+        }
+      ],
+      "proposedEdits": [],
+      "unresolved": [
+        "Resolve contradictory under-5-minute, 8-minute and 18-minute timing claims.",
+        "Confirm seafood endpoint and whether shrimp are cooked through after sherry stage.",
+        "Confirm whether bread quantity is intentionally open-ended and nutrition serving basis."
+      ],
+      "identityPreserved": [
+        "olive-oil garlic preparation",
+        "guindilla-or-flake option",
+        "dry sherry",
+        "Spanish attribution"
+      ]
+    },
+    {
+      "slug": "shrimp-and-snow-pea-stir-fry",
+      "inputSha256": "8fcf4e5f2e9027b415e551c2e523905d1ea8b5e73bb555ec422cf84071e7c092",
+      "ingredientLedger": [
+        { "text": "8 oz Rice Linguine Noodles", "destinations": [1, 5], "status": "ok" },
+        {
+          "text": "8 oz Raw Shrimp, peeled and deveined",
+          "destinations": [2, 3, 6],
+          "status": "ok"
+        },
+        { "text": "8 oz Fresh Snow Peas, sliced diagonally", "destinations": [4], "status": "ok" },
+        { "text": "5 tbsp Sweet Chili Sauce", "destinations": [2, 5], "status": "ok" },
+        {
+          "text": "1 tbsp Low-sodium Soy Sauce",
+          "destinations": [],
+          "status": "absent method destination"
+        },
+        { "text": "1 tbsp Fresh Ginger, grated", "destinations": [4], "status": "ok" },
+        { "text": "1 clove Garlic, minced", "destinations": [4], "status": "ok" },
+        { "text": "Neutral Oil", "destinations": [3, 4], "status": "quantity unspecified" }
+      ],
+      "process": [
+        {
+          "stage": "Soak/drain noodles",
+          "minutes": 25,
+          "dependsOn": [],
+          "attention": true,
+          "equipment": "bowl"
+        },
+        {
+          "stage": "Marinate shrimp",
+          "minutes": 15,
+          "dependsOn": [],
+          "attention": true,
+          "equipment": "unspecified"
+        },
+        {
+          "stage": "Sear shrimp",
+          "minutes": 2,
+          "dependsOn": [2],
+          "attention": true,
+          "equipment": "wok"
+        },
+        {
+          "stage": "Sauté vegetables/aromatics",
+          "minutes": "1.5-2.75",
+          "dependsOn": [3],
+          "attention": true,
+          "equipment": "wok"
+        },
+        {
+          "stage": "Toss noodles/sauce",
+          "minutes": 4,
+          "dependsOn": [1, 4],
+          "attention": true,
+          "equipment": "wok"
+        },
+        {
+          "stage": "Return shrimp",
+          "minutes": 0.5,
+          "dependsOn": [5],
+          "attention": true,
+          "equipment": "wok"
+        }
+      ],
+      "findings": [
+        {
+          "id": "SPS-1",
+          "supportingText": "1 tbsp Low-sodium Soy Sauce; directions contain no soy sauce addition",
+          "category": "ingredient allocation",
+          "severity": "material",
+          "evidenceIds": ["IC2"],
+          "explanation": "Listed ingredient has no method destination; this is an accounting question, not grounds to invent a use."
+        },
+        {
+          "id": "SPS-2",
+          "supportingText": "2. Soak ... 25 minutes; 2. ... Let stand for 15 minutes; totalTime: 20 min",
+          "category": "timing",
+          "severity": "material",
+          "evidenceIds": ["IC3"],
+          "explanation": "Sequential prep dependencies exceed the listed 20-minute total unless soaking and marinating overlap; overlap is not explicitly stated."
+        },
+        {
+          "id": "SPS-3",
+          "supportingText": "Toss shrimp with 1 tbsp sweet chili sauce and salt",
+          "category": "ingredient allocation",
+          "severity": "material",
+          "evidenceIds": ["IC2"],
+          "explanation": "Method adds salt with no salt allowance in ingredients."
+        },
+        {
+          "id": "SPS-4",
+          "supportingText": "sear for 1 minute per side until charred and pink",
+          "category": "safety/endpoint",
+          "severity": "material",
+          "evidenceIds": ["seafood-safety"],
+          "explanation": "Pink/charred surface does not establish a safe cooked center; packet supports firm, pearly, opaque shrimp/145°F."
+        },
+        {
+          "id": "SPS-5",
+          "supportingText": "nutrition: ... fiber: 14; sodium: 480",
+          "category": "nutrition plausibility",
+          "severity": "material",
+          "evidenceIds": [],
+          "explanation": "Panel needs formula-specific verification; no recalculation performed."
+        }
+      ],
+      "proposedEdits": [],
+      "unresolved": [
+        "Determine intended use of soy sauce and account for salt addition; do not invent quantities.",
+        "Clarify whether noodle soak and shrimp marinade overlap and revise total accordingly.",
+        "Confirm wok capacity/batch count and shrimp endpoint.",
+        "Verify nutrition panel and yield."
+      ],
+      "identityPreserved": [
+        "rice noodles",
+        "shrimp/snow-pea stir-fry",
+        "sweet chili sauce",
+        "Chinese attribution"
+      ]
+    },
+    {
+      "slug": "seared-scallops-with-a-corn-bacon-and-avocado-relish",
+      "inputSha256": "c5cb9f7c1615bd9e9832ef3dec79ab0aa7a9037cbf68778c6208af6ec0b95ae2",
+      "ingredientLedger": [
+        { "text": "16 Dry Sea Scallops", "destinations": [4, 5], "status": "ok" },
+        { "text": "4 ears Fresh Corn, shucked", "destinations": [1, 2], "status": "ok" },
+        {
+          "text": "12 strips Bacon, cooked and chopped",
+          "destinations": [3],
+          "status": "ok; pre-cooked"
+        },
+        { "text": "2 Ripe Avocados, diced", "destinations": [3, 5], "status": "ok" },
+        { "text": "1 Red Bell Pepper, diced", "destinations": [1], "status": "ok" },
+        { "text": "1 small Onion, diced", "destinations": [1], "status": "ok" },
+        { "text": "1 Lemon, halved", "destinations": [6], "status": "ok" },
+        { "text": "2 tbsp Fresh Parsley, chopped", "destinations": [1, 6], "status": "ok" },
+        { "text": "Neutral Oil", "destinations": [2, 4], "status": "quantity unspecified" }
+      ],
+      "process": [
+        {
+          "stage": "Prep relish",
+          "minutes": null,
+          "dependsOn": [],
+          "attention": true,
+          "equipment": "large bowl"
+        },
+        {
+          "stage": "Sauté/cool relish",
+          "minutes": 7,
+          "dependsOn": [1],
+          "attention": true,
+          "equipment": "large skillet"
+        },
+        {
+          "stage": "Fold relish",
+          "minutes": null,
+          "dependsOn": [2],
+          "attention": true,
+          "equipment": "skillet/bowl"
+        },
+        {
+          "stage": "Heat/sear scallops",
+          "minutes": "2 plus unspecified preheat",
+          "dependsOn": [3],
+          "attention": true,
+          "equipment": "large skillet"
+        },
+        {
+          "stage": "Assemble/finish",
+          "minutes": null,
+          "dependsOn": [4],
+          "attention": true,
+          "equipment": "4 plates"
+        }
+      ],
+      "findings": [
+        {
+          "id": "SSC-1",
+          "supportingText": "cookingMethods:\n  - saute\n  - no-cook; directions sauté corn mixture and sear scallops",
+          "category": "metadata",
+          "severity": "material",
+          "evidenceIds": ["IC5"],
+          "explanation": "No-cook conflicts with the cooked scallops and sautéed corn, though relish assembly is cold after cooking."
+        },
+        {
+          "id": "SSC-2",
+          "supportingText": "nutrition: calories: 735; fat: 51; sodium: 1320",
+          "category": "nutrition plausibility",
+          "severity": "material",
+          "evidenceIds": [],
+          "explanation": "Panel requires formula-specific verification; no recalculation performed."
+        },
+        {
+          "id": "SSC-3",
+          "supportingText": "Sear for exactly 1 minute per side until a deep golden crust forms",
+          "category": "safety/endpoint",
+          "severity": "material",
+          "evidenceIds": ["seafood-safety"],
+          "explanation": "Fixed sear time and surface crust do not establish interior doneness; packet supports firm, pearly, opaque scallops/145°F."
+        }
+      ],
+      "proposedEdits": [
+        {
+          "id": "SSC-E1",
+          "original": "cookingMethods:\n  - saute\n  - no-cook",
+          "replacement": "cookingMethods:\n  - saute",
+          "routine": true,
+          "findingIds": ["SSC-1"],
+          "explanation": "Removes the mechanically contradicted no-cook label while preserving sauté for the explicit cooked steps."
+        }
+      ],
+      "unresolved": [
+        "Confirm scallop interior endpoint and whether one-minute-per-side timing varies by size.",
+        "Confirm neutral oil quantity and skillet capacity/batch count.",
+        "Verify nutrition panel and serving basis."
+      ],
+      "identityPreserved": [
+        "dry sea scallops",
+        "corn-bacon-avocado relish",
+        "lemon/parsley finish",
+        "United States attribution"
+      ]
+    }
+  ],
+  "limitations": [
+    "Reviewed only assigned quick-seafood recipe files, quick-seafood packet, internal-consistency packet and manifest.",
+    "No browsing, kitchen test, nutrition recalculation, or recipe mutation performed."
+  ]
+}

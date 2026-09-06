@@ -2,7 +2,7 @@
 title: Blueberry Pancakes
 difficulty: easy
 cookingMethods:
-  - no-cook
+  - griddle
 dietary:
   - vegetarian
 occasions:
