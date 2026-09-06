@@ -38,7 +38,7 @@ ingredients:
   - 1/4 cup Freshly Grated Parmesan
   - '1/2 tsp Garlic, minced'
   - 3 tbsp Unsalted Butter (plus extra for serving)
-  - 1/2 tsp Better Than Bouillon (Chicken or Veggie base)
+  - 1/2 tsp concentrated chicken or vegetable bouillon paste, using a paste labeled 1 tsp per cup of prepared broth
   - Salt and Black Pepper
   - 'Fresh Chives, chopped'
 origin: United States
@@ -54,7 +54,7 @@ nutrition:
 
 ## Chef's Note
 
-This low-carb cauliflower mash prevents wateriness by draining and pressing cooked florets bone-dry with paper towels before pureeing. Any residual water turns mash into soup. Better Than Bouillon base adds concentrated savory depth similar to real potatoes. Garnish with fresh chives.
+This low-carb cauliflower mash prevents wateriness by draining and pressing cooked florets bone-dry with paper towels before pureeing. Any residual water turns mash into soup. Concentrated bouillon paste adds concentrated savory depth similar to real potatoes. Garnish with fresh chives.
 
 ## Directions
 

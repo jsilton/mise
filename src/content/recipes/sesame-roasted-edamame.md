@@ -43,7 +43,7 @@ ingredients:
   - 1/4 tsp garlic powder
   - '2 tsp toasted sesame oil, for finishing'
   - 1 tbsp toasted sesame seeds
-  - '1/4 tsp Diamond Crystal kosher salt or 1/8 tsp fine salt, only if needed'
+  - '1/8 tsp fine salt, only if needed'
   - '1/8 tsp red pepper flakes, optional'
 description: >-
   Shelled edamame roasted until drier and lightly browned, then finished with toasted sesame. A

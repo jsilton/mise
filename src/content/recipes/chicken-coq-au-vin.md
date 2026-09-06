@@ -28,7 +28,7 @@ ingredients:
   - '2 lbs (900 g) bone-in skin-on chicken thighs'
   - '4 oz (113 g) bacon or lardons, diced'
   - '1 tbsp neutral oil, only if needed to supplement rendered fat'
-  - '1 tsp Diamond Crystal kosher salt or 1/2 tsp fine salt, plus more only if needed'
+  - '1/2 tsp fine salt, plus more only if needed'
   - 1/2 tsp black pepper
   - '1 large yellow onion (about 200 g), chopped'
   - '8 oz (225 g) fresh cremini mushrooms, halved or quartered if large'

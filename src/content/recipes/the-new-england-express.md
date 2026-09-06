@@ -41,7 +41,7 @@ ingredients:
   - 2 cups Apple Cider (unfiltered)
   - 1 1/2 cups Dark Rum (The complex flavor)
   - 3/4 cup Fresh Lime Juice (The Acid Balance)
-  - 1 tsp Angostura Bitters
+  - 1 tsp aromatic bitters
   - Club Soda (to top)
 pairsWith:
   - roasted-sunchokes-with-brown-butter-cider-vinaigrette

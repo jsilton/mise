@@ -47,7 +47,7 @@ ingredients:
   - '300 g Persian or English cucumber, washed, ends trimmed'
   - 1 tsp cumin seeds
   - 1/4 cup chopped cilantro or mint
-  - 1/2 tsp Diamond Crystal kosher salt or 1/4 tsp fine salt
+  - 1/4 tsp fine salt
   - '1/4 tsp sugar, optional'
 description: >-
   A spoonable cucumber-yogurt side with toasted cumin and fresh herbs, kept cool and mixed close to

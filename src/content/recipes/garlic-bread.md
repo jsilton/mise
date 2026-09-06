@@ -35,7 +35,7 @@ ingredients:
   - '4 cloves garlic, finely grated or minced'
   - 2 tbsp finely chopped fresh parsley
   - 25 g finely grated Parmesan
-  - '1/2 tsp Diamond Crystal kosher salt or 1/4 tsp fine salt, or less if bread and cheese are salty'
+  - '1/4 tsp fine salt, or less if bread and cheese are salty'
 origin: Italian-American home cooking
 description: >-
   A measured garlic, parsley and Parmesan butter on a crusty loaf, baked until the edges crisp while

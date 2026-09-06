@@ -53,8 +53,8 @@ ingredients:
   - 2.5 cups (20 oz) Reposado Tequila
   - 1.25 cups (10 oz) Fresh Lime Juice (8-10 limes)
   - 0.75 cups (6 oz) Spiced Cranberry Syrup
-  - 0.6 cups (5 oz) Cointreau
-  - 0.5 cups (4 oz) Campari
+  - 0.6 cups (5 oz) dry orange liqueur (40% ABV)
+  - 0.5 cups (4 oz) red Italian bitter aperitif
   - 1 tsp Fine Sea Salt
   - 'For Serving:'
   - Fresh Orange Peel strips
@@ -76,7 +76,7 @@ nutrition:
 
 ## Chef's Note
 
-This game-day margarita balances reposado tequila's oak and vanilla against Campari's bitter complexity, bridged by a spiced cranberry syrup that adds tannic structure like a light red wine. The combination creates a deep crimson color and serious flavor - far from a sugary party drink. Use reposado specifically; blanco lacks the oak notes to stand up to Campari, and añejo would be too heavy. Dissolving salt directly into the batch suppresses bitterness chemically while adding savory depth. Each serving must be shaken hard since there's no salt rim to excite the palate.
+This game-day margarita balances reposado tequila's oak and vanilla against the bitter complexity of the red Italian aperitif, bridged by a spiced cranberry syrup that adds tannic structure like a light red wine. The combination creates a deep crimson color and serious flavor - far from a sugary party drink. Use reposado specifically; blanco lacks the oak notes to stand up to red Italian bitter aperitif, and añejo would be too heavy. Dissolving salt directly into the batch suppresses bitterness chemically while adding savory depth. Each serving must be shaken hard since there's no salt rim to excite the palate.
 
 ## Directions
 
@@ -88,7 +88,7 @@ This game-day margarita balances reposado tequila's oak and vanilla against Camp
 
 ### Phase 2: The Batch (Before Kickoff)
 
-3. **The Mix:** In a large pitcher, combine tequila, lime juice, cranberry syrup, Cointreau, and Campari. Add salt and stir vigorously until completely dissolved - this is critical for balance.
+3. **The Mix:** In a large pitcher, combine tequila, lime juice, cranberry syrup, dry orange liqueur, and red Italian bitter aperitif. Add salt and stir vigorously until completely dissolved - this is critical for balance.
 
 4. **The Taste:** Taste the batch - it should be intense and slightly too strong (it will dilute when shaken). Adjust: too bitter, add 1 oz more syrup; too sweet, add 1 oz more lime; too sharp, add 1/2 tsp more salt. Trust your palate.
 

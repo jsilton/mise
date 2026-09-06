@@ -33,7 +33,7 @@ pairsWith:
   - fresh-egg-pasta
 ingredients:
   - 1.5 oz bourbon or rye whiskey
-  - 1 oz Campari
+  - 1 oz red Italian bitter aperitif
   - 1 oz sweet vermouth
   - Ice for stirring
   - Orange peel for garnish
@@ -50,7 +50,7 @@ nutrition:
 
 ## Directions
 
-1. **Add the bourbon, Campari,:** and sweet vermouth to a mixing glass filled with ice.
+1. **Combine:** Add the bourbon, red Italian bitter aperitif and sweet vermouth to a mixing glass filled with ice.
 
 2. **Stir well for 20-30:** seconds until properly chilled.
 

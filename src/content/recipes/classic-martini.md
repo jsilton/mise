@@ -30,8 +30,8 @@ pairsWith:
   - avocado-toast
   - bbq-chicken-sliders
 ingredients:
-  - 4 oz Beefeater Gin (or high-quality London Dry)
-  - 3/4 oz Noilly Prat Dry Vermouth
+  - 4 oz London dry gin
+  - 3/4 oz dry French vermouth
   - 1 large Lemon (for peel)
   - Large Ice Cubes (1-inch)
 advancePrep:

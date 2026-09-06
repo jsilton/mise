@@ -30,7 +30,7 @@ equipment:
 pairsWith: [simple-roast-turkey, perfect-cranberry-sauce]
 ingredients:
   - '--- Cornbread ---'
-  - '1 cup self-rising cornmeal mix, spooned into the cup and leveled; use an unsweetened mix containing leavening and salt, such as Martha White'
+  - '1 cup self-rising cornmeal mix, spooned into the cup and leveled; use an unsweetened mix containing leavening and salt'
   - '1 cup (120 g) all-purpose flour'
   - '1 cup (240 ml) whole milk'
   - '8 tbsp (113 g) unsalted butter, melted and cooled until just warm'

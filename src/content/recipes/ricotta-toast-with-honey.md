@@ -44,7 +44,7 @@ ingredients:
   - Pinch of Flaky Sea Salt
   - '2 tbsp Honey (good quality, runny)'
   - '2 tbsp Shelled Pistachios, roughly chopped'
-  - Flaky Sea Salt (Maldon) for finishing
+  - flaky sea salt for finishing
   - 'Optional: fresh mint leaves, lemon zest, fresh figs or berries'
 nutrition:
   calories: 215

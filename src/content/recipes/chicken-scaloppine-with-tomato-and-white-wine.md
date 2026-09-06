@@ -37,7 +37,7 @@ ingredients:
   - '2 lbs (900 g) boneless skinless chicken thighs, opened flat'
   - '1/2 cup (60 g) all-purpose flour, for dredging'
   - '3 tbsp olive oil, divided'
-  - 1 1/2 tsp Diamond Crystal kosher salt or 3/4 tsp fine salt
+  - 3/4 tsp fine salt
   - 1/2 tsp black pepper
   - '5 cloves garlic, minced'
   - 2 tbsp tomato paste

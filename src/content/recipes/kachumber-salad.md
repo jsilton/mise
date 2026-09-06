@@ -56,7 +56,7 @@ ingredients:
   - 1 tsp cumin seeds
   - '2 tbsp fresh lemon juice, plus more only if needed'
   - '1 tbsp olive oil, optional'
-  - 1/2 tsp Diamond Crystal kosher salt or 1/4 tsp fine salt
+  - 1/4 tsp fine salt
   - 1/4 tsp ground black pepper
   - '1/4 tsp chaat masala, optional; check ingredients for dietary needs'
 description: >-

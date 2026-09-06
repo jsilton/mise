@@ -19,7 +19,7 @@ ingredients:
   - 1 can (28 oz / 794 g) crushed tomatoes
   - '2 cups (480 ml) low-sodium chicken broth, plus up to 1 cup (240 ml) only if needed to loosen'
   - '2 cans (15 oz / 425 g each) black beans, rinsed and drained, about 510 g total drained'
-  - '1 tsp Diamond Crystal kosher salt or 1/2 tsp fine salt, added gradually only if needed'
+  - '1/2 tsp fine salt, added gradually only if needed'
   - 1/2 tsp ground black pepper
   - '1 tbsp fresh lime juice, added gradually to taste'
   - '--- Optional toppings, for the whole batch ---'

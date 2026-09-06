@@ -29,7 +29,7 @@ ingredients:
   - 2 tbsp tomato paste
   - 1 tbsp curry powder
   - '1 tsp garam masala, for finishing'
-  - '1 tsp Diamond Crystal kosher salt or 1/2 tsp fine salt, plus more only if needed'
+  - '1/2 tsp fine salt, plus more only if needed'
   - '4 cups (about 780 g) cooked brown rice, prepared separately'
   - '200 g ripe mango flesh, sliced'
   - 1/4 cup chopped cilantro

@@ -34,7 +34,7 @@ pairsWith:
 ingredients:
   - 2 oz bourbon or rye whiskey
   - 1 sugar cube (or 1/4 oz simple syrup)
-  - 2-3 dashes Angostura bitters
+  - 2-3 dashes aromatic bitters
   - Orange peel
   - Maraschino cherry (optional)
   - Large ice cube

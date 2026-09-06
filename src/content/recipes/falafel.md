@@ -57,7 +57,7 @@ ingredients:
   - 1 tbsp cumin seeds
   - 1 tbsp coriander seeds
   - 1 tsp double-acting baking powder
-  - '6 g salt, weighed (about 2 tsp Diamond Crystal kosher salt or 1 tsp fine salt), plus up to 3 g more only after tasting a fried test piece'
+  - '6 g salt, weighed (about 1 tsp fine salt), plus up to 3 g more only after tasting a fried test piece'
   - 1/2 tsp ground black pepper
   - 'Refined canola or sunflower oil for frying: about 8 cups (1.9 L), with the actual amount set by pot width and required depth'
 description: >-

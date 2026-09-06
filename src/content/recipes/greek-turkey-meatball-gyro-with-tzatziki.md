@@ -27,7 +27,7 @@ ingredients:
   - '40 g red onion, very finely minced, for the meatballs'
   - '2 cloves garlic, finely grated'
   - 1 tsp dried oregano
-  - '3/4 tsp Diamond Crystal kosher salt or 3/8 tsp fine salt, for the meatballs'
+  - '3/8 tsp fine salt, for the meatballs'
   - '1/4 tsp ground black pepper, for the meatballs'
   - '1 tbsp olive oil, for the tray and meatball surfaces, divided'
   - '--- Cucumber-yogurt sauce ---'
@@ -36,7 +36,7 @@ ingredients:
   - '1 tbsp fresh lemon juice, plus 1 tsp more only if needed'
   - 1/2 tsp dried dill
   - 1/4 tsp garlic powder
-  - '1/4 tsp Diamond Crystal kosher salt or 1/8 tsp fine salt, for the sauce'
+  - '1/8 tsp fine salt, for the sauce'
   - '--- To serve ---'
   - >-
     4 pita breads, about 6–7 inches across; warm using [Warm, Soft Pita

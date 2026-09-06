@@ -1,5 +1,5 @@
 ---
-title: Instant Pot Baingan Bharta
+title: Pressure-Cooker Baingan Bharta
 difficulty: easy
 cookingMethods:
   - roast
@@ -62,14 +62,16 @@ nutrition:
 
 ## Chef's Note
 
-Baingan bharta is traditionally made by roasting eggplant over an open flame for smokiness. In the Instant Pot, using the Sauté function after pressure cooking to fry the mashed eggplant against the pot bottom develops the Maillard sweetness and concentrated umami found in the traditional version. Fresh lemon juice brightens the heavy spices.
+Baingan bharta is traditionally made by roasting eggplant over an open flame for smokiness. In the electric pressure cooker, using the Sauté function after pressure cooking to fry the mashed eggplant against the pot bottom develops the Maillard sweetness and concentrated umami found in the traditional version. Fresh lemon juice brightens the heavy spices.
 
 ## Directions
 
-1.  **The Bloom:** Press "Sauté" on the Instant Pot. Add oil. Once hot, add cumin seeds and let them sizzle for 30 seconds. Add the onion and sauté for 6-7 minutes until deep golden brown.
+Use an electric pressure cooker with a sauté setting. Follow its minimum-liquid, maximum-fill and pressure-release instructions; these depend on the model.
+
+1.  **The Bloom:** Press "Sauté" on the electric pressure cooker. Add oil. Once hot, add cumin seeds and let them sizzle for 30 seconds. Add the onion and sauté for 6-7 minutes until deep golden brown.
 2.  **Aromatics:** Stir in the garlic, ginger, and all ground spices. Sauté for 30-45 seconds until fragrant. Add tomatoes and cook for 4 minutes until they break down into a thick paste.
-3.  **Pressure:** Add the eggplant cubes and 1/4 cup water. Secure the lid. Set to **High Pressure for 7 minutes**.
+3.  **Pressure:** Add the eggplant cubes and water: use the recipe’s 1/4 cup only if it meets your cooker’s minimum thin-liquid requirement; otherwise use at least the amount required by its manual. Do not pressure-cook with less than that minimum. Secure the lid. Set to **High Pressure for 7 minutes**.
 4.  **Release:** Perform a "quick Release" of the pressure.
 5.  **The Mash:** Open the lid. Use a potato masher or heavy spoon to crush the eggplant into a coarse, uniform mash.
-6.  **The Sauté:** Press "Sauté" again. Cook the mash for 3-5 minutes, stirring frequently, until any liquid has evaporated and the eggplant looks glossy and concentrated.
+6.  **The Sauté:** Press "Sauté" again. Cook the mash, stirring frequently, until excess liquid has evaporated and the eggplant looks glossy and concentrated. Start checking after 3–5 minutes; extra water needed by your pressure cooker will lengthen this step and the total cooking time.
 7.  **Finish:** Stir in the fresh cilantro and lemon juice. Serve hot.

@@ -42,7 +42,7 @@ ingredients:
   - 2 tbsp extra-virgin olive oil
   - 1 tbsp fresh lemon juice
   - 1 tbsp finely chopped fresh dill
-  - '1 tsp Diamond Crystal kosher salt or 1/2 tsp fine salt, divided'
+  - '1/2 tsp fine salt, divided'
 description: >-
   Thick yogurt, drained cucumber, garlic, dill, and lemon. Learn to remove
   enough cucumber water without chasing an impossible bone-dry texture.

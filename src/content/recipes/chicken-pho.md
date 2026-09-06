@@ -33,7 +33,7 @@ ingredients:
   - '5 quarts (4.7 liters) water, plus more to adjust the strained broth'
   - '1/4 cup (60 ml) fish sauce, added gradually to taste'
   - 1 tbsp sugar
-  - '1 tbsp Diamond Crystal kosher salt or 1 1/2 tsp fine salt, added gradually to taste'
+  - '1 1/2 tsp fine salt, added gradually to taste'
   - '--- Bowls ---'
   - 1 lb (450 g) dried flat rice noodles (bánh phở)
   - '3 scallions, thinly sliced'

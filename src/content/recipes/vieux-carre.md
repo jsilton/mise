@@ -27,10 +27,10 @@ servings: 1 cocktail
 ingredients:
   - 3/4 oz Rye Whiskey
   - 3/4 oz Cognac (VSOP preferred)
-  - 3/4 oz Sweet Vermouth (Antica Formula or Carpano)
-  - 1 barspoon (1/2 tsp) Benedictine Liqueur
-  - 2 dashes Angostura Bitters
-  - 2 dashes Peychaud’s Bitters
+  - 3/4 oz rich sweet red vermouth
+  - 1 barspoon (1/2 tsp) French honeyed herbal liqueur (40% ABV)
+  - 2 dashes aromatic bitters
+  - 2 dashes New Orleans-style anise-forward bitters
   - 1 Lemon twist or Maraschino cherry
 origin: United States
 pairsWith:
@@ -57,7 +57,7 @@ The Vieux Carré is a New Orleans masterpiece that demands **Precision and Dilig
 ## Directions
 
 1.  **Chill:** Place your rocks glass or coupe in the freezer for 5 minutes.
-2.  **Combine:** In a mixing glass filled with large, clean ice cubes, combine the rye, cognac, vermouth, Benedictine, and both bitters.
+2.  **Combine:** In a mixing glass filled with large, clean ice cubes, combine the rye, cognac, vermouth, French honeyed herbal liqueur, and both bitters.
 3.  **Stir:** Stir gently with a long barspoon for **30 seconds**. You want the liquid to be ice cold and slightly diluted.
 4.  **Strain:** Strain into the chilled glass over one large clear ice cube (or neat).
 5.  **Express:** Squeeze the lemon twist over the surface of the drink to release the oils, then drop it in.

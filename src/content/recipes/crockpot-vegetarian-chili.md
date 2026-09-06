@@ -42,7 +42,7 @@ ingredients:
   - 2 tsp garlic powder
   - 1 tsp dried oregano
   - '1 cup (240 ml) low-sodium vegetable broth, plus a little only if needed to loosen'
-  - '2 tsp Diamond Crystal kosher salt or 1 tsp fine salt, added gradually only if needed'
+  - '1 tsp fine salt, added gradually only if needed'
   - 1/2 tsp ground black pepper
   - '1 tbsp apple cider vinegar, added gradually to taste'
   - '--- Optional toppings, for the whole batch ---'

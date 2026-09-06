@@ -39,7 +39,7 @@ pairsWith:
 ingredients:
   - '1.5 lbs (680 g) boneless skinless chicken breasts, for thin cutlets'
   - '2 tbsp olive oil, divided'
-  - 1 tsp Diamond Crystal kosher salt or 1/2 tsp fine salt
+  - 1/2 tsp fine salt
   - 1/4 tsp black pepper
   - '2 cloves garlic, minced'
   - '1/2 cup (120 ml) unsalted chicken broth, plus more if needed'

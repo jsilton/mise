@@ -35,7 +35,7 @@ ingredients:
   - 2 slices Thick-Cut Sourdough or Rustic Bread
   - 1 large Ripe Avocado
   - 1 tbsp Fresh Lemon or Lime Juice
-  - Flaky Sea Salt (Maldon)
+  - flaky sea salt
   - Red Pepper Flakes
   - Extra-Virgin Olive Oil for drizzling
   - >-

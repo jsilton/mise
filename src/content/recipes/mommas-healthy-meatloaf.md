@@ -28,7 +28,7 @@ ingredients:
   - '150 g zucchini, coarsely grated, then gently squeezed to about 100 g'
   - 1 large egg
   - 1 tsp garlic powder
-  - 1 tsp Diamond Crystal kosher salt or 1/2 tsp fine salt
+  - 1/2 tsp fine salt
   - 1/2 tsp ground black pepper
   - 1/4 cup (60 g) ketchup
 origin: United States

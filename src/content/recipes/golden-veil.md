@@ -29,11 +29,11 @@ cookTime: 0 min
 totalTime: 10 min
 servings: '1'
 ingredients:
-  - 2 oz Plymouth Gin
-  - 1.5 oz Montelobos Mezcal
-  - 2 oz Remy Martin Cognac
+  - 2 oz soft, juniper-forward dry gin
+  - 1.5 oz unaged mezcal
+  - 2 oz cognac
   - 2.5 oz Fresh Lemon Juice (The Acid Balance)
-  - 1 oz Dom Benedictine
+  - 1 oz French honeyed herbal liqueur (40% ABV)
   - 0.5 oz Agave Syrup
   - 3 dashes Orange Bitters
   - '6 oz Prosecco, chilled'
@@ -64,7 +64,7 @@ Slap the thyme sprig sharply in your palm before garnishing - this ruptures oil 
 ## Directions
 
 1.  **Thermal Prep:** Chill a large coupe or wine glass in the freezer for 10 minutes.
-2.  **The Base:** Combine gin, mezcal, cognac, lemon juice, Benedictine, agave, and orange bitters in a shaker filled with large ice cubes.
+2.  **The Base:** Combine gin, mezcal, cognac, lemon juice, French honeyed herbal liqueur, agave, and orange bitters in a shaker filled with large ice cubes.
 3.  **Aeration:** Shake vigorously for 15 seconds until the shaker is frosted and the mixture is perfectly emulsified.
 4.  **Strain:** Double strain into the chilled glass to ensure a silky mouthfeel.
 5.  **The Crown:** Top with the chilled Prosecco. Do not stir - let the bubbles naturally integrate the layers.

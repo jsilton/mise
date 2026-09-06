@@ -38,7 +38,7 @@ ingredients:
   - '300 g peeled carrots, cut into pieces no thicker than 1/2 inch'
   - '300 g trimmed fennel bulb, cut into 1/2-inch wedges with a little core holding each together'
   - '3 tbsp olive oil, divided'
-  - '2 tsp Diamond Crystal kosher salt or 1 tsp fine salt, divided'
+  - '1 tsp fine salt, divided'
   - '1/2 tsp ground black pepper, divided'
   - 1/2 tsp mild chili powder blend
   - '1 tbsp (14 g) unsalted butter, melted'

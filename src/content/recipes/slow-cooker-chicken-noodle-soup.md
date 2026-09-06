@@ -29,7 +29,7 @@ ingredients:
   - '4 cloves garlic, minced'
   - 1/2 tsp dried thyme
   - '1/2 tsp dried rosemary, crushed'
-  - '1 tsp Diamond Crystal kosher salt or 1/2 tsp fine salt, added gradually only if needed'
+  - '1/2 tsp fine salt, added gradually only if needed'
   - 1/2 tsp ground black pepper
   - 225 g dried fusilli pasta
   - '2 liters water, for cooking pasta'

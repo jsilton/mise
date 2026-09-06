@@ -22,7 +22,7 @@ ingredients:
   - 2 tbsp olive oil
   - 1 tbsp Dijon mustard
   - '4 garlic cloves, finely grated'
-  - 1 tsp Diamond Crystal kosher salt or 1/2 tsp fine salt
+  - 1/2 tsp fine salt
   - '2 tsp neutral oil, for the skillet, divided'
   - '--- Bowls ---'
   - '2 × [Cilantro-Lime Rice](/mise/recipes/cilantro-lime-rice), prepared'

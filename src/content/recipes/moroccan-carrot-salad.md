@@ -52,7 +52,7 @@ ingredients:
   - 1/4 tsp sweet paprika
   - 1/8 tsp ground cinnamon
   - '1/8 tsp cayenne, optional'
-  - '1 tsp Diamond Crystal kosher salt or 1/2 tsp fine salt, divided and partly added to taste'
+  - '1/2 tsp fine salt, divided and partly added to taste'
   - '1/4 cup fresh mint, thinly sliced just before serving'
   - 2 tbsp chopped parsley
   - '20 g golden raisins, optional'

@@ -39,7 +39,7 @@ ingredients:
   - '3 tbsp olive oil, divided'
   - 1/2 cup (30 g) finely grated Parmesan
   - '3 cloves garlic, finely minced'
-  - '1/2 tsp Diamond Crystal kosher salt or 1/4 tsp fine salt, plus more to taste'
+  - '1/4 tsp fine salt, plus more to taste'
   - 1/4 tsp black pepper
   - '1–2 tsp fresh lemon juice, to finish'
   - 'Pinch of red pepper flakes, optional'

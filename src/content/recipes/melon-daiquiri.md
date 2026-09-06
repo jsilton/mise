@@ -20,7 +20,7 @@ ingredients:
   - '6 cups Honeydew Melon, peeled, deseeded and cubed'
   - 1 cup Light Rum
   - 1/2 cup Fresh Lime Juice (The Acid Balance)
-  - 1/2 cup Midori or Melon Liqueur
+  - 1/2 cup green melon liqueur
   - 12 Cantaloupe cubes (1/2-inch)
   - 4 Sugar Cane Skewers
 origin: Caribbean
@@ -48,6 +48,7 @@ nutrition:
 ## Chef's Note
 
 The daiquiri is a Cuban drink named after a beach near Santiago - born from American occupation and the sugar trade. A good daiquiri is balanced: rum, lime juice, and sugar in equal parts, with the lime juice providing the backbone. Using fresh melon brings fruit sweetness without needing extra sugar, which keeps the drink bright instead of cloying.
+
 ## Directions
 
 1.  **Thermal Prep:** Freeze your melon cubes for 30 minutes prior to starting for the best texture.

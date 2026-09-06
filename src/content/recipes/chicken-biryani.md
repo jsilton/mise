@@ -57,14 +57,14 @@ ingredients:
   - 1 tsp garam masala
   - 1 tsp ground cumin
   - 1 tsp ground coriander
-  - '1 tbsp Diamond Crystal kosher salt or 1 1/2 tsp fine salt, for the chicken'
+  - '1 1/2 tsp fine salt, for the chicken'
   - 2 tbsp fresh lemon juice
   - '1/2 cup loosely packed chopped cilantro, divided'
   - '1/2 cup loosely packed chopped mint, divided'
   - '--- Rice ---'
   - '2 1/2 cups (500 g) aged basmati rice, not parboiled or quick-cooking'
   - '10 cups (2.4 liters) water, for boiling the rice'
-  - '2 tbsp Diamond Crystal kosher salt or 1 tbsp fine salt, for the rice water'
+  - '1 tbsp fine salt, for the rice water'
   - '4 green cardamom pods, lightly cracked'
   - '1 black cardamom pod, optional'
   - '1 cinnamon stick, about 2 inches long'

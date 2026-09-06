@@ -45,7 +45,7 @@ ingredients:
   - 120 g all-purpose flour
   - 2 tsp baking powder
   - 1/4 tsp baking soda
-  - 1 tsp Diamond Crystal kosher salt or 1/2 tsp fine salt
+  - 1/2 tsp fine salt
   - '6 tbsp (85 g) unsalted butter, melted and cooled until just warm'
   - 2 tbsp (25 g) packed brown sugar
   - 1 tbsp (21 g) honey

@@ -28,11 +28,11 @@ cookTime: 0 min
 totalTime: 5 min
 servings: '1'
 ingredients:
-  - 2 oz London Dry Gin (Beefeater preferred)
+  - 2 oz London dry gin
   - 3/4 cup Fresh Pink Grapefruit Juice
   - 1/4 cup Tonic Water or Seltzer
   - '1/2 tsp Fresh Basil, finely chopped'
-  - 3 dashes Angostura Bitters (The Finishing Touch)
+  - 3 dashes aromatic bitters (The Finishing Touch)
   - 1 Fresh Basil sprig
   - Large Ice Cubes
 origin: United States
@@ -53,7 +53,7 @@ nutrition:
 
 ## Chef's Note
 
-Muddling the basil before adding liquids releases its chlorophyll and essential oils, creating the botanical foundation of this cocktail. Fresh pink grapefruit provides bright acidity, amplified with Angostura bitters to bridge the gap between bitter tonic and sweet citrus. The result is a refreshing, herbaceous drink perfect for warm weather.
+Muddling the basil before adding liquids releases its chlorophyll and essential oils, creating the botanical foundation of this cocktail. Fresh pink grapefruit provides bright acidity, amplified with aromatic bitters to bridge the gap between bitter tonic and sweet citrus. The result is a refreshing, herbaceous drink perfect for warm weather.
 
 ## Directions
 

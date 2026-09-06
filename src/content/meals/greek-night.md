@@ -46,7 +46,7 @@ Allow about **75 minutes elapsed and 55 minutes active** for one cook using a sk
 
 ## Couscous plate variation
 
-For a plate rather than a sandwich, **replace all four pitas** with one full batch of [Lemon and Herb Instant Couscous](/mise/recipes/lemon-herb-couscous): 250 g dry instant couscous and its package-adjusted starting liquid, 420 ml for the stated brand. Keep the four patties, mint yogurt and full salad. Omit the couscous’s optional feta because the salad already supplies cheese.
+For a plate rather than a sandwich, **replace all four pitas** with one full batch of [Lemon and Herb Instant Couscous](/mise/recipes/lemon-herb-couscous): 250 g dry instant couscous and its package-adjusted starting liquid, 420 ml for the stated starting formula. Keep the four patties, mint yogurt and full salad. Omit the couscous’s optional feta because the salad already supplies cheese.
 
 The couscous needs about twenty minutes including preparation and finishing, not just five minutes on a timer. Prepare its lemon and herbs with the salad vegetables, then heat and hydrate the grain on a separate burner during the second burger batch. Fluff and finish before dressing the salad. Allow **80–85 minutes** for one cook so the extra measuring, hydration checks and finishing are included. Lemon-herb couscous adds a light, fragrant starch alongside the burgers and salad.
 

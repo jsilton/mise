@@ -35,7 +35,7 @@ ingredients:
   - 6 cups (1.44 liters) low-sodium chicken broth
   - '1 1/2 cups (360 ml) additional chicken broth, only as needed to loosen'
   - 1/2 tsp dried thyme
-  - '1 tsp Diamond Crystal kosher salt or 1/2 tsp fine salt, added gradually only if needed'
+  - '1/2 tsp fine salt, added gradually only if needed'
   - 1/2 tsp ground black pepper
   - 1 tsp finely grated lemon zest
   - '3 tbsp fresh lemon juice, added gradually to taste'

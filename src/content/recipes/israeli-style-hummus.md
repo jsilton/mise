@@ -52,7 +52,7 @@ ingredients:
   - '1 cup (240 g) tahini, thoroughly stirred in its jar'
   - '1/4 cup (60 ml) fresh lemon juice, plus up to 2 tbsp more to taste'
   - '4 medium garlic cloves, unpeeled and rinsed; remove loose dirty outer skin'
-  - '1 tsp Diamond Crystal kosher salt or 1/2 tsp fine salt, plus more to taste'
+  - '1/2 tsp fine salt, plus more to taste'
   - 1/2 tsp ground cumin
   - '1/2 cup (120 ml) cool water for blending, divided, plus more a tablespoon at a time as needed'
   - '2 tbsp extra-virgin olive oil, for serving the full batch'

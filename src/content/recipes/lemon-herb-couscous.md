@@ -34,14 +34,14 @@ pairsWith:
   - chicken-shawarma
   - greek-village-salad
 ingredients:
-  - '250 g plain instant couscous, such as Near East Original Plain; not pearl couscous'
+  - '250 g plain instant couscous; not pearl couscous'
   - '420 ml low-sodium vegetable or chicken broth, adjusted to the chosen package instructions'
   - 2 tbsp olive oil
   - '2 tbsp fresh lemon juice, divided and partly added to taste'
   - 1 tsp finely grated lemon zest
   - 2 tbsp chopped fresh parsley
   - 2 tbsp chopped fresh mint
-  - '1/2 tsp Diamond Crystal kosher salt or 1/4 tsp fine salt, added only as needed'
+  - '1/4 tsp fine salt, added only as needed'
   - 1/4 tsp ground black pepper
   - '40 g crumbled feta, optional'
 origin: Mediterranean-inspired home accompaniment
@@ -62,8 +62,8 @@ learning:
       Choose plain instant couscous intended for off-heat hydration. Pearl couscous and traditional
       non-instant couscous need different cooking methods.
     - >-
-      The 420 ml starting liquid scales Near East’s 284 g box/480 ml liquid guidance to 250 g.
-      Follow the actual package if another brand calls for a different amount or rest.
+      The 420 ml starting liquid is for 250 g plain instant couscous.
+      Follow the actual package if it calls for a different amount or rest.
   checkpoints:
     - step: 2
       cue: The couscous stands tightly covered off the heat for the package’s hydration time.

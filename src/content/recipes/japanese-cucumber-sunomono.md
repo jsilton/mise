@@ -43,11 +43,11 @@ pairsWith:
   - chinese-steamed-fish
 ingredients:
   - '400 g Japanese, Persian, or English cucumber, washed and ends trimmed'
-  - '1/2 tsp Diamond Crystal kosher salt or 1/4 tsp fine salt, for draining'
+  - '1/4 tsp fine salt, for draining'
   - '--- Dressing ---'
   - 3 tbsp unseasoned rice vinegar
   - 1 tbsp sugar
-  - 1/4 tsp Diamond Crystal kosher salt or 1/8 tsp fine salt
+  - 1/8 tsp fine salt
   - 2 tsp toasted sesame seeds
   - '1 tsp finely grated fresh ginger, optional'
   - '1/4 tsp shichimi togarashi, optional; check the label'

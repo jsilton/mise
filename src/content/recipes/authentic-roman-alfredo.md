@@ -35,7 +35,7 @@ ingredients:
   - '4 tbsp (55 g) unsalted butter, cubed'
   - '3 oz (85 g) Parmigiano-Reggiano, finely grated from a block'
   - '2 quarts (2 liters) water, for cooking pasta'
-  - '2 tsp Diamond Crystal kosher salt or 1 tsp fine salt, for the cooking water'
+  - '1 tsp fine salt, for the cooking water'
   - '1 cup (240 ml) reserved pasta water, added as needed'
   - 'Freshly ground black pepper, optional'
 description: >-

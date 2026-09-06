@@ -35,7 +35,7 @@ advancePrep:
 servings: 4 side portions
 ingredients:
   - '600 g English or Persian cucumbers, ends trimmed'
-  - 1 tsp Diamond Crystal kosher salt or 1/2 tsp fine salt
+  - 1/2 tsp fine salt
   - '1 tbsp gochugaru (Korean red chile flakes), or less to taste'
   - 1 tbsp unseasoned rice vinegar
   - 2 tsp soy sauce

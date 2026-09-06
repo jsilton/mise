@@ -36,7 +36,7 @@ pairsWith:
   - har-gow-dim-sum-shrimp-dumplings
 ingredients:
   - '1 1/3 lbs (600 g) Persian or English cucumber, washed and ends trimmed'
-  - '1 tsp Diamond Crystal kosher salt or 1/2 tsp fine salt, for draining'
+  - '1/2 tsp fine salt, for draining'
   - 1 1/2 tbsp Chinkiang black vinegar
   - 2 tsp light soy sauce
   - 1 tsp toasted sesame oil

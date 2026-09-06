@@ -59,8 +59,7 @@ learning:
       kitchen cup. The measured water is a covered-pot starting formula; follow
       a rice cooker's own sushi-rice instructions for that appliance.
     - >-
-      Use unseasoned rice vinegar. This seasoning is for flavor, not a verified
-      preservation process; plan to serve promptly or refrigerate the rice.
+      Use unseasoned rice vinegar for flavor. Serve the seasoned rice promptly or refrigerate it; vinegar does not replace safe temperature control.
   checkpoints:
     - step: 3
       cue: The rested rice has no hard center or pool of water.

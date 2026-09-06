@@ -49,7 +49,7 @@ ingredients:
   - 2/3 cup (160 ml) whole milk
   - 1/2 tsp garlic powder
   - 1/4 tsp celery seed
-  - '1/2 tsp Diamond Crystal kosher salt or 1/4 tsp fine salt, plus more only if needed'
+  - '1/4 tsp fine salt, plus more only if needed'
   - 1/2 tsp ground black pepper
   - '--- Finish ---'
   - '1 large egg, beaten, for brushing'

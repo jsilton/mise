@@ -27,7 +27,7 @@ ingredients:
   - '10 oz (283 g) frozen pearl onions, thawed in the refrigerator and drained'
   - '4 cloves garlic, minced'
   - '2 tbsp olive oil, divided'
-  - '1 tsp Diamond Crystal kosher salt or 1/2 tsp fine salt, plus more only if needed'
+  - '1/2 tsp fine salt, plus more only if needed'
   - 1/2 tsp black pepper
   - 1 tbsp tomato paste
   - 1 cup (240 ml) dry red wine

@@ -24,7 +24,7 @@ ingredients:
   - '75 g unsalted butter, cut into small pieces'
   - '115 g cream cheese, cut into small pieces'
   - '3/4 cup (180 ml) half-and-half, plus up to 1/4 cup (60 ml) more if needed'
-  - '1 tsp Diamond Crystal kosher salt or 1/2 tsp fine salt, for finishing, divided'
+  - '1/2 tsp fine salt, for finishing, divided'
   - 1/2 tsp coarsely ground black pepper
 origin: United States
 description: >-

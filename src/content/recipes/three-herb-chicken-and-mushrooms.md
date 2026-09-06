@@ -24,7 +24,7 @@ pairsWith:
   - garlicky-lemon-kale-with-carrots
 ingredients:
   - 8 small bone-in skin-on chicken thighs (about 175 g each)
-  - '2 tsp Diamond Crystal kosher salt or 1 tsp fine salt, divided'
+  - '1 tsp fine salt, divided'
   - 1/2 tsp ground black pepper
   - '1 tbsp neutral oil, used only as needed to supplement rendered chicken fat'
   - '450 g cremini mushrooms, trimmed and quartered'

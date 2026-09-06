@@ -42,11 +42,11 @@ ingredients:
   - 2 large eggs
   - 3 large egg yolks
   - 1 tbsp olive oil
-  - '1/2 tsp Diamond Crystal kosher salt or 1/4 tsp fine salt, for the dough'
+  - '1/4 tsp fine salt, for the dough'
   - '2 tbsp cool water, only as needed for the dough'
   - '2 tbsp fine semolina or all-purpose flour, for dusting cut pasta'
   - '4 quarts (3.8 liters) water, for cooking pasta'
-  - '2 tbsp Diamond Crystal kosher salt or 1 tbsp fine salt, for the pasta water'
+  - '1 tbsp fine salt, for the pasta water'
 origin: Italy
 description: >-
   A yolk-enriched dough for rolled ribbons, with measured water adjustments, a covered rest, and

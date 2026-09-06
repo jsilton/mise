@@ -93,10 +93,7 @@ learning:
       alternative: The same peeled weight of russet potatoes
       effect: Gives a fluffier, more floury mash that may use more of the milk reserve; check tenderness before draining.
   timing: >-
-    Allow roughly 50–60 minutes; the displayed 55 minutes is a planning estimate:
-    roughly 15 minutes peeling and cutting, 10–15 minutes
-    heating the pot, 18–22 minutes simmering, and about 5–8 minutes draining,
-    drying and mashing. Warm the miso dairy during the simmer and prepare the
+    Allow roughly 50–60 minutes: about 15 minutes peeling and cutting, 10–15 minutes heating the pot, 18–22 minutes simmering, and 5–8 minutes draining, drying and mashing. Warm the miso dairy during the simmer and prepare the
     optional scallions then. A slow burner or larger batch extends the time;
     twenty minutes boiling is not the full recipe time.
   storage: >-

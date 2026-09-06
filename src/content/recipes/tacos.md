@@ -33,7 +33,7 @@ ingredients:
   - 1/2 tsp sweet paprika
   - 1/2 tsp garlic powder
   - 1/2 tsp onion powder
-  - '1 tsp Diamond Crystal kosher salt or 1/2 tsp fine salt, divided'
+  - '1/2 tsp fine salt, divided'
   - 1/2 cup (120 ml) low-sodium chicken broth
   - '--- Shells and toppings, for the whole batch ---'
   - '12 small taco shells total: hard shells, 6-inch soft tortillas, or a mixture'

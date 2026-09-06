@@ -35,7 +35,7 @@ ingredients:
   - '360 g jasmine rice, rinsed and well drained'
   - '400 ml full-fat unsweetened coconut milk, stirred smooth'
   - '1 cup (240 ml) water, plus water for rinsing'
-  - 1 tsp Diamond Crystal kosher salt or 1/2 tsp fine salt
+  - 1/2 tsp fine salt
   - '1 tsp sugar, optional'
   - '2 pandan leaves, washed and tied in a knot, optional'
 origin: Southeast Asian-inspired home cooking

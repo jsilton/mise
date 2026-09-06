@@ -53,7 +53,7 @@ ingredients:
   - '--- Chicken and aromatics ---'
   - '6 bone-in skin-on chicken thighs, about 1.5 kg total, fully thawed'
   - '2 tbsp olive oil, divided'
-  - '2 tsp Diamond Crystal kosher salt or 1 tsp fine salt, divided and partly added to taste'
+  - '1 tsp fine salt, divided and partly added to taste'
   - 1/2 tsp ground black pepper
   - '400 g yellow onion, thinly sliced'
   - '5 cloves garlic, minced'

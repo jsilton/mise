@@ -82,7 +82,7 @@ Stuffed shells (conchiglioni ripieni) are Italian-American "pasta al forno" that
 
 2. **The Shells:** Boil shells in well-salted water for **2-3 minutes less** than package directions - they should be firm and pliable, not soft. They finish cooking in the oven. Before draining, reserve 1/2 cup of the starchy pasta water. Drain, spread on a sheet pan, and drizzle with olive oil so they don't stick.
 
-3. **The Three-Cheese Filling:** In a large bowl, combine ricotta, 1 cup shredded mozzarella, 1/3 cup Parmigiano, beaten egg, dry chopped spinach, lemon zest, nutmeg, chives, 1/2 tsp salt, and pepper. Splash 2-3 tablespoons of the reserved starchy pasta water into the mixture to emulsify the fats. **Fold gently with a spatula** - stop the moment everything is combined. The filling should be thick, glossy, and scoopable. (Chef's trick: scoop into a gallon Ziploc, snip one corner, and pipe directly into shells.)
+3. **The Three-Cheese Filling:** In a large bowl, combine ricotta, 1 cup shredded mozzarella, 1/3 cup Parmigiano, beaten egg, dry chopped spinach, lemon zest, nutmeg, chives, 1/2 tsp salt, and pepper. Splash 2-3 tablespoons of the reserved starchy pasta water into the mixture to emulsify the fats. **Fold gently with a spatula** - stop the moment everything is combined. The filling should be thick, glossy, and scoopable. (Chef's trick: scoop into a gallon resealable food bag, snip one corner, and pipe directly into shells.)
 
 4. **The Architecture:** Preheat oven to 375°F. Spread 1 cup of sauce across the bottom of a 9x13 baking dish - this prevents sticking and steaming.
 

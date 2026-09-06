@@ -36,7 +36,7 @@ ingredients:
   - 2 tsp Dijon mustard
   - 1 tsp dried oregano
   - 1/2 tsp garlic powder
-  - '1/2 tsp Diamond Crystal kosher salt or 1/4 tsp fine salt, for the chicken'
+  - '1/4 tsp fine salt, for the chicken'
   - 1/4 tsp ground black pepper
   - 2 tbsp torn fresh basil
 origin: Mediterranean

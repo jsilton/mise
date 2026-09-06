@@ -39,7 +39,7 @@ pairsWith:
 ingredients:
   - '1 lb Extra-firm Tofu, pressed dry and cut into 1-inch squares'
   - 1 1/2 tbsp Honey
-  - 2 tsp Hot Sauce (Crystal or Tabasco)
+  - 2 tsp thin vinegar-based red-pepper hot sauce
   - 3 tbsp Cornstarch (the crunch Guard)
   - 1 1/2 tbsp Sesame Seeds
   - 1 cup Vegetable Stock

@@ -26,7 +26,7 @@ ingredients:
     not pre-brined or enhanced
   - '2 tbsp (28 g) unsalted butter, softened'
   - 1 tbsp finely chopped fresh thyme or rosemary leaves
-  - 1 tbsp Diamond Crystal kosher salt or 1 1/2 tsp fine salt
+  - 1 1/2 tsp fine salt
   - 1/2 tsp ground black pepper
   - >-
     1 cup (240 ml) low-sodium chicken or turkey stock, plus up to 1 cup (240 ml)

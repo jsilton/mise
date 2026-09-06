@@ -33,7 +33,7 @@ ingredients:
   - '8 cups (1.9 liters) low-sodium chicken broth, plus up to 2 cups to adjust consistency'
   - '2 lbs (900 g) boneless skinless chicken thighs, cut into 1-inch pieces'
   - 1 tbsp fresh thyme leaves
-  - '1/2 tsp Diamond Crystal kosher salt or 1/4 tsp fine salt, plus more to taste'
+  - '1/4 tsp fine salt, plus more to taste'
   - 1/2 tsp black pepper
   - '1–2 tbsp lemon juice, to taste'
   - 1/4 cup chopped fresh parsley

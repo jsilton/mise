@@ -45,7 +45,7 @@ ingredients:
   - 3 tbsp extra-virgin olive oil
   - '1 tbsp red wine vinegar, plus 1 tsp more only if needed'
   - 1 tsp dried oregano
-  - '1/4 tsp fine salt or 1/2 tsp Diamond Crystal kosher salt, only as needed'
+  - '1/4 tsp fine salt, only as needed'
   - '1/8 tsp black pepper, optional'
   - '1 tbsp drained capers, optional'
 description: 'Tomatoes, cucumber, pepper, olives, and feta with oregano and a light oil-and-vinegar dressing.'

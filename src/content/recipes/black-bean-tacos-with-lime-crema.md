@@ -45,11 +45,11 @@ ingredients:
   - 1/2 tsp mild chili powder blend
   - 1/4 tsp smoked paprika
   - '1/2 cup (120 ml) low-sodium vegetable broth, plus a little only if needed'
-  - '1 tsp Diamond Crystal kosher salt or 1/2 tsp fine salt, added gradually to taste'
+  - '1/2 tsp fine salt, added gradually to taste'
   - '--- Lime crema ---'
   - 1/2 cup (120 g) Mexican crema or plain Greek yogurt
   - '1 tbsp fresh lime juice, plus up to 1 tsp more to taste'
-  - '1/4 tsp Diamond Crystal kosher salt or 1/8 tsp fine salt, only if needed'
+  - '1/8 tsp fine salt, only if needed'
   - '1 tbsp water, only if needed to loosen yogurt'
   - '--- To serve ---'
   - '8 soft corn or flour tortillas, about 6 inches across'

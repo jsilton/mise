@@ -30,7 +30,7 @@ ingredients:
   - '1 tsp mild chili powder blend, not pure hot chile powder'
   - '1/2 cup loosely packed chopped fresh cilantro, reserved for finishing'
   - '3 tbsp fresh lime juice, added gradually to taste'
-  - '1/2 tsp Diamond Crystal kosher salt or 1/4 tsp fine salt, only if needed'
+  - '1/4 tsp fine salt, only if needed'
   - 'Water, a small splash only if needed while finishing the onion'
   - 1/4 tsp ground black pepper
   - '12 small corn tortillas, about 6 inches across'

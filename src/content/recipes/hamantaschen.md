@@ -26,7 +26,7 @@ ingredients:
   - 1 tsp Pure Vanilla Extract
   - '1 tsp Orange Zest, grated'
   - 1/4 tsp Sea Salt
-  - 'Apricot Jam, Poppy Seed Paste, or Nutella'
+  - 'Apricot Jam, Poppy Seed Paste, or chocolate-hazelnut spread'
 seasons:
   - year-round
 nutritionalDensity: moderate

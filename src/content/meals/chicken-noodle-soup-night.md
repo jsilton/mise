@@ -29,7 +29,7 @@ review:
 
 ## Meal Overview
 
-Make one full six-serving batch of Slow-Cooker Chicken Noodle Soup and half a batch of Garlic Bread, shared among six diners. The soup supplies 680 g raw chicken, 550 g onion, carrot and celery, and 225 g dry pasta. The bread is a small crisp accompaniment to the broth: use 200 g bread, 3 tbsp (42.5 g) butter, 2 garlic cloves, 1 tbsp parsley, 12.5 g Parmesan and up to 1/4 tsp Diamond Crystal kosher salt or 1/8 tsp fine salt. Cut the finished half batch into six pieces, one per bowl.
+Make one full six-serving batch of Slow-Cooker Chicken Noodle Soup and half a batch of Garlic Bread, shared among six diners. The soup supplies 680 g raw chicken, 550 g onion, carrot and celery, and 225 g dry pasta. The bread is a small crisp accompaniment to the broth: use 200 g bread, 3 tbsp (42.5 g) butter, 2 garlic cloves, 1 tbsp parsley, 12.5 g Parmesan and up to 1/8 tsp fine salt. Cut the finished half batch into six pieces, one per bowl.
 
 Allow about 6 hours 40 minutes elapsed on LOW, or about 4 hours 40 minutes using a four-hour HIGH cook, with roughly 45 minutes of hands-on work. Cooker performance varies: chicken temperature and tender carrots determine readiness. The last 25–30 minutes use the oven and one pasta burner alongside the slow cooker. Have softened butter ready for that finishing stage.
 

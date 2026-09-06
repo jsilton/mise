@@ -29,7 +29,7 @@ ingredients:
   - '1 clove garlic, finely grated, for the patties'
   - '3 tbsp finely chopped fresh mint, for the patties'
   - 3 tbsp finely chopped fresh parsley
-  - '1 tsp Diamond Crystal kosher salt or 1/2 tsp fine salt, for the patties'
+  - '1/2 tsp fine salt, for the patties'
   - '1/2 tsp ground black pepper, for the patties'
   - '2 tsp olive oil, for the skillet, divided'
   - '--- Mint tzatziki ---'

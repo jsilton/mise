@@ -25,7 +25,7 @@ Make **one full batch Shrimp and Grits** and **one full batch Charred Broccoli w
 
 Tender shrimp and creamy cheddar grits contrast with crisp bacon and the broccoli's browned surfaces and tender stems. Scallions, parsley and measured lemon keep the rich main lively. The broccoli has a small soy-and-lemon finish of its own; begin with half its listed lemon juice and taste before adding more. Its optional pepper flakes can be omitted.
 
-Allow **about seventy-five minutes elapsed and fifty minutes hands-on** for one cook using the main's named Palmetto Farms stone-ground grits and thawed, peeled shrimp. A coarser product with a longer cooking method changes this schedule. This dinner uses the stovetop: the linked broccoli is browned and briefly steamed in a skillet, so an oven does not need preheating.
+Allow **about seventy-five minutes elapsed and fifty minutes hands-on** for one cook using the main's stone-ground grits with a twenty-to-twenty-five-minute package simmer and thawed, peeled shrimp. A coarser product with a longer cooking method changes this schedule. This dinner uses the stovetop: the linked broccoli is browned and briefly steamed in a skillet, so an oven does not need preheating.
 
 ## Cooking Strategy
 
@@ -40,7 +40,7 @@ Allow **about seventy-five minutes elapsed and fifty minutes hands-on** for one 
 
 Two active burners can handle this sequence because the bacon/shrimp skillet waits off heat while broccoli cooks beside the grits. Use a kettle or microwave for the grits’ adjustment water, or heat it before the broccoli occupies the second burner and keep it covered in an insulated jug. Three burners provide more flexibility, but one cook still needs to watch the short shrimp finish. With only one suitable skillet, cook bacon first, save its measured fat, wash the pan, cook broccoli, wash and dry again, then cook shrimp; allow another ten to fifteen minutes for the extra handling. Keep raw shrimp refrigerated until needed.
 
-For coarse grits such as unsoaked Anson Mills, allow roughly two hours fifteen minutes to two hours thirty minutes for the meal and follow that mill's liquid and stirring method. Cook broccoli and shrimp near the end, not while the grits still have a long simmer ahead. The main's quick-grits alternative shortens the starch stage but does not remove chopping, bacon cooking or two broccoli and shrimp batches; do not turn it into a promised twenty-five-minute dinner.
+For coarser grits requiring about ninety minutes unsoaked, allow roughly two hours fifteen minutes to two hours thirty minutes for the meal and follow the package’s liquid and stirring method. Cook broccoli and shrimp near the end, not while the grits still have a long simmer ahead. The main's quick-grits alternative shortens the starch stage but does not remove chopping, bacon cooking or two broccoli and shrimp batches; do not turn it into a promised twenty-five-minute dinner.
 
 For five diners, use 1.25× the component ingredients: about 565 g peeled shrimp, 1 1/4 cups dry grits and 565 g broccoli, with the main's cheese, bacon and seasonings also increased. Keep the specified loose pan layers and allow extra rounds where needed; the seventy-five-minute estimate is for the four-person batch.
 

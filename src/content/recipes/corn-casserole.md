@@ -22,7 +22,7 @@ pairsWith:
   - tomato-cobbler-with-cornmeal-cheddar-biscuits
   - pulled-pork
 ingredients:
-  - 1 box (8.5 oz) Jiffy Corn Bread Mix
+  - 8.5 oz sweet corn muffin mix containing wheat flour, cornmeal, sugar, fat and leavening
   - 1 can (14.75 oz) Cream-Style Corn
   - '1 can (15.25 oz) Whole Kernel Corn, drained'
   - 8 oz Sour Cream

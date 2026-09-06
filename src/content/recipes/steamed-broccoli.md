@@ -36,7 +36,7 @@ ingredients:
   - 'Water, enough to sit just below the steamer basket'
   - 1 1/2 tbsp extra-virgin olive oil
   - '2 cloves garlic, finely minced'
-  - '1/2 tsp Diamond Crystal kosher salt or 1/4 tsp fine salt, added gradually to taste'
+  - '1/4 tsp fine salt, added gradually to taste'
   - 1/4 tsp ground black pepper
 origin: United States
 description: 'Evenly cut broccoli steamed until the stems yield, then dressed with gently warmed garlic oil.'

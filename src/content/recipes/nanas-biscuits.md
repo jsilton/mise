@@ -26,7 +26,7 @@ pairsWith:
   - tomato-cobbler-with-cornmeal-cheddar-biscuits
 ingredients:
   - 2 cups Self-Rising Flour (sifted)
-  - '1/4 cup Unsalted Butter, cold and cubed (Replaces Crisco)'
+  - '1/4 cup Unsalted Butter, cold and cubed'
   - 3/4 cup Buttermilk
   - Pinch of Baking Soda
 origin: United States
@@ -47,6 +47,7 @@ nutrition:
 ## Chef's Note
 
 Biscuits are Southern breakfast staple, but the technique is universal - cold butter cut into flour creates pockets of steam that make them rise and flake. Buttermilk adds tang and helps with rise. The shaping matters: fold dough gently a few times to create layers, then cut straight down (don't twist) so the edges seal and the biscuits puff instead of spreading.
+
 ## Directions
 
 1.  **Prep:** Preheat oven to 425°F. Lightly grease a baking sheet with a little butter.

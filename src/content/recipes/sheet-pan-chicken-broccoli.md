@@ -36,7 +36,7 @@ ingredients:
   - '680 g (1 1/2 lb) boneless skinless chicken thighs, cut into 1 1/2-inch pieces'
   - '450 g broccoli florets, cut into even 1 1/2-inch pieces, washed and dried'
   - '2 tbsp olive oil, divided'
-  - '1 tsp Diamond Crystal kosher salt or 1/2 tsp fine salt, divided'
+  - '1/2 tsp fine salt, divided'
   - '1/2 tsp ground black pepper, divided'
   - '--- Cheddar sauce ---'
   - 2 tbsp (28 g) unsalted butter

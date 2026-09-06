@@ -49,7 +49,7 @@ ingredients:
   - '1 cup (200 g) split, hulled yellow mung dal, picked over and rinsed'
   - '3 cups (720 ml) water, plus hot water as needed'
   - 1/2 tsp ground turmeric
-  - '1 tsp Diamond Crystal kosher salt or 1/2 tsp fine salt, plus more to taste'
+  - '1/2 tsp fine salt, plus more to taste'
   - '1 medium tomato, finely diced'
   - '1 green serrano chile, slit, optional'
   - 3 tbsp ghee or neutral oil

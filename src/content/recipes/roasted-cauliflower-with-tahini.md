@@ -50,7 +50,7 @@ ingredients:
   - 1 tsp ground cumin
   - 1 tsp smoked paprika
   - 1/2 tsp ground turmeric
-  - '1 1/2 tsp Diamond Crystal kosher salt or 3/4 tsp fine salt, divided'
+  - '3/4 tsp fine salt, divided'
   - 1/4 tsp black pepper
   - '1/2 cup prepared [Tahini Sauce](/mise/recipes/tahini-sauce)'
   - 2 tbsp chopped parsley

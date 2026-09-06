@@ -44,9 +44,9 @@ ingredients:
   - 1/2 cup (120 ml) dry white wine
   - '1 lemon, for 1 tsp finely grated zest and 1–2 tbsp juice'
   - 1/2 cup (30 g) finely grated Parmesan
-  - '1/2 tsp Diamond Crystal kosher salt or 1/4 tsp fine salt, for the chicken'
+  - '1/4 tsp fine salt, for the chicken'
   - '1/4 tsp black pepper, plus more to taste'
-  - '1 tbsp Diamond Crystal kosher salt or 1 1/2 tsp fine salt, for 3 quarts pasta water'
+  - '1 1/2 tsp fine salt, for 3 quarts pasta water'
   - '1 cup (240 ml) reserved pasta water, added as needed'
 origin: Italian-American
 description: >-

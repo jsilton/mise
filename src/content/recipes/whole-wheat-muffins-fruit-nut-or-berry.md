@@ -36,7 +36,7 @@ pairsWith:
   - avocado-kale-caesar-salad
   - roasted-fall-harvest-salad
 ingredients:
-  - 1 1/2 cups White Whole-wheat Flour (King Arthur Standard)
+  - 1 1/2 cups white whole-wheat flour
   - 3/4 cup Apple or Orange Juice (The Acid Balance)
   - '1/4 cup Coconut Oil, melted'
   - 2 tbsp Honey + 1 tsp Pure Vanilla Extract

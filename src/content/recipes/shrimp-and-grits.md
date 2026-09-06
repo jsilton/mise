@@ -27,7 +27,7 @@ equipment:
     thin-tip-instant-read-thermometer,
   ]
 ingredients:
-  - '1 cup dry Palmetto Farms stone-ground grits, or another product with similar package cooking instructions'
+  - '1 cup dry regular stone-ground grits, with package instructions matching the ratio and simmer time below'
   - '4 cups (950 ml) water, for the grits, with package-specific adjustment if needed'
   - '1 cup (240 ml) additional hot water, for loosening the grits as needed'
   - '1/2 tsp fine salt, for the grits, divided and partly added to taste'
@@ -52,14 +52,13 @@ learning:
   techniques: [starch, gentle-proteins, seasoning, temperature]
   before:
     - >-
-      The sixty-minute plan uses Palmetto Farms stone-ground grits, whose published method
-      uses a four-to-one liquid-to-grits volume ratio and a twenty-to-twenty-five-minute simmer.
-      Stone-ground does not guarantee one cooking time: coarse Anson Mills grits can need about
+      The sixty-minute plan requires stone-ground grits with package instructions for a
+      four-to-one liquid-to-grits volume ratio and a twenty-to-twenty-five-minute simmer.
+      Stone-ground does not guarantee one cooking time: coarser grits can need about
       ninety minutes unsoaked. Check the package before planning the meal.
     - >-
       The grits should yield roughly four to five cups after adding cheese, depending on
-      evaporation and extra water; divide them among four bowls. This is an estimated yield,
-      not a measured kitchen result.
+      evaporation and extra water; divide them among four bowls.
     - >-
       Shrimp weight is after thawing, draining, peeling and removing tails. A peeled
       31–40-count-per-pound product gives roughly eight to ten shrimp per person. If peeling a
@@ -98,15 +97,15 @@ learning:
       cause: All bacon fat was retained, or extra salt was added before tasting with bacon and cheddar.
       fix: Measure the retained fat and leave shrimp unsalted initially. Taste the complete bite before finishing salt. An already oversalted topping needs more unsalted food to dilute it; lemon does not remove salt.
   substitutions:
-    - ingredient: 1 cup Palmetto Farms stone-ground grits
-      alternative: 1 cup plain quick grits, such as Quaker Quick Grits
+    - ingredient: 1 cup regular stone-ground grits
+      alternative: 1 cup plain quick grits
       effect: >-
         A finer texture and a shorter starch stage. Use the actual package's water and cooking
-        instructions; Quaker's four-serving method uses four cups water and about five to seven
-        minutes cooking. Cook bacon and prepare everything before starting these faster grits.
+        instructions. Some quick grits use four cups water and about five to seven
+        minutes cooking for this quantity; check the package rather than assuming. Cook bacon and prepare everything before starting these faster grits.
         Allow about forty to forty-five minutes for the full main; instant packets are a
         different product and may contain additional salt.
-    - ingredient: The named stone-ground grits
+    - ingredient: The regular stone-ground grits
       alternative: 1 cup coarser stone-ground grits with a longer package method
       effect: >-
         Follow that mill's unsoaked cooking method and liquid directions, then add the listed
@@ -117,7 +116,7 @@ learning:
       alternative: Omit the bacon and use 1 tbsp olive oil for cooking the shrimp and aromatics
       effect: Less smoke, crunch and salt, making a different but still useful shrimp-and-cheddar bowl. Taste the finished topping with grits before adding any additional salt.
   timing: >-
-    Allow about sixty minutes with the named grits and thawed, peeled shrimp: roughly
+    Allow about sixty minutes with grits requiring the stated twenty-to-twenty-five-minute simmer and thawed, peeled shrimp: roughly
     twenty minutes for measuring, chopping, grating and heating the grits water, then a
     twenty-to-twenty-five-minute simmer and about fifteen minutes for finishing the grits, the shrimp and the pan
     finish. Cook bacon during the grits simmer. Finish the grits before cooking shrimp; a
@@ -161,8 +160,8 @@ This Southern bowl combines cheddar grits, bacon and shrimp with scallions and l
 
 ## Directions
 
-1. **Prepare before cooking:** Check the grits package against the stated product. Heat the four cups grits water in a 3-quart heavy saucepan while grating cheddar, dicing bacon and preparing scallions, garlic, parsley and lemon. Heat the additional cup of water in a kettle or microwave and keep covered for adjusting the grits; rewarm if needed. Keep white and green scallion parts separate. Pat thawed peeled shrimp dry and keep refrigerated. Set aside half the black pepper for grits and half for shrimp.
-2. **Cook the grits:** Bring the water to a boil, whisk in grits and half the measured salt, then reduce to a gentle low simmer and cover. Stir thoroughly across the bottom every few minutes to prevent sticking. With the named product, begin tasting at twenty minutes and allow about twenty to twenty-five; continue longer if the centers are still firm. If it gets thick before tender, add hot water from the listed additional cup in small amounts. The grains should feel tender in a cooled spoonful, not merely absorb all the water.
+1. **Prepare before cooking:** Check that the grits package matches the stated liquid ratio and simmer time. Heat the four cups grits water in a 3-quart heavy saucepan while grating cheddar, dicing bacon and preparing scallions, garlic, parsley and lemon. Heat the additional cup of water in a kettle or microwave and keep covered for adjusting the grits; rewarm if needed. Keep white and green scallion parts separate. Pat thawed peeled shrimp dry and keep refrigerated. Set aside half the black pepper for grits and half for shrimp.
+2. **Cook the grits:** Bring the water to a boil, whisk in grits and half the measured salt, then reduce to a gentle low simmer and cover. Stir thoroughly across the bottom every few minutes to prevent sticking. For grits with the stated package method, begin tasting at twenty minutes and allow about twenty to twenty-five; continue longer if the centers are still firm. If it gets thick before tender, add hot water from the listed additional cup in small amounts. The grains should feel tender in a cooled spoonful, not merely absorb all the water.
 3. **Cook bacon and finish the base:** While grits simmer, cook diced bacon in the 12-inch skillet over medium heat for about eight to ten minutes, stirring until browned and crisp. Transfer bacon to a plate; carefully measure one tablespoon of rendered fat into a small heatproof cup and pour off the excess, leaving a thin film in the skillet. Discard or separately save the excess fat. Once grits are tender, take them off heat and fold in butter, cheddar and their half of the pepper. Taste before adding the remaining grits salt. Loosen with a little listed hot water if needed so the grits spread softly rather than stand in a firm mound. Cover and keep gently warm while cooking shrimp.
 4. **Cook the first shrimp batch:** Heat the skillet with half the reserved tablespoon bacon fat over medium-high heat; keep the other half aside. Add half the shrimp in one layer and cook about one to two minutes per side. Check the thickest centers as described in the next step, then transfer cooked shrimp to a clean plate. They will return only briefly for coating, not simmer through the sauce preparation.
 5. **Cook the second batch and check:** Add the remaining reserved fat and shrimp. Cook and turn as before, until the flesh is firm, pearly and opaque through the center. Check several of the largest shrimp with a thin-tip thermometer inserted into the thickest part for 145°F / 63°C; continue any larger or still-translucent pieces until done. Typical cooking is about three to four minutes per batch, but thickness determines it. Transfer this batch to the clean plate.

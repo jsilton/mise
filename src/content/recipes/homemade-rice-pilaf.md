@@ -30,7 +30,7 @@ ingredients:
   - 1/4 tsp onion powder
   - '1/8 tsp ground turmeric, optional'
   - 1 tsp dried parsley
-  - 1 tsp Diamond Crystal kosher salt or 1/2 tsp fine salt
+  - 1/2 tsp fine salt
   - 1/8 tsp black pepper
   - '1 tbsp fresh lemon juice, optional finish'
   - '2 tbsp hot water, only if needed to finish firm grains'

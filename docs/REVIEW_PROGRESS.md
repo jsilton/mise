@@ -594,3 +594,11 @@ Applied 49 individually read wording changes across 34 recipes and five meals. R
 Verification: all 29 QA checks pass and 731 built pages have no broken destinations or anchors. All 39 edited content files preserve their ingredient, time, serving and composition metadata. Explicit recipe lint passes with one existing pairing warning. Culinary review coverage is unchanged.
 
 The presentation batch 6891df6883e1ecc1f9cb21cac964a9619d139f26 deployed successfully in Pages run 34038078999. Live checks passed reviewed and pending recipes, footer policy navigation, retained method outcomes, mint half-scale fine salt, cook mode and responsive/print output.
+
+## Brand-neutral ingredients and remaining prose
+
+Replaced manufacturer-dependent names with useful ingredient types across 135 recipes and eight meals. All 96 Diamond Crystal occurrences across 85 files select fine-salt amounts already supplied in their original text; divided method amounts and composed-meal fractions were independently checked. Kept critical cereal, flour, cornmeal-mix, cheese, spirit-strength and equipment distinctions, unchanged attribution, and stable recipe addresses. Four residual review-process sentences now use plain yield, storage and timing language. Corrected General Tso’s meal wording so sauce reduction is not presented as unconditional. The full decision record identifies pre-existing culinary issues requiring their own review.
+
+Verification: all 29 QA checks pass; 731 pages have no broken destinations or anchors. All 615 recipe/alias outputs omit the removed panels, notices and branded salt. Browser checks passed nine ingredient/half-scale combinations, fixed alcohol strength and bouillon concentration, grits package constraints, family dressing, pressure-cooker requirements, revised sauce prose, mobile width and print title. All 147 changed content files preserve time, serving, composition, attribution and review metadata. No culinary review counts changed.
+
+Prose batch 673c1cc18ae64bce9c743f05f0661eb4da2f1e41 deployed successfully in Pages run 34038435217, with live recipe, footer, scaling and responsive/print checks passing. Independent review read all 39 content diffs and seven rendered pages; its one sauce-wording correction is included in this batch.

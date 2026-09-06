@@ -39,7 +39,7 @@ pairsWith:
 ingredients:
   - '8 oz Shishito Peppers, left whole with stems on'
   - 1 tbsp Neutral Oil (avocado or grapeseed)
-  - 1 tsp Flaky Sea Salt (Maldon or fleur de sel)
+  - 1 tsp flaky sea salt
   - 1 tsp Sesame Seeds
   - '1 lemon wedge, for squeezing'
 nutrition:

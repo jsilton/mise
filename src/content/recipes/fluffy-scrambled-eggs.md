@@ -38,7 +38,7 @@ ingredients:
   - 6 large eggs
   - 2 tbsp (28 g) unsalted butter
   - 1 tbsp crème fraîche or sour cream
-  - '1/4 tsp Diamond Crystal kosher salt or 1/8 tsp fine salt, plus more to taste'
+  - '1/8 tsp fine salt, plus more to taste'
   - Freshly ground black pepper
   - 1 tbsp finely snipped chives
 description: >-

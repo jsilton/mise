@@ -27,7 +27,7 @@ ingredients:
   - 3 large Egg Yolks
   - 2 tbsp Unsalted Butter
   - 1 tbsp Vanilla Extract
-  - 1 box Vanilla Wafers (Nilla)
+  - 1 box vanilla wafer cookies
   - '4 large Bananas, sliced'
   - '1 cup Heavy Cream, whipped to stiff peaks'
 origin: United States

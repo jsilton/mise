@@ -35,7 +35,7 @@ ingredients:
     thick
   - '1/2 cup (60 g) all-purpose flour, for dredging; excess will be discarded'
   - '3 tbsp olive oil, divided'
-  - 1 tsp Diamond Crystal kosher salt or 1/2 tsp fine salt
+  - 1/2 tsp fine salt
   - 1/4 tsp black pepper
   - 1/2 tsp garlic powder
   - 1/2 tsp onion powder

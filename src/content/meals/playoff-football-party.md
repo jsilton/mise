@@ -27,13 +27,13 @@ Simple game day: broiled chicken sliders two ways (BBQ and Sweet Chili), creamy 
 
 **Sliders (You're Making):**
 
-- **BBQ Chicken Sliders**  -  broiled thighs, BBQ glaze, pickles
-- **Sweet Chili Chicken Sliders**  -  broiled thighs, sweet chili glaze, store-bought Asian slaw
+- **BBQ Chicken Sliders** - broiled thighs, BBQ glaze, pickles
+- **Sweet Chili Chicken Sliders** - broiled thighs, sweet chili glaze, store-bought Asian slaw
 
 **Sides (You're Making):**
 
-- **Crockpot Mac and Cheese**  -  set it and forget it
-- **Classic Guacamole**  -  chunky, fresh
+- **Slow-Cooker Mac and Cheese** - set it and forget it
+- **Classic Guacamole** - chunky, fresh
 - Chips and jarred salsa
 
 **Guests Bringing:**
@@ -44,15 +44,15 @@ Simple game day: broiled chicken sliders two ways (BBQ and Sweet Chili), creamy 
 
 **Drink:**
 
-- **Red Zone Margarita**  -  batch cocktail with Game Day Ice
+- **Red Zone Margarita** - batch cocktail with Game Day Ice
 
 ## Prep Timeline
 
 ### Night Before
 
-1. **Make the margarita syrup**  -  10 min active, 30 min steep
-2. **Freeze Game Day Ice**  -  fill molds with berries and water
-3. **Shred cheese for mac**  -  refrigerate
+1. **Make the margarita syrup** - 10 min active, 30 min steep
+2. **Freeze Game Day Ice** - fill molds with berries and water
+3. **Shred cheese for mac** - refrigerate
 
 ### 2.5 Hours Before Kickoff
 

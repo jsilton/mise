@@ -34,7 +34,7 @@ ingredients:
   - 1 lb Chicken Tenderloins or Breasts cut into strips
   - 1/2 cup All-Purpose Flour
   - '2 large Eggs, beaten with 1 tbsp water'
-  - 1.5 cups Panko Breadcrumbs (Replaces Ritz crackers for superior crunch)
+  - 1.5 cups Panko Breadcrumbs
   - 1/2 cup Grated Parmesan Cheese
   - 1 tsp Garlic Powder
   - 1 tsp Dried Oregano

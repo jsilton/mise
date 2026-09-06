@@ -42,7 +42,7 @@ pairsWith:
   - steamed-white-rice
 ingredients:
   - '1.5 lbs Beef Chuck or Pork Shoulder, cut into 1-inch cubes'
-  - '3 tbsp Massaman Curry Paste (Mae Ploy or Maesri brand, or homemade)'
+  - '3 tbsp Massaman Curry Paste (store-bought or homemade)'
   - 1 can (14 oz) Coconut Milk
   - 1 cup Beef Stock (or chicken stock)
   - '2 medium Potatoes, cut into 3/4-inch cubes'
@@ -100,7 +100,7 @@ Massaman curry is Thai food with Persian spice influences (cardamom, cinnamon) b
 
 12. **Serve:** Ladle into bowls over warm jasmine or basmati rice. Garnish with fresh cilantro and serve with lime wedges for squeezing over the top.
 
-**Curry Paste:** Store-bought massaman paste is the practical choice for weeknights. Mae Ploy and Maesri are both excellent and widely available. Making paste from scratch takes 20 minutes but uses fresher spices.
+**Curry Paste:** Store-bought massaman paste is the practical choice for weeknights. Choose a paste labeled massaman; salt and heat vary, so taste the finished curry before adding more seasoning. Making paste from scratch takes 20 minutes but uses fresher spices.
 
 **Coconut Milk Type:** Use canned full-fat coconut milk. The thick cream at the top is crucial for depth. If using reduced-fat, the curry will be thinner and less rich.
 

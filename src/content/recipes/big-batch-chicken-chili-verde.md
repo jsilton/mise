@@ -47,7 +47,7 @@ ingredients:
   - '3 tbsp olive oil, divided'
   - '200 g yellow onion, finely diced'
   - '4 cloves garlic, minced'
-  - '1 tbsp Diamond Crystal kosher salt or 1 1/2 tsp fine salt, divided and partly added to taste'
+  - '1 1/2 tsp fine salt, divided and partly added to taste'
   - 2 tsp ground cumin
   - 1 tsp ground coriander
   - '1/4 tsp cayenne, optional'

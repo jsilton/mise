@@ -32,7 +32,7 @@ ingredients:
   - '--- Wings ---'
   - '1.35 kg (3 lb) chicken wing drumettes and flats, fully thawed, tips excluded'
   - '1 tbsp aluminum-free baking powder, not baking soda'
-  - 1 tsp Diamond Crystal kosher salt or 1/2 tsp fine salt
+  - 1/2 tsp fine salt
   - '2 tsp neutral oil, for lightly greasing the racks'
   - '--- Glaze and finish ---'
   - 1/4 cup (60 g) gochujang

@@ -7,7 +7,7 @@ servings: '4'
 ingredients:
   - '1.5 lbs (680 g) boneless skinless chicken thighs, opened flat'
   - '1/2 cup (60 g) all-purpose flour, for dredging'
-  - '1 tsp Diamond Crystal kosher salt or 1/2 tsp fine salt, divided'
+  - '1/2 tsp fine salt, divided'
   - 1/2 tsp freshly ground black pepper
   - '2 tbsp olive oil, divided'
   - '2 oz (57 g) prosciutto, chopped'

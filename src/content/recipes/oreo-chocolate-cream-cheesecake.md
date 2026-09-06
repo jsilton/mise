@@ -1,5 +1,5 @@
 ---
-title: Oreo Chocolate Cream Cheesecake
+title: Chocolate Sandwich Cookie Cheesecake
 difficulty: intermediate
 cookingMethods:
   - bake
@@ -20,7 +20,7 @@ cookTime: 60 min
 totalTime: 300 min
 servings: '12'
 ingredients:
-  - 32 Oreo Cookies (divided)
+  - 32 regular-size cream-filled chocolate sandwich cookies (divided)
   - '32 oz (4 pkgs) Cream Cheese, softened'
   - 1 cup Granulated Sugar
   - 1 tsp Pure Vanilla Extract
@@ -54,10 +54,10 @@ This is the ultimate holiday dessert. The secret to its incredible texture is ma
 
 ## Directions
 
-1.  **The Crust:** Preheat oven to 325°F. Finely crush 12 Oreo cookies. Press firmly into the bottom of a 9-inch springform pan. Bake for 10 minutes. Let cool.
+1.  **The Crust:** Preheat oven to 325°F. Finely crush 12 chocolate sandwich cookies. Press firmly into the bottom of a 9-inch springform pan. Bake for 10 minutes. Let cool.
 2.  **The Base:** In a stand mixer, beat cream cheese, sugar, and vanilla on medium speed until perfectly smooth. Add melted chocolate; beat to integrate.
 3.  **Emulsify:** Add eggs **one at a time**, mixing on low speed after each until just blended. Do not over-beat, or the cheesecake will crack.
-4.  **Inclusions:** Gently fold in 1.5 cups of coarsely quartered Oreos.
+4.  **Inclusions:** Gently fold in 1.5 cups of coarsely quartered chocolate sandwich cookies.
 5.  **Bake:** Pour the batter over the crust. Sprinkle remaining quartered cookies on top. Bake for 50-60 minutes until the edges are set but the center still has a slight wobble.
 6.  **The Finish:** Cool in the pan, then refrigerate for **at least 4 hours** (ideally 24).
 7.  **Serve:** Run a knife around the rim before releasing. Serve cold.

@@ -43,7 +43,7 @@ ingredients:
   - '2 cups (400 g) aged white basmati rice, not parboiled or quick-cooking'
   - '3 cups (720 ml) water, for the unsoaked stovetop method'
   - '1 tbsp ghee, butter, or neutral oil'
-  - 1 1/2 tsp Diamond Crystal kosher salt or 3/4 tsp fine salt
+  - 3/4 tsp fine salt
   - '1 tsp cumin seeds, optional'
   - '1 small cinnamon stick, about 1 inch long, optional'
   - '1 bay leaf, optional'

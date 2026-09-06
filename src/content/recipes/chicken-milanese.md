@@ -44,7 +44,7 @@ ingredients:
   - 1/2 cup (30 g) finely grated Parmesan
   - 1 tsp dried oregano
   - 1/2 tsp garlic powder
-  - 1 tsp Diamond Crystal kosher salt or 1/2 tsp fine salt
+  - 1/2 tsp fine salt
   - 1/4 tsp black pepper
   - '1 cup (240 ml) neutral oil, approximately, for a 1/8-inch layer in the skillet'
   - >-

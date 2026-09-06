@@ -40,7 +40,7 @@ ingredients:
   - >-
     2 1/4 cups (540 ml) low-sodium vegetable or chicken broth, with package-specific adjustment if
     needed
-  - '1/2 tsp Diamond Crystal kosher salt or 1/4 tsp fine salt, added only as needed'
+  - '1/4 tsp fine salt, added only as needed'
   - 1/4 tsp ground black pepper
   - 2 tbsp chopped parsley
   - '1 tsp finely grated lemon zest, optional'

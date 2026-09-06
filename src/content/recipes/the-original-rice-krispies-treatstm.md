@@ -1,5 +1,5 @@
 ---
-title: Rice Krispies Treats
+title: Crisp Rice Marshmallow Treats
 difficulty: intermediate
 cookingMethods:
   - no-cook
@@ -30,7 +30,7 @@ advancePrep:
   - cool-completely
 servings: '12'
 ingredients:
-  - 6 cups Rice Krispies Cereal
+  - 6 cups crisp rice cereal
   - 10 oz (1 package) Fresh Marshmallows
   - 3 tbsp Unsalted Butter (Cold)
   - Pinch of Sea Salt
@@ -53,7 +53,7 @@ nutrition:
 
 ## Chef's Note
 
-The key to Rice Krispie treats that aren't rock-hard is melting the butter and marshmallows on the lowest possible heat. High heat denatures the sugar and leads to brittle treats. We add sea salt and vanilla extract to balance the corn-syrup sweetness, providing a more sophisticated flavor than commercial versions.
+The key to crisp rice marshmallow treats that aren't rock-hard is melting the butter and marshmallows on the lowest possible heat. High heat denatures the sugar and leads to brittle treats. We add sea salt and vanilla extract to balance the corn-syrup sweetness, providing a more sophisticated flavor than commercial versions.
 
 ## Directions
 

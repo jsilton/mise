@@ -48,7 +48,7 @@ Use an **8-quart pot**, with enough room for potatoes and water below the rim:
 - 113 g unsalted butter
 - 173 g cream cheese
 - 270 ml half-and-half, plus up to 90 ml more if needed
-- 1 1/2 tsp Diamond Crystal kosher salt or 3/4 tsp fine salt for finishing, divided after tasting
+- 3/4 tsp fine salt for finishing, divided after tasting
 - 3/4 tsp black pepper
 
 Follow the potato recipe's tenderness, drying and gentle-mashing instructions. The butter and cream cheese are rounded to whole grams from one and a half batches. Heating this larger pot takes longer: allow about **seventy minutes** from peeling through mashing rather than copying the smaller recipe's time.

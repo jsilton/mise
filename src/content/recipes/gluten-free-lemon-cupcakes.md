@@ -32,7 +32,7 @@ cookTime: 20 min
 totalTime: 30 min
 servings: '12'
 ingredients:
-  - 1 1/4 cups Gluten-free All-Purpose Flour (Bob’s 1-to-1 preferred)
+  - 1 1/4 cups gluten-free measure-for-measure baking flour blend containing xanthan gum
   - 1 1/2 tsp Gluten-free Baking Powder
   - 1/4 tsp Sea Salt
   - 3/4 cup Granulated Sugar

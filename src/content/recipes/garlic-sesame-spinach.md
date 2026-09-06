@@ -29,7 +29,7 @@ ingredients:
   - 'Cold water and ice, for cooling'
   - 2 tsp toasted sesame oil
   - '1 tsp finely minced fresh garlic, added gradually to taste'
-  - '1/2 tsp Diamond Crystal kosher salt or 1/4 tsp fine salt, added gradually to taste'
+  - '1/4 tsp fine salt, added gradually to taste'
   - 2 tsp toasted sesame seeds
 seasons:
   - year-round

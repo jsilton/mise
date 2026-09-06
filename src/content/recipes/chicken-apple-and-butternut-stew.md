@@ -26,7 +26,7 @@ pairsWith:
 ingredients:
   - '2 lbs (900 g) boneless skinless chicken thighs, cut into 1-inch pieces'
   - '2 tbsp olive oil, divided'
-  - '1 tsp Diamond Crystal kosher salt or 1/2 tsp fine salt, divided, plus more to taste'
+  - '1/2 tsp fine salt, divided, plus more to taste'
   - 1/2 tsp black pepper
   - '1 large yellow onion, diced'
   - '1 cup (130 g) parsnip, peeled and cut into 1/2-inch pieces'

@@ -25,7 +25,7 @@ pairsWith:
   - warm-roasted-veggie-salad-with-maple-dijon-vinaigrette
 ingredients:
   - '2 lbs (900 g) boneless beef chuck, cut into 1.5-inch cubes'
-  - '1 tsp Diamond Crystal kosher salt or 1/2 tsp fine salt, plus more to taste'
+  - '1/2 tsp fine salt, plus more to taste'
   - 1/2 tsp black pepper
   - 1/4 cup (30 g) all-purpose flour
   - '3 tbsp neutral oil, divided'

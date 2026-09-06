@@ -37,7 +37,7 @@ ingredients:
   - 1/2 oz simple syrup
   - 1/2 oz egg white (optional but recommended)
   - Ice
-  - Angostura bitters for garnish (optional)
+  - aromatic bitters for garnish (optional)
   - Maraschino cherry and orange slice (optional)
 origin: United States
 nutrition:
@@ -60,7 +60,7 @@ nutrition:
 
 4. **Strain into a chilled:** rocks glass over fresh ice or serve up in a coupe glass.
 
-5. **If you used egg:** white, garnish with a few drops of Angostura bitters on the foam and drag a toothpick through to create a design.
+5. **If you used egg:** white, garnish with a few drops of aromatic bitters on the foam and drag a toothpick through to create a design.
 
 6. **Optionally add a cherry:** and orange slice. Serve immediately.
 

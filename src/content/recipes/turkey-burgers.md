@@ -38,7 +38,7 @@ ingredients:
   - 1 tbsp Worcestershire sauce
   - 1 tbsp barbecue sauce
   - 1 tsp garlic powder
-  - 1/2 tsp Diamond Crystal kosher salt or 1/4 tsp fine salt
+  - 1/4 tsp fine salt
   - 1/2 tsp ground black pepper
   - '1 tbsp neutral oil, for the skillet'
   - '4 hamburger buns, about 4 inches across'

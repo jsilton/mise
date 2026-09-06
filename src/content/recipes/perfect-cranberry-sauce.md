@@ -81,7 +81,7 @@ learning:
     two hours or one hour above 90°F / 32°C; do not wait for a deep hot pan to
     become completely cold on the counter. Keep at 40°F / 4°C or below and
     use within three to four days, or freeze in small portions. Use clean
-    utensils. This recipe has not been validated for pantry storage.
+    utensils. Store this sauce in the refrigerator or freezer, not in the pantry.
   sources:
     - title: Ocean Spray — Whole-berry cranberry sauce method and yield comparison
       url: https://www.oceanspray.com/recipes/homemade-whole-berry-cranberry-sauce

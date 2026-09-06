@@ -1,5 +1,5 @@
 ---
-title: Instant Pot Butternut Squash Soup
+title: Pressure-Cooker Butternut Squash Soup
 difficulty: easy
 cookingMethods:
   - grill
@@ -59,7 +59,9 @@ Sautéing bacon first, removing it for garnish, then cooking aromatics in the re
 
 ## Directions
 
-1.  **The Render:** Set the Instant Pot to "Sauté" (High). Add diced bacon and cook until crispy (6-8 mins). Remove bacon to a plate, leaving the fat in the pot.
+Use an electric pressure cooker with a sauté setting. Follow its minimum-liquid, maximum-fill and pressure-release instructions; these depend on the model.
+
+1.  **The Render:** Set the electric pressure cooker to "Sauté" (High). Add diced bacon and cook until crispy (6-8 mins). Remove bacon to a plate, leaving the fat in the pot.
 2.  **Aromatics:** Add onion to the bacon fat. Sauté for 3 minutes until translucent. Stir in garlic, sage, and thyme; cook for 30-45 seconds until fragrant.
 3.  **Pressure:** Stir in the squash, carrots, celery, and chopped apple. Pour in the chicken stock and season with salt and pepper.
 4.  **Cook:** Secure the lid. Set to **High Pressure for 12 minutes**.

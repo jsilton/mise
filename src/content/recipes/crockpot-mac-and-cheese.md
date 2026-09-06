@@ -1,5 +1,5 @@
 ---
-title: Crockpot Mac and Cheese
+title: Slow-Cooker Mac and Cheese
 role: side
 vibe: comfort
 difficulty: easy

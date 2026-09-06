@@ -36,13 +36,13 @@ ingredients:
   - 2 tbsp fresh lemon juice
   - '2 cloves garlic, finely grated'
   - 2 tsp dried oregano
-  - '1 1/2 tsp Diamond Crystal kosher salt or 3/4 tsp fine salt, for the chicken'
+  - '3/4 tsp fine salt, for the chicken'
   - '1/2 tsp ground black pepper, for the chicken'
   - '--- Roasted vegetables ---'
   - '400 g bell peppers, cored and cut into 3/4-inch strips'
   - '200 g red onion, peeled and cut into 3/4-inch wedges'
   - '1 tbsp olive oil, for the vegetables'
-  - '1/2 tsp Diamond Crystal kosher salt or 1/4 tsp fine salt, for the vegetables'
+  - '1/4 tsp fine salt, for the vegetables'
   - '1/4 tsp ground black pepper, for the vegetables'
   - '1 tbsp chopped parsley, optional finishing herb'
 origin: Greek-inspired home cooking

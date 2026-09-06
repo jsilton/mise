@@ -40,7 +40,7 @@ ingredients:
   - '3/4 tsp dried rosemary, finely crushed'
   - 1/2 tsp smoked paprika
   - '1 tbsp olive oil, divided'
-  - '1 tsp Diamond Crystal kosher salt or 1/2 tsp fine salt, divided'
+  - '1/2 tsp fine salt, divided'
   - 1/2 tsp ground black pepper
   - '2 tbsp fresh lemon juice, added to taste'
 origin: United States

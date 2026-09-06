@@ -18,7 +18,7 @@ pairsWith:
 ingredients:
   - '180 g jasmine rice (about 1 cup), rinsed and well drained'
   - '1 1/4 cups (300 ml) water, plus water for rinsing'
-  - 1/2 tsp Diamond Crystal kosher salt or 1/4 tsp fine salt
+  - 1/4 tsp fine salt
   - 1 tbsp olive oil
   - '15 g fresh cilantro leaves and tender stems, finely chopped'
   - 1 tsp finely grated lime zest

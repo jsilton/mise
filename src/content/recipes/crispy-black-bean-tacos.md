@@ -52,7 +52,7 @@ ingredients:
   - 2 tbsp chopped cilantro
   - '1 small garlic clove, finely grated'
   - '2 tbsp water, plus 1 tbsp only if needed to loosen'
-  - '1/4 tsp Diamond Crystal kosher salt or 1/8 tsp fine salt, only if needed'
+  - '1/8 tsp fine salt, only if needed'
   - '--- To serve ---'
   - '12 small soft corn tortillas, about 5 inches across'
   - '200 g green cabbage, finely shredded'

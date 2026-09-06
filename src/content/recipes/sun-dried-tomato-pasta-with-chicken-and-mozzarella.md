@@ -40,9 +40,9 @@ ingredients:
   - '1/4 tsp red pepper flakes, or less to taste'
   - 1/4 tsp paprika
   - '3 cloves garlic, minced'
-  - '1/2 tsp Diamond Crystal kosher salt or 1/4 tsp fine salt, for chicken'
+  - '1/4 tsp fine salt, for chicken'
   - 2 liters water for boiling pasta
-  - '1 tbsp Diamond Crystal kosher salt or 1 1/2 tsp fine salt, for pasta water'
+  - '1 1/2 tsp fine salt, for pasta water'
   - '1 cup (240 ml) pasta cooking water, reserved before draining and added only as needed'
 origin: Italian-American-inspired home cooking
 description: >-

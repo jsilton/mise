@@ -56,7 +56,7 @@ ingredients:
   - 1 tbsp pomegranate molasses
   - '1 small clove garlic, finely grated'
   - '1 tsp ground sumac, for the dressing'
-  - 1 tsp Diamond Crystal kosher salt or 1/2 tsp fine salt
+  - 1/2 tsp fine salt
   - 1/4 tsp black pepper
 description: >-
   Fresh vegetables, herbs, sumac, and crisp toasted pita with a lemon-pomegranate dressing. Add

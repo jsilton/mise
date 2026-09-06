@@ -55,7 +55,7 @@ ingredients:
   - '4 cloves garlic, lightly crushed'
   - 'Optional: 1 whole Scotch bonnet pepper, left unpierced; keep whole at any batch size'
   - 1 tsp ground allspice
-  - '1 1/2 tsp Diamond Crystal kosher salt or 3/4 tsp fine salt, divided'
+  - '3/4 tsp fine salt, divided'
   - 1/2 tsp ground black pepper
   - '1 tbsp coconut oil, optional'
 description: >-
@@ -148,7 +148,7 @@ This version of Jamaican rice and peas uses red kidney beans. Cook the beans ful
 
 1. **Soak dried beans:** Sort and rinse dried kidney beans. Cover generously with water and soak in the refrigerator for about 8 hours or overnight. Drain and discard soaking water. If using canned beans, drain, rinse, weigh 500 g, and skip to step 3.
 2. **Boil, then finish beans:** Put soaked beans in a large pot with 1.5 liters fresh water, adding more if needed to cover them by about 2 inches. Bring to a full rolling boil and maintain it for at least 30 minutes. Add boiling water as needed to keep beans submerged. Then reduce to a simmer and cook until fully tender throughout, often another 30–60 minutes. Do not taste before completing the full boiling stage. Drain, reserving at least 320 ml cooking liquid; measure exactly 320 ml for the rice, topping up with water if needed.
-3. **Infuse the measured liquid:** In a heavy 3–4 quart pot, combine cooked beans, coconut milk, the measured 320 ml bean liquid or water, scallions, thyme, garlic, allspice, black pepper, optional coconut oil, and one teaspoon of the measured Diamond Crystal salt (or one-half teaspoon fine salt). Add the optional intact Scotch bonnet. Bring to a gentle simmer, cover, and cook 5 minutes.
+3. **Infuse the measured liquid:** In a heavy 3–4 quart pot, combine cooked beans, coconut milk, the measured 320 ml bean liquid or water, scallions, thyme, garlic, allspice, black pepper, optional coconut oil, and one-half teaspoon of the measured fine salt. Add the optional intact Scotch bonnet. Bring to a gentle simmer, cover, and cook 5 minutes.
 4. **Add rice:** Carefully lift out the chile to a small dish while stirring drained rice evenly into the pot; then place the intact chile back on top. Return to a gentle simmer, cover tightly, and reduce to low.
 5. **Cook and rest:** Cook about 18–22 minutes, until rice is tender and free liquid has absorbed. Make one brief check near the end; use the hot-water correction if the pot is dry but rice is hard. Take off the heat and rest covered for 10 minutes.
 6. **Finish:** Carefully remove the whole chile, thyme stems, and scallions. Fluff gently without crushing beans. Taste and add the remaining salt only if needed, especially with salted canned beans. Serve as six to eight side portions.

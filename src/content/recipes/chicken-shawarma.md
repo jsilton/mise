@@ -34,7 +34,7 @@ ingredients:
   - 1 tsp ground turmeric
   - 1/2 tsp ground cinnamon
   - 1/2 tsp smoked paprika
-  - 1 1/2 tsp Diamond Crystal kosher salt or 3/4 tsp fine salt
+  - 3/4 tsp fine salt
   - 1/4 tsp black pepper
   - '1/2 cup prepared [Tahini Sauce](/mise/recipes/tahini-sauce)'
 origin: Middle East

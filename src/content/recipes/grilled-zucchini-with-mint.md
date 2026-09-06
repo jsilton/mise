@@ -41,7 +41,7 @@ ingredients:
     680 g small-to-medium zucchini, trimmed and sliced lengthwise into 3/8-inch
     planks
   - '2 tbsp olive oil, divided between cooking and finishing'
-  - 1/2 tsp Diamond Crystal kosher salt or 1/4 tsp fine salt
+  - 1/4 tsp fine salt
   - 1/4 tsp ground black pepper
   - '2 tbsp fresh mint leaves, torn'
   - '1 tbsp fresh lemon juice, plus 1 tsp more only if needed'

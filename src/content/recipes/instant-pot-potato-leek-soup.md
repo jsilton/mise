@@ -1,5 +1,5 @@
 ---
-title: Instant Pot Potato Leek Soup
+title: Pressure-Cooker Potato Leek Soup
 difficulty: easy
 cookingMethods:
   - saute
@@ -56,7 +56,9 @@ This modern update to my Grandpa's recipe achieves silky texture by sautéing le
 
 ## Directions
 
-1.  **The Sweat:** Set Instant Pot to "Sauté." Add butter and olive oil. Once hot, add leeks and sauté for 5-7 minutes cook until golden brown and softened. Do not brown.
+Use an electric pressure cooker with a sauté setting. Follow its minimum-liquid, maximum-fill and pressure-release instructions; these depend on the model.
+
+1.  **The Sweat:** Set electric pressure cooker to "Sauté." Add butter and olive oil. Once hot, add leeks and sauté for 5-7 minutes cook until golden brown and softened. Do not brown.
 2.  **Aromatics:** Add garlic and sauté for 30 seconds. Sprinkle the flour over the leeks and stir for 1 minute to cook out the raw starch taste.
 3.  **Deglaze:** Pour in the broth slowly, scraping the bottom of the pot to ensure no flour sticks.
 4.  **Pressure:** Add potatoes, bay leaf, nutmeg, salt, and pepper. Secure the lid. Set to **High Pressure for 7 minutes**.
@@ -64,4 +66,3 @@ This modern update to my Grandpa's recipe achieves silky texture by sautéing le
 6.  **The Emulsion:** Remove the bay leaf. Use an immersion blender to puree the soup directly in the pot until perfectly smooth.
 7.  **Finish:** Stir in the half-and-half. Taste and adjust salt if needed.
 8.  **Serve:** Garnish with a dollop of sour cream and fresh chives for **Textural Balance**.
-

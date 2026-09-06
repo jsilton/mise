@@ -53,7 +53,7 @@ This traditional applesauce appears on Jewish holiday tables for Rosh Hashanah, 
 ## Directions
 
 1.  **Prep:** Core and peel the apples. Cut into large chunks.
-2.  **The Rinse:** Place apple chunks in a heavy nonstick pot (like a Le Creuset). Fill with water, rinse, and repeat, leaving about 1/4 inch of water at the bottom of the pot.
+2.  **The Rinse:** Place apple chunks in a heavy nonstick pot. Fill with water, rinse, and repeat, leaving about 1/4 inch of water at the bottom of the pot.
 3.  **Season:** Squeeze the lemon over the apples. Add the honey, sugar, cinnamon, and nutmeg.
 4.  **Boil:** Bring to a boil over high heat. Immediately cover and reduce heat to **very low**.
 5.  **Simmer:** Cook for 20-25 minutes, stirring occasionally. The apples should be very soft and falling apart.

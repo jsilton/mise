@@ -32,7 +32,7 @@ ingredients:
   - '--- Wings ---'
   - '1.35 kg (3 lb) chicken wing drumettes and flats, fully thawed, tips excluded'
   - '1 tbsp aluminum-free baking powder, not baking soda'
-  - 1 tsp Diamond Crystal kosher salt or 1/2 tsp fine salt
+  - 1/2 tsp fine salt
   - '2 tsp neutral oil, for lightly greasing the racks'
   - '--- Lemon pepper butter ---'
   - 4 tbsp (57 g) unsalted butter
@@ -40,7 +40,7 @@ ingredients:
   - 1 tbsp fresh lemon juice
   - 2 tsp coarsely ground black pepper
   - 1/2 tsp garlic powder
-  - '1/4 tsp Diamond Crystal kosher salt or 1/8 tsp fine salt, only if needed'
+  - '1/8 tsp fine salt, only if needed'
   - '--- Finish ---'
   - 2 tbsp chopped fresh parsley
   - '1 lemon, cut into wedges, optional'

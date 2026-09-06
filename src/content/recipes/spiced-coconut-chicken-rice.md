@@ -32,7 +32,7 @@ ingredients:
   - '2 cloves garlic, minced'
   - 1 tsp ground turmeric
   - '1/4 tsp cayenne pepper, or less to taste'
-  - '1 1/2 tsp Diamond Crystal kosher salt or 3/4 tsp fine salt, divided'
+  - '3/4 tsp fine salt, divided'
   - '200 g kale leaves, tough stems removed, cut into thin ribbons'
   - '1 lime, cut into wedges'
   - '2 tbsp drained sliced pickled red chiles, optional'

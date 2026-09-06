@@ -56,7 +56,7 @@ ingredients:
   - 75 g frozen peas
   - '--- Chicken cutlets ---'
   - '4 boneless skinless chicken breast portions, about 6 oz (170 g) each'
-  - 1 tsp Diamond Crystal kosher salt or 1/2 tsp fine salt
+  - 1/2 tsp fine salt
   - 1/2 tsp ground black pepper
   - '60 g all-purpose flour, for coating chicken'
   - '2 large eggs, beaten'

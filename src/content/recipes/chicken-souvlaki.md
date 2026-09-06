@@ -29,7 +29,7 @@ ingredients:
   - 2 tbsp fresh lemon juice
   - 1 tbsp dried oregano
   - '3 cloves garlic, finely grated'
-  - 1 1/2 tsp Diamond Crystal kosher salt or 3/4 tsp fine salt
+  - 3/4 tsp fine salt
   - 1/2 tsp black pepper
   - '1 tsp neutral oil, for brushing the grill grates'
   - '1/2 lemon, cut into wedges'

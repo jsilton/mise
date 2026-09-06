@@ -39,12 +39,12 @@ ingredients:
   - '2 tbsp olive oil, divided'
   - 1/2 cup (30 g) finely grated Parmesan
   - '2 large eggs, beaten'
-  - '1/2 tsp Diamond Crystal kosher salt or 1/4 tsp fine salt, for the chicken'
+  - '1/4 tsp fine salt, for the chicken'
   - 1/4 tsp black pepper
   - '1 1/2 cups (360 ml) marinara sauce, divided'
   - '6 oz (170 g) low-moisture mozzarella, thinly sliced'
   - 8 oz (225 g) dried spaghetti or rigatoni
-  - '1 tbsp Diamond Crystal kosher salt or 1 1/2 tsp fine salt, for 3 quarts pasta water'
+  - '1 1/2 tsp fine salt, for 3 quarts pasta water'
   - 2 tbsp torn fresh basil
 origin: Italian-American
 description: >-

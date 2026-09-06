@@ -31,7 +31,7 @@ pairsWith:
 ingredients:
   - 2 oz rye whiskey (or bourbon for a sweeter Manhattan)
   - 1 oz sweet vermouth
-  - 2 dashes Angostura bitters
+  - 2 dashes aromatic bitters
   - Ice for stirring
   - Maraschino cherry for garnish
   - Orange peel (optional)

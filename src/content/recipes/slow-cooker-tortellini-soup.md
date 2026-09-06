@@ -32,7 +32,7 @@ ingredients:
   - '6 cups (1.44 liters) low-sodium chicken broth, divided'
   - '2 cans (14.5 oz / 411 g each) petite diced tomatoes, with juices'
   - 1/2 tsp ground black pepper
-  - '1 tsp Diamond Crystal kosher salt or 1/2 tsp fine salt, added gradually only if needed'
+  - '1/2 tsp fine salt, added gradually only if needed'
   - 500 g frozen cheese tortellini
   - '3 liters water, for cooking tortellini'
   - '140 g fresh spinach, washed, thick stems removed'

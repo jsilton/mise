@@ -35,11 +35,11 @@ ingredients:
   - 1 tbsp Worcestershire sauce
   - 1 tbsp ketchup
   - 1 tbsp soy sauce
-  - '1 tsp Diamond Crystal kosher salt or 1/2 tsp fine salt, plus more only if needed'
+  - '1/2 tsp fine salt, plus more only if needed'
   - '--- Curry roux ---'
   - 70 g unsalted butter
   - 70 g all-purpose flour
-  - '3 tbsp Japanese curry powder, such as S&B'
+  - '3 tbsp Japanese curry powder'
   - 1 tsp garam masala
 seasons:
   - year-round

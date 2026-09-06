@@ -36,7 +36,7 @@ ingredients:
   - '1/2 cup Celery, finely diced'
   - '2/3 cup Red Grapes, quartered'
   - '1/4 cup Red Onion, finely minced (the crunch)'
-  - 1/2 cup Mayonnaise (Duke’s or Hellmann’s)
+  - 1/2 cup mayonnaise
   - 1 tbsp Fresh Lemon Juice (The Acid Balance)
   - 1/2 tsp Sea Salt
   - 1/4 tsp Black Pepper

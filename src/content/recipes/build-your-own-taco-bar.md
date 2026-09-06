@@ -43,7 +43,7 @@ ingredients:
   - 1 tsp ground cumin
   - '1/4 cup (60 ml) low-sodium chicken broth, plus up to 1/4 cup (60 ml) only if needed'
   - '1 tbsp fresh lime juice, added gradually to taste'
-  - '1 tsp Diamond Crystal kosher salt or 1/2 tsp fine salt, only if needed'
+  - '1/2 tsp fine salt, only if needed'
   - '--- Tortillas and fresh toppings ---'
   - '18 small soft corn or flour tortillas, about 5–6 inches across, total across both types'
   - '300 g red cabbage, finely shredded'

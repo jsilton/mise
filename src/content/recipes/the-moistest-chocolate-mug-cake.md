@@ -32,7 +32,7 @@ ingredients:
   - 1/4 tsp Baking Powder
   - 1/4 cup + 1 tbsp Milk
   - 2 tbsp Vegetable Oil
-  - 1 tbsp Hazelnut Chocolate Spread (Nutella)
+  - 1 tbsp chocolate-hazelnut spread
   - Pinch of Sea Salt
 origin: United States
 pairsWith:
@@ -53,6 +53,7 @@ nutrition:
 ## Chef's Note
 
 Mug cakes are a modern microwave technique, but this one works because it respects the physics: oil keeps the crumb moist, cocoa powder blooms with milk, and a hazelnut center stays molten while the surrounding cake sets. Seventy seconds is precise because microwave power varies - you're aiming for a cake that rises high, sinks slightly, then holds that barely-set center.
+
 ## Directions
 
 1.  **Dry Mix:** In a large (14 oz) microwave-safe mug, whisk flour, cocoa, sugar, baking powder, and salt.

@@ -38,9 +38,9 @@ pairsWith:
 ingredients:
   - 2 oz rye whiskey (or Cognac for the original recipe)
   - 1/4 oz simple syrup
-  - 3 dashes Peychaud's bitters
-  - '1-2 dashes Angostura bitters (optional, but traditional)'
-  - Absinthe or Herbsaint for rinsing
+  - 3 dashes New Orleans-style anise-forward bitters
+  - '1-2 dashes aromatic bitters (optional, but traditional)'
+  - Absinthe or dry anise-flavored spirit for rinsing
   - Lemon peel for garnish
   - Ice
 origin: United States

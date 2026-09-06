@@ -35,7 +35,7 @@ ingredients:
   - 1 tsp dried oregano
   - 1/2 tsp ground coriander
   - 1/2 tsp ground black pepper
-  - '1 tsp Diamond Crystal kosher salt or 1/2 tsp fine salt, added gradually only if needed'
+  - '1/2 tsp fine salt, added gradually only if needed'
   - 1/2 cup (120 g) full-fat sour cream
   - '2 tbsp fresh lime juice, added gradually to taste'
   - '2 scallions, thinly sliced'

@@ -57,7 +57,7 @@ nutrition:
 
 ## Chef's Note
 
-Korma is traditionally a thick, rich braise rather than a watery curry. Whisking almond meal into coconut milk introduces nutty starch that thickens the sauce and prevents it from separating during long slow-cooking. Using large cauliflower florets ensures they stay tender with some bite even after 5 hours in the crockpot, rather than dissolving into mush.
+Korma is traditionally a thick, rich braise rather than a watery curry. Whisking almond meal into coconut milk introduces nutty starch that thickens the sauce and prevents it from separating during long slow-cooking. Using large cauliflower florets ensures they stay tender with some bite even after 5 hours in the slow cooker, rather than dissolving into mush.
 
 ## Directions
 

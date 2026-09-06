@@ -1,5 +1,5 @@
 ---
-title: Oreo Truffles
+title: Chocolate Sandwich Cookie Truffles
 difficulty: easy
 cookingMethods:
   - simmer
@@ -35,10 +35,10 @@ cookTime: 0 min
 totalTime: 80 min
 servings: 42 truffles
 ingredients:
-  - 1 pkg (16 oz) Oreo Cookies
+  - 16 oz cream-filled chocolate sandwich cookies
   - '1 pkg (8 oz) Cream Cheese, softened'
   - '16 oz Semi-Sweet Baking Chocolate, melted'
-  - Reserved Oreo Crumbs
+  - Reserved cookie crumbs
   - Flaky Sea Salt (Optional)
 origin: United States
 pairsWith:
