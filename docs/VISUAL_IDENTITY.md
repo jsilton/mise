@@ -71,3 +71,15 @@ The unlisted lemon wedge is removed. Foreground cut stems and browned crowns rem
 The image still has slightly warm baked-in paper and a visible rectangular boundary under multiply blending, especially on Sage. This publication improves recipe fidelity and selective rendering; it does not complete seamless paper compositing, the editable SVG direction, or the actual-photo workflow. The mint SVG refinement remains experimental because its larger, clearer subject still looks digitally sculpted.
 
 Selected source: `public/images/dishes/crispy-parmesan-roasted-broccoli-watercolor-v2.png`, 1536 × 1024. Original built-in output SHA-256: `5d80a889beaf05511da4dceeab1ab74d4792cb8ecb1d5a98f140d67826627ef7`. The shared dish map selects the matching WebP for both recipe pages and the style guide; the original SVG study is unchanged.
+
+## Three paintings: neutral margins and food texture
+
+The shared recipe/gallery map now selects Alfredo v2, broccoli v3 and dal v2. Each PNG is unchanged output from the built-in image tool; WebP companions are format conversions. Previous versions remain available. Exact edit prompts are recorded in `docs/art-prompts/*-watercolor-white-matte.txt` and `dal-watercolor-texture.txt`.
+
+Near-white outer margins replace the warm rectangular paper field. Existing multiply compositing lets these margins blend more closely with all three site palettes. These are RGB images, not transparent cutouts or mathematically exact paper-color matches. Root compared before/after pairs on Porcelain, Sage and Rose: the cream rectangle is substantially reduced. Dal retains a little shadow variation near the lower margin. No new yellow UI surface is introduced.
+
+Alfredo loses the large cheese shavings in favor of a thin coating on flat pasta ribbons. Dal now shows creamy softened split mung, small spice marks and four broken chile pieces, instead of large intact grain discs and two whole chiles. Broccoli retains the previously accepted finely grated Parmesan, branching stems and selective edges. The illustrations express ingredients and texture, not measured portions or kitchen-test evidence.
+
+Two intermediate outputs were held: an attempted transparent broccoli output painted a checkerboard into an RGB file, and the first revised dal had oversized rounded grain clumps. Neither is installed. The transparent request is retained as a failed prompt record. The final selected files were visually inspected and decoded at 1536 × 1024 in the actual gallery and recipe pages. Browser checks cover three persistent palettes, mobile width, print titles and page errors. The complete 29-check QA and 731-page internal link check pass.
+
+Selected Alfredo PNG SHA-256: `9cf0eba8992efc6bcf9b3baab2d07de0c5db52715f9336f44a65789d57cacac2`. Selected dal PNG SHA-256: `698751f281b05aa481d3f37b30b6b8bee3edfd9d5a45ea002dfdf5056898f124`. This improves the existing raster paintings; the editable SVG direction and actual-dish-photo workflow remain unfinished.
