@@ -1,11 +1,11 @@
 {
   "summary": {
     "recipes": 605,
-    "editoriallyReviewed": 148,
+    "editoriallyReviewed": 150,
     "kitchenTested": 0,
     "errors": 0,
     "priorityReviews": 0,
-    "reviewItems": 907
+    "reviewItems": 903
   },
   "limitations": "Automated triage only. Does not establish culinary quality, food safety, source validity, or kitchen testing.",
   "recipes": [
@@ -490,38 +490,16 @@
     {
       "slug": "beef-and-broccoli-stir-fry",
       "title": "Beef and Broccoli Stir-Fry",
-      "status": "collection",
-      "stepCount": 7,
-      "issues": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ]
+      "status": "editorial-review",
+      "stepCount": 6,
+      "issues": []
     },
     {
       "slug": "beef-chow-fun",
       "title": "Beef Chow Fun",
-      "status": "collection",
+      "status": "editorial-review",
       "stepCount": 7,
-      "issues": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ]
+      "issues": []
     },
     {
       "slug": "beef-tenderloin-dogs-with-corn-relish",
