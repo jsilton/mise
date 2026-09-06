@@ -75,6 +75,20 @@ test('yield scaling handles portions and ranges without changing pan dimensions'
     'Original yield: 5 (about 24 meatballs) · 2× ingredients'
   );
 });
+test('roll yields scale both roll and cut-piece counts without scaling dimensions', () => {
+  assert.equal(formatYield('4 rolls (32 pieces)', 0.5), '2 rolls (16 pieces)');
+  assert.equal(formatYield('4 rolls (32 pieces)', 2), '8 rolls (64 pieces)');
+  assert.equal(formatYield('2 rolls (16 pieces)', 0.5), '1 roll (8 pieces)');
+  assert.equal(
+    formatYield('1 roll (8 pieces)', 0.5),
+    'Original yield: 1 roll (8 pieces) · 0.5× ingredients'
+  );
+  assert.equal(
+    formatYield('4 rolls (19 cm each)', 2),
+    'Original yield: 4 rolls (19 cm each) · 2× ingredients'
+  );
+  assert.equal(formatYield('4 rolls (32 pieces)', NaN), 'Original yield: 4 rolls (32 pieces)');
+});
 test('duration parsing handles hours and declines ambiguous timing', () => {
   assert.equal(timeToMinutes('1 hr 30 min'), 90);
   assert.equal(timeToMinutes('3.5 hr'), 210);

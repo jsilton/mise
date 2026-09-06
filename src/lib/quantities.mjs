@@ -91,6 +91,17 @@ export function scaleIngredient(text, factor) {
 // Scale a clearly stated yield, but never multiply pan dimensions or silently
 // leave a second yield (e.g. "4 servings / 24 meatballs") at its original size.
 export function formatYield(text, factor = 1) {
+  if (!Number.isFinite(factor) || factor <= 0) return `Original yield: ${text}`;
+  // Roll and piece counts describe the same batch; scale both while keeping
+  // dimensions and ambiguous parenthetical yields on the original-yield path.
+  const rolls = text.match(/^(\d+) rolls? \((\d+) pieces?\)$/i);
+  if (rolls && Number.isFinite(factor) && factor > 0) {
+    const count = Number(rolls[1]) * factor;
+    const pieces = Number(rolls[2]) * factor;
+    if (count > 0 && pieces > 0 && Number.isInteger(count) && Number.isInteger(pieces)) {
+      return `${count} ${count === 1 ? 'roll' : 'rolls'} (${pieces} ${pieces === 1 ? 'piece' : 'pieces'})`;
+    }
+  }
   const match = text.match(leading);
   const suffix = match ? text.slice(match[0].length) : '';
   const simple = match && !/\d|[¼½¾⅓⅔⅛⅜⅝⅞]/.test(suffix);
