@@ -1,9 +1,9 @@
 {
   "originalMeals": 88,
   "currentMeals": 87,
-  "individuallyReviewed": 26,
+  "individuallyReviewed": 27,
   "consolidatedAfterReview": 1,
-  "pending": 61,
+  "pending": 60,
   "kitchenTested": 0,
   "records": [
     {
@@ -290,7 +290,13 @@
     },
     {
       "slug": "quick-chicken-dinner",
-      "status": "pending"
+      "status": "editorial-review",
+      "record": "docs/meal-reviews/quick-chicken-dinner.md",
+      "components": [
+        "buttermilk-baked-chicken",
+        "perfect-mashed-potatoes",
+        "green-beans-with-shallots-and-lemon"
+      ]
     },
     {
       "slug": "quick-wonton-soup-supper",
