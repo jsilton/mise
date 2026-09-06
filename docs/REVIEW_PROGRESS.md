@@ -726,3 +726,15 @@ Updated the three shared dish paintings after root comparison with their complet
 All 29 QA checks pass. Root browser checks passed all three recipe/gallery images, full decoding, palette persistence, mobile width, print and no page errors. Root visually inspected before/after palette comparisons and mobile dal. Culinary coverage is unchanged.
 
 Saffron rice/dal dinner batch b096c98bf411e022b1f2b0f08d6fdec17a52f4a9 deployed successfully in Pages run 34044358940. Root live checks passed the rice quantities/scaling, complete dinner components and four/five-person schedules, calendar alignment, cook mode and mobile/print.
+
+## Forty-fifth culinary batch: saag paneer and its complete dinner
+
+Reviewed the full inherited and current saag, its deliberate June formula change, the actual palak deletion/redirect, the complete dinner and its rice/raita dependencies. Preserved the chopped-spinach identity, paneer, cream, all main ghee and full fenugreek. Fresh spinach now has a net trimmed weight; the frozen option has a separate cooked-and-drained method and is not falsely described as an exact weight conversion. All process water, seasoning, optional chile ghee and sauce reserve have destinations. Light two-face browning, a bounded soak and moist greens replace exaggerated texture guarantees.
+
+The dinner supplies a full saag with half plain rice and half raita for four, complete practical amounts for five and a 95-minute two-burner schedule. It includes the actual blanching, browning, rice rest, raita preparation and a separate prepared-main route. Independent review corrected scaled ghee/water and frozen substitution language. Root accepted the complete versions and added quarter-batch pan and cold-bath guidance. Historical palak had distinct tomato/yogurt ingredients; retaining its existing redirect is not a new consolidation claim. No calendar requires a change.
+
+Coverage: 163 reviewed original recipes + nine consolidations + 440 pending = 612. Two additional reviewed recipes yield 165 reviewed canonical recipes among 605. Meals: 35 reviewed, two consolidations and 51 pending of 88 originals; 86 canonical meals. All eleven calendars remain pending. No physical kitchen tests.
+
+Verification: all 29 QA checks pass and 731 built pages have valid destinations and anchors. Browser checks passed half/quarter/double/reset, scaled equivalent weights, full ghee/cream and measured process liquid, inline cues, removed panels and footer policy link; exact dinner components and four/five-person quantities, prepared route, mobile width, cook mode and print. Root inspected the mobile five-person plan. One browser expectation was corrected from “lbs” to the existing “lb” abbreviation; no quantity defect was found.
+
+Painting batch eccbfbf9da79cf3b341718c85d6bea181a23ec69 deployed successfully in Pages run 34045581938. Live browser checks passed all three updated recipe/gallery images, decoding, three persistent palettes, mobile/print and absence of page errors.

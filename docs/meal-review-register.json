@@ -1,9 +1,9 @@
 {
   "originalMeals": 88,
   "currentMeals": 86,
-  "individuallyReviewed": 34,
+  "individuallyReviewed": 35,
   "consolidatedAfterReview": 2,
-  "pending": 52,
+  "pending": 51,
   "kitchenTested": 0,
   "records": [
     {
@@ -322,7 +322,9 @@
     },
     {
       "slug": "saag-paneer-dinner",
-      "status": "pending"
+      "status": "editorial-review",
+      "record": "docs/meal-reviews/saag-paneer-dinner.md",
+      "components": ["saag-paneer", "basmati-rice", "cucumber-raita"]
     },
     {
       "slug": "salmon-bowl-night",

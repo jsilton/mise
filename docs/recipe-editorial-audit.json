@@ -1,11 +1,11 @@
 {
   "summary": {
     "recipes": 605,
-    "editoriallyReviewed": 164,
+    "editoriallyReviewed": 165,
     "kitchenTested": 0,
     "errors": 0,
     "priorityReviews": 0,
-    "reviewItems": 876
+    "reviewItems": 874
   },
   "limitations": "Automated triage only. Does not establish culinary quality, food safety, source validity, or kitchen testing.",
   "recipes": [
@@ -6682,20 +6682,9 @@
     {
       "slug": "saag-paneer",
       "title": "Saag Paneer",
-      "status": "collection",
+      "status": "editorial-review",
       "stepCount": 7,
-      "issues": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ]
+      "issues": []
     },
     {
       "slug": "saffron-cardamom-rice",
