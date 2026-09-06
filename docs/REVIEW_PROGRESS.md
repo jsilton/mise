@@ -33,7 +33,7 @@ The user additionally requires a real mark/logo and a coherent visual style for 
 
 ## Latest visual steering
 
-User rejected the bowl/m mark: **mise.** alone is the logo. User prefers airy watercolor interpretations of photographs, supplied six reference attachments (five distinct images), and requested alternatives to the yellow-heavy palette. New style-guide page offers Porcelain & Ink, Sage & Graphite, and Rose & Slate across the whole site. No user palette selection yet; Porcelain is the working default. Three generated watercolor paintings are live (pasta, broccoli, dal), with WebP delivery and retained PNGs. The earlier geometric SVGs are development assets, no longer rendered in recipe pages. A soft photographic wash filter, local comparison and matching PNG export work. Three original editable SVG studies are now available for comparison and download; a finer watercolor finish and collection-wide SVG coverage remain unfinished. See docs/VISUAL_IDENTITY.md.
+User rejected the bowl/m mark: **mise.** alone is the logo. User prefers airy watercolor interpretations of photographs, supplied six reference attachments (five distinct images), and requested alternatives to the yellow-heavy palette. New style-guide page offers Porcelain & Ink, Sage & Graphite, and Rose & Slate across the whole site. No user palette selection yet; Porcelain is the working default. Three generated watercolor paintings are live (pasta, broccoli, dal), with WebP delivery and retained PNGs. The earlier geometric SVGs are development assets, no longer rendered in recipe pages. A soft photographic wash filter, local comparison and matching PNG export work. Four original editable SVG studies are now available for comparison and download; a finer watercolor finish and collection-wide SVG coverage remain unfinished. See docs/VISUAL_IDENTITY.md.
 
 ## Early-batch historical notes
 
@@ -506,3 +506,13 @@ Coverage: 139 reviewed original recipes + nine considered consolidations + 464 p
 Mint tzatziki extraction deployed at ace52f06ea5a3f9b28dff930263801e00635e056 in successful GitHub Pages run 34033187430. Production verified the standalone seven ingredients, original oil and honey amounts, scaled ingredients/yield, one linked burger sauce, two-component meal with original sauce storage date, and clearly distinguished dill variant. Mobile/desktop and print-title checks passed.
 
 Thirty-second-batch verification: all 29 QA checks and 26 focused tests pass; the 730-page build has zero missing destinations or anchors. Browser checks passed recipe attribution, product-specific elapsed time, measured ingredients and half quantities; the reviewed two-component dinner, separate servings and skillet workflow; and visible print titles with no overflow or page errors at 390 px and 1440 px. Direct browser checks also confirm optional milk and chile allowances scale consistently with their primary amounts. Mobile and desktop meal screenshots were visually inspected.
+
+## Fourth editable visual study
+
+Added a mint-tzatziki SVG study to the style guide’s drawing gallery, with a separate study-only entry so it does not enable nonexistent recipe paintings. Root reviewed two versions; the revision strengthens selected cucumber/mint marks and gives the yogurt more irregular folds and edges. The gallery uses two columns for the four drawings and one on narrow screens. The asset has seven named editable layers, transparent paper by default and no embedded raster or active script. Its deterministic authoring source is retained.
+
+This is a working vector study, still more constructed than the user's watercolor references. It has no extra garnish and is not a photograph or kitchen-test evidence. Existing paintings and recipe artwork remain intact.
+
+The shrimp batch deployed successfully at 8434f6f8b2c37c11f9b7b0cf9da23649d089d154 (GitHub Pages run 34033777638); production verified the reviewed main/dinner, portions and optional milk/chile scaling.
+
+Mint-study verification: all 29 QA checks pass. Chrome confirmed four SVG studies alongside three paintings, a working download and recipe link, seven named layers, hidden paper and no embedded images/scripts. The study renders in all three palettes and at 390 px with no overflow or page errors, remains visible in print, and does not enable artwork on the mint recipe page. Root visually inspected gallery-sized Porcelain, Sage, Rose and mobile screenshots. The initial image check ran before lazy loading began; waiting for the actual image resolved it, with no SVG decoding defect found.
