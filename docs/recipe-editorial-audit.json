@@ -1,11 +1,11 @@
 {
   "summary": {
     "recipes": 605,
-    "editoriallyReviewed": 154,
+    "editoriallyReviewed": 156,
     "kitchenTested": 0,
     "errors": 0,
     "priorityReviews": 0,
-    "reviewItems": 895
+    "reviewItems": 891
   },
   "limitations": "Automated triage only. Does not establish culinary quality, food safety, source validity, or kitchen testing.",
   "recipes": [
@@ -447,20 +447,9 @@
     {
       "slug": "banana-pudding",
       "title": "Banana Pudding",
-      "status": "collection",
-      "stepCount": 7,
-      "issues": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ]
+      "status": "editorial-review",
+      "stepCount": 5,
+      "issues": []
     },
     {
       "slug": "basmati-rice",
@@ -5651,20 +5640,9 @@
     {
       "slug": "oreo-chocolate-cream-cheesecake",
       "title": "Chocolate Sandwich Cookie Cheesecake",
-      "status": "collection",
+      "status": "editorial-review",
       "stepCount": 7,
-      "issues": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ]
+      "issues": []
     },
     {
       "slug": "overnight-oats",

@@ -1,0 +1,67 @@
+# Banana Pudding — individual source and culinary review
+
+Proposal only, 2026-09-06. Baseline HEAD `ebafdd4df773a806310a2537ed6e11377ec35749`; no physical kitchen test performed. The complete current baseline, earliest saved HTML and readable text are under `../originals/`. The full proposed recipe is `../recipes/banana-pudding.md`. Root explicitly confirmed restoring the recovered defining formula after receiving the source finding.
+
+## Source recovery and identity decision
+
+The earliest tracked HTML is in commit `b7ae012d`, `My Recipes/Recipes/Banana Pudding.html`; the same source survives immediately before the Astro migration `045e5ba2`. Its source field names **Bette Lordeman**. It specifies 1 1/2 cups milk, one small banana-creme instant pudding box, one small vanilla instant pudding box, one can sweetened condensed milk, one large container of whipped topping divided in half, one teaspoon vanilla, a box of vanilla wafers and three bananas. Mix the puddings with milk, add condensed milk/half the topping/vanilla, layer with wafers and bananas, then top with the other half and crumbs. No eggs, saucepan or cooked custard appear.
+
+Migration `045e5ba2` retained the formula but dropped Bette's author field. Commit `9002a113` replaced it with a “Scratch Standard” custard: doubled milk, added sugar/cornstarch/yolks/butter, tripled vanilla, added a fourth banana and replaced the topping with heavy cream. That was a different dessert, justified by an unsupported superiority claim about “real” pudding. It also introduced the nonsensical phrase “egg-free texture.” Later copy/tag changes did not recover the author or original food. The present egg-free tag is wrong for its yolk-containing custard and still cannot be retained automatically after restoring the no-added-egg formula because the wafers can contain egg.
+
+The proposal restores Bette Lordeman's cold instant-pudding/condensed-milk identity without inventing a family relationship or claiming the package sizes were recovered. Public source is simply Bette Lordeman; public prose describes the dessert. The cooked custard is not spun off into an unasked new recipe or called a duplicate.
+
+## Package and ratio decisions
+
+Original terms “small,” “can,” “large,” and “box” did not carry net weights. Historical recipe text establishes their roles and relative amounts, not exact SKU or vintage package size. The following are **specified working choices**, not recovered historical facts:
+
+| Element            | Proposal                                                                                                           | Basis / limit                                                                                                                                                                                                              |
+| ------------------ | ------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Milk               | 1 1/2 cups / 360 ml cold whole milk                                                                                | Preserves source volume; whole milk is a richness choice because original says only milk.                                                                                                                                  |
+| Both pudding mixes | One 3.4 oz / 96 g packet of each flavor, sugar-sweetened instant, four-serving strength intended for two cups milk | Current US manufacturer product pages identify the small packets; vanilla explicitly gives two-cup milk preparation. Canadian 102 g packets and sugar-free small packets have different formulas; not silently equivalent. |
+| Condensed milk     | 14 oz / 396 g sweetened condensed milk                                                                             | Common specified can in manufacturer's layered-pudding recipe; not evaporated milk. Exact Bette can was not stated.                                                                                                        |
+| Whipped topping    | 16 oz / 454 g frozen stabilized topping, refrigerator-thawed; 227 g inside and 227 g top                           | Current producer identifies the large tub and refrigerator-thaw schedule. Original large tub's historical mass is unproven. Do not silently replace with an equal weight of liquid heavy cream.                            |
+| Wafers             | 11 oz / 311 g; 20 g garnish and 291 g layers                                                                       | Manufacturer lists this current package size as well as a larger package. This is an explicit, plausible full-box working quantity, not evidence of the original box.                                                      |
+| Bananas            | Three medium, about 360 g peeled                                                                                   | Keeps source count; net weight is a planning estimate to constrain banana-size variation.                                                                                                                                  |
+| Vanilla            | One teaspoon                                                                                                       | Restores source volume.                                                                                                                                                                                                    |
+
+Two 96 g mixes in only 360 ml milk is a concentrated, sweet base. Do **not** expand it to the four cups used for separate servings of the two powders: condensed milk and topping are then added. At least roughly 144 g sugar is already present in the two reference powders before condensed milk, topping and wafers. This is deliberately rich; no sugar, fat or ingredient reduction is made for dietary reasons. The exact firmness with the chosen packets is a high-priority kitchen question. The method adds powders gradually to cold milk, then blends the measured condensed milk before folding, preserving original order and avoiding a five-minute pause that might make this concentrated base harder to mix.
+
+The current condensed-milk producer's comparable dessert supports the general cold-pudding/fold/layer technique but uses one vanilla mix, water and whipped cream. It does not validate Bette's two-flavor ratio. A separate producer banana-pudding recipe uses two 3.4 oz packets with three cups milk and no condensed milk. That demonstrates reduced-milk layered pudding as a real category, not that its ratio should replace this source.
+
+## Portions, dish and full schedule
+
+Listed ingredients total about 2.1 kg before minor bowl losses. Twelve dessert portions are about 170–175 g each; no exact cup yield is promised because topping aeration and wafer voids matter. A four-quart serving bowl is a conservative capacity with topping headroom; two smaller dishes are explicitly permitted. This is more realistic than presenting the full party dessert as eight routine portions. The original had no reliable yield, so twelve is editorial portion planning, not recovered authorship.
+
+Header total is 8 hr 25 min: a four-hour refrigerator thaw for the specified large topping format, 25 minutes active preparation, and four hours assembled refrigeration. With already-thawed topping, the actual path is 4 hr 25 min. Label-specific longer thawing and overnight wafer softening are clear. No hot custard cooling is needed because the original is cold assembly. Reserve dry crumbs before layering so the garnish is not mysteriously additional wafers. The half/half topping and two equal layers use every listed ingredient.
+
+## Teaching, restrictions, substitutions and service
+
+Explains cold thickening, gentle folding, wafer moisture absorption and slicing bananas near assembly. No “proper” versus inferior pudding claims, no new origin story and no public test disclaimers. The cold-preparation lesson is selected for texture, moisture timing and cold holding, not its separate raw-fish section. The general starch lesson is largely heated rice/noodle/potato work and is not automatically assigned to instant modified starch.
+
+Remove egg-free and unverified nutrition. Milk remains mandatory; wafers may add wheat, egg, soy and milk. A checked egg-free wafer substitution is conditional, not a default allergen badge. All-vanilla instant mix is an equal-strength flavor variation; heavy cream, sugar-free mix and cook-and-serve mix are not presented as identical. Three-day refrigerated use is a conservative working limit within customary short storage of a fresh dairy/fruit dessert; the source does not establish a tested shelf life. Best quality is within a day. Counter limits follow FDA. No freezing promise because bananas and aerated layers change texture.
+
+Replace unrelated dessert-on-dessert outgoing pairings with simple coffee/unsweetened-tea service prose. No direct meal/calendar reference exists. Incoming pairs from pound cake, pecan pie and red velvet cupcakes remain outside this bounded edit; those can be reassessed as dessert-table alternatives when individually reviewed.
+
+## Primary evidence and access limits
+
+Accessed 2026-09-06. Manufacturer citations document product type/size/allergens, not endorsements or proof that all generic products behave identically.
+
+- [US vanilla instant mix](https://www.kraftheinz.com/jell-o/products/00043000204337-vanilla-instant-pudding-pie-filling-mix): direct full page; 3.4 oz, 1/4-packet24g serving, modified starch, two cups cold milk and five-minute ordinary pudding set. Used only to define strength/type and cold thickening.
+- [US banana-cream small mix](https://www.kraftheinz.com/jell-o/products/00043000204429-banana-cream-instant-pudding-pie-filling-mix): direct full page; 3.4 oz and ingredient list. The separately opened 5.1 oz variant had mismatched quarter-packet nutrition metadata; the draft uses the actual 3.4 oz SKU. No assertion of historic SKU.
+- [Large whipped-topping tub](https://www.kraftheinz.com/cool-whip/products/00043000009604-original-whipped-topping): direct primary page; 16 oz, refrigerator thaw of four hours, milk ingredient/allergen. Its two-week standalone product instruction is **not** transferred to assembled banana pudding.
+- [Vanilla wafers, eleven ounces](https://www.snackworks.com/products/nilla-wafers-cookies-vanilla-wafers-11-oz/) and [fifteen-ounce format](https://www.snackworks.com/products/nilla-wafers-cookies-vanilla-wafers-family-size-15-oz/index.html): direct pages establish package variation and egg/milk/wheat/soy composition. Eleven ounces is the proposed working amount only.
+- [Condensed-milk producer's creamy pudding](https://www.eaglebrand.com/recipe/creamy-banana-pudding/): available primary recipe; establishes a 14 oz can, cold pudding and folded cream as a related method. Different formula; not Bette's author/source.
+- [Kraft layered instant pudding](https://www.kraftheinz.com/jell-o/recipes/505523-trifle-of-banana-pudding): available primary recipe; both pudding flavors sold as 3.4 oz and layered cold assembly. Its different milk/fruit/topping balance and14servings are not imported.
+- [FDA cold storage](https://www.fda.gov/food/buy-store-serve-safe-food/refrigerator-thermometers-cold-facts-about-food-safety): direct page; 40°F refrigerator, prompt cold storage, two-hour/one-hour-hot limits and refrigerator thawing. It does not certify an exact three-day banana-pudding shelf life.
+
+## Kitchen / source questions
+
+Confirm Bette's remembered pudding sizes, topping size and wafer box when family knowledge is available, without blocking a clear working formula. Weigh the selected packets and cookies; assess lump-free mixing of the concentrated two-mix base; record folding volume, actual bowl depth, final mass and spooned portion size. Compare four-hour versus overnight wafer texture and banana browning. Record assembled-center chill temperature, topping stability and day-two/day-three texture. No physical test or recipe-source memory has been invented.
+
+## Root integration
+
+Root read complete archived originals, current recipes, final proposals, full individual records and independent challenge. Direct primary checks confirmed the small vanilla-mix strength, large topping thaw interval, egg-dish endpoint and cheesecake mixing guidance. Root recovered the exact current Snackworks cheesecake page with its sixteen servings and original ingredient/cookie allocation, replacing the inaccessible public Kraft link while preserving that historical URL in this record. Accepted the explicit hot-kitchen cooling correction.
+
+The public banana ingredient retains the original count constrained to medium size. Removed its optional inline 360 g estimate because the current serving control scales leading counted bananas but would leave that secondary weight unchanged. The approximate mass remains an internal portion-planning assumption; no banana was removed from the recipe.
+
+These two original recipes receive individual editorial status after integration and verification; neither is consolidated or physically kitchen-tested.
