@@ -1,11 +1,11 @@
 {
   "summary": {
     "recipes": 605,
-    "editoriallyReviewed": 165,
+    "editoriallyReviewed": 167,
     "kitchenTested": 0,
     "errors": 0,
     "priorityReviews": 0,
-    "reviewItems": 874
+    "reviewItems": 870
   },
   "limitations": "Automated triage only. Does not establish culinary quality, food safety, source validity, or kitchen testing.",
   "recipes": [
@@ -1183,20 +1183,9 @@
     {
       "slug": "chana-masala",
       "title": "Chana Masala",
-      "status": "collection",
+      "status": "editorial-review",
       "stepCount": 6,
-      "issues": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ]
+      "issues": []
     },
     {
       "slug": "char-siu",
@@ -1514,20 +1503,9 @@
     {
       "slug": "chicken-tikka-masala",
       "title": "Chicken Tikka Masala",
-      "status": "collection",
+      "status": "editorial-review",
       "stepCount": 8,
-      "issues": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ]
+      "issues": []
     },
     {
       "slug": "chicken-tinga",
