@@ -1,0 +1,545 @@
+{
+  "version": 1,
+  "role": "blind-reference",
+  "inputCommit": "ef8b65188ba6b445d2a93aba24ee21ca5353245d",
+  "startedAt": "2026-09-06T23:21:48Z",
+  "endedAt": "2026-09-06T23:25:13.110956+00:00",
+  "actualTokens": null,
+  "actualCostUSD": null,
+  "measurementNote": "Token/cost telemetry not exposed. Start is first observed UTC clock, after initial standards/manifest read; elapsed excludes that initial read. FDA full page verified; USDA search extracts verified, direct page open returned internal error.",
+  "workerOutputsRead": false,
+  "scope": "12 frozen recipes; no recipe edits or review-status changes",
+  "severityPolicy": "critical: categorical instruction can directly terminate cooking before safe doneness; major: material missing ingredient, safety ambiguity, ratio ambiguity or substantial timing failure; moderate: localized accuracy/usability defect. Open culinary questions are not established failures.",
+  "commonObservations": [
+    "All12 lack complete recipe-specific learning schema and source-supported storage guidance; record as shared standard gap rather than12 duplicate material findings.",
+    "Legacy nutrition appears implausible in several formulas, but standard says public nutrition withheld: do not count hidden nutrition as public cooking defect. Recompute/remove on formula review.",
+    "Serving scaler leaves method prose unchanged per standard; flag hard-coded portions/splits and vessel geometry. No universal proportional cook-time rule.",
+    "No physical cooking tests and no source/history attribution inferred."
+  ],
+  "sources": [
+    {
+      "id": "FDA-seafood",
+      "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-and-frozen-seafood-safely",
+      "accessed": "2026-09-06",
+      "supports": "Shrimp and scallop flesh should become firm, pearly and opaque; most seafood145F.",
+      "applicability": "Doneness of raw shrimp/scallops; does not establish exact skillet times."
+    },
+    {
+      "id": "USDA-leftovers",
+      "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety",
+      "accessed": "2026-09-06",
+      "supports": "Refrigerated leftovers3\u20134days; reheat165F; prompt cooling.",
+      "applicability": "Cooked pork and make-ahead foods; does not prove raw-contact finishing in jerk, which explicitly reserves clean marinade."
+    }
+  ],
+  "recipes": [
+    {
+      "slug": "garlic-butter-shrimp",
+      "family": "quick-seafood",
+      "inputSha256": "ac96da56cabe7366b7ce9a4575aa29097ef8b77d97b2a446795c72b5452843ba",
+      "ingredientAccounting": "Shrimp/salt/pepper step1; butter 2+2 tbsp steps2/4; garlic/flakes step4; wine or stock step5; lemon/parsley step6; zest step7. Optional extra butter has no destination.",
+      "processAccounting": "Dry/season \u2192 single-layer sear 2+1.5min \u2192 aromatics .75min \u2192 reduction 1\u20132min with shrimp still in pan \u2192 finish. 1.5lb shrimp requires specified capacity/batches; 4 main portions rely on separately cooked starch.",
+      "findings": [
+        {
+          "id": "garlic-butter-shrimp-1",
+          "severity": "major",
+          "category": "method",
+          "evidence": "cook another 90 seconds until the second side is opaque and the shells are bright pink.",
+          "defect": "Peeled shrimp have no shells to use as the endpoint; subsequent garlic and reduction also continue cooking already opaque shrimp. Clarify endpoint and removal/return sequence, preserving sauce.",
+          "sources": ["FDA-seafood"]
+        },
+        {
+          "id": "garlic-butter-shrimp-2",
+          "severity": "moderate",
+          "category": "timing",
+          "evidence": "totalTime: 18 min | This is a 15-minute dinner from start to plating.",
+          "defect": "Contradictory total, with no allowance for batches or separately cooked serving starch.",
+          "sources": []
+        },
+        {
+          "id": "garlic-butter-shrimp-3",
+          "severity": "moderate",
+          "category": "scaling",
+          "evidence": "Melt 2 tbsp butter | Add remaining 2 tbsp butter",
+          "defect": "Fixed method amounts conflict with scaled ingredient total. Use proportional allocation.",
+          "sources": []
+        }
+      ],
+      "unresolvedQuestions": [
+        "Is 20\u201324 count per pound? What skillet size accommodates 1.5lb in one layer?",
+        "Optional finishing butter amount/use unspecified; historical fisherman/scampi origin assertion unsupported."
+      ],
+      "preservedIdentity": "Garlic-butter shrimp, white wine/stock, lemon and parsley; no external author supplied.",
+      "physicalCookingTest": false
+    },
+    {
+      "slug": "gambas-al-ajillo",
+      "family": "quick-seafood",
+      "inputSha256": "55c88f03ead497b96df32b4478a66f7d3008265ba3e82541644e42f2843285c0",
+      "ingredientAccounting": "All ingredients assigned: shrimp/salt/paprika step1; oil/garlic/chiles step2; sherry step4; lemon/parsley step5; bread step6. Alternative flakes not explicitly described in method.",
+      "processAccounting": "Aromatics .5\u2013.75min \u2192 shrimp 1+.5min \u2192 sherry .5min \u2192 immediate service. 1lb 16\u201320 shrimp needs single-layer skillet; 4 main portions modest plus bread.",
+      "findings": [
+        {
+          "id": "gambas-al-ajillo-1",
+          "severity": "major",
+          "category": "safety",
+          "evidence": "Remove from heat immediately. The shrimp should be just pink and curled into a C-shape",
+          "defect": "Two minutes total and curvature/color alone do not establish opaque flesh throughout for unspecified thickness; add doneness cue rather than fixed immediate removal.",
+          "sources": ["FDA-seafood"]
+        },
+        {
+          "id": "gambas-al-ajillo-2",
+          "severity": "moderate",
+          "category": "scaling",
+          "evidence": "season with 1/2 tsp salt",
+          "defect": "Hard-coded method quantity fails scaled ingredient amounts.",
+          "sources": []
+        }
+      ],
+      "unresolvedQuestions": [
+        "Will garlic remain pale-golden with continued medium-high shrimp searing?",
+        "Does \u201cburn off the raw alcohol\u201d mean flavor, or imply alcohol removal? Do not promise alcohol-free result.",
+        "Sherry/garlic/paprika remain defining; no need to normalize to other versions."
+      ],
+      "preservedIdentity": "Spanish garlic shrimp in generous olive oil with sherry, paprika and bread.",
+      "physicalCookingTest": false
+    },
+    {
+      "slug": "shrimp-and-snow-pea-stir-fry",
+      "family": "quick-seafood",
+      "inputSha256": "8fcf4e5f2e9027b415e551c2e523905d1ea8b5e73bb555ec422cf84071e7c092",
+      "ingredientAccounting": "Noodles step1; shrimp+1tbsp chili sauce+unlisted salt step2; 1tbsp oil each steps3/4 (list says only Neutral Oil); snow peas/ginger/garlic step4; remaining 4tbsp sauce step5; shrimp return6. Soy sauce never used.",
+      "processAccounting": "25min noodles and 15min marinade can overlap; sear2min \u2192 peas1\u20132 + garlic.5\u2013.75 \u2192 noodles4 \u2192 shrimp.5. Minimum exceeds advertised20min even with prep overlap.",
+      "findings": [
+        {
+          "id": "shrimp-and-snow-pea-stir-fry-1",
+          "severity": "major",
+          "category": "ingredient-loss",
+          "evidence": "1 tbsp Low-sodium Soy Sauce | Add the drained noodles and the remaining sweet chili sauce.",
+          "defect": "Listed soy sauce has no method destination. Preserve it and resolve intended placement.",
+          "sources": []
+        },
+        {
+          "id": "shrimp-and-snow-pea-stir-fry-2",
+          "severity": "major",
+          "category": "timing",
+          "evidence": "totalTime: 20 min | Let soak for 25 minutes",
+          "defect": "Mandatory soak alone exceeds total; explicit overlap and honest elapsed required.",
+          "sources": []
+        },
+        {
+          "id": "shrimp-and-snow-pea-stir-fry-3",
+          "severity": "moderate",
+          "category": "quantity",
+          "evidence": "Neutral Oil | Heat 1 tbsp oil | Add 1 tbsp oil | Toss shrimp with 1 tbsp sweet chili sauce and salt.",
+          "defect": "Oil is deterministically 2tbsp across method but not quantified in ingredients; salt is absent from list. Resolve salt amount, do not invent.",
+          "sources": []
+        },
+        {
+          "id": "shrimp-and-snow-pea-stir-fry-4",
+          "severity": "moderate",
+          "category": "safety",
+          "evidence": "sear for 1 minute per side until charred and pink",
+          "defect": "Pink/char alone insufficient doneness; size absent, then only brief return.",
+          "sources": ["FDA-seafood"]
+        },
+        {
+          "id": "shrimp-and-snow-pea-stir-fry-5",
+          "severity": "moderate",
+          "category": "scaling",
+          "evidence": "1 tbsp sweet chili sauce | Heat 1 tbsp oil | Add 1 tbsp oil",
+          "defect": "Fixed subdivisions need scaling-safe expression.",
+          "sources": []
+        }
+      ],
+      "unresolvedQuestions": [
+        "Rice linguine thickness/brand preparation may differ: flexible after soaking may not mean ready after dry tossing; verify package-dependent method.",
+        "\u201cVelvet\u201d labels a chili sauce marinade without a specified conventional velveting process; avoid overstated technique/cultural provenance."
+      ],
+      "preservedIdentity": "Shrimp, snow peas, rice noodles, sweet chili, soy, ginger and garlic; preserve small 8oz shrimp quantity unless reviewed change.",
+      "physicalCookingTest": false
+    },
+    {
+      "slug": "seared-scallops-with-a-corn-bacon-and-avocado-relish",
+      "family": "quick-seafood",
+      "inputSha256": "c5cb9f7c1615bd9e9832ef3dec79ab0aa7a9037cbf68778c6208af6ec0b95ae2",
+      "ingredientAccounting": "Corn/onion/pepper/half parsley step1; oil step2; cooked bacon/avocado step3; scallops plus unlisted salt step4; lemon/rest parsley step6; pepper unlisted step3. No bacon fat listed despite note.",
+      "processAccounting": "Relish saute5min \u2192 cool2 \u2192 fold \u2192 wipe/reheat pan \u2192 scallops2min. Bacon pre-cooked prerequisite; 16 scallops may need batches; no weight/size.",
+      "findings": [
+        {
+          "id": "seared-scallops-with-a-corn-bacon-and-avocado-relish-1",
+          "severity": "critical",
+          "category": "safety",
+          "evidence": "Sear for exactly **1 minute per side** until a deep golden crust forms. Remove immediately.",
+          "defect": "Exact time and crust do not establish internal doneness for unspecified scallop size; categorical immediate removal must be replaced with cooked-flesh endpoint.",
+          "sources": ["FDA-seafood"]
+        },
+        {
+          "id": "seared-scallops-with-a-corn-bacon-and-avocado-relish-2",
+          "severity": "moderate",
+          "category": "quantity",
+          "evidence": "Neutral Oil | Season with salt and plenty of black pepper.",
+          "defect": "Salt/pepper absent and scallop-stage oil unspecified; account explicitly.",
+          "sources": []
+        },
+        {
+          "id": "seared-scallops-with-a-corn-bacon-and-avocado-relish-3",
+          "severity": "moderate",
+          "category": "method",
+          "evidence": "Saut\u00e9ing fresh corn in rendered bacon fat | Heat 1 tbsp oil",
+          "defect": "Note claims bacon fat but method uses oil; choose based on intended recipe rather than silently substitute.",
+          "sources": []
+        },
+        {
+          "id": "seared-scallops-with-a-corn-bacon-and-avocado-relish-4",
+          "severity": "moderate",
+          "category": "timing",
+          "evidence": "prepTime: 10 min | 12 strips Bacon, cooked and chopped",
+          "defect": "Pre-cooking bacon plus corn removal/dicing are not transparently accounted; label bacon prerequisite or include time.",
+          "sources": []
+        },
+        {
+          "id": "seared-scallops-with-a-corn-bacon-and-avocado-relish-5",
+          "severity": "moderate",
+          "category": "scaling",
+          "evidence": "Add onion, pepper, and 1 tbsp parsley. | Top each with 4 seared scallops.",
+          "defect": "Fixed parsley split and 4 plates cannot follow serving scaler unchanged; batch geometry also unspecified.",
+          "sources": []
+        }
+      ],
+      "unresolvedQuestions": [
+        "Actual scallop count per pound/weight and pan diameter?",
+        "\u201cInverted Bowl Hack\u201d is named without explanation; dry-patting appears in note but not method."
+      ],
+      "preservedIdentity": "Scallops with corn, bacon, avocado, red pepper, onion and lemon; preserve bacon despite shortened title.",
+      "physicalCookingTest": false
+    },
+    {
+      "slug": "brisket-with-carrots-and-onions",
+      "family": "braises",
+      "inputSha256": "10ef669ecd0533fe8f5eb1595ee87b889d2236f576c51055f8c0e6695b40e2c7",
+      "ingredientAccounting": "All ingredients used in rub/layer/pour; bay leaves enter but never removed. 46oz tomato juice specified; 6\u20137lb flat for10.",
+      "processAccounting": "350F covered3.5h until fork-tender \u2192 rest during20\u201330min stovetop reduction \u2192 across-grain slice. Total20+210+20\u201330 =250\u2013260min plausible before extensions.",
+      "findings": [
+        {
+          "id": "brisket-with-carrots-and-onions-1",
+          "severity": "major",
+          "category": "equipment",
+          "evidence": "Place the roasting pan across two burners on the stovetop.",
+          "defect": "Only heavy roasting pan specified; require stovetop-compatible pan or transfer sauce before burner use.",
+          "sources": []
+        },
+        {
+          "id": "brisket-with-carrots-and-onions-2",
+          "severity": "moderate",
+          "category": "quantity",
+          "evidence": "1 (46 oz) can Tomato Juice | it should come 3/4 of the way up the meat",
+          "defect": "Specified can does not establish level without pan geometry and vegetable load; give vessel guidance and resolve level/volume conflict rather than invent extra juice.",
+          "sources": []
+        },
+        {
+          "id": "brisket-with-carrots-and-onions-3",
+          "severity": "moderate",
+          "category": "ingredient",
+          "evidence": "6 Fresh Bay Leaves | Serve drenched in the reduced sauce",
+          "defect": "Remove bay leaves before service.",
+          "sources": []
+        }
+      ],
+      "unresolvedQuestions": [
+        "3.5h is estimate, needs continuation if not fork-tender; exact roast thickness/pan fit especially on scaling unknown.",
+        "Kosher salt density unspecified at2tbsp; cannot replace volume blindly.",
+        "Universal \u201cEvery Jewish grandmother\u201d historical claim unsupported; preserve Jewish holiday identity without invented attribution."
+      ],
+      "preservedIdentity": "Flat-cut brisket braised in tomato juice with carrots, celery and plentiful onions; no sear required by identity.",
+      "physicalCookingTest": false
+    },
+    {
+      "slug": "pulled-pork",
+      "family": "braises",
+      "inputSha256": "489140e98ed53b3ae67fd757f01233340b8231c47d9e280809b6f843d5a420cc",
+      "ingredientAccounting": "Rub ingredients step1; onion/garlic/vinegar/Worcestershire step2; shoulder step3; rendered juices skimmed step6. All accounted.",
+      "processAccounting": "Optional overnight season \u2192 6qt slow cooker LOW10\u201311h until pull-apart \u2192 debone/chop \u2192 skim/return. 8 servings plausible; scaled whole cut may not fit6qt.",
+      "findings": [
+        {
+          "id": "pulled-pork-1",
+          "severity": "major",
+          "category": "safety",
+          "evidence": "use as the base for tacos, bowls, and sandwiches all week.",
+          "defect": "All-week wording implies refrigeration beyond3\u20134days; specify prompt cooling, refrigerated limit and freezing later portions.",
+          "sources": ["USDA-leftovers"]
+        },
+        {
+          "id": "pulled-pork-2",
+          "severity": "moderate",
+          "category": "method",
+          "evidence": "anything under 9 hours and the collagen has not fully broken down.",
+          "defect": "Unsupported universal minimum overrides actual tenderness and cooker/cut variation; use estimate and fork/bone cues.",
+          "sources": []
+        },
+        {
+          "id": "pulled-pork-3",
+          "severity": "moderate",
+          "category": "method",
+          "evidence": "Return the chopped pork to the pot and toss in just enough of the cooking liquid",
+          "defect": "Pot still holds all cooking liquid after skimming; cannot add just enough unless decanted first. Clarify controlled return.",
+          "sources": []
+        }
+      ],
+      "unresolvedQuestions": [
+        "Bone essential/heat-conduction and acid-driven collagen explanation unsupported; investigate only if retaining scientific claim.",
+        "Retain smoked salt composition; density unresolved.",
+        "No default need to add broth: meat releases juices, but fill/capacity and thawed starting state need guidance."
+      ],
+      "preservedIdentity": "Bone-in shoulder with smoky sweet rub, vinegar and Worcestershire; deliberate no barbecue sauce.",
+      "physicalCookingTest": false
+    },
+    {
+      "slug": "thit-kho-vietnamese-caramelized-pork",
+      "family": "braises",
+      "inputSha256": "67b4c56a0ef5541ccc7cf2603535535212fc38096bc5f2bdaa71d57af1f7aee7",
+      "ingredientAccounting": "Pork step3; oil/sugar caramel2; shallot/garlic/chiles/pepper/2tsp fish sauce4; coconut water5; optional adjustment fish sauce7; herbs/lime9. Listed3tbsp adjustment is not mandatory use. Extra sugar step7 unlisted.",
+      "processAccounting": "Caramel2\u20133 + meat2 + aromatics/bring simmer + braise35\u201340 + rest5 exceeds45min cook at high end. Tenderness/reduction may not coincide; shoulder and belly unspecified differences.",
+      "findings": [
+        {
+          "id": "thit-kho-vietnamese-caramelized-pork-1",
+          "severity": "major",
+          "category": "quantity",
+          "evidence": "3 tbsp Fish Sauce (for sauce adjustment) | Add more fish sauce (a few drops at a time)",
+          "defect": "Ambiguous reserve versus expected amount affects salt balance and ingredient accounting; state optional maximum/reserve only after author decision, do not force full use.",
+          "sources": []
+        },
+        {
+          "id": "thit-kho-vietnamese-caramelized-pork-2",
+          "severity": "moderate",
+          "category": "timing",
+          "evidence": "cookTime: 45 min | Simmer gently for 35-40 minutes | Let the pork rest for 5 minutes",
+          "defect": "Cook/rest plus caramel/browning/heat-up exceeds45min;55min total not reliable.",
+          "sources": []
+        },
+        {
+          "id": "thit-kho-vietnamese-caramelized-pork-3",
+          "severity": "moderate",
+          "category": "method",
+          "evidence": "until the pork is tender and the braising liquid has reduced by about half and turned glossy and thick",
+          "defect": "No contingency when meat remains tough after liquid concentrates; separate tenderness from reduction endpoint and prevent drying. Time extension/amount needs review.",
+          "sources": []
+        },
+        {
+          "id": "thit-kho-vietnamese-caramelized-pork-4",
+          "severity": "moderate",
+          "category": "safety",
+          "evidence": "Refrigerate for up to 3 days and reheat gently over low heat.",
+          "defect": "Duration within guidance, but cooling and thorough reheat endpoint absent for explicit make-ahead instructions.",
+          "sources": ["USDA-leftovers"]
+        }
+      ],
+      "unresolvedQuestions": [
+        "Does35\u201340min deliver intended tenderness for both1inch shoulder and belly? Kitchen verification needed, no invented replacement time.",
+        "3tbsp sugar+1cup water reduced halfway may not produce spoon-coating thickness given variable pork juices/fat; test.",
+        "Brown/palm/white sugar nearly-identical/authenticity assertion unsupported; no source attribution recoverable from frozen text."
+      ],
+      "preservedIdentity": "Vietnamese caramelized pork; preserve fish sauce, caramel and coconut-water option; no eggs added by assumption.",
+      "physicalCookingTest": false
+    },
+    {
+      "slug": "jerk-pork-shoulder",
+      "family": "braises",
+      "inputSha256": "f4a0c5f0ab0d6c37c966ca57c7d6eb846002976a9d0b7d64d8e9d60f8e02b25e",
+      "ingredientAccounting": "All aromatics/spices/soy/lime/vinegar/oil marinade1; two sugar entries total3tbsp ambiguously represented by single \u201cbrown sugar\u201d; reserve clean1/4cup then remainder raw-pork marinade; raw-contact scraped marinade braised5; stock/orange5; clean reserve finish7.",
+      "processAccounting": "At least8h refrigeration +30min temper/preheat + sear3\u20134min per side +3\u20133.5h braise +20min rest (10min reduction overlaps). 12h total too tight at upper end;8 main servings plausible.",
+      "findings": [
+        {
+          "id": "jerk-pork-shoulder-1",
+          "severity": "major",
+          "category": "quantity",
+          "evidence": "1 tbsp Brown Sugar | 2 tbsp Dark Brown Sugar | Combine ... brown sugar",
+          "defect": "Duplicate/separate sugar entries unresolved; determine intentional3tbsp total versus duplicate, do not delete or sum without decision.",
+          "sources": []
+        },
+        {
+          "id": "jerk-pork-shoulder-2",
+          "severity": "major",
+          "category": "safety",
+          "evidence": "Reserve 1/4 cup for finishing. | refrigerate at least 8 hours, ideally 24 | reserved 1/4 cup fresh marinade",
+          "defect": "Clean reserve is correctly taken before raw contact, so NOT evidence of serving raw pork marinade. Explicitly refrigerate/separate reserve during8\u201324h delay and distinguish from scraped raw-contact marinade.",
+          "sources": ["USDA-leftovers"]
+        },
+        {
+          "id": "jerk-pork-shoulder-3",
+          "severity": "major",
+          "category": "safety",
+          "evidence": "warm at 325\u00b0F for 20-25 minutes",
+          "defect": "Reheat duration alone lacks measured165F endpoint; dish depth/starting quantity vary.",
+          "sources": ["USDA-leftovers"]
+        },
+        {
+          "id": "jerk-pork-shoulder-4",
+          "severity": "moderate",
+          "category": "timing",
+          "evidence": "totalTime: 12 hr | Braise for **3 to 3.5 hours** | rest 20 minutes",
+          "defect": "8h+20prep+30preheat+3.5h+20rest already12h40 before sear; show minimum/range and optional24h marinade.",
+          "sources": []
+        },
+        {
+          "id": "jerk-pork-shoulder-5",
+          "severity": "moderate",
+          "category": "identity",
+          "evidence": "fresh allspice and scotch bonnet \u2014 substitute either and it stops being jerk | Scotch Bonnet or Habanero",
+          "defect": "Absolute identity claim contradicts offered habanero; fresh allspice wording also differs from ground ingredient. Remove gatekeeping, preserve Jamaican identity.",
+          "sources": []
+        }
+      ],
+      "unresolvedQuestions": [
+        "\u201cLonger is better\u201d unbounded marinade claim needs finite range.",
+        "No proof of unsafe scraped marinade: it undergoes long braise.",
+        "Whole cut scaling requires vessel fit and tenderness-led time, not proportional cook time."
+      ],
+      "preservedIdentity": "Jamaican jerk-inspired pork shoulder with allspice, hot chile, thyme and citrus; clean finishing marinade retained.",
+      "physicalCookingTest": false
+    },
+    {
+      "slug": "mexican-red-rice",
+      "family": "grain-hydration",
+      "inputSha256": "105cbc0518f90d062ae07b93f8584305ff8e8e09cd50903eabae4ad6db4dd935",
+      "ingredientAccounting": "All ingredients assigned; cilantro removed7. Tomato puree alternative2Roma unmeasured; oil toast2; rice rinsed/dried1; onion/garlic3; liquids/salt4.",
+      "processAccounting": "Rinse/drain/dry \u2192 toast3\u20135 + aromatics1 + boil + covered15\u201318 + rest10. Lower bound29min heat/rest before boil, not20cook/25total.",
+      "findings": [
+        {
+          "id": "mexican-red-rice-1",
+          "severity": "major",
+          "category": "timing",
+          "evidence": "totalTime: 25 min | simmer for 15-18 minutes | Keep the lid on for 10 minutes",
+          "defect": "Toast3\u20135+aromatics1+15\u201318+rest10=29\u201334min plus boil/prep; correct elapsed.",
+          "sources": []
+        },
+        {
+          "id": "mexican-red-rice-2",
+          "severity": "major",
+          "category": "ratio",
+          "evidence": "1 cup Tomato Puree (or 2 Roma tomatoes blended smooth)",
+          "defect": "Two unweighed tomatoes do not establish1cup puree nor same solids/hydration; define measured alternative or escalate quantity.",
+          "sources": []
+        },
+        {
+          "id": "mexican-red-rice-3",
+          "severity": "moderate",
+          "category": "method",
+          "evidence": "Dry thoroughly (moisture will prevent toasting).",
+          "defect": "Absolute drying prerequisite lacks method/time; drain well and safely account wet-rice oil contact; test actual procedure.",
+          "sources": []
+        }
+      ],
+      "unresolvedQuestions": [
+        "Puree product concentration and saucepan/lid govern hydration: cannot certify1cup rice:2cups mixed liquid or invent new ratio.",
+        "Protective-layer explanation overstates mechanism; toasting effect should be sourced or described sensorially."
+      ],
+      "preservedIdentity": "Arroz rojo: oil-toasted white rice, tomato, onion/garlic, broth, cilantro; retain tomato rather than normalizing to plain rice.",
+      "physicalCookingTest": false
+    },
+    {
+      "slug": "lemon-herb-quinoa",
+      "family": "grain-hydration",
+      "inputSha256": "e2cf0b762e4f9a00d28006d6e8479617119fe22665c01a21427cf7ad64b863f4",
+      "ingredientAccounting": "All ingredients used: quinoa rinse/toast; water/broth/salt3; oil/lemon/zest/herbs/pepper5. 1.5cups quinoa:2.5cups liquid explicitly stated.",
+      "processAccounting": "Optional toast2 + boil + simmer15 + rest5 + dressing, with5prep.25min total excludes boil/toast/dressing at normal upper bound. 4 side servings generous but not an error.",
+      "findings": [
+        {
+          "id": "lemon-herb-quinoa-1",
+          "severity": "moderate",
+          "category": "timing",
+          "evidence": "cookTime: 20 min | stir for 2 minutes | cook for 15 minutes | covered, for 5 minutes",
+          "defect": "20min accounts only simmer/rest; heat-up and optional toast omitted.",
+          "sources": []
+        }
+      ],
+      "unresolvedQuestions": [
+        "Is specified ratio robust in chosen pot and quinoa variety? No evidence it is wrong; verify tenderness/liquid and add troubleshooting rather than prescribe universal2:1.",
+        "Pre-rinsed quinoa may not need mandatory rinse; do not claim all products bitter when skipped.",
+        "Make-ahead/chilled service needs storage/cooling guidance when completed under standard."
+      ],
+      "preservedIdentity": "Lemon, parsley, mint and dill quinoa with olive oil; vegan broth option maintained.",
+      "physicalCookingTest": false
+    },
+    {
+      "slug": "quinoa-pilaf-with-toasted-almonds",
+      "family": "grain-hydration",
+      "inputSha256": "bbb219c4593f43e7539ee9f2fdb9ff60cd911686c2d38c9ec3f1cf6ef546ff3b",
+      "ingredientAccounting": "Quinoa1/4\u20137; broth/salt5; almonds2/8; half fat3, remaining8; onion/garlic3; fruit/herbs/pepper/zest8. Alternative oil/cranberries/tarragon disappear from finishing wording.",
+      "processAccounting": "Almonds3\u20134 + onion3\u20134 + garlic.5 + quinoa2 + boil + simmer15 + rest5 =28.5\u201330.5min before boil/finish, vs25cook. Same skillet needs tight lid, despite separate saucepan listed.",
+      "findings": [
+        {
+          "id": "quinoa-pilaf-with-toasted-almonds-1",
+          "severity": "moderate",
+          "category": "substitution",
+          "evidence": "2 tbsp Olive Oil or Butter | remaining 1 tbsp butter",
+          "defect": "Method forces butter after oil option; maintain chosen fat through split.",
+          "sources": []
+        },
+        {
+          "id": "quinoa-pilaf-with-toasted-almonds-2",
+          "severity": "moderate",
+          "category": "substitution",
+          "evidence": "Dried Apricots or Cranberries | Dill or Tarragon | Fold in ... dried apricots ... dill",
+          "defect": "Finish silently drops offered cranberry/tarragon alternatives; explicitly maintain chosen options.",
+          "sources": []
+        },
+        {
+          "id": "quinoa-pilaf-with-toasted-almonds-3",
+          "severity": "major",
+          "category": "timing",
+          "evidence": "cookTime: 25 min | 3-4 minutes | 3-4 minutes | 15 minutes | 5 minutes",
+          "defect": "Sequential specified minima28.5min plus boil/finish exceed25;35total with10prep cannot hold.",
+          "sources": []
+        },
+        {
+          "id": "quinoa-pilaf-with-toasted-almonds-4",
+          "severity": "moderate",
+          "category": "scaling",
+          "evidence": "add 1 tbsp ... remaining 1 tbsp butter | add 1/2 tsp salt",
+          "defect": "Fixed amount splits/salt do not track scaled list.",
+          "sources": []
+        }
+      ],
+      "unresolvedQuestions": [
+        "Large skillet must have tight-fitting lid; diameter/headspace affect absorption, no evidence ratio categorically wrong.",
+        "Up to4days refrigerated is consistent with USDA but requires prompt cooling/reheat guidance.",
+        "Peru origin may reflect grain rather than specific dish; do not invent historical provenance."
+      ],
+      "preservedIdentity": "Aromatic quinoa pilaf with toasted almonds, optional dried fruit, herbs and lemon; retain richness.",
+      "physicalCookingTest": false
+    },
+    {
+      "slug": "creamy-polenta",
+      "family": "grain-hydration",
+      "inputSha256": "a86765d1ae397eab25f6cd0744956b12794545acc9b40d84f063eae792d8fa35",
+      "ingredientAccounting": "Water/milk/salt1; cornmeal2; butter/Parmesan5; pepper5; extra warm milk/water3/6 as-needed. All ingredients assigned. 1cup grain:5cups liquid baseline.",
+      "processAccounting": "Bring5cups liquid to boil \u2192 whisk2min \u2192 cook35\u201340min \u2192 sensory check/enrich/service.40cook undercounts upper cooking plus boil.4 sides plausible.",
+      "findings": [
+        {
+          "id": "creamy-polenta-1",
+          "severity": "moderate",
+          "category": "timing",
+          "evidence": "cookTime: 40 min | Continue whisking for 2 minutes | Cook for 35-40 minutes",
+          "defect": "Up to42min after initial boil, plus heating/finish;45min total not reliable.",
+          "sources": []
+        },
+        {
+          "id": "creamy-polenta-2",
+          "severity": "moderate",
+          "category": "unsupported-claim",
+          "evidence": "Instant polenta sacrifices texture for speed and always tastes grainy.",
+          "defect": "Unsupported universal sensory assertion; recipe can specify non-instant without disparaging all instant preparations.",
+          "sources": []
+        }
+      ],
+      "unresolvedQuestions": [
+        "Coarse-ground versus unspecified yellow cornmeal grind can change cooking time; use creamy/no-grit endpoint, not universal duration.",
+        "\u201cPulls away from sides\u201d may encourage overly stiff texture despite creamy pourable serving target; validate consistency.",
+        "Vegetarian tag needs vegetarian-rennet Parmesan choice if strict suitability intended; do not silently replace cheese."
+      ],
+      "preservedIdentity": "Slow-cooked cornmeal with milk, butter and Parmesan; preserve deliberate enrichment and Italian identity.",
+      "physicalCookingTest": false
+    }
+  ]
+}

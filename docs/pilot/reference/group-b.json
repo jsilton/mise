@@ -1,0 +1,376 @@
+{
+  "schemaVersion": 1,
+  "reviewType": "blind-reference",
+  "inputCommit": "ef8b65188ba6b445d2a93aba24ee21ca5353245d",
+  "startedAt": "2026-09-06T23:21:59.195532+00:00",
+  "completedAt": "2026-09-06T23:24:34.641460+00:00",
+  "actualTokens": null,
+  "actualCost": null,
+  "usageNote": "Tool context exposes no reliable per-agent billable tokens or cost; null is intentional.",
+  "physicalCookingTest": false,
+  "blindness": "Read only standards, manifest and assigned frozen inputs; no worker outputs accessed.",
+  "severityDefinition": {
+    "critical": "unresolved food-safety assurance",
+    "high": "material ingredient/yield/process defect",
+    "moderate": "meaningful reproducibility, timing, scaling or instructional defect"
+  },
+  "sources": [
+    {
+      "id": "egg-safety",
+      "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/eggs/shell-eggs-farm-table",
+      "publisher": "USDA FSIS",
+      "accessedAt": "2026-09-06T23:24:34.641868+00:00",
+      "claim": "Use pasteurized eggs or egg products for recipes using raw or undercooked eggs.",
+      "applicability": "Carbonara has only warmth and residual heat as endpoints. Source supports pasteurization strategy; does not validate this carbonara process or establish its attained temperature."
+    }
+  ],
+  "globalObservations": [
+    "All twelve lack complete recipe-specific learning/storage/review source material demanded for an eventual editorial review. This blind defect pass does not authorize review-status changes.",
+    "Legacy nutrition is internally implausible in many inputs and withheld from public display per standard. Do not preserve it as verified or recompute without complete quantities.",
+    "Unsupported historical and mechanism claims are flagged as unknowns where not needed to resolve a material method decision.",
+    "Scaling findings distinguish known fixed prose from hypothetical interface behavior; UI testing was not performed.",
+    "No replacement quantities, duplicate decisions, external authorship or recipe edits were invented."
+  ],
+  "recipes": [
+    {
+      "slug": "lemon-ricotta-pasta",
+      "family": "pasta-sauces",
+      "inputSha256": "ddb68f05aa03e8ca40ac9a56e13ad4eefa6a032b6b9d7cfd0c09f1e410d88789",
+      "ingredientAccounting": "Pasta -> boil/toss; ricotta, measured oil, Pecorino, lemon juice/zest, flakes -> bowl; basil/pepper -> finish; salt -> pasta water. Extra final oil is not separately allocated. Reserved water is generated, 1 cup maximum, 1/4 cup initially used.",
+      "processAccounting": "Boil pasta, reserve water, mix sauce, toss off heat, serve. Four main portions from 1 lb dry pasta plausible. No roasting. Doubling requires larger bowl/pot; method water amounts remain fixed.",
+      "materialFindings": [
+        {
+          "id": "lemon-ricotta-pasta-1",
+          "severity": "moderate",
+          "category": "doneness",
+          "evidence": "Cook pasta ... for 1 minute **less** than the package instructions. / Add the hot pasta to the bowl.",
+          "finding": "Pasta is deliberately undercooked but finishes in an unheated bowl without a final doneness check; ensure intended tenderness rather than assuming a hot bowl supplies a minute of boiling."
+        },
+        {
+          "id": "lemon-ricotta-pasta-2",
+          "severity": "moderate",
+          "category": "timing",
+          "evidence": "totalTime: 15 min / cookTime: 10 min",
+          "finding": "No water-heating allowance or package-dependent range; 15 minutes is conditional on equipment/hot water and pasta choice."
+        }
+      ],
+      "unresolvedCulinaryQuestions": [
+        "Confirm peeled ricotta moisture and desired oil richness by cooking; 1/2 cup oil is not inherently an error and must not be silently reduced.",
+        "Confirm whether finish oil is additional or reserved from the listed quantity."
+      ],
+      "preservedIdentity": "Lemon, ricotta, Pecorino, olive oil, basil; bowl-bound sauce; do not replace defining richness."
+    },
+    {
+      "slug": "real-spaghetti-carbonara",
+      "family": "pasta-sauces",
+      "inputSha256": "4f1c254da4fcea064420732b94f5860a0855f3590eb4a210a2283ae4c28becaa",
+      "ingredientAccounting": "Pasta -> boil; pork including rendered fat -> skillet; 2 whole eggs + 2 yolks -> bowl (2 whites unused by design); cheese/pepper -> eggs; salt -> water. Listed 1-2 lemons have no destination. Extra serving cheese/pepper unquantified.",
+      "processAccounting": "Render while boiling; warm egg bowl over boiling pot for 1 minute; skillet off heat; drain/toss eggs with pasta and water. Four main portions plausible; residual-heat process is sensitive to scaling and pan/bowl temperature.",
+      "materialFindings": [
+        {
+          "id": "real-spaghetti-carbonara-1",
+          "severity": "high",
+          "category": "ingredient-identity",
+          "evidence": "'--- Lemon juice ---' / '1-2 Lemons, juiced'",
+          "finding": "Lemons are unassigned in all seven steps and appear as a detached section. Resolve whether erroneous addition before deleting or incorporating; either changes the edible formula."
+        },
+        {
+          "id": "real-spaghetti-carbonara-2",
+          "severity": "critical",
+          "category": "safety",
+          "evidence": "Place the bowl over the pot of boiling pasta for 1 minute ... until ... warm / The heat from the pasta will finish cooking the eggs",
+          "finding": "Warmth and residual pasta heat do not establish a safe egg endpoint. Eggs are not specified pasteurized; replace the unqualified assurance with a supported safe approach. Source egg-safety applies to lightly cooked eggs; no measured endpoint or kitchen validation exists."
+        },
+        {
+          "id": "real-spaghetti-carbonara-3",
+          "severity": "moderate",
+          "category": "scaling",
+          "evidence": "4 large Eggs (2 whole, 2 yolks)",
+          "finding": "Leading total can scale while parenthetical whole/yolk counts remain fixed; egg split must remain consistent at each supported serving setting."
+        }
+      ],
+      "unresolvedCulinaryQuestions": [
+        "Resolve lemon provenance from source history if editing; frozen recipe alone cannot establish intent.",
+        "Historical 1940s/coal-miner claims and absolute ban on bacon are unsupported; avoid manufacturing history or authenticity evidence.",
+        "Check final pasta tenderness: 1 minute short has no maintained-heat finish."
+      ],
+      "preservedIdentity": "Pork, egg, hard cheese, pepper, no cream. Preserve guanciale/pancetta options and title; lemon anomaly unresolved."
+    },
+    {
+      "slug": "real-alfredo-sauce",
+      "family": "pasta-sauces",
+      "inputSha256": "b190666d460b884bbe324f06fdcc2d3f89db2c86f0bd363e106128d2f8816f99",
+      "ingredientAccounting": "Butter -> melt; cream/garlic -> simmer; Parmesan -> low heat; pasta water -> whisk; nutmeg/salt/pepper -> season. Lemons unassigned. Cooked pasta required in final step but neither quantity nor ingredient supplied.",
+      "processAccounting": "Seven-minute sauce assumes already hot cooked pasta and its reserved water. Four sauce servings have no coverage quantity. Scaling sauce alone is possible, but pasta dependency/yield undefined.",
+      "materialFindings": [
+        {
+          "id": "real-alfredo-sauce-1",
+          "severity": "high",
+          "category": "ingredient-identity",
+          "evidence": "'--- Lemon juice ---' / '1-2 Lemons, juiced'",
+          "finding": "Detached lemons have no method destination; resolve before deletion or addition."
+        },
+        {
+          "id": "real-alfredo-sauce-2",
+          "severity": "high",
+          "category": "yield-dependency",
+          "evidence": "1/4 cup Reserved Pasta Water / Add your hot, cooked pasta directly to the skillet / servings: '4'",
+          "finding": "As a base sauce it can exclude pasta cooking time, but needs an explicit cooked-pasta dependency and supported coverage amount. No pasta amount establishes four portions."
+        },
+        {
+          "id": "real-alfredo-sauce-3",
+          "severity": "moderate",
+          "category": "storage",
+          "evidence": "advancePrep: ... make-ahead / leftovers: good",
+          "finding": "Make-ahead promise has no cooling, storage, reheating or emulsion-recovery guidance."
+        }
+      ],
+      "unresolvedCulinaryQuestions": [
+        "Establish intended pasta coverage without guessing a weight.",
+        "Verify fresh garlic option cooks sufficiently in brief simmer; do not equate grated garlic and powder without flavor review.",
+        "Historical heat-lamp/1960s assertion lacks evidence and is unnecessary to method."
+      ],
+      "preservedIdentity": "Cream-based Americanized Alfredo, butter/Parmesan, garlic and optional nutmeg; preserve deliberate richness."
+    },
+    {
+      "slug": "buttered-egg-noodles",
+      "family": "pasta-sauces",
+      "inputSha256": "41473456ba6c5a075d91fb9f5c155f0d165a89118a83137d94319e2e8b6b0bca",
+      "ingredientAccounting": "All six ingredients accounted: noodles boil, butter/water/salt/pepper toss, optional parsley finish. Pasta-water salt is additional and unspecified.",
+      "processAccounting": "Bring water to boil, noodles 7-8 min, drain and toss 30-60 sec. Four side portions from 12 oz plausible; larger batches need pot/toss capacity.",
+      "materialFindings": [
+        {
+          "id": "buttered-egg-noodles-1",
+          "severity": "moderate",
+          "category": "seasoning",
+          "evidence": "The water should taste like the sea. / 1 tsp Kosher Salt (plus more for pasta water) / Add ... salt",
+          "finding": "Sea-water analogy plus fixed finishing salt and salted reserved water can oversalt; specify a controllable seasoning approach. Salt density is unresolved, so do not invent a replacement weight."
+        },
+        {
+          "id": "buttered-egg-noodles-2",
+          "severity": "moderate",
+          "category": "timing",
+          "evidence": "totalTime: 12 min / Bring a large pot ... to a rolling boil",
+          "finding": "Twelve-minute elapsed claim gives little water-heating allowance; qualify or establish actual elapsed time."
+        }
+      ],
+      "unresolvedCulinaryQuestions": [
+        "Test preferred finishing salt after accounting for water salinity."
+      ],
+      "preservedIdentity": "Simple buttered wide egg noodles with optional parsley; no need to add cheese or richer sauce."
+    },
+    {
+      "slug": "banana-nut-bread",
+      "family": "quick-batters",
+      "inputSha256": "97d2a7b947f9239904c9b4719d0258945482304d660a40c8db5fa4934c251dda",
+      "ingredientAccounting": "All nine ingredients have destinations: wet banana/butter/sugar/eggs/vanilla; dry flour/soda/salt; nuts or seeds folded. Butter cooling occurs both ingredient prep and method; no lost ingredient.",
+      "processAccounting": "9x5 loaf; mix then bake 55-60 min; pan rest 10 min; wire rack. Ten slices plausible. Recipe doubling needs separate pans or tested geometry, not double loaf thickness.",
+      "materialFindings": [
+        {
+          "id": "banana-nut-bread-1",
+          "severity": "moderate",
+          "category": "timing",
+          "evidence": "prepTime: 15 min / cookTime: 55 min / totalTime: 70 min / Bake for 55-60 minutes / Let cool ... for 10 minutes",
+          "finding": "Elapsed time omits mandatory pan cooling and upper bake range; at least 80-85 minutes using stated prep, before further rack cooling."
+        }
+      ],
+      "unresolvedCulinaryQuestions": [
+        "Clarify banana 375g as peeled edible mash; weighing note currently does not say whether skins included.",
+        "Establish slice-ready rack cooling and pan material/depth if reproducibility is required.",
+        "Nut/seed option preserves texture intent but seed version changes title expectations; do not remove option automatically."
+      ],
+      "preservedIdentity": "Banana nut loaf with melted butter and walnut/sunflower option; retain 9x5 geometry."
+    },
+    {
+      "slug": "blueberry-pancakes",
+      "family": "quick-batters",
+      "inputSha256": "676fc78f37e15dfe041108be5209f98ff081a8e70f1b45130f48c354b35d7cb7",
+      "ingredientAccounting": "All nine batter/berry ingredients assigned. 3/4 cup berries = 12 tbsp matches twelve toppings of 1 tbsp. Greasing butter and serving butter/syrup are additional, unlisted.",
+      "processAccounting": "Heat griddle, whisk 2-3 min, mix, rest 5 min, cook 4 min per pancake batch. Twelve 1/4-cup portions imply about 3 cups batter; yield requires cooking confirmation. Scaling requires batch count.",
+      "materialFindings": [
+        {
+          "id": "blueberry-pancakes-1",
+          "severity": "moderate",
+          "category": "method-metadata",
+          "evidence": "cookingMethods: ... no-cook / Cook for 2 minutes ... Flip and cook for another 2 minutes",
+          "finding": "No-cook tag contradicts griddle cooking and misclassifies method."
+        },
+        {
+          "id": "blueberry-pancakes-2",
+          "severity": "moderate",
+          "category": "capacity-timing",
+          "evidence": "cookTime: 15 min / large non-stick skillet / servings: 12 pancakes",
+          "finding": "15-minute cooking depends on at least roughly four pancakes per batch (3 batches x 4 min plus handling). Skillet capacity is unspecified; small skillet will take longer."
+        },
+        {
+          "id": "blueberry-pancakes-3",
+          "severity": "moderate",
+          "category": "ingredient-allocation",
+          "evidence": "3 tbsp Unsalted Butter, melted and cooled / Lightly grease with butter.",
+          "finding": "All measured butter goes into batter; greasing needs an explicitly additional amount/as-needed declaration to prevent subtraction from batter."
+        }
+      ],
+      "unresolvedCulinaryQuestions": [
+        "Verify twelve pancakes at stated scoop; do not infer serving diners from pancake count.",
+        "Lumps are not mandatory; avoid instructing cook to retain dry flour pockets."
+      ],
+      "preservedIdentity": "Honey-sweetened, fresh blueberries placed individually; preserve berry allocation."
+    },
+    {
+      "slug": "buttermilk-waffles",
+      "family": "quick-batters",
+      "inputSha256": "c718e22f8f327d96c8a10d00a57a776c8b44e0315272366cd0108fd90e296b51",
+      "ingredientAccounting": "All nine ingredients accounted in dry/wet mixes and vanilla fold. Grease and serving toppings are extra unlisted.",
+      "processAccounting": "Mix, rest 10-15 min, then preheat iron, portion 1/3-1/2 cup, cook until steam ceases/golden. Six servings lacks waffle count/iron capacity. Scaling adds batches.",
+      "materialFindings": [
+        {
+          "id": "buttermilk-waffles-1",
+          "severity": "high",
+          "category": "yield-timing",
+          "evidence": "servings: '6' / cookTime: 10 min / Pour about 1/3 to 1/2 cup ... Cook until the steam stops",
+          "finding": "No waffle count, iron type/capacity or per-batch time supports six servings and ten-minute cooking; complete-batch timing cannot be audited."
+        },
+        {
+          "id": "buttermilk-waffles-2",
+          "severity": "moderate",
+          "category": "timing",
+          "evidence": "prepTime: 10 min / totalTime: 30 min / rest ... 10-15 minutes / Preheat your waffle iron",
+          "finding": "Prep + rest + claimed cooking already totals 30-35 minutes, with preheating placed after rest. Total is an optimistic minimum and dependencies need clarification."
+        }
+      ],
+      "unresolvedCulinaryQuestions": [
+        "Confirm pour volume and waffle yield on specified iron, including whether indicator/steam cue is appropriate; do not invent a universal iron cook time.",
+        "Check butter temperature when mixing with cold buttermilk; lump claim should not require dry flour pockets."
+      ],
+      "preservedIdentity": "Buttermilk, butter, eggs, soda plus baking powder; vanilla. Preserve formula pending physical test."
+    },
+    {
+      "slug": "frozen-blueberry-muffins",
+      "family": "quick-batters",
+      "inputSha256": "1b554b7e83f6afc360d590ac192ed088f202cc942c0d16048cf7b03ca2797314",
+      "ingredientAccounting": "All ten ingredients assigned: sugar split 2 cups minus 2 tbsp + remaining 2 tbsp; butter/eggs/milk/vanilla wet; flour/powder/salt dry; berries fold; nutmeg topping. No missing sugar.",
+      "processAccounting": "Two 12-cup tins, 375F, cream 3-5 min then mix/fill, bake 20-25 min, cool 10 min. Twenty-four muffins plausible but cup size and fill require test.",
+      "materialFindings": [
+        {
+          "id": "frozen-blueberry-muffins-1",
+          "severity": "moderate",
+          "category": "timing",
+          "evidence": "totalTime: 30 min / Bake for 20-25 minutes / Let sit in the pan for 10 minutes",
+          "finding": "Ten-minute mandatory cooling omitted; stated prep plus bake plus rest = 40-45 min, excluding further rack cooling."
+        },
+        {
+          "id": "frozen-blueberry-muffins-2",
+          "severity": "moderate",
+          "category": "scaling",
+          "evidence": "2 cups Granulated Sugar (divided) / 2 cups minus 2 tbsp / remaining 2 tbsp",
+          "finding": "Method fixed sugar arithmetic fails when ingredient list is scaled. Both batter and topping allocations need ratio-consistent guidance."
+        },
+        {
+          "id": "frozen-blueberry-muffins-3",
+          "severity": "moderate",
+          "category": "storage",
+          "evidence": "advancePrep: ... make-ahead ... freeze-ahead / leftovers: excellent",
+          "finding": "Freezing/make-ahead promises lack cooling, packing, duration and thawing guidance."
+        }
+      ],
+      "unresolvedCulinaryQuestions": [
+        "Confirm standard muffin cup size and two-tin oven arrangement/rotation; lower rack batch may brown differently.",
+        "Frozen berries defining identity stays; claim they always maintain better texture is unverified."
+      ],
+      "preservedIdentity": "Frozen unsweetened berries and nutmeg sugar topping, creamed butter method; do not turn into melted-butter batter."
+    },
+    {
+      "slug": "roasted-asparagus",
+      "family": "roasted-vegetables",
+      "inputSha256": "b2c79d98b86e831fa89658b0c0152164cee37f00c3034c439c917757fba348c2",
+      "ingredientAccounting": "Asparagus/oil/salt/pepper -> toss/roast; lemon -> finish; Parmesan or zest -> finish optional. All assigned.",
+      "processAccounting": "Dry, single layer 425F 8-12 min, tender-crisp/brown tips. Four portions cannot be assessed from unweighted bunch; scaling depends on sheet area.",
+      "materialFindings": [
+        {
+          "id": "roasted-asparagus-1",
+          "severity": "moderate",
+          "category": "quantity",
+          "evidence": "1 bunch Fresh Asparagus, woody ends trimmed / servings: '4'",
+          "finding": "Bunch has no weight and stalk thickness is unspecified; amount, salt ratio and portion yield are not reproducible. Resolve quantity without inventing weight."
+        },
+        {
+          "id": "roasted-asparagus-2",
+          "severity": "moderate",
+          "category": "unsupported-claim",
+          "evidence": "Steaming it or cooking at low heat turns it gray and mushy. / evaporates surface moisture instantly",
+          "finding": "Absolute steaming and instantaneous-evaporation claims misteach method: the text gives no time/thickness limits or supporting source; remove absolutes rather than assert a universal alternative."
+        }
+      ],
+      "unresolvedCulinaryQuestions": [
+        "Establish thin/medium/thick stalk guidance and bunch weight in a cook test.",
+        "15-minute total assumes rapid preheat and middle of 8-12 minute range; clarify elapsed dependence."
+      ],
+      "preservedIdentity": "Simple lemon-finished roasted asparagus; optional Parmesan/zest preserved."
+    },
+    {
+      "slug": "roasted-root-vegetables",
+      "family": "roasted-vegetables",
+      "inputSha256": "d31c1f2497849d7614a5fe8e76c357315f1d1076e424485e57b56b201c1b831f",
+      "ingredientAccounting": "All eight entries assigned: mixed roots/oil/salt/pepper/garlic/herbs toss; syrup or honey and balsamic final glaze. Two sheets share single total glaze; clarify distribution if needed.",
+      "processAccounting": "Four pounds 1-inch roots on two sheets, 425F 35-40 min, toss halfway, glaze final 5 min. Six large side portions plausible; scaling requires proportional pan area.",
+      "materialFindings": [
+        {
+          "id": "roasted-root-vegetables-1",
+          "severity": "moderate",
+          "category": "doneness",
+          "evidence": "cut all ... equal 1-inch chunks so they cook at the same rate / Carrots, Parsnips, Sweet Potatoes, Beets / until the edges are dark brown and crispy",
+          "finding": "Equal dimensions do not guarantee equal tenderness across these vegetables. Method tests only edges; add interior-tenderness assessment and resolve beet/mixed-root variation rather than promise one timing fits all."
+        }
+      ],
+      "unresolvedCulinaryQuestions": [
+        "Specify sheet dimensions/oven arrangement and whether rotate racks for four pounds.",
+        "Confirm final-five-minute glaze is included in 35-40, not added after fully completed roast.",
+        "Do not invent proportions of roots; test representative mixture and late additions/batch separation if needed."
+      ],
+      "preservedIdentity": "Mixed root vegetables, herbs, garlic, maple/honey and balsamic glaze."
+    },
+    {
+      "slug": "roasted-sweet-potatoes",
+      "family": "roasted-vegetables",
+      "inputSha256": "8ac8056fabeec01127a40aaeb88977577abbd61675516ddf5ac3b486ef3618d5",
+      "ingredientAccounting": "Sweet potatoes plus all eight seasoning/oil entries -> toss; cilantro/lime -> finish. Cayenne declared optional but method should repeat optional qualifier. No ingredient loss.",
+      "processAccounting": "425F preheated lined sheet, spaced wedges flat-side down; 20 min + 10-12 min after flip; fork-creamy interior. Four portions plausible, two sheets as needed; larger batch requires area and rotation.",
+      "materialFindings": [],
+      "unresolvedCulinaryQuestions": [
+        "Clarify 3/4-inch as wedge thickness at widest point for reproducibility.",
+        "Lower-rack direct-bottom-heat explanation is oven dependent; confirm rack position in tested oven.",
+        "30-32 minute roast versus cookTime 30 is minor range rounding, not a major defect.",
+        "Verify manufacturer guidance for preheating loose parchment on the sheet; not classified as a confirmed material defect without product-specific evidence."
+      ],
+      "preservedIdentity": "Cumin-chili-smoked-paprika wedges with cilantro/lime; no quantity reduction justified."
+    },
+    {
+      "slug": "crispy-smashed-potatoes",
+      "family": "roasted-vegetables",
+      "inputSha256": "3c8616b59392c580148ed7d4de716da7c1b6578822ea6c34a3470dabfa85a466",
+      "ingredientAccounting": "Potatoes -> boil/smash; oil/garlic/herbs/salt/pepper -> season; flaky salt -> finish. All assigned; water salt and seasoning salt separate uses with amounts to taste.",
+      "processAccounting": "Cold-water start, boil 15-20 min, smash 1/2 inch, dry 5 min, roast 25-30 min. Oven preheat begins after boil. Four side portions plausible. Expanded smashed area requires spacing/pans.",
+      "materialFindings": [
+        {
+          "id": "crispy-smashed-potatoes-1",
+          "severity": "high",
+          "category": "timing",
+          "evidence": "cookTime: 40 min / totalTime: 50 min / cook for 15-20 minutes / sit for 5 minutes / Bake for 25-30 minutes",
+          "finding": "Boil + roast alone spans 40-50 min; mandatory drying adds 5, and cold-water heat-up, smashing and potentially oven preheat add more. Fifty-minute total does not honestly represent method upper bound/dependencies."
+        },
+        {
+          "id": "crispy-smashed-potatoes-2",
+          "severity": "moderate",
+          "category": "capacity",
+          "evidence": "Place potatoes on the sheet / about 1/2-inch thick",
+          "finding": "Smashed potatoes need nonoverlapping area for crisp edges; sheet dimensions/spacing or second-sheet instruction absent, especially under scaling."
+        }
+      ],
+      "unresolvedCulinaryQuestions": [
+        "Define baby potato approximate diameter so boil timing can be reproduced.",
+        "Determine whether oven preheat can overlap boil and measured elapsed time on intended equipment."
+      ],
+      "preservedIdentity": "Whole baby red/Yukon potatoes boiled, smashed, dried and roasted; oil/herbs, no dairy addition."
+    }
+  ]
+}
