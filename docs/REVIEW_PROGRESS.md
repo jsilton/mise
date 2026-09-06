@@ -684,3 +684,11 @@ Coverage: 159 reviewed original recipes + nine consolidations + 444 pending = 61
 Korma/dinner batch f483b7de00ca5997b572dc9dae1d1dbc47ebb704 deployed successfully in Pages run 34042646075. Live checks passed all ingredient allocations, staged greens/yogurt holding, complete times, fixed cooker batch, three meal components and precise rice/naan halves, prepared shortcut, four calendar comments, cook mode and mobile/print.
 
 Verification: all 29 QA checks pass and 731 built pages have no broken internal destinations or anchors. Explicit recipe lint passes. Browser checks passed the recovered source link, retained seven portions/full salad/honey, separate lime and oil amounts, complete time, fixed pan batch, intermediate and final fish checks, optional rice relationship, removed repeated sides, inline cues, cook mode and mobile/print. Root visually inspected the mobile method. These checks do not establish dry-pan release, flavor or measured finished yield.
+
+## Scaled ingredient labels
+
+Scaled ingredient labels now agree with their quantities: half of two cloves reads one clove; fractions at or below one cup use cup; larger amounts use cups. Handles familiar full measurement words, cans/bottles, named garlic cloves and eggs/egg whites/yolks, including clear alternative amounts and measured equivalents. Keeps package sizes, preparation dimensions, ingredient names and exact original reset text unchanged. This is label grammar, not a recipe review or expanded guarantee that every batch fits its original pan.
+
+Verification: 28 focused tests and all 29 QA checks pass. Compared all 33,535 ingredient/factor cases across the current collection against the previous scaler: 2,369 labels improve with every numeric value unchanged. Browser checks passed naan half/double labels, matching milk equivalents, unchanged milk temperature, exact reset, mobile width and printed scaled amounts. All 731 built pages have valid internal destinations and anchors. Culinary coverage is unchanged.
+
+Lime-honey salmon batch 6fd47c3a5bc98cf77c2cb97d9c51de0576f0f089 deployed successfully in Pages run 34042932927. Live checks passed recovered attribution, all retained food quantities and separate lime/oil allocations, complete timing, fixed pan batch, fish/glaze sequence, optional rice, removed duplicate sides, inline cues and mobile/cook-mode/print.

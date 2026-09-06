@@ -11,6 +11,39 @@ const fractions = {
 };
 const number = '(?:\\d+\\s+\\d+/\\d+|\\d+/\\d+|\\d+(?:\\.\\d+)?)';
 const leading = new RegExp(`^(${number})(?:\\s*[–—-]\\s*(${number}))?(?=\\s|$)`);
+const countedUnits = [
+  'cup',
+  'tablespoon',
+  'teaspoon',
+  'ounce',
+  'pound',
+  'gram',
+  'kilogram',
+  'liter',
+  'litre',
+  'quart',
+  'pint',
+  'clove',
+  'egg white',
+  'egg yolk',
+  'egg',
+  'can',
+  'bottle',
+];
+const unitAtStart = new RegExp(
+  `^(\\s+(?:\\([^)]*\\)\\s+)?(?:small\\s+|medium\\s+|large\\s+)?(?:garlic\\s+)?)(${countedUnits.join('|')})(s?)\\b`,
+  'i'
+);
+function scaledUnit(unit, value) {
+  const singular = unit.replace(/s$/i, '');
+  return value <= 1 ? singular : singular + (unit === unit.toUpperCase() ? 'S' : 's');
+}
+function inflectLeadingUnit(rest, value) {
+  return rest.replace(
+    unitAtStart,
+    (_match, prefix, unit, plural) => prefix + scaledUnit(unit + plural, value)
+  );
+}
 function numeric(value) {
   const parts = value.trim().split(/\s+/);
   const sum = parts.reduce((total, part) => {
@@ -58,7 +91,7 @@ export function scaleIngredient(text, factor) {
   const values = [match[1], match[2]].filter(Boolean).map(numeric);
   if (values.some((v) => v === null)) return text;
   const quantity = values.map((v) => formatQuantity(v * factor)).join('–');
-  let rest = normalized.slice(match[0].length);
+  let rest = inflectLeadingUnit(normalized.slice(match[0].length), Math.max(...values) * factor);
   // Scale equivalent weights/volumes only when the leading amount also has a unit.
   // A counted package's size, e.g. "2 (14 oz) cans", stays fixed.
   if (
@@ -74,16 +107,18 @@ export function scaleIngredient(text, factor) {
       const value = numeric(amount);
       return value === null
         ? match
-        : `(${qualifier || ''}${formatQuantity(value * factor)} ${unit})`;
+        : `(${qualifier || ''}${formatQuantity(value * factor)} ${countedUnits.includes(unit.toLowerCase().replace(/s$/, '')) ? scaledUnit(unit, value * factor) : unit})`;
     });
   }
   const additionalOrAlternative = new RegExp(
-    `(\\b(?:or|plus)(?:\\s+up\\s+to)?\\s+)(${number})(?=\\s+(?:cups?|tbsp|tsp|oz|lbs?|g|ml|eggs?|cloves?)\\b)`,
+    `(\\b(?:or|plus)(?:\\s+up\\s+to)?\\s+)(${number})(\\s+(?:cups?|tbsp|tsp|oz|lbs?|g|ml|egg\\s+(?:whites?|yolks?)|eggs?|cloves?)\\b)`,
     'gi'
   );
-  rest = rest.replace(additionalOrAlternative, (match, prefix, amount) => {
+  rest = rest.replace(additionalOrAlternative, (match, prefix, amount, unit) => {
     const value = numeric(amount);
-    return value === null ? match : prefix + formatQuantity(value * factor);
+    return value === null
+      ? match
+      : prefix + formatQuantity(value * factor) + inflectLeadingUnit(unit, value * factor);
   });
   return quantity + rest;
 }

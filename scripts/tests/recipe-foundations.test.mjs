@@ -7,7 +7,7 @@ import { reviewRecipe } from '../recipe-editorial.mjs';
 test('ingredient scaling handles fractions, decimals, unicode and ranges', () => {
   assert.equal(scaleIngredient('1/2 tsp salt', 2), '1 tsp salt');
   assert.equal(scaleIngredient('1.5 lbs broccoli', 2), '3 lbs broccoli');
-  assert.equal(scaleIngredient('1 1/2 cups flour', 0.5), '3/4 cups flour');
+  assert.equal(scaleIngredient('1 1/2 cups flour', 0.5), '3/4 cup flour');
   assert.equal(scaleIngredient('1½ cups milk', 2), '3 cups milk');
   assert.equal(scaleIngredient('1–2 tsp lemon', 2), '2–4 tsp lemon');
   assert.equal(scaleIngredient('1/8 tsp pepper', 0.5), '0.0625 tsp pepper');
@@ -16,7 +16,7 @@ test('equivalent weights scale but package sizes and cuts do not', () => {
   assert.equal(scaleIngredient('8 oz (225 g) pasta', 2), '16 oz (450 g) pasta');
   assert.equal(
     scaleIngredient('225 g (about 1 1/2 cups) pearl couscous', 0.5),
-    '112 1/2 g (about 3/4 cups) pearl couscous'
+    '112 1/2 g (about 3/4 cup) pearl couscous'
   );
   assert.equal(
     scaleIngredient('1 1/2 cups (about 225 g) pearl couscous', 2),
@@ -36,7 +36,7 @@ test('litre equivalents scale together while bottle sizes stay fixed', () => {
   assert.equal(scaleIngredient('10 cups (2.4 L) cold water', 0.5), '5 cups (1.2 L) cold water');
   assert.equal(scaleIngredient('2 L (2000 ml) water', 0.5), '1 L (1000 ml) water');
   assert.equal(scaleIngredient('2 litres (2000 ml) water', 2), '4 litres (4000 ml) water');
-  assert.equal(scaleIngredient('2 (1 L) bottles stock', 0.5), '1 (1 L) bottles stock');
+  assert.equal(scaleIngredient('2 (1 L) bottles stock', 0.5), '1 (1 L) bottle stock');
 });
 test('additional measured amounts scale with their equivalent volumes', () => {
   assert.equal(
@@ -53,7 +53,7 @@ test('additional measured amounts scale with their equivalent volumes', () => {
   );
   assert.equal(
     scaleIngredient('2 (14 oz) cans tomatoes, plus a 1-inch piece ginger', 0.5),
-    '1 (14 oz) cans tomatoes, plus a 1-inch piece ginger'
+    '1 (14 oz) can tomatoes, plus a 1-inch piece ginger'
   );
 });
 test('unquantified amounts and exact original formatting survive reset', () => {
@@ -209,4 +209,27 @@ test('measured endpoints and explicit cautions do not promise poultry carryover'
     );
     assert.ok(!result.issues.some((issue) => issue.code === 'poultry-carryover-review'));
   }
+});
+
+test('scaled quantity labels agree without rewriting ingredient names or package sizes', () => {
+  assert.equal(scaleIngredient('2 cloves garlic, minced', 0.5), '1 clove garlic, minced');
+  assert.equal(scaleIngredient('1 small garlic clove, minced', 2), '2 small garlic cloves, minced');
+  assert.equal(
+    scaleIngredient('2 cups flour, plus 1 cup for dusting', 0.5),
+    '1 cup flour, plus 1/2 cup for dusting'
+  );
+  assert.equal(scaleIngredient('1/2 cup flour', 3), '1 1/2 cups flour');
+  assert.equal(scaleIngredient('1–2 cloves garlic', 0.5), '1/2–1 clove garlic');
+  assert.equal(scaleIngredient('2 CUPS flour', 0.5), '1 CUP flour');
+  assert.equal(scaleIngredient('2 (14 oz) cans tomatoes', 0.5), '1 (14 oz) can tomatoes');
+  assert.equal(scaleIngredient('1 tsp ground cloves', 2), '2 tsp ground cloves');
+  assert.equal(scaleIngredient('2 cups chopped eggs', 0.5), '1 cup chopped eggs');
+  assert.equal(scaleIngredient('2 large eggs, beaten', 0.5), '1 large egg, beaten');
+  assert.equal(scaleIngredient('2 large egg whites, beaten', 0.5), '1 large egg white, beaten');
+  assert.equal(
+    scaleIngredient('1 egg yolk, plus 1 egg white', 2),
+    '2 egg yolks, plus 2 egg whites'
+  );
+  assert.equal(scaleIngredient('1 cup stock or 1 cup water', 2), '2 cups stock or 2 cups water');
+  assert.equal(scaleIngredient('2 cloves garlic, minced', 1), '2 cloves garlic, minced');
 });
