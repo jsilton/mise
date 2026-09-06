@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "family": "grain-hydration",
+  "createdAt": "2026-09-06T23:28:32.702287+00:00",
+  "purpose": "Bounded method evidence, not recipe findings or publication authorization.",
+  "sources": [
+    {
+      "id": "grains",
+      "url": "https://wholegrainscouncil.org/recipes/cooking-whole-grains",
+      "publisher": "Oldways Whole Grains Council",
+      "accessedAt": "2026-09-06T23:28:32.702287+00:00",
+      "access": "Relevant full page text read through web open.",
+      "section": "Plain Grains; Grain Pilaf; Important: Time Varies",
+      "claim": "Absorption cooking simmers grain with liquid; pilaf first coats grain in oil. Grain age, variety and pan affect timing. If still firm after nominal time, additional water and cooking may be needed.",
+      "application": "Evaluate specified product, tenderness and liquid availability, using package guidance when available.",
+      "exclusion": "Whole-grain overview is not one ratio for white rice, quinoa, instant grain or cornmeal; drainage recovery does not automatically suit creamy porridge."
+    },
+    {
+      "id": "safe-temperatures",
+      "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures",
+      "publisher": "FoodSafety.gov",
+      "accessedAt": "2026-09-06T23:28:32.702287+00:00",
+      "access": "Relevant full page text read through web open.",
+      "section": "Safe Minimum Internal Temperature Chart",
+      "claim": "Whole beef/pork roasts: 145\u00b0F (63\u00b0C), then 3-minute rest. Ground meat: 160\u00b0F (71\u00b0C). Leftovers: 165\u00b0F (74\u00b0C).",
+      "application": "Match food category and measure internal temperature.",
+      "exclusion": "Minimum safety temperatures do not establish tenderness, cooking duration, cooling/storage limits or every preparation-specific hazard."
+    }
+  ],
+  "editorialChecksNotSourceClaims": [
+    "Inventory every source of cooking liquid, grain preparation, lid state and required rest. Specify dry versus cooked amount.",
+    "Test desired grain/porridge texture; retain unknown absorption and finished yield as unknown. A timer alone cannot establish tenderness."
+  ],
+  "unknowns": [
+    "Cooling and storage guidance unavailable in this packet; a USDA leftovers page returned 403. Do not derive storage duration from cooking-temperature guidance."
+  ],
+  "limits": "No recipe-specific blind-reference findings used. No kitchen test. Quantities, yields, safety changes and identity changes require exception review."
+}

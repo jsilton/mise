@@ -1,1 +1,102 @@
-[]
+[
+  {
+    "id": "baseline-lemon-ricotta-pasta-1",
+    "slug": "lemon-ricotta-pasta",
+    "category": "material-defect",
+    "disposition": "missed",
+    "rationale": "Explicit one-minute undercook followed by unheated bowl has no tenderness checkpoint. Worker extracted stages but did not flag this gap.",
+    "referenceId": "lemon-ricotta-pasta-1",
+    "workerFindingId": null,
+    "trial": "pasta-internal-only"
+  },
+  {
+    "id": "baseline-lemon-ricotta-pasta-2",
+    "slug": "lemon-ricotta-pasta",
+    "category": "material-defect",
+    "disposition": "pending",
+    "rationale": "15 minutes may be achievable with overlapping prep and fast water heating. Missing assumptions merit clarification, but insufficient evidence to call total objectively wrong.",
+    "referenceId": "lemon-ricotta-pasta-2",
+    "workerFindingId": null,
+    "trial": "pasta-internal-only"
+  },
+  {
+    "id": "baseline-real-spaghetti-carbonara-1",
+    "slug": "real-spaghetti-carbonara",
+    "category": "material-defect",
+    "disposition": "accepted",
+    "rationale": "Detached lemon ingredient has no destination; worker correctly escalates without deletion.",
+    "referenceId": "real-spaghetti-carbonara-1",
+    "workerFindingId": "CARB-1",
+    "trial": "pasta-internal-only"
+  },
+  {
+    "id": "baseline-real-spaghetti-carbonara-2",
+    "slug": "real-spaghetti-carbonara",
+    "category": "material-defect",
+    "disposition": "missed",
+    "rationale": "Unqualified residual-heat egg-cooking assurance has no measured endpoint or pasteurized-egg specification. FDA egg-safety packet supports escalation; not proof any cooked batch was unsafe. Baseline lacked external packet and failed to mark safety unresolved.",
+    "referenceId": "real-spaghetti-carbonara-2",
+    "workerFindingId": null,
+    "trial": "pasta-internal-only"
+  },
+  {
+    "id": "baseline-real-spaghetti-carbonara-3",
+    "slug": "real-spaghetti-carbonara",
+    "category": "material-defect",
+    "disposition": "missed",
+    "rationale": "Verified actual scaleIngredient at 2x returns 8 large Eggs (2 whole, 2 yolks), leaving egg split inconsistent.",
+    "referenceId": "real-spaghetti-carbonara-3",
+    "workerFindingId": null,
+    "trial": "pasta-internal-only"
+  },
+  {
+    "id": "baseline-real-alfredo-sauce-1",
+    "slug": "real-alfredo-sauce",
+    "category": "material-defect",
+    "disposition": "accepted",
+    "rationale": "Unassigned lemon correctly escalated without changing formula.",
+    "referenceId": "real-alfredo-sauce-1",
+    "workerFindingId": "ALF-1",
+    "trial": "pasta-internal-only"
+  },
+  {
+    "id": "baseline-real-alfredo-sauce-2",
+    "slug": "real-alfredo-sauce",
+    "category": "material-defect",
+    "disposition": "accepted",
+    "rationale": "Worker identifies required but unspecified pasta and caller-supplied dependency. This detects the coverage problem, though it does not solve yield.",
+    "referenceId": "real-alfredo-sauce-2",
+    "workerFindingId": "ALF-2",
+    "trial": "pasta-internal-only"
+  },
+  {
+    "id": "baseline-real-alfredo-sauce-3",
+    "slug": "real-alfredo-sauce",
+    "category": "material-defect",
+    "disposition": "missed",
+    "rationale": "Make-ahead label promises a use case without storage/reheating directions; worker omitted review of this frontmatter.",
+    "referenceId": "real-alfredo-sauce-3",
+    "workerFindingId": null,
+    "trial": "pasta-internal-only"
+  },
+  {
+    "id": "baseline-buttered-egg-noodles-1",
+    "slug": "buttered-egg-noodles",
+    "category": "material-defect",
+    "disposition": "pending",
+    "rationale": "Sea-water analogy is imprecise and salt density unresolved. Oversalting is plausible, not demonstrated; requires seasoning review, not a claimed measured defect.",
+    "referenceId": "buttered-egg-noodles-1",
+    "workerFindingId": null,
+    "trial": "pasta-internal-only"
+  },
+  {
+    "id": "baseline-buttered-egg-noodles-2",
+    "slug": "buttered-egg-noodles",
+    "category": "material-defect",
+    "disposition": "pending",
+    "rationale": "Worker explicitly flags unreconstructable elapsed time. Do not label a conditional timing concern as a confirmed miss.",
+    "referenceId": "buttered-egg-noodles-2",
+    "workerFindingId": null,
+    "trial": "pasta-internal-only"
+  }
+]

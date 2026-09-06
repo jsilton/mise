@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "family": "quick-batters",
+  "createdAt": "2026-09-06T23:28:32.702287+00:00",
+  "purpose": "Bounded method evidence, not recipe findings or publication authorization.",
+  "sources": [
+    {
+      "id": "mixing-experiment",
+      "url": "https://www.kingarthurbaking.com/blog/2017/04/20/dont-make-this-pancake-mistake",
+      "publisher": "King Arthur Baking / Kye Ameden",
+      "accessedAt": "2026-09-06T23:28:32.702287+00:00",
+      "access": "Full relevant publisher article text read in web search extraction; direct open returned client challenge. Access limitation retained.",
+      "section": "Deflating your batter; Developing gluten; Does it really make a difference?",
+      "claim": "Author compared gently mixed pancakes with two-minute vigorous mixing; the latter were flatter and chewier. Gentle combining preserves bubbles and limits gluten development; small lumps are acceptable but dry flour spots should be incorporated.",
+      "application": "Wheat-flour pancake batter; supports avoiding needless mixing after wet/dry combination.",
+      "exclusion": "Not a universal stroke count, mandatory lumps, or proof for every gluten-free/creamed batter."
+    },
+    {
+      "id": "flour-safety",
+      "url": "https://www.fda.gov/food/buy-store-serve-safe-food/handling-flour-safely-what-you-need-know",
+      "publisher": "FDA",
+      "accessedAt": "2026-09-06T23:28:32.702287+00:00",
+      "access": "Full relevant FDA page text read in web search extraction.",
+      "section": "5 Important Things; Dos and Don\u2019ts",
+      "claim": "Raw flour and eggs can carry harmful bacteria. Do not taste raw dough/batter; cook according to applicable instructions and clean raw-contact equipment.",
+      "application": "Flour-based pancakes, waffles, muffins and quick breads.",
+      "exclusion": "Does not set one doneness temperature/time across formulas or validate home flour heat-treatment."
+    }
+  ],
+  "editorialChecksNotSourceClaims": [
+    "Distinguish mixing stages, resting, heating, batch cooking and cooling. Include iron/griddle/tin dimensions, capacity and batch count in elapsed-time evaluation.",
+    "Preserve ingredient allocations and pan geometry under scaling; do not multiply bake time with ingredient amounts."
+  ],
+  "unknowns": [
+    "Leavening balance, fruit water, rest duration, finished yield and loaf-center doneness need formula-specific evidence or test."
+  ],
+  "limits": "No recipe-specific blind-reference findings used. No kitchen test. Quantities, yields, safety changes and identity changes require exception review."
+}

@@ -14,3 +14,7 @@ For each recipe return a JSON object with `slug`, `inputSha256`, `ingredientLedg
 Read the complete recipe before writing findings. Check every ingredient destination, method sequence, temperature/texture endpoint, source attribution, scaling implications, proportions, serving yield, timing, equipment, substitutions and actual relationships. Do not assume every category has a defect. Do not add generic educational filler or prohibited recipe panels. No manufacturer promotion or physical-test claims.
 
 Return one `worker.json` containing `model`, `startedAt`, `finishedAt`, `usage` (actual input/output tokens and USD when tool supplied; otherwise null), `recipes`, and `limitations`. Preserve exact source bytes and hashes. Report partial completion explicitly. Keep explanations short enough for efficient adjudication; never omit a material finding to meet a length target.
+
+## Revision after the internal-only baseline
+
+Examine frontmatter as well as prose. Include `coverage` with explicit findings, no-issue reasoning or unresolved questions for timing, equipment, proportions, yield, scaling, substitutions, attribution, relationships and nutrition plausibility. Do not invent nutrition calculations. Give exact routine replacement text when a supported metadata or presentation correction is identified; findings alone are not proposed edits. In process records distinguish `statedEquipment` from `inferredEquipment`; never label inferred tools as source facts. Do not infer that absent evidence means a category passed.

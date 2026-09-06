@@ -18,4 +18,4 @@ Record timestamps per assignment and reviewer session. Wall time includes waitin
 
 ## Current state
 
-Cohort frozen; blind reference reviews commissioned. Worker evaluation, method packets, adjudication and recipe changes remain pending. Existing curry/fajita proposals are preserved outside this pilot and must not be counted as pilot wins.
+Cohort frozen and both blind reference groups preserved. Six compact primary-source packets are available, with access limitations recorded. The four-recipe internal-only pasta baseline is adjudicated in BASELINE_EVALUATION.md and failed the rollout gate. Revised source-backed workers are in progress; full pilot evaluation and recipe changes remain pending. Existing curry/fajita proposals are preserved outside this pilot and must not be counted as pilot wins.

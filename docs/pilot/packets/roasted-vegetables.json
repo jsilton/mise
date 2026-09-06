@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "family": "roasted-vegetables",
+  "createdAt": "2026-09-06T23:28:32.702287+00:00",
+  "purpose": "Bounded method evidence, not recipe findings or publication authorization.",
+  "sources": [
+    {
+      "id": "roasting",
+      "url": "https://extension.oregonstate.edu/imported-publication/roasted-vegetables",
+      "publisher": "Oregon State University Extension / Food Hero",
+      "accessedAt": "2026-09-06T23:28:32.702287+00:00",
+      "access": "Full relevant OSU page text read in web search extraction; two direct opens failed (timeout/internal error).",
+      "section": "Directions 3\u201311",
+      "claim": "Cut similar-size pieces; smaller pieces cook faster. Arrange a single layer, roast until tender with browned edges, and turn during cooking for even browning. Refrigerate leftovers within two hours.",
+      "application": "Sheet-pan vegetable roasting; supports geometry-aware timing and both tenderness/browning checks.",
+      "exclusion": "Does not prove different vegetables of equal size finish together; example times are not a universal schedule."
+    }
+  ],
+  "editorialChecksNotSourceClaims": [
+    "Record cut thickness, pan usable area, layer/spacing, number of sheets and rack arrangement. Scaling requires capacity review.",
+    "Count oven preheat, prep, any precook/dry stage, roasting and final glaze. Check interior texture as well as edges."
+  ],
+  "unknowns": [
+    "Specific combinations, oven airflow, parchment limits and glaze scorching require recipe/equipment evidence. No universal oil quantity or cooking duration established."
+  ],
+  "limits": "No recipe-specific blind-reference findings used. No kitchen test. Quantities, yields, safety changes and identity changes require exception review."
+}

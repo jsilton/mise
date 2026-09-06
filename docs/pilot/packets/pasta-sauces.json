@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "family": "pasta-sauces",
+  "createdAt": "2026-09-06T23:28:32.702287+00:00",
+  "purpose": "Bounded method evidence, not recipe findings or publication authorization.",
+  "sources": [
+    {
+      "id": "pasta-method",
+      "url": "https://www.barilla.com/en-us/help-with/pasta-kitchen-tips/how-to-cook-pasta",
+      "publisher": "Barilla / Chef Lorenzo Boni",
+      "accessedAt": "2026-09-06T23:28:32.702287+00:00",
+      "access": "Relevant full page text read through web open.",
+      "section": "How to Cook Pasta steps 6\u201310",
+      "claim": "Use package cooking guidance; stir during boiling, reserve cooking water before draining and avoid rinsing when starch-assisted sauce adhesion is wanted. Toss pasta with sauce and add reserved water as needed.",
+      "application": "Conventional hot sauced pasta; identify boiling and finishing dependencies.",
+      "exclusion": "Manufacturer\u2019s heated sauce finish does not authorize heating every egg/cheese emulsion identically; no universal sauce ratio or safe egg endpoint."
+    },
+    {
+      "id": "egg-safety",
+      "url": "https://www.fda.gov/food/retail-food-industryregulatory-assistance-training/assuring-safety-eggs-and-menu-and-deli-items-made-raw-shell-eggs",
+      "publisher": "FDA",
+      "accessedAt": "2026-09-06T23:28:32.702287+00:00",
+      "access": "Relevant full page text read through web open.",
+      "section": "Preventing Contamination; Cooking and Serving",
+      "claim": "Use pasteurized eggs/egg products for sauces not thoroughly cooked. Raw eggs can carry Salmonella; safe handling and sufficient cooking matter.",
+      "application": "Egg-containing pasta sauces with light or uncertain cooking.",
+      "exclusion": "Retail guidance is not a measured validation of a household residual-heat method. A glossy sauce or warm bowl does not specify attained time/temperature."
+    }
+  ],
+  "editorialChecksNotSourceClaims": [
+    "Separate boiling time, water heating and sauce work. Record retained-water quantity and adjustable additions.",
+    "Maintain split ingredient allocations when scaling; identify bowl/skillet capacity and serving temperature."
+  ],
+  "unknowns": [
+    "Cheese type, moisture, acidity and fat levels affect a particular sauce; no universal emulsion temperature or substitute ratio established."
+  ],
+  "limits": "No recipe-specific blind-reference findings used. No kitchen test. Quantities, yields, safety changes and identity changes require exception review."
+}

@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "family": "quick-seafood",
+  "createdAt": "2026-09-06T23:28:32.702287+00:00",
+  "purpose": "Bounded method evidence, not recipe findings or publication authorization.",
+  "sources": [
+    {
+      "id": "seafood-safety",
+      "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-and-frozen-seafood-safely",
+      "publisher": "FDA",
+      "accessedAt": "2026-09-06T23:28:32.702287+00:00",
+      "access": "Relevant full page text read through web open.",
+      "section": "Store Properly; Thawing; Cooking; Serving",
+      "claim": "Refrigerate seafood at 40\u00b0F or below when using within two days; otherwise freeze. Thaw overnight refrigerated, or sealed in cold water. Most seafood: 145\u00b0F; shrimp/scallops become firm, pearly and opaque. Perishables: maximum two hours unrefrigerated, one hour above 90\u00b0F.",
+      "application": "Fresh/thawed shrimp and scallops; distinguish cooking cue from elapsed-time guess. Keep raw-contact equipment separate from ready-to-eat garnishes.",
+      "exclusion": "Does not supply pan capacity, sear time, seafood count/size, or prove browning equals a cooked center."
+    }
+  ],
+  "editorialChecksNotSourceClaims": [
+    "Record thawing dependency, seafood size, drying, pan dimensions and number of batches. Measure whole elapsed time including sauce/garnish work and reheating between batches.",
+    "Assess interior endpoint separately from surface sear. Count all separate ingredient uses and raw-contact sauce paths."
+  ],
+  "unknowns": [
+    "No additional primary searing mechanism source verified within this bounded packet; drying/crowding effects and exact batch capacity remain questions for source review or cooking tests."
+  ],
+  "limits": "No recipe-specific blind-reference findings used. No kitchen test. Quantities, yields, safety changes and identity changes require exception review."
+}

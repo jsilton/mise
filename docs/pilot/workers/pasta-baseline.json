@@ -1,0 +1,365 @@
+{
+  "model": "gpt-5.6-luna-low",
+  "startedAt": "2026-09-06T23:25:52Z",
+  "finishedAt": "2026-09-06T23:29:10Z",
+  "usage": { "inputTokens": null, "outputTokens": null, "usd": null },
+  "recipes": [
+    {
+      "slug": "lemon-ricotta-pasta",
+      "inputSha256": "ddb68f05aa03e8ca40ac9a56e13ad4eefa6a032b6b9d7cfd0c09f1e410d88789",
+      "ingredientLedger": [
+        { "text": "1 lb Bucatini or Spaghetti", "destinations": [1, 5], "status": "allocated" },
+        { "text": "1 cup Fresh Ricotta Cheese", "destinations": [3, 4, 5], "status": "allocated" },
+        {
+          "text": "1/2 cup Extra-Virgin Olive Oil",
+          "destinations": [3, 6],
+          "status": "allocated; final drizzle quantity unclear"
+        },
+        {
+          "text": "1/2 cup Freshly Grated Pecorino Romano",
+          "destinations": [3, 5],
+          "status": "allocated"
+        },
+        { "text": "1 Lemon, zested and juiced", "destinations": [3], "status": "allocated" },
+        { "text": "1/2 tsp Red Pepper Flakes", "destinations": [3], "status": "allocated" },
+        { "text": "1/2 cup Fresh Basil, torn", "destinations": [6], "status": "allocated" },
+        { "text": "Salt and Black Pepper", "destinations": [1, 6], "status": "allocated" }
+      ],
+      "process": [
+        {
+          "stage": 1,
+          "text": "Cook pasta in heavily salted water for 1 minute less than package instructions.",
+          "minutes": null,
+          "dependsOn": [],
+          "attention": true,
+          "equipment": "large pot"
+        },
+        {
+          "stage": 2,
+          "text": "Reserve 1 cup hot starchy pasta water before draining.",
+          "minutes": null,
+          "dependsOn": [1],
+          "attention": true,
+          "equipment": "pot; measuring cup"
+        },
+        {
+          "stage": 3,
+          "text": "Whisk sauce ingredients.",
+          "minutes": null,
+          "dependsOn": [],
+          "attention": true,
+          "equipment": "large bowl; whisk"
+        },
+        {
+          "stage": 4,
+          "text": "Whisk 1/4 cup pasta water into mixture.",
+          "minutes": null,
+          "dependsOn": [2, 3],
+          "attention": true,
+          "equipment": "bowl; whisk"
+        },
+        {
+          "stage": 5,
+          "text": "Toss pasta with sauce, adding water by tablespoon.",
+          "minutes": null,
+          "dependsOn": [1, 4],
+          "attention": true,
+          "equipment": "bowl"
+        },
+        {
+          "stage": 6,
+          "text": "Stir in basil and pepper; drizzle oil; serve.",
+          "minutes": null,
+          "dependsOn": [5],
+          "attention": false,
+          "equipment": "serving dishes"
+        }
+      ],
+      "findings": [
+        {
+          "id": "LRP-1",
+          "support": "cookingMethods: roast",
+          "category": "metadata/process",
+          "severity": "minor",
+          "evidenceIds": [],
+          "explanation": "No direction performs roasting."
+        },
+        {
+          "id": "LRP-2",
+          "support": "1/2 cup Extra-Virgin Olive Oil; final drizzle of oil",
+          "category": "ingredient accounting",
+          "severity": "material",
+          "evidenceIds": ["IC2"],
+          "explanation": "Final drizzle has no quantity or allowance."
+        }
+      ],
+      "proposedEdits": [],
+      "unresolved": ["Clarify whether final oil drizzle is from listed oil."],
+      "identityPreserved": ["lemon, ricotta, Pecorino, basil, pasta-water binding"]
+    },
+    {
+      "slug": "real-spaghetti-carbonara",
+      "inputSha256": "4f1c254da4fcea064420732b94f5860a0855f3590eb4a210a2283ae4c28becaa",
+      "ingredientLedger": [
+        { "text": "1 lb Spaghetti or Rigatoni", "destinations": [1, 5], "status": "allocated" },
+        {
+          "text": "4 oz Guanciale or Pancetta (thickly diced)",
+          "destinations": [2, 5],
+          "status": "allocated"
+        },
+        {
+          "text": "4 large Eggs (2 whole, 2 yolks)",
+          "destinations": [3, 6],
+          "status": "allocated"
+        },
+        {
+          "text": "1 cup Pecorino Romano or Parmesan, freshly grated",
+          "destinations": [3, 7],
+          "status": "allocated; extra unspecified"
+        },
+        {
+          "text": "1 tsp Freshly Cracked Black Pepper (lots!)",
+          "destinations": [3, 7],
+          "status": "allocated; extra unspecified"
+        },
+        { "text": "Salt for pasta water", "destinations": [1], "status": "allocated" },
+        { "text": "1-2 Lemons, juiced", "destinations": [], "status": "absent destination" }
+      ],
+      "process": [
+        {
+          "stage": 1,
+          "text": "Boil and cook pasta 1 minute less.",
+          "minutes": null,
+          "dependsOn": [],
+          "attention": true,
+          "equipment": "large pot"
+        },
+        {
+          "stage": 2,
+          "text": "Render pork while pasta boils.",
+          "minutes": null,
+          "dependsOn": [1],
+          "attention": true,
+          "equipment": "skillet"
+        },
+        {
+          "stage": 3,
+          "text": "Warm whisked egg/cheese mixture over pot for 1 minute.",
+          "minutes": 1,
+          "dependsOn": [1],
+          "attention": true,
+          "equipment": "bowl; pot"
+        },
+        {
+          "stage": 4,
+          "text": "Reserve water and drain.",
+          "minutes": null,
+          "dependsOn": [1, 3],
+          "attention": true,
+          "equipment": "pot; measuring cup"
+        },
+        {
+          "stage": 5,
+          "text": "Toss pasta with fat and egg mixture.",
+          "minutes": null,
+          "dependsOn": [2, 4],
+          "attention": true,
+          "equipment": "skillet"
+        },
+        {
+          "stage": 6,
+          "text": "Add water and emulsify.",
+          "minutes": null,
+          "dependsOn": [5],
+          "attention": true,
+          "equipment": "skillet"
+        }
+      ],
+      "findings": [
+        {
+          "id": "CARB-1",
+          "support": "1-2 Lemons, juiced",
+          "category": "ingredient accounting",
+          "severity": "material",
+          "evidenceIds": ["IC2"],
+          "explanation": "Listed but unused."
+        },
+        {
+          "id": "CARB-2",
+          "support": "Serve immediately with extra Pecorino and pepper.",
+          "category": "ingredient accounting",
+          "severity": "minor",
+          "evidenceIds": ["IC2"],
+          "explanation": "Finishing amounts are unspecified."
+        }
+      ],
+      "proposedEdits": [],
+      "unresolved": ["Clarify lemon lines and finishing cheese/pepper allowances."],
+      "identityPreserved": ["guanciale/pancetta, eggs, cheese, pepper, off-heat tempering"]
+    },
+    {
+      "slug": "real-alfredo-sauce",
+      "inputSha256": "b190666d460b884bbe324f06fdcc2d3f89db2c86f0bd363e106128d2f8816f99",
+      "ingredientLedger": [
+        { "text": "1 stick (8 tbsp) Unsalted Butter", "destinations": [1], "status": "allocated" },
+        { "text": "1 cup Heavy Cream", "destinations": [2], "status": "allocated" },
+        {
+          "text": "1 1/2 cups Freshly Grated Parmesan Cheese (Do not use the green shaker!)",
+          "destinations": [3],
+          "status": "allocated"
+        },
+        {
+          "text": "1/2 tsp Garlic Powder or 1 clove fresh garlic, grated",
+          "destinations": [2],
+          "status": "allocated"
+        },
+        { "text": "Pinch of Nutmeg (optional)", "destinations": [5], "status": "allocated" },
+        { "text": "Salt and Black Pepper to taste", "destinations": [5], "status": "allocated" },
+        { "text": "1/4 cup Reserved Pasta Water", "destinations": [4], "status": "allocated" },
+        { "text": "1-2 Lemons, juiced", "destinations": [], "status": "absent destination" }
+      ],
+      "process": [
+        {
+          "stage": 1,
+          "text": "Melt butter.",
+          "minutes": null,
+          "dependsOn": [],
+          "attention": true,
+          "equipment": "skillet or saucepan"
+        },
+        {
+          "stage": 2,
+          "text": "Simmer cream and garlic 2 minutes.",
+          "minutes": 2,
+          "dependsOn": [1],
+          "attention": true,
+          "equipment": "skillet or saucepan"
+        },
+        {
+          "stage": 3,
+          "text": "Whisk Parmesan on LOW.",
+          "minutes": null,
+          "dependsOn": [2],
+          "attention": true,
+          "equipment": "skillet; whisk"
+        },
+        {
+          "stage": 4,
+          "text": "Whisk pasta water.",
+          "minutes": null,
+          "dependsOn": [3],
+          "attention": true,
+          "equipment": "skillet; whisk"
+        },
+        {
+          "stage": 5,
+          "text": "Season.",
+          "minutes": null,
+          "dependsOn": [4],
+          "attention": false,
+          "equipment": "skillet"
+        },
+        {
+          "stage": 6,
+          "text": "Add hot cooked pasta and toss.",
+          "minutes": null,
+          "dependsOn": [5],
+          "attention": true,
+          "equipment": "skillet"
+        }
+      ],
+      "findings": [
+        {
+          "id": "ALF-1",
+          "support": "1-2 Lemons, juiced",
+          "category": "ingredient accounting",
+          "severity": "material",
+          "evidenceIds": ["IC2"],
+          "explanation": "Listed but unused."
+        },
+        {
+          "id": "ALF-2",
+          "support": "Add your hot, cooked pasta",
+          "category": "ingredient accounting",
+          "severity": "material",
+          "evidenceIds": ["IC2"],
+          "explanation": "Method requires pasta absent from ingredient list."
+        },
+        {
+          "id": "ALF-3",
+          "support": "cookingMethods: steam",
+          "category": "metadata/process",
+          "severity": "minor",
+          "evidenceIds": [],
+          "explanation": "No steaming direction."
+        }
+      ],
+      "proposedEdits": [],
+      "unresolved": ["Clarify whether pasta is caller supplied and whether lemon is intentional."],
+      "identityPreserved": ["butter, cream, Parmesan, garlic, low heat"]
+    },
+    {
+      "slug": "buttered-egg-noodles",
+      "inputSha256": "41473456ba6c5a075d91fb9f5c155f0d165a89118a83137d94319e2e8b6b0bca",
+      "ingredientLedger": [
+        { "text": "12 oz Wide Egg Noodles", "destinations": [1, 3], "status": "allocated" },
+        { "text": "3 tbsp Unsalted Butter", "destinations": [3], "status": "allocated" },
+        {
+          "text": "1 tsp Kosher Salt (plus more for pasta water)",
+          "destinations": [1, 3],
+          "status": "allocated"
+        },
+        { "text": "1/4 tsp Black Pepper", "destinations": [3], "status": "allocated" },
+        {
+          "text": "2 tbsp Fresh Parsley, chopped (optional)",
+          "destinations": [4],
+          "status": "allocated"
+        },
+        { "text": "1/4 cup Reserved Pasta Water", "destinations": [2, 3], "status": "allocated" }
+      ],
+      "process": [
+        {
+          "stage": 1,
+          "text": "Boil water; cook noodles 7-8 minutes usually.",
+          "minutes": "7-8",
+          "dependsOn": [],
+          "attention": true,
+          "equipment": "large pot"
+        },
+        {
+          "stage": 2,
+          "text": "Reserve water before draining.",
+          "minutes": null,
+          "dependsOn": [1],
+          "attention": true,
+          "equipment": "pot; measuring cup"
+        },
+        {
+          "stage": 3,
+          "text": "Toss noodles with butter, water, salt and pepper for 30-60 seconds.",
+          "minutes": "0.5-1",
+          "dependsOn": [2],
+          "attention": true,
+          "equipment": "pot; stovetop"
+        },
+        {
+          "stage": 4,
+          "text": "Serve with parsley if using.",
+          "minutes": null,
+          "dependsOn": [3],
+          "attention": false,
+          "equipment": "warm bowl"
+        }
+      ],
+      "findings": [],
+      "proposedEdits": [],
+      "unresolved": [
+        "Boil/preheat time is unknown; 12-minute total cannot be reconstructed, but no direct contradiction is established."
+      ],
+      "identityPreserved": ["wide egg noodles, butter, pasta-water toss, optional parsley"]
+    }
+  ],
+  "limitations": [
+    "Internal-consistency baseline only; no browsing or external culinary/scientific validation. Culinary judgments and unsupported claims remain unresolved."
+  ]
+}
