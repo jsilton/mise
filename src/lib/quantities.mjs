@@ -62,10 +62,12 @@ export function scaleIngredient(text, factor) {
   // Scale equivalent weights/volumes only when the leading amount also has a unit.
   // A counted package's size, e.g. "2 (14 oz) cans", stays fixed.
   if (
-    /^\s*(?:oz|ounces?|lbs?|pounds?|g|grams?|kg|cups?|tbsp|tsp|ml|liters?|quarts?)\b/i.test(rest)
+    /^\s*(?:oz|ounces?|lbs?|pounds?|g|grams?|kg|cups?|tbsp|tsp|ml|l|liters?|litres?|quarts?)\b/i.test(
+      rest
+    )
   ) {
     const equivalent = new RegExp(
-      `\\((about\\s+)?(${number})\\s*(g|kg|ml|oz|lbs?|liters?|cups?|tbsp|tsp)\\)`,
+      `\\((about\\s+)?(${number})\\s*(g|kg|ml|oz|lbs?|l|liters?|litres?|cups?|tbsp|tsp)\\)`,
       'gi'
     );
     rest = rest.replace(equivalent, (match, qualifier, amount, unit) => {

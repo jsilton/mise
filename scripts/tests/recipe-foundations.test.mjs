@@ -32,6 +32,12 @@ test('equivalent weights scale but package sizes and cuts do not', () => {
     '4 tsp kosher salt or 2 tsp fine salt'
   );
 });
+test('litre equivalents scale together while bottle sizes stay fixed', () => {
+  assert.equal(scaleIngredient('10 cups (2.4 L) cold water', 0.5), '5 cups (1.2 L) cold water');
+  assert.equal(scaleIngredient('2 L (2000 ml) water', 0.5), '1 L (1000 ml) water');
+  assert.equal(scaleIngredient('2 litres (2000 ml) water', 2), '4 litres (4000 ml) water');
+  assert.equal(scaleIngredient('2 (1 L) bottles stock', 0.5), '1 (1 L) bottles stock');
+});
 test('unquantified amounts and exact original formatting survive reset', () => {
   assert.equal(scaleIngredient('Salt, to taste', 2), 'Salt, to taste');
   assert.equal(scaleIngredient('1½ cups milk', 1), '1½ cups milk');
