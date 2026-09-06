@@ -233,3 +233,14 @@ test('scaled quantity labels agree without rewriting ingredient names or package
   assert.equal(scaleIngredient('1 cup stock or 1 cup water', 2), '2 cups stock or 2 cups water');
   assert.equal(scaleIngredient('2 cloves garlic, minced', 1), '2 cloves garlic, minced');
 });
+
+test('counted produce scales its label without changing compound ingredients', () => {
+  assert.equal(
+    scaleIngredient('1 lemon, finely grated zest only', 2),
+    '2 lemons, finely grated zest only'
+  );
+  assert.equal(scaleIngredient('1 small onion, finely diced', 2), '2 small onions, finely diced');
+  assert.equal(scaleIngredient('2 limes, juiced', 0.5), '1 lime, juiced');
+  assert.equal(scaleIngredient('1 tsp lemon zest', 2), '2 tsp lemon zest');
+  assert.equal(scaleIngredient('1 lemon zest portion', 2), '2 lemon zest portion');
+});

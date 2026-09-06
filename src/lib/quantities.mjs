@@ -39,9 +39,18 @@ function scaledUnit(unit, value) {
   return value <= 1 ? singular : singular + (unit === unit.toUpperCase() ? 'S' : 's');
 }
 function inflectLeadingUnit(rest, value) {
-  return rest.replace(
-    unitAtStart,
-    (_match, prefix, unit, plural) => prefix + scaledUnit(unit + plural, value)
+  return (
+    rest
+      .replace(
+        unitAtStart,
+        (_match, prefix, unit, plural) => prefix + scaledUnit(unit + plural, value)
+      )
+      // Only unambiguous counted produce followed by a preparation comma/end.
+      // Do not turn a compound ingredient such as "lemon zest" into "lemons zest".
+      .replace(
+        /^(\s+(?:(?:small|medium|large)\s+)?)(lemon|lime|onion)(s?)(?=,|$)/i,
+        (_match, prefix, unit, plural) => prefix + scaledUnit(unit + plural, value)
+      )
   );
 }
 function numeric(value) {

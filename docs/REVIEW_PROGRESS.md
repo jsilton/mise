@@ -1,3 +1,9 @@
+# Latest milestone: four grain recipes completed editorially
+
+Arroz Rojo, Lemon Herb Quinoa, Quinoa Pilaf with Toasted Almonds and Creamy Polenta now have complete individual editorial records and recipe-specific teaching, timing, scaling, substitutions and storage guidance. The original 612 are now 169 individually reviewed, 9 consolidated and 434 pending; two additional recipes are reviewed separately, for 171 current reviewed canonical recipes. Physical kitchen tests remain zero. Linked meals retain pending status and their full schedules still need review.
+
+Validation: 29 QA checks, 29 focused tests, 719 built pages with no broken destinations/anchors, and browser checks of all four recipes' doubled/reset ingredients, inline checkpoints, mobile layout, cook mode, print and footer-only review links. The counted-produce scaler now pluralizes unambiguous lemon/lime/onion counts without changing compound ingredient names.
+
 # Latest milestone: pilot decision and targeted corrections
 
 The 24-recipe source-backed pilot has been assessed against all 64 reference findings. It failed broad lightweight rollout: 6/7 routine proposals accepted and 29/58 confirmed reference issues detected. Six conditional concerns remain outside that denominator. Timing/cost savings are not supported by reliable telemetry. See [pilot results](pilot/RESULTS.md).

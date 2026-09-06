@@ -1,6 +1,6 @@
 ---
 title: Quinoa Pilaf with Toasted Almonds
-origin: Peru
+origin: Mediterranean-inspired
 difficulty: easy
 cookingMethods:
   - toast
@@ -30,61 +30,139 @@ advancePrep:
   - make-ahead
   - meal-prep-friendly
 equipment:
-  - saucepan
-  - large-skillet
+  - 3-quart-wide-heavy-saucepan-with-tight-lid
+  - fine-mesh-strainer
 prepTime: 10 min
-cookTime: 25 min
-totalTime: 35 min
-servings: '4'
+cookTime: 30 min
+totalTime: 45 min
+servings: 4 generous side portions
 pairsWith:
   - chicken-souvlaki
   - chicken-piccata-unfried
   - dal-tadka
 ingredients:
-  - '1.5 cups Quinoa, rinsed well'
-  - 2.5 cups Vegetable or Chicken Broth
-  - 1/2 tsp Kosher Salt
-  - 2 tbsp Olive Oil or Butter
-  - '1/2 cup Raw Almonds, roughly chopped'
-  - '1 small Onion, finely diced'
-  - '2 cloves Garlic, minced'
-  - '1/2 cup Dried Apricots or Cranberries (optional, for sweetness)'
-  - '2 tbsp Fresh Parsley, chopped'
-  - '1 tbsp Fresh Dill or Tarragon, chopped (optional)'
-  - 1/4 tsp Black Pepper
-  - Zest of 1 Lemon
-nutrition:
-  calories: 460
-  protein: 15
-  carbs: 25.5
-  fat: 36.5
-  fiber: 9
-  sugar: 4
-  sodium: 800
+  - 1.5 cups dry quinoa
+  - >-
+    2.5 cups vegetable or chicken broth, plus hot water as needed if the grains
+    remain firm
+  - '1/2 tsp kosher salt, plus a pinch for the onion and more to taste'
+  - '2 tbsp olive oil or butter, divided'
+  - '1/2 cup raw almonds, roughly chopped'
+  - '1 small onion, finely diced'
+  - '2 cloves garlic, minced'
+  - '1/2 cup dried apricots, chopped, or dried cranberries, optional'
+  - '2 tbsp fresh parsley, chopped'
+  - '1 tbsp fresh dill or tarragon, chopped, optional'
+  - 1/4 tsp black pepper
+  - 1 lemon, finely grated zest only
+description: >-
+  Quinoa cooked with onion and garlic, finished with toasted almonds, lemon zest
+  and herbs. Optional dried fruit adds a little sweetness without changing the
+  savory base.
+learning:
+  focus: Build a pilaf while keeping toasted nuts and herbs distinct
+  outcome: >-
+    Tender separate quinoa with softened aromatics, fragrant almonds and a fresh
+    herb finish.
+  techniques:
+    - starch
+    - temperature
+  before:
+    - >-
+      Measure quinoa dry, rinse according to package guidance and drain well.
+      Have broth and a snug lid ready before toasting.
+    - >-
+      Use one wide heavy saucepan for almonds, aromatics and grains. A lidless
+      skillet cannot follow the covered absorption method.
+    - >-
+      Keep half the chosen oil or butter for finishing. For larger batches allow
+      enough pan area to soften the onions and enough headroom for the cooked
+      grains.
+  checkpoints:
+    - step: 2
+      cue: >-
+        Almonds smell fragrant and are light golden; transfer them out of the
+        hot pan.
+      why: Residual pan heat continues browning nuts after the burner is lowered.
+    - step: 5
+      cue: >-
+        The simmer is gentle under a tight lid, and a tasted grain finishes
+        without a hard center.
+      why: >-
+        The grain needs water as well as time; broth disappearing is not
+        sufficient proof of tenderness.
+    - step: 7
+      cue: Almonds and chosen fruit/herbs are folded through after resting.
+      why: >-
+        Keeping these additions out of the simmer preserves their contrasting
+        textures and aromas.
+  troubleshooting:
+    - problem: The quinoa is firm but the pan is dry
+      cause: Water escaped through the lid or the grain needs more hydration.
+      fix: >-
+        Add a small splash of hot water, cover and simmer gently a few minutes
+        longer. Check tenderness before giving it the rest.
+    - problem: The almonds are dark and bitter
+      cause: They toasted too long or sat in the hot pan after browning.
+      fix: >-
+        Discard scorched nuts and toast a fresh portion. Burned flavor cannot be
+        removed by mixing them into the pilaf.
+    - problem: The pilaf tastes too salty
+      cause: Broth and measured salt contributed more salt than wanted.
+      fix: >-
+        Do not add finishing salt. Serve with an unsalted component; more lemon
+        or sugar will not remove salt. Use a less salty broth next time.
+  substitutions:
+    - ingredient: Olive oil or butter
+      alternative: Use either for both the aromatic stage and finish
+      effect: >-
+        Olive oil keeps the fat dairy-free; butter gives a dairy flavor. Split
+        the selected fat in half rather than adding both full amounts.
+    - ingredient: Dried apricots
+      alternative: 'Dried cranberries, using the same listed volume'
+      effect: Cranberries are often sweetened and taste more tart; both are optional.
+    - ingredient: Dill
+      alternative: 'Tarragon, using the same optional listed volume'
+      effect: >-
+        Tarragon gives a more pronounced anise flavor. Parsley and lemon zest
+        remain in either version.
+  timing: >-
+    Allow about 45 minutes including 10 minutes preparation, roughly 30 minutes
+    for almond/onion/grain toasting, bringing broth to a boil and the 15-minute
+    simmer, then a 5-minute rest. Heat-up and grain tenderness vary. Chop the
+    finishing herbs during the simmer.
+  storage: >-
+    Refrigerate promptly in shallow containers, within 2 hours of cooking (1
+    hour above 90°F / 32°C), at 40°F / 4°C or colder. Use within 3–4 days. Do
+    not leave a covered pot on the counter to cool. Reheat only the portion
+    needed to 165°F / 74°C throughout. Reserve the nuts and fresh herbs
+    separately for better texture when making ahead. Reheat quinoa with a little
+    broth or water, then add the reserved finish. Cool promptly rather than
+    leaving the pot covered on the counter.
+  sources:
+    - title: Oldways Whole Grains Council — Cooking whole grains
+      url: 'https://wholegrainscouncil.org/recipes/cooking-whole-grains'
+    - title: FoodSafety.gov — Cooling and refrigeration
+      url: 'https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety'
+    - title: FoodSafety.gov — Reheating leftovers
+      url: >-
+        https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures
+  review:
+    status: editorial-review
+    date: '2026-09-06'
 ---
 
 ## Chef's Note
 
-Quinoa pilaf elevates the grain from a simple side into something memorable through toasting and the pilaf method - aromatics bloomed in fat, then grains cooked in broth with a brief rest. The toasted almonds add both crunch and richness that make this base substantial enough to support delicate proteins like fish or white meat. Rinsing the quinoa is non-negotiable to remove the bitter saponin coating. The brief toast before liquid is added develops a nutty flavor that sets this apart from plain cooked quinoa.
+Onion and garlic cooked in fat make this a savory pilaf rather than a simply dressed grain. Toast the almonds separately and add them back at the end so they retain their bite. Keep the same choice of oil or butter through both stages; the dried fruit and dill or tarragon are optional finishing accents.
 
 ## Directions
 
-1. **Rinse the Quinoa:** Place quinoa in a fine-mesh strainer and rinse under cold running water for 30 seconds, rubbing the grains between your fingers. This removes the bitter saponin coating.
-
-2. **Toast the Almonds:** In a large skillet over medium heat, add the roughly chopped almonds. Stir constantly for 3-4 minutes until fragrant and light golden brown. Be careful not to burn them. Transfer to a plate and set aside.
-
-3. **Sauté the Aromatics:** In the same skillet, add half of the olive oil or butter over medium heat. Add the diced onion and a pinch of salt. Cook for 3-4 minutes until softened and translucent. Add the minced garlic and cook for 30 seconds until fragrant.
-
-4. **Toast the Quinoa:** Add the drained quinoa to the skillet and stir constantly for 2 minutes. The grains should start to pop slightly and smell nutty. This develops flavor and helps each grain cook separately.
-
-5. **Add Liquid:** Pour in the broth (it will sizzle) and add the measured salt. Stir to distribute the quinoa evenly. Bring to a boil over high heat.
-
-6. **Simmer:** Once boiling, reduce heat to the lowest setting, cover with a tight-fitting lid, and simmer for 15 minutes without lifting the lid. The residual steam will finish cooking the grains perfectly.
-
-7. **Rest:** Remove from heat and let sit, covered, for 5 minutes. This allows any remaining liquid to be absorbed and ensures fluffy, separated grains.
-
-8. **Finish:** Fluff the quinoa with a fork. Fold in the toasted almonds, dried apricots or cranberries (if using), remaining olive oil or butter, parsley, dill or tarragon (if using), black pepper, and lemon zest. Taste and adjust salt.
-
-9. **Serve:** Serve warm as a base for grilled proteins, roasted vegetables, or alongside saucy dishes. This pilaf reheats well and keeps refrigerated for up to 4 days.
-
-10. **Make-Ahead:** This is an excellent dish to prep ahead. Make the full recipe and store in the refrigerator; reheat gently with a splash of broth if needed.
+1. **Rinse and drain:** Rinse the dry quinoa in a fine-mesh strainer, following package preparation guidance, then drain thoroughly.
+2. **Toast the almonds:** In a wide heavy saucepan over medium heat, stir the almonds for about 3–4 minutes until fragrant and light golden. Transfer immediately to a plate.
+3. **Soften the aromatics:** Add half of the chosen olive oil or butter to the same pan. Add the onion and a pinch of salt; cook about 3–4 minutes until softened. Stir in the garlic for about 30 seconds, until fragrant.
+4. **Toast the quinoa:** Add the drained quinoa and stir for about 2 minutes, letting surface moisture evaporate and coating the grains in fat. Do not let the garlic scorch.
+5. **Simmer and check:** Add the broth and measured salt. Bring to a boil, cover tightly and reduce to a low simmer. Cook about 15 minutes. Check that the quinoa is tender through its center and free liquid is absorbed. If firm and dry, add a little hot water and continue covered; if firm with liquid remaining, continue without adding more.
+6. **Rest:** Remove from heat once tender and leave covered for 5 minutes.
+7. **Finish:** Fluff gently. Fold in the toasted almonds, remaining chosen oil or butter, parsley, black pepper and lemon zest. Add dried apricots or cranberries and dill or tarragon if using. Taste before adding any finishing salt.
+8. **Serve:** Divide into four generous side portions and serve warm alongside a main dish.
