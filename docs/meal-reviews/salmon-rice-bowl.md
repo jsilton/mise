@@ -1,0 +1,21 @@
+# Salmon Rice Bowl: individual consolidation decision
+
+Date: 2026-09-06. Proposed considered consolidation; no repository changes or physical meal test. Proposed canonical destination: `salmon-bowl-night`.
+
+Read both complete original meals, the complete Honey Sriracha Salmon Bowls main and its individual review, the current Smashed Cucumber Salad and review, full frozen Do Chua proposal/source/review/independent challenge, and the actual separately linked short-grain rice and pod-edamame recipes. These are two versions of the same complete honey-sriracha fish bowl, not distinct fish cuts, sauce formulas or cooking methods. The named difference worth preserving is dressed cucumber versus carrot-daikon pickle.
+
+Salmon Rice Bowl repeats rice and edamame already in the complete main. Its extra short-grain rice would add a full 300 g dry batch and a 65-minute process; its pod recipe uses 450 g inedible-pod-inclusive weight rather than the main's 150 g shelled beans. The original twenty-active-minute claim and 10–12-minute glazed-fish step omit the main's refrigerated marinade, two pan rounds and safe sauce reduction. An unmeasured extra spicy-mayo drizzle repeats the main's included half cup. These errors are not reasons to discard the useful cucumber idea.
+
+Preserve that idea as the canonical page's natural **Cucumber-salad variation**: half the reviewed 600 g salad gives 300 g cucumber, replacing all plain cucumber, while omitting the small Do Chua topping. Keep rice, fish, avocado, shelled edamame and mayonnaise at one full four-person main batch. Halve every salad seasoning, start its fifteen-minute salt drain before the fish marinade, dress near serving and omit the main's optional sesame when using the salad's seeds. Allow 65–70 minutes and 55 active, rather than treating the entire salad as free overlap. The five-person variation uses 5/8 salad=375 g cucumber and a third fish round, allowing 75–85 minutes.
+
+The canonical default retains a small quarter-finished-batch pickle topping with plain cucumber. Both compositions remain recognizable and separately described. Neither raw-poke provenance nor an automatic tofu substitution is retained: fully developing a tofu bowl requires its own net weight, sauce uptake and cooking method. The public variation contains no former-page, redirect, historical-cleanup or review/test narration.
+
+Implementation proposal: add `"salmon-rice-bowl": "salmon-bowl-night"` to the existing meal-alias map, remove the duplicate live meal source only when the canonical reviewed recipe/condiment/meal are integrated, and use the existing static meal-redirect mechanism. Preserve the site's base path, query and fragment; canonical destination must not itself be an alias. The alias should stay out of meal discovery and sitemap and retain this considered record. Preserve both original slugs in the immutable 88-meal baseline; this is one considered consolidated original and one canonical reviewed meal after root acceptance, not two new canonical meals.
+
+No incoming `salmon-rice-bowl` links were found in current `src/content`. Two calendars reference the retained `salmon-bowl-night` but call it a light poke bowl: `2026-w03` Thursday and `2026-w07` Monday. Change only those descriptions to cooked honey-sriracha salmon bowls with pickled vegetables; their links need no change. This does not certify the complete calendars or establish that the from-scratch 90-minute dinner is a light/quick Monday choice.
+
+The separate canonical record documents all portion math, source support, timing assumptions, storage and questions for a real meal test. This record supplies the individual consideration behind consolidation; a title match alone did not decide it.
+
+## Root integration
+
+Root read the full original meals, main and cucumber-salad recipes, final proposal, both decision records and independent challenge. Integrated the separately reviewed Do Chua prerequisite first. Accepted the corrected 65-minute fresh / 45-minute prepared / 55-minute salad hands-on allowances and three pan batches for five diners. Applied the canonical meal, retained the salad variation, and consolidated the duplicate through the existing static alias mechanism. Updated only two inaccurate calendar descriptions; calendar review coverage remains unchanged. No physical meal test occurred.

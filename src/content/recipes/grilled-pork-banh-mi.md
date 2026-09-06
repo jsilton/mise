@@ -34,7 +34,7 @@ ingredients:
   - '2 stalks Lemongrass, finely minced (white parts only)'
   - '2 Crusty Baguettes (soft crumb, crispy crust)'
   - >-
-    [quick Pickled Carrots and
+    [Pickled Carrots and
     Daikon](/mise/recipes/quick-pickled-carrots-and-daikon)
   - Fresh Cilantro and Sliced Jalapeños
   - Cucumber spears
@@ -62,7 +62,7 @@ Banh mi sandwiches are Vietnamese street food defined by contrast: grilled pork 
 ## Directions
 
 1.  **Marinate:** Whisk fish sauce, sugar, honey, garlic, and lemongrass. Toss with the pork. Let marinate for at least 2 hours (ideally overnight).
-2.  **Pickles:** Prepare your [quick Pickled Carrots and Daikon](/mise/recipes/quick-pickled-carrots-and-daikon) at least 30 minutes in advance.
+2.  **Pickles:** Prepare your [Pickled Carrots and Daikon](/mise/recipes/quick-pickled-carrots-and-daikon) while the pork marinates: allow about 20 minutes for cutting and packing, then at least 1 hour in the refrigerator before serving. Keep them refrigerated until assembly.
 3.  **Grill:** Thread pork onto skewers or use a grill basket. Wipe off excess marinade and grill over medium heat for 3-4 minutes per side until charred and just cooked through.
 4.  **Assemble:** Split the baguettes. Spread a generous layer of mayo. Drizzle with a few drops of liquid seasoning or soy sauce.
-5.  **Fill:** Layer the grilled pork, cucumber spears, [quick Pickled Carrots and Daikon](/mise/recipes/quick-pickled-carrots-and-daikon), and fresh cilantro. Top with jalapeños for heat.
+5.  **Fill:** Layer the grilled pork, cucumber spears, [Pickled Carrots and Daikon](/mise/recipes/quick-pickled-carrots-and-daikon), and fresh cilantro. Top with jalapeños for heat.

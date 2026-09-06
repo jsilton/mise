@@ -1,9 +1,9 @@
 {
   "originalMeals": 88,
-  "currentMeals": 87,
-  "individuallyReviewed": 31,
-  "consolidatedAfterReview": 1,
-  "pending": 56,
+  "currentMeals": 86,
+  "individuallyReviewed": 32,
+  "consolidatedAfterReview": 2,
+  "pending": 54,
   "kitchenTested": 0,
   "records": [
     {
@@ -317,11 +317,15 @@
     },
     {
       "slug": "salmon-bowl-night",
-      "status": "pending"
+      "status": "editorial-review",
+      "record": "docs/meal-reviews/salmon-bowl-night.md",
+      "components": ["honey-sriracha-salmon-bowls", "quick-pickled-carrots-and-daikon"]
     },
     {
       "slug": "salmon-rice-bowl",
-      "status": "pending"
+      "canonical": "salmon-bowl-night",
+      "status": "consolidated",
+      "record": "docs/meal-reviews/salmon-rice-bowl.md"
     },
     {
       "slug": "sausage-sheet-pan-night",
