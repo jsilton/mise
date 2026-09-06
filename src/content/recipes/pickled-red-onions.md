@@ -97,8 +97,8 @@ learning:
     fully developed pickles.
   storage: >-
     Keep covered at 40°F / 4°C or below, use clean utensils and use within two
-    weeks. These are refrigerator pickles, not a tested canning recipe and not
-    suitable for pantry storage. Discard moldy or otherwise spoiled contents; do
+    weeks. Keep these pickles refrigerated; do not can them or store them in
+    the pantry. Discard moldy or otherwise spoiled contents; do
     not skim and reuse the brine for a new batch.
   sources:
     - title: >-

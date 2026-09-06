@@ -29,7 +29,7 @@ review:
 
 ## Meal Overview
 
-For four people, make one full batch of Lemon-Oregano Chicken with Roasted Peppers, one full batch of Warm, Soft Pita Bread, and **half a batch of [Mint Tzatziki with Honey](/mise/recipes/mint-tzatziki), approximately 3/4 cup**. The mint sauce follows the original platter's connection to the lamb burger sauce and the household's preference. The dill alternative below remains a separate choice.
+For four people, make one full batch of Lemon-Oregano Chicken with Roasted Peppers, one full batch of Warm, Soft Pita Bread, and **half a batch of [Mint Tzatziki with Honey](/mise/recipes/mint-tzatziki), approximately 3/4 cup**. The mint sauce adds a cool, creamy contrast to the lemon-oregano chicken. For a dill sauce, use the alternative below.
 
 The main supplies 900 g raw boneless chicken thighs, 400 g trimmed peppers and 200 g onion. Four pitas are the starch. Serve the roast, warm bread, cool sauce and crisp vegetables family-style, dividing them into four generous portions. Fill each pita with some chicken and vegetables and eat the rest alongside; this amount of food will not all fit inside one small bread.
 

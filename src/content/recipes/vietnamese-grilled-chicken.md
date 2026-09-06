@@ -138,7 +138,7 @@ learning:
 
 ## Chef's Note
 
-Finely prepared lemongrass gives aroma without tough stalk pieces. Fish sauce supplies the main salt seasoning, while a little sugar encourages browning. This home version includes ginger and lime; it does not promise to reproduce every Vietnamese street-stall preparation. Deep blackening is not the goal, and thigh meat can still dry if overcooked.
+Finely prepared lemongrass gives aroma without tough stalk pieces. Fish sauce supplies the main salt seasoning, while a little sugar encourages browning. Ginger and lime add a fresh, sharp accent. Deep blackening is not the goal, and thigh meat can still dry if overcooked.
 
 ## Directions
 

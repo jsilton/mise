@@ -586,3 +586,11 @@ Mint tzatziki now uses natural cooking prose, brief original-source attribution 
 Verification: 29 QA checks, 27 focused tests and the 731-page link/anchor scan pass. All 615 recipe/alias outputs omit the removed panel and review-source markup. Browser checks passed reviewed and pending recipes, the shared footer and reference page, mint’s half-scale fine-salt amount, visible method outcome, mobile/print and cook-mode controls. Independent browser checks additionally verified no-JavaScript content, persisted checklists and jump anchors.
 
 Salmon batch 5805f16a1815c48a1666e2950f53f605d9f804a9 deployed successfully in Pages run 34037334407. Live checks passed the three recipe attributions, measured half quantities and full times, plus Miso Salmon Dinner’s two components, sequence and responsive layout.
+
+## Natural recipe and meal prose
+
+Applied 49 individually read wording changes across 34 recipes and five meals. Removed household-preference declarations and editorial/archive commentary while preserving family authorship, ingredient formulas, yields, method temperatures, storage limits and original-source URLs. Added the presentation rules to the recipe standard. Internal evidence and unresolved culinary questions remain recorded.
+
+Verification: all 29 QA checks pass and 731 built pages have no broken destinations or anchors. All 39 edited content files preserve their ingredient, time, serving and composition metadata. Explicit recipe lint passes with one existing pairing warning. Culinary review coverage is unchanged.
+
+The presentation batch 6891df6883e1ecc1f9cb21cac964a9619d139f26 deployed successfully in Pages run 34038078999. Live checks passed reviewed and pending recipes, footer policy navigation, retained method outcomes, mint half-scale fine salt, cook mode and responsive/print output.

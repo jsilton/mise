@@ -142,7 +142,7 @@ learning:
 
 ## Chef's Note
 
-This green curry retains the site's chicken, Asian eggplant, red pepper and bamboo shoots. It should have enough coconut sauce to spoon around the solids and over separately prepared rice. Panang is the thicker curry in this collection. Cook the paste until fragrant, but do not scorch it while waiting for a stubborn can of coconut milk to split. Thai basil supplies the fresh finish; lime juice is not needed to force every curry into the same sour-salty-sweet formula.
+Chicken, Asian eggplant, red pepper and bamboo shoots sit in a fragrant coconut sauce with Thai basil. Leave enough sauce to spoon around the solids and over rice. Cook the paste until fragrant without scorching it; some canned coconut milks will not visibly split into oil.
 
 ## Directions
 

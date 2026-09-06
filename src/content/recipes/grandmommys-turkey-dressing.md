@@ -2,7 +2,7 @@
 title: Grandmommy’s Turkey Dressing
 description: A soft, spoonable family dressing made with crumbled unsweetened cornbread, white bread, onion, celery and poultry seasoning.
 origin: United States
-source: Grandmommy — family recipe retained in this collection
+source: Grandmommy
 difficulty: easy
 cookingMethods: [bake, simmer]
 occasions: [holiday, entertaining]
@@ -54,15 +54,13 @@ learning:
       separate raw-egg binder and no turkey meat in the dressing. Bake the final
       mixture in its own roughly 3-quart, 9-by-13-inch dish.
     - >-
-      The family recipe specifies self-rising cornmeal but does not identify its brand,
-      color or formulation. This written version uses an unsweetened self-rising cornmeal
-      mix containing leavening and salt; that is an editorial assumption to confirm
-      against the family product. Keep the separately listed flour and do not add more
-      leavener without developing and testing that change.
+      Use an unsweetened self-rising cornmeal mix containing leavening and salt.
+      Keep the separately listed flour. Plain cornmeal is not a direct substitute,
+      and no additional leavener is needed with the specified mix.
     - >-
-      Use the entire small cornbread batch, roughly 650–750 g after baking and
-      cooling; this is an estimated yield, not a measured kitchen result. Its
-      moisture and the white bread's dryness determine the final stock amount.
+      Use the entire small cornbread batch, about 650–750 g after baking and
+      cooling. Its moisture and the white bread's dryness determine the final
+      stock amount.
     - >-
       Baking and cooling the cornbread are included in the total time. For the
       shortest holiday schedule, make the bread a day ahead and refrigerate
@@ -133,7 +131,7 @@ learning:
 
 ## Chef's Note
 
-Grandmommy's name and the combination of unsweetened cornbread, white bread and poultry seasoning come from the family recipe in this collection. The intended texture is soft and spoonable, with browned edges; mixing two breads does not guarantee a crunchy interior. This adaptation precooks the vegetables, defines the pans and adds stock gradually. It keeps the original bread ingredient quantities and all three eggs in the cornbread, while the exact self-rising cornmeal product remains to be confirmed.
+Grandmommy's dressing combines unsweetened cornbread, white bread and poultry seasoning for a soft, spoonable center and browned edges. Cook the vegetables until tender before mixing, then add stock gradually until the bread is moist without a pool of liquid.
 
 ## Directions
 

@@ -52,7 +52,7 @@ nutrition:
 
 ## Chef's Note
 
-We have upgraded the "shaking in a bag" method to the **Standard Breading Procedure**. By using **Panko** and Parmesan instead of crackers, we achieve a much lighter, crispier texture that doesn't turn greasy. The secret to the crunch is **High-Heat Roasting** on a wire rack - this allows the hot air to circulate under the chicken, ensuring it is crispy on all sides without needing deep frying.
+Set up the breading ingredients separately so each piece of chicken gets an even coating. By using **Panko** and Parmesan instead of crackers, we achieve a much lighter, crispier texture that doesn't turn greasy. The secret to the crunch is **High-Heat Roasting** on a wire rack - this allows the hot air to circulate under the chicken, ensuring it is crispy on all sides without needing deep frying.
 
 ## Directions
 

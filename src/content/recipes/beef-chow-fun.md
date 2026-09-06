@@ -1,6 +1,6 @@
 ---
 title: Beef Chow Fun
-origin: Cantonese cooking, adapted for a household stove
+origin: Cantonese
 difficulty: intermediate
 cookingMethods:
   - stir-fry
@@ -160,7 +160,7 @@ learning:
     chilling. Reheat a shallow portion, loosely covered with a small splash of
     water, turning carefully until hot throughout.
   sources:
-    - title: Bill Leung — Beef chow fun, the saved recipe's original source
+    - title: Bill Leung — Beef Chow Fun
       url: https://thewoksoflife.com/beef-chow-fun-noodles/
     - title: Bill Leung — Beef preparation and measured no-rinse baking-soda treatment
       url: https://thewoksoflife.com/prepare-beef-for-stir-fry/
@@ -197,4 +197,4 @@ Beef chow fun is a Cantonese dish built around wide rice noodles, beef and a thi
 
 ## Source
 
-The saved original recipe credits [The Woks of Life's Beef Chow Fun](https://thewoksoflife.com/beef-chow-fun-noodles/). This household-pan adaptation retains its beef, wide-noodle, ginger, scallion and bean-sprout identity, with explicit batch sizes and measured cooking oil. It does not claim to reproduce a restaurant burner or the source's current formula exactly.
+Adapted from [Bill Leung's Beef Chow Fun at The Woks of Life](https://thewoksoflife.com/beef-chow-fun-noodles/), with small batches for a home stove.

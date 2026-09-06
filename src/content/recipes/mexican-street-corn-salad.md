@@ -116,7 +116,7 @@ learning:
 
 ## Chef's Note
 
-Esquites takes several forms, including brothy cups and fried preparations. This is a skillet salad using sweet corn, not a claim that all Mexican esquites must be charred. Brown some surfaces for flavor, then finish with chile, lime, cheese, and a modest creamy dressing. Blackening every kernel would hide the corn's sweetness.
+Esquites takes several forms, including brothy cups and fried preparations. This skillet salad uses sweet corn. Brown some surfaces for flavor, then finish with chile, lime, cheese, and a modest creamy dressing. Blackening every kernel would hide the corn's sweetness.
 
 ## Directions
 

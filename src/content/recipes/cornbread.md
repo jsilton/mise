@@ -125,7 +125,7 @@ learning:
 
 ## Chef's Note
 
-This flour-and-cornmeal version is lightly sweet and buttery, suitable for a small portion beside chili. Buttermilk supplies acidity for the measured baking soda; baking powder supplies additional lift. Fold briefly and bake promptly so the batter keeps its gas and a tender texture. The formula describes this version without treating sweetness or flour as a rule for all American cornbread.
+This flour-and-cornmeal version is lightly sweet and buttery, suitable for a small portion beside chili. Buttermilk supplies acidity for the measured baking soda; baking powder supplies additional lift. Fold briefly and bake promptly so the batter keeps its gas and a tender texture.
 
 ## Directions
 

@@ -81,7 +81,7 @@ learning:
   timing: About 70 minutes includes rinsing, a 30-minute rice soak, heating, 12–15 minutes of simmering and 10 minutes of rest. Prepare toppings and glaze during the soak; broil fish during the rice's final cooking and rest. Allow roughly 10–16 minutes for the specified fillets, with thickness and broiler strength controlling the actual finish. Extra oven finishing adds time. Already cooked rice shortens the work, but chilled rice still needs thorough reheating.
   storage: Refrigerate fish and rice in separate shallow containers within 2 hours, or 1 hour above 90°F / 32°C, and keep at 40°F / 4°C or below. Use within 3–4 days, counting from the original rice cooking date if it was prepared ahead. Reheat cooked components to 165°F / 74°C; sprinkle rice with water and cover loosely, and warm fish gently to limit drying. Store cucumber and sauces separately; cut avocado and add nori at serving. Nori loses its crispness on a stored bowl.
   sources:
-    - title: NYT Cooking — original Sticky Miso Salmon Bowl source, recovered from the saved export
+    - title: Andy Baraghani / NYT Cooking — Sticky Miso Salmon Bowl
       url: https://cooking.nytimes.com/recipes/1025510-sticky-miso-salmon-bowl
     - title: NYT Cooking — Andy Baraghani prepares Sticky Miso Salmon Bowl
       url: https://www.youtube.com/watch?v=9mDyHoy2yFo

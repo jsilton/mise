@@ -144,7 +144,7 @@ learning:
 
 ## Chef's Note
 
-Pad see ew centers on soy-seasoned rice noodles, Chinese broccoli, and brief browning in the pan. This family batch keeps the site's chicken and egg combination, but finishes five individual portions. Cooking the vegetables and eggs separately first makes the final assembly more manageable on a home stove. It produces a different egg distribution from scrambling an egg in each portion, while avoiding an overcrowded pan. Offer a little vinegar at the table so each diner can adjust the sweetness and acidity.
+Soy-seasoned rice noodles, Chinese broccoli, chicken and egg make five portions of pad see ew. Cook the vegetables and eggs first, then finish each portion separately so the noodles have room to brown. Offer a little vinegar at the table so each diner can adjust the sweetness and acidity.
 
 ## Directions
 

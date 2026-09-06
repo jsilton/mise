@@ -101,7 +101,7 @@ learning:
   timing: >-
     About twenty minutes includes herb chopping and zesting, heating broth, a typical five-minute
     covered hydration and finishing. Package instructions and extra hydration corrections can extend
-    this. It is not ten minutes of simultaneous work by assumption.
+    this.
   storage: >-
     Refrigerate in shallow containers within 2 hours (1 hour above 90°F / 32°C), at 40°F / 4°C or
     below. Use within 3–4 days; reheat leftovers to 165°F / 74°C. Best on the day for herb aroma.

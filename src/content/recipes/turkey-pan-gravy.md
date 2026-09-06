@@ -93,7 +93,7 @@ learning:
 
 ## Chef's Note
 
-A turkey's pan liquid varies with its brine, aromatics and evaporation. Build the gravy with unsalted stock first, then use a small measured amount of good drippings for roast flavor. Flour gives body, while the butter disperses it; neither ingredient can remove excess salt or burned flavors. This recipe was developed for mise's holiday dinners and is separate from the turkey roasting method.
+A turkey's pan liquid varies with its brine, aromatics and evaporation. Build the gravy with unsalted stock first, then use a small measured amount of good drippings for roast flavor. Flour gives body, while the butter disperses it; neither ingredient can remove excess salt or burned flavors. Serve alongside roast turkey.
 
 ## Directions
 

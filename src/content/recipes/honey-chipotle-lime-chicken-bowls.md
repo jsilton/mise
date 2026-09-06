@@ -49,8 +49,8 @@ learning:
       already part of the six bowls; beans, corn salad and tortillas are not
       additional required components.
     - >-
-      The chipotle and Dijon make this a home adaptation rather than a claim
-      of a traditional Mexican formula. Chipotle brands vary in heat and salt.
+      Chipotle adds smoky heat and Dijon adds tang. Chipotle brands vary in
+      heat and salt.
       Taste the marinade before adding raw chicken, never afterward.
     - >-
       Plan for thirty minutes refrigerated marination and two separate

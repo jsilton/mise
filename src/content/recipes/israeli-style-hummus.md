@@ -1,7 +1,7 @@
 ---
 title: Israeli-Style Hummus
 origin: Middle East
-source: Adapted from Michael Solomonov's Israeli-style hummus; editorial adjustments to quantities and handling
+source: Adapted from Michael Solomonov's Israeli-style hummus
 sourceUrl: https://www.bonappetit.com/recipe/israeli-style-hummus
 difficulty: intermediate
 cookingMethods:

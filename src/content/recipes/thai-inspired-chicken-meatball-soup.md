@@ -123,7 +123,7 @@ learning:
 
 ## Chef's Note
 
-This is a Thai-inspired home soup built around ginger, garlic, cilantro, coconut and fish sauce. It is separate from galangal-led tom kha. The meatballs rely on a cohesive ground-meat mixture and controlled cooking, not a claim that grated ginger shields the protein from drying. Small, evenly sized balls are easier to brown and finish consistently. The broth should remain a soup around them, with lime added at the end.
+This is a Thai-inspired home soup built around ginger, garlic, cilantro, coconut and fish sauce. It is separate from galangal-led tom kha. Mix the meatballs until cohesive and cook them gently to keep them tender. Small, evenly sized balls are easier to brown and finish consistently. The broth should remain a soup around them, with lime added at the end.
 
 ## Directions
 

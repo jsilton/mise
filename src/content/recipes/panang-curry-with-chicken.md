@@ -125,7 +125,7 @@ learning:
 
 ## Chef's Note
 
-Panang has a smaller amount of thicker sauce than green or red curry, with ground peanuts contributing body. Makrut lime leaves are central to its aroma. This version keeps the site's red pepper as a home-style addition, while removing the extra basil so the lime leaves remain distinct. The nuts belong finely ground in the sauce; panko does not reproduce that role. Rice is served separately.
+Ground peanuts give this panang curry body, while makrut lime leaves provide its distinctive aroma. Red pepper adds sweetness and color. Grind the peanuts finely so they blend into the thick sauce; panko is not a substitute for their flavor or texture. Serve with rice prepared separately.
 
 ## Directions
 

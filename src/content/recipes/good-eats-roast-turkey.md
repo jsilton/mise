@@ -179,7 +179,7 @@ scaling:
 
 ## Chef's Note
 
-This adaptation retains the aromatic wet-brine idea from Alton Brown’s Good Eats turkey. It uses weighed salt, unsalted stock, a fully refrigerated schedule and a steady 325°F oven, with measured doneness rather than a predicted temperature rise. It is a separately developed variation, not a claim to reproduce his exact method.
+Adapted from Alton Brown’s Good Eats turkey, this roast starts with an aromatic wet brine. Weigh the salt, use unsalted stock and keep the turkey refrigerated throughout brining. Roast at a steady 325°F and check the required internal temperatures before removing it from the oven.
 
 Salt changes how meat proteins interact with water and seasons the bird; brining is not simply water being driven inward by osmosis, and it cannot prevent all moisture loss from overcooking. The spices mainly flavor the brine and surface. Dry the skin after brining, and give the meat enough time without using skin color as a thermometer.
 
@@ -194,4 +194,4 @@ Salt changes how meat proteins interact with water and seasons the bird; brining
 
 ## Planning notes
 
-This is an unstuffed, conventionally raised whole turkey of the stated size. A different size, a pre-brined bird, a breast-only roast or a tightly stuffed cavity requires a different plan. It remains distinct from the smaller dry-brined [Roast Turkey](/mise/recipes/simple-roast-turkey) and the reviewed [Herb-Roasted Turkey Breast](/mise/recipes/roast-turkey-breast). Brined drippings can be salty; gravy is a separate preparation and should not receive automatic extra salt.
+This is an unstuffed, conventionally raised whole turkey of the stated size. A different size, a pre-brined bird, a breast-only roast or a tightly stuffed cavity requires a different plan. It remains distinct from the smaller dry-brined [Roast Turkey](/mise/recipes/simple-roast-turkey) and [Herb-Roasted Turkey Breast](/mise/recipes/roast-turkey-breast). Brined drippings can be salty; gravy is a separate preparation and should not receive automatic extra salt.

@@ -32,7 +32,7 @@ review:
 
 Serve one full batch each of Thai Basil Chicken & Eggplant, Coconut Jasmine Rice, and Japanese Cucumber Sunomono among four diners. The rice recipe normally makes six side portions; here its 360 g dry rice is shared four ways as the main starch. The chicken supplies about 112 g raw meat and 112 g eggplant per person, with a small 100 g cucumber side before draining.
 
-The coconut rice adds richness to the savory glaze, while the Japanese cucumber side adds a cool texture and sweet-sour contrast. This is a mixed-cuisine home dinner, not a claim that sunomono is Thai. Allow about 65–70 minutes for one cook with two burners.
+The coconut rice adds richness to the savory glaze, while the Japanese cucumber side adds a cool texture and sweet-sour contrast. Allow about 65–70 minutes for one cook with two burners.
 
 ## Cooking Strategy
 

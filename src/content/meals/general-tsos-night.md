@@ -46,4 +46,4 @@ This is a Chinese-American-inspired chicken dinner with a Korean spinach banchan
 
 ## Notes
 
-Use the main's lower pepper-flake option if a milder meal is wanted. Avoid claiming the slow cooker caramelizes the wet sauce or preserves a crisp crust. Store the components separately and follow their individual chilling guidance. Reheat chicken and rice thoroughly on the stove or in the microwave; serve properly stored spinach chilled rather than automatically heating it in the chicken sauce.
+Use the main's lower pepper-flake option if a milder meal is wanted. The chicken stays tender in the slow cooker; reduce the sauce separately for a glossy coating. Store the components separately and follow their individual chilling guidance. Reheat chicken and rice thoroughly on the stove or in the microwave; serve properly stored spinach chilled rather than automatically heating it in the chicken sauce.

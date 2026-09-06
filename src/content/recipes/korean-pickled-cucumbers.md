@@ -112,7 +112,7 @@ learning:
 
 ## Chef's Note
 
-Oi muchim is a seasoned cucumber side dish. This version uses gochugaru, garlic, a little sugar, and sesame, with rice vinegar for brightness. A short salting period reduces the water that would otherwise dilute the dressing. The cucumbers remain fresh and perishable; the legacy “pickled cucumbers” address is kept for existing links.
+Oi muchim is a seasoned cucumber side dish. This version uses gochugaru, garlic, a little sugar, and sesame, with rice vinegar for brightness. A short salting period reduces the water that would otherwise dilute the dressing. Keep the cucumbers refrigerated and serve soon after dressing.
 
 ## Directions
 

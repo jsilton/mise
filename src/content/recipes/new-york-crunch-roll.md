@@ -120,7 +120,7 @@ learning:
 
 ## Chef's Note
 
-This site's New York Crunch Roll combines tuna, avocado, cucumber and tempura flakes with nori outside. The name does not establish one universal restaurant formula or a New York origin. Prepared tenkasu adds a delicate crunch, but it will soften against the filling, so roll and eat promptly.
+Tuna, avocado, cucumber and tempura flakes fill this nori-wrapped roll. Prepared tenkasu adds a delicate crunch that softens against the filling, so roll and eat promptly.
 
 ## Before buying raw tuna
 

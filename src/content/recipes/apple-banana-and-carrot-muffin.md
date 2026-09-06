@@ -56,7 +56,7 @@ nutrition:
 
 ## Chef's Note
 
-The common flaw in "Healthy" muffins is a gummy, dense texture. We solve this by **Grating, not Simmering**. The original recipe suggested boiling the apple and carrot; we have upgraded this to fresh grating. This preserves the structural integrity of the fruit and veg, providing a lighter crumb and a fresher flavor profile. Note: this recipe is crafted for children - keep toppings simple, avoid nuts for young eaters, and skip delicate herb garnishes.
+The common flaw in "Healthy" muffins is a gummy, dense texture. We solve this by **Grating, not Simmering**. Grate the apple and carrot finely before adding them to the batter. This preserves the structural integrity of the fruit and veg, providing a lighter crumb and a fresher flavor profile. Note: this recipe is crafted for children - keep toppings simple, avoid nuts for young eaters, and skip delicate herb garnishes.
 
 ## Directions
 

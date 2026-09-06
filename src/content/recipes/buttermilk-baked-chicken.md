@@ -84,7 +84,7 @@ learning:
   substitutions:
     - ingredient: 2 cups cultured buttermilk
       alternative: 1 1/2 cups plain unsweetened regular yogurt mixed with 1/2 cup water
-      effect: A similar tangy coating, with a different flavor and thickness. Use regular yogurt rather than thick Greek yogurt and drain well before breading; this dilution is an editorial starting point, not a tested equivalent.
+      effect: A similar tangy coating, with a different flavor and thickness. Use regular yogurt rather than thick Greek yogurt and drain well before breading. Yogurt thickness varies, so let excess coating drip away before adding crumbs.
     - ingredient: 150 g plain cornflakes
       alternative: 150 g certified gluten-free plain cornflakes
       effect: Preserves the cereal coating while avoiding barley malt; verify the hot sauce and other packaged ingredients too. Flake size and sugar content may change browning speed.

@@ -65,7 +65,7 @@ nutrition:
 
 ## Chef's Note
 
-This family recipe upgrades margarine to butter and uses boiling water to bloom cocoa powder to its full potential. The entire batter mixes in the saucepan used to melt the butter, minimizing cleanup. Always frost while cake is still warm to create that signature fudgy seal.
+This family chocolate cake uses butter and boiling water to bring the cocoa into a smooth batter. The entire batter mixes in the saucepan used to melt the butter, minimizing cleanup. Always frost while cake is still warm to create that signature fudgy seal.
 
 ## Directions
 

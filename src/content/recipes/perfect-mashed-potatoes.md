@@ -37,8 +37,8 @@ learning:
   before:
     - >-
       Potato weight is peeled and trimmed; buy roughly 1.6 kg to allow for
-      peel and trimming. Yield is about six cups, or eight roughly three-quarter-cup
-      side portions, and should be checked in kitchen testing.
+      peel and trimming. Expect about six cups, or eight roughly three-quarter-cup
+      side portions.
     - >-
       A ricer gives a finer texture; a hand masher leaves some small pieces.
       Neither requires beating to a fixed sixty-second rule. Avoid a blender

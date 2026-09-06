@@ -179,7 +179,7 @@ learning:
 
 ## Chef's Note
 
-This is a home-pan lo mein with a light coating of sauce. Cantonese noodle preparations vary; one recipe does not define the whole category. Dark soy contributes flavor and salt as well as color. Toasted sesame oil goes in at the finish for a clear aroma, without claiming that all of its flavor disappears at a single temperature.
+This is a home-pan lo mein with a light coating of sauce. Dark soy contributes flavor and salt as well as color. Toasted sesame oil goes in at the finish for a clear aroma.
 
 ## Directions
 

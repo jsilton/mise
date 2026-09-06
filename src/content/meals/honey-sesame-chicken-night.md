@@ -49,4 +49,4 @@ Allow about 75–80 minutes for one cook using two burners and two skillets. The
 
 ## Notes
 
-A small rice-cooker batch can simplify burner management, but its cycle and rest time follow the appliance. The schedule above uses the reviewed stovetop rice. Store rice, chicken and broccoli separately, cool promptly, and follow each recipe's reheating instructions.
+A small rice-cooker batch can simplify burner management, but its cycle and rest time follow the appliance. The schedule above uses the stovetop rice method. Store rice, chicken and broccoli separately, cool promptly, and follow each recipe's reheating instructions.

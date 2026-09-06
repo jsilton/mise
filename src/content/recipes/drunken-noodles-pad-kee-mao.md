@@ -137,7 +137,7 @@ learning:
 
 ## Chef's Note
 
-Pad kee mao is a bold chile-and-basil noodle dish. This version keeps the site's shallot and baby-corn combination and uses holy basil when available. Thai basil gives a different but useful variation. The home-stove technique is to prepare everything first and finish one serving at a time. Brief contact with the pan can toast the noodles; vigorous scraping and a crowded pan do not create wok hei.
+Pad kee mao combines bold chile-and-basil flavor with wide rice noodles, shallots and baby corn. Use holy basil when available; Thai basil gives a different aroma. Prepare everything before heating the pan and finish one serving at a time so the noodles have room to toast without tearing. Lift gently rather than scraping vigorously.
 
 ## Directions
 

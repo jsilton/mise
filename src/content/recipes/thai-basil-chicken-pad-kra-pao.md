@@ -127,7 +127,7 @@ learning:
 
 ## Chef's Note
 
-Holy basil, garlic, and chile give pad kra pao its character. This version retains the site's fish-sauce-and-soy seasoning, with a small amount of sugar to round it out. It should taste savory, not like a honey glaze. Thai basil is a useful substitution with a different aroma. The fried egg is part of this serving; rice is prepared separately. This home method uses a shallow layer of oil for the eggs rather than a deep pool.
+Holy basil, garlic and chile give pad kra pao its character. Fish sauce and soy supply savory seasoning, with a little sugar to round it out. Thai basil is a useful substitution with a different aroma. Serve each portion with its fried egg and separately prepared rice. A shallow layer of oil is enough for the egg method here.
 
 ## Directions
 

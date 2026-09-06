@@ -47,7 +47,7 @@ description: >-
   Peppery chicken thighs in a concentrated brown-sugar and fish-sauce glaze. Learn when to stop
   reducing a sauce and how to balance it with the rest of the meal.
 source: >-
-  Adapted with editorial changes from Charles Phan’s caramelized black pepper chicken, demonstrated
+  Adapted from Charles Phan’s caramelized black pepper chicken, demonstrated
   with Food52
 sourceUrl: 'https://www.youtube.com/watch?v=hq66lrLmih8'
 equipment:

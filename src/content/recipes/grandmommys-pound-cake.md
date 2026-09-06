@@ -59,7 +59,7 @@ nutrition:
 
 ## Chef's Note
 
-The pound cake is a heritage recipe perfected over generations. We have eliminated the legacy margarine entirely, using only unsalted butter to achieve the golden crumb. The key is baking at 275°F for a full 90 minutes; this ensures the cake rises evenly without a tough outer crust, resulting in a dense, velvety texture that defines a true pound cake. Room temperature eggs are mandatory for a perfect emulsion.
+Grandmommy’s pound cake has a rich, buttery crumb. The key is baking at 275°F for a full 90 minutes; this ensures the cake rises evenly without a tough outer crust, resulting in a dense, velvety texture that defines a true pound cake. Room temperature eggs are mandatory for a perfect emulsion.
 
 ## Directions
 

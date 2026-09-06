@@ -137,7 +137,7 @@ learning:
 
 ## Chef's Note
 
-Tom kha gai centers on galangal in a coconut broth. Galangal and ginger have different aromas; substituting ginger makes a different soup. This version retains the site's mushrooms and small tomato addition. Infuse the large aromatics first and remove them before the eating ingredients go in. Add lean chicken late, then finish with lime off heat. The result should be a fragrant soup, not a thick curry or an aggressively sweet-salty broth waiting to be rescued by acid.
+Galangal gives this coconut chicken soup its distinctive aroma, with mushrooms and a small tomato addition. Ginger makes a different-tasting substitute. Infuse the large aromatics first and remove them before adding the chicken and vegetables. Add lean chicken late and finish with lime off heat for a fragrant, spoonable broth.
 
 ## Directions
 

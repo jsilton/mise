@@ -2,7 +2,7 @@
 title: Corn Bread Dressing
 description: Dried cornbread pieces baked with browned mushrooms, shallots, celery and herbs, with a moist center and crisp exposed edges.
 origin: United States
-source: Family recipe retained in this collection; contributor not identified
+source: Family recipe
 difficulty: easy
 cookingMethods: [bake, saute]
 occasions: [holiday, entertaining]
@@ -126,7 +126,7 @@ learning:
 
 ## Chef's Note
 
-The collection records this as a family cornbread dressing, with mushrooms, shallots and fresh herbs. It keeps a different character from Grandmommy's finer cornbread-and-white-bread dressing. Drying the bread and cooking off mushroom liquid make the moisture easier to control, but cornbread will still crumble somewhat when folded. The contrast comes from tender pieces underneath and crisp exposed edges on top.
+This Southern family dressing combines cornbread with mushrooms, shallots and plenty of fresh herbs. The center stays tender, with crisp exposed edges on top. Dry the bread and cook off the mushroom liquid before mixing, then fold gently so some cornbread pieces keep their shape.
 
 ## Bread preparation
 

@@ -49,7 +49,7 @@ nutrition:
 
 ## Chef's Note
 
-The secret to banana bread that isn't dense or dry is precision with measurements. Bananas vary wildly in size, so weighing them ensures consistent results. We use melted butter for a tender, cake-like crumb and ensure the bananas are dead-ripe (black spots) to maximize the natural sugars. This is an improved version of a family classic.
+The secret to banana bread that isn't dense or dry is precision with measurements. Bananas vary wildly in size, so weighing them ensures consistent results. We use melted butter for a tender, cake-like crumb and ensure the bananas are dead-ripe (black spots) to maximize the natural sugars.
 
 ## Directions
 

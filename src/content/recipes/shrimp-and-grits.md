@@ -1,6 +1,6 @@
 ---
 title: Shrimp and Grits
-source: Adapted from the archived Food Network / Bobby Flay Shrimp and Grits recipe
+source: Adapted from Bobby Flay’s Shrimp and Grits at Food Network
 sourceUrl: https://www.foodnetwork.com/recipes/bobby-flay/shrimp-and-grits-recipe-1911862
 difficulty: intermediate
 cookingMethods: [simmer, saute]
@@ -134,7 +134,7 @@ learning:
     and adjust with the listed hot water. Cook shrimp near serving rather than holding them
     in a simmering pan.
   sources:
-    - title: Food Network / Bobby Flay — Archived source for Shrimp and Grits
+    - title: Bobby Flay / Food Network — Shrimp and Grits
       url: https://www.foodnetwork.com/recipes/bobby-flay/shrimp-and-grits-recipe-1911862
     - title: Palmetto Farms — Product-specific grits ratio and cooking method
       url: https://palmettofarms.com/recipe/grandmas-shrimp-grits/

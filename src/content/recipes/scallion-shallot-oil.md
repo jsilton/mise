@@ -104,9 +104,9 @@ learning:
     time.
   storage: >-
     Refrigerate the cooled oil and fried solids separately at 40°F / 4°C or below within 2 hours.
-    Use within 4 days, or freeze promptly in small labeled portions for longer storage. This home
-    batch is not acidified or tested for shelf stability; crisp-looking solids and straining do not
-    establish a safe room-temperature storage process. The garnish is best the day it is made.
+    Use within 4 days, or freeze promptly in small labeled portions for longer storage. Do not
+    store the oil or fried solids at room temperature; straining the oil and frying the solids crisp
+    do not make them shelf-stable. The garnish is best the day it is made.
   sources:
     - title: Sarah Nevins — Cold-start fried shallots
       url: 'https://www.asaucykitchen.com/crispy-fried-shallots/'

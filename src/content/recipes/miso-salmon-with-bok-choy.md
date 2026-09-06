@@ -1,6 +1,6 @@
 ---
 title: Miso Salmon with Bok Choy
-source: Jordan Silton, as credited in the original recipe export; adapted with measured rice, cooking oil and household-pan batches
+source: Jordan Silton
 description: Citrus-miso salmon with garlic, scallions and oyster-seasoned bok choy over jasmine rice.
 difficulty: easy
 cookingMethods: [boil, simmer, roast, broil, saute, steam]
@@ -112,7 +112,7 @@ learning:
 
 ## Chef's Note
 
-Jordan Silton's original recipe combines a honey-miso marinade brightened with both lemon and rice vinegar, then serves the salmon with garlic, scallions and oyster-seasoned bok choy. This is a family combination of Japanese and Chinese pantry flavors. Drain the fish well before roasting and give the broiler your full attention for the brief finish.
+Jordan Silton's miso salmon pairs a honey-miso marinade with lemon, rice vinegar, garlic and scallions. Oyster-seasoned bok choy and jasmine rice complete the plate. Drain the fish well before roasting and watch closely during the brief broiler finish.
 
 ## Directions
 

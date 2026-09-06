@@ -21,6 +21,12 @@ The `learning` schema requires:
 
 Reviewed recipes and individual findings are recorded in `docs/reviews/` and `docs/recipe-review-register.json`. They have been edited against written sources and checked for internal consistency; no kitchen test is claimed. The baseline nutrition fields were removed from reviewed recipes where ingredient quantities or formulas changed. Legacy nutrition data remains in other source files for review but is withheld from the public recipe template.
 
+## Public recipe presentation
+
+Keep the public recipe focused on cooking. Weave transferable skills and sensory outcomes into the introduction and relevant method steps; do not display separate “The skill you take away” or “What success looks like” panels. Keep review status, dates, kitchen-test disclaimers and technique/safety bibliographies in internal records and the footer-linked review page, rather than repeating them in recipes. Preserve concise original-source attribution.
+
+Use natural culinary prose without household-preference declarations, archive history or editorial self-commentary. Preserve family authorship and defining recipe characteristics. Name ingredients by useful culinary properties rather than manufacturers. When removing a brand changes the meaning of a volume measure, use an already specified equivalent or establish a supported replacement; never silently treat different salt densities as interchangeable. Keep necessary product composition, strength, package size and equipment constraints explicit.
+
 ## Kitchen test record
 
 Record date, cook, ingredient brands and weights, exact cut and dimensions, equipment and pan dimensions, starting conditions, actual active and elapsed times, measured temperatures where relevant, finished yield, sensory results, failures, adjustments, and whether the written version reproduces the result. Repeat in a second kitchen or with a second cook before making a strong reproducibility claim. An editorial review alone cannot advance a recipe to kitchen-tested.
