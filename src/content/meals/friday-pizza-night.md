@@ -14,7 +14,6 @@ occasions: [friday, family, kids-approved, fun]
 seasons: [year-round]
 nutritionalDensity: hearty
 servings: '6'
-bestFor: [friday]
 ---
 
 ## Meal Overview

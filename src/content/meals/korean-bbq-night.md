@@ -18,7 +18,6 @@ occasions: [entertaining, weekend-project, summer]
 seasons: [spring, summer]
 nutritionalDensity: hearty
 servings: '4'
-bestFor: [saturday, friday]
 ---
 
 ## Meal Overview

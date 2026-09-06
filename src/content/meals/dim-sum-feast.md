@@ -13,7 +13,6 @@ occasions: [weekend-project, entertaining]
 seasons: [year-round]
 nutritionalDensity: moderate
 servings: '6'
-bestFor: [saturday, sunday]
 ---
 
 ## Meal Overview

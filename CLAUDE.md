@@ -6,7 +6,6 @@ Mise is a culinary knowledge base and AI-assisted cooking system. The static sit
 
 - **550+ recipes** in `src/content/recipes/*.md` with 30+ metadata fields each
 - **23 curated meals** in `src/content/meals/*.md` (multi-recipe compositions)
-- **7 weekly calendars** in `src/content/calendars/*.md` (meal plans)
 - **Knowledge codex** in `src/knowledge/codex/*.json` (automated quality rules)
 - **Technique references** in `src/knowledge/techniques/*.md` (reusable culinary techniques)
 - **Astro 5 static site** with search, filtering, and recipe detail pages
@@ -209,52 +208,11 @@ pairsWith: [basmati-rice, everyday-arugula-salad] # must be valid recipe slugs
 - Food processor for ricotta fillings (destroys texture), pre-shredded cheese where melt quality matters
 - Time estimates that don't add up (says "30 min" but prep + cook + rest is actually 60+)
 
-## Meal Compositions
+## Meal composition
 
-Meals in `src/content/meals/*.md` compose multiple recipes into a complete dining experience.
-
-### Templates
-
-- **plate** — protein + starch + vegetable (+ optional salad/sauce)
-- **bowl** — base + protein + vegetables + sauce + toppings
-- **pasta-night** — pasta + sauce + protein/veg + salad
-- **soup-and-side** — hearty soup + bread or salad
-- **one-pot** — single vessel meal (stew, curry, chili)
-- **grazing** — multiple small items for entertaining
-
-### Day-of-Week Profiles (for meal planning)
-
-Context: Family of 5 (kids ages 8, 10, 12). Weeknights are constrained by school pickup, homework, and extracurriculars. Meals need to work for both adults and kids without making separate dishes.
-
-| Day       | Profile        | Active Time | Density         | Style                                       |
-| --------- | -------------- | ----------- | --------------- | ------------------------------------------- |
-| Monday    | Quick Recovery | 20-30 min   | Light-moderate  | Comfort but fast — everyone's adjusting     |
-| Tuesday   | One-Pot Night  | 25-35 min   | Moderate        | Minimal cleanup, often activity nights      |
-| Wednesday | Crowd-Pleaser  | 30-40 min   | Moderate-hearty | Mid-week morale boost, kid-friendly         |
-| Thursday  | Adventure Lite | 30-45 min   | Moderate-hearty | Try something new, but keep it approachable |
-| Friday    | Easy / Fun     | 15-25 min   | Any             | Pizza, tacos, build-your-own, or takeout    |
-| Saturday  | Project Day    | 60-120 min  | Any             | Learning opportunity, kids can help cook    |
-| Sunday    | Prep + Feast   | 45 min cook | Moderate-hearty | Family favorite + batch prep for the week   |
-
-### Planning Constraints
-
-- No cuisine repeated within 3 days
-- Balance light/moderate/hearty across the week
-- At least 2 different cuisines per 3-day window
-- Leftovers from Sunday/Monday can offset Tuesday/Wednesday effort
-- **Kid factor**: at least 3-4 nights per week should be broadly kid-friendly (not bland, but not extreme heat or unfamiliar textures without a safe component alongside)
-- **Activity nights**: Tuesday and Thursday often have sports/activities — plan for meals that hold well if someone eats late, or that can be assembled individually (bowls, tacos, wraps)
-- **Sunday prep**: use Sunday cooking time to prep components for the week (marinate proteins, wash/cut vegetables, make sauces, cook grains)
+Keep composed meals with ingredient portions, timing and preparation guidance. Weekly calendars, day-of-week profiles and automatic weekly planning are removed from the project scope.
 
 ## Common Claude Code Workflows
-
-### "Plan next week's meals"
-
-1. Check what was recently cooked (calendars, meal history)
-2. Consider the season and what's fresh
-3. Apply day-of-week profiles
-4. Compose meals from existing recipes, create new `meals/*.md` and `calendars/*.md` files
-5. Ensure variety in cuisine, density, and cooking method
 
 ### "Fix recipes that need work"
 
@@ -275,7 +233,7 @@ Context: Family of 5 (kids ages 8, 10, 12). Weeknights are constrained by school
 
 ### "What should I cook tonight?"
 
-1. Ask: what day is it (for day-of-week profile), how much time do you have, any constraints (dietary, ingredients on hand, kid preferences)?
+1. Ask: how much time do you have, any constraints (dietary, ingredients on hand, kid preferences)?
 2. Filter recipes by active time, season, and preferences — prioritize recipes tagged `weeknight` and `kids-approved` for school nights
 3. Suggest 3-5 options with brief reasoning, including at least one "pantry staple" option (things likely already in the house)
 4. Offer to compose a full meal around the chosen recipe

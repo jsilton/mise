@@ -16,7 +16,6 @@ occasions: [entertaining, game-day]
 seasons: [winter, fall]
 nutritionalDensity: moderate
 servings: '10-15'
-bestFor: [saturday, sunday]
 ---
 
 ## Meal Overview

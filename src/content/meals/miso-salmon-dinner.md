@@ -13,7 +13,6 @@ occasions: [weeknight, family-meal, date-night]
 seasons: [year-round]
 nutritionalDensity: hearty
 servings: '4'
-bestFor: [monday, tuesday, wednesday, thursday, friday]
 review:
   status: editorial-review
   date: '2026-09-06'

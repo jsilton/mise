@@ -14,7 +14,6 @@ occasions: [weeknight, family, comfort-food, bbq]
 seasons: [year-round]
 nutritionalDensity: hearty
 servings: '6'
-bestFor: [monday, wednesday]
 ---
 
 ## Meal Overview

@@ -174,25 +174,10 @@ const mealsCollection = defineCollection({
     seasons: z.array(z.string()).optional(),
     nutritionalDensity: z.enum(['light', 'moderate', 'hearty']).optional(),
     servings: z.string().optional(),
-
-    // Day-of-week suitability
-    bestFor: z.array(z.string()).optional(), // sunday, monday, weekend-project, etc.
-  }),
-});
-
-// Weekly calendar plans
-const calendarsCollection = defineCollection({
-  type: 'content',
-  schema: z.object({
-    title: z.string(),
-    weekStart: z.coerce.date().optional(), // ISO date YYYY-MM-DD
-    weekEnd: z.coerce.date().optional(), // ISO date YYYY-MM-DD
-    isPlaceholder: z.boolean().optional(), // True if week plan is TBD
   }),
 });
 
 export const collections = {
   recipes: recipesCollection,
   meals: mealsCollection,
-  calendars: calendarsCollection,
 };

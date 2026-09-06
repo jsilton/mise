@@ -14,7 +14,6 @@ occasions: [weeknight, meal-prep, comfort-food]
 seasons: [spring, summer, fall, winter]
 nutritionalDensity: hearty
 servings: '6'
-bestFor: [saturday, sunday]
 ---
 
 ## Meal Overview

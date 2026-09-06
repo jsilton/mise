@@ -16,9 +16,6 @@ seasons:
   - year-round
 nutritionalDensity: hearty
 servings: '4'
-bestFor:
-  - thursday
-  - friday
 base: warm-pita-bread
 sauce: mint-tzatziki
 totalTime: 1 hr 30 min

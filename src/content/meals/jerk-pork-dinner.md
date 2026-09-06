@@ -13,7 +13,6 @@ occasions: [family-meal, entertaining, make-ahead, weekend-project, meal-prep]
 seasons: [summer, year-round]
 nutritionalDensity: hearty
 servings: '8'
-bestFor: [saturday, sunday, thursday]
 ---
 
 ## Meal Overview

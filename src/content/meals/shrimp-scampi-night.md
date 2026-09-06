@@ -13,12 +13,11 @@ occasions: [weeknight, date-night]
 seasons: [spring, summer]
 nutritionalDensity: moderate
 servings: '4'
-bestFor: [tuesday, wednesday, thursday, friday]
 ---
 
 ## Meal Overview
 
-Buttery, garlicky shrimp tossed with linguini in a white wine pan sauce  -  classic Italian-American comfort in 20 minutes flat. The arugula salad provides necessary freshness, and garlic bread is non-negotiable for sopping up sauce.
+Buttery, garlicky shrimp tossed with linguini in a white wine pan sauce - classic Italian-American comfort in 20 minutes flat. The arugula salad provides necessary freshness, and garlic bread is non-negotiable for sopping up sauce.
 
 ## Cooking Strategy
 
@@ -32,6 +31,6 @@ Buttery, garlicky shrimp tossed with linguini in a white wine pan sauce  -  clas
 
 ## Notes
 
-- Don't overcook the shrimp  -  they continue cooking in the hot sauce
+- Don't overcook the shrimp - they continue cooking in the hot sauce
 - A splash of pasta water emulsifies the butter sauce beautifully
 - Fresh parsley and lemon zest to finish

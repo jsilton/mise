@@ -13,7 +13,6 @@ occasions: [weeknight, family-meal, meal-prep]
 seasons: [year-round]
 nutritionalDensity: hearty
 servings: '4'
-bestFor: [wednesday, saturday, sunday]
 review:
   status: editorial-review
   date: '2026-09-06'

@@ -12,7 +12,6 @@ occasions: [weeknight, comfort-food]
 seasons: [fall, winter]
 nutritionalDensity: moderate
 servings: '4'
-bestFor: [wednesday, thursday]
 ---
 
 ## Meal Overview

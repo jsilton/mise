@@ -14,12 +14,11 @@ occasions: [weeknight, comfort-food, kids-approved]
 seasons: [fall, winter]
 nutritionalDensity: hearty
 servings: '4'
-bestFor: [tuesday, wednesday, thursday]
 ---
 
 ## Meal Overview
 
-Rolled enchiladas smothered in chile sauce and melted cheese, served alongside red rice and black beans. This is a complete Mexican comfort meal  -  the kind of dinner where everyone asks for seconds.
+Rolled enchiladas smothered in chile sauce and melted cheese, served alongside red rice and black beans. This is a complete Mexican comfort meal - the kind of dinner where everyone asks for seconds.
 
 ## Cooking Strategy
 

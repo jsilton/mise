@@ -14,7 +14,6 @@ occasions: [weeknight]
 seasons: [winter, fall]
 nutritionalDensity: moderate
 servings: '4'
-bestFor: [tuesday, wednesday, thursday]
 ---
 
 ## Meal Overview

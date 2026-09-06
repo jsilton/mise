@@ -14,7 +14,6 @@ occasions: [weeknight, kids-approved]
 seasons: [spring, summer, fall, winter]
 nutritionalDensity: hearty
 servings: '4'
-bestFor: [monday, tuesday, wednesday]
 ---
 
 ## Meal Overview

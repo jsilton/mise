@@ -21,9 +21,6 @@ seasons:
   - winter
 nutritionalDensity: moderate
 servings: '4'
-bestFor:
-  - wednesday
-  - thursday
 review:
   status: editorial-review
   date: '2026-09-06'

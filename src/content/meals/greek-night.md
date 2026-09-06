@@ -17,10 +17,6 @@ seasons:
   - summer
 nutritionalDensity: hearty
 servings: '4'
-bestFor:
-  - wednesday
-  - thursday
-  - friday
 salad: greek-village-salad
 totalTime: 1 hr 15 min
 review:

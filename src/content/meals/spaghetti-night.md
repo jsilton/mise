@@ -13,7 +13,6 @@ occasions: [weeknight, comfort-food, kids-approved]
 seasons: [fall, winter]
 nutritionalDensity: hearty
 servings: '6'
-bestFor: [sunday, saturday]
 ---
 
 ## Meal Overview

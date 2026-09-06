@@ -22,7 +22,6 @@
     "qa": "node ./scripts/qa-test.mjs",
     "deploy": "npm run qa && npm run build && echo 'Ready to deploy - push /dist/ to production'",
     "prepare": "husky || true",
-    "plan-meals": "node ./scripts/meal-planner.mjs",
     "lint-recipe": "node ./scripts/lint-recipe.mjs",
     "lint-recipe:staged": "node ./scripts/lint-recipe.mjs --staged",
     "estimate-nutrition": "node ./scripts/estimate-nutrition.mjs",

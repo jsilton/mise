@@ -13,12 +13,11 @@ occasions: [date-night, light-and-fresh]
 seasons: [summer, fall]
 nutritionalDensity: moderate
 servings: '4'
-bestFor: [friday, saturday]
 ---
 
 ## Meal Overview
 
-A Provençal vegetable celebration  -  eggplant, zucchini, peppers, and tomatoes slow-roasted into something deeply flavored and silky. Served over creamy polenta, this becomes a satisfying vegetarian main. The arugula salad keeps things fresh.
+A Provençal vegetable celebration - eggplant, zucchini, peppers, and tomatoes slow-roasted into something deeply flavored and silky. Served over creamy polenta, this becomes a satisfying vegetarian main. The arugula salad keeps things fresh.
 
 ## Cooking Strategy
 

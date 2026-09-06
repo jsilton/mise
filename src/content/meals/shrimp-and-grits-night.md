@@ -13,7 +13,6 @@ occasions: [date-night, comfort-food, family-meal]
 seasons: [year-round]
 nutritionalDensity: hearty
 servings: '4'
-bestFor: [friday, saturday]
 review:
   status: editorial-review
   date: '2026-09-06'

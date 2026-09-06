@@ -13,7 +13,6 @@ occasions: [weeknight]
 seasons: [year-round]
 nutritionalDensity: hearty
 servings: '4'
-bestFor: [wednesday, thursday]
 ---
 
 ## Meal Overview
@@ -22,8 +21,8 @@ Cantonese restaurant-style pan fried noodles: a crispy noodle cake topped with s
 
 ## The Menu
 
-- **Pan Fried Noodles with Shrimp**  -  crispy noodle cake with shrimp gravy
-- **Steamed Bok Choy with Oyster Sauce**  -  simple Chinese greens
+- **Pan Fried Noodles with Shrimp** - crispy noodle cake with shrimp gravy
+- **Steamed Bok Choy with Oyster Sauce** - simple Chinese greens
 
 ## Quick Timeline
 

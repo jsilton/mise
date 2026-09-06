@@ -14,7 +14,6 @@ occasions: [weeknight, date-night, entertaining]
 seasons: [year-round]
 nutritionalDensity: hearty
 servings: '4'
-bestFor: [friday, saturday, sunday]
 review:
   status: editorial-review
   date: '2026-09-06'

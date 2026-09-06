@@ -15,7 +15,6 @@ occasions: [holiday, entertaining]
 seasons: [fall, winter]
 nutritionalDensity: hearty
 servings: '12'
-bestFor: [sunday]
 review:
   status: editorial-review
   date: '2026-09-06'

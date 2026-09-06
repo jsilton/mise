@@ -18,9 +18,6 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 servings: '3'
-bestFor:
-  - tuesday
-  - thursday
 ---
 
 ## Meal Overview

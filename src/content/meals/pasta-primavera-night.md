@@ -13,7 +13,6 @@ occasions: [weeknight, vegetarian, light-and-fresh]
 seasons: [spring, summer]
 nutritionalDensity: moderate
 servings: '4'
-bestFor: [monday, tuesday, wednesday, thursday]
 ---
 
 ## Meal Overview

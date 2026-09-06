@@ -13,7 +13,6 @@ occasions: [saturday, project, special-occasion, learning]
 seasons: [fall, winter]
 nutritionalDensity: hearty
 servings: '6'
-bestFor: [saturday]
 ---
 
 ## Meal Overview

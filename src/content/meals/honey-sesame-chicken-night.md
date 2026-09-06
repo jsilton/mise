@@ -22,10 +22,6 @@ seasons:
   - winter
 nutritionalDensity: hearty
 servings: '4'
-bestFor:
-  - monday
-  - tuesday
-  - wednesday
 totalTime: 75–80 min
 review:
   status: editorial-review

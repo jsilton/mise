@@ -21,10 +21,6 @@ seasons:
   - year-round
 nutritionalDensity: hearty
 servings: '6'
-bestFor:
-  - saturday
-  - sunday
-  - tuesday
 totalTime: 6 hr 45 min
 review:
   status: editorial-review

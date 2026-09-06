@@ -18,11 +18,6 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 servings: '5'
-bestFor:
-  - monday
-  - tuesday
-  - wednesday
-  - thursday
 totalTime: 1 hr 15 min
 review:
   status: editorial-review

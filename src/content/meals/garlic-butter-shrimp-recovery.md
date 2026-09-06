@@ -14,7 +14,6 @@ occasions: [weeknight, quick, family]
 seasons: [year-round]
 nutritionalDensity: moderate
 servings: '4'
-bestFor: [monday]
 ---
 
 ## Meal Overview

@@ -2,11 +2,7 @@ import type { APIRoute } from 'astro';
 import { getCollection } from 'astro:content';
 import { techniques } from '../data/techniques';
 export const GET: APIRoute = async ({ site }) => {
-  const [recipes, meals, calendars] = await Promise.all([
-    getCollection('recipes'),
-    getCollection('meals'),
-    getCollection('calendars'),
-  ]);
+  const [recipes, meals] = await Promise.all([getCollection('recipes'), getCollection('meals')]);
   const base = import.meta.env.BASE_URL;
   const paths = [
     '',
@@ -14,10 +10,8 @@ export const GET: APIRoute = async ({ site }) => {
     'standards/',
     'style-guide/',
     'meals/',
-    'calendar/',
     ...recipes.map((r) => `recipes/${r.slug}/`),
     ...meals.map((m) => `meals/${m.slug}/`),
-    ...calendars.map((c) => `calendar/${c.slug}/`),
     ...techniques.map((t) => `learn/${t.slug}/`),
   ];
   const escapeXml = (s: string) =>

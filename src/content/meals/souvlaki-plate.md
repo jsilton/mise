@@ -19,11 +19,6 @@ seasons:
   - summer
 nutritionalDensity: moderate
 servings: '4'
-bestFor:
-  - tuesday
-  - wednesday
-  - thursday
-  - friday
 review:
   status: editorial-review
   date: '2026-09-06'

@@ -20,10 +20,6 @@ seasons:
   - winter
 nutritionalDensity: hearty
 servings: '4'
-bestFor:
-  - tuesday
-  - wednesday
-  - thursday
 review:
   status: editorial-review
   date: '2026-09-06'

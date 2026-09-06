@@ -15,7 +15,6 @@ occasions: [weekend-dinner, family-meal, vegetarian, comfort-food]
 seasons: [year-round]
 nutritionalDensity: hearty
 servings: '4'
-bestFor: [saturday, sunday]
 review:
   status: editorial-review
   date: '2026-09-06'

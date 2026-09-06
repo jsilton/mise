@@ -14,7 +14,6 @@ occasions: [weeknight, quick-dinner]
 seasons: [year-round]
 nutritionalDensity: moderate
 servings: '4'
-bestFor: [monday, tuesday, wednesday, thursday]
 ---
 
 ## Meal Overview

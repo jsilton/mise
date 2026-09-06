@@ -13,7 +13,6 @@ occasions: [weeknight, one-pot, family, activity-night]
 seasons: [fall, winter, year-round]
 nutritionalDensity: hearty
 servings: '4'
-bestFor: [tuesday]
 ---
 
 ## Meal Overview

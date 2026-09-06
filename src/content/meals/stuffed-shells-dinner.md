@@ -13,12 +13,11 @@ occasions: [entertaining, comfort-food]
 seasons: [fall, winter]
 nutritionalDensity: hearty
 servings: '6'
-bestFor: [saturday, sunday]
 ---
 
 ## Meal Overview
 
-A weekend comfort classic  -  jumbo shells stuffed with a creamy spinach-ricotta filling, nestled in tomato sauce, and baked until bubbly. Garlic bread for the sauce and a peppery arugula salad keep things balanced.
+A weekend comfort classic - jumbo shells stuffed with a creamy spinach-ricotta filling, nestled in tomato sauce, and baked until bubbly. Garlic bread for the sauce and a peppery arugula salad keep things balanced.
 
 ## Cooking Strategy
 

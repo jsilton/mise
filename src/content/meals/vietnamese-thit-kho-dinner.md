@@ -13,7 +13,6 @@ occasions: [weeknight, entertaining, family]
 seasons: [year-round]
 nutritionalDensity: moderate
 servings: '4'
-bestFor: [thursday, friday]
 ---
 
 ## Meal Overview

@@ -12,12 +12,11 @@ occasions: [weeknight, light-and-fresh, quick-lunch]
 seasons: [spring, summer]
 nutritionalDensity: light
 servings: '4'
-bestFor: [monday, tuesday, wednesday]
 ---
 
 ## Meal Overview
 
-Light, crunchy, and packed with flavor  -  seasoned chicken mince served in crisp butter lettuce cups. The smashed cucumber salad rounds it out with cool, sesame-dressed crunch. This is the perfect warm-weather weeknight meal that feels virtuous but doesn't sacrifice flavor.
+Light, crunchy, and packed with flavor - seasoned chicken mince served in crisp butter lettuce cups. The smashed cucumber salad rounds it out with cool, sesame-dressed crunch. This is the perfect warm-weather weeknight meal that feels virtuous but doesn't sacrifice flavor.
 
 ## Cooking Strategy
 

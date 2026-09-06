@@ -13,7 +13,6 @@ occasions: [entertaining, game-day, comfort-food]
 seasons: [summer, fall]
 nutritionalDensity: hearty
 servings: '8'
-bestFor: [saturday, sunday]
 ---
 
 ## Meal Overview

@@ -12,7 +12,6 @@ occasions: [weekend-dinner, entertaining]
 seasons: [year-round]
 nutritionalDensity: moderate
 servings: '4'
-bestFor: [friday, saturday]
 review:
   status: editorial-review
   date: '2026-09-06'

@@ -1,3 +1,7 @@
+# Current scope update
+
+Meal calendars and weekly planning were removed at the user’s request. Historical entries below retain their original scope; calendar review is no longer outstanding work. Current recipe/meal counts are authoritative in the respective JSON registers.
+
 # Mise transformation: review progress
 
 ## Required outcome
@@ -750,3 +754,11 @@ Coverage: 165 reviewed original recipes + nine consolidations + 438 pending = 61
 Verification: all 29 QA checks pass and 731 built pages have no broken destinations or anchors. Browser checks passed both recipes' complete quantities and retained richness, half/quarter/double/reset, fixed package and cut sizes, pan/broiler batch guidance, sauce-first temperature sequence, full timing, inline checkpoints and absence of removed panels/notices. Universal footer policy links, mobile width, cook mode, print and page-error checks pass. Root inspected the mobile tikka method. Final flavor, broiler performance, retained marinade and measured yields remain kitchen questions.
 
 Saag batch d5f5f82046ec12e35b07a5d165fc733bbbf1d99d deployed successfully in Pages run 34045824275. Root live checks passed complete main/dinner amounts, scaling, exact three components, four/five-person and prepared schedules, removed panels/footer link and mobile/cook/print.
+
+## Calendar removal and review-process redesign
+
+Removed weekly calendar routes, eleven content entries, collection schema, navigation and sitemap entries, weekly planner and calendar-based shopping-list scripts, package command and CI trigger. Removed weekday suitability badges/data and obsolete authoring instructions. Composed meals and recipes remain. Historical calendar entries above are historical records, not remaining scope.
+
+The repeatable pipeline in RECIPE_REVIEW_PIPELINE.md separates deterministic cleanup, reusable method-family evidence, bounded inexpensive extraction/edit proposals and stronger exception review. Its 24-recipe pilot measures edit acceptance, missed defects and actual cost/time before scaling; no unmeasured 90% correctness or savings claim. The existing careful reviews remain valid and pending recipes are not relabeled.
+
+Validation: all 29 QA checks pass; 719 built pages have valid internal links and anchors. Browser checks verify no calendar navigation/sitemap entries, removed weekday badges, retained recipe/meal pages and mobile layout. Calendar root/detail routes return 404.

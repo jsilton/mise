@@ -13,7 +13,6 @@ occasions: [weeknight, date-night]
 seasons: [fall, winter]
 nutritionalDensity: hearty
 servings: '4'
-bestFor: [wednesday, thursday, friday]
 ---
 
 ## Meal Overview

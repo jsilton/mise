@@ -14,7 +14,6 @@ occasions: [sunday-dinner, entertaining]
 seasons: [fall, winter]
 nutritionalDensity: hearty
 servings: '6'
-bestFor: [sunday]
 ---
 
 ## Meal Overview
