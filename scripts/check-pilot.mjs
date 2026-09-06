@@ -35,6 +35,9 @@ const routine = decisions.filter(
   (d) => d.category === 'routine-edit' && d.disposition !== 'pending'
 );
 const accepted = routine.filter((d) => d.disposition === 'accepted').length;
+const adjudicatedDefects = decisions.filter(
+  (d) => d.category === 'material-defect' && d.disposition !== 'pending'
+);
 console.log(
   JSON.stringify(
     {
@@ -43,9 +46,10 @@ console.log(
       adjudicatedRoutineEdits: routine.length,
       acceptedWithoutCorrection: accepted,
       routineAcceptanceRate: routine.length ? accepted / routine.length : null,
-      missedMaterialDefects: decisions.filter(
-        (d) => d.category === 'material-defect' && d.disposition === 'missed'
-      ).length,
+      adjudicatedMaterialDefects: adjudicatedDefects.length,
+      missedMaterialDefects: adjudicatedDefects.length
+        ? adjudicatedDefects.filter((d) => d.disposition === 'missed').length
+        : null,
       evaluationComplete: false,
       note: 'Input integrity and recorded decisions only; no culinary certification. Missing results are not passes.',
     },
