@@ -88,7 +88,7 @@ Minestrone is Italian peasant cooking at its most democratic - it's a soup where
 
 2. **Bloom the Aromatics:** Add minced garlic, Italian seasoning, and thyme. Cook for 45 seconds until fragrant. Add tomato paste and stir constantly for 1-2 minutes. The tomato paste should darken slightly and smell concentrated. This step deepens the soup's flavor significantly.
 
-3. **Deglaze and Build:** Pour in 6 cups of stock (or water). Add canned diced tomatoes with their juice. Stir in balsamic vinegar. This adds acidity that brightens the entire soup.
+3. **Deglaze and Build:** Pour in the measured stock or water. Add canned diced tomatoes with their juice. Stir in balsamic vinegar. This adds acidity that brightens the entire soup.
 
 4. **Season:** Add salt and pepper. Stir well. Bring to a simmer over medium-high heat, then reduce to medium and maintain a gentle simmer.
 

@@ -1,0 +1,13 @@
+# Garlic Butter Shrimp Dinner: complete editorial review
+
+2026-09-06. All four components read in full: Garlic Butter Shrimp, Plain Short-Grain White Rice, Garlic Sauteed Green Beans and Everyday Arugula Salad. Editorial review, not a cooking or service test. Keep historical URL and the natural dinner title; no health/recovery promise.
+
+**Portions:** One full batch each for four:1.5lb prepared shrimp,300g dry short-grain rice,1lb beans,5oz arugula and20g salad Parmesan. These are four balanced main/starch/vegetable/small-salad allocations rather than four large shrimp-only entrées. Preserve shrimp butter, bean olive oil and salad dressing; their measured lemon amounts need no extra generic squeeze. Plain Japanese-style rice provides a neutral base for the Italian-American shrimp/vegetables; no false single-cuisine provenance or sushi seasoning implied.
+
+**Process:**75minute elapsed/45active allowance accommodates rice65minutes including30minute soak and10minute rest. Ready-to-eat preparation fits soak; start bean skillet once rice simmers, allow10–15minute cook after trimming, conditional steam before late garlic, then15minute shrimp/sauce finish while rice rests or stays measured hot. Two skillets avoid instant cleaning promises. Additional bean rounds add5–8minutes and seafood rounds may also extend schedule; finished beans have only the brief shrimp-stage wait and will soften somewhat. Dress arugula immediately before service.
+
+**Full destinations and equipment:** Rice has its own measured soak/cooking water. Beans use all oil allocated between browning/garlic, optional steam water evaporates, lemon finishes. Shrimp searing butter and sauce butter stay separate; cooked shrimp leave before wine reduction and return at finish. Salad dressing/cheese are reserved for final assembly. Lidded saucepan, lidded12inch bean pan, separate shrimp skillet, clean preparation surface and thermometer required. No simultaneously attended shrimp glaze/bean garlic step.
+
+**Handling and relationships:** Follow each reviewed component's evidence and endpoints; raw shrimp tools separated, rice held at140°F if waiting, shallow prompt refrigeration, beans within3days, rice/shrimp3–4days and165°F cooked-leftover reheat; salad next-day quality. Green beans are distinct from almond/butter variant. This meal is distinct from honey-lime shrimp/coconut-rice/bok-choy bowls. No new source search or physical result invented.
+
+**Physical checks:** Actual one-cook75minute sequence, rice holding, bean tenderness before garlic, two shrimp rounds with reduction, four-person portions, salt/acid balance and how well greens/beans hold through the finish. Record actual cookware and shrimp size before claiming timing or reproducibility.

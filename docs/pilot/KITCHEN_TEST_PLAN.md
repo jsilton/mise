@@ -38,3 +38,7 @@ Use the substantive test-record requirements in docs/RECIPE_STANDARD.md. Editori
 ## User participation required
 
 A person with a kitchen must cook and report the observations, or provide authorized existing records of those exact versions. The agent can prepare test sheets, compare observations, revise recipes and process supplied photographs. It cannot fabricate cooking, taste, temperatures or measured yield. No ingredients are purchased or cooks contacted by this plan.
+
+## Release-specific follow-up
+
+The [seafood release cards](../kitchen-tests/seafood-release.md) specify four additional original-batch tests tied to commit e7f48228: balsamic butter sauce and summer salmon, rich shrimp fettuccine, the shared-oven cod dinner, and honey-lime shrimp bowl sequencing. They list exact observations and repeat triggers. All remain planned with no results recorded.

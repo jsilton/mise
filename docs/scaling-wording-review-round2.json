@@ -1,0 +1,663 @@
+{
+  "auditType": "bounded-mechanical-scaling-screen-round-2",
+  "date": "2026-09-06",
+  "status": "applied",
+  "summary": {
+    "newCandidatesInspected": 12,
+    "recipesWithCertainRepairs": 10,
+    "proposedReplacements": 24,
+    "heldWithoutRepairs": 2
+  },
+  "scope": "Twenty-four root-approved Directions wording repairs in ten recipes; all twelve inspected dispositions retained. Held cases untouched. No ingredient, metadata, review-status, register or shared-code changes.",
+  "limits": [
+    "These are mechanical Directions wording proposals, not culinary reviews.",
+    "Current ingredient strings were resolved by exact text rather than array position; half/double examples use the actual scaleIngredient helper.",
+    "No repairs to temperatures, times, per-piece quantities, pan capacity or batch geometry are proposed.",
+    "The complete ingredient lists and Directions were inspected; unrelated existing defects remain outside scope."
+  ],
+  "inspected": [
+    {
+      "slug": "baked-chicken-parmesan",
+      "path": "/Users/jsilton/Sites/mise/src/content/recipes/baked-chicken-parmesan.md",
+      "fixedScaling": false,
+      "disposition": "propose-mechanical-repairs-with-separate-holds",
+      "readScope": "Complete ingredients, complete Directions, and available before/scaling guidance; this is wording screening only.",
+      "proposals": [
+        {
+          "line": 122,
+          "before": "6. **Melt the topping:** Divide 1/2 cup marinara over the centers of the cutlets, leaving edges exposed. Divide mozzarella over the sauced centers. Return to the oven for 3–5 minutes until melted; avoid prolonged baking once the cheese melts.",
+          "oldText": "Divide 1/2 cup marinara",
+          "newText": "Divide one third of the measured marinara",
+          "certainty": "high",
+          "reason": "One half cup is one third of the listed one-and-a-half-cup total.",
+          "ingredients": [
+            {
+              "original": "1 1/2 cups (360 ml) marinara sauce, divided",
+              "half": "3/4 cup (180 ml) marinara sauce, divided",
+              "double": "3 cups (720 ml) marinara sauce, divided",
+              "line": 44
+            }
+          ],
+          "after": "6. **Melt the topping:** Divide one third of the measured marinara over the centers of the cutlets, leaving edges exposed. Divide mozzarella over the sauced centers. Return to the oven for 3–5 minutes until melted; avoid prolonged baking once the cheese melts.",
+          "status": "applied"
+        },
+        {
+          "line": 123,
+          "before": "7. **Serve:** Toss pasta with the remaining 1 cup marinara, adding reserved water a tablespoon at a time if needed. Divide pasta and chicken among four plates, finish with basil, and serve promptly with a green salad.",
+          "oldText": "the remaining 1 cup marinara",
+          "newText": "the remaining marinara",
+          "certainty": "high",
+          "reason": "Remaining sauce already carries the other two thirds; do not repeat a fixed cup.",
+          "ingredients": [
+            {
+              "original": "1 1/2 cups (360 ml) marinara sauce, divided",
+              "half": "3/4 cup (180 ml) marinara sauce, divided",
+              "double": "3 cups (720 ml) marinara sauce, divided",
+              "line": 44
+            }
+          ],
+          "after": "7. **Serve:** Toss pasta with the remaining marinara, adding reserved water a tablespoon at a time if needed. Divide pasta and chicken among four plates, finish with basil, and serve promptly with a green salad.",
+          "status": "applied"
+        }
+      ],
+      "held": [
+        {
+          "excerpt": "grease with 1 tsp oil; reserve 1/2 cup cooking water",
+          "reason": "Rack grease is tied to surface area and reserve water is a working allowance, so neither is treated as a certain proportional repair. Pasta-water volume and pan geometry are excluded."
+        }
+      ]
+    },
+    {
+      "slug": "banana-pudding",
+      "path": "/Users/jsilton/Sites/mise/src/content/recipes/banana-pudding.md",
+      "fixedScaling": false,
+      "disposition": "propose-mechanical-repairs-with-separate-holds",
+      "readScope": "Complete ingredients, complete Directions, and available before/scaling guidance; this is wording screening only.",
+      "proposals": [
+        {
+          "line": 112,
+          "before": "1. **Divide the topping and wafers:** Keep half the thawed whipped topping, 8 oz (227 g), refrigerated for the top. Reserve 20 g of the wafers in a sealed container for garnish; use all the rest in the layers.",
+          "oldText": "half the thawed whipped topping, 8 oz (227 g),",
+          "newText": "half the thawed whipped topping,",
+          "certainty": "high",
+          "reason": "The half fraction is already correct; remove its conflicting original-only equivalent weight.",
+          "ingredients": [
+            {
+              "original": "16 oz (454 g) frozen whipped topping, thawed in the refrigerator, divided",
+              "half": "8 oz (227 g) frozen whipped topping, thawed in the refrigerator, divided",
+              "double": "32 oz (908 g) frozen whipped topping, thawed in the refrigerator, divided",
+              "line": 29
+            }
+          ],
+          "after": "1. **Divide the topping and wafers:** Keep half the thawed whipped topping, refrigerated for the top. Reserve 20 g of the wafers in a sealed container for garnish; use all the rest in the layers.",
+          "status": "applied"
+        }
+      ],
+      "held": [
+        {
+          "excerpt": "Reserve 20 g of the wafers in a sealed container for garnish",
+          "reason": "The 311 g total and 20 g garnish do not establish a simple intended fraction. A garnish allocation or separately listed reserve requires a decision; no invented rounding."
+        }
+      ]
+    },
+    {
+      "slug": "black-bean-tacos-with-lime-crema",
+      "path": "/Users/jsilton/Sites/mise/src/content/recipes/black-bean-tacos-with-lime-crema.md",
+      "fixedScaling": false,
+      "disposition": "propose-mechanical-repairs-with-separate-holds",
+      "readScope": "Complete ingredients, complete Directions, and available before/scaling guidance; this is wording screening only.",
+      "proposals": [
+        {
+          "line": 147,
+          "before": "1. **Prepare toppings and crema:** Shred cabbage, dice and drain tomatoes, chop cilantro and cut the serving lime. Stir crema or yogurt with 1 tbsp lime juice. Taste before adding the crema's optional salt and extra teaspoon of juice; thin thick yogurt with up to 1 tbsp water. Refrigerate while cooking.",
+          "oldText": "with 1 tbsp lime juice",
+          "newText": "with the initial measured lime juice",
+          "certainty": "high",
+          "reason": "Both initial and optional juice quantities scale in the actual helper.",
+          "ingredients": [
+            {
+              "original": "1 tbsp fresh lime juice, plus up to 1 tsp more to taste",
+              "half": "1/2 tbsp fresh lime juice, plus up to 1/2 tsp more to taste",
+              "double": "2 tbsp fresh lime juice, plus up to 2 tsp more to taste",
+              "line": 51
+            }
+          ],
+          "after": "1. **Prepare toppings and crema:** Shred cabbage, dice and drain tomatoes, chop cilantro and cut the serving lime. Stir crema or yogurt with the initial measured lime juice. Taste before adding the crema's optional salt and reserved juice; thin thick yogurt with up to the measured water allowance. Refrigerate while cooking.",
+          "status": "applied"
+        },
+        {
+          "line": 147,
+          "before": "1. **Prepare toppings and crema:** Shred cabbage, dice and drain tomatoes, chop cilantro and cut the serving lime. Stir crema or yogurt with 1 tbsp lime juice. Taste before adding the crema's optional salt and extra teaspoon of juice; thin thick yogurt with up to 1 tbsp water. Refrigerate while cooking.",
+          "oldText": "extra teaspoon of juice",
+          "newText": "reserved juice",
+          "certainty": "high",
+          "reason": "Keep the separately optional portion without its original teaspoon.",
+          "ingredients": [
+            {
+              "original": "1 tbsp fresh lime juice, plus up to 1 tsp more to taste",
+              "half": "1/2 tbsp fresh lime juice, plus up to 1/2 tsp more to taste",
+              "double": "2 tbsp fresh lime juice, plus up to 2 tsp more to taste",
+              "line": 51
+            }
+          ],
+          "after": "1. **Prepare toppings and crema:** Shred cabbage, dice and drain tomatoes, chop cilantro and cut the serving lime. Stir crema or yogurt with the initial measured lime juice. Taste before adding the crema's optional salt and reserved juice; thin thick yogurt with up to the measured water allowance. Refrigerate while cooking.",
+          "status": "applied"
+        },
+        {
+          "line": 147,
+          "before": "1. **Prepare toppings and crema:** Shred cabbage, dice and drain tomatoes, chop cilantro and cut the serving lime. Stir crema or yogurt with 1 tbsp lime juice. Taste before adding the crema's optional salt and extra teaspoon of juice; thin thick yogurt with up to 1 tbsp water. Refrigerate while cooking.",
+          "oldText": "with up to 1 tbsp water",
+          "newText": "with up to the measured water allowance",
+          "certainty": "high",
+          "reason": "The full optional loosening allowance scales; this is not a per-stir increment.",
+          "ingredients": [
+            {
+              "original": "1 tbsp water, only if needed to loosen yogurt",
+              "half": "1/2 tbsp water, only if needed to loosen yogurt",
+              "double": "2 tbsp water, only if needed to loosen yogurt",
+              "line": 53
+            }
+          ],
+          "after": "1. **Prepare toppings and crema:** Shred cabbage, dice and drain tomatoes, chop cilantro and cut the serving lime. Stir crema or yogurt with the initial measured lime juice. Taste before adding the crema's optional salt and reserved juice; thin thick yogurt with up to the measured water allowance. Refrigerate while cooking.",
+          "status": "applied"
+        }
+      ],
+      "held": [
+        {
+          "excerpt": "microwave four tortillas at a time; Serve two tacos per person",
+          "reason": "Warming batch and per-diner allocation are not total ingredient-dose fixes."
+        }
+      ]
+    },
+    {
+      "slug": "build-your-own-taco-bar",
+      "path": "/Users/jsilton/Sites/mise/src/content/recipes/build-your-own-taco-bar.md",
+      "fixedScaling": false,
+      "disposition": "propose-mechanical-repairs-with-separate-holds",
+      "readScope": "Complete ingredients, complete Directions, and available before/scaling guidance; this is wording screening only.",
+      "proposals": [
+        {
+          "line": 146,
+          "before": "2. **Start the filling:** Heat oil in a 12-inch skillet over medium. Stir cumin for 15–20 seconds, then immediately add the measured 60 ml broth and cooked chicken. Toss, cover and heat gently, stirring every couple of minutes. Add extra broth a tablespoon at a time only if the pan is drying.",
+          "oldText": "the measured 60 ml broth",
+          "newText": "the initial measured broth",
+          "certainty": "high",
+          "reason": "Distinguish initial broth from its equal optional reserve without a fixed volume.",
+          "ingredients": [
+            {
+              "original": "1/4 cup (60 ml) low-sodium chicken broth, plus up to 1/4 cup (60 ml) only if needed",
+              "half": "1/8 cup (30 ml) low-sodium chicken broth, plus up to 1/8 cup (30 ml) only if needed",
+              "double": "1/2 cup (120 ml) low-sodium chicken broth, plus up to 1/2 cup (120 ml) only if needed",
+              "line": 44
+            }
+          ],
+          "after": "2. **Start the filling:** Heat oil in a 12-inch skillet over medium. Stir cumin for 15–20 seconds, then immediately add the initial measured broth and cooked chicken. Toss, cover and heat gently, stirring every couple of minutes. Add extra broth a tablespoon at a time only if the pan is drying.",
+          "status": "applied"
+        },
+        {
+          "line": 148,
+          "before": "4. **Warm tortillas and finish avocado:** Warm tortillas in a dry skillet over medium-high, about 10–30 seconds per side until hot and flexible, wrapping each batch in a clean towel. Alternatively, microwave stacks of four to six between damp paper towels for 30–45 seconds, adding short bursts if needed. Slice avocado and gently toss with its separate tablespoon of lime juice. This helps limit browning but does not preserve it indefinitely.",
+          "oldText": "its separate tablespoon of lime juice",
+          "newText": "its separately measured lime juice",
+          "certainty": "high",
+          "reason": "The avocado lime is a dedicated scalable ingredient total.",
+          "ingredients": [
+            {
+              "original": "1 tbsp fresh lime juice, for the avocado",
+              "half": "1/2 tbsp fresh lime juice, for the avocado",
+              "double": "2 tbsp fresh lime juice, for the avocado",
+              "line": 54
+            }
+          ],
+          "after": "4. **Warm tortillas and finish avocado:** Warm tortillas in a dry skillet over medium-high, about 10–30 seconds per side until hot and flexible, wrapping each batch in a clean towel. Alternatively, microwave stacks of four to six between damp paper towels for 30–45 seconds, adding short bursts if needed. Slice avocado and gently toss with its separately measured lime juice. This helps limit browning but does not preserve it indefinitely.",
+          "status": "applied"
+        }
+      ],
+      "held": [
+        {
+          "excerpt": "about 33 g cooked chicken per tortilla",
+          "reason": "Per-tortilla filling size remains invariant, not a multiplied ingredient total."
+        }
+      ]
+    },
+    {
+      "slug": "chicken-and-wild-rice-soup",
+      "path": "/Users/jsilton/Sites/mise/src/content/recipes/chicken-and-wild-rice-soup.md",
+      "fixedScaling": false,
+      "disposition": "propose-mechanical-repairs-with-separate-holds",
+      "readScope": "Complete ingredients, complete Directions, and available before/scaling guidance; this is wording screening only.",
+      "proposals": [
+        {
+          "line": 129,
+          "before": "1. **Cook the grain:** Rinse the wild rice. Combine with 4 cups water in a saucepan and bring to a boil. Reduce to a gentle simmer, cover, and cook according to the package range, checking early for quick-cook grain. Add hot water if the pan dries before the rice is tender. When many grains open and have a tender, chewy center, drain any excess water.",
+          "oldText": "Combine with 4 cups water",
+          "newText": "Combine with the measured rice-cooking water",
+          "certainty": "high",
+          "reason": "Use the listed initial water amount; the existing extra-water and draining instructions remain intact.",
+          "ingredients": [
+            {
+              "original": "4 cups (960 ml) water, for cooking rice, plus more as needed",
+              "half": "2 cups (480 ml) water, for cooking rice, plus more as needed",
+              "double": "8 cups (1920 ml) water, for cooking rice, plus more as needed",
+              "line": 27
+            }
+          ],
+          "after": "1. **Cook the grain:** Rinse the wild rice. Combine with the measured rice-cooking water in a saucepan and bring to a boil. Reduce to a gentle simmer, cover, and cook according to the package range, checking early for quick-cook grain. Add hot water if the pan dries before the rice is tender. When many grains open and have a tender, chewy center, drain any excess water.",
+          "status": "applied"
+        },
+        {
+          "line": 131,
+          "before": "3. **Build the broth:** Add 8 cups chicken broth, thyme, salt, and pepper. Bring to a gentle simmer. Cook about 8–10 minutes, until carrots are approaching tenderness; they will cook further with the chicken.",
+          "oldText": "Add 8 cups chicken broth",
+          "newText": "Add the initial measured chicken broth",
+          "certainty": "high",
+          "reason": "Initial broth is distinct from the optional consistency reserve.",
+          "ingredients": [
+            {
+              "original": "8 cups (1.9 liters) low-sodium chicken broth, plus up to 2 cups to adjust consistency",
+              "half": "4 cups (0.95 liter) low-sodium chicken broth, plus up to 1 cup to adjust consistency",
+              "double": "16 cups (3.8 liters) low-sodium chicken broth, plus up to 4 cups to adjust consistency",
+              "line": 33
+            }
+          ],
+          "after": "3. **Build the broth:** Add the initial measured chicken broth, thyme, salt, and pepper. Bring to a gentle simmer. Cook about 8–10 minutes, until carrots are approaching tenderness; they will cook further with the chicken.",
+          "status": "applied"
+        },
+        {
+          "line": 134,
+          "before": "6. **Finish:** Add parsley and 1 tbsp lemon juice. Taste the broth with some chicken and rice, then add more lemon, salt, or pepper as needed. Ladle into eight bowls. For planned leftovers, keep the remaining rice and soup separate before chilling promptly.",
+          "oldText": "Add parsley and 1 tbsp lemon juice.",
+          "newText": "Add parsley and the lower end of the listed lemon-juice range.",
+          "certainty": "high",
+          "reason": "The recipe starts at the lower end of its scalable range, then tastes before adding more.",
+          "ingredients": [
+            {
+              "original": "1–2 tbsp lemon juice, to taste",
+              "half": "1/2–1 tbsp lemon juice, to taste",
+              "double": "2–4 tbsp lemon juice, to taste",
+              "line": 38
+            }
+          ],
+          "after": "6. **Finish:** Add parsley and the lower end of the listed lemon-juice range. Taste the broth with some chicken and rice, then add more lemon, salt, or pepper as needed. Ladle into eight bowls. For planned leftovers, keep the remaining rice and soup separate before chilling promptly.",
+          "status": "applied"
+        }
+      ],
+      "held": [
+        {
+          "excerpt": "1/2-inch pieces; 6-quart pot; 165°F / 74°C; eight bowls",
+          "reason": "Cut geometry, pan capacity, temperature and serving counts are outside these measured-total repairs."
+        }
+      ]
+    },
+    {
+      "slug": "brown-butter-carrot-cake",
+      "path": "/Users/jsilton/Sites/mise/src/content/recipes/brown-butter-carrot-cake.md",
+      "fixedScaling": false,
+      "disposition": "propose-mechanical-repairs-with-separate-holds",
+      "readScope": "Complete ingredients, complete Directions, and available before/scaling guidance; this is wording screening only.",
+      "proposals": [
+        {
+          "line": 71,
+          "before": "1.  **Brown the Butter:** Melt the 3/4 cup butter until dark golden and smelling like hazelnuts. Cool.",
+          "oldText": "Melt the 3/4 cup butter",
+          "newText": "Melt the butter listed for the cake",
+          "certainty": "high",
+          "reason": "Identifies the first cake-butter entry, separate from the frosting butter, without a fixed amount.",
+          "ingredients": [
+            {
+              "original": "3/4 cup Unsalted Butter, browned and cooled",
+              "half": "3/8 cup Unsalted Butter, browned and cooled",
+              "double": "1 1/2 cups Unsalted Butter, browned and cooled",
+              "line": 39
+            }
+          ],
+          "after": "1.  **Brown the Butter:** Melt the butter listed for the cake until dark golden and smelling like hazelnuts. Cool.",
+          "status": "applied"
+        }
+      ],
+      "held": [
+        {
+          "excerpt": "two 9-inch lined pans",
+          "reason": "Do not mechanically multiply pan dimensions. Existing browned-butter measurement and vanilla accounting need a culinary review; this wording change does not decide either."
+        }
+      ]
+    },
+    {
+      "slug": "blueberry-baked-oatmeal",
+      "path": "/Users/jsilton/Sites/mise/src/content/recipes/blueberry-baked-oatmeal.md",
+      "fixedScaling": false,
+      "disposition": "hold-no-certain-directions-only-repair",
+      "readScope": "Complete ingredients, complete Directions, and available before/scaling guidance; this is wording screening only.",
+      "proposals": [],
+      "held": [
+        {
+          "excerpt": "Arrange 1 cup of blueberries at the bottom of a greased baking dish.",
+          "ingredients": [
+            {
+              "original": "12 oz Fresh or Frozen Blueberries",
+              "half": "6 oz Fresh or Frozen Blueberries",
+              "double": "24 oz Fresh or Frozen Blueberries"
+            }
+          ],
+          "reason": "The ingredient ledger is weight and the method allocation is volume. No exact proportional split follows without a measured conversion or author decision. Do not invent a half or third."
+        }
+      ]
+    },
+    {
+      "slug": "lemon-herb-couscous",
+      "path": "/Users/jsilton/Sites/mise/src/content/recipes/lemon-herb-couscous.md",
+      "fixedScaling": false,
+      "disposition": "propose-mechanical-repairs",
+      "readScope": "Complete ingredients, complete Directions, and available before/scaling guidance; this is wording screening only.",
+      "proposals": [
+        {
+          "line": 129,
+          "before": "1. **Prepare and heat:** Chop parsley and mint, grate lemon zest and measure the juice. Check the package’s liquid guidance for 250 g couscous; use 420 ml for the stated starting formula. Bring the broth to a full boil in a 2-quart saucepan.",
+          "oldText": "Check the package’s liquid guidance for 250 g couscous; use 420 ml for the stated starting formula.",
+          "newText": "Check the package’s liquid guidance for the measured couscous quantity; use the listed broth amount for the starting formula.",
+          "certainty": "high",
+          "reason": "Both ledger amounts scale and the existing package-priority qualification remains.",
+          "ingredients": [
+            {
+              "original": "250 g plain instant couscous; not pearl couscous",
+              "half": "125 g plain instant couscous; not pearl couscous",
+              "double": "500 g plain instant couscous; not pearl couscous",
+              "line": 37
+            },
+            {
+              "original": "420 ml low-sodium vegetable or chicken broth, adjusted to the chosen package instructions",
+              "half": "210 ml low-sodium vegetable or chicken broth, adjusted to the chosen package instructions",
+              "double": "840 ml low-sodium vegetable or chicken broth, adjusted to the chosen package instructions",
+              "line": 38
+            }
+          ],
+          "after": "1. **Prepare and heat:** Chop parsley and mint, grate lemon zest and measure the juice. Check the package’s liquid guidance for the measured couscous quantity; use the listed broth amount for the starting formula. Bring the broth to a full boil in a 2-quart saucepan.",
+          "status": "applied"
+        },
+        {
+          "line": 132,
+          "before": "4. **Dress:** Fold in olive oil, 1 tbsp lemon juice, zest and pepper. Let excess steam escape for a minute, then fold in parsley and mint. Taste before adding the remaining lemon juice and measured salt; broth and optional feta may already supply enough salt.",
+          "oldText": "olive oil, 1 tbsp lemon juice, zest",
+          "newText": "olive oil, half the measured lemon juice, zest",
+          "certainty": "high",
+          "reason": "Initial one tablespoon is half the listed two; the method already reserves the remainder to taste.",
+          "ingredients": [
+            {
+              "original": "2 tbsp fresh lemon juice, divided and partly added to taste",
+              "half": "1 tbsp fresh lemon juice, divided and partly added to taste",
+              "double": "4 tbsp fresh lemon juice, divided and partly added to taste",
+              "line": 40
+            }
+          ],
+          "after": "4. **Dress:** Fold in olive oil, half the measured lemon juice, zest and pepper. Let excess steam escape for a minute, then fold in parsley and mint. Taste before adding the remaining lemon juice and measured salt; broth and optional feta may already supply enough salt.",
+          "status": "applied"
+        }
+      ],
+      "held": []
+    },
+    {
+      "slug": "master-sushi-rice",
+      "path": "/Users/jsilton/Sites/mise/src/content/recipes/master-sushi-rice.md",
+      "fixedScaling": false,
+      "disposition": "propose-mechanical-repairs-with-separate-holds",
+      "readScope": "Complete ingredients, complete Directions, and available before/scaling guidance; this is wording screening only.",
+      "proposals": [
+        {
+          "line": 121,
+          "before": "1. **Rinse and soak:** Rinse the rice several times, gently swishing and draining until the water is less cloudy. Drain well, transfer to a heavy 3-quart saucepan and add the measured 480 ml water. Wipe away visible grit from the kombu with a barely damp cloth and add it. Soak for 30 minutes.",
+          "oldText": "add the measured 480 ml water",
+          "newText": "add the measured cooking water",
+          "certainty": "high",
+          "reason": "The entire absorption-water dose scales with the ingredient list.",
+          "ingredients": [
+            {
+              "original": "480 ml cold water, plus water for rinsing",
+              "half": "240 ml cold water, plus water for rinsing",
+              "double": "960 ml cold water, plus water for rinsing",
+              "line": 39
+            }
+          ],
+          "after": "1. **Rinse and soak:** Rinse the rice several times, gently swishing and draining until the water is less cloudy. Drain well, transfer to a heavy 3-quart saucepan and add the measured cooking water. Wipe away visible grit from the kombu with a barely damp cloth and add it. Soak for 30 minutes.",
+          "status": "applied"
+        },
+        {
+          "line": 124,
+          "before": "4. **Mix the seasoning:** While the rice cooks, stir 4 tbsp of the vinegar, the sugar and 1 tsp of the salt in a small bowl. Warm briefly if needed to dissolve, without boiling. Reserve the remaining 1 tbsp vinegar and 1/2 tsp salt.",
+          "oldText": "stir 4 tbsp of the vinegar, the sugar and 1 tsp of the salt",
+          "newText": "stir four fifths of the measured vinegar, the sugar and two thirds of the measured salt",
+          "certainty": "high",
+          "reason": "The exact initial fractions are 4/5 vinegar and 2/3 salt; this preserves both original allocations.",
+          "ingredients": [
+            {
+              "original": "5 tbsp unseasoned rice vinegar",
+              "half": "2 1/2 tbsp unseasoned rice vinegar",
+              "double": "10 tbsp unseasoned rice vinegar",
+              "line": 41
+            },
+            {
+              "original": "1 1/2 tsp fine sea salt, divided",
+              "half": "3/4 tsp fine sea salt, divided",
+              "double": "3 tsp fine sea salt, divided",
+              "line": 43
+            }
+          ],
+          "after": "4. **Mix the seasoning:** While the rice cooks, stir four fifths of the measured vinegar, the sugar and two thirds of the measured salt in a small bowl. Warm briefly if needed to dissolve, without boiling. Reserve the remaining vinegar and salt.",
+          "status": "applied"
+        },
+        {
+          "line": 124,
+          "before": "4. **Mix the seasoning:** While the rice cooks, stir 4 tbsp of the vinegar, the sugar and 1 tsp of the salt in a small bowl. Warm briefly if needed to dissolve, without boiling. Reserve the remaining 1 tbsp vinegar and 1/2 tsp salt.",
+          "oldText": "Reserve the remaining 1 tbsp vinegar and 1/2 tsp salt.",
+          "newText": "Reserve the remaining vinegar and salt.",
+          "certainty": "high",
+          "reason": "The remainder follows the established fractions; repeating original totals conflicts after scaling.",
+          "ingredients": [
+            {
+              "original": "5 tbsp unseasoned rice vinegar",
+              "half": "2 1/2 tbsp unseasoned rice vinegar",
+              "double": "10 tbsp unseasoned rice vinegar",
+              "line": 41
+            },
+            {
+              "original": "1 1/2 tsp fine sea salt, divided",
+              "half": "3/4 tsp fine sea salt, divided",
+              "double": "3 tsp fine sea salt, divided",
+              "line": 43
+            }
+          ],
+          "after": "4. **Mix the seasoning:** While the rice cooks, stir four fifths of the measured vinegar, the sugar and two thirds of the measured salt in a small bowl. Warm briefly if needed to dissolve, without boiling. Reserve the remaining vinegar and salt.",
+          "status": "applied"
+        },
+        {
+          "line": 125,
+          "before": "5. **Season and cool briefly:** Transfer hot rice to a wide nonreactive bowl. Distribute the seasoning over it and gently lift and fold with a rice paddle. Fan as steam escapes, about 5–10 minutes; judge by the rice rather than expecting a fixed temperature after two minutes. Taste, dissolve any reserved salt needed in the reserved tablespoon of vinegar, then fold in that vinegar whether or not extra salt is used. For poke, let the portion being used become only barely warm before topping with cold fish and serving immediately.",
+          "oldText": "in the reserved tablespoon of vinegar",
+          "newText": "in the reserved vinegar",
+          "certainty": "high",
+          "reason": "The method later adds all this reserved vinegar even when extra salt is not needed; no flavor decision changed.",
+          "ingredients": [
+            {
+              "original": "5 tbsp unseasoned rice vinegar",
+              "half": "2 1/2 tbsp unseasoned rice vinegar",
+              "double": "10 tbsp unseasoned rice vinegar",
+              "line": 41
+            }
+          ],
+          "after": "5. **Season and cool briefly:** Transfer hot rice to a wide nonreactive bowl. Distribute the seasoning over it and gently lift and fold with a rice paddle. Fan as steam escapes, about 5–10 minutes; judge by the rice rather than expecting a fixed temperature after two minutes. Taste, dissolve any reserved salt needed in the reserved vinegar, then fold in that vinegar whether or not extra salt is used. For poke, let the portion being used become only barely warm before topping with cold fish and serving immediately.",
+          "status": "applied"
+        }
+      ],
+      "held": [
+        {
+          "excerpt": "about 5 1/2–6 cups",
+          "reason": "Original cooked-yield estimate, not an ingredient added; serving/yield prose and pan geometry excluded."
+        }
+      ]
+    },
+    {
+      "slug": "whipped-feta-with-honey",
+      "path": "/Users/jsilton/Sites/mise/src/content/recipes/whipped-feta-with-honey.md",
+      "fixedScaling": false,
+      "disposition": "propose-mechanical-repairs-with-separate-holds",
+      "readScope": "Complete ingredients, complete Directions, and available before/scaling guidance; this is wording screening only.",
+      "proposals": [
+        {
+          "line": 141,
+          "before": "2. **Process in stages:** Crumble feta into a small food processor with softened cream cheese, the two tablespoons blending oil, initial two teaspoons lemon juice, zest and garlic. Process for thirty seconds, stop and scrape. Repeat in short intervals until well combined and spreadable, usually 1–2 minutes total running time. If the blade cannot move the mixture, add the measured water one teaspoon at a time, only as needed. Do not continue solely to erase every trace of fine grain.",
+          "oldText": "the two tablespoons blending oil",
+          "newText": "the measured blending oil",
+          "certainty": "high",
+          "reason": "Dedicated blending oil is separate from the finishing oil and scales.",
+          "ingredients": [
+            {
+              "original": "2 tbsp extra-virgin olive oil, for blending",
+              "half": "1 tbsp extra-virgin olive oil, for blending",
+              "double": "4 tbsp extra-virgin olive oil, for blending",
+              "line": 41
+            }
+          ],
+          "after": "2. **Process in stages:** Crumble feta into a small food processor with softened cream cheese, the measured blending oil, the initial measured lemon juice, zest and garlic. Process for thirty seconds, stop and scrape. Repeat in short intervals until well combined and spreadable, usually 1–2 minutes total running time. If the blade cannot move the mixture, add the measured water one teaspoon at a time, only as needed. Do not continue solely to erase every trace of fine grain.",
+          "status": "applied"
+        },
+        {
+          "line": 141,
+          "before": "2. **Process in stages:** Crumble feta into a small food processor with softened cream cheese, the two tablespoons blending oil, initial two teaspoons lemon juice, zest and garlic. Process for thirty seconds, stop and scrape. Repeat in short intervals until well combined and spreadable, usually 1–2 minutes total running time. If the blade cannot move the mixture, add the measured water one teaspoon at a time, only as needed. Do not continue solely to erase every trace of fine grain.",
+          "oldText": "initial two teaspoons lemon juice",
+          "newText": "the initial measured lemon juice",
+          "certainty": "high",
+          "reason": "Initial lemon portion scales in the actual helper.",
+          "ingredients": [
+            {
+              "original": "2 tsp fresh lemon juice, plus 1 tsp more only if needed",
+              "half": "1 tsp fresh lemon juice, plus 1/2 tsp more only if needed",
+              "double": "4 tsp fresh lemon juice, plus 2 tsp more only if needed",
+              "line": 42
+            }
+          ],
+          "after": "2. **Process in stages:** Crumble feta into a small food processor with softened cream cheese, the measured blending oil, the initial measured lemon juice, zest and garlic. Process for thirty seconds, stop and scrape. Repeat in short intervals until well combined and spreadable, usually 1–2 minutes total running time. If the blade cannot move the mixture, add the measured water one teaspoon at a time, only as needed. Do not continue solely to erase every trace of fine grain.",
+          "status": "applied"
+        },
+        {
+          "line": 142,
+          "before": "3. **Taste and spread:** Taste before adding the optional last teaspoon of lemon. Do not automatically add salt to brined cheese. Spread in a shallow dish with a few spoon-made hollows.",
+          "oldText": "the optional last teaspoon of lemon",
+          "newText": "the reserved lemon juice",
+          "certainty": "high",
+          "reason": "The optional plus portion also scales; keep its optional status through Taste before adding.",
+          "ingredients": [
+            {
+              "original": "2 tsp fresh lemon juice, plus 1 tsp more only if needed",
+              "half": "1 tsp fresh lemon juice, plus 1/2 tsp more only if needed",
+              "double": "4 tsp fresh lemon juice, plus 2 tsp more only if needed",
+              "line": 42
+            }
+          ],
+          "after": "3. **Taste and spread:** Taste before adding the reserved lemon juice. Do not automatically add salt to brined cheese. Spread in a shallow dish with a few spoon-made hollows.",
+          "status": "applied"
+        },
+        {
+          "line": 143,
+          "before": "4. **Finish:** Drizzle over the tablespoon of honey and the separate teaspoon of finishing oil. Dust with paprika and optional measured cayenne, then scatter dill and optional pistachios. Serve in small appetizer portions with bread or raw vegetables supplied separately.",
+          "oldText": "the tablespoon of honey",
+          "newText": "the measured honey",
+          "certainty": "high",
+          "reason": "The full finishing-honey dose is a scalable ingredient.",
+          "ingredients": [
+            {
+              "original": "1 tbsp honey, for finishing",
+              "half": "1/2 tbsp honey, for finishing",
+              "double": "2 tbsp honey, for finishing",
+              "line": 45
+            }
+          ],
+          "after": "4. **Finish:** Drizzle over the measured honey and the measured finishing oil. Dust with paprika and optional measured cayenne, then scatter dill and optional pistachios. Serve in small appetizer portions with bread or raw vegetables supplied separately.",
+          "status": "applied"
+        },
+        {
+          "line": 143,
+          "before": "4. **Finish:** Drizzle over the tablespoon of honey and the separate teaspoon of finishing oil. Dust with paprika and optional measured cayenne, then scatter dill and optional pistachios. Serve in small appetizer portions with bread or raw vegetables supplied separately.",
+          "oldText": "the separate teaspoon of finishing oil",
+          "newText": "the measured finishing oil",
+          "certainty": "high",
+          "reason": "The dedicated finishing oil scales independently of blending oil.",
+          "ingredients": [
+            {
+              "original": "1 tsp extra-virgin olive oil, for finishing",
+              "half": "1/2 tsp extra-virgin olive oil, for finishing",
+              "double": "2 tsp extra-virgin olive oil, for finishing",
+              "line": 46
+            }
+          ],
+          "after": "4. **Finish:** Drizzle over the measured honey and the measured finishing oil. Dust with paprika and optional measured cayenne, then scatter dill and optional pistachios. Serve in small appetizer portions with bread or raw vegetables supplied separately.",
+          "status": "applied"
+        }
+      ],
+      "held": [
+        {
+          "excerpt": "add the measured water one teaspoon at a time",
+          "reason": "Teaspoon here is a gradual adjustment increment, not a total to multiply; processor minimum capacity is also a separate method question."
+        }
+      ]
+    },
+    {
+      "slug": "vegetable-minestrone",
+      "path": "/Users/jsilton/Sites/mise/src/content/recipes/vegetable-minestrone.md",
+      "fixedScaling": false,
+      "disposition": "propose-mechanical-repairs-with-separate-holds",
+      "readScope": "Complete ingredients, complete Directions, and available before/scaling guidance; this is wording screening only.",
+      "proposals": [
+        {
+          "line": 91,
+          "before": "3. **Deglaze and Build:** Pour in 6 cups of stock (or water). Add canned diced tomatoes with their juice. Stir in balsamic vinegar. This adds acidity that brightens the entire soup.",
+          "oldText": "Pour in 6 cups of stock (or water).",
+          "newText": "Pour in the measured stock or water.",
+          "certainty": "high",
+          "reason": "The initial full broth total scales with the ingredient list.",
+          "ingredients": [
+            {
+              "original": "6 cups Vegetable Stock or Water (can use chicken stock for non-vegetarian version)",
+              "half": "3 cups Vegetable Stock or Water (can use chicken stock for non-vegetarian version)",
+              "double": "12 cups Vegetable Stock or Water (can use chicken stock for non-vegetarian version)",
+              "line": 56
+            }
+          ],
+          "after": "3. **Deglaze and Build:** Pour in the measured stock or water. Add canned diced tomatoes with their juice. Stir in balsamic vinegar. This adds acidity that brightens the entire soup.",
+          "status": "applied"
+        }
+      ],
+      "held": [
+        {
+          "excerpt": "### Variations (Use What You Have)",
+          "reason": "Nested variations contain additional quantities outside the numbered Directions ledger. They and existing ingredient/process issues are not repaired by this screen. Green-bean component remains untouched."
+        }
+      ]
+    },
+    {
+      "slug": "strawberry-summer-cake",
+      "path": "/Users/jsilton/Sites/mise/src/content/recipes/strawberry-summer-cake.md",
+      "fixedScaling": false,
+      "disposition": "hold-no-certain-directions-only-repair",
+      "readScope": "Complete ingredients, complete Directions, and available before/scaling guidance; this is wording screening only.",
+      "proposals": [],
+      "held": [
+        {
+          "excerpt": "Beat butter and 1 cup sugar ... Sprinkle the remaining 2 tbsp sugar",
+          "ingredients": [
+            {
+              "original": "1 cup + 2 tbsp Granulated Sugar",
+              "half": "1/2 cup + 2 tbsp Granulated Sugar",
+              "double": "2 cups + 2 tbsp Granulated Sugar"
+            }
+          ],
+          "reason": "The current helper scales the leading cup but does not scale the + 2 tbsp component. Proportional directions alone would disagree with the still-partly-unscaled ledger. Separating ingredient entries or changing compound quantity handling needs separate approval; no Directions-only repair proposed."
+        }
+      ]
+    }
+  ],
+  "validation": {
+    "targetedLint": "Passed: 0 errors across all 10 modified recipes. Existing banana-pudding warning: missing pairsWith suggestions; its metadata was unchanged.",
+    "scope": "24 exact unique replacements across 10 recipes",
+    "frontmatter": "Unchanged byte-for-byte in every modified recipe",
+    "ingredients": "Unchanged exact strings in every modified recipe"
+  }
+}

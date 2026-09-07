@@ -1,4 +1,16 @@
-# Latest milestone: combined seafood, meals and scaling release
+# Latest milestone: shrimp consolidation, sides and completed meals
+
+Six more original recipes now have complete editorial reviews: four shrimp recipes, Shaved Fennel Citrus Salad and Garlic Sauteed Green Beans. Shrimp with Snow Peas is consolidated into Shrimp with Snow Peas and Ginger after comparing the full formulas, methods and provenance. The old URL preserves query and fragment; no baseline inputs were removed. Mediterranean Salmon Dinner and Garlic Butter Shrimp Dinner now have full component, portion and schedule records.
+
+Original recipes:198 reviewed,10 consolidated,404 pending. Two additional recipes make200 current canonical reviews among604 live recipes. Original meals:42 reviewed,2 consolidated,44 pending. No physical kitchen tests recorded.
+
+Applied24 further measured-amount wording corrections across ten recipes without changing their ingredients or review status. Twelve candidates were inspected; two remained held for ingredient-ledger decisions, and a separate wafer garnish amount remains held. Compact evidence is in scaling-wording-review-round2.json. Four concrete seafood kitchen-test cards tied to the prior e7f48228 release are in kitchen-tests/seafood-release.md; they remain planned with no results.
+
+Validation:29/29 QA checks,32/32 regression tests,16 changed recipes passing targeted lint (one existing pairing warning),719 built pages with no broken destinations/anchors. Six recipe pages and changed meals pass browser checks for scaling, checkpoints, mobile/cook/print. Live-style redirect testing preserves query/fragment. One failed alias check exposed substring matching of the old slug inside a longer canonical slug; the checker now matches whole slug tokens with regression coverage, and the full checks passed on rerun. Production verification follows publication.
+
+Previous combined release e7f48228 deployed successfully in Pages run34071568324. Its nine recipes and four changed meals passed production browser verification.
+
+# Previous milestone: combined seafood, meals and scaling release
 
 Nine full recipe reviews are accepted: four shrimp dishes, four fish dishes and Garlic Roasted Potatoes. Baked Cod Dinner and Honey Lime Shrimp Bowls have complete component/portion/schedule reviews. Mediterranean Salmon Dinner and Garlic Butter Shrimp Dinner have necessary consistency corrections but remain pending their remaining side reviews.
 
@@ -79,10 +91,10 @@ For each recipe review: inspect the complete ingredients and method; reconcile a
 ## Current implementation
 
 - New shared reading/cooking experience, educational homepage, ten public technique lessons, and explicit editorial versus kitchen-tested status.
-- 194 canonical recipes now have individually written editorial reviews. The complete current list and original-source accounting are in [recipe-review-register.json](recipe-review-register.json); individual evidence is in [reviews](reviews).
+- 200 canonical recipes now have individually written editorial reviews. The complete current list and original-source accounting are in [recipe-review-register.json](recipe-review-register.json); individual evidence is in [reviews](reviews).
 - Nine original duplicates were individually compared and consolidated: esquites-mexican-street-corn-salad → mexican-street-corn-salad; sesame-cucumber-salad → smashed-cucumber-salad; greek-salad → greek-village-salad; japanese-short-grain-rice-gohan → steamed-white-rice; rich-coconut-rice → coconut-jasmine-rice; japanese-eggplant-with-chicken-and-thai-basil → stir-fried-chicken-and-eggplant-with-thai-basil; classic-coleslaw → coleslaw; chinese-spicy-garlic-eggplant → eggplant-with-garlic-sauce; cranberry-orange-sauce → perfect-cranberry-sauce. Old URLs preserve bookmarks and anchors. All internal references were updated.
-- The original 612 sources remain accounted for in docs/recipe-review-baseline.json and docs/recipe-review-register.json: 192 editorially reviewed, 9 consolidated after review, 411 still pending. Two additional individually reviewed recipes (turkey gravy and extracted mint tzatziki) are tracked separately from the original baseline. The live collection has 605 canonical records, including two craft recipes.
-- The original 88 composed meals are accounted for: 40 canonical meals have individual editorial reviews with all required components reviewed, two duplicates were consolidated after comparison, and 46 meals remain pending. The live collection has 86 canonical meals. Meal calendars are removed and out of scope.
+- The original 612 sources remain accounted for in docs/recipe-review-baseline.json and docs/recipe-review-register.json: 198 editorially reviewed, 10 consolidated after review, 404 still pending. Two additional individually reviewed recipes (turkey gravy and extracted mint tzatziki) are tracked separately from the original baseline. The live collection has 604 canonical records, including two craft recipes.
+- The original 88 composed meals are accounted for: 42 canonical meals have individual editorial reviews with all required components reviewed, two duplicates were consolidated after comparison, and 44 meals remain pending. The live collection has 86 canonical meals. Meal calendars are removed and out of scope.
 - These are editorial reviews only. No physical kitchen tests have been recorded.
 - All current canonical recipes are indexed in docs/recipe-editorial-audit.json. Its flags are triage, not completed reviews.
 - Legacy nutrition withheld pending recalculation. Two craft dough recipes excluded from food discovery while preserving their source pages.
@@ -90,7 +102,7 @@ For each recipe review: inspect the complete ingredients and method; reconcile a
 ## Next work
 
 1. Continue shared-platform verification when behavior changes. Build, QA checks, twenty-eight focused tests, sources rendering, mobile overflow, scaling, cook/checklist behavior, and cross-page palette persistence have passed. Representative Chrome letter-size recipe and meal PDFs have been inspected; this is not a corpus-wide print certification.
-2. Continue the individual reviews in docs/reviews (201 original-source records so far, including nine consolidation decisions). 411 originals remain pending; automated audit flags do not count.
+2. Continue the individual reviews in docs/reviews (208 original-source records so far, including ten consolidation decisions). 404 originals remain pending; automated audit flags do not count.
 3. Continue with the next independently reviewed culinary families. Vegetable curries, saffron rice and both linked Indian dinner compositions are reviewed; continue the remaining composed-meal relationships. Continue in culinary families, checking ratios, ingredient accounting, method and science, realistic timing, and nutrition.
 4. Compare duplicates by ingredients, technique, and intended result, not title similarity alone. Consolidate true duplicates with redirects and update all references; keep meaningful variations explicitly related.
 5. Review every composed meal for components, portion compatibility, timing, flavor/texture balance, and practical preparation order.
@@ -337,7 +349,7 @@ Chicken Lo Mein and Smashed Cucumber has a full meal review: one five-serving ma
 
 The poultry triage helper now distinguishes an explicitly sliced-pork 145°F endpoint with a three-minute wait from a separate 165°F chicken alternative. A focused test verifies that ambiguous, ground-meat and genuine low-temperature chicken instructions remain flagged. This remains narrow editorial triage, not a general safety certifier.
 
-Current coverage: 612 originals = 98 reviewed canonical recipes + seven considered consolidations + 507 pending. The live collection has 605 canonical records including two crafts. Nineteen of 88 meals are reviewed; 69 meals and 11 calendars remain pending. No physical kitchen tests are recorded.
+Current coverage: 612 originals = 98 reviewed canonical recipes + seven considered consolidations + 507 pending. The live collection has 604 canonical records including two crafts. Nineteen of 88 meals are reviewed; 69 meals and 11 calendars remain pending. No physical kitchen tests are recorded.
 
 Verification: the 728-page build passes 29/29 QA checks, including reviewed-meal dependencies and original-recipe coverage; all fifteen focused tests pass.
 
@@ -355,7 +367,7 @@ Apricot Chicken Braise with Couscous and Carrot Salad has an individual meal rev
 
 The temperature triage helper now matches complete temperature tokens, so 65°C does not match inside a 165°C oven setting; genuine low-temperature references remain flagged. Scaling also handles approximate parenthetical equivalents in either direction: half of 225 g (about 1 1/2 cups) now displays 112 1/2 g (about 3/4 cups). Existing package-size preservation remains covered.
 
-Current coverage: 612 originals = 104 reviewed canonical recipes + seven considered consolidations + 501 pending. The live collection has 605 canonical records including two crafts. Twenty of 88 meals are reviewed; 68 meals and 11 calendars remain pending. No physical kitchen tests are recorded.
+Current coverage: 612 originals = 104 reviewed canonical recipes + seven considered consolidations + 501 pending. The live collection has 604 canonical records including two crafts. Twenty of 88 meals are reviewed; 68 meals and 11 calendars remain pending. No physical kitchen tests are recorded.
 
 Verification: all 728 pages build, 29/29 QA checks and sixteen focused tests pass. Changed-code lint and whitespace checks pass. The final built-page scan found zero missing internal destinations and zero broken anchors. An isolated browser checked all six recipe pages at 390 px for current titles, elapsed times, editorial labels and overflow; verified both half-batch couscous measurements and the turkey's roasting-chart source link; and checked the meal's three exact component links, 135-minute elapsed label and working base navigation. No page errors occurred. The mobile meal screenshot was inspected.
 
@@ -371,7 +383,7 @@ Mongolian Beef, Rice and Garlic Bok Choy has one complete reviewed meal: 680 g b
 
 The three eggplant-with-garlic originals were read while examining neighbors. They contain overlapping sauce identities, missing oil/ingredient allocation, implausible fast softening and a dependency on an unreviewed sauce base. They remain pending for a joint considered review and consolidation decision, not silently treated as reviewed from this initial read.
 
-Current coverage: 612 originals = 107 reviewed canonical recipes + seven considered consolidations + 498 pending. The live collection has 605 canonical records including two crafts. Twenty-one of 88 meals are reviewed; 67 meals and 11 calendars remain pending. No physical kitchen tests are recorded. The automated priority poultry queue is now empty, which is only a triage result and does not establish that all remaining recipes are safe or complete.
+Current coverage: 612 originals = 107 reviewed canonical recipes + seven considered consolidations + 498 pending. The live collection has 604 canonical records including two crafts. Twenty-one of 88 meals are reviewed; 67 meals and 11 calendars remain pending. No physical kitchen tests are recorded. The automated priority poultry queue is now empty, which is only a triage result and does not establish that all remaining recipes are safe or complete.
 
 Verification: all 728 pages build and 29/29 QA checks pass. No shared runtime code changed in this batch; the existing sixteen focused tests last passed with the twentieth batch. An isolated browser checked all three current recipe titles, elapsed times and editorial labels at 390 px; half-batch beef and its separate oil amounts; half-batch instant couscous at 125 g/210 ml; and the meal's 75-minute label, exact three component links and working bok-choy navigation. No page errors or overflow occurred. The mobile meal screenshot was inspected.
 

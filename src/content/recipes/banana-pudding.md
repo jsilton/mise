@@ -109,7 +109,7 @@ Bette Lordeman's banana pudding combines banana and vanilla flavors with condens
 
 ## Directions
 
-1. **Divide the topping and wafers:** Keep half the thawed whipped topping, 8 oz (227 g), refrigerated for the top. Reserve 20 g of the wafers in a sealed container for garnish; use all the rest in the layers.
+1. **Divide the topping and wafers:** Keep half the thawed whipped topping, refrigerated for the top. Reserve 20 g of the wafers in a sealed container for garnish; use all the rest in the layers.
 2. **Mix the pudding:** Pour the cold milk into a large bowl. Whisk in both pudding powders gradually, then whisk for about 2 minutes, scraping the bowl until no dry pockets remain. The base will be very thick. Blend in the condensed milk gradually until smooth, then stir in the vanilla.
 3. **Fold:** Fold the other half of the whipped topping into the pudding with a flexible spatula, turning the bowl and lifting from the bottom. Stop when the color is even and no large white streaks remain.
 4. **Layer:** Peel and cut the bananas into roughly 1/4-inch slices. In a 4-quart serving dish, layer half the unreserved wafers, half the bananas and half the pudding. Repeat with the remaining wafers, bananas and pudding, spreading it to cover the fruit. Spread the refrigerated half of the whipped topping over the surface.

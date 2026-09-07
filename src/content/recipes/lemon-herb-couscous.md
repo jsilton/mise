@@ -126,8 +126,8 @@ The quick method depends on using instant couscous. Its small grains absorb boil
 
 ## Directions
 
-1. **Prepare and heat:** Chop parsley and mint, grate lemon zest and measure the juice. Check the package’s liquid guidance for 250 g couscous; use 420 ml for the stated starting formula. Bring the broth to a full boil in a 2-quart saucepan.
+1. **Prepare and heat:** Chop parsley and mint, grate lemon zest and measure the juice. Check the package’s liquid guidance for the measured couscous quantity; use the listed broth amount for the starting formula. Bring the broth to a full boil in a 2-quart saucepan.
 2. **Hydrate off heat:** Remove from heat, stir in couscous, and cover immediately. Let stand about 5 minutes, or the package’s stated time. Keep the lid on during this initial rest.
 3. **Check and fluff:** Uncover and taste a grain. It should be tender without a dry center and there should be no free liquid. If still dry, use the small hot-water correction in troubleshooting. Fluff with a fork, lifting rather than pressing.
-4. **Dress:** Fold in olive oil, 1 tbsp lemon juice, zest and pepper. Let excess steam escape for a minute, then fold in parsley and mint. Taste before adding the remaining lemon juice and measured salt; broth and optional feta may already supply enough salt.
+4. **Dress:** Fold in olive oil, half the measured lemon juice, zest and pepper. Let excess steam escape for a minute, then fold in parsley and mint. Taste before adding the remaining lemon juice and measured salt; broth and optional feta may already supply enough salt.
 5. **Serve:** Divide into four sides and add the optional feta. Pair with a main and vegetables; the couscous is the starch component of the plate.

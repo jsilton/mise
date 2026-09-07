@@ -126,9 +126,9 @@ Wild rice is the seed of an aquatic grass. Its processing changes how quickly it
 
 ## Directions
 
-1. **Cook the grain:** Rinse the wild rice. Combine with 4 cups water in a saucepan and bring to a boil. Reduce to a gentle simmer, cover, and cook according to the package range, checking early for quick-cook grain. Add hot water if the pan dries before the rice is tender. When many grains open and have a tender, chewy center, drain any excess water.
+1. **Cook the grain:** Rinse the wild rice. Combine with the measured rice-cooking water in a saucepan and bring to a boil. Reduce to a gentle simmer, cover, and cook according to the package range, checking early for quick-cook grain. Add hot water if the pan dries before the rice is tender. When many grains open and have a tender, chewy center, drain any excess water.
 2. **Soften vegetables:** While the rice simmers, heat oil in a 6-quart pot over medium heat. Add onion, carrots, and celery. Cook 8–10 minutes, stirring, until the onion is softened. Add garlic and cook about 30 seconds, until fragrant.
-3. **Build the broth:** Add 8 cups chicken broth, thyme, salt, and pepper. Bring to a gentle simmer. Cook about 8–10 minutes, until carrots are approaching tenderness; they will cook further with the chicken.
+3. **Build the broth:** Add the initial measured chicken broth, thyme, salt, and pepper. Bring to a gentle simmer. Cook about 8–10 minutes, until carrots are approaching tenderness; they will cook further with the chicken.
 4. **Poach the chicken:** Add chicken and return gently to a simmer. Cook about 12–18 minutes, stirring occasionally, until several larger pieces reach 165°F / 74°C and the vegetables are tender. Avoid a rolling boil.
 5. **Combine:** Stir in the tender, drained rice and heat through. Add extra broth as needed to keep the soup spoonable and brothy. If the rice is not yet ready, keep the soup gently hot while it finishes; do not keep boiling the chicken.
-6. **Finish:** Add parsley and 1 tbsp lemon juice. Taste the broth with some chicken and rice, then add more lemon, salt, or pepper as needed. Ladle into eight bowls. For planned leftovers, keep the remaining rice and soup separate before chilling promptly.
+6. **Finish:** Add parsley and the lower end of the listed lemon-juice range. Taste the broth with some chicken and rice, then add more lemon, salt, or pepper as needed. Ladle into eight bowls. For planned leftovers, keep the remaining rice and soup separate before chilling promptly.

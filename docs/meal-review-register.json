@@ -1,9 +1,9 @@
 {
   "originalMeals": 88,
   "currentMeals": 86,
-  "individuallyReviewed": 40,
+  "individuallyReviewed": 42,
   "consolidatedAfterReview": 2,
-  "pending": 46,
+  "pending": 44,
   "kitchenTested": 0,
   "records": [
     {
@@ -138,7 +138,14 @@
     },
     {
       "slug": "garlic-butter-shrimp-recovery",
-      "status": "pending"
+      "status": "editorial-review",
+      "record": "docs/meal-reviews/garlic-butter-shrimp-recovery.md",
+      "components": [
+        "garlic-butter-shrimp",
+        "steamed-white-rice",
+        "everyday-arugula-salad",
+        "garlic-sauteed-green-beans"
+      ]
     },
     {
       "slug": "general-tsos-night",
@@ -248,7 +255,14 @@
     },
     {
       "slug": "mediterranean-salmon-dinner",
-      "status": "pending"
+      "status": "editorial-review",
+      "record": "docs/meal-reviews/mediterranean-salmon-dinner.md",
+      "components": [
+        "mediterranean-salmon-with-lemon-herb-emulsion",
+        "shaved-fennel-citrus-salad",
+        "roasted-cauliflower-with-tahini",
+        "tahini-sauce"
+      ]
     },
     {
       "slug": "miso-salmon-dinner",

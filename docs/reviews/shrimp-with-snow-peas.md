@@ -1,0 +1,11 @@
+# Shrimp with Snow Peas — individual consolidation review
+
+Input e7f48228. Reviewed 2026-09-06. Proposed considered consolidation into `stir-fried-shrimp-with-snow-peas-and-ginger`; root accepted direction before integration. No physical kitchen test.
+
+Both full recipes deliver shrimp and snow peas in a lightly thickened wine-soy broth with ginger, garlic and scallion. Both use one pound shrimp. The pivot has eight rather than six ounces peas, half rather than one-third cup broth, more soy/wine, julienned rather than minced ginger, sliced rather than minced garlic and three rather than one scallion. These are balance and cut variations within the same dish, not evidence of distinct household identity.
+
+The meaningful technique difference is the pivot's baking-soda treatment plus starch/wine coating versus the preserved source recipe's measured five-minute saltwater preparation. Commit 9b3c13a9 introduced the pivot while replacing a beef recipe; its claim of a Cantonese standard and restaurant texture is editorial invention, not an external source or household requirement. Current pivot also leaves the removed peas without an explicit return, omits the sesame-oil destination, uses ambiguous sauce grouping and links “Jasmine Rice” to a pilaf. The original ginger recipe has recoverable NYT provenance and its own missing salt/sugar/pepper details resolved from the user archive.
+
+Retain the source-backed ginger recipe and its actual formula. Do not average sauce ratios or graft the alkaline coating onto its saltwater method. Preserve the pivot's half-teaspoon toasted sesame oil as an optional off-heat finish in the canonical recipe. Root accepted this limited variation as the useful distinction; no separate alternate formula is required.
+
+Integration: delete the duplicate source file; add `shrimp-with-snow-peas` → `stir-fried-shrimp-with-snow-peas-and-ginger` to recipe-aliases.json; install this record at docs/reviews/shrimp-with-snow-peas.md. No incoming source-content references found by exact-slug search at review time. Recheck before integration, regenerate derived indexes/register/corpus and build the existing static alias mechanism. Verify canonical destination, query/fragment preservation, exclusion from discovery/sitemap and baseline accounting with the alias checker. Keep immutable pilot/baseline inputs unchanged.

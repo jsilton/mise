@@ -138,9 +138,9 @@ Cream cheese softens feta’s crumbly texture into a spread. A modest amount of 
 ## Directions
 
 1. **Prepare:** Cut cream cheese into small cubes and let it soften for about thirty minutes. Drain and pat dry the feta. Measure the garlic, lemon, oils and toppings. Keep track of the cheese’s total time out of refrigeration.
-2. **Process in stages:** Crumble feta into a small food processor with softened cream cheese, the two tablespoons blending oil, initial two teaspoons lemon juice, zest and garlic. Process for thirty seconds, stop and scrape. Repeat in short intervals until well combined and spreadable, usually 1–2 minutes total running time. If the blade cannot move the mixture, add the measured water one teaspoon at a time, only as needed. Do not continue solely to erase every trace of fine grain.
-3. **Taste and spread:** Taste before adding the optional last teaspoon of lemon. Do not automatically add salt to brined cheese. Spread in a shallow dish with a few spoon-made hollows.
-4. **Finish:** Drizzle over the tablespoon of honey and the separate teaspoon of finishing oil. Dust with paprika and optional measured cayenne, then scatter dill and optional pistachios. Serve in small appetizer portions with bread or raw vegetables supplied separately.
+2. **Process in stages:** Crumble feta into a small food processor with softened cream cheese, the measured blending oil, the initial measured lemon juice, zest and garlic. Process for thirty seconds, stop and scrape. Repeat in short intervals until well combined and spreadable, usually 1–2 minutes total running time. If the blade cannot move the mixture, add the measured water one teaspoon at a time, only as needed. Do not continue solely to erase every trace of fine grain.
+3. **Taste and spread:** Taste before adding the reserved lemon juice. Do not automatically add salt to brined cheese. Spread in a shallow dish with a few spoon-made hollows.
+4. **Finish:** Drizzle over the measured honey and the measured finishing oil. Dust with paprika and optional measured cayenne, then scatter dill and optional pistachios. Serve in small appetizer portions with bread or raw vegetables supplied separately.
 
 ## Serving quantities
 

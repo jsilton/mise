@@ -144,7 +144,7 @@ This version makes a soft bean filling rather than a roasted one. Mash only part
 
 ## Directions
 
-1. **Prepare toppings and crema:** Shred cabbage, dice and drain tomatoes, chop cilantro and cut the serving lime. Stir crema or yogurt with 1 tbsp lime juice. Taste before adding the crema's optional salt and extra teaspoon of juice; thin thick yogurt with up to 1 tbsp water. Refrigerate while cooking.
+1. **Prepare toppings and crema:** Shred cabbage, dice and drain tomatoes, chop cilantro and cut the serving lime. Stir crema or yogurt with the initial measured lime juice. Taste before adding the crema's optional salt and reserved juice; thin thick yogurt with up to the measured water allowance. Refrigerate while cooking.
 2. **Soften the aromatics:** Heat oil in a 12-inch skillet over medium. Add onion and cook 6–8 minutes, stirring, until softened and translucent. Add garlic for 30 seconds, then cumin, chili powder and smoked paprika for about 20 seconds. Lower heat if the spices begin to darken.
 3. **Build the filling:** Add drained beans, broth and half the bean salt. Simmer gently 5–7 minutes, stirring. Mash about one-third of the beans with a fork or masher, then stir into a soft, thick filling. Add a little broth if stiff; simmer briefly if watery. Taste and add the remaining bean salt only if needed, remembering the optional cheese is salty.
 4. **Warm the tortillas:** Cover beans off heat for the short warming period. In a second dry skillet, warm tortillas over medium-high for roughly 10–30 seconds per side until hot and pliable, then wrap in a clean towel. For one skillet, microwave four tortillas at a time between damp paper towels for 30–45 seconds, adding short bursts if needed.
