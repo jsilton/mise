@@ -10,7 +10,10 @@ const fractions = {
   '⅞': '7/8',
 };
 const number = '(?:\\d+\\s+\\d+/\\d+|\\d+/\\d+|\\d+(?:\\.\\d+)?)';
-const leading = new RegExp(`^(${number})(?:\\s*[–—-]\\s*(${number}))?(?=\\s|$)`);
+const leading = new RegExp(
+  `^(${number})(?:(?:\\s*[–—-]\\s*|\\s+to\\s+)(${number}))?(?=\\s|$)`,
+  'i'
+);
 const countedUnits = [
   'cup',
   'tablespoon',

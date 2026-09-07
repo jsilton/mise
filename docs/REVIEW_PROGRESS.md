@@ -1,3 +1,11 @@
+# Latest milestone: worded quantity ranges
+
+The shared quantity scaler now recognizes leading ranges written with “to” and scales both endpoints. Comparison across all604 current recipe files changes exactly six ingredient lines; all independent half/double expectations pass. Package sizes, purpose phrases and original1x wording remain unchanged. Exact impact is recorded in scaling-worded-ranges.json. This is an arithmetic correction and advances no editorial status.
+
+Validation:35/35 tests and29/29 QA checks; six actual recipe pages pass half/double/reset, mobile overflow and browser-error checks. Soup and fruit-salad whole reviews continue independently. Original totals remain215 reviewed,10 consolidated,387 pending; meals46 reviewed,2 consolidated,40 pending. No physical kitchen tests.
+
+Prior release264053fc deployed successfully in Pages run34074004535, with production verification of nine full recipe reviews, ten targeted ingredient corrections and the completed Lemon Ricotta Pasta Dinner.
+
 # Latest milestone: savory pasta, leafy salads and embedded quantities
 
 Nine original recipes have full editorial reviews: four savory pastas, four leafy salads and Strawberry Vinaigrette. Lemon Ricotta Pasta Dinner now has both components reviewed with a forty-minute coordinated schedule. Original totals:215 reviewed,10 consolidated,387 pending;217 current canonical reviews including two additions. Meals:46 reviewed,2 consolidated,40 pending. No physical kitchen tests.

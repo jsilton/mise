@@ -306,3 +306,23 @@ test('a plus does not partially scale an unsupported parenthetical count alterna
     '2 tsp seasoning (or 1 bay leaf + 1 tsp oregano)'
   );
 });
+
+test('worded leading ranges scale both bounds without changing purpose or package text', () => {
+  assert.equal(
+    scaleIngredient('3 to 4 tbsp curry paste, to taste', 2),
+    '6–8 tbsp curry paste, to taste'
+  );
+  assert.equal(scaleIngredient('8 to 8 1/2 cups flour', 0.5), '4–4 1/4 cups flour');
+  assert.equal(
+    scaleIngredient('1/4 to 1/2 cup water (to thin)', 0.5),
+    '1/8–1/4 cup water (to thin)'
+  );
+  assert.equal(scaleIngredient('½ to ¾ tsp pepper', 2), '1–1 1/2 tsp pepper');
+  assert.equal(scaleIngredient('1 TO 2 cups water', 2), '2–4 cups water');
+  assert.equal(
+    scaleIngredient('2 (14 oz) cans tomatoes, to drain', 2),
+    '4 (14 oz) cans tomatoes, to drain'
+  );
+  assert.equal(scaleIngredient('1 cup ready-to-eat noodles', 2), '2 cups ready-to-eat noodles');
+  assert.equal(scaleIngredient('3 to 4 tbsp curry paste', 1), '3 to 4 tbsp curry paste');
+});
