@@ -38,6 +38,33 @@ function scaledUnit(unit, value) {
   const singular = unit.replace(/s$/i, '');
   return value <= 1 ? singular : singular + (unit === unit.toUpperCase() ? 'S' : 's');
 }
+const produceForms = [
+  ['lemon', 'lemons'],
+  ['lime', 'limes'],
+  ['onion', 'onions'],
+  ['carrot', 'carrots'],
+  ['scallion', 'scallions'],
+  ['pepper', 'peppers'],
+  ['tomato', 'tomatoes'],
+  ['avocado', 'avocados'],
+  ['mango', 'mangoes'],
+  ['cucumber', 'cucumbers'],
+  ['jalapeño', 'jalapeños'],
+  ['shallot', 'shallots'],
+];
+const produceAtStart = new RegExp(
+  `^(\\s+(?:(?:small|medium|large|ripe|firm|but|Hass|Roma|English|red|green|yellow|bell|fresh)\\s+)*)(${produceForms
+    .flat()
+    .sort((a, b) => b.length - a.length)
+    .join('|')})(?=,|$)`,
+  'i'
+);
+function inflectProduce(word, value) {
+  const forms = produceForms.find((pair) => pair.includes(word.toLowerCase()));
+  const result = forms[value <= 1 ? 0 : 1];
+  if (word === word.toUpperCase()) return result.toUpperCase();
+  return word[0] === word[0].toUpperCase() ? result[0].toUpperCase() + result.slice(1) : result;
+}
 function inflectLeadingUnit(rest, value) {
   return (
     rest
@@ -47,10 +74,7 @@ function inflectLeadingUnit(rest, value) {
       )
       // Only unambiguous counted produce followed by a preparation comma/end.
       // Do not turn a compound ingredient such as "lemon zest" into "lemons zest".
-      .replace(
-        /^(\s+(?:(?:small|medium|large)\s+)?)(lemon|lime|onion)(s?)(?=,|$)/i,
-        (_match, prefix, unit, plural) => prefix + scaledUnit(unit + plural, value)
-      )
+      .replace(produceAtStart, (_match, prefix, word) => prefix + inflectProduce(word, value))
   );
 }
 function numeric(value) {

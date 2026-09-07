@@ -244,3 +244,19 @@ test('counted produce scales its label without changing compound ingredients', (
   assert.equal(scaleIngredient('1 tsp lemon zest', 2), '2 tsp lemon zest');
   assert.equal(scaleIngredient('1 lemon zest portion', 2), '2 lemon zest portion');
 });
+
+test('counted produce with modifiers and irregular plurals preserves ingredient distinctions', () => {
+  assert.equal(scaleIngredient('2 Roma tomatoes, seeded', 0.5), '1 Roma tomato, seeded');
+  assert.equal(
+    scaleIngredient('1 large ripe but firm mango, peeled', 2),
+    '2 large ripe but firm mangoes, peeled'
+  );
+  assert.equal(scaleIngredient('1 red bell pepper, sliced', 2), '2 red bell peppers, sliced');
+  assert.equal(scaleIngredient('1/2 medium red onion, diced', 2), '1 medium red onion, diced');
+  assert.equal(scaleIngredient('3 ripe Hass avocados', 0.5), '1 1/2 ripe Hass avocados');
+  assert.equal(scaleIngredient('2 large CARROTS, sliced', 0.5), '1 large CARROT, sliced');
+  assert.equal(scaleIngredient('1 cup Roma tomatoes, chopped', 2), '2 cups Roma tomatoes, chopped');
+  assert.equal(scaleIngredient('1 tsp red onion powder', 2), '2 tsp red onion powder');
+  assert.equal(scaleIngredient('1 red pepper flake portion', 2), '2 red pepper flake portion');
+  assert.equal(scaleIngredient('2 (14 oz) cans tomatoes', 0.5), '1 (14 oz) can tomatoes');
+});

@@ -1,4 +1,12 @@
-# Latest milestone: fajita recipes and complete dinner reviewed
+# Latest milestone: two distinct beef curries reviewed
+
+Massaman Curry now separates a long chuck braise from the later potato cooking. Thai Red Curry Beef preserves light coconut milk and thin tenderloin, with a moist paste method and a short beef finish. Both have full ingredient accounting, proportional method quantities, sensory checkpoints and individual evidence records. Unsupported weight equivalents and finished-volume claims were rejected; no kitchen tests are claimed.
+
+Original recipes: 183 reviewed, 9 consolidated, 420 pending. Including two additional recipes, 185 current canonical recipes have editorial reviews. Meals remain 38 reviewed, 2 consolidated and 48 pending. No physical kitchen tests recorded.
+
+Expanded ingredient scaling grammar for clearly counted produce, with regression coverage that protects measured ingredients, compound names and package sizes. Validation: 29/29 QA checks, 31/31 focused tests, 719 built pages without broken destinations or anchors, and both curry pages checked for scaling/reset, four inline checkpoints, mobile layout, cooking mode, print and footer-only review links. Production verification follows publication.
+
+# Previous milestone: fajita recipes and complete dinner reviewed
 
 Sheet Pan Chicken Fajitas, Guacamole and Seasoned Black Beans now have individual editorial reviews; Chicken Fajita Dinner has a complete four-component review. Recovered Modern Proper and Alton Brown attribution is restored. Original produce counts and kosher salt remain; unsupported weight/yield equivalents were rejected. Fajitas have explicit seasoning and two-pan handling, while the meal coordinates six portions, a refrigerated guacamole rest, rice and the full bean method.
 
@@ -59,9 +67,9 @@ For each recipe review: inspect the complete ingredients and method; reconcile a
 ## Current implementation
 
 - New shared reading/cooking experience, educational homepage, ten public technique lessons, and explicit editorial versus kitchen-tested status.
-- 183 canonical recipes now have individually written editorial reviews. The complete current list and original-source accounting are in [recipe-review-register.json](recipe-review-register.json); individual evidence is in [reviews](reviews).
+- 185 canonical recipes now have individually written editorial reviews. The complete current list and original-source accounting are in [recipe-review-register.json](recipe-review-register.json); individual evidence is in [reviews](reviews).
 - Nine original duplicates were individually compared and consolidated: esquites-mexican-street-corn-salad → mexican-street-corn-salad; sesame-cucumber-salad → smashed-cucumber-salad; greek-salad → greek-village-salad; japanese-short-grain-rice-gohan → steamed-white-rice; rich-coconut-rice → coconut-jasmine-rice; japanese-eggplant-with-chicken-and-thai-basil → stir-fried-chicken-and-eggplant-with-thai-basil; classic-coleslaw → coleslaw; chinese-spicy-garlic-eggplant → eggplant-with-garlic-sauce; cranberry-orange-sauce → perfect-cranberry-sauce. Old URLs preserve bookmarks and anchors. All internal references were updated.
-- The original 612 sources remain accounted for in docs/recipe-review-baseline.json and docs/recipe-review-register.json: 181 editorially reviewed, 9 consolidated after review, 422 still pending. Two additional individually reviewed recipes (turkey gravy and extracted mint tzatziki) are tracked separately from the original baseline. The live collection has 605 canonical records, including two craft recipes.
+- The original 612 sources remain accounted for in docs/recipe-review-baseline.json and docs/recipe-review-register.json: 183 editorially reviewed, 9 consolidated after review, 420 still pending. Two additional individually reviewed recipes (turkey gravy and extracted mint tzatziki) are tracked separately from the original baseline. The live collection has 605 canonical records, including two craft recipes.
 - The original 88 composed meals are accounted for: 38 canonical meals have individual editorial reviews with all required components reviewed, two duplicates were consolidated after comparison, and 48 meals remain pending. The live collection has 86 canonical meals. Meal calendars are removed and out of scope.
 - These are editorial reviews only. No physical kitchen tests have been recorded.
 - All current canonical recipes are indexed in docs/recipe-editorial-audit.json. Its flags are triage, not completed reviews.
@@ -70,10 +78,10 @@ For each recipe review: inspect the complete ingredients and method; reconcile a
 ## Next work
 
 1. Continue shared-platform verification when behavior changes. Build, QA checks, twenty-eight focused tests, sources rendering, mobile overflow, scaling, cook/checklist behavior, and cross-page palette persistence have passed. Representative Chrome letter-size recipe and meal PDFs have been inspected; this is not a corpus-wide print certification.
-2. Continue the individual reviews in docs/reviews (190 original-source records so far, including nine consolidation decisions). 422 originals remain pending; automated audit flags do not count.
+2. Continue the individual reviews in docs/reviews (192 original-source records so far, including nine consolidation decisions). 420 originals remain pending; automated audit flags do not count.
 3. Continue with the next independently reviewed culinary families. Vegetable curries, saffron rice and both linked Indian dinner compositions are reviewed; continue the remaining composed-meal relationships. Continue in culinary families, checking ratios, ingredient accounting, method and science, realistic timing, and nutrition.
 4. Compare duplicates by ingredients, technique, and intended result, not title similarity alone. Consolidate true duplicates with redirects and update all references; keep meaningful variations explicitly related.
-5. Review every composed meal and calendar reference for components, portion compatibility, timing, flavor/texture balance, and practical preparation order.
+5. Review every composed meal for components, portion compatibility, timing, flavor/texture balance, and practical preparation order.
 6. Use the same quality standard for sauces, bases, sides, drinks, desserts, and baking, not only main dishes.
 7. Document remaining kitchen-test needs honestly; never invent tasting evidence.
 
