@@ -260,3 +260,49 @@ test('counted produce with modifiers and irregular plurals preserves ingredient 
   assert.equal(scaleIngredient('1 red pepper flake portion', 2), '2 red pepper flake portion');
   assert.equal(scaleIngredient('2 (14 oz) cans tomatoes', 0.5), '1 (14 oz) can tomatoes');
 });
+
+test('plus-sign ingredient amounts scale without changing counted package sizes', () => {
+  assert.equal(
+    scaleIngredient('1 cup + 2 tbsp Granulated Sugar', 0.5),
+    '1/2 cup + 1 tbsp Granulated Sugar'
+  );
+  assert.equal(
+    scaleIngredient('1 cup + 2 tbsp Granulated Sugar', 2),
+    '2 cups + 4 tbsp Granulated Sugar'
+  );
+  assert.equal(
+    scaleIngredient('1/2 lb Ground Beef + 1/2 lb Ground Pork', 2),
+    '1 lb Ground Beef + 1 lb Ground Pork'
+  );
+  assert.equal(
+    scaleIngredient('1/3 cup Sugar + 1/2 tsp Cinnamon + 1/4 tsp Ginger', 3),
+    '1 cup Sugar + 1 1/2 tsp Cinnamon + 3/4 tsp Ginger'
+  );
+  assert.equal(
+    scaleIngredient('2 tbsp Mirin (or 1.5 tbsp honey + 0.5 tbsp soy sauce)', 2),
+    '4 tbsp Mirin (or 3 tbsp honey + 1 tbsp soy sauce)'
+  );
+  assert.equal(
+    scaleIngredient('2 cans (14 oz + 2 oz bonus) tomatoes', 2),
+    '4 cans (14 oz + 2 oz bonus) tomatoes'
+  );
+  assert.equal(
+    scaleIngredient('2 (14 oz + 2 oz bonus) cans tomatoes', 0.5),
+    '1 (14 oz + 2 oz bonus) can tomatoes'
+  );
+  assert.equal(
+    scaleIngredient('1/2 tsp cinnamon + Pinch of Nutmeg', 2),
+    '1 tsp cinnamon + Pinch of Nutmeg'
+  );
+  assert.equal(
+    scaleIngredient('1 cup sugar + a 2-inch cinnamon stick', 2),
+    '2 cups sugar + a 2-inch cinnamon stick'
+  );
+});
+
+test('a plus does not partially scale an unsupported parenthetical count alternative', () => {
+  assert.equal(
+    scaleIngredient('1 tsp seasoning (or 1 bay leaf + 1 tsp oregano)', 2),
+    '2 tsp seasoning (or 1 bay leaf + 1 tsp oregano)'
+  );
+});

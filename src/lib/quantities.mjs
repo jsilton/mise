@@ -144,10 +144,23 @@ export function scaleIngredient(text, factor) {
     });
   }
   const additionalOrAlternative = new RegExp(
-    `(\\b(?:or|plus)(?:\\s+up\\s+to)?\\s+)(${number})(\\s+(?:cups?|tbsp|tsp|oz|lbs?|g|ml|egg\\s+(?:whites?|yolks?)|eggs?|cloves?)\\b)`,
+    `((?:\\b(?:or|plus)(?:\\s+up\\s+to)?|\\+)\\s+)(${number})(\\s+(?:cups?|tbsp|tsp|oz|lbs?|g|ml|egg\\s+(?:whites?|yolks?)|eggs?|cloves?)\\b)`,
     'gi'
   );
-  rest = rest.replace(additionalOrAlternative, (match, prefix, amount, unit) => {
+  rest = rest.replace(additionalOrAlternative, (match, prefix, amount, unit, offset, source) => {
+    // A plus inside a package specification is a property of one package.
+    // Explicit "(or ... + ...)" ingredient alternatives still scale together.
+    if (prefix.trim() === '+') {
+      const open = source.lastIndexOf('(', offset);
+      const close = source.lastIndexOf(')', offset);
+      if (open > close) {
+        const supportedAlternative = new RegExp(
+          `^\\s*or\\s+${number}\\s+(?:cups?|tbsp|tsp|oz|lbs?|g|ml|egg\\s+(?:whites?|yolks?)|eggs?|cloves?)\\b`,
+          'i'
+        );
+        if (!supportedAlternative.test(source.slice(open + 1, offset))) return match;
+      }
+    }
     const value = numeric(amount);
     return value === null
       ? match

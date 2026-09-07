@@ -1,4 +1,12 @@
-# Latest milestone: shrimp consolidation, sides and completed meals
+# Latest milestone: shared plus-sign ingredient scaling
+
+The shared scaler now handles measured additions written with a plus sign. Baseline comparison shows48 corrected ingredient lines across44 recipes; this arithmetic fix does not advance recipe review counts. Package sizes stay fixed and unsupported mixed count alternatives stay unchanged. An independent twelve-line sample caught a mixed bay-leaf/oregano case, which now has a guard and regression test. Exact before/after outputs are in scaling-plus-impact.json.
+
+All29 QA checks and34 regression tests pass. Four actual recipe pages passed half/double/reset, compound ingredient, parenthetical alternative, mobile and page-error checks. The eight-recipe pasta review batch remains independently in progress; no unpublished proposals are counted.
+
+Published editorial baseline remains198 original recipes reviewed,10 consolidated,404 pending;200 current canonical reviews. Meals remain42 reviewed,2 consolidated,44 pending. No physical kitchen tests. Prior release3fbdee81 deployed in Pages run34072351803 and passed production recipe, meal and redirect verification.
+
+# Previous milestone: shrimp consolidation, sides and completed meals
 
 Six more original recipes now have complete editorial reviews: four shrimp recipes, Shaved Fennel Citrus Salad and Garlic Sauteed Green Beans. Shrimp with Snow Peas is consolidated into Shrimp with Snow Peas and Ginger after comparing the full formulas, methods and provenance. The old URL preserves query and fragment; no baseline inputs were removed. Mediterranean Salmon Dinner and Garlic Butter Shrimp Dinner now have full component, portion and schedule records.
 
