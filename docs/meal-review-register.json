@@ -1,9 +1,9 @@
 {
   "originalMeals": 88,
   "currentMeals": 86,
-  "individuallyReviewed": 46,
+  "individuallyReviewed": 47,
   "consolidatedAfterReview": 2,
-  "pending": 40,
+  "pending": 39,
   "kitchenTested": 0,
   "records": [
     {
@@ -436,7 +436,9 @@
     },
     {
       "slug": "stir-fry-weeknight",
-      "status": "pending"
+      "status": "editorial-review",
+      "record": "docs/meal-reviews/stir-fry-weeknight.md",
+      "components": ["chicken-with-snow-peas-stir-fry", "steamed-white-rice", "steamed-edamame"]
     },
     {
       "slug": "stuffed-shells-dinner",

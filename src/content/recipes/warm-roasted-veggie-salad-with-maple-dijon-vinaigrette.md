@@ -43,6 +43,8 @@ ingredients:
   - 2 tbsp Apple Cider Vinegar (The Acid Balance)
   - 2 tbsp Pure Maple Syrup
   - 1 tbsp Dijon Mustard
+  - '2 cloves garlic, mashed, for the dressing'
+  - 'Salt and black pepper, to taste'
   - '3 cups Curly Kale, massaged'
   - '1/2 cup Parmesan, grated'
   - 1/2 cup Dried Cranberries

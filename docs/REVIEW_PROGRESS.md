@@ -1,3 +1,11 @@
+# Resource-limited phase — 2026-09-06
+
+The user replaced exhaustive rollout with a resource-constrained phase; see RECIPE_REVIEW_PIPELINE.md and RESOURCE_LIMITED_RELEASE.md. Standing agents stopped. No new research, image generation or agent assignments after the reset. Eight soup/salad drafts and one SVG candidate preserved as unaccepted work.
+
+Three targeted items: restore source-documented missing thyme/seasoning to carrot-apple soup and dressing garlic/seasoning to warm vegetable salad; review Chicken and Snow Pea Dinner against existing components, replacing an unsupported twenty-minute promise with a seventy-minute coordinated schedule and explicit four-person portions. The two partial recipe fixes do not advance full-review status. Recipes remain223 original reviewed,10 consolidated,379 pending; meals47 reviewed,2 consolidated,39 pending. Physical tests remain zero.
+
+Validation: two targeted recipe checks,29/29 full QA checks, and three changed pages verified locally for text, recipe ingredient scaling/reset, mobile/print and page errors. No repeated full-recipe rewrites. Publication and production verification follow. The deferred backlog is ranked; the twelve-item maximum is not a quota and will not be replenished automatically.
+
 # Latest milestone: soups, fruit salads and equivalent ranges
 
 Eight original recipes have complete editorial reviews: three distinct tomato soup preparations, zucchini soup, two peach salads, Thai green mango salad and sesame tomato salad. No duplicates were merged: the tomato formulas and sandwich composition differ materially. No direct meal dependencies were found. Original totals:223 reviewed,10 consolidated,379 pending;225 reviewed canonical recipes including two additions. Meals remain46 reviewed,2 consolidated,40 pending. No physical kitchen tests.

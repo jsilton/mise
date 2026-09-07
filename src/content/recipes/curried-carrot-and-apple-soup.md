@@ -35,6 +35,8 @@ ingredients:
   - 7 Gingersnap Cookies (The "Gingersnap Thickener")
   - '2 cloves Garlic, crushed'
   - '1 tsp Fresh Ginger, grated'
+  - 2 thyme sprigs
+  - 'Salt and black pepper, to taste'
   - 2 quarts Chicken Stock
   - 1 cup Sour Cream
   - 1 tsp Apple Cider Vinegar (The Finishing Touch)

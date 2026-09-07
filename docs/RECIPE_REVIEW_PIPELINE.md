@@ -1,5 +1,27 @@
 # Recipe improvement pipeline
 
+## Resource-constrained scope — user revision, 2026-09-06
+
+This revision supersedes the exhaustive whole-recipe rollout and standing parallel-review instructions below. The user reports that this work consumed about 20% of weekly credits and explicitly prioritizes better outcomes with much lower resource consumption. Earlier instructions to individually finish every recipe do not authorize continuing that expensive workflow after this revision.
+
+### Revised objective
+
+Improve mise through collection-wide, evidence-supported corrections and a bounded set of consequential exceptions. Preserve published work, recipe identity and all existing presentation preferences. Completion of this revised phase does **not** require individually rewriting or certifying every remaining recipe, illustrating every dish, or repeating the completed pilot and benchmark. Pending recipes remain honestly pending.
+
+### Work and stop limits
+
+- Stop the standing agent queue. Preserve returned proposals without treating them as accepted or published. No new broad family-review assignments.
+- First reuse the existing audit reports, shared knowledge and completed proposals. Do not reread the entire collection into model context. Run deterministic scans locally and inspect concise summaries and exact candidate diffs.
+- Implement high-impact shared fixes only when their applicability is explicit. Bulk edits must not invent quantities, normalize deliberate richness, guess substitutions or merge merely similar recipes.
+- Select at most **12 material recipe/meal exceptions total for this revised phase**, prioritizing missing required ingredients, contradictory quantities, unsafe instructions and impossible schedules. Already drafted but unaccepted work counts toward this limit if reviewed. Cosmetic rewrites do not qualify. Leave uncertain noncritical changes unchanged and record the short unresolved question.
+- Default to no agents. Use at most one bounded worker at a time only when it eliminates independent lead work; send minimal context and request exact edits plus brief evidence. Use a lighter model for mechanically verifiable work; the lead reviews consequential exceptions. Do not duplicate complete reviews between worker and lead.
+- Freeze new image generation and collection-wide illustration rollout. Preserve the current visual system and returned SVG candidate; retain further visual expansion as a deferred backlog.
+- Publish no more than two coherent releases in this phase. Run appropriate targeted checks, then one full release check per batch. Repeat only for a changed artifact, a failure or an unresolved concern. Avoid a browser suite per recipe when a shared template check and content validation cover the change.
+- Keep records compact: affected items, exact change, evidence, unresolved issues and validation. Do not produce another narrative audit for already accepted work.
+- Finish this bounded phase with the published improvements, measured affected-item counts and a ranked deferred backlog. Do not automatically replenish the exception queue or resume exhaustive review. Further individual reviews and visual expansion require a new user request.
+
+These are execution limits, not a claim about exact credit savings. Reliable per-task monetary telemetry has not been available. Do not promise a percentage saving or treat account-wide usage as exact task attribution. Physical cooking tests remain unperformed unless actual results are supplied.
+
 ## Objective and scope
 
 Improve the full recipe collection efficiently without treating a formatting pass as culinary validation. Meal calendars are removed. Recipes, composed meals, cooking education and the visual system remain in scope. This replaces repeated full-history research for every routine correction with reusable evidence, bounded extraction and exception review. It does not retroactively certify pending recipes.
@@ -47,7 +69,7 @@ Verify input hashes, full diffs, all ingredient destinations, approved family-ru
 
 ## Pilot outcome and active operating rule
 
-The 24-recipe pilot failed the broad lightweight-review gate: 6/7 routine edits accepted, 29/58 confirmed reference issues detected, and unreliable timing metadata. See [pilot results](pilot/RESULTS.md). Continue the full collection using stronger whole-recipe editing grouped by method, shared evidence and deterministic maintenance. Restrict inexpensive workers to narrow independently verifiable tasks. Do not spend another full pilot trying to force a passing percentage, and do not treat lack of cost telemetry as a blocker to actual recipe improvements.
+The 24-recipe pilot failed the broad lightweight-review gate: 6/7 routine edits accepted, 29/58 confirmed reference issues detected, and unreliable timing metadata. See [pilot results](pilot/RESULTS.md). Historical operating decision, now superseded by the resource-constrained revision above: continue the full collection using stronger whole-recipe editing grouped by method, shared evidence and deterministic maintenance. Restrict inexpensive workers to narrow independently verifiable tasks. Do not spend another full pilot trying to force a passing percentage, and do not treat lack of cost telemetry as a blocker to actual recipe improvements.
 
 ## Reusable cold-side evidence
 
