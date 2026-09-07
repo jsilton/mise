@@ -1,0 +1,9 @@
+# Lemony Broccoli Pasta Dinner: individual meal review
+
+Input meal at 3fbdee81. Read full proposed Lemony Broccoli Pasta and actual reviewed Garlic Bread and Everyday Arugula Salad. Conditional acceptance proposal after main integration. No physical service test.
+
+Preserve four meal diners. Set six-portion pasta to four: two-thirds batch,10 2/3 oz dry spaghetti, 3 1/3 cups broccoli,2/3 cup peas, plus proportional sauce and reserve water. Half garlic bread is 200 g loaf,3 tbsp butter, two garlic cloves,1 tbsp parsley,12.5 g Parmesan and proportional salt; cut into eight small pieces for four diners. Full salad is 5 oz/142 g greens with 20 g Parmesan and its complete dressing. This is moderate pasta plus small bread side, not full six-portion pasta and six-portion bread for four. Exact arithmetic is not a kitchen-measured yield.
+
+Fifty-minute elapsed, thirty-five active includes heating water/oven, all cutting, garlic-bread preparation and cold salad work. Bake 400°F for 12–15 minutes and skip optional broil to prevent collision with final attended pasta tossing. Bread can wait briefly; cheese-coated pasta should not. Pasta follows its package and independent broccoli tenderness, peas cooked by package separately, water added as needed rather than all. Softened butter assumption explicit; cold-block softening adds time. Pot plus oven tray and small saucepan/microwave pea vessel are compatible; salad remains undressed until service.
+
+Meal name now describes actual broccoli pasta rather than implying a broader primavera vegetable mix. No unquantified grilled chicken added. Vegetarian condition requires suitable cheeses and bread. Current side reviews provide timing and storage evidence; no extra general research needed. Main must be accepted before applying meal label. Kitchen test priorities: serving adequacy, exact cooker schedule, broccoli/pasta synchronization and bread texture during short wait.

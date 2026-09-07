@@ -1,9 +1,9 @@
 {
   "originalMeals": 88,
   "currentMeals": 86,
-  "individuallyReviewed": 42,
+  "individuallyReviewed": 45,
   "consolidatedAfterReview": 2,
-  "pending": 44,
+  "pending": 41,
   "kitchenTested": 0,
   "records": [
     {
@@ -302,11 +302,15 @@
     },
     {
       "slug": "pancetta-pea-ricotta-pasta-night",
-      "status": "pending"
+      "status": "editorial-review",
+      "record": "docs/meal-reviews/pancetta-pea-ricotta-pasta-night.md",
+      "components": ["crispy-pancetta-sweet-pea-lemon-ricotta-pasta"]
     },
     {
       "slug": "pasta-primavera-night",
-      "status": "pending"
+      "status": "editorial-review",
+      "record": "docs/meal-reviews/pasta-primavera-night.md",
+      "components": ["lemony-broccoli-pasta", "everyday-arugula-salad", "garlic-bread"]
     },
     {
       "slug": "playoff-football-party",
@@ -405,7 +409,9 @@
     },
     {
       "slug": "shrimp-scampi-night",
-      "status": "pending"
+      "status": "editorial-review",
+      "record": "docs/meal-reviews/shrimp-scampi-night.md",
+      "components": ["shrimp-scampi-with-linguini", "everyday-arugula-salad", "garlic-bread"]
     },
     {
       "slug": "southern-bbq-spread",

@@ -1,3 +1,13 @@
+# Latest milestone: eight pasta recipes and three dinners
+
+Eight original pasta recipes now have whole-recipe editorial reviews, with preserved sauce identities and richness, complete ingredient allocation, package-aware cooking, proportional finishing amounts, source credits where recovered and inline teaching. Three meals are complete: Shrimp Scampi Dinner, Pancetta Pea and Lemon Ricotta Pasta Dinner, and Lemony Broccoli Pasta Dinner. Lemon Ricotta Pasta Dinner has schedule/portion corrections but remains pending its strawberry-arugula salad review.
+
+Current original totals:206 recipes reviewed,10 consolidated,396 pending;208 reviewed canonical recipes including two additions. Meals:45 reviewed,2 consolidated,41 pending. No physical kitchen tests. The pasta kitchen-test plan is in kitchen-tests/pasta-release.md.
+
+Process: two family reviewers supplied eight proposals; a bounded independent pass caught copied butter guidance, a fixed lemon-juice amount, a fixed water checkpoint, stale garlic reasoning and an oil-reservation ordering error. Integration corrected these and removed generated pancetta fat from shopping ingredients in favor of an explicit proportional retention instruction. Shared research was reused. Actual cost savings are not measured. Validation passed29/29 QA checks,34/34 regression tests, targeted lint for eight recipes and719 pages with no broken destinations or anchors. Browser checks passed eight recipes and four meals, including scaling/reset, inline checkpoints, footer-only review links, mobile/cook/print, portions and half/double lemon juice. Production verification follows publication.
+
+Production verification: shared scaling commit4f28b776 deployed successfully in Pages run34072769514. Four production recipes passed half/double/reset and mobile checks.
+
 # Latest milestone: shared plus-sign ingredient scaling
 
 The shared scaler now handles measured additions written with a plus sign. Baseline comparison shows48 corrected ingredient lines across44 recipes; this arithmetic fix does not advance recipe review counts. Package sizes stay fixed and unsupported mixed count alternatives stay unchanged. An independent twelve-line sample caught a mixed bay-leaf/oregano case, which now has a guard and regression test. Exact before/after outputs are in scaling-plus-impact.json.

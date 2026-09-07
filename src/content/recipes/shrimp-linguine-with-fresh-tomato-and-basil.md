@@ -1,21 +1,19 @@
 ---
-title: Shrimp Linguine with Fresh Tomato, White Wine & Basil
-origin: Italy
+title: 'Shrimp Linguine with Fresh Tomato, White Wine & Basil'
+origin: Italian-inspired home cooking
 role: main
 vibe: technical
 difficulty: intermediate
-prepTime: 25 min
-cookTime: 25 min
-totalTime: 50 min
-servings: '5'
+prepTime: 30 min
+cookTime: 45 min
+totalTime: 1 hr 15 min
+servings: 5 pasta portions
 cuisines:
   - Italian
 cookingMethods:
-  - sear
   - saute
   - simmer
   - boil
-  - toss
 dietary:
   - pescatarian
 occasions:
@@ -37,67 +35,162 @@ advancePrep:
   - components-ahead
   - prep-vegetables
 equipment:
-  - large-skillet
+  - large-pasta-pot
+  - small-stock-saucepan
+  - 12-inch-deep-skillet
   - fine-mesh-strainer
   - box-grater
+  - fine-tip-instant-read-thermometer
 pairsWith:
   - everyday-arugula-salad
   - garlic-bread
 ingredients:
-  - '--- Shrimp & Stock ---'
-  - '1 lb large shrimp (21–25 count), peeled and deveined, shells reserved'
-  - 1 tsp kosher salt (for brining the shrimp)
-  - 1/4 tsp baking soda (optional, for a snappier bite)
-  - 1 1/2 cups water (for the shell stock)
-  - '--- Sauce ---'
+  - '1 lb raw large shrimp, weighed after peeling and deveining, shells reserved'
+  - '1 tsp kosher salt, for seasoning shrimp'
+  - '1/4 tsp baking soda, optional'
+  - '1 1/2 cups water, for shell stock'
   - 1 lb fresh spinach linguine
-  - '2 shallots, finely minced (about 1/3 cup)'
+  - '2 shallots, finely minced'
   - '4 cloves garlic, thinly sliced'
-  - '7 Roma tomatoes, grated on a box grater (skins discarded)'
-  - 3/4 cup dry white wine (Pinot Gris or Sauvignon Blanc)
-  - '4 oz baby spinach (about 3 big handfuls)'
+  - '7 Roma tomatoes, grated, skins discarded'
+  - '3/4 cup dry white wine, divided'
+  - 4 oz baby spinach
   - 1/2 to 3/4 tsp crushed red pepper
-  - 3 tbsp olive oil
-  - '5 tbsp cold unsalted butter, divided (1 to start, 4 to finish)'
-  - Kosher salt and black pepper to taste
-  - '--- To Finish ---'
-  - '1 lemon (zest of the whole, juice of half)'
-  - 1/3 cup fresh basil, torn
-  - Extra-virgin olive oil, for drizzling
-  - '--- Optional Crunchy Topping (Pangrattato) ---'
-  - 1/2 cup panko breadcrumbs
-  - '1 clove garlic, grated'
-  - 1 tbsp olive oil
-nutrition:
-  calories: 600
-  protein: 28
-  carbs: 52
-  fat: 26
-  fiber: 4
-  sugar: 5
-  sodium: 720
+  - '1 tsp olive oil, for shell stock'
+  - '1 tbsp olive oil, for cooking shrimp'
+  - '5 tsp olive oil, for shallots'
+  - '5 tbsp cold unsalted butter, divided'
+  - 'Kosher salt and black pepper, to taste'
+  - '1 lemon, finely zest the whole fruit and juice half'
+  - '1/3 cup fresh basil, torn, divided'
+  - 'Extra-virgin olive oil, optional, for finishing'
+  - '2 cups reserved pasta cooking water, use only as needed'
+  - '1/2 cup panko breadcrumbs, optional topping'
+  - '1 clove garlic, grated, for the optional topping'
+  - '1 tbsp olive oil, for the optional topping'
+description: >-
+  Fresh spinach linguine with shrimp, grated Roma tomatoes, white wine and
+  basil, finished with butter and an optional crisp breadcrumb topping.
+learning:
+  focus: Build a shell stock and finish fresh pasta without overcooking shrimp
+  outcome: >-
+    Tender fresh linguine in a tomato-butter coating, with opaque shrimp, wilted
+    spinach and fresh basil aroma.
+  techniques:
+    - emulsions
+    - temperature
+  before:
+    - >-
+      Start with raw, fully thawed shrimp. Thaw overnight in the refrigerator,
+      or in a sealed bag in cold water and cook promptly. Keep cold until
+      preparation; dry well and keep raw-seafood utensils separate from cooked
+      food. Thawing is additional time; the schedule below includes peeling and deveining.
+    - >-
+      Buy enough large shell-on shrimp to supply the listed pound of peeled, deveined meat, reserving their shells for stock. The required purchase weight varies; no fixed shell-on conversion is assumed. If buying already peeled shrimp, use the stock substitution below.
+    - >-
+      Use a small saucepan for stock, a pasta pot and a deep 12-inch sauté pan
+      of about 4-quart capacity. A larger batch needs separate pans or complete
+      batches; shell-stock reduction and fresh-pasta timing do not multiply with
+      servings.
+    - >-
+      Prepare the sauce before dropping fresh linguine into boiling water. Fresh
+      noodle thickness varies, so the package and a tasted strand govern timing.
+      Grate tomatoes over a bowl to retain their juices.
+  checkpoints:
+    - step: 2
+      cue: >-
+        The strained stock is measured after simmering and reduced to half the
+        starting water volume.
+      why: >-
+        Evaporation differs by pan; a measured final volume controls the liquid
+        added to tomato sauce.
+    - step: 4
+      cue: 'Shrimp centers are firm, pearly and opaque before removal.'
+      why: >-
+        A forty-five-second sear and a curl shape do not establish the center
+        endpoint.
+    - step: 6
+      cue: The tomato sauce is lightly thickened but still flows from a spoon.
+      why: >-
+        Tomato size and water content vary; reduce the sauce before the delicate
+        fresh noodles enter.
+    - step: 8
+      cue: Cold butter melts into the pasta coating off heat without an oil pool.
+      why: Excessive heat or too little water can separate the finishing fat.
+  troubleshooting:
+    - problem: Shrimp are tough
+      cause: They stayed hot while the sauce reduced or pasta finished.
+      fix: >-
+        Lift cooked shrimp out and return only to warm and coat. Additional
+        sauce cannot reverse overcooking.
+    - problem: Sauce becomes tight or oily
+      cause: Too much water evaporated or the butter finish was overheated.
+      fix: >-
+        Take off heat and toss gently with a small splash of warm reserved pasta
+        water. Add more only if needed; do not pour the whole allowance in
+        automatically.
+  substitutions:
+    - ingredient: Reserved shrimp shells and their stock
+      alternative: >-
+        Unsalted seafood stock, using half the listed starting water volume as
+        the finished stock amount
+      effect: >-
+        Replaces the reduced shell stock, not the full starting water quantity;
+        flavor depends on the stock. Omit the shell-stock oil and use all
+        measured wine in the tomato sauce.
+    - ingredient: Fresh spinach linguine
+      alternative: The same weight of another fresh linguine
+      effect: >-
+        Changes spinach flavor/color; follow its package cooking time. An equal
+        weight of dried pasta is not a like-for-like yield substitution.
+  timing: >-
+    Allow about 75 minutes for one cook, including peeling, tomato grating,
+    stock simmer and reduction, optional topping and fresh-pasta finish. The
+    15–30-minute refrigerated shrimp seasoning overlaps stock preparation. Have
+    the stock ready before building the tomato sauce; fresh pasta enters only at
+    the end.
+  sources:
+    - title: FDA — Selecting and serving seafood safely
+      url: >-
+        https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-and-frozen-seafood-safely
+    - title: FoodSafety.gov — Cold food storage chart
+      url: 'https://www.foodsafety.gov/food-safety-charts/cold-food-storage-charts'
+    - title: FoodSafety.gov — Safe minimum cooking temperatures
+      url: >-
+        https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures
+    - title: Serious Eats — Small baking-soda shrimp dry brine
+      url: >-
+        https://www.seriouseats.com/how-to-cook-shrimp-grill-poach-stir-fry-saute
+  storage: >-
+    Refrigerate in shallow containers within 2 hours, or 1 hour above 90°F /
+    32°C, at 40°F / 4°C or below. Use within 3–4 days. Reheat gently to 165°F /
+    74°C throughout; shrimp become firmer with reheating, so fresh service gives
+    the best texture.
+  review:
+    status: editorial-review
+    date: '2026-09-06'
 ---
 
 ## Chef's Note
 
-Italy's Adriatic fishermen made scampi from just shrimp, garlic, and white wine; Italian immigrants in America folded in tomato and turned it into a red-sauce staple. This version splits the difference and leans on one move home cooks skip — a quick stock from the shrimp shells, where most of the shrimp flavor actually lives. Build the sauce while it simmers, and finish the pasta in the pan so the sauce turns glossy and clings instead of pooling in the bowl.
+A quick shell stock gives the tomato sauce a seafood base, while butter rounds out the grated tomatoes and wine. Get the sauce ready before cooking the fresh linguine, then use pasta water sparingly and finish off heat. The optional garlic breadcrumbs add a crisp contrast.
 
 ## Directions
 
-1. **Brine the Shrimp:** Toss the peeled shrimp with the salt (and baking soda, if using) and let sit while you make the stock, 15–30 minutes in the fridge. Salt seasons the meat through and keeps it juicy; the baking soda raises the surface pH for a snappier bite and better browning. Pat bone-dry right before searing — wet shrimp steam grey instead of searing.
+1. **Peel and season:** Peel and devein shrimp, reserving shells. Toss peeled meat with the measured shrimp salt and optional baking soda. Refrigerate for 15–30 minutes while preparing the stock and vegetables. Wash raw-contact tools and pat shrimp dry just before cooking.
 
-2. **Build the Shell Stock:** Sauté the reserved shells in 1 tsp olive oil over medium-high until pink and sweet-smelling, 2–3 minutes. Add a splash of the wine and 1 1/2 cups water, simmer 15 minutes, then strain hard, pressing the shells. You want about 3/4 cup of concentrated stock — if it's more, simmer it down. This is where the depth comes from.
+2. **Make shell stock:** Heat the oil labeled for stock in a small saucepan over medium heat. Stir shells for about 2–3 minutes until pink and aromatic. Add a small splash taken from the measured wine and all the stock water. Bring to a gentle simmer and cook about 15 minutes. Strain through a fine-mesh strainer, pressing shells, then discard shells. Measure the liquid and reduce to half the starting water volume if necessary; add a little water if reduced below that target.
 
-3. **Toast the Pangrattato (optional):** Toast the panko in 1 tbsp olive oil with the grated garlic and a pinch of salt until deep golden, 3–4 minutes. Set aside. This is the one bit of crunch in an otherwise soft dish.
+3. **Prepare optional topping:** If using it, warm the topping oil in the skillet over medium-low. Toast panko, stirring, until beginning to turn golden, about 2–3 minutes. Add the grated topping garlic and a little salt and stir about 30–60 seconds more until fragrant and golden. Transfer to a bowl. Meanwhile have tomatoes grated, shallots and garlic prepared and pasta water heating.
 
-4. **Sear the Shrimp:** Heat 1 tbsp olive oil in a large skillet until ripping hot. Sear the dried shrimp in a single layer (don't crowd), about 45 seconds per side, until just opaque and curled into a loose C-shape. Pull them out — they'll finish in the sauce later. A tight O-shape means overcooked.
+4. **Cook shrimp:** Add the oil labeled for shrimp to the skillet over medium-high. Cook shrimp in a single layer about 1–2 minutes per side or as needed until firm, pearly and opaque through the center; a fine-tip thermometer inserted into a thick shrimp should read 145°F / 63°C. Use batches if crowded, sharing the oil. Transfer to a clean plate.
 
-5. **Sweat the Aromatics:** Lower heat to medium. Add 1 tbsp butter and the remaining 1 tbsp olive oil, then the shallots. Sweat slowly until soft and jammy with no color, 4–5 minutes. Add the garlic and crushed red pepper and cook 45 seconds — do not let the garlic brown, or it turns bitter.
+5. **Soften aromatics:** Lower heat to medium. Add shallot oil and one-fifth of the butter. Cook shallots about 4–5 minutes until softened, then add sliced garlic and crushed red pepper and stir about 30–45 seconds until fragrant without darkening.
 
-6. **Make the Sauce:** Pour in the wine, scrape up the browned bits, and reduce by half, 2–3 minutes, to cook off the raw alcohol. Add the grated tomatoes and the shell stock and bare-simmer (never a hard boil) for 10 minutes, until glossy and slightly thickened. Season with salt and pepper.
+6. **Build tomato sauce:** Add all remaining measured wine and simmer about 2–4 minutes until reduced by roughly half. Add grated tomatoes with their juices and the measured finished stock. Simmer gently about 10–15 minutes until lightly thickened and flowing. Taste before adding salt and pepper.
 
-7. **Cook the Pasta:** Meanwhile, boil the linguine in well-salted water — fresh pasta needs only about 2 minutes. Pull it 45 seconds early and reserve 2 cups of the starchy water before draining.
+7. **Cook pasta:** When sauce is ready, stir in baby spinach until wilted. Cook fresh linguine in salted boiling water according to its package, checking early and stopping just short of fully tender. Reserve the listed pasta water before draining. Do not assume every fresh noodle cooks in two minutes.
 
-8. **Bring It Together:** Stir the baby spinach into the sauce to wilt, 1 minute. Add the pasta and a splash of pasta water, toss hard, then take the pan off the heat and swirl in the 4 tbsp cold butter a pat at a time until the sauce turns creamy and clings to the strands. Return the shrimp and their juices for just 30–60 seconds to heat through — no longer, or they'll overcook.
+8. **Finish off heat:** Add pasta to sauce and turn gently, using a small splash of reserved water if needed. When the pasta is tender, remove from heat and add remaining four-fifths of the butter in small pieces, tossing until the coating is smooth. Fold in cooked shrimp and their juices only to warm through.
 
-9. **Finish and Serve:** Off the heat, add the lemon zest, a squeeze of lemon juice, the torn basil, and a thread of good olive oil. Taste and adjust in this order: salt, then acid, then heat. Serve immediately in warm bowls, topped with the pangrattato and a few more basil leaves — the emulsion tightens as it cools.
+9. **Season and serve:** Add lemon zest, juice from half the lemon gradually to taste and most of the measured basil. Taste before adding further salt or pepper. Divide into bowls and finish with the remaining basil, optional olive-oil drizzle and optional breadcrumbs. Serve immediately.
