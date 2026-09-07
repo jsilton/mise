@@ -118,7 +118,7 @@ Short-grain rice should be tender and cohesive, rather than as separate as basma
 ## Directions
 
 1. **Rinse and drain:** Put rice in a bowl, cover with cold water, swish gently, and drain. Repeat a few times until the water is less cloudy; it need not become perfectly clear. Drain well in a fine-mesh strainer.
-2. **Soak in measured water:** Transfer rice to a heavy 2-quart saucepan with a tight-fitting lid and add 400 ml water. Soak for 30 minutes. Keep this water for cooking.
+2. **Soak in measured water:** Transfer rice to a heavy 2-quart saucepan with a tight-fitting lid and add the measured cooking water. Soak for 30 minutes. Keep this water for cooking.
 3. **Bring to a boil:** Heat over medium heat with the lid slightly ajar. Once the water is steadily bubbling, close the lid fully and immediately reduce to low.
 4. **Cook gently:** Cook 12–15 minutes at the lowest heat that maintains a gentle simmer. Avoid repeated lid lifting. At the end, make one brief check: gently part the rice to see whether free water remains. If so, cover and cook a few minutes longer. If the pot is dry but rice is hard, use the measured-water correction in troubleshooting.
 5. **Rest and fluff:** Move off the heat and leave covered for 10 minutes. Taste a grain for a tender center, then lift and fold gently with a rice paddle, reaching the bottom without mashing. Serve as four side portions.

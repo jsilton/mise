@@ -52,3 +52,13 @@ The 24-recipe pilot failed the broad lightweight-review gate: 6/7 routine edits 
 ## Reusable cold-side evidence
 
 The current cold-side family uses [a shared handling and accounting packet](knowledge/cold-sides-and-rice-paper.md). Complete ingredient/identity reviews still occur for each recipe. Existing source evidence is reused for wrapper hydration, shrimp handling and cold service; product-specific edamame instructions remain a separate applicability check. A deterministic audit correction removed fourteen false manufacturer warnings for the sauce category sriracha, with no recipe ingredients changed by that rule correction. This is measured warning reduction, not a cost-savings or culinary-correctness claim.
+
+## Parallel review and combined releases
+
+After the initial small releases, separate review batch size from publication batch size. Two independent whole-recipe reviewers each own a method-related group and its compact records; a third lane performs bounded mechanical screening when capacity permits. The lead resolves consequential exceptions and composed-meal dependencies, then inspects complete diffs and representative rendered output. Do not repeat the same source research and whole-recipe narrative after a sufficient reviewer record; challenge missing evidence, changed formulas and unresolved claims specifically.
+
+Collect accepted groups into a combined release, typically eight to twelve recipes plus ready meals. Run targeted recipe lint per group, then regenerate registers and run the full build/link and shared browser checks once after integration. New changes or failures justify further checks; unchanged accepted groups do not. Never release a materially unresolved recipe merely to fill a batch quota. Agent proposals are not accepted reviews until integration checks succeed.
+
+Use compact review records: evidence/identity, ingredient destinations, consequential changes, timing/scaling, relationships and kitchen questions. Existing timing conflict checks already scan the collection; do not commission another generic timing audit. Literal ingredient amounts in non-scaling method prose are candidates for bounded screening, with pan dimensions, temperatures, times, package sizes and fixed-batch recipes excluded. Flags are neither automatic corrections nor completed recipe reviews.
+
+Track actual worker/reviewer timing and cost only when reliable telemetry exists. Report the number of accepted recipes per full release check and material corrections returned to agents; these observable process measures do not establish a monetary saving or culinary correctness.

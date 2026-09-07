@@ -60,7 +60,7 @@ Greek yogurt replaces heavy cream as the primary liquid, creating high-protein b
 1.  **Prep:** Preheat oven to 400°F. Line a large baking sheet with parchment paper.
 2.  **Wet & Dry:** In a medium bowl, whisk together the yogurt and eggs. In a separate large bowl, whisk the flour, flaxseed, garlic powder, red pepper flakes, baking powder, and salt.
 3.  **Combine:** Gradually add the dry ingredients to the wet. Stir until a thick, sticky dough forms.
-4.  **Fold:** Fold in the chopped spinach, chives, ham, and 1 cup of the cheese. Use your hands if necessary to ensure even distribution without overworking the dough.
+4.  **Fold:** Fold in the chopped spinach, chives, ham, and two thirds of the measured cheese. Use your hands if necessary to ensure even distribution without overworking the dough.
 5.  **Shape:** Lightly flour your hands. Scoop about 1/3 cup of dough for each biscuit. Form into 1-inch thick disks and arrange on the baking sheet.
-6.  **The Temperature Method:** Sprinkle the remaining 1/2 cup of cheese on top. Bake at 400°F for 5 minutes (to kickstart the rise), then **lower the heat to 350°F** for the remaining 20 minutes.
+6.  **The Temperature Method:** Sprinkle the remaining cheese on top. Bake at 400°F for 5 minutes (to kickstart the rise), then **lower the heat to 350°F** for the remaining 20 minutes.
 7.  **Finish:** They are done when the bottoms are golden brown and the cheese on top is bubbly and crisp.

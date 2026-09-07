@@ -1,0 +1,520 @@
+{
+  "auditType": "mechanical-scaling-wording-review",
+  "date": "2026-09-06",
+  "scope": "Seventeen root-approved Directions wording replacements across eight non-fixed recipes. No ingredient, review-status, time, geometry or shared-code changes.",
+  "summary": {
+    "inspectedRecipes": 12,
+    "changedRecipes": 8,
+    "appliedReplacements": 17,
+    "falsePositiveOnlyRecipes": 2,
+    "manualOnlyRecipes": 1,
+    "resolvedDuringAudit": 1
+  },
+  "evidenceCorrection": "Sticky miso salmon references now resolve to the actual 535 ml cooking water, 1 tbsp glaze oil and 1 tsp foil oil ingredient lines, not their previous erroneous array positions.",
+  "limitations": [
+    "Screening only, not culinary review, source research or safety certification.",
+    "Mechanical replacements are proposed text only. They preserve existing original-batch allocations; they do not validate larger pans, additional cooking rounds or every recipe amount.",
+    "Fixed-scale recipes were excluded before signal generation. Temperatures/times are not matched; volume/weight geometry and per-piece examples are explicitly rejected during inspection.",
+    "This record is inspected-only. It omits the unconfirmed search inventory and does not claim culinary review or complete scaling suitability.",
+    "Recipe review metadata was unchanged. Batch-count and pan-capacity issues remain separate."
+  ],
+  "inspected": [
+    {
+      "slug": "steamed-white-rice",
+      "disposition": "confirmed",
+      "certainty": "high",
+      "reason": "The entire absorption-water dose is repeated numerically while the ingredient scales.",
+      "findings": [
+        {
+          "line": 121,
+          "certainty": "high",
+          "reason": "The entire absorption-water dose is repeated numerically while the ingredient scales.",
+          "ingredients": [
+            {
+              "original": "400 ml water, plus cold water for rinsing",
+              "half": "200 ml water, plus cold water for rinsing",
+              "double": "800 ml water, plus cold water for rinsing"
+            }
+          ],
+          "before": "2. **Soak in measured water:** Transfer rice to a heavy 2-quart saucepan with a tight-fitting lid and add 400 ml water. Soak for 30 minutes. Keep this water for cooking.",
+          "after": "2. **Soak in measured water:** Transfer rice to a heavy 2-quart saucepan with a tight-fitting lid and add the measured cooking water. Soak for 30 minutes. Keep this water for cooking.",
+          "replacement": {
+            "oldText": "add 400 ml water",
+            "newText": "add the measured cooking water"
+          },
+          "status": "applied"
+        }
+      ],
+      "excluded": []
+    },
+    {
+      "slug": "sticky-miso-salmon-bowl",
+      "disposition": "confirmed",
+      "certainty": "high",
+      "reason": "Numeric ingredient totals remain unchanged after the list scales.",
+      "findings": [
+        {
+          "line": 111,
+          "certainty": "high",
+          "reason": "Numeric ingredient totals remain unchanged after the list scales.",
+          "ingredients": [
+            {
+              "original": "535 ml water, plus water for rinsing",
+              "half": "267 1/2 ml water, plus water for rinsing",
+              "double": "1070 ml water, plus water for rinsing"
+            }
+          ],
+          "before": "1. **Start the rice:** Rinse the rice in several changes of cool water until less cloudy, then drain well. Put it in a heavy 3-quart saucepan with the measured 535 ml water and soak for 30 minutes. Keep this water for cooking.",
+          "after": "1. **Start the rice:** Rinse the rice in several changes of cool water until less cloudy, then drain well. Put it in a heavy 3-quart saucepan with the measured cooking water and soak for 30 minutes. Keep this water for cooking.",
+          "replacement": {
+            "oldText": "with the measured 535 ml water",
+            "newText": "with the measured cooking water"
+          },
+          "status": "applied"
+        },
+        {
+          "line": 112,
+          "certainty": "high",
+          "reason": "Numeric ingredient totals remain unchanged after the list scales.",
+          "ingredients": [
+            {
+              "original": "1 tbsp neutral oil, for the glaze",
+              "half": "1/2 tbsp neutral oil, for the glaze",
+              "double": "2 tbsp neutral oil, for the glaze"
+            }
+          ],
+          "before": "2. **Prepare the bowl ingredients:** During the soak, slice the scallions and cucumber, snip the nori, and measure the optional toppings. Whisk the miso, honey, tablespoon of oil, ginger, grapefruit zest and juice until smooth. Taste before it touches fish; no additional salt is specified because the miso and optional toppings already supply seasoning. Check the salmon for pin bones, pat dry, and refrigerate it until cooking time.",
+          "after": "2. **Prepare the bowl ingredients:** During the soak, slice the scallions and cucumber, snip the nori, and measure the optional toppings. Whisk the miso, honey, measured glaze oil, ginger, grapefruit zest and juice until smooth. Taste before it touches fish; no additional salt is specified because the miso and optional toppings already supply seasoning. Check the salmon for pin bones, pat dry, and refrigerate it until cooking time.",
+          "replacement": {
+            "oldText": "honey, tablespoon of oil, ginger",
+            "newText": "honey, measured glaze oil, ginger"
+          },
+          "status": "applied"
+        },
+        {
+          "line": 114,
+          "certainty": "high",
+          "reason": "Numeric ingredient totals remain unchanged after the list scales.",
+          "ingredients": [
+            {
+              "original": "1 tsp neutral oil, for the foil",
+              "half": "1/2 tsp neutral oil, for the foil",
+              "double": "2 tsp neutral oil, for the foil"
+            }
+          ],
+          "before": "4. **Heat the broiler and coat the fish:** As the rice begins its low simmer, heat the broiler on high and set the rack so the fish will sit 7–9 inches from the element. Line a rimmed metal half-sheet pan with foil and spread the teaspoon of oil where the fillets will sit. Arrange fish with at least an inch between portions. Divide all the glaze over their tops and sides in an even layer, leaving no thick mounds. Wash tools and hands that touched raw fish; none of this coating is a cold serving sauce.",
+          "after": "4. **Heat the broiler and coat the fish:** As the rice begins its low simmer, heat the broiler on high and set the rack so the fish will sit 7–9 inches from the element. Line a rimmed metal half-sheet pan with foil and spread the measured foil oil where the fillets will sit. Arrange fish with at least an inch between portions. Divide all the glaze over their tops and sides in an even layer, leaving no thick mounds. Wash tools and hands that touched raw fish; none of this coating is a cold serving sauce.",
+          "replacement": {
+            "oldText": "spread the teaspoon of oil where the fillets will sit",
+            "newText": "spread the measured foil oil where the fillets will sit"
+          },
+          "status": "applied"
+        }
+      ],
+      "excluded": [
+        "Broiler distance, fillet thickness, cooking temperature and time excluded; pan geometry is not mechanically validated."
+      ]
+    },
+    {
+      "slug": "baked-cod-with-lemon-panko",
+      "disposition": "resolved-during-audit",
+      "certainty": "high",
+      "reason": "The shared source changed during this read-only audit. Re-read the complete new version: its former literal butter/garlic amounts are now half/remaining portions, so the earlier findings no longer apply.",
+      "findings": [],
+      "excluded": [
+        "Current step 2: Mix **half the butter, all the lemon juice and half the garlic**. Current step 3 uses **the remaining butter and garlic**. No pending correction."
+      ]
+    },
+    {
+      "slug": "anadama-bread",
+      "disposition": "confirmed",
+      "certainty": "high",
+      "reason": "The first water ingredient and initial two-thirds flour allocation are written as fixed amounts.",
+      "findings": [
+        {
+          "line": 61,
+          "certainty": "high",
+          "reason": "The first water ingredient and initial two-thirds flour allocation are written as fixed amounts.",
+          "ingredients": [
+            {
+              "original": "1/2 cup Water",
+              "half": "1/4 cup Water",
+              "double": "1 cup Water"
+            }
+          ],
+          "before": "1.  **The Porridge:** In a small saucepan, whisk 1/2 cup water and cornmeal. Bring to a boil, stirring constantly for 5 minutes until thickened. Remove from heat.",
+          "after": "1.  **The Porridge:** In a small saucepan, whisk the first listed water portion and cornmeal. Bring to a boil, stirring constantly for 5 minutes until thickened. Remove from heat.",
+          "replacement": {
+            "oldText": "whisk 1/2 cup water and cornmeal",
+            "newText": "whisk the first listed water portion and cornmeal"
+          },
+          "status": "applied"
+        },
+        {
+          "line": 64,
+          "certainty": "high",
+          "reason": "The first water ingredient and initial two-thirds flour allocation are written as fixed amounts.",
+          "ingredients": [
+            {
+              "original": "3 cups All-Purpose Flour",
+              "half": "1 1/2 cups All-Purpose Flour",
+              "double": "6 cups All-Purpose Flour"
+            }
+          ],
+          "before": "4.  **The Dough:** Stir the cornmeal mixture into the yeast. Add 2 cups of flour and the salt. Gradually add the remaining flour until a shaggy dough forms.",
+          "after": "4.  **The Dough:** Stir the cornmeal mixture into the yeast. Add two thirds of the measured flour and the salt. Gradually add the remaining flour until a shaggy dough forms.",
+          "replacement": {
+            "oldText": "Add 2 cups of flour and the salt.",
+            "newText": "Add two thirds of the measured flour and the salt."
+          },
+          "status": "applied"
+        }
+      ],
+      "excluded": [
+        "Loaf count and 9-by-5 pan require separate geometry review; no automatic batch-size suitability claimed."
+      ]
+    },
+    {
+      "slug": "stovetop-macaroni-and-cheese",
+      "disposition": "confirmed",
+      "certainty": "high",
+      "reason": "Both milk allocations remain at their original half-cup plus one-cup values.",
+      "findings": [
+        {
+          "line": 62,
+          "certainty": "high",
+          "reason": "Both milk allocations remain at their original half-cup plus one-cup values.",
+          "ingredients": [
+            {
+              "original": "1 1/2 cups Whole Milk",
+              "half": "3/4 cup Whole Milk",
+              "double": "3 cups Whole Milk"
+            }
+          ],
+          "before": "2.  **The Base:** In a large saucepan, whisk together 1/2 cup of the milk and the flour until no lumps remain. Stir in the remaining 1 cup of milk.",
+          "after": "2.  **The Base:** In a large saucepan, whisk together one third of the measured milk and the flour until no lumps remain. Stir in the remaining milk.",
+          "replacement": {
+            "oldText": "whisk together 1/2 cup of the milk and the flour",
+            "newText": "whisk together one third of the measured milk and the flour"
+          },
+          "status": "applied"
+        },
+        {
+          "line": 62,
+          "certainty": "high",
+          "reason": "Both milk allocations remain at their original half-cup plus one-cup values.",
+          "ingredients": [
+            {
+              "original": "1 1/2 cups Whole Milk",
+              "half": "3/4 cup Whole Milk",
+              "double": "3 cups Whole Milk"
+            }
+          ],
+          "before": "2.  **The Base:** In a large saucepan, whisk together 1/2 cup of the milk and the flour until no lumps remain. Stir in the remaining 1 cup of milk.",
+          "after": "2.  **The Base:** In a large saucepan, whisk together one third of the measured milk and the flour until no lumps remain. Stir in the remaining milk.",
+          "replacement": {
+            "oldText": "Stir in the remaining 1 cup of milk.",
+            "newText": "Stir in the remaining milk."
+          },
+          "status": "applied"
+        }
+      ],
+      "excluded": []
+    },
+    {
+      "slug": "breakfast-protein-biscuits",
+      "disposition": "confirmed",
+      "certainty": "high",
+      "reason": "The cheese split is two thirds in the dough and one third on top; fixed cups conflict with the scaled list.",
+      "findings": [
+        {
+          "line": 63,
+          "certainty": "high",
+          "reason": "The cheese split is two thirds in the dough and one third on top; fixed cups conflict with the scaled list.",
+          "ingredients": [
+            {
+              "original": "1 1/2 cups Sharp Cheddar, shredded",
+              "half": "3/4 cup Sharp Cheddar, shredded",
+              "double": "3 cups Sharp Cheddar, shredded"
+            }
+          ],
+          "before": "4.  **Fold:** Fold in the chopped spinach, chives, ham, and 1 cup of the cheese. Use your hands if necessary to ensure even distribution without overworking the dough.",
+          "after": "4.  **Fold:** Fold in the chopped spinach, chives, ham, and two thirds of the measured cheese. Use your hands if necessary to ensure even distribution without overworking the dough.",
+          "replacement": {
+            "oldText": "ham, and 1 cup of the cheese",
+            "newText": "ham, and two thirds of the measured cheese"
+          },
+          "status": "applied"
+        },
+        {
+          "line": 65,
+          "certainty": "high",
+          "reason": "The cheese split is two thirds in the dough and one third on top; fixed cups conflict with the scaled list.",
+          "ingredients": [
+            {
+              "original": "1 1/2 cups Sharp Cheddar, shredded",
+              "half": "3/4 cup Sharp Cheddar, shredded",
+              "double": "3 cups Sharp Cheddar, shredded"
+            }
+          ],
+          "before": "6.  **The Temperature Method:** Sprinkle the remaining 1/2 cup of cheese on top. Bake at 400°F for 5 minutes (to kickstart the rise), then **lower the heat to 350°F** for the remaining 20 minutes.",
+          "after": "6.  **The Temperature Method:** Sprinkle the remaining cheese on top. Bake at 400°F for 5 minutes (to kickstart the rise), then **lower the heat to 350°F** for the remaining 20 minutes.",
+          "replacement": {
+            "oldText": "Sprinkle the remaining 1/2 cup of cheese on top.",
+            "newText": "Sprinkle the remaining cheese on top."
+          },
+          "status": "applied"
+        }
+      ],
+      "excluded": [
+        "The 1/3-cup dough scoop is a per-biscuit size and should not multiply; the 1-inch thickness is excluded geometry."
+      ]
+    },
+    {
+      "slug": "tahini-sauce",
+      "disposition": "confirmed",
+      "certainty": "high",
+      "reason": "Both initial and optional lemon portions are repeated in Directions; the actual helper scales the leading dose and plus alternative.",
+      "findings": [
+        {
+          "line": 106,
+          "certainty": "high",
+          "reason": "Both initial and optional lemon portions are repeated in Directions; the actual helper scales the leading dose and plus alternative.",
+          "ingredients": [
+            {
+              "original": "3 tbsp fresh lemon juice, plus up to 1 tbsp more to taste",
+              "half": "1 1/2 tbsp fresh lemon juice, plus up to 1/2 tbsp more to taste",
+              "double": "6 tbsp fresh lemon juice, plus up to 2 tbsp more to taste"
+            }
+          ],
+          "before": "1. **Stir and season:** Stir the tahini jar thoroughly, then measure into a bowl. Add 3 tbsp lemon juice, garlic, salt, and optional cumin. Whisk together; the mixture may become thick.",
+          "after": "1. **Stir and season:** Stir the tahini jar thoroughly, then measure into a bowl. Add the initial measured lemon juice, garlic, salt, and optional cumin. Whisk together; the mixture may become thick.",
+          "replacement": {
+            "oldText": "Add 3 tbsp lemon juice, garlic",
+            "newText": "Add the initial measured lemon juice, garlic"
+          },
+          "status": "applied"
+        },
+        {
+          "line": 108,
+          "certainty": "high",
+          "reason": "Both initial and optional lemon portions are repeated in Directions; the actual helper scales the leading dose and plus alternative.",
+          "ingredients": [
+            {
+              "original": "3 tbsp fresh lemon juice, plus up to 1 tbsp more to taste",
+              "half": "1 1/2 tbsp fresh lemon juice, plus up to 1/2 tbsp more to taste",
+              "double": "6 tbsp fresh lemon juice, plus up to 2 tbsp more to taste"
+            }
+          ],
+          "before": "3. **Balance and serve:** Taste on a bite of the food it will accompany. Add some or all of the remaining tablespoon of lemon juice only if needed; adjust salt sparingly. Use immediately or refrigerate. For four shawarma portions, set aside 1/2 cup sauce and refrigerate the rest.",
+          "after": "3. **Balance and serve:** Taste on a bite of the food it will accompany. Add some or all of the reserved lemon juice only if needed; adjust salt sparingly. Use immediately or refrigerate. For four shawarma portions, set aside 1/2 cup sauce and refrigerate the rest.",
+          "replacement": {
+            "oldText": "the remaining tablespoon of lemon juice",
+            "newText": "the reserved lemon juice"
+          },
+          "status": "applied"
+        }
+      ],
+      "excluded": [
+        "A tablespoon at a time is an adjustment increment, not a full-batch total. The explicitly four-shawarma-portions serving allocation is contextual, not silently scaled."
+      ]
+    },
+    {
+      "slug": "beef-chow-fun",
+      "disposition": "confirmed-with-separate-batch-review",
+      "certainty": "high",
+      "reason": "The coating and sprout-water totals repeat original measurements. Cooking oil and numbered rounds also interact with fixed household-pan loads; those need a batch decision.",
+      "findings": [
+        {
+          "line": 190,
+          "certainty": "high",
+          "reason": "The coating and sprout-water totals repeat original measurements. Cooking oil and numbered rounds also interact with fixed household-pan loads; those need a batch decision.",
+          "ingredients": [
+            {
+              "original": "1 tbsp regular soy sauce, for the beef",
+              "half": "1/2 tbsp regular soy sauce, for the beef",
+              "double": "2 tbsp regular soy sauce, for the beef"
+            },
+            {
+              "original": "1 tbsp Shaoxing wine, for the beef",
+              "half": "1/2 tbsp Shaoxing wine, for the beef",
+              "double": "2 tbsp Shaoxing wine, for the beef"
+            },
+            {
+              "original": "2 tbsp water, for the beef",
+              "half": "1 tbsp water, for the beef",
+              "double": "4 tbsp water, for the beef"
+            }
+          ],
+          "before": "1. **Coat the beef:** Stir the beef's tablespoon each of soy and wine, its two tablespoons water, cornstarch and measured baking soda until dispersed. Add the thinly sliced beef, turn and gently mix until evenly coated, then mix in its teaspoon of oil. Cover and refrigerate for twenty minutes while preparing everything else. Do not rinse off this small-dose coating or add more baking soda.",
+          "after": "1. **Coat the beef:** Stir the beef's measured soy, wine, coating water, cornstarch and measured baking soda until dispersed. Add the thinly sliced beef, turn and gently mix until evenly coated, then mix in its measured coating oil. Cover and refrigerate for twenty minutes while preparing everything else. Do not rinse off this small-dose coating or add more baking soda.",
+          "replacement": {
+            "oldText": "the beef's tablespoon each of soy and wine, its two tablespoons water",
+            "newText": "the beef's measured soy, wine, coating water"
+          },
+          "status": "applied"
+        },
+        {
+          "line": 190,
+          "certainty": "high",
+          "reason": "The coating and sprout-water totals repeat original measurements. Cooking oil and numbered rounds also interact with fixed household-pan loads; those need a batch decision.",
+          "ingredients": [
+            {
+              "original": "1 tsp neutral oil, for the beef coating",
+              "half": "1/2 tsp neutral oil, for the beef coating",
+              "double": "2 tsp neutral oil, for the beef coating"
+            }
+          ],
+          "before": "1. **Coat the beef:** Stir the beef's tablespoon each of soy and wine, its two tablespoons water, cornstarch and measured baking soda until dispersed. Add the thinly sliced beef, turn and gently mix until evenly coated, then mix in its teaspoon of oil. Cover and refrigerate for twenty minutes while preparing everything else. Do not rinse off this small-dose coating or add more baking soda.",
+          "after": "1. **Coat the beef:** Stir the beef's measured soy, wine, coating water, cornstarch and measured baking soda until dispersed. Add the thinly sliced beef, turn and gently mix until evenly coated, then mix in its measured coating oil. Cover and refrigerate for twenty minutes while preparing everything else. Do not rinse off this small-dose coating or add more baking soda.",
+          "replacement": {
+            "oldText": "mix in its teaspoon of oil",
+            "newText": "mix in its measured coating oil"
+          },
+          "status": "applied"
+        },
+        {
+          "line": 193,
+          "certainty": "high",
+          "reason": "The coating and sprout-water totals repeat original measurements. Cooking oil and numbered rounds also interact with fixed household-pan loads; those need a batch decision.",
+          "ingredients": [
+            {
+              "original": "1 tbsp water, for cooking sprouts",
+              "half": "1/2 tbsp water, for cooking sprouts",
+              "double": "2 tbsp water, for cooking sprouts"
+            }
+          ],
+          "before": "4. **Cook sprouts separately:** Heat 1 tsp of the cooking oil in the pan over medium-high heat. Add the sprouts and stir for about one minute. Add their tablespoon of water, cover for 1–2 minutes, then uncover and let free water evaporate. The sprouts should be steaming hot and softened through their stems, not merely warmed on the surface; extend briefly if needed. Transfer to a clean bowl and divide into four portions.",
+          "after": "4. **Cook sprouts separately:** Heat 1 tsp of the cooking oil in the pan over medium-high heat. Add the sprouts and stir for about one minute. Add the measured sprout-cooking water, cover for 1–2 minutes, then uncover and let free water evaporate. The sprouts should be steaming hot and softened through their stems, not merely warmed on the surface; extend briefly if needed. Transfer to a clean bowl and divide into four portions.",
+          "replacement": {
+            "oldText": "Add their tablespoon of water",
+            "newText": "Add the measured sprout-cooking water"
+          },
+          "status": "applied"
+        },
+        {
+          "line": 195,
+          "certainty": "high",
+          "reason": "The coating and sprout-water totals repeat original measurements. Cooking oil and numbered rounds also interact with fixed household-pan loads; those need a batch decision.",
+          "ingredients": [
+            {
+              "original": "2 tbsp water, reserved for loosening noodles only if needed",
+              "half": "1 tbsp water, reserved for loosening noodles only if needed",
+              "double": "4 tbsp water, reserved for loosening noodles only if needed"
+            }
+          ],
+          "before": "6. **Finish one noodle portion:** Reduce heat if the pan is smoking heavily; remove any blackened deposits. Add 2 tsp of the remaining cooking oil over medium-high heat. Stir in one portion of ginger and scallion whites for about 20 seconds until fragrant. Add one noodle portion and lift gently to coat, then let it touch the pan for 15–20 seconds at a time, lifting and turning between contacts. Add one portion of noodle seasoning and fold until evenly coated. Add one portion each of cooked beef, juices, sprouts and scallion greens. Fold just until hot throughout, about 3–4 minutes for this whole finishing step. If firm noodles need moisture, use a little of the reserved water rather than adding extra soy; the full recipe has two tablespoons reserved across all four portions.",
+          "after": "6. **Finish one noodle portion:** Reduce heat if the pan is smoking heavily; remove any blackened deposits. Add 2 tsp of the remaining cooking oil over medium-high heat. Stir in one portion of ginger and scallion whites for about 20 seconds until fragrant. Add one noodle portion and lift gently to coat, then let it touch the pan for 15–20 seconds at a time, lifting and turning between contacts. Add one portion of noodle seasoning and fold until evenly coated. Add one portion each of cooked beef, juices, sprouts and scallion greens. Fold just until hot throughout, about 3–4 minutes for this whole finishing step. If firm noodles need moisture, use a little of the reserved water rather than adding extra soy; use no more than the full measured noodle-water reserve across the batch.",
+          "replacement": {
+            "oldText": "the full recipe has two tablespoons reserved across all four portions",
+            "newText": "use no more than the full measured noodle-water reserve across the batch"
+          },
+          "status": "applied"
+        },
+        {
+          "line": 194,
+          "certainty": "medium",
+          "reason": "Unchanged oil amounts and two beef/four noodle rounds conflict with changed ingredient totals, but choosing proportional oil versus more fixed-size rounds is a geometry/method decision, not a safe global text replacement.",
+          "ingredients": [
+            {
+              "original": "4 tbsp neutral oil, for cooking, divided",
+              "half": "2 tbsp neutral oil, for cooking, divided",
+              "double": "8 tbsp neutral oil, for cooking, divided"
+            }
+          ],
+          "before": "5. **Cook two beef batches:** Let the pan dry and recover heat. Add 1 1/2 tsp cooking oil and spread half the beef in one layer, leaving excess loose coating in its raw-meat bowl. Cook about one minute until browned below, turn, and cook another 1–3 minutes as needed. Check representative thicker slices with a fine probe inserted sideways from the edge: at least 145°F / 63°C. Transfer to a clean bowl. Repeat with another 1 1/2 tsp oil and the other half. Discard leftover raw-contact coating and wash its bowl and tools. Divide the cooked beef and its juices into four portions; each has time to rest at least three minutes before serving.",
+          "after": null,
+          "replacement": null,
+          "status": "not-applied"
+        }
+      ],
+      "excluded": [
+        "Four 170 g noodle portions are a pan-loading scheme; do not multiply 170 g without separately deciding rounds. Temperature, cut widths and heating intervals are excluded."
+      ]
+    },
+    {
+      "slug": "banana-pancakes",
+      "disposition": "false-positive",
+      "certainty": "high",
+      "reason": "The sole measured method hit is per-pancake batter size; scaling should make more or fewer same-size pancakes, not larger pancakes.",
+      "findings": [],
+      "excluded": ["Step 5: Pour 1/3 cup batter per pancake. No correction proposed."]
+    },
+    {
+      "slug": "warm-pita-bread",
+      "disposition": "mixed",
+      "certainty": "high",
+      "reason": "The per-pita water is an appropriate invariant; the final whole-stack oil repeats the unscaled total.",
+      "findings": [
+        {
+          "line": 120,
+          "certainty": "high",
+          "reason": "The per-pita water is an appropriate invariant; the final whole-stack oil repeats the unscaled total.",
+          "ingredients": [
+            {
+              "original": "1 tbsp olive oil, optional finishing oil",
+              "half": "1/2 tbsp olive oil, optional finishing oil",
+              "double": "2 tbsp olive oil, optional finishing oil"
+            }
+          ],
+          "before": "4. **Finish and serve:** If wanted, brush the full stack with the measured tablespoon of oil, divided among the four breads. Taste before using any of the optional salt. Serve promptly while flexible.",
+          "after": "4. **Finish and serve:** If wanted, brush the full stack with the measured finishing oil, divided among the four breads. Taste before using any of the optional salt. Serve promptly while flexible.",
+          "replacement": {
+            "oldText": "the measured tablespoon of oil",
+            "newText": "the measured finishing oil"
+          },
+          "status": "applied"
+        }
+      ],
+      "excluded": [
+        "Step 1: up to 1/2 tsp of the measured water applies to one pita. Four pitas × 1/2 tsp = listed 2 tsp; half batch still needs 1/2 tsp per pita. Do not multiply this per-piece dose. The fixed other-three/four-breads prose is a separate count issue outside measured-ingredient scope."
+      ]
+    },
+    {
+      "slug": "avgolemono-soup",
+      "disposition": "manual-review-only",
+      "certainty": "medium",
+      "reason": "Two cups hot broth is a tempering transfer drawn from the same soup and returned to it, not an extra retained ingredient dose. Whether that transfer should scale proportionally requires process review.",
+      "findings": [
+        {
+          "line": 58,
+          "certainty": "medium",
+          "reason": "At half scale the total broth is three cups, but moving two cups temporarily does not change the final soup ratio. A two-cup temper is not automatically an ingredient accounting failure; no mechanical correction.",
+          "ingredients": [
+            {
+              "original": "6 cups High-Quality Chicken Broth",
+              "half": "3 cups High-Quality Chicken Broth",
+              "double": "12 cups High-Quality Chicken Broth"
+            },
+            {
+              "original": "2 large Eggs",
+              "half": "1 large Egg",
+              "double": "4 large Eggs"
+            }
+          ],
+          "before": "4.  **Temper (Critical):** While whisking the egg-lemon mixture constantly, slowly ladle in 2 cups of the hot broth, one ladle at a time. This \"warms up\" the eggs so they don't scramble when they hit the pot.",
+          "after": null,
+          "replacement": null,
+          "status": "not-applied"
+        }
+      ],
+      "excluded": []
+    },
+    {
+      "slug": "asian-glazed-meatballs",
+      "disposition": "false-positive-for-measured-amount",
+      "certainty": "high",
+      "reason": "The 35 g measure is the intended individual meatball size; multiplying it would change cooking geometry.",
+      "findings": [],
+      "excluded": [
+        "Step 2: about 35 g each including the binder. Keep per-piece size. The fixed count of 24 also needs separate count/capacity review, which is not a measured ingredient-total fix."
+      ]
+    }
+  ],
+  "validation": {
+    "targetedLint": "Passed for all eight changed recipes; final punctuation cleanup in beef chow fun also passed targeted lint.",
+    "frontmatter": "All eight recipe frontmatter blocks unchanged byte-for-byte",
+    "exactReplacementScope": "All seventeen old strings matched exactly once before application",
+    "beefSentence": "Final coating sentence uses a single grammatical ingredient list; final noodle-water sentence retains its valid semicolon and measured total limit."
+  }
+}

@@ -1,13 +1,14 @@
 ---
-title: Garlic Butter Shrimp Recovery
+title: Garlic Butter Shrimp Dinner
 template: plate
 main: garlic-butter-shrimp
 base: steamed-white-rice
 sides: [garlic-sauteed-green-beans]
 salad: everyday-arugula-salad
-totalPrepTime: 10 min
-totalCookTime: 15 min
-totalActiveTime: 15 min
+totalPrepTime: 25 min
+totalCookTime: 50 min
+totalActiveTime: 45 min
+totalTime: 1 hr 15 min
 overallDifficulty: easy
 cuisines: [Italian, Mediterranean]
 occasions: [weeknight, quick, family]
@@ -18,19 +19,18 @@ servings: '4'
 
 ## Meal Overview
 
-A fresh, light Monday recovery meal that feels elegant without requiring effort. Buttered shrimp with a hint of garlic, bright arugula salad, and simple steamed rice. Perfect for easing back into the week after the weekend.
+Garlic-butter shrimp with lemon, plain short-grain rice, sautéed green beans and peppery arugula salad. Make one full batch of each component for four diners. Allow about 75 minutes from starting the rice, including its thirty-minute soak and ten-minute covered rest; shrimp preparation and the vegetables fit around that longer rice process.
 
 ## Cooking Strategy
 
-1. **Start rice** - set it and forget it
-2. **Prep shrimp** - pat dry, rough chop garlic
-3. **Prep salad** - wash greens, make dressing, hold separately
-4. **Cook green beans** - quick garlic sauté, 8-10 minutes
-5. **Sear shrimp** - high heat, 2 minutes per side
-6. **Assemble plate** - rice base, shrimp on top, beans on side, fresh arugula
+1. **Start the rice first:** Follow the complete short-grain rice recipe, including rinsing, a thirty-minute soak in measured water, heating, covered cooking and a ten-minute rest. It takes about 65 minutes, not a quick unattended warming.
+2. **Prepare the other components during the soak:** Trim and dry beans, mince the shrimp garlic, slice the beans' garlic separately, prepare lemon and parsley, and wash and dry salad greens. Make dressing but keep it separate. Dry prepared thawed shrimp last and clean raw-contact tools.
+3. **Cook rice and then beans:** Put the soaked rice over heat on schedule. Cook the beans in their own skillet near the end of rice cooking, allowing additional rounds if the pan is crowded. Finish beans before beginning the attended shrimp sauce.
+4. **Cook shrimp last:** Follow the main's moderate to medium-high heat and single-layer batches. Remove cooked shrimp before making the garlic and wine reduction; judge their centers by the main's endpoint, not a fixed two-minutes-per-side rule. Return only briefly to coat with the finished sauce. Allow about fifteen minutes for this stage.
+5. **Finish and serve:** Fluff rested rice, dress arugula at the last moment and divide shrimp, rice, beans and salad among four plates. Keep rice hot at 140°F / 60°C or above if it must wait briefly; longer waits also soften the beans.
 
 ## Notes
 
-- Don't overcrowd the pan with shrimp - sear in batches for crispy edges
+- Don't overcrowd the pan with shrimp - cook in single-layer batches
 - Fresh lemon juice at the end brightens everything
-- This meal is even faster if you use pre-cooked rice
+- If using previously cooked rice, follow the rice recipe’s storage and reheating instructions and heat it to 165°F / 74°C throughout.

@@ -117,7 +117,7 @@ Warm pita should bend around its filling, not shatter. Gentle heating and a towe
 1. **Prepare and heat:** Set a dry skillet over medium heat for 3–5 minutes. Lay out a clean towel. If a pita feels dry, lightly dampen both surfaces with up to 1/2 tsp of the measured water; do not soak it.
 2. **Warm one bread:** Place a pita flat in the pan. Heat for 30–60 seconds per side, turning sooner if it darkens quickly. Check that the center is warm and the bread bends without cracking. Use lower heat and a little longer for thick breads.
 3. **Wrap and repeat:** Transfer immediately to the towel and loosely enclose it. Warm the other three breads in the same way, stacking them inside the towel as they finish.
-4. **Finish and serve:** If wanted, brush the full stack with the measured tablespoon of oil, divided among the four breads. Taste before using any of the optional salt. Serve promptly while flexible.
+4. **Finish and serve:** If wanted, brush the full stack with the measured finishing oil, divided among the four breads. Taste before using any of the optional salt. Serve promptly while flexible.
 
 ## Oven alternative
 

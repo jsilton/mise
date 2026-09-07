@@ -103,6 +103,6 @@ Tahini sauce turns concentrated sesame paste into a dressing with lemon, garlic,
 
 ## Directions
 
-1. **Stir and season:** Stir the tahini jar thoroughly, then measure into a bowl. Add 3 tbsp lemon juice, garlic, salt, and optional cumin. Whisk together; the mixture may become thick.
+1. **Stir and season:** Stir the tahini jar thoroughly, then measure into a bowl. Add the initial measured lemon juice, garlic, salt, and optional cumin. Whisk together; the mixture may become thick.
 2. **Add water gradually:** Whisk in the measured cool water a tablespoon at a time. Continue whisking until smooth. Add more water in small increments if needed for a drizzle, or leave thicker for a dip.
-3. **Balance and serve:** Taste on a bite of the food it will accompany. Add some or all of the remaining tablespoon of lemon juice only if needed; adjust salt sparingly. Use immediately or refrigerate. For four shawarma portions, set aside 1/2 cup sauce and refrigerate the rest.
+3. **Balance and serve:** Taste on a bite of the food it will accompany. Add some or all of the reserved lemon juice only if needed; adjust salt sparingly. Use immediately or refrigerate. For four shawarma portions, set aside 1/2 cup sauce and refrigerate the rest.

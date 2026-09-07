@@ -1,3 +1,15 @@
+# Latest milestone: combined seafood, meals and scaling release
+
+Nine full recipe reviews are accepted: four shrimp dishes, four fish dishes and Garlic Roasted Potatoes. Baked Cod Dinner and Honey Lime Shrimp Bowls have complete component/portion/schedule reviews. Mediterranean Salmon Dinner and Garlic Butter Shrimp Dinner have necessary consistency corrections but remain pending their remaining side reviews.
+
+Original recipes:192 reviewed,9 consolidated,411 pending. Including two additional recipes,194 current canonical recipes have editorial reviews. Original meals:40 reviewed,2 consolidated,46 pending. No physical kitchen tests recorded.
+
+The combined release also applies17 proportional method-wording corrections across eight recipes without advancing their review status. The compact evidence in scaling-wording-review.json distinguishes eight confirmed cases, two per-piece false positives, one process exception and one concurrently resolved recipe from12 inspected candidates. The324 broad text matches are unconfirmed signals. Incorrect evidence mappings were returned for correction before acceptance. Reviewers also corrected public editorial-history wording, a lesson slug and batch oil allocation during integration.
+
+Process outcome: two parallel families plus one mechanical lane fed a single release build, covering nine full reviews, two complete meals and eight targeted fixes. Cost and expert-time savings remain unmeasured; no90% culinary-quality claim follows. Validation passed29/29 QA checks,31/31 regression tests,17-recipe targeted lint and719 built pages with no broken links/anchors. Browser checks covered all nine reviewed recipes, four changed meals, scaling/reset, checkpoints, mobile/cook/print and footer-only review links. Production verification follows publication.
+
+The prior curry release87e9cfcc deployed successfully in Pages run34070826040 and passed its production browser checks.
+
 # Latest milestone: two distinct beef curries reviewed
 
 Massaman Curry now separates a long chuck braise from the later potato cooking. Thai Red Curry Beef preserves light coconut milk and thin tenderloin, with a moist paste method and a short beef finish. Both have full ingredient accounting, proportional method quantities, sensory checkpoints and individual evidence records. Unsupported weight equivalents and finished-volume claims were rejected; no kitchen tests are claimed.
@@ -67,10 +79,10 @@ For each recipe review: inspect the complete ingredients and method; reconcile a
 ## Current implementation
 
 - New shared reading/cooking experience, educational homepage, ten public technique lessons, and explicit editorial versus kitchen-tested status.
-- 185 canonical recipes now have individually written editorial reviews. The complete current list and original-source accounting are in [recipe-review-register.json](recipe-review-register.json); individual evidence is in [reviews](reviews).
+- 194 canonical recipes now have individually written editorial reviews. The complete current list and original-source accounting are in [recipe-review-register.json](recipe-review-register.json); individual evidence is in [reviews](reviews).
 - Nine original duplicates were individually compared and consolidated: esquites-mexican-street-corn-salad → mexican-street-corn-salad; sesame-cucumber-salad → smashed-cucumber-salad; greek-salad → greek-village-salad; japanese-short-grain-rice-gohan → steamed-white-rice; rich-coconut-rice → coconut-jasmine-rice; japanese-eggplant-with-chicken-and-thai-basil → stir-fried-chicken-and-eggplant-with-thai-basil; classic-coleslaw → coleslaw; chinese-spicy-garlic-eggplant → eggplant-with-garlic-sauce; cranberry-orange-sauce → perfect-cranberry-sauce. Old URLs preserve bookmarks and anchors. All internal references were updated.
-- The original 612 sources remain accounted for in docs/recipe-review-baseline.json and docs/recipe-review-register.json: 183 editorially reviewed, 9 consolidated after review, 420 still pending. Two additional individually reviewed recipes (turkey gravy and extracted mint tzatziki) are tracked separately from the original baseline. The live collection has 605 canonical records, including two craft recipes.
-- The original 88 composed meals are accounted for: 38 canonical meals have individual editorial reviews with all required components reviewed, two duplicates were consolidated after comparison, and 48 meals remain pending. The live collection has 86 canonical meals. Meal calendars are removed and out of scope.
+- The original 612 sources remain accounted for in docs/recipe-review-baseline.json and docs/recipe-review-register.json: 192 editorially reviewed, 9 consolidated after review, 411 still pending. Two additional individually reviewed recipes (turkey gravy and extracted mint tzatziki) are tracked separately from the original baseline. The live collection has 605 canonical records, including two craft recipes.
+- The original 88 composed meals are accounted for: 40 canonical meals have individual editorial reviews with all required components reviewed, two duplicates were consolidated after comparison, and 46 meals remain pending. The live collection has 86 canonical meals. Meal calendars are removed and out of scope.
 - These are editorial reviews only. No physical kitchen tests have been recorded.
 - All current canonical recipes are indexed in docs/recipe-editorial-audit.json. Its flags are triage, not completed reviews.
 - Legacy nutrition withheld pending recalculation. Two craft dough recipes excluded from food discovery while preserving their source pages.
@@ -78,7 +90,7 @@ For each recipe review: inspect the complete ingredients and method; reconcile a
 ## Next work
 
 1. Continue shared-platform verification when behavior changes. Build, QA checks, twenty-eight focused tests, sources rendering, mobile overflow, scaling, cook/checklist behavior, and cross-page palette persistence have passed. Representative Chrome letter-size recipe and meal PDFs have been inspected; this is not a corpus-wide print certification.
-2. Continue the individual reviews in docs/reviews (192 original-source records so far, including nine consolidation decisions). 420 originals remain pending; automated audit flags do not count.
+2. Continue the individual reviews in docs/reviews (201 original-source records so far, including nine consolidation decisions). 411 originals remain pending; automated audit flags do not count.
 3. Continue with the next independently reviewed culinary families. Vegetable curries, saffron rice and both linked Indian dinner compositions are reviewed; continue the remaining composed-meal relationships. Continue in culinary families, checking ratios, ingredient accounting, method and science, realistic timing, and nutrition.
 4. Compare duplicates by ingredients, technique, and intended result, not title similarity alone. Consolidate true duplicates with redirects and update all references; keep meaningful variations explicitly related.
 5. Review every composed meal for components, portion compatibility, timing, flavor/texture balance, and practical preparation order.

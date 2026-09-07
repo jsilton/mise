@@ -1,9 +1,9 @@
 {
   "originalMeals": 88,
   "currentMeals": 86,
-  "individuallyReviewed": 38,
+  "individuallyReviewed": 40,
   "consolidatedAfterReview": 2,
-  "pending": 48,
+  "pending": 46,
   "kitchenTested": 0,
   "records": [
     {
@@ -14,7 +14,9 @@
     },
     {
       "slug": "baked-cod-dinner",
-      "status": "pending"
+      "status": "editorial-review",
+      "record": "docs/meal-reviews/baked-cod-dinner.md",
+      "components": ["baked-cod-with-lemon-panko", "garlic-roasted-potatoes", "steamed-broccoli"]
     },
     {
       "slug": "bbq-pulled-pork-spread",
@@ -169,7 +171,13 @@
     },
     {
       "slug": "honey-lime-shrimp-bowls",
-      "status": "pending"
+      "status": "editorial-review",
+      "record": "docs/meal-reviews/honey-lime-shrimp-bowls.md",
+      "components": [
+        "garlic-honey-lime-shrimp",
+        "coconut-jasmine-rice",
+        "steamed-bok-choy-with-oyster-sauce"
+      ]
     },
     {
       "slug": "honey-sesame-chicken-night",

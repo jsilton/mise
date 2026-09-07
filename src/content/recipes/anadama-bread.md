@@ -58,10 +58,10 @@ Anadama is a quintessential New England bread, supposedly named after a fisherma
 
 ## Directions
 
-1.  **The Porridge:** In a small saucepan, whisk 1/2 cup water and cornmeal. Bring to a boil, stirring constantly for 5 minutes until thickened. Remove from heat.
+1.  **The Porridge:** In a small saucepan, whisk the first listed water portion and cornmeal. Bring to a boil, stirring constantly for 5 minutes until thickened. Remove from heat.
 2.  **Melt:** Stir in the butter and molasses. Let cool until lukewarm (critical - if too hot, it will kill the yeast).
 3.  **The Yeast:** In a large bowl, dissolve the yeast in the warm water. Let sit for 10 minutes until foamy.
-4.  **The Dough:** Stir the cornmeal mixture into the yeast. Add 2 cups of flour and the salt. Gradually add the remaining flour until a shaggy dough forms.
+4.  **The Dough:** Stir the cornmeal mixture into the yeast. Add two thirds of the measured flour and the salt. Gradually add the remaining flour until a shaggy dough forms.
 5.  **Knead:** Turn out onto a floured surface. Knead for 8-10 minutes until smooth and elastic. The dough should be slightly tacky but not sticky.
 6.  **Rise 1:** Place in an oiled bowl, cover, and let rise in a warm spot until doubled (about 1 hour).
 7.  **Shape:** Deflate the dough. Shape into a loaf and place in a greased 9x5 pan.

@@ -59,10 +59,9 @@ Whisking flour into cold milk before heating creates a light, stable base that w
 ## Directions
 
 1.  **Boil:** Cook pasta in salted water for 8 minutes until **very al dente**. Drain and set aside.
-2.  **The Base:** In a large saucepan, whisk together 1/2 cup of the milk and the flour until no lumps remain. Stir in the remaining 1 cup of milk.
+2.  **The Base:** In a large saucepan, whisk together one third of the measured milk and the flour until no lumps remain. Stir in the remaining milk.
 3.  **Thicken:** Cook over medium heat, whisking constantly, for 3-4 minutes until the milk thickens to the consistency of heavy cream.
 4.  **Emulsify:** Reduce heat to **low**. Add the cheese one handful at a time, stirring until completely molten and glossy.
 5.  **Season:** Stir in the salt, mustard powder, and butter.
 6.  **Bind:** Return the hot pasta to the saucepan. Toss vigorously until every noodle is saturated in the cheese silk.
 7.  **Serve:** Serve immediately while hot. (Note: if baking, top with breadcrumbs and broil for 2 minutes).
-
