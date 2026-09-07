@@ -9,7 +9,7 @@ const fractions = {
   '⅝': '5/8',
   '⅞': '7/8',
 };
-const number = '(?:\\d+\\s+\\d+/\\d+|\\d+/\\d+|\\d+(?:\\.\\d+)?)';
+const number = '(?:\\d+\\s+\\d+/\\d+|\\d+/\\d+|\\d{1,3}(?:,\\d{3})+(?:\\.\\d+)?|\\d+(?:\\.\\d+)?)';
 const leading = new RegExp(
   `^(${number})(?:(?:\\s*[–—-]\\s*|\\s+to\\s+)(${number}))?(?=\\s|$)`,
   'i'
@@ -32,6 +32,9 @@ const countedUnits = [
   'egg',
   'can',
   'bottle',
+  'stick',
+  'pack',
+  'package',
 ];
 const unitAtStart = new RegExp(
   `^(\\s+(?:\\([^)]*\\)\\s+)?(?:small\\s+|medium\\s+|large\\s+)?(?:garlic\\s+)?)(${countedUnits.join('|')})(s?)\\b`,
@@ -81,7 +84,7 @@ function inflectLeadingUnit(rest, value) {
   );
 }
 function numeric(value) {
-  const parts = value.trim().split(/\s+/);
+  const parts = value.replace(/,/g, '').trim().split(/\s+/);
   const sum = parts.reduce((total, part) => {
     if (!part.includes('/')) return total + Number(part);
     const [a, b] = part.split('/').map(Number);
@@ -120,6 +123,7 @@ export function scaleIngredient(text, factor) {
   if (!Number.isFinite(factor) || factor <= 0) return text;
   if (factor === 1) return text;
   const normalized = text
+    .replace(/^(\d[\d,]*(?:\.\d+)?)(g|kg|ml|oz)\b/i, '$1 $2')
     .replace(/(\d)([¼½¾⅓⅔⅛⅜⅝⅞])/g, '$1 $2')
     .replace(/[¼½¾⅓⅔⅛⅜⅝⅞]/g, (ch) => fractions[ch]);
   const match = normalized.match(leading);
@@ -131,12 +135,12 @@ export function scaleIngredient(text, factor) {
   // Scale equivalent weights/volumes only when the leading amount also has a unit.
   // A counted package's size, e.g. "2 (14 oz) cans", stays fixed.
   if (
-    /^\s*(?:oz|ounces?|lbs?|pounds?|g|grams?|kg|cups?|tbsp|tsp|ml|l|liters?|litres?|quarts?)\b/i.test(
+    /^\s*(?:oz|ounces?|lbs?|pounds?|g|grams?|kg|cups?|tbsp|tsp|ml|l|liters?|litres?|quarts?|sticks?)\b/i.test(
       rest
     )
   ) {
     const equivalent = new RegExp(
-      `\\((about\\s+)?(${number})(?:(?:\\s*[–—-]\\s*|\\s+to\\s+)(${number}))?\\s*(g|kg|ml|oz|lbs?|l|liters?|litres?|cups?|tbsp|tsp)\\)`,
+      `\\((about\\s+)?(${number})(?:(?:\\s*[–—-]\\s*|\\s+to\\s+)(${number}))?\\s*(g|kg|ml|oz|lbs?|l|liters?|litres?|cups?|tbsp|tsp|sticks?|packs?|packages?)\\)`,
       'gi'
     );
     rest = rest.replace(equivalent, (match, qualifier, amount, upper, unit) => {

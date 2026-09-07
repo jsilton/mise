@@ -8,6 +8,19 @@ totalPrepTime: 15 min
 totalCookTime: 25 min
 totalActiveTime: 30 min
 totalTime: at least 50 min
+componentPreparation:
+  pulled-pork:
+    state: reheat
+    note: The meal timing starts with cooked pork; thaw frozen portions in the refrigerator before starting.
+  cornbread:
+    state: from-scratch
+    note: Allow about 50 minutes for preparation, baking and cooling.
+  steamed-broccoli:
+    state: from-scratch
+    note: Prepare while the cornbread bakes.
+  elote-style-corn-on-the-cob:
+    state: from-scratch
+    note: Prepare while the cornbread bakes; coordinate grill or broiler space.
 overallDifficulty: easy
 cuisines: [American, Southern]
 occasions: [weeknight, family, comfort-food, bbq]

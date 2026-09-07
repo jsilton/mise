@@ -1,3 +1,9 @@
+# Structured recipe authoring — 2026-09-07
+
+Component-owned quantities and explicit ingredient destinations now generate readable recipe fields and method ingredient names. Two recipes migrated, with combined shopping lists and structured yields. Existing exporters/search retain generated Markdown compatibility; a narrow structure/drift check runs before builds. New-recipe scaffolding now starts with this format. Authoring guide: STRUCTURED_RECIPE_AUTHORING.md; decisions/validation: STRUCTURED_RECIPE_RELEASE.md.
+
+Shared legacy fixes address the audit's six compact-unit lines and31 equivalent-total lines without individually migrating the collection. BBQ Pulled Pork Spread explicitly declares cooked-pork versus from-scratch side assumptions.44 tests and29 QA checks passed, plus local browser and mobile visual verification. Production verification follows publication. Review totals unchanged; no physical kitchen tests. Broad review goal remains stopped.
+
 # Yield pluralization — 2026-09-07
 
 User-reported Anadama scaling exposed a shared yield-label defect: numbers scaled but nouns did not. A bounded vocabulary now handles loaf/loaves, batch/batches, regular yield nouns and modifiers; ambiguous compound yields and pan dimensions retain the existing fallback. All604 recipes checked at quarter, half, original, double and triple settings;103 recipes have corrected labels, with zero original-scale changes. Exact impact: scaling-yield-plurals.json. No recipe quantities or editorial statuses changed.

@@ -1,0 +1,1497 @@
+{
+  "date": "2026-09-07",
+  "inputCommit": "40e2c0527c37469d57103bef3a54a908d356323c",
+  "mode": "One-time read-only audit. No build integration or recipe changes.",
+  "coverage": {
+    "recipes": 604,
+    "meals": 86,
+    "ingredientLines": 6801,
+    "scaleCases": 34005,
+    "ingredientTerms": 46,
+    "limitations": "Term-based screening is not full natural-language ingredient accounting. Equality/reset checks do not validate all arithmetic, food safety or recipe correctness."
+  },
+  "summary": {
+    "compactUnitLines": 6,
+    "compactUnitRecipes": 5,
+    "equivalentLines": 31,
+    "equivalentRecipes": 30,
+    "confirmedMissingTerms": 24,
+    "confirmedMissingRecipes": 20,
+    "lexicalMissingCandidates": 67,
+    "unusedLexicalCandidates": 537,
+    "mealTimeCandidates": 32,
+    "brokenMetadataRelationships": 0,
+    "exactIngredientListDuplicates": 0
+  },
+  "scaling": [
+    {
+      "slug": "breakfast-carrot-cake",
+      "line": "250g Carrots (2 large), finely grated",
+      "type": "numeric-line-unchanged",
+      "disposition": "confirmed-compact-unit-not-scaled"
+    },
+    {
+      "slug": "chinese-steamed-fish",
+      "line": "2-inch piece Fresh Ginger, julienned",
+      "type": "numeric-line-unchanged",
+      "disposition": "dimension-expression-requires-count-and-size-decision"
+    },
+    {
+      "slug": "chinese-style-snapper",
+      "line": "3-inch piece Fresh Ginger, finely shredded",
+      "type": "numeric-line-unchanged",
+      "disposition": "dimension-expression-requires-count-and-size-decision"
+    },
+    {
+      "slug": "classic-wonton-soup",
+      "line": "300g Ground Pork",
+      "type": "numeric-line-unchanged",
+      "disposition": "confirmed-compact-unit-not-scaled"
+    },
+    {
+      "slug": "jerk-pork-shoulder",
+      "line": "2-inch piece fresh ginger, peeled",
+      "type": "numeric-line-unchanged",
+      "disposition": "dimension-expression-requires-count-and-size-decision"
+    },
+    {
+      "slug": "korean-mung-bean-sprouts-salad",
+      "line": "350g (0.8 lbs) Fresh Mung Bean Sprouts",
+      "type": "numeric-line-unchanged",
+      "disposition": "confirmed-compact-unit-not-scaled"
+    },
+    {
+      "slug": "misir-wot",
+      "line": "1-inch piece Fresh Ginger, grated",
+      "type": "numeric-line-unchanged",
+      "disposition": "dimension-expression-requires-count-and-size-decision"
+    },
+    {
+      "slug": "pho-bo-beef-pho",
+      "line": "4-inch piece Fresh Ginger, halved lengthwise",
+      "type": "numeric-line-unchanged",
+      "disposition": "dimension-expression-requires-count-and-size-decision"
+    },
+    {
+      "slug": "quick-wonton-soup",
+      "line": "1-inch piece Fresh Ginger, smashed",
+      "type": "numeric-line-unchanged",
+      "disposition": "dimension-expression-requires-count-and-size-decision"
+    },
+    {
+      "slug": "shrimp-wonton-soup",
+      "line": "200g Ground Pork",
+      "type": "numeric-line-unchanged",
+      "disposition": "confirmed-compact-unit-not-scaled"
+    },
+    {
+      "slug": "shrimp-wonton-soup",
+      "line": "100g Shrimp, minced",
+      "type": "numeric-line-unchanged",
+      "disposition": "confirmed-compact-unit-not-scaled"
+    },
+    {
+      "slug": "simply-seasoned-korean-spinach-salad",
+      "line": "250g (0.5 lbs) Fresh English Spinach",
+      "type": "numeric-line-unchanged",
+      "disposition": "confirmed-compact-unit-not-scaled"
+    }
+  ],
+  "equivalents": [
+    {
+      "slug": "banana-nut-bread",
+      "line": "1/2 cup (1 stick) Unsalted Butter, melted and cooled",
+      "double": "1 cup (1 stick) Unsalted Butter, melted and cooled"
+    },
+    {
+      "slug": "brown-butter-chocolate-souffle",
+      "line": "1/2 cup (1 stick) Unsalted Butter",
+      "double": "1 cup (1 stick) Unsalted Butter"
+    },
+    {
+      "slug": "chocolate-chip-cookie-cake",
+      "line": "1 cup (2 sticks) Unsalted Butter, room temp",
+      "double": "2 cups (2 sticks) Unsalted Butter, room temp"
+    },
+    {
+      "slug": "classic-chocolate-chip-cookies",
+      "line": "1 cup (2 sticks) Unsalted Butter",
+      "double": "2 cups (2 sticks) Unsalted Butter"
+    },
+    {
+      "slug": "corn-casserole",
+      "line": "1/2 cup (1 stick) Unsalted Butter, melted",
+      "double": "1 cup (1 stick) Unsalted Butter, melted"
+    },
+    {
+      "slug": "cranberry-crunch",
+      "line": "1/2 cup (1 stick) Unsalted Butter, melted (Replaces Margarine)",
+      "double": "1 cup (1 stick) Unsalted Butter, melted (Replaces Margarine)"
+    },
+    {
+      "slug": "extraordinary-chocolate-chip-cookie",
+      "line": "1 1/4 cups (2 1/2 sticks) Unsalted Butter, room temp",
+      "double": "2 1/2 cups (2 1/2 sticks) Unsalted Butter, room temp"
+    },
+    {
+      "slug": "favorite-cream-cheese-frosting",
+      "line": "1/2 cup (1 stick) Unsalted Butter, softened",
+      "double": "1 cup (1 stick) Unsalted Butter, softened"
+    },
+    {
+      "slug": "flourless-chocolate-cake",
+      "line": "1/2 cup (1 stick) Unsalted Butter",
+      "double": "1 cup (1 stick) Unsalted Butter"
+    },
+    {
+      "slug": "frozen-blueberry-muffins",
+      "line": "1 cup (2 sticks) Unsalted Butter, softened",
+      "double": "2 cups (2 sticks) Unsalted Butter, softened"
+    },
+    {
+      "slug": "funfetti-cake-from-scratch-and-an-unbirthday",
+      "line": "1 lb (4 sticks) Unsalted Butter, softened",
+      "double": "2 lb (4 sticks) Unsalted Butter, softened"
+    },
+    {
+      "slug": "gluten-free-lemon-cupcakes",
+      "line": "1/2 cup (1 stick) Unsalted Butter, softened",
+      "double": "1 cup (1 stick) Unsalted Butter, softened"
+    },
+    {
+      "slug": "grandmommys-pecan-pie",
+      "line": "1/2 stick (4 tbsp) Unsalted Butter, melted",
+      "double": "1 stick (4 tbsp) Unsalted Butter, melted"
+    },
+    {
+      "slug": "grandmommys-pound-cake",
+      "line": "3/4 lb (3 sticks) Unsalted Butter, softened",
+      "double": "1 1/2 lb (3 sticks) Unsalted Butter, softened"
+    },
+    {
+      "slug": "lime-and-honey-glazed-salmon-with-warm-black-bean-and-corn-salad",
+      "line": "2.25 lb (about 1,020 g) skinless, boneless salmon, cut into seven similar portions",
+      "double": "4 1/2 lb (about 1,020 g) skinless, boneless salmon, cut into seven similar portions"
+    },
+    {
+      "slug": "moms-famous-chocolate-cake",
+      "line": "2 sticks (1 cup) Unsalted Butter (Replaces Margarine)",
+      "double": "4 sticks (1 cup) Unsalted Butter (Replaces Margarine)"
+    },
+    {
+      "slug": "moms-famous-chocolate-cake",
+      "line": "1 stick (1/2 cup) Unsalted Butter",
+      "double": "2 stick (1/2 cup) Unsalted Butter"
+    },
+    {
+      "slug": "old-fashioned-soft-pumpkin-cookies",
+      "line": "1/2 cup (1 stick) Unsalted Butter, softened",
+      "double": "1 cup (1 stick) Unsalted Butter, softened"
+    },
+    {
+      "slug": "parmigiano-reggiano-cheesecake",
+      "line": "40 oz (5 packs) Cream Cheese, room temperature",
+      "double": "80 oz (5 packs) Cream Cheese, room temperature"
+    },
+    {
+      "slug": "pumpkin-cheesecake-cookies",
+      "line": "1/2 cup (1 stick) Unsalted Butter, softened",
+      "double": "1 cup (1 stick) Unsalted Butter, softened"
+    },
+    {
+      "slug": "quadruple-chocolate-brownies",
+      "line": "1 lb (4 sticks) Unsalted Butter, softened",
+      "double": "2 lb (4 sticks) Unsalted Butter, softened"
+    },
+    {
+      "slug": "quick-and-easy-drop-biscuits",
+      "line": "4 oz (1 stick) Unsalted Butter, cold and cubed",
+      "double": "8 oz (1 stick) Unsalted Butter, cold and cubed"
+    },
+    {
+      "slug": "real-alfredo-sauce",
+      "line": "1 stick (8 tbsp) Unsalted Butter",
+      "double": "2 stick (8 tbsp) Unsalted Butter"
+    },
+    {
+      "slug": "sage-brown-butter-sauce-butternut-squash-ravioli",
+      "line": "1/2 cup (1 stick) Unsalted Butter",
+      "double": "1 cup (1 stick) Unsalted Butter"
+    },
+    {
+      "slug": "skillet-biscuits-with-berries",
+      "line": "1 1/2 sticks (12 tbsp) Unsalted Butter, cold and cubed",
+      "double": "3 sticks (12 tbsp) Unsalted Butter, cold and cubed"
+    },
+    {
+      "slug": "snickerdoodles",
+      "line": "1 cup (2 sticks) Unsalted Butter, softened",
+      "double": "2 cups (2 sticks) Unsalted Butter, softened"
+    },
+    {
+      "slug": "soft-batch-chocolate-chip-cookies",
+      "line": "1 cup (2 sticks) Unsalted Butter, softened",
+      "double": "2 cups (2 sticks) Unsalted Butter, softened"
+    },
+    {
+      "slug": "strawberry-rhubarb-shortcake-with-whipped-mascarpone",
+      "line": "1/2 cup (1 stick) Unsalted Butter, cold and cubed",
+      "double": "1 cup (1 stick) Unsalted Butter, cold and cubed"
+    },
+    {
+      "slug": "strozzapreti-with-spinach-and-preserved-lemon",
+      "line": "1 stick (8 tbsp) Unsalted Butter",
+      "double": "2 stick (8 tbsp) Unsalted Butter"
+    },
+    {
+      "slug": "sugar-cookie",
+      "line": "1 cup (2 sticks) Unsalted Butter, softened",
+      "double": "2 cups (2 sticks) Unsalted Butter, softened"
+    },
+    {
+      "slug": "the-original-rice-krispies-treatstm",
+      "line": "10 oz (1 package) Fresh Marshmallows",
+      "double": "20 oz (1 package) Fresh Marshmallows"
+    }
+  ],
+  "missingIngredientTriage": [
+    {
+      "slug": "blackout-chocolate-cake",
+      "term": "cream",
+      "steps": ["6.  **Frost:** Use a rich chocolate ganache or cream cheese frosting."],
+      "disposition": "serving-finish-or-optional-completeness"
+    },
+    {
+      "slug": "cantonese-shrimp-and-pork-wontons",
+      "term": "celery",
+      "steps": [
+        "3.  **Add Texture:** Fold in the water chestnuts (or celery), green onions, and the remaining **shrimp chunks**."
+      ],
+      "disposition": "dismissed-context-or-alias"
+    },
+    {
+      "slug": "chicken-and-white-bean-enchiladas-with-creamy-green-chile-sauce",
+      "term": "cumin",
+      "steps": [
+        "1.  **The Filling:** In a bowl, toss the shredded chicken, beans, cumin, and 1/4 cup of the green sauce."
+      ],
+      "disposition": "confirmed-list-method-contradiction",
+      "ingredientList": [
+        "1 lb Shredded Chicken (Poached or Rotisserie)",
+        "15 oz can Navy or Cannellini Beans, rinsed",
+        "8 Flour or Corn Tortillas",
+        "12 oz Tomatillo Salsa or Enchilada Sauce",
+        "1/2 cup Light Sour Cream or Greek Yogurt",
+        "1 can (4 oz) Diced Green Chiles",
+        "1/2 cup Fresh Cilantro",
+        "1 cup Mexican Cheese Blend, shredded",
+        "Pickled Red Onions for garnish"
+      ]
+    },
+    {
+      "slug": "chicken-fingers",
+      "term": "lemon",
+      "steps": [
+        "6.  **Finish:** Serve hot with a squeeze of lemon or your favorite dipping sauce."
+      ],
+      "disposition": "serving-finish-or-optional-completeness"
+    },
+    {
+      "slug": "chicken-tinga",
+      "term": "lime",
+      "steps": ["6.  **Finish:** Add a squeeze of lime at the end for the **Acid Balance**."],
+      "disposition": "serving-finish-or-optional-completeness"
+    },
+    {
+      "slug": "chocolate-chip-cookie-cake",
+      "term": "cream",
+      "steps": [
+        "2.  **Cream:** In a large bowl, cream the butter and both sugars until light and fluffy (3-5 mins). Add eggs and vanilla; beat until combined."
+      ],
+      "disposition": "dismissed-context-or-alias"
+    },
+    {
+      "slug": "chocolate-souffle",
+      "term": "cream",
+      "steps": [
+        "8.  **Serve:** Dust with powdered sugar and serve immediately with lightly sweetened whipped cream."
+      ],
+      "disposition": "serving-finish-or-optional-completeness"
+    },
+    {
+      "slug": "classic-chocolate-chip-cookies",
+      "term": "cream",
+      "steps": [
+        "2.  **Cream:** Beat the cooled brown butter with the brown and white sugars until pale and fluffy (3-5 minutes). Beat in the eggs and vanilla."
+      ],
+      "disposition": "dismissed-context-or-alias"
+    },
+    {
+      "slug": "cottage-cheese-banana-oatmeal-protein-pancakes",
+      "term": "butter",
+      "steps": [
+        "6.  **Serve:** Serve immediately with a dollop of Greek yogurt or a drizzle of peanut butter."
+      ],
+      "disposition": "serving-finish-or-optional-completeness"
+    },
+    {
+      "slug": "cottage-cheese-banana-oatmeal-protein-pancakes",
+      "term": "yogurt",
+      "steps": [
+        "6.  **Serve:** Serve immediately with a dollop of Greek yogurt or a drizzle of peanut butter."
+      ],
+      "disposition": "serving-finish-or-optional-completeness"
+    },
+    {
+      "slug": "crispy-oven-zucchini-fries",
+      "term": "lemon",
+      "steps": [
+        "7. **Serve:** Serve hot with marinara sauce, ranch dressing, or a squeeze of fresh lemon for dipping."
+      ],
+      "disposition": "serving-finish-or-optional-completeness"
+    },
+    {
+      "slug": "cu-chao-mian",
+      "term": "vinegar",
+      "steps": [
+        "6.  **Serve:** Serve immediately. Add a dash of Chinese black vinegar at the table for the mandatory **Acid Balance**."
+      ],
+      "disposition": "serving-finish-or-optional-completeness"
+    },
+    {
+      "slug": "double-chocolate-cookies",
+      "term": "cream",
+      "steps": [
+        "2.  **Cream:** In a stand mixer, beat butter and both sugars for exactly 5 minutes until very light and aerated. Add the egg and vanilla; beat until combined."
+      ],
+      "disposition": "dismissed-context-or-alias"
+    },
+    {
+      "slug": "double-chocolate-layer-cake",
+      "term": "vanilla",
+      "steps": [
+        "3.  **Aeration:** In a stand mixer, beat eggs until pale and thickened (3-5 mins). Slowly stream in oil, buttermilk, vanilla, and the cooled coffee-chocolate mixture."
+      ],
+      "disposition": "confirmed-list-method-contradiction",
+      "ingredientList": [
+        "3 oz Semisweet Chocolate, finely chopped",
+        "1 1/2 cups Hot Brewed Coffee",
+        "3 cups Granulated Sugar",
+        "2 1/2 cups All-Purpose Flour",
+        "1 1/2 cups Unsweetened Cocoa Powder (not Dutch-process)",
+        "2 tsp Baking Soda",
+        "3/4 tsp Baking Powder",
+        "1 1/4 tsp Sea Salt",
+        "3 large Eggs",
+        "3/4 cup Vegetable Oil",
+        "1 1/2 cups Buttermilk, well-shaken",
+        "1 lb Semisweet Chocolate, chopped",
+        "1 cup Heavy Cream",
+        "2 tbsp Granulated Sugar",
+        "2 tbsp Light Corn Syrup for gloss",
+        "1/4 cup Unsalted Butter, cubed"
+      ]
+    },
+    {
+      "slug": "easy-homemade-pumpkin-pancakes",
+      "term": "butter",
+      "steps": [
+        "5.  **Prep:** Heat a skillet or griddle over medium heat. Lightly grease with butter or oil spray.",
+        "8.  **Serve:** Serve with salted butter and warm maple syrup."
+      ],
+      "disposition": "serving-finish-or-optional-completeness"
+    },
+    {
+      "slug": "easy-spinach-gnocchi",
+      "term": "butter",
+      "steps": [
+        "6.  **Serve:** Drain gently. Serve immediately with a high-quality tomato sauce or brown butter and sage."
+      ],
+      "disposition": "serving-finish-or-optional-completeness"
+    },
+    {
+      "slug": "extraordinary-chocolate-chip-cookie",
+      "term": "cream",
+      "steps": [
+        "2.  **Cream:** In a stand mixer with the paddle attachment, cream butter and both sugars on medium speed for exactly 4 minutes until pale and aerated. Add eggs one at a time, followed by vanilla."
+      ],
+      "disposition": "dismissed-context-or-alias"
+    },
+    {
+      "slug": "favorite-pumpkin-oatmeal-muffins",
+      "term": "flour",
+      "steps": [
+        "3.  **Pulverize:** Blend on high for 60 seconds until the batter is perfectly smooth and the oats have transformed into flour."
+      ],
+      "disposition": "dismissed-context-or-alias"
+    },
+    {
+      "slug": "frozen-blueberry-muffins",
+      "term": "cream",
+      "steps": [
+        "1.  **The Emulsion:** Preheat oven to 375\u00b0F. Grease two 12-cup muffin tins. In a large bowl, cream the butter and 2 cups minus 2 tbsp of the sugar until light and fluffy (3-5 mins). Add eggs one at a time, followed by milk and vanilla."
+      ],
+      "disposition": "dismissed-context-or-alias"
+    },
+    {
+      "slug": "general-tsos-cauliflower",
+      "term": "sesame oil",
+      "steps": [
+        "4.  **Aromatics:** Heat 2 tsp sesame oil in a pot. Saut\u00e9 the scallion whites, garlic, ginger, and chilies for 30 seconds until fragrant."
+      ],
+      "disposition": "confirmed-list-method-contradiction",
+      "ingredientList": [
+        "1 head Cauliflower, cut into bite-sized florets",
+        "1/2 cup All-Purpose Flour",
+        "1/3 cup Cornstarch (the crunch Guard)",
+        "3/4 tsp Baking Powder",
+        "2 large Eggs",
+        "3 tbsp Soy Sauce",
+        "1 tbsp Rice Vinegar",
+        "1/4 cup Soy Sauce",
+        "3 tbsp Rice Vinegar",
+        "2 tbsp Mirin",
+        "3 tbsp Granulated Sugar",
+        "1 tbsp Cornstarch (for the bind)",
+        "1/4 cup Vegetable Broth",
+        "6 Scallions, sliced (whites and greens separated)",
+        "3 cloves Garlic, minced",
+        "1 tbsp Fresh Ginger, minced",
+        "5 Dried Red Chilies",
+        "Peanut Oil (for frying)"
+      ]
+    },
+    {
+      "slug": "general-tsos-tofu",
+      "term": "sesame oil",
+      "steps": [
+        "5.  **The Glaze:** Immediately add the soy sauces, vinegar, sugar, and sesame oil. Stir in the cornstarch slurry."
+      ],
+      "disposition": "confirmed-list-method-contradiction",
+      "ingredientList": [
+        "1 lb Extra-firm Tofu, pressed dry and cut into 1-inch squares",
+        "1 1/2 tbsp Honey",
+        "2 tsp thin vinegar-based red-pepper hot sauce",
+        "3 tbsp Cornstarch (the crunch Guard)",
+        "1 1/2 tbsp Sesame Seeds",
+        "1 cup Vegetable Stock",
+        "1 1/2 tbsp Light Soy Sauce",
+        "1 tsp Dark Soy Sauce (for color)",
+        "2 tsp Rice Vinegar",
+        "1 tbsp Granulated Sugar",
+        "1 1/2 tbsp Cornstarch (slurry)",
+        "2 cups Broccoli Florets",
+        "1/2 Red Bell Pepper, sliced",
+        "1 tbsp Fresh Ginger, minced",
+        "2 cloves Garlic, minced",
+        "7 Dried Chinese Red Chilies",
+        "Peanut Oil (for shallow frying)"
+      ]
+    },
+    {
+      "slug": "grandmommys-pound-cake",
+      "term": "cream",
+      "steps": [
+        "2.  **Cream:** In a stand mixer, cream the butter and sugar on medium-high for 5-7 minutes until the mixture is pale, light, and doubled in volume."
+      ],
+      "disposition": "dismissed-context-or-alias"
+    },
+    {
+      "slug": "hamantaschen",
+      "term": "cream",
+      "steps": [
+        "1.  **The Emulsion:** In a stand mixer, cream butter and sugar until light and fluffy (3 mins). Add the egg, vanilla, and orange zest; beat until perfectly combined."
+      ],
+      "disposition": "dismissed-context-or-alias"
+    },
+    {
+      "slug": "healthy-carrot-cake-muffins-with-cream-cheese-glaze",
+      "term": "walnuts",
+      "steps": [
+        "7.  **Finish:** Dip each cooled muffin top into the glaze. Sprinkle with extra shredded coconut or walnuts for a textural \"High Note.\""
+      ],
+      "disposition": "serving-finish-or-optional-completeness"
+    },
+    {
+      "slug": "herby-chicken-meatball-bowl",
+      "term": "cumin",
+      "steps": [
+        "1.  **Stage 1 (Roast):** Preheat oven to 400\u00b0F. On one sheet pan, toss bone-dry chickpeas with olive oil, salt, garlic powder, and Italian seasoning. On another pan, toss sweet potato cubes with olive oil, cinnamon, and cumin. Roast both for 15-20 minutes until crispy."
+      ],
+      "disposition": "confirmed-list-method-contradiction",
+      "ingredientList": [
+        "1 lb Ground Chicken",
+        "1 cup Whole-Milk Ricotta for richness",
+        "1 large Egg",
+        "1/2 cup Panko Breadcrumbs",
+        "1 Shallot, finely chopped",
+        "1/2 cup fresh cilantro, chopped",
+        "1/4 cup fresh dill, chopped",
+        "Zest of 1 Lemon",
+        "1 15 oz can Chickpeas, patted bone-dry",
+        "1 large Sweet Potato, diced",
+        "4 cups Fresh Kale",
+        "1 cup Greek Yogurt",
+        "1 cup Fresh Basil",
+        "1 Jalape\u00f1o, seeded",
+        "1 tbsp Honey",
+        "1 tbsp Fresh Lemon Juice"
+      ]
+    },
+    {
+      "slug": "herby-chicken-meatball-bowl",
+      "term": "cinnamon",
+      "steps": [
+        "1.  **Stage 1 (Roast):** Preheat oven to 400\u00b0F. On one sheet pan, toss bone-dry chickpeas with olive oil, salt, garlic powder, and Italian seasoning. On another pan, toss sweet potato cubes with olive oil, cinnamon, and cumin. Roast both for 15-20 minutes until crispy."
+      ],
+      "disposition": "confirmed-list-method-contradiction",
+      "ingredientList": [
+        "1 lb Ground Chicken",
+        "1 cup Whole-Milk Ricotta for richness",
+        "1 large Egg",
+        "1/2 cup Panko Breadcrumbs",
+        "1 Shallot, finely chopped",
+        "1/2 cup fresh cilantro, chopped",
+        "1/4 cup fresh dill, chopped",
+        "Zest of 1 Lemon",
+        "1 15 oz can Chickpeas, patted bone-dry",
+        "1 large Sweet Potato, diced",
+        "4 cups Fresh Kale",
+        "1 cup Greek Yogurt",
+        "1 cup Fresh Basil",
+        "1 Jalape\u00f1o, seeded",
+        "1 tbsp Honey",
+        "1 tbsp Fresh Lemon Juice"
+      ]
+    },
+    {
+      "slug": "herby-chicken-meatball-bowl",
+      "term": "garlic",
+      "steps": [
+        "1.  **Stage 1 (Roast):** Preheat oven to 400\u00b0F. On one sheet pan, toss bone-dry chickpeas with olive oil, salt, garlic powder, and Italian seasoning. On another pan, toss sweet potato cubes with olive oil, cinnamon, and cumin. Roast both for 15-20 minutes until crispy."
+      ],
+      "disposition": "confirmed-list-method-contradiction",
+      "ingredientList": [
+        "1 lb Ground Chicken",
+        "1 cup Whole-Milk Ricotta for richness",
+        "1 large Egg",
+        "1/2 cup Panko Breadcrumbs",
+        "1 Shallot, finely chopped",
+        "1/2 cup fresh cilantro, chopped",
+        "1/4 cup fresh dill, chopped",
+        "Zest of 1 Lemon",
+        "1 15 oz can Chickpeas, patted bone-dry",
+        "1 large Sweet Potato, diced",
+        "4 cups Fresh Kale",
+        "1 cup Greek Yogurt",
+        "1 cup Fresh Basil",
+        "1 Jalape\u00f1o, seeded",
+        "1 tbsp Honey",
+        "1 tbsp Fresh Lemon Juice"
+      ]
+    },
+    {
+      "slug": "herby-chicken-meatball-bowl",
+      "term": "olive oil",
+      "steps": [
+        "1.  **Stage 1 (Roast):** Preheat oven to 400\u00b0F. On one sheet pan, toss bone-dry chickpeas with olive oil, salt, garlic powder, and Italian seasoning. On another pan, toss sweet potato cubes with olive oil, cinnamon, and cumin. Roast both for 15-20 minutes until crispy."
+      ],
+      "disposition": "confirmed-list-method-contradiction",
+      "ingredientList": [
+        "1 lb Ground Chicken",
+        "1 cup Whole-Milk Ricotta for richness",
+        "1 large Egg",
+        "1/2 cup Panko Breadcrumbs",
+        "1 Shallot, finely chopped",
+        "1/2 cup fresh cilantro, chopped",
+        "1/4 cup fresh dill, chopped",
+        "Zest of 1 Lemon",
+        "1 15 oz can Chickpeas, patted bone-dry",
+        "1 large Sweet Potato, diced",
+        "4 cups Fresh Kale",
+        "1 cup Greek Yogurt",
+        "1 cup Fresh Basil",
+        "1 Jalape\u00f1o, seeded",
+        "1 tbsp Honey",
+        "1 tbsp Fresh Lemon Juice"
+      ]
+    },
+    {
+      "slug": "instant-pot-butternut-squash-soup",
+      "term": "celery",
+      "steps": [
+        "3.  **Pressure:** Stir in the squash, carrots, celery, and chopped apple. Pour in the chicken stock and season with salt and pepper."
+      ],
+      "disposition": "confirmed-list-method-contradiction",
+      "ingredientList": [
+        "4 slices Bacon, diced",
+        "1/2 Sweet Onion, diced",
+        "3 cloves Garlic, minced",
+        "4 Sage leaves, minced",
+        "3 sprigs Fresh Thyme",
+        "1 Granny Smith Apple, cored and chopped (The Acid Note)",
+        "2 1/2 lbs Butternut Squash, peeled and cubed",
+        "3 large Carrots, cut into 1-inch pieces",
+        "4 cups Chicken Stock",
+        "1/3 cup Heavy Cream",
+        "2 tbsp Fresh Chives, chopped",
+        "Kosher Salt and Black Pepper"
+      ]
+    },
+    {
+      "slug": "japchae-korean-glass-noodle-stir-fry",
+      "term": "cornstarch",
+      "steps": [
+        "2. **Marinate the Beef:** While the noodles cook, combine the thinly sliced beef with 1 tbsp soy sauce, 1 tsp sesame oil, 1/2 tsp minced garlic, 1/4 tsp black pepper, and 1 tsp cornstarch in a small bowl. This cornstarch coating (velveting) protects the meat from the high heat of the skillet. Let sit for 15 minutes while you prep vegetables."
+      ],
+      "disposition": "confirmed-list-method-contradiction",
+      "ingredientList": [
+        "8 oz Sweet Potato Glass Noodles (dangmyeon), also called Korean glass noodles",
+        "8 oz Beef Sirloin or Tenderloin, thinly sliced",
+        "2 Medium Carrots, cut into thin matchsticks",
+        "1 Medium Zucchini, cut into thin matchsticks",
+        "4 oz Mushrooms (shiitake or cremini), thinly sliced",
+        "1 Medium Onion, thinly sliced",
+        "1 cup Fresh Spinach (or 4 oz frozen spinach, thawed and squeezed dry)",
+        "3 cloves Garlic, minced",
+        "3 Green Onions (scallions), cut into 2-inch pieces",
+        "--- Seasoning ---",
+        "3 tbsp Soy Sauce",
+        "1 tbsp Sesame Oil",
+        "1 tbsp Brown Sugar",
+        "1 tbsp Rice Vinegar",
+        "2 tsp Gochugaru (Korean red chili flakes, optional)",
+        "1/4 tsp Black Pepper",
+        "1 tbsp Vegetable Oil",
+        "--- For Serving ---",
+        "Sesame Seeds",
+        "Additional Sesame Oil (optional drizzle)"
+      ]
+    },
+    {
+      "slug": "kale-caesar-with-crispy-chickpeas",
+      "term": "cream",
+      "steps": [
+        "3. **Make the Dressing:** In a blender or small food processor, combine the 1/4 cup olive oil, grated garlic, lemon juice, Dijon mustard, miso (or soy sauce), anchovy paste if using, water, salt, and pepper. Blend until completely smooth. The dressing should have the consistency of heavy cream. Adjust water if needed."
+      ],
+      "disposition": "dismissed-context-or-alias"
+    },
+    {
+      "slug": "mm-cookies",
+      "term": "cream",
+      "steps": [
+        "1.  **Cream:** In a large bowl, beat the shortening (or butter) with both sugars until light and fluffy (2 mins). Add eggs and vanilla; beat until emulsified."
+      ],
+      "disposition": "dismissed-context-or-alias"
+    },
+    {
+      "slug": "moroccan-chicken-tagine-apricot-chickpea",
+      "term": "butter",
+      "steps": [
+        "8. **Serve:** Give each diner one thigh with sauce, chickpeas and apricots. Scatter almonds and remaining herbs at the table. A small portion of [Garlic Butter Pearl Couscous](/mise/recipes/garlic-butter-couscous) is one possible accompaniment; it has its own cooking method and portion size."
+      ],
+      "disposition": "dismissed-context-or-alias"
+    },
+    {
+      "slug": "old-fashioned-soft-pumpkin-cookies",
+      "term": "cream",
+      "steps": [
+        "2.  **Cream:** In a large bowl, beat softened butter and sugar until fluffy. Add the pumpkin, egg, and vanilla; beat until smooth."
+      ],
+      "disposition": "dismissed-context-or-alias"
+    },
+    {
+      "slug": "pasta-with-abruzzi-style-lamb-sauce",
+      "term": "olive oil",
+      "steps": [
+        "1.  **Render:** Heat olive oil in a large skillet. Add the onion and pancetta. Cook until the pancetta fat has melted and the onions are gold (8 mins)."
+      ],
+      "disposition": "confirmed-list-method-contradiction",
+      "ingredientList": [
+        "1 lb Penne or Rigatoni",
+        "3/4 lb Boneless Lamb (Leg or Shoulder), finely diced or ground",
+        "2 oz Pancetta, finely chopped",
+        "1/4 cup Yellow Onion, diced",
+        "1 tbsp Fresh Rosemary, chopped",
+        "3/4 cup Dry White Wine",
+        "1 (28 oz) can Whole Peeled Tomatoes, crushed by hand",
+        "1/3 cup Pecorino Romano, grated"
+      ]
+    },
+    {
+      "slug": "pressure-cooker-bolognase",
+      "term": "olive oil",
+      "steps": [
+        "1.  **The Sear:** Set pressure cooker to \"Saut\u00e9\" (High). Brown the pork pieces in olive oil (5 mins); remove. Brown the crumbled sausage; remove."
+      ],
+      "disposition": "confirmed-list-method-contradiction",
+      "ingredientList": [
+        "1 lb Pork or Veal Shoulder, chopped small",
+        "1 lb Mild or Spicy Italian Sausage, bulk",
+        "1 large Yellow Onion, finely chopped",
+        "2 Carrots, finely diced",
+        "1 stalk Celery, finely diced",
+        "6 cloves Garlic, minced",
+        "2 tbsp Tomato Paste",
+        "1 cup Dry Red Wine (The Finishing Touch)",
+        "1 can (28 oz) San Marzano Tomatoes, hand-crushed",
+        "2 tbsp Balsamic Vinegar (The Acid Balance)",
+        "20 Fresh Basil Leaves",
+        "1 Fresh Bay Leaf"
+      ]
+    },
+    {
+      "slug": "quick-and-easy-drop-biscuits",
+      "term": "honey",
+      "steps": ["7.  **Serve:** Serve warm with plenty of salted butter and honey."],
+      "disposition": "serving-finish-or-optional-completeness"
+    },
+    {
+      "slug": "quick-lamb-ragu",
+      "term": "anchovies",
+      "steps": [
+        "1.  **The Base:** In a large heavy pot, heat 2 tbsp oil. Saut\u00e9 onion for 5-8 minutes until golden brown and softened. Add garlic and cook for 30-45 seconds until fragrant. Stir in the red pepper flakes and anchovies; cook for 2 minutes until the fish \"melts\" into the oil."
+      ],
+      "disposition": "dismissed-context-or-alias"
+    },
+    {
+      "slug": "roast-turkey-breast",
+      "term": "flour",
+      "steps": [
+        "5. **Rest and finish juices:** Transfer to a carving board and rest about 20 minutes, loosely tented. Meanwhile, spoon excess fat off the pan liquid, transfer liquid to a small saucepan and bring to a rolling boil. Simmer briefly to the flavor concentration you want, adding water if too salty. These are pan juices, not a flour-thickened gravy."
+      ],
+      "disposition": "dismissed-context-or-alias"
+    },
+    {
+      "slug": "roasted-butternut-squash-mac-and-cheese",
+      "term": "olive oil",
+      "steps": [
+        "1.  **Roast Squash:** Preheat oven to 400\u00b0F. Toss squash cubes with olive oil, salt, and pepper. Roast for 25-30 minutes cook until caramelized and golden brown and caramelized. Lower oven to 350\u00b0F."
+      ],
+      "disposition": "confirmed-list-method-contradiction",
+      "ingredientList": [
+        "1 lb Cavatappi or Cellentani Pasta",
+        "3 cups Butternut Squash, 1-inch cubes",
+        "6 cups Sharp Cheddar, shredded",
+        "1/4 cup Parmesan, grated",
+        "3 1/2 cups Whole Milk",
+        "4 tbsp Unsalted Butter",
+        "1/4 cup All-Purpose Flour",
+        "2 tsp Dijon Mustard (The Finishing Touch)",
+        "Pinch of Nutmeg and Cayenne",
+        "1/2 cup Panko Breadcrumbs",
+        "2 tbsp Unsalted Butter, melted",
+        "--- Lemon juice ---",
+        "1 Lemon, juiced"
+      ]
+    },
+    {
+      "slug": "roasted-fall-harvest-salad",
+      "term": "raisins",
+      "steps": [
+        "6.  **Finish:** Top with the roasted chickpeas, squash, pepitas, and raisins. Drizzle with remaining dressing for the mandatory **High Note**."
+      ],
+      "disposition": "serving-finish-or-optional-completeness"
+    },
+    {
+      "slug": "salsa-verde-chicken-casserole",
+      "term": "lime",
+      "steps": [
+        "7.  **Serve:** Serve hot with a side of [Cilantro Lime Rice](/mise/recipes/cilantro-lime-rice)."
+      ],
+      "disposition": "dismissed-context-or-alias"
+    },
+    {
+      "slug": "sheet-pan-pineapple-shrimp-tacos",
+      "term": "garlic",
+      "steps": [
+        "1.  **Marinate:** In a large bowl, whisk oil, lime juice, garlic, and all spices. Add shrimp and **let stand for 15 minutes**."
+      ],
+      "disposition": "confirmed-list-method-contradiction",
+      "ingredientList": [
+        "1 lb Shrimp, peeled and deveined",
+        "2 cups Fresh Pineapple, 1/2-inch pieces",
+        "1 medium Red Onion, sliced",
+        "2 tbsp Lime Juice",
+        "2 tbsp Extra-Virgin Olive Oil",
+        "2 tsp Chili Powder + 2 tsp Cumin",
+        "1/2 tsp Cayenne (The Finishing Touch)",
+        "1 1/2 cups Green Cabbage, thinly sliced",
+        "1/2 cup Fresh Cilantro",
+        "1 Lime, juiced (The Acid Balance)",
+        "Corn Tortillas, Avocado, Sour Cream"
+      ]
+    },
+    {
+      "slug": "shrimp-and-corn-chowder",
+      "term": "garlic",
+      "steps": [
+        "1.  **Marinate:** Toss shrimp with garlic, scallions, lime juice, and salt. Refrigerate for 1 hour."
+      ],
+      "disposition": "confirmed-list-method-contradiction",
+      "ingredientList": [
+        "2 lbs Medium Shrimp, peeled and deveined",
+        "2 cups Fresh Corn Kernels",
+        "2 tbsp Annatto Oil (or Olive Oil)",
+        "1/2 cup Red Onion, finely chopped",
+        "1 Red Bell Pepper, chopped",
+        "1 tsp Ground Cumin",
+        "2 cups Whole Milk",
+        "6 cups Fish or Chicken Stock",
+        "1 Green (Unripe) Plantain, grated (The Starch Bind)",
+        "2 tbsp Fresh Lime Juice (The Acid Balance)",
+        "2 tbsp Fresh Cilantro",
+        "1/4 tsp Cayenne Pepper"
+      ]
+    },
+    {
+      "slug": "shrimp-with-black-bean-sauce",
+      "term": "garlic",
+      "steps": [
+        "3.  **The Sear:** Heat 2 tbsp oil. Saut\u00e9 garlic, ginger, peppers, black beans, and the cooked pork for 30 seconds. Add shrimp and Shaoxing wine. Stir-fry for 30 seconds."
+      ],
+      "disposition": "confirmed-list-method-contradiction",
+      "ingredientList": [
+        "12 oz Shrimp (21/25 size)",
+        "4 oz Ground Pork",
+        "1 1/2 tbsp Fermented Black Beans (Douchi)",
+        "1 1/2 cups Chicken Stock (hot)",
+        "1 tbsp Oyster Sauce + 1 tsp Dark Soy Sauce",
+        "1 tbsp Shaoxing Wine",
+        "1/2 tsp Toasted Sesame Oil",
+        "1 large Egg, beaten (The Egg Ribbon Method)",
+        "2 1/2 tbsp Cornstarch (slurry)",
+        "1/4 cup Green Bell Pepper, diced",
+        "1 Scallion, chopped"
+      ]
+    },
+    {
+      "slug": "shrimp-with-black-bean-sauce",
+      "term": "ginger",
+      "steps": [
+        "3.  **The Sear:** Heat 2 tbsp oil. Saut\u00e9 garlic, ginger, peppers, black beans, and the cooked pork for 30 seconds. Add shrimp and Shaoxing wine. Stir-fry for 30 seconds."
+      ],
+      "disposition": "confirmed-list-method-contradiction",
+      "ingredientList": [
+        "12 oz Shrimp (21/25 size)",
+        "4 oz Ground Pork",
+        "1 1/2 tbsp Fermented Black Beans (Douchi)",
+        "1 1/2 cups Chicken Stock (hot)",
+        "1 tbsp Oyster Sauce + 1 tsp Dark Soy Sauce",
+        "1 tbsp Shaoxing Wine",
+        "1/2 tsp Toasted Sesame Oil",
+        "1 large Egg, beaten (The Egg Ribbon Method)",
+        "2 1/2 tbsp Cornstarch (slurry)",
+        "1/4 cup Green Bell Pepper, diced",
+        "1 Scallion, chopped"
+      ]
+    },
+    {
+      "slug": "shrimp-wonton-soup",
+      "term": "coriander",
+      "steps": [
+        "6.  **Serve:** Transfer wontons and greens to the bowls. Garnish with fresh coriander and serve immediately."
+      ],
+      "disposition": "serving-finish-or-optional-completeness"
+    },
+    {
+      "slug": "skillet-biscuits-with-berries",
+      "term": "baking powder",
+      "steps": [
+        "1.  **The Dough:** In a bowl, cut cold butter into flour, sugar, and baking powder until pea-sized. Stir in half-and-half until a shaggy dough forms. Scoop into 8 loose balls."
+      ],
+      "disposition": "confirmed-list-method-contradiction",
+      "ingredientList": [
+        "1 1/2 cups All-Purpose Flour",
+        "1 1/2 sticks (12 tbsp) Unsalted Butter, cold and cubed",
+        "1/4 cup + 2 tbsp Half-and-Half",
+        "12 oz Raspberries + 12 oz Blackberries",
+        "3/4 cup Granulated Sugar",
+        "1 1/2 tsp Orange Zest",
+        "1 Cinnamon Stick (The complex flavor)",
+        "Sweetened Whipped Cream"
+      ]
+    },
+    {
+      "slug": "slow-cooker-vegetable-korma",
+      "term": "almonds",
+      "steps": [
+        "2. **Coat and start cooking:** Stir the coconut milk thoroughly before measuring 300 ml. Whisk it with the curry powder, garam masala, ground almonds, the first teaspoon of fine salt and optional pepper flakes. Pour over the vegetables and gently turn the cauliflower to coat it, leaving most carrots underneath. Cover and start on **High immediately**. Do not add the reserved water automatically; this is a coated vegetable curry, not a pot of submerged vegetables."
+      ],
+      "disposition": "dismissed-context-or-alias"
+    },
+    {
+      "slug": "slow-cooker-vegetarian-lentil-tortilla-soup",
+      "term": "cilantro",
+      "steps": [
+        "5.  **Serve:** Ladle into bowls. Pile on the \"Texture Stacks\": crushed tortilla chips, diced avocado, and fresh cilantro."
+      ],
+      "disposition": "serving-finish-or-optional-completeness"
+    },
+    {
+      "slug": "soft-batch-chocolate-chip-cookies",
+      "term": "cream",
+      "steps": [
+        "2.  **Cream:** In a stand mixer, beat softened butter and both sugars for 2 minutes until light and fluffy. Add eggs and vanilla; beat until emulsified."
+      ],
+      "disposition": "dismissed-context-or-alias"
+    },
+    {
+      "slug": "spaghetti-and-tofu-meatballs",
+      "term": "olive oil",
+      "steps": [
+        "1.  **Foundation:** In a large skillet, saut\u00e9 onion, carrot, pepper, and garlic in olive oil for 10 minutes cook until golden brown and softened. Let cool slightly."
+      ],
+      "disposition": "confirmed-list-method-contradiction",
+      "ingredientList": [
+        "3 lbs Extra-firm Tofu, pressed bone-dry",
+        "3/4 cup Walnuts, ground",
+        "1 cup Whole-wheat Breadcrumbs",
+        "2 large Eggs",
+        "1 1/2 tbsp Dijon Mustard (The Finishing Touch)",
+        "1 1/2 tbsp Toasted Sesame Oil",
+        "3 tbsp Soy Sauce",
+        "1 large Carrot, grated",
+        "1 large Onion, chopped",
+        "1 Green Pepper, chopped",
+        "3 cloves Garlic, minced",
+        "1 1/2 tsp Dried Basil + 3/4 tsp Oregano",
+        "--- Lemon juice ---",
+        "1-2 Lemons, juiced"
+      ]
+    },
+    {
+      "slug": "stovetop-macaroni-and-cheese",
+      "term": "cream",
+      "steps": [
+        "3.  **Thicken:** Cook over medium heat, whisking constantly, for 3-4 minutes until the milk thickens to the consistency of heavy cream."
+      ],
+      "disposition": "dismissed-context-or-alias"
+    },
+    {
+      "slug": "strawberry-cheesecake-overnight-oatmeal",
+      "term": "honey",
+      "steps": [
+        "1.  **The Emulsion:** In a small bowl, whisk softened cream cheese, yogurt, honey, vanilla, and lemon juice until perfectly smooth."
+      ],
+      "disposition": "confirmed-list-method-contradiction",
+      "ingredientList": [
+        "1/2 cup Rolled Oats (Old-fashioned)",
+        "1/3 cup Plain Greek Yogurt for richness",
+        "2/3 cup Unsweetened Milk of choice",
+        "3 tbsp Cream Cheese, softened",
+        "1/4 cup Fresh Strawberries, chopped",
+        "1 tbsp Chia Seeds",
+        "1/2 Lemon, zested and juiced (The Acid Balance)",
+        "1/2 tsp Pure Vanilla Extract",
+        "1 tbsp Maple Syrup"
+      ]
+    },
+    {
+      "slug": "strawberry-rhubarb-shortcake-with-whipped-mascarpone",
+      "term": "thyme",
+      "steps": [
+        "7.  **Finish:** Add a dollop of mascarpone cream and fresh thyme for the final **High Note**."
+      ],
+      "disposition": "serving-finish-or-optional-completeness"
+    },
+    {
+      "slug": "strawberry-summer-cake",
+      "term": "cream",
+      "steps": [
+        "1.  **Cream:** Preheat oven to 350\u00b0F. Butter a 9-inch deep-dish pie pan (mandatory for volume). Beat butter and 1 cup sugar for 3 minutes until pale and fluffy.",
+        "7.  **Serve:** Let cool completely in the pan. Serve with lightly whipped cream."
+      ],
+      "disposition": "serving-finish-or-optional-completeness"
+    },
+    {
+      "slug": "strozzapreti-with-spinach-and-preserved-lemon",
+      "term": "olive oil",
+      "steps": [
+        "1.  **The Crunch:** In a large skillet, melt 2 tbsp butter with 2 tbsp olive oil. Saut\u00e9 garlic and red pepper flakes for 1 minute. Add panko and cook until golden brown and softened mahogany brown (2 mins). Stir in lemon zest. Remove to a plate."
+      ],
+      "disposition": "confirmed-list-method-contradiction",
+      "ingredientList": [
+        "12 oz Fresh Strozzapreti (or Cavatappi)",
+        "1 stick (8 tbsp) Unsalted Butter",
+        "1 tbsp Preserved Lemon Peel, minced",
+        "1 tbsp Fresh Lemon Juice (The Acid Balance)",
+        "2 bunches Flat-leaf Spinach, trimmed",
+        "3/4 cup Panko Breadcrumbs (The Crunch)",
+        "1 clove Garlic, crushed",
+        "1/2 tsp Red Pepper Flakes",
+        "1 tsp Lemon Zest"
+      ]
+    },
+    {
+      "slug": "sugar-cookie",
+      "term": "cream",
+      "steps": [
+        "2.  **Cream:** In a stand mixer, beat softened butter and sugar for 2 minutes until light and airy. Add eggs one at a time, then vanilla."
+      ],
+      "disposition": "dismissed-context-or-alias"
+    },
+    {
+      "slug": "super-lemony-olive-oil-cake",
+      "term": "cream",
+      "steps": [
+        "3.  **Emulsify:** Whisk in the milk, vanilla, lemon juice, and zest until the mixture looks like a thick, glossy cream."
+      ],
+      "disposition": "dismissed-context-or-alias"
+    },
+    {
+      "slug": "sweet-and-spicy-spareribs-with-korean-barbecue-sauce",
+      "term": "lime",
+      "steps": [
+        "7.  **Serve:** Transfer to a platter. Serve with extra lime wedges for the mandatory **Acid Balance**."
+      ],
+      "disposition": "serving-finish-or-optional-completeness"
+    },
+    {
+      "slug": "sweet-and-white-potato-gratin",
+      "term": "butter",
+      "steps": [
+        "1.  **Infuse:** In a medium pot, heat 1 tbsp butter over low heat. Add garlic and spices and bloom for 1 minute. Whisk in the cream, salt, and pepper. Warm over low heat (do not boil) just to marry the flavors.",
+        "4.  **Layer:** Lightly butter a 9x13 baking dish. Pour 1/2 cup of the cream on the bottom."
+      ],
+      "disposition": "confirmed-list-method-contradiction",
+      "ingredientList": [
+        "2 lbs Sweet Potatoes, peeled",
+        "1.5 lbs White Potatoes (Yukon Gold), peeled",
+        "3 cups Heavy Cream",
+        "3 cloves Garlic, minced",
+        "1 tbsp Fresh Thyme",
+        "1 tbsp Fresh Sage",
+        "1/4 tsp Nutmeg",
+        "Dash of Cayenne Pepper",
+        "2.5 cups Gruy\u00e8re Cheese, shredded",
+        "2 cups Parmesan Reggiano, finely grated"
+      ]
+    },
+    {
+      "slug": "tom-kha-gai-coconut-chicken-soup",
+      "term": "cream",
+      "steps": [
+        "6. **Serve:** Divide meat, vegetables and broth among four modest bowls and finish with cilantro. Serve separately prepared plain rice if wanted. Do not add an unmeasured extra coconut-cream drizzle; the broth already contains its full coconut portion."
+      ],
+      "disposition": "dismissed-context-or-alias"
+    },
+    {
+      "slug": "whole-wheat-muffins-fruit-nut-or-berry",
+      "term": "butter",
+      "steps": ["7.  **Serve:** Best served warm with salted butter."],
+      "disposition": "serving-finish-or-optional-completeness"
+    },
+    {
+      "slug": "yaki-udon",
+      "term": "sesame oil",
+      "steps": [
+        "1.  **Noodles:** Bring a pot of water to a boil. Add frozen udon. As soon as the noodles separate (about 1 minute), drain them. **Do not overcook.** Rinse with cold water and toss with a drop of sesame oil."
+      ],
+      "disposition": "confirmed-list-method-contradiction",
+      "ingredientList": [
+        "1 lb Frozen Udon Noodles (preferred over vacuum-sealed)",
+        "1/2 lb Ground Pork or Thinly Sliced Beef",
+        "1 cup Mushrooms, sliced",
+        "1 Carrot, cut into matchsticks",
+        "1 small bunch Bok Choy, sliced",
+        "2 tbsp Soy Sauce",
+        "1 tbsp Oyster Sauce",
+        "1 tbsp Mirin",
+        "1 tsp Rice Vinegar",
+        "1 tsp Sugar"
+      ]
+    },
+    {
+      "slug": "yellow-cake-with-chocolate-frosting",
+      "term": "cream",
+      "steps": [
+        "1.  **Cream:** Preheat oven to 350\u00b0F. Line two 9-inch cake pans with parchment. Beat butter and sugar for 3 minutes until pale. Whisk in the oil."
+      ],
+      "disposition": "dismissed-context-or-alias",
+      "ingredientList": [
+        "2 2/3 cups All-Purpose Flour",
+        "3/4 cup Unsalted Butter, room temp",
+        "1/4 cup Avocado or Canola Oil",
+        "2 cups Granulated Sugar",
+        "3 large Eggs + 2 large Egg Yolks",
+        "1 cup Whole Buttermilk",
+        "1 tbsp Pure Vanilla Extract",
+        "1/2 cup Unsalted Butter, melted",
+        "2/3 cup Unsweetened Cocoa Powder",
+        "3 cups Confectioners\u2019 Sugar",
+        "1/3 cup Whole Milk"
+      ]
+    },
+    {
+      "slug": "yellow-cake-with-chocolate-frosting",
+      "term": "baking powder",
+      "steps": ["3.  **Dry Mix:** Whisk flour, baking powder, and salt."],
+      "disposition": "confirmed-list-method-contradiction",
+      "ingredientList": [
+        "2 2/3 cups All-Purpose Flour",
+        "3/4 cup Unsalted Butter, room temp",
+        "1/4 cup Avocado or Canola Oil",
+        "2 cups Granulated Sugar",
+        "3 large Eggs + 2 large Egg Yolks",
+        "1 cup Whole Buttermilk",
+        "1 tbsp Pure Vanilla Extract",
+        "1/2 cup Unsalted Butter, melted",
+        "2/3 cup Unsweetened Cocoa Powder",
+        "3 cups Confectioners\u2019 Sugar",
+        "1/3 cup Whole Milk"
+      ]
+    },
+    {
+      "slug": "zuppa-toscana",
+      "term": "olive oil",
+      "steps": [
+        "6.  **Serve:** Ladle into deep bowls. Top with a final crack of black pepper and a drizzle of olive oil for the mandatory **High Note**."
+      ],
+      "disposition": "serving-finish-or-optional-completeness"
+    }
+  ],
+  "unusedIngredientReview": {
+    "confirmed": [
+      {
+        "slug": "blackout-chocolate-cake",
+        "finding": "1 1/2 tsp baking powder is listed; step3 enumerates flour, sugar, baking soda and salt but omits baking powder."
+      },
+      {
+        "slug": "tomato-and-goat-cheese-tart",
+        "finding": "1/2 tsp baking powder has no destination in the enumerated crust method; thyme appears in crust and filling without division."
+      },
+      {
+        "slug": "vegetable-muffin",
+        "finding": "1 tsp baking powder is listed but omitted from enumerated dry mix; that mix instead adds unlisted salt."
+      }
+    ],
+    "allocationConcerns": [
+      {
+        "slug": "brown-butter-carrot-cake",
+        "finding": "One teaspoon vanilla listed, but batter and frosting both request vanilla without an allocation."
+      },
+      {
+        "slug": "sweet-and-white-potato-gratin",
+        "finding": "Method moves from buttering dish/adding1/2cup cream straight to top layer; intervening potato/cheese/remaining-cream assembly is missing."
+      },
+      {
+        "slug": "shrimp-wonton-soup",
+        "finding": "All seasonings assigned to filling then extra soy/sesame assigned to bowls without division; wrappers linked in method but absent from ingredient list."
+      }
+    ],
+    "limitations": "537 raw nonmentions are not 537 defects. Generic dry/wet ingredients, aromatics, dried fruit, aliases and negated ingredient descriptions create false positives. Selected high-consequence leavening/vanilla cases inspected; remaining raw nonmentions are not promoted to actionable findings."
+  },
+  "yieldFallbacks": [
+    {
+      "slug": "aloo-gobi-potato-cauliflower-curry",
+      "yield": "4 mains or 6 generous sides"
+    },
+    {
+      "slug": "asian-glazed-meatballs",
+      "yield": "5 (about 24 meatballs)"
+    },
+    {
+      "slug": "chicken-pot-pie-ix",
+      "yield": "8 slices (one deep 9-inch pie)"
+    },
+    {
+      "slug": "garlic-honey-lime-shrimp",
+      "yield": "4 modest portions with rice and vegetables, or 2 larger portions"
+    },
+    {
+      "slug": "israeli-style-hummus",
+      "yield": "Approximately 3 1/2\u20134 cups; 7\u20138 half-cup portions"
+    },
+    {
+      "slug": "scallion-shallot-oil",
+      "yield": "About 3/4 cup oil plus 1/2 cup fried alliums"
+    },
+    {
+      "slug": "seared-salmon-with-summer-vegetables",
+      "yield": "6 small-course portions, or 3\u20134 main-course portions"
+    },
+    {
+      "slug": "stir-fried-shrimp-with-snow-peas-and-ginger",
+      "yield": "4 modest portions with rice, or 2 larger portions"
+    },
+    {
+      "slug": "vietnamese-spring-rolls",
+      "yield": "4 side portions (8 rolls, plus any extra filling)"
+    }
+  ],
+  "mealTiming": [
+    {
+      "meal": "bbq-pulled-pork-spread.md",
+      "component": "pulled-pork",
+      "mealMinutes": 50,
+      "componentMinutes": 690,
+      "explicitTotal": true,
+      "disposition": "dismissed-explicit-previously-cooked-pork"
+    },
+    {
+      "meal": "beef-stew-night.md",
+      "component": "classic-beef-stew",
+      "mealMinutes": 140,
+      "componentMinutes": 240,
+      "explicitTotal": false,
+      "disposition": "confirmed-schedule-component-mismatch"
+    },
+    {
+      "meal": "bibimbap-night.md",
+      "component": "steamed-white-rice",
+      "mealMinutes": 40,
+      "componentMinutes": 65,
+      "explicitTotal": false,
+      "disposition": "needs-context-review-not-confirmed"
+    },
+    {
+      "meal": "brisket-dinner.md",
+      "component": "chef-krigers-recipe-shabbat-brisket",
+      "mealMinutes": 260,
+      "componentMinutes": 720,
+      "explicitTotal": false,
+      "disposition": "needs-context-review-not-confirmed"
+    },
+    {
+      "meal": "chicken-lettuce-wrap-night.md",
+      "component": "chicken-lettuce-wraps",
+      "mealMinutes": 20,
+      "componentMinutes": 30,
+      "explicitTotal": false,
+      "disposition": "confirmed-schedule-component-mismatch"
+    },
+    {
+      "meal": "chicken-lettuce-wrap-night.md",
+      "component": "smashed-cucumber-salad",
+      "mealMinutes": 20,
+      "componentMinutes": 25,
+      "explicitTotal": false,
+      "disposition": "confirmed-schedule-component-mismatch"
+    },
+    {
+      "meal": "chicken-marsala-dinner.md",
+      "component": "chicken-marsala",
+      "mealMinutes": 40,
+      "componentMinutes": 50,
+      "explicitTotal": false,
+      "disposition": "needs-context-review-not-confirmed"
+    },
+    {
+      "meal": "chicken-parmesan-night.md",
+      "component": "fresh-egg-pasta",
+      "mealMinutes": 45,
+      "componentMinutes": 110,
+      "explicitTotal": false,
+      "disposition": "confirmed-schedule-component-mismatch"
+    },
+    {
+      "meal": "coq-au-vin-dinner.md",
+      "component": "chicken-coq-au-vin",
+      "mealMinutes": 80,
+      "componentMinutes": 150,
+      "explicitTotal": false,
+      "disposition": "confirmed-schedule-component-mismatch"
+    },
+    {
+      "meal": "dim-sum-feast.md",
+      "component": "har-gow-dim-sum-shrimp-dumplings",
+      "mealMinutes": 120,
+      "componentMinutes": 140,
+      "explicitTotal": false,
+      "disposition": "needs-context-review-not-confirmed"
+    },
+    {
+      "meal": "enchilada-night.md",
+      "component": "guacamole",
+      "mealMinutes": 45,
+      "componentMinutes": 80,
+      "explicitTotal": false,
+      "disposition": "needs-context-review-not-confirmed"
+    },
+    {
+      "meal": "frittata-brunch.md",
+      "component": "roasted-sweet-potatoes",
+      "mealMinutes": 30,
+      "componentMinutes": 40,
+      "explicitTotal": false,
+      "disposition": "needs-context-review-not-confirmed"
+    },
+    {
+      "meal": "grilled-chicken-summer-plate.md",
+      "component": "crispy-smashed-potatoes",
+      "mealMinutes": 45,
+      "componentMinutes": 50,
+      "explicitTotal": false,
+      "disposition": "needs-context-review-not-confirmed"
+    },
+    {
+      "meal": "kimchi-jjigae-comfort.md",
+      "component": "steamed-white-rice",
+      "mealMinutes": 45,
+      "componentMinutes": 65,
+      "explicitTotal": false,
+      "disposition": "needs-context-review-not-confirmed"
+    },
+    {
+      "meal": "korean-bbq-night.md",
+      "component": "kalbi-grilled-korean-style-short-ribs",
+      "mealMinutes": 45,
+      "componentMinutes": 600,
+      "explicitTotal": false,
+      "disposition": "advance-preparation-explicit-not-same-day-contradiction"
+    },
+    {
+      "meal": "korean-bbq-night.md",
+      "component": "steamed-white-rice",
+      "mealMinutes": 45,
+      "componentMinutes": 65,
+      "explicitTotal": false,
+      "disposition": "needs-context-review-not-confirmed"
+    },
+    {
+      "meal": "korean-bbq-night.md",
+      "component": "fresh-cabbage-cucumber-and-radish-kimchi",
+      "mealMinutes": 45,
+      "componentMinutes": 375,
+      "explicitTotal": false,
+      "disposition": "advance-preparation-explicit-not-same-day-contradiction"
+    },
+    {
+      "meal": "mapo-tofu-night.md",
+      "component": "mapo-tofu",
+      "mealMinutes": 25,
+      "componentMinutes": 30,
+      "explicitTotal": false,
+      "disposition": "needs-context-review-not-confirmed"
+    },
+    {
+      "meal": "mapo-tofu-night.md",
+      "component": "steamed-white-rice",
+      "mealMinutes": 25,
+      "componentMinutes": 65,
+      "explicitTotal": false,
+      "disposition": "needs-context-review-not-confirmed"
+    },
+    {
+      "meal": "marinated-flank-steak-salad-night.md",
+      "component": "marinated-flank-steak-salad",
+      "mealMinutes": 30,
+      "componentMinutes": 150,
+      "explicitTotal": false,
+      "disposition": "needs-context-review-not-confirmed"
+    },
+    {
+      "meal": "pad-thai-night.md",
+      "component": "pad-thai",
+      "mealMinutes": 30,
+      "componentMinutes": 60,
+      "explicitTotal": false,
+      "disposition": "needs-context-review-not-confirmed"
+    },
+    {
+      "meal": "pork-tenderloin-dinner.md",
+      "component": "rosemary-pork-tenderloin",
+      "mealMinutes": 40,
+      "componentMinutes": 105,
+      "explicitTotal": false,
+      "disposition": "needs-context-review-not-confirmed"
+    },
+    {
+      "meal": "pork-tenderloin-dinner.md",
+      "component": "garlic-roasted-potatoes",
+      "mealMinutes": 40,
+      "componentMinutes": 75,
+      "explicitTotal": false,
+      "disposition": "needs-context-review-not-confirmed"
+    },
+    {
+      "meal": "pulled-pork-spread.md",
+      "component": "pulled-pork",
+      "mealMinutes": 680,
+      "componentMinutes": 690,
+      "explicitTotal": false,
+      "disposition": "needs-context-review-not-confirmed"
+    },
+    {
+      "meal": "sausage-sheet-pan-night.md",
+      "component": "crispy-smashed-potatoes",
+      "mealMinutes": 45,
+      "componentMinutes": 50,
+      "explicitTotal": false,
+      "disposition": "needs-context-review-not-confirmed"
+    },
+    {
+      "meal": "sheet-pan-pesto-chicken.md",
+      "component": "sheet-pan-pesto-chicken-meal-prep-bowls",
+      "mealMinutes": 35,
+      "componentMinutes": 40,
+      "explicitTotal": false,
+      "disposition": "needs-context-review-not-confirmed"
+    },
+    {
+      "meal": "sheet-pan-pesto-chicken.md",
+      "component": "roasted-sweet-potatoes",
+      "mealMinutes": 35,
+      "componentMinutes": 40,
+      "explicitTotal": false,
+      "disposition": "needs-context-review-not-confirmed"
+    },
+    {
+      "meal": "southern-bbq-spread.md",
+      "component": "pulled-pork",
+      "mealMinutes": 680,
+      "componentMinutes": 690,
+      "explicitTotal": false,
+      "disposition": "needs-context-review-not-confirmed"
+    },
+    {
+      "meal": "spaghetti-night.md",
+      "component": "pressure-cooker-bolognase",
+      "mealMinutes": 60,
+      "componentMinutes": 80,
+      "explicitTotal": false,
+      "disposition": "needs-context-review-not-confirmed"
+    },
+    {
+      "meal": "stuffed-shells-dinner.md",
+      "component": "stuffed-shells-filled-with-spinach-and-ricotta",
+      "mealMinutes": 60,
+      "componentMinutes": 70,
+      "explicitTotal": false,
+      "disposition": "needs-context-review-not-confirmed"
+    },
+    {
+      "meal": "tonkotsu-ramen-project.md",
+      "component": "tonkotsu-style-ramen",
+      "mealMinutes": 300,
+      "componentMinutes": 780,
+      "explicitTotal": false,
+      "disposition": "needs-context-review-not-confirmed"
+    },
+    {
+      "meal": "weeknight-paella.md",
+      "component": "weeknight-paella",
+      "mealMinutes": 45,
+      "componentMinutes": 50,
+      "explicitTotal": false,
+      "disposition": "needs-context-review-not-confirmed"
+    }
+  ],
+  "relationshipChecks": {
+    "brokenMetadataReferences": [],
+    "exactIngredientListDuplicates": [],
+    "limitations": "Does not rule out near-duplicates or validate portion composition. No merge proposed."
+  },
+  "productionBrowserChecks": {
+    "recipes": [
+      "anadama-bread",
+      "breakfast-carrot-cake",
+      "banana-nut-bread",
+      "aloo-gobi-potato-cauliflower-curry"
+    ],
+    "checks": "checkbox, scaling/reset, cooking-mode toggle, mobile overflow, print heading",
+    "browserErrors": [],
+    "result": "Passed; compact-unit and butter-equivalent defects also reproduced in rendered scaled lists."
+  }
+}

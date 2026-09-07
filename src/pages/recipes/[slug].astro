@@ -249,7 +249,11 @@ function buildRecipeSchema() {
       <h2 id="ingredients">Ingredients</h2>
       {
         recipe.data.servings && (
-          <RecipeScaler servings={recipe.data.servings} scaling={recipe.data.scaling} />
+          <RecipeScaler
+            servings={recipe.data.servings}
+            scaling={recipe.data.scaling}
+            formula={recipe.data.formula}
+          />
         )
       }
       <ul class="ingredient-list">
@@ -268,6 +272,7 @@ function buildRecipeSchema() {
                 <label
                   for={`ingredient-${i}`}
                   id={`ingredient-label-${i}`}
+                  data-formula-index={recipe.data.formula ? i : undefined}
                   data-ingredient-text
                   set:html={parseIngredientHtml(ingredient)}
                 />

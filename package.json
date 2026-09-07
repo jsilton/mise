@@ -32,7 +32,9 @@
     "export:jsonld": "node scripts/export-jsonld.mjs",
     "precommit": "npm run validate-recipes && npm run lint-recipe:staged",
     "test": "node --test scripts/tests/*.test.mjs",
-    "editorial-audit": "node scripts/recipe-editorial.mjs"
+    "editorial-audit": "node scripts/recipe-editorial.mjs",
+    "recipe:compile": "node scripts/compile-recipe-formulas.mjs",
+    "prebuild": "node scripts/compile-recipe-formulas.mjs --check"
   },
   "dependencies": {
     "@astrojs/tailwind": "^6.0.0",

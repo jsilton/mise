@@ -162,6 +162,28 @@ const templateColors: Record<string, { bg: string; text: string }> = Object.from
     </header>
 
     {/* Recipe Components */}
+    {
+      meal.data.componentPreparation && (
+        <section class="mb-8" aria-label="Meal preparation">
+          <h2 class="text-lg font-semibold mb-3">Before you start</h2>
+          <ul class="space-y-2">
+            {Object.entries(meal.data.componentPreparation).map(([slug, prep]) => (
+              <li>
+                <strong>{getRecipeTitle(slug)}:</strong>{' '}
+                {
+                  {
+                    'from-scratch': 'Make from scratch',
+                    'prepared-ahead': 'Prepare ahead',
+                    reheat: 'Use cooked and chilled',
+                  }[prep.state]
+                }
+                . {prep.note}
+              </li>
+            ))}
+          </ul>
+        </section>
+      )
+    }
     <section data-meal-components class="mb-8">
       <h2
         class="text-xs font-semibold uppercase tracking-wider mb-3"

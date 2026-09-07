@@ -365,3 +365,19 @@ test('yield nouns follow scaled counts, including irregular plurals and modifier
   ])
     assert.equal(formatYield(input, factor), expected);
 });
+
+test('compact measures and equivalent totals scale without changing per-package sizes', () => {
+  for (const [input, expected] of [
+    ['250g carrots', '500 g carrots'],
+    ['350g (0.8 lbs) sprouts', '700 g (1.6 lbs) sprouts'],
+    ['1/2 cup (1 stick) butter', '1 cup (2 sticks) butter'],
+    ['1 stick (1/2 cup) butter', '2 sticks (1 cup) butter'],
+    ['40 oz (5 packs) cream cheese', '80 oz (10 packs) cream cheese'],
+    ['2.25 lb (about 1,020 g) salmon', '4 1/2 lb (about 2040 g) salmon'],
+    ['2 (14 oz) cans tomatoes', '4 (14 oz) cans tomatoes'],
+    ['2-inch piece ginger', '2-inch piece ginger'],
+  ]) {
+    assert.equal(scaleIngredient(input, 2), expected);
+    assert.equal(scaleIngredient(input, 1), input);
+  }
+});

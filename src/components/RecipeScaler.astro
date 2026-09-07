@@ -1,16 +1,19 @@
 ---
+import { formulaShoppingList } from '../lib/recipe-formula.mjs';
 import { formatYield } from '../lib/quantities.mjs';
 interface Props {
   servings: string;
+  formula?: any;
   scaling?: { mode: 'fixed'; reason: string };
 }
-const { servings, scaling } = Astro.props;
+const { servings, scaling, formula } = Astro.props;
 const fixed = scaling?.mode === 'fixed';
 ---
 
 <div
   id="recipe-scaler"
   data-original-yield={servings}
+  data-formula={formula ? JSON.stringify(formula) : undefined}
   data-current-scale="1"
   data-fixed-batch={fixed ? '' : undefined}
 >
@@ -30,10 +33,32 @@ const fixed = scaling?.mode === 'fixed';
   <p id="scaling-note" role="status" aria-live="polite">
     {fixed ? scaling?.reason : 'Original quantities. Choose a batch size.'}
   </p>
+  {
+    formula && (
+      <details class="shopping-list">
+        <>
+          <summary>Combined shopping list</summary>
+          <ul>
+            {formulaShoppingList(formula).map((line) => (
+              <li data-formula-shopping>{line}</li>
+            ))}
+          </ul>
+        </>
+      </details>
+    )
+  }
 </div>
 <script>
+  import {
+    formulaEntries,
+    formatFormulaIngredient,
+    formulaYield,
+    formulaShoppingList,
+  } from '../lib/recipe-formula.mjs';
   import { scaleIngredient, formatYield } from '../lib/quantities.mjs';
   const scaler = document.getElementById('recipe-scaler');
+  const formula = scaler?.dataset.formula ? JSON.parse(scaler.dataset.formula) : null;
+  const entries = formula ? formulaEntries(formula) : [];
   scaler?.querySelectorAll<HTMLButtonElement>('[data-scale]').forEach((button) => {
     button.addEventListener('click', () => {
       const factor = Number(button.dataset.scale);
@@ -46,10 +71,21 @@ const fixed = scaling?.mode === 'fixed';
         const first = span.firstChild;
         if (first?.nodeType !== Node.TEXT_NODE) return;
         span.dataset.original ??= first.textContent || '';
-        first.textContent = scaleIngredient(span.dataset.original, factor);
+        const entry = entries[Number(span.dataset.formulaIndex)];
+        first.textContent = entry
+          ? formatFormulaIngredient(entry, factor)
+          : scaleIngredient(span.dataset.original, factor);
       });
       const yieldLabel = document.getElementById('scaled-yield');
-      const scaledYield = formatYield(scaler.dataset.originalYield || '', factor);
+      const scaledYield = formula
+        ? formulaYield(formula, factor)
+        : formatYield(scaler.dataset.originalYield || '', factor);
+      if (formula) {
+        const shopping = formulaShoppingList(formula, factor);
+        document.querySelectorAll('[data-formula-shopping]').forEach((item, index) => {
+          item.textContent = shopping[index];
+        });
+      }
       if (yieldLabel) yieldLabel.textContent = scaledYield;
       const headerYield = document.querySelector('[data-header-yield]');
       if (headerYield) headerYield.textContent = scaledYield.replace(/^Serves /, '');
