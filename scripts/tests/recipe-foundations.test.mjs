@@ -326,3 +326,19 @@ test('worded leading ranges scale both bounds without changing purpose or packag
   assert.equal(scaleIngredient('1 cup ready-to-eat noodles', 2), '2 cups ready-to-eat noodles');
   assert.equal(scaleIngredient('3 to 4 tbsp curry paste', 1), '3 to 4 tbsp curry paste');
 });
+
+test('equivalent measured ranges scale while counted sizes stay fixed', () => {
+  const stock = '1 1/2–2 1/2 cups (360–600 ml) stock';
+  assert.equal(scaleIngredient(stock, 0.5), '3/4–1 1/4 cups (180–300 ml) stock');
+  assert.equal(scaleIngredient(stock, 2), '3–5 cups (720–1200 ml) stock');
+  assert.equal(
+    scaleIngredient('1–2 cups (about 240 to 480 ml) water', 2),
+    '2–4 cups (about 480–960 ml) water'
+  );
+  assert.equal(scaleIngredient('2 packages (400–500 g) tofu', 2), '4 packages (400–500 g) tofu');
+  assert.equal(scaleIngredient('1 squash (about 3–4 lbs)', 2), '2 squash (about 3–4 lbs)');
+  assert.equal(
+    scaleIngredient('1 lb shrimp (20–24 per pound)', 2),
+    '2 lb shrimp (20–24 per pound)'
+  );
+});

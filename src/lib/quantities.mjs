@@ -136,14 +136,17 @@ export function scaleIngredient(text, factor) {
     )
   ) {
     const equivalent = new RegExp(
-      `\\((about\\s+)?(${number})\\s*(g|kg|ml|oz|lbs?|l|liters?|litres?|cups?|tbsp|tsp)\\)`,
+      `\\((about\\s+)?(${number})(?:(?:\\s*[–—-]\\s*|\\s+to\\s+)(${number}))?\\s*(g|kg|ml|oz|lbs?|l|liters?|litres?|cups?|tbsp|tsp)\\)`,
       'gi'
     );
-    rest = rest.replace(equivalent, (match, qualifier, amount, unit) => {
-      const value = numeric(amount);
-      return value === null
-        ? match
-        : `(${qualifier || ''}${formatQuantity(value * factor)} ${countedUnits.includes(unit.toLowerCase().replace(/s$/, '')) ? scaledUnit(unit, value * factor) : unit})`;
+    rest = rest.replace(equivalent, (match, qualifier, amount, upper, unit) => {
+      const values = [amount, upper].filter(Boolean).map(numeric);
+      if (values.some((value) => value === null)) return match;
+      const scaled = values.map((value) => value * factor);
+      const label = countedUnits.includes(unit.toLowerCase().replace(/s$/, ''))
+        ? scaledUnit(unit, Math.max(...scaled))
+        : unit;
+      return `(${qualifier || ''}${scaled.map(formatQuantity).join('–')} ${label})`;
     });
   }
   const additionalOrAlternative = new RegExp(

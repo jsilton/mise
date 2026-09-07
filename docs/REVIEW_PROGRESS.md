@@ -1,3 +1,13 @@
+# Latest milestone: soups, fruit salads and equivalent ranges
+
+Eight original recipes have complete editorial reviews: three distinct tomato soup preparations, zucchini soup, two peach salads, Thai green mango salad and sesame tomato salad. No duplicates were merged: the tomato formulas and sandwich composition differ materially. No direct meal dependencies were found. Original totals:223 reviewed,10 consolidated,379 pending;225 reviewed canonical recipes including two additions. Meals remain46 reviewed,2 consolidated,40 pending. No physical kitchen tests.
+
+The shared scaler now handles parenthesized measured ranges. Cornbread dressing’s stock milliliters stay aligned with the cups at half and double portions. A full604-recipe comparison changes exactly that one ingredient line; counted package sizes and produce-size descriptions remain fixed. Independent expectations and36 regression tests pass. An initial test incorrectly expected lb abbreviation pluralization; its expectation was corrected to preserve existing formatting, not to change unrelated unit behavior.
+
+Two family reviewers reused cold-side evidence and shared appliance guidance. Root checked complete drafts and identities; an independent soup pass caught stale covered-simmer wording and editorial residue. The batch preserves richness, clarifies beets’ cooking/cooling, appliance-specific hot blending, additional raw zucchini garnish, and gradual dressing use. Exact equivalent-range impact is in scaling-equivalent-ranges.json. No measured cost savings are claimed.
+
+Prior range fixe5fed826 deployed in Pages run34074202035 and passed all six production recipe checks. Validation passed29/29 QA checks,36/36 tests, eight-recipe targeted lint and719 built pages without broken destinations/anchors. Browser checks passed all eight recipes for content, scaling/reset, inline checkpoints, footer-only review links, mobile/cook/print and page errors; cornbread stock equivalent ranges passed half/double/reset. Planned kitchen checks are in kitchen-tests/soups-and-fruit-salads.md. Production verification follows publication.
+
 # Latest milestone: worded quantity ranges
 
 The shared quantity scaler now recognizes leading ranges written with “to” and scales both endpoints. Comparison across all604 current recipe files changes exactly six ingredient lines; all independent half/double expectations pass. Package sizes, purpose phrases and original1x wording remain unchanged. Exact impact is recorded in scaling-worded-ranges.json. This is an arithmetic correction and advances no editorial status.
