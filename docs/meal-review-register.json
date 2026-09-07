@@ -1,9 +1,9 @@
 {
   "originalMeals": 88,
   "currentMeals": 86,
-  "individuallyReviewed": 37,
+  "individuallyReviewed": 38,
   "consolidatedAfterReview": 2,
-  "pending": 49,
+  "pending": 48,
   "kitchenTested": 0,
   "records": [
     {
@@ -356,7 +356,14 @@
     },
     {
       "slug": "sheet-pan-fajita-night",
-      "status": "pending"
+      "status": "editorial-review",
+      "record": "docs/meal-reviews/sheet-pan-fajita-night.md",
+      "components": [
+        "sheet-pan-chicken-fajitas",
+        "cilantro-lime-rice",
+        "guacamole",
+        "quick-seasoned-black-beans"
+      ]
     },
     {
       "slug": "sheet-pan-pesto-chicken",

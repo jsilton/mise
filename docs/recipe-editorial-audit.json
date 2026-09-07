@@ -1,11 +1,11 @@
 {
   "summary": {
     "recipes": 605,
-    "editoriallyReviewed": 180,
+    "editoriallyReviewed": 183,
     "kitchenTested": 0,
     "errors": 0,
     "priorityReviews": 0,
-    "reviewItems": 845
+    "reviewItems": 840
   },
   "limitations": "Automated triage only. Does not establish culinary quality, food safety, source validity, or kitchen testing.",
   "recipes": [
@@ -3773,15 +3773,9 @@
     {
       "slug": "guacamole",
       "title": "Guacamole",
-      "status": "collection",
-      "stepCount": 6,
-      "issues": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        }
-      ]
+      "status": "editorial-review",
+      "stepCount": 5,
+      "issues": []
     },
     {
       "slug": "ham-and-cheese-green-bean-casserole",
@@ -6138,20 +6132,9 @@
     {
       "slug": "quick-seasoned-black-beans",
       "title": "Seasoned Black Beans",
-      "status": "collection",
+      "status": "editorial-review",
       "stepCount": 4,
-      "issues": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ]
+      "issues": []
     },
     {
       "slug": "quick-wonton-soup",
@@ -6896,20 +6879,9 @@
     {
       "slug": "sheet-pan-chicken-fajitas",
       "title": "Sheet Pan Chicken Fajitas",
-      "status": "collection",
-      "stepCount": 6,
-      "issues": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ]
+      "status": "editorial-review",
+      "stepCount": 7,
+      "issues": []
     },
     {
       "slug": "sheet-pan-feta-chicken",

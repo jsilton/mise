@@ -1,4 +1,12 @@
-# Latest milestone: three cold-side recipes completed editorially
+# Latest milestone: fajita recipes and complete dinner reviewed
+
+Sheet Pan Chicken Fajitas, Guacamole and Seasoned Black Beans now have individual editorial reviews; Chicken Fajita Dinner has a complete four-component review. Recovered Modern Proper and Alton Brown attribution is restored. Original produce counts and kosher salt remain; unsupported weight/yield equivalents were rejected. Fajitas have explicit seasoning and two-pan handling, while the meal coordinates six portions, a refrigerated guacamole rest, rice and the full bean method.
+
+Original recipe totals:181 reviewed,9 consolidated,422 pending; two additional reviews make183 current canonical editorial reviews. Original meal totals:38 reviewed,2 consolidated,48 pending. No physical kitchen tests recorded.
+
+Verification:29/29 QA checks,719 built pages with no broken links/anchors, targeted recipe lint and browser checks for three recipes plus the complete meal. Checks cover side ingredient scaling/reset, fixed two-pan explanation, attribution, cooking temperature, meal time/portions, inline checkpoints, mobile/cook/print and footer-only review links. Production verification follows publication.
+
+# Previous milestone: three cold-side recipes completed editorially
 
 Cabbage Slaw with Peanuts and Sesame, Napa Slaw with Edamame and Crispy Wontons, and Vietnamese Fresh Spring Rolls now have complete individual reviews. Their existing URLs are preserved. All ingredient amounts were reconciled; the slaws remain distinct, and the generous spring-roll filling has an explicit capacity contingency pending physical testing.
 
@@ -6,7 +14,7 @@ Original recipe totals: 178 reviewed, 9 consolidated, 425 pending. Two additiona
 
 Added a reusable cold-side evidence packet and removed fourteen false manufacturer warnings caused by treating sriracha as a brand. No recipe ingredients changed through that audit correction. This demonstrates a specific reduction in redundant review work; cost/time savings remain unmeasured.
 
-Validation: 29/29 QA checks, 719 built pages with no broken destinations/anchors, and all three recipe pages checked for ingredient doubling/reset, inline checkpoints, mobile layout, cooking mode, print and footer-only review links. Production verification follows publication.
+Validation: 29/29 QA checks, 719 built pages with no broken destinations/anchors, and all three recipe pages checked for ingredient doubling/reset, inline checkpoints, mobile layout, cooking mode, print and footer-only review links. Published as0c0fdacf; deployment34069923215 succeeded and all three recipes passed the same production browser checks.
 
 # Previous milestone: fresh sides and two complete meal plans
 
@@ -51,10 +59,10 @@ For each recipe review: inspect the complete ingredients and method; reconcile a
 ## Current implementation
 
 - New shared reading/cooking experience, educational homepage, ten public technique lessons, and explicit editorial versus kitchen-tested status.
-- 180 canonical recipes now have individually written editorial reviews. The complete current list and original-source accounting are in [recipe-review-register.json](recipe-review-register.json); individual evidence is in [reviews](reviews).
+- 183 canonical recipes now have individually written editorial reviews. The complete current list and original-source accounting are in [recipe-review-register.json](recipe-review-register.json); individual evidence is in [reviews](reviews).
 - Nine original duplicates were individually compared and consolidated: esquites-mexican-street-corn-salad → mexican-street-corn-salad; sesame-cucumber-salad → smashed-cucumber-salad; greek-salad → greek-village-salad; japanese-short-grain-rice-gohan → steamed-white-rice; rich-coconut-rice → coconut-jasmine-rice; japanese-eggplant-with-chicken-and-thai-basil → stir-fried-chicken-and-eggplant-with-thai-basil; classic-coleslaw → coleslaw; chinese-spicy-garlic-eggplant → eggplant-with-garlic-sauce; cranberry-orange-sauce → perfect-cranberry-sauce. Old URLs preserve bookmarks and anchors. All internal references were updated.
-- The original 612 sources remain accounted for in docs/recipe-review-baseline.json and docs/recipe-review-register.json: 178 editorially reviewed, 9 consolidated after review, 425 still pending. Two additional individually reviewed recipes (turkey gravy and extracted mint tzatziki) are tracked separately from the original baseline. The live collection has 605 canonical records, including two craft recipes.
-- The original 88 composed meals are accounted for: 37 canonical meals have individual editorial reviews with all required components reviewed, two duplicates were consolidated after comparison, and 49 meals remain pending. The live collection has 86 canonical meals. Meal calendars are removed and out of scope.
+- The original 612 sources remain accounted for in docs/recipe-review-baseline.json and docs/recipe-review-register.json: 181 editorially reviewed, 9 consolidated after review, 422 still pending. Two additional individually reviewed recipes (turkey gravy and extracted mint tzatziki) are tracked separately from the original baseline. The live collection has 605 canonical records, including two craft recipes.
+- The original 88 composed meals are accounted for: 38 canonical meals have individual editorial reviews with all required components reviewed, two duplicates were consolidated after comparison, and 48 meals remain pending. The live collection has 86 canonical meals. Meal calendars are removed and out of scope.
 - These are editorial reviews only. No physical kitchen tests have been recorded.
 - All current canonical recipes are indexed in docs/recipe-editorial-audit.json. Its flags are triage, not completed reviews.
 - Legacy nutrition withheld pending recalculation. Two craft dough recipes excluded from food discovery while preserving their source pages.
@@ -62,7 +70,7 @@ For each recipe review: inspect the complete ingredients and method; reconcile a
 ## Next work
 
 1. Continue shared-platform verification when behavior changes. Build, QA checks, twenty-eight focused tests, sources rendering, mobile overflow, scaling, cook/checklist behavior, and cross-page palette persistence have passed. Representative Chrome letter-size recipe and meal PDFs have been inspected; this is not a corpus-wide print certification.
-2. Continue the individual reviews in docs/reviews (187 original-source records so far, including nine consolidation decisions). 425 originals remain pending; automated audit flags do not count.
+2. Continue the individual reviews in docs/reviews (190 original-source records so far, including nine consolidation decisions). 422 originals remain pending; automated audit flags do not count.
 3. Continue with the next independently reviewed culinary families. Vegetable curries, saffron rice and both linked Indian dinner compositions are reviewed; continue the remaining composed-meal relationships. Continue in culinary families, checking ratios, ingredient accounting, method and science, realistic timing, and nutrition.
 4. Compare duplicates by ingredients, technique, and intended result, not title similarity alone. Consolidate true duplicates with redirects and update all references; keep meaningful variations explicitly related.
 5. Review every composed meal and calendar reference for components, portion compatibility, timing, flavor/texture balance, and practical preparation order.
