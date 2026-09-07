@@ -1,0 +1,408 @@
+{
+  "auditType": "embedded-secondary-measured-ingredient-instructions",
+  "date": "2026-09-06",
+  "readRevision": "7653204eeaa8a189db0625bc530727d3b013a012",
+  "status": "applied-targeted-corrections",
+  "summary": {
+    "candidates": 10,
+    "relatedDirectionsMismatches": 5
+  },
+  "scope": "Ten ingredient entries corrected after root inspected all affected methods; six matching method phrases corrected across five recipes. This does not advance whole-recipe review status.",
+  "candidates": [
+    {
+      "slug": "chicken-and-spinach-skillet-pasta-with-lemon-and-parmesan",
+      "path": "/Users/jsilton/Sites/mise/src/content/recipes/chicken-and-spinach-skillet-pasta-with-lemon-and-parmesan.md",
+      "certainty": "high",
+      "oldIngredient": "1 lemon, for 1 tsp finely grated zest and 1–2 tbsp juice",
+      "currentScaling": {
+        "half": "1/2 lemon, for 1 tsp finely grated zest and 1–2 tbsp juice",
+        "double": "2 lemons, for 1 tsp finely grated zest and 1–2 tbsp juice"
+      },
+      "proposedIngredients": [
+        {
+          "text": "1 tsp finely grated lemon zest",
+          "half": "1/2 tsp finely grated lemon zest",
+          "double": "2 tsp finely grated lemon zest"
+        },
+        {
+          "text": "1–2 tbsp fresh lemon juice",
+          "half": "1/2–1 tbsp fresh lemon juice",
+          "double": "2–4 tbsp fresh lemon juice"
+        }
+      ],
+      "reason": "The stated zest and juice targets both remain fixed while the shopping lemon count scales. Promoting the already explicit culinary amounts to leading entries scales them without assuming a new lemon yield.",
+      "relatedDirectionsMismatch": [
+        "Step 6 still says: Add the zest and 1 tbsp lemon juice. Ingredient repair alone does not repair that original-batch initial dose."
+      ],
+      "scope": "Replace this ingredient entry only with the proposed entry or entries; no unverified conversion, new quantity or recipe review is implied.",
+      "appliedMethodChanges": [
+        {
+          "before": "Add the zest and 1 tbsp lemon juice.",
+          "after": "Add the zest and the lower end of the listed lemon-juice range."
+        }
+      ],
+      "integrationDecision": "Accepted existing quantities and exact proportional wording only; other recipe issues remain outside this correction."
+    },
+    {
+      "slug": "chicken-fingers",
+      "path": "/Users/jsilton/Sites/mise/src/content/recipes/chicken-fingers.md",
+      "certainty": "high",
+      "oldIngredient": "2 large Eggs, beaten with 1 tbsp water",
+      "currentScaling": {
+        "half": "1 large Egg, beaten with 1 tbsp water",
+        "double": "4 large Eggs, beaten with 1 tbsp water"
+      },
+      "proposedIngredients": [
+        {
+          "text": "2 large eggs, beaten with the separately measured water",
+          "half": "1 large egg, beaten with the separately measured water",
+          "double": "4 large eggs, beaten with the separately measured water"
+        },
+        {
+          "text": "1 tbsp water, for beating with the eggs",
+          "half": "1/2 tbsp water, for beating with the eggs",
+          "double": "2 tbsp water, for beating with the eggs"
+        }
+      ],
+      "reason": "Egg count scales but its explicitly added water remains one tablespoon. Separate the known water amount; no ratio is invented.",
+      "relatedDirectionsMismatch": [],
+      "scope": "Replace this ingredient entry only with the proposed entry or entries; no unverified conversion, new quantity or recipe review is implied.",
+      "appliedMethodChanges": [],
+      "integrationDecision": "Accepted existing quantities and exact proportional wording only; other recipe issues remain outside this correction."
+    },
+    {
+      "slug": "chinese-eggplant-with-garlic-sauce",
+      "path": "/Users/jsilton/Sites/mise/src/content/recipes/chinese-eggplant-with-garlic-sauce.md",
+      "certainty": "high",
+      "oldIngredient": "1 tsp cornstarch mixed with 2 tsp cold water",
+      "currentScaling": {
+        "half": "1/2 tsp cornstarch mixed with 2 tsp cold water",
+        "double": "2 tsp cornstarch mixed with 2 tsp cold water"
+      },
+      "proposedIngredients": [
+        {
+          "text": "1 tsp cornstarch, mixed with the separately measured cold slurry water",
+          "half": "1/2 tsp cornstarch, mixed with the separately measured cold slurry water",
+          "double": "2 tsp cornstarch, mixed with the separately measured cold slurry water"
+        },
+        {
+          "text": "2 tsp cold water, for the cornstarch slurry",
+          "half": "1 tsp cold water, for the cornstarch slurry",
+          "double": "4 tsp cold water, for the cornstarch slurry"
+        }
+      ],
+      "reason": "The thickener scales but slurry water stays fixed. Both known doses are retained as separate scalable entries; existing Directions already say its separate cold water.",
+      "relatedDirectionsMismatch": [],
+      "scope": "Replace this ingredient entry only with the proposed entry or entries; no unverified conversion, new quantity or recipe review is implied.",
+      "appliedMethodChanges": [],
+      "integrationDecision": "Accepted existing quantities and exact proportional wording only; other recipe issues remain outside this correction."
+    },
+    {
+      "slug": "szechuan-eggplant-and-tofu",
+      "path": "/Users/jsilton/Sites/mise/src/content/recipes/szechuan-eggplant-and-tofu.md",
+      "certainty": "high",
+      "oldIngredient": "1 tsp cornstarch mixed with 2 tsp cold water, for the sauce",
+      "currentScaling": {
+        "half": "1/2 tsp cornstarch mixed with 2 tsp cold water, for the sauce",
+        "double": "2 tsp cornstarch mixed with 2 tsp cold water, for the sauce"
+      },
+      "proposedIngredients": [
+        {
+          "text": "1 tsp cornstarch, for the sauce, mixed with the separately measured cold slurry water",
+          "half": "1/2 tsp cornstarch, for the sauce, mixed with the separately measured cold slurry water",
+          "double": "2 tsp cornstarch, for the sauce, mixed with the separately measured cold slurry water"
+        },
+        {
+          "text": "2 tsp cold water, for the sauce slurry",
+          "half": "1 tsp cold water, for the sauce slurry",
+          "double": "4 tsp cold water, for the sauce slurry"
+        }
+      ],
+      "reason": "The dedicated sauce starch and slurry water must both use their listed scale; this does not alter the separate tofu coating starch.",
+      "relatedDirectionsMismatch": [
+        "Step 3 still says: Mix the separate sauce cornstarch with 2 tsp cold water. That Directions repetition remains a separate repair."
+      ],
+      "scope": "Replace this ingredient entry only with the proposed entry or entries; no unverified conversion, new quantity or recipe review is implied.",
+      "appliedMethodChanges": [
+        {
+          "before": "Mix the separate sauce cornstarch with 2 tsp cold water.",
+          "after": "Mix the separate sauce cornstarch with its measured cold slurry water."
+        }
+      ],
+      "integrationDecision": "Accepted existing quantities and exact proportional wording only; other recipe issues remain outside this correction."
+    },
+    {
+      "slug": "mapo-tofu",
+      "path": "/Users/jsilton/Sites/mise/src/content/recipes/mapo-tofu.md",
+      "certainty": "high",
+      "oldIngredient": "1 tbsp Cornstarch mixed with 2 tbsp Water",
+      "currentScaling": {
+        "half": "1/2 tbsp Cornstarch mixed with 2 tbsp Water",
+        "double": "2 tbsp Cornstarch mixed with 2 tbsp Water"
+      },
+      "proposedIngredients": [
+        {
+          "text": "1 tbsp cornstarch, mixed with the separately measured slurry water",
+          "half": "1/2 tbsp cornstarch, mixed with the separately measured slurry water",
+          "double": "2 tbsp cornstarch, mixed with the separately measured slurry water"
+        },
+        {
+          "text": "2 tbsp water, for the cornstarch slurry",
+          "half": "1 tbsp water, for the cornstarch slurry",
+          "double": "4 tbsp water, for the cornstarch slurry"
+        }
+      ],
+      "reason": "Existing explicit slurry measures can be separated mechanically; the Directions refer to the slurry without repeating its water volume.",
+      "relatedDirectionsMismatch": [],
+      "scope": "Replace this ingredient entry only with the proposed entry or entries; no unverified conversion, new quantity or recipe review is implied.",
+      "appliedMethodChanges": [],
+      "integrationDecision": "Accepted existing quantities and exact proportional wording only; other recipe issues remain outside this correction."
+    },
+    {
+      "slug": "hot-and-sour-soup",
+      "path": "/Users/jsilton/Sites/mise/src/content/recipes/hot-and-sour-soup.md",
+      "certainty": "high",
+      "oldIngredient": "3 tbsp Cornstarch (mixed with 1/4 cup water)",
+      "currentScaling": {
+        "half": "1 1/2 tbsp Cornstarch (mixed with 1/4 cup water)",
+        "double": "6 tbsp Cornstarch (mixed with 1/4 cup water)"
+      },
+      "proposedIngredients": [
+        {
+          "text": "3 tbsp cornstarch, mixed with the separately measured slurry water",
+          "half": "1 1/2 tbsp cornstarch, mixed with the separately measured slurry water",
+          "double": "6 tbsp cornstarch, mixed with the separately measured slurry water"
+        },
+        {
+          "text": "1/4 cup water, for the cornstarch slurry",
+          "half": "1/8 cup water, for the cornstarch slurry",
+          "double": "1/2 cup water, for the cornstarch slurry"
+        }
+      ],
+      "reason": "Parentheses hide the explicit mixing water from scaling; they are a preparation instruction, not a package-size specification.",
+      "relatedDirectionsMismatch": [],
+      "scope": "Replace this ingredient entry only with the proposed entry or entries; no unverified conversion, new quantity or recipe review is implied.",
+      "appliedMethodChanges": [],
+      "integrationDecision": "Accepted existing quantities and exact proportional wording only; other recipe issues remain outside this correction."
+    },
+    {
+      "slug": "herby-chicken-meatball-bowl",
+      "path": "/Users/jsilton/Sites/mise/src/content/recipes/herby-chicken-meatball-bowl.md",
+      "certainty": "high",
+      "oldIngredient": "1/2 cup Fresh Cilantro and 1/4 cup Dill, chopped",
+      "currentScaling": {
+        "half": "1/4 cup Fresh Cilantro and 1/4 cup Dill, chopped",
+        "double": "1 cup Fresh Cilantro and 1/4 cup Dill, chopped"
+      },
+      "proposedIngredients": [
+        {
+          "text": "1/2 cup fresh cilantro, chopped",
+          "half": "1/4 cup fresh cilantro, chopped",
+          "double": "1 cup fresh cilantro, chopped"
+        },
+        {
+          "text": "1/4 cup fresh dill, chopped",
+          "half": "1/8 cup fresh dill, chopped",
+          "double": "1/2 cup fresh dill, chopped"
+        }
+      ],
+      "reason": "The conjunction combines two distinct measured herbs, but only cilantro scales. Splitting the existing amounts preserves both; no herb substitution or changed total.",
+      "relatedDirectionsMismatch": [],
+      "scope": "Replace this ingredient entry only with the proposed entry or entries; no unverified conversion, new quantity or recipe review is implied.",
+      "appliedMethodChanges": [],
+      "integrationDecision": "Accepted existing quantities and exact proportional wording only; other recipe issues remain outside this correction."
+    },
+    {
+      "slug": "eggplant-with-garlic-sauce",
+      "path": "/Users/jsilton/Sites/mise/src/content/recipes/eggplant-with-garlic-sauce.md",
+      "certainty": "high",
+      "oldIngredient": "1 tsp sambal oelek chili paste, optional, with up to 1 tsp more to taste",
+      "currentScaling": {
+        "half": "1/2 tsp sambal oelek chili paste, optional, with up to 1 tsp more to taste",
+        "double": "2 tsp sambal oelek chili paste, optional, with up to 1 tsp more to taste"
+      },
+      "proposedIngredients": [
+        {
+          "text": "1 tsp sambal oelek chili paste, optional, plus up to 1 tsp more to taste",
+          "half": "1/2 tsp sambal oelek chili paste, optional, plus up to 1/2 tsp more to taste",
+          "double": "2 tsp sambal oelek chili paste, optional, plus up to 2 tsp more to taste"
+        }
+      ],
+      "reason": "The helper already scales plus up to reserves but not with up to. This one-word change preserves the optional initial and reserve meaning.",
+      "relatedDirectionsMismatch": [
+        "Step 4 still specifies optional first teaspoon chili paste; that initial-dose repetition remains unchanged by the ingredient repair."
+      ],
+      "scope": "Replace this ingredient entry only with the proposed entry or entries; no unverified conversion, new quantity or recipe review is implied.",
+      "appliedMethodChanges": [
+        {
+          "before": "optional first teaspoon chili paste",
+          "after": "optional initial amount of chili paste"
+        },
+        {
+          "before": "the additional teaspoon chili paste",
+          "after": "the additional chili-paste allowance"
+        }
+      ],
+      "integrationDecision": "Accepted existing quantities and exact proportional wording only; other recipe issues remain outside this correction."
+    },
+    {
+      "slug": "stuffed-shells-filled-with-spinach-and-ricotta",
+      "path": "/Users/jsilton/Sites/mise/src/content/recipes/stuffed-shells-filled-with-spinach-and-ricotta.md",
+      "certainty": "high",
+      "oldIngredient": "1/2 cup Parmigiano-Reggiano, freshly grated (divided: 1/3 cup filling, rest for topping)",
+      "currentScaling": {
+        "half": "1/4 cup Parmigiano-Reggiano, freshly grated (divided: 1/3 cup filling, rest for topping)",
+        "double": "1 cup Parmigiano-Reggiano, freshly grated (divided: 1/3 cup filling, rest for topping)"
+      },
+      "proposedIngredients": [
+        {
+          "text": "1/2 cup Parmigiano-Reggiano, freshly grated, divided: two thirds for filling, the rest for topping",
+          "half": "1/4 cup Parmigiano-Reggiano, freshly grated, divided: two thirds for filling, the rest for topping",
+          "double": "1 cup Parmigiano-Reggiano, freshly grated, divided: two thirds for filling, the rest for topping"
+        }
+      ],
+      "reason": "The existing one-third cup is exactly two thirds of the listed half cup. Express that known division without a fixed embedded cup amount. The separate mozzarella weight/cup inconsistency is excluded.",
+      "relatedDirectionsMismatch": [
+        "Step 3 still specifies 1/3 cup Parmigiano. Ingredient allocation repair alone does not repair that Directions repetition."
+      ],
+      "scope": "Replace this ingredient entry only with the proposed entry or entries; no unverified conversion, new quantity or recipe review is implied.",
+      "appliedMethodChanges": [
+        {
+          "before": "1/3 cup Parmigiano,",
+          "after": "two-thirds of the measured Parmigiano,"
+        }
+      ],
+      "integrationDecision": "Accepted existing quantities and exact proportional wording only; other recipe issues remain outside this correction."
+    },
+    {
+      "slug": "mommas-healthy-meatloaf",
+      "path": "/Users/jsilton/Sites/mise/src/content/recipes/mommas-healthy-meatloaf.md",
+      "certainty": "high",
+      "oldIngredient": "150 g zucchini, coarsely grated, then gently squeezed to about 100 g",
+      "currentScaling": {
+        "half": "75 g zucchini, coarsely grated, then gently squeezed to about 100 g",
+        "double": "300 g zucchini, coarsely grated, then gently squeezed to about 100 g"
+      },
+      "proposedIngredients": [
+        {
+          "text": "150 g zucchini, coarsely grated, then gently squeezed to about two thirds of its starting weight",
+          "half": "75 g zucchini, coarsely grated, then gently squeezed to about two thirds of its starting weight",
+          "double": "300 g zucchini, coarsely grated, then gently squeezed to about two thirds of its starting weight"
+        }
+      ],
+      "reason": "This is an explicit preparation target, not merely an approximate volume/weight equivalent. The existing 100/150 target is preserved exactly as a fraction; half currently demands squeezing 75 g up to 100 g. This does not establish that the original moisture target is culinarily optimal.",
+      "relatedDirectionsMismatch": [
+        "Step 1 still specifies squeeze the zucchini to about 100 g; the corresponding Directions target needs a separate proportional wording repair."
+      ],
+      "scope": "Replace this ingredient entry only with the proposed entry or entries; no unverified conversion, new quantity or recipe review is implied.",
+      "appliedMethodChanges": [
+        {
+          "before": "squeeze the zucchini to about 100 g",
+          "after": "squeeze the zucchini to about two-thirds of its starting weight"
+        }
+      ],
+      "integrationDecision": "Accepted existing quantities and exact proportional wording only; other recipe issues remain outside this correction."
+    }
+  ],
+  "exclusions": {
+    "activeSlugs": [
+      "chicken-sausage-pasta",
+      "pasta-with-sausage-basil-and-mustard",
+      "mini-shell-pasta-with-creamy-smoked-bacon-and-peas",
+      "quick-and-easy-caprese-pasta",
+      "avocado-kale-caesar-salad",
+      "kale-salad-with-mango-avocado-and-feta",
+      "pear-and-spinach-salad",
+      "arugula-feta-salad"
+    ],
+    "alreadyFixedPastaSlugs": [
+      "shrimp-vodka-pasta",
+      "shrimp-linguine-with-fresh-tomato-and-basil",
+      "soy-sauce-butter-pasta-with-shrimp-and-shiitakes",
+      "shrimp-scampi-with-linguini",
+      "lemon-broccoli-tortellini",
+      "lemon-ricotta-pasta",
+      "crispy-pancetta-sweet-pea-lemon-ricotta-pasta",
+      "lemony-broccoli-pasta"
+    ],
+    "fixedScaleRecipes": "Excluded before candidate collection",
+    "examples": [
+      {
+        "slug": "banana-nut-bread",
+        "ingredient": "3 large Very Ripe Bananas (about 375g), mashed",
+        "half": "1 1/2 large Very Ripe Bananas (about 375g), mashed",
+        "double": "6 large Very Ripe Bananas (about 375g), mashed",
+        "reason": "Approximate produce equivalence; no verified fruit conversion inferred."
+      },
+      {
+        "slug": "black-bean-tacos-with-lime-crema",
+        "ingredient": "2 cans (15 oz / 425 g each) black beans, rinsed and drained, about 510 g drained total",
+        "half": "1 can (15 oz / 425 g each) black beans, rinsed and drained, about 510 g drained total",
+        "double": "4 cans (15 oz / 425 g each) black beans, rinsed and drained, about 510 g drained total",
+        "reason": "Package sizes must remain unchanged; approximate drained yield excluded under this task, rather than promoted to a newly authoritative weight."
+      },
+      {
+        "slug": "chana-masala",
+        "ingredient": "2 (15 oz) cans chickpeas, drained and rinsed; about 250 g drained chickpeas per can",
+        "half": "1 (15 oz) can chickpeas, drained and rinsed; about 250 g drained chickpeas per can",
+        "double": "4 (15 oz) cans chickpeas, drained and rinsed; about 250 g drained chickpeas per can",
+        "reason": "Per-can yield is a property of each package and should remain fixed."
+      },
+      {
+        "slug": "banana-pudding",
+        "ingredient": "3.4 oz (96 g) sugar-sweetened banana-cream instant pudding mix; a four-serving packet formulated for 2 cups milk",
+        "half": "1.7 oz (48 g) sugar-sweetened banana-cream instant pudding mix; a four-serving packet formulated for 2 cups milk",
+        "double": "6.8 oz (192 g) sugar-sweetened banana-cream instant pudding mix; a four-serving packet formulated for 2 cups milk",
+        "reason": "Two cups describes package formulation, not extra milk added to this recipe."
+      },
+      {
+        "slug": "garlic-mashed-mock-potatoes",
+        "ingredient": "1/2 tsp concentrated chicken or vegetable bouillon paste, using a paste labeled 1 tsp per cup of prepared broth",
+        "half": "1/4 tsp concentrated chicken or vegetable bouillon paste, using a paste labeled 1 tsp per cup of prepared broth",
+        "double": "1 tsp concentrated chicken or vegetable bouillon paste, using a paste labeled 1 tsp per cup of prepared broth",
+        "reason": "Product concentration is invariant; do not scale it."
+      },
+      {
+        "slug": "honey-chipotle-lime-chicken-bowls",
+        "ingredient": "900 g boneless skinless chicken breasts, cut into 6 cutlets of about 150 g each and even 1/2-inch thickness",
+        "half": "450 g boneless skinless chicken breasts, cut into 6 cutlets of about 150 g each and even 1/2-inch thickness",
+        "double": "1800 g boneless skinless chicken breasts, cut into 6 cutlets of about 150 g each and even 1/2-inch thickness",
+        "reason": "Per-piece mass, piece count and dimensions are geometry, excluded from this repair set."
+      },
+      {
+        "slug": "moroccan-chicken-tagine-apricot-chickpea",
+        "ingredient": "1 small pinch saffron threads, about 0.05 g, optional, steeped in 2 tbsp warm water",
+        "half": "1/2 small pinch saffron threads, about 0.05 g, optional, steeped in 2 tbsp warm water",
+        "double": "2 small pinch saffron threads, about 0.05 g, optional, steeped in 2 tbsp warm water",
+        "reason": "The steeping water is a real fixed secondary instruction, but promoting the entire line would also leave an unverified pinch/gram equivalence. Held rather than broadening this certain-only batch."
+      },
+      {
+        "slug": "stuffed-shells-filled-with-spinach-and-ricotta",
+        "ingredient": "8 oz Block Mozzarella, freshly shredded (divided: 1 cup filling, 1/2 cup topping)",
+        "half": "4 oz Block Mozzarella, freshly shredded (divided: 1 cup filling, 1/2 cup topping)",
+        "double": "16 oz Block Mozzarella, freshly shredded (divided: 1 cup filling, 1/2 cup topping)",
+        "reason": "Weight and shredded-volume allocation do not establish an exact total conversion. No inferred two-thirds split of the eight-ounce weight."
+      },
+      {
+        "slug": "corn-bread-dressing",
+        "ingredient": "1 1/2–2 1/2 cups (360–600 ml) unsalted chicken stock, as needed",
+        "half": "3/4–1 1/4 cups (360–600 ml) unsalted chicken stock, as needed",
+        "double": "3–5 cups (360–600 ml) unsalted chicken stock, as needed",
+        "reason": "Range equivalent does not scale fully, but equivalent-format handling is outside this embedded instruction audit."
+      },
+      {
+        "slug": "green-curry-chicken",
+        "ingredient": "3 to 4 tbsp Thai green curry paste, according to its strength",
+        "half": "1 1/2 to 4 tbsp Thai green curry paste, according to its strength",
+        "double": "6 to 4 tbsp Thai green curry paste, according to its strength",
+        "reason": "Worded range parsing issue, not an embedded secondary preparation instruction."
+      }
+    ]
+  },
+  "limitations": [
+    "Ten certain candidates returned; the twelve-item cap is not a quota.",
+    "Existing ingredient doses are preserved; no package, pan, cut-size or unverified equivalence is converted.",
+    "Related fixed Directions amounts are explicitly flagged. Applying ingredient proposals alone does not make those complete recipes scaling-consistent.",
+    "Splitting ingredient entries requires normal YAML quoting/formatting during an authorized application. This report supplies parsed strings, not an applied patch."
+  ]
+}

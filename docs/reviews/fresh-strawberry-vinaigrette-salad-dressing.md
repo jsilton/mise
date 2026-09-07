@@ -1,0 +1,11 @@
+# Strawberry Vinaigrette: individual editorial review
+
+2026-09-06, input7653204e. Read complete current recipe, original045e5ba2 migration and preceding HTML, plus the primary Grow a Good Life page. Archive and live page identify Rachel's formula: cup sliced berries,3tbsp oil, tablespoon each balsamic/honey, salt/pepper; thirty-minute maceration. Preserve this entire formula. Original HTML duplicate extraction was already removed; do not restore doubled ingredients. Source attribution recovered at https://growagoodlife.com/strawberry-vinaigrette/ . Its current total-time metadata omits the thirty-minute rest, so keep our forty-minute overall schedule.
+
+Half-cup finished yield appears in source and current recipe, but is not substantiated by measured output; a cup of sliced berries plus five tablespoons liquids makes that claim questionable. Restore source's four salad portions as a use allocation, not a measured volume or mandate to use all dressing. Do not invent a replacement cup yield. Physical measurement remains required.
+
+All fruit measured after washing/hulling/slicing, vinegar/honey in maceration, all accumulated juice plus oil in blender, salt/pepper tasted on greens. Small-vessel blade coverage made explicit. No mandatory permanent-emulsion claim: fruit contributes body and separation is remixed. No raw garlic here. Temperature/time storage reuses docs/knowledge/cold-sides-and-rice-paper.md; three-day refrigeration is source guidance, not a laboratory shelf-life test. Scaling changes ingredients, not the rest; no literal aliquots in method. Substitutions are explicitly different variants, not equal flavor claims.
+
+Compared arugula-feta-salad in full: its dressing uses four berries, rice vinegar, garlic,2tbsp oil and teaspoon honey, without maceration. These are distinct formulas, not duplicates. Keep optional pairing but explicitly replace the salad's own dressing rather than adding both. No direct composed-meal requirement for this dressing. Removed unsupported nutrition and generic promotional prose. No physical kitchen test.
+
+Test actual finished dressing volume, sliced-fruit packing and ripeness, small-blender capture, dressing quantity used per salad, four-portion adequacy and texture after one/three refrigerated days. Record actual taste and storage observations; do not infer them from the source's publication.

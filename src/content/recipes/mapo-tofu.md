@@ -50,7 +50,8 @@ ingredients:
   - 1 tbsp Soy Sauce
   - 1 tsp Sugar
   - 3/4 cup Low-Sodium Chicken Broth
-  - 1 tbsp Cornstarch mixed with 2 tbsp Water
+  - '1 tbsp cornstarch, mixed with the separately measured slurry water'
+  - '2 tbsp water, for the cornstarch slurry'
   - 1 tsp Toasted Sesame Oil
   - '1 tsp Chili Oil, for drizzling'
 nutrition:

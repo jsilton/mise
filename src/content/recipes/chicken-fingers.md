@@ -33,7 +33,8 @@ pairsWith:
 ingredients:
   - 1 lb Chicken Tenderloins or Breasts cut into strips
   - 1/2 cup All-Purpose Flour
-  - '2 large Eggs, beaten with 1 tbsp water'
+  - '2 large eggs, beaten with the separately measured water'
+  - '1 tbsp water, for beating with the eggs'
   - 1.5 cups Panko Breadcrumbs
   - 1/2 cup Grated Parmesan Cheese
   - 1 tsp Garlic Powder

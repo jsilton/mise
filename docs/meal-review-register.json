@@ -1,9 +1,9 @@
 {
   "originalMeals": 88,
   "currentMeals": 86,
-  "individuallyReviewed": 45,
+  "individuallyReviewed": 46,
   "consolidatedAfterReview": 2,
-  "pending": 41,
+  "pending": 40,
   "kitchenTested": 0,
   "records": [
     {
@@ -231,7 +231,9 @@
     },
     {
       "slug": "lemon-ricotta-pasta-night",
-      "status": "pending"
+      "status": "editorial-review",
+      "record": "docs/meal-reviews/lemon-ricotta-pasta-night.md",
+      "components": ["lemon-ricotta-pasta", "arugula-feta-salad"]
     },
     {
       "slug": "lo-mein-night",

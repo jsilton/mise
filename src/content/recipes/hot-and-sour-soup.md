@@ -45,7 +45,8 @@ ingredients:
   - 1 tsp White Pepper (The "Hot" High Note)
   - 1 tbsp Red Chile Paste (Sambal Oelek)
   - '1 tsp Fresh Ginger, grated'
-  - 3 tbsp Cornstarch (mixed with 1/4 cup water)
+  - '3 tbsp cornstarch, mixed with the separately measured slurry water'
+  - '1/4 cup water, for the cornstarch slurry'
   - '1 large Egg, lightly beaten'
   - Sesame Oil and Scallions for garnish
 nutrition:
@@ -72,4 +73,3 @@ Hot and sour soup is a Sichuan/Hunan classic. The name is literal: "hot" from wh
 6.  **Bind:** Stir the cornstarch slurry and slowly pour into the soup. Simmer for 2 minutes until the soup is thick and clear.
 7.  **The Current:** Remove from heat. Stir the soup vigorously in one direction to create a current. Stop stirring and slowly stream in the beaten egg.
 8.  **Serve:** Ladle into bowls and garnish with sesame oil and fresh scallions for the final **High Note**.
-

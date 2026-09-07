@@ -1,3 +1,13 @@
+# Latest milestone: savory pasta, leafy salads and embedded quantities
+
+Nine original recipes have full editorial reviews: four savory pastas, four leafy salads and Strawberry Vinaigrette. Lemon Ricotta Pasta Dinner now has both components reviewed with a forty-minute coordinated schedule. Original totals:215 reviewed,10 consolidated,387 pending;217 current canonical reviews including two additions. Meals:46 reviewed,2 consolidated,40 pending. No physical kitchen tests.
+
+Ten other ingredient entries now scale their explicitly measured secondary ingredients or preparation targets. Six matching method phrases across five recipes use proportional wording. This bounded pass does not advance their full review status; records retain exclusions and unresolved unrelated concerns in scaling-embedded-amounts.json. Worded leading ranges were separately identified as a shared-scaler issue for the next correction, not silently counted as fixed here.
+
+Two reviewers reused source packets for seven proposals, the already-ready arugula salad was integrated, and the lead reviewed the distinct balsamic strawberry dressing. Root preserved both raw/cooked chicken-sausage branches, recovered attribution, corrected scaling wording and accepted a tablespoon butter as an explicit editorial starting amount for the previously unquantified optional Caesar crumb topping. That new amount needs physical testing. No cost saving or kitchen result is claimed.
+
+Prior pasta release7653204e deployed successfully in Pages run34073385904; all eight recipe and four meal production browser checks passed. Current validation passed29/29 QA checks,34/34 tests, nineteen-recipe targeted lint and719 pages without broken destinations/anchors. Browser checks cover nine whole reviews, ten targeted half/double/reset corrections and the completed dinner. A bounded independent check found four residual wording defects (fixed side count, stray crumbs, cooked-versus-dry pasta capacity wording and fixed tomato count); these were corrected before publication. Production verification follows deployment.
+
 # Latest milestone: eight pasta recipes and three dinners
 
 Eight original pasta recipes now have whole-recipe editorial reviews, with preserved sauce identities and richness, complete ingredient allocation, package-aware cooking, proportional finishing amounts, source credits where recovered and inline teaching. Three meals are complete: Shrimp Scampi Dinner, Pancetta Pea and Lemon Ricotta Pasta Dinner, and Lemony Broccoli Pasta Dinner. Lemon Ricotta Pasta Dinner has schedule/portion corrections but remains pending its strawberry-arugula salad review.

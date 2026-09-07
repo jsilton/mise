@@ -33,7 +33,8 @@ ingredients:
   - 1 large Egg
   - 1/2 cup Panko Breadcrumbs
   - '1 Shallot, finely chopped'
-  - '1/2 cup Fresh Cilantro and 1/4 cup Dill, chopped'
+  - '1/2 cup fresh cilantro, chopped'
+  - '1/4 cup fresh dill, chopped'
   - Zest of 1 Lemon
   - '1 15 oz can Chickpeas, patted bone-dry'
   - '1 large Sweet Potato, diced'
