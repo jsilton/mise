@@ -1,20 +1,21 @@
 ---
 title: Mango Cabbage Slaw
-origin: Caribbean
+origin: Caribbean-inspired
 difficulty: easy
 role: side
 vibe: quick
-prepTime: 15 min
+prepTime: 20 min
 cookTime: 0 min
-totalTime: 15 min
-servings: '6'
+totalTime: 35 min
+servings: 6 generous side portions
 cuisines:
   - Caribbean
 cookingMethods:
   - no-cook
   - toss
 dietary:
-  - vegan
+  - vegetarian
+  - vegan-option
   - gluten-free
   - dairy-free
   - nut-free
@@ -39,46 +40,103 @@ advancePrep:
   - prep-vegetables
   - dressing-ahead
 equipment:
-  - mixing-bowl
-  - mandoline
+  - large-mixing-bowl
+  - small-bowl
+  - sharp-knife
 pairsWith:
   - jerk-pork-shoulder
   - coconut-rice-and-peas
   - fried-plantains
 ingredients:
-  - 1/2 head Green Cabbage (about 4 cups shredded)
-  - 1/4 head Red Cabbage (about 2 cups shredded, for color)
-  - 1 large ripe Mango, cut into matchsticks
-  - 1 Red Bell Pepper, thinly sliced
-  - 1/2 small Red Onion, thinly sliced
-  - '1/2 cup Fresh Cilantro, roughly chopped'
-  - '2 Scallions, thinly sliced'
-  - '--- Dressing ---'
-  - 3 tbsp Fresh Lime Juice (about 2 limes)
-  - 2 tbsp Neutral Oil
-  - 1 tbsp Honey (or agave for vegan)
-  - 1 tsp Dijon Mustard
-  - 1/2 tsp Kosher Salt
-  - 1/4 tsp Black Pepper
-  - Pinch of Ground Allspice (ties it to the jerk)
-nutrition:
-  calories: 110
-  protein: 1.5
-  carbs: 16
-  fat: 5
-  fiber: 3
-  sugar: 11
-  sodium: 210
+  - 4 cups green cabbage, cored and very thinly shredded
+  - 2 cups red cabbage, cored and very thinly shredded
+  - 1 large ripe but firm mango, peeled and cut into matchsticks
+  - 1 red bell pepper, stemmed, seeded and thinly sliced
+  - 1/2 small red onion, thinly sliced
+  - 1/2 cup fresh cilantro, roughly chopped
+  - 2 scallions, thinly sliced
+  - --- Dressing ---
+  - 3 tbsp fresh lime juice, plus more to taste
+  - 2 tbsp neutral oil
+  - 1 tbsp honey or agave syrup
+  - 1 tsp Dijon mustard
+  - 1/2 tsp kosher salt, plus more only if needed
+  - 1/4 tsp black pepper
+  - 1 pinch ground allspice
+description: Thin cabbage shreds, ripe mango, bell pepper and herbs in a lime-honey dressing
+  with a pinch of allspice. A short chilled rest softens the cabbage just enough to bend while
+  keeping its crunch.
+learning:
+  focus: Dress thin cabbage shreds, then judge texture and seasoning after resting
+  outcome: Crisp, lightly softened cabbage and intact mango pieces coated in a bright dressing.
+  techniques:
+    - seasoning
+    - cold-preparation
+  before:
+    - Wash and dry produce before cutting. Use a ripe mango that still holds its shape; very
+      soft fruit will mash when tossed.
+    - Measure the cabbage after shredding rather than relying on head size. Use a bowl with
+      room to lift and turn the whole mixture.
+    - A full batch can be shared among eight diners as smaller sides alongside a main and rice.
+      More slaw needs a larger bowl or separate mixing batches; the resting time stays the
+      same.
+  checkpoints:
+    - step: 1
+      cue: Cabbage shreds are thin and fairly even, without thick core pieces.
+      why: Thick pieces remain stiff while thinner shreds soften; even cutting makes each forkful
+        easier to eat.
+    - step: 3
+      cue: Mango pieces remain intact and the dressing reaches the bottom of the bowl.
+      why: Gentle lifting distributes the dressing without crushing the ripe fruit.
+    - step: 4
+      cue: The cabbage bends but still crunches, and a forkful tastes bright without being sharply
+        salty.
+      why: Resting changes the dressed mixture, so taste vegetables and dressing together before
+        adding more seasoning.
+  troubleshooting:
+    - problem: Liquid pools beneath the slaw
+      cause: Wet produce or released vegetable and mango juice has diluted the dressing.
+      fix: Lift the slaw out with a slotted spoon and taste a forkful before adding anything. Next
+        time dry produce well; adding more oil to the puddle does not restore crunch.
+    - problem: Mango breaks into pulp
+      cause: The fruit was too soft or the slaw was mixed forcefully.
+      fix: Stop mixing vigorously. The fruit cannot be made firm again; fold gently and choose a
+        firmer ripe mango next time.
+    - problem: Slaw tastes too sharp or too sweet
+      cause: Mango ripeness and lime acidity vary.
+      fix: Taste a complete forkful after the rest. Add a small amount of honey or agave if too
+        sharp, or a little lime juice if too sweet, tossing and tasting between additions.
+  substitutions:
+    - ingredient: Honey
+      alternative: The same measured amount of agave syrup
+      effect: Makes this version vegan when the other ingredients are suitable; sweetness can vary,
+        so taste after resting.
+    - ingredient: Green and red cabbage
+      alternative: The same total volume of plain, undressed shredded cabbage
+      effect: Saves cutting time. Keep the mango, pepper and herbs; a dressed coleslaw mix changes
+        the formula.
+  timing: 'Allow about 35 minutes: 20 minutes for cutting and mixing, followed by a 15-minute
+    refrigerated rest. Larger batches take longer to cut. A longer rest, up to 30 minutes,
+    makes the cabbage softer.'
+  storage: Keep covered at 40°F / 4°C or below. Serve the same day for the best mango texture and
+    crunch; prepared vegetables and dressing may be refrigerated separately the day before,
+    with mango cut on the serving day. Refrigerate leftovers promptly and eat the next day for
+    quality. Limit total time out of refrigeration to 2 hours, or 1 hour above 90°F / 32°C.
+  sources:
+    - title: FoodSafety.gov — Clean, separate and chill
+      url: https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety
+  review:
+    status: editorial-review
+    date: '2026-09-06'
 ---
 
 ## Chef's Note
 
-The job of this slaw is to be louder than whatever it sits next to. Jerk pork is intense — smoky, spicy, deeply savory — and needs something bright and a little sweet to keep every bite from steamrolling the palate. Slice the cabbage as thinly as you can (a mandoline pays for itself here) and dress it at least 15 minutes before serving so the cabbage softens just slightly and the mango releases its juice into the dressing.
+Mango brings sweetness to a lime-dressed mix of cabbage, pepper and herbs. Slice the cabbage finely and give the dressed slaw a short chilled rest so the shreds bend without losing their crunch. It makes a cool, bright side for spiced pork or rice and peas.
 
 ## Directions
 
-1. **Shred:** Core and very thinly slice both cabbages. Place in a large bowl and sprinkle with 1/2 tsp salt. Massage for 30 seconds with your hands — this starts softening the cabbage and seasons it from the inside.
-2. **Prep the rest:** Cut the mango off the pit, then into matchsticks (about 1/4-inch). Thinly slice the bell pepper and red onion. Chop the cilantro and scallions.
-3. **Dressing:** Whisk lime juice, oil, honey, mustard, remaining salt, pepper, and allspice in a small bowl until emulsified.
-4. **Toss:** Add mango, bell pepper, onion, cilantro, and scallions to the cabbage. Pour dressing over and toss well with your hands to coat every strand.
-5. **Rest:** Let sit 15-30 minutes at room temperature before serving. Taste just before serving — it will likely need another squeeze of lime and a pinch of salt once the cabbage has released water.
+1. **Prepare:** Core and thinly shred the cabbages, then measure them into a large bowl. Peel the mango and cut the flesh away from the pit into thin matchsticks. Prepare the bell pepper, onion, cilantro and scallions.
+2. **Whisk the dressing:** Whisk the measured lime juice, oil, honey or agave, mustard, measured salt, pepper and allspice in a small bowl until well combined. Whisk again if it separates before use.
+3. **Toss gently:** Add the mango, pepper, onion, cilantro and scallions to the cabbage. Pour over the dressing and lift gently from the bottom to coat everything without crushing the mango.
+4. **Rest and taste:** Cover and refrigerate for 15 minutes, or up to 30 minutes for softer cabbage. Toss gently and taste a forkful, adding a little extra lime or salt only if needed. Serve as six generous side portions, lifting out of any pooled liquid.

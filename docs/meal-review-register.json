@@ -1,9 +1,9 @@
 {
   "originalMeals": 88,
   "currentMeals": 86,
-  "individuallyReviewed": 35,
+  "individuallyReviewed": 37,
   "consolidatedAfterReview": 2,
-  "pending": 51,
+  "pending": 49,
   "kitchenTested": 0,
   "records": [
     {
@@ -202,7 +202,9 @@
     },
     {
       "slug": "jerk-pork-dinner",
-      "status": "pending"
+      "status": "editorial-review",
+      "record": "docs/meal-reviews/jerk-pork-dinner.md",
+      "components": ["jerk-pork-shoulder", "coconut-rice-and-peas", "mango-cabbage-slaw"]
     },
     {
       "slug": "kimchi-jjigae-comfort",
@@ -469,7 +471,13 @@
     },
     {
       "slug": "vietnamese-thit-kho-dinner",
-      "status": "pending"
+      "status": "editorial-review",
+      "record": "docs/meal-reviews/vietnamese-thit-kho-dinner.md",
+      "components": [
+        "thit-kho-vietnamese-caramelized-pork",
+        "coconut-jasmine-rice",
+        "shrimp-and-avocado-summer-rolls"
+      ]
     },
     {
       "slug": "weeknight-paella",

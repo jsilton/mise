@@ -1,0 +1,15 @@
+# Jerk Pork Dinner: individual meal review
+
+Date: 2026-09-06. Editorial review; no physical meal test.
+
+Read the complete current pork, rice-and-peas and accepted mango-slaw recipes, the prior meal and component review records. All three components now have individual editorial reviews. One full fixed four-pound shoulder supplies the main for eight; one rice batch uses 360 g dry rice and 200 g dried or 500 g drained canned beans, already labelled six to eight sides. One full slaw batch contains six cups cabbage plus mango, bell pepper and herbs: divide it among eight as smaller sides than its six generous recipe servings. This avoids an unnecessary fractional-batch instruction and another starch. Eight-person portions remain an editorial meal plan, not measured plate weights.
+
+Flavor and texture: allspice/thyme/chile pork and its reduced sauce; coconut rice/beans for sauce absorption and substance; cold mango/cabbage for crunch and acidity. No smoking method is claimed. Optional plantains are not required. The three distinct recipes are not duplicates; this is the only meal directly using this jerk main.
+
+Scheduling uses eight-hour refrigerated marinade and dried-bean soaking concurrently, with up to four hours main cooking and a twenty-minute rest on serving day. Budget thirteen hours thirty minutes elapsed and one hour forty-five hands-on, including marinade preparation, searing, bean/rice handling, slaw cutting and pork finishing. Twenty-four-hour marinade adds sixteen hours. The dried beans get their full separate boil, then finish tender while pork braises; rice starts roughly fifty-five minutes before service only once pork approaches tenderness. Slaw has its fifteen-minute chilled dressing rest. These are planning estimates, with longer pork/bean contingencies explicit.
+
+Equipment: Dutch oven in oven, separate bean and rice pots on stove, blender, clean vegetable board. Bean boiling can finish early in the long braise, reducing simultaneous active work. Pork rest overlaps sauce reduction and final side preparation. A late pork braise requires delaying rice or measured hot holding, while slaw stays cold. The clean finishing marinade remains separate and refrigerated until the cooked meat is ready.
+
+Retained the previous batch's correction of Saturday-to-Thursday refrigerator storage: later portions require freezing, followed by refrigerator thawing and thorough reheating. Prompt shallow refrigeration and 165°F reheating come from the component safety sources; 140°F hot holding is supported by FoodSafety.gov's four steps page. No promise that an intact chile is mild. Dairy/nut-free main does not make this menu universally allergen-free; pork marinade contains soy and may contain wheat, and slaw honey requires agave for a vegan side (the whole pork meal is not vegan).
+
+Kitchen test: actual eight plates; slaw quantity after resting; bean/rice/pork timing with one cook and three vessels; near-service sauce and rice holding; salt/acid balance across the composed plate; clean marinade finish and reheat quality.

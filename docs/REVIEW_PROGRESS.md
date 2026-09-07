@@ -1,10 +1,18 @@
-# Latest milestone: four braised-meat recipes completed editorially
+# Latest milestone: fresh sides and two complete meal plans
+
+Mango Cabbage Slaw and Shrimp & Avocado Summer Rolls now have complete individual editorial records. Jerk Pork Dinner and Vietnamese Thit Kho Dinner have complete component, portion, equipment and schedule reviews. Original recipe totals: 175 reviewed, 9 consolidated, 428 pending; two additional reviewed recipes make 177 current canonical editorial reviews. Original meals: 37 reviewed, 2 consolidated, 49 pending. No physical kitchen tests recorded.
+
+Slaw now accounts for salt once, uses measured cabbage volumes and includes its chilled rest. Summer rolls use every listed shrimp and restore documented source ingredients without inventing a fish-sauce formula. The jerk dinner shares full side batches among eight; thit kho uses half the coconut rice plus six rolls for four diners. Both plans distinguish hands-on and elapsed time and handle a late braise.
+
+Validation: 29/29 QA checks; 719 built pages without broken links/anchors; two-recipe scaling/reset, inline checkpoints, mobile/cook/print checks; both meal pages checked for portions, elapsed time, mobile overflow and print. No shared application code changed in this batch. Publication verification follows deployment.
+
+# Previous milestone: four braised-meat recipes completed editorially
 
 Brisket with Carrots and Onions, Pulled Pork, Jerk Pork Shoulder and Thit Kho now have full individual review records. Totals: 173 of the original 612 individually reviewed, 9 consolidated and 430 pending; two additional reviewed recipes bring the current canonical editorial count to 175. Physical kitchen tests remain zero.
 
 Corrected three related meal pages without claiming full meal review: pork/chicken and timing contradictions in the Thit Kho dinner, raw-contact marinade and Saturday-to-Thursday storage in Jerk Pork Dinner, and all-week storage/reheating in BBQ Pulled Pork Spread. Whole-cut recipes now explain fixed batch geometry; cubed pork retains ingredient scaling.
 
-Local verification: 29/29 QA checks, 30/30 focused tests, 719 built pages with no broken destinations/anchors, and mobile/cook/print/scaling checks across the four recipes plus three meal pages. Corrected a validator false positive that treated chicken stock as raw poultry; regression tests preserve separate poultry-meat and alternative warnings. Production verification follows publication.
+Local verification: 29/29 QA checks, 30/30 focused tests, 719 built pages with no broken destinations/anchors, and mobile/cook/print/scaling checks across the four recipes plus three meal pages. Corrected a validator false positive that treated chicken stock as raw poultry; regression tests preserve separate poultry-meat and alternative warnings. Published as commit 4308f36a; deployment 34069064463 succeeded, and the same four-recipe/three-meal browser checks passed against production.
 
 # Previous milestone: four grain recipes completed editorially
 
@@ -33,10 +41,10 @@ For each recipe review: inspect the complete ingredients and method; reconcile a
 ## Current implementation
 
 - New shared reading/cooking experience, educational homepage, ten public technique lessons, and explicit editorial versus kitchen-tested status.
-- 175 canonical recipes now have individually written editorial reviews. The complete current list and original-source accounting are in [recipe-review-register.json](recipe-review-register.json); individual evidence is in [reviews](reviews).
+- 177 canonical recipes now have individually written editorial reviews. The complete current list and original-source accounting are in [recipe-review-register.json](recipe-review-register.json); individual evidence is in [reviews](reviews).
 - Nine original duplicates were individually compared and consolidated: esquites-mexican-street-corn-salad → mexican-street-corn-salad; sesame-cucumber-salad → smashed-cucumber-salad; greek-salad → greek-village-salad; japanese-short-grain-rice-gohan → steamed-white-rice; rich-coconut-rice → coconut-jasmine-rice; japanese-eggplant-with-chicken-and-thai-basil → stir-fried-chicken-and-eggplant-with-thai-basil; classic-coleslaw → coleslaw; chinese-spicy-garlic-eggplant → eggplant-with-garlic-sauce; cranberry-orange-sauce → perfect-cranberry-sauce. Old URLs preserve bookmarks and anchors. All internal references were updated.
-- The original 612 sources remain accounted for in docs/recipe-review-baseline.json and docs/recipe-review-register.json: 173 editorially reviewed, 9 consolidated after review, 430 still pending. Two additional individually reviewed recipes (turkey gravy and extracted mint tzatziki) are tracked separately from the original baseline. The live collection has 605 canonical records, including two craft recipes.
-- The original 88 composed meals are accounted for: 35 canonical meals have individual editorial reviews with all required components reviewed, two duplicates were consolidated after comparison, and 51 meals remain pending. The live collection has 86 canonical meals. Meal calendars are removed and out of scope.
+- The original 612 sources remain accounted for in docs/recipe-review-baseline.json and docs/recipe-review-register.json: 175 editorially reviewed, 9 consolidated after review, 428 still pending. Two additional individually reviewed recipes (turkey gravy and extracted mint tzatziki) are tracked separately from the original baseline. The live collection has 605 canonical records, including two craft recipes.
+- The original 88 composed meals are accounted for: 37 canonical meals have individual editorial reviews with all required components reviewed, two duplicates were consolidated after comparison, and 49 meals remain pending. The live collection has 86 canonical meals. Meal calendars are removed and out of scope.
 - These are editorial reviews only. No physical kitchen tests have been recorded.
 - All current canonical recipes are indexed in docs/recipe-editorial-audit.json. Its flags are triage, not completed reviews.
 - Legacy nutrition withheld pending recalculation. Two craft dough recipes excluded from food discovery while preserving their source pages.
@@ -44,7 +52,7 @@ For each recipe review: inspect the complete ingredients and method; reconcile a
 ## Next work
 
 1. Continue shared-platform verification when behavior changes. Build, QA checks, twenty-eight focused tests, sources rendering, mobile overflow, scaling, cook/checklist behavior, and cross-page palette persistence have passed. Representative Chrome letter-size recipe and meal PDFs have been inspected; this is not a corpus-wide print certification.
-2. Continue the individual reviews in docs/reviews (182 original-source records so far, including nine consolidation decisions). 430 originals remain pending; automated audit flags do not count.
+2. Continue the individual reviews in docs/reviews (184 original-source records so far, including nine consolidation decisions). 428 originals remain pending; automated audit flags do not count.
 3. Continue with the next independently reviewed culinary families. Vegetable curries, saffron rice and both linked Indian dinner compositions are reviewed; continue the remaining composed-meal relationships. Continue in culinary families, checking ratios, ingredient accounting, method and science, realistic timing, and nutrition.
 4. Compare duplicates by ingredients, technique, and intended result, not title similarity alone. Consolidate true duplicates with redirects and update all references; keep meaningful variations explicitly related.
 5. Review every composed meal and calendar reference for components, portion compatibility, timing, flavor/texture balance, and practical preparation order.

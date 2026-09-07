@@ -1,0 +1,15 @@
+# Vietnamese Thit Kho Dinner: individual meal review
+
+Date: 2026-09-06. Editorial review; no physical meal test.
+
+Read all three complete components and their individual review records: Thit Kho, Coconut Jasmine Rice and Shrimp & Avocado Summer Rolls. The prior meal misidentified pork as chicken and substantially understated its braise; those errors were corrected in the preceding batch and remain corrected. All components are now individually reviewed. No other meal directly uses this pork main; no consolidation performed.
+
+For four diners use the complete 1.5 lb cubed-pork main, half coconut-rice batch (180 g dry rice, 200 ml coconut milk, 120 ml water and halved seasonings) and six full summer rolls. The rice yields three standard listed sides, shared as four smaller portions alongside rice-paper/noodle rolls. This is a deliberate composition decision instead of excess rice on an already starch-containing plate. The six rolls use all eighteen shrimp and all avocado/herbs/noodles; cut into twelve halves, three per diner. No formula is reduced to hide a wrapper-fit issue. Reserve spare wrappers per the component contingency; actual fit/yield needs testing.
+
+Coconut rice echoes the braise but is richer; plain rice remains a stated alternative, not an additional required component. Fresh herbs, cool avocado/shrimp and chile-lime dipping sauce contrast with the warm concentrated pork. Coconut water in the braise and coconut milk in rice are explicitly distinguished. The sweet dipping sauce remains the source recipe's identity; no fish sauce was invented to make it resemble another sauce.
+
+Allow two hours thirty elapsed and one hour forty-five active for one cook: fifteen-minute main preparation, caramel/aromatic stages and occasional liquid checks, up to forty-five minutes filling/sauce/wrapping work, rice handling and final sauce/service. Most filling work overlaps the sixty-to-ninety-minute or longer braise. The revised estimate includes a small buffer beyond the main's two-hour-fifteen budget but is not a tested stopwatch result. Novice wrapping or tougher pork extends it.
+
+Equipment and sequence: heavy pork pot, smaller tightly covered half-rice saucepan, shrimp saucepan and noodle vessel appropriate to its package. Keep ready-to-eat fillings away from raw-pork/shrimp handling, cool cooked fillings, and assemble near service. Start rice about forty minutes before serving when pork is nearly tender; recipe timing/rest do not halve with ingredients. Pork reduction overlaps rice rest and final wrapping. If delayed, hold cooked rice above140°F and keep rolls refrigerated, accepting wrapper texture changes rather than leaving seafood out. Shared FoodSafety.gov guidance supports hot holding, prompt shallow cooling and165°F reheating; rolls retain their shorter same-day quality guidance. No per-meal safety certification is claimed.
+
+Kitchen test: four-person composition and half-rice pan evaporation; all-filling wrapper capacity; one-cook braise/rice/assembly overlap; sauce sweetness across the plate; beginner active time; safe brief holds and wrapper texture; leftovers handled by component.
