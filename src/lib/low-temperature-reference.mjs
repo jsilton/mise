@@ -38,3 +38,12 @@ export function hasLowTemperatureReference(content, words) {
     return text.includes(normalized);
   });
 }
+
+// Remove only named poultry liquids, not entire ingredient lines: a line can
+// contain both chicken thighs and chicken stock.
+export function hasPoultryMeatReference(ingredients, content = '') {
+  const text = [...(Array.isArray(ingredients) ? ingredients : [ingredients || '']), content]
+    .join('\n')
+    .replace(/\b(?:chicken|turkey|poultry)\s+(?:stock|broth|bouillon)\b/gi, '');
+  return /\b(?:chicken|turkey|poultry)\b/i.test(text);
+}

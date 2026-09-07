@@ -6,8 +6,7 @@
   "description": "Flag possible low-temperature poultry cooking for editorial review. Explicit 140\u00b0F hot holding of cooked food is distinguished from cooking when a 165\u00b0F / 74\u00b0C endpoint is also present; an explicitly sliced-pork 145°F endpoint with a three-minute wait is also distinguished. This heuristic does not certify safety.",
   "detection": [
     {
-      "type": "ingredient_presence",
-      "words": ["chicken", "poultry", "turkey"]
+      "type": "poultry_meat_reference"
     },
     {
       "type": "low_temperature_reference",

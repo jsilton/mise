@@ -5,7 +5,7 @@ main: jerk-pork-shoulder
 base: coconut-rice-and-peas
 salad: mango-cabbage-slaw
 totalPrepTime: 45 min
-totalCookTime: 3 hr 30 min
+totalCookTime: 4 hr
 totalActiveTime: 50 min
 overallDifficulty: intermediate
 cuisines: [Caribbean]
@@ -17,43 +17,24 @@ servings: '8'
 
 ## Meal Overview
 
-A complete Jamaican plate built for Saturday cooking and Thursday eating. The pork shoulder takes an overnight marinade and a slow braise, then shreds into its own jerk-reduced juices — by Thursday night it has deepened into something richer than it was on day one. Coconut rice and peas soaks up the sauce, and the mango cabbage slaw is the cold, bright, acidic hit that makes every bite work.
+Jerk-seasoned pork shoulder, coconut rice and peas, and mango cabbage slaw. The braise provides warm spice and a rich sauce; the slaw brings cool crunch and acidity. Plan the overnight marinade before choosing a serving time.
 
 ## Cooking Strategy
 
-**Friday night:**
-
-1. Blend and apply the jerk marinade to the pork shoulder. Refrigerate overnight.
-2. Soak dried kidney beans overnight (or buy canned for shortcut).
-
-**Saturday (make-ahead day):**
-
-1. Sear and braise the pork at 325°F for 3-3.5 hours. Rest, shred, and toss with reduced braising liquid + reserved fresh marinade.
-2. Cook the rice and peas: simmer beans, build the pot, cook rice, rest 10 minutes.
-3. Cool everything to room temp, then refrigerate in separate containers.
-
-**Thursday (reheat day — 30 minutes total):**
-
-1. Preheat oven to 325°F. Spread pork in a baking dish, cover with foil, and warm for 20-25 minutes; uncover the last 5 to re-crisp edges.
-2. Reheat rice covered at 325°F with 2 tbsp water sprinkled over — 15-20 minutes. Fluff.
-3. While the oven does the work: shred cabbage, slice mango and peppers, whisk dressing, toss. Rest 15 minutes.
-4. Plate: pile rice, shredded pork with its sauce, slaw on the side. Squeeze fresh lime over everything at the table.
+1. **The evening before:** Blend the pork marinade. Set aside the clean finishing portion before any raw pork contact, cover and refrigerate it separately. Marinate the shoulder in the refrigerator for 8–24 hours. If using dried kidney beans, soak them separately in the refrigerator as directed in the rice recipe.
+2. **Start the main:** Follow the pork recipe's searing and covered braising method. Allow up to 4 hours for these stages, plus a 20-minute rest; continue cooking if it is not yet fork-tender.
+3. **Cook the beans while the pork braises:** Follow the rice recipe's full boiling stage before simmering dried kidney beans to tenderness. Canned beans skip this stage. Reserve and measure the specified bean liquid for the rice.
+4. **Coordinate the sides:** Start the rice stage about 55 minutes before the pork is expected to finish. Prepare the slaw on a clean board while the rice cooks, allowing its dressing rest. The rice yields six to eight side portions; the slaw's full batch is listed for six, so use 1 1/3 batches for eight comparable portions.
+5. **Finish together:** Rest and shred the pork, reduce the sauce and add only the clean reserved marinade. Fluff the rested rice and toss the slaw again before serving.
 
 ## Make-Ahead Notes
 
-- **Pork reheats exceptionally well** — arguably better on day 3 than day 1. The marinade's fat and spice settle into the meat overnight.
-- **Rice and peas can be made up to 3 days ahead.** Reheat with a splash of water to restart the steam.
-- **Slaw should be made the day of** — the cabbage holds, but mango and herbs fade after 24 hours. Prep the vegetables ahead and dress 15-30 minutes before serving.
-- **Fresh lime at the table is non-negotiable** — the one thing that brings reheated jerk back to life.
+- Portion cooked pork and rice into shallow containers and refrigerate promptly, within 2 hours (1 hour above 90°F / 32°C). Do not wait for a large pot to reach room temperature.
+- Keep refrigerated at 40°F / 4°C or colder and use within 3–4 days. For a Saturday-to-Thursday plan, freeze the portions intended for Thursday promptly after cooling; thaw in the refrigerator before reheating.
+- Reheat pork with its sauce, covered, and rice with a small sprinkle of water until each reaches 165°F / 74°C throughout. Oven times depend on portion depth and starting temperature; allow extra time and check the center.
+- Make the slaw on the serving day for crisper cabbage and fresher mango.
 
-## Kid Notes
+## Milder Portions
 
-- Omit or seed the scotch bonnet in the marinade for mild version; keep the scotch bonnet whole and unpierced in the rice (flavor only, no heat).
-- Serve the slaw components unmixed for picky eaters: plain shredded cabbage on one side of the plate, sliced mango on the other.
-- Fried plantains are an easy bonus side that kids will always eat.
-
-## Notes
-
-- Buy "pork butt" or "Boston butt" (it's actually the shoulder) — the fat content is what makes the shredded texture work.
-- Look for dried thyme as a backup, but fresh thyme in both the marinade and the rice is worth the trip.
-- Leftover pork makes incredible sandwiches on a toasted bun with extra slaw and a drizzle of jerk sauce.
+- Omit the hot chile for a reliably mild version. Removing seeds or leaving a pepper intact does not guarantee an absence of heat.
+- Serve slaw components separately if preferred, with dressing at the table.

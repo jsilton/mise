@@ -4,9 +4,9 @@ template: plate
 main: thit-kho-vietnamese-caramelized-pork
 base: coconut-jasmine-rice
 sides: [shrimp-and-avocado-summer-rolls]
-totalPrepTime: 20 min
-totalCookTime: 45 min
-totalActiveTime: 25 min
+totalPrepTime: 50 min
+totalCookTime: 1 hr 55 min
+totalActiveTime: 1 hr
 overallDifficulty: intermediate
 cuisines: [Vietnamese]
 occasions: [weeknight, entertaining, family]
@@ -17,19 +17,17 @@ servings: '4'
 
 ## Meal Overview
 
-Vietnamese braised chicken in a sweet-savory coconut caramel sauce, paired with fresh summer rolls for lightness and contrast. The braise simmers while you live your evening, filling the kitchen with incredible aromas. It's elegant enough to impress guests but casual enough for a family weeknight.
+Caramel-braised pork with coconut jasmine rice and fresh shrimp-and-avocado summer rolls. Keep the pork gently simmering until tender before reducing its sauce. The rolls add fresh herbs and a cool contrast to the rich main.
 
 ## Cooking Strategy
 
-1. **Start braise** - sear chicken, then let it simmer in coconut-caramel sauce
-2. **Prep rice** - standard coconut jasmine rice
-3. **Make summer rolls** - while braise simmers, prep vegetables and shrimp
-4. **Finish braise** - should be tender and glossy, sauce slightly reduced
-5. **Assemble plate** - rice base, braised chicken with sauce, summer rolls on the side
+1. **Start the pork first:** Follow the caramel stage in the pork recipe, then braise gently. Allow about 2 hours 15 minutes for the main, with extra time if the cubes remain firm.
+2. **Prepare the rolls during the braise:** Use a separate clean board and utensils for their cooked shrimp, herbs and avocado. Keep them covered and refrigerated if the pork needs longer.
+3. **Start rice about 40 minutes before serving:** Use the coconut jasmine rice recipe, including its covered rest. Its full batch makes six side portions, so expect extra rice for this four-person meal.
+4. **Finish the pork:** Confirm tenderness, then reduce the sauce separately if needed. Taste before adding extra fish sauce.
+5. **Serve:** Divide the pork among four plates, add rice and share the six rolls as a side. Plain steamed rice is a less rich alternative to coconut rice.
 
 ## Notes
 
-- The key is browning the chicken first for depth, then letting it braise slowly
-- The coconut-caramel sauce is unique to Vietnamese cooking - sweet, salty, and rich
-- Summer rolls provide textural contrast and brightness - the two work beautifully together
-- This dish actually improves if made ahead and reheated
+- The pork uses coconut water or water; the rice uses coconut milk. Keep those ingredients separate.
+- Braising time depends on the cut, cube size and pan. Prepare the cold components while it cooks, but let tenderness determine when dinner is ready.

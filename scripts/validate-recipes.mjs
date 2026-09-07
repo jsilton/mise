@@ -2,7 +2,10 @@ import fs from 'fs/promises';
 
 import path from 'path';
 import matter from 'gray-matter';
-import { hasLowTemperatureReference } from '../src/lib/low-temperature-reference.mjs';
+import {
+  hasLowTemperatureReference,
+  hasPoultryMeatReference,
+} from '../src/lib/low-temperature-reference.mjs';
 import { extractRecipeTargets } from './lib/recipe-link-targets.mjs';
 
 const RECIPES_DIR = path.resolve('src/content/recipes');
@@ -364,6 +367,8 @@ function normalizeKey(str) {
           });
         } else if (type === 'method_presence') {
           clauseMatched = words.some((w) => lowerContent.includes(String(w || '').toLowerCase()));
+        } else if (type === 'poultry_meat_reference') {
+          clauseMatched = hasPoultryMeatReference(data.ingredients, content);
         } else if (type === 'low_temperature_reference') {
           clauseMatched = hasLowTemperatureReference(content, words);
         } else if (type === 'text_presence') {

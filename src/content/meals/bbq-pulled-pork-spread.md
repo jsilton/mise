@@ -22,14 +22,14 @@ A Southern-American comfort spread that works on a weeknight because the pulled 
 
 ## Cooking Strategy
 
-1. **Reheat the pork** - if from the fridge or freezer, warm in a covered pan with a splash of stock over medium-low heat
+1. **Reheat the pork** - thaw frozen portions in the refrigerator first, then warm in a covered pan with a little cooking juice or water until the pork reaches 165°F / 74°C throughout
 2. **Start the cornbread** - use its specified 8-inch metal pan and allow about 50 minutes for preparation, a 20–25-minute bake at 400°F and ten minutes cooling
 3. **While cornbread bakes** - steam the broccoli (5-6 min) and prep the corn (grill or broil, 10-15 min)
 4. **Plate family-style** - let everyone build their own plate
 
 ## Notes
 
-- The pulled pork is the make-ahead star here - cook on Sunday, eat all week (sandwiches, tacos, rice bowls)
+- Refrigerate cooked pork promptly in shallow containers at 40°F / 4°C or colder and use within 3–4 days. Freeze portions intended for later in the week.
 - Use the current cornbread recipe’s measured brown sugar and honey; serve a small square alongside the other starches.
 - Kids love the corn on the cob - let them skip the chili powder if they want
-- Leftover cornbread + pulled pork = school lunch next day
+- For packed lunches, keep pork cold with ice packs until reheating or use a suitable insulated container to keep it hot.

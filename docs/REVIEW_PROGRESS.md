@@ -1,4 +1,12 @@
-# Latest milestone: four grain recipes completed editorially
+# Latest milestone: four braised-meat recipes completed editorially
+
+Brisket with Carrots and Onions, Pulled Pork, Jerk Pork Shoulder and Thit Kho now have full individual review records. Totals: 173 of the original 612 individually reviewed, 9 consolidated and 430 pending; two additional reviewed recipes bring the current canonical editorial count to 175. Physical kitchen tests remain zero.
+
+Corrected three related meal pages without claiming full meal review: pork/chicken and timing contradictions in the Thit Kho dinner, raw-contact marinade and Saturday-to-Thursday storage in Jerk Pork Dinner, and all-week storage/reheating in BBQ Pulled Pork Spread. Whole-cut recipes now explain fixed batch geometry; cubed pork retains ingredient scaling.
+
+Local verification: 29/29 QA checks, 30/30 focused tests, 719 built pages with no broken destinations/anchors, and mobile/cook/print/scaling checks across the four recipes plus three meal pages. Corrected a validator false positive that treated chicken stock as raw poultry; regression tests preserve separate poultry-meat and alternative warnings. Production verification follows publication.
+
+# Previous milestone: four grain recipes completed editorially
 
 Arroz Rojo, Lemon Herb Quinoa, Quinoa Pilaf with Toasted Almonds and Creamy Polenta now have complete individual editorial records and recipe-specific teaching, timing, scaling, substitutions and storage guidance. The original 612 are now 169 individually reviewed, 9 consolidated and 434 pending; two additional recipes are reviewed separately, for 171 current reviewed canonical recipes. Physical kitchen tests remain zero. Linked meals retain pending status and their full schedules still need review.
 
@@ -25,10 +33,10 @@ For each recipe review: inspect the complete ingredients and method; reconcile a
 ## Current implementation
 
 - New shared reading/cooking experience, educational homepage, ten public technique lessons, and explicit editorial versus kitchen-tested status.
-- 164 canonical recipes now have individually written editorial reviews. The complete current list and original-source accounting are in [recipe-review-register.json](recipe-review-register.json); individual evidence is in [reviews](reviews).
+- 175 canonical recipes now have individually written editorial reviews. The complete current list and original-source accounting are in [recipe-review-register.json](recipe-review-register.json); individual evidence is in [reviews](reviews).
 - Nine original duplicates were individually compared and consolidated: esquites-mexican-street-corn-salad → mexican-street-corn-salad; sesame-cucumber-salad → smashed-cucumber-salad; greek-salad → greek-village-salad; japanese-short-grain-rice-gohan → steamed-white-rice; rich-coconut-rice → coconut-jasmine-rice; japanese-eggplant-with-chicken-and-thai-basil → stir-fried-chicken-and-eggplant-with-thai-basil; classic-coleslaw → coleslaw; chinese-spicy-garlic-eggplant → eggplant-with-garlic-sauce; cranberry-orange-sauce → perfect-cranberry-sauce. Old URLs preserve bookmarks and anchors. All internal references were updated.
-- The original 612 sources remain accounted for in docs/recipe-review-baseline.json and docs/recipe-review-register.json: 162 editorially reviewed, 9 consolidated after review, 441 still pending. Two additional individually reviewed recipes (turkey gravy and extracted mint tzatziki) are tracked separately from the original baseline. The live collection has 605 canonical records, including two craft recipes.
-- The original 88 composed meals are accounted for: 34 canonical meals have individual editorial reviews with all required components reviewed, two duplicates were consolidated after comparison, and 52 meals remain pending. The live collection has 86 canonical meals. All 11 calendars remain pending.
+- The original 612 sources remain accounted for in docs/recipe-review-baseline.json and docs/recipe-review-register.json: 173 editorially reviewed, 9 consolidated after review, 430 still pending. Two additional individually reviewed recipes (turkey gravy and extracted mint tzatziki) are tracked separately from the original baseline. The live collection has 605 canonical records, including two craft recipes.
+- The original 88 composed meals are accounted for: 35 canonical meals have individual editorial reviews with all required components reviewed, two duplicates were consolidated after comparison, and 51 meals remain pending. The live collection has 86 canonical meals. Meal calendars are removed and out of scope.
 - These are editorial reviews only. No physical kitchen tests have been recorded.
 - All current canonical recipes are indexed in docs/recipe-editorial-audit.json. Its flags are triage, not completed reviews.
 - Legacy nutrition withheld pending recalculation. Two craft dough recipes excluded from food discovery while preserving their source pages.
@@ -36,7 +44,7 @@ For each recipe review: inspect the complete ingredients and method; reconcile a
 ## Next work
 
 1. Continue shared-platform verification when behavior changes. Build, QA checks, twenty-eight focused tests, sources rendering, mobile overflow, scaling, cook/checklist behavior, and cross-page palette persistence have passed. Representative Chrome letter-size recipe and meal PDFs have been inspected; this is not a corpus-wide print certification.
-2. Continue the individual reviews in docs/reviews (171 original-source records so far, including nine consolidation decisions). 441 originals remain pending; automated audit flags do not count.
+2. Continue the individual reviews in docs/reviews (182 original-source records so far, including nine consolidation decisions). 430 originals remain pending; automated audit flags do not count.
 3. Continue with the next independently reviewed culinary families. Vegetable curries, saffron rice and both linked Indian dinner compositions are reviewed; continue the remaining composed-meal relationships. Continue in culinary families, checking ratios, ingredient accounting, method and science, realistic timing, and nutrition.
 4. Compare duplicates by ingredients, technique, and intended result, not title similarity alone. Consolidate true duplicates with redirects and update all references; keep meaningful variations explicitly related.
 5. Review every composed meal and calendar reference for components, portion compatibility, timing, flavor/texture balance, and practical preparation order.
@@ -351,7 +359,7 @@ Actual browser print checks found meal titles and timing hidden by a broad heade
 
 Scaling also exposed a print discrepancy: ingredient amounts changed while the header retained its original yield. The header now follows the selected batch. Printing a non-original batch retains the note that method quantities refer to the original batch and that time, heat and pan sizes do not scale arithmetically; the interactive buttons stay hidden. At original scale the redundant scaler panel stays hidden. Browser assertions verified half-batch yield two, 300 g eggplant, a visible warning in print, and a reset to four servings at original scale.
 
-Current coverage: 612 original recipe sources = 111 reviewed canonical recipes + eight considered consolidations + 493 pending. The 88 original meals = 21 reviewed canonical meals + one considered consolidation + 66 pending; 87 canonical meals remain live. All 11 calendars remain pending. No physical kitchen tests have been recorded.
+Current coverage: 612 original recipe sources = 111 reviewed canonical recipes + eight considered consolidations + 493 pending. The 88 original meals = 21 reviewed canonical meals + one considered consolidation + 66 pending; 87 canonical meals remain live. Meal calendars are removed and out of scope. No physical kitchen tests have been recorded.
 
 Verification: 19/19 focused tests and 29/29 QA checks pass; all 728 pages build. Changed-code lint and whitespace checks pass. The final built-page scan found zero missing internal destinations and zero broken anchors. An isolated browser verified the old meal redirect with preserved query/fragment, the retained spinach link, canonical-only meal discovery, the updated Week 8 link, the printed meal title/timing/wordmark, and scaled recipe printing. The meal works at 390 px without horizontal overflow; no page errors occurred. Final PDFs contain two meal pages and four recipe pages, with no clipped content or orphaned nearly-empty final meal page.
 
@@ -369,7 +377,7 @@ Lamb Pitas and Greek Village Salad replaces the ambiguous Greek Night menu. It c
 
 The first QA run exposed a validator defect: a valid recipe URL with an oven-section fragment was treated as a nonexistent slug. A focused link-target helper now checks the pathname independently from query/fragment state and also handles base-less and trailing-slash links. Two tests retain missing-destination detection while covering those real link forms; built-page checks still verify anchors themselves. Mobile visual review also caught an old CSS selector treating inline bold text as an uppercase block because CSS only-child ignores surrounding text nodes. Removed that mistaken heading treatment; real Markdown headings retain their styles. Browser assertions and a fresh screenshot confirm emphasis stays inline.
 
-Current coverage: 612 original recipe sources = 114 reviewed canonical recipes + eight considered consolidations + 490 pending. The 88 original meals = 22 reviewed canonical meals + one considered consolidation + 65 pending. All 11 calendars remain pending. No physical kitchen tests have been recorded.
+Current coverage: 612 original recipe sources = 114 reviewed canonical recipes + eight considered consolidations + 490 pending. The 88 original meals = 22 reviewed canonical meals + one considered consolidation + 65 pending. Meal calendars are removed and out of scope. No physical kitchen tests have been recorded.
 
 Verification: all 728 pages build, 29/29 QA checks and 21/21 focused tests pass. Changed-code lint and whitespace checks pass. The final built-page scan found zero missing internal destinations and zero broken anchors. An isolated browser checked all three current titles, times and editorial labels at 390 px; half batches at 340 g lamb, 225 g turkey and two breads; updated yields; live bread links after scaling; the meal's two required cards and 75-minute elapsed label; and working couscous/pita-section links. No page errors or overflow occurred. The corrected mobile meal screenshot was visually inspected.
 

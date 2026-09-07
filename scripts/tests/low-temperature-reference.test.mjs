@@ -1,7 +1,10 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
-import { hasLowTemperatureReference } from '../../src/lib/low-temperature-reference.mjs';
+import {
+  hasLowTemperatureReference,
+  hasPoultryMeatReference,
+} from '../../src/lib/low-temperature-reference.mjs';
 const rule = JSON.parse(
   fs.readFileSync(
     new URL('../../src/knowledge/codex/low-temp-poultry-safety.json', import.meta.url),
@@ -112,4 +115,26 @@ test('cooling brine in an ice bath is separate from water-bath cooking', () => {
     true
   );
   assert.equal(hasLowTemperatureReference('Cook chicken in an ice-water bath.', words), true);
+});
+
+test('poultry liquids alone do not trigger meat rules, but separate meat remains visible', () => {
+  assert.equal(rule.detection[0].type, 'poultry_meat_reference');
+  assert.equal(
+    hasPoultryMeatReference(
+      ['4 lb pork shoulder', '1 cup chicken stock'],
+      'Add chicken stock. Cook pork to 145°F.'
+    ),
+    false
+  );
+  for (const ingredients of [
+    ['1 cup chicken stock', '2 chicken thighs'],
+    ['2 chicken thighs plus 1 cup chicken stock'],
+    ['1 whole turkey', '2 cups turkey broth'],
+    ['raw chicken in broth'],
+  ])
+    assert.equal(hasPoultryMeatReference(ingredients), true);
+  assert.equal(
+    hasPoultryMeatReference(['1 cup chicken broth'], 'Alternatively cook chicken to 145°F.'),
+    true
+  );
 });

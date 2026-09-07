@@ -1,0 +1,19 @@
+# Jerk Pork Shoulder: individual editorial review
+
+Date: 2026-09-06. Editorial review; no physical kitchen test.
+
+Read the complete original and draft, pilot evidence, linked Jerk Pork Dinner and all its component recipes. Preserve the allspice/thyme/hot-chile shoulder and citrus braise. No named author attribution was present; unsupported historical and authenticity gatekeeping prose was removed without inventing an alternative provenance. The method is described as Jamaican-inspired braising, not smoking.
+
+Every original ingredient is accounted for: four-pound boneless shoulder; six scallions; one to two chiles; onion; eight garlic cloves; two-inch ginger; fresh/dried thyme; two tablespoons ground allspice; salt, pepper, cinnamon and nutmeg; soy/tamari; three tablespoons lime juice; vinegar and oil; stock and orange juice. Original sugar appeared as one tablespoon brown sugar plus two tablespoons dark brown sugar. Combined to three tablespoons dark brown sugar, preserving the total amount. Choosing dark for the unspecified first tablespoon is an editorial specification, not proof of an accidental duplicate or a tested improvement. Do not silently reduce the total to two tablespoons. Removed the unsupported lime-count equivalence and legacy nutrition.
+
+The method separates a clean quarter-cup finishing marinade before any raw contact, refrigerates it throughout the 8–24-hour marination, and sends all scraped raw-contact marinade into the full braise. Every spice/aromatic enters the blended marinade, the remaining marinade coats the pork, stock/juice enter the pot, and clean reserve finishes the cooked shredded meat. Added a recovery if reserve becomes contaminated, sugar-scorching response, liquid maintenance, fork-tenderness and temperature/rest checks. Removed a room-temperature wait and an exact reheating guarantee.
+
+The 13-hour estimate budgets minimum eight-hour marination, 30-minute preparation, up to four hours searing/braising and overlapping rest/reduction. Twenty-four-hour marination adds sixteen hours. Real shoulder thickness may require longer. One four-pound shoulder is a fixed equipment-dependent batch: do not offer arithmetic scaling with unchanged whole-cut timing and quarter-cup reserve. Yield remains eight portions, not a measured cooked weight.
+
+Substitutions retain habanero, the existing fresh/dried thyme ratio and tamari with appropriate gluten-free label checks; no unqualified gluten-free tag was added. Removed smoky flavor metadata because there is no smoke step or smoked ingredient. The marinade remains strongly seasoned; its salt and final raw-aromatic intensity require tasting in a real test.
+
+[FoodSafety.gov cooling](https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety), [cold storage](https://www.foodsafety.gov/food-safety-charts/cold-food-storage-charts) and [temperatures](https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures) support separation, refrigeration and reheating guidance; they do not validate flavor ratios or collagen timing.
+
+Relationships: rice and peas, mango cabbage slaw and fried plantains complement this main rather than duplicate it. The linked dinner's Saturday-to-Thursday refrigerator plan was replaced with freezing those future portions. Removed waiting for room temperature before refrigeration and the promise that an intact hot chile adds no heat. Actual rice recipe makes six to eight sides; slaw lists six, so the meal explains a 1 1/3 slaw batch for eight. Slaw still has a double-used salt instruction and needs a complete review; the meal remains pending. No consolidation performed.
+
+Kitchen test: dark-brown sugar choice, combined salt/soy intensity, searing without scorching, whole-cut fit, minimum-marination flavor, tenderness time, clean finishing marinade intensity, cooked yield and reheating a measured depth of pork.
