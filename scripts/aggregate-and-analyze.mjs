@@ -113,11 +113,11 @@ async function run() {
       }
     }
 
-    // Check 3: Brand names in ingredients (violates clean style)
+    // Check 3: Manufacturer/product brands. Sauce categories such as sriracha
+    // are ingredient names, not a manufacturer endorsement.
     if (data.ingredients) {
       const brandNames = [
         'kikkoman',
-        'sriracha',
         'philadelphia',
         'nutella',
         'titos',

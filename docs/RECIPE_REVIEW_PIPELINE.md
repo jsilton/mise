@@ -48,3 +48,7 @@ Verify input hashes, full diffs, all ingredient destinations, approved family-ru
 ## Pilot outcome and active operating rule
 
 The 24-recipe pilot failed the broad lightweight-review gate: 6/7 routine edits accepted, 29/58 confirmed reference issues detected, and unreliable timing metadata. See [pilot results](pilot/RESULTS.md). Continue the full collection using stronger whole-recipe editing grouped by method, shared evidence and deterministic maintenance. Restrict inexpensive workers to narrow independently verifiable tasks. Do not spend another full pilot trying to force a passing percentage, and do not treat lack of cost telemetry as a blocker to actual recipe improvements.
+
+## Reusable cold-side evidence
+
+The current cold-side family uses [a shared handling and accounting packet](knowledge/cold-sides-and-rice-paper.md). Complete ingredient/identity reviews still occur for each recipe. Existing source evidence is reused for wrapper hydration, shrimp handling and cold service; product-specific edamame instructions remain a separate applicability check. A deterministic audit correction removed fourteen false manufacturer warnings for the sauce category sriracha, with no recipe ingredients changed by that rule correction. This is measured warning reduction, not a cost-savings or culinary-correctness claim.

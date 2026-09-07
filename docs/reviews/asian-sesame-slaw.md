@@ -1,0 +1,17 @@
+# Napa Slaw with Edamame and Crispy Wontons: individual editorial review
+
+Date: 2026-09-06. Editorial review; no physical kitchen test.
+
+Read complete current and earliest record2a7f38534f68f09454b2c68637139fd966b5584f, compared entire peanut-cabbage slaw and nearby coleslaws. No family or external author attribution in source. Replace unsupported China/Cantonese specificity with Asian-inspired and descriptive title, preserving slug. No composed meal links found. Pairings with meatballs, lettuce wraps and shumai remain compatible side options.
+
+Preserve stated6cups napa rather than variable small head,2large carrots,1cup shelled edamame,2green onions,quarter cup sesame,6optional wonton wrappers,shallow-fry oil,pinch salt,3tbsp toasted sesame oil,2tbsp vinegar,1tbsp soy,1tbsp honey/agave,1tsp ginger,1garlic,half tsp optional flakes. All destinations explicit. Oil depth is pan geometry, not a scalable volume; dressing sesame oil remains separate from neutral frying oil. Unseasoned vinegar clarifies product rather than changes ratio. No conversion of edamame allowance into an invented different weight/yield.
+
+Thawed frozen edamame is not assumed ready-to-eat. First method stage follows package cooking requirements, cools and drains; ready-to-eat product skips cooking. This corrects missing cooking rather than claiming all frozen products require identical minutes. Total35 minutes20prep/15cooking replaces20-minute estimate to cover edamame, oil heat-up, small frying batches and cooling, with package variation explicit. Four generous sides retained; exact yield untested. Vegetarian retained; vegan guidance requires both agave and egg-free/omitted wontons. No unconditional gluten-free claim.
+
+Frying retains350°F andhalf-inch depth but uses deep-sided pan, thermometer, small batches and pale-gold cue instead of10–15-second guarantee. Remove unsupported creamy dressing description; oil-vinegar coating is not assured creamy. Sesame seeds and optional strips go on at service. Same-day crisp topping quality avoids unsupported two-day guarantee. FoodSafety.gov https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety supports prompt cooling/cold40°F/2h/1h-hot limits; specific edamame cooking follows product instructions. Removed unverified nutrition.
+
+Genuine comparison: napa and edamame with3tbsp toasted sesame oil and optional fried wontons differ from green/red cabbage, peanuts,2tbsp soy and mixed oils. Shared ginger/sesame does not justify merging. Preserved both as distinct compositions.
+
+Kitchen test: edamame product/time, actual cooked/drained volume, four generous sides, dressing coating and salt balance, wonton yield/frying batches/crisp hold, novice35-minute schedule, scaled bowl/frying capacity. No physical test claimed.
+
+Final prerequisite clarification: specify one cup cooked, cooled, drained shelled edamame. The original one-cup allowance is retained as a cooked ingredient measurement, not an asserted raw-to-cooked conversion. Fresh unpackaged raw beans are no longer presented without instructions. Cook packaged beans by their own instructions, then measure, or purchase ready-to-eat cooked beans. This is an explicit preparation clarification requiring final yield testing. Directly read manufacturer PDF https://cookingreens.com/wp-content/uploads/2018/11/Shelled-Edamame-Info-Spec-Sheet-E.pdf confirms one frozen shelled product requires boiling4–6minutes and an endpoint; its particular times/temperature are not generalized to other products. No manufacturer promoted in public ingredients.
