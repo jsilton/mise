@@ -1,3 +1,9 @@
+# Yield pluralization — 2026-09-07
+
+User-reported Anadama scaling exposed a shared yield-label defect: numbers scaled but nouns did not. A bounded vocabulary now handles loaf/loaves, batch/batches, regular yield nouns and modifiers; ambiguous compound yields and pan dimensions retain the existing fallback. All604 recipes checked at quarter, half, original, double and triple settings;103 recipes have corrected labels, with zero original-scale changes. Exact impact: scaling-yield-plurals.json. No recipe quantities or editorial statuses changed.
+
+Validation:37 regression tests and29 QA checks pass. Browser checks cover Anadama1/2/3/half loaf, cocktail plural/reset and rice singular portion/reset in both header and scaler labels, mobile layout and browser errors. No agents or research required. Publish and verify production as the final step of this user-requested fix; the previous broad goal remains blocked.
+
 # Resource-limited phase — 2026-09-06
 
 The user replaced exhaustive rollout with a resource-constrained phase; see RECIPE_REVIEW_PIPELINE.md and RESOURCE_LIMITED_RELEASE.md. Standing agents stopped. No new research, image generation or agent assignments after the reset. Eight soup/salad drafts and one SVG candidate preserved as unaccepted work.

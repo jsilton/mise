@@ -342,3 +342,26 @@ test('equivalent measured ranges scale while counted sizes stay fixed', () => {
     '2 lb shrimp (20–24 per pound)'
   );
 });
+
+test('yield nouns follow scaled counts, including irregular plurals and modifiers', () => {
+  for (const [input, factor, expected] of [
+    ['1 loaf', 1, '1 loaf'],
+    ['1 loaf', 2, '2 loaves'],
+    ['1 loaf', 3, '3 loaves'],
+    ['2 loaves', 0.5, '1 loaf'],
+    ['1 loaf', 0.5, '1/2 loaf'],
+    ['1–2 loaves', 0.5, '1/2–1 loaf'],
+    ['1–2 loaves', 2, '2–4 loaves'],
+    ['1 cocktail', 3, '3 cocktails'],
+    ['2 side portions', 0.5, '1 side portion'],
+    ['1 large batch', 2, '2 large batches'],
+    ['1 large bundt cake', 2, '2 large bundt cakes'],
+    ['2 cups drained onions, approximately', 0.5, '1 cup drained onions, approximately'],
+    ['1 LOAF', 2, '2 LOAVES'],
+    ['2 Loaves', 0.5, '1 Loaf'],
+    ['1 ml sauce', 2, '2 ml sauce'],
+    ['2 with rice or bread', 0.5, '1 with rice or bread'],
+    ['1 shumai', 3, '3 shumai'],
+  ])
+    assert.equal(formatYield(input, factor), expected);
+});

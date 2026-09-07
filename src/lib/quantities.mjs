@@ -175,6 +175,61 @@ export function scaleIngredient(text, factor) {
   return quantity + rest;
 }
 
+// Yield nouns have their own vocabulary; do not apply ingredient or generic
+// English suffix rules to arbitrary recipe prose.
+const yieldForms = [
+  ['loaf', 'loaves'],
+  ['batch', 'batches'],
+  ['portion', 'portions'],
+  ['serving', 'servings'],
+  ['person', 'people'],
+  ...[
+    'cup',
+    'quart',
+    'muffin',
+    'cake',
+    'slider',
+    'pancake',
+    'cocktail',
+    'piece',
+    'bite',
+    'ball',
+    'cookie',
+    'dumpling',
+    'truffle',
+    'slice',
+    'wrapper',
+    'pie',
+    'pita',
+    'smoothie',
+    'bowl',
+    'pinwheel',
+    'bread',
+    'roll',
+    'square',
+    'biscuit',
+    'cupcake',
+    'pop',
+    'fritter',
+  ].map((word) => [word, word + 's']),
+];
+const yieldNoun = new RegExp(
+  `^(\\s+(?:(?:small|large|mini|jumbo|generous|modest|light|side|main|dessert|salad|soup|dip|taco|condiment|appetizer|pasta|noodle|filled|bundt|silver dollar|vegetable-main|vegetable-forward|soup-and-sandwich)\\s+)*)(${yieldForms
+    .flat()
+    .sort((a, b) => b.length - a.length)
+    .join('|')})(?=\\s|,|$)`,
+  'i'
+);
+function inflectYield(suffix, count) {
+  return suffix.replace(yieldNoun, (_match, prefix, word) => {
+    const forms = yieldForms.find((pair) => pair.includes(word.toLowerCase()));
+    let result = forms[count <= 1 ? 0 : 1];
+    if (word === word.toUpperCase()) result = result.toUpperCase();
+    else if (word[0] === word[0].toUpperCase()) result = result[0].toUpperCase() + result.slice(1);
+    return prefix + result;
+  });
+}
+
 // Scale a clearly stated yield, but never multiply pan dimensions or silently
 // leave a second yield (e.g. "4 servings / 24 meatballs") at its original size.
 export function formatYield(text, factor = 1) {
@@ -196,7 +251,9 @@ export function formatYield(text, factor = 1) {
     const values = [match[1], match[2]].filter(Boolean).map(numeric);
     if (values.every((v) => v !== null && v > 0) && Number.isFinite(factor) && factor > 0) {
       const scaled = values.map((v) => formatQuantity(v * factor)).join('–');
-      return suffix.trim() ? `${scaled}${suffix}` : `Serves ${scaled}`;
+      return suffix.trim()
+        ? `${scaled}${inflectYield(suffix, Math.max(...values) * factor)}`
+        : `Serves ${scaled}`;
     }
   }
   return `Original yield: ${text}${factor === 1 ? '' : ` · ${factor}× ingredients`}`;
