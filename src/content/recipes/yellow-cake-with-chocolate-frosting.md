@@ -29,34 +29,29 @@ role: dessert
 vibe: technical
 prepTime: 20 min
 cookTime: 25 min
-totalTime: 45 min
+totalTime: 45 min plus cooling
 servings: '12'
 ingredients:
   - 2 2/3 cups All-Purpose Flour
+  - 2 1/2 tsp Baking Powder
+  - 1 tsp Salt
   - '3/4 cup Unsalted Butter, room temp'
   - 1/4 cup Avocado or Canola Oil
   - 2 cups Granulated Sugar
   - 3 large Eggs + 2 large Egg Yolks
   - 1 cup Whole Buttermilk
-  - 1 tbsp Pure Vanilla Extract
+  - 1 tbsp Pure Vanilla Extract, for the cake
   - '1/2 cup Unsalted Butter, melted'
   - 2/3 cup Unsweetened Cocoa Powder
   - 3 cups Confectioners’ Sugar
   - 1/3 cup Whole Milk
+  - 1 tsp Pure Vanilla Extract, for the frosting
 origin: United States
 pairsWith:
   - apple-cider-cream-pie
   - apple-pie
   - blackout-chocolate-cake
   - classic-peach-ice-cream
-nutrition:
-  calories: 1180
-  protein: 8.5
-  carbs: 116
-  fat: 83.5
-  fiber: 7
-  sugar: 85.5
-  sodium: 570
 ---
 
 ## Chef's Note
@@ -65,10 +60,10 @@ This is the definitive birthday cake for the family. The secret is using both so
 
 ## Directions
 
-1.  **Cream:** Preheat oven to 350°F. Line two 9-inch cake pans with parchment. Beat butter and sugar for 3 minutes until pale. Whisk in the oil.
-2.  **Emulsify:** Add eggs and yolks **one at a time**, then vanilla.
+1.  **Cream:** Preheat oven to 350°F. Line two 9-inch cake pans with parchment. Beat the softened cake butter and granulated sugar for 3 minutes until pale. Whisk in the oil.
+2.  **Emulsify:** Add eggs and yolks **one at a time**, then the cake vanilla.
 3.  **Dry Mix:** Whisk flour, baking powder, and salt.
 4.  **Incorporate:** Alternately add the dry mix and the buttermilk to the butter, beginning and ending with the dry. **Do not over-mix.**
 5.  **Bake:** Bake for 25 minutes until a tester comes out with moist crumbs. Let cool **completely** before inverting.
-6.  **Frosting:** Whisk melted butter and cocoa. Beat in the sugar, milk, and vanilla for 5 minutes until light and billowy.
+6.  **Frosting:** Whisk the melted frosting butter and cocoa. Beat in the confectioners’ sugar, milk, and frosting vanilla for 5 minutes until light and billowy.
 7.  **Finish:** Frost the layers heavily. Garnish with a "High Note" of flaky sea salt if desired.

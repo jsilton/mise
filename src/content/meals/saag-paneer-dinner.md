@@ -27,9 +27,9 @@ Allow about **90–95 minutes elapsed and 70–80 minutes hands-on** for one coo
 
 ## Portions for Four
 
-- **Saag paneer:** Make the full [Saag Paneer](../recipes/saag-paneer): **397 g paneer and 680 g trimmed fresh spinach**, with all the recipe's onion, three tablespoons ghee, 80 ml cream, fenugreek and spices. Divide the cheese and greens evenly among four. The separate tablespoon of chile ghee is optional and can be offered at the table.
-- **Rice:** Make **half the [Basmati Rice](../recipes/basmati-rice)** using **200 g dry aged white basmati, 360 ml water, 1 1/2 tsp ghee or butter and 3/8 tsp fine salt**, with **1 tbsp hot correction water** reserved. Omit the optional cumin, cinnamon and bay for plain rice. This gives roughly **3 cups cooked rice**, about **3/4 cup each**, depending on the grain and pot.
-- **Raita:** Make **half the [Cucumber Raita](../recipes/cucumber-raita)**: **240 g plain unstrained whole-milk yogurt, 150 g cucumber, 1/2 tsp cumin seeds, 2 tbsp chopped cilantro or mint, 1/8 tsp fine salt and optionally 1/8 tsp sugar**. The **1 1/4–1 1/2 cups** supplies about **five to six tablespoons per person**. Keep the raita cold until serving.
+- **Saag paneer:** Make the full [Saag Paneer](/mise/recipes/saag-paneer): **397 g paneer and 680 g trimmed fresh spinach**, with all the recipe's onion, three tablespoons ghee, 80 ml cream, fenugreek and spices. Divide the cheese and greens evenly among four. The separate tablespoon of chile ghee is optional and can be offered at the table.
+- **Rice:** Make **half the [Basmati Rice](/mise/recipes/basmati-rice)** using **200 g dry aged white basmati, 360 ml water, 1 1/2 tsp ghee or butter and 3/8 tsp fine salt**, with **1 tbsp hot correction water** reserved. Omit the optional cumin, cinnamon and bay for plain rice. This gives roughly **3 cups cooked rice**, about **3/4 cup each**, depending on the grain and pot.
+- **Raita:** Make **half the [Cucumber Raita](/mise/recipes/cucumber-raita)**: **240 g plain unstrained whole-milk yogurt, 150 g cucumber, 1/2 tsp cumin seeds, 2 tbsp chopped cilantro or mint, 1/8 tsp fine salt and optionally 1/8 tsp sugar**. The **1 1/4–1 1/2 cups** supplies about **five to six tablespoons per person**. Keep the raita cold until serving.
 
 ## Cooking Strategy
 

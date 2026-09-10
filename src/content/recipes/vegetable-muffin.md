@@ -46,16 +46,9 @@ ingredients:
   - 1/4 cup Cocoa Powder
   - 1 tsp Ground Cinnamon
   - 1 tsp Baking Soda + 1 tsp Baking Powder
+  - 1/4 tsp Salt
   - 1/4 cup Dark Chocolate Chips
 origin: United States
-nutrition:
-  calories: 390
-  protein: 5.5
-  carbs: 41.5
-  fat: 25
-  fiber: 5.5
-  sugar: 27
-  sodium: 90
 ---
 
 ## Chef's Note
@@ -65,7 +58,7 @@ These are ideal for busy families looking to sneak vegetables into breakfast. Th
 ## Directions
 
 1.  **Emulsify:** In a high-powered blender, combine eggs, banana, spinach, syrup, oil, and vinegar. Blend on high for 60 seconds until vibrant green.
-2.  **Dry Mix:** In a large bowl, whisk together flour, cocoa, cinnamon, baking soda, and salt.
+2.  **Dry Mix:** In a large bowl, whisk together flour, cocoa, cinnamon, baking soda, baking powder, and salt.
 3.  **Combine:** Pour the green emulsion into the dry ingredients. Stir with a spatula until **just mixed**. Fold in the chocolate chips.
 4.  **Bake:** Preheat oven to 350°F. Line a 12-cup tin. Fill each 3/4 full. Bake for 20-22 minutes until a toothpick comes out clean.
 5.  **Cool:** Let rest in the pan for 5 minutes. These freeze perfectly for up to 3 months.

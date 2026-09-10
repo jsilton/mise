@@ -1,0 +1,586 @@
+{
+  "date": "2026-09-10",
+  "commit": "1c84b8bd9758f1f3d0bfdd18d6a745edbb118cd0",
+  "baselineCommit": "40e2c0527c37469d57103bef3a54a908d356323c",
+  "scope": "Comparison of previously confirmed issues to current source, historic scaling examples, fresh read-only editorial triage. Unchanged files preserve prior evidence; changed files need contextual review.",
+  "missing": [
+    {
+      "file": "src/content/recipes/chicken-and-white-bean-enchiladas-with-creamy-green-chile-sauce.md",
+      "unchanged": true,
+      "slug": "chicken-and-white-bean-enchiladas-with-creamy-green-chile-sauce",
+      "term": "cumin",
+      "disposition": "historical-confirmed-evidence-unchanged"
+    },
+    {
+      "file": "src/content/recipes/double-chocolate-layer-cake.md",
+      "unchanged": true,
+      "slug": "double-chocolate-layer-cake",
+      "term": "vanilla",
+      "disposition": "historical-confirmed-evidence-unchanged"
+    },
+    {
+      "file": "src/content/recipes/general-tsos-cauliflower.md",
+      "unchanged": true,
+      "slug": "general-tsos-cauliflower",
+      "term": "sesame oil",
+      "disposition": "historical-confirmed-evidence-unchanged"
+    },
+    {
+      "file": "src/content/recipes/general-tsos-tofu.md",
+      "unchanged": true,
+      "slug": "general-tsos-tofu",
+      "term": "sesame oil",
+      "disposition": "historical-confirmed-evidence-unchanged"
+    },
+    {
+      "file": "src/content/recipes/herby-chicken-meatball-bowl.md",
+      "unchanged": true,
+      "slug": "herby-chicken-meatball-bowl",
+      "term": "cumin",
+      "disposition": "historical-confirmed-evidence-unchanged"
+    },
+    {
+      "file": "src/content/recipes/herby-chicken-meatball-bowl.md",
+      "unchanged": true,
+      "slug": "herby-chicken-meatball-bowl",
+      "term": "cinnamon",
+      "disposition": "historical-confirmed-evidence-unchanged"
+    },
+    {
+      "file": "src/content/recipes/herby-chicken-meatball-bowl.md",
+      "unchanged": true,
+      "slug": "herby-chicken-meatball-bowl",
+      "term": "garlic",
+      "disposition": "historical-confirmed-evidence-unchanged"
+    },
+    {
+      "file": "src/content/recipes/herby-chicken-meatball-bowl.md",
+      "unchanged": true,
+      "slug": "herby-chicken-meatball-bowl",
+      "term": "olive oil",
+      "disposition": "historical-confirmed-evidence-unchanged"
+    },
+    {
+      "file": "src/content/recipes/instant-pot-butternut-squash-soup.md",
+      "unchanged": true,
+      "slug": "instant-pot-butternut-squash-soup",
+      "term": "celery",
+      "disposition": "historical-confirmed-evidence-unchanged"
+    },
+    {
+      "file": "src/content/recipes/japchae-korean-glass-noodle-stir-fry.md",
+      "unchanged": true,
+      "slug": "japchae-korean-glass-noodle-stir-fry",
+      "term": "cornstarch",
+      "disposition": "historical-confirmed-evidence-unchanged"
+    },
+    {
+      "file": "src/content/recipes/pasta-with-abruzzi-style-lamb-sauce.md",
+      "unchanged": true,
+      "slug": "pasta-with-abruzzi-style-lamb-sauce",
+      "term": "olive oil",
+      "disposition": "historical-confirmed-evidence-unchanged"
+    },
+    {
+      "file": "src/content/recipes/pressure-cooker-bolognase.md",
+      "unchanged": true,
+      "slug": "pressure-cooker-bolognase",
+      "term": "olive oil",
+      "disposition": "historical-confirmed-evidence-unchanged"
+    },
+    {
+      "file": "src/content/recipes/roasted-butternut-squash-mac-and-cheese.md",
+      "unchanged": true,
+      "slug": "roasted-butternut-squash-mac-and-cheese",
+      "term": "olive oil",
+      "disposition": "historical-confirmed-evidence-unchanged"
+    },
+    {
+      "file": "src/content/recipes/sheet-pan-pineapple-shrimp-tacos.md",
+      "unchanged": true,
+      "slug": "sheet-pan-pineapple-shrimp-tacos",
+      "term": "garlic",
+      "disposition": "historical-confirmed-evidence-unchanged"
+    },
+    {
+      "file": "src/content/recipes/shrimp-and-corn-chowder.md",
+      "unchanged": true,
+      "slug": "shrimp-and-corn-chowder",
+      "term": "garlic",
+      "disposition": "historical-confirmed-evidence-unchanged"
+    },
+    {
+      "file": "src/content/recipes/shrimp-with-black-bean-sauce.md",
+      "unchanged": true,
+      "slug": "shrimp-with-black-bean-sauce",
+      "term": "garlic",
+      "disposition": "historical-confirmed-evidence-unchanged"
+    },
+    {
+      "file": "src/content/recipes/shrimp-with-black-bean-sauce.md",
+      "unchanged": true,
+      "slug": "shrimp-with-black-bean-sauce",
+      "term": "ginger",
+      "disposition": "historical-confirmed-evidence-unchanged"
+    },
+    {
+      "file": "src/content/recipes/skillet-biscuits-with-berries.md",
+      "unchanged": true,
+      "slug": "skillet-biscuits-with-berries",
+      "term": "baking powder",
+      "disposition": "historical-confirmed-evidence-unchanged"
+    },
+    {
+      "file": "src/content/recipes/spaghetti-and-tofu-meatballs.md",
+      "unchanged": true,
+      "slug": "spaghetti-and-tofu-meatballs",
+      "term": "olive oil",
+      "disposition": "historical-confirmed-evidence-unchanged"
+    },
+    {
+      "file": "src/content/recipes/strawberry-cheesecake-overnight-oatmeal.md",
+      "unchanged": true,
+      "slug": "strawberry-cheesecake-overnight-oatmeal",
+      "term": "honey",
+      "disposition": "historical-confirmed-evidence-unchanged"
+    },
+    {
+      "file": "src/content/recipes/strozzapreti-with-spinach-and-preserved-lemon.md",
+      "unchanged": true,
+      "slug": "strozzapreti-with-spinach-and-preserved-lemon",
+      "term": "olive oil",
+      "disposition": "historical-confirmed-evidence-unchanged"
+    },
+    {
+      "file": "src/content/recipes/sweet-and-white-potato-gratin.md",
+      "unchanged": true,
+      "slug": "sweet-and-white-potato-gratin",
+      "term": "butter",
+      "disposition": "historical-confirmed-evidence-unchanged"
+    },
+    {
+      "file": "src/content/recipes/yaki-udon.md",
+      "unchanged": true,
+      "slug": "yaki-udon",
+      "term": "sesame oil",
+      "disposition": "historical-confirmed-evidence-unchanged"
+    },
+    {
+      "file": "src/content/recipes/yellow-cake-with-chocolate-frosting.md",
+      "unchanged": true,
+      "slug": "yellow-cake-with-chocolate-frosting",
+      "term": "baking powder",
+      "disposition": "historical-confirmed-evidence-unchanged"
+    }
+  ],
+  "other": [
+    {
+      "file": "src/content/recipes/blackout-chocolate-cake.md",
+      "unchanged": true,
+      "slug": "blackout-chocolate-cake",
+      "finding": "1 1/2 tsp baking powder is listed; step3 enumerates flour, sugar, baking soda and salt but omits baking powder.",
+      "disposition": "confirmed-current-context-review"
+    },
+    {
+      "file": "src/content/recipes/tomato-and-goat-cheese-tart.md",
+      "unchanged": true,
+      "slug": "tomato-and-goat-cheese-tart",
+      "finding": "1/2 tsp baking powder has no destination in the enumerated crust method; thyme appears in crust and filling without division.",
+      "disposition": "confirmed-current-context-review"
+    },
+    {
+      "file": "src/content/recipes/vegetable-muffin.md",
+      "unchanged": true,
+      "slug": "vegetable-muffin",
+      "finding": "1 tsp baking powder is listed but omitted from enumerated dry mix; that mix instead adds unlisted salt.",
+      "disposition": "confirmed-current-context-review"
+    },
+    {
+      "file": "src/content/recipes/brown-butter-carrot-cake.md",
+      "unchanged": true,
+      "slug": "brown-butter-carrot-cake",
+      "finding": "One teaspoon vanilla listed, but batter and frosting both request vanilla without an allocation.",
+      "disposition": "confirmed-current-context-review"
+    },
+    {
+      "file": "src/content/recipes/sweet-and-white-potato-gratin.md",
+      "unchanged": true,
+      "slug": "sweet-and-white-potato-gratin",
+      "finding": "Method moves from buttering dish/adding1/2cup cream straight to top layer; intervening potato/cheese/remaining-cream assembly is missing.",
+      "disposition": "dismissed-prior-audit-missed-nested-bullets",
+      "correction": "Current and historic file contain nested layering instructions at lines 69–71. The old assembly omission claim was false. Separate unlisted butter finding remains."
+    },
+    {
+      "file": "src/content/recipes/shrimp-wonton-soup.md",
+      "unchanged": true,
+      "slug": "shrimp-wonton-soup",
+      "finding": "All seasonings assigned to filling then extra soy/sesame assigned to bowls without division; wrappers linked in method but absent from ingredient list.",
+      "disposition": "confirmed-current-context-review"
+    }
+  ],
+  "meals": [
+    {
+      "meal": "beef-stew-night.md",
+      "component": "classic-beef-stew",
+      "mealMinutes": 140,
+      "componentMinutes": 240,
+      "explicitTotal": false,
+      "disposition": "confirmed-schedule-component-mismatch",
+      "mealComparison": {
+        "file": "src/content/meals/beef-stew-night.md",
+        "unchanged": true
+      },
+      "componentComparison": {
+        "file": "src/content/recipes/classic-beef-stew.md",
+        "unchanged": true
+      },
+      "currentDisposition": "confirmed-current-schedule-context-review"
+    },
+    {
+      "meal": "chicken-lettuce-wrap-night.md",
+      "component": "chicken-lettuce-wraps",
+      "mealMinutes": 20,
+      "componentMinutes": 30,
+      "explicitTotal": false,
+      "disposition": "confirmed-schedule-component-mismatch",
+      "mealComparison": {
+        "file": "src/content/meals/chicken-lettuce-wrap-night.md",
+        "unchanged": true
+      },
+      "componentComparison": {
+        "file": "src/content/recipes/chicken-lettuce-wraps.md",
+        "unchanged": true
+      },
+      "currentDisposition": "confirmed-current-schedule-context-review"
+    },
+    {
+      "meal": "chicken-lettuce-wrap-night.md",
+      "component": "smashed-cucumber-salad",
+      "mealMinutes": 20,
+      "componentMinutes": 25,
+      "explicitTotal": false,
+      "disposition": "confirmed-schedule-component-mismatch",
+      "mealComparison": {
+        "file": "src/content/meals/chicken-lettuce-wrap-night.md",
+        "unchanged": true
+      },
+      "componentComparison": {
+        "file": "src/content/recipes/smashed-cucumber-salad.md",
+        "unchanged": true
+      },
+      "currentDisposition": "confirmed-current-schedule-context-review"
+    },
+    {
+      "meal": "chicken-parmesan-night.md",
+      "component": "fresh-egg-pasta",
+      "mealMinutes": 45,
+      "componentMinutes": 110,
+      "explicitTotal": false,
+      "disposition": "confirmed-schedule-component-mismatch",
+      "mealComparison": {
+        "file": "src/content/meals/chicken-parmesan-night.md",
+        "unchanged": true
+      },
+      "componentComparison": {
+        "file": "src/content/recipes/fresh-egg-pasta.md",
+        "unchanged": true
+      },
+      "currentDisposition": "confirmed-current-schedule-context-review"
+    },
+    {
+      "meal": "coq-au-vin-dinner.md",
+      "component": "chicken-coq-au-vin",
+      "mealMinutes": 80,
+      "componentMinutes": 150,
+      "explicitTotal": false,
+      "disposition": "confirmed-schedule-component-mismatch",
+      "mealComparison": {
+        "file": "src/content/meals/coq-au-vin-dinner.md",
+        "unchanged": true
+      },
+      "componentComparison": {
+        "file": "src/content/recipes/chicken-coq-au-vin.md",
+        "unchanged": true
+      },
+      "currentDisposition": "confirmed-current-schedule-context-review"
+    }
+  ],
+  "scaling": [
+    {
+      "slug": "breakfast-carrot-cake",
+      "original": "250g Carrots (2 large), finely grated",
+      "previousDouble": "250g Carrots (2 large), finely grated",
+      "currentDouble": "500 g Carrots (2 large), finely grated",
+      "exactReset": true
+    },
+    {
+      "slug": "classic-wonton-soup",
+      "original": "300g Ground Pork",
+      "previousDouble": "300g Ground Pork",
+      "currentDouble": "600 g Ground Pork",
+      "exactReset": true
+    },
+    {
+      "slug": "korean-mung-bean-sprouts-salad",
+      "original": "350g (0.8 lbs) Fresh Mung Bean Sprouts",
+      "previousDouble": "350g (0.8 lbs) Fresh Mung Bean Sprouts",
+      "currentDouble": "700 g (1.6 lbs) Fresh Mung Bean Sprouts",
+      "exactReset": true
+    },
+    {
+      "slug": "shrimp-wonton-soup",
+      "original": "200g Ground Pork",
+      "previousDouble": "200g Ground Pork",
+      "currentDouble": "400 g Ground Pork",
+      "exactReset": true
+    },
+    {
+      "slug": "shrimp-wonton-soup",
+      "original": "100g Shrimp, minced",
+      "previousDouble": "100g Shrimp, minced",
+      "currentDouble": "200 g Shrimp, minced",
+      "exactReset": true
+    },
+    {
+      "slug": "simply-seasoned-korean-spinach-salad",
+      "original": "250g (0.5 lbs) Fresh English Spinach",
+      "previousDouble": "250g (0.5 lbs) Fresh English Spinach",
+      "currentDouble": "500 g (1 lbs) Fresh English Spinach",
+      "exactReset": true
+    },
+    {
+      "slug": "banana-nut-bread",
+      "original": "1/2 cup (1 stick) Unsalted Butter, melted and cooled",
+      "previousDouble": "1 cup (1 stick) Unsalted Butter, melted and cooled",
+      "currentDouble": "1 cup (2 sticks) Unsalted Butter, melted and cooled",
+      "exactReset": true
+    },
+    {
+      "slug": "brown-butter-chocolate-souffle",
+      "original": "1/2 cup (1 stick) Unsalted Butter",
+      "previousDouble": "1 cup (1 stick) Unsalted Butter",
+      "currentDouble": "1 cup (2 sticks) Unsalted Butter",
+      "exactReset": true
+    },
+    {
+      "slug": "chocolate-chip-cookie-cake",
+      "original": "1 cup (2 sticks) Unsalted Butter, room temp",
+      "previousDouble": "2 cups (2 sticks) Unsalted Butter, room temp",
+      "currentDouble": "2 cups (4 sticks) Unsalted Butter, room temp",
+      "exactReset": true
+    },
+    {
+      "slug": "classic-chocolate-chip-cookies",
+      "original": "1 cup (2 sticks) Unsalted Butter",
+      "previousDouble": "2 cups (2 sticks) Unsalted Butter",
+      "currentDouble": "2 cups (4 sticks) Unsalted Butter",
+      "exactReset": true
+    },
+    {
+      "slug": "corn-casserole",
+      "original": "1/2 cup (1 stick) Unsalted Butter, melted",
+      "previousDouble": "1 cup (1 stick) Unsalted Butter, melted",
+      "currentDouble": "1 cup (2 sticks) Unsalted Butter, melted",
+      "exactReset": true
+    },
+    {
+      "slug": "cranberry-crunch",
+      "original": "1/2 cup (1 stick) Unsalted Butter, melted (Replaces Margarine)",
+      "previousDouble": "1 cup (1 stick) Unsalted Butter, melted (Replaces Margarine)",
+      "currentDouble": "1 cup (2 sticks) Unsalted Butter, melted (Replaces Margarine)",
+      "exactReset": true
+    },
+    {
+      "slug": "extraordinary-chocolate-chip-cookie",
+      "original": "1 1/4 cups (2 1/2 sticks) Unsalted Butter, room temp",
+      "previousDouble": "2 1/2 cups (2 1/2 sticks) Unsalted Butter, room temp",
+      "currentDouble": "2 1/2 cups (5 sticks) Unsalted Butter, room temp",
+      "exactReset": true
+    },
+    {
+      "slug": "favorite-cream-cheese-frosting",
+      "original": "1/2 cup (1 stick) Unsalted Butter, softened",
+      "previousDouble": "1 cup (1 stick) Unsalted Butter, softened",
+      "currentDouble": "1 cup (2 sticks) Unsalted Butter, softened",
+      "exactReset": true
+    },
+    {
+      "slug": "flourless-chocolate-cake",
+      "original": "1/2 cup (1 stick) Unsalted Butter",
+      "previousDouble": "1 cup (1 stick) Unsalted Butter",
+      "currentDouble": "1 cup (2 sticks) Unsalted Butter",
+      "exactReset": true
+    },
+    {
+      "slug": "frozen-blueberry-muffins",
+      "original": "1 cup (2 sticks) Unsalted Butter, softened",
+      "previousDouble": "2 cups (2 sticks) Unsalted Butter, softened",
+      "currentDouble": "2 cups (4 sticks) Unsalted Butter, softened",
+      "exactReset": true
+    },
+    {
+      "slug": "funfetti-cake-from-scratch-and-an-unbirthday",
+      "original": "1 lb (4 sticks) Unsalted Butter, softened",
+      "previousDouble": "2 lb (4 sticks) Unsalted Butter, softened",
+      "currentDouble": "2 lb (8 sticks) Unsalted Butter, softened",
+      "exactReset": true
+    },
+    {
+      "slug": "gluten-free-lemon-cupcakes",
+      "original": "1/2 cup (1 stick) Unsalted Butter, softened",
+      "previousDouble": "1 cup (1 stick) Unsalted Butter, softened",
+      "currentDouble": "1 cup (2 sticks) Unsalted Butter, softened",
+      "exactReset": true
+    },
+    {
+      "slug": "grandmommys-pecan-pie",
+      "original": "1/2 stick (4 tbsp) Unsalted Butter, melted",
+      "previousDouble": "1 stick (4 tbsp) Unsalted Butter, melted",
+      "currentDouble": "1 stick (8 tbsp) Unsalted Butter, melted",
+      "exactReset": true
+    },
+    {
+      "slug": "grandmommys-pound-cake",
+      "original": "3/4 lb (3 sticks) Unsalted Butter, softened",
+      "previousDouble": "1 1/2 lb (3 sticks) Unsalted Butter, softened",
+      "currentDouble": "1 1/2 lb (6 sticks) Unsalted Butter, softened",
+      "exactReset": true
+    },
+    {
+      "slug": "lime-and-honey-glazed-salmon-with-warm-black-bean-and-corn-salad",
+      "original": "2.25 lb (about 1,020 g) skinless, boneless salmon, cut into seven similar portions",
+      "previousDouble": "4 1/2 lb (about 1,020 g) skinless, boneless salmon, cut into seven similar portions",
+      "currentDouble": "4 1/2 lb (about 2040 g) skinless, boneless salmon, cut into seven similar portions",
+      "exactReset": true
+    },
+    {
+      "slug": "moms-famous-chocolate-cake",
+      "original": "2 sticks (1 cup) Unsalted Butter (Replaces Margarine)",
+      "previousDouble": "4 sticks (1 cup) Unsalted Butter (Replaces Margarine)",
+      "currentDouble": "4 sticks (2 cups) Unsalted Butter (Replaces Margarine)",
+      "exactReset": true
+    },
+    {
+      "slug": "moms-famous-chocolate-cake",
+      "original": "1 stick (1/2 cup) Unsalted Butter",
+      "previousDouble": "2 stick (1/2 cup) Unsalted Butter",
+      "currentDouble": "2 sticks (1 cup) Unsalted Butter",
+      "exactReset": true
+    },
+    {
+      "slug": "old-fashioned-soft-pumpkin-cookies",
+      "original": "1/2 cup (1 stick) Unsalted Butter, softened",
+      "previousDouble": "1 cup (1 stick) Unsalted Butter, softened",
+      "currentDouble": "1 cup (2 sticks) Unsalted Butter, softened",
+      "exactReset": true
+    },
+    {
+      "slug": "parmigiano-reggiano-cheesecake",
+      "original": "40 oz (5 packs) Cream Cheese, room temperature",
+      "previousDouble": "80 oz (5 packs) Cream Cheese, room temperature",
+      "currentDouble": "80 oz (10 packs) Cream Cheese, room temperature",
+      "exactReset": true
+    },
+    {
+      "slug": "pumpkin-cheesecake-cookies",
+      "original": "1/2 cup (1 stick) Unsalted Butter, softened",
+      "previousDouble": "1 cup (1 stick) Unsalted Butter, softened",
+      "currentDouble": "1 cup (2 sticks) Unsalted Butter, softened",
+      "exactReset": true
+    },
+    {
+      "slug": "quadruple-chocolate-brownies",
+      "original": "1 lb (4 sticks) Unsalted Butter, softened",
+      "previousDouble": "2 lb (4 sticks) Unsalted Butter, softened",
+      "currentDouble": "2 lb (8 sticks) Unsalted Butter, softened",
+      "exactReset": true
+    },
+    {
+      "slug": "quick-and-easy-drop-biscuits",
+      "original": "4 oz (1 stick) Unsalted Butter, cold and cubed",
+      "previousDouble": "8 oz (1 stick) Unsalted Butter, cold and cubed",
+      "currentDouble": "8 oz (2 sticks) Unsalted Butter, cold and cubed",
+      "exactReset": true
+    },
+    {
+      "slug": "real-alfredo-sauce",
+      "original": "1 stick (8 tbsp) Unsalted Butter",
+      "previousDouble": "2 stick (8 tbsp) Unsalted Butter",
+      "currentDouble": "2 sticks (16 tbsp) Unsalted Butter",
+      "exactReset": true
+    },
+    {
+      "slug": "sage-brown-butter-sauce-butternut-squash-ravioli",
+      "original": "1/2 cup (1 stick) Unsalted Butter",
+      "previousDouble": "1 cup (1 stick) Unsalted Butter",
+      "currentDouble": "1 cup (2 sticks) Unsalted Butter",
+      "exactReset": true
+    },
+    {
+      "slug": "skillet-biscuits-with-berries",
+      "original": "1 1/2 sticks (12 tbsp) Unsalted Butter, cold and cubed",
+      "previousDouble": "3 sticks (12 tbsp) Unsalted Butter, cold and cubed",
+      "currentDouble": "3 sticks (24 tbsp) Unsalted Butter, cold and cubed",
+      "exactReset": true
+    },
+    {
+      "slug": "snickerdoodles",
+      "original": "1 cup (2 sticks) Unsalted Butter, softened",
+      "previousDouble": "2 cups (2 sticks) Unsalted Butter, softened",
+      "currentDouble": "2 cups (4 sticks) Unsalted Butter, softened",
+      "exactReset": true
+    },
+    {
+      "slug": "soft-batch-chocolate-chip-cookies",
+      "original": "1 cup (2 sticks) Unsalted Butter, softened",
+      "previousDouble": "2 cups (2 sticks) Unsalted Butter, softened",
+      "currentDouble": "2 cups (4 sticks) Unsalted Butter, softened",
+      "exactReset": true
+    },
+    {
+      "slug": "strawberry-rhubarb-shortcake-with-whipped-mascarpone",
+      "original": "1/2 cup (1 stick) Unsalted Butter, cold and cubed",
+      "previousDouble": "1 cup (1 stick) Unsalted Butter, cold and cubed",
+      "currentDouble": "1 cup (2 sticks) Unsalted Butter, cold and cubed",
+      "exactReset": true
+    },
+    {
+      "slug": "strozzapreti-with-spinach-and-preserved-lemon",
+      "original": "1 stick (8 tbsp) Unsalted Butter",
+      "previousDouble": "2 stick (8 tbsp) Unsalted Butter",
+      "currentDouble": "2 sticks (16 tbsp) Unsalted Butter",
+      "exactReset": true
+    },
+    {
+      "slug": "sugar-cookie",
+      "original": "1 cup (2 sticks) Unsalted Butter, softened",
+      "previousDouble": "2 cups (2 sticks) Unsalted Butter, softened",
+      "currentDouble": "2 cups (4 sticks) Unsalted Butter, softened",
+      "exactReset": true
+    },
+    {
+      "slug": "the-original-rice-krispies-treatstm",
+      "original": "10 oz (1 package) Fresh Marshmallows",
+      "previousDouble": "20 oz (1 package) Fresh Marshmallows",
+      "currentDouble": "20 oz (2 packages) Fresh Marshmallows",
+      "exactReset": true
+    }
+  ],
+  "triage": {
+    "recipes": 604,
+    "status": {
+      "collection": 379,
+      "editorial-review": 225
+    },
+    "severity": {
+      "review": 756
+    },
+    "codes": {
+      "teaching-review-needed": 379,
+      "nutrition-verification": 374,
+      "missing-cookTime": 1,
+      "non-food-content": 2
+    }
+  },
+  "limitations": "File equality proves historical evidence remains unchanged, not that all historical interpretations were correct. Six prior unused/allocation concerns and four meal schedules were contextually rechecked. Gratin assembly finding dismissed. Scaling outputs revisited historic strings, not all current strings; regression tests passed separately."
+}

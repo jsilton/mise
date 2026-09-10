@@ -100,6 +100,17 @@ try {
 // ============================================================================
 
 try {
+  const output = execSync('node scripts/check-built-links.mjs', {
+    cwd: process.cwd(),
+    encoding: 'utf-8',
+  });
+  recordTest(testResult('Rendered internal links resolve', true));
+  log(output.trim());
+} catch (error) {
+  recordTest(testResult('Rendered internal links resolve', false, error.message));
+}
+
+try {
   execSync('node scripts/check-meal-reviews.mjs', { cwd: process.cwd(), encoding: 'utf-8' });
   recordTest(
     testResult('Reviewed meals have reviewed components, records, and elapsed time', true)

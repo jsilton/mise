@@ -29,6 +29,8 @@ ingredients:
   - '2 cups Fresh Pineapple, 1/2-inch pieces'
   - '1 medium Red Onion, sliced'
   - 2 tbsp Lime Juice
+  - '2 cloves Garlic, minced'
+  - '1 tsp Kosher Salt, for the shrimp, plus more to taste for the slaw'
   - 2 tbsp Extra-Virgin Olive Oil
   - 2 tsp Chili Powder + 2 tsp Cumin
   - 1/2 tsp Cayenne (The Finishing Touch)
@@ -41,14 +43,6 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
-nutrition:
-  calories: 185
-  protein: 18.5
-  carbs: 18
-  fat: 6
-  fiber: 3.5
-  sugar: 8.5
-  sodium: 350
 ---
 
 ## Chef's Note
@@ -58,9 +52,9 @@ For kids, serve the heat on the side or reduce/omit the spicy elements.
 
 ## Directions
 
-1.  **Marinate:** In a large bowl, whisk oil, lime juice, garlic, and all spices. Add shrimp and **let stand for 15 minutes**.
+1.  **Marinate:** In a large bowl, whisk oil, the measured lime juice, garlic, the shrimp salt, and all spices. Add shrimp and **marinate in the refrigerator for 15 minutes**.
 2.  **The Pan:** Preheat oven to 425°F. On a large sheet pan, place onions in one zone, pineapple in the second, and the marinated shrimp in the third.
-3.  **Roast:** Bake for 12-15 minutes until the shrimp are pink and the pineapple edges are browned.
+3.  **Roast:** Bake for about 12-15 minutes, checking the thickest shrimp for firm, pearly, opaque flesh. Remove the shrimp as they finish; if the pineapple and onions need more browning, return those sections to the oven briefly.
 4.  **The Slaw:** While the pan roasts, toss cabbage and cilantro with lime juice and salt. Refrigerate until stone-cold.
 5.  **Assemble:** Warm tortillas. Place a handful of cold slaw in each. Top with 3-4 shrimp and several pieces of roasted onion and pineapple.
 6.  **Finish:** Top with avocado and sour cream for the final aromatic **High Note**.

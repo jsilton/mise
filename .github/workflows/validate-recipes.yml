@@ -17,6 +17,7 @@ on:
       - 'docs/meal-reviews/**'
       - 'docs/meal-review-baseline.json'
       - 'scripts/check-meal-reviews.mjs'
+      - 'scripts/check-built-links.mjs'
       - 'src/pages/meals/**'
       - 'scripts/check-recipe-aliases.mjs'
       - 'scripts/validate-recipes.mjs'
@@ -53,6 +54,7 @@ jobs:
       - name: Build and verify consolidated recipe links
         run: |
           npm run build
+          node scripts/check-built-links.mjs
           node scripts/check-recipe-aliases.mjs
           node scripts/check-meal-reviews.mjs
 

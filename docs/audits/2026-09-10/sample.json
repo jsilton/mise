@@ -1,0 +1,676 @@
+{
+  "auditDate": "2026-09-10",
+  "sourceCommit": "1c84b8bd9758f1f3d0bfdd18d6a745edbb118cd0",
+  "seed": "mise-recipe-integrity-2026-09-10-v1",
+  "selection": {
+    "familiesInOrder": ["bake", "simmer", "saute", "roast", "no-cook", "grill"],
+    "rule": "Before prose review, parse canonical Markdown frontmatter and current editorial-audit status. This is a method-tag-stratified sample: for bake, include the only two formula-format recipes as the two pending entries, then choose two reviewed entries by ascending SHA-256 of seed|family|status|slug. For every other method tag in the stated order, exclude slugs already chosen and take the first two reviewed and first two pending entries by the same selection hash.",
+    "balance": {
+      "recipes": 24,
+      "perMethodTag": 4,
+      "reviewed": 12,
+      "pending": 12,
+      "formulaFormat": 2,
+      "existingAuditIssueFree": 12
+    },
+    "limitations": "Diagnostic sample only; method tags overlap and do not assert a single primary method, and this is not a statistically representative defect-rate estimate. Pass means no material internal problem was found in this reading, not kitchen testing or safety certification. Unknown marks a question that needs a source, attribution recovery, or cooking test."
+  },
+  "rubricDimensions": [
+    "ingredients",
+    "method",
+    "quantityYieldEquipment",
+    "timing",
+    "cues",
+    "substitutions",
+    "identity"
+  ],
+  "recipes": [
+    {
+      "family": "bake",
+      "slug": "roast-turkey-breast",
+      "status": "reviewed",
+      "format": "legacy",
+      "auditIssues": [],
+      "selectionHash": "11db1373c57974ad2944b10c3fa284bce29df32f8182ceb9a6eb018844d20292",
+      "sourceSha256": "f08c3d28dcbbae4e1d3097b3ebe815697131323b8da4af20a95d5f13d2acbf03",
+      "outcomes": {
+        "ingredients": "pass",
+        "method": "pass",
+        "quantityYieldEquipment": "pass",
+        "timing": "pass",
+        "cues": "pass",
+        "substitutions": "pass",
+        "identity": "pass"
+      },
+      "concerns": []
+    },
+    {
+      "family": "bake",
+      "slug": "asian-glazed-meatballs",
+      "status": "reviewed",
+      "format": "legacy",
+      "auditIssues": [],
+      "selectionHash": "1d44100afd1d90f81390c0fb64b1a18b1c3b5f7bf5abbe7310da0c66553db504",
+      "sourceSha256": "62cebf4f7b10bcd74bcb6a484944f22a242ea595936fd6a4d152bff952ff0bde",
+      "outcomes": {
+        "ingredients": "pass",
+        "method": "pass",
+        "quantityYieldEquipment": "pass",
+        "timing": "pass",
+        "cues": "pass",
+        "substitutions": "pass",
+        "identity": "pass"
+      },
+      "concerns": []
+    },
+    {
+      "family": "bake",
+      "slug": "breakfast-carrot-cake",
+      "status": "pending",
+      "format": "formula",
+      "auditIssues": ["teaching-review-needed", "nutrition-verification"],
+      "selectionHash": "6d5753f042ec426c2670339e0c109e55b9c77baea93cce3091c93acb688a6891",
+      "sourceSha256": "ebd1b6586b95d865164d12f27cffec5f1825a30ab413b3a449303d1a4a0d67ba",
+      "outcomes": {
+        "ingredients": "pass",
+        "method": "pass",
+        "quantityYieldEquipment": "pass",
+        "timing": "pass",
+        "cues": "pass",
+        "substitutions": "unknown",
+        "identity": "unknown"
+      },
+      "concerns": [
+        {
+          "dimension": "substitutions",
+          "status": "unknown",
+          "evidence": "No substitution guidance; effects need recipe-specific validation."
+        },
+        {
+          "dimension": "identity",
+          "status": "unknown",
+          "evidence": "No source or family attribution is recorded."
+        }
+      ]
+    },
+    {
+      "family": "bake",
+      "slug": "chocolate-chip-cookie-cake",
+      "status": "pending",
+      "format": "formula",
+      "auditIssues": ["teaching-review-needed", "nutrition-verification"],
+      "selectionHash": "ca33278f2fe34568fe01632813976f82a8341e96996a5da87ad9a6aef5bf2d61",
+      "sourceSha256": "d3c6115db8884628e0a19166d985e9d96a9bcc08119359164e17af6146a3dddf",
+      "outcomes": {
+        "ingredients": "pass",
+        "method": "pass",
+        "quantityYieldEquipment": "pass",
+        "timing": "pass",
+        "cues": "pass",
+        "substitutions": "unknown",
+        "identity": "unknown"
+      },
+      "concerns": [
+        {
+          "dimension": "substitutions",
+          "status": "unknown",
+          "evidence": "No substitution guidance; effects need recipe-specific validation."
+        },
+        {
+          "dimension": "identity",
+          "status": "unknown",
+          "evidence": "No source or family attribution is recorded."
+        }
+      ]
+    },
+    {
+      "family": "simmer",
+      "slug": "massaman-curry",
+      "status": "reviewed",
+      "format": "legacy",
+      "auditIssues": [],
+      "selectionHash": "0106ec4338ea4ac3e5872fd310c65eb2265b0d3458e58ff2264caff4fd36eac7",
+      "sourceSha256": "4b23babd9d3f1933c2315c4764193fc659439c2091c7f77f17bb3d34c6a5e51e",
+      "outcomes": {
+        "ingredients": "pass",
+        "method": "pass",
+        "quantityYieldEquipment": "pass",
+        "timing": "pass",
+        "cues": "pass",
+        "substitutions": "pass",
+        "identity": "pass"
+      },
+      "concerns": []
+    },
+    {
+      "family": "simmer",
+      "slug": "perfect-mashed-potatoes",
+      "status": "reviewed",
+      "format": "legacy",
+      "auditIssues": [],
+      "selectionHash": "059d5891dfb6cbb7b7acf7a73891bdc0be04d30987645260a0e08701450aab2a",
+      "sourceSha256": "2badfe471fe29f8ead34bf83f6ccc9ad8917d1d9a8324ed408f1b23dbb5323fb",
+      "outcomes": {
+        "ingredients": "pass",
+        "method": "pass",
+        "quantityYieldEquipment": "pass",
+        "timing": "pass",
+        "cues": "pass",
+        "substitutions": "pass",
+        "identity": "pass"
+      },
+      "concerns": []
+    },
+    {
+      "family": "simmer",
+      "slug": "chana-begoon",
+      "status": "pending",
+      "format": "legacy",
+      "auditIssues": ["teaching-review-needed", "nutrition-verification"],
+      "selectionHash": "05273febc1c4d9bbef2d257b1a671a775e472e6d6c5f2eac6072e725ee58a34c",
+      "sourceSha256": "eb409eac87fb97bcd34d2ae5da8a44c71e866e701de85577c82f946de242bef1",
+      "outcomes": {
+        "ingredients": "concern",
+        "method": "pass",
+        "quantityYieldEquipment": "concern",
+        "timing": "unknown",
+        "cues": "pass",
+        "substitutions": "unknown",
+        "identity": "unknown"
+      },
+      "concerns": [
+        {
+          "dimension": "ingredients",
+          "status": "confirmed",
+          "evidence": "src/content/recipes/chana-begoon.md:28-39 lists no oil or salt, but step 1 requires both at line 60; cilantro and lemon are also combined without amounts at line 39."
+        },
+        {
+          "dimension": "quantityYieldEquipment",
+          "status": "confirmed",
+          "evidence": "The required roasting oil and seasoning have no quantities (lines 28-39, 60)."
+        },
+        {
+          "dimension": "timing",
+          "status": "unknown",
+          "evidence": "The 40-minute total may be optimistic given 15 minutes prep and roughly 30 minutes of stated stovetop stages, even with roasting overlapped (lines 20-22, 60-65)."
+        },
+        {
+          "dimension": "substitutions",
+          "status": "unknown",
+          "evidence": "No substitution guidance is supplied."
+        },
+        {
+          "dimension": "identity",
+          "status": "unknown",
+          "evidence": "No source or family attribution is recorded."
+        }
+      ]
+    },
+    {
+      "family": "simmer",
+      "slug": "patatas-bravas",
+      "status": "pending",
+      "format": "legacy",
+      "auditIssues": ["teaching-review-needed", "nutrition-verification"],
+      "selectionHash": "08c8936a3b67fe5092d96090d53b23ccca9e3d92f20f986acecbc4b3fe72d463",
+      "sourceSha256": "2870b588e04b9947990f9ad27a7d8f361856760672e04af7e80890e423d9ffc0",
+      "outcomes": {
+        "ingredients": "pass",
+        "method": "pass",
+        "quantityYieldEquipment": "pass",
+        "timing": "pass",
+        "cues": "pass",
+        "substitutions": "concern",
+        "identity": "pass"
+      },
+      "concerns": [
+        {
+          "dimension": "substitutions",
+          "status": "candidate",
+          "evidence": "The recipe is tagged vegan at lines 9-13 but specifies unqualified mayonnaise at line 64; a vegan product might be intended, but the recipe neither requires one nor provides the substitution."
+        }
+      ]
+    },
+    {
+      "family": "saute",
+      "slug": "thit-kho-vietnamese-caramelized-pork",
+      "status": "reviewed",
+      "format": "legacy",
+      "auditIssues": [],
+      "selectionHash": "01510e891d29f49729f464873ccb37b1bb35955893e9f1d2bdc4bb5c7533c0c7",
+      "sourceSha256": "821eb876312385021e29ec1af3b75b803d308371a53d24eacddbff16c50707ec",
+      "outcomes": {
+        "ingredients": "pass",
+        "method": "pass",
+        "quantityYieldEquipment": "pass",
+        "timing": "pass",
+        "cues": "pass",
+        "substitutions": "pass",
+        "identity": "pass"
+      },
+      "concerns": []
+    },
+    {
+      "family": "saute",
+      "slug": "chicken-scaloppine-with-tomato-and-white-wine",
+      "status": "reviewed",
+      "format": "legacy",
+      "auditIssues": [],
+      "selectionHash": "041f6c59bbad121a46629db3b61dc2b2b17ca621d9410aa937c513b64923bf5a",
+      "sourceSha256": "fbd35dc66a13ea36a5a754c5f827f987bcfe94f02c5ce43b17ef7b355456b698",
+      "outcomes": {
+        "ingredients": "pass",
+        "method": "pass",
+        "quantityYieldEquipment": "pass",
+        "timing": "pass",
+        "cues": "pass",
+        "substitutions": "pass",
+        "identity": "pass"
+      },
+      "concerns": []
+    },
+    {
+      "family": "saute",
+      "slug": "gefilte-fish-terrine",
+      "status": "pending",
+      "format": "legacy",
+      "auditIssues": ["teaching-review-needed", "nutrition-verification"],
+      "selectionHash": "01554fbcd5c658347eeceb9925dbfd79fbcb0c7e8ad77877efb90b00e769ded0",
+      "sourceSha256": "785d937b306b2536aa704e2998fd52320aa8a263d09d0ee98accf3e85052370c",
+      "outcomes": {
+        "ingredients": "concern",
+        "method": "concern",
+        "quantityYieldEquipment": "concern",
+        "timing": "concern",
+        "cues": "pass",
+        "substitutions": "unknown",
+        "identity": "unknown"
+      },
+      "concerns": [
+        {
+          "dimension": "ingredients",
+          "status": "confirmed",
+          "evidence": "Steps require oil, pepper, 3/4 cup cold water and lemon juice, none of which appears in the list (lines 26-39, 60-67)."
+        },
+        {
+          "dimension": "method",
+          "status": "candidate",
+          "evidence": "Step 4 encloses the food in unspecified plastic wrap during a 325°F water-bath bake (line 63); suitability depends on the exact wrap and needs verification."
+        },
+        {
+          "dimension": "quantityYieldEquipment",
+          "status": "confirmed",
+          "evidence": "Required water, oil, pepper and lemon juice are unquantified or absent, and no equipment metadata lists the processor, loaf pan or water-bath dish (lines 26-39, 60-65)."
+        },
+        {
+          "dimension": "timing",
+          "status": "confirmed",
+          "evidence": "The stated 105-minute total at lines 18-20 excludes the mandatory at-least-four-hour chill at line 66."
+        },
+        {
+          "dimension": "substitutions",
+          "status": "unknown",
+          "evidence": "No substitution guidance is supplied."
+        },
+        {
+          "dimension": "identity",
+          "status": "unknown",
+          "evidence": "No source or family attribution is recorded for the described Passover adaptation."
+        }
+      ]
+    },
+    {
+      "family": "saute",
+      "slug": "fennel-and-carrot-soup",
+      "status": "pending",
+      "format": "legacy",
+      "auditIssues": ["teaching-review-needed", "nutrition-verification"],
+      "selectionHash": "024ccdf9b321368f7c9dbd3008eaa1816861aea2b16b18cd8e4e78169c84722f",
+      "sourceSha256": "e599a831ac522fe7c32f56a17ce40bc36c91046edc69dcc5ee47e619681529ff",
+      "outcomes": {
+        "ingredients": "pass",
+        "method": "pass",
+        "quantityYieldEquipment": "pass",
+        "timing": "pass",
+        "cues": "pass",
+        "substitutions": "unknown",
+        "identity": "unknown"
+      },
+      "concerns": [
+        {
+          "dimension": "substitutions",
+          "status": "unknown",
+          "evidence": "No substitution guidance is supplied."
+        },
+        {
+          "dimension": "identity",
+          "status": "unknown",
+          "evidence": "No source or family attribution is recorded."
+        }
+      ]
+    },
+    {
+      "family": "roast",
+      "slug": "cinnamon-sweet-potatoes",
+      "status": "reviewed",
+      "format": "legacy",
+      "auditIssues": [],
+      "selectionHash": "145b6627be00b88d2378e73e311eaae6fa836ffa469263e3ed32a07312a199fd",
+      "sourceSha256": "de0187bec7bb657d3270d93f80772353c7788814189e932ab3f468afb8f83e6c",
+      "outcomes": {
+        "ingredients": "pass",
+        "method": "pass",
+        "quantityYieldEquipment": "pass",
+        "timing": "pass",
+        "cues": "pass",
+        "substitutions": "pass",
+        "identity": "pass"
+      },
+      "concerns": []
+    },
+    {
+      "family": "roast",
+      "slug": "korean-gochujang-wings",
+      "status": "reviewed",
+      "format": "legacy",
+      "auditIssues": [],
+      "selectionHash": "15b1df6ed681b0fa75b5f741c47a0c32e589e3a8e3874ff4579f738e60c08001",
+      "sourceSha256": "b1dcc63f81fe24f4755bcb2f37c17ff970cbd2dfd13169d6e13d210fbe519453",
+      "outcomes": {
+        "ingredients": "pass",
+        "method": "pass",
+        "quantityYieldEquipment": "pass",
+        "timing": "pass",
+        "cues": "pass",
+        "substitutions": "pass",
+        "identity": "pass"
+      },
+      "concerns": []
+    },
+    {
+      "family": "roast",
+      "slug": "strawberry-rhubarb-shortcake-with-whipped-mascarpone",
+      "status": "pending",
+      "format": "legacy",
+      "auditIssues": ["teaching-review-needed", "nutrition-verification"],
+      "selectionHash": "028b8d463a035f95e27c8c7ecea2f15cef53d318339c8edae28f1a71ee310aa8",
+      "sourceSha256": "5fc5085dfa366d315e55db612c535e5f1ff66137f7c40b36535ec124ef7e84e6",
+      "outcomes": {
+        "ingredients": "concern",
+        "method": "pass",
+        "quantityYieldEquipment": "concern",
+        "timing": "concern",
+        "cues": "pass",
+        "substitutions": "unknown",
+        "identity": "unknown"
+      },
+      "concerns": [
+        {
+          "dimension": "ingredients",
+          "status": "confirmed",
+          "evidence": "Directions add salt, coarse sugar, another 1/4 cup sugar, another splash of liqueur and fresh thyme that are absent or not separately allocated in lines 34-47 (see lines 69-75)."
+        },
+        {
+          "dimension": "quantityYieldEquipment",
+          "status": "confirmed",
+          "evidence": "The single sugar/liqueur entry at line 43 is consumed by the fruit at line 71, but step 5 requires additional unlisted quantities at line 73."
+        },
+        {
+          "dimension": "timing",
+          "status": "candidate",
+          "evidence": "The 60-minute total at lines 30-32 is doubtful against the 30-minute chill, 20-minute fruit roast and 25-minute shortcake bake at lines 70-72, but the fruit roast could overlap part of the dough chill; a timed run is needed."
+        },
+        {
+          "dimension": "substitutions",
+          "status": "unknown",
+          "evidence": "No substitution guidance is supplied."
+        },
+        {
+          "dimension": "identity",
+          "status": "unknown",
+          "evidence": "No source or family attribution is recorded."
+        }
+      ]
+    },
+    {
+      "family": "roast",
+      "slug": "spiced-butternut-squash-puree",
+      "status": "pending",
+      "format": "legacy",
+      "auditIssues": ["teaching-review-needed", "nutrition-verification"],
+      "selectionHash": "039e47d34704dd2bc326c79f4f8b9d94f70f03e4436014667c631a40007b98aa",
+      "sourceSha256": "60654058d3be9783eafb94e9d24450ccb70801d2085757bb267a88f3f0fe7874",
+      "outcomes": {
+        "ingredients": "pass",
+        "method": "concern",
+        "quantityYieldEquipment": "pass",
+        "timing": "pass",
+        "cues": "pass",
+        "substitutions": "unknown",
+        "identity": "pass"
+      },
+      "concerns": [
+        {
+          "dimension": "method",
+          "status": "confirmed",
+          "evidence": "Frontmatter claims boil as a cooking method at line 27, but the complete directions at lines 60-64 only roast, purée/mash and warm."
+        },
+        {
+          "dimension": "substitutions",
+          "status": "unknown",
+          "evidence": "No substitution guidance is supplied."
+        }
+      ]
+    },
+    {
+      "family": "no-cook",
+      "slug": "quick-pickled-carrots-and-daikon",
+      "status": "reviewed",
+      "format": "legacy",
+      "auditIssues": [],
+      "selectionHash": "0079456591fbce47aec2c26adecdcebe74277220e266a77a4e0cce07d0506593",
+      "sourceSha256": "3275612a972b15bdaffd2b645afe3529ccba1a2a5b2363bb9005cc5759e1916e",
+      "outcomes": {
+        "ingredients": "pass",
+        "method": "pass",
+        "quantityYieldEquipment": "pass",
+        "timing": "pass",
+        "cues": "pass",
+        "substitutions": "pass",
+        "identity": "pass"
+      },
+      "concerns": []
+    },
+    {
+      "family": "no-cook",
+      "slug": "poke-bowl-bar",
+      "status": "reviewed",
+      "format": "legacy",
+      "auditIssues": [],
+      "selectionHash": "030d5d457ad46501347bda2c82af0efa82c091cdd1935d6356eb35d2498566f9",
+      "sourceSha256": "525c36ae4d6abab2b577e2ef8f09f58bb6bfc9778a8a781dd110571e9abbbb3f",
+      "outcomes": {
+        "ingredients": "pass",
+        "method": "pass",
+        "quantityYieldEquipment": "pass",
+        "timing": "pass",
+        "cues": "pass",
+        "substitutions": "pass",
+        "identity": "pass"
+      },
+      "concerns": []
+    },
+    {
+      "family": "no-cook",
+      "slug": "spindrift-gin-fizz",
+      "status": "pending",
+      "format": "legacy",
+      "auditIssues": ["teaching-review-needed", "nutrition-verification"],
+      "selectionHash": "02baf6e88c32fc1dbabb6ec92cb63e8214bd96189e29649a77c00f009e36fe56",
+      "sourceSha256": "c9b5beb7d4bd6f4b237f89593220ab7b95f3f22c6324ff6cf9182428e4d690db",
+      "outcomes": {
+        "ingredients": "pass",
+        "method": "pass",
+        "quantityYieldEquipment": "pass",
+        "timing": "pass",
+        "cues": "pass",
+        "substitutions": "unknown",
+        "identity": "pass"
+      },
+      "concerns": [
+        {
+          "dimension": "substitutions",
+          "status": "unknown",
+          "evidence": "No substitution guidance is supplied."
+        }
+      ]
+    },
+    {
+      "family": "no-cook",
+      "slug": "sheet-pan-pineapple-shrimp-tacos",
+      "status": "pending",
+      "format": "legacy",
+      "auditIssues": ["teaching-review-needed", "nutrition-verification"],
+      "selectionHash": "0684a3681b48fcfe666e33f8f1e05db5bf5f01291eca9915d85d1a6064c635c2",
+      "sourceSha256": "2acf75abb9000b8d070958771a92d59652323d70a7a0ddacd9ba703e25e5ac64",
+      "outcomes": {
+        "ingredients": "concern",
+        "method": "pass",
+        "quantityYieldEquipment": "concern",
+        "timing": "concern",
+        "cues": "concern",
+        "substitutions": "unknown",
+        "identity": "unknown"
+      },
+      "concerns": [
+        {
+          "dimension": "ingredients",
+          "status": "confirmed",
+          "evidence": "Garlic and salt are used in steps 1 and 4 (lines 61, 64) but absent from lines 27-38; tortillas, avocado and sour cream have no quantities."
+        },
+        {
+          "dimension": "quantityYieldEquipment",
+          "status": "confirmed",
+          "evidence": "Six servings are declared at line 22, but the tortilla and finishing-component quantities are not stated at line 38."
+        },
+        {
+          "dimension": "timing",
+          "status": "candidate",
+          "evidence": "The 30-minute total at lines 19-21 may omit part of the explicit 15-minute stand, but vegetable preparation and preheating can overlap that stand and the slaw can be made during the roast (lines 61-66); a timed run is needed."
+        },
+        {
+          "dimension": "cues",
+          "status": "confirmed",
+          "evidence": "Step 3 relies on shrimp being pink (line 63); federal guidance calls for firm, pearly/white and opaque flesh."
+        },
+        {
+          "dimension": "substitutions",
+          "status": "unknown",
+          "evidence": "No substitution guidance is supplied."
+        },
+        {
+          "dimension": "identity",
+          "status": "unknown",
+          "evidence": "Frontmatter says Mexico while the note calls the dish Mexican-inspired (lines 15-17, 39, 56); no source is recorded."
+        }
+      ]
+    },
+    {
+      "family": "grill",
+      "slug": "grilled-zucchini-with-mint",
+      "status": "reviewed",
+      "format": "legacy",
+      "auditIssues": [],
+      "selectionHash": "41c7446d160b18b5c55e8e37d7f18773e014680bf2bc09afe6f8c9be038a5158",
+      "sourceSha256": "4da648429e7e69a88fbf9a80d9ff5fc6d4186b4ac604679bdb787b373ee0b2ab",
+      "outcomes": {
+        "ingredients": "pass",
+        "method": "pass",
+        "quantityYieldEquipment": "pass",
+        "timing": "pass",
+        "cues": "pass",
+        "substitutions": "pass",
+        "identity": "pass"
+      },
+      "concerns": []
+    },
+    {
+      "family": "grill",
+      "slug": "middle-eastern-style-grilled-chicken-kabobs",
+      "status": "reviewed",
+      "format": "legacy",
+      "auditIssues": [],
+      "selectionHash": "43069850c09b77961e13224174ec8466ba320cd6e06a409cc5229a295dfbb99b",
+      "sourceSha256": "a8a6cc1e96d317375cedce5f872e4bc7f48f96d3ee2735a37ca143b5290c994b",
+      "outcomes": {
+        "ingredients": "pass",
+        "method": "pass",
+        "quantityYieldEquipment": "pass",
+        "timing": "pass",
+        "cues": "pass",
+        "substitutions": "pass",
+        "identity": "pass"
+      },
+      "concerns": []
+    },
+    {
+      "family": "grill",
+      "slug": "beef-tenderloin-dogs-with-corn-relish",
+      "status": "pending",
+      "format": "legacy",
+      "auditIssues": ["teaching-review-needed", "nutrition-verification"],
+      "selectionHash": "25d50d4e8a787fb7a6b394cd0bfe8362a62b1616368e8ee64236fb9d3671c58f",
+      "sourceSha256": "d6d15d17736b0f240af9fcff919846f7a65cf193b50bbc1b4450d8fc338e6da3",
+      "outcomes": {
+        "ingredients": "concern",
+        "method": "concern",
+        "quantityYieldEquipment": "pass",
+        "timing": "pass",
+        "cues": "concern",
+        "substitutions": "unknown",
+        "identity": "pass"
+      },
+      "concerns": [
+        {
+          "dimension": "ingredients",
+          "status": "confirmed",
+          "evidence": "The note attributes the relish transformation to mustard seeds at line 57, but no mustard seed appears in the ingredient list or directions (lines 32-43, 60-64)."
+        },
+        {
+          "dimension": "method",
+          "status": "confirmed",
+          "evidence": "Step 3 directs removal of intact beef tenderloin at 125°F with a five-minute rest (line 62), below the federal 145°F plus three-minute-rest minimum for whole beef."
+        },
+        {
+          "dimension": "cues",
+          "status": "confirmed",
+          "evidence": "The only center endpoint is 125°F at line 62."
+        },
+        {
+          "dimension": "substitutions",
+          "status": "unknown",
+          "evidence": "No substitution guidance is supplied."
+        }
+      ]
+    },
+    {
+      "family": "grill",
+      "slug": "elote-style-corn-on-the-cob",
+      "status": "pending",
+      "format": "legacy",
+      "auditIssues": ["teaching-review-needed", "nutrition-verification"],
+      "selectionHash": "27cf2cd742824a53e1b50a81e3627a3797d0539b511b49154a065d4b1c9e193e",
+      "sourceSha256": "05eb06dd5f47c8fb4dfbe87274c041a4402624d7c9bb40db8ca65837520f993e",
+      "outcomes": {
+        "ingredients": "pass",
+        "method": "pass",
+        "quantityYieldEquipment": "pass",
+        "timing": "pass",
+        "cues": "pass",
+        "substitutions": "pass",
+        "identity": "pass"
+      },
+      "concerns": []
+    }
+  ]
+}

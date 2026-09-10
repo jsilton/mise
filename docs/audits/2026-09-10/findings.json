@@ -1,0 +1,120 @@
+{
+  "date": "2026-09-10",
+  "sourceCommit": "1c84b8bd9758f1f3d0bfdd18d6a745edbb118cd0",
+  "scope": "Ranked grouped findings and next actions, not a total count of defective recipes. Candidates require verification; coverage gaps are not confirmed defects.",
+  "findings": [
+    {
+      "id": "A01",
+      "rank": 1,
+      "status": "confirmed",
+      "severity": "high",
+      "title": "Doneness guidance falls short of authoritative recommendations",
+      "evidenceFile": "/Users/jsilton/Sites/mise/src/content/recipes/beef-tenderloin-dogs-with-corn-relish.md:62",
+      "evidence": "The recipe specifies 125\u00b0F and a five-minute rest for tenderloin strips, with no documented alternative time-temperature process. Separately, sheet-pan pineapple shrimp tacos use pink as the sole doneness cue, omitting the FDA firmness/opacity cue.",
+      "nextAction": "Review the endpoint against the intended preparation and authoritative guidance. Do not describe the entire recipe as proven unsafe.",
+      "confidence": "high",
+      "source": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures",
+      "additionalEvidenceFile": "/Users/jsilton/Sites/mise/src/content/recipes/sheet-pan-pineapple-shrimp-tacos.md:63",
+      "additionalSource": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-and-frozen-seafood-safely"
+    },
+    {
+      "id": "A02",
+      "rank": 2,
+      "status": "candidate",
+      "severity": "high",
+      "title": "Unspecified plastic wrap in an oven water bath",
+      "evidenceFile": "/Users/jsilton/Sites/mise/src/content/recipes/gefilte-fish-terrine.md:63",
+      "evidence": "The method seals the terrine in unspecified plastic wrap during a 325\u00b0F oven bake. Product suitability is not established.",
+      "nextAction": "Verify manufacturer-rated suitability or choose a supported preparation method before changing instructions.",
+      "confidence": "medium"
+    },
+    {
+      "id": "A11",
+      "status": "confirmed",
+      "severity": "medium",
+      "title": "Ten meal-body links resolve to absent generated routes",
+      "evidenceFile": "/Users/jsilton/Sites/mise/docs/audits/2026-09-10/link-crawl.json",
+      "evidence": "Ten ../recipes/ links across Indian Curry Night, Saag Paneer Dinner and Indian Dal Night resolve under /mise/meals/recipes/ from trailing-slash meal URLs. Correct recipe destinations exist under /mise/recipes/.",
+      "nextAction": "Replace these relative links with site-base-aware recipe URLs and retain a rendered anchor check.",
+      "confidence": "high for generated routes; live HTTP status unverified",
+      "rank": 3
+    },
+    {
+      "id": "A03",
+      "rank": 4,
+      "status": "confirmed",
+      "severity": "high",
+      "title": "Required ingredients absent from recipe lists",
+      "evidenceFile": "/Users/jsilton/Sites/mise/src/content/recipes/yellow-cake-with-chocolate-frosting.md:70",
+      "evidence": "Yellow cake and skillet biscuits require unlisted baking powder; other context-checked examples require unlisted garlic, oil, seasoning or binding water. Historical and sample overlap is deduplicated here.",
+      "nextAction": "Resolve consequential missing amounts from source evidence; do not bulk-invent quantities.",
+      "confidence": "high"
+    },
+    {
+      "id": "A04",
+      "rank": 5,
+      "status": "confirmed",
+      "severity": "high",
+      "title": "Elapsed plans omit required preparation",
+      "evidenceFile": "/Users/jsilton/Sites/mise/src/content/recipes/gefilte-fish-terrine.md:66",
+      "evidence": "Terrine total is 105 minutes but chilling alone requires at least four hours. Four composed-meal schedules also conflict with their referenced components; details are in reconciliation.md.",
+      "nextAction": "Correct the terrine elapsed-time model and align four meal schedules with components and advance-preparation assumptions.",
+      "confidence": "high"
+    },
+    {
+      "id": "A05",
+      "rank": 6,
+      "status": "confirmed",
+      "severity": "high",
+      "title": "Necessary ingredient destinations and allocations are unclear",
+      "evidenceFile": "/Users/jsilton/Sites/mise/src/content/recipes/blackout-chocolate-cake.md:68",
+      "evidence": "Listed baking powder is excluded from enumerated dry mixes; vanilla and seasonings are reused across components without divisions in separately verified examples. The sampled strawberry-rhubarb shortcake also uses additional sugar/liqueur in its cream component without a separately listed allocation.",
+      "nextAction": "Recover and record intended allocations; use structured quantities where they prevent an established drift risk.",
+      "confidence": "high"
+    },
+    {
+      "id": "A06",
+      "rank": 7,
+      "status": "candidate",
+      "severity": "medium",
+      "title": "Dietary labels need default-versus-alternative clarity",
+      "evidenceFile": "/Users/jsilton/Sites/mise/src/content/recipes/patatas-bravas.md:11",
+      "evidence": "Vegan-tagged patatas bravas requires unqualified mayonnaise; corpus screening also found conditional dairy and honey paths. Empty tags alone are not defects.",
+      "nextAction": "Make the intended vegan/default/optional ingredient requirements explicit after individual context review.",
+      "confidence": "high for the written ambiguity; medium for classification correction"
+    },
+    {
+      "id": "A07",
+      "rank": 8,
+      "status": "confirmed",
+      "severity": "medium",
+      "title": "Malformed generic rest guidance reaches public prose",
+      "evidenceFile": "/Users/jsilton/Sites/mise/src/content/recipes/tomato-and-goat-cheese-tart.md:72",
+      "evidence": "The tart says Let Cold Butt rest. Eighteen recipes match the generic rest explanation; only the malformed example is confirmed here.",
+      "nextAction": "Inspect the small candidate set and remove malformed or irrelevant appended advice without broad rewriting.",
+      "confidence": "high"
+    },
+    {
+      "id": "A08",
+      "rank": 9,
+      "status": "coverage-gap",
+      "severity": "medium",
+      "title": "No documented kitchen testing",
+      "evidenceFile": "/Users/jsilton/Sites/mise/docs/recipe-review-register.json:6",
+      "evidence": "Zero canonical recipes are recorded as kitchen-tested. Editorial review cannot establish taste or reproducibility.",
+      "nextAction": "Select a small set of changed formulas and representative complete meals for actual cooking records.",
+      "confidence": "high"
+    },
+    {
+      "id": "A09",
+      "rank": 10,
+      "status": "coverage-gap",
+      "severity": "medium",
+      "title": "Performance, print and comprehensive keyboard accessibility not established",
+      "evidenceFile": "/Users/jsilton/Sites/mise/docs/audits/2026-09-10/website.md",
+      "evidence": "Representative functionality is observed, but full measurement and accessibility coverage remain limited to what the website report explicitly records.",
+      "nextAction": "Run one bounded measurement and keyboard/print pass before making broad website-quality claims.",
+      "confidence": "high"
+    }
+  ]
+}

@@ -61,11 +61,12 @@ nutrition:
 ## Chef's Note
 
 Blackout cake is impossibly rich and moist - the secret is blooming cocoa powder in boiling water (like tea), which extracts flavor and hydrates the powder fully before it meets the batter. Greek yogurt adds tanginess and moisture while keeping the crumb tender. Espresso powder is invisible but essential - it amplifies chocolate flavor without making the cake taste like coffee.
+
 ## Directions
 
 1.  **Bloom:** In a large bowl, whisk the boiling water with the cocoa powder and espresso powder. Let it sit for 2 minutes to bloom the chocolate.
 2.  **Wet:** Whisk in the yogurt, oil, eggs, and vanilla until smooth.
-3.  **Dry:** In a separate bowl, whisk flour, sugar, baking soda, and salt.
+3.  **Dry:** In a separate bowl, whisk flour, sugar, baking soda, baking powder, and salt.
 4.  **Combine:** Gradually fold the dry ingredients into the chocolate liquid.
 5.  **Bake:** Pour into three 9-inch lined pans. Bake at 350°F for 30-35 minutes. Cool completely.
 6.  **Frost:** Use a rich chocolate ganache or cream cheese frosting.

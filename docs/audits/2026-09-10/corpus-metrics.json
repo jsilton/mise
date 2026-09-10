@@ -1,0 +1,210 @@
+{
+  "generated": "2026-09-10",
+  "method": {
+    "source": "Front matter from canonical Markdown, recipe and meal aliases, immutable baselines, review registers, explicit technique links and technique index",
+    "countsTreatMissingAs": "missing or empty arrays are counted as missing; no missing value is coerced to zero",
+    "similarity": "title token Jaccard and ingredient token Jaccard after lowercasing, punctuation removal, and removing the stopword set [with, and, the, for, from, style, recipe, sauce, salad, chicken, beef, pork, rice, fresh, classic, easy, baked]; nominees are candidates only",
+    "timeBuckets": "src/lib/time.mjs strict parser; 601 values parsed, 3 formats unsupported by parser; human-readable qualifiers retained. These are authored metadata, not measured times."
+  },
+  "scope": {
+    "canonicalRecipes": 604,
+    "foodRecipes": 602,
+    "excludedCraftRecipes": 2,
+    "excludedCraftSlugs": ["no-cook-playdough", "play-dough"],
+    "originalRecipeBaseline": 612,
+    "canonicalOriginalRecipesPresent": 602,
+    "addedCanonicalRecipes": 2,
+    "recipeAliases": 10,
+    "canonicalMeals": 86,
+    "originalMealBaseline": 88,
+    "mealAliases": 2,
+    "techniqueArticles": 9,
+    "techniqueIndexEntries": 9,
+    "publicLessons": 10,
+    "recipeReviewRecords": 254,
+    "mealReviewRecords": 50
+  },
+  "reviewCoverage": {
+    "originalRecipes": {
+      "editorialReviewed": 223,
+      "consolidatedAfterReview": 10,
+      "pending": 379,
+      "kitchenTested": 0
+    },
+    "addedRecipes": {
+      "count": 2,
+      "editorialReviewed": 2,
+      "pending": 0,
+      "slugs": ["mint-tzatziki", "turkey-pan-gravy"]
+    },
+    "originalMeals": {
+      "editorialReviewed": 47,
+      "consolidatedAfterReview": 2,
+      "pending": 39,
+      "kitchenTested": 0
+    }
+  },
+  "distributions": {
+    "denominator": "604 canonical records including 2 excluded craft records; food-only denominator is 602",
+    "role": {
+      "main": 352,
+      "side": 109,
+      "dessert": 59,
+      "base": 43,
+      "drink": 22,
+      "condiment": 19
+    },
+    "difficulty": {
+      "easy": 411,
+      "intermediate": 192,
+      "hard": 1
+    },
+    "vibe": {
+      "quick": 180,
+      "comfort": 160,
+      "nutritious": 147,
+      "technical": 94,
+      "holiday": 23
+    },
+    "cuisine": {
+      "American": 266,
+      "Italian": 78,
+      "Chinese": 48,
+      "Mexican": 34,
+      "Mediterranean": 33,
+      "Japanese": 29,
+      "French": 24,
+      "Indian": 19,
+      "Thai": 19,
+      "Korean": 17,
+      "Southern": 15,
+      "Middle Eastern": 12,
+      "Jewish": 9,
+      "Vietnamese": 9,
+      "Greek": 6,
+      "Spanish": 6,
+      "Caribbean": 5,
+      "Cantonese": 2,
+      "Israeli": 2,
+      "Ethiopian": 1,
+      "South American": 1,
+      "Scandinavian": 1,
+      "Belgian": 1,
+      "German": 1,
+      "Argentine": 1,
+      "Lebanese": 1,
+      "Swiss": 1
+    },
+    "method": {
+      "simmer": 182,
+      "bake": 176,
+      "boil": 166,
+      "saute": 164,
+      "no-cook": 118,
+      "roast": 92,
+      "blend": 81,
+      "steam": 74,
+      "fry": 49,
+      "sear": 22,
+      "slow-cook": 21,
+      "grill": 17,
+      "braise": 17,
+      "broil": 15,
+      "pan-fry": 13,
+      "toast": 13,
+      "stir-fry": 13,
+      "assemble": 11,
+      "toss": 10,
+      "marinate": 7,
+      "poach": 6,
+      "mix": 5,
+      "raw": 4,
+      "griddle": 3,
+      "shape": 3,
+      "infuse": 2,
+      "smoke": 2,
+      "pressure-cook": 1,
+      "char": 1,
+      "blanch": 1,
+      "missing": 1
+    },
+    "dietary": {
+      "missing_or_empty": 270,
+      "vegetarian": 236,
+      "gluten-free": 82,
+      "dairy-free": 63,
+      "vegan": 57,
+      "nut-free": 35,
+      "gluten-free-option": 22,
+      "vegan-option": 17,
+      "egg-free": 17,
+      "vegetarian-option": 17,
+      "dairy-free-option": 6,
+      "pescatarian": 3,
+      "low-carb": 2,
+      "keto": 1,
+      "egg-free-option": 1
+    },
+    "elapsedTimeMinutes": {
+      "0-30": 217,
+      "31-60": 212,
+      "61-120": 79,
+      "121-240": 39,
+      "241-720": 45,
+      ">720": 9,
+      "ambiguous": 3
+    }
+  },
+  "missingValues": {
+    "recipeRole": 0,
+    "recipeCuisine": 0,
+    "recipeCookingMethods": 1,
+    "recipeDifficulty": 0,
+    "recipeDietary": 270,
+    "recipeTotalTime": 0,
+    "ambiguousTotalTime": 3,
+    "recipeLearning": 379,
+    "recipeReviewField": 379,
+    "mealReviewField": 39,
+    "mealTotalTime": 38,
+    "emptyDietaryArrays": ["thai-mango-salad", "yakisoba-japanese-stir-fried-noodles"]
+  },
+  "relationships": {
+    "recipesWithPairsWith": 589,
+    "recipesWithUsesBase": 17,
+    "recipesWithIsVariationOf": 1,
+    "recipesWithExtractedFrom": 0,
+    "uniqueRecipeRelationshipTargets": 319,
+    "mealComponentReferences": 251,
+    "mealsWithAtLeastOneComponent": 86,
+    "uniqueMealComponentRecipes": 149,
+    "orphanMealReferences": 0,
+    "mostReusedBases": {
+      "master-sushi-rice": 5,
+      "korean-pickled-cucumbers": 3,
+      "warm-pita-bread": 2,
+      "tahini-sauce": 2
+    }
+  },
+  "lessons": {
+    "explicitTechniqueLinkMapEntries": 9,
+    "emptyTechniqueExampleLists": [
+      "brining",
+      "sushi-dam-method",
+      "sushi-zu-ratio",
+      "velveting",
+      "wok-hei"
+    ],
+    "indexedExampleCounts": {
+      "braising": 3,
+      "brining": 0,
+      "butter-finish-sauce": 4,
+      "pasta-emulsification": 2,
+      "searing": 8,
+      "sushi-dam-method": 0,
+      "sushi-zu-ratio": 0,
+      "velveting": 0,
+      "wok-hei": 0
+    }
+  }
+}
