@@ -55,8 +55,8 @@ formula:
       name: Yellow rice
       ingredients:
         - id: grains
-          key: white-basmati-rice
-          name: white basmati rice
+          key: long-grain-white-rice
+          name: long-grain white rice
           quantity:
             amount: 1
             unit: cup
@@ -67,13 +67,10 @@ formula:
         - id: broth
           key: low-sodium-chicken-broth
           name: low-sodium chicken broth
-          quantity:
-            amount: 1 1/2
-            unit: cup
-          preparation: starting amount; follow your cooker's basmati liquid guidance if different
           uses:
             - step: load
               share: 1
+          allowance: use your rice cooker's usual water amount for this quantity of long-grain white rice
         - id: butter
           key: unsalted-butter
           name: unsalted butter
@@ -122,18 +119,20 @@ formula:
     - id: steep
       title: Measure the broth and steep the saffron
       text: >-
-        Measure the full cooking amount of {{name:rice.broth}} first, adjusting to your cooker's
-        instructions for this quantity of basmati if needed. Take a small splash from that measured
-        broth (about 2 tbsp for the original batch) and warm it in a heatproof bowl until hot.
-        Lightly crumble {{ingredients}} into it and steep for 5–10 minutes while rinsing the rice.
-        Keep all the threads and liquid. For the turmeric version, skip this steep and use the
-        measured substitution below when loading the cooker.
+        Measure the full cooking amount of {{name:rice.broth}} first: use the same volume as the
+        water you normally use for this quantity of long-grain white rice in your cooker, or follow
+        the appliance's guidance for that rice. Take a small splash from that measured broth (about
+        2 tbsp for the original batch) and warm it in a heatproof bowl until hot. Lightly crumble
+        {{ingredients}} into it and steep for 5–10 minutes while preparing the rice. Keep all the
+        threads and liquid. For the turmeric version, skip this steep and use the measured
+        substitution below when loading the cooker.
     - id: rinse
       title: Rinse and drain
       text: >-
         Rinse {{ingredients}} in a few changes of cool water until the water is noticeably less
-        cloudy. Drain well and put it in the rice-cooker bowl. Do not add a separate soak unless
-        your appliance's basmati instructions call for one.
+        cloudy, unless the package directs you not to rinse. Drain well and put it in the
+        rice-cooker bowl. Use the same rinsing method you normally use with your chosen
+        cooking-liquid amount; no separate soak is needed unless your appliance calls for one.
     - id: load
       title: Add the broth and seasonings
       text: >-
@@ -144,9 +143,10 @@ formula:
     - id: cook
       title: Run the rice cooker
       text: >-
-        Close the lid and use the white-rice setting, or the setting your manual recommends for
-        seasoned basmati rice. Let the full cycle finish without opening the lid; allow about 30–60
-        minutes depending on the machine. The listed cooking time assumes a 40-minute cycle.
+        Close the lid and use the white-rice or long-grain white-rice setting, following your
+        manual's guidance for seasoned rice. Let the full cycle finish without opening the lid;
+        allow about 30–60 minutes depending on the machine. The listed cooking time assumes a
+        40-minute cycle.
     - id: finish
       title: 'Rest, fluff and season'
       text: >-
@@ -157,10 +157,10 @@ formula:
         portions.
 ingredients:
   - '--- Yellow rice ---'
-  - '1 cup white basmati rice, measured with a US kitchen cup; not instant or brown rice'
+  - '1 cup long-grain white rice, measured with a US kitchen cup; not instant or brown rice'
   - >-
-    1 1/2 cups low-sodium chicken broth, starting amount; follow your cooker's basmati liquid
-    guidance if different
+    low-sodium chicken broth, use your rice cooker's usual water amount for this quantity of
+    long-grain white rice
   - 1 tbsp unsalted butter
   - '1/8 tsp saffron threads, loosely measured before crumbling; preferred (see turmeric backup)'
   - 1/2 tsp garlic powder
@@ -178,9 +178,10 @@ learning:
       This recipe uses a US kitchen cup. The smaller cup supplied with many rice cookers is about
       180 ml; do not measure one US cup of rice and fill to the appliance's one-cup line.
     - >-
-      For the original batch, 1 1/2 cups broth is a starting amount for 1 US cup white basmati. Your
-      appliance's instructions for that rice type and quantity take priority. Some white-rice lines
-      are calibrated for short- or medium-grain rice rather than basmati.
+      Use your normal rice-cooker liquid amount for the measured long-grain white rice, replacing
+      water with broth one-for-one. The saffron steep comes out of that total. There is no universal
+      liquid ratio for every cooker; use fill lines only if the manual specifies them for this rice
+      type and your measuring cup.
     - >-
       Saffron is the preferred seasoning. For the original batch, replace it with 1/4 tsp ground
       turmeric if needed; use one or the other. Garlic and onion powders are individual spices, not
@@ -236,8 +237,8 @@ learning:
       url: 'https://toriavey.com/saffron-rice/'
     - title: Zojirushi — Rice-cooker cup and water-line guidance
       url: 'https://store.zojirushi.com/pages/faq-rice-cookers'
-    - title: Zojirushi — Basmati rice liquid guidance for NS-LHC05
-      url: 'https://store.zojirushi.com/products/nslhc'
+    - title: Mahatma — Regular long-grain white rice and cooking methods
+      url: 'https://mahatmarice.com/products/white-rice/'
     - title: Zojirushi — Dispersing seasonings before cooking rice
       url: 'https://store.zojirushi.com/blogs/rice-cookers/here-s-what-you-should-know-usage'
     - title: USDA FSIS — Leftovers and food safety
@@ -250,14 +251,14 @@ learning:
 
 ## Chef's Note
 
-This simple rice-cooker side takes its cue from Spanish-style yellow rice, using individual pantry ingredients. Saffron supplies the preferred aroma; broth, butter, garlic and onion give it a savory base. A brief saffron steep is the only extra preparation beyond rinsing and loading the cooker.
+Regular long-grain white rice is the base for this simple rice-cooker side inspired by Spanish-style yellow rice. Saffron supplies the preferred aroma; broth, butter, garlic and onion give it a savory base. A brief saffron steep is the only extra preparation beyond rinsing and loading the cooker.
 
 ## Directions
 
-1. **Measure the broth and steep the saffron:** Measure the full cooking amount of low-sodium chicken broth first, adjusting to your cooker's instructions for this quantity of basmati if needed. Take a small splash from that measured broth (about 2 tbsp for the original batch) and warm it in a heatproof bowl until hot. Lightly crumble saffron threads into it and steep for 5–10 minutes while rinsing the rice. Keep all the threads and liquid. For the turmeric version, skip this steep and use the measured substitution below when loading the cooker.
-2. **Rinse and drain:** Rinse white basmati rice in a few changes of cool water until the water is noticeably less cloudy. Drain well and put it in the rice-cooker bowl. Do not add a separate soak unless your appliance's basmati instructions call for one.
+1. **Measure the broth and steep the saffron:** Measure the full cooking amount of low-sodium chicken broth first: use the same volume as the water you normally use for this quantity of long-grain white rice in your cooker, or follow the appliance's guidance for that rice. Take a small splash from that measured broth (about 2 tbsp for the original batch) and warm it in a heatproof bowl until hot. Lightly crumble saffron threads into it and steep for 5–10 minutes while preparing the rice. Keep all the threads and liquid. For the turmeric version, skip this steep and use the measured substitution below when loading the cooker.
+2. **Rinse and drain:** Rinse long-grain white rice in a few changes of cool water until the water is noticeably less cloudy, unless the package directs you not to rinse. Drain well and put it in the rice-cooker bowl. Use the same rinsing method you normally use with your chosen cooking-liquid amount; no separate soak is needed unless your appliance calls for one.
 3. **Add the broth and seasonings:** Add low-sodium chicken broth, unsalted butter, garlic powder, and onion powder to the rice, including all the saffron infusion as part of the measured broth. If using turmeric instead, stir it into the broth now. Stir gently until the powders are dispersed, then level the rice. The saffron liquid is part of the total cooking liquid, not extra water. Start cooking promptly.
-4. **Run the rice cooker:** Close the lid and use the white-rice setting, or the setting your manual recommends for seasoned basmati rice. Let the full cycle finish without opening the lid; allow about 30–60 minutes depending on the machine. The listed cooking time assumes a 40-minute cycle.
+4. **Run the rice cooker:** Close the lid and use the white-rice or long-grain white-rice setting, following your manual's guidance for seasoned rice. Let the full cycle finish without opening the lid; allow about 30–60 minutes depending on the machine. The listed cooking time assumes a 40-minute cycle.
 5. **Rest, fluff and season:** Leave covered for 10 minutes after cooking, unless the program already includes the final rest and the manual says to fluff immediately. Lift and fold gently with a rice paddle. Taste a grain: it should be tender through the center, with no pooled broth. Add fine salt only as needed, since broth already contributes salt. Serve as three side portions.
 
 ## Turmeric backup
