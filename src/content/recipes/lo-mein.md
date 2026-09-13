@@ -42,7 +42,8 @@ equipment:
   - colander
   - instant-read-thermometer
   - two-serving-platters
-usesBase: []
+usesBase:
+  - scallion-shallot-oil
 pairsWith:
   - smashed-cucumber-salad
   - steamed-edamame
@@ -62,7 +63,7 @@ ingredients:
   - 1 tsp sugar
   - 1/8 tsp ground white pepper
   - '--- Pan ingredients ---'
-  - '3 tbsp neutral oil, divided'
+  - '3 tbsp (45 ml) prepared strained scallion-shallot oil, divided (preferred; or shallot oil or neutral oil)'
   - '3 cloves garlic, minced'
   - 1 tbsp minced fresh ginger
   - '4 scallions, whites thinly sliced and greens cut into 1-inch lengths'
@@ -71,12 +72,12 @@ ingredients:
   - '150 g mung bean sprouts, rinsed and drained'
   - 1 tbsp Shaoxing wine
   - '2 tsp toasted sesame oil, divided between finishing batches'
-  - '1 tsp Chinkiang black vinegar, optional, divided between finishing batches'
+  - '1 tsp Chinkiang black vinegar or unseasoned rice vinegar, optional, divided between finishing batches'
   - '1/4 cup (60 ml) hot water, only as needed to loosen noodles'
-  - '15 g prepared fried shallots, optional garnish'
+  - '15 g crisp fried shallots and scallions from the oil recipe, or prepared fried shallots, optional garnish'
 description: >-
-  Boiled egg noodles folded through chicken, shiitake and bok choy in two manageable pan batches,
-  with a separate shrimp variation.
+  Springy egg noodles with chicken, shiitake and bok choy, cooked in fragrant scallion-shallot oil
+  in two manageable pan batches, with a separate shrimp variation.
 learning:
   focus: Prepare the noodle type correctly and finish in two pan-sized batches
   outcome: >-
@@ -88,6 +89,9 @@ learning:
     - temperature
     - seasoning
   before:
+    - >-
+      Have 3 tbsp (45 ml) strained scallion-shallot oil ready before starting. Shallot oil also
+      works; neutral oil is the shortcut. Making the separate oil recipe adds its own preparation time.
     - >-
       The 450 g noodle weight is for fresh raw egg noodles. Dried and pre-cooked packages contain
       different amounts of water, so equal weights are not interchangeable.
@@ -136,21 +140,28 @@ learning:
         light coating. Cook in two batches until the thickest flesh is pearly and opaque throughout,
         then return only long enough to heat with the noodles. Do not remove at a guessed 80 percent
         and rely on off-heat carryover.
-    - ingredient: 3 tbsp neutral pan oil
-      alternative: 'The same measured amount of strained scallion-shallot oil, already prepared'
+    - ingredient: 3 tbsp strained scallion-shallot oil
+      alternative: '3 tbsp strained shallot oil, or 3 tbsp neutral oil for a shortcut'
       effect: >-
-        Adds an allium aroma; keep solids out of the hot pan and reserve them for garnish. Its
-        separate preparation time and storage rules apply.
+        Shallot oil gives a sweeter fried-allium aroma; neutral oil gives a milder result. Use
+        the same allocation in the cooking steps and keep fried solids for the final garnish.
     - ingredient: 450 g fresh raw noodles
       alternative: '300 g dried wheat egg noodles, cooked separately until springy'
       effect: >-
         This is an approximate starting quantity, not a universal package conversion. Weighing the
         original raw noodles remains the most reproducible version; divide any alternative into
         manageable pan loads.
+    - ingredient: 1 tsp Chinkiang black vinegar
+      alternative: '1 tsp unseasoned rice vinegar, or omit'
+      effect: >-
+        Rice vinegar adds brightness without black vinegar's deeper aged flavor. Use 1/2 tsp
+        in each finishing batch. The vinegar is an optional accent; avoid seasoned rice vinegar,
+        which adds sugar and salt.
   timing: >-
     Allow about 65 minutes for one cook: slicing, washing and drying, noodle preparation and
     separate chicken/vegetable/finishing batches. Chicken coating rests in the refrigerator while
-    other preparation happens; there is no mandatory fifteen-minute maximum.
+    other preparation happens; there is no mandatory fifteen-minute maximum. This timing assumes
+    the scallion-shallot oil is already prepared; allow its separate 50 minutes if making it first.
   storage: >-
     Refrigerate in shallow containers within 2 hours (1 hour above 90°F / 32°C), at 40°F / 4°C or
     below. Use within 3–4 days; reheat leftovers to 165°F / 74°C. Noodles soften on reheating.
@@ -161,6 +172,8 @@ learning:
       url: 'https://thewoksoflife.com/lo-mein-noodles-how-to-cook/'
     - title: Made With Lau — One Cantonese lo mein method
       url: 'https://www.madewithlau.com/recipes/vegetable-lo-mein'
+    - title: The Woks of Life — Chinese black vinegar and rice vinegar substitution
+      url: 'https://thewoksoflife.com/chinese-black-vinegar/'
     - title: FoodSafety.gov — Safe cooking temperatures
       url: 'https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures'
     - title: 'FoodSafety.gov — Clean, separate, cook, chill'
@@ -179,7 +192,7 @@ learning:
 
 ## Chef's Note
 
-This is a home-pan lo mein with a light coating of sauce. Dark soy contributes flavor and salt as well as color. Toasted sesame oil goes in at the finish for a clear aroma.
+Scallion-shallot oil gives this home-pan lo mein its fragrant allium base. Use **3 tbsp (45 ml) strained [Scallion-Shallot Oil](/mise/recipes/scallion-shallot-oil)** for the full five-serving recipe, made ahead; the chicken coating uses a separate teaspoon of neutral oil. Strained shallot oil works too, and neutral oil is the shortcut for a milder dish. Reserve the crisp fried alliums for serving. Dark soy contributes flavor and salt as well as color. Toasted sesame oil goes in at the finish for a clear aroma.
 
 ## Directions
 
@@ -189,10 +202,10 @@ This is a home-pan lo mein with a light coating of sauce. Dark soy contributes f
 4. **Cook the chicken fully in two batches:** Heat the wok or deep skillet over medium-high to high as appropriate for the pan, then add 2 tsp pan oil. Spread half the chicken in a layer. Leave about 1 minute for color, then turn and stir for another 2–3 minutes or until the thickest slices reach 165°F / 74°C. Transfer to a clean plate. Repeat with another 2 tsp oil and the remaining chicken. Keep the cooked chicken divided for the two finishing rounds.
 5. **Cook the first vegetable portion:** Add 2 tsp of the remaining oil. Cook half the mushrooms 3–4 minutes, stirring occasionally, until some surfaces brown. Add half the aromatics for 20–30 seconds, then half the wine and bok choy stems. Stir-fry about 2 minutes, adding a little measured hot water if needed for the stems to soften. Add half the leaves, sprouts and scallion greens and cook another 2–3 minutes, stirring, until thoroughly hot and cooked rather than raw-crisp.
 6. **Finish the first noodle batch:** Add half the noodles and one portion of sauce. Fold from the bottom for about 1–2 minutes, using a little measured hot water only if needed to separate strands. Add half the cooked chicken and toss over the heat until everything is hot and evenly coated. Turn off the heat and fold in half the sesame oil and optional vinegar. Transfer to a warm serving platter and cover loosely for the short second round.
-7. **Repeat and serve:** Use the last 2 tsp pan oil and the remaining vegetables, aromatics, wine, noodles, sauce and chicken to repeat steps 5–6. Finish with the remaining sesame oil and optional vinegar. Divide both batches among five bowls and add the optional measured fried shallots. Serve promptly.
+7. **Repeat and serve:** Use the last 2 tsp pan oil and the remaining vegetables, aromatics, wine, noodles, sauce and chicken to repeat steps 5–6. Finish with the remaining sesame oil and optional vinegar. Divide both batches among five bowls and add the optional 15 g crisp fried alliums from the oil recipe or prepared fried shallots. Serve promptly.
 
 ## Scaling and variations
 
 The pan oil is fully allocated: 1 tsp on noodles, 2 tsp for each chicken batch and 2 tsp for each vegetable round, totaling 3 tbsp. The chicken coating has its own separate teaspoon. If scaling up, add complete cooking rounds; multiplying ingredients does not make the pan larger. At half batch, a single finishing round is appropriate for the same pan, while the noodle type still determines boiling time.
 
-For the optional aromatic oil, use [Scallion-Shallot Oil](/mise/recipes/scallion-shallot-oil) already made and stored as directed. Neutral oil is the complete base method. For a cool accompaniment, see [Smashed Cucumber Salad](/mise/recipes/smashed-cucumber-salad).
+The preferred oil is [Scallion-Shallot Oil](/mise/recipes/scallion-shallot-oil), already made and stored as directed. Use 3 tbsp (45 ml) of strained oil, not the whole batch; its separate recipe also includes an all-shallot option. Substitute the same amount of neutral oil for a shortcut. Making the oil from scratch adds its own 50 minutes to the stated lo mein time. For a cool accompaniment, see [Smashed Cucumber Salad](/mise/recipes/smashed-cucumber-salad).
