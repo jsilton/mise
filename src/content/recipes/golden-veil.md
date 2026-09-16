@@ -5,7 +5,6 @@ cookingMethods:
   - no-cook
 dietary:
   - vegetarian
-  - vegan
 occasions:
   - date-night
   - entertaining

@@ -65,4 +65,4 @@ This Mediterranean-inspired 25-minute dish sears chicken cutlets first to develo
 7.  **Finish:** Return the chicken breasts to the skillet. Transfer the pan to a 400°F oven for 10-12 minutes until the chicken reaches an internal temp of 165°F.
 8.  **Serve:** Serve the chicken drenched in the lemon-yogurt sauce over rice or greens.
 
-**Rest:** Let large Chicken rest for 5 minutes before slicing or serving - the juices redistribute and every piece stays moist.
+Let the cooked chicken rest for 5 minutes before serving with the sauce.

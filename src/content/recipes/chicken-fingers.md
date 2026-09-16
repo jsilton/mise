@@ -66,5 +66,3 @@ Set up the breading ingredients separately so each piece of chicken gets an even
 4.  **Roast:** Arrange on the wire rack. Spray the tops of the chicken lightly with oil.
 5.  **Crisp:** Bake for 12-15 minutes until golden brown and the internal temp is 165°F. (No need to flip if using a wire rack!).
 6.  **Finish:** Serve hot with a squeeze of lemon or your favorite dipping sauce.
-
-**Rest:** Let lb Chicken rest for 5 minutes before slicing or serving - the juices redistribute and every piece stays moist.

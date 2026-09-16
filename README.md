@@ -108,6 +108,7 @@ scripts/
 
 ### Key Documentation
 
+- **[Review progress and handoff](docs/REVIEW_PROGRESS.md)** - Current audit repairs, validation evidence, and remaining work
 - **[DEPLOYMENT.md](DEPLOYMENT.md)** - Deployment workflow and checklist
 - **[CONTRIBUTING.md](CONTRIBUTING.md)** - How to contribute recipes
 - **[LICENSE](LICENSE)** - MIT License for code, usage terms for recipes

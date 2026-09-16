@@ -1,3 +1,7 @@
+# Audit repairs handoff — 2026-09-16
+
+September 15 repairs are implemented and locally validated, but remain uncommitted and unpublished by this task. See the [repair report and current handoff](repairs/2026-09-15/report.md) for scope, evidence, browser constraints and next actions. Use Codex’s built-in browser; the user removed Chrome DevTools MCP. Historical entries below retain their original scope and dates.
+
 # Structured recipe authoring — 2026-09-07
 
 Component-owned quantities and explicit ingredient destinations now generate readable recipe fields and method ingredient names. Two recipes migrated, with combined shopping lists and structured yields. Existing exporters/search retain generated Markdown compatibility; a narrow structure/drift check runs before builds. New-recipe scaffolding now starts with this format. Authoring guide: STRUCTURED_RECIPE_AUTHORING.md; decisions/validation: STRUCTURED_RECIPE_RELEASE.md.

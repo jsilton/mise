@@ -42,7 +42,7 @@ pairsWith:
 ingredients:
   - 1.5 lbs Fresh Cauliflower florets
   - 3 tbsp White Miso Paste
-  - 2 tbsp Mirin (or 1.5 tbsp honey + 0.5 tbsp soy sauce)
+  - 2 tbsp Mirin
   - 1 tbsp Soy Sauce
   - 1 tbsp Sesame Oil
   - 1 tbsp Rice Vinegar
@@ -61,6 +61,8 @@ nutrition:
 ## Chef's Note
 
 Miso is umami condensed - it transforms mild cauliflower into something deeply savory and addictive. The glaze contains the holy trifecta: miso (salt and depth), mirin (sweetness and shine), and sesame oil (richness). Roasting at high heat caramelizes the glaze onto the florets. This is how Japanese home cooks make vegetables disappear from the plate. The key is not overcrowding the pan; each piece needs direct contact with heat to caramelize.
+
+For a non-vegan variation, replace the mirin with 1 1/2 tbsp honey plus 1/2 tbsp soy sauce, in addition to the separately listed soy sauce. Use mirin for the vegan version.
 
 ## Directions
 

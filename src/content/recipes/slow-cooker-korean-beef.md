@@ -64,5 +64,3 @@ For kids, serve the heat on the side or reduce/omit the spicy elements.
 3.  **The Bind:** In a small jar, whisk cornstarch and 1/4 cup water. Stir into the pot.
 4.  **Set:** Increase heat to **High**. Cook uncovered for 30 minutes until the sauce is thick and mirror-glossy.
 5.  **Serve:** Garnish with fresh scallions and sesame seeds. Serve over steamed jasmine rice.
-
-**Rest:** Let lb Beef rest for 10 minutes before slicing or serving - the juices redistribute and every piece stays moist.

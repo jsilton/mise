@@ -65,4 +65,4 @@ Kalbi is Korean barbecue short ribs. The secret to tender meat with crisp edges 
 7.  **Finish:** Move to the cooler side of the grill for 5 minutes until the fat is rendered and "Snappy."
 8.  **Serve:** Use kitchen shears to cut the ribs into bite-sized pieces.
 
-**Rest:** Let style Beef rest for 5 minutes before slicing or serving - the juices redistribute and every piece stays moist.
+Let the cooked ribs rest for 5 minutes before cutting and serving.

@@ -78,4 +78,4 @@ Lemon and herb chicken is the Mediterranean weeknight answer: bone-in, skin-on t
 
 **One-Pan Magic:** Everything cooks in the same skillet - proteins, sauce, and vegetables if you add them. The cleanup is minimal.
 
-**Rest:** Let 8 Chicken rest for 5 minutes before slicing or serving - the juices redistribute and every piece stays moist.
+Let the cooked chicken thighs rest for 5 minutes before serving.

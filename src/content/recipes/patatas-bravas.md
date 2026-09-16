@@ -8,7 +8,7 @@ cookingMethods:
   - boil
 dietary:
   - vegetarian
-  - vegan
+  - vegan-option
   - gluten-free
   - dairy-free
   - nut-free
@@ -61,7 +61,7 @@ ingredients:
   - 1 tbsp Sherry Vinegar
   - 1 tsp Sugar
   - 1/2 tsp Kosher Salt
-  - 1/3 cup Mayonnaise (for alioli)
+  - 1/3 cup Mayonnaise (use vegan mayonnaise for the vegan option; for alioli)
   - '1 clove Garlic, finely grated (for alioli)'
   - 1 tbsp Lemon Juice (for alioli)
 nutrition:

@@ -70,5 +70,3 @@ Lamb ragù is popular in Central and Southern Italy, especially in regions like 
 5.  **Boil:** While sauce simmers, cook pasta until **very al dente**.
 6.  **Finish:** Stir the balsamic vinegar and fresh herbs into the sauce. Toss with the hot pasta.
 7.  **Serve:** Garnish with a "High Note" pat of Parmesan or Pecorino.
-
-**Rest:** Let Ground Lamb rest for 5 minutes before slicing or serving - the juices redistribute and every piece stays moist.

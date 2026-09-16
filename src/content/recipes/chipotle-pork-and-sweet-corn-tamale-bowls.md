@@ -69,5 +69,3 @@ This weeknight bowl delivers big Mexican flavors in 35 minutes. Polenta cooked i
 4.  **The Bloom:** Push meat aside. Add garlic, oregano, and chipotles. Fry 45 seconds until fragrant.
 5.  **The Sauce:** Add tomatoes. Scrape fond. Simmer 5 minutes until thick.
 6.  **Assemble:** Polenta in bowls, topped with pork, charred corn, avocado, cabbage, pepitas, sour cream, and a lime wedge.
-
-**Rest:** Let Ground Pork rest for 5 minutes before slicing or serving - the juices redistribute and every piece stays moist.

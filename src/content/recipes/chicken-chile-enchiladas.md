@@ -57,5 +57,3 @@ Traditional Mexican enchiladas briefly fry corn tortillas before dipping them in
 4.  **Bake:** Pour the remaining sauce over the top and cover generously with cheese.
 5.  **Melt:** Bake for 15-20 minutes until the cheese is bubbly and the edges of the tortillas are slightly crisp.
 6.  **Serve:** Top with cold sour cream and cilantro to balance the heat.
-
-**Rest:** Let Shredded Chicken rest for 5 minutes before slicing or serving - the juices redistribute and every piece stays moist.

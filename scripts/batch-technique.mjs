@@ -33,28 +33,6 @@ const METHOD_VISUAL_CUES = {
   steam: 'until tender',
 };
 
-// Protein types for resting instructions
-const PROTEINS_NEEDING_REST = [
-  'beef',
-  'pork',
-  'lamb',
-  'chicken',
-  'turkey',
-  'duck',
-  'fish',
-  'salmon',
-  'steak',
-  'roast',
-  'brisket',
-  'shoulder',
-  'ribs',
-  'chops',
-  'breast',
-  'thighs',
-  'tenderloin',
-  'butt',
-];
-
 async function listMdFiles(dir) {
   const entries = await fs.readdir(dir, { withFileTypes: true });
   const files = [];
@@ -230,92 +208,6 @@ function addVisualCueToStep(stepText) {
   return updated !== stepText ? updated : null;
 }
 
-/**
- * Check if recipe needs a rest instruction for meat
- */
-function needsRestInstruction(data, content) {
-  // Check if it's a main protein dish
-  if (data.role !== 'main') return false;
-
-  // Check if it has searing/roasting methods
-  const methods = Array.isArray(data.cookingMethods) ? data.cookingMethods : [];
-  const needsRestMethods = ['sear', 'roast', 'grill', 'bake', 'braise', 'fry'];
-  const hasRestMethod = methods.some((m) => needsRestMethods.includes(m.toLowerCase()));
-
-  if (!hasRestMethod) return false;
-
-  // Check if recipe has protein-related ingredients
-  const ingredientsText = Array.isArray(data.ingredients) ? data.ingredients.join(' ') : '';
-  const hasProtein = PROTEINS_NEEDING_REST.some((p) => ingredientsText.toLowerCase().includes(p));
-
-  if (!hasProtein) return false;
-
-  // Check if rest instruction already exists
-  if (/rest|resting|let.*rest/i.test(content)) return false;
-
-  return true;
-}
-
-/**
- * Determine rest time based on cooking method and protein size
- */
-function getRestTime(data) {
-  const methods = Array.isArray(data.cookingMethods) ? data.cookingMethods : [];
-  const ingredients = Array.isArray(data.ingredients)
-    ? data.ingredients.join(' ').toLowerCase()
-    : '';
-
-  // Large roasts: 10 min
-  if (
-    methods.some((m) => m === 'roast') &&
-    (ingredients.includes('roast') ||
-      ingredients.includes('brisket') ||
-      ingredients.includes('whole') ||
-      ingredients.includes('butt'))
-  ) {
-    return '10';
-  }
-
-  // Braised items: 5 min
-  if (methods.some((m) => m === 'braise')) {
-    return '5';
-  }
-
-  // Default for seared/fried: 5 min
-  return '5';
-}
-
-/**
- * Extract protein name from ingredient list or method
- */
-function getProteinName(data) {
-  const ingredients = Array.isArray(data.ingredients) ? data.ingredients : [];
-  for (const ingredient of ingredients) {
-    for (const protein of PROTEINS_NEEDING_REST) {
-      if (ingredient.toLowerCase().includes(protein)) {
-        // Extract just the protein word with optional descriptor
-        const match = ingredient.match(new RegExp(`(\\w+\\s+)?${protein}(s)?`, 'i'));
-        if (match) {
-          return match[0].replace(/,.*/, '').trim();
-        }
-      }
-    }
-  }
-  return 'meat';
-}
-
-/**
- * Add rest instruction to end of directions
- */
-function addRestInstruction(content, data) {
-  const restTime = getRestTime(data);
-  const proteinName = getProteinName(data);
-
-  const restStep = `**Rest:** Let ${proteinName} rest for ${restTime} minutes before slicing or serving — the juices redistribute and every piece stays moist.`;
-
-  return content + '\n' + restStep;
-}
-
 (async function main() {
   const args = process.argv.slice(2);
   const dryRun = args.includes('--dry-run');
@@ -332,7 +224,6 @@ function addRestInstruction(content, data) {
   const stats = {
     temperaturesAdded: 0,
     visualCuesAdded: 0,
-    restInstructionsAdded: 0,
     recipesProcessed: 0,
   };
 
@@ -395,13 +286,8 @@ function addRestInstruction(content, data) {
       }
     }
 
-    // 3. Add rest instruction for meat
-    if (needsRestInstruction(data, updatedContent)) {
-      updatedContent = addRestInstruction(updatedContent, data);
-      stats.restInstructionsAdded++;
-      changed = true;
-      changeLog.push('rest instruction added');
-    }
+    // Resting requirements need recipe-specific review. Do not infer them from
+    // ingredient substrings (for example, "butt" also matches "butter").
 
     // Write file if changed
     if (changed) {
@@ -431,7 +317,6 @@ function addRestInstruction(content, data) {
   console.log('IMPROVEMENTS APPLIED:');
   console.log(`  Temperatures added:          ${stats.temperaturesAdded}`);
   console.log(`  Visual cues improved:        ${stats.visualCuesAdded}`);
-  console.log(`  Rest instructions added:     ${stats.restInstructionsAdded}`);
   console.log(`  Total recipes modified:      ${stats.recipesProcessed}`);
 
   if (updates.length > 0 && updates.length <= 20) {

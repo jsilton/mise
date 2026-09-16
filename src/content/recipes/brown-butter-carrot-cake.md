@@ -50,16 +50,9 @@ ingredients:
   - '12 oz Cream Cheese, softened'
   - '3/4 cup Butter, softened'
   - 4 cups Powdered Sugar
-  - 1 tsp Vanilla Extract
+  - 2 tsp Vanilla Extract, for the cake
+  - 1 tsp Vanilla Extract, for the frosting
 origin: United States
-nutrition:
-  calories: 1680
-  protein: 8
-  carbs: 160.5
-  fat: 119.5
-  fiber: 1
-  sugar: 139
-  sodium: 1300
 ---
 
 ## Chef's Note
@@ -69,8 +62,8 @@ This is the **Bravetart Upgrade** to the BA classic. We replace generic vegetabl
 ## Directions
 
 1.  **Brown the Butter:** Melt the butter listed for the cake until dark golden and smelling like hazelnuts. Cool.
-2.  **Batter:** Whisk the brown butter, both sugars, eggs, and vanilla for 4 minutes until pale and thick.
+2.  **Batter:** Whisk the brown butter, both sugars, eggs, and the cake vanilla for 4 minutes until pale and thick.
 3.  **Fold:** Whisk together the dry ingredients. Add to the butter mixture in 3 parts, alternating with the buttermilk and carrots.
 4.  **Bake:** Pour into two 9-inch lined pans. Bake at 350°F for 35-45 minutes. Cool completely.
-5.  **Frosting:** Beat cream cheese and butter until smooth. Add powdered sugar and vanilla.
+5.  **Frosting:** Beat cream cheese and butter until smooth. Add powdered sugar and the frosting vanilla.
 6.  **Assemble:** Layer and frost the cakes generously.

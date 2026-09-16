@@ -7,7 +7,7 @@ cookingMethods:
   - boil
   - blend
 dietary:
-  - dairy-free
+  - dairy-free-option
 occasions:
   - weeknight
   - quick-lunch
@@ -60,10 +60,12 @@ nutrition:
 
 Cauliflower replaces some of the cream in traditional alfredo, cutting richness while adding body - the natural starches thicken the sauce. It's a smart weeknight shortcut that tastes more like creamy comfort than a vegetable swap. Blend the cooked cauliflower until completely smooth before adding cheese, or the sauce will be gritty.
 
+For the dairy-free option, use dairy-free milk or broth, olive oil, and nutritional yeast together.
+
 ## Directions
 
 1.  **Boil:** In a pot, combine cauliflower and milk/broth. Bring to a boil, cover, and simmer for 12-15 minutes until very soft.
-2.  **Infuse:** In a small pan, sauté the garlic in butter for 1 minute until fragrant.
-3.  **Blend:** Transfer the hot cauliflower and its cooking liquid to a blender. Add the garlic butter, Parmesan, salt, and nutmeg.
+2.  **Infuse:** In a small pan, sauté the garlic in the chosen butter or olive oil for 1 minute until fragrant.
+3.  **Blend:** Transfer the hot cauliflower and its cooking liquid to a blender. Add the garlic and its cooking fat, the chosen Parmesan or nutritional yeast, salt, and nutmeg.
 4.  **Emulsify:** Blend on high for 1 minute until completely smooth and velvety.
 5.  **Serve:** Toss immediately with your favorite pasta or use as a base for roasted veg.
