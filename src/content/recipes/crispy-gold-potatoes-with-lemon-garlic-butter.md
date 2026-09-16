@@ -1,8 +1,8 @@
 ---
-title: Crispy Gold Potatoes with Lemon-Garlic Butter
+title: Crispy Gold Potatoes with Smoked Salt and Paprika
 description: >-
   Petite gold potatoes with deeply browned cut faces, creamy centers and a finishing
-  gloss of garlic butter, lemon zest and fresh herbs. A bright, buttery side for baked fish.
+  butter finish, garlic, smoked sea salt and sweet paprika.
 role: side
 vibe: comfort
 difficulty: easy
@@ -17,39 +17,33 @@ occasions:
 flavorProfile:
   - crispy
   - buttery
-  - herbaceous
-  - bright
+  - smoky
+  - savory
 seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
 equipment:
   - two-rimmed-half-sheet-pans
-  - small-saucepan
   - thin-metal-spatula
 prepTime: 15 min
-cookTime: 50 min
-totalTime: 1 hr 5 min
+cookTime: 45 min
+totalTime: 1 hr
 servings: 8 side portions
 isVariationOf: garlic-roasted-potatoes
 source: 'Mise variation on Garlic Roasted Potatoes, adapted from Ina Garten'
 sourceUrl: 'https://barefootcontessa.com/recipes/garlic-roasted-potatoes'
-pairsWith:
-  - baked-cod-with-lemon-panko
-  - green-beans-with-shallots-and-lemon
 ingredients:
-  - '3 lb petite gold potatoes, scrubbed and thoroughly dried'
+  - 3 lb petite gold potatoes, scrubbed and thoroughly dried
   - 1/4 cup olive oil
-  - '1 tsp fine sea salt, plus more to taste'
+  - 2 tsp finely minced garlic
+  - 1 1/4 tsp fine smoked sea salt, plus more to taste
   - 1/2 tsp freshly ground black pepper
-  - 3 tbsp unsalted butter
-  - '1 tbsp finely minced garlic'
-  - 2 tsp finely grated lemon zest
-  - '2 tbsp chopped fresh parsley, or 1 tbsp chopped fresh dill'
-  - '1 tsp fresh lemon juice, optional, plus more to taste'
+  - 1 1/2 tsp sweet paprika (not smoked)
+  - 3 tbsp unsalted butter, cut into small pieces
 learning:
-  focus: Brown potato cut faces before adding delicate aromatics
-  outcome: Creamy centers beneath a golden crust, with fragrant garlic and fresh lemon
+  focus: Brown potato cut faces while watching the garlic, then finish with butter
+  outcome: Creamy centers beneath browned cut faces, with gentle smoke and a buttery finish
   techniques:
     - browning
     - seasoning
@@ -67,11 +61,8 @@ learning:
       cue: Cut faces are golden brown and release with a thin spatula.
       why: Leaving the flat faces against the pan develops a crust before turning.
     - step: 4
-      cue: Garlic smells sweet and fragrant but remains pale in gently foaming butter.
-      why: A separate brief cook gives minced garlic less exposure to heat than the potatoes.
-    - step: 5
-      cue: Potatoes have a thin buttery coating with no puddle of lemon juice.
-      why: Zest supplies lemon aroma while a restrained juice finish preserves more crispness.
+      cue: Butter melts on the hot potatoes and coats them lightly.
+      why: Residual heat melts the finishing butter without another roasting cycle.
   troubleshooting:
     - problem: Potatoes are tender but pale
       cause: Crowded pans, wet cut surfaces or insufficient contact time.
@@ -83,9 +74,9 @@ learning:
       fix: >-
         Give them another 3–5 minutes, then slide a thin metal spatula flat along the pan
         beneath the crust. Do not pull them up with tongs.
-    - problem: Garlic butter tastes bitter
-      cause: The minced garlic burned.
-      fix: Discard it and make fresh garlic butter over lower heat before coating the potatoes.
+    - problem: Garlic darkens before potatoes are tender
+      cause: Small garlic pieces cook faster than potato centers.
+      fix: Lower to 375°F convection and continue checking tenderness. Remove loose blackened garlic where possible; butter cannot reverse burned flavor.
   substitutions:
     - ingredient: Petite gold potatoes
       alternative: The same weight of larger Yukon Gold potatoes
@@ -93,18 +84,15 @@ learning:
     - ingredient: Butter
       alternative: The same volume of olive oil
       effect: >-
-        Makes the dish dairy-free and vegan. Warm the garlic gently in the oil until
-        fragrant; the finish will taste fruitier and less rich.
+        Makes the dish dairy-free and vegan; the finish will taste fruitier and less rich.
   timing: >-
-    Allow about 65 minutes: 15 minutes preparation and preheating, then 40–50 minutes
-    roasting. Make the finishing butter during the last 5 minutes. Two pans or larger
-    pieces may take longer; tenderness and browned cut faces govern. Hands-on time is
-    about 20 minutes. Coordinating a separate fish bake may extend the dinner timeline.
+    Allow about 60 minutes including 15 minutes preparation and preheating and 35–45 minutes
+    roasting at 400°F convection. Check garlic at 20 minutes and tenderness from 30 minutes.
+    Larger pieces or a crowded oven may take longer. Finish with butter immediately after roasting.
   storage: >-
     Refrigerate promptly in shallow containers within 2 hours, or 1 hour above 90°F / 32°C,
     at 40°F / 4°C or below. Reheat in a single layer at 400°F / 205°C until 165°F / 74°C
-    throughout, watching the garlic for overbrowning. The crust softens during storage;
-    add fresh herbs after reheating.
+    throughout, watching the garlic for overbrowning. The crust softens during storage.
   sources:
     - title: Ina Garten — Garlic Roasted Potatoes (base recipe)
       url: 'https://barefootcontessa.com/recipes/garlic-roasted-potatoes'
@@ -114,23 +102,16 @@ learning:
       url: 'https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures'
   review:
     status: editorial-review
-    date: '2026-09-14'
+    date: '2026-09-15'
 ---
 
 ## Chef's Note
 
-Gold potatoes give you creamy centers without peeling or parboiling. Dry them well and roast cut-side down with space around each piece. Cook the garlic gently in butter separately, then add lemon zest and herbs off the heat. That finish gives the potatoes a bright, buttery flavor without burned garlic or enough lemon juice to soak the crust.
+Smoked sea salt provides the smoke while sweet paprika adds warmth. Gold potatoes roast with creamy centers and browned cut faces; a final toss with butter rounds out the seasoning. Dry them well, leave room around each piece and watch the garlic. Use fine smoked salt for the measured amount; coarse or flaky salt needs adjustment because its volume varies.
 
 ## Directions
 
-1. **Heat and cut:** Heat the oven to **425°F / 220°C**, with racks in the upper and lower thirds. Set out two bare metal rimmed half-sheet pans. Halve the dry potatoes lengthwise; quarter larger ones so the pieces are roughly **1–1 1/2 inches** across.
-2. **Season and arrange:** Toss the potatoes with the olive oil, fine sea salt and pepper. Divide between the pans, spreading into a single layer with a little space around each piece. Set a cut face flat against the metal. Scrape any oil from the bowl onto the pans.
-3. **Roast:** Roast undisturbed for **25 minutes**. Rotate the pans front to back and swap racks. Check underneath a few potatoes; if golden and releasing easily, turn them. If pale or stuck, leave cut-side down for another **5 minutes** before checking again. Continue roasting until deeply golden and a thin knife slides easily through the largest pieces, usually **40–50 minutes total**. Allow more time if needed.
-4. **Make the garlic butter:** During the last few minutes of roasting, melt the butter in a small saucepan over **medium-low heat**. Add the garlic and cook gently for **1–2 minutes**, stirring, until fragrant but still pale. Remove from the heat and stir in the lemon zest and parsley or dill.
-5. **Finish and serve:** Drizzle the garlic butter evenly over the hot potatoes and turn gently to coat. Taste one and adjust the salt. If desired, add the measured lemon juice, then a few drops more to taste; use a light hand if the fish already has a lemon sauce. Serve immediately on a platter, with browned faces upward. Avoid covering or piling into a deep bowl, which traps steam.
-
-## Serving Suggestions
-
-Serve with [Cod with Lemon Panko](/mise/recipes/baked-cod-with-lemon-panko) and green beans. Parsley is the quieter finish; dill gives a more pronounced fresh-herb flavor.
-
-**One oven, with cod at 400°F:** Roast the potatoes first through step 3. Hold them uncovered on their pans while you lower the oven to **400°F / 205°C** and bake the cod according to its recipe. Cook the green beans on the stovetop during the fish bake. When the fish comes out, return the potatoes to the oven for **3–5 minutes** to refresh their heat, then add the freshly made garlic butter and serve. Allow roughly **15–25 extra minutes** for this sequence, depending on the fish. Keep the fish's baking dish separate from the potato pans.
+1. **Heat and cut:** Heat the oven to **400°F convection**, with racks in the upper and lower thirds. Set out two bare metal rimmed half-sheet pans. Halve the dry potatoes lengthwise; quarter larger ones so pieces are roughly **1–1 1/2 inches** across.
+2. **Season and arrange:** Toss potatoes with the olive oil, garlic, smoked sea salt, black pepper and sweet paprika. Divide between pans with space around each piece, setting a cut face flat against the metal. Scrape the coating from the bowl onto the potatoes; avoid piles of loose garlic on the pans.
+3. **Roast:** Check after **20 minutes**, rotating pans front to back and swapping racks. Turn potatoes once their undersides are golden and release with a thin spatula; leave pale or stuck pieces a little longer. Start checking tenderness at **30 minutes**. They are ready when browned and a thin knife slides easily into the largest centers, usually **35–45 minutes total**. If garlic darkens quickly, lower to **375°F convection** and continue until tender.
+4. **Butter and serve:** Add butter in small pieces to the hot potatoes and toss gently on the pans until melted. **No extra roasting is needed.** Taste before adding more salt. Serve promptly; avoid covering tightly or piling into a deep bowl, which traps steam.
