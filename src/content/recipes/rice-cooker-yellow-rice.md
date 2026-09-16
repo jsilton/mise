@@ -1,20 +1,21 @@
 ---
-title: Rice Cooker Yellow Rice
-origin: Home adaptation inspired by Spanish-style yellow rice
+title: Spanish Rice
+origin: Home adaptation of Spanish-style saffron yellow rice
 description: >-
-  Buttery yellow rice made in the rice cooker with saffron, chicken broth, garlic and onion, with a
-  simple turmeric backup.
+  Savory saffron yellow rice with buttery sautéed onion, red bell pepper and fresh garlic, finished
+  in a computerized Zojirushi rice cooker. No added sugar.
 difficulty: easy
 role: side
 vibe: comfort
 prepTime: 10 min
-cookTime: 40 min
-totalTime: 1 hr
+cookTime: 55 min
+totalTime: 1 hr 5 min
 servings: 3 portions
 cuisines:
   - Spanish
   - American
 cookingMethods:
+  - saute
   - infuse
   - steam
 dietary:
@@ -41,6 +42,7 @@ equipment:
   - fine-mesh-strainer
   - measuring-cup
   - small-heatproof-bowl
+  - skillet
   - rice-paddle
 pairsWith:
   - spatchcocked-roast-chicken
@@ -52,25 +54,31 @@ formula:
     unit: portion
   components:
     - id: rice
-      name: Yellow rice
+      name: Spanish rice
       ingredients:
         - id: grains
           key: long-grain-white-rice
-          name: long-grain white rice
+          name: regular long-grain white rice
           quantity:
             amount: 1
             unit: cup
-          preparation: measured with a US kitchen cup; not instant or brown rice
+          preparation: 'measured dry with a US kitchen cup, before rinsing; not parboiled or instant'
           uses:
             - step: rinse
               share: 1
         - id: broth
-          key: low-sodium-chicken-broth
-          name: low-sodium chicken broth
+          key: low-sodium-chicken-stock
+          name: low-sodium chicken stock
+          quantity:
+            amount: 1 1/4
+            unit: cup
+          equivalents:
+            - amount: 296
+              unit: ml
+          preparation: 'total cooking liquid, including the saffron infusion; measure separately from the rice'
           uses:
             - step: load
               share: 1
-          allowance: use your rice cooker's usual water amount for this quantity of long-grain white rice
         - id: butter
           key: unsalted-butter
           name: unsalted butter
@@ -78,7 +86,38 @@ formula:
             amount: 1
             unit: tbsp
           uses:
-            - step: load
+            - step: saute
+              share: 1
+        - id: onion
+          key: yellow-onion
+          name: yellow onion
+          quantity:
+            amount: 1/3
+            unit: cup
+          preparation: finely diced
+          uses:
+            - step: saute
+              share: 1
+        - id: pepper
+          key: red-bell-pepper
+          name: red bell pepper
+          quantity:
+            amount: 1/4
+            unit: cup
+          preparation: finely diced
+          uses:
+            - step: saute
+              share: 1
+        - id: garlic
+          key: garlic
+          name: garlic clove
+          quantity:
+            amount: 2
+            unit: count
+          plural: garlic cloves
+          preparation: minced
+          uses:
+            - step: garlic
               share: 1
         - id: saffron
           key: saffron-threads
@@ -86,185 +125,223 @@ formula:
           quantity:
             amount: 1/8
             unit: tsp
-          preparation: loosely measured before crumbling; preferred (see turmeric backup)
+          preparation: loosely measured before crumbling
           uses:
             - step: steep
-              share: 1
-        - id: garlic
-          key: garlic-powder
-          name: garlic powder
-          quantity:
-            amount: 1/2
-            unit: tsp
-          uses:
-            - step: load
-              share: 1
-        - id: onion
-          key: onion-powder
-          name: onion powder
-          quantity:
-            amount: 1/2
-            unit: tsp
-          uses:
-            - step: load
               share: 1
         - id: salt
           key: fine-salt
           name: fine salt
-          allowance: 'to taste, after cooking'
+          quantity:
+            amount: 1/4
+            unit: tsp
+          preparation: plus more to taste after cooking; omit the initial salt if using fully salted stock
           uses:
-            - step: finish
+            - step: load
+              share: 1
+        - id: msg
+          key: monosodium-glutamate
+          name: MSG
+          quantity:
+            amount: 1/4
+            unit: tsp
+          optional: true
+          preparation: for extra savory depth
+          uses:
+            - step: load
               share: 1
   steps:
-    - id: steep
-      title: Measure the broth and steep the saffron
-      text: >-
-        Measure the full cooking amount of {{name:rice.broth}} first: use the same volume as the
-        water you normally use for this quantity of long-grain white rice in your cooker, or follow
-        the appliance's guidance for that rice. Take a small splash from that measured broth (about
-        2 tbsp for the original batch) and warm it in a heatproof bowl until hot. Lightly crumble
-        {{ingredients}} into it and steep for 5–10 minutes while preparing the rice. Keep all the
-        threads and liquid. For the turmeric version, skip this steep and use the measured
-        substitution below when loading the cooker.
     - id: rinse
-      title: Rinse and drain
+      title: Rinse and drain the rice
       text: >-
-        Rinse {{ingredients}} in a few changes of cool water until the water is noticeably less
-        cloudy, unless the package directs you not to rinse. Drain well and put it in the
-        rice-cooker bowl. Use the same rinsing method you normally use with your chosen
-        cooking-liquid amount; no separate soak is needed unless your appliance calls for one.
+        Measure {{ingredients}} before rinsing. Rinse in a few changes of cool water until
+        noticeably less cloudy, then drain in a fine-mesh strainer until it stops dripping steadily.
+        The grains can remain damp; leave no puddle of rinse water. Put the drained rice in the
+        cooker bowl. Do not soak separately.
+    - id: steep
+      title: Measure the stock and steep the saffron
+      text: >-
+        Measure the full quantity of {{name:rice.broth}} in a separate measuring jug. For the
+        original batch, that is 1¼ US cups (about 300 ml) for 1 US cup dry rice. Take about
+        one-tenth of that measured stock (2 tbsp for the original batch), warm until hot, and steep
+        lightly crumbled {{ingredients}} in it for 5–10 minutes while cooking the vegetables. Keep
+        the remaining stock in the jug. The infusion is part of the measured total, not extra
+        liquid.
+    - id: saute
+      title: Soften and lightly brown the vegetables
+      text: >-
+        Put {{ingredients}} in a small skillet over medium heat. Cook for 7–10 minutes, stirring
+        often, until the vegetables are soft, the onion has golden edges and no watery liquid
+        remains in the pan. Reduce the heat if the butter or onion starts to darken too quickly.
+    - id: garlic
+      title: Add the garlic
+      text: >-
+        Stir {{ingredients}} into the softened vegetables and cook for about 30 seconds, just until
+        fragrant. Remove the skillet from the heat.
     - id: load
-      title: Add the broth and seasonings
+      title: Season the liquid and load the cooker
       text: >-
-        Add {{ingredients}} to the rice, including all the saffron infusion as part of the measured
-        broth. If using turmeric instead, stir it into the broth now. Stir gently until the powders
-        are dispersed, then level the rice. The saffron liquid is part of the total cooking liquid,
-        not extra water. Start cooking promptly.
+        Add {{ingredients}} to the drained rice, including all the saffron threads and their
+        infusion within the measured stock total. Stir gently to dissolve the seasonings and level
+        the rice. Spoon the cooked vegetables and all their butter evenly over the top; leave them
+        on top rather than stirring them through. Do not add extra water or top up to the pot’s
+        regular WHITE line. Start cooking promptly.
     - id: cook
-      title: Run the rice cooker
+      title: Run the mixed-rice cycle
       text: >-
-        Close the lid and use the white-rice or long-grain white-rice setting, following your
-        manual's guidance for seasoned rice. Let the full cycle finish without opening the lid;
-        allow about 30–60 minutes depending on the machine. The listed cooking time assumes a
-        40-minute cycle.
+        Close the lid and select MIXED on a computerized Zojirushi, unless the model’s own
+        instructions specify another setting for seasoned long-grain rice. Let the full cycle finish
+        without opening the lid. Allow about 40–60 minutes depending on the model; the listed time
+        assumes a 45-minute cycle.
     - id: finish
-      title: 'Rest, fluff and season'
+      title: Fluff and finish
       text: >-
-        Leave covered for 10 minutes after cooking, unless the program already includes the final
-        rest and the manual says to fluff immediately. Lift and fold gently with a rice paddle.
-        Taste a grain: it should be tender through the center, with no pooled broth. Add
-        {{ingredients}} only as needed, since broth already contributes salt. Serve as three side
-        portions.
+        When the completion signal sounds, open the lid and gently lift and fold the rice with a
+        paddle, distributing the vegetables and releasing steam. The computerized cycle already
+        includes the final steaming rest; do not add another covered 10-minute rest. Taste a grain:
+        the center should be tender, with no pooled stock or pasty coating. Taste a spoonful with
+        the vegetables and add a small pinch of {{name:rice.salt}} if the flavor is muted. Serve
+        promptly.
 ingredients:
-  - '--- Yellow rice ---'
-  - '1 cup long-grain white rice, measured with a US kitchen cup; not instant or brown rice'
+  - '--- Spanish rice ---'
   - >-
-    low-sodium chicken broth, use your rice cooker's usual water amount for this quantity of
-    long-grain white rice
+    1 cup regular long-grain white rice, measured dry with a US kitchen cup, before rinsing; not
+    parboiled or instant
+  - >-
+    1 1/4 cups (296 ml) low-sodium chicken stock, total cooking liquid, including the saffron
+    infusion; measure separately from the rice
   - 1 tbsp unsalted butter
-  - '1/8 tsp saffron threads, loosely measured before crumbling; preferred (see turmeric backup)'
-  - 1/2 tsp garlic powder
-  - 1/2 tsp onion powder
-  - 'fine salt, to taste, after cooking'
+  - '1/3 cup yellow onion, finely diced'
+  - '1/4 cup red bell pepper, finely diced'
+  - '2 garlic cloves, minced'
+  - '1/8 tsp saffron threads, loosely measured before crumbling'
+  - >-
+    1/4 tsp fine salt, plus more to taste after cooking; omit the initial salt if using fully salted
+    stock
+  - '1/4 tsp MSG, for extra savory depth, optional'
 learning:
-  focus: Infuse saffron and measure the total rice-cooker liquid accurately
-  outcome: 'Tender yellow grains with a buttery, savory aroma and no hard center or pooled broth.'
+  focus: Build a savory vegetable base and measure rice-cooker liquid precisely
+  outcome: 'Tender, separate yellow grains with buttery onion, sweet pepper, fresh garlic and saffron aroma.'
   techniques:
+    - browning
     - starch
     - seasoning
-    - temperature
   before:
     - >-
-      This recipe uses a US kitchen cup. The smaller cup supplied with many rice cookers is about
-      180 ml; do not measure one US cup of rice and fill to the appliance's one-cup line.
+      This recipe is written for a computerized Zojirushi with a MIXED program. Its 1:1¼
+      rice-to-liquid ratio follows the maker’s general guidance for regular long-grain white rice;
+      model-specific seasoned-rice instructions take precedence. This ratio is not intended for
+      basic single-switch cookers or the stovetop.
     - >-
-      Use your normal rice-cooker liquid amount for the measured long-grain white rice, replacing
-      water with broth one-for-one. The saffron steep comes out of that total. There is no universal
-      liquid ratio for every cooker; use fill lines only if the manual specifies them for this rice
-      type and your measuring cup.
+      Use standard US kitchen cups for this recipe: 1 cup dry rice and 1¼ cups stock (296 ml,
+      approximately 300 ml). Measure the rice before rinsing, drain well, then add the separately
+      measured stock. Do not use the pot’s regular WHITE fill lines for this batch.
     - >-
-      Saffron is the preferred seasoning. For the original batch, replace it with 1/4 tsp ground
-      turmeric if needed; use one or the other. Garlic and onion powders are individual spices, not
-      seasoning salts or a premixed rice packet.
+      The supplied Zojirushi cup is 180 ml. A batch made with one supplied cup of dry rice needs 225
+      ml stock and about three-quarters of the other ingredients listed here. Keep all measurements
+      in one system.
+    - >-
+      Use regular long-grain white rice. Parboiled, instant, brown, jasmine and basmati rice need
+      their own cooking guidance. No separate soaking is needed for the computerized cycle.
+    - >-
+      Choose a chicken stock that tastes savory on its own. The measured fine salt is for low-sodium
+      stock; omit it initially with fully salted stock. MSG is optional. The cooked onion and pepper
+      provide sweetness without added sugar.
   checkpoints:
     - step: 1
-      cue: The steeping liquid turns golden and smells aromatic.
-      why: Crumbling and steeping help disperse saffron's color and aroma through the rice.
+      cue: The rice is damp but no rinse water pools beneath it.
+      why: Unmeasured rinse water adds to the cooking liquid and can soften the rice too much.
     - step: 3
-      cue: The seasoning is dispersed and the saffron liquid is included in the total broth allowance.
-      why: Extra steeping liquid changes hydration; clumps of seasoning can cook unevenly.
+      cue: 'The vegetables are soft, the onion has golden edges and the pan has no watery puddle.'
+      why: Sautéing develops flavor and cooks off free vegetable moisture before steaming the rice.
     - step: 5
-      cue: A tasted grain is tender through the center and no broth pools beneath the rice.
-      why: The machine's timer alone cannot account for every rice brand and liquid adjustment.
+      cue: All saffron liquid is included in the measured stock; vegetables sit evenly on top.
+      why: Accurate hydration and an undisturbed rice layer help the cooker heat the grains evenly.
+    - step: 7
+      cue: Grains are tender through the center and separate with gentle lifting.
+      why: >-
+        Fluffing at the completion signal releases steam; additional covered resting is unnecessary
+        for this computerized cycle.
   troubleshooting:
-    - problem: Rice is firm and dry after the rest
-      cause: The rice needed more liquid or the wrong rice setting or cup measurement was used.
-      fix: >-
-        For the original batch, sprinkle in 1–2 tbsp hot water and use the appliance's recommended
-        recooking method, then check again. Keep-warm alone is not a reliable way to cook hard rice.
-        Record the successful liquid amount for your cooker.
-    - problem: Rice is soft and wet
+    - problem: Rice is soft or mushy
       cause: >-
-        Excess broth, poorly drained rice or saffron liquid added on top of the full liquid
-        allowance.
+        Extra rinse water, infusion added beyond the stock allowance, mixed cup sizes or an
+        unsuitable program.
       fix: >-
-        Let tender rice release steam briefly with the lid open, then fold gently. Extra stirring
-        cannot restore mushy grains. Use less liquid next time and count the infusion in the total.
+        Fluff tender rice gently and let excess steam escape; mushy grains cannot be restored. Check
+        measurements first. If the same rice and program still produce overly soft grains, reduce
+        the total stock by 1 tbsp per US cup of dry rice on the next batch.
+    - problem: Rice is firm and dry
+      cause: Too little liquid for the chosen rice or an unsuitable program.
+      fix: >-
+        Sprinkle in 1–2 tbsp hot water for the original batch and follow the cooker’s recommended
+        recooking method. Keep-warm alone is not a reliable way to cook a hard center. Record the
+        successful liquid amount for that rice and model.
+    - problem: Rice tastes flat
+      cause: 'Weak stock, insufficient salt or vegetables that were barely cooked before loading.'
+      fix: >-
+        Taste a spoonful with the vegetables. Fold in fine salt a small pinch at a time and taste
+        again. For the next batch use flavorful stock and cook the aromatics to the stated cues;
+        additional turmeric will not supply savory depth.
   substitutions:
     - ingredient: 1/8 tsp saffron threads
       alternative: 1/4 tsp ground turmeric
       effect: >-
-        Omit the saffron and skip steeping. Stir turmeric directly into the broth before cooking. It
-        supplies a stronger yellow color and an earthy flavor, without saffron's floral aroma. This
-        amount is for the original one-cup rice batch; scale it in proportion to the rice.
-    - ingredient: Low-sodium chicken broth
-      alternative: The same cooking volume of mild vegetable broth
-      effect: Makes the rice vegetarian; a strongly flavored vegetable broth can obscure the saffron.
+        For the original batch, omit saffron and skip steeping. Stir turmeric into the measured
+        stock when loading. It gives yellow color and an earthy flavor, without saffron’s aroma;
+        keep the stock amount unchanged.
+    - ingredient: Low-sodium chicken stock
+      alternative: The same volume of mild vegetable stock
+      effect: Makes the rice vegetarian. Choose a savory stock and check the final salt level.
     - ingredient: 1 tbsp unsalted butter
       alternative: 1 tbsp olive oil
       effect: 'Makes the rice dairy-free, with a less buttery finish.'
   timing: >-
-    About one hour assumes ten minutes preparation, including the saffron steep, a forty-minute
-    cooker cycle and a ten-minute rest. Plan around your machine: a 30–60-minute cycle makes the
-    total about 50–80 minutes, with roughly five minutes hands-on. Do not duplicate a final rest
-    already included by the cooker. The turmeric version skips the saffron steep.
+    About 65 minutes assumes 10 minutes measuring, rinsing and chopping, 10 minutes sautéing with
+    saffron steeping in parallel, and a 45-minute cooker cycle. A 40–60-minute cycle makes the total
+    about 60–80 minutes. The computerized program includes the final steaming rest. Scale the batch
+    within the model’s seasoned-rice capacity; cooking time does not multiply.
   storage: >-
-    Refrigerate leftovers promptly in shallow containers within two hours, at 40°F / 4°C or below.
-    Use within three to four days. Reheat covered with a small splash of water until 165°F / 74°C
-    throughout. Do not leave cooked rice cooling in a closed cooker at room temperature.
+    Refrigerate leftovers promptly in shallow containers within two hours (one hour above 90°F /
+    32°C), at 40°F / 4°C or below. Use within three to four days. Reheat covered with a small splash
+    of water until 165°F / 74°C throughout. Do not cool rice in a closed cooker at room temperature.
   sources:
-    - title: Tori Avey — Saffron steeping technique and broth-based rice
-      url: 'https://toriavey.com/saffron-rice/'
-    - title: Zojirushi — Rice-cooker cup and water-line guidance
+    - title: 'Zojirushi — Long-grain rice ratio, MIXED setting, cup size and computerized cooking stages'
       url: 'https://store.zojirushi.com/pages/faq-rice-cookers'
-    - title: Mahatma — Regular long-grain white rice and cooking methods
-      url: 'https://mahatmarice.com/products/white-rice/'
-    - title: Zojirushi — Dispersing seasonings before cooking rice
+    - title: 'Zojirushi — Vegetables on top, seasoning in the liquid and immediate fluffing'
       url: 'https://store.zojirushi.com/blogs/rice-cookers/here-s-what-you-should-know-usage'
+    - title: 'Tori Avey — Saffron infusion, sautéed onion and stock as a flavor base'
+      url: 'https://toriavey.com/saffron-rice/'
+    - title: Vigo — Spanish-style yellow rice reference
+      url: 'https://vigofoods.com/catalog/product/2165/vigo-yellow-rice'
     - title: USDA FSIS — Leftovers and food safety
       url: >-
         https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety
   review:
     status: editorial-review
-    date: '2026-09-13'
+    date: '2026-09-15'
 ---
 
 ## Chef's Note
 
-Regular long-grain white rice is the base for this simple rice-cooker side inspired by Spanish-style yellow rice. Saffron supplies the preferred aroma; broth, butter, garlic and onion give it a savory base. A brief saffron steep is the only extra preparation beyond rinsing and loading the cooker.
+This Spanish-style yellow rice gets its savory base from chicken stock, buttery sautéed onion, red bell pepper and fresh garlic. Steeped saffron supplies the aroma and golden color. Let the vegetables soften and develop golden edges before loading the cooker; their sweetness rounds out the rice without added sugar.
+
+Accurate liquid measurement keeps the grains tender and separate: use **1¼ US cups chicken stock for 1 US cup dry regular long-grain white rice**, rinsed and drained. The saffron infusion comes from that measured stock. This method is written for a computerized Zojirushi rice cooker with a MIXED program.
 
 ## Directions
 
-1. **Measure the broth and steep the saffron:** Measure the full cooking amount of low-sodium chicken broth first: use the same volume as the water you normally use for this quantity of long-grain white rice in your cooker, or follow the appliance's guidance for that rice. Take a small splash from that measured broth (about 2 tbsp for the original batch) and warm it in a heatproof bowl until hot. Lightly crumble saffron threads into it and steep for 5–10 minutes while preparing the rice. Keep all the threads and liquid. For the turmeric version, skip this steep and use the measured substitution below when loading the cooker.
-2. **Rinse and drain:** Rinse long-grain white rice in a few changes of cool water until the water is noticeably less cloudy, unless the package directs you not to rinse. Drain well and put it in the rice-cooker bowl. Use the same rinsing method you normally use with your chosen cooking-liquid amount; no separate soak is needed unless your appliance calls for one.
-3. **Add the broth and seasonings:** Add low-sodium chicken broth, unsalted butter, garlic powder, and onion powder to the rice, including all the saffron infusion as part of the measured broth. If using turmeric instead, stir it into the broth now. Stir gently until the powders are dispersed, then level the rice. The saffron liquid is part of the total cooking liquid, not extra water. Start cooking promptly.
-4. **Run the rice cooker:** Close the lid and use the white-rice or long-grain white-rice setting, following your manual's guidance for seasoned rice. Let the full cycle finish without opening the lid; allow about 30–60 minutes depending on the machine. The listed cooking time assumes a 40-minute cycle.
-5. **Rest, fluff and season:** Leave covered for 10 minutes after cooking, unless the program already includes the final rest and the manual says to fluff immediately. Lift and fold gently with a rice paddle. Taste a grain: it should be tender through the center, with no pooled broth. Add fine salt only as needed, since broth already contributes salt. Serve as three side portions.
-
-## Turmeric backup
-
-For the original **1 US cup rice** batch, replace the **1/8 tsp saffron threads with 1/4 tsp ground turmeric**. Skip the steep and stir turmeric directly into the measured broth with the garlic and onion powders. Keep the remaining ingredients and cooking method the same. Turmeric gives a more earthy flavor and brighter yellow color; it does not reproduce saffron's aroma.
+1. **Rinse and drain the rice:** Measure regular long-grain white rice before rinsing. Rinse in a few changes of cool water until noticeably less cloudy, then drain in a fine-mesh strainer until it stops dripping steadily. The grains can remain damp; leave no puddle of rinse water. Put the drained rice in the cooker bowl. Do not soak separately.
+2. **Measure the stock and steep the saffron:** Measure the full quantity of low-sodium chicken stock in a separate measuring jug. For the original batch, that is 1¼ US cups (about 300 ml) for 1 US cup dry rice. Take about one-tenth of that measured stock (2 tbsp for the original batch), warm until hot, and steep lightly crumbled saffron threads in it for 5–10 minutes while cooking the vegetables. Keep the remaining stock in the jug. The infusion is part of the measured total, not extra liquid.
+3. **Soften and lightly brown the vegetables:** Put unsalted butter, yellow onion, and red bell pepper in a small skillet over medium heat. Cook for 7–10 minutes, stirring often, until the vegetables are soft, the onion has golden edges and no watery liquid remains in the pan. Reduce the heat if the butter or onion starts to darken too quickly.
+4. **Add the garlic:** Stir garlic cloves into the softened vegetables and cook for about 30 seconds, just until fragrant. Remove the skillet from the heat.
+5. **Season the liquid and load the cooker:** Add low-sodium chicken stock, fine salt, and MSG (if using) to the drained rice, including all the saffron threads and their infusion within the measured stock total. Stir gently to dissolve the seasonings and level the rice. Spoon the cooked vegetables and all their butter evenly over the top; leave them on top rather than stirring them through. Do not add extra water or top up to the pot’s regular WHITE line. Start cooking promptly.
+6. **Run the mixed-rice cycle:** Close the lid and select MIXED on a computerized Zojirushi, unless the model’s own instructions specify another setting for seasoned long-grain rice. Let the full cycle finish without opening the lid. Allow about 40–60 minutes depending on the model; the listed time assumes a 45-minute cycle.
+7. **Fluff and finish:** When the completion signal sounds, open the lid and gently lift and fold the rice with a paddle, distributing the vegetables and releasing steam. The computerized cycle already includes the final steaming rest; do not add another covered 10-minute rest. Taste a grain: the center should be tender, with no pooled stock or pasty coating. Taste a spoonful with the vegetables and add a small pinch of fine salt if the flavor is muted. Serve promptly.
 
 ## Scaling
 
-Scale the rice, butter and spices together, including turmeric if substituting. Follow your appliance's liquid guidance and minimum and maximum batch sizes for seasoned rice. Cooking time follows the machine's cycle rather than multiplying with the ingredients. If a half batch is below the cooker's minimum, make the original batch and save the extra portions.
+Scale the rice, stock, butter, vegetables and seasonings together. The listed cups are US kitchen cups. Follow the cooker’s minimum and maximum batch sizes for seasoned rice; a half batch may be below its minimum. The original batch makes about three side portions; doubling makes about six if the cooker permits it.
+
+## Turmeric alternative
+
+For the original batch, replace **⅛ tsp saffron with ¼ tsp ground turmeric**. Skip steeping and stir the turmeric into the stock when loading. Keep the total stock at **1¼ US cups**. Turmeric gives an earthier flavor and brighter color; saffron gives the more aromatic version.

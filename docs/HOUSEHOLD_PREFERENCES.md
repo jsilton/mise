@@ -8,6 +8,10 @@
 
 The favorite indication does not certify that our edited recipe has been kitchen-tested or identify an external source the user has not supplied.
 
+## Spanish rice — 15 September 2026
+
+- The earlier yellow-rice recipe tasted bland and cooked softer/mushier than Vigo yellow rice. The user wants flavorful homemade Spanish-style rice, with no added sugar; an exact Vigo texture or flavor match is unnecessary. Regular long-grain white rice is acceptable. They use a Zojirushi rice cooker (model not supplied) and need an explicit measured stock amount after rinsing, not “your usual amount.” The updated recipe is titled Spanish Rice and retains the `rice-cooker-yellow-rice` URL. Do not treat the revised formula as kitchen-tested until it has actually been cooked and evaluated.
+
 ## Public recipe presentation
 
 Keep editorial references, review dates and kitchen-test disclosures off individual recipe and meal pages. Explain the review process and helpful references on the universal footer-linked standards page. Remove the separate “The skill you take away” and “What success looks like” panels; use useful content in ordinary recipe introductions, methods and checkpoints. Avoid wording such as “the household’s preferred” in public recipe prose. Preserve real attribution and the underlying preferences without narrating private editing history.
