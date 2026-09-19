@@ -6,7 +6,16 @@ import PaletteOptions from '../components/PaletteOptions.astro';
 import { dishVisuals } from '../data/dish-visuals';
 const BASE = import.meta.env.BASE_URL;
 const vectorStudies: [string, { title: string; studyFile: string }][] = [
-  ...Object.entries(dishVisuals),
+  ...Object.entries(dishVisuals).flatMap(([slug, visual]) =>
+    visual.studyFile
+      ? [
+          [slug, { title: visual.title, studyFile: visual.studyFile }] as [
+            string,
+            { title: string; studyFile: string },
+          ],
+        ]
+      : []
+  ),
   ['mint-tzatziki', { title: 'Mint tzatziki', studyFile: 'mint-tzatziki-study.svg' }],
 ];
 ---

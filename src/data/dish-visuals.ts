@@ -1,7 +1,12 @@
 export const dishVisuals: Record<
   string,
-  { title: string; alt: string; file?: string; studyFile: string }
+  { title: string; alt: string; file?: string; studyFile?: string }
 > = {
+  'lavender-london-fog-cocktail': {
+    file: 'lavender-london-fog-cocktail-watercolor.webp',
+    title: 'Lavender London Fog Cocktail',
+    alt: 'Mise watercolor illustration: a cloudy tea-beige oat milk cocktail with a fine layer of bubbles in a clear coupe, without ice or garnish.',
+  },
   'authentic-roman-alfredo': {
     file: 'authentic-roman-alfredo-watercolor-v2.webp',
     studyFile: 'authentic-roman-alfredo-study.svg',
