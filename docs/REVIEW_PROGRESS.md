@@ -1,5 +1,11 @@
 # Audit repairs handoff — 2026-09-16
 
+## Lavender London Fog addition — 19 September 2026
+
+Added the user-supplied cocktail with their subsequent oat-milk suggestion as the default and heavy cream as an alternative. Kept the original cocktail ratios; clarified the separate two-cocktail tea and approximately six-cocktail syrup batches, 7 oz glass, cold preparation and brief shake. New individual review record retains source scope and the required physical taste test. Added and visually inspected a built-in-generated watercolor with a revised oat-milk appearance and retained prompts; WebP delivery is 41 KB. The artwork map now permits paintings without SVG studies and the gallery only displays actual vector files.
+
+Validation: 30/30 QA checks, 46/46 regression tests, zero editorial integrity errors and zero findings on the new recipe, 722 built pages with no missing internal links. Isolated Chrome checked desktop/mobile layout, image decoding, print title, three persistent palettes and absence of page errors. Regenerating the editorial audit also reconciled stale findings from already-committed prior repairs. The recipe and artwork were committed concurrently as `840c8a9a` while final verification was in progress; this task did not create that commit. GitHub Pages deployment 35477531649 succeeded; the same browser checks passed against the live site. The two documentation updates remain local.
+
 September 15 repairs are implemented and locally validated, but remain uncommitted and unpublished by this task. See the [repair report and current handoff](repairs/2026-09-15/report.md) for scope, evidence, browser constraints and next actions. Use Codex’s built-in browser; the user removed Chrome DevTools MCP. Historical entries below retain their original scope and dates.
 
 # Structured recipe authoring — 2026-09-07

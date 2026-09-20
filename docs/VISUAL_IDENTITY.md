@@ -1,5 +1,11 @@
 # Mise: paper and pigment
 
+## Lavender London Fog, 19 September 2026
+
+Added a built-in-generated watercolor of a clear coupe with a cloudy tea-beige drink and a fine surface bubble layer, without ice or garnish. The user suggested oat milk during authoring; a targeted image edit removed the original cream version's thicker pale band and deepened the tea color. The selected PNG is unchanged tool output, with a 41 KB WebP delivery companion under `public/images/dishes/lavender-london-fog-cocktail-watercolor.*`. Both prompts are retained in `docs/art-prompts/lavender-london-fog-watercolor.txt`.
+
+The shared map includes this painting without inventing a companion SVG. The style guide filters entries with no vector study, retaining four existing SVG studies. Desktop/mobile rendering, image decoding, three persistent palettes and print title were checked in isolated Chrome; no page errors or mobile overflow. The artwork illustrates the recipe and does not establish an actual tested color, foam or kitchen result.
+
 ## Accepted direction, 6 September 2026
 
 User rejected the separate bowl/m symbol, the dark geometric food artwork, and the abundance of yellow. Keep the existing **mise.** wordmark. Reference photographs show watercolor interpretations with generous paper margins, incomplete soft edges, restrained natural colors, and selective fine lines. There are five distinct user references (the cycling image was attached twice). They are style references, not site content or photographs of our recipes.
