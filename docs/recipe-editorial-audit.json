@@ -5,7 +5,7 @@
     "kitchenTested": 0,
     "errors": 0,
     "priorityReviews": 0,
-    "reviewItems": 746
+    "reviewItems": 745
   },
   "limitations": "Automated triage only. Does not establish culinary quality, food safety, source validity, or kitchen testing.",
   "recipes": [
@@ -1964,9 +1964,9 @@
     },
     {
       "slug": "coq-au-vin-slow-cooker-v2",
-      "title": "Slow-Cooker Chicken in Red Wine",
+      "title": "Slow-Cooker Coq au Vin",
       "status": "editorial-review",
-      "stepCount": 6,
+      "stepCount": 7,
       "issues": []
     },
     {
@@ -5049,11 +5049,6 @@
           "code": "teaching-review-needed",
           "severity": "review",
           "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
         }
       ]
     },

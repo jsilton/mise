@@ -22,3 +22,9 @@ Use generic ingredient/product descriptions rather than manufacturer names in re
 
 - Keep **Crispy Gold Potatoes with Smoked Salt and Paprika** (legacy slug: `crispy-gold-potatoes-with-lemon-garlic-butter`). The user reported excellent potatoes. Confirmed preparation: petite gold potatoes, oil, garlic, smoked sea salt, pepper and sweet/non-smoked paprika at 400°F convection. The final recommendation was unsalted butter tossed through after roasting. Preserve this identity without lemon or herbs; exact measurements and finishing details were not reported.
 - The user did not care for the fish (interpreting “first” in context: lemon-Dijon panko cod) or roasted green beans with dried thyme and onion powder. Do not treat these preparations or this exact dinner as favorites. This does not imply a general dislike of cod or green beans.
+
+## Coq au vin — 23 September 2026
+
+- The family liked the boneless-thigh stovetop coq au vin but did not love it or find it clearly better than the familiar slow-cooker version. Extra preparation has not demonstrated value for this dish.
+- Preserve the user-supplied slow-cooker recipe’s identity: beefy onion soup mix, 1/2 cup wine, no added stock, generous garlic powder, Worcestershire, 16 oz mushrooms, six carrots and 10 oz pearl onions for 2 lb chicken, served over rice. Do not silently replace the soup mix with stock/tomato paste or increase wine as an assumed upgrade.
+- Jordan authorized retaining this original with slight process improvements. Jordan confirmed Lipton Beefy Onion Soup Mix and requested measured spices. Specify one envelope, 1 tsp garlic powder, 1/2 tsp black pepper and the original 1 tsp dried thyme. Garlic powder and pepper are editorial measurements for the revised recipe, not recovered original amounts; the revised process has not yet been cooked and evaluated.

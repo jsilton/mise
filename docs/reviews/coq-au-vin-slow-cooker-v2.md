@@ -18,3 +18,17 @@ Meaningful equipment/ingredient variation, not a redundant duplicate of the stov
 ## Kitchen-test questions
 
 High priority: verify cooker load/fill range, 3–4-hour HIGH and 5–6-hour LOW profiles, carrot tenderness versus thigh texture, released liquid volume, slurry requirement, salt, and total schedule. These are editorial allowances, not observed kitchen-test results.
+
+## 2026-09-23: restore user-supplied family recipe
+
+The original Paprika HTML is retained verbatim at ../recipe-sources/coq-au-vin-slow-cooker-v2-original.html (its image references are archival; images were not copied). Source supplied by Jordan from Desktop/Coq au Vin Slow Cooker v2. The earlier editorial substitution of stock/tomato paste for beefy onion soup mix and increase in wine changed the recipe identity; those decisions are superseded.
+
+Restored 2 lb boneless skinless thighs, 16 oz mushrooms, six carrots, 10 oz pearl onions, four garlic cloves, one packet beefy onion soup mix, 1/2 cup wine, 1 tsp each Worcestershire/cornstarch/thyme, garlic powder, pepper and spray. Rice remains the serving suggestion. No added stock, tomato paste, bacon or butter. Product brand/packet weight and original garlic-powder quantity were not supplied; these remain explicit uncertainties, not invented measurements. Removed dietary claims because packet composition is unknown.
+
+Authorized slight improvements: deglaze with the existing wine without a separate reduction; move the cornstarch into cold water to avoid hot-pan clumping; cut carrots to 1/2 inch; use safe-temperature and tenderness endpoints; optional small finishing slurry only when wanted. Batch browning time is realistic and no fixed slow-cooker finish is promised. Preserve the source’s HIGH starting range, frozen onions and low liquid amount.
+
+Jordan reports the stovetop version was liked but not loved and offered no clear advantage over the family slow-cooker version. This is qualitative household feedback, not a controlled comparison or test of this revised recipe. The slight improvements remain editorially reviewed, not kitchen-tested. Original nutrition estimates were not imported or verified.
+
+### Follow-up: named product and measured spices
+
+Jordan confirmed Lipton and requested explicit spice measurements instead of brand caveats. Specify one envelope Lipton Recipe Secrets Beefy Onion Soup Mix, 1 tsp garlic powder, 1/2 tsp ground black pepper, and the original 1 tsp dried thyme. The new garlic-powder/pepper amounts are editorial starting quantities for the whole batch, not claimed measurements from the original. Removed the unspecified-brand/seasoning caveats from the cooking instructions and printable recipe. User instruction to name Lipton takes precedence over the generic-brand presentation default. Product reference: https://www.liptonkitchens.com/products/beefy-onion-recipe-soup-dip-mix.html .
