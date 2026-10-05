@@ -1,32 +1,3 @@
-# Slow Cooker Mongolian Beef: Paprika source import
-
-Date: 2026-10-05. Status: pending full culinary review; no kitchen test.
-
-Imported from the supplied native Paprika export. The verified native binding remains in the private registry. Saved source: https://www.dinneratthezoo.com/slow-cooker-mongolian-beef/. The supplied saved recipe, rather than a newly fetched web formula, is the ingredient baseline.
-
-## Individual decisions
-
-Thin flank-steak slices and a cornstarch coating make a glossy slow-cooker sauce. Slice across the grain and check tenderness before serving; this is a different cut and timing from the chuck-roast Korean beef.
-
-Saved method retained, with ordered steps and scraped promotional footnotes removed where present. Start with fully thawed beef. Check tenderness and that beef has reached at least 145°F / 63°C with three minutes rest before serving.
-
-Planning times explicitly include batch cooking or chilling where relevant; missing yields remain labeled as unrecorded rather than invented. Ingredient-only web controls were removed. No nutritional estimate imported.
-
-Safety endpoints, where added, follow [FoodSafety.gov](https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures). They do not validate yield, flavor, timing or the complete formula. This source import does not assign an editorial or kitchen-tested label.
-
----
-
-# Slow Cooker Mongolian Beef — complete editorial review
-
-Accepted October5,2026 after independent whole challenge and complete root inspection. Implementation and production verification pending. Exact accepted source SHA-256: 533d2493e829d15183881b8446cb8ef63b7ba168cd6b246084c1514ff68c9656. No physical kitchen test or native-app sync.
-
-Preserve the full thin-flank coating/sauce formula and both routes, with the existing thawed-meat temperature/rest repair; do not import chuck timing or extra slurry.
-
-[Independent challenge and final root disposition](../editorial-campaign/2026-10-05/slow-cooker-independent.md). [Applicable source evidence](../editorial-campaign/2026-10-05/slow-cooker-sources.json). Full paired record retains all exact before/after fields, ingredients, allocations, variants, confidence and unresolved questions.
-
-## Full final editorial record
-
-```json
 {
   "slug": "slow-cooker-mongolian-beef",
   "title": "Slow Cooker Mongolian Beef",
@@ -926,10 +897,29 @@ Preserve the full thin-flank coating/sauce formula and both routes, with the exi
     "leftovers": "USDA primary indexed guidance and retained government PDF support shallow cooling,2h/1h,40°F,3–4days,165°F outside cooker. USDA liquid rolling-boil recommendation kept brief; texture/concentration caveat is culinary inference, not tested safety equivalence.",
     "model": "Actual appliance unknown. Example manufacturer model does not establish household fill limits or approve its older frozen-meat suggestion.",
     "nutrition": "No calculation established for French/Korean/Lentil legacy fields; removed unsupported values without replacing them or changing richness."
+  },
+  "integratedValidation": {
+    "tests": 252,
+    "targetedLint": "6 pass; zero errors, three pre-existing missing-pairing warnings. No invented pairings added.",
+    "recipeSources": 643,
+    "authoredFormulas": 31,
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 11880,
+    "missingDestinations": 0,
+    "exportParity": "All three exports match643 current sources",
+    "privateBindings": "643 complete bindings verified; no identity regeneration",
+    "privacy": "Final published-assets and public-evidence check passed",
+    "renderedRecipes": 6,
+    "visibleMethodSteps": 32,
+    "scaledIngredientDisplays": 282,
+    "scaledYieldDisplays": 18,
+    "scaleFactors": [0.5, 2, 1],
+    "mobileWidth": 375,
+    "noOverflow": true,
+    "cooking": "All six ingredient and step checkmarks persist after reload/reentry; normal mode on reload; reset and exit pass",
+    "print": "All buttons enabled, shared styles unchanged; print preview unverified",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
   }
 }
-```
-
-## Local integrated validation
-
-All252 tests,31 authored formula checks,643-recipe validation and30 aggregate QA checks pass. Six targeted lints have zero errors and three existing missing-pairing warnings. All three exports match643 sources; private bindings, public privacy and11,880 built anchors pass. All six rendered pages match their exact builds;282 scaled ingredient displays,18 yield displays and375-pixel mobile layouts pass. On all six, ingredient/step checkmarks survive reload and reentry; reset/exit pass. Print buttons are enabled with unchanged shared styles; preview unverified. [Preservation and validation evidence](../editorial-campaign/2026-10-05/slow-six-preservation.json). No kitchen test or native-app sync. Exact production verification remains pending.

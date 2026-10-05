@@ -2,22 +2,22 @@
   "summary": {
     "inputCommit": "bacc1e4bdbd0e2715960d84f48a8eea57d4501b4",
     "recipes": 643,
-    "recordedCompleteEditorial": 276,
-    "completeEditorialPending": 367,
+    "recordedCompleteEditorial": 282,
+    "completeEditorialPending": 361,
     "originalBaseline": 612,
-    "originalReviewed": 265,
+    "originalReviewed": 268,
     "consideredConsolidations": 10,
-    "originalPending": 337,
+    "originalPending": 334,
     "additionalSources": 41,
-    "additionalReviewed": 11,
-    "additionalPending": 30,
+    "additionalReviewed": 14,
+    "additionalPending": 27,
     "automatedAudit": {
       "recipes": 643,
-      "editoriallyReviewed": 276,
+      "editoriallyReviewed": 282,
       "kitchenTested": 0,
       "errors": 0,
       "priorityReviews": 0,
-      "reviewItems": 681
+      "reviewItems": 672
     },
     "accelerated": {
       "implemented": 42,
@@ -27,7 +27,7 @@
     },
     "uniquePathsInSixRepairCommits": 105,
     "kitchenTested": 0,
-    "productionReconciliation": "The 42 accelerated targeted repairs remain verified live as a separate overlapping scope. Forty-two new complete editorial versions from the original 409-source campaign are verified live. The latest five soup versions are implemented at c5398728 and verified at exact remote release 1731bdc8, successful Pages run 37382801470 and all affected rendered live pages. No physical kitchen testing or native-app sync occurred."
+    "productionReconciliation": "The 42 accelerated targeted repairs remain verified live as a separate overlapping scope. Forty-two new complete editorial versions from the original 409-source campaign are verified live. Six slow-cooker recipes are accepted locally after whole independent and root review; validation, implementation and exact production verification remain pending. No physical kitchen testing or native-app sync occurred."
   },
   "collectionEvidence": [
     "docs/REVIEW_PROGRESS.md",
@@ -7526,13 +7526,7 @@
       "baseline": "addition",
       "source": "Damndelicious.net",
       "sourceUrl": "http://damndelicious.net/2016/12/09/slow-cooker-chicken-wild-rice-soup/",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -7540,19 +7534,26 @@
         "evidence": ["docs/reviews/creamy-slow-cooker-chicken-and-wild-rice-soup.md"]
       },
       "completeEditorialReview": {
-        "status": "pending",
+        "status": "editorial-review",
         "record": "docs/reviews/creamy-slow-cooker-chicken-and-wild-rice-soup.md",
-        "recordImplementationCommit": "9faedba59b21bb230dcddd530489dc6e86d51bde"
+        "acceptedSha256": "63467c211422795c55aa5f305d69ecef8dc174b7dc15ad697803b20c8fa871f3",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/slow-cooker-independent.md",
+        "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally after whole independent challenge and complete root inspection; implementation pending",
+        "record": "docs/reviews/creamy-slow-cooker-chicken-and-wild-rice-soup.json",
+        "sourceSha256": "63467c211422795c55aa5f305d69ecef8dc174b7dc15ad697803b20c8fa871f3"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify accepted whole editorial version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Confirm actual dry rice product/species/processing against long slow-cooker route; test texture and finish time.",
+        "Check6qt fill after all mushrooms and2cups dairy and actual finished yield.",
+        "Time milk sauce heating and final soup heat-up; check chicken thickness."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -10330,18 +10331,7 @@
       "baseline": "original canonical",
       "source": null,
       "sourceUrl": null,
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -10349,19 +10339,25 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/french-dip-sandwiches.md",
+        "acceptedSha256": "2dee3b0231673601f4bef2623b06004d08afd0c24b0cc0c3aaafaf67a759fd16",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/slow-cooker-independent.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally after whole independent challenge and complete root inspection; implementation pending",
+        "record": "docs/reviews/french-dip-sandwiches.json",
+        "sourceSha256": "2dee3b0231673601f4bef2623b06004d08afd0c24b0cc0c3aaafaf67a759fd16"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify accepted whole editorial version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Identify actual cooker model/load and original3lb roast fit.",
+        "Check preferred roll size, cheese slices and six-portion estimate; assess jus salinity without reducing soy formula."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -18256,13 +18252,7 @@
       "baseline": "addition",
       "source": "downshiftology.com",
       "sourceUrl": "https://downshiftology.com/recipes/slow-cooker-pulled-pork/",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -18270,19 +18260,25 @@
         "evidence": ["docs/reviews/orange-and-paprika-pulled-pork.md"]
       },
       "completeEditorialReview": {
-        "status": "pending",
+        "status": "editorial-review",
         "record": "docs/reviews/orange-and-paprika-pulled-pork.md",
-        "recordImplementationCommit": "9faedba59b21bb230dcddd530489dc6e86d51bde"
+        "acceptedSha256": "f2421d8a988b8dad6ac509e7173cc236897fb3d9b7542bf62577b80a052cb11a",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/slow-cooker-independent.md",
+        "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally after whole independent challenge and complete root inspection; implementation pending",
+        "record": "docs/reviews/orange-and-paprika-pulled-pork.json",
+        "sourceSha256": "f2421d8a988b8dad6ac509e7173cc236897fb3d9b7542bf62577b80a052cb11a"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify accepted whole editorial version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Identify actual cooker model, whole-roast size and bone status.",
+        "Check original eight portions and natural orange juice variation without inventing fluid ounces."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -24132,18 +24128,7 @@
       "baseline": "original canonical",
       "source": "Adapted from damndelicious.net",
       "sourceUrl": "https://damndelicious.net/2015/02/21/slow-cooker-korean-beef/",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -24151,19 +24136,26 @@
         "evidence": ["docs/repairs/2026-09-15/changed-files.json"]
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/slow-cooker-korean-beef.md",
+        "acceptedSha256": "a1f5e0f29dc917c62aee89eaa321b6cf98ec3b37b8a4b4e39686d71a489cd90b",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/slow-cooker-independent.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally after whole independent challenge and complete root inspection; implementation pending",
+        "record": "docs/reviews/slow-cooker-korean-beef.json",
+        "sourceSha256": "a1f5e0f29dc917c62aee89eaa321b6cf98ec3b37b8a4b4e39686d71a489cd90b"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify accepted whole editorial version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Check actual6qt cooker fill and tenderness on both routes.",
+        "Assess restored white-pepper/onion-powder balance and desired family Sriracha choice without reducing the base formula.",
+        "Time slurry recovery/thickening and separately prepared rice."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -24182,13 +24174,7 @@
       "baseline": "addition",
       "source": "dinneratthezoo.com",
       "sourceUrl": "https://www.dinneratthezoo.com/slow-cooker-mongolian-beef/",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -24196,19 +24182,25 @@
         "evidence": ["docs/reviews/slow-cooker-mongolian-beef.md"]
       },
       "completeEditorialReview": {
-        "status": "pending",
+        "status": "editorial-review",
         "record": "docs/reviews/slow-cooker-mongolian-beef.md",
-        "recordImplementationCommit": "9faedba59b21bb230dcddd530489dc6e86d51bde"
+        "acceptedSha256": "533d2493e829d15183881b8446cb8ef63b7ba168cd6b246084c1514ff68c9656",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/slow-cooker-independent.md",
+        "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally after whole independent challenge and complete root inspection; implementation pending",
+        "record": "docs/reviews/slow-cooker-mongolian-beef.json",
+        "sourceSha256": "533d2493e829d15183881b8446cb8ef63b7ba168cd6b246084c1514ff68c9656"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify accepted whole editorial version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Check actual cooker minimum fill for the1½lb batch.",
+        "Assess slice thickness and preferred tenderness against both routes."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -24299,18 +24291,7 @@
       "baseline": "original canonical",
       "source": "Adapted from Peasandcrayons.com",
       "sourceUrl": "https://peasandcrayons.com/2017/02/vegetarian-lentil-tortilla-soup.html",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -24318,19 +24299,27 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/slow-cooker-vegetarian-lentil-tortilla-soup.md",
+        "acceptedSha256": "be5312008b381dbfb924858e0b67e086406911add13ae1ec5df085a240dbc68d",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/slow-cooker-independent.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally after whole independent challenge and complete root inspection; implementation pending",
+        "record": "docs/reviews/slow-cooker-vegetarian-lentil-tortilla-soup.json",
+        "sourceSha256": "be5312008b381dbfb924858e0b67e086406911add13ae1ec5df085a240dbc68d"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify accepted whole editorial version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Check actual cooker size/fill with restored full vegetable base.",
+        "Assess preferred optional¼ versus½cup cream and cream-cheese amount; no equivalent quantity established.",
+        "Kitchen-check lentil tenderness and claimed six portions; serving size/yield not measured.",
+        "Confirm the household wants historical electric-pressure cooker route reintroduced separately before authoring a model-specific variant."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",

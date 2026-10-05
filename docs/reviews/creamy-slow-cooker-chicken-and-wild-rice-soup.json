@@ -1,32 +1,3 @@
-# Creamy Slow-Cooker Chicken and Wild Rice Soup: Paprika source import
-
-Date: 2026-10-05. Status: pending full culinary review; no kitchen test.
-
-Imported from the supplied native Paprika export. The verified native binding remains in the private registry. Saved source: http://damndelicious.net/2016/12/09/slow-cooker-chicken-wild-rice-soup/. The supplied saved recipe, rather than a newly fetched web formula, is the ingredient baseline.
-
-## Individual decisions
-
-A separate butter-and-flour sauce thickens this mushroom, chicken and wild-rice soup near the end. Check the rice for tenderness before adding dairy; processed wild rice can cook much faster than unprocessed grain.
-
-Saved method retained, with ordered steps and scraped promotional footnotes removed where present. Start with fully thawed chicken. Before shredding, check the thickest pieces for 165°F / 74°C. Discard bay leaves before serving.
-
-Planning times explicitly include batch cooking or chilling where relevant; missing yields remain labeled as unrecorded rather than invented. Ingredient-only web controls were removed. No nutritional estimate imported.
-
-Safety endpoints, where added, follow [FoodSafety.gov](https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures). They do not validate yield, flavor, timing or the complete formula. This source import does not assign an editorial or kitchen-tested label.
-
----
-
-# Creamy Slow-Cooker Chicken and Wild Rice Soup — complete editorial review
-
-Accepted October5,2026 after independent whole challenge and complete root inspection. Implementation and production verification pending. Exact accepted source SHA-256: 63467c211422795c55aa5f305d69ecef8dc174b7dc15ad697803b20c8fa871f3. No physical kitchen test or native-app sync.
-
-Keep all stock, wild rice, mushrooms, butter/flour, milk plus half-and-half; finish with the full sauce after separate rice and chicken checks. Saved yield remains unrecorded.
-
-[Independent challenge and final root disposition](../editorial-campaign/2026-10-05/slow-cooker-independent.md). [Applicable source evidence](../editorial-campaign/2026-10-05/slow-cooker-sources.json). Full paired record retains all exact before/after fields, ingredients, allocations, variants, confidence and unresolved questions.
-
-## Full final editorial record
-
-```json
 {
   "slug": "creamy-slow-cooker-chicken-and-wild-rice-soup",
   "title": "Creamy Slow-Cooker Chicken and Wild Rice Soup",
@@ -1541,10 +1512,29 @@ Keep all stock, wild rice, mushrooms, butter/flour, milk plus half-and-half; fin
     "questions": [],
     "peerEvidence": "docs/editorial-campaign/2026-10-05/slow-cooker-independent.md",
     "independentSelfAcceptance": false
+  },
+  "integratedValidation": {
+    "tests": 252,
+    "targetedLint": "6 pass; zero errors, three pre-existing missing-pairing warnings. No invented pairings added.",
+    "recipeSources": 643,
+    "authoredFormulas": 31,
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 11880,
+    "missingDestinations": 0,
+    "exportParity": "All three exports match643 current sources",
+    "privateBindings": "643 complete bindings verified; no identity regeneration",
+    "privacy": "Final published-assets and public-evidence check passed",
+    "renderedRecipes": 6,
+    "visibleMethodSteps": 32,
+    "scaledIngredientDisplays": 282,
+    "scaledYieldDisplays": 18,
+    "scaleFactors": [0.5, 2, 1],
+    "mobileWidth": 375,
+    "noOverflow": true,
+    "cooking": "All six ingredient and step checkmarks persist after reload/reentry; normal mode on reload; reset and exit pass",
+    "print": "All buttons enabled, shared styles unchanged; print preview unverified",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
   }
 }
-```
-
-## Local integrated validation
-
-All252 tests,31 authored formula checks,643-recipe validation and30 aggregate QA checks pass. Six targeted lints have zero errors and three existing missing-pairing warnings. All three exports match643 sources; private bindings, public privacy and11,880 built anchors pass. All six rendered pages match their exact builds;282 scaled ingredient displays,18 yield displays and375-pixel mobile layouts pass. On all six, ingredient/step checkmarks survive reload and reentry; reset/exit pass. Print buttons are enabled with unchanged shared styles; preview unverified. [Preservation and validation evidence](../editorial-campaign/2026-10-05/slow-six-preservation.json). No kitchen test or native-app sync. Exact production verification remains pending.

@@ -1,0 +1,1115 @@
+# Slow Cooker French Dip Sandwiches — complete editorial review
+
+Accepted October5,2026 after independent whole challenge and complete root inspection. Implementation and production verification pending. Exact accepted source SHA-256: 2dee3b0231673601f4bef2623b06004d08afd0c24b0cc0c3aaafaf67a759fd16. No physical kitchen test or native-app sync.
+
+Preserve the complete soy-rich jus, roast, bread and provolone formula; optional searing remains optional. Chuck tenderness and hot dipping liquid have separate checks.
+
+[Independent challenge and final root disposition](../editorial-campaign/2026-10-05/slow-cooker-independent.md). [Applicable source evidence](../editorial-campaign/2026-10-05/slow-cooker-sources.json). Full paired record retains all exact before/after fields, ingredients, allocations, variants, confidence and unresolved questions.
+
+## Full final editorial record
+
+```json
+{
+  "slug": "french-dip-sandwiches",
+  "title": "Slow Cooker French Dip Sandwiches",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "date": "2026-10-05",
+  "notKitchenTested": true,
+  "inputCommit": "e8cc0915726ca7bc236f824cdd626e09e7701ad6",
+  "inputSha256": "4a865aec0d173b2adabcbf3fd59c9624637e5fd62cc0c806a18053c483c33f89",
+  "candidateSha256": "2dee3b0231673601f4bef2623b06004d08afd0c24b0cc0c3aaafaf67a759fd16",
+  "summary": "Preserve the complete soy-rich jus, roast, bread and provolone formula; optional searing remains optional. Chuck tenderness and hot dipping liquid have separate checks.",
+  "sourceCredit": null,
+  "sourceUrl": null,
+  "sourceProvenance": {
+    "savedGitCommit": "b244f4b22965414b9ec9fe0c95c8cb6fb661714d",
+    "path": "src/content/recipes/french-dip-sandwiches.md",
+    "savedSourceSha256": "0f76fdae102e370b9005a7e11f51a3462e21a49eb7e0979de7651c5129f64494",
+    "frozenInputVerified": true,
+    "completeActualHistoryVerified": true,
+    "historyCommits": [
+      "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "884605320313637ed3ff6be9f048d0a94f7de354",
+      "fbf26778b819e3e18eab751d5b91dae9e4c463bc",
+      "1858533485d4b1cc2016271a6835d76d6066f6ba",
+      "2f34ff12ffa64fb07754352c781ca6efabca3268",
+      "251160d58e2d47c07c2a1e7c7bd22ac9c5bfd10a",
+      "902e7e8ef45aebbef6323b138ef6c9a8d866be2b",
+      "2a7f38534f68f09454b2c68637139fd966b5584f",
+      "0d3508fc05946bb6f2d54be557eb914d02aee98d",
+      "fd4f07a836d811739118df904c5e6cc8b1fd593e",
+      "f489bf3fb62e9c96791030de6cb676eaf65b43f2",
+      "306e8136c1f93314498d117e2f6be67ca867cbbe",
+      "cfebbcb4a58433b3929fc7cdba653316078804ca",
+      "58aaf41db3606dc965d596a1cb285048659fac44",
+      "df64250087b0fd7d21ab890cb91165c4a35923ca",
+      "9bbe8f2563417231b2594c1333e9bcfe9eea5ab9",
+      "b244f4b22965414b9ec9fe0c95c8cb6fb661714d"
+    ],
+    "nativeLineage": "Not established. Exact committed originals and applicable attributed publisher evidence only; no title-based native archive or identity certification."
+  },
+  "priorIndependentChallenge": {
+    "slug": "french-dip-sandwiches",
+    "disposition": "accept with nonblocking clarifications",
+    "reviewedSha256": "eb49dd4b854ea1aa15b8327c33626e2913c9eae5ade8715f8ee69096c75a5843",
+    "acceptedSha256": "eb49dd4b854ea1aa15b8327c33626e2913c9eae5ade8715f8ee69096c75a5843",
+    "acceptedCore": "All3lb chuck,2cups stock,½cup soy,1tbsp Worcestershire,1tsp rosemary, onion/garlic, six rolls/pieces and six provolone slices retained. Genuine optional sear oil now appears in the ingredient list. Sear remains optional; prompt continuation handles partial cooking. Beef/shreds and hot strained jus have destinations; onions may be served. No invented24-hour-stock equivalence. Broiler-safe pan/watchful finish, source LOW/HIGH ranges and three-minute beef rest remain explicit. Six sandwiches are inherited planning, not a measured meat yield.",
+    "requiredFindings": [],
+    "advisoryFindings": ["SC-07", "SC-09", "SC-10"],
+    "sourceConfidence": "high for exact Git amounts/history; native archive independently unverified",
+    "processConfidence": "moderate for untested planning time, final fill and sensory result",
+    "kitchenQuestions": [
+      "Identify actual cooker model/load and original3lb roast fit.",
+      "Check preferred roll size, cheese slices and six-portion estimate; assess jus salinity without reducing soy formula."
+    ],
+    "variantIntentQuestion": null
+  },
+  "subsequentPeerApplication": {
+    "date": "2026-10-05",
+    "priorProposedSha256": "eb49dd4b854ea1aa15b8327c33626e2913c9eae5ade8715f8ee69096c75a5843",
+    "proposedSha256": "dbfa8687b318fe8ac6a72666d45b8e732826eae435ec531f6b74ad95c3bbe441",
+    "findingsApplied": ["SC-07", "SC-09", "SC-10"],
+    "independentReviewPredatesApplication": true,
+    "independentSelfAcceptance": false,
+    "rootFinalWholeAcceptance": "pending",
+    "exactCandidateFieldChanges": {
+      "learning": {
+        "before": {
+          "focus": "Cook chuck until it pulls apart and keep the jus hot",
+          "outcome": "Tender beef on toasted provolone rolls, with the saved soy-rich dipping liquid.",
+          "techniques": ["braising", "temperature"],
+          "before": [
+            "Check the actual cooker’s instructions for its permitted food load, liquid requirements and meat size. A common Crock-Pot manual specifies half to three-quarters full, check your model’s own limits. When scaling, choose suitable cooker capacity or separate appropriately filled cookers, and divide all measured ingredients across them. Cooking times do not multiply with portions. Keep the lid closed except for necessary additions and doneness checks; cook on LOW or HIGH, not WARM.",
+            "Keep meat/poultry fully thawed and refrigerated until preparation; start promptly without a delayed timer."
+          ],
+          "checkpoints": [
+            {
+              "step": 3,
+              "cue": "Beef pulls apart easily, beyond merely reaching the safety minimum.",
+              "why": "Chuck tenderness depends on connective-tissue breakdown."
+            },
+            {
+              "step": 5,
+              "cue": "Cheese bubbles and bread toasts without blackening.",
+              "why": "Broilers and bread-to-element distance vary."
+            }
+          ],
+          "troubleshooting": [
+            {
+              "problem": "The roast is cooked to its minimum temperature but still tough.",
+              "cause": "The chuck has not cooked long enough for pulling.",
+              "fix": "Continue covered cooking and check tenderness again rather than slice it because the clock expired."
+            }
+          ],
+          "storage": "Refrigerate promptly in shallow covered containers at 40°F / 4°C or below, within 2 hours (1 hour above 90°F / 32°C). Use within 3–4 days. Reheat on the stove, in the microwave or oven to 165°F / 74°C; do not use the slow cooker to reheat cold leftovers. If holding cooked food in the cooker, maintain at least 140°F / 60°C and follow its holding instructions.",
+          "timing": "About 8 hr 30 min LOW or 4 hr 30 min–5 hr 30 min HIGH includes preparation and finishing; heat-up is part of the slow-cooker window, not active attendance. Thawing is additional and larger loads can take longer.",
+          "sources": [
+            {
+              "title": "USDA — Slow cookers and food safety",
+              "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/slow-cookers-and-food-safety"
+            },
+            {
+              "title": "USDA — Slow cooker guidance, retained government PDF",
+              "url": "https://www.govinfo.gov/content/pkg/GOVPUB-A110-PURL-gpo30229/pdf/GOVPUB-A110-PURL-gpo30229.pdf"
+            },
+            {
+              "title": "Crock-Pot — Model SCVCS603S manual, fill and operating example",
+              "url": "https://www.crock-pot.ca/on/demandware.static/-/Sites-crock-pot-ca-Library/default/dw9e26d449/documents/instruction-manuals/SCVCS603S-033_EN.pdf"
+            },
+            {
+              "title": "FoodSafety.gov — Safe minimum internal temperatures",
+              "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+            },
+            {
+              "title": "USDA — Handling leftovers safely",
+              "url": "https://ask.fsis.usda.gov/article/How-do-I-handle-leftovers-safely"
+            }
+          ],
+          "review": {
+            "status": "editorial-review",
+            "date": "2026-10-05"
+          }
+        },
+        "after": {
+          "focus": "Cook chuck until it pulls apart and keep the jus hot",
+          "outcome": "Tender beef on toasted provolone rolls, with soy-rich dipping liquid.",
+          "techniques": ["braising", "temperature"],
+          "before": [
+            "Check the actual cooker’s instructions for its permitted food load, liquid requirements and meat size. Follow your cooker’s stated minimum and maximum fill limits. When scaling, choose suitable cooker capacity or separate appropriately filled cookers, and divide all measured ingredients across them. Cooking times do not multiply with portions. Keep the lid closed except for necessary additions and doneness checks; cook on LOW or HIGH, not WARM.",
+            "Keep meat/poultry fully thawed and refrigerated until preparation; start promptly without a delayed timer."
+          ],
+          "checkpoints": [
+            {
+              "step": 3,
+              "cue": "Beef pulls apart easily, beyond merely reaching the safety minimum.",
+              "why": "Chuck tenderness depends on connective-tissue breakdown."
+            },
+            {
+              "step": 5,
+              "cue": "Cheese bubbles and bread toasts without blackening.",
+              "why": "Broilers and bread-to-element distance vary."
+            }
+          ],
+          "troubleshooting": [
+            {
+              "problem": "The roast is cooked to its minimum temperature but still tough.",
+              "cause": "The chuck has not cooked long enough for pulling.",
+              "fix": "Continue covered cooking and check tenderness again rather than slice it because the clock expired."
+            }
+          ],
+          "storage": "Refrigerate promptly in shallow covered containers at 40°F / 4°C or below, within 2 hours (1 hour above 90°F / 32°C). Use within 3–4 days. Reheat on the stove, in the microwave or oven outside the slow cooker, stirring or turning as appropriate for even heating and checking 165°F / 74°C throughout; do not use the slow cooker to reheat cold leftovers. For leftover jus, USDA additionally recommends bringing it to a rolling boil; stir and keep the boil brief, since prolonged boiling concentrates the jus. If holding cooked food in the cooker, maintain at least 140°F / 60°C and follow its holding instructions.",
+          "timing": "About 8 hr 30 min LOW or 4 hr 30 min–5 hr 30 min HIGH includes preparation and finishing; heat-up is part of the slow-cooker window, not active attendance. Thawing is additional and larger loads can take longer.",
+          "sources": [
+            {
+              "title": "USDA — Slow cookers and food safety",
+              "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/slow-cookers-and-food-safety"
+            },
+            {
+              "title": "USDA — Slow cooker guidance, retained government PDF",
+              "url": "https://www.govinfo.gov/content/pkg/GOVPUB-A110-PURL-gpo30229/pdf/GOVPUB-A110-PURL-gpo30229.pdf"
+            },
+            {
+              "title": "Crock-Pot — Model SCVCS603S manual, fill and operating example",
+              "url": "https://www.crock-pot.ca/on/demandware.static/-/Sites-crock-pot-ca-Library/default/dw9e26d449/documents/instruction-manuals/SCVCS603S-033_EN.pdf"
+            },
+            {
+              "title": "FoodSafety.gov — Safe minimum internal temperatures",
+              "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+            },
+            {
+              "title": "USDA — Leftovers and food safety",
+              "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+            }
+          ],
+          "review": {
+            "status": "editorial-review",
+            "date": "2026-10-05"
+          }
+        }
+      },
+      "content": {
+        "before": "\n## Chef's Note\n\nChuck needs time to become easy to pull apart. The broth, soy sauce, Worcestershire and rosemary make the dipping liquid; keep all their measured quantities. Searing is optional and adds browned flavor when there is time. Assemble and broil close to serving so the bread stays firm enough for dipping.\n\n## Directions\n\n1. **Prepare and optionally sear:** Start with fully thawed beef, kept refrigerated until preparation. Check the cooker’s capacity and meat-size instructions. If searing, brown the roast on all sides in a hot skillet with the optional oil allowance, then transfer immediately to the cooker to continue cooking. Otherwise place the roast directly in the cooker.\n\n2. **Combine:** Add all the sliced onion, garlic, measured stock, soy sauce, Worcestershire and rosemary. Cover and start cooking promptly; do not use a delayed start.\n\n3. **Cook until tender:** Cook on LOW for about 8 hours or HIGH for about 4–5 hours as planning ranges, until the beef pulls apart with a fork. Check that the roast has reached at least 145°F / 63°C with a three-minute rest before serving; shreddable chuck usually needs substantially more cooking than that minimum. Continue if it remains tough.\n\n4. **Shred and strain:** Remove the cooked beef to a clean board and shred into large chunks, or slice thinly if preferred. Strain the cooking liquid into a heatproof vessel and keep it hot for dipping. The softened onions can be served with the beef if wanted rather than discarded automatically.\n\n5. **Assemble and broil:** Split the listed rolls or baguette pieces and distribute the beef and measured provolone among them. Put them on a broiler-safe pan, keeping within the actual oven instructions. Broil about 1–2 minutes as a first check, watching continuously until the cheese bubbles and the bread toasts; remove individual sandwiches if ready sooner.\n\n6. **Serve:** Divide the hot jus among individual dipping bowls and serve promptly.\n\n## Cooking Notes\n\nCheck the actual cooker’s instructions for its permitted food load, liquid requirements and meat size. A common Crock-Pot manual specifies half to three-quarters full, check your model’s own limits. When scaling, choose suitable cooker capacity or separate appropriately filled cookers, and divide all measured ingredients across them. Cooking times do not multiply with portions. Keep the lid closed except for necessary additions and doneness checks; cook on LOW or HIGH, not WARM.\n\nRefrigerate promptly in shallow covered containers at 40°F / 4°C or below, within 2 hours (1 hour above 90°F / 32°C). Use within 3–4 days. Reheat on the stove, in the microwave or oven to 165°F / 74°C; do not use the slow cooker to reheat cold leftovers. If holding cooked food in the cooker, maintain at least 140°F / 60°C and follow its holding instructions.\n",
+        "after": "\n## Chef's Note\n\nChuck needs time to become easy to pull apart. The broth, soy sauce, Worcestershire and rosemary make the dipping liquid; keep all their measured quantities. Searing is optional and adds browned flavor when there is time. Assemble and broil close to serving so the bread stays firm enough for dipping.\n\n## Directions\n\n1. **Prepare and optionally sear:** Start with fully thawed beef, kept refrigerated until preparation. Check the cooker’s capacity and meat-size instructions. If searing, brown the roast on all sides in a hot skillet with the optional oil allowance, then transfer immediately to the cooker to continue cooking. Otherwise place the roast directly in the cooker.\n\n2. **Combine:** Add all the sliced onion, garlic, measured stock, soy sauce, Worcestershire and rosemary. Cover and start cooking promptly; do not use a delayed start.\n\n3. **Cook until tender:** Cook on LOW for about 8 hours or HIGH for about 4–5 hours as planning ranges, until the beef pulls apart with a fork. Check that the roast has reached at least 145°F / 63°C with a three-minute rest before serving; shreddable chuck usually needs substantially more cooking than that minimum. Continue if it remains tough.\n\n4. **Shred and strain:** Remove the cooked beef to a clean board and shred into large chunks, or slice thinly if preferred. Strain the cooking liquid into a heatproof vessel and keep it hot for dipping. The softened onions can be served with the beef if wanted rather than discarded automatically.\n\n5. **Assemble and broil:** Split the listed rolls or baguette pieces and distribute the beef and measured provolone among them. Put them on a broiler-safe pan, keeping within the actual oven instructions. Broil about 1–2 minutes as a first check, watching continuously until the cheese bubbles and the bread toasts; remove individual sandwiches if ready sooner.\n\n6. **Serve:** Divide the hot jus among individual dipping bowls and serve promptly.\n\n## Cooking Notes\n\nCheck the actual cooker’s instructions for its permitted food load, liquid requirements and meat size. Follow your cooker’s stated minimum and maximum fill limits. When scaling, choose suitable cooker capacity or separate appropriately filled cookers, and divide all measured ingredients across them. Cooking times do not multiply with portions. Keep the lid closed except for necessary additions and doneness checks; cook on LOW or HIGH, not WARM.\n\nRefrigerate promptly in shallow covered containers at 40°F / 4°C or below, within 2 hours (1 hour above 90°F / 32°C). Use within 3–4 days. Reheat on the stove, in the microwave or oven outside the slow cooker, stirring or turning as appropriate for even heating and checking 165°F / 74°C throughout; do not use the slow cooker to reheat cold leftovers. For leftover jus, USDA additionally recommends bringing it to a rolling boil; stir and keep the boil brief, since prolonged boiling concentrates the jus. If holding cooked food in the cooker, maintain at least 140°F / 60°C and follow its holding instructions.\n"
+      }
+    },
+    "exactRecordFieldChanges": {
+      "sourceDecisions": {
+        "before": "First exact Gitb244f4b2 and complete later source history preserve this formula and optional sear; no named primary recipe publisher established. All soy/stock/butter-free cheese richness retained. Added actual optional sear-oil allowance, fully thawed start and USDA beef minimum distinguished from chuck tenderness; no mandatory browning. Unsupported24hour-stock equivalence and unverified nutrition removed. Original serving suggestions survive as private source evidence; current accepted pairings remain.",
+        "after": "First exact Gitb244f4b2 and complete later source history preserve this formula and optional sear; no named primary recipe publisher established. All soy/stock/butter-free cheese richness retained. Added actual optional sear-oil allowance, fully thawed start and USDA beef minimum distinguished from chuck tenderness; no mandatory browning. Unsupported24hour-stock equivalence and unverified nutrition removed. Original serving suggestions survive as private source evidence; current accepted pairings remain."
+      },
+      "ingredientLedger": {
+        "before": [
+          {
+            "ingredient": "3 lb Beef Chuck Roast",
+            "destination": "optional sear then cook/shred/rolls"
+          },
+          {
+            "ingredient": "1 large Yellow Onion, sliced",
+            "destination": "cook; optional serve with beef"
+          },
+          {
+            "ingredient": "4 cloves Garlic, minced",
+            "destination": "cook/strained jus"
+          },
+          {
+            "ingredient": "2 cups Beef Stock (Low sodium)",
+            "destination": "cook/strained jus"
+          },
+          {
+            "ingredient": "1/2 cup Soy Sauce (The umami secret)",
+            "destination": "cook/strained jus"
+          },
+          {
+            "ingredient": "1 tbsp Worcestershire Sauce",
+            "destination": "cook/strained jus"
+          },
+          {
+            "ingredient": "1 tsp Dried Rosemary",
+            "destination": "cook/strained jus"
+          },
+          {
+            "ingredient": "6 Hoagie Rolls or Baguette pieces",
+            "destination": "assemble/broil"
+          },
+          {
+            "ingredient": "6 slices Provolone Cheese",
+            "destination": "assemble/broil"
+          },
+          {
+            "ingredient": "Oil, as needed for optional searing",
+            "destination": "optional sear"
+          }
+        ],
+        "after": [
+          {
+            "ingredient": "3 lb Beef Chuck Roast",
+            "destination": "optional sear then cook/shred/rolls"
+          },
+          {
+            "ingredient": "1 large Yellow Onion, sliced",
+            "destination": "cook; optional serve with beef"
+          },
+          {
+            "ingredient": "4 cloves Garlic, minced",
+            "destination": "cook/strained jus"
+          },
+          {
+            "ingredient": "2 cups Beef Stock (Low sodium)",
+            "destination": "cook/strained jus"
+          },
+          {
+            "ingredient": "1/2 cup Soy Sauce (The umami secret)",
+            "destination": "cook/strained jus"
+          },
+          {
+            "ingredient": "1 tbsp Worcestershire Sauce",
+            "destination": "cook/strained jus"
+          },
+          {
+            "ingredient": "1 tsp Dried Rosemary",
+            "destination": "cook/strained jus"
+          },
+          {
+            "ingredient": "6 Hoagie Rolls or Baguette pieces",
+            "destination": "assemble/broil"
+          },
+          {
+            "ingredient": "6 slices Provolone Cheese",
+            "destination": "assemble/broil"
+          },
+          {
+            "ingredient": "Oil, as needed for optional searing",
+            "destination": "optional sear"
+          }
+        ]
+      },
+      "relationships": {
+        "before": {
+          "pairsWith": [
+            "avocado-kale-caesar-salad",
+            "warm-roasted-veggie-salad-with-maple-dijon-vinaigrette",
+            "coleslaw"
+          ],
+          "incomingMeals": [],
+          "scope": "Linked dishes and schedule not certified."
+        },
+        "after": {
+          "pairsWith": [
+            "avocado-kale-caesar-salad",
+            "warm-roasted-veggie-salad-with-maple-dijon-vinaigrette",
+            "coleslaw"
+          ],
+          "incomingMeals": [],
+          "scope": "Linked dishes and schedule not certified."
+        }
+      }
+    },
+    "reconstructedPriorHashVerified": true,
+    "chronology": "Completed independent challenge first; root then authorized bounded corrections; challenger applied them; root whole final acceptance remains pending.",
+    "scope": "Historical earlier phase applies to prior-root-metadata snapshot; final root metadata phase is appended separately.",
+    "historicalFinalCandidateSha256": "dbfa8687b318fe8ac6a72666d45b8e732826eae435ec531f6b74ad95c3bbe441"
+  },
+  "independentSelfAcceptance": false,
+  "rootFinalAcceptance": "accepted after prior whole independent challenge, bounded corrections and complete final root inspection",
+  "sourceDisagreements": "First exact Gitb244f4b2 and complete later source history preserve this formula and optional sear; no named primary recipe publisher established. All soy/stock/butter-free cheese richness retained. Added actual optional sear-oil allowance, fully thawed start and USDA beef minimum distinguished from chuck tenderness; no mandatory browning. Unsupported24hour-stock equivalence and unverified nutrition removed. Original serving suggestions survive as private source evidence; current accepted pairings remain.",
+  "snapshotConvention": {
+    "frozenOriginal": "assignment snapshot, not a native original",
+    "savedGitOriginal": "actual first available committed source, not verified native extraction",
+    "current": "source working tree when packet was prepared",
+    "proposed": "final peer-corrected candidate awaiting root acceptance"
+  },
+  "originalIngredients": [
+    "3 lb Beef Chuck Roast",
+    "1 large Yellow Onion, sliced",
+    "4 cloves Garlic, minced",
+    "2 cups Beef Stock (Low sodium)",
+    "1/2 cup Soy Sauce (The umami secret)",
+    "1 tbsp Worcestershire Sauce",
+    "1 tsp Dried Rosemary",
+    "6 Hoagie Rolls or Baguette pieces",
+    "6 slices Provolone Cheese"
+  ],
+  "savedGitIngredients": [
+    "3 lb Beef Chuck Roast",
+    "1 large Yellow Onion, sliced",
+    "4 cloves Garlic, minced",
+    "--- The Jus ---",
+    "2 cups Beef Stock (Low sodium)",
+    "1/2 cup Soy Sauce (The umami secret)",
+    "1 tbsp Worcestershire Sauce",
+    "1 tsp Dried Rosemary",
+    "--- The Sandwich ---",
+    "6 Hoagie Rolls or Baguette pieces",
+    "6 slices Provolone Cheese"
+  ],
+  "currentIngredients": [
+    "3 lb Beef Chuck Roast",
+    "1 large Yellow Onion, sliced",
+    "4 cloves Garlic, minced",
+    "2 cups Beef Stock (Low sodium)",
+    "1/2 cup Soy Sauce (The umami secret)",
+    "1 tbsp Worcestershire Sauce",
+    "1 tsp Dried Rosemary",
+    "6 Hoagie Rolls or Baguette pieces",
+    "6 slices Provolone Cheese"
+  ],
+  "proposedIngredients": [
+    "3 lb Beef Chuck Roast",
+    "1 large Yellow Onion, sliced",
+    "4 cloves Garlic, minced",
+    "2 cups Beef Stock (Low sodium)",
+    "1/2 cup Soy Sauce (The umami secret)",
+    "1 tbsp Worcestershire Sauce",
+    "1 tsp Dried Rosemary",
+    "6 Hoagie Rolls or Baguette pieces",
+    "6 slices Provolone Cheese",
+    "Oil, as needed for optional searing"
+  ],
+  "originalIngredientLedger": [
+    "3 lb Beef Chuck Roast",
+    "1 large Yellow Onion, sliced",
+    "4 cloves Garlic, minced",
+    "2 cups Beef Stock (Low sodium)",
+    "1/2 cup Soy Sauce (The umami secret)",
+    "1 tbsp Worcestershire Sauce",
+    "1 tsp Dried Rosemary",
+    "6 Hoagie Rolls or Baguette pieces",
+    "6 slices Provolone Cheese"
+  ],
+  "ingredientLedger": [
+    {
+      "ingredient": "3 lb Beef Chuck Roast",
+      "destination": "optional sear then cook/shred/rolls"
+    },
+    {
+      "ingredient": "1 large Yellow Onion, sliced",
+      "destination": "cook; optional serve with beef"
+    },
+    {
+      "ingredient": "4 cloves Garlic, minced",
+      "destination": "cook/strained jus"
+    },
+    {
+      "ingredient": "2 cups Beef Stock (Low sodium)",
+      "destination": "cook/strained jus"
+    },
+    {
+      "ingredient": "1/2 cup Soy Sauce (The umami secret)",
+      "destination": "cook/strained jus"
+    },
+    {
+      "ingredient": "1 tbsp Worcestershire Sauce",
+      "destination": "cook/strained jus"
+    },
+    {
+      "ingredient": "1 tsp Dried Rosemary",
+      "destination": "cook/strained jus"
+    },
+    {
+      "ingredient": "6 Hoagie Rolls or Baguette pieces",
+      "destination": "assemble/broil"
+    },
+    {
+      "ingredient": "6 slices Provolone Cheese",
+      "destination": "assemble/broil"
+    },
+    {
+      "ingredient": "Oil, as needed for optional searing",
+      "destination": "optional sear"
+    }
+  ],
+  "variantLedger": [
+    {
+      "name": "Optional searing",
+      "amount": "Oil as needed; the same listed beef",
+      "destination": "Prepare step 1",
+      "process": "Brown if wanted and immediately continue cooking; otherwise load the same roast directly.",
+      "exclusiveWith": "Direct loading without searing"
+    },
+    {
+      "name": "Shred or slice",
+      "amount": "All cooked beef",
+      "destination": "Step 4",
+      "process": "Pull into large chunks or slice thinly; tenderness remains the endpoint."
+    },
+    {
+      "name": "Roll or baguette piece",
+      "amount": "The listed count",
+      "destination": "Step 5",
+      "process": "Divide all beef and measured cheese across the listed bread. Bread size and broiler distance remain actual equipment/portion questions."
+    },
+    {
+      "name": "Softened onions",
+      "amount": "From the same cooked batch",
+      "destination": "Step 4",
+      "process": "May be served with beef instead of automatically discarded; no extra onion dose."
+    },
+    {
+      "name": "Historical side suggestions",
+      "amount": "Unmeasured archived suggestions",
+      "destination": "Separate dishes",
+      "process": "Retained in exact private first-Git evidence; explicit duplicate-serving metadata policy does not authorize automatic body restoration."
+    }
+  ],
+  "findings": [
+    {
+      "before": "\n## Chef's Note\n\nThe French Dip is all about the **Jus** (the juice). Most home versions are watery; we fix this by using **Soy Sauce** instead of just salt to provide a deep, dark umami base that mimics a 24-hour restaurant stock. The roast should be \"shreddably\" tender but still hold enough structure to be piled high on a toasted roll.\n\n## Directions\n\n1.  **Sear (Optional but better):** Sear the beef roast in a hot skillet with a little oil until browned on all sides. Place in the slow cooker.\n2.  **Combine:** Add the sliced onion, garlic, stock, soy sauce, Worcestershire, and rosemary to the slow cooker.\n3.  **Slow Cook:** Cook on **LOW** for 8 hours (or high for 4-5 hours) until the beef pulls apart with a fork.\n4.  **Shred:** Remove beef to a cutting board. Shred into large chunks or slice thin.\n5.  **Strain:** Pour the liquid from the slow cooker through a sieve into small individual dipping bowls (ramekins).\n6.  **Assemble:** Split the rolls. Pile the beef onto each roll and top with a slice of provolone.\n7.  **Toast:** Place the sandwiches under the **BROILER** for 1-2 minutes until the cheese is bubbly and the bread is toasted.\n8.  **Serve:** Serve immediately with the hot Jus on the side for dipping.\n",
+      "after": "\n## Chef's Note\n\nChuck needs time to become easy to pull apart. The broth, soy sauce, Worcestershire and rosemary make the dipping liquid; keep all their measured quantities. Searing is optional and adds browned flavor when there is time. Assemble and broil close to serving so the bread stays firm enough for dipping.\n\n## Directions\n\n1. **Prepare and optionally sear:** Start with fully thawed beef, kept refrigerated until preparation. Check the cooker’s capacity and meat-size instructions. If searing, brown the roast on all sides in a hot skillet with the optional oil allowance, then transfer immediately to the cooker to continue cooking. Otherwise place the roast directly in the cooker.\n\n2. **Combine:** Add all the sliced onion, garlic, measured stock, soy sauce, Worcestershire and rosemary. Cover and start cooking promptly; do not use a delayed start.\n\n3. **Cook until tender:** Cook on LOW for about 8 hours or HIGH for about 4–5 hours as planning ranges, until the beef pulls apart with a fork. Check that the roast has reached at least 145°F / 63°C with a three-minute rest before serving; shreddable chuck usually needs substantially more cooking than that minimum. Continue if it remains tough.\n\n4. **Shred and strain:** Remove the cooked beef to a clean board and shred into large chunks, or slice thinly if preferred. Strain the cooking liquid into a heatproof vessel and keep it hot for dipping. The softened onions can be served with the beef if wanted rather than discarded automatically.\n\n5. **Assemble and broil:** Split the listed rolls or baguette pieces and distribute the beef and measured provolone among them. Put them on a broiler-safe pan, keeping within the actual oven instructions. Broil about 1–2 minutes as a first check, watching continuously until the cheese bubbles and the bread toasts; remove individual sandwiches if ready sooner.\n\n6. **Serve:** Divide the hot jus among individual dipping bowls and serve promptly.\n\n## Cooking Notes\n\nCheck the actual cooker’s instructions for its permitted food load, liquid requirements and meat size. Follow your cooker’s stated minimum and maximum fill limits. When scaling, choose suitable cooker capacity or separate appropriately filled cookers, and divide all measured ingredients across them. Cooking times do not multiply with portions. Keep the lid closed except for necessary additions and doneness checks; cook on LOW or HIGH, not WARM.\n\nRefrigerate promptly in shallow covered containers at 40°F / 4°C or below, within 2 hours (1 hour above 90°F / 32°C). Use within 3–4 days. Reheat on the stove, in the microwave or oven outside the slow cooker, stirring or turning as appropriate for even heating and checking 165°F / 74°C throughout; do not use the slow cooker to reheat cold leftovers. For leftover jus, USDA additionally recommends bringing it to a rolling boil; stir and keep the boil brief, since prolonged boiling concentrates the jus. If holding cooked food in the cooker, maintain at least 140°F / 60°C and follow its holding instructions.\n",
+      "rationale": "First exact Gitb244f4b2 and complete later source history preserve this formula and optional sear; no named primary recipe publisher established. All soy/stock/butter-free cheese richness retained. Added actual optional sear-oil allowance, fully thawed start and USDA beef minimum distinguished from chuck tenderness; no mandatory browning. Unsupported24hour-stock equivalence and unverified nutrition removed. Original serving suggestions survive as private source evidence; current accepted pairings remain.",
+      "source": [
+        {
+          "title": "USDA — Slow cooker guidance, retained government PDF",
+          "url": "https://www.govinfo.gov/content/pkg/GOVPUB-A110-PURL-gpo30229/pdf/GOVPUB-A110-PURL-gpo30229.pdf"
+        },
+        {
+          "title": "FoodSafety.gov — Safe minimum internal temperatures",
+          "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+        },
+        {
+          "title": "USDA — Handling leftovers safely",
+          "url": "https://ask.fsis.usda.gov/article/How-do-I-handle-leftovers-safely"
+        }
+      ],
+      "confidence": "high for source quantities/allocation and guidance applicability; moderate for untested planning/tenderness ranges",
+      "questions": [
+        "Identify actual cooker model/load and original3lb roast fit.",
+        "Check preferred roll size, cheese slices and six-portion estimate; assess jus salinity without reducing soy formula."
+      ],
+      "applicableEvidence": {
+        "exactSavedGit": "https://github.com/jsilton/mise/blob/b244f4b22965414b9ec9fe0c95c8cb6fb661714d/src/content/recipes/french-dip-sandwiches.md",
+        "actualCookingHistory": "Whole path history independently recomputed from durable repository and cooking changes inspected; omissions do not imply household intent.",
+        "publisher": "No named publisher established; exact family Git formula retained.",
+        "primaryGuidanceScope": "FDA/USDA pages support the stated handling and temperature claims only; they do not establish quantities, sensory timing, yield, nutrition or household cooker capacity. Source/history and culinary mechanisms establish the recipe-specific rationale."
+      }
+    },
+    {
+      "category": "unverified legacy nutrition",
+      "before": {
+        "calories": 625,
+        "protein": 75.5,
+        "carbs": 6.5,
+        "fat": 34.5,
+        "fiber": 0.5,
+        "sugar": 1.5,
+        "sodium": 3650
+      },
+      "after": null,
+      "rationale": "No verified per-serving calculation is established; preserve recipe richness without replacing unsupported numbers or manufacturing nutrition.",
+      "source": "Actual legacy field/history; USDA safety guidance is not nutrition evidence.",
+      "confidence": "high for provenance limitation",
+      "questions": [],
+      "applicableEvidence": {
+        "exactSavedGit": "https://github.com/jsilton/mise/blob/b244f4b22965414b9ec9fe0c95c8cb6fb661714d/src/content/recipes/french-dip-sandwiches.md",
+        "actualCookingHistory": "Whole path history independently recomputed from durable repository and cooking changes inspected; omissions do not imply household intent.",
+        "publisher": "No named publisher established; exact family Git formula retained.",
+        "primaryGuidanceScope": "FDA/USDA pages support the stated handling and temperature claims only; they do not establish quantities, sensory timing, yield, nutrition or household cooker capacity. Source/history and culinary mechanisms establish the recipe-specific rationale."
+      }
+    },
+    {
+      "category": "Root-authorized bounded metadata/yield/prose application",
+      "before": {
+        "sha256": "dbfa8687b318fe8ac6a72666d45b8e732826eae435ec531f6b74ad95c3bbe441",
+        "fields": {
+          "origin": "United States"
+        }
+      },
+      "after": {
+        "sha256": "2dee3b0231673601f4bef2623b06004d08afd0c24b0cc0c3aaafaf67a759fd16",
+        "fields": {
+          "origin": null
+        }
+      },
+      "rationale": "Independent bounded recommendations were read and explicitly accepted by root. Omit only unsupported country origins while preserving cuisine style. Six Lentil small planning portions are described through the valid existing formula unit and exact authored serving prose. Spacing/public cooking wording changes preserve all quantities, routes, clocks and prior repairs.",
+      "source": ["Exact full Git history and first sources", "docs/RECIPE_STANDARD.md"],
+      "confidence": "High for exact metadata/wording/history/schema; unmeasured capacity, portions and texture remain untested.",
+      "questions": ["Future origin metadata needs explicit recipe-specific provenance."],
+      "applicableEvidence": {
+        "exactSavedGit": "https://github.com/jsilton/mise/blob/b244f4b22965414b9ec9fe0c95c8cb6fb661714d/src/content/recipes/french-dip-sandwiches.md",
+        "actualCookingHistory": "Whole path history independently recomputed from durable repository and cooking changes inspected; omissions do not imply household intent.",
+        "publisher": "No named publisher established; exact family Git formula retained.",
+        "primaryGuidanceScope": "FDA/USDA pages support the stated handling and temperature claims only; they do not establish quantities, sensory timing, yield, nutrition or household cooker capacity. Source/history and culinary mechanisms establish the recipe-specific rationale."
+      }
+    }
+  ],
+  "changedFieldNames": [
+    "prepTime",
+    "cookTime",
+    "totalTime",
+    "ingredients",
+    "origin",
+    "nutrition",
+    "equipment",
+    "learning",
+    "content"
+  ],
+  "changedFields": {
+    "prepTime": {
+      "before": "15 min",
+      "after": "About 15–25 min active"
+    },
+    "cookTime": {
+      "before": "8 hr",
+      "after": "About 8 hr LOW or 4–5 hr HIGH, plus broiling"
+    },
+    "totalTime": {
+      "before": "8.5 hr",
+      "after": "About 8 hr 30 min LOW or 4 hr 30 min–5 hr 30 min HIGH"
+    },
+    "ingredients": {
+      "before": [
+        "3 lb Beef Chuck Roast",
+        "1 large Yellow Onion, sliced",
+        "4 cloves Garlic, minced",
+        "2 cups Beef Stock (Low sodium)",
+        "1/2 cup Soy Sauce (The umami secret)",
+        "1 tbsp Worcestershire Sauce",
+        "1 tsp Dried Rosemary",
+        "6 Hoagie Rolls or Baguette pieces",
+        "6 slices Provolone Cheese"
+      ],
+      "after": [
+        "3 lb Beef Chuck Roast",
+        "1 large Yellow Onion, sliced",
+        "4 cloves Garlic, minced",
+        "2 cups Beef Stock (Low sodium)",
+        "1/2 cup Soy Sauce (The umami secret)",
+        "1 tbsp Worcestershire Sauce",
+        "1 tsp Dried Rosemary",
+        "6 Hoagie Rolls or Baguette pieces",
+        "6 slices Provolone Cheese",
+        "Oil, as needed for optional searing"
+      ]
+    },
+    "origin": {
+      "before": "United States",
+      "after": null
+    },
+    "nutrition": {
+      "before": {
+        "calories": 625,
+        "protein": 75.5,
+        "carbs": 6.5,
+        "fat": 34.5,
+        "fiber": 0.5,
+        "sugar": 1.5,
+        "sodium": 3650
+      },
+      "after": null
+    },
+    "equipment": {
+      "before": null,
+      "after": [
+        "slow-cooker",
+        "optional-skillet",
+        "sieve",
+        "cutting-board",
+        "broiler-safe-pan",
+        "food-thermometer"
+      ]
+    },
+    "learning": {
+      "before": null,
+      "after": {
+        "focus": "Cook chuck until it pulls apart and keep the jus hot",
+        "outcome": "Tender beef on toasted provolone rolls, with soy-rich dipping liquid.",
+        "techniques": ["braising", "temperature"],
+        "before": [
+          "Check the actual cooker’s instructions for its permitted food load, liquid requirements and meat size. Follow your cooker’s stated minimum and maximum fill limits. When scaling, choose suitable cooker capacity or separate appropriately filled cookers, and divide all measured ingredients across them. Cooking times do not multiply with portions. Keep the lid closed except for necessary additions and doneness checks; cook on LOW or HIGH, not WARM.",
+          "Keep meat/poultry fully thawed and refrigerated until preparation; start promptly without a delayed timer."
+        ],
+        "checkpoints": [
+          {
+            "step": 3,
+            "cue": "Beef pulls apart easily, beyond merely reaching the safety minimum.",
+            "why": "Chuck tenderness depends on connective-tissue breakdown."
+          },
+          {
+            "step": 5,
+            "cue": "Cheese bubbles and bread toasts without blackening.",
+            "why": "Broilers and bread-to-element distance vary."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "The roast is cooked to its minimum temperature but still tough.",
+            "cause": "The chuck has not cooked long enough for pulling.",
+            "fix": "Continue covered cooking and check tenderness again rather than slice it because the clock expired."
+          }
+        ],
+        "storage": "Refrigerate promptly in shallow covered containers at 40°F / 4°C or below, within 2 hours (1 hour above 90°F / 32°C). Use within 3–4 days. Reheat on the stove, in the microwave or oven outside the slow cooker, stirring or turning as appropriate for even heating and checking 165°F / 74°C throughout; do not use the slow cooker to reheat cold leftovers. For leftover jus, USDA additionally recommends bringing it to a rolling boil; stir and keep the boil brief, since prolonged boiling concentrates the jus. If holding cooked food in the cooker, maintain at least 140°F / 60°C and follow its holding instructions.",
+        "timing": "About 8 hr 30 min LOW or 4 hr 30 min–5 hr 30 min HIGH includes preparation and finishing; heat-up is part of the slow-cooker window, not active attendance. Thawing is additional and larger loads can take longer.",
+        "sources": [
+          {
+            "title": "USDA — Slow cookers and food safety",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/slow-cookers-and-food-safety"
+          },
+          {
+            "title": "USDA — Slow cooker guidance, retained government PDF",
+            "url": "https://www.govinfo.gov/content/pkg/GOVPUB-A110-PURL-gpo30229/pdf/GOVPUB-A110-PURL-gpo30229.pdf"
+          },
+          {
+            "title": "Crock-Pot — Model SCVCS603S manual, fill and operating example",
+            "url": "https://www.crock-pot.ca/on/demandware.static/-/Sites-crock-pot-ca-Library/default/dw9e26d449/documents/instruction-manuals/SCVCS603S-033_EN.pdf"
+          },
+          {
+            "title": "FoodSafety.gov — Safe minimum internal temperatures",
+            "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+          },
+          {
+            "title": "USDA — Leftovers and food safety",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-05"
+        }
+      }
+    },
+    "content": {
+      "before": "\n## Chef's Note\n\nThe French Dip is all about the **Jus** (the juice). Most home versions are watery; we fix this by using **Soy Sauce** instead of just salt to provide a deep, dark umami base that mimics a 24-hour restaurant stock. The roast should be \"shreddably\" tender but still hold enough structure to be piled high on a toasted roll.\n\n## Directions\n\n1.  **Sear (Optional but better):** Sear the beef roast in a hot skillet with a little oil until browned on all sides. Place in the slow cooker.\n2.  **Combine:** Add the sliced onion, garlic, stock, soy sauce, Worcestershire, and rosemary to the slow cooker.\n3.  **Slow Cook:** Cook on **LOW** for 8 hours (or high for 4-5 hours) until the beef pulls apart with a fork.\n4.  **Shred:** Remove beef to a cutting board. Shred into large chunks or slice thin.\n5.  **Strain:** Pour the liquid from the slow cooker through a sieve into small individual dipping bowls (ramekins).\n6.  **Assemble:** Split the rolls. Pile the beef onto each roll and top with a slice of provolone.\n7.  **Toast:** Place the sandwiches under the **BROILER** for 1-2 minutes until the cheese is bubbly and the bread is toasted.\n8.  **Serve:** Serve immediately with the hot Jus on the side for dipping.\n",
+      "after": "\n## Chef's Note\n\nChuck needs time to become easy to pull apart. The broth, soy sauce, Worcestershire and rosemary make the dipping liquid; keep all their measured quantities. Searing is optional and adds browned flavor when there is time. Assemble and broil close to serving so the bread stays firm enough for dipping.\n\n## Directions\n\n1. **Prepare and optionally sear:** Start with fully thawed beef, kept refrigerated until preparation. Check the cooker’s capacity and meat-size instructions. If searing, brown the roast on all sides in a hot skillet with the optional oil allowance, then transfer immediately to the cooker to continue cooking. Otherwise place the roast directly in the cooker.\n\n2. **Combine:** Add all the sliced onion, garlic, measured stock, soy sauce, Worcestershire and rosemary. Cover and start cooking promptly; do not use a delayed start.\n\n3. **Cook until tender:** Cook on LOW for about 8 hours or HIGH for about 4–5 hours as planning ranges, until the beef pulls apart with a fork. Check that the roast has reached at least 145°F / 63°C with a three-minute rest before serving; shreddable chuck usually needs substantially more cooking than that minimum. Continue if it remains tough.\n\n4. **Shred and strain:** Remove the cooked beef to a clean board and shred into large chunks, or slice thinly if preferred. Strain the cooking liquid into a heatproof vessel and keep it hot for dipping. The softened onions can be served with the beef if wanted rather than discarded automatically.\n\n5. **Assemble and broil:** Split the listed rolls or baguette pieces and distribute the beef and measured provolone among them. Put them on a broiler-safe pan, keeping within the actual oven instructions. Broil about 1–2 minutes as a first check, watching continuously until the cheese bubbles and the bread toasts; remove individual sandwiches if ready sooner.\n\n6. **Serve:** Divide the hot jus among individual dipping bowls and serve promptly.\n\n## Cooking Notes\n\nCheck the actual cooker’s instructions for its permitted food load, liquid requirements and meat size. Follow your cooker’s stated minimum and maximum fill limits. When scaling, choose suitable cooker capacity or separate appropriately filled cookers, and divide all measured ingredients across them. Cooking times do not multiply with portions. Keep the lid closed except for necessary additions and doneness checks; cook on LOW or HIGH, not WARM.\n\nRefrigerate promptly in shallow covered containers at 40°F / 4°C or below, within 2 hours (1 hour above 90°F / 32°C). Use within 3–4 days. Reheat on the stove, in the microwave or oven outside the slow cooker, stirring or turning as appropriate for even heating and checking 165°F / 74°C throughout; do not use the slow cooker to reheat cold leftovers. For leftover jus, USDA additionally recommends bringing it to a rolling boil; stir and keep the boil brief, since prolonged boiling concentrates the jus. If holding cooked food in the cooker, maintain at least 140°F / 60°C and follow its holding instructions.\n"
+    }
+  },
+  "currentToProposedFieldChanges": {
+    "prepTime": {
+      "before": "15 min",
+      "after": "About 15–25 min active"
+    },
+    "cookTime": {
+      "before": "8 hr",
+      "after": "About 8 hr LOW or 4–5 hr HIGH, plus broiling"
+    },
+    "totalTime": {
+      "before": "8.5 hr",
+      "after": "About 8 hr 30 min LOW or 4 hr 30 min–5 hr 30 min HIGH"
+    },
+    "ingredients": {
+      "before": [
+        "3 lb Beef Chuck Roast",
+        "1 large Yellow Onion, sliced",
+        "4 cloves Garlic, minced",
+        "2 cups Beef Stock (Low sodium)",
+        "1/2 cup Soy Sauce (The umami secret)",
+        "1 tbsp Worcestershire Sauce",
+        "1 tsp Dried Rosemary",
+        "6 Hoagie Rolls or Baguette pieces",
+        "6 slices Provolone Cheese"
+      ],
+      "after": [
+        "3 lb Beef Chuck Roast",
+        "1 large Yellow Onion, sliced",
+        "4 cloves Garlic, minced",
+        "2 cups Beef Stock (Low sodium)",
+        "1/2 cup Soy Sauce (The umami secret)",
+        "1 tbsp Worcestershire Sauce",
+        "1 tsp Dried Rosemary",
+        "6 Hoagie Rolls or Baguette pieces",
+        "6 slices Provolone Cheese",
+        "Oil, as needed for optional searing"
+      ]
+    },
+    "origin": {
+      "before": "United States",
+      "after": null
+    },
+    "nutrition": {
+      "before": {
+        "calories": 625,
+        "protein": 75.5,
+        "carbs": 6.5,
+        "fat": 34.5,
+        "fiber": 0.5,
+        "sugar": 1.5,
+        "sodium": 3650
+      },
+      "after": null
+    },
+    "equipment": {
+      "before": null,
+      "after": [
+        "slow-cooker",
+        "optional-skillet",
+        "sieve",
+        "cutting-board",
+        "broiler-safe-pan",
+        "food-thermometer"
+      ]
+    },
+    "learning": {
+      "before": null,
+      "after": {
+        "focus": "Cook chuck until it pulls apart and keep the jus hot",
+        "outcome": "Tender beef on toasted provolone rolls, with soy-rich dipping liquid.",
+        "techniques": ["braising", "temperature"],
+        "before": [
+          "Check the actual cooker’s instructions for its permitted food load, liquid requirements and meat size. Follow your cooker’s stated minimum and maximum fill limits. When scaling, choose suitable cooker capacity or separate appropriately filled cookers, and divide all measured ingredients across them. Cooking times do not multiply with portions. Keep the lid closed except for necessary additions and doneness checks; cook on LOW or HIGH, not WARM.",
+          "Keep meat/poultry fully thawed and refrigerated until preparation; start promptly without a delayed timer."
+        ],
+        "checkpoints": [
+          {
+            "step": 3,
+            "cue": "Beef pulls apart easily, beyond merely reaching the safety minimum.",
+            "why": "Chuck tenderness depends on connective-tissue breakdown."
+          },
+          {
+            "step": 5,
+            "cue": "Cheese bubbles and bread toasts without blackening.",
+            "why": "Broilers and bread-to-element distance vary."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "The roast is cooked to its minimum temperature but still tough.",
+            "cause": "The chuck has not cooked long enough for pulling.",
+            "fix": "Continue covered cooking and check tenderness again rather than slice it because the clock expired."
+          }
+        ],
+        "storage": "Refrigerate promptly in shallow covered containers at 40°F / 4°C or below, within 2 hours (1 hour above 90°F / 32°C). Use within 3–4 days. Reheat on the stove, in the microwave or oven outside the slow cooker, stirring or turning as appropriate for even heating and checking 165°F / 74°C throughout; do not use the slow cooker to reheat cold leftovers. For leftover jus, USDA additionally recommends bringing it to a rolling boil; stir and keep the boil brief, since prolonged boiling concentrates the jus. If holding cooked food in the cooker, maintain at least 140°F / 60°C and follow its holding instructions.",
+        "timing": "About 8 hr 30 min LOW or 4 hr 30 min–5 hr 30 min HIGH includes preparation and finishing; heat-up is part of the slow-cooker window, not active attendance. Thawing is additional and larger loads can take longer.",
+        "sources": [
+          {
+            "title": "USDA — Slow cookers and food safety",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/slow-cookers-and-food-safety"
+          },
+          {
+            "title": "USDA — Slow cooker guidance, retained government PDF",
+            "url": "https://www.govinfo.gov/content/pkg/GOVPUB-A110-PURL-gpo30229/pdf/GOVPUB-A110-PURL-gpo30229.pdf"
+          },
+          {
+            "title": "Crock-Pot — Model SCVCS603S manual, fill and operating example",
+            "url": "https://www.crock-pot.ca/on/demandware.static/-/Sites-crock-pot-ca-Library/default/dw9e26d449/documents/instruction-manuals/SCVCS603S-033_EN.pdf"
+          },
+          {
+            "title": "FoodSafety.gov — Safe minimum internal temperatures",
+            "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+          },
+          {
+            "title": "USDA — Leftovers and food safety",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-05"
+        }
+      }
+    },
+    "content": {
+      "before": "\n## Chef's Note\n\nThe French Dip is all about the **Jus** (the juice). Most home versions are watery; we fix this by using **Soy Sauce** instead of just salt to provide a deep, dark umami base that mimics a 24-hour restaurant stock. The roast should be \"shreddably\" tender but still hold enough structure to be piled high on a toasted roll.\n\n## Directions\n\n1.  **Sear (Optional but better):** Sear the beef roast in a hot skillet with a little oil until browned on all sides. Place in the slow cooker.\n2.  **Combine:** Add the sliced onion, garlic, stock, soy sauce, Worcestershire, and rosemary to the slow cooker.\n3.  **Slow Cook:** Cook on **LOW** for 8 hours (or high for 4-5 hours) until the beef pulls apart with a fork.\n4.  **Shred:** Remove beef to a cutting board. Shred into large chunks or slice thin.\n5.  **Strain:** Pour the liquid from the slow cooker through a sieve into small individual dipping bowls (ramekins).\n6.  **Assemble:** Split the rolls. Pile the beef onto each roll and top with a slice of provolone.\n7.  **Toast:** Place the sandwiches under the **BROILER** for 1-2 minutes until the cheese is bubbly and the bread is toasted.\n8.  **Serve:** Serve immediately with the hot Jus on the side for dipping.\n",
+      "after": "\n## Chef's Note\n\nChuck needs time to become easy to pull apart. The broth, soy sauce, Worcestershire and rosemary make the dipping liquid; keep all their measured quantities. Searing is optional and adds browned flavor when there is time. Assemble and broil close to serving so the bread stays firm enough for dipping.\n\n## Directions\n\n1. **Prepare and optionally sear:** Start with fully thawed beef, kept refrigerated until preparation. Check the cooker’s capacity and meat-size instructions. If searing, brown the roast on all sides in a hot skillet with the optional oil allowance, then transfer immediately to the cooker to continue cooking. Otherwise place the roast directly in the cooker.\n\n2. **Combine:** Add all the sliced onion, garlic, measured stock, soy sauce, Worcestershire and rosemary. Cover and start cooking promptly; do not use a delayed start.\n\n3. **Cook until tender:** Cook on LOW for about 8 hours or HIGH for about 4–5 hours as planning ranges, until the beef pulls apart with a fork. Check that the roast has reached at least 145°F / 63°C with a three-minute rest before serving; shreddable chuck usually needs substantially more cooking than that minimum. Continue if it remains tough.\n\n4. **Shred and strain:** Remove the cooked beef to a clean board and shred into large chunks, or slice thinly if preferred. Strain the cooking liquid into a heatproof vessel and keep it hot for dipping. The softened onions can be served with the beef if wanted rather than discarded automatically.\n\n5. **Assemble and broil:** Split the listed rolls or baguette pieces and distribute the beef and measured provolone among them. Put them on a broiler-safe pan, keeping within the actual oven instructions. Broil about 1–2 minutes as a first check, watching continuously until the cheese bubbles and the bread toasts; remove individual sandwiches if ready sooner.\n\n6. **Serve:** Divide the hot jus among individual dipping bowls and serve promptly.\n\n## Cooking Notes\n\nCheck the actual cooker’s instructions for its permitted food load, liquid requirements and meat size. Follow your cooker’s stated minimum and maximum fill limits. When scaling, choose suitable cooker capacity or separate appropriately filled cookers, and divide all measured ingredients across them. Cooking times do not multiply with portions. Keep the lid closed except for necessary additions and doneness checks; cook on LOW or HIGH, not WARM.\n\nRefrigerate promptly in shallow covered containers at 40°F / 4°C or below, within 2 hours (1 hour above 90°F / 32°C). Use within 3–4 days. Reheat on the stove, in the microwave or oven outside the slow cooker, stirring or turning as appropriate for even heating and checking 165°F / 74°C throughout; do not use the slow cooker to reheat cold leftovers. For leftover jus, USDA additionally recommends bringing it to a rolling boil; stir and keep the boil brief, since prolonged boiling concentrates the jus. If holding cooked food in the cooker, maintain at least 140°F / 60°C and follow its holding instructions.\n"
+    }
+  },
+  "ratioYieldCapacity": "Check the actual cooker’s instructions for its permitted food load, liquid requirements and meat size. Follow your cooker’s stated minimum and maximum fill limits. When scaling, choose suitable cooker capacity or separate appropriately filled cookers, and divide all measured ingredients across them. Cooking times do not multiply with portions. Keep the lid closed except for necessary additions and doneness checks; cook on LOW or HIGH, not WARM.",
+  "processTiming": {
+    "prepTime": "About 15–25 min active",
+    "cookTime": "About 8 hr LOW or 4–5 hr HIGH, plus broiling",
+    "totalTime": "About 8 hr 30 min LOW or 4 hr 30 min–5 hr 30 min HIGH"
+  },
+  "preparationAndCapacity": [
+    "Check the actual cooker’s instructions for its permitted food load, liquid requirements and meat size. Follow your cooker’s stated minimum and maximum fill limits. When scaling, choose suitable cooker capacity or separate appropriately filled cookers, and divide all measured ingredients across them. Cooking times do not multiply with portions. Keep the lid closed except for necessary additions and doneness checks; cook on LOW or HIGH, not WARM.",
+    "Keep meat/poultry fully thawed and refrigerated until preparation; start promptly without a delayed timer."
+  ],
+  "checkpoints": [
+    {
+      "step": 3,
+      "cue": "Beef pulls apart easily, beyond merely reaching the safety minimum.",
+      "why": "Chuck tenderness depends on connective-tissue breakdown."
+    },
+    {
+      "step": 5,
+      "cue": "Cheese bubbles and bread toasts without blackening.",
+      "why": "Broilers and bread-to-element distance vary."
+    }
+  ],
+  "storage": "Refrigerate promptly in shallow covered containers at 40°F / 4°C or below, within 2 hours (1 hour above 90°F / 32°C). Use within 3–4 days. Reheat on the stove, in the microwave or oven outside the slow cooker, stirring or turning as appropriate for even heating and checking 165°F / 74°C throughout; do not use the slow cooker to reheat cold leftovers. For leftover jus, USDA additionally recommends bringing it to a rolling boil; stir and keep the boil brief, since prolonged boiling concentrates the jus. If holding cooked food in the cooker, maintain at least 140°F / 60°C and follow its holding instructions.",
+  "learningTiming": "About 8 hr 30 min LOW or 4 hr 30 min–5 hr 30 min HIGH includes preparation and finishing; heat-up is part of the slow-cooker window, not active attendance. Thawing is additional and larger loads can take longer.",
+  "learningStorage": "Refrigerate promptly in shallow covered containers at 40°F / 4°C or below, within 2 hours (1 hour above 90°F / 32°C). Use within 3–4 days. Reheat on the stove, in the microwave or oven outside the slow cooker, stirring or turning as appropriate for even heating and checking 165°F / 74°C throughout; do not use the slow cooker to reheat cold leftovers. For leftover jus, USDA additionally recommends bringing it to a rolling boil; stir and keep the boil brief, since prolonged boiling concentrates the jus. If holding cooked food in the cooker, maintain at least 140°F / 60°C and follow its holding instructions.",
+  "relationships": {
+    "pairsWith": [
+      "avocado-kale-caesar-salad",
+      "warm-roasted-veggie-salad-with-maple-dijon-vinaigrette",
+      "coleslaw"
+    ],
+    "incomingMeals": [],
+    "scope": "Linked dishes and schedule not certified.",
+    "rootAssessment": "Fresh complete incoming-reference scan found no composed meal consumes these six sources. Asian Slaw pairs with Korean Beef and Enchilada Sauce pairs with Lentil Soup; these are pairing metadata, not automatic sauce substitution or accepted dependent reviews. Korean Beef’s kimchi pairing remains explicitly held. Original Lentil pressure route remains archival and unapproved."
+  },
+  "kitchenQuestions": [
+    "Identify actual cooker model/load and original3lb roast fit.",
+    "Check preferred roll size, cheese slices and six-portion estimate; assess jus salinity without reducing soy formula."
+  ],
+  "kitchenNeeds": "Record actual appliance/model min/max and final load; ingredient products/cuts; active versus elapsed clocks; applicable temperatures/rests; finished portions; flavor/texture and reheating results before kitchen-tested status.",
+  "sourceApplicability": [
+    {
+      "key": "slow-cooker",
+      "title": "USDA — Slow cookers and food safety",
+      "url": "https://www.govinfo.gov/content/pkg/GOVPUB-A110-PURL-gpo30229/pdf/GOVPUB-A110-PURL-gpo30229.pdf",
+      "supports": "Fully thawed refrigerated meat/poultry, prompt cooking, actual appliance meat-size instructions, lid control, permissible LOW cooking, outside-cooker reheating to 165°F before holding at 140°F.",
+      "limits": "Does not certify recipe ratios, universal fill percentages, household cooker identity, elapsed times, final yield or raw bean substitutions."
+    },
+    {
+      "key": "manual",
+      "title": "Crock-Pot — SCVCS603S operating manual example",
+      "url": "https://www.crock-pot.ca/on/demandware.static/-/Sites-crock-pot-ca-Library/default/dw9e26d449/documents/instruction-manuals/SCVCS603S-033_EN.pdf",
+      "supports": "This particular model gives a half-to-three-quarter fill band and operating/holding instructions; its permitted minimum and maximum are model-specific examples.",
+      "limits": "The household model is unknown. Follow its actual minimum/maximum, meat-size and liquid instructions; do not import the older frozen-meat suggestion or an arbitrary extra rice-liquid amount."
+    },
+    {
+      "key": "temperatures",
+      "title": "FoodSafety.gov — Safe minimum internal temperatures",
+      "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures",
+      "supports": "Chicken 165°F; beef/pork 145°F with three-minute rest; leftovers of any type 165°F.",
+      "limits": "Tender chuck/shoulder may need substantially more cooking. No fixed slow-cooker clock, uniform tenderness or zero-risk guarantee follows."
+    },
+    {
+      "key": "leftovers",
+      "title": "USDA — Leftovers and food safety",
+      "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety",
+      "supports": "Prompt shallow cooling/refrigeration, 40°F refrigerator, 2-hour limit or 1 hour above 90°F, 3–4-day handling range, measured 165°F throughout; separately recommends a rolling boil for reheated soups, sauces and gravies.",
+      "limits": "165°F is a supported endpoint, not declared inaccurate. Additional liquid-specific guidance does not prescribe first-cook boiling, prolonged reduction, dilution, fat reduction, a new duration or unchanged dairy/starch texture. Direct FSIS fetch returned 403 during the prior review; official indexed passage was recovered."
+    },
+    {
+      "key": "food-code-context",
+      "title": "FDA — Food Code 2022, §§3-403.10–.11",
+      "url": "https://www.fda.gov/media/164194/download",
+      "supports": "Distinguishes food-service immediate service from reheating for hot holding, with separate time/temperature and microwave provisions.",
+      "limits": "Comparison evidence only. Its food-service scope is not prescribed to household cooks; no 15-second public household rule was added."
+    }
+  ],
+  "confidenceAndLimits": {
+    "source": "High for exact Git bytes, omission lineage, source quantities and actual guidance applicability; household adaptation intent and final root acceptance remain separate.",
+    "process": "Moderate for untested model capacity, timing, serving estimates and sensory result.",
+    "nativeLineage": false,
+    "physicalCooking": false,
+    "composedMealsAccepted": false
+  },
+  "scalingAndReset": [
+    {
+      "factor": 0.5,
+      "ingredients": [
+        "1 1/2 lb Beef Chuck Roast",
+        "1/2 large Yellow Onion, sliced",
+        "2 cloves Garlic, minced",
+        "1 cup Beef Stock (Low sodium)",
+        "1/4 cup Soy Sauce (The umami secret)",
+        "1/2 tbsp Worcestershire Sauce",
+        "1/2 tsp Dried Rosemary",
+        "3 Hoagie Rolls or Baguette pieces",
+        "3 slices Provolone Cheese",
+        "Oil, as needed for optional searing"
+      ],
+      "yield": "Serves 3",
+      "directions": null,
+      "shoppingList": null
+    },
+    {
+      "factor": 1,
+      "ingredients": [
+        "3 lb Beef Chuck Roast",
+        "1 large Yellow Onion, sliced",
+        "4 cloves Garlic, minced",
+        "2 cups Beef Stock (Low sodium)",
+        "1/2 cup Soy Sauce (The umami secret)",
+        "1 tbsp Worcestershire Sauce",
+        "1 tsp Dried Rosemary",
+        "6 Hoagie Rolls or Baguette pieces",
+        "6 slices Provolone Cheese",
+        "Oil, as needed for optional searing"
+      ],
+      "yield": "6",
+      "directions": null,
+      "shoppingList": null
+    },
+    {
+      "factor": 2,
+      "ingredients": [
+        "6 lb Beef Chuck Roast",
+        "2 large Yellow Onions, sliced",
+        "8 cloves Garlic, minced",
+        "4 cups Beef Stock (Low sodium)",
+        "1 cup Soy Sauce (The umami secret)",
+        "2 tbsp Worcestershire Sauce",
+        "2 tsp Dried Rosemary",
+        "12 Hoagie Rolls or Baguette pieces",
+        "12 slices Provolone Cheese",
+        "Oil, as needed for optional searing"
+      ],
+      "yield": "Serves 12",
+      "directions": null,
+      "shoppingList": null
+    },
+    {
+      "factor": 1,
+      "ingredients": [
+        "3 lb Beef Chuck Roast",
+        "1 large Yellow Onion, sliced",
+        "4 cloves Garlic, minced",
+        "2 cups Beef Stock (Low sodium)",
+        "1/2 cup Soy Sauce (The umami secret)",
+        "1 tbsp Worcestershire Sauce",
+        "1 tsp Dried Rosemary",
+        "6 Hoagie Rolls or Baguette pieces",
+        "6 slices Provolone Cheese",
+        "Oil, as needed for optional searing"
+      ],
+      "yield": "6",
+      "directions": null,
+      "shoppingList": null,
+      "action": "reset"
+    }
+  ],
+  "validation": {
+    "slug": "french-dip-sandwiches",
+    "priorAcceptedPrivateSha256": "dbfa8687b318fe8ac6a72666d45b8e732826eae435ec531f6b74ad95c3bbe441",
+    "sha256": "2dee3b0231673601f4bef2623b06004d08afd0c24b0cc0c3aaafaf67a759fd16",
+    "actualRecipeSchema": true,
+    "formulaGeneratedIngredientsYieldDirections": null,
+    "formulaAmountsSharesYieldProtected": true,
+    "protectedMetadataAndAllCulinaryAmounts": true,
+    "currentFrozenCommittedInput": true,
+    "exactReverseToPrior": true,
+    "checkpointBounds": true,
+    "zeroTriage": true,
+    "scalingHalfOriginalDoubleReset": true,
+    "scaling": [
+      {
+        "factor": 0.5,
+        "ingredients": [
+          "1 1/2 lb Beef Chuck Roast",
+          "1/2 large Yellow Onion, sliced",
+          "2 cloves Garlic, minced",
+          "1 cup Beef Stock (Low sodium)",
+          "1/4 cup Soy Sauce (The umami secret)",
+          "1/2 tbsp Worcestershire Sauce",
+          "1/2 tsp Dried Rosemary",
+          "3 Hoagie Rolls or Baguette pieces",
+          "3 slices Provolone Cheese",
+          "Oil, as needed for optional searing"
+        ],
+        "yield": "Serves 3",
+        "directions": null,
+        "shoppingList": null
+      },
+      {
+        "factor": 1,
+        "ingredients": [
+          "3 lb Beef Chuck Roast",
+          "1 large Yellow Onion, sliced",
+          "4 cloves Garlic, minced",
+          "2 cups Beef Stock (Low sodium)",
+          "1/2 cup Soy Sauce (The umami secret)",
+          "1 tbsp Worcestershire Sauce",
+          "1 tsp Dried Rosemary",
+          "6 Hoagie Rolls or Baguette pieces",
+          "6 slices Provolone Cheese",
+          "Oil, as needed for optional searing"
+        ],
+        "yield": "6",
+        "directions": null,
+        "shoppingList": null
+      },
+      {
+        "factor": 2,
+        "ingredients": [
+          "6 lb Beef Chuck Roast",
+          "2 large Yellow Onions, sliced",
+          "8 cloves Garlic, minced",
+          "4 cups Beef Stock (Low sodium)",
+          "1 cup Soy Sauce (The umami secret)",
+          "2 tbsp Worcestershire Sauce",
+          "2 tsp Dried Rosemary",
+          "12 Hoagie Rolls or Baguette pieces",
+          "12 slices Provolone Cheese",
+          "Oil, as needed for optional searing"
+        ],
+        "yield": "Serves 12",
+        "directions": null,
+        "shoppingList": null
+      },
+      {
+        "factor": 1,
+        "ingredients": [
+          "3 lb Beef Chuck Roast",
+          "1 large Yellow Onion, sliced",
+          "4 cloves Garlic, minced",
+          "2 cups Beef Stock (Low sodium)",
+          "1/2 cup Soy Sauce (The umami secret)",
+          "1 tbsp Worcestershire Sauce",
+          "1 tsp Dried Rosemary",
+          "6 Hoagie Rolls or Baguette pieces",
+          "6 slices Provolone Cheese",
+          "Oil, as needed for optional searing"
+        ],
+        "yield": "6",
+        "directions": null,
+        "shoppingList": null,
+        "action": "reset"
+      }
+    ],
+    "appliedRecommendationCount": 1,
+    "independentSelfAcceptance": false,
+    "rootFinalAcceptance": "pending"
+  },
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/slow-cooker-sources.json",
+  "rootIntegrationRequirements": [],
+  "remainingBoundedRecommendations": [],
+  "rootMetadataCorrection": {
+    "slug": "french-dip-sandwiches",
+    "priorAcceptedPrivateCandidateSha256": "dbfa8687b318fe8ac6a72666d45b8e732826eae435ec531f6b74ad95c3bbe441",
+    "finalCandidateSha256": "2dee3b0231673601f4bef2623b06004d08afd0c24b0cc0c3aaafaf67a759fd16",
+    "reconstructedPriorSha256": "dbfa8687b318fe8ac6a72666d45b8e732826eae435ec531f6b74ad95c3bbe441",
+    "reverseToPriorByteExact": true,
+    "exactCandidateFieldDeltas": {
+      "origin": {
+        "before": "United States",
+        "after": null
+      }
+    },
+    "approvedRecommendations": [
+      {
+        "slug": "french-dip-sandwiches",
+        "field": "origin",
+        "before": "United States",
+        "after": null,
+        "rationale": "The exact saved family recipe has no country-origin field, named publisher or source URL. The later bulk metadata pass added United States without evidence for this particular recipe. Preserve the American cuisine style tag; country omission does not claim a contrary geographical origin.",
+        "evidence": {
+          "firstGit": "b244f4b2",
+          "originAddedCommit": "2a7f38534f68f09454b2c68637139fd966b5584f",
+          "exactPriorCandidateSha256": "dbfa8687b318fe8ac6a72666d45b8e732826eae435ec531f6b74ad95c3bbe441",
+          "actualHistory": "Complete retained actual Git path history; no new research"
+        },
+        "confidence": "High that retained evidence does not establish recipe-specific geographical origin; no contrary origin assertion.",
+        "questions": ["Future origin metadata needs explicit recipe-specific provenance."],
+        "rootAuthorization": "Root accepted omission only after independent bounded assessment; preserve American style and every other culinary field."
+      }
+    ],
+    "independentSelfAcceptance": false,
+    "rootFinalAcceptance": "pending",
+    "chronology": "Subsequent root-authorized bounded correction application after independent metadata assessment; not final independent acceptance"
+  },
+  "yieldPlanning": null,
+  "geographicOrigin": null,
+  "cuisineStyle": ["American"],
+  "acceptedSourceSha256": "2dee3b0231673601f4bef2623b06004d08afd0c24b0cc0c3aaafaf67a759fd16",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/slow-cooker-independent.md",
+  "integrationInputCommit": "782d2a6f58e293ca7d099405bb15eb753fd95e42",
+  "rootWholeInspection": "Whole exact saved Git sources and complete cooking histories, current and proposed recipes, primary publishers and source disagreements, full ingredient/variant ledgers, ratios/yield/capacity, prepared state, heat/endpoints/rest, active and elapsed planning time, dairy finish, storage/scaling and actual incoming meal references inspected. All six final field/body deltas and twelve independent/prior byte reconstructions verified.",
+  "rootPrimaryRecheck": {
+    "date": "2026-10-05",
+    "slowCooker": "Direct complete USDA government PDF read: fully thawed meat/poultry, prompt cooking, actual meat-size/liquid instructions, LOW permitted, lid closed, reheat outside cooker to165°F before hot holding at least140°F. No arbitrary liquid or model fill band imported.",
+    "publishers": "Direct primary Korean, Mongolian, Pork, Wild Rice and Lentil pages read; source disagreements disclosed in each record. French Dip has exact family Git evidence but no established publisher or native archive lineage.",
+    "lentilYield": "Publisher calls six side-sized portions or three large bowls while classifying Main Dish. Existing authored yield six portions/role main preserved; exact serving prose now states small original-batch portions, unmeasured volume and fewer larger bowls.",
+    "leftovers": "USDA primary indexed guidance and retained government PDF support shallow cooling,2h/1h,40°F,3–4days,165°F outside cooker. USDA liquid rolling-boil recommendation kept brief; texture/concentration caveat is culinary inference, not tested safety equivalence.",
+    "model": "Actual appliance unknown. Example manufacturer model does not establish household fill limits or approve its older frozen-meat suggestion.",
+    "nutrition": "No calculation established for French/Korean/Lentil legacy fields; removed unsupported values without replacing them or changing richness."
+  }
+}
+```
+
+## Local integrated validation
+
+All252 tests,31 authored formula checks,643-recipe validation and30 aggregate QA checks pass. Six targeted lints have zero errors and three existing missing-pairing warnings. All three exports match643 sources; private bindings, public privacy and11,880 built anchors pass. All six rendered pages match their exact builds;282 scaled ingredient displays,18 yield displays and375-pixel mobile layouts pass. On all six, ingredient/step checkmarks survive reload and reentry; reset/exit pass. Print buttons are enabled with unchanged shared styles; preview unverified. [Preservation and validation evidence](../editorial-campaign/2026-10-05/slow-six-preservation.json). No kitchen test or native-app sync. Exact production verification remains pending.

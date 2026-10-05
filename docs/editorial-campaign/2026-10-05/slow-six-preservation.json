@@ -1,0 +1,101 @@
+{
+  "inputCommit": "782d2a6f58e293ca7d099405bb15eb753fd95e42",
+  "changed": 6,
+  "unchanged": 637,
+  "all643Protected": true,
+  "acceptedHashesMatch": true,
+  "exactPairedFieldBody": true,
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "status": "accepted and locally validated; implementation and production pending",
+  "recipes": [
+    {
+      "slug": "french-dip-sandwiches",
+      "acceptedSourceSha256": "2dee3b0231673601f4bef2623b06004d08afd0c24b0cc0c3aaafaf67a759fd16",
+      "remainingQuestions": [
+        "Identify actual cooker model/load and original3lb roast fit.",
+        "Check preferred roll size, cheese slices and six-portion estimate; assess jus salinity without reducing soy formula."
+      ]
+    },
+    {
+      "slug": "slow-cooker-korean-beef",
+      "acceptedSourceSha256": "a1f5e0f29dc917c62aee89eaa321b6cf98ec3b37b8a4b4e39686d71a489cd90b",
+      "remainingQuestions": [
+        "Check actual6qt cooker fill and tenderness on both routes.",
+        "Assess restored white-pepper/onion-powder balance and desired family Sriracha choice without reducing the base formula.",
+        "Time slurry recovery/thickening and separately prepared rice."
+      ]
+    },
+    {
+      "slug": "slow-cooker-mongolian-beef",
+      "acceptedSourceSha256": "533d2493e829d15183881b8446cb8ef63b7ba168cd6b246084c1514ff68c9656",
+      "remainingQuestions": [
+        "Check actual cooker minimum fill for the1½lb batch.",
+        "Assess slice thickness and preferred tenderness against both routes."
+      ]
+    },
+    {
+      "slug": "orange-and-paprika-pulled-pork",
+      "acceptedSourceSha256": "f2421d8a988b8dad6ac509e7173cc236897fb3d9b7542bf62577b80a052cb11a",
+      "remainingQuestions": [
+        "Identify actual cooker model, whole-roast size and bone status.",
+        "Check original eight portions and natural orange juice variation without inventing fluid ounces."
+      ]
+    },
+    {
+      "slug": "creamy-slow-cooker-chicken-and-wild-rice-soup",
+      "acceptedSourceSha256": "63467c211422795c55aa5f305d69ecef8dc174b7dc15ad697803b20c8fa871f3",
+      "remainingQuestions": [
+        "Confirm actual dry rice product/species/processing against long slow-cooker route; test texture and finish time.",
+        "Check6qt fill after all mushrooms and2cups dairy and actual finished yield.",
+        "Time milk sauce heating and final soup heat-up; check chicken thickness."
+      ]
+    },
+    {
+      "slug": "slow-cooker-vegetarian-lentil-tortilla-soup",
+      "acceptedSourceSha256": "be5312008b381dbfb924858e0b67e086406911add13ae1ec5df085a240dbc68d",
+      "remainingQuestions": [
+        "Check actual cooker size/fill with restored full vegetable base.",
+        "Assess preferred optional¼ versus½cup cream and cream-cheese amount; no equivalent quantity established.",
+        "Kitchen-check lentil tenderness and claimed six portions; serving size/yield not measured.",
+        "Confirm the household wants historical electric-pressure cooker route reintroduced separately before authoring a model-specific variant."
+      ]
+    }
+  ],
+  "validation": {
+    "tests": 252,
+    "targetedLint": "6 pass; zero errors, three pre-existing missing-pairing warnings. No invented pairings added.",
+    "recipeSources": 643,
+    "authoredFormulas": 31,
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 11880,
+    "missingDestinations": 0,
+    "exportParity": "All three exports match643 current sources",
+    "privateBindings": "643 complete bindings verified; no identity regeneration",
+    "privacy": "Final published-assets and public-evidence check passed",
+    "renderedRecipes": 6,
+    "visibleMethodSteps": 32,
+    "scaledIngredientDisplays": 282,
+    "scaledYieldDisplays": 18,
+    "scaleFactors": [0.5, 2, 1],
+    "mobileWidth": 375,
+    "noOverflow": true,
+    "cooking": "All six ingredient and step checkmarks persist after reload/reentry; normal mode on reload; reset and exit pass",
+    "print": "All buttons enabled, shared styles unchanged; print preview unverified",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  },
+  "priorIndependentSourceReconstructions": 12,
+  "rootValidationCorrection": {
+    "sourceBeforeSha256": "5c2d7c74dd8cf8e24dde43c838b5e79a45bc30fbdc0c3c92db1883667c90a436",
+    "sourceAfterSha256": "63467c211422795c55aa5f305d69ecef8dc174b7dc15ad697803b20c8fa871f3",
+    "independentChallengeSha256": "49253b3db9518e9bdc26046e8c8a42a88ebf2c7c36c71972b7280cf2d611a7be",
+    "acceptedTestBeforeFormatSha256": "b16ad86d1b20fc02357b451576ec1c1790b67cde79d2f2015881243b4aacb9ba",
+    "finalFormattedTestSha256": "1a5123619ea40efc118ec1e83e3f977cb0d77dbd56a559e2a1395c0e1383a8cf",
+    "formattedInsertionReverseByteExact": true,
+    "original73ParserFixturesPreserved": true,
+    "safetyCheckerUnchanged": true
+  },
+  "productionVerification": "pending"
+}

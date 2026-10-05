@@ -158,6 +158,13 @@
       "creamy-spinach-lemon-chicken-dinnner",
       "sheet-pan-pesto-chicken-meal-prep-bowls",
       "spatchcocked-roast-chicken"
+    ],
+    "pork_tenderloin_mains_01": [
+      "rosemary-pork-tenderloin",
+      "herb-marinated-pork-tenderloins",
+      "balsamic-peach-pork",
+      "grilled-pork-and-peaches",
+      "chipotle-pork-and-sweet-corn-tamale-bowls"
     ]
   },
   "recipes": [
@@ -443,8 +450,8 @@
       "title": "Balsamic Peach Pork Chops",
       "source": "Adapted from halfbakedharvest.com",
       "sourceUrl": "https://www.halfbakedharvest.com/skillet-balsamic-peach-pork-chops/",
-      "group": null,
-      "status": "queued",
+      "group": "pork_tenderloin_mains_01",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -570,9 +577,12 @@
       "title": "Beef Pad See Ew",
       "source": "thewoksoflife.com",
       "sourceUrl": "https://thewoksoflife.com/pad-see-ew/",
-      "group": null,
-      "status": "queued",
-      "reviewEvidence": ["docs/reviews/beef-pad-see-ew.md"],
+      "group": "noodle_pan_mains_02",
+      "status": "proposed",
+      "reviewEvidence": [
+        "docs/reviews/beef-pad-see-ew.md",
+        "private whole-recipe noodle_pan_mains_02 proposal/record; independent/root gate pending"
+      ],
       "automatedFlags": ["teaching-review-needed"],
       "remainingQuestions": [
         "Complete editorial review pending; automated absence of flags is not approval.",
@@ -605,9 +615,12 @@
       "title": "Beef with Snow Peas",
       "source": "foodnetwork.com",
       "sourceUrl": "https://www.foodnetwork.com/recipes/ree-drummond/beef-with-snow-peas-recipe-3381538",
-      "group": null,
-      "status": "queued",
-      "reviewEvidence": ["docs/reviews/beef-with-snow-peas.md"],
+      "group": "noodle_pan_mains_02",
+      "status": "proposed",
+      "reviewEvidence": [
+        "docs/reviews/beef-with-snow-peas.md",
+        "private whole-recipe noodle_pan_mains_02 proposal/record; independent/root gate pending"
+      ],
       "automatedFlags": ["teaching-review-needed"],
       "remainingQuestions": [
         "Complete editorial review pending; automated absence of flags is not approval.",
@@ -810,13 +823,12 @@
       "title": "Peking Ravioli",
       "source": null,
       "sourceUrl": null,
-      "group": null,
-      "status": "queued",
-      "reviewEvidence": [],
+      "group": "dumplings_wonton_mains_01",
+      "status": "held",
+      "reviewEvidence": ["private author assignment; independent/root gate pending"],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Whole hold: saved first source does not resolve cabbage salting versus listed filling salt, cabbage before/after drain, pan oil/water or missing sauce method. Existing questionable claims are not approved."
       ],
       "inputSha256": "1ebf696c5b96559f90bc5c2e13b395107aec4a4ee1ef56e95129b7dcb9e82a59",
       "plannedBatch": "stir-fry-and-pan-cooking-01"
@@ -1141,16 +1153,16 @@
       "title": "Cantonese Shrimp and Pork Wontons",
       "source": null,
       "sourceUrl": null,
-      "group": null,
-      "status": "queued",
+      "group": "dumplings_wonton_mains_01",
+      "status": "proposed",
       "reviewEvidence": [
         "docs/reviews/cantonese-shrimp-and-pork-wontons.md",
-        "docs/repairs/2026-09-15/changed-files.json"
+        "docs/repairs/2026-09-15/changed-files.json",
+        "private author assignment; independent/root gate pending"
       ],
       "automatedFlags": ["teaching-review-needed"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Whole author draft frozen; independent and complete root acceptance pending, including native formula restorations and applicable wrapper/goji preparation."
       ],
       "inputSha256": "3e5e4efe0dc011d11757e737e8768fdee3496d22ae0c6af64b00b1d78e8bbd0c",
       "plannedBatch": "stir-fry-and-pan-cooking-01"
@@ -1161,13 +1173,12 @@
       "title": "Shumai",
       "source": "Adapted from healthynibblesandbits.com",
       "sourceUrl": "https://healthynibblesandbits.com/cantonese-shumai-siu-mai/",
-      "group": null,
-      "status": "queued",
-      "reviewEvidence": [],
+      "group": "dumplings_wonton_mains_01",
+      "status": "proposed",
+      "reviewEvidence": ["private author assignment; independent/root gate pending"],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Whole author draft frozen; independent and complete root acceptance pending, including native formula restorations and applicable wrapper/goji preparation."
       ],
       "inputSha256": "48d3cf84fe4bb051a9820dc386ad78c8d724c9f22a172064b7c2f1ac6cbed728",
       "plannedBatch": "simmer-boil-and-steam-01"
@@ -1657,8 +1668,8 @@
       "title": "Chipotle Pork Bowls",
       "source": null,
       "sourceUrl": null,
-      "group": null,
-      "status": "queued",
+      "group": "pork_tenderloin_mains_01",
+      "status": "assigned",
       "reviewEvidence": ["docs/repairs/2026-09-15/changed-files.json"],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -2030,13 +2041,12 @@
       "title": "Classic Wonton Soup",
       "source": "Adapted from redhousespice.com",
       "sourceUrl": "https://redhousespice.com/pork-wonton-soup/",
-      "group": null,
-      "status": "queued",
-      "reviewEvidence": [],
+      "group": "dumplings_wonton_mains_01",
+      "status": "proposed",
+      "reviewEvidence": ["private author assignment; independent/root gate pending"],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Whole author draft frozen; independent and complete root acceptance pending, including native formula restorations and applicable wrapper/goji preparation."
       ],
       "inputSha256": "125718be0ab2d30493c160d80fb33411a90c7b688b9c93957cbd34d52cf53d5a",
       "plannedBatch": "simmer-boil-and-steam-02"
@@ -2064,13 +2074,12 @@
       "title": "Corn-Shrimp Dumplings",
       "source": "Adapted from Foodandwine.com",
       "sourceUrl": "http://www.foodandwine.com/recipes/corn-shrimp-dumplings",
-      "group": null,
-      "status": "queued",
-      "reviewEvidence": [],
+      "group": "dumplings_wonton_mains_01",
+      "status": "proposed",
+      "reviewEvidence": ["private author assignment; independent/root gate pending"],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Whole author draft frozen; independent and complete root acceptance pending, including native formula restorations and applicable wrapper/goji preparation."
       ],
       "inputSha256": "b601d0362bad4b754dcabbf439ac99d3dfeb986ea4247dd95c600025ab1ce05a",
       "plannedBatch": "simmer-boil-and-steam-03"
@@ -2171,17 +2180,23 @@
       "source": "Damndelicious.net",
       "sourceUrl": "http://damndelicious.net/2016/12/09/slow-cooker-chicken-wild-rice-soup/",
       "group": "slow_cooker_mains_01",
-      "status": "proposed",
-      "reviewEvidence": ["docs/reviews/creamy-slow-cooker-chicken-and-wild-rice-soup.md"],
-      "automatedFlags": ["teaching-review-needed"],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/creamy-slow-cooker-chicken-and-wild-rice-soup.md",
+        "docs/editorial-campaign/2026-10-05/slow-cooker-independent.md"
+      ],
+      "automatedFlags": [],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Confirm actual dry rice product/species/processing against long slow-cooker route; test texture and finish time.",
+        "Check6qt fill after all mushrooms and2cups dairy and actual finished yield.",
+        "Time milk sauce heating and final soup heat-up; check chicken thickness."
       ],
       "inputSha256": "6cbc939be748bea310e3ce900a8b6ef0a34e065e0c6ea4377658543e5b96977b",
       "plannedBatch": "braises-and-slow-cooking-01",
       "proposedSourceSha256": "7c84318eb5d486d75f2ed3f87a983ba87d6f3ee8d2c9dd864888e0915bb36c21",
-      "reviewPhase": "independent challenge in progress; root acceptance pending"
+      "reviewPhase": "independent challenge in progress; root acceptance pending",
+      "acceptedSourceSha256": "63467c211422795c55aa5f305d69ecef8dc174b7dc15ad697803b20c8fa871f3",
+      "productionVerification": "pending"
     },
     {
       "slug": "creamy-spinach-lemon-chicken-dinnner",
@@ -2406,9 +2421,11 @@
       "title": "Cu Chao Mian (Shanghai Fried Noodles)",
       "source": "Adapted from thewoksoflife.com",
       "sourceUrl": "https://thewoksoflife.com/shanghai-fried-noodles/",
-      "group": null,
-      "status": "queued",
-      "reviewEvidence": [],
+      "group": "noodle_pan_mains_02",
+      "status": "proposed",
+      "reviewEvidence": [
+        "private whole-recipe noodle_pan_mains_02 proposal/record; independent/root gate pending"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
         "Complete editorial review pending; automated absence of flags is not approval.",
@@ -2503,9 +2520,11 @@
       "title": "Dan Dan Noodles",
       "source": null,
       "sourceUrl": null,
-      "group": null,
-      "status": "queued",
-      "reviewEvidence": [],
+      "group": "noodle_pan_mains_02",
+      "status": "held",
+      "reviewEvidence": [
+        "private whole-recipe noodle_pan_mains_02 proposal/record; independent/root gate pending"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
         "Complete editorial review pending; automated absence of flags is not approval.",
@@ -2557,9 +2576,12 @@
       "title": "Doc Chey’s Chicken Lo Mein",
       "source": "ajc.com",
       "sourceUrl": "https://www.ajc.com/lifestyles/food--cooking/lomein-dish-can-made-from-ingredients-hand/nm6EiZJQkRfSmBI9T8PUUK/",
-      "group": null,
-      "status": "queued",
-      "reviewEvidence": ["docs/reviews/doc-cheys-chicken-lo-mein.md"],
+      "group": "noodle_pan_mains_02",
+      "status": "proposed",
+      "reviewEvidence": [
+        "docs/reviews/doc-cheys-chicken-lo-mein.md",
+        "private whole-recipe noodle_pan_mains_02 proposal/record; independent/root gate pending"
+      ],
       "automatedFlags": ["teaching-review-needed"],
       "remainingQuestions": [
         "Complete editorial review pending; automated absence of flags is not approval.",
@@ -3038,17 +3060,22 @@
       "source": null,
       "sourceUrl": null,
       "group": "slow_cooker_mains_01",
-      "status": "proposed",
-      "reviewEvidence": [],
-      "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/french-dip-sandwiches.md",
+        "docs/editorial-campaign/2026-10-05/slow-cooker-independent.md"
+      ],
+      "automatedFlags": [],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Identify actual cooker model/load and original3lb roast fit.",
+        "Check preferred roll size, cheese slices and six-portion estimate; assess jus salinity without reducing soy formula."
       ],
       "inputSha256": "4a865aec0d173b2adabcbf3fd59c9624637e5fd62cc0c806a18053c483c33f89",
       "plannedBatch": "braises-and-slow-cooking-01",
       "proposedSourceSha256": "eb49dd4b854ea1aa15b8327c33626e2913c9eae5ade8715f8ee69096c75a5843",
-      "reviewPhase": "independent challenge in progress; root acceptance pending"
+      "reviewPhase": "independent challenge in progress; root acceptance pending",
+      "acceptedSourceSha256": "2dee3b0231673601f4bef2623b06004d08afd0c24b0cc0c3aaafaf67a759fd16",
+      "productionVerification": "pending"
     },
     {
       "slug": "french-toast",
@@ -3634,8 +3661,8 @@
       "title": "Pork and Peaches",
       "source": "Adapted from cooking.nytimes.com",
       "sourceUrl": "https://cooking.nytimes.com/recipes/12690-grilled-pork-and-peaches",
-      "group": null,
-      "status": "queued",
+      "group": "pork_tenderloin_mains_01",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -3842,8 +3869,8 @@
       "title": "Herb Pork Tenderloin",
       "source": "Adapted from foodnetwork.com",
       "sourceUrl": "https://www.foodnetwork.com/recipes/ina-garten/herb-marinated-pork-tenderloins-recipe-1948375",
-      "group": null,
-      "status": "queued",
+      "group": "pork_tenderloin_mains_01",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -5058,17 +5085,22 @@
       "source": "downshiftology.com",
       "sourceUrl": "https://downshiftology.com/recipes/slow-cooker-pulled-pork/",
       "group": "slow_cooker_mains_01",
-      "status": "proposed",
-      "reviewEvidence": ["docs/reviews/orange-and-paprika-pulled-pork.md"],
-      "automatedFlags": ["teaching-review-needed"],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/orange-and-paprika-pulled-pork.md",
+        "docs/editorial-campaign/2026-10-05/slow-cooker-independent.md"
+      ],
+      "automatedFlags": [],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Identify actual cooker model, whole-roast size and bone status.",
+        "Check original eight portions and natural orange juice variation without inventing fluid ounces."
       ],
       "inputSha256": "afebe731380cd8f7935697e81607ce62956cc22ef77804135ed81fbc602564ad",
       "plannedBatch": "braises-and-slow-cooking-02",
       "proposedSourceSha256": "542520d0b452b87b4102163d372502e6c089e37c67ef675b4da7d4ef8d35ebb2",
-      "reviewPhase": "independent challenge in progress; root acceptance pending"
+      "reviewPhase": "independent challenge in progress; root acceptance pending",
+      "acceptedSourceSha256": "f2421d8a988b8dad6ac509e7173cc236897fb3d9b7542bf62577b80a052cb11a",
+      "productionVerification": "pending"
     },
     {
       "slug": "overnight-oats",
@@ -5989,8 +6021,8 @@
       "title": "Pork Tenderloin",
       "source": "Adapted from Foodnetwork.com",
       "sourceUrl": "https://www.foodnetwork.com/recipes/claire-robinson/rosemary-pork-tenderloin-recipe-1917514",
-      "group": null,
-      "status": "queued",
+      "group": "pork_tenderloin_mains_01",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -6503,13 +6535,15 @@
       "title": "Shrimp Wonton Soup",
       "source": "Adapted from Chinasichuanfood.com",
       "sourceUrl": "http://www.chinasichuanfood.com/chinese-shrimp-wonton-soup/",
-      "group": null,
-      "status": "queued",
-      "reviewEvidence": ["docs/repairs/2026-09-15/changed-files.json"],
+      "group": "dumplings_wonton_mains_01",
+      "status": "proposed",
+      "reviewEvidence": [
+        "docs/repairs/2026-09-15/changed-files.json",
+        "private author assignment; independent/root gate pending"
+      ],
       "automatedFlags": ["teaching-review-needed"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Whole author draft frozen; independent and complete root acceptance pending, including native formula restorations and applicable wrapper/goji preparation."
       ],
       "inputSha256": "78e68d27d77ffa23764e341e3c85a3addd9aff2717021b964c37f520c2d5a815",
       "plannedBatch": "simmer-boil-and-steam-09"
@@ -6617,17 +6651,24 @@
       "source": "Adapted from damndelicious.net",
       "sourceUrl": "https://damndelicious.net/2015/02/21/slow-cooker-korean-beef/",
       "group": "slow_cooker_mains_01",
-      "status": "proposed",
-      "reviewEvidence": ["docs/repairs/2026-09-15/changed-files.json"],
-      "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/repairs/2026-09-15/changed-files.json",
+        "docs/reviews/slow-cooker-korean-beef.md",
+        "docs/editorial-campaign/2026-10-05/slow-cooker-independent.md"
+      ],
+      "automatedFlags": [],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Check actual6qt cooker fill and tenderness on both routes.",
+        "Assess restored white-pepper/onion-powder balance and desired family Sriracha choice without reducing the base formula.",
+        "Time slurry recovery/thickening and separately prepared rice."
       ],
       "inputSha256": "9d78c4d06a19e593a88bf84def32eedd394e901bc705b72a24c51373c6fc6586",
       "plannedBatch": "braises-and-slow-cooking-03",
       "proposedSourceSha256": "90ea5a5bc3ab1756316a0bd0695176b4404de4c3ed62daf4c32fe22c8a415fd1",
-      "reviewPhase": "independent challenge in progress; root acceptance pending"
+      "reviewPhase": "independent challenge in progress; root acceptance pending",
+      "acceptedSourceSha256": "a1f5e0f29dc917c62aee89eaa321b6cf98ec3b37b8a4b4e39686d71a489cd90b",
+      "productionVerification": "pending"
     },
     {
       "slug": "slow-cooker-mongolian-beef",
@@ -6636,17 +6677,22 @@
       "source": "dinneratthezoo.com",
       "sourceUrl": "https://www.dinneratthezoo.com/slow-cooker-mongolian-beef/",
       "group": "slow_cooker_mains_01",
-      "status": "proposed",
-      "reviewEvidence": ["docs/reviews/slow-cooker-mongolian-beef.md"],
-      "automatedFlags": ["teaching-review-needed"],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/slow-cooker-mongolian-beef.md",
+        "docs/editorial-campaign/2026-10-05/slow-cooker-independent.md"
+      ],
+      "automatedFlags": [],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Check actual cooker minimum fill for the1½lb batch.",
+        "Assess slice thickness and preferred tenderness against both routes."
       ],
       "inputSha256": "f1f52affe8e70bc8c29126fe0fc5e6b4518fdb6db6b398d09c63afb2556d3e6a",
       "plannedBatch": "braises-and-slow-cooking-03",
       "proposedSourceSha256": "c6dd34d81ebcf5b9ce01e9fd23efe80b7c593254b6011938256e689c6c4e2a19",
-      "reviewPhase": "independent challenge in progress; root acceptance pending"
+      "reviewPhase": "independent challenge in progress; root acceptance pending",
+      "acceptedSourceSha256": "533d2493e829d15183881b8446cb8ef63b7ba168cd6b246084c1514ff68c9656",
+      "productionVerification": "pending"
     },
     {
       "slug": "slow-cooker-vegetarian-lentil-tortilla-soup",
@@ -6655,17 +6701,24 @@
       "source": "Adapted from Peasandcrayons.com",
       "sourceUrl": "https://peasandcrayons.com/2017/02/vegetarian-lentil-tortilla-soup.html",
       "group": "slow_cooker_mains_01",
-      "status": "proposed",
-      "reviewEvidence": [],
-      "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/slow-cooker-vegetarian-lentil-tortilla-soup.md",
+        "docs/editorial-campaign/2026-10-05/slow-cooker-independent.md"
+      ],
+      "automatedFlags": [],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Check actual cooker size/fill with restored full vegetable base.",
+        "Assess preferred optional¼ versus½cup cream and cream-cheese amount; no equivalent quantity established.",
+        "Kitchen-check lentil tenderness and claimed six portions; serving size/yield not measured.",
+        "Confirm the household wants historical electric-pressure cooker route reintroduced separately before authoring a model-specific variant."
       ],
       "inputSha256": "6a85d0d96130c5e8b33a0d0b09aba4ba1d3f4584cca1341e2e115a711f3f2ae4",
       "plannedBatch": "braises-and-slow-cooking-03",
       "proposedSourceSha256": "e1487e571693f0a9c8d85d65bf9d436d1e4375989f36dfb61fdeccbe39ad89a3",
-      "reviewPhase": "independent challenge in progress; root acceptance pending"
+      "reviewPhase": "independent challenge in progress; root acceptance pending",
+      "acceptedSourceSha256": "be5312008b381dbfb924858e0b67e086406911add13ae1ec5df085a240dbc68d",
+      "productionVerification": "pending"
     },
     {
       "slug": "smoked-salmon-toast",
@@ -8600,11 +8653,12 @@
   ],
   "routingLimitations": "Provisional routing uses current metadata to reduce coordination work. Reviewer must confirm actual process from complete recipe before starting; tags never establish method applicability or a recipe defect.",
   "statusCounts": {
-    "assigned": 11,
-    "held": 7,
+    "accepted": 6,
+    "assigned": 16,
+    "held": 9,
     "held-awaiting-evidence": 2,
     "production-verified": 42,
-    "proposed": 53,
-    "queued": 294
+    "proposed": 56,
+    "queued": 278
   }
 }

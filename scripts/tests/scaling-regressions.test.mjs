@@ -67,6 +67,23 @@ for (const row of confirmed) {
               ]
         );
         assert(!data.ingredients.includes(component.input));
+      } else if (row.slug === 'slow-cooker-vegetarian-lentil-tortilla-soup' && row.caseId === 60) {
+        // Keep the original compound parser input and all numeric oracles below.
+        // The reviewed formula now names both fixed-size cans separately.
+        assert.equal(data.formula?.version, 1);
+        for (const id of ['black', 'pinto']) {
+          const ingredient = data.formula.components
+            .flatMap((c) => c.ingredients)
+            .find((i) => i.id === id);
+          assert.deepEqual(ingredient.quantity, { amount: 1, unit: 'can' });
+          assert.deepEqual(ingredient.packageSize, { amount: 15, unit: 'oz' });
+          assert.deepEqual(ingredient.uses, [{ step: 'combine', share: 1 }]);
+          for (const factor of factors) {
+            const scaled = formatFormulaIngredient(ingredient, factor);
+            const numbers = [...scaled.matchAll(number)].map((m) => numeric(m[0]));
+            assert.deepEqual(numbers, [factor, 15], 'can count scales; package ounces stay fixed');
+          }
+        }
       } else if (row.slug === 'yellow-cake-with-chocolate-frosting' && row.caseId === 78) {
         // Preserve the compound parser regression while checking its authored split.
         assert.equal(data.formula?.version, 1);

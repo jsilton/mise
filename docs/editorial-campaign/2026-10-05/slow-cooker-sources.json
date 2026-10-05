@@ -1,0 +1,94 @@
+{
+  "group": "slow_cooker_mains_01",
+  "date": "2026-10-05",
+  "scope": "Shared applicability from the completed independent review and author primary packet; exact Git proves recipe lineage. No new publisher/native/kitchen certification.",
+  "sources": [
+    {
+      "key": "slow-cooker",
+      "title": "USDA — Slow cookers and food safety",
+      "url": "https://www.govinfo.gov/content/pkg/GOVPUB-A110-PURL-gpo30229/pdf/GOVPUB-A110-PURL-gpo30229.pdf",
+      "supports": "Fully thawed refrigerated meat/poultry, prompt cooking, actual appliance meat-size instructions, lid control, permissible LOW cooking, outside-cooker reheating to 165°F before holding at 140°F.",
+      "limits": "Does not certify recipe ratios, universal fill percentages, household cooker identity, elapsed times, final yield or raw bean substitutions."
+    },
+    {
+      "key": "manual",
+      "title": "Crock-Pot — SCVCS603S operating manual example",
+      "url": "https://www.crock-pot.ca/on/demandware.static/-/Sites-crock-pot-ca-Library/default/dw9e26d449/documents/instruction-manuals/SCVCS603S-033_EN.pdf",
+      "supports": "This particular model gives a half-to-three-quarter fill band and operating/holding instructions; its permitted minimum and maximum are model-specific examples.",
+      "limits": "The household model is unknown. Follow its actual minimum/maximum, meat-size and liquid instructions; do not import the older frozen-meat suggestion or an arbitrary extra rice-liquid amount."
+    },
+    {
+      "key": "temperatures",
+      "title": "FoodSafety.gov — Safe minimum internal temperatures",
+      "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures",
+      "supports": "Chicken 165°F; beef/pork 145°F with three-minute rest; leftovers of any type 165°F.",
+      "limits": "Tender chuck/shoulder may need substantially more cooking. No fixed slow-cooker clock, uniform tenderness or zero-risk guarantee follows."
+    },
+    {
+      "key": "leftovers",
+      "title": "USDA — Leftovers and food safety",
+      "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety",
+      "supports": "Prompt shallow cooling/refrigeration, 40°F refrigerator, 2-hour limit or 1 hour above 90°F, 3–4-day handling range, measured 165°F throughout; separately recommends a rolling boil for reheated soups, sauces and gravies.",
+      "limits": "165°F is a supported endpoint, not declared inaccurate. Additional liquid-specific guidance does not prescribe first-cook boiling, prolonged reduction, dilution, fat reduction, a new duration or unchanged dairy/starch texture. Direct FSIS fetch returned 403 during the prior review; official indexed passage was recovered."
+    },
+    {
+      "key": "food-code-context",
+      "title": "FDA — Food Code 2022, §§3-403.10–.11",
+      "url": "https://www.fda.gov/media/164194/download",
+      "supports": "Distinguishes food-service immediate service from reheating for hot holding, with separate time/temperature and microwave provisions.",
+      "limits": "Comparison evidence only. Its food-service scope is not prescribed to household cooks; no 15-second public household rule was added."
+    }
+  ],
+  "individualPublisherApplicability": {
+    "slow-cooker-korean-beef": {
+      "title": "Chungah Rhee — Slow cooker Korean beef",
+      "url": "https://damndelicious.net/2015/02/21/slow-cooker-korean-beef/",
+      "supports": "Corroborates the exact saved spice/seed and slurry allocations, both heat routes and covered HIGH finish.",
+      "limits": "Omission lineage comes from actual Git diffs; publisher timing/serving claims remain planning rather than a kitchen or household-intent certification."
+    },
+    "slow-cooker-mongolian-beef": {
+      "title": "Sara Welch — Slow cooker Mongolian beef",
+      "url": "https://www.dinneratthezoo.com/slow-cooker-mongolian-beef/",
+      "supports": "Corroborates thin against-grain flank, full coating/sauce ingredients and both saved heat routes.",
+      "limits": "No chuck substitution, extra slurry, forced sear or measured yield is inferred."
+    },
+    "orange-and-paprika-pulled-pork": {
+      "title": "Lisa Bryan — Slow cooker pulled pork",
+      "url": "https://downshiftology.com/recipes/slow-cooker-pulled-pork/",
+      "supports": "Corroborates the shoulder, orange/spice formula and LOW route.",
+      "limits": "Publisher 4–5-day refrigeration differs from the adopted USDA 3–4-day handling guidance. No fixed orange-juice volume, HIGH conversion or finished-yield measurement."
+    },
+    "creamy-slow-cooker-chicken-and-wild-rice-soup": {
+      "title": "Chungah Rhee — Chicken and wild rice soup",
+      "url": "https://damndelicious.net/2016/12/09/slow-cooker-chicken-wild-rice-soup/",
+      "supports": "Corroborates separate roux/dairy finishing, late mushrooms and full soup ingredients.",
+      "limits": "Ingredient wording says wild rice while its product link points to a brown/wild blend. Keep exact saved dry-wild-rice identity with product-dependent timing; publisher eight servings does not replace saved unrecorded yield."
+    },
+    "slow-cooker-vegetarian-lentil-tortilla-soup": {
+      "title": "Jenn Laughlin — Vegetarian lentil tortilla soup",
+      "url": "https://peasandcrayons.com/vegetarian-lentil-tortilla-soup/",
+      "supports": "Corroborates full vegetable/oil/spice base, distinct canned beans, optional cream and toppings, and saved LOW/HIGH routes.",
+      "limits": "No native lineage, six-cup finished yield, equal-dose dairy conversion or model-specific pressure schedule is certified. A later cream-cheese comment is not a household amount."
+    }
+  },
+  "sourceLimits": {
+    "nativeLineage": false,
+    "actualCookerModelUnknown": true,
+    "planningYieldNotMeasured": true,
+    "lentilPressureRoute": "held, exact first-Git archive only"
+  },
+  "reheatingDistinction": {
+    "quote": "Reheat sauces, soups and gravies by bringing them to a rolling boil.",
+    "supportedMeasuredEndpoint": "165°F throughout",
+    "additionalRecommendation": "Recipe-specific liquid reheating; brief boil with possible texture/concentration changes. No first-cook boiling, prolonged reduction, dilution or fat reduction.",
+    "foodCodeScope": "Comparison evidence only, not prescribed household food-service rules."
+  },
+  "rootMetadataAppendix": {
+    "countries": "Korea/Mexico/United States omitted without recipe-specific origin evidence; Korean/Mexican/American cuisine style tags remain.",
+    "lentilYield": "Publisher six side-sized/three large bowls supports small planning portions. Existing formula6portion/role main retained; no measured six-cup yield or compiler extension.",
+    "publisher": "https://peasandcrayons.com/vegetarian-lentil-tortilla-soup/",
+    "independentSelfAcceptance": false,
+    "rootFinalAcceptance": "pending"
+  },
+  "rootRecheck": "Root directly rechecked complete USDA government PDF, actual publisher disagreements and meaningful actual cooking history; exact Git originals recomputed. Source applicability and unestablished native lineage remain explicit. No physical kitchen tests or model approval."
+}
