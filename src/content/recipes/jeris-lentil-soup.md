@@ -31,8 +31,8 @@ cuisines:
 role: main
 vibe: nutritious
 prepTime: 15 min
-cookTime: 5 hr
-totalTime: 5.5 hr
+cookTime: 5 hr 40 min
+totalTime: 5 hr 55 min
 servings: 12 cups
 pairsWith:
   - roasted-fall-harvest-salad
@@ -64,15 +64,17 @@ source: Adapted from Pat Miller
 
 ## Chef's Note
 
-This traditional recipe was a wedding gift from Pat Miller and Sean Kilpatrick, passed down from Jeri, a Broadway dancer turned nutritionist. Adding sherry vinegar at the end brightens earthy lentils - the acidity wakes up the palate. For creamier texture without dairy, pulse with an immersion blender a few times before serving, releasing lentil starch while keeping the carrot slices intact.
+This traditional recipe was a wedding gift from Pat Miller and Sean Kilpatrick, passed down from Jeri, a Broadway dancer turned nutritionist. Adding sherry vinegar at the end brightens earthy lentils - the acidity wakes up the palate. For creamier texture without dairy, pulse with an immersion blender a few times before serving, thickening the soup while leaving some lentils and vegetables whole. The blender will also break down any carrot slices it reaches.
 
 ## Directions
 
+Plan on roughly 6 hours including preparation, the initial sauté, 5 hours on LOW, and the final 30-minute cook. Lentil age and slow-cooker behavior can extend this; tenderness, not the timer alone, determines when to finish.
+
 1.  **Sauté:** Heat oil in a large skillet. Sauté onions and carrots with the Italian seasoning for 5-8 minutes until translucent.
 2.  **The Pot:** Transfer the vegetables to a slow cooker. Add the lentils, crushed tomatoes, and broth.
-3.  **Slow Cook:** Cook on **LOW** for 5 hours (or on high for 3 hours) until lentils are tender but not mushy.
+3.  **Slow Cook:** Cook on **LOW** for about 5 hours, until lentils are tender but not mushy. Test several lentils and extend the cooking if their centers are still hard.
 4.  **Infuse:** Stir in the white wine and parsley. Cook for another 30 minutes.
-5.  **Texture (Optional):** Use an immersion blender to pulse the soup a few times to create a thicker body.
+5.  **Texture (Optional):** Turn the cooker off. Following the blender’s hot-liquid instructions, pulse briefly with the blade guard submerged and stop the motor before lifting it out. Leave some lentils and vegetables whole.
 6.  **The Acid Balance:** Stir in the sherry vinegar or lemon juice. Season generously with salt and black pepper.
 
 ## Notes

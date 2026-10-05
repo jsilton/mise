@@ -1,7 +1,7 @@
 ---
 miseId: e78bb56b-3375-4d94-b8bb-8cdae41b3539
 title: Korean Spinach Salad (Sigeumchi Namul)
-difficulty: intermediate
+difficulty: easy
 cookingMethods:
   - boil
 dietary:
@@ -15,13 +15,7 @@ cuisines:
   - Korean
 role: side
 vibe: nutritious
-season:
-  - spring
-  - summer
-  - fall
-  - winter
 leftovers: good
-healthiness: light
 pairsWith:
   - bibimbap
   - kalbi-grilled-korean-style-short-ribs
@@ -29,41 +23,44 @@ pairsWith:
 prepTime: 5 min
 cookTime: 10 min
 totalTime: 15 min
-servings: '4'
+servings: 4 small side portions
 ingredients:
-  - 250g (0.5 lbs) Fresh English Spinach
-  - 1 tbsp Toasted Sesame Oil
-  - '1 tsp Scallion, finely chopped'
-  - '1/2 tsp Garlic, minced'
-  - 1/4 tsp Fine Sea Salt
-  - 1 tsp Toasted Sesame Seeds
+  - 250 g fresh spinach, roots trimmed and leaves washed
+  - 6 cups water, for blanching
+  - 1 tsp fine sea salt, for blanching water
+  - 1 tbsp toasted sesame oil
+  - 1 tsp scallion, finely chopped
+  - 1/2 tsp garlic, minced
+  - 1/4 tsp fine sea salt, for seasoning, added to taste
+  - 1 tsp toasted sesame seeds
 origin: Korea
 seasons:
   - year-round
 nutritionalDensity: moderate
-nutrition:
-  calories: 45
-  protein: 0.5
-  carbs: 1
-  fat: 4.5
-  fiber: 0.5
-  sugar: 0
-  sodium: 580
-source: Adapted from mykoreankitchen.com
-sourceUrl: >-
-  https://mykoreankitchen.com/simply-seasoned-korean-spinach-salad-sigeumchi-namul-version-1/
+source: Adapted from Sue Pressey, My Korean Kitchen
+sourceUrl: https://mykoreankitchen.com/simply-seasoned-korean-spinach-salad-sigeumchi-namul-version-1/
 ---
 
 ## Chef's Note
 
-The secret to authentic Korean spinach (sigeumchi namul) is precise blanching. Spinach is 90% water, so plunging it into boiling water for exactly 30 seconds and then into ice water locks in the vibrant green chlorophyll and provides a resilient texture. After chilling, gather the spinach and squeeze it until it forms a dry, dense ball before seasoning. The toasted sesame oil is essential for that savory Korean flavor.
+Sigeumchi namul is a simple spinach banchan. Cool the wilted leaves promptly, then remove excess water with a gentle squeeze. Separate the leaves before seasoning so the sesame oil and garlic reach the whole bowl without turning the spinach into a compressed ball.
 
 ## Directions
 
-1.  **Thermal Prep:** Bring a large pot of water to a boil with 1 tsp salt. Prepare an ice-water bath.
-2.  **Blanch:** Plunge washed spinach into boiling water. Cook for 30 seconds until just wilted.
-3.  **Shock:** Drain immediately and submerge in ice water for 2 minutes.
-4.  **The Squeeze:** Squeeze the spinach with your hands until **bone-dry**. No water should remain.
-5.  **Cut:** Cut the dry spinach ball into 2-inch sections.
-6.  **Bind:** In a large bowl, whisk sesame oil, garlic, salt, and scallions. Add the spinach and toss vigorously with your hands to separate the leaves.
-7.  **Finish:** Garnish with sesame seeds. Serve chilled or at room temperature.
+1. **Prepare:** Bring the measured water and blanching salt to a boil. Set out a colander and cold water for cooling.
+2. **Blanch:** Add washed spinach and stir it under the water. Start checking at 30 seconds; remove it when the leaves have wilted and stems are tender, allowing longer for thick stems.
+3. **Cool:** Drain and rinse under cold running water or transfer to fresh cold water until cool enough to handle.
+4. **Drain gently:** Lift out small handfuls and squeeze gently to remove excess water. Do not wring the leaves bone-dry. Cut long stems and leaves into bite-size lengths; baby leaves can remain whole.
+5. **Season:** Mix sesame oil, garlic, scallion and part of the seasoning salt in a bowl. Separate the spinach, add it with the sesame seeds and toss gently. Taste before adding the remaining seasoning salt.
+6. **Serve:** Divide into four small side portions, or cover and refrigerate promptly until serving.
+
+## Cooking Notes
+
+About 15 minutes includes washing, heating water, a brief blanch, cooling, draining and seasoning. Larger batches need a larger pot or separate batches.
+
+Refrigerate promptly at 40°F / 4°C or below; use within 2 days for best texture. Limit unrefrigerated time to 2 hours, or 1 hour above 90°F / 32°C. Serve cool; freezing gives a softer result.
+
+## Sources
+
+- [Sue Pressey — Simply seasoned Korean spinach salad](https://mykoreankitchen.com/simply-seasoned-korean-spinach-salad-sigeumchi-namul-version-1/)
+- [FoodSafety.gov — Four steps to food safety](https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety)

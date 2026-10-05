@@ -21,8 +21,8 @@ cuisines:
 role: main
 vibe: comfort
 prepTime: 30 min
-cookTime: 140 min
-totalTime: 170 min
+cookTime: 25 min
+totalTime: 55 min with prepared stock and cooked pork
 servings: '6'
 seasons:
   - year-round
@@ -36,7 +36,8 @@ pairsWith:
   - har-gow-dim-sum-shrimp-dumplings
   - basmati-rice
 ingredients:
-  - '2 quarts [Chinese Chicken Stock](/mise/recipes/cantonese-wonton-broth)'
+  - '2 quarts prepared [Chinese Chicken Stock](/mise/recipes/cantonese-wonton-broth)'
+  - 2 tbsp Canola Oil
   - '1/4 lb Chinese BBQ Pork (Char Siu), shredded'
   - '1 square Firm Tofu, cut into 1/4-inch strips'
   - '1/2 cup Bamboo Shoots, sliced'
@@ -69,11 +70,13 @@ Hot and sour soup is a Sichuan/Hunan classic. The name is literal: "hot" from wh
 
 ## Directions
 
+Use prepared stock and fully cooked char siu. The timing includes the 30-minute mushroom soak but excludes making stock or cooking the pork from scratch.
+
 1.  **Prep:** Soak dried mushrooms in boiling water for 30 minutes. Drain, rinse, and slice.
-2.  **Infuse:** In a large pot, heat 2 tbsp oil. Sauté ginger and chili paste for 1 minute. Add the BBQ pork, wood ears, and bamboo shoots.
+2.  **Infuse:** In a large pot, heat the measured canola oil. Sauté ginger and chili paste for 1 minute. Add the BBQ pork, wood ears, and bamboo shoots.
 3.  **Boil:** Pour in the [Chinese Chicken Stock](/mise/recipes/cantonese-wonton-broth). Bring to a boil and simmer for 10 minutes.
 4.  **Season:** Stir in the soy sauce, vinegar, and white pepper. Taste - it should be sharp and punchy.
 5.  **Tofu:** Add the tofu strips and simmer for 3 minutes.
 6.  **Bind:** Stir the cornstarch slurry and slowly pour into the soup. Simmer for 2 minutes until the soup is thick and clear.
-7.  **The Current:** Remove from heat. Stir the soup vigorously in one direction to create a current. Stop stirring and slowly stream in the beaten egg.
+7.  **The Current:** Remove from heat. Stir the soup vigorously in one direction to create a current. Stop stirring and slowly stream in the beaten egg. Let the ribbons set, then gently return to a simmer if needed until the egg is fully set and the soup reaches at least 160°F / 71°C.
 8.  **Serve:** Ladle into bowls and garnish with sesame oil and fresh scallions for the final **High Note**.

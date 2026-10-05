@@ -3,7 +3,6 @@ miseId: 8a8a9de8-b7f1-43fd-9e68-16123f0a2364
 title: Pressure-Cooker Butternut Squash Soup
 difficulty: easy
 cookingMethods:
-  - grill
   - saute
   - blend
 occasions:
@@ -19,8 +18,8 @@ cuisines:
 role: main
 vibe: comfort
 prepTime: 15 min
-cookTime: 30 min
-totalTime: 45 min
+cookTime: 30 min plus pressure build and full natural release
+totalTime: 45 min plus pressure build and full natural release
 servings: 8 cups
 pairsWith:
   - avocado-kale-caesar-salad
@@ -35,6 +34,7 @@ ingredients:
   - '1 Granny Smith Apple, cored and chopped (The Acid Note)'
   - '2 1/2 lbs Butternut Squash, peeled and cubed'
   - '3 large Carrots, cut into 1-inch pieces'
+  - '1 stalk Celery, cut into 1-inch pieces'
   - 4 cups Chicken Stock
   - 1/3 cup Heavy Cream
   - '2 tbsp Fresh Chives, chopped'
@@ -62,12 +62,12 @@ Sautéing bacon first, removing it for garnish, then cooking aromatics in the re
 
 ## Directions
 
-Use an electric pressure cooker with a sauté setting. Follow the model’s minimum-liquid requirements and soup fill limit before sealing; do not exceed its marked limit. Use full natural pressure release for this soup.
+Use an electric pressure cooker with a sauté setting. Follow the model’s minimum-liquid requirements and soup fill limit before sealing; do not exceed its marked limit. Use full natural pressure release for this soup. The 12-minute pressure timer excludes coming to pressure and releasing it; both vary with the cooker and load, so the listed 45 minutes is not a ready-to-serve deadline.
 
 1.  **The Render:** Set the electric pressure cooker to "Sauté" (High). Add diced bacon and cook until crispy (6-8 mins). Remove bacon to a plate, leaving the fat in the pot.
 2.  **Aromatics:** Add onion to the bacon fat. Sauté for 3 minutes until translucent. Stir in garlic, sage, and thyme; cook for 30-45 seconds until fragrant.
 3.  **Pressure:** Stir in the squash, carrots, celery, and chopped apple. Pour in the chicken stock and season with salt and pepper.
 4.  **Cook:** Secure the lid. Set to **High Pressure for 12 minutes**.
 5.  **Release:** Turn Keep Warm off and allow pressure to release fully naturally. Open only when the cooker indicates no pressure remains and its instructions permit opening. Remove and discard the thyme sprigs.
-6.  **The Emulsion:** Stir in the heavy cream. Using an immersion blender, puree the soup directly in the pot until completely velvety and smooth.
+6.  **The Emulsion:** Stir in the heavy cream. With the cooker off, use an immersion blender according to its hot-liquid instructions. Keep the blade guard submerged, start on low, and stop the motor before lifting it out. Puree until smooth.
 7.  **Serve:** Ladle into bowls. Garnish with the reserved crispy bacon and chives for the mandatory **Textural Snap**.

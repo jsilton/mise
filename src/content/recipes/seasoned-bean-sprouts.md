@@ -16,51 +16,50 @@ cuisines:
   - Korean
 role: side
 vibe: quick
-season:
-  - spring
-  - summer
-  - fall
-  - winter
 leftovers: good
-healthiness: light
 pairsWith:
   - bibimbap
   - kalbi-grilled-korean-style-short-ribs
   - basmati-rice
-prepTime: 5 min
-cookTime: 5 min
-totalTime: 10 min
-servings: '4'
+prepTime: 10 min
+cookTime: 10 min
+totalTime: 20 min
+servings: 4 small side portions
 ingredients:
-  - 1 lb Soybean Sprouts (Kongnamul)
-  - 1 tsp Toasted Sesame Oil (The complex flavor)
-  - '1 tsp Garlic, minced'
-  - 1/2 tsp Fine Sea Salt
-  - '1 Green Onion, minced'
-  - 1 tsp Toasted Sesame Seeds
+  - 1 lb soybean sprouts (kongnamul), rinsed and drained
+  - 1/2 cup water, for cooking
+  - 1 tsp toasted sesame oil
+  - 1 tsp garlic, minced
+  - 1/2 tsp fine sea salt, divided and added to taste
+  - 1 green onion, minced
+  - 1 tsp toasted sesame seeds
 origin: Korea
 seasons:
   - year-round
 nutritionalDensity: moderate
-nutrition:
-  calories: 55
-  protein: 1
-  carbs: 3.5
-  fat: 4.5
-  fiber: 0.5
-  sugar: 1
-  sodium: 580
 ---
 
 ## Chef's Note
 
-Kongnamul namul (seasoned soybean sprouts) is a staple banchan (side dish) in Korean cuisine, often served with bibimbap or alongside grilled meats. Cooking sprouts in a small amount of water with the lid tightly closed steams them while preserving their crisp texture and nutty aroma. Tossing the warm sprouts with toasted sesame oil allows the oil to emulsify with residual moisture for a glossy, savory finish.
+Kongnamul has larger yellow bean heads than mung bean sprouts. Give those heads time to cook through, then drain before seasoning. This mild version keeps the original sesame oil, garlic and green onion, with salt added gradually after cooking.
 
 ## Directions
 
-1.  **Steam:** In a medium pot, combine 1/2 cup water, a pinch of salt, and the sprouts. Cover tightly.
-2.  **Cook:** Steam over medium-high for 4-5 minutes. **Do not open the lid** until the timer is up (mandatory for aroma).
-3.  **Drain:** Drain the sprouts and let them stand for 2 minutes to release steam.
-4.  **Season:** In a large bowl, whisk together sesame oil, garlic, salt, and green onion.
-5.  **Bind:** Add the warm sprouts. Toss vigorously with your hands or tongs until every strand is coated.
-6.  **Serve:** Garnish with sesame seeds. Serve chilled or at room temperature.
+1. **Prepare:** Rinse sprouts, discard damaged or spoiled ones and drain. Put them in a medium pot with 1/2 cup water and a small pinch taken from the measured salt.
+2. **Cook thoroughly:** Cover and heat over medium-high until bubbling and steaming, then maintain steady steam without boiling dry. Allow roughly 10 minutes of covered heating and cooking, continuing until the soybean heads are tender and the sprouts are steaming hot throughout and above 165°F / 74°C. Check the sprouts themselves with a food thermometer and follow any longer package cooking directions; do not deliberately leave the sprouts lightly cooked. Open the lid if needed to check water or doneness, keeping your face away from steam.
+3. **Drain:** Drain in a clean colander and let excess steam escape briefly. Use clean utensils for the cooked sprouts.
+4. **Season:** Toss with the sesame oil, garlic, green onion and sesame seeds. Add the remaining measured salt gradually to taste; it need not all be used.
+5. **Serve or chill:** Serve warm as a small side, or spread in a shallow container and refrigerate promptly for a chilled banchan. People at higher risk of foodborne illness should avoid raw or lightly cooked sprouts.
+
+## Cooking Notes
+
+Allow about 20 minutes for rinsing, heating, roughly 10 minutes covered cooking, draining and mixing. Heat-up and tenderness vary with the pot and batch size; allow longer when needed. Optional chilling is additional.
+
+Cool in a shallow container and refrigerate promptly at 40°F / 4°C or below. Use within 2 days for quality. Avoid leaving out more than 2 hours, or 1 hour above 90°F / 32°C.
+
+## Sources
+
+- [Maangchi — Soybean sprout side dish, covered cooking reference](https://www.maangchi.com/recipe/kongnamul-muchim)
+- [FDA — Selecting and serving produce safely](https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely)
+- [University of California ANR — Growing seed sprouts at home, cooking guidance on page 1](https://ucanr.edu/sites/default/files/2024-02/393187.pdf)
+- [FoodSafety.gov — Four steps to food safety](https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety)

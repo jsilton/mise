@@ -16,54 +16,53 @@ cuisines:
   - Korean
 role: side
 vibe: nutritious
-season:
-  - spring
-  - summer
-  - fall
-  - winter
 leftovers: good
-healthiness: light
 pairsWith:
   - bibimbap
   - kalbi-grilled-korean-style-short-ribs
   - basmati-rice
-prepTime: 5 min
-cookTime: 5 min
-totalTime: 10 min
-servings: '4'
+prepTime: 10 min
+cookTime: 10 min
+totalTime: 20 min
+servings: 4 small side portions
 ingredients:
-  - 350g (0.8 lbs) Fresh Mung Bean Sprouts
-  - 1 tsp Fine Sea Salt (for boiling)
-  - '1 tsp Scallion, finely chopped'
-  - '1/2 tsp Garlic, minced'
-  - 1/2 tsp Fine Sea Salt
-  - 1 tbsp Toasted Sesame Oil
-  - 1 tsp Toasted Sesame Seeds
+  - 350 g fresh mung bean sprouts, rinsed and drained
+  - 6 cups water, for cooking
+  - 1 tsp fine sea salt, for cooking water
+  - 1 tsp scallion, finely chopped
+  - 1/2 tsp garlic, minced
+  - 1/2 tsp fine sea salt, for seasoning, added to taste
+  - 1 tbsp toasted sesame oil
+  - 1 tsp toasted sesame seeds
 seasons:
   - year-round
 nutritionalDensity: moderate
-nutrition:
-  calories: 45
-  protein: 0.5
-  carbs: 1
-  fat: 4.5
-  fiber: 0.5
-  sugar: 0
-  sodium: 1160
-source: Adapted from mykoreankitchen.com
-sourceUrl: >-
-  https://mykoreankitchen.com/korean-style-seasoned-mung-bean-sprouts-salad-sukju-namul-muchim/
+source: Adapted from Sue Pressey, My Korean Kitchen
+sourceUrl: https://mykoreankitchen.com/korean-style-seasoned-mung-bean-sprouts-salad-sukju-namul-muchim/
 ---
 
 ## Chef's Note
 
-Seasoned mung bean sprouts are a Korean side dish served at almost every meal - tender, nutty, and finished with sesame oil and toasted sesame seeds. The bean sprouts cook just until tender but still have a slight crunch. Toast the sesame seeds before adding them so you get their full nutty flavor, not just a starchy taste.
+Sukju namul pairs tender mung bean sprouts with sesame oil, garlic and scallion. Drain gently rather than compressing the sprouts into a dry mass. Their light texture is appealing, but a quick blanch should never be treated as a guarantee that sprouts are safe to eat.
 
 ## Directions
 
-1.  **Thermal Prep:** Bring a large pot of water to a boil with 1 tsp salt. Prepare an ice-water bath.
-2.  **Blanch:** Rinse sprouts in cold water. Add to boiling water and cook for 1-2 minutes until just translucent but still firm.
-3.  **Shock:** Drain immediately and submerge in the ice water for 2 minutes to stop the cooking.
-4.  **The Squeeze:** Squeeze the cold sprouts with your hands until **no more liquid drips out**. They should feel like a dense, dry mass.
-5.  **Toss:** In a large bowl, whisk the scallion, garlic, salt, and sesame oil. Separate the sprouts and toss vigorously with the dressing and sesame seeds.
-6.  **Serve:** Best served chilled or at room temperature.
+1. **Prepare:** Bring the measured water and cooking salt to a boil. Set out a clean colander and prepare the scallion, garlic and sesame seasoning.
+2. **Cook thoroughly:** Add the rinsed sprouts and let the water return to a boil. Start checking after 1–2 minutes, but continue until the sprouts are steaming hot throughout and above 165°F / 74°C, following any longer package instructions. Check the sprouts themselves with a food thermometer; boiling water alone is not the measurement. Do not stop merely to preserve a raw crunch. Use a larger pot or batches if the water stops boiling for a prolonged period.
+3. **Cool:** Drain with clean equipment, then cool under cold running water or in a clean bowl of fresh cold water. Do not reuse the bowl that held unwashed sprouts without washing it.
+4. **Drain gently:** Let water drain away, then lightly squeeze small handfuls to remove excess moisture without crushing the stems.
+5. **Season:** Combine scallion, garlic, sesame oil and part of the seasoning salt. Gently toss with the sprouts and toasted sesame seeds. Taste before adding more of the remaining salt.
+6. **Serve or chill:** Divide into four small sides or refrigerate promptly. People at higher risk of foodborne illness should avoid raw or lightly cooked sprouts; a short blanch alone does not meet that advice.
+
+## Cooking Notes
+
+Allow about 20 minutes including rinsing, bringing water to a boil, cooking, cooling, draining and mixing. A longer package-directed cook or larger batch may take more time; chilling for cold service is additional.
+
+Refrigerate promptly at 40°F / 4°C or below and use within 2 days for quality. Keep total unrefrigerated time under 2 hours, or 1 hour above 90°F / 32°C.
+
+## Sources
+
+- [Sue Pressey — Korean mung bean sprouts salad](https://mykoreankitchen.com/korean-style-seasoned-mung-bean-sprouts-salad-sukju-namul-muchim/)
+- [FDA — Selecting and serving produce safely](https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely)
+- [University of California ANR — Growing seed sprouts at home, cooking guidance on page 1](https://ucanr.edu/sites/default/files/2024-02/393187.pdf)
+- [FoodSafety.gov — Four steps to food safety](https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety)

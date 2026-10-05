@@ -8471,13 +8471,17 @@
       "recipeIngredient": [
         "300g Ground Pork",
         "1 tsp Ginger, minced",
-        "1 tbsp Light Soy Sauce + 1 tsp Shaoxing Wine",
+        "1 tbsp Light Soy Sauce, for the filling",
+        "1 tsp Shaoxing Wine, for the filling",
         "2 Scallions, finely chopped",
         "3 tbsp Chicken Broth (as binder)",
-        "40 Wonton Wrappers",
-        "1 liter Wonton Broth (See note below)",
+        "40 small Wonton Wrappers (about 3.5 inches / 9 cm square)",
+        "1 liter prepared Wonton Broth (See note below)",
         "2 heads Baby Bok Choy",
-        "Sesame Oil and Scallions for garnish"
+        "Sesame Oil and Scallions for garnish",
+        "Salt and Ground White Pepper, to taste, for the broth",
+        "Chili Oil, optional, for serving",
+        "Water, for sealing wrappers and boiling wontons"
       ],
       "recipeInstructions": [
         {
@@ -8486,28 +8490,26 @@
         },
         {
           "@type": "HowToStep",
-          "text": "Assemble: Place 1 tsp filling in the center of a wrapper. Wet the edges with water. Fold into a rectangle, then pinch the two corners together to form a \"hat.\""
+          "text": "Assemble: Divide all the filling among the small wrappers, using only as much as each can seal securely; the count may vary with wrapper size. Wet the edges with water. Fold into a rectangle, then pinch the two corners together to form a \"hat.\""
         },
         {
           "@type": "HowToStep",
-          "text": "The Base: In 4 serving bowls, add a drop of sesame oil, white pepper, and a pinch of salt."
+          "text": "The Base: Bring the prepared broth to a boil in a separate saucepan, then keep it hot. In 4 serving bowls, add a few drops of sesame oil and white pepper to taste. Taste the prepared broth before adding salt; the linked broth is already seasoned."
         },
         {
           "@type": "HowToStep",
-          "text": "Boil: In a large pot of water, boil wontons for 3-4 minutes until they float. During the final 20 seconds, add the bok choy."
+          "text": "Boil: Bring a large pot of water to a boil. Add wontons in uncrowded batches and stir gently to prevent sticking. Begin checking after 3-4 minutes; floating alone is not a doneness test. Check several wontons with a thin-tip thermometer inserted into the center of the filling and continue cooking until they reach 165°F / 74°C. Halve or quarter the bok choy lengthwise, rinse well, and cook it in the hot broth until its stems are tender-crisp; do not rely on 20 seconds for whole heads."
         },
         {
           "@type": "HowToStep",
-          "text": "Bind: Heat the Wonton Broth to boiling. Ladle the hot broth into the serving bowls."
+          "text": "Bind: Bring the Wonton Broth back to a boil if needed. Ladle the hot broth into the serving bowls."
         },
         {
           "@type": "HowToStep",
-          "text": "Serve: Transfer the wontons and bok choy to the bowls. Garnish with scallions and chili oil for the final High Note."
+          "text": "Serve: Transfer the wontons and bok choy to the bowls. Garnish with scallions and optional chili oil."
         }
       ],
       "prepTime": "PT30M",
-      "cookTime": "PT6M",
-      "totalTime": "PT36M",
       "recipeYield": "4",
       "recipeCategory": "Main course",
       "recipeCuisine": ["Chinese"],
@@ -9269,7 +9271,7 @@
       "recipeInstructions": [
         {
           "@type": "HowToStep",
-          "text": "The Sear: In a large heavy-bottomed pot, melt butter over medium-high heat. Add all mushrooms. Sauté undisturbed for 3 minutes to develop a crust, then stir and cook for 5 more minutes until golden."
+          "text": "The Sear: In a large heavy-bottomed pot, melt butter over medium-high heat. Add all mushrooms. Cook, stirring occasionally, until the released liquid has evaporated and the mushrooms are golden, about 10-20 minutes depending on the pot and moisture. Reduce the heat if the butter begins to scorch; browning, not an eight-minute timer, is the endpoint."
         },
         {
           "@type": "HowToStep",
@@ -9285,7 +9287,7 @@
         },
         {
           "@type": "HowToStep",
-          "text": "The Emulsion: Using an immersion blender (or a regular blender in batches), puree the soup until completely smooth and velvety."
+          "text": "The Emulsion: Take the pot off the heat. Use an immersion blender according to its hot-liquid instructions, starting on low with the blade guard submerged; stop the motor before lifting it out. For a countertop blender, use only a container approved for hot liquids, let the soup cool to the manufacturer’s permitted temperature, and follow its fill and venting instructions in small batches. Never blend hot soup in a sealed personal-blender cup. Return the puree to the pot."
         },
         {
           "@type": "HowToStep",
@@ -9297,8 +9299,6 @@
         }
       ],
       "prepTime": "PT10M",
-      "cookTime": "PT20M",
-      "totalTime": "PT30M",
       "recipeYield": "6",
       "recipeCategory": "Main course",
       "recipeCuisine": ["American"],
@@ -17330,7 +17330,8 @@
       "description": "Hot and sour soup is a Sichuan/Hunan classic. The name is literal: \"hot\" from white pepper (not just chilies) and \"sour\" from rice vinegar.",
       "url": "https://jordansilton.com/mise/recipes/hot-and-sour-soup/",
       "recipeIngredient": [
-        "2 quarts [Chinese Chicken Stock](/mise/recipes/cantonese-wonton-broth)",
+        "2 quarts prepared [Chinese Chicken Stock](/mise/recipes/cantonese-wonton-broth)",
+        "2 tbsp Canola Oil",
         "1/4 lb Chinese BBQ Pork (Char Siu), shredded",
         "1 square Firm Tofu, cut into 1/4-inch strips",
         "1/2 cup Bamboo Shoots, sliced",
@@ -17347,41 +17348,47 @@
       ],
       "recipeInstructions": [
         {
-          "@type": "HowToStep",
-          "text": "Prep: Soak dried mushrooms in boiling water for 30 minutes. Drain, rinse, and slice."
-        },
-        {
-          "@type": "HowToStep",
-          "text": "Infuse: In a large pot, heat 2 tbsp oil. Sauté ginger and chili paste for 1 minute. Add the BBQ pork, wood ears, and bamboo shoots."
-        },
-        {
-          "@type": "HowToStep",
-          "text": "Boil: Pour in the Chinese Chicken Stock. Bring to a boil and simmer for 10 minutes."
-        },
-        {
-          "@type": "HowToStep",
-          "text": "Season: Stir in the soy sauce, vinegar, and white pepper. Taste - it should be sharp and punchy."
-        },
-        {
-          "@type": "HowToStep",
-          "text": "Tofu: Add the tofu strips and simmer for 3 minutes."
-        },
-        {
-          "@type": "HowToStep",
-          "text": "Bind: Stir the cornstarch slurry and slowly pour into the soup. Simmer for 2 minutes until the soup is thick and clear."
-        },
-        {
-          "@type": "HowToStep",
-          "text": "The Current: Remove from heat. Stir the soup vigorously in one direction to create a current. Stop stirring and slowly stream in the beaten egg."
-        },
-        {
-          "@type": "HowToStep",
-          "text": "Serve: Ladle into bowls and garnish with sesame oil and fresh scallions for the final High Note."
+          "@type": "HowToSection",
+          "name": "Directions",
+          "description": "Use prepared stock and fully cooked char siu. The timing includes the 30-minute mushroom soak but excludes making stock or cooking the pork from scratch.",
+          "itemListElement": [
+            {
+              "@type": "HowToStep",
+              "text": "Prep: Soak dried mushrooms in boiling water for 30 minutes. Drain, rinse, and slice."
+            },
+            {
+              "@type": "HowToStep",
+              "text": "Infuse: In a large pot, heat the measured canola oil. Sauté ginger and chili paste for 1 minute. Add the BBQ pork, wood ears, and bamboo shoots."
+            },
+            {
+              "@type": "HowToStep",
+              "text": "Boil: Pour in the Chinese Chicken Stock. Bring to a boil and simmer for 10 minutes."
+            },
+            {
+              "@type": "HowToStep",
+              "text": "Season: Stir in the soy sauce, vinegar, and white pepper. Taste - it should be sharp and punchy."
+            },
+            {
+              "@type": "HowToStep",
+              "text": "Tofu: Add the tofu strips and simmer for 3 minutes."
+            },
+            {
+              "@type": "HowToStep",
+              "text": "Bind: Stir the cornstarch slurry and slowly pour into the soup. Simmer for 2 minutes until the soup is thick and clear."
+            },
+            {
+              "@type": "HowToStep",
+              "text": "The Current: Remove from heat. Stir the soup vigorously in one direction to create a current. Stop stirring and slowly stream in the beaten egg. Let the ribbons set, then gently return to a simmer if needed until the egg is fully set and the soup reaches at least 160°F / 71°C."
+            },
+            {
+              "@type": "HowToStep",
+              "text": "Serve: Ladle into bowls and garnish with sesame oil and fresh scallions for the final High Note."
+            }
+          ]
         }
       ],
       "prepTime": "PT30M",
-      "cookTime": "PT140M",
-      "totalTime": "PT170M",
+      "cookTime": "PT25M",
       "recipeYield": "6",
       "recipeCategory": "Main course",
       "recipeCuisine": ["Chinese"],
@@ -17628,6 +17635,7 @@
         "1 Granny Smith Apple, cored and chopped (The Acid Note)",
         "2 1/2 lbs Butternut Squash, peeled and cubed",
         "3 large Carrots, cut into 1-inch pieces",
+        "1 stalk Celery, cut into 1-inch pieces",
         "4 cups Chicken Stock",
         "1/3 cup Heavy Cream",
         "2 tbsp Fresh Chives, chopped",
@@ -17637,7 +17645,7 @@
         {
           "@type": "HowToSection",
           "name": "Directions",
-          "description": "Use an electric pressure cooker with a sauté setting. Follow the model’s minimum-liquid requirements and soup fill limit before sealing; do not exceed its marked limit. Use full natural pressure release for this soup.",
+          "description": "Use an electric pressure cooker with a sauté setting. Follow the model’s minimum-liquid requirements and soup fill limit before sealing; do not exceed its marked limit. Use full natural pressure release for this soup. The 12-minute pressure timer excludes coming to pressure and releasing it; both vary with the cooker and load, so the listed 45 minutes is not a ready-to-serve deadline.",
           "itemListElement": [
             {
               "@type": "HowToStep",
@@ -17661,7 +17669,7 @@
             },
             {
               "@type": "HowToStep",
-              "text": "The Emulsion: Stir in the heavy cream. Using an immersion blender, puree the soup directly in the pot until completely velvety and smooth."
+              "text": "The Emulsion: Stir in the heavy cream. With the cooker off, use an immersion blender according to its hot-liquid instructions. Keep the blade guard submerged, start on low, and stop the motor before lifting it out. Puree until smooth."
             },
             {
               "@type": "HowToStep",
@@ -17671,12 +17679,10 @@
         }
       ],
       "prepTime": "PT15M",
-      "cookTime": "PT30M",
-      "totalTime": "PT45M",
       "recipeYield": "8 cups",
       "recipeCategory": "Main course",
       "recipeCuisine": ["American"],
-      "keywords": "American, sweet, savory, acidic, umami, rich, comfort-food, grill, saute, blend",
+      "keywords": "American, sweet, savory, acidic, umami, rich, comfort-food, saute, blend",
       "citation": {
         "@type": "CreativeWork",
         "name": "Adapted from damndelicious.net",
@@ -18207,33 +18213,40 @@
       ],
       "recipeInstructions": [
         {
-          "@type": "HowToStep",
-          "text": "Sauté: Heat oil in a large skillet. Sauté onions and carrots with the Italian seasoning for 5-8 minutes until translucent."
-        },
-        {
-          "@type": "HowToStep",
-          "text": "The Pot: Transfer the vegetables to a slow cooker. Add the lentils, crushed tomatoes, and broth."
-        },
-        {
-          "@type": "HowToStep",
-          "text": "Slow Cook: Cook on LOW for 5 hours (or on high for 3 hours) until lentils are tender but not mushy."
-        },
-        {
-          "@type": "HowToStep",
-          "text": "Infuse: Stir in the white wine and parsley. Cook for another 30 minutes."
-        },
-        {
-          "@type": "HowToStep",
-          "text": "Texture (Optional): Use an immersion blender to pulse the soup a few times to create a thicker body."
-        },
-        {
-          "@type": "HowToStep",
-          "text": "The Acid Balance: Stir in the sherry vinegar or lemon juice. Season generously with salt and black pepper."
+          "@type": "HowToSection",
+          "name": "Directions",
+          "description": "Plan on roughly 6 hours including preparation, the initial sauté, 5 hours on LOW, and the final 30-minute cook. Lentil age and slow-cooker behavior can extend this; tenderness, not the timer alone, determines when to finish.",
+          "itemListElement": [
+            {
+              "@type": "HowToStep",
+              "text": "Sauté: Heat oil in a large skillet. Sauté onions and carrots with the Italian seasoning for 5-8 minutes until translucent."
+            },
+            {
+              "@type": "HowToStep",
+              "text": "The Pot: Transfer the vegetables to a slow cooker. Add the lentils, crushed tomatoes, and broth."
+            },
+            {
+              "@type": "HowToStep",
+              "text": "Slow Cook: Cook on LOW for about 5 hours, until lentils are tender but not mushy. Test several lentils and extend the cooking if their centers are still hard."
+            },
+            {
+              "@type": "HowToStep",
+              "text": "Infuse: Stir in the white wine and parsley. Cook for another 30 minutes."
+            },
+            {
+              "@type": "HowToStep",
+              "text": "Texture (Optional): Turn the cooker off. Following the blender’s hot-liquid instructions, pulse briefly with the blade guard submerged and stop the motor before lifting it out. Leave some lentils and vegetables whole."
+            },
+            {
+              "@type": "HowToStep",
+              "text": "The Acid Balance: Stir in the sherry vinegar or lemon juice. Season generously with salt and black pepper."
+            }
+          ]
         }
       ],
       "prepTime": "PT15M",
-      "cookTime": "PT300M",
-      "totalTime": "PT330M",
+      "cookTime": "PT340M",
+      "totalTime": "PT355M",
       "recipeYield": "12 cups",
       "recipeCategory": "Main course",
       "recipeCuisine": ["American"],
@@ -18968,54 +18981,55 @@
       "@context": "https://schema.org",
       "@type": "Recipe",
       "name": "Sukju Namul",
-      "description": "Seasoned mung bean sprouts are a Korean side dish served at almost every meal - tender, nutty, and finished with sesame oil and toasted sesame seeds. The bean sprouts cook just until tender but still have a slight crunch.",
+      "description": "Sukju namul pairs tender mung bean sprouts with sesame oil, garlic and scallion. Drain gently rather than compressing the sprouts into a dry mass.",
       "url": "https://jordansilton.com/mise/recipes/korean-mung-bean-sprouts-salad/",
       "recipeIngredient": [
-        "350g (0.8 lbs) Fresh Mung Bean Sprouts",
-        "1 tsp Fine Sea Salt (for boiling)",
-        "1 tsp Scallion, finely chopped",
-        "1/2 tsp Garlic, minced",
-        "1/2 tsp Fine Sea Salt",
-        "1 tbsp Toasted Sesame Oil",
-        "1 tsp Toasted Sesame Seeds"
+        "350 g fresh mung bean sprouts, rinsed and drained",
+        "6 cups water, for cooking",
+        "1 tsp fine sea salt, for cooking water",
+        "1 tsp scallion, finely chopped",
+        "1/2 tsp garlic, minced",
+        "1/2 tsp fine sea salt, for seasoning, added to taste",
+        "1 tbsp toasted sesame oil",
+        "1 tsp toasted sesame seeds"
       ],
       "recipeInstructions": [
         {
           "@type": "HowToStep",
-          "text": "Thermal Prep: Bring a large pot of water to a boil with 1 tsp salt. Prepare an ice-water bath."
+          "text": "Prepare: Bring the measured water and cooking salt to a boil. Set out a clean colander and prepare the scallion, garlic and sesame seasoning."
         },
         {
           "@type": "HowToStep",
-          "text": "Blanch: Rinse sprouts in cold water. Add to boiling water and cook for 1-2 minutes until just translucent but still firm."
+          "text": "Cook thoroughly: Add the rinsed sprouts and let the water return to a boil. Start checking after 1–2 minutes, but continue until the sprouts are steaming hot throughout and above 165°F / 74°C, following any longer package instructions. Check the sprouts themselves with a food thermometer; boiling water alone is not the measurement. Do not stop merely to preserve a raw crunch. Use a larger pot or batches if the water stops boiling for a prolonged period."
         },
         {
           "@type": "HowToStep",
-          "text": "Shock: Drain immediately and submerge in the ice water for 2 minutes to stop the cooking."
+          "text": "Cool: Drain with clean equipment, then cool under cold running water or in a clean bowl of fresh cold water. Do not reuse the bowl that held unwashed sprouts without washing it."
         },
         {
           "@type": "HowToStep",
-          "text": "The Squeeze: Squeeze the cold sprouts with your hands until no more liquid drips out. They should feel like a dense, dry mass."
+          "text": "Drain gently: Let water drain away, then lightly squeeze small handfuls to remove excess moisture without crushing the stems."
         },
         {
           "@type": "HowToStep",
-          "text": "Toss: In a large bowl, whisk the scallion, garlic, salt, and sesame oil. Separate the sprouts and toss vigorously with the dressing and sesame seeds."
+          "text": "Season: Combine scallion, garlic, sesame oil and part of the seasoning salt. Gently toss with the sprouts and toasted sesame seeds. Taste before adding more of the remaining salt."
         },
         {
           "@type": "HowToStep",
-          "text": "Serve: Best served chilled or at room temperature."
+          "text": "Serve or chill: Divide into four small sides or refrigerate promptly. People at higher risk of foodborne illness should avoid raw or lightly cooked sprouts; a short blanch alone does not meet that advice."
         }
       ],
-      "prepTime": "PT5M",
-      "cookTime": "PT5M",
-      "totalTime": "PT10M",
-      "recipeYield": "4",
+      "prepTime": "PT10M",
+      "cookTime": "PT10M",
+      "totalTime": "PT20M",
+      "recipeYield": "4 small side portions",
       "recipeCategory": "Side dish",
       "recipeCuisine": ["Korean"],
       "keywords": "Korean, savory, weeknight, light-and-fresh, boil",
       "suitableForDiet": ["https://schema.org/VegetarianDiet"],
       "citation": {
         "@type": "CreativeWork",
-        "name": "Adapted from mykoreankitchen.com",
+        "name": "Adapted from Sue Pressey, My Korean Kitchen",
         "url": "https://mykoreankitchen.com/korean-style-seasoned-mung-bean-sprouts-salad-sukju-namul-muchim/"
       }
     },
@@ -28166,46 +28180,43 @@
       "@context": "https://schema.org",
       "@type": "Recipe",
       "name": "Seasoned Bean Sprouts (Kongnamul Namul)",
-      "description": "Kongnamul namul (seasoned soybean sprouts) is a staple banchan (side dish) in Korean cuisine, often served with bibimbap or alongside grilled meats. Cooking sprouts in a small amount of water with the lid tightly closed steams them while preserving their crisp texture and nutty aroma.",
+      "description": "Kongnamul has larger yellow bean heads than mung bean sprouts. Give those heads time to cook through, then drain before seasoning.",
       "url": "https://jordansilton.com/mise/recipes/seasoned-bean-sprouts/",
       "recipeIngredient": [
-        "1 lb Soybean Sprouts (Kongnamul)",
-        "1 tsp Toasted Sesame Oil (The complex flavor)",
-        "1 tsp Garlic, minced",
-        "1/2 tsp Fine Sea Salt",
-        "1 Green Onion, minced",
-        "1 tsp Toasted Sesame Seeds"
+        "1 lb soybean sprouts (kongnamul), rinsed and drained",
+        "1/2 cup water, for cooking",
+        "1 tsp toasted sesame oil",
+        "1 tsp garlic, minced",
+        "1/2 tsp fine sea salt, divided and added to taste",
+        "1 green onion, minced",
+        "1 tsp toasted sesame seeds"
       ],
       "recipeInstructions": [
         {
           "@type": "HowToStep",
-          "text": "Steam: In a medium pot, combine 1/2 cup water, a pinch of salt, and the sprouts. Cover tightly."
+          "text": "Prepare: Rinse sprouts, discard damaged or spoiled ones and drain. Put them in a medium pot with 1/2 cup water and a small pinch taken from the measured salt."
         },
         {
           "@type": "HowToStep",
-          "text": "Cook: Steam over medium-high for 4-5 minutes. Do not open the lid until the timer is up (mandatory for aroma)."
+          "text": "Cook thoroughly: Cover and heat over medium-high until bubbling and steaming, then maintain steady steam without boiling dry. Allow roughly 10 minutes of covered heating and cooking, continuing until the soybean heads are tender and the sprouts are steaming hot throughout and above 165°F / 74°C. Check the sprouts themselves with a food thermometer and follow any longer package cooking directions; do not deliberately leave the sprouts lightly cooked. Open the lid if needed to check water or doneness, keeping your face away from steam."
         },
         {
           "@type": "HowToStep",
-          "text": "Drain: Drain the sprouts and let them stand for 2 minutes to release steam."
+          "text": "Drain: Drain in a clean colander and let excess steam escape briefly. Use clean utensils for the cooked sprouts."
         },
         {
           "@type": "HowToStep",
-          "text": "Season: In a large bowl, whisk together sesame oil, garlic, salt, and green onion."
+          "text": "Season: Toss with the sesame oil, garlic, green onion and sesame seeds. Add the remaining measured salt gradually to taste; it need not all be used."
         },
         {
           "@type": "HowToStep",
-          "text": "Bind: Add the warm sprouts. Toss vigorously with your hands or tongs until every strand is coated."
-        },
-        {
-          "@type": "HowToStep",
-          "text": "Serve: Garnish with sesame seeds. Serve chilled or at room temperature."
+          "text": "Serve or chill: Serve warm as a small side, or spread in a shallow container and refrigerate promptly for a chilled banchan. People at higher risk of foodborne illness should avoid raw or lightly cooked sprouts."
         }
       ],
-      "prepTime": "PT5M",
-      "cookTime": "PT5M",
-      "totalTime": "PT10M",
-      "recipeYield": "4",
+      "prepTime": "PT10M",
+      "cookTime": "PT10M",
+      "totalTime": "PT20M",
+      "recipeYield": "4 small side portions",
       "recipeCategory": "Side dish",
       "recipeCuisine": ["Korean"],
       "keywords": "Korean, savory, umami, weeknight, light-and-fresh, steam",
@@ -29984,57 +29995,55 @@
       "@context": "https://schema.org",
       "@type": "Recipe",
       "name": "Korean Spinach Salad (Sigeumchi Namul)",
-      "description": "The secret to authentic Korean spinach (sigeumchi namul) is precise blanching. Spinach is 90% water, so plunging it into boiling water for exactly 30 seconds and then into ice water locks in the vibrant green chlorophyll and provides a resilient texture.",
+      "description": "Sigeumchi namul is a simple spinach banchan. Cool the wilted leaves promptly, then remove excess water with a gentle squeeze.",
       "url": "https://jordansilton.com/mise/recipes/simply-seasoned-korean-spinach-salad/",
       "recipeIngredient": [
-        "250g (0.5 lbs) Fresh English Spinach",
-        "1 tbsp Toasted Sesame Oil",
-        "1 tsp Scallion, finely chopped",
-        "1/2 tsp Garlic, minced",
-        "1/4 tsp Fine Sea Salt",
-        "1 tsp Toasted Sesame Seeds"
+        "250 g fresh spinach, roots trimmed and leaves washed",
+        "6 cups water, for blanching",
+        "1 tsp fine sea salt, for blanching water",
+        "1 tbsp toasted sesame oil",
+        "1 tsp scallion, finely chopped",
+        "1/2 tsp garlic, minced",
+        "1/4 tsp fine sea salt, for seasoning, added to taste",
+        "1 tsp toasted sesame seeds"
       ],
       "recipeInstructions": [
         {
           "@type": "HowToStep",
-          "text": "Thermal Prep: Bring a large pot of water to a boil with 1 tsp salt. Prepare an ice-water bath."
+          "text": "Prepare: Bring the measured water and blanching salt to a boil. Set out a colander and cold water for cooling."
         },
         {
           "@type": "HowToStep",
-          "text": "Blanch: Plunge washed spinach into boiling water. Cook for 30 seconds until just wilted."
+          "text": "Blanch: Add washed spinach and stir it under the water. Start checking at 30 seconds; remove it when the leaves have wilted and stems are tender, allowing longer for thick stems."
         },
         {
           "@type": "HowToStep",
-          "text": "Shock: Drain immediately and submerge in ice water for 2 minutes."
+          "text": "Cool: Drain and rinse under cold running water or transfer to fresh cold water until cool enough to handle."
         },
         {
           "@type": "HowToStep",
-          "text": "The Squeeze: Squeeze the spinach with your hands until bone-dry. No water should remain."
+          "text": "Drain gently: Lift out small handfuls and squeeze gently to remove excess water. Do not wring the leaves bone-dry. Cut long stems and leaves into bite-size lengths; baby leaves can remain whole."
         },
         {
           "@type": "HowToStep",
-          "text": "Cut: Cut the dry spinach ball into 2-inch sections."
+          "text": "Season: Mix sesame oil, garlic, scallion and part of the seasoning salt in a bowl. Separate the spinach, add it with the sesame seeds and toss gently. Taste before adding the remaining seasoning salt."
         },
         {
           "@type": "HowToStep",
-          "text": "Bind: In a large bowl, whisk sesame oil, garlic, salt, and scallions. Add the spinach and toss vigorously with your hands to separate the leaves."
-        },
-        {
-          "@type": "HowToStep",
-          "text": "Finish: Garnish with sesame seeds. Serve chilled or at room temperature."
+          "text": "Serve: Divide into four small side portions, or cover and refrigerate promptly until serving."
         }
       ],
       "prepTime": "PT5M",
       "cookTime": "PT10M",
       "totalTime": "PT15M",
-      "recipeYield": "4",
+      "recipeYield": "4 small side portions",
       "recipeCategory": "Side dish",
       "recipeCuisine": ["Korean"],
       "keywords": "Korean, savory, weeknight, light-and-fresh, boil",
       "suitableForDiet": ["https://schema.org/VegetarianDiet"],
       "citation": {
         "@type": "CreativeWork",
-        "name": "Adapted from mykoreankitchen.com",
+        "name": "Adapted from Sue Pressey, My Korean Kitchen",
         "url": "https://mykoreankitchen.com/simply-seasoned-korean-spinach-salad-sigeumchi-namul-version-1/"
       }
     },
@@ -36133,60 +36142,60 @@
     {
       "@context": "https://schema.org",
       "@type": "Recipe",
-      "name": "Veggie Salad",
-      "description": "This salad combines roasted and raw vegetables for contrasting textures. The secret is massaging the kale with sea salt for 2 minutes before adding the hot vegetables.",
+      "name": "Warm Roasted Veggie Salad with Maple-Dijon Vinaigrette",
+      "description": "Warm sweet potato and Brussels sprouts soften the kale slightly, while cranberries and Parmesan provide sweet and salty accents. Keep the roasting oil separate from the vinaigrette, and add the dressing in stages so the vegetables stay lightly coated rather than swimming in it.",
       "url": "https://jordansilton.com/mise/recipes/warm-roasted-veggie-salad-with-maple-dijon-vinaigrette/",
       "recipeIngredient": [
-        "1 medium Sweet Potato, 1/2-inch cubes",
-        "6 oz Brussels Sprouts, halved",
-        "1 Red Onion, sliced",
-        "2 tbsp Extra-Virgin Olive Oil",
-        "1/3 cup Extra-Virgin Olive Oil",
-        "2 tbsp Apple Cider Vinegar (The Acid Balance)",
-        "2 tbsp Pure Maple Syrup",
-        "1 tbsp Dijon Mustard",
-        "2 cloves garlic, mashed, for the dressing",
+        "1 medium sweet potato, cut into 1/2-inch cubes",
+        "6 oz Brussels sprouts, trimmed and halved",
+        "1 medium red onion, sliced",
+        "2 tbsp extra-virgin olive oil, for roasting",
+        "1/3 cup extra-virgin olive oil, for dressing",
+        "2 tbsp apple cider vinegar",
+        "2 tbsp pure maple syrup",
+        "1 tbsp Dijon mustard",
+        "2 cloves garlic, mashed, for dressing",
         "Salt and black pepper, to taste",
-        "3 cups Curly Kale, massaged",
+        "3 cups curly kale leaves, stems removed, chopped and loosely packed",
         "1/2 cup Parmesan, grated",
-        "1/2 cup Dried Cranberries"
+        "1/2 cup dried cranberries"
       ],
       "recipeInstructions": [
         {
           "@type": "HowToStep",
-          "text": "Roast: Preheat oven to 375°F. Toss sweet potatoes, sprouts, and onion with 2 tbsp oil, salt, and pepper. Roast for 20-25 minutes until caramelized and tender."
+          "text": "Prepare: Heat the oven to 375°F / 190°C. Dry the washed vegetables, cube the sweet potato evenly and halve the sprouts; quarter unusually large sprouts. Line a large rimmed sheet pan if desired."
         },
         {
           "@type": "HowToStep",
-          "text": "The Emulsion: In a small jar, whisk together the 1/3 cup oil, vinegar, syrup, Dijon, and garlic until thick and opaque."
+          "text": "Roast: Toss sweet potato, sprouts and onion with the 2 tablespoons roasting oil, salt and pepper. Spread in a single layer with space between pieces. Roast, turning once, starting to check at 20–25 minutes and allowing about 30 minutes or longer as needed. Remove when sweet potato is fork-tender and sprouts are browned; do not chase blackened edges."
         },
         {
           "@type": "HowToStep",
-          "text": "Massage: Place chopped kale in a large bowl. Sprinkle with a pinch of sea salt. Massage for 2 minutes until soft and dark green."
+          "text": "Whisk dressing: While the vegetables roast, whisk the 1/3 cup dressing oil with vinegar, maple syrup, Dijon and garlic. Taste and season with salt and pepper. Stir again if it separates."
         },
         {
           "@type": "HowToStep",
-          "text": "Assemble: Add the warm roasted vegetables directly to the kale bowl."
+          "text": "Soften kale: Wash, dry, stem and chop kale before measuring. Put the leaves in a large bowl with a small pinch of salt and rub gently for 1–2 minutes until pliable."
         },
         {
           "@type": "HowToStep",
-          "text": "Bind: Add the cranberries and Parmesan. Pour the dressing over the top."
+          "text": "Combine: Let the roasted vegetables stop steaming fiercely, then add to the kale with Parmesan and cranberries. Add about half the dressing and toss with tongs; add more only as needed to coat. Refrigerate any unused dressing separately."
         },
         {
           "@type": "HowToStep",
-          "text": "Toss: Toss vigorously with your hands until every leaf is coated in the sweet-savory emulsion. Serve immediately."
+          "text": "Serve: Divide into six side portions and serve warm. Refrigerate leftovers promptly rather than leaving the bowl at room temperature."
         }
       ],
-      "prepTime": "PT10M",
-      "cookTime": "PT25M",
-      "totalTime": "PT35M",
-      "recipeYield": "6",
+      "prepTime": "PT15M",
+      "cookTime": "PT30M",
+      "totalTime": "PT45M",
+      "recipeYield": "6 side portions",
       "recipeCategory": "Side dish",
       "recipeCuisine": ["American"],
       "keywords": "American, sweet, savory, acidic, umami, light-and-fresh, weeknight, entertaining, bake, roast, no-cook",
       "citation": {
         "@type": "CreativeWork",
-        "name": "Adapted from kalejunkie.com",
+        "name": "Adapted from Nicole Modic, Kalejunkie",
         "url": "https://kalejunkie.com/warm-roasted-veggie-salad-with-maple-dijon-vinaigrette/"
       }
     },

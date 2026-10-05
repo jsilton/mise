@@ -18,8 +18,8 @@ cuisines:
 role: main
 vibe: technical
 prepTime: 30 min
-cookTime: 6 min
-totalTime: 36 min
+cookTime: 10-15 min
+totalTime: 40-45 min with prepared broth and wrappers
 servings: '4'
 seasons:
   - year-round
@@ -35,13 +35,17 @@ pairsWith:
 ingredients:
   - 300g Ground Pork
   - '1 tsp Ginger, minced'
-  - 1 tbsp Light Soy Sauce + 1 tsp Shaoxing Wine
+  - 1 tbsp Light Soy Sauce, for the filling
+  - 1 tsp Shaoxing Wine, for the filling
   - '2 Scallions, finely chopped'
   - 3 tbsp Chicken Broth (as binder)
-  - 40 Wonton Wrappers
-  - 1 liter Wonton Broth (See note below)
+  - 40 small Wonton Wrappers (about 3.5 inches / 9 cm square)
+  - 1 liter prepared Wonton Broth (See note below)
   - 2 heads Baby Bok Choy
   - Sesame Oil and Scallions for garnish
+  - Salt and Ground White Pepper, to taste, for the broth
+  - Chili Oil, optional, for serving
+  - Water, for sealing wrappers and boiling wontons
 origin: China
 nutrition:
   calories: 30
@@ -59,13 +63,13 @@ sourceUrl: 'https://redhousespice.com/pork-wonton-soup/'
 
 Cantonese wonton soup features delicate pork wontons in clear, aromatic broth. Stirring the pork filling vigorously in one direction until it becomes sticky and tacky is a traditional technique that ensures the filling stays cohesive during boiling.
 
-**The Broth:** This recipe relies on [Cantonese Wonton Broth](/mise/recipes/cantonese-wonton-broth). You can use high-quality chicken stock infused with ginger/scallion in a pinch.
+**The Broth:** This recipe relies on [Cantonese Wonton Broth](/mise/recipes/cantonese-wonton-broth). You can use high-quality chicken stock infused with ginger/scallion in a pinch. Broth and wrappers must be ready before starting; making either from scratch takes additional time. Allow longer if your pot requires several wonton batches.
 
 ## Directions
 
 1.  **The Filling:** In a large bowl, whisk pork, scallions, ginger, soy, wine, and broth in one direction until sticky.
-2.  **Assemble:** Place 1 tsp filling in the center of a wrapper. Wet the edges with water. Fold into a rectangle, then pinch the two corners together to form a "hat."
-3.  **The Base:** In 4 serving bowls, add a drop of sesame oil, white pepper, and a pinch of salt.
-4.  **Boil:** In a large pot of water, boil wontons for 3-4 minutes until they float. During the final 20 seconds, add the bok choy.
-5.  **Bind:** Heat the [Wonton Broth](/mise/recipes/cantonese-wonton-broth) to boiling. Ladle the hot broth into the serving bowls.
-6.  **Serve:** Transfer the wontons and bok choy to the bowls. Garnish with scallions and chili oil for the final **High Note**.
+2.  **Assemble:** Divide all the filling among the small wrappers, using only as much as each can seal securely; the count may vary with wrapper size. Wet the edges with water. Fold into a rectangle, then pinch the two corners together to form a "hat."
+3.  **The Base:** Bring the prepared broth to a boil in a separate saucepan, then keep it hot. In 4 serving bowls, add a few drops of sesame oil and white pepper to taste. Taste the prepared broth before adding salt; the linked broth is already seasoned.
+4.  **Boil:** Bring a large pot of water to a boil. Add wontons in uncrowded batches and stir gently to prevent sticking. Begin checking after 3-4 minutes; floating alone is not a doneness test. Check several wontons with a thin-tip thermometer inserted into the center of the filling and continue cooking until they reach 165°F / 74°C. Halve or quarter the bok choy lengthwise, rinse well, and cook it in the hot broth until its stems are tender-crisp; do not rely on 20 seconds for whole heads.
+5.  **Bind:** Bring the [Wonton Broth](/mise/recipes/cantonese-wonton-broth) back to a boil if needed. Ladle the hot broth into the serving bowls.
+6.  **Serve:** Transfer the wontons and bok choy to the bowls. Garnish with scallions and optional chili oil.
