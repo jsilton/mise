@@ -2,7 +2,7 @@ import json,re,unicodedata,difflib,urllib.parse,collections,pathlib
 D=pathlib.Path('tmp/paprika-sync-2026-10-05')
 p=json.loads((D/'paprika.json').read_text());m=json.loads((D/'mise.json').read_text());aliases=json.loads(pathlib.Path('src/data/recipe-aliases.json').read_text())
 def norm(x):
- x=unicodedata.normalize('NFKD',x).encode('ascii','ignore').decode().lower(); x=re.sub(r'\(the .*?standard\)','',x);return re.sub(r'[^a-z0-9]+',' ',x).strip()
+ x=x.replace('&',' and ').replace('’',"'").replace("'",'').replace('–','-').replace('—','-');x=unicodedata.normalize('NFKD',x).encode('ascii','ignore').decode().lower(); x=re.sub(r'\(the .*?standard\)','',x);return re.sub(r'[^a-z0-9]+',' ',x).strip()
 def url(x):
  x=urllib.parse.urlparse(x or '');return (x.netloc.lower().removeprefix('www.')+x.path.rstrip('/')).lower()
 matched=[];unmatched=[]
