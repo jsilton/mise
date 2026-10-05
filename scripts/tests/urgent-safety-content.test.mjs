@@ -208,8 +208,14 @@ test('carbonara retains its two whole eggs plus two yolks and existing richness'
   assert.ok(data.ingredients.includes('1 cup Pecorino Romano or Parmesan, freshly grated'));
 });
 
-test('cold broth handling does not strip the tonkotsu fat identity', () => {
-  assert.ok(read('tonkotsu-style-ramen').includes("9. **Fat (Don't skim it off):**"));
+test('cold broth handling preserves dispersed fat without requiring a separate oil cap', () => {
+  const recipe = read('tonkotsu-style-ramen');
+  assert.ok(recipe.includes("Keep the broth's dispersed fat for richness"));
+  assert.ok(recipe.includes('do not skim away all the fat'));
+  assert.ok(
+    recipe.includes('Skim a little excess free surface oil only if the broth still feels greasy')
+  );
+  assert.ok(recipe.includes('A solid fat layer does not replace rapid cooling or refrigeration'));
 });
 
 test('pressure release correction does not silently reduce grandfather soup richness', () => {

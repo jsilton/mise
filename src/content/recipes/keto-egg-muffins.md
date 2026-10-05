@@ -39,8 +39,6 @@ ingredients:
   - 2 tbsp Basil Pesto (homemade or storebought)
   - Salt and Black Pepper
   - Unsalted Butter (for the tin)
-  - '--- Lemon juice ---'
-  - '1 Lemon, juiced'
 origin: United States
 nutrition:
   calories: 135

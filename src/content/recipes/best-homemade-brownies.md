@@ -16,8 +16,13 @@ role: dessert
 vibe: comfort
 prepTime: 10 min
 cookTime: 45 min
-totalTime: 55 min
+totalTime: 175 min (including at least 2 hours cooling)
 servings: '16'
+source: Love and Lemons, adapted from Michelle Lopez’s Weeknight Baking
+sourceUrl: https://www.loveandlemons.com/brownies-recipe/
+scaling:
+  mode: fixed
+  reason: Written for one 8-inch square pan. Make separate batches rather than changing batter depth in the same pan.
 ingredients:
   - 1 1/2 cups Granulated Sugar
   - 3/4 cup All-Purpose Flour
@@ -29,6 +34,7 @@ ingredients:
   - 1/2 cup Extra-Virgin Olive Oil
   - 2 tbsp Water
   - 1/2 tsp Vanilla Extract
+  - Cooking spray, for the pan and parchment
 origin: United States
 seasons:
   - year-round
@@ -39,19 +45,11 @@ pairsWith:
   - apple-pie
   - babys-first-smash-cake
   - best-cinnamon-roll-recipe-cinnabon-copycat
-nutrition:
-  calories: 425
-  protein: 6.5
-  carbs: 63
-  fat: 19.5
-  fiber: 5.5
-  sugar: 38.5
-  sodium: 460
 ---
 
 ## Chef's Note
 
-Extra-virgin olive oil adds fruity depth that pairs beautifully with dark chocolate. Powdered sugar in the dry mix creates the signature crackly, paper-thin crust on top while the center stays fudgy. Avoid over-mixing once dry ingredients are added - minimal stirring preserves the dense, fudgy texture.
+These brownies have dense, fudgy centers, chewy edges, and a noticeable olive-oil flavor. Keep the 8-inch square pan: a wider pan makes a thinner layer that bakes faster. Fold only until no dry flour remains, and cool completely before cutting so the soft center has time to firm up. Budget about 2 hours 55 minutes, including at least 2 hours of cooling; a warm pan may need longer.
 
 ## Directions
 

@@ -35,8 +35,6 @@ ingredients:
   - '1 cup Pecorino Romano or Parmesan, freshly grated'
   - 1 tsp Freshly Cracked Black Pepper (lots!)
   - Salt for pasta water
-  - '--- Lemon juice ---'
-  - '1-2 Lemons, juiced'
 nutrition:
   calories: 100
   protein: 7

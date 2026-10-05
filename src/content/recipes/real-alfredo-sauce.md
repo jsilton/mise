@@ -36,8 +36,6 @@ ingredients:
   - Pinch of Nutmeg (optional)
   - Salt and Black Pepper to taste
   - 1/4 cup Reserved Pasta Water
-  - '--- Lemon juice ---'
-  - '1-2 Lemons, juiced'
 nutrition:
   calories: 735
   protein: 38

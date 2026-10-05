@@ -43,8 +43,6 @@ ingredients:
   - '3 cups Baby Spinach, chopped'
   - 1 tbsp Italian Seasoning
   - Salt and Black Pepper
-  - '--- Lemon juice ---'
-  - '1-2 Lemons, juiced'
 origin: Italy
 nutrition:
   calories: 380

@@ -37,8 +37,6 @@ ingredients:
   - Steamed broccoli
   - Store-bought dinner rolls
   - Whole grain mustard or Dijon
-  - '--- Lemon juice ---'
-  - '1-2 Lemons, juiced'
 origin: Italy
 seasons:
   - year-round

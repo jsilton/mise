@@ -46,8 +46,6 @@ ingredients:
   - Red Pepper Flakes
   - Freshly Ground Black Pepper
   - 'Optional: shredded cheddar, crumbled bacon, hot sauce, sliced avocado'
-  - '--- Lemon juice ---'
-  - '1 Lemon, juiced'
 nutrition:
   calories: 495
   protein: 18.5

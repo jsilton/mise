@@ -43,8 +43,6 @@ ingredients:
   - 1/2 cup Parmesan Cheese or Nutritional Yeast
   - 1/2 tsp Kosher Salt
   - Pinch of Nutmeg
-  - '--- Lemon juice ---'
-  - '1-2 Lemons, juiced'
 origin: Italy
 nutrition:
   calories: 595

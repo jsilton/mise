@@ -40,8 +40,6 @@ ingredients:
   - 1 tbsp Oyster Sauce
   - 2 tsp Toasted Sesame Oil
   - 3 tsp Peanut Oil
-  - '--- Black vinegar ---'
-  - 1 tbsp Black Vinegar
 origin: China
 nutrition:
   calories: 390

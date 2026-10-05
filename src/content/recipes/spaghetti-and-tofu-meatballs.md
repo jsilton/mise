@@ -47,8 +47,6 @@ ingredients:
   - '1 Green Pepper, chopped'
   - '3 cloves Garlic, minced'
   - 1 1/2 tsp Dried Basil + 3/4 tsp Oregano
-  - '--- Lemon juice ---'
-  - '1-2 Lemons, juiced'
 origin: Italy
 nutrition:
   calories: 1010

@@ -41,8 +41,6 @@ ingredients:
   - Kosher Salt
   - Freshly Ground Black Pepper
   - 'Optional: shredded cheese, hot sauce, everything bagel seasoning'
-  - '--- Lemon juice ---'
-  - '1 Lemon, juiced'
 nutrition:
   calories: 315
   protein: 12.5

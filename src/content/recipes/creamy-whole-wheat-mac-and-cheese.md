@@ -40,8 +40,6 @@ ingredients:
   - 1/4 tsp Sea Salt
   - Plenty of Black Pepper
   - Pinch of Nutmeg (The Finishing Touch)
-  - '--- Lemon juice ---'
-  - '1 Lemon, juiced'
 nutrition:
   calories: 540
   protein: 19

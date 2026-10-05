@@ -37,8 +37,6 @@ ingredients:
   - 1 tsp Light Soy Sauce
   - 1 tsp Fish Sauce (Fallback if dried shrimp is unavailable)
   - Salt and white pepper to taste
-  - '--- Black vinegar ---'
-  - 1 tbsp Black Vinegar
 origin: China
 nutrition:
   calories: 55

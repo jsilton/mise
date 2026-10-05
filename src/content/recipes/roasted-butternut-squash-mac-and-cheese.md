@@ -38,8 +38,6 @@ ingredients:
   - Pinch of Nutmeg and Cayenne
   - 1/2 cup Panko Breadcrumbs
   - '2 tbsp Unsalted Butter, melted'
-  - '--- Lemon juice ---'
-  - '1 Lemon, juiced'
 origin: United States
 seasons:
   - year-round

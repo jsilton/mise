@@ -42,8 +42,6 @@ ingredients:
   - '4 slices Bacon, cooked and chopped'
   - 1/4 tsp Sea Salt + 1/4 tsp Black Pepper
   - Butter or oil spray
-  - '--- Lemon juice ---'
-  - '1 Lemon, juiced'
 origin: United States
 nutrition:
   calories: 245

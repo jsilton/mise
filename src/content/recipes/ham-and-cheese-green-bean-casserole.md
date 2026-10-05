@@ -33,8 +33,6 @@ ingredients:
   - '2 1/2 cups Sharp Cheddar, freshly grated'
   - 1 cup Canned French Fried Onions (divided)
   - Unsalted Butter (for the dish)
-  - '--- Lemon juice ---'
-  - '1 Lemon, juiced'
 origin: United States
 seasons:
   - year-round

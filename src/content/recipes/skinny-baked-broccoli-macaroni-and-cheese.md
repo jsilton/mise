@@ -47,8 +47,6 @@ ingredients:
   - 1/4 cup Minced Onion
   - 1/4 cup Seasoned Breadcrumbs
   - '2 tbsp Parmesan, grated'
-  - '--- Lemon juice ---'
-  - '1 Lemon, juiced'
 origin: United States
 nutrition:
   calories: 520

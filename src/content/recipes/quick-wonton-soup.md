@@ -39,8 +39,6 @@ ingredients:
   - 1 tsp Toasted Sesame Oil
   - 'Scallions, sliced green parts only'
   - White Pepper
-  - '--- Black vinegar ---'
-  - 1 tbsp Black Vinegar
 nutrition:
   calories: 75
   protein: 4.5

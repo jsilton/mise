@@ -38,8 +38,6 @@ ingredients:
   - '1/2 cup Whole Milk, warmed'
   - 1/4 cup Freshly Grated Parmesan
   - Salt and Black Pepper
-  - '--- Lemon juice ---'
-  - '1 Lemon, juiced'
 origin: United States
 nutrition:
   calories: 200
