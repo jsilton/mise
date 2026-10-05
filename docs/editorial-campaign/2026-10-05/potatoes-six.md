@@ -22,3 +22,7 @@ All252 repository tests passed. Final plain-prose corrections were checked with 
 All six rendered methods and storage passages were reviewed.135 ingredient values and18 yield displays at half/double/reset agree with the existing scaling functions. Every page fits375px without horizontal overflow. Ingredient and step checks persist for the same method; a changed method resets stale checks as designed. Cook mode enters/exits, reset works and no console errors were observed. The print button is enabled and shared print CSS remains unchanged; a successful print preview has not been available in this browser, so printed output is not claimed verified. Zero kitchen tests and no native-app sync.
 
 Two final wording corrections replace the Smashed Potatoes guarantee comparison with direct sensory cues and remove an editing-rule aside from Cauliflower Rice’s herb omission. Exact corrections and final hashes are in the paired records. All643 stable IDs, titles, ratings, source/cultural metadata, relationships and controls are preserved; only these six sources changed,637 remain byte-for-byte unchanged.
+
+## Implementation and publication state
+
+Implemented in`1bd5c42bf7d801f19165b16dfffc3cee4906c1c6`. Final post-commit source hashes match this record. Release of seven preceding cold-side recipes at5cbddf1f built successfully but its deployment job could not acquire a hosted runner (run37372602039; no deployment steps ran). Both groups, thirteen complete editorial versions, await the next exact deployment and live-page verification.

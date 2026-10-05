@@ -1,5 +1,9 @@
 # Current campaign state — October 5, 2026
 
+Coverage is263 recorded complete /380 pending across643 sources, with zero kitchen tests. Sixteen new complete versions are verified live. Seven cold-side versions at5cbddf1f built successfully but deployment run37372602039 could not acquire a hosted runner; six potato/cauliflower versions are implemented and validated at1bd5c42b. All thirteen await exact deployment/live verification. The42 accelerated targeted repairs remain a separate scope with overlapping identities. Three subagents continue whole-source author review and independent challenges; root alone integrates and publishes. [Potato/cauliflower release evidence](editorial-campaign/2026-10-05/potatoes-six.md).
+
+# Current campaign state — October 5, 2026
+
 Six complete potato/cauliflower reviews passed independent challenge and root inspection locally:263 recorded complete /380 pending across643 sources; zero kitchen tests. Sixteen new complete versions are verified live. Seven cold-side versions are pushed at5cbddf1f with exact deployment/live verification pending; six potato/cauliflower versions await release validation and implementation. The42 accelerated targeted repairs remain a separate scope. [Six-recipe acceptance](editorial-campaign/2026-10-05/potatoes-six.md).
 
 # Current campaign state — October 5, 2026

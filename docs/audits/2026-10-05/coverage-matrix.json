@@ -1,6 +1,6 @@
 {
   "summary": {
-    "inputCommit": "e8cc0915726ca7bc236f824cdd626e09e7701ad6",
+    "inputCommit": "1bd5c42bf7d801f19165b16dfffc3cee4906c1c6",
     "recipes": 643,
     "recordedCompleteEditorial": 263,
     "completeEditorialPending": 380,
@@ -27,7 +27,7 @@
     },
     "uniquePathsInSixRepairCommits": 105,
     "kitchenTested": 0,
-    "productionReconciliation": "Accelerated42 targeted repairs verified live through e922e95e; ten complete editorial versions live at b1435040 and six baking versions live at e2ae34b9. Seven cold-side versions at5cbddf1f await exact deployment/live verification. Six potato/cauliflower versions accepted locally; validation, implementation and publication pending."
+    "productionReconciliation": "Accelerated42 targeted repairs verified live through e922e95e; ten complete versions live at b1435040 and six baking versions live at e2ae34b9. Seven cold-side versions at5cbddf1f built successfully, but deployment run37372602039 could not acquire a hosted runner. Six potato/cauliflower versions implemented at1bd5c42b; all thirteen await the next exact deployment/live verification."
   },
   "collectionEvidence": [
     "docs/REVIEW_PROGRESS.md",
@@ -3618,11 +3618,11 @@
         "record": "docs/reviews/cauliflower-alfredo-sauce.md",
         "acceptedSha256": "83392df438cf6891a44ac9feaff4f75f9d543fbf73484c018ac3aea15aa2cac6",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/potatoes-independent.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "1bd5c42bf7d801f19165b16dfffc3cee4906c1c6"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "1bd5c42bf7d801f19165b16dfffc3cee4906c1c6",
       "acceptedChange": {
-        "status": "accepted locally after independent challenge and complete root inspection; implementation pending",
+        "status": "implemented after independent challenge and complete root inspection",
         "record": "docs/reviews/cauliflower-alfredo-sauce.json",
         "sourceSha256": "83392df438cf6891a44ac9feaff4f75f9d543fbf73484c018ac3aea15aa2cac6"
       },
@@ -3631,6 +3631,10 @@
           "commit": "493885bb88fa96b1ab626b20a5c8ec78830f9145",
           "evidence": "actual recipe diff retained privately",
           "scope": "historical safety/scaling/source repair; file touch is not complete review"
+        },
+        {
+          "commit": "1bd5c42bf7d801f19165b16dfffc3cee4906c1c6",
+          "scope": "complete editorial review"
         }
       ],
       "productionVerification": {
@@ -3671,15 +3675,20 @@
         "record": "docs/reviews/cauliflower-rice.md",
         "acceptedSha256": "98768b429b98946036801c08f62165e7553f26cb27d63855765fa2f58277cb8a",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/potatoes-independent.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "1bd5c42bf7d801f19165b16dfffc3cee4906c1c6"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "1bd5c42bf7d801f19165b16dfffc3cee4906c1c6",
       "acceptedChange": {
-        "status": "accepted locally after independent challenge and complete root inspection; implementation pending",
+        "status": "implemented after independent challenge and complete root inspection",
         "record": "docs/reviews/cauliflower-rice.json",
         "sourceSha256": "98768b429b98946036801c08f62165e7553f26cb27d63855765fa2f58277cb8a"
       },
-      "implementationCommits": [],
+      "implementationCommits": [
+        {
+          "commit": "1bd5c42bf7d801f19165b16dfffc3cee4906c1c6",
+          "scope": "complete editorial review"
+        }
+      ],
       "productionVerification": {
         "status": "pending; older live version does not certify accepted editorial version"
       },
@@ -4009,15 +4018,20 @@
         "record": "docs/reviews/cheesy-cauliflower-sauce.md",
         "acceptedSha256": "d2378a06a7f241e7f65614bf24430d24a82ef7e88b0ed13481772f78c96d7180",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/potatoes-independent.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "1bd5c42bf7d801f19165b16dfffc3cee4906c1c6"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "1bd5c42bf7d801f19165b16dfffc3cee4906c1c6",
       "acceptedChange": {
-        "status": "accepted locally after independent challenge and complete root inspection; implementation pending",
+        "status": "implemented after independent challenge and complete root inspection",
         "record": "docs/reviews/cheesy-cauliflower-sauce.json",
         "sourceSha256": "d2378a06a7f241e7f65614bf24430d24a82ef7e88b0ed13481772f78c96d7180"
       },
-      "implementationCommits": [],
+      "implementationCommits": [
+        {
+          "commit": "1bd5c42bf7d801f19165b16dfffc3cee4906c1c6",
+          "scope": "complete editorial review"
+        }
+      ],
       "productionVerification": {
         "status": "pending; older live version does not certify accepted editorial version"
       },
@@ -5254,7 +5268,9 @@
         }
       ],
       "productionVerification": {
-        "status": "pending; older live version does not certify accepted editorial version"
+        "status": "pending; release5cbddf1f build passed but deployment did not acquire hosted runner",
+        "attemptedCommit": "5cbddf1fd091940c2e86aa9c1045bc7e25fde78a",
+        "failedDeploymentRun": 37372602039
       },
       "remainingQuestions": [
         "Measure finished sauce volume and original eight condiment portions; packing of parsley/oregano varies.",
@@ -6504,7 +6520,9 @@
         }
       ],
       "productionVerification": {
-        "status": "pending; older live version does not certify accepted editorial version"
+        "status": "pending; release5cbddf1f build passed but deployment did not acquire hosted runner",
+        "attemptedCommit": "5cbddf1fd091940c2e86aa9c1045bc7e25fde78a",
+        "failedDeploymentRun": 37372602039
       },
       "remainingQuestions": [
         "Measure avocado edible mass and finished dip volume; eight portions remain a planning claim.",
@@ -7943,11 +7961,11 @@
         "record": "docs/reviews/crispy-smashed-potatoes.md",
         "acceptedSha256": "0f96fe9858b281a1355a6ca202c4d26dbb949d65b1d401d0cf15f7cee17851c1",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/potatoes-independent.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "1bd5c42bf7d801f19165b16dfffc3cee4906c1c6"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "1bd5c42bf7d801f19165b16dfffc3cee4906c1c6",
       "acceptedChange": {
-        "status": "accepted locally after independent challenge and complete root inspection; implementation pending",
+        "status": "implemented after independent challenge and complete root inspection",
         "record": "docs/reviews/crispy-smashed-potatoes.json",
         "sourceSha256": "0f96fe9858b281a1355a6ca202c4d26dbb949d65b1d401d0cf15f7cee17851c1"
       },
@@ -7956,6 +7974,10 @@
           "commit": "ee9c707878074d7d56dcb3fb737afb537051aba5",
           "evidence": "actual recipe diff retained privately",
           "scope": "accelerated targeted repair"
+        },
+        {
+          "commit": "1bd5c42bf7d801f19165b16dfffc3cee4906c1c6",
+          "scope": "complete editorial review"
         }
       ],
       "productionVerification": {
@@ -8994,7 +9016,9 @@
         }
       ],
       "productionVerification": {
-        "status": "pending; older live version does not certify accepted editorial version"
+        "status": "pending; release5cbddf1f build passed but deployment did not acquire hosted runner",
+        "attemptedCommit": "5cbddf1fd091940c2e86aa9c1045bc7e25fde78a",
+        "failedDeploymentRun": 37372602039
       },
       "remainingQuestions": [
         "Measure drained bean/mozzarella weights and cucumber size, finished bowl volume and portions.",
@@ -10972,15 +10996,20 @@
         "record": "docs/reviews/garlic-mashed-mock-potatoes.md",
         "acceptedSha256": "d188507d62a40d5ddfd9510327f75700311dd60ecb2eded4f08c1db3eeb27f6f",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/potatoes-independent.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "1bd5c42bf7d801f19165b16dfffc3cee4906c1c6"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "1bd5c42bf7d801f19165b16dfffc3cee4906c1c6",
       "acceptedChange": {
-        "status": "accepted locally after independent challenge and complete root inspection; implementation pending",
+        "status": "implemented after independent challenge and complete root inspection",
         "record": "docs/reviews/garlic-mashed-mock-potatoes.json",
         "sourceSha256": "d188507d62a40d5ddfd9510327f75700311dd60ecb2eded4f08c1db3eeb27f6f"
       },
-      "implementationCommits": [],
+      "implementationCommits": [
+        {
+          "commit": "1bd5c42bf7d801f19165b16dfffc3cee4906c1c6",
+          "scope": "complete editorial review"
+        }
+      ],
       "productionVerification": {
         "status": "pending; older live version does not certify accepted editorial version"
       },
@@ -11015,11 +11044,11 @@
         "record": "docs/reviews/garlic-mashed-red-potatoes.md",
         "acceptedSha256": "e6201c39f65041d175ed83e5cd84994ed6fb87f7a3da095b7e0b267a9fd00bfa",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/potatoes-independent.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "1bd5c42bf7d801f19165b16dfffc3cee4906c1c6"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "1bd5c42bf7d801f19165b16dfffc3cee4906c1c6",
       "acceptedChange": {
-        "status": "accepted locally after independent challenge and complete root inspection; implementation pending",
+        "status": "implemented after independent challenge and complete root inspection",
         "record": "docs/reviews/garlic-mashed-red-potatoes.json",
         "sourceSha256": "e6201c39f65041d175ed83e5cd84994ed6fb87f7a3da095b7e0b267a9fd00bfa"
       },
@@ -11028,6 +11057,10 @@
           "commit": "493885bb88fa96b1ab626b20a5c8ec78830f9145",
           "evidence": "actual recipe diff retained privately",
           "scope": "historical safety/scaling/source repair; file touch is not complete review"
+        },
+        {
+          "commit": "1bd5c42bf7d801f19165b16dfffc3cee4906c1c6",
+          "scope": "complete editorial review"
         }
       ],
       "productionVerification": {
@@ -16871,7 +16904,9 @@
         }
       ],
       "productionVerification": {
-        "status": "pending; older live version does not certify accepted editorial version"
+        "status": "pending; release5cbddf1f build passed but deployment did not acquire hosted runner",
+        "attemptedCommit": "5cbddf1fd091940c2e86aa9c1045bc7e25fde78a",
+        "failedDeploymentRun": 37372602039
       },
       "remainingQuestions": [
         "Identify chickpea can size and actual drained mass, edamame product cooking/cooling route and full four-portion yield.",
@@ -22382,7 +22417,9 @@
         }
       ],
       "productionVerification": {
-        "status": "pending; older live version does not certify accepted editorial version"
+        "status": "pending; release5cbddf1f build passed but deployment did not acquire hosted runner",
+        "attemptedCommit": "5cbddf1fd091940c2e86aa9c1045bc7e25fde78a",
+        "failedDeploymentRun": 37372602039
       },
       "remainingQuestions": [
         "Weigh actual grated Pecorino relative to1 cup and record grated particle/packing state.",
@@ -24450,7 +24487,9 @@
         }
       ],
       "productionVerification": {
-        "status": "pending; older live version does not certify accepted editorial version"
+        "status": "pending; release5cbddf1f build passed but deployment did not acquire hosted runner",
+        "attemptedCommit": "5cbddf1fd091940c2e86aa9c1045bc7e25fde78a",
+        "failedDeploymentRun": 37372602039
       },
       "remainingQuestions": [
         "Measure actual finished sauce volume and eight small portions after adding aromatics.",
@@ -28760,7 +28799,9 @@
         }
       ],
       "productionVerification": {
-        "status": "pending; older live version does not certify accepted editorial version"
+        "status": "pending; release5cbddf1f build passed but deployment did not acquire hosted runner",
+        "attemptedCommit": "5cbddf1fd091940c2e86aa9c1045bc7e25fde78a",
+        "failedDeploymentRun": 37372602039
       },
       "remainingQuestions": [
         "Measure dip volume and four portions; compare plain and Greek yogurt consistency.",
