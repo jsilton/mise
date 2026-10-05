@@ -2,22 +2,22 @@
   "summary": {
     "inputCommit": "e8cc0915726ca7bc236f824cdd626e09e7701ad6",
     "recipes": 643,
-    "recordedCompleteEditorial": 257,
-    "completeEditorialPending": 386,
+    "recordedCompleteEditorial": 263,
+    "completeEditorialPending": 380,
     "originalBaseline": 612,
-    "originalReviewed": 247,
+    "originalReviewed": 252,
     "consideredConsolidations": 10,
-    "originalPending": 355,
+    "originalPending": 350,
     "additionalSources": 41,
-    "additionalReviewed": 10,
-    "additionalPending": 31,
+    "additionalReviewed": 11,
+    "additionalPending": 30,
     "automatedAudit": {
       "recipes": 643,
-      "editoriallyReviewed": 257,
+      "editoriallyReviewed": 263,
       "kitchenTested": 0,
       "errors": 0,
       "priorityReviews": 0,
-      "reviewItems": 717
+      "reviewItems": 706
     },
     "accelerated": {
       "implemented": 42,
@@ -27,7 +27,7 @@
     },
     "uniquePathsInSixRepairCommits": 105,
     "kitchenTested": 0,
-    "productionReconciliation": "Accelerated42 targeted repairs verified live through e922e95e. Ten complete editorial versions verified live at b1435040; six baking complete versions verified live at e2ae34b9, run37369907481. Seven cold-side versions implemented at e8cc0915 and locally validated; publication pending."
+    "productionReconciliation": "Accelerated42 targeted repairs verified live through e922e95e; ten complete editorial versions live at b1435040 and six baking versions live at e2ae34b9. Seven cold-side versions at5cbddf1f await exact deployment/live verification. Six potato/cauliflower versions accepted locally; validation, implementation and publication pending."
   },
   "collectionEvidence": [
     "docs/REVIEW_PROGRESS.md",
@@ -3603,18 +3603,7 @@
       "baseline": "original canonical",
       "source": "Adapted from chocolatecoveredkatie.com",
       "sourceUrl": "https://chocolatecoveredkatie.com/cauliflower-alfredo-sauce-recipe/",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -3625,12 +3614,18 @@
         ]
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/cauliflower-alfredo-sauce.md",
+        "acceptedSha256": "83392df438cf6891a44ac9feaff4f75f9d543fbf73484c018ac3aea15aa2cac6",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/potatoes-independent.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": "historical implemented diff; acceptance scope requires linked record, not inferred from file touch",
+      "acceptedChange": {
+        "status": "accepted locally after independent challenge and complete root inspection; implementation pending",
+        "record": "docs/reviews/cauliflower-alfredo-sauce.json",
+        "sourceSha256": "83392df438cf6891a44ac9feaff4f75f9d543fbf73484c018ac3aea15aa2cac6"
+      },
       "implementationCommits": [
         {
           "commit": "493885bb88fa96b1ab626b20a5c8ec78830f9145",
@@ -3639,11 +3634,12 @@
         }
       ],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; older live version does not certify accepted editorial version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Measure actual florets and finished sauce volume with Parmesan versus yeast.",
+        "Record the actual blender model, manual limits and cooling/blending schedule.",
+        "Test the current garlic and dairy combinations and thickening after standing."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -3663,18 +3659,7 @@
       "baseline": "original canonical",
       "source": null,
       "sourceUrl": null,
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -3682,19 +3667,26 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/cauliflower-rice.md",
+        "acceptedSha256": "98768b429b98946036801c08f62165e7553f26cb27d63855765fa2f58277cb8a",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/potatoes-independent.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally after independent challenge and complete root inspection; implementation pending",
+        "record": "docs/reviews/cauliflower-rice.json",
+        "sourceSha256": "98768b429b98946036801c08f62165e7553f26cb27d63855765fa2f58277cb8a"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; older live version does not certify accepted editorial version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Record head weight versus usable grains and the number of processor/skillet batches.",
+        "Record pan size and texture after 5–6 minutes at the chosen load.",
+        "Check the short garlic finish and reheated grain texture."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -4005,13 +3997,7 @@
       "baseline": "addition",
       "source": "yummytoddlerfood.com",
       "sourceUrl": "https://www.yummytoddlerfood.com/cauliflower-alfredo-sauce/",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -4019,19 +4005,26 @@
         "evidence": ["docs/reviews/cheesy-cauliflower-sauce.md"]
       },
       "completeEditorialReview": {
-        "status": "pending",
+        "status": "editorial-review",
         "record": "docs/reviews/cheesy-cauliflower-sauce.md",
-        "recordImplementationCommit": "9faedba59b21bb230dcddd530489dc6e86d51bde"
+        "acceptedSha256": "d2378a06a7f241e7f65614bf24430d24a82ef7e88b0ed13481772f78c96d7180",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/potatoes-independent.md",
+        "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally after independent challenge and complete root inspection; implementation pending",
+        "record": "docs/reviews/cheesy-cauliflower-sauce.json",
+        "sourceSha256": "d2378a06a7f241e7f65614bf24430d24a82ef7e88b0ed13481772f78c96d7180"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; older live version does not certify accepted editorial version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Measure sauce-only yield and coverage of the original pound of pasta/eight planning portions.",
+        "Record fresh/frozen cauliflower softening and actual blender/cooling requirements.",
+        "Test yogurt and cheddar texture on gentle reheating."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -7935,18 +7928,7 @@
       "baseline": "original canonical",
       "source": null,
       "sourceUrl": null,
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": "targeted repair",
         "acceleratedEvidence": {
@@ -7957,12 +7939,18 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/crispy-smashed-potatoes.md",
+        "acceptedSha256": "0f96fe9858b281a1355a6ca202c4d26dbb949d65b1d401d0cf15f7cee17851c1",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/potatoes-independent.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": "accepted accelerated targeted repair",
+      "acceptedChange": {
+        "status": "accepted locally after independent challenge and complete root inspection; implementation pending",
+        "record": "docs/reviews/crispy-smashed-potatoes.json",
+        "sourceSha256": "0f96fe9858b281a1355a6ca202c4d26dbb949d65b1d401d0cf15f7cee17851c1"
+      },
       "implementationCommits": [
         {
           "commit": "ee9c707878074d7d56dcb3fb737afb537051aba5",
@@ -7971,12 +7959,12 @@
         }
       ],
       "productionVerification": {
-        "status": "retained handoff verified deployment; not rechecked live in this reconciliation",
-        "commit": "ee9c707878074d7d56dcb3fb737afb537051aba5"
+        "status": "pending; older live version does not certify accepted editorial version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Record baby potato size, tray load and breakage when turning.",
+        "Measure boiling/roasting times and crispness with the full quarter cup of oil.",
+        "Check reheating texture without claiming it matches freshly cooked potatoes."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -10972,18 +10960,7 @@
       "baseline": "original canonical",
       "source": "Adapted from Foodnetwork.com",
       "sourceUrl": "http://www.foodnetwork.com/recipes/mock-garlic-mashed-potatoes-recipe-1942447",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -10991,19 +10968,26 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/garlic-mashed-mock-potatoes.md",
+        "acceptedSha256": "d188507d62a40d5ddfd9510327f75700311dd60ecb2eded4f08c1db3eeb27f6f",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/potatoes-independent.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally after independent challenge and complete root inspection; implementation pending",
+        "record": "docs/reviews/garlic-mashed-mock-potatoes.json",
+        "sourceSha256": "d188507d62a40d5ddfd9510327f75700311dd60ecb2eded4f08c1db3eeb27f6f"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; older live version does not certify accepted editorial version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Record cauliflower head weight, drained yield and four planning portions.",
+        "Record the actual bouillon paste label/strength and salt needed.",
+        "Compare approved warm processing or cooling, moisture and texture with all three tablespoons of butter."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -11019,18 +11003,7 @@
       "baseline": "original canonical",
       "source": "Adapted from tasteofhome.com",
       "sourceUrl": "https://www.tasteofhome.com/recipes/garlic-mashed-red-potatoes/",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -11038,12 +11011,18 @@
         "evidence": ["docs/reviews/source-restorations-2026-10-05.md"]
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/garlic-mashed-red-potatoes.md",
+        "acceptedSha256": "e6201c39f65041d175ed83e5cd84994ed6fb87f7a3da095b7e0b267a9fd00bfa",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/potatoes-independent.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": "historical implemented diff; acceptance scope requires linked record, not inferred from file touch",
+      "acceptedChange": {
+        "status": "accepted locally after independent challenge and complete root inspection; implementation pending",
+        "record": "docs/reviews/garlic-mashed-red-potatoes.json",
+        "sourceSha256": "e6201c39f65041d175ed83e5cd84994ed6fb87f7a3da095b7e0b267a9fd00bfa"
+      },
       "implementationCommits": [
         {
           "commit": "493885bb88fa96b1ab626b20a5c8ec78830f9145",
@@ -11052,11 +11031,12 @@
         }
       ],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; older live version does not certify accepted editorial version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Record the actual weight of eight potatoes, quarter size and six planning portions.",
+        "Record the thickest quarter’s tenderness, pot heating and full milk incorporation.",
+        "Check rustic texture and reheating with the skins and whole milk."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
