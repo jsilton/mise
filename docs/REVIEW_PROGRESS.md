@@ -1,3 +1,9 @@
+# Current coverage reconciliation — October 5, 2026
+
+Fresh-main accounting at `e24cf89a`: 643 canonical sources, 234 recorded complete editorial statuses, 409 pending complete review, zero recorded kitchen tests. The 35 recent Paprika imports are included in refreshed automated triage. Ten considered consolidations are deduplicated by canonical path. Targeted repairs remain a separate dimension: 37 implemented, five validated desserts awaiting publication ownership/release, four narrow no-change decisions and two holds. No new recipe approval is granted.
+
+See [current reconciliation](audits/2026-10-05/reconciliation.md) and [per-recipe matrix](audits/2026-10-05/coverage-matrix.json) for input commit, evidence and limits. Older entries below retain historical counts and publication statements; they do not describe fresh-main coverage. Latest main deployment built but failed; no new release is claimed here.
+
 # Audit repairs handoff — 2026-09-16
 
 ## Lavender London Fog addition — 19 September 2026
