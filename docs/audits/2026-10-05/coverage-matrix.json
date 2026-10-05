@@ -2,22 +2,22 @@
   "summary": {
     "inputCommit": "bacc1e4bdbd0e2715960d84f48a8eea57d4501b4",
     "recipes": 643,
-    "recordedCompleteEditorial": 282,
-    "completeEditorialPending": 361,
+    "recordedCompleteEditorial": 288,
+    "completeEditorialPending": 355,
     "originalBaseline": 612,
-    "originalReviewed": 268,
+    "originalReviewed": 273,
     "consideredConsolidations": 10,
-    "originalPending": 334,
+    "originalPending": 329,
     "additionalSources": 41,
-    "additionalReviewed": 14,
-    "additionalPending": 27,
+    "additionalReviewed": 15,
+    "additionalPending": 26,
     "automatedAudit": {
       "recipes": 643,
-      "editoriallyReviewed": 282,
+      "editoriallyReviewed": 288,
       "kitchenTested": 0,
       "errors": 0,
       "priorityReviews": 0,
-      "reviewItems": 672
+      "reviewItems": 663
     },
     "accelerated": {
       "implemented": 42,
@@ -27,7 +27,7 @@
     },
     "uniquePathsInSixRepairCommits": 105,
     "kitchenTested": 0,
-    "productionReconciliation": "The 42 accelerated targeted repairs remain verified live as a separate overlapping scope. Forty-eight new complete editorial versions from the original 409-source campaign are verified live. The latest six slow-cooker versions are implemented at b63c21b9 and verified at exact remote release 7a2d1bbf, successful Pages run 37387138606 and all affected live pages. No physical kitchen testing or native-app sync occurred."
+    "productionReconciliation": "The 42 accelerated targeted repairs remain verified live as a separate overlapping scope. Forty-eight new complete editorial versions from the original 409-source campaign are verified live. Six grain and vegetable versions are accepted locally after whole independent and root review; validation, implementation and exact production verification remain pending. No physical kitchen testing or native-app sync occurred."
   },
   "collectionEvidence": [
     "docs/REVIEW_PROGRESS.md",
@@ -2157,18 +2157,7 @@
       "baseline": "original canonical",
       "source": "Adapted from Kids Eat in Color",
       "sourceUrl": null,
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -2176,19 +2165,25 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/blueberry-date-oatmeal.md",
+        "acceptedSha256": "4e9a63aeb89f65a85bd1543528e961e3154f6a0e270e27b3b1f1b7420010964e",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/boiled-six-independent.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally after whole independent challenge and complete root inspection; implementation pending",
+        "record": "docs/reviews/blueberry-date-oatmeal.json",
+        "sourceSha256": "4e9a63aeb89f65a85bd1543528e961e3154f6a0e270e27b3b1f1b7420010964e"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify accepted whole editorial version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Identify exact cauliflower/berry packages and confirm required preparation.",
+        "Check microwave wattage, bowl headroom, date size and final texture with1½cups chosen liquid."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -2718,13 +2713,7 @@
       "baseline": "addition",
       "source": "Saved Paprika recipe",
       "sourceUrl": null,
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -2732,19 +2721,25 @@
         "evidence": ["docs/reviews/broccoli-all-agro.md"]
       },
       "completeEditorialReview": {
-        "status": "pending",
+        "status": "editorial-review",
         "record": "docs/reviews/broccoli-all-agro.md",
-        "recordImplementationCommit": "9faedba59b21bb230dcddd530489dc6e86d51bde"
+        "acceptedSha256": "8029507d2449804e4cf3d209cfbf222782e6d6fec02712635d31c30017eadd10",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/boiled-six-independent.md",
+        "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally after whole independent challenge and complete root inspection; implementation pending",
+        "record": "docs/reviews/broccoli-all-agro.json",
+        "sourceSha256": "8029507d2449804e4cf3d209cfbf222782e6d6fec02712635d31c30017eadd10"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify accepted whole editorial version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Check actual two-head size, steamer capacity and six-side-portion estimate.",
+        "Kitchen-check lemon size and raw-garlic intensity while keeping saved amounts."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -3096,18 +3091,7 @@
       "baseline": "original canonical",
       "source": null,
       "sourceUrl": null,
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -3115,19 +3099,25 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/buttered-egg-noodles.md",
+        "acceptedSha256": "c3a6037e07394497ae319df3cac540a760bbb652dd10cdf1806b05105e25c601",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/boiled-six-independent.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally after whole independent challenge and complete root inspection; implementation pending",
+        "record": "docs/reviews/buttered-egg-noodles.json",
+        "sourceSha256": "c3a6037e07394497ae319df3cac540a760bbb652dd10cdf1806b05105e25c601"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify accepted whole editorial version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Check preferred wide-noodle brand and kosher-salt brand with the full measured finishing amount.",
+        "Time the actual stove water heating and assess four original side portions."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -22428,13 +22418,7 @@
       "baseline": "original canonical",
       "source": null,
       "sourceUrl": null,
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": "targeted repair",
         "acceleratedEvidence": {
@@ -22445,12 +22429,18 @@
         "evidence": ["docs/reviews/seasoned-bean-sprouts.md"]
       },
       "completeEditorialReview": {
-        "status": "pending",
+        "status": "editorial-review",
         "record": "docs/reviews/seasoned-bean-sprouts.md",
-        "recordImplementationCommit": "5741495b479d1891066e004ed07aa4b5f830db66"
+        "acceptedSha256": "c30d5d214d9679499d1c8ab6f184515671346b89461919d46c4a1fc4257d2548",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/boiled-six-independent.md",
+        "recordImplementationCommit": null
       },
       "latestRecipeCommit": "5741495b479d1891066e004ed07aa4b5f830db66",
-      "acceptedChange": "accepted accelerated targeted repair",
+      "acceptedChange": {
+        "status": "accepted locally after whole independent challenge and complete root inspection; implementation pending",
+        "record": "docs/reviews/seasoned-bean-sprouts.json",
+        "sourceSha256": "c30d5d214d9679499d1c8ab6f184515671346b89461919d46c4a1fc4257d2548"
+      },
       "implementationCommits": [
         {
           "commit": "5741495b479d1891066e004ed07aa4b5f830db66",
@@ -22459,12 +22449,11 @@
         }
       ],
       "productionVerification": {
-        "status": "retained handoff verified deployment; not rechecked live in this reconciliation",
-        "commit": "5741495b479d1891066e004ed07aa4b5f830db66"
+        "status": "pending; existing live version does not certify accepted whole editorial version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Verify actual soybean sprout package cooking directions and probe placement.",
+        "Kitchen-check pot/headroom and bean-head tenderness at original batch."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -23769,13 +23758,7 @@
       "baseline": "original canonical",
       "source": "Adapted from Sue Pressey, My Korean Kitchen",
       "sourceUrl": "https://mykoreankitchen.com/simply-seasoned-korean-spinach-salad-sigeumchi-namul-version-1/",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": "targeted repair",
         "acceleratedEvidence": {
@@ -23786,12 +23769,18 @@
         "evidence": ["docs/reviews/simply-seasoned-korean-spinach-salad.md"]
       },
       "completeEditorialReview": {
-        "status": "pending",
+        "status": "editorial-review",
         "record": "docs/reviews/simply-seasoned-korean-spinach-salad.md",
-        "recordImplementationCommit": "5741495b479d1891066e004ed07aa4b5f830db66"
+        "acceptedSha256": "7a1f3f1d05aecec877c2be2402b24055137f995a928f4ce5cf92d13e0962ccc7",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/boiled-six-independent.md",
+        "recordImplementationCommit": null
       },
       "latestRecipeCommit": "5741495b479d1891066e004ed07aa4b5f830db66",
-      "acceptedChange": "accepted accelerated targeted repair",
+      "acceptedChange": {
+        "status": "accepted locally after whole independent challenge and complete root inspection; implementation pending",
+        "record": "docs/reviews/simply-seasoned-korean-spinach-salad.json",
+        "sourceSha256": "7a1f3f1d05aecec877c2be2402b24055137f995a928f4ce5cf92d13e0962ccc7"
+      },
       "implementationCommits": [
         {
           "commit": "5741495b479d1891066e004ed07aa4b5f830db66",
@@ -23800,12 +23789,11 @@
         }
       ],
       "productionVerification": {
-        "status": "retained handoff verified deployment; not rechecked live in this reconciliation",
-        "commit": "5741495b479d1891066e004ed07aa4b5f830db66"
+        "status": "pending; existing live version does not certify accepted whole editorial version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Check spinach stem thickness and gently drained yield for four original small sides.",
+        "Assess salinity with actual fine sea salt without inventing a gram conversion."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -25688,18 +25676,7 @@
       "baseline": "original canonical",
       "source": "Adapted from Foodnetwork.com",
       "sourceUrl": "http://www.foodnetwork.com/recipes/alton-brown/steel-cut-oatmeal-recipe-1939448",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -25707,19 +25684,25 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/steel-cut-oatmeal.md",
+        "acceptedSha256": "28bb80ab5b14a41f27942ddd565a5aab8b13dabe259ff5ec3ce12f6f575ca1d5",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/boiled-six-independent.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally after whole independent challenge and complete root inspection; implementation pending",
+        "record": "docs/reviews/steel-cut-oatmeal.json",
+        "sourceSha256": "28bb80ab5b14a41f27942ddd565a5aab8b13dabe259ff5ec3ce12f6f575ca1d5"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify accepted whole editorial version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Kitchen-check saved equal buttermilk split versus publisher8/1 split without treating either as tested here.",
+        "Check covered simmer evaporation, tenderness and four original portions on actual stove."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",

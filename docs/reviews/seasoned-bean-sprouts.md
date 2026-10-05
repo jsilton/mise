@@ -31,3 +31,43 @@ High confidence in ingredient allocation and need to replace the timer-only inst
 ## Integration disposition
 
 Accepted as a targeted repair candidate only. The proposed learning.review promotion was removed; no global review-register or full recipe status changes. Timing, quality holding targets and physical performance remain untested.
+
+---
+
+# Seasoned Bean Sprouts (Kongnamul Namul) — complete editorial review
+
+Accepted after independent whole challenge and complete final root inspection; implementation and exact production verification pending. No physical kitchen testing or native-app sync.
+
+Exact first Git recipe is mild soybean kongnamul with½cupwater and1tspoil; Maangchi supplies covered-cooking context, not replacement fish-sauce/chili quantities. Accepted ee9c7078 thorough cooking, measured-salt pinch, clean handling and cold holding retained. UC ANR discusses sprouts generally and chiefly mung; its conservative temperature advice is applied without changing soybean identity or promising elimination of risk. FDA supports avoiding raw/lightly cooked sprouts for higher-risk people. No rinse requirement invented beyond original pre-cooking rinse. Main changes are ingredient-scaled water wording, original-portion context and specific learning; no measured ingredient changes.
+
+## Ingredient destinations
+
+- 1 lb soybean sprouts (kongnamul), rinsed and drained: rinse then thorough covered cook
+- 1/2 cup water, for cooking: covered cook
+- 1 tsp toasted sesame oil: season
+- 1 tsp garlic, minced: season
+- 1/2 tsp fine sea salt, divided and added to taste: pinch cooking; remaining taste (unused allowed)
+- 1 green onion, minced: season
+- 1 tsp toasted sesame seeds: season
+
+## Variants and prior repairs
+
+- Warm side or promptly chilled banchan; soybean identity and complete cooking remain.
+- Small cooking pinch comes from measured halfteaspoon fine sea salt; remaining seasoning salt may remain unused.
+- 5741495b soybean identity, full steaming/above165/tenderheads/measuredthermometer/longerpackage/lidinspection.
+- Cooking pinch from measured salt, clean drain utensils, higher-risk raw/lightlycooked sprout warning.
+
+## Exact findings and evidence
+
+The paired [seasoned-bean-sprouts.json](seasoned-bean-sprouts.json) retains every exact before/after field and body, ingredient/variant ledger, finding rationale, applicable source, confidence, unresolved question and scaling check. The original author and independent checkpoints remain distinct from this bounded correction and pending whole root acceptance.
+
+## Kitchen questions
+
+- Verify actual soybean sprout package cooking directions and probe placement.
+- Kitchen-check pot/headroom and bean-head tenderness at original batch.
+
+[Independent challenge and final root disposition](../editorial-campaign/2026-10-05/boiled-six-independent.md). [Applicable evidence](../editorial-campaign/2026-10-05/boiled-six-sources.json). Accepted source SHA-256: c30d5d214d9679499d1c8ab6f184515671346b89461919d46c4a1fc4257d2548.
+
+## Local integrated validation
+
+All252 tests,32 authored formula checks,643-recipe validation and30 aggregate QA checks pass. Six targeted lints have zero errors and one existing missing-pairing warning. All three exports match643 sources; stable bindings, public privacy and11,898 built anchors pass. All six complete rendered pages,144 scaled ingredient displays,18 yields,375-pixel layouts and cooking checkmark/reload/reset/exit paths pass. Oatmeal2× shopping retains18 tablespoons total buttermilk. No browser warnings or errors. Print controls and shared styles are preserved; print preview remains unverified. No physical kitchen testing or native-app sync. Exact remote commit, CI/deployment and live-page verification remain pending. [Preservation and validation evidence](../editorial-campaign/2026-10-05/boiled-six-preservation.json).

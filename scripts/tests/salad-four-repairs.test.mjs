@@ -1,6 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
+import { createHash } from 'node:crypto';
 import matter from 'gray-matter';
 const read = (slug) => matter(fs.readFileSync(`src/content/recipes/${slug}.md`, 'utf8'));
 const slugs = [
@@ -10,7 +11,28 @@ const slugs = [
   'warm-roasted-veggie-salad-with-maple-dijon-vinaigrette',
 ];
 test('targeted salad repairs do not promote editorial review status', () => {
-  for (const slug of slugs) assert.equal(read(slug).data.learning?.review, undefined, slug);
+  const register = JSON.parse(fs.readFileSync('docs/recipe-review-register.json', 'utf8'));
+  for (const slug of slugs) {
+    const review = read(slug).data.learning?.review;
+    const entries = [...register.records, ...register.additionalRecords].filter(
+      (entry) => entry.slug === slug
+    );
+    assert.equal(entries.length, 1, slug);
+    if (entries[0].status !== 'editorial-review') {
+      assert.equal(review, undefined, slug);
+      continue;
+    }
+    // A later whole review must have its own acceptance and exact source proof.
+    const record = JSON.parse(fs.readFileSync(`docs/reviews/${slug}.json`, 'utf8'));
+    assert.equal(review?.status, 'editorial-review', slug);
+    assert.match(record.rootFinalAcceptance, /^accepted after /, slug);
+    assert.ok(fs.existsSync(record.independentChallenge), slug);
+    assert.equal(record.kitchenTested, false, slug);
+    const sourceHash = createHash('sha256')
+      .update(fs.readFileSync(`src/content/recipes/${slug}.md`))
+      .digest('hex');
+    assert.equal(record.acceptedSourceSha256, sourceHash, slug);
+  }
 });
 test('both sprout sides require measured thorough heating rather than a timer alone', () => {
   for (const slug of slugs.slice(0, 2)) {

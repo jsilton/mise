@@ -1,0 +1,101 @@
+{
+  "inputCommit": "7eec1146b5f7bd65495c750a8312303d8d9d5b83",
+  "changed": 6,
+  "unchanged": 637,
+  "all643Protected": true,
+  "acceptedHashesMatch": true,
+  "exactPairedFieldBody": true,
+  "registerPromotions": 6,
+  "otherRegisterAndMatrixReviewCreditPreserved": true,
+  "status": "accepted and locally validated; implementation and exact production pending",
+  "recipes": [
+    {
+      "slug": "buttered-egg-noodles",
+      "acceptedSourceSha256": "c3a6037e07394497ae319df3cac540a760bbb652dd10cdf1806b05105e25c601",
+      "remainingQuestions": [
+        "Check preferred wide-noodle brand and kosher-salt brand with the full measured finishing amount.",
+        "Time the actual stove water heating and assess four original side portions."
+      ]
+    },
+    {
+      "slug": "steel-cut-oatmeal",
+      "acceptedSourceSha256": "28bb80ab5b14a41f27942ddd565a5aab8b13dabe259ff5ec3ce12f6f575ca1d5",
+      "remainingQuestions": [
+        "Kitchen-check saved equal buttermilk split versus publisher8/1 split without treating either as tested here.",
+        "Check covered simmer evaporation, tenderness and four original portions on actual stove."
+      ]
+    },
+    {
+      "slug": "blueberry-date-oatmeal",
+      "acceptedSourceSha256": "4e9a63aeb89f65a85bd1543528e961e3154f6a0e270e27b3b1f1b7420010964e",
+      "remainingQuestions": [
+        "Identify exact cauliflower/berry packages and confirm required preparation.",
+        "Check microwave wattage, bowl headroom, date size and final texture with1½cups chosen liquid."
+      ]
+    },
+    {
+      "slug": "seasoned-bean-sprouts",
+      "acceptedSourceSha256": "c30d5d214d9679499d1c8ab6f184515671346b89461919d46c4a1fc4257d2548",
+      "remainingQuestions": [
+        "Verify actual soybean sprout package cooking directions and probe placement.",
+        "Kitchen-check pot/headroom and bean-head tenderness at original batch."
+      ]
+    },
+    {
+      "slug": "simply-seasoned-korean-spinach-salad",
+      "acceptedSourceSha256": "7a1f3f1d05aecec877c2be2402b24055137f995a928f4ce5cf92d13e0962ccc7",
+      "remainingQuestions": [
+        "Check spinach stem thickness and gently drained yield for four original small sides.",
+        "Assess salinity with actual fine sea salt without inventing a gram conversion."
+      ]
+    },
+    {
+      "slug": "broccoli-all-agro",
+      "acceptedSourceSha256": "8029507d2449804e4cf3d209cfbf222782e6d6fec02712635d31c30017eadd10",
+      "remainingQuestions": [
+        "Check actual two-head size, steamer capacity and six-side-portion estimate.",
+        "Kitchen-check lemon size and raw-garlic intensity while keeping saved amounts."
+      ]
+    }
+  ],
+  "validation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 32,
+    "targetedLint": "Six pass; zero errors and one pre-existing missing-pairing warning. No invented pairing added.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 11898,
+    "missingDestinations": 0,
+    "exports": "All three exports match643 current recipe sources",
+    "privateBindings": "643 complete stable bindings verified; no replacement identities",
+    "privacy": "Published assets and public evidence pass",
+    "renderedRecipes": 6,
+    "visibleMethodSteps": 30,
+    "scaledIngredientDisplays": 144,
+    "scaledYieldDisplays": 18,
+    "scaleFactors": [0.5, 2, 1],
+    "mobileWidth": 375,
+    "noOverflow": true,
+    "cooking": "All six ingredient/step checks persist after reload and reentry; normal mode on reload; reset and exit pass",
+    "shopping": "Oatmeal2× shows18 tbsp total buttermilk; both method stages use half the listed total",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "Controls enabled; shared styles unchanged; print preview unverified",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  },
+  "rootGateManifestSha256": "dc16aed3aa56d493d9834f82a96a3184f5450e92dd4711d2a5277354860b1372",
+  "testCorrection": {
+    "independentChallengeSha256": "10012314a0bafdc5a3557930efff373f5dfc9e2a0b1acf6f9b4176a6ccba49c1",
+    "acceptedBeforeFormatSha256": "c08e7cd0b2372720c08de313e28d509812a61e11625e8b89f642170d13d497c4",
+    "priorTestSha256": "c078db2666bdac81d6785f1fad512724c147c8740db162d08fc3c7116daa3def",
+    "finalFormattedTestSha256": "c08e7cd0b2372720c08de313e28d509812a61e11625e8b89f642170d13d497c4",
+    "eightNegativeChecksReject": true,
+    "allCookingAndSafetyAssertionsPreserved": true,
+    "originalScalingFixturesPreserved": true,
+    "rootDisposition": "Accepted bounded test correction; later whole review requires separate root acceptance, exact source hash, independent evidence and no kitchen-test claim."
+  },
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false
+}

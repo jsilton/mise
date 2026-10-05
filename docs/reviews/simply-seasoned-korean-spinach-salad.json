@@ -1,0 +1,735 @@
+{
+  "slug": "simply-seasoned-korean-spinach-salad",
+  "title": "Korean Spinach Salad (Sigeumchi Namul)",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "date": "2026-10-05",
+  "notKitchenTested": true,
+  "inputCommit": "1b56f21878b9da0b844c34f9f491fd02313d60c2",
+  "inputSha256": "1d98e0dbdc95e42e9cf71a227736dbfa3d4353b45f7517d78f0dd25074334aea",
+  "currentSourceSha256": "1d98e0dbdc95e42e9cf71a227736dbfa3d4353b45f7517d78f0dd25074334aea",
+  "candidateSha256": "7a1f3f1d05aecec877c2be2402b24055137f995a928f4ce5cf92d13e0962ccc7",
+  "summary": "Exact committed original and current primary Sue Pressey page support spinach identity and all measured ingredient amounts. Accepted targeted fine-sea-salt identity, separate blanch/season salt,30second first check, fresh cold rinse/water, gentle squeezing and cold banchan holding retained. Genuine cooling-water allowance listed; not a new measured formula. Current fixed four-portion prose now explicitly original-batch context, preserving ingredient controls. No universal rinse extrapolation to held kimchi or reheat requirement imposed on cold banchan.",
+  "sourceCredit": "Adapted from Sue Pressey, My Korean Kitchen",
+  "sourceUrl": "https://mykoreankitchen.com/simply-seasoned-korean-spinach-salad-sigeumchi-namul-version-1/",
+  "sourceProvenance": {
+    "savedGitCommit": "045e5ba276b560e4f7d3d485b4860f610d295bac",
+    "path": "src/content/recipes/simply-seasoned-korean-spinach-salad.md",
+    "savedSourceSha256": "9b006b57df21972e7c40dcc896299132e3d34852545fbc3af9939fce36aa337a",
+    "nativeLineage": "Not independently established; exact Git originals only."
+  },
+  "priorIndependentChallenge": {
+    "inspectedSha256": "7a1f3f1d05aecec877c2be2402b24055137f995a928f4ce5cf92d13e0962ccc7",
+    "disposition": "accept",
+    "reason": "Accept inspected hash. All accepted preparation/cooling/gentle squeeze/season steps 1–5 are byte-for-byte retained, including full sesame oil and distinct fine-sea-salt destinations. Added unmeasured cold-water allowance is existing method water. Four side portions now have original-batch context, and the cold banchan remains cold rather than acquiring an inappropriate mandatory reheat.",
+    "currentCandidateStillExact": true
+  },
+  "subsequentPeerApplication": null,
+  "rootFinalAcceptance": "accepted after prior independent whole challenge, independent bounded metadata challenge and complete final root source/diff inspection",
+  "independentSelfAcceptance": false,
+  "sourceDisagreements": "Exact committed original and current primary Sue Pressey page support spinach identity and all measured ingredient amounts. Accepted targeted fine-sea-salt identity, separate blanch/season salt,30second first check, fresh cold rinse/water, gentle squeezing and cold banchan holding retained. Genuine cooling-water allowance listed; not a new measured formula. Current fixed four-portion prose now explicitly original-batch context, preserving ingredient controls. No universal rinse extrapolation to held kimchi or reheat requirement imposed on cold banchan.",
+  "originalIngredients": [
+    "250 g fresh spinach, roots trimmed and leaves washed",
+    "6 cups water, for blanching",
+    "1 tsp fine sea salt, for blanching water",
+    "1 tbsp toasted sesame oil",
+    "1 tsp scallion, finely chopped",
+    "1/2 tsp garlic, minced",
+    "1/4 tsp fine sea salt, for seasoning, added to taste",
+    "1 tsp toasted sesame seeds"
+  ],
+  "frozenIngredientLedger": [
+    {
+      "ingredient": "250 g fresh spinach, roots trimmed and leaves washed",
+      "destinationOrQuestion": "preparewashed/blanch2/coldrinse3/gentlesqueeze4/season5"
+    },
+    {
+      "ingredient": "6 cups water, for blanching",
+      "destinationOrQuestion": "boil1/blanch2 discarded"
+    },
+    {
+      "ingredient": "1 tsp fine sea salt, for blanching water",
+      "destinationOrQuestion": "blanchwater1/2 discarded"
+    },
+    {
+      "ingredient": "1 tbsp toasted sesame oil",
+      "destinationOrQuestion": "season5"
+    },
+    {
+      "ingredient": "1 tsp scallion, finely chopped",
+      "destinationOrQuestion": "season5"
+    },
+    {
+      "ingredient": "1/2 tsp garlic, minced",
+      "destinationOrQuestion": "season5"
+    },
+    {
+      "ingredient": "1/4 tsp fine sea salt, for seasoning, added to taste",
+      "destinationOrQuestion": "gradual seasoning5 unused allowed"
+    },
+    {
+      "ingredient": "1 tsp toasted sesame seeds",
+      "destinationOrQuestion": "season5"
+    }
+  ],
+  "savedGitIngredients": [
+    "Main",
+    "250 g English spinach or baby spinach",
+    "1 tsp fine sea salt , to add to the water",
+    "6 cups water to boil",
+    "Seasoning sauce",
+    "1 tsp green onion , finely chopped",
+    "1/2 tsp minced garlic",
+    "1/4 tsp fine sea salt or to taste",
+    "1 tsp toasted sesame seeds",
+    "1 Tbsp sesame oil"
+  ],
+  "currentIngredients": [
+    "250 g fresh spinach, roots trimmed and leaves washed",
+    "6 cups water, for blanching",
+    "1 tsp fine sea salt, for blanching water",
+    "1 tbsp toasted sesame oil",
+    "1 tsp scallion, finely chopped",
+    "1/2 tsp garlic, minced",
+    "1/4 tsp fine sea salt, for seasoning, added to taste",
+    "1 tsp toasted sesame seeds",
+    "Cold water, as needed for cooling"
+  ],
+  "ingredientLedger": [
+    {
+      "ingredient": "250 g fresh spinach, roots trimmed and leaves washed",
+      "destination": "wash/blanch/cool/squeeze/toss",
+      "quantityState": "Measured amount retained; unmeasured allowances are explicit."
+    },
+    {
+      "ingredient": "6 cups water, for blanching",
+      "destination": "blanch discarded",
+      "quantityState": "Measured amount retained; unmeasured allowances are explicit."
+    },
+    {
+      "ingredient": "1 tsp fine sea salt, for blanching water",
+      "destination": "blanch discarded",
+      "quantityState": "Measured amount retained; unmeasured allowances are explicit."
+    },
+    {
+      "ingredient": "1 tbsp toasted sesame oil",
+      "destination": "season",
+      "quantityState": "Measured amount retained; unmeasured allowances are explicit."
+    },
+    {
+      "ingredient": "1 tsp scallion, finely chopped",
+      "destination": "season",
+      "quantityState": "Measured amount retained; unmeasured allowances are explicit."
+    },
+    {
+      "ingredient": "1/2 tsp garlic, minced",
+      "destination": "season",
+      "quantityState": "Measured amount retained; unmeasured allowances are explicit."
+    },
+    {
+      "ingredient": "1/4 tsp fine sea salt, for seasoning, added to taste",
+      "destination": "season to taste (unused allowed)",
+      "quantityState": "Measured amount retained; unmeasured allowances are explicit."
+    },
+    {
+      "ingredient": "1 tsp toasted sesame seeds",
+      "destination": "season",
+      "quantityState": "Measured amount retained; unmeasured allowances are explicit."
+    },
+    {
+      "ingredient": "Cold water, as needed for cooling",
+      "destination": "cooling discarded",
+      "quantityState": "Measured amount retained; unmeasured allowances are explicit."
+    }
+  ],
+  "variantLedger": [
+    "English/adult or baby spinach; baby leaves may remain whole, long stems cut.",
+    "Cold running-water rinse OR fresh cold-water cooling retained exactly, followed by gentle squeeze.",
+    "Serve cool or chill promptly; no mandatory reheat imposed on cold banchan."
+  ],
+  "preservedPriorRepairs": [
+    "Accepted fine sea salt/separate blanching and dressing amounts,30second first check.",
+    "Exact frozen steps1–5, including genuine cold rinse and gentle squeeze, all sesame oil, cold service."
+  ],
+  "findings": [
+    {
+      "before": "\n## Chef's Note\n\nSigeumchi namul is a simple spinach banchan. Cool the wilted leaves promptly, then remove excess water with a gentle squeeze. Separate the leaves before seasoning so the sesame oil and garlic reach the whole bowl without turning the spinach into a compressed ball.\n\n## Directions\n\n1. **Prepare:** Bring the measured water and blanching salt to a boil. Set out a colander and cold water for cooling.\n2. **Blanch:** Add washed spinach and stir it under the water. Start checking at 30 seconds; remove it when the leaves have wilted and stems are tender, allowing longer for thick stems.\n3. **Cool:** Drain and rinse under cold running water or transfer to fresh cold water until cool enough to handle.\n4. **Drain gently:** Lift out small handfuls and squeeze gently to remove excess water. Do not wring the leaves bone-dry. Cut long stems and leaves into bite-size lengths; baby leaves can remain whole.\n5. **Season:** Mix sesame oil, garlic, scallion and part of the seasoning salt in a bowl. Separate the spinach, add it with the sesame seeds and toss gently. Taste before adding the remaining seasoning salt.\n6. **Serve:** Divide into four small side portions, or cover and refrigerate promptly until serving.\n\n## Cooking Notes\n\nAbout 15 minutes includes washing, heating water, a brief blanch, cooling, draining and seasoning. Larger batches need a larger pot or separate batches.\n\nRefrigerate promptly at 40°F / 4°C or below; use within 2 days for best texture. Limit unrefrigerated time to 2 hours, or 1 hour above 90°F / 32°C. Serve cool; freezing gives a softer result.\n\n## Sources\n\n- [Sue Pressey — Simply seasoned Korean spinach salad](https://mykoreankitchen.com/simply-seasoned-korean-spinach-salad-sigeumchi-namul-version-1/)\n- [FoodSafety.gov — Four steps to food safety](https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety)\n",
+      "after": "\n## Chef's Note\n\nSigeumchi namul is a simple spinach banchan. Cool the wilted leaves promptly, then remove excess water with a gentle squeeze. Separate the leaves before seasoning so the sesame oil and garlic reach the whole bowl without turning the spinach into a compressed ball.\n\n## Directions\n\n1. **Prepare:** Bring the measured water and blanching salt to a boil. Set out a colander and cold water for cooling.\n2. **Blanch:** Add washed spinach and stir it under the water. Start checking at 30 seconds; remove it when the leaves have wilted and stems are tender, allowing longer for thick stems.\n3. **Cool:** Drain and rinse under cold running water or transfer to fresh cold water until cool enough to handle.\n4. **Drain gently:** Lift out small handfuls and squeeze gently to remove excess water. Do not wring the leaves bone-dry. Cut long stems and leaves into bite-size lengths; baby leaves can remain whole.\n5. **Season:** Mix sesame oil, garlic, scallion and part of the seasoning salt in a bowl. Separate the spinach, add it with the sesame seeds and toss gently. Taste before adding the remaining seasoning salt.\n6. **Serve:** Divide into the listed small side portions (four in the original batch), or cover and refrigerate promptly until serving.\n\n## Cooking Notes\n\nAbout 15 minutes includes washing, heating water, a brief blanch, cooling, draining and seasoning. Larger batches need a larger pot or separate batches.\n\nRefrigerate promptly at 40°F / 4°C or below; use within 2 days for best texture. Limit unrefrigerated time to 2 hours, or 1 hour above 90°F / 32°C. Serve cool; freezing gives a softer result.\n\n## Sources\n\n- [Sue Pressey — Simply seasoned Korean spinach salad](https://mykoreankitchen.com/simply-seasoned-korean-spinach-salad-sigeumchi-namul-version-1/)\n- [FoodSafety.gov — Four steps to food safety](https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety)\n",
+      "rationale": "Exact committed original and current primary Sue Pressey page support spinach identity and all measured ingredient amounts. Accepted targeted fine-sea-salt identity, separate blanch/season salt,30second first check, fresh cold rinse/water, gentle squeezing and cold banchan holding retained. Genuine cooling-water allowance listed; not a new measured formula. Current fixed four-portion prose now explicitly original-batch context, preserving ingredient controls. No universal rinse extrapolation to held kimchi or reheat requirement imposed on cold banchan.",
+      "source": [
+        {
+          "title": "Exact saved committed recipe",
+          "path": "retained-private-evidence",
+          "sha256": "9b006b57df21972e7c40dcc896299132e3d34852545fbc3af9939fce36aa337a",
+          "applicability": "Exact 045 saved/current/frozen sources and accepted later salt-density/allocation history establish the house ingredient amounts and separate blanch/season salt. Unmeasured cooling water follows the rinse step, not a new measured dressing amount."
+        },
+        {
+          "title": "Exact frozen current and full actual Git history",
+          "paths": ["retained-private-evidence", "retained-private-evidence"],
+          "applicability": "Establishes existing state/allocations/variants and inherited repairs; source changes are not kitchen tests."
+        },
+        {
+          "title": "Sue Pressey — exact spinach recipe",
+          "url": "https://mykoreankitchen.com/simply-seasoned-korean-spinach-salad-sigeumchi-namul-version-1/",
+          "applicability": "Direct same-recipe amounts, blanch/cold-rinse/squeeze and Korean banchan context. Compare saved/current measures; do not silently normalize cup definitions or impose cooked-leftover reheating on cold banchan."
+        },
+        {
+          "type": "editorial culinary inference",
+          "basis": "Exact saved/current methods and ingredient-state/process graph",
+          "applicability": "Brief blanch, cold rinse, gentle squeeze and original-portion context follow exact source and current Sue recipe; retained targeted repairs remain distinct. Pot headroom and sensory doneness vary with load.",
+          "confidence": "moderate for untested sensory/load guidance"
+        },
+        {
+          "type": "editorial planning inference",
+          "basis": "Named heat-up/prep/cook/drain/finish dependencies in this recipe",
+          "applicability": "Sue/source brief blanch and heat-up are reference planning, not measured household timing. Actual pot, starting water, load and optional chilling govern; safety guidance does not establish the clock.",
+          "confidence": "moderate; actual elapsed and active times unmeasured"
+        },
+        {
+          "title": "FoodSafety.gov — handling scope only",
+          "url": "https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety",
+          "applicability": "Clean handling, prompt shallow cold holding at 40°F, two-hour limit/one hour above 90°F as applicable. Not culinary formula, yield, cooking clock or mandatory reheating ofcold banchan."
+        }
+      ],
+      "confidence": "high for preserved/recovered quantities and destinations; moderate for untested sensory/planning ranges",
+      "unresolvedQuestions": [
+        "Check spinach stem thickness and gently drained yield for four original small sides.",
+        "Assess salinity with actual fine sea salt without inventing a gram conversion."
+      ]
+    },
+    {
+      "category": "ingredients",
+      "before": [
+        "250 g fresh spinach, roots trimmed and leaves washed",
+        "6 cups water, for blanching",
+        "1 tsp fine sea salt, for blanching water",
+        "1 tbsp toasted sesame oil",
+        "1 tsp scallion, finely chopped",
+        "1/2 tsp garlic, minced",
+        "1/4 tsp fine sea salt, for seasoning, added to taste",
+        "1 tsp toasted sesame seeds"
+      ],
+      "after": [
+        "250 g fresh spinach, roots trimmed and leaves washed",
+        "6 cups water, for blanching",
+        "1 tsp fine sea salt, for blanching water",
+        "1 tbsp toasted sesame oil",
+        "1 tsp scallion, finely chopped",
+        "1/2 tsp garlic, minced",
+        "1/4 tsp fine sea salt, for seasoning, added to taste",
+        "1 tsp toasted sesame seeds",
+        "Cold water, as needed for cooling"
+      ],
+      "rationale": "Exact committed original and current primary Sue Pressey page support spinach identity and all measured ingredient amounts. Accepted targeted fine-sea-salt identity, separate blanch/season salt,30second first check, fresh cold rinse/water, gentle squeezing and cold banchan holding retained. Genuine cooling-water allowance listed; not a new measured formula. Current fixed four-portion prose now explicitly original-batch context, preserving ingredient controls. No universal rinse extrapolation to held kimchi or reheat requirement imposed on cold banchan.",
+      "source": [
+        {
+          "title": "Exact saved committed recipe",
+          "path": "retained-private-evidence",
+          "sha256": "9b006b57df21972e7c40dcc896299132e3d34852545fbc3af9939fce36aa337a",
+          "applicability": "Exact 045 saved/current/frozen sources and accepted later salt-density/allocation history establish the house ingredient amounts and separate blanch/season salt. Unmeasured cooling water follows the rinse step, not a new measured dressing amount."
+        },
+        {
+          "title": "Exact frozen current and full actual Git history",
+          "paths": ["retained-private-evidence", "retained-private-evidence"],
+          "applicability": "Establishes existing state/allocations/variants and inherited repairs; source changes are not kitchen tests."
+        },
+        {
+          "title": "Sue Pressey — exact spinach recipe",
+          "url": "https://mykoreankitchen.com/simply-seasoned-korean-spinach-salad-sigeumchi-namul-version-1/",
+          "applicability": "Direct same-recipe amounts, blanch/cold-rinse/squeeze and Korean banchan context. Compare saved/current measures; do not silently normalize cup definitions or impose cooked-leftover reheating on cold banchan."
+        }
+      ],
+      "confidence": "high for exact source/history and allocations; moderate for untested planning",
+      "unresolvedQuestions": [
+        "Check spinach stem thickness and gently drained yield for four original small sides.",
+        "Assess salinity with actual fine sea salt without inventing a gram conversion."
+      ]
+    },
+    {
+      "category": "learning",
+      "before": null,
+      "after": {
+        "focus": "Cool, gently squeeze and separate the blanched leaves",
+        "outcome": "Loose, lightly dressed spinach banchan with sesame oil, garlic and scallion.",
+        "techniques": ["cold-preparation", "seasoning"],
+        "before": [
+          "Blanching salt and seasoning salt are separate measured ingredients. Keep their destinations separate and add the seasoning salt gradually to taste.",
+          "Larger batches need a larger pot or separate blanching loads so leaves can submerge. Divide measured blanching water and salt among separate pots if using them; cooling water is an additional unmeasured allowance. Do not multiply the brief blanch time."
+        ],
+        "checkpoints": [
+          {
+            "step": 2,
+            "cue": "Leaves have wilted and stems are tender.",
+            "why": "Thirty seconds is a first check; thick stems need longer."
+          },
+          {
+            "step": 5,
+            "cue": "Leaves are loose enough for dressing to reach the whole bowl.",
+            "why": "Gentle squeezing and separating preserve texture and seasoning distribution."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Seasoning stays on the outside of a tight spinach ball.",
+            "cause": "The leaves were compressed and not loosened.",
+            "fix": "Separate the cooled leaves before gently tossing with the measured dressing."
+          }
+        ],
+        "storage": "Refrigerate promptly in a shallow covered container at 40°F / 4°C or below. Limit time out to 2 hours, or 1 hour above 90°F / 32°C. Use within 2 days for best texture. Serve cool; freezing gives a softer result.",
+        "timing": "About 15 min includes washing, heating, blanching, cooling, gently draining and seasoning; larger batches can take longer.",
+        "sources": [
+          {
+            "title": "Sue Pressey — Simply seasoned Korean spinach salad",
+            "url": "https://mykoreankitchen.com/simply-seasoned-korean-spinach-salad-sigeumchi-namul-version-1/"
+          },
+          {
+            "title": "FoodSafety.gov — Four steps to food safety",
+            "url": "https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-05"
+        }
+      },
+      "rationale": "Exact committed original and current primary Sue Pressey page support spinach identity and all measured ingredient amounts. Accepted targeted fine-sea-salt identity, separate blanch/season salt,30second first check, fresh cold rinse/water, gentle squeezing and cold banchan holding retained. Genuine cooling-water allowance listed; not a new measured formula. Current fixed four-portion prose now explicitly original-batch context, preserving ingredient controls. No universal rinse extrapolation to held kimchi or reheat requirement imposed on cold banchan.",
+      "source": [
+        {
+          "title": "Exact saved committed recipe",
+          "path": "retained-private-evidence",
+          "sha256": "9b006b57df21972e7c40dcc896299132e3d34852545fbc3af9939fce36aa337a",
+          "applicability": "Exact 045 saved/current/frozen sources and accepted later salt-density/allocation history establish the house ingredient amounts and separate blanch/season salt. Unmeasured cooling water follows the rinse step, not a new measured dressing amount."
+        },
+        {
+          "title": "Exact frozen current and full actual Git history",
+          "paths": ["retained-private-evidence", "retained-private-evidence"],
+          "applicability": "Establishes existing state/allocations/variants and inherited repairs; source changes are not kitchen tests."
+        },
+        {
+          "title": "Sue Pressey — exact spinach recipe",
+          "url": "https://mykoreankitchen.com/simply-seasoned-korean-spinach-salad-sigeumchi-namul-version-1/",
+          "applicability": "Direct same-recipe amounts, blanch/cold-rinse/squeeze and Korean banchan context. Compare saved/current measures; do not silently normalize cup definitions or impose cooked-leftover reheating on cold banchan."
+        },
+        {
+          "type": "editorial culinary inference",
+          "basis": "Exact saved/current methods and ingredient-state/process graph",
+          "applicability": "Brief blanch, cold rinse, gentle squeeze and original-portion context follow exact source and current Sue recipe; retained targeted repairs remain distinct. Pot headroom and sensory doneness vary with load.",
+          "confidence": "moderate for untested sensory/load guidance"
+        },
+        {
+          "type": "editorial planning inference",
+          "basis": "Named heat-up/prep/cook/drain/finish dependencies in this recipe",
+          "applicability": "Sue/source brief blanch and heat-up are reference planning, not measured household timing. Actual pot, starting water, load and optional chilling govern; safety guidance does not establish the clock.",
+          "confidence": "moderate; actual elapsed and active times unmeasured"
+        },
+        {
+          "title": "FoodSafety.gov — handling scope only",
+          "url": "https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety",
+          "applicability": "Clean handling, prompt shallow cold holding at 40°F, two-hour limit/one hour above 90°F as applicable. Not culinary formula, yield, cooking clock or mandatory reheating ofcold banchan."
+        }
+      ],
+      "confidence": "high for exact source/history and allocations; moderate for untested planning",
+      "unresolvedQuestions": [
+        "Check spinach stem thickness and gently drained yield for four original small sides.",
+        "Assess salinity with actual fine sea salt without inventing a gram conversion."
+      ]
+    }
+  ],
+  "changedFieldNames": ["ingredients", "equipment", "learning", "content"],
+  "changedFields": {
+    "ingredients": {
+      "before": [
+        "250 g fresh spinach, roots trimmed and leaves washed",
+        "6 cups water, for blanching",
+        "1 tsp fine sea salt, for blanching water",
+        "1 tbsp toasted sesame oil",
+        "1 tsp scallion, finely chopped",
+        "1/2 tsp garlic, minced",
+        "1/4 tsp fine sea salt, for seasoning, added to taste",
+        "1 tsp toasted sesame seeds"
+      ],
+      "after": [
+        "250 g fresh spinach, roots trimmed and leaves washed",
+        "6 cups water, for blanching",
+        "1 tsp fine sea salt, for blanching water",
+        "1 tbsp toasted sesame oil",
+        "1 tsp scallion, finely chopped",
+        "1/2 tsp garlic, minced",
+        "1/4 tsp fine sea salt, for seasoning, added to taste",
+        "1 tsp toasted sesame seeds",
+        "Cold water, as needed for cooling"
+      ]
+    },
+    "equipment": {
+      "before": null,
+      "after": ["pot", "colander", "mixing-bowl"]
+    },
+    "learning": {
+      "before": null,
+      "after": {
+        "focus": "Cool, gently squeeze and separate the blanched leaves",
+        "outcome": "Loose, lightly dressed spinach banchan with sesame oil, garlic and scallion.",
+        "techniques": ["cold-preparation", "seasoning"],
+        "before": [
+          "Blanching salt and seasoning salt are separate measured ingredients. Keep their destinations separate and add the seasoning salt gradually to taste.",
+          "Larger batches need a larger pot or separate blanching loads so leaves can submerge. Divide measured blanching water and salt among separate pots if using them; cooling water is an additional unmeasured allowance. Do not multiply the brief blanch time."
+        ],
+        "checkpoints": [
+          {
+            "step": 2,
+            "cue": "Leaves have wilted and stems are tender.",
+            "why": "Thirty seconds is a first check; thick stems need longer."
+          },
+          {
+            "step": 5,
+            "cue": "Leaves are loose enough for dressing to reach the whole bowl.",
+            "why": "Gentle squeezing and separating preserve texture and seasoning distribution."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Seasoning stays on the outside of a tight spinach ball.",
+            "cause": "The leaves were compressed and not loosened.",
+            "fix": "Separate the cooled leaves before gently tossing with the measured dressing."
+          }
+        ],
+        "storage": "Refrigerate promptly in a shallow covered container at 40°F / 4°C or below. Limit time out to 2 hours, or 1 hour above 90°F / 32°C. Use within 2 days for best texture. Serve cool; freezing gives a softer result.",
+        "timing": "About 15 min includes washing, heating, blanching, cooling, gently draining and seasoning; larger batches can take longer.",
+        "sources": [
+          {
+            "title": "Sue Pressey — Simply seasoned Korean spinach salad",
+            "url": "https://mykoreankitchen.com/simply-seasoned-korean-spinach-salad-sigeumchi-namul-version-1/"
+          },
+          {
+            "title": "FoodSafety.gov — Four steps to food safety",
+            "url": "https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-05"
+        }
+      }
+    },
+    "content": {
+      "before": "\n## Chef's Note\n\nSigeumchi namul is a simple spinach banchan. Cool the wilted leaves promptly, then remove excess water with a gentle squeeze. Separate the leaves before seasoning so the sesame oil and garlic reach the whole bowl without turning the spinach into a compressed ball.\n\n## Directions\n\n1. **Prepare:** Bring the measured water and blanching salt to a boil. Set out a colander and cold water for cooling.\n2. **Blanch:** Add washed spinach and stir it under the water. Start checking at 30 seconds; remove it when the leaves have wilted and stems are tender, allowing longer for thick stems.\n3. **Cool:** Drain and rinse under cold running water or transfer to fresh cold water until cool enough to handle.\n4. **Drain gently:** Lift out small handfuls and squeeze gently to remove excess water. Do not wring the leaves bone-dry. Cut long stems and leaves into bite-size lengths; baby leaves can remain whole.\n5. **Season:** Mix sesame oil, garlic, scallion and part of the seasoning salt in a bowl. Separate the spinach, add it with the sesame seeds and toss gently. Taste before adding the remaining seasoning salt.\n6. **Serve:** Divide into four small side portions, or cover and refrigerate promptly until serving.\n\n## Cooking Notes\n\nAbout 15 minutes includes washing, heating water, a brief blanch, cooling, draining and seasoning. Larger batches need a larger pot or separate batches.\n\nRefrigerate promptly at 40°F / 4°C or below; use within 2 days for best texture. Limit unrefrigerated time to 2 hours, or 1 hour above 90°F / 32°C. Serve cool; freezing gives a softer result.\n\n## Sources\n\n- [Sue Pressey — Simply seasoned Korean spinach salad](https://mykoreankitchen.com/simply-seasoned-korean-spinach-salad-sigeumchi-namul-version-1/)\n- [FoodSafety.gov — Four steps to food safety](https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety)\n",
+      "after": "\n## Chef's Note\n\nSigeumchi namul is a simple spinach banchan. Cool the wilted leaves promptly, then remove excess water with a gentle squeeze. Separate the leaves before seasoning so the sesame oil and garlic reach the whole bowl without turning the spinach into a compressed ball.\n\n## Directions\n\n1. **Prepare:** Bring the measured water and blanching salt to a boil. Set out a colander and cold water for cooling.\n2. **Blanch:** Add washed spinach and stir it under the water. Start checking at 30 seconds; remove it when the leaves have wilted and stems are tender, allowing longer for thick stems.\n3. **Cool:** Drain and rinse under cold running water or transfer to fresh cold water until cool enough to handle.\n4. **Drain gently:** Lift out small handfuls and squeeze gently to remove excess water. Do not wring the leaves bone-dry. Cut long stems and leaves into bite-size lengths; baby leaves can remain whole.\n5. **Season:** Mix sesame oil, garlic, scallion and part of the seasoning salt in a bowl. Separate the spinach, add it with the sesame seeds and toss gently. Taste before adding the remaining seasoning salt.\n6. **Serve:** Divide into the listed small side portions (four in the original batch), or cover and refrigerate promptly until serving.\n\n## Cooking Notes\n\nAbout 15 minutes includes washing, heating water, a brief blanch, cooling, draining and seasoning. Larger batches need a larger pot or separate batches.\n\nRefrigerate promptly at 40°F / 4°C or below; use within 2 days for best texture. Limit unrefrigerated time to 2 hours, or 1 hour above 90°F / 32°C. Serve cool; freezing gives a softer result.\n\n## Sources\n\n- [Sue Pressey — Simply seasoned Korean spinach salad](https://mykoreankitchen.com/simply-seasoned-korean-spinach-salad-sigeumchi-namul-version-1/)\n- [FoodSafety.gov — Four steps to food safety](https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety)\n"
+    }
+  },
+  "ratioYieldCapacity": {
+    "servings": "4 small side portions",
+    "capacity": [
+      "Blanching salt and seasoning salt are separate measured ingredients. Keep their destinations separate and add the seasoning salt gradually to taste.",
+      "Larger batches need a larger pot or separate blanching loads so leaves can submerge. Divide measured blanching water and salt among separate pots if using them; cooling water is an additional unmeasured allowance. Do not multiply the brief blanch time."
+    ],
+    "precision": "Original planning portions, no measured cooked yield or pan dimensions invented."
+  },
+  "processTiming": {
+    "prepTime": "5 min",
+    "cookTime": "10 min",
+    "totalTime": "15 min"
+  },
+  "checkpoints": [
+    {
+      "step": 2,
+      "cue": "Leaves have wilted and stems are tender.",
+      "why": "Thirty seconds is a first check; thick stems need longer."
+    },
+    {
+      "step": 5,
+      "cue": "Leaves are loose enough for dressing to reach the whole bowl.",
+      "why": "Gentle squeezing and separating preserve texture and seasoning distribution."
+    }
+  ],
+  "storage": "Refrigerate promptly in a shallow covered container at 40°F / 4°C or below. Limit time out to 2 hours, or 1 hour above 90°F / 32°C. Use within 2 days for best texture. Serve cool; freezing gives a softer result.",
+  "learningTiming": "About 15 min includes washing, heating, blanching, cooling, gently draining and seasoning; larger batches can take longer.",
+  "relationships": {
+    "pairsWith": ["bibimbap", "kalbi-grilled-korean-style-short-ribs", "basmati-rice"],
+    "incomingMeals": ["bibimbap-night.md", "korean-bbq-night.md"],
+    "scope": "Linked recipes and meal schedules do not gain review status.",
+    "rootAssessment": "Bibimbap Night and Korean BBQ Night were read whole. Their runny-egg instruction, held kimchi and compressed preparation/grill schedules need separate reconciliation; this batch gives them no approval or review credit."
+  },
+  "kitchenQuestions": [
+    "Check spinach stem thickness and gently drained yield for four original small sides.",
+    "Assess salinity with actual fine sea salt without inventing a gram conversion."
+  ],
+  "sourceApplicability": "# Source scope and bounded evidence\n\nThese are proposed full editorial reviews, pending peer/root acceptance. No physical cooking or native-app sync occurred. Exact committed originals and complete later diffs are retained in this directory; native export lineage is not established by title and is not certified.\n\n- Buttered noodles: exact first Git fd4f07a836d811739118df904c5e6cc8b1fd593e establishes the recipe. Package cooking governs the actual noodle product. The starch/water/butter coating explanation is an established culinary mechanism, not a USDA recipe endorsement. USDA/FoodSafety.gov applies only to perishable leftovers, cold holding and reheating.\n- Steel-cut oats: exact first Git045e5ba276b560e4f7d3d485b4860f610d295bac and exact2f2553cdfdbb0ab775b3018274db9820ab42606a show the additional tablespoon lost in a batch rewrite. Subsequent source history has no explicit household decision supporting its removal. The restored total is 9 tablespoons = ½ cup +1 tablespoon. Saved half/half allocation means4½ tablespoons during dairy cooking and4½ at finish in the original batch; structured shares preserve this at every factor. Current Alton Brown primary https://altonbrown.com/recipes/buttermilk-steel-cut-oats-recipe/ corroborates total, butter, milk and toast/simmer mechanism, but allocates8 tablespoons cooking and1 tablespoon finishing. This proposal preserves the saved allocation and does not silently substitute the publisher's different split. No quoted publisher prose or nutritional claims were imported. Toasting creates flavor, not a protective seal. Water heating/brand/evaporation remain kitchen questions.\n- Blueberry/date oats: first exact Git045e5ba2 and full history show malformed water/date ingredient line, microwave OR stove routes and all-or-part milk/additional liquid option. Later batch rewrite introduced current Medjool specificity; that quantity/state is retained, not normalized. No exact Kids Eat in Color publisher recipe was established. Current attribution remains collection attribution, not formula proof. Actual frozen-product preparation labels must be read by the cook; neither FDA general produce guidance nor a residual-heat thaw certifies a particular frozen product ready to eat. FDA supports produce handling; USDA applies to storage/reheating. No universal all-frozen-berries cooking requirement asserted.\n- Soybean sprouts: existing accepted ee9c7078 targeted repair and exact Git12816aa2 mild formula retained. Maangchi's covered-cooking method supplies context but her chili/fish-sauce versions do not replace this recipe. UC ANR8151 https://ucanr.edu/sites/default/files/2024-02/393187.pdf gives general cooked-sprout advice with principal mung-bean examples. Applying above165°F alongside steaming-hot-throughout to soybean sprouts is conservative accepted guidance; it does not validate a ten-minute pot process or promise pathogen elimination. FDA's higher-risk caution applies to raw/lightly cooked sprouts. No rinsing invention from the held kimchi recipe.\n- Korean spinach: actual Sue Pressey primary https://mykoreankitchen.com/simply-seasoned-korean-spinach-salad-sigeumchi-namul-version-1/ corroborates ingredient identities/amounts, brief blanch followed by cold rinse, gentle squeeze and dressing. Existing accepted salt-density/allocation repairs remain. Cold-water allowance is method water, not a new measured dressing ingredient. FoodSafety.gov applies to holding, not a requirement to reheat cold banchan.\n- Broccoli all'Agro: exact first committed recipe and later complete history establish the saved dressing/count/florets-only/rating. Saved Paprika remains attribution; it does not prove a geographical origin or a native archive binding. General produce guidance supports washing, not the exact fork endpoint or six-portion estimate. Established steaming and draining mechanisms support sensory cues; actual head size is unmeasured. USDA cold handling applies to the perishable whole dish. Lemon is not evidence for room-temperature garlic/oil preservation.\n\nAll sources are applied within the listed scope. Planning ranges and sensory endpoints are editorial guidance, not measured kitchen results. Existing source links and pairings remain; linked dishes and meal schedules do not gain approval.\n",
+  "sourceFetchGaps": [],
+  "confidenceAndLimits": "High exact quantities, source bytes and scoped peer corrections; untested timing, sensory texture, capacity and portions remain questions. Primary safety guidance does not certify formula or remove all risk.",
+  "scalingAndReset": [
+    {
+      "factor": 0.5,
+      "ingredients": [
+        "125 g fresh spinach, roots trimmed and leaves washed",
+        "3 cups water, for blanching",
+        "1/2 tsp fine sea salt, for blanching water",
+        "1/2 tbsp toasted sesame oil",
+        "1/2 tsp scallion, finely chopped",
+        "1/4 tsp garlic, minced",
+        "1/8 tsp fine sea salt, for seasoning, added to taste",
+        "1/2 tsp toasted sesame seeds",
+        "Cold water, as needed for cooling"
+      ],
+      "yield": "4 small side portions"
+    },
+    {
+      "factor": 1,
+      "ingredients": [
+        "250 g fresh spinach, roots trimmed and leaves washed",
+        "6 cups water, for blanching",
+        "1 tsp fine sea salt, for blanching water",
+        "1 tbsp toasted sesame oil",
+        "1 tsp scallion, finely chopped",
+        "1/2 tsp garlic, minced",
+        "1/4 tsp fine sea salt, for seasoning, added to taste",
+        "1 tsp toasted sesame seeds",
+        "Cold water, as needed for cooling"
+      ],
+      "yield": "4 small side portions"
+    },
+    {
+      "factor": 2,
+      "ingredients": [
+        "500 g fresh spinach, roots trimmed and leaves washed",
+        "12 cups water, for blanching",
+        "2 tsp fine sea salt, for blanching water",
+        "2 tbsp toasted sesame oil",
+        "2 tsp scallion, finely chopped",
+        "1 tsp garlic, minced",
+        "1/2 tsp fine sea salt, for seasoning, added to taste",
+        "2 tsp toasted sesame seeds",
+        "Cold water, as needed for cooling"
+      ],
+      "yield": "4 small side portions"
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "250 g fresh spinach, roots trimmed and leaves washed",
+        "6 cups water, for blanching",
+        "1 tsp fine sea salt, for blanching water",
+        "1 tbsp toasted sesame oil",
+        "1 tsp scallion, finely chopped",
+        "1/2 tsp garlic, minced",
+        "1/4 tsp fine sea salt, for seasoning, added to taste",
+        "1 tsp toasted sesame seeds",
+        "Cold water, as needed for cooling"
+      ],
+      "yield": "4 small side portions"
+    }
+  ],
+  "validation": {
+    "slug": "simply-seasoned-korean-spinach-salad",
+    "currentSourceSha256": "1d98e0dbdc95e42e9cf71a227736dbfa3d4353b45f7517d78f0dd25074334aea",
+    "frozenSha256": "1d98e0dbdc95e42e9cf71a227736dbfa3d4353b45f7517d78f0dd25074334aea",
+    "candidateSha256": "7a1f3f1d05aecec877c2be2402b24055137f995a928f4ce5cf92d13e0962ccc7",
+    "recordSha256": "daec59eabf421733b82f537a716470425fdda437b2d5343eec6408579a589f90",
+    "actualCurrentContentSchema": true,
+    "protectedFieldsPreserved": true,
+    "exactFieldSetAndValues": true,
+    "sourceGitBytesExact": true,
+    "completeIngredientLedger": true,
+    "priorPeerReverseBytesExact": false,
+    "unchangedChallengeHash": true,
+    "preservedAcceptedStepBytes": ["1", "2", "3", "4", "5"],
+    "formulaParity": false,
+    "scaleHalfOriginalDoubleReset": true,
+    "triage": {
+      "slug": "simply-seasoned-korean-spinach-salad",
+      "title": "Korean Spinach Salad (Sigeumchi Namul)",
+      "status": "editorial-review",
+      "stepCount": 6,
+      "issues": []
+    },
+    "physicalCooking": false
+  },
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/boiled-six-sources.json",
+  "rootIntegrationRequirements": [],
+  "proposedSha256": "7a1f3f1d05aecec877c2be2402b24055137f995a928f4ce5cf92d13e0962ccc7",
+  "rootMetadataCorrections": {
+    "priorCandidateSha256": "7a1f3f1d05aecec877c2be2402b24055137f995a928f4ce5cf92d13e0962ccc7",
+    "correctedCandidateSha256": "7a1f3f1d05aecec877c2be2402b24055137f995a928f4ce5cf92d13e0962ccc7",
+    "independentReportSha256": "17a435c52b2139a7ef5d75a1f210aee78612bed5e066772ecaeecd4dfd5388b1",
+    "changes": [
+      {
+        "category": "evidence scope",
+        "location": "findings.0.source",
+        "before": [
+          {
+            "title": "Sue Pressey — Simply seasoned Korean spinach salad",
+            "url": "https://mykoreankitchen.com/simply-seasoned-korean-spinach-salad-sigeumchi-namul-version-1/"
+          },
+          {
+            "title": "FoodSafety.gov — Four steps to food safety",
+            "url": "https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety"
+          }
+        ],
+        "after": [
+          {
+            "title": "Exact saved committed recipe",
+            "path": "retained-private-evidence",
+            "sha256": "9b006b57df21972e7c40dcc896299132e3d34852545fbc3af9939fce36aa337a",
+            "applicability": "Exact 045 saved/current/frozen sources and accepted later salt-density/allocation history establish the house ingredient amounts and separate blanch/season salt. Unmeasured cooling water follows the rinse step, not a new measured dressing amount."
+          },
+          {
+            "title": "Exact frozen current and full actual Git history",
+            "paths": ["retained-private-evidence", "retained-private-evidence"],
+            "applicability": "Establishes existing state/allocations/variants and inherited repairs; source changes are not kitchen tests."
+          },
+          {
+            "title": "Sue Pressey — exact spinach recipe",
+            "url": "https://mykoreankitchen.com/simply-seasoned-korean-spinach-salad-sigeumchi-namul-version-1/",
+            "applicability": "Direct same-recipe amounts, blanch/cold-rinse/squeeze and Korean banchan context. Compare saved/current measures; do not silently normalize cup definitions or impose cooked-leftover reheating on cold banchan."
+          },
+          {
+            "type": "editorial culinary inference",
+            "basis": "Exact saved/current methods and ingredient-state/process graph",
+            "applicability": "Brief blanch, cold rinse, gentle squeeze and original-portion context follow exact source and current Sue recipe; retained targeted repairs remain distinct. Pot headroom and sensory doneness vary with load.",
+            "confidence": "moderate for untested sensory/load guidance"
+          },
+          {
+            "type": "editorial planning inference",
+            "basis": "Named heat-up/prep/cook/drain/finish dependencies in this recipe",
+            "applicability": "Sue/source brief blanch and heat-up are reference planning, not measured household timing. Actual pot, starting water, load and optional chilling govern; safety guidance does not establish the clock.",
+            "confidence": "moderate; actual elapsed and active times unmeasured"
+          },
+          {
+            "title": "FoodSafety.gov — handling scope only",
+            "url": "https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety",
+            "applicability": "Clean handling, prompt shallow cold holding at 40°F, two-hour limit/one hour above 90°F as applicable. Not culinary formula, yield, cooking clock or mandatory reheating ofcold banchan."
+          }
+        ],
+        "rationale": "Separate saved-formula/current-process/publisher comparison/culinary planning from the specifically applicable handling guidance. Source arrays must not imply all citations establish every claim.",
+        "confidence": "high for source-scope distinction; underlying culinary/timing conclusions are not self-accepted"
+      },
+      {
+        "category": "evidence scope",
+        "location": "findings.1.source",
+        "before": [
+          {
+            "title": "Sue Pressey — Simply seasoned Korean spinach salad",
+            "url": "https://mykoreankitchen.com/simply-seasoned-korean-spinach-salad-sigeumchi-namul-version-1/"
+          },
+          {
+            "title": "FoodSafety.gov — Four steps to food safety",
+            "url": "https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety"
+          }
+        ],
+        "after": [
+          {
+            "title": "Exact saved committed recipe",
+            "path": "retained-private-evidence",
+            "sha256": "9b006b57df21972e7c40dcc896299132e3d34852545fbc3af9939fce36aa337a",
+            "applicability": "Exact 045 saved/current/frozen sources and accepted later salt-density/allocation history establish the house ingredient amounts and separate blanch/season salt. Unmeasured cooling water follows the rinse step, not a new measured dressing amount."
+          },
+          {
+            "title": "Exact frozen current and full actual Git history",
+            "paths": ["retained-private-evidence", "retained-private-evidence"],
+            "applicability": "Establishes existing state/allocations/variants and inherited repairs; source changes are not kitchen tests."
+          },
+          {
+            "title": "Sue Pressey — exact spinach recipe",
+            "url": "https://mykoreankitchen.com/simply-seasoned-korean-spinach-salad-sigeumchi-namul-version-1/",
+            "applicability": "Direct same-recipe amounts, blanch/cold-rinse/squeeze and Korean banchan context. Compare saved/current measures; do not silently normalize cup definitions or impose cooked-leftover reheating on cold banchan."
+          }
+        ],
+        "rationale": "Quantities/restoration and ingredient destinations come from exact recipe/Git evidence; general safety sources do not establish these formula claims.",
+        "confidence": "high for source-scope distinction; underlying culinary/timing conclusions are not self-accepted"
+      },
+      {
+        "category": "evidence scope",
+        "location": "findings.2.source",
+        "before": [
+          {
+            "title": "Sue Pressey — Simply seasoned Korean spinach salad",
+            "url": "https://mykoreankitchen.com/simply-seasoned-korean-spinach-salad-sigeumchi-namul-version-1/"
+          },
+          {
+            "title": "FoodSafety.gov — Four steps to food safety",
+            "url": "https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety"
+          }
+        ],
+        "after": [
+          {
+            "title": "Exact saved committed recipe",
+            "path": "retained-private-evidence",
+            "sha256": "9b006b57df21972e7c40dcc896299132e3d34852545fbc3af9939fce36aa337a",
+            "applicability": "Exact 045 saved/current/frozen sources and accepted later salt-density/allocation history establish the house ingredient amounts and separate blanch/season salt. Unmeasured cooling water follows the rinse step, not a new measured dressing amount."
+          },
+          {
+            "title": "Exact frozen current and full actual Git history",
+            "paths": ["retained-private-evidence", "retained-private-evidence"],
+            "applicability": "Establishes existing state/allocations/variants and inherited repairs; source changes are not kitchen tests."
+          },
+          {
+            "title": "Sue Pressey — exact spinach recipe",
+            "url": "https://mykoreankitchen.com/simply-seasoned-korean-spinach-salad-sigeumchi-namul-version-1/",
+            "applicability": "Direct same-recipe amounts, blanch/cold-rinse/squeeze and Korean banchan context. Compare saved/current measures; do not silently normalize cup definitions or impose cooked-leftover reheating on cold banchan."
+          },
+          {
+            "type": "editorial culinary inference",
+            "basis": "Exact saved/current methods and ingredient-state/process graph",
+            "applicability": "Brief blanch, cold rinse, gentle squeeze and original-portion context follow exact source and current Sue recipe; retained targeted repairs remain distinct. Pot headroom and sensory doneness vary with load.",
+            "confidence": "moderate for untested sensory/load guidance"
+          },
+          {
+            "type": "editorial planning inference",
+            "basis": "Named heat-up/prep/cook/drain/finish dependencies in this recipe",
+            "applicability": "Sue/source brief blanch and heat-up are reference planning, not measured household timing. Actual pot, starting water, load and optional chilling govern; safety guidance does not establish the clock.",
+            "confidence": "moderate; actual elapsed and active times unmeasured"
+          },
+          {
+            "title": "FoodSafety.gov — handling scope only",
+            "url": "https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety",
+            "applicability": "Clean handling, prompt shallow cold holding at 40°F, two-hour limit/one hour above 90°F as applicable. Not culinary formula, yield, cooking clock or mandatory reheating ofcold banchan."
+          }
+        ],
+        "rationale": "Separate saved-formula/current-process/publisher comparison/culinary planning from the specifically applicable handling guidance. Source arrays must not imply all citations establish every claim.",
+        "confidence": "high for source-scope distinction; underlying culinary/timing conclusions are not self-accepted"
+      }
+    ],
+    "scope": "Bounded root metadata/evidence corrections and routine timing copy editing; original author and peer checkpoints retained. Whole root acceptance still pending."
+  },
+  "acceptedSourceSha256": "7a1f3f1d05aecec877c2be2402b24055137f995a928f4ce5cf92d13e0962ccc7",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/boiled-six-independent.md",
+  "integrationInputCommit": "7eec1146b5f7bd65495c750a8312303d8d9d5b83",
+  "rootWholeInspection": "Complete current, exact first Git, proposed recipes and every actual cooking history inspected. All ingredient preparation/state/allocation/method destinations, full richness and variants, ratios, original planning portions, pan headroom, heat and sensory endpoints, active/elapsed timing, optional chilling, storage, scaling and linked meals inspected. Six complete bounded byte reversals and four prior peer reversals passed; two original independently inspected candidate hashes remain unchanged before the bounded corrections. Exact private native archive lineage is not established for these recipes; retained exact Git sources remain authoritative evidence.",
+  "rootSourceEvidence": {
+    "firstGit": "https://github.com/jsilton/mise/blob/045e5ba276b560e4f7d3d485b4860f610d295bac/src/content/recipes/simply-seasoned-korean-spinach-salad.md",
+    "savedSha256": "9b006b57df21972e7c40dcc896299132e3d34852545fbc3af9939fce36aa337a",
+    "actualHistorySha256": "0a3a283b3181fb5b94f35680c4a9e3907d584666926f8f9ec61a073adbec1aae",
+    "historyArtifactHeaderBytesDiffer": true,
+    "completeActualCommitSetsAndDiffBodiesMatch": true,
+    "priorRepairCommit": "5741495b479d1891066e004ed07aa4b5f830db66",
+    "sourceScope": "Exact Git/formula and publisher disagreements support culinary choices. FDA/USDA support only applicable handling and leftover guidance; untested planning, capacity and sensory judgments remain explicitly editorial inference."
+  },
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 32,
+    "targetedLint": "Six pass; zero errors and one pre-existing missing-pairing warning. No invented pairing added.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 11898,
+    "missingDestinations": 0,
+    "exports": "All three exports match643 current recipe sources",
+    "privateBindings": "643 complete stable bindings verified; no replacement identities",
+    "privacy": "Published assets and public evidence pass",
+    "renderedRecipes": 6,
+    "visibleMethodSteps": 30,
+    "scaledIngredientDisplays": 144,
+    "scaledYieldDisplays": 18,
+    "scaleFactors": [0.5, 2, 1],
+    "mobileWidth": 375,
+    "noOverflow": true,
+    "cooking": "All six ingredient/step checks persist after reload and reentry; normal mode on reload; reset and exit pass",
+    "shopping": "Oatmeal2× shows18 tbsp total buttermilk; both method stages use half the listed total",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "Controls enabled; shared styles unchanged; print preview unverified",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

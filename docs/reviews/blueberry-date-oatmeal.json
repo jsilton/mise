@@ -1,0 +1,1048 @@
+{
+  "slug": "blueberry-date-oatmeal",
+  "title": "Blueberry Date Oatmeal",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "date": "2026-10-05",
+  "notKitchenTested": true,
+  "inputCommit": "1b56f21878b9da0b844c34f9f491fd02313d60c2",
+  "inputSha256": "7bd003e617d2fab7206273d1806d70456371cb0dd373a30ab55f8fb3ddfee576",
+  "currentSourceSha256": "7bd003e617d2fab7206273d1806d70456371cb0dd373a30ab55f8fb3ddfee576",
+  "candidateSha256": "4e9a63aeb89f65a85bd1543528e961e3154f6a0e270e27b3b1f1b7420010964e",
+  "summary": "Exact committed origin and full history recovered; malformed first ingredient lines and microwave/stove alternatives are visible there. Saved all-or-part milk and extra-liquid option restored as an unmeasured allowance, without reducing the current measured liquid. Current6Medjool dates and2tbsp coconut oil retained; no source normalization. Kids Eat in Color collection attribution retained, but no exact publisher page was established, so it is not proof of this formula. Frozen cauliflower is not certified ready-to-eat: actual product instructions govern. No generic mandate to cook every frozen berry, and no claim residual heat in1min is sufficient. Removed unsupported flavor invisibility, perfect-color promises and unverified nutrition; no formula/yield invention. Subsequent peer-applied correction explicitly assigns the single measured berry amount either to cooking with the oats or to the finish, never both; checkpoint and ledger agree.",
+  "sourceCredit": "Adapted from Kids Eat in Color",
+  "sourceUrl": null,
+  "sourceProvenance": {
+    "savedGitCommit": "045e5ba276b560e4f7d3d485b4860f610d295bac",
+    "path": "src/content/recipes/blueberry-date-oatmeal.md",
+    "savedSourceSha256": "e248393af3f1a87163c82ef8e37f7b248285ac66a68e08541d572df3db3d0274",
+    "nativeLineage": "Not independently established; exact Git originals only."
+  },
+  "priorIndependentChallenge": {
+    "inspectedSha256": "42e399182d2a2a674b158e4240373b4177ba57ce3a6a364a9f9b5f512e0232ed",
+    "disposition": "correct",
+    "reason": "Correct berry single-allocation branch before acceptance. Otherwise the full six current Medjool dates/coconut oil, 1.5 cups all-or-part chosen milk/water, additional genuine liquid allowance, exclusive stove/microwave routes and package-dependent frozen cooking are preserved. No one-minute thaw guarantee, exact microwave-model time or universal frozen-berry mandate remains.",
+    "currentCandidateStillExact": false
+  },
+  "subsequentPeerApplication": {
+    "priorSha256": "42e399182d2a2a674b158e4240373b4177ba57ce3a6a364a9f9b5f512e0232ed",
+    "correctedSha256": "47b57d25085eb1b32819a3ea3fbe63123dfb3947071314fa084c779125072b44",
+    "changes": [
+      {
+        "location": "Directions step 5; ingredientLedger blueberry destination; learning checkpoint 5",
+        "before": "5. **Berry finish:** Off heat, fold in the measured blueberries if their package allows this use, or fold in the blueberries already cooked as required. Let the porridge stand until the berries are thawed and the oatmeal is comfortable to eat; frozen berries do not always thaw in one minute.",
+        "after": "5. **Berry finish:** If the measured blueberries already cooked with the oats, leave them in; do not add another amount. Otherwise, off heat, fold in all the measured blueberries if their package allows this use, or fold in the same amount cooked separately as required. Let any berries added frozen thaw and let the oatmeal become comfortable to eat before serving."
+      },
+      {
+        "location": "Chef's Note sentence 2",
+        "before": "The coconut oil stays part of the full recipe.",
+        "after": "Coconut oil adds richness to the porridge."
+      },
+      {
+        "location": "learning.checkpoints step 5",
+        "before": {
+          "step": 5,
+          "cue": "Berries are thawed; any package-required cooking has already been completed.",
+          "why": "Thawing and cooking are different operations."
+        },
+        "after": {
+          "step": 5,
+          "cue": "All measured berries have been added once and are ready under their package instructions, whether cooked with the oats or added at the finish.",
+          "why": "Thawing and cooking are different operations."
+        }
+      },
+      {
+        "location": "ingredientLedger blueberry destination",
+        "before": {
+          "ingredient": "1/2 cup Frozen Blueberries",
+          "destination": "package preparation then finish",
+          "quantityState": "Measured amount retained; unmeasured allowances are explicit."
+        },
+        "after": {
+          "ingredient": "1/2 cup Frozen Blueberries",
+          "destination": "all measured berries once: cook with oats if package instructions are met OR separately prepared/permitted frozen berries at finish; no second dose",
+          "quantityState": "Measured amount retained; unmeasured allowances are explicit."
+        }
+      }
+    ],
+    "scope": "Only recorded bounded corrections; exact prior bytes reconstructed and hashed.",
+    "independentSelfAcceptance": false
+  },
+  "rootFinalAcceptance": "accepted after prior independent whole challenge, independent bounded metadata challenge and complete final root source/diff inspection",
+  "independentSelfAcceptance": false,
+  "sourceDisagreements": "Exact committed origin and full history recovered; malformed first ingredient lines and microwave/stove alternatives are visible there. Saved all-or-part milk and extra-liquid option restored as an unmeasured allowance, without reducing the current measured liquid. Current6Medjool dates and2tbsp coconut oil retained; no source normalization. Kids Eat in Color collection attribution retained, but no exact publisher page was established, so it is not proof of this formula. Frozen cauliflower is not certified ready-to-eat: actual product instructions govern. No generic mandate to cook every frozen berry, and no claim residual heat in1min is sufficient. Removed unsupported flavor invisibility, perfect-color promises and unverified nutrition; no formula/yield invention. Subsequent peer-applied correction explicitly assigns the single measured berry amount either to cooking with the oats or to the finish, never both; checkpoint and ledger agree.",
+  "originalIngredients": [
+    "1 cup Rolled Oats",
+    "2 tbsp Frozen Riced Cauliflower (The \"Volume\" Hack)",
+    "1 1/2 cups Water (or Milk of choice)",
+    "6 Medjool Dates, finely chopped",
+    "2 tbsp Coconut Oil",
+    "1/2 cup Frozen Blueberries",
+    "Pinch of Sea Salt",
+    "Ground Cinnamon"
+  ],
+  "frozenIngredientLedger": [
+    {
+      "ingredient": "1 cup Rolled Oats",
+      "destinationOrQuestion": "combine1; stove2 OR microwave3"
+    },
+    {
+      "ingredient": "2 tbsp Frozen Riced Cauliflower (The \"Volume\" Hack)",
+      "destinationOrQuestion": "combine1; no actual product preparation established in frozen"
+    },
+    {
+      "ingredient": "1 1/2 cups Water (or Milk of choice)",
+      "destinationOrQuestion": "combine1 chosen water/milk"
+    },
+    {
+      "ingredient": "6 Medjool Dates, finely chopped",
+      "destinationOrQuestion": "chop/combine1"
+    },
+    {
+      "ingredient": "2 tbsp Coconut Oil",
+      "destinationOrQuestion": "all combine1"
+    },
+    {
+      "ingredient": "1/2 cup Frozen Blueberries",
+      "destinationOrQuestion": "offheat4; frozen one-minute thaw claim superseded"
+    },
+    {
+      "ingredient": "Pinch of Sea Salt",
+      "destinationOrQuestion": "season5"
+    },
+    {
+      "ingredient": "Ground Cinnamon",
+      "destinationOrQuestion": "season5"
+    }
+  ],
+  "savedGitIngredients": [
+    "1 cup rolled oats",
+    "2 Tbs frozen riced cauliflower",
+    "1 1/2 cup water (can substitute all or part milk/milk substitute, or add more) 6 dates, chopped",
+    "2 Tbs coconut oil",
+    "1/2 cup frozen blueberries"
+  ],
+  "currentIngredients": [
+    "1 cup Rolled Oats",
+    "2 tbsp Frozen Riced Cauliflower",
+    "1 1/2 cups Water (all or part may be milk of choice)",
+    "6 Medjool Dates, pitted and finely chopped",
+    "2 tbsp Coconut Oil",
+    "1/2 cup Frozen Blueberries",
+    "Pinch of Sea Salt",
+    "Ground Cinnamon, to taste",
+    "Additional water or milk, as needed to loosen the oatmeal"
+  ],
+  "ingredientLedger": [
+    {
+      "ingredient": "1 cup Rolled Oats",
+      "destination": "combine; chosen stove OR microwave",
+      "quantityState": "Measured amount retained; unmeasured allowances are explicit."
+    },
+    {
+      "ingredient": "2 tbsp Frozen Riced Cauliflower",
+      "destination": "package preparation then combine",
+      "quantityState": "Measured amount retained; unmeasured allowances are explicit."
+    },
+    {
+      "ingredient": "1 1/2 cups Water (all or part may be milk of choice)",
+      "destination": "combine chosen liquid",
+      "quantityState": "Measured amount retained; unmeasured allowances are explicit."
+    },
+    {
+      "ingredient": "6 Medjool Dates, pitted and finely chopped",
+      "destination": "pit/chop then combine",
+      "quantityState": "Measured amount retained; unmeasured allowances are explicit."
+    },
+    {
+      "ingredient": "2 tbsp Coconut Oil",
+      "destination": "combine full amount",
+      "quantityState": "Measured amount retained; unmeasured allowances are explicit."
+    },
+    {
+      "ingredient": "1/2 cup Frozen Blueberries",
+      "destination": "all measured berries once: cook with oats if package instructions are met OR separately prepared/permitted frozen berries at finish; no second dose",
+      "quantityState": "Measured amount retained; unmeasured allowances are explicit."
+    },
+    {
+      "ingredient": "Pinch of Sea Salt",
+      "destination": "serve",
+      "quantityState": "Measured amount retained; unmeasured allowances are explicit."
+    },
+    {
+      "ingredient": "Ground Cinnamon, to taste",
+      "destination": "serve to taste",
+      "quantityState": "Measured amount retained; unmeasured allowances are explicit."
+    },
+    {
+      "ingredient": "Additional water or milk, as needed to loosen the oatmeal",
+      "destination": "loosen chosen cooking route as needed",
+      "quantityState": "Measured amount retained; unmeasured allowances are explicit."
+    }
+  ],
+  "variantLedger": [
+    "All or part of the1.5cup total liquid may be chosen milk; additional liquid allowance is separate.",
+    "Stove OR microwave routes, not sequential; actual product directions govern frozen cauliflower/berries.",
+    "One halfcup berry total either cooks with oats or enters once at finish. Current six Medjool dates/full2tbsp coconut oil retained."
+  ],
+  "preservedPriorRepairs": [],
+  "findings": [
+    {
+      "before": "\n## Chef's Note\n\nFrozen riced cauliflower adds volume and fiber without affecting flavor. Stir frozen blueberries in at the end rather than cooking them - this prevents the oatmeal from turning gray while keeping berries whole and bright. Medjool dates provide natural caramel-like sweetness without refined sugar.\n\n## Directions\n\n1.  **Combine:** In a medium saucepan (stovetop) or a large microwave-safe bowl, combine oats, cauliflower, water/milk, chopped dates, and coconut oil.\n2.  **Cook (Stovetop):** Bring to a gentle boil, then reduce to a simmer. Cook for 5-7 minutes, stirring frequently, until the liquid is absorbed and the oats are creamy.\n3.  **Cook (Microwave):** Heat on high for 3 minutes, stir, then heat for another 2-3 minutes until thickened.\n4.  **The Berry Finish:** Remove from heat. Gently fold in the frozen blueberries. Let sit for 1 minute - the residual heat will thaw the berries while keeping them whole.\n5.  **Serve:** Top with a pinch of sea salt and cinnamon.\n",
+      "after": "\n## Chef's Note\n\nChop the pitted dates finely so they soften into the oats. Coconut oil adds richness to the porridge. Blueberry juice may color the porridge purple; that is normal. Choose the stove or microwave route, and check the frozen cauliflower and berry packages before deciding whether they can simply be warmed in the oats.\n\n## Directions\n\n1. **Prepare:** Check the rolled-oat and frozen cauliflower and blueberry packages. If a frozen product requires cooking before eating, follow its cooking directions; do not rely on a brief off-heat thaw to satisfy them. Cook those products separately first if the oatmeal route will not meet their instructions, retaining all the listed amounts. Remove the date pits and finely chop the flesh.\n\n2. **Combine:** Choose the stovetop OR microwave route. Combine oats, cauliflower, water or milk, chopped dates and all the coconut oil in a saucepan, or in a microwave-safe bowl with generous room for foaming. Use the prepared cauliflower if its package required separate cooking. Keep the berries aside until the finish unless they need cooking with the oats under their package directions.\n\n3. **Stovetop option:** Bring to a gentle boil, then reduce to a simmer. Stir frequently and start checking at 5–7 minutes, following the actual rolled-oat package if it needs longer. Stop when the oats are tender and creamy. If too thick before the oats are tender, add a little of the additional water or milk allowance and continue gently. Skip the microwave step.\n\n4. **Microwave option:** Follow the oatmeal package where it provides microwave directions. Otherwise heat on high for about 3 minutes as a first check, stopping earlier if it rises toward the rim. Carefully stir, then heat in short intervals, checking until the oats are tender and thickened; another 2–3 minutes is a planning range, not a guarantee for every microwave. If too thick before tender, stir in a little of the additional water or milk allowance before continuing. The bowl and steam will be hot. Skip the stovetop step.\n\n5. **Berry finish:** If the measured blueberries already cooked with the oats, leave them in; do not add another amount. Otherwise, off heat, fold in all the measured blueberries if their package allows this use, or fold in the same amount cooked separately as required. Let any berries added frozen thaw and let the oatmeal become comfortable to eat before serving.\n\n6. **Season and serve:** Add the pinch of salt and cinnamon to taste. Divide among the listed portions and serve.\n\n## Cooking Notes\n\nStove and microwave are alternatives, not sequential cooking steps. Frozen-product directions may add a separate cooking stage.\n\nWhen scaling, use a larger saucepan or separate batches. For the microwave, use separate roomy bowls or loads rather than multiplying the original timing in one crowded bowl. Recombine or divide the measured ingredients evenly.\n\nAllow about 15–20 minutes for preparation, heating and cooking, plus any separate cooking required by frozen-product directions. Larger batches can take longer.\n\nRefrigerate promptly in a shallow covered container at 40°F / 4°C or below. Limit time out to 2 hours, or 1 hour above 90°F / 32°C. Use within 3–4 days. Reheat to 165°F / 74°C; oats become softer and thicker.\n",
+      "rationale": "Exact committed origin and full history recovered; malformed first ingredient lines and microwave/stove alternatives are visible there. Saved all-or-part milk and extra-liquid option restored as an unmeasured allowance, without reducing the current measured liquid. Current6Medjool dates and2tbsp coconut oil retained; no source normalization. Kids Eat in Color collection attribution retained, but no exact publisher page was established, so it is not proof of this formula. Frozen cauliflower is not certified ready-to-eat: actual product instructions govern. No generic mandate to cook every frozen berry, and no claim residual heat in1min is sufficient. Removed unsupported flavor invisibility, perfect-color promises and unverified nutrition; no formula/yield invention.",
+      "source": [
+        {
+          "title": "Exact saved committed recipe",
+          "path": "retained-private-evidence",
+          "sha256": "e248393af3f1a87163c82ef8e37f7b248285ac66a68e08541d572df3db3d0274",
+          "applicability": "Exact 045 original has a malformed joined water/date line but establishes six dates, all-or-part milk/additional liquid and microwave OR stove options. Frozen current records Medjool/date/coconut-oil quantities. No exact Kids Eat in Color publisher formula or native archive binding is established."
+        },
+        {
+          "title": "Exact frozen current and full actual Git history",
+          "paths": ["retained-private-evidence", "retained-private-evidence"],
+          "applicability": "Establishes existing state/allocations/variants and inherited repairs; source changes are not kitchen tests."
+        },
+        {
+          "type": "editorial culinary inference",
+          "basis": "Exact saved/current methods and ingredient-state/process graph",
+          "applicability": "Exclusive cooker routes, stirring, headroom and texture checks are editorial reconstruction from actual saved/current ingredients and methods. Label-specific frozen-product preparation governs; residual heat does not certify a product ready to eat.",
+          "confidence": "moderate for untested sensory/load guidance"
+        },
+        {
+          "type": "editorial planning inference",
+          "basis": "Named heat-up/prep/cook/drain/finish dependencies in this recipe",
+          "applicability": "The two route plans depend on actual microwave power, bowl/pan load, starting product temperature and component preparation. Exact source has six-minute microwave/alternate-stove language; FDA/USDA does not establish a tested elapsed range.",
+          "confidence": "moderate; actual elapsed and active times unmeasured"
+        },
+        {
+          "title": "FDA — produce handling only",
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely",
+          "applicability": "General produce handling. Does notcertify a particular frozen berry/cauliflower product ready to eat, residual heat preparation or a universal all-frozen-fruit requirement. Follow actual product labels."
+        },
+        {
+          "title": "FoodSafety.gov — handling scope only",
+          "url": "https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety",
+          "applicability": "Clean handling, prompt shallow cold holding at 40°F, two-hour limit/one hour above 90°F as applicable. Not culinary formula, yield, cooking clock or mandatory reheating ofcold banchan."
+        },
+        {
+          "title": "USDA — leftover scope only",
+          "url": "https://ask.fsis.usda.gov/article/How-do-I-handle-leftovers-safely",
+          "applicability": "General perishable leftovers cold holding/use/reheating guidance; not validation of amounts, original yield, emulsion, sensory endpoint or first-cook elapsed range. Existing shorter quality notes remain distinct from tested shelf life."
+        }
+      ],
+      "confidence": "high for preserved/recovered quantities and destinations; moderate for untested sensory/planning ranges",
+      "unresolvedQuestions": [
+        "Identify exact cauliflower/berry packages and confirm required preparation.",
+        "Check microwave wattage, bowl headroom, date size and final texture with1½cups chosen liquid."
+      ]
+    },
+    {
+      "category": "ingredients",
+      "before": [
+        "1 cup Rolled Oats",
+        "2 tbsp Frozen Riced Cauliflower (The \"Volume\" Hack)",
+        "1 1/2 cups Water (or Milk of choice)",
+        "6 Medjool Dates, finely chopped",
+        "2 tbsp Coconut Oil",
+        "1/2 cup Frozen Blueberries",
+        "Pinch of Sea Salt",
+        "Ground Cinnamon"
+      ],
+      "after": [
+        "1 cup Rolled Oats",
+        "2 tbsp Frozen Riced Cauliflower",
+        "1 1/2 cups Water (all or part may be milk of choice)",
+        "6 Medjool Dates, pitted and finely chopped",
+        "2 tbsp Coconut Oil",
+        "1/2 cup Frozen Blueberries",
+        "Pinch of Sea Salt",
+        "Ground Cinnamon, to taste",
+        "Additional water or milk, as needed to loosen the oatmeal"
+      ],
+      "rationale": "Exact committed origin and full history recovered; malformed first ingredient lines and microwave/stove alternatives are visible there. Saved all-or-part milk and extra-liquid option restored as an unmeasured allowance, without reducing the current measured liquid. Current6Medjool dates and2tbsp coconut oil retained; no source normalization. Kids Eat in Color collection attribution retained, but no exact publisher page was established, so it is not proof of this formula. Frozen cauliflower is not certified ready-to-eat: actual product instructions govern. No generic mandate to cook every frozen berry, and no claim residual heat in1min is sufficient. Removed unsupported flavor invisibility, perfect-color promises and unverified nutrition; no formula/yield invention.",
+      "source": [
+        {
+          "title": "Exact saved committed recipe",
+          "path": "retained-private-evidence",
+          "sha256": "e248393af3f1a87163c82ef8e37f7b248285ac66a68e08541d572df3db3d0274",
+          "applicability": "Exact 045 original has a malformed joined water/date line but establishes six dates, all-or-part milk/additional liquid and microwave OR stove options. Frozen current records Medjool/date/coconut-oil quantities. No exact Kids Eat in Color publisher formula or native archive binding is established."
+        },
+        {
+          "title": "Exact frozen current and full actual Git history",
+          "paths": ["retained-private-evidence", "retained-private-evidence"],
+          "applicability": "Establishes existing state/allocations/variants and inherited repairs; source changes are not kitchen tests."
+        }
+      ],
+      "confidence": "high for exact source/history and allocations; moderate for untested planning",
+      "unresolvedQuestions": [
+        "Identify exact cauliflower/berry packages and confirm required preparation.",
+        "Check microwave wattage, bowl headroom, date size and final texture with1½cups chosen liquid."
+      ]
+    },
+    {
+      "category": "nutrition",
+      "before": {
+        "calories": 290,
+        "protein": 7.5,
+        "carbs": 32.5,
+        "fat": 16,
+        "fiber": 6,
+        "sugar": 1,
+        "sodium": 1200
+      },
+      "after": null,
+      "rationale": "Legacy estimate has no verified calculation or serving basis; no replacement nutrition or health claim is manufactured.",
+      "source": "Actual legacy field and absent verified calculation; not a claim inferred from safety guidance.",
+      "confidence": "high for exact source/history and allocations; moderate for untested planning",
+      "unresolvedQuestions": [
+        "Identify exact cauliflower/berry packages and confirm required preparation.",
+        "Check microwave wattage, bowl headroom, date size and final texture with1½cups chosen liquid."
+      ]
+    },
+    {
+      "category": "learning",
+      "before": null,
+      "after": {
+        "focus": "Choose one cooking route and check frozen-product instructions",
+        "outcome": "Creamy rolled oats with chopped dates, coconut oil and blueberries.",
+        "techniques": ["starch", "temperature"],
+        "before": [
+          "Stove and microwave are alternatives, not sequential cooking steps. Frozen-product directions may add a separate cooking stage.",
+          "When scaling, use a larger saucepan or separate batches. For the microwave, use separate roomy bowls or loads rather than multiplying the original timing in one crowded bowl. Recombine or divide the measured ingredients evenly."
+        ],
+        "checkpoints": [
+          {
+            "step": 3,
+            "cue": "Oats are tender and creamy, without a dry center.",
+            "why": "Actual rolled-oat thickness and package directions govern cooking."
+          },
+          {
+            "step": 5,
+            "cue": "All measured berries have been added once and are ready under their package instructions, whether cooked with the oats or added at the finish.",
+            "why": "Thawing and cooking are different operations."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Microwave oatmeal climbs toward the bowl rim.",
+            "cause": "A foaming batch lacks headroom.",
+            "fix": "Stop the microwave, let it settle and carefully stir. Use a larger suitable bowl or smaller loads before continuing."
+          }
+        ],
+        "storage": "Refrigerate promptly in a shallow covered container at 40°F / 4°C or below. Limit time out to 2 hours, or 1 hour above 90°F / 32°C. Use within 3–4 days. Reheat to 165°F / 74°C; oats become softer and thicker.",
+        "timing": "Allow about 15–20 minutes for preparation, heating and cooking, plus any separate cooking required by frozen-product directions. Larger batches can take longer.",
+        "sources": [
+          {
+            "title": "FDA — Selecting and serving produce safely",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+          },
+          {
+            "title": "FoodSafety.gov — Four steps to food safety",
+            "url": "https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety"
+          },
+          {
+            "title": "USDA — Handling leftovers safely",
+            "url": "https://ask.fsis.usda.gov/article/How-do-I-handle-leftovers-safely"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-05"
+        }
+      },
+      "rationale": "Exact committed origin and full history recovered; malformed first ingredient lines and microwave/stove alternatives are visible there. Saved all-or-part milk and extra-liquid option restored as an unmeasured allowance, without reducing the current measured liquid. Current6Medjool dates and2tbsp coconut oil retained; no source normalization. Kids Eat in Color collection attribution retained, but no exact publisher page was established, so it is not proof of this formula. Frozen cauliflower is not certified ready-to-eat: actual product instructions govern. No generic mandate to cook every frozen berry, and no claim residual heat in1min is sufficient. Removed unsupported flavor invisibility, perfect-color promises and unverified nutrition; no formula/yield invention.",
+      "source": [
+        {
+          "title": "Exact saved committed recipe",
+          "path": "retained-private-evidence",
+          "sha256": "e248393af3f1a87163c82ef8e37f7b248285ac66a68e08541d572df3db3d0274",
+          "applicability": "Exact 045 original has a malformed joined water/date line but establishes six dates, all-or-part milk/additional liquid and microwave OR stove options. Frozen current records Medjool/date/coconut-oil quantities. No exact Kids Eat in Color publisher formula or native archive binding is established."
+        },
+        {
+          "title": "Exact frozen current and full actual Git history",
+          "paths": ["retained-private-evidence", "retained-private-evidence"],
+          "applicability": "Establishes existing state/allocations/variants and inherited repairs; source changes are not kitchen tests."
+        },
+        {
+          "type": "editorial culinary inference",
+          "basis": "Exact saved/current methods and ingredient-state/process graph",
+          "applicability": "Exclusive cooker routes, stirring, headroom and texture checks are editorial reconstruction from actual saved/current ingredients and methods. Label-specific frozen-product preparation governs; residual heat does not certify a product ready to eat.",
+          "confidence": "moderate for untested sensory/load guidance"
+        },
+        {
+          "type": "editorial planning inference",
+          "basis": "Named heat-up/prep/cook/drain/finish dependencies in this recipe",
+          "applicability": "The two route plans depend on actual microwave power, bowl/pan load, starting product temperature and component preparation. Exact source has six-minute microwave/alternate-stove language; FDA/USDA does not establish a tested elapsed range.",
+          "confidence": "moderate; actual elapsed and active times unmeasured"
+        },
+        {
+          "title": "FDA — produce handling only",
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely",
+          "applicability": "General produce handling. Does notcertify a particular frozen berry/cauliflower product ready to eat, residual heat preparation or a universal all-frozen-fruit requirement. Follow actual product labels."
+        },
+        {
+          "title": "FoodSafety.gov — handling scope only",
+          "url": "https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety",
+          "applicability": "Clean handling, prompt shallow cold holding at 40°F, two-hour limit/one hour above 90°F as applicable. Not culinary formula, yield, cooking clock or mandatory reheating ofcold banchan."
+        },
+        {
+          "title": "USDA — leftover scope only",
+          "url": "https://ask.fsis.usda.gov/article/How-do-I-handle-leftovers-safely",
+          "applicability": "General perishable leftovers cold holding/use/reheating guidance; not validation of amounts, original yield, emulsion, sensory endpoint or first-cook elapsed range. Existing shorter quality notes remain distinct from tested shelf life."
+        }
+      ],
+      "confidence": "high for exact source/history and allocations; moderate for untested planning",
+      "unresolvedQuestions": [
+        "Identify exact cauliflower/berry packages and confirm required preparation.",
+        "Check microwave wattage, bowl headroom, date size and final texture with1½cups chosen liquid."
+      ]
+    },
+    {
+      "category": "totalTime",
+      "before": "15 min",
+      "after": "About 15–20 min, plus any separate product cooking",
+      "rationale": "Planning range accounts for heat-up and actual doneness; no kitchen timing certification.",
+      "source": [
+        {
+          "title": "Exact frozen current and full actual Git history",
+          "paths": ["retained-private-evidence", "retained-private-evidence"],
+          "applicability": "The two route plans depend on actual microwave power, bowl/pan load, starting product temperature and component preparation. Exact source has six-minute microwave/alternate-stove language; FDA/USDA does not establish a tested elapsed range."
+        },
+        {
+          "type": "editorial planning inference",
+          "basis": "Named heat-up/prep/cook/drain/finish dependencies in this recipe",
+          "applicability": "The two route plans depend on actual microwave power, bowl/pan load, starting product temperature and component preparation. Exact source has six-minute microwave/alternate-stove language; FDA/USDA does not establish a tested elapsed range.",
+          "confidence": "moderate; actual elapsed and active times unmeasured"
+        }
+      ],
+      "confidence": "high for exact source/history and allocations; moderate for untested planning",
+      "unresolvedQuestions": [
+        "Identify exact cauliflower/berry packages and confirm required preparation.",
+        "Check microwave wattage, bowl headroom, date size and final texture with1½cups chosen liquid."
+      ]
+    },
+    {
+      "category": "peer-applied correction",
+      "location": "Directions step 5; ingredientLedger blueberry destination; learning checkpoint 5",
+      "before": "5. **Berry finish:** Off heat, fold in the measured blueberries if their package allows this use, or fold in the blueberries already cooked as required. Let the porridge stand until the berries are thawed and the oatmeal is comfortable to eat; frozen berries do not always thaw in one minute.",
+      "after": "5. **Berry finish:** If the measured blueberries already cooked with the oats, leave them in; do not add another amount. Otherwise, off heat, fold in all the measured blueberries if their package allows this use, or fold in the same amount cooked separately as required. Let any berries added frozen thaw and let the oatmeal become comfortable to eat before serving.",
+      "rationale": "Explicit single-allocation branch and matching checkpoint/ledger; no quantity or package clock change.",
+      "source": "retained-private-evidence",
+      "confidence": "High exact-text/internal-accounting evidence; kitchen applicability questions remain",
+      "unresolvedQuestions": [
+        "Identify exact cauliflower/berry packages and confirm required preparation.",
+        "Check microwave wattage, bowl headroom, date size and final texture with1½cups chosen liquid."
+      ],
+      "acceptance": "Applied at root instruction; root inspection pending"
+    },
+    {
+      "category": "peer-applied correction",
+      "location": "Chef's Note sentence 2",
+      "before": "The coconut oil stays part of the full recipe.",
+      "after": "Coconut oil adds richness to the porridge.",
+      "rationale": "Exact narrow public cooking-prose correction from completed challenge; no quantities or method safety changed.",
+      "source": "retained-private-evidence",
+      "confidence": "High exact-text/internal-accounting evidence; kitchen applicability questions remain",
+      "unresolvedQuestions": [
+        "Identify exact cauliflower/berry packages and confirm required preparation.",
+        "Check microwave wattage, bowl headroom, date size and final texture with1½cups chosen liquid."
+      ],
+      "acceptance": "Applied at root instruction; root inspection pending"
+    },
+    {
+      "category": "peer-applied correction",
+      "location": "learning.checkpoints step 5",
+      "before": {
+        "step": 5,
+        "cue": "Berries are thawed; any package-required cooking has already been completed.",
+        "why": "Thawing and cooking are different operations."
+      },
+      "after": {
+        "step": 5,
+        "cue": "All measured berries have been added once and are ready under their package instructions, whether cooked with the oats or added at the finish.",
+        "why": "Thawing and cooking are different operations."
+      },
+      "rationale": "Explicit single-allocation branch and matching checkpoint/ledger; no quantity or package clock change.",
+      "source": "retained-private-evidence",
+      "confidence": "High exact-text/internal-accounting evidence; kitchen applicability questions remain",
+      "unresolvedQuestions": [
+        "Identify exact cauliflower/berry packages and confirm required preparation.",
+        "Check microwave wattage, bowl headroom, date size and final texture with1½cups chosen liquid."
+      ],
+      "acceptance": "Applied at root instruction; root inspection pending"
+    },
+    {
+      "category": "peer-applied correction",
+      "location": "ingredientLedger blueberry destination",
+      "before": {
+        "ingredient": "1/2 cup Frozen Blueberries",
+        "destination": "package preparation then finish",
+        "quantityState": "Measured amount retained; unmeasured allowances are explicit."
+      },
+      "after": {
+        "ingredient": "1/2 cup Frozen Blueberries",
+        "destination": "all measured berries once: cook with oats if package instructions are met OR separately prepared/permitted frozen berries at finish; no second dose",
+        "quantityState": "Measured amount retained; unmeasured allowances are explicit."
+      },
+      "rationale": "Explicit single-allocation branch and matching checkpoint/ledger; no quantity or package clock change.",
+      "source": "retained-private-evidence",
+      "confidence": "High exact-text/internal-accounting evidence; kitchen applicability questions remain",
+      "unresolvedQuestions": [
+        "Identify exact cauliflower/berry packages and confirm required preparation.",
+        "Check microwave wattage, bowl headroom, date size and final texture with1½cups chosen liquid."
+      ],
+      "acceptance": "Applied at root instruction; root inspection pending"
+    },
+    {
+      "category": "origin",
+      "before": "United States",
+      "after": null,
+      "rationale": "United States is added by generic 2a7 metadata cleanup, absent from the exact 045 original. Retained recipe/publisher evidence does not explicitly establish geographic origin for this particular formula. Preserve American cuisine style, source context and every culinary value.",
+      "source": [
+        {
+          "path": "docs/RECIPE_STANDARD.md",
+          "applicability": "Do not invent origins; preserve source and family attribution"
+        },
+        {
+          "path": "retained-private-evidence",
+          "applicability": "Exact saved formula and source metadata, not a geographic-origin certification"
+        },
+        {
+          "path": "retained-private-evidence",
+          "applicability": "Exact origin introduction and later persistence; persistence does not prove geographical evidence"
+        }
+      ],
+      "confidence": "high for metadata/history and warranted omission under retained evidence; no claim that another origin has been disproved",
+      "unresolvedQuestions": [
+        "If retaining a geographic country claim, provide exact recipe-specific evidence rather than infer from style, publisher or author location."
+      ]
+    }
+  ],
+  "changedFieldNames": [
+    "equipment",
+    "prepTime",
+    "cookTime",
+    "totalTime",
+    "ingredients",
+    "origin",
+    "nutrition",
+    "learning",
+    "content"
+  ],
+  "changedFields": {
+    "equipment": {
+      "before": ["saucepan"],
+      "after": ["saucepan-or-microwave-safe-bowl", "spoon"]
+    },
+    "prepTime": {
+      "before": "5 min",
+      "after": "About 5–10 min active"
+    },
+    "cookTime": {
+      "before": "10 min",
+      "after": "About 5–10 min, plus any package-required cooking"
+    },
+    "totalTime": {
+      "before": "15 min",
+      "after": "About 15–20 min, plus any separate product cooking"
+    },
+    "ingredients": {
+      "before": [
+        "1 cup Rolled Oats",
+        "2 tbsp Frozen Riced Cauliflower (The \"Volume\" Hack)",
+        "1 1/2 cups Water (or Milk of choice)",
+        "6 Medjool Dates, finely chopped",
+        "2 tbsp Coconut Oil",
+        "1/2 cup Frozen Blueberries",
+        "Pinch of Sea Salt",
+        "Ground Cinnamon"
+      ],
+      "after": [
+        "1 cup Rolled Oats",
+        "2 tbsp Frozen Riced Cauliflower",
+        "1 1/2 cups Water (all or part may be milk of choice)",
+        "6 Medjool Dates, pitted and finely chopped",
+        "2 tbsp Coconut Oil",
+        "1/2 cup Frozen Blueberries",
+        "Pinch of Sea Salt",
+        "Ground Cinnamon, to taste",
+        "Additional water or milk, as needed to loosen the oatmeal"
+      ]
+    },
+    "origin": {
+      "before": "United States",
+      "after": null
+    },
+    "nutrition": {
+      "before": {
+        "calories": 290,
+        "protein": 7.5,
+        "carbs": 32.5,
+        "fat": 16,
+        "fiber": 6,
+        "sugar": 1,
+        "sodium": 1200
+      },
+      "after": null
+    },
+    "learning": {
+      "before": null,
+      "after": {
+        "focus": "Choose one cooking route and check frozen-product instructions",
+        "outcome": "Creamy rolled oats with chopped dates, coconut oil and blueberries.",
+        "techniques": ["starch", "temperature"],
+        "before": [
+          "Stove and microwave are alternatives, not sequential cooking steps. Frozen-product directions may add a separate cooking stage.",
+          "When scaling, use a larger saucepan or separate batches. For the microwave, use separate roomy bowls or loads rather than multiplying the original timing in one crowded bowl. Recombine or divide the measured ingredients evenly."
+        ],
+        "checkpoints": [
+          {
+            "step": 3,
+            "cue": "Oats are tender and creamy, without a dry center.",
+            "why": "Actual rolled-oat thickness and package directions govern cooking."
+          },
+          {
+            "step": 5,
+            "cue": "All measured berries have been added once and are ready under their package instructions, whether cooked with the oats or added at the finish.",
+            "why": "Thawing and cooking are different operations."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Microwave oatmeal climbs toward the bowl rim.",
+            "cause": "A foaming batch lacks headroom.",
+            "fix": "Stop the microwave, let it settle and carefully stir. Use a larger suitable bowl or smaller loads before continuing."
+          }
+        ],
+        "storage": "Refrigerate promptly in a shallow covered container at 40°F / 4°C or below. Limit time out to 2 hours, or 1 hour above 90°F / 32°C. Use within 3–4 days. Reheat to 165°F / 74°C; oats become softer and thicker.",
+        "timing": "Allow about 15–20 minutes for preparation, heating and cooking, plus any separate cooking required by frozen-product directions. Larger batches can take longer.",
+        "sources": [
+          {
+            "title": "FDA — Selecting and serving produce safely",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+          },
+          {
+            "title": "FoodSafety.gov — Four steps to food safety",
+            "url": "https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety"
+          },
+          {
+            "title": "USDA — Handling leftovers safely",
+            "url": "https://ask.fsis.usda.gov/article/How-do-I-handle-leftovers-safely"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-05"
+        }
+      }
+    },
+    "content": {
+      "before": "\n## Chef's Note\n\nFrozen riced cauliflower adds volume and fiber without affecting flavor. Stir frozen blueberries in at the end rather than cooking them - this prevents the oatmeal from turning gray while keeping berries whole and bright. Medjool dates provide natural caramel-like sweetness without refined sugar.\n\n## Directions\n\n1.  **Combine:** In a medium saucepan (stovetop) or a large microwave-safe bowl, combine oats, cauliflower, water/milk, chopped dates, and coconut oil.\n2.  **Cook (Stovetop):** Bring to a gentle boil, then reduce to a simmer. Cook for 5-7 minutes, stirring frequently, until the liquid is absorbed and the oats are creamy.\n3.  **Cook (Microwave):** Heat on high for 3 minutes, stir, then heat for another 2-3 minutes until thickened.\n4.  **The Berry Finish:** Remove from heat. Gently fold in the frozen blueberries. Let sit for 1 minute - the residual heat will thaw the berries while keeping them whole.\n5.  **Serve:** Top with a pinch of sea salt and cinnamon.\n",
+      "after": "\n## Chef's Note\n\nChop the pitted dates finely so they soften into the oats. Coconut oil adds richness to the porridge. Blueberry juice may color the porridge purple; that is normal. Choose the stove or microwave route, and check the frozen cauliflower and berry packages before deciding whether they can simply be warmed in the oats.\n\n## Directions\n\n1. **Prepare:** Check the rolled-oat and frozen cauliflower and blueberry packages. If a frozen product requires cooking before eating, follow its cooking directions; do not rely on a brief off-heat thaw to satisfy them. Cook those products separately first if the oatmeal route will not meet their instructions, retaining all the listed amounts. Remove the date pits and finely chop the flesh.\n\n2. **Combine:** Choose the stovetop OR microwave route. Combine oats, cauliflower, water or milk, chopped dates and all the coconut oil in a saucepan, or in a microwave-safe bowl with generous room for foaming. Use the prepared cauliflower if its package required separate cooking. Keep the berries aside until the finish unless they need cooking with the oats under their package directions.\n\n3. **Stovetop option:** Bring to a gentle boil, then reduce to a simmer. Stir frequently and start checking at 5–7 minutes, following the actual rolled-oat package if it needs longer. Stop when the oats are tender and creamy. If too thick before the oats are tender, add a little of the additional water or milk allowance and continue gently. Skip the microwave step.\n\n4. **Microwave option:** Follow the oatmeal package where it provides microwave directions. Otherwise heat on high for about 3 minutes as a first check, stopping earlier if it rises toward the rim. Carefully stir, then heat in short intervals, checking until the oats are tender and thickened; another 2–3 minutes is a planning range, not a guarantee for every microwave. If too thick before tender, stir in a little of the additional water or milk allowance before continuing. The bowl and steam will be hot. Skip the stovetop step.\n\n5. **Berry finish:** If the measured blueberries already cooked with the oats, leave them in; do not add another amount. Otherwise, off heat, fold in all the measured blueberries if their package allows this use, or fold in the same amount cooked separately as required. Let any berries added frozen thaw and let the oatmeal become comfortable to eat before serving.\n\n6. **Season and serve:** Add the pinch of salt and cinnamon to taste. Divide among the listed portions and serve.\n\n## Cooking Notes\n\nStove and microwave are alternatives, not sequential cooking steps. Frozen-product directions may add a separate cooking stage.\n\nWhen scaling, use a larger saucepan or separate batches. For the microwave, use separate roomy bowls or loads rather than multiplying the original timing in one crowded bowl. Recombine or divide the measured ingredients evenly.\n\nAllow about 15–20 minutes for preparation, heating and cooking, plus any separate cooking required by frozen-product directions. Larger batches can take longer.\n\nRefrigerate promptly in a shallow covered container at 40°F / 4°C or below. Limit time out to 2 hours, or 1 hour above 90°F / 32°C. Use within 3–4 days. Reheat to 165°F / 74°C; oats become softer and thicker.\n"
+    }
+  },
+  "ratioYieldCapacity": {
+    "servings": "2",
+    "capacity": [
+      "Stove and microwave are alternatives, not sequential cooking steps. Frozen-product directions may add a separate cooking stage.",
+      "When scaling, use a larger saucepan or separate batches. For the microwave, use separate roomy bowls or loads rather than multiplying the original timing in one crowded bowl. Recombine or divide the measured ingredients evenly."
+    ],
+    "precision": "Original planning portions, no measured cooked yield or pan dimensions invented."
+  },
+  "processTiming": {
+    "prepTime": "About 5–10 min active",
+    "cookTime": "About 5–10 min, plus any package-required cooking",
+    "totalTime": "About 15–20 min, plus any separate product cooking"
+  },
+  "checkpoints": [
+    {
+      "step": 3,
+      "cue": "Oats are tender and creamy, without a dry center.",
+      "why": "Actual rolled-oat thickness and package directions govern cooking."
+    },
+    {
+      "step": 5,
+      "cue": "All measured berries have been added once and are ready under their package instructions, whether cooked with the oats or added at the finish.",
+      "why": "Thawing and cooking are different operations."
+    }
+  ],
+  "storage": "Refrigerate promptly in a shallow covered container at 40°F / 4°C or below. Limit time out to 2 hours, or 1 hour above 90°F / 32°C. Use within 3–4 days. Reheat to 165°F / 74°C; oats become softer and thicker.",
+  "learningTiming": "Allow about 15–20 minutes for preparation, heating and cooking, plus any separate cooking required by frozen-product directions. Larger batches can take longer.",
+  "relationships": {
+    "pairsWith": [
+      "avocado-kale-caesar-salad",
+      "brownie-protein-balls",
+      "banana-oat-greek-yogurt-muffins"
+    ],
+    "incomingMeals": [],
+    "scope": "Linked recipes and meal schedules do not gain review status.",
+    "rootAssessment": "Bibimbap Night and Korean BBQ Night were read whole. Their runny-egg instruction, held kimchi and compressed preparation/grill schedules need separate reconciliation; this batch gives them no approval or review credit."
+  },
+  "kitchenQuestions": [
+    "Identify exact cauliflower/berry packages and confirm required preparation.",
+    "Check microwave wattage, bowl headroom, date size and final texture with1½cups chosen liquid."
+  ],
+  "sourceApplicability": "# Source scope and bounded evidence\n\nThese are proposed full editorial reviews, pending peer/root acceptance. No physical cooking or native-app sync occurred. Exact committed originals and complete later diffs are retained in this directory; native export lineage is not established by title and is not certified.\n\n- Buttered noodles: exact first Git fd4f07a836d811739118df904c5e6cc8b1fd593e establishes the recipe. Package cooking governs the actual noodle product. The starch/water/butter coating explanation is an established culinary mechanism, not a USDA recipe endorsement. USDA/FoodSafety.gov applies only to perishable leftovers, cold holding and reheating.\n- Steel-cut oats: exact first Git045e5ba276b560e4f7d3d485b4860f610d295bac and exact2f2553cdfdbb0ab775b3018274db9820ab42606a show the additional tablespoon lost in a batch rewrite. Subsequent source history has no explicit household decision supporting its removal. The restored total is 9 tablespoons = ½ cup +1 tablespoon. Saved half/half allocation means4½ tablespoons during dairy cooking and4½ at finish in the original batch; structured shares preserve this at every factor. Current Alton Brown primary https://altonbrown.com/recipes/buttermilk-steel-cut-oats-recipe/ corroborates total, butter, milk and toast/simmer mechanism, but allocates8 tablespoons cooking and1 tablespoon finishing. This proposal preserves the saved allocation and does not silently substitute the publisher's different split. No quoted publisher prose or nutritional claims were imported. Toasting creates flavor, not a protective seal. Water heating/brand/evaporation remain kitchen questions.\n- Blueberry/date oats: first exact Git045e5ba2 and full history show malformed water/date ingredient line, microwave OR stove routes and all-or-part milk/additional liquid option. Later batch rewrite introduced current Medjool specificity; that quantity/state is retained, not normalized. No exact Kids Eat in Color publisher recipe was established. Current attribution remains collection attribution, not formula proof. Actual frozen-product preparation labels must be read by the cook; neither FDA general produce guidance nor a residual-heat thaw certifies a particular frozen product ready to eat. FDA supports produce handling; USDA applies to storage/reheating. No universal all-frozen-berries cooking requirement asserted.\n- Soybean sprouts: existing accepted ee9c7078 targeted repair and exact Git12816aa2 mild formula retained. Maangchi's covered-cooking method supplies context but her chili/fish-sauce versions do not replace this recipe. UC ANR8151 https://ucanr.edu/sites/default/files/2024-02/393187.pdf gives general cooked-sprout advice with principal mung-bean examples. Applying above165°F alongside steaming-hot-throughout to soybean sprouts is conservative accepted guidance; it does not validate a ten-minute pot process or promise pathogen elimination. FDA's higher-risk caution applies to raw/lightly cooked sprouts. No rinsing invention from the held kimchi recipe.\n- Korean spinach: actual Sue Pressey primary https://mykoreankitchen.com/simply-seasoned-korean-spinach-salad-sigeumchi-namul-version-1/ corroborates ingredient identities/amounts, brief blanch followed by cold rinse, gentle squeeze and dressing. Existing accepted salt-density/allocation repairs remain. Cold-water allowance is method water, not a new measured dressing ingredient. FoodSafety.gov applies to holding, not a requirement to reheat cold banchan.\n- Broccoli all'Agro: exact first committed recipe and later complete history establish the saved dressing/count/florets-only/rating. Saved Paprika remains attribution; it does not prove a geographical origin or a native archive binding. General produce guidance supports washing, not the exact fork endpoint or six-portion estimate. Established steaming and draining mechanisms support sensory cues; actual head size is unmeasured. USDA cold handling applies to the perishable whole dish. Lemon is not evidence for room-temperature garlic/oil preservation.\n\nAll sources are applied within the listed scope. Planning ranges and sensory endpoints are editorial guidance, not measured kitchen results. Existing source links and pairings remain; linked dishes and meal schedules do not gain approval.\n",
+  "sourceFetchGaps": [
+    "No exact Kids Eat in Color publisher recipe established; collection attribution is not formula proof."
+  ],
+  "confidenceAndLimits": "High exact quantities, source bytes and scoped peer corrections; untested timing, sensory texture, capacity and portions remain questions. Primary safety guidance does not certify formula or remove all risk.",
+  "scalingAndReset": [
+    {
+      "factor": 0.5,
+      "ingredients": [
+        "1/2 cup Rolled Oats",
+        "1 tbsp Frozen Riced Cauliflower",
+        "3/4 cup Water (all or part may be milk of choice)",
+        "3 Medjool Dates, pitted and finely chopped",
+        "1 tbsp Coconut Oil",
+        "1/4 cup Frozen Blueberries",
+        "Pinch of Sea Salt",
+        "Ground Cinnamon, to taste",
+        "Additional water or milk, as needed to loosen the oatmeal"
+      ],
+      "yield": "2"
+    },
+    {
+      "factor": 1,
+      "ingredients": [
+        "1 cup Rolled Oats",
+        "2 tbsp Frozen Riced Cauliflower",
+        "1 1/2 cups Water (all or part may be milk of choice)",
+        "6 Medjool Dates, pitted and finely chopped",
+        "2 tbsp Coconut Oil",
+        "1/2 cup Frozen Blueberries",
+        "Pinch of Sea Salt",
+        "Ground Cinnamon, to taste",
+        "Additional water or milk, as needed to loosen the oatmeal"
+      ],
+      "yield": "2"
+    },
+    {
+      "factor": 2,
+      "ingredients": [
+        "2 cups Rolled Oats",
+        "4 tbsp Frozen Riced Cauliflower",
+        "3 cups Water (all or part may be milk of choice)",
+        "12 Medjool Dates, pitted and finely chopped",
+        "4 tbsp Coconut Oil",
+        "1 cup Frozen Blueberries",
+        "Pinch of Sea Salt",
+        "Ground Cinnamon, to taste",
+        "Additional water or milk, as needed to loosen the oatmeal"
+      ],
+      "yield": "2"
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "1 cup Rolled Oats",
+        "2 tbsp Frozen Riced Cauliflower",
+        "1 1/2 cups Water (all or part may be milk of choice)",
+        "6 Medjool Dates, pitted and finely chopped",
+        "2 tbsp Coconut Oil",
+        "1/2 cup Frozen Blueberries",
+        "Pinch of Sea Salt",
+        "Ground Cinnamon, to taste",
+        "Additional water or milk, as needed to loosen the oatmeal"
+      ],
+      "yield": "2"
+    }
+  ],
+  "validation": {
+    "slug": "blueberry-date-oatmeal",
+    "currentSourceSha256": "7bd003e617d2fab7206273d1806d70456371cb0dd373a30ab55f8fb3ddfee576",
+    "frozenSha256": "7bd003e617d2fab7206273d1806d70456371cb0dd373a30ab55f8fb3ddfee576",
+    "candidateSha256": "47b57d25085eb1b32819a3ea3fbe63123dfb3947071314fa084c779125072b44",
+    "recordSha256": "f2bcc23b7f4d788148996e69321d8091645e460f76463a41c13553c649bde47d",
+    "actualCurrentContentSchema": true,
+    "protectedFieldsPreserved": true,
+    "exactFieldSetAndValues": true,
+    "sourceGitBytesExact": true,
+    "completeIngredientLedger": true,
+    "priorPeerReverseBytesExact": true,
+    "unchangedChallengeHash": false,
+    "preservedAcceptedStepBytes": null,
+    "formulaParity": false,
+    "scaleHalfOriginalDoubleReset": true,
+    "triage": {
+      "slug": "blueberry-date-oatmeal",
+      "title": "Blueberry Date Oatmeal",
+      "status": "editorial-review",
+      "stepCount": 6,
+      "issues": []
+    },
+    "physicalCooking": false
+  },
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/boiled-six-sources.json",
+  "rootIntegrationRequirements": [],
+  "proposedSha256": "4e9a63aeb89f65a85bd1543528e961e3154f6a0e270e27b3b1f1b7420010964e",
+  "rootMetadataCorrections": {
+    "priorCandidateSha256": "47b57d25085eb1b32819a3ea3fbe63123dfb3947071314fa084c779125072b44",
+    "correctedCandidateSha256": "4e9a63aeb89f65a85bd1543528e961e3154f6a0e270e27b3b1f1b7420010964e",
+    "independentReportSha256": "17a435c52b2139a7ef5d75a1f210aee78612bed5e066772ecaeecd4dfd5388b1",
+    "changes": [
+      {
+        "category": "origin",
+        "before": "United States",
+        "after": null,
+        "rationale": "United States is added by generic 2a7 metadata cleanup, absent from the exact 045 original. Retained recipe/publisher evidence does not explicitly establish geographic origin for this particular formula. Preserve American cuisine style, source context and every culinary value.",
+        "source": [
+          {
+            "path": "docs/RECIPE_STANDARD.md",
+            "applicability": "Do not invent origins; preserve source and family attribution"
+          },
+          {
+            "path": "retained-private-evidence",
+            "applicability": "Exact saved formula and source metadata, not a geographic-origin certification"
+          },
+          {
+            "path": "retained-private-evidence",
+            "applicability": "Exact origin introduction and later persistence; persistence does not prove geographical evidence"
+          }
+        ],
+        "confidence": "high for metadata/history and warranted omission under retained evidence; no claim that another origin has been disproved",
+        "unresolvedQuestions": [
+          "If retaining a geographic country claim, provide exact recipe-specific evidence rather than infer from style, publisher or author location."
+        ]
+      },
+      {
+        "category": "evidence scope",
+        "location": "findings.0.source",
+        "before": [
+          {
+            "title": "FDA — Selecting and serving produce safely",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+          },
+          {
+            "title": "FoodSafety.gov — Four steps to food safety",
+            "url": "https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety"
+          },
+          {
+            "title": "USDA — Handling leftovers safely",
+            "url": "https://ask.fsis.usda.gov/article/How-do-I-handle-leftovers-safely"
+          }
+        ],
+        "after": [
+          {
+            "title": "Exact saved committed recipe",
+            "path": "retained-private-evidence",
+            "sha256": "e248393af3f1a87163c82ef8e37f7b248285ac66a68e08541d572df3db3d0274",
+            "applicability": "Exact 045 original has a malformed joined water/date line but establishes six dates, all-or-part milk/additional liquid and microwave OR stove options. Frozen current records Medjool/date/coconut-oil quantities. No exact Kids Eat in Color publisher formula or native archive binding is established."
+          },
+          {
+            "title": "Exact frozen current and full actual Git history",
+            "paths": ["retained-private-evidence", "retained-private-evidence"],
+            "applicability": "Establishes existing state/allocations/variants and inherited repairs; source changes are not kitchen tests."
+          },
+          {
+            "type": "editorial culinary inference",
+            "basis": "Exact saved/current methods and ingredient-state/process graph",
+            "applicability": "Exclusive cooker routes, stirring, headroom and texture checks are editorial reconstruction from actual saved/current ingredients and methods. Label-specific frozen-product preparation governs; residual heat does not certify a product ready to eat.",
+            "confidence": "moderate for untested sensory/load guidance"
+          },
+          {
+            "type": "editorial planning inference",
+            "basis": "Named heat-up/prep/cook/drain/finish dependencies in this recipe",
+            "applicability": "The two route plans depend on actual microwave power, bowl/pan load, starting product temperature and component preparation. Exact source has six-minute microwave/alternate-stove language; FDA/USDA does not establish a tested elapsed range.",
+            "confidence": "moderate; actual elapsed and active times unmeasured"
+          },
+          {
+            "title": "FDA — produce handling only",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely",
+            "applicability": "General produce handling. Does notcertify a particular frozen berry/cauliflower product ready to eat, residual heat preparation or a universal all-frozen-fruit requirement. Follow actual product labels."
+          },
+          {
+            "title": "FoodSafety.gov — handling scope only",
+            "url": "https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety",
+            "applicability": "Clean handling, prompt shallow cold holding at 40°F, two-hour limit/one hour above 90°F as applicable. Not culinary formula, yield, cooking clock or mandatory reheating ofcold banchan."
+          },
+          {
+            "title": "USDA — leftover scope only",
+            "url": "https://ask.fsis.usda.gov/article/How-do-I-handle-leftovers-safely",
+            "applicability": "General perishable leftovers cold holding/use/reheating guidance; not validation of amounts, original yield, emulsion, sensory endpoint or first-cook elapsed range. Existing shorter quality notes remain distinct from tested shelf life."
+          }
+        ],
+        "rationale": "Separate saved-formula/current-process/publisher comparison/culinary planning from the specifically applicable handling guidance. Source arrays must not imply all citations establish every claim.",
+        "confidence": "high for source-scope distinction; underlying culinary/timing conclusions are not self-accepted"
+      },
+      {
+        "category": "evidence scope",
+        "location": "findings.1.source",
+        "before": [
+          {
+            "title": "FDA — Selecting and serving produce safely",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+          },
+          {
+            "title": "FoodSafety.gov — Four steps to food safety",
+            "url": "https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety"
+          },
+          {
+            "title": "USDA — Handling leftovers safely",
+            "url": "https://ask.fsis.usda.gov/article/How-do-I-handle-leftovers-safely"
+          }
+        ],
+        "after": [
+          {
+            "title": "Exact saved committed recipe",
+            "path": "retained-private-evidence",
+            "sha256": "e248393af3f1a87163c82ef8e37f7b248285ac66a68e08541d572df3db3d0274",
+            "applicability": "Exact 045 original has a malformed joined water/date line but establishes six dates, all-or-part milk/additional liquid and microwave OR stove options. Frozen current records Medjool/date/coconut-oil quantities. No exact Kids Eat in Color publisher formula or native archive binding is established."
+          },
+          {
+            "title": "Exact frozen current and full actual Git history",
+            "paths": ["retained-private-evidence", "retained-private-evidence"],
+            "applicability": "Establishes existing state/allocations/variants and inherited repairs; source changes are not kitchen tests."
+          }
+        ],
+        "rationale": "Quantities/restoration and ingredient destinations come from exact recipe/Git evidence; general safety sources do not establish these formula claims.",
+        "confidence": "high for source-scope distinction; underlying culinary/timing conclusions are not self-accepted"
+      },
+      {
+        "category": "evidence scope",
+        "location": "findings.3.source",
+        "before": [
+          {
+            "title": "FDA — Selecting and serving produce safely",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+          },
+          {
+            "title": "FoodSafety.gov — Four steps to food safety",
+            "url": "https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety"
+          },
+          {
+            "title": "USDA — Handling leftovers safely",
+            "url": "https://ask.fsis.usda.gov/article/How-do-I-handle-leftovers-safely"
+          }
+        ],
+        "after": [
+          {
+            "title": "Exact saved committed recipe",
+            "path": "retained-private-evidence",
+            "sha256": "e248393af3f1a87163c82ef8e37f7b248285ac66a68e08541d572df3db3d0274",
+            "applicability": "Exact 045 original has a malformed joined water/date line but establishes six dates, all-or-part milk/additional liquid and microwave OR stove options. Frozen current records Medjool/date/coconut-oil quantities. No exact Kids Eat in Color publisher formula or native archive binding is established."
+          },
+          {
+            "title": "Exact frozen current and full actual Git history",
+            "paths": ["retained-private-evidence", "retained-private-evidence"],
+            "applicability": "Establishes existing state/allocations/variants and inherited repairs; source changes are not kitchen tests."
+          },
+          {
+            "type": "editorial culinary inference",
+            "basis": "Exact saved/current methods and ingredient-state/process graph",
+            "applicability": "Exclusive cooker routes, stirring, headroom and texture checks are editorial reconstruction from actual saved/current ingredients and methods. Label-specific frozen-product preparation governs; residual heat does not certify a product ready to eat.",
+            "confidence": "moderate for untested sensory/load guidance"
+          },
+          {
+            "type": "editorial planning inference",
+            "basis": "Named heat-up/prep/cook/drain/finish dependencies in this recipe",
+            "applicability": "The two route plans depend on actual microwave power, bowl/pan load, starting product temperature and component preparation. Exact source has six-minute microwave/alternate-stove language; FDA/USDA does not establish a tested elapsed range.",
+            "confidence": "moderate; actual elapsed and active times unmeasured"
+          },
+          {
+            "title": "FDA — produce handling only",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely",
+            "applicability": "General produce handling. Does notcertify a particular frozen berry/cauliflower product ready to eat, residual heat preparation or a universal all-frozen-fruit requirement. Follow actual product labels."
+          },
+          {
+            "title": "FoodSafety.gov — handling scope only",
+            "url": "https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety",
+            "applicability": "Clean handling, prompt shallow cold holding at 40°F, two-hour limit/one hour above 90°F as applicable. Not culinary formula, yield, cooking clock or mandatory reheating ofcold banchan."
+          },
+          {
+            "title": "USDA — leftover scope only",
+            "url": "https://ask.fsis.usda.gov/article/How-do-I-handle-leftovers-safely",
+            "applicability": "General perishable leftovers cold holding/use/reheating guidance; not validation of amounts, original yield, emulsion, sensory endpoint or first-cook elapsed range. Existing shorter quality notes remain distinct from tested shelf life."
+          }
+        ],
+        "rationale": "Separate saved-formula/current-process/publisher comparison/culinary planning from the specifically applicable handling guidance. Source arrays must not imply all citations establish every claim.",
+        "confidence": "high for source-scope distinction; underlying culinary/timing conclusions are not self-accepted"
+      },
+      {
+        "category": "evidence scope",
+        "location": "findings.4.source",
+        "before": [
+          {
+            "title": "FDA — Selecting and serving produce safely",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+          },
+          {
+            "title": "FoodSafety.gov — Four steps to food safety",
+            "url": "https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety"
+          },
+          {
+            "title": "USDA — Handling leftovers safely",
+            "url": "https://ask.fsis.usda.gov/article/How-do-I-handle-leftovers-safely"
+          }
+        ],
+        "after": [
+          {
+            "title": "Exact frozen current and full actual Git history",
+            "paths": ["retained-private-evidence", "retained-private-evidence"],
+            "applicability": "The two route plans depend on actual microwave power, bowl/pan load, starting product temperature and component preparation. Exact source has six-minute microwave/alternate-stove language; FDA/USDA does not establish a tested elapsed range."
+          },
+          {
+            "type": "editorial planning inference",
+            "basis": "Named heat-up/prep/cook/drain/finish dependencies in this recipe",
+            "applicability": "The two route plans depend on actual microwave power, bowl/pan load, starting product temperature and component preparation. Exact source has six-minute microwave/alternate-stove language; FDA/USDA does not establish a tested elapsed range.",
+            "confidence": "moderate; actual elapsed and active times unmeasured"
+          }
+        ],
+        "rationale": "New planning range is editorial dependency inference, not a time published or validated by FDA/USDA.",
+        "confidence": "high for source-scope distinction; underlying culinary/timing conclusions are not self-accepted"
+      },
+      {
+        "category": "copy editing",
+        "location": "learning.timing and matching Cooking Notes",
+        "before": "About 15–20 min, plus any separate product cooking includes preparation, heating and cooking; larger batches and product directions can add time.",
+        "after": "Allow about 15–20 minutes for preparation, heating and cooking, plus any separate cooking required by frozen-product directions. Larger batches can take longer.",
+        "rationale": "Clarify the existing planning range and separate product-cooking addition without changing either cooking route, ingredient, preparation requirement or timing claim."
+      }
+    ],
+    "scope": "Bounded root metadata/evidence corrections and routine timing copy editing; original author and peer checkpoints retained. Whole root acceptance still pending."
+  },
+  "acceptedSourceSha256": "4e9a63aeb89f65a85bd1543528e961e3154f6a0e270e27b3b1f1b7420010964e",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/boiled-six-independent.md",
+  "integrationInputCommit": "7eec1146b5f7bd65495c750a8312303d8d9d5b83",
+  "rootWholeInspection": "Complete current, exact first Git, proposed recipes and every actual cooking history inspected. All ingredient preparation/state/allocation/method destinations, full richness and variants, ratios, original planning portions, pan headroom, heat and sensory endpoints, active/elapsed timing, optional chilling, storage, scaling and linked meals inspected. Six complete bounded byte reversals and four prior peer reversals passed; two original independently inspected candidate hashes remain unchanged before the bounded corrections. Exact private native archive lineage is not established for these recipes; retained exact Git sources remain authoritative evidence.",
+  "rootSourceEvidence": {
+    "firstGit": "https://github.com/jsilton/mise/blob/045e5ba276b560e4f7d3d485b4860f610d295bac/src/content/recipes/blueberry-date-oatmeal.md",
+    "savedSha256": "e248393af3f1a87163c82ef8e37f7b248285ac66a68e08541d572df3db3d0274",
+    "actualHistorySha256": "c0da2ca7cb993019b39b8a0c7db87861cec5e5058adbd30386ad6ea3b28581d1",
+    "historyArtifactHeaderBytesDiffer": true,
+    "completeActualCommitSetsAndDiffBodiesMatch": true,
+    "priorRepairCommit": null,
+    "sourceScope": "Exact Git/formula and publisher disagreements support culinary choices. FDA/USDA support only applicable handling and leftover guidance; untested planning, capacity and sensory judgments remain explicitly editorial inference."
+  },
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 32,
+    "targetedLint": "Six pass; zero errors and one pre-existing missing-pairing warning. No invented pairing added.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 11898,
+    "missingDestinations": 0,
+    "exports": "All three exports match643 current recipe sources",
+    "privateBindings": "643 complete stable bindings verified; no replacement identities",
+    "privacy": "Published assets and public evidence pass",
+    "renderedRecipes": 6,
+    "visibleMethodSteps": 30,
+    "scaledIngredientDisplays": 144,
+    "scaledYieldDisplays": 18,
+    "scaleFactors": [0.5, 2, 1],
+    "mobileWidth": 375,
+    "noOverflow": true,
+    "cooking": "All six ingredient/step checks persist after reload and reentry; normal mode on reload; reset and exit pass",
+    "shopping": "Oatmeal2× shows18 tbsp total buttermilk; both method stages use half the listed total",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "Controls enabled; shared styles unchanged; print preview unverified",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

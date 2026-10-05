@@ -1,0 +1,710 @@
+{
+  "slug": "seasoned-bean-sprouts",
+  "title": "Seasoned Bean Sprouts (Kongnamul Namul)",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "date": "2026-10-05",
+  "notKitchenTested": true,
+  "inputCommit": "1b56f21878b9da0b844c34f9f491fd02313d60c2",
+  "inputSha256": "8c4ee679180b82934e06989f41afc328e27a1277d31376370507ece43c8347be",
+  "currentSourceSha256": "8c4ee679180b82934e06989f41afc328e27a1277d31376370507ece43c8347be",
+  "candidateSha256": "c30d5d214d9679499d1c8ab6f184515671346b89461919d46c4a1fc4257d2548",
+  "summary": "Exact first Git recipe is mild soybean kongnamul with½cupwater and1tspoil; Maangchi supplies covered-cooking context, not replacement fish-sauce/chili quantities. Accepted ee9c7078 thorough cooking, measured-salt pinch, clean handling and cold holding retained. UC ANR discusses sprouts generally and chiefly mung; its conservative temperature advice is applied without changing soybean identity or promising elimination of risk. FDA supports avoiding raw/lightly cooked sprouts for higher-risk people. No rinse requirement invented beyond original pre-cooking rinse. Main changes are ingredient-scaled water wording, original-portion context and specific learning; no measured ingredient changes.",
+  "sourceCredit": null,
+  "sourceUrl": null,
+  "sourceProvenance": {
+    "savedGitCommit": "12816aa2a3827e97bca1c2393ad9e61bfeaae3f6",
+    "path": "src/content/recipes/seasoned-bean-sprouts.md",
+    "savedSourceSha256": "4137ee1e7462bd65d40a58ba774fced91ebac63c123ed08fdbeaaa525c5e0069",
+    "nativeLineage": "Not independently established; exact Git originals only."
+  },
+  "priorIndependentChallenge": {
+    "inspectedSha256": "bfab86a4edc7fbdf35c1c99e96da9685ba6f2eeeaa4c30f0a4b4a168c0caf343",
+    "disposition": "accept-with-public-copy-corrections",
+    "reason": "Culinary accept with public copy correction. The accepted complete cooking step remains byte-for-byte: soybean identity, steaming throughout/above165, bean-head tenderness, thermometer, longer product instructions and permission to inspect water. Measured total salt is divided between a cooking pinch and optional remaining seasoning; no new rinse process or safety guarantee is introduced.",
+    "currentCandidateStillExact": false
+  },
+  "subsequentPeerApplication": {
+    "priorSha256": "bfab86a4edc7fbdf35c1c99e96da9685ba6f2eeeaa4c30f0a4b4a168c0caf343",
+    "correctedSha256": "c30d5d214d9679499d1c8ab6f184515671346b89461919d46c4a1fc4257d2548",
+    "changes": [
+      {
+        "location": "learning.outcome and checkpoint 2 why",
+        "before": {
+          "outcome": "Tender soybean sprouts with the saved mild sesame, garlic and scallion seasoning.",
+          "why": "The current conservative cooking checkpoint is retained; time alone is not sufficient."
+        },
+        "after": {
+          "outcome": "Tender soybean sprouts with mild sesame, garlic and scallion seasoning.",
+          "why": "Time alone cannot establish doneness; check the sprouts themselves for heat throughout and tender soybean heads."
+        }
+      }
+    ],
+    "scope": "Only recorded bounded corrections; exact prior bytes reconstructed and hashed.",
+    "independentSelfAcceptance": false
+  },
+  "rootFinalAcceptance": "accepted after prior independent whole challenge, independent bounded metadata challenge and complete final root source/diff inspection",
+  "independentSelfAcceptance": false,
+  "sourceDisagreements": "Exact first Git recipe is mild soybean kongnamul with½cupwater and1tspoil; Maangchi supplies covered-cooking context, not replacement fish-sauce/chili quantities. Accepted ee9c7078 thorough cooking, measured-salt pinch, clean handling and cold holding retained. UC ANR discusses sprouts generally and chiefly mung; its conservative temperature advice is applied without changing soybean identity or promising elimination of risk. FDA supports avoiding raw/lightly cooked sprouts for higher-risk people. No rinse requirement invented beyond original pre-cooking rinse. Main changes are ingredient-scaled water wording, original-portion context and specific learning; no measured ingredient changes.",
+  "originalIngredients": [
+    "1 lb soybean sprouts (kongnamul), rinsed and drained",
+    "1/2 cup water, for cooking",
+    "1 tsp toasted sesame oil",
+    "1 tsp garlic, minced",
+    "1/2 tsp fine sea salt, divided and added to taste",
+    "1 green onion, minced",
+    "1 tsp toasted sesame seeds"
+  ],
+  "frozenIngredientLedger": [
+    {
+      "ingredient": "1 lb soybean sprouts (kongnamul), rinsed and drained",
+      "destinationOrQuestion": "pre-rinse1/fully cook2/drain3/season4"
+    },
+    {
+      "ingredient": "1/2 cup water, for cooking",
+      "destinationOrQuestion": "pot1→cook2"
+    },
+    {
+      "ingredient": "1 tsp toasted sesame oil",
+      "destinationOrQuestion": "season4"
+    },
+    {
+      "ingredient": "1 tsp garlic, minced",
+      "destinationOrQuestion": "season4"
+    },
+    {
+      "ingredient": "1/2 tsp fine sea salt, divided and added to taste",
+      "destinationOrQuestion": "pinch1 from total; remaining optional seasoning4"
+    },
+    {
+      "ingredient": "1 green onion, minced",
+      "destinationOrQuestion": "season4"
+    },
+    {
+      "ingredient": "1 tsp toasted sesame seeds",
+      "destinationOrQuestion": "season4"
+    }
+  ],
+  "savedGitIngredients": [
+    "1 lb Soybean Sprouts",
+    "1 tsp Toasted Sesame Oil",
+    "1 tsp Garlic, minced",
+    "1/2 tsp Salt",
+    "1 tsp Toasted Sesame Seeds",
+    "1 Green Onion, minced"
+  ],
+  "currentIngredients": [
+    "1 lb soybean sprouts (kongnamul), rinsed and drained",
+    "1/2 cup water, for cooking",
+    "1 tsp toasted sesame oil",
+    "1 tsp garlic, minced",
+    "1/2 tsp fine sea salt, divided and added to taste",
+    "1 green onion, minced",
+    "1 tsp toasted sesame seeds"
+  ],
+  "ingredientLedger": [
+    {
+      "ingredient": "1 lb soybean sprouts (kongnamul), rinsed and drained",
+      "destination": "rinse then thorough covered cook",
+      "quantityState": "Measured amount retained; unmeasured allowances are explicit."
+    },
+    {
+      "ingredient": "1/2 cup water, for cooking",
+      "destination": "covered cook",
+      "quantityState": "Measured amount retained; unmeasured allowances are explicit."
+    },
+    {
+      "ingredient": "1 tsp toasted sesame oil",
+      "destination": "season",
+      "quantityState": "Measured amount retained; unmeasured allowances are explicit."
+    },
+    {
+      "ingredient": "1 tsp garlic, minced",
+      "destination": "season",
+      "quantityState": "Measured amount retained; unmeasured allowances are explicit."
+    },
+    {
+      "ingredient": "1/2 tsp fine sea salt, divided and added to taste",
+      "destination": "pinch cooking; remaining taste (unused allowed)",
+      "quantityState": "Measured amount retained; unmeasured allowances are explicit."
+    },
+    {
+      "ingredient": "1 green onion, minced",
+      "destination": "season",
+      "quantityState": "Measured amount retained; unmeasured allowances are explicit."
+    },
+    {
+      "ingredient": "1 tsp toasted sesame seeds",
+      "destination": "season",
+      "quantityState": "Measured amount retained; unmeasured allowances are explicit."
+    }
+  ],
+  "variantLedger": [
+    "Warm side or promptly chilled banchan; soybean identity and complete cooking remain.",
+    "Small cooking pinch comes from measured halfteaspoon fine sea salt; remaining seasoning salt may remain unused."
+  ],
+  "preservedPriorRepairs": [
+    "5741495b soybean identity, full steaming/above165/tenderheads/measuredthermometer/longerpackage/lidinspection.",
+    "Cooking pinch from measured salt, clean drain utensils, higher-risk raw/lightlycooked sprout warning."
+  ],
+  "findings": [
+    {
+      "before": "\n## Chef's Note\n\nKongnamul has larger yellow bean heads than mung bean sprouts. Give those heads time to cook through, then drain before seasoning. This mild version keeps the original sesame oil, garlic and green onion, with salt added gradually after cooking.\n\n## Directions\n\n1. **Prepare:** Rinse sprouts, discard damaged or spoiled ones and drain. Put them in a medium pot with 1/2 cup water and a small pinch taken from the measured salt.\n2. **Cook thoroughly:** Cover and heat over medium-high until bubbling and steaming, then maintain steady steam without boiling dry. Allow roughly 10 minutes of covered heating and cooking, continuing until the soybean heads are tender and the sprouts are steaming hot throughout and above 165°F / 74°C. Check the sprouts themselves with a food thermometer and follow any longer package cooking directions; do not deliberately leave the sprouts lightly cooked. Open the lid if needed to check water or doneness, keeping your face away from steam.\n3. **Drain:** Drain in a clean colander and let excess steam escape briefly. Use clean utensils for the cooked sprouts.\n4. **Season:** Toss with the sesame oil, garlic, green onion and sesame seeds. Add the remaining measured salt gradually to taste; it need not all be used.\n5. **Serve or chill:** Serve warm as a small side, or spread in a shallow container and refrigerate promptly for a chilled banchan. People at higher risk of foodborne illness should avoid raw or lightly cooked sprouts.\n\n## Cooking Notes\n\nAllow about 20 minutes for rinsing, heating, roughly 10 minutes covered cooking, draining and mixing. Heat-up and tenderness vary with the pot and batch size; allow longer when needed. Optional chilling is additional.\n\nCool in a shallow container and refrigerate promptly at 40°F / 4°C or below. Use within 2 days for quality. Avoid leaving out more than 2 hours, or 1 hour above 90°F / 32°C.\n\n## Sources\n\n- [Maangchi — Soybean sprout side dish, covered cooking reference](https://www.maangchi.com/recipe/kongnamul-muchim)\n- [FDA — Selecting and serving produce safely](https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely)\n- [University of California ANR — Growing seed sprouts at home, cooking guidance on page 1](https://ucanr.edu/sites/default/files/2024-02/393187.pdf)\n- [FoodSafety.gov — Four steps to food safety](https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety)\n",
+      "after": "\n## Chef's Note\n\nKongnamul has larger yellow bean heads than mung bean sprouts. Give those heads time to cook through, then drain before seasoning. This mild version keeps the original sesame oil, garlic and green onion, with salt added gradually after cooking.\n\n## Directions\n\n1. **Prepare:** Rinse sprouts, discard damaged or spoiled ones and drain. Put them in a medium pot with the measured cooking water and a small pinch taken from the measured salt.\n2. **Cook thoroughly:** Cover and heat over medium-high until bubbling and steaming, then maintain steady steam without boiling dry. Allow roughly 10 minutes of covered heating and cooking, continuing until the soybean heads are tender and the sprouts are steaming hot throughout and above 165°F / 74°C. Check the sprouts themselves with a food thermometer and follow any longer package cooking directions; do not deliberately leave the sprouts lightly cooked. Open the lid if needed to check water or doneness, keeping your face away from steam.\n3. **Drain:** Drain in a clean colander and let excess steam escape briefly. Use clean utensils for the cooked sprouts.\n4. **Season:** Toss with the sesame oil, garlic, green onion and sesame seeds. Add the remaining measured salt gradually to taste; it need not all be used.\n5. **Serve or chill:** Serve warm as a small side, or spread in a shallow container and refrigerate promptly for a chilled banchan. People at higher risk of foodborne illness should avoid raw or lightly cooked sprouts.\n\n## Cooking Notes\n\nAllow about 20 minutes for rinsing, heating, roughly 10 minutes covered cooking, draining and mixing. Heat-up and tenderness vary with the pot and batch size; allow longer when needed. Optional chilling is additional.\n\nCool in a shallow container and refrigerate promptly at 40°F / 4°C or below. Use within 2 days for quality. Avoid leaving out more than 2 hours, or 1 hour above 90°F / 32°C.\n\n## Sources\n\n- [Maangchi — Soybean sprout side dish, covered cooking reference](https://www.maangchi.com/recipe/kongnamul-muchim)\n- [FDA — Selecting and serving produce safely](https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely)\n- [University of California ANR — Growing seed sprouts at home, cooking guidance on page 1](https://ucanr.edu/sites/default/files/2024-02/393187.pdf)\n- [FoodSafety.gov — Four steps to food safety](https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety)\n",
+      "rationale": "Exact first Git recipe is mild soybean kongnamul with½cupwater and1tspoil; Maangchi supplies covered-cooking context, not replacement fish-sauce/chili quantities. Accepted ee9c7078 thorough cooking, measured-salt pinch, clean handling and cold holding retained. UC ANR discusses sprouts generally and chiefly mung; its conservative temperature advice is applied without changing soybean identity or promising elimination of risk. FDA supports avoiding raw/lightly cooked sprouts for higher-risk people. No rinse requirement invented beyond original pre-cooking rinse. Main changes are ingredient-scaled water wording, original-portion context and specific learning; no measured ingredient changes.",
+      "source": [
+        {
+          "title": "Exact saved committed recipe",
+          "path": "retained-private-evidence",
+          "sha256": "4137ee1e7462bd65d40a58ba774fced91ebac63c123ed08fdbeaaa525c5e0069",
+          "applicability": "Exact 12816aa2 mild soybean recipe establishes ½ cup water, 1 tsp oil and saved seasoning; accepted 5741495b targeted thorough cooking, salt pinch and cold handling remain. Maangchi context is not permission to import fish sauce, chili or 2 tsp oil."
+        },
+        {
+          "title": "Exact frozen current and full actual Git history",
+          "paths": ["retained-private-evidence", "retained-private-evidence"],
+          "applicability": "Establishes existing state/allocations/variants and inherited repairs; source changes are not kitchen tests."
+        },
+        {
+          "title": "Maangchi — kongnamul context",
+          "url": "https://www.maangchi.com/recipe/kongnamul-muchim",
+          "applicability": "Direct Korean dish identity and covered-cooking context; a different fish-sauce/chili/oil variant supplies neither the saved mild formula nor a validated ten-minute endpoint."
+        },
+        {
+          "type": "editorial culinary inference",
+          "basis": "Exact saved/current methods and ingredient-state/process graph",
+          "applicability": "Tender bean heads, steady steam, pot headroom and actual package checks are recipe-specific culinary guidance. The temperature checkpoint is conservative accepted application to soybeans, not process validation.",
+          "confidence": "moderate for untested sensory/load guidance"
+        },
+        {
+          "type": "editorial planning inference",
+          "basis": "Named heat-up/prep/cook/drain/finish dependencies in this recipe",
+          "applicability": "Roughly ten-minute covered cooking/twenty-minute elapsed planning depend on heat-up, pot load, bean-head tenderness and actual package. Neither a safety source nor Maangchi certifies this household clock.",
+          "confidence": "moderate; actual elapsed and active times unmeasured"
+        },
+        {
+          "title": "FDA — produce handling only",
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely",
+          "applicability": "General produce handling andhigher-risk avoidance ofraw/lightly cooked sprouts. Does not establishsoybean formula, ten-minute process or precise safety guarantee."
+        },
+        {
+          "title": "UCANR — general sprout cooking scope",
+          "url": "https://ucanr.edu/sites/default/files/2024-02/393187.pdf",
+          "applicability": "General cooked-sprout guidance with chiefly mung examples supports conservative retained above-165°F/steaming-hot checkpoint for soybean recipe. It does not validate the actual ten-minute pot process or guarantee pathogen eradication."
+        },
+        {
+          "title": "FoodSafety.gov — handling scope only",
+          "url": "https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety",
+          "applicability": "Clean handling, prompt shallow cold holding at 40°F, two-hour limit/one hour above 90°F as applicable. Not culinary formula, yield, cooking clock or mandatory reheating ofcold banchan."
+        }
+      ],
+      "confidence": "high for preserved/recovered quantities and destinations; moderate for untested sensory/planning ranges",
+      "unresolvedQuestions": [
+        "Verify actual soybean sprout package cooking directions and probe placement.",
+        "Kitchen-check pot/headroom and bean-head tenderness at original batch."
+      ]
+    },
+    {
+      "category": "learning",
+      "before": null,
+      "after": {
+        "focus": "Cook soybean heads through before draining and seasoning",
+        "outcome": "Tender soybean sprouts with mild sesame, garlic and scallion seasoning.",
+        "techniques": ["temperature", "seasoning"],
+        "before": [
+          "Use soybean sprouts (kongnamul), with their larger yellow heads, rather than treating this as a mung-bean recipe.",
+          "For a larger batch, use a pot with room for steam to circulate or separate loads. Divide the listed cooking water and seasoning across loads; check each load thoroughly rather than multiplying the original clock."
+        ],
+        "checkpoints": [
+          {
+            "step": 2,
+            "cue": "Soybean heads are tender; sprouts are steaming hot throughout and above 165°F / 74°C.",
+            "why": "Time alone cannot establish doneness; check the sprouts themselves for heat throughout and tender soybean heads."
+          },
+          {
+            "step": 4,
+            "cue": "Drained sprouts are evenly coated; remaining salt has been added gradually to taste.",
+            "why": "The cooking pinch comes from the measured total, and unused seasoning salt need not be forced into the bowl."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Bean heads remain hard at the first time check.",
+            "cause": "The batch has not cooked through.",
+            "fix": "Continue covered cooking with steady steam, checking the pot is not boiling dry and measuring the sprouts themselves. Follow any longer package directions."
+          }
+        ],
+        "storage": "Refrigerate promptly in a shallow covered container at 40°F / 4°C or below. Limit time out to 2 hours, or 1 hour above 90°F / 32°C. Use within 2 days for quality; optional chilling adds time.",
+        "timing": "About 20 min includes rinsing, heating, covered cooking, draining and seasoning; tenderness may need longer. Optional chilling is additional.",
+        "sources": [
+          {
+            "title": "Maangchi — Soybean sprout side dish",
+            "url": "https://www.maangchi.com/recipe/kongnamul-muchim"
+          },
+          {
+            "title": "FDA — Selecting and serving produce safely",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+          },
+          {
+            "title": "UC ANR — Growing seed sprouts at home",
+            "url": "https://ucanr.edu/sites/default/files/2024-02/393187.pdf"
+          },
+          {
+            "title": "FoodSafety.gov — Four steps to food safety",
+            "url": "https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-05"
+        }
+      },
+      "rationale": "Exact first Git recipe is mild soybean kongnamul with½cupwater and1tspoil; Maangchi supplies covered-cooking context, not replacement fish-sauce/chili quantities. Accepted ee9c7078 thorough cooking, measured-salt pinch, clean handling and cold holding retained. UC ANR discusses sprouts generally and chiefly mung; its conservative temperature advice is applied without changing soybean identity or promising elimination of risk. FDA supports avoiding raw/lightly cooked sprouts for higher-risk people. No rinse requirement invented beyond original pre-cooking rinse. Main changes are ingredient-scaled water wording, original-portion context and specific learning; no measured ingredient changes.",
+      "source": [
+        {
+          "title": "Exact saved committed recipe",
+          "path": "retained-private-evidence",
+          "sha256": "4137ee1e7462bd65d40a58ba774fced91ebac63c123ed08fdbeaaa525c5e0069",
+          "applicability": "Exact 12816aa2 mild soybean recipe establishes ½ cup water, 1 tsp oil and saved seasoning; accepted 5741495b targeted thorough cooking, salt pinch and cold handling remain. Maangchi context is not permission to import fish sauce, chili or 2 tsp oil."
+        },
+        {
+          "title": "Exact frozen current and full actual Git history",
+          "paths": ["retained-private-evidence", "retained-private-evidence"],
+          "applicability": "Establishes existing state/allocations/variants and inherited repairs; source changes are not kitchen tests."
+        },
+        {
+          "title": "Maangchi — kongnamul context",
+          "url": "https://www.maangchi.com/recipe/kongnamul-muchim",
+          "applicability": "Direct Korean dish identity and covered-cooking context; a different fish-sauce/chili/oil variant supplies neither the saved mild formula nor a validated ten-minute endpoint."
+        },
+        {
+          "type": "editorial culinary inference",
+          "basis": "Exact saved/current methods and ingredient-state/process graph",
+          "applicability": "Tender bean heads, steady steam, pot headroom and actual package checks are recipe-specific culinary guidance. The temperature checkpoint is conservative accepted application to soybeans, not process validation.",
+          "confidence": "moderate for untested sensory/load guidance"
+        },
+        {
+          "type": "editorial planning inference",
+          "basis": "Named heat-up/prep/cook/drain/finish dependencies in this recipe",
+          "applicability": "Roughly ten-minute covered cooking/twenty-minute elapsed planning depend on heat-up, pot load, bean-head tenderness and actual package. Neither a safety source nor Maangchi certifies this household clock.",
+          "confidence": "moderate; actual elapsed and active times unmeasured"
+        },
+        {
+          "title": "FDA — produce handling only",
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely",
+          "applicability": "General produce handling andhigher-risk avoidance ofraw/lightly cooked sprouts. Does not establishsoybean formula, ten-minute process or precise safety guarantee."
+        },
+        {
+          "title": "UCANR — general sprout cooking scope",
+          "url": "https://ucanr.edu/sites/default/files/2024-02/393187.pdf",
+          "applicability": "General cooked-sprout guidance with chiefly mung examples supports conservative retained above-165°F/steaming-hot checkpoint for soybean recipe. It does not validate the actual ten-minute pot process or guarantee pathogen eradication."
+        },
+        {
+          "title": "FoodSafety.gov — handling scope only",
+          "url": "https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety",
+          "applicability": "Clean handling, prompt shallow cold holding at 40°F, two-hour limit/one hour above 90°F as applicable. Not culinary formula, yield, cooking clock or mandatory reheating ofcold banchan."
+        }
+      ],
+      "confidence": "high for exact source/history and allocations; moderate for untested planning",
+      "unresolvedQuestions": [
+        "Verify actual soybean sprout package cooking directions and probe placement.",
+        "Kitchen-check pot/headroom and bean-head tenderness at original batch."
+      ]
+    },
+    {
+      "category": "peer-applied correction",
+      "location": "learning.outcome and checkpoint 2 why",
+      "before": {
+        "outcome": "Tender soybean sprouts with the saved mild sesame, garlic and scallion seasoning.",
+        "why": "The current conservative cooking checkpoint is retained; time alone is not sufficient."
+      },
+      "after": {
+        "outcome": "Tender soybean sprouts with mild sesame, garlic and scallion seasoning.",
+        "why": "Time alone cannot establish doneness; check the sprouts themselves for heat throughout and tender soybean heads."
+      },
+      "rationale": "Exact narrow public cooking-prose correction from completed challenge; no quantities or method safety changed.",
+      "source": "retained-private-evidence",
+      "confidence": "High exact-text/internal-accounting evidence; kitchen applicability questions remain",
+      "unresolvedQuestions": [
+        "Verify actual soybean sprout package cooking directions and probe placement.",
+        "Kitchen-check pot/headroom and bean-head tenderness at original batch."
+      ],
+      "acceptance": "Applied at root instruction; root inspection pending"
+    }
+  ],
+  "changedFieldNames": ["equipment", "learning", "content"],
+  "changedFields": {
+    "equipment": {
+      "before": null,
+      "after": ["covered-pot", "colander", "food-thermometer", "mixing-bowl"]
+    },
+    "learning": {
+      "before": null,
+      "after": {
+        "focus": "Cook soybean heads through before draining and seasoning",
+        "outcome": "Tender soybean sprouts with mild sesame, garlic and scallion seasoning.",
+        "techniques": ["temperature", "seasoning"],
+        "before": [
+          "Use soybean sprouts (kongnamul), with their larger yellow heads, rather than treating this as a mung-bean recipe.",
+          "For a larger batch, use a pot with room for steam to circulate or separate loads. Divide the listed cooking water and seasoning across loads; check each load thoroughly rather than multiplying the original clock."
+        ],
+        "checkpoints": [
+          {
+            "step": 2,
+            "cue": "Soybean heads are tender; sprouts are steaming hot throughout and above 165°F / 74°C.",
+            "why": "Time alone cannot establish doneness; check the sprouts themselves for heat throughout and tender soybean heads."
+          },
+          {
+            "step": 4,
+            "cue": "Drained sprouts are evenly coated; remaining salt has been added gradually to taste.",
+            "why": "The cooking pinch comes from the measured total, and unused seasoning salt need not be forced into the bowl."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Bean heads remain hard at the first time check.",
+            "cause": "The batch has not cooked through.",
+            "fix": "Continue covered cooking with steady steam, checking the pot is not boiling dry and measuring the sprouts themselves. Follow any longer package directions."
+          }
+        ],
+        "storage": "Refrigerate promptly in a shallow covered container at 40°F / 4°C or below. Limit time out to 2 hours, or 1 hour above 90°F / 32°C. Use within 2 days for quality; optional chilling adds time.",
+        "timing": "About 20 min includes rinsing, heating, covered cooking, draining and seasoning; tenderness may need longer. Optional chilling is additional.",
+        "sources": [
+          {
+            "title": "Maangchi — Soybean sprout side dish",
+            "url": "https://www.maangchi.com/recipe/kongnamul-muchim"
+          },
+          {
+            "title": "FDA — Selecting and serving produce safely",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+          },
+          {
+            "title": "UC ANR — Growing seed sprouts at home",
+            "url": "https://ucanr.edu/sites/default/files/2024-02/393187.pdf"
+          },
+          {
+            "title": "FoodSafety.gov — Four steps to food safety",
+            "url": "https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-05"
+        }
+      }
+    },
+    "content": {
+      "before": "\n## Chef's Note\n\nKongnamul has larger yellow bean heads than mung bean sprouts. Give those heads time to cook through, then drain before seasoning. This mild version keeps the original sesame oil, garlic and green onion, with salt added gradually after cooking.\n\n## Directions\n\n1. **Prepare:** Rinse sprouts, discard damaged or spoiled ones and drain. Put them in a medium pot with 1/2 cup water and a small pinch taken from the measured salt.\n2. **Cook thoroughly:** Cover and heat over medium-high until bubbling and steaming, then maintain steady steam without boiling dry. Allow roughly 10 minutes of covered heating and cooking, continuing until the soybean heads are tender and the sprouts are steaming hot throughout and above 165°F / 74°C. Check the sprouts themselves with a food thermometer and follow any longer package cooking directions; do not deliberately leave the sprouts lightly cooked. Open the lid if needed to check water or doneness, keeping your face away from steam.\n3. **Drain:** Drain in a clean colander and let excess steam escape briefly. Use clean utensils for the cooked sprouts.\n4. **Season:** Toss with the sesame oil, garlic, green onion and sesame seeds. Add the remaining measured salt gradually to taste; it need not all be used.\n5. **Serve or chill:** Serve warm as a small side, or spread in a shallow container and refrigerate promptly for a chilled banchan. People at higher risk of foodborne illness should avoid raw or lightly cooked sprouts.\n\n## Cooking Notes\n\nAllow about 20 minutes for rinsing, heating, roughly 10 minutes covered cooking, draining and mixing. Heat-up and tenderness vary with the pot and batch size; allow longer when needed. Optional chilling is additional.\n\nCool in a shallow container and refrigerate promptly at 40°F / 4°C or below. Use within 2 days for quality. Avoid leaving out more than 2 hours, or 1 hour above 90°F / 32°C.\n\n## Sources\n\n- [Maangchi — Soybean sprout side dish, covered cooking reference](https://www.maangchi.com/recipe/kongnamul-muchim)\n- [FDA — Selecting and serving produce safely](https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely)\n- [University of California ANR — Growing seed sprouts at home, cooking guidance on page 1](https://ucanr.edu/sites/default/files/2024-02/393187.pdf)\n- [FoodSafety.gov — Four steps to food safety](https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety)\n",
+      "after": "\n## Chef's Note\n\nKongnamul has larger yellow bean heads than mung bean sprouts. Give those heads time to cook through, then drain before seasoning. This mild version keeps the original sesame oil, garlic and green onion, with salt added gradually after cooking.\n\n## Directions\n\n1. **Prepare:** Rinse sprouts, discard damaged or spoiled ones and drain. Put them in a medium pot with the measured cooking water and a small pinch taken from the measured salt.\n2. **Cook thoroughly:** Cover and heat over medium-high until bubbling and steaming, then maintain steady steam without boiling dry. Allow roughly 10 minutes of covered heating and cooking, continuing until the soybean heads are tender and the sprouts are steaming hot throughout and above 165°F / 74°C. Check the sprouts themselves with a food thermometer and follow any longer package cooking directions; do not deliberately leave the sprouts lightly cooked. Open the lid if needed to check water or doneness, keeping your face away from steam.\n3. **Drain:** Drain in a clean colander and let excess steam escape briefly. Use clean utensils for the cooked sprouts.\n4. **Season:** Toss with the sesame oil, garlic, green onion and sesame seeds. Add the remaining measured salt gradually to taste; it need not all be used.\n5. **Serve or chill:** Serve warm as a small side, or spread in a shallow container and refrigerate promptly for a chilled banchan. People at higher risk of foodborne illness should avoid raw or lightly cooked sprouts.\n\n## Cooking Notes\n\nAllow about 20 minutes for rinsing, heating, roughly 10 minutes covered cooking, draining and mixing. Heat-up and tenderness vary with the pot and batch size; allow longer when needed. Optional chilling is additional.\n\nCool in a shallow container and refrigerate promptly at 40°F / 4°C or below. Use within 2 days for quality. Avoid leaving out more than 2 hours, or 1 hour above 90°F / 32°C.\n\n## Sources\n\n- [Maangchi — Soybean sprout side dish, covered cooking reference](https://www.maangchi.com/recipe/kongnamul-muchim)\n- [FDA — Selecting and serving produce safely](https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely)\n- [University of California ANR — Growing seed sprouts at home, cooking guidance on page 1](https://ucanr.edu/sites/default/files/2024-02/393187.pdf)\n- [FoodSafety.gov — Four steps to food safety](https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety)\n"
+    }
+  },
+  "ratioYieldCapacity": {
+    "servings": "4 small side portions",
+    "capacity": [
+      "Use soybean sprouts (kongnamul), with their larger yellow heads, rather than treating this as a mung-bean recipe.",
+      "For a larger batch, use a pot with room for steam to circulate or separate loads. Divide the listed cooking water and seasoning across loads; check each load thoroughly rather than multiplying the original clock."
+    ],
+    "precision": "Original planning portions, no measured cooked yield or pan dimensions invented."
+  },
+  "processTiming": {
+    "prepTime": "10 min",
+    "cookTime": "10 min",
+    "totalTime": "20 min"
+  },
+  "checkpoints": [
+    {
+      "step": 2,
+      "cue": "Soybean heads are tender; sprouts are steaming hot throughout and above 165°F / 74°C.",
+      "why": "Time alone cannot establish doneness; check the sprouts themselves for heat throughout and tender soybean heads."
+    },
+    {
+      "step": 4,
+      "cue": "Drained sprouts are evenly coated; remaining salt has been added gradually to taste.",
+      "why": "The cooking pinch comes from the measured total, and unused seasoning salt need not be forced into the bowl."
+    }
+  ],
+  "storage": "Refrigerate promptly in a shallow covered container at 40°F / 4°C or below. Limit time out to 2 hours, or 1 hour above 90°F / 32°C. Use within 2 days for quality; optional chilling adds time.",
+  "learningTiming": "About 20 min includes rinsing, heating, covered cooking, draining and seasoning; tenderness may need longer. Optional chilling is additional.",
+  "relationships": {
+    "pairsWith": ["bibimbap", "kalbi-grilled-korean-style-short-ribs", "basmati-rice"],
+    "incomingMeals": ["bibimbap-night.md"],
+    "scope": "Linked recipes and meal schedules do not gain review status.",
+    "rootAssessment": "Bibimbap Night and Korean BBQ Night were read whole. Their runny-egg instruction, held kimchi and compressed preparation/grill schedules need separate reconciliation; this batch gives them no approval or review credit."
+  },
+  "kitchenQuestions": [
+    "Verify actual soybean sprout package cooking directions and probe placement.",
+    "Kitchen-check pot/headroom and bean-head tenderness at original batch."
+  ],
+  "sourceApplicability": "# Source scope and bounded evidence\n\nThese are proposed full editorial reviews, pending peer/root acceptance. No physical cooking or native-app sync occurred. Exact committed originals and complete later diffs are retained in this directory; native export lineage is not established by title and is not certified.\n\n- Buttered noodles: exact first Git fd4f07a836d811739118df904c5e6cc8b1fd593e establishes the recipe. Package cooking governs the actual noodle product. The starch/water/butter coating explanation is an established culinary mechanism, not a USDA recipe endorsement. USDA/FoodSafety.gov applies only to perishable leftovers, cold holding and reheating.\n- Steel-cut oats: exact first Git045e5ba276b560e4f7d3d485b4860f610d295bac and exact2f2553cdfdbb0ab775b3018274db9820ab42606a show the additional tablespoon lost in a batch rewrite. Subsequent source history has no explicit household decision supporting its removal. The restored total is 9 tablespoons = ½ cup +1 tablespoon. Saved half/half allocation means4½ tablespoons during dairy cooking and4½ at finish in the original batch; structured shares preserve this at every factor. Current Alton Brown primary https://altonbrown.com/recipes/buttermilk-steel-cut-oats-recipe/ corroborates total, butter, milk and toast/simmer mechanism, but allocates8 tablespoons cooking and1 tablespoon finishing. This proposal preserves the saved allocation and does not silently substitute the publisher's different split. No quoted publisher prose or nutritional claims were imported. Toasting creates flavor, not a protective seal. Water heating/brand/evaporation remain kitchen questions.\n- Blueberry/date oats: first exact Git045e5ba2 and full history show malformed water/date ingredient line, microwave OR stove routes and all-or-part milk/additional liquid option. Later batch rewrite introduced current Medjool specificity; that quantity/state is retained, not normalized. No exact Kids Eat in Color publisher recipe was established. Current attribution remains collection attribution, not formula proof. Actual frozen-product preparation labels must be read by the cook; neither FDA general produce guidance nor a residual-heat thaw certifies a particular frozen product ready to eat. FDA supports produce handling; USDA applies to storage/reheating. No universal all-frozen-berries cooking requirement asserted.\n- Soybean sprouts: existing accepted ee9c7078 targeted repair and exact Git12816aa2 mild formula retained. Maangchi's covered-cooking method supplies context but her chili/fish-sauce versions do not replace this recipe. UC ANR8151 https://ucanr.edu/sites/default/files/2024-02/393187.pdf gives general cooked-sprout advice with principal mung-bean examples. Applying above165°F alongside steaming-hot-throughout to soybean sprouts is conservative accepted guidance; it does not validate a ten-minute pot process or promise pathogen elimination. FDA's higher-risk caution applies to raw/lightly cooked sprouts. No rinsing invention from the held kimchi recipe.\n- Korean spinach: actual Sue Pressey primary https://mykoreankitchen.com/simply-seasoned-korean-spinach-salad-sigeumchi-namul-version-1/ corroborates ingredient identities/amounts, brief blanch followed by cold rinse, gentle squeeze and dressing. Existing accepted salt-density/allocation repairs remain. Cold-water allowance is method water, not a new measured dressing ingredient. FoodSafety.gov applies to holding, not a requirement to reheat cold banchan.\n- Broccoli all'Agro: exact first committed recipe and later complete history establish the saved dressing/count/florets-only/rating. Saved Paprika remains attribution; it does not prove a geographical origin or a native archive binding. General produce guidance supports washing, not the exact fork endpoint or six-portion estimate. Established steaming and draining mechanisms support sensory cues; actual head size is unmeasured. USDA cold handling applies to the perishable whole dish. Lemon is not evidence for room-temperature garlic/oil preservation.\n\nAll sources are applied within the listed scope. Planning ranges and sensory endpoints are editorial guidance, not measured kitchen results. Existing source links and pairings remain; linked dishes and meal schedules do not gain approval.\n",
+  "sourceFetchGaps": [],
+  "confidenceAndLimits": "High exact quantities, source bytes and scoped peer corrections; untested timing, sensory texture, capacity and portions remain questions. Primary safety guidance does not certify formula or remove all risk.",
+  "scalingAndReset": [
+    {
+      "factor": 0.5,
+      "ingredients": [
+        "1/2 lb soybean sprouts (kongnamul), rinsed and drained",
+        "1/4 cup water, for cooking",
+        "1/2 tsp toasted sesame oil",
+        "1/2 tsp garlic, minced",
+        "1/4 tsp fine sea salt, divided and added to taste",
+        "1/2 green onion, minced",
+        "1/2 tsp toasted sesame seeds"
+      ],
+      "yield": "4 small side portions"
+    },
+    {
+      "factor": 1,
+      "ingredients": [
+        "1 lb soybean sprouts (kongnamul), rinsed and drained",
+        "1/2 cup water, for cooking",
+        "1 tsp toasted sesame oil",
+        "1 tsp garlic, minced",
+        "1/2 tsp fine sea salt, divided and added to taste",
+        "1 green onion, minced",
+        "1 tsp toasted sesame seeds"
+      ],
+      "yield": "4 small side portions"
+    },
+    {
+      "factor": 2,
+      "ingredients": [
+        "2 lb soybean sprouts (kongnamul), rinsed and drained",
+        "1 cup water, for cooking",
+        "2 tsp toasted sesame oil",
+        "2 tsp garlic, minced",
+        "1 tsp fine sea salt, divided and added to taste",
+        "2 green onions, minced",
+        "2 tsp toasted sesame seeds"
+      ],
+      "yield": "4 small side portions"
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "1 lb soybean sprouts (kongnamul), rinsed and drained",
+        "1/2 cup water, for cooking",
+        "1 tsp toasted sesame oil",
+        "1 tsp garlic, minced",
+        "1/2 tsp fine sea salt, divided and added to taste",
+        "1 green onion, minced",
+        "1 tsp toasted sesame seeds"
+      ],
+      "yield": "4 small side portions"
+    }
+  ],
+  "validation": {
+    "slug": "seasoned-bean-sprouts",
+    "currentSourceSha256": "8c4ee679180b82934e06989f41afc328e27a1277d31376370507ece43c8347be",
+    "frozenSha256": "8c4ee679180b82934e06989f41afc328e27a1277d31376370507ece43c8347be",
+    "candidateSha256": "c30d5d214d9679499d1c8ab6f184515671346b89461919d46c4a1fc4257d2548",
+    "recordSha256": "48e8abd7b694ef7fad537f219f8f603d376558c78a5657deb093dfa3ec2b7468",
+    "actualCurrentContentSchema": true,
+    "protectedFieldsPreserved": true,
+    "exactFieldSetAndValues": true,
+    "sourceGitBytesExact": true,
+    "completeIngredientLedger": true,
+    "priorPeerReverseBytesExact": true,
+    "unchangedChallengeHash": false,
+    "preservedAcceptedStepBytes": ["2"],
+    "formulaParity": false,
+    "scaleHalfOriginalDoubleReset": true,
+    "triage": {
+      "slug": "seasoned-bean-sprouts",
+      "title": "Seasoned Bean Sprouts (Kongnamul Namul)",
+      "status": "editorial-review",
+      "stepCount": 5,
+      "issues": []
+    },
+    "physicalCooking": false
+  },
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/boiled-six-sources.json",
+  "rootIntegrationRequirements": [],
+  "proposedSha256": "c30d5d214d9679499d1c8ab6f184515671346b89461919d46c4a1fc4257d2548",
+  "rootMetadataCorrections": {
+    "priorCandidateSha256": "c30d5d214d9679499d1c8ab6f184515671346b89461919d46c4a1fc4257d2548",
+    "correctedCandidateSha256": "c30d5d214d9679499d1c8ab6f184515671346b89461919d46c4a1fc4257d2548",
+    "independentReportSha256": "17a435c52b2139a7ef5d75a1f210aee78612bed5e066772ecaeecd4dfd5388b1",
+    "changes": [
+      {
+        "category": "evidence scope",
+        "location": "findings.0.source",
+        "before": [
+          {
+            "title": "Maangchi — Soybean sprout side dish",
+            "url": "https://www.maangchi.com/recipe/kongnamul-muchim"
+          },
+          {
+            "title": "FDA — Selecting and serving produce safely",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+          },
+          {
+            "title": "UC ANR — Growing seed sprouts at home",
+            "url": "https://ucanr.edu/sites/default/files/2024-02/393187.pdf"
+          },
+          {
+            "title": "FoodSafety.gov — Four steps to food safety",
+            "url": "https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety"
+          }
+        ],
+        "after": [
+          {
+            "title": "Exact saved committed recipe",
+            "path": "retained-private-evidence",
+            "sha256": "4137ee1e7462bd65d40a58ba774fced91ebac63c123ed08fdbeaaa525c5e0069",
+            "applicability": "Exact 12816aa2 mild soybean recipe establishes ½ cup water, 1 tsp oil and saved seasoning; accepted 5741495b targeted thorough cooking, salt pinch and cold handling remain. Maangchi context is not permission to import fish sauce, chili or 2 tsp oil."
+          },
+          {
+            "title": "Exact frozen current and full actual Git history",
+            "paths": ["retained-private-evidence", "retained-private-evidence"],
+            "applicability": "Establishes existing state/allocations/variants and inherited repairs; source changes are not kitchen tests."
+          },
+          {
+            "title": "Maangchi — kongnamul context",
+            "url": "https://www.maangchi.com/recipe/kongnamul-muchim",
+            "applicability": "Direct Korean dish identity and covered-cooking context; a different fish-sauce/chili/oil variant supplies neither the saved mild formula nor a validated ten-minute endpoint."
+          },
+          {
+            "type": "editorial culinary inference",
+            "basis": "Exact saved/current methods and ingredient-state/process graph",
+            "applicability": "Tender bean heads, steady steam, pot headroom and actual package checks are recipe-specific culinary guidance. The temperature checkpoint is conservative accepted application to soybeans, not process validation.",
+            "confidence": "moderate for untested sensory/load guidance"
+          },
+          {
+            "type": "editorial planning inference",
+            "basis": "Named heat-up/prep/cook/drain/finish dependencies in this recipe",
+            "applicability": "Roughly ten-minute covered cooking/twenty-minute elapsed planning depend on heat-up, pot load, bean-head tenderness and actual package. Neither a safety source nor Maangchi certifies this household clock.",
+            "confidence": "moderate; actual elapsed and active times unmeasured"
+          },
+          {
+            "title": "FDA — produce handling only",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely",
+            "applicability": "General produce handling andhigher-risk avoidance ofraw/lightly cooked sprouts. Does not establishsoybean formula, ten-minute process or precise safety guarantee."
+          },
+          {
+            "title": "UCANR — general sprout cooking scope",
+            "url": "https://ucanr.edu/sites/default/files/2024-02/393187.pdf",
+            "applicability": "General cooked-sprout guidance with chiefly mung examples supports conservative retained above-165°F/steaming-hot checkpoint for soybean recipe. It does not validate the actual ten-minute pot process or guarantee pathogen eradication."
+          },
+          {
+            "title": "FoodSafety.gov — handling scope only",
+            "url": "https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety",
+            "applicability": "Clean handling, prompt shallow cold holding at 40°F, two-hour limit/one hour above 90°F as applicable. Not culinary formula, yield, cooking clock or mandatory reheating ofcold banchan."
+          }
+        ],
+        "rationale": "Separate saved-formula/current-process/publisher comparison/culinary planning from the specifically applicable handling guidance. Source arrays must not imply all citations establish every claim.",
+        "confidence": "high for source-scope distinction; underlying culinary/timing conclusions are not self-accepted"
+      },
+      {
+        "category": "evidence scope",
+        "location": "findings.1.source",
+        "before": [
+          {
+            "title": "Maangchi — Soybean sprout side dish",
+            "url": "https://www.maangchi.com/recipe/kongnamul-muchim"
+          },
+          {
+            "title": "FDA — Selecting and serving produce safely",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+          },
+          {
+            "title": "UC ANR — Growing seed sprouts at home",
+            "url": "https://ucanr.edu/sites/default/files/2024-02/393187.pdf"
+          },
+          {
+            "title": "FoodSafety.gov — Four steps to food safety",
+            "url": "https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety"
+          }
+        ],
+        "after": [
+          {
+            "title": "Exact saved committed recipe",
+            "path": "retained-private-evidence",
+            "sha256": "4137ee1e7462bd65d40a58ba774fced91ebac63c123ed08fdbeaaa525c5e0069",
+            "applicability": "Exact 12816aa2 mild soybean recipe establishes ½ cup water, 1 tsp oil and saved seasoning; accepted 5741495b targeted thorough cooking, salt pinch and cold handling remain. Maangchi context is not permission to import fish sauce, chili or 2 tsp oil."
+          },
+          {
+            "title": "Exact frozen current and full actual Git history",
+            "paths": ["retained-private-evidence", "retained-private-evidence"],
+            "applicability": "Establishes existing state/allocations/variants and inherited repairs; source changes are not kitchen tests."
+          },
+          {
+            "title": "Maangchi — kongnamul context",
+            "url": "https://www.maangchi.com/recipe/kongnamul-muchim",
+            "applicability": "Direct Korean dish identity and covered-cooking context; a different fish-sauce/chili/oil variant supplies neither the saved mild formula nor a validated ten-minute endpoint."
+          },
+          {
+            "type": "editorial culinary inference",
+            "basis": "Exact saved/current methods and ingredient-state/process graph",
+            "applicability": "Tender bean heads, steady steam, pot headroom and actual package checks are recipe-specific culinary guidance. The temperature checkpoint is conservative accepted application to soybeans, not process validation.",
+            "confidence": "moderate for untested sensory/load guidance"
+          },
+          {
+            "type": "editorial planning inference",
+            "basis": "Named heat-up/prep/cook/drain/finish dependencies in this recipe",
+            "applicability": "Roughly ten-minute covered cooking/twenty-minute elapsed planning depend on heat-up, pot load, bean-head tenderness and actual package. Neither a safety source nor Maangchi certifies this household clock.",
+            "confidence": "moderate; actual elapsed and active times unmeasured"
+          },
+          {
+            "title": "FDA — produce handling only",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely",
+            "applicability": "General produce handling andhigher-risk avoidance ofraw/lightly cooked sprouts. Does not establishsoybean formula, ten-minute process or precise safety guarantee."
+          },
+          {
+            "title": "UCANR — general sprout cooking scope",
+            "url": "https://ucanr.edu/sites/default/files/2024-02/393187.pdf",
+            "applicability": "General cooked-sprout guidance with chiefly mung examples supports conservative retained above-165°F/steaming-hot checkpoint for soybean recipe. It does not validate the actual ten-minute pot process or guarantee pathogen eradication."
+          },
+          {
+            "title": "FoodSafety.gov — handling scope only",
+            "url": "https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety",
+            "applicability": "Clean handling, prompt shallow cold holding at 40°F, two-hour limit/one hour above 90°F as applicable. Not culinary formula, yield, cooking clock or mandatory reheating ofcold banchan."
+          }
+        ],
+        "rationale": "Separate saved-formula/current-process/publisher comparison/culinary planning from the specifically applicable handling guidance. Source arrays must not imply all citations establish every claim.",
+        "confidence": "high for source-scope distinction; underlying culinary/timing conclusions are not self-accepted"
+      }
+    ],
+    "scope": "Bounded root metadata/evidence corrections and routine timing copy editing; original author and peer checkpoints retained. Whole root acceptance still pending."
+  },
+  "acceptedSourceSha256": "c30d5d214d9679499d1c8ab6f184515671346b89461919d46c4a1fc4257d2548",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/boiled-six-independent.md",
+  "integrationInputCommit": "7eec1146b5f7bd65495c750a8312303d8d9d5b83",
+  "rootWholeInspection": "Complete current, exact first Git, proposed recipes and every actual cooking history inspected. All ingredient preparation/state/allocation/method destinations, full richness and variants, ratios, original planning portions, pan headroom, heat and sensory endpoints, active/elapsed timing, optional chilling, storage, scaling and linked meals inspected. Six complete bounded byte reversals and four prior peer reversals passed; two original independently inspected candidate hashes remain unchanged before the bounded corrections. Exact private native archive lineage is not established for these recipes; retained exact Git sources remain authoritative evidence.",
+  "rootSourceEvidence": {
+    "firstGit": "https://github.com/jsilton/mise/blob/12816aa2a3827e97bca1c2393ad9e61bfeaae3f6/src/content/recipes/seasoned-bean-sprouts.md",
+    "savedSha256": "4137ee1e7462bd65d40a58ba774fced91ebac63c123ed08fdbeaaa525c5e0069",
+    "actualHistorySha256": "de87685ac33537e27f34c2b4486a67885cc74c286b8db399aad020f7e4cc5974",
+    "historyArtifactHeaderBytesDiffer": true,
+    "completeActualCommitSetsAndDiffBodiesMatch": true,
+    "priorRepairCommit": "5741495b479d1891066e004ed07aa4b5f830db66",
+    "sourceScope": "Exact Git/formula and publisher disagreements support culinary choices. FDA/USDA support only applicable handling and leftover guidance; untested planning, capacity and sensory judgments remain explicitly editorial inference."
+  },
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 32,
+    "targetedLint": "Six pass; zero errors and one pre-existing missing-pairing warning. No invented pairing added.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 11898,
+    "missingDestinations": 0,
+    "exports": "All three exports match643 current recipe sources",
+    "privateBindings": "643 complete stable bindings verified; no replacement identities",
+    "privacy": "Published assets and public evidence pass",
+    "renderedRecipes": 6,
+    "visibleMethodSteps": 30,
+    "scaledIngredientDisplays": 144,
+    "scaledYieldDisplays": 18,
+    "scaleFactors": [0.5, 2, 1],
+    "mobileWidth": 375,
+    "noOverflow": true,
+    "cooking": "All six ingredient/step checks persist after reload and reentry; normal mode on reload; reset and exit pass",
+    "shopping": "Oatmeal2× shows18 tbsp total buttermilk; both method stages use half the listed total",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "Controls enabled; shared styles unchanged; print preview unverified",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

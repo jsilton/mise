@@ -1,0 +1,1273 @@
+{
+  "slug": "steel-cut-oatmeal",
+  "title": "Steel-Cut Oatmeal",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "date": "2026-10-05",
+  "notKitchenTested": true,
+  "inputCommit": "1b56f21878b9da0b844c34f9f491fd02313d60c2",
+  "inputSha256": "b8bdcb56fbcece072e7f5f0e51cb25b71e3014fb2435819ae0a819c5059c08b4",
+  "currentSourceSha256": "b8bdcb56fbcece072e7f5f0e51cb25b71e3014fb2435819ae0a819c5059c08b4",
+  "candidateSha256": "28bb80ab5b14a41f27942ddd565a5aab8b13dabe259ff5ec3ce12f6f575ca1d5",
+  "summary": "Exact045e5ba2 saves ½ cup PLUS1tbsp buttermilk with half added during dairy cooking and half at finish. Exact2f2553cd batch rewrite drops1tbsp; complete later source history contains no explicit quantity decision. Restore9tbsp main total and saved half/half allocation, not a reduced formula merely because it persisted. Current Alton primary corroborates9tbsp TOTAL but uses8tbsp cooking/1tbsp finish; saved4½/4½tbsp allocation intentionally preserved and disagreement documented. Current covered low simmer retained with inspection permitted if catching, rather than claiming a protective shell. Whole milk, butter, sugar, cinnamon and current pinch salt retained. Existing optional berries/maple syrup now explicit allowances. Unsupported nutrition1980cal/214gfat removed. Formula-owned ingredients, yield and directions compiled together.",
+  "sourceCredit": "Adapted from Foodnetwork.com",
+  "sourceUrl": "http://www.foodnetwork.com/recipes/alton-brown/steel-cut-oatmeal-recipe-1939448",
+  "sourceProvenance": {
+    "savedGitCommit": "045e5ba276b560e4f7d3d485b4860f610d295bac",
+    "path": "src/content/recipes/steel-cut-oatmeal.md",
+    "savedSourceSha256": "28cdffdd673ea218b6362a3b75f16ed8fb9015ca92cdf1681bcdf3065e2c6995",
+    "nativeLineage": "Not independently established; exact Git originals only."
+  },
+  "priorIndependentChallenge": {
+    "inspectedSha256": "9c59048e683700e956fdcf7e1f5aae3c165883f8423200c893c8ece1b49c0933",
+    "disposition": "accept",
+    "reason": "Accept inspected hash. Exact 045e5ba2 supplies 1/2 cup PLUS 1 tbsp buttermilk; 2f2553cd loses the tablespoon during its batch rewrite. Complete later source history adds metadata/attribution and edits rhetoric, without a further explicit quantity choice. Restore nine total and retain saved half/half allocation; 2.25, 4.5 and 9 tbsp enter each of the two stages at half/original/double factors. Original and current cover/simmer distinction is disclosed and current covered route is preserved. Publisher 8/1 split remains a documented disagreement rather than replacing the saved route.",
+    "currentCandidateStillExact": true
+  },
+  "subsequentPeerApplication": null,
+  "rootFinalAcceptance": "accepted after prior independent whole challenge, independent bounded metadata challenge and complete final root source/diff inspection",
+  "independentSelfAcceptance": false,
+  "sourceDisagreements": "Exact045e5ba2 saves ½ cup PLUS1tbsp buttermilk with half added during dairy cooking and half at finish. Exact2f2553cd batch rewrite drops1tbsp; complete later source history contains no explicit quantity decision. Restore9tbsp main total and saved half/half allocation, not a reduced formula merely because it persisted. Current Alton primary corroborates9tbsp TOTAL but uses8tbsp cooking/1tbsp finish; saved4½/4½tbsp allocation intentionally preserved and disagreement documented. Current covered low simmer retained with inspection permitted if catching, rather than claiming a protective shell. Whole milk, butter, sugar, cinnamon and current pinch salt retained. Existing optional berries/maple syrup now explicit allowances. Unsupported nutrition1980cal/214gfat removed. Formula-owned ingredients, yield and directions compiled together.",
+  "originalIngredients": [
+    "1 cup Steel-cut Oats",
+    "3 cups Boiling Water",
+    "1/2 cup Whole Milk",
+    "1/2 cup Low-fat Buttermilk (The Acid Balance)",
+    "1 tbsp Unsalted Butter",
+    "1 tbsp Light Brown Sugar",
+    "1/4 tsp Ground Cinnamon",
+    "Pinch of Sea Salt"
+  ],
+  "frozenIngredientLedger": [
+    {
+      "ingredient": "1 cup Steel-cut Oats",
+      "destinationOrQuestion": "toast1"
+    },
+    {
+      "ingredient": "3 cups Boiling Water",
+      "destinationOrQuestion": "simmer2"
+    },
+    {
+      "ingredient": "1/2 cup Whole Milk",
+      "destinationOrQuestion": "dairy3"
+    },
+    {
+      "ingredient": "1/2 cup Low-fat Buttermilk (The Acid Balance)",
+      "destinationOrQuestion": "frozen halfcup total split half3/half4; source-restored extra tbsp absent from frozen"
+    },
+    {
+      "ingredient": "1 tbsp Unsalted Butter",
+      "destinationOrQuestion": "toast1"
+    },
+    {
+      "ingredient": "1 tbsp Light Brown Sugar",
+      "destinationOrQuestion": "finish4"
+    },
+    {
+      "ingredient": "1/4 tsp Ground Cinnamon",
+      "destinationOrQuestion": "finish4"
+    },
+    {
+      "ingredient": "Pinch of Sea Salt",
+      "destinationOrQuestion": "pinch simmer2"
+    }
+  ],
+  "savedGitIngredients": [
+    "1 tablespoon butter",
+    "1 cup steel cut oats",
+    "3 cups boiling water",
+    "1/2 cup whole milk",
+    "1/2 cup plus 1 tablespoon low-fat buttermilk",
+    "1 tablespoon brown sugar",
+    "1/4 teaspoon cinnamon"
+  ],
+  "currentIngredients": [
+    "--- Oatmeal ---",
+    "1 tbsp unsalted butter",
+    "1 cup steel-cut oats",
+    "3 cups boiling water",
+    "sea salt, a pinch",
+    "1/2 cup whole milk",
+    "9 tbsp low-fat buttermilk, ½ cup plus 1 tbsp in the original batch, divided equally",
+    "1 tbsp light brown sugar",
+    "1/4 tsp ground cinnamon",
+    "--- Optional toppings ---",
+    "fresh berries, as wanted for serving, optional",
+    "maple syrup, a drizzle as wanted for serving, optional"
+  ],
+  "ingredientLedger": [
+    {
+      "ingredient": "oats.butter",
+      "name": "unsalted butter",
+      "quantity": {
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      "allowance": null,
+      "uses": [
+        {
+          "step": "toast",
+          "share": 1
+        }
+      ]
+    },
+    {
+      "ingredient": "oats.oats",
+      "name": "steel-cut oats",
+      "quantity": {
+        "amount": 1,
+        "unit": "cup"
+      },
+      "allowance": null,
+      "uses": [
+        {
+          "step": "toast",
+          "share": 1
+        }
+      ]
+    },
+    {
+      "ingredient": "oats.water",
+      "name": "boiling water",
+      "quantity": {
+        "amount": 3,
+        "unit": "cup"
+      },
+      "allowance": null,
+      "uses": [
+        {
+          "step": "simmer",
+          "share": 1
+        }
+      ]
+    },
+    {
+      "ingredient": "oats.salt",
+      "name": "sea salt",
+      "quantity": null,
+      "allowance": "a pinch",
+      "uses": [
+        {
+          "step": "simmer",
+          "share": 1
+        }
+      ]
+    },
+    {
+      "ingredient": "oats.milk",
+      "name": "whole milk",
+      "quantity": {
+        "amount": "1/2",
+        "unit": "cup"
+      },
+      "allowance": null,
+      "uses": [
+        {
+          "step": "dairy",
+          "share": 1
+        }
+      ]
+    },
+    {
+      "ingredient": "oats.buttermilk",
+      "name": "low-fat buttermilk",
+      "quantity": {
+        "amount": 9,
+        "unit": "tbsp"
+      },
+      "allowance": null,
+      "uses": [
+        {
+          "step": "dairy",
+          "share": "1/2"
+        },
+        {
+          "step": "finish",
+          "share": "1/2"
+        }
+      ]
+    },
+    {
+      "ingredient": "oats.sugar",
+      "name": "light brown sugar",
+      "quantity": {
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      "allowance": null,
+      "uses": [
+        {
+          "step": "finish",
+          "share": 1
+        }
+      ]
+    },
+    {
+      "ingredient": "oats.cinnamon",
+      "name": "ground cinnamon",
+      "quantity": {
+        "amount": "1/4",
+        "unit": "tsp"
+      },
+      "allowance": null,
+      "uses": [
+        {
+          "step": "finish",
+          "share": 1
+        }
+      ]
+    },
+    {
+      "ingredient": "topping.berries",
+      "name": "fresh berries",
+      "quantity": null,
+      "allowance": "as wanted for serving",
+      "uses": [
+        {
+          "step": "serve",
+          "share": 1
+        }
+      ]
+    },
+    {
+      "ingredient": "topping.syrup",
+      "name": "maple syrup",
+      "quantity": null,
+      "allowance": "a drizzle as wanted for serving",
+      "uses": [
+        {
+          "step": "serve",
+          "share": 1
+        }
+      ]
+    }
+  ],
+  "variantLedger": [
+    "Full9tbsp buttermilk divided equally between dairy and finish; source publisher8/1 split is a documented disagreement, not substituted.",
+    "Current covered low simmer retained; saved uncovered implication retained in source evidence, not automatic variant promotion.",
+    "Fresh berries and maple syrup remain separately optional unmeasured serving allowances."
+  ],
+  "preservedPriorRepairs": [],
+  "findings": [
+    {
+      "before": "\n## Chef's Note\n\nSteel-cut oats (also called Irish or Scottish oats) are whole oat groats cut into pieces rather than rolled flat, giving them a chewy texture and nutty flavor. Toasting dry oats in butter for 2 minutes before adding water creates a protective nutty shell that prevents them from becoming gluey. Stirring buttermilk in at the end provides sophisticated tang that balances sweet brown sugar while adding creamy richness.\n\n## Directions\n\n1.  **The Toast:** In a heavy saucepan, melt the butter. Add the oats and stir constantly for 2-3 minutes until they smell like toasted popcorn and look golden.\n2.  **Simmer:** Pour in the boiling water and a pinch of salt. Reduce heat to **very low**. Cover and cook for 25 minutes. **Do not stir.**\n3.  **Emulsify:** Open the lid. Add the whole milk and half of the buttermilk. Stir gently for 10 minutes over low heat until the oats are creamy and \"squeaky\" to the bite (al dente).\n4.  **Finish:** Remove from heat. Stir in the remaining buttermilk, brown sugar, and cinnamon for a final layer of flavor.\n5.  **Serve:** Serve hot with fresh berries or a drizzle of maple syrup.\n",
+      "after": "\n## Chef's Note\n\nToasting the oats in butter brings out their nutty aroma; it does not seal them against starch release. Keep the water at a gentle simmer, then stir in the dairy over low heat. The buttermilk is divided equally between cooking and finishing, giving the oats richness and a fresh tang at the end.\n\n## Directions\n\n1. **Toast:** Use unsalted butter and steel-cut oats: melt the butter in a heavy saucepan, then add the oats. Stir for about 2–3 minutes, until lightly golden and nutty-smelling; do not scorch the butter.\n2. **Simmer gently:** Carefully add boiling water and sea salt. Reduce to very low heat, cover and maintain a gentle simmer for about 25 minutes. Check if it threatens to boil over or catch on the bottom; lower the heat and stir gently if needed rather than let it scorch.\n3. **Cook with dairy:** Add whole milk and 1/2 of the low-fat buttermilk. Stir gently over low heat for about 10 minutes, until the grains are tender and chewy without a hard center and the porridge is creamy. Continue as needed for the actual oats and heat.\n4. **Finish off heat:** Remove from heat and stir in 1/2 of the low-fat buttermilk, light brown sugar, and ground cinnamon. The buttermilk in this step is the remaining half of its listed total, not an extra amount.\n5. **Serve:** Divide among the listed portions and serve hot with fresh berries (if using) and maple syrup (if using).\n\n## Cooking Notes\n\nThe original batch contains ½ cup plus 1 tablespoon buttermilk total, or 9 tablespoons. Divide the listed total equally between the dairy cooking step and the off-heat finish.\n\nUse a pan with headroom for the oats to simmer without foaming over. Larger batches may need separate pans and longer heat-up; keep the same gentle simmer and judge grain tenderness rather than multiplying the clock.\n\nAbout 45–50 min includes preparation, heating and cooking; larger batches and product directions can add time.\n\nRefrigerate promptly in a shallow covered container at 40°F / 4°C or below. Limit time out to 2 hours, or 1 hour above 90°F / 32°C. Use within 3–4 days. Reheat to 165°F / 74°C, stirring; the oats thicken as they stand.\n",
+      "rationale": "Exact045e5ba2 saves ½ cup PLUS1tbsp buttermilk with half added during dairy cooking and half at finish. Exact2f2553cd batch rewrite drops1tbsp; complete later source history contains no explicit quantity decision. Restore9tbsp main total and saved half/half allocation, not a reduced formula merely because it persisted. Current Alton primary corroborates9tbsp TOTAL but uses8tbsp cooking/1tbsp finish; saved4½/4½tbsp allocation intentionally preserved and disagreement documented. Current covered low simmer retained with inspection permitted if catching, rather than claiming a protective shell. Whole milk, butter, sugar, cinnamon and current pinch salt retained. Existing optional berries/maple syrup now explicit allowances. Unsupported nutrition1980cal/214gfat removed. Formula-owned ingredients, yield and directions compiled together.",
+      "source": [
+        {
+          "title": "Exact saved committed recipe",
+          "path": "retained-private-evidence",
+          "sha256": "28cdffdd673ea218b6362a3b75f16ed8fb9015ca92cdf1681bcdf3065e2c6995",
+          "applicability": "Exact 045 original preserves ½ cup plus 1 tbsp buttermilk and a half/half allocation. 2f2553 drops the extra tablespoon; later histories show no separate household quantity decision. Current/frozen ingredients and optional garnish context remain exact saved evidence."
+        },
+        {
+          "title": "Exact frozen current and full actual Git history",
+          "paths": ["retained-private-evidence", "retained-private-evidence"],
+          "applicability": "Establishes existing state/allocations/variants and inherited repairs; source changes are not kitchen tests."
+        },
+        {
+          "title": "Alton Brown — current steel-cut oats",
+          "url": "https://altonbrown.com/recipes/buttermilk-steel-cut-oats-recipe/",
+          "applicability": "Corroborates ingredients, 9 tbsp TOTAL buttermilk and toast/staged-simmer context; current 8 tbsp cooking/1 tbsp finish differs from saved equal halves. It does not prove country origin or household timing."
+        },
+        {
+          "type": "editorial culinary inference",
+          "basis": "Exact saved/current methods and ingredient-state/process graph",
+          "applicability": "Toasting, simmering and a gentle dairy stage guide flavor and texture; no protective oat seal is established. Saved 4½/4½ tbsp allocation is distinct from current Alton 8/1 tbsp. Real heat-up, evaporation and grain tenderness are untested.",
+          "confidence": "moderate for untested sensory/load guidance"
+        },
+        {
+          "type": "editorial planning inference",
+          "basis": "Named heat-up/prep/cook/drain/finish dependencies in this recipe",
+          "applicability": "Planning time follows water heating, toasting, the 25-minute first simmer and 10-minute dairy stage. Original/current Alton 45 min are saved/publisher plans. FDA/USDA does not validate the new household range.",
+          "confidence": "moderate; actual elapsed and active times unmeasured"
+        },
+        {
+          "title": "FoodSafety.gov — handling scope only",
+          "url": "https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety",
+          "applicability": "Clean handling, prompt shallow cold holding at 40°F, two-hour limit/one hour above 90°F as applicable. Not culinary formula, yield, cooking clock or mandatory reheating ofcold banchan."
+        },
+        {
+          "title": "USDA — leftover scope only",
+          "url": "https://ask.fsis.usda.gov/article/How-do-I-handle-leftovers-safely",
+          "applicability": "General perishable leftovers cold holding/use/reheating guidance; not validation of amounts, original yield, emulsion, sensory endpoint or first-cook elapsed range. Existing shorter quality notes remain distinct from tested shelf life."
+        }
+      ],
+      "confidence": "high for preserved/recovered quantities and destinations; moderate for untested sensory/planning ranges",
+      "unresolvedQuestions": [
+        "Kitchen-check saved equal buttermilk split versus publisher8/1 split without treating either as tested here.",
+        "Check covered simmer evaporation, tenderness and four original portions on actual stove."
+      ]
+    },
+    {
+      "category": "ingredients",
+      "before": [
+        "1 cup Steel-cut Oats",
+        "3 cups Boiling Water",
+        "1/2 cup Whole Milk",
+        "1/2 cup Low-fat Buttermilk (The Acid Balance)",
+        "1 tbsp Unsalted Butter",
+        "1 tbsp Light Brown Sugar",
+        "1/4 tsp Ground Cinnamon",
+        "Pinch of Sea Salt"
+      ],
+      "after": [
+        "--- Oatmeal ---",
+        "1 tbsp unsalted butter",
+        "1 cup steel-cut oats",
+        "3 cups boiling water",
+        "sea salt, a pinch",
+        "1/2 cup whole milk",
+        "9 tbsp low-fat buttermilk, ½ cup plus 1 tbsp in the original batch, divided equally",
+        "1 tbsp light brown sugar",
+        "1/4 tsp ground cinnamon",
+        "--- Optional toppings ---",
+        "fresh berries, as wanted for serving, optional",
+        "maple syrup, a drizzle as wanted for serving, optional"
+      ],
+      "rationale": "Exact045e5ba2 saves ½ cup PLUS1tbsp buttermilk with half added during dairy cooking and half at finish. Exact2f2553cd batch rewrite drops1tbsp; complete later source history contains no explicit quantity decision. Restore9tbsp main total and saved half/half allocation, not a reduced formula merely because it persisted. Current Alton primary corroborates9tbsp TOTAL but uses8tbsp cooking/1tbsp finish; saved4½/4½tbsp allocation intentionally preserved and disagreement documented. Current covered low simmer retained with inspection permitted if catching, rather than claiming a protective shell. Whole milk, butter, sugar, cinnamon and current pinch salt retained. Existing optional berries/maple syrup now explicit allowances. Unsupported nutrition1980cal/214gfat removed. Formula-owned ingredients, yield and directions compiled together.",
+      "source": [
+        {
+          "title": "Exact saved committed recipe",
+          "path": "retained-private-evidence",
+          "sha256": "28cdffdd673ea218b6362a3b75f16ed8fb9015ca92cdf1681bcdf3065e2c6995",
+          "applicability": "Exact 045 original preserves ½ cup plus 1 tbsp buttermilk and a half/half allocation. 2f2553 drops the extra tablespoon; later histories show no separate household quantity decision. Current/frozen ingredients and optional garnish context remain exact saved evidence."
+        },
+        {
+          "title": "Exact frozen current and full actual Git history",
+          "paths": ["retained-private-evidence", "retained-private-evidence"],
+          "applicability": "Establishes existing state/allocations/variants and inherited repairs; source changes are not kitchen tests."
+        },
+        {
+          "title": "Alton Brown — current steel-cut oats",
+          "url": "https://altonbrown.com/recipes/buttermilk-steel-cut-oats-recipe/",
+          "applicability": "Corroborates ingredients, 9 tbsp TOTAL buttermilk and toast/staged-simmer context; current 8 tbsp cooking/1 tbsp finish differs from saved equal halves. It does not prove country origin or household timing."
+        }
+      ],
+      "confidence": "high for exact source/history and allocations; moderate for untested planning",
+      "unresolvedQuestions": [
+        "Kitchen-check saved equal buttermilk split versus publisher8/1 split without treating either as tested here.",
+        "Check covered simmer evaporation, tenderness and four original portions on actual stove."
+      ]
+    },
+    {
+      "category": "nutrition",
+      "before": {
+        "calories": 1980,
+        "protein": 5,
+        "carbs": 20,
+        "fat": 214,
+        "fiber": 2,
+        "sugar": 6.5,
+        "sodium": 960
+      },
+      "after": null,
+      "rationale": "Legacy estimate has no verified calculation or serving basis; no replacement nutrition or health claim is manufactured.",
+      "source": "Actual legacy field and absent verified calculation; not a claim inferred from safety guidance.",
+      "confidence": "high for exact source/history and allocations; moderate for untested planning",
+      "unresolvedQuestions": [
+        "Kitchen-check saved equal buttermilk split versus publisher8/1 split without treating either as tested here.",
+        "Check covered simmer evaporation, tenderness and four original portions on actual stove."
+      ]
+    },
+    {
+      "category": "learning",
+      "before": null,
+      "after": {
+        "focus": "Toast the oats, then keep the simmer gentle",
+        "outcome": "Tender, chewy steel-cut oats with butter, milk and a tangy buttermilk finish.",
+        "techniques": ["starch", "temperature"],
+        "before": [
+          "The original batch contains ½ cup plus 1 tablespoon buttermilk total, or 9 tablespoons. Divide the listed total equally between the dairy cooking step and the off-heat finish.",
+          "Use a pan with headroom for the oats to simmer without foaming over. Larger batches may need separate pans and longer heat-up; keep the same gentle simmer and judge grain tenderness rather than multiplying the clock."
+        ],
+        "checkpoints": [
+          {
+            "step": 1,
+            "cue": "The oats smell nutty and have light golden patches.",
+            "why": "Gentle toasting develops flavor without scorching the butter."
+          },
+          {
+            "step": 3,
+            "cue": "The grains are tender and chewy without a hard center; the porridge is creamy.",
+            "why": "Brand, heat and evaporation affect the final cooking time."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Oats catch on the bottom.",
+            "cause": "The simmer is too strong or the pan is drying out.",
+            "fix": "Lower the heat and gently loosen the oats; check the water before continuing rather than obey an absolute no-stir rule."
+          }
+        ],
+        "storage": "Refrigerate promptly in a shallow covered container at 40°F / 4°C or below. Limit time out to 2 hours, or 1 hour above 90°F / 32°C. Use within 3–4 days. Reheat to 165°F / 74°C, stirring; the oats thicken as they stand.",
+        "timing": "About 45–50 min includes preparation, heating and cooking; larger batches and product directions can add time.",
+        "sources": [
+          {
+            "title": "Alton Brown — Buttermilk steel-cut oats",
+            "url": "https://altonbrown.com/recipes/buttermilk-steel-cut-oats-recipe/"
+          },
+          {
+            "title": "FoodSafety.gov — Four steps to food safety",
+            "url": "https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety"
+          },
+          {
+            "title": "USDA — Handling leftovers safely",
+            "url": "https://ask.fsis.usda.gov/article/How-do-I-handle-leftovers-safely"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-05"
+        }
+      },
+      "rationale": "Exact045e5ba2 saves ½ cup PLUS1tbsp buttermilk with half added during dairy cooking and half at finish. Exact2f2553cd batch rewrite drops1tbsp; complete later source history contains no explicit quantity decision. Restore9tbsp main total and saved half/half allocation, not a reduced formula merely because it persisted. Current Alton primary corroborates9tbsp TOTAL but uses8tbsp cooking/1tbsp finish; saved4½/4½tbsp allocation intentionally preserved and disagreement documented. Current covered low simmer retained with inspection permitted if catching, rather than claiming a protective shell. Whole milk, butter, sugar, cinnamon and current pinch salt retained. Existing optional berries/maple syrup now explicit allowances. Unsupported nutrition1980cal/214gfat removed. Formula-owned ingredients, yield and directions compiled together.",
+      "source": [
+        {
+          "title": "Exact saved committed recipe",
+          "path": "retained-private-evidence",
+          "sha256": "28cdffdd673ea218b6362a3b75f16ed8fb9015ca92cdf1681bcdf3065e2c6995",
+          "applicability": "Exact 045 original preserves ½ cup plus 1 tbsp buttermilk and a half/half allocation. 2f2553 drops the extra tablespoon; later histories show no separate household quantity decision. Current/frozen ingredients and optional garnish context remain exact saved evidence."
+        },
+        {
+          "title": "Exact frozen current and full actual Git history",
+          "paths": ["retained-private-evidence", "retained-private-evidence"],
+          "applicability": "Establishes existing state/allocations/variants and inherited repairs; source changes are not kitchen tests."
+        },
+        {
+          "title": "Alton Brown — current steel-cut oats",
+          "url": "https://altonbrown.com/recipes/buttermilk-steel-cut-oats-recipe/",
+          "applicability": "Corroborates ingredients, 9 tbsp TOTAL buttermilk and toast/staged-simmer context; current 8 tbsp cooking/1 tbsp finish differs from saved equal halves. It does not prove country origin or household timing."
+        },
+        {
+          "type": "editorial culinary inference",
+          "basis": "Exact saved/current methods and ingredient-state/process graph",
+          "applicability": "Toasting, simmering and a gentle dairy stage guide flavor and texture; no protective oat seal is established. Saved 4½/4½ tbsp allocation is distinct from current Alton 8/1 tbsp. Real heat-up, evaporation and grain tenderness are untested.",
+          "confidence": "moderate for untested sensory/load guidance"
+        },
+        {
+          "type": "editorial planning inference",
+          "basis": "Named heat-up/prep/cook/drain/finish dependencies in this recipe",
+          "applicability": "Planning time follows water heating, toasting, the 25-minute first simmer and 10-minute dairy stage. Original/current Alton 45 min are saved/publisher plans. FDA/USDA does not validate the new household range.",
+          "confidence": "moderate; actual elapsed and active times unmeasured"
+        },
+        {
+          "title": "FoodSafety.gov — handling scope only",
+          "url": "https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety",
+          "applicability": "Clean handling, prompt shallow cold holding at 40°F, two-hour limit/one hour above 90°F as applicable. Not culinary formula, yield, cooking clock or mandatory reheating ofcold banchan."
+        },
+        {
+          "title": "USDA — leftover scope only",
+          "url": "https://ask.fsis.usda.gov/article/How-do-I-handle-leftovers-safely",
+          "applicability": "General perishable leftovers cold holding/use/reheating guidance; not validation of amounts, original yield, emulsion, sensory endpoint or first-cook elapsed range. Existing shorter quality notes remain distinct from tested shelf life."
+        }
+      ],
+      "confidence": "high for exact source/history and allocations; moderate for untested planning",
+      "unresolvedQuestions": [
+        "Kitchen-check saved equal buttermilk split versus publisher8/1 split without treating either as tested here.",
+        "Check covered simmer evaporation, tenderness and four original portions on actual stove."
+      ]
+    },
+    {
+      "category": "totalTime",
+      "before": "40 min",
+      "after": "About 45–50 min",
+      "rationale": "Planning range accounts for heat-up and actual doneness; no kitchen timing certification.",
+      "source": [
+        {
+          "title": "Exact frozen current and full actual Git history",
+          "paths": ["retained-private-evidence", "retained-private-evidence"],
+          "applicability": "Planning time follows water heating, toasting, the 25-minute first simmer and 10-minute dairy stage. Original/current Alton 45 min are saved/publisher plans. FDA/USDA does not validate the new household range."
+        },
+        {
+          "type": "editorial planning inference",
+          "basis": "Named heat-up/prep/cook/drain/finish dependencies in this recipe",
+          "applicability": "Planning time follows water heating, toasting, the 25-minute first simmer and 10-minute dairy stage. Original/current Alton 45 min are saved/publisher plans. FDA/USDA does not validate the new household range.",
+          "confidence": "moderate; actual elapsed and active times unmeasured"
+        }
+      ],
+      "confidence": "high for exact source/history and allocations; moderate for untested planning",
+      "unresolvedQuestions": [
+        "Kitchen-check saved equal buttermilk split versus publisher8/1 split without treating either as tested here.",
+        "Check covered simmer evaporation, tenderness and four original portions on actual stove."
+      ]
+    },
+    {
+      "category": "origin",
+      "before": "United States",
+      "after": null,
+      "rationale": "United States is added by generic 2a7 metadata cleanup, absent from the exact 045 original. Retained recipe/publisher evidence does not explicitly establish geographic origin for this particular formula. Preserve American cuisine style, source context and every culinary value.",
+      "source": [
+        {
+          "path": "docs/RECIPE_STANDARD.md",
+          "applicability": "Do not invent origins; preserve source and family attribution"
+        },
+        {
+          "path": "retained-private-evidence",
+          "applicability": "Exact saved formula and source metadata, not a geographic-origin certification"
+        },
+        {
+          "path": "retained-private-evidence",
+          "applicability": "Exact origin introduction and later persistence; persistence does not prove geographical evidence"
+        },
+        {
+          "url": "https://altonbrown.com/recipes/buttermilk-steel-cut-oats-recipe/",
+          "applicability": "Direct page supplies named author,formula and first appearance inGood Eats; no explicit country-origin statement. TV/author location is not automatically a dish-origin statement."
+        }
+      ],
+      "confidence": "high for metadata/history and warranted omission under retained evidence; no claim that another origin has been disproved",
+      "unresolvedQuestions": [
+        "If retaining a geographic country claim, provide exact recipe-specific evidence rather than infer from style, publisher or author location."
+      ]
+    }
+  ],
+  "changedFieldNames": [
+    "equipment",
+    "prepTime",
+    "cookTime",
+    "totalTime",
+    "servings",
+    "ingredients",
+    "origin",
+    "nutrition",
+    "formula",
+    "learning",
+    "content"
+  ],
+  "changedFields": {
+    "equipment": {
+      "before": ["saucepan"],
+      "after": ["heavy-saucepan", "wooden-spoon"]
+    },
+    "prepTime": {
+      "before": "5 min",
+      "after": "About 10 min active"
+    },
+    "cookTime": {
+      "before": "35 min",
+      "after": "About 37–40 min"
+    },
+    "totalTime": {
+      "before": "40 min",
+      "after": "About 45–50 min"
+    },
+    "servings": {
+      "before": "4",
+      "after": "4 portions"
+    },
+    "ingredients": {
+      "before": [
+        "1 cup Steel-cut Oats",
+        "3 cups Boiling Water",
+        "1/2 cup Whole Milk",
+        "1/2 cup Low-fat Buttermilk (The Acid Balance)",
+        "1 tbsp Unsalted Butter",
+        "1 tbsp Light Brown Sugar",
+        "1/4 tsp Ground Cinnamon",
+        "Pinch of Sea Salt"
+      ],
+      "after": [
+        "--- Oatmeal ---",
+        "1 tbsp unsalted butter",
+        "1 cup steel-cut oats",
+        "3 cups boiling water",
+        "sea salt, a pinch",
+        "1/2 cup whole milk",
+        "9 tbsp low-fat buttermilk, ½ cup plus 1 tbsp in the original batch, divided equally",
+        "1 tbsp light brown sugar",
+        "1/4 tsp ground cinnamon",
+        "--- Optional toppings ---",
+        "fresh berries, as wanted for serving, optional",
+        "maple syrup, a drizzle as wanted for serving, optional"
+      ]
+    },
+    "origin": {
+      "before": "United States",
+      "after": null
+    },
+    "nutrition": {
+      "before": {
+        "calories": 1980,
+        "protein": 5,
+        "carbs": 20,
+        "fat": 214,
+        "fiber": 2,
+        "sugar": 6.5,
+        "sodium": 960
+      },
+      "after": null
+    },
+    "formula": {
+      "before": null,
+      "after": {
+        "version": 1,
+        "yield": {
+          "amount": 4,
+          "unit": "portion"
+        },
+        "components": [
+          {
+            "id": "oats",
+            "name": "Oatmeal",
+            "ingredients": [
+              {
+                "id": "butter",
+                "key": "butter",
+                "name": "unsalted butter",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "toast",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "oats",
+                "key": "oats",
+                "name": "steel-cut oats",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "toast",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "water",
+                "key": "water",
+                "name": "boiling water",
+                "quantity": {
+                  "amount": 3,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "simmer",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "salt",
+                "key": "salt",
+                "name": "sea salt",
+                "allowance": "a pinch",
+                "uses": [
+                  {
+                    "step": "simmer",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "milk",
+                "key": "milk",
+                "name": "whole milk",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "dairy",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "buttermilk",
+                "key": "buttermilk",
+                "name": "low-fat buttermilk",
+                "quantity": {
+                  "amount": 9,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "dairy",
+                    "share": "1/2"
+                  },
+                  {
+                    "step": "finish",
+                    "share": "1/2"
+                  }
+                ],
+                "preparation": "½ cup plus 1 tbsp in the original batch, divided equally"
+              },
+              {
+                "id": "sugar",
+                "key": "sugar",
+                "name": "light brown sugar",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "finish",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "cinnamon",
+                "key": "cinnamon",
+                "name": "ground cinnamon",
+                "quantity": {
+                  "amount": "1/4",
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "finish",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "topping",
+            "name": "Optional toppings",
+            "ingredients": [
+              {
+                "id": "berries",
+                "key": "berries",
+                "name": "fresh berries",
+                "allowance": "as wanted for serving",
+                "uses": [
+                  {
+                    "step": "serve",
+                    "share": 1
+                  }
+                ],
+                "optional": true
+              },
+              {
+                "id": "syrup",
+                "key": "syrup",
+                "name": "maple syrup",
+                "allowance": "a drizzle as wanted for serving",
+                "uses": [
+                  {
+                    "step": "serve",
+                    "share": 1
+                  }
+                ],
+                "optional": true
+              }
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "id": "toast",
+            "title": "Toast",
+            "text": "Use {{ingredients}}: melt the butter in a heavy saucepan, then add the oats. Stir for about 2–3 minutes, until lightly golden and nutty-smelling; do not scorch the butter."
+          },
+          {
+            "id": "simmer",
+            "title": "Simmer gently",
+            "text": "Carefully add {{ingredients}}. Reduce to very low heat, cover and maintain a gentle simmer for about 25 minutes. Check if it threatens to boil over or catch on the bottom; lower the heat and stir gently if needed rather than let it scorch."
+          },
+          {
+            "id": "dairy",
+            "title": "Cook with dairy",
+            "text": "Add {{ingredients}}. Stir gently over low heat for about 10 minutes, until the grains are tender and chewy without a hard center and the porridge is creamy. Continue as needed for the actual oats and heat."
+          },
+          {
+            "id": "finish",
+            "title": "Finish off heat",
+            "text": "Remove from heat and stir in {{ingredients}}. The buttermilk in this step is the remaining half of its listed total, not an extra amount."
+          },
+          {
+            "id": "serve",
+            "title": "Serve",
+            "text": "Divide among the listed portions and serve hot with {{ingredients}}."
+          }
+        ]
+      }
+    },
+    "learning": {
+      "before": null,
+      "after": {
+        "focus": "Toast the oats, then keep the simmer gentle",
+        "outcome": "Tender, chewy steel-cut oats with butter, milk and a tangy buttermilk finish.",
+        "techniques": ["starch", "temperature"],
+        "before": [
+          "The original batch contains ½ cup plus 1 tablespoon buttermilk total, or 9 tablespoons. Divide the listed total equally between the dairy cooking step and the off-heat finish.",
+          "Use a pan with headroom for the oats to simmer without foaming over. Larger batches may need separate pans and longer heat-up; keep the same gentle simmer and judge grain tenderness rather than multiplying the clock."
+        ],
+        "checkpoints": [
+          {
+            "step": 1,
+            "cue": "The oats smell nutty and have light golden patches.",
+            "why": "Gentle toasting develops flavor without scorching the butter."
+          },
+          {
+            "step": 3,
+            "cue": "The grains are tender and chewy without a hard center; the porridge is creamy.",
+            "why": "Brand, heat and evaporation affect the final cooking time."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Oats catch on the bottom.",
+            "cause": "The simmer is too strong or the pan is drying out.",
+            "fix": "Lower the heat and gently loosen the oats; check the water before continuing rather than obey an absolute no-stir rule."
+          }
+        ],
+        "storage": "Refrigerate promptly in a shallow covered container at 40°F / 4°C or below. Limit time out to 2 hours, or 1 hour above 90°F / 32°C. Use within 3–4 days. Reheat to 165°F / 74°C, stirring; the oats thicken as they stand.",
+        "timing": "About 45–50 min includes preparation, heating and cooking; larger batches and product directions can add time.",
+        "sources": [
+          {
+            "title": "Alton Brown — Buttermilk steel-cut oats",
+            "url": "https://altonbrown.com/recipes/buttermilk-steel-cut-oats-recipe/"
+          },
+          {
+            "title": "FoodSafety.gov — Four steps to food safety",
+            "url": "https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety"
+          },
+          {
+            "title": "USDA — Handling leftovers safely",
+            "url": "https://ask.fsis.usda.gov/article/How-do-I-handle-leftovers-safely"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-05"
+        }
+      }
+    },
+    "content": {
+      "before": "\n## Chef's Note\n\nSteel-cut oats (also called Irish or Scottish oats) are whole oat groats cut into pieces rather than rolled flat, giving them a chewy texture and nutty flavor. Toasting dry oats in butter for 2 minutes before adding water creates a protective nutty shell that prevents them from becoming gluey. Stirring buttermilk in at the end provides sophisticated tang that balances sweet brown sugar while adding creamy richness.\n\n## Directions\n\n1.  **The Toast:** In a heavy saucepan, melt the butter. Add the oats and stir constantly for 2-3 minutes until they smell like toasted popcorn and look golden.\n2.  **Simmer:** Pour in the boiling water and a pinch of salt. Reduce heat to **very low**. Cover and cook for 25 minutes. **Do not stir.**\n3.  **Emulsify:** Open the lid. Add the whole milk and half of the buttermilk. Stir gently for 10 minutes over low heat until the oats are creamy and \"squeaky\" to the bite (al dente).\n4.  **Finish:** Remove from heat. Stir in the remaining buttermilk, brown sugar, and cinnamon for a final layer of flavor.\n5.  **Serve:** Serve hot with fresh berries or a drizzle of maple syrup.\n",
+      "after": "\n## Chef's Note\n\nToasting the oats in butter brings out their nutty aroma; it does not seal them against starch release. Keep the water at a gentle simmer, then stir in the dairy over low heat. The buttermilk is divided equally between cooking and finishing, giving the oats richness and a fresh tang at the end.\n\n## Directions\n\n1. **Toast:** Use unsalted butter and steel-cut oats: melt the butter in a heavy saucepan, then add the oats. Stir for about 2–3 minutes, until lightly golden and nutty-smelling; do not scorch the butter.\n2. **Simmer gently:** Carefully add boiling water and sea salt. Reduce to very low heat, cover and maintain a gentle simmer for about 25 minutes. Check if it threatens to boil over or catch on the bottom; lower the heat and stir gently if needed rather than let it scorch.\n3. **Cook with dairy:** Add whole milk and 1/2 of the low-fat buttermilk. Stir gently over low heat for about 10 minutes, until the grains are tender and chewy without a hard center and the porridge is creamy. Continue as needed for the actual oats and heat.\n4. **Finish off heat:** Remove from heat and stir in 1/2 of the low-fat buttermilk, light brown sugar, and ground cinnamon. The buttermilk in this step is the remaining half of its listed total, not an extra amount.\n5. **Serve:** Divide among the listed portions and serve hot with fresh berries (if using) and maple syrup (if using).\n\n## Cooking Notes\n\nThe original batch contains ½ cup plus 1 tablespoon buttermilk total, or 9 tablespoons. Divide the listed total equally between the dairy cooking step and the off-heat finish.\n\nUse a pan with headroom for the oats to simmer without foaming over. Larger batches may need separate pans and longer heat-up; keep the same gentle simmer and judge grain tenderness rather than multiplying the clock.\n\nAbout 45–50 min includes preparation, heating and cooking; larger batches and product directions can add time.\n\nRefrigerate promptly in a shallow covered container at 40°F / 4°C or below. Limit time out to 2 hours, or 1 hour above 90°F / 32°C. Use within 3–4 days. Reheat to 165°F / 74°C, stirring; the oats thicken as they stand.\n"
+    }
+  },
+  "ratioYieldCapacity": {
+    "servings": "4 portions",
+    "capacity": [
+      "The original batch contains ½ cup plus 1 tablespoon buttermilk total, or 9 tablespoons. Divide the listed total equally between the dairy cooking step and the off-heat finish.",
+      "Use a pan with headroom for the oats to simmer without foaming over. Larger batches may need separate pans and longer heat-up; keep the same gentle simmer and judge grain tenderness rather than multiplying the clock."
+    ],
+    "precision": "Original planning portions, no measured cooked yield or pan dimensions invented."
+  },
+  "processTiming": {
+    "prepTime": "About 10 min active",
+    "cookTime": "About 37–40 min",
+    "totalTime": "About 45–50 min"
+  },
+  "checkpoints": [
+    {
+      "step": 1,
+      "cue": "The oats smell nutty and have light golden patches.",
+      "why": "Gentle toasting develops flavor without scorching the butter."
+    },
+    {
+      "step": 3,
+      "cue": "The grains are tender and chewy without a hard center; the porridge is creamy.",
+      "why": "Brand, heat and evaporation affect the final cooking time."
+    }
+  ],
+  "storage": "Refrigerate promptly in a shallow covered container at 40°F / 4°C or below. Limit time out to 2 hours, or 1 hour above 90°F / 32°C. Use within 3–4 days. Reheat to 165°F / 74°C, stirring; the oats thicken as they stand.",
+  "learningTiming": "About 45–50 min includes preparation, heating and cooking; larger batches and product directions can add time.",
+  "relationships": {
+    "pairsWith": [
+      "cinnamon-sweet-potatoes",
+      "green-beans-with-shallots-and-lemon",
+      "roasted-fall-harvest-salad"
+    ],
+    "incomingMeals": [],
+    "scope": "Linked recipes and meal schedules do not gain review status.",
+    "rootAssessment": "Bibimbap Night and Korean BBQ Night were read whole. Their runny-egg instruction, held kimchi and compressed preparation/grill schedules need separate reconciliation; this batch gives them no approval or review credit."
+  },
+  "kitchenQuestions": [
+    "Kitchen-check saved equal buttermilk split versus publisher8/1 split without treating either as tested here.",
+    "Check covered simmer evaporation, tenderness and four original portions on actual stove."
+  ],
+  "sourceApplicability": "# Source scope and bounded evidence\n\nThese are proposed full editorial reviews, pending peer/root acceptance. No physical cooking or native-app sync occurred. Exact committed originals and complete later diffs are retained in this directory; native export lineage is not established by title and is not certified.\n\n- Buttered noodles: exact first Git fd4f07a836d811739118df904c5e6cc8b1fd593e establishes the recipe. Package cooking governs the actual noodle product. The starch/water/butter coating explanation is an established culinary mechanism, not a USDA recipe endorsement. USDA/FoodSafety.gov applies only to perishable leftovers, cold holding and reheating.\n- Steel-cut oats: exact first Git045e5ba276b560e4f7d3d485b4860f610d295bac and exact2f2553cdfdbb0ab775b3018274db9820ab42606a show the additional tablespoon lost in a batch rewrite. Subsequent source history has no explicit household decision supporting its removal. The restored total is 9 tablespoons = ½ cup +1 tablespoon. Saved half/half allocation means4½ tablespoons during dairy cooking and4½ at finish in the original batch; structured shares preserve this at every factor. Current Alton Brown primary https://altonbrown.com/recipes/buttermilk-steel-cut-oats-recipe/ corroborates total, butter, milk and toast/simmer mechanism, but allocates8 tablespoons cooking and1 tablespoon finishing. This proposal preserves the saved allocation and does not silently substitute the publisher's different split. No quoted publisher prose or nutritional claims were imported. Toasting creates flavor, not a protective seal. Water heating/brand/evaporation remain kitchen questions.\n- Blueberry/date oats: first exact Git045e5ba2 and full history show malformed water/date ingredient line, microwave OR stove routes and all-or-part milk/additional liquid option. Later batch rewrite introduced current Medjool specificity; that quantity/state is retained, not normalized. No exact Kids Eat in Color publisher recipe was established. Current attribution remains collection attribution, not formula proof. Actual frozen-product preparation labels must be read by the cook; neither FDA general produce guidance nor a residual-heat thaw certifies a particular frozen product ready to eat. FDA supports produce handling; USDA applies to storage/reheating. No universal all-frozen-berries cooking requirement asserted.\n- Soybean sprouts: existing accepted ee9c7078 targeted repair and exact Git12816aa2 mild formula retained. Maangchi's covered-cooking method supplies context but her chili/fish-sauce versions do not replace this recipe. UC ANR8151 https://ucanr.edu/sites/default/files/2024-02/393187.pdf gives general cooked-sprout advice with principal mung-bean examples. Applying above165°F alongside steaming-hot-throughout to soybean sprouts is conservative accepted guidance; it does not validate a ten-minute pot process or promise pathogen elimination. FDA's higher-risk caution applies to raw/lightly cooked sprouts. No rinsing invention from the held kimchi recipe.\n- Korean spinach: actual Sue Pressey primary https://mykoreankitchen.com/simply-seasoned-korean-spinach-salad-sigeumchi-namul-version-1/ corroborates ingredient identities/amounts, brief blanch followed by cold rinse, gentle squeeze and dressing. Existing accepted salt-density/allocation repairs remain. Cold-water allowance is method water, not a new measured dressing ingredient. FoodSafety.gov applies to holding, not a requirement to reheat cold banchan.\n- Broccoli all'Agro: exact first committed recipe and later complete history establish the saved dressing/count/florets-only/rating. Saved Paprika remains attribution; it does not prove a geographical origin or a native archive binding. General produce guidance supports washing, not the exact fork endpoint or six-portion estimate. Established steaming and draining mechanisms support sensory cues; actual head size is unmeasured. USDA cold handling applies to the perishable whole dish. Lemon is not evidence for room-temperature garlic/oil preservation.\n\nAll sources are applied within the listed scope. Planning ranges and sensory endpoints are editorial guidance, not measured kitchen results. Existing source links and pairings remain; linked dishes and meal schedules do not gain approval.\n",
+  "sourceFetchGaps": [],
+  "confidenceAndLimits": "High exact quantities, source bytes and scoped peer corrections; untested timing, sensory texture, capacity and portions remain questions. Primary safety guidance does not certify formula or remove all risk.",
+  "scalingAndReset": [
+    {
+      "factor": 0.5,
+      "ingredients": [
+        "--- Oatmeal ---",
+        "1/2 tbsp unsalted butter",
+        "1/2 cup steel-cut oats",
+        "1 1/2 cups boiling water",
+        "sea salt, a pinch",
+        "1/4 cup whole milk",
+        "4 1/2 tbsp low-fat buttermilk, ½ cup plus 1 tbsp in the original batch, divided equally",
+        "1/2 tbsp light brown sugar",
+        "1/8 tsp ground cinnamon",
+        "--- Optional toppings ---",
+        "fresh berries, as wanted for serving, optional",
+        "maple syrup, a drizzle as wanted for serving, optional"
+      ],
+      "yield": "2 portions",
+      "buttermilkEachStageTbsp": 2.25
+    },
+    {
+      "factor": 1,
+      "ingredients": [
+        "--- Oatmeal ---",
+        "1 tbsp unsalted butter",
+        "1 cup steel-cut oats",
+        "3 cups boiling water",
+        "sea salt, a pinch",
+        "1/2 cup whole milk",
+        "9 tbsp low-fat buttermilk, ½ cup plus 1 tbsp in the original batch, divided equally",
+        "1 tbsp light brown sugar",
+        "1/4 tsp ground cinnamon",
+        "--- Optional toppings ---",
+        "fresh berries, as wanted for serving, optional",
+        "maple syrup, a drizzle as wanted for serving, optional"
+      ],
+      "yield": "4 portions",
+      "buttermilkEachStageTbsp": 4.5
+    },
+    {
+      "factor": 2,
+      "ingredients": [
+        "--- Oatmeal ---",
+        "2 tbsp unsalted butter",
+        "2 cups steel-cut oats",
+        "6 cups boiling water",
+        "sea salt, a pinch",
+        "1 cup whole milk",
+        "18 tbsp low-fat buttermilk, ½ cup plus 1 tbsp in the original batch, divided equally",
+        "2 tbsp light brown sugar",
+        "1/2 tsp ground cinnamon",
+        "--- Optional toppings ---",
+        "fresh berries, as wanted for serving, optional",
+        "maple syrup, a drizzle as wanted for serving, optional"
+      ],
+      "yield": "8 portions",
+      "buttermilkEachStageTbsp": 9
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "--- Oatmeal ---",
+        "1 tbsp unsalted butter",
+        "1 cup steel-cut oats",
+        "3 cups boiling water",
+        "sea salt, a pinch",
+        "1/2 cup whole milk",
+        "9 tbsp low-fat buttermilk, ½ cup plus 1 tbsp in the original batch, divided equally",
+        "1 tbsp light brown sugar",
+        "1/4 tsp ground cinnamon",
+        "--- Optional toppings ---",
+        "fresh berries, as wanted for serving, optional",
+        "maple syrup, a drizzle as wanted for serving, optional"
+      ],
+      "yield": "4 portions"
+    }
+  ],
+  "validation": {
+    "slug": "steel-cut-oatmeal",
+    "currentSourceSha256": "b8bdcb56fbcece072e7f5f0e51cb25b71e3014fb2435819ae0a819c5059c08b4",
+    "frozenSha256": "b8bdcb56fbcece072e7f5f0e51cb25b71e3014fb2435819ae0a819c5059c08b4",
+    "candidateSha256": "9c59048e683700e956fdcf7e1f5aae3c165883f8423200c893c8ece1b49c0933",
+    "recordSha256": "b22aa08f97bc4eccdf1a738711a7412e315150c7c3d451a97f6ae90d7b3a66bd",
+    "actualCurrentContentSchema": true,
+    "protectedFieldsPreserved": true,
+    "exactFieldSetAndValues": true,
+    "sourceGitBytesExact": true,
+    "completeIngredientLedger": true,
+    "priorPeerReverseBytesExact": false,
+    "unchangedChallengeHash": true,
+    "preservedAcceptedStepBytes": null,
+    "formulaParity": true,
+    "scaleHalfOriginalDoubleReset": true,
+    "triage": {
+      "slug": "steel-cut-oatmeal",
+      "title": "Steel-Cut Oatmeal",
+      "status": "editorial-review",
+      "stepCount": 5,
+      "issues": []
+    },
+    "physicalCooking": false
+  },
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/boiled-six-sources.json",
+  "rootIntegrationRequirements": [],
+  "proposedSha256": "28bb80ab5b14a41f27942ddd565a5aab8b13dabe259ff5ec3ce12f6f575ca1d5",
+  "rootMetadataCorrections": {
+    "priorCandidateSha256": "9c59048e683700e956fdcf7e1f5aae3c165883f8423200c893c8ece1b49c0933",
+    "correctedCandidateSha256": "28bb80ab5b14a41f27942ddd565a5aab8b13dabe259ff5ec3ce12f6f575ca1d5",
+    "independentReportSha256": "17a435c52b2139a7ef5d75a1f210aee78612bed5e066772ecaeecd4dfd5388b1",
+    "changes": [
+      {
+        "category": "origin",
+        "before": "United States",
+        "after": null,
+        "rationale": "United States is added by generic 2a7 metadata cleanup, absent from the exact 045 original. Retained recipe/publisher evidence does not explicitly establish geographic origin for this particular formula. Preserve American cuisine style, source context and every culinary value.",
+        "source": [
+          {
+            "path": "docs/RECIPE_STANDARD.md",
+            "applicability": "Do not invent origins; preserve source and family attribution"
+          },
+          {
+            "path": "retained-private-evidence",
+            "applicability": "Exact saved formula and source metadata, not a geographic-origin certification"
+          },
+          {
+            "path": "retained-private-evidence",
+            "applicability": "Exact origin introduction and later persistence; persistence does not prove geographical evidence"
+          },
+          {
+            "url": "https://altonbrown.com/recipes/buttermilk-steel-cut-oats-recipe/",
+            "applicability": "Direct page supplies named author,formula and first appearance inGood Eats; no explicit country-origin statement. TV/author location is not automatically a dish-origin statement."
+          }
+        ],
+        "confidence": "high for metadata/history and warranted omission under retained evidence; no claim that another origin has been disproved",
+        "unresolvedQuestions": [
+          "If retaining a geographic country claim, provide exact recipe-specific evidence rather than infer from style, publisher or author location."
+        ]
+      },
+      {
+        "category": "evidence scope",
+        "location": "findings.0.source",
+        "before": [
+          {
+            "title": "Alton Brown — Buttermilk steel-cut oats",
+            "url": "https://altonbrown.com/recipes/buttermilk-steel-cut-oats-recipe/"
+          },
+          {
+            "title": "FoodSafety.gov — Four steps to food safety",
+            "url": "https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety"
+          },
+          {
+            "title": "USDA — Handling leftovers safely",
+            "url": "https://ask.fsis.usda.gov/article/How-do-I-handle-leftovers-safely"
+          }
+        ],
+        "after": [
+          {
+            "title": "Exact saved committed recipe",
+            "path": "retained-private-evidence",
+            "sha256": "28cdffdd673ea218b6362a3b75f16ed8fb9015ca92cdf1681bcdf3065e2c6995",
+            "applicability": "Exact 045 original preserves ½ cup plus 1 tbsp buttermilk and a half/half allocation. 2f2553 drops the extra tablespoon; later histories show no separate household quantity decision. Current/frozen ingredients and optional garnish context remain exact saved evidence."
+          },
+          {
+            "title": "Exact frozen current and full actual Git history",
+            "paths": ["retained-private-evidence", "retained-private-evidence"],
+            "applicability": "Establishes existing state/allocations/variants and inherited repairs; source changes are not kitchen tests."
+          },
+          {
+            "title": "Alton Brown — current steel-cut oats",
+            "url": "https://altonbrown.com/recipes/buttermilk-steel-cut-oats-recipe/",
+            "applicability": "Corroborates ingredients, 9 tbsp TOTAL buttermilk and toast/staged-simmer context; current 8 tbsp cooking/1 tbsp finish differs from saved equal halves. It does not prove country origin or household timing."
+          },
+          {
+            "type": "editorial culinary inference",
+            "basis": "Exact saved/current methods and ingredient-state/process graph",
+            "applicability": "Toasting, simmering and a gentle dairy stage guide flavor and texture; no protective oat seal is established. Saved 4½/4½ tbsp allocation is distinct from current Alton 8/1 tbsp. Real heat-up, evaporation and grain tenderness are untested.",
+            "confidence": "moderate for untested sensory/load guidance"
+          },
+          {
+            "type": "editorial planning inference",
+            "basis": "Named heat-up/prep/cook/drain/finish dependencies in this recipe",
+            "applicability": "Planning time follows water heating, toasting, the 25-minute first simmer and 10-minute dairy stage. Original/current Alton 45 min are saved/publisher plans. FDA/USDA does not validate the new household range.",
+            "confidence": "moderate; actual elapsed and active times unmeasured"
+          },
+          {
+            "title": "FoodSafety.gov — handling scope only",
+            "url": "https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety",
+            "applicability": "Clean handling, prompt shallow cold holding at 40°F, two-hour limit/one hour above 90°F as applicable. Not culinary formula, yield, cooking clock or mandatory reheating ofcold banchan."
+          },
+          {
+            "title": "USDA — leftover scope only",
+            "url": "https://ask.fsis.usda.gov/article/How-do-I-handle-leftovers-safely",
+            "applicability": "General perishable leftovers cold holding/use/reheating guidance; not validation of amounts, original yield, emulsion, sensory endpoint or first-cook elapsed range. Existing shorter quality notes remain distinct from tested shelf life."
+          }
+        ],
+        "rationale": "Separate saved-formula/current-process/publisher comparison/culinary planning from the specifically applicable handling guidance. Source arrays must not imply all citations establish every claim.",
+        "confidence": "high for source-scope distinction; underlying culinary/timing conclusions are not self-accepted"
+      },
+      {
+        "category": "evidence scope",
+        "location": "findings.1.source",
+        "before": [
+          {
+            "title": "Alton Brown — Buttermilk steel-cut oats",
+            "url": "https://altonbrown.com/recipes/buttermilk-steel-cut-oats-recipe/"
+          },
+          {
+            "title": "FoodSafety.gov — Four steps to food safety",
+            "url": "https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety"
+          },
+          {
+            "title": "USDA — Handling leftovers safely",
+            "url": "https://ask.fsis.usda.gov/article/How-do-I-handle-leftovers-safely"
+          }
+        ],
+        "after": [
+          {
+            "title": "Exact saved committed recipe",
+            "path": "retained-private-evidence",
+            "sha256": "28cdffdd673ea218b6362a3b75f16ed8fb9015ca92cdf1681bcdf3065e2c6995",
+            "applicability": "Exact 045 original preserves ½ cup plus 1 tbsp buttermilk and a half/half allocation. 2f2553 drops the extra tablespoon; later histories show no separate household quantity decision. Current/frozen ingredients and optional garnish context remain exact saved evidence."
+          },
+          {
+            "title": "Exact frozen current and full actual Git history",
+            "paths": ["retained-private-evidence", "retained-private-evidence"],
+            "applicability": "Establishes existing state/allocations/variants and inherited repairs; source changes are not kitchen tests."
+          },
+          {
+            "title": "Alton Brown — current steel-cut oats",
+            "url": "https://altonbrown.com/recipes/buttermilk-steel-cut-oats-recipe/",
+            "applicability": "Corroborates ingredients, 9 tbsp TOTAL buttermilk and toast/staged-simmer context; current 8 tbsp cooking/1 tbsp finish differs from saved equal halves. It does not prove country origin or household timing."
+          }
+        ],
+        "rationale": "Quantities/restoration and ingredient destinations come from exact recipe/Git evidence; general safety sources do not establish these formula claims.",
+        "confidence": "high for source-scope distinction; underlying culinary/timing conclusions are not self-accepted"
+      },
+      {
+        "category": "evidence scope",
+        "location": "findings.3.source",
+        "before": [
+          {
+            "title": "Alton Brown — Buttermilk steel-cut oats",
+            "url": "https://altonbrown.com/recipes/buttermilk-steel-cut-oats-recipe/"
+          },
+          {
+            "title": "FoodSafety.gov — Four steps to food safety",
+            "url": "https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety"
+          },
+          {
+            "title": "USDA — Handling leftovers safely",
+            "url": "https://ask.fsis.usda.gov/article/How-do-I-handle-leftovers-safely"
+          }
+        ],
+        "after": [
+          {
+            "title": "Exact saved committed recipe",
+            "path": "retained-private-evidence",
+            "sha256": "28cdffdd673ea218b6362a3b75f16ed8fb9015ca92cdf1681bcdf3065e2c6995",
+            "applicability": "Exact 045 original preserves ½ cup plus 1 tbsp buttermilk and a half/half allocation. 2f2553 drops the extra tablespoon; later histories show no separate household quantity decision. Current/frozen ingredients and optional garnish context remain exact saved evidence."
+          },
+          {
+            "title": "Exact frozen current and full actual Git history",
+            "paths": ["retained-private-evidence", "retained-private-evidence"],
+            "applicability": "Establishes existing state/allocations/variants and inherited repairs; source changes are not kitchen tests."
+          },
+          {
+            "title": "Alton Brown — current steel-cut oats",
+            "url": "https://altonbrown.com/recipes/buttermilk-steel-cut-oats-recipe/",
+            "applicability": "Corroborates ingredients, 9 tbsp TOTAL buttermilk and toast/staged-simmer context; current 8 tbsp cooking/1 tbsp finish differs from saved equal halves. It does not prove country origin or household timing."
+          },
+          {
+            "type": "editorial culinary inference",
+            "basis": "Exact saved/current methods and ingredient-state/process graph",
+            "applicability": "Toasting, simmering and a gentle dairy stage guide flavor and texture; no protective oat seal is established. Saved 4½/4½ tbsp allocation is distinct from current Alton 8/1 tbsp. Real heat-up, evaporation and grain tenderness are untested.",
+            "confidence": "moderate for untested sensory/load guidance"
+          },
+          {
+            "type": "editorial planning inference",
+            "basis": "Named heat-up/prep/cook/drain/finish dependencies in this recipe",
+            "applicability": "Planning time follows water heating, toasting, the 25-minute first simmer and 10-minute dairy stage. Original/current Alton 45 min are saved/publisher plans. FDA/USDA does not validate the new household range.",
+            "confidence": "moderate; actual elapsed and active times unmeasured"
+          },
+          {
+            "title": "FoodSafety.gov — handling scope only",
+            "url": "https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety",
+            "applicability": "Clean handling, prompt shallow cold holding at 40°F, two-hour limit/one hour above 90°F as applicable. Not culinary formula, yield, cooking clock or mandatory reheating ofcold banchan."
+          },
+          {
+            "title": "USDA — leftover scope only",
+            "url": "https://ask.fsis.usda.gov/article/How-do-I-handle-leftovers-safely",
+            "applicability": "General perishable leftovers cold holding/use/reheating guidance; not validation of amounts, original yield, emulsion, sensory endpoint or first-cook elapsed range. Existing shorter quality notes remain distinct from tested shelf life."
+          }
+        ],
+        "rationale": "Separate saved-formula/current-process/publisher comparison/culinary planning from the specifically applicable handling guidance. Source arrays must not imply all citations establish every claim.",
+        "confidence": "high for source-scope distinction; underlying culinary/timing conclusions are not self-accepted"
+      },
+      {
+        "category": "evidence scope",
+        "location": "findings.4.source",
+        "before": [
+          {
+            "title": "Alton Brown — Buttermilk steel-cut oats",
+            "url": "https://altonbrown.com/recipes/buttermilk-steel-cut-oats-recipe/"
+          },
+          {
+            "title": "FoodSafety.gov — Four steps to food safety",
+            "url": "https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety"
+          },
+          {
+            "title": "USDA — Handling leftovers safely",
+            "url": "https://ask.fsis.usda.gov/article/How-do-I-handle-leftovers-safely"
+          }
+        ],
+        "after": [
+          {
+            "title": "Exact frozen current and full actual Git history",
+            "paths": ["retained-private-evidence", "retained-private-evidence"],
+            "applicability": "Planning time follows water heating, toasting, the 25-minute first simmer and 10-minute dairy stage. Original/current Alton 45 min are saved/publisher plans. FDA/USDA does not validate the new household range."
+          },
+          {
+            "type": "editorial planning inference",
+            "basis": "Named heat-up/prep/cook/drain/finish dependencies in this recipe",
+            "applicability": "Planning time follows water heating, toasting, the 25-minute first simmer and 10-minute dairy stage. Original/current Alton 45 min are saved/publisher plans. FDA/USDA does not validate the new household range.",
+            "confidence": "moderate; actual elapsed and active times unmeasured"
+          }
+        ],
+        "rationale": "New planning range is editorial dependency inference, not a time published or validated by FDA/USDA.",
+        "confidence": "high for source-scope distinction; underlying culinary/timing conclusions are not self-accepted"
+      }
+    ],
+    "scope": "Bounded root metadata/evidence corrections and routine timing copy editing; original author and peer checkpoints retained. Whole root acceptance still pending."
+  },
+  "acceptedSourceSha256": "28bb80ab5b14a41f27942ddd565a5aab8b13dabe259ff5ec3ce12f6f575ca1d5",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/boiled-six-independent.md",
+  "integrationInputCommit": "7eec1146b5f7bd65495c750a8312303d8d9d5b83",
+  "rootWholeInspection": "Complete current, exact first Git, proposed recipes and every actual cooking history inspected. All ingredient preparation/state/allocation/method destinations, full richness and variants, ratios, original planning portions, pan headroom, heat and sensory endpoints, active/elapsed timing, optional chilling, storage, scaling and linked meals inspected. Six complete bounded byte reversals and four prior peer reversals passed; two original independently inspected candidate hashes remain unchanged before the bounded corrections. Exact private native archive lineage is not established for these recipes; retained exact Git sources remain authoritative evidence.",
+  "rootSourceEvidence": {
+    "firstGit": "https://github.com/jsilton/mise/blob/045e5ba276b560e4f7d3d485b4860f610d295bac/src/content/recipes/steel-cut-oatmeal.md",
+    "savedSha256": "28cdffdd673ea218b6362a3b75f16ed8fb9015ca92cdf1681bcdf3065e2c6995",
+    "actualHistorySha256": "d0bfd66f8e7e701c15afbfd627e5e28c611f03f682d66e534f70f00c198aba1a",
+    "historyArtifactHeaderBytesDiffer": true,
+    "completeActualCommitSetsAndDiffBodiesMatch": true,
+    "priorRepairCommit": null,
+    "sourceScope": "Exact Git/formula and publisher disagreements support culinary choices. FDA/USDA support only applicable handling and leftover guidance; untested planning, capacity and sensory judgments remain explicitly editorial inference."
+  },
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 32,
+    "targetedLint": "Six pass; zero errors and one pre-existing missing-pairing warning. No invented pairing added.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 11898,
+    "missingDestinations": 0,
+    "exports": "All three exports match643 current recipe sources",
+    "privateBindings": "643 complete stable bindings verified; no replacement identities",
+    "privacy": "Published assets and public evidence pass",
+    "renderedRecipes": 6,
+    "visibleMethodSteps": 30,
+    "scaledIngredientDisplays": 144,
+    "scaledYieldDisplays": 18,
+    "scaleFactors": [0.5, 2, 1],
+    "mobileWidth": 375,
+    "noOverflow": true,
+    "cooking": "All six ingredient/step checks persist after reload and reentry; normal mode on reload; reset and exit pass",
+    "shopping": "Oatmeal2× shows18 tbsp total buttermilk; both method stages use half the listed total",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "Controls enabled; shared styles unchanged; print preview unverified",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

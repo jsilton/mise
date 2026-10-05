@@ -25,20 +25,72 @@ cookTime: 10 min
 totalTime: 15 min
 servings: 4 small side portions
 ingredients:
-  - 250 g fresh spinach, roots trimmed and leaves washed
-  - 6 cups water, for blanching
-  - 1 tsp fine sea salt, for blanching water
+  - '250 g fresh spinach, roots trimmed and leaves washed'
+  - '6 cups water, for blanching'
+  - '1 tsp fine sea salt, for blanching water'
   - 1 tbsp toasted sesame oil
-  - 1 tsp scallion, finely chopped
-  - 1/2 tsp garlic, minced
-  - 1/4 tsp fine sea salt, for seasoning, added to taste
+  - '1 tsp scallion, finely chopped'
+  - '1/2 tsp garlic, minced'
+  - '1/4 tsp fine sea salt, for seasoning, added to taste'
   - 1 tsp toasted sesame seeds
+  - 'Cold water, as needed for cooling'
 origin: Korea
 seasons:
   - year-round
 nutritionalDensity: moderate
-source: Adapted from Sue Pressey, My Korean Kitchen
-sourceUrl: https://mykoreankitchen.com/simply-seasoned-korean-spinach-salad-sigeumchi-namul-version-1/
+source: 'Adapted from Sue Pressey, My Korean Kitchen'
+sourceUrl: >-
+  https://mykoreankitchen.com/simply-seasoned-korean-spinach-salad-sigeumchi-namul-version-1/
+equipment:
+  - pot
+  - colander
+  - mixing-bowl
+learning:
+  focus: 'Cool, gently squeeze and separate the blanched leaves'
+  outcome: 'Loose, lightly dressed spinach banchan with sesame oil, garlic and scallion.'
+  techniques:
+    - cold-preparation
+    - seasoning
+  before:
+    - >-
+      Blanching salt and seasoning salt are separate measured ingredients. Keep
+      their destinations separate and add the seasoning salt gradually to taste.
+    - >-
+      Larger batches need a larger pot or separate blanching loads so leaves can
+      submerge. Divide measured blanching water and salt among separate pots if
+      using them; cooling water is an additional unmeasured allowance. Do not
+      multiply the brief blanch time.
+  checkpoints:
+    - step: 2
+      cue: Leaves have wilted and stems are tender.
+      why: Thirty seconds is a first check; thick stems need longer.
+    - step: 5
+      cue: Leaves are loose enough for dressing to reach the whole bowl.
+      why: >-
+        Gentle squeezing and separating preserve texture and seasoning
+        distribution.
+  troubleshooting:
+    - problem: Seasoning stays on the outside of a tight spinach ball.
+      cause: The leaves were compressed and not loosened.
+      fix: >-
+        Separate the cooled leaves before gently tossing with the measured
+        dressing.
+  storage: >-
+    Refrigerate promptly in a shallow covered container at 40°F / 4°C or below.
+    Limit time out to 2 hours, or 1 hour above 90°F / 32°C. Use within 2 days
+    for best texture. Serve cool; freezing gives a softer result.
+  timing: >-
+    About 15 min includes washing, heating, blanching, cooling, gently draining
+    and seasoning; larger batches can take longer.
+  sources:
+    - title: Sue Pressey — Simply seasoned Korean spinach salad
+      url: >-
+        https://mykoreankitchen.com/simply-seasoned-korean-spinach-salad-sigeumchi-namul-version-1/
+    - title: FoodSafety.gov — Four steps to food safety
+      url: 'https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety'
+  review:
+    status: editorial-review
+    date: '2026-10-05'
 ---
 
 ## Chef's Note
@@ -52,7 +104,7 @@ Sigeumchi namul is a simple spinach banchan. Cool the wilted leaves promptly, th
 3. **Cool:** Drain and rinse under cold running water or transfer to fresh cold water until cool enough to handle.
 4. **Drain gently:** Lift out small handfuls and squeeze gently to remove excess water. Do not wring the leaves bone-dry. Cut long stems and leaves into bite-size lengths; baby leaves can remain whole.
 5. **Season:** Mix sesame oil, garlic, scallion and part of the seasoning salt in a bowl. Separate the spinach, add it with the sesame seeds and toss gently. Taste before adding the remaining seasoning salt.
-6. **Serve:** Divide into four small side portions, or cover and refrigerate promptly until serving.
+6. **Serve:** Divide into the listed small side portions (four in the original batch), or cover and refrigerate promptly until serving.
 
 ## Cooking Notes
 

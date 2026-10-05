@@ -25,3 +25,46 @@ High confidence in salt-allocation repair and correction of destructive draining
 ## Integration disposition
 
 Accepted as a targeted repair candidate only. The proposed learning.review promotion was removed; no global review-register or full recipe status changes. Timing, quality holding targets and physical performance remain untested.
+
+---
+
+# Korean Spinach Salad (Sigeumchi Namul) — complete editorial review
+
+Accepted after independent whole challenge and complete final root inspection; implementation and exact production verification pending. No physical kitchen testing or native-app sync.
+
+Exact committed original and current primary Sue Pressey page support spinach identity and all measured ingredient amounts. Accepted targeted fine-sea-salt identity, separate blanch/season salt,30second first check, fresh cold rinse/water, gentle squeezing and cold banchan holding retained. Genuine cooling-water allowance listed; not a new measured formula. Current fixed four-portion prose now explicitly original-batch context, preserving ingredient controls. No universal rinse extrapolation to held kimchi or reheat requirement imposed on cold banchan.
+
+## Ingredient destinations
+
+- 250 g fresh spinach, roots trimmed and leaves washed: wash/blanch/cool/squeeze/toss
+- 6 cups water, for blanching: blanch discarded
+- 1 tsp fine sea salt, for blanching water: blanch discarded
+- 1 tbsp toasted sesame oil: season
+- 1 tsp scallion, finely chopped: season
+- 1/2 tsp garlic, minced: season
+- 1/4 tsp fine sea salt, for seasoning, added to taste: season to taste (unused allowed)
+- 1 tsp toasted sesame seeds: season
+- Cold water, as needed for cooling: cooling discarded
+
+## Variants and prior repairs
+
+- English/adult or baby spinach; baby leaves may remain whole, long stems cut.
+- Cold running-water rinse OR fresh cold-water cooling retained exactly, followed by gentle squeeze.
+- Serve cool or chill promptly; no mandatory reheat imposed on cold banchan.
+- Accepted fine sea salt/separate blanching and dressing amounts,30second first check.
+- Exact frozen steps1–5, including genuine cold rinse and gentle squeeze, all sesame oil, cold service.
+
+## Exact findings and evidence
+
+The paired [simply-seasoned-korean-spinach-salad.json](simply-seasoned-korean-spinach-salad.json) retains every exact before/after field and body, ingredient/variant ledger, finding rationale, applicable source, confidence, unresolved question and scaling check. The original author and independent checkpoints remain distinct from this bounded correction and pending whole root acceptance.
+
+## Kitchen questions
+
+- Check spinach stem thickness and gently drained yield for four original small sides.
+- Assess salinity with actual fine sea salt without inventing a gram conversion.
+
+[Independent challenge and final root disposition](../editorial-campaign/2026-10-05/boiled-six-independent.md). [Applicable evidence](../editorial-campaign/2026-10-05/boiled-six-sources.json). Accepted source SHA-256: 7a1f3f1d05aecec877c2be2402b24055137f995a928f4ce5cf92d13e0962ccc7.
+
+## Local integrated validation
+
+All252 tests,32 authored formula checks,643-recipe validation and30 aggregate QA checks pass. Six targeted lints have zero errors and one existing missing-pairing warning. All three exports match643 sources; stable bindings, public privacy and11,898 built anchors pass. All six complete rendered pages,144 scaled ingredient displays,18 yields,375-pixel layouts and cooking checkmark/reload/reset/exit paths pass. Oatmeal2× shopping retains18 tablespoons total buttermilk. No browser warnings or errors. Print controls and shared styles are preserved; print preview remains unverified. No physical kitchen testing or native-app sync. Exact remote commit, CI/deployment and live-page verification remain pending. [Preservation and validation evidence](../editorial-campaign/2026-10-05/boiled-six-preservation.json).

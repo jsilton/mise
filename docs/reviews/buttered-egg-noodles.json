@@ -1,0 +1,866 @@
+{
+  "slug": "buttered-egg-noodles",
+  "title": "Buttered Egg Noodles",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "date": "2026-10-05",
+  "notKitchenTested": true,
+  "inputCommit": "1b56f21878b9da0b844c34f9f491fd02313d60c2",
+  "inputSha256": "f5ca4e79f44dcfa378606cb24229b2d073cb1b09e547d8892187f781aa3c9407",
+  "currentSourceSha256": "f5ca4e79f44dcfa378606cb24229b2d073cb1b09e547d8892187f781aa3c9407",
+  "candidateSha256": "c3a6037e07394497ae319df3cac540a760bbb652dd10cdf1806b05105e25c601",
+  "summary": "Exact first Git recipe and whole history establish this saved formula; no external publisher is identified. All measured noodles, butter, finishing kosher salt, pepper, parsley and reserved water retained. Added genuine cooking-water allowance, removed unsupported pasta superiority/family-history claims, and counted water heating. Salt brand/crystal volume retained without weight invention. Legacy nutrition has no verified calculation and is removed; no replacement estimate.",
+  "sourceCredit": null,
+  "sourceUrl": null,
+  "sourceProvenance": {
+    "savedGitCommit": "fd4f07a836d811739118df904c5e6cc8b1fd593e",
+    "path": "src/content/recipes/buttered-egg-noodles.md",
+    "savedSourceSha256": "1924fc78f39930da25e5af9dbb5e87955ecfc087022fe6e8c88afca1fe0713ba",
+    "nativeLineage": "Not independently established; exact Git originals only."
+  },
+  "priorIndependentChallenge": {
+    "inspectedSha256": "ff39eeab1d520966dc501e60beec73e6f23e6d0d71f70006c73c6f55e38013b6",
+    "disposition": "accept-with-public-copy-corrections",
+    "reason": "Culinary accept with the one narrow public copy correction. All 12 oz noodles, 3 tbsp butter, finishing 1 tsp kosher salt, pepper and optional 2 tbsp parsley retain explicit destinations. The scaled reserved pasta water is taken before draining and added once with all butter; cooking-water salt is a separate genuine allowance. Water heating is counted, product/tender-center timing is conditional, and larger loads divide the batch totals.",
+    "currentCandidateStillExact": false
+  },
+  "subsequentPeerApplication": {
+    "priorSha256": "ff39eeab1d520966dc501e60beec73e6f23e6d0d71f70006c73c6f55e38013b6",
+    "correctedSha256": "a31542029197f9afff0ffb601ed3a069b36d42a46f2a5321f72eb19bcf682ec9",
+    "changes": [
+      {
+        "location": "Directions step 1 final sentence",
+        "before": "The saved 7–8 minutes is a first check for suitable wide egg noodles, not every brand.",
+        "after": "For wide egg noodles with a similar package time, start checking at 7–8 minutes; other shapes or brands may need a different time."
+      }
+    ],
+    "scope": "Only recorded bounded corrections; exact prior bytes reconstructed and hashed.",
+    "independentSelfAcceptance": false
+  },
+  "rootFinalAcceptance": "accepted after prior independent whole challenge, independent bounded metadata challenge and complete final root source/diff inspection",
+  "independentSelfAcceptance": false,
+  "sourceDisagreements": "Exact first Git recipe and whole history establish this saved formula; no external publisher is identified. All measured noodles, butter, finishing kosher salt, pepper, parsley and reserved water retained. Added genuine cooking-water allowance, removed unsupported pasta superiority/family-history claims, and counted water heating. Salt brand/crystal volume retained without weight invention. Legacy nutrition has no verified calculation and is removed; no replacement estimate.",
+  "originalIngredients": [
+    "12 oz Wide Egg Noodles",
+    "3 tbsp Unsalted Butter",
+    "1 tsp Kosher Salt (plus more for pasta water)",
+    "1/4 tsp Black Pepper",
+    "2 tbsp Fresh Parsley, chopped (optional)",
+    "1/4 cup Reserved Pasta Water"
+  ],
+  "frozenIngredientLedger": [
+    {
+      "ingredient": "12 oz Wide Egg Noodles",
+      "destinationOrQuestion": "boil1"
+    },
+    {
+      "ingredient": "3 tbsp Unsalted Butter",
+      "destinationOrQuestion": "all butter toss3"
+    },
+    {
+      "ingredient": "1 tsp Kosher Salt (plus more for pasta water)",
+      "destinationOrQuestion": "extra allowance boiling1; measured tsp toss3"
+    },
+    {
+      "ingredient": "1/4 tsp Black Pepper",
+      "destinationOrQuestion": "toss3"
+    },
+    {
+      "ingredient": "2 tbsp Fresh Parsley, chopped (optional)",
+      "destinationOrQuestion": "optional all parsley serve4"
+    },
+    {
+      "ingredient": "1/4 cup Reserved Pasta Water",
+      "destinationOrQuestion": "reserve2 then all toss3"
+    }
+  ],
+  "savedGitIngredients": [
+    "12 oz Wide Egg Noodles",
+    "3 tbsp Unsalted Butter",
+    "1 tsp Kosher Salt (plus more for pasta water)",
+    "1/4 tsp Black Pepper",
+    "2 tbsp Fresh Parsley, chopped (optional)",
+    "1/4 cup Reserved Pasta Water"
+  ],
+  "currentIngredients": [
+    "12 oz Wide Egg Noodles",
+    "3 tbsp Unsalted Butter",
+    "1 tsp Kosher Salt (plus more for pasta water)",
+    "1/4 tsp Black Pepper",
+    "2 tbsp Fresh Parsley, chopped (optional)",
+    "1/4 cup Reserved Pasta Water",
+    "Water, as needed for boiling noodles"
+  ],
+  "ingredientLedger": [
+    {
+      "ingredient": "12 oz Wide Egg Noodles",
+      "destination": "boil",
+      "quantityState": "Measured amount retained; unmeasured allowances are explicit."
+    },
+    {
+      "ingredient": "3 tbsp Unsalted Butter",
+      "destination": "toss",
+      "quantityState": "Measured amount retained; unmeasured allowances are explicit."
+    },
+    {
+      "ingredient": "1 tsp Kosher Salt (plus more for pasta water)",
+      "destination": "boil allowance plus toss measured tsp",
+      "quantityState": "Measured amount retained; unmeasured allowances are explicit."
+    },
+    {
+      "ingredient": "1/4 tsp Black Pepper",
+      "destination": "toss",
+      "quantityState": "Measured amount retained; unmeasured allowances are explicit."
+    },
+    {
+      "ingredient": "2 tbsp Fresh Parsley, chopped (optional)",
+      "destination": "serve optional",
+      "quantityState": "Measured amount retained; unmeasured allowances are explicit."
+    },
+    {
+      "ingredient": "1/4 cup Reserved Pasta Water",
+      "destination": "reserve then toss",
+      "quantityState": "Measured amount retained; unmeasured allowances are explicit."
+    },
+    {
+      "ingredient": "Water, as needed for boiling noodles",
+      "destination": "cooking water discarded",
+      "quantityState": "Measured amount retained; unmeasured allowances are explicit."
+    }
+  ],
+  "variantLedger": [
+    "Optional measured2tbsp parsley at original batch, scaled with noodles.",
+    "Package-led wide egg noodle cooking and genuine extra cooking-water/salt allowances; no generic pasta superiority claim."
+  ],
+  "preservedPriorRepairs": [],
+  "findings": [
+    {
+      "before": "\n## Chef's Note\n\nButtered egg noodles are the ultimate comfort base -- the kind of thing your grandmother made without a recipe. Wide egg noodles have a tender, slightly chewy texture that cradles butter and sauce better than any Italian pasta. The secret is tossing the hot noodles with butter and a splash of starchy pasta water, which emulsifies into a silky coating rather than a greasy puddle. This is meant to be a supporting player: simple, satisfying, and ready in the time it takes to boil water.\n\n## Directions\n\n1.  **Boil:** Bring a large pot of generously salted water to a rolling boil. The water should taste like the sea. Add egg noodles and cook according to package directions until al dente, usually 7-8 minutes.\n\n2.  **Reserve Water:** Before draining, scoop out 1/4 cup of the starchy pasta water and set aside.\n\n3.  **Drain and Toss:** Drain the noodles and return them to the pot over low heat. Add butter in pieces, reserved pasta water, salt, and pepper. Toss vigorously for 30-60 seconds until the butter melts and emulsifies with the starchy water into a glossy coating on every noodle.\n\n4.  **Serve:** Transfer to a warm serving bowl, scatter with parsley if using, and serve immediately alongside braises, stews, or saucy mains.\n",
+      "after": "\n## Chef's Note\n\nWide egg noodles soften quickly, so use their package time as a first check. Save the measured pasta water before draining, then toss the hot noodles with all the butter over low heat. The starch in the water helps the melted butter spread over the noodles instead of pooling at the bottom.\n\n## Directions\n\n1. **Boil:** Bring enough water for the noodles to move freely to a rolling boil in a large pot. Salt the cooking water using the extra salt allowance; keep the measured finishing salt separate. Add the noodles and cook according to the package, checking for tender noodles with a little resistance rather than a hard center. For wide egg noodles with a similar package time, start checking at 7–8 minutes; other shapes or brands may need a different time.\n\n2. **Reserve water:** Before draining, scoop out the measured reserved pasta water.\n\n3. **Drain and toss:** Drain and return the hot noodles to the pot over low heat. Add all the butter in pieces, the measured reserved water, finishing salt and pepper. Toss for about 30–60 seconds, until the butter has melted and the noodles look glossy. Keep the heat low enough that they do not stick or dry out.\n\n4. **Serve:** Scatter with the measured parsley if using and serve promptly alongside braises, stews or saucy mains.\n\n## Cooking Notes\n\nThe listed salt includes a measured finishing amount plus an unmeasured allowance for the cooking water. They have separate destinations.\n\nFor a larger batch, use a pot with room for the noodles to move or cook separate batches; reserve the listed water across those batches and divide all the butter and seasoning among them. Heating and cooking times do not multiply with servings.\n\nAbout 15–25 min includes preparation, heating and cooking; larger batches and product directions can add time.\n\nRefrigerate promptly in a shallow covered container at 40°F / 4°C or below. Limit time out to 2 hours, or 1 hour above 90°F / 32°C. Use refrigerated leftovers within 3–4 days. Reheat to 165°F / 74°C; the noodles will soften further.\n",
+      "rationale": "Exact first Git recipe and whole history establish this saved formula; no external publisher is identified. All measured noodles, butter, finishing kosher salt, pepper, parsley and reserved water retained. Added genuine cooking-water allowance, removed unsupported pasta superiority/family-history claims, and counted water heating. Salt brand/crystal volume retained without weight invention. Legacy nutrition has no verified calculation and is removed; no replacement estimate.",
+      "source": [
+        {
+          "title": "Exact saved committed recipe",
+          "path": "retained-private-evidence",
+          "sha256": "1924fc78f39930da25e5af9dbb5e87955ecfc087022fe6e8c88afca1fe0713ba",
+          "applicability": "Exact fd4f recipe and frozen current establish 12 oz noodles, 3 tbsp butter, finishing salt/pepper, optional parsley and ¼ cup reserved water. The boiling-water allowance follows the actual method, not an FDA formula endorsement."
+        },
+        {
+          "title": "Exact frozen current and full actual Git history",
+          "paths": ["retained-private-evidence", "retained-private-evidence"],
+          "applicability": "Establishes existing state/allocations/variants and inherited repairs; source changes are not kitchen tests."
+        },
+        {
+          "type": "editorial culinary inference",
+          "basis": "Exact saved/current methods and ingredient-state/process graph",
+          "applicability": "Glossy hot-noodle/butter/starchy-water coating, product checks and pot headroom are practical culinary guidance. No experiment or package-independent cooking-time guarantee is supplied.",
+          "confidence": "moderate for untested sensory/load guidance"
+        },
+        {
+          "type": "editorial planning inference",
+          "basis": "Named heat-up/prep/cook/drain/finish dependencies in this recipe",
+          "applicability": "15–25 min is editorial planning from preparation, water heating, package noodle cooking and the 30–60-second toss; fd4f originally says 12 min. Actual stove, product and load can extend it; FDA/USDA does not validate this clock.",
+          "confidence": "moderate; actual elapsed and active times unmeasured"
+        },
+        {
+          "title": "FoodSafety.gov — handling scope only",
+          "url": "https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety",
+          "applicability": "Clean handling, prompt shallow cold holding at 40°F, two-hour limit/one hour above 90°F as applicable. Not culinary formula, yield, cooking clock or mandatory reheating ofcold banchan."
+        },
+        {
+          "title": "USDA — leftover scope only",
+          "url": "https://ask.fsis.usda.gov/article/How-do-I-handle-leftovers-safely",
+          "applicability": "General perishable leftovers cold holding/use/reheating guidance; not validation of amounts, original yield, emulsion, sensory endpoint or first-cook elapsed range. Existing shorter quality notes remain distinct from tested shelf life."
+        }
+      ],
+      "confidence": "high for preserved/recovered quantities and destinations; moderate for untested sensory/planning ranges",
+      "unresolvedQuestions": [
+        "Check preferred wide-noodle brand and kosher-salt brand with the full measured finishing amount.",
+        "Time the actual stove water heating and assess four original side portions."
+      ]
+    },
+    {
+      "category": "ingredients",
+      "before": [
+        "12 oz Wide Egg Noodles",
+        "3 tbsp Unsalted Butter",
+        "1 tsp Kosher Salt (plus more for pasta water)",
+        "1/4 tsp Black Pepper",
+        "2 tbsp Fresh Parsley, chopped (optional)",
+        "1/4 cup Reserved Pasta Water"
+      ],
+      "after": [
+        "12 oz Wide Egg Noodles",
+        "3 tbsp Unsalted Butter",
+        "1 tsp Kosher Salt (plus more for pasta water)",
+        "1/4 tsp Black Pepper",
+        "2 tbsp Fresh Parsley, chopped (optional)",
+        "1/4 cup Reserved Pasta Water",
+        "Water, as needed for boiling noodles"
+      ],
+      "rationale": "Exact first Git recipe and whole history establish this saved formula; no external publisher is identified. All measured noodles, butter, finishing kosher salt, pepper, parsley and reserved water retained. Added genuine cooking-water allowance, removed unsupported pasta superiority/family-history claims, and counted water heating. Salt brand/crystal volume retained without weight invention. Legacy nutrition has no verified calculation and is removed; no replacement estimate.",
+      "source": [
+        {
+          "title": "Exact saved committed recipe",
+          "path": "retained-private-evidence",
+          "sha256": "1924fc78f39930da25e5af9dbb5e87955ecfc087022fe6e8c88afca1fe0713ba",
+          "applicability": "Exact fd4f recipe and frozen current establish 12 oz noodles, 3 tbsp butter, finishing salt/pepper, optional parsley and ¼ cup reserved water. The boiling-water allowance follows the actual method, not an FDA formula endorsement."
+        },
+        {
+          "title": "Exact frozen current and full actual Git history",
+          "paths": ["retained-private-evidence", "retained-private-evidence"],
+          "applicability": "Establishes existing state/allocations/variants and inherited repairs; source changes are not kitchen tests."
+        }
+      ],
+      "confidence": "high for exact source/history and allocations; moderate for untested planning",
+      "unresolvedQuestions": [
+        "Check preferred wide-noodle brand and kosher-salt brand with the full measured finishing amount.",
+        "Time the actual stove water heating and assess four original side portions."
+      ]
+    },
+    {
+      "category": "nutrition",
+      "before": {
+        "calories": 590,
+        "protein": 18,
+        "carbs": 99.5,
+        "fat": 15.5,
+        "fiber": 5,
+        "sugar": 1.5,
+        "sodium": 970
+      },
+      "after": null,
+      "rationale": "Legacy estimate has no verified calculation or serving basis; no replacement nutrition or health claim is manufactured.",
+      "source": "Actual legacy field and absent verified calculation; not a claim inferred from safety guidance.",
+      "confidence": "high for exact source/history and allocations; moderate for untested planning",
+      "unresolvedQuestions": [
+        "Check preferred wide-noodle brand and kosher-salt brand with the full measured finishing amount.",
+        "Time the actual stove water heating and assess four original side portions."
+      ]
+    },
+    {
+      "category": "learning",
+      "before": null,
+      "after": {
+        "focus": "Coat tender noodles while they are still hot",
+        "outcome": "Wide egg noodles with a glossy butter coating and optional fresh parsley.",
+        "techniques": ["starch", "emulsions"],
+        "before": [
+          "The listed salt includes a measured finishing amount plus an unmeasured allowance for the cooking water. They have separate destinations.",
+          "For a larger batch, use a pot with room for the noodles to move or cook separate batches; reserve the listed water across those batches and divide all the butter and seasoning among them. Heating and cooking times do not multiply with servings."
+        ],
+        "checkpoints": [
+          {
+            "step": 1,
+            "cue": "The noodles are tender with no hard center.",
+            "why": "Package shape and thickness affect the useful first-check time."
+          },
+          {
+            "step": 3,
+            "cue": "All butter has melted and the coating is glossy.",
+            "why": "Hot noodles, starchy water and tossing distribute the butter."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Butter pools beneath the noodles.",
+            "cause": "The noodles cooled or the coating was not tossed together.",
+            "fix": "Return briefly to low heat and toss with the already reserved water, stopping before the noodles dry out."
+          }
+        ],
+        "storage": "Refrigerate promptly in a shallow covered container at 40°F / 4°C or below. Limit time out to 2 hours, or 1 hour above 90°F / 32°C. Use refrigerated leftovers within 3–4 days. Reheat to 165°F / 74°C; the noodles will soften further.",
+        "timing": "About 15–25 min includes preparation, heating and cooking; larger batches and product directions can add time.",
+        "sources": [
+          {
+            "title": "FoodSafety.gov — Four steps to food safety",
+            "url": "https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety"
+          },
+          {
+            "title": "USDA — Handling leftovers safely",
+            "url": "https://ask.fsis.usda.gov/article/How-do-I-handle-leftovers-safely"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-05"
+        }
+      },
+      "rationale": "Exact first Git recipe and whole history establish this saved formula; no external publisher is identified. All measured noodles, butter, finishing kosher salt, pepper, parsley and reserved water retained. Added genuine cooking-water allowance, removed unsupported pasta superiority/family-history claims, and counted water heating. Salt brand/crystal volume retained without weight invention. Legacy nutrition has no verified calculation and is removed; no replacement estimate.",
+      "source": [
+        {
+          "title": "Exact saved committed recipe",
+          "path": "retained-private-evidence",
+          "sha256": "1924fc78f39930da25e5af9dbb5e87955ecfc087022fe6e8c88afca1fe0713ba",
+          "applicability": "Exact fd4f recipe and frozen current establish 12 oz noodles, 3 tbsp butter, finishing salt/pepper, optional parsley and ¼ cup reserved water. The boiling-water allowance follows the actual method, not an FDA formula endorsement."
+        },
+        {
+          "title": "Exact frozen current and full actual Git history",
+          "paths": ["retained-private-evidence", "retained-private-evidence"],
+          "applicability": "Establishes existing state/allocations/variants and inherited repairs; source changes are not kitchen tests."
+        },
+        {
+          "type": "editorial culinary inference",
+          "basis": "Exact saved/current methods and ingredient-state/process graph",
+          "applicability": "Glossy hot-noodle/butter/starchy-water coating, product checks and pot headroom are practical culinary guidance. No experiment or package-independent cooking-time guarantee is supplied.",
+          "confidence": "moderate for untested sensory/load guidance"
+        },
+        {
+          "type": "editorial planning inference",
+          "basis": "Named heat-up/prep/cook/drain/finish dependencies in this recipe",
+          "applicability": "15–25 min is editorial planning from preparation, water heating, package noodle cooking and the 30–60-second toss; fd4f originally says 12 min. Actual stove, product and load can extend it; FDA/USDA does not validate this clock.",
+          "confidence": "moderate; actual elapsed and active times unmeasured"
+        },
+        {
+          "title": "FoodSafety.gov — handling scope only",
+          "url": "https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety",
+          "applicability": "Clean handling, prompt shallow cold holding at 40°F, two-hour limit/one hour above 90°F as applicable. Not culinary formula, yield, cooking clock or mandatory reheating ofcold banchan."
+        },
+        {
+          "title": "USDA — leftover scope only",
+          "url": "https://ask.fsis.usda.gov/article/How-do-I-handle-leftovers-safely",
+          "applicability": "General perishable leftovers cold holding/use/reheating guidance; not validation of amounts, original yield, emulsion, sensory endpoint or first-cook elapsed range. Existing shorter quality notes remain distinct from tested shelf life."
+        }
+      ],
+      "confidence": "high for exact source/history and allocations; moderate for untested planning",
+      "unresolvedQuestions": [
+        "Check preferred wide-noodle brand and kosher-salt brand with the full measured finishing amount.",
+        "Time the actual stove water heating and assess four original side portions."
+      ]
+    },
+    {
+      "category": "totalTime",
+      "before": "12 min",
+      "after": "About 15–25 min",
+      "rationale": "Planning range accounts for heat-up and actual doneness; no kitchen timing certification.",
+      "source": [
+        {
+          "title": "Exact frozen current and full actual Git history",
+          "paths": ["retained-private-evidence", "retained-private-evidence"],
+          "applicability": "15–25 min is editorial planning from preparation, water heating, package noodle cooking and the 30–60-second toss; fd4f originally says 12 min. Actual stove, product and load can extend it; FDA/USDA does not validate this clock."
+        },
+        {
+          "type": "editorial planning inference",
+          "basis": "Named heat-up/prep/cook/drain/finish dependencies in this recipe",
+          "applicability": "15–25 min is editorial planning from preparation, water heating, package noodle cooking and the 30–60-second toss; fd4f originally says 12 min. Actual stove, product and load can extend it; FDA/USDA does not validate this clock.",
+          "confidence": "moderate; actual elapsed and active times unmeasured"
+        }
+      ],
+      "confidence": "high for exact source/history and allocations; moderate for untested planning",
+      "unresolvedQuestions": [
+        "Check preferred wide-noodle brand and kosher-salt brand with the full measured finishing amount.",
+        "Time the actual stove water heating and assess four original side portions."
+      ]
+    },
+    {
+      "category": "peer-applied correction",
+      "location": "Directions step 1 final sentence",
+      "before": "The saved 7–8 minutes is a first check for suitable wide egg noodles, not every brand.",
+      "after": "For wide egg noodles with a similar package time, start checking at 7–8 minutes; other shapes or brands may need a different time.",
+      "rationale": "Exact narrow public cooking-prose correction from completed challenge; no quantities or method safety changed.",
+      "source": "retained-private-evidence",
+      "confidence": "High exact-text/internal-accounting evidence; kitchen applicability questions remain",
+      "unresolvedQuestions": [
+        "Check preferred wide-noodle brand and kosher-salt brand with the full measured finishing amount.",
+        "Time the actual stove water heating and assess four original side portions."
+      ],
+      "acceptance": "Applied at root instruction; root inspection pending"
+    },
+    {
+      "category": "origin",
+      "before": "American",
+      "after": null,
+      "rationale": "American is a style/demonym, and no geographic origin is established. It is already present in the first fd4f recipe, not a later 2a7 addition. Preserve current American/Eastern European cuisine tags and all culinary fields; do not invent national/family authorship.",
+      "source": [
+        {
+          "path": "docs/RECIPE_STANDARD.md",
+          "applicability": "Do not invent origins; preserve source and family attribution"
+        },
+        {
+          "path": "retained-private-evidence",
+          "applicability": "Exact saved formula and source metadata, not a geographic-origin certification"
+        },
+        {
+          "path": "retained-private-evidence",
+          "applicability": "Exact origin introduction and later persistence; persistence does not prove geographical evidence"
+        }
+      ],
+      "confidence": "high for metadata/history and warranted omission under retained evidence; no claim that another origin has been disproved",
+      "unresolvedQuestions": [
+        "If retaining a geographic country claim, provide exact recipe-specific evidence rather than infer from style, publisher or author location."
+      ]
+    }
+  ],
+  "changedFieldNames": [
+    "origin",
+    "prepTime",
+    "cookTime",
+    "totalTime",
+    "ingredients",
+    "nutrition",
+    "equipment",
+    "learning",
+    "content"
+  ],
+  "changedFields": {
+    "origin": {
+      "before": "American",
+      "after": null
+    },
+    "prepTime": {
+      "before": "2 min",
+      "after": "About 5 min active"
+    },
+    "cookTime": {
+      "before": "10 min",
+      "after": "About 10 min, plus water heating"
+    },
+    "totalTime": {
+      "before": "12 min",
+      "after": "About 15–25 min"
+    },
+    "ingredients": {
+      "before": [
+        "12 oz Wide Egg Noodles",
+        "3 tbsp Unsalted Butter",
+        "1 tsp Kosher Salt (plus more for pasta water)",
+        "1/4 tsp Black Pepper",
+        "2 tbsp Fresh Parsley, chopped (optional)",
+        "1/4 cup Reserved Pasta Water"
+      ],
+      "after": [
+        "12 oz Wide Egg Noodles",
+        "3 tbsp Unsalted Butter",
+        "1 tsp Kosher Salt (plus more for pasta water)",
+        "1/4 tsp Black Pepper",
+        "2 tbsp Fresh Parsley, chopped (optional)",
+        "1/4 cup Reserved Pasta Water",
+        "Water, as needed for boiling noodles"
+      ]
+    },
+    "nutrition": {
+      "before": {
+        "calories": 590,
+        "protein": 18,
+        "carbs": 99.5,
+        "fat": 15.5,
+        "fiber": 5,
+        "sugar": 1.5,
+        "sodium": 970
+      },
+      "after": null
+    },
+    "equipment": {
+      "before": null,
+      "after": ["large-pot", "colander", "measuring-cup"]
+    },
+    "learning": {
+      "before": null,
+      "after": {
+        "focus": "Coat tender noodles while they are still hot",
+        "outcome": "Wide egg noodles with a glossy butter coating and optional fresh parsley.",
+        "techniques": ["starch", "emulsions"],
+        "before": [
+          "The listed salt includes a measured finishing amount plus an unmeasured allowance for the cooking water. They have separate destinations.",
+          "For a larger batch, use a pot with room for the noodles to move or cook separate batches; reserve the listed water across those batches and divide all the butter and seasoning among them. Heating and cooking times do not multiply with servings."
+        ],
+        "checkpoints": [
+          {
+            "step": 1,
+            "cue": "The noodles are tender with no hard center.",
+            "why": "Package shape and thickness affect the useful first-check time."
+          },
+          {
+            "step": 3,
+            "cue": "All butter has melted and the coating is glossy.",
+            "why": "Hot noodles, starchy water and tossing distribute the butter."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Butter pools beneath the noodles.",
+            "cause": "The noodles cooled or the coating was not tossed together.",
+            "fix": "Return briefly to low heat and toss with the already reserved water, stopping before the noodles dry out."
+          }
+        ],
+        "storage": "Refrigerate promptly in a shallow covered container at 40°F / 4°C or below. Limit time out to 2 hours, or 1 hour above 90°F / 32°C. Use refrigerated leftovers within 3–4 days. Reheat to 165°F / 74°C; the noodles will soften further.",
+        "timing": "About 15–25 min includes preparation, heating and cooking; larger batches and product directions can add time.",
+        "sources": [
+          {
+            "title": "FoodSafety.gov — Four steps to food safety",
+            "url": "https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety"
+          },
+          {
+            "title": "USDA — Handling leftovers safely",
+            "url": "https://ask.fsis.usda.gov/article/How-do-I-handle-leftovers-safely"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-05"
+        }
+      }
+    },
+    "content": {
+      "before": "\n## Chef's Note\n\nButtered egg noodles are the ultimate comfort base -- the kind of thing your grandmother made without a recipe. Wide egg noodles have a tender, slightly chewy texture that cradles butter and sauce better than any Italian pasta. The secret is tossing the hot noodles with butter and a splash of starchy pasta water, which emulsifies into a silky coating rather than a greasy puddle. This is meant to be a supporting player: simple, satisfying, and ready in the time it takes to boil water.\n\n## Directions\n\n1.  **Boil:** Bring a large pot of generously salted water to a rolling boil. The water should taste like the sea. Add egg noodles and cook according to package directions until al dente, usually 7-8 minutes.\n\n2.  **Reserve Water:** Before draining, scoop out 1/4 cup of the starchy pasta water and set aside.\n\n3.  **Drain and Toss:** Drain the noodles and return them to the pot over low heat. Add butter in pieces, reserved pasta water, salt, and pepper. Toss vigorously for 30-60 seconds until the butter melts and emulsifies with the starchy water into a glossy coating on every noodle.\n\n4.  **Serve:** Transfer to a warm serving bowl, scatter with parsley if using, and serve immediately alongside braises, stews, or saucy mains.\n",
+      "after": "\n## Chef's Note\n\nWide egg noodles soften quickly, so use their package time as a first check. Save the measured pasta water before draining, then toss the hot noodles with all the butter over low heat. The starch in the water helps the melted butter spread over the noodles instead of pooling at the bottom.\n\n## Directions\n\n1. **Boil:** Bring enough water for the noodles to move freely to a rolling boil in a large pot. Salt the cooking water using the extra salt allowance; keep the measured finishing salt separate. Add the noodles and cook according to the package, checking for tender noodles with a little resistance rather than a hard center. For wide egg noodles with a similar package time, start checking at 7–8 minutes; other shapes or brands may need a different time.\n\n2. **Reserve water:** Before draining, scoop out the measured reserved pasta water.\n\n3. **Drain and toss:** Drain and return the hot noodles to the pot over low heat. Add all the butter in pieces, the measured reserved water, finishing salt and pepper. Toss for about 30–60 seconds, until the butter has melted and the noodles look glossy. Keep the heat low enough that they do not stick or dry out.\n\n4. **Serve:** Scatter with the measured parsley if using and serve promptly alongside braises, stews or saucy mains.\n\n## Cooking Notes\n\nThe listed salt includes a measured finishing amount plus an unmeasured allowance for the cooking water. They have separate destinations.\n\nFor a larger batch, use a pot with room for the noodles to move or cook separate batches; reserve the listed water across those batches and divide all the butter and seasoning among them. Heating and cooking times do not multiply with servings.\n\nAbout 15–25 min includes preparation, heating and cooking; larger batches and product directions can add time.\n\nRefrigerate promptly in a shallow covered container at 40°F / 4°C or below. Limit time out to 2 hours, or 1 hour above 90°F / 32°C. Use refrigerated leftovers within 3–4 days. Reheat to 165°F / 74°C; the noodles will soften further.\n"
+    }
+  },
+  "ratioYieldCapacity": {
+    "servings": "4",
+    "capacity": [
+      "The listed salt includes a measured finishing amount plus an unmeasured allowance for the cooking water. They have separate destinations.",
+      "For a larger batch, use a pot with room for the noodles to move or cook separate batches; reserve the listed water across those batches and divide all the butter and seasoning among them. Heating and cooking times do not multiply with servings."
+    ],
+    "precision": "Original planning portions, no measured cooked yield or pan dimensions invented."
+  },
+  "processTiming": {
+    "prepTime": "About 5 min active",
+    "cookTime": "About 10 min, plus water heating",
+    "totalTime": "About 15–25 min"
+  },
+  "checkpoints": [
+    {
+      "step": 1,
+      "cue": "The noodles are tender with no hard center.",
+      "why": "Package shape and thickness affect the useful first-check time."
+    },
+    {
+      "step": 3,
+      "cue": "All butter has melted and the coating is glossy.",
+      "why": "Hot noodles, starchy water and tossing distribute the butter."
+    }
+  ],
+  "storage": "Refrigerate promptly in a shallow covered container at 40°F / 4°C or below. Limit time out to 2 hours, or 1 hour above 90°F / 32°C. Use refrigerated leftovers within 3–4 days. Reheat to 165°F / 74°C; the noodles will soften further.",
+  "learningTiming": "About 15–25 min includes preparation, heating and cooking; larger batches and product directions can add time.",
+  "relationships": {
+    "pairsWith": ["chicken-marsala", "classic-beef-stew", "chicken-coq-au-vin"],
+    "incomingMeals": [],
+    "scope": "Linked recipes and meal schedules do not gain review status.",
+    "rootAssessment": "Bibimbap Night and Korean BBQ Night were read whole. Their runny-egg instruction, held kimchi and compressed preparation/grill schedules need separate reconciliation; this batch gives them no approval or review credit."
+  },
+  "kitchenQuestions": [
+    "Check preferred wide-noodle brand and kosher-salt brand with the full measured finishing amount.",
+    "Time the actual stove water heating and assess four original side portions."
+  ],
+  "sourceApplicability": "# Source scope and bounded evidence\n\nThese are proposed full editorial reviews, pending peer/root acceptance. No physical cooking or native-app sync occurred. Exact committed originals and complete later diffs are retained in this directory; native export lineage is not established by title and is not certified.\n\n- Buttered noodles: exact first Git fd4f07a836d811739118df904c5e6cc8b1fd593e establishes the recipe. Package cooking governs the actual noodle product. The starch/water/butter coating explanation is an established culinary mechanism, not a USDA recipe endorsement. USDA/FoodSafety.gov applies only to perishable leftovers, cold holding and reheating.\n- Steel-cut oats: exact first Git045e5ba276b560e4f7d3d485b4860f610d295bac and exact2f2553cdfdbb0ab775b3018274db9820ab42606a show the additional tablespoon lost in a batch rewrite. Subsequent source history has no explicit household decision supporting its removal. The restored total is 9 tablespoons = ½ cup +1 tablespoon. Saved half/half allocation means4½ tablespoons during dairy cooking and4½ at finish in the original batch; structured shares preserve this at every factor. Current Alton Brown primary https://altonbrown.com/recipes/buttermilk-steel-cut-oats-recipe/ corroborates total, butter, milk and toast/simmer mechanism, but allocates8 tablespoons cooking and1 tablespoon finishing. This proposal preserves the saved allocation and does not silently substitute the publisher's different split. No quoted publisher prose or nutritional claims were imported. Toasting creates flavor, not a protective seal. Water heating/brand/evaporation remain kitchen questions.\n- Blueberry/date oats: first exact Git045e5ba2 and full history show malformed water/date ingredient line, microwave OR stove routes and all-or-part milk/additional liquid option. Later batch rewrite introduced current Medjool specificity; that quantity/state is retained, not normalized. No exact Kids Eat in Color publisher recipe was established. Current attribution remains collection attribution, not formula proof. Actual frozen-product preparation labels must be read by the cook; neither FDA general produce guidance nor a residual-heat thaw certifies a particular frozen product ready to eat. FDA supports produce handling; USDA applies to storage/reheating. No universal all-frozen-berries cooking requirement asserted.\n- Soybean sprouts: existing accepted ee9c7078 targeted repair and exact Git12816aa2 mild formula retained. Maangchi's covered-cooking method supplies context but her chili/fish-sauce versions do not replace this recipe. UC ANR8151 https://ucanr.edu/sites/default/files/2024-02/393187.pdf gives general cooked-sprout advice with principal mung-bean examples. Applying above165°F alongside steaming-hot-throughout to soybean sprouts is conservative accepted guidance; it does not validate a ten-minute pot process or promise pathogen elimination. FDA's higher-risk caution applies to raw/lightly cooked sprouts. No rinsing invention from the held kimchi recipe.\n- Korean spinach: actual Sue Pressey primary https://mykoreankitchen.com/simply-seasoned-korean-spinach-salad-sigeumchi-namul-version-1/ corroborates ingredient identities/amounts, brief blanch followed by cold rinse, gentle squeeze and dressing. Existing accepted salt-density/allocation repairs remain. Cold-water allowance is method water, not a new measured dressing ingredient. FoodSafety.gov applies to holding, not a requirement to reheat cold banchan.\n- Broccoli all'Agro: exact first committed recipe and later complete history establish the saved dressing/count/florets-only/rating. Saved Paprika remains attribution; it does not prove a geographical origin or a native archive binding. General produce guidance supports washing, not the exact fork endpoint or six-portion estimate. Established steaming and draining mechanisms support sensory cues; actual head size is unmeasured. USDA cold handling applies to the perishable whole dish. Lemon is not evidence for room-temperature garlic/oil preservation.\n\nAll sources are applied within the listed scope. Planning ranges and sensory endpoints are editorial guidance, not measured kitchen results. Existing source links and pairings remain; linked dishes and meal schedules do not gain approval.\n",
+  "sourceFetchGaps": [
+    "No named external publisher formula; exact Git evidence, not title-only native archive attribution."
+  ],
+  "confidenceAndLimits": "High exact quantities, source bytes and scoped peer corrections; untested timing, sensory texture, capacity and portions remain questions. Primary safety guidance does not certify formula or remove all risk.",
+  "scalingAndReset": [
+    {
+      "factor": 0.5,
+      "ingredients": [
+        "6 oz Wide Egg Noodles",
+        "1 1/2 tbsp Unsalted Butter",
+        "1/2 tsp Kosher Salt (plus more for pasta water)",
+        "1/8 tsp Black Pepper",
+        "1 tbsp Fresh Parsley, chopped (optional)",
+        "1/8 cup Reserved Pasta Water",
+        "Water, as needed for boiling noodles"
+      ],
+      "yield": "4"
+    },
+    {
+      "factor": 1,
+      "ingredients": [
+        "12 oz Wide Egg Noodles",
+        "3 tbsp Unsalted Butter",
+        "1 tsp Kosher Salt (plus more for pasta water)",
+        "1/4 tsp Black Pepper",
+        "2 tbsp Fresh Parsley, chopped (optional)",
+        "1/4 cup Reserved Pasta Water",
+        "Water, as needed for boiling noodles"
+      ],
+      "yield": "4"
+    },
+    {
+      "factor": 2,
+      "ingredients": [
+        "24 oz Wide Egg Noodles",
+        "6 tbsp Unsalted Butter",
+        "2 tsp Kosher Salt (plus more for pasta water)",
+        "1/2 tsp Black Pepper",
+        "4 tbsp Fresh Parsley, chopped (optional)",
+        "1/2 cup Reserved Pasta Water",
+        "Water, as needed for boiling noodles"
+      ],
+      "yield": "4"
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "12 oz Wide Egg Noodles",
+        "3 tbsp Unsalted Butter",
+        "1 tsp Kosher Salt (plus more for pasta water)",
+        "1/4 tsp Black Pepper",
+        "2 tbsp Fresh Parsley, chopped (optional)",
+        "1/4 cup Reserved Pasta Water",
+        "Water, as needed for boiling noodles"
+      ],
+      "yield": "4"
+    }
+  ],
+  "validation": {
+    "slug": "buttered-egg-noodles",
+    "currentSourceSha256": "f5ca4e79f44dcfa378606cb24229b2d073cb1b09e547d8892187f781aa3c9407",
+    "frozenSha256": "f5ca4e79f44dcfa378606cb24229b2d073cb1b09e547d8892187f781aa3c9407",
+    "candidateSha256": "a31542029197f9afff0ffb601ed3a069b36d42a46f2a5321f72eb19bcf682ec9",
+    "recordSha256": "be8ffe0d0f0ff15983898e63ee5d8aa6dbfb13522d3947fcffbabbc81dd67156",
+    "actualCurrentContentSchema": true,
+    "protectedFieldsPreserved": true,
+    "exactFieldSetAndValues": true,
+    "sourceGitBytesExact": true,
+    "completeIngredientLedger": true,
+    "priorPeerReverseBytesExact": true,
+    "unchangedChallengeHash": false,
+    "preservedAcceptedStepBytes": null,
+    "formulaParity": false,
+    "scaleHalfOriginalDoubleReset": true,
+    "triage": {
+      "slug": "buttered-egg-noodles",
+      "title": "Buttered Egg Noodles",
+      "status": "editorial-review",
+      "stepCount": 4,
+      "issues": []
+    },
+    "physicalCooking": false
+  },
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/boiled-six-sources.json",
+  "rootIntegrationRequirements": [],
+  "proposedSha256": "c3a6037e07394497ae319df3cac540a760bbb652dd10cdf1806b05105e25c601",
+  "rootMetadataCorrections": {
+    "priorCandidateSha256": "a31542029197f9afff0ffb601ed3a069b36d42a46f2a5321f72eb19bcf682ec9",
+    "correctedCandidateSha256": "c3a6037e07394497ae319df3cac540a760bbb652dd10cdf1806b05105e25c601",
+    "independentReportSha256": "17a435c52b2139a7ef5d75a1f210aee78612bed5e066772ecaeecd4dfd5388b1",
+    "changes": [
+      {
+        "category": "origin",
+        "before": "American",
+        "after": null,
+        "rationale": "American is a style/demonym, and no geographic origin is established. It is already present in the first fd4f recipe, not a later 2a7 addition. Preserve current American/Eastern European cuisine tags and all culinary fields; do not invent national/family authorship.",
+        "source": [
+          {
+            "path": "docs/RECIPE_STANDARD.md",
+            "applicability": "Do not invent origins; preserve source and family attribution"
+          },
+          {
+            "path": "retained-private-evidence",
+            "applicability": "Exact saved formula and source metadata, not a geographic-origin certification"
+          },
+          {
+            "path": "retained-private-evidence",
+            "applicability": "Exact origin introduction and later persistence; persistence does not prove geographical evidence"
+          }
+        ],
+        "confidence": "high for metadata/history and warranted omission under retained evidence; no claim that another origin has been disproved",
+        "unresolvedQuestions": [
+          "If retaining a geographic country claim, provide exact recipe-specific evidence rather than infer from style, publisher or author location."
+        ]
+      },
+      {
+        "category": "evidence scope",
+        "location": "findings.0.source",
+        "before": [
+          {
+            "title": "FoodSafety.gov — Four steps to food safety",
+            "url": "https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety"
+          },
+          {
+            "title": "USDA — Handling leftovers safely",
+            "url": "https://ask.fsis.usda.gov/article/How-do-I-handle-leftovers-safely"
+          }
+        ],
+        "after": [
+          {
+            "title": "Exact saved committed recipe",
+            "path": "retained-private-evidence",
+            "sha256": "1924fc78f39930da25e5af9dbb5e87955ecfc087022fe6e8c88afca1fe0713ba",
+            "applicability": "Exact fd4f recipe and frozen current establish 12 oz noodles, 3 tbsp butter, finishing salt/pepper, optional parsley and ¼ cup reserved water. The boiling-water allowance follows the actual method, not an FDA formula endorsement."
+          },
+          {
+            "title": "Exact frozen current and full actual Git history",
+            "paths": ["retained-private-evidence", "retained-private-evidence"],
+            "applicability": "Establishes existing state/allocations/variants and inherited repairs; source changes are not kitchen tests."
+          },
+          {
+            "type": "editorial culinary inference",
+            "basis": "Exact saved/current methods and ingredient-state/process graph",
+            "applicability": "Glossy hot-noodle/butter/starchy-water coating, product checks and pot headroom are practical culinary guidance. No experiment or package-independent cooking-time guarantee is supplied.",
+            "confidence": "moderate for untested sensory/load guidance"
+          },
+          {
+            "type": "editorial planning inference",
+            "basis": "Named heat-up/prep/cook/drain/finish dependencies in this recipe",
+            "applicability": "15–25 min is editorial planning from preparation, water heating, package noodle cooking and the 30–60-second toss; fd4f originally says 12 min. Actual stove, product and load can extend it; FDA/USDA does not validate this clock.",
+            "confidence": "moderate; actual elapsed and active times unmeasured"
+          },
+          {
+            "title": "FoodSafety.gov — handling scope only",
+            "url": "https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety",
+            "applicability": "Clean handling, prompt shallow cold holding at 40°F, two-hour limit/one hour above 90°F as applicable. Not culinary formula, yield, cooking clock or mandatory reheating ofcold banchan."
+          },
+          {
+            "title": "USDA — leftover scope only",
+            "url": "https://ask.fsis.usda.gov/article/How-do-I-handle-leftovers-safely",
+            "applicability": "General perishable leftovers cold holding/use/reheating guidance; not validation of amounts, original yield, emulsion, sensory endpoint or first-cook elapsed range. Existing shorter quality notes remain distinct from tested shelf life."
+          }
+        ],
+        "rationale": "Separate saved-formula/current-process/publisher comparison/culinary planning from the specifically applicable handling guidance. Source arrays must not imply all citations establish every claim.",
+        "confidence": "high for source-scope distinction; underlying culinary/timing conclusions are not self-accepted"
+      },
+      {
+        "category": "evidence scope",
+        "location": "findings.1.source",
+        "before": [
+          {
+            "title": "FoodSafety.gov — Four steps to food safety",
+            "url": "https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety"
+          },
+          {
+            "title": "USDA — Handling leftovers safely",
+            "url": "https://ask.fsis.usda.gov/article/How-do-I-handle-leftovers-safely"
+          }
+        ],
+        "after": [
+          {
+            "title": "Exact saved committed recipe",
+            "path": "retained-private-evidence",
+            "sha256": "1924fc78f39930da25e5af9dbb5e87955ecfc087022fe6e8c88afca1fe0713ba",
+            "applicability": "Exact fd4f recipe and frozen current establish 12 oz noodles, 3 tbsp butter, finishing salt/pepper, optional parsley and ¼ cup reserved water. The boiling-water allowance follows the actual method, not an FDA formula endorsement."
+          },
+          {
+            "title": "Exact frozen current and full actual Git history",
+            "paths": ["retained-private-evidence", "retained-private-evidence"],
+            "applicability": "Establishes existing state/allocations/variants and inherited repairs; source changes are not kitchen tests."
+          }
+        ],
+        "rationale": "Quantities/restoration and ingredient destinations come from exact recipe/Git evidence; general safety sources do not establish these formula claims.",
+        "confidence": "high for source-scope distinction; underlying culinary/timing conclusions are not self-accepted"
+      },
+      {
+        "category": "evidence scope",
+        "location": "findings.3.source",
+        "before": [
+          {
+            "title": "FoodSafety.gov — Four steps to food safety",
+            "url": "https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety"
+          },
+          {
+            "title": "USDA — Handling leftovers safely",
+            "url": "https://ask.fsis.usda.gov/article/How-do-I-handle-leftovers-safely"
+          }
+        ],
+        "after": [
+          {
+            "title": "Exact saved committed recipe",
+            "path": "retained-private-evidence",
+            "sha256": "1924fc78f39930da25e5af9dbb5e87955ecfc087022fe6e8c88afca1fe0713ba",
+            "applicability": "Exact fd4f recipe and frozen current establish 12 oz noodles, 3 tbsp butter, finishing salt/pepper, optional parsley and ¼ cup reserved water. The boiling-water allowance follows the actual method, not an FDA formula endorsement."
+          },
+          {
+            "title": "Exact frozen current and full actual Git history",
+            "paths": ["retained-private-evidence", "retained-private-evidence"],
+            "applicability": "Establishes existing state/allocations/variants and inherited repairs; source changes are not kitchen tests."
+          },
+          {
+            "type": "editorial culinary inference",
+            "basis": "Exact saved/current methods and ingredient-state/process graph",
+            "applicability": "Glossy hot-noodle/butter/starchy-water coating, product checks and pot headroom are practical culinary guidance. No experiment or package-independent cooking-time guarantee is supplied.",
+            "confidence": "moderate for untested sensory/load guidance"
+          },
+          {
+            "type": "editorial planning inference",
+            "basis": "Named heat-up/prep/cook/drain/finish dependencies in this recipe",
+            "applicability": "15–25 min is editorial planning from preparation, water heating, package noodle cooking and the 30–60-second toss; fd4f originally says 12 min. Actual stove, product and load can extend it; FDA/USDA does not validate this clock.",
+            "confidence": "moderate; actual elapsed and active times unmeasured"
+          },
+          {
+            "title": "FoodSafety.gov — handling scope only",
+            "url": "https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety",
+            "applicability": "Clean handling, prompt shallow cold holding at 40°F, two-hour limit/one hour above 90°F as applicable. Not culinary formula, yield, cooking clock or mandatory reheating ofcold banchan."
+          },
+          {
+            "title": "USDA — leftover scope only",
+            "url": "https://ask.fsis.usda.gov/article/How-do-I-handle-leftovers-safely",
+            "applicability": "General perishable leftovers cold holding/use/reheating guidance; not validation of amounts, original yield, emulsion, sensory endpoint or first-cook elapsed range. Existing shorter quality notes remain distinct from tested shelf life."
+          }
+        ],
+        "rationale": "Separate saved-formula/current-process/publisher comparison/culinary planning from the specifically applicable handling guidance. Source arrays must not imply all citations establish every claim.",
+        "confidence": "high for source-scope distinction; underlying culinary/timing conclusions are not self-accepted"
+      },
+      {
+        "category": "evidence scope",
+        "location": "findings.4.source",
+        "before": [
+          {
+            "title": "FoodSafety.gov — Four steps to food safety",
+            "url": "https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety"
+          },
+          {
+            "title": "USDA — Handling leftovers safely",
+            "url": "https://ask.fsis.usda.gov/article/How-do-I-handle-leftovers-safely"
+          }
+        ],
+        "after": [
+          {
+            "title": "Exact frozen current and full actual Git history",
+            "paths": ["retained-private-evidence", "retained-private-evidence"],
+            "applicability": "15–25 min is editorial planning from preparation, water heating, package noodle cooking and the 30–60-second toss; fd4f originally says 12 min. Actual stove, product and load can extend it; FDA/USDA does not validate this clock."
+          },
+          {
+            "type": "editorial planning inference",
+            "basis": "Named heat-up/prep/cook/drain/finish dependencies in this recipe",
+            "applicability": "15–25 min is editorial planning from preparation, water heating, package noodle cooking and the 30–60-second toss; fd4f originally says 12 min. Actual stove, product and load can extend it; FDA/USDA does not validate this clock.",
+            "confidence": "moderate; actual elapsed and active times unmeasured"
+          }
+        ],
+        "rationale": "New planning range is editorial dependency inference, not a time published or validated by FDA/USDA.",
+        "confidence": "high for source-scope distinction; underlying culinary/timing conclusions are not self-accepted"
+      }
+    ],
+    "scope": "Bounded root metadata/evidence corrections and routine timing copy editing; original author and peer checkpoints retained. Whole root acceptance still pending."
+  },
+  "acceptedSourceSha256": "c3a6037e07394497ae319df3cac540a760bbb652dd10cdf1806b05105e25c601",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/boiled-six-independent.md",
+  "integrationInputCommit": "7eec1146b5f7bd65495c750a8312303d8d9d5b83",
+  "rootWholeInspection": "Complete current, exact first Git, proposed recipes and every actual cooking history inspected. All ingredient preparation/state/allocation/method destinations, full richness and variants, ratios, original planning portions, pan headroom, heat and sensory endpoints, active/elapsed timing, optional chilling, storage, scaling and linked meals inspected. Six complete bounded byte reversals and four prior peer reversals passed; two original independently inspected candidate hashes remain unchanged before the bounded corrections. Exact private native archive lineage is not established for these recipes; retained exact Git sources remain authoritative evidence.",
+  "rootSourceEvidence": {
+    "firstGit": "https://github.com/jsilton/mise/blob/fd4f07a836d811739118df904c5e6cc8b1fd593e/src/content/recipes/buttered-egg-noodles.md",
+    "savedSha256": "1924fc78f39930da25e5af9dbb5e87955ecfc087022fe6e8c88afca1fe0713ba",
+    "actualHistorySha256": "433d6b09a475e5272cc01da8ba1b104c29b971c1c0fd635dc0c728e75d534ff8",
+    "historyArtifactHeaderBytesDiffer": true,
+    "completeActualCommitSetsAndDiffBodiesMatch": true,
+    "priorRepairCommit": null,
+    "sourceScope": "Exact Git/formula and publisher disagreements support culinary choices. FDA/USDA support only applicable handling and leftover guidance; untested planning, capacity and sensory judgments remain explicitly editorial inference."
+  },
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 32,
+    "targetedLint": "Six pass; zero errors and one pre-existing missing-pairing warning. No invented pairing added.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 11898,
+    "missingDestinations": 0,
+    "exports": "All three exports match643 current recipe sources",
+    "privateBindings": "643 complete stable bindings verified; no replacement identities",
+    "privacy": "Published assets and public evidence pass",
+    "renderedRecipes": 6,
+    "visibleMethodSteps": 30,
+    "scaledIngredientDisplays": 144,
+    "scaledYieldDisplays": 18,
+    "scaleFactors": [0.5, 2, 1],
+    "mobileWidth": 375,
+    "noOverflow": true,
+    "cooking": "All six ingredient/step checks persist after reload and reentry; normal mode on reload; reset and exit pass",
+    "shopping": "Oatmeal2× shows18 tbsp total buttermilk; both method stages use half the listed total",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "Controls enabled; shared styles unchanged; print preview unverified",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

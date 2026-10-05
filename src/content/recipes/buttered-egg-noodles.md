@@ -1,7 +1,6 @@
 ---
 miseId: 330875cd-7a5a-4b9a-b26d-8bef17585e90
 title: Buttered Egg Noodles
-origin: American
 difficulty: easy
 cookingMethods:
   - boil
@@ -25,9 +24,9 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
-prepTime: 2 min
-cookTime: 10 min
-totalTime: 12 min
+prepTime: About 5 min active
+cookTime: 'About 10 min, plus water heating'
+totalTime: About 15–25 min
 servings: '4'
 pairsWith:
   - chicken-marsala
@@ -40,26 +39,77 @@ ingredients:
   - 1/4 tsp Black Pepper
   - '2 tbsp Fresh Parsley, chopped (optional)'
   - 1/4 cup Reserved Pasta Water
-nutrition:
-  calories: 590
-  protein: 18
-  carbs: 99.5
-  fat: 15.5
-  fiber: 5
-  sugar: 1.5
-  sodium: 970
+  - 'Water, as needed for boiling noodles'
+equipment:
+  - large-pot
+  - colander
+  - measuring-cup
+learning:
+  focus: Coat tender noodles while they are still hot
+  outcome: Wide egg noodles with a glossy butter coating and optional fresh parsley.
+  techniques:
+    - starch
+    - emulsions
+  before:
+    - >-
+      The listed salt includes a measured finishing amount plus an unmeasured
+      allowance for the cooking water. They have separate destinations.
+    - >-
+      For a larger batch, use a pot with room for the noodles to move or cook
+      separate batches; reserve the listed water across those batches and divide
+      all the butter and seasoning among them. Heating and cooking times do not
+      multiply with servings.
+  checkpoints:
+    - step: 1
+      cue: The noodles are tender with no hard center.
+      why: Package shape and thickness affect the useful first-check time.
+    - step: 3
+      cue: All butter has melted and the coating is glossy.
+      why: 'Hot noodles, starchy water and tossing distribute the butter.'
+  troubleshooting:
+    - problem: Butter pools beneath the noodles.
+      cause: The noodles cooled or the coating was not tossed together.
+      fix: >-
+        Return briefly to low heat and toss with the already reserved water,
+        stopping before the noodles dry out.
+  storage: >-
+    Refrigerate promptly in a shallow covered container at 40°F / 4°C or below.
+    Limit time out to 2 hours, or 1 hour above 90°F / 32°C. Use refrigerated
+    leftovers within 3–4 days. Reheat to 165°F / 74°C; the noodles will soften
+    further.
+  timing: >-
+    About 15–25 min includes preparation, heating and cooking; larger batches
+    and product directions can add time.
+  sources:
+    - title: FoodSafety.gov — Four steps to food safety
+      url: 'https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety'
+    - title: USDA — Handling leftovers safely
+      url: 'https://ask.fsis.usda.gov/article/How-do-I-handle-leftovers-safely'
+  review:
+    status: editorial-review
+    date: '2026-10-05'
 ---
 
 ## Chef's Note
 
-Buttered egg noodles are the ultimate comfort base -- the kind of thing your grandmother made without a recipe. Wide egg noodles have a tender, slightly chewy texture that cradles butter and sauce better than any Italian pasta. The secret is tossing the hot noodles with butter and a splash of starchy pasta water, which emulsifies into a silky coating rather than a greasy puddle. This is meant to be a supporting player: simple, satisfying, and ready in the time it takes to boil water.
+Wide egg noodles soften quickly, so use their package time as a first check. Save the measured pasta water before draining, then toss the hot noodles with all the butter over low heat. The starch in the water helps the melted butter spread over the noodles instead of pooling at the bottom.
 
 ## Directions
 
-1.  **Boil:** Bring a large pot of generously salted water to a rolling boil. The water should taste like the sea. Add egg noodles and cook according to package directions until al dente, usually 7-8 minutes.
+1. **Boil:** Bring enough water for the noodles to move freely to a rolling boil in a large pot. Salt the cooking water using the extra salt allowance; keep the measured finishing salt separate. Add the noodles and cook according to the package, checking for tender noodles with a little resistance rather than a hard center. For wide egg noodles with a similar package time, start checking at 7–8 minutes; other shapes or brands may need a different time.
 
-2.  **Reserve Water:** Before draining, scoop out 1/4 cup of the starchy pasta water and set aside.
+2. **Reserve water:** Before draining, scoop out the measured reserved pasta water.
 
-3.  **Drain and Toss:** Drain the noodles and return them to the pot over low heat. Add butter in pieces, reserved pasta water, salt, and pepper. Toss vigorously for 30-60 seconds until the butter melts and emulsifies with the starchy water into a glossy coating on every noodle.
+3. **Drain and toss:** Drain and return the hot noodles to the pot over low heat. Add all the butter in pieces, the measured reserved water, finishing salt and pepper. Toss for about 30–60 seconds, until the butter has melted and the noodles look glossy. Keep the heat low enough that they do not stick or dry out.
 
-4.  **Serve:** Transfer to a warm serving bowl, scatter with parsley if using, and serve immediately alongside braises, stews, or saucy mains.
+4. **Serve:** Scatter with the measured parsley if using and serve promptly alongside braises, stews or saucy mains.
+
+## Cooking Notes
+
+The listed salt includes a measured finishing amount plus an unmeasured allowance for the cooking water. They have separate destinations.
+
+For a larger batch, use a pot with room for the noodles to move or cook separate batches; reserve the listed water across those batches and divide all the butter and seasoning among them. Heating and cooking times do not multiply with servings.
+
+About 15–25 min includes preparation, heating and cooking; larger batches and product directions can add time.
+
+Refrigerate promptly in a shallow covered container at 40°F / 4°C or below. Limit time out to 2 hours, or 1 hour above 90°F / 32°C. Use refrigerated leftovers within 3–4 days. Reheat to 165°F / 74°C; the noodles will soften further.

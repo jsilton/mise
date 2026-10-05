@@ -165,6 +165,21 @@
       "balsamic-peach-pork",
       "grilled-pork-and-peaches",
       "chipotle-pork-and-sweet-corn-tamale-bowls"
+    ],
+    "beans_lentils_01": [
+      "braised-french-lentils",
+      "jeris-lentil-soup",
+      "pizza-beans",
+      "sausage-and-white-bean-skillet",
+      "smoky-spanish-rice-and-chickpeas"
+    ],
+    "creamy_pasta_mains_01": [
+      "baked-creamy-mac-and-pimento-cheese",
+      "creamy-avocado-pasta",
+      "creamy-whole-wheat-mac-and-cheese",
+      "real-alfredo-sauce",
+      "shrimp-fettuccine-alfredo",
+      "spaghetti-and-spinach-with-sun-dried-tomato-cream-sauce"
     ]
   },
   "recipes": [
@@ -408,8 +423,8 @@
       "title": "Baked Creamy Macaroni and Pimento Cheese",
       "source": "Adapted from Rebecca Crump",
       "sourceUrl": "http://www.ezrapoundcake.com/archives/26010",
-      "group": null,
-      "status": "queued",
+      "group": "creamy_pasta_mains_01",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -417,7 +432,9 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "e0d4835a97f09e08f1c3270615083d68a13b6c5390f1f69fd0955959d0a642fd",
-      "plannedBatch": "baked-savory-and-breads-01"
+      "plannedBatch": "baked-savory-and-breads-01",
+      "assignmentInputCommit": "7eec1146b5f7bd65495c750a8312303d8d9d5b83",
+      "assignmentInputSha256": "e0d4835a97f09e08f1c3270615083d68a13b6c5390f1f69fd0955959d0a642fd"
     },
     {
       "slug": "bakery-style-chocolate-chip-muffins",
@@ -451,7 +468,7 @@
       "source": "Adapted from halfbakedharvest.com",
       "sourceUrl": "https://www.halfbakedharvest.com/skillet-balsamic-peach-pork-chops/",
       "group": "pork_tenderloin_mains_01",
-      "status": "assigned",
+      "status": "proposed",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -459,7 +476,9 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "22532690897bf7e270f728ed105127e577af59133752f6bd7db780091bc6e6d9",
-      "plannedBatch": "baked-savory-and-breads-01"
+      "plannedBatch": "baked-savory-and-breads-01",
+      "proposedSourceSha256": "02b4ec5bb17f82fd8ca764f15ed5a9afeb62b2fa1609255af70fa51530add0a1",
+      "reviewPhase": "Whole independent challenge corrections privately applied and frozen; complete final root inspection pending."
     },
     {
       "slug": "banana-egg-oat-pancakes",
@@ -767,17 +786,22 @@
       "source": "Adapted from Kids Eat in Color",
       "sourceUrl": null,
       "group": "boiled_grains_vegetables_01",
-      "status": "proposed",
+      "status": "accepted",
       "reviewEvidence": [
-        "private whole-recipe boiled_grains_vegetables_01 proposal/record; independent/root gate required"
+        "private whole-recipe boiled_grains_vegetables_01 proposal/record; independent/root gate required",
+        "docs/reviews/blueberry-date-oatmeal.md",
+        "docs/editorial-campaign/2026-10-05/boiled-six-independent.md"
       ],
-      "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
+      "automatedFlags": [],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Identify exact cauliflower/berry packages and confirm required preparation.",
+        "Check microwave wattage, bowl headroom, date size and final texture with1½cups chosen liquid."
       ],
       "inputSha256": "7bd003e617d2fab7206273d1806d70456371cb0dd373a30ab55f8fb3ddfee576",
-      "plannedBatch": "simmer-boil-and-steam-01"
+      "plannedBatch": "simmer-boil-and-steam-01",
+      "acceptedSourceSha256": "4e9a63aeb89f65a85bd1543528e961e3154f6a0e270e27b3b1f1b7420010964e",
+      "reviewPhase": "complete whole independent challenge and final root acceptance; implementation and production pending",
+      "productionVerification": "pending"
     },
     {
       "slug": "blueberry-oat-breakfast-bars",
@@ -858,8 +882,8 @@
       "title": "Braised French Lentils",
       "source": null,
       "sourceUrl": null,
-      "group": null,
-      "status": "queued",
+      "group": "beans_lentils_01",
+      "status": "proposed",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -867,7 +891,11 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "46c87d98ad9c236631dc9fa87200a3cdd304c5126519bfd4fc127c4533d27018",
-      "plannedBatch": "braises-and-slow-cooking-01"
+      "plannedBatch": "braises-and-slow-cooking-01",
+      "assignmentInputCommit": "7a2d1bbf6d2368bfdd6c62a5d5a7004f0f886fd4",
+      "assignmentInputSha256": "46c87d98ad9c236631dc9fa87200a3cdd304c5126519bfd4fc127c4533d27018",
+      "proposedSourceSha256": "80616840edd3d6927b5db13d8f18ad808cac88a0b6d323174caf7bc2bfc671b0",
+      "reviewPhase": "author whole checkpoint frozen; independent challenge and final root acceptance pending"
     },
     {
       "slug": "breakfast-burrito",
@@ -967,18 +995,22 @@
       "source": "Saved Paprika recipe",
       "sourceUrl": null,
       "group": "boiled_grains_vegetables_01",
-      "status": "proposed",
+      "status": "accepted",
       "reviewEvidence": [
         "docs/reviews/broccoli-all-agro.md",
-        "private whole-recipe boiled_grains_vegetables_01 proposal/record; independent/root gate required"
+        "private whole-recipe boiled_grains_vegetables_01 proposal/record; independent/root gate required",
+        "docs/editorial-campaign/2026-10-05/boiled-six-independent.md"
       ],
-      "automatedFlags": ["teaching-review-needed"],
+      "automatedFlags": [],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Check actual two-head size, steamer capacity and six-side-portion estimate.",
+        "Kitchen-check lemon size and raw-garlic intensity while keeping saved amounts."
       ],
       "inputSha256": "181be91b2551d6b2317b8cf83f2bcc197cd047967360b1732ed3dded590218fa",
-      "plannedBatch": "simmer-boil-and-steam-01"
+      "plannedBatch": "simmer-boil-and-steam-01",
+      "acceptedSourceSha256": "8029507d2449804e4cf3d209cfbf222782e6d6fec02712635d31c30017eadd10",
+      "reviewPhase": "complete whole independent challenge and final root acceptance; implementation and production pending",
+      "productionVerification": "pending"
     },
     {
       "slug": "broccoli-cheddar-quinoa-bites",
@@ -1082,17 +1114,22 @@
       "source": null,
       "sourceUrl": null,
       "group": "boiled_grains_vegetables_01",
-      "status": "proposed",
+      "status": "accepted",
       "reviewEvidence": [
-        "private whole-recipe boiled_grains_vegetables_01 proposal/record; independent/root gate required"
+        "private whole-recipe boiled_grains_vegetables_01 proposal/record; independent/root gate required",
+        "docs/reviews/buttered-egg-noodles.md",
+        "docs/editorial-campaign/2026-10-05/boiled-six-independent.md"
       ],
-      "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
+      "automatedFlags": [],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Check preferred wide-noodle brand and kosher-salt brand with the full measured finishing amount.",
+        "Time the actual stove water heating and assess four original side portions."
       ],
       "inputSha256": "f5ca4e79f44dcfa378606cb24229b2d073cb1b09e547d8892187f781aa3c9407",
-      "plannedBatch": "simmer-boil-and-steam-01"
+      "plannedBatch": "simmer-boil-and-steam-01",
+      "acceptedSourceSha256": "c3a6037e07394497ae319df3cac540a760bbb652dd10cdf1806b05105e25c601",
+      "reviewPhase": "complete whole independent challenge and final root acceptance; implementation and production pending",
+      "productionVerification": "pending"
     },
     {
       "slug": "buttermilk-waffles",
@@ -1669,7 +1706,7 @@
       "source": null,
       "sourceUrl": null,
       "group": "pork_tenderloin_mains_01",
-      "status": "assigned",
+      "status": "proposed",
       "reviewEvidence": ["docs/repairs/2026-09-15/changed-files.json"],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -1677,7 +1714,9 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "bc2a23db89cf99dad54f2d696c62d435178b96ea725ee601baefa96cb79c1ca9",
-      "plannedBatch": "stir-fry-and-pan-cooking-02"
+      "plannedBatch": "stir-fry-and-pan-cooking-02",
+      "proposedSourceSha256": "a4cf1458d5d0bd58a2b449fdc8e20b11a08ab7f0ba83c2aeab15320723fb0406",
+      "reviewPhase": "Whole independent challenge corrections privately applied and frozen; complete final root inspection pending."
     },
     {
       "slug": "chocolate-blended-oats-with-raspberry-chia-jam",
@@ -2162,8 +2201,8 @@
       "title": "Avocado Pasta",
       "source": "Adapted from Thekitchn.com",
       "sourceUrl": "http://www.thekitchn.com/how-to-make-creamy-avocado-pasta-242477?utm_medium=email&utm_campaign=TK%252520Daily%25252032417%252520-%252520Creamy%252520Avocado%252520Pasta%252520Our%252520Smartest%252520Takeout%252520Tip%252520%252520More%252520from%252520The%252520Kitchn&utm_content=TK%252520Daily%25252032417%252520-%252520Creamy%252520Avocado%252520Pasta%252520Our%252520Smartest%252520Takeout%252520Tip%252520%252520More%252520from%252520The%252520Kitchn+CID_75fc2b7d54221a9aab02dbe50784f59b&utm_source=email_newsletter&utm_term=READ%252520MORE",
-      "group": null,
-      "status": "queued",
+      "group": "creamy_pasta_mains_01",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -2171,7 +2210,9 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "660ee29e335bca41edaf8c554290995561e3ee6d5c1be461077f6133a699f56e",
-      "plannedBatch": "simmer-boil-and-steam-03"
+      "plannedBatch": "simmer-boil-and-steam-03",
+      "assignmentInputCommit": "7eec1146b5f7bd65495c750a8312303d8d9d5b83",
+      "assignmentInputSha256": "660ee29e335bca41edaf8c554290995561e3ee6d5c1be461077f6133a699f56e"
     },
     {
       "slug": "creamy-slow-cooker-chicken-and-wild-rice-soup",
@@ -2232,8 +2273,8 @@
       "title": "Whole-Wheat Mac and Cheese",
       "source": "Adapted from 100daysofrealfood.com",
       "sourceUrl": "https://www.100daysofrealfood.com/recipe-creamy-whole-wheat-mac-and-cheese/",
-      "group": null,
-      "status": "queued",
+      "group": "creamy_pasta_mains_01",
+      "status": "assigned",
       "reviewEvidence": ["docs/reviews/source-restorations-2026-10-05.md"],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -2241,7 +2282,9 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "1e49ffe03bcf373f3af6f39239bc1524ecc1bf3eaefbf50a2d5429c373229fb2",
-      "plannedBatch": "simmer-boil-and-steam-03"
+      "plannedBatch": "simmer-boil-and-steam-03",
+      "assignmentInputCommit": "7eec1146b5f7bd65495c750a8312303d8d9d5b83",
+      "assignmentInputSha256": "1e49ffe03bcf373f3af6f39239bc1524ecc1bf3eaefbf50a2d5429c373229fb2"
     },
     {
       "slug": "crispy-baked-chicken-sliders",
@@ -3684,7 +3727,7 @@
       "source": "Adapted from cooking.nytimes.com",
       "sourceUrl": "https://cooking.nytimes.com/recipes/12690-grilled-pork-and-peaches",
       "group": "pork_tenderloin_mains_01",
-      "status": "assigned",
+      "status": "proposed",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -3692,7 +3735,9 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "8eb6424c595694c72c0c05c4a6f26606dd2568d6381635b7eaab306480f6eed9",
-      "plannedBatch": "roast-grill-and-sear-02"
+      "plannedBatch": "roast-grill-and-sear-02",
+      "proposedSourceSha256": "99fd1f7d95f618e474e92c969fffab413074e063c86ebb3d2da4eb679ea27ca1",
+      "reviewPhase": "Whole independent challenge corrections privately applied and frozen; complete final root inspection pending."
     },
     {
       "slug": "grilled-pork-banh-mi",
@@ -3892,7 +3937,7 @@
       "source": "Adapted from foodnetwork.com",
       "sourceUrl": "https://www.foodnetwork.com/recipes/ina-garten/herb-marinated-pork-tenderloins-recipe-1948375",
       "group": "pork_tenderloin_mains_01",
-      "status": "assigned",
+      "status": "proposed",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -3900,7 +3945,9 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "efecfce0bead82d08c0b98a09435d7a33e5b371ced342af5093278b8d18f33cf",
-      "plannedBatch": "baked-savory-and-breads-07"
+      "plannedBatch": "baked-savory-and-breads-07",
+      "proposedSourceSha256": "3236d7a27996826faffa15744e83dc8677e5c9f4418772b07e14cd71ec46b4e2",
+      "reviewPhase": "Whole independent challenge corrections privately applied and frozen; complete final root inspection pending."
     },
     {
       "slug": "herby-chicken-meatball-bowl",
@@ -4186,8 +4233,8 @@
       "title": "Jeri's Lentil Soup",
       "source": "Adapted from Pat Miller",
       "sourceUrl": null,
-      "group": null,
-      "status": "queued",
+      "group": "beans_lentils_01",
+      "status": "proposed",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -4195,7 +4242,11 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "d03f8844983f18e223036c0a9d7274a5c3ed73d63cd7bcebcfbcb3491a51ea48",
-      "plannedBatch": "braises-and-slow-cooking-02"
+      "plannedBatch": "braises-and-slow-cooking-02",
+      "assignmentInputCommit": "7a2d1bbf6d2368bfdd6c62a5d5a7004f0f886fd4",
+      "assignmentInputSha256": "d03f8844983f18e223036c0a9d7274a5c3ed73d63cd7bcebcfbcb3491a51ea48",
+      "proposedSourceSha256": "692138ee874ca97f809936d463e90e0fa8dabde7c37ce9e657541cc744b1aea9",
+      "reviewPhase": "author whole checkpoint frozen; independent challenge and final root acceptance pending"
     },
     {
       "slug": "kalbi-grilled-korean-style-short-ribs",
@@ -5397,8 +5448,8 @@
       "title": "Pizza Beans",
       "source": null,
       "sourceUrl": null,
-      "group": null,
-      "status": "queued",
+      "group": "beans_lentils_01",
+      "status": "proposed",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -5406,7 +5457,11 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "a9305c8430133a37f9be3138a73485a9bf6fc88399bfd052055801a5eba33594",
-      "plannedBatch": "baked-savory-and-breads-08"
+      "plannedBatch": "baked-savory-and-breads-08",
+      "assignmentInputCommit": "7a2d1bbf6d2368bfdd6c62a5d5a7004f0f886fd4",
+      "assignmentInputSha256": "a9305c8430133a37f9be3138a73485a9bf6fc88399bfd052055801a5eba33594",
+      "proposedSourceSha256": "be22f31937626d41eb615176f84afa48775759c97f9a7f73422a5435762a729b",
+      "reviewPhase": "author whole checkpoint frozen; independent challenge and final root acceptance pending"
     },
     {
       "slug": "play-dough",
@@ -5655,8 +5710,8 @@
       "title": "Alfredo Sauce",
       "source": null,
       "sourceUrl": null,
-      "group": null,
-      "status": "queued",
+      "group": "creamy_pasta_mains_01",
+      "status": "assigned",
       "reviewEvidence": ["docs/reviews/source-restorations-2026-10-05.md"],
       "automatedFlags": ["teaching-review-needed"],
       "remainingQuestions": [
@@ -5664,7 +5719,9 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "8538d3de7e6c3563ccf5de197277026971392629d631b08f975af17d2ddf7fbc",
-      "plannedBatch": "simmer-boil-and-steam-08"
+      "plannedBatch": "simmer-boil-and-steam-08",
+      "assignmentInputCommit": "7eec1146b5f7bd65495c750a8312303d8d9d5b83",
+      "assignmentInputSha256": "8538d3de7e6c3563ccf5de197277026971392629d631b08f975af17d2ddf7fbc"
     },
     {
       "slug": "real-spaghetti-carbonara",
@@ -6055,7 +6112,7 @@
       "source": "Adapted from Foodnetwork.com",
       "sourceUrl": "https://www.foodnetwork.com/recipes/claire-robinson/rosemary-pork-tenderloin-recipe-1917514",
       "group": "pork_tenderloin_mains_01",
-      "status": "assigned",
+      "status": "proposed",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -6063,7 +6120,9 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "a6273843c924486a3eb8f308b1acf14c6e3c404b8ea31bf7680138bc348b2355",
-      "plannedBatch": "baked-savory-and-breads-09"
+      "plannedBatch": "baked-savory-and-breads-09",
+      "proposedSourceSha256": "d9b21736bcd6c31977f702c8b996348b1e9c83a87e513ccaf7d392925d2e9d9f",
+      "reviewPhase": "Whole independent challenge corrections privately applied and frozen; complete final root inspection pending."
     },
     {
       "slug": "royal-icing",
@@ -6139,8 +6198,8 @@
       "title": "Sausage and White Bean Skillet",
       "source": null,
       "sourceUrl": null,
-      "group": null,
-      "status": "queued",
+      "group": "beans_lentils_01",
+      "status": "proposed",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -6148,7 +6207,11 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "5836e532e8d6dd3435ede37835b2da9cb888e55f35e10d764d6f388cdccbbe45",
-      "plannedBatch": "simmer-boil-and-steam-08"
+      "plannedBatch": "simmer-boil-and-steam-08",
+      "assignmentInputCommit": "7a2d1bbf6d2368bfdd6c62a5d5a7004f0f886fd4",
+      "assignmentInputSha256": "5836e532e8d6dd3435ede37835b2da9cb888e55f35e10d764d6f388cdccbbe45",
+      "proposedSourceSha256": "399d93ee14db902cc578d8b26da90672ed3ff83e1af9bc4bbbddb1087e643b79",
+      "reviewPhase": "author whole checkpoint frozen; independent challenge and final root acceptance pending"
     },
     {
       "slug": "sausage-breakfast-casserole",
@@ -6295,18 +6358,22 @@
       "source": null,
       "sourceUrl": null,
       "group": "boiled_grains_vegetables_01",
-      "status": "proposed",
+      "status": "accepted",
       "reviewEvidence": [
         "docs/reviews/seasoned-bean-sprouts.md",
-        "private whole-recipe boiled_grains_vegetables_01 proposal/record; independent/root gate required"
+        "private whole-recipe boiled_grains_vegetables_01 proposal/record; independent/root gate required",
+        "docs/editorial-campaign/2026-10-05/boiled-six-independent.md"
       ],
-      "automatedFlags": ["teaching-review-needed"],
+      "automatedFlags": [],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Verify actual soybean sprout package cooking directions and probe placement.",
+        "Kitchen-check pot/headroom and bean-head tenderness at original batch."
       ],
       "inputSha256": "8c4ee679180b82934e06989f41afc328e27a1277d31376370507ece43c8347be",
-      "plannedBatch": "simmer-boil-and-steam-09"
+      "plannedBatch": "simmer-boil-and-steam-09",
+      "acceptedSourceSha256": "c30d5d214d9679499d1c8ab6f184515671346b89461919d46c4a1fc4257d2548",
+      "reviewPhase": "complete whole independent challenge and final root acceptance; implementation and production pending",
+      "productionVerification": "pending"
     },
     {
       "slug": "shakshuka",
@@ -6511,8 +6578,8 @@
       "title": "Shrimp Fettuccine Alfredo",
       "source": null,
       "sourceUrl": null,
-      "group": null,
-      "status": "queued",
+      "group": "creamy_pasta_mains_01",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -6520,7 +6587,9 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "7873a8aa6be855a51fd42567e38124087de8fd20ffa72eed94487c451dc83573",
-      "plannedBatch": "simmer-boil-and-steam-09"
+      "plannedBatch": "simmer-boil-and-steam-09",
+      "assignmentInputCommit": "7eec1146b5f7bd65495c750a8312303d8d9d5b83",
+      "assignmentInputSha256": "7873a8aa6be855a51fd42567e38124087de8fd20ffa72eed94487c451dc83573"
     },
     {
       "slug": "shrimp-lobster-sauce",
@@ -6605,18 +6674,22 @@
       "source": "Adapted from Sue Pressey, My Korean Kitchen",
       "sourceUrl": "https://mykoreankitchen.com/simply-seasoned-korean-spinach-salad-sigeumchi-namul-version-1/",
       "group": "boiled_grains_vegetables_01",
-      "status": "proposed",
+      "status": "accepted",
       "reviewEvidence": [
         "docs/reviews/simply-seasoned-korean-spinach-salad.md",
-        "private whole-recipe boiled_grains_vegetables_01 proposal/record; independent/root gate required"
+        "private whole-recipe boiled_grains_vegetables_01 proposal/record; independent/root gate required",
+        "docs/editorial-campaign/2026-10-05/boiled-six-independent.md"
       ],
-      "automatedFlags": ["teaching-review-needed"],
+      "automatedFlags": [],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Check spinach stem thickness and gently drained yield for four original small sides.",
+        "Assess salinity with actual fine sea salt without inventing a gram conversion."
       ],
       "inputSha256": "1d98e0dbdc95e42e9cf71a227736dbfa3d4353b45f7517d78f0dd25074334aea",
-      "plannedBatch": "simmer-boil-and-steam-09"
+      "plannedBatch": "simmer-boil-and-steam-09",
+      "acceptedSourceSha256": "7a1f3f1d05aecec877c2be2402b24055137f995a928f4ce5cf92d13e0962ccc7",
+      "reviewPhase": "complete whole independent challenge and final root acceptance; implementation and production pending",
+      "productionVerification": "pending"
     },
     {
       "slug": "skillet-biscuits-with-berries",
@@ -6809,8 +6882,8 @@
       "title": "Spanish Rice and Chickpeas",
       "source": "Adapted from Thekitchenmagpie.com",
       "sourceUrl": "https://www.thekitchenmagpie.com/smoky-spanish-rice-chickpeas/",
-      "group": null,
-      "status": "queued",
+      "group": "beans_lentils_01",
+      "status": "proposed",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -6818,7 +6891,11 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "35f9873e27ed28b85451c50f9ab2107a1c3fa5cbe33b360f00ff75ec7099855d",
-      "plannedBatch": "stir-fry-and-pan-cooking-06"
+      "plannedBatch": "stir-fry-and-pan-cooking-06",
+      "assignmentInputCommit": "7a2d1bbf6d2368bfdd6c62a5d5a7004f0f886fd4",
+      "assignmentInputSha256": "35f9873e27ed28b85451c50f9ab2107a1c3fa5cbe33b360f00ff75ec7099855d",
+      "proposedSourceSha256": "eea7d2a9cd2c588f53c0add201cd1915a5755364f296c7e2e9ed19247b1307b0",
+      "reviewPhase": "author whole checkpoint frozen; independent challenge and final root acceptance pending"
     },
     {
       "slug": "snickerdoodles",
@@ -6913,8 +6990,8 @@
       "title": "Sun-Dried Tomato Cream Spaghetti",
       "source": "Adapted from eatingwell.com",
       "sourceUrl": "https://www.eatingwell.com/recipe/7919563/spaghetti-spinach-with-sun-dried-tomato-cream-sauce/",
-      "group": null,
-      "status": "queued",
+      "group": "creamy_pasta_mains_01",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -6922,7 +6999,9 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "6890927a6c4af893d3c499eb69fc5203ebd49d97b86a3b5b84aa1f0e09b22b6a",
-      "plannedBatch": "simmer-boil-and-steam-09"
+      "plannedBatch": "simmer-boil-and-steam-09",
+      "assignmentInputCommit": "7eec1146b5f7bd65495c750a8312303d8d9d5b83",
+      "assignmentInputSha256": "6890927a6c4af893d3c499eb69fc5203ebd49d97b86a3b5b84aa1f0e09b22b6a"
     },
     {
       "slug": "spaghetti-and-tofu-meatballs",
@@ -7101,17 +7180,22 @@
       "source": "Adapted from Foodnetwork.com",
       "sourceUrl": "http://www.foodnetwork.com/recipes/alton-brown/steel-cut-oatmeal-recipe-1939448",
       "group": "boiled_grains_vegetables_01",
-      "status": "proposed",
+      "status": "accepted",
       "reviewEvidence": [
-        "private whole-recipe boiled_grains_vegetables_01 proposal/record; independent/root gate required"
+        "private whole-recipe boiled_grains_vegetables_01 proposal/record; independent/root gate required",
+        "docs/reviews/steel-cut-oatmeal.md",
+        "docs/editorial-campaign/2026-10-05/boiled-six-independent.md"
       ],
-      "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
+      "automatedFlags": [],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Kitchen-check saved equal buttermilk split versus publisher8/1 split without treating either as tested here.",
+        "Check covered simmer evaporation, tenderness and four original portions on actual stove."
       ],
       "inputSha256": "b8bdcb56fbcece072e7f5f0e51cb25b71e3014fb2435819ae0a819c5059c08b4",
-      "plannedBatch": "stir-fry-and-pan-cooking-06"
+      "plannedBatch": "stir-fry-and-pan-cooking-06",
+      "acceptedSourceSha256": "28bb80ab5b14a41f27942ddd565a5aab8b13dabe259ff5ec3ce12f6f575ca1d5",
+      "reviewPhase": "complete whole independent challenge and final root acceptance; implementation and production pending",
+      "productionVerification": "pending"
     },
     {
       "slug": "stevens-margs",
@@ -8719,11 +8803,12 @@
   ],
   "routingLimitations": "Provisional routing uses current metadata to reduce coordination work. Reviewer must confirm actual process from complete recipe before starting; tags never establish method applicability or a recipe defect.",
   "statusCounts": {
-    "assigned": 16,
+    "accepted": 6,
+    "assigned": 17,
     "held": 9,
     "held-awaiting-evidence": 2,
     "production-verified": 48,
-    "proposed": 56,
-    "queued": 278
+    "proposed": 60,
+    "queued": 267
   }
 }
