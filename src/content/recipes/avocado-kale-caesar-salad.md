@@ -133,6 +133,7 @@ learning:
   review:
     status: editorial-review
     date: '2026-09-06'
+sourceUrl: 'https://pinchofyum.com/avocado-kale-caesar-salad-sweet-potato-fries'
 ---
 
 ## Chef's Note

@@ -57,6 +57,9 @@ nutrition:
   fiber: 0.5
   sugar: 0.5
   sodium: 3050
+source: Adapted from Foodnetwork.com
+sourceUrl: >-
+  http://www.foodnetwork.com/recipes/tyler-florence/hot-and-sour-soup-recipe-1914206
 ---
 
 ## Chef's Note

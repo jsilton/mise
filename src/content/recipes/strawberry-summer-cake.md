@@ -53,11 +53,14 @@ nutrition:
   fiber: 0.5
   sugar: 27
   sodium: 470
+source: Adapted from smittenkitchen.com
+sourceUrl: 'https://smittenkitchen.com/2011/05/strawberry-summer-cake/'
 ---
 
 ## Chef's Note
 
 This is a justifiably fussy cake - the batter is thin (meant to be), fresh strawberries sink and weep during baking (meant to), and the magic is in the temperature adjustment midway (lowering heat prevents a hard top while the fruit releases its juice). The result is something between cake and cobbler, tender crumb shot through with caramelized strawberry juice.
+
 ## Directions
 
 1.  **Cream:** Preheat oven to 350°F. Butter a 9-inch deep-dish pie pan (mandatory for volume). Beat butter and 1 cup sugar for 3 minutes until pale and fluffy.

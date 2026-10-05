@@ -125,6 +125,9 @@ learning:
   review:
     status: editorial-review
     date: '2026-09-06'
+source: Adapted from foodnetwork.com
+sourceUrl: >-
+  https://www.foodnetwork.com/recipes/patrick-and-gina-neely/buttermilk-baked-chicken-recipe-1923654
 ---
 
 ## Chef's Note

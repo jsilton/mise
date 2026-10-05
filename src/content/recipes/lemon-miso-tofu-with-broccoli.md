@@ -54,6 +54,9 @@ nutrition:
   fiber: 3
   sugar: 10.5
   sodium: 50
+source: Adapted from cooking.nytimes.com
+sourceUrl: >-
+  https://cooking.nytimes.com/recipes/1026706-lemon-miso-tofu-with-broccoli?smid=ck-recipe-iOS-share
 ---
 
 ## Chef's Note

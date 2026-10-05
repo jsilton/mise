@@ -49,6 +49,9 @@ nutrition:
   fiber: 2
   sugar: 3
   sodium: 260
+source: Adapted from Delish.com
+sourceUrl: >-
+  http://www.delish.com/cooking/recipe-ideas/recipes/a55765/cream-of-mushroom-soup-recipe/
 ---
 
 ## Chef's Note

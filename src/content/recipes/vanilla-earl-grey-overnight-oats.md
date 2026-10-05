@@ -48,11 +48,14 @@ nutrition:
   fiber: 8
   sugar: 8.5
   sodium: 1170
+source: Adapted from yayforfood.com
+sourceUrl: 'https://www.yayforfood.com/recipes/earl-grey-overnight-oats/'
 ---
 
 ## Chef's Note
 
 Overnight oats are a Scandinavian trick for zero-effort weekday mornings - the oats hydrate in the fridge while you sleep, becoming creamy without cooking. Earl Grey tea and vanilla extract steeped into the milk give this version a subtle floral complexity that plain oats can't touch. The silky, pudding-like texture comes from the right ratio of oats to liquid, not from added ingredients.
+
 ## Directions
 
 1.  **The Infusion:** Steep the Earl Grey bag in 1 cup boiling water for 5 minutes. Discard the bag. Stir in the honey while hot until dissolved.
@@ -61,3 +64,7 @@ Overnight oats are a Scandinavian trick for zero-effort weekday mornings - the o
 4.  **The Finish:** Divide into two half-pint mason jars. Cover and **refrigerate for at least 6 hours** (ideally 12).
 5.  **Adjust:** Open the jar. If the oats are too thick, stir in a splash of fresh milk to reach a velvety "Bounce."
 6.  **Serve:** Top with a crumbled Stroopwafel or wafer for the mandatory **High Note**.
+
+## Cooking Notes
+
+Quick oats give a softer texture; old-fashioned rolled oats stay chewier. Choose the texture you prefer and adjust liquid after the overnight soak.

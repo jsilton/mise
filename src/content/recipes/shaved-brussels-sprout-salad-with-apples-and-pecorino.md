@@ -49,6 +49,8 @@ nutrition:
   fiber: 2
   sugar: 13.5
   sodium: 110
+source: Adapted from Loveandoliveoil.com
+sourceUrl: 'http://www.loveandoliveoil.com/2013/04/shaved-brussels-sprout-salad.html'
 ---
 
 ## Chef's Note

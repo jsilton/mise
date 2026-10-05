@@ -53,6 +53,8 @@ nutrition:
   fiber: 2
   sugar: 2
   sodium: 60
+source: Adapted from Foodandwine.com
+sourceUrl: 'http://www.foodandwine.com/recipes/spaghetti-clams-and-braised-greens'
 ---
 
 ## Chef's Note

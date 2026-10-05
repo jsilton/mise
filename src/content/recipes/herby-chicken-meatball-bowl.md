@@ -57,6 +57,8 @@ nutrition:
   fiber: 8.5
   sugar: 11
   sodium: 450
+source: Adapted from thepalatablelife.com
+sourceUrl: 'https://www.thepalatablelife.com/herby-chicken-meatball-bowl/#recipe'
 ---
 
 ## Chef's Note

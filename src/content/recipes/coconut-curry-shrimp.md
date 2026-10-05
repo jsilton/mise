@@ -138,6 +138,7 @@ learning:
   review:
     status: editorial-review
     date: '2026-09-06'
+sourceUrl: 'http://thepioneerwoman.com/cooking/coconut-curry-shrimp/'
 ---
 
 ## Chef's Note

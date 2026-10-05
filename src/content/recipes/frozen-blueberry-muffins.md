@@ -55,6 +55,8 @@ nutrition:
   fiber: 0.5
   sugar: 17.5
   sodium: 190
+source: Adapted from tasteofhome.com
+sourceUrl: 'https://www.tasteofhome.com/recipes/frozen-blueberry-muffins/'
 ---
 
 ## Chef's Note

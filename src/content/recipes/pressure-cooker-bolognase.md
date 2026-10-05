@@ -50,6 +50,8 @@ nutrition:
   fiber: 1.5
   sugar: 3.5
   sodium: 660
+source: Adapted from Richard Blais
+sourceUrl: 'https://smile.amazon.com/Try-This-Home-Recipes-Plate-ebook/dp/B009JU6UPQ'
 ---
 
 ## Chef's Note

@@ -56,6 +56,8 @@ nutrition:
   fiber: 3.5
   sugar: 22
   sodium: 210
+source: Adapted from Leelalicious.com
+sourceUrl: 'http://leelalicious.com/pumpkin-breakfast-cookies/'
 ---
 
 ## Chef's Note
@@ -70,3 +72,7 @@ These breakfast cookies are ideal for busy mornings when you need portable nutri
 4.  **Shape:** Preheat oven to 350°F. Line a baking sheet with parchment. Scoop 1/4-cup portions of dough and **press down firmly** with your palm to create a 3/4-inch thick disk.
 5.  **Bake:** Bake for 15-20 minutes until the edges are golden brown and the center feels firm.
 6.  **The Finish:** Let cool completely on the pan. This is mandatory for the flax and coconut oil to set the "Bounce."
+
+## Cooking Notes
+
+For a vegan version, replace honey with maple syrup and use an appropriate egg replacement. Flax or chia eggs may change the cookie texture.

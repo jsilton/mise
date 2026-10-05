@@ -31,7 +31,7 @@ pairsWith:
   - breakfast-carrot-cake
   - chocolate-chip-beet-muffins
 ingredients:
-  - 3 large Egg Whites (room temp)
+  - 3 large Pasteurized Egg Whites (room temp)
   - '1 lb Confectioners’ Sugar, sifted'
   - 1 tsp Pure Vanilla Extract
 origin: United States
@@ -43,6 +43,8 @@ nutrition:
   fiber: 0
   sugar: 0
   sodium: 0
+source: Adapted from preppykitchen.com
+sourceUrl: 'https://preppykitchen.com/royal-icing/'
 ---
 
 ## Chef's Note
@@ -57,3 +59,7 @@ Royal icing is the traditional coating for decorated sugar cookies, gingerbread 
 4.  **Dye:** Divide into small bowls. Stir in gel food coloring (The Finishing Touch).
 5.  **Consistency:** For flooding, add water 1/2 tsp at a time until a ribbon of icing disappears back into the bowl in exactly 15 seconds.
 6.  **Store:** Keep bowls tightly covered with plastic wrap - this icing sets instantly when exposed to air.
+
+## Cooking Notes
+
+Use pasteurized egg whites for this uncooked icing. If separating pasteurized shell eggs, separate them while cold. Keep mixing tools free of grease. Pipe a thicker outline first, then thin a separate portion with water a few drops at a time for flooding.

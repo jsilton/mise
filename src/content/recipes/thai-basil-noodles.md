@@ -53,11 +53,14 @@ nutrition:
   fiber: 4.5
   sugar: 5.5
   sodium: 1950
+source: Adapted from thewoksoflife.com
+sourceUrl: 'https://thewoksoflife.com/thai-basil-noodles/'
 ---
 
 ## Chef's Note
 
 Pad Kra Pao is Thailand's most popular street food - a fast, pungent stir-fry of holy basil and ground pork that goes from wok to plate in under 10 minutes. The key is very high heat and not stirring too much - let the meat get some color and the basil char slightly before you toss. Serve over rice with a fried egg.
+
 ## Directions
 
 1.  **Noodles:** Soak rice noodles in hot water for 15-20 minutes until pliable but still firm (al dente). Drain and set aside.

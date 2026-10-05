@@ -49,6 +49,8 @@ nutrition:
   fiber: 2.5
   sugar: 2.5
   sodium: 610
+source: Adapted from cooking.nytimes.com
+sourceUrl: 'https://cooking.nytimes.com/recipes/1014647-sweet-potato-fries'
 ---
 
 ## Chef's Note

@@ -143,6 +143,7 @@ learning:
   review:
     status: editorial-review
     date: '2026-09-06'
+sourceUrl: 'https://www.dinneratthezoo.com/caprese-pasta/'
 ---
 
 ## Chef's Note

@@ -43,6 +43,8 @@ nutrition:
   fiber: 3
   sugar: 2.5
   sodium: 1010
+source: Adapted from Myfussyeater.com
+sourceUrl: 'http://www.myfussyeater.com/strawberry-quinoa-breakfast-bars/'
 ---
 
 ## Chef's Note

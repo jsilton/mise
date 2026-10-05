@@ -49,6 +49,8 @@ nutrition:
   fiber: 1
   sugar: 1
   sodium: 4620
+source: Adapted from Bonappetit.com
+sourceUrl: 'http://www.bonappetit.com/recipe/steamed-mussels-with-tomato-and-chorizo-broth'
 ---
 
 ## Chef's Note

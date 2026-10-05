@@ -134,6 +134,8 @@ learning:
   review:
     status: editorial-review
     date: '2026-09-06'
+source: Adapted from christieathome.com
+sourceUrl: 'https://christieathome.com/blog/chinese-spicy-garlic-eggplant/#recipe'
 ---
 
 ## Chef's Note

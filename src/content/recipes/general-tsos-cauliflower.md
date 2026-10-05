@@ -63,6 +63,8 @@ nutrition:
   fiber: 2.5
   sugar: 11
   sodium: 5520
+source: Adapted from purewow.com
+sourceUrl: 'https://www.purewow.com/recipes/General-Tsos-Cauliflower'
 ---
 
 ## Chef's Note

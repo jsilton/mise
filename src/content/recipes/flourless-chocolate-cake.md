@@ -59,6 +59,9 @@ nutrition:
   fiber: 7
   sugar: 83
   sodium: 280
+source: Adapted from kingarthurbaking.com
+sourceUrl: >-
+  https://www.kingarthurbaking.com/blog/2008/04/10/flour-takes-a-passover-break-and-chocolate-steps-into-the-breach
 ---
 
 ## Chef's Note

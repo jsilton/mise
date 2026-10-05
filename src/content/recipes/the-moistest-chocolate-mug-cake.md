@@ -48,6 +48,8 @@ nutrition:
   fiber: 7
   sugar: 25.5
   sodium: 2820
+source: Adapted from Tablefortwoblog.com
+sourceUrl: 'https://www.tablefortwoblog.com/the-moistest-chocolate-mug-cake/'
 ---
 
 ## Chef's Note

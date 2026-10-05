@@ -1,0 +1,15 @@
+# Beef Pad See Ew: Paprika source import
+
+Date: 2026-10-05. Status: pending full culinary review; no kitchen test.
+
+Imported from the supplied native Paprika export, UID `4E35690B-7AE1-4965-A119-AE592AE470D5`. Saved source: https://thewoksoflife.com/pad-see-ew/. The supplied saved recipe, rather than a newly fetched web formula, is the ingredient baseline.
+
+## Individual decisions
+
+This beef version uses Thai black soy sauce, oyster sauce and a little fish sauce. Loosen the noodles before they reach the wok, cook in manageable batches and use a clean plate for the seared beef.
+
+Method rewritten to remove scraped repetition and make the saved ingredient usage explicit.
+
+Planning times explicitly include batch cooking or chilling where relevant; missing yields remain labeled as unrecorded rather than invented. Ingredient-only web controls were removed. No nutritional estimate imported.
+
+Safety endpoints, where added, follow [FoodSafety.gov](https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures). They do not validate yield, flavor, timing or the complete formula. This source import does not assign an editorial or kitchen-tested label.

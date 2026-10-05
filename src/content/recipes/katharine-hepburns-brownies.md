@@ -52,6 +52,8 @@ nutrition:
   fiber: 4
   sugar: 17.5
   sodium: 320
+source: Adapted from Cooking.nytimes.com
+sourceUrl: 'https://cooking.nytimes.com/recipes/10782-katharine-hepburns-brownies'
 ---
 
 ## Chef's Note

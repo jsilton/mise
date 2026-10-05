@@ -47,6 +47,9 @@ nutrition:
   fiber: 3.5
   sugar: 3.5
   sodium: 10
+source: Adapted from Goodhousekeeping.com
+sourceUrl: >-
+  http://www.goodhousekeeping.com/food-recipes/a40851/grilled-chicken-with-herbed-corn-salsa-recipe/
 ---
 
 ## Chef's Note

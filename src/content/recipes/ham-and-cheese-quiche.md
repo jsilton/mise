@@ -50,6 +50,8 @@ nutrition:
   fiber: 0.5
   sugar: 1
   sodium: 230
+source: Adapted from iheartnaptime.net
+sourceUrl: 'https://www.iheartnaptime.net/ham-and-cheese-quiche/'
 ---
 
 ## Chef's Note

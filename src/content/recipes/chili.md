@@ -132,6 +132,8 @@ learning:
   review:
     status: editorial-review
     date: '2026-09-06'
+source: Adapted from Chowhound.com
+sourceUrl: 'https://www.chowhound.com/recipes/spicy-slow-cooker-beef-chili-30669'
 ---
 
 ## Chef's Note

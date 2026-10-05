@@ -55,6 +55,10 @@ nutrition:
   fiber: 5
   sugar: 4.5
   sodium: 200
+source: Adapted from cooking.nytimes.com
+sourceUrl: >-
+  https://cooking.nytimes.com/recipes/1020022-quick-lamb-ragu?smid=ck-recipe-iOS-share
+rating: 5
 ---
 
 ## Chef's Note

@@ -47,6 +47,8 @@ nutrition:
   fiber: 1
   sugar: 1
   sodium: 150
+source: Adapted from domesticsuperhero.com
+sourceUrl: 'https://domesticsuperhero.com/mediterranean-pinwheels-vegetarian-appetizer/'
 ---
 
 ## Chef's Note

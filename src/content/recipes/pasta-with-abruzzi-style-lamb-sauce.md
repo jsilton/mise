@@ -42,6 +42,8 @@ nutrition:
   fiber: 0.5
   sugar: 1
   sodium: 0
+source: Adapted from Foodandwine.com
+sourceUrl: 'http://www.foodandwine.com/recipes/pasta-abruzzi-style-lamb-sauce'
 ---
 
 ## Chef's Note

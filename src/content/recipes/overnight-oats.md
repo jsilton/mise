@@ -49,6 +49,8 @@ nutrition:
   fiber: 10.5
   sugar: 29
   sodium: 2410
+source: Adapted from downshiftology.com
+sourceUrl: 'https://downshiftology.com/recipes/overnight-oats/'
 ---
 
 ## Chef's Note

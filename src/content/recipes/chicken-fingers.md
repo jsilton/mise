@@ -49,6 +49,7 @@ nutrition:
   fiber: 2
   sugar: 1
   sodium: 1140
+source: Adapted from Lisa Gwock
 ---
 
 ## Chef's Note

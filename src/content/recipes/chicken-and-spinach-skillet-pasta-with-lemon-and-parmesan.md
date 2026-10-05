@@ -129,6 +129,9 @@ learning:
   review:
     status: editorial-review
     date: '2026-09-06'
+source: Adapted from eatingwell.com
+sourceUrl: >-
+  https://www.eatingwell.com/recipe/267768/chicken-spinach-skillet-pasta-with-lemon-parmesan/
 ---
 
 ## Chef's Note

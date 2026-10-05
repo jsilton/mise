@@ -53,6 +53,8 @@ nutrition:
   fiber: 1
   sugar: 3.5
   sodium: 670
+source: Adapted from Bonappetit.com
+sourceUrl: 'http://www.bonappetit.com/recipe/fennel-and-carrot-soup'
 ---
 
 ## Chef's Note

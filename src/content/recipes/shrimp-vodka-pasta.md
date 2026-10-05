@@ -146,6 +146,8 @@ learning:
   review:
     status: editorial-review
     date: '2026-09-06'
+sourceUrl: 'http://www.myrecipes.com/recipe/shrimp-vodka-pasta'
+rating: 4
 ---
 
 ## Chef's Note

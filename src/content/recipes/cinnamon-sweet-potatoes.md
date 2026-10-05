@@ -106,6 +106,7 @@ learning:
   review:
     status: editorial-review
     date: '2026-09-06'
+source: Adapted from Craig Plummer
 ---
 
 ## Chef's Note

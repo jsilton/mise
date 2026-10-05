@@ -107,6 +107,8 @@ learning:
   review:
     status: editorial-review
     date: '2026-09-06'
+source: Adapted from melskitchencafe.com
+sourceUrl: 'https://www.melskitchencafe.com/honey-chipotle-lime-chicken-bowls/'
 ---
 
 ## Chef's Note

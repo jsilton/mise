@@ -54,6 +54,8 @@ nutrition:
   fiber: 1
   sugar: 7.5
   sodium: 260
+source: Adapted from Saveur.com
+sourceUrl: 'http://www.saveur.com/article/recipes/strawberry-rhubarb-yogurt-pops'
 ---
 
 ## Chef's Note

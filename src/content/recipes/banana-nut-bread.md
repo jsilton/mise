@@ -23,7 +23,7 @@ pairsWith:
   - blueberry-pancakes
   - brownie-baked-oatmeal
 ingredients:
-  - "3 large Very Ripe Bananas (about 375g total), mashed"
+  - '3 large Very Ripe Bananas (about 375g total), mashed'
   - '1/2 cup (1 stick) Unsalted Butter, melted and cooled'
   - 1 cup Granulated Sugar
   - '2 large Eggs, room temperature'
@@ -45,6 +45,7 @@ nutrition:
   fiber: 4.5
   sugar: 27.5
   sodium: 380
+source: Adapted from Hamilton Family
 ---
 
 ## Chef's Note
@@ -60,3 +61,7 @@ The secret to banana bread that isn't dense or dry is precision with measurement
 5.  **Combine:** Gently fold the dry ingredients into the wet until **just combined**. Do not over-mix. Fold in the nuts/seeds.
 6.  **Bake:** Pour into the pan. Bake for 55-60 minutes until the top is split and a tester comes out clean.
 7.  **Rest:** Let cool in the pan for 10 minutes before transferring to a wire rack.
+
+## Cooking Notes
+
+For two smaller loaves, start checking around 40 minutes. Pan dimensions and batter depth change the baking time; use the center-doneness cue rather than the clock alone.

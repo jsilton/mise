@@ -32,7 +32,7 @@ pairsWith:
   - steamed-bok-choy-with-oyster-sauce
 ingredients:
   - '1 Whole Fish (Snapper or Sea Bass), 1.5 lbs'
-  - "1 (2-inch) piece Fresh Ginger, julienned"
+  - '1 (2-inch) piece Fresh Ginger, julienned'
   - '2 Scallions, cut into silken threads'
   - Fresh Cilantro leaves
   - 2 tbsp Peanut Oil (or high-heat oil)
@@ -50,6 +50,8 @@ nutrition:
   fiber: 1.5
   sugar: 5
   sodium: 1040
+source: Adapted from rasamalaysia.com
+sourceUrl: 'https://rasamalaysia.com/steamed-fish-recipe/'
 ---
 
 ## Chef's Note

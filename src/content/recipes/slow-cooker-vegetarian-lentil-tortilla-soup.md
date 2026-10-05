@@ -50,6 +50,8 @@ nutrition:
   fiber: 9
   sugar: 3
   sodium: 260
+source: Adapted from Peasandcrayons.com
+sourceUrl: 'https://peasandcrayons.com/2017/02/vegetarian-lentil-tortilla-soup.html'
 ---
 
 ## Chef's Note
@@ -65,3 +67,6 @@ For kids, serve the heat on the side or reduce/omit the spicy elements.
 4.  **Finish:** Stir in the fresh lime juice. Season with salt and pepper.
 5.  **Serve:** Ladle into bowls. Pile on the "Texture Stacks": crushed tortilla chips, diced avocado, and fresh cilantro.
 
+## Cooking Notes
+
+Choose salsa and jalapeño amounts to control heat. Cream can be omitted; half-and-half makes a lighter alternative. For a thicker bowl, stir in crushed tortilla chips. Taste before salting because broth, tomatoes and beans vary in sodium.

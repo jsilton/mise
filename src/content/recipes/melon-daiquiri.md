@@ -43,6 +43,7 @@ nutrition:
   fiber: 3
   sugar: 400.5
   sodium: 20
+source: 'Adapted from The Ritz-Carlton, Cancun'
 ---
 
 ## Chef's Note

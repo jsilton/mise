@@ -49,6 +49,8 @@ nutrition:
   fiber: 4.5
   sugar: 57
   sodium: 220
+source: Adapted from pbs.org
+sourceUrl: 'https://www.pbs.org/food/features/martha-bakes-north-american-cookies/'
 ---
 
 ## Chef's Note

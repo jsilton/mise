@@ -50,6 +50,8 @@ nutrition:
   fiber: 0.5
   sugar: 2.5
   sodium: 960
+source: Adapted from cooking.nytimes.com
+sourceUrl: 'https://cooking.nytimes.com/recipes/1024643-yaki-udon?smid=ck-recipe-iOS-share'
 ---
 
 ## Chef's Note

@@ -49,6 +49,7 @@ nutrition:
   fiber: 1
   sugar: 1.5
   sodium: 1200
+source: Adapted from Puffy Muffin
 ---
 
 ## Chef's Note

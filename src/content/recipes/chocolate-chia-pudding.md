@@ -42,6 +42,8 @@ nutrition:
   fiber: 1
   sugar: 66.5
   sodium: 790
+source: Adapted from eatingbirdfood.com
+sourceUrl: 'https://www.eatingbirdfood.com/chocolate-chia-pudding/'
 ---
 
 ## Chef's Note

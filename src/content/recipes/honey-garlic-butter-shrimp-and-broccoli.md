@@ -135,6 +135,7 @@ learning:
   review:
     status: editorial-review
     date: '2026-09-06'
+sourceUrl: 'https://butteryourbiscuit.com/honey-garlic-butter-shrimp-broccoli/'
 ---
 
 ## Chef's Note
@@ -152,3 +153,7 @@ This is the richer honey-garlic version: butter, plenty of minced garlic and a g
 4. **Thicken glaze:** Lower heat to medium-low. Add remaining butter, stir the sauce bowl again and pour it in. Bring to a gentle simmer, stirring, about 1–2 minutes until glossy and lightly thickened. Do not boil hard or reduce to a sticky candy. Loosen with a little water if necessary.
 
 5. **Combine:** Return cooked shrimp, broccoli and plate juices. Turn gently for about 30 seconds just to warm and coat. Taste before adding more salt or pepper. Serve promptly over separately prepared rice.
+
+## Cooking Notes
+
+Smaller shrimp cook faster than jumbo shrimp. If using frozen broccoli, thaw and pat it dry before adding it to the pan.

@@ -44,6 +44,8 @@ nutrition:
   fiber: 0.5
   sugar: 14
   sodium: 70
+source: Adapted from Riki Shore
+sourceUrl: 'https://food52.com/recipes/16997-chewy-chocolate-meringues'
 ---
 
 ## Chef's Note

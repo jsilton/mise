@@ -138,6 +138,7 @@ learning:
   review:
     status: editorial-review
     date: '2026-09-06'
+sourceUrl: 'https://cooking.nytimes.com/recipes/1013383-tomato-soup'
 ---
 
 ## Chef's Note

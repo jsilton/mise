@@ -147,6 +147,7 @@ learning:
   review:
     status: editorial-review
     date: '2026-09-06'
+sourceUrl: 'https://www.delish.com/cooking/recipe-ideas/a26830130/ricotta-pasta-recipe/'
 ---
 
 ## Chef's Note

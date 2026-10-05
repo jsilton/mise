@@ -51,6 +51,9 @@ nutrition:
   fiber: 3.5
   sugar: 12
   sodium: 40
+source: Adapted from myfussyeater.com
+sourceUrl: >-
+  https://www.myfussyeater.com/blueberry-oat-breakfast-bar-flapjacks/?fbclid=IwAR13JrU7Ex3syixlLB4WnakqHoubzLDS_l6q-jsruiyBjxFBfag6CsigWrc
 ---
 
 ## Chef's Note
@@ -67,4 +70,3 @@ Firmly pressing the mixture into the pan and then refrigerating for at least one
 6.  **The Finish:** Allow to cool in the pan at room temperature, then transfer to the fridge for at least 1 hour (mandatory) to firm up.
 7.  **Glaze:** Whisk together the yogurt and orange juice. Drizzle over the chilled bars.
 8.  **Slice:** Cut into 8 bars and serve cold or at room temperature.
-

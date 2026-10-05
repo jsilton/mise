@@ -135,6 +135,7 @@ learning:
   review:
     status: editorial-review
     date: '2026-09-06'
+sourceUrl: 'https://www.thekitchn.com/recipe-lemony-broccoli-pasta-253244'
 ---
 
 ## Chef's Note

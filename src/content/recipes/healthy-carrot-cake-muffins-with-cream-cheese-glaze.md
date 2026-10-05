@@ -60,6 +60,9 @@ nutrition:
   fiber: 0.5
   sugar: 35.5
   sodium: 350
+source: Adapted from ambitiouskitchen.com
+sourceUrl: >-
+  https://www.ambitiouskitchen.com/healthy-carrot-cake-muffins-cream-cheese-glaze/
 ---
 
 ## Chef's Note

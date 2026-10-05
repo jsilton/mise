@@ -46,6 +46,9 @@ nutrition:
   fiber: 0.5
   sugar: 12
   sodium: 180
+source: Adapted from ToriAvey.com
+sourceUrl: 'https://toriavey.com/toris-kitchen/buttery-hamantaschen/'
+rating: 4
 ---
 
 ## Chef's Note

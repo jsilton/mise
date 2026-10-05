@@ -43,6 +43,8 @@ seasons:
 nutritionalDensity: moderate
 leftovers: poor
 servings: '4'
+source: Adapted from Steamykitchen.com
+sourceUrl: 'http://steamykitchen.com/4474-korean-style-tacos-with-kogi-bbq-sauce.html'
 ---
 
 ## Chef's Note

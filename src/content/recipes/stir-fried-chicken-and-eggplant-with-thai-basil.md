@@ -128,6 +128,8 @@ learning:
   review:
     status: editorial-review
     date: '2026-09-06'
+source: Adapted from thewoksoflife.com
+sourceUrl: 'https://thewoksoflife.com/japanese-eggplant-chicken-thai-basil-stir-fry/'
 ---
 
 ## Chef's Note

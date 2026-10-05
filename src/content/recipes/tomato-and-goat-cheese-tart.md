@@ -49,6 +49,8 @@ nutritionalDensity: moderate
 leftovers: good
 advancePrep:
   - freeze-ahead
+source: Adapted from foodandwine.com
+sourceUrl: 'https://www.foodandwine.com/recipes/tomato-and-goat-cheese-tart'
 ---
 
 ## Chef's Note

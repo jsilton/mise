@@ -159,3 +159,7 @@ For a more substantial dinner, one full batch of [Aromatic Purple Rice](/mise/re
 ## Smaller oven
 
 Use the same bake-then-glaze method only with the appliance's approved broiler pan, foil placement and rack clearance. If seven portions do not fit with space between them, cook in separate batches and allow roughly 20–25 extra minutes. Divide the foil oil and glaze between pans and keep the waiting raw fish chilled. The first batch will rest longer and lose heat; a full-size oven is the simpler way to serve all seven portions together.
+
+## Cooking Notes
+
+A ten-ounce package of frozen corn can replace fresh corn. For a gluten-free preparation, check the broth and canned-bean labels as well as the other ingredients.

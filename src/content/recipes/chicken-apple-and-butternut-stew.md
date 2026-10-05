@@ -118,6 +118,8 @@ learning:
   review:
     status: editorial-review
     date: '2026-09-06'
+source: Adapted from Myrecipes.com
+sourceUrl: 'http://www.myrecipes.com/recipe/chicken-apple-butternut-stew'
 ---
 
 ## Chef's Note

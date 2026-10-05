@@ -65,6 +65,10 @@ nutrition:
   fiber: 1
   sugar: 104
   sodium: 840
+source: Adapted from ajc.com
+sourceUrl: >-
+  https://www.ajc.com/things-to-do/food-and-recipes/recipe-apple-syrup-is-key-to-moist-carrot-cake/NFOH5GZCPFHDXPD3WU2ZD6TDNU/?fbclid=IwAR0mPjiVsWlmKp6Q16-0zVkVk6g_oK8Iys0zLMuRUF7HMtIBsTJhs6pq_sc
+rating: 5
 ---
 
 ## Chef's Note

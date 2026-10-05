@@ -49,6 +49,8 @@ nutrition:
   fiber: 0
   sugar: 0
   sodium: 210
+source: Adapted from ricekrispies.com
+sourceUrl: 'https://www.ricekrispies.com/en_US/recipes/the-original-treats-recipe.html'
 ---
 
 ## Chef's Note

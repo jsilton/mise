@@ -54,6 +54,8 @@ nutrition:
   fiber: 3.5
   sugar: 51
   sodium: 610
+source: Adapted from glow-diaries.com
+sourceUrl: 'https://glow-diaries.com/choc-blended-oats/'
 ---
 
 ## Chef's Note

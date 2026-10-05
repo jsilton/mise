@@ -193,6 +193,8 @@ learning:
   review:
     status: editorial-review
     date: '2026-09-06'
+source: Adapted from Einat Admony
+sourceUrl: 'https://www.kcet.org/food/falafel-by-einat-admony'
 ---
 
 ## Chef's Note

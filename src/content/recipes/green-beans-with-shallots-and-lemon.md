@@ -99,6 +99,8 @@ learning:
   review:
     status: editorial-review
     date: '2026-09-06'
+source: Adapted from downshiftology.com
+sourceUrl: 'https://downshiftology.com/recipes/green-beans-with-shallots/'
 ---
 
 ## Chef's Note

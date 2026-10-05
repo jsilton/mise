@@ -53,6 +53,8 @@ nutrition:
   fiber: 0
   sugar: 0.5
   sodium: 90
+source: Adapted from healthynibblesandbits.com
+sourceUrl: 'https://healthynibblesandbits.com/cantonese-shumai-siu-mai/'
 ---
 
 ## Chef's Note
@@ -67,3 +69,7 @@ Shumai (also spelled siu mai) are open-topped Cantonese dumplings, a dim sum sta
 4.  **Garnish:** Press a tiny amount of diced carrot into the center of each top.
 5.  **Steam:** Place in a bamboo steamer lined with parchment. Steam over boiling water for 8-10 minutes until the internal temp is 165°F.
 6.  **Serve:** Serve immediately with hot chili oil.
+
+## Cooking Notes
+
+Fresh water chestnuts add crunch; peel, rinse and chop them finely if using. A ten-inch steamer typically holds about fifteen shumai with space between them. Upper baskets can cook more slowly, so check dumplings from each rack rather than assuming one timer covers both.

@@ -52,6 +52,8 @@ nutrition:
   fiber: 3
   sugar: 3
   sodium: 2760
+source: Adapted from chocolatecoveredkatie.com
+sourceUrl: 'https://chocolatecoveredkatie.com/cauliflower-alfredo-sauce-recipe/'
 ---
 
 ## Chef's Note

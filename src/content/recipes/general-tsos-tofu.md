@@ -63,6 +63,8 @@ nutrition:
   fiber: 5
   sugar: 12
   sodium: 820
+source: Adapted from thewoksoflife.com
+sourceUrl: 'https://thewoksoflife.com/general-tsos-tofu/'
 ---
 
 ## Chef's Note

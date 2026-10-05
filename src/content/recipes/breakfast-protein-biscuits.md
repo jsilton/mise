@@ -49,6 +49,8 @@ nutrition:
   fiber: 1
   sugar: 1.5
   sodium: 730
+source: Adapted from nourishedbynic.com
+sourceUrl: 'https://nourishedbynic.com/breakfast-protein-biscuits/#recipe'
 ---
 
 ## Chef's Note

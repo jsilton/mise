@@ -49,6 +49,8 @@ nutrition:
   fiber: 2.5
   sugar: 9.5
   sodium: 1990
+source: Adapted from thewoksoflife.com
+sourceUrl: 'https://thewoksoflife.com/cantonese-steamed-fish/'
 ---
 
 ## Chef's Note

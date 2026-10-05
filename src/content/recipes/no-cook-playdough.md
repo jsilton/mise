@@ -47,6 +47,8 @@ nutrition:
   fiber: 3.5
   sugar: 0.5
   sodium: 139510
+source: Adapted from tinkerlab.com
+sourceUrl: 'https://tinkerlab.com/no-cook-play-dough/'
 ---
 
 ## Chef's Note

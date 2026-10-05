@@ -53,6 +53,8 @@ nutrition:
   fiber: 8
   sugar: 4
   sodium: 1370
+source: Adapted from jenneatsgoood.com
+sourceUrl: 'https://jenneatsgoood.com/harvest-sheet-pan-gnocchi-crispy-kale/'
 ---
 
 ## Chef's Note

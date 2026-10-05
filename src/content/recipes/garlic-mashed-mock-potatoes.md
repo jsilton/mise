@@ -50,6 +50,8 @@ nutrition:
   fiber: 0.5
   sugar: 0.5
   sodium: 20
+source: Adapted from Foodnetwork.com
+sourceUrl: 'http://www.foodnetwork.com/recipes/mock-garlic-mashed-potatoes-recipe-1942447'
 ---
 
 ## Chef's Note

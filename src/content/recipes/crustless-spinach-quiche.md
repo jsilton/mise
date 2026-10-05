@@ -46,6 +46,7 @@ nutrition:
   fiber: 1.5
   sugar: 3
   sodium: 740
+source: Adapted from Rebecca Cybulsky
 ---
 
 ## Chef's Note

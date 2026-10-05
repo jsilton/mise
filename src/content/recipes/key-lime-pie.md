@@ -47,6 +47,8 @@ nutrition:
   fiber: 1.5
   sugar: 7
   sodium: 350
+source: Adapted from Epicurious.com
+sourceUrl: 'http://www.epicurious.com/recipes/food/views/key-lime-pie-108125'
 ---
 
 ## Chef's Note

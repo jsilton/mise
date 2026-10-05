@@ -40,7 +40,7 @@ ingredients:
   - '--- Chicken and vegetables ---'
   - '2 lbs (900 g) boneless skinless chicken thighs, cut into 1-inch pieces'
   - '600 g broccoli, cut into small florets with peeled stems thinly sliced'
-  - "2 medium yellow onions (about 300 g total), sliced"
+  - '2 medium yellow onions (about 300 g total), sliced'
   - '3 cloves garlic, minced'
   - '2 tbsp neutral oil, divided'
   - '1/3 cup (80 ml) water, for steaming broccoli'
@@ -123,6 +123,7 @@ learning:
   review:
     status: editorial-review
     date: '2026-09-06'
+source: Adapted from Gwock Family
 ---
 
 ## Chef's Note

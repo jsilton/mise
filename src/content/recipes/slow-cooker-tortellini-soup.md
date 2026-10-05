@@ -127,6 +127,8 @@ learning:
   review:
     status: editorial-review
     date: '2026-09-06'
+source: Adapted from 365daysofcrockpot.com
+sourceUrl: 'https://www.365daysofcrockpot.com/slow-cooker-tortellini-spinach-soup/'
 ---
 
 ## Chef's Note

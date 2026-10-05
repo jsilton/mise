@@ -51,6 +51,9 @@ nutrition:
   fiber: 2.5
   sugar: 4.5
   sodium: 880
+source: Adapted from Foodnetwork.com
+sourceUrl: >-
+  http://www.foodnetwork.com/recipes/robert-irvine/roasted-corn-chowder-with-lime-cured-shrimp-recipe-1947204
 ---
 
 ## Chef's Note

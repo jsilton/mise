@@ -48,6 +48,9 @@ nutrition:
   fiber: 3
   sugar: 6
   sodium: 540
+source: Adapted from ambitiouskitchen.com
+sourceUrl: >-
+  https://www.ambitiouskitchen.com/cottage-cheese-banana-oatmeal-protein-pancakes/
 ---
 
 ## Chef's Note

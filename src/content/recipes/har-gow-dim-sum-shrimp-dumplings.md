@@ -56,6 +56,8 @@ nutrition:
   fiber: 0
   sugar: 0.5
   sodium: 260
+source: Adapted from thewoksoflife.com
+sourceUrl: 'https://thewoksoflife.com/har-gow/'
 ---
 
 ## Chef's Note

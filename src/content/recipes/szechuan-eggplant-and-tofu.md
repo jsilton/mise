@@ -154,6 +154,9 @@ learning:
   review:
     status: editorial-review
     date: '2026-09-06'
+source: Adapted from Foodnetwork.com
+sourceUrl: >-
+  http://www.foodnetwork.com/recipes/jeff-mauro/crispy-szechuan-style-eggplant-and-tofu-2352484
 ---
 
 ## Chef's Note

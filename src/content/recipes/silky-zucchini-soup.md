@@ -146,6 +146,7 @@ learning:
   review:
     status: editorial-review
     date: '2026-09-06'
+sourceUrl: 'http://www.foodandwine.com/recipes/silky-zucchini-soup'
 ---
 
 ## Chef's Note

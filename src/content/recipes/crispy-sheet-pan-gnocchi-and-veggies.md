@@ -54,11 +54,14 @@ nutrition:
   fiber: 7
   sugar: 14.5
   sodium: 810
+source: Adapted from Thekitchn.com
+sourceUrl: 'https://www.thekitchn.com/recipe-crispy-sheet-pan-gnocchi-and-veggies-247360'
 ---
 
 ## Chef's Note
 
 Sheet-pan gnocchi is a weeknight formula: gnocchi crisps on hot oil and high heat like little dumplings, while vegetables roast around them. The gnocchi needs space - don't crowd the pan or they steam instead of frying. Shake the pan halfway through so they brown on all sides and develop that crucial crunchy exterior.
+
 ## Directions
 
 1.  **Prep:** Preheat oven to 450°F. Line a large rimmed baking sheet with parchment paper.

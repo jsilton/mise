@@ -54,6 +54,8 @@ nutrition:
   fiber: 0
   sugar: 0
   sodium: 60
+source: Adapted from allrecipes.com
+sourceUrl: 'https://www.allrecipes.com/recipe/127491/easy-oreo-truffles/'
 ---
 
 ## Chef's Note

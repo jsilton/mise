@@ -48,6 +48,9 @@ nutrition:
   fiber: 2
   sugar: 4
   sodium: 340
+source: Adapted from eatingwell.com
+sourceUrl: >-
+  https://www.eatingwell.com/recipe/7919563/spaghetti-spinach-with-sun-dried-tomato-cream-sauce/
 ---
 
 ## Chef's Note

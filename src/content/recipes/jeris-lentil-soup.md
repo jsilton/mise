@@ -58,6 +58,7 @@ nutrition:
   fiber: 26
   sugar: 16
   sodium: 1320
+source: Adapted from Pat Miller
 ---
 
 ## Chef's Note
@@ -76,3 +77,7 @@ This traditional recipe was a wedding gift from Pat Miller and Sean Kilpatrick, 
 ## Notes
 
 _This recipe was a wedding gift from Pat Miller and Sean Kilpatrick, passed down from Jeri, a Broadway dancer turned nutritionist. It is designed to sustain you through long rehearsals and busy weeks._
+
+## Cooking Notes
+
+Jeri’s soup accompanied a wedding gift from Pat Miller and Sean Kilpatrick. Their note describes Jeri’s years dancing on Broadway and Off-Broadway, including the original production of West Side Story, and the soup’s place in busy rehearsal and performance weeks.

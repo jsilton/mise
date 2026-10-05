@@ -52,6 +52,8 @@ nutrition:
   fiber: 0.5
   sugar: 0.5
   sodium: 150
+source: Adapted from everydaydishes.com
+sourceUrl: 'http://everydaydishes.com/simple-food-recipes/broccoli-cheddar-quinoa-bites/'
 ---
 
 ## Chef's Note

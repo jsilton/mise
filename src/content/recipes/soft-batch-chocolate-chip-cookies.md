@@ -55,11 +55,14 @@ nutrition:
   fiber: 0.5
   sugar: 11.5
   sodium: 90
+source: Adapted from joyfoodsunshine.com
+sourceUrl: 'https://joyfoodsunshine.com/the-most-amazing-chocolate-chip-cookies/'
 ---
 
 ## Chef's Note
 
 Soft-batch cookies are built on restraint: the ratio of brown sugar to granulated sugar favors moisture, and pulling them pale (not golden) means they finish setting on the hot pan rather than in the oven, staying tender throughout. This is the opposite of the crispy-edged cookie - it's about achieving that bakery shelf texture that stays soft for days.
+
 ## Directions
 
 1.  **Dry Mix:** Whisk flour, baking soda, baking powder, and salt.

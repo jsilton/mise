@@ -53,6 +53,8 @@ nutrition:
   fiber: 0
   sugar: 35
   sodium: 330
+source: Adapted from Saveur.com
+sourceUrl: 'https://www.saveur.com/article/Recipes/Peach-Ice-Cream'
 ---
 
 ## Chef's Note

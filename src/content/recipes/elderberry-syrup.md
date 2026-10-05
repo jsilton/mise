@@ -44,6 +44,8 @@ nutrition:
   fiber: 2
   sugar: 264
   sodium: 20
+source: Adapted from Wellnessmama.com
+sourceUrl: 'https://wellnessmama.com/1888/elderberry-syrup/'
 ---
 
 ## Chef's Note
@@ -57,5 +59,5 @@ This spiced elderberry-and-honey syrup is a culinary preparation. Use food-grade
 3.  **Mash:** Remove from heat. Use a flat utensil or potato masher to crush the berries, releasing any remaining juice.
 4.  **Strain:** Pour the mixture through a fine-mesh sieve or cheesecloth into a clean glass jar. Press firmly on the solids. Discard the berries.
 5.  **Sweeten:** Let the liquid cool until it is lukewarm (below 110°F). Stir in the raw honey until completely dissolved and integrated.
-6. **Freeze for storage:** Cool promptly in small, clean containers and freeze in portions suitable for later use, leaving freezer-safe headspace. Thaw only the portion needed in the refrigerator. Do not can this syrup or try to make it shelf-stable by adding alcohol or citric acid.
-7. **Serve as a food:** Use a little for flavor in a drink or with food if desired. This homemade syrup has no established standard medicinal dose for children or adults.
+6.  **Freeze for storage:** Cool promptly in small, clean containers and freeze in portions suitable for later use, leaving freezer-safe headspace. Thaw only the portion needed in the refrigerator. Do not can this syrup or try to make it shelf-stable by adding alcohol or citric acid.
+7.  **Serve as a food:** Use a little for flavor in a drink or with food if desired. This homemade syrup has no established standard medicinal dose for children or adults.

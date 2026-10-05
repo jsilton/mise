@@ -146,6 +146,7 @@ learning:
   review:
     status: editorial-review
     date: '2026-09-06'
+sourceUrl: 'https://thewoksoflife.com/soy-sauce-butter-pasta-shrimp-shiitakes/'
 ---
 
 ## Chef's Note

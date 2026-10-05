@@ -116,6 +116,8 @@ learning:
   review:
     status: editorial-review
     date: '2026-09-06'
+source: Adapted from omnivorescookbook.com
+sourceUrl: 'https://omnivorescookbook.com/chicken-and-broccoli/'
 ---
 
 ## Chef's Note

@@ -57,6 +57,9 @@ pairsWith:
   - peach-pie-biscuit-bombs
   - apple-cider-cream-pie
   - apple-pie
+source: Adapted from Bakingthegoods.com
+sourceUrl: >-
+  http://bakingthegoods.com/2016/04/06/strawberry-rhubarb-shortcake-with-whipped-mascarpone/
 ---
 
 ## Chef's Note

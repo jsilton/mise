@@ -125,6 +125,7 @@ learning:
   review:
     status: editorial-review
     date: '2026-09-06'
+sourceUrl: 'https://rasamalaysia.com/garlic-honey-lime-shrimp/'
 ---
 
 ## Chef's Note

@@ -45,6 +45,8 @@ nutrition:
   fiber: 1
   sugar: 4.5
   sodium: 1440
+source: Adapted from lilluna.com
+sourceUrl: 'https://lilluna.com/buttermilk-waffles/'
 ---
 
 ## Chef's Note

@@ -52,6 +52,8 @@ nutrition:
   fiber: 1.5
   sugar: 4
   sodium: 290
+source: Adapted from Mykidslickthebowl.com
+sourceUrl: 'https://mykidslickthebowl.com/baby-led-weaning-muffins-apple-banana-carrot/'
 ---
 
 ## Chef's Note
@@ -67,3 +69,7 @@ The common flaw in "Healthy" muffins is a gummy, dense texture. We solve this by
 5.  **Fold:** Gently fold the dry ingredients into the wet until **just combined**. Do not over-mix, or the muffins will be tough.
 6.  **Bake:** Portion into the tin. Bake for 20-25 minutes (standard) or 15 minutes (mini) until a tester comes out clean.
 7.  **Rest:** Cool on a wire rack.
+
+## Cooking Notes
+
+For a dairy-free version, replace melted butter with the same amount of mild vegetable oil. The added fat makes the crumb softer and helps it stay soft. Mini muffins bake faster than the standard-size batch; start checking at about 15 minutes.

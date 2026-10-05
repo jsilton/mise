@@ -51,6 +51,8 @@ nutrition:
   fiber: 0
   sugar: 219
   sodium: 2550
+source: Adapted from Addapinch.com
+sourceUrl: 'https://addapinch.com/old-fashioned-vanilla-ice-cream-recipe/'
 ---
 
 ## Chef's Note

@@ -140,6 +140,8 @@ learning:
   review:
     status: editorial-review
     date: '2026-09-06'
+source: Adapted from recipetineats.com
+sourceUrl: 'https://www.recipetineats.com/thai-stir-fried-noodles-pad-see-ew/'
 ---
 
 ## Chef's Note

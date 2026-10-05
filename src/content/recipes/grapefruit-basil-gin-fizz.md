@@ -49,6 +49,8 @@ nutrition:
   fiber: 7.5
   sugar: 30
   sodium: 10
+source: Adapted from rachaelraymag.com
+sourceUrl: 'https://www.rachaelraymag.com/recipe/grapefruit-basil-gin-fiz'
 ---
 
 ## Chef's Note

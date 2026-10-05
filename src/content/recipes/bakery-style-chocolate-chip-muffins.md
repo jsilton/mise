@@ -50,6 +50,8 @@ nutrition:
   fiber: 3.5
   sugar: 30.5
   sodium: 660
+source: Adapted from littlesweetbaker.com
+sourceUrl: 'https://www.littlesweetbaker.com/bakery-style-chocolate-chip-muffins-2/'
 ---
 
 ## Chef's Note

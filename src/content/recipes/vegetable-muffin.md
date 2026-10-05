@@ -49,6 +49,8 @@ ingredients:
   - 1/4 tsp Salt
   - 1/4 cup Dark Chocolate Chips
 origin: United States
+source: Adapted from thenaturalnurturer.com
+sourceUrl: 'https://thenaturalnurturer.com/healthy-chocolate-muffins-with-veggies/'
 ---
 
 ## Chef's Note
@@ -62,3 +64,7 @@ These are ideal for busy families looking to sneak vegetables into breakfast. Th
 3.  **Combine:** Pour the green emulsion into the dry ingredients. Stir with a spatula until **just mixed**. Fold in the chocolate chips.
 4.  **Bake:** Preheat oven to 350°F. Line a 12-cup tin. Fill each 3/4 full. Bake for 20-22 minutes until a toothpick comes out clean.
 5.  **Cool:** Let rest in the pan for 5 minutes. These freeze perfectly for up to 3 months.
+
+## Cooking Notes
+
+If serving a dairy-free version, check that any optional chocolate chips are also dairy-free.

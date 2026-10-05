@@ -45,6 +45,8 @@ nutrition:
   fiber: 1
   sugar: 0
   sodium: 650
+source: Adapted from cooking.nytimes.com
+sourceUrl: 'https://cooking.nytimes.com/recipes/12690-grilled-pork-and-peaches'
 ---
 
 ## Chef's Note

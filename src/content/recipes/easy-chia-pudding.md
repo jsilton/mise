@@ -47,6 +47,8 @@ nutrition:
   fiber: 0
   sugar: 13
   sodium: 90
+source: Adapted from eatingbirdfood.com
+sourceUrl: 'https://www.eatingbirdfood.com/basic-chia-seed-pudding/'
 ---
 
 ## Chef's Note

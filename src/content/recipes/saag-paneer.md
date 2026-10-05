@@ -153,6 +153,7 @@ learning:
   review:
     status: editorial-review
     date: '2026-09-06'
+rating: 5
 ---
 
 ## Chef's Note

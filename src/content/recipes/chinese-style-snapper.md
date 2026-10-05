@@ -26,7 +26,7 @@ pairsWith:
 ingredients:
   - '1.8 kg Whole Snapper, scaled and gutted'
   - '3 cloves Garlic, finely chopped'
-  - "1 (3-inch) piece Fresh Ginger, finely shredded"
+  - '1 (3-inch) piece Fresh Ginger, finely shredded'
   - 1/4 cup Soy Sauce
   - 1/4 cup Chicken Broth
   - 2 tbsp Chinese Rice Wine (Shaoxing)
@@ -47,6 +47,9 @@ nutrition:
   fiber: 0
   sugar: 0.5
   sodium: 2810
+source: Adapted from taste.com.au
+sourceUrl: >-
+  https://www.taste.com.au/recipes/chinese-style-snapper/fd791197-4ba2-4cc8-9a88-560eeaa101d3
 ---
 
 ## Chef's Note

@@ -45,6 +45,8 @@ nutrition:
   fiber: 1.5
   sugar: 15
   sodium: 500
+source: Adapted from halfbakedharvest.com
+sourceUrl: 'https://www.halfbakedharvest.com/skillet-balsamic-peach-pork-chops/'
 ---
 
 ## Chef's Note

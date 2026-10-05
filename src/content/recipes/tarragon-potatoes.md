@@ -49,6 +49,7 @@ nutrition:
   fiber: 1
   sugar: 0.5
   sodium: 420
+source: Adapted from Craig Plummer
 ---
 
 ## Chef's Note

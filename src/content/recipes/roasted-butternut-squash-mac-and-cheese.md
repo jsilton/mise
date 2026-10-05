@@ -51,6 +51,8 @@ nutrition:
   fiber: 3.5
   sugar: 7.5
   sodium: 1730
+source: Adapted from Thefeedfeed.com
+sourceUrl: 'https://thefeedfeed.com/video/roasted-butternut-squash-mac-and-cheese'
 ---
 
 ## Chef's Note
@@ -66,5 +68,3 @@ Roasting butternut squash at 400°F until tender and charred before folding it i
 5.  **Combine:** Fold the pasta and roasted squash into the cheese sauce. Transfer to a greased 2-quart dish.
 6.  **The Crunch:** Toss panko with 2 tbsp melted butter and Parmesan. Sprinkle over the top.
 7.  **Bake:** Bake at 350°F for 30 minutes until bubbling and mahogany gold.
-
-

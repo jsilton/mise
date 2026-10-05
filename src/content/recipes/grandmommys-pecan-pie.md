@@ -45,11 +45,13 @@ nutrition:
   fiber: 21.5
   sugar: 135.5
   sodium: 1300
+source: Adapted from Miriam Hamilton
 ---
 
 ## Chef's Note
 
 Southern pecan pie is built on a simple syrup custard that's meant to barely set - you're aiming for that wobbling center that firms up completely as it cools. Karo syrup is traditional for a reason: it creates the right balance of sweetness and texture without crystallizing. Don't skip the cooling step; this pie needs at least two hours to develop its proper structure.
+
 ## Directions
 
 1.  **Prep:** Preheat oven to 350°F. Place the unbaked pie shells on a baking sheet.

@@ -197,6 +197,8 @@ formula:
     - id: cool
       title: Cool
       text: Let cool completely in the pan before slicing so the structure can firm up.
+source: Adapted from thatskinnychickcanbake.com
+sourceUrl: 'https://www.thatskinnychickcanbake.com/chocolate-chip-cookie-cake/'
 ---
 
 ## Chef's Note

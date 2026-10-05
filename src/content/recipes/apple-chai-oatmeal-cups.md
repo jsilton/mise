@@ -55,11 +55,14 @@ nutrition:
   fiber: 3
   sugar: 7.5
   sodium: 60
+source: Adapted from Fitfoodiefinds.com
+sourceUrl: 'https://fitfoodiefinds.com/video-meal-prep-apple-chai-oatmeal-cups//'
 ---
 
 ## Chef's Note
 
 Chai-spiced oatmeal is a meal-prep staple that tastes warm and comforting straight from the fridge, no reheating needed. Cardamom, ginger, and allspice bloom in melted coconut oil before mixing into the batter, distributing the spice evenly instead of leaving it in scattered bits. The mashed banana and eggs bind everything into dense, satisfying cups that stay moist for days.
+
 ## Directions
 
 1.  **Bloom:** In a small bowl, whisk the melted coconut oil with all the chai spices. Let sit for 2 minutes.

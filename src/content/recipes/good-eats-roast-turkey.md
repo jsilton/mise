@@ -175,6 +175,9 @@ scaling:
     This brine and roasting plan is for one 14–16 lb whole turkey. A different
     bird size needs its own brine quantity, equipment and cooking plan;
     ingredient amounts and time cannot simply be multiplied.
+source: Adapted from Foodnetwork.com
+sourceUrl: >-
+  http://www.foodnetwork.com/recipes/alton-brown/good-eats-roast-turkey-recipe-1950271
 ---
 
 ## Chef's Note

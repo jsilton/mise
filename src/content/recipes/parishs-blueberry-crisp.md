@@ -48,11 +48,15 @@ nutrition:
   fiber: 1
   sugar: 46.5
   sodium: 390
+source: Adapted from Parish
+sourceUrl: >-
+  https://www.myajc.com/lifestyles/food--cooking/brown-butter-key-parish-blueberry-crisp/ht0uxKmxnFIptyggBS5fpL/
 ---
 
 ## Chef's Note
 
 A crisp lives or dies by its topping - here, the secret is cooking the butter to brown butter stage (dark milk solids, nutty aroma) before mixing with the dry ingredients, so every crumb tastes like toasted nuts. The blueberry filling is tightened with cornstarch and lemon juice, preventing a soupy cobbler while keeping the fruit's bright acidity front and center.
+
 ## Directions
 
 1.  **The Fruit:** In a saucepan, combine blueberries, 1/4 cup water, and lemon juice. Whisk sugar and cornstarch together and stir into the fruit. Cook over medium for 4 minutes until the juices thicken. Pour into a greased 9-inch square dish.
@@ -60,3 +64,7 @@ A crisp lives or dies by its topping - here, the secret is cooking the butter to
 3.  **The Mix:** In a large bowl, whisk flour, brown sugar, and salt. Drizzle the brown butter over the mix. Stir with a fork until large, crispy clumps form.
 4.  **Bake:** Sprinkle the crumble generously over the fruit. Bake at 350°F for 30 minutes until the fruit is bubbling and the topping is a deep mahogany.
 5.  **Serve:** Let cool for 10 minutes to allow the syrup to set. Serve warm with a scoop of [Vanilla Ice Cream](/mise/recipes/old-fashioned-vanilla-ice-cream).
+
+## Cooking Notes
+
+Peaches, strawberries or cherries can replace blueberries, with baking time adjusted for their moisture and tenderness. For cherries, almond flour and sliced almonds can be used in the crumble; toasted pecans suit peaches. Sprinkle only as much crumble as desired and save surplus for another bake.

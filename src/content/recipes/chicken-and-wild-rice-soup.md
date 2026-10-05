@@ -118,6 +118,8 @@ learning:
   review:
     status: editorial-review
     date: '2026-09-06'
+source: Adapted from Chowhound.com
+sourceUrl: 'https://www.chowhound.com/recipes/chicken-and-wild-rice-soup-11481'
 ---
 
 ## Chef's Note

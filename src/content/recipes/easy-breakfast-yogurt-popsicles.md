@@ -46,6 +46,8 @@ nutrition:
   fiber: 0.5
   sugar: 7.5
   sodium: 20
+source: Adapted from Iheartnaptime.net
+sourceUrl: 'https://www.iheartnaptime.net/breakfast-popsicles/'
 ---
 
 ## Chef's Note

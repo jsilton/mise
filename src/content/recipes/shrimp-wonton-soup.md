@@ -48,6 +48,8 @@ ingredients:
   - Chopped Fresh Coriander, for garnish
   - 1 tbsp Black Vinegar, for serving, optional
 origin: China
+source: Adapted from Chinasichuanfood.com
+sourceUrl: 'http://www.chinasichuanfood.com/chinese-shrimp-wonton-soup/'
 ---
 
 ## Chef's Note

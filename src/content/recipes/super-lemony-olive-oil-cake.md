@@ -54,11 +54,15 @@ nutrition:
   fiber: 0.5
   sugar: 22.5
   sodium: 260
+source: Adapted from bonappetit.com
+sourceUrl: >-
+  https://www.bonappetit.com/recipe/super-lemony-olive-oil-cake?intcid=inline_amp
 ---
 
 ## Chef's Note
 
 This dish comes from a home cooking tradition where technique and respect for ingredients matter more than complexity. The key is not overbaking - pull it from the oven when it still looks slightly underdone, and residual heat will finish the job perfectly.
+
 ## Directions
 
 1.  **Thermal Prep:** Preheat oven to 350°F. Line a 9-inch springform pan with parchment.

@@ -44,6 +44,8 @@ nutrition:
   fiber: 1.5
   sugar: 2.5
   sodium: 10
+source: Adapted from Epicurious.com
+sourceUrl: 'http://www.epicurious.com/recipes/food/views/miso-soup-103391'
 ---
 
 ## Chef's Note

@@ -52,6 +52,9 @@ nutrition:
   fiber: 1.5
   sugar: 30
   sodium: 240
+source: Adapted from thepioneerwoman.com
+sourceUrl: >-
+  https://www.thepioneerwoman.com/food-cooking/recipes/a37810333/chocolate-crinkle-cookies-recipe/
 ---
 
 ## Chef's Note

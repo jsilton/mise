@@ -33,7 +33,7 @@ pairsWith:
   - basmati-rice
   - smashed-cucumber-salad
 ingredients:
-  - "2 racks Pork Spareribs (4 lbs total), cut into 3-rib sections"
+  - '2 racks Pork Spareribs (4 lbs total), cut into 3-rib sections'
   - 1/2 cup Hoisin Sauce
   - 1/4 cup Soy Sauce
   - 1 tbsp Molasses
@@ -51,6 +51,8 @@ nutrition:
   fiber: 1
   sugar: 148.5
   sodium: 5040
+source: Adapted from Foodandwine.com
+sourceUrl: 'http://www.foodandwine.com/recipes/honey-glazed-spareribs'
 ---
 
 ## Chef's Note

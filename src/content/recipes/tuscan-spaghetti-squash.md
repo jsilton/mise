@@ -53,6 +53,9 @@ nutrition:
   fiber: 1
   sugar: 2.5
   sodium: 320
+source: Adapted from Delish.com
+sourceUrl: >-
+  http://www.delish.com/cooking/recipe-ideas/recipes/a50703/cheesy-tuscan-spaghetti-squash-recipe/
 ---
 
 ## Chef's Note

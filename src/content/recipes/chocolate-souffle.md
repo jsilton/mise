@@ -54,6 +54,8 @@ nutrition:
   fiber: 0
   sugar: 51
   sodium: 690
+source: Adapted from Epicurious.com
+sourceUrl: 'http://www.epicurious.com/recipes/food/views/chocolate-souffle-106173'
 ---
 
 ## Chef's Note

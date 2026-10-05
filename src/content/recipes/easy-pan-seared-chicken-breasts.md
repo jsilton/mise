@@ -95,6 +95,8 @@ learning:
   review:
     status: editorial-review
     date: '2026-09-06'
+source: Adapted from whatsinthepan.com
+sourceUrl: 'https://whatsinthepan.com/easy-pan-seared-chicken/'
 ---
 
 ## Chef's Note

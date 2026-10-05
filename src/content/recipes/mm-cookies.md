@@ -46,6 +46,8 @@ nutrition:
   fiber: 0
   sugar: 6
   sodium: 20
+source: Adapted from allrecipes.com
+sourceUrl: 'https://www.allrecipes.com/recipe/10785/robbis-mms-cookies/'
 ---
 
 ## Chef's Note

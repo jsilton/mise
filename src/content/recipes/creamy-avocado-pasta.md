@@ -53,6 +53,9 @@ nutrition:
   fiber: 6
   sugar: 2
   sodium: 20
+source: Adapted from Thekitchn.com
+sourceUrl: >-
+  http://www.thekitchn.com/how-to-make-creamy-avocado-pasta-242477?utm_medium=email&utm_campaign=TK%252520Daily%25252032417%252520-%252520Creamy%252520Avocado%252520Pasta%252520Our%252520Smartest%252520Takeout%252520Tip%252520%252520More%252520from%252520The%252520Kitchn&utm_content=TK%252520Daily%25252032417%252520-%252520Creamy%252520Avocado%252520Pasta%252520Our%252520Smartest%252520Takeout%252520Tip%252520%252520More%252520from%252520The%252520Kitchn+CID_75fc2b7d54221a9aab02dbe50784f59b&utm_source=email_newsletter&utm_term=READ%252520MORE
 ---
 
 ## Chef's Note

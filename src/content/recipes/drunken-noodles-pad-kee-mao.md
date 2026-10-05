@@ -133,6 +133,8 @@ learning:
   review:
     status: editorial-review
     date: '2026-09-06'
+source: Adapted from thewoksoflife.com
+sourceUrl: 'https://thewoksoflife.com/drunken-noodles-pad-kee-mao/'
 ---
 
 ## Chef's Note

@@ -51,6 +51,9 @@ nutrition:
   fiber: 0.5
   sugar: 31.5
   sodium: 480
+source: Adapted from Foodiewithfamily.com
+sourceUrl: >-
+  https://www.foodiewithfamily.com/chocolate-vanilla-swirl-layer-cake-with-ganache/
 ---
 
 ## Chef's Note

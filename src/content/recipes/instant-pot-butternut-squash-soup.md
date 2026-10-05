@@ -51,6 +51,8 @@ nutrition:
   fiber: 2
   sugar: 5
   sodium: 480
+source: Adapted from damndelicious.net
+sourceUrl: 'https://damndelicious.net/2019/12/29/instant-pot-butternut-squash-soup/'
 ---
 
 ## Chef's Note

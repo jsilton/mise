@@ -52,6 +52,9 @@ nutrition:
   fiber: 2
   sugar: 6.5
   sodium: 960
+source: Adapted from Foodnetwork.com
+sourceUrl: >-
+  http://www.foodnetwork.com/recipes/alton-brown/steel-cut-oatmeal-recipe-1939448
 ---
 
 ## Chef's Note

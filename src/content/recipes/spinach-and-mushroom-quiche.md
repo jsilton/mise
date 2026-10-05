@@ -50,6 +50,8 @@ nutrition:
   fiber: 1.5
   sugar: 4
   sodium: 480
+source: Adapted from eatingwell.com
+sourceUrl: 'https://www.eatingwell.com/recipe/278023/spinach-mushroom-quiche/'
 ---
 
 ## Chef's Note

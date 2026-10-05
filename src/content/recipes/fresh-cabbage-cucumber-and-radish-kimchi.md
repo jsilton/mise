@@ -55,6 +55,8 @@ nutrition:
   fiber: 0.5
   sugar: 3
   sodium: 10290
+source: Adapted from Foodandwine.com
+sourceUrl: 'http://www.foodandwine.com/recipes/fresh-cabbage-cucumber-and-radish-kimchi'
 ---
 
 ## Chef's Note

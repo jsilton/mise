@@ -56,6 +56,8 @@ nutrition:
   fiber: 4
   sugar: 26
   sodium: 320
+source: Adapted from cookieandkate.com
+sourceUrl: 'https://cookieandkate.com/healthy-banana-bread-recipe/'
 ---
 
 ## Chef's Note

@@ -47,6 +47,8 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
+source: Adapted from Saveur.com
+sourceUrl: 'http://www.saveur.com/article/recipes/jewish-gefilte-fish-terrine-recipe'
 ---
 
 ## Chef's Note

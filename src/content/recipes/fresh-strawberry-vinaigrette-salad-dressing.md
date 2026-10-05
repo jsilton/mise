@@ -87,6 +87,7 @@ learning:
   review:
     status: editorial-review
     date: '2026-09-06'
+sourceUrl: 'https://growagoodlife.com/strawberry-vinaigrette/'
 ---
 
 ## Chef's Note

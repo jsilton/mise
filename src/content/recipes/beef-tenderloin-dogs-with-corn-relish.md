@@ -50,6 +50,8 @@ nutrition:
   fiber: 3
   sugar: 10
   sodium: 500
+source: Adapted from Foodandwine.com
+sourceUrl: 'http://www.foodandwine.com/recipes/beef-tenderloin-34dogs-corn-relish'
 ---
 
 ## Chef's Note

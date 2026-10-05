@@ -47,6 +47,8 @@ nutrition:
   fiber: 2
   sugar: 6
   sodium: 390
+source: Adapted from campmicah.com
+sourceUrl: 'https://campmicah.com/chef-krigers-recipe-shabbat-brisket/'
 ---
 
 ## Chef's Note

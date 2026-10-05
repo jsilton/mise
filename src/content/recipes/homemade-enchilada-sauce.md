@@ -51,6 +51,8 @@ nutrition:
   fiber: 8
   sugar: 2
   sodium: 2560
+source: Adapted from Cookieandkate.com
+sourceUrl: 'https://cookieandkate.com/2016/enchilada-sauce-recipe/'
 ---
 
 ## Chef's Note
@@ -66,3 +68,7 @@ For kids, serve the heat on the side or reduce/omit the spicy elements.
 4.  **Simmer:** Increase heat to medium-high and bring to a boil. Reduce heat and simmer for 5-7 minutes until the sauce thickens and coats the back of a spoon.
 5.  **Finish:** Remove from heat. Whisk in the vinegar and black pepper. Taste and add more salt if needed.
 6.  **Store:** Use immediately or store in a glass jar in the fridge for up to 1 week.
+
+## Cooking Notes
+
+A gluten-free all-purpose flour blend can replace the flour. Tomato paste can be omitted for a tomato-free version, with a different flavor; keep the chili powder, cumin and garlic as the seasoning base.

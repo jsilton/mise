@@ -47,6 +47,9 @@ nutrition:
   fiber: 3.5
   sugar: 36
   sodium: 400
+source: Adapted from thepioneerwoman.com
+sourceUrl: >-
+  https://www.thepioneerwoman.com/food-cooking/recipes/a42027300/crock-pot-hot-chocolate-recipe/
 ---
 
 ## Chef's Note

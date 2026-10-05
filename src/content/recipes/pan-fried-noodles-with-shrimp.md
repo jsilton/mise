@@ -53,6 +53,8 @@ nutrition:
   fiber: 3
   sugar: 2.5
   sodium: 1740
+source: Adapted from thewoksoflife.com
+sourceUrl: 'https://thewoksoflife.com/seafood-pan-fried-noodles/'
 ---
 
 ## Chef's Note

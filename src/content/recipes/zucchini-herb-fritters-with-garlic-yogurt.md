@@ -50,6 +50,9 @@ nutrition:
   fiber: 1
   sugar: 1
   sodium: 70
+source: Adapted from Bonappetit.com
+sourceUrl: >-
+  http://www.bonappetit.com/recipe/zucchini-herb-fritters-with-garlic-yogurt?intcid=inline_amp
 ---
 
 ## Chef's Note

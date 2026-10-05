@@ -51,6 +51,9 @@ nutrition:
   fiber: 1.5
   sugar: 2.5
   sodium: 930
+source: Adapted from thepioneerwoman.com
+sourceUrl: >-
+  https://www.thepioneerwoman.com/food-cooking/recipes/a11773/lemon-basil-shrimp-risotto/
 ---
 
 ## Chef's Note

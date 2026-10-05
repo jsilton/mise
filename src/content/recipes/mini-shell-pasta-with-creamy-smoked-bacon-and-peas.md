@@ -143,6 +143,8 @@ learning:
   review:
     status: editorial-review
     date: '2026-09-06'
+sourceUrl: >-
+  https://mobile.nytimes.com/2009/10/11/magazine/11food-rex002.html?referer=https://www.google.com/
 ---
 
 ## Chef's Note

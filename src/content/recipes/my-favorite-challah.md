@@ -43,6 +43,8 @@ nutrition:
   fiber: 14
   sugar: 102
   sodium: 3710
+source: Adapted from cooking.nytimes.com
+sourceUrl: 'https://cooking.nytimes.com/recipes/7199-my-favorite-challah'
 ---
 
 ## Chef's Note

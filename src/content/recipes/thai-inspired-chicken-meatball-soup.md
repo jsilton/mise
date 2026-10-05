@@ -119,6 +119,10 @@ learning:
   review:
     status: editorial-review
     date: '2026-09-06'
+source: Adapted from cooking.nytimes.com
+sourceUrl: >-
+  https://cooking.nytimes.com/recipes/1020631-thai-inspired-chicken-meatball-soup?smid=ck-recipe-iOS-share
+rating: 5
 ---
 
 ## Chef's Note

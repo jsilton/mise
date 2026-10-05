@@ -114,6 +114,8 @@ learning:
   review:
     status: editorial-review
     date: '2026-09-06'
+source: Adapted from damndelicious.net
+sourceUrl: 'https://damndelicious.net/2016/10/27/slow-cooker-chicken-noodle-soup/'
 ---
 
 ## Chef's Note

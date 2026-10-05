@@ -121,6 +121,8 @@ learning:
   review:
     status: editorial-review
     date: '2026-09-06'
+sourceUrl: >-
+  https://www.countryliving.com/food-drinks/recipes/a43551/spicy-peach-avocado-salad-recipe/
 ---
 
 ## Chef's Note

@@ -49,6 +49,8 @@ nutrition:
   fiber: 10.5
   sugar: 12
   sodium: 5300
+source: Adapted from Thaitable.com
+sourceUrl: 'http://www.thaitable.com/thai/recipe/pad-thai'
 ---
 
 ## Chef's Note

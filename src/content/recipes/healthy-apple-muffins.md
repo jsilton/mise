@@ -59,6 +59,8 @@ nutrition:
   fiber: 3
   sugar: 23
   sodium: 380
+source: Adapted from cookieandkate.com
+sourceUrl: 'https://cookieandkate.com/healthy-apple-muffins-recipe/'
 ---
 
 ## Chef's Note

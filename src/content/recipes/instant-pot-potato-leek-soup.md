@@ -48,6 +48,8 @@ nutrition:
   fiber: 3
   sugar: 2
   sodium: 1180
+source: Adapted from simplyhappyfoodie.com
+sourceUrl: 'https://www.simplyhappyfoodie.com/instant-pot-potato-leek-soup/'
 ---
 
 ## Chef's Note
@@ -66,3 +68,7 @@ Use an electric pressure cooker with a sauté setting. Follow its minimum-liquid
 6.  **The Emulsion:** Remove the bay leaf. Use an immersion blender to puree the soup directly in the pot until perfectly smooth.
 7.  **Finish:** Stir in the half-and-half. Taste and adjust salt if needed.
 8.  **Serve:** Garnish with a dollop of sour cream and fresh chives for **Textural Balance**.
+
+## Cooking Notes
+
+The original saved recipe was adapted from the contributor’s grandfather’s recipe.

@@ -113,6 +113,9 @@ learning:
   review:
     status: editorial-review
     date: '2026-09-06'
+source: Adapted from cooking.nytimes.com
+sourceUrl: >-
+  https://cooking.nytimes.com/recipes/1027037-slow-cooker-hoisin-garlic-chicken?smid=ck-recipe-iOS-share
 ---
 
 ## Chef's Note

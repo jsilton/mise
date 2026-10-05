@@ -50,6 +50,8 @@ nutrition:
   fiber: 1
   sugar: 0.5
   sodium: 200
+source: Adapted from amyshealthybaking.com
+sourceUrl: 'https://amyshealthybaking.com/blog/2016/06/05/peach-pie-pancakes/'
 ---
 
 ## Chef's Note

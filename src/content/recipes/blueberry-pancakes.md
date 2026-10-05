@@ -45,6 +45,9 @@ nutrition:
   fiber: 0.5
   sugar: 4
   sodium: 700
+source: Adapted from Kingarthurflour.com
+sourceUrl: 'http://www.kingarthurflour.com/recipes/blueberry-pancakes-recipe'
+rating: 5
 ---
 
 ## Chef's Note

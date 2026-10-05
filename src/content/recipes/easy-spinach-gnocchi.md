@@ -47,6 +47,8 @@ nutrition:
   fiber: 2
   sugar: 0.5
   sodium: 80
+source: Adapted from 100daysofrealfood.com
+sourceUrl: 'https://www.100daysofrealfood.com/gnocchi-recipe-easy-spinach/'
 ---
 
 ## Chef's Note

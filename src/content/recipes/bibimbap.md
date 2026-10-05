@@ -54,6 +54,9 @@ nutrition:
   fiber: 0
   sugar: 3.5
   sodium: 100
+source: Adapted from MyKoreanKitchen.com
+sourceUrl: >-
+  https://mykoreankitchen.com/bibimbap-korean-mixed-rice-with-meat-and-assorted-vegetables/
 ---
 
 ## Chef's Note

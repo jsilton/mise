@@ -112,6 +112,8 @@ learning:
   review:
     status: editorial-review
     date: '2026-09-06'
+source: Adapted from Allrecipes.com
+sourceUrl: 'https://www.allrecipes.com/recipe/56059/asian-coconut-rice/'
 ---
 
 ## Chef's Note

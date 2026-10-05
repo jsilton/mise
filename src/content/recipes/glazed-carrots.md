@@ -47,6 +47,8 @@ nutrition:
   fiber: 0.5
   sugar: 28
   sodium: 480
+source: Adapted from Allrecipes.com
+sourceUrl: 'https://www.allrecipes.com/recipe/229669/glazed-carrots/'
 ---
 
 ## Chef's Note

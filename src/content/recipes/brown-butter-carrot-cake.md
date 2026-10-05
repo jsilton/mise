@@ -53,6 +53,8 @@ ingredients:
   - 2 tsp Vanilla Extract, for the cake
   - 1 tsp Vanilla Extract, for the frosting
 origin: United States
+source: Adapted from Bonappetit.com
+sourceUrl: 'http://www.bonappetit.com/recipe/bas-best-carrot-cake?intcid=inline_amp'
 ---
 
 ## Chef's Note

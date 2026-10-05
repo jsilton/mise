@@ -47,6 +47,7 @@ nutrition:
   fiber: 1
   sugar: 30.5
   sodium: 100
+source: Adapted from Gwock Family
 ---
 
 ## Chef's Note

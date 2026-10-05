@@ -53,6 +53,8 @@ nutrition:
   fiber: 4.5
   sugar: 50.5
   sodium: 510
+source: Adapted from minimalistbaker.com
+sourceUrl: 'https://minimalistbaker.com/fudgy-vegan-double-chocolate-beet-muffins/'
 ---
 
 ## Chef's Note

@@ -50,6 +50,9 @@ nutrition:
   fiber: 1
   sugar: 4
   sodium: 1160
+source: Adapted from Thekitchn.com
+sourceUrl: >-
+  http://www.thekitchn.com/how-to-make-the-best-macaroni-and-cheese-on-the-stove-82588
 ---
 
 ## Chef's Note

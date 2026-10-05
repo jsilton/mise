@@ -85,3 +85,7 @@ Allow about 3–4 hours from mixing to frosting, with longer if the dough rises 
 11. **Finish:** Let the rolls cool for 15 minutes, then spread the frosting generously while they are still warm to allow some of it to seep into the spirals.
 
 Refrigerate frosted leftovers in a covered container at 40°F / 4°C or below within 2 hours, or within 1 hour if the room is above 90°F / 32°C. Bring out only the portions you plan to serve.
+
+## Cooking Notes
+
+Fluff flour, spoon it into the measuring cup and level it rather than scooping compacted flour. A pizza wheel makes the long dough strips easy to cut. For an overnight schedule, cover shaped rolls and refrigerate for up to 24 hours, then let them rise until doubled before baking. Refrigeration and the morning rise add to the listed total time.

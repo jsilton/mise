@@ -143,6 +143,9 @@ learning:
   review:
     status: editorial-review
     date: '2026-09-06'
+source: Adapted from Foodnetwork.com
+sourceUrl: >-
+  http://www.foodnetwork.com/recipes/ina-garten/brisket-with-carrots-and-onions-recipe-1944457
 ---
 
 ## Chef's Note

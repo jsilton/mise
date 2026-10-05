@@ -48,6 +48,9 @@ nutrition:
   fiber: 0.5
   sugar: 0
   sodium: 580
+source: Adapted from mykoreankitchen.com
+sourceUrl: >-
+  https://mykoreankitchen.com/simply-seasoned-korean-spinach-salad-sigeumchi-namul-version-1/
 ---
 
 ## Chef's Note

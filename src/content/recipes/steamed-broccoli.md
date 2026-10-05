@@ -102,6 +102,8 @@ learning:
   review:
     status: editorial-review
     date: '2026-09-06'
+source: Adapted from healthyrecipesblogs.com
+sourceUrl: 'https://healthyrecipesblogs.com/steamed-broccoli/'
 ---
 
 ## Chef's Note

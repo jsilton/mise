@@ -51,6 +51,8 @@ nutrition:
   fiber: 3
   sugar: 4
   sodium: 10
+source: Adapted from cookieandkate.com
+sourceUrl: 'https://cookieandkate.com/best-ratatouille-recipe/'
 ---
 
 ## Chef's Note

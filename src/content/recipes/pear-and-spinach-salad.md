@@ -121,6 +121,7 @@ learning:
   review:
     status: editorial-review
     date: '2026-09-06'
+sourceUrl: 'https://www.chowhound.com/recipes/pear-and-spinach-salad-27663'
 ---
 
 ## Chef's Note

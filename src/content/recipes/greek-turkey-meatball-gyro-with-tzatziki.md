@@ -145,6 +145,8 @@ learning:
   review:
     status: editorial-review
     date: '2026-09-06'
+source: Adapted from Joyfulhealthyeats.com
+sourceUrl: 'https://www.joyfulhealthyeats.com/greek-turkey-meatball-gyro-with-tzatziki/'
 ---
 
 ## Chef's Note

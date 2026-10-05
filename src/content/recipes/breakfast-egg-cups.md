@@ -49,6 +49,8 @@ nutrition:
   fiber: 0.5
   sugar: 2.5
   sodium: 380
+source: Adapted from superhealthykids.com
+sourceUrl: 'https://www.superhealthykids.com/recipes/breakfast-egg-cups-recipe/'
 ---
 
 ## Chef's Note

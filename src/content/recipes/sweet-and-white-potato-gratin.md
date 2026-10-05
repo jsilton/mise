@@ -54,6 +54,7 @@ nutrition:
   fiber: 1.5
   sugar: 3.5
   sodium: 90
+source: Adapted from Kaitlin Gwock
 ---
 
 ## Chef's Note

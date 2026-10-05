@@ -46,6 +46,7 @@ nutrition:
   fiber: 6.5
   sugar: 111
   sodium: 10
+source: Adapted from Hamilton/Gwock Family
 ---
 
 ## Chef's Note

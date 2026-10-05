@@ -52,6 +52,8 @@ nutrition:
   fiber: 3
   sugar: 2
   sodium: 40
+source: Adapted from thegirlonbloor.com
+sourceUrl: 'https://thegirlonbloor.com/sheet-pan-pesto-chicken-meal-prep-bowls/'
 ---
 
 ## Chef's Note

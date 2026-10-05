@@ -157,6 +157,7 @@ learning:
   review:
     status: editorial-review
     date: '2026-09-06'
+sourceUrl: 'https://www.twopeasandtheirpod.com/lemon-broccoli-tortellini/'
 ---
 
 ## Chef's Note
@@ -172,3 +173,7 @@ Roast broccoli for browned edges, then fold it through cheese tortellini and wil
 5. **Combine gently:** Add drained tortellini and broccoli to the spinach skillet. Add zest and about **half the reserved water**. Fold over low heat just until hot, then remove from the burner. Add Parmesan gradually and **half of the remaining lemon juice**. Fold gently, adding further water only until lightly coated. Taste before adding the rest of the lemon juice, salt or pepper. Serve promptly.
 
 Adapted from [Two Peas & Their Pod’s Lemon Broccoli Tortellini](https://www.twopeasandtheirpod.com/lemon-broccoli-tortellini/).
+
+## Cooking Notes
+
+A little fresh lemon juice and olive oil can refresh the tortellini after reheating. Finish with extra Parmesan if desired.

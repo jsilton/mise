@@ -63,6 +63,8 @@ nutrition:
   fiber: 1
   sugar: 14.5
   sodium: 310
+source: Adapted from sallysbakingaddiction.com
+sourceUrl: 'https://sallysbakingaddiction.com/red-velvet-cupcakes/'
 ---
 
 ## Chef's Note

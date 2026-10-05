@@ -48,6 +48,9 @@ nutrition:
   fiber: 1
   sugar: 2
   sodium: 260
+source: Adapted from Buzzfeed.com
+sourceUrl: >-
+  https://www.buzzfeed.com/joeyfiroben/this-creamy-spinach-lemon-chicken-is-the-most-satisfying-din?utm_term=.xiNZnEPV4#.eaoYwzRK5
 ---
 
 ## Chef's Note

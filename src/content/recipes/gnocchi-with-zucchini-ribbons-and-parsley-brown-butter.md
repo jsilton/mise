@@ -50,6 +50,10 @@ nutrition:
   fiber: 1.5
   sugar: 1.5
   sodium: 50
+source: Adapted from Eatingwell.com
+sourceUrl: >-
+  http://www.eatingwell.com/recipe/251860/gnocchi-with-zucchini-ribbons-parsley-brown-butter/
+rating: 5
 ---
 
 ## Chef's Note
@@ -64,3 +68,7 @@ Brown butter (beurre noisette in French, literally "hazelnut butter") is a class
 4.  **Emulsify:** Add halved tomatoes, salt, nutmeg, and pepper. Cook for 2 minutes until the tomatoes just begin to release their juices and form a light sauce.
 5.  **Toss:** Add the drained gnocchi, Parmesan, and parsley to the skillet.
 6.  **Bind:** Toss vigorously for 30 seconds until the cheese is melted and the gnocchi is glossy and coated. Serve immediately.
+
+## Cooking Notes
+
+Cut ribbon-thin zucchini lengthwise with a vegetable peeler or mandoline. Use a guard with the mandoline.

@@ -46,6 +46,9 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
+source: Adapted from delish.com
+sourceUrl: >-
+  https://www.delish.com/cooking/recipe-ideas/a32173924/sheet-pan-pineapple-shrimp-tacos-recipe/
 ---
 
 ## Chef's Note

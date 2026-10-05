@@ -47,6 +47,8 @@ nutrition:
   fiber: 0
   sugar: 204
   sodium: 1070
+source: Adapted from sallysbakingaddiction.com
+sourceUrl: 'https://sallysbakingaddiction.com/favorite-cream-cheese-frosting/'
 ---
 
 ## Chef's Note

@@ -58,6 +58,8 @@ nutrition:
   fiber: 8
   sugar: 5
   sodium: 330
+source: Adapted from saveur.com
+sourceUrl: 'https://www.saveur.com/recipes/anelletti-al-forno-recipe/'
 ---
 
 ## Chef's Note

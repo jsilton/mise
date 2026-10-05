@@ -145,6 +145,8 @@ learning:
   review:
     status: editorial-review
     date: '2026-09-06'
+sourceUrl: >-
+  https://www.eatingwell.com/recipe/280316/garlic-butter-roasted-salmon-with-potatoes-asparagus/
 ---
 
 ## Chef's Note

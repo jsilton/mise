@@ -158,6 +158,9 @@ learning:
   review:
     status: editorial-review
     date: '2026-09-06'
+source: Adapted from Foodandwine.com
+sourceUrl: >-
+  http://www.foodandwine.com/recipes/greek-style-lamb-burgers-with-yogurt-cucumber-sauce
 ---
 
 ## Chef's Note

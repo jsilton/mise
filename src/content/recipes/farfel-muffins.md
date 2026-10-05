@@ -41,11 +41,13 @@ nutrition:
   fiber: 0
   sugar: 0
   sodium: 90
+source: Adapted from Jodi Silton
 ---
 
 ## Chef's Note
 
 This dish comes from a home cooking tradition where technique and respect for ingredients matter more than complexity. This is meant to be reliable and honest - quality ingredients cooked with care, nothing fancy, just right.
+
 ## Directions
 
 1.  **Hydrate:** Preheat oven to 400°F. In a large bowl, pour the boiling water over the matzo farfel. Stir once and let sit until the water is fully absorbed and the mixture is cool to the touch.
@@ -54,3 +56,6 @@ This dish comes from a home cooking tradition where technique and respect for in
 4.  **Bake:** Bake at 400°F for 20 minutes until the tops are deep golden brown and the muffins feel light when lifted.
 5.  **Serve:** Best served warm with plenty of salted butter.
 
+## Cooking Notes
+
+The saved recipe notes that the batch doubles well. Divide among enough muffin tins to keep the same fill depth, and serve warm.

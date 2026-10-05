@@ -49,6 +49,8 @@ nutrition:
   fiber: 1.5
   sugar: 7
   sodium: 790
+source: Adapted from prettyprovidence.com
+sourceUrl: 'https://prettyprovidence.com/german-pancakes/'
 ---
 
 ## Chef's Note
@@ -65,3 +67,6 @@ This German-American pancake gets its dramatic rise from temperature contrast: c
 6.  **Finish:** Remove from the oven. The center will collapse slightly - this is mandatory.
 7.  **Serve:** Dust with powdered sugar and squeeze fresh lemon juice over the top for the mandatory **High Note**.
 
+## Cooking Notes
+
+Let the butter melt completely in the hot pan before pouring in the batter. A blender can mix the batter smoothly; pour carefully into the hot pan.

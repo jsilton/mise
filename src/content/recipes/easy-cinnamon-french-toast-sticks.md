@@ -51,6 +51,8 @@ nutrition:
   fiber: 0
   sugar: 7.5
   sodium: 80
+source: Adapted from justataste.com
+sourceUrl: 'https://www.justataste.com/easy-cinnamon-french-toast-sticks-recipe/'
 ---
 
 ## Chef's Note

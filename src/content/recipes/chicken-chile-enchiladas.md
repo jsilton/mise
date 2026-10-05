@@ -43,6 +43,8 @@ nutrition:
   fiber: 3.5
   sugar: 2
   sodium: 1160
+source: Adapted from Thekitchn.com
+sourceUrl: 'https://www.thekitchn.com/recipe-chicken-chile-enchiladas-223930'
 ---
 
 ## Chef's Note
@@ -57,3 +59,7 @@ Traditional Mexican enchiladas briefly fry corn tortillas before dipping them in
 4.  **Bake:** Pour the remaining sauce over the top and cover generously with cheese.
 5.  **Melt:** Bake for 15-20 minutes until the cheese is bubbly and the edges of the tortillas are slightly crisp.
 6.  **Serve:** Top with cold sour cream and cilantro to balance the heat.
+
+## Cooking Notes
+
+For freezing and reheating, use a baking dish whose manufacturer permits the intended temperature changes. Follow its instructions for moving between freezer, refrigerator and oven.

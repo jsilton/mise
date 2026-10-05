@@ -104,6 +104,7 @@ learning:
   review:
     status: editorial-review
     date: '2026-09-06'
+source: Adapted from Jordan Silton
 ---
 
 ## Chef's Note

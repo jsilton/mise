@@ -50,6 +50,8 @@ nutrition:
   fiber: 9
   sugar: 105.5
   sodium: 1010
+source: Adapted from Samantha Seneviratne
+sourceUrl: 'https://cooking.nytimes.com/recipes/1018459-double-chocolate-cookies'
 ---
 
 ## Chef's Note

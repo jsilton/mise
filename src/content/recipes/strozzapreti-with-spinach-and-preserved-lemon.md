@@ -51,6 +51,8 @@ nutrition:
   fiber: 3.5
   sugar: 2.5
   sodium: 140
+source: Adapted from Bonappetit.com
+sourceUrl: 'http://www.bonappetit.com/recipe/strozzapreti-with-spinach-and-preserved-lemon'
 ---
 
 ## Chef's Note

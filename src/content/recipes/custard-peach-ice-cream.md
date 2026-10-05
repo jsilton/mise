@@ -53,6 +53,8 @@ nutrition:
   fiber: 0.5
   sugar: 46.5
   sodium: 440
+source: Adapted from houseofnasheats.com
+sourceUrl: 'https://houseofnasheats.com/old-fashioned-fresh-peach-ice-cream/'
 ---
 
 ## Chef's Note

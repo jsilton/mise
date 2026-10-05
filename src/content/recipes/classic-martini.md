@@ -44,6 +44,8 @@ nutrition:
   fiber: 2.5
   sugar: 2.5
   sodium: 280
+source: Adapted from Bonappetit.com
+sourceUrl: 'http://www.bonappetit.com/recipe/classic-martini-2'
 ---
 
 ## Chef's Note

@@ -56,6 +56,8 @@ nutrition:
   fiber: 2
   sugar: 30.5
   sodium: 0
+source: Adapted from Bonappetit.com
+sourceUrl: 'http://www.bonappetit.com/recipe/the-new-england-express'
 ---
 
 ## Chef's Note

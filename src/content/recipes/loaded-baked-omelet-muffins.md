@@ -50,6 +50,8 @@ nutrition:
   fiber: 1.5
   sugar: 3.5
   sodium: 350
+source: Adapted from skinnytaste.com
+sourceUrl: 'https://www.skinnytaste.com/loaded-baked-omelet-muffins/'
 ---
 
 ## Chef's Note

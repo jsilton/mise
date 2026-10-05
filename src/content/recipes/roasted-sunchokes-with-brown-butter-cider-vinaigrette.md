@@ -55,6 +55,9 @@ nutrition:
   fiber: 0.5
   sugar: 4
   sodium: 560
+source: Adapted from Foodandwine.com
+sourceUrl: >-
+  http://www.foodandwine.com/recipes/roasted-sunchokes-with-brown-butter-cider-vinaigrette
 ---
 
 ## Chef's Note

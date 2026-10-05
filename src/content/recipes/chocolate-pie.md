@@ -56,6 +56,8 @@ nutrition:
   fiber: 0
   sugar: 34
   sodium: 280
+source: Adapted from thepioneerwoman.com
+sourceUrl: 'https://thepioneerwoman.com/cooking/chocolate-pie/'
 ---
 
 ## Chef's Note

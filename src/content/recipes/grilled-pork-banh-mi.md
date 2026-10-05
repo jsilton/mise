@@ -53,6 +53,8 @@ nutrition:
   fiber: 2.5
   sugar: 14
   sodium: 13090
+source: Adapted from Foodandwine.com
+sourceUrl: 'http://www.foodandwine.com/recipes/grilled-pork-banh-mi'
 ---
 
 ## Chef's Note

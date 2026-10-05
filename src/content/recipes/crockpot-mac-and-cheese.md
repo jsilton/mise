@@ -50,6 +50,8 @@ nutrition:
   fiber: 3
   sugar: 2.5
   sodium: 750
+source: Adapted from amandascookin.com
+sourceUrl: 'https://amandascookin.com/crockpot-macaroni-and-cheese/'
 ---
 
 ## Chef's Note

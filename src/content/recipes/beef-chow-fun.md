@@ -179,6 +179,8 @@ learning:
   review:
     status: editorial-review
     date: '2026-09-06'
+source: Adapted from thewoksoflife.com
+sourceUrl: 'https://thewoksoflife.com/beef-chow-fun-noodles/'
 ---
 
 ## Chef's Note

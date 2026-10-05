@@ -124,6 +124,7 @@ learning:
   review:
     status: editorial-review
     date: '2026-09-06'
+sourceUrl: 'https://whatagirleats.com/kale-salad-mango-avocado-feta/'
 ---
 
 ## Chef's Note

@@ -147,6 +147,8 @@ learning:
   review:
     status: editorial-review
     date: '2026-09-06'
+source: Adapted from Allrecipes.com
+sourceUrl: 'http://allrecipes.com/recipe/26317/chicken-pot-pie-ix/'
 ---
 
 ## Chef's Note

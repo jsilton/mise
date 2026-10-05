@@ -49,6 +49,7 @@ nutrition:
   fiber: 6
   sugar: 1
   sodium: 1200
+source: Adapted from Kids Eat in Color
 ---
 
 ## Chef's Note

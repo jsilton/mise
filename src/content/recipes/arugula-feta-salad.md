@@ -145,6 +145,8 @@ learning:
   review:
     status: editorial-review
     date: '2026-09-06'
+sourceUrl: >-
+  http://www.eatingwell.com/recipe/252174/arugula-feta-salad-with-strawberry-vinaigrette/
 ---
 
 ## Chef's Note

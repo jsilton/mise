@@ -49,6 +49,9 @@ nutrition:
   fiber: 3
   sugar: 6
   sodium: 960
+source: Adapted from Taste.com.au
+sourceUrl: >-
+  http://www.taste.com.au/recipes/chinese-fried-rice-2/5f3be212-27bf-45a8-abae-7c2e3581f5ab
 ---
 
 ## Chef's Note
@@ -64,4 +67,3 @@ For kids, serve the heat on the side or reduce/omit the spicy elements.
 4.  **The Fry:** Increase heat to high. Add the rice. Stir-fry for 2-3 minutes, pressing the rice against the sides of the wok to "toast" it.
 5.  **Season:** Add soy sauce, oyster sauce, peas, and the remaining sesame oil. Toss vigorously for 2 minutes until everything is heated through and the rice is coated in a glossy glaze.
 6.  **Fold:** Gently fold the egg ribbons back into the rice. Serve immediately.
-

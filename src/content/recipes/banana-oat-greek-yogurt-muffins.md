@@ -51,6 +51,9 @@ nutrition:
   fiber: 4
   sugar: 31
   sodium: 200
+source: Adapted from Runningwithspoons.com
+sourceUrl: 'http://www.runningwithspoons.com/2014/06/24/banana-oat-greek-yogurt-muffins/'
+rating: 5
 ---
 
 ## Chef's Note

@@ -121,6 +121,8 @@ learning:
   review:
     status: editorial-review
     date: '2026-09-06'
+source: Adapted from Cooking.nytimes.com
+sourceUrl: 'https://cooking.nytimes.com/recipes/1017391-fresh-egg-pasta'
 ---
 
 ## Chef's Note

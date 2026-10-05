@@ -122,6 +122,8 @@ learning:
   review:
     status: editorial-review
     date: '2026-09-06'
+source: Adapted from Foodandwine.com
+sourceUrl: 'http://www.foodandwine.com/recipes/shrimp-and-avocado-summer-rolls'
 ---
 
 ## Chef's Note

@@ -45,6 +45,8 @@ nutrition:
   fiber: 4.5
   sugar: 6
   sodium: 1390
+source: Adapted from Lecremedelacrumb.com
+sourceUrl: 'https://www.lecremedelacrumb.com/slow-cooker-cheesy-mushroom-quinoa/'
 ---
 
 ## Chef's Note
@@ -58,3 +60,7 @@ Using a strict 1:2 ratio of quinoa to liquid and cooking on High for a shorter d
 3.  **Emulsify:** Open the lid. Add the cream cheese cubes. Stir vigorously for 1 minute until the cream cheese has melted and emulsified with the grain.
 4.  **Bind:** Top with the Italian cheese blend. Cover and cook for another 15 minutes until molten.
 5.  **Finish:** Stir once more. Garnish with fresh green onions for the mandatory **High Note**.
+
+## Cooking Notes
+
+The saved recipe serves four as a main or can be portioned as a side. Chicken broth can replace vegetable broth when a vegetarian preparation is not needed.

@@ -59,6 +59,8 @@ nutrition:
   fiber: 12
   sugar: 20
   sodium: 60
+source: Adapted from munchingwithmariyah.com
+sourceUrl: 'https://munchingwithmariyah.com/roasted-fall-harvest-salad/'
 ---
 
 ## Chef's Note

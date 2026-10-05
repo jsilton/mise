@@ -56,6 +56,8 @@ nutrition:
   fiber: 6.5
   sugar: 3.5
   sodium: 710
+source: Adapted from Skinnytaste.com
+sourceUrl: 'https://www.skinnytaste.com/skinny-baked-broccoli-macaroni-and/'
 ---
 
 ## Chef's Note

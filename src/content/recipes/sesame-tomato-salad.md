@@ -124,6 +124,8 @@ learning:
   review:
     status: editorial-review
     date: '2026-09-06'
+sourceUrl: >-
+  https://cooking.nytimes.com/recipes/1024154-sesame-tomato-salad?smid=ck-recipe-iOS-share
 ---
 
 ## Chef's Note

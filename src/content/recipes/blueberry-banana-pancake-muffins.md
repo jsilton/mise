@@ -54,6 +54,8 @@ nutrition:
   fiber: 1.5
   sugar: 5
   sodium: 150
+source: Adapted from Mykidslickthebowl.com
+sourceUrl: 'https://mykidslickthebowl.com/healthy-blueberry-banana-pancake-muffins/'
 ---
 
 ## Chef's Note

@@ -45,6 +45,9 @@ nutrition:
   fiber: 7
   sugar: 3.5
   sodium: 240
+source: Adapted from Foodnetwork.com
+sourceUrl: >-
+  https://www.foodnetwork.com/recipes/food-network-kitchen/glazed-chicken-and-broccoli-sheet-pan-dinner-3543898
 ---
 
 ## Chef's Note

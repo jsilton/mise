@@ -58,6 +58,8 @@ nutrition:
   fiber: 1
   sugar: 153.5
   sodium: 590
+source: Adapted from sugarspunrun.com
+sourceUrl: 'https://sugarspunrun.com/funfetti-cake-scratch/'
 ---
 
 ## Chef's Note
@@ -75,3 +77,7 @@ Whipping egg whites separately and folding them in at the end creates light, air
 7.  **Bake:** Divide among pans. Bake for 35-40 minutes until a toothpick comes out clean. Cool in pans for 15 minutes, then invert onto racks.
 8.  **The Frosting:** Beat 1 lb butter until creamy. Gradually add sugar, then heavy cream and vanilla. Beat on high for 3 minutes until billowy.
 9.  **Assemble:** Layer the cooled cakes with frosting. Do a thin "crumb coat" and freeze for 10 minutes before applying the final thick layer of buttercream for a professional Crunch finish.
+
+## Cooking Notes
+
+Use jimmies or flat confetti sprinkles rather than nonpareils, which can bleed into the batter. If dividing the batter among three nine-inch pans, start checking around 25 minutes; shallower layers bake sooner.

@@ -212,6 +212,8 @@ formula:
     - id: cool
       title: Cool
       text: 'Let cool in the pan for 10 minutes, then transfer to a wire rack.'
+source: Adapted from southerneatsandgoodies.com
+sourceUrl: 'https://southerneatsandgoodies.com/easy-breakfast-carrot-cake/'
 ---
 
 ## Chef's Note

@@ -164,6 +164,7 @@ learning:
   review:
     status: editorial-review
     date: '2026-09-06'
+sourceUrl: 'https://www.foodandwine.com/recipes/seared-salmon-summer-vegetables'
 ---
 
 ## Chef's Note

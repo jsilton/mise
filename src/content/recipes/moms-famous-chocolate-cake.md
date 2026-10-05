@@ -61,6 +61,7 @@ nutrition:
   fiber: 2
   sugar: 40
   sodium: 470
+source: Adapted from Maryls McConnell
 ---
 
 ## Chef's Note
@@ -74,3 +75,7 @@ This family chocolate cake uses butter and boiling water to bring the cocoa into
 3.  **Bake:** Pour the batter into a greased 9x13 rectangular pan (or two 8-inch squares). Bake at 350°F for 25-30 minutes until a tester comes out clean.
 4.  **The Frosting:** While the cake bakes, melt the 1 stick of butter in a clean saucepan. Whisk in the cocoa and milk. Remove from heat and stir in the powdered sugar until silky.
 5.  **Seal:** Pour the warm frosting over the hot cake immediately after removing it from the oven. Let cool completely (if you can wait!) before slicing.
+
+## Cooking Notes
+
+The family note describes making the batter in one saucepan with a portable egg beater for easy cleanup. When dividing into two square pans, one frosted cake can be wrapped and frozen for later.

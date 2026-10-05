@@ -116,6 +116,8 @@ learning:
   review:
     status: editorial-review
     date: '2026-09-06'
+source: Adapted from Cookincanuck.com
+sourceUrl: 'https://www.cookincanuck.com/one-pot-chicken-quinoa-mushrooms-spinach-recipe/'
 ---
 
 ## Chef's Note

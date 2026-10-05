@@ -47,6 +47,8 @@ nutrition:
   fiber: 8.5
   sugar: 4.5
   sodium: 90
+source: Adapted from ambitiouskitchen.com
+sourceUrl: 'https://www.ambitiouskitchen.com/vegan-caesar-pasta-salad/'
 ---
 
 ## Chef's Note

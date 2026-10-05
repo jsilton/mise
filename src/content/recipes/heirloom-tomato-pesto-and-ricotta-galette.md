@@ -56,6 +56,8 @@ nutrition:
   fiber: 2
   sugar: 4.5
   sodium: 1260
+source: Adapted from abrightmoment.com
+sourceUrl: 'https://www.abrightmoment.com/recipes/heirloom-tomato-pesto-ricotta-galette'
 ---
 
 ## Chef's Note

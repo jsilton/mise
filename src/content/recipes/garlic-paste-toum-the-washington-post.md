@@ -42,6 +42,9 @@ nutrition:
   fiber: 0.5
   sugar: 0.5
   sodium: 580
+source: Adapted from Washingtonpost.com
+sourceUrl: >-
+  https://www.washingtonpost.com/recipes/garlic-paste-toum/14095/?utm_term=.4ad477758d1a
 ---
 
 ## Chef's Note

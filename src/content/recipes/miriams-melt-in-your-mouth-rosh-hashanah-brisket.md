@@ -45,6 +45,9 @@ nutrition:
   fiber: 1
   sugar: 27
   sodium: 610
+source: Adapted from Chabad.org
+sourceUrl: >-
+  https://www.chabad.org/recipes/recipe_cdo/aid/2635033/jewish/Miriams-Melt-in-Your-Mouth-Rosh-Hashanah-Brisket.htm
 ---
 
 ## Chef's Note

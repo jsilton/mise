@@ -56,6 +56,8 @@ nutrition:
   fiber: 10
   sugar: 36
   sodium: 550
+source: Adapted from cookieandkate.com
+sourceUrl: 'https://cookieandkate.com/baked-oatmeal-recipe/'
 ---
 
 ## Chef's Note
@@ -70,4 +72,3 @@ Layering berries at the bottom prevents a mushy, uniform texture - they stay who
 4.  **Hydrate:** Pour the milk mixture over the oats. Wiggle the dish so the liquid sinks in. Top with remaining berries.
 5.  **Bake:** Bake at 375°F for 40-45 minutes until the top is golden and the center is set.
 6.  **Finish:** Drizzle with the remaining melted butter.
-

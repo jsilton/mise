@@ -54,6 +54,9 @@ nutrition:
   fiber: 2
   sugar: 2.5
   sodium: 350
+source: Adapted from cooking.nytimes.com
+sourceUrl: >-
+  https://cooking.nytimes.com/recipes/1025342-one-pot-chicken-meatballs-with-greens?smid=ck-recipe-iOS-share
 ---
 
 ## Chef's Note

@@ -52,6 +52,9 @@ nutrition:
   fiber: 2
   sugar: 1
   sodium: 100
+source: Adapted from foodnetwork.com
+sourceUrl: >-
+  https://www.foodnetwork.com/recipes/ina-garten/herb-marinated-pork-tenderloins-recipe-1948375
 ---
 
 ## Chef's Note

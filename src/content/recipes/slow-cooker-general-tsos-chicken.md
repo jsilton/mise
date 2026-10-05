@@ -118,6 +118,8 @@ learning:
   review:
     status: editorial-review
     date: '2026-09-06'
+source: Adapted from lecremedelacrumb.com
+sourceUrl: 'https://www.lecremedelacrumb.com/slow-cooker-general-tsos-chicken/'
 ---
 
 ## Chef's Note

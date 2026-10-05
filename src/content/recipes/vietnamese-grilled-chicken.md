@@ -134,6 +134,8 @@ learning:
   review:
     status: editorial-review
     date: '2026-09-06'
+source: Adapted from twokooksinthekitchen.com
+sourceUrl: 'https://twokooksinthekitchen.com/grilled-vietnamese-chicken/'
 ---
 
 ## Chef's Note

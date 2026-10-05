@@ -47,6 +47,8 @@ nutrition:
   fiber: 1.5
   sugar: 5
   sodium: 730
+source: Adapted from Rebecca Crump
+sourceUrl: 'http://www.ezrapoundcake.com/archives/26010'
 ---
 
 ## Chef's Note

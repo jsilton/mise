@@ -59,6 +59,7 @@ nutrition:
 ## Chef's Note
 
 Zucchini muffins sound like a vegetable sneak, but they're really a moisture strategy: grated zucchini releases water as it bakes, keeping the crumb tender without relying on extra oil or eggs. The chocolate chips are the actual appeal - cocoa butter and sugar carry the flavor. Don't overmix once you add zucchini or you'll crush the shreds and make the muffins dense.
+
 ## Directions
 
 1.  **Prep:** Preheat oven to 350°F. Grease a 12-cup muffin tin or use paper liners.
@@ -68,3 +69,7 @@ Zucchini muffins sound like a vegetable sneak, but they're really a moisture str
 5.  **Fold:** Fold in the chocolate chips and the **squeezed zucchini**.
 6.  **Bake:** Scoop the batter into the muffin cups (about 3/4 full). Bake for 16-18 minutes until a toothpick inserted into the center comes out clean.
 7.  **Cool:** Let cool in the pan for 10 minutes to allow the buckwheat structure to set before removing to a rack.
+
+## Cooking Notes
+
+These muffins can be made ahead for breakfast. Freeze individual portions and thaw only what you plan to serve.

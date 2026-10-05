@@ -46,6 +46,8 @@ nutrition:
   fiber: 1.5
   sugar: 1
   sodium: 490
+source: Adapted from Skinnytaste.com
+sourceUrl: 'https://www.skinnytaste.com/chicken-and-white-bean-enchiladas-with/'
 ---
 
 ## Chef's Note

@@ -28,11 +28,13 @@ pairsWith:
 ingredients:
   - 6 cups Cold Water
   - '1 oz (30g) Kombu (Dried Kelp), approx 20 sq inches'
-  - "2 packs (5g each) Katsuo Bushi (Dried Bonito Flakes), approx 1 cup total"
+  - '2 packs (5g each) Katsuo Bushi (Dried Bonito Flakes), approx 1 cup total'
 seasons:
   - year-round
 nutritionalDensity: light
 leftovers: good
+source: Adapted from Epicurious.com
+sourceUrl: 'http://www.epicurious.com/recipes/food/views/dashi-japanese-sea-stock-103413'
 ---
 
 ## Chef's Note

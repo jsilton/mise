@@ -109,6 +109,8 @@ learning:
   review:
     status: editorial-review
     date: '2026-09-06'
+source: Adapted from sweetsavoryandsteph.com
+sourceUrl: 'https://sweetsavoryandsteph.com/asian-glazed-turkey-meatballs/'
 ---
 
 ## Chef's Note

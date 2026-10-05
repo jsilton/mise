@@ -47,6 +47,8 @@ nutrition:
   fiber: 5
   sugar: 2.5
   sodium: 760
+source: Adapted from Myrecipes.com
+sourceUrl: 'http://www.myrecipes.com/recipe/sausage-shrimp-quinoa-skillet'
 ---
 
 ## Chef's Note

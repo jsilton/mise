@@ -106,6 +106,9 @@ learning:
   review:
     status: editorial-review
     date: '2026-09-06'
+source: Adapted from Superhealthykids.com
+sourceUrl: >-
+  http://www.superhealthykids.com/slow-cooker-coconut-chicken-curry/#recipe-container
 ---
 
 ## Chef's Note

@@ -48,6 +48,8 @@ nutrition:
   fiber: 2
   sugar: 1.5
   sodium: 480
+source: Adapted from Foodandwine.com
+sourceUrl: 'http://www.foodandwine.com/recipes/seafood-chorizo-tacos'
 ---
 
 ## Chef's Note

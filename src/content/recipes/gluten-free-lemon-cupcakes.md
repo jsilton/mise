@@ -60,6 +60,9 @@ nutrition:
   fiber: 2
   sugar: 119.5
   sodium: 280
+source: Adapted from glutenfreepalate.com
+sourceUrl: >-
+  https://www.glutenfreepalate.com/gluten-free-lemon-cupcakes/#mv-creation-79-jtr
 ---
 
 ## Chef's Note

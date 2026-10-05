@@ -47,6 +47,8 @@ nutrition:
   fiber: 0.5
   sugar: 1
   sodium: 220
+source: Adapted from Blog.myfitnesspal.com
+sourceUrl: 'http://blog.myfitnesspal.com/easy-baked-turkey-meatballs/'
 ---
 
 ## Chef's Note

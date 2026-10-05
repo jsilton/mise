@@ -49,6 +49,8 @@ nutrition:
   fiber: 0
   sugar: 2.5
   sodium: 850
+source: Adapted from Thekitchn.com
+sourceUrl: 'https://www.thekitchn.com/recipe-butternut-squash-fettucine-alfredo-238127'
 ---
 
 ## Chef's Note

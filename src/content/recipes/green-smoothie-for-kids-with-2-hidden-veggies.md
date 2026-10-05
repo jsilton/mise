@@ -50,6 +50,8 @@ nutrition:
   fiber: 13.5
   sugar: 27.5
   sodium: 200
+source: Adapted from theconsciousplantkitchen.com
+sourceUrl: 'https://www.theconsciousplantkitchen.com/green-smoothie-for-kids/'
 ---
 
 ## Chef's Note
@@ -62,3 +64,7 @@ Frozen mango and fresh avocado blend together into a thick, creamy smoothie that
 2.  **Process:** Blend on low, then quickly increase to high speed. Process for 60 seconds until the mixture is a vibrant, uniform green with no visible leaf flecks.
 3.  **Adjust:** If the smoothie is too thick, add a splash more milk. If you need more "High Note" sweetness, add 1 tsp of maple syrup and pulse again.
 4.  **Serve:** Serve immediately in a chilled glass with a wide straw.
+
+## Cooking Notes
+
+For a gluten-free version, use certified gluten-free oats or millet flakes in place of the rolled oats.

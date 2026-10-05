@@ -20,7 +20,7 @@ servings: '6'
 pairsWith: []
 ingredients:
   - '680 g boneless skinless chicken breasts, fully thawed, left whole'
-  - "1 can (15 oz / 425 g) black beans, rinsed and drained, about 255 g drained total"
+  - '1 can (15 oz / 425 g) black beans, rinsed and drained, about 255 g drained total'
   - '1 can (10 oz / 283 g) diced tomatoes with green chiles, with juices'
   - '150 g corn kernels, fresh or thawed frozen'
   - 1/2 cup (120 ml) salsa verde
@@ -116,6 +116,9 @@ learning:
   review:
     status: editorial-review
     date: '2026-09-06'
+source: Adapted from damndelicious.net
+sourceUrl: >-
+  https://damndelicious.net/2017/07/07/slow-cooker-cilantro-lime-chicken-freezer-meal/
 ---
 
 ## Chef's Note

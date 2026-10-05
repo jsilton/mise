@@ -115,6 +115,8 @@ learning:
   review:
     status: editorial-review
     date: '2026-09-06'
+source: Adapted from bonappetit.com
+sourceUrl: 'https://www.bonappetit.com/recipe/spiced-coconut-chicken-rice'
 ---
 
 ## Chef's Note

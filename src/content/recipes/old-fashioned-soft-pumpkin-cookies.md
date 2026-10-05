@@ -51,6 +51,9 @@ nutrition:
   fiber: 0
   sugar: 19.5
   sodium: 120
+source: Adapted from Verybestbaking.com
+sourceUrl: >-
+  https://www.verybestbaking.com/recipes/32364/Old-Fashioned-Soft-Pumpkin-Cookies
 ---
 
 ## Chef's Note

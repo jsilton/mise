@@ -142,6 +142,8 @@ learning:
   review:
     status: editorial-review
     date: '2026-09-06'
+sourceUrl: >-
+  https://cooking.nytimes.com/recipes/7036-stir-fried-shrimp-with-snow-peas-and-ginger?smid=ck-recipe-iOS-share
 ---
 
 ## Chef's Note

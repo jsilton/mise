@@ -48,6 +48,7 @@ nutrition:
   fiber: 0.5
   sugar: 6
   sodium: 440
+sourceUrl: 'https://www.runningtothekitchen.com/almond-zucchini-bread-paleo/'
 ---
 
 ## Chef's Note

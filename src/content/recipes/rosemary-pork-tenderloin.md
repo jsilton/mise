@@ -53,6 +53,9 @@ nutrition:
   fiber: 0.5
   sugar: 0
   sodium: 730
+source: Adapted from Foodnetwork.com
+sourceUrl: >-
+  https://www.foodnetwork.com/recipes/claire-robinson/rosemary-pork-tenderloin-recipe-1917514
 ---
 
 ## Chef's Note

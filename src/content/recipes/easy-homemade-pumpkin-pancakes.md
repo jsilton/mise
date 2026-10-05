@@ -47,6 +47,8 @@ nutrition:
   fiber: 1.5
   sugar: 15.5
   sodium: 1210
+source: Adapted from inspiredtaste.net
+sourceUrl: 'https://www.inspiredtaste.net/8896/pumpkin-pancakes/'
 ---
 
 ## Chef's Note

@@ -117,6 +117,9 @@ learning:
   review:
     status: editorial-review
     date: '2026-09-06'
+source: Adapted from Foodnetwork.com
+sourceUrl: >-
+  http://www.foodnetwork.com/recipes/tyler-florence/chicken-marsala-recipe-1951778
 ---
 
 ## Chef's Note

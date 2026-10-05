@@ -49,6 +49,8 @@ nutrition:
   fiber: 1.5
   sugar: 4.5
   sodium: 1740
+source: Adapted from skinnytaste.com
+sourceUrl: 'https://www.skinnytaste.com/crustless-sausage-and-spinach-quiche/'
 ---
 
 ## Chef's Note

@@ -143,6 +143,7 @@ learning:
   review:
     status: editorial-review
     date: '2026-09-06'
+sourceUrl: 'https://www.bonappetit.com/recipe/shrimp-scampi'
 ---
 
 ## Chef's Note

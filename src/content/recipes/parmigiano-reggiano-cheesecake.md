@@ -61,6 +61,8 @@ nutrition:
   fiber: 3.5
   sugar: 24
   sodium: 410
+source: Adapted from food52.com
+sourceUrl: 'https://food52.com/recipes/85524-parmigiano-reggiano-cheesecake/amp'
 ---
 
 ## Chef's Note

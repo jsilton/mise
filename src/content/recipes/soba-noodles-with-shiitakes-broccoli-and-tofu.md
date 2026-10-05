@@ -48,6 +48,9 @@ nutrition:
   fiber: 4.5
   sugar: 2
   sodium: 330
+source: Adapted from cooking.nytimes.com
+sourceUrl: >-
+  https://cooking.nytimes.com/recipes/1016016-soba-noodles-with-shiitakes-broccoli-and-tofu?smid=ck-recipe-iOS-share
 ---
 
 ## Chef's Note

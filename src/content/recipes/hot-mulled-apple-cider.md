@@ -48,6 +48,8 @@ nutrition:
   fiber: 1.5
   sugar: 33.5
   sodium: 300
+source: Adapted from Food.com
+sourceUrl: 'http://www.food.com/recipe/hot-mulled-apple-cider-3713'
 ---
 
 ## Chef's Note

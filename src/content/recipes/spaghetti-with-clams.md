@@ -50,6 +50,8 @@ nutrition:
   fiber: 1
   sugar: 1
   sodium: 10
+source: Adapted from cooking.nytimes.com
+sourceUrl: 'https://cooking.nytimes.com/recipes/11952-spaghetti-with-clams'
 ---
 
 ## Chef's Note

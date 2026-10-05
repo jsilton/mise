@@ -51,11 +51,15 @@ nutrition:
   fiber: 2
   sugar: 3
   sodium: 680
+source: Adapted from thekitchn.com
+sourceUrl: >-
+  https://www.thekitchn.com/recipe-tomato-cobbler-with-cornmeal-cheddar-biscuits-206816
 ---
 
 ## Chef's Note
 
 Tomato cobbler is a Southern riff on savory fruit cobblers, where long-caramelized onions create depth and cherry tomatoes collapse into a jammy, bittersweet sauce. The cornmeal-cheddar biscuits are pure Southern technique - cornmeal for texture and corn flavor, shredded cheddar for savory richness, and buttermilk for tang that bridges sweet fruit and cheese.
+
 ## Directions
 
 1.  **Reduction:** In a massive skillet, sauté onions in oil for 20 minutes until mahogany brown. Add garlic and wine; simmer until the wine has vanished.

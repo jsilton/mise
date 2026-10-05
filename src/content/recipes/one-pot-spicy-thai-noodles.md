@@ -51,6 +51,8 @@ nutrition:
   fiber: 7.5
   sugar: 16
   sodium: 4180
+source: Adapted from Domesticsuperhero.com
+sourceUrl: 'https://domesticsuperhero.com/one-pot-spicy-thai-noodles/'
 ---
 
 ## Chef's Note
@@ -67,3 +69,7 @@ For kids, serve the heat on the side or reduce/omit the spicy elements.
 5.  **Bind:** Turn heat to low. Return the pasta and eggs to the pot. Pour the sauce over everything.
 6.  **Toss:** Toss vigorously for 1 minute until the noodles are glossy and the sauce has thickened.
 7.  **Serve:** Remove from heat. Stir in the green onions, cilantro, and crushed peanuts. Serve hot or cold for the Kitchen Standard experience.
+
+## Cooking Notes
+
+The noodles can be served warm or chilled. If adding a separate protein, cook it fully and combine it near the end so it does not overcook.

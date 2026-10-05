@@ -47,11 +47,13 @@ nutrition:
   fiber: 2
   sugar: 40.5
   sodium: 340
+source: 'Adapted from The Ritz-Carlton, Cancun'
 ---
 
 ## Chef's Note
 
 Bread pudding is a way to honor stale bread - brioche is rich and tender, so it soaks up custard without becoming mushy. The double chocolate (bittersweet and white) creates complexity: dark chocolate for depth, white chocolate for sweetness. The 15-minute soak before baking is mandatory - it lets the bread fully hydrate so the custard distributes evenly and the whole thing sets together.
+
 ## Directions
 
 1.  **Prep:** Preheat oven to 350°F. Spray eight 6-oz ramekins (or a 9x13 baking dish) with non-stick spray.

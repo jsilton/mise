@@ -48,6 +48,8 @@ nutrition:
   fiber: 2
   sugar: 1.5
   sodium: 710
+source: Adapted from paleorunningmomma.com
+sourceUrl: 'https://www.paleorunningmomma.com/zuppa-toscana-paleo-whole30-keto/'
 ---
 
 ## Chef's Note

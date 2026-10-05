@@ -38,6 +38,9 @@ seasons:
 nutritionalDensity: moderate
 leftovers: poor
 servings: '4'
+source: Adapted from cooking.nytimes.com
+sourceUrl: >-
+  https://cooking.nytimes.com/recipes/1013581-shrimp-and-mango-tacos?smid=ck-recipe-iOS-share
 ---
 
 ## Chef's Note
@@ -53,3 +56,7 @@ These Mexican-inspired tacos balance sweet mango with savory cumin-spiced shrimp
 5.  **Thermal Prep:** Wrap tortillas in a damp towel and microwave for 45 seconds (or char over an open flame).
 6.  **Assemble:** Place 2 tortillas on each plate. Mound the shrimp-mango mixture into the center.
 7.  **Serve:** Serve immediately with a side of [Mexican Red Rice](/mise/recipes/mexican-red-rice).
+
+## Cooking Notes
+
+Serve promptly after cooking the shrimp and mango for the best texture.

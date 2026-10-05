@@ -43,6 +43,7 @@ nutrition:
   fiber: 0
   sugar: 0.5
   sodium: 210
+source: Adapted from Glenna Johnson
 ---
 
 ## Chef's Note

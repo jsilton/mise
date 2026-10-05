@@ -56,6 +56,8 @@ nutrition:
   fiber: 5.5
   sugar: 61.5
   sodium: 850
+source: Adapted from Pinchofyum.com
+sourceUrl: 'http://pinchofyum.com/blackout-chocolate-cake'
 ---
 
 ## Chef's Note
@@ -70,3 +72,7 @@ Blackout cake is impossibly rich and moist - the secret is blooming cocoa powder
 4.  **Combine:** Gradually fold the dry ingredients into the chocolate liquid.
 5.  **Bake:** Pour into three 9-inch lined pans. Bake at 350°F for 30-35 minutes. Cool completely.
 6.  **Frost:** Use a rich chocolate ganache or cream cheese frosting.
+
+## Cooking Notes
+
+An optional drizzle of melted chocolate adds another chocolate layer. Slice before the drizzle becomes hard for cleaner cuts.

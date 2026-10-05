@@ -30,9 +30,9 @@ ingredients:
   - '100 g carrot, cut into 1/4-inch pieces'
   - '300 g mixed red and green bell peppers, seeded and diced'
   - '300 g peeled sweet potato, cut into 1/2-inch cubes'
-  - "1 can (15 oz / 425 g) kidney beans, rinsed and drained, about 255 g drained total"
-  - "1 can (15 oz / 425 g) chickpeas, rinsed and drained, about 255 g drained total"
-  - "1 can (15 oz / 425 g) black beans, rinsed and drained, about 255 g drained total"
+  - '1 can (15 oz / 425 g) kidney beans, rinsed and drained, about 255 g drained total'
+  - '1 can (15 oz / 425 g) chickpeas, rinsed and drained, about 255 g drained total'
+  - '1 can (15 oz / 425 g) black beans, rinsed and drained, about 255 g drained total'
   - '2 cans (4 oz / 113 g each) mild diced green chiles, with juices'
   - '1 can (15 oz / 425 g) diced tomatoes, with juices'
   - 1 can (8 oz / 227 g) plain tomato sauce
@@ -134,6 +134,8 @@ learning:
   review:
     status: editorial-review
     date: '2026-09-06'
+source: Adapted from showmetheyummy.com
+sourceUrl: 'https://showmetheyummy.com/crockpot-vegetarian-chili-recipe/'
 ---
 
 ## Chef's Note

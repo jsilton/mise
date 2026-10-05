@@ -50,6 +50,9 @@ nutrition:
   fiber: 4
   sugar: 6
   sodium: 1320
+source: Adapted from foodnetwork.com
+sourceUrl: >-
+  https://www.foodnetwork.com/recipes/seared-scallops-with-a-corn-bacon-and-avocado-relish-3414406
 ---
 
 ## Chef's Note

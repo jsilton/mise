@@ -55,6 +55,8 @@ nutrition:
   fiber: 9.5
   sugar: 21.5
   sodium: 250
+source: Adapted from wholefully.com
+sourceUrl: 'https://wholefully.com/strawberry-cheesecake-overnight-oats-recipe/'
 ---
 
 ## Chef's Note

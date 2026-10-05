@@ -122,6 +122,9 @@ learning:
   review:
     status: editorial-review
     date: '2026-09-06'
+source: Adapted from saltandlavender.com
+sourceUrl: >-
+  https://www.saltandlavender.com/lemon-chicken-orzo-soup/?utm_campaign=later-linkinbio-saltandlavender&utm_content=later-39024866&utm_medium=social&utm_source=linkin.bio
 ---
 
 ## Chef's Note
@@ -136,3 +139,7 @@ This stovetop soup gets a little body from flour and more starch from the orzo a
 4. **Cook orzo and check:** Add orzo and simmer gently about 10–12 minutes, stirring across the bottom frequently. Check that pasta is just tender and several thick chicken pieces reach 165°F / 74°C. Extend if needed, lifting cooked chicken out briefly if the pasta needs significantly longer.
 5. **Set consistency and season:** Add additional broth in small amounts if needed for a spoonable soup and return to a gentle simmer. Taste and add salt gradually only if needed. Turn off heat, add parsley, lemon zest and half the juice, then taste before adding the remainder.
 6. **Serve:** Divide among six bowls and serve promptly. For making ahead, cook the orzo separately in boiling water according to its package and add it to each serving; keep it separate from stored soup.
+
+## Cooking Notes
+
+Orzo absorbs broth as the soup stands. Add more broth when reheating if needed to restore the soup consistency.

@@ -53,11 +53,14 @@ nutrition:
   fiber: 46
   sugar: 33
   sodium: 1460
+source: Adapted from saveur.com
+sourceUrl: 'https://www.saveur.com/recipes/baked-spanish-chorizo-rice/'
 ---
 
 ## Chef's Note
 
 Spanish cooking builds flavor through slow cooking, proper heat, and the principle that onions, garlic, and tomato are the foundation of nearly everything. This is meant to be reliable and honest - quality ingredients cooked with care, nothing fancy, just right.
+
 ## Directions
 
 1.  **Render:** In a large oven-safe skillet or Dutch oven, cook the chorizo rounds over medium heat until they are crispy and have released their red oil. Remove chorizo to a plate.

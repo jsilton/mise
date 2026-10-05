@@ -48,6 +48,8 @@ nutrition:
   fiber: 0.5
   sugar: 2
   sodium: 1090
+source: Adapted from 100daysofrealfood.com
+sourceUrl: 'https://www.100daysofrealfood.com/recipe-creamy-whole-wheat-mac-and-cheese/'
 ---
 
 ## Chef's Note
@@ -61,4 +63,3 @@ This whole-wheat version keeps pasta starch by not draining completely dry - com
 3.  **Bind:** Turn the heat to low. Add the Cheddar and Parmesan one handful at a time, stirring constantly until the cheese has melted into a silky, thick sauce.
 4.  **Finish:** Stir in the final tablespoon of cream, salt, plenty of black pepper, and the pinch of nutmeg.
 5.  **Serve:** Serve immediately while the sauce is at its glossiest.
-

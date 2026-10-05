@@ -51,6 +51,9 @@ nutrition:
   fiber: 3.5
   sugar: 2.5
   sodium: 460
+source: Adapted from eatingwell.com
+sourceUrl: >-
+  https://www.eatingwell.com/recipe/257004/zucchini-noodles-with-avocado-pesto-shrimp/
 ---
 
 ## Chef's Note

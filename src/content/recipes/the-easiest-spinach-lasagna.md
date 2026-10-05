@@ -50,6 +50,8 @@ nutrition:
   fiber: 1.5
   sugar: 1.5
   sodium: 1710
+source: Adapted from 100daysofrealfood.com
+sourceUrl: 'https://www.100daysofrealfood.com/easiest-spinach-lasagna/'
 ---
 
 ## Chef's Note

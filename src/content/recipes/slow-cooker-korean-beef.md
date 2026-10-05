@@ -50,6 +50,9 @@ nutrition:
   fiber: 0
   sugar: 36.5
   sodium: 3480
+source: Adapted from damndelicious.net
+sourceUrl: 'https://damndelicious.net/2015/02/21/slow-cooker-korean-beef/'
+rating: 5
 ---
 
 ## Chef's Note

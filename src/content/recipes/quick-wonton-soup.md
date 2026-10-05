@@ -31,7 +31,7 @@ pairsWith:
 ingredients:
   - 20 mini frozen wontons
   - 6 cups Low-sodium Chicken Broth
-  - "1 (1-inch) piece Fresh Ginger, smashed"
+  - '1 (1-inch) piece Fresh Ginger, smashed'
   - '1 clove Garlic, smashed'
   - '4 Baby Bok Choy, halved'
   - '1 1/2 cups Shiitake Mushrooms, sliced'
@@ -47,6 +47,8 @@ nutrition:
   fiber: 1.5
   sugar: 1
   sodium: 1640
+source: Adapted from skinnytaste.com
+sourceUrl: 'https://www.skinnytaste.com/wonton-soup/'
 ---
 
 ## Chef's Note

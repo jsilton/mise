@@ -60,6 +60,9 @@ nutrition:
   fiber: 3
   sugar: 59.5
   sodium: 610
+source: Adapted from Foodnetwork.com
+sourceUrl: >-
+  http://www.foodnetwork.com/recipes/food-network-kitchen/apple-pie-recipe-2011423
 ---
 
 ## Chef's Note

@@ -56,6 +56,8 @@ nutrition:
   fiber: 3
   sugar: 25.5
   sodium: 320
+source: Adapted from yummytoddlerfood.com
+sourceUrl: 'https://www.yummytoddlerfood.com/pumpkin-oatmeal-muffins/'
 ---
 
 ## Chef's Note
@@ -71,3 +73,7 @@ These are nutritious breakfast muffins. We blend the rolled oats into a smooth, 
 5.  **Bake:** Bake for 20-22 minutes until firm to the touch and the edges are lightly golden.
 6.  **Cool:** Let cool in the pan for 10 minutes to allow the oat structure to set.
 7.  **Store:** These keep in the fridge for 5 days or the freezer for 3 months.
+
+## Cooking Notes
+
+Use plain unsweetened nondairy milk for the dairy-free option and certified gluten-free oats when needed. Mini muffins cook faster; start checking around 12–14 minutes and use a clean center tester. A flax or chia egg can make the texture more like baked oatmeal. Serve in smaller pieces for younger children; use maple syrup rather than honey for children under one year.

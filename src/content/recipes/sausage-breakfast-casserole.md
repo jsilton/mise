@@ -47,6 +47,9 @@ nutrition:
   fiber: 0
   sugar: 1.5
   sodium: 720
+source: Adapted from thepioneerwoman.com
+sourceUrl: >-
+  https://www.thepioneerwoman.com/food-cooking/recipes/a37215621/sausage-breakfast-casserole-recipe/
 ---
 
 ## Chef's Note

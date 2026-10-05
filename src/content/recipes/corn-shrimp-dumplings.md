@@ -52,6 +52,8 @@ nutrition:
   fiber: 0
   sugar: 0.5
   sodium: 140
+source: Adapted from Foodandwine.com
+sourceUrl: 'http://www.foodandwine.com/recipes/corn-shrimp-dumplings'
 ---
 
 ## Chef's Note

@@ -57,6 +57,8 @@ nutrition:
   fiber: 0
   sugar: 106
   sodium: 340
+source: Adapted from selfproclaimedfoodie.com
+sourceUrl: 'https://selfproclaimedfoodie.com/old-fashioned-strawberry-ice-cream/'
 ---
 
 ## Chef's Note

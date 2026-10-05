@@ -52,6 +52,8 @@ pairsWith:
   - apple-pie
   - blackout-chocolate-cake
   - classic-peach-ice-cream
+source: Adapted from tastesbetterfromscratch.com
+sourceUrl: 'https://tastesbetterfromscratch.com/yellow-cake/'
 ---
 
 ## Chef's Note
@@ -67,3 +69,7 @@ This is the definitive birthday cake for the family. The secret is using both so
 5.  **Bake:** Bake for 25 minutes until a tester comes out with moist crumbs. Let cool **completely** before inverting.
 6.  **Frosting:** Whisk the melted frosting butter and cocoa. Beat in the confectioners’ sugar, milk, and frosting vanilla for 5 minutes until light and billowy.
 7.  **Finish:** Frost the layers heavily. Garnish with a "High Note" of flaky sea salt if desired.
+
+## Cooking Notes
+
+If using salted butter, reduce the separately added salt. Replacing all the oil with butter changes the crumb; the butter-and-oil combination is retained for moisture.

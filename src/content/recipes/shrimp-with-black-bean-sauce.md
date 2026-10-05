@@ -52,6 +52,8 @@ nutrition:
   fiber: 8.5
   sugar: 3.5
   sodium: 2830
+source: Adapted from thewoksoflife.com
+sourceUrl: 'https://thewoksoflife.com/shrimp-black-bean-sauce/'
 ---
 
 ## Chef's Note

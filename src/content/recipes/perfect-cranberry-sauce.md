@@ -92,6 +92,8 @@ learning:
   review:
     status: editorial-review
     date: '2026-09-06'
+source: Adapted from damndelicious.net
+sourceUrl: 'https://damndelicious.net/2013/11/15/cranberry-orange-sauce/'
 ---
 
 ## Chef's Note

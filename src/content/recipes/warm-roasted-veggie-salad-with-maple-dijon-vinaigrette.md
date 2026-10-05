@@ -57,6 +57,8 @@ nutrition:
   fiber: 3.5
   sugar: 8
   sodium: 160
+source: Adapted from kalejunkie.com
+sourceUrl: 'https://kalejunkie.com/warm-roasted-veggie-salad-with-maple-dijon-vinaigrette/'
 ---
 
 ## Chef's Note

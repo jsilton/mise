@@ -51,6 +51,8 @@ nutrition:
   fiber: 1.5
   sugar: 4
   sodium: 630
+source: Adapted from Myrecipes.com
+sourceUrl: 'https://www.myrecipes.com/recipe/key-lime-pie-ice-cream-0'
 ---
 
 ## Chef's Note

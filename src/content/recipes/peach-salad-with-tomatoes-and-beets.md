@@ -133,6 +133,7 @@ learning:
   review:
     status: editorial-review
     date: '2026-09-06'
+sourceUrl: 'http://www.myrecipes.com/recipe/peach-salad-tomatoes-beets'
 ---
 
 ## Chef's Note

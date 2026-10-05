@@ -133,6 +133,8 @@ learning:
   review:
     status: editorial-review
     date: '2026-09-06'
+sourceUrl: >-
+  https://www.foodnetwork.com/recipes/food-network-kitchen/creamy-garlicky-shrimp-skillet-3875851
 ---
 
 ## Chef's Note

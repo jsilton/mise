@@ -44,6 +44,9 @@ nutrition:
   fiber: 0.5
   sugar: 0.5
   sodium: 490
+source: Adapted from foodnetwork.com
+sourceUrl: >-
+  https://www.foodnetwork.com/recipes/tyler-florence/cheese-fondue-recipe-1906678
 ---
 
 ## Chef's Note

@@ -130,6 +130,8 @@ scaling:
     This method is for one whole bone-in turkey breast weighing 4–5 lb. A
     smaller split breast, boneless roast or several breasts need their own
     cooking and pan plan.
+source: Adapted from Thespruce.com
+sourceUrl: 'https://www.thespruce.com/roast-turkey-breast-recipe-995372'
 ---
 
 ## Chef's Note

@@ -60,6 +60,8 @@ nutrition:
   fiber: 1.5
   sugar: 108.5
   sodium: 760
+source: Adapted from Foodandwine.com
+sourceUrl: 'http://www.foodandwine.com/recipes/apple-cider-cream-pie'
 ---
 
 ## Chef's Note

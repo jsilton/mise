@@ -121,6 +121,8 @@ learning:
   review:
     status: editorial-review
     date: '2026-09-06'
+source: Adapted from Snapguide.com
+sourceUrl: 'https://snapguide.com/guides/cook-homemade-panang-curry/'
 ---
 
 ## Chef's Note

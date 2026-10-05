@@ -122,6 +122,8 @@ learning:
   review:
     status: editorial-review
     date: '2026-09-06'
+source: Adapted from cooking.nytimes.com
+sourceUrl: 'https://cooking.nytimes.com/recipes/1015474-simple-roast-turkey'
 ---
 
 ## Chef's Note

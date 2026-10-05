@@ -48,6 +48,8 @@ nutrition:
   fiber: 1.5
   sugar: 2
   sodium: 330
+source: Adapted from Thekitchenmagpie.com
+sourceUrl: 'https://www.thekitchenmagpie.com/smoky-spanish-rice-chickpeas/'
 ---
 
 ## Chef's Note

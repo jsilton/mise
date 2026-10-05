@@ -47,6 +47,8 @@ nutrition:
   fiber: 1
   sugar: 23
   sodium: 480
+source: Adapted from Foodnetwork.com
+sourceUrl: 'http://www.foodnetwork.com/recipes/robert-irvine/french-toast-recipe-1951408'
 ---
 
 ## Chef's Note

@@ -51,6 +51,9 @@ nutrition:
   fiber: 24
   sugar: 26.5
   sodium: 540
+source: Adapted from fitmamarealfood.com
+sourceUrl: >-
+  http://www.fitmamarealfood.com/babys-first-smash-cake-healthy-no-sugar-banana-cake/
 ---
 
 ## Chef's Note

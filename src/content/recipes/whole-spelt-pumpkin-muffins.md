@@ -52,6 +52,9 @@ nutrition:
   fiber: 0
   sugar: 22
   sodium: 360
+source: Adapted from 100daysofrealfood.com
+sourceUrl: >-
+  http://www.100daysofrealfood.com/recipe-whole-spelt-pumpkin-muffins-and-other-spelt-recipes/#more-3102
 ---
 
 ## Chef's Note
@@ -65,4 +68,3 @@ The key to spelt muffins that aren't dry is high hydration. Spelt has a more fra
 3.  **Combine:** Make a well in the dry ingredients. Pour in the pumpkin mix. Fold with a spatula until **just combined**.
 4.  **Bake:** Preheat oven to 350°F. Line a 12-cup tin. Fill each cup 3/4 full. Bake for 18-20 minutes until a toothpick inserted into the center comes out clean.
 5.  **Cool:** Let cool completely in the pan to allow the spelt structure to set into a Crunch tender crumb.
-

@@ -47,6 +47,8 @@ nutrition:
   fiber: 3
   sugar: 3.5
   sodium: 50
+source: Adapted from tasteofhome.com
+sourceUrl: 'https://www.tasteofhome.com/recipes/garlic-mashed-red-potatoes/'
 ---
 
 ## Chef's Note
@@ -61,4 +63,3 @@ Leaving red skins on provides texture and earthy flavor that peeled potatoes lac
 4.  **Mash:** Add the butter, salt, and pepper. Start mashing by hand (for a rustic texture).
 5.  **The Emulsion:** Gradually add the warmed milk and Parmesan. Continue mashing until the mixture is creamy but still has distinct "pops" of red skin.
 6.  **Serve:** Serve immediately with a crack of black pepper.
-

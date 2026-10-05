@@ -55,6 +55,7 @@ nutrition:
   fiber: 12
   sugar: 407.5
   sodium: 430
+source: Adapted from Miriam Hamilton
 ---
 
 ## Chef's Note

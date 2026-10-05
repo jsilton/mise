@@ -119,6 +119,8 @@ learning:
   review:
     status: editorial-review
     date: '2026-09-06'
+source: Adapted from foodandwine.com
+sourceUrl: 'https://www.foodandwine.com/sheet-pan-feta-chicken-8673602'
 ---
 
 ## Chef's Note

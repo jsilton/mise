@@ -43,6 +43,8 @@ nutrition:
   fiber: 0
   sugar: 1
   sodium: 2540
+source: Adapted from Bonappetit.com
+sourceUrl: 'https://www.bonappetit.com/recipe/fresh-pasta-dough'
 ---
 
 ## Chef's Note

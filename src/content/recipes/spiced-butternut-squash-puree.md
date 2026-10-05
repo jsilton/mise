@@ -49,6 +49,7 @@ nutrition:
   fiber: 0
   sugar: 33
   sodium: 240
+source: Adapted from Silton Family
 ---
 
 ## Chef's Note

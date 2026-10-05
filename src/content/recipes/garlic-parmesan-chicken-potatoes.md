@@ -52,6 +52,10 @@ nutrition:
   fiber: 2
   sugar: 1.5
   sodium: 230
+source: Adapted from Damndelicious.net
+sourceUrl: >-
+  http://damndelicious.net/2016/05/08/chicken-potatoes-garlic-parmesan-cream-sauce/print/
+rating: 4
 ---
 
 ## Chef's Note

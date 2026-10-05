@@ -128,6 +128,7 @@ learning:
   review:
     status: editorial-review
     date: '2026-09-06'
+sourceUrl: 'https://gimmedelicious.com/2016/02/11/quick-honey-garlic-shrimp-and-broccoli/'
 ---
 
 ## Chef's Note

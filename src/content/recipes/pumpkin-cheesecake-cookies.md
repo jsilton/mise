@@ -309,3 +309,7 @@ Soft pumpkin cookies surround a creamy cheesecake filling, with cinnamon-ginger 
 Allow about 2 hours for mixing, overlapping dough and filling chills, shaping, one oven batch, and initial cooling. Extra oven batches, rechilling during assembly, and cooling completely for cold service take longer.
 
 The filled, baked cookies need refrigeration even though the dough contains no egg. Store covered at 40°F or below and use within 3–4 days, or freeze for longer storage and thaw in the refrigerator. Keep the cream-cheese filling and assembled unbaked cookies chilled whenever you pause; the dough's one-hour handling chill is not a room-temperature storage allowance. Limit the baked cookies' combined cooling and serving time out of refrigeration to 2 hours, or 1 hour above 90°F.
+
+## Cooking Notes
+
+Chill the dough before wrapping it around the filling. If warm hands make shaping difficult, flatten portions between sheets of parchment. Leave about three inches between cookies and use the surface-texture cue rather than waiting for dark browning.

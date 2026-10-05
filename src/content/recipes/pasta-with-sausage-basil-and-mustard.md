@@ -149,6 +149,7 @@ learning:
   review:
     status: editorial-review
     date: '2026-09-06'
+sourceUrl: 'https://www.foodandwine.com/recipes/pasta-sausage-basil-and-mustard'
 ---
 
 ## Chef's Note

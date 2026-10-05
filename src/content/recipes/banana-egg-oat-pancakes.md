@@ -45,6 +45,9 @@ nutrition:
   fiber: 14
   sugar: 23.5
   sodium: 2540
+source: Adapted from meaningfuleats.com
+sourceUrl: >-
+  https://meaningfuleats.com/banana-egg-almond-butter-pancakes-grain-free-dairy-free/
 ---
 
 ## Chef's Note

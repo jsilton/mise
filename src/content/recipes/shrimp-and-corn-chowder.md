@@ -56,6 +56,8 @@ nutrition:
   fiber: 2.5
   sugar: 8.5
   sodium: 1120
+source: Adapted from foodandwine.com
+sourceUrl: 'https://www.foodandwine.com/recipes/shrimp-and-corn-chowder'
 ---
 
 ## Chef's Note
@@ -71,4 +73,3 @@ The key to chowder without heavy flour is grating an unripe green plantain direc
 5.  **Refine:** For the Kitchen Standard texture, ladle 2 cups of the soup into a blender and pulse until smooth, then return to the pot.
 6.  **The Crunch:** Add the shrimp and its marinade. Cook for 2-3 minutes until just opaque.
 7.  **Serve:** Stir in cilantro and cayenne. Serve in warmed bowls.
-

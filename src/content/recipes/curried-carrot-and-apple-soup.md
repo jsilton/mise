@@ -54,6 +54,8 @@ nutrition:
   fiber: 1
   sugar: 3
   sodium: 80
+source: Adapted from Foodandwine.com
+sourceUrl: 'http://www.foodandwine.com/recipes/curried-carrot-and-apple-soup'
 ---
 
 ## Chef's Note

@@ -44,6 +44,7 @@ nutrition:
   fiber: 5
   sugar: 97
   sodium: 0
+source: Adapted from Ruth Shankman
 ---
 
 ## Chef's Note

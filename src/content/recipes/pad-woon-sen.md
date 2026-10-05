@@ -51,6 +51,8 @@ nutrition:
   fiber: 1.5
   sugar: 6
   sodium: 3140
+source: Adapted from cooking.nytimes.com
+sourceUrl: 'https://cooking.nytimes.com/recipes/1025396-pad-woon-sen'
 ---
 
 ## Chef's Note

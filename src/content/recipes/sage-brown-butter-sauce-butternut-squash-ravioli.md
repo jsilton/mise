@@ -47,6 +47,9 @@ nutrition:
   fiber: 0.5
   sugar: 1.5
   sodium: 570
+source: Adapted from Aberdeenskitchen.com
+sourceUrl: >-
+  http://www.aberdeenskitchen.com/2016/11/sage-brown-butter-sauce-butternut-squash-ravioli/
 ---
 
 ## Chef's Note
@@ -62,3 +65,7 @@ Brown butter and sage is a classic Northern Italian sauce, especially popular wi
 5.  **Bind:** Stir in the Parmesan and lemon juice.
 6.  **Toss:** Add the cooked ravioli to the pan. Toss for 1 minute until every pillow is coated in the brown butter silk.
 7.  **Serve:** Garnish with extra Parmesan and a crack of black pepper.
+
+## Cooking Notes
+
+For an optional crisp garnish, fry a few sage leaves in butter until crisp but not dark. Lift onto a paper towel and season lightly before serving.

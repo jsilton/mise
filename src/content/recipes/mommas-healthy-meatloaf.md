@@ -128,6 +128,9 @@ learning:
   review:
     status: editorial-review
     date: '2026-09-06'
+source: Adapted from Allrecipes.com
+sourceUrl: >-
+  http://allrecipes.com/recipe/240747/mommas-healthy-meatloaf/?internalSource=amp&referringContentType=amp%20recipe&clickId=amp_directions
 ---
 
 ## Chef's Note

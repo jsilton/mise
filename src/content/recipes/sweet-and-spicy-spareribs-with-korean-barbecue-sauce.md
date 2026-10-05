@@ -50,6 +50,9 @@ nutrition:
   fiber: 0.5
   sugar: 7
   sodium: 2040
+source: Adapted from Foodandwine.com
+sourceUrl: >-
+  http://www.foodandwine.com/recipes/sweet-and-spicy-spareribs-korean-barbecue-sauce
 ---
 
 ## Chef's Note

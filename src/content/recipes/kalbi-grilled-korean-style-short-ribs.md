@@ -48,6 +48,8 @@ nutrition:
   fiber: 0
   sugar: 40.5
   sodium: 3400
+source: Adapted from foodandwine.com
+sourceUrl: 'https://www.foodandwine.com/recipes/grilled-korean-style-short-ribs'
 ---
 
 ## Chef's Note

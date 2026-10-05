@@ -53,6 +53,9 @@ nutrition:
   fiber: 14
   sugar: 21.5
   sodium: 5990
+source: Adapted from callascleaneats.com
+sourceUrl: >-
+  https://callascleaneats.com/brownie-baked-oatmeal/?fbclid=IwAR2VKrSER7sJi1jVPn6a_PYxugV2UovjxV3cvglcpsFunAu6yr3Ektjl5Ws
 ---
 
 ## Chef's Note

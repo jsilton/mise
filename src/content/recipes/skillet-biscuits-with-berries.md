@@ -51,6 +51,8 @@ pairsWith:
   - apple-pie
   - blackout-chocolate-cake
   - classic-peach-ice-cream
+source: Adapted from Foodandwine.com
+sourceUrl: 'http://www.foodandwine.com/recipes/skillet-biscuits-berries'
 ---
 
 ## Chef's Note

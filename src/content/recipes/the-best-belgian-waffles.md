@@ -45,6 +45,9 @@ nutrition:
   fiber: 1
   sugar: 38
   sodium: 770
+source: Adapted from Food.com
+sourceUrl: 'http://www.food.com/recipe/the-best-belgian-waffles-63071'
+rating: 5
 ---
 
 ## Chef's Note

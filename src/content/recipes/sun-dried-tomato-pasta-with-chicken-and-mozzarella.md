@@ -120,6 +120,8 @@ learning:
   review:
     status: editorial-review
     date: '2026-09-06'
+source: Adapted from juliasalbum.com
+sourceUrl: 'https://juliasalbum.com/chicken-mozzarella-pasta-with-sun-dried-tomatoes/'
 ---
 
 ## Chef's Note

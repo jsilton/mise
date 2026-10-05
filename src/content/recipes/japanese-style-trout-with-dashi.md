@@ -52,6 +52,8 @@ nutrition:
   fiber: 1.5
   sugar: 53.5
   sodium: 4540
+source: Adapted from Foodandwine.com
+sourceUrl: 'http://www.foodandwine.com/recipes/japanese-style-trout-dashi'
 ---
 
 ## Chef's Note

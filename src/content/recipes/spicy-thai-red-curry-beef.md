@@ -131,6 +131,7 @@ learning:
   review:
     status: editorial-review
     date: '2026-09-06'
+sourceUrl: 'http://www.myrecipes.com/recipe/spicy-thai-red-curry-beef'
 ---
 
 ## Chef's Note

@@ -104,6 +104,9 @@ learning:
   review:
     status: editorial-review
     date: '2026-09-06'
+source: Adapted from Kitchenkonfidence.com
+sourceUrl: >-
+  https://www.kitchenkonfidence.com/2015/10/italian-kale-and-sausage-stuffing-recipe
 ---
 
 ## Chef's Note

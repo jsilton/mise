@@ -53,6 +53,9 @@ nutrition:
   fiber: 1
   sugar: 3.5
   sodium: 90
+source: Adapted from 100daysofrealfood.com
+sourceUrl: >-
+  https://www.100daysofrealfood.com/recipe-fruit-nut-or-berry-or-whatever-you-want-them-to-be-whole-wheat-muffins/
 ---
 
 ## Chef's Note
@@ -68,3 +71,7 @@ These are whole-wheat breakfast muffins. The key to a muffin that isn't heavy is
 5.  **The Crunch:** Sprinkle your choice of fruit (blueberries, diced pears, etc.) onto the top of each raw muffin. Stir gently with a toothpick to submerge.
 6.  **Bake:** Preheat oven to 400°F (high heat for Crunch vertical rise). Bake for 10-15 minutes until a toothpick comes out clean.
 7.  **Serve:** Best served warm with salted butter.
+
+## Cooking Notes
+
+For a nut-free preparation, omit optional nuts and check the other ingredients for cross-contact. Nutmeg is a spice, not a tree nut.

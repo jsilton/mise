@@ -43,6 +43,9 @@ nutrition:
   fiber: 0.5
   sugar: 3
   sodium: 300
+source: Adapted from Seriouseats.com
+sourceUrl: >-
+  http://www.seriouseats.com/recipes/2014/06/quick-easy-drop-biscuits-recipe.html
 ---
 
 ## Chef's Note
@@ -58,4 +61,3 @@ Drop biscuits are a Southern staple for quick weeknight meals - they skip the ro
 5.  **Drop:** Using a large spoon or cookie scoop, drop walnut-sized mounds onto the pan. Do not smooth the tops - the "nooks and crannies" are essential for the final "Snap."
 6.  **Bake:** Bake for 15-18 minutes until the tops are golden brown and the bottoms are crispy.
 7.  **Serve:** Serve warm with plenty of salted butter and honey.
-

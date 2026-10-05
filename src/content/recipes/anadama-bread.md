@@ -50,6 +50,8 @@ nutrition:
   fiber: 19
   sugar: 1
   sodium: 2510
+source: Adapted from Allrecipes.com
+sourceUrl: 'http://allrecipes.com/recipe/16245/anadama-bread/'
 ---
 
 ## Chef's Note

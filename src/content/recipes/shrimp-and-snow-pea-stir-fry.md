@@ -131,6 +131,8 @@ learning:
   review:
     status: editorial-review
     date: '2026-09-06'
+sourceUrl: >-
+  https://www.delish.com/cooking/recipe-ideas/a35131589/shrimp-and-snow-pea-stir-fry-recipe/
 ---
 
 ## Chef's Note

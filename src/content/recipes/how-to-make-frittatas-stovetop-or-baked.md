@@ -49,6 +49,8 @@ nutrition:
   fiber: 0.5
   sugar: 1
   sodium: 540
+source: Adapted from cookieandkate.com
+sourceUrl: 'https://cookieandkate.com/best-frittata-recipe/'
 ---
 
 ## Chef's Note

@@ -119,6 +119,9 @@ learning:
   review:
     status: editorial-review
     date: '2026-09-06'
+source: Adapted from cooking.nytimes.com
+sourceUrl: >-
+  https://cooking.nytimes.com/recipes/1024250-chicken-galbi-noodle-salad?smid=ck-recipe-iOS-share
 ---
 
 ## Chef's Note

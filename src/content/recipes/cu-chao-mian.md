@@ -51,6 +51,8 @@ nutrition:
   fiber: 3.5
   sugar: 3.5
   sodium: 2020
+source: Adapted from thewoksoflife.com
+sourceUrl: 'https://thewoksoflife.com/shanghai-fried-noodles/'
 ---
 
 ## Chef's Note

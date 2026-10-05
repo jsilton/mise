@@ -50,6 +50,7 @@ nutrition:
   fiber: 0.5
   sugar: 9.5
   sodium: 100
+source: Adapted from Mimi (Pat Hamilton)
 ---
 
 ## Chef's Note

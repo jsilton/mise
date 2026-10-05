@@ -45,6 +45,7 @@ nutrition:
   fiber: 6.5
   sugar: 20.5
   sodium: 0
+rating: 5
 ---
 
 ## Chef's Note

@@ -50,6 +50,8 @@ nutrition:
   fiber: 0.5
   sugar: 23.5
   sodium: 100
+source: Adapted from Foodandwine.com
+sourceUrl: 'http://www.foodandwine.com/recipes/quadruple-chocolate-brownies'
 ---
 
 ## Chef's Note

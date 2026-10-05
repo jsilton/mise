@@ -46,6 +46,10 @@ nutrition:
   fiber: 5.5
   sugar: 3
   sodium: 990
+source: Adapted from Thekitchn.com
+sourceUrl: >-
+  http://www.thekitchn.com/recipe-broccolini-chicken-sausage-and-orzo-skillet-234135
+rating: 5
 ---
 
 ## Chef's Note

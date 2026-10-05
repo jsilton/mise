@@ -44,6 +44,8 @@ nutrition:
   fiber: 0.5
   sugar: 0
   sodium: 100
+source: Adapted from Epicurious.com
+sourceUrl: 'http://www.epicurious.com/recipes/food/views/sweet-potato-latkes-105919'
 ---
 
 ## Chef's Note
