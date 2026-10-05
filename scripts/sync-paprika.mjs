@@ -6,6 +6,7 @@ import { gzipSync } from 'node:zlib';
 import { createHash } from 'node:crypto';
 import { isDeepStrictEqual } from 'node:util';
 import { loadRecipes, createPaprikaRecipe, assertRecipeSet } from './lib/recipe-exports.mjs';
+import { assertPinnedRecipes } from './lib/paprika-identities.mjs';
 
 const command = (name, args, options = {}) =>
   execFileSync(name, args, { maxBuffer: 128 * 1024 * 1024, ...options });
@@ -42,6 +43,14 @@ export function mergePaprika(originals, recipes, plan) {
     recipes.map((r) => r.slug)
   );
   const bySlug = new Map(recipes.map((r) => [r.slug, r]));
+  const byUid = new Map();
+  for (const recipe of recipes)
+    for (const uid of [recipe.data.paprikaUid, ...(recipe.data.paprikaAdditionalUids || [])].filter(
+      Boolean
+    )) {
+      if (byUid.has(uid)) throw new Error('Duplicate pinned Paprika UID');
+      byUid.set(uid, recipe);
+    }
   const decisions = new Map(plan.recipes.map((r) => [r.uid, r]));
   const covered = new Set();
   const entries = originals.map((original) => {
@@ -52,7 +61,7 @@ export function mergePaprika(originals, recipes, plan) {
       throw new Error(`${original.name}: source content changed; review the new export first`);
     if (decision.action === 'draft') return structuredClone(original);
     if (!['shared', 'add'].includes(decision.action)) throw new Error('Unknown sync decision');
-    const recipe = bySlug.get(decision.slug);
+    const recipe = byUid.get(original.uid) || bySlug.get(decision.slug);
     if (!recipe) throw new Error(`${decision.slug}: missing Mise recipe`);
     covered.add(recipe.slug);
     const current = createPaprikaRecipe(recipe, original.uid);
@@ -73,7 +82,7 @@ export function mergePaprika(originals, recipes, plan) {
   for (const recipe of recipes) {
     if (!covered.has(recipe.slug)) {
       entries.push({
-        ...createPaprikaRecipe(recipe, miseUid(recipe.slug)),
+        ...createPaprikaRecipe(recipe, recipe.data.paprikaUid || miseUid(recipe.slug)),
         description: recipe.data.description || recipe.parsed.chefNote,
       });
     }
@@ -130,11 +139,12 @@ export async function writePaprika(entries, output) {
   }
 }
 
-export async function syncPaprika(source, destination = 'exports/paprika-sync-2026-10-05') {
+export async function syncPaprika(source, destination = '.mise/paprika-exports/sync') {
   if (!source) throw new Error('Pass the original native Paprika export or My Recipes.zip');
   const originals = await readPaprika(source);
   const plan = JSON.parse(await fs.readFile('docs/paprika-sync/2026-10-05-plan.json', 'utf8'));
   const recipes = await loadRecipes();
+  assertPinnedRecipes(recipes);
   const entries = mergePaprika(originals, recipes, plan);
   await writePaprika(entries, path.join(destination, 'mise-paprika-synced.paprikarecipes'));
   const testUid = plan.recipes.find((r) => r.slug === 'basmati-rice').uid;

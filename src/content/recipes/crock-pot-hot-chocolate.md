@@ -1,4 +1,5 @@
 ---
+miseId: f42df1fa-9aef-4822-8342-d231575ccd18
 title: Hot Chocolate
 difficulty: intermediate
 cookingMethods:

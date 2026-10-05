@@ -1,4 +1,5 @@
 ---
+miseId: 0d38b1f3-0d80-4df8-82e9-3d9ec5e195ac
 title: Grilled Zucchini with Mint and Lemon
 origin: Mediterranean-inspired summer side
 difficulty: easy

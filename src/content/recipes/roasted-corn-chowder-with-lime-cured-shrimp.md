@@ -1,4 +1,5 @@
 ---
+miseId: 0e6b2821-d078-4aa1-acd0-347f87bbf98b
 title: Corn Chowder with Lime Shrimp
 difficulty: easy
 cookingMethods:

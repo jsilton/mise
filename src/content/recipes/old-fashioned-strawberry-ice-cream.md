@@ -1,4 +1,5 @@
 ---
+miseId: 9cb8e1a6-5b5a-459f-8f80-cdf879bae929
 title: Old-Fashioned Strawberry Ice Cream
 difficulty: intermediate
 cookingMethods:

@@ -1,4 +1,5 @@
 ---
+miseId: d273bf4d-15e8-476a-b98d-1168a2fea4b6
 title: Slow-Cooker Coconut Chicken Curry
 difficulty: easy
 cookingMethods:

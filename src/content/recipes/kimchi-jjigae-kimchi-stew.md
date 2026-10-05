@@ -1,4 +1,5 @@
 ---
+miseId: b81b2727-0ae6-41c8-8122-d96bc2ed2d65
 title: Kimchi Jjigae (Kimchi Stew)
 origin: Korea
 difficulty: easy

@@ -1,4 +1,5 @@
 ---
+miseId: 11876c48-96ef-455b-9e87-3c263687a26f
 title: Spiced Butternut Squash Soup
 difficulty: easy
 cookingMethods:

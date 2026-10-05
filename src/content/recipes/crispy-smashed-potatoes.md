@@ -1,4 +1,5 @@
 ---
+miseId: b4a508e0-3b2b-45ae-bffd-5d27575964cf
 title: Smashed Potatoes
 difficulty: easy
 origin: United States

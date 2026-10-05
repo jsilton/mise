@@ -1,4 +1,5 @@
 ---
+miseId: 037445e1-e491-4555-bed1-9385975a4934
 title: Gochujang-Glazed Oven Wings
 role: main
 vibe: comfort

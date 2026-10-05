@@ -1,4 +1,5 @@
 ---
+miseId: e0c6b582-ce89-41f6-97d0-3b2a13d5e705
 title: 'Chicken, Apple, and Butternut Stew'
 difficulty: easy
 cookingMethods:

@@ -1,4 +1,5 @@
 ---
+miseId: e02dc46b-a5c1-4f36-8121-88018d271469
 title: Corn-Shrimp Dumplings
 difficulty: intermediate
 cookingMethods:

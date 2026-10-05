@@ -1,4 +1,5 @@
 ---
+miseId: 3f793da4-8027-4ebb-97b3-30bdf0eee5cf
 title: Sweet and White Potato Gratin
 aliases:
   - sweet-and-white-potato-gratin-the-thanksgiving-splurge

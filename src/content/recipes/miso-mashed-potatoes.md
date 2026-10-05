@@ -1,4 +1,5 @@
 ---
+miseId: 6ae7c039-f159-4fbc-b680-4020acf22ebc
 title: Miso-Mashed Potatoes
 origin: Japanese-inspired home cooking
 description: Yukon Gold potatoes gently mashed with white miso, butter, warm milk and a little garlic, finished with optional scallions.

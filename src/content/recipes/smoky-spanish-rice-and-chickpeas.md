@@ -1,4 +1,5 @@
 ---
+miseId: cc442e15-d7ca-4092-bfc0-fbbb294c25e4
 title: Spanish Rice and Chickpeas
 difficulty: easy
 cookingMethods:

@@ -1,4 +1,5 @@
 ---
+miseId: 102a635c-5314-4867-810f-99adda884291
 title: Paprika Chicken Kebabs with Chile-Yogurt Sauce
 origin: Contemporary Mediterranean-inspired preparation
 source: Adapted from Jimmy Bannos Jr.'s Chicken Thigh Kebabs with Chile-Yogurt Sauce, published by Food & Wine

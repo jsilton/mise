@@ -1,4 +1,5 @@
 ---
+miseId: b73ae278-c43e-4491-b6a3-cb1c37b3010c
 title: Soy Sauce Butter Pasta with Shrimp and Shiitakes
 difficulty: intermediate
 cookingMethods:

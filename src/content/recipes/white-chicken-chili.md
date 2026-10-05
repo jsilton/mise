@@ -1,4 +1,5 @@
 ---
+miseId: 2e8afb75-acd1-49fa-96ea-7c47f98a1225
 title: White Chicken Chili with Hominy
 difficulty: easy
 cookingMethods:

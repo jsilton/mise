@@ -1,4 +1,5 @@
 ---
+miseId: 0a194fbc-ad96-4dae-874f-50b6bdecbc58
 title: Japanese Cucumber Sunomono
 origin: Japan
 difficulty: easy

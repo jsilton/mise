@@ -1,3 +1,7 @@
+---
+miseId: fbe1bd17-e795-4c9b-b184-7e558436bd0e
+---
+
 # YinYin’s Wontons
 
 Saved Paprika draft, October 5, 2026. Attribution: Marie Hoy.

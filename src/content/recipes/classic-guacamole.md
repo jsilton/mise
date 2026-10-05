@@ -1,4 +1,5 @@
 ---
+miseId: d413bba4-05c8-4be3-a424-9d357d872fe0
 title: Classic Guacamole
 role: side
 vibe: quick

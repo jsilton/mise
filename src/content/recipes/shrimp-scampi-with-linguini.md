@@ -1,4 +1,5 @@
 ---
+miseId: e3a41c6b-b95d-4475-8ac9-79aaa34e587b
 title: Shrimp Scampi with Linguini
 difficulty: intermediate
 cookingMethods:

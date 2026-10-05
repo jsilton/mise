@@ -1,4 +1,5 @@
 ---
+miseId: ab8caf11-2436-4acb-9911-4ebc8b966483
 title: Slow Cooker Lentil Tortilla Soup
 difficulty: easy
 cookingMethods:

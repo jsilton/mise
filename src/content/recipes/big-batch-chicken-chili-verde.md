@@ -1,4 +1,5 @@
 ---
+miseId: 2b2193f2-3f0c-45d9-b30a-8750e56524b8
 title: Big-Batch Chicken Chili Verde
 origin: Mexican-inspired home cooking
 difficulty: intermediate
@@ -58,7 +59,7 @@ ingredients:
   - >-
     2 cups (480 ml) low-sodium chicken broth, divided, plus up to 1 cup (240 ml) only if needed to
     loosen
-  - "1 can (15 oz / 425 g) plain white beans, rinsed and drained, about 255 g drained total"
+  - '1 can (15 oz / 425 g) plain white beans, rinsed and drained, about 255 g drained total'
   - '2 tbsp fresh lime juice, added gradually only if needed'
   - 1/4 cup chopped fresh cilantro
   - '--- Optional toppings, for the whole batch ---'

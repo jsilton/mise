@@ -1,4 +1,5 @@
 ---
+miseId: e9a1e4f4-e55f-41b9-a525-67dfad103c34
 title: Quick Refrigerator-Pickled Red Onions
 difficulty: easy
 cookingMethods:

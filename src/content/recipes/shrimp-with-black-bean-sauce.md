@@ -1,4 +1,5 @@
 ---
+miseId: 1e732dec-2ad3-4a1b-bff8-32a40e1034c7
 title: Shrimp with Black Bean Sauce
 difficulty: easy
 cookingMethods:

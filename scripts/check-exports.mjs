@@ -7,6 +7,7 @@ import {
   validateCombinedText,
 } from './lib/recipe-exports.mjs';
 import { validatePaprikaArchive } from './export-paprika.mjs';
+import { PAPRIKA_EXPORT } from './lib/paprika-identities.mjs';
 
 export async function checkExports(
   directory = 'exports',
@@ -24,7 +25,13 @@ export async function checkExports(
     ],
     [
       'Paprika',
-      () => validatePaprikaArchive(path.resolve(directory, 'mise-recipes.paprikarecipes'), recipes),
+      () =>
+        validatePaprikaArchive(
+          directory === 'exports'
+            ? PAPRIKA_EXPORT
+            : path.resolve(directory, 'mise-recipes.paprikarecipes'),
+          recipes
+        ),
     ],
     [
       'Combined text',

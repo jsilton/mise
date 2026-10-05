@@ -1,4 +1,5 @@
 ---
+miseId: ab61fad3-69c8-4e51-b54f-fdc8fdf072e7
 title: Thai-Inspired Chicken Meatball Soup
 difficulty: easy
 cookingMethods:

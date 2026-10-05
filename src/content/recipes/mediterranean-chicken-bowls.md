@@ -1,4 +1,5 @@
 ---
+miseId: d0e22cef-0575-4beb-8ed2-93e6fcb48203
 title: Mediterranean Chicken Bowls
 difficulty: easy
 cookingMethods:

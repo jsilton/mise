@@ -1,4 +1,5 @@
 ---
+miseId: 5628d460-b1fc-468d-a2ce-82284b7ecac4
 title: Red Zone Margarita
 aliases:
   - foxboro-red-margarita

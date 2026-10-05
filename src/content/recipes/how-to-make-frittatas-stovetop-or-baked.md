@@ -1,4 +1,5 @@
 ---
+miseId: da57a109-9e08-481c-a558-4122696c9712
 title: Frittata
 origin: Italy
 difficulty: intermediate

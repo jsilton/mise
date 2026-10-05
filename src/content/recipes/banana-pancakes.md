@@ -1,4 +1,5 @@
 ---
+miseId: c9ce5817-578e-405d-aec1-73c477b384ea
 title: Banana Pancakes
 origin: United States
 difficulty: easy
@@ -42,7 +43,7 @@ ingredients:
   - 1/4 tsp Kosher Salt
   - 1/4 tsp Ground Cinnamon
   - 1 cup Buttermilk
-  - "2 large Ripe Bananas, mashed (about 3/4 cup total)"
+  - '2 large Ripe Bananas, mashed (about 3/4 cup total)'
   - 2 large Eggs
   - '3 tbsp Unsalted Butter, melted and slightly cooled'
   - 1 tsp Vanilla Extract

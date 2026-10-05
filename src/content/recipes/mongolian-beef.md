@@ -1,4 +1,5 @@
 ---
+miseId: 05062fb6-307a-44c1-bb93-e8b1efb8508c
 title: Mongolian Beef with Ginger and Scallions
 
 # Reviewed: 145°F/63°C plus 3-minute wait applies to sliced beef only.

@@ -1,4 +1,5 @@
 ---
+miseId: fc8718e0-7916-4b87-a25f-67d6c6771ee0
 title: Eggless Strawberry Ice Cream
 role: dessert
 vibe: comfort

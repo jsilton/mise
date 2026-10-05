@@ -1,4 +1,5 @@
 ---
+miseId: ed5a497e-44cb-41ee-8fe4-6184286b1724
 title: Lavender London Fog Cocktail
 description: A chilled Earl Grey and gin cocktail with oat milk, vanilla and a restrained hint of lavender, shaken and served in a coupe.
 source: User-provided recipe, adapted with oat milk at the user's suggestion

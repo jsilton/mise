@@ -1,4 +1,5 @@
 ---
+miseId: 3a71959a-2aab-4b2a-8500-7dac5c2e4981
 title: 'Sausage, Shrimp & Quinoa Skillet'
 difficulty: easy
 cookingMethods:

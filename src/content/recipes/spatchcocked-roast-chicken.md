@@ -1,4 +1,5 @@
 ---
+miseId: 2370b99a-14bb-46f3-b9e3-17a51ba6f386
 title: Spatchcocked Roast Chicken (The Best Method)
 origin: Italy / France
 difficulty: intermediate

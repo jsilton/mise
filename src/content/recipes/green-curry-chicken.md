@@ -1,4 +1,5 @@
 ---
+miseId: 8552e14a-57c2-407d-b954-6cbba8165552
 title: Thai Green Curry with Chicken
 origin: Thailand
 difficulty: easy

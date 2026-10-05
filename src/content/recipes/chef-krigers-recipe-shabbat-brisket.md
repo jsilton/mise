@@ -1,4 +1,5 @@
 ---
+miseId: 3ba37e8c-45ad-4f10-9dca-c28009754c5a
 title: Chef Kriger’s Recipe Shabbat Brisket
 difficulty: intermediate
 cookingMethods:

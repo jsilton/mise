@@ -1,4 +1,5 @@
 ---
+miseId: 76141cd8-9a70-43c4-9c5f-582086072c4f
 title: Green Bean Fries
 difficulty: easy
 cookingMethods:

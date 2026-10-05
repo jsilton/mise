@@ -1,4 +1,5 @@
 ---
+miseId: 54bb0aee-de9a-44d9-af61-7c837c9b354d
 title: Miso Salmon with Bok Choy
 source: Jordan Silton
 description: Citrus-miso salmon with garlic, scallions and oyster-seasoned bok choy over jasmine rice.

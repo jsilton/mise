@@ -1,4 +1,5 @@
 ---
+miseId: 4d17475a-4beb-4923-abc6-a4d6ecfbe5d1
 title: Strawberry Vinaigrette
 difficulty: easy
 cookingMethods: [blend]

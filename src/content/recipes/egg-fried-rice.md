@@ -1,4 +1,5 @@
 ---
+miseId: 0ae96387-f0f6-4cb7-9cca-b438fdf525ac
 title: Egg Fried Rice
 origin: China
 difficulty: easy

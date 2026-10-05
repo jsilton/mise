@@ -5,6 +5,7 @@ import { execFileSync } from 'node:child_process';
 import { gzipSync, gunzipSync } from 'node:zlib';
 import { isDeepStrictEqual } from 'node:util';
 import { loadRecipes, createPaprikaRecipe, assertRecipeSet } from './lib/recipe-exports.mjs';
+import { assertPinnedRecipes, PAPRIKA_EXPORT } from './lib/paprika-identities.mjs';
 
 const command = (program, args, options = {}) =>
   execFileSync(program, args, { maxBuffer: 32 * 1024 * 1024, ...options });
@@ -23,19 +24,21 @@ export async function validatePaprikaArchive(filename, recipes, run = command) {
     if (typeof value.uid !== 'string' || !value.uid.trim() || uids.has(value.uid))
       throw new Error(`${entry}: invalid or duplicate UID`);
     uids.add(value.uid);
-    const expected = createPaprikaRecipe(recipes[index], value.uid);
+    const expected = createPaprikaRecipe(
+      recipes[index],
+      recipes[index].data.paprikaUid || value.uid
+    );
     if (!isDeepStrictEqual(value, expected))
       throw new Error(`${entry}: stale or incomplete recipe`);
   }
   return entries.length;
 }
 
-export async function exportPaprika(
-  outputPath = path.resolve('exports/mise-recipes.paprikarecipes'),
-  recipes = null,
-  run = command
-) {
-  recipes ||= await loadRecipes();
+export async function exportPaprika(outputPath = PAPRIKA_EXPORT, recipes = null, run = command) {
+  if (!recipes) {
+    recipes = await loadRecipes();
+    assertPinnedRecipes(recipes);
+  }
   assertRecipeSet(
     recipes.map(({ slug }) => slug),
     recipes.map(({ slug }) => slug)

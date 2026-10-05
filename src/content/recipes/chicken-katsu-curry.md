@@ -1,4 +1,5 @@
 ---
+miseId: 130f4865-af58-4a88-8146-174d9a06fcb9
 title: Chicken Katsu Curry
 origin: Japan
 difficulty: intermediate

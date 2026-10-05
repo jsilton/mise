@@ -1,4 +1,5 @@
 ---
+miseId: 7996dfa3-b058-439f-8748-53a8937b4907
 title: Do Chua (Pickled Carrots and Daikon)
 origin: Vietnam
 source: Technique adapted from Andrea Nguyen’s daikon and carrot pickle

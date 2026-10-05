@@ -1,4 +1,5 @@
 ---
+miseId: c7d6ad2b-9b1c-4a71-8aa3-54cefad973c3
 title: Dal Tadka
 origin: India
 difficulty: easy

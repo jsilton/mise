@@ -1,4 +1,5 @@
 ---
+miseId: 85dc7e56-d650-4ba5-a5c0-c772a5b8aba8
 title: Sushi Rice (Shari)
 origin: Japan
 difficulty: intermediate

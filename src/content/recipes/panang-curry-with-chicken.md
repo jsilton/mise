@@ -1,4 +1,5 @@
 ---
+miseId: 3e22cf7c-8ea0-4436-b7cb-213aa28d9945
 title: Panang Curry with Chicken
 difficulty: easy
 cookingMethods:

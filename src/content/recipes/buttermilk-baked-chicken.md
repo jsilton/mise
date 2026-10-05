@@ -1,4 +1,5 @@
 ---
+miseId: 55038a11-a895-46c7-8e5e-098e0bed3d1f
 title: Buttermilk Cornflake Baked Chicken
 difficulty: easy
 cookingMethods: [bake]

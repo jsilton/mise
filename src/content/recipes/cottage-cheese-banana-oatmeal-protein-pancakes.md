@@ -1,4 +1,5 @@
 ---
+miseId: 9f4549a2-972e-4a40-b892-4f35cd7697af
 title: Cottage Cheese Banana Oatmeal Protein Pancakes
 difficulty: easy
 cookingMethods:

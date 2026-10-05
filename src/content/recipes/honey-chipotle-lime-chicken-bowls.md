@@ -1,4 +1,5 @@
 ---
+miseId: b30a9f23-b09f-4521-a3b6-6bfe25374346
 title: Honey-Chipotle Chicken and Lime Rice Bowls
 difficulty: easy
 cookingMethods: [marinate, pan-fry, assemble]

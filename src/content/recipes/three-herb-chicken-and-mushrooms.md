@@ -1,4 +1,5 @@
 ---
+miseId: 08ce4245-2866-4c5c-af72-45cf65cb0bf8
 title: Three-Herb Chicken & Mushrooms
 difficulty: intermediate
 cookingMethods:

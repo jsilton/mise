@@ -1,4 +1,5 @@
 ---
+miseId: ea3c0b1e-934b-4ddb-be05-abdaf9e64c4b
 title: Tom Kha Gai (Galangal Coconut Chicken Soup)
 origin: Thailand
 difficulty: easy

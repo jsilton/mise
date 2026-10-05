@@ -1,4 +1,5 @@
 ---
+miseId: 27cbe179-d0e6-45eb-9237-698e27d33555
 title: 'Moroccan-Inspired Chicken with Apricots, Chickpeas and Almonds'
 origin: Moroccan-inspired home braise
 difficulty: intermediate
@@ -69,7 +70,7 @@ ingredients:
   - '1 small pinch saffron threads, about 0.05 g, optional, steeped in 2 tbsp warm water'
   - '1 1/2 cups (360 ml) low-sodium chicken stock, plus up to 1/2 cup (120 ml) only if needed'
   - '120 g dried apricots, halved'
-  - "1 can (15 oz / 425 g) chickpeas, rinsed and drained, about 255 g drained total"
+  - '1 can (15 oz / 425 g) chickpeas, rinsed and drained, about 255 g drained total'
   - '20 g preserved-lemon rind, pulp removed, rinsed if very salty and finely chopped'
   - '1 tsp honey, optional and only if needed after tasting'
   - '--- Finish ---'

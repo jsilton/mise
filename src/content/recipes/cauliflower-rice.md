@@ -1,4 +1,5 @@
 ---
+miseId: 39e2ccbe-bf8d-43b8-81eb-994a231c70fc
 title: Cauliflower Rice
 difficulty: easy
 cookingMethods:

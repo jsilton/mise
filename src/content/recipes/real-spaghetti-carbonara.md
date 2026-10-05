@@ -1,4 +1,5 @@
 ---
+miseId: 13b1c33d-e6dd-492a-ab73-8eac6c1b3281
 title: Spaghetti Carbonara
 origin: Italy
 difficulty: intermediate
@@ -58,4 +59,3 @@ Carbonara is a Roman dish that dates to the 1940s, with debates about whether it
 5.  **Toss:** Add the hot pasta to the skillet with the rendered fat. Pour the warm egg/cheese mixture over the pasta.
 6.  **Emulsify:** Add 1/4 cup of pasta water. Toss vigorously and constantly. The heat thickens the pasteurized egg mixture into a glossy coating, but appearance alone does not verify a fully cooked egg endpoint. Add more water if it looks too thick.
 7.  **Serve:** Serve immediately with extra Pecorino and pepper.
-

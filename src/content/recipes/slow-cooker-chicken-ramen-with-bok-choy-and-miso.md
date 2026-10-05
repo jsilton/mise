@@ -1,4 +1,5 @@
 ---
+miseId: 6b74d610-054e-463c-a301-b6608bde7964
 title: Slow-Cooker Chicken Ramen with Miso
 difficulty: intermediate
 cookingMethods:

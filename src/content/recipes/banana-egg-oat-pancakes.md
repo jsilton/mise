@@ -1,4 +1,5 @@
 ---
+miseId: fe500d2a-eea3-4e09-b840-412d3de4e9a8
 title: Banana Egg Oat Pancakes
 difficulty: easy
 cookingMethods:

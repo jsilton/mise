@@ -1,4 +1,5 @@
 ---
+miseId: 27468d0e-3b4d-40d6-b590-7c1259923a61
 title: Chocolate Blended Oats with Raspberry Chia Jam
 difficulty: easy
 cookingMethods:

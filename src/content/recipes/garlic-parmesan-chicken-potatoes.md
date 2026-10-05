@@ -1,4 +1,5 @@
 ---
+miseId: 3fea7c52-5e26-4d5b-96bd-e9323023bb7c
 title: Chicken and Potatoes with Garlic Parmesan Cream
 difficulty: intermediate
 cookingMethods:

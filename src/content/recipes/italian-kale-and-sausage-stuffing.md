@@ -1,4 +1,5 @@
 ---
+miseId: 10ff4e41-8b0d-4df4-b7cd-9662af691f2e
 title: Sausage, Kale and Ciabatta Stuffing
 difficulty: intermediate
 cookingMethods: [saute, bake]

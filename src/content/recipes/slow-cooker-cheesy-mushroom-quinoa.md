@@ -1,4 +1,5 @@
 ---
+miseId: 0b2656d1-a655-4472-951c-6214337e2aa7
 title: Slow Cooker Cheesy Mushroom Quinoa
 difficulty: intermediate
 cookingMethods:

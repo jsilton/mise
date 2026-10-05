@@ -1,4 +1,5 @@
 ---
+miseId: cb6945a4-2b1f-4a6b-a76d-07fef1198fc5
 title: Quick-Pickled Cucumber Salad
 origin: Korea
 difficulty: easy

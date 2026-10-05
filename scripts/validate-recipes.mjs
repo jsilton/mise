@@ -901,7 +901,11 @@ function normalizeKey(str) {
       const contextData = {
         slug,
         title,
-        frontmatter: data || {},
+        frontmatter: Object.fromEntries(
+          Object.entries(data || {}).filter(
+            ([key]) => !['miseId', 'paprikaUid', 'paprikaAdditionalUids'].includes(key)
+          )
+        ),
         audiences,
         ingredientTokens,
         methods,

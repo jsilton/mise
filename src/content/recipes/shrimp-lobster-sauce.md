@@ -1,4 +1,5 @@
 ---
+miseId: ff7c47ce-d855-495c-a558-653bd4921e39
 title: Shrimp with Lobster Sauce
 difficulty: easy
 cookingMethods:

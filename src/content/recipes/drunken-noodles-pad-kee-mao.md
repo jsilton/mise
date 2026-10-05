@@ -1,4 +1,5 @@
 ---
+miseId: c6a8a627-d418-4bda-9403-565d2a02bf04
 title: Pad Kee Mao (Drunken Noodles)
 origin: Thailand
 difficulty: intermediate

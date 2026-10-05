@@ -1,4 +1,5 @@
 ---
+miseId: 8c631d6f-1328-4f56-aaf2-9f91d114116a
 title: Misir Wot (Ethiopian Red Lentil Stew)
 origin: Ethiopia
 difficulty: easy
@@ -46,9 +47,9 @@ ingredients:
   - >-
     3 tbsp Niter Kibbeh (Ethiopian spiced butter) or Extra-Virgin Olive Oil for
     vegan
-  - "2 large Red Onions, finely diced (about 3 cups total)"
+  - '2 large Red Onions, finely diced (about 3 cups total)'
   - '4 cloves Garlic, minced'
-  - "1 (1-inch) piece Fresh Ginger, grated"
+  - '1 (1-inch) piece Fresh Ginger, grated'
   - 3 tbsp Berbere Spice Blend
   - 2 tbsp Tomato Paste
   - '1 tsp Kosher Salt, plus more to taste'

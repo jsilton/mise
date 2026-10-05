@@ -1,4 +1,5 @@
 ---
+miseId: 3f494324-6cd9-491f-967c-5ef27a3d5c39
 title: Chicken Fingers
 aliases:
   - crispy-chicken-milanese-family-chicken-fingers

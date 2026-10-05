@@ -1,4 +1,5 @@
 ---
+miseId: ad9644f4-9865-40b5-8bb0-9caabc7d73c3
 title: Japanese Chicken Curry
 origin: Japan
 difficulty: intermediate

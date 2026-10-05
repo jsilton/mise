@@ -1,4 +1,5 @@
 ---
+miseId: 6d38311f-fb44-4d7b-88c5-b52153cb0440
 title: Blueberry Pancakes
 difficulty: easy
 cookingMethods:

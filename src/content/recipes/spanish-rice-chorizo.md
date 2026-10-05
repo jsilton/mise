@@ -1,4 +1,5 @@
 ---
+miseId: 62c70c8b-6707-42a1-bf6c-2e0d5be55f1a
 title: Spanish Rice with Chorizo and Chickpeas
 difficulty: easy
 cookingMethods:

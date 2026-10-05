@@ -6,6 +6,7 @@ const recipesCollection = defineCollection({
   type: 'content',
   schema: z
     .object({
+      // Internal miseId and Paprika bindings are deliberately excluded from public content.
       title: z.string(),
       origin: z.string().optional(), // Source/attribution
 

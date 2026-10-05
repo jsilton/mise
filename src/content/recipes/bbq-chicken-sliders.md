@@ -1,4 +1,5 @@
 ---
+miseId: fbdc6317-ca0f-4d65-a20c-8573d6c3971b
 title: BBQ Chicken Sliders
 role: main
 vibe: quick

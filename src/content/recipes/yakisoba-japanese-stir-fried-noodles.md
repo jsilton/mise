@@ -1,4 +1,5 @@
 ---
+miseId: 96cbd3d5-1d78-48a8-9ab4-e73412cac6dd
 title: Chicken Yakisoba
 origin: Japanese home cooking
 difficulty: easy

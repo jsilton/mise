@@ -1,4 +1,5 @@
 ---
+miseId: 07619a95-eef8-498e-842a-1c0fbcbc84fe
 title: Kalbi
 origin: Korea
 difficulty: intermediate

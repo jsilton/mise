@@ -1,4 +1,5 @@
 ---
+miseId: 0dba902f-9765-48fc-8a1b-d3d66fea7bce
 title: Shumai
 origin: China
 difficulty: intermediate

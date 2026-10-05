@@ -20,6 +20,8 @@ jobs:
         uses: withastro/action@v3
         with:
           package-manager: pnpm@10
+      - name: Check private recipe metadata is absent
+        run: node scripts/check-paprika-privacy.mjs dist
 
   deploy:
     needs: build

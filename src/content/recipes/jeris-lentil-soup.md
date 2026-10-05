@@ -1,4 +1,5 @@
 ---
+miseId: 92bde61f-dfbe-4ec8-8a1d-7dc9772f2433
 title: Jeri's Lentil Soup
 difficulty: easy
 cookingMethods:

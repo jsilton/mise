@@ -1,4 +1,5 @@
 ---
+miseId: 40dfb4b8-5a00-4da4-8db4-4fc8a5f9c2fd
 title: Thai Basil Noodles
 aliases:
   - thai-basil-noodles-the-15-minute-wok

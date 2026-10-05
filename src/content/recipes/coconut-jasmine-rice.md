@@ -1,4 +1,5 @@
 ---
+miseId: 45bc9241-c7b7-46de-b212-8ba918d9ec8e
 title: Coconut Jasmine Rice
 difficulty: easy
 cookingMethods:

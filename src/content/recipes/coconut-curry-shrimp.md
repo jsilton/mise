@@ -1,4 +1,5 @@
 ---
+miseId: aa990f26-e8b2-4670-b8f2-21094b22c3f7
 title: Coconut Curry Shrimp
 difficulty: easy
 cookingMethods:

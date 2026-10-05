@@ -1,4 +1,5 @@
 ---
+miseId: 17d387b2-0079-4f7a-a4dd-37e786486bf3
 title: Blueberry Oat Breakfast Bars
 difficulty: intermediate
 cookingMethods:

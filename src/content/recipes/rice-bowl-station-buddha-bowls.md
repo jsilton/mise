@@ -1,4 +1,5 @@
 ---
+miseId: 28001578-e155-44d2-9d62-fca2078e3b88
 title: Rice Bowl Station (Buddha Bowls)
 origin: Hawaii / California Fusion
 difficulty: easy

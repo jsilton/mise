@@ -1,4 +1,5 @@
 ---
+miseId: 531ee068-e238-4b2b-a12a-a824d468024a
 title: Golden Veil
 difficulty: intermediate
 cookingMethods:

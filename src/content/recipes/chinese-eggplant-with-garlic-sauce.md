@@ -1,4 +1,5 @@
 ---
+miseId: 55b726ba-fc3d-4770-ae3b-1e8460278d34
 title: Chili-Bean Eggplant with Pork
 difficulty: easy
 cookingMethods:

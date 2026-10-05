@@ -1,4 +1,5 @@
 ---
+miseId: cc0f250a-4376-412a-a607-8a0ccf4ac6e4
 title: Whipped Feta with Honey and Pistachios
 aliases:
   - whipped-feta-with-honey-and-aleppo

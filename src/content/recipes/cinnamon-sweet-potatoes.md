@@ -1,4 +1,5 @@
 ---
+miseId: bb13734e-4de4-4293-87e3-083aa49b2d85
 title: Sweet Potatoes with Cinnamon
 description: Thin orange sweet-potato rounds roasted with butter, glazed with honey and cinnamon, and finished with fresh lime.
 difficulty: easy

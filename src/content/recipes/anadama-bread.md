@@ -1,4 +1,5 @@
 ---
+miseId: 74dc1af9-509d-4722-9108-a6361b6c1f75
 title: Anadama Bread
 aliases:
   - anadama-bread-the-new-england-classic

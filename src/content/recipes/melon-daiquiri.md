@@ -1,4 +1,5 @@
 ---
+miseId: 26dc5320-626c-4ebc-9c49-326164621656
 title: Melon Daiquiri
 difficulty: easy
 cookingMethods:

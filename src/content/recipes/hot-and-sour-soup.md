@@ -1,4 +1,5 @@
 ---
+miseId: ddae4dbd-54a6-49bb-b1aa-560dfb68fa27
 title: Hot and Sour Soup
 origin: China
 difficulty: easy

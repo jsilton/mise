@@ -1,4 +1,5 @@
 ---
+miseId: a6c4ed6a-d3cf-4a47-9f6c-0e7c3301526e
 title: Sweet Chili Chicken Sliders
 role: main
 vibe: quick

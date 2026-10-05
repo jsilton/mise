@@ -1,4 +1,5 @@
 ---
+miseId: 8502d037-a926-43d9-9186-5fea03da2e4c
 title: Savory Oatmeal with Egg
 origin: United States
 difficulty: easy

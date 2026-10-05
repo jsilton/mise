@@ -1,4 +1,5 @@
 ---
+miseId: cfddceb4-8649-4f1c-8df4-4b109e683763
 title: Israeli-Style Hummus
 origin: Middle East
 source: Adapted from Michael Solomonov's Israeli-style hummus

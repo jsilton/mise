@@ -1,4 +1,5 @@
 ---
+miseId: 4c36c7ca-0cc0-45c6-ad81-b729fbbfd362
 title: Green Beans with Shallots and Lemon
 difficulty: easy
 cookingMethods: [boil, saute]

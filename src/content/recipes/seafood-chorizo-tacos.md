@@ -1,4 +1,5 @@
 ---
+miseId: 4275bc37-db6c-4ca9-9a54-cf514c1869f0
 title: Seafood-Chorizo Tacos
 difficulty: easy
 cookingMethods:

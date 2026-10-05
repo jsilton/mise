@@ -1,4 +1,5 @@
 ---
+miseId: 1f4015ec-d6ad-44d1-9bed-a6fd41c59d00
 title: Seared Scallops with Corn & Avocado Relish
 difficulty: easy
 cookingMethods:

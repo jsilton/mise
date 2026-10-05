@@ -1,4 +1,5 @@
 ---
+miseId: 52fd30fd-0e10-48ff-8087-b7bf27b9b350
 title: Chicken with Herbed Corn Salsa
 difficulty: easy
 cookingMethods:

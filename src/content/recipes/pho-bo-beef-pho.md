@@ -1,4 +1,5 @@
 ---
+miseId: 35709b6b-c399-4edf-8eee-48b08b4f64f0
 title: Pho Bo (Beef Pho)
 origin: Vietnam
 difficulty: intermediate
@@ -44,7 +45,7 @@ ingredients:
   - '3 lbs Beef Marrow Bones, cut into 3-inch pieces'
   - '2 lbs Beef Brisket, whole piece'
   - '2 large Yellow Onions, unpeeled and halved'
-  - "1 (4-inch) piece Fresh Ginger, halved lengthwise"
+  - '1 (4-inch) piece Fresh Ginger, halved lengthwise'
   - '4 Star Anise, whole'
   - '1 Cinnamon Stick (3-inch, Vietnamese preferred)'
   - 6 whole Cloves

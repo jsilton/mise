@@ -1,4 +1,5 @@
 ---
+miseId: cf0618f0-fef8-48f4-a6f4-d09e7fc23692
 title: Pork and Cabbage Skillet (Egg Roll in a Bowl)
 difficulty: easy
 cookingMethods:

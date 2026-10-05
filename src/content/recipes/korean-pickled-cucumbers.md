@@ -1,4 +1,5 @@
 ---
+miseId: ea7d2288-0387-4a04-b2d0-9465f94077c1
 title: Oi Muchim (Korean Cucumber Salad)
 origin: Korea
 difficulty: easy

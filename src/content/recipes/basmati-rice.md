@@ -1,4 +1,5 @@
 ---
+miseId: 07b54230-caf5-42a8-b435-cce0aca5410f
 title: Basmati Rice
 difficulty: easy
 cookingMethods:

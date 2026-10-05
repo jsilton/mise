@@ -1,4 +1,5 @@
 ---
+miseId: e8d84dec-9e42-4df2-a764-b44251b23b20
 title: Seasoned Bean Sprouts (Kongnamul Namul)
 difficulty: intermediate
 cookingMethods:

@@ -1,4 +1,5 @@
 ---
+miseId: 08512f6b-46b3-4431-af63-e8a3ce4dfa5d
 title: Garlic Mashed "Mock" Potatoes
 difficulty: easy
 cookingMethods:

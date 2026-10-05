@@ -3,6 +3,9 @@ node_modules/
 dist/
 .astro/
 
+# Private Paprika identities, exports and backups; never publish with the site
+.mise/
+
 # Build artifacts & generated files
 public/recipes/kitchen-context/
 public/recipes/kitchen-reviews/

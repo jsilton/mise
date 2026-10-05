@@ -1,4 +1,5 @@
 ---
+miseId: 0843c86f-49dc-45fc-b26d-16e2ab0b31d5
 title: Omelet Muffins
 difficulty: easy
 cookingMethods:

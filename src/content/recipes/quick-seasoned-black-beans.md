@@ -1,4 +1,5 @@
 ---
+miseId: c1ac4508-c546-42e3-b6ab-16e4407acc8f
 title: Seasoned Black Beans
 origin: Mexican-inspired home cooking
 role: side

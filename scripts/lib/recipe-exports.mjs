@@ -5,6 +5,7 @@ import { isDeepStrictEqual } from 'node:util';
 import matter from 'gray-matter';
 import { parseRecipeContent, isIngredientDivider } from '../../src/lib/recipe-content.mjs';
 import { buildRecipeSchema } from '../../src/lib/recipe-schema.mjs';
+import { applyIdentities, readIdentities } from './paprika-identities.mjs';
 
 export const RECIPES_DIR = path.resolve('src/content/recipes');
 export const SITE_URL = 'https://jordansilton.com/mise/';
@@ -46,7 +47,7 @@ export async function loadRecipes(directory = RECIPES_DIR) {
     recipes.map((recipe) => recipe.slug),
     recipes.map((recipe) => recipe.slug)
   );
-  return recipes;
+  return applyIdentities(recipes, await readIdentities(undefined, true));
 }
 
 export function assertRecipeSet(actual, expected) {
@@ -105,8 +106,14 @@ export function normalizeIngredientLinks(ingredient, pageUrl) {
   });
 }
 
-export function createPaprikaRecipe(recipe, uid = randomUUID()) {
+export function createPaprikaRecipe(recipe, uid) {
   const { data, parsed, url } = recipe;
+  uid ||= data.paprikaUid;
+  if (!uid && data.miseId)
+    throw new Error(
+      `${recipe.slug}: private pinned Paprika ID is unavailable; restore the registry.`
+    );
+  uid ||= randomUUID();
   const attribution =
     data.source || data.sourceUrl
       ? `Source: ${[data.source, data.sourceUrl].filter(Boolean).join('\n')}`

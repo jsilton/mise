@@ -1,4 +1,5 @@
 ---
+miseId: 511eb939-37ae-4290-a178-edaf5c79cd3b
 title: Thai Red Chicken Curry
 difficulty: easy
 cookingMethods:

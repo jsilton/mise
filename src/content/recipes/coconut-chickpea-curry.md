@@ -1,4 +1,5 @@
 ---
+miseId: bd4cb42d-c2fc-47b5-9f0d-4f43b828d72f
 title: Coconut Chickpea Curry
 source: Adapted from Jessica Hylton, Jessica in the Kitchen
 sourceUrl: https://jessicainthekitchen.com/coconut-chickpea-curry-recipe/

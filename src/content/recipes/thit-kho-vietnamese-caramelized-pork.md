@@ -1,4 +1,5 @@
 ---
+miseId: b73066b3-cb09-4dab-b467-28efba8ee743
 title: Thit Kho (Vietnamese Caramelized Pork)
 origin: Vietnam
 difficulty: easy

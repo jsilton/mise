@@ -1,4 +1,5 @@
 ---
+miseId: 718d2c88-b943-4c3e-b774-2f6c347db96e
 title: Chia Pudding
 difficulty: intermediate
 cookingMethods:

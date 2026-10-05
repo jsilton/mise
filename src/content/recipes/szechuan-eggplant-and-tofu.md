@@ -1,4 +1,5 @@
 ---
+miseId: e4577032-9e5c-4c5b-bc15-3b44448b4664
 title: Chili-Garlic Eggplant and Tofu
 origin: Chinese-inspired home cooking
 difficulty: intermediate

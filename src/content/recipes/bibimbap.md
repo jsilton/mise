@@ -1,4 +1,5 @@
 ---
+miseId: b47a2e5e-507c-44d9-8fbf-d65c5b40c607
 title: Bibimbap
 difficulty: intermediate
 origin: Korea

@@ -1,4 +1,5 @@
 ---
+miseId: dda45401-8508-4169-817a-9e89f67abb22
 title: Plain Short-Grain White Rice (Gohan)
 origin: Japanese and Korean home cooking
 difficulty: easy

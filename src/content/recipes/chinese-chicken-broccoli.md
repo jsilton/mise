@@ -1,4 +1,5 @@
 ---
+miseId: 91458cd5-bd4c-4861-af64-9cecb7595731
 title: Chicken and Broccoli Stir-Fry
 difficulty: easy
 cookingMethods:

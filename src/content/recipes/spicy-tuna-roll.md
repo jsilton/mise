@@ -1,4 +1,5 @@
 ---
+miseId: 98632dca-338d-4d31-b7ed-e070007bac9a
 title: Spicy Tuna Roll
 origin: Japanese-American sushi style
 difficulty: intermediate

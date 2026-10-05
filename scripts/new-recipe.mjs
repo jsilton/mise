@@ -3,6 +3,8 @@
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import { randomUUID } from 'node:crypto';
+import { registerIdentity } from './lib/paprika-identities.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const projectRoot = path.resolve(__dirname, '..');
@@ -45,6 +47,7 @@ if (fs.existsSync(filepath)) {
 
 // Generate the recipe template
 const recipeTemplate = `---
+miseId: ${randomUUID()}
 title: ${JSON.stringify(recipeName)}
 origin: '' # TODO: Country/region of origin
 difficulty: easy # easy | intermediate | medium | hard
@@ -115,6 +118,7 @@ Generated from formula.steps by recipe:compile.
 
 // Write the file
 try {
+  await registerIdentity(recipeTemplate.match(/^miseId: (.+)$/m)[1]);
   fs.writeFileSync(filepath, recipeTemplate, 'utf-8');
   console.log(`\n✓ Recipe created: ${filepath}`);
   console.log(`\nNext steps:`);

@@ -1,4 +1,5 @@
 ---
+miseId: c2edf32a-9167-4e7a-890b-1625813121e4
 title: Slow-Cooker Coq au Vin
 difficulty: intermediate
 cookingMethods:

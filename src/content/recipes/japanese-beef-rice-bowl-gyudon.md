@@ -1,4 +1,5 @@
 ---
+miseId: 066540c6-77bf-42eb-aa44-7650bd4c65a7
 title: Japanese Beef Rice Bowl (Gyudon)
 origin: Japan
 difficulty: easy

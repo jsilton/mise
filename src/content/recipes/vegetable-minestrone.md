@@ -1,4 +1,5 @@
 ---
+miseId: c67b8a1a-d893-4279-a8d5-2ec422c61366
 title: Vegetable Minestrone (Italian Grandmother's Soup)
 origin: Italy
 difficulty: easy

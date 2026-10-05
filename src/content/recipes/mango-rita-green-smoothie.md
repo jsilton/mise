@@ -1,4 +1,5 @@
 ---
+miseId: 6c31d6b4-7906-4a88-85ce-b7e936fe3750
 title: Mango-Rita Green Smoothie
 difficulty: easy
 cookingMethods:

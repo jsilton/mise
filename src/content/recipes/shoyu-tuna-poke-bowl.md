@@ -1,4 +1,5 @@
 ---
+miseId: c6321e1c-7723-40d9-9d57-09a8e3ade4e1
 title: Shoyu Tuna Poke Bowl
 origin: Hawaiian-inspired rice bowl
 difficulty: intermediate

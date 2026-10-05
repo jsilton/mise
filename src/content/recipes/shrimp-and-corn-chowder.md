@@ -1,4 +1,5 @@
 ---
+miseId: 7d83549c-4969-47b8-943f-953c4be788e8
 title: Shrimp and Corn Chowder
 difficulty: easy
 cookingMethods:

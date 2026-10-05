@@ -1,4 +1,5 @@
 ---
+miseId: e49c9a67-35de-4024-999f-4e86a3535707
 title: Massaman Curry
 origin: Thai-inspired home cooking
 role: main

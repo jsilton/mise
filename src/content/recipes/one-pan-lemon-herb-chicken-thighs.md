@@ -1,4 +1,5 @@
 ---
+miseId: 20aae88a-1c3d-4e4b-882a-112e3f2a0273
 title: One-Pan Lemon Herb Chicken Thighs
 origin: Mediterranean
 difficulty: easy
@@ -34,7 +35,7 @@ pairsWith:
   - basmati-rice
   - charred-asparagus-with-parmesan
 ingredients:
-  - "8 Chicken Thighs, bone-in and skin-on (about 2.5-3 lbs total)"
+  - '8 Chicken Thighs, bone-in and skin-on (about 2.5-3 lbs total)'
   - 3 tbsp Olive Oil
   - '4 cloves Garlic, sliced'
   - 2 tbsp Fresh Oregano (or 2 tsp dried)

@@ -1,4 +1,5 @@
 ---
+miseId: d31ea0d6-9fda-4f33-8f5e-70d89aa1b0d2
 title: Blistered Shishito Peppers
 origin: Japanese
 difficulty: easy

@@ -1,4 +1,5 @@
 ---
+miseId: 131b12cf-eea9-43ea-9b8e-ba17b15d4fbf
 title: Bok Choy with Garlic and Oyster Sauce
 difficulty: easy
 cookingMethods:

@@ -1,4 +1,5 @@
 ---
+miseId: fe9be654-6be5-4969-aa88-a22e9ec6964b
 title: Strawberry Quinoa Breakfast Bars
 difficulty: easy
 cookingMethods:

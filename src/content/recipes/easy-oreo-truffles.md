@@ -1,4 +1,5 @@
 ---
+miseId: 51f0b603-6c06-47c0-b0a8-252d4403f507
 title: Chocolate Sandwich Cookie Truffles
 difficulty: easy
 cookingMethods:

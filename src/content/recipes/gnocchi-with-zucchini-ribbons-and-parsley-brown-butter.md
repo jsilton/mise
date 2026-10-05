@@ -1,4 +1,5 @@
 ---
+miseId: d3e5d989-9814-4c3f-a1c7-5bee277ef275
 title: Gnocchi with Zucchini Ribbons & Brown Butter
 difficulty: intermediate
 cookingMethods:

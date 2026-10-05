@@ -1,4 +1,5 @@
 ---
+miseId: 9404238f-435f-4bde-a512-cefa1f1efe7f
 title: Aromatic Purple Rice
 role: base
 vibe: nutritious

@@ -1,4 +1,5 @@
 ---
+miseId: 2459d6be-72cd-46ce-9bc5-9e714309113a
 title: Thai Red Curry Shrimp
 role: main
 vibe: quick

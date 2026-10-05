@@ -1,4 +1,5 @@
 ---
+miseId: 21134b02-d4df-4bcf-9a61-f20cd0bf7514
 title: Cream of Mushroom Soup
 difficulty: easy
 cookingMethods:

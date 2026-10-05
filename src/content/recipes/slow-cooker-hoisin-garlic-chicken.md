@@ -1,4 +1,5 @@
 ---
+miseId: 99c3138c-eb44-4b7f-ab3f-df329753c03b
 title: Slow-Cooker Hoisin Garlic Chicken
 difficulty: easy
 cookingMethods:

@@ -1,4 +1,5 @@
 ---
+miseId: e342686b-18b9-4c62-bb85-7f4c25ca086c
 title: Jamaican Rice and Peas (Kidney Beans)
 origin: Jamaica
 difficulty: easy

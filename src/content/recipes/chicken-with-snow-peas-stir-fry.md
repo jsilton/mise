@@ -1,4 +1,5 @@
 ---
+miseId: f19f9010-74c5-4319-aebd-ba9bb561fdb8
 title: Chicken with Snow Peas Stir-Fry
 difficulty: easy
 cookingMethods:

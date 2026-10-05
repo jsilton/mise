@@ -1,4 +1,5 @@
 ---
+miseId: 8ab2ad8b-0998-4311-a54f-4a1514efa5e4
 title: Sausage and White Bean Skillet
 origin: Italy
 difficulty: easy

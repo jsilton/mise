@@ -1,4 +1,5 @@
 ---
+miseId: e76faed3-2c83-4245-ab80-6ec768bdef51
 title: Poke Bowl Bar
 origin: Hawaiian-inspired build-your-own bowls
 difficulty: intermediate

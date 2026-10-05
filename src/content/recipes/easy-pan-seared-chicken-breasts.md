@@ -1,4 +1,5 @@
 ---
+miseId: abb7a3a1-95b1-4a42-9a99-0fcd7b9c7ef9
 title: Pan-Seared Chicken Breasts
 difficulty: easy
 cookingMethods:

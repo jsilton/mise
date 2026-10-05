@@ -1,4 +1,5 @@
 ---
+miseId: 09882644-8b05-4ddf-a567-7692e5db8cf1
 title: Smashed Cucumber Salad (Pai Huang Gua)
 difficulty: easy
 cookingMethods:

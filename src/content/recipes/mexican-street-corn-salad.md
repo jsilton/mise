@@ -1,4 +1,5 @@
 ---
+miseId: 7c5bb15b-9ea3-4045-a042-2056019db824
 title: Skillet Esquites (Mexican Corn Salad)
 origin: Mexico
 difficulty: easy

@@ -1,4 +1,5 @@
 ---
+miseId: 0853d648-d070-46e8-8ae7-176b42ac2508
 title: Zucchini Herb Fritters
 difficulty: easy
 cookingMethods:

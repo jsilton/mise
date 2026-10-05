@@ -1,4 +1,5 @@
 ---
+miseId: 34acc8b6-9d54-40a1-ab5a-10b6bc6f2509
 title: Chinese Sausage Fried Rice
 difficulty: easy
 cookingMethods:

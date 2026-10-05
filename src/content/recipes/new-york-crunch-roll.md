@@ -1,4 +1,5 @@
 ---
+miseId: 8dccd99d-e43d-40d3-a63f-0420373aff61
 title: New York Crunch Roll
 origin: Japanese-American sushi style
 difficulty: intermediate

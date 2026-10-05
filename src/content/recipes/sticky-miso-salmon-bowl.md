@@ -1,4 +1,5 @@
 ---
+miseId: e01422b5-fc41-4219-b5c1-ea560ed7a3a8
 title: Sticky Miso Salmon Bowls
 source: Adapted from Andy Baraghani at NYT Cooking
 sourceUrl: https://cooking.nytimes.com/recipes/1025510-sticky-miso-salmon-bowl

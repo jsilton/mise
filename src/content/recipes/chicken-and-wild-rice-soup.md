@@ -1,4 +1,5 @@
 ---
+miseId: 1ade88c4-4e02-46a5-9243-dc711d2c1fa9
 title: Chicken and Wild Rice Soup
 difficulty: easy
 cookingMethods:

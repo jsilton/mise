@@ -1,4 +1,5 @@
 ---
+miseId: 6df6ad76-fd90-4afb-9852-6b3ddd382c6a
 title: Shrimp Wonton Soup
 difficulty: intermediate
 cookingMethods:

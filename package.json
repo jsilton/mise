@@ -11,6 +11,8 @@
     "format": "prettier --write .",
     "lint": "eslint . --fix",
     "new-recipe": "node ./scripts/new-recipe.mjs",
+    "pin:paprika": "node scripts/pin-paprika-ids.mjs",
+    "check:paprika-privacy": "node scripts/check-paprika-privacy.mjs dist",
     "validate-recipes": "node ./scripts/validate-recipes.mjs",
     "culinary-qa": "node ./scripts/culinary-qa.mjs",
     "batch-chefs-notes": "node ./scripts/batch-chefs-notes.mjs",

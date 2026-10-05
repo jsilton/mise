@@ -1,4 +1,5 @@
 ---
+miseId: 54ec4b01-f33b-40d9-a8f0-cebca715bfa9
 title: Garlic-Ginger Stir-Fry Sauce
 difficulty: easy
 cookingMethods:

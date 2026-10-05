@@ -1,4 +1,5 @@
 ---
+miseId: 4a133a4e-7227-4796-9ba7-d1c46d2a128b
 title: Chicken Milanese
 aliases:
   - chicken-milanese-the-north-end-special

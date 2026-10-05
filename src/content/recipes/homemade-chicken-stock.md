@@ -1,4 +1,5 @@
 ---
+miseId: 74d392f8-f2a3-47ab-9dcb-564b89ea186e
 title: Homemade Chicken Stock
 origin: France / American Standard
 difficulty: easy

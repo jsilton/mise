@@ -1,4 +1,5 @@
 ---
+miseId: cb8749fc-3779-4a01-90bf-937dadadc808
 title: Shrimp with Snow Peas and Ginger
 difficulty: easy
 cookingMethods:

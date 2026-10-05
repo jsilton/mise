@@ -1,4 +1,5 @@
 ---
+miseId: fca2fe68-145b-4ed5-b882-c38fd634aea8
 title: Hyderabadi-style Chicken Biryani
 origin: India
 difficulty: intermediate
@@ -72,7 +73,7 @@ ingredients:
   - 2 bay leaves
   - 1 tsp cumin seeds
   - '--- Onions and layering ---'
-  - "3 large yellow onions (about 600 g trimmed total), sliced evenly about 1/8 inch thick"
+  - '3 large yellow onions (about 600 g trimmed total), sliced evenly about 1/8 inch thick'
   - '1 cup (240 ml) neutral oil, for frying onions'
   - '2 tbsp of the drained onion frying oil, reserved for layering'
   - 1/4 tsp saffron threads

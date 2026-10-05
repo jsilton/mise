@@ -1,4 +1,5 @@
 ---
+miseId: 56e364c9-dc5e-489c-86b7-fd4dd904c8cc
 title: Yaki Udon
 difficulty: easy
 cookingMethods:

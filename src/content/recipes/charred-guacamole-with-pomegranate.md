@@ -1,4 +1,5 @@
 ---
+miseId: 720d4e60-35fe-4599-97e8-b6adad4bce14
 title: Charred Guacamole with Pomegranate
 difficulty: easy
 cookingMethods:

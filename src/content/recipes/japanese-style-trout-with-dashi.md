@@ -1,4 +1,5 @@
 ---
+miseId: 7dcf9a1d-ed7c-4960-8d56-856337712318
 title: Japanese-Style Trout with Dashi
 difficulty: easy
 cookingMethods:

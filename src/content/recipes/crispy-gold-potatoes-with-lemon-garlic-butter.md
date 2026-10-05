@@ -1,4 +1,5 @@
 ---
+miseId: 7d1c612f-a20e-4372-bd95-239cb18207e3
 title: Crispy Gold Potatoes with Smoked Salt and Paprika
 description: >-
   Petite gold potatoes with deeply browned cut faces, creamy centers and a finishing

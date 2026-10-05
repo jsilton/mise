@@ -1,4 +1,5 @@
 ---
+miseId: c8960f8f-60b2-4ed1-9e6b-feca0f76b28b
 title: Chicken Tortilla Soup III
 role: main
 vibe: comfort

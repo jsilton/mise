@@ -1,4 +1,5 @@
 ---
+miseId: cf1f9a0c-bcb2-4df9-bcc1-583150c9a7ea
 title: Aloo Gobi (Potato Cauliflower Curry)
 origin: India
 role: main

@@ -1,4 +1,5 @@
 ---
+miseId: bf56ec43-823c-4895-a0cf-24b36be5819b
 title: Onigiri (Japanese Rice Balls)
 origin: Japan
 difficulty: easy

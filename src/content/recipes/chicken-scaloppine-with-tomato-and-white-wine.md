@@ -1,4 +1,5 @@
 ---
+miseId: fb9c4783-8139-482c-a6c0-822ff3a089b6
 title: Chicken Scaloppine with Tomato & White Wine
 difficulty: intermediate
 cookingMethods:

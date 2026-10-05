@@ -1,4 +1,5 @@
 ---
+miseId: 469feb54-1112-494d-a269-2f6e80588913
 title: Strawberry Summer Cake
 difficulty: intermediate
 cookingMethods:

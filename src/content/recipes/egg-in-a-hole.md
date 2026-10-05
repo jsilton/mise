@@ -1,4 +1,5 @@
 ---
+miseId: 8293ab95-140d-489e-a83f-2f7d78c4714f
 title: Egg in a Hole
 origin: United States
 difficulty: easy
@@ -62,5 +63,3 @@ Egg in a hole (also called toad in the hole, egg in a basket, or one-eyed jack) 
 3.  **Toast and Fry:** Place the bread slices and the cutout rounds in the skillet. Cook the bread for about 1 minute until the bottom is golden. Crack one egg into each hole. Season with salt and pepper.
 4.  **Cook:** Cook undisturbed for 2-3 minutes until the egg white is mostly set on the bottom and the bread is deeply golden. Flip the bread carefully with a spatula. Cook for another 30-60 seconds for a runny yolk, or 1-2 minutes for a more set yolk. Flip the cutout rounds when golden.
 5.  **Serve:** Transfer to plates. Serve the toasted rounds alongside for dipping into the yolk. Add shredded cheese, hot sauce, or everything bagel seasoning if desired.
-
-

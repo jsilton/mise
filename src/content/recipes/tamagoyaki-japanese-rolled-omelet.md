@@ -1,4 +1,5 @@
 ---
+miseId: 444c8dc0-71dd-4073-b299-5fa1aa7c3dda
 title: Tamagoyaki (Japanese Rolled Omelet)
 origin: Japan
 difficulty: intermediate

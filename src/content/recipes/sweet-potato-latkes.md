@@ -1,4 +1,5 @@
 ---
+miseId: 0f5844ea-417b-493f-b36c-62a4c611fe19
 title: Potato Latkes
 difficulty: easy
 cookingMethods:

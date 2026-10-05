@@ -1,4 +1,5 @@
 ---
+miseId: a32510dc-1c4b-4c43-b0d9-99b996418390
 title: Garlic Mashed Red Potatoes
 difficulty: easy
 cookingMethods:

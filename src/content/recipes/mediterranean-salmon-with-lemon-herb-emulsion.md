@@ -1,4 +1,5 @@
 ---
+miseId: 10177350-6c49-49ea-ad03-2a3506a9f5ea
 title: Mediterranean Salmon with Lemon-Herb Emulsion
 difficulty: intermediate
 cookingMethods:

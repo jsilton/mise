@@ -1,4 +1,5 @@
 ---
+miseId: dff9d19f-ef7e-475f-9e21-46f30b39f75a
 title: Sukju Namul
 origin: Korea
 difficulty: intermediate

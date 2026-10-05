@@ -1,4 +1,5 @@
 ---
+miseId: 3e17eec5-51b5-4897-a488-a98085522fae
 title: Seared Salmon with Summer Vegetables
 difficulty: intermediate
 cookingMethods:

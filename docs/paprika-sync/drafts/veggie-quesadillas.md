@@ -1,3 +1,7 @@
+---
+miseId: 6a1b3c18-07dd-4161-929d-782fc5c21f45
+---
+
 # Veggie Quesadillas
 
 Saved Paprika draft, October 5, 2026. Attribution: not recorded.

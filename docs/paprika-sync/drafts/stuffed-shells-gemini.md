@@ -1,3 +1,7 @@
+---
+miseId: ba7593c9-f522-4056-bbae-d99f864324d9
+---
+
 # Stuffed Shells (Gemini)
 
 Saved Paprika draft, October 5, 2026. Attribution: not recorded.

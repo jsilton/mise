@@ -1,4 +1,5 @@
 ---
+miseId: 705cbe0e-3b7a-4368-854c-b5d4ec48cfbe
 title: Creamy Slow-Cooker Chicken and Wild Rice Soup
 role: main
 vibe: comfort

@@ -1,4 +1,5 @@
 ---
+miseId: 0759e25b-2607-47d9-aaab-3bcd2b3359f5
 title: Slow-Cooker Three-Bean Vegetable Chili
 difficulty: easy
 cookingMethods:

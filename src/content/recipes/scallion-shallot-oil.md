@@ -1,4 +1,5 @@
 ---
+miseId: bef82d54-1d0a-4ea9-b412-09f3df8aad1b
 title: Scallion-Shallot Oil with Crisp Alliums
 origin: Chinese-inspired home condiment
 difficulty: easy

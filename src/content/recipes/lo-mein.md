@@ -1,4 +1,5 @@
 ---
+miseId: c8f0212e-05d4-46b3-89b8-599b902647f9
 title: Chicken Lo Mein with Shiitake and Bok Choy
 origin: Chinese-American home cooking with Cantonese roots
 difficulty: intermediate

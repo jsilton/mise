@@ -1,4 +1,5 @@
 ---
+miseId: d32d320b-9656-41ed-80dc-b13aea6860f4
 title: Shrimp & Sweet Potato Noodle Stir-Fry
 origin: Korea
 difficulty: intermediate

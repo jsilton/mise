@@ -1,4 +1,5 @@
 ---
+miseId: 69b27066-77b4-48d9-9e36-abc44b7dcfb5
 title: Curried Carrot and Apple Soup
 difficulty: easy
 cookingMethods:

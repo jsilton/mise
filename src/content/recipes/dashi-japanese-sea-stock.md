@@ -1,4 +1,5 @@
 ---
+miseId: aa0e618a-21b6-413b-91ab-ecae0174f0aa
 title: Dashi
 origin: Japan
 difficulty: easy

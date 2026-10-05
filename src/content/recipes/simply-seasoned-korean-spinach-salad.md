@@ -1,4 +1,5 @@
 ---
+miseId: e78bb56b-3375-4d94-b8bb-8cdae41b3539
 title: Korean Spinach Salad (Sigeumchi Namul)
 difficulty: intermediate
 cookingMethods:

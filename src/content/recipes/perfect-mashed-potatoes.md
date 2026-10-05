@@ -1,4 +1,5 @@
 ---
+miseId: 1f41d40d-4fc0-417d-9a4a-a250b564021d
 title: Cream Cheese Mashed Potatoes
 difficulty: easy
 cookingMethods: [boil, simmer]

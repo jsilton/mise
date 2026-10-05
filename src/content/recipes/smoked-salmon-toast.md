@@ -1,4 +1,5 @@
 ---
+miseId: d41aab26-34c5-4fa1-a728-f3061fb37820
 title: Smoked Salmon Toast
 origin: Scandinavia
 difficulty: easy

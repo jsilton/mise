@@ -1,4 +1,5 @@
 ---
+miseId: 3bde7cd7-5ff0-4074-b042-7cbdb1914528
 title: Pan Fried Noodles with Shrimp
 difficulty: easy
 cookingMethods:

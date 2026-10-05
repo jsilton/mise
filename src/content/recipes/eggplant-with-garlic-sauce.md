@@ -1,4 +1,5 @@
 ---
+miseId: e86d13f0-0adc-4f5e-99c6-02d30990defc
 title: Garlic-Ginger Eggplant
 difficulty: easy
 cookingMethods:

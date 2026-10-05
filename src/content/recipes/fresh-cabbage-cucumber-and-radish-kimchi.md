@@ -1,4 +1,5 @@
 ---
+miseId: 5f562436-29a6-41ed-80b2-dd1d43a5a6cc
 title: 'Fresh Cabbage, Cucumber and Radish Kimchi'
 difficulty: intermediate
 cookingMethods:

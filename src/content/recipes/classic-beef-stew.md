@@ -1,4 +1,5 @@
 ---
+miseId: 9ce37313-4504-4418-bd90-da23f78b4be6
 title: Beef Stew
 difficulty: easy
 cookingMethods:

@@ -1,4 +1,5 @@
 ---
+miseId: c649bedc-30a2-4c58-8184-d9783671d1ea
 title: Bulgogi
 origin: Korea
 difficulty: easy

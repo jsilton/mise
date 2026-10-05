@@ -1,4 +1,5 @@
 ---
+miseId: 5a615e3a-fb3a-461f-b081-62fe1f683dcb
 title: Miso Sesame Dense Bean Salad
 role: main
 vibe: nutritious

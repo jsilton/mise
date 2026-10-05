@@ -1,4 +1,5 @@
 ---
+miseId: c03e8713-00e9-47f9-a5b3-2843bc7958bb
 title: Thai Basil Chicken & Eggplant
 difficulty: intermediate
 cookingMethods:

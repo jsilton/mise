@@ -1,4 +1,5 @@
 ---
+miseId: 288bd72f-73f5-48aa-9dc0-f8ce054dfc92
 title: Shakshuka
 origin: North Africa / Israel
 difficulty: easy

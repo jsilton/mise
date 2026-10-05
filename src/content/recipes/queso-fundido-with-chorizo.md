@@ -1,4 +1,5 @@
 ---
+miseId: 6ee862d8-1fac-4617-a5ab-03149eaf3a1f
 title: Queso Fundido with Chorizo
 difficulty: easy
 cookingMethods:

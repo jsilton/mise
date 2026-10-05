@@ -1,4 +1,5 @@
 ---
+miseId: be0e57e4-93ab-4f8e-8eab-346521aa747f
 title: Yogurt-Marinated Chicken and Onion Kabobs
 origin: Middle Eastern-inspired home preparation
 source: Adapted from Jennifer Segal's Middle Eastern-Style Grilled Chicken Kabobs, Once Upon a Chef

@@ -1,4 +1,5 @@
 ---
+miseId: 0bbe8538-df48-4cbc-85f3-e70398e93bc1
 title: Honey Sriracha Salmon Bowls
 source: Adapted from Claire Cary at Eat With Clarity
 sourceUrl: https://eatwithclarity.com/honey-sriracha-salmon-bowls/

@@ -1,4 +1,5 @@
 ---
+miseId: 283732dd-4937-4d4a-814e-f89904cede36
 title: Avgolemono
 origin: Greece
 difficulty: intermediate
@@ -34,7 +35,7 @@ ingredients:
   - 6 cups High-Quality Chicken Broth
   - 1/2 cup Long-grain Rice or Orzo
   - 2 large Eggs
-  - "2 lemons, juiced (about 1/3 cup total)"
+  - '2 lemons, juiced (about 1/3 cup total)'
   - Salt and white pepper
 nutrition:
   calories: 245

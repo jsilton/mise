@@ -1,4 +1,5 @@
 ---
+miseId: 06f447a8-5bd7-419d-b6cd-2c0df7184d2e
 title: Zucchini Soup
 difficulty: easy
 cookingMethods:

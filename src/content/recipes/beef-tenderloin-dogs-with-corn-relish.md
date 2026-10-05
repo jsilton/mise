@@ -1,4 +1,5 @@
 ---
+miseId: af681778-f292-44b2-8a87-70f356b3e22d
 title: Beef Hot Dogs with Corn Relish
 difficulty: easy
 cookingMethods:

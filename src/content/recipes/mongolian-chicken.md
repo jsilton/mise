@@ -1,4 +1,5 @@
 ---
+miseId: 327867c0-122d-4576-babe-980b173d44cc
 title: Mongolian Chicken
 role: main
 vibe: quick

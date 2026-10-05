@@ -1,4 +1,5 @@
 ---
+miseId: c565c8c9-e32f-4cca-9f28-3c8cbce4d414
 title: 'Kale Salad with Mango, Avocado and Feta'
 difficulty: easy
 cookingMethods:
