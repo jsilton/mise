@@ -27,7 +27,7 @@
     },
     "uniquePathsInSixRepairCommits": 105,
     "kitchenTested": 0,
-    "productionReconciliation": "42 accelerated targeted repairs verified live; 16 additional complete versions verified live. Twenty-one complete cold-side, potato and roasted-vegetable versions are implemented and locally validated but await exact remote, CI/deployment and live-page verification. Earlier release 8a6d5e6c failed before build/deployment steps because run 37374702530 could not acquire a hosted runner. GitHub Status reported runner mitigation at 21:32 UTC; a new release attempt is pending."
+    "productionReconciliation": "42 accelerated targeted repairs verified live as a separate overlapping scope. Thirty-seven additional complete editorial versions from the original 409-source campaign are verified live. The latest 21 cold-side, potato and roasted-vegetable versions were verified at exact remote release c84083a3, successful Pages run 37379630679 and all affected rendered live pages. Five additional soup reviews are accepted locally with integration validation, implementation and production pending; no physical kitchen tests."
   },
   "collectionEvidence": [
     "docs/REVIEW_PROGRESS.md",
@@ -3638,9 +3638,14 @@
         }
       ],
       "productionVerification": {
-        "status": "pending; release 8a6d5e6c could not acquire a hosted runner before any build/deploy step",
-        "attemptedCommit": "8a6d5e6ca0388b0d327cbe9972dd16aebda7952e",
-        "failedDeploymentRun": 37374702530
+        "status": "verified live",
+        "releaseCommit": "c84083a3cc09d1c28e1cb838abc4214ba9bed2fc",
+        "deploymentRun": 37379630679,
+        "ci": "build, privacy check and deployment success",
+        "rendered": "all 21 exact built JSON-LD objects, ingredient text and all 100 method steps present on production",
+        "verifiedDate": "2026-10-05",
+        "kitchenTested": false,
+        "nativeAppSynced": false
       },
       "remainingQuestions": [
         "Measure actual florets and finished sauce volume with Parmesan versus yeast.",
@@ -3692,9 +3697,14 @@
         }
       ],
       "productionVerification": {
-        "status": "pending; release 8a6d5e6c could not acquire a hosted runner before any build/deploy step",
-        "attemptedCommit": "8a6d5e6ca0388b0d327cbe9972dd16aebda7952e",
-        "failedDeploymentRun": 37374702530
+        "status": "verified live",
+        "releaseCommit": "c84083a3cc09d1c28e1cb838abc4214ba9bed2fc",
+        "deploymentRun": 37379630679,
+        "ci": "build, privacy check and deployment success",
+        "rendered": "all 21 exact built JSON-LD objects, ingredient text and all 100 method steps present on production",
+        "verifiedDate": "2026-10-05",
+        "kitchenTested": false,
+        "nativeAppSynced": false
       },
       "remainingQuestions": [
         "Record head weight versus usable grains and the number of processor/skillet batches.",
@@ -4037,9 +4047,14 @@
         }
       ],
       "productionVerification": {
-        "status": "pending; release 8a6d5e6c could not acquire a hosted runner before any build/deploy step",
-        "attemptedCommit": "8a6d5e6ca0388b0d327cbe9972dd16aebda7952e",
-        "failedDeploymentRun": 37374702530
+        "status": "verified live",
+        "releaseCommit": "c84083a3cc09d1c28e1cb838abc4214ba9bed2fc",
+        "deploymentRun": 37379630679,
+        "ci": "build, privacy check and deployment success",
+        "rendered": "all 21 exact built JSON-LD objects, ingredient text and all 100 method steps present on production",
+        "verifiedDate": "2026-10-05",
+        "kitchenTested": false,
+        "nativeAppSynced": false
       },
       "remainingQuestions": [
         "Measure sauce-only yield and coverage of the original pound of pasta/eight planning portions.",
@@ -5274,9 +5289,14 @@
         }
       ],
       "productionVerification": {
-        "status": "pending; release 8a6d5e6c could not acquire a hosted runner before any build/deploy step",
-        "attemptedCommit": "8a6d5e6ca0388b0d327cbe9972dd16aebda7952e",
-        "failedDeploymentRun": 37374702530
+        "status": "verified live",
+        "releaseCommit": "c84083a3cc09d1c28e1cb838abc4214ba9bed2fc",
+        "deploymentRun": 37379630679,
+        "ci": "build, privacy check and deployment success",
+        "rendered": "all 21 exact built JSON-LD objects, ingredient text and all 100 method steps present on production",
+        "verifiedDate": "2026-10-05",
+        "kitchenTested": false,
+        "nativeAppSynced": false
       },
       "remainingQuestions": [
         "Measure finished sauce volume and original eight condiment portions; packing of parsley/oregano varies.",
@@ -6526,9 +6546,14 @@
         }
       ],
       "productionVerification": {
-        "status": "pending; release 8a6d5e6c could not acquire a hosted runner before any build/deploy step",
-        "attemptedCommit": "8a6d5e6ca0388b0d327cbe9972dd16aebda7952e",
-        "failedDeploymentRun": 37374702530
+        "status": "verified live",
+        "releaseCommit": "c84083a3cc09d1c28e1cb838abc4214ba9bed2fc",
+        "deploymentRun": 37379630679,
+        "ci": "build, privacy check and deployment success",
+        "rendered": "all 21 exact built JSON-LD objects, ingredient text and all 100 method steps present on production",
+        "verifiedDate": "2026-10-05",
+        "kitchenTested": false,
+        "nativeAppSynced": false
       },
       "remainingQuestions": [
         "Measure avocado edible mass and finished dip volume; eight portions remain a planning claim.",
@@ -7987,9 +8012,14 @@
         }
       ],
       "productionVerification": {
-        "status": "pending; release 8a6d5e6c could not acquire a hosted runner before any build/deploy step",
-        "attemptedCommit": "8a6d5e6ca0388b0d327cbe9972dd16aebda7952e",
-        "failedDeploymentRun": 37374702530
+        "status": "verified live",
+        "releaseCommit": "c84083a3cc09d1c28e1cb838abc4214ba9bed2fc",
+        "deploymentRun": 37379630679,
+        "ci": "build, privacy check and deployment success",
+        "rendered": "all 21 exact built JSON-LD objects, ingredient text and all 100 method steps present on production",
+        "verifiedDate": "2026-10-05",
+        "kitchenTested": false,
+        "nativeAppSynced": false
       },
       "remainingQuestions": [
         "Record baby potato size, tray load and breakage when turning.",
@@ -9024,9 +9054,14 @@
         }
       ],
       "productionVerification": {
-        "status": "pending; release 8a6d5e6c could not acquire a hosted runner before any build/deploy step",
-        "attemptedCommit": "8a6d5e6ca0388b0d327cbe9972dd16aebda7952e",
-        "failedDeploymentRun": 37374702530
+        "status": "verified live",
+        "releaseCommit": "c84083a3cc09d1c28e1cb838abc4214ba9bed2fc",
+        "deploymentRun": 37379630679,
+        "ci": "build, privacy check and deployment success",
+        "rendered": "all 21 exact built JSON-LD objects, ingredient text and all 100 method steps present on production",
+        "verifiedDate": "2026-10-05",
+        "kitchenTested": false,
+        "nativeAppSynced": false
       },
       "remainingQuestions": [
         "Measure drained bean/mozzarella weights and cucumber size, finished bowl volume and portions.",
@@ -11019,9 +11054,14 @@
         }
       ],
       "productionVerification": {
-        "status": "pending; release 8a6d5e6c could not acquire a hosted runner before any build/deploy step",
-        "attemptedCommit": "8a6d5e6ca0388b0d327cbe9972dd16aebda7952e",
-        "failedDeploymentRun": 37374702530
+        "status": "verified live",
+        "releaseCommit": "c84083a3cc09d1c28e1cb838abc4214ba9bed2fc",
+        "deploymentRun": 37379630679,
+        "ci": "build, privacy check and deployment success",
+        "rendered": "all 21 exact built JSON-LD objects, ingredient text and all 100 method steps present on production",
+        "verifiedDate": "2026-10-05",
+        "kitchenTested": false,
+        "nativeAppSynced": false
       },
       "remainingQuestions": [
         "Record cauliflower head weight, drained yield and four planning portions.",
@@ -11074,9 +11114,14 @@
         }
       ],
       "productionVerification": {
-        "status": "pending; release 8a6d5e6c could not acquire a hosted runner before any build/deploy step",
-        "attemptedCommit": "8a6d5e6ca0388b0d327cbe9972dd16aebda7952e",
-        "failedDeploymentRun": 37374702530
+        "status": "verified live",
+        "releaseCommit": "c84083a3cc09d1c28e1cb838abc4214ba9bed2fc",
+        "deploymentRun": 37379630679,
+        "ci": "build, privacy check and deployment success",
+        "rendered": "all 21 exact built JSON-LD objects, ingredient text and all 100 method steps present on production",
+        "verifiedDate": "2026-10-05",
+        "kitchenTested": false,
+        "nativeAppSynced": false
       },
       "remainingQuestions": [
         "Record the actual weight of eight potatoes, quarter size and six planning portions.",
@@ -15978,7 +16023,14 @@
         }
       ],
       "productionVerification": {
-        "status": "pending; exact release and live-page verification remain required"
+        "status": "verified live",
+        "releaseCommit": "c84083a3cc09d1c28e1cb838abc4214ba9bed2fc",
+        "deploymentRun": 37379630679,
+        "ci": "build, privacy check and deployment success",
+        "rendered": "all 21 exact built JSON-LD objects, ingredient text and all 100 method steps present on production",
+        "verifiedDate": "2026-10-05",
+        "kitchenTested": false,
+        "nativeAppSynced": false
       },
       "remainingQuestions": [
         "Check consistent approximately half-inch wedges and nearly tender centers in the first stage.",
@@ -16795,7 +16847,14 @@
         }
       ],
       "productionVerification": {
-        "status": "pending; exact release and live-page verification remain required"
+        "status": "verified live",
+        "releaseCommit": "c84083a3cc09d1c28e1cb838abc4214ba9bed2fc",
+        "deploymentRun": 37379630679,
+        "ci": "build, privacy check and deployment success",
+        "rendered": "all 21 exact built JSON-LD objects, ingredient text and all 100 method steps present on production",
+        "verifiedDate": "2026-10-05",
+        "kitchenTested": false,
+        "nativeAppSynced": false
       },
       "remainingQuestions": [
         "Observe the specific miso/mirin coating from the start of the 425°F roast and center tenderness before scorching.",
@@ -16918,9 +16977,14 @@
         }
       ],
       "productionVerification": {
-        "status": "pending; release 8a6d5e6c could not acquire a hosted runner before any build/deploy step",
-        "attemptedCommit": "8a6d5e6ca0388b0d327cbe9972dd16aebda7952e",
-        "failedDeploymentRun": 37374702530
+        "status": "verified live",
+        "releaseCommit": "c84083a3cc09d1c28e1cb838abc4214ba9bed2fc",
+        "deploymentRun": 37379630679,
+        "ci": "build, privacy check and deployment success",
+        "rendered": "all 21 exact built JSON-LD objects, ingredient text and all 100 method steps present on production",
+        "verifiedDate": "2026-10-05",
+        "kitchenTested": false,
+        "nativeAppSynced": false
       },
       "remainingQuestions": [
         "Identify chickpea can size and actual drained mass, edamame product cooking/cooling route and full four-portion yield.",
@@ -18755,7 +18819,14 @@
         }
       ],
       "productionVerification": {
-        "status": "pending; exact release and live-page verification remain required"
+        "status": "verified live",
+        "releaseCommit": "c84083a3cc09d1c28e1cb838abc4214ba9bed2fc",
+        "deploymentRun": 37379630679,
+        "ci": "build, privacy check and deployment success",
+        "rendered": "all 21 exact built JSON-LD objects, ingredient text and all 100 method steps present on production",
+        "verifiedDate": "2026-10-05",
+        "kitchenTested": false,
+        "nativeAppSynced": false
       },
       "remainingQuestions": [
         "Check footprint and preferred brown/tender endpoint for the family’s two-pound 450°F batch.",
@@ -20836,7 +20907,14 @@
         }
       ],
       "productionVerification": {
-        "status": "pending; exact release and live-page verification remain required"
+        "status": "verified live",
+        "releaseCommit": "c84083a3cc09d1c28e1cb838abc4214ba9bed2fc",
+        "deploymentRun": 37379630679,
+        "ci": "build, privacy check and deployment success",
+        "rendered": "all 21 exact built JSON-LD objects, ingredient text and all 100 method steps present on production",
+        "verifiedDate": "2026-10-05",
+        "kitchenTested": false,
+        "nativeAppSynced": false
       },
       "remainingQuestions": [
         "Weigh the actual bunch and assess seasoning for that bunch, without creating a universal bunch weight.",
@@ -20889,7 +20967,14 @@
         }
       ],
       "productionVerification": {
-        "status": "pending; exact release and live-page verification remain required"
+        "status": "verified live",
+        "releaseCommit": "c84083a3cc09d1c28e1cb838abc4214ba9bed2fc",
+        "deploymentRun": 37379630679,
+        "ci": "build, privacy check and deployment success",
+        "rendered": "all 21 exact built JSON-LD objects, ingredient text and all 100 method steps present on production",
+        "verifiedDate": "2026-10-05",
+        "kitchenTested": false,
+        "nativeAppSynced": false
       },
       "remainingQuestions": [
         "Measure actual bunch weights and the sheet footprint of the original two-bunch amount.",
@@ -20937,7 +21022,14 @@
         }
       ],
       "productionVerification": {
-        "status": "pending; exact release and live-page verification remain required"
+        "status": "verified live",
+        "releaseCommit": "c84083a3cc09d1c28e1cb838abc4214ba9bed2fc",
+        "deploymentRun": 37379630679,
+        "ci": "build, privacy check and deployment success",
+        "rendered": "all 21 exact built JSON-LD objects, ingredient text and all 100 method steps present on production",
+        "verifiedDate": "2026-10-05",
+        "kitchenTested": false,
+        "nativeAppSynced": false
       },
       "remainingQuestions": [
         "Observe sprout-half size and nearly tender centers at the first 20-minute check.",
@@ -21267,7 +21359,14 @@
         }
       ],
       "productionVerification": {
-        "status": "pending; exact release and live-page verification remain required"
+        "status": "verified live",
+        "releaseCommit": "c84083a3cc09d1c28e1cb838abc4214ba9bed2fc",
+        "deploymentRun": 37379630679,
+        "ci": "build, privacy check and deployment success",
+        "rendered": "all 21 exact built JSON-LD objects, ingredient text and all 100 method steps present on production",
+        "verifiedDate": "2026-10-05",
+        "kitchenTested": false,
+        "nativeAppSynced": false
       },
       "remainingQuestions": [
         "Record the actual root mix and centers at the first check, particularly dense beets.",
@@ -21315,7 +21414,14 @@
         }
       ],
       "productionVerification": {
-        "status": "pending; exact release and live-page verification remain required"
+        "status": "verified live",
+        "releaseCommit": "c84083a3cc09d1c28e1cb838abc4214ba9bed2fc",
+        "deploymentRun": 37379630679,
+        "ci": "build, privacy check and deployment success",
+        "rendered": "all 21 exact built JSON-LD objects, ingredient text and all 100 method steps present on production",
+        "verifiedDate": "2026-10-05",
+        "kitchenTested": false,
+        "nativeAppSynced": false
       },
       "remainingQuestions": [
         "Check sheet footprint, irregular one-inch cuts and actual tender-center roasting time.",
@@ -22437,9 +22543,14 @@
         }
       ],
       "productionVerification": {
-        "status": "pending; release 8a6d5e6c could not acquire a hosted runner before any build/deploy step",
-        "attemptedCommit": "8a6d5e6ca0388b0d327cbe9972dd16aebda7952e",
-        "failedDeploymentRun": 37374702530
+        "status": "verified live",
+        "releaseCommit": "c84083a3cc09d1c28e1cb838abc4214ba9bed2fc",
+        "deploymentRun": 37379630679,
+        "ci": "build, privacy check and deployment success",
+        "rendered": "all 21 exact built JSON-LD objects, ingredient text and all 100 method steps present on production",
+        "verifiedDate": "2026-10-05",
+        "kitchenTested": false,
+        "nativeAppSynced": false
       },
       "remainingQuestions": [
         "Weigh actual grated Pecorino relative to1 cup and record grated particle/packing state.",
@@ -24507,9 +24618,14 @@
         }
       ],
       "productionVerification": {
-        "status": "pending; release 8a6d5e6c could not acquire a hosted runner before any build/deploy step",
-        "attemptedCommit": "8a6d5e6ca0388b0d327cbe9972dd16aebda7952e",
-        "failedDeploymentRun": 37374702530
+        "status": "verified live",
+        "releaseCommit": "c84083a3cc09d1c28e1cb838abc4214ba9bed2fc",
+        "deploymentRun": 37379630679,
+        "ci": "build, privacy check and deployment success",
+        "rendered": "all 21 exact built JSON-LD objects, ingredient text and all 100 method steps present on production",
+        "verifiedDate": "2026-10-05",
+        "kitchenTested": false,
+        "nativeAppSynced": false
       },
       "remainingQuestions": [
         "Measure actual finished sauce volume and eight small portions after adding aromatics.",
@@ -28819,9 +28935,14 @@
         }
       ],
       "productionVerification": {
-        "status": "pending; release 8a6d5e6c could not acquire a hosted runner before any build/deploy step",
-        "attemptedCommit": "8a6d5e6ca0388b0d327cbe9972dd16aebda7952e",
-        "failedDeploymentRun": 37374702530
+        "status": "verified live",
+        "releaseCommit": "c84083a3cc09d1c28e1cb838abc4214ba9bed2fc",
+        "deploymentRun": 37379630679,
+        "ci": "build, privacy check and deployment success",
+        "rendered": "all 21 exact built JSON-LD objects, ingredient text and all 100 method steps present on production",
+        "verifiedDate": "2026-10-05",
+        "kitchenTested": false,
+        "nativeAppSynced": false
       },
       "remainingQuestions": [
         "Measure dip volume and four portions; compare plain and Greek yogurt consistency.",

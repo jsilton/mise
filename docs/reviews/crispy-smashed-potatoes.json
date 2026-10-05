@@ -1,7 +1,7 @@
 {
   "slug": "crispy-smashed-potatoes",
   "currentPath": "src/content/recipes/crispy-smashed-potatoes.md",
-  "status": "implemented complete editorial review; production verification pending",
+  "status": "implemented complete editorial review; verified live",
   "inputCommit": "95b37f8bca5008657a668e52a1d970b1d03367d3",
   "inputSha256": "2060e8141038aee3d5875a7abf29a72e4121e8293720af47eb60594962101630",
   "acceptedSourceSha256": "0f96fe9858b281a1355a6ca202c4d26dbb949d65b1d401d0cf15f7cee17851c1",
@@ -323,7 +323,16 @@
   ],
   "kitchenTested": false,
   "nativeAppSynced": false,
-  "productionVerification": "pending",
+  "productionVerification": {
+    "status": "verified live",
+    "releaseCommit": "c84083a3cc09d1c28e1cb838abc4214ba9bed2fc",
+    "deploymentRun": 37379630679,
+    "ci": "build, privacy check and deployment success",
+    "rendered": "all 21 exact built JSON-LD objects, ingredient text and all 100 method steps present on production",
+    "verifiedDate": "2026-10-05",
+    "kitchenTested": false,
+    "nativeAppSynced": false
+  },
   "rootCorrections": [
     {
       "field": "content",

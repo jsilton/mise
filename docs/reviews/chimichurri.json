@@ -1,6 +1,6 @@
 {
   "slug": "chimichurri",
-  "status": "implemented-editorial-review; production verification pending",
+  "status": "implemented complete editorial review; verified live",
   "inputCommit": "95b37f8bca5008657a668e52a1d970b1d03367d3",
   "inputSha256": "0a08758ebdff69d0e2038c4fdb05ba0b8994f53b62fa27aa7d3d9d879c4601f2",
   "acceptedSourceSha256": "60906cc3011a3a24b02f96935db211a52e16af54adeb5d8f0d62b2a2de62fbc4",
@@ -259,7 +259,16 @@
   ],
   "kitchenTested": false,
   "nativeAppSynced": false,
-  "productionVerification": "pending",
+  "productionVerification": {
+    "status": "verified live",
+    "releaseCommit": "c84083a3cc09d1c28e1cb838abc4214ba9bed2fc",
+    "deploymentRun": 37379630679,
+    "ci": "build, privacy check and deployment success",
+    "rendered": "all 21 exact built JSON-LD objects, ingredient text and all 100 method steps present on production",
+    "verifiedDate": "2026-10-05",
+    "kitchenTested": false,
+    "nativeAppSynced": false
+  },
   "currentPath": "src/content/recipes/chimichurri.md",
   "reviewDimensions": [
     "every ingredient preparation/allocation/destination",

@@ -1,7 +1,7 @@
 {
   "slug": "cheesy-cauliflower-sauce",
   "currentPath": "src/content/recipes/cheesy-cauliflower-sauce.md",
-  "status": "implemented complete editorial review; production verification pending",
+  "status": "implemented complete editorial review; verified live",
   "inputCommit": "95b37f8bca5008657a668e52a1d970b1d03367d3",
   "inputSha256": "c940a2e930c6cade6c1ce8aea2b1c6310a588f9e08e73c3d2e820cee9eb45739",
   "acceptedSourceSha256": "d2378a06a7f241e7f65614bf24430d24a82ef7e88b0ed13481772f78c96d7180",
@@ -716,6 +716,15 @@
   ],
   "kitchenTested": false,
   "nativeAppSynced": false,
-  "productionVerification": "pending",
+  "productionVerification": {
+    "status": "verified live",
+    "releaseCommit": "c84083a3cc09d1c28e1cb838abc4214ba9bed2fc",
+    "deploymentRun": 37379630679,
+    "ci": "build, privacy check and deployment success",
+    "rendered": "all 21 exact built JSON-LD objects, ingredient text and all 100 method steps present on production",
+    "verifiedDate": "2026-10-05",
+    "kitchenTested": false,
+    "nativeAppSynced": false
+  },
   "implementationCommit": "1bd5c42bf7d801f19165b16dfffc3cee4906c1c6"
 }

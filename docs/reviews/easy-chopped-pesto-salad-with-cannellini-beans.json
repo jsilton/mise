@@ -1,6 +1,6 @@
 {
   "slug": "easy-chopped-pesto-salad-with-cannellini-beans",
-  "status": "implemented-editorial-review; production verification pending",
+  "status": "implemented complete editorial review; verified live",
   "inputCommit": "95b37f8bca5008657a668e52a1d970b1d03367d3",
   "inputSha256": "041131fc9e2feb8d78de83e259c3e44e097122152367b94cec38681dbf2408bd",
   "acceptedSourceSha256": "af7367d8b0af343e34ccbaffd538fa2494d843a72c1b224ea4ba4a0c2b5b6f85",
@@ -200,7 +200,16 @@
   ],
   "kitchenTested": false,
   "nativeAppSynced": false,
-  "productionVerification": "pending",
+  "productionVerification": {
+    "status": "verified live",
+    "releaseCommit": "c84083a3cc09d1c28e1cb838abc4214ba9bed2fc",
+    "deploymentRun": 37379630679,
+    "ci": "build, privacy check and deployment success",
+    "rendered": "all 21 exact built JSON-LD objects, ingredient text and all 100 method steps present on production",
+    "verifiedDate": "2026-10-05",
+    "kitchenTested": false,
+    "nativeAppSynced": false
+  },
   "currentPath": "src/content/recipes/easy-chopped-pesto-salad-with-cannellini-beans.md",
   "reviewDimensions": [
     "every ingredient preparation/allocation/destination",

@@ -1,6 +1,6 @@
 {
   "slug": "shaved-brussels-sprout-salad-with-apples-and-pecorino",
-  "status": "implemented-editorial-review; production verification pending",
+  "status": "implemented complete editorial review; verified live",
   "inputCommit": "95b37f8bca5008657a668e52a1d970b1d03367d3",
   "inputSha256": "665af3734545f6b5a5f44a5a3192af5ed0738b36b4494b9aa73169506f088645",
   "acceptedSourceSha256": "0b0d517e8b9569f7d3fd4ee49daafc674d28a56227a3d5548cb4efdb77a32534",
@@ -272,7 +272,16 @@
   ],
   "kitchenTested": false,
   "nativeAppSynced": false,
-  "productionVerification": "pending",
+  "productionVerification": {
+    "status": "verified live",
+    "releaseCommit": "c84083a3cc09d1c28e1cb838abc4214ba9bed2fc",
+    "deploymentRun": 37379630679,
+    "ci": "build, privacy check and deployment success",
+    "rendered": "all 21 exact built JSON-LD objects, ingredient text and all 100 method steps present on production",
+    "verifiedDate": "2026-10-05",
+    "kitchenTested": false,
+    "nativeAppSynced": false
+  },
   "currentPath": "src/content/recipes/shaved-brussels-sprout-salad-with-apples-and-pecorino.md",
   "reviewDimensions": [
     "every ingredient preparation/allocation/destination",

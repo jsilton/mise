@@ -1217,7 +1217,7 @@
       "source": "Adapted from chocolatecoveredkatie.com",
       "sourceUrl": "https://chocolatecoveredkatie.com/cauliflower-alfredo-sauce-recipe/",
       "group": "potatoes_cauliflower_01",
-      "status": "implemented",
+      "status": "production-verified",
       "reviewEvidence": [
         "docs/reviews/source-restorations-2026-10-05.md",
         "docs/repairs/2026-09-15/changed-files.json",
@@ -1235,7 +1235,16 @@
       "assignmentInputCommit": "95b37f8bca5008657a668e52a1d970b1d03367d3",
       "assignmentInputSha256": "de77ff3f066d68e776174a9faa9f93e8f9a171389089f21d1c79b661be5ea681",
       "acceptedSourceSha256": "83392df438cf6891a44ac9feaff4f75f9d543fbf73484c018ac3aea15aa2cac6",
-      "productionVerification": "pending",
+      "productionVerification": {
+        "status": "verified live",
+        "releaseCommit": "c84083a3cc09d1c28e1cb838abc4214ba9bed2fc",
+        "deploymentRun": 37379630679,
+        "ci": "build, privacy check and deployment success",
+        "rendered": "all 21 exact built JSON-LD objects, ingredient text and all 100 method steps present on production",
+        "verifiedDate": "2026-10-05",
+        "kitchenTested": false,
+        "nativeAppSynced": false
+      },
       "implementationCommit": "1bd5c42bf7d801f19165b16dfffc3cee4906c1c6"
     },
     {
@@ -1245,7 +1254,7 @@
       "source": null,
       "sourceUrl": null,
       "group": "potatoes_cauliflower_01",
-      "status": "implemented",
+      "status": "production-verified",
       "reviewEvidence": [
         "docs/reviews/cauliflower-rice.md",
         "docs/editorial-campaign/2026-10-05/potatoes-independent.md"
@@ -1261,7 +1270,16 @@
       "assignmentInputCommit": "95b37f8bca5008657a668e52a1d970b1d03367d3",
       "assignmentInputSha256": "518350c703de9dfcf9f7579368033d945ba1eb8284a8828c9e861b56a555ebaa",
       "acceptedSourceSha256": "98768b429b98946036801c08f62165e7553f26cb27d63855765fa2f58277cb8a",
-      "productionVerification": "pending",
+      "productionVerification": {
+        "status": "verified live",
+        "releaseCommit": "c84083a3cc09d1c28e1cb838abc4214ba9bed2fc",
+        "deploymentRun": 37379630679,
+        "ci": "build, privacy check and deployment success",
+        "rendered": "all 21 exact built JSON-LD objects, ingredient text and all 100 method steps present on production",
+        "verifiedDate": "2026-10-05",
+        "kitchenTested": false,
+        "nativeAppSynced": false
+      },
       "implementationCommit": "1bd5c42bf7d801f19165b16dfffc3cee4906c1c6"
     },
     {
@@ -1339,7 +1357,7 @@
       "source": "yummytoddlerfood.com",
       "sourceUrl": "https://www.yummytoddlerfood.com/cauliflower-alfredo-sauce/",
       "group": "potatoes_cauliflower_01",
-      "status": "implemented",
+      "status": "production-verified",
       "reviewEvidence": [
         "docs/reviews/cheesy-cauliflower-sauce.md",
         "docs/reviews/cheesy-cauliflower-sauce.md",
@@ -1356,7 +1374,16 @@
       "assignmentInputCommit": "95b37f8bca5008657a668e52a1d970b1d03367d3",
       "assignmentInputSha256": "c940a2e930c6cade6c1ce8aea2b1c6310a588f9e08e73c3d2e820cee9eb45739",
       "acceptedSourceSha256": "d2378a06a7f241e7f65614bf24430d24a82ef7e88b0ed13481772f78c96d7180",
-      "productionVerification": "pending",
+      "productionVerification": {
+        "status": "verified live",
+        "releaseCommit": "c84083a3cc09d1c28e1cb838abc4214ba9bed2fc",
+        "deploymentRun": 37379630679,
+        "ci": "build, privacy check and deployment success",
+        "rendered": "all 21 exact built JSON-LD objects, ingredient text and all 100 method steps present on production",
+        "verifiedDate": "2026-10-05",
+        "kitchenTested": false,
+        "nativeAppSynced": false
+      },
       "implementationCommit": "1bd5c42bf7d801f19165b16dfffc3cee4906c1c6"
     },
     {
@@ -1513,7 +1540,7 @@
       "source": null,
       "sourceUrl": null,
       "group": "cold_sides_01",
-      "status": "implemented",
+      "status": "production-verified",
       "reviewEvidence": [
         "docs/reviews/chimichurri.md",
         "docs/editorial-campaign/2026-10-05/cold-independent.md"
@@ -1528,7 +1555,16 @@
       "assignmentInputCommit": "95b37f8bca5008657a668e52a1d970b1d03367d3",
       "assignmentInputSha256": "0a08758ebdff69d0e2038c4fdb05ba0b8994f53b62fa27aa7d3d9d879c4601f2",
       "acceptedSourceSha256": "60906cc3011a3a24b02f96935db211a52e16af54adeb5d8f0d62b2a2de62fbc4",
-      "productionVerification": "pending",
+      "productionVerification": {
+        "status": "verified live",
+        "releaseCommit": "c84083a3cc09d1c28e1cb838abc4214ba9bed2fc",
+        "deploymentRun": 37379630679,
+        "ci": "build, privacy check and deployment success",
+        "rendered": "all 21 exact built JSON-LD objects, ingredient text and all 100 method steps present on production",
+        "verifiedDate": "2026-10-05",
+        "kitchenTested": false,
+        "nativeAppSynced": false
+      },
       "implementationCommit": "e8cc0915726ca7bc236f824cdd626e09e7701ad6"
     },
     {
@@ -1872,7 +1908,7 @@
       "source": null,
       "sourceUrl": null,
       "group": "cold_sides_01",
-      "status": "implemented",
+      "status": "production-verified",
       "reviewEvidence": [
         "docs/reviews/classic-guacamole.md",
         "docs/editorial-campaign/2026-10-05/cold-independent.md"
@@ -1888,7 +1924,16 @@
       "assignmentInputCommit": "95b37f8bca5008657a668e52a1d970b1d03367d3",
       "assignmentInputSha256": "604076fb7760e8a4b1aff7f318c765693a5066a446f0ea69a19f6145c8eb694c",
       "acceptedSourceSha256": "104288460ce6cbafe8ccfd522cf82813c7e465c1ceb2c80a89900069842a2ced",
-      "productionVerification": "pending",
+      "productionVerification": {
+        "status": "verified live",
+        "releaseCommit": "c84083a3cc09d1c28e1cb838abc4214ba9bed2fc",
+        "deploymentRun": 37379630679,
+        "ci": "build, privacy check and deployment success",
+        "rendered": "all 21 exact built JSON-LD objects, ingredient text and all 100 method steps present on production",
+        "verifiedDate": "2026-10-05",
+        "kitchenTested": false,
+        "nativeAppSynced": false
+      },
       "implementationCommit": "e8cc0915726ca7bc236f824cdd626e09e7701ad6"
     },
     {
@@ -2206,7 +2251,7 @@
       "source": null,
       "sourceUrl": null,
       "group": "potatoes_cauliflower_01",
-      "status": "implemented",
+      "status": "production-verified",
       "reviewEvidence": [
         "docs/reviews/crispy-smashed-potatoes.md",
         "docs/editorial-campaign/2026-10-05/potatoes-independent.md"
@@ -2222,7 +2267,16 @@
       "assignmentInputCommit": "95b37f8bca5008657a668e52a1d970b1d03367d3",
       "assignmentInputSha256": "2060e8141038aee3d5875a7abf29a72e4121e8293720af47eb60594962101630",
       "acceptedSourceSha256": "0f96fe9858b281a1355a6ca202c4d26dbb949d65b1d401d0cf15f7cee17851c1",
-      "productionVerification": "pending",
+      "productionVerification": {
+        "status": "verified live",
+        "releaseCommit": "c84083a3cc09d1c28e1cb838abc4214ba9bed2fc",
+        "deploymentRun": 37379630679,
+        "ci": "build, privacy check and deployment success",
+        "rendered": "all 21 exact built JSON-LD objects, ingredient text and all 100 method steps present on production",
+        "verifiedDate": "2026-10-05",
+        "kitchenTested": false,
+        "nativeAppSynced": false
+      },
       "implementationCommit": "1bd5c42bf7d801f19165b16dfffc3cee4906c1c6"
     },
     {
@@ -2540,7 +2594,7 @@
       "source": "thesavvyspoon.com",
       "sourceUrl": "https://thesavvyspoon.com/2025/03/10/chopped-pesto-salad-recipe/",
       "group": "cold_sides_01",
-      "status": "implemented",
+      "status": "production-verified",
       "reviewEvidence": [
         "docs/reviews/easy-chopped-pesto-salad-with-cannellini-beans.md",
         "docs/reviews/easy-chopped-pesto-salad-with-cannellini-beans.md",
@@ -2556,7 +2610,16 @@
       "assignmentInputCommit": "95b37f8bca5008657a668e52a1d970b1d03367d3",
       "assignmentInputSha256": "041131fc9e2feb8d78de83e259c3e44e097122152367b94cec38681dbf2408bd",
       "acceptedSourceSha256": "af7367d8b0af343e34ccbaffd538fa2494d843a72c1b224ea4ba4a0c2b5b6f85",
-      "productionVerification": "pending",
+      "productionVerification": {
+        "status": "verified live",
+        "releaseCommit": "c84083a3cc09d1c28e1cb838abc4214ba9bed2fc",
+        "deploymentRun": 37379630679,
+        "ci": "build, privacy check and deployment success",
+        "rendered": "all 21 exact built JSON-LD objects, ingredient text and all 100 method steps present on production",
+        "verifiedDate": "2026-10-05",
+        "kitchenTested": false,
+        "nativeAppSynced": false
+      },
       "implementationCommit": "e8cc0915726ca7bc236f824cdd626e09e7701ad6"
     },
     {
@@ -3073,7 +3136,7 @@
       "source": "Adapted from Foodnetwork.com",
       "sourceUrl": "http://www.foodnetwork.com/recipes/mock-garlic-mashed-potatoes-recipe-1942447",
       "group": "potatoes_cauliflower_01",
-      "status": "implemented",
+      "status": "production-verified",
       "reviewEvidence": [
         "docs/reviews/garlic-mashed-mock-potatoes.md",
         "docs/editorial-campaign/2026-10-05/potatoes-independent.md"
@@ -3089,7 +3152,16 @@
       "assignmentInputCommit": "95b37f8bca5008657a668e52a1d970b1d03367d3",
       "assignmentInputSha256": "bbb8f5de38cf804a8f21dc5e3c8a98d6375a084c6364ee2d800faee941ee0c66",
       "acceptedSourceSha256": "d188507d62a40d5ddfd9510327f75700311dd60ecb2eded4f08c1db3eeb27f6f",
-      "productionVerification": "pending",
+      "productionVerification": {
+        "status": "verified live",
+        "releaseCommit": "c84083a3cc09d1c28e1cb838abc4214ba9bed2fc",
+        "deploymentRun": 37379630679,
+        "ci": "build, privacy check and deployment success",
+        "rendered": "all 21 exact built JSON-LD objects, ingredient text and all 100 method steps present on production",
+        "verifiedDate": "2026-10-05",
+        "kitchenTested": false,
+        "nativeAppSynced": false
+      },
       "implementationCommit": "1bd5c42bf7d801f19165b16dfffc3cee4906c1c6"
     },
     {
@@ -3099,7 +3171,7 @@
       "source": "Adapted from tasteofhome.com",
       "sourceUrl": "https://www.tasteofhome.com/recipes/garlic-mashed-red-potatoes/",
       "group": "potatoes_cauliflower_01",
-      "status": "implemented",
+      "status": "production-verified",
       "reviewEvidence": [
         "docs/reviews/source-restorations-2026-10-05.md",
         "docs/reviews/garlic-mashed-red-potatoes.md",
@@ -3116,7 +3188,16 @@
       "assignmentInputCommit": "95b37f8bca5008657a668e52a1d970b1d03367d3",
       "assignmentInputSha256": "344821b4df1db6be93ae26a551460bb0fb26d133045e61c7a36de70b7631585a",
       "acceptedSourceSha256": "e6201c39f65041d175ed83e5cd84994ed6fb87f7a3da095b7e0b267a9fd00bfa",
-      "productionVerification": "pending",
+      "productionVerification": {
+        "status": "verified live",
+        "releaseCommit": "c84083a3cc09d1c28e1cb838abc4214ba9bed2fc",
+        "deploymentRun": 37379630679,
+        "ci": "build, privacy check and deployment success",
+        "rendered": "all 21 exact built JSON-LD objects, ingredient text and all 100 method steps present on production",
+        "verifiedDate": "2026-10-05",
+        "kitchenTested": false,
+        "nativeAppSynced": false
+      },
       "implementationCommit": "1bd5c42bf7d801f19165b16dfffc3cee4906c1c6"
     },
     {
@@ -3814,8 +3895,8 @@
       "title": "Hot and Sour Soup",
       "source": "Adapted from Foodnetwork.com",
       "sourceUrl": "http://www.foodnetwork.com/recipes/tyler-florence/hot-and-sour-soup-recipe-1914206",
-      "group": null,
-      "status": "queued",
+      "group": "stock_linked_mains_01",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -3823,7 +3904,9 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "c04a531d082bed9229bf08ef884227d51d0cff1897246595f13e09b7ac685408",
-      "plannedBatch": "simmer-boil-and-steam-05"
+      "plannedBatch": "simmer-boil-and-steam-05",
+      "assignmentInputCommit": "c84083a3cc09d1c28e1cb838abc4214ba9bed2fc",
+      "assignmentInputSha256": "c04a531d082bed9229bf08ef884227d51d0cff1897246595f13e09b7ac685408"
     },
     {
       "slug": "hot-mulled-apple-cider",
@@ -3935,8 +4018,8 @@
       "title": "Japanese-Style Trout with Dashi",
       "source": "Adapted from Foodandwine.com",
       "sourceUrl": "http://www.foodandwine.com/recipes/japanese-style-trout-dashi",
-      "group": null,
-      "status": "queued",
+      "group": "stock_linked_mains_01",
+      "status": "assigned",
       "reviewEvidence": ["docs/reviews/poke-batch-decision.md"],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -3944,7 +4027,9 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "ae7c30606bbfbabcdbf06d998104b54f47d9cd7d924fcbf8f88cee0155edd659",
-      "plannedBatch": "simmer-boil-and-steam-06"
+      "plannedBatch": "simmer-boil-and-steam-06",
+      "assignmentInputCommit": "c84083a3cc09d1c28e1cb838abc4214ba9bed2fc",
+      "assignmentInputSha256": "ae7c30606bbfbabcdbf06d998104b54f47d9cd7d924fcbf8f88cee0155edd659"
     },
     {
       "slug": "japchae-korean-glass-noodle-stir-fry",
@@ -4220,8 +4305,8 @@
       "title": "Lemon-Miso Tofu with Broccoli",
       "source": "Adapted from cooking.nytimes.com",
       "sourceUrl": "https://cooking.nytimes.com/recipes/1026706-lemon-miso-tofu-with-broccoli?smid=ck-recipe-iOS-share",
-      "group": null,
-      "status": "queued",
+      "group": "stock_linked_mains_01",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -4229,7 +4314,9 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "bdc89b93d2245d979fff2b4297be758b8fa7cdf296d36e1f00f24a6c06f77824",
-      "plannedBatch": "stir-fry-and-pan-cooking-04"
+      "plannedBatch": "stir-fry-and-pan-cooking-04",
+      "assignmentInputCommit": "c84083a3cc09d1c28e1cb838abc4214ba9bed2fc",
+      "assignmentInputSha256": "bdc89b93d2245d979fff2b4297be758b8fa7cdf296d36e1f00f24a6c06f77824"
     },
     {
       "slug": "loaded-baked-omelet-muffins",
@@ -4308,7 +4395,7 @@
       "source": null,
       "sourceUrl": null,
       "group": "roasted_vegetables_01",
-      "status": "implemented",
+      "status": "production-verified",
       "reviewEvidence": [
         "docs/reviews/maple-roasted-sweet-potato-wedges.md",
         "docs/editorial-campaign/2026-10-05/roasted-vegetables-independent.md"
@@ -4324,7 +4411,16 @@
       "assignmentInputCommit": "95b37f8bca5008657a668e52a1d970b1d03367d3",
       "assignmentInputSha256": "3584ec674b636512261b9a4fad0ead8c8963595dcb3a761c4d244af8ce8fa1ab",
       "acceptedSourceSha256": "1c9559a7e891f44b2482adf4ff815bc170c73c2701eb2c771227bd2e0ce45ca3",
-      "productionVerification": "pending",
+      "productionVerification": {
+        "status": "verified live",
+        "releaseCommit": "c84083a3cc09d1c28e1cb838abc4214ba9bed2fc",
+        "deploymentRun": 37379630679,
+        "ci": "build, privacy check and deployment success",
+        "rendered": "all 21 exact built JSON-LD objects, ingredient text and all 100 method steps present on production",
+        "verifiedDate": "2026-10-05",
+        "kitchenTested": false,
+        "nativeAppSynced": false
+      },
       "implementationCommit": "ffa1a9e7cb33dd6a59c2a06e1907cba865eded5e"
     },
     {
@@ -4488,7 +4584,7 @@
       "source": null,
       "sourceUrl": null,
       "group": "roasted_vegetables_01",
-      "status": "implemented",
+      "status": "production-verified",
       "reviewEvidence": [
         "docs/repairs/2026-09-15/changed-files.json",
         "docs/reviews/miso-glazed-roasted-cauliflower.md",
@@ -4505,7 +4601,16 @@
       "assignmentInputCommit": "95b37f8bca5008657a668e52a1d970b1d03367d3",
       "assignmentInputSha256": "0fed5c69ac2cee68aad81f10b0d2afb5f2e4d67a3614ee13d8c6eab85d3a3da4",
       "acceptedSourceSha256": "cdbca3ccf5d4f44a8a187f151d78748f7e44de2fd6d215ca5166d85b2901eb4e",
-      "productionVerification": "pending",
+      "productionVerification": {
+        "status": "verified live",
+        "releaseCommit": "c84083a3cc09d1c28e1cb838abc4214ba9bed2fc",
+        "deploymentRun": 37379630679,
+        "ci": "build, privacy check and deployment success",
+        "rendered": "all 21 exact built JSON-LD objects, ingredient text and all 100 method steps present on production",
+        "verifiedDate": "2026-10-05",
+        "kitchenTested": false,
+        "nativeAppSynced": false
+      },
       "implementationCommit": "ffa1a9e7cb33dd6a59c2a06e1907cba865eded5e"
     },
     {
@@ -4515,7 +4620,7 @@
       "source": "bakerita.com",
       "sourceUrl": "https://www.bakerita.com/miso-sesame-dense-bean-salad/",
       "group": "cold_sides_01",
-      "status": "implemented",
+      "status": "production-verified",
       "reviewEvidence": [
         "docs/reviews/miso-sesame-dense-bean-salad.md",
         "docs/reviews/miso-sesame-dense-bean-salad.md",
@@ -4531,7 +4636,16 @@
       "assignmentInputCommit": "95b37f8bca5008657a668e52a1d970b1d03367d3",
       "assignmentInputSha256": "141e528f09c272139ded3bed331b94a250bd99179eaa403e201f57b196f37d48",
       "acceptedSourceSha256": "d1523218a40741682779f0bf4b893fe8a0e352db37e2d1e600356059c4b8cbc7",
-      "productionVerification": "pending",
+      "productionVerification": {
+        "status": "verified live",
+        "releaseCommit": "c84083a3cc09d1c28e1cb838abc4214ba9bed2fc",
+        "deploymentRun": 37379630679,
+        "ci": "build, privacy check and deployment success",
+        "rendered": "all 21 exact built JSON-LD objects, ingredient text and all 100 method steps present on production",
+        "verifiedDate": "2026-10-05",
+        "kitchenTested": false,
+        "nativeAppSynced": false
+      },
       "implementationCommit": "e8cc0915726ca7bc236f824cdd626e09e7701ad6"
     },
     {
@@ -5016,7 +5130,7 @@
       "source": null,
       "sourceUrl": null,
       "group": "roasted_vegetables_01",
-      "status": "implemented",
+      "status": "production-verified",
       "reviewEvidence": [
         "docs/reviews/patate-al-forno.md",
         "docs/editorial-campaign/2026-10-05/roasted-vegetables-independent.md"
@@ -5032,7 +5146,16 @@
       "assignmentInputCommit": "95b37f8bca5008657a668e52a1d970b1d03367d3",
       "assignmentInputSha256": "b251294b27fb74592dc7dc43eb9da2d89b312757ce5216f99adcdd530524d375",
       "acceptedSourceSha256": "94e6978482a006e7afb76be0f6e45f4160a26fddf529d6a87fe9bedf12ad868f",
-      "productionVerification": "pending",
+      "productionVerification": {
+        "status": "verified live",
+        "releaseCommit": "c84083a3cc09d1c28e1cb838abc4214ba9bed2fc",
+        "deploymentRun": 37379630679,
+        "ci": "build, privacy check and deployment success",
+        "rendered": "all 21 exact built JSON-LD objects, ingredient text and all 100 method steps present on production",
+        "verifiedDate": "2026-10-05",
+        "kitchenTested": false,
+        "nativeAppSynced": false
+      },
       "implementationCommit": "ffa1a9e7cb33dd6a59c2a06e1907cba865eded5e"
     },
     {
@@ -5506,7 +5629,7 @@
       "source": null,
       "sourceUrl": null,
       "group": "roasted_vegetables_01",
-      "status": "implemented",
+      "status": "production-verified",
       "reviewEvidence": [
         "docs/reviews/roasted-asparagus.md",
         "docs/editorial-campaign/2026-10-05/roasted-vegetables-independent.md"
@@ -5522,7 +5645,16 @@
       "assignmentInputCommit": "95b37f8bca5008657a668e52a1d970b1d03367d3",
       "assignmentInputSha256": "5c6a28e60520af8b385ae5a7e5c5cacb392716affacadb2f8452e0579a29151f",
       "acceptedSourceSha256": "d8e1601fca93f1325ed25ad26fa669917f41d760699957d13f30bd56f5398685",
-      "productionVerification": "pending",
+      "productionVerification": {
+        "status": "verified live",
+        "releaseCommit": "c84083a3cc09d1c28e1cb838abc4214ba9bed2fc",
+        "deploymentRun": 37379630679,
+        "ci": "build, privacy check and deployment success",
+        "rendered": "all 21 exact built JSON-LD objects, ingredient text and all 100 method steps present on production",
+        "verifiedDate": "2026-10-05",
+        "kitchenTested": false,
+        "nativeAppSynced": false
+      },
       "implementationCommit": "ffa1a9e7cb33dd6a59c2a06e1907cba865eded5e"
     },
     {
@@ -5532,7 +5664,7 @@
       "source": null,
       "sourceUrl": null,
       "group": "roasted_vegetables_01",
-      "status": "implemented",
+      "status": "production-verified",
       "reviewEvidence": [
         "docs/reviews/roasted-broccolini-with-lemon.md",
         "docs/editorial-campaign/2026-10-05/roasted-vegetables-independent.md"
@@ -5548,7 +5680,16 @@
       "assignmentInputCommit": "95b37f8bca5008657a668e52a1d970b1d03367d3",
       "assignmentInputSha256": "f688b2c8c3b5bcb5f1a3ca91bb564995fec8dac5d9e489ff643b56b9d916af75",
       "acceptedSourceSha256": "9d5bb3b7acbcfff3e4f3a32f3f4b79845766e0bf17e95c8702a9514b2e19d51f",
-      "productionVerification": "pending",
+      "productionVerification": {
+        "status": "verified live",
+        "releaseCommit": "c84083a3cc09d1c28e1cb838abc4214ba9bed2fc",
+        "deploymentRun": 37379630679,
+        "ci": "build, privacy check and deployment success",
+        "rendered": "all 21 exact built JSON-LD objects, ingredient text and all 100 method steps present on production",
+        "verifiedDate": "2026-10-05",
+        "kitchenTested": false,
+        "nativeAppSynced": false
+      },
       "implementationCommit": "ffa1a9e7cb33dd6a59c2a06e1907cba865eded5e"
     },
     {
@@ -5558,7 +5699,7 @@
       "source": null,
       "sourceUrl": null,
       "group": "roasted_vegetables_01",
-      "status": "implemented",
+      "status": "production-verified",
       "reviewEvidence": [
         "docs/reviews/roasted-brussels-sprouts-with-balsamic.md",
         "docs/editorial-campaign/2026-10-05/roasted-vegetables-independent.md"
@@ -5575,7 +5716,16 @@
       "assignmentInputCommit": "95b37f8bca5008657a668e52a1d970b1d03367d3",
       "assignmentInputSha256": "ca207c02753caf9dfa35eb3c06b344688f7c0dc498ecc2e5e20a1d57a8370aa9",
       "acceptedSourceSha256": "fb0671b1de32020949e834ff69e9b62982b90a3f77188132d88bfe99854f7dfc",
-      "productionVerification": "pending",
+      "productionVerification": {
+        "status": "verified live",
+        "releaseCommit": "c84083a3cc09d1c28e1cb838abc4214ba9bed2fc",
+        "deploymentRun": 37379630679,
+        "ci": "build, privacy check and deployment success",
+        "rendered": "all 21 exact built JSON-LD objects, ingredient text and all 100 method steps present on production",
+        "verifiedDate": "2026-10-05",
+        "kitchenTested": false,
+        "nativeAppSynced": false
+      },
       "implementationCommit": "ffa1a9e7cb33dd6a59c2a06e1907cba865eded5e"
     },
     {
@@ -5670,7 +5820,7 @@
       "source": null,
       "sourceUrl": null,
       "group": "roasted_vegetables_01",
-      "status": "implemented",
+      "status": "production-verified",
       "reviewEvidence": [
         "docs/reviews/roasted-root-vegetables.md",
         "docs/editorial-campaign/2026-10-05/roasted-vegetables-independent.md"
@@ -5686,7 +5836,16 @@
       "assignmentInputCommit": "95b37f8bca5008657a668e52a1d970b1d03367d3",
       "assignmentInputSha256": "e2de0c56c162f2c8512a29aa22fc6313df1a3e55d306dcac90f135f51db833e0",
       "acceptedSourceSha256": "fd732798f65b4cfaa83cc9a153786616d49552ff08ec0afdee93145c3558482e",
-      "productionVerification": "pending",
+      "productionVerification": {
+        "status": "verified live",
+        "releaseCommit": "c84083a3cc09d1c28e1cb838abc4214ba9bed2fc",
+        "deploymentRun": 37379630679,
+        "ci": "build, privacy check and deployment success",
+        "rendered": "all 21 exact built JSON-LD objects, ingredient text and all 100 method steps present on production",
+        "verifiedDate": "2026-10-05",
+        "kitchenTested": false,
+        "nativeAppSynced": false
+      },
       "implementationCommit": "ffa1a9e7cb33dd6a59c2a06e1907cba865eded5e"
     },
     {
@@ -5696,7 +5855,7 @@
       "source": "Adapted from Foodandwine.com",
       "sourceUrl": "http://www.foodandwine.com/recipes/roasted-sunchokes-with-brown-butter-cider-vinaigrette",
       "group": "roasted_vegetables_01",
-      "status": "implemented",
+      "status": "production-verified",
       "reviewEvidence": [
         "docs/reviews/roasted-sunchokes-with-brown-butter-cider-vinaigrette.md",
         "docs/editorial-campaign/2026-10-05/roasted-vegetables-independent.md"
@@ -5712,7 +5871,16 @@
       "assignmentInputCommit": "95b37f8bca5008657a668e52a1d970b1d03367d3",
       "assignmentInputSha256": "c5e5713b9cdfb568c8cb88b7518c70268aa13620f426725d4832cecd4efc4a83",
       "acceptedSourceSha256": "ce8ab6d233ee92280696209b6dde723d575494cc28d85dc6349607a26dddff4d",
-      "productionVerification": "pending",
+      "productionVerification": {
+        "status": "verified live",
+        "releaseCommit": "c84083a3cc09d1c28e1cb838abc4214ba9bed2fc",
+        "deploymentRun": 37379630679,
+        "ci": "build, privacy check and deployment success",
+        "rendered": "all 21 exact built JSON-LD objects, ingredient text and all 100 method steps present on production",
+        "verifiedDate": "2026-10-05",
+        "kitchenTested": false,
+        "nativeAppSynced": false
+      },
       "implementationCommit": "ffa1a9e7cb33dd6a59c2a06e1907cba865eded5e"
     },
     {
@@ -6016,7 +6184,7 @@
       "source": "Adapted from Loveandoliveoil.com",
       "sourceUrl": "http://www.loveandoliveoil.com/2013/04/shaved-brussels-sprout-salad.html",
       "group": "cold_sides_01",
-      "status": "implemented",
+      "status": "production-verified",
       "reviewEvidence": [
         "docs/reviews/shaved-brussels-sprout-salad-with-apples-and-pecorino.md",
         "docs/editorial-campaign/2026-10-05/cold-independent.md"
@@ -6032,7 +6200,16 @@
       "assignmentInputCommit": "95b37f8bca5008657a668e52a1d970b1d03367d3",
       "assignmentInputSha256": "665af3734545f6b5a5f44a5a3192af5ed0738b36b4494b9aa73169506f088645",
       "acceptedSourceSha256": "0b0d517e8b9569f7d3fd4ee49daafc674d28a56227a3d5548cb4efdb77a32534",
-      "productionVerification": "pending",
+      "productionVerification": {
+        "status": "verified live",
+        "releaseCommit": "c84083a3cc09d1c28e1cb838abc4214ba9bed2fc",
+        "deploymentRun": 37379630679,
+        "ci": "build, privacy check and deployment success",
+        "rendered": "all 21 exact built JSON-LD objects, ingredient text and all 100 method steps present on production",
+        "verifiedDate": "2026-10-05",
+        "kitchenTested": false,
+        "nativeAppSynced": false
+      },
       "implementationCommit": "e8cc0915726ca7bc236f824cdd626e09e7701ad6"
     },
     {
@@ -6464,8 +6641,8 @@
       "title": "Soba Noodles with Shiitakes & Tofu",
       "source": "Adapted from cooking.nytimes.com",
       "sourceUrl": "https://cooking.nytimes.com/recipes/1016016-soba-noodles-with-shiitakes-broccoli-and-tofu?smid=ck-recipe-iOS-share",
-      "group": null,
-      "status": "queued",
+      "group": "stock_linked_mains_01",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -6473,7 +6650,9 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "8e5cb8f9d9f5d07aadae64543d27e2a00ae88b8fbdb7aceb14645c1521087f38",
-      "plannedBatch": "stir-fry-and-pan-cooking-06"
+      "plannedBatch": "stir-fry-and-pan-cooking-06",
+      "assignmentInputCommit": "c84083a3cc09d1c28e1cb838abc4214ba9bed2fc",
+      "assignmentInputSha256": "8e5cb8f9d9f5d07aadae64543d27e2a00ae88b8fbdb7aceb14645c1521087f38"
     },
     {
       "slug": "soft-batch-chocolate-chip-cookies",
@@ -6499,7 +6678,7 @@
       "source": null,
       "sourceUrl": null,
       "group": "cold_sides_01",
-      "status": "implemented",
+      "status": "production-verified",
       "reviewEvidence": [
         "docs/reviews/soy-ginger-dipping-sauce.md",
         "docs/editorial-campaign/2026-10-05/cold-independent.md"
@@ -6514,7 +6693,16 @@
       "assignmentInputCommit": "95b37f8bca5008657a668e52a1d970b1d03367d3",
       "assignmentInputSha256": "fd7044f566920578055b78d2aca56a707d0fc56ff7b238a9ffee30187892297b",
       "acceptedSourceSha256": "2d6bff415b84a217a82e5f31cea7894c844f9bac9d183f82aeac6b8ec36d00d8",
-      "productionVerification": "pending",
+      "productionVerification": {
+        "status": "verified live",
+        "releaseCommit": "c84083a3cc09d1c28e1cb838abc4214ba9bed2fc",
+        "deploymentRun": 37379630679,
+        "ci": "build, privacy check and deployment success",
+        "rendered": "all 21 exact built JSON-LD objects, ingredient text and all 100 method steps present on production",
+        "verifiedDate": "2026-10-05",
+        "kitchenTested": false,
+        "nativeAppSynced": false
+      },
       "implementationCommit": "e8cc0915726ca7bc236f824cdd626e09e7701ad6"
     },
     {
@@ -7484,8 +7672,8 @@
       "title": "Yaki Udon",
       "source": "Adapted from cooking.nytimes.com",
       "sourceUrl": "https://cooking.nytimes.com/recipes/1024643-yaki-udon?smid=ck-recipe-iOS-share",
-      "group": null,
-      "status": "queued",
+      "group": "stock_linked_mains_01",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -7493,7 +7681,9 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "23d3b8a64b25df74a4177e29494b81f360f525ebdd79c6cf892939d6eb2c6604",
-      "plannedBatch": "simmer-boil-and-steam-11"
+      "plannedBatch": "simmer-boil-and-steam-11",
+      "assignmentInputCommit": "c84083a3cc09d1c28e1cb838abc4214ba9bed2fc",
+      "assignmentInputSha256": "23d3b8a64b25df74a4177e29494b81f360f525ebdd79c6cf892939d6eb2c6604"
     },
     {
       "slug": "yellow-cake-with-chocolate-frosting",
@@ -7527,7 +7717,7 @@
       "source": "Guy Fieri",
       "sourceUrl": "https://www.foodnetwork.com/recipes/guy-fieri/falafel-in-pita-with-yogurt-sauce-recipe-1952260",
       "group": "cold_sides_01",
-      "status": "implemented",
+      "status": "production-verified",
       "reviewEvidence": [
         "docs/reviews/yogurt-dipping-sauce.md",
         "docs/reviews/yogurt-dipping-sauce.md",
@@ -7543,7 +7733,16 @@
       "assignmentInputCommit": "95b37f8bca5008657a668e52a1d970b1d03367d3",
       "assignmentInputSha256": "60f27607a538b709cd07ea7048e8b055c6c630af38ad28bb5dfe05f43c940623",
       "acceptedSourceSha256": "4a2ce0a8d452911613d7c977ad0e4100f27b42aa038e6c31fc5ae744b46f4d35",
-      "productionVerification": "pending",
+      "productionVerification": {
+        "status": "verified live",
+        "releaseCommit": "c84083a3cc09d1c28e1cb838abc4214ba9bed2fc",
+        "deploymentRun": 37379630679,
+        "ci": "build, privacy check and deployment success",
+        "rendered": "all 21 exact built JSON-LD objects, ingredient text and all 100 method steps present on production",
+        "verifiedDate": "2026-10-05",
+        "kitchenTested": false,
+        "nativeAppSynced": false
+      },
       "implementationCommit": "e8cc0915726ca7bc236f824cdd626e09e7701ad6"
     },
     {
@@ -8318,12 +8517,11 @@
   ],
   "routingLimitations": "Provisional routing uses current metadata to reduce coordination work. Reviewer must confirm actual process from complete recipe before starting; tags never establish method applicability or a recipe defect.",
   "statusCounts": {
-    "assigned": 6,
+    "assigned": 11,
     "held": 7,
     "held-awaiting-evidence": 2,
-    "implemented": 21,
-    "production-verified": 16,
+    "production-verified": 37,
     "proposed": 58,
-    "queued": 299
+    "queued": 294
   }
 }

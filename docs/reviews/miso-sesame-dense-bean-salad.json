@@ -1,6 +1,6 @@
 {
   "slug": "miso-sesame-dense-bean-salad",
-  "status": "implemented-editorial-review; production verification pending",
+  "status": "implemented complete editorial review; verified live",
   "inputCommit": "95b37f8bca5008657a668e52a1d970b1d03367d3",
   "inputSha256": "141e528f09c272139ded3bed331b94a250bd99179eaa403e201f57b196f37d48",
   "acceptedSourceSha256": "d1523218a40741682779f0bf4b893fe8a0e352db37e2d1e600356059c4b8cbc7",
@@ -296,7 +296,16 @@
   ],
   "kitchenTested": false,
   "nativeAppSynced": false,
-  "productionVerification": "pending",
+  "productionVerification": {
+    "status": "verified live",
+    "releaseCommit": "c84083a3cc09d1c28e1cb838abc4214ba9bed2fc",
+    "deploymentRun": 37379630679,
+    "ci": "build, privacy check and deployment success",
+    "rendered": "all 21 exact built JSON-LD objects, ingredient text and all 100 method steps present on production",
+    "verifiedDate": "2026-10-05",
+    "kitchenTested": false,
+    "nativeAppSynced": false
+  },
   "currentPath": "src/content/recipes/miso-sesame-dense-bean-salad.md",
   "reviewDimensions": [
     "every ingredient preparation/allocation/destination",

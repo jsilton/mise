@@ -1,0 +1,283 @@
+{
+  "status": "verified live",
+  "releaseCommit": "c84083a3cc09d1c28e1cb838abc4214ba9bed2fc",
+  "deploymentRun": 37379630679,
+  "ci": {
+    "conclusion": "success",
+    "head_sha": "c84083a3cc09d1c28e1cb838abc4214ba9bed2fc",
+    "html_url": "https://github.com/jsilton/mise/actions/runs/37379630679",
+    "id": 37379630679,
+    "status": "completed",
+    "updated_at": "2026-10-05T22:01:56Z"
+  },
+  "rendered": "all 21 exact built JSON-LD objects, ingredient text and all 100 method steps present on production",
+  "verifiedDate": "2026-10-05",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "remote": {
+    "sha": "c84083a3cc09d1c28e1cb838abc4214ba9bed2fc"
+  },
+  "jobs": [
+    {
+      "conclusion": "success",
+      "id": 111997951505,
+      "name": "build",
+      "status": "completed",
+      "steps": [
+        {
+          "conclusion": "success",
+          "name": "Set up job",
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Checkout your repository using git",
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Install, build, and upload your site",
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Check private recipe metadata is absent",
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Post Install, build, and upload your site",
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Post Checkout your repository using git",
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Complete job",
+          "status": "completed"
+        }
+      ]
+    },
+    {
+      "conclusion": "success",
+      "id": 111998443125,
+      "name": "deploy",
+      "status": "completed",
+      "steps": [
+        {
+          "conclusion": "success",
+          "name": "Set up job",
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Deploy to GitHub Pages",
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Complete job",
+          "status": "completed"
+        }
+      ]
+    }
+  ],
+  "acceptedRecipeSources": [
+    {
+      "slug": "soy-ginger-dipping-sauce",
+      "acceptedSourceSha256": "2d6bff415b84a217a82e5f31cea7894c844f9bac9d183f82aeac6b8ec36d00d8"
+    },
+    {
+      "slug": "yogurt-dipping-sauce",
+      "acceptedSourceSha256": "4a2ce0a8d452911613d7c977ad0e4100f27b42aa038e6c31fc5ae744b46f4d35"
+    },
+    {
+      "slug": "classic-guacamole",
+      "acceptedSourceSha256": "104288460ce6cbafe8ccfd522cf82813c7e465c1ceb2c80a89900069842a2ced"
+    },
+    {
+      "slug": "chimichurri",
+      "acceptedSourceSha256": "60906cc3011a3a24b02f96935db211a52e16af54adeb5d8f0d62b2a2de62fbc4"
+    },
+    {
+      "slug": "easy-chopped-pesto-salad-with-cannellini-beans",
+      "acceptedSourceSha256": "af7367d8b0af343e34ccbaffd538fa2494d843a72c1b224ea4ba4a0c2b5b6f85"
+    },
+    {
+      "slug": "miso-sesame-dense-bean-salad",
+      "acceptedSourceSha256": "d1523218a40741682779f0bf4b893fe8a0e352db37e2d1e600356059c4b8cbc7"
+    },
+    {
+      "slug": "shaved-brussels-sprout-salad-with-apples-and-pecorino",
+      "acceptedSourceSha256": "0b0d517e8b9569f7d3fd4ee49daafc674d28a56227a3d5548cb4efdb77a32534"
+    },
+    {
+      "slug": "cauliflower-alfredo-sauce",
+      "acceptedSourceSha256": "83392df438cf6891a44ac9feaff4f75f9d543fbf73484c018ac3aea15aa2cac6"
+    },
+    {
+      "slug": "cheesy-cauliflower-sauce",
+      "acceptedSourceSha256": "d2378a06a7f241e7f65614bf24430d24a82ef7e88b0ed13481772f78c96d7180"
+    },
+    {
+      "slug": "garlic-mashed-mock-potatoes",
+      "acceptedSourceSha256": "d188507d62a40d5ddfd9510327f75700311dd60ecb2eded4f08c1db3eeb27f6f"
+    },
+    {
+      "slug": "garlic-mashed-red-potatoes",
+      "acceptedSourceSha256": "e6201c39f65041d175ed83e5cd84994ed6fb87f7a3da095b7e0b267a9fd00bfa"
+    },
+    {
+      "slug": "cauliflower-rice",
+      "acceptedSourceSha256": "98768b429b98946036801c08f62165e7553f26cb27d63855765fa2f58277cb8a"
+    },
+    {
+      "slug": "crispy-smashed-potatoes",
+      "acceptedSourceSha256": "0f96fe9858b281a1355a6ca202c4d26dbb949d65b1d401d0cf15f7cee17851c1"
+    },
+    {
+      "slug": "roasted-asparagus",
+      "acceptedSourceSha256": "d8e1601fca93f1325ed25ad26fa669917f41d760699957d13f30bd56f5398685"
+    },
+    {
+      "slug": "roasted-broccolini-with-lemon",
+      "acceptedSourceSha256": "9d5bb3b7acbcfff3e4f3a32f3f4b79845766e0bf17e95c8702a9514b2e19d51f"
+    },
+    {
+      "slug": "roasted-brussels-sprouts-with-balsamic",
+      "acceptedSourceSha256": "fb0671b1de32020949e834ff69e9b62982b90a3f77188132d88bfe99854f7dfc"
+    },
+    {
+      "slug": "roasted-root-vegetables",
+      "acceptedSourceSha256": "fd732798f65b4cfaa83cc9a153786616d49552ff08ec0afdee93145c3558482e"
+    },
+    {
+      "slug": "roasted-sunchokes-with-brown-butter-cider-vinaigrette",
+      "acceptedSourceSha256": "ce8ab6d233ee92280696209b6dde723d575494cc28d85dc6349607a26dddff4d"
+    },
+    {
+      "slug": "miso-glazed-roasted-cauliflower",
+      "acceptedSourceSha256": "cdbca3ccf5d4f44a8a187f151d78748f7e44de2fd6d215ca5166d85b2901eb4e"
+    },
+    {
+      "slug": "maple-roasted-sweet-potato-wedges",
+      "acceptedSourceSha256": "1c9559a7e891f44b2482adf4ff815bc170c73c2701eb2c771227bd2e0ce45ca3"
+    },
+    {
+      "slug": "patate-al-forno",
+      "acceptedSourceSha256": "94e6978482a006e7afb76be0f6e45f4160a26fddf529d6a87fe9bedf12ad868f"
+    }
+  ],
+  "renderedMethods": [
+    {
+      "slug": "soy-ginger-dipping-sauce",
+      "steps": 4,
+      "missingVisibleSteps": 0
+    },
+    {
+      "slug": "yogurt-dipping-sauce",
+      "steps": 3,
+      "missingVisibleSteps": 0
+    },
+    {
+      "slug": "classic-guacamole",
+      "steps": 5,
+      "missingVisibleSteps": 0
+    },
+    {
+      "slug": "chimichurri",
+      "steps": 5,
+      "missingVisibleSteps": 0
+    },
+    {
+      "slug": "easy-chopped-pesto-salad-with-cannellini-beans",
+      "steps": 4,
+      "missingVisibleSteps": 0
+    },
+    {
+      "slug": "miso-sesame-dense-bean-salad",
+      "steps": 3,
+      "missingVisibleSteps": 0
+    },
+    {
+      "slug": "shaved-brussels-sprout-salad-with-apples-and-pecorino",
+      "steps": 6,
+      "missingVisibleSteps": 0
+    },
+    {
+      "slug": "cauliflower-alfredo-sauce",
+      "steps": 5,
+      "missingVisibleSteps": 0
+    },
+    {
+      "slug": "cheesy-cauliflower-sauce",
+      "steps": 4,
+      "missingVisibleSteps": 0
+    },
+    {
+      "slug": "garlic-mashed-mock-potatoes",
+      "steps": 6,
+      "missingVisibleSteps": 0
+    },
+    {
+      "slug": "garlic-mashed-red-potatoes",
+      "steps": 6,
+      "missingVisibleSteps": 0
+    },
+    {
+      "slug": "cauliflower-rice",
+      "steps": 4,
+      "missingVisibleSteps": 0
+    },
+    {
+      "slug": "crispy-smashed-potatoes",
+      "steps": 6,
+      "missingVisibleSteps": 0
+    },
+    {
+      "slug": "roasted-asparagus",
+      "steps": 4,
+      "missingVisibleSteps": 0
+    },
+    {
+      "slug": "roasted-broccolini-with-lemon",
+      "steps": 4,
+      "missingVisibleSteps": 0
+    },
+    {
+      "slug": "roasted-brussels-sprouts-with-balsamic",
+      "steps": 5,
+      "missingVisibleSteps": 0
+    },
+    {
+      "slug": "roasted-root-vegetables",
+      "steps": 5,
+      "missingVisibleSteps": 0
+    },
+    {
+      "slug": "roasted-sunchokes-with-brown-butter-cider-vinaigrette",
+      "steps": 5,
+      "missingVisibleSteps": 0
+    },
+    {
+      "slug": "miso-glazed-roasted-cauliflower",
+      "steps": 5,
+      "missingVisibleSteps": 0
+    },
+    {
+      "slug": "maple-roasted-sweet-potato-wedges",
+      "steps": 6,
+      "missingVisibleSteps": 0
+    },
+    {
+      "slug": "patate-al-forno",
+      "steps": 5,
+      "missingVisibleSteps": 0
+    }
+  ],
+  "notKitchenTested": true,
+  "limitations": "Local mobile/scaling/cooking checks were already completed for every batch. Live rendered recipe data, ingredients and all methods match the accepted build. Print preview remains unverified; no native-app sync."
+}

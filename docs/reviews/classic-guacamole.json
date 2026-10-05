@@ -1,6 +1,6 @@
 {
   "slug": "classic-guacamole",
-  "status": "implemented-editorial-review; production verification pending",
+  "status": "implemented complete editorial review; verified live",
   "inputCommit": "95b37f8bca5008657a668e52a1d970b1d03367d3",
   "inputSha256": "604076fb7760e8a4b1aff7f318c765693a5066a446f0ea69a19f6145c8eb694c",
   "acceptedSourceSha256": "104288460ce6cbafe8ccfd522cf82813c7e465c1ceb2c80a89900069842a2ced",
@@ -321,7 +321,16 @@
   ],
   "kitchenTested": false,
   "nativeAppSynced": false,
-  "productionVerification": "pending",
+  "productionVerification": {
+    "status": "verified live",
+    "releaseCommit": "c84083a3cc09d1c28e1cb838abc4214ba9bed2fc",
+    "deploymentRun": 37379630679,
+    "ci": "build, privacy check and deployment success",
+    "rendered": "all 21 exact built JSON-LD objects, ingredient text and all 100 method steps present on production",
+    "verifiedDate": "2026-10-05",
+    "kitchenTested": false,
+    "nativeAppSynced": false
+  },
   "currentPath": "src/content/recipes/classic-guacamole.md",
   "reviewDimensions": [
     "every ingredient preparation/allocation/destination",

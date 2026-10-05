@@ -1,6 +1,6 @@
 {
   "slug": "yogurt-dipping-sauce",
-  "status": "implemented-editorial-review; production verification pending",
+  "status": "implemented complete editorial review; verified live",
   "inputCommit": "95b37f8bca5008657a668e52a1d970b1d03367d3",
   "inputSha256": "60f27607a538b709cd07ea7048e8b055c6c630af38ad28bb5dfe05f43c940623",
   "acceptedSourceSha256": "4a2ce0a8d452911613d7c977ad0e4100f27b42aa038e6c31fc5ae744b46f4d35",
@@ -174,7 +174,16 @@
   ],
   "kitchenTested": false,
   "nativeAppSynced": false,
-  "productionVerification": "pending",
+  "productionVerification": {
+    "status": "verified live",
+    "releaseCommit": "c84083a3cc09d1c28e1cb838abc4214ba9bed2fc",
+    "deploymentRun": 37379630679,
+    "ci": "build, privacy check and deployment success",
+    "rendered": "all 21 exact built JSON-LD objects, ingredient text and all 100 method steps present on production",
+    "verifiedDate": "2026-10-05",
+    "kitchenTested": false,
+    "nativeAppSynced": false
+  },
   "currentPath": "src/content/recipes/yogurt-dipping-sauce.md",
   "reviewDimensions": [
     "every ingredient preparation/allocation/destination",

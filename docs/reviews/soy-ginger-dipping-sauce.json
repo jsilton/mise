@@ -1,6 +1,6 @@
 {
   "slug": "soy-ginger-dipping-sauce",
-  "status": "implemented-editorial-review; production verification pending",
+  "status": "implemented complete editorial review; verified live",
   "inputCommit": "95b37f8bca5008657a668e52a1d970b1d03367d3",
   "inputSha256": "fd7044f566920578055b78d2aca56a707d0fc56ff7b238a9ffee30187892297b",
   "acceptedSourceSha256": "2d6bff415b84a217a82e5f31cea7894c844f9bac9d183f82aeac6b8ec36d00d8",
@@ -154,7 +154,16 @@
   ],
   "kitchenTested": false,
   "nativeAppSynced": false,
-  "productionVerification": "pending",
+  "productionVerification": {
+    "status": "verified live",
+    "releaseCommit": "c84083a3cc09d1c28e1cb838abc4214ba9bed2fc",
+    "deploymentRun": 37379630679,
+    "ci": "build, privacy check and deployment success",
+    "rendered": "all 21 exact built JSON-LD objects, ingredient text and all 100 method steps present on production",
+    "verifiedDate": "2026-10-05",
+    "kitchenTested": false,
+    "nativeAppSynced": false
+  },
   "currentPath": "src/content/recipes/soy-ginger-dipping-sauce.md",
   "reviewDimensions": [
     "every ingredient preparation/allocation/destination",

@@ -1,7 +1,7 @@
 {
   "slug": "garlic-mashed-mock-potatoes",
   "currentPath": "src/content/recipes/garlic-mashed-mock-potatoes.md",
-  "status": "implemented complete editorial review; production verification pending",
+  "status": "implemented complete editorial review; verified live",
   "inputCommit": "95b37f8bca5008657a668e52a1d970b1d03367d3",
   "inputSha256": "bbb8f5de38cf804a8f21dc5e3c8a98d6375a084c6364ee2d800faee941ee0c66",
   "acceptedSourceSha256": "d188507d62a40d5ddfd9510327f75700311dd60ecb2eded4f08c1db3eeb27f6f",
@@ -684,6 +684,15 @@
   ],
   "kitchenTested": false,
   "nativeAppSynced": false,
-  "productionVerification": "pending",
+  "productionVerification": {
+    "status": "verified live",
+    "releaseCommit": "c84083a3cc09d1c28e1cb838abc4214ba9bed2fc",
+    "deploymentRun": 37379630679,
+    "ci": "build, privacy check and deployment success",
+    "rendered": "all 21 exact built JSON-LD objects, ingredient text and all 100 method steps present on production",
+    "verifiedDate": "2026-10-05",
+    "kitchenTested": false,
+    "nativeAppSynced": false
+  },
   "implementationCommit": "1bd5c42bf7d801f19165b16dfffc3cee4906c1c6"
 }

@@ -26,3 +26,7 @@ Two final wording corrections replace the Smashed Potatoes guarantee comparison 
 ## Implementation and publication state
 
 Implemented in`1bd5c42bf7d801f19165b16dfffc3cee4906c1c6`. Final post-commit source hashes match this record. Release of seven preceding cold-side recipes at5cbddf1f built successfully but its deployment job could not acquire a hosted runner (run37372602039; no deployment steps ran). Both groups, thirteen complete editorial versions, await the next exact deployment and live-page verification.
+
+## Verified production release
+
+The exact remote release `c84083a3cc09d1c28e1cb838abc4214ba9bed2fc` passed build, public privacy check and deployment in [Pages run 37379630679](https://github.com/jsilton/mise/actions/runs/37379630679). All 21 affected cold-side, potato and roasted-vegetable live pages matched the accepted build, with every ingredient and all 100 method steps present. [Exact production evidence](release21-production.json). Earlier failed runner jobs remain historical evidence; this successful verified release establishes publication. Physical kitchen testing remains zero, print preview remains unverified and no native-app sync occurred.
