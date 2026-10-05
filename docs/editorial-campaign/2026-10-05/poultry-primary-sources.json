@@ -1,0 +1,102 @@
+{
+  "saved": {
+    "type": "committed-repository-original",
+    "dateRead": "2026-10-05",
+    "confidence": "high for what was saved; not evidence of household testing",
+    "commit": "045e5ba2",
+    "files": [
+      "chicken-fingers-saved-045e5ba2.md",
+      "garlic-parmesan-saved-045e5ba2.md",
+      "glazed-chicken-saved-045e5ba2.md",
+      "baked-chicken-saved-045e5ba2.md"
+    ],
+    "claim": "Complete committed source recipes recovered directly with git show. No other worker temporary files used.",
+    "repositoryLinks": [
+      "https://github.com/jsilton/mise/blob/045e5ba2/src/content/recipes/chicken-fingers.md",
+      "https://github.com/jsilton/mise/blob/045e5ba2/src/content/recipes/garlic-parmesan-chicken-potatoes.md",
+      "https://github.com/jsilton/mise/blob/045e5ba2/src/content/recipes/glazed-chicken-and-broccoli-sheet-pan-dinner.md",
+      "https://github.com/jsilton/mise/blob/045e5ba2/src/content/recipes/baked-chicken-and-broccoli.md"
+    ]
+  },
+  "sliderSaved": {
+    "type": "committed-repository-introduction",
+    "dateRead": "2026-10-05",
+    "confidence": "high for original authored formula; no publisher or kitchen-test certification",
+    "commit": "e07f66f8",
+    "file": "sliders-saved-e07f66f8.md",
+    "claim": "The current pickle-juice, panko and twelve-roll version and 1–4 hour brine are present when this recipe was introduced.",
+    "repositoryLink": "https://github.com/jsilton/mise/blob/e07f66f8/src/content/recipes/crispy-baked-chicken-sliders.md"
+  },
+  "air": {
+    "type": "primary-publisher",
+    "dateRead": "2026-10-05",
+    "url": "https://www.delish.com/cooking/recipe-ideas/a32936658/air-fryer-chicken-tenders-recipe/",
+    "access": "full page via web open",
+    "confidence": "high for method family; saved honey quantity intentionally differs",
+    "claim": "Confirms flour/egg-buttermilk/panko breading, cooking spray and two-sided 400°F batch method. Current publisher has 2 tbsp honey while the supplied saved baseline has 3 tbsp. Retain the saved 3 tbsp. Its 60-minute total reinforces capacity dependence rather than proving the shorter Mise range.",
+    "applicability": "Air Fryer Chicken Tenders only; no universal air-fryer basket capacity or required warm-holding setup inferred."
+  },
+  "bread": {
+    "type": "primary-publisher",
+    "dateRead": "2026-10-05",
+    "url": "https://www.bettycrocker.com/recipes/oven-fried-chicken-tenders/46a69e4d-4c31-485b-9d43-67d40b353f2e",
+    "access": "full page via web open",
+    "confidence": "high for breading method; moderate for transferring time to existing variants",
+    "claim": "Supports flour/egg-water/panko-Parmesan sequence, oil spray, oven-safe rack approach, and a 15–20 minute 425°F starting range for tenders. Chicken Fingers retains its own quantities and seasonings. Slider cutlets retain their recorded 18–20 minute range. Publisher values are not used to infer crumb uptake or nutrition.",
+    "applicability": "Chicken Fingers and Crispy Baked Chicken Sliders coating method; does not establish the exact two-pound cutlet geometry, pickle-brine performance or twelve-slider dinner yield."
+  },
+  "garlic": {
+    "type": "primary-publisher",
+    "dateRead": "2026-10-05",
+    "url": "https://damndelicious.net/2016/05/08/chicken-potatoes-garlic-parmesan-cream-sauce/",
+    "access": "full page via web open",
+    "confidence": "high for recovered source quantities and dish method; adapted broth/cream interaction untested",
+    "claim": "Corroborates the independently recovered 2 tbsp searing butter, 1 tbsp spinach butter and 4 tbsp sauce butter; thyme, basil, parsley; 9-by-13-inch dish and 400°F bake checked at 25–30 minutes. Current publisher halves baby potatoes; committed saved original quarters them. Retain saved quartering. Existing 1.5 cups broth and cream-or-half-and-half choice remain explicit Mise adaptations, not described as the exact publisher formula.",
+    "applicability": "Bone-in skin-on six-thigh bake. Does not validate a 10-minute skillet finish, crisp potatoes submerged in sauce, fixed skillet capacity, or current nutritional estimate. Publisher claims about sealing juices are not adopted."
+  },
+  "glazed": {
+    "type": "primary-publisher",
+    "dateRead": "2026-10-05",
+    "url": "https://www.foodnetwork.com/recipes/food-network-kitchen/glazed-chicken-and-broccoli-sheet-pan-dinner-3543898",
+    "access": "direct publisher search result returned complete recipe; web open failed",
+    "confidence": "high for corroborating committed original method; ginger adaptation untested",
+    "claim": "The recovered original retains 450°F at both stages. Preserve current 165°F correction and ginger; source 160°F is rejected.",
+    "applicability": "Four drumsticks, halved fingerlings and staged broccoli. The 375°F edit in 2b01ffbb contradicts the saved source’s cooking regime, so the proposal explicitly replaces that edit with 450°F and a foil-shielding remedy for early glaze browning. No ideal glaze sugar concentration or pan dimensions inferred."
+  },
+  "endpoint": {
+    "type": "federal-food-safety",
+    "dateRead": "2026-10-05",
+    "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures",
+    "access": "full page via web open",
+    "confidence": "high",
+    "claim": "Poultry, casseroles and reheated leftovers require 165°F / 74°C under the home-cook guidance.",
+    "applicability": "All six recipes; thermometer checks away from bone or from the side for thin pieces. Never replace measurement with crumb color or promised carryover."
+  },
+  "cold": {
+    "type": "federal-food-safety",
+    "dateRead": "2026-10-05",
+    "url": "https://www.foodsafety.gov/food-safety-charts/cold-food-storage-charts",
+    "access": "full page via web open",
+    "confidence": "high",
+    "claim": "Cooked poultry leftovers: 3–4 days in a refrigerator at or below 40°F / 4°C.",
+    "applicability": "Cooked chicken; texture recommendations are recipe-specific editorial judgments, not federal safety claims."
+  },
+  "clean": {
+    "type": "federal-food-safety",
+    "dateRead": "2026-10-05",
+    "url": "https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety",
+    "access": "full page via web open",
+    "confidence": "high",
+    "claim": "Separate raw-contact utensils from ready-to-eat foods, avoid rinsing raw poultry, marinate refrigerated, promptly refrigerate perishables in shallow containers within two hours (one above 90°F).",
+    "applicability": "All six recipes; especially discarded dredges, separate sauce bowls, brine and glaze brushes."
+  },
+  "marinade": {
+    "type": "USDA-FSIS",
+    "dateRead": "2026-10-05",
+    "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/smoking-meat-and-poultry",
+    "access": "primary search result; full page 403",
+    "confidence": "high for refrigerator/raw-contact rules; no reliance on unread surrounding text",
+    "claim": "Marinate in the refrigerator and do not reuse raw-contact marinade on cooked food unless first boiled.",
+    "applicability": "Slider pickle brine is discarded. No acid-tenderizing guarantee or universal pickle-brine strength inferred."
+  }
+}

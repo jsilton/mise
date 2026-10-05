@@ -1,8 +1,14 @@
+# Complete editorial campaign — October 5, 2026
+
+Ten whole-recipe reviews have passed independent challenge and complete integration inspection locally. Current recorded coverage is 244 complete editorial reviews / 399 pending across 643 sources; zero kitchen tests. This is separate from the 42 accelerated targeted repairs already verified live. The ten new versions await final release checks and production verification.
+
+Three reviewers rotate through small, disjoint cooking families; one integration owner controls main, exports and publication. The original 409-source queue remains visible, including holds and accepted work, in [the campaign queue](editorial-campaign/2026-10-05/queue.json). See [first batch acceptance](editorial-campaign/2026-10-05/first-ten.md). Historical counts and release statements below retain their dated scope.
+
 # Dessert publication reconciliation — October 5, 2026
 
 The exact retained five-dessert source checkpoint landed as `f684c89f` during continuation validation. Pages run 37352573625 succeeded and all five affected live pages were checked. The accelerated pass now has 42 live targeted repairs, four narrow no-change dispositions and two holds. Complete editorial coverage remains 234 recorded / 409 pending; kitchen tests remain zero. This task did not publish that commit.
 
-One independently accepted peach machine-batching clarification and refreshed five-dessert JSON/text exports remain local, pending release approval. See [continuation release evidence](audits/2026-10-05/dessert-continuation.md). Older pending-publication statements below retain their historical scope.
+The independently accepted peach machine-batching clarification and refreshed five-dessert JSON/text exports were published as `e922e95e`; Pages run 37357883735 succeeded and affected live cooking text was verified. See [continuation release evidence](audits/2026-10-05/dessert-continuation.md). Older pending-publication statements below retain their historical scope.
 
 # Current coverage reconciliation — October 5, 2026
 

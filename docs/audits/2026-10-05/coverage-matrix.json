@@ -1,23 +1,23 @@
 {
   "summary": {
-    "inputCommit": "f684c89f9a5f82ddef2ad4e20a977aa002a5e629",
+    "inputCommit": "95b37f8bca5008657a668e52a1d970b1d03367d3",
     "recipes": 643,
-    "recordedCompleteEditorial": 234,
-    "completeEditorialPending": 409,
+    "recordedCompleteEditorial": 244,
+    "completeEditorialPending": 399,
     "originalBaseline": 612,
-    "originalReviewed": 228,
+    "originalReviewed": 237,
     "consideredConsolidations": 10,
-    "originalPending": 374,
+    "originalPending": 365,
     "additionalSources": 41,
-    "additionalReviewed": 6,
-    "additionalPending": 35,
+    "additionalReviewed": 7,
+    "additionalPending": 34,
     "automatedAudit": {
       "recipes": 643,
-      "editoriallyReviewed": 234,
+      "editoriallyReviewed": 244,
       "kitchenTested": 0,
       "errors": 0,
       "priorityReviews": 0,
-      "reviewItems": 752
+      "reviewItems": 737
     },
     "accelerated": {
       "implemented": 42,
@@ -27,7 +27,7 @@
     },
     "uniquePathsInSixRepairCommits": 105,
     "kitchenTested": 0,
-    "productionReconciliation": "Five desserts verified live; deployment 37352573625 succeeded. Earlier 37 retain handoff deployment evidence."
+    "productionReconciliation": "Accelerated42 targeted repairs verified live through e922e95e. Ten additional complete editorial reviews accepted locally; publication pending."
   },
   "collectionEvidence": [
     "docs/REVIEW_PROGRESS.md",
@@ -51,13 +51,7 @@
       "baseline": "addition",
       "source": "delish.com",
       "sourceUrl": "https://www.delish.com/cooking/recipe-ideas/a32936658/air-fryer-chicken-tenders-recipe/",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -65,19 +59,23 @@
         "evidence": ["docs/reviews/air-fryer-chicken-tenders.md"]
       },
       "completeEditorialReview": {
-        "status": "pending",
+        "status": "accepted editorial-review; local implementation pending commit",
         "record": "docs/reviews/air-fryer-chicken-tenders.md",
-        "recordImplementationCommit": "9faedba59b21bb230dcddd530489dc6e86d51bde"
+        "acceptedSha256": "4b6bb7b2dac09439a618c88805135713f0297f25c5af10fff5dbeef5aec5c3a2",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/first-ten.md"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted after independent challenge and complete root diff inspection",
+        "record": "docs/reviews/air-fryer-chicken-tenders.md",
+        "sourceSha256": "4b6bb7b2dac09439a618c88805135713f0297f25c5af10fff5dbeef5aec5c3a2"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending release verification; older live version is not the accepted editorial version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "No physical kitchen testing; recipe-specific questions and source disagreements remain in the linked review record."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -806,7 +804,7 @@
     {
       "currentPath": "src/content/recipes/babys-first-smash-cake.md",
       "slug": "babys-first-smash-cake",
-      "title": "Baby’s First Smash Cake",
+      "title": "Baby\u2019s First Smash Cake",
       "legacyAliases": [],
       "baseline": "original canonical",
       "source": "Adapted from fitmamarealfood.com",
@@ -872,7 +870,7 @@
         "evidence": ["docs/reviews/baked-chicken-and-broccoli.md"]
       },
       "completeEditorialReview": {
-        "status": "pending",
+        "status": "held; source ambiguity prevents acceptance",
         "record": "docs/reviews/baked-chicken-and-broccoli.md",
         "recordImplementationCommit": "9faedba59b21bb230dcddd530489dc6e86d51bde"
       },
@@ -883,8 +881,7 @@
         "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Held: family split-breast cut/count and pan fit require clarification; existing claims are not endorsed."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -1362,7 +1359,7 @@
     {
       "currentPath": "src/content/recipes/basic-crepes.md",
       "slug": "basic-crepes",
-      "title": "Basic Crêpes",
+      "title": "Basic Cr\u00eapes",
       "legacyAliases": [],
       "baseline": "addition",
       "source": "allrecipes.com",
@@ -1766,7 +1763,7 @@
       "title": "Brownies",
       "legacyAliases": [],
       "baseline": "original canonical",
-      "source": "Love and Lemons, adapted from Michelle Lopez’s Weeknight Baking",
+      "source": "Love and Lemons, adapted from Michelle Lopez\u2019s Weeknight Baking",
       "sourceUrl": "https://www.loveandlemons.com/brownies-recipe/",
       "automatedFlags": [
         {
@@ -2884,10 +2881,10 @@
     {
       "currentPath": "src/content/recipes/brown-butter-chocolate-souffle.md",
       "slug": "brown-butter-chocolate-souffle",
-      "title": "Brown Butter-Chocolate Soufflé",
+      "title": "Brown Butter-Chocolate Souffl\u00e9",
       "legacyAliases": [],
       "baseline": "original canonical",
-      "source": "Claire Ptak, Bon Appétit",
+      "source": "Claire Ptak, Bon App\u00e9tit",
       "sourceUrl": "https://www.bonappetit.com/recipe/brown-butter-chocolate-souffle",
       "automatedFlags": [],
       "targetedReview": {
@@ -3453,7 +3450,7 @@
       "title": "Caramelized Black Pepper Chicken",
       "legacyAliases": [],
       "baseline": "original canonical",
-      "source": "Adapted from Charles Phan’s caramelized black pepper chicken, demonstrated with Food52",
+      "source": "Adapted from Charles Phan\u2019s caramelized black pepper chicken, demonstrated with Food52",
       "sourceUrl": "https://www.youtube.com/watch?v=hq66lrLmih8",
       "automatedFlags": [],
       "targetedReview": {
@@ -4019,7 +4016,7 @@
     {
       "currentPath": "src/content/recipes/chef-krigers-recipe-shabbat-brisket.md",
       "slug": "chef-krigers-recipe-shabbat-brisket",
-      "title": "Chef Kriger’s Recipe Shabbat Brisket",
+      "title": "Chef Kriger\u2019s Recipe Shabbat Brisket",
       "legacyAliases": [],
       "baseline": "original canonical",
       "source": "Adapted from campmicah.com",
@@ -4429,18 +4426,7 @@
       "baseline": "original canonical",
       "source": "Adapted from Lisa Gwock",
       "sourceUrl": null,
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -4448,19 +4434,23 @@
         "evidence": ["docs/repairs/2026-09-15/changed-files.json"]
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
-        "recordImplementationCommit": null
+        "status": "accepted editorial-review; local implementation pending commit",
+        "record": "docs/reviews/chicken-fingers.md",
+        "acceptedSha256": "22a11c78c7b8dd7f603c2a2edf21e265bcc2bc017e98fbba4cad7c8fa13c9f46",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/first-ten.md"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted after independent challenge and complete root diff inspection",
+        "record": "docs/reviews/chicken-fingers.md",
+        "sourceSha256": "22a11c78c7b8dd7f603c2a2edf21e265bcc2bc017e98fbba4cad7c8fa13c9f46"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending release verification; older live version is not the accepted editorial version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "No physical kitchen testing; recipe-specific questions and source disagreements remain in the linked review record."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -4659,7 +4649,7 @@
     {
       "currentPath": "src/content/recipes/chicken-pho.md",
       "slug": "chicken-pho",
-      "title": "Phở Gà (Chicken Pho)",
+      "title": "Ph\u1edf G\u00e0 (Chicken Pho)",
       "legacyAliases": [],
       "baseline": "original canonical",
       "source": "Adapted from Foodandwine.com",
@@ -5995,11 +5985,6 @@
       "sourceUrl": "https://thepioneerwoman.com/cooking/chocolate-pie/",
       "automatedFlags": [
         {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
           "code": "nutrition-verification",
           "severity": "review",
           "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
@@ -6015,12 +6000,17 @@
         "evidence": ["docs/reviews/chocolate-pie-bounded-2026-10-05.md"]
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
-        "recordImplementationCommit": null
+        "status": "accepted editorial-review; local implementation pending commit",
+        "record": "docs/reviews/chocolate-pie.md",
+        "acceptedSha256": "e8cca9801a7a6081e6d0df9e206aa843c874b69da048a2425e16d03e34f1e478",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/first-ten.md"
       },
       "latestRecipeCommit": "f684c89f9a5f82ddef2ad4e20a977aa002a5e629",
-      "acceptedChange": "accepted accelerated targeted repair",
+      "acceptedChange": {
+        "status": "accepted after independent challenge and complete root diff inspection",
+        "record": "docs/reviews/chocolate-pie.md",
+        "sourceSha256": "e8cca9801a7a6081e6d0df9e206aa843c874b69da048a2425e16d03e34f1e478"
+      },
       "implementationCommits": [
         {
           "commit": "f684c89f9a5f82ddef2ad4e20a977aa002a5e629",
@@ -6029,14 +6019,10 @@
         }
       ],
       "productionVerification": {
-        "status": "exact deployment succeeded and live affected page verified in browser",
-        "commit": "f684c89f9a5f82ddef2ad4e20a977aa002a5e629",
-        "run": "https://github.com/jsilton/mise/actions/runs/37352573625"
+        "status": "pending release verification; older live version is not the accepted editorial version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck.",
-        "Actual cooling, machine capacity, yield and texture remain untested. Legacy method quantities remain original-batch quantities."
+        "No physical kitchen testing; recipe-specific questions and source disagreements remain in the linked review record."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -6089,7 +6075,7 @@
     {
       "currentPath": "src/content/recipes/chocolate-souffle.md",
       "slug": "chocolate-souffle",
-      "title": "Chocolate Soufflé",
+      "title": "Chocolate Souffl\u00e9",
       "legacyAliases": [],
       "baseline": "original canonical",
       "source": "Adapted from Epicurious.com",
@@ -7578,18 +7564,7 @@
       "baseline": "original canonical",
       "source": null,
       "sourceUrl": null,
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -7597,19 +7572,23 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
-        "recordImplementationCommit": null
+        "status": "accepted editorial-review; local implementation pending commit",
+        "record": "docs/reviews/crispy-baked-chicken-sliders.md",
+        "acceptedSha256": "912741de603e561e82688c03df0662fcc44a46e80e40258861cf03f73f63fd07",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/first-ten.md"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted after independent challenge and complete root diff inspection",
+        "record": "docs/reviews/crispy-baked-chicken-sliders.md",
+        "sourceSha256": "912741de603e561e82688c03df0662fcc44a46e80e40258861cf03f73f63fd07"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending release verification; older live version is not the accepted editorial version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "No physical kitchen testing; recipe-specific questions and source disagreements remain in the linked review record."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -8140,7 +8119,7 @@
     {
       "currentPath": "src/content/recipes/crustless-spinach-quiche.md",
       "slug": "crustless-spinach-quiche",
-      "title": "Crustless Spinach & Gruyère Quiche",
+      "title": "Crustless Spinach & Gruy\u00e8re Quiche",
       "legacyAliases": [],
       "baseline": "original canonical",
       "source": "Adapted from Rebecca Cybulsky",
@@ -8377,11 +8356,6 @@
       "sourceUrl": "https://houseofnasheats.com/old-fashioned-fresh-peach-ice-cream/",
       "automatedFlags": [
         {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
           "code": "nutrition-verification",
           "severity": "review",
           "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
@@ -8397,12 +8371,17 @@
         "evidence": ["docs/reviews/custard-peach-ice-cream-bounded-2026-10-05.md"]
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
-        "recordImplementationCommit": null
+        "status": "accepted editorial-review; local implementation pending commit",
+        "record": "docs/reviews/custard-peach-ice-cream.md",
+        "acceptedSha256": "1a718f9c36c3a77255116e7b052fdab30e685a4dbae2aee1c00ff6ad4059ca7d",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/first-ten.md"
       },
       "latestRecipeCommit": "e922e95ee275aee6289e7225914045d273154791",
-      "acceptedChange": "accepted accelerated targeted repair",
+      "acceptedChange": {
+        "status": "accepted after independent challenge and complete root diff inspection",
+        "record": "docs/reviews/custard-peach-ice-cream.md",
+        "sourceSha256": "1a718f9c36c3a77255116e7b052fdab30e685a4dbae2aee1c00ff6ad4059ca7d"
+      },
       "implementationCommits": [
         {
           "commit": "f684c89f9a5f82ddef2ad4e20a977aa002a5e629",
@@ -8416,14 +8395,10 @@
         }
       ],
       "productionVerification": {
-        "status": "follow-up exact deployment and live peach prose verified",
-        "commit": "e922e95ee275aee6289e7225914045d273154791",
-        "run": "https://github.com/jsilton/mise/actions/runs/37357883735"
+        "status": "pending release verification; older live version is not the accepted editorial version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck.",
-        "Actual cooling, machine capacity, yield and texture remain untested. Legacy method quantities remain original-batch quantities."
+        "No physical kitchen testing; recipe-specific questions and source disagreements remain in the linked review record."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -8571,7 +8546,7 @@
     {
       "currentPath": "src/content/recipes/doc-cheys-chicken-lo-mein.md",
       "slug": "doc-cheys-chicken-lo-mein",
-      "title": "Doc Chey’s Chicken Lo Mein",
+      "title": "Doc Chey\u2019s Chicken Lo Mein",
       "legacyAliases": [],
       "baseline": "addition",
       "source": "ajc.com",
@@ -11028,18 +11003,7 @@
       "baseline": "original canonical",
       "source": "Adapted from Damndelicious.net",
       "sourceUrl": "http://damndelicious.net/2016/05/08/chicken-potatoes-garlic-parmesan-cream-sauce/print/",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -11047,12 +11011,17 @@
         "evidence": ["docs/reviews/source-restorations-2026-10-05.md"]
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
-        "recordImplementationCommit": null
+        "status": "accepted editorial-review; local implementation pending commit",
+        "record": "docs/reviews/garlic-parmesan-chicken-potatoes.md",
+        "acceptedSha256": "d7b1f162ec0795839b79d9598b3483008616fca5da76a336d03377412675b9e9",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/first-ten.md"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": "historical implemented diff; acceptance scope requires linked record, not inferred from file touch",
+      "acceptedChange": {
+        "status": "accepted after independent challenge and complete root diff inspection",
+        "record": "docs/reviews/garlic-parmesan-chicken-potatoes.md",
+        "sourceSha256": "d7b1f162ec0795839b79d9598b3483008616fca5da76a336d03377412675b9e9"
+      },
       "implementationCommits": [
         {
           "commit": "493885bb88fa96b1ab626b20a5c8ec78830f9145",
@@ -11061,11 +11030,10 @@
         }
       ],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending release verification; older live version is not the accepted editorial version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "No physical kitchen testing; recipe-specific questions and source disagreements remain in the linked review record."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -11493,18 +11461,7 @@
       "baseline": "original canonical",
       "source": "Adapted from Foodnetwork.com",
       "sourceUrl": "https://www.foodnetwork.com/recipes/food-network-kitchen/glazed-chicken-and-broccoli-sheet-pan-dinner-3543898",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -11512,19 +11469,23 @@
         "evidence": ["docs/repairs/2026-09-15/changed-files.json"]
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
-        "recordImplementationCommit": null
+        "status": "accepted editorial-review; local implementation pending commit",
+        "record": "docs/reviews/glazed-chicken-and-broccoli-sheet-pan-dinner.md",
+        "acceptedSha256": "f21b4074c11c013db6a8b1f3d34b0e9663aab54bfbecd4c83bae7202846f4c13",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/first-ten.md"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted after independent challenge and complete root diff inspection",
+        "record": "docs/reviews/glazed-chicken-and-broccoli-sheet-pan-dinner.md",
+        "sourceSha256": "f21b4074c11c013db6a8b1f3d34b0e9663aab54bfbecd4c83bae7202846f4c13"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending release verification; older live version is not the accepted editorial version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "No physical kitchen testing; recipe-specific questions and source disagreements remain in the linked review record."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -11721,7 +11682,7 @@
     {
       "currentPath": "src/content/recipes/grandmommys-pecan-pie.md",
       "slug": "grandmommys-pecan-pie",
-      "title": "Grandmommy’s Pecan Pie",
+      "title": "Grandmommy\u2019s Pecan Pie",
       "legacyAliases": [],
       "baseline": "original canonical",
       "source": "Adapted from Miriam Hamilton",
@@ -11771,7 +11732,7 @@
     {
       "currentPath": "src/content/recipes/grandmommys-pound-cake.md",
       "slug": "grandmommys-pound-cake",
-      "title": "Grandmommy’s Pound Cake",
+      "title": "Grandmommy\u2019s Pound Cake",
       "legacyAliases": [],
       "baseline": "original canonical",
       "source": "Adapted from Miriam Hamilton",
@@ -11821,7 +11782,7 @@
     {
       "currentPath": "src/content/recipes/grandmommys-turkey-dressing.md",
       "slug": "grandmommys-turkey-dressing",
-      "title": "Grandmommy’s Turkey Dressing",
+      "title": "Grandmommy\u2019s Turkey Dressing",
       "legacyAliases": [],
       "baseline": "original canonical",
       "source": "Grandmommy",
@@ -13264,7 +13225,7 @@
       "title": "Homemade Pizza Night",
       "legacyAliases": [],
       "baseline": "original canonical",
-      "source": "Dough adapted from Jim Lahey, published by J. Kenji López-Alt in Serious Eats",
+      "source": "Dough adapted from Jim Lahey, published by J. Kenji L\u00f3pez-Alt in Serious Eats",
       "sourceUrl": "https://www.seriouseats.com/jim-laheys-no-knead-pizza-dough-recipe",
       "automatedFlags": [],
       "targetedReview": {
@@ -14600,7 +14561,7 @@
     {
       "currentPath": "src/content/recipes/katharine-hepburns-brownies.md",
       "slug": "katharine-hepburns-brownies",
-      "title": "Katharine Hepburn’s Brownies",
+      "title": "Katharine Hepburn\u2019s Brownies",
       "legacyAliases": [],
       "baseline": "original canonical",
       "source": "Adapted from Cooking.nytimes.com",
@@ -14796,11 +14757,6 @@
       "sourceUrl": "http://www.epicurious.com/recipes/food/views/key-lime-pie-108125",
       "automatedFlags": [
         {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
           "code": "nutrition-verification",
           "severity": "review",
           "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
@@ -14816,12 +14772,17 @@
         "evidence": ["docs/reviews/key-lime-pie-bounded-2026-10-05.md"]
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
-        "recordImplementationCommit": null
+        "status": "accepted editorial-review; local implementation pending commit",
+        "record": "docs/reviews/key-lime-pie.md",
+        "acceptedSha256": "1e0ef712c72ff5e4ed9fb3f7c27eae65043a691fa8c5ba0dd1cbcb33ddef1965",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/first-ten.md"
       },
       "latestRecipeCommit": "f684c89f9a5f82ddef2ad4e20a977aa002a5e629",
-      "acceptedChange": "accepted accelerated targeted repair",
+      "acceptedChange": {
+        "status": "accepted after independent challenge and complete root diff inspection",
+        "record": "docs/reviews/key-lime-pie.md",
+        "sourceSha256": "1e0ef712c72ff5e4ed9fb3f7c27eae65043a691fa8c5ba0dd1cbcb33ddef1965"
+      },
       "implementationCommits": [
         {
           "commit": "a2c9e28069faa57c7bb7fe4ac5e7ca02b6462861",
@@ -14835,14 +14796,10 @@
         }
       ],
       "productionVerification": {
-        "status": "exact deployment succeeded and live affected page verified in browser",
-        "commit": "f684c89f9a5f82ddef2ad4e20a977aa002a5e629",
-        "run": "https://github.com/jsilton/mise/actions/runs/37352573625"
+        "status": "pending release verification; older live version is not the accepted editorial version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck.",
-        "Actual cooling, machine capacity, yield and texture remain untested. Legacy method quantities remain original-batch quantities."
+        "No physical kitchen testing; recipe-specific questions and source disagreements remain in the linked review record."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -16547,7 +16504,7 @@
       "title": "Mint Tzatziki with Honey",
       "legacyAliases": [],
       "baseline": "addition",
-      "source": "Adapted from Food & Wine’s Greek-Style Lamb Burgers with Yogurt-Cucumber Sauce",
+      "source": "Adapted from Food & Wine\u2019s Greek-Style Lamb Burgers with Yogurt-Cucumber Sauce",
       "sourceUrl": "https://www.foodandwine.com/recipes/greek-style-lamb-burgers-with-yogurt-cucumber-sauce",
       "automatedFlags": [],
       "targetedReview": {
@@ -16580,7 +16537,7 @@
     {
       "currentPath": "src/content/recipes/miriams-melt-in-your-mouth-rosh-hashanah-brisket.md",
       "slug": "miriams-melt-in-your-mouth-rosh-hashanah-brisket",
-      "title": "Miriam’s Melt-In-Your-Mouth Rosh Hashanah Brisket",
+      "title": "Miriam\u2019s Melt-In-Your-Mouth Rosh Hashanah Brisket",
       "legacyAliases": [],
       "baseline": "original canonical",
       "source": "Adapted from Chabad.org",
@@ -16941,7 +16898,7 @@
     {
       "currentPath": "src/content/recipes/mommas-healthy-meatloaf.md",
       "slug": "mommas-healthy-meatloaf",
-      "title": "Momma’s Turkey and Vegetable Meatloaf",
+      "title": "Momma\u2019s Turkey and Vegetable Meatloaf",
       "legacyAliases": [],
       "baseline": "original canonical",
       "source": "Adapted from Allrecipes.com",
@@ -17269,7 +17226,7 @@
     {
       "currentPath": "src/content/recipes/nana-ruths-applesauce.md",
       "slug": "nana-ruths-applesauce",
-      "title": "Nana Ruth’s Applesauce",
+      "title": "Nana Ruth\u2019s Applesauce",
       "legacyAliases": [],
       "baseline": "original canonical",
       "source": "Adapted from Ruth Shankman",
@@ -17316,7 +17273,7 @@
     {
       "currentPath": "src/content/recipes/nanas-biscuits.md",
       "slug": "nanas-biscuits",
-      "title": "Nana’s Biscuits",
+      "title": "Nana\u2019s Biscuits",
       "legacyAliases": [],
       "baseline": "original canonical",
       "source": null,
@@ -17664,11 +17621,6 @@
       "sourceUrl": "https://addapinch.com/old-fashioned-vanilla-ice-cream-recipe/",
       "automatedFlags": [
         {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
           "code": "nutrition-verification",
           "severity": "review",
           "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
@@ -17684,12 +17636,17 @@
         "evidence": ["docs/reviews/old-fashioned-vanilla-ice-cream-bounded-2026-10-05.md"]
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
-        "recordImplementationCommit": null
+        "status": "accepted editorial-review; local implementation pending commit",
+        "record": "docs/reviews/old-fashioned-vanilla-ice-cream.md",
+        "acceptedSha256": "fc58b826d21d263c4c5336a72e1c48caba7ed6bad82e9cc1f3949d47f40c876d",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/first-ten.md"
       },
       "latestRecipeCommit": "f684c89f9a5f82ddef2ad4e20a977aa002a5e629",
-      "acceptedChange": "accepted accelerated targeted repair",
+      "acceptedChange": {
+        "status": "accepted after independent challenge and complete root diff inspection",
+        "record": "docs/reviews/old-fashioned-vanilla-ice-cream.md",
+        "sourceSha256": "fc58b826d21d263c4c5336a72e1c48caba7ed6bad82e9cc1f3949d47f40c876d"
+      },
       "implementationCommits": [
         {
           "commit": "f684c89f9a5f82ddef2ad4e20a977aa002a5e629",
@@ -17698,14 +17655,10 @@
         }
       ],
       "productionVerification": {
-        "status": "exact deployment succeeded and live affected page verified in browser",
-        "commit": "f684c89f9a5f82ddef2ad4e20a977aa002a5e629",
-        "run": "https://github.com/jsilton/mise/actions/runs/37352573625"
+        "status": "pending release verification; older live version is not the accepted editorial version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck.",
-        "Actual cooling, machine capacity, yield and texture remain untested. Legacy method quantities remain original-batch quantities."
+        "No physical kitchen testing; recipe-specific questions and source disagreements remain in the linked review record."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -18384,7 +18337,7 @@
     {
       "currentPath": "src/content/recipes/parishs-blueberry-crisp.md",
       "slug": "parishs-blueberry-crisp",
-      "title": "Parish’s Blueberry Crisp",
+      "title": "Parish\u2019s Blueberry Crisp",
       "legacyAliases": [],
       "baseline": "original canonical",
       "source": "Adapted from Parish",
@@ -19960,7 +19913,7 @@
     {
       "currentPath": "src/content/recipes/quick-lamb-ragu.md",
       "slug": "quick-lamb-ragu",
-      "title": "Lamb Ragù",
+      "title": "Lamb Rag\u00f9",
       "legacyAliases": [],
       "baseline": "original canonical",
       "source": "Adapted from cooking.nytimes.com",
@@ -20014,7 +19967,7 @@
       "title": "Do Chua (Pickled Carrots and Daikon)",
       "legacyAliases": [],
       "baseline": "original canonical",
-      "source": "Technique adapted from Andrea Nguyen’s daikon and carrot pickle",
+      "source": "Technique adapted from Andrea Nguyen\u2019s daikon and carrot pickle",
       "sourceUrl": "https://www.vietworldkitchen.com/blog/2009/05/daikon-and-carrot-pickle-recipe-do-chua.html",
       "automatedFlags": [],
       "targetedReview": {
@@ -22876,7 +22829,7 @@
       "title": "Shrimp and Grits",
       "legacyAliases": [],
       "baseline": "original canonical",
-      "source": "Adapted from Bobby Flay’s Shrimp and Grits at Food Network",
+      "source": "Adapted from Bobby Flay\u2019s Shrimp and Grits at Food Network",
       "sourceUrl": "https://www.foodnetwork.com/recipes/bobby-flay/shrimp-and-grits-recipe-1911862",
       "automatedFlags": [],
       "targetedReview": {
@@ -23167,7 +23120,7 @@
       "title": "Shrimp Scampi with Linguini",
       "legacyAliases": [],
       "baseline": "original canonical",
-      "source": "Adapted from Bon Appétit, Shrimp Scampi",
+      "source": "Adapted from Bon App\u00e9tit, Shrimp Scampi",
       "sourceUrl": "https://www.bonappetit.com/recipe/shrimp-scampi",
       "automatedFlags": [],
       "targetedReview": {
@@ -23785,7 +23738,7 @@
     {
       "currentPath": "src/content/recipes/slow-cooker-general-tsos-chicken.md",
       "slug": "slow-cooker-general-tsos-chicken",
-      "title": "Slow-Cooker General Tso–Style Chicken",
+      "title": "Slow-Cooker General Tso\u2013Style Chicken",
       "legacyAliases": [],
       "baseline": "original canonical",
       "source": "Adapted from lecremedelacrumb.com",
@@ -24752,7 +24705,7 @@
     {
       "currentPath": "src/content/recipes/spiced-butternut-squash-puree.md",
       "slug": "spiced-butternut-squash-puree",
-      "title": "Butternut Squash Purée",
+      "title": "Butternut Squash Pur\u00e9e",
       "legacyAliases": [],
       "baseline": "original canonical",
       "source": "Adapted from Silton Family",
@@ -24874,7 +24827,7 @@
       "title": "Thai Red Curry Beef",
       "legacyAliases": [],
       "baseline": "original canonical",
-      "source": "Adapted from MyRecipes, “Spicy Thai Red Curry Beef”",
+      "source": "Adapted from MyRecipes, \u201cSpicy Thai Red Curry Beef\u201d",
       "sourceUrl": "http://www.myrecipes.com/recipe/spicy-thai-red-curry-beef",
       "automatedFlags": [],
       "targetedReview": {
@@ -25383,7 +25336,7 @@
     {
       "currentPath": "src/content/recipes/stevens-margs.md",
       "slug": "stevens-margs",
-      "title": "Steven’s Margaritas",
+      "title": "Steven\u2019s Margaritas",
       "legacyAliases": [],
       "baseline": "original canonical",
       "source": null,
@@ -25905,18 +25858,7 @@
       "baseline": "original canonical",
       "source": "Adapted from smittenkitchen.com",
       "sourceUrl": "https://smittenkitchen.com/2011/05/strawberry-summer-cake/",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": "published targeted repair",
         "acceleratedEvidence": {
@@ -25927,12 +25869,17 @@
         "evidence": ["docs/reviews/strawberry-summer-cake-bounded-2026-10-05.md"]
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
-        "recordImplementationCommit": null
+        "status": "accepted editorial-review; local implementation pending commit",
+        "record": "docs/reviews/strawberry-summer-cake.md",
+        "acceptedSha256": "a1fb990915e7a55af9ab1f5f02bc90fecd04d96a82c4c9c849aa0e876fed19de",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/first-ten.md"
       },
       "latestRecipeCommit": "f684c89f9a5f82ddef2ad4e20a977aa002a5e629",
-      "acceptedChange": "accepted accelerated targeted repair",
+      "acceptedChange": {
+        "status": "accepted after independent challenge and complete root diff inspection",
+        "record": "docs/reviews/strawberry-summer-cake.md",
+        "sourceSha256": "a1fb990915e7a55af9ab1f5f02bc90fecd04d96a82c4c9c849aa0e876fed19de"
+      },
       "implementationCommits": [
         {
           "commit": "f684c89f9a5f82ddef2ad4e20a977aa002a5e629",
@@ -25941,14 +25888,10 @@
         }
       ],
       "productionVerification": {
-        "status": "exact deployment succeeded and live affected page verified in browser",
-        "commit": "f684c89f9a5f82ddef2ad4e20a977aa002a5e629",
-        "run": "https://github.com/jsilton/mise/actions/runs/37352573625"
+        "status": "pending release verification; older live version is not the accepted editorial version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck.",
-        "Actual cooling, machine capacity, yield and texture remain untested. Legacy method quantities remain original-batch quantities."
+        "No physical kitchen testing; recipe-specific questions and source disagreements remain in the linked review record."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -28071,7 +28014,7 @@
     {
       "currentPath": "src/content/recipes/vieux-carre.md",
       "slug": "vieux-carre",
-      "title": "Vieux Carré",
+      "title": "Vieux Carr\u00e9",
       "legacyAliases": [],
       "baseline": "original canonical",
       "source": null,

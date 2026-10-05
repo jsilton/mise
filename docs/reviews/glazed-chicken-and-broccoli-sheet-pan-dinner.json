@@ -1,0 +1,927 @@
+{
+  "slug": "glazed-chicken-and-broccoli-sheet-pan-dinner",
+  "inputCommit": "e922e95ee275aee6289e7225914045d273154791",
+  "inputSha256": "d4c2b3b015b7ba452a9648672cdd837b6ca0304e6ab68573336a7b8c1bf55202",
+  "status": "accepted-editorial-review; production verification pending",
+  "reviewDate": "2026-10-05",
+  "notKitchenTested": true,
+  "findings": [
+    {
+      "category": "staged-temperature conflict",
+      "before": "Reduce heat to 375°F; another20-25 minutes; broccoli charred",
+      "after": "Return to 450°F; another20–25 minutes as first check; loosely shield darkening glaze with foil",
+      "rationale": "Committed source and primary publisher agree on sustained450°F. The later 2b01ffbb repair lowered the second stage while retaining high-temperature roasting cues/timing. Replace that specific repair explicitly, while retaining the165°F correction, original3tbsp oil division and current ginger adaptation.",
+      "evidence": ["saved", "glazed", "endpoint"],
+      "confidence": "high for discrepancy; moderate for ginger/glaze behavior",
+      "question": null
+    },
+    {
+      "category": "lining constraint",
+      "before": "Line a rimmed sheet pan with parchment.",
+      "after": "foil, or parchment rated by its manufacturer for450°F",
+      "rationale": "Parchment temperature ratings vary. Do not assume every supplied sheet supports450°F. Foil is an editorial equipment option, not an additional edible ingredient.",
+      "evidence": ["input original", "editorial equipment constraint"],
+      "confidence": "high",
+      "question": null
+    },
+    {
+      "category": "ingredient allocation",
+      "before": "3 tbsp extra-virgin olive oil (divided);1 tbsp potatoes,2 tbsp broccoli",
+      "after": "formula allocations1/3 first stage and2/3 broccoli stage",
+      "rationale": "Preserve the exact original oil division; share ratios compile consistently at half and double quantities. Seasonings remain separate allowances by destination.",
+      "evidence": ["input original", "saved"],
+      "confidence": "high",
+      "question": null
+    },
+    {
+      "category": "raw-contact glaze",
+      "before": "brush all sides of partly cooked chicken; extra pan juices over potatoes",
+      "after": "thin even glaze; discard raw-contact brush-bowl remainder; clean utensils for finished vegetables",
+      "rationale": "Closes the reusable-glaze hazard; the full cooking step keeps the poultry endpoint. Scorched pan patches are left behind rather than advertised as flavor.",
+      "evidence": ["clean", "endpoint", "input original"],
+      "confidence": "high",
+      "question": null
+    },
+    {
+      "category": "origin/claims",
+      "before": "cuisines: Chinese; origin: China; broccoli steams from chicken juices; sheet-pan popularity in2010s",
+      "after": "American/Japanese style tags; origin removed; staged roasting and spacing explained",
+      "rationale": "Teriyaki naming is Japanese influence; this American publisher sheet-pan dinner has no established Chinese provenance. No decade-of-popularity or desired-steaming claim is needed to cook it.",
+      "evidence": ["input original", "saved", "editorial inference"],
+      "confidence": "moderate",
+      "question": null
+    },
+    {
+      "category": "timing",
+      "before": "15 min prep+45 min cook=60 min; Serve immediately.",
+      "after": "15 min prep+40–45 min roast+5 min rest=60–65 min",
+      "rationale": "The explicit rest and finish-as-needed checks are included; heat and time do not multiply when quantities scale.",
+      "evidence": ["saved", "input original", "editorial process accounting"],
+      "confidence": "moderate",
+      "question": null
+    },
+    {
+      "category": "nutrition",
+      "before": "Legacy475calories and remaining estimates",
+      "after": "nutrition removed; no replacement",
+      "rationale": "Chicken sizes, glaze composition and exact broccoli yield are unmeasured; no replacement nutrient estimate is supported.",
+      "evidence": ["recipe standard", "input original"],
+      "confidence": "high",
+      "question": null
+    },
+    {
+      "category": "early vegetable removal safety",
+      "before": "No separate finish-order route in the original.",
+      "after": "If vegetables sharing the chicken pan finish first, check that they have reached 165°F / 74°C after contact with chicken juices before transferring them with clean utensils to a clean dish.",
+      "rationale": "Clean removal utensils alone cannot make vegetables safe after raw-chicken juice contact; the proposal distinguishes same-pan temperature checks from a separate no-contact pan.",
+      "evidence": ["endpoint", "clean", "root independent challenge"],
+      "confidence": "high",
+      "question": null
+    }
+  ],
+  "originalIngredientLedger": [
+    {
+      "originalIngredient": "4 Chicken Drumsticks, skin-on",
+      "quantityAndPreparation": "preserved verbatim in originalIngredient; no missing amount inferred",
+      "destinationAssessment": "Retain four drumsticks,3/4 lb fingerlings,one broccoli head,3 tbsp oil,2 tbsp teriyaki glaze and1 tsp grated ginger. Salt and pepper remain unmeasured but now have separate potato/broccoli destinations. Oil shares sum exactly to one, preserving1tbsp/2tbsp in the original batch. No chicken weight, broccoli cups, pan dimensions or glaze strength were imported from the publisher as fixed new measurements."
+    },
+    {
+      "originalIngredient": "3/4 lb Fingerling Potatoes, halved",
+      "quantityAndPreparation": "preserved verbatim in originalIngredient; no missing amount inferred",
+      "destinationAssessment": "Retain four drumsticks,3/4 lb fingerlings,one broccoli head,3 tbsp oil,2 tbsp teriyaki glaze and1 tsp grated ginger. Salt and pepper remain unmeasured but now have separate potato/broccoli destinations. Oil shares sum exactly to one, preserving1tbsp/2tbsp in the original batch. No chicken weight, broccoli cups, pan dimensions or glaze strength were imported from the publisher as fixed new measurements."
+    },
+    {
+      "originalIngredient": "1 head Broccoli, cut into small florets",
+      "quantityAndPreparation": "preserved verbatim in originalIngredient; no missing amount inferred",
+      "destinationAssessment": "Retain four drumsticks,3/4 lb fingerlings,one broccoli head,3 tbsp oil,2 tbsp teriyaki glaze and1 tsp grated ginger. Salt and pepper remain unmeasured but now have separate potato/broccoli destinations. Oil shares sum exactly to one, preserving1tbsp/2tbsp in the original batch. No chicken weight, broccoli cups, pan dimensions or glaze strength were imported from the publisher as fixed new measurements."
+    },
+    {
+      "originalIngredient": "3 tbsp Extra-Virgin Olive Oil (divided)",
+      "quantityAndPreparation": "preserved verbatim in originalIngredient; no missing amount inferred",
+      "destinationAssessment": "Retain four drumsticks,3/4 lb fingerlings,one broccoli head,3 tbsp oil,2 tbsp teriyaki glaze and1 tsp grated ginger. Salt and pepper remain unmeasured but now have separate potato/broccoli destinations. Oil shares sum exactly to one, preserving1tbsp/2tbsp in the original batch. No chicken weight, broccoli cups, pan dimensions or glaze strength were imported from the publisher as fixed new measurements."
+    },
+    {
+      "originalIngredient": "2 tbsp Teriyaki Glaze (Scratch or high-quality store bought)",
+      "quantityAndPreparation": "preserved verbatim in originalIngredient; no missing amount inferred",
+      "destinationAssessment": "Retain four drumsticks,3/4 lb fingerlings,one broccoli head,3 tbsp oil,2 tbsp teriyaki glaze and1 tsp grated ginger. Salt and pepper remain unmeasured but now have separate potato/broccoli destinations. Oil shares sum exactly to one, preserving1tbsp/2tbsp in the original batch. No chicken weight, broccoli cups, pan dimensions or glaze strength were imported from the publisher as fixed new measurements."
+    },
+    {
+      "originalIngredient": "1 tsp Fresh Ginger, grated (The Finishing Touch)",
+      "quantityAndPreparation": "preserved verbatim in originalIngredient; no missing amount inferred",
+      "destinationAssessment": "Retain four drumsticks,3/4 lb fingerlings,one broccoli head,3 tbsp oil,2 tbsp teriyaki glaze and1 tsp grated ginger. Salt and pepper remain unmeasured but now have separate potato/broccoli destinations. Oil shares sum exactly to one, preserving1tbsp/2tbsp in the original batch. No chicken weight, broccoli cups, pan dimensions or glaze strength were imported from the publisher as fixed new measurements."
+    },
+    {
+      "originalIngredient": "Salt and Black Pepper",
+      "quantityAndPreparation": "preserved verbatim in originalIngredient; no missing amount inferred",
+      "destinationAssessment": "Retain four drumsticks,3/4 lb fingerlings,one broccoli head,3 tbsp oil,2 tbsp teriyaki glaze and1 tsp grated ginger. Salt and pepper remain unmeasured but now have separate potato/broccoli destinations. Oil shares sum exactly to one, preserving1tbsp/2tbsp in the original batch. No chicken weight, broccoli cups, pan dimensions or glaze strength were imported from the publisher as fixed new measurements."
+    }
+  ],
+  "ingredientLedger": [
+    {
+      "ingredient": "pan.chicken",
+      "name": "skin-on chicken drumstick",
+      "quantity": {
+        "amount": 4,
+        "unit": "count"
+      },
+      "allowance": null,
+      "preparation": null,
+      "role": "ingredient",
+      "optional": false,
+      "destinations": [
+        {
+          "step": "first",
+          "share": 1
+        }
+      ],
+      "allocation": "exactly one; no invented split"
+    },
+    {
+      "ingredient": "pan.potatoes",
+      "name": "fingerling potatoes",
+      "quantity": {
+        "amount": "3/4",
+        "unit": "lb"
+      },
+      "allowance": null,
+      "preparation": "halved lengthwise",
+      "role": "ingredient",
+      "optional": false,
+      "destinations": [
+        {
+          "step": "first",
+          "share": 1
+        }
+      ],
+      "allocation": "exactly one; no invented split"
+    },
+    {
+      "ingredient": "pan.oil",
+      "name": "extra-virgin olive oil",
+      "quantity": {
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      "allowance": null,
+      "preparation": null,
+      "role": "ingredient",
+      "optional": false,
+      "destinations": [
+        {
+          "step": "first",
+          "share": "1/3"
+        },
+        {
+          "step": "broccoli",
+          "share": "2/3"
+        }
+      ],
+      "allocation": "exactly one; no invented split"
+    },
+    {
+      "ingredient": "pan.potato-salt",
+      "name": "salt",
+      "quantity": null,
+      "allowance": "to taste for potatoes",
+      "preparation": null,
+      "role": "ingredient",
+      "optional": false,
+      "destinations": [
+        {
+          "step": "first",
+          "share": 1
+        }
+      ],
+      "allocation": "exactly one; no invented split"
+    },
+    {
+      "ingredient": "pan.potato-pepper",
+      "name": "black pepper",
+      "quantity": null,
+      "allowance": "to taste for potatoes",
+      "preparation": null,
+      "role": "ingredient",
+      "optional": false,
+      "destinations": [
+        {
+          "step": "first",
+          "share": 1
+        }
+      ],
+      "allocation": "exactly one; no invented split"
+    },
+    {
+      "ingredient": "pan.broccoli",
+      "name": "broccoli head",
+      "quantity": {
+        "amount": 1,
+        "unit": "count"
+      },
+      "allowance": null,
+      "preparation": "cut into small florets",
+      "role": "ingredient",
+      "optional": false,
+      "destinations": [
+        {
+          "step": "broccoli",
+          "share": 1
+        }
+      ],
+      "allocation": "exactly one; no invented split"
+    },
+    {
+      "ingredient": "pan.broccoli-salt",
+      "name": "salt",
+      "quantity": null,
+      "allowance": "to taste for broccoli",
+      "preparation": null,
+      "role": "ingredient",
+      "optional": false,
+      "destinations": [
+        {
+          "step": "broccoli",
+          "share": 1
+        }
+      ],
+      "allocation": "exactly one; no invented split"
+    },
+    {
+      "ingredient": "pan.broccoli-pepper",
+      "name": "black pepper",
+      "quantity": null,
+      "allowance": "to taste for broccoli",
+      "preparation": null,
+      "role": "ingredient",
+      "optional": false,
+      "destinations": [
+        {
+          "step": "broccoli",
+          "share": 1
+        }
+      ],
+      "allocation": "exactly one; no invented split"
+    },
+    {
+      "ingredient": "glaze.teriyaki",
+      "name": "teriyaki glaze",
+      "quantity": {
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      "allowance": null,
+      "preparation": "thick purchased glaze or prepared homemade glaze",
+      "role": "ingredient",
+      "optional": false,
+      "destinations": [
+        {
+          "step": "glaze",
+          "share": 1
+        }
+      ],
+      "allocation": "exactly one; no invented split"
+    },
+    {
+      "ingredient": "glaze.ginger",
+      "name": "fresh ginger",
+      "quantity": {
+        "amount": 1,
+        "unit": "tsp"
+      },
+      "allowance": null,
+      "preparation": "grated",
+      "role": "ingredient",
+      "optional": false,
+      "destinations": [
+        {
+          "step": "glaze",
+          "share": 1
+        }
+      ],
+      "allocation": "exactly one; no invented split"
+    }
+  ],
+  "ingredientAssessment": "Retain four drumsticks,3/4 lb fingerlings,one broccoli head,3 tbsp oil,2 tbsp teriyaki glaze and1 tsp grated ginger. Salt and pepper remain unmeasured but now have separate potato/broccoli destinations. Oil shares sum exactly to one, preserving1tbsp/2tbsp in the original batch. No chicken weight, broccoli cups, pan dimensions or glaze strength were imported from the publisher as fixed new measurements.",
+  "processGraph": "450°F lined pan → spaced drumsticks/potatoes20min → broccoli with remaining oil → ginger-glaze brush → same450°F20–25min and measured centers → remove ready components separately only after vegetables sharing chicken juices also reach165°F (or from a separate no-contact pan) → five-minute rest → two plates. Keep raw-contact glaze utensils away from ready-to-eat food. Pan expansion changes schedule, not oven temperature arithmetic.",
+  "ratioYieldCapacity": "Saved yield remains two portions with two drumsticks each; no finished weight promised. Four chicken pieces/3/4lb potatoes/a broccoli head can crowd a small unspecified pan, so second-pan route is explicit. Thick glaze is required; watery teriyaki marinade is not an interchangeable coating. Ginger remains the prior adaptation, so its flavor and scorching behavior are not claimed as publisher-tested.",
+  "relationships": "No composed meal directly references this slug. Existing basmati-rice and arugula-salad suggestions resolve; rice is optional because potatoes already provide starch. Preserve this complete chicken-potato-broccoli dish separately from the mushroom-soup family casserole.",
+  "fourLensReview": "Practicality: staged oven cooking with concurrent broccoli/glaze preparation. Cultural context: no unsupported Chinese origin or popularity history. Technique: preserved oil allocation, source heat regime and independent center/tenderness checks. Flavor: ginger-teriyaki glaze retained; thin application and avoidance of scorched sauce improve bitter-sweet balance.",
+  "kitchenQuestions": [
+    "Record drumstick dimensions, pan capacity and need for a second pan; validate the two-stage450°F timing to165°F.",
+    "Compare glaze brands or homemade thickness/sugar and the retained ginger; confirm shielding remedy and char without burned puddles.",
+    "Measure active/elapsed timing, five-minute rest and broccoli/potato finish order in the intended oven."
+  ],
+  "changedFields": [
+    {
+      "field": "cookingMethods",
+      "before": ["bake", "roast", "steam"],
+      "after": ["roast"]
+    },
+    {
+      "field": "cuisines",
+      "before": ["Chinese"],
+      "after": ["American", "Japanese"]
+    },
+    {
+      "field": "cookTime",
+      "before": "45 min",
+      "after": "40–45 min"
+    },
+    {
+      "field": "totalTime",
+      "before": "60 min",
+      "after": "60–65 min"
+    },
+    {
+      "field": "servings",
+      "before": "2",
+      "after": "2 portions"
+    },
+    {
+      "field": "equipment",
+      "before": ["sheet-pan"],
+      "after": ["large-rimmed-sheet-pan", "instant-read-thermometer"]
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "4 Chicken Drumsticks, skin-on",
+        "3/4 lb Fingerling Potatoes, halved",
+        "1 head Broccoli, cut into small florets",
+        "3 tbsp Extra-Virgin Olive Oil (divided)",
+        "2 tbsp Teriyaki Glaze (Scratch or high-quality store bought)",
+        "1 tsp Fresh Ginger, grated (The Finishing Touch)",
+        "Salt and Black Pepper"
+      ],
+      "after": [
+        "--- Chicken and vegetables ---",
+        "4 skin-on chicken drumsticks",
+        "3/4 lb fingerling potatoes, halved lengthwise",
+        "3 tbsp extra-virgin olive oil",
+        "salt, to taste for potatoes",
+        "black pepper, to taste for potatoes",
+        "1 broccoli head, cut into small florets",
+        "salt, to taste for broccoli",
+        "black pepper, to taste for broccoli",
+        "--- Glaze ---",
+        "2 tbsp teriyaki glaze, thick purchased glaze or prepared homemade glaze",
+        "1 tsp fresh ginger, grated"
+      ]
+    },
+    {
+      "field": "origin",
+      "before": "China",
+      "after": null
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 475,
+        "protein": 20.5,
+        "carbs": 45.5,
+        "fat": 26,
+        "fiber": 7,
+        "sugar": 3.5,
+        "sodium": 240
+      },
+      "after": null
+    },
+    {
+      "field": "description",
+      "before": null,
+      "after": "Chicken drumsticks with ginger-teriyaki glaze, fingerling potatoes and broccoli, roasted in stages."
+    },
+    {
+      "field": "formula",
+      "before": null,
+      "after": {
+        "version": 1,
+        "yield": {
+          "amount": 2,
+          "unit": "portion"
+        },
+        "components": [
+          {
+            "id": "pan",
+            "name": "Chicken and vegetables",
+            "ingredients": [
+              {
+                "id": "chicken",
+                "key": "chicken",
+                "name": "skin-on chicken drumstick",
+                "plural": "skin-on chicken drumsticks",
+                "quantity": {
+                  "amount": 4,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "first",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "potatoes",
+                "key": "potatoes",
+                "name": "fingerling potatoes",
+                "quantity": {
+                  "amount": "3/4",
+                  "unit": "lb"
+                },
+                "preparation": "halved lengthwise",
+                "uses": [
+                  {
+                    "step": "first",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "oil",
+                "key": "oil",
+                "name": "extra-virgin olive oil",
+                "quantity": {
+                  "amount": 3,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "first",
+                    "share": "1/3"
+                  },
+                  {
+                    "step": "broccoli",
+                    "share": "2/3"
+                  }
+                ]
+              },
+              {
+                "id": "potato-salt",
+                "key": "salt",
+                "name": "salt",
+                "allowance": "to taste for potatoes",
+                "uses": [
+                  {
+                    "step": "first",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "potato-pepper",
+                "key": "black-pepper",
+                "name": "black pepper",
+                "allowance": "to taste for potatoes",
+                "uses": [
+                  {
+                    "step": "first",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "broccoli",
+                "key": "broccoli",
+                "name": "broccoli head",
+                "plural": "broccoli heads",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "count"
+                },
+                "preparation": "cut into small florets",
+                "uses": [
+                  {
+                    "step": "broccoli",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "broccoli-salt",
+                "key": "salt",
+                "name": "salt",
+                "allowance": "to taste for broccoli",
+                "uses": [
+                  {
+                    "step": "broccoli",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "broccoli-pepper",
+                "key": "black-pepper",
+                "name": "black pepper",
+                "allowance": "to taste for broccoli",
+                "uses": [
+                  {
+                    "step": "broccoli",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "glaze",
+            "name": "Glaze",
+            "ingredients": [
+              {
+                "id": "teriyaki",
+                "key": "teriyaki",
+                "name": "teriyaki glaze",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "tbsp"
+                },
+                "preparation": "thick purchased glaze or prepared homemade glaze",
+                "uses": [
+                  {
+                    "step": "glaze",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "ginger",
+                "key": "ginger",
+                "name": "fresh ginger",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tsp"
+                },
+                "preparation": "grated",
+                "uses": [
+                  {
+                    "step": "glaze",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "id": "first",
+            "title": "Start chicken and potatoes",
+            "text": "Preheat the oven to 450°F. Line a large rimmed sheet pan with foil, or parchment rated by its manufacturer for this temperature. Use {{ingredients}}: pat the drumsticks dry with paper towels and space them on one side. Put potatoes on the other side, leaving room in the center for broccoli. Toss potatoes with their one-third share of the oil, salt and pepper. Roast about 20 minutes, until potatoes begin to soften and chicken begins to brown."
+          },
+          {
+            "id": "broccoli",
+            "title": "Add broccoli",
+            "text": "Use {{ingredients}}: add broccoli to the center space, tossing it with the remaining two-thirds of the oil, salt and pepper. Spread into one layer. If the vegetables crowd the chicken or pile up, use a second rimmed pan rather than compressing everything."
+          },
+          {
+            "id": "glaze",
+            "title": "Brush on glaze",
+            "text": "Mix {{ingredients}} in a small bowl and brush a thin, even layer over the chicken. Keep this brush and bowl separate from serving utensils. Discard any glaze left in the bowl after the brush touches partly cooked chicken."
+          },
+          {
+            "id": "finish",
+            "title": "Finish roasting",
+            "text": "Return to the 450°F oven and roast about 20–25 minutes more. The potatoes should be tender and the broccoli browned in spots; check the thickest part of every drumstick, away from bone, for 165°F / 74°C. Continue cooking as needed. If the glaze darkens too quickly, loosely shield the chicken with foil while it reaches its endpoint. If vegetables sharing the chicken pan finish first, check that they have reached 165°F / 74°C after contact with chicken juices before transferring them with clean utensils to a clean dish. Vegetables cooked on a separate pan without chicken contact can be removed when tender. Continue cooking the chicken to its endpoint."
+          },
+          {
+            "id": "serve",
+            "title": "Rest and serve",
+            "text": "Rest the safely cooked chicken for 5 minutes, then divide chicken and vegetables among the portions. Leave behind any scorched glaze on the pan rather than scraping it over the potatoes."
+          }
+        ]
+      }
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Stage a sheet-pan dinner by cooking speed",
+        "outcome": "Fork-tender potatoes, broccoli with browned edges, and glazed drumsticks that each reach 165°F / 74°C.",
+        "techniques": ["browning", "temperature"],
+        "before": [
+          "Check the pan’s usable space for chicken, potatoes and a head of broccoli; have a second pan ready if the pieces cannot spread in one layer.",
+          "Use foil or check the parchment’s temperature rating before putting it in a 450°F oven. Prepare a clean plate and utensils for cooked vegetables."
+        ],
+        "checkpoints": [
+          {
+            "step": 1,
+            "cue": "Potatoes begin to soften and drumsticks start browning after the first stage.",
+            "why": "A head start prevents fast-cooking broccoli from spending the chicken’s full cooking time in the oven."
+          },
+          {
+            "step": 2,
+            "cue": "Broccoli lies in one layer rather than piled between the drumsticks.",
+            "why": "Crowded vegetables release steam and brown less readily."
+          },
+          {
+            "step": 4,
+            "cue": "Glaze is browned without blackened puddles, and every drumstick measures 165°F / 74°C.",
+            "why": "Sugar browns faster than the chicken cooks; crust color and center temperature are independent checks."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Glaze turns dark before the chicken is ready",
+            "cause": "A sugary glaze is pooled on the pan or the chicken is unusually large.",
+            "fix": "Shield the chicken loosely with foil and keep checking temperature. Burned glaze cannot be repaired; leave scorched pan patches behind."
+          },
+          {
+            "problem": "Broccoli is soft and pale",
+            "cause": "The pan was crowded or florets were wet.",
+            "fix": "Spread vegetables onto a second pan if needed; use dry florets next time. Extra pans can change timing."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Teriyaki glaze",
+            "alternative": "Prepared homemade teriyaki glaze",
+            "effect": "Use a thick glaze, not a watery marinade; sugar and salt levels vary, so watch color and taste the clean glaze before brushing."
+          },
+          {
+            "ingredient": "Fingerling potatoes",
+            "alternative": "Other small potatoes cut into similar pieces",
+            "effect": "Shape and variety can change tenderness timing; keep pieces even and check them separately from the chicken."
+          }
+        ],
+        "timing": "15 minutes prep, 40–45 minutes roasting in two stages and a 5-minute rest give a 60–65 minute planning range. Prep broccoli and mix glaze during the first roast using utensils separate from raw chicken. Larger drumsticks or a second pan may need longer. Scaling ingredients also requires more pan area; keep the temperatures and check the endpoints.",
+        "storage": "Refrigerate in shallow containers within 2 hours (1 hour above 90°F / 32°C), at 40°F / 4°C or below. Use cooked chicken within 3–4 days and reheat leftovers to 165°F / 74°C. Store in shallow portions; reheat chicken and vegetables to the endpoint. Broccoli softens and the glaze can darken during reheating, so cover if necessary and watch it.",
+        "sources": [
+          {
+            "title": "Food Network Kitchen — Glazed Chicken and Broccoli Sheet Pan Dinner",
+            "url": "https://www.foodnetwork.com/recipes/food-network-kitchen/glazed-chicken-and-broccoli-sheet-pan-dinner-3543898"
+          },
+          {
+            "title": "FoodSafety.gov — Safe minimum internal temperatures",
+            "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+          },
+          {
+            "title": "FoodSafety.gov — Cold food storage chart",
+            "url": "https://www.foodsafety.gov/food-safety-charts/cold-food-storage-charts"
+          },
+          {
+            "title": "FoodSafety.gov — Four steps to food safety",
+            "url": "https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-05"
+        }
+      }
+    },
+    {
+      "field": "body",
+      "before": "\n## Chef's Note\n\nSheet pan dinners became popular in the 2010s for their simplicity. The key is staged roasting: chicken and potatoes need 40+ minutes, while broccoli only needs 20. Roast the heavier items first, then add the broccoli in the center so it steams slightly from the chicken juices while still getting crispy, charred edges. The teriyaki glaze with fresh ginger adds sweet-savory flavor to tie everything together.\n\n## Directions\n\n1.  **Stage 1 (Heavy):** Preheat oven to 450°F. Line a rimmed sheet pan with parchment. Place drumsticks on one side and potatoes on the other. Drizzle potatoes with 1 tbsp oil, salt, and pepper. Roast for 20 minutes.\n2.  **Stage 2 (Greens):** Remove the pan. Place the broccoli in the center space. Drizzle with 2 tbsp oil and a pinch of salt.\n3.  **The Glaze:** Whisk the teriyaki glaze with the grated ginger. Brush the glaze generously over all sides of the chicken drumsticks. Wipe off excess glaze to prevent burning.\n4.  **Finish:** Reduce heat to 375°F. Return to the oven and roast for another 20-25 minutes until the broccoli is charred, potatoes are tender, and chicken reaches an internal temp of 165°F.\n5.  **Serve:** Serve immediately, drizzling any extra pan juices over the potatoes for a savory \"Bounce.\"\n",
+      "after": "\n## Chef's Note\n\nThe chicken and potatoes get a head start before the broccoli and ginger-teriyaki glaze go onto the pan. Leave enough room for the broccoli to spread out so it roasts at the edges instead of sitting in a crowded mound. A thin layer of glaze gives flavor without leaving a large sugary puddle to scorch.\n\n## Directions\n\n1. **Start chicken and potatoes:** Preheat the oven to 450°F. Line a large rimmed sheet pan with foil, or parchment rated by its manufacturer for this temperature. Use skin-on chicken drumsticks, fingerling potatoes, 1/3 of the extra-virgin olive oil, salt, and black pepper: pat the drumsticks dry with paper towels and space them on one side. Put potatoes on the other side, leaving room in the center for broccoli. Toss potatoes with their one-third share of the oil, salt and pepper. Roast about 20 minutes, until potatoes begin to soften and chicken begins to brown.\n2. **Add broccoli:** Use 2/3 of the extra-virgin olive oil, broccoli head, salt, and black pepper: add broccoli to the center space, tossing it with the remaining two-thirds of the oil, salt and pepper. Spread into one layer. If the vegetables crowd the chicken or pile up, use a second rimmed pan rather than compressing everything.\n3. **Brush on glaze:** Mix teriyaki glaze and fresh ginger in a small bowl and brush a thin, even layer over the chicken. Keep this brush and bowl separate from serving utensils. Discard any glaze left in the bowl after the brush touches partly cooked chicken.\n4. **Finish roasting:** Return to the 450°F oven and roast about 20–25 minutes more. The potatoes should be tender and the broccoli browned in spots; check the thickest part of every drumstick, away from bone, for 165°F / 74°C. Continue cooking as needed. If the glaze darkens too quickly, loosely shield the chicken with foil while it reaches its endpoint. If vegetables sharing the chicken pan finish first, check that they have reached 165°F / 74°C after contact with chicken juices before transferring them with clean utensils to a clean dish. Vegetables cooked on a separate pan without chicken contact can be removed when tender. Continue cooking the chicken to its endpoint.\n5. **Rest and serve:** Rest the safely cooked chicken for 5 minutes, then divide chicken and vegetables among the portions. Leave behind any scorched glaze on the pan rather than scraping it over the potatoes.\n"
+    }
+  ],
+  "validation": {
+    "formulaSchema": "pass",
+    "compiledFields": "pass",
+    "editorialAudit": {
+      "slug": "glazed-chicken-and-broccoli-sheet-pan-dinner",
+      "title": "Glazed Chicken & Broccoli Sheet Pan Dinner",
+      "status": "editorial-review",
+      "stepCount": 5,
+      "issues": []
+    },
+    "scaling": [
+      {
+        "factor": 0.5,
+        "ingredients": [
+          "--- Chicken and vegetables ---",
+          "2 skin-on chicken drumsticks",
+          "3/8 lb fingerling potatoes, halved lengthwise",
+          "1 1/2 tbsp extra-virgin olive oil",
+          "salt, to taste for potatoes",
+          "black pepper, to taste for potatoes",
+          "1/2 broccoli head, cut into small florets",
+          "salt, to taste for broccoli",
+          "black pepper, to taste for broccoli",
+          "--- Glaze ---",
+          "1 tbsp teriyaki glaze, thick purchased glaze or prepared homemade glaze",
+          "1/2 tsp fresh ginger, grated"
+        ],
+        "yield": "1 portion"
+      },
+      {
+        "factor": 1,
+        "ingredients": [
+          "--- Chicken and vegetables ---",
+          "4 skin-on chicken drumsticks",
+          "3/4 lb fingerling potatoes, halved lengthwise",
+          "3 tbsp extra-virgin olive oil",
+          "salt, to taste for potatoes",
+          "black pepper, to taste for potatoes",
+          "1 broccoli head, cut into small florets",
+          "salt, to taste for broccoli",
+          "black pepper, to taste for broccoli",
+          "--- Glaze ---",
+          "2 tbsp teriyaki glaze, thick purchased glaze or prepared homemade glaze",
+          "1 tsp fresh ginger, grated"
+        ],
+        "yield": "2 portions"
+      },
+      {
+        "factor": 2,
+        "ingredients": [
+          "--- Chicken and vegetables ---",
+          "8 skin-on chicken drumsticks",
+          "1 1/2 lb fingerling potatoes, halved lengthwise",
+          "6 tbsp extra-virgin olive oil",
+          "salt, to taste for potatoes",
+          "black pepper, to taste for potatoes",
+          "2 broccoli heads, cut into small florets",
+          "salt, to taste for broccoli",
+          "black pepper, to taste for broccoli",
+          "--- Glaze ---",
+          "4 tbsp teriyaki glaze, thick purchased glaze or prepared homemade glaze",
+          "2 tsp fresh ginger, grated"
+        ],
+        "yield": "4 portions"
+      }
+    ],
+    "identityPreserved": true,
+    "sourceLinkPreserved": true,
+    "serializedCompiledFields": "pass",
+    "shoppingTotals": [
+      "4 skin-on chicken drumsticks",
+      "3/4 lb fingerling potatoes",
+      "3 tbsp extra-virgin olive oil",
+      "salt, to taste for potatoes",
+      "black pepper, to taste for potatoes",
+      "1 broccoli head",
+      "salt, to taste for broccoli",
+      "black pepper, to taste for broccoli",
+      "2 tbsp teriyaki glaze",
+      "1 tsp fresh ginger"
+    ],
+    "formulaRegressionTests": "6/6 existing tests passed",
+    "focusedLint": "0 errors; air-fryer optional pairsWith warning retained",
+    "fullBuildBrowserExports": "not run by worker; integration owner release gate"
+  },
+  "acceptedSha256": "f21b4074c11c013db6a8b1f3d34b0e9663aab54bfbecd4c83bae7202846f4c13",
+  "independentAcceptance": "Consequential findings challenged; final integration corrections recorded in first-ten.md.",
+  "sourceEvidence": "../editorial-campaign/2026-10-05/poultry-primary-sources.json",
+  "wholeReviewRecord": "glazed-chicken-and-broccoli-sheet-pan-dinner.md",
+  "finalAuthoredIngredientLedger": [
+    {
+      "component": "Chicken and vegetables",
+      "id": "chicken",
+      "key": "chicken",
+      "name": "skin-on chicken drumstick",
+      "plural": "skin-on chicken drumsticks",
+      "quantity": {
+        "amount": 4,
+        "unit": "count"
+      },
+      "uses": [
+        {
+          "step": "first",
+          "share": 1
+        }
+      ]
+    },
+    {
+      "component": "Chicken and vegetables",
+      "id": "potatoes",
+      "key": "potatoes",
+      "name": "fingerling potatoes",
+      "quantity": {
+        "amount": "3/4",
+        "unit": "lb"
+      },
+      "preparation": "halved lengthwise",
+      "uses": [
+        {
+          "step": "first",
+          "share": 1
+        }
+      ]
+    },
+    {
+      "component": "Chicken and vegetables",
+      "id": "oil",
+      "key": "oil",
+      "name": "extra-virgin olive oil",
+      "quantity": {
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      "uses": [
+        {
+          "step": "first",
+          "share": "1/3"
+        },
+        {
+          "step": "broccoli",
+          "share": "2/3"
+        }
+      ]
+    },
+    {
+      "component": "Chicken and vegetables",
+      "id": "potato-salt",
+      "key": "salt",
+      "name": "salt",
+      "allowance": "to taste for potatoes",
+      "uses": [
+        {
+          "step": "first",
+          "share": 1
+        }
+      ]
+    },
+    {
+      "component": "Chicken and vegetables",
+      "id": "potato-pepper",
+      "key": "black-pepper",
+      "name": "black pepper",
+      "allowance": "to taste for potatoes",
+      "uses": [
+        {
+          "step": "first",
+          "share": 1
+        }
+      ]
+    },
+    {
+      "component": "Chicken and vegetables",
+      "id": "broccoli",
+      "key": "broccoli",
+      "name": "broccoli head",
+      "plural": "broccoli heads",
+      "quantity": {
+        "amount": 1,
+        "unit": "count"
+      },
+      "preparation": "cut into small florets",
+      "uses": [
+        {
+          "step": "broccoli",
+          "share": 1
+        }
+      ]
+    },
+    {
+      "component": "Chicken and vegetables",
+      "id": "broccoli-salt",
+      "key": "salt",
+      "name": "salt",
+      "allowance": "to taste for broccoli",
+      "uses": [
+        {
+          "step": "broccoli",
+          "share": 1
+        }
+      ]
+    },
+    {
+      "component": "Chicken and vegetables",
+      "id": "broccoli-pepper",
+      "key": "black-pepper",
+      "name": "black pepper",
+      "allowance": "to taste for broccoli",
+      "uses": [
+        {
+          "step": "broccoli",
+          "share": 1
+        }
+      ]
+    },
+    {
+      "component": "Glaze",
+      "id": "teriyaki",
+      "key": "teriyaki",
+      "name": "teriyaki glaze",
+      "quantity": {
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      "preparation": "thick purchased glaze or prepared homemade glaze",
+      "uses": [
+        {
+          "step": "glaze",
+          "share": 1
+        }
+      ]
+    },
+    {
+      "component": "Glaze",
+      "id": "ginger",
+      "key": "ginger",
+      "name": "fresh ginger",
+      "quantity": {
+        "amount": 1,
+        "unit": "tsp"
+      },
+      "preparation": "grated",
+      "uses": [
+        {
+          "step": "glaze",
+          "share": 1
+        }
+      ]
+    }
+  ],
+  "rootCorrections": []
+}

@@ -1,0 +1,2432 @@
+{
+  "slug": "garlic-parmesan-chicken-potatoes",
+  "inputCommit": "e922e95ee275aee6289e7225914045d273154791",
+  "inputSha256": "8ee7c9a35baebd0bff05d38cbdb3237b879f7027c671783231016a2d194c2bdf",
+  "status": "accepted-editorial-review; production verification pending",
+  "reviewDate": "2026-10-05",
+  "notKitchenTested": true,
+  "findings": [
+    {
+      "category": "saved richness restoration",
+      "before": "4 tbsp Unsalted Butter; method uses unlisted oil for potatoes and no specified searing fat",
+      "after": "2 tbsp unsalted butter for searing + 1 tbsp for spinach + retained 4 tbsp for sauce",
+      "rationale": "The committed saved source and matching publisher separately specify all seven tablespoons. Current four-tablespoon sauce supply never accounted for the original sear/spinach fat; this is an explicit restoration of recorded richness, not invented redistribution of the existing four tablespoons.",
+      "evidence": ["saved", "garlic"],
+      "confidence": "high",
+      "question": "Test the final fat level with rendered skin-on-thigh fat and the retained broader sauce-liquid amount."
+    },
+    {
+      "category": "saved herbs restoration",
+      "before": "No thyme, basil or parsley in the current formula",
+      "after": "1 tsp dried thyme, 1/2 tsp dried basil, optional 2 tbsp chopped parsley",
+      "rationale": "These exact quantities are recovered in the committed original and matching attributed publication. Restore their separate sauce/garnish destinations while retaining Italian seasoning on the meat.",
+      "evidence": ["saved", "garlic"],
+      "confidence": "high",
+      "question": null
+    },
+    {
+      "category": "preserved method variants",
+      "before": "425°F potatoes roasted separately20–25min; oven-safe skillet finish10min",
+      "after": "425°F roasted-potato/skillet route retained as primary, with listed unmeasured olive oil, ten-minute first check and165°F meat/sauce endpoints. Separate400°F baking-dish potato-in-sauce variation remains readable.",
+      "rationale": "Root preservation check rejected replacing the existing roasted-potato adaptation. Preserve both routes, retain all four sauce-butter tablespoons and restore separately documented sear/spinach butter and herbs. Neither route is represented as the exact publisher formula because current broth/cream choices remain.",
+      "evidence": ["saved", "garlic", "input original", "root preservation challenge"],
+      "confidence": "high for preservation; moderate for adapted time/texture",
+      "question": null
+    },
+    {
+      "category": "deliberate adaptation retained",
+      "before": "1.5 cups Chicken Broth; 1/2 cup Heavy Cream or Half and Half; quartered potatoes",
+      "after": "1 1/2 cups chicken broth; 1/2 cup heavy cream or half-and-half; quartered potatoes, retained",
+      "rationale": "The publisher uses 1 cup broth with an as-needed allowance and half-and-half, with different current potato cut. Retain current measured liquid/cream choice and saved quartering explicitly; this blended retained adaptation is not represented as the publisher’s tested formula. Two tablespoons flour must thicken two cups base liquid plus pan juices; resulting consistency needs testing.",
+      "evidence": ["input original", "saved", "garlic"],
+      "confidence": "high for preservation; moderate for sauce consistency",
+      "question": null
+    },
+    {
+      "category": "timing",
+      "before": "15 min prep; 40 min cook; 55 min total",
+      "after": "20 min prep; 45–60 min cook; 70–85 min total including five-minute rest",
+      "rationale": "Accounts for batch searing, spinach/sauce work, bake and rest rather than pretending the short skillet finish is sufficient. Range is an editorial planning estimate.",
+      "evidence": ["saved", "garlic", "editorial process accounting"],
+      "confidence": "moderate",
+      "question": null
+    },
+    {
+      "category": "origin and technique claim",
+      "before": "origin: Italy; French-meets-Italian one-skillet dinner; skin shatters; Emulsify",
+      "after": "origin removed; American/Italian cuisine tags; baked cream-sauce dinner with browned skin, roux-thickened sauce",
+      "rationale": "No source establishes Italian birthplace or a fricassee identity. Roux thickening and dairy finish replace the misleading emulsion framing; sauce contact can soften skin.",
+      "evidence": ["saved", "garlic", "editorial inference"],
+      "confidence": "moderate",
+      "question": null
+    },
+    {
+      "category": "nutrition",
+      "before": "Legacy 380 calories / 6.5 g protein and remaining estimates",
+      "after": "nutrition removed; no replacement",
+      "rationale": "Restored ingredients, unknown thigh weights, rendered-fat disposition and sauce uptake preclude retaining the unsupported estimate.",
+      "evidence": ["recipe standard", "input original"],
+      "confidence": "high",
+      "question": null
+    },
+    {
+      "category": "raw-contact sauce tasting",
+      "before": "Gradually whisk in broth and cream until thickened. Stir in the Parmesan and spinach until wilted.",
+      "after": "The sauce has contacted partly cooked chicken fond; wait until the final bake is complete before tasting it. The center sauce must reach 165°F / 74°C; salt and pepper destination moves to the post-bake serving step.",
+      "rationale": "A clean spoon does not make partly cooked chicken fond safe to taste. The sauce and chicken now complete the bake before tasting and adjustment.",
+      "evidence": ["endpoint", "clean", "root independent challenge"],
+      "confidence": "high",
+      "question": null
+    }
+  ],
+  "originalIngredientLedger": [
+    {
+      "originalIngredient": "6 Bone-in, skin-on Chicken Thighs",
+      "quantityAndPreparation": "preserved verbatim in originalIngredient; no missing amount inferred",
+      "destinationAssessment": "Preserve six skin-on bone-in thighs, 1 lb quartered baby potatoes, 4 tbsp sauce butter, 4 garlic cloves, 2 tbsp flour, 1.5 cups broth, 1/2 cup cream/half-and-half, 1/2 cup Parmesan, 3 cups spinach and 1 tbsp Italian seasoning. Restore separately documented 2+1 tbsp butter and the exact saved herbs. Butter keys consolidate to 7 tbsp in shopping totals; sear/spinach/sauce amounts remain separate on the cooking list. Add only unmeasured dish spray from the source method. Separate chicken/sauce salt allowances prevent a guessed split. Primary roasted-potato olive oil is an unmeasured as-needed allowance already required by the saved current method, assigned with potatoes to step1; optional dish spray is explicitly for the400°F variation. No lemon returns:493885bb/source-restoration deletion is preserved."
+    },
+    {
+      "originalIngredient": "1 lb Baby Dutch Potatoes, quartered",
+      "quantityAndPreparation": "preserved verbatim in originalIngredient; no missing amount inferred",
+      "destinationAssessment": "Preserve six skin-on bone-in thighs, 1 lb quartered baby potatoes, 4 tbsp sauce butter, 4 garlic cloves, 2 tbsp flour, 1.5 cups broth, 1/2 cup cream/half-and-half, 1/2 cup Parmesan, 3 cups spinach and 1 tbsp Italian seasoning. Restore separately documented 2+1 tbsp butter and the exact saved herbs. Butter keys consolidate to 7 tbsp in shopping totals; sear/spinach/sauce amounts remain separate on the cooking list. Add only unmeasured dish spray from the source method. Separate chicken/sauce salt allowances prevent a guessed split. Primary roasted-potato olive oil is an unmeasured as-needed allowance already required by the saved current method, assigned with potatoes to step1; optional dish spray is explicitly for the400°F variation. No lemon returns:493885bb/source-restoration deletion is preserved."
+    },
+    {
+      "originalIngredient": "4 tbsp Unsalted Butter",
+      "quantityAndPreparation": "preserved verbatim in originalIngredient; no missing amount inferred",
+      "destinationAssessment": "Preserve six skin-on bone-in thighs, 1 lb quartered baby potatoes, 4 tbsp sauce butter, 4 garlic cloves, 2 tbsp flour, 1.5 cups broth, 1/2 cup cream/half-and-half, 1/2 cup Parmesan, 3 cups spinach and 1 tbsp Italian seasoning. Restore separately documented 2+1 tbsp butter and the exact saved herbs. Butter keys consolidate to 7 tbsp in shopping totals; sear/spinach/sauce amounts remain separate on the cooking list. Add only unmeasured dish spray from the source method. Separate chicken/sauce salt allowances prevent a guessed split. Primary roasted-potato olive oil is an unmeasured as-needed allowance already required by the saved current method, assigned with potatoes to step1; optional dish spray is explicitly for the400°F variation. No lemon returns:493885bb/source-restoration deletion is preserved."
+    },
+    {
+      "originalIngredient": "4 cloves Garlic, minced",
+      "quantityAndPreparation": "preserved verbatim in originalIngredient; no missing amount inferred",
+      "destinationAssessment": "Preserve six skin-on bone-in thighs, 1 lb quartered baby potatoes, 4 tbsp sauce butter, 4 garlic cloves, 2 tbsp flour, 1.5 cups broth, 1/2 cup cream/half-and-half, 1/2 cup Parmesan, 3 cups spinach and 1 tbsp Italian seasoning. Restore separately documented 2+1 tbsp butter and the exact saved herbs. Butter keys consolidate to 7 tbsp in shopping totals; sear/spinach/sauce amounts remain separate on the cooking list. Add only unmeasured dish spray from the source method. Separate chicken/sauce salt allowances prevent a guessed split. Primary roasted-potato olive oil is an unmeasured as-needed allowance already required by the saved current method, assigned with potatoes to step1; optional dish spray is explicitly for the400°F variation. No lemon returns:493885bb/source-restoration deletion is preserved."
+    },
+    {
+      "originalIngredient": "2 tbsp All-Purpose Flour",
+      "quantityAndPreparation": "preserved verbatim in originalIngredient; no missing amount inferred",
+      "destinationAssessment": "Preserve six skin-on bone-in thighs, 1 lb quartered baby potatoes, 4 tbsp sauce butter, 4 garlic cloves, 2 tbsp flour, 1.5 cups broth, 1/2 cup cream/half-and-half, 1/2 cup Parmesan, 3 cups spinach and 1 tbsp Italian seasoning. Restore separately documented 2+1 tbsp butter and the exact saved herbs. Butter keys consolidate to 7 tbsp in shopping totals; sear/spinach/sauce amounts remain separate on the cooking list. Add only unmeasured dish spray from the source method. Separate chicken/sauce salt allowances prevent a guessed split. Primary roasted-potato olive oil is an unmeasured as-needed allowance already required by the saved current method, assigned with potatoes to step1; optional dish spray is explicitly for the400°F variation. No lemon returns:493885bb/source-restoration deletion is preserved."
+    },
+    {
+      "originalIngredient": "1.5 cups Chicken Broth",
+      "quantityAndPreparation": "preserved verbatim in originalIngredient; no missing amount inferred",
+      "destinationAssessment": "Preserve six skin-on bone-in thighs, 1 lb quartered baby potatoes, 4 tbsp sauce butter, 4 garlic cloves, 2 tbsp flour, 1.5 cups broth, 1/2 cup cream/half-and-half, 1/2 cup Parmesan, 3 cups spinach and 1 tbsp Italian seasoning. Restore separately documented 2+1 tbsp butter and the exact saved herbs. Butter keys consolidate to 7 tbsp in shopping totals; sear/spinach/sauce amounts remain separate on the cooking list. Add only unmeasured dish spray from the source method. Separate chicken/sauce salt allowances prevent a guessed split. Primary roasted-potato olive oil is an unmeasured as-needed allowance already required by the saved current method, assigned with potatoes to step1; optional dish spray is explicitly for the400°F variation. No lemon returns:493885bb/source-restoration deletion is preserved."
+    },
+    {
+      "originalIngredient": "1/2 cup Heavy Cream or Half and Half",
+      "quantityAndPreparation": "preserved verbatim in originalIngredient; no missing amount inferred",
+      "destinationAssessment": "Preserve six skin-on bone-in thighs, 1 lb quartered baby potatoes, 4 tbsp sauce butter, 4 garlic cloves, 2 tbsp flour, 1.5 cups broth, 1/2 cup cream/half-and-half, 1/2 cup Parmesan, 3 cups spinach and 1 tbsp Italian seasoning. Restore separately documented 2+1 tbsp butter and the exact saved herbs. Butter keys consolidate to 7 tbsp in shopping totals; sear/spinach/sauce amounts remain separate on the cooking list. Add only unmeasured dish spray from the source method. Separate chicken/sauce salt allowances prevent a guessed split. Primary roasted-potato olive oil is an unmeasured as-needed allowance already required by the saved current method, assigned with potatoes to step1; optional dish spray is explicitly for the400°F variation. No lemon returns:493885bb/source-restoration deletion is preserved."
+    },
+    {
+      "originalIngredient": "1/2 cup Freshly Grated Parmesan",
+      "quantityAndPreparation": "preserved verbatim in originalIngredient; no missing amount inferred",
+      "destinationAssessment": "Preserve six skin-on bone-in thighs, 1 lb quartered baby potatoes, 4 tbsp sauce butter, 4 garlic cloves, 2 tbsp flour, 1.5 cups broth, 1/2 cup cream/half-and-half, 1/2 cup Parmesan, 3 cups spinach and 1 tbsp Italian seasoning. Restore separately documented 2+1 tbsp butter and the exact saved herbs. Butter keys consolidate to 7 tbsp in shopping totals; sear/spinach/sauce amounts remain separate on the cooking list. Add only unmeasured dish spray from the source method. Separate chicken/sauce salt allowances prevent a guessed split. Primary roasted-potato olive oil is an unmeasured as-needed allowance already required by the saved current method, assigned with potatoes to step1; optional dish spray is explicitly for the400°F variation. No lemon returns:493885bb/source-restoration deletion is preserved."
+    },
+    {
+      "originalIngredient": "3 cups Baby Spinach, chopped",
+      "quantityAndPreparation": "preserved verbatim in originalIngredient; no missing amount inferred",
+      "destinationAssessment": "Preserve six skin-on bone-in thighs, 1 lb quartered baby potatoes, 4 tbsp sauce butter, 4 garlic cloves, 2 tbsp flour, 1.5 cups broth, 1/2 cup cream/half-and-half, 1/2 cup Parmesan, 3 cups spinach and 1 tbsp Italian seasoning. Restore separately documented 2+1 tbsp butter and the exact saved herbs. Butter keys consolidate to 7 tbsp in shopping totals; sear/spinach/sauce amounts remain separate on the cooking list. Add only unmeasured dish spray from the source method. Separate chicken/sauce salt allowances prevent a guessed split. Primary roasted-potato olive oil is an unmeasured as-needed allowance already required by the saved current method, assigned with potatoes to step1; optional dish spray is explicitly for the400°F variation. No lemon returns:493885bb/source-restoration deletion is preserved."
+    },
+    {
+      "originalIngredient": "1 tbsp Italian Seasoning",
+      "quantityAndPreparation": "preserved verbatim in originalIngredient; no missing amount inferred",
+      "destinationAssessment": "Preserve six skin-on bone-in thighs, 1 lb quartered baby potatoes, 4 tbsp sauce butter, 4 garlic cloves, 2 tbsp flour, 1.5 cups broth, 1/2 cup cream/half-and-half, 1/2 cup Parmesan, 3 cups spinach and 1 tbsp Italian seasoning. Restore separately documented 2+1 tbsp butter and the exact saved herbs. Butter keys consolidate to 7 tbsp in shopping totals; sear/spinach/sauce amounts remain separate on the cooking list. Add only unmeasured dish spray from the source method. Separate chicken/sauce salt allowances prevent a guessed split. Primary roasted-potato olive oil is an unmeasured as-needed allowance already required by the saved current method, assigned with potatoes to step1; optional dish spray is explicitly for the400°F variation. No lemon returns:493885bb/source-restoration deletion is preserved."
+    },
+    {
+      "originalIngredient": "Salt and Black Pepper",
+      "quantityAndPreparation": "preserved verbatim in originalIngredient; no missing amount inferred",
+      "destinationAssessment": "Preserve six skin-on bone-in thighs, 1 lb quartered baby potatoes, 4 tbsp sauce butter, 4 garlic cloves, 2 tbsp flour, 1.5 cups broth, 1/2 cup cream/half-and-half, 1/2 cup Parmesan, 3 cups spinach and 1 tbsp Italian seasoning. Restore separately documented 2+1 tbsp butter and the exact saved herbs. Butter keys consolidate to 7 tbsp in shopping totals; sear/spinach/sauce amounts remain separate on the cooking list. Add only unmeasured dish spray from the source method. Separate chicken/sauce salt allowances prevent a guessed split. Primary roasted-potato olive oil is an unmeasured as-needed allowance already required by the saved current method, assigned with potatoes to step1; optional dish spray is explicitly for the400°F variation. No lemon returns:493885bb/source-restoration deletion is preserved."
+    }
+  ],
+  "ingredientLedger": [
+    {
+      "ingredient": "chicken.pan-spray",
+      "name": "cooking spray",
+      "quantity": null,
+      "allowance": "as needed for the baking-dish variation",
+      "preparation": null,
+      "role": "ingredient",
+      "optional": true,
+      "destinations": [
+        {
+          "step": "prep",
+          "share": 1
+        }
+      ],
+      "allocation": "exactly one; no invented split"
+    },
+    {
+      "ingredient": "chicken.roasting-oil",
+      "name": "olive oil",
+      "quantity": null,
+      "allowance": "as needed to coat the potatoes for roasting",
+      "preparation": null,
+      "role": "ingredient",
+      "optional": false,
+      "destinations": [
+        {
+          "step": "prep",
+          "share": 1
+        }
+      ],
+      "allocation": "exactly one; no invented split"
+    },
+    {
+      "ingredient": "chicken.chicken",
+      "name": "bone-in skin-on chicken thigh",
+      "quantity": {
+        "amount": 6,
+        "unit": "count"
+      },
+      "allowance": null,
+      "preparation": null,
+      "role": "ingredient",
+      "optional": false,
+      "destinations": [
+        {
+          "step": "sear",
+          "share": 1
+        }
+      ],
+      "allocation": "exactly one; no invented split"
+    },
+    {
+      "ingredient": "chicken.italian-seasoning",
+      "name": "Italian seasoning",
+      "quantity": {
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      "allowance": null,
+      "preparation": null,
+      "role": "ingredient",
+      "optional": false,
+      "destinations": [
+        {
+          "step": "sear",
+          "share": 1
+        }
+      ],
+      "allocation": "exactly one; no invented split"
+    },
+    {
+      "ingredient": "chicken.salt",
+      "name": "salt",
+      "quantity": null,
+      "allowance": "to taste",
+      "preparation": null,
+      "role": "ingredient",
+      "optional": false,
+      "destinations": [
+        {
+          "step": "sear",
+          "share": 1
+        }
+      ],
+      "allocation": "exactly one; no invented split"
+    },
+    {
+      "ingredient": "chicken.pepper",
+      "name": "black pepper",
+      "quantity": null,
+      "allowance": "to taste",
+      "preparation": null,
+      "role": "ingredient",
+      "optional": false,
+      "destinations": [
+        {
+          "step": "sear",
+          "share": 1
+        }
+      ],
+      "allocation": "exactly one; no invented split"
+    },
+    {
+      "ingredient": "chicken.sear-butter",
+      "name": "unsalted butter",
+      "quantity": {
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      "allowance": null,
+      "preparation": null,
+      "role": "ingredient",
+      "optional": false,
+      "destinations": [
+        {
+          "step": "sear",
+          "share": 1
+        }
+      ],
+      "allocation": "exactly one; no invented split"
+    },
+    {
+      "ingredient": "chicken.spinach-butter",
+      "name": "unsalted butter",
+      "quantity": {
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      "allowance": null,
+      "preparation": null,
+      "role": "ingredient",
+      "optional": false,
+      "destinations": [
+        {
+          "step": "spinach",
+          "share": 1
+        }
+      ],
+      "allocation": "exactly one; no invented split"
+    },
+    {
+      "ingredient": "chicken.spinach",
+      "name": "baby spinach",
+      "quantity": {
+        "amount": 3,
+        "unit": "cup"
+      },
+      "allowance": null,
+      "preparation": "roughly chopped",
+      "role": "ingredient",
+      "optional": false,
+      "destinations": [
+        {
+          "step": "spinach",
+          "share": 1
+        }
+      ],
+      "allocation": "exactly one; no invented split"
+    },
+    {
+      "ingredient": "chicken.potatoes",
+      "name": "baby potatoes",
+      "quantity": {
+        "amount": 1,
+        "unit": "lb"
+      },
+      "allowance": null,
+      "preparation": "quartered",
+      "role": "ingredient",
+      "optional": false,
+      "destinations": [
+        {
+          "step": "prep",
+          "share": 1
+        }
+      ],
+      "allocation": "exactly one; no invented split"
+    },
+    {
+      "ingredient": "sauce.butter",
+      "name": "unsalted butter",
+      "quantity": {
+        "amount": 4,
+        "unit": "tbsp"
+      },
+      "allowance": null,
+      "preparation": null,
+      "role": "ingredient",
+      "optional": false,
+      "destinations": [
+        {
+          "step": "roux",
+          "share": 1
+        }
+      ],
+      "allocation": "exactly one; no invented split"
+    },
+    {
+      "ingredient": "sauce.garlic",
+      "name": "garlic clove",
+      "quantity": {
+        "amount": 4,
+        "unit": "count"
+      },
+      "allowance": null,
+      "preparation": "minced",
+      "role": "ingredient",
+      "optional": false,
+      "destinations": [
+        {
+          "step": "roux",
+          "share": 1
+        }
+      ],
+      "allocation": "exactly one; no invented split"
+    },
+    {
+      "ingredient": "sauce.flour",
+      "name": "all-purpose flour",
+      "quantity": {
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      "allowance": null,
+      "preparation": null,
+      "role": "ingredient",
+      "optional": false,
+      "destinations": [
+        {
+          "step": "roux",
+          "share": 1
+        }
+      ],
+      "allocation": "exactly one; no invented split"
+    },
+    {
+      "ingredient": "sauce.broth",
+      "name": "chicken broth",
+      "quantity": {
+        "amount": "1 1/2",
+        "unit": "cup"
+      },
+      "allowance": null,
+      "preparation": null,
+      "role": "ingredient",
+      "optional": false,
+      "destinations": [
+        {
+          "step": "sauce",
+          "share": 1
+        }
+      ],
+      "allocation": "exactly one; no invented split"
+    },
+    {
+      "ingredient": "sauce.thyme",
+      "name": "dried thyme",
+      "quantity": {
+        "amount": 1,
+        "unit": "tsp"
+      },
+      "allowance": null,
+      "preparation": null,
+      "role": "ingredient",
+      "optional": false,
+      "destinations": [
+        {
+          "step": "sauce",
+          "share": 1
+        }
+      ],
+      "allocation": "exactly one; no invented split"
+    },
+    {
+      "ingredient": "sauce.basil",
+      "name": "dried basil",
+      "quantity": {
+        "amount": "1/2",
+        "unit": "tsp"
+      },
+      "allowance": null,
+      "preparation": null,
+      "role": "ingredient",
+      "optional": false,
+      "destinations": [
+        {
+          "step": "sauce",
+          "share": 1
+        }
+      ],
+      "allocation": "exactly one; no invented split"
+    },
+    {
+      "ingredient": "sauce.cream",
+      "name": "heavy cream or half-and-half",
+      "quantity": {
+        "amount": "1/2",
+        "unit": "cup"
+      },
+      "allowance": null,
+      "preparation": null,
+      "role": "ingredient",
+      "optional": false,
+      "destinations": [
+        {
+          "step": "sauce",
+          "share": 1
+        }
+      ],
+      "allocation": "exactly one; no invented split"
+    },
+    {
+      "ingredient": "sauce.parmesan",
+      "name": "freshly grated Parmesan",
+      "quantity": {
+        "amount": "1/2",
+        "unit": "cup"
+      },
+      "allowance": null,
+      "preparation": null,
+      "role": "ingredient",
+      "optional": false,
+      "destinations": [
+        {
+          "step": "sauce",
+          "share": 1
+        }
+      ],
+      "allocation": "exactly one; no invented split"
+    },
+    {
+      "ingredient": "sauce.salt",
+      "name": "salt",
+      "quantity": null,
+      "allowance": "to taste after the completed bake",
+      "preparation": null,
+      "role": "ingredient",
+      "optional": false,
+      "destinations": [
+        {
+          "step": "serve",
+          "share": 1
+        }
+      ],
+      "allocation": "exactly one; no invented split"
+    },
+    {
+      "ingredient": "sauce.pepper",
+      "name": "black pepper",
+      "quantity": null,
+      "allowance": "to taste after the completed bake",
+      "preparation": null,
+      "role": "ingredient",
+      "optional": false,
+      "destinations": [
+        {
+          "step": "serve",
+          "share": 1
+        }
+      ],
+      "allocation": "exactly one; no invented split"
+    },
+    {
+      "ingredient": "finish.parsley",
+      "name": "fresh parsley",
+      "quantity": {
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      "allowance": null,
+      "preparation": "chopped",
+      "role": "garnish",
+      "optional": true,
+      "destinations": [
+        {
+          "step": "serve",
+          "share": 1
+        }
+      ],
+      "allocation": "exactly one; no invented split"
+    }
+  ],
+  "ingredientAssessment": "Preserve six skin-on bone-in thighs, 1 lb quartered baby potatoes, 4 tbsp sauce butter, 4 garlic cloves, 2 tbsp flour, 1.5 cups broth, 1/2 cup cream/half-and-half, 1/2 cup Parmesan, 3 cups spinach and 1 tbsp Italian seasoning. Restore separately documented 2+1 tbsp butter and the exact saved herbs. Butter keys consolidate to 7 tbsp in shopping totals; sear/spinach/sauce amounts remain separate on the cooking list. Add only unmeasured dish spray from the source method. Separate chicken/sauce salt allowances prevent a guessed split. Primary roasted-potato olive oil is an unmeasured as-needed allowance already required by the saved current method, assigned with potatoes to step1; optional dish spray is explicitly for the400°F variation. No lemon returns:493885bb/source-restoration deletion is preserved.",
+  "processGraph": "425°F separate potato roast20–25min first check → concurrent butter sear/spinach/roux/sauce, without tasting raw-contact fond → chicken/cream finish in an oven-safe skillet or roomy dish → ten-minute first check, then every thigh and sauce center165°F → five-minute rest → taste/season safe sauce and serve potatoes alongside. Alternate400°F dish route bakes raw quartered potatoes in sauce25–30min first check until chicken/sauce165°F and potatoes tender. Unmeasured olive oil is used only in the primary roast; optional spray only in the variation.",
+  "ratioYieldCapacity": "Six portions follows the saved count of six thighs; thigh weights and finished portions are not invented. One pound potatoes provides a modest starch allocation for six and optional garlic bread remains a compatible additional side. The retained 1.5-cup broth makes this sauce thinner than the original one-cup broth version; the richness restoration and pan juices require kitchen evaluation. Restored herbs are original amounts, not a new flavor invention. Crisp roasted potatoes remain a supported primary style; sauced soft potatoes are a clearly labeled alternate. Keeping potatoes alongside sauce preserves the current variant instead of claiming submerged potatoes stay crisp.",
+  "relationships": "No composed meal directly references this slug. All three existing pairsWith targets resolve and remain optional; arugula’s acidity and broccoli contrast the cream, and garlic bread can absorb sauce. No duplicate/consolidation or silent meal substitution. Original source URL, title, rating4 and permanent identity retained.",
+  "fourLensReview": "Practicality: parallel potato roast and sauce work, with70–85minute planning range and fit route. Cultural context: both saved source bake and existing skillet adaptation remain clearly differentiated. Technique: separate potato/check and chicken/sauce165°F endpoints, roux and safe post-bake tasting. Flavor: recovered butter/herbs preserve rich intent, existing broth/cream adaptations stay exposed; no unsupported lemon is reintroduced.",
+  "kitchenQuestions": [
+    "Verify six actual thigh sizes fit the 9-by-13-inch dish with potatoes/sauce; time searing batches and the full 70–85-minute workflow.",
+    "Test sauce consistency with 1.5 cups broth, both cream choices, seven tablespoons butter supply and rendered-fat removal.",
+    "Check potato tenderness and thigh endpoint together; assess browned skin above sauce and accept soft sauced potatoes rather than a crispness guarantee."
+  ],
+  "changedFields": [
+    {
+      "field": "cookingMethods",
+      "before": ["bake", "roast"],
+      "after": ["sear", "saute", "simmer", "bake"]
+    },
+    {
+      "field": "cuisines",
+      "before": ["Italian"],
+      "after": ["American", "Italian"]
+    },
+    {
+      "field": "prepTime",
+      "before": "15 min",
+      "after": "20 min"
+    },
+    {
+      "field": "cookTime",
+      "before": "40 min",
+      "after": "45–60 min"
+    },
+    {
+      "field": "totalTime",
+      "before": "55 min",
+      "after": "70–85 min"
+    },
+    {
+      "field": "servings",
+      "before": "6",
+      "after": "6 portions"
+    },
+    {
+      "field": "equipment",
+      "before": ["sheet-pan"],
+      "after": [
+        "rimmed-sheet-pan",
+        "large-oven-safe-skillet",
+        "baking-dish-for-variation",
+        "instant-read-thermometer"
+      ]
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "6 Bone-in, skin-on Chicken Thighs",
+        "1 lb Baby Dutch Potatoes, quartered",
+        "4 tbsp Unsalted Butter",
+        "4 cloves Garlic, minced",
+        "2 tbsp All-Purpose Flour",
+        "1.5 cups Chicken Broth",
+        "1/2 cup Heavy Cream or Half and Half",
+        "1/2 cup Freshly Grated Parmesan",
+        "3 cups Baby Spinach, chopped",
+        "1 tbsp Italian Seasoning",
+        "Salt and Black Pepper"
+      ],
+      "after": [
+        "--- Chicken and vegetables ---",
+        "cooking spray, as needed for the baking-dish variation, optional",
+        "olive oil, as needed to coat the potatoes for roasting",
+        "6 bone-in skin-on chicken thighs",
+        "1 tbsp Italian seasoning",
+        "salt, to taste",
+        "black pepper, to taste",
+        "2 tbsp unsalted butter, for searing",
+        "1 tbsp unsalted butter, for the spinach",
+        "3 cups baby spinach, roughly chopped",
+        "1 lb baby potatoes, quartered",
+        "salt, to taste for roasted potatoes",
+        "--- Garlic-Parmesan cream sauce ---",
+        "4 tbsp unsalted butter, for the sauce",
+        "4 garlic cloves, minced",
+        "2 tbsp all-purpose flour",
+        "1 1/2 cups chicken broth",
+        "1 tsp dried thyme",
+        "1/2 tsp dried basil",
+        "1/2 cup heavy cream or half-and-half",
+        "1/2 cup freshly grated Parmesan",
+        "salt, to taste after the completed bake",
+        "black pepper, to taste after the completed bake",
+        "--- Finish ---",
+        "2 tbsp fresh parsley, chopped, optional"
+      ]
+    },
+    {
+      "field": "origin",
+      "before": "Italy",
+      "after": null
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 380,
+        "protein": 6.5,
+        "carbs": 38.5,
+        "fat": 22,
+        "fiber": 2,
+        "sugar": 1.5,
+        "sodium": 230
+      },
+      "after": null
+    },
+    {
+      "field": "description",
+      "before": null,
+      "after": "Seared chicken thighs finished in garlic-Parmesan cream with spinach, served with separately roasted potatoes."
+    },
+    {
+      "field": "formula",
+      "before": null,
+      "after": {
+        "version": 1,
+        "yield": {
+          "amount": 6,
+          "unit": "portion"
+        },
+        "components": [
+          {
+            "id": "chicken",
+            "name": "Chicken and vegetables",
+            "ingredients": [
+              {
+                "id": "pan-spray",
+                "key": "cooking-spray",
+                "name": "cooking spray",
+                "allowance": "as needed for the baking-dish variation",
+                "optional": true,
+                "uses": [
+                  {
+                    "step": "prep",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "roasting-oil",
+                "key": "roasting-oil",
+                "name": "olive oil",
+                "allowance": "as needed to coat the potatoes for roasting",
+                "uses": [
+                  {
+                    "step": "prep",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "chicken",
+                "key": "chicken",
+                "name": "bone-in skin-on chicken thigh",
+                "plural": "bone-in skin-on chicken thighs",
+                "quantity": {
+                  "amount": 6,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "sear",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "italian-seasoning",
+                "key": "italian-seasoning",
+                "name": "Italian seasoning",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "sear",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "salt",
+                "key": "salt",
+                "name": "salt",
+                "allowance": "to taste",
+                "uses": [
+                  {
+                    "step": "sear",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "pepper",
+                "key": "pepper",
+                "name": "black pepper",
+                "allowance": "to taste",
+                "uses": [
+                  {
+                    "step": "sear",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "sear-butter",
+                "key": "unsalted-butter",
+                "name": "unsalted butter",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "sear",
+                    "share": 1
+                  }
+                ],
+                "preparation": "for searing"
+              },
+              {
+                "id": "spinach-butter",
+                "key": "unsalted-butter",
+                "name": "unsalted butter",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "spinach",
+                    "share": 1
+                  }
+                ],
+                "preparation": "for the spinach"
+              },
+              {
+                "id": "spinach",
+                "key": "spinach",
+                "name": "baby spinach",
+                "quantity": {
+                  "amount": 3,
+                  "unit": "cup"
+                },
+                "preparation": "roughly chopped",
+                "uses": [
+                  {
+                    "step": "spinach",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "potatoes",
+                "key": "potatoes",
+                "name": "baby potatoes",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "lb"
+                },
+                "preparation": "quartered",
+                "uses": [
+                  {
+                    "step": "prep",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "potato-salt",
+                "key": "salt",
+                "name": "salt",
+                "allowance": "to taste for roasted potatoes",
+                "uses": [
+                  {
+                    "step": "prep",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "sauce",
+            "name": "Garlic-Parmesan cream sauce",
+            "ingredients": [
+              {
+                "id": "butter",
+                "key": "unsalted-butter",
+                "name": "unsalted butter",
+                "quantity": {
+                  "amount": 4,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "roux",
+                    "share": 1
+                  }
+                ],
+                "preparation": "for the sauce"
+              },
+              {
+                "id": "garlic",
+                "key": "garlic",
+                "name": "garlic clove",
+                "plural": "garlic cloves",
+                "quantity": {
+                  "amount": 4,
+                  "unit": "count"
+                },
+                "preparation": "minced",
+                "uses": [
+                  {
+                    "step": "roux",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "flour",
+                "key": "flour",
+                "name": "all-purpose flour",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "roux",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "broth",
+                "key": "broth",
+                "name": "chicken broth",
+                "quantity": {
+                  "amount": "1 1/2",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "sauce",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "thyme",
+                "key": "thyme",
+                "name": "dried thyme",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "sauce",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "basil",
+                "key": "basil",
+                "name": "dried basil",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "sauce",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "cream",
+                "key": "cream",
+                "name": "heavy cream or half-and-half",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "sauce",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "parmesan",
+                "key": "parmesan",
+                "name": "freshly grated Parmesan",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "sauce",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "salt",
+                "key": "salt",
+                "name": "salt",
+                "allowance": "to taste after the completed bake",
+                "uses": [
+                  {
+                    "step": "serve",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "pepper",
+                "key": "pepper",
+                "name": "black pepper",
+                "allowance": "to taste after the completed bake",
+                "uses": [
+                  {
+                    "step": "serve",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "finish",
+            "name": "Finish",
+            "ingredients": [
+              {
+                "id": "parsley",
+                "key": "parsley",
+                "name": "fresh parsley",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "tbsp"
+                },
+                "preparation": "chopped",
+                "optional": true,
+                "role": "garnish",
+                "uses": [
+                  {
+                    "step": "serve",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "id": "prep",
+            "title": "Start the potatoes",
+            "text": "Preheat the oven to 425°F. Set out {{ingredients}}. Quarter the baby potatoes into similar pieces, toss with enough olive oil to coat and salt to taste, and spread in one layer on a rimmed sheet pan. Roast about 20–25 minutes, checking for browned edges and a center that yields easily to a knife; continue as needed. Check that all the measured thighs fit without overlap in your oven-safe skillet; use a baking dish for the chicken finish if needed. Prepare the chicken and sauce while the potatoes roast. The optional cooking spray is for the baking-dish variation below, which uses a different oven temperature and omits the separate potato roast."
+          },
+          {
+            "id": "sear",
+            "title": "Brown the chicken",
+            "text": "Use {{ingredients}}: pat chicken dry with paper towels, then season with Italian seasoning, salt and pepper. Melt the butter in a large skillet over medium-high heat. Sear chicken skin-side down until deep golden, about 5–7 minutes, then brown the other side for about 2 minutes. Work in batches if needed, reducing heat if the butter or fond begins to burn. Transfer to a plate reserved for partly cooked chicken; continue directly with the recipe."
+          },
+          {
+            "id": "spinach",
+            "title": "Wilt the spinach",
+            "text": "Use {{ingredients}}: melt the butter for this step in the skillet, add spinach and stir until it begins to wilt, about 2 minutes. Transfer spinach to a bowl. Pour off excessive rendered chicken fat, keeping the browned fond and leaving no burned bits."
+          },
+          {
+            "id": "roux",
+            "title": "Make the roux",
+            "text": "Use {{ingredients}}: melt the sauce butter over medium heat. Add garlic and stir until fragrant, about 1–2 minutes, without browning it. Whisk in flour and cook about 1 minute, stirring until smooth and lightly colored."
+          },
+          {
+            "id": "sauce",
+            "title": "Finish the sauce",
+            "text": "Use {{ingredients}}: gradually whisk broth into the roux with thyme and basil, loosening the browned fond. Simmer gently, whisking, until smooth and lightly thickened, about 1–2 minutes. Lower the heat and stir in cream and Parmesan, about 1–2 minutes, until the cheese melts. Do not boil hard after adding cheese. The sauce has contacted partly cooked chicken fond; wait until the final bake is complete before tasting it."
+          },
+          {
+            "id": "assemble",
+            "title": "Finish the chicken in sauce",
+            "text": "Stir the wilted spinach into the sauce and return the seared chicken skin-side up. Keep as much skin above the sauce as possible. If your oven-safe skillet cannot hold the thighs in one layer, transfer chicken, spinach and sauce to a baking dish large enough to fit them without overlap. Keep the roasted potatoes separate for crispness; adding them to the sauce will soften their surface."
+          },
+          {
+            "id": "bake",
+            "title": "Bake and measure",
+            "text": "Transfer the skillet or chicken baking dish to the 425°F oven. Begin checking after about 10 minutes; the thickest part of every thigh, away from bone, and the sauce at the center must reach 165°F / 74°C. Continue baking as needed; ten minutes is a first check, not a guarantee of completion. If the skin darkens early, shield it loosely with foil while the meat finishes. Check the separately roasted potatoes for tenderness as well. Rest safely cooked chicken 5 minutes before serving."
+          },
+          {
+            "id": "serve",
+            "title": "Serve",
+            "text": "After the bake meets the temperature checks, taste the sauce with a clean spoon. Use {{ingredients}}: adjust salt and pepper, then add parsley if using. Serve one thigh per portion with potatoes, spinach and sauce."
+          }
+        ]
+      }
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Coordinate seared chicken and potatoes in a cream-sauce bake",
+        "outcome": "Browned chicken above a smooth sauce, separately roasted fork-tender potatoes, and every thigh at 165°F / 74°C.",
+        "techniques": ["browning", "temperature"],
+        "before": [
+          "Check that the measured thighs fit in one layer in your oven-safe skillet, and that potatoes fit in one layer on a sheet pan. Scaling can require more pans or a baking dish for the chicken finish.",
+          "Quarter baby potatoes evenly. Start their roast first and prepare the sauce while they cook. Have separate plates for partly cooked and finished chicken; continue directly to the oven finish."
+        ],
+        "checkpoints": [
+          {
+            "step": 2,
+            "cue": "Chicken skin is golden, while the pan fond is brown rather than black.",
+            "why": "Browning builds flavor; burned butter and fond make the sauce bitter."
+          },
+          {
+            "step": 5,
+            "cue": "The sauce is smooth and lightly coats a spoon before assembly.",
+            "why": "Whisking liquid gradually into the flour mixture avoids lumps; high heat after cheese can make the sauce grainy."
+          },
+          {
+            "step": 7,
+            "cue": "Each thigh and the sauce center are at least 165°F / 74°C, and a knife passes easily through the separately roasted potatoes.",
+            "why": "Meat size and potato size vary, so one endpoint cannot stand in for the other."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Chicken is ready but potatoes are firm",
+            "cause": "Large or uneven potato quarters cook more slowly.",
+            "fix": "Continue the separate potato roast until tender, keeping safely cooked chicken warm for serving. For the sauced-potato variation, move cooked chicken to a clean plate while potatoes finish in the dish. Cut more uniform pieces next time."
+          },
+          {
+            "problem": "Sauce is grainy or greasy",
+            "cause": "The cheese boiled hard, or too much rendered chicken fat remained.",
+            "fix": "Lower the heat and stir gently. A badly separated cheese sauce may not become smooth again; keep the sauce below a hard boil in the next batch."
+          },
+          {
+            "problem": "Chicken skin softens",
+            "cause": "Sauce and steam wetted the seared skin.",
+            "fix": "Keep skin above the sauce during baking and serve promptly. Skin submerged in sauce will not retain a shattering crust."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Heavy cream",
+            "alternative": "The recorded half-and-half option",
+            "effect": "A lighter, less rich sauce that still uses the same flour thickener; avoid a hard boil after adding dairy."
+          },
+          {
+            "ingredient": "Baby potatoes",
+            "alternative": "Larger potatoes cut into similar small pieces",
+            "effect": "The potato variety affects texture and larger pieces take longer; check with a knife rather than using time alone."
+          }
+        ],
+        "timing": "20 minutes prep plus roughly 45–60 minutes cooking and a 5-minute rest gives a 70–85 minute planning range. Start roasting potatoes while searing chicken and making sauce. Begin checking the skillet finish at ten minutes and continue to the measured endpoints. The sauced-potato variation starts checking at 25–30 minutes. Active work is roughly 30–35 minutes; extra pans, large thighs or large potato pieces may extend elapsed time.",
+        "storage": "Refrigerate in shallow containers within 2 hours (1 hour above 90°F / 32°C), at 40°F / 4°C or below. Use cooked chicken within 3–4 days and reheat leftovers to 165°F / 74°C. Store roasted potatoes separately from sauce. Reheat chicken and sauce covered, and potatoes uncovered, to the endpoint; the sauce and spinach soften chicken skin, and reheating may separate the sauce.",
+        "sources": [
+          {
+            "title": "Damn Delicious — Chicken and Potatoes with Garlic Parmesan Cream Sauce",
+            "url": "https://damndelicious.net/2016/05/08/chicken-potatoes-garlic-parmesan-cream-sauce/"
+          },
+          {
+            "title": "FoodSafety.gov — Safe minimum internal temperatures",
+            "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+          },
+          {
+            "title": "FoodSafety.gov — Cold food storage chart",
+            "url": "https://www.foodsafety.gov/food-safety-charts/cold-food-storage-charts"
+          },
+          {
+            "title": "FoodSafety.gov — Four steps to food safety",
+            "url": "https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-05"
+        }
+      }
+    },
+    {
+      "field": "body",
+      "before": "\n## Chef's Note\n\nThis is a French-meets-Italian one-skillet dinner - skin-on thighs seared until the fat renders and the skin shatters, then finished in a garlic-Parmesan cream sauce with roasted potatoes. The sear is non-negotiable: 5-7 minutes skin-side down without touching builds the crust. The fond left in the pan becomes the base of your sauce - deglaze with broth, whisk in cream and Parmesan, and you have a weeknight version of chicken fricassee.\n\n## Directions\n\n1.  **Roast Potatoes:** Preheat oven to 425°F. Toss potatoes with oil and salt. Roast on a sheet pan for 20-25 minutes until crispy.\n2.  **Sear Chicken:** Season chicken with Italian seasoning. In a large oven-safe skillet, sear chicken skin-side down for 5-7 minutes until the skin is deep golden and crispy. Flip and sear for 2 minutes. Remove to a plate.\n3.  **The Sauce:** Wipe out excess fat. Melt butter in the skillet. Add garlic for 30 seconds. Whisk in flour and cook for 1 minute (The Roux).\n4.  **Emulsify:** Gradually whisk in broth and cream until thickened. Stir in the Parmesan and spinach until wilted.\n5.  **Combine:** Return the chicken and the **crispy roasted potatoes** to the skillet.\n6.  **Finish:** Transfer the skillet to the oven for 10 minutes to finish cooking the chicken (165°F). Serve immediately.\n",
+      "after": "\n## Chef's Note\n\nThese chicken thighs finish in a garlic-Parmesan cream sauce with spinach, while the potatoes roast separately. Keep the potatoes beside the sauce at serving if you want their browned edges to remain crisp; sauce contact softens them. Brown the chicken first, then use temperature rather than skin color to judge the oven finish.\n\n## Directions\n\n1. **Start the potatoes:** Preheat the oven to 425°F. Set out cooking spray (if using), olive oil, baby potatoes, and salt. Quarter the baby potatoes into similar pieces, toss with enough olive oil to coat and salt to taste, and spread in one layer on a rimmed sheet pan. Roast about 20–25 minutes, checking for browned edges and a center that yields easily to a knife; continue as needed. Check that all the measured thighs fit without overlap in your oven-safe skillet; use a baking dish for the chicken finish if needed. Prepare the chicken and sauce while the potatoes roast. The optional cooking spray is for the baking-dish variation below, which uses a different oven temperature and omits the separate potato roast.\n2. **Brown the chicken:** Use bone-in skin-on chicken thighs, Italian seasoning, salt, black pepper, and unsalted butter: pat chicken dry with paper towels, then season with Italian seasoning, salt and pepper. Melt the butter in a large skillet over medium-high heat. Sear chicken skin-side down until deep golden, about 5–7 minutes, then brown the other side for about 2 minutes. Work in batches if needed, reducing heat if the butter or fond begins to burn. Transfer to a plate reserved for partly cooked chicken; continue directly with the recipe.\n3. **Wilt the spinach:** Use unsalted butter and baby spinach: melt the butter for this step in the skillet, add spinach and stir until it begins to wilt, about 2 minutes. Transfer spinach to a bowl. Pour off excessive rendered chicken fat, keeping the browned fond and leaving no burned bits.\n4. **Make the roux:** Use unsalted butter, garlic cloves, and all-purpose flour: melt the sauce butter over medium heat. Add garlic and stir until fragrant, about 1–2 minutes, without browning it. Whisk in flour and cook about 1 minute, stirring until smooth and lightly colored.\n5. **Finish the sauce:** Use chicken broth, dried thyme, dried basil, heavy cream or half-and-half, and freshly grated Parmesan: gradually whisk broth into the roux with thyme and basil, loosening the browned fond. Simmer gently, whisking, until smooth and lightly thickened, about 1–2 minutes. Lower the heat and stir in cream and Parmesan, about 1–2 minutes, until the cheese melts. Do not boil hard after adding cheese. The sauce has contacted partly cooked chicken fond; wait until the final bake is complete before tasting it.\n6. **Finish the chicken in sauce:** Stir the wilted spinach into the sauce and return the seared chicken skin-side up. Keep as much skin above the sauce as possible. If your oven-safe skillet cannot hold the thighs in one layer, transfer chicken, spinach and sauce to a baking dish large enough to fit them without overlap. Keep the roasted potatoes separate for crispness; adding them to the sauce will soften their surface.\n7. **Bake and measure:** Transfer the skillet or chicken baking dish to the 425°F oven. Begin checking after about 10 minutes; the thickest part of every thigh, away from bone, and the sauce at the center must reach 165°F / 74°C. Continue baking as needed; ten minutes is a first check, not a guarantee of completion. If the skin darkens early, shield it loosely with foil while the meat finishes. Check the separately roasted potatoes for tenderness as well. Rest safely cooked chicken 5 minutes before serving.\n8. **Serve:** After the bake meets the temperature checks, taste the sauce with a clean spoon. Use salt, black pepper, and fresh parsley (if using): adjust salt and pepper, then add parsley if using. Serve one thigh per portion with potatoes, spinach and sauce.\n\n## Potatoes Baked in the Sauce\n\nFor the baking-dish variation, omit the separate potato roast and its oil. Preheat to 400°F and lightly coat a 9-by-13-inch baking dish with the optional cooking spray. Sear the chicken and make the spinach and sauce as directed. Put chicken skin-side up in the dish, arrange the raw quartered potatoes and spinach around it and pour in the sauce. Bake about 25–30 minutes as a first check, then continue until every thigh and the sauce center reach 165°F / 74°C and potatoes are easily pierced. If safely cooked chicken finishes first, move it to a clean plate while the potatoes finish. Rest cooked chicken five minutes, then taste and season the safe sauce. Potatoes baked this way are soft and sauced. Add dishes as needed to keep the scaled chicken in one layer.\n"
+    }
+  ],
+  "validation": {
+    "formulaSchema": "pass",
+    "compiledFields": "pass",
+    "editorialAudit": {
+      "slug": "garlic-parmesan-chicken-potatoes",
+      "title": "Chicken and Potatoes with Garlic Parmesan Cream",
+      "status": "editorial-review",
+      "stepCount": 8,
+      "issues": []
+    },
+    "scaling": [
+      {
+        "factor": 0.5,
+        "ingredients": [
+          "--- Chicken and vegetables ---",
+          "cooking spray, as needed for the baking-dish variation, optional",
+          "olive oil, as needed to coat the potatoes for roasting",
+          "3 bone-in skin-on chicken thighs",
+          "1/2 tbsp Italian seasoning",
+          "salt, to taste",
+          "black pepper, to taste",
+          "1 tbsp unsalted butter",
+          "1/2 tbsp unsalted butter",
+          "1 1/2 cups baby spinach, roughly chopped",
+          "1/2 lb baby potatoes, quartered",
+          "--- Garlic-Parmesan cream sauce ---",
+          "2 tbsp unsalted butter",
+          "2 garlic cloves, minced",
+          "1 tbsp all-purpose flour",
+          "3/4 cup chicken broth",
+          "1/2 tsp dried thyme",
+          "1/4 tsp dried basil",
+          "1/4 cup heavy cream or half-and-half",
+          "1/4 cup freshly grated Parmesan",
+          "salt, to taste after the completed bake",
+          "black pepper, to taste after the completed bake",
+          "--- Finish ---",
+          "1 tbsp fresh parsley, chopped, optional"
+        ],
+        "yield": "3 portions"
+      },
+      {
+        "factor": 1,
+        "ingredients": [
+          "--- Chicken and vegetables ---",
+          "cooking spray, as needed for the baking-dish variation, optional",
+          "olive oil, as needed to coat the potatoes for roasting",
+          "6 bone-in skin-on chicken thighs",
+          "1 tbsp Italian seasoning",
+          "salt, to taste",
+          "black pepper, to taste",
+          "2 tbsp unsalted butter",
+          "1 tbsp unsalted butter",
+          "3 cups baby spinach, roughly chopped",
+          "1 lb baby potatoes, quartered",
+          "--- Garlic-Parmesan cream sauce ---",
+          "4 tbsp unsalted butter",
+          "4 garlic cloves, minced",
+          "2 tbsp all-purpose flour",
+          "1 1/2 cups chicken broth",
+          "1 tsp dried thyme",
+          "1/2 tsp dried basil",
+          "1/2 cup heavy cream or half-and-half",
+          "1/2 cup freshly grated Parmesan",
+          "salt, to taste after the completed bake",
+          "black pepper, to taste after the completed bake",
+          "--- Finish ---",
+          "2 tbsp fresh parsley, chopped, optional"
+        ],
+        "yield": "6 portions"
+      },
+      {
+        "factor": 2,
+        "ingredients": [
+          "--- Chicken and vegetables ---",
+          "cooking spray, as needed for the baking-dish variation, optional",
+          "olive oil, as needed to coat the potatoes for roasting",
+          "12 bone-in skin-on chicken thighs",
+          "2 tbsp Italian seasoning",
+          "salt, to taste",
+          "black pepper, to taste",
+          "4 tbsp unsalted butter",
+          "2 tbsp unsalted butter",
+          "6 cups baby spinach, roughly chopped",
+          "2 lb baby potatoes, quartered",
+          "--- Garlic-Parmesan cream sauce ---",
+          "8 tbsp unsalted butter",
+          "8 garlic cloves, minced",
+          "4 tbsp all-purpose flour",
+          "3 cups chicken broth",
+          "2 tsp dried thyme",
+          "1 tsp dried basil",
+          "1 cup heavy cream or half-and-half",
+          "1 cup freshly grated Parmesan",
+          "salt, to taste after the completed bake",
+          "black pepper, to taste after the completed bake",
+          "--- Finish ---",
+          "4 tbsp fresh parsley, chopped, optional"
+        ],
+        "yield": "12 portions"
+      }
+    ],
+    "identityPreserved": true,
+    "sourceLinkPreserved": true,
+    "serializedCompiledFields": "pass",
+    "shoppingTotals": [
+      "cooking spray, as needed for the baking-dish variation, optional",
+      "olive oil, as needed to coat the potatoes for roasting",
+      "6 bone-in skin-on chicken thighs",
+      "1 tbsp Italian seasoning",
+      "salt, to taste",
+      "black pepper, to taste",
+      "7 tbsp unsalted butter",
+      "3 cups baby spinach",
+      "1 lb baby potatoes",
+      "4 garlic cloves",
+      "2 tbsp all-purpose flour",
+      "1 1/2 cups chicken broth",
+      "1 tsp dried thyme",
+      "1/2 tsp dried basil",
+      "1/2 cup heavy cream or half-and-half",
+      "1/2 cup freshly grated Parmesan",
+      "salt, to taste after the completed bake",
+      "black pepper, to taste after the completed bake",
+      "2 tbsp fresh parsley, optional"
+    ],
+    "formulaRegressionTests": "6/6 existing tests passed",
+    "focusedLint": "0 errors; air-fryer optional pairsWith warning retained",
+    "fullBuildBrowserExports": "not run by worker; integration owner release gate"
+  },
+  "acceptedSha256": "d7b1f162ec0795839b79d9598b3483008616fca5da76a336d03377412675b9e9",
+  "independentAcceptance": "Consequential findings challenged; final integration corrections recorded in first-ten.md.",
+  "sourceEvidence": "../editorial-campaign/2026-10-05/poultry-primary-sources.json",
+  "wholeReviewRecord": "garlic-parmesan-chicken-potatoes.md",
+  "finalAuthoredIngredientLedger": [
+    {
+      "component": "Chicken and vegetables",
+      "id": "pan-spray",
+      "key": "cooking-spray",
+      "name": "cooking spray",
+      "allowance": "as needed for the baking-dish variation",
+      "optional": true,
+      "uses": [
+        {
+          "step": "prep",
+          "share": 1
+        }
+      ]
+    },
+    {
+      "component": "Chicken and vegetables",
+      "id": "roasting-oil",
+      "key": "roasting-oil",
+      "name": "olive oil",
+      "allowance": "as needed to coat the potatoes for roasting",
+      "uses": [
+        {
+          "step": "prep",
+          "share": 1
+        }
+      ]
+    },
+    {
+      "component": "Chicken and vegetables",
+      "id": "chicken",
+      "key": "chicken",
+      "name": "bone-in skin-on chicken thigh",
+      "plural": "bone-in skin-on chicken thighs",
+      "quantity": {
+        "amount": 6,
+        "unit": "count"
+      },
+      "uses": [
+        {
+          "step": "sear",
+          "share": 1
+        }
+      ]
+    },
+    {
+      "component": "Chicken and vegetables",
+      "id": "italian-seasoning",
+      "key": "italian-seasoning",
+      "name": "Italian seasoning",
+      "quantity": {
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      "uses": [
+        {
+          "step": "sear",
+          "share": 1
+        }
+      ]
+    },
+    {
+      "component": "Chicken and vegetables",
+      "id": "salt",
+      "key": "salt",
+      "name": "salt",
+      "allowance": "to taste",
+      "uses": [
+        {
+          "step": "sear",
+          "share": 1
+        }
+      ]
+    },
+    {
+      "component": "Chicken and vegetables",
+      "id": "pepper",
+      "key": "pepper",
+      "name": "black pepper",
+      "allowance": "to taste",
+      "uses": [
+        {
+          "step": "sear",
+          "share": 1
+        }
+      ]
+    },
+    {
+      "component": "Chicken and vegetables",
+      "id": "sear-butter",
+      "key": "unsalted-butter",
+      "name": "unsalted butter",
+      "quantity": {
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      "uses": [
+        {
+          "step": "sear",
+          "share": 1
+        }
+      ],
+      "preparation": "for searing"
+    },
+    {
+      "component": "Chicken and vegetables",
+      "id": "spinach-butter",
+      "key": "unsalted-butter",
+      "name": "unsalted butter",
+      "quantity": {
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      "uses": [
+        {
+          "step": "spinach",
+          "share": 1
+        }
+      ],
+      "preparation": "for the spinach"
+    },
+    {
+      "component": "Chicken and vegetables",
+      "id": "spinach",
+      "key": "spinach",
+      "name": "baby spinach",
+      "quantity": {
+        "amount": 3,
+        "unit": "cup"
+      },
+      "preparation": "roughly chopped",
+      "uses": [
+        {
+          "step": "spinach",
+          "share": 1
+        }
+      ]
+    },
+    {
+      "component": "Chicken and vegetables",
+      "id": "potatoes",
+      "key": "potatoes",
+      "name": "baby potatoes",
+      "quantity": {
+        "amount": 1,
+        "unit": "lb"
+      },
+      "preparation": "quartered",
+      "uses": [
+        {
+          "step": "prep",
+          "share": 1
+        }
+      ]
+    },
+    {
+      "component": "Chicken and vegetables",
+      "id": "potato-salt",
+      "key": "salt",
+      "name": "salt",
+      "allowance": "to taste for roasted potatoes",
+      "uses": [
+        {
+          "step": "prep",
+          "share": 1
+        }
+      ]
+    },
+    {
+      "component": "Garlic-Parmesan cream sauce",
+      "id": "butter",
+      "key": "unsalted-butter",
+      "name": "unsalted butter",
+      "quantity": {
+        "amount": 4,
+        "unit": "tbsp"
+      },
+      "uses": [
+        {
+          "step": "roux",
+          "share": 1
+        }
+      ],
+      "preparation": "for the sauce"
+    },
+    {
+      "component": "Garlic-Parmesan cream sauce",
+      "id": "garlic",
+      "key": "garlic",
+      "name": "garlic clove",
+      "plural": "garlic cloves",
+      "quantity": {
+        "amount": 4,
+        "unit": "count"
+      },
+      "preparation": "minced",
+      "uses": [
+        {
+          "step": "roux",
+          "share": 1
+        }
+      ]
+    },
+    {
+      "component": "Garlic-Parmesan cream sauce",
+      "id": "flour",
+      "key": "flour",
+      "name": "all-purpose flour",
+      "quantity": {
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      "uses": [
+        {
+          "step": "roux",
+          "share": 1
+        }
+      ]
+    },
+    {
+      "component": "Garlic-Parmesan cream sauce",
+      "id": "broth",
+      "key": "broth",
+      "name": "chicken broth",
+      "quantity": {
+        "amount": "1 1/2",
+        "unit": "cup"
+      },
+      "uses": [
+        {
+          "step": "sauce",
+          "share": 1
+        }
+      ]
+    },
+    {
+      "component": "Garlic-Parmesan cream sauce",
+      "id": "thyme",
+      "key": "thyme",
+      "name": "dried thyme",
+      "quantity": {
+        "amount": 1,
+        "unit": "tsp"
+      },
+      "uses": [
+        {
+          "step": "sauce",
+          "share": 1
+        }
+      ]
+    },
+    {
+      "component": "Garlic-Parmesan cream sauce",
+      "id": "basil",
+      "key": "basil",
+      "name": "dried basil",
+      "quantity": {
+        "amount": "1/2",
+        "unit": "tsp"
+      },
+      "uses": [
+        {
+          "step": "sauce",
+          "share": 1
+        }
+      ]
+    },
+    {
+      "component": "Garlic-Parmesan cream sauce",
+      "id": "cream",
+      "key": "cream",
+      "name": "heavy cream or half-and-half",
+      "quantity": {
+        "amount": "1/2",
+        "unit": "cup"
+      },
+      "uses": [
+        {
+          "step": "sauce",
+          "share": 1
+        }
+      ]
+    },
+    {
+      "component": "Garlic-Parmesan cream sauce",
+      "id": "parmesan",
+      "key": "parmesan",
+      "name": "freshly grated Parmesan",
+      "quantity": {
+        "amount": "1/2",
+        "unit": "cup"
+      },
+      "uses": [
+        {
+          "step": "sauce",
+          "share": 1
+        }
+      ]
+    },
+    {
+      "component": "Garlic-Parmesan cream sauce",
+      "id": "salt",
+      "key": "salt",
+      "name": "salt",
+      "allowance": "to taste after the completed bake",
+      "uses": [
+        {
+          "step": "serve",
+          "share": 1
+        }
+      ]
+    },
+    {
+      "component": "Garlic-Parmesan cream sauce",
+      "id": "pepper",
+      "key": "pepper",
+      "name": "black pepper",
+      "allowance": "to taste after the completed bake",
+      "uses": [
+        {
+          "step": "serve",
+          "share": 1
+        }
+      ]
+    },
+    {
+      "component": "Finish",
+      "id": "parsley",
+      "key": "parsley",
+      "name": "fresh parsley",
+      "quantity": {
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      "preparation": "chopped",
+      "optional": true,
+      "role": "garnish",
+      "uses": [
+        {
+          "step": "serve",
+          "share": 1
+        }
+      ]
+    }
+  ],
+  "rootCorrections": [
+    {
+      "field": "ingredients",
+      "before": [
+        "--- Chicken and vegetables ---",
+        "cooking spray, as needed for the baking-dish variation, optional",
+        "olive oil, as needed to coat the potatoes for roasting",
+        "6 bone-in skin-on chicken thighs",
+        "1 tbsp Italian seasoning",
+        "salt, to taste",
+        "black pepper, to taste",
+        "2 tbsp unsalted butter",
+        "1 tbsp unsalted butter",
+        "3 cups baby spinach, roughly chopped",
+        "1 lb baby potatoes, quartered",
+        "--- Garlic-Parmesan cream sauce ---",
+        "4 tbsp unsalted butter",
+        "4 garlic cloves, minced",
+        "2 tbsp all-purpose flour",
+        "1 1/2 cups chicken broth",
+        "1 tsp dried thyme",
+        "1/2 tsp dried basil",
+        "1/2 cup heavy cream or half-and-half",
+        "1/2 cup freshly grated Parmesan",
+        "salt, to taste after the completed bake",
+        "black pepper, to taste after the completed bake",
+        "--- Finish ---",
+        "2 tbsp fresh parsley, chopped, optional"
+      ],
+      "after": [
+        "--- Chicken and vegetables ---",
+        "cooking spray, as needed for the baking-dish variation, optional",
+        "olive oil, as needed to coat the potatoes for roasting",
+        "6 bone-in skin-on chicken thighs",
+        "1 tbsp Italian seasoning",
+        "salt, to taste",
+        "black pepper, to taste",
+        "2 tbsp unsalted butter, for searing",
+        "1 tbsp unsalted butter, for the spinach",
+        "3 cups baby spinach, roughly chopped",
+        "1 lb baby potatoes, quartered",
+        "salt, to taste for roasted potatoes",
+        "--- Garlic-Parmesan cream sauce ---",
+        "4 tbsp unsalted butter, for the sauce",
+        "4 garlic cloves, minced",
+        "2 tbsp all-purpose flour",
+        "1 1/2 cups chicken broth",
+        "1 tsp dried thyme",
+        "1/2 tsp dried basil",
+        "1/2 cup heavy cream or half-and-half",
+        "1/2 cup freshly grated Parmesan",
+        "salt, to taste after the completed bake",
+        "black pepper, to taste after the completed bake",
+        "--- Finish ---",
+        "2 tbsp fresh parsley, chopped, optional"
+      ]
+    },
+    {
+      "field": "formula",
+      "before": {
+        "version": 1,
+        "yield": {
+          "amount": 6,
+          "unit": "portion"
+        },
+        "components": [
+          {
+            "id": "chicken",
+            "name": "Chicken and vegetables",
+            "ingredients": [
+              {
+                "id": "pan-spray",
+                "key": "cooking-spray",
+                "name": "cooking spray",
+                "allowance": "as needed for the baking-dish variation",
+                "optional": true,
+                "uses": [
+                  {
+                    "step": "prep",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "roasting-oil",
+                "key": "roasting-oil",
+                "name": "olive oil",
+                "allowance": "as needed to coat the potatoes for roasting",
+                "uses": [
+                  {
+                    "step": "prep",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "chicken",
+                "key": "chicken",
+                "name": "bone-in skin-on chicken thigh",
+                "plural": "bone-in skin-on chicken thighs",
+                "quantity": {
+                  "amount": 6,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "sear",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "italian-seasoning",
+                "key": "italian-seasoning",
+                "name": "Italian seasoning",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "sear",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "salt",
+                "key": "salt",
+                "name": "salt",
+                "allowance": "to taste",
+                "uses": [
+                  {
+                    "step": "sear",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "pepper",
+                "key": "pepper",
+                "name": "black pepper",
+                "allowance": "to taste",
+                "uses": [
+                  {
+                    "step": "sear",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "sear-butter",
+                "key": "unsalted-butter",
+                "name": "unsalted butter",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "sear",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "spinach-butter",
+                "key": "unsalted-butter",
+                "name": "unsalted butter",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "spinach",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "spinach",
+                "key": "spinach",
+                "name": "baby spinach",
+                "quantity": {
+                  "amount": 3,
+                  "unit": "cup"
+                },
+                "preparation": "roughly chopped",
+                "uses": [
+                  {
+                    "step": "spinach",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "potatoes",
+                "key": "potatoes",
+                "name": "baby potatoes",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "lb"
+                },
+                "preparation": "quartered",
+                "uses": [
+                  {
+                    "step": "prep",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "sauce",
+            "name": "Garlic-Parmesan cream sauce",
+            "ingredients": [
+              {
+                "id": "butter",
+                "key": "unsalted-butter",
+                "name": "unsalted butter",
+                "quantity": {
+                  "amount": 4,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "roux",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "garlic",
+                "key": "garlic",
+                "name": "garlic clove",
+                "plural": "garlic cloves",
+                "quantity": {
+                  "amount": 4,
+                  "unit": "count"
+                },
+                "preparation": "minced",
+                "uses": [
+                  {
+                    "step": "roux",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "flour",
+                "key": "flour",
+                "name": "all-purpose flour",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "roux",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "broth",
+                "key": "broth",
+                "name": "chicken broth",
+                "quantity": {
+                  "amount": "1 1/2",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "sauce",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "thyme",
+                "key": "thyme",
+                "name": "dried thyme",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "sauce",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "basil",
+                "key": "basil",
+                "name": "dried basil",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "sauce",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "cream",
+                "key": "cream",
+                "name": "heavy cream or half-and-half",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "sauce",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "parmesan",
+                "key": "parmesan",
+                "name": "freshly grated Parmesan",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "sauce",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "salt",
+                "key": "salt",
+                "name": "salt",
+                "allowance": "to taste after the completed bake",
+                "uses": [
+                  {
+                    "step": "serve",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "pepper",
+                "key": "pepper",
+                "name": "black pepper",
+                "allowance": "to taste after the completed bake",
+                "uses": [
+                  {
+                    "step": "serve",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "finish",
+            "name": "Finish",
+            "ingredients": [
+              {
+                "id": "parsley",
+                "key": "parsley",
+                "name": "fresh parsley",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "tbsp"
+                },
+                "preparation": "chopped",
+                "optional": true,
+                "role": "garnish",
+                "uses": [
+                  {
+                    "step": "serve",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "id": "prep",
+            "title": "Start the potatoes",
+            "text": "Preheat the oven to 425°F. Set out {{ingredients}}. Quarter the baby potatoes into similar pieces, toss with enough olive oil to coat, and spread in one layer on a rimmed sheet pan. Roast about 20–25 minutes, checking for browned edges and a center that yields easily to a knife; continue as needed. Check that all the measured thighs fit without overlap in your oven-safe skillet; use a baking dish for the chicken finish if needed. Prepare the chicken and sauce while the potatoes roast. The optional cooking spray is for the baking-dish variation below, which uses a different oven temperature and omits the separate potato roast."
+          },
+          {
+            "id": "sear",
+            "title": "Brown the chicken",
+            "text": "Use {{ingredients}}: pat chicken dry with paper towels, then season with Italian seasoning, salt and pepper. Melt the butter in a large skillet over medium-high heat. Sear chicken skin-side down until deep golden, about 5–7 minutes, then brown the other side for about 2 minutes. Work in batches if needed, reducing heat if the butter or fond begins to burn. Transfer to a plate reserved for partly cooked chicken; continue directly with the recipe."
+          },
+          {
+            "id": "spinach",
+            "title": "Wilt the spinach",
+            "text": "Use {{ingredients}}: melt the butter for this step in the skillet, add spinach and stir until it begins to wilt, about 2 minutes. Transfer spinach to a bowl. Pour off excessive rendered chicken fat, keeping the browned fond and leaving no burned bits."
+          },
+          {
+            "id": "roux",
+            "title": "Make the roux",
+            "text": "Use {{ingredients}}: melt the sauce butter over medium heat. Add garlic and stir until fragrant, about 1–2 minutes, without browning it. Whisk in flour and cook about 1 minute, stirring until smooth and lightly colored."
+          },
+          {
+            "id": "sauce",
+            "title": "Finish the sauce",
+            "text": "Use {{ingredients}}: gradually whisk broth into the roux with thyme and basil, loosening the browned fond. Simmer gently, whisking, until smooth and lightly thickened, about 1–2 minutes. Lower the heat and stir in cream and Parmesan, about 1–2 minutes, until the cheese melts. Do not boil hard after adding cheese. The sauce has contacted partly cooked chicken fond; wait until the final bake is complete before tasting it."
+          },
+          {
+            "id": "assemble",
+            "title": "Finish the chicken in sauce",
+            "text": "Stir the wilted spinach into the sauce and return the seared chicken skin-side up. Keep as much skin above the sauce as possible. If your oven-safe skillet cannot hold the thighs in one layer, transfer chicken, spinach and sauce to a baking dish large enough to fit them without overlap. Keep the roasted potatoes separate for crispness; adding them to the sauce will soften their surface."
+          },
+          {
+            "id": "bake",
+            "title": "Bake and measure",
+            "text": "Transfer the skillet or chicken baking dish to the 425°F oven. Begin checking after about 10 minutes; the thickest part of every thigh, away from bone, and the sauce at the center must reach 165°F / 74°C. Continue baking as needed; ten minutes is a first check, not a guarantee of completion. If the skin darkens early, shield it loosely with foil while the meat finishes. Check the separately roasted potatoes for tenderness as well. Rest safely cooked chicken 5 minutes before serving."
+          },
+          {
+            "id": "serve",
+            "title": "Serve",
+            "text": "After the bake meets the temperature checks, taste the sauce with a clean spoon. Use {{ingredients}}: adjust salt and pepper, then add parsley if using. Serve one thigh per portion with potatoes, spinach and sauce."
+          }
+        ]
+      },
+      "after": {
+        "version": 1,
+        "yield": {
+          "amount": 6,
+          "unit": "portion"
+        },
+        "components": [
+          {
+            "id": "chicken",
+            "name": "Chicken and vegetables",
+            "ingredients": [
+              {
+                "id": "pan-spray",
+                "key": "cooking-spray",
+                "name": "cooking spray",
+                "allowance": "as needed for the baking-dish variation",
+                "optional": true,
+                "uses": [
+                  {
+                    "step": "prep",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "roasting-oil",
+                "key": "roasting-oil",
+                "name": "olive oil",
+                "allowance": "as needed to coat the potatoes for roasting",
+                "uses": [
+                  {
+                    "step": "prep",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "chicken",
+                "key": "chicken",
+                "name": "bone-in skin-on chicken thigh",
+                "plural": "bone-in skin-on chicken thighs",
+                "quantity": {
+                  "amount": 6,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "sear",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "italian-seasoning",
+                "key": "italian-seasoning",
+                "name": "Italian seasoning",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "sear",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "salt",
+                "key": "salt",
+                "name": "salt",
+                "allowance": "to taste",
+                "uses": [
+                  {
+                    "step": "sear",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "pepper",
+                "key": "pepper",
+                "name": "black pepper",
+                "allowance": "to taste",
+                "uses": [
+                  {
+                    "step": "sear",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "sear-butter",
+                "key": "unsalted-butter",
+                "name": "unsalted butter",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "sear",
+                    "share": 1
+                  }
+                ],
+                "preparation": "for searing"
+              },
+              {
+                "id": "spinach-butter",
+                "key": "unsalted-butter",
+                "name": "unsalted butter",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "spinach",
+                    "share": 1
+                  }
+                ],
+                "preparation": "for the spinach"
+              },
+              {
+                "id": "spinach",
+                "key": "spinach",
+                "name": "baby spinach",
+                "quantity": {
+                  "amount": 3,
+                  "unit": "cup"
+                },
+                "preparation": "roughly chopped",
+                "uses": [
+                  {
+                    "step": "spinach",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "potatoes",
+                "key": "potatoes",
+                "name": "baby potatoes",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "lb"
+                },
+                "preparation": "quartered",
+                "uses": [
+                  {
+                    "step": "prep",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "potato-salt",
+                "key": "salt",
+                "name": "salt",
+                "allowance": "to taste for roasted potatoes",
+                "uses": [
+                  {
+                    "step": "prep",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "sauce",
+            "name": "Garlic-Parmesan cream sauce",
+            "ingredients": [
+              {
+                "id": "butter",
+                "key": "unsalted-butter",
+                "name": "unsalted butter",
+                "quantity": {
+                  "amount": 4,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "roux",
+                    "share": 1
+                  }
+                ],
+                "preparation": "for the sauce"
+              },
+              {
+                "id": "garlic",
+                "key": "garlic",
+                "name": "garlic clove",
+                "plural": "garlic cloves",
+                "quantity": {
+                  "amount": 4,
+                  "unit": "count"
+                },
+                "preparation": "minced",
+                "uses": [
+                  {
+                    "step": "roux",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "flour",
+                "key": "flour",
+                "name": "all-purpose flour",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "roux",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "broth",
+                "key": "broth",
+                "name": "chicken broth",
+                "quantity": {
+                  "amount": "1 1/2",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "sauce",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "thyme",
+                "key": "thyme",
+                "name": "dried thyme",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "sauce",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "basil",
+                "key": "basil",
+                "name": "dried basil",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "sauce",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "cream",
+                "key": "cream",
+                "name": "heavy cream or half-and-half",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "sauce",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "parmesan",
+                "key": "parmesan",
+                "name": "freshly grated Parmesan",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "sauce",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "salt",
+                "key": "salt",
+                "name": "salt",
+                "allowance": "to taste after the completed bake",
+                "uses": [
+                  {
+                    "step": "serve",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "pepper",
+                "key": "pepper",
+                "name": "black pepper",
+                "allowance": "to taste after the completed bake",
+                "uses": [
+                  {
+                    "step": "serve",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "finish",
+            "name": "Finish",
+            "ingredients": [
+              {
+                "id": "parsley",
+                "key": "parsley",
+                "name": "fresh parsley",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "tbsp"
+                },
+                "preparation": "chopped",
+                "optional": true,
+                "role": "garnish",
+                "uses": [
+                  {
+                    "step": "serve",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "id": "prep",
+            "title": "Start the potatoes",
+            "text": "Preheat the oven to 425°F. Set out {{ingredients}}. Quarter the baby potatoes into similar pieces, toss with enough olive oil to coat and salt to taste, and spread in one layer on a rimmed sheet pan. Roast about 20–25 minutes, checking for browned edges and a center that yields easily to a knife; continue as needed. Check that all the measured thighs fit without overlap in your oven-safe skillet; use a baking dish for the chicken finish if needed. Prepare the chicken and sauce while the potatoes roast. The optional cooking spray is for the baking-dish variation below, which uses a different oven temperature and omits the separate potato roast."
+          },
+          {
+            "id": "sear",
+            "title": "Brown the chicken",
+            "text": "Use {{ingredients}}: pat chicken dry with paper towels, then season with Italian seasoning, salt and pepper. Melt the butter in a large skillet over medium-high heat. Sear chicken skin-side down until deep golden, about 5–7 minutes, then brown the other side for about 2 minutes. Work in batches if needed, reducing heat if the butter or fond begins to burn. Transfer to a plate reserved for partly cooked chicken; continue directly with the recipe."
+          },
+          {
+            "id": "spinach",
+            "title": "Wilt the spinach",
+            "text": "Use {{ingredients}}: melt the butter for this step in the skillet, add spinach and stir until it begins to wilt, about 2 minutes. Transfer spinach to a bowl. Pour off excessive rendered chicken fat, keeping the browned fond and leaving no burned bits."
+          },
+          {
+            "id": "roux",
+            "title": "Make the roux",
+            "text": "Use {{ingredients}}: melt the sauce butter over medium heat. Add garlic and stir until fragrant, about 1–2 minutes, without browning it. Whisk in flour and cook about 1 minute, stirring until smooth and lightly colored."
+          },
+          {
+            "id": "sauce",
+            "title": "Finish the sauce",
+            "text": "Use {{ingredients}}: gradually whisk broth into the roux with thyme and basil, loosening the browned fond. Simmer gently, whisking, until smooth and lightly thickened, about 1–2 minutes. Lower the heat and stir in cream and Parmesan, about 1–2 minutes, until the cheese melts. Do not boil hard after adding cheese. The sauce has contacted partly cooked chicken fond; wait until the final bake is complete before tasting it."
+          },
+          {
+            "id": "assemble",
+            "title": "Finish the chicken in sauce",
+            "text": "Stir the wilted spinach into the sauce and return the seared chicken skin-side up. Keep as much skin above the sauce as possible. If your oven-safe skillet cannot hold the thighs in one layer, transfer chicken, spinach and sauce to a baking dish large enough to fit them without overlap. Keep the roasted potatoes separate for crispness; adding them to the sauce will soften their surface."
+          },
+          {
+            "id": "bake",
+            "title": "Bake and measure",
+            "text": "Transfer the skillet or chicken baking dish to the 425°F oven. Begin checking after about 10 minutes; the thickest part of every thigh, away from bone, and the sauce at the center must reach 165°F / 74°C. Continue baking as needed; ten minutes is a first check, not a guarantee of completion. If the skin darkens early, shield it loosely with foil while the meat finishes. Check the separately roasted potatoes for tenderness as well. Rest safely cooked chicken 5 minutes before serving."
+          },
+          {
+            "id": "serve",
+            "title": "Serve",
+            "text": "After the bake meets the temperature checks, taste the sauce with a clean spoon. Use {{ingredients}}: adjust salt and pepper, then add parsley if using. Serve one thigh per portion with potatoes, spinach and sauce."
+          }
+        ]
+      }
+    },
+    {
+      "field": "body",
+      "before": "\n## Chef's Note\n\nThese chicken thighs finish in a garlic-Parmesan cream sauce with spinach, while the potatoes roast separately. Keep the potatoes beside the sauce at serving if you want their browned edges to remain crisp; sauce contact softens them. Brown the chicken first, then use temperature rather than skin color to judge the oven finish.\n\n## Directions\n\n1. **Start the potatoes:** Preheat the oven to 425°F. Set out cooking spray (if using), olive oil, and baby potatoes. Quarter the baby potatoes into similar pieces, toss with enough olive oil to coat, and spread in one layer on a rimmed sheet pan. Roast about 20–25 minutes, checking for browned edges and a center that yields easily to a knife; continue as needed. Check that all the measured thighs fit without overlap in your oven-safe skillet; use a baking dish for the chicken finish if needed. Prepare the chicken and sauce while the potatoes roast. The optional cooking spray is for the baking-dish variation below, which uses a different oven temperature and omits the separate potato roast.\n2. **Brown the chicken:** Use bone-in skin-on chicken thighs, Italian seasoning, salt, black pepper, and unsalted butter: pat chicken dry with paper towels, then season with Italian seasoning, salt and pepper. Melt the butter in a large skillet over medium-high heat. Sear chicken skin-side down until deep golden, about 5–7 minutes, then brown the other side for about 2 minutes. Work in batches if needed, reducing heat if the butter or fond begins to burn. Transfer to a plate reserved for partly cooked chicken; continue directly with the recipe.\n3. **Wilt the spinach:** Use unsalted butter and baby spinach: melt the butter for this step in the skillet, add spinach and stir until it begins to wilt, about 2 minutes. Transfer spinach to a bowl. Pour off excessive rendered chicken fat, keeping the browned fond and leaving no burned bits.\n4. **Make the roux:** Use unsalted butter, garlic cloves, and all-purpose flour: melt the sauce butter over medium heat. Add garlic and stir until fragrant, about 1–2 minutes, without browning it. Whisk in flour and cook about 1 minute, stirring until smooth and lightly colored.\n5. **Finish the sauce:** Use chicken broth, dried thyme, dried basil, heavy cream or half-and-half, and freshly grated Parmesan: gradually whisk broth into the roux with thyme and basil, loosening the browned fond. Simmer gently, whisking, until smooth and lightly thickened, about 1–2 minutes. Lower the heat and stir in cream and Parmesan, about 1–2 minutes, until the cheese melts. Do not boil hard after adding cheese. The sauce has contacted partly cooked chicken fond; wait until the final bake is complete before tasting it.\n6. **Finish the chicken in sauce:** Stir the wilted spinach into the sauce and return the seared chicken skin-side up. Keep as much skin above the sauce as possible. If your oven-safe skillet cannot hold the thighs in one layer, transfer chicken, spinach and sauce to a baking dish large enough to fit them without overlap. Keep the roasted potatoes separate for crispness; adding them to the sauce will soften their surface.\n7. **Bake and measure:** Transfer the skillet or chicken baking dish to the 425°F oven. Begin checking after about 10 minutes; the thickest part of every thigh, away from bone, and the sauce at the center must reach 165°F / 74°C. Continue baking as needed; ten minutes is a first check, not a guarantee of completion. If the skin darkens early, shield it loosely with foil while the meat finishes. Check the separately roasted potatoes for tenderness as well. Rest safely cooked chicken 5 minutes before serving.\n8. **Serve:** After the bake meets the temperature checks, taste the sauce with a clean spoon. Use salt, black pepper, and fresh parsley (if using): adjust salt and pepper, then add parsley if using. Serve one thigh per portion with potatoes, spinach and sauce.\n\n## Potatoes Baked in the Sauce\n\nFor the baking-dish variation, omit the separate potato roast and its oil. Preheat to 400°F and lightly coat a 9-by-13-inch baking dish with the optional cooking spray. Sear the chicken and make the spinach and sauce as directed. Put chicken skin-side up in the dish, arrange the raw quartered potatoes and spinach around it and pour in the sauce. Bake about 25–30 minutes as a first check, then continue until every thigh and the sauce center reach 165°F / 74°C and potatoes are easily pierced. If safely cooked chicken finishes first, move it to a clean plate while the potatoes finish. Rest cooked chicken five minutes, then taste and season the safe sauce. Potatoes baked this way are soft and sauced. Add dishes as needed to keep the scaled chicken in one layer.\n",
+      "after": "\n## Chef's Note\n\nThese chicken thighs finish in a garlic-Parmesan cream sauce with spinach, while the potatoes roast separately. Keep the potatoes beside the sauce at serving if you want their browned edges to remain crisp; sauce contact softens them. Brown the chicken first, then use temperature rather than skin color to judge the oven finish.\n\n## Directions\n\n1. **Start the potatoes:** Preheat the oven to 425°F. Set out cooking spray (if using), olive oil, baby potatoes, and salt. Quarter the baby potatoes into similar pieces, toss with enough olive oil to coat and salt to taste, and spread in one layer on a rimmed sheet pan. Roast about 20–25 minutes, checking for browned edges and a center that yields easily to a knife; continue as needed. Check that all the measured thighs fit without overlap in your oven-safe skillet; use a baking dish for the chicken finish if needed. Prepare the chicken and sauce while the potatoes roast. The optional cooking spray is for the baking-dish variation below, which uses a different oven temperature and omits the separate potato roast.\n2. **Brown the chicken:** Use bone-in skin-on chicken thighs, Italian seasoning, salt, black pepper, and unsalted butter: pat chicken dry with paper towels, then season with Italian seasoning, salt and pepper. Melt the butter in a large skillet over medium-high heat. Sear chicken skin-side down until deep golden, about 5–7 minutes, then brown the other side for about 2 minutes. Work in batches if needed, reducing heat if the butter or fond begins to burn. Transfer to a plate reserved for partly cooked chicken; continue directly with the recipe.\n3. **Wilt the spinach:** Use unsalted butter and baby spinach: melt the butter for this step in the skillet, add spinach and stir until it begins to wilt, about 2 minutes. Transfer spinach to a bowl. Pour off excessive rendered chicken fat, keeping the browned fond and leaving no burned bits.\n4. **Make the roux:** Use unsalted butter, garlic cloves, and all-purpose flour: melt the sauce butter over medium heat. Add garlic and stir until fragrant, about 1–2 minutes, without browning it. Whisk in flour and cook about 1 minute, stirring until smooth and lightly colored.\n5. **Finish the sauce:** Use chicken broth, dried thyme, dried basil, heavy cream or half-and-half, and freshly grated Parmesan: gradually whisk broth into the roux with thyme and basil, loosening the browned fond. Simmer gently, whisking, until smooth and lightly thickened, about 1–2 minutes. Lower the heat and stir in cream and Parmesan, about 1–2 minutes, until the cheese melts. Do not boil hard after adding cheese. The sauce has contacted partly cooked chicken fond; wait until the final bake is complete before tasting it.\n6. **Finish the chicken in sauce:** Stir the wilted spinach into the sauce and return the seared chicken skin-side up. Keep as much skin above the sauce as possible. If your oven-safe skillet cannot hold the thighs in one layer, transfer chicken, spinach and sauce to a baking dish large enough to fit them without overlap. Keep the roasted potatoes separate for crispness; adding them to the sauce will soften their surface.\n7. **Bake and measure:** Transfer the skillet or chicken baking dish to the 425°F oven. Begin checking after about 10 minutes; the thickest part of every thigh, away from bone, and the sauce at the center must reach 165°F / 74°C. Continue baking as needed; ten minutes is a first check, not a guarantee of completion. If the skin darkens early, shield it loosely with foil while the meat finishes. Check the separately roasted potatoes for tenderness as well. Rest safely cooked chicken 5 minutes before serving.\n8. **Serve:** After the bake meets the temperature checks, taste the sauce with a clean spoon. Use salt, black pepper, and fresh parsley (if using): adjust salt and pepper, then add parsley if using. Serve one thigh per portion with potatoes, spinach and sauce.\n\n## Potatoes Baked in the Sauce\n\nFor the baking-dish variation, omit the separate potato roast and its oil. Preheat to 400°F and lightly coat a 9-by-13-inch baking dish with the optional cooking spray. Sear the chicken and make the spinach and sauce as directed. Put chicken skin-side up in the dish, arrange the raw quartered potatoes and spinach around it and pour in the sauce. Bake about 25–30 minutes as a first check, then continue until every thigh and the sauce center reach 165°F / 74°C and potatoes are easily pierced. If safely cooked chicken finishes first, move it to a clean plate while the potatoes finish. Rest cooked chicken five minutes, then taste and season the safe sauce. Potatoes baked this way are soft and sauced. Add dishes as needed to keep the scaled chicken in one layer.\n"
+    }
+  ]
+}

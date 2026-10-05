@@ -1,0 +1,1101 @@
+{
+  "slug": "air-fryer-chicken-tenders",
+  "inputCommit": "e922e95ee275aee6289e7225914045d273154791",
+  "inputSha256": "a8633d88f587f60bc92cb6e34b086910610f4a74379cb46b3773bb7f91dc8589",
+  "status": "accepted-editorial-review; production verification pending",
+  "reviewDate": "2026-10-05",
+  "notKitchenTested": true,
+  "findings": [
+    {
+      "category": "ingredient/source preservation",
+      "before": "3 tbsp. honey",
+      "after": "3 tbsp honey, retained",
+      "rationale": "The saved Paprika baseline governs; the current publisher’s two tablespoons is a different formula, not a correction to this saved batch.",
+      "evidence": ["air", "input original"],
+      "confidence": "high",
+      "question": null
+    },
+    {
+      "category": "ingredient allocation",
+      "before": "FOR THE CHICKEN TENDERS: / FOR THE HONEY MUSTARD:; unstructured ingredient strings",
+      "after": "formula components chicken and sauce, with separate chicken and sauce salt/pepper allowances",
+      "rationale": "Explicit destinations preserve all measured quantities and prevent raw coating ingredients from becoming sauce ingredients.",
+      "evidence": ["input original", "clean"],
+      "confidence": "high",
+      "question": null
+    },
+    {
+      "category": "raw handling",
+      "before": "Keep breading and sauce utensils separate from raw chicken.",
+      "after": "Discard leftover flour, egg mixture and crumbs after raw-chicken contact; wash hands and utensils.",
+      "rationale": "Closes the disposition of coating excess and places sauce mixing before raw handling or behind a clean-utensil condition.",
+      "evidence": ["clean"],
+      "confidence": "high",
+      "question": null
+    },
+    {
+      "category": "endpoint/capacity",
+      "before": "Check the thickest chicken pieces for 165°F / 74°C before serving.",
+      "after": "Probe the thickest part of every tender from the side for 165°F / 74°C; continue cooking as needed.",
+      "rationale": "Each batch and piece can differ; coating color is not a safety measurement. Retain the saved two-sided cooking method.",
+      "evidence": ["air", "endpoint"],
+      "confidence": "high",
+      "question": null
+    },
+    {
+      "category": "timing",
+      "before": "35–55 min, depending on basket capacity",
+      "after": "35–55 min, retained; learning.timing explicitly assumes two to four batches",
+      "rationale": "This is an estimate, not a known appliance capacity. Reject the idea that ten minutes cooks all 1.5 pounds.",
+      "evidence": ["input original", "air"],
+      "confidence": "moderate",
+      "question": "What basket capacity and tender dimensions produce the actual number of batches?"
+    }
+  ],
+  "originalIngredientLedger": [
+    {
+      "originalIngredient": "FOR THE CHICKEN TENDERS:",
+      "quantityAndPreparation": "preserved verbatim in originalIngredient; no missing amount inferred",
+      "destinationAssessment": "All 13 ingredient entries, including the two section headings’ contents, have explicit destinations. Flour, eggs and panko are coating supplies with expected raw-contact excess discarded; consumed coating uptake is unknown. The 1.5 lb chicken, 1.5 cups flour, 2.5 cups panko, 2 eggs, 1/4 cup buttermilk and sauce quantities are unchanged. No salt measure was invented."
+    },
+    {
+      "originalIngredient": "1 1/2 lb. chicken tenders",
+      "quantityAndPreparation": "preserved verbatim in originalIngredient; no missing amount inferred",
+      "destinationAssessment": "All 13 ingredient entries, including the two section headings’ contents, have explicit destinations. Flour, eggs and panko are coating supplies with expected raw-contact excess discarded; consumed coating uptake is unknown. The 1.5 lb chicken, 1.5 cups flour, 2.5 cups panko, 2 eggs, 1/4 cup buttermilk and sauce quantities are unchanged. No salt measure was invented."
+    },
+    {
+      "originalIngredient": "Kosher salt",
+      "quantityAndPreparation": "preserved verbatim in originalIngredient; no missing amount inferred",
+      "destinationAssessment": "All 13 ingredient entries, including the two section headings’ contents, have explicit destinations. Flour, eggs and panko are coating supplies with expected raw-contact excess discarded; consumed coating uptake is unknown. The 1.5 lb chicken, 1.5 cups flour, 2.5 cups panko, 2 eggs, 1/4 cup buttermilk and sauce quantities are unchanged. No salt measure was invented."
+    },
+    {
+      "originalIngredient": "Freshly ground black pepper",
+      "quantityAndPreparation": "preserved verbatim in originalIngredient; no missing amount inferred",
+      "destinationAssessment": "All 13 ingredient entries, including the two section headings’ contents, have explicit destinations. Flour, eggs and panko are coating supplies with expected raw-contact excess discarded; consumed coating uptake is unknown. The 1.5 lb chicken, 1.5 cups flour, 2.5 cups panko, 2 eggs, 1/4 cup buttermilk and sauce quantities are unchanged. No salt measure was invented."
+    },
+    {
+      "originalIngredient": "1 1/2 c. all-purpose flour",
+      "quantityAndPreparation": "preserved verbatim in originalIngredient; no missing amount inferred",
+      "destinationAssessment": "All 13 ingredient entries, including the two section headings’ contents, have explicit destinations. Flour, eggs and panko are coating supplies with expected raw-contact excess discarded; consumed coating uptake is unknown. The 1.5 lb chicken, 1.5 cups flour, 2.5 cups panko, 2 eggs, 1/4 cup buttermilk and sauce quantities are unchanged. No salt measure was invented."
+    },
+    {
+      "originalIngredient": "2 1/2 c. panko bread crumbs",
+      "quantityAndPreparation": "preserved verbatim in originalIngredient; no missing amount inferred",
+      "destinationAssessment": "All 13 ingredient entries, including the two section headings’ contents, have explicit destinations. Flour, eggs and panko are coating supplies with expected raw-contact excess discarded; consumed coating uptake is unknown. The 1.5 lb chicken, 1.5 cups flour, 2.5 cups panko, 2 eggs, 1/4 cup buttermilk and sauce quantities are unchanged. No salt measure was invented."
+    },
+    {
+      "originalIngredient": "2 large eggs",
+      "quantityAndPreparation": "preserved verbatim in originalIngredient; no missing amount inferred",
+      "destinationAssessment": "All 13 ingredient entries, including the two section headings’ contents, have explicit destinations. Flour, eggs and panko are coating supplies with expected raw-contact excess discarded; consumed coating uptake is unknown. The 1.5 lb chicken, 1.5 cups flour, 2.5 cups panko, 2 eggs, 1/4 cup buttermilk and sauce quantities are unchanged. No salt measure was invented."
+    },
+    {
+      "originalIngredient": "1/4 c. buttermilk",
+      "quantityAndPreparation": "preserved verbatim in originalIngredient; no missing amount inferred",
+      "destinationAssessment": "All 13 ingredient entries, including the two section headings’ contents, have explicit destinations. Flour, eggs and panko are coating supplies with expected raw-contact excess discarded; consumed coating uptake is unknown. The 1.5 lb chicken, 1.5 cups flour, 2.5 cups panko, 2 eggs, 1/4 cup buttermilk and sauce quantities are unchanged. No salt measure was invented."
+    },
+    {
+      "originalIngredient": "Cooking spray",
+      "quantityAndPreparation": "preserved verbatim in originalIngredient; no missing amount inferred",
+      "destinationAssessment": "All 13 ingredient entries, including the two section headings’ contents, have explicit destinations. Flour, eggs and panko are coating supplies with expected raw-contact excess discarded; consumed coating uptake is unknown. The 1.5 lb chicken, 1.5 cups flour, 2.5 cups panko, 2 eggs, 1/4 cup buttermilk and sauce quantities are unchanged. No salt measure was invented."
+    },
+    {
+      "originalIngredient": "FOR THE HONEY MUSTARD:",
+      "quantityAndPreparation": "preserved verbatim in originalIngredient; no missing amount inferred",
+      "destinationAssessment": "All 13 ingredient entries, including the two section headings’ contents, have explicit destinations. Flour, eggs and panko are coating supplies with expected raw-contact excess discarded; consumed coating uptake is unknown. The 1.5 lb chicken, 1.5 cups flour, 2.5 cups panko, 2 eggs, 1/4 cup buttermilk and sauce quantities are unchanged. No salt measure was invented."
+    },
+    {
+      "originalIngredient": "1/3 c. mayonnaise",
+      "quantityAndPreparation": "preserved verbatim in originalIngredient; no missing amount inferred",
+      "destinationAssessment": "All 13 ingredient entries, including the two section headings’ contents, have explicit destinations. Flour, eggs and panko are coating supplies with expected raw-contact excess discarded; consumed coating uptake is unknown. The 1.5 lb chicken, 1.5 cups flour, 2.5 cups panko, 2 eggs, 1/4 cup buttermilk and sauce quantities are unchanged. No salt measure was invented."
+    },
+    {
+      "originalIngredient": "3 tbsp. honey",
+      "quantityAndPreparation": "preserved verbatim in originalIngredient; no missing amount inferred",
+      "destinationAssessment": "All 13 ingredient entries, including the two section headings’ contents, have explicit destinations. Flour, eggs and panko are coating supplies with expected raw-contact excess discarded; consumed coating uptake is unknown. The 1.5 lb chicken, 1.5 cups flour, 2.5 cups panko, 2 eggs, 1/4 cup buttermilk and sauce quantities are unchanged. No salt measure was invented."
+    },
+    {
+      "originalIngredient": "2 tbsp. dijon mustard",
+      "quantityAndPreparation": "preserved verbatim in originalIngredient; no missing amount inferred",
+      "destinationAssessment": "All 13 ingredient entries, including the two section headings’ contents, have explicit destinations. Flour, eggs and panko are coating supplies with expected raw-contact excess discarded; consumed coating uptake is unknown. The 1.5 lb chicken, 1.5 cups flour, 2.5 cups panko, 2 eggs, 1/4 cup buttermilk and sauce quantities are unchanged. No salt measure was invented."
+    },
+    {
+      "originalIngredient": "1/4 tsp. hot sauce (optional)",
+      "quantityAndPreparation": "preserved verbatim in originalIngredient; no missing amount inferred",
+      "destinationAssessment": "All 13 ingredient entries, including the two section headings’ contents, have explicit destinations. Flour, eggs and panko are coating supplies with expected raw-contact excess discarded; consumed coating uptake is unknown. The 1.5 lb chicken, 1.5 cups flour, 2.5 cups panko, 2 eggs, 1/4 cup buttermilk and sauce quantities are unchanged. No salt measure was invented."
+    },
+    {
+      "originalIngredient": "Pinch of kosher salt",
+      "quantityAndPreparation": "preserved verbatim in originalIngredient; no missing amount inferred",
+      "destinationAssessment": "All 13 ingredient entries, including the two section headings’ contents, have explicit destinations. Flour, eggs and panko are coating supplies with expected raw-contact excess discarded; consumed coating uptake is unknown. The 1.5 lb chicken, 1.5 cups flour, 2.5 cups panko, 2 eggs, 1/4 cup buttermilk and sauce quantities are unchanged. No salt measure was invented."
+    },
+    {
+      "originalIngredient": "Freshly ground black pepper",
+      "quantityAndPreparation": "preserved verbatim in originalIngredient; no missing amount inferred",
+      "destinationAssessment": "All 13 ingredient entries, including the two section headings’ contents, have explicit destinations. Flour, eggs and panko are coating supplies with expected raw-contact excess discarded; consumed coating uptake is unknown. The 1.5 lb chicken, 1.5 cups flour, 2.5 cups panko, 2 eggs, 1/4 cup buttermilk and sauce quantities are unchanged. No salt measure was invented."
+    }
+  ],
+  "ingredientLedger": [
+    {
+      "ingredient": "chicken.chicken",
+      "name": "chicken tenders",
+      "quantity": {
+        "amount": "1 1/2",
+        "unit": "lb"
+      },
+      "allowance": null,
+      "preparation": null,
+      "role": "ingredient",
+      "optional": false,
+      "destinations": [
+        {
+          "step": "season",
+          "share": 1
+        }
+      ],
+      "allocation": "exactly one; no invented split"
+    },
+    {
+      "ingredient": "chicken.salt",
+      "name": "kosher salt",
+      "quantity": null,
+      "allowance": "to taste",
+      "preparation": null,
+      "role": "ingredient",
+      "optional": false,
+      "destinations": [
+        {
+          "step": "season",
+          "share": 1
+        }
+      ],
+      "allocation": "exactly one; no invented split"
+    },
+    {
+      "ingredient": "chicken.pepper",
+      "name": "freshly ground black pepper",
+      "quantity": null,
+      "allowance": "to taste",
+      "preparation": null,
+      "role": "ingredient",
+      "optional": false,
+      "destinations": [
+        {
+          "step": "season",
+          "share": 1
+        }
+      ],
+      "allocation": "exactly one; no invented split"
+    },
+    {
+      "ingredient": "chicken.flour",
+      "name": "all-purpose flour",
+      "quantity": {
+        "amount": "1 1/2",
+        "unit": "cup"
+      },
+      "allowance": null,
+      "preparation": null,
+      "role": "ingredient",
+      "optional": false,
+      "destinations": [
+        {
+          "step": "coat",
+          "share": 1
+        }
+      ],
+      "allocation": "exactly one; no invented split"
+    },
+    {
+      "ingredient": "chicken.panko",
+      "name": "panko breadcrumbs",
+      "quantity": {
+        "amount": "2 1/2",
+        "unit": "cup"
+      },
+      "allowance": null,
+      "preparation": null,
+      "role": "ingredient",
+      "optional": false,
+      "destinations": [
+        {
+          "step": "coat",
+          "share": 1
+        }
+      ],
+      "allocation": "exactly one; no invented split"
+    },
+    {
+      "ingredient": "chicken.eggs",
+      "name": "large egg",
+      "quantity": {
+        "amount": 2,
+        "unit": "count"
+      },
+      "allowance": null,
+      "preparation": null,
+      "role": "ingredient",
+      "optional": false,
+      "destinations": [
+        {
+          "step": "coat",
+          "share": 1
+        }
+      ],
+      "allocation": "exactly one; no invented split"
+    },
+    {
+      "ingredient": "chicken.buttermilk",
+      "name": "buttermilk",
+      "quantity": {
+        "amount": "1/4",
+        "unit": "cup"
+      },
+      "allowance": null,
+      "preparation": null,
+      "role": "ingredient",
+      "optional": false,
+      "destinations": [
+        {
+          "step": "coat",
+          "share": 1
+        }
+      ],
+      "allocation": "exactly one; no invented split"
+    },
+    {
+      "ingredient": "chicken.spray",
+      "name": "cooking spray",
+      "quantity": null,
+      "allowance": "as needed for both sides of each batch",
+      "preparation": null,
+      "role": "ingredient",
+      "optional": false,
+      "destinations": [
+        {
+          "step": "cook",
+          "share": 1
+        }
+      ],
+      "allocation": "exactly one; no invented split"
+    },
+    {
+      "ingredient": "sauce.mayonnaise",
+      "name": "mayonnaise",
+      "quantity": {
+        "amount": "1/3",
+        "unit": "cup"
+      },
+      "allowance": null,
+      "preparation": null,
+      "role": "ingredient",
+      "optional": false,
+      "destinations": [
+        {
+          "step": "sauce",
+          "share": 1
+        }
+      ],
+      "allocation": "exactly one; no invented split"
+    },
+    {
+      "ingredient": "sauce.honey",
+      "name": "honey",
+      "quantity": {
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      "allowance": null,
+      "preparation": null,
+      "role": "ingredient",
+      "optional": false,
+      "destinations": [
+        {
+          "step": "sauce",
+          "share": 1
+        }
+      ],
+      "allocation": "exactly one; no invented split"
+    },
+    {
+      "ingredient": "sauce.mustard",
+      "name": "Dijon mustard",
+      "quantity": {
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      "allowance": null,
+      "preparation": null,
+      "role": "ingredient",
+      "optional": false,
+      "destinations": [
+        {
+          "step": "sauce",
+          "share": 1
+        }
+      ],
+      "allocation": "exactly one; no invented split"
+    },
+    {
+      "ingredient": "sauce.hot-sauce",
+      "name": "hot sauce",
+      "quantity": {
+        "amount": "1/4",
+        "unit": "tsp"
+      },
+      "allowance": null,
+      "preparation": null,
+      "role": "ingredient",
+      "optional": true,
+      "destinations": [
+        {
+          "step": "sauce",
+          "share": 1
+        }
+      ],
+      "allocation": "exactly one; no invented split"
+    },
+    {
+      "ingredient": "sauce.salt",
+      "name": "kosher salt",
+      "quantity": null,
+      "allowance": "a pinch",
+      "preparation": null,
+      "role": "ingredient",
+      "optional": false,
+      "destinations": [
+        {
+          "step": "sauce",
+          "share": 1
+        }
+      ],
+      "allocation": "exactly one; no invented split"
+    },
+    {
+      "ingredient": "sauce.pepper",
+      "name": "freshly ground black pepper",
+      "quantity": null,
+      "allowance": "to taste",
+      "preparation": null,
+      "role": "ingredient",
+      "optional": false,
+      "destinations": [
+        {
+          "step": "sauce",
+          "share": 1
+        }
+      ],
+      "allocation": "exactly one; no invented split"
+    }
+  ],
+  "ingredientAssessment": "All 13 ingredient entries, including the two section headings’ contents, have explicit destinations. Flour, eggs and panko are coating supplies with expected raw-contact excess discarded; consumed coating uptake is unknown. The 1.5 lb chicken, 1.5 cups flour, 2.5 cups panko, 2 eggs, 1/4 cup buttermilk and sauce quantities are unchanged. No salt measure was invented.",
+  "processGraph": "Dry/season → clean sauce bowl → coat → 400°F spaced batches with flip at five minutes → measure each tender → prompt service. Setup is attended, each batch needs flipping/checking, and elapsed time depends on the basket. No required rest or marinade was added; a longer service delay needs safe hot holding rather than indefinite rack cooling.",
+  "ratioYieldCapacity": "Four portions is the saved yield, not measured finished weight. Coating quantities are ample station supplies and should not be treated as fully consumed nutrition. Sauce retains the sweeter saved honey quantity. Basket fit remains unknown and is exposed in timing.",
+  "relationships": "No composed meal directly references this slug. No recipe merge is proposed. The separate panko-Parmesan Chicken Fingers retains its own formula, attribution and identity. Optional pairing suggestions were not invented merely to clear lint.",
+  "fourLensReview": "Practicality: useful batch estimate and sauce parallelism. Cultural context: American breaded chicken without invented origin history. Technique: thin attached coating and measured centers. Flavor: saved sweet-tangy honey mustard balances the crumb coating.",
+  "kitchenQuestions": [
+    "Confirm tender dimensions and basket capacity; time preheating, breading, flips and the full batch schedule.",
+    "Check flour/egg/panko coverage and amount discarded, saved three-tablespoon honey balance, and crispness of the first batch at service."
+  ],
+  "changedFields": [
+    {
+      "field": "servings",
+      "before": "4",
+      "after": "4 portions"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "FOR THE CHICKEN TENDERS:",
+        "1 1/2 lb. chicken tenders",
+        "Kosher salt",
+        "Freshly ground black pepper",
+        "1 1/2 c. all-purpose flour",
+        "2 1/2 c. panko bread crumbs",
+        "2 large eggs",
+        "1/4 c. buttermilk",
+        "Cooking spray",
+        "FOR THE HONEY MUSTARD:",
+        "1/3 c. mayonnaise",
+        "3 tbsp. honey",
+        "2 tbsp. dijon mustard",
+        "1/4 tsp. hot sauce (optional)",
+        "Pinch of kosher salt",
+        "Freshly ground black pepper"
+      ],
+      "after": [
+        "--- Chicken tenders ---",
+        "1 1/2 lb chicken tenders",
+        "kosher salt, to taste",
+        "freshly ground black pepper, to taste",
+        "1 1/2 cups all-purpose flour",
+        "2 1/2 cups panko breadcrumbs",
+        "2 large eggs",
+        "1/4 cup buttermilk",
+        "cooking spray, as needed for both sides of each batch",
+        "--- Honey mustard ---",
+        "1/3 cup mayonnaise",
+        "3 tbsp honey",
+        "2 tbsp Dijon mustard",
+        "1/4 tsp hot sauce, optional",
+        "kosher salt, a pinch",
+        "freshly ground black pepper, to taste"
+      ]
+    },
+    {
+      "field": "equipment",
+      "before": ["air-fryer"],
+      "after": ["air-fryer", "shallow-dishes", "instant-read-thermometer", "wire-rack"]
+    },
+    {
+      "field": "description",
+      "before": null,
+      "after": "Panko-coated chicken tenders with a mayonnaise, honey and Dijon dipping sauce."
+    },
+    {
+      "field": "formula",
+      "before": null,
+      "after": {
+        "version": 1,
+        "yield": {
+          "amount": 4,
+          "unit": "portion"
+        },
+        "components": [
+          {
+            "id": "chicken",
+            "name": "Chicken tenders",
+            "ingredients": [
+              {
+                "id": "chicken",
+                "key": "chicken",
+                "name": "chicken tenders",
+                "quantity": {
+                  "amount": "1 1/2",
+                  "unit": "lb"
+                },
+                "uses": [
+                  {
+                    "step": "season",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "salt",
+                "key": "salt",
+                "name": "kosher salt",
+                "allowance": "to taste",
+                "uses": [
+                  {
+                    "step": "season",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "pepper",
+                "key": "pepper",
+                "name": "freshly ground black pepper",
+                "allowance": "to taste",
+                "uses": [
+                  {
+                    "step": "season",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "flour",
+                "key": "flour",
+                "name": "all-purpose flour",
+                "quantity": {
+                  "amount": "1 1/2",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "coat",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "panko",
+                "key": "panko",
+                "name": "panko breadcrumbs",
+                "quantity": {
+                  "amount": "2 1/2",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "coat",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "eggs",
+                "key": "eggs",
+                "name": "large egg",
+                "plural": "large eggs",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "coat",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "buttermilk",
+                "key": "buttermilk",
+                "name": "buttermilk",
+                "quantity": {
+                  "amount": "1/4",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "coat",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "spray",
+                "key": "cooking-spray",
+                "name": "cooking spray",
+                "allowance": "as needed for both sides of each batch",
+                "uses": [
+                  {
+                    "step": "cook",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "sauce",
+            "name": "Honey mustard",
+            "ingredients": [
+              {
+                "id": "mayonnaise",
+                "key": "mayonnaise",
+                "name": "mayonnaise",
+                "quantity": {
+                  "amount": "1/3",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "sauce",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "honey",
+                "key": "honey",
+                "name": "honey",
+                "quantity": {
+                  "amount": 3,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "sauce",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "mustard",
+                "key": "mustard",
+                "name": "Dijon mustard",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "sauce",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "hot-sauce",
+                "key": "hot-sauce",
+                "name": "hot sauce",
+                "quantity": {
+                  "amount": "1/4",
+                  "unit": "tsp"
+                },
+                "optional": true,
+                "uses": [
+                  {
+                    "step": "sauce",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "salt",
+                "key": "salt",
+                "name": "kosher salt",
+                "allowance": "a pinch",
+                "uses": [
+                  {
+                    "step": "sauce",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "pepper",
+                "key": "pepper",
+                "name": "freshly ground black pepper",
+                "allowance": "to taste",
+                "uses": [
+                  {
+                    "step": "sauce",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "id": "season",
+            "title": "Prepare the chicken",
+            "text": "Use {{ingredients}}: pat the chicken dry with paper towels and season both sides. Keep the tenders a similar thickness; if using breast strips instead, cut them to match. Do not rinse raw chicken."
+          },
+          {
+            "id": "sauce",
+            "title": "Mix the honey mustard",
+            "text": "Whisk together {{ingredients}} in a clean bowl before starting the breading, or use clean hands and utensils while the first batch cooks. Cover and refrigerate until serving."
+          },
+          {
+            "id": "coat",
+            "title": "Set the breading station and coat",
+            "text": "Set out {{ingredients}}. Put flour in one shallow dish, whisk eggs with buttermilk in a second, and put panko in a third. Coat each tender lightly in flour, shake off excess, dip in the egg mixture and let excess drip off, then press into the panko. Discard leftover flour, egg mixture and crumbs after raw-chicken contact; wash hands and utensils."
+          },
+          {
+            "id": "cook",
+            "title": "Air-fry in spaced batches",
+            "text": "Follow the air fryer’s instructions for preheating to 400°F. Arrange chicken in a single layer with gaps; cook only what fits without overlapping. Apply {{ingredients}} to the tops and cook 5 minutes. Flip, spray the second side and cook about 5 minutes more. Probe the thickest part of every tender from the side for 165°F / 74°C; continue cooking as needed. Repeat with remaining chicken. Keep finished pieces on a clean rack without stacking while the next batch cooks, and serve promptly."
+          },
+          {
+            "id": "serve",
+            "title": "Serve",
+            "text": "Serve the hot tenders with the honey mustard. Check each batch independently; browned crumbs alone do not establish that the chicken is done."
+          }
+        ]
+      }
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Bread chicken without losing the coating",
+        "outcome": "A firmly attached, crisp coating and chicken that reaches 165°F / 74°C in each batch.",
+        "techniques": ["browning", "temperature"],
+        "before": [
+          "Check how many tenders fit in one layer in your basket; plan extra 10-minute batches rather than piling them in.",
+          "Set the sauce bowl and serving utensils apart from the raw-chicken breading station. Follow the appliance instructions for preheating and compatible cooking spray."
+        ],
+        "checkpoints": [
+          {
+            "step": 3,
+            "cue": "A thin flour film and a pressed-on crumb layer cover each tender; wet egg is not pooling.",
+            "why": "Shaking off excess flour and egg prevents a thick, sliding layer beneath the crumbs."
+          },
+          {
+            "step": 4,
+            "cue": "The tenders sit in one layer with visible gaps, and each center measures 165°F / 74°C.",
+            "why": "Crowding limits airflow; the coating color is a separate check from poultry doneness."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Crumbs are pale or patchy",
+            "cause": "Dry areas of panko or crowded pieces are browning unevenly.",
+            "fix": "Spray lightly over pale areas, leave gaps, and continue only as needed to reach the chicken endpoint. Avoid extending cooking just to make fully cooked chicken uniformly dark."
+          },
+          {
+            "problem": "Earlier batches soften",
+            "cause": "Stacking or covering traps steam.",
+            "fix": "Set cooked pieces apart on a clean rack and serve as soon as all batches finish; a large batch is best served in rounds."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Chicken tenders",
+            "alternative": "Boneless skinless chicken breast cut into similar strips",
+            "effect": "Thickness controls cooking time; measure each strip rather than assuming the same ten minutes."
+          },
+          {
+            "ingredient": "Optional hot sauce",
+            "alternative": "Omit it",
+            "effect": "The sauce keeps its honey-mustard flavor with less heat."
+          }
+        ],
+        "timing": "15 minutes prep plus about 10 minutes per batch. The stated 35–55 minutes assumes two to four batches and includes sauce mixed during setup or cooking; preheating, thicker strips or additional batches can extend elapsed time. Most hands-on work is breading and flipping; cooking time is not ten minutes for the whole recipe.",
+        "storage": "Refrigerate in shallow containers within 2 hours (1 hour above 90°F / 32°C), at 40°F / 4°C or below. Use cooked chicken within 3–4 days and reheat leftovers to 165°F / 74°C. Store sauce separately. Reheat the chicken in a single layer in the air fryer, checking the center; expect the coating to be less crisp than freshly cooked.",
+        "sources": [
+          {
+            "title": "Delish — Air Fryer Chicken Tenders",
+            "url": "https://www.delish.com/cooking/recipe-ideas/a32936658/air-fryer-chicken-tenders-recipe/"
+          },
+          {
+            "title": "FoodSafety.gov — Safe minimum internal temperatures",
+            "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+          },
+          {
+            "title": "FoodSafety.gov — Cold food storage chart",
+            "url": "https://www.foodsafety.gov/food-safety-charts/cold-food-storage-charts"
+          },
+          {
+            "title": "FoodSafety.gov — Four steps to food safety",
+            "url": "https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-05"
+        }
+      }
+    },
+    {
+      "field": "body",
+      "before": "\n## Chef's Note\n\nThe flour, egg and panko layers give the tenders a crisp coating. Leave space in the basket and check the chicken itself rather than judging doneness by the crumb color. Make the honey mustard while the first batch cooks.\n\n## Directions\n\n1. **Prepare:** Season chicken tenders on both sides with salt and pepper. Place flour and bread crumbs in two separate shallow bowls. In a third bowl, whisk together eggs and buttermilk. Working one at a time, dip chicken in flour, then egg mixture, and finally in bread crumbs, pressing to coat.\n\n2. **Continue:** Working in batches, place chicken tenders in basket of air fryer, being sure to not overcrowd it. Spray the tops of chicken with cooking spray and cook at 400°F for 5 minutes. Flip chicken over, spray the tops with more cooking spray and cook 5 minutes more. Repeat with remaining chicken tenders. Check the thickest chicken pieces for 165°F / 74°C before serving. Keep breading and sauce utensils separate from raw chicken.\n\n3. **Continue:** Make sauce: In a small bowl, whisk together mayonnaise, honey, dijon, and hot sauce, if using. Season with a pinch of salt and a few cracks of black pepper.\n\n4. **Finish:** Serve chicken tenders with honey mustard.\n",
+      "after": "\n## Chef's Note\n\nThese tenders use a flour-and-egg coating to hold the panko in place. A light spray of oil helps the crumbs brown, while space around each piece lets the air fryer work evenly. The dipping sauce can be mixed before handling raw chicken so it stays ready for serving.\n\n## Directions\n\n1. **Prepare the chicken:** Use chicken tenders, kosher salt, and freshly ground black pepper: pat the chicken dry with paper towels and season both sides. Keep the tenders a similar thickness; if using breast strips instead, cut them to match. Do not rinse raw chicken.\n2. **Mix the honey mustard:** Whisk together mayonnaise, honey, Dijon mustard, hot sauce (if using), kosher salt, and freshly ground black pepper in a clean bowl before starting the breading, or use clean hands and utensils while the first batch cooks. Cover and refrigerate until serving.\n3. **Set the breading station and coat:** Set out all-purpose flour, panko breadcrumbs, large eggs, and buttermilk. Put flour in one shallow dish, whisk eggs with buttermilk in a second, and put panko in a third. Coat each tender lightly in flour, shake off excess, dip in the egg mixture and let excess drip off, then press into the panko. Discard leftover flour, egg mixture and crumbs after raw-chicken contact; wash hands and utensils.\n4. **Air-fry in spaced batches:** Follow the air fryer’s instructions for preheating to 400°F. Arrange chicken in a single layer with gaps; cook only what fits without overlapping. Apply cooking spray to the tops and cook 5 minutes. Flip, spray the second side and cook about 5 minutes more. Probe the thickest part of every tender from the side for 165°F / 74°C; continue cooking as needed. Repeat with remaining chicken. Keep finished pieces on a clean rack without stacking while the next batch cooks, and serve promptly.\n5. **Serve:** Serve the hot tenders with the honey mustard. Check each batch independently; browned crumbs alone do not establish that the chicken is done.\n"
+    }
+  ],
+  "validation": {
+    "formulaSchema": "pass",
+    "compiledFields": "pass",
+    "editorialAudit": {
+      "slug": "air-fryer-chicken-tenders",
+      "title": "Air Fryer Chicken Tenders",
+      "status": "editorial-review",
+      "stepCount": 5,
+      "issues": []
+    },
+    "scaling": [
+      {
+        "factor": 0.5,
+        "ingredients": [
+          "--- Chicken tenders ---",
+          "3/4 lb chicken tenders",
+          "kosher salt, to taste",
+          "freshly ground black pepper, to taste",
+          "3/4 cup all-purpose flour",
+          "1 1/4 cups panko breadcrumbs",
+          "1 large egg",
+          "1/8 cup buttermilk",
+          "cooking spray, as needed for both sides of each batch",
+          "--- Honey mustard ---",
+          "1/6 cup mayonnaise",
+          "1 1/2 tbsp honey",
+          "1 tbsp Dijon mustard",
+          "1/8 tsp hot sauce, optional",
+          "kosher salt, a pinch",
+          "freshly ground black pepper, to taste"
+        ],
+        "yield": "2 portions"
+      },
+      {
+        "factor": 1,
+        "ingredients": [
+          "--- Chicken tenders ---",
+          "1 1/2 lb chicken tenders",
+          "kosher salt, to taste",
+          "freshly ground black pepper, to taste",
+          "1 1/2 cups all-purpose flour",
+          "2 1/2 cups panko breadcrumbs",
+          "2 large eggs",
+          "1/4 cup buttermilk",
+          "cooking spray, as needed for both sides of each batch",
+          "--- Honey mustard ---",
+          "1/3 cup mayonnaise",
+          "3 tbsp honey",
+          "2 tbsp Dijon mustard",
+          "1/4 tsp hot sauce, optional",
+          "kosher salt, a pinch",
+          "freshly ground black pepper, to taste"
+        ],
+        "yield": "4 portions"
+      },
+      {
+        "factor": 2,
+        "ingredients": [
+          "--- Chicken tenders ---",
+          "3 lb chicken tenders",
+          "kosher salt, to taste",
+          "freshly ground black pepper, to taste",
+          "3 cups all-purpose flour",
+          "5 cups panko breadcrumbs",
+          "4 large eggs",
+          "1/2 cup buttermilk",
+          "cooking spray, as needed for both sides of each batch",
+          "--- Honey mustard ---",
+          "2/3 cup mayonnaise",
+          "6 tbsp honey",
+          "4 tbsp Dijon mustard",
+          "1/2 tsp hot sauce, optional",
+          "kosher salt, a pinch",
+          "freshly ground black pepper, to taste"
+        ],
+        "yield": "8 portions"
+      }
+    ],
+    "identityPreserved": true,
+    "sourceLinkPreserved": true,
+    "serializedCompiledFields": "pass",
+    "shoppingTotals": [
+      "1 1/2 lb chicken tenders",
+      "kosher salt, to taste",
+      "freshly ground black pepper, to taste",
+      "1 1/2 cups all-purpose flour",
+      "2 1/2 cups panko breadcrumbs",
+      "2 large eggs",
+      "1/4 cup buttermilk",
+      "cooking spray, as needed for both sides of each batch",
+      "1/3 cup mayonnaise",
+      "3 tbsp honey",
+      "2 tbsp Dijon mustard",
+      "1/4 tsp hot sauce, optional",
+      "kosher salt, a pinch",
+      "freshly ground black pepper, to taste"
+    ],
+    "formulaRegressionTests": "6/6 existing tests passed",
+    "focusedLint": "0 errors; air-fryer optional pairsWith warning retained",
+    "fullBuildBrowserExports": "not run by worker; integration owner release gate"
+  },
+  "acceptedSha256": "4b6bb7b2dac09439a618c88805135713f0297f25c5af10fff5dbeef5aec5c3a2",
+  "independentAcceptance": "Consequential findings challenged; final integration corrections recorded in first-ten.md.",
+  "sourceEvidence": "../editorial-campaign/2026-10-05/poultry-primary-sources.json",
+  "wholeReviewRecord": "air-fryer-chicken-tenders.md",
+  "finalAuthoredIngredientLedger": [
+    {
+      "component": "Chicken tenders",
+      "id": "chicken",
+      "key": "chicken",
+      "name": "chicken tenders",
+      "quantity": {
+        "amount": "1 1/2",
+        "unit": "lb"
+      },
+      "uses": [
+        {
+          "step": "season",
+          "share": 1
+        }
+      ]
+    },
+    {
+      "component": "Chicken tenders",
+      "id": "salt",
+      "key": "salt",
+      "name": "kosher salt",
+      "allowance": "to taste",
+      "uses": [
+        {
+          "step": "season",
+          "share": 1
+        }
+      ]
+    },
+    {
+      "component": "Chicken tenders",
+      "id": "pepper",
+      "key": "pepper",
+      "name": "freshly ground black pepper",
+      "allowance": "to taste",
+      "uses": [
+        {
+          "step": "season",
+          "share": 1
+        }
+      ]
+    },
+    {
+      "component": "Chicken tenders",
+      "id": "flour",
+      "key": "flour",
+      "name": "all-purpose flour",
+      "quantity": {
+        "amount": "1 1/2",
+        "unit": "cup"
+      },
+      "uses": [
+        {
+          "step": "coat",
+          "share": 1
+        }
+      ]
+    },
+    {
+      "component": "Chicken tenders",
+      "id": "panko",
+      "key": "panko",
+      "name": "panko breadcrumbs",
+      "quantity": {
+        "amount": "2 1/2",
+        "unit": "cup"
+      },
+      "uses": [
+        {
+          "step": "coat",
+          "share": 1
+        }
+      ]
+    },
+    {
+      "component": "Chicken tenders",
+      "id": "eggs",
+      "key": "eggs",
+      "name": "large egg",
+      "plural": "large eggs",
+      "quantity": {
+        "amount": 2,
+        "unit": "count"
+      },
+      "uses": [
+        {
+          "step": "coat",
+          "share": 1
+        }
+      ]
+    },
+    {
+      "component": "Chicken tenders",
+      "id": "buttermilk",
+      "key": "buttermilk",
+      "name": "buttermilk",
+      "quantity": {
+        "amount": "1/4",
+        "unit": "cup"
+      },
+      "uses": [
+        {
+          "step": "coat",
+          "share": 1
+        }
+      ]
+    },
+    {
+      "component": "Chicken tenders",
+      "id": "spray",
+      "key": "cooking-spray",
+      "name": "cooking spray",
+      "allowance": "as needed for both sides of each batch",
+      "uses": [
+        {
+          "step": "cook",
+          "share": 1
+        }
+      ]
+    },
+    {
+      "component": "Honey mustard",
+      "id": "mayonnaise",
+      "key": "mayonnaise",
+      "name": "mayonnaise",
+      "quantity": {
+        "amount": "1/3",
+        "unit": "cup"
+      },
+      "uses": [
+        {
+          "step": "sauce",
+          "share": 1
+        }
+      ]
+    },
+    {
+      "component": "Honey mustard",
+      "id": "honey",
+      "key": "honey",
+      "name": "honey",
+      "quantity": {
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      "uses": [
+        {
+          "step": "sauce",
+          "share": 1
+        }
+      ]
+    },
+    {
+      "component": "Honey mustard",
+      "id": "mustard",
+      "key": "mustard",
+      "name": "Dijon mustard",
+      "quantity": {
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      "uses": [
+        {
+          "step": "sauce",
+          "share": 1
+        }
+      ]
+    },
+    {
+      "component": "Honey mustard",
+      "id": "hot-sauce",
+      "key": "hot-sauce",
+      "name": "hot sauce",
+      "quantity": {
+        "amount": "1/4",
+        "unit": "tsp"
+      },
+      "optional": true,
+      "uses": [
+        {
+          "step": "sauce",
+          "share": 1
+        }
+      ]
+    },
+    {
+      "component": "Honey mustard",
+      "id": "salt",
+      "key": "salt",
+      "name": "kosher salt",
+      "allowance": "a pinch",
+      "uses": [
+        {
+          "step": "sauce",
+          "share": 1
+        }
+      ]
+    },
+    {
+      "component": "Honey mustard",
+      "id": "pepper",
+      "key": "pepper",
+      "name": "freshly ground black pepper",
+      "allowance": "to taste",
+      "uses": [
+        {
+          "step": "sauce",
+          "share": 1
+        }
+      ]
+    }
+  ],
+  "rootCorrections": []
+}

@@ -31,8 +31,16 @@ test('vanilla ice cream allocates salt and includes cold custard plus machine ti
 test('peach ice cream allocates all sugar and salt and keeps fruit chilled', () => {
   const { data, content } = read('custard-peach-ice-cream');
   assert.equal(data.totalTime, 'About 9-11 hr, plus machine preparation');
-  assert.match(content, /cream, milk, salt, and 1\/2 cup sugar/);
-  assert.match(content, /yolks with 1\/4 cup sugar/);
+  assert.ok(data.ingredients.includes('1 1/4 cups Granulated Sugar (divided)'));
+  assert.match(content, /Toss peeled peaches with two-fifths of the sugar/);
+  assert.match(
+    content,
+    /cream, milk, salt, and another two-fifths of the sugar \(1\/2 cup at the original batch size\)/
+  );
+  assert.match(
+    content,
+    /yolks with the remaining one-fifth of the sugar \(1\/4 cup at the original batch size\)/
+  );
   assert.match(content, /Refrigerate both until needed/);
   assert.match(content, /170-175°F/);
   assert.match(content, /respecting its fill limit/);
