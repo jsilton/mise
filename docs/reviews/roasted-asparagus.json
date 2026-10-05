@@ -1,0 +1,795 @@
+{
+  "slug": "roasted-asparagus",
+  "title": "Asparagus",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "reviewDate": "2026-10-05",
+  "notKitchenTested": true,
+  "inputCommit": "95b37f8bca5008657a668e52a1d970b1d03367d3",
+  "inputSha256": "5c6a28e60520af8b385ae5a7e5c5cacb392716affacadb2f8452e0579a29151f",
+  "candidateSha256": "d8e1601fca93f1325ed25ad26fa669917f41d760699957d13f30bd56f5398685",
+  "independentCandidateCheckpoint": {
+    "sha256": "2ee2033c6ff0c99fc3788d3e487423d14272dbf1c6264dba5d7913d46d02fa10",
+    "disposition": "accept corrected proposal, integration/kitchen gates separate",
+    "scope": "Prior independent whole challenge and correction check. New root timing/storage gates remain pending."
+  },
+  "identitySourceRatingLinksPreserved": true,
+  "summary": "Preserve the complete one-bunch formula, including the measured optional Parmesan-or-zest choice. Replace instant-evaporation and categorical mushiness claims with stalk-thickness, tender-stem and lightly browned-tip checks. The separate lemon-juice finish stays. No standardized bunch weight or lemon-to-zest equivalence is invented.",
+  "formulaSummary": "One bunch asparagus; 1 tbsp oil; 1/2 tsp kosher salt; 1/4 tsp pepper; juice of 1/2 lemon; optional 1 tbsp Parmesan OR zest. Four planning portions.",
+  "provenance": "d02cda7a earliest tracked source has the complete same formula and roast window, but no named publisher. ffa83277 deliberately removed steam metadata and that repair remains. No publisher attribution invented; primary extension/FDA sources constrain method/handling only.",
+  "committedOriginal": {
+    "commit": "d02cda7aa435fe376d0bc7948cbe2c0262c30434",
+    "path": "src/content/recipes/roasted-asparagus.md",
+    "sha256": "e5e172ca04c76781da82f4d25f50564d8e2038bcad271dc7833f0ddf5993807c",
+    "verifiedExactGit": true
+  },
+  "sourceApplicability": [
+    {
+      "title": "Michigan State University Extension — How to Roast Any Vegetable",
+      "url": "https://msu-prod.dotcms.cloud/grand_traverse/uploads/files/How%20to%20Roast%20Vegetables.pdf",
+      "applicability": "Primary extension guide: drying, spacing, tenderness and different rates by type/size. Method evidence only; no certification of the eight house formulas or their yields, oil ratios, glazes or exact clocks.",
+      "evidenceReuse": true
+    },
+    {
+      "title": "FDA — Selecting and Serving Produce Safely",
+      "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely",
+      "applicability": "Primary FDA handling guidance: wash produce before cutting under running water, dry with clean material, and separate ready-to-eat produce from raw meat tools. Washing does not sterilize. Applies especially to spinach/herb finishes and linked meals.",
+      "evidenceReuse": true
+    },
+    {
+      "title": "USDA FSIS — Leftovers and Food Safety",
+      "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety",
+      "applicability": "Primary USDA general leftover handling: prompt shallow-container refrigeration within two hours, 3–4 refrigerated days and 165°F reheating. Quality/crispness comments are editorial observations, not source-tested shelf life.",
+      "evidenceReuse": true
+    }
+  ],
+  "findings": [
+    {
+      "category": "overstated mechanism and thickness endpoint",
+      "before": "90% water; steam/lowheatturnsgraymushy;425°F+evaporatessurfacemoistureinstantly;8–12min",
+      "after": "425°F short roast; groupthickness, check tenderstem/lightlybrownedtip, removereadystalks",
+      "rationale": "No categorical criticism of other methods or instant-evaporation claim is necessary. Retain the actual8–12 roast with observations.",
+      "evidence": ["input original", "d02cda7a committed origin", "roasting"],
+      "confidence": "moderate",
+      "question": null
+    },
+    {
+      "category": "optional garnish and bunch accounting",
+      "before": "1 bunch;½ lemon;Optional1tbspGratedParmesanorLemonZest",
+      "after": "Samecount/halfjuice/tablespoonoptionalParmesanORzest with distinct finish destinations",
+      "rationale": "Exact saved amounts remain, including the unusually large possible zest option. No bunch weight or lemon-yield equivalence is invented. A kitchen preference question is recorded rather than reducing the zest.",
+      "evidence": ["d02cda7a committed origin", "input original"],
+      "confidence": "high",
+      "question": "Confirm whether the original shared tablespoon applies to both topping choices; current exact saved formula preserved."
+    },
+    {
+      "category": "elapsed time and origin claim",
+      "before": "5prep10cook15total;originUnitedStates",
+      "after": "5prep8–12cook13–17total;unsupportedoriginremoved",
+      "rationale": "Elapsed arithmetic follows the current method range. No author/source evidence establishes a specific geographic recipe origin. Existing cuisine/style, title and prior steam-tag removal remain.",
+      "evidence": ["input original", "ffa83277 pilot repair", "recipe standard"],
+      "confidence": "moderate",
+      "question": null
+    },
+    {
+      "category": "nutrition and authored learning",
+      "before": "Legacy unverified nutrition; no authored learning or formula",
+      "after": "Nutrition removed; authored formula and recipe-specific learning added, with compiled ingredients, yield and Directions. See exact changedFields for the full original and replacement values.",
+      "rationale": "Delete unsupported legacy nutrition without replacement; publish ingredient allocations, checkpoints, troubleshooting, timing/storage and applicable method sources. Formula portion count preserves the current serving suggestion, not an invented finished-weight yield. Saved formulas and exact edits are independently traceable below.",
+      "evidence": ["recipe standard", "structured authoring standard", "input original"],
+      "confidence": "high",
+      "question": null
+    }
+  ],
+  "originalIngredientLedger": [
+    {
+      "ingredient": "1 bunch Fresh Asparagus, woody ends trimmed",
+      "destination": "Asparagus washed/trimmed/dried and roasted."
+    },
+    {
+      "ingredient": "1 tbsp Extra-Virgin Olive Oil",
+      "destination": "Oil all coating."
+    },
+    {
+      "ingredient": "1/2 tsp Kosher Salt",
+      "destination": "Kosher salt all coating."
+    },
+    {
+      "ingredient": "1/4 tsp Black Pepper",
+      "destination": "Blackpepper all coating."
+    },
+    {
+      "ingredient": "1/2 Lemon, for finishing",
+      "destination": "Halflemonjuice finish."
+    },
+    {
+      "ingredient": "Optional: 1 tbsp Grated Parmesan or Lemon Zest",
+      "destination": "OptionaltablespoonParmesanORzest finish; separatepreparedzest notassumedfromhalf lemon."
+    }
+  ],
+  "ingredientLedger": [
+    {
+      "ingredient": "asparagus.asparagus",
+      "name": "bunch of fresh asparagus",
+      "quantity": {
+        "amount": 1,
+        "unit": "count"
+      },
+      "allowance": null,
+      "preparation": "woody ends trimmed; bunch size varies",
+      "optional": false,
+      "role": "ingredient",
+      "destinations": [
+        {
+          "step": "toss",
+          "share": 1
+        }
+      ],
+      "allocation": "sum exactly one; an unmeasured allowance has one named destination"
+    },
+    {
+      "ingredient": "asparagus.oil",
+      "name": "extra-virgin olive oil",
+      "quantity": {
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      "allowance": null,
+      "preparation": null,
+      "optional": false,
+      "role": "ingredient",
+      "destinations": [
+        {
+          "step": "toss",
+          "share": 1
+        }
+      ],
+      "allocation": "sum exactly one; an unmeasured allowance has one named destination"
+    },
+    {
+      "ingredient": "asparagus.salt",
+      "name": "kosher salt",
+      "quantity": {
+        "amount": "1/2",
+        "unit": "tsp"
+      },
+      "allowance": null,
+      "preparation": null,
+      "optional": false,
+      "role": "ingredient",
+      "destinations": [
+        {
+          "step": "toss",
+          "share": 1
+        }
+      ],
+      "allocation": "sum exactly one; an unmeasured allowance has one named destination"
+    },
+    {
+      "ingredient": "asparagus.pepper",
+      "name": "black pepper",
+      "quantity": {
+        "amount": "1/4",
+        "unit": "tsp"
+      },
+      "allowance": null,
+      "preparation": null,
+      "optional": false,
+      "role": "ingredient",
+      "destinations": [
+        {
+          "step": "toss",
+          "share": 1
+        }
+      ],
+      "allocation": "sum exactly one; an unmeasured allowance has one named destination"
+    },
+    {
+      "ingredient": "finish.lemon",
+      "name": "lemon",
+      "quantity": {
+        "amount": "1/2",
+        "unit": "count"
+      },
+      "allowance": null,
+      "preparation": "for juice",
+      "optional": false,
+      "role": "ingredient",
+      "destinations": [
+        {
+          "step": "finish",
+          "share": 1
+        }
+      ],
+      "allocation": "sum exactly one; an unmeasured allowance has one named destination"
+    },
+    {
+      "ingredient": "finish.garnish",
+      "name": "grated Parmesan or finely grated lemon zest",
+      "quantity": {
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      "allowance": null,
+      "preparation": null,
+      "optional": true,
+      "role": "garnish",
+      "destinations": [
+        {
+          "step": "finish",
+          "share": 1
+        }
+      ],
+      "allocation": "sum exactly one; an unmeasured allowance has one named destination"
+    }
+  ],
+  "variationLedger": [
+    {
+      "name": "Optional Parmesan OR zest topping",
+      "exclusiveReplacement": true,
+      "amount": "1 tbsp chosen topping in original batch",
+      "destination": "Finish alongside separate juice of 1/2 lemon",
+      "question": "Exact saved shared amount remains; intended zest quantity/actual lemon yield unresolved, not silently reduced"
+    }
+  ],
+  "variations": [],
+  "ratiosYieldCapacity": "One nonstandard bunch with1tbsp oil,½tsp kosher salt,¼tsp pepper,½lemonjuice andoptional1tbspParmesanORlemonzest;fourcurrentportions. No weight per bunch or exactlemonjuicemass. Optionalzest amount intentionally preserved with a narrow question, not reduced to an assumed standard garnish.",
+  "processAndHandling": "Wash/trim/dry → alloilseasoningcoat → singlelayer/groupthickness →8–12firstwindow/tenderstem/brownnotblacktips →measuredjuice+optionalone topping. Prior removal of steam tag retained; no blanch/sear/acidaddition beyond existing finish.",
+  "timing": "About five minutes preparation plus 8–12 minutes roasting is a 13–17-minute prep-and-roast subtotal. Start heating during preparation, but load only once the oven reaches 425°F; any heating still needed after prep extends elapsed time. Extra sheets or successive batches extend elapsed time. Keep the stalk geometry and thickness check; no separate rest is required.",
+  "storage": "Refrigerate promptly in shallow covered containers within 2 hours, or 1 hour above 90°F / 32°C, at 40°F / 4°C or below; use within 3–4 days. Reheat leftovers to 165°F. For the best stem texture, serve after the lemon finish. Refrigerated stalks soften; reheat only until the safe reheating endpoint rather than expecting freshly browned tips.",
+  "relationships": {
+    "pairsWith": [
+      "vietnamese-grilled-chicken",
+      "miso-salmon-with-bok-choy",
+      "marinated-korean-ribeye"
+    ],
+    "composedMeals": [],
+    "mealApplicability": "No composed meal references this slug. Existing pairing links remain suggestions, not ingredient quantities or shared-pan safety certification.",
+    "distinctVariants": "Current formula/options retained; no consolidation or identity reassignment."
+  },
+  "changedFields": [
+    {
+      "field": "cookTime",
+      "before": "10 min",
+      "after": "8–12 min, depending on thickness",
+      "rationale": "Planning ranges follow current cooking windows and actual remaining preheating, with sensory endpoints and extra-batch time.",
+      "applicableSource": "docs/editorial-campaign/2026-10-05/roasted-vegetables-sources.json",
+      "confidence": "Moderate for untested kitchen behavior; high for exact source text and bounded arithmetic/handling corrections.",
+      "unresolvedQuestions": [
+        "Weigh the actual bunch and assess seasoning for that bunch, without creating a universal bunch weight.",
+        "Confirm whether the saved shared 1 tbsp amount is intended for either optional topping, especially zest.",
+        "Observe thin/thick stalk timing, actual oven readiness and four-portion size."
+      ]
+    },
+    {
+      "field": "totalTime",
+      "before": "15 min",
+      "after": "13–17 min, plus any remaining preheating",
+      "rationale": "Planning ranges follow current cooking windows and actual remaining preheating, with sensory endpoints and extra-batch time.",
+      "applicableSource": "docs/editorial-campaign/2026-10-05/roasted-vegetables-sources.json",
+      "confidence": "Moderate for untested kitchen behavior; high for exact source text and bounded arithmetic/handling corrections.",
+      "unresolvedQuestions": [
+        "Weigh the actual bunch and assess seasoning for that bunch, without creating a universal bunch weight.",
+        "Confirm whether the saved shared 1 tbsp amount is intended for either optional topping, especially zest.",
+        "Observe thin/thick stalk timing, actual oven readiness and four-portion size."
+      ]
+    },
+    {
+      "field": "servings",
+      "before": "4",
+      "after": "4 portions",
+      "rationale": "Retains the inherited planning portion count and makes its scaling explicit; no finished weight or measured yield is asserted.",
+      "applicableSource": "docs/editorial-campaign/2026-10-05/roasted-vegetables-sources.json",
+      "confidence": "High for exact source/compilation; planning portions and kitchen behavior remain untested.",
+      "unresolvedQuestions": [
+        "Weigh the actual bunch and assess seasoning for that bunch, without creating a universal bunch weight.",
+        "Confirm whether the saved shared 1 tbsp amount is intended for either optional topping, especially zest.",
+        "Observe thin/thick stalk timing, actual oven readiness and four-portion size."
+      ]
+    },
+    {
+      "field": "equipment",
+      "before": ["sheet-pan"],
+      "after": ["rimmed-baking-sheet", "mixing-bowl"],
+      "rationale": "Complete whole-source review preserves supported character while adding directly applicable cooking guidance.",
+      "applicableSource": "docs/editorial-campaign/2026-10-05/roasted-vegetables-sources.json",
+      "confidence": "Moderate for untested kitchen behavior; high for exact source text and bounded arithmetic/handling corrections.",
+      "unresolvedQuestions": [
+        "Weigh the actual bunch and assess seasoning for that bunch, without creating a universal bunch weight.",
+        "Confirm whether the saved shared 1 tbsp amount is intended for either optional topping, especially zest.",
+        "Observe thin/thick stalk timing, actual oven readiness and four-portion size."
+      ]
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "1 bunch Fresh Asparagus, woody ends trimmed",
+        "1 tbsp Extra-Virgin Olive Oil",
+        "1/2 tsp Kosher Salt",
+        "1/4 tsp Black Pepper",
+        "1/2 Lemon, for finishing",
+        "Optional: 1 tbsp Grated Parmesan or Lemon Zest"
+      ],
+      "after": [
+        "--- Asparagus ---",
+        "1 bunch of fresh asparagus, woody ends trimmed; bunch size varies",
+        "1 tbsp extra-virgin olive oil",
+        "1/2 tsp kosher salt",
+        "1/4 tsp black pepper",
+        "--- Lemon and optional finish ---",
+        "1/2 lemon, for juice",
+        "1 tbsp grated Parmesan or finely grated lemon zest, optional"
+      ],
+      "rationale": "Preserves or restores the exact source-supported ingredient totals and distinct variants, with explicit full-batch allocation, geometry and sensory endpoints; authored formula regenerates ingredients, yield and directions together.",
+      "applicableSource": "docs/editorial-campaign/2026-10-05/roasted-vegetables-sources.json",
+      "confidence": "High for exact source/compilation; planning portions and kitchen behavior remain untested.",
+      "unresolvedQuestions": [
+        "Weigh the actual bunch and assess seasoning for that bunch, without creating a universal bunch weight.",
+        "Confirm whether the saved shared 1 tbsp amount is intended for either optional topping, especially zest.",
+        "Observe thin/thick stalk timing, actual oven readiness and four-portion size."
+      ]
+    },
+    {
+      "field": "origin",
+      "before": "United States",
+      "after": null,
+      "rationale": "No evidence establishes a geographic origin for this particular recipe; existing cultural/style cuisine tags remain.",
+      "applicableSource": "docs/editorial-campaign/2026-10-05/roasted-vegetables-sources.json",
+      "confidence": "Moderate for untested kitchen behavior; high for exact source text and bounded arithmetic/handling corrections.",
+      "unresolvedQuestions": [
+        "Weigh the actual bunch and assess seasoning for that bunch, without creating a universal bunch weight.",
+        "Confirm whether the saved shared 1 tbsp amount is intended for either optional topping, especially zest.",
+        "Observe thin/thick stalk timing, actual oven readiness and four-portion size."
+      ]
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 45,
+        "protein": 1,
+        "carbs": 4,
+        "fat": 3.5,
+        "fiber": 1.5,
+        "sugar": 1,
+        "sodium": 580
+      },
+      "after": null,
+      "rationale": "Unsupported legacy nutrition is removed without inventing replacement values.",
+      "applicableSource": "docs/editorial-campaign/2026-10-05/roasted-vegetables-sources.json",
+      "confidence": "High for exact source/compilation; planning portions and kitchen behavior remain untested.",
+      "unresolvedQuestions": [
+        "Weigh the actual bunch and assess seasoning for that bunch, without creating a universal bunch weight.",
+        "Confirm whether the saved shared 1 tbsp amount is intended for either optional topping, especially zest.",
+        "Observe thin/thick stalk timing, actual oven readiness and four-portion size."
+      ]
+    },
+    {
+      "field": "formula",
+      "before": null,
+      "after": {
+        "version": 1,
+        "yield": {
+          "amount": 4,
+          "unit": "portion"
+        },
+        "components": [
+          {
+            "id": "asparagus",
+            "name": "Asparagus",
+            "ingredients": [
+              {
+                "id": "asparagus",
+                "key": "asparagus",
+                "name": "bunch of fresh asparagus",
+                "plural": "bunches of fresh asparagus",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "count"
+                },
+                "preparation": "woody ends trimmed; bunch size varies",
+                "uses": [
+                  {
+                    "step": "toss",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "oil",
+                "key": "oil",
+                "name": "extra-virgin olive oil",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "toss",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "salt",
+                "key": "salt",
+                "name": "kosher salt",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "toss",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "pepper",
+                "key": "pepper",
+                "name": "black pepper",
+                "quantity": {
+                  "amount": "1/4",
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "toss",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "finish",
+            "name": "Lemon and optional finish",
+            "ingredients": [
+              {
+                "id": "lemon",
+                "key": "lemon",
+                "name": "lemon",
+                "plural": "lemons",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "count"
+                },
+                "preparation": "for juice",
+                "uses": [
+                  {
+                    "step": "finish",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "garnish",
+                "key": "garnish",
+                "name": "grated Parmesan or finely grated lemon zest",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tbsp"
+                },
+                "optional": true,
+                "role": "garnish",
+                "uses": [
+                  {
+                    "step": "finish",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "id": "prep",
+            "title": "Heat and dry",
+            "text": "Heat the oven to 425°F. Wash the asparagus under running water, trim the woody ends and pat the stalks dry. Set out a rimmed baking sheet with room for one layer; use additional sheets or batches if the measured bunches do not fit."
+          },
+          {
+            "id": "toss",
+            "title": "Coat the stalks",
+            "text": "Toss {{ingredients}} on the baking sheet or in a bowl, then spread in a single layer without piling. Keep very thin and thick stalks in separate areas so the thin ones can be removed first if needed."
+          },
+          {
+            "id": "roast",
+            "title": "Check the stems and tips",
+            "text": "Roast for 8–12 minutes, checking at the early end for thin stalks. The stems should be tender with a little resistance when pierced, and the tips may be lightly browned. Remove thinner stalks as they are ready; continue thicker ones if still firm. Browning is useful, but black tips and limp stems are not the goal."
+          },
+          {
+            "id": "finish",
+            "title": "Add lemon and serve",
+            "text": "Use {{ingredients}}: squeeze the lemon juice over the hot asparagus. If using the optional finish, choose the measured Parmesan or zest and sprinkle it over the stalks. Measure zest separately if that is the chosen topping; the lemon portion for juice is not a verified equivalent of the measured zest amount. Serve promptly."
+          }
+        ]
+      },
+      "rationale": "Preserves or restores the exact source-supported ingredient totals and distinct variants, with explicit full-batch allocation, geometry and sensory endpoints; authored formula regenerates ingredients, yield and directions together.",
+      "applicableSource": "docs/editorial-campaign/2026-10-05/roasted-vegetables-sources.json",
+      "confidence": "High for exact source/compilation; planning portions and kitchen behavior remain untested.",
+      "unresolvedQuestions": [
+        "Weigh the actual bunch and assess seasoning for that bunch, without creating a universal bunch weight.",
+        "Confirm whether the saved shared 1 tbsp amount is intended for either optional topping, especially zest.",
+        "Observe thin/thick stalk timing, actual oven readiness and four-portion size."
+      ]
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Stop an asparagus roast before thin stalks overcook",
+        "outcome": "Tender asparagus with a little stem resistance, lightly browned tips and a fresh lemon finish.",
+        "techniques": ["browning"],
+        "before": [
+          "A bunch is a shopping count, not a standardized weight; choose enough sheet area for the actual stalks.",
+          "Trim woody ends and dry the washed stalks. Group noticeably different thicknesses so they can finish separately.",
+          "The optional topping is Parmesan or prepared lemon zest. If choosing zest, have the measured amount ready independently of the lemon portion used for juice."
+        ],
+        "checkpoints": [
+          {
+            "step": 2,
+            "cue": "Stalks form one layer rather than a pile.",
+            "why": "The sheet needs exposed surface and room to brown the tips."
+          },
+          {
+            "step": 3,
+            "cue": "A stem is tender with slight resistance; the tip has not blackened.",
+            "why": "Thin stems can become limp while tips are browning, so check both rather than waiting for darker color."
+          },
+          {
+            "step": 4,
+            "cue": "Juice and the chosen optional topping are distributed over the asparagus.",
+            "why": "Lemon juice supplies acidity, while zest supplies aroma; the two are distinct jobs."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Thin stalks are limp while thick ones are firm",
+            "cause": "A wide range of stalk sizes stayed in the oven together.",
+            "fix": "Remove the ready stalks and finish the firm ones; group by thickness next time."
+          },
+          {
+            "problem": "Tips blacken before stems are tender",
+            "cause": "Tips browned quickly or the sheet sits in a hot oven spot.",
+            "fix": "Rotate the sheet and shield dark tips loosely with foil if needed while checking the stems."
+          },
+          {
+            "problem": "Woody ends remain tough",
+            "cause": "Enough of the fibrous base was not trimmed.",
+            "fix": "Trim the tough portion before serving; a longer roast will overcook tender parts first."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Optional Parmesan",
+            "alternative": "The lemon-zest option or no topping",
+            "effect": "Zest keeps a dairy-free finish and adds aroma rather than the cheese’s salt/richness. Preserve the separate juice finish."
+          },
+          {
+            "ingredient": "One bunch asparagus",
+            "alternative": "A different-sized bunch",
+            "effect": "Bunch sizes vary; check the oil and seasoning with the actual stalks."
+          }
+        ],
+        "timing": "About five minutes preparation plus 8–12 minutes roasting is a 13–17-minute prep-and-roast subtotal. Start heating during preparation, but load only once the oven reaches 425°F; any heating still needed after prep extends elapsed time. Extra sheets or successive batches extend elapsed time. Keep the stalk geometry and thickness check; no separate rest is required.",
+        "storage": "Refrigerate promptly in shallow covered containers within 2 hours, or 1 hour above 90°F / 32°C, at 40°F / 4°C or below; use within 3–4 days. Reheat leftovers to 165°F. For the best stem texture, serve after the lemon finish. Refrigerated stalks soften; reheat only until the safe reheating endpoint rather than expecting freshly browned tips.",
+        "sources": [
+          {
+            "title": "Michigan State University Extension — How to Roast Any Vegetable",
+            "url": "https://msu-prod.dotcms.cloud/grand_traverse/uploads/files/How%20to%20Roast%20Vegetables.pdf"
+          },
+          {
+            "title": "FDA — Selecting and Serving Produce Safely",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+          },
+          {
+            "title": "USDA FSIS — Leftovers and Food Safety",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-05"
+        }
+      },
+      "rationale": "Complete whole-source review preserves supported character while adding directly applicable cooking guidance.",
+      "applicableSource": "docs/editorial-campaign/2026-10-05/roasted-vegetables-sources.json",
+      "confidence": "Moderate for untested kitchen behavior; high for exact source text and bounded arithmetic/handling corrections.",
+      "unresolvedQuestions": [
+        "Weigh the actual bunch and assess seasoning for that bunch, without creating a universal bunch weight.",
+        "Confirm whether the saved shared 1 tbsp amount is intended for either optional topping, especially zest.",
+        "Observe thin/thick stalk timing, actual oven readiness and four-portion size."
+      ]
+    },
+    {
+      "field": "body",
+      "before": "\n## Chef's Note\n\nAsparagus is 90% water. Steaming it or cooking at low heat turns it gray and mushy. Roasting at 425°F or higher evaporates surface moisture instantly, preserving bright green color and creating crispy, charred tips. A squeeze of fresh lemon at the end adds brightness that cuts through the roasted richness.\n\n## Directions\n\n1.  **Prep:** Preheat oven to 425°F. Pat the asparagus completely dry.\n2.  **Toss:** On a large baking sheet, toss the stalks with olive oil, salt, and pepper. Arrange in a **single layer** (do not crowd, or they will steam).\n3.  **Roast:** Bake for 8-12 minutes depending on the thickness of the stalks. They are done when they are tender-crisp and the tips are starting to brown.\n4.  **Finish:** Squeeze fresh lemon juice over the hot stalks. Sprinkle with Parmesan or zest if using.\n",
+      "after": "\n## Chef's Note\n\nA short 425°F roast gives asparagus browned tips while the stems keep a little bite. Stalk thickness matters more than a fixed clock: thin asparagus may be ready before thick stalks on the same sheet. Finish the hot vegetables with lemon juice and, if wanted, the Parmesan or zest topping.\n\n## Directions\n\n1. **Heat and dry:** Heat the oven to 425°F. Wash the asparagus under running water, trim the woody ends and pat the stalks dry. Set out a rimmed baking sheet with room for one layer; use additional sheets or batches if the measured bunches do not fit.\n2. **Coat the stalks:** Toss bunch of fresh asparagus, extra-virgin olive oil, kosher salt, and black pepper on the baking sheet or in a bowl, then spread in a single layer without piling. Keep very thin and thick stalks in separate areas so the thin ones can be removed first if needed.\n3. **Check the stems and tips:** Roast for 8–12 minutes, checking at the early end for thin stalks. The stems should be tender with a little resistance when pierced, and the tips may be lightly browned. Remove thinner stalks as they are ready; continue thicker ones if still firm. Browning is useful, but black tips and limp stems are not the goal.\n4. **Add lemon and serve:** Use lemon and grated Parmesan or finely grated lemon zest (if using): squeeze the lemon juice over the hot asparagus. If using the optional finish, choose the measured Parmesan or zest and sprinkle it over the stalks. Measure zest separately if that is the chosen topping; the lemon portion for juice is not a verified equivalent of the measured zest amount. Serve promptly.\n",
+      "rationale": "Preserves or restores the exact source-supported ingredient totals and distinct variants, with explicit full-batch allocation, geometry and sensory endpoints; authored formula regenerates ingredients, yield and directions together.",
+      "applicableSource": "docs/editorial-campaign/2026-10-05/roasted-vegetables-sources.json",
+      "confidence": "Moderate for untested kitchen behavior; high for exact source text and bounded arithmetic/handling corrections.",
+      "unresolvedQuestions": [
+        "Weigh the actual bunch and assess seasoning for that bunch, without creating a universal bunch weight.",
+        "Confirm whether the saved shared 1 tbsp amount is intended for either optional topping, especially zest.",
+        "Observe thin/thick stalk timing, actual oven readiness and four-portion size."
+      ]
+    }
+  ],
+  "validation": {
+    "frozenCommitMatches": true,
+    "inputSha256": "5c6a28e60520af8b385ae5a7e5c5cacb392716affacadb2f8452e0579a29151f",
+    "identityTitleRatingSourceLinksPreserved": true,
+    "formulaSchema": "pass",
+    "compiledIngredientsYieldDirections": "pass",
+    "editorialAudit": {
+      "slug": "roasted-asparagus",
+      "title": "Asparagus",
+      "status": "editorial-review",
+      "stepCount": 4,
+      "issues": []
+    },
+    "mainSourceStillFrozen": true,
+    "scaled": [
+      {
+        "factor": 0.5,
+        "ingredients": [
+          "--- Asparagus ---",
+          "1/2 bunch of fresh asparagus, woody ends trimmed; bunch size varies",
+          "1/2 tbsp extra-virgin olive oil",
+          "1/4 tsp kosher salt",
+          "1/8 tsp black pepper",
+          "--- Lemon and optional finish ---",
+          "1/4 lemon, for juice",
+          "1/2 tbsp grated Parmesan or finely grated lemon zest, optional"
+        ],
+        "yield": "2 portions",
+        "shoppingList": [
+          "1/2 bunch of fresh asparagus",
+          "1/2 tbsp extra-virgin olive oil",
+          "1/4 tsp kosher salt",
+          "1/8 tsp black pepper",
+          "1/4 lemon",
+          "1/2 tbsp grated Parmesan or finely grated lemon zest, optional"
+        ]
+      },
+      {
+        "factor": 1,
+        "ingredients": [
+          "--- Asparagus ---",
+          "1 bunch of fresh asparagus, woody ends trimmed; bunch size varies",
+          "1 tbsp extra-virgin olive oil",
+          "1/2 tsp kosher salt",
+          "1/4 tsp black pepper",
+          "--- Lemon and optional finish ---",
+          "1/2 lemon, for juice",
+          "1 tbsp grated Parmesan or finely grated lemon zest, optional"
+        ],
+        "yield": "4 portions",
+        "shoppingList": [
+          "1 bunch of fresh asparagus",
+          "1 tbsp extra-virgin olive oil",
+          "1/2 tsp kosher salt",
+          "1/4 tsp black pepper",
+          "1/2 lemon",
+          "1 tbsp grated Parmesan or finely grated lemon zest, optional"
+        ]
+      },
+      {
+        "factor": 2,
+        "ingredients": [
+          "--- Asparagus ---",
+          "2 bunches of fresh asparagus, woody ends trimmed; bunch size varies",
+          "2 tbsp extra-virgin olive oil",
+          "1 tsp kosher salt",
+          "1/2 tsp black pepper",
+          "--- Lemon and optional finish ---",
+          "1 lemon, for juice",
+          "2 tbsp grated Parmesan or finely grated lemon zest, optional"
+        ],
+        "yield": "8 portions",
+        "shoppingList": [
+          "2 bunches of fresh asparagus",
+          "2 tbsp extra-virgin olive oil",
+          "1 tsp kosher salt",
+          "1/2 tsp black pepper",
+          "1 lemon",
+          "2 tbsp grated Parmesan or finely grated lemon zest, optional"
+        ]
+      }
+    ],
+    "scalingCaveats": "Scale ingredient totals, not cut size, oven heat or clock. Keep single-layer geometry with sufficient sheets/batches; extra sheets/batches alter elapsed time. Genuine finishing allowances remain to taste.",
+    "currentCandidateHashChecks": {
+      "frozenHashMatches": true,
+      "frozenGitExact": true,
+      "originGitExact": true,
+      "proposalMatchesPeer": true,
+      "proposalMatchesRecord": true,
+      "proposalMatchesResults": true,
+      "protectedFieldsPreserved": true,
+      "formulaSchema": true,
+      "compiledIngredients": true,
+      "compiledYield": true,
+      "compiledDirections": true,
+      "changedFieldSetExact": true,
+      "changedFieldValuesExact": true,
+      "ledgerComplete": true
+    },
+    "integration": "Root acceptance and integrated build/presentation checks pending"
+  },
+  "kitchenQuestions": [
+    "Weigh the actual bunch and assess seasoning for that bunch, without creating a universal bunch weight.",
+    "Confirm whether the saved shared 1 tbsp amount is intended for either optional topping, especially zest.",
+    "Observe thin/thick stalk timing, actual oven readiness and four-portion size."
+  ],
+  "sourceEvidence": "roasted-vegetables-source-evidence.json",
+  "pendingRootGates": [],
+  "rootBoundedCorrections": {
+    "slug": "roasted-asparagus",
+    "independentBaselineSha256": "2ee2033c6ff0c99fc3788d3e487423d14272dbf1c6264dba5d7913d46d02fa10",
+    "rootCorrections": [
+      {
+        "field": "totalTime",
+        "before": "13–17 min",
+        "after": "13–17 min, plus any remaining preheating",
+        "rationale": "Account for actual oven heating without inventing a household preheat duration.",
+        "source": "Current preparation and roasting windows; actual oven target before loading.",
+        "confidence": "High for the bounded clarification; physical cooking remains untested."
+      },
+      {
+        "field": "learning.timing",
+        "before": "About five minutes preparation plus 8–12 minutes roasting, roughly 13–17 minutes with preheating overlapping preparation. Extra sheets or successive batches extend elapsed time. Keep the stalk geometry and thickness check; no separate rest is required.",
+        "after": "About five minutes preparation plus 8–12 minutes roasting is a 13–17-minute prep-and-roast subtotal. Start heating during preparation, but load only once the oven reaches 425°F; any heating still needed after prep extends elapsed time. Extra sheets or successive batches extend elapsed time. Keep the stalk geometry and thickness check; no separate rest is required.",
+        "rationale": "Account for actual oven heating without inventing a household preheat duration.",
+        "source": "Current preparation and roasting windows; actual oven target before loading.",
+        "confidence": "High for the bounded clarification; physical cooking remains untested."
+      },
+      {
+        "field": "learning.storage",
+        "before": "Refrigerate within two hours in shallow covered containers; use within 3–4 days. Reheat leftovers to 165°F. For the best stem texture, serve after the lemon finish. Refrigerated stalks soften; reheat only until the safe reheating endpoint rather than expecting freshly browned tips.",
+        "after": "Refrigerate promptly in shallow covered containers within 2 hours, or 1 hour above 90°F / 32°C, at 40°F / 4°C or below; use within 3–4 days. Reheat leftovers to 165°F. For the best stem texture, serve after the lemon finish. Refrigerated stalks soften; reheat only until the safe reheating endpoint rather than expecting freshly browned tips.",
+        "rationale": "General cooked-leftover guidance; no preservation or measured shelf-life guarantee.",
+        "source": [
+          {
+            "title": "FDA — Safe Food Handling",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+            "access": "Narrow primary page rechecked on 2026-10-05; chill guidance and leftovers temperature table read",
+            "applicability": "Other perishables within 2 hours/1 hour above 90°F, refrigerator 40°F or below, shallow leftovers; measured 165°F leftovers reheat. Does not establish acid preservation or recipe-specific shelf life."
+          },
+          {
+            "title": "USDA FSIS — Leftovers and Food Safety",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety",
+            "access": "Existing author/peer evidence reused; this narrow direct recheck returned 403. Official indexed USDA text corroborates hot-ambient limit, rapid shallow cooling and 40°F storage.",
+            "applicability": "General cooked leftovers, including cooked side dishes; retain current 3–4-day guidance rather than infer preservation from vinegar or sugar."
+          },
+          {
+            "title": "USDA FSIS — Keep Food Safe",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/steps-keep-food-safe",
+            "access": "Official indexed primary text checked on 2026-10-05",
+            "applicability": "Most cooked leftovers 3–4 days at refrigerator 40°F or below; no guarantee this kitchen met handling conditions."
+          },
+          {
+            "title": "FDA — Selecting and Serving Produce Safely",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely",
+            "access": "Narrow primary recheck read 2026-10-05",
+            "applicability": "Perishable fresh herb/leaf finishes at 40°F or below and clean separation; not itself a 3–4-day cooked-side shelf-life source."
+          }
+        ],
+        "confidence": "High for the bounded clarification; physical cooking remains untested."
+      }
+    ],
+    "formulaAmountsAndUsesUnchanged": true,
+    "generatedIngredientsYieldDirectionsRegeneratedTogether": true,
+    "correctedSha256": "d8e1601fca93f1325ed25ad26fa669917f41d760699957d13f30bd56f5398685",
+    "baselineReconstructionExact": true,
+    "protectedFieldsPreserved": true,
+    "generatedParity": true,
+    "rootWholeAcceptance": "accepted after independent final bounded check and root whole inspection"
+  },
+  "acceptedSourceSha256": "d8e1601fca93f1325ed25ad26fa669917f41d760699957d13f30bd56f5398685",
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/roasted-vegetables-independent.md",
+  "independentFinalSha256": "5aaebd74e77396ef2f8c7d0f470e965b354c27328992e32ceca32b909b9954f7",
+  "rootWholeInspection": "Complete frozen and proposed recipe, exact Git original, historical repairs, source disagreements, every ingredient and retained variation, pan geometry, sensory endpoints, timing, storage, scaling and linked meals inspected.",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "productionVerification": "pending"
+}

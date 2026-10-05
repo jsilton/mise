@@ -1,0 +1,899 @@
+{
+  "slug": "roasted-broccolini-with-lemon",
+  "title": "Roasted Broccolini with Lemon",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "reviewDate": "2026-10-05",
+  "notKitchenTested": true,
+  "inputCommit": "95b37f8bca5008657a668e52a1d970b1d03367d3",
+  "inputSha256": "f688b2c8c3b5bcb5f1a3ca91bb564995fec8dac5d9e489ff643b56b9d916af75",
+  "candidateSha256": "9d5bb3b7acbcfff3e4f3a32f3f4b79845766e0bf17e95c8702a9514b2e19d51f",
+  "independentCandidateCheckpoint": {
+    "sha256": "78cfacd23f845b053950564b68e04ebfc561082a08605bb885329bb6e764ee22",
+    "disposition": "accept corrected proposal, integration/kitchen gates separate",
+    "scope": "Prior independent whole challenge and correction check. New root timing/storage gates remain pending."
+  },
+  "identitySourceRatingLinksPreserved": true,
+  "summary": "Keep two counted bunches and the full 3 tbsp oil. The approximately 12 oz description is explicitly the original two-bunch context. Split the one lemon between roasted rounds and reserved finishing juice; garlic slices have monitoring/removal cues rather than a burning-prevention guarantee.",
+  "formulaSummary": "Two bunches, approximately 12 oz total in the original batch; 3 tbsp oil; 3 garlic cloves; 1/2 tsp chili flakes; 1 lemon divided equally between rounds and juice; salt, pepper and finishing flaky salt allowances. Four planning portions.",
+  "provenance": "fd4f07a8 first committed complete recipe has the same amounts, shortroast and twolemonjobs. No named source URL exists. Current metadata/later repairs are preserved where supported. Primary mechanism guidance is not attribution of this particular formula.",
+  "committedOriginal": {
+    "commit": "fd4f07a836d811739118df904c5e6cc8b1fd593e",
+    "path": "src/content/recipes/roasted-broccolini-with-lemon.md",
+    "sha256": "d060159befc0afdccfb3e01091c338a0d880c6d95f6bd28672a117da886ce982",
+    "verifiedExactGit": true
+  },
+  "sourceApplicability": [
+    {
+      "title": "Michigan State University Extension — How to Roast Any Vegetable",
+      "url": "https://msu-prod.dotcms.cloud/grand_traverse/uploads/files/How%20to%20Roast%20Vegetables.pdf",
+      "applicability": "Primary extension guide: drying, spacing, tenderness and different rates by type/size. Method evidence only; no certification of the eight house formulas or their yields, oil ratios, glazes or exact clocks.",
+      "evidenceReuse": true
+    },
+    {
+      "title": "Reynolds — Parchment paper temperature rating",
+      "url": "https://www.reynoldsbrands.com/products/parchment-paper/parchment-paper-rolls",
+      "applicability": "Manufacturer rates this product to 425°F. At 450°F use bare metal or suitable foil unless the actual parchment manufacturer rates it for that heat. At 425°F also check the actual lining instructions; no assertion that all parchment has one rating.",
+      "evidenceReuse": true
+    },
+    {
+      "title": "FDA — Selecting and Serving Produce Safely",
+      "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely",
+      "applicability": "Primary FDA handling guidance: wash produce before cutting under running water, dry with clean material, and separate ready-to-eat produce from raw meat tools. Washing does not sterilize. Applies especially to spinach/herb finishes and linked meals.",
+      "evidenceReuse": true
+    },
+    {
+      "title": "USDA FSIS — Leftovers and Food Safety",
+      "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety",
+      "applicability": "Primary USDA general leftover handling: prompt shallow-container refrigeration within two hours, 3–4 refrigerated days and 165°F reheating. Quality/crispness comments are editorial observations, not source-tested shelf life.",
+      "evidenceReuse": true
+    }
+  ],
+  "findings": [
+    {
+      "category": "lemon allocation and scaled bunch estimate",
+      "before": "2bunchesabout12oz;1lemonhalfjuicedhalfrounds;Finish squeezeremaininghalf",
+      "after": "Two counted bunches;12oz explicitlyoriginalbatchonly;one lemonhalf roast/halfjuicefinish allocations",
+      "rationale": "Keep the approximate saved estimate without treating it as an exact interchangeable weight. Reserve juice explicitly so it is not used twice.",
+      "evidence": ["fd4f07a8 committed origin", "input original"],
+      "confidence": "high",
+      "question": null
+    },
+    {
+      "category": "garlic guarantee and timing",
+      "before": "Thin slicing prevents garlicburning;12–15tipscharred/garlicgold",
+      "after": "Thin slicescouldburn;check/tuck/liftgoldenslices,stemknifecheck;12–15firstwindow",
+      "rationale": "No smaller oil/garlic/chili amount or new garlic cooking route is introduced. Whole review resolves the actual delicate-garlic/firmer-stem interaction.",
+      "evidence": ["input original", "roasting"],
+      "confidence": "moderate",
+      "question": null
+    },
+    {
+      "category": "unverified origin and hybrid prose",
+      "before": "originItaly;hybridbotanicaldefinition/jammycondimentclaim;5+15=20",
+      "after": "No unsupported Italy recipeorigin or unneeded hybridclaim;roastedrounds and freshjuice described;17–20total",
+      "rationale": "No exact botanical/cultural authorship evidence was needed for the recipe. Retain Italian/Mediterranean cuisine tags as collection style, not prove an Italian inventor.",
+      "evidence": ["fd4f07a8 committed origin", "input original", "recipe standard"],
+      "confidence": "moderate",
+      "question": null
+    },
+    {
+      "category": "nutrition and authored learning",
+      "before": "Legacy unverified nutrition; no authored learning or formula",
+      "after": "Nutrition removed; authored formula and recipe-specific learning added, with compiled ingredients, yield and Directions. See exact changedFields for the full original and replacement values.",
+      "rationale": "Delete unsupported legacy nutrition without replacement; publish ingredient allocations, checkpoints, troubleshooting, timing/storage and applicable method sources. Formula portion count preserves the current serving suggestion, not an invented finished-weight yield. Saved formulas and exact edits are independently traceable below.",
+      "evidence": ["recipe standard", "structured authoring standard", "input original"],
+      "confidence": "high",
+      "question": null
+    }
+  ],
+  "originalIngredientLedger": [
+    {
+      "ingredient": "2 bunches Broccolini (about 12 oz total), trimmed",
+      "destination": "Two bunches trim/split/roast;12ozqualifier scopedtooriginal."
+    },
+    {
+      "ingredient": "3 tbsp Extra-Virgin Olive Oil",
+      "destination": "Oil all coating."
+    },
+    {
+      "ingredient": "3 cloves Garlic, thinly sliced",
+      "destination": "Thin slicedgarlic roasted andserved,notdiscarded."
+    },
+    {
+      "ingredient": "1/2 tsp Red Pepper Flakes",
+      "destination": "Redpepperflakes coating."
+    },
+    {
+      "ingredient": "1 Lemon, half juiced and half cut into thin rounds",
+      "destination": "Onelemonhalfroundsroasted+served;otherhalfjuicereserved finish."
+    },
+    {
+      "ingredient": "Kosher Salt and Black Pepper",
+      "destination": "Kosher salt andblackpepper splitgenuine allowancescoating."
+    },
+    {
+      "ingredient": "Flaky Sea Salt for finishing",
+      "destination": "Flakysalt tasteafterlemon."
+    }
+  ],
+  "ingredientLedger": [
+    {
+      "ingredient": "roast.broccolini",
+      "name": "bunch of broccolini",
+      "quantity": {
+        "amount": 2,
+        "unit": "count"
+      },
+      "allowance": null,
+      "preparation": "about 12 oz total in the original two-bunch batch; trimmed and thicker stems split lengthwise",
+      "optional": false,
+      "role": "ingredient",
+      "destinations": [
+        {
+          "step": "toss",
+          "share": 1
+        }
+      ],
+      "allocation": "sum exactly one; an unmeasured allowance has one named destination"
+    },
+    {
+      "ingredient": "roast.oil",
+      "name": "extra-virgin olive oil",
+      "quantity": {
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      "allowance": null,
+      "preparation": null,
+      "optional": false,
+      "role": "ingredient",
+      "destinations": [
+        {
+          "step": "toss",
+          "share": 1
+        }
+      ],
+      "allocation": "sum exactly one; an unmeasured allowance has one named destination"
+    },
+    {
+      "ingredient": "roast.garlic",
+      "name": "garlic clove",
+      "quantity": {
+        "amount": 3,
+        "unit": "count"
+      },
+      "allowance": null,
+      "preparation": "thinly sliced",
+      "optional": false,
+      "role": "ingredient",
+      "destinations": [
+        {
+          "step": "toss",
+          "share": 1
+        }
+      ],
+      "allocation": "sum exactly one; an unmeasured allowance has one named destination"
+    },
+    {
+      "ingredient": "roast.flakes",
+      "name": "red pepper flakes",
+      "quantity": {
+        "amount": "1/2",
+        "unit": "tsp"
+      },
+      "allowance": null,
+      "preparation": null,
+      "optional": false,
+      "role": "ingredient",
+      "destinations": [
+        {
+          "step": "toss",
+          "share": 1
+        }
+      ],
+      "allocation": "sum exactly one; an unmeasured allowance has one named destination"
+    },
+    {
+      "ingredient": "roast.salt",
+      "name": "kosher salt",
+      "quantity": null,
+      "allowance": "to taste before roasting",
+      "preparation": null,
+      "optional": false,
+      "role": "ingredient",
+      "destinations": [
+        {
+          "step": "toss",
+          "share": 1
+        }
+      ],
+      "allocation": "sum exactly one; an unmeasured allowance has one named destination"
+    },
+    {
+      "ingredient": "roast.pepper",
+      "name": "black pepper",
+      "quantity": null,
+      "allowance": "to taste before roasting",
+      "preparation": null,
+      "optional": false,
+      "role": "ingredient",
+      "destinations": [
+        {
+          "step": "toss",
+          "share": 1
+        }
+      ],
+      "allocation": "sum exactly one; an unmeasured allowance has one named destination"
+    },
+    {
+      "ingredient": "lemon.lemon",
+      "name": "lemon",
+      "quantity": {
+        "amount": 1,
+        "unit": "count"
+      },
+      "allowance": null,
+      "preparation": "half thinly sliced for roasting; juice of the other half reserved for finishing",
+      "optional": false,
+      "role": "ingredient",
+      "destinations": [
+        {
+          "step": "toss",
+          "share": "1/2"
+        },
+        {
+          "step": "finish",
+          "share": "1/2"
+        }
+      ],
+      "allocation": "sum exactly one; an unmeasured allowance has one named destination"
+    },
+    {
+      "ingredient": "finish.finish-salt",
+      "name": "flaky sea salt",
+      "quantity": null,
+      "allowance": "to taste at finishing",
+      "preparation": null,
+      "optional": false,
+      "role": "ingredient",
+      "destinations": [
+        {
+          "step": "finish",
+          "share": 1
+        }
+      ],
+      "allocation": "sum exactly one; an unmeasured allowance has one named destination"
+    }
+  ],
+  "variationLedger": [],
+  "variations": [],
+  "ratiosYieldCapacity": "Two bunches estimatedabout12ozTOTALoriginalbatch, three tablespoons oil, three garlic cloves, halfteaspoon chili, onelemonhalfrounds/halfjuice, kosher/black/flakysalt genuineallowances;fourportions unchanged. The relativelyrich3tbspoilis deliberate and not reduced.",
+  "processAndHandling": "Wash/dry/splitthickstems → alloil/garlic/chili/saltpeppercoating plushalf lemonrounds → one-layer12–15firstwindow/thickstemknife+garlicgold → otherhalfjuice+flakysalt,servegarlicandrounds. Raw-meat tools stay separate from freshlemonfinish; no mandatoryrest.",
+  "timing": "About five minutes preparation plus 12–15 minutes roasting is a 17–20-minute prep-and-roast subtotal. Start heating during setup, but load only once the oven reaches 425°F; any heating still needed after prep extends elapsed time. Washing/splitting large bunches or using extra sheets can take longer. No rest is required; add the reserved juice close to service.",
+  "storage": "Refrigerate promptly in shallow covered containers within 2 hours, or 1 hour above 90°F / 32°C, at 40°F / 4°C or below; use within 3–4 days. Reheat leftovers to 165°F. The florets and roasted lemon soften in covered storage. Reheat with the garlic and lemon; expect softer florets and lemon rounds.",
+  "relationships": {
+    "pairsWith": [
+      "shrimp-fettuccine-alfredo",
+      "chicken-marsala",
+      "baked-chicken-parmesan",
+      "miso-salmon-with-bok-choy"
+    ],
+    "composedMeals": [],
+    "mealApplicability": "No composed meal references this slug. Existing pairing links remain suggestions, not ingredient quantities or shared-pan safety certification.",
+    "distinctVariants": "Current formula/options retained; no consolidation or identity reassignment."
+  },
+  "changedFields": [
+    {
+      "field": "origin",
+      "before": "Italy",
+      "after": null,
+      "rationale": "No evidence establishes a geographic origin for this particular recipe; existing cultural/style cuisine tags remain.",
+      "applicableSource": "docs/editorial-campaign/2026-10-05/roasted-vegetables-sources.json",
+      "confidence": "Moderate for untested kitchen behavior; high for exact source text and bounded arithmetic/handling corrections.",
+      "unresolvedQuestions": [
+        "Measure actual bunch weights and the sheet footprint of the original two-bunch amount.",
+        "Observe thinly sliced garlic and stem tenderness on the actual rack and sheet.",
+        "Assess the retained oil and roasted-lemon finish without lowering richness; record oven readiness and elapsed time."
+      ]
+    },
+    {
+      "field": "cookTime",
+      "before": "15 min",
+      "after": "12–15 min, or until stems are tender",
+      "rationale": "Planning ranges follow current cooking windows and actual remaining preheating, with sensory endpoints and extra-batch time.",
+      "applicableSource": "docs/editorial-campaign/2026-10-05/roasted-vegetables-sources.json",
+      "confidence": "Moderate for untested kitchen behavior; high for exact source text and bounded arithmetic/handling corrections.",
+      "unresolvedQuestions": [
+        "Measure actual bunch weights and the sheet footprint of the original two-bunch amount.",
+        "Observe thinly sliced garlic and stem tenderness on the actual rack and sheet.",
+        "Assess the retained oil and roasted-lemon finish without lowering richness; record oven readiness and elapsed time."
+      ]
+    },
+    {
+      "field": "totalTime",
+      "before": "20 min",
+      "after": "17–20 min, plus any remaining preheating",
+      "rationale": "Planning ranges follow current cooking windows and actual remaining preheating, with sensory endpoints and extra-batch time.",
+      "applicableSource": "docs/editorial-campaign/2026-10-05/roasted-vegetables-sources.json",
+      "confidence": "Moderate for untested kitchen behavior; high for exact source text and bounded arithmetic/handling corrections.",
+      "unresolvedQuestions": [
+        "Measure actual bunch weights and the sheet footprint of the original two-bunch amount.",
+        "Observe thinly sliced garlic and stem tenderness on the actual rack and sheet.",
+        "Assess the retained oil and roasted-lemon finish without lowering richness; record oven readiness and elapsed time."
+      ]
+    },
+    {
+      "field": "servings",
+      "before": "4",
+      "after": "4 portions",
+      "rationale": "Retains the inherited planning portion count and makes its scaling explicit; no finished weight or measured yield is asserted.",
+      "applicableSource": "docs/editorial-campaign/2026-10-05/roasted-vegetables-sources.json",
+      "confidence": "High for exact source/compilation; planning portions and kitchen behavior remain untested.",
+      "unresolvedQuestions": [
+        "Measure actual bunch weights and the sheet footprint of the original two-bunch amount.",
+        "Observe thinly sliced garlic and stem tenderness on the actual rack and sheet.",
+        "Assess the retained oil and roasted-lemon finish without lowering richness; record oven readiness and elapsed time."
+      ]
+    },
+    {
+      "field": "equipment",
+      "before": ["baking-sheet"],
+      "after": ["rimmed-baking-sheet", "mixing-bowl", "knife"],
+      "rationale": "Complete whole-source review preserves supported character while adding directly applicable cooking guidance.",
+      "applicableSource": "docs/editorial-campaign/2026-10-05/roasted-vegetables-sources.json",
+      "confidence": "Moderate for untested kitchen behavior; high for exact source text and bounded arithmetic/handling corrections.",
+      "unresolvedQuestions": [
+        "Measure actual bunch weights and the sheet footprint of the original two-bunch amount.",
+        "Observe thinly sliced garlic and stem tenderness on the actual rack and sheet.",
+        "Assess the retained oil and roasted-lemon finish without lowering richness; record oven readiness and elapsed time."
+      ]
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "2 bunches Broccolini (about 12 oz total), trimmed",
+        "3 tbsp Extra-Virgin Olive Oil",
+        "3 cloves Garlic, thinly sliced",
+        "1/2 tsp Red Pepper Flakes",
+        "1 Lemon, half juiced and half cut into thin rounds",
+        "Kosher Salt and Black Pepper",
+        "Flaky Sea Salt for finishing"
+      ],
+      "after": [
+        "--- Broccolini and roasting lemon ---",
+        "2 bunches of broccolini, about 12 oz total in the original two-bunch batch; trimmed and thicker stems split lengthwise",
+        "3 tbsp extra-virgin olive oil",
+        "3 garlic cloves, thinly sliced",
+        "1/2 tsp red pepper flakes",
+        "kosher salt, to taste before roasting",
+        "black pepper, to taste before roasting",
+        "--- Lemon ---",
+        "1 lemon, half thinly sliced for roasting; juice of the other half reserved for finishing",
+        "--- Finish ---",
+        "flaky sea salt, to taste at finishing"
+      ],
+      "rationale": "Preserves or restores the exact source-supported ingredient totals and distinct variants, with explicit full-batch allocation, geometry and sensory endpoints; authored formula regenerates ingredients, yield and directions together.",
+      "applicableSource": "docs/editorial-campaign/2026-10-05/roasted-vegetables-sources.json",
+      "confidence": "High for exact source/compilation; planning portions and kitchen behavior remain untested.",
+      "unresolvedQuestions": [
+        "Measure actual bunch weights and the sheet footprint of the original two-bunch amount.",
+        "Observe thinly sliced garlic and stem tenderness on the actual rack and sheet.",
+        "Assess the retained oil and roasted-lemon finish without lowering richness; record oven readiness and elapsed time."
+      ]
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 120,
+        "protein": 2.5,
+        "carbs": 6.5,
+        "fat": 10.5,
+        "fiber": 2.5,
+        "sugar": 1.5,
+        "sodium": 620
+      },
+      "after": null,
+      "rationale": "Unsupported legacy nutrition is removed without inventing replacement values.",
+      "applicableSource": "docs/editorial-campaign/2026-10-05/roasted-vegetables-sources.json",
+      "confidence": "High for exact source/compilation; planning portions and kitchen behavior remain untested.",
+      "unresolvedQuestions": [
+        "Measure actual bunch weights and the sheet footprint of the original two-bunch amount.",
+        "Observe thinly sliced garlic and stem tenderness on the actual rack and sheet.",
+        "Assess the retained oil and roasted-lemon finish without lowering richness; record oven readiness and elapsed time."
+      ]
+    },
+    {
+      "field": "formula",
+      "before": null,
+      "after": {
+        "version": 1,
+        "yield": {
+          "amount": 4,
+          "unit": "portion"
+        },
+        "components": [
+          {
+            "id": "roast",
+            "name": "Broccolini and roasting lemon",
+            "ingredients": [
+              {
+                "id": "broccolini",
+                "key": "broccolini",
+                "name": "bunch of broccolini",
+                "plural": "bunches of broccolini",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "count"
+                },
+                "preparation": "about 12 oz total in the original two-bunch batch; trimmed and thicker stems split lengthwise",
+                "uses": [
+                  {
+                    "step": "toss",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "oil",
+                "key": "oil",
+                "name": "extra-virgin olive oil",
+                "quantity": {
+                  "amount": 3,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "toss",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "garlic",
+                "key": "garlic",
+                "name": "garlic clove",
+                "plural": "garlic cloves",
+                "quantity": {
+                  "amount": 3,
+                  "unit": "count"
+                },
+                "preparation": "thinly sliced",
+                "uses": [
+                  {
+                    "step": "toss",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "flakes",
+                "key": "flakes",
+                "name": "red pepper flakes",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "toss",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "salt",
+                "key": "salt",
+                "name": "kosher salt",
+                "allowance": "to taste before roasting",
+                "uses": [
+                  {
+                    "step": "toss",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "pepper",
+                "key": "pepper",
+                "name": "black pepper",
+                "allowance": "to taste before roasting",
+                "uses": [
+                  {
+                    "step": "toss",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "lemon",
+            "name": "Lemon",
+            "ingredients": [
+              {
+                "id": "lemon",
+                "key": "lemon",
+                "name": "lemon",
+                "plural": "lemons",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "count"
+                },
+                "preparation": "half thinly sliced for roasting; juice of the other half reserved for finishing",
+                "uses": [
+                  {
+                    "step": "toss",
+                    "share": "1/2"
+                  },
+                  {
+                    "step": "finish",
+                    "share": "1/2"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "finish",
+            "name": "Finish",
+            "ingredients": [
+              {
+                "id": "finish-salt",
+                "key": "finish-salt",
+                "name": "flaky sea salt",
+                "allowance": "to taste at finishing",
+                "uses": [
+                  {
+                    "step": "finish",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "id": "prep",
+            "title": "Heat and trim",
+            "text": "Heat the oven to 425°F. Line a rimmed baking sheet with parchment rated for that heat, or use suitable foil or a bare sheet. Wash and dry the broccolini and lemon. Trim about ½ inch from the stalk bases, or more if needed to remove a tough end. Split stems thicker than a pencil lengthwise; leave the tender tops attached."
+          },
+          {
+            "id": "toss",
+            "title": "Coat and arrange",
+            "text": "Toss {{ingredients}} together, using the thin lemon rounds for this stage and reserving the other half’s juice. Spread in a single layer without piling, with enough sheets for the actual bunch size. Tuck garlic slices against or beneath the stalks rather than leaving them exposed alone at the edges of the sheet."
+          },
+          {
+            "id": "roast",
+            "title": "Watch the garlic and stems",
+            "text": "Roast for 12–15 minutes, checking toward the early end. The thickest stems should yield to a knife with a little resistance; florets can have browned tips, and garlic should be golden rather than black. If exposed garlic is browning ahead of the stems, move it beneath the stalks or lift ready slices into the serving dish. Continue firm stems until tender and rotate the sheet if browning is uneven."
+          },
+          {
+            "id": "finish",
+            "title": "Use the reserved juice",
+            "text": "Add {{ingredients}}, distributing the reserved lemon juice and tasting before adding the finishing salt. Serve the broccolini with the roasted lemon rounds and garlic; the rounds can be squeezed over the vegetables or eaten as preferred. Serve promptly."
+          }
+        ]
+      },
+      "rationale": "Preserves or restores the exact source-supported ingredient totals and distinct variants, with explicit full-batch allocation, geometry and sensory endpoints; authored formula regenerates ingredients, yield and directions together.",
+      "applicableSource": "docs/editorial-campaign/2026-10-05/roasted-vegetables-sources.json",
+      "confidence": "High for exact source/compilation; planning portions and kitchen behavior remain untested.",
+      "unresolvedQuestions": [
+        "Measure actual bunch weights and the sheet footprint of the original two-bunch amount.",
+        "Observe thinly sliced garlic and stem tenderness on the actual rack and sheet.",
+        "Assess the retained oil and roasted-lemon finish without lowering richness; record oven readiness and elapsed time."
+      ]
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Balance tender stems with delicate roasted garlic",
+        "outcome": "Broccolini with tender stems, browned tips, golden garlic and both roasted and fresh lemon.",
+        "techniques": ["browning"],
+        "before": [
+          "Two bunches were estimated at about 12 oz in the original batch; bunch weights vary. Keep enough pan area for the actual amount.",
+          "Divide the measured lemon before roasting: half into rounds, juice from the other half reserved.",
+          "Thin garlic slices still burn if left exposed; plan to check them rather than relying on slicing alone."
+        ],
+        "checkpoints": [
+          {
+            "step": 2,
+            "cue": "Split thick stems, one layer of stalks and garlic tucked near vegetables.",
+            "why": "Thickness and position help delicate garlic and firmer stems finish together."
+          },
+          {
+            "step": 3,
+            "cue": "Knife enters a thick stem and garlic is golden, not black.",
+            "why": "Brown florets alone do not prove the stems are tender."
+          },
+          {
+            "step": 4,
+            "cue": "The reserved juice is on the vegetables and roasted rounds remain at service.",
+            "why": "Roasted lemon and fresh juice contribute different flavors and both measured halves have a destination."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Garlic is dark before stems soften",
+            "cause": "Thin slices were exposed at the pan’s hot edge.",
+            "fix": "Lift ready golden slices into the serving dish, or move them beneath stalks; discard blackened pieces."
+          },
+          {
+            "problem": "Stems are tough despite browned tips",
+            "cause": "The bases were fibrous or thick stems were not split.",
+            "fix": "Trim a tough base and finish the firm stems; split them lengthwise next time."
+          },
+          {
+            "problem": "Broccolini is pale in the middle of the sheet",
+            "cause": "Bunches piled or sheet area was insufficient.",
+            "fix": "Use more sheet area and one layer. Extra sheets may need rotation and additional time."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Broccolini",
+            "alternative": "Broccoli cut into florets with sliced tender stems",
+            "effect": "Changes the geometry and roasting window; use tender-center and browning checks rather than the original short clock."
+          },
+          {
+            "ingredient": "Red pepper flakes",
+            "alternative": "Omit them",
+            "effect": "Keeps lemon, garlic and oil while removing the chili heat; no extra glaze or seasoning quantity needed."
+          }
+        ],
+        "timing": "About five minutes preparation plus 12–15 minutes roasting is a 17–20-minute prep-and-roast subtotal. Start heating during setup, but load only once the oven reaches 425°F; any heating still needed after prep extends elapsed time. Washing/splitting large bunches or using extra sheets can take longer. No rest is required; add the reserved juice close to service.",
+        "storage": "Refrigerate promptly in shallow covered containers within 2 hours, or 1 hour above 90°F / 32°C, at 40°F / 4°C or below; use within 3–4 days. Reheat leftovers to 165°F. The florets and roasted lemon soften in covered storage. Reheat with the garlic and lemon; expect softer florets and lemon rounds.",
+        "sources": [
+          {
+            "title": "Michigan State University Extension — How to Roast Any Vegetable",
+            "url": "https://msu-prod.dotcms.cloud/grand_traverse/uploads/files/How%20to%20Roast%20Vegetables.pdf"
+          },
+          {
+            "title": "Reynolds — Parchment paper temperature rating",
+            "url": "https://www.reynoldsbrands.com/products/parchment-paper/parchment-paper-rolls"
+          },
+          {
+            "title": "FDA — Selecting and Serving Produce Safely",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+          },
+          {
+            "title": "USDA FSIS — Leftovers and Food Safety",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-05"
+        }
+      },
+      "rationale": "Complete whole-source review preserves supported character while adding directly applicable cooking guidance.",
+      "applicableSource": "docs/editorial-campaign/2026-10-05/roasted-vegetables-sources.json",
+      "confidence": "Moderate for untested kitchen behavior; high for exact source text and bounded arithmetic/handling corrections.",
+      "unresolvedQuestions": [
+        "Measure actual bunch weights and the sheet footprint of the original two-bunch amount.",
+        "Observe thinly sliced garlic and stem tenderness on the actual rack and sheet.",
+        "Assess the retained oil and roasted-lemon finish without lowering richness; record oven readiness and elapsed time."
+      ]
+    },
+    {
+      "field": "body",
+      "before": "\n## Chef's Note\n\nBroccolini is not baby broccoli -- it is a hybrid of broccoli and Chinese broccoli (gai lan), which is why the stems are tender enough to eat whole. Roasting at high heat caramelizes the florets while keeping the stems snappy. Slicing the garlic thin rather than mincing prevents it from burning before the broccolini is done, and roasting lemon rounds alongside concentrates their juice into a jammy, sweet-tart condiment.\n\n## Directions\n\n1.  **Preheat:** Set oven to 425°F. Line a baking sheet with parchment paper.\n2.  **Prep:** Trim the bottom 1/2 inch of broccolini stems. If any stalks are thicker than a pencil, split them lengthwise through the stem so they cook evenly.\n3.  **Toss:** Spread broccolini on the sheet. Drizzle with olive oil, scatter garlic slices and red pepper flakes, and season generously with kosher salt and pepper. Tuck lemon rounds between the stalks.\n4.  **Roast:** Bake for 12-15 minutes until the tips are charred and crispy and the stems are tender-crisp when pierced with a knife. The garlic should be golden, not dark brown.\n5.  **Finish:** Squeeze the remaining lemon half over the hot broccolini. Finish with flaky sea salt. Serve immediately.\n",
+      "after": "\n## Chef's Note\n\nBroccolini’s stems and florets need different checks: split thick stems so they cook through, and watch the tips and thin garlic slices as they brown. Roast half the lemon in rounds alongside the stalks, then add the reserved juice from the other half at serving for a fresh acidic finish.\n\n## Directions\n\n1. **Heat and trim:** Heat the oven to 425°F. Line a rimmed baking sheet with parchment rated for that heat, or use suitable foil or a bare sheet. Wash and dry the broccolini and lemon. Trim about ½ inch from the stalk bases, or more if needed to remove a tough end. Split stems thicker than a pencil lengthwise; leave the tender tops attached.\n2. **Coat and arrange:** Toss bunches of broccolini, extra-virgin olive oil, garlic cloves, red pepper flakes, kosher salt, black pepper, and 1/2 of the lemon together, using the thin lemon rounds for this stage and reserving the other half’s juice. Spread in a single layer without piling, with enough sheets for the actual bunch size. Tuck garlic slices against or beneath the stalks rather than leaving them exposed alone at the edges of the sheet.\n3. **Watch the garlic and stems:** Roast for 12–15 minutes, checking toward the early end. The thickest stems should yield to a knife with a little resistance; florets can have browned tips, and garlic should be golden rather than black. If exposed garlic is browning ahead of the stems, move it beneath the stalks or lift ready slices into the serving dish. Continue firm stems until tender and rotate the sheet if browning is uneven.\n4. **Use the reserved juice:** Add 1/2 of the lemon and flaky sea salt, distributing the reserved lemon juice and tasting before adding the finishing salt. Serve the broccolini with the roasted lemon rounds and garlic; the rounds can be squeezed over the vegetables or eaten as preferred. Serve promptly.\n",
+      "rationale": "Preserves or restores the exact source-supported ingredient totals and distinct variants, with explicit full-batch allocation, geometry and sensory endpoints; authored formula regenerates ingredients, yield and directions together.",
+      "applicableSource": "docs/editorial-campaign/2026-10-05/roasted-vegetables-sources.json",
+      "confidence": "Moderate for untested kitchen behavior; high for exact source text and bounded arithmetic/handling corrections.",
+      "unresolvedQuestions": [
+        "Measure actual bunch weights and the sheet footprint of the original two-bunch amount.",
+        "Observe thinly sliced garlic and stem tenderness on the actual rack and sheet.",
+        "Assess the retained oil and roasted-lemon finish without lowering richness; record oven readiness and elapsed time."
+      ]
+    }
+  ],
+  "validation": {
+    "frozenCommitMatches": true,
+    "inputSha256": "f688b2c8c3b5bcb5f1a3ca91bb564995fec8dac5d9e489ff643b56b9d916af75",
+    "identityTitleRatingSourceLinksPreserved": true,
+    "formulaSchema": "pass",
+    "compiledIngredientsYieldDirections": "pass",
+    "editorialAudit": {
+      "slug": "roasted-broccolini-with-lemon",
+      "title": "Roasted Broccolini with Lemon",
+      "status": "editorial-review",
+      "stepCount": 4,
+      "issues": []
+    },
+    "mainSourceStillFrozen": true,
+    "scaled": [
+      {
+        "factor": 0.5,
+        "ingredients": [
+          "--- Broccolini and roasting lemon ---",
+          "1 bunch of broccolini, about 12 oz total in the original two-bunch batch; trimmed and thicker stems split lengthwise",
+          "1 1/2 tbsp extra-virgin olive oil",
+          "1 1/2 garlic cloves, thinly sliced",
+          "1/4 tsp red pepper flakes",
+          "kosher salt, to taste before roasting",
+          "black pepper, to taste before roasting",
+          "--- Lemon ---",
+          "1/2 lemon, half thinly sliced for roasting; juice of the other half reserved for finishing",
+          "--- Finish ---",
+          "flaky sea salt, to taste at finishing"
+        ],
+        "yield": "2 portions",
+        "shoppingList": [
+          "1 bunch of broccolini",
+          "1 1/2 tbsp extra-virgin olive oil",
+          "1 1/2 garlic cloves",
+          "1/4 tsp red pepper flakes",
+          "kosher salt, to taste before roasting",
+          "black pepper, to taste before roasting",
+          "1/2 lemon",
+          "flaky sea salt, to taste at finishing"
+        ]
+      },
+      {
+        "factor": 1,
+        "ingredients": [
+          "--- Broccolini and roasting lemon ---",
+          "2 bunches of broccolini, about 12 oz total in the original two-bunch batch; trimmed and thicker stems split lengthwise",
+          "3 tbsp extra-virgin olive oil",
+          "3 garlic cloves, thinly sliced",
+          "1/2 tsp red pepper flakes",
+          "kosher salt, to taste before roasting",
+          "black pepper, to taste before roasting",
+          "--- Lemon ---",
+          "1 lemon, half thinly sliced for roasting; juice of the other half reserved for finishing",
+          "--- Finish ---",
+          "flaky sea salt, to taste at finishing"
+        ],
+        "yield": "4 portions",
+        "shoppingList": [
+          "2 bunches of broccolini",
+          "3 tbsp extra-virgin olive oil",
+          "3 garlic cloves",
+          "1/2 tsp red pepper flakes",
+          "kosher salt, to taste before roasting",
+          "black pepper, to taste before roasting",
+          "1 lemon",
+          "flaky sea salt, to taste at finishing"
+        ]
+      },
+      {
+        "factor": 2,
+        "ingredients": [
+          "--- Broccolini and roasting lemon ---",
+          "4 bunches of broccolini, about 12 oz total in the original two-bunch batch; trimmed and thicker stems split lengthwise",
+          "6 tbsp extra-virgin olive oil",
+          "6 garlic cloves, thinly sliced",
+          "1 tsp red pepper flakes",
+          "kosher salt, to taste before roasting",
+          "black pepper, to taste before roasting",
+          "--- Lemon ---",
+          "2 lemons, half thinly sliced for roasting; juice of the other half reserved for finishing",
+          "--- Finish ---",
+          "flaky sea salt, to taste at finishing"
+        ],
+        "yield": "8 portions",
+        "shoppingList": [
+          "4 bunches of broccolini",
+          "6 tbsp extra-virgin olive oil",
+          "6 garlic cloves",
+          "1 tsp red pepper flakes",
+          "kosher salt, to taste before roasting",
+          "black pepper, to taste before roasting",
+          "2 lemons",
+          "flaky sea salt, to taste at finishing"
+        ]
+      }
+    ],
+    "scalingCaveats": "Scale ingredient totals, not cut size, oven heat or clock. Keep single-layer geometry with sufficient sheets/batches; extra sheets/batches alter elapsed time. Genuine finishing allowances remain to taste.",
+    "currentCandidateHashChecks": {
+      "frozenHashMatches": true,
+      "frozenGitExact": true,
+      "originGitExact": true,
+      "proposalMatchesPeer": true,
+      "proposalMatchesRecord": true,
+      "proposalMatchesResults": true,
+      "protectedFieldsPreserved": true,
+      "formulaSchema": true,
+      "compiledIngredients": true,
+      "compiledYield": true,
+      "compiledDirections": true,
+      "changedFieldSetExact": true,
+      "changedFieldValuesExact": true,
+      "ledgerComplete": true
+    },
+    "integration": "Root acceptance and integrated build/presentation checks pending"
+  },
+  "kitchenQuestions": [
+    "Measure actual bunch weights and the sheet footprint of the original two-bunch amount.",
+    "Observe thinly sliced garlic and stem tenderness on the actual rack and sheet.",
+    "Assess the retained oil and roasted-lemon finish without lowering richness; record oven readiness and elapsed time."
+  ],
+  "sourceEvidence": "roasted-vegetables-source-evidence.json",
+  "pendingRootGates": [],
+  "rootBoundedCorrections": {
+    "slug": "roasted-broccolini-with-lemon",
+    "independentBaselineSha256": "78cfacd23f845b053950564b68e04ebfc561082a08605bb885329bb6e764ee22",
+    "rootCorrections": [
+      {
+        "field": "totalTime",
+        "before": "17–20 min",
+        "after": "17–20 min, plus any remaining preheating",
+        "rationale": "Account for actual oven heating without inventing a household preheat duration.",
+        "source": "Current preparation and roasting windows; actual oven target before loading.",
+        "confidence": "High for the bounded clarification; physical cooking remains untested."
+      },
+      {
+        "field": "learning.timing",
+        "before": "About five minutes preparation plus 12–15 minutes roasting, roughly 17–20 minutes with preheating overlapping setup. Washing/splitting large bunches or using extra sheets can take longer. No rest is required; add the reserved juice close to service.",
+        "after": "About five minutes preparation plus 12–15 minutes roasting is a 17–20-minute prep-and-roast subtotal. Start heating during setup, but load only once the oven reaches 425°F; any heating still needed after prep extends elapsed time. Washing/splitting large bunches or using extra sheets can take longer. No rest is required; add the reserved juice close to service.",
+        "rationale": "Account for actual oven heating without inventing a household preheat duration.",
+        "source": "Current preparation and roasting windows; actual oven target before loading.",
+        "confidence": "High for the bounded clarification; physical cooking remains untested."
+      },
+      {
+        "field": "learning.storage",
+        "before": "Refrigerate within two hours in shallow covered containers; use within 3–4 days. Reheat leftovers to 165°F. The florets and roasted lemon soften in covered storage. Reheat with the garlic and lemon, then serve; no claim that the original tip texture or “jammy” lemon returns.",
+        "after": "Refrigerate promptly in shallow covered containers within 2 hours, or 1 hour above 90°F / 32°C, at 40°F / 4°C or below; use within 3–4 days. Reheat leftovers to 165°F. The florets and roasted lemon soften in covered storage. Reheat with the garlic and lemon, then serve; no claim that the original tip texture or “jammy” lemon returns.",
+        "rationale": "General cooked-leftover guidance; no preservation or measured shelf-life guarantee.",
+        "source": [
+          {
+            "title": "FDA — Safe Food Handling",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+            "access": "Narrow primary page rechecked on 2026-10-05; chill guidance and leftovers temperature table read",
+            "applicability": "Other perishables within 2 hours/1 hour above 90°F, refrigerator 40°F or below, shallow leftovers; measured 165°F leftovers reheat. Does not establish acid preservation or recipe-specific shelf life."
+          },
+          {
+            "title": "USDA FSIS — Leftovers and Food Safety",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety",
+            "access": "Existing author/peer evidence reused; this narrow direct recheck returned 403. Official indexed USDA text corroborates hot-ambient limit, rapid shallow cooling and 40°F storage.",
+            "applicability": "General cooked leftovers, including cooked side dishes; retain current 3–4-day guidance rather than infer preservation from vinegar or sugar."
+          },
+          {
+            "title": "USDA FSIS — Keep Food Safe",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/steps-keep-food-safe",
+            "access": "Official indexed primary text checked on 2026-10-05",
+            "applicability": "Most cooked leftovers 3–4 days at refrigerator 40°F or below; no guarantee this kitchen met handling conditions."
+          },
+          {
+            "title": "FDA — Selecting and Serving Produce Safely",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely",
+            "access": "Narrow primary recheck read 2026-10-05",
+            "applicability": "Perishable fresh herb/leaf finishes at 40°F or below and clean separation; not itself a 3–4-day cooked-side shelf-life source."
+          }
+        ],
+        "confidence": "High for the bounded clarification; physical cooking remains untested."
+      },
+      {
+        "field": "learning.troubleshooting.0.fix",
+        "before": "Lift ready golden slices into the serving dish, or move them beneath stalks; remove blackened pieces instead of promising they taste sweet.",
+        "after": "Lift ready golden slices into the serving dish, or move them beneath stalks; discard blackened pieces.",
+        "rationale": "Use direct cooking prose while retaining the same action, quantities, sensory cue and caution.",
+        "confidence": "High; no culinary route or amount changed."
+      },
+      {
+        "field": "learning.storage",
+        "before": "Refrigerate promptly in shallow covered containers within 2 hours, or 1 hour above 90°F / 32°C, at 40°F / 4°C or below; use within 3–4 days. Reheat leftovers to 165°F. The florets and roasted lemon soften in covered storage. Reheat with the garlic and lemon, then serve; no claim that the original tip texture or “jammy” lemon returns.",
+        "after": "Refrigerate promptly in shallow covered containers within 2 hours, or 1 hour above 90°F / 32°C, at 40°F / 4°C or below; use within 3–4 days. Reheat leftovers to 165°F. The florets and roasted lemon soften in covered storage. Reheat with the garlic and lemon; expect softer florets and lemon rounds.",
+        "rationale": "Use direct cooking prose while retaining the same action, quantities, sensory cue and caution.",
+        "confidence": "High; no culinary route or amount changed."
+      }
+    ],
+    "formulaAmountsAndUsesUnchanged": true,
+    "generatedIngredientsYieldDirectionsRegeneratedTogether": true,
+    "correctedSha256": "9d5bb3b7acbcfff3e4f3a32f3f4b79845766e0bf17e95c8702a9514b2e19d51f",
+    "baselineReconstructionExact": true,
+    "protectedFieldsPreserved": true,
+    "generatedParity": true,
+    "rootWholeAcceptance": "accepted after independent final bounded check and root whole inspection"
+  },
+  "acceptedSourceSha256": "9d5bb3b7acbcfff3e4f3a32f3f4b79845766e0bf17e95c8702a9514b2e19d51f",
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/roasted-vegetables-independent.md",
+  "independentFinalSha256": "5aaebd74e77396ef2f8c7d0f470e965b354c27328992e32ceca32b909b9954f7",
+  "rootWholeInspection": "Complete frozen and proposed recipe, exact Git original, historical repairs, source disagreements, every ingredient and retained variation, pan geometry, sensory endpoints, timing, storage, scaling and linked meals inspected.",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "productionVerification": "pending"
+}

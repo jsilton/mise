@@ -1,0 +1,1065 @@
+{
+  "slug": "miso-glazed-roasted-cauliflower",
+  "title": "Miso-Glazed Roasted Cauliflower",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "reviewDate": "2026-10-05",
+  "notKitchenTested": true,
+  "inputCommit": "95b37f8bca5008657a668e52a1d970b1d03367d3",
+  "inputSha256": "0fed5c69ac2cee68aad81f10b0d2afb5f2e4d67a3614ee13d8c6eab85d3a3da4",
+  "candidateSha256": "cdbca3ccf5d4f44a8a187f151d78748f7e44de2fd6d215ca5166d85b2901eb4e",
+  "independentCandidateCheckpoint": {
+    "sha256": "159cb8aa7c6190b1e5bf52c5888b9beb42090c2306c79126597483e8f9e85129",
+    "disposition": "accept corrected proposal, integration/kitchen gates separate",
+    "scope": "Prior independent whole challenge and correction check. New root timing/storage gates remain pending."
+  },
+  "identitySourceRatingLinksPreserved": true,
+  "summary": "Keep the entire saved white-miso/mirin/sesame/rice-vinegar coating and its pre-roast application. The honey alternative replaces mirin and includes its separate additional soy amount while retaining base soy; it is explicitly non-vegan. A comparison publisher supports scorch monitoring but does not supply this recipe’s formula or a mandatory late-glaze method.",
+  "formulaSummary": "1 1/2 lb cauliflower; 3 tbsp white miso; 2 tbsp mirin; 1 tbsp base soy; 1 tbsp sesame oil; 1 tbsp rice vinegar; 1 tsp ginger. Honey branch replaces mirin with 1 1/2 tbsp honey plus 1/2 tbsp additional soy, for 1 1/2 tbsp total soy in the original batch. Sesame/scallion garnish allowances remain. Four planning portions.",
+  "provenance": "2a7f3853 earliestcomplete saved formula;85691102 explicitlyseparatedhoneyaddition frombasetsoy. Currentrepairpreservedexactly. No namedsourceURL; JustOneCookbook suppliesnarrowmisoscortching/cultural evidence but materiallydifferentformulaandlateglaze,notauthorship ofthisrecipe.",
+  "committedOriginal": {
+    "commit": "2a7f38534f68f09454b2c68637139fd966b5584f",
+    "path": "src/content/recipes/miso-glazed-roasted-cauliflower.md",
+    "sha256": "5a5a84483d3b1babc028452016cc7b42b6f324b488191d9f69b0e618c53e4a98",
+    "verifiedExactGit": true
+  },
+  "sourceApplicability": [
+    {
+      "title": "Just One Cookbook — Roasted miso garlic cauliflower",
+      "url": "https://www.justonecookbook.com/roasted-miso-garlic-cauliflower/",
+      "applicability": "Primary author explicitly warns that miso sauce burns readily; her different oil/salt first-roast/late-glaze recipe is not this saved mirin/sesame/rice-vinegar formula. Supports a scorch check and rejects generic Japanese-household authenticity, not exact transfer of her timings, maple balance or broiler method.",
+      "evidenceReuse": true
+    },
+    {
+      "title": "FDA — Selecting and Serving Produce Safely",
+      "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely",
+      "applicability": "Primary FDA handling guidance: wash produce before cutting under running water, dry with clean material, and separate ready-to-eat produce from raw meat tools. Washing does not sterilize. Applies especially to spinach/herb finishes and linked meals.",
+      "evidenceReuse": true
+    },
+    {
+      "title": "USDA FSIS — Leftovers and Food Safety",
+      "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety",
+      "applicability": "Primary USDA general leftover handling: prompt shallow-container refrigeration within two hours, 3–4 refrigerated days and 165°F reheating. Quality/crispness comments are editorial observations, not source-tested shelf life.",
+      "evidenceReuse": true
+    }
+  ],
+  "findings": [
+    {
+      "category": "preserve repaired alternative and scale its allocation",
+      "before": "2tbspMirin; nonveganreplace1½tbsp honey+½tbspsoy inadditiontoexisting1tbspsoy",
+      "after": "Mirin main;separate optional honey1½tbsp+extra-soy½tbsp formula components,chooseexclusivebranch;originalbatchcontext",
+      "rationale": "85691102 explicitly repaired a formerly combined alternative. Do not erase it or blendbothsweeteners. Formula amounts scale; the original1.5lb context is clear in prose. No reduction of three-tablespoon miso or sesame oil.",
+      "evidence": ["2a7f3853 committed origin", "85691102 exactrepair", "input original"],
+      "confidence": "high",
+      "question": null
+    },
+    {
+      "category": "coating scorch and actual floret preparation",
+      "before": "Freshfloretsundefinedsize;moisturepreventscaramelization;25–30slightlycharred",
+      "after": "Similarflorets/splitverylarge/dry;checkcoatingmidway/knife-tendercenter;protectdarkfacesifcentersfirm",
+      "rationale": "Primary miso author specifically warns sauce burns easily, but her different late-glaze formula cannot certify this one or replace its method automatically. Keep current precoat method with concrete interaction checks and a kitchen question.",
+      "evidence": ["input original", "miso"],
+      "confidence": "moderate",
+      "question": "Test coating-from-start behavior with the intended miso/mirin and floret size; do not claim the different publisher late-glaze recipe validates this formula."
+    },
+    {
+      "category": "unwarranted marinade, authenticity and combined garnish",
+      "before": "marinate-overnight;ThisishowJapanesehomecooks...;originJapan;SesameSeedsandScallions",
+      "after": "Noovernighttag/unsupportedgeographicrecipeorigin;ingredient-specificmisonote;bothgarnisheslisted/used",
+      "rationale": "No overnight step or source exists; primary Japanese author’s own account does not support a broad Japanesehomeovenroast assertion. Cuisineinfluence remainsJapanese. Mirinversion remains vegan; the honeyvariation explicitlynon-vegan.",
+      "evidence": ["input original", "miso", "recipe standard"],
+      "confidence": "high",
+      "question": null
+    },
+    {
+      "category": "nutrition and authored learning",
+      "before": "Legacy unverified nutrition; no authored learning or formula",
+      "after": "Nutrition removed; authored formula and recipe-specific learning added, with compiled ingredients, yield and Directions. See exact changedFields for the full original and replacement values.",
+      "rationale": "Delete unsupported legacy nutrition without replacement; publish ingredient allocations, checkpoints, troubleshooting, timing/storage and applicable method sources. Formula portion count preserves the current serving suggestion, not an invented finished-weight yield. Saved formulas and exact edits are independently traceable below.",
+      "evidence": ["recipe standard", "structured authoring standard", "input original"],
+      "confidence": "high",
+      "question": null
+    }
+  ],
+  "originalIngredientLedger": [
+    {
+      "ingredient": "1.5 lbs Fresh Cauliflower florets",
+      "destination": "Cauliflowerwashed/dried/similarflorets;allcoat/roast."
+    },
+    {
+      "ingredient": "3 tbsp White Miso Paste",
+      "destination": "White miso allchosen glaze."
+    },
+    {
+      "ingredient": "2 tbsp Mirin",
+      "destination": "Mirin main glaze,omittedforhoneyreplacement."
+    },
+    {
+      "ingredient": "1 tbsp Soy Sauce",
+      "destination": "Base1tbspsoy allchosen glaze;retainedinhoneybranch."
+    },
+    {
+      "ingredient": "1 tbsp Sesame Oil",
+      "destination": "Sesameoil allchosen glaze."
+    },
+    {
+      "ingredient": "1 tbsp Rice Vinegar",
+      "destination": "Ricevinegar allchosen glaze."
+    },
+    {
+      "ingredient": "1 tsp Minced Fresh Ginger",
+      "destination": "Mincedginger allchosen glaze."
+    },
+    {
+      "ingredient": "Sesame Seeds and Scallions for garnish",
+      "destination": "Seeds andwashedslicedscallions splitgenuinegarnishingallowances;bothfinish."
+    }
+  ],
+  "ingredientLedger": [
+    {
+      "ingredient": "glaze.miso",
+      "name": "white miso paste",
+      "quantity": {
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      "allowance": null,
+      "preparation": null,
+      "optional": false,
+      "role": "ingredient",
+      "destinations": [
+        {
+          "step": "glaze",
+          "share": 1
+        }
+      ],
+      "allocation": "sum exactly one; an unmeasured allowance has one named destination"
+    },
+    {
+      "ingredient": "glaze.mirin",
+      "name": "mirin",
+      "quantity": {
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      "allowance": null,
+      "preparation": null,
+      "optional": false,
+      "role": "ingredient",
+      "destinations": [
+        {
+          "step": "glaze",
+          "share": 1
+        }
+      ],
+      "allocation": "sum exactly one; an unmeasured allowance has one named destination"
+    },
+    {
+      "ingredient": "glaze.soy",
+      "name": "soy sauce",
+      "quantity": {
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      "allowance": null,
+      "preparation": null,
+      "optional": false,
+      "role": "ingredient",
+      "destinations": [
+        {
+          "step": "glaze",
+          "share": 1
+        }
+      ],
+      "allocation": "sum exactly one; an unmeasured allowance has one named destination"
+    },
+    {
+      "ingredient": "glaze.oil",
+      "name": "sesame oil",
+      "quantity": {
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      "allowance": null,
+      "preparation": null,
+      "optional": false,
+      "role": "ingredient",
+      "destinations": [
+        {
+          "step": "glaze",
+          "share": 1
+        }
+      ],
+      "allocation": "sum exactly one; an unmeasured allowance has one named destination"
+    },
+    {
+      "ingredient": "glaze.vinegar",
+      "name": "rice vinegar",
+      "quantity": {
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      "allowance": null,
+      "preparation": null,
+      "optional": false,
+      "role": "ingredient",
+      "destinations": [
+        {
+          "step": "glaze",
+          "share": 1
+        }
+      ],
+      "allocation": "sum exactly one; an unmeasured allowance has one named destination"
+    },
+    {
+      "ingredient": "glaze.ginger",
+      "name": "fresh ginger",
+      "quantity": {
+        "amount": 1,
+        "unit": "tsp"
+      },
+      "allowance": null,
+      "preparation": "minced",
+      "optional": false,
+      "role": "ingredient",
+      "destinations": [
+        {
+          "step": "glaze",
+          "share": 1
+        }
+      ],
+      "allocation": "sum exactly one; an unmeasured allowance has one named destination"
+    },
+    {
+      "ingredient": "honey-option.honey",
+      "name": "honey",
+      "quantity": {
+        "amount": "1 1/2",
+        "unit": "tbsp"
+      },
+      "allowance": null,
+      "preparation": null,
+      "optional": true,
+      "role": "ingredient",
+      "destinations": [
+        {
+          "step": "glaze",
+          "share": 1
+        }
+      ],
+      "allocation": "sum exactly one; an unmeasured allowance has one named destination"
+    },
+    {
+      "ingredient": "honey-option.extra-soy",
+      "name": "additional soy sauce",
+      "quantity": {
+        "amount": "1/2",
+        "unit": "tbsp"
+      },
+      "allowance": null,
+      "preparation": null,
+      "optional": true,
+      "role": "ingredient",
+      "destinations": [
+        {
+          "step": "glaze",
+          "share": 1
+        }
+      ],
+      "allocation": "sum exactly one; an unmeasured allowance has one named destination"
+    },
+    {
+      "ingredient": "cauliflower.cauliflower",
+      "name": "fresh cauliflower florets",
+      "quantity": {
+        "amount": 1.5,
+        "unit": "lb"
+      },
+      "allowance": null,
+      "preparation": "similar-sized; washed and dried, very large florets split",
+      "optional": false,
+      "role": "ingredient",
+      "destinations": [
+        {
+          "step": "toss",
+          "share": 1
+        }
+      ],
+      "allocation": "sum exactly one; an unmeasured allowance has one named destination"
+    },
+    {
+      "ingredient": "finish.sesame",
+      "name": "sesame seeds",
+      "quantity": null,
+      "allowance": "for garnishing",
+      "preparation": null,
+      "optional": false,
+      "role": "garnish",
+      "destinations": [
+        {
+          "step": "finish",
+          "share": 1
+        }
+      ],
+      "allocation": "sum exactly one; an unmeasured allowance has one named destination"
+    },
+    {
+      "ingredient": "finish.scallions",
+      "name": "scallions",
+      "quantity": null,
+      "allowance": "for garnishing",
+      "preparation": "washed and thinly sliced",
+      "optional": false,
+      "role": "garnish",
+      "destinations": [
+        {
+          "step": "finish",
+          "share": 1
+        }
+      ],
+      "allocation": "sum exactly one; an unmeasured allowance has one named destination"
+    }
+  ],
+  "variationLedger": [
+    {
+      "name": "Honey–soy replaces mirin",
+      "exclusiveReplacement": true,
+      "batchBasis": "Original 1 1/2 lb cauliflower; proportional scaling",
+      "omit": "2 tbsp mirin",
+      "retain": "All 1 tbsp base soy and all other main coating amounts",
+      "ingredients": [
+        {
+          "name": "Honey",
+          "amount": "1 1/2 tbsp",
+          "destination": "Glaze instead of mirin"
+        },
+        {
+          "name": "Additional soy sauce",
+          "amount": "1/2 tbsp",
+          "destination": "Glaze in addition to base 1 tbsp, for original total 1 1/2 tbsp soy"
+        }
+      ],
+      "dietary": "Honey branch non-vegan; not added to mirin branch"
+    }
+  ],
+  "variations": [
+    {
+      "heading": "Honey–Soy Variation",
+      "exactText": "Replace the measured mirin with the measured honey and additional soy sauce from the variation list, keeping the separately listed soy sauce as well. In the original 1½-pound cauliflower batch this is 1½ tablespoons honey plus ½ tablespoon additional soy sauce, giving 1½ tablespoons soy sauce total. Increase or decrease all these amounts with the cauliflower batch; do not add this variation to the mirin route. This honey version is non-vegan. Use mirin and ingredients suitable for a vegan diet for the vegan version."
+    }
+  ],
+  "ratiosYieldCapacity": "Current1.5lbflorets/3tbspwhitemiso/2tbspmirin/1tbspsoy/1tbspsesameoil/1tbspricevinegar/1tspginger preservedfourportions. Honeybranch1.5tbsp honey+.5tbspadditionalsoy replacesmirin, notbasetbspsoy;originaltotalsoy1.5tbsp. No forcedneutraloil,sugarreduction or copiedpublisherbalance. Seeds/scallionsgenuinegarnishingallowances.",
+  "processAndHandling": "Wash/dry/similarflorets →exclusiveglazeroute/misowhisk →allglazecoat→singlelayercutfaces/425→midpointcoatingcheck/turn/tendercenter/noforcedburn →bothfreshgarnishes. Existingprecoatroute retained despite differentpublisherlateglaze mechanism; risksstated,notdeclaredkitchenvalidated.",
+  "timing": "About 10 minutes to wash, divide and coat plus 25–30 minutes roasting is a 35–40-minute prep-and-roast subtotal. Start heating during setup, but load only once the oven reaches 425°F; any heating still needed after prep extends elapsed time. The midpoint check and final garnish are active work. No required marinade, rest or chill. Scaled batches need extra sheet area and may take longer; keep the center/coating checks.",
+  "storage": "Refrigerate promptly in shallow covered containers within 2 hours, or 1 hour above 90°F / 32°C, at 40°F / 4°C or below; use within 3–4 days. Reheat leftovers to 165°F. The miso coating and scallions soften in storage. Reheat without leaving the sugary glaze to blacken, and add any newly prepared fresh garnish only with clean utensils.",
+  "relationships": {
+    "pairsWith": ["japanese-beef-rice-bowl-gyudon", "coconut-curry-shrimp", "green-curry-chicken"],
+    "composedMeals": [],
+    "mealApplicability": "No composed meal references this slug. Existing pairing links remain suggestions, not ingredient quantities or shared-pan safety certification.",
+    "distinctVariants": "Mirinroute primaryvegan; explicitlynon-vegan honey/additionalsoyroute preserved asreplacement. Currentveganmetadata describesprimary route,with honeybranchlabelled non-vegan;noextra glutenfree claim with soy/miso."
+  },
+  "changedFields": [
+    {
+      "field": "origin",
+      "before": "Japan",
+      "after": null,
+      "rationale": "No evidence establishes a geographic origin for this particular recipe; existing cultural/style cuisine tags remain.",
+      "applicableSource": "docs/editorial-campaign/2026-10-05/roasted-vegetables-sources.json",
+      "confidence": "Moderate for untested kitchen behavior; high for exact source text and bounded arithmetic/handling corrections.",
+      "unresolvedQuestions": [
+        "Observe the specific miso/mirin coating from the start of the 425°F roast and center tenderness before scorching.",
+        "Compare the exclusive honey-plus-additional-soy branch against mirin without mixing routes.",
+        "Check sheet area, four-portion size and actual oven readiness before loading."
+      ]
+    },
+    {
+      "field": "advancePrep",
+      "before": ["marinate-overnight"],
+      "after": null,
+      "rationale": "Complete whole-source review preserves supported character while adding directly applicable cooking guidance.",
+      "applicableSource": "docs/editorial-campaign/2026-10-05/roasted-vegetables-sources.json",
+      "confidence": "Moderate for untested kitchen behavior; high for exact source text and bounded arithmetic/handling corrections.",
+      "unresolvedQuestions": [
+        "Observe the specific miso/mirin coating from the start of the 425°F roast and center tenderness before scorching.",
+        "Compare the exclusive honey-plus-additional-soy branch against mirin without mixing routes.",
+        "Check sheet area, four-portion size and actual oven readiness before loading."
+      ]
+    },
+    {
+      "field": "equipment",
+      "before": ["baking-sheet"],
+      "after": ["rimmed-baking-sheets", "small-bowl", "large-mixing-bowl", "whisk", "spatula"],
+      "rationale": "Complete whole-source review preserves supported character while adding directly applicable cooking guidance.",
+      "applicableSource": "docs/editorial-campaign/2026-10-05/roasted-vegetables-sources.json",
+      "confidence": "Moderate for untested kitchen behavior; high for exact source text and bounded arithmetic/handling corrections.",
+      "unresolvedQuestions": [
+        "Observe the specific miso/mirin coating from the start of the 425°F roast and center tenderness before scorching.",
+        "Compare the exclusive honey-plus-additional-soy branch against mirin without mixing routes.",
+        "Check sheet area, four-portion size and actual oven readiness before loading."
+      ]
+    },
+    {
+      "field": "cookTime",
+      "before": "30 min",
+      "after": "25–30 min, or until centers are tender",
+      "rationale": "Planning ranges follow current cooking windows and actual remaining preheating, with sensory endpoints and extra-batch time.",
+      "applicableSource": "docs/editorial-campaign/2026-10-05/roasted-vegetables-sources.json",
+      "confidence": "Moderate for untested kitchen behavior; high for exact source text and bounded arithmetic/handling corrections.",
+      "unresolvedQuestions": [
+        "Observe the specific miso/mirin coating from the start of the 425°F roast and center tenderness before scorching.",
+        "Compare the exclusive honey-plus-additional-soy branch against mirin without mixing routes.",
+        "Check sheet area, four-portion size and actual oven readiness before loading."
+      ]
+    },
+    {
+      "field": "totalTime",
+      "before": "40 min",
+      "after": "35–40 min, plus any remaining preheating",
+      "rationale": "Planning ranges follow current cooking windows and actual remaining preheating, with sensory endpoints and extra-batch time.",
+      "applicableSource": "docs/editorial-campaign/2026-10-05/roasted-vegetables-sources.json",
+      "confidence": "Moderate for untested kitchen behavior; high for exact source text and bounded arithmetic/handling corrections.",
+      "unresolvedQuestions": [
+        "Observe the specific miso/mirin coating from the start of the 425°F roast and center tenderness before scorching.",
+        "Compare the exclusive honey-plus-additional-soy branch against mirin without mixing routes.",
+        "Check sheet area, four-portion size and actual oven readiness before loading."
+      ]
+    },
+    {
+      "field": "servings",
+      "before": "4",
+      "after": "4 portions",
+      "rationale": "Retains the inherited planning portion count and makes its scaling explicit; no finished weight or measured yield is asserted.",
+      "applicableSource": "docs/editorial-campaign/2026-10-05/roasted-vegetables-sources.json",
+      "confidence": "High for exact source/compilation; planning portions and kitchen behavior remain untested.",
+      "unresolvedQuestions": [
+        "Observe the specific miso/mirin coating from the start of the 425°F roast and center tenderness before scorching.",
+        "Compare the exclusive honey-plus-additional-soy branch against mirin without mixing routes.",
+        "Check sheet area, four-portion size and actual oven readiness before loading."
+      ]
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "1.5 lbs Fresh Cauliflower florets",
+        "3 tbsp White Miso Paste",
+        "2 tbsp Mirin",
+        "1 tbsp Soy Sauce",
+        "1 tbsp Sesame Oil",
+        "1 tbsp Rice Vinegar",
+        "1 tsp Minced Fresh Ginger",
+        "Sesame Seeds and Scallions for garnish"
+      ],
+      "after": [
+        "--- Mirin glaze ---",
+        "3 tbsp white miso paste",
+        "2 tbsp mirin",
+        "1 tbsp soy sauce",
+        "1 tbsp sesame oil",
+        "1 tbsp rice vinegar",
+        "1 tsp fresh ginger, minced",
+        "--- Honey variation — replaces mirin ---",
+        "1 1/2 tbsp honey, optional",
+        "1/2 tbsp additional soy sauce, optional",
+        "--- Cauliflower ---",
+        "1 1/2 lb fresh cauliflower florets, similar-sized; washed and dried, very large florets split",
+        "--- Garnish ---",
+        "sesame seeds, for garnishing",
+        "scallions, for garnishing, washed and thinly sliced"
+      ],
+      "rationale": "Preserves or restores the exact source-supported ingredient totals and distinct variants, with explicit full-batch allocation, geometry and sensory endpoints; authored formula regenerates ingredients, yield and directions together.",
+      "applicableSource": "docs/editorial-campaign/2026-10-05/roasted-vegetables-sources.json",
+      "confidence": "High for exact source/compilation; planning portions and kitchen behavior remain untested.",
+      "unresolvedQuestions": [
+        "Observe the specific miso/mirin coating from the start of the 425°F roast and center tenderness before scorching.",
+        "Compare the exclusive honey-plus-additional-soy branch against mirin without mixing routes.",
+        "Check sheet area, four-portion size and actual oven readiness before loading."
+      ]
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 40,
+        "protein": 1,
+        "carbs": 2,
+        "fat": 3.5,
+        "fiber": 0.5,
+        "sugar": 0.5,
+        "sodium": 290
+      },
+      "after": null,
+      "rationale": "Unsupported legacy nutrition is removed without inventing replacement values.",
+      "applicableSource": "docs/editorial-campaign/2026-10-05/roasted-vegetables-sources.json",
+      "confidence": "High for exact source/compilation; planning portions and kitchen behavior remain untested.",
+      "unresolvedQuestions": [
+        "Observe the specific miso/mirin coating from the start of the 425°F roast and center tenderness before scorching.",
+        "Compare the exclusive honey-plus-additional-soy branch against mirin without mixing routes.",
+        "Check sheet area, four-portion size and actual oven readiness before loading."
+      ]
+    },
+    {
+      "field": "formula",
+      "before": null,
+      "after": {
+        "version": 1,
+        "yield": {
+          "amount": 4,
+          "unit": "portion"
+        },
+        "components": [
+          {
+            "id": "glaze",
+            "name": "Mirin glaze",
+            "ingredients": [
+              {
+                "id": "miso",
+                "key": "miso",
+                "name": "white miso paste",
+                "quantity": {
+                  "amount": 3,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "glaze",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "mirin",
+                "key": "mirin",
+                "name": "mirin",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "glaze",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "soy",
+                "key": "soy",
+                "name": "soy sauce",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "glaze",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "oil",
+                "key": "oil",
+                "name": "sesame oil",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "glaze",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "vinegar",
+                "key": "vinegar",
+                "name": "rice vinegar",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "glaze",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "ginger",
+                "key": "ginger",
+                "name": "fresh ginger",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tsp"
+                },
+                "preparation": "minced",
+                "uses": [
+                  {
+                    "step": "glaze",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "honey-option",
+            "name": "Honey variation — replaces mirin",
+            "ingredients": [
+              {
+                "id": "honey",
+                "key": "honey",
+                "name": "honey",
+                "quantity": {
+                  "amount": "1 1/2",
+                  "unit": "tbsp"
+                },
+                "optional": true,
+                "uses": [
+                  {
+                    "step": "glaze",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "extra-soy",
+                "key": "extra-soy",
+                "name": "additional soy sauce",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "tbsp"
+                },
+                "optional": true,
+                "uses": [
+                  {
+                    "step": "glaze",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "cauliflower",
+            "name": "Cauliflower",
+            "ingredients": [
+              {
+                "id": "cauliflower",
+                "key": "cauliflower",
+                "name": "fresh cauliflower florets",
+                "quantity": {
+                  "amount": 1.5,
+                  "unit": "lb"
+                },
+                "preparation": "similar-sized; washed and dried, very large florets split",
+                "uses": [
+                  {
+                    "step": "toss",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "finish",
+            "name": "Garnish",
+            "ingredients": [
+              {
+                "id": "sesame",
+                "key": "sesame",
+                "name": "sesame seeds",
+                "allowance": "for garnishing",
+                "role": "garnish",
+                "uses": [
+                  {
+                    "step": "finish",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "scallions",
+                "key": "scallions",
+                "name": "scallions",
+                "allowance": "for garnishing",
+                "preparation": "washed and thinly sliced",
+                "role": "garnish",
+                "uses": [
+                  {
+                    "step": "finish",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "id": "prep",
+            "title": "Heat and prepare",
+            "text": "Heat the oven to 425°F. Set out a large rimmed sheet or enough sheets for one layer of the measured florets. If lining, use parchment rated for this heat or suitable foil. Wash the cauliflower under running water, divide into similar-sized florets, split very large ones and dry them."
+          },
+          {
+            "id": "glaze",
+            "title": "Choose one glaze route",
+            "text": "Set out {{ingredients}} and choose one sweetening route before combining. For the mirin version, use the mirin and omit the optional honey and additional soy sauce. For the honey variation, omit mirin and use the measured honey plus additional soy sauce, while retaining the separately listed soy sauce. Do not combine both routes. Whisk the chosen ingredients until the miso is evenly dispersed; taste a small sample to understand the salty, sweet and acidic balance."
+          },
+          {
+            "id": "toss",
+            "title": "Coat and spread",
+            "text": "Toss {{ingredients}} with all the chosen glaze in the large bowl. Spread in a single layer, with flat cut faces against the sheet where possible. Keep room between pieces; if the scaled batch piles up, use additional sheets or batches rather than a deeper layer."
+          },
+          {
+            "id": "roast",
+            "title": "Watch the coating and centers",
+            "text": "Roast for 25–30 minutes, gently turning around halfway through and checking the coating then. Test a thick floret with a knife: its center should be tender and the coating browned without blackened bitterness. If the glaze darkens before the centers soften, move pieces away from hot spots, turn the dark faces upward and finish under loose foil while checking the centers; covered pieces will have softer edges. Remove ready pieces promptly rather than requiring every edge to char. More sheet area or larger florets may change the time."
+          },
+          {
+            "id": "finish",
+            "title": "Garnish and serve",
+            "text": "Scatter {{ingredients}} over the hot cauliflower and serve. The sesame seeds and scallions are both included finishes; wash the scallions before slicing and keep them away from raw-meat tools."
+          }
+        ]
+      },
+      "rationale": "Preserves or restores the exact source-supported ingredient totals and distinct variants, with explicit full-batch allocation, geometry and sensory endpoints; authored formula regenerates ingredients, yield and directions together.",
+      "applicableSource": "docs/editorial-campaign/2026-10-05/roasted-vegetables-sources.json",
+      "confidence": "High for exact source/compilation; planning portions and kitchen behavior remain untested.",
+      "unresolvedQuestions": [
+        "Observe the specific miso/mirin coating from the start of the 425°F roast and center tenderness before scorching.",
+        "Compare the exclusive honey-plus-additional-soy branch against mirin without mixing routes.",
+        "Check sheet area, four-portion size and actual oven readiness before loading."
+      ]
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Check a miso coating before the cauliflower center finishes",
+        "outcome": "Tender florets with a browned salty-sweet glaze, fresh scallions and sesame seeds, without burnt miso.",
+        "techniques": ["browning"],
+        "before": [
+          "Split very large florets for comparable center thickness; no precise head weight or floret count is assumed.",
+          "Choose mirin or the honey–additional-soy route before measuring. The optional honey list replaces mirin and retains the base soy sauce.",
+          "Prepare the glaze during oven setup and coat the florets just before roasting."
+        ],
+        "checkpoints": [
+          {
+            "step": 2,
+            "cue": "Miso is dispersed and only one sweetening route is in the bowl.",
+            "why": "Using mirin and the honey replacement together would change sweetness, salt and sauce volume."
+          },
+          {
+            "step": 4,
+            "cue": "A thick center is tender, and the miso is browned rather than black.",
+            "why": "The coating can burn before the vegetable cooks; early turning/checks matter more than a promised char."
+          },
+          {
+            "step": 5,
+            "cue": "Both sesame and washed sliced scallions finish the hot florets.",
+            "why": "Sesame adds texture and scallions add fresh onion flavor."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Glaze burns before cauliflower softens",
+            "cause": "Oversized florets or an oven hot spot cooked the coating faster than the center.",
+            "fix": "Turn dark faces upward, move pieces from hot spots and cover loosely to finish tender centers; accept softer edges rather than more burnt glaze."
+          },
+          {
+            "problem": "Sauce is unexpectedly sweet and salty",
+            "cause": "Mirin and the honey/extra-soy replacement were combined.",
+            "fix": "For the next batch, use mirin or the honey plus additional soy sauce, keeping the base soy sauce in either route."
+          },
+          {
+            "problem": "Large puddles rather than coated florets",
+            "cause": "Florets were wet or packed together.",
+            "fix": "Dry before tossing and use more sheet area. Keep the measured glaze rather than dumping it out to force dryness."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Mirin",
+            "alternative": "The listed honey plus additional soy sauce variation",
+            "effect": "Preserve the base soy sauce, omit mirin and use both replacement ingredients. It is non-vegan and tastes different, not a chemically equivalent mirin substitute."
+          },
+          {
+            "ingredient": "White miso",
+            "alternative": "A stronger or saltier miso",
+            "effect": "Changes flavor and scorching behavior; the current ratio is authored for white miso and is not a validated equivalent for every miso."
+          }
+        ],
+        "timing": "About 10 minutes to wash, divide and coat plus 25–30 minutes roasting is a 35–40-minute prep-and-roast subtotal. Start heating during setup, but load only once the oven reaches 425°F; any heating still needed after prep extends elapsed time. The midpoint check and final garnish are active work. No required marinade, rest or chill. Scaled batches need extra sheet area and may take longer; keep the center/coating checks.",
+        "storage": "Refrigerate promptly in shallow covered containers within 2 hours, or 1 hour above 90°F / 32°C, at 40°F / 4°C or below; use within 3–4 days. Reheat leftovers to 165°F. The miso coating and scallions soften in storage. Reheat without leaving the sugary glaze to blacken, and add any newly prepared fresh garnish only with clean utensils.",
+        "sources": [
+          {
+            "title": "Just One Cookbook — Roasted miso garlic cauliflower",
+            "url": "https://www.justonecookbook.com/roasted-miso-garlic-cauliflower/"
+          },
+          {
+            "title": "FDA — Selecting and Serving Produce Safely",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+          },
+          {
+            "title": "USDA FSIS — Leftovers and Food Safety",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-05"
+        }
+      },
+      "rationale": "Complete whole-source review preserves supported character while adding directly applicable cooking guidance.",
+      "applicableSource": "docs/editorial-campaign/2026-10-05/roasted-vegetables-sources.json",
+      "confidence": "Moderate for untested kitchen behavior; high for exact source text and bounded arithmetic/handling corrections.",
+      "unresolvedQuestions": [
+        "Observe the specific miso/mirin coating from the start of the 425°F roast and center tenderness before scorching.",
+        "Compare the exclusive honey-plus-additional-soy branch against mirin without mixing routes.",
+        "Check sheet area, four-portion size and actual oven readiness before loading."
+      ]
+    },
+    {
+      "field": "body",
+      "before": "\n## Chef's Note\n\nMiso is umami condensed - it transforms mild cauliflower into something deeply savory and addictive. The glaze contains the holy trifecta: miso (salt and depth), mirin (sweetness and shine), and sesame oil (richness). Roasting at high heat caramelizes the glaze onto the florets. This is how Japanese home cooks make vegetables disappear from the plate. The key is not overcrowding the pan; each piece needs direct contact with heat to caramelize.\n\nFor a non-vegan variation, replace the mirin with 1 1/2 tbsp honey plus 1/2 tbsp soy sauce, in addition to the separately listed soy sauce. Use mirin for the vegan version.\n\n## Directions\n\n1. **Make Glaze:** In a small bowl, whisk together miso, mirin, soy sauce, sesame oil, rice vinegar, and fresh ginger. Taste - it should taste aggressively salty and umami-rich (the cauliflower will mellow it).\n2. **Prep Oven:** Preheat to 425°F. Line a large baking sheet with parchment paper.\n3. **Toss:** Pat cauliflower florets dry (moisture prevents caramelization). Place in a large bowl. Pour the miso glaze over and toss with your hands until every floret is coated.\n4. **Spread:** Arrange florets in a single layer on the baking sheet, cut-side down. Do not crowd.\n5. **Roast:** Bake for 25-30 minutes until the cauliflower is tender inside and the glaze is caramelized and slightly charred on the edges. Shake the pan halfway through.\n6. **Finish:** Remove from oven. Garnish generously with sesame seeds and thinly sliced scallions. Serve hot.\n",
+      "after": "\n## Chef's Note\n\nWhite miso, mirin, soy sauce, sesame oil and rice vinegar make a concentrated glaze for the cauliflower. This sauce coats the florets before roasting, so check it when turning: miso and sweeteners can darken before a thick center is tender. Split unusually large florets, keep the sheet uncrowded and stop at browned coating and tender centers rather than forcing a black char.\n\n## Directions\n\n1. **Heat and prepare:** Heat the oven to 425°F. Set out a large rimmed sheet or enough sheets for one layer of the measured florets. If lining, use parchment rated for this heat or suitable foil. Wash the cauliflower under running water, divide into similar-sized florets, split very large ones and dry them.\n2. **Choose one glaze route:** Set out white miso paste, mirin, soy sauce, sesame oil, rice vinegar, fresh ginger, honey (if using), and additional soy sauce (if using) and choose one sweetening route before combining. For the mirin version, use the mirin and omit the optional honey and additional soy sauce. For the honey variation, omit mirin and use the measured honey plus additional soy sauce, while retaining the separately listed soy sauce. Do not combine both routes. Whisk the chosen ingredients until the miso is evenly dispersed; taste a small sample to understand the salty, sweet and acidic balance.\n3. **Coat and spread:** Toss fresh cauliflower florets with all the chosen glaze in the large bowl. Spread in a single layer, with flat cut faces against the sheet where possible. Keep room between pieces; if the scaled batch piles up, use additional sheets or batches rather than a deeper layer.\n4. **Watch the coating and centers:** Roast for 25–30 minutes, gently turning around halfway through and checking the coating then. Test a thick floret with a knife: its center should be tender and the coating browned without blackened bitterness. If the glaze darkens before the centers soften, move pieces away from hot spots, turn the dark faces upward and finish under loose foil while checking the centers; covered pieces will have softer edges. Remove ready pieces promptly rather than requiring every edge to char. More sheet area or larger florets may change the time.\n5. **Garnish and serve:** Scatter sesame seeds and scallions over the hot cauliflower and serve. The sesame seeds and scallions are both included finishes; wash the scallions before slicing and keep them away from raw-meat tools.\n\n## Honey–Soy Variation\n\nReplace the measured mirin with the measured honey and additional soy sauce from the variation list, keeping the separately listed soy sauce as well. In the original 1½-pound cauliflower batch this is 1½ tablespoons honey plus ½ tablespoon additional soy sauce, giving 1½ tablespoons soy sauce total. Increase or decrease all these amounts with the cauliflower batch; do not add this variation to the mirin route. This honey version is non-vegan. Use mirin and ingredients suitable for a vegan diet for the vegan version.\n",
+      "rationale": "Preserves or restores the exact source-supported ingredient totals and distinct variants, with explicit full-batch allocation, geometry and sensory endpoints; authored formula regenerates ingredients, yield and directions together.",
+      "applicableSource": "docs/editorial-campaign/2026-10-05/roasted-vegetables-sources.json",
+      "confidence": "Moderate for untested kitchen behavior; high for exact source text and bounded arithmetic/handling corrections.",
+      "unresolvedQuestions": [
+        "Observe the specific miso/mirin coating from the start of the 425°F roast and center tenderness before scorching.",
+        "Compare the exclusive honey-plus-additional-soy branch against mirin without mixing routes.",
+        "Check sheet area, four-portion size and actual oven readiness before loading."
+      ]
+    }
+  ],
+  "validation": {
+    "frozenCommitMatches": true,
+    "inputSha256": "0fed5c69ac2cee68aad81f10b0d2afb5f2e4d67a3614ee13d8c6eab85d3a3da4",
+    "identityTitleRatingSourceLinksPreserved": true,
+    "formulaSchema": "pass",
+    "compiledIngredientsYieldDirections": "pass",
+    "editorialAudit": {
+      "slug": "miso-glazed-roasted-cauliflower",
+      "title": "Miso-Glazed Roasted Cauliflower",
+      "status": "editorial-review",
+      "stepCount": 5,
+      "issues": []
+    },
+    "mainSourceStillFrozen": true,
+    "scaled": [
+      {
+        "factor": 0.5,
+        "ingredients": [
+          "--- Mirin glaze ---",
+          "1 1/2 tbsp white miso paste",
+          "1 tbsp mirin",
+          "1/2 tbsp soy sauce",
+          "1/2 tbsp sesame oil",
+          "1/2 tbsp rice vinegar",
+          "1/2 tsp fresh ginger, minced",
+          "--- Honey variation — replaces mirin ---",
+          "3/4 tbsp honey, optional",
+          "1/4 tbsp additional soy sauce, optional",
+          "--- Cauliflower ---",
+          "3/4 lb fresh cauliflower florets, similar-sized; washed and dried, very large florets split",
+          "--- Garnish ---",
+          "sesame seeds, for garnishing",
+          "scallions, for garnishing, washed and thinly sliced"
+        ],
+        "yield": "2 portions",
+        "shoppingList": [
+          "1 1/2 tbsp white miso paste",
+          "1 tbsp mirin",
+          "1/2 tbsp soy sauce",
+          "1/2 tbsp sesame oil",
+          "1/2 tbsp rice vinegar",
+          "1/2 tsp fresh ginger",
+          "3/4 tbsp honey, optional",
+          "1/4 tbsp additional soy sauce, optional",
+          "3/4 lb fresh cauliflower florets",
+          "sesame seeds, for garnishing",
+          "scallions, for garnishing"
+        ]
+      },
+      {
+        "factor": 1,
+        "ingredients": [
+          "--- Mirin glaze ---",
+          "3 tbsp white miso paste",
+          "2 tbsp mirin",
+          "1 tbsp soy sauce",
+          "1 tbsp sesame oil",
+          "1 tbsp rice vinegar",
+          "1 tsp fresh ginger, minced",
+          "--- Honey variation — replaces mirin ---",
+          "1 1/2 tbsp honey, optional",
+          "1/2 tbsp additional soy sauce, optional",
+          "--- Cauliflower ---",
+          "1 1/2 lb fresh cauliflower florets, similar-sized; washed and dried, very large florets split",
+          "--- Garnish ---",
+          "sesame seeds, for garnishing",
+          "scallions, for garnishing, washed and thinly sliced"
+        ],
+        "yield": "4 portions",
+        "shoppingList": [
+          "3 tbsp white miso paste",
+          "2 tbsp mirin",
+          "1 tbsp soy sauce",
+          "1 tbsp sesame oil",
+          "1 tbsp rice vinegar",
+          "1 tsp fresh ginger",
+          "1 1/2 tbsp honey, optional",
+          "1/2 tbsp additional soy sauce, optional",
+          "1 1/2 lb fresh cauliflower florets",
+          "sesame seeds, for garnishing",
+          "scallions, for garnishing"
+        ]
+      },
+      {
+        "factor": 2,
+        "ingredients": [
+          "--- Mirin glaze ---",
+          "6 tbsp white miso paste",
+          "4 tbsp mirin",
+          "2 tbsp soy sauce",
+          "2 tbsp sesame oil",
+          "2 tbsp rice vinegar",
+          "2 tsp fresh ginger, minced",
+          "--- Honey variation — replaces mirin ---",
+          "3 tbsp honey, optional",
+          "1 tbsp additional soy sauce, optional",
+          "--- Cauliflower ---",
+          "3 lb fresh cauliflower florets, similar-sized; washed and dried, very large florets split",
+          "--- Garnish ---",
+          "sesame seeds, for garnishing",
+          "scallions, for garnishing, washed and thinly sliced"
+        ],
+        "yield": "8 portions",
+        "shoppingList": [
+          "6 tbsp white miso paste",
+          "4 tbsp mirin",
+          "2 tbsp soy sauce",
+          "2 tbsp sesame oil",
+          "2 tbsp rice vinegar",
+          "2 tsp fresh ginger",
+          "3 tbsp honey, optional",
+          "1 tbsp additional soy sauce, optional",
+          "3 lb fresh cauliflower florets",
+          "sesame seeds, for garnishing",
+          "scallions, for garnishing"
+        ]
+      }
+    ],
+    "scalingCaveats": "Both primary and optional replacement measured amounts scale together. Choose mirinORhoney+extra-soy, retaining base soy in either. Original1.5lb totals are stated only as originalbatch context. Sheets, floret thickness, ovenheat and clocks do not multiply.",
+    "currentCandidateHashChecks": {
+      "frozenHashMatches": true,
+      "frozenGitExact": true,
+      "originGitExact": true,
+      "proposalMatchesPeer": true,
+      "proposalMatchesRecord": true,
+      "proposalMatchesResults": true,
+      "protectedFieldsPreserved": true,
+      "formulaSchema": true,
+      "compiledIngredients": true,
+      "compiledYield": true,
+      "compiledDirections": true,
+      "changedFieldSetExact": true,
+      "changedFieldValuesExact": true,
+      "ledgerComplete": true
+    },
+    "integration": "Root acceptance and integrated build/presentation checks pending"
+  },
+  "kitchenQuestions": [
+    "Observe the specific miso/mirin coating from the start of the 425°F roast and center tenderness before scorching.",
+    "Compare the exclusive honey-plus-additional-soy branch against mirin without mixing routes.",
+    "Check sheet area, four-portion size and actual oven readiness before loading."
+  ],
+  "sourceEvidence": "roasted-vegetables-source-evidence.json",
+  "pendingRootGates": [],
+  "rootBoundedCorrections": {
+    "slug": "miso-glazed-roasted-cauliflower",
+    "independentBaselineSha256": "159cb8aa7c6190b1e5bf52c5888b9beb42090c2306c79126597483e8f9e85129",
+    "rootCorrections": [
+      {
+        "field": "totalTime",
+        "before": "35–40 min",
+        "after": "35–40 min, plus any remaining preheating",
+        "rationale": "Account for actual oven heating without inventing a household preheat duration.",
+        "source": "Current preparation and roasting windows; actual oven target before loading.",
+        "confidence": "High for the bounded clarification; physical cooking remains untested."
+      },
+      {
+        "field": "learning.timing",
+        "before": "About 10 minutes to wash, divide and coat plus 25–30 minutes roasting: roughly 35–40 minutes with oven preheating overlapping setup. The midpoint check and final garnish are active work. No required marinade, rest or chill. Scaled batches need extra sheet area and may take longer; keep the center/coating checks.",
+        "after": "About 10 minutes to wash, divide and coat plus 25–30 minutes roasting is a 35–40-minute prep-and-roast subtotal. Start heating during setup, but load only once the oven reaches 425°F; any heating still needed after prep extends elapsed time. The midpoint check and final garnish are active work. No required marinade, rest or chill. Scaled batches need extra sheet area and may take longer; keep the center/coating checks.",
+        "rationale": "Account for actual oven heating without inventing a household preheat duration.",
+        "source": "Current preparation and roasting windows; actual oven target before loading.",
+        "confidence": "High for the bounded clarification; physical cooking remains untested."
+      },
+      {
+        "field": "learning.storage",
+        "before": "Refrigerate within two hours in shallow covered containers; use within 3–4 days. Reheat leftovers to 165°F. The miso coating and scallions soften in storage. Reheat without leaving the sugary glaze to blacken, and add any newly prepared fresh garnish only with clean utensils.",
+        "after": "Refrigerate promptly in shallow covered containers within 2 hours, or 1 hour above 90°F / 32°C, at 40°F / 4°C or below; use within 3–4 days. Reheat leftovers to 165°F. The miso coating and scallions soften in storage. Reheat without leaving the sugary glaze to blacken, and add any newly prepared fresh garnish only with clean utensils.",
+        "rationale": "General cooked-leftover guidance; no preservation or measured shelf-life guarantee.",
+        "source": [
+          {
+            "title": "FDA — Safe Food Handling",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+            "access": "Narrow primary page rechecked on 2026-10-05; chill guidance and leftovers temperature table read",
+            "applicability": "Other perishables within 2 hours/1 hour above 90°F, refrigerator 40°F or below, shallow leftovers; measured 165°F leftovers reheat. Does not establish acid preservation or recipe-specific shelf life."
+          },
+          {
+            "title": "USDA FSIS — Leftovers and Food Safety",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety",
+            "access": "Existing author/peer evidence reused; this narrow direct recheck returned 403. Official indexed USDA text corroborates hot-ambient limit, rapid shallow cooling and 40°F storage.",
+            "applicability": "General cooked leftovers, including cooked side dishes; retain current 3–4-day guidance rather than infer preservation from vinegar or sugar."
+          },
+          {
+            "title": "USDA FSIS — Keep Food Safe",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/steps-keep-food-safe",
+            "access": "Official indexed primary text checked on 2026-10-05",
+            "applicability": "Most cooked leftovers 3–4 days at refrigerator 40°F or below; no guarantee this kitchen met handling conditions."
+          },
+          {
+            "title": "FDA — Selecting and Serving Produce Safely",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely",
+            "access": "Narrow primary recheck read 2026-10-05",
+            "applicability": "Perishable fresh herb/leaf finishes at 40°F or below and clean separation; not itself a 3–4-day cooked-side shelf-life source."
+          }
+        ],
+        "confidence": "High for the bounded clarification; physical cooking remains untested."
+      },
+      {
+        "field": "learning.checkpoints.2.why",
+        "before": "The combined old garnish line represented two finishes, not an either/or omission.",
+        "after": "Sesame adds texture and scallions add fresh onion flavor.",
+        "rationale": "Use direct cooking prose while retaining the same action, quantities, sensory cue and caution.",
+        "confidence": "High; no culinary route or amount changed."
+      },
+      {
+        "field": "learning.troubleshooting.1.fix",
+        "before": "Select only one route next time. Do not call extra soy the existing tablespoon or add both sweeteners.",
+        "after": "For the next batch, use mirin or the honey plus additional soy sauce, keeping the base soy sauce in either route.",
+        "rationale": "Use direct cooking prose while retaining the same action, quantities, sensory cue and caution.",
+        "confidence": "High; no culinary route or amount changed."
+      }
+    ],
+    "formulaAmountsAndUsesUnchanged": true,
+    "generatedIngredientsYieldDirectionsRegeneratedTogether": true,
+    "correctedSha256": "cdbca3ccf5d4f44a8a187f151d78748f7e44de2fd6d215ca5166d85b2901eb4e",
+    "baselineReconstructionExact": true,
+    "protectedFieldsPreserved": true,
+    "generatedParity": true,
+    "rootWholeAcceptance": "accepted after independent final bounded check and root whole inspection"
+  },
+  "acceptedSourceSha256": "cdbca3ccf5d4f44a8a187f151d78748f7e44de2fd6d215ca5166d85b2901eb4e",
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/roasted-vegetables-independent.md",
+  "independentFinalSha256": "5aaebd74e77396ef2f8c7d0f470e965b354c27328992e32ceca32b909b9954f7",
+  "rootWholeInspection": "Complete frozen and proposed recipe, exact Git original, historical repairs, source disagreements, every ingredient and retained variation, pan geometry, sensory endpoints, timing, storage, scaling and linked meals inspected.",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "productionVerification": "pending"
+}

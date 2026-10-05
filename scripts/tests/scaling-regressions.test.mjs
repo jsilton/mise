@@ -83,6 +83,36 @@ for (const row of confirmed) {
             assert.equal(numeric(scaled.match(number)[0]), amount * factor);
           }
         }
+      } else if (
+        (row.slug === 'roasted-asparagus' && row.caseId === 55) ||
+        (row.slug === 'roasted-broccolini-with-lemon' && row.caseId === 56)
+      ) {
+        // Retain the old parser inputs and numeric oracles below, while checking
+        // their independently reviewed authored replacements. Bunch weight is
+        // descriptive original-batch context, not a universal weight conversion.
+        assert.equal(data.formula?.version, 1);
+        const asparagus = row.caseId === 55;
+        const ingredient = data.formula.components
+          .find((c) => c.id === (asparagus ? 'finish' : 'roast'))
+          .ingredients.find((i) => i.id === (asparagus ? 'garnish' : 'broccolini'));
+        assert.deepEqual(ingredient.quantity, {
+          amount: asparagus ? 1 : 2,
+          unit: asparagus ? 'tbsp' : 'count',
+        });
+        assert.deepEqual(ingredient.uses, [{ step: asparagus ? 'finish' : 'toss', share: 1 }]);
+        if (asparagus) {
+          assert.equal(ingredient.optional, true);
+          assert.equal(ingredient.name, 'grated Parmesan or finely grated lemon zest');
+        } else {
+          assert.match(ingredient.preparation, /12 oz total in the original two-bunch batch/);
+        }
+        for (const factor of factors) {
+          const scaled = formatFormulaIngredient(ingredient, factor);
+          assert.equal(numeric(scaled.match(number)[0]), (asparagus ? 1 : 2) * factor);
+          if (!asparagus) {
+            assert.match(scaled, /12 oz total in the original two-bunch batch/);
+          }
+        }
       } else {
         assert.ok(
           data.ingredients.includes(component.input),

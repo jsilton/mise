@@ -2,22 +2,22 @@
   "summary": {
     "inputCommit": "1bd5c42bf7d801f19165b16dfffc3cee4906c1c6",
     "recipes": 643,
-    "recordedCompleteEditorial": 263,
-    "completeEditorialPending": 380,
+    "recordedCompleteEditorial": 271,
+    "completeEditorialPending": 372,
     "originalBaseline": 612,
-    "originalReviewed": 252,
+    "originalReviewed": 260,
     "consideredConsolidations": 10,
-    "originalPending": 350,
+    "originalPending": 342,
     "additionalSources": 41,
     "additionalReviewed": 11,
     "additionalPending": 30,
     "automatedAudit": {
       "recipes": 643,
-      "editoriallyReviewed": 263,
+      "editoriallyReviewed": 271,
       "kitchenTested": 0,
       "errors": 0,
       "priorityReviews": 0,
-      "reviewItems": 706
+      "reviewItems": 690
     },
     "accelerated": {
       "implemented": 42,
@@ -27,7 +27,7 @@
     },
     "uniquePathsInSixRepairCommits": 105,
     "kitchenTested": 0,
-    "productionReconciliation": "Accelerated42 targeted repairs verified live through e922e95e; ten complete versions live at b1435040 and six baking versions live at e2ae34b9. Seven cold-side versions at5cbddf1f built successfully, but deployment run37372602039 could not acquire a hosted runner. Six potato/cauliflower versions implemented at1bd5c42b; all thirteen await the next exact deployment/live verification."
+    "productionReconciliation": "42 accelerated targeted repairs verified live; 16 additional complete versions verified live. Thirteen complete cold-side/potato versions remain unverified after release 8a6d5e6c failed before any build/deployment steps: run 37374702530 could not acquire a GitHub-hosted runner. GitHub Status reports an ongoing Actions hosted-runner outage. Eight roasted vegetable versions are accepted locally with validation/implementation/publication pending."
   },
   "collectionEvidence": [
     "docs/REVIEW_PROGRESS.md",
@@ -3638,7 +3638,9 @@
         }
       ],
       "productionVerification": {
-        "status": "pending; older live version does not certify accepted editorial version"
+        "status": "pending; release 8a6d5e6c could not acquire a hosted runner before any build/deploy step",
+        "attemptedCommit": "8a6d5e6ca0388b0d327cbe9972dd16aebda7952e",
+        "failedDeploymentRun": 37374702530
       },
       "remainingQuestions": [
         "Measure actual florets and finished sauce volume with Parmesan versus yeast.",
@@ -3690,7 +3692,9 @@
         }
       ],
       "productionVerification": {
-        "status": "pending; older live version does not certify accepted editorial version"
+        "status": "pending; release 8a6d5e6c could not acquire a hosted runner before any build/deploy step",
+        "attemptedCommit": "8a6d5e6ca0388b0d327cbe9972dd16aebda7952e",
+        "failedDeploymentRun": 37374702530
       },
       "remainingQuestions": [
         "Record head weight versus usable grains and the number of processor/skillet batches.",
@@ -4033,7 +4037,9 @@
         }
       ],
       "productionVerification": {
-        "status": "pending; older live version does not certify accepted editorial version"
+        "status": "pending; release 8a6d5e6c could not acquire a hosted runner before any build/deploy step",
+        "attemptedCommit": "8a6d5e6ca0388b0d327cbe9972dd16aebda7952e",
+        "failedDeploymentRun": 37374702530
       },
       "remainingQuestions": [
         "Measure sauce-only yield and coverage of the original pound of pasta/eight planning portions.",
@@ -5268,9 +5274,9 @@
         }
       ],
       "productionVerification": {
-        "status": "pending; release5cbddf1f build passed but deployment did not acquire hosted runner",
-        "attemptedCommit": "5cbddf1fd091940c2e86aa9c1045bc7e25fde78a",
-        "failedDeploymentRun": 37372602039
+        "status": "pending; release 8a6d5e6c could not acquire a hosted runner before any build/deploy step",
+        "attemptedCommit": "8a6d5e6ca0388b0d327cbe9972dd16aebda7952e",
+        "failedDeploymentRun": 37374702530
       },
       "remainingQuestions": [
         "Measure finished sauce volume and original eight condiment portions; packing of parsley/oregano varies.",
@@ -6520,9 +6526,9 @@
         }
       ],
       "productionVerification": {
-        "status": "pending; release5cbddf1f build passed but deployment did not acquire hosted runner",
-        "attemptedCommit": "5cbddf1fd091940c2e86aa9c1045bc7e25fde78a",
-        "failedDeploymentRun": 37372602039
+        "status": "pending; release 8a6d5e6c could not acquire a hosted runner before any build/deploy step",
+        "attemptedCommit": "8a6d5e6ca0388b0d327cbe9972dd16aebda7952e",
+        "failedDeploymentRun": 37374702530
       },
       "remainingQuestions": [
         "Measure avocado edible mass and finished dip volume; eight portions remain a planning claim.",
@@ -7981,7 +7987,9 @@
         }
       ],
       "productionVerification": {
-        "status": "pending; older live version does not certify accepted editorial version"
+        "status": "pending; release 8a6d5e6c could not acquire a hosted runner before any build/deploy step",
+        "attemptedCommit": "8a6d5e6ca0388b0d327cbe9972dd16aebda7952e",
+        "failedDeploymentRun": 37374702530
       },
       "remainingQuestions": [
         "Record baby potato size, tray load and breakage when turning.",
@@ -9016,9 +9024,9 @@
         }
       ],
       "productionVerification": {
-        "status": "pending; release5cbddf1f build passed but deployment did not acquire hosted runner",
-        "attemptedCommit": "5cbddf1fd091940c2e86aa9c1045bc7e25fde78a",
-        "failedDeploymentRun": 37372602039
+        "status": "pending; release 8a6d5e6c could not acquire a hosted runner before any build/deploy step",
+        "attemptedCommit": "8a6d5e6ca0388b0d327cbe9972dd16aebda7952e",
+        "failedDeploymentRun": 37374702530
       },
       "remainingQuestions": [
         "Measure drained bean/mozzarella weights and cucumber size, finished bowl volume and portions.",
@@ -11011,7 +11019,9 @@
         }
       ],
       "productionVerification": {
-        "status": "pending; older live version does not certify accepted editorial version"
+        "status": "pending; release 8a6d5e6c could not acquire a hosted runner before any build/deploy step",
+        "attemptedCommit": "8a6d5e6ca0388b0d327cbe9972dd16aebda7952e",
+        "failedDeploymentRun": 37374702530
       },
       "remainingQuestions": [
         "Record cauliflower head weight, drained yield and four planning portions.",
@@ -11064,7 +11074,9 @@
         }
       ],
       "productionVerification": {
-        "status": "pending; older live version does not certify accepted editorial version"
+        "status": "pending; release 8a6d5e6c could not acquire a hosted runner before any build/deploy step",
+        "attemptedCommit": "8a6d5e6ca0388b0d327cbe9972dd16aebda7952e",
+        "failedDeploymentRun": 37374702530
       },
       "remainingQuestions": [
         "Record the actual weight of eight potatoes, quarter size and six planning portions.",
@@ -15939,18 +15951,7 @@
       "baseline": "original canonical",
       "source": null,
       "sourceUrl": null,
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -15958,19 +15959,26 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/maple-roasted-sweet-potato-wedges.md",
+        "acceptedSha256": "1c9559a7e891f44b2482adf4ff815bc170c73c2701eb2c771227bd2e0ce45ca3",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/roasted-vegetables-independent.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally after independent challenge and complete root inspection; implementation pending",
+        "record": "docs/reviews/maple-roasted-sweet-potato-wedges.json",
+        "sourceSha256": "1c9559a7e891f44b2482adf4ff815bc170c73c2701eb2c771227bd2e0ce45ca3"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; older live version does not certify accepted editorial version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Check consistent approximately half-inch wedges and nearly tender centers in the first stage.",
+        "Check sheet footprint and cut-face browning for two pounds.",
+        "Observe full maple/optional paprika through the final stage, and record oven readiness without promising fried crispness."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -16755,18 +16763,7 @@
       "baseline": "original canonical",
       "source": null,
       "sourceUrl": null,
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -16774,19 +16771,26 @@
         "evidence": ["docs/repairs/2026-09-15/changed-files.json"]
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/miso-glazed-roasted-cauliflower.md",
+        "acceptedSha256": "cdbca3ccf5d4f44a8a187f151d78748f7e44de2fd6d215ca5166d85b2901eb4e",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/roasted-vegetables-independent.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally after independent challenge and complete root inspection; implementation pending",
+        "record": "docs/reviews/miso-glazed-roasted-cauliflower.json",
+        "sourceSha256": "cdbca3ccf5d4f44a8a187f151d78748f7e44de2fd6d215ca5166d85b2901eb4e"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; older live version does not certify accepted editorial version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Observe the specific miso/mirin coating from the start of the 425°F roast and center tenderness before scorching.",
+        "Compare the exclusive honey-plus-additional-soy branch against mirin without mixing routes.",
+        "Check sheet area, four-portion size and actual oven readiness before loading."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -16904,9 +16908,9 @@
         }
       ],
       "productionVerification": {
-        "status": "pending; release5cbddf1f build passed but deployment did not acquire hosted runner",
-        "attemptedCommit": "5cbddf1fd091940c2e86aa9c1045bc7e25fde78a",
-        "failedDeploymentRun": 37372602039
+        "status": "pending; release 8a6d5e6c could not acquire a hosted runner before any build/deploy step",
+        "attemptedCommit": "8a6d5e6ca0388b0d327cbe9972dd16aebda7952e",
+        "failedDeploymentRun": 37374702530
       },
       "remainingQuestions": [
         "Identify chickpea can size and actual drained mass, edamame product cooking/cooling route and full four-portion yield.",
@@ -18714,18 +18718,7 @@
       "baseline": "original canonical",
       "source": null,
       "sourceUrl": null,
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -18733,19 +18726,26 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/patate-al-forno.md",
+        "acceptedSha256": "94e6978482a006e7afb76be0f6e45f4160a26fddf529d6a87fe9bedf12ad868f",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/roasted-vegetables-independent.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally after independent challenge and complete root inspection; implementation pending",
+        "record": "docs/reviews/patate-al-forno.json",
+        "sourceSha256": "94e6978482a006e7afb76be0f6e45f4160a26fddf529d6a87fe9bedf12ad868f"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; older live version does not certify accepted editorial version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Check footprint and preferred brown/tender endpoint for the family’s two-pound 450°F batch.",
+        "Confirm current teaspoon garlic preference while preserving it pending kitchen feedback.",
+        "Check sheet/lining rating, desired finishing salt and actual oven readiness; no old parboil restoration is inferred."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -20794,18 +20794,7 @@
       "baseline": "original canonical",
       "source": null,
       "sourceUrl": null,
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -20813,19 +20802,26 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/roasted-asparagus.md",
+        "acceptedSha256": "d8e1601fca93f1325ed25ad26fa669917f41d760699957d13f30bd56f5398685",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/roasted-vegetables-independent.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally after independent challenge and complete root inspection; implementation pending",
+        "record": "docs/reviews/roasted-asparagus.json",
+        "sourceSha256": "d8e1601fca93f1325ed25ad26fa669917f41d760699957d13f30bd56f5398685"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; older live version does not certify accepted editorial version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Weigh the actual bunch and assess seasoning for that bunch, without creating a universal bunch weight.",
+        "Confirm whether the saved shared 1 tbsp amount is intended for either optional topping, especially zest.",
+        "Observe thin/thick stalk timing, actual oven readiness and four-portion size."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -20841,18 +20837,7 @@
       "baseline": "original canonical",
       "source": null,
       "sourceUrl": null,
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -20860,12 +20845,18 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/roasted-broccolini-with-lemon.md",
+        "acceptedSha256": "9d5bb3b7acbcfff3e4f3a32f3f4b79845766e0bf17e95c8702a9514b2e19d51f",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/roasted-vegetables-independent.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": "historical implemented diff; acceptance scope requires linked record, not inferred from file touch",
+      "acceptedChange": {
+        "status": "accepted locally after independent challenge and complete root inspection; implementation pending",
+        "record": "docs/reviews/roasted-broccolini-with-lemon.json",
+        "sourceSha256": "9d5bb3b7acbcfff3e4f3a32f3f4b79845766e0bf17e95c8702a9514b2e19d51f"
+      },
       "implementationCommits": [
         {
           "commit": "a2c9e28069faa57c7bb7fe4ac5e7ca02b6462861",
@@ -20874,11 +20865,12 @@
         }
       ],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; older live version does not certify accepted editorial version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Measure actual bunch weights and the sheet footprint of the original two-bunch amount.",
+        "Observe thinly sliced garlic and stem tenderness on the actual rack and sheet.",
+        "Assess the retained oil and roasted-lemon finish without lowering richness; record oven readiness and elapsed time."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -20894,18 +20886,7 @@
       "baseline": "original canonical",
       "source": null,
       "sourceUrl": null,
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -20913,19 +20894,27 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/roasted-brussels-sprouts-with-balsamic.md",
+        "acceptedSha256": "fb0671b1de32020949e834ff69e9b62982b90a3f77188132d88bfe99854f7dfc",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/roasted-vegetables-independent.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally after independent challenge and complete root inspection; implementation pending",
+        "record": "docs/reviews/roasted-brussels-sprouts-with-balsamic.json",
+        "sourceSha256": "fb0671b1de32020949e834ff69e9b62982b90a3f77188132d88bfe99854f7dfc"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; older live version does not certify accepted editorial version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Observe sprout-half size and nearly tender centers at the first 20-minute check.",
+        "Compare the two separate glaze/seasoning routes without blending their quantities.",
+        "Resolve pork-tenderloin-dinner oven capacity, service schedule and raw-meat separation in its own whole-meal review; include actual oven/pan readiness.",
+        "The linked Pork Tenderloin Dinner has an independent schedule conflict: it uses 425°F and searing while its actual bacon-wrapped pork recipe uses 375°F and a one-hour refrigerated marinade. Its end-only sprout glaze corresponds to the separate post-roast variation, not the main oven-finished glaze. The composed meal remains pending complete review; this component acceptance does not certify that meal."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -21222,18 +21211,7 @@
       "baseline": "original canonical",
       "source": null,
       "sourceUrl": null,
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -21241,19 +21219,26 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/roasted-root-vegetables.md",
+        "acceptedSha256": "fd732798f65b4cfaa83cc9a153786616d49552ff08ec0afdee93145c3558482e",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/roasted-vegetables-independent.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally after independent challenge and complete root inspection; implementation pending",
+        "record": "docs/reviews/roasted-root-vegetables.json",
+        "sourceSha256": "fd732798f65b4cfaa83cc9a153786616d49552ff08ec0afdee93145c3558482e"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; older live version does not certify accepted editorial version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Record the actual root mix and centers at the first check, particularly dense beets.",
+        "Check the four-pound footprint on the actual sheets and distribute the full glaze across all sheets.",
+        "Observe garlic/herb behavior during longer roasting and record oven readiness before loading."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -21269,18 +21254,7 @@
       "baseline": "original canonical",
       "source": "Adapted from Foodandwine.com",
       "sourceUrl": "http://www.foodandwine.com/recipes/roasted-sunchokes-with-brown-butter-cider-vinaigrette",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -21288,19 +21262,26 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/roasted-sunchokes-with-brown-butter-cider-vinaigrette.md",
+        "acceptedSha256": "ce8ab6d233ee92280696209b6dde723d575494cc28d85dc6349607a26dddff4d",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/roasted-vegetables-independent.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally after independent challenge and complete root inspection; implementation pending",
+        "record": "docs/reviews/roasted-sunchokes-with-brown-butter-cider-vinaigrette.json",
+        "sourceSha256": "ce8ab6d233ee92280696209b6dde723d575494cc28d85dc6349607a26dddff4d"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; older live version does not certify accepted editorial version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Check sheet footprint, irregular one-inch cuts and actual tender-center roasting time.",
+        "Observe the retained chili-in-butter bloom separately from the publisher chili-in-vinegar sequence.",
+        "Measure four-portion size, warm spinach texture, actual oven readiness and active/elapsed sauce overlap."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -22417,9 +22398,9 @@
         }
       ],
       "productionVerification": {
-        "status": "pending; release5cbddf1f build passed but deployment did not acquire hosted runner",
-        "attemptedCommit": "5cbddf1fd091940c2e86aa9c1045bc7e25fde78a",
-        "failedDeploymentRun": 37372602039
+        "status": "pending; release 8a6d5e6c could not acquire a hosted runner before any build/deploy step",
+        "attemptedCommit": "8a6d5e6ca0388b0d327cbe9972dd16aebda7952e",
+        "failedDeploymentRun": 37374702530
       },
       "remainingQuestions": [
         "Weigh actual grated Pecorino relative to1 cup and record grated particle/packing state.",
@@ -24487,9 +24468,9 @@
         }
       ],
       "productionVerification": {
-        "status": "pending; release5cbddf1f build passed but deployment did not acquire hosted runner",
-        "attemptedCommit": "5cbddf1fd091940c2e86aa9c1045bc7e25fde78a",
-        "failedDeploymentRun": 37372602039
+        "status": "pending; release 8a6d5e6c could not acquire a hosted runner before any build/deploy step",
+        "attemptedCommit": "8a6d5e6ca0388b0d327cbe9972dd16aebda7952e",
+        "failedDeploymentRun": 37374702530
       },
       "remainingQuestions": [
         "Measure actual finished sauce volume and eight small portions after adding aromatics.",
@@ -28799,9 +28780,9 @@
         }
       ],
       "productionVerification": {
-        "status": "pending; release5cbddf1f build passed but deployment did not acquire hosted runner",
-        "attemptedCommit": "5cbddf1fd091940c2e86aa9c1045bc7e25fde78a",
-        "failedDeploymentRun": 37372602039
+        "status": "pending; release 8a6d5e6c could not acquire a hosted runner before any build/deploy step",
+        "attemptedCommit": "8a6d5e6ca0388b0d327cbe9972dd16aebda7952e",
+        "failedDeploymentRun": 37374702530
       },
       "remainingQuestions": [
         "Measure dip volume and four portions; compare plain and Greek yogurt consistency.",

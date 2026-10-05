@@ -1,0 +1,1168 @@
+{
+  "slug": "roasted-sunchokes-with-brown-butter-cider-vinaigrette",
+  "title": "Sunchokes with Brown Butter Vinaigrette",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "reviewDate": "2026-10-05",
+  "notKitchenTested": true,
+  "inputCommit": "95b37f8bca5008657a668e52a1d970b1d03367d3",
+  "inputSha256": "c5e5713b9cdfb568c8cb88b7518c70268aa13620f426725d4832cecd4efc4a83",
+  "candidateSha256": "ce8ab6d233ee92280696209b6dde723d575494cc28d85dc6349607a26dddff4d",
+  "independentCandidateCheckpoint": {
+    "sha256": "cb43ef4a4d1ae696781c1ca17d053282cd8839df73db28500d88e1be2d091517",
+    "disposition": "accept corrected proposal, integration/kitchen gates separate",
+    "scope": "Prior independent whole challenge and correction check. New root timing/storage gates remain pending."
+  },
+  "identitySourceRatingLinksPreserved": true,
+  "summary": "Restore the exact saved/publisher 1/4 cup roasting oil and complete seasoning destinations. Retain full butter, honey, shallots, chili, spinach and chives. Start with 1/4 cup unreduced vinegar and reduce to half its starting volume; transfer it to a heatproof bowl, then use a clean dry saucepan for brown butter. The current chili-in-butter branch stays distinct from the publisher chili-in-vinegar sequence.",
+  "formulaSummary": "2 lb sunchokes; 1/4 cup oil; 4 thyme sprigs and 8 garlic cloves (discarded after roasting); 1/4 cup starting vinegar reduced by half; 2 tbsp shallots; 1 tsp honey; 2 tbsp butter; 1/2 tsp chili; 2 cups spinach; 1/4 cup chives; named salt/pepper allowances. Four current planning portions; source suggests 4–6.",
+  "provenance": "045e5ba2 first committed original agrees with current named Food & Wine recipe on all recovered amounts and separate-pan sequence. Later simplification lost oil/salt/pepper/cut size and mislabelled vinegar. Source/sourceUrl retained exactly. Current chili bloom adaptation preserved explicitly; no anonymous house formula attributed to this publisher.",
+  "committedOriginal": {
+    "commit": "045e5ba276b560e4f7d3d485b4860f610d295bac",
+    "path": "src/content/recipes/roasted-sunchokes-with-brown-butter-cider-vinaigrette.md",
+    "sha256": "0ac80c067cc79c0018941307688e9c644d3be2261d16506fb9ec01f581ca3ac6",
+    "verifiedExactGit": true
+  },
+  "sourceApplicability": [
+    {
+      "title": "Food & Wine — Jamie Malone’s roasted sunchokes",
+      "url": "https://www.foodandwine.com/recipes/roasted-sunchokes-with-brown-butter-cider-vinaigrette",
+      "applicability": "Named primary publisher and independently recovered 045e5ba2 original agree on the missing roast oil, raw vinegar reduction and transfer/wipe before butter. The current four portions are retained; no exact publisher yield is newly imposed. Current chili bloom remains an explicit adaptation.",
+      "evidenceReuse": true
+    },
+    {
+      "title": "King Arthur Baking — How to make brown butter",
+      "url": "https://www.kingarthurbaking.com/blog/2020/01/08/brown-butter",
+      "applicability": "Primary author describes browning milk solids, removing butter before blackened bitterness and promptly transferring to stop carryover. Applied to visible butter cues; no fixed browning time or water top-up is imported into this vinaigrette.",
+      "evidenceReuse": true
+    },
+    {
+      "title": "FDA — Selecting and Serving Produce Safely",
+      "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely",
+      "applicability": "Primary FDA handling guidance: wash produce before cutting under running water, dry with clean material, and separate ready-to-eat produce from raw meat tools. Washing does not sterilize. Applies especially to spinach/herb finishes and linked meals.",
+      "evidenceReuse": true
+    },
+    {
+      "title": "USDA FSIS — Leftovers and Food Safety",
+      "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety",
+      "applicability": "Primary USDA general leftover handling: prompt shallow-container refrigeration within two hours, 3–4 refrigerated days and 165°F reheating. Quality/crispness comments are editorial observations, not source-tested shelf life.",
+      "evidenceReuse": true
+    }
+  ],
+  "findings": [
+    {
+      "category": "lost roast ingredients and preparation",
+      "before": "Oil and salt used but absent; Fresh Thyme sprigs; sunchokes scrubbed and cut",
+      "after": "¼ cup olive oil; four thyme sprigs; genuine roasting salt; 1-inch sunchoke pieces",
+      "rationale": "The independently recovered 045e5ba2 source and named publisher agree. Restore exact oil and thyme, not a generic allowance or guessed quantity. Existing two pounds, eight garlic cloves, butter, honey, spinach and chives remain.",
+      "evidence": ["045e5ba2 committed origin", "sunchokes"],
+      "confidence": "high",
+      "question": null
+    },
+    {
+      "category": "vinegar input and impossible same-pan butter",
+      "before": "1/4 cup Apple Cider Vinegar (reduced); simmer to 2 tbsp; In the same pan, melt butter",
+      "after": "Raw ¼ cup vinegar reduced to half volume, transferred to a bowl; wipe saucepan clean and dry before butter",
+      "rationale": "Current input would double-reduce the acid and current method leaves wet vinegar in the butter pan. Original/publisher transfer and wipe resolve both. Chili bloom remains a brief current adaptation instead of silently replacing it with publisher chili-in-vinegar timing.",
+      "evidence": ["045e5ba2 committed origin", "sunchokes", "butter"],
+      "confidence": "high",
+      "question": null
+    },
+    {
+      "category": "butter endpoint and chemistry",
+      "before": "2 minutes until foamy ... final minute until dark brown; transform inulin-heavy starch",
+      "after": "Golden-brown milk solids/nutty cue and prompt removal; no inulin-heavy starch or roast chemistry claim",
+      "rationale": "Foam alone is not browning, blackened butter is bitter, and the saved carbohydrate claim is unsupported. No exact pan-independent browning duration is invented.",
+      "evidence": ["butter", "input original"],
+      "confidence": "high",
+      "question": null
+    },
+    {
+      "category": "unlisted final pepper, active time and greens finish",
+      "before": "No black pepper; 10 min prep/60 min cook/70 total; spinach wilt perfectly; mandatory High Note",
+      "after": "Genuine finishing salt/pepper; about20min active/70elapsed with overlap; spinach softened, chives mixed; no mandatory jargon",
+      "rationale": "Original and publisher include pepper seasoning. Original20min prep does not automatically mean20min before the hour-long roast. Current spinach/chive ingredients and quantity stay; no precise yield or spinach safety endpoint is inferred.",
+      "evidence": ["045e5ba2 committed origin", "sunchokes", "produce", "input original"],
+      "confidence": "moderate",
+      "question": null
+    },
+    {
+      "category": "nutrition and authored learning",
+      "before": "Legacy unverified nutrition; no authored learning or formula",
+      "after": "Nutrition removed; authored formula and recipe-specific learning added, with compiled ingredients, yield and Directions. See exact changedFields for the full original and replacement values.",
+      "rationale": "Delete unsupported legacy nutrition without replacement; publish ingredient allocations, checkpoints, troubleshooting, timing/storage and applicable method sources. Formula portion count preserves the current serving suggestion, not an invented finished-weight yield. Saved formulas and exact edits are independently traceable below.",
+      "evidence": ["recipe standard", "structured authoring standard", "input original"],
+      "confidence": "high",
+      "question": null
+    }
+  ],
+  "originalIngredientLedger": [
+    {
+      "ingredient": "2 lbs Sunchokes (Jerusalem Artichokes), scrubbed and cut",
+      "destination": "Sunchokes roast; cut size recovered."
+    },
+    {
+      "ingredient": "2 tbsp Unsalted Butter",
+      "destination": "Butter browned separately and whisked into acid."
+    },
+    {
+      "ingredient": "1/4 cup Apple Cider Vinegar (reduced)",
+      "destination": "Vinegar starts raw, reduces to half and moves to bowl."
+    },
+    {
+      "ingredient": "2 tbsp Shallots, minced",
+      "destination": "Shallots stirred into reduction."
+    },
+    {
+      "ingredient": "1 tsp Honey + 1/2 tsp Red Pepper Flakes",
+      "destination": "Combined honey/chili line split: honey reduction; chili brief butter bloom."
+    },
+    {
+      "ingredient": "2 cups Fresh Spinach",
+      "destination": "Spinach warm finish."
+    },
+    {
+      "ingredient": "1/4 cup Fresh Chives, chopped",
+      "destination": "Chives warm finish, not an optional omission."
+    },
+    {
+      "ingredient": "8 cloves Garlic, crushed",
+      "destination": "Garlic perfumes roast then discarded."
+    },
+    {
+      "ingredient": "Fresh Thyme sprigs",
+      "destination": "Thyme perfumes roast then discarded; exact four sprigs recovered."
+    }
+  ],
+  "ingredientLedger": [
+    {
+      "ingredient": "roast.sunchokes",
+      "name": "sunchokes (Jerusalem artichokes)",
+      "quantity": {
+        "amount": 2,
+        "unit": "lb"
+      },
+      "allowance": null,
+      "preparation": "scrubbed and cut into 1-inch pieces",
+      "optional": false,
+      "role": "ingredient",
+      "destinations": [
+        {
+          "step": "roast",
+          "share": 1
+        }
+      ],
+      "allocation": "sum exactly one; an unmeasured allowance has one named destination"
+    },
+    {
+      "ingredient": "roast.oil",
+      "name": "extra-virgin olive oil",
+      "quantity": {
+        "amount": "1/4",
+        "unit": "cup"
+      },
+      "allowance": null,
+      "preparation": null,
+      "optional": false,
+      "role": "ingredient",
+      "destinations": [
+        {
+          "step": "roast",
+          "share": 1
+        }
+      ],
+      "allocation": "sum exactly one; an unmeasured allowance has one named destination"
+    },
+    {
+      "ingredient": "roast.thyme",
+      "name": "fresh thyme sprig",
+      "quantity": {
+        "amount": 4,
+        "unit": "count"
+      },
+      "allowance": null,
+      "preparation": null,
+      "optional": false,
+      "role": "discarded",
+      "destinations": [
+        {
+          "step": "roast",
+          "share": 1
+        }
+      ],
+      "allocation": "sum exactly one; an unmeasured allowance has one named destination"
+    },
+    {
+      "ingredient": "roast.garlic",
+      "name": "garlic clove",
+      "quantity": {
+        "amount": 8,
+        "unit": "count"
+      },
+      "allowance": null,
+      "preparation": "crushed",
+      "optional": false,
+      "role": "discarded",
+      "destinations": [
+        {
+          "step": "roast",
+          "share": 1
+        }
+      ],
+      "allocation": "sum exactly one; an unmeasured allowance has one named destination"
+    },
+    {
+      "ingredient": "roast.roast-salt",
+      "name": "kosher salt",
+      "quantity": null,
+      "allowance": "to season the sunchokes before roasting",
+      "preparation": null,
+      "optional": false,
+      "role": "ingredient",
+      "destinations": [
+        {
+          "step": "roast",
+          "share": 1
+        }
+      ],
+      "allocation": "sum exactly one; an unmeasured allowance has one named destination"
+    },
+    {
+      "ingredient": "vinaigrette.vinegar",
+      "name": "apple cider vinegar",
+      "quantity": {
+        "amount": "1/4",
+        "unit": "cup"
+      },
+      "allowance": null,
+      "preparation": "unreduced; simmer to half its starting volume",
+      "optional": false,
+      "role": "ingredient",
+      "destinations": [
+        {
+          "step": "reduce",
+          "share": 1
+        }
+      ],
+      "allocation": "sum exactly one; an unmeasured allowance has one named destination"
+    },
+    {
+      "ingredient": "vinaigrette.shallots",
+      "name": "shallots",
+      "quantity": {
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      "allowance": null,
+      "preparation": "minced",
+      "optional": false,
+      "role": "ingredient",
+      "destinations": [
+        {
+          "step": "reduce",
+          "share": 1
+        }
+      ],
+      "allocation": "sum exactly one; an unmeasured allowance has one named destination"
+    },
+    {
+      "ingredient": "vinaigrette.honey",
+      "name": "honey",
+      "quantity": {
+        "amount": 1,
+        "unit": "tsp"
+      },
+      "allowance": null,
+      "preparation": null,
+      "optional": false,
+      "role": "ingredient",
+      "destinations": [
+        {
+          "step": "reduce",
+          "share": 1
+        }
+      ],
+      "allocation": "sum exactly one; an unmeasured allowance has one named destination"
+    },
+    {
+      "ingredient": "vinaigrette.butter",
+      "name": "unsalted butter",
+      "quantity": {
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      "allowance": null,
+      "preparation": null,
+      "optional": false,
+      "role": "ingredient",
+      "destinations": [
+        {
+          "step": "butter",
+          "share": 1
+        }
+      ],
+      "allocation": "sum exactly one; an unmeasured allowance has one named destination"
+    },
+    {
+      "ingredient": "vinaigrette.chili",
+      "name": "red pepper flakes",
+      "quantity": {
+        "amount": "1/2",
+        "unit": "tsp"
+      },
+      "allowance": null,
+      "preparation": null,
+      "optional": false,
+      "role": "ingredient",
+      "destinations": [
+        {
+          "step": "butter",
+          "share": 1
+        }
+      ],
+      "allocation": "sum exactly one; an unmeasured allowance has one named destination"
+    },
+    {
+      "ingredient": "finish.spinach",
+      "name": "fresh spinach leaves",
+      "quantity": {
+        "amount": 2,
+        "unit": "cup"
+      },
+      "allowance": null,
+      "preparation": "washed and dried, or ready-to-eat according to the package",
+      "optional": false,
+      "role": "ingredient",
+      "destinations": [
+        {
+          "step": "finish",
+          "share": 1
+        }
+      ],
+      "allocation": "sum exactly one; an unmeasured allowance has one named destination"
+    },
+    {
+      "ingredient": "finish.chives",
+      "name": "fresh chives",
+      "quantity": {
+        "amount": "1/4",
+        "unit": "cup"
+      },
+      "allowance": null,
+      "preparation": "chopped",
+      "optional": false,
+      "role": "ingredient",
+      "destinations": [
+        {
+          "step": "finish",
+          "share": 1
+        }
+      ],
+      "allocation": "sum exactly one; an unmeasured allowance has one named destination"
+    },
+    {
+      "ingredient": "finish.finish-salt",
+      "name": "kosher salt",
+      "quantity": null,
+      "allowance": "to taste after dressing",
+      "preparation": null,
+      "optional": false,
+      "role": "ingredient",
+      "destinations": [
+        {
+          "step": "finish",
+          "share": 1
+        }
+      ],
+      "allocation": "sum exactly one; an unmeasured allowance has one named destination"
+    },
+    {
+      "ingredient": "finish.pepper",
+      "name": "black pepper",
+      "quantity": null,
+      "allowance": "to taste after dressing",
+      "preparation": null,
+      "optional": false,
+      "role": "ingredient",
+      "destinations": [
+        {
+          "step": "finish",
+          "share": 1
+        }
+      ],
+      "allocation": "sum exactly one; an unmeasured allowance has one named destination"
+    }
+  ],
+  "variationLedger": [],
+  "variations": [],
+  "ratiosYieldCapacity": "Two pounds sunchokes, restored ¼ cup roast oil, eight garlic cloves/four thyme sprigs discarded, two tablespoons starting butter, ¼ cup raw cider vinegar reduced by half, two tablespoons shallots, one teaspoon honey, half teaspoon chili, two cups spinach and ¼ cup chives. Current four portions retained; original publisher 4–6 is a serving suggestion rather than a precise mass yield. Roast fat/richness is restored without cutting butter or honey.",
+  "processAndHandling": "Roast aromatics/tubers → discard stems/garlic and bowl hot tubers; concurrently raw vinegar reduces by half and transfers to bowl with shallots/honey → clean dry saucepan browns butter/chili → careful whisk into acid bowl → warm spinach/chive toss and seasoning. No raw animal protein; separate clean leafy-produce tools when serving alongside poultry.",
+  "timing": "Allow about 70 minutes as a prep-and-roast subtotal: roughly 10 minutes to prepare and start the roast, then about an hour in the oven. Load only once the oven reaches 375°F; any heating still needed after prep extends elapsed time. Sauce and finishing work overlap the roast, giving about 20 minutes active work. Larger reductions and extra sheets can take longer; half-volume vinegar and tender centers are the endpoints. No separate rest is required.",
+  "storage": "Refrigerate promptly in shallow covered containers within 2 hours, or 1 hour above 90°F / 32°C, at 40°F / 4°C or below; use within 3–4 days. Reheat leftovers to 165°F. Serve while warm for the fresh spinach/chive contrast. On reheating, the leaves soften further and the vinaigrette may separate; toss again to coat the softened pieces.",
+  "relationships": {
+    "pairsWith": [
+      "rosemary-pork-tenderloin",
+      "herb-marinated-pork-tenderloins",
+      "one-pan-citrus-beets-roasted-chicken"
+    ],
+    "composedMeals": [],
+    "mealApplicability": "No composed meal references this slug. Existing pairing links remain suggestions, not ingredient quantities or shared-pan safety certification.",
+    "distinctVariants": "Current formula/options retained; no consolidation or identity reassignment."
+  },
+  "changedFields": [
+    {
+      "field": "equipment",
+      "before": ["sheet-pan", "small-saucepan"],
+      "after": [
+        "rimmed-sheet-pan",
+        "small-light-colored-saucepan",
+        "heatproof-bowl",
+        "large-mixing-bowl",
+        "whisk"
+      ],
+      "rationale": "Complete whole-source review preserves supported character while adding directly applicable cooking guidance.",
+      "applicableSource": "docs/editorial-campaign/2026-10-05/roasted-vegetables-sources.json",
+      "confidence": "Moderate for untested kitchen behavior; high for exact source text and bounded arithmetic/handling corrections.",
+      "unresolvedQuestions": [
+        "Check sheet footprint, irregular one-inch cuts and actual tender-center roasting time.",
+        "Observe the retained chili-in-butter bloom separately from the publisher chili-in-vinegar sequence.",
+        "Measure four-portion size, warm spinach texture, actual oven readiness and active/elapsed sauce overlap."
+      ]
+    },
+    {
+      "field": "prepTime",
+      "before": "10 min",
+      "after": "20 min active",
+      "rationale": "Complete whole-source review preserves supported character while adding directly applicable cooking guidance.",
+      "applicableSource": "docs/editorial-campaign/2026-10-05/roasted-vegetables-sources.json",
+      "confidence": "Moderate for untested kitchen behavior; high for exact source text and bounded arithmetic/handling corrections.",
+      "unresolvedQuestions": [
+        "Check sheet footprint, irregular one-inch cuts and actual tender-center roasting time.",
+        "Observe the retained chili-in-butter bloom separately from the publisher chili-in-vinegar sequence.",
+        "Measure four-portion size, warm spinach texture, actual oven readiness and active/elapsed sauce overlap."
+      ]
+    },
+    {
+      "field": "cookTime",
+      "before": "60 min",
+      "after": "about 60 min roasting",
+      "rationale": "Planning ranges follow current cooking windows and actual remaining preheating, with sensory endpoints and extra-batch time.",
+      "applicableSource": "docs/editorial-campaign/2026-10-05/roasted-vegetables-sources.json",
+      "confidence": "Moderate for untested kitchen behavior; high for exact source text and bounded arithmetic/handling corrections.",
+      "unresolvedQuestions": [
+        "Check sheet footprint, irregular one-inch cuts and actual tender-center roasting time.",
+        "Observe the retained chili-in-butter bloom separately from the publisher chili-in-vinegar sequence.",
+        "Measure four-portion size, warm spinach texture, actual oven readiness and active/elapsed sauce overlap."
+      ]
+    },
+    {
+      "field": "totalTime",
+      "before": "70 min",
+      "after": "about 70 min, plus any remaining preheating (sauce made during roasting)",
+      "rationale": "Planning ranges follow current cooking windows and actual remaining preheating, with sensory endpoints and extra-batch time.",
+      "applicableSource": "docs/editorial-campaign/2026-10-05/roasted-vegetables-sources.json",
+      "confidence": "Moderate for untested kitchen behavior; high for exact source text and bounded arithmetic/handling corrections.",
+      "unresolvedQuestions": [
+        "Check sheet footprint, irregular one-inch cuts and actual tender-center roasting time.",
+        "Observe the retained chili-in-butter bloom separately from the publisher chili-in-vinegar sequence.",
+        "Measure four-portion size, warm spinach texture, actual oven readiness and active/elapsed sauce overlap."
+      ]
+    },
+    {
+      "field": "servings",
+      "before": "4",
+      "after": "4 portions",
+      "rationale": "Retains the inherited planning portion count and makes its scaling explicit; no finished weight or measured yield is asserted.",
+      "applicableSource": "docs/editorial-campaign/2026-10-05/roasted-vegetables-sources.json",
+      "confidence": "High for exact source/compilation; planning portions and kitchen behavior remain untested.",
+      "unresolvedQuestions": [
+        "Check sheet footprint, irregular one-inch cuts and actual tender-center roasting time.",
+        "Observe the retained chili-in-butter bloom separately from the publisher chili-in-vinegar sequence.",
+        "Measure four-portion size, warm spinach texture, actual oven readiness and active/elapsed sauce overlap."
+      ]
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "2 lbs Sunchokes (Jerusalem Artichokes), scrubbed and cut",
+        "2 tbsp Unsalted Butter",
+        "1/4 cup Apple Cider Vinegar (reduced)",
+        "2 tbsp Shallots, minced",
+        "1 tsp Honey + 1/2 tsp Red Pepper Flakes",
+        "2 cups Fresh Spinach",
+        "1/4 cup Fresh Chives, chopped",
+        "8 cloves Garlic, crushed",
+        "Fresh Thyme sprigs"
+      ],
+      "after": [
+        "--- Sunchokes and roasting aromatics ---",
+        "2 lb sunchokes (Jerusalem artichokes), scrubbed and cut into 1-inch pieces",
+        "1/4 cup extra-virgin olive oil",
+        "4 fresh thyme sprigs",
+        "8 garlic cloves, crushed",
+        "kosher salt, to season the sunchokes before roasting",
+        "--- Brown butter–cider vinaigrette ---",
+        "1/4 cup apple cider vinegar, unreduced; simmer to half its starting volume",
+        "2 tbsp shallots, minced",
+        "1 tsp honey",
+        "2 tbsp unsalted butter",
+        "1/2 tsp red pepper flakes",
+        "--- Spinach and chives ---",
+        "2 cups fresh spinach leaves, washed and dried, or ready-to-eat according to the package",
+        "1/4 cup fresh chives, chopped",
+        "kosher salt, to taste after dressing",
+        "black pepper, to taste after dressing"
+      ],
+      "rationale": "Preserves or restores the exact source-supported ingredient totals and distinct variants, with explicit full-batch allocation, geometry and sensory endpoints; authored formula regenerates ingredients, yield and directions together.",
+      "applicableSource": "docs/editorial-campaign/2026-10-05/roasted-vegetables-sources.json",
+      "confidence": "High for exact source/compilation; planning portions and kitchen behavior remain untested.",
+      "unresolvedQuestions": [
+        "Check sheet footprint, irregular one-inch cuts and actual tender-center roasting time.",
+        "Observe the retained chili-in-butter bloom separately from the publisher chili-in-vinegar sequence.",
+        "Measure four-portion size, warm spinach texture, actual oven readiness and active/elapsed sauce overlap."
+      ]
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 85,
+        "protein": 0.5,
+        "carbs": 6,
+        "fat": 6,
+        "fiber": 0.5,
+        "sugar": 4,
+        "sodium": 560
+      },
+      "after": null,
+      "rationale": "Unsupported legacy nutrition is removed without inventing replacement values.",
+      "applicableSource": "docs/editorial-campaign/2026-10-05/roasted-vegetables-sources.json",
+      "confidence": "High for exact source/compilation; planning portions and kitchen behavior remain untested.",
+      "unresolvedQuestions": [
+        "Check sheet footprint, irregular one-inch cuts and actual tender-center roasting time.",
+        "Observe the retained chili-in-butter bloom separately from the publisher chili-in-vinegar sequence.",
+        "Measure four-portion size, warm spinach texture, actual oven readiness and active/elapsed sauce overlap."
+      ]
+    },
+    {
+      "field": "formula",
+      "before": null,
+      "after": {
+        "version": 1,
+        "yield": {
+          "amount": 4,
+          "unit": "portion"
+        },
+        "components": [
+          {
+            "id": "roast",
+            "name": "Sunchokes and roasting aromatics",
+            "ingredients": [
+              {
+                "id": "sunchokes",
+                "key": "sunchokes",
+                "name": "sunchokes (Jerusalem artichokes)",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "lb"
+                },
+                "preparation": "scrubbed and cut into 1-inch pieces",
+                "uses": [
+                  {
+                    "step": "roast",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "oil",
+                "key": "oil",
+                "name": "extra-virgin olive oil",
+                "quantity": {
+                  "amount": "1/4",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "roast",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "thyme",
+                "key": "thyme",
+                "name": "fresh thyme sprig",
+                "plural": "fresh thyme sprigs",
+                "quantity": {
+                  "amount": 4,
+                  "unit": "count"
+                },
+                "role": "discarded",
+                "uses": [
+                  {
+                    "step": "roast",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "garlic",
+                "key": "garlic",
+                "name": "garlic clove",
+                "plural": "garlic cloves",
+                "quantity": {
+                  "amount": 8,
+                  "unit": "count"
+                },
+                "preparation": "crushed",
+                "role": "discarded",
+                "uses": [
+                  {
+                    "step": "roast",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "roast-salt",
+                "key": "roast-salt",
+                "name": "kosher salt",
+                "allowance": "to season the sunchokes before roasting",
+                "uses": [
+                  {
+                    "step": "roast",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "vinaigrette",
+            "name": "Brown butter–cider vinaigrette",
+            "ingredients": [
+              {
+                "id": "vinegar",
+                "key": "vinegar",
+                "name": "apple cider vinegar",
+                "quantity": {
+                  "amount": "1/4",
+                  "unit": "cup"
+                },
+                "preparation": "unreduced; simmer to half its starting volume",
+                "uses": [
+                  {
+                    "step": "reduce",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "shallots",
+                "key": "shallots",
+                "name": "shallots",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "tbsp"
+                },
+                "preparation": "minced",
+                "uses": [
+                  {
+                    "step": "reduce",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "honey",
+                "key": "honey",
+                "name": "honey",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "reduce",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "butter",
+                "key": "butter",
+                "name": "unsalted butter",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "butter",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "chili",
+                "key": "chili",
+                "name": "red pepper flakes",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "butter",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "finish",
+            "name": "Spinach and chives",
+            "ingredients": [
+              {
+                "id": "spinach",
+                "key": "spinach",
+                "name": "fresh spinach leaves",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "cup"
+                },
+                "preparation": "washed and dried, or ready-to-eat according to the package",
+                "uses": [
+                  {
+                    "step": "finish",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "chives",
+                "key": "chives",
+                "name": "fresh chives",
+                "quantity": {
+                  "amount": "1/4",
+                  "unit": "cup"
+                },
+                "preparation": "chopped",
+                "uses": [
+                  {
+                    "step": "finish",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "finish-salt",
+                "key": "finish-salt",
+                "name": "kosher salt",
+                "allowance": "to taste after dressing",
+                "uses": [
+                  {
+                    "step": "finish",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "pepper",
+                "key": "pepper",
+                "name": "black pepper",
+                "allowance": "to taste after dressing",
+                "uses": [
+                  {
+                    "step": "finish",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "id": "prep",
+            "title": "Prepare",
+            "text": "Heat the oven to 375°F. Wash the sunchokes under running water before cutting. Set out a rimmed baking sheet with room for a single layer, a small light-colored saucepan and a heatproof bowl for the vinegar mixture. Use additional sheets for a larger batch."
+          },
+          {
+            "id": "roast",
+            "title": "Roast the sunchokes",
+            "text": "Toss {{ingredients}} on the baking sheet and spread without piling. Roast for about 1 hour, turning once and checking any unevenly browned areas, until golden and easily pierced through the center with a fork. Continue if the centers are firm. Discard the thyme stems and garlic after roasting, then transfer the hot sunchokes to a large bowl."
+          },
+          {
+            "id": "reduce",
+            "title": "Reduce the vinegar separately",
+            "text": "While the sunchokes roast, set out {{ingredients}}. Simmer the vinegar alone over moderate heat until reduced to half its starting volume: 2 tablespoons for the original ¼-cup batch, roughly 3 minutes in a small pan. Use the volume endpoint for scaled batches rather than multiplying the time. Transfer the reduction to the heatproof bowl; stir in the shallots and honey. Wipe the saucepan clean and dry before returning it to the heat."
+          },
+          {
+            "id": "butter",
+            "title": "Brown the butter",
+            "text": "Set out {{ingredients}}. Melt the butter alone in the clean, dry saucepan over medium heat. Swirl and stir, watching the milk solids beneath the foam. As they turn golden brown and smell nutty, add the red pepper flakes briefly, then take the pan off the heat before the solids blacken. Let the vigorous bubbling subside and carefully whisk the browned butter, including the browned solids, into the vinegar mixture in the bowl. Do not attempt to brown butter in the vinegar. Re-whisk before dressing if it separates."
+          },
+          {
+            "id": "finish",
+            "title": "Dress and serve warm",
+            "text": "Set out {{ingredients}}. Add the spinach, chives and warm vinaigrette to the hot sunchokes and toss to coat. The spinach should soften against the warm vegetables, though it need not wilt completely. Taste, then season with the finishing salt and pepper. Serve warm with the chives distributed through the dish."
+          }
+        ]
+      },
+      "rationale": "Preserves or restores the exact source-supported ingredient totals and distinct variants, with explicit full-batch allocation, geometry and sensory endpoints; authored formula regenerates ingredients, yield and directions together.",
+      "applicableSource": "docs/editorial-campaign/2026-10-05/roasted-vegetables-sources.json",
+      "confidence": "High for exact source/compilation; planning portions and kitchen behavior remain untested.",
+      "unresolvedQuestions": [
+        "Check sheet footprint, irregular one-inch cuts and actual tender-center roasting time.",
+        "Observe the retained chili-in-butter bloom separately from the publisher chili-in-vinegar sequence.",
+        "Measure four-portion size, warm spinach texture, actual oven readiness and active/elapsed sauce overlap."
+      ]
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Keep a vinegar reduction separate from brown butter",
+        "outcome": "Golden, tender sunchokes coated in a warm tangy vinaigrette, with nutty butter rather than burnt milk solids.",
+        "techniques": ["browning", "emulsions"],
+        "before": [
+          "Cut the scrubbed sunchokes into 1-inch pieces; irregular knobbly tubers still need similar thickness.",
+          "Start with raw cider vinegar. Set out a heatproof bowl before heating the butter so it can leave the hot pan promptly.",
+          "The thyme and garlic perfume the roast and are discarded; spinach and chives remain in the dish."
+        ],
+        "checkpoints": [
+          {
+            "step": 2,
+            "cue": "The center yields easily to a fork, as well as being golden outside.",
+            "why": "Color alone does not show whether a thick sunchoke piece is tender."
+          },
+          {
+            "step": 3,
+            "cue": "The vinegar is half its starting volume and is now in a separate bowl; the saucepan is clean and dry.",
+            "why": "The wet acid stage must end before the milk solids can brown properly."
+          },
+          {
+            "step": 4,
+            "cue": "Golden-brown milk solids and a nutty smell, with no black sediment.",
+            "why": "Butter keeps darkening in the hot pan, so stop before it burns."
+          },
+          {
+            "step": 5,
+            "cue": "Vinaigrette and chives coat all the hot pieces; spinach has softened.",
+            "why": "The leafy finish relies on the warmth of the vegetables, not a promise of complete wilting."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Butter simmers without browning",
+            "cause": "Vinegar remained in the pan, or the pan was still wet.",
+            "fix": "Keep the vinegar mixture in its bowl and use a clean dry pan for the butter; do not add more butter to compensate."
+          },
+          {
+            "problem": "Vinaigrette tastes burnt",
+            "cause": "Milk solids or chili flakes blackened before the pan left the heat.",
+            "fix": "Make a fresh butter-and-chili portion; blackened bitterness cannot be whisked away."
+          },
+          {
+            "problem": "Dark outsides and firm centers",
+            "cause": "Pieces differ greatly in size or a sheet is crowded.",
+            "fix": "Continue the firm pieces until tender, checking the browned ones. Use consistent 1-inch pieces and sufficient sheets next time."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Fresh spinach leaves",
+            "alternative": "Ready-to-eat spinach leaves",
+            "effect": "Follow the package handling instructions; the warm toss does not sterilize contaminated produce."
+          },
+          {
+            "ingredient": "Unsalted butter",
+            "alternative": "Salted butter",
+            "effect": "Keeps the butter quantity and browning step but changes seasoning; taste before adding the finishing salt."
+          }
+        ],
+        "timing": "Allow about 70 minutes as a prep-and-roast subtotal: roughly 10 minutes to prepare and start the roast, then about an hour in the oven. Load only once the oven reaches 375°F; any heating still needed after prep extends elapsed time. Sauce and finishing work overlap the roast, giving about 20 minutes active work. Larger reductions and extra sheets can take longer; half-volume vinegar and tender centers are the endpoints. No separate rest is required.",
+        "storage": "Refrigerate promptly in shallow covered containers within 2 hours, or 1 hour above 90°F / 32°C, at 40°F / 4°C or below; use within 3–4 days. Reheat leftovers to 165°F. Serve while warm for the fresh spinach/chive contrast. On reheating, the leaves soften further and the vinaigrette may separate; toss again to coat the softened pieces.",
+        "sources": [
+          {
+            "title": "Food & Wine — Jamie Malone’s roasted sunchokes",
+            "url": "https://www.foodandwine.com/recipes/roasted-sunchokes-with-brown-butter-cider-vinaigrette"
+          },
+          {
+            "title": "King Arthur Baking — How to make brown butter",
+            "url": "https://www.kingarthurbaking.com/blog/2020/01/08/brown-butter"
+          },
+          {
+            "title": "FDA — Selecting and Serving Produce Safely",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+          },
+          {
+            "title": "USDA FSIS — Leftovers and Food Safety",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-05"
+        }
+      },
+      "rationale": "Complete whole-source review preserves supported character while adding directly applicable cooking guidance.",
+      "applicableSource": "docs/editorial-campaign/2026-10-05/roasted-vegetables-sources.json",
+      "confidence": "Moderate for untested kitchen behavior; high for exact source text and bounded arithmetic/handling corrections.",
+      "unresolvedQuestions": [
+        "Check sheet footprint, irregular one-inch cuts and actual tender-center roasting time.",
+        "Observe the retained chili-in-butter bloom separately from the publisher chili-in-vinegar sequence.",
+        "Measure four-portion size, warm spinach texture, actual oven readiness and active/elapsed sauce overlap."
+      ]
+    },
+    {
+      "field": "body",
+      "before": "\n## Chef's Note\n\nSunchokes (Jerusalem artichokes) require a long roast at 375°F - about 60 minutes - to transform their inulin-heavy starch into a creamy, artichoke-like texture. Browning butter until it smells nutty (the French call this beurre noisette), then whisking it into reduced cider vinegar creates a savory-sweet glaze. The tangy vinegar cuts through the earthy sunchokes and rich brown butter.\n\n## Directions\n\n1.  **Roast:** Preheat oven to 375°F. Toss sunchokes with oil, thyme, garlic, and salt. Roast for 1 hour, flipping once, until golden and fork-tender. Discard herbs/garlic.\n2.  **Reduce:** In a small pan, simmer cider vinegar until reduced to 2 tbsp (about 3 mins). Stir in shallots and honey.\n3.  **Brown Butter:** In the same pan, melt butter over medium heat. Cook for 2 minutes until foamy, then add the chili flakes to bloom for the final minute until the butter is dark brown and fragrant. Whisk immediately into the vinegar mixture.\n4.  **Bind:** Toss the hot sunchokes with the fresh spinach - the heat will wilt the leaves perfectly.\n5.  **Finish:** Drizzle with the brown butter vinaigrette and top with chives for the mandatory **High Note**.\n",
+      "after": "\n## Chef's Note\n\nRoast the sunchokes until their centers are tender, then dress them with nutty brown butter, reduced cider vinegar, shallots and honey. Reduce the vinegar into a separate bowl and clean the saucepan before browning the butter; keeping those stages separate lets the milk solids brown instead of simmering in acid. Spinach and chives bring a fresh finish to the warm vegetables.\n\n## Directions\n\n1. **Prepare:** Heat the oven to 375°F. Wash the sunchokes under running water before cutting. Set out a rimmed baking sheet with room for a single layer, a small light-colored saucepan and a heatproof bowl for the vinegar mixture. Use additional sheets for a larger batch.\n2. **Roast the sunchokes:** Toss sunchokes (Jerusalem artichokes), extra-virgin olive oil, fresh thyme sprigs, garlic cloves, and kosher salt on the baking sheet and spread without piling. Roast for about 1 hour, turning once and checking any unevenly browned areas, until golden and easily pierced through the center with a fork. Continue if the centers are firm. Discard the thyme stems and garlic after roasting, then transfer the hot sunchokes to a large bowl.\n3. **Reduce the vinegar separately:** While the sunchokes roast, set out apple cider vinegar, shallots, and honey. Simmer the vinegar alone over moderate heat until reduced to half its starting volume: 2 tablespoons for the original ¼-cup batch, roughly 3 minutes in a small pan. Use the volume endpoint for scaled batches rather than multiplying the time. Transfer the reduction to the heatproof bowl; stir in the shallots and honey. Wipe the saucepan clean and dry before returning it to the heat.\n4. **Brown the butter:** Set out unsalted butter and red pepper flakes. Melt the butter alone in the clean, dry saucepan over medium heat. Swirl and stir, watching the milk solids beneath the foam. As they turn golden brown and smell nutty, add the red pepper flakes briefly, then take the pan off the heat before the solids blacken. Let the vigorous bubbling subside and carefully whisk the browned butter, including the browned solids, into the vinegar mixture in the bowl. Do not attempt to brown butter in the vinegar. Re-whisk before dressing if it separates.\n5. **Dress and serve warm:** Set out fresh spinach leaves, fresh chives, kosher salt, and black pepper. Add the spinach, chives and warm vinaigrette to the hot sunchokes and toss to coat. The spinach should soften against the warm vegetables, though it need not wilt completely. Taste, then season with the finishing salt and pepper. Serve warm with the chives distributed through the dish.\n",
+      "rationale": "Preserves or restores the exact source-supported ingredient totals and distinct variants, with explicit full-batch allocation, geometry and sensory endpoints; authored formula regenerates ingredients, yield and directions together.",
+      "applicableSource": "docs/editorial-campaign/2026-10-05/roasted-vegetables-sources.json",
+      "confidence": "Moderate for untested kitchen behavior; high for exact source text and bounded arithmetic/handling corrections.",
+      "unresolvedQuestions": [
+        "Check sheet footprint, irregular one-inch cuts and actual tender-center roasting time.",
+        "Observe the retained chili-in-butter bloom separately from the publisher chili-in-vinegar sequence.",
+        "Measure four-portion size, warm spinach texture, actual oven readiness and active/elapsed sauce overlap."
+      ]
+    }
+  ],
+  "validation": {
+    "frozenCommitMatches": true,
+    "inputSha256": "c5e5713b9cdfb568c8cb88b7518c70268aa13620f426725d4832cecd4efc4a83",
+    "identityTitleRatingSourceLinksPreserved": true,
+    "formulaSchema": "pass",
+    "compiledIngredientsYieldDirections": "pass",
+    "editorialAudit": {
+      "slug": "roasted-sunchokes-with-brown-butter-cider-vinaigrette",
+      "title": "Sunchokes with Brown Butter Vinaigrette",
+      "status": "editorial-review",
+      "stepCount": 5,
+      "issues": []
+    },
+    "mainSourceStillFrozen": true,
+    "scaled": [
+      {
+        "factor": 0.5,
+        "ingredients": [
+          "--- Sunchokes and roasting aromatics ---",
+          "1 lb sunchokes (Jerusalem artichokes), scrubbed and cut into 1-inch pieces",
+          "1/8 cup extra-virgin olive oil",
+          "2 fresh thyme sprigs",
+          "4 garlic cloves, crushed",
+          "kosher salt, to season the sunchokes before roasting",
+          "--- Brown butter–cider vinaigrette ---",
+          "1/8 cup apple cider vinegar, unreduced; simmer to half its starting volume",
+          "1 tbsp shallots, minced",
+          "1/2 tsp honey",
+          "1 tbsp unsalted butter",
+          "1/4 tsp red pepper flakes",
+          "--- Spinach and chives ---",
+          "1 cup fresh spinach leaves, washed and dried, or ready-to-eat according to the package",
+          "1/8 cup fresh chives, chopped",
+          "kosher salt, to taste after dressing",
+          "black pepper, to taste after dressing"
+        ],
+        "yield": "2 portions",
+        "shoppingList": [
+          "1 lb sunchokes (Jerusalem artichokes)",
+          "1/8 cup extra-virgin olive oil",
+          "2 fresh thyme sprigs",
+          "4 garlic cloves",
+          "kosher salt, to season the sunchokes before roasting",
+          "1/8 cup apple cider vinegar",
+          "1 tbsp shallots",
+          "1/2 tsp honey",
+          "1 tbsp unsalted butter",
+          "1/4 tsp red pepper flakes",
+          "1 cup fresh spinach leaves",
+          "1/8 cup fresh chives",
+          "kosher salt, to taste after dressing",
+          "black pepper, to taste after dressing"
+        ]
+      },
+      {
+        "factor": 1,
+        "ingredients": [
+          "--- Sunchokes and roasting aromatics ---",
+          "2 lb sunchokes (Jerusalem artichokes), scrubbed and cut into 1-inch pieces",
+          "1/4 cup extra-virgin olive oil",
+          "4 fresh thyme sprigs",
+          "8 garlic cloves, crushed",
+          "kosher salt, to season the sunchokes before roasting",
+          "--- Brown butter–cider vinaigrette ---",
+          "1/4 cup apple cider vinegar, unreduced; simmer to half its starting volume",
+          "2 tbsp shallots, minced",
+          "1 tsp honey",
+          "2 tbsp unsalted butter",
+          "1/2 tsp red pepper flakes",
+          "--- Spinach and chives ---",
+          "2 cups fresh spinach leaves, washed and dried, or ready-to-eat according to the package",
+          "1/4 cup fresh chives, chopped",
+          "kosher salt, to taste after dressing",
+          "black pepper, to taste after dressing"
+        ],
+        "yield": "4 portions",
+        "shoppingList": [
+          "2 lb sunchokes (Jerusalem artichokes)",
+          "1/4 cup extra-virgin olive oil",
+          "4 fresh thyme sprigs",
+          "8 garlic cloves",
+          "kosher salt, to season the sunchokes before roasting",
+          "1/4 cup apple cider vinegar",
+          "2 tbsp shallots",
+          "1 tsp honey",
+          "2 tbsp unsalted butter",
+          "1/2 tsp red pepper flakes",
+          "2 cups fresh spinach leaves",
+          "1/4 cup fresh chives",
+          "kosher salt, to taste after dressing",
+          "black pepper, to taste after dressing"
+        ]
+      },
+      {
+        "factor": 2,
+        "ingredients": [
+          "--- Sunchokes and roasting aromatics ---",
+          "4 lb sunchokes (Jerusalem artichokes), scrubbed and cut into 1-inch pieces",
+          "1/2 cup extra-virgin olive oil",
+          "8 fresh thyme sprigs",
+          "16 garlic cloves, crushed",
+          "kosher salt, to season the sunchokes before roasting",
+          "--- Brown butter–cider vinaigrette ---",
+          "1/2 cup apple cider vinegar, unreduced; simmer to half its starting volume",
+          "4 tbsp shallots, minced",
+          "2 tsp honey",
+          "4 tbsp unsalted butter",
+          "1 tsp red pepper flakes",
+          "--- Spinach and chives ---",
+          "4 cups fresh spinach leaves, washed and dried, or ready-to-eat according to the package",
+          "1/2 cup fresh chives, chopped",
+          "kosher salt, to taste after dressing",
+          "black pepper, to taste after dressing"
+        ],
+        "yield": "8 portions",
+        "shoppingList": [
+          "4 lb sunchokes (Jerusalem artichokes)",
+          "1/2 cup extra-virgin olive oil",
+          "8 fresh thyme sprigs",
+          "16 garlic cloves",
+          "kosher salt, to season the sunchokes before roasting",
+          "1/2 cup apple cider vinegar",
+          "4 tbsp shallots",
+          "2 tsp honey",
+          "4 tbsp unsalted butter",
+          "1 tsp red pepper flakes",
+          "4 cups fresh spinach leaves",
+          "1/2 cup fresh chives",
+          "kosher salt, to taste after dressing",
+          "black pepper, to taste after dressing"
+        ]
+      }
+    ],
+    "scalingCaveats": "Scale ingredient totals, not cut size, oven heat or clock. Keep single-layer geometry with sufficient sheets/batches; extra sheets/batches alter elapsed time. Genuine finishing allowances remain to taste.",
+    "currentCandidateHashChecks": {
+      "frozenHashMatches": true,
+      "frozenGitExact": true,
+      "originGitExact": true,
+      "proposalMatchesPeer": true,
+      "proposalMatchesRecord": true,
+      "proposalMatchesResults": true,
+      "protectedFieldsPreserved": true,
+      "formulaSchema": true,
+      "compiledIngredients": true,
+      "compiledYield": true,
+      "compiledDirections": true,
+      "changedFieldSetExact": true,
+      "changedFieldValuesExact": true,
+      "ledgerComplete": true
+    },
+    "integration": "Root acceptance and integrated build/presentation checks pending"
+  },
+  "kitchenQuestions": [
+    "Check sheet footprint, irregular one-inch cuts and actual tender-center roasting time.",
+    "Observe the retained chili-in-butter bloom separately from the publisher chili-in-vinegar sequence.",
+    "Measure four-portion size, warm spinach texture, actual oven readiness and active/elapsed sauce overlap."
+  ],
+  "sourceEvidence": "roasted-vegetables-source-evidence.json",
+  "pendingRootGates": [],
+  "rootBoundedCorrections": {
+    "slug": "roasted-sunchokes-with-brown-butter-cider-vinaigrette",
+    "independentBaselineSha256": "cb43ef4a4d1ae696781c1ca17d053282cd8839df73db28500d88e1be2d091517",
+    "rootCorrections": [
+      {
+        "field": "totalTime",
+        "before": "about 70 min, with sauce made during roasting",
+        "after": "about 70 min, plus any remaining preheating (sauce made during roasting)",
+        "rationale": "Account for actual oven heating without inventing a household preheat duration.",
+        "source": "Current preparation and roasting windows; actual oven target before loading.",
+        "confidence": "High for the bounded clarification; physical cooking remains untested."
+      },
+      {
+        "field": "learning.timing",
+        "before": "Allow about 70 minutes: roughly 10 minutes to prepare and start the roast, then about an hour in the oven. Sauce and finishing work overlap the roast, giving about 20 minutes active work. Larger reductions and extra sheets can take longer; half-volume vinegar and tender centers are the endpoints. No separate rest is required.",
+        "after": "Allow about 70 minutes as a prep-and-roast subtotal: roughly 10 minutes to prepare and start the roast, then about an hour in the oven. Load only once the oven reaches 375°F; any heating still needed after prep extends elapsed time. Sauce and finishing work overlap the roast, giving about 20 minutes active work. Larger reductions and extra sheets can take longer; half-volume vinegar and tender centers are the endpoints. No separate rest is required.",
+        "rationale": "Account for actual oven heating without inventing a household preheat duration.",
+        "source": "Current preparation and roasting windows; actual oven target before loading.",
+        "confidence": "High for the bounded clarification; physical cooking remains untested."
+      },
+      {
+        "field": "learning.storage",
+        "before": "Refrigerate within two hours in shallow covered containers; use within 3–4 days. Reheat leftovers to 165°F. Serve while warm for the fresh spinach/chive contrast. On reheating, the leaves soften further and the vinaigrette may separate; toss again rather than promise a crisp leftover texture.",
+        "after": "Refrigerate promptly in shallow covered containers within 2 hours, or 1 hour above 90°F / 32°C, at 40°F / 4°C or below; use within 3–4 days. Reheat leftovers to 165°F. Serve while warm for the fresh spinach/chive contrast. On reheating, the leaves soften further and the vinaigrette may separate; toss again rather than promise a crisp leftover texture.",
+        "rationale": "General cooked-leftover guidance; no preservation or measured shelf-life guarantee.",
+        "source": [
+          {
+            "title": "FDA — Safe Food Handling",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+            "access": "Narrow primary page rechecked on 2026-10-05; chill guidance and leftovers temperature table read",
+            "applicability": "Other perishables within 2 hours/1 hour above 90°F, refrigerator 40°F or below, shallow leftovers; measured 165°F leftovers reheat. Does not establish acid preservation or recipe-specific shelf life."
+          },
+          {
+            "title": "USDA FSIS — Leftovers and Food Safety",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety",
+            "access": "Existing author/peer evidence reused; this narrow direct recheck returned 403. Official indexed USDA text corroborates hot-ambient limit, rapid shallow cooling and 40°F storage.",
+            "applicability": "General cooked leftovers, including cooked side dishes; retain current 3–4-day guidance rather than infer preservation from vinegar or sugar."
+          },
+          {
+            "title": "USDA FSIS — Keep Food Safe",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/steps-keep-food-safe",
+            "access": "Official indexed primary text checked on 2026-10-05",
+            "applicability": "Most cooked leftovers 3–4 days at refrigerator 40°F or below; no guarantee this kitchen met handling conditions."
+          },
+          {
+            "title": "FDA — Selecting and Serving Produce Safely",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely",
+            "access": "Narrow primary recheck read 2026-10-05",
+            "applicability": "Perishable fresh herb/leaf finishes at 40°F or below and clean separation; not itself a 3–4-day cooked-side shelf-life source."
+          }
+        ],
+        "confidence": "High for the bounded clarification; physical cooking remains untested."
+      },
+      {
+        "field": "learning.storage",
+        "before": "Refrigerate promptly in shallow covered containers within 2 hours, or 1 hour above 90°F / 32°C, at 40°F / 4°C or below; use within 3–4 days. Reheat leftovers to 165°F. Serve while warm for the fresh spinach/chive contrast. On reheating, the leaves soften further and the vinaigrette may separate; toss again rather than promise a crisp leftover texture.",
+        "after": "Refrigerate promptly in shallow covered containers within 2 hours, or 1 hour above 90°F / 32°C, at 40°F / 4°C or below; use within 3–4 days. Reheat leftovers to 165°F. Serve while warm for the fresh spinach/chive contrast. On reheating, the leaves soften further and the vinaigrette may separate; toss again to coat the softened pieces.",
+        "rationale": "Use direct cooking prose while retaining the same action, quantities, sensory cue and caution.",
+        "confidence": "High; no culinary route or amount changed."
+      }
+    ],
+    "formulaAmountsAndUsesUnchanged": true,
+    "generatedIngredientsYieldDirectionsRegeneratedTogether": true,
+    "correctedSha256": "ce8ab6d233ee92280696209b6dde723d575494cc28d85dc6349607a26dddff4d",
+    "baselineReconstructionExact": true,
+    "protectedFieldsPreserved": true,
+    "generatedParity": true,
+    "rootWholeAcceptance": "accepted after independent final bounded check and root whole inspection"
+  },
+  "acceptedSourceSha256": "ce8ab6d233ee92280696209b6dde723d575494cc28d85dc6349607a26dddff4d",
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/roasted-vegetables-independent.md",
+  "independentFinalSha256": "5aaebd74e77396ef2f8c7d0f470e965b354c27328992e32ceca32b909b9954f7",
+  "rootWholeInspection": "Complete frozen and proposed recipe, exact Git original, historical repairs, source disagreements, every ingredient and retained variation, pan geometry, sensory endpoints, timing, storage, scaling and linked meals inspected.",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "productionVerification": "pending"
+}

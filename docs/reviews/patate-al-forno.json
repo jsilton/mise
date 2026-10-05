@@ -1,0 +1,845 @@
+{
+  "slug": "patate-al-forno",
+  "title": "Patate al Forno",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "reviewDate": "2026-10-05",
+  "notKitchenTested": true,
+  "inputCommit": "95b37f8bca5008657a668e52a1d970b1d03367d3",
+  "inputSha256": "b251294b27fb74592dc7dc43eb9da2d89b312757ce5216f99adcdd530524d375",
+  "candidateSha256": "94e6978482a006e7afb76be0f6e45f4160a26fddf529d6a87fe9bedf12ad868f",
+  "independentCandidateCheckpoint": {
+    "sha256": "c16331c80761b067483e81027494f90c829ae5a62c2caa13160aee61d51ba442",
+    "disposition": "accept corrected proposal; family supersession established, older exact method privately retained",
+    "scope": "Prior independent whole challenge and correction check. New root timing/storage gates remain pending."
+  },
+  "identitySourceRatingLinksPreserved": true,
+  "summary": "Preserve the explicit later family choice: direct 450°F roasting with no parboil, current 1 tsp garlic powder, full oil and rosemary. The older 425°F/parboil source is not automatically reintroduced. Match lining to its manufacturer rating, strip woody rosemary stems, account for existing pepper and separate finishing salt, and check tender centers as well as browning.",
+  "formulaSummary": "2 lb Yukon Gold potatoes; 3 tbsp oil; 2 rosemary sprigs (leaves retained, woody stems discarded); current 1 tsp garlic powder; 1 tsp sea salt; black pepper allowance and separate finishing-salt pinch. Six planning portions.",
+  "provenance": "Exact045e5ba2 original and a75a0deb family-feedback diff saved from Git. Subsequent currentchanges include garlicpowder1tsp,pepper and finalsalt; retained rather than normalized to the anonymous earlier formula. No publisher sourceUrl invented; GialloZafferano is narrow dish-family context, not a claim of this formula’s origin.",
+  "committedOriginal": {
+    "commit": "045e5ba276b560e4f7d3d485b4860f610d295bac",
+    "path": "src/content/recipes/patate-al-forno.md",
+    "sha256": "34f144de1c79c700438f2edda684d868734bd345487dab06afb6641c73093bfb",
+    "verifiedExactGit": true
+  },
+  "sourceApplicability": [
+    {
+      "title": "GialloZafferano — Roasted potatoes",
+      "url": "https://www.giallozafferano.com/recipes/Roasted-potatoes.html",
+      "applicability": "Italian primary publisher establishes the general potato/rosemary oven-roast family and a parboiled alternative, with materially different formula and heat. Does not establish Roman household authorship or certify the current no-boil family formula.",
+      "evidenceReuse": true
+    },
+    {
+      "title": "Reynolds — Parchment paper temperature rating",
+      "url": "https://www.reynoldsbrands.com/products/parchment-paper/parchment-paper-rolls",
+      "applicability": "Manufacturer rates this product to 425°F. At 450°F use bare metal or suitable foil unless the actual parchment manufacturer rates it for that heat. At 425°F also check the actual lining instructions; no assertion that all parchment has one rating.",
+      "evidenceReuse": true
+    },
+    {
+      "title": "FDA — Selecting and Serving Produce Safely",
+      "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely",
+      "applicability": "Primary FDA handling guidance: wash produce before cutting under running water, dry with clean material, and separate ready-to-eat produce from raw meat tools. Washing does not sterilize. Applies especially to spinach/herb finishes and linked meals.",
+      "evidenceReuse": true
+    },
+    {
+      "title": "USDA FSIS — Leftovers and Food Safety",
+      "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety",
+      "applicability": "Primary USDA general leftover handling: prompt shallow-container refrigeration within two hours, 3–4 refrigerated days and 165°F reheating. Quality/crispness comments are editorial observations, not source-tested shelf life.",
+      "evidenceReuse": true
+    }
+  ],
+  "findings": [
+    {
+      "category": "family preference and history",
+      "before": "045e5ba2 425°F parboil seven minutes/rough edges; current direct450°F roast",
+      "after": "Current direct450°F no-boil route retained",
+      "rationale": "a75a0deb explicitly changes potatoes based on family feedback: “High-heat roast, skip par-boil.” Restoring the earlier mandatory parboil would undo that authorship. Exact earlier source remains evidence and the record, not a new mandatory public instruction. Current teaspoon garlic powder retained despite earlier half teaspoon.",
+      "evidence": ["045e5ba2 committed origin", "a75a0deb family-feedback diff", "input original"],
+      "confidence": "high",
+      "question": null
+    },
+    {
+      "category": "lining beyond common product rating",
+      "before": "450°F ... Line ... parchment paper",
+      "after": "Bare metal/suitable foil; parchment only if actual manufacturer rates450°F",
+      "rationale": "Manufacturer primary evidence establishes its own425°F limit, not a universal rating. Preserve450 family method with compatible equipment.",
+      "evidence": ["parchment"],
+      "confidence": "high",
+      "question": null
+    },
+    {
+      "category": "missing pepper and extra salt destinations",
+      "before": "Black Pepper to taste omitted in Toss; final pinchsea salt absent from ingredients; choppedrosemarysprigs",
+      "after": "Pepper in coating; separate genuine finishing salt allowance; rosemary leaves stripped and stems discarded",
+      "rationale": "Resolve existing uses without subtracting from the measured teaspoon or inventing a finish quantity. Two sprigs and all three tablespoons oil remain.",
+      "evidence": ["input original", "a75a0deb family-feedback diff"],
+      "confidence": "high",
+      "question": null
+    },
+    {
+      "category": "doneness, timing and unsupported prose",
+      "before": "mandatory for snap; bone-dry; deepmahoganygold and popwhenbitten; Sunday staple Romanhomes; steam tag;10+40=50",
+      "after": "Browned faces plus knife-tender centers;35–40roast45–50elapsed; no steam tag or Romanhousehold assertion",
+      "rationale": "Current thermal route retained. The bite claim and geographic household claim lack recipe-specific support. Main method never steams intentionally. Timings align with existing35–40 range rather than invent a new oven target.",
+      "evidence": ["input original", "potatoes", "roasting"],
+      "confidence": "moderate",
+      "question": null
+    },
+    {
+      "category": "nutrition and authored learning",
+      "before": "Legacy unverified nutrition; no authored learning or formula",
+      "after": "Nutrition removed; authored formula and recipe-specific learning added, with compiled ingredients, yield and Directions. See exact changedFields for the full original and replacement values.",
+      "rationale": "Delete unsupported legacy nutrition without replacement; publish ingredient allocations, checkpoints, troubleshooting, timing/storage and applicable method sources. Formula portion count preserves the current serving suggestion, not an invented finished-weight yield. Saved formulas and exact edits are independently traceable below.",
+      "evidence": ["recipe standard", "structured authoring standard", "input original"],
+      "confidence": "high",
+      "question": null
+    }
+  ],
+  "originalIngredientLedger": [
+    {
+      "ingredient": "2 lbs Yukon Gold Potatoes, cut into 1-inch chunks",
+      "destination": "Potatoes directroast, wash/cut state explicit."
+    },
+    {
+      "ingredient": "3 tbsp Extra-Virgin Olive Oil",
+      "destination": "Oil all coating."
+    },
+    {
+      "ingredient": "2 sprigs Fresh Rosemary, finely chopped",
+      "destination": "Two rosemarysprigs leaves chopped forcoating, stems discarded."
+    },
+    {
+      "ingredient": "1 tsp Garlic Powder",
+      "destination": "One teaspoon garlicpowder coating, current amountkept."
+    },
+    {
+      "ingredient": "1 tsp Sea Salt",
+      "destination": "One teaspoon seasalt coating."
+    },
+    {
+      "ingredient": "Black Pepper to taste",
+      "destination": "Unmeasured blackpepper coating, now explicit."
+    }
+  ],
+  "ingredientLedger": [
+    {
+      "ingredient": "potatoes.potatoes",
+      "name": "Yukon Gold potatoes",
+      "quantity": {
+        "amount": 2,
+        "unit": "lb"
+      },
+      "allowance": null,
+      "preparation": "scrubbed and cut into 1-inch chunks; skin may stay on",
+      "optional": false,
+      "role": "ingredient",
+      "destinations": [
+        {
+          "step": "toss",
+          "share": 1
+        }
+      ],
+      "allocation": "sum exactly one; an unmeasured allowance has one named destination"
+    },
+    {
+      "ingredient": "potatoes.oil",
+      "name": "extra-virgin olive oil",
+      "quantity": {
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      "allowance": null,
+      "preparation": null,
+      "optional": false,
+      "role": "ingredient",
+      "destinations": [
+        {
+          "step": "toss",
+          "share": 1
+        }
+      ],
+      "allocation": "sum exactly one; an unmeasured allowance has one named destination"
+    },
+    {
+      "ingredient": "potatoes.rosemary",
+      "name": "fresh rosemary sprig",
+      "quantity": {
+        "amount": 2,
+        "unit": "count"
+      },
+      "allowance": null,
+      "preparation": "leaves stripped and finely chopped; woody stems discarded",
+      "optional": false,
+      "role": "ingredient",
+      "destinations": [
+        {
+          "step": "toss",
+          "share": 1
+        }
+      ],
+      "allocation": "sum exactly one; an unmeasured allowance has one named destination"
+    },
+    {
+      "ingredient": "potatoes.garlic-powder",
+      "name": "garlic powder",
+      "quantity": {
+        "amount": 1,
+        "unit": "tsp"
+      },
+      "allowance": null,
+      "preparation": null,
+      "optional": false,
+      "role": "ingredient",
+      "destinations": [
+        {
+          "step": "toss",
+          "share": 1
+        }
+      ],
+      "allocation": "sum exactly one; an unmeasured allowance has one named destination"
+    },
+    {
+      "ingredient": "potatoes.salt",
+      "name": "sea salt",
+      "quantity": {
+        "amount": 1,
+        "unit": "tsp"
+      },
+      "allowance": null,
+      "preparation": null,
+      "optional": false,
+      "role": "ingredient",
+      "destinations": [
+        {
+          "step": "toss",
+          "share": 1
+        }
+      ],
+      "allocation": "sum exactly one; an unmeasured allowance has one named destination"
+    },
+    {
+      "ingredient": "potatoes.pepper",
+      "name": "black pepper",
+      "quantity": null,
+      "allowance": "to taste",
+      "preparation": null,
+      "optional": false,
+      "role": "ingredient",
+      "destinations": [
+        {
+          "step": "toss",
+          "share": 1
+        }
+      ],
+      "allocation": "sum exactly one; an unmeasured allowance has one named destination"
+    },
+    {
+      "ingredient": "finish.finish-salt",
+      "name": "sea salt",
+      "quantity": null,
+      "allowance": "a final pinch, to taste",
+      "preparation": null,
+      "optional": false,
+      "role": "ingredient",
+      "destinations": [
+        {
+          "step": "serve",
+          "share": 1
+        }
+      ],
+      "allocation": "sum exactly one; an unmeasured allowance has one named destination"
+    }
+  ],
+  "variationLedger": [],
+  "variations": [],
+  "ratiosYieldCapacity": "Two pounds Yukon Gold, three tablespoons oil, two rosemary sprigs, current one teaspoon garlic powder, one teaspoon sea salt plus genuine finishing pinch, black pepper to taste. Six portions and rating5 retained, without asserting exact finished weight. No-boil450°F family route preserved; 045e5ba2 lower-garlic425°F parboil source is retained archivally because a75a0deb explicitly supersedes it by family choice.",
+  "processAndHandling": "Wash/cut/dry1-inch skin-on-allowed chunks → strip/chop rosemary leaves → coat all oil/seasonings including missing pepper → sufficientpanarea/flatfaces → turn halfway, brownandknife-tender → tastebeforefinalsaltpinch. No acid, searing, parboil or health-driven fat reduction introduced.",
+  "timing": "About ten minutes to wash, cut and coat plus 35–40 minutes roasting is a 45–50-minute prep-and-roast subtotal, with extra time if centers are not tender. Preheating may overlap preparation, but load only once the oven reaches 450°F; any heating still needed after prep extends elapsed time. No required rest. Larger batches need more sheet area or sequential roasts rather than a multiplied cooking time.",
+  "storage": "Refrigerate promptly in shallow covered containers within 2 hours, or 1 hour above 90°F / 32°C, at 40°F / 4°C or below; use within 3–4 days. Reheat leftovers to 165°F. Serve freshly roasted for the browned edges. Covered storage softens them; reheat spread out on a suitable pan and check the reheating temperature.",
+  "relationships": {
+    "pairsWith": ["buttermilk-baked-chicken", "rosemary-pork-tenderloin"],
+    "composedMeals": [],
+    "mealApplicability": "No composed meal references this slug. Existing pairing links remain suggestions, not ingredient quantities or shared-pan safety certification.",
+    "distinctVariants": "Current formula/options retained; no consolidation or identity reassignment."
+  },
+  "changedFields": [
+    {
+      "field": "cookingMethods",
+      "before": ["bake", "roast", "steam"],
+      "after": ["bake", "roast"],
+      "rationale": "Complete whole-source review preserves supported character while adding directly applicable cooking guidance.",
+      "applicableSource": "docs/editorial-campaign/2026-10-05/roasted-vegetables-sources.json",
+      "confidence": "Moderate for untested kitchen behavior; high for exact source text and bounded arithmetic/handling corrections.",
+      "unresolvedQuestions": [
+        "Check footprint and preferred brown/tender endpoint for the family’s two-pound 450°F batch.",
+        "Confirm current teaspoon garlic preference while preserving it pending kitchen feedback.",
+        "Check sheet/lining rating, desired finishing salt and actual oven readiness; no old parboil restoration is inferred."
+      ]
+    },
+    {
+      "field": "equipment",
+      "before": ["sheet-pan"],
+      "after": ["rimmed-sheet-pan", "mixing-bowl", "spatula"],
+      "rationale": "Complete whole-source review preserves supported character while adding directly applicable cooking guidance.",
+      "applicableSource": "docs/editorial-campaign/2026-10-05/roasted-vegetables-sources.json",
+      "confidence": "Moderate for untested kitchen behavior; high for exact source text and bounded arithmetic/handling corrections.",
+      "unresolvedQuestions": [
+        "Check footprint and preferred brown/tender endpoint for the family’s two-pound 450°F batch.",
+        "Confirm current teaspoon garlic preference while preserving it pending kitchen feedback.",
+        "Check sheet/lining rating, desired finishing salt and actual oven readiness; no old parboil restoration is inferred."
+      ]
+    },
+    {
+      "field": "cookTime",
+      "before": "40 min",
+      "after": "35–40 min, or until tender",
+      "rationale": "Planning ranges follow current cooking windows and actual remaining preheating, with sensory endpoints and extra-batch time.",
+      "applicableSource": "docs/editorial-campaign/2026-10-05/roasted-vegetables-sources.json",
+      "confidence": "Moderate for untested kitchen behavior; high for exact source text and bounded arithmetic/handling corrections.",
+      "unresolvedQuestions": [
+        "Check footprint and preferred brown/tender endpoint for the family’s two-pound 450°F batch.",
+        "Confirm current teaspoon garlic preference while preserving it pending kitchen feedback.",
+        "Check sheet/lining rating, desired finishing salt and actual oven readiness; no old parboil restoration is inferred."
+      ]
+    },
+    {
+      "field": "totalTime",
+      "before": "50 min",
+      "after": "45–50 min, plus any remaining preheating",
+      "rationale": "Planning ranges follow current cooking windows and actual remaining preheating, with sensory endpoints and extra-batch time.",
+      "applicableSource": "docs/editorial-campaign/2026-10-05/roasted-vegetables-sources.json",
+      "confidence": "Moderate for untested kitchen behavior; high for exact source text and bounded arithmetic/handling corrections.",
+      "unresolvedQuestions": [
+        "Check footprint and preferred brown/tender endpoint for the family’s two-pound 450°F batch.",
+        "Confirm current teaspoon garlic preference while preserving it pending kitchen feedback.",
+        "Check sheet/lining rating, desired finishing salt and actual oven readiness; no old parboil restoration is inferred."
+      ]
+    },
+    {
+      "field": "servings",
+      "before": "6",
+      "after": "6 portions",
+      "rationale": "Retains the inherited planning portion count and makes its scaling explicit; no finished weight or measured yield is asserted.",
+      "applicableSource": "docs/editorial-campaign/2026-10-05/roasted-vegetables-sources.json",
+      "confidence": "High for exact source/compilation; planning portions and kitchen behavior remain untested.",
+      "unresolvedQuestions": [
+        "Check footprint and preferred brown/tender endpoint for the family’s two-pound 450°F batch.",
+        "Confirm current teaspoon garlic preference while preserving it pending kitchen feedback.",
+        "Check sheet/lining rating, desired finishing salt and actual oven readiness; no old parboil restoration is inferred."
+      ]
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "2 lbs Yukon Gold Potatoes, cut into 1-inch chunks",
+        "3 tbsp Extra-Virgin Olive Oil",
+        "2 sprigs Fresh Rosemary, finely chopped",
+        "1 tsp Garlic Powder",
+        "1 tsp Sea Salt",
+        "Black Pepper to taste"
+      ],
+      "after": [
+        "--- Potatoes and seasoning ---",
+        "2 lb Yukon Gold potatoes, scrubbed and cut into 1-inch chunks; skin may stay on",
+        "3 tbsp extra-virgin olive oil",
+        "2 fresh rosemary sprigs, leaves stripped and finely chopped; woody stems discarded",
+        "1 tsp garlic powder",
+        "1 tsp sea salt",
+        "black pepper, to taste",
+        "--- Finish ---",
+        "sea salt, a final pinch, to taste"
+      ],
+      "rationale": "Preserves or restores the exact source-supported ingredient totals and distinct variants, with explicit full-batch allocation, geometry and sensory endpoints; authored formula regenerates ingredients, yield and directions together.",
+      "applicableSource": "docs/editorial-campaign/2026-10-05/roasted-vegetables-sources.json",
+      "confidence": "High for exact source/compilation; planning portions and kitchen behavior remain untested.",
+      "unresolvedQuestions": [
+        "Check footprint and preferred brown/tender endpoint for the family’s two-pound 450°F batch.",
+        "Confirm current teaspoon garlic preference while preserving it pending kitchen feedback.",
+        "Check sheet/lining rating, desired finishing salt and actual oven readiness; no old parboil restoration is inferred."
+      ]
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 95,
+        "protein": 1,
+        "carbs": 8,
+        "fat": 7,
+        "fiber": 1,
+        "sugar": 0.5,
+        "sodium": 390
+      },
+      "after": null,
+      "rationale": "Unsupported legacy nutrition is removed without inventing replacement values.",
+      "applicableSource": "docs/editorial-campaign/2026-10-05/roasted-vegetables-sources.json",
+      "confidence": "High for exact source/compilation; planning portions and kitchen behavior remain untested.",
+      "unresolvedQuestions": [
+        "Check footprint and preferred brown/tender endpoint for the family’s two-pound 450°F batch.",
+        "Confirm current teaspoon garlic preference while preserving it pending kitchen feedback.",
+        "Check sheet/lining rating, desired finishing salt and actual oven readiness; no old parboil restoration is inferred."
+      ]
+    },
+    {
+      "field": "formula",
+      "before": null,
+      "after": {
+        "version": 1,
+        "yield": {
+          "amount": 6,
+          "unit": "portion"
+        },
+        "components": [
+          {
+            "id": "potatoes",
+            "name": "Potatoes and seasoning",
+            "ingredients": [
+              {
+                "id": "potatoes",
+                "key": "potatoes",
+                "name": "Yukon Gold potatoes",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "lb"
+                },
+                "preparation": "scrubbed and cut into 1-inch chunks; skin may stay on",
+                "uses": [
+                  {
+                    "step": "toss",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "oil",
+                "key": "oil",
+                "name": "extra-virgin olive oil",
+                "quantity": {
+                  "amount": 3,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "toss",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "rosemary",
+                "key": "rosemary",
+                "name": "fresh rosemary sprig",
+                "plural": "fresh rosemary sprigs",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "count"
+                },
+                "preparation": "leaves stripped and finely chopped; woody stems discarded",
+                "uses": [
+                  {
+                    "step": "toss",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "garlic-powder",
+                "key": "garlic-powder",
+                "name": "garlic powder",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "toss",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "salt",
+                "key": "salt",
+                "name": "sea salt",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "toss",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "pepper",
+                "key": "pepper",
+                "name": "black pepper",
+                "allowance": "to taste",
+                "uses": [
+                  {
+                    "step": "toss",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "finish",
+            "name": "Finish",
+            "ingredients": [
+              {
+                "id": "finish-salt",
+                "key": "finish-salt",
+                "name": "sea salt",
+                "allowance": "a final pinch, to taste",
+                "uses": [
+                  {
+                    "step": "serve",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "id": "prep",
+            "title": "Heat and prepare",
+            "text": "Heat the oven to 450°F. Use a large rimmed metal baking sheet, bare or lined with suitable foil. Use parchment only if its manufacturer rates it for 450°F; keep any lining within its stated instructions. Wash the potatoes under running water before cutting; dry the cut chunks with a clean towel. This method goes directly into the oven without parboiling."
+          },
+          {
+            "id": "toss",
+            "title": "Coat and season",
+            "text": "Toss {{ingredients}} in a large bowl until the potatoes are evenly coated. Use the chopped rosemary leaves, not the woody stems, and include the black pepper here."
+          },
+          {
+            "id": "spread",
+            "title": "Give the potatoes room",
+            "text": "Spread the coated chunks in a single layer with a little space between them, placing flat cut faces against the pan where possible. Use more sheets or roasting batches if the measured potatoes do not fit; scaling does not enlarge the sheet."
+          },
+          {
+            "id": "roast",
+            "title": "Roast until browned and tender",
+            "text": "Roast for 35–40 minutes, flipping gently with a spatula halfway through. Start checking at 35 minutes: the cut faces should be well browned and a knife should enter the center of a thick chunk easily. Continue if still firm, checking browned areas so they do not blacken. Rotate multiple sheets if browning is uneven; extra sheets can change the timing."
+          },
+          {
+            "id": "serve",
+            "title": "Season and serve",
+            "text": "Taste a potato, then add {{ingredients}} if needed. Serve hot, while the browned edges are at their best."
+          }
+        ]
+      },
+      "rationale": "Preserves or restores the exact source-supported ingredient totals and distinct variants, with explicit full-batch allocation, geometry and sensory endpoints; authored formula regenerates ingredients, yield and directions together.",
+      "applicableSource": "docs/editorial-campaign/2026-10-05/roasted-vegetables-sources.json",
+      "confidence": "High for exact source/compilation; planning portions and kitchen behavior remain untested.",
+      "unresolvedQuestions": [
+        "Check footprint and preferred brown/tender endpoint for the family’s two-pound 450°F batch.",
+        "Confirm current teaspoon garlic preference while preserving it pending kitchen feedback.",
+        "Check sheet/lining rating, desired finishing salt and actual oven readiness; no old parboil restoration is inferred."
+      ]
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Brown cut potato faces while cooking the centers through",
+        "outcome": "Rosemary-scented Yukon Gold chunks with browned edges and tender centers, using the direct-roast method.",
+        "techniques": ["browning"],
+        "before": [
+          "Cut consistent 1-inch chunks and dry them after washing. There is no parboiling step in this method.",
+          "Strip the leaves from the measured rosemary sprigs and chop them; do not chop woody stems into the potatoes.",
+          "At 450°F, check the actual lining rating. Common parchment rated to 425°F is unsuitable for this oven setting."
+        ],
+        "checkpoints": [
+          {
+            "step": 3,
+            "cue": "Potatoes form one uncrowded layer, with cut faces touching the metal.",
+            "why": "Piled chunks give less direct pan contact and can brown unevenly."
+          },
+          {
+            "step": 4,
+            "cue": "A thick center yields easily to a knife and the surfaces are browned rather than black.",
+            "why": "A browned surface can hide a firm center; the knife check tests the inside."
+          },
+          {
+            "step": 5,
+            "cue": "The potatoes are tasted before the finishing pinch.",
+            "why": "The measured salt seasons the roast; the additional pinch is a finishing allowance."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Golden outside but firm inside",
+            "cause": "Chunks are too large or the oven browns faster than it cooks centers.",
+            "fix": "Continue checking the centers and protect already dark areas with loose foil if needed; use consistent 1-inch pieces next time."
+          },
+          {
+            "problem": "Pale, soft surfaces",
+            "cause": "Potatoes were piled or went into the oven very wet.",
+            "fix": "Spread over enough sheets and turn to expose the cut faces. The same sheet cannot hold an arbitrarily scaled quantity."
+          },
+          {
+            "problem": "Rosemary feels woody",
+            "cause": "Stems were chopped with the leaves.",
+            "fix": "Remove identifiable woody pieces; strip the sprigs before chopping the next batch."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Yukon Gold potatoes",
+            "alternative": "Another yellow-fleshed potato",
+            "effect": "Keeps the general roast style but moisture and center texture vary; check tenderness rather than promise identical time."
+          },
+          {
+            "ingredient": "Parchment rated below 450°F",
+            "alternative": "Bare rimmed metal sheet or appropriate foil",
+            "effect": "Keeps the family’s oven heat without using a lining beyond its rating. Use the measured oil coating and follow the lining instructions."
+          }
+        ],
+        "timing": "About ten minutes to wash, cut and coat plus 35–40 minutes roasting is a 45–50-minute prep-and-roast subtotal, with extra time if centers are not tender. Preheating may overlap preparation, but load only once the oven reaches 450°F; any heating still needed after prep extends elapsed time. No required rest. Larger batches need more sheet area or sequential roasts rather than a multiplied cooking time.",
+        "storage": "Refrigerate promptly in shallow covered containers within 2 hours, or 1 hour above 90°F / 32°C, at 40°F / 4°C or below; use within 3–4 days. Reheat leftovers to 165°F. Serve freshly roasted for the browned edges. Covered storage softens them; reheat spread out on a suitable pan and check the reheating temperature.",
+        "sources": [
+          {
+            "title": "GialloZafferano — Roasted potatoes",
+            "url": "https://www.giallozafferano.com/recipes/Roasted-potatoes.html"
+          },
+          {
+            "title": "Reynolds — Parchment paper temperature rating",
+            "url": "https://www.reynoldsbrands.com/products/parchment-paper/parchment-paper-rolls"
+          },
+          {
+            "title": "FDA — Selecting and Serving Produce Safely",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+          },
+          {
+            "title": "USDA FSIS — Leftovers and Food Safety",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-05"
+        }
+      },
+      "rationale": "Complete whole-source review preserves supported character while adding directly applicable cooking guidance.",
+      "applicableSource": "docs/editorial-campaign/2026-10-05/roasted-vegetables-sources.json",
+      "confidence": "Moderate for untested kitchen behavior; high for exact source text and bounded arithmetic/handling corrections.",
+      "unresolvedQuestions": [
+        "Check footprint and preferred brown/tender endpoint for the family’s two-pound 450°F batch.",
+        "Confirm current teaspoon garlic preference while preserving it pending kitchen feedback.",
+        "Check sheet/lining rating, desired finishing salt and actual oven readiness; no old parboil restoration is inferred."
+      ]
+    },
+    {
+      "field": "body",
+      "before": "\n## Chef's Note\n\nPatate al forno are classic Italian oven-roasted potatoes - a Sunday staple in Roman homes. The secret to crispy edges is drying the potatoes thoroughly after cutting; any moisture will cause them to steam instead of crisp. Roasting at 450°F gets you golden, crunchy exteriors while keeping the insides creamy. Fresh rosemary is traditional and adds a wonderful aromatic note.\n\n## Directions\n\n1.  **Prep:** Preheat oven to 450°F (mandatory for snap). Line a large rimmed baking sheet with parchment paper.\n2.  **Dry:** Cube the potatoes. Place them in a bowl and pat **bone-dry** with multiple paper towels.\n3.  **Toss:** Add the olive oil, salt, garlic powder, and rosemary. Toss vigorously until every chunk is heavily coated.\n4.  **Spread:** Spread the potatoes in a **single layer** on the pan. If they are crowded, they will steam instead of crisp.\n5.  **Roast:** Bake for 35-40 minutes. Flip with a metal spatula halfway through. They are done when they are deep mahogany gold and \"pop\" when bitten.\n6.  **Serve:** Sprinkle with a final pinch of sea salt and serve immediately.\n",
+      "after": "\n## Chef's Note\n\nThese rosemary-and-garlic Yukon Gold potatoes go straight into a 450°F oven. Dry the cut chunks, coat them evenly and give them room on the sheet so their flat faces can brown. Judge the roast by both color and an easily pierced center; high heat alone does not guarantee a crunchy exterior or a cooked middle.\n\n## Directions\n\n1. **Heat and prepare:** Heat the oven to 450°F. Use a large rimmed metal baking sheet, bare or lined with suitable foil. Use parchment only if its manufacturer rates it for 450°F; keep any lining within its stated instructions. Wash the potatoes under running water before cutting; dry the cut chunks with a clean towel. This method goes directly into the oven without parboiling.\n2. **Coat and season:** Toss Yukon Gold potatoes, extra-virgin olive oil, fresh rosemary sprigs, garlic powder, sea salt, and black pepper in a large bowl until the potatoes are evenly coated. Use the chopped rosemary leaves, not the woody stems, and include the black pepper here.\n3. **Give the potatoes room:** Spread the coated chunks in a single layer with a little space between them, placing flat cut faces against the pan where possible. Use more sheets or roasting batches if the measured potatoes do not fit; scaling does not enlarge the sheet.\n4. **Roast until browned and tender:** Roast for 35–40 minutes, flipping gently with a spatula halfway through. Start checking at 35 minutes: the cut faces should be well browned and a knife should enter the center of a thick chunk easily. Continue if still firm, checking browned areas so they do not blacken. Rotate multiple sheets if browning is uneven; extra sheets can change the timing.\n5. **Season and serve:** Taste a potato, then add sea salt if needed. Serve hot, while the browned edges are at their best.\n",
+      "rationale": "Preserves or restores the exact source-supported ingredient totals and distinct variants, with explicit full-batch allocation, geometry and sensory endpoints; authored formula regenerates ingredients, yield and directions together.",
+      "applicableSource": "docs/editorial-campaign/2026-10-05/roasted-vegetables-sources.json",
+      "confidence": "Moderate for untested kitchen behavior; high for exact source text and bounded arithmetic/handling corrections.",
+      "unresolvedQuestions": [
+        "Check footprint and preferred brown/tender endpoint for the family’s two-pound 450°F batch.",
+        "Confirm current teaspoon garlic preference while preserving it pending kitchen feedback.",
+        "Check sheet/lining rating, desired finishing salt and actual oven readiness; no old parboil restoration is inferred."
+      ]
+    }
+  ],
+  "validation": {
+    "frozenCommitMatches": true,
+    "inputSha256": "b251294b27fb74592dc7dc43eb9da2d89b312757ce5216f99adcdd530524d375",
+    "identityTitleRatingSourceLinksPreserved": true,
+    "formulaSchema": "pass",
+    "compiledIngredientsYieldDirections": "pass",
+    "editorialAudit": {
+      "slug": "patate-al-forno",
+      "title": "Patate al Forno",
+      "status": "editorial-review",
+      "stepCount": 5,
+      "issues": []
+    },
+    "mainSourceStillFrozen": true,
+    "scaled": [
+      {
+        "factor": 0.5,
+        "ingredients": [
+          "--- Potatoes and seasoning ---",
+          "1 lb Yukon Gold potatoes, scrubbed and cut into 1-inch chunks; skin may stay on",
+          "1 1/2 tbsp extra-virgin olive oil",
+          "1 fresh rosemary sprig, leaves stripped and finely chopped; woody stems discarded",
+          "1/2 tsp garlic powder",
+          "1/2 tsp sea salt",
+          "black pepper, to taste",
+          "--- Finish ---",
+          "sea salt, a final pinch, to taste"
+        ],
+        "yield": "3 portions",
+        "shoppingList": [
+          "1 lb Yukon Gold potatoes",
+          "1 1/2 tbsp extra-virgin olive oil",
+          "1 fresh rosemary sprig",
+          "1/2 tsp garlic powder",
+          "1/2 tsp sea salt",
+          "black pepper, to taste",
+          "sea salt, a final pinch, to taste"
+        ]
+      },
+      {
+        "factor": 1,
+        "ingredients": [
+          "--- Potatoes and seasoning ---",
+          "2 lb Yukon Gold potatoes, scrubbed and cut into 1-inch chunks; skin may stay on",
+          "3 tbsp extra-virgin olive oil",
+          "2 fresh rosemary sprigs, leaves stripped and finely chopped; woody stems discarded",
+          "1 tsp garlic powder",
+          "1 tsp sea salt",
+          "black pepper, to taste",
+          "--- Finish ---",
+          "sea salt, a final pinch, to taste"
+        ],
+        "yield": "6 portions",
+        "shoppingList": [
+          "2 lb Yukon Gold potatoes",
+          "3 tbsp extra-virgin olive oil",
+          "2 fresh rosemary sprigs",
+          "1 tsp garlic powder",
+          "1 tsp sea salt",
+          "black pepper, to taste",
+          "sea salt, a final pinch, to taste"
+        ]
+      },
+      {
+        "factor": 2,
+        "ingredients": [
+          "--- Potatoes and seasoning ---",
+          "4 lb Yukon Gold potatoes, scrubbed and cut into 1-inch chunks; skin may stay on",
+          "6 tbsp extra-virgin olive oil",
+          "4 fresh rosemary sprigs, leaves stripped and finely chopped; woody stems discarded",
+          "2 tsp garlic powder",
+          "2 tsp sea salt",
+          "black pepper, to taste",
+          "--- Finish ---",
+          "sea salt, a final pinch, to taste"
+        ],
+        "yield": "12 portions",
+        "shoppingList": [
+          "4 lb Yukon Gold potatoes",
+          "6 tbsp extra-virgin olive oil",
+          "4 fresh rosemary sprigs",
+          "2 tsp garlic powder",
+          "2 tsp sea salt",
+          "black pepper, to taste",
+          "sea salt, a final pinch, to taste"
+        ]
+      }
+    ],
+    "scalingCaveats": "Scale ingredient totals, not cut size, oven heat or clock. Keep single-layer geometry with sufficient sheets/batches; extra sheets/batches alter elapsed time. Genuine finishing allowances remain to taste.",
+    "currentCandidateHashChecks": {
+      "frozenHashMatches": true,
+      "frozenGitExact": true,
+      "originGitExact": true,
+      "proposalMatchesPeer": true,
+      "proposalMatchesRecord": true,
+      "proposalMatchesResults": true,
+      "protectedFieldsPreserved": true,
+      "formulaSchema": true,
+      "compiledIngredients": true,
+      "compiledYield": true,
+      "compiledDirections": true,
+      "changedFieldSetExact": true,
+      "changedFieldValuesExact": true,
+      "ledgerComplete": true
+    },
+    "integration": "Root acceptance and integrated build/presentation checks pending"
+  },
+  "kitchenQuestions": [
+    "Check footprint and preferred brown/tender endpoint for the family’s two-pound 450°F batch.",
+    "Confirm current teaspoon garlic preference while preserving it pending kitchen feedback.",
+    "Check sheet/lining rating, desired finishing salt and actual oven readiness; no old parboil restoration is inferred."
+  ],
+  "sourceEvidence": "roasted-vegetables-source-evidence.json",
+  "pendingRootGates": [],
+  "protectedFamilyChoice": {
+    "commit": "a75a0deb",
+    "current": "450°F direct roast, no parboil, current 1 tsp garlic",
+    "decision": "Do not automatically restore earlier 425°F/parboil branch; exact earlier cooking method remains private source evidence."
+  },
+  "rootBoundedCorrections": {
+    "slug": "patate-al-forno",
+    "independentBaselineSha256": "c16331c80761b067483e81027494f90c829ae5a62c2caa13160aee61d51ba442",
+    "rootCorrections": [
+      {
+        "field": "totalTime",
+        "before": "45–50 min",
+        "after": "45–50 min, plus any remaining preheating",
+        "rationale": "Account for actual oven heating without inventing a household preheat duration.",
+        "source": "Current preparation and roasting windows; actual oven target before loading.",
+        "confidence": "High for the bounded clarification; physical cooking remains untested."
+      },
+      {
+        "field": "learning.timing",
+        "before": "About ten minutes to wash, cut and coat, plus 35–40 minutes roasting: roughly 45–50 minutes, with extra time if centers are not tender. Preheating may overlap preparation. No required rest. Larger batches need more sheet area or sequential roasts rather than a multiplied cooking time.",
+        "after": "About ten minutes to wash, cut and coat plus 35–40 minutes roasting is a 45–50-minute prep-and-roast subtotal, with extra time if centers are not tender. Preheating may overlap preparation, but load only once the oven reaches 450°F; any heating still needed after prep extends elapsed time. No required rest. Larger batches need more sheet area or sequential roasts rather than a multiplied cooking time.",
+        "rationale": "Account for actual oven heating without inventing a household preheat duration.",
+        "source": "Current preparation and roasting windows; actual oven target before loading.",
+        "confidence": "High for the bounded clarification; physical cooking remains untested."
+      },
+      {
+        "field": "learning.storage",
+        "before": "Refrigerate within two hours in shallow covered containers; use within 3–4 days. Reheat leftovers to 165°F. Serve freshly roasted for the browned edges. Covered storage softens them; reheat spread out on a suitable pan and judge by the reheating temperature rather than claiming the first roast’s crunch returns.",
+        "after": "Refrigerate promptly in shallow covered containers within 2 hours, or 1 hour above 90°F / 32°C, at 40°F / 4°C or below; use within 3–4 days. Reheat leftovers to 165°F. Serve freshly roasted for the browned edges. Covered storage softens them; reheat spread out on a suitable pan and judge by the reheating temperature rather than claiming the first roast’s crunch returns.",
+        "rationale": "General cooked-leftover guidance; no preservation or measured shelf-life guarantee.",
+        "source": [
+          {
+            "title": "FDA — Safe Food Handling",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+            "access": "Narrow primary page rechecked on 2026-10-05; chill guidance and leftovers temperature table read",
+            "applicability": "Other perishables within 2 hours/1 hour above 90°F, refrigerator 40°F or below, shallow leftovers; measured 165°F leftovers reheat. Does not establish acid preservation or recipe-specific shelf life."
+          },
+          {
+            "title": "USDA FSIS — Leftovers and Food Safety",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety",
+            "access": "Existing author/peer evidence reused; this narrow direct recheck returned 403. Official indexed USDA text corroborates hot-ambient limit, rapid shallow cooling and 40°F storage.",
+            "applicability": "General cooked leftovers, including cooked side dishes; retain current 3–4-day guidance rather than infer preservation from vinegar or sugar."
+          },
+          {
+            "title": "USDA FSIS — Keep Food Safe",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/steps-keep-food-safe",
+            "access": "Official indexed primary text checked on 2026-10-05",
+            "applicability": "Most cooked leftovers 3–4 days at refrigerator 40°F or below; no guarantee this kitchen met handling conditions."
+          },
+          {
+            "title": "FDA — Selecting and Serving Produce Safely",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely",
+            "access": "Narrow primary recheck read 2026-10-05",
+            "applicability": "Perishable fresh herb/leaf finishes at 40°F or below and clean separation; not itself a 3–4-day cooked-side shelf-life source."
+          }
+        ],
+        "confidence": "High for the bounded clarification; physical cooking remains untested."
+      },
+      {
+        "field": "learning.storage",
+        "before": "Refrigerate promptly in shallow covered containers within 2 hours, or 1 hour above 90°F / 32°C, at 40°F / 4°C or below; use within 3–4 days. Reheat leftovers to 165°F. Serve freshly roasted for the browned edges. Covered storage softens them; reheat spread out on a suitable pan and judge by the reheating temperature rather than claiming the first roast’s crunch returns.",
+        "after": "Refrigerate promptly in shallow covered containers within 2 hours, or 1 hour above 90°F / 32°C, at 40°F / 4°C or below; use within 3–4 days. Reheat leftovers to 165°F. Serve freshly roasted for the browned edges. Covered storage softens them; reheat spread out on a suitable pan and check the reheating temperature.",
+        "rationale": "Use direct cooking prose while retaining the same action, quantities, sensory cue and caution.",
+        "confidence": "High; no culinary route or amount changed."
+      }
+    ],
+    "formulaAmountsAndUsesUnchanged": true,
+    "generatedIngredientsYieldDirectionsRegeneratedTogether": true,
+    "correctedSha256": "94e6978482a006e7afb76be0f6e45f4160a26fddf529d6a87fe9bedf12ad868f",
+    "baselineReconstructionExact": true,
+    "protectedFieldsPreserved": true,
+    "generatedParity": true,
+    "rootWholeAcceptance": "accepted after independent final bounded check and root whole inspection"
+  },
+  "acceptedSourceSha256": "94e6978482a006e7afb76be0f6e45f4160a26fddf529d6a87fe9bedf12ad868f",
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/roasted-vegetables-independent.md",
+  "independentFinalSha256": "5aaebd74e77396ef2f8c7d0f470e965b354c27328992e32ceca32b909b9954f7",
+  "rootWholeInspection": "Complete frozen and proposed recipe, exact Git original, historical repairs, source disagreements, every ingredient and retained variation, pan geometry, sensory endpoints, timing, storage, scaling and linked meals inspected.",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "productionVerification": "pending"
+}

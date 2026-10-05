@@ -150,6 +150,14 @@
       "shrimp-with-black-bean-sauce",
       "thai-red-curry-shrimp",
       "zucchini-noodles-with-avocado-pesto-and-shrimp"
+    ],
+    "poultry_assembled_mains_02": [
+      "chicken-and-white-bean-enchiladas-with-creamy-green-chile-sauce",
+      "salsa-verde-chicken-casserole",
+      "herby-chicken-meatball-bowl",
+      "creamy-spinach-lemon-chicken-dinnner",
+      "sheet-pan-pesto-chicken-meal-prep-bowls",
+      "spatchcocked-roast-chicken"
     ]
   },
   "recipes": [
@@ -1391,8 +1399,8 @@
       "title": "Chicken and White Bean Enchiladas",
       "source": "Adapted from Skinnytaste.com",
       "sourceUrl": "https://www.skinnytaste.com/chicken-and-white-bean-enchiladas-with/",
-      "group": null,
-      "status": "queued",
+      "group": "poultry_assembled_mains_02",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -2087,8 +2095,8 @@
       "title": "Spinach Lemon Chicken",
       "source": "Adapted from Buzzfeed.com",
       "sourceUrl": "https://www.buzzfeed.com/joeyfiroben/this-creamy-spinach-lemon-chicken-is-the-most-satisfying-din?utm_term=.xiNZnEPV4#.eaoYwzRK5",
-      "group": null,
-      "status": "queued",
+      "group": "poultry_assembled_mains_02",
+      "status": "assigned",
       "reviewEvidence": ["docs/repairs/2026-09-15/changed-files.json"],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -3687,8 +3695,8 @@
       "title": "Herby Chicken Meatball Bowl",
       "source": "Adapted from thepalatablelife.com",
       "sourceUrl": "https://www.thepalatablelife.com/herby-chicken-meatball-bowl/#recipe",
-      "group": null,
-      "status": "queued",
+      "group": "poultry_assembled_mains_02",
+      "status": "assigned",
       "reviewEvidence": ["docs/repairs/2026-09-15/changed-files.json"],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -4300,18 +4308,23 @@
       "source": null,
       "sourceUrl": null,
       "group": "roasted_vegetables_01",
-      "status": "proposed",
-      "reviewEvidence": [],
-      "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/maple-roasted-sweet-potato-wedges.md",
+        "docs/editorial-campaign/2026-10-05/roasted-vegetables-independent.md"
+      ],
+      "automatedFlags": [],
       "remainingQuestions": [
-        "Check consistent½inchwedgecut on the actualpotatoes and whether the initial18–20 stage reachesnearlytender.",
-        "Confirm the chosen sheet fits two pounds and browns the cutfaces evenly.",
-        "Test2tbspmaple coating and optionalpaprika behavior through the final8–10minutes withoutpromising friedcrispness."
+        "Check consistent approximately half-inch wedges and nearly tender centers in the first stage.",
+        "Check sheet footprint and cut-face browning for two pounds.",
+        "Observe full maple/optional paprika through the final stage, and record oven readiness without promising fried crispness."
       ],
       "inputSha256": "3584ec674b636512261b9a4fad0ead8c8963595dcb3a761c4d244af8ce8fa1ab",
       "plannedBatch": "roast-grill-and-sear-02",
       "assignmentInputCommit": "95b37f8bca5008657a668e52a1d970b1d03367d3",
-      "assignmentInputSha256": "3584ec674b636512261b9a4fad0ead8c8963595dcb3a761c4d244af8ce8fa1ab"
+      "assignmentInputSha256": "3584ec674b636512261b9a4fad0ead8c8963595dcb3a761c4d244af8ce8fa1ab",
+      "acceptedSourceSha256": "1c9559a7e891f44b2482adf4ff815bc170c73c2701eb2c771227bd2e0ce45ca3",
+      "productionVerification": "pending"
     },
     {
       "slug": "mapo-tofu",
@@ -4474,18 +4487,24 @@
       "source": null,
       "sourceUrl": null,
       "group": "roasted_vegetables_01",
-      "status": "proposed",
-      "reviewEvidence": ["docs/repairs/2026-09-15/changed-files.json"],
-      "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/repairs/2026-09-15/changed-files.json",
+        "docs/reviews/miso-glazed-roasted-cauliflower.md",
+        "docs/editorial-campaign/2026-10-05/roasted-vegetables-independent.md"
+      ],
+      "automatedFlags": [],
       "remainingQuestions": [
-        "Check the specific white-miso/mirin coating at425°F fromthestart and whether it scorches before comparablefloretcenters are tender.",
-        "Compare honeybranch1.5tbsp+extrasoy.5tbsp againstmirin withoutmixingroutes; confirm intendedsalt/sweetness preference.",
-        "Confirm single-layerpanarea andfourportionservings for1.5lbflorets."
+        "Observe the specific miso/mirin coating from the start of the 425°F roast and center tenderness before scorching.",
+        "Compare the exclusive honey-plus-additional-soy branch against mirin without mixing routes.",
+        "Check sheet area, four-portion size and actual oven readiness before loading."
       ],
       "inputSha256": "0fed5c69ac2cee68aad81f10b0d2afb5f2e4d67a3614ee13d8c6eab85d3a3da4",
       "plannedBatch": "roast-grill-and-sear-03",
       "assignmentInputCommit": "95b37f8bca5008657a668e52a1d970b1d03367d3",
-      "assignmentInputSha256": "0fed5c69ac2cee68aad81f10b0d2afb5f2e4d67a3614ee13d8c6eab85d3a3da4"
+      "assignmentInputSha256": "0fed5c69ac2cee68aad81f10b0d2afb5f2e4d67a3614ee13d8c6eab85d3a3da4",
+      "acceptedSourceSha256": "cdbca3ccf5d4f44a8a187f151d78748f7e44de2fd6d215ca5166d85b2901eb4e",
+      "productionVerification": "pending"
     },
     {
       "slug": "miso-sesame-dense-bean-salad",
@@ -4995,18 +5014,23 @@
       "source": null,
       "sourceUrl": null,
       "group": "roasted_vegetables_01",
-      "status": "proposed",
-      "reviewEvidence": [],
-      "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/patate-al-forno.md",
+        "docs/editorial-campaign/2026-10-05/roasted-vegetables-independent.md"
+      ],
+      "automatedFlags": [],
       "remainingQuestions": [
-        "Confirm pan footprint for the family’s two-pound batch and preferred browned/tender endpoint at450°F.",
-        "Confirm the current teaspoon garlic powder preference versus earlier halfteaspoon; preserve current amount pending kitchen feedback.",
-        "Check the actual sheet/lining brand rating and whether the final pinch is wanted after the measured teaspoon."
+        "Check footprint and preferred brown/tender endpoint for the family’s two-pound 450°F batch.",
+        "Confirm current teaspoon garlic preference while preserving it pending kitchen feedback.",
+        "Check sheet/lining rating, desired finishing salt and actual oven readiness; no old parboil restoration is inferred."
       ],
       "inputSha256": "b251294b27fb74592dc7dc43eb9da2d89b312757ce5216f99adcdd530524d375",
       "plannedBatch": "baked-savory-and-breads-08",
       "assignmentInputCommit": "95b37f8bca5008657a668e52a1d970b1d03367d3",
-      "assignmentInputSha256": "b251294b27fb74592dc7dc43eb9da2d89b312757ce5216f99adcdd530524d375"
+      "assignmentInputSha256": "b251294b27fb74592dc7dc43eb9da2d89b312757ce5216f99adcdd530524d375",
+      "acceptedSourceSha256": "94e6978482a006e7afb76be0f6e45f4160a26fddf529d6a87fe9bedf12ad868f",
+      "productionVerification": "pending"
     },
     {
       "slug": "peach-pie-biscuit-bombs",
@@ -5479,18 +5503,23 @@
       "source": null,
       "sourceUrl": null,
       "group": "roasted_vegetables_01",
-      "status": "proposed",
-      "reviewEvidence": [],
-      "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/roasted-asparagus.md",
+        "docs/editorial-campaign/2026-10-05/roasted-vegetables-independent.md"
+      ],
+      "automatedFlags": [],
       "remainingQuestions": [
-        "Weigh the actual bunch and check the preferred seasoning against its size without treating that weight as a universal bunch.",
-        "Confirm whether1tbsp is intended for either topping, especially zest; the saved wording does not justify inventing a smaller amount.",
-        "Check thin/thick stalk timing and four-portion size."
+        "Weigh the actual bunch and assess seasoning for that bunch, without creating a universal bunch weight.",
+        "Confirm whether the saved shared 1 tbsp amount is intended for either optional topping, especially zest.",
+        "Observe thin/thick stalk timing, actual oven readiness and four-portion size."
       ],
       "inputSha256": "5c6a28e60520af8b385ae5a7e5c5cacb392716affacadb2f8452e0579a29151f",
       "plannedBatch": "baked-savory-and-breads-08",
       "assignmentInputCommit": "95b37f8bca5008657a668e52a1d970b1d03367d3",
-      "assignmentInputSha256": "5c6a28e60520af8b385ae5a7e5c5cacb392716affacadb2f8452e0579a29151f"
+      "assignmentInputSha256": "5c6a28e60520af8b385ae5a7e5c5cacb392716affacadb2f8452e0579a29151f",
+      "acceptedSourceSha256": "d8e1601fca93f1325ed25ad26fa669917f41d760699957d13f30bd56f5398685",
+      "productionVerification": "pending"
     },
     {
       "slug": "roasted-broccolini-with-lemon",
@@ -5499,18 +5528,23 @@
       "source": null,
       "sourceUrl": null,
       "group": "roasted_vegetables_01",
-      "status": "proposed",
-      "reviewEvidence": [],
-      "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/roasted-broccolini-with-lemon.md",
+        "docs/editorial-campaign/2026-10-05/roasted-vegetables-independent.md"
+      ],
+      "automatedFlags": [],
       "remainingQuestions": [
-        "Confirm actual bunch weights and single-layer sheet footprint for the originaltwo-bunch amount.",
-        "Check whether the thinslicedgarlic stays golden with the actual sheet/rack position and stemthickness.",
-        "Taste the three-tablespoon oil quantity and lemonroundfinish without automatically lowering richness."
+        "Measure actual bunch weights and the sheet footprint of the original two-bunch amount.",
+        "Observe thinly sliced garlic and stem tenderness on the actual rack and sheet.",
+        "Assess the retained oil and roasted-lemon finish without lowering richness; record oven readiness and elapsed time."
       ],
       "inputSha256": "f688b2c8c3b5bcb5f1a3ca91bb564995fec8dac5d9e489ff643b56b9d916af75",
       "plannedBatch": "roast-grill-and-sear-03",
       "assignmentInputCommit": "95b37f8bca5008657a668e52a1d970b1d03367d3",
-      "assignmentInputSha256": "f688b2c8c3b5bcb5f1a3ca91bb564995fec8dac5d9e489ff643b56b9d916af75"
+      "assignmentInputSha256": "f688b2c8c3b5bcb5f1a3ca91bb564995fec8dac5d9e489ff643b56b9d916af75",
+      "acceptedSourceSha256": "9d5bb3b7acbcfff3e4f3a32f3f4b79845766e0bf17e95c8702a9514b2e19d51f",
+      "productionVerification": "pending"
     },
     {
       "slug": "roasted-brussels-sprouts-with-balsamic",
@@ -5519,18 +5553,24 @@
       "source": null,
       "sourceUrl": null,
       "group": "roasted_vegetables_01",
-      "status": "proposed",
-      "reviewEvidence": [],
-      "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/roasted-brussels-sprouts-with-balsamic.md",
+        "docs/editorial-campaign/2026-10-05/roasted-vegetables-independent.md"
+      ],
+      "automatedFlags": [],
       "remainingQuestions": [
-        "Check actualsprouthalfsize/tendercenters beforeglaze at20minutes.",
-        "Compare current agedbalsamic honey ovenfinish against the separately preservedpostroastmaple/Parmesan variation without blendingseasoningamounts.",
-        "For pork-tenderloin-dinner, resolve the actualsharedovencapacity/glazeservice schedule and rawmeatseparation as a separatewholemeal review."
+        "Observe sprout-half size and nearly tender centers at the first 20-minute check.",
+        "Compare the two separate glaze/seasoning routes without blending their quantities.",
+        "Resolve pork-tenderloin-dinner oven capacity, service schedule and raw-meat separation in its own whole-meal review; include actual oven/pan readiness.",
+        "The linked Pork Tenderloin Dinner has an independent schedule conflict: it uses 425°F and searing while its actual bacon-wrapped pork recipe uses 375°F and a one-hour refrigerated marinade. Its end-only sprout glaze corresponds to the separate post-roast variation, not the main oven-finished glaze. The composed meal remains pending complete review; this component acceptance does not certify that meal."
       ],
       "inputSha256": "ca207c02753caf9dfa35eb3c06b344688f7c0dc498ecc2e5e20a1d57a8370aa9",
       "plannedBatch": "roast-grill-and-sear-03",
       "assignmentInputCommit": "95b37f8bca5008657a668e52a1d970b1d03367d3",
-      "assignmentInputSha256": "ca207c02753caf9dfa35eb3c06b344688f7c0dc498ecc2e5e20a1d57a8370aa9"
+      "assignmentInputSha256": "ca207c02753caf9dfa35eb3c06b344688f7c0dc498ecc2e5e20a1d57a8370aa9",
+      "acceptedSourceSha256": "fb0671b1de32020949e834ff69e9b62982b90a3f77188132d88bfe99854f7dfc",
+      "productionVerification": "pending"
     },
     {
       "slug": "roasted-butternut-squash-mac-and-cheese",
@@ -5624,18 +5664,23 @@
       "source": null,
       "sourceUrl": null,
       "group": "roasted_vegetables_01",
-      "status": "proposed",
-      "reviewEvidence": [],
-      "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/roasted-root-vegetables.md",
+        "docs/editorial-campaign/2026-10-05/roasted-vegetables-independent.md"
+      ],
+      "automatedFlags": [],
       "remainingQuestions": [
-        "Record the actual rootmix and whether the first35–40minute window cooks every center; densermixmayneedlonger.",
-        "Check four-pound fit on the actualtwo sheets and even oil/glaze coating without inventing a per-sheetamount.",
-        "Check smashedgarlic and herb texture through the longer roast."
+        "Record the actual root mix and centers at the first check, particularly dense beets.",
+        "Check the four-pound footprint on the actual sheets and distribute the full glaze across all sheets.",
+        "Observe garlic/herb behavior during longer roasting and record oven readiness before loading."
       ],
       "inputSha256": "e2de0c56c162f2c8512a29aa22fc6313df1a3e55d306dcac90f135f51db833e0",
       "plannedBatch": "baked-savory-and-breads-09",
       "assignmentInputCommit": "95b37f8bca5008657a668e52a1d970b1d03367d3",
-      "assignmentInputSha256": "e2de0c56c162f2c8512a29aa22fc6313df1a3e55d306dcac90f135f51db833e0"
+      "assignmentInputSha256": "e2de0c56c162f2c8512a29aa22fc6313df1a3e55d306dcac90f135f51db833e0",
+      "acceptedSourceSha256": "fd732798f65b4cfaa83cc9a153786616d49552ff08ec0afdee93145c3558482e",
+      "productionVerification": "pending"
     },
     {
       "slug": "roasted-sunchokes-with-brown-butter-cider-vinaigrette",
@@ -5644,18 +5689,23 @@
       "source": "Adapted from Foodandwine.com",
       "sourceUrl": "http://www.foodandwine.com/recipes/roasted-sunchokes-with-brown-butter-cider-vinaigrette",
       "group": "roasted_vegetables_01",
-      "status": "proposed",
-      "reviewEvidence": [],
-      "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/roasted-sunchokes-with-brown-butter-cider-vinaigrette.md",
+        "docs/editorial-campaign/2026-10-05/roasted-vegetables-independent.md"
+      ],
+      "automatedFlags": [],
       "remainingQuestions": [
-        "Confirm pan capacity for two pounds of irregular 1-inch pieces and actual tender-center roast time.",
-        "Compare the retained brief chili-in-butter bloom with the publisher chili-in-vinegar route without altering the amount.",
-        "Check the current four-portion size and warm spinach texture; no exact yield or full wilting was measured."
+        "Check sheet footprint, irregular one-inch cuts and actual tender-center roasting time.",
+        "Observe the retained chili-in-butter bloom separately from the publisher chili-in-vinegar sequence.",
+        "Measure four-portion size, warm spinach texture, actual oven readiness and active/elapsed sauce overlap."
       ],
       "inputSha256": "c5e5713b9cdfb568c8cb88b7518c70268aa13620f426725d4832cecd4efc4a83",
       "plannedBatch": "baked-savory-and-breads-09",
       "assignmentInputCommit": "95b37f8bca5008657a668e52a1d970b1d03367d3",
-      "assignmentInputSha256": "c5e5713b9cdfb568c8cb88b7518c70268aa13620f426725d4832cecd4efc4a83"
+      "assignmentInputSha256": "c5e5713b9cdfb568c8cb88b7518c70268aa13620f426725d4832cecd4efc4a83",
+      "acceptedSourceSha256": "ce8ab6d233ee92280696209b6dde723d575494cc28d85dc6349607a26dddff4d",
+      "productionVerification": "pending"
     },
     {
       "slug": "roasted-sweet-potatoes",
@@ -5731,8 +5781,8 @@
       "title": "Salsa Verde Chicken Casserole",
       "source": "Adapted from Myfussyeater.com",
       "sourceUrl": "http://www.myfussyeater.com/strawberry-quinoa-breakfast-bars/",
-      "group": null,
-      "status": "queued",
+      "group": "poultry_assembled_mains_02",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -6017,8 +6067,8 @@
       "title": "Sheet Pan Pesto Chicken Bowls",
       "source": "Adapted from thegirlonbloor.com",
       "sourceUrl": "https://thegirlonbloor.com/sheet-pan-pesto-chicken-meal-prep-bowls/",
-      "group": null,
-      "status": "queued",
+      "group": "poultry_assembled_mains_02",
+      "status": "assigned",
       "reviewEvidence": ["docs/repairs/2026-09-15/changed-files.json"],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -6089,7 +6139,7 @@
       "source": "Adapted from cooking.nytimes.com",
       "sourceUrl": "https://cooking.nytimes.com/recipes/1013581-shrimp-and-mango-tacos?smid=ck-recipe-iOS-share",
       "group": "shrimp_pan_mains_01",
-      "status": "assigned",
+      "status": "proposed",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed"],
       "remainingQuestions": [
@@ -6109,7 +6159,7 @@
       "source": null,
       "sourceUrl": null,
       "group": "shrimp_pan_mains_01",
-      "status": "assigned",
+      "status": "proposed",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -6146,7 +6196,7 @@
       "source": null,
       "sourceUrl": null,
       "group": "shrimp_pan_mains_01",
-      "status": "assigned",
+      "status": "proposed",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -6166,7 +6216,7 @@
       "source": "Adapted from thewoksoflife.com",
       "sourceUrl": "https://thewoksoflife.com/shrimp-black-bean-sauce/",
       "group": "shrimp_pan_mains_01",
-      "status": "assigned",
+      "status": "proposed",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -6550,8 +6600,8 @@
       "title": "Spatchcocked Roast Chicken (The Best Method)",
       "source": null,
       "sourceUrl": null,
-      "group": null,
-      "status": "queued",
+      "group": "poultry_assembled_mains_02",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -7077,7 +7127,7 @@
       "source": "thewoksoflife.com",
       "sourceUrl": "https://thewoksoflife.com/coconut-curry-shrimp/",
       "group": "shrimp_pan_mains_01",
-      "status": "assigned",
+      "status": "proposed",
       "reviewEvidence": ["docs/reviews/thai-red-curry-shrimp.md"],
       "automatedFlags": ["teaching-review-needed"],
       "remainingQuestions": [
@@ -7512,7 +7562,7 @@
       "source": "Adapted from eatingwell.com",
       "sourceUrl": "https://www.eatingwell.com/recipe/257004/zucchini-noodles-with-avocado-pesto-shrimp/",
       "group": "shrimp_pan_mains_01",
-      "status": "assigned",
+      "status": "proposed",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -8260,12 +8310,13 @@
   ],
   "routingLimitations": "Provisional routing uses current metadata to reduce coordination work. Reviewer must confirm actual process from complete recipe before starting; tags never establish method applicability or a recipe defect.",
   "statusCounts": {
+    "accepted": 8,
     "assigned": 6,
     "held": 7,
     "held-awaiting-evidence": 2,
     "implemented": 13,
     "production-verified": 16,
-    "proposed": 60,
-    "queued": 305
+    "proposed": 58,
+    "queued": 299
   }
 }

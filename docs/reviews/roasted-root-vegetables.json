@@ -1,0 +1,914 @@
+{
+  "slug": "roasted-root-vegetables",
+  "title": "Root Vegetables",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "reviewDate": "2026-10-05",
+  "notKitchenTested": true,
+  "inputCommit": "95b37f8bca5008657a668e52a1d970b1d03367d3",
+  "inputSha256": "e2de0c56c162f2c8512a29aa22fc6313df1a3e55d306dcac90f135f51db833e0",
+  "candidateSha256": "fd732798f65b4cfaa83cc9a153786616d49552ff08ec0afdee93145c3558482e",
+  "independentCandidateCheckpoint": {
+    "sha256": "6efc673a85d4441f09206b425ed53c6d48593e10d8f91a438ed5ad6e4f2457ba",
+    "disposition": "accept corrected proposal, integration/kitchen gates separate",
+    "scope": "Prior independent whole challenge and correction check. New root timing/storage gates remain pending."
+  },
+  "identitySourceRatingLinksPreserved": true,
+  "summary": "Retain the full four-pound mixed-root formula and all oil, herbs, garlic, seasonings, sweetener and balsamic. Different roots receive independent center checks; same-size pieces are not promised to finish together. The complete glaze is shared across all sheets, and original two-sheet context remains proportional capacity advice.",
+  "formulaSummary": "4 lb unspecified root mix; 1/4 cup oil; 3 rosemary OR thyme sprigs; 4 garlic cloves; 1 tsp salt; 1/2 tsp pepper; 1 tbsp maple OR honey plus 1 tbsp balsamic. Six planning portions.",
+  "provenance": "c622bc69 earliest complete source establisheshouseformulaand1-inch35–40roast. ffa83277 explicitlyfixedhoneyoptionandsharingglazebothoriginalsheets;preserved foranyscaledpan count. Primaryextensionevidenceonlyestablishesmechanism/ratedifferences. No namedpublisherinrepo andnoattributioninvented.",
+  "committedOriginal": {
+    "commit": "c622bc69ba76d30f4767587855786eca9915688f",
+    "path": "src/content/recipes/roasted-root-vegetables.md",
+    "sha256": "deac0f65ca70b8226a9791235d585960657fde4004e94df71c1ce3c895d8cf78",
+    "verifiedExactGit": true
+  },
+  "sourceApplicability": [
+    {
+      "title": "University of Minnesota — Roasted root vegetables",
+      "url": "https://reallifegoodfood.umn.edu/side-dishes/roasted-root-vegetables",
+      "applicability": "Primary extension recipe explicitly varies roasting duration with vegetable type and size, and requires easy fork penetration. Supports rejecting a same-size/same-rate guarantee. Its formula is different and is not substituted.",
+      "evidenceReuse": true
+    },
+    {
+      "title": "Michigan State University Extension — How to Roast Any Vegetable",
+      "url": "https://msu-prod.dotcms.cloud/grand_traverse/uploads/files/How%20to%20Roast%20Vegetables.pdf",
+      "applicability": "Primary extension guide: drying, spacing, tenderness and different rates by type/size. Method evidence only; no certification of the eight house formulas or their yields, oil ratios, glazes or exact clocks.",
+      "evidenceReuse": true
+    },
+    {
+      "title": "FDA — Selecting and Serving Produce Safely",
+      "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely",
+      "applicability": "Primary FDA handling guidance: wash produce before cutting under running water, dry with clean material, and separate ready-to-eat produce from raw meat tools. Washing does not sterilize. Applies especially to spinach/herb finishes and linked meals.",
+      "evidenceReuse": true
+    },
+    {
+      "title": "USDA FSIS — Leftovers and Food Safety",
+      "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety",
+      "applicability": "Primary USDA general leftover handling: prompt shallow-container refrigeration within two hours, 3–4 refrigerated days and 165°F reheating. Quality/crispness comments are editorial observations, not source-tested shelf life.",
+      "evidenceReuse": true
+    }
+  ],
+  "findings": [
+    {
+      "category": "mixed-root rates and cooked centers",
+      "before": "equal1-inchchunks cookatsamerate;35–40darkbrowncrispy",
+      "after": "Similarsize butcheckeachkind;group/temporarilyliftreadypieces;35–60planning/knifeorfor tendercenters",
+      "rationale": "Differentvegetabletypes remain different despiteequal size. Extensionprimaryexplicitly supports variabletype/sizeandcenter check. No fixedweight mix or smallerbeetcut is invented; preserve1-inch state andfour-poundtotal.",
+      "evidence": ["c622bc69 committed origin", "roots", "roasting"],
+      "confidence": "moderate",
+      "question": null
+    },
+    {
+      "category": "scaled glaze and timing preservation",
+      "before": "Final5minmaplesyrupORhoney+balsamic evenlyoverbothsheets;35–40roast",
+      "after": "Glazewholebatchacrossallrequiredsheets,late5includedintotal;remove stems/keepcookedaromatics",
+      "rationale": "Keep ffa83277 verified alternative and two-sheet allocation repair. Do not multiply the glazeperpan or add5beyond the intendedclock. Genuinewhole-sprigherbs getinediblestemdisposition.",
+      "evidence": ["ffa83277 pilot repair", "c622bc69 committed origin", "input original"],
+      "confidence": "high",
+      "question": null
+    },
+    {
+      "category": "planning metadata",
+      "before": "Noequipment;cookingMethodssteam;originUnitedStates",
+      "after": "Actualsheet/bowl/spatula;removeintentionalsteamtagandunsupportedorigin",
+      "rationale": "The recipe intentionally roasts and has no source-established geographic authorship. CollectionAmericanstyle remains. No publisherformulaattributed to extensionmechanism.",
+      "evidence": ["input original", "recipe standard"],
+      "confidence": "moderate",
+      "question": null
+    },
+    {
+      "category": "nutrition and authored learning",
+      "before": "Legacy unverified nutrition; no authored learning or formula",
+      "after": "Nutrition removed; authored formula and recipe-specific learning added, with compiled ingredients, yield and Directions. See exact changedFields for the full original and replacement values.",
+      "rationale": "Delete unsupported legacy nutrition without replacement; publish ingredient allocations, checkpoints, troubleshooting, timing/storage and applicable method sources. Formula portion count preserves the current serving suggestion, not an invented finished-weight yield. Saved formulas and exact edits are independently traceable below.",
+      "evidence": ["recipe standard", "structured authoring standard", "input original"],
+      "confidence": "high",
+      "question": null
+    }
+  ],
+  "originalIngredientLedger": [
+    {
+      "ingredient": "4 lbs Mixed Root Veggies (Carrots, Parsnips, Sweet Potatoes, Beets)",
+      "destination": "Four-pound roots washed/peeled/1inch;allroasted,typesfinishindividually."
+    },
+    {
+      "ingredient": "1/4 cup Extra-Virgin Olive Oil",
+      "destination": "¼cup oil all coating,notperpan."
+    },
+    {
+      "ingredient": "3 sprigs Fresh Rosemary or Thyme",
+      "destination": "Threewholeherbsprigs roast;woodystemdiscardandtenderleavesremain."
+    },
+    {
+      "ingredient": "4 cloves Garlic, smashed",
+      "destination": "Four smashedgarliccloves roast/serveifnotblackened."
+    },
+    {
+      "ingredient": "1 tsp Kosher Salt",
+      "destination": "One teaspoon salt coating."
+    },
+    {
+      "ingredient": "1/2 tsp Black Pepper",
+      "destination": "Halfteaspoon peppercoating."
+    },
+    {
+      "ingredient": "1 tbsp Maple Syrup or Honey",
+      "destination": "OnetablespoonmapleORhoney latewholebatchglaze."
+    },
+    {
+      "ingredient": "1 tbsp Balsamic Vinegar",
+      "destination": "Onetablespoonbalsamic latewholebatchglaze."
+    }
+  ],
+  "ingredientLedger": [
+    {
+      "ingredient": "roots.roots",
+      "name": "mixed root vegetables (carrots, parsnips, sweet potatoes and beets)",
+      "quantity": {
+        "amount": 4,
+        "unit": "lb"
+      },
+      "allowance": null,
+      "preparation": "washed, peeled and cut into similar 1-inch pieces",
+      "optional": false,
+      "role": "ingredient",
+      "destinations": [
+        {
+          "step": "toss",
+          "share": 1
+        }
+      ],
+      "allocation": "sum exactly one; an unmeasured allowance has one named destination"
+    },
+    {
+      "ingredient": "roots.oil",
+      "name": "extra-virgin olive oil",
+      "quantity": {
+        "amount": "1/4",
+        "unit": "cup"
+      },
+      "allowance": null,
+      "preparation": null,
+      "optional": false,
+      "role": "ingredient",
+      "destinations": [
+        {
+          "step": "toss",
+          "share": 1
+        }
+      ],
+      "allocation": "sum exactly one; an unmeasured allowance has one named destination"
+    },
+    {
+      "ingredient": "roots.herbs",
+      "name": "fresh rosemary or thyme sprig",
+      "quantity": {
+        "amount": 3,
+        "unit": "count"
+      },
+      "allowance": null,
+      "preparation": "whole sprigs; woody stems removed after roasting",
+      "optional": false,
+      "role": "ingredient",
+      "destinations": [
+        {
+          "step": "toss",
+          "share": 1
+        }
+      ],
+      "allocation": "sum exactly one; an unmeasured allowance has one named destination"
+    },
+    {
+      "ingredient": "roots.garlic",
+      "name": "garlic clove",
+      "quantity": {
+        "amount": 4,
+        "unit": "count"
+      },
+      "allowance": null,
+      "preparation": "smashed",
+      "optional": false,
+      "role": "ingredient",
+      "destinations": [
+        {
+          "step": "toss",
+          "share": 1
+        }
+      ],
+      "allocation": "sum exactly one; an unmeasured allowance has one named destination"
+    },
+    {
+      "ingredient": "roots.salt",
+      "name": "kosher salt",
+      "quantity": {
+        "amount": 1,
+        "unit": "tsp"
+      },
+      "allowance": null,
+      "preparation": null,
+      "optional": false,
+      "role": "ingredient",
+      "destinations": [
+        {
+          "step": "toss",
+          "share": 1
+        }
+      ],
+      "allocation": "sum exactly one; an unmeasured allowance has one named destination"
+    },
+    {
+      "ingredient": "roots.pepper",
+      "name": "black pepper",
+      "quantity": {
+        "amount": "1/2",
+        "unit": "tsp"
+      },
+      "allowance": null,
+      "preparation": null,
+      "optional": false,
+      "role": "ingredient",
+      "destinations": [
+        {
+          "step": "toss",
+          "share": 1
+        }
+      ],
+      "allocation": "sum exactly one; an unmeasured allowance has one named destination"
+    },
+    {
+      "ingredient": "glaze.sweetener",
+      "name": "maple syrup or honey",
+      "quantity": {
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      "allowance": null,
+      "preparation": null,
+      "optional": false,
+      "role": "ingredient",
+      "destinations": [
+        {
+          "step": "glaze",
+          "share": 1
+        }
+      ],
+      "allocation": "sum exactly one; an unmeasured allowance has one named destination"
+    },
+    {
+      "ingredient": "glaze.balsamic",
+      "name": "balsamic vinegar",
+      "quantity": {
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      "allowance": null,
+      "preparation": null,
+      "optional": false,
+      "role": "ingredient",
+      "destinations": [
+        {
+          "step": "glaze",
+          "share": 1
+        }
+      ],
+      "allocation": "sum exactly one; an unmeasured allowance has one named destination"
+    }
+  ],
+  "variationLedger": [],
+  "variations": [],
+  "ratiosYieldCapacity": "Four pounds unspecifiedmix,¼cup oil,3herbsprigs,4smashedgarliccloves,1tsp salt,½tsppepper,1tbspmapleORhoney+1tbspbalsamic. Sixportionsretained. No invented vegetablesplit, rootcount,panweightcapacityorpreciseyield. Originaltwo-sheet reference fixedoriginalbatch; scaledquantitiesgetmorearea,glazetotalsharedallpans.",
+  "processAndHandling": "Wash/peel/cut1inch →coatallrootsoilseasoning/aromatics →groupkindsacrosssufficientsheets →turn/checkcentereachkind/liftreadypieces →removewoodyherbstems/blackenedgarlic →latewholebatchglaze/final5untiltendernotburnt →servewarm. A temporarystagingbowlisprocesscontrol,notlongroomtemperaturestorage.",
+  "timing": "About 15 minutes preparation plus roughly 35–60 minutes total roasting, including the final 5-minute glaze, is a 50–75-minute prep-and-roast subtotal. Start heating during prep, but load only once the oven reaches 425°F; any heating still needed after prep extends elapsed time. A mix with more dense beets can take longer than the first check window. Turning and checking are active work during the roast. More sheets or sequential batches extend elapsed time.",
+  "storage": "Refrigerate promptly in shallow covered containers within 2 hours, or 1 hour above 90°F / 32°C, at 40°F / 4°C or below; use within 3–4 days. Reheat leftovers to 165°F. The glaze and sweet potatoes soften in covered storage. Reheat spread out for even heating; pieces that were already very soft will not recover a firm center.",
+  "relationships": {
+    "pairsWith": ["lemon-ricotta-pasta", "oatmeal-risotto", "sun-dried-tomato-chicken-orzo"],
+    "composedMeals": [],
+    "mealApplicability": "No composed meal references this slug. Existing pairing links remain suggestions, not ingredient quantities or shared-pan safety certification.",
+    "distinctVariants": "Current formula/options retained; no consolidation or identity reassignment."
+  },
+  "changedFields": [
+    {
+      "field": "cookingMethods",
+      "before": ["bake", "roast", "steam"],
+      "after": ["bake", "roast"],
+      "rationale": "Complete whole-source review preserves supported character while adding directly applicable cooking guidance.",
+      "applicableSource": "docs/editorial-campaign/2026-10-05/roasted-vegetables-sources.json",
+      "confidence": "Moderate for untested kitchen behavior; high for exact source text and bounded arithmetic/handling corrections.",
+      "unresolvedQuestions": [
+        "Record the actual root mix and centers at the first check, particularly dense beets.",
+        "Check the four-pound footprint on the actual sheets and distribute the full glaze across all sheets.",
+        "Observe garlic/herb behavior during longer roasting and record oven readiness before loading."
+      ]
+    },
+    {
+      "field": "cookTime",
+      "before": "40 min",
+      "after": "35–60 min, depending on the mix",
+      "rationale": "Planning ranges follow current cooking windows and actual remaining preheating, with sensory endpoints and extra-batch time.",
+      "applicableSource": "docs/editorial-campaign/2026-10-05/roasted-vegetables-sources.json",
+      "confidence": "Moderate for untested kitchen behavior; high for exact source text and bounded arithmetic/handling corrections.",
+      "unresolvedQuestions": [
+        "Record the actual root mix and centers at the first check, particularly dense beets.",
+        "Check the four-pound footprint on the actual sheets and distribute the full glaze across all sheets.",
+        "Observe garlic/herb behavior during longer roasting and record oven readiness before loading."
+      ]
+    },
+    {
+      "field": "totalTime",
+      "before": "55 min",
+      "after": "50–75 min, plus any remaining preheating",
+      "rationale": "Planning ranges follow current cooking windows and actual remaining preheating, with sensory endpoints and extra-batch time.",
+      "applicableSource": "docs/editorial-campaign/2026-10-05/roasted-vegetables-sources.json",
+      "confidence": "Moderate for untested kitchen behavior; high for exact source text and bounded arithmetic/handling corrections.",
+      "unresolvedQuestions": [
+        "Record the actual root mix and centers at the first check, particularly dense beets.",
+        "Check the four-pound footprint on the actual sheets and distribute the full glaze across all sheets.",
+        "Observe garlic/herb behavior during longer roasting and record oven readiness before loading."
+      ]
+    },
+    {
+      "field": "servings",
+      "before": "6",
+      "after": "6 portions",
+      "rationale": "Retains the inherited planning portion count and makes its scaling explicit; no finished weight or measured yield is asserted.",
+      "applicableSource": "docs/editorial-campaign/2026-10-05/roasted-vegetables-sources.json",
+      "confidence": "High for exact source/compilation; planning portions and kitchen behavior remain untested.",
+      "unresolvedQuestions": [
+        "Record the actual root mix and centers at the first check, particularly dense beets.",
+        "Check the four-pound footprint on the actual sheets and distribute the full glaze across all sheets.",
+        "Observe garlic/herb behavior during longer roasting and record oven readiness before loading."
+      ]
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "4 lbs Mixed Root Veggies (Carrots, Parsnips, Sweet Potatoes, Beets)",
+        "1/4 cup Extra-Virgin Olive Oil",
+        "3 sprigs Fresh Rosemary or Thyme",
+        "4 cloves Garlic, smashed",
+        "1 tsp Kosher Salt",
+        "1/2 tsp Black Pepper",
+        "1 tbsp Maple Syrup or Honey",
+        "1 tbsp Balsamic Vinegar"
+      ],
+      "after": [
+        "--- Roots and roasting seasoning ---",
+        "4 lb mixed root vegetables (carrots, parsnips, sweet potatoes and beets), washed, peeled and cut into similar 1-inch pieces",
+        "1/4 cup extra-virgin olive oil",
+        "3 fresh rosemary or thyme sprigs, whole sprigs; woody stems removed after roasting",
+        "4 garlic cloves, smashed",
+        "1 tsp kosher salt",
+        "1/2 tsp black pepper",
+        "--- Late glaze ---",
+        "1 tbsp maple syrup or honey",
+        "1 tbsp balsamic vinegar"
+      ],
+      "rationale": "Preserves or restores the exact source-supported ingredient totals and distinct variants, with explicit full-batch allocation, geometry and sensory endpoints; authored formula regenerates ingredients, yield and directions together.",
+      "applicableSource": "docs/editorial-campaign/2026-10-05/roasted-vegetables-sources.json",
+      "confidence": "High for exact source/compilation; planning portions and kitchen behavior remain untested.",
+      "unresolvedQuestions": [
+        "Record the actual root mix and centers at the first check, particularly dense beets.",
+        "Check the four-pound footprint on the actual sheets and distribute the full glaze across all sheets.",
+        "Observe garlic/herb behavior during longer roasting and record oven readiness before loading."
+      ]
+    },
+    {
+      "field": "origin",
+      "before": "United States",
+      "after": null,
+      "rationale": "No evidence establishes a geographic origin for this particular recipe; existing cultural/style cuisine tags remain.",
+      "applicableSource": "docs/editorial-campaign/2026-10-05/roasted-vegetables-sources.json",
+      "confidence": "Moderate for untested kitchen behavior; high for exact source text and bounded arithmetic/handling corrections.",
+      "unresolvedQuestions": [
+        "Record the actual root mix and centers at the first check, particularly dense beets.",
+        "Check the four-pound footprint on the actual sheets and distribute the full glaze across all sheets.",
+        "Observe garlic/herb behavior during longer roasting and record oven readiness before loading."
+      ]
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 375,
+        "protein": 4,
+        "carbs": 3.5,
+        "fat": 39.5,
+        "fiber": 0,
+        "sugar": 2.5,
+        "sodium": 440
+      },
+      "after": null,
+      "rationale": "Unsupported legacy nutrition is removed without inventing replacement values.",
+      "applicableSource": "docs/editorial-campaign/2026-10-05/roasted-vegetables-sources.json",
+      "confidence": "High for exact source/compilation; planning portions and kitchen behavior remain untested.",
+      "unresolvedQuestions": [
+        "Record the actual root mix and centers at the first check, particularly dense beets.",
+        "Check the four-pound footprint on the actual sheets and distribute the full glaze across all sheets.",
+        "Observe garlic/herb behavior during longer roasting and record oven readiness before loading."
+      ]
+    },
+    {
+      "field": "equipment",
+      "before": null,
+      "after": ["large-rimmed-baking-sheets", "large-mixing-bowl", "spatula"],
+      "rationale": "Complete whole-source review preserves supported character while adding directly applicable cooking guidance.",
+      "applicableSource": "docs/editorial-campaign/2026-10-05/roasted-vegetables-sources.json",
+      "confidence": "Moderate for untested kitchen behavior; high for exact source text and bounded arithmetic/handling corrections.",
+      "unresolvedQuestions": [
+        "Record the actual root mix and centers at the first check, particularly dense beets.",
+        "Check the four-pound footprint on the actual sheets and distribute the full glaze across all sheets.",
+        "Observe garlic/herb behavior during longer roasting and record oven readiness before loading."
+      ]
+    },
+    {
+      "field": "formula",
+      "before": null,
+      "after": {
+        "version": 1,
+        "yield": {
+          "amount": 6,
+          "unit": "portion"
+        },
+        "components": [
+          {
+            "id": "roots",
+            "name": "Roots and roasting seasoning",
+            "ingredients": [
+              {
+                "id": "roots",
+                "key": "roots",
+                "name": "mixed root vegetables (carrots, parsnips, sweet potatoes and beets)",
+                "quantity": {
+                  "amount": 4,
+                  "unit": "lb"
+                },
+                "preparation": "washed, peeled and cut into similar 1-inch pieces",
+                "uses": [
+                  {
+                    "step": "toss",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "oil",
+                "key": "oil",
+                "name": "extra-virgin olive oil",
+                "quantity": {
+                  "amount": "1/4",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "toss",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "herbs",
+                "key": "herbs",
+                "name": "fresh rosemary or thyme sprig",
+                "plural": "fresh rosemary or thyme sprigs",
+                "quantity": {
+                  "amount": 3,
+                  "unit": "count"
+                },
+                "preparation": "whole sprigs; woody stems removed after roasting",
+                "uses": [
+                  {
+                    "step": "toss",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "garlic",
+                "key": "garlic",
+                "name": "garlic clove",
+                "plural": "garlic cloves",
+                "quantity": {
+                  "amount": 4,
+                  "unit": "count"
+                },
+                "preparation": "smashed",
+                "uses": [
+                  {
+                    "step": "toss",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "salt",
+                "key": "salt",
+                "name": "kosher salt",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "toss",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "pepper",
+                "key": "pepper",
+                "name": "black pepper",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "toss",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "glaze",
+            "name": "Late glaze",
+            "ingredients": [
+              {
+                "id": "sweetener",
+                "key": "sweetener",
+                "name": "maple syrup or honey",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "glaze",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "balsamic",
+                "key": "balsamic",
+                "name": "balsamic vinegar",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "glaze",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "id": "prep",
+            "title": "Cut the roots",
+            "text": "Heat the oven to 425°F. Wash the roots under running water before peeling and cutting into similar 1-inch pieces. Similar size helps, but beets, carrots, parsnips and sweet potatoes can still finish at different times. Set out enough large rimmed baking sheets for an uncrowded layer; the original four-pound batch uses about two large sheets."
+          },
+          {
+            "id": "toss",
+            "title": "Coat the full mixture",
+            "text": "Toss {{ingredients}} thoroughly in a large bowl, coating all the roots with the measured oil and seasoning. Keep the herb sprigs whole. Spread over the sheets with space between pieces, grouping each kind in its own area so ready pieces can be lifted out without guessing. Tuck smashed garlic against the vegetables and check it while turning."
+          },
+          {
+            "id": "roast",
+            "title": "Check each kind separately",
+            "text": "Roast, turning with a spatula around halfway through the first 30–35 minutes and rotating sheets if needed. Start checking by 30 minutes: pierce a thick piece of each kind. Lift tender, browned pieces into a bowl if others remain firm; continue the firm roots, checking frequently. The original 35–40 minute window may suit a particular mix, but a beet-heavy or thicker batch can take longer. Remove blackened garlic, and discard woody herb stems while keeping any tender leaves."
+          },
+          {
+            "id": "glaze",
+            "title": "Glaze near the end",
+            "text": "When the roots are tender or nearly tender, return any ready pieces to the sheets. Whisk {{ingredients}} together and drizzle over all the vegetables, sharing the whole measured glaze across however many sheets are used. Toss to coat, then roast for about 5 minutes, checking for bubbling glaze and browned edges before the sugars blacken. Centers should be easily pierced when served. Expect roughly 35–60 minutes total roasting depending on the mix; do not leave tender sweet potatoes in solely to meet the longer clock."
+          },
+          {
+            "id": "serve",
+            "title": "Serve",
+            "text": "Transfer all the glazed roots and cooked garlic to a serving dish and serve warm. There is no required rest; do not leave the pans at room temperature while an unrelated main dish cooks for a long interval."
+          }
+        ]
+      },
+      "rationale": "Preserves or restores the exact source-supported ingredient totals and distinct variants, with explicit full-batch allocation, geometry and sensory endpoints; authored formula regenerates ingredients, yield and directions together.",
+      "applicableSource": "docs/editorial-campaign/2026-10-05/roasted-vegetables-sources.json",
+      "confidence": "High for exact source/compilation; planning portions and kitchen behavior remain untested.",
+      "unresolvedQuestions": [
+        "Record the actual root mix and centers at the first check, particularly dense beets.",
+        "Check the four-pound footprint on the actual sheets and distribute the full glaze across all sheets.",
+        "Observe garlic/herb behavior during longer roasting and record oven readiness before loading."
+      ]
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Manage different roots through one late glaze",
+        "outcome": "Tender pieces of every chosen root, browned edges and an evenly distributed sweet-balsamic finish.",
+        "techniques": ["browning"],
+        "before": [
+          "Choose any proportion of the listed roots within the measured total vegetable weight.",
+          "Cut similar 1-inch pieces and group each kind on sufficient sheets. The original batch uses about two large sheets; more ingredients need more area.",
+          "Keep whole herb sprigs identifiable so woody stems can be removed. The measured syrup-or-honey and balsamic are for the whole batch, not each sheet."
+        ],
+        "checkpoints": [
+          {
+            "step": 3,
+            "cue": "A thick piece of each kind is checked separately, and tender pieces can leave early.",
+            "why": "Equal dimensions do not make all vegetable types cook at the same rate."
+          },
+          {
+            "step": 4,
+            "cue": "The whole measured glaze coats every sheet, with no automatic doubled glaze for a second sheet.",
+            "why": "The glaze is measured for the full batch; adding a sheet does not require another batch of glaze."
+          },
+          {
+            "step": 4,
+            "cue": "Centers are tender and the glaze is bubbling without blackened edges.",
+            "why": "A browned surface alone is not a cooked beet, and more time after sweet glaze risks scorching."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Some roots are mushy while others stay hard",
+            "cause": "Different types remained together until the slowest finished.",
+            "fix": "Lift ready pieces while firm ones continue; check each kind and glaze only when all are tender or nearly tender."
+          },
+          {
+            "problem": "Glaze scorches",
+            "cause": "It was added too early or tender roots stayed too long after glazing.",
+            "fix": "Remove ready pieces promptly and use the late glaze sequence; adding more honey will not fix burnt sugar."
+          },
+          {
+            "problem": "Smashed garlic blackens before roots cook",
+            "cause": "A clove was exposed against a hot pan for the long roast.",
+            "fix": "Move golden garlic into the bowl with ready roots or tuck it beside vegetables; discard blackened pieces."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Maple syrup",
+            "alternative": "The honey option",
+            "effect": "Preserves the measured tablespoon and late glaze; honey makes the dish non-vegan and can brown differently."
+          },
+          {
+            "ingredient": "Rosemary sprigs",
+            "alternative": "The thyme option",
+            "effect": "Keeps the counted sprigs but changes aroma; remove woody stems for either."
+          },
+          {
+            "ingredient": "One root type",
+            "alternative": "A different proportion of the listed roots",
+            "effect": "Keep the total vegetable amount and check each kind separately; a different mix may need more roasting time."
+          }
+        ],
+        "timing": "About 15 minutes preparation plus roughly 35–60 minutes total roasting, including the final 5-minute glaze, is a 50–75-minute prep-and-roast subtotal. Start heating during prep, but load only once the oven reaches 425°F; any heating still needed after prep extends elapsed time. A mix with more dense beets can take longer than the first check window. Turning and checking are active work during the roast. More sheets or sequential batches extend elapsed time.",
+        "storage": "Refrigerate promptly in shallow covered containers within 2 hours, or 1 hour above 90°F / 32°C, at 40°F / 4°C or below; use within 3–4 days. Reheat leftovers to 165°F. The glaze and sweet potatoes soften in covered storage. Reheat spread out for even heating; pieces that were already very soft will not recover a firm center.",
+        "sources": [
+          {
+            "title": "University of Minnesota — Roasted root vegetables",
+            "url": "https://reallifegoodfood.umn.edu/side-dishes/roasted-root-vegetables"
+          },
+          {
+            "title": "Michigan State University Extension — How to Roast Any Vegetable",
+            "url": "https://msu-prod.dotcms.cloud/grand_traverse/uploads/files/How%20to%20Roast%20Vegetables.pdf"
+          },
+          {
+            "title": "FDA — Selecting and Serving Produce Safely",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+          },
+          {
+            "title": "USDA FSIS — Leftovers and Food Safety",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-05"
+        }
+      },
+      "rationale": "Complete whole-source review preserves supported character while adding directly applicable cooking guidance.",
+      "applicableSource": "docs/editorial-campaign/2026-10-05/roasted-vegetables-sources.json",
+      "confidence": "Moderate for untested kitchen behavior; high for exact source text and bounded arithmetic/handling corrections.",
+      "unresolvedQuestions": [
+        "Record the actual root mix and centers at the first check, particularly dense beets.",
+        "Check the four-pound footprint on the actual sheets and distribute the full glaze across all sheets.",
+        "Observe garlic/herb behavior during longer roasting and record oven readiness before loading."
+      ]
+    },
+    {
+      "field": "body",
+      "before": "\n## Chef's Note\n\nThe secret to root vegetables that aren't \"mushy\" is **Uniformity and Space**. You must cut all the vegetables into equal 1-inch chunks so they cook at the same rate. Most importantly, use two baking sheets if necessary - if the vegetables are touching, they will steam; if they have space, they will caramelize and develop a sweet, nutty crust.\n\n## Directions\n\n1.  **Prep:** Preheat oven to 425°F. Peel and cut all vegetables into uniform 1-inch cubes.\n2.  **Toss:** In a large bowl, toss the vegetables with oil, salt, pepper, garlic, and herbs.\n3.  **Spread:** Spread in a single layer on two large rimmed baking sheets. **Ensure no chunks are overlapping.**\n4.  **Roast:** Bake for 35-40 minutes, tossing with a spatula halfway through, until the edges are dark brown and crispy.\n5.  **Finish:** In the final 5 minutes, drizzle the maple syrup or honey and balsamic vinegar evenly over both sheets and toss one last time. This creates a sticky, savory-sweet glaze.\n",
+      "after": "\n## Chef's Note\n\nKeep the pieces around 1 inch and give the roots enough sheet area to brown. Size helps, but a beet can still take longer than a sweet potato: group the kinds on the sheets and test each center before the final maple-or-honey and balsamic glaze. Add the glaze late and watch it closely so the sugars brown rather than burn.\n\n## Directions\n\n1. **Cut the roots:** Heat the oven to 425°F. Wash the roots under running water before peeling and cutting into similar 1-inch pieces. Similar size helps, but beets, carrots, parsnips and sweet potatoes can still finish at different times. Set out enough large rimmed baking sheets for an uncrowded layer; the original four-pound batch uses about two large sheets.\n2. **Coat the full mixture:** Toss mixed root vegetables (carrots, parsnips, sweet potatoes and beets), extra-virgin olive oil, fresh rosemary or thyme sprigs, garlic cloves, kosher salt, and black pepper thoroughly in a large bowl, coating all the roots with the measured oil and seasoning. Keep the herb sprigs whole. Spread over the sheets with space between pieces, grouping each kind in its own area so ready pieces can be lifted out without guessing. Tuck smashed garlic against the vegetables and check it while turning.\n3. **Check each kind separately:** Roast, turning with a spatula around halfway through the first 30–35 minutes and rotating sheets if needed. Start checking by 30 minutes: pierce a thick piece of each kind. Lift tender, browned pieces into a bowl if others remain firm; continue the firm roots, checking frequently. The original 35–40 minute window may suit a particular mix, but a beet-heavy or thicker batch can take longer. Remove blackened garlic, and discard woody herb stems while keeping any tender leaves.\n4. **Glaze near the end:** When the roots are tender or nearly tender, return any ready pieces to the sheets. Whisk maple syrup or honey and balsamic vinegar together and drizzle over all the vegetables, sharing the whole measured glaze across however many sheets are used. Toss to coat, then roast for about 5 minutes, checking for bubbling glaze and browned edges before the sugars blacken. Centers should be easily pierced when served. Expect roughly 35–60 minutes total roasting depending on the mix; do not leave tender sweet potatoes in solely to meet the longer clock.\n5. **Serve:** Transfer all the glazed roots and cooked garlic to a serving dish and serve warm. There is no required rest; do not leave the pans at room temperature while an unrelated main dish cooks for a long interval.\n",
+      "rationale": "Preserves or restores the exact source-supported ingredient totals and distinct variants, with explicit full-batch allocation, geometry and sensory endpoints; authored formula regenerates ingredients, yield and directions together.",
+      "applicableSource": "docs/editorial-campaign/2026-10-05/roasted-vegetables-sources.json",
+      "confidence": "Moderate for untested kitchen behavior; high for exact source text and bounded arithmetic/handling corrections.",
+      "unresolvedQuestions": [
+        "Record the actual root mix and centers at the first check, particularly dense beets.",
+        "Check the four-pound footprint on the actual sheets and distribute the full glaze across all sheets.",
+        "Observe garlic/herb behavior during longer roasting and record oven readiness before loading."
+      ]
+    }
+  ],
+  "validation": {
+    "frozenCommitMatches": true,
+    "inputSha256": "e2de0c56c162f2c8512a29aa22fc6313df1a3e55d306dcac90f135f51db833e0",
+    "identityTitleRatingSourceLinksPreserved": true,
+    "formulaSchema": "pass",
+    "compiledIngredientsYieldDirections": "pass",
+    "editorialAudit": {
+      "slug": "roasted-root-vegetables",
+      "title": "Root Vegetables",
+      "status": "editorial-review",
+      "stepCount": 5,
+      "issues": []
+    },
+    "mainSourceStillFrozen": true,
+    "scaled": [
+      {
+        "factor": 0.5,
+        "ingredients": [
+          "--- Roots and roasting seasoning ---",
+          "2 lb mixed root vegetables (carrots, parsnips, sweet potatoes and beets), washed, peeled and cut into similar 1-inch pieces",
+          "1/8 cup extra-virgin olive oil",
+          "1 1/2 fresh rosemary or thyme sprigs, whole sprigs; woody stems removed after roasting",
+          "2 garlic cloves, smashed",
+          "1/2 tsp kosher salt",
+          "1/4 tsp black pepper",
+          "--- Late glaze ---",
+          "1/2 tbsp maple syrup or honey",
+          "1/2 tbsp balsamic vinegar"
+        ],
+        "yield": "3 portions",
+        "shoppingList": [
+          "2 lb mixed root vegetables (carrots, parsnips, sweet potatoes and beets)",
+          "1/8 cup extra-virgin olive oil",
+          "1 1/2 fresh rosemary or thyme sprigs",
+          "2 garlic cloves",
+          "1/2 tsp kosher salt",
+          "1/4 tsp black pepper",
+          "1/2 tbsp maple syrup or honey",
+          "1/2 tbsp balsamic vinegar"
+        ]
+      },
+      {
+        "factor": 1,
+        "ingredients": [
+          "--- Roots and roasting seasoning ---",
+          "4 lb mixed root vegetables (carrots, parsnips, sweet potatoes and beets), washed, peeled and cut into similar 1-inch pieces",
+          "1/4 cup extra-virgin olive oil",
+          "3 fresh rosemary or thyme sprigs, whole sprigs; woody stems removed after roasting",
+          "4 garlic cloves, smashed",
+          "1 tsp kosher salt",
+          "1/2 tsp black pepper",
+          "--- Late glaze ---",
+          "1 tbsp maple syrup or honey",
+          "1 tbsp balsamic vinegar"
+        ],
+        "yield": "6 portions",
+        "shoppingList": [
+          "4 lb mixed root vegetables (carrots, parsnips, sweet potatoes and beets)",
+          "1/4 cup extra-virgin olive oil",
+          "3 fresh rosemary or thyme sprigs",
+          "4 garlic cloves",
+          "1 tsp kosher salt",
+          "1/2 tsp black pepper",
+          "1 tbsp maple syrup or honey",
+          "1 tbsp balsamic vinegar"
+        ]
+      },
+      {
+        "factor": 2,
+        "ingredients": [
+          "--- Roots and roasting seasoning ---",
+          "8 lb mixed root vegetables (carrots, parsnips, sweet potatoes and beets), washed, peeled and cut into similar 1-inch pieces",
+          "1/2 cup extra-virgin olive oil",
+          "6 fresh rosemary or thyme sprigs, whole sprigs; woody stems removed after roasting",
+          "8 garlic cloves, smashed",
+          "2 tsp kosher salt",
+          "1 tsp black pepper",
+          "--- Late glaze ---",
+          "2 tbsp maple syrup or honey",
+          "2 tbsp balsamic vinegar"
+        ],
+        "yield": "12 portions",
+        "shoppingList": [
+          "8 lb mixed root vegetables (carrots, parsnips, sweet potatoes and beets)",
+          "1/2 cup extra-virgin olive oil",
+          "6 fresh rosemary or thyme sprigs",
+          "8 garlic cloves",
+          "2 tsp kosher salt",
+          "1 tsp black pepper",
+          "2 tbsp maple syrup or honey",
+          "2 tbsp balsamic vinegar"
+        ]
+      }
+    ],
+    "scalingCaveats": "Scale ingredient totals, not cut size, oven heat or clock. Keep single-layer geometry with sufficient sheets/batches; extra sheets/batches alter elapsed time. Genuine finishing allowances remain to taste.",
+    "currentCandidateHashChecks": {
+      "frozenHashMatches": true,
+      "frozenGitExact": true,
+      "originGitExact": true,
+      "proposalMatchesPeer": true,
+      "proposalMatchesRecord": true,
+      "proposalMatchesResults": true,
+      "protectedFieldsPreserved": true,
+      "formulaSchema": true,
+      "compiledIngredients": true,
+      "compiledYield": true,
+      "compiledDirections": true,
+      "changedFieldSetExact": true,
+      "changedFieldValuesExact": true,
+      "ledgerComplete": true
+    },
+    "integration": "Root acceptance and integrated build/presentation checks pending"
+  },
+  "kitchenQuestions": [
+    "Record the actual root mix and centers at the first check, particularly dense beets.",
+    "Check the four-pound footprint on the actual sheets and distribute the full glaze across all sheets.",
+    "Observe garlic/herb behavior during longer roasting and record oven readiness before loading."
+  ],
+  "sourceEvidence": "roasted-vegetables-source-evidence.json",
+  "pendingRootGates": [],
+  "rootBoundedCorrections": {
+    "slug": "roasted-root-vegetables",
+    "independentBaselineSha256": "6efc673a85d4441f09206b425ed53c6d48593e10d8f91a438ed5ad6e4f2457ba",
+    "rootCorrections": [
+      {
+        "field": "totalTime",
+        "before": "50–75 min",
+        "after": "50–75 min, plus any remaining preheating",
+        "rationale": "Account for actual oven heating without inventing a household preheat duration.",
+        "source": "Current preparation and roasting windows; actual oven target before loading.",
+        "confidence": "High for the bounded clarification; physical cooking remains untested."
+      },
+      {
+        "field": "learning.timing",
+        "before": "About 15 minutes preparation and roughly 35–60 minutes total roasting, including the final 5-minute glaze: about 50–75 minutes with preheating overlapping prep. A mix with more dense beets can take longer than the first check window. Turning and checking are active work during the roast. More sheets or sequential batches extend elapsed time.",
+        "after": "About 15 minutes preparation plus roughly 35–60 minutes total roasting, including the final 5-minute glaze, is a 50–75-minute prep-and-roast subtotal. Start heating during prep, but load only once the oven reaches 425°F; any heating still needed after prep extends elapsed time. A mix with more dense beets can take longer than the first check window. Turning and checking are active work during the roast. More sheets or sequential batches extend elapsed time.",
+        "rationale": "Account for actual oven heating without inventing a household preheat duration.",
+        "source": "Current preparation and roasting windows; actual oven target before loading.",
+        "confidence": "High for the bounded clarification; physical cooking remains untested."
+      },
+      {
+        "field": "learning.storage",
+        "before": "Refrigerate within two hours in shallow covered containers; use within 3–4 days. Reheat leftovers to 165°F. The glaze and sweet potatoes soften in covered storage. Reheat spread out for even heating; pieces that were already very soft will not recover a firm center.",
+        "after": "Refrigerate promptly in shallow covered containers within 2 hours, or 1 hour above 90°F / 32°C, at 40°F / 4°C or below; use within 3–4 days. Reheat leftovers to 165°F. The glaze and sweet potatoes soften in covered storage. Reheat spread out for even heating; pieces that were already very soft will not recover a firm center.",
+        "rationale": "General cooked-leftover guidance; no preservation or measured shelf-life guarantee.",
+        "source": [
+          {
+            "title": "FDA — Safe Food Handling",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+            "access": "Narrow primary page rechecked on 2026-10-05; chill guidance and leftovers temperature table read",
+            "applicability": "Other perishables within 2 hours/1 hour above 90°F, refrigerator 40°F or below, shallow leftovers; measured 165°F leftovers reheat. Does not establish acid preservation or recipe-specific shelf life."
+          },
+          {
+            "title": "USDA FSIS — Leftovers and Food Safety",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety",
+            "access": "Existing author/peer evidence reused; this narrow direct recheck returned 403. Official indexed USDA text corroborates hot-ambient limit, rapid shallow cooling and 40°F storage.",
+            "applicability": "General cooked leftovers, including cooked side dishes; retain current 3–4-day guidance rather than infer preservation from vinegar or sugar."
+          },
+          {
+            "title": "USDA FSIS — Keep Food Safe",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/steps-keep-food-safe",
+            "access": "Official indexed primary text checked on 2026-10-05",
+            "applicability": "Most cooked leftovers 3–4 days at refrigerator 40°F or below; no guarantee this kitchen met handling conditions."
+          },
+          {
+            "title": "FDA — Selecting and Serving Produce Safely",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely",
+            "access": "Narrow primary recheck read 2026-10-05",
+            "applicability": "Perishable fresh herb/leaf finishes at 40°F or below and clean separation; not itself a 3–4-day cooked-side shelf-life source."
+          }
+        ],
+        "confidence": "High for the bounded clarification; physical cooking remains untested."
+      },
+      {
+        "field": "learning.substitutions.2.effect",
+        "before": "Keep the total vegetable amount and check the changed mix individually; no universal 35–40 minute guarantee.",
+        "after": "Keep the total vegetable amount and check each kind separately; a different mix may need more roasting time.",
+        "rationale": "Use direct cooking prose while retaining the same action, quantities, sensory cue and caution.",
+        "confidence": "High; no culinary route or amount changed."
+      }
+    ],
+    "formulaAmountsAndUsesUnchanged": true,
+    "generatedIngredientsYieldDirectionsRegeneratedTogether": true,
+    "correctedSha256": "fd732798f65b4cfaa83cc9a153786616d49552ff08ec0afdee93145c3558482e",
+    "baselineReconstructionExact": true,
+    "protectedFieldsPreserved": true,
+    "generatedParity": true,
+    "rootWholeAcceptance": "accepted after independent final bounded check and root whole inspection"
+  },
+  "acceptedSourceSha256": "fd732798f65b4cfaa83cc9a153786616d49552ff08ec0afdee93145c3558482e",
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/roasted-vegetables-independent.md",
+  "independentFinalSha256": "5aaebd74e77396ef2f8c7d0f470e965b354c27328992e32ceca32b909b9954f7",
+  "rootWholeInspection": "Complete frozen and proposed recipe, exact Git original, historical repairs, source disagreements, every ingredient and retained variation, pan geometry, sensory endpoints, timing, storage, scaling and linked meals inspected.",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "productionVerification": "pending"
+}

@@ -1,0 +1,902 @@
+{
+  "slug": "roasted-brussels-sprouts-with-balsamic",
+  "title": "Roasted Brussels Sprouts with Balsamic",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "reviewDate": "2026-10-05",
+  "notKitchenTested": true,
+  "inputCommit": "95b37f8bca5008657a668e52a1d970b1d03367d3",
+  "inputSha256": "ca207c02753caf9dfa35eb3c06b344688f7c0dc498ecc2e5e20a1d57a8370aa9",
+  "candidateSha256": "fb0671b1de32020949e834ff69e9b62982b90a3f77188132d88bfe99854f7dfc",
+  "independentCandidateCheckpoint": {
+    "sha256": "e133b75f0dcdaae5458c93b45772ac1f28fb10a1cfd040fac07492ae17b67761",
+    "disposition": "accept corrected proposal, integration/kitchen gates separate",
+    "scope": "Prior independent whole challenge and correction check. New root timing/storage gates remain pending."
+  },
+  "identitySourceRatingLinksPreserved": true,
+  "summary": "Keep the full current honey-and-aged-balsamic oven-glazed formula. Preserve the complete earlier preheated-pan/post-roast-glaze variation separately at its own per-1 1/2 lb amounts; do not blend its stronger seasoning or optional Parmesan into the main route. Centers are checked before the final sugary glaze. The linked pork-tenderloin meal needs a separate whole-meal schedule and raw-meat separation review.",
+  "formulaSummary": "Main: 1 1/2 lb sprouts, 3 tbsp oil, 1/2 tsp salt, 1/4 tsp pepper, 3 tbsp aged balsamic, 1 tbsp honey and finishing flaky salt allowance. Earlier separate variation: 3 tbsp oil, 1 tsp salt, 1/2 tsp pepper, 2 tbsp balsamic, 1 tbsp honey OR maple, optional 2 tbsp Parmesan per 1 1/2 lb sprouts. Four planning portions.",
+  "provenance": "fd4f07a8 completeoriginal and2a7f3853 rewrite directly recovered fromGit. No namedpublisherURL exists. Preserve currentmain and earliercompletealternative; no claims that a mechanismreference authenticates either formula.",
+  "committedOriginal": {
+    "commit": "fd4f07a836d811739118df904c5e6cc8b1fd593e",
+    "path": "src/content/recipes/roasted-brussels-sprouts-with-balsamic.md",
+    "sha256": "7ec6901a98d96f602dc25bc6b4096eae520e102f35ca15d6ae5fb3b09e3f82e6",
+    "verifiedExactGit": true
+  },
+  "sourceApplicability": [
+    {
+      "title": "Michigan State University Extension — How to Roast Any Vegetable",
+      "url": "https://msu-prod.dotcms.cloud/grand_traverse/uploads/files/How%20to%20Roast%20Vegetables.pdf",
+      "applicability": "Primary extension guide: drying, spacing, tenderness and different rates by type/size. Method evidence only; no certification of the eight house formulas or their yields, oil ratios, glazes or exact clocks.",
+      "evidenceReuse": true
+    },
+    {
+      "title": "FDA — Selecting and Serving Produce Safely",
+      "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely",
+      "applicability": "Primary FDA handling guidance: wash produce before cutting under running water, dry with clean material, and separate ready-to-eat produce from raw meat tools. Washing does not sterilize. Applies especially to spinach/herb finishes and linked meals.",
+      "evidenceReuse": true
+    },
+    {
+      "title": "USDA FSIS — Leftovers and Food Safety",
+      "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety",
+      "applicability": "Primary USDA general leftover handling: prompt shallow-container refrigeration within two hours, 3–4 refrigerated days and 165°F reheating. Quality/crispness comments are editorial observations, not source-tested shelf life.",
+      "evidenceReuse": true
+    }
+  ],
+  "findings": [
+    {
+      "category": "complete distinct earlier variant",
+      "before": "fd4f07a8 preheatedsheet,1tsp salt/½pepper/2tbspbalsamic/honeyormaple/optional2tbspParm,postroastglaze;current½salt/¼pepper/3agedbalsamic/honey/final5min",
+      "after": "Currentbalance remainsmain;completeearlierpostroastvariant retained per1.5lb sprout ratio",
+      "rationale": "2a7f3853 rewrote both formula and method, rather than establishing an earlier error. Neither anonymous formula can be silently erased or blended. No currenthalfseasoning rollback or honey reduction. Clear per-weight quantities and proportional instruction preserve the earlier route without turning all optional ingredients into mandatory additions.",
+      "evidence": ["fd4f07a8 committed origin", "2a7f3853 full diff", "input original"],
+      "confidence": "high",
+      "question": null
+    },
+    {
+      "category": "sear claim and glaze readiness",
+      "before": "Chefnote searbefore roast;methodovenonly;20minbrownthen5glaze",
+      "after": "Ovenbrowningwithoutnewstovetopstep;checkcentersbeforeglaze andcloselywatchfinal5",
+      "rationale": "Match prose to actual method. The saved sweetfinish remains, but clock alone cannot prove centers or prevent burnt sugar.",
+      "evidence": ["input original", "roasting"],
+      "confidence": "moderate",
+      "question": null
+    },
+    {
+      "category": "source confidence, country and meal interaction",
+      "before": "originItaly;child/restaurantguarantees;mealpostroastglazedescription",
+      "after": "No unsupportedrecipeorigin/guarantees;mealrecordnotesitspostroastglaze differsfromprimary",
+      "rationale": "No primary source establishes Italian authorship. Linked pork-tenderloin-dinner cooks at425and describes glaze after roast, corresponding to the separate variation rather than certifying currentglaze clock or rawmeatsharedpan safety.",
+      "evidence": [
+        "recipe standard",
+        "input original",
+        "src/content/meals/pork-tenderloin-dinner.md"
+      ],
+      "confidence": "high",
+      "question": null
+    },
+    {
+      "category": "nutrition and authored learning",
+      "before": "Legacy unverified nutrition; no authored learning or formula",
+      "after": "Nutrition removed; authored formula and recipe-specific learning added, with compiled ingredients, yield and Directions. See exact changedFields for the full original and replacement values.",
+      "rationale": "Delete unsupported legacy nutrition without replacement; publish ingredient allocations, checkpoints, troubleshooting, timing/storage and applicable method sources. Formula portion count preserves the current serving suggestion, not an invented finished-weight yield. Saved formulas and exact edits are independently traceable below.",
+      "evidence": ["recipe standard", "structured authoring standard", "input original"],
+      "confidence": "high",
+      "question": null
+    }
+  ],
+  "originalIngredientLedger": [
+    {
+      "ingredient": "1.5 lbs Fresh Brussels Sprouts",
+      "destination": "Sprouts trimmed/halved/dried/roasted."
+    },
+    {
+      "ingredient": "3 tbsp Olive Oil",
+      "destination": "Oil allwholebatchcoating."
+    },
+    {
+      "ingredient": "1/2 tsp Kosher Salt",
+      "destination": "½tspkosher saltcoating."
+    },
+    {
+      "ingredient": "1/4 tsp Black Pepper",
+      "destination": "¼tsppeppercoating."
+    },
+    {
+      "ingredient": "3 tbsp Aged Balsamic Vinegar",
+      "destination": "3tbspagedbalsamicwholebatchglaze."
+    },
+    {
+      "ingredient": "1 tbsp Honey",
+      "destination": "1tbsp honeywholebatchglaze."
+    },
+    {
+      "ingredient": "Flaky Sea Salt for finishing",
+      "destination": "Flakysalt tastedfinish."
+    }
+  ],
+  "ingredientLedger": [
+    {
+      "ingredient": "roast.sprouts",
+      "name": "fresh Brussels sprouts",
+      "quantity": {
+        "amount": 1.5,
+        "unit": "lb"
+      },
+      "allowance": null,
+      "preparation": "trimmed and halved lengthwise through the stem",
+      "optional": false,
+      "role": "ingredient",
+      "destinations": [
+        {
+          "step": "toss",
+          "share": 1
+        }
+      ],
+      "allocation": "sum exactly one; an unmeasured allowance has one named destination"
+    },
+    {
+      "ingredient": "roast.oil",
+      "name": "olive oil",
+      "quantity": {
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      "allowance": null,
+      "preparation": null,
+      "optional": false,
+      "role": "ingredient",
+      "destinations": [
+        {
+          "step": "toss",
+          "share": 1
+        }
+      ],
+      "allocation": "sum exactly one; an unmeasured allowance has one named destination"
+    },
+    {
+      "ingredient": "roast.salt",
+      "name": "kosher salt",
+      "quantity": {
+        "amount": "1/2",
+        "unit": "tsp"
+      },
+      "allowance": null,
+      "preparation": null,
+      "optional": false,
+      "role": "ingredient",
+      "destinations": [
+        {
+          "step": "toss",
+          "share": 1
+        }
+      ],
+      "allocation": "sum exactly one; an unmeasured allowance has one named destination"
+    },
+    {
+      "ingredient": "roast.pepper",
+      "name": "black pepper",
+      "quantity": {
+        "amount": "1/4",
+        "unit": "tsp"
+      },
+      "allowance": null,
+      "preparation": null,
+      "optional": false,
+      "role": "ingredient",
+      "destinations": [
+        {
+          "step": "toss",
+          "share": 1
+        }
+      ],
+      "allocation": "sum exactly one; an unmeasured allowance has one named destination"
+    },
+    {
+      "ingredient": "glaze.balsamic",
+      "name": "aged balsamic vinegar",
+      "quantity": {
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      "allowance": null,
+      "preparation": null,
+      "optional": false,
+      "role": "ingredient",
+      "destinations": [
+        {
+          "step": "glaze",
+          "share": 1
+        }
+      ],
+      "allocation": "sum exactly one; an unmeasured allowance has one named destination"
+    },
+    {
+      "ingredient": "glaze.honey",
+      "name": "honey",
+      "quantity": {
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      "allowance": null,
+      "preparation": null,
+      "optional": false,
+      "role": "ingredient",
+      "destinations": [
+        {
+          "step": "glaze",
+          "share": 1
+        }
+      ],
+      "allocation": "sum exactly one; an unmeasured allowance has one named destination"
+    },
+    {
+      "ingredient": "finish.finish-salt",
+      "name": "flaky sea salt",
+      "quantity": null,
+      "allowance": "to taste at serving",
+      "preparation": null,
+      "optional": false,
+      "role": "ingredient",
+      "destinations": [
+        {
+          "step": "serve",
+          "share": 1
+        }
+      ],
+      "allocation": "sum exactly one; an unmeasured allowance has one named destination"
+    }
+  ],
+  "variationLedger": [
+    {
+      "name": "Preheated-pan post-roast glaze",
+      "exclusiveReplacement": true,
+      "batchBasis": "Per 1 1/2 lb sprouts; scale all quantities by sprout weight",
+      "ingredients": [
+        {
+          "name": "Brussels sprouts",
+          "amount": "1 1/2 lb",
+          "destination": "Trim/halve/dry, preheated bare pan, 20–25-minute first window and independent centers"
+        },
+        {
+          "name": "Olive oil",
+          "amount": "3 tbsp",
+          "destination": "Coat before roast"
+        },
+        {
+          "name": "Kosher salt",
+          "amount": "1 tsp",
+          "destination": "Coat before roast"
+        },
+        {
+          "name": "Black pepper",
+          "amount": "1/2 tsp",
+          "destination": "Coat before roast"
+        },
+        {
+          "name": "Balsamic vinegar",
+          "amount": "2 tbsp",
+          "destination": "Whisk with chosen sweetener during roast; toss after roast, no oven return"
+        },
+        {
+          "name": "Honey OR maple syrup",
+          "amount": "1 tbsp",
+          "destination": "Exclusive sweetener in post-roast glaze"
+        },
+        {
+          "name": "Shaved Parmesan",
+          "amount": "2 tbsp optional",
+          "destination": "Finish after glaze; maple without Parmesan is vegan"
+        }
+      ],
+      "timing": "Heat oven AND bare sheet before loading; roast window is not complete elapsed time."
+    }
+  ],
+  "variations": [
+    {
+      "heading": "Preheated-Pan Variation with a Post-Roast Glaze",
+      "exactText": "For each 1½ pounds of Brussels sprouts, use 3 tablespoons olive oil, 1 teaspoon kosher salt, ½ teaspoon black pepper, 2 tablespoons balsamic vinegar and 1 tablespoon honey or maple syrup; 2 tablespoons shaved Parmesan are optional. Scale these amounts in proportion to the sprout weight. This replaces the ingredient balance and glazing stage above; do not add these quantities to that glaze.\n\nHeat a bare rimmed metal sheet in a 425°F oven. Trim, halve and dry the sprouts, then toss with the oil, salt and pepper. Carefully remove the hot sheet with oven mitts, spread cut-side down in one layer and roast 20–25 minutes without flipping, checking for browned faces and tender centers. Whisk the balsamic with the selected sweetener while they roast. After roasting, toss the hot sprouts with that glaze without returning them to the oven. Add the optional Parmesan and serve hot. Use enough hot sheets for the measured amount. Maple syrup without Parmesan makes this variation vegan."
+    }
+  ],
+  "ratiosYieldCapacity": "Current1.5lb sprouts/3tbsp oil/½tsp salt/¼tsppepper/3tbsp agedbalsamic/1tbsp honey/flakyfinish remainsfourportions. Completeoldvariation3tbspoil/1tspsalt/½pepper/2tbspbalsamic/1tbsp honeyORmaple/optional2tbspParm per1.5lb is separate, no blendedformula. Glazetotalsharedanypan count; sugarandfatretained.",
+  "processAndHandling": "Currenttrimhalve/dry/coat →cutdownsinglelayer20firstcheckcenter →allvinegarhoneycoat →brief5firstwindowwatchscorch →tasteflakysaltserve. Earlierbarepreheatedpan/postroastglaze is fully separate. No stove sear added; no unsafe rawanimaljuicecontactinferred from pairing.",
+  "timing": "About 10 minutes preparation plus roughly 20 minutes before glazing and 5 minutes after is an approximately 35-minute prep-and-roast subtotal when centers are nearly tender on the first check. Load only once the oven reaches 425°F; any heating still needed after prep extends elapsed time. Larger halves or extra sheets may take longer. Whisking the glaze overlaps roasting. The separate preheated-pan variation also requires its bare sheet to be hot before loading. No rest is required; serve the glazed sprouts promptly.",
+  "storage": "Refrigerate promptly in shallow covered containers within 2 hours, or 1 hour above 90°F / 32°C, at 40°F / 4°C or below; use within 3–4 days. Reheat leftovers to 165°F. The glazed leaves soften in covered storage. Reheat gently enough to avoid burning the honey coating while reaching the safe reheating endpoint.",
+  "relationships": {
+    "pairsWith": [
+      "baked-chicken-parmesan",
+      "one-pan-lemon-herb-chicken-thighs",
+      "sausage-and-white-bean-skillet"
+    ],
+    "composedMeals": ["src/content/meals/pork-tenderloin-dinner.md"],
+    "mealApplicability": "pork-tenderloin-dinner references this recipe and uses425°F with glazeafterroasting. Its main/side quantities, oven space,30minuteoverallclock and rawporkhandling require independentmeal review. Do not place vegetables in contact with rawporkjuices then remove early as ready-to-eat; this recipe is reviewed as a separatepan vegetable roast. The separate postroastglaze variation matches that meal’s describedglazing sequence, but does not certify the meal.",
+    "distinctVariants": "Currentoven-finishedglaze primary; separate exactsavedpreheated-pan/postroastglaze balance, maplechoice and Parmesan retained. EarlieroriginAmerican/currentItaly disagreement recorded;neither unsupportedgeographiclabel made authoritative.",
+    "rootLinkedMealInspection": "The linked Pork Tenderloin Dinner has an independent schedule conflict: it uses 425°F and searing while its actual bacon-wrapped pork recipe uses 375°F and a one-hour refrigerated marinade. Its end-only sprout glaze corresponds to the separate post-roast variation, not the main oven-finished glaze. The composed meal remains pending complete review; this component acceptance does not certify that meal."
+  },
+  "changedFields": [
+    {
+      "field": "origin",
+      "before": "Italy",
+      "after": null,
+      "rationale": "No evidence establishes a geographic origin for this particular recipe; existing cultural/style cuisine tags remain.",
+      "applicableSource": "docs/editorial-campaign/2026-10-05/roasted-vegetables-sources.json",
+      "confidence": "Moderate for untested kitchen behavior; high for exact source text and bounded arithmetic/handling corrections.",
+      "unresolvedQuestions": [
+        "Observe sprout-half size and nearly tender centers at the first 20-minute check.",
+        "Compare the two separate glaze/seasoning routes without blending their quantities.",
+        "Resolve pork-tenderloin-dinner oven capacity, service schedule and raw-meat separation in its own whole-meal review; include actual oven/pan readiness.",
+        "The linked Pork Tenderloin Dinner has an independent schedule conflict: it uses 425°F and searing while its actual bacon-wrapped pork recipe uses 375°F and a one-hour refrigerated marinade. Its end-only sprout glaze corresponds to the separate post-roast variation, not the main oven-finished glaze. The composed meal remains pending complete review; this component acceptance does not certify that meal."
+      ]
+    },
+    {
+      "field": "equipment",
+      "before": ["baking-sheet"],
+      "after": ["rimmed-baking-sheets", "mixing-bowl", "small-bowl", "spatula"],
+      "rationale": "Complete whole-source review preserves supported character while adding directly applicable cooking guidance.",
+      "applicableSource": "docs/editorial-campaign/2026-10-05/roasted-vegetables-sources.json",
+      "confidence": "Moderate for untested kitchen behavior; high for exact source text and bounded arithmetic/handling corrections.",
+      "unresolvedQuestions": [
+        "Observe sprout-half size and nearly tender centers at the first 20-minute check.",
+        "Compare the two separate glaze/seasoning routes without blending their quantities.",
+        "Resolve pork-tenderloin-dinner oven capacity, service schedule and raw-meat separation in its own whole-meal review; include actual oven/pan readiness.",
+        "The linked Pork Tenderloin Dinner has an independent schedule conflict: it uses 425°F and searing while its actual bacon-wrapped pork recipe uses 375°F and a one-hour refrigerated marinade. Its end-only sprout glaze corresponds to the separate post-roast variation, not the main oven-finished glaze. The composed meal remains pending complete review; this component acceptance does not certify that meal."
+      ]
+    },
+    {
+      "field": "cookTime",
+      "before": "25 min",
+      "after": "about 25 min, or until tender",
+      "rationale": "Planning ranges follow current cooking windows and actual remaining preheating, with sensory endpoints and extra-batch time.",
+      "applicableSource": "docs/editorial-campaign/2026-10-05/roasted-vegetables-sources.json",
+      "confidence": "Moderate for untested kitchen behavior; high for exact source text and bounded arithmetic/handling corrections.",
+      "unresolvedQuestions": [
+        "Observe sprout-half size and nearly tender centers at the first 20-minute check.",
+        "Compare the two separate glaze/seasoning routes without blending their quantities.",
+        "Resolve pork-tenderloin-dinner oven capacity, service schedule and raw-meat separation in its own whole-meal review; include actual oven/pan readiness.",
+        "The linked Pork Tenderloin Dinner has an independent schedule conflict: it uses 425°F and searing while its actual bacon-wrapped pork recipe uses 375°F and a one-hour refrigerated marinade. Its end-only sprout glaze corresponds to the separate post-roast variation, not the main oven-finished glaze. The composed meal remains pending complete review; this component acceptance does not certify that meal."
+      ]
+    },
+    {
+      "field": "totalTime",
+      "before": "35 min",
+      "after": "about 35 min, plus any remaining preheating",
+      "rationale": "Planning ranges follow current cooking windows and actual remaining preheating, with sensory endpoints and extra-batch time.",
+      "applicableSource": "docs/editorial-campaign/2026-10-05/roasted-vegetables-sources.json",
+      "confidence": "Moderate for untested kitchen behavior; high for exact source text and bounded arithmetic/handling corrections.",
+      "unresolvedQuestions": [
+        "Observe sprout-half size and nearly tender centers at the first 20-minute check.",
+        "Compare the two separate glaze/seasoning routes without blending their quantities.",
+        "Resolve pork-tenderloin-dinner oven capacity, service schedule and raw-meat separation in its own whole-meal review; include actual oven/pan readiness.",
+        "The linked Pork Tenderloin Dinner has an independent schedule conflict: it uses 425°F and searing while its actual bacon-wrapped pork recipe uses 375°F and a one-hour refrigerated marinade. Its end-only sprout glaze corresponds to the separate post-roast variation, not the main oven-finished glaze. The composed meal remains pending complete review; this component acceptance does not certify that meal."
+      ]
+    },
+    {
+      "field": "servings",
+      "before": "4",
+      "after": "4 portions",
+      "rationale": "Retains the inherited planning portion count and makes its scaling explicit; no finished weight or measured yield is asserted.",
+      "applicableSource": "docs/editorial-campaign/2026-10-05/roasted-vegetables-sources.json",
+      "confidence": "High for exact source/compilation; planning portions and kitchen behavior remain untested.",
+      "unresolvedQuestions": [
+        "Observe sprout-half size and nearly tender centers at the first 20-minute check.",
+        "Compare the two separate glaze/seasoning routes without blending their quantities.",
+        "Resolve pork-tenderloin-dinner oven capacity, service schedule and raw-meat separation in its own whole-meal review; include actual oven/pan readiness.",
+        "The linked Pork Tenderloin Dinner has an independent schedule conflict: it uses 425°F and searing while its actual bacon-wrapped pork recipe uses 375°F and a one-hour refrigerated marinade. Its end-only sprout glaze corresponds to the separate post-roast variation, not the main oven-finished glaze. The composed meal remains pending complete review; this component acceptance does not certify that meal."
+      ]
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "1.5 lbs Fresh Brussels Sprouts",
+        "3 tbsp Olive Oil",
+        "1/2 tsp Kosher Salt",
+        "1/4 tsp Black Pepper",
+        "3 tbsp Aged Balsamic Vinegar",
+        "1 tbsp Honey",
+        "Flaky Sea Salt for finishing"
+      ],
+      "after": [
+        "--- Brussels sprouts ---",
+        "1 1/2 lb fresh Brussels sprouts, trimmed and halved lengthwise through the stem",
+        "3 tbsp olive oil",
+        "1/2 tsp kosher salt",
+        "1/4 tsp black pepper",
+        "--- Balsamic–honey glaze ---",
+        "3 tbsp aged balsamic vinegar",
+        "1 tbsp honey",
+        "--- Finish ---",
+        "flaky sea salt, to taste at serving"
+      ],
+      "rationale": "Preserves or restores the exact source-supported ingredient totals and distinct variants, with explicit full-batch allocation, geometry and sensory endpoints; authored formula regenerates ingredients, yield and directions together.",
+      "applicableSource": "docs/editorial-campaign/2026-10-05/roasted-vegetables-sources.json",
+      "confidence": "High for exact source/compilation; planning portions and kitchen behavior remain untested.",
+      "unresolvedQuestions": [
+        "Observe sprout-half size and nearly tender centers at the first 20-minute check.",
+        "Compare the two separate glaze/seasoning routes without blending their quantities.",
+        "Resolve pork-tenderloin-dinner oven capacity, service schedule and raw-meat separation in its own whole-meal review; include actual oven/pan readiness.",
+        "The linked Pork Tenderloin Dinner has an independent schedule conflict: it uses 425°F and searing while its actual bacon-wrapped pork recipe uses 375°F and a one-hour refrigerated marinade. Its end-only sprout glaze corresponds to the separate post-roast variation, not the main oven-finished glaze. The composed meal remains pending complete review; this component acceptance does not certify that meal."
+      ]
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 125,
+        "protein": 1,
+        "carbs": 8.5,
+        "fat": 10,
+        "fiber": 0.5,
+        "sugar": 6.5,
+        "sodium": 1180
+      },
+      "after": null,
+      "rationale": "Unsupported legacy nutrition is removed without inventing replacement values.",
+      "applicableSource": "docs/editorial-campaign/2026-10-05/roasted-vegetables-sources.json",
+      "confidence": "High for exact source/compilation; planning portions and kitchen behavior remain untested.",
+      "unresolvedQuestions": [
+        "Observe sprout-half size and nearly tender centers at the first 20-minute check.",
+        "Compare the two separate glaze/seasoning routes without blending their quantities.",
+        "Resolve pork-tenderloin-dinner oven capacity, service schedule and raw-meat separation in its own whole-meal review; include actual oven/pan readiness.",
+        "The linked Pork Tenderloin Dinner has an independent schedule conflict: it uses 425°F and searing while its actual bacon-wrapped pork recipe uses 375°F and a one-hour refrigerated marinade. Its end-only sprout glaze corresponds to the separate post-roast variation, not the main oven-finished glaze. The composed meal remains pending complete review; this component acceptance does not certify that meal."
+      ]
+    },
+    {
+      "field": "formula",
+      "before": null,
+      "after": {
+        "version": 1,
+        "yield": {
+          "amount": 4,
+          "unit": "portion"
+        },
+        "components": [
+          {
+            "id": "roast",
+            "name": "Brussels sprouts",
+            "ingredients": [
+              {
+                "id": "sprouts",
+                "key": "sprouts",
+                "name": "fresh Brussels sprouts",
+                "quantity": {
+                  "amount": 1.5,
+                  "unit": "lb"
+                },
+                "preparation": "trimmed and halved lengthwise through the stem",
+                "uses": [
+                  {
+                    "step": "toss",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "oil",
+                "key": "oil",
+                "name": "olive oil",
+                "quantity": {
+                  "amount": 3,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "toss",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "salt",
+                "key": "salt",
+                "name": "kosher salt",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "toss",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "pepper",
+                "key": "pepper",
+                "name": "black pepper",
+                "quantity": {
+                  "amount": "1/4",
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "toss",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "glaze",
+            "name": "Balsamic–honey glaze",
+            "ingredients": [
+              {
+                "id": "balsamic",
+                "key": "balsamic",
+                "name": "aged balsamic vinegar",
+                "quantity": {
+                  "amount": 3,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "glaze",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "honey",
+                "key": "honey",
+                "name": "honey",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "glaze",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "finish",
+            "name": "Finish",
+            "ingredients": [
+              {
+                "id": "finish-salt",
+                "key": "finish-salt",
+                "name": "flaky sea salt",
+                "allowance": "to taste at serving",
+                "uses": [
+                  {
+                    "step": "serve",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "id": "prep",
+            "title": "Heat and prepare",
+            "text": "Heat the oven to 425°F. Use a large rimmed sheet or enough sheets for a single layer. If lining the sheets, use parchment rated for this heat or suitable foil. Wash the sprouts under running water, trim tough stem ends and yellowed leaves, halve lengthwise and dry the cut faces."
+          },
+          {
+            "id": "toss",
+            "title": "Coat and arrange",
+            "text": "Toss {{ingredients}} in a large bowl. Spread over the sheets cut-side down without piling. The measured oil and seasoning are for all the sprouts, shared across whichever sheets are needed."
+          },
+          {
+            "id": "roast",
+            "title": "Brown and check the centers",
+            "text": "Roast for about 20 minutes without stirring. Lift a few to check the cut faces and pierce a thick sprout through the center. Faces should be browned and centers tender or nearly tender. If still hard, continue roasting before glazing; if a hot spot is blackening, rotate the sheet and move those pieces away from it."
+          },
+          {
+            "id": "glaze",
+            "title": "Make and apply the glaze",
+            "text": "While the sprouts roast, whisk {{ingredients}} together. When centers are tender or nearly tender, drizzle the whole glaze across all the sprouts and toss gently. Return to the oven for about 5 minutes, checking closely: the coating should bubble and cling, without burning black. Remove ready pieces sooner if the glaze darkens quickly; finish any still-firm centers with attention to the browned coating."
+          },
+          {
+            "id": "serve",
+            "title": "Taste and serve",
+            "text": "Transfer to a serving dish and use {{ingredients}} if needed after tasting. Serve hot; the glaze gives a sticky finish rather than a guarantee that every leaf stays crisp."
+          }
+        ]
+      },
+      "rationale": "Preserves or restores the exact source-supported ingredient totals and distinct variants, with explicit full-batch allocation, geometry and sensory endpoints; authored formula regenerates ingredients, yield and directions together.",
+      "applicableSource": "docs/editorial-campaign/2026-10-05/roasted-vegetables-sources.json",
+      "confidence": "High for exact source/compilation; planning portions and kitchen behavior remain untested.",
+      "unresolvedQuestions": [
+        "Observe sprout-half size and nearly tender centers at the first 20-minute check.",
+        "Compare the two separate glaze/seasoning routes without blending their quantities.",
+        "Resolve pork-tenderloin-dinner oven capacity, service schedule and raw-meat separation in its own whole-meal review; include actual oven/pan readiness.",
+        "The linked Pork Tenderloin Dinner has an independent schedule conflict: it uses 425°F and searing while its actual bacon-wrapped pork recipe uses 375°F and a one-hour refrigerated marinade. Its end-only sprout glaze corresponds to the separate post-roast variation, not the main oven-finished glaze. The composed meal remains pending complete review; this component acceptance does not certify that meal."
+      ]
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Add a sweet balsamic glaze after checking sprout centers",
+        "outcome": "Tender Brussels sprouts with browned cut faces and an evenly distributed sticky honey–balsamic coating.",
+        "techniques": ["browning"],
+        "before": [
+          "Trim and halve through the stem; use enough sheet area to keep cut faces against the pan.",
+          "The measured balsamic and honey are for the whole batch, not each sheet.",
+          "Choose the main oven-finished honey glaze or the separate post-roast variation before measuring; their salt, pepper and vinegar balances differ."
+        ],
+        "checkpoints": [
+          {
+            "step": 3,
+            "cue": "Faces have browned and a thick center is tender or nearly tender.",
+            "why": "Do not rely on 20 minutes alone or add sweet glaze while the core is hard."
+          },
+          {
+            "step": 4,
+            "cue": "The glaze clings and bubbles without blackening.",
+            "why": "An aged balsamic/honey coating can scorch quickly; another five minutes is a check window, not a requirement to burn it."
+          },
+          {
+            "step": 5,
+            "cue": "The glazed sprout is tasted before flaky salt is added.",
+            "why": "Finishing salt is an allowance after the measured roast seasoning."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Leaves are black but centers hard",
+            "cause": "Sprouts are large or an oven area is hotter.",
+            "fix": "Rotate and move dark pieces, then finish the centers before glazing; start with comparable halves next time."
+          },
+          {
+            "problem": "Glaze burns during the final stage",
+            "cause": "Sugar stayed at high heat after the coating was ready.",
+            "fix": "Remove ready pieces sooner. Burnt sugar cannot be fixed by more honey; watch the oven-finish stage closely."
+          },
+          {
+            "problem": "The pan is wet and sprouts stay pale",
+            "cause": "The sprouts are piled or the washed cut faces stayed wet.",
+            "fix": "Dry and spread over sufficient sheets; extra sheet area is needed when scaling."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Aged balsamic vinegar",
+            "alternative": "A thinner balsamic vinegar",
+            "effect": "The measured amount remains, but the finish can be less sticky and more sharply acidic; do not claim an identical glaze."
+          },
+          {
+            "ingredient": "Oven-finished honey glaze",
+            "alternative": "The separate maple post-roast variation",
+            "effect": "Changes the stated ingredient balance and glazing method; omit its optional Parmesan for vegan service."
+          }
+        ],
+        "timing": "About 10 minutes preparation plus roughly 20 minutes before glazing and 5 minutes after is an approximately 35-minute prep-and-roast subtotal when centers are nearly tender on the first check. Load only once the oven reaches 425°F; any heating still needed after prep extends elapsed time. Larger halves or extra sheets may take longer. Whisking the glaze overlaps roasting. The separate preheated-pan variation also requires its bare sheet to be hot before loading. No rest is required; serve the glazed sprouts promptly.",
+        "storage": "Refrigerate promptly in shallow covered containers within 2 hours, or 1 hour above 90°F / 32°C, at 40°F / 4°C or below; use within 3–4 days. Reheat leftovers to 165°F. The glazed leaves soften in covered storage. Reheat gently enough to avoid burning the honey coating while reaching the safe reheating endpoint.",
+        "sources": [
+          {
+            "title": "Michigan State University Extension — How to Roast Any Vegetable",
+            "url": "https://msu-prod.dotcms.cloud/grand_traverse/uploads/files/How%20to%20Roast%20Vegetables.pdf"
+          },
+          {
+            "title": "FDA — Selecting and Serving Produce Safely",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+          },
+          {
+            "title": "USDA FSIS — Leftovers and Food Safety",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-05"
+        }
+      },
+      "rationale": "Complete whole-source review preserves supported character while adding directly applicable cooking guidance.",
+      "applicableSource": "docs/editorial-campaign/2026-10-05/roasted-vegetables-sources.json",
+      "confidence": "Moderate for untested kitchen behavior; high for exact source text and bounded arithmetic/handling corrections.",
+      "unresolvedQuestions": [
+        "Observe sprout-half size and nearly tender centers at the first 20-minute check.",
+        "Compare the two separate glaze/seasoning routes without blending their quantities.",
+        "Resolve pork-tenderloin-dinner oven capacity, service schedule and raw-meat separation in its own whole-meal review; include actual oven/pan readiness.",
+        "The linked Pork Tenderloin Dinner has an independent schedule conflict: it uses 425°F and searing while its actual bacon-wrapped pork recipe uses 375°F and a one-hour refrigerated marinade. Its end-only sprout glaze corresponds to the separate post-roast variation, not the main oven-finished glaze. The composed meal remains pending complete review; this component acceptance does not certify that meal."
+      ]
+    },
+    {
+      "field": "body",
+      "before": "\n## Chef's Note\n\nThe secret to making kids eat Brussels sprouts is high-heat caramelization that turns the edges dark brown and crispy - this creates a deeply savory umami note and actual sweetness. The balsamic-honey glaze adds sweetness and acidity, which balances the sulfurous vegetables. This is the technique restaurants use: cut the sprouts in half, sear the cut-side down at high heat to create a burnished, browned exterior before roasting. Crowding the pan prevents browning, so use two sheets if needed.\n\n## Directions\n\n1. **Prep:** Preheat oven to 425°F. Line a large baking sheet (or two sheets) with parchment paper.\n2. **Cut and Dry:** Trim the bottom off each Brussels sprout and remove any yellowed outer leaves. Cut in half lengthwise. Pat completely dry with paper towels - moisture prevents browning.\n3. **Toss:** Toss Brussels sprouts with olive oil, salt, and pepper.\n4. **Arrange:** Spread on the baking sheet in a single layer, cut-side down. Do not crowd or they will steam. Use a second sheet if needed.\n5. **Roast:** Bake for 20 minutes without stirring. The cut-side should be deeply browned and caramelized.\n6. **Make Glaze:** While sprouts roast, whisk together balsamic vinegar and honey in a small bowl.\n7. **Glaze:** Remove pan from oven. Drizzle the balsamic glaze over the sprouts. Toss gently and return to oven.\n8. **Finish Roast:** Bake for 5 more minutes until the glaze is bubbling and sticky.\n9. **Serve:** Transfer to a serving dish. Finish with flaky sea salt. Serve hot.\n",
+      "after": "\n## Chef's Note\n\nKeep the halved sprouts cut-side down while they first roast, then check the centers before adding the balsamic–honey glaze. The late coating turns sticky quickly in a 425°F oven, so watch the final few minutes closely. This version uses aged balsamic and honey; a separate preheated-pan variation below uses a lighter post-roast coating.\n\n## Directions\n\n1. **Heat and prepare:** Heat the oven to 425°F. Use a large rimmed sheet or enough sheets for a single layer. If lining the sheets, use parchment rated for this heat or suitable foil. Wash the sprouts under running water, trim tough stem ends and yellowed leaves, halve lengthwise and dry the cut faces.\n2. **Coat and arrange:** Toss fresh Brussels sprouts, olive oil, kosher salt, and black pepper in a large bowl. Spread over the sheets cut-side down without piling. The measured oil and seasoning are for all the sprouts, shared across whichever sheets are needed.\n3. **Brown and check the centers:** Roast for about 20 minutes without stirring. Lift a few to check the cut faces and pierce a thick sprout through the center. Faces should be browned and centers tender or nearly tender. If still hard, continue roasting before glazing; if a hot spot is blackening, rotate the sheet and move those pieces away from it.\n4. **Make and apply the glaze:** While the sprouts roast, whisk aged balsamic vinegar and honey together. When centers are tender or nearly tender, drizzle the whole glaze across all the sprouts and toss gently. Return to the oven for about 5 minutes, checking closely: the coating should bubble and cling, without burning black. Remove ready pieces sooner if the glaze darkens quickly; finish any still-firm centers with attention to the browned coating.\n5. **Taste and serve:** Transfer to a serving dish and use flaky sea salt if needed after tasting. Serve hot; the glaze gives a sticky finish rather than a guarantee that every leaf stays crisp.\n\n## Preheated-Pan Variation with a Post-Roast Glaze\n\nFor each 1½ pounds of Brussels sprouts, use 3 tablespoons olive oil, 1 teaspoon kosher salt, ½ teaspoon black pepper, 2 tablespoons balsamic vinegar and 1 tablespoon honey or maple syrup; 2 tablespoons shaved Parmesan are optional. Scale these amounts in proportion to the sprout weight. This replaces the ingredient balance and glazing stage above; do not add these quantities to that glaze.\n\nHeat a bare rimmed metal sheet in a 425°F oven. Trim, halve and dry the sprouts, then toss with the oil, salt and pepper. Carefully remove the hot sheet with oven mitts, spread cut-side down in one layer and roast 20–25 minutes without flipping, checking for browned faces and tender centers. Whisk the balsamic with the selected sweetener while they roast. After roasting, toss the hot sprouts with that glaze without returning them to the oven. Add the optional Parmesan and serve hot. Use enough hot sheets for the measured amount. Maple syrup without Parmesan makes this variation vegan.\n",
+      "rationale": "Preserves or restores the exact source-supported ingredient totals and distinct variants, with explicit full-batch allocation, geometry and sensory endpoints; authored formula regenerates ingredients, yield and directions together.",
+      "applicableSource": "docs/editorial-campaign/2026-10-05/roasted-vegetables-sources.json",
+      "confidence": "Moderate for untested kitchen behavior; high for exact source text and bounded arithmetic/handling corrections.",
+      "unresolvedQuestions": [
+        "Observe sprout-half size and nearly tender centers at the first 20-minute check.",
+        "Compare the two separate glaze/seasoning routes without blending their quantities.",
+        "Resolve pork-tenderloin-dinner oven capacity, service schedule and raw-meat separation in its own whole-meal review; include actual oven/pan readiness.",
+        "The linked Pork Tenderloin Dinner has an independent schedule conflict: it uses 425°F and searing while its actual bacon-wrapped pork recipe uses 375°F and a one-hour refrigerated marinade. Its end-only sprout glaze corresponds to the separate post-roast variation, not the main oven-finished glaze. The composed meal remains pending complete review; this component acceptance does not certify that meal."
+      ]
+    }
+  ],
+  "validation": {
+    "frozenCommitMatches": true,
+    "inputSha256": "ca207c02753caf9dfa35eb3c06b344688f7c0dc498ecc2e5e20a1d57a8370aa9",
+    "identityTitleRatingSourceLinksPreserved": true,
+    "formulaSchema": "pass",
+    "compiledIngredientsYieldDirections": "pass",
+    "editorialAudit": {
+      "slug": "roasted-brussels-sprouts-with-balsamic",
+      "title": "Roasted Brussels Sprouts with Balsamic",
+      "status": "editorial-review",
+      "stepCount": 5,
+      "issues": []
+    },
+    "mainSourceStillFrozen": true,
+    "scaled": [
+      {
+        "factor": 0.5,
+        "ingredients": [
+          "--- Brussels sprouts ---",
+          "3/4 lb fresh Brussels sprouts, trimmed and halved lengthwise through the stem",
+          "1 1/2 tbsp olive oil",
+          "1/4 tsp kosher salt",
+          "1/8 tsp black pepper",
+          "--- Balsamic–honey glaze ---",
+          "1 1/2 tbsp aged balsamic vinegar",
+          "1/2 tbsp honey",
+          "--- Finish ---",
+          "flaky sea salt, to taste at serving"
+        ],
+        "yield": "2 portions",
+        "shoppingList": [
+          "3/4 lb fresh Brussels sprouts",
+          "1 1/2 tbsp olive oil",
+          "1/4 tsp kosher salt",
+          "1/8 tsp black pepper",
+          "1 1/2 tbsp aged balsamic vinegar",
+          "1/2 tbsp honey",
+          "flaky sea salt, to taste at serving"
+        ]
+      },
+      {
+        "factor": 1,
+        "ingredients": [
+          "--- Brussels sprouts ---",
+          "1 1/2 lb fresh Brussels sprouts, trimmed and halved lengthwise through the stem",
+          "3 tbsp olive oil",
+          "1/2 tsp kosher salt",
+          "1/4 tsp black pepper",
+          "--- Balsamic–honey glaze ---",
+          "3 tbsp aged balsamic vinegar",
+          "1 tbsp honey",
+          "--- Finish ---",
+          "flaky sea salt, to taste at serving"
+        ],
+        "yield": "4 portions",
+        "shoppingList": [
+          "1 1/2 lb fresh Brussels sprouts",
+          "3 tbsp olive oil",
+          "1/2 tsp kosher salt",
+          "1/4 tsp black pepper",
+          "3 tbsp aged balsamic vinegar",
+          "1 tbsp honey",
+          "flaky sea salt, to taste at serving"
+        ]
+      },
+      {
+        "factor": 2,
+        "ingredients": [
+          "--- Brussels sprouts ---",
+          "3 lb fresh Brussels sprouts, trimmed and halved lengthwise through the stem",
+          "6 tbsp olive oil",
+          "1 tsp kosher salt",
+          "1/2 tsp black pepper",
+          "--- Balsamic–honey glaze ---",
+          "6 tbsp aged balsamic vinegar",
+          "2 tbsp honey",
+          "--- Finish ---",
+          "flaky sea salt, to taste at serving"
+        ],
+        "yield": "8 portions",
+        "shoppingList": [
+          "3 lb fresh Brussels sprouts",
+          "6 tbsp olive oil",
+          "1 tsp kosher salt",
+          "1/2 tsp black pepper",
+          "6 tbsp aged balsamic vinegar",
+          "2 tbsp honey",
+          "flaky sea salt, to taste at serving"
+        ]
+      }
+    ],
+    "scalingCaveats": "Primary formula quantities scale. Supporting post-roast variation states ratios per1.5lb sprouts and explicitly scales proportionally; it is an alternative ingredient balance/method, not an additive component. Panheat/cutsize/20–25clockremain checks; more sproutweight requires more sheetarea.",
+    "currentCandidateHashChecks": {
+      "frozenHashMatches": true,
+      "frozenGitExact": true,
+      "originGitExact": true,
+      "proposalMatchesPeer": true,
+      "proposalMatchesRecord": true,
+      "proposalMatchesResults": true,
+      "protectedFieldsPreserved": true,
+      "formulaSchema": true,
+      "compiledIngredients": true,
+      "compiledYield": true,
+      "compiledDirections": true,
+      "changedFieldSetExact": true,
+      "changedFieldValuesExact": true,
+      "ledgerComplete": true
+    },
+    "integration": "Root acceptance and integrated build/presentation checks pending"
+  },
+  "kitchenQuestions": [
+    "Observe sprout-half size and nearly tender centers at the first 20-minute check.",
+    "Compare the two separate glaze/seasoning routes without blending their quantities.",
+    "Resolve pork-tenderloin-dinner oven capacity, service schedule and raw-meat separation in its own whole-meal review; include actual oven/pan readiness.",
+    "The linked Pork Tenderloin Dinner has an independent schedule conflict: it uses 425°F and searing while its actual bacon-wrapped pork recipe uses 375°F and a one-hour refrigerated marinade. Its end-only sprout glaze corresponds to the separate post-roast variation, not the main oven-finished glaze. The composed meal remains pending complete review; this component acceptance does not certify that meal."
+  ],
+  "sourceEvidence": "roasted-vegetables-source-evidence.json",
+  "pendingRootGates": [],
+  "rootBoundedCorrections": {
+    "slug": "roasted-brussels-sprouts-with-balsamic",
+    "independentBaselineSha256": "e133b75f0dcdaae5458c93b45772ac1f28fb10a1cfd040fac07492ae17b67761",
+    "rootCorrections": [
+      {
+        "field": "totalTime",
+        "before": "about 35 min",
+        "after": "about 35 min, plus any remaining preheating",
+        "rationale": "Account for actual oven heating without inventing a household preheat duration.",
+        "source": "Current preparation and roasting windows; actual oven target before loading.",
+        "confidence": "High for the bounded clarification; physical cooking remains untested."
+      },
+      {
+        "field": "learning.timing",
+        "before": "About 10 minutes preparation plus roughly 20 minutes before glazing and 5 minutes after: about 35 minutes when the centers are nearly tender on the first check. Larger halves or extra sheets may take longer. Whisking the glaze overlaps roasting. No rest is required; serve the glazed sprouts promptly.",
+        "after": "About 10 minutes preparation plus roughly 20 minutes before glazing and 5 minutes after is an approximately 35-minute prep-and-roast subtotal when centers are nearly tender on the first check. Load only once the oven reaches 425°F; any heating still needed after prep extends elapsed time. Larger halves or extra sheets may take longer. Whisking the glaze overlaps roasting. The separate preheated-pan variation also requires its bare sheet to be hot before loading. No rest is required; serve the glazed sprouts promptly.",
+        "rationale": "Account for actual oven heating without inventing a household preheat duration.",
+        "source": "Current preparation and roasting windows; actual oven target before loading.",
+        "confidence": "High for the bounded clarification; physical cooking remains untested."
+      },
+      {
+        "field": "learning.storage",
+        "before": "Refrigerate within two hours in shallow covered containers; use within 3–4 days. Reheat leftovers to 165°F. The glazed leaves soften in covered storage. Reheat gently enough to avoid burning the honey coating while reaching the safe reheating endpoint.",
+        "after": "Refrigerate promptly in shallow covered containers within 2 hours, or 1 hour above 90°F / 32°C, at 40°F / 4°C or below; use within 3–4 days. Reheat leftovers to 165°F. The glazed leaves soften in covered storage. Reheat gently enough to avoid burning the honey coating while reaching the safe reheating endpoint.",
+        "rationale": "General cooked-leftover guidance; no preservation or measured shelf-life guarantee.",
+        "source": [
+          {
+            "title": "FDA — Safe Food Handling",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+            "access": "Narrow primary page rechecked on 2026-10-05; chill guidance and leftovers temperature table read",
+            "applicability": "Other perishables within 2 hours/1 hour above 90°F, refrigerator 40°F or below, shallow leftovers; measured 165°F leftovers reheat. Does not establish acid preservation or recipe-specific shelf life."
+          },
+          {
+            "title": "USDA FSIS — Leftovers and Food Safety",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety",
+            "access": "Existing author/peer evidence reused; this narrow direct recheck returned 403. Official indexed USDA text corroborates hot-ambient limit, rapid shallow cooling and 40°F storage.",
+            "applicability": "General cooked leftovers, including cooked side dishes; retain current 3–4-day guidance rather than infer preservation from vinegar or sugar."
+          },
+          {
+            "title": "USDA FSIS — Keep Food Safe",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/steps-keep-food-safe",
+            "access": "Official indexed primary text checked on 2026-10-05",
+            "applicability": "Most cooked leftovers 3–4 days at refrigerator 40°F or below; no guarantee this kitchen met handling conditions."
+          },
+          {
+            "title": "FDA — Selecting and Serving Produce Safely",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely",
+            "access": "Narrow primary recheck read 2026-10-05",
+            "applicability": "Perishable fresh herb/leaf finishes at 40°F or below and clean separation; not itself a 3–4-day cooked-side shelf-life source."
+          }
+        ],
+        "confidence": "High for the bounded clarification; physical cooking remains untested."
+      }
+    ],
+    "formulaAmountsAndUsesUnchanged": true,
+    "generatedIngredientsYieldDirectionsRegeneratedTogether": true,
+    "correctedSha256": "fb0671b1de32020949e834ff69e9b62982b90a3f77188132d88bfe99854f7dfc",
+    "baselineReconstructionExact": true,
+    "protectedFieldsPreserved": true,
+    "generatedParity": true,
+    "rootWholeAcceptance": "accepted after independent final bounded check and root whole inspection"
+  },
+  "acceptedSourceSha256": "fb0671b1de32020949e834ff69e9b62982b90a3f77188132d88bfe99854f7dfc",
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/roasted-vegetables-independent.md",
+  "independentFinalSha256": "5aaebd74e77396ef2f8c7d0f470e965b354c27328992e32ceca32b909b9954f7",
+  "rootWholeInspection": "Complete frozen and proposed recipe, exact Git original, historical repairs, source disagreements, every ingredient and retained variation, pan geometry, sensory endpoints, timing, storage, scaling and linked meals inspected.",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "productionVerification": "pending"
+}

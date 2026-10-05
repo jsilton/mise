@@ -1,0 +1,109 @@
+{
+  "group": "roasted_vegetables_01",
+  "reviewDate": "2026-10-05",
+  "status": "draft; root acceptance pending",
+  "physicalCooking": false,
+  "sources": [
+    {
+      "id": "roasting",
+      "title": "Michigan State University Extension — How to Roast Any Vegetable",
+      "url": "https://msu-prod.dotcms.cloud/grand_traverse/uploads/files/How%20to%20Roast%20Vegetables.pdf",
+      "access": "Author/independent source packet reports primary reading on 2026-10-05; integration packet reuses that evidence.",
+      "applicability": "Primary extension guide: drying, spacing, tenderness and different rates by type/size. Method evidence only; no certification of the eight house formulas or their yields, oil ratios, glazes or exact clocks."
+    },
+    {
+      "id": "roots",
+      "title": "University of Minnesota — Roasted root vegetables",
+      "url": "https://reallifegoodfood.umn.edu/side-dishes/roasted-root-vegetables",
+      "access": "Author/independent source packet reports primary reading on 2026-10-05; integration packet reuses that evidence.",
+      "applicability": "Primary extension recipe explicitly varies roasting duration with vegetable type and size, and requires easy fork penetration. Supports rejecting a same-size/same-rate guarantee. Its formula is different and is not substituted."
+    },
+    {
+      "id": "parchment",
+      "title": "Reynolds — Parchment paper temperature rating",
+      "url": "https://www.reynoldsbrands.com/products/parchment-paper/parchment-paper-rolls",
+      "access": "Author/independent source packet reports primary reading on 2026-10-05; integration packet reuses that evidence.",
+      "applicability": "Manufacturer rates this product to 425°F. At 450°F use bare metal or suitable foil unless the actual parchment manufacturer rates it for that heat. At 425°F also check the actual lining instructions; no assertion that all parchment has one rating."
+    },
+    {
+      "id": "produce",
+      "title": "FDA — Selecting and Serving Produce Safely",
+      "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely",
+      "access": "Author/independent source packet reports primary reading on 2026-10-05; integration packet reuses that evidence.",
+      "applicability": "Primary FDA handling guidance: wash produce before cutting under running water, dry with clean material, and separate ready-to-eat produce from raw meat tools. Washing does not sterilize. Applies especially to spinach/herb finishes and linked meals."
+    },
+    {
+      "id": "leftovers",
+      "title": "USDA FSIS — Leftovers and Food Safety",
+      "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety",
+      "access": "Author/independent source packet reports primary reading on 2026-10-05; integration packet reuses that evidence.",
+      "applicability": "Primary USDA general leftover handling: prompt shallow-container refrigeration within two hours, 3–4 refrigerated days and 165°F reheating. Quality/crispness comments are editorial observations, not source-tested shelf life.",
+      "narrowRecheck": "Direct page returned 403 during packet preparation; official indexed USDA text and accessible FDA chill guidance corroborate scope."
+    },
+    {
+      "id": "sunchokes",
+      "title": "Food & Wine — Jamie Malone’s roasted sunchokes",
+      "url": "https://www.foodandwine.com/recipes/roasted-sunchokes-with-brown-butter-cider-vinaigrette",
+      "access": "Author/independent source packet reports primary reading on 2026-10-05; integration packet reuses that evidence.",
+      "applicability": "Named primary publisher and independently recovered 045e5ba2 original agree on the missing roast oil, raw vinegar reduction and transfer/wipe before butter. The current four portions are retained; no exact publisher yield is newly imposed. Current chili bloom remains an explicit adaptation."
+    },
+    {
+      "id": "butter",
+      "title": "King Arthur Baking — How to make brown butter",
+      "url": "https://www.kingarthurbaking.com/blog/2020/01/08/brown-butter",
+      "access": "Author/independent source packet reports primary reading on 2026-10-05; integration packet reuses that evidence.",
+      "applicability": "Primary author describes browning milk solids, removing butter before blackened bitterness and promptly transferring to stop carryover. Applied to visible butter cues; no fixed browning time or water top-up is imported into this vinaigrette."
+    },
+    {
+      "id": "potatoes",
+      "title": "GialloZafferano — Roasted potatoes",
+      "url": "https://www.giallozafferano.com/recipes/Roasted-potatoes.html",
+      "access": "Author/independent source packet reports primary reading on 2026-10-05; integration packet reuses that evidence.",
+      "applicability": "Italian primary publisher establishes the general potato/rosemary oven-roast family and a parboiled alternative, with materially different formula and heat. Does not establish Roman household authorship or certify the current no-boil family formula."
+    },
+    {
+      "id": "miso",
+      "title": "Just One Cookbook — Roasted miso garlic cauliflower",
+      "url": "https://www.justonecookbook.com/roasted-miso-garlic-cauliflower/",
+      "access": "Author/independent source packet reports primary reading on 2026-10-05; integration packet reuses that evidence.",
+      "applicability": "Primary author explicitly warns that miso sauce burns readily; her different oil/salt first-roast/late-glaze recipe is not this saved mirin/sesame/rice-vinegar formula. Supports a scorch check and rejects generic Japanese-household authenticity, not exact transfer of her timings, maple balance or broiler method."
+    },
+    {
+      "id": "sweetPotatoes",
+      "title": "Bon Appétit — How to roast sweet potatoes",
+      "url": "https://www.bonappetit.com/story/how-to-roast-sweet-potatoes",
+      "access": "Author/independent source packet reports primary reading on 2026-10-05; integration packet reuses that evidence.",
+      "applicability": "Primary author explains contact/turning multiple cut faces and variable tenderness; her different unglazed method is not a source for this maple formula. Applied to correcting skin-side-down/bottom-brown conflict and rejecting promised chip-like crispness. No formula or new heat target imported."
+    }
+  ],
+  "storageClarificationSources": [
+    {
+      "title": "FDA — Safe Food Handling",
+      "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+      "access": "Narrow primary page rechecked on 2026-10-05; chill guidance and leftovers temperature table read",
+      "applicability": "Other perishables within 2 hours/1 hour above 90°F, refrigerator 40°F or below, shallow leftovers; measured 165°F leftovers reheat. Does not establish acid preservation or recipe-specific shelf life."
+    },
+    {
+      "title": "USDA FSIS — Leftovers and Food Safety",
+      "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety",
+      "access": "Existing author/peer evidence reused; this narrow direct recheck returned 403. Official indexed USDA text corroborates hot-ambient limit, rapid shallow cooling and 40°F storage.",
+      "applicability": "General cooked leftovers, including cooked side dishes; retain current 3–4-day guidance rather than infer preservation from vinegar or sugar."
+    },
+    {
+      "title": "USDA FSIS — Keep Food Safe",
+      "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/steps-keep-food-safe",
+      "access": "Official indexed primary text checked on 2026-10-05",
+      "applicability": "Most cooked leftovers 3–4 days at refrigerator 40°F or below; no guarantee this kitchen met handling conditions."
+    },
+    {
+      "title": "FDA — Selecting and Serving Produce Safely",
+      "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely",
+      "access": "Narrow primary recheck read 2026-10-05",
+      "applicability": "Perishable fresh herb/leaf finishes at 40°F or below and clean separation; not itself a 3–4-day cooked-side shelf-life source."
+    }
+  ],
+  "limits": [
+    "Evidence establishes only the stated formula or mechanism/handling scope. No native identity certification, measured kitchen yield, shelf life, nutrition calculation or physical test is supplied.",
+    "Exact committed origins establish saved content; comparison sources do not confer authorship on anonymous formulas."
+  ]
+}

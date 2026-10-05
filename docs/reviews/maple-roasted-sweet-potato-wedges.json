@@ -1,0 +1,857 @@
+{
+  "slug": "maple-roasted-sweet-potato-wedges",
+  "title": "Maple-Roasted Sweet Potato Wedges",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "reviewDate": "2026-10-05",
+  "notKitchenTested": true,
+  "inputCommit": "95b37f8bca5008657a668e52a1d970b1d03367d3",
+  "inputSha256": "3584ec674b636512261b9a4fad0ead8c8963595dcb3a761c4d244af8ce8fa1ab",
+  "candidateSha256": "1c9559a7e891f44b2482adf4ff815bc170c73c2701eb2c771227bd2e0ce45ca3",
+  "independentCandidateCheckpoint": {
+    "sha256": "0edd9c2ac59488663ac1ebac72d93b4eb73cf36ced297b885179c759c21266ba",
+    "disposition": "accept corrected proposal, integration/kitchen gates separate",
+    "scope": "Prior independent whole challenge and correction check. New root timing/storage gates remain pending."
+  },
+  "identitySourceRatingLinksPreserved": true,
+  "summary": "Keep every oil/maple amount and both existing roast stages. Clarify actual wedges with flat cut-face contact and turning; do not promise fried crispness or invent a wedge count. Check nearly tender centers before the maple stage and watch the full syrup/optional-paprika coating through the finish.",
+  "formulaSummary": "2 lb sweet potatoes; 3 tbsp oil; 1/2 tsp salt; 1/4 tsp pepper; 2 tbsp pure maple; optional 1/2 tsp smoked paprika; finishing flaky-salt allowance. Four planning portions.",
+  "provenance": "2a7f3853 firstcommittedcompleteformula andtwo-stageovenmethod;no namedpublisherlink. Currentformula retainedwithgeometry/center/scorchchecks. PrimaryBAtechnique supports pancontactandvariabletenderness,not attributionorcopyingitsdifferentunglazedmethod.",
+  "committedOriginal": {
+    "commit": "2a7f38534f68f09454b2c68637139fd966b5584f",
+    "path": "src/content/recipes/maple-roasted-sweet-potato-wedges.md",
+    "sha256": "02fde77d2348cbc12c4fe7590372d47a0e69bcd11ebacec286c7a4054e8b9597",
+    "verifiedExactGit": true
+  },
+  "sourceApplicability": [
+    {
+      "title": "Bon Appétit — How to roast sweet potatoes",
+      "url": "https://www.bonappetit.com/story/how-to-roast-sweet-potatoes",
+      "applicability": "Primary author explains contact/turning multiple cut faces and variable tenderness; her different unglazed method is not a source for this maple formula. Applied to correcting skin-side-down/bottom-brown conflict and rejecting promised chip-like crispness. No formula or new heat target imported.",
+      "evidenceReuse": true
+    },
+    {
+      "title": "FDA — Selecting and Serving Produce Safely",
+      "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely",
+      "applicability": "Primary FDA handling guidance: wash produce before cutting under running water, dry with clean material, and separate ready-to-eat produce from raw meat tools. Washing does not sterilize. Applies especially to spinach/herb finishes and linked meals.",
+      "evidenceReuse": true
+    },
+    {
+      "title": "USDA FSIS — Leftovers and Food Safety",
+      "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety",
+      "applicability": "Primary USDA general leftover handling: prompt shallow-container refrigeration within two hours, 3–4 refrigerated days and 165°F reheating. Quality/crispness comments are editorial observations, not source-tested shelf life.",
+      "evidenceReuse": true
+    }
+  ],
+  "findings": [
+    {
+      "category": "contradictory geometry and contact",
+      "before": "wedges½inch lengthwise likeplanks;skin-sidedown;bottomgoldandcrispy;wedgesmoresurfaceareathanfries",
+      "after": "Lengthwisewedgeswithskin edge/flatcutfaces;cutfacedownthenanotherface;no unsupportedarea/crispnessguarantee",
+      "rationale": "The recipeintends wedges andflatbottom browning. Primarysweetpotato author specificallysupportscontact/turning multiplecutfaces; no newcutcount perpotato orheat target.",
+      "evidence": ["2a7f3853 committed origin", "input original", "sweetPotatoes"],
+      "confidence": "moderate",
+      "question": null
+    },
+    {
+      "category": "maple scorching and center timing",
+      "before": "18–20firstroast then8–10maple;no centercheck;30cook40total",
+      "after": "Same18–20+8–10windows;nearlytenderbeforemaple/knife-tenderend/watchblackening;26–30cook36–40total",
+      "rationale": "Preserve bothstages andall2tbspmaple/3tbspoil. Currentclock isplanningwithdoneness rather than stickyglazecertifyingcookedcenter. No earlysugarorhealth-drivenglazyreduction.",
+      "evidence": ["input original", "2a7f3853 committed origin"],
+      "confidence": "high",
+      "question": null
+    },
+    {
+      "category": "source confidence and equipment",
+      "before": "originUS;childrenwillmakeitdisappear;brushrequirednotinequipment",
+      "after": "No unsupportedrecipeorigin/popularityclaim;actualbrush/spatula/sheets listed",
+      "rationale": "No exact author/publisherformulaattributionexists. PreserveAmericanstylecollectionmetadata but no inventedUSinvention history.",
+      "evidence": ["recipe standard", "input original"],
+      "confidence": "moderate",
+      "question": null
+    },
+    {
+      "category": "nutrition and authored learning",
+      "before": "Legacy unverified nutrition; no authored learning or formula",
+      "after": "Nutrition removed; authored formula and recipe-specific learning added, with compiled ingredients, yield and Directions. See exact changedFields for the full original and replacement values.",
+      "rationale": "Delete unsupported legacy nutrition without replacement; publish ingredient allocations, checkpoints, troubleshooting, timing/storage and applicable method sources. Formula portion count preserves the current serving suggestion, not an invented finished-weight yield. Saved formulas and exact edits are independently traceable below.",
+      "evidence": ["recipe standard", "structured authoring standard", "input original"],
+      "confidence": "high",
+      "question": null
+    }
+  ],
+  "originalIngredientLedger": [
+    {
+      "ingredient": "2 lbs Sweet Potatoes, scrubbed",
+      "destination": "Sweetpotatosscrubbed/skin-onwedges/dry/roast."
+    },
+    {
+      "ingredient": "3 tbsp Olive Oil",
+      "destination": "Oliveoil allwholebatchcoating."
+    },
+    {
+      "ingredient": "2 tbsp Pure Maple Syrup",
+      "destination": "Maplesyrup allwholebatchlatebrush."
+    },
+    {
+      "ingredient": "1/2 tsp Kosher Salt",
+      "destination": "Kosher salt wholebatchcoating."
+    },
+    {
+      "ingredient": "1/4 tsp Black Pepper",
+      "destination": "Blackpepper wholebatchcoating."
+    },
+    {
+      "ingredient": "1/2 tsp Smoked Paprika (optional)",
+      "destination": "Optionalsmokedpaprika withlatebrush,notlost."
+    },
+    {
+      "ingredient": "Flaky Sea Salt for finishing",
+      "destination": "Flakysalt to tasteafterroast."
+    }
+  ],
+  "ingredientLedger": [
+    {
+      "ingredient": "wedges.potatoes",
+      "name": "sweet potatoes",
+      "quantity": {
+        "amount": 2,
+        "unit": "lb"
+      },
+      "allowance": null,
+      "preparation": "scrubbed, skin left on and cut lengthwise into wedges about ½ inch thick",
+      "optional": false,
+      "role": "ingredient",
+      "destinations": [
+        {
+          "step": "toss",
+          "share": 1
+        }
+      ],
+      "allocation": "sum exactly one; an unmeasured allowance has one named destination"
+    },
+    {
+      "ingredient": "wedges.oil",
+      "name": "olive oil",
+      "quantity": {
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      "allowance": null,
+      "preparation": null,
+      "optional": false,
+      "role": "ingredient",
+      "destinations": [
+        {
+          "step": "toss",
+          "share": 1
+        }
+      ],
+      "allocation": "sum exactly one; an unmeasured allowance has one named destination"
+    },
+    {
+      "ingredient": "wedges.salt",
+      "name": "kosher salt",
+      "quantity": {
+        "amount": "1/2",
+        "unit": "tsp"
+      },
+      "allowance": null,
+      "preparation": null,
+      "optional": false,
+      "role": "ingredient",
+      "destinations": [
+        {
+          "step": "toss",
+          "share": 1
+        }
+      ],
+      "allocation": "sum exactly one; an unmeasured allowance has one named destination"
+    },
+    {
+      "ingredient": "wedges.pepper",
+      "name": "black pepper",
+      "quantity": {
+        "amount": "1/4",
+        "unit": "tsp"
+      },
+      "allowance": null,
+      "preparation": null,
+      "optional": false,
+      "role": "ingredient",
+      "destinations": [
+        {
+          "step": "toss",
+          "share": 1
+        }
+      ],
+      "allocation": "sum exactly one; an unmeasured allowance has one named destination"
+    },
+    {
+      "ingredient": "glaze.maple",
+      "name": "pure maple syrup",
+      "quantity": {
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      "allowance": null,
+      "preparation": null,
+      "optional": false,
+      "role": "ingredient",
+      "destinations": [
+        {
+          "step": "glaze",
+          "share": 1
+        }
+      ],
+      "allocation": "sum exactly one; an unmeasured allowance has one named destination"
+    },
+    {
+      "ingredient": "glaze.paprika",
+      "name": "smoked paprika",
+      "quantity": {
+        "amount": "1/2",
+        "unit": "tsp"
+      },
+      "allowance": null,
+      "preparation": null,
+      "optional": true,
+      "role": "ingredient",
+      "destinations": [
+        {
+          "step": "glaze",
+          "share": 1
+        }
+      ],
+      "allocation": "sum exactly one; an unmeasured allowance has one named destination"
+    },
+    {
+      "ingredient": "finish.finish-salt",
+      "name": "flaky sea salt",
+      "quantity": null,
+      "allowance": "a pinch, to taste at serving",
+      "preparation": null,
+      "optional": false,
+      "role": "ingredient",
+      "destinations": [
+        {
+          "step": "serve",
+          "share": 1
+        }
+      ],
+      "allocation": "sum exactly one; an unmeasured allowance has one named destination"
+    }
+  ],
+  "variationLedger": [],
+  "variations": [],
+  "ratiosYieldCapacity": "Two pounds sweetpotatoes/3tbspoil/2tbspPUREmaple/½tspkosher/¼tsppepper/optional½smokedpaprika/flakyfinish;fourcurrentportions retained. Alloil+maple retained, nohealth/crispness-driven reduction. No invented wedgecount/potatosize/panweightcapacity.",
+  "processAndHandling": "Scrubskin-on/cut½inchwedgesdry →wholebatchcoat →onecutfacedownsinglelayer →18–20firstwindow untilnearlytender →flipothercutface/brushwhole2tbspmaple+optionalpaprika →8–10watchscorchandknife-tender →tasteflakyfinishwarm. No addedacid,searorparboil.",
+  "timing": "About 10 minutes preparation plus 18–20 minutes first roast and 8–10 minutes maple finish is a 36–40-minute prep-and-roast subtotal. Start heating during preparation, but load only once the oven reaches 425°F; any heating still needed after prep extends elapsed time. Firm centers may need longer before glazing. Turning/brushing is active work during the roast; no rest is required. Extra sheets/batches extend elapsed time rather than multiplying the two oven windows.",
+  "storage": "Refrigerate promptly in shallow covered containers within 2 hours, or 1 hour above 90°F / 32°C, at 40°F / 4°C or below; use within 3–4 days. Reheat leftovers to 165°F. The maple coating becomes softer and stickier in covered storage. Reheat with space around the wedges and watch the syrup while checking the safe reheating endpoint.",
+  "relationships": {
+    "pairsWith": [
+      "chicken-tinga",
+      "thai-basil-chicken-pad-kra-pao",
+      "sausage-and-white-bean-skillet"
+    ],
+    "composedMeals": [],
+    "mealApplicability": "No composed meal references this slug. Existing pairing links remain suggestions, not ingredient quantities or shared-pan safety certification.",
+    "distinctVariants": "Current formula/options retained; no consolidation or identity reassignment."
+  },
+  "changedFields": [
+    {
+      "field": "origin",
+      "before": "United States",
+      "after": null,
+      "rationale": "No evidence establishes a geographic origin for this particular recipe; existing cultural/style cuisine tags remain.",
+      "applicableSource": "docs/editorial-campaign/2026-10-05/roasted-vegetables-sources.json",
+      "confidence": "Moderate for untested kitchen behavior; high for exact source text and bounded arithmetic/handling corrections.",
+      "unresolvedQuestions": [
+        "Check consistent approximately half-inch wedges and nearly tender centers in the first stage.",
+        "Check sheet footprint and cut-face browning for two pounds.",
+        "Observe full maple/optional paprika through the final stage, and record oven readiness without promising fried crispness."
+      ]
+    },
+    {
+      "field": "equipment",
+      "before": ["baking-sheet"],
+      "after": ["rimmed-baking-sheets", "mixing-bowl", "pastry-brush", "spatula"],
+      "rationale": "Complete whole-source review preserves supported character while adding directly applicable cooking guidance.",
+      "applicableSource": "docs/editorial-campaign/2026-10-05/roasted-vegetables-sources.json",
+      "confidence": "Moderate for untested kitchen behavior; high for exact source text and bounded arithmetic/handling corrections.",
+      "unresolvedQuestions": [
+        "Check consistent approximately half-inch wedges and nearly tender centers in the first stage.",
+        "Check sheet footprint and cut-face browning for two pounds.",
+        "Observe full maple/optional paprika through the final stage, and record oven readiness without promising fried crispness."
+      ]
+    },
+    {
+      "field": "cookTime",
+      "before": "30 min",
+      "after": "26–30 min, or until tender",
+      "rationale": "Planning ranges follow current cooking windows and actual remaining preheating, with sensory endpoints and extra-batch time.",
+      "applicableSource": "docs/editorial-campaign/2026-10-05/roasted-vegetables-sources.json",
+      "confidence": "Moderate for untested kitchen behavior; high for exact source text and bounded arithmetic/handling corrections.",
+      "unresolvedQuestions": [
+        "Check consistent approximately half-inch wedges and nearly tender centers in the first stage.",
+        "Check sheet footprint and cut-face browning for two pounds.",
+        "Observe full maple/optional paprika through the final stage, and record oven readiness without promising fried crispness."
+      ]
+    },
+    {
+      "field": "totalTime",
+      "before": "40 min",
+      "after": "36–40 min, plus any remaining preheating",
+      "rationale": "Planning ranges follow current cooking windows and actual remaining preheating, with sensory endpoints and extra-batch time.",
+      "applicableSource": "docs/editorial-campaign/2026-10-05/roasted-vegetables-sources.json",
+      "confidence": "Moderate for untested kitchen behavior; high for exact source text and bounded arithmetic/handling corrections.",
+      "unresolvedQuestions": [
+        "Check consistent approximately half-inch wedges and nearly tender centers in the first stage.",
+        "Check sheet footprint and cut-face browning for two pounds.",
+        "Observe full maple/optional paprika through the final stage, and record oven readiness without promising fried crispness."
+      ]
+    },
+    {
+      "field": "servings",
+      "before": "4",
+      "after": "4 portions",
+      "rationale": "Retains the inherited planning portion count and makes its scaling explicit; no finished weight or measured yield is asserted.",
+      "applicableSource": "docs/editorial-campaign/2026-10-05/roasted-vegetables-sources.json",
+      "confidence": "High for exact source/compilation; planning portions and kitchen behavior remain untested.",
+      "unresolvedQuestions": [
+        "Check consistent approximately half-inch wedges and nearly tender centers in the first stage.",
+        "Check sheet footprint and cut-face browning for two pounds.",
+        "Observe full maple/optional paprika through the final stage, and record oven readiness without promising fried crispness."
+      ]
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "2 lbs Sweet Potatoes, scrubbed",
+        "3 tbsp Olive Oil",
+        "2 tbsp Pure Maple Syrup",
+        "1/2 tsp Kosher Salt",
+        "1/4 tsp Black Pepper",
+        "1/2 tsp Smoked Paprika (optional)",
+        "Flaky Sea Salt for finishing"
+      ],
+      "after": [
+        "--- Sweet potato wedges ---",
+        "2 lb sweet potatoes, scrubbed, skin left on and cut lengthwise into wedges about ½ inch thick",
+        "3 tbsp olive oil",
+        "1/2 tsp kosher salt",
+        "1/4 tsp black pepper",
+        "--- Maple glaze ---",
+        "2 tbsp pure maple syrup",
+        "1/2 tsp smoked paprika, optional",
+        "--- Finish ---",
+        "flaky sea salt, a pinch, to taste at serving"
+      ],
+      "rationale": "Preserves or restores the exact source-supported ingredient totals and distinct variants, with explicit full-batch allocation, geometry and sensory endpoints; authored formula regenerates ingredients, yield and directions together.",
+      "applicableSource": "docs/editorial-campaign/2026-10-05/roasted-vegetables-sources.json",
+      "confidence": "High for exact source/compilation; planning portions and kitchen behavior remain untested.",
+      "unresolvedQuestions": [
+        "Check consistent approximately half-inch wedges and nearly tender centers in the first stage.",
+        "Check sheet footprint and cut-face browning for two pounds.",
+        "Observe full maple/optional paprika through the final stage, and record oven readiness without promising fried crispness."
+      ]
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 170,
+        "protein": 1.5,
+        "carbs": 19,
+        "fat": 10.5,
+        "fiber": 2,
+        "sugar": 9,
+        "sodium": 1190
+      },
+      "after": null,
+      "rationale": "Unsupported legacy nutrition is removed without inventing replacement values.",
+      "applicableSource": "docs/editorial-campaign/2026-10-05/roasted-vegetables-sources.json",
+      "confidence": "High for exact source/compilation; planning portions and kitchen behavior remain untested.",
+      "unresolvedQuestions": [
+        "Check consistent approximately half-inch wedges and nearly tender centers in the first stage.",
+        "Check sheet footprint and cut-face browning for two pounds.",
+        "Observe full maple/optional paprika through the final stage, and record oven readiness without promising fried crispness."
+      ]
+    },
+    {
+      "field": "formula",
+      "before": null,
+      "after": {
+        "version": 1,
+        "yield": {
+          "amount": 4,
+          "unit": "portion"
+        },
+        "components": [
+          {
+            "id": "wedges",
+            "name": "Sweet potato wedges",
+            "ingredients": [
+              {
+                "id": "potatoes",
+                "key": "potatoes",
+                "name": "sweet potatoes",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "lb"
+                },
+                "preparation": "scrubbed, skin left on and cut lengthwise into wedges about ½ inch thick",
+                "uses": [
+                  {
+                    "step": "toss",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "oil",
+                "key": "oil",
+                "name": "olive oil",
+                "quantity": {
+                  "amount": 3,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "toss",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "salt",
+                "key": "salt",
+                "name": "kosher salt",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "toss",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "pepper",
+                "key": "pepper",
+                "name": "black pepper",
+                "quantity": {
+                  "amount": "1/4",
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "toss",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "glaze",
+            "name": "Maple glaze",
+            "ingredients": [
+              {
+                "id": "maple",
+                "key": "maple",
+                "name": "pure maple syrup",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "glaze",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "paprika",
+                "key": "paprika",
+                "name": "smoked paprika",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "tsp"
+                },
+                "optional": true,
+                "uses": [
+                  {
+                    "step": "glaze",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "finish",
+            "name": "Finish",
+            "ingredients": [
+              {
+                "id": "finish-salt",
+                "key": "finish-salt",
+                "name": "flaky sea salt",
+                "allowance": "a pinch, to taste at serving",
+                "uses": [
+                  {
+                    "step": "serve",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "id": "prep",
+            "title": "Heat and cut",
+            "text": "Heat the oven to 425°F. Use a large rimmed baking sheet or enough sheets for the measured wedges; if lining, use parchment rated for this heat or suitable foil. Scrub the sweet potatoes under running water, leave the skins on and cut lengthwise into wedges about ½ inch thick, with a skin edge and flat cut faces. Dry the cut surfaces. Make wedges rather than parallel planks."
+          },
+          {
+            "id": "toss",
+            "title": "Coat and arrange",
+            "text": "Toss {{ingredients}} in a large bowl until the wedges are evenly coated. Arrange in one layer on a flat cut face, with space between wedges. The measured oil and seasonings coat the full batch, not each sheet."
+          },
+          {
+            "id": "first-roast",
+            "title": "Brown the first face",
+            "text": "Roast for 18–20 minutes. Lift a wedge to check the underside for golden browning; test a thick center for softening. If still hard, continue the unglazed roast before adding maple. The final stage should finish nearly tender wedges, rather than leave syrup to scorch while a raw center cooks."
+          },
+          {
+            "id": "glaze",
+            "title": "Turn and brush",
+            "text": "Turn the wedges onto another cut face and set out {{ingredients}}. Brush the syrup across all the wedges, using the whole measured maple amount for the full batch. Sprinkle the optional paprika over them if using. Keep the thin glaze on the wedges rather than pouring a pool onto the empty pan."
+          },
+          {
+            "id": "final-roast",
+            "title": "Finish and watch the maple",
+            "text": "Return to the oven for 8–10 minutes, checking the maple closely. Centers should be easily pierced and the glaze bubbling and browned, without blackened sugar. Remove ready wedges sooner if they darken quickly. The two stages normally total 26–30 minutes, but thicker pieces or extra sheets may need longer before glazing."
+          },
+          {
+            "id": "serve",
+            "title": "Taste and serve",
+            "text": "Transfer to a serving dish and use {{ingredients}} if needed after tasting. Serve warm; expect tender centers and browned, sticky edges rather than guaranteed fry-like crispness."
+          }
+        ]
+      },
+      "rationale": "Preserves or restores the exact source-supported ingredient totals and distinct variants, with explicit full-batch allocation, geometry and sensory endpoints; authored formula regenerates ingredients, yield and directions together.",
+      "applicableSource": "docs/editorial-campaign/2026-10-05/roasted-vegetables-sources.json",
+      "confidence": "High for exact source/compilation; planning portions and kitchen behavior remain untested.",
+      "unresolvedQuestions": [
+        "Check consistent approximately half-inch wedges and nearly tender centers in the first stage.",
+        "Check sheet footprint and cut-face browning for two pounds.",
+        "Observe full maple/optional paprika through the final stage, and record oven readiness without promising fried crispness."
+      ]
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Apply maple after the sweet potato has nearly cooked",
+        "outcome": "Tender skin-on wedges with browned cut faces and an evenly brushed maple finish, with optional smoky paprika.",
+        "techniques": ["browning"],
+        "before": [
+          "Cut lengthwise wedges about ½ inch thick, with two flat cut faces and a skin edge.",
+          "Keep enough pan area for the measured potatoes without piling. Start a flat cut face against the sheet, then turn to another face.",
+          "The measured maple and optional paprika are for the whole batch, not each sheet."
+        ],
+        "checkpoints": [
+          {
+            "step": 3,
+            "cue": "First face has browned and a thick center is softening before syrup is added.",
+            "why": "The unglazed stage should do most of the cooking so the final sugar stage stays brief."
+          },
+          {
+            "step": 4,
+            "cue": "The measured maple has been brushed across all the wedges, not doubled for another sheet.",
+            "why": "A thin distributed coating is the intended full-batch use."
+          },
+          {
+            "step": 5,
+            "cue": "Knife enters the center easily; the maple is browned but not black.",
+            "why": "A sticky dark surface alone does not establish tenderness, and burnt syrup is bitter."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Maple blackens while centers are hard",
+            "cause": "Wedges were too thick or glazed before the unglazed stage nearly cooked them.",
+            "fix": "Continue firm wedges before adding syrup next time; remove ready ones promptly in the final stage rather than force the full clock."
+          },
+          {
+            "problem": "Only the narrow skin edge browned",
+            "cause": "Wedges sat skin-side down despite the flat-face browning goal.",
+            "fix": "Lay on a cut face and turn to the other cut face during the maple step."
+          },
+          {
+            "problem": "Wedges soften instead of staying crisp",
+            "cause": "The potatoes and syrup make tender, sticky edges, especially after storage.",
+            "fix": "Serve freshly roasted for the best browned surfaces; the maple finish gives tender, sticky edges."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Optional smoked paprika",
+            "alternative": "Omit it",
+            "effect": "Keeps the maple finish without smoke; use all the same syrup and oil."
+          },
+          {
+            "ingredient": "Pure maple syrup",
+            "alternative": "A table syrup with different sugars and water",
+            "effect": "The glaze behaves differently; this formula is written for pure maple and does not supply an exact equivalent replacement."
+          }
+        ],
+        "timing": "About 10 minutes preparation plus 18–20 minutes first roast and 8–10 minutes maple finish is a 36–40-minute prep-and-roast subtotal. Start heating during preparation, but load only once the oven reaches 425°F; any heating still needed after prep extends elapsed time. Firm centers may need longer before glazing. Turning/brushing is active work during the roast; no rest is required. Extra sheets/batches extend elapsed time rather than multiplying the two oven windows.",
+        "storage": "Refrigerate promptly in shallow covered containers within 2 hours, or 1 hour above 90°F / 32°C, at 40°F / 4°C or below; use within 3–4 days. Reheat leftovers to 165°F. The maple coating becomes softer and stickier in covered storage. Reheat with space around the wedges and watch the syrup while checking the safe reheating endpoint.",
+        "sources": [
+          {
+            "title": "Bon Appétit — How to roast sweet potatoes",
+            "url": "https://www.bonappetit.com/story/how-to-roast-sweet-potatoes"
+          },
+          {
+            "title": "FDA — Selecting and Serving Produce Safely",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+          },
+          {
+            "title": "USDA FSIS — Leftovers and Food Safety",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-05"
+        }
+      },
+      "rationale": "Complete whole-source review preserves supported character while adding directly applicable cooking guidance.",
+      "applicableSource": "docs/editorial-campaign/2026-10-05/roasted-vegetables-sources.json",
+      "confidence": "Moderate for untested kitchen behavior; high for exact source text and bounded arithmetic/handling corrections.",
+      "unresolvedQuestions": [
+        "Check consistent approximately half-inch wedges and nearly tender centers in the first stage.",
+        "Check sheet footprint and cut-face browning for two pounds.",
+        "Observe full maple/optional paprika through the final stage, and record oven readiness without promising fried crispness."
+      ]
+    },
+    {
+      "field": "body",
+      "before": "\n## Chef's Note\n\nSweet potatoes are naturally sweet, so the trick is high heat roasting to caramelize their edges before the inside overcooks. Cutting them into wedges (not fries) means more surface area for caramelization. A brush of maple syrup in the last 10 minutes of cooking creates a lacquered, sticky-sweet glaze that concentrates the flavor. Kids recognize the maple-sugar combo and these disappear fast.\n\n## Directions\n\n1. **Prep:** Preheat oven to 425°F. Line a large baking sheet with parchment paper.\n2. **Cut:** Cut each sweet potato into wedges about 1/2-inch thick, lengthwise (like you're cutting a log into planks). Pat dry with paper towels - moisture prevents crisping.\n3. **Oil and Season:** Toss wedges with olive oil, salt, and pepper. Spread in a single layer on the sheet, skin-side down. Do not crowd - they need space to caramelize.\n4. **First Roast:** Bake for 18-20 minutes until the bottom is golden brown and crispy.\n5. **Glaze:** Flip the wedges. Brush the tops with maple syrup (use a pastry brush). Sprinkle with smoked paprika if using.\n6. **Finish Roast:** Return to oven for 8-10 minutes until the glaze is bubbling and caramelized. The edges should be dark brown and crispy.\n7. **Serve:** Remove and finish with a pinch of flaky sea salt. Serve warm.\n",
+      "after": "\n## Chef's Note\n\nBrown the sweet potato wedges on their cut faces before brushing on the maple syrup. The late glaze gives a sticky, sweet finish with less time to scorch; it still needs close attention during the final 8–10 minutes. Check a thick center before glazing and at the end so browned sugar is not mistaken for a cooked potato.\n\n## Directions\n\n1. **Heat and cut:** Heat the oven to 425°F. Use a large rimmed baking sheet or enough sheets for the measured wedges; if lining, use parchment rated for this heat or suitable foil. Scrub the sweet potatoes under running water, leave the skins on and cut lengthwise into wedges about ½ inch thick, with a skin edge and flat cut faces. Dry the cut surfaces. Make wedges rather than parallel planks.\n2. **Coat and arrange:** Toss sweet potatoes, olive oil, kosher salt, and black pepper in a large bowl until the wedges are evenly coated. Arrange in one layer on a flat cut face, with space between wedges. The measured oil and seasonings coat the full batch, not each sheet.\n3. **Brown the first face:** Roast for 18–20 minutes. Lift a wedge to check the underside for golden browning; test a thick center for softening. If still hard, continue the unglazed roast before adding maple. The final stage should finish nearly tender wedges, rather than leave syrup to scorch while a raw center cooks.\n4. **Turn and brush:** Turn the wedges onto another cut face and set out pure maple syrup and smoked paprika (if using). Brush the syrup across all the wedges, using the whole measured maple amount for the full batch. Sprinkle the optional paprika over them if using. Keep the thin glaze on the wedges rather than pouring a pool onto the empty pan.\n5. **Finish and watch the maple:** Return to the oven for 8–10 minutes, checking the maple closely. Centers should be easily pierced and the glaze bubbling and browned, without blackened sugar. Remove ready wedges sooner if they darken quickly. The two stages normally total 26–30 minutes, but thicker pieces or extra sheets may need longer before glazing.\n6. **Taste and serve:** Transfer to a serving dish and use flaky sea salt if needed after tasting. Serve warm; expect tender centers and browned, sticky edges rather than guaranteed fry-like crispness.\n",
+      "rationale": "Preserves or restores the exact source-supported ingredient totals and distinct variants, with explicit full-batch allocation, geometry and sensory endpoints; authored formula regenerates ingredients, yield and directions together.",
+      "applicableSource": "docs/editorial-campaign/2026-10-05/roasted-vegetables-sources.json",
+      "confidence": "Moderate for untested kitchen behavior; high for exact source text and bounded arithmetic/handling corrections.",
+      "unresolvedQuestions": [
+        "Check consistent approximately half-inch wedges and nearly tender centers in the first stage.",
+        "Check sheet footprint and cut-face browning for two pounds.",
+        "Observe full maple/optional paprika through the final stage, and record oven readiness without promising fried crispness."
+      ]
+    }
+  ],
+  "validation": {
+    "frozenCommitMatches": true,
+    "inputSha256": "3584ec674b636512261b9a4fad0ead8c8963595dcb3a761c4d244af8ce8fa1ab",
+    "identityTitleRatingSourceLinksPreserved": true,
+    "formulaSchema": "pass",
+    "compiledIngredientsYieldDirections": "pass",
+    "editorialAudit": {
+      "slug": "maple-roasted-sweet-potato-wedges",
+      "title": "Maple-Roasted Sweet Potato Wedges",
+      "status": "editorial-review",
+      "stepCount": 6,
+      "issues": []
+    },
+    "mainSourceStillFrozen": true,
+    "scaled": [
+      {
+        "factor": 0.5,
+        "ingredients": [
+          "--- Sweet potato wedges ---",
+          "1 lb sweet potatoes, scrubbed, skin left on and cut lengthwise into wedges about ½ inch thick",
+          "1 1/2 tbsp olive oil",
+          "1/4 tsp kosher salt",
+          "1/8 tsp black pepper",
+          "--- Maple glaze ---",
+          "1 tbsp pure maple syrup",
+          "1/4 tsp smoked paprika, optional",
+          "--- Finish ---",
+          "flaky sea salt, a pinch, to taste at serving"
+        ],
+        "yield": "2 portions",
+        "shoppingList": [
+          "1 lb sweet potatoes",
+          "1 1/2 tbsp olive oil",
+          "1/4 tsp kosher salt",
+          "1/8 tsp black pepper",
+          "1 tbsp pure maple syrup",
+          "1/4 tsp smoked paprika, optional",
+          "flaky sea salt, a pinch, to taste at serving"
+        ]
+      },
+      {
+        "factor": 1,
+        "ingredients": [
+          "--- Sweet potato wedges ---",
+          "2 lb sweet potatoes, scrubbed, skin left on and cut lengthwise into wedges about ½ inch thick",
+          "3 tbsp olive oil",
+          "1/2 tsp kosher salt",
+          "1/4 tsp black pepper",
+          "--- Maple glaze ---",
+          "2 tbsp pure maple syrup",
+          "1/2 tsp smoked paprika, optional",
+          "--- Finish ---",
+          "flaky sea salt, a pinch, to taste at serving"
+        ],
+        "yield": "4 portions",
+        "shoppingList": [
+          "2 lb sweet potatoes",
+          "3 tbsp olive oil",
+          "1/2 tsp kosher salt",
+          "1/4 tsp black pepper",
+          "2 tbsp pure maple syrup",
+          "1/2 tsp smoked paprika, optional",
+          "flaky sea salt, a pinch, to taste at serving"
+        ]
+      },
+      {
+        "factor": 2,
+        "ingredients": [
+          "--- Sweet potato wedges ---",
+          "4 lb sweet potatoes, scrubbed, skin left on and cut lengthwise into wedges about ½ inch thick",
+          "6 tbsp olive oil",
+          "1 tsp kosher salt",
+          "1/2 tsp black pepper",
+          "--- Maple glaze ---",
+          "4 tbsp pure maple syrup",
+          "1 tsp smoked paprika, optional",
+          "--- Finish ---",
+          "flaky sea salt, a pinch, to taste at serving"
+        ],
+        "yield": "8 portions",
+        "shoppingList": [
+          "4 lb sweet potatoes",
+          "6 tbsp olive oil",
+          "1 tsp kosher salt",
+          "1/2 tsp black pepper",
+          "4 tbsp pure maple syrup",
+          "1 tsp smoked paprika, optional",
+          "flaky sea salt, a pinch, to taste at serving"
+        ]
+      }
+    ],
+    "scalingCaveats": "Scale ingredient totals, not cut size, oven heat or clock. Keep single-layer geometry with sufficient sheets/batches; extra sheets/batches alter elapsed time. Genuine finishing allowances remain to taste.",
+    "currentCandidateHashChecks": {
+      "frozenHashMatches": true,
+      "frozenGitExact": true,
+      "originGitExact": true,
+      "proposalMatchesPeer": true,
+      "proposalMatchesRecord": true,
+      "proposalMatchesResults": true,
+      "protectedFieldsPreserved": true,
+      "formulaSchema": true,
+      "compiledIngredients": true,
+      "compiledYield": true,
+      "compiledDirections": true,
+      "changedFieldSetExact": true,
+      "changedFieldValuesExact": true,
+      "ledgerComplete": true
+    },
+    "integration": "Root acceptance and integrated build/presentation checks pending"
+  },
+  "kitchenQuestions": [
+    "Check consistent approximately half-inch wedges and nearly tender centers in the first stage.",
+    "Check sheet footprint and cut-face browning for two pounds.",
+    "Observe full maple/optional paprika through the final stage, and record oven readiness without promising fried crispness."
+  ],
+  "sourceEvidence": "roasted-vegetables-source-evidence.json",
+  "pendingRootGates": [],
+  "rootBoundedCorrections": {
+    "slug": "maple-roasted-sweet-potato-wedges",
+    "independentBaselineSha256": "0edd9c2ac59488663ac1ebac72d93b4eb73cf36ced297b885179c759c21266ba",
+    "rootCorrections": [
+      {
+        "field": "totalTime",
+        "before": "36–40 min",
+        "after": "36–40 min, plus any remaining preheating",
+        "rationale": "Account for actual oven heating without inventing a household preheat duration.",
+        "source": "Current preparation and roasting windows; actual oven target before loading.",
+        "confidence": "High for the bounded clarification; physical cooking remains untested."
+      },
+      {
+        "field": "learning.timing",
+        "before": "About 10 minutes preparation plus 18–20 minutes first roast and 8–10 minutes maple finish: roughly 36–40 minutes with preheating overlapping preparation. Firm centers may need longer before glazing. Turning/brushing is active work during the roast; no rest is required. Extra sheets/batches extend elapsed time rather than multiplying the two oven windows.",
+        "after": "About 10 minutes preparation plus 18–20 minutes first roast and 8–10 minutes maple finish is a 36–40-minute prep-and-roast subtotal. Start heating during preparation, but load only once the oven reaches 425°F; any heating still needed after prep extends elapsed time. Firm centers may need longer before glazing. Turning/brushing is active work during the roast; no rest is required. Extra sheets/batches extend elapsed time rather than multiplying the two oven windows.",
+        "rationale": "Account for actual oven heating without inventing a household preheat duration.",
+        "source": "Current preparation and roasting windows; actual oven target before loading.",
+        "confidence": "High for the bounded clarification; physical cooking remains untested."
+      },
+      {
+        "field": "learning.storage",
+        "before": "Refrigerate within two hours in shallow covered containers; use within 3–4 days. Reheat leftovers to 165°F. The maple coating becomes softer and stickier in covered storage. Reheat with space around the wedges and watch the syrup while checking the safe reheating endpoint.",
+        "after": "Refrigerate promptly in shallow covered containers within 2 hours, or 1 hour above 90°F / 32°C, at 40°F / 4°C or below; use within 3–4 days. Reheat leftovers to 165°F. The maple coating becomes softer and stickier in covered storage. Reheat with space around the wedges and watch the syrup while checking the safe reheating endpoint.",
+        "rationale": "General cooked-leftover guidance; no preservation or measured shelf-life guarantee.",
+        "source": [
+          {
+            "title": "FDA — Safe Food Handling",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+            "access": "Narrow primary page rechecked on 2026-10-05; chill guidance and leftovers temperature table read",
+            "applicability": "Other perishables within 2 hours/1 hour above 90°F, refrigerator 40°F or below, shallow leftovers; measured 165°F leftovers reheat. Does not establish acid preservation or recipe-specific shelf life."
+          },
+          {
+            "title": "USDA FSIS — Leftovers and Food Safety",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety",
+            "access": "Existing author/peer evidence reused; this narrow direct recheck returned 403. Official indexed USDA text corroborates hot-ambient limit, rapid shallow cooling and 40°F storage.",
+            "applicability": "General cooked leftovers, including cooked side dishes; retain current 3–4-day guidance rather than infer preservation from vinegar or sugar."
+          },
+          {
+            "title": "USDA FSIS — Keep Food Safe",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/steps-keep-food-safe",
+            "access": "Official indexed primary text checked on 2026-10-05",
+            "applicability": "Most cooked leftovers 3–4 days at refrigerator 40°F or below; no guarantee this kitchen met handling conditions."
+          },
+          {
+            "title": "FDA — Selecting and Serving Produce Safely",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely",
+            "access": "Narrow primary recheck read 2026-10-05",
+            "applicability": "Perishable fresh herb/leaf finishes at 40°F or below and clean separation; not itself a 3–4-day cooked-side shelf-life source."
+          }
+        ],
+        "confidence": "High for the bounded clarification; physical cooking remains untested."
+      },
+      {
+        "field": "learning.before.0",
+        "before": "Cut wedges about ½ inch thick, with two flat cut faces; “planks” describe a different cut.",
+        "after": "Cut lengthwise wedges about ½ inch thick, with two flat cut faces and a skin edge.",
+        "rationale": "Use direct cooking prose while retaining the same action, quantities, sensory cue and caution.",
+        "confidence": "High; no culinary route or amount changed."
+      },
+      {
+        "field": "learning.troubleshooting.2.fix",
+        "before": "Serve freshly roasted for the best browned surfaces; do not add more oil or remove maple merely to promise a fried-potato texture.",
+        "after": "Serve freshly roasted for the best browned surfaces; the maple finish gives tender, sticky edges.",
+        "rationale": "Use direct cooking prose while retaining the same action, quantities, sensory cue and caution.",
+        "confidence": "High; no culinary route or amount changed."
+      }
+    ],
+    "formulaAmountsAndUsesUnchanged": true,
+    "generatedIngredientsYieldDirectionsRegeneratedTogether": true,
+    "correctedSha256": "1c9559a7e891f44b2482adf4ff815bc170c73c2701eb2c771227bd2e0ce45ca3",
+    "baselineReconstructionExact": true,
+    "protectedFieldsPreserved": true,
+    "generatedParity": true,
+    "rootWholeAcceptance": "accepted after independent final bounded check and root whole inspection"
+  },
+  "acceptedSourceSha256": "1c9559a7e891f44b2482adf4ff815bc170c73c2701eb2c771227bd2e0ce45ca3",
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/roasted-vegetables-independent.md",
+  "independentFinalSha256": "5aaebd74e77396ef2f8c7d0f470e965b354c27328992e32ceca32b909b9954f7",
+  "rootWholeInspection": "Complete frozen and proposed recipe, exact Git original, historical repairs, source disagreements, every ingredient and retained variation, pan geometry, sensory endpoints, timing, storage, scaling and linked meals inspected.",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "productionVerification": "pending"
+}
