@@ -1,0 +1,77 @@
+{
+  "verifiedAt": "2026-10-05T15:59:28.201Z",
+  "expectedArchive": "exports/paprika-sync-2026-10-05/mise-paprika-synced.paprikarecipes",
+  "freshArchive": "exports/paprika-sync-2026-10-05/verified-paprika-library.paprikarecipes",
+  "expectedArchiveSha256": "39cc6e76a03645d7bdc0da26f1ba8a55a0c9144e6f5c01d157868c566180cc4e",
+  "freshArchiveSha256": "120c67ac0184f4ffd61419dc83caa15d57a5950b89c205300a1680e2cda634e2",
+  "importDialog": {
+    "added": 203,
+    "updated": 450,
+    "evidence": "User screenshot, October 5, 2026, 11:54:14 AM"
+  },
+  "matched": true,
+  "expectedRecords": 653,
+  "actualRecords": 653,
+  "uniqueActualUids": 653,
+  "differences": [],
+  "categoryLabelDuplicates": [
+    {
+      "uid": "E00B7A4D-2A46-4BE2-8149-8C99F311776D-3413-00000208337B8881",
+      "name": "Banana Oat Greek Yogurt Muffins",
+      "labels": ["Breakfast"]
+    },
+    {
+      "uid": "48A8A046-D443-43D0-B91F-BBC53937E118-826-00000069183ADCDD",
+      "name": "Blueberry Pancakes",
+      "labels": ["Breakfast"]
+    },
+    {
+      "uid": "A4427C08-6F2F-44B7-9ED9-5D69739C7E5B",
+      "name": "Buttermilk Waffles",
+      "labels": ["Breakfast"]
+    },
+    {
+      "uid": "CAD1B7B3-2BD5-4932-8BA8-8DBA37250A50-6354-0000138FA5F8E6C5",
+      "name": "Executive Granola",
+      "labels": ["Breakfast"]
+    },
+    {
+      "uid": "59AD78FC-B6C2-45A0-9FDF-C4DEE06F770E-42937-000070941A759C45",
+      "name": "Oatmeal Risotto",
+      "labels": ["Breakfast"]
+    },
+    {
+      "uid": "61A139B9-BDD5-4F13-BF6F-E8297822D31D-18381-00000FD8BDF2FD6B",
+      "name": "Peach Pie Biscuit Bombs",
+      "labels": ["Breakfast"]
+    },
+    {
+      "uid": "4704B3BD-3F98-49B5-BEAB-54D94B74C4E5-1093-000000B8F461EA86",
+      "name": "Pumpkin Breakfast Cookies",
+      "labels": ["Breakfast"]
+    },
+    {
+      "uid": "33A3415D-D037-4925-80FE-DA18DF21C57E-17637-000003C2810BDB87",
+      "name": "Drop Biscuits",
+      "labels": ["Breakfast"]
+    },
+    {
+      "uid": "9968230E-41F8-4F9B-96B3-47BB828FB9A0-13548-000008ED75E32C35",
+      "name": "Steel-Cut Oatmeal",
+      "labels": ["Breakfast"]
+    },
+    {
+      "uid": "264FA1F0-BA68-4294-8E25-67234E1775D0-1093-000000B8C36E3490",
+      "name": "Strawberry Quinoa Breakfast Bars",
+      "labels": ["Breakfast"]
+    },
+    {
+      "uid": "39CA8F77-B01C-4287-9751-5D73231AB080-2770-000001AAF38E0F06",
+      "name": "Belgian Waffles",
+      "labels": ["Breakfast"]
+    }
+  ],
+  "ratedRecords": 26,
+  "photoRecords": 389,
+  "comparisonPolicy": "Exact cooking fields, recipe identity set, ratings and photo payloads; category labels compared as sets, with duplicates reported separately."
+}

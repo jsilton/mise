@@ -11,6 +11,7 @@ import {
   writePaprika,
 } from '../sync-paprika.mjs';
 import { parseRecipeContent } from '../../src/lib/recipe-content.mjs';
+import { comparePaprika } from '../verify-paprika-sync.mjs';
 
 const recipe = (slug) => ({
   slug,
@@ -112,4 +113,34 @@ test('native archive round-trip preserves full records and rejects corrupt files
   } finally {
     await fs.rm(dir, { recursive: true, force: true });
   }
+});
+
+test('post-import comparison reports repeated category labels but rejects changed memberships', () => {
+  const repeated = { ...original, categories: ['Favorites', 'Favorites'] };
+  const result = comparePaprika([original], [repeated]);
+  assert.equal(result.matched, true);
+  assert.deepEqual(result.categoryLabelDuplicates, [
+    { uid: original.uid, name: original.name, labels: ['Favorites'] },
+  ]);
+  assert.equal(comparePaprika([original], [{ ...original, categories: ['Other'] }]).matched, false);
+  assert.equal(comparePaprika([original], [{ ...original, categories: [] }]).matched, false);
+});
+
+test('post-import verification rejects cooking, photo, rating and identity changes', () => {
+  for (const field of [
+    'description',
+    'ingredients',
+    'directions',
+    'notes',
+    'rating',
+    'photo_data',
+    'photo_hash',
+  ]) {
+    const actual = { ...original, [field]: 'changed' };
+    assert.equal(comparePaprika([original], [actual]).matched, false, field);
+  }
+  assert.equal(comparePaprika([original], [{ ...original, photos: [] }]).matched, false);
+  assert.equal(comparePaprika([original], [{ ...original, uid: 'NEW' }]).matched, false);
+  assert.equal(comparePaprika([original], [original, original]).matched, false);
+  assert.equal(comparePaprika([], []).matched, false);
 });

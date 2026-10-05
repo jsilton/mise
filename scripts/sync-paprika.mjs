@@ -162,6 +162,7 @@ export async function syncPaprika(source, destination = 'exports/paprika-sync-20
     photoRecordsPreserved: originals.filter((r) => r.photo_data || r.photo || r.photos?.length)
       .length,
     inAppImportVerified: false,
+    postImportExportVerified: false,
     productionDeploymentVerified: false,
   };
   await fs.writeFile(
