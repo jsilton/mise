@@ -25,3 +25,7 @@ The source-only dessert commit omitted derived exports. JSON and combined text a
 Local browser checks cover peach half/double/reset ingredients, the original-batch method warning, ingredient checklist, cooking mode exit, step persistence and reset. Mobile layout has no horizontal overflow at the tested narrow viewport. Strawberry compound sugar doubles correctly and resets. Published rendered content was inspected for all five desserts. The print-button interaction timed out in the in-app browser; no successful print-preview check is claimed. Print CSS remains unchanged. Physical cooking was not performed.
 
 Legacy method sugar allocations and tempering amounts remain literal original-batch quantities; the scaler explicitly warns that only ingredients change. This release does not certify scaled methods. Cooling time, ice cream maker capacity, yield and final texture remain kitchen questions. The pressure-cooker and kimchi holds remain unchanged, including the prohibition on guessed liquid and an invented kimchi rinse.
+
+## Approved follow-up publication
+
+Jordan explicitly approved committing and publishing the prepared follow-up. It landed as `e922e95ee275aee6289e7225914045d273154791`; Pages run 37357883735 succeeded. The proportional fruit allocation and waiting-custard cold holding were verified on the live peach page. Refreshed exports and review accounting are committed; no native-app import or kitchen test occurred.

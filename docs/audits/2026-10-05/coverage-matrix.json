@@ -8401,25 +8401,29 @@
         "record": null,
         "recordImplementationCommit": null
       },
-      "latestRecipeCommit": "f684c89f9a5f82ddef2ad4e20a977aa002a5e629",
+      "latestRecipeCommit": "e922e95ee275aee6289e7225914045d273154791",
       "acceptedChange": "accepted accelerated targeted repair",
       "implementationCommits": [
         {
           "commit": "f684c89f9a5f82ddef2ad4e20a977aa002a5e629",
           "evidence": "exact retained 11-file checkpoint verified against published blobs",
           "scope": "accelerated targeted repair"
+        },
+        {
+          "commit": "e922e95ee275aee6289e7225914045d273154791",
+          "evidence": "docs/audits/2026-10-05/dessert-continuation.md",
+          "scope": "proportional fruit batching and cold holding; export synchronization"
         }
       ],
       "productionVerification": {
-        "status": "exact deployment succeeded and live affected page verified in browser",
-        "commit": "f684c89f9a5f82ddef2ad4e20a977aa002a5e629",
-        "run": "https://github.com/jsilton/mise/actions/runs/37352573625"
+        "status": "follow-up exact deployment and live peach prose verified",
+        "commit": "e922e95ee275aee6289e7225914045d273154791",
+        "run": "https://github.com/jsilton/mise/actions/runs/37357883735"
       },
       "remainingQuestions": [
         "Complete editorial review pending; automated absence of flags is not approval.",
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck.",
-        "Actual cooling, machine capacity, yield and texture remain untested. Legacy method quantities remain original-batch quantities.",
-        "Independently accepted proportional fruit batching/cold-holding clarification prepared locally; not published."
+        "Actual cooling, machine capacity, yield and texture remain untested. Legacy method quantities remain original-batch quantities."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
