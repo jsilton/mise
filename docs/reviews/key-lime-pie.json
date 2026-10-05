@@ -1,6 +1,6 @@
 {
   "slug": "key-lime-pie",
-  "status": "accepted-editorial-review; production verification pending",
+  "status": "accepted-editorial-review; production-verified",
   "inputSha256": "3b3fced85c8bdeea46f6d3c1c6e23ffbade4681e326ef1954d4793e8e9146fe9",
   "acceptedSha256": "1e0ef712c72ff5e4ed9fb3f7c27eae65043a691fa8c5ba0dd1cbcb33ddef1965",
   "notKitchenTested": true,
@@ -114,5 +114,11 @@
       "before": "\n## Chef's Note\n\nWhisk the yolks into condensed milk, then add lime juice for a smooth, tart filling. Acid thickens the mixture but does not replace cooking the eggs. Bake to the measured center temperature, then chill long enough for clean slices.\n\n## Directions\n\n1.  **The Crust:** Preheat oven to 350°F. Stir together crumbs, sugar, and melted butter until it looks like wet sand. Press firmly into the bottom and up the sides of a 9-inch glass pie plate with about 4 cups capacity. Bake for 10 minutes. Let cool.\n2.  **The Emulsion:** In a large bowl, whisk the condensed milk and egg yolks until pale and thick.\n3.  **The Bind:** Slowly whisk in the key lime juice - the mixture will noticeably thicken.\n4.  **Bake:** Pour the filling into the cooled crust. Begin checking after 15 minutes and continue until the center reaches 160°F / 71°C, with set edges and a slight central wobble.\n5.  **The Finish:** Cool on a rack, then refrigerate promptly, within 2 hours of baking (1 hour above 90°F). Cover once cool and chill for **at least 8 hours** before slicing.\n6.  **The Crown:** Just before serving, whip the heavy cream and powdered sugar until stiff peaks form.\n7.  **Serve:** Mound the cream over the pie. Garnish with lime zest.\n",
       "after": "\n## Chef's Note\n\nWhisk the yolks into condensed milk, then add lime juice for a smooth, tart filling. Lime juice thickens the mixture, but acidity does not replace cooking the eggs. Bake to the measured center temperature, then chill long enough for clean slices.\n\n## Directions\n\n1.  **The Crust:** Preheat oven to 350°F. Stir together crumbs, sugar, and melted butter until it looks like wet sand. Press firmly into the bottom and up the sides of a 9-inch glass pie plate with about 4 cups capacity. Bake for 10 minutes. Let cool.\n2.  **The Emulsion:** In a large bowl, whisk the condensed milk and egg yolks until pale and thick.\n3.  **The Bind:** Slowly whisk in the key lime juice - the mixture will noticeably thicken.\n4.  **Bake:** Pour the filling into the cooled crust. Begin checking after 15 minutes and continue until the center reaches 160°F / 71°C, with set edges and a slight central wobble.\n5.  **The Finish:** Cool on a rack, then refrigerate promptly, within 2 hours of baking (1 hour above 90°F). Cover once cool and chill for **at least 8 hours** before slicing.\n6.  **The Crown:** Just before serving, whip the heavy cream and powdered sugar until stiff peaks form.\n7.  **Serve:** Mound the cream over the pie. Garnish with lime zest.\n"
     }
-  ]
+  ],
+  "productionVerification": {
+    "releaseCommit": "b1435040e374619f1c5d73cf73cf9f3d19f1384a",
+    "deploymentRun": 37365807822,
+    "url": "https://jordansilton.com/mise/recipes/key-lime-pie/?release=b1435040e374619f1c5d73cf73cf9f3d19f1384a",
+    "verifiedAt": "2026-10-05T19:55:44.602905+00:00"
+  }
 }

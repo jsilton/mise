@@ -1,6 +1,6 @@
 {
   "slug": "custard-peach-ice-cream",
-  "status": "accepted-editorial-review; production verification pending",
+  "status": "accepted-editorial-review; production-verified",
   "inputSha256": "dc826a39bda588b1f44d111ba472a42fa38f8d6c4617201da56a0483bcf15d39",
   "acceptedSha256": "1a718f9c36c3a77255116e7b052fdab30e685a4dbae2aee1c00ff6ad4059ca7d",
   "notKitchenTested": true,
@@ -116,5 +116,11 @@
       "before": ["steam"],
       "after": ["simmer"]
     }
-  ]
+  ],
+  "productionVerification": {
+    "releaseCommit": "b1435040e374619f1c5d73cf73cf9f3d19f1384a",
+    "deploymentRun": 37365807822,
+    "url": "https://jordansilton.com/mise/recipes/custard-peach-ice-cream/?release=b1435040e374619f1c5d73cf73cf9f3d19f1384a",
+    "verifiedAt": "2026-10-05T19:55:44.602905+00:00"
+  }
 }

@@ -1124,3 +1124,7 @@ Local validation: 252/252 tests; 30/30 aggregate QA; 643 recipes validated; 15 a
 All ten built pages were inspected for complete cooking prose and at 375px mobile width with no horizontal overflow. Eight recipes passed half/double/reset ingredient checks; Garlic Parmesan combined butter shopping totals were 7 tbsp original, 3.5 tbsp half and 14 tbsp double. Ingredient checklist and cook-mode entry/exit passed. Print invocation stalled in the in-app browser; a successful print preview is not claimed. No print styles or interaction code changed.
 
 Exact remote commit and deployment evidence will be appended after publication. Public records omit native identity values and archives; exact original evidence and identity bindings remain privately retained.
+
+## Verified publication
+
+Accepted ten-recipe versions are live at `b1435040e374619f1c5d73cf73cf9f3d19f1384a`. [Pages deployment 37365807822](https://github.com/jsilton/mise/actions/runs/37365807822) succeeded; exact remote main and all ten affected pages were verified against distinguishing accepted cooking text. [Per-page evidence](first-ten-production.json). Verification time: 2026-10-05T19:55:44.602905+00:00. No native-app sync or physical kitchen testing.

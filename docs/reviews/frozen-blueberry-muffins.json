@@ -1,0 +1,882 @@
+{
+  "slug": "frozen-blueberry-muffins",
+  "status": "accepted-editorial-review; production verification pending",
+  "inputCommit": "e922e95ee275aee6289e7225914045d273154791",
+  "inputSha256": "85b265095dcff4a9c61d69c904f1c37a61e64b28515f2c0bba76d1d0f0cc20e7",
+  "changedFields": [
+    {
+      "field": "role",
+      "before": "main",
+      "after": "side"
+    },
+    {
+      "field": "vibe",
+      "before": "quick",
+      "after": "comfort"
+    },
+    {
+      "field": "prepTime",
+      "before": "10 min",
+      "after": "15 min"
+    },
+    {
+      "field": "cookTime",
+      "before": "20 min",
+      "after": "20–25 min"
+    },
+    {
+      "field": "totalTime",
+      "before": "30 min",
+      "after": "About 50 min (includes 10 min pan cooling)"
+    },
+    {
+      "field": "servings",
+      "before": "24",
+      "after": "24 pieces"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "4 cups All-Purpose Flour",
+        "2 cups Granulated Sugar (divided)",
+        "1 cup (2 sticks) Unsalted Butter, softened",
+        "4 large Eggs",
+        "1 cup 2% Milk",
+        "2 cups Frozen Unsweetened Blueberries",
+        "4 tsp Baking Powder",
+        "1/2 tsp Sea Salt",
+        "2 tsp Vanilla Extract",
+        "1/2 tsp Ground Nutmeg"
+      ],
+      "after": [
+        "--- Blueberry muffin batter ---",
+        "butter or neutral oil, for greasing the muffin cups if not using liners",
+        "1 cup (2 sticks) unsalted butter, softened",
+        "2 cups granulated sugar",
+        "4 large eggs, at room temperature",
+        "1 cup 2% milk",
+        "2 tsp vanilla extract",
+        "4 cups all-purpose flour",
+        "4 tsp baking powder",
+        "1/2 tsp sea salt",
+        "2 cups frozen unsweetened blueberries, keep frozen until folding",
+        "--- Nutmeg-sugar topping ---",
+        "2 tbsp granulated sugar",
+        "1/2 tsp ground nutmeg"
+      ]
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 160,
+        "protein": 3.5,
+        "carbs": 33.5,
+        "fat": 1,
+        "fiber": 0.5,
+        "sugar": 17.5,
+        "sodium": 190
+      },
+      "after": null
+    },
+    {
+      "field": "formula",
+      "before": null,
+      "after": {
+        "version": 1,
+        "yield": {
+          "amount": 24,
+          "unit": "piece"
+        },
+        "components": [
+          {
+            "id": "batter",
+            "name": "Blueberry muffin batter",
+            "ingredients": [
+              {
+                "id": "pan-fat",
+                "key": "butter-or-neutral-oil",
+                "name": "butter or neutral oil",
+                "allowance": "for greasing the muffin cups if not using liners",
+                "uses": [
+                  {
+                    "step": "prepare",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "butter",
+                "key": "unsalted-butter",
+                "name": "unsalted butter",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "cup"
+                },
+                "equivalents": [
+                  {
+                    "amount": 2,
+                    "unit": "stick"
+                  }
+                ],
+                "preparation": "softened",
+                "uses": [
+                  {
+                    "step": "cream",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "sugar",
+                "key": "sugar",
+                "name": "granulated sugar",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "cream",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "eggs",
+                "key": "eggs",
+                "name": "large egg",
+                "plural": "large eggs",
+                "quantity": {
+                  "amount": 4,
+                  "unit": "count"
+                },
+                "preparation": "at room temperature",
+                "uses": [
+                  {
+                    "step": "eggs",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "milk",
+                "key": "two-percent-milk",
+                "name": "2% milk",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "liquids",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "vanilla",
+                "key": "vanilla-extract",
+                "name": "vanilla extract",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "liquids",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "flour",
+                "key": "all-purpose-flour",
+                "name": "all-purpose flour",
+                "quantity": {
+                  "amount": 4,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "dry",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "baking-powder",
+                "key": "baking-powder",
+                "name": "baking powder",
+                "quantity": {
+                  "amount": 4,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "dry",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "salt",
+                "key": "salt",
+                "name": "sea salt",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "dry",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "blueberries",
+                "key": "blueberries",
+                "name": "frozen unsweetened blueberries",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "cup"
+                },
+                "preparation": "keep frozen until folding",
+                "uses": [
+                  {
+                    "step": "berries",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "topping",
+            "name": "Nutmeg-sugar topping",
+            "ingredients": [
+              {
+                "id": "sugar",
+                "key": "sugar",
+                "name": "granulated sugar",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "topping",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "nutmeg",
+                "key": "nutmeg",
+                "name": "ground nutmeg",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "topping",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "id": "prepare",
+            "title": "Prepare the oven and pans",
+            "text": "Heat the oven to 375°F. For the original batch, line two standard 12-cup muffin tins or use {{ingredients}} to grease the cups. For a different quantity, prepare more or fewer standard cups, keeping the same cup size and about two-thirds fill. Plan oven space with air circulation; additional oven batches add baking and pan-cooling time."
+          },
+          {
+            "id": "dry",
+            "title": "Mix the dry ingredients",
+            "text": "Whisk the batter’s {{ingredients}} together in a bowl."
+          },
+          {
+            "id": "cream",
+            "title": "Cream the butter and sugar",
+            "text": "In another large bowl beat the batter’s {{ingredients}} for about 3–5 minutes, until light and fluffy. The topping sugar is separate; none is subtracted from the batter sugar."
+          },
+          {
+            "id": "eggs",
+            "title": "Add the eggs",
+            "text": "Beat in the {{ingredients}} one at a time, scraping the bowl between additions."
+          },
+          {
+            "id": "liquids",
+            "title": "Add the milk and vanilla",
+            "text": "Mix in the {{ingredients}} until incorporated."
+          },
+          {
+            "id": "combine",
+            "title": "Fold in the flour mixture",
+            "text": "Fold the dry mixture into the butter mixture just until moistened. Scrape the bottom of the bowl so no dry flour pockets remain; do not keep beating to remove every small lump."
+          },
+          {
+            "id": "berries",
+            "title": "Fold in the frozen berries",
+            "text": "Gently fold in the {{ingredients}} with as few strokes as needed to distribute them. Portion into standard muffin cups about two-thirds full, using the listed muffin yield as a guide rather than forcing every batch into 24 cups. The original batch uses about 24 cups; use more or fewer cups and additional pans or oven batches for different quantities."
+          },
+          {
+            "id": "topping",
+            "title": "Add the topping",
+            "text": "Combine the topping’s {{ingredients}} and sprinkle it evenly over the muffins."
+          },
+          {
+            "id": "bake",
+            "title": "Bake and cool",
+            "text": "Bake for 20–25 minutes, until a tester through the crumb has no wet batter; berry juice on the tester is different from uncooked batter. Check muffins from both tins. Cool in the tins for 10 minutes, then remove to racks. Let cool completely before packing for storage."
+          }
+        ]
+      }
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Fold frozen fruit into a creamed muffin batter without overworking it.",
+        "outcome": "Tender blueberry muffins with evenly distributed berries and a crisp nutmeg-sugar top, with no dry flour pockets or wet batter at the center.",
+        "techniques": ["leavening", "temperature"],
+        "before": [
+          "Start with softened butter and room-temperature eggs; warming those ingredients is extra to the listed preparation time.",
+          "The original batch uses about 24 standard muffin cups in two 12-cup tins. For a different quantity, keep standard cup size and about two-thirds fill; use more or fewer cups and extra pans or batches as needed. Check oven circulation space and keep the blueberries frozen until folding.",
+          "At the original batch size, measure 2 cups sugar for the batter and a separate 2 tbsp for the topping; keep these ingredients separate when scaling."
+        ],
+        "checkpoints": [
+          {
+            "step": 3,
+            "cue": "Butter and batter sugar are fluffy and evenly blended.",
+            "why": "This creaming stage introduces air before the heavier flour and berries enter."
+          },
+          {
+            "step": 7,
+            "cue": "Berries are distributed and the batter is still mostly its original color.",
+            "why": "Brief gentle folding limits crushed berries and juice streaks."
+          },
+          {
+            "step": 9,
+            "cue": "The crumb on a center tester is set with no wet batter, even if berry juice stains the tester.",
+            "why": "Frozen fruit affects the batter’s starting temperature; doneness must be checked after the stated bake window."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Batter turns heavily purple",
+            "cause": "Berries thawed or were crushed by excessive mixing.",
+            "fix": "For the next batch fold berries straight from the freezer with a spatula and stop when distributed. The current batter’s color cannot be reversed."
+          },
+          {
+            "problem": "Muffins are tough or have tunnels",
+            "cause": "The batter was beaten after adding flour.",
+            "fix": "Use gentle folds and stop once no dry pockets remain. Longer baking will not make a tough crumb tender."
+          },
+          {
+            "problem": "Stored tops are soggy",
+            "cause": "Muffins were sealed while warm.",
+            "fix": "Cool completely on racks before packing. Rewarm briefly to soften the crumb, accepting that the topping may not return to its original crispness."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Frozen blueberries",
+            "alternative": "Do not thaw them for this method",
+            "effect": "Thawing releases juice into the batter; the written baking window starts with frozen berries."
+          },
+          {
+            "ingredient": "2% milk",
+            "alternative": "Whole milk at the same listed volume",
+            "effect": "The additional milk fat makes a small richness change; the batter remains a milk-based creamed muffin rather than a buttermilk formula."
+          }
+        ],
+        "timing": "Allow about 50 minutes from softened butter and ready ingredients: around 15 minutes mixing and portioning, 20–25 minutes baking and 10 minutes pan cooling. Complete rack cooling before storage takes longer. If the oven cannot hold both tins with circulation space, an additional oven batch extends the schedule.",
+        "storage": "Let muffins cool completely before sealing in an airtight container. Freeze individually wrapped muffins for longer storage, then thaw wrapped and warm briefly before serving. Keep cream-cheese or whipped-cream additions refrigerated; these plain muffins have no perishable topping in the written formula.",
+        "sources": [
+          {
+            "title": "Taste of Home — Frozen Blueberry Muffins",
+            "url": "https://www.tasteofhome.com/recipes/frozen-blueberry-muffins/"
+          },
+          {
+            "title": "Nicolet College — Professional Baking: Quick Breads",
+            "url": "https://nicoletcollege.pressbooks.pub/professionalbaking/chapter/quick-breads/"
+          },
+          {
+            "title": "FDA — Are You Storing Food Safely?",
+            "url": "https://www.fda.gov/consumers/consumer-updates/are-you-storing-food-safely"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-05"
+        }
+      }
+    },
+    {
+      "field": "body",
+      "before": "\n## Chef's Note\n\nKeep blueberries frozen when folding into batter - thawed berries bleed juice that turns muffins muddy purple. Frozen berries also maintain better texture during baking. Nutmeg sugar dusting adds warm, aromatic finish that defines bakery-style muffins.\n\n## Directions\n\n1.  **The Emulsion:** Preheat oven to 375°F. Grease two 12-cup muffin tins. In a large bowl, cream the butter and 2 cups minus 2 tbsp of the sugar until light and fluffy (3-5 mins). Add eggs one at a time, followed by milk and vanilla.\n2.  **Dry Mix:** Whisk together flour, baking powder, and salt.\n3.  **Combine:** Fold the dry ingredients into the wet until **just combined**. A few streaks of flour are fine.\n4.  **The Fold:** Gently fold in the **frozen blueberries**. Do not over-mix.\n5.  **The Topping:** In a small bowl, whisk the remaining 2 tbsp sugar with the nutmeg.\n6.  **Bake:** Divide the batter among the cups (about 2/3 full). Sprinkle the nutmeg sugar over the tops. Bake for 20-25 minutes until a toothpick comes out clean.\n7.  **Cool:** Let sit in the pan for 10 minutes to allow the fruit structure to set before removing to a wire rack.\n",
+      "after": "\n## Chef's Note\n\nFrozen blueberries make these buttery muffins practical year-round, with a nutmeg-sugar finish. Fold in the fruit without thawing and keep mixing brief so berry juice does not spread through the batter; look for cooked crumb around the fruit rather than a perfectly dry berry stain on the tester.\n\n## Directions\n\n1. **Prepare the oven and pans:** Heat the oven to 375°F. For the original batch, line two standard 12-cup muffin tins or use butter or neutral oil to grease the cups. For a different quantity, prepare more or fewer standard cups, keeping the same cup size and about two-thirds fill. Plan oven space with air circulation; additional oven batches add baking and pan-cooling time.\n2. **Mix the dry ingredients:** Whisk the batter’s all-purpose flour, baking powder, and sea salt together in a bowl.\n3. **Cream the butter and sugar:** In another large bowl beat the batter’s unsalted butter and granulated sugar for about 3–5 minutes, until light and fluffy. The topping sugar is separate; none is subtracted from the batter sugar.\n4. **Add the eggs:** Beat in the large eggs one at a time, scraping the bowl between additions.\n5. **Add the milk and vanilla:** Mix in the 2% milk and vanilla extract until incorporated.\n6. **Fold in the flour mixture:** Fold the dry mixture into the butter mixture just until moistened. Scrape the bottom of the bowl so no dry flour pockets remain; do not keep beating to remove every small lump.\n7. **Fold in the frozen berries:** Gently fold in the frozen unsweetened blueberries with as few strokes as needed to distribute them. Portion into standard muffin cups about two-thirds full, using the listed muffin yield as a guide rather than forcing every batch into 24 cups. The original batch uses about 24 cups; use more or fewer cups and additional pans or oven batches for different quantities.\n8. **Add the topping:** Combine the topping’s granulated sugar and ground nutmeg and sprinkle it evenly over the muffins.\n9. **Bake and cool:** Bake for 20–25 minutes, until a tester through the crumb has no wet batter; berry juice on the tester is different from uncooked batter. Check muffins from both tins. Cool in the tins for 10 minutes, then remove to racks. Let cool completely before packing for storage.\n"
+    }
+  ],
+  "checks": {
+    "inputHashVerified": true,
+    "formulaSchema": "pass",
+    "generatedFields": "pass after authored peer correction",
+    "formulaAllocations": "pass",
+    "checkpointRanges": "pass",
+    "linkedRecipes": "pass",
+    "editorialIssues": [],
+    "focusedRecipeLint": "pass",
+    "sourceAndIdentityPreservation": {
+      "title": true,
+      "source": true,
+      "sourceUrl": true,
+      "pairsWith": true,
+      "aliases": true
+    },
+    "quantityScalingHalfDoubleReset": "ingredients/yield unchanged; authored method no longer forces original count"
+  },
+  "ledger": {
+    "frozenInput": [
+      {
+        "originalQuantityAndPreparation": "4 cups All-Purpose Flour",
+        "originalDestination": "dry, step 2",
+        "proposedIngredientIds": ["batter.flour"],
+        "proposedDestinations": [
+          {
+            "ingredientId": "batter.flour",
+            "step": "dry",
+            "share": 1
+          }
+        ],
+        "allocationFinding": "quantity preserved; destination explicit"
+      },
+      {
+        "originalQuantityAndPreparation": "2 cups Granulated Sugar (divided)",
+        "originalDestination": "current 2-cup total: 30 tbsp batter (15/16), 2 tbsp topping (1/16)",
+        "proposedIngredientIds": ["batter.sugar", "topping.sugar"],
+        "proposedDestinations": [
+          {
+            "ingredientId": "batter.sugar",
+            "step": "cream",
+            "share": 1
+          },
+          {
+            "ingredientId": "topping.sugar",
+            "step": "topping",
+            "share": 1
+          }
+        ],
+        "allocationFinding": "recover separate topping quantity, not reallocate a fixed total"
+      },
+      {
+        "originalQuantityAndPreparation": "1 cup (2 sticks) Unsalted Butter, softened",
+        "originalDestination": "cream, step 1",
+        "proposedIngredientIds": ["batter.butter"],
+        "proposedDestinations": [
+          {
+            "ingredientId": "batter.butter",
+            "step": "cream",
+            "share": 1
+          }
+        ],
+        "allocationFinding": "quantity preserved; destination explicit"
+      },
+      {
+        "originalQuantityAndPreparation": "4 large Eggs",
+        "originalDestination": "wet, step 1",
+        "proposedIngredientIds": ["batter.eggs"],
+        "proposedDestinations": [
+          {
+            "ingredientId": "batter.eggs",
+            "step": "eggs",
+            "share": 1
+          }
+        ],
+        "allocationFinding": "quantity preserved; destination explicit"
+      },
+      {
+        "originalQuantityAndPreparation": "1 cup 2% Milk",
+        "originalDestination": "wet, step 1",
+        "proposedIngredientIds": ["batter.milk"],
+        "proposedDestinations": [
+          {
+            "ingredientId": "batter.milk",
+            "step": "liquids",
+            "share": 1
+          }
+        ],
+        "allocationFinding": "quantity preserved; destination explicit"
+      },
+      {
+        "originalQuantityAndPreparation": "2 cups Frozen Unsweetened Blueberries",
+        "originalDestination": "fold, step 4",
+        "proposedIngredientIds": ["batter.blueberries"],
+        "proposedDestinations": [
+          {
+            "ingredientId": "batter.blueberries",
+            "step": "berries",
+            "share": 1
+          }
+        ],
+        "allocationFinding": "quantity preserved; destination explicit"
+      },
+      {
+        "originalQuantityAndPreparation": "4 tsp Baking Powder",
+        "originalDestination": "dry, step 2",
+        "proposedIngredientIds": ["batter.baking-powder"],
+        "proposedDestinations": [
+          {
+            "ingredientId": "batter.baking-powder",
+            "step": "dry",
+            "share": 1
+          }
+        ],
+        "allocationFinding": "quantity preserved; destination explicit"
+      },
+      {
+        "originalQuantityAndPreparation": "1/2 tsp Sea Salt",
+        "originalDestination": "dry, step 2",
+        "proposedIngredientIds": ["batter.salt"],
+        "proposedDestinations": [
+          {
+            "ingredientId": "batter.salt",
+            "step": "dry",
+            "share": 1
+          }
+        ],
+        "allocationFinding": "quantity preserved; destination explicit"
+      },
+      {
+        "originalQuantityAndPreparation": "2 tsp Vanilla Extract",
+        "originalDestination": "wet, step 1",
+        "proposedIngredientIds": ["batter.vanilla"],
+        "proposedDestinations": [
+          {
+            "ingredientId": "batter.vanilla",
+            "step": "liquids",
+            "share": 1
+          }
+        ],
+        "allocationFinding": "quantity preserved; destination explicit"
+      },
+      {
+        "originalQuantityAndPreparation": "1/2 tsp Ground Nutmeg",
+        "originalDestination": "topping, step 5",
+        "proposedIngredientIds": ["topping.nutmeg"],
+        "proposedDestinations": [
+          {
+            "ingredientId": "topping.nutmeg",
+            "step": "topping",
+            "share": 1
+          }
+        ],
+        "allocationFinding": "quantity preserved; destination explicit"
+      }
+    ],
+    "proposed": [
+      {
+        "component": "batter",
+        "ingredientId": "pan-fat",
+        "quantity": null,
+        "allowance": "for greasing the muffin cups if not using liners",
+        "preparation": null,
+        "uses": [
+          {
+            "step": "prepare",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "component": "batter",
+        "ingredientId": "butter",
+        "quantity": {
+          "amount": 1,
+          "unit": "cup"
+        },
+        "allowance": null,
+        "preparation": "softened",
+        "uses": [
+          {
+            "step": "cream",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "component": "batter",
+        "ingredientId": "sugar",
+        "quantity": {
+          "amount": 2,
+          "unit": "cup"
+        },
+        "allowance": null,
+        "preparation": null,
+        "uses": [
+          {
+            "step": "cream",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "component": "batter",
+        "ingredientId": "eggs",
+        "quantity": {
+          "amount": 4,
+          "unit": "count"
+        },
+        "allowance": null,
+        "preparation": "at room temperature",
+        "uses": [
+          {
+            "step": "eggs",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "component": "batter",
+        "ingredientId": "milk",
+        "quantity": {
+          "amount": 1,
+          "unit": "cup"
+        },
+        "allowance": null,
+        "preparation": null,
+        "uses": [
+          {
+            "step": "liquids",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "component": "batter",
+        "ingredientId": "vanilla",
+        "quantity": {
+          "amount": 2,
+          "unit": "tsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "uses": [
+          {
+            "step": "liquids",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "component": "batter",
+        "ingredientId": "flour",
+        "quantity": {
+          "amount": 4,
+          "unit": "cup"
+        },
+        "allowance": null,
+        "preparation": null,
+        "uses": [
+          {
+            "step": "dry",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "component": "batter",
+        "ingredientId": "baking-powder",
+        "quantity": {
+          "amount": 4,
+          "unit": "tsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "uses": [
+          {
+            "step": "dry",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "component": "batter",
+        "ingredientId": "salt",
+        "quantity": {
+          "amount": "1/2",
+          "unit": "tsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "uses": [
+          {
+            "step": "dry",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "component": "batter",
+        "ingredientId": "blueberries",
+        "quantity": {
+          "amount": 2,
+          "unit": "cup"
+        },
+        "allowance": null,
+        "preparation": "keep frozen until folding",
+        "uses": [
+          {
+            "step": "berries",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "component": "topping",
+        "ingredientId": "sugar",
+        "quantity": {
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "uses": [
+          {
+            "step": "topping",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "component": "topping",
+        "ingredientId": "nutmeg",
+        "quantity": {
+          "amount": "1/2",
+          "unit": "tsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "uses": [
+          {
+            "step": "topping",
+            "share": 1
+          }
+        ]
+      }
+    ],
+    "unassignedAfterProposal": [],
+    "multiplyAllocatedAfterProposal": []
+  },
+  "kitchenQuestions": [
+    "Measure actual yield and pan fill with the restored 2 cups batter sugar plus topping; record berry size and starting temperature.",
+    "Check actual bake time, center texture and whether both tins bake evenly in the household oven.",
+    "Confirm whether an undocumented native-library change intentionally reduced sugar; no such request appears in the committed record."
+  ],
+  "processGraph": "Ready softened butter/eggs → oven/pans/dry mix → cream butter and 2 cups batter sugar → eggs → milk/vanilla → fold dry → fold frozen berries → divide 24 cups → separate topping → 20–25-minute bake → ten-minute pan cooling → racks. A second oven load and complete rack cooling before packing are additional time; keep batter handling gentle.",
+  "proposedSha256": "088745b1efbcebedeb01fbf4f9464bc728e44b3a71f0e7ed8ff10615be49a840",
+  "riskFlags": {
+    "safety": false,
+    "ratio": false,
+    "yield": "not physically measured",
+    "substitution": "bounded recipe-specific alternatives only; no guessed quantity",
+    "provenance": "historical omission recovery requires independent acceptance",
+    "duplicate": "none; current carrot alias preserved",
+    "scaling": "structured quantities with unchanged cup size/time",
+    "unsupportedClaim": "old guarantees removed; no test or nutrition claim added"
+  },
+  "findings": [
+    {
+      "category": "Sugar recovery",
+      "before": "2 cups sugar total: method subtracts 2 tbsp for topping, leaving 1 7/8 cups in batter.",
+      "after": "2 cups batter sugar plus separate 2 tbsp topping sugar (total 2 1/8 cups).",
+      "rationale": "Saved original 045e5ba2 and deletion patch 32afdbad. Direct F access unavailable; suspicious copied-host result excluded.",
+      "confidence": "High for exact local-source recovery; no claim of current-publisher verification."
+    },
+    {
+      "category": "Intent audit",
+      "before": "January bulk rewrite converts separately listed sugars into a divided 2-cup total.",
+      "after": "Restore the lost 2 tbsp after checking complete later history and preference/review records.",
+      "rationale": "Retained file history; no later accepted formula reduction; current register remains pending.",
+      "confidence": "High for repository history, with undocumented native intent unknown."
+    },
+    {
+      "category": "Mixing and tester",
+      "before": "A few streaks of flour are declared acceptable; toothpick must be entirely clean around juicy berries.",
+      "after": "Finish moistening flour without beating every lump smooth; distinguish berry juice from wet batter.",
+      "rationale": "Q mixing guidance and current fruit preparation.",
+      "confidence": "High for dry-pocket and center distinction; crumb performance untested."
+    },
+    {
+      "category": "Timing/classification",
+      "before": "10 + 20 = 30 min omits ten-minute pan cooling and existing 20–25-minute bake. “main/quick” mislabels a 24-muffin batch.",
+      "after": "15 min preparation, 20–25 min bake, about 50 minutes including pan cooling; side/comfort.",
+      "rationale": "Complete graph and current tray requirements.",
+      "confidence": "Moderate planning estimate; high that old total omits a required stage."
+    },
+    {
+      "category": "Nutrition",
+      "before": "Legacy 1 g fat per muffin conflicts with a butter-rich batch and unverified values.",
+      "after": "Remove nutrition rather than replace it with another estimate.",
+      "rationale": "Review standard; changed sugar formula.",
+      "confidence": "High."
+    },
+    {
+      "category": "peer scaling correction",
+      "field": "formula.steps.prepare",
+      "before": "Heat the oven to 375°F. Line two standard 12-cup muffin tins or use {{ingredients}} to grease the cups. Plan oven space for both tins with air circulation; a second oven batch adds baking and pan-cooling time.",
+      "after": "Heat the oven to 375°F. For the original batch, line two standard 12-cup muffin tins or use {{ingredients}} to grease the cups. For a different quantity, prepare more or fewer standard cups, keeping the same cup size and about two-thirds fill. Plan oven space with air circulation; additional oven batches add baking and pan-cooling time.",
+      "rationale": "Keep original batch count as context; scaled quantities use the listed yield at the same cup/mound size, with additional capacity rather than forced original count.",
+      "confidence": "high for scale consistency; kitchen fill remains untested",
+      "evidence": [
+        "Root-approved independent capacity correction",
+        "Original formula yield and fixed cup/mound geometry"
+      ]
+    },
+    {
+      "category": "peer scaling correction",
+      "field": "formula.steps.berries",
+      "before": "Gently fold in the {{ingredients}} with as few strokes as needed to distribute them. Divide the batter among the 24 cups, about two-thirds full.",
+      "after": "Gently fold in the {{ingredients}} with as few strokes as needed to distribute them. Portion into standard muffin cups about two-thirds full, using the listed muffin yield as a guide rather than forcing every batch into 24 cups. The original batch uses about 24 cups; use more or fewer cups and additional pans or oven batches for different quantities.",
+      "rationale": "Keep original batch count as context; scaled quantities use the listed yield at the same cup/mound size, with additional capacity rather than forced original count.",
+      "confidence": "high for scale consistency; kitchen fill remains untested",
+      "evidence": [
+        "Root-approved independent capacity correction",
+        "Original formula yield and fixed cup/mound geometry"
+      ]
+    },
+    {
+      "category": "peer scaling correction",
+      "field": "learning.before.1",
+      "before": "Use 24 standard muffin cups and check that both tins fit with circulation space. Keep the blueberries frozen until folding.",
+      "after": "The original batch uses about 24 standard muffin cups in two 12-cup tins. For a different quantity, keep standard cup size and about two-thirds fill; use more or fewer cups and extra pans or batches as needed. Check oven circulation space and keep the blueberries frozen until folding.",
+      "rationale": "Make capacity decisions before mixing and preserve original geometry.",
+      "confidence": "high",
+      "evidence": [
+        "Root-approved independent capacity correction",
+        "Original formula yield and fixed cup/mound geometry"
+      ]
+    }
+  ],
+  "ratioAndYield": "Keep 4 cups flour, 1 cup butter, four eggs, 1 cup milk, 2 cups frozen unsweetened berries, 4 tsp powder and the original nutmeg. Only sugar recovers a proven omission: 2 cups belong in the batter, and 2 tbsp belong in topping. Two 12-cup standard tins target 24 muffins at about two-thirds full; historical yield says about two dozen. Do not claim a measured weight or exact muffin mass. The proposed structured yield retains current 24 portions, while the record preserves its approximation. Frozen fruit is deliberately unthawed; no fruit replacement or claimed “snap” guarantee.",
+  "sourceDisagreements": "The available committed original uses 2 cups batter sugar and additional topping sugar; current formula changed this in a broad refinement. Direct Taste of Home access failed, so the recovery relies on Git and makes no claim of fresh primary-page corroboration. The suspicious copied-host search result is not evidence. Source-supplied generic milk identity stays 2%; whole milk is a bounded equal-volume richness alternative. No three-month freezer guarantee is added without readable publisher evidence.",
+  "fourLenses": "Practicality: freezer-friendly baking with an honest two-tin schedule and softened ingredients ready. Tradition: retain the source-linked frozen-blueberry muffin identity. Technique: creaming differs from the melted-butter chip muffins; do not average methods. Balance: retain buttery crumb, berries and nutmeg sugar without reducing sweetness as a generic upgrade.",
+  "acceptedSha256": "bba24897143925a129d6d1cba635f077b4e3c3e4d7a4ddccc82b77e788a17e7e",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/baking-sources.md",
+  "independentAcceptance": "docs/editorial-campaign/2026-10-05/baking-independent.md",
+  "rootCorrections": [
+    {
+      "field": "learning.before.2",
+      "before": "Measure 2 cups sugar for the batter and a separate 2 tbsp for the topping.",
+      "after": "At the original batch size, measure 2 cups sugar for the batter and a separate 2 tbsp for the topping; keep these ingredients separate when scaling.",
+      "rationale": "Keep restored original sugar amounts contextual while scaled component quantities remain authoritative; retain ingredient-warming guidance.",
+      "confidence": "high"
+    }
+  ],
+  "notKitchenTested": true
+}

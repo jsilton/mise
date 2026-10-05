@@ -1,0 +1,833 @@
+{
+  "slug": "bakery-style-chocolate-chip-muffins",
+  "status": "accepted-editorial-review; production verification pending",
+  "inputCommit": "e922e95ee275aee6289e7225914045d273154791",
+  "inputSha256": "cb264aa9888bdb09e1ca51723977382cd191ab50d6f2b7c05956029e43f8b04f",
+  "changedFields": [
+    {
+      "field": "cookTime",
+      "before": "20 min",
+      "after": "17–20 min"
+    },
+    {
+      "field": "totalTime",
+      "before": "35 min",
+      "after": "About 45 min (includes 10 min pan cooling)"
+    },
+    {
+      "field": "servings",
+      "before": "12",
+      "after": "12 pieces"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "2 1/2 cups All-Purpose Flour",
+        "1 cup Granulated Sugar",
+        "1 tbsp Baking Powder",
+        "1 tsp Baking Soda",
+        "1/2 tsp Salt",
+        "1/2 cup Unsalted Butter, melted and cooled",
+        "1 cup Buttermilk (The moisture secret)",
+        "2 large Eggs",
+        "1 tbsp Vanilla Extract",
+        "1 1/2 cups Semisweet Chocolate Chips"
+      ],
+      "after": [
+        "--- Chocolate-chip muffin batter ---",
+        "butter or neutral oil, for greasing the muffin cups and rims",
+        "2 1/2 cups all-purpose flour",
+        "1 tbsp baking powder",
+        "1 tsp baking soda",
+        "1/2 tsp salt",
+        "1 1/2 cups semisweet chocolate chips",
+        "1/2 cup unsalted butter, melted and cooled to lukewarm",
+        "1 cup granulated sugar",
+        "1 cup buttermilk",
+        "2 large eggs",
+        "1 tbsp vanilla extract",
+        "--- Optional topping ---",
+        "granulated sugar or additional chocolate chips, for sprinkling, optional"
+      ]
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 570,
+        "protein": 6,
+        "carbs": 52,
+        "fat": 39,
+        "fiber": 3.5,
+        "sugar": 30.5,
+        "sodium": 660
+      },
+      "after": null
+    },
+    {
+      "field": "formula",
+      "before": null,
+      "after": {
+        "version": 1,
+        "yield": {
+          "amount": 12,
+          "unit": "piece"
+        },
+        "components": [
+          {
+            "id": "batter",
+            "name": "Chocolate-chip muffin batter",
+            "ingredients": [
+              {
+                "id": "pan-fat",
+                "key": "butter-or-neutral-oil",
+                "name": "butter or neutral oil",
+                "allowance": "for greasing the muffin cups and rims",
+                "uses": [
+                  {
+                    "step": "prepare",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "flour",
+                "key": "all-purpose-flour",
+                "name": "all-purpose flour",
+                "quantity": {
+                  "amount": "2 1/2",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "dry",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "baking-powder",
+                "key": "baking-powder",
+                "name": "baking powder",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "dry",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "baking-soda",
+                "key": "baking-soda",
+                "name": "baking soda",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "dry",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "salt",
+                "key": "salt",
+                "name": "salt",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "dry",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "chips",
+                "key": "semisweet-chocolate-chips",
+                "name": "semisweet chocolate chips",
+                "quantity": {
+                  "amount": "1 1/2",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "dry",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "butter",
+                "key": "unsalted-butter",
+                "name": "unsalted butter",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "cup"
+                },
+                "preparation": "melted and cooled to lukewarm",
+                "uses": [
+                  {
+                    "step": "wet",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "sugar",
+                "key": "sugar",
+                "name": "granulated sugar",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "wet",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "buttermilk",
+                "key": "buttermilk",
+                "name": "buttermilk",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "wet",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "eggs",
+                "key": "eggs",
+                "name": "large egg",
+                "plural": "large eggs",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "wet",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "vanilla",
+                "key": "vanilla-extract",
+                "name": "vanilla extract",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "wet",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "topping",
+            "name": "Optional topping",
+            "ingredients": [
+              {
+                "id": "topping",
+                "key": "topping",
+                "name": "granulated sugar or additional chocolate chips",
+                "allowance": "for sprinkling",
+                "optional": true,
+                "role": "garnish",
+                "uses": [
+                  {
+                    "step": "portion",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "id": "prepare",
+            "title": "Prepare the oven and pan",
+            "text": "Heat the oven to 425°F before mixing the batter. The original batch uses a standard 12-cup muffin pan. For a different quantity, prepare more or fewer standard cups, greasing the cups and rims with {{ingredients}}, or line the cups and grease the rims. Keep the same standard cup size and very-full portion depth. Melt the batter butter and let it cool to lukewarm before mixing; additional pans or oven batches add time."
+          },
+          {
+            "id": "dry",
+            "title": "Mix the dry ingredients and chips",
+            "text": "Whisk together the batter’s {{ingredients}}, adding the chocolate chips after the flour and leaveners are evenly mixed."
+          },
+          {
+            "id": "wet",
+            "title": "Mix the wet ingredients",
+            "text": "In another bowl whisk the batter’s {{ingredients}} until evenly combined."
+          },
+          {
+            "id": "combine",
+            "title": "Fold the batter",
+            "text": "Add the wet mixture to the dry mixture and gently fold until all the flour is moistened. Scrape the bottom so no dry pockets remain; small lumps are fine. Portion promptly rather than waiting for the oven to heat."
+          },
+          {
+            "id": "portion",
+            "title": "Fill the cups",
+            "text": "Divide the batter among the standard muffin cups needed for the listed yield, keeping them very full. The original batch uses about 12 standard cups; a different quantity needs more or fewer cups, rather than the same twelve. Sprinkle with {{ingredients}}. Do not put a full original batch into smaller cups; additional pans or oven batches add time."
+          },
+          {
+            "id": "rise",
+            "title": "Start hot",
+            "text": "Bake at 425°F for 5 minutes."
+          },
+          {
+            "id": "finish",
+            "title": "Lower the heat",
+            "text": "Without opening the oven door, lower the temperature to 375°F. Continue baking for 12–15 minutes, until the tops are set and a tester through the crumb has no wet batter; avoid a melted chocolate chip when judging the tester. Check rather than extending the bake simply for darker tops."
+          },
+          {
+            "id": "cool",
+            "title": "Cool and release",
+            "text": "Let the muffins cool in the pan for 10 minutes. Loosen the tops carefully, remove to a rack and serve warm or let cool completely before storing."
+          }
+        ]
+      }
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Coordinate gentle muffin mixing with a two-temperature bake.",
+        "outcome": "Well-risen chocolate-chip muffins with set centers, tender crumb and no pockets of dry flour.",
+        "techniques": ["leavening", "temperature"],
+        "before": [
+          "The original batch uses about 12 standard muffin cups, filled very full. For different quantities, use more or fewer standard cups with the same fill depth and extra pans or batches if needed. Grease rims even with liners; the full cups produce wide tops.",
+          "Heat the oven before wet and dry mixtures meet. Cool the melted butter to lukewarm and measure the full listed buttermilk.",
+          "Baking powder and baking soda are separate ingredients; do not substitute one for the other by spoon volume."
+        ],
+        "checkpoints": [
+          {
+            "step": 4,
+            "cue": "All flour is moistened but the batter still has small lumps.",
+            "why": "Trying to beat a muffin batter completely smooth can make the crumb tough."
+          },
+          {
+            "step": 7,
+            "cue": "Tops are set and a tester through the crumb has no wet batter, apart from melted chocolate.",
+            "why": "The lower-temperature stage finishes the center; a chocolate streak is different from raw batter."
+          },
+          {
+            "step": 8,
+            "cue": "The muffins are firm enough to lift without tearing their wide tops.",
+            "why": "The pan cooling interval helps the crumb set before release."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Chocolate chips settle or the batter seems unusually thin",
+            "cause": "The melted butter was still hot, or the flour/liquid measurements were off.",
+            "fix": "Cool the melted butter to lukewarm and check the flour and liquid measurements before mixing the next batch."
+          },
+          {
+            "problem": "Muffins are dry",
+            "cause": "They were overbaked or the flour was packed into the measuring cup.",
+            "fix": "Spoon and level flour, start checking at the end of the written window and stop when the crumb is set; prolonged browning dries it."
+          },
+          {
+            "problem": "Tops stick to the pan",
+            "cause": "The rims were not greased or the muffins were removed too hot.",
+            "fix": "Let the pan cool for the written interval, then loosen the edges gently. Grease the rims for the next batch."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Buttermilk",
+            "alternative": "Keep cultured buttermilk for this version",
+            "effect": "Plain milk changes acidity as well as thickness in a formula using both baking soda and baking powder."
+          },
+          {
+            "ingredient": "Semisweet chocolate chips",
+            "alternative": "Milk chocolate chips at the same listed volume",
+            "effect": "The muffin becomes sweeter and the chocolate flavor milder; melted-chip streaks still need to be distinguished from wet batter."
+          }
+        ],
+        "timing": "Allow about 45 minutes: roughly 15 minutes preparation including melted-butter cooling, 5 minutes at 425°F, 12–15 minutes at 375°F and 10 minutes pan cooling. Preheat while measuring. Complete rack cooling before storage takes longer; extra pans or oven batches extend elapsed time.",
+        "storage": "Cool completely before airtight storage. Keep for up to 5 days, or freeze airtight for up to 3 months. Thaw frozen muffins in the refrigerator overnight and warm briefly before serving. The crumb and wide tops are best on the day of baking.",
+        "sources": [
+          {
+            "title": "Lily Ernst — Bakery-Style Chocolate Chip Muffins, Little Sweet Baker",
+            "url": "https://www.littlesweetbaker.com/bakery-style-chocolate-chip-muffins-2/"
+          },
+          {
+            "title": "Nicolet College — Professional Baking: Quick Breads",
+            "url": "https://nicoletcollege.pressbooks.pub/professionalbaking/chapter/quick-breads/"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-05"
+        }
+      }
+    },
+    {
+      "field": "body",
+      "before": "\n## Chef's Note\n\nTo achieve the **\"Bakery High-Dome\"**, we use two professional techniques: **The Temperature Shock** (starting at 425°F to trigger a rapid rise, then dropping to 375°F to finish the bake) and **Resting the Batter** (letting the batter sit for 10 mins before scooping allows the starch to hydrate, resulting in a more structured, tall muffin).\n\n## Directions\n\n1.  **Mix:** Whisk dry ingredients in a large bowl. In a separate bowl, whisk wet ingredients. Fold together until **just moistened** (streaks of flour are okay).\n2.  **The Rest:** Let the batter sit at room temperature for 10 minutes.\n3.  **Preheat:** Preheat oven to 425°F.\n4.  **Portion:** Fill muffin cups to the absolute top. Sprinkle with extra sugar or chips.\n5.  **The Rise:** Bake at 425°F for **5 minutes**.\n6.  **The Finish:** Without opening the oven door, reduce heat to 375°F. Bake for another 12-15 minutes.\n7.  **Cool:** Let cool for 10 minutes before removing from the tin.\n",
+      "after": "\n## Chef's Note\n\nThese chocolate-chip muffins start in a hot oven before finishing at a lower temperature. Have the oven and pan ready before mixing, use lukewarm melted butter, and fold only until the flour is moistened; the tops should rise while the centers finish without drying out.\n\n## Directions\n\n1. **Prepare the oven and pan:** Heat the oven to 425°F before mixing the batter. The original batch uses a standard 12-cup muffin pan. For a different quantity, prepare more or fewer standard cups, greasing the cups and rims with butter or neutral oil, or line the cups and grease the rims. Keep the same standard cup size and very-full portion depth. Melt the batter butter and let it cool to lukewarm before mixing; additional pans or oven batches add time.\n2. **Mix the dry ingredients and chips:** Whisk together the batter’s all-purpose flour, baking powder, baking soda, salt, and semisweet chocolate chips, adding the chocolate chips after the flour and leaveners are evenly mixed.\n3. **Mix the wet ingredients:** In another bowl whisk the batter’s unsalted butter, granulated sugar, buttermilk, large eggs, and vanilla extract until evenly combined.\n4. **Fold the batter:** Add the wet mixture to the dry mixture and gently fold until all the flour is moistened. Scrape the bottom so no dry pockets remain; small lumps are fine. Portion promptly rather than waiting for the oven to heat.\n5. **Fill the cups:** Divide the batter among the standard muffin cups needed for the listed yield, keeping them very full. The original batch uses about 12 standard cups; a different quantity needs more or fewer cups, rather than the same twelve. Sprinkle with granulated sugar or additional chocolate chips (if using). Do not put a full original batch into smaller cups; additional pans or oven batches add time.\n6. **Start hot:** Bake at 425°F for 5 minutes.\n7. **Lower the heat:** Without opening the oven door, lower the temperature to 375°F. Continue baking for 12–15 minutes, until the tops are set and a tester through the crumb has no wet batter; avoid a melted chocolate chip when judging the tester. Check rather than extending the bake simply for darker tops.\n8. **Cool and release:** Let the muffins cool in the pan for 10 minutes. Loosen the tops carefully, remove to a rack and serve warm or let cool completely before storing.\n"
+    }
+  ],
+  "checks": {
+    "inputHashVerified": true,
+    "formulaSchema": "pass",
+    "generatedFields": "pass after authored peer correction",
+    "formulaAllocations": "pass",
+    "checkpointRanges": "pass",
+    "linkedRecipes": "pass",
+    "editorialIssues": [],
+    "focusedRecipeLint": "pass",
+    "sourceAndIdentityPreservation": {
+      "title": true,
+      "source": true,
+      "sourceUrl": true,
+      "pairsWith": true,
+      "aliases": true
+    },
+    "quantityScalingHalfDoubleReset": "ingredients/yield unchanged; authored method no longer forces original count"
+  },
+  "ledger": {
+    "frozenInput": [
+      {
+        "originalQuantityAndPreparation": "2 1/2 cups All-Purpose Flour",
+        "originalDestination": "generic dry list, step 1",
+        "proposedIngredientIds": ["batter.flour"],
+        "proposedDestinations": [
+          {
+            "ingredientId": "batter.flour",
+            "step": "dry",
+            "share": 1
+          }
+        ],
+        "allocationFinding": "quantity preserved; destination explicit"
+      },
+      {
+        "originalQuantityAndPreparation": "1 cup Granulated Sugar",
+        "originalDestination": "not explicitly placed; generic wet/dry split",
+        "proposedIngredientIds": ["batter.sugar"],
+        "proposedDestinations": [
+          {
+            "ingredientId": "batter.sugar",
+            "step": "wet",
+            "share": 1
+          }
+        ],
+        "allocationFinding": "explicit destination supplied"
+      },
+      {
+        "originalQuantityAndPreparation": "1 tbsp Baking Powder",
+        "originalDestination": "generic dry list, step 1",
+        "proposedIngredientIds": ["batter.baking-powder"],
+        "proposedDestinations": [
+          {
+            "ingredientId": "batter.baking-powder",
+            "step": "dry",
+            "share": 1
+          }
+        ],
+        "allocationFinding": "quantity preserved; destination explicit"
+      },
+      {
+        "originalQuantityAndPreparation": "1 tsp Baking Soda",
+        "originalDestination": "generic dry list, step 1",
+        "proposedIngredientIds": ["batter.baking-soda"],
+        "proposedDestinations": [
+          {
+            "ingredientId": "batter.baking-soda",
+            "step": "dry",
+            "share": 1
+          }
+        ],
+        "allocationFinding": "quantity preserved; destination explicit"
+      },
+      {
+        "originalQuantityAndPreparation": "1/2 tsp Salt",
+        "originalDestination": "generic dry list, step 1",
+        "proposedIngredientIds": ["batter.salt"],
+        "proposedDestinations": [
+          {
+            "ingredientId": "batter.salt",
+            "step": "dry",
+            "share": 1
+          }
+        ],
+        "allocationFinding": "quantity preserved; destination explicit"
+      },
+      {
+        "originalQuantityAndPreparation": "1/2 cup Unsalted Butter, melted and cooled",
+        "originalDestination": "generic wet list, step 1",
+        "proposedIngredientIds": ["batter.butter"],
+        "proposedDestinations": [
+          {
+            "ingredientId": "batter.butter",
+            "step": "wet",
+            "share": 1
+          }
+        ],
+        "allocationFinding": "quantity preserved; destination explicit"
+      },
+      {
+        "originalQuantityAndPreparation": "1 cup Buttermilk (The moisture secret)",
+        "originalDestination": "generic wet list, step 1",
+        "proposedIngredientIds": ["batter.buttermilk"],
+        "proposedDestinations": [
+          {
+            "ingredientId": "batter.buttermilk",
+            "step": "wet",
+            "share": 1
+          }
+        ],
+        "allocationFinding": "quantity preserved; destination explicit"
+      },
+      {
+        "originalQuantityAndPreparation": "2 large Eggs",
+        "originalDestination": "generic wet list, step 1",
+        "proposedIngredientIds": ["batter.eggs"],
+        "proposedDestinations": [
+          {
+            "ingredientId": "batter.eggs",
+            "step": "wet",
+            "share": 1
+          }
+        ],
+        "allocationFinding": "quantity preserved; destination explicit"
+      },
+      {
+        "originalQuantityAndPreparation": "1 tbsp Vanilla Extract",
+        "originalDestination": "generic wet list, step 1",
+        "proposedIngredientIds": ["batter.vanilla"],
+        "proposedDestinations": [
+          {
+            "ingredientId": "batter.vanilla",
+            "step": "wet",
+            "share": 1
+          }
+        ],
+        "allocationFinding": "quantity preserved; destination explicit"
+      },
+      {
+        "originalQuantityAndPreparation": "1 1/2 cups Semisweet Chocolate Chips",
+        "originalDestination": "no explicit folding destination; optional extra chips unlisted",
+        "proposedIngredientIds": ["batter.chips"],
+        "proposedDestinations": [
+          {
+            "ingredientId": "batter.chips",
+            "step": "dry",
+            "share": 1
+          }
+        ],
+        "allocationFinding": "explicit destination supplied"
+      }
+    ],
+    "proposed": [
+      {
+        "component": "batter",
+        "ingredientId": "pan-fat",
+        "quantity": null,
+        "allowance": "for greasing the muffin cups and rims",
+        "preparation": null,
+        "uses": [
+          {
+            "step": "prepare",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "component": "batter",
+        "ingredientId": "flour",
+        "quantity": {
+          "amount": "2 1/2",
+          "unit": "cup"
+        },
+        "allowance": null,
+        "preparation": null,
+        "uses": [
+          {
+            "step": "dry",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "component": "batter",
+        "ingredientId": "baking-powder",
+        "quantity": {
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "uses": [
+          {
+            "step": "dry",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "component": "batter",
+        "ingredientId": "baking-soda",
+        "quantity": {
+          "amount": 1,
+          "unit": "tsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "uses": [
+          {
+            "step": "dry",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "component": "batter",
+        "ingredientId": "salt",
+        "quantity": {
+          "amount": "1/2",
+          "unit": "tsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "uses": [
+          {
+            "step": "dry",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "component": "batter",
+        "ingredientId": "chips",
+        "quantity": {
+          "amount": "1 1/2",
+          "unit": "cup"
+        },
+        "allowance": null,
+        "preparation": null,
+        "uses": [
+          {
+            "step": "dry",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "component": "batter",
+        "ingredientId": "butter",
+        "quantity": {
+          "amount": "1/2",
+          "unit": "cup"
+        },
+        "allowance": null,
+        "preparation": "melted and cooled to lukewarm",
+        "uses": [
+          {
+            "step": "wet",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "component": "batter",
+        "ingredientId": "sugar",
+        "quantity": {
+          "amount": 1,
+          "unit": "cup"
+        },
+        "allowance": null,
+        "preparation": null,
+        "uses": [
+          {
+            "step": "wet",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "component": "batter",
+        "ingredientId": "buttermilk",
+        "quantity": {
+          "amount": 1,
+          "unit": "cup"
+        },
+        "allowance": null,
+        "preparation": null,
+        "uses": [
+          {
+            "step": "wet",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "component": "batter",
+        "ingredientId": "eggs",
+        "quantity": {
+          "amount": 2,
+          "unit": "count"
+        },
+        "allowance": null,
+        "preparation": null,
+        "uses": [
+          {
+            "step": "wet",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "component": "batter",
+        "ingredientId": "vanilla",
+        "quantity": {
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "uses": [
+          {
+            "step": "wet",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "component": "topping",
+        "ingredientId": "topping",
+        "quantity": null,
+        "allowance": "for sprinkling",
+        "preparation": null,
+        "uses": [
+          {
+            "step": "portion",
+            "share": 1
+          }
+        ]
+      }
+    ],
+    "unassignedAfterProposal": [],
+    "multiplyAllocatedAfterProposal": []
+  },
+  "kitchenQuestions": [
+    "Check soda flavor, rise and crumb under the preserved 1 tsp soda/375°F formula compared with the newly changed publisher version.",
+    "Record actual cup volume, filled headroom, muffin yield and whether wide tops release cleanly after ten minutes."
+  ],
+  "processGraph": "Preheat oven/pan and melt/cool butter while measuring → dry mixture with chips → wet mixture with sugar → brief fold → portion promptly → five minutes at 425°F → without opening lower to 375°F for 12–15 minutes → center test → ten-minute pan cool → rack/service. About45-minute estimate includes butter cooling overlapped with preheat; full rack cooling before storage is extra.",
+  "proposedSha256": "85dd49a62777f8e33cdbea09a87d9184e3302f545ab4849e79daae44d3588c46",
+  "riskFlags": {
+    "safety": false,
+    "ratio": true,
+    "yield": "not physically measured",
+    "substitution": "bounded recipe-specific alternatives only; no guessed quantity",
+    "provenance": "current identity/attribution retained",
+    "duplicate": "none; current carrot alias preserved",
+    "scaling": "structured quantities with unchanged cup size/time",
+    "unsupportedClaim": "old guarantees removed; no test or nutrition claim added"
+  },
+  "findings": [
+    {
+      "category": "Ingredient destinations",
+      "before": "Generic “dry/wet” instruction never places chips explicitly and makes sugar ambiguous.",
+      "after": "Assign sugar to the liquid mix and chips to the flour/leavener mixture; list optional additional sugar/chips allowance separately.",
+      "rationale": "Saved original 045e5ba2 and current M.",
+      "confidence": "High; base ingredient quantities unchanged."
+    },
+    {
+      "category": "Rest/preheat sequence",
+      "before": "Ten-minute batter rest, followed by oven preheat; note promises improved height from the rest.",
+      "after": "Preheat first and bake promptly after brief folding; no required rest.",
+      "rationale": "Saved original has no rest; current M explicitly says no rest needed; Q advises prompt baking.",
+      "confidence": "High for this source method, not a universal ban on rested muffin batters."
+    },
+    {
+      "category": "Finish and capacity",
+      "before": "“absolute top” without standard cup size, no doneness endpoint in either bake stage.",
+      "after": "Use one standard 12-cup pan; keep it very full and check set tops/no wet crumb after the unchanged 425°F/375°F stages.",
+      "rationale": "Saved original standard pan and tester; M current process corroborates endpoint but changes temperature.",
+      "confidence": "High for clarification; actual yield/headroom unmeasured."
+    },
+    {
+      "category": "Timing/nutrition",
+      "before": "35 min omits ten-minute pan cooling and the added rest/preheat delay.",
+      "after": "About 45 min after removing unsupported required rest, including 17–20-minute two-stage bake and ten-minute pan cool; remove unverified legacy nutrition.",
+      "rationale": "Complete method graph; no replacement nutrient estimate.",
+      "confidence": "Moderate scheduling estimate; high that old clock is incomplete."
+    },
+    {
+      "category": "peer scaling correction",
+      "field": "formula.steps.prepare",
+      "before": "Heat the oven to 425°F before mixing the batter. Use a standard 12-cup muffin pan, greasing the cups and rims with {{ingredients}}, or line the cups and grease the rims. Melt the batter butter and let it cool to lukewarm before mixing.",
+      "after": "Heat the oven to 425°F before mixing the batter. The original batch uses a standard 12-cup muffin pan. For a different quantity, prepare more or fewer standard cups, greasing the cups and rims with {{ingredients}}, or line the cups and grease the rims. Keep the same standard cup size and very-full portion depth. Melt the batter butter and let it cool to lukewarm before mixing; additional pans or oven batches add time.",
+      "rationale": "Keep original batch count as context; scaled quantities use the listed yield at the same cup/mound size, with additional capacity rather than forced original count.",
+      "confidence": "high for scale consistency; kitchen fill remains untested",
+      "evidence": [
+        "Root-approved independent capacity correction",
+        "Original formula yield and fixed cup/mound geometry"
+      ]
+    },
+    {
+      "category": "peer scaling correction",
+      "field": "formula.steps.portion",
+      "before": "Divide the batter evenly among the 12 standard muffin cups; they will be very full. Sprinkle with {{ingredients}}. Do not transfer this full batch into a pan with smaller cups.",
+      "after": "Divide the batter among the standard muffin cups needed for the listed yield, keeping them very full. The original batch uses about 12 standard cups; a different quantity needs more or fewer cups, rather than the same twelve. Sprinkle with {{ingredients}}. Do not put a full original batch into smaller cups; additional pans or oven batches add time.",
+      "rationale": "Keep original batch count as context; scaled quantities use the listed yield at the same cup/mound size, with additional capacity rather than forced original count.",
+      "confidence": "high for scale consistency; kitchen fill remains untested",
+      "evidence": [
+        "Root-approved independent capacity correction",
+        "Original formula yield and fixed cup/mound geometry"
+      ]
+    },
+    {
+      "category": "peer scaling correction",
+      "field": "learning.before.0",
+      "before": "Use a standard 12-cup muffin pan and grease the rims even with liners; the full cups produce wide tops.",
+      "after": "The original batch uses about 12 standard muffin cups, filled very full. For different quantities, use more or fewer standard cups with the same fill depth and extra pans or batches if needed. Grease rims even with liners; the full cups produce wide tops.",
+      "rationale": "Make capacity decisions before mixing and preserve original geometry.",
+      "confidence": "high",
+      "evidence": [
+        "Root-approved independent capacity correction",
+        "Original formula yield and fixed cup/mound geometry"
+      ]
+    }
+  ],
+  "ratioAndYield": "Keep 2 1/2 cups flour, 1 cup sugar, 1 tbsp baking powder, 1 tsp baking soda, 1/2 cup butter, 1 cup buttermilk, two eggs, 1 tbsp vanilla and 1 1/2 cups chips. Those quantities match the saved original rather than the current publisher’s reduced soda. Do not normalize rich chocolate loading or import the newer liquid/weight equivalents. Standard 12-cup capacity is required for the deliberately full cups; quantity scaling requires more matching cups and additional oven batches, not larger cups or multiplied bake times.",
+  "sourceDisagreements": "Current M lists 1/2 tsp soda and a 350°F finish, while the saved original and current Mise use 1 tsp soda and 375°F. Keep the historical formula and temperature, documenting the difference rather than averaging them. No rest is needed in either original/current source, so remove the later unsupported mandatory step. Keep the optional sugar/chip finish as an unmeasured allowance; no invented split of the 1 1/2 cups chips.",
+  "fourLenses": "Practicality: avoid a mandatory unsourced delay and have oven/pan ready before batter. Tradition: preserve the existing Little Sweet Baker source-linked muffin. Technique: cooled liquid butter, explicit chips/sugar placement and a two-temperature bake with crumb test. Balance: retain all chocolate, sugar and buttermilk; milk-chocolate variation affects sweetness.",
+  "acceptedSha256": "b52d25a753a75762cd2d3e785f4b20d9c6ce53be5c237a5fbdacc957baca1473",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/baking-sources.md",
+  "independentAcceptance": "docs/editorial-campaign/2026-10-05/baking-independent.md",
+  "rootCorrections": [
+    {
+      "field": "learning.troubleshooting.0.fix",
+      "before": "Cool the melted butter to lukewarm and measure carefully next time. Do not add an invented extra flour amount to repair this batch.",
+      "after": "Cool the melted butter to lukewarm and check the flour and liquid measurements before mixing the next batch.",
+      "rationale": "Keep troubleshooting in direct cooking prose; no new formula quantity.",
+      "confidence": "high"
+    }
+  ],
+  "notKitchenTested": true
+}

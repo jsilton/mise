@@ -1,3 +1,7 @@
+# Current campaign state — October 5, 2026
+
+Six additional complete baking reviews passed independent challenge and root inspection locally: current coverage is 250 recorded complete / 393 pending across 643 sources, zero kitchen tests. The ten prior complete versions are verified live at `b1435040`, Pages run 37365807822; these are separate from 42 accelerated targeted repairs. Six new baking versions await release checks and production verification.
+
 # Complete editorial campaign — October 5, 2026
 
 Ten whole-recipe reviews have passed independent challenge and complete integration inspection locally. Current recorded coverage is 244 complete editorial reviews / 399 pending across 643 sources; zero kitchen tests. This is separate from the 42 accelerated targeted repairs already verified live. The ten new versions are committed as `76057908` and passed local release checks; production verification is pending.

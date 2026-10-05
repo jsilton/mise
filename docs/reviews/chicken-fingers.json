@@ -2,7 +2,7 @@
   "slug": "chicken-fingers",
   "inputCommit": "e922e95ee275aee6289e7225914045d273154791",
   "inputSha256": "bced4a223523195a1078b6a42f6a9ee182c31301f036c62cacccdb028eee36f2",
-  "status": "accepted-editorial-review; production verification pending",
+  "status": "accepted-editorial-review; production-verified",
   "reviewDate": "2026-10-05",
   "notKitchenTested": true,
   "findings": [
@@ -1095,5 +1095,11 @@
       ]
     }
   ],
-  "rootCorrections": []
+  "rootCorrections": [],
+  "productionVerification": {
+    "releaseCommit": "b1435040e374619f1c5d73cf73cf9f3d19f1384a",
+    "deploymentRun": 37365807822,
+    "url": "https://jordansilton.com/mise/recipes/chicken-fingers/?release=b1435040e374619f1c5d73cf73cf9f3d19f1384a",
+    "verifiedAt": "2026-10-05T19:55:44.602905+00:00"
+  }
 }

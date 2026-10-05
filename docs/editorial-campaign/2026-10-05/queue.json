@@ -86,6 +86,14 @@
       "cottage-cheese-banana-oatmeal-protein-pancakes",
       "easy-homemade-pumpkin-pancakes",
       "the-best-belgian-waffles"
+    ],
+    "shaken_drinks_02": [
+      "grapefruit-basil-gin-fizz",
+      "melon-daiquiri",
+      "prohibition-style-gin-lemon-fizz",
+      "red-zone-margarita",
+      "spindrift-gin-fizz",
+      "whiskey-sour"
     ]
   },
   "recipes": [
@@ -96,7 +104,7 @@
       "source": "delish.com",
       "sourceUrl": "https://www.delish.com/cooking/recipe-ideas/a32936658/air-fryer-chicken-tenders-recipe/",
       "group": "poultry_01",
-      "status": "implemented",
+      "status": "production-verified",
       "reviewEvidence": ["docs/reviews/air-fryer-chicken-tenders.md"],
       "automatedFlags": ["teaching-review-needed"],
       "remainingQuestions": [
@@ -106,7 +114,13 @@
       "plannedBatch": "poultry_01",
       "completeEditorialReview": "editorial-review; kitchen testing not performed",
       "acceptedSha256": "4b6bb7b2dac09439a618c88805135713f0297f25c5af10fff5dbeef5aec5c3a2",
-      "implementationCommit": "760579089f83c71eb5e5ebe8f484b282b679ac3d"
+      "implementationCommit": "760579089f83c71eb5e5ebe8f484b282b679ac3d",
+      "productionVerification": {
+        "releaseCommit": "b1435040e374619f1c5d73cf73cf9f3d19f1384a",
+        "deploymentRun": 37365807822,
+        "url": "https://jordansilton.com/mise/recipes/air-fryer-chicken-tenders/?release=b1435040e374619f1c5d73cf73cf9f3d19f1384a",
+        "verifiedAt": "2026-10-05T19:55:44.602905+00:00"
+      }
     },
     {
       "slug": "almond-zucchini-bread",
@@ -267,7 +281,7 @@
     {
       "slug": "babys-first-smash-cake",
       "path": "src/content/recipes/babys-first-smash-cake.md",
-      "title": "Baby\u2019s First Smash Cake",
+      "title": "Baby’s First Smash Cake",
       "source": "Adapted from fitmamarealfood.com",
       "sourceUrl": "http://www.fitmamarealfood.com/babys-first-smash-cake-healthy-no-sugar-banana-cake/",
       "group": null,
@@ -321,15 +335,17 @@
       "source": "Adapted from littlesweetbaker.com",
       "sourceUrl": "https://www.littlesweetbaker.com/bakery-style-chocolate-chip-muffins-2/",
       "group": "baking_01",
-      "status": "proposed",
-      "reviewEvidence": [],
+      "status": "accepted",
+      "reviewEvidence": ["docs/reviews/bakery-style-chocolate-chip-muffins.md"],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
         "Complete editorial review pending; automated absence of flags is not approval.",
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "cb264aa9888bdb09e1ca51723977382cd191ab50d6f2b7c05956029e43f8b04f",
-      "plannedBatch": "baking_01"
+      "plannedBatch": "baking_01",
+      "acceptedSha256": "b52d25a753a75762cd2d3e785f4b20d9c6ce53be5c237a5fbdacc957baca1473",
+      "completeEditorialReview": "editorial-review; kitchen testing not performed"
     },
     {
       "slug": "balsamic-peach-pork",
@@ -427,7 +443,7 @@
     {
       "slug": "basic-crepes",
       "path": "src/content/recipes/basic-crepes.md",
-      "title": "Basic Cr\u00eapes",
+      "title": "Basic Crêpes",
       "source": "allrecipes.com",
       "sourceUrl": "https://www.allrecipes.com/recipe/16383/basic-crepes/",
       "group": null,
@@ -531,7 +547,7 @@
       "slug": "best-homemade-brownies",
       "path": "src/content/recipes/best-homemade-brownies.md",
       "title": "Brownies",
-      "source": "Love and Lemons, adapted from Michelle Lopez\u2019s Weeknight Baking",
+      "source": "Love and Lemons, adapted from Michelle Lopez’s Weeknight Baking",
       "sourceUrl": "https://www.loveandlemons.com/brownies-recipe/",
       "group": null,
       "status": "queued",
@@ -568,15 +584,17 @@
       "source": "Adapted from Pinchofyum.com",
       "sourceUrl": "http://pinchofyum.com/blackout-chocolate-cake",
       "group": "baking_01",
-      "status": "proposed",
-      "reviewEvidence": ["docs/repairs/2026-09-10/changed-files.json"],
+      "status": "accepted",
+      "reviewEvidence": ["docs/reviews/blackout-chocolate-cake.md"],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
         "Complete editorial review pending; automated absence of flags is not approval.",
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "6d0707bf0d822275053fc815e5ce7e4c0fdf40ccb1a2342381253683f2e45fff",
-      "plannedBatch": "baking_01"
+      "plannedBatch": "baking_01",
+      "acceptedSha256": "ce2aa9ed58ca9d862f3332d780212712ee832fa8b76057465d7d482a25743f5e",
+      "completeEditorialReview": "editorial-review; kitchen testing not performed"
     },
     {
       "slug": "blistered-shishito-peppers",
@@ -880,15 +898,17 @@
       "source": "Adapted from Bonappetit.com",
       "sourceUrl": "http://www.bonappetit.com/recipe/bas-best-carrot-cake?intcid=inline_amp",
       "group": "baking_01",
-      "status": "proposed",
-      "reviewEvidence": ["docs/repairs/2026-09-15/changed-files.json"],
+      "status": "accepted",
+      "reviewEvidence": ["docs/reviews/brown-butter-carrot-cake.md"],
       "automatedFlags": ["teaching-review-needed"],
       "remainingQuestions": [
         "Complete editorial review pending; automated absence of flags is not approval.",
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "6947c313c7c788829f19fd07c55a37b5b6687f844f3b6a52876b9beea48df7c6",
-      "plannedBatch": "baking_01"
+      "plannedBatch": "baking_01",
+      "acceptedSha256": "e84583288402fdf87e3f043fdfb8de16a9d009b63acea8f232419f642c7ae184",
+      "completeEditorialReview": "editorial-review; kitchen testing not performed"
     },
     {
       "slug": "brownie-baked-oatmeal",
@@ -1089,15 +1109,16 @@
       "source": "Adapted from chocolatecoveredkatie.com",
       "sourceUrl": "https://chocolatecoveredkatie.com/cauliflower-alfredo-sauce-recipe/",
       "group": "potatoes_cauliflower_01",
-      "status": "assigned",
+      "status": "proposed",
       "reviewEvidence": [
         "docs/reviews/source-restorations-2026-10-05.md",
         "docs/repairs/2026-09-15/changed-files.json"
       ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Measure actualflorets and finished sauce volume with Parmesan versus yeast.",
+        "Record actualblender model/manual hot-food allowance and blending/cooling schedule.",
+        "Test currentgarlic/dairy combinations and thickening after standing."
       ],
       "inputSha256": "de77ff3f066d68e776174a9faa9f93e8f9a171389089f21d1c79b661be5ea681",
       "plannedBatch": "simmer-boil-and-steam-02",
@@ -1111,12 +1132,13 @@
       "source": null,
       "sourceUrl": null,
       "group": "potatoes_cauliflower_01",
-      "status": "assigned",
+      "status": "proposed",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Record head weight versususablegrains andnumberofprocessor/skillet batches.",
+        "Record actualpan size and 5–6 mintexture at chosenload.",
+        "Check garliclast 30–45 seconds and reheatedgraintexture."
       ],
       "inputSha256": "518350c703de9dfcf9f7579368033d945ba1eb8284a8828c9e861b56a555ebaa",
       "plannedBatch": "cold-preparations-01",
@@ -1198,12 +1220,13 @@
       "source": "yummytoddlerfood.com",
       "sourceUrl": "https://www.yummytoddlerfood.com/cauliflower-alfredo-sauce/",
       "group": "potatoes_cauliflower_01",
-      "status": "assigned",
+      "status": "proposed",
       "reviewEvidence": ["docs/reviews/cheesy-cauliflower-sauce.md"],
       "automatedFlags": ["teaching-review-needed"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Measure actual sauce-onlyyield and coverage for 1 lbpasta/eightportions.",
+        "Record fresh/frozen cauliflower softness and actualblender model/cooling requirements.",
+        "Test yogurt/cheddar texture on gentle reheating."
       ],
       "inputSha256": "c940a2e930c6cade6c1ce8aea2b1c6310a588f9e08e73c3d2e820cee9eb45739",
       "plannedBatch": "simmer-boil-and-steam-02",
@@ -1213,7 +1236,7 @@
     {
       "slug": "chef-krigers-recipe-shabbat-brisket",
       "path": "src/content/recipes/chef-krigers-recipe-shabbat-brisket.md",
-      "title": "Chef Kriger\u2019s Recipe Shabbat Brisket",
+      "title": "Chef Kriger’s Recipe Shabbat Brisket",
       "source": "Adapted from campmicah.com",
       "sourceUrl": "https://campmicah.com/chef-krigers-recipe-shabbat-brisket/",
       "group": null,
@@ -1285,7 +1308,7 @@
       "source": "Adapted from Lisa Gwock",
       "sourceUrl": null,
       "group": "poultry_01",
-      "status": "implemented",
+      "status": "production-verified",
       "reviewEvidence": [
         "docs/repairs/2026-09-15/changed-files.json",
         "docs/reviews/chicken-fingers.md"
@@ -1298,7 +1321,13 @@
       "plannedBatch": "poultry_01",
       "completeEditorialReview": "editorial-review; kitchen testing not performed",
       "acceptedSha256": "22a11c78c7b8dd7f603c2a2edf21e265bcc2bc017e98fbba4cad7c8fa13c9f46",
-      "implementationCommit": "760579089f83c71eb5e5ebe8f484b282b679ac3d"
+      "implementationCommit": "760579089f83c71eb5e5ebe8f484b282b679ac3d",
+      "productionVerification": {
+        "releaseCommit": "b1435040e374619f1c5d73cf73cf9f3d19f1384a",
+        "deploymentRun": 37365807822,
+        "url": "https://jordansilton.com/mise/recipes/chicken-fingers/?release=b1435040e374619f1c5d73cf73cf9f3d19f1384a",
+        "verifiedAt": "2026-10-05T19:55:44.602905+00:00"
+      }
     },
     {
       "slug": "chicken-quesadillas-with-quick-pico",
@@ -1581,7 +1610,7 @@
       "source": "Adapted from thepioneerwoman.com",
       "sourceUrl": "https://thepioneerwoman.com/cooking/chocolate-pie/",
       "group": "dessert_01",
-      "status": "implemented",
+      "status": "production-verified",
       "reviewEvidence": [
         "docs/reviews/chocolate-pie-bounded-2026-10-05.md",
         "docs/reviews/chocolate-pie.md"
@@ -1594,7 +1623,13 @@
       "plannedBatch": "dessert_01",
       "completeEditorialReview": "editorial-review; kitchen testing not performed",
       "acceptedSha256": "e8cca9801a7a6081e6d0df9e206aa843c874b69da048a2425e16d03e34f1e478",
-      "implementationCommit": "760579089f83c71eb5e5ebe8f484b282b679ac3d"
+      "implementationCommit": "760579089f83c71eb5e5ebe8f484b282b679ac3d",
+      "productionVerification": {
+        "releaseCommit": "b1435040e374619f1c5d73cf73cf9f3d19f1384a",
+        "deploymentRun": 37365807822,
+        "url": "https://jordansilton.com/mise/recipes/chocolate-pie/?release=b1435040e374619f1c5d73cf73cf9f3d19f1384a",
+        "verifiedAt": "2026-10-05T19:55:44.602905+00:00"
+      }
     },
     {
       "slug": "chocolate-protein-zucchini-muffins",
@@ -1616,7 +1651,7 @@
     {
       "slug": "chocolate-souffle",
       "path": "src/content/recipes/chocolate-souffle.md",
-      "title": "Chocolate Souffl\u00e9",
+      "title": "Chocolate Soufflé",
       "source": "Adapted from Epicurious.com",
       "sourceUrl": "http://www.epicurious.com/recipes/food/views/chocolate-souffle-106173",
       "group": null,
@@ -1951,7 +1986,7 @@
       "source": null,
       "sourceUrl": null,
       "group": "poultry_01",
-      "status": "implemented",
+      "status": "production-verified",
       "reviewEvidence": ["docs/reviews/crispy-baked-chicken-sliders.md"],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -1961,7 +1996,13 @@
       "plannedBatch": "poultry_01",
       "completeEditorialReview": "editorial-review; kitchen testing not performed",
       "acceptedSha256": "912741de603e561e82688c03df0662fcc44a46e80e40258861cf03f73f63fd07",
-      "implementationCommit": "760579089f83c71eb5e5ebe8f484b282b679ac3d"
+      "implementationCommit": "760579089f83c71eb5e5ebe8f484b282b679ac3d",
+      "productionVerification": {
+        "releaseCommit": "b1435040e374619f1c5d73cf73cf9f3d19f1384a",
+        "deploymentRun": 37365807822,
+        "url": "https://jordansilton.com/mise/recipes/crispy-baked-chicken-sliders/?release=b1435040e374619f1c5d73cf73cf9f3d19f1384a",
+        "verifiedAt": "2026-10-05T19:55:44.602905+00:00"
+      }
     },
     {
       "slug": "crispy-oven-zucchini-fries",
@@ -2021,12 +2062,13 @@
       "source": null,
       "sourceUrl": null,
       "group": "potatoes_cauliflower_01",
-      "status": "assigned",
+      "status": "proposed",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Record actualbaby size, trayload andturningbreakage.",
+        "Measure boiling/roastingtimes andcrispnesswithfull 1/4 cupoil.",
+        "Check reheatingtexture withoutclaimingidenticalfreshcrispness."
       ],
       "inputSha256": "2060e8141038aee3d5875a7abf29a72e4121e8293720af47eb60594962101630",
       "plannedBatch": "roast-grill-and-sear-01",
@@ -2089,7 +2131,7 @@
     {
       "slug": "crustless-spinach-quiche",
       "path": "src/content/recipes/crustless-spinach-quiche.md",
-      "title": "Crustless Spinach & Gruy\u00e8re Quiche",
+      "title": "Crustless Spinach & Gruyère Quiche",
       "source": "Adapted from Rebecca Cybulsky",
       "sourceUrl": null,
       "group": "egg_bakes_01",
@@ -2163,7 +2205,7 @@
       "source": "Adapted from houseofnasheats.com",
       "sourceUrl": "https://houseofnasheats.com/old-fashioned-fresh-peach-ice-cream/",
       "group": "dessert_01",
-      "status": "implemented",
+      "status": "production-verified",
       "reviewEvidence": [
         "docs/reviews/custard-peach-ice-cream-bounded-2026-10-05.md",
         "docs/reviews/custard-peach-ice-cream.md"
@@ -2176,7 +2218,13 @@
       "plannedBatch": "dessert_01",
       "completeEditorialReview": "editorial-review; kitchen testing not performed",
       "acceptedSha256": "1a718f9c36c3a77255116e7b052fdab30e685a4dbae2aee1c00ff6ad4059ca7d",
-      "implementationCommit": "760579089f83c71eb5e5ebe8f484b282b679ac3d"
+      "implementationCommit": "760579089f83c71eb5e5ebe8f484b282b679ac3d",
+      "productionVerification": {
+        "releaseCommit": "b1435040e374619f1c5d73cf73cf9f3d19f1384a",
+        "deploymentRun": 37365807822,
+        "url": "https://jordansilton.com/mise/recipes/custard-peach-ice-cream/?release=b1435040e374619f1c5d73cf73cf9f3d19f1384a",
+        "verifiedAt": "2026-10-05T19:55:44.602905+00:00"
+      }
     },
     {
       "slug": "dan-dan-noodles",
@@ -2215,7 +2263,7 @@
     {
       "slug": "doc-cheys-chicken-lo-mein",
       "path": "src/content/recipes/doc-cheys-chicken-lo-mein.md",
-      "title": "Doc Chey\u2019s Chicken Lo Mein",
+      "title": "Doc Chey’s Chicken Lo Mein",
       "source": "ajc.com",
       "sourceUrl": "https://www.ajc.com/lifestyles/food--cooking/lomein-dish-can-made-from-ingredients-hand/nm6EiZJQkRfSmBI9T8PUUK/",
       "group": null,
@@ -2786,15 +2834,17 @@
       "source": "Adapted from tasteofhome.com",
       "sourceUrl": "https://www.tasteofhome.com/recipes/frozen-blueberry-muffins/",
       "group": "baking_01",
-      "status": "proposed",
-      "reviewEvidence": [],
+      "status": "accepted",
+      "reviewEvidence": ["docs/reviews/frozen-blueberry-muffins.md"],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
         "Complete editorial review pending; automated absence of flags is not approval.",
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "85b265095dcff4a9c61d69c904f1c37a61e64b28515f2c0bba76d1d0f0cc20e7",
-      "plannedBatch": "baking_01"
+      "plannedBatch": "baking_01",
+      "acceptedSha256": "bba24897143925a129d6d1cba635f077b4e3c3e4d7a4ddccc82b77e788a17e7e",
+      "completeEditorialReview": "editorial-review; kitchen testing not performed"
     },
     {
       "slug": "funfetti-cake-from-scratch-and-an-unbirthday",
@@ -2854,12 +2904,13 @@
       "source": "Adapted from Foodnetwork.com",
       "sourceUrl": "http://www.foodnetwork.com/recipes/mock-garlic-mashed-potatoes-recipe-1942447",
       "group": "potatoes_cauliflower_01",
-      "status": "assigned",
+      "status": "proposed",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Record cauliflowerheadweight, drained yield and four portions.",
+        "Record paste product label/strength and actual salt need.",
+        "Compare warm processing/cooling model requirements, moisture and 3 tbsp buttertexture."
       ],
       "inputSha256": "bbb8f5de38cf804a8f21dc5e3c8a98d6375a084c6364ee2d800faee941ee0c66",
       "plannedBatch": "simmer-boil-and-steam-04",
@@ -2873,12 +2924,13 @@
       "source": "Adapted from tasteofhome.com",
       "sourceUrl": "https://www.tasteofhome.com/recipes/garlic-mashed-red-potatoes/",
       "group": "potatoes_cauliflower_01",
-      "status": "assigned",
+      "status": "proposed",
       "reviewEvidence": ["docs/reviews/source-restorations-2026-10-05.md"],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Record actual eight potato weight, quarter size andsixportionyield.",
+        "Record thickest quarter tenderness, potheating and full milk incorporation.",
+        "Check rustic texture and reheating with currentskins/full-fat milk."
       ],
       "inputSha256": "344821b4df1db6be93ae26a551460bb0fb26d133045e61c7a36de70b7631585a",
       "plannedBatch": "simmer-boil-and-steam-04",
@@ -2892,7 +2944,7 @@
       "source": "Adapted from Damndelicious.net",
       "sourceUrl": "http://damndelicious.net/2016/05/08/chicken-potatoes-garlic-parmesan-cream-sauce/print/",
       "group": "poultry_01",
-      "status": "implemented",
+      "status": "production-verified",
       "reviewEvidence": [
         "docs/reviews/source-restorations-2026-10-05.md",
         "docs/reviews/garlic-parmesan-chicken-potatoes.md"
@@ -2905,7 +2957,13 @@
       "plannedBatch": "poultry_01",
       "completeEditorialReview": "editorial-review; kitchen testing not performed",
       "acceptedSha256": "d7b1f162ec0795839b79d9598b3483008616fca5da76a336d03377412675b9e9",
-      "implementationCommit": "760579089f83c71eb5e5ebe8f484b282b679ac3d"
+      "implementationCommit": "760579089f83c71eb5e5ebe8f484b282b679ac3d",
+      "productionVerification": {
+        "releaseCommit": "b1435040e374619f1c5d73cf73cf9f3d19f1384a",
+        "deploymentRun": 37365807822,
+        "url": "https://jordansilton.com/mise/recipes/garlic-parmesan-chicken-potatoes/?release=b1435040e374619f1c5d73cf73cf9f3d19f1384a",
+        "verifiedAt": "2026-10-05T19:55:44.602905+00:00"
+      }
     },
     {
       "slug": "garlic-paste-toum-the-washington-post",
@@ -3016,7 +3074,7 @@
       "source": "Adapted from Foodnetwork.com",
       "sourceUrl": "https://www.foodnetwork.com/recipes/food-network-kitchen/glazed-chicken-and-broccoli-sheet-pan-dinner-3543898",
       "group": "poultry_01",
-      "status": "implemented",
+      "status": "production-verified",
       "reviewEvidence": [
         "docs/repairs/2026-09-15/changed-files.json",
         "docs/reviews/glazed-chicken-and-broccoli-sheet-pan-dinner.md"
@@ -3029,7 +3087,13 @@
       "plannedBatch": "poultry_01",
       "completeEditorialReview": "editorial-review; kitchen testing not performed",
       "acceptedSha256": "f21b4074c11c013db6a8b1f3d34b0e9663aab54bfbecd4c83bae7202846f4c13",
-      "implementationCommit": "760579089f83c71eb5e5ebe8f484b282b679ac3d"
+      "implementationCommit": "760579089f83c71eb5e5ebe8f484b282b679ac3d",
+      "productionVerification": {
+        "releaseCommit": "b1435040e374619f1c5d73cf73cf9f3d19f1384a",
+        "deploymentRun": 37365807822,
+        "url": "https://jordansilton.com/mise/recipes/glazed-chicken-and-broccoli-sheet-pan-dinner/?release=b1435040e374619f1c5d73cf73cf9f3d19f1384a",
+        "verifiedAt": "2026-10-05T19:55:44.602905+00:00"
+      }
     },
     {
       "slug": "gluten-free-lemon-cupcakes",
@@ -3085,7 +3149,7 @@
     {
       "slug": "grandmommys-pecan-pie",
       "path": "src/content/recipes/grandmommys-pecan-pie.md",
-      "title": "Grandmommy\u2019s Pecan Pie",
+      "title": "Grandmommy’s Pecan Pie",
       "source": "Adapted from Miriam Hamilton",
       "sourceUrl": null,
       "group": null,
@@ -3102,7 +3166,7 @@
     {
       "slug": "grandmommys-pound-cake",
       "path": "src/content/recipes/grandmommys-pound-cake.md",
-      "title": "Grandmommy\u2019s Pound Cake",
+      "title": "Grandmommy’s Pound Cake",
       "source": "Adapted from Miriam Hamilton",
       "sourceUrl": null,
       "group": null,
@@ -3139,8 +3203,8 @@
       "title": "Grapefruit-Basil Gin Fizz",
       "source": "Adapted from rachaelraymag.com",
       "sourceUrl": "https://www.rachaelraymag.com/recipe/grapefruit-basil-gin-fiz",
-      "group": null,
-      "status": "queued",
+      "group": "shaken_drinks_02",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -3771,7 +3835,7 @@
     {
       "slug": "katharine-hepburns-brownies",
       "path": "src/content/recipes/katharine-hepburns-brownies.md",
-      "title": "Katharine Hepburn\u2019s Brownies",
+      "title": "Katharine Hepburn’s Brownies",
       "source": "Adapted from Cooking.nytimes.com",
       "sourceUrl": "https://cooking.nytimes.com/recipes/10782-katharine-hepburns-brownies",
       "group": null,
@@ -3845,7 +3909,7 @@
       "source": "Adapted from Epicurious.com",
       "sourceUrl": "http://www.epicurious.com/recipes/food/views/key-lime-pie-108125",
       "group": "dessert_01",
-      "status": "implemented",
+      "status": "production-verified",
       "reviewEvidence": [
         "docs/reviews/key-lime-pie-bounded-2026-10-05.md",
         "docs/reviews/key-lime-pie.md"
@@ -3858,7 +3922,13 @@
       "plannedBatch": "dessert_01",
       "completeEditorialReview": "editorial-review; kitchen testing not performed",
       "acceptedSha256": "1e0ef712c72ff5e4ed9fb3f7c27eae65043a691fa8c5ba0dd1cbcb33ddef1965",
-      "implementationCommit": "760579089f83c71eb5e5ebe8f484b282b679ac3d"
+      "implementationCommit": "760579089f83c71eb5e5ebe8f484b282b679ac3d",
+      "productionVerification": {
+        "releaseCommit": "b1435040e374619f1c5d73cf73cf9f3d19f1384a",
+        "deploymentRun": 37365807822,
+        "url": "https://jordansilton.com/mise/recipes/key-lime-pie/?release=b1435040e374619f1c5d73cf73cf9f3d19f1384a",
+        "verifiedAt": "2026-10-05T19:55:44.602905+00:00"
+      }
     },
     {
       "slug": "kimchi-jjigae-kimchi-stew",
@@ -4176,8 +4246,8 @@
       "title": "Melon Daiquiri",
       "source": "Adapted from The Ritz-Carlton, Cancun",
       "sourceUrl": null,
-      "group": null,
-      "status": "queued",
+      "group": "shaken_drinks_02",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -4190,7 +4260,7 @@
     {
       "slug": "miriams-melt-in-your-mouth-rosh-hashanah-brisket",
       "path": "src/content/recipes/miriams-melt-in-your-mouth-rosh-hashanah-brisket.md",
-      "title": "Miriam\u2019s Melt-In-Your-Mouth Rosh Hashanah Brisket",
+      "title": "Miriam’s Melt-In-Your-Mouth Rosh Hashanah Brisket",
       "source": "Adapted from Chabad.org",
       "sourceUrl": "https://www.chabad.org/recipes/recipe_cdo/aid/2635033/jewish/Miriams-Melt-in-Your-Mouth-Rosh-Hashanah-Brisket.htm",
       "group": null,
@@ -4347,7 +4417,7 @@
     {
       "slug": "nana-ruths-applesauce",
       "path": "src/content/recipes/nana-ruths-applesauce.md",
-      "title": "Nana Ruth\u2019s Applesauce",
+      "title": "Nana Ruth’s Applesauce",
       "source": "Adapted from Ruth Shankman",
       "sourceUrl": null,
       "group": null,
@@ -4364,7 +4434,7 @@
     {
       "slug": "nanas-biscuits",
       "path": "src/content/recipes/nanas-biscuits.md",
-      "title": "Nana\u2019s Biscuits",
+      "title": "Nana’s Biscuits",
       "source": null,
       "sourceUrl": null,
       "group": null,
@@ -4471,7 +4541,7 @@
       "source": "Adapted from Addapinch.com",
       "sourceUrl": "https://addapinch.com/old-fashioned-vanilla-ice-cream-recipe/",
       "group": "dessert_01",
-      "status": "implemented",
+      "status": "production-verified",
       "reviewEvidence": [
         "docs/reviews/old-fashioned-vanilla-ice-cream-bounded-2026-10-05.md",
         "docs/reviews/old-fashioned-vanilla-ice-cream.md"
@@ -4484,7 +4554,13 @@
       "plannedBatch": "dessert_01",
       "completeEditorialReview": "editorial-review; kitchen testing not performed",
       "acceptedSha256": "fc58b826d21d263c4c5336a72e1c48caba7ed6bad82e9cc1f3949d47f40c876d",
-      "implementationCommit": "760579089f83c71eb5e5ebe8f484b282b679ac3d"
+      "implementationCommit": "760579089f83c71eb5e5ebe8f484b282b679ac3d",
+      "productionVerification": {
+        "releaseCommit": "b1435040e374619f1c5d73cf73cf9f3d19f1384a",
+        "deploymentRun": 37365807822,
+        "url": "https://jordansilton.com/mise/recipes/old-fashioned-vanilla-ice-cream/?release=b1435040e374619f1c5d73cf73cf9f3d19f1384a",
+        "verifiedAt": "2026-10-05T19:55:44.602905+00:00"
+      }
     },
     {
       "slug": "old-fashioned",
@@ -4661,7 +4737,7 @@
     {
       "slug": "parishs-blueberry-crisp",
       "path": "src/content/recipes/parishs-blueberry-crisp.md",
-      "title": "Parish\u2019s Blueberry Crisp",
+      "title": "Parish’s Blueberry Crisp",
       "source": "Adapted from Parish",
       "sourceUrl": "https://www.myajc.com/lifestyles/food--cooking/brown-butter-key-parish-blueberry-crisp/ht0uxKmxnFIptyggBS5fpL/",
       "group": null,
@@ -4906,8 +4982,8 @@
       "title": "Prohibition-Style Gin Lemon Fizz",
       "source": null,
       "sourceUrl": null,
-      "group": null,
-      "status": "queued",
+      "group": "shaken_drinks_02",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -5022,7 +5098,7 @@
     {
       "slug": "quick-lamb-ragu",
       "path": "src/content/recipes/quick-lamb-ragu.md",
-      "title": "Lamb Rag\u00f9",
+      "title": "Lamb Ragù",
       "source": "Adapted from cooking.nytimes.com",
       "sourceUrl": "https://cooking.nytimes.com/recipes/1020022-quick-lamb-ragu?smid=ck-recipe-iOS-share",
       "group": null,
@@ -5144,8 +5220,8 @@
       "title": "Red Zone Margarita",
       "source": null,
       "sourceUrl": null,
-      "group": null,
-      "status": "queued",
+      "group": "shaken_drinks_02",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -5944,15 +6020,17 @@
       "source": "Adapted from Foodandwine.com",
       "sourceUrl": "http://www.foodandwine.com/recipes/skillet-biscuits-berries",
       "group": "baking_01",
-      "status": "proposed",
-      "reviewEvidence": ["docs/repairs/2026-09-10/changed-files.json"],
+      "status": "accepted",
+      "reviewEvidence": ["docs/reviews/skillet-biscuits-with-berries.md"],
       "automatedFlags": ["teaching-review-needed"],
       "remainingQuestions": [
         "Complete editorial review pending; automated absence of flags is not approval.",
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "846a7b84e2a95dc7fcdbf5957475b8a9947f5b6a5b10ac08e5315e939871f2ed",
-      "plannedBatch": "baking_01"
+      "plannedBatch": "baking_01",
+      "acceptedSha256": "87fc356634c302370f3af67c9d37ecc1675892e74bdad3cc31eabba6751d7565",
+      "completeEditorialReview": "editorial-review; kitchen testing not performed"
     },
     {
       "slug": "skinny-baked-broccoli-macaroni-and-cheese",
@@ -6248,7 +6326,7 @@
     {
       "slug": "spiced-butternut-squash-puree",
       "path": "src/content/recipes/spiced-butternut-squash-puree.md",
-      "title": "Butternut Squash Pur\u00e9e",
+      "title": "Butternut Squash Purée",
       "source": "Adapted from Silton Family",
       "sourceUrl": null,
       "group": null,
@@ -6285,8 +6363,8 @@
       "title": "Grapefruit Gin Fizz",
       "source": null,
       "sourceUrl": null,
-      "group": null,
-      "status": "queued",
+      "group": "shaken_drinks_02",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -6350,7 +6428,7 @@
     {
       "slug": "stevens-margs",
       "path": "src/content/recipes/stevens-margs.md",
-      "title": "Steven\u2019s Margaritas",
+      "title": "Steven’s Margaritas",
       "source": null,
       "sourceUrl": null,
       "group": null,
@@ -6490,7 +6568,7 @@
       "source": "Adapted from smittenkitchen.com",
       "sourceUrl": "https://smittenkitchen.com/2011/05/strawberry-summer-cake/",
       "group": "dessert_01",
-      "status": "implemented",
+      "status": "production-verified",
       "reviewEvidence": [
         "docs/reviews/strawberry-summer-cake-bounded-2026-10-05.md",
         "docs/reviews/strawberry-summer-cake.md"
@@ -6503,7 +6581,13 @@
       "plannedBatch": "dessert_01",
       "completeEditorialReview": "editorial-review; kitchen testing not performed",
       "acceptedSha256": "a1fb990915e7a55af9ab1f5f02bc90fecd04d96a82c4c9c849aa0e876fed19de",
-      "implementationCommit": "760579089f83c71eb5e5ebe8f484b282b679ac3d"
+      "implementationCommit": "760579089f83c71eb5e5ebe8f484b282b679ac3d",
+      "productionVerification": {
+        "releaseCommit": "b1435040e374619f1c5d73cf73cf9f3d19f1384a",
+        "deploymentRun": 37365807822,
+        "url": "https://jordansilton.com/mise/recipes/strawberry-summer-cake/?release=b1435040e374619f1c5d73cf73cf9f3d19f1384a",
+        "verifiedAt": "2026-10-05T19:55:44.602905+00:00"
+      }
     },
     {
       "slug": "strozzapreti-with-spinach-and-preserved-lemon",
@@ -6699,12 +6783,13 @@
       "source": "Adapted from Craig Plummer",
       "sourceUrl": null,
       "group": "potatoes_cauliflower_01",
-      "status": "assigned",
+      "status": "held",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "ConfirmCraig-intendedpotato/oil/tarragon/salt amounts andportionplan.",
+        "Restoreexplicitunpeeled1–1.5inchcontext afterformuladecision;preservenativeexactoriginal.",
+        "Confirmbutterinitialversushalfwayvariant andactualdishcapacity."
       ],
       "inputSha256": "903070120e6211b4b338db29a3801a17d308572ebd59e220328c293c750efefc",
       "plannedBatch": "baked-savory-and-breads-11",
@@ -6971,7 +7056,7 @@
     {
       "slug": "vieux-carre",
       "path": "src/content/recipes/vieux-carre.md",
-      "title": "Vieux Carr\u00e9",
+      "title": "Vieux Carré",
       "source": null,
       "sourceUrl": null,
       "group": "stirred_drinks_01",
@@ -7044,8 +7129,8 @@
       "title": "Whiskey Sour",
       "source": null,
       "sourceUrl": null,
-      "group": null,
-      "status": "queued",
+      "group": "shaken_drinks_02",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -7113,15 +7198,17 @@
       "source": "Adapted from tastesbetterfromscratch.com",
       "sourceUrl": "https://tastesbetterfromscratch.com/yellow-cake/",
       "group": "baking_01",
-      "status": "proposed",
-      "reviewEvidence": ["docs/repairs/2026-09-10/changed-files.json"],
+      "status": "accepted",
+      "reviewEvidence": ["docs/reviews/yellow-cake-with-chocolate-frosting.md"],
       "automatedFlags": ["teaching-review-needed"],
       "remainingQuestions": [
         "Complete editorial review pending; automated absence of flags is not approval.",
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "adaa51bf97d813d848c7c5ffc2d47803a5c98ca62d3fad355f0185474bec3956",
-      "plannedBatch": "baking_01"
+      "plannedBatch": "baking_01",
+      "acceptedSha256": "94db3006ddca9b74fd63c11e8ebf83ceb157ee1482107f9ed9b2f7482db9e867",
+      "completeEditorialReview": "editorial-review; kitchen testing not performed"
     },
     {
       "slug": "yogurt-dipping-sauce",

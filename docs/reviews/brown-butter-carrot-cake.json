@@ -1,0 +1,1161 @@
+{
+  "slug": "brown-butter-carrot-cake",
+  "status": "accepted-editorial-review; production verification pending",
+  "inputCommit": "e922e95ee275aee6289e7225914045d273154791",
+  "inputSha256": "6947c313c7c788829f19fd07c55a37b5b6687f844f3b6a52876b9beea48df7c6",
+  "changedFields": [
+    {
+      "field": "cookingMethods",
+      "before": ["bake", "no-cook"],
+      "after": ["bake", "simmer", "no-cook"]
+    },
+    {
+      "field": "cookTime",
+      "before": "40 min",
+      "after": "35–45 min"
+    },
+    {
+      "field": "totalTime",
+      "before": "3 hr",
+      "after": "About 3 hours (includes butter and cake cooling)"
+    },
+    {
+      "field": "servings",
+      "before": "12",
+      "after": "12 portions"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "3/4 cup Unsalted Butter, browned and cooled",
+        "1 lb Carrots, finely grated",
+        "1 cup Buttermilk",
+        "4 large Eggs, room temperature",
+        "1 cup Granulated Sugar",
+        "3/4 cup Light Brown Sugar",
+        "2 1/2 cups All-Purpose Flour",
+        "2 tsp Cinnamon + 2 tsp Ginger",
+        "1/2 tsp Nutmeg",
+        "2 tsp Baking Powder + 3/4 tsp Baking Soda",
+        "1 1/2 tsp Kosher Salt",
+        "12 oz Cream Cheese, softened",
+        "3/4 cup Butter, softened",
+        "4 cups Powdered Sugar",
+        "2 tsp Vanilla Extract, for the cake",
+        "1 tsp Vanilla Extract, for the frosting"
+      ],
+      "after": [
+        "--- Brown-butter carrot cake ---",
+        "butter or neutral oil, for greasing the pans and parchment",
+        "3/4 cup unsalted butter, measured before browning",
+        "1 lb carrots, finely grated",
+        "1 cup buttermilk",
+        "4 large eggs, at room temperature",
+        "1 cup granulated sugar",
+        "3/4 cup light brown sugar, packed",
+        "2 tsp vanilla extract",
+        "2 1/2 cups all-purpose flour",
+        "2 tsp ground cinnamon",
+        "2 tsp ground ginger",
+        "1/2 tsp ground nutmeg",
+        "2 tsp baking powder",
+        "3/4 tsp baking soda",
+        "1 1/2 tsp light, hollow-flake kosher salt",
+        "--- Cream-cheese frosting ---",
+        "12 oz cream cheese, softened",
+        "3/4 cup butter, softened",
+        "4 cups powdered sugar",
+        "1 tsp vanilla extract"
+      ]
+    },
+    {
+      "field": "equipment",
+      "before": null,
+      "after": ["cake-pans", "stand-mixer", "saucepan", "cooling-rack"]
+    },
+    {
+      "field": "formula",
+      "before": null,
+      "after": {
+        "version": 1,
+        "yield": {
+          "amount": 12,
+          "unit": "portion"
+        },
+        "components": [
+          {
+            "id": "cake",
+            "name": "Brown-butter carrot cake",
+            "ingredients": [
+              {
+                "id": "pan-fat",
+                "key": "butter-or-neutral-oil",
+                "name": "butter or neutral oil",
+                "allowance": "for greasing the pans and parchment",
+                "uses": [
+                  {
+                    "step": "prepare",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "butter",
+                "key": "unsalted-butter",
+                "name": "unsalted butter",
+                "quantity": {
+                  "amount": "3/4",
+                  "unit": "cup"
+                },
+                "preparation": "measured before browning",
+                "uses": [
+                  {
+                    "step": "brown-butter",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "carrots",
+                "key": "carrots",
+                "name": "carrots",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "lb"
+                },
+                "preparation": "finely grated",
+                "uses": [
+                  {
+                    "step": "carrots",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "buttermilk",
+                "key": "buttermilk",
+                "name": "buttermilk",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "carrots",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "eggs",
+                "key": "eggs",
+                "name": "large egg",
+                "plural": "large eggs",
+                "quantity": {
+                  "amount": 4,
+                  "unit": "count"
+                },
+                "preparation": "at room temperature",
+                "uses": [
+                  {
+                    "step": "eggs",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "sugar",
+                "key": "sugar",
+                "name": "granulated sugar",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "eggs",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "brown-sugar",
+                "key": "brown-sugar",
+                "name": "light brown sugar",
+                "quantity": {
+                  "amount": "3/4",
+                  "unit": "cup"
+                },
+                "preparation": "packed",
+                "uses": [
+                  {
+                    "step": "eggs",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "vanilla",
+                "key": "vanilla-extract",
+                "name": "vanilla extract",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "eggs",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "flour",
+                "key": "all-purpose-flour",
+                "name": "all-purpose flour",
+                "quantity": {
+                  "amount": "2 1/2",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "dry",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "cinnamon",
+                "key": "cinnamon",
+                "name": "ground cinnamon",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "dry",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "ginger",
+                "key": "ginger",
+                "name": "ground ginger",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "dry",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "nutmeg",
+                "key": "nutmeg",
+                "name": "ground nutmeg",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "dry",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "baking-powder",
+                "key": "baking-powder",
+                "name": "baking powder",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "dry",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "baking-soda",
+                "key": "baking-soda",
+                "name": "baking soda",
+                "quantity": {
+                  "amount": "3/4",
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "dry",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "salt",
+                "key": "light-flake-kosher-salt",
+                "name": "light, hollow-flake kosher salt",
+                "quantity": {
+                  "amount": "1 1/2",
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "dry",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "frosting",
+            "name": "Cream-cheese frosting",
+            "ingredients": [
+              {
+                "id": "cream-cheese",
+                "key": "cream-cheese",
+                "name": "cream cheese",
+                "quantity": {
+                  "amount": 12,
+                  "unit": "oz"
+                },
+                "preparation": "softened",
+                "uses": [
+                  {
+                    "step": "frosting",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "butter",
+                "key": "butter",
+                "name": "butter",
+                "quantity": {
+                  "amount": "3/4",
+                  "unit": "cup"
+                },
+                "preparation": "softened",
+                "uses": [
+                  {
+                    "step": "frosting",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "sugar",
+                "key": "sugar",
+                "name": "powdered sugar",
+                "quantity": {
+                  "amount": 4,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "frosting",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "vanilla",
+                "key": "vanilla-extract",
+                "name": "vanilla extract",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "frosting",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "id": "prepare",
+            "title": "Prepare the oven and pans",
+            "text": "Heat the oven to 350°F. Use {{ingredients}} to grease two 9-inch round cake pans, line the bottoms with parchment and grease the parchment."
+          },
+          {
+            "id": "brown-butter",
+            "title": "Brown and cool the butter",
+            "text": "Melt the cake’s {{ingredients}} over medium heat in a light-colored saucepan. Stir and scrape the bottom as it foams; when the milk solids are golden brown and smell nutty, immediately pour everything, including the brown solids, into a heatproof bowl. Let cool to lukewarm while preparing the other ingredients."
+          },
+          {
+            "id": "carrots",
+            "title": "Prepare the carrot mixture",
+            "text": "Combine the {{ingredients}} in a bowl."
+          },
+          {
+            "id": "dry",
+            "title": "Mix the dry ingredients",
+            "text": "Whisk the cake’s {{ingredients}} together thoroughly in a separate bowl."
+          },
+          {
+            "id": "eggs",
+            "title": "Beat the eggs and sugars",
+            "text": "Beat the cake’s {{ingredients}} for about 4 minutes until pale and thick. Reduce the mixer speed and gradually stream in the cooled brown butter, including its browned solids, just until incorporated."
+          },
+          {
+            "id": "combine",
+            "title": "Finish the batter",
+            "text": "Add the dry mixture in three additions, alternating with the carrot-buttermilk mixture in two additions; begin and end with the dry mixture. Scrape the bowl and mix only until no dry pockets remain. Divide evenly between the prepared pans."
+          },
+          {
+            "id": "bake",
+            "title": "Bake and cool",
+            "text": "Bake for 35–45 minutes, until a tester inserted in the center comes out clean. Set the pans on racks for 10 minutes, loosen the edges, turn out and remove the parchment. Let the layers cool completely before frosting."
+          },
+          {
+            "id": "frosting",
+            "title": "Make the frosting",
+            "text": "While the cakes cool, beat the frosting’s {{ingredients}}: first smooth the cream cheese and softened butter together, then mix in powdered sugar gradually on low speed with the vanilla. Beat until smooth and spreadable."
+          },
+          {
+            "id": "assemble",
+            "title": "Layer and frost",
+            "text": "Spread frosting between the completely cooled cake layers and over the top and sides. Refrigerate the frosted cake until serving; let only the portion being served lose its refrigerator chill."
+          }
+        ]
+      }
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Brown butter without scorching it and incorporate it into an egg-based cake batter.",
+        "outcome": "Nutty-smelling butter with golden solids, evenly baked carrot layers and a smooth frosting on completely cooled cake.",
+        "techniques": ["leavening", "temperature"],
+        "before": [
+          "Measure the cake’s butter before browning. Use all of the resulting brown butter and milk solids; do not top it up to a new volume.",
+          "Use two matching 9-inch round pans and finely grated carrots. Keep the cake’s 2 tsp vanilla separate from the frosting’s 1 tsp.",
+          "The listed salt volume is for light, hollow flakes. Dense coarse kosher salt and fine salt are not interchangeable by spoon volume.",
+          "For multiples, make separate original-size cakes with the stated number and size of pans so layer depth stays the same. A smaller batch needs appropriately smaller pans and earlier center checks; do not put a reduced batch into the original pans and assume the original bake time. Pan dimensions and baking time do not multiply with portions."
+        ],
+        "checkpoints": [
+          {
+            "step": 2,
+            "cue": "Golden-brown solids and a nutty aroma appear beneath the foam, without black specks or an acrid smell.",
+            "why": "Residual pan heat continues browning; transferring the butter promptly prevents scorching."
+          },
+          {
+            "step": 5,
+            "cue": "Eggs and sugars are pale and thick before the lukewarm butter is streamed in.",
+            "why": "Beating the eggs before adding liquid fat gives them a chance to aerate; hot butter can cook them locally."
+          },
+          {
+            "step": 7,
+            "cue": "A center tester comes out clean, and the layers are completely cool before frosting.",
+            "why": "The moist carrots make a fully baked center essential; warm cake softens the cream-cheese frosting."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Butter smells acrid or has black solids",
+            "cause": "The milk solids burned in the hot pan.",
+            "fix": "Discard it and start the butter stage again. Straining out visible solids cannot reliably remove the burnt flavor."
+          },
+          {
+            "problem": "Frosting becomes loose",
+            "cause": "The butter, cream cheese or cake layers are too warm.",
+            "fix": "Cool the layers completely; chill the frosting briefly and beat again until spreadable. Do not add unmeasured powdered sugar as the first correction."
+          },
+          {
+            "problem": "Cake center is wet when the timer ends",
+            "cause": "Carrot moisture, batter depth and oven performance vary.",
+            "fix": "Continue baking until the center tester is clean; protect a darkening top with a loose sheet of foil."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Finely grated carrots",
+            "alternative": "Do not substitute packaged shredded carrots directly",
+            "effect": "Thicker, drier shreds can remain conspicuous and change the cake’s moisture; grate whole carrots to match the written preparation."
+          },
+          {
+            "ingredient": "Browned butter",
+            "alternative": "Do not replace it with an equal spoon volume of oil as a shortcut",
+            "effect": "The fat composition and flavor change. Measure and brown the specified starting butter to retain this version’s identity."
+          }
+        ],
+        "timing": "Allow about 3 hours from ready ingredients: roughly 45 minutes preparation including grating, browning and butter cooling, 35–45 minutes baking, then complete cake cooling and frosting. Prepare carrots and dry ingredients while the brown butter cools; make frosting while the layers cool. Very cold ingredients or a warm room can extend the clock.",
+        "storage": "Refrigerate the cream-cheese-frosted cake, covered, at 40°F or below and use within 3–4 days. Count frosting-ingredient softening, assembly and service toward a maximum of 2 hours unrefrigerated, or 1 hour above 90°F. Freeze wrapped slices for longer storage and thaw in the refrigerator. The frosting and crumb will soften as a serving portion loses its chill.",
+        "sources": [
+          {
+            "title": "Bon Appétit — BA’s Best Carrot Cake",
+            "url": "https://www.bonappetit.com/recipe/bas-best-carrot-cake"
+          },
+          {
+            "title": "PJ Hamel — How to make brown butter, King Arthur Baking",
+            "url": "https://www.kingarthurbaking.com/blog/2020/01/08/brown-butter"
+          },
+          {
+            "title": "FDA — Are You Storing Food Safely?",
+            "url": "https://www.fda.gov/consumers/consumer-updates/are-you-storing-food-safely"
+          },
+          {
+            "title": "USDA FSIS — Keep Food Safe! Food Safety Basics",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/steps-keep-food-safe"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-05"
+        }
+      }
+    },
+    {
+      "field": "body",
+      "before": "\n## Chef's Note\n\nThis is the **Bravetart Upgrade** to the BA classic. We replace generic vegetable oil with **Brown Butter**, which provides a nutty, toasted depth that standard carrot cakes lack. We also use **Buttermilk** to ensure a tender, moist crumb that stays fresh for days. This is a true technical dish dessert that rewards the extra effort of browning and grating.\n\n## Directions\n\n1.  **Brown the Butter:** Melt the butter listed for the cake until dark golden and smelling like hazelnuts. Cool.\n2.  **Batter:** Whisk the brown butter, both sugars, eggs, and the cake vanilla for 4 minutes until pale and thick.\n3.  **Fold:** Whisk together the dry ingredients. Add to the butter mixture in 3 parts, alternating with the buttermilk and carrots.\n4.  **Bake:** Pour into two 9-inch lined pans. Bake at 350°F for 35-45 minutes. Cool completely.\n5.  **Frosting:** Beat cream cheese and butter until smooth. Add powdered sugar and the frosting vanilla.\n6.  **Assemble:** Layer and frost the cakes generously.\n",
+      "after": "\n## Chef's Note\n\nBrowned butter brings a toasted aroma to this carrot cake, alongside ginger, cinnamon and tangy cream-cheese frosting. Watch the milk solids rather than the foam, and pour the butter out of the hot pan as soon as it turns golden brown; keep those browned solids for the batter.\n\n## Directions\n\n1. **Prepare the oven and pans:** Heat the oven to 350°F. Use butter or neutral oil to grease two 9-inch round cake pans, line the bottoms with parchment and grease the parchment.\n2. **Brown and cool the butter:** Melt the cake’s unsalted butter over medium heat in a light-colored saucepan. Stir and scrape the bottom as it foams; when the milk solids are golden brown and smell nutty, immediately pour everything, including the brown solids, into a heatproof bowl. Let cool to lukewarm while preparing the other ingredients.\n3. **Prepare the carrot mixture:** Combine the carrots and buttermilk in a bowl.\n4. **Mix the dry ingredients:** Whisk the cake’s all-purpose flour, ground cinnamon, ground ginger, ground nutmeg, baking powder, baking soda, and light, hollow-flake kosher salt together thoroughly in a separate bowl.\n5. **Beat the eggs and sugars:** Beat the cake’s large eggs, granulated sugar, light brown sugar, and vanilla extract for about 4 minutes until pale and thick. Reduce the mixer speed and gradually stream in the cooled brown butter, including its browned solids, just until incorporated.\n6. **Finish the batter:** Add the dry mixture in three additions, alternating with the carrot-buttermilk mixture in two additions; begin and end with the dry mixture. Scrape the bowl and mix only until no dry pockets remain. Divide evenly between the prepared pans.\n7. **Bake and cool:** Bake for 35–45 minutes, until a tester inserted in the center comes out clean. Set the pans on racks for 10 minutes, loosen the edges, turn out and remove the parchment. Let the layers cool completely before frosting.\n8. **Make the frosting:** While the cakes cool, beat the frosting’s cream cheese, butter, powdered sugar, and vanilla extract: first smooth the cream cheese and softened butter together, then mix in powdered sugar gradually on low speed with the vanilla. Beat until smooth and spreadable.\n9. **Layer and frost:** Spread frosting between the completely cooled cake layers and over the top and sides. Refrigerate the frosted cake until serving; let only the portion being served lose its refrigerator chill.\n"
+    }
+  ],
+  "checks": {
+    "inputHashVerified": true,
+    "formulaSchema": "pass",
+    "generatedFields": "pass after authored peer correction",
+    "formulaAllocations": "pass",
+    "checkpointRanges": "pass",
+    "linkedRecipes": "pass",
+    "editorialIssues": [],
+    "focusedRecipeLint": "pass",
+    "sourceAndIdentityPreservation": {
+      "title": true,
+      "source": true,
+      "sourceUrl": true,
+      "pairsWith": true,
+      "aliases": true
+    },
+    "quantityScalingHalfDoubleReset": "ingredients/yield unchanged; authored method no longer forces original count"
+  },
+  "ledger": {
+    "frozenInput": [
+      {
+        "originalQuantityAndPreparation": "3/4 cup Unsalted Butter, browned and cooled",
+        "originalDestination": "browning, step 1; returned in step 2",
+        "proposedIngredientIds": ["cake.butter"],
+        "proposedDestinations": [
+          {
+            "ingredientId": "cake.butter",
+            "step": "brown-butter",
+            "share": 1
+          }
+        ],
+        "allocationFinding": "quantity preserved; destination explicit"
+      },
+      {
+        "originalQuantityAndPreparation": "1 lb Carrots, finely grated",
+        "originalDestination": "fold, step 3",
+        "proposedIngredientIds": ["cake.carrots"],
+        "proposedDestinations": [
+          {
+            "ingredientId": "cake.carrots",
+            "step": "carrots",
+            "share": 1
+          }
+        ],
+        "allocationFinding": "quantity preserved; destination explicit"
+      },
+      {
+        "originalQuantityAndPreparation": "1 cup Buttermilk",
+        "originalDestination": "fold, step 3",
+        "proposedIngredientIds": ["cake.buttermilk"],
+        "proposedDestinations": [
+          {
+            "ingredientId": "cake.buttermilk",
+            "step": "carrots",
+            "share": 1
+          }
+        ],
+        "allocationFinding": "quantity preserved; destination explicit"
+      },
+      {
+        "originalQuantityAndPreparation": "4 large Eggs, room temperature",
+        "originalDestination": "beat, step 2",
+        "proposedIngredientIds": ["cake.eggs"],
+        "proposedDestinations": [
+          {
+            "ingredientId": "cake.eggs",
+            "step": "eggs",
+            "share": 1
+          }
+        ],
+        "allocationFinding": "quantity preserved; destination explicit"
+      },
+      {
+        "originalQuantityAndPreparation": "1 cup Granulated Sugar",
+        "originalDestination": "beat, step 2",
+        "proposedIngredientIds": ["cake.sugar"],
+        "proposedDestinations": [
+          {
+            "ingredientId": "cake.sugar",
+            "step": "eggs",
+            "share": 1
+          }
+        ],
+        "allocationFinding": "quantity preserved; destination explicit"
+      },
+      {
+        "originalQuantityAndPreparation": "3/4 cup Light Brown Sugar",
+        "originalDestination": "beat, step 2",
+        "proposedIngredientIds": ["cake.brown-sugar"],
+        "proposedDestinations": [
+          {
+            "ingredientId": "cake.brown-sugar",
+            "step": "eggs",
+            "share": 1
+          }
+        ],
+        "allocationFinding": "quantity preserved; destination explicit"
+      },
+      {
+        "originalQuantityAndPreparation": "2 1/2 cups All-Purpose Flour",
+        "originalDestination": "dry/fold, step 3",
+        "proposedIngredientIds": ["cake.flour"],
+        "proposedDestinations": [
+          {
+            "ingredientId": "cake.flour",
+            "step": "dry",
+            "share": 1
+          }
+        ],
+        "allocationFinding": "quantity preserved; destination explicit"
+      },
+      {
+        "originalQuantityAndPreparation": "2 tsp Cinnamon + 2 tsp Ginger",
+        "originalDestination": "dry/fold, step 3",
+        "proposedIngredientIds": ["cake.cinnamon", "cake.ginger"],
+        "proposedDestinations": [
+          {
+            "ingredientId": "cake.cinnamon",
+            "step": "dry",
+            "share": 1
+          },
+          {
+            "ingredientId": "cake.ginger",
+            "step": "dry",
+            "share": 1
+          }
+        ],
+        "allocationFinding": "quantity preserved; destination explicit"
+      },
+      {
+        "originalQuantityAndPreparation": "1/2 tsp Nutmeg",
+        "originalDestination": "dry/fold, step 3",
+        "proposedIngredientIds": ["cake.nutmeg"],
+        "proposedDestinations": [
+          {
+            "ingredientId": "cake.nutmeg",
+            "step": "dry",
+            "share": 1
+          }
+        ],
+        "allocationFinding": "quantity preserved; destination explicit"
+      },
+      {
+        "originalQuantityAndPreparation": "2 tsp Baking Powder + 3/4 tsp Baking Soda",
+        "originalDestination": "dry/fold, step 3",
+        "proposedIngredientIds": ["cake.baking-powder", "cake.baking-soda"],
+        "proposedDestinations": [
+          {
+            "ingredientId": "cake.baking-powder",
+            "step": "dry",
+            "share": 1
+          },
+          {
+            "ingredientId": "cake.baking-soda",
+            "step": "dry",
+            "share": 1
+          }
+        ],
+        "allocationFinding": "quantity preserved; destination explicit"
+      },
+      {
+        "originalQuantityAndPreparation": "1 1/2 tsp Kosher Salt",
+        "originalDestination": "dry/fold, step 3",
+        "proposedIngredientIds": ["cake.salt"],
+        "proposedDestinations": [
+          {
+            "ingredientId": "cake.salt",
+            "step": "dry",
+            "share": 1
+          }
+        ],
+        "allocationFinding": "quantity preserved; destination explicit"
+      },
+      {
+        "originalQuantityAndPreparation": "12 oz Cream Cheese, softened",
+        "originalDestination": "frosting, step 5",
+        "proposedIngredientIds": ["frosting.cream-cheese"],
+        "proposedDestinations": [
+          {
+            "ingredientId": "frosting.cream-cheese",
+            "step": "frosting",
+            "share": 1
+          }
+        ],
+        "allocationFinding": "quantity preserved; destination explicit"
+      },
+      {
+        "originalQuantityAndPreparation": "3/4 cup Butter, softened",
+        "originalDestination": "frosting, step 5",
+        "proposedIngredientIds": ["frosting.butter"],
+        "proposedDestinations": [
+          {
+            "ingredientId": "frosting.butter",
+            "step": "frosting",
+            "share": 1
+          }
+        ],
+        "allocationFinding": "quantity preserved; destination explicit"
+      },
+      {
+        "originalQuantityAndPreparation": "4 cups Powdered Sugar",
+        "originalDestination": "frosting, step 5",
+        "proposedIngredientIds": ["frosting.sugar"],
+        "proposedDestinations": [
+          {
+            "ingredientId": "frosting.sugar",
+            "step": "frosting",
+            "share": 1
+          }
+        ],
+        "allocationFinding": "quantity preserved; destination explicit"
+      },
+      {
+        "originalQuantityAndPreparation": "2 tsp Vanilla Extract, for the cake",
+        "originalDestination": "beat, step 2; prior allocation repair retained",
+        "proposedIngredientIds": ["cake.vanilla"],
+        "proposedDestinations": [
+          {
+            "ingredientId": "cake.vanilla",
+            "step": "eggs",
+            "share": 1
+          }
+        ],
+        "allocationFinding": "quantity preserved; destination explicit"
+      },
+      {
+        "originalQuantityAndPreparation": "1 tsp Vanilla Extract, for the frosting",
+        "originalDestination": "frosting, step 5; prior allocation repair retained",
+        "proposedIngredientIds": ["frosting.vanilla"],
+        "proposedDestinations": [
+          {
+            "ingredientId": "frosting.vanilla",
+            "step": "frosting",
+            "share": 1
+          }
+        ],
+        "allocationFinding": "quantity preserved; destination explicit"
+      }
+    ],
+    "proposed": [
+      {
+        "component": "cake",
+        "ingredientId": "pan-fat",
+        "quantity": null,
+        "allowance": "for greasing the pans and parchment",
+        "preparation": null,
+        "uses": [
+          {
+            "step": "prepare",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "component": "cake",
+        "ingredientId": "butter",
+        "quantity": {
+          "amount": "3/4",
+          "unit": "cup"
+        },
+        "allowance": null,
+        "preparation": "measured before browning",
+        "uses": [
+          {
+            "step": "brown-butter",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "component": "cake",
+        "ingredientId": "carrots",
+        "quantity": {
+          "amount": 1,
+          "unit": "lb"
+        },
+        "allowance": null,
+        "preparation": "finely grated",
+        "uses": [
+          {
+            "step": "carrots",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "component": "cake",
+        "ingredientId": "buttermilk",
+        "quantity": {
+          "amount": 1,
+          "unit": "cup"
+        },
+        "allowance": null,
+        "preparation": null,
+        "uses": [
+          {
+            "step": "carrots",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "component": "cake",
+        "ingredientId": "eggs",
+        "quantity": {
+          "amount": 4,
+          "unit": "count"
+        },
+        "allowance": null,
+        "preparation": "at room temperature",
+        "uses": [
+          {
+            "step": "eggs",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "component": "cake",
+        "ingredientId": "sugar",
+        "quantity": {
+          "amount": 1,
+          "unit": "cup"
+        },
+        "allowance": null,
+        "preparation": null,
+        "uses": [
+          {
+            "step": "eggs",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "component": "cake",
+        "ingredientId": "brown-sugar",
+        "quantity": {
+          "amount": "3/4",
+          "unit": "cup"
+        },
+        "allowance": null,
+        "preparation": "packed",
+        "uses": [
+          {
+            "step": "eggs",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "component": "cake",
+        "ingredientId": "vanilla",
+        "quantity": {
+          "amount": 2,
+          "unit": "tsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "uses": [
+          {
+            "step": "eggs",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "component": "cake",
+        "ingredientId": "flour",
+        "quantity": {
+          "amount": "2 1/2",
+          "unit": "cup"
+        },
+        "allowance": null,
+        "preparation": null,
+        "uses": [
+          {
+            "step": "dry",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "component": "cake",
+        "ingredientId": "cinnamon",
+        "quantity": {
+          "amount": 2,
+          "unit": "tsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "uses": [
+          {
+            "step": "dry",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "component": "cake",
+        "ingredientId": "ginger",
+        "quantity": {
+          "amount": 2,
+          "unit": "tsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "uses": [
+          {
+            "step": "dry",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "component": "cake",
+        "ingredientId": "nutmeg",
+        "quantity": {
+          "amount": "1/2",
+          "unit": "tsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "uses": [
+          {
+            "step": "dry",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "component": "cake",
+        "ingredientId": "baking-powder",
+        "quantity": {
+          "amount": 2,
+          "unit": "tsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "uses": [
+          {
+            "step": "dry",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "component": "cake",
+        "ingredientId": "baking-soda",
+        "quantity": {
+          "amount": "3/4",
+          "unit": "tsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "uses": [
+          {
+            "step": "dry",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "component": "cake",
+        "ingredientId": "salt",
+        "quantity": {
+          "amount": "1 1/2",
+          "unit": "tsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "uses": [
+          {
+            "step": "dry",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "component": "frosting",
+        "ingredientId": "cream-cheese",
+        "quantity": {
+          "amount": 12,
+          "unit": "oz"
+        },
+        "allowance": null,
+        "preparation": "softened",
+        "uses": [
+          {
+            "step": "frosting",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "component": "frosting",
+        "ingredientId": "butter",
+        "quantity": {
+          "amount": "3/4",
+          "unit": "cup"
+        },
+        "allowance": null,
+        "preparation": "softened",
+        "uses": [
+          {
+            "step": "frosting",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "component": "frosting",
+        "ingredientId": "sugar",
+        "quantity": {
+          "amount": 4,
+          "unit": "cup"
+        },
+        "allowance": null,
+        "preparation": null,
+        "uses": [
+          {
+            "step": "frosting",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "component": "frosting",
+        "ingredientId": "vanilla",
+        "quantity": {
+          "amount": 1,
+          "unit": "tsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "uses": [
+          {
+            "step": "frosting",
+            "share": 1
+          }
+        ]
+      }
+    ],
+    "unassignedAfterProposal": [],
+    "multiplyAllocatedAfterProposal": []
+  },
+  "kitchenQuestions": [
+    "Weigh starting and finished brown butter and record solids transfer; assess whether the inherited oil-to-butter adaptation gives the intended moist crumb.",
+    "Record the actual salt product/density and mass for the written light-flake spoon measure.",
+    "Check fine-carrot moisture, layer depth and whether the revised staged aeration changes rise or tenderness."
+  ],
+  "processGraph": "Oven/pans → brown measured starting butter → transfer/cool while grating and mixing dry/carrot components → beat eggs/sugars/vanilla → stream lukewarm butter → alternate dry/carrot-buttermilk → divide → 35–45-minute bake → ten-minute pan cool → rack cooling → frosting/assembly. Frosting overlaps layer cooling. Three-hour estimate assumes ready softened ingredients and two pans in one oven load.",
+  "proposedSha256": "a252f966544234e4cce25f2e772a2b8189ffa5d3dfaf20e1937a5877be3a7d36",
+  "riskFlags": {
+    "safety": true,
+    "ratio": true,
+    "yield": "not physically measured",
+    "substitution": "bounded recipe-specific alternatives only; no guessed quantity",
+    "provenance": "current identity/attribution retained",
+    "duplicate": "none; current carrot alias preserved",
+    "scaling": "Existing ingredient controls preserved; explicit pan/mound geometry guidance remains unchanged.",
+    "unsupportedClaim": "old guarantees removed; no test or nutrition claim added"
+  },
+  "findings": [
+    {
+      "category": "Brown-butter quantity",
+      "before": "“3/4 cup … browned and cooled” can read as final volume, while method melts the listed butter.",
+      "after": "“3/4 cup unsalted butter, measured before browning”; use the complete resulting butter and solids without topping up.",
+      "rationale": "9002a113 method explicitly says “Melt the 3/4 cup butter”; same method in 9bbe8f25. BB establishes water loss, not a new amount.",
+      "confidence": "High for historical starting measurement; adapted fat balance is untested."
+    },
+    {
+      "category": "Aeration sequence",
+      "before": "Beat brown butter, sugars and eggs together for four minutes.",
+      "after": "Beat eggs/sugars/vanilla until pale and thick, then stream in lukewarm brown butter.",
+      "rationale": "C’s staged egg/fat sequence; current adaptation retains all fat and liquids.",
+      "confidence": "Moderate: same egg/sugar base, different fat; validate crumb in the kitchen."
+    },
+    {
+      "category": "Salt density",
+      "before": "1 1/2 tsp generic kosher salt.",
+      "after": "Keep 1 1/2 tsp and specify light, hollow-flake kosher salt; warn against an equal-volume dense/fine substitution.",
+      "rationale": "C current density-specific alternatives; existing Mise salt review documents flake/dense difference.",
+      "confidence": "High for avoiding equal spoon interchange; target weight is not supplied."
+    },
+    {
+      "category": "Preparation/cooling",
+      "before": "No explicit oven preheat or pan greasing; bake only says “Cool completely.”",
+      "after": "Prepare oven and grease/parchment first; add center tester, ten-minute pan cooling, release and complete rack cooling.",
+      "rationale": "Current ledger; saved original/C sequence.",
+      "confidence": "High for clear process; no new pan dimensions."
+    },
+    {
+      "category": "Attribution claim",
+      "before": "“Bravetart Upgrade” implies a source not actually linked or established.",
+      "after": "Remove that unsupported attribution from Chef’s Note; retain the existing Bon Appétit source and brown-butter title/alias.",
+      "rationale": "Committed rewrite establishes an internal adaptation, not a Stella Parks recipe.",
+      "confidence": "High."
+    },
+    {
+      "category": "peer scaling correction",
+      "field": "learning.before (new scaling note)",
+      "before": null,
+      "after": "For multiples, make separate original-size cakes with the stated number and size of pans so layer depth stays the same. A smaller batch needs appropriately smaller pans and earlier center checks; do not put a reduced batch into the original pans and assume the original bake time. Pan dimensions and baking time do not multiply with portions.",
+      "rationale": "Fixed-pan geometry remains the original recipe; give useful manual-batch guidance without inventing smaller-pan dimensions or clocks.",
+      "confidence": "high for geometry; exact smaller pans remain a kitchen question",
+      "evidence": [
+        "Root-approved independent capacity correction",
+        "Original formula yield and fixed cup/mound geometry"
+      ]
+    }
+  ],
+  "ratioAndYield": "Retain starting 3/4 cup butter, 1 lb carrots, 1 cup buttermilk, four eggs, 1 cup white sugar, 3/4 cup light brown sugar, 2 1/2 cups flour and all listed spices/leaveners. Brown butter is an existing distinct adaptation of an oil formula; its lower final fat yield is a test question, not grounds to add guessed butter or water. Keep finely grated carrots and current light-brown-sugar identity. Restore no nuts/rum/raisins into this distinct version. Preserve the 12 oz cream cheese, 3/4 cup frosting butter, 4 cups powdered sugar and separate 2 tsp/1 tsp vanilla. Two 9-inch layers and twelve portions remain.",
+  "sourceDisagreements": "C is an oil-based cake with coarser carrots, dark brown sugar, walnuts and optional raisins/rum; Mise is a retained brown-butter, fine-carrot, light-brown-sugar variant. No formula averaging, oil restoration, nuts or water compensation is proposed. The source’s salt density distinction narrows the meaning of the unchanged spoon quantity. No claim that Stella Parks authored or tested this adaptation survives.",
+  "fourLenses": "Practicality: grating, butter cooling and layer cooling earn a project schedule. Tradition: retain the current carrot-cake variation and its real publication link. Technique: brown milk solids without burning, aerate eggs before liquid fat and cool cake before cream-cheese frosting. Balance: preserve all richness and ginger/cinnamon/nutmeg with frosting tang.",
+  "acceptedSha256": "e84583288402fdf87e3f043fdfb8de16a9d009b63acea8f232419f642c7ae184",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/baking-sources.md",
+  "independentAcceptance": [
+    "docs/editorial-campaign/2026-10-05/baking-independent.md",
+    "docs/editorial-campaign/2026-10-05/baking-controls-independent.md"
+  ],
+  "rootCorrections": [
+    {
+      "field": "scaling",
+      "before": {
+        "mode": "fixed",
+        "reason": "Written for two 9-inch round cake layers and their frosting. Make separate batches to preserve layer depth; pan dimensions and cooking time do not scale with portions."
+      },
+      "after": null,
+      "rationale": "Preserve existing ingredient quantity controls as explicitly requested. Keep authored pan/mound capacity cautions; ingredient arithmetic does not multiply dimensions, temperatures or time.",
+      "confidence": "high"
+    }
+  ],
+  "notKitchenTested": true
+}

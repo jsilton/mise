@@ -67,6 +67,22 @@ for (const row of confirmed) {
               ]
         );
         assert(!data.ingredients.includes(component.input));
+      } else if (row.slug === 'yellow-cake-with-chocolate-frosting' && row.caseId === 78) {
+        // Preserve the compound parser regression while checking its authored split.
+        assert.equal(data.formula?.version, 1);
+        const cake = data.formula.components.find((c) => c.id === 'cake');
+        for (const [id, amount] of [
+          ['eggs', 3],
+          ['yolks', 2],
+        ]) {
+          const ingredient = cake.ingredients.find((i) => i.id === id);
+          assert.equal(ingredient.quantity.amount, amount);
+          assert.deepEqual(ingredient.uses, [{ step: 'eggs', share: 1 }]);
+          for (const factor of factors) {
+            const scaled = formatFormulaIngredient(ingredient, factor);
+            assert.equal(numeric(scaled.match(number)[0]), amount * factor);
+          }
+        }
       } else {
         assert.ok(
           data.ingredients.includes(component.input),

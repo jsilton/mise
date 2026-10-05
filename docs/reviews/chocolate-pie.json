@@ -1,6 +1,6 @@
 {
   "slug": "chocolate-pie",
-  "status": "accepted-editorial-review; production verification pending",
+  "status": "accepted-editorial-review; production-verified",
   "inputSha256": "127c33571935d74066cb51615e943556c1234ab47c3bada0b1accd001618cd1e",
   "acceptedSha256": "e8cca9801a7a6081e6d0df9e206aa843c874b69da048a2425e16d03e34f1e478",
   "notKitchenTested": true,
@@ -92,5 +92,11 @@
       "after": "\n## Chef's Note\n\nThis chocolate cream pie uses a cooked pudding filling. Stir until it bubbles and thickens, then take it off the heat before melting in the chopped chocolate. Keep the surface covered during chilling for a smooth top; the center must be cold before slicing.\n\n## Directions\n\n1.  **The Base:** Have the baked, cooled crust and chopped chocolate ready before heating the filling. In a medium saucepan, whisk together sugar, cornstarch, and salt.\n2.  **Emulsify:** Slowly whisk in the milk and egg yolks until the mixture is perfectly smooth.\n3.  **The Cook:** Cook over medium heat, stirring constantly, until the mixture begins bubbling and becomes thick and glossy like pudding. Start checking around 6-8 minutes, but continue if still thin; the texture, not the clock, determines when to stop.\n4.  **The Melt:** Remove from heat immediately. Stir in the chopped bittersweet chocolate, butter, and vanilla. Whisk until the chocolate is completely melted and the filling is uniform.\n5.  **The Finish:** Pour the hot filling into the cooled pie crust without overfilling; refrigerate any extra pudding separately in small dishes. Press a piece of plastic wrap directly onto the surface of the pudding to prevent a \"skin\" from forming.\n6.  **Chill:** Refrigerate for **at least 4 hours**, keeping the wrap against the surface, until the filling is cold and set.\n7.  **Serve:** Top with billowy whipped cream and shaved chocolate for contrast.\n\n## Cooking Notes\n\nThe linked Apple Pie supplies dough, not a blind-baking method: use its dough only, not its apple filling, egg wash or filled-pie baking schedule. For a homemade shell using the linked two-crust Apple Pie dough, use one half of that dough for a single 9-inch pie shell; reserve the other half for another use. Fit and crimp the shell, line with parchment and fill about two-thirds with pie weights. Chill 30 minutes, bake at 375°F for about 20 minutes, remove parchment and weights, prick the bottom and bake another 15–20 minutes until golden across the base. Shield edges if needed and cool completely before filling. Follow package directions instead for a purchased crust, and use a pan rated for the baking temperature.\n"
     }
   ],
-  "rootCorrections": []
+  "rootCorrections": [],
+  "productionVerification": {
+    "releaseCommit": "b1435040e374619f1c5d73cf73cf9f3d19f1384a",
+    "deploymentRun": 37365807822,
+    "url": "https://jordansilton.com/mise/recipes/chocolate-pie/?release=b1435040e374619f1c5d73cf73cf9f3d19f1384a",
+    "verifiedAt": "2026-10-05T19:55:44.602905+00:00"
+  }
 }

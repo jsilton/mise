@@ -1,6 +1,6 @@
 {
   "slug": "old-fashioned-vanilla-ice-cream",
-  "status": "accepted-editorial-review; production verification pending",
+  "status": "accepted-editorial-review; production-verified",
   "inputSha256": "ed302a33fc8231ce2e31e8d1caa9ef437a32ac79d0c4b63c3f2a6137d24ffaec",
   "acceptedSha256": "fc58b826d21d263c4c5336a72e1c48caba7ed6bad82e9cc1f3949d47f40c876d",
   "notKitchenTested": true,
@@ -99,5 +99,11 @@
       "before": ["simmer", "boil"],
       "after": ["simmer"]
     }
-  ]
+  ],
+  "productionVerification": {
+    "releaseCommit": "b1435040e374619f1c5d73cf73cf9f3d19f1384a",
+    "deploymentRun": 37365807822,
+    "url": "https://jordansilton.com/mise/recipes/old-fashioned-vanilla-ice-cream/?release=b1435040e374619f1c5d73cf73cf9f3d19f1384a",
+    "verifiedAt": "2026-10-05T19:55:44.602905+00:00"
+  }
 }

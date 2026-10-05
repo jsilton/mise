@@ -2,7 +2,7 @@
   "slug": "air-fryer-chicken-tenders",
   "inputCommit": "e922e95ee275aee6289e7225914045d273154791",
   "inputSha256": "a8633d88f587f60bc92cb6e34b086910610f4a74379cb46b3773bb7f91dc8589",
-  "status": "accepted-editorial-review; production verification pending",
+  "status": "accepted-editorial-review; production-verified",
   "reviewDate": "2026-10-05",
   "notKitchenTested": true,
   "findings": [
@@ -1097,5 +1097,11 @@
       ]
     }
   ],
-  "rootCorrections": []
+  "rootCorrections": [],
+  "productionVerification": {
+    "releaseCommit": "b1435040e374619f1c5d73cf73cf9f3d19f1384a",
+    "deploymentRun": 37365807822,
+    "url": "https://jordansilton.com/mise/recipes/air-fryer-chicken-tenders/?release=b1435040e374619f1c5d73cf73cf9f3d19f1384a",
+    "verifiedAt": "2026-10-05T19:55:44.602905+00:00"
+  }
 }

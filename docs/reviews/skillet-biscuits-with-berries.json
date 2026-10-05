@@ -1,0 +1,972 @@
+{
+  "slug": "skillet-biscuits-with-berries",
+  "status": "accepted-editorial-review; production verification pending",
+  "inputCommit": "e922e95ee275aee6289e7225914045d273154791",
+  "inputSha256": "846a7b84e2a95dc7fcdbf5957475b8a9947f5b6a5b10ac08e5315e939871f2ed",
+  "changedFields": [
+    {
+      "field": "cookingMethods",
+      "before": ["bake", "simmer", "boil", "steam", "no-cook"],
+      "after": ["simmer", "boil", "steam", "broil", "no-cook"]
+    },
+    {
+      "field": "equipment",
+      "before": ["large-skillet"],
+      "after": ["deep-broiler-safe-skillet", "skillet-lid"]
+    },
+    {
+      "field": "cookTime",
+      "before": "40 min",
+      "after": "30 min"
+    },
+    {
+      "field": "totalTime",
+      "before": "50 min",
+      "after": "About 50 min (includes heating and brief cooling)"
+    },
+    {
+      "field": "servings",
+      "before": "8",
+      "after": "8 portions"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "1 1/2 cups All-Purpose Flour",
+        "2 tbsp Light Brown Sugar, for the dough",
+        "1 1/2 tsp Baking Powder",
+        "1/2 tsp Salt",
+        "1 1/2 sticks (12 tbsp) Unsalted Butter, cold and cubed",
+        "1/4 cup + 2 tbsp Half-and-Half",
+        "12 oz Raspberries + 12 oz Blackberries",
+        "3/4 cup Granulated Sugar, for the berries",
+        "Additional Granulated Sugar, for sprinkling",
+        "1 cup Water, for the berries",
+        "1 1/2 tsp Orange Zest",
+        "1 Cinnamon Stick (The complex flavor)",
+        "Sweetened Whipped Cream"
+      ],
+      "after": [
+        "--- Biscuit dough ---",
+        "1 1/2 cups all-purpose flour",
+        "2 tbsp light brown sugar",
+        "1 1/2 tsp baking powder",
+        "1/2 tsp salt",
+        "12 tbsp (1 1/2 sticks) unsalted butter, cold, cut into small cubes",
+        "3/8 cup (6 tbsp) half-and-half",
+        "--- Berries and sauce ---",
+        "12 oz raspberries",
+        "12 oz blackberries",
+        "3/4 cup granulated sugar",
+        "1 cup water",
+        "1 1/2 tsp finely grated orange zest",
+        "1 cinnamon stick",
+        "--- Topping and serving ---",
+        "additional granulated sugar, for sprinkling",
+        "sweetened whipped cream, for serving"
+      ]
+    },
+    {
+      "field": "formula",
+      "before": null,
+      "after": {
+        "version": 1,
+        "yield": {
+          "amount": 8,
+          "unit": "portion"
+        },
+        "components": [
+          {
+            "id": "dough",
+            "name": "Biscuit dough",
+            "ingredients": [
+              {
+                "id": "flour",
+                "key": "all-purpose-flour",
+                "name": "all-purpose flour",
+                "quantity": {
+                  "amount": "1 1/2",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "dry",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "sugar",
+                "key": "sugar",
+                "name": "light brown sugar",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "dry",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "baking-powder",
+                "key": "baking-powder",
+                "name": "baking powder",
+                "quantity": {
+                  "amount": "1 1/2",
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "dry",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "salt",
+                "key": "salt",
+                "name": "salt",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "dry",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "butter",
+                "key": "unsalted-butter",
+                "name": "unsalted butter",
+                "quantity": {
+                  "amount": 12,
+                  "unit": "tbsp"
+                },
+                "equivalents": [
+                  {
+                    "amount": "1 1/2",
+                    "unit": "stick"
+                  }
+                ],
+                "preparation": "cold, cut into small cubes",
+                "uses": [
+                  {
+                    "step": "butter",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "half-and-half",
+                "key": "half-and-half",
+                "name": "half-and-half",
+                "quantity": {
+                  "amount": "3/8",
+                  "unit": "cup"
+                },
+                "equivalents": [
+                  {
+                    "amount": 6,
+                    "unit": "tbsp"
+                  }
+                ],
+                "uses": [
+                  {
+                    "step": "dough",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "berries",
+            "name": "Berries and sauce",
+            "ingredients": [
+              {
+                "id": "raspberries",
+                "key": "raspberries",
+                "name": "raspberries",
+                "quantity": {
+                  "amount": 12,
+                  "unit": "oz"
+                },
+                "uses": [
+                  {
+                    "step": "berries",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "blackberries",
+                "key": "blackberries",
+                "name": "blackberries",
+                "quantity": {
+                  "amount": 12,
+                  "unit": "oz"
+                },
+                "uses": [
+                  {
+                    "step": "berries",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "sugar",
+                "key": "sugar",
+                "name": "granulated sugar",
+                "quantity": {
+                  "amount": "3/4",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "berries",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "water",
+                "key": "water",
+                "name": "water",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "cup"
+                },
+                "role": "cooking-water",
+                "uses": [
+                  {
+                    "step": "berries",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "zest",
+                "key": "zest",
+                "name": "finely grated orange zest",
+                "quantity": {
+                  "amount": "1 1/2",
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "berries",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "cinnamon",
+                "key": "cinnamon",
+                "name": "cinnamon stick",
+                "plural": "cinnamon sticks",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "count"
+                },
+                "role": "discarded",
+                "uses": [
+                  {
+                    "step": "berries",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "finish",
+            "name": "Topping and serving",
+            "ingredients": [
+              {
+                "id": "sugar",
+                "key": "sugar",
+                "name": "additional granulated sugar",
+                "allowance": "for sprinkling",
+                "uses": [
+                  {
+                    "step": "broil",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "cream",
+                "key": "cream",
+                "name": "sweetened whipped cream",
+                "allowance": "for serving",
+                "uses": [
+                  {
+                    "step": "serve",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "id": "dry",
+            "title": "Mix the dough ingredients",
+            "text": "In a large bowl combine the dough’s {{ingredients}}."
+          },
+          {
+            "id": "butter",
+            "title": "Cut in the butter",
+            "text": "Cut the {{ingredients}} into the dry mixture with a pastry blender or fingertips until the mixture is coarse with small pieces of butter still visible."
+          },
+          {
+            "id": "dough",
+            "title": "Shape the mounds",
+            "text": "Stir in the {{ingredients}} just until evenly moistened. Scoop one loose mound per listed portion, keeping the mounds approximately the original size; the original batch makes eight. Set them on a parchment-lined tray and keep the dough cool while the berries cook."
+          },
+          {
+            "id": "berries",
+            "title": "Simmer the berries",
+            "text": "Position an oven rack about 6 inches below the broiler and preheat the broiler according to its instructions. In a large, deep skillet approved for broiling, combine the berries’ {{ingredients}}. Bring to a vigorous boil, then reduce to a moderate simmer and cook, stirring occasionally, for about 10 minutes until the berries are juicy and just broken down."
+          },
+          {
+            "id": "steam",
+            "title": "Steam the biscuits",
+            "text": "Arrange the dough mounds over the bubbling fruit in a single layer with room to expand. The original batch uses eight mounds; for a different quantity use a suitably smaller skillet or additional skillets rather than crowding or increasing mound size. Cover with a fitting lid and simmer over very low heat for about 15 minutes, until the biscuit tops are springy and the centers are cooked through. Check a center biscuit for moist crumb rather than raw dough; if needed, cover and continue simmering before broiling."
+          },
+          {
+            "id": "broil",
+            "title": "Brown the tops",
+            "text": "Remove the lid and sprinkle the biscuits with {{ingredients}}. Broil about 6 inches from the heat for up to 5 minutes, watching continuously and shifting the pan as needed, until lightly browned in spots. Stop sooner if they brown quickly; broiling does not replace cooking the centers."
+          },
+          {
+            "id": "serve",
+            "title": "Cool slightly and serve",
+            "text": "Let the skillet cool slightly, remove and discard the cinnamon stick, then serve biscuits and berries warm with {{ingredients}}. Handle the hot skillet and handle with oven mitts."
+          }
+        ]
+      }
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Steam a biscuit topping through before browning its surface.",
+        "outcome": "Springy, cooked biscuit centers with lightly browned tops over juicy berries, without raw dough or scorched syrup.",
+        "techniques": ["leavening", "temperature"],
+        "before": [
+          "Use a large, deep skillet with a fitting lid and handles approved for the broiler’s temperature. Oven-safe does not automatically mean broiler-safe.",
+          "The original batch makes eight loose mounds. For a different quantity, make one similarly sized mound per listed portion and choose suitably smaller or additional broiler-safe skillets with lids so the mounds stay in one layer with room to expand. Do not increase mound size or shorten steaming time in direct proportion to servings.",
+          "Keep butter cold and handle the dough briefly. Prepare the broiler rack before the skillet becomes hot."
+        ],
+        "checkpoints": [
+          {
+            "step": 4,
+            "cue": "Berries are juicy and just beginning to break down after the moderate simmer.",
+            "why": "An extended vigorous boil evaporates water faster and can leave too little liquid for the covered biscuit stage."
+          },
+          {
+            "step": 5,
+            "cue": "Biscuits are springy, with moist cooked crumb in the center rather than sticky raw dough.",
+            "why": "The covered simmer cooks the centers; surface browning alone would conceal undercooked dough."
+          },
+          {
+            "step": 6,
+            "cue": "Tops are lightly browned in spots before the sugar blackens.",
+            "why": "Broilers vary in intensity, so continuous observation matters more than the five-minute ceiling."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Tops brown while the centers remain raw",
+            "cause": "The covered cooking stage ended too early.",
+            "fix": "Verify the centers before broiling. If they are still doughy, cover and continue the very-low simmer; do not try to cook them through with longer broiling."
+          },
+          {
+            "problem": "Fruit scorches during the covered stage",
+            "cause": "Heat is too high or the fruit was over-reduced.",
+            "fix": "Lower the heat immediately. Do not scrape burnt syrup into the sauce; badly scorched fruit cannot be repaired."
+          },
+          {
+            "problem": "Biscuits are tough",
+            "cause": "Dough was overworked after the half-and-half went in.",
+            "fix": "Stop stirring as soon as the dough is evenly moistened and scoop loose mounds. Extra liquid after cooking will not reverse toughness."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Raspberries and blackberries",
+            "alternative": "Keep the written berry mix for this batch",
+            "effect": "Different fruit sizes and water content change breakdown and sauce volume; a frozen-fruit or stone-fruit version needs its own timing check."
+          }
+        ],
+        "timing": "Allow about 50 minutes: around 10 minutes dough preparation, time to bring the fruit to a boil, a 10-minute moderate simmer, roughly 15 minutes covered cooking, up to 5 minutes broiling and brief cooling. Preheat the broiler during berry cooking. Additional covered time may be needed if the biscuit centers are still doughy.",
+        "storage": "Serve the biscuits warm for the best contrast. Refrigerate leftover biscuits and fruit in a shallow covered container within 2 hours, or 1 hour above 90°F, at 40°F or below; use within 3–4 days. Store whipped cream separately and keep it cold. Reheat the fruit and biscuits to 165°F; the biscuit tops will soften during storage.",
+        "sources": [
+          {
+            "title": "Food & Wine — Skillet Biscuits with Berries",
+            "url": "https://www.foodandwine.com/recipes/skillet-biscuits-berries"
+          },
+          {
+            "title": "Nicolet College — Professional Baking: Quick Breads",
+            "url": "https://nicoletcollege.pressbooks.pub/professionalbaking/chapter/quick-breads/"
+          },
+          {
+            "title": "FDA — Are You Storing Food Safely?",
+            "url": "https://www.fda.gov/consumers/consumer-updates/are-you-storing-food-safely"
+          },
+          {
+            "title": "USDA FSIS — Keep Food Safe! Food Safety Basics",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/steps-keep-food-safe"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-05"
+        }
+      }
+    },
+    {
+      "field": "body",
+      "before": "\n## Chef's Note\n\nThis is cobbler's close cousin - a skillet dish where biscuits cook directly over fruit, then get a final broiler char for textural contrast. The trick is simmering low and covered first so the biscuits cook through gently without browning, then finishing under the broiler for that crucial crunch against soft fruit and creamy whipped cream.\n\n## Directions\n\n1.  **The Dough:** In a bowl, cut cold butter into flour, brown sugar, baking powder, and salt until pea-sized. Stir in half-and-half until a shaggy dough forms. Scoop into 8 loose balls.\n2.  **The Reduction:** In a large ovenproof skillet, combine 3/4 cup sugar, berries, orange zest, cinnamon, and 1 cup water. Boil vigorously for 10 minutes until berries are broken down.\n3.  **Assemble:** Arrange the dough mounds on top of the bubbling fruit.\n4.  **Cook:** Cover the skillet. Simmer over **very low** heat for 15 minutes until the biscuits are springy and cooked through.\n5.  **The Crunch:** Remove lid. Sprinkle biscuits with sugar. Place the ovenproof skillet about 6 inches below the **broiler** and watch continuously, shifting the pan if needed. Broil for up to 5 minutes, stopping when the biscuit tops are lightly browned in spots.\n6.  **Serve:** Serve warm from the skillet with a massive dollop of whipped cream for the final **High Note**.\n",
+      "after": "\n## Chef's Note\n\nThese butter-rich biscuit mounds steam over berries before a brief broiler finish. Keep the lid on over very low heat until the biscuit centers are cooked, then watch the broiler closely for lightly browned tops against the soft fruit.\n\n## Directions\n\n1. **Mix the dough ingredients:** In a large bowl combine the dough’s all-purpose flour, light brown sugar, baking powder, and salt.\n2. **Cut in the butter:** Cut the unsalted butter into the dry mixture with a pastry blender or fingertips until the mixture is coarse with small pieces of butter still visible.\n3. **Shape the mounds:** Stir in the half-and-half just until evenly moistened. Scoop one loose mound per listed portion, keeping the mounds approximately the original size; the original batch makes eight. Set them on a parchment-lined tray and keep the dough cool while the berries cook.\n4. **Simmer the berries:** Position an oven rack about 6 inches below the broiler and preheat the broiler according to its instructions. In a large, deep skillet approved for broiling, combine the berries’ raspberries, blackberries, granulated sugar, water, finely grated orange zest, and cinnamon stick. Bring to a vigorous boil, then reduce to a moderate simmer and cook, stirring occasionally, for about 10 minutes until the berries are juicy and just broken down.\n5. **Steam the biscuits:** Arrange the dough mounds over the bubbling fruit in a single layer with room to expand. The original batch uses eight mounds; for a different quantity use a suitably smaller skillet or additional skillets rather than crowding or increasing mound size. Cover with a fitting lid and simmer over very low heat for about 15 minutes, until the biscuit tops are springy and the centers are cooked through. Check a center biscuit for moist crumb rather than raw dough; if needed, cover and continue simmering before broiling.\n6. **Brown the tops:** Remove the lid and sprinkle the biscuits with additional granulated sugar. Broil about 6 inches from the heat for up to 5 minutes, watching continuously and shifting the pan as needed, until lightly browned in spots. Stop sooner if they brown quickly; broiling does not replace cooking the centers.\n7. **Cool slightly and serve:** Let the skillet cool slightly, remove and discard the cinnamon stick, then serve biscuits and berries warm with sweetened whipped cream. Handle the hot skillet and handle with oven mitts.\n"
+    }
+  ],
+  "checks": {
+    "inputHashVerified": true,
+    "formulaSchema": "pass",
+    "generatedFields": "pass after authored peer correction",
+    "formulaAllocations": "pass",
+    "checkpointRanges": "pass",
+    "linkedRecipes": "pass",
+    "editorialIssues": [],
+    "focusedRecipeLint": "pass",
+    "sourceAndIdentityPreservation": {
+      "title": true,
+      "source": true,
+      "sourceUrl": true,
+      "pairsWith": true,
+      "aliases": true
+    },
+    "quantityScalingHalfDoubleReset": "ingredients/yield unchanged; authored method no longer forces original count"
+  },
+  "ledger": {
+    "frozenInput": [
+      {
+        "originalQuantityAndPreparation": "1 1/2 cups All-Purpose Flour",
+        "originalDestination": "dough, step 1",
+        "proposedIngredientIds": ["dough.flour"],
+        "proposedDestinations": [
+          {
+            "ingredientId": "dough.flour",
+            "step": "dry",
+            "share": 1
+          }
+        ],
+        "allocationFinding": "quantity preserved; destination explicit"
+      },
+      {
+        "originalQuantityAndPreparation": "2 tbsp Light Brown Sugar, for the dough",
+        "originalDestination": "dough, step 1",
+        "proposedIngredientIds": ["dough.sugar"],
+        "proposedDestinations": [
+          {
+            "ingredientId": "dough.sugar",
+            "step": "dry",
+            "share": 1
+          }
+        ],
+        "allocationFinding": "quantity preserved; destination explicit"
+      },
+      {
+        "originalQuantityAndPreparation": "1 1/2 tsp Baking Powder",
+        "originalDestination": "dough, step 1; prior repair retained",
+        "proposedIngredientIds": ["dough.baking-powder"],
+        "proposedDestinations": [
+          {
+            "ingredientId": "dough.baking-powder",
+            "step": "dry",
+            "share": 1
+          }
+        ],
+        "allocationFinding": "quantity preserved; destination explicit"
+      },
+      {
+        "originalQuantityAndPreparation": "1/2 tsp Salt",
+        "originalDestination": "dough, step 1",
+        "proposedIngredientIds": ["dough.salt"],
+        "proposedDestinations": [
+          {
+            "ingredientId": "dough.salt",
+            "step": "dry",
+            "share": 1
+          }
+        ],
+        "allocationFinding": "quantity preserved; destination explicit"
+      },
+      {
+        "originalQuantityAndPreparation": "1 1/2 sticks (12 tbsp) Unsalted Butter, cold and cubed",
+        "originalDestination": "cut in, step 1",
+        "proposedIngredientIds": ["dough.butter"],
+        "proposedDestinations": [
+          {
+            "ingredientId": "dough.butter",
+            "step": "butter",
+            "share": 1
+          }
+        ],
+        "allocationFinding": "quantity preserved; destination explicit"
+      },
+      {
+        "originalQuantityAndPreparation": "1/4 cup + 2 tbsp Half-and-Half",
+        "originalDestination": "dough, step 1",
+        "proposedIngredientIds": ["dough.half-and-half"],
+        "proposedDestinations": [
+          {
+            "ingredientId": "dough.half-and-half",
+            "step": "dough",
+            "share": 1
+          }
+        ],
+        "allocationFinding": "quantity preserved; destination explicit"
+      },
+      {
+        "originalQuantityAndPreparation": "12 oz Raspberries + 12 oz Blackberries",
+        "originalDestination": "fruit, step 2",
+        "proposedIngredientIds": ["berries.raspberries", "berries.blackberries"],
+        "proposedDestinations": [
+          {
+            "ingredientId": "berries.raspberries",
+            "step": "berries",
+            "share": 1
+          },
+          {
+            "ingredientId": "berries.blackberries",
+            "step": "berries",
+            "share": 1
+          }
+        ],
+        "allocationFinding": "quantity preserved; destination explicit"
+      },
+      {
+        "originalQuantityAndPreparation": "3/4 cup Granulated Sugar, for the berries",
+        "originalDestination": "fruit, step 2",
+        "proposedIngredientIds": ["berries.sugar"],
+        "proposedDestinations": [
+          {
+            "ingredientId": "berries.sugar",
+            "step": "berries",
+            "share": 1
+          }
+        ],
+        "allocationFinding": "quantity preserved; destination explicit"
+      },
+      {
+        "originalQuantityAndPreparation": "Additional Granulated Sugar, for sprinkling",
+        "originalDestination": "sprinkle, step 5",
+        "proposedIngredientIds": ["finish.sugar"],
+        "proposedDestinations": [
+          {
+            "ingredientId": "finish.sugar",
+            "step": "broil",
+            "share": 1
+          }
+        ],
+        "allocationFinding": "quantity preserved; destination explicit"
+      },
+      {
+        "originalQuantityAndPreparation": "1 cup Water, for the berries",
+        "originalDestination": "fruit, step 2; prior recovery retained",
+        "proposedIngredientIds": ["berries.water"],
+        "proposedDestinations": [
+          {
+            "ingredientId": "berries.water",
+            "step": "berries",
+            "share": 1
+          }
+        ],
+        "allocationFinding": "quantity preserved; destination explicit"
+      },
+      {
+        "originalQuantityAndPreparation": "1 1/2 tsp Orange Zest",
+        "originalDestination": "fruit, step 2",
+        "proposedIngredientIds": ["berries.zest"],
+        "proposedDestinations": [
+          {
+            "ingredientId": "berries.zest",
+            "step": "berries",
+            "share": 1
+          }
+        ],
+        "allocationFinding": "quantity preserved; destination explicit"
+      },
+      {
+        "originalQuantityAndPreparation": "1 Cinnamon Stick (The complex flavor)",
+        "originalDestination": "fruit, step 2; current method lacks discard",
+        "proposedIngredientIds": ["berries.cinnamon"],
+        "proposedDestinations": [
+          {
+            "ingredientId": "berries.cinnamon",
+            "step": "berries",
+            "share": 1
+          }
+        ],
+        "allocationFinding": "quantity preserved; destination explicit"
+      },
+      {
+        "originalQuantityAndPreparation": "Sweetened Whipped Cream",
+        "originalDestination": "serving, step 6",
+        "proposedIngredientIds": ["finish.cream"],
+        "proposedDestinations": [
+          {
+            "ingredientId": "finish.cream",
+            "step": "serve",
+            "share": 1
+          }
+        ],
+        "allocationFinding": "quantity preserved; destination explicit"
+      }
+    ],
+    "proposed": [
+      {
+        "component": "dough",
+        "ingredientId": "flour",
+        "quantity": {
+          "amount": "1 1/2",
+          "unit": "cup"
+        },
+        "allowance": null,
+        "preparation": null,
+        "uses": [
+          {
+            "step": "dry",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "component": "dough",
+        "ingredientId": "sugar",
+        "quantity": {
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "uses": [
+          {
+            "step": "dry",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "component": "dough",
+        "ingredientId": "baking-powder",
+        "quantity": {
+          "amount": "1 1/2",
+          "unit": "tsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "uses": [
+          {
+            "step": "dry",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "component": "dough",
+        "ingredientId": "salt",
+        "quantity": {
+          "amount": "1/2",
+          "unit": "tsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "uses": [
+          {
+            "step": "dry",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "component": "dough",
+        "ingredientId": "butter",
+        "quantity": {
+          "amount": 12,
+          "unit": "tbsp"
+        },
+        "allowance": null,
+        "preparation": "cold, cut into small cubes",
+        "uses": [
+          {
+            "step": "butter",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "component": "dough",
+        "ingredientId": "half-and-half",
+        "quantity": {
+          "amount": "3/8",
+          "unit": "cup"
+        },
+        "allowance": null,
+        "preparation": null,
+        "uses": [
+          {
+            "step": "dough",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "component": "berries",
+        "ingredientId": "raspberries",
+        "quantity": {
+          "amount": 12,
+          "unit": "oz"
+        },
+        "allowance": null,
+        "preparation": null,
+        "uses": [
+          {
+            "step": "berries",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "component": "berries",
+        "ingredientId": "blackberries",
+        "quantity": {
+          "amount": 12,
+          "unit": "oz"
+        },
+        "allowance": null,
+        "preparation": null,
+        "uses": [
+          {
+            "step": "berries",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "component": "berries",
+        "ingredientId": "sugar",
+        "quantity": {
+          "amount": "3/4",
+          "unit": "cup"
+        },
+        "allowance": null,
+        "preparation": null,
+        "uses": [
+          {
+            "step": "berries",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "component": "berries",
+        "ingredientId": "water",
+        "quantity": {
+          "amount": 1,
+          "unit": "cup"
+        },
+        "allowance": null,
+        "preparation": null,
+        "uses": [
+          {
+            "step": "berries",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "component": "berries",
+        "ingredientId": "zest",
+        "quantity": {
+          "amount": "1 1/2",
+          "unit": "tsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "uses": [
+          {
+            "step": "berries",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "component": "berries",
+        "ingredientId": "cinnamon",
+        "quantity": {
+          "amount": 1,
+          "unit": "count"
+        },
+        "allowance": null,
+        "preparation": null,
+        "uses": [
+          {
+            "step": "berries",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "component": "finish",
+        "ingredientId": "sugar",
+        "quantity": null,
+        "allowance": "for sprinkling",
+        "preparation": null,
+        "uses": [
+          {
+            "step": "broil",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "component": "finish",
+        "ingredientId": "cream",
+        "quantity": null,
+        "allowance": "for serving",
+        "preparation": null,
+        "uses": [
+          {
+            "step": "serve",
+            "share": 1
+          }
+        ]
+      }
+    ],
+    "unassignedAfterProposal": [],
+    "multiplyAllocatedAfterProposal": []
+  },
+  "kitchenQuestions": [
+    "Record skillet inner diameter, depth, material, lid fit, berry evaporation and whether eight mounds steam evenly without crowding.",
+    "Measure biscuit center doneness time at the written low simmer and actual broiler exposure; verify the very high butter ratio produces the intended crumb.",
+    "A manually reduced batch can imply a fractional cinnamon stick; actual size/strength remains unknown. Preserve the recorded cinnamon quantity rather than inventing a conversion."
+  ],
+  "processGraph": "Mix/cut in cold butter → add half-and-half → scoop eight mounds → prepare broiler → fruit boil/10-minute moderate simmer → arrange mounds → covered very-low simmer roughly 15 minutes to cooked center → lid off/sugar → up to five-minute broil → slight cooling/cinnamon discard → whipped cream. Boil heat-up and cooling are separate; full stages cannot be shortened by pan arithmetic.",
+  "proposedSha256": "4eae80ec81f7c1db99d67bcb500fc0917b5bf94d63ad359865b08aa267c878ca",
+  "riskFlags": {
+    "safety": true,
+    "ratio": false,
+    "yield": "not physically measured",
+    "substitution": "bounded recipe-specific alternatives only; no guessed quantity",
+    "provenance": "current identity/attribution retained",
+    "duplicate": "none; current carrot alias preserved",
+    "scaling": "Existing ingredient controls preserved; explicit pan/mound geometry guidance remains unchanged.",
+    "unsupportedClaim": "old guarantees removed; no test or nutrition claim added"
+  },
+  "findings": [
+    {
+      "category": "Fruit reduction",
+      "before": "“Boil vigorously for 10 minutes.”",
+      "after": "Bring to a vigorous boil, then moderate simmer about 10 minutes until juicy/just broken down.",
+      "rationale": "Committed original 045e5ba2, step 2; S direct access unavailable.",
+      "confidence": "High for exact historical sequence; actual sauce evaporation depends on pan."
+    },
+    {
+      "category": "Biscuit endpoint",
+      "before": "Springy and cooked through after 15 minutes, then immediately broil.",
+      "after": "Check a biscuit center for cooked crumb and continue covered low cooking if raw; broiling follows center doneness.",
+      "rationale": "Saved original center endpoint, plus covered-heat dependency; Q brief dough handling.",
+      "confidence": "High for separating center cooking from browning; extra covered time unmeasured."
+    },
+    {
+      "category": "Discard destination",
+      "before": "Cinnamon is added but never removed.",
+      "after": "Remove and discard the cinnamon stick after brief cooling.",
+      "rationale": "Committed original final step.",
+      "confidence": "High; quantity unchanged."
+    },
+    {
+      "category": "Broiler equipment",
+      "before": "“Ovenproof” alone, six-inch rack and continuous watching.",
+      "after": "Require skillet/handles approved for broiling and a fitting lid; retain six-inch rack, continuous watching and up-to-five-minute ceiling.",
+      "rationale": "Equipment applicability, existing accepted broiler repair retained.",
+      "confidence": "High for compatibility constraint; no guessed diameter."
+    },
+    {
+      "category": "Timing/measure structure",
+      "before": "40-minute cookTime exceeds the listed ten plus fifteen plus five heat stages; compound half-and-half/berry measures obscure destinations.",
+      "after": "CookTime 30 min; approximately 50 minutes total with heat-up/cooling. Split berry identities; exactly encode 1/4 cup plus 2 tbsp as 3/8 cup (6 tbsp).",
+      "rationale": "Internal arithmetic and complete graph, not a new culinary amount.",
+      "confidence": "High for same-unit equivalence; moderate for total schedule."
+    },
+    {
+      "category": "peer scaling correction",
+      "field": "formula.steps.dough",
+      "before": "Stir in the {{ingredients}} just until evenly moistened. Scoop into eight loose mounds and set them on a parchment-lined tray. Keep the dough cool while the berries cook.",
+      "after": "Stir in the {{ingredients}} just until evenly moistened. Scoop one loose mound per listed portion, keeping the mounds approximately the original size; the original batch makes eight. Set them on a parchment-lined tray and keep the dough cool while the berries cook.",
+      "rationale": "Keep original batch count as context; scaled quantities use the listed yield at the same cup/mound size, with additional capacity rather than forced original count.",
+      "confidence": "high for scale consistency; kitchen fill remains untested",
+      "evidence": [
+        "Root-approved independent capacity correction",
+        "Original formula yield and fixed cup/mound geometry"
+      ]
+    },
+    {
+      "category": "peer scaling correction",
+      "field": "formula.steps.steam",
+      "before": "Arrange the eight dough mounds over the bubbling fruit in a single layer with room to expand. Cover with a fitting lid and simmer over very low heat for about 15 minutes, until the biscuit tops are springy and the centers are cooked through. Check a center biscuit for moist crumb rather than raw dough; if needed, cover and continue simmering before broiling.",
+      "after": "Arrange the dough mounds over the bubbling fruit in a single layer with room to expand. The original batch uses eight mounds; for a different quantity use a suitably smaller skillet or additional skillets rather than crowding or increasing mound size. Cover with a fitting lid and simmer over very low heat for about 15 minutes, until the biscuit tops are springy and the centers are cooked through. Check a center biscuit for moist crumb rather than raw dough; if needed, cover and continue simmering before broiling.",
+      "rationale": "Keep original batch count as context; scaled quantities use the listed yield at the same cup/mound size, with additional capacity rather than forced original count.",
+      "confidence": "high for scale consistency; kitchen fill remains untested",
+      "evidence": [
+        "Root-approved independent capacity correction",
+        "Original formula yield and fixed cup/mound geometry"
+      ]
+    },
+    {
+      "category": "peer scaling correction",
+      "field": "learning.before.1",
+      "before": "The full batch makes eight loose mounds. Choose a skillet that holds them in one layer with expansion room; do not pile them up.",
+      "after": "The original batch makes eight loose mounds. For a different quantity, make one similarly sized mound per listed portion and choose suitably smaller or additional broiler-safe skillets with lids so the mounds stay in one layer with room to expand. Do not increase mound size or shorten steaming time in direct proportion to servings.",
+      "rationale": "Make capacity decisions before mixing and preserve original geometry.",
+      "confidence": "high",
+      "evidence": [
+        "Root-approved independent capacity correction",
+        "Original formula yield and fixed cup/mound geometry"
+      ]
+    }
+  ],
+  "ratioAndYield": "Retain the unusually rich 12 tbsp butter to 1 1/2 cups flour, 6 tbsp half-and-half and eight mounds; do not normalize it to a conventional biscuit ratio. The fruit remains 12 oz of each berry, 3/4 cup sugar and 1 cup water. Added water was already recovered in current input and remains. The formula is a covered fruit-and-biscuit dessert, not a baked-sheet biscuit; source geometry gives only “large, deep skillet.” Pan capacity is judged by one layer of eight mounds and expansion space, without inventing diameter or yielding more biscuits.",
+  "sourceDisagreements": "Current source web page could not be read. The local committed original is sufficient for the exact formula and simmer sequence, while current safety/scaling changes are retained. No author, current publisher change, frozen-berry substitution or alternate skillet dimension is claimed. Q’s sheet-biscuit kneading/fill advice is not imported into this wet covered method.",
+  "fourLenses": "Practicality: a dessert best served warm, with a lid and broiler-safe skillet chosen first. Tradition: retain the berry skillet/cobbler-relative identity without inventing regional history. Technique: steam centers before browning, use low heat and attend the broiler. Balance: preserve rich butter, tart berries, aromatic orange/cinnamon and cool whipped cream.",
+  "acceptedSha256": "87fc356634c302370f3af67c9d37ecc1675892e74bdad3cc31eabba6751d7565",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/baking-sources.md",
+  "independentAcceptance": [
+    "docs/editorial-campaign/2026-10-05/baking-independent.md",
+    "docs/editorial-campaign/2026-10-05/baking-controls-independent.md"
+  ],
+  "rootCorrections": [
+    {
+      "field": "scaling",
+      "before": {
+        "mode": "fixed",
+        "reason": "The eight biscuit mounds need one covered, deep skillet with room to expand over the berries. Use a separate skillet and batch for additional servings; liquid reduction and steaming time do not scale arithmetically."
+      },
+      "after": null,
+      "rationale": "Preserve existing ingredient quantity controls as explicitly requested. Keep authored pan/mound capacity cautions; ingredient arithmetic does not multiply dimensions, temperatures or time.",
+      "confidence": "high"
+    }
+  ],
+  "notKitchenTested": true
+}
