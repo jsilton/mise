@@ -2,7 +2,7 @@
 
 Date: 2026-10-05. Status: pending full culinary review; no kitchen test.
 
-Imported from the supplied native Paprika export, UID `389E2BEB-6998-4786-A799-637FA9043FEC-1093-000000B98E4884FB`. Saved source: https://cleanfoodcrush.com/chopped-enchilada-skillet/. The supplied saved recipe, rather than a newly fetched web formula, is the ingredient baseline.
+Imported from the supplied native Paprika export. The verified native binding remains in the private registry. Saved source: https://cleanfoodcrush.com/chopped-enchilada-skillet/. The supplied saved recipe, rather than a newly fetched web formula, is the ingredient baseline.
 
 ## Individual decisions
 

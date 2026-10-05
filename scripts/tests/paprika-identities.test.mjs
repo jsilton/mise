@@ -15,7 +15,7 @@ import { createPaprikaRecipe } from '../lib/recipe-exports.mjs';
 import { parseRecipeContent } from '../../src/lib/recipe-content.mjs';
 import { mergePaprika } from '../sync-paprika.mjs';
 import { withMiseId } from '../pin-paprika-ids.mjs';
-import { checkPaprikaPrivacy } from '../check-paprika-privacy.mjs';
+import { checkPaprikaPrivacy, checkPaprikaPrivacyFiles } from '../check-paprika-privacy.mjs';
 
 const registry = {
   version: 1,
@@ -123,8 +123,51 @@ test('publication checks reject private IDs, identity fields and native archives
     await fs.writeFile(file, '{"miseId":"unlisted-id"}');
     await assert.rejects(checkPaprikaPrivacy(dir), /private recipe identity/);
     await fs.writeFile(file, 'Rice');
+    const review = path.join(dir, 'review.md');
+    await fs.writeFile(review, 'Native source UID `00000000-0000-0000-0000-000000000000`.');
+    await assert.rejects(checkPaprikaPrivacy(dir), /private recipe identity/);
+    await fs.writeFile(review, 'Imported recipe; binding retained privately.');
+    const longNativeUid = '00000000-0000-0000-0000-000000000000-20261005-00000000000000';
+    await fs.writeFile(review, `Native source UID \`${longNativeUid}\`.`);
+    await assert.rejects(checkPaprikaPrivacy(dir), /private recipe identity/);
+    await fs.writeFile(review, 'Imported recipe; binding retained privately.');
+    await fs.writeFile(path.join(dir, 'plan.json'), JSON.stringify({ uid: longNativeUid }));
+    await assert.rejects(checkPaprikaPrivacy(dir), /private recipe identity/);
+    await fs.writeFile(
+      path.join(dir, 'plan.json'),
+      JSON.stringify({ nativeIdentityDigest: 'a'.repeat(64) })
+    );
+    await checkPaprikaPrivacy(dir);
+    await fs.writeFile(file, 'Rice');
     await fs.writeFile(path.join(dir, 'recipes.paprikarecipes'), 'private');
     await assert.rejects(checkPaprikaPrivacy(dir), /private Paprika artifact/);
+  } finally {
+    await fs.rm(dir, { recursive: true, force: true });
+  }
+});
+
+test('tracked public evidence rejects native metadata without a private registry', async () => {
+  const dir = await fs.mkdtemp(path.join(os.tmpdir(), 'mise-public-evidence-'));
+  try {
+    const file = path.join(dir, 'review.md');
+    const nativeUid = '00000000-0000-0000-0000-000000000000-20261005-00000000000000';
+    for (const text of [
+      `Native source UID \`${nativeUid}\`.`,
+      JSON.stringify({ uid: nativeUid }),
+      JSON.stringify({ paprikaUid: 'native-binding' }),
+      JSON.stringify({ paprikaAdditionalUids: ['extra-binding'] }),
+      'miseId: private-binding',
+    ]) {
+      await fs.writeFile(file, text);
+      await assert.rejects(checkPaprikaPrivacyFiles([file]), /private recipe identity/);
+    }
+    await fs.writeFile(file, JSON.stringify({ nativeIdentityDigest: 'a'.repeat(64) }));
+    await checkPaprikaPrivacyFiles([file]);
+    for (const name of ['library.paprikarecipes', 'paprika-identities.json']) {
+      const artifact = path.join(dir, name);
+      await fs.writeFile(artifact, '{}');
+      await assert.rejects(checkPaprikaPrivacyFiles([artifact]), /private Paprika artifact/);
+    }
   } finally {
     await fs.rm(dir, { recursive: true, force: true });
   }

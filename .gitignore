@@ -5,6 +5,9 @@ dist/
 
 # Private Paprika identities, exports and backups; never publish with the site
 .mise/
+# Native archives stay local even when retained in historical export locations
+exports/**/*.paprikarecipes
+exports/*.paprikarecipes
 
 # Build artifacts & generated files
 public/recipes/kitchen-context/

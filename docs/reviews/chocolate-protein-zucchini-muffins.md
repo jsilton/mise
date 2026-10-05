@@ -2,7 +2,7 @@
 
 Date: 2026-10-05. Status: pending full culinary review; no kitchen test.
 
-Imported from the supplied native Paprika export, UID `9296A006-2018-4936-B841-84B64B57BDA4`. Saved source: https://www.yummytoddlerfood.com/chocolate-zucchini-muffins-with-blueberries/. The supplied saved recipe, rather than a newly fetched web formula, is the ingredient baseline.
+Imported from the supplied native Paprika export. The verified native binding remains in the private registry. Saved source: https://www.yummytoddlerfood.com/chocolate-zucchini-muffins-with-blueberries/. The supplied saved recipe, rather than a newly fetched web formula, is the ingredient baseline.
 
 ## Individual decisions
 

@@ -2,7 +2,7 @@
 
 Date: 2026-10-05. Status: pending full culinary review; no kitchen test.
 
-Imported from the supplied native Paprika export, UID `EF240212-D502-4AAE-B487-DEF7778BC08D-4420-000002DB60870CE2`. Saved source: http://www.goodhousekeeping.com/food-recipes/easy/a42833/thai-turkey-lettuce-wraps-recipe/. The supplied saved recipe, rather than a newly fetched web formula, is the ingredient baseline.
+Imported from the supplied native Paprika export. The verified native binding remains in the private registry. Saved source: http://www.goodhousekeeping.com/food-recipes/easy/a42833/thai-turkey-lettuce-wraps-recipe/. The supplied saved recipe, rather than a newly fetched web formula, is the ingredient baseline.
 
 ## Individual decisions
 

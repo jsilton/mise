@@ -2,7 +2,7 @@
 
 Date: 2026-10-05. Status: pending full culinary review; no kitchen test.
 
-Imported from the supplied native Paprika export, UID `BCFA21BF-B082-4CE3-AE8D-895F60B5804E`. Recorded attribution: not specified. The supplied saved recipe, rather than a newly fetched web formula, is the ingredient baseline.
+Imported from the supplied native Paprika export. The verified native binding remains in the private registry. Recorded attribution: not specified. The supplied saved recipe, rather than a newly fetched web formula, is the ingredient baseline.
 
 ## Individual decisions
 

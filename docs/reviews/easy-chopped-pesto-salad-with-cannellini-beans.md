@@ -2,7 +2,7 @@
 
 Date: 2026-10-05. Status: pending full culinary review; no kitchen test.
 
-Imported from the supplied native Paprika export, UID `064D9EEF-FA17-480B-935C-57A7F6DE1D9E`. Saved source: https://thesavvyspoon.com/2025/03/10/chopped-pesto-salad-recipe/. The supplied saved recipe, rather than a newly fetched web formula, is the ingredient baseline.
+Imported from the supplied native Paprika export. The verified native binding remains in the private registry. Saved source: https://thesavvyspoon.com/2025/03/10/chopped-pesto-salad-recipe/. The supplied saved recipe, rather than a newly fetched web formula, is the ingredient baseline.
 
 ## Individual decisions
 

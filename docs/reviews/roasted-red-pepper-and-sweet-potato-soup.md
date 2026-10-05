@@ -2,7 +2,7 @@
 
 Date: 2026-10-05. Status: pending full culinary review; no kitchen test.
 
-Imported from the supplied native Paprika export, UID `B41B7144-C044-4C1C-9DC0-F74C1F4FD50A-57804-00000C4452203401`. Saved source: https://paleopot.com/2012/11/paleo-roasted-red-pepper-sweet-potato-soup/. The supplied saved recipe, rather than a newly fetched web formula, is the ingredient baseline.
+Imported from the supplied native Paprika export. The verified native binding remains in the private registry. Saved source: https://paleopot.com/2012/11/paleo-roasted-red-pepper-sweet-potato-soup/. The supplied saved recipe, rather than a newly fetched web formula, is the ingredient baseline.
 
 ## Individual decisions
 

@@ -12,6 +12,7 @@ import {
 } from '../sync-paprika.mjs';
 import { parseRecipeContent } from '../../src/lib/recipe-content.mjs';
 import { comparePaprika } from '../verify-paprika-sync.mjs';
+import { nativeIdentityDigest, bindPaprikaPlan } from '../lib/paprika-plan.mjs';
 
 const recipe = (slug) => ({
   slug,
@@ -41,6 +42,37 @@ const original = {
 const plan = {
   recipes: [{ uid: original.uid, paprikaName: original.name, slug: 'rice', action: 'shared' }],
 };
+
+test('public source decisions bind exact native identities without publishing UID values', () => {
+  const publicPlan = {
+    recipes: [
+      {
+        ...plan.recipes[0],
+        uid: undefined,
+        nativeIdentityDigest: nativeIdentityDigest(original.uid),
+        sourceDigest: sourceDigest(original),
+      },
+    ],
+  };
+  assert.equal(JSON.stringify(publicPlan).includes(original.uid), false);
+  assert.deepEqual(
+    mergePaprika([original], [recipe('rice')], publicPlan),
+    mergePaprika([original], [recipe('rice')], plan)
+  );
+  assert.throws(
+    () => bindPaprikaPlan([{ ...original, uid: 'NEW-ID' }], publicPlan),
+    /set mismatch/
+  );
+  assert.throws(() => bindPaprikaPlan([original, original], publicPlan), /Duplicate/);
+  assert.throws(
+    () => bindPaprikaPlan([original], { recipes: [...publicPlan.recipes, ...publicPlan.recipes] }),
+    /Duplicate/
+  );
+  assert.throws(
+    () => mergePaprika([{ ...original, notes: 'changed' }], [recipe('rice')], publicPlan),
+    /source content changed/
+  );
+});
 
 test('sync replaces cooking content while retaining native identity, photos, ratings and categories', () => {
   const before = structuredClone(original);

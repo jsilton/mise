@@ -7,6 +7,7 @@ import { createHash } from 'node:crypto';
 import { isDeepStrictEqual } from 'node:util';
 import { loadRecipes, createPaprikaRecipe, assertRecipeSet } from './lib/recipe-exports.mjs';
 import { assertPinnedRecipes } from './lib/paprika-identities.mjs';
+import { bindPaprikaPlan } from './lib/paprika-plan.mjs';
 
 const command = (name, args, options = {}) =>
   execFileSync(name, args, { maxBuffer: 128 * 1024 * 1024, ...options });
@@ -34,6 +35,7 @@ export function sourceDigest(record) {
 }
 
 export function mergePaprika(originals, recipes, plan) {
+  plan = bindPaprikaPlan(originals, plan);
   assertRecipeSet(
     originals.map((r) => r.uid),
     plan.recipes.map((r) => r.uid)
@@ -142,7 +144,10 @@ export async function writePaprika(entries, output) {
 export async function syncPaprika(source, destination = '.mise/paprika-exports/sync') {
   if (!source) throw new Error('Pass the original native Paprika export or My Recipes.zip');
   const originals = await readPaprika(source);
-  const plan = JSON.parse(await fs.readFile('docs/paprika-sync/2026-10-05-plan.json', 'utf8'));
+  const plan = bindPaprikaPlan(
+    originals,
+    JSON.parse(await fs.readFile('docs/paprika-sync/2026-10-05-plan.json', 'utf8'))
+  );
   const recipes = await loadRecipes();
   assertPinnedRecipes(recipes);
   const entries = mergePaprika(originals, recipes, plan);

@@ -2,7 +2,7 @@
 
 Date: 2026-10-05. Status: pending full culinary review; no kitchen test.
 
-Imported from the supplied native Paprika export, UID `63F3DF35-F677-4F71-98FA-4EF0EE773AFC-13548-000008DE21B6F90D`. Saved source: http://allrecipes.com/recipe/15553/chicken-tortilla-soup-iii/. The supplied saved recipe, rather than a newly fetched web formula, is the ingredient baseline.
+Imported from the supplied native Paprika export. The verified native binding remains in the private registry. Saved source: http://allrecipes.com/recipe/15553/chicken-tortilla-soup-iii/. The supplied saved recipe, rather than a newly fetched web formula, is the ingredient baseline.
 
 ## Individual decisions
 

@@ -2,7 +2,7 @@
 
 Date: 2026-10-05. Status: pending full culinary review; no kitchen test.
 
-Imported from the supplied native Paprika export, UID `7754FABF-FCC2-47D7-AEBA-14C08F5359B4`. Saved source: https://www.yummytoddlerfood.com/cauliflower-alfredo-sauce/. The supplied saved recipe, rather than a newly fetched web formula, is the ingredient baseline.
+Imported from the supplied native Paprika export. The verified native binding remains in the private registry. Saved source: https://www.yummytoddlerfood.com/cauliflower-alfredo-sauce/. The supplied saved recipe, rather than a newly fetched web formula, is the ingredient baseline.
 
 ## Individual decisions
 

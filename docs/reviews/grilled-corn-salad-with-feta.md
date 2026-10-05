@@ -2,7 +2,7 @@
 
 Date: 2026-10-05. Status: pending full culinary review; no kitchen test.
 
-Imported from the supplied native Paprika export, UID `69A342F6-92D6-40E8-8325-A7259EEF7ECA-27625-000006110B87AA28`. Saved source: https://www.skinnytaste.com/grilled-corn-salad-with-feta/. The supplied saved recipe, rather than a newly fetched web formula, is the ingredient baseline.
+Imported from the supplied native Paprika export. The verified native binding remains in the private registry. Saved source: https://www.skinnytaste.com/grilled-corn-salad-with-feta/. The supplied saved recipe, rather than a newly fetched web formula, is the ingredient baseline.
 
 ## Individual decisions
 

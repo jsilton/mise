@@ -5,6 +5,7 @@ import { pathToFileURL } from 'node:url';
 import matter from 'gray-matter';
 import { loadRecipes, RECIPES_DIR } from './lib/recipe-exports.mjs';
 import { readPaprika } from './sync-paprika.mjs';
+import { nativeIdentityDigest, decisionIdentityDigest } from './lib/paprika-plan.mjs';
 import {
   readIdentities,
   writeIdentities,
@@ -30,7 +31,7 @@ export async function pinFromExport(source) {
   const records = await readPaprika(source);
   const plan = JSON.parse(await fs.readFile('docs/paprika-sync/2026-10-05-plan.json', 'utf8'));
   const draftDecisions = new Map(
-    plan.recipes.filter((r) => r.action === 'draft').map((r) => [r.uid, r])
+    plan.recipes.filter((r) => r.action === 'draft').map((r) => [decisionIdentityDigest(r), r])
   );
   const existing = await readIdentities(undefined, true);
   const known = new Map((existing?.recipes || []).map((entry) => [entry.miseId, entry]));
@@ -45,7 +46,7 @@ export async function pinFromExport(source) {
   const drafts = [];
   const writes = [];
   for (const record of records) {
-    const draft = draftDecisions.get(record.uid);
+    const draft = draftDecisions.get(nativeIdentityDigest(record.uid));
     if (draft) {
       const filename = `docs/paprika-sync/drafts/${draft.slug}.md`;
       const raw = await fs.readFile(filename, 'utf8');

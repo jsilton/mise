@@ -2,7 +2,7 @@
 
 Date: 2026-10-05. Status: pending full culinary review; no kitchen test.
 
-Imported from the supplied native Paprika export, UID `6EBBC7AF-0D7D-404A-8894-17FC617145B9-32377-00000D2A0995ED98`. Saved source: https://www.delish.com/cooking/recipe-ideas/a32936658/air-fryer-chicken-tenders-recipe/. The supplied saved recipe, rather than a newly fetched web formula, is the ingredient baseline.
+Imported from the supplied native Paprika export. The verified native binding remains in the private registry. Saved source: https://www.delish.com/cooking/recipe-ideas/a32936658/air-fryer-chicken-tenders-recipe/. The supplied saved recipe, rather than a newly fetched web formula, is the ingredient baseline.
 
 ## Individual decisions
 

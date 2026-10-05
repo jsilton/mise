@@ -2,7 +2,7 @@
 
 Date: 2026-10-05. Status: pending full culinary review; no kitchen test.
 
-Imported from the supplied native Paprika export, UID `F6096841-8C32-4982-91E1-A8BC9C00BE8B-1093-000000B9618397CA`. Saved source: http://damndelicious.net/2016/12/09/slow-cooker-chicken-wild-rice-soup/. The supplied saved recipe, rather than a newly fetched web formula, is the ingredient baseline.
+Imported from the supplied native Paprika export. The verified native binding remains in the private registry. Saved source: http://damndelicious.net/2016/12/09/slow-cooker-chicken-wild-rice-soup/. The supplied saved recipe, rather than a newly fetched web formula, is the ingredient baseline.
 
 ## Individual decisions
 

@@ -2,7 +2,7 @@
 
 Date: 2026-10-05. Status: pending full culinary review; no kitchen test.
 
-Imported from the supplied native Paprika export, UID `F0FF9333-3787-4A87-AB37-02C41C6DC26B-21834-000005387F28737F`. Saved source: https://www.dinneratthezoo.com/slow-cooker-mongolian-beef/. The supplied saved recipe, rather than a newly fetched web formula, is the ingredient baseline.
+Imported from the supplied native Paprika export. The verified native binding remains in the private registry. Saved source: https://www.dinneratthezoo.com/slow-cooker-mongolian-beef/. The supplied saved recipe, rather than a newly fetched web formula, is the ingredient baseline.
 
 ## Individual decisions
 

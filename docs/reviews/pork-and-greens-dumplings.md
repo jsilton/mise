@@ -2,7 +2,7 @@
 
 Date: 2026-10-05. Status: pending full culinary review; no kitchen test.
 
-Imported from the supplied native Paprika export, UID `DBA605D3-96AF-4E8F-822C-8DB3698811B6`. Saved source: https://thewoksoflife.com/dumpling-recipe-youll-ever-need/. The supplied saved recipe, rather than a newly fetched web formula, is the ingredient baseline.
+Imported from the supplied native Paprika export. The verified native binding remains in the private registry. Saved source: https://thewoksoflife.com/dumpling-recipe-youll-ever-need/. The supplied saved recipe, rather than a newly fetched web formula, is the ingredient baseline.
 
 ## Individual decisions
 

@@ -2,7 +2,7 @@
 
 Date: 2026-10-05. Status: pending full culinary review; no kitchen test.
 
-Imported from the supplied native Paprika export, UID `3C4FCEC7-4F52-42B6-8DE6-56621C6D13B7`. Saved source: https://www.foodnetwork.com/recipes/ree-drummond/beef-with-snow-peas-recipe-3381538. The supplied saved recipe, rather than a newly fetched web formula, is the ingredient baseline.
+Imported from the supplied native Paprika export. The verified native binding remains in the private registry. Saved source: https://www.foodnetwork.com/recipes/ree-drummond/beef-with-snow-peas-recipe-3381538. The supplied saved recipe, rather than a newly fetched web formula, is the ingredient baseline.
 
 ## Individual decisions
 

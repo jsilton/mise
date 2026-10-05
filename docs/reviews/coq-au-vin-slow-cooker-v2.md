@@ -21,7 +21,7 @@ High priority: verify cooker load/fill range, 3–4-hour HIGH and 5–6-hour LOW
 
 ## 2026-09-23: restore user-supplied family recipe
 
-The original Paprika HTML is retained verbatim at ../recipe-sources/coq-au-vin-slow-cooker-v2-original.html (its image references are archival; images were not copied). Source supplied by Jordan from Desktop/Coq au Vin Slow Cooker v2. The earlier editorial substitution of stock/tomato paste for beefy onion soup mix and increase in wine changed the recipe identity; those decisions are superseded.
+The exact original Paprika HTML is retained privately under the ignored .mise/recipe-sources/ directory. A public [review copy](../recipe-sources/coq-au-vin-slow-cooker-v2-review-copy.html) preserves its cooking text with native photo and identity references omitted; images were not copied. Source supplied by Jordan from Desktop/Coq au Vin Slow Cooker v2. The earlier editorial substitution of stock/tomato paste for beefy onion soup mix and increase in wine changed the recipe identity; those decisions are superseded.
 
 Restored 2 lb boneless skinless thighs, 16 oz mushrooms, six carrots, 10 oz pearl onions, four garlic cloves, one packet beefy onion soup mix, 1/2 cup wine, 1 tsp each Worcestershire/cornstarch/thyme, garlic powder, pepper and spray. Rice remains the serving suggestion. No added stock, tomato paste, bacon or butter. Product brand/packet weight and original garlic-powder quantity were not supplied; these remain explicit uncertainties, not invented measurements. Removed dietary claims because packet composition is unknown.
 

@@ -2,7 +2,7 @@
 
 Date: 2026-10-05. Status: pending full culinary review; no kitchen test.
 
-Imported from the supplied native Paprika export, UID `FBDD788F-10CF-48E4-8652-DEF494FD43D2`. Saved source: https://healthyfitnessmeals.com/sheet-pan-shrimp-fajitas/. The supplied saved recipe, rather than a newly fetched web formula, is the ingredient baseline.
+Imported from the supplied native Paprika export. The verified native binding remains in the private registry. Saved source: https://healthyfitnessmeals.com/sheet-pan-shrimp-fajitas/. The supplied saved recipe, rather than a newly fetched web formula, is the ingredient baseline.
 
 ## Individual decisions
 
