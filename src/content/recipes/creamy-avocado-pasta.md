@@ -40,7 +40,7 @@ ingredients:
   - 2 cloves Garlic
   - 2 tbsp Fresh Lemon Juice (The Acid Balance)
   - 1/4 cup Extra-Virgin Olive Oil
-  - 1/2 cup Reserved Pasta Water
+  - '1 cup pasta cooking water, reserved before draining; use only as needed'
   - Salt and Black Pepper
   - 'Cherry Tomatoes, halved'
   - Parmesan Shavings
@@ -60,13 +60,13 @@ sourceUrl: >-
 
 ## Chef's Note
 
-Avocado as a sauce base is a Mexican and California trick that became mainstream - mashed avocado with lime and garlic replaces cream or oil. The trick is timing: toss hot pasta with cold avocado mixture at the last second so the heat softens it without cooking it to gray mush. Use pasta water to loosen the sauce to coating consistency.
+Ripe avocado, basil, spinach, and olive oil make a creamy sauce without cream. Toss it with drained pasta in a bowl off the heat, and add reserved pasta water only until the sauce coats the noodles.
 
 ## Directions
 
-1.  **Boil:** Cook pasta in a large pot of salted water until **al dente**. **Reserve 1 cup of pasta water** before draining.
+1.  **Boil:** Cook pasta in a large pot of salted water until **al dente**. **Reserve the listed amount of pasta water** before draining.
 2.  **The Emulsion:** While pasta boils, place avocado flesh, basil, spinach, garlic, lemon juice, and salt in a blender.
-3.  **Blend:** Start blending on low. Slowly drizzle in the olive oil and 1/2 cup of the reserved pasta water. Blend for 60 seconds until completely smooth and aerated.
+3.  **Blend:** Start blending on low. Slowly drizzle in the olive oil. Blend until smooth, about 1 minute, adding a little reserved pasta water only if needed to help the blender turn.
 4.  **Combine:** Place the hot, drained pasta in a large bowl. Pour the green sauce over the top and toss vigorously until the noodles are glossy and fully coated.
-5.  **Adjust:** If the sauce is too thick, add a few more tablespoons of pasta water.
+5.  **Adjust:** If the sauce is too thick, add reserved pasta water a little at a time, tossing after each addition; you may not need it all.
 6.  **Serve:** Top immediately with halved cherry tomatoes and Parmesan for color and contrast.

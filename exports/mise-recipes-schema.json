@@ -62,11 +62,11 @@
       "@context": "https://schema.org",
       "@type": "Recipe",
       "name": "Almond Zucchini Bread",
-      "description": "The secret to zucchini bread that isn't gummy is The Squeeze. Zucchini is mostly water; you must grate it and then squeeze it in a kitchen towel until it is absolutely dry before measuring.",
+      "description": "Gina Matsoukas's almond-flour loaf uses banana and zucchini for a moist crumb. Squeeze excess water from the zucchini before measuring, then let the baked loaf cool completely before slicing; a warm, tender center can tear even when the loaf is baked through.",
       "url": "https://jordansilton.com/mise/recipes/almond-zucchini-bread/",
       "recipeIngredient": [
         "1 1/2 cups Almond Flour",
-        "1 cup Grated Zucchini (packed, squeezed bone-dry)",
+        "1 cup Grated Zucchini, squeezed of excess water before measuring",
         "1 large Banana, mashed (about 1/2 cup)",
         "3 large Eggs, room temperature",
         "3 tbsp Maple Syrup",
@@ -82,7 +82,7 @@
         },
         {
           "@type": "HowToStep",
-          "text": "The Squeeze: Grate the zucchini. Place in a towel and squeeze vigorously until no more water comes out. Measure 1 cup of the dry shreds."
+          "text": "The Squeeze: Grate the zucchini. Place in a clean towel and squeeze out excess water, then measure 1 cup of the damp shreds. They should no longer drip, but do not try to dry them out completely."
         },
         {
           "@type": "HowToStep",
@@ -98,16 +98,16 @@
         },
         {
           "@type": "HowToStep",
-          "text": "Bake: Pour into the pan. Bake for 35-40 minutes until the top is dark golden brown and a tester comes out clean."
+          "text": "Bake: Pour into the pan. Bake for 35-40 minutes until the top is browned, the center is set, and a tester has no wet batter. If the center is still wet, continue baking and check again; tent loosely with foil if the top is getting too dark."
         },
         {
           "@type": "HowToStep",
-          "text": "Rest: Let cool in the pan for 10 minutes before lifting out via the parchment paper."
+          "text": "Rest: Let cool in the pan on a rack for 5-10 minutes, then lift out carefully using the parchment. Cool fully on the rack before slicing; allow about an hour, longer if still warm."
         }
       ],
       "prepTime": "PT10M",
       "cookTime": "PT40M",
-      "totalTime": "PT50M",
+      "totalTime": "PT105M",
       "recipeYield": "10",
       "recipeCategory": "Side dish",
       "recipeCuisine": ["American"],
@@ -115,6 +115,7 @@
       "suitableForDiet": ["https://schema.org/VegetarianDiet"],
       "citation": {
         "@type": "CreativeWork",
+        "name": "Adapted from Gina Matsoukas, Running to the Kitchen",
         "url": "https://www.runningtothekitchen.com/almond-zucchini-bread-paleo/"
       }
     },
@@ -1440,7 +1441,7 @@
       "url": "https://jordansilton.com/mise/recipes/banana-nut-bread/",
       "recipeIngredient": [
         "3 large Very Ripe Bananas (about 375g total), mashed",
-        "1/2 cup (1 stick) Unsalted Butter, melted and cooled",
+        "1/2 cup (1 stick) Unsalted Butter, softened",
         "1 cup Granulated Sugar",
         "2 large Eggs, room temperature",
         "2 cups All-Purpose Flour (250g)",
@@ -1452,15 +1453,15 @@
       "recipeInstructions": [
         {
           "@type": "HowToStep",
-          "text": "Prep: Preheat oven to 350°F. Grease a 9x5 loaf pan."
+          "text": "Prep: Preheat oven to 350°F. Grease and flour a 9x5x3-inch loaf pan. Have the butter softened but not melted."
         },
         {
           "@type": "HowToStep",
-          "text": "Melt: Melt the butter and let it cool slightly."
+          "text": "Cream: Beat the softened butter and sugar until lighter and fluffy, scraping the bowl so no dense butter remains."
         },
         {
           "@type": "HowToStep",
-          "text": "Wet: In a large bowl, whisk the mashed bananas, melted butter, sugar, eggs, and vanilla until smooth."
+          "text": "Wet: Beat in the eggs one at a time, then mix in the mashed bananas and vanilla. The mixture may look slightly curdled; do not keep beating to make it perfectly smooth."
         },
         {
           "@type": "HowToStep",
@@ -1476,12 +1477,11 @@
         },
         {
           "@type": "HowToStep",
-          "text": "Rest: Let cool in the pan for 10 minutes before transferring to a wire rack."
+          "text": "Rest: Let cool in the pan for 10 minutes before transferring to a wire rack. Let the loaf cool fully before slicing so the soft center can set; allow about an hour, longer if still warm."
         }
       ],
       "prepTime": "PT15M",
-      "cookTime": "PT55M",
-      "totalTime": "PT70M",
+      "totalTime": "PT135M",
       "recipeYield": "10",
       "recipeCategory": "Side dish",
       "recipeCuisine": ["American"],
@@ -3442,27 +3442,27 @@
       "@context": "https://schema.org",
       "@type": "Recipe",
       "name": "Broccolini, Chicken Sausage, and Orzo Skillet",
-      "description": "This is a sheet-pan formula: protein, vegetable, starch, all in one vessel. Broccolini has a more tender stem than regular broccoli, so it cooks through without becoming mushy.",
+      "description": "This skillet dinner uses fully cooked chicken sausage. Coarsely chop the broccolini so the stems can become tender during the short sauté.",
       "url": "https://jordansilton.com/mise/recipes/broccolini-chicken-sausage-and-orzo-skillet/",
       "recipeIngredient": [
-        "8 oz Hot Italian Chicken Sausage, sliced into rounds",
+        "8 oz fully cooked hot Italian chicken sausage, sliced into 1/4-inch rounds",
         "1 cup Orzo pasta",
-        "2 bunches Broccolini, trimmed",
+        "2 bunches broccolini (about 1 lb), trimmed and coarsely chopped",
         "2 1/2 cups Chicken Broth",
         "2 tbsp Olive Oil",
         "2 cloves Garlic, minced",
         "1/2 cup Grated Parmesan",
         "Salt and Black Pepper",
-        "1 cup Frozen Peas (replaces broccolini if kids prefer)"
+        "1 cup frozen peas, optional replacement for the broccolini; do not add both"
       ],
       "recipeInstructions": [
         {
           "@type": "HowToStep",
-          "text": "The Sear: Heat oil in a large skillet. Brown the sausage rounds for 3-4 minutes. Remove to a plate."
+          "text": "The Sear: Heat oil in a large skillet with a lid. Brown the fully cooked sausage rounds for 3–4 minutes. Raw chicken sausage is not a direct substitute for this brief browning step. Remove to a plate."
         },
         {
           "@type": "HowToStep",
-          "text": "The Veg: Add broccolini to the same pan. Sauté over high heat for 5 minutes until charred and tender-crisp. Remove and keep with the sausage."
+          "text": "The Veg: Add broccolini to the same pan. Sauté for about 5 minutes until the stems are tender-crisp; cook a little longer if still tough. Remove and keep with the sausage. If using frozen peas instead, skip this step and add them near the end of the orzo cooking, allowing a few minutes to heat through."
         },
         {
           "@type": "HowToStep",
@@ -3470,11 +3470,11 @@
         },
         {
           "@type": "HowToStep",
-          "text": "The Simmer: Pour in the broth. Bring to a boil, then reduce to low and cover. Simmer for 10 minutes until liquid is absorbed and pasta is al dente."
+          "text": "The Simmer: Pour in the broth. Bring to a boil, then reduce to low and cover. Simmer for about 10 minutes, or according to the orzo package, until the pasta is al dente. If tender pasta still has pooled broth, uncover and simmer briefly to evaporate it; if the pan is dry but pasta is firm, add a little hot water and continue cooking."
         },
         {
           "@type": "HowToStep",
-          "text": "The Fold: Stir in the Parmesan, the reserved sausage, and the broccolini."
+          "text": "The Fold: Return the reserved sausage and broccolini, if using, and stir over low heat until hot. Remove from heat and stir in the Parmesan."
         },
         {
           "@type": "HowToStep",
@@ -3898,7 +3898,7 @@
       "@context": "https://schema.org",
       "@type": "Recipe",
       "name": "Buttermilk Waffles",
-      "description": "Buttermilk's acidity reacts with baking soda for extra lift and tang. Rest the batter for 10-15 minutes before cooking so flour fully absorbs the liquid - this produces waffles that are crispy outside and airy inside.",
+      "description": "Buttermilk's acidity reacts with baking soda for extra lift and tang. Rest the batter for 10 minutes before cooking so flour fully absorbs the liquid - this produces waffles that are crispy outside and airy inside.",
       "url": "https://jordansilton.com/mise/recipes/buttermilk-waffles/",
       "recipeIngredient": [
         "2 cups All-Purpose Flour",
@@ -3926,15 +3926,15 @@
         },
         {
           "@type": "HowToStep",
-          "text": "The Rest: Let the batter rest at room temperature for 10-15 minutes. It should become slightly bubbly."
+          "text": "The Rest: Let the batter rest for 10 minutes while the waffle iron preheats according to its instructions. It should become slightly bubbly."
         },
         {
           "@type": "HowToStep",
-          "text": "Cook: Preheat your waffle iron and grease lightly. Pour about 1/3 to 1/2 cup of batter (depending on your iron size)."
+          "text": "Cook: Lightly grease the hot plates if recommended for your iron. Use the manufacturer's batter amount; 1/3 to 1/2 cup suits some small irons, but a large Belgian iron may need more. Leave room for the batter to expand rather than filling to the edge."
         },
         {
           "@type": "HowToStep",
-          "text": "Finish: Cook until the steam stops rising from the iron and the waffles are deep golden brown."
+          "text": "Finish: Cook until the steam has mostly subsided and the waffle releases readily and is golden, following the iron's readiness guidance. Check that the middle is cooked through rather than wet with batter. Repeat with the remaining batter; do not treat the first waffle's cooking time as the time for the whole batch."
         },
         {
           "@type": "HowToStep",
@@ -3942,12 +3942,10 @@
         }
       ],
       "prepTime": "PT10M",
-      "cookTime": "PT10M",
-      "totalTime": "PT30M",
-      "recipeYield": "6",
+      "recipeYield": "6 portions (waffle count depends on iron)",
       "recipeCategory": "Main course",
       "recipeCuisine": ["American"],
-      "keywords": "American, sweet, rich, comfort-food, steam",
+      "keywords": "American, sweet, rich, comfort-food, griddle",
       "suitableForDiet": ["https://schema.org/VegetarianDiet"],
       "citation": {
         "@type": "CreativeWork",
@@ -9316,7 +9314,7 @@
       "@context": "https://schema.org",
       "@type": "Recipe",
       "name": "Avocado Pasta",
-      "description": "Avocado as a sauce base is a Mexican and California trick that became mainstream - mashed avocado with lime and garlic replaces cream or oil. The trick is timing: toss hot pasta with cold avocado mixture at the last second so the heat softens it without cooking it to gray mush.",
+      "description": "Ripe avocado, basil, spinach, and olive oil make a creamy sauce without cream. Toss it with drained pasta in a bowl off the heat, and add reserved pasta water only until the sauce coats the noodles.",
       "url": "https://jordansilton.com/mise/recipes/creamy-avocado-pasta/",
       "recipeIngredient": [
         "12 oz Dry Spaghetti or Fettuccine",
@@ -9326,7 +9324,7 @@
         "2 cloves Garlic",
         "2 tbsp Fresh Lemon Juice (The Acid Balance)",
         "1/4 cup Extra-Virgin Olive Oil",
-        "1/2 cup Reserved Pasta Water",
+        "1 cup pasta cooking water, reserved before draining; use only as needed",
         "Salt and Black Pepper",
         "Cherry Tomatoes, halved",
         "Parmesan Shavings"
@@ -9334,7 +9332,7 @@
       "recipeInstructions": [
         {
           "@type": "HowToStep",
-          "text": "Boil: Cook pasta in a large pot of salted water until al dente. Reserve 1 cup of pasta water before draining."
+          "text": "Boil: Cook pasta in a large pot of salted water until al dente. Reserve the listed amount of pasta water before draining."
         },
         {
           "@type": "HowToStep",
@@ -9342,7 +9340,7 @@
         },
         {
           "@type": "HowToStep",
-          "text": "Blend: Start blending on low. Slowly drizzle in the olive oil and 1/2 cup of the reserved pasta water. Blend for 60 seconds until completely smooth and aerated."
+          "text": "Blend: Start blending on low. Slowly drizzle in the olive oil. Blend until smooth, about 1 minute, adding a little reserved pasta water only if needed to help the blender turn."
         },
         {
           "@type": "HowToStep",
@@ -9350,7 +9348,7 @@
         },
         {
           "@type": "HowToStep",
-          "text": "Adjust: If the sauce is too thick, add a few more tablespoons of pasta water."
+          "text": "Adjust: If the sauce is too thick, add reserved pasta water a little at a time, tossing after each addition; you may not need it all."
         },
         {
           "@type": "HowToStep",
@@ -16653,15 +16651,15 @@
       "recipeInstructions": [
         {
           "@type": "HowToStep",
-          "text": "The Prep: Place red pepper flakes, sesame seeds, minced garlic, ginger, salt, and sugar in a heatproof bowl. This is your flavor base."
+          "text": "The Prep: Place red pepper flakes, sesame seeds, minced garlic, ginger, salt, and sugar in a large, dry stainless-steel bowl on a stable heatproof surface. Leave ample room for bubbling; do not pour hot oil into a storage jar. Wash and dry the fresh aromatics before mincing, and have a dry metal strainer ready."
         },
         {
           "@type": "HowToStep",
-          "text": "The Infuse: In a small saucepan, combine oil, star anise, cinnamon stick, and Sichuan peppercorns if using. Heat over medium until the oil reaches 275-300°F and the spices are fragrant, about 8-10 minutes."
+          "text": "The Infuse: In a small saucepan, combine oil, star anise, cinnamon stick, and Sichuan peppercorns if using. Heat gently, checking with a thermometer, until the spices are fragrant and the oil reaches about 275°F, roughly 8–10 minutes. Lower the heat if spices darken early; remove darkening spices rather than continuing to fry them. Turn off the heat."
         },
         {
           "@type": "HowToStep",
-          "text": "The Pour: Remove whole spices with a slotted spoon. Carefully pour the hot oil over the pepper flake mixture - it will sizzle dramatically. Stir immediately."
+          "text": "The Pour: Remove the whole spices with the dry metal strainer. Test a small spoonful of oil on a few flakes in a separate dry heatproof dish: they should sizzle without blackening or smelling burnt. If they scorch, let the oil cool a little and test again. Carefully add the oil to the main mixture in small increments, stirring with a dry metal spoon and allowing bubbling to subside between additions. Keep your face and hands clear of the steam and splashes. Heating does not make this fresh-garlic-and-ginger oil shelf-stable."
         },
         {
           "@type": "HowToStep",
@@ -16690,12 +16688,12 @@
       "recipeIngredient": [
         "3 tbsp Extra-Virgin Olive Oil",
         "3 tbsp All-Purpose Flour (or GF blend)",
-        "1 tbsp Chili Powder",
+        "1 tbsp mild American-style chili powder blend (not pure cayenne)",
         "1 tsp Ground Cumin",
         "1/2 tsp Garlic Powder",
         "1/4 tsp Dried Oregano",
         "1/4 tsp Sea Salt",
-        "Pinch of Cinnamon (The complex flavor)",
+        "Pinch of ground cinnamon, optional",
         "2 tbsp Tomato Paste",
         "2 cups Vegetable or Chicken Broth",
         "1 tsp Apple Cider Vinegar (The Finishing Touch)",
@@ -16704,7 +16702,7 @@
       "recipeInstructions": [
         {
           "@type": "HowToStep",
-          "text": "The Roux: In a medium saucepan, heat oil over medium. Whisk in the flour and all the spices (The Bloom). Cook, whisking constantly, for 1 minute until fragrant and the color deepens."
+          "text": "The Roux: Measure flour, chili powder, cumin, garlic powder, oregano, salt and optional cinnamon together before starting. In a medium saucepan, heat oil over medium. When a small pinch sizzles in the oil, whisk in that mixture; reserve black pepper for the finish. Cook, whisking constantly, for 1 minute until fragrant and the color deepens."
         },
         {
           "@type": "HowToStep",
@@ -16724,13 +16722,13 @@
         },
         {
           "@type": "HowToStep",
-          "text": "Store: Use immediately or store in a glass jar in the fridge for up to 1 week."
+          "text": "Store: Use immediately, or transfer to shallow heatproof containers and refrigerate promptly, within 2 hours (1 hour above 90°F / 32°C). Keep at 40°F / 4°C or below for 3–4 days, or freeze in small portions. Reheat leftovers to a rolling boil, stirring and adding a little broth or water if needed to restore a pourable consistency."
         }
       ],
       "prepTime": "PT5M",
       "cookTime": "PT10M",
       "totalTime": "PT15M",
-      "recipeYield": "2 cups",
+      "recipeYield": "About 2 cups",
       "recipeCategory": "Base",
       "recipeCuisine": ["Mexican"],
       "keywords": "Mexican, spicy, acidic, umami, rich, meal-prep, weeknight, simmer, boil, blend",
@@ -19239,18 +19237,18 @@
       "@context": "https://schema.org",
       "@type": "Recipe",
       "name": "Lemon Basil Shrimp Risotto",
-      "description": "Risotto originated in Northern Italy (Milan and the Veneto) where short-grain rice has been grown since the 15th century. The technique requires patience - adding hot broth one ladle at a time and stirring constantly releases the rice's starch (amylopectin), which creates the signature creamy texture without needing excessive butter or cream.",
+      "description": "Add warm broth gradually and stir frequently, keeping the rice at a gentle simmer. Judge the finish by a tender center with a slight bite and a loose, creamy consistency.",
       "url": "https://jordansilton.com/mise/recipes/lemon-basil-shrimp-risotto/",
       "recipeIngredient": [
-        "1 1/2 lbs Large Shrimp (U10), peeled and deveined",
+        "1 1/2 lbs U10 shrimp (under 10 per pound), peeled and deveined",
         "2 cups Arborio Rice",
         "1 cup Dry White Wine",
-        "5-6 cups Chicken or Vegetable Broth, heated",
+        "5–6 cups chicken or vegetable broth, heated, plus hot water only if needed",
         "1 large Onion, finely diced",
         "4 cloves Garlic, minced",
         "2 tbsp Unsalted Butter",
         "1 Lemon, zested and juiced",
-        "18 fresh Basil leaves, chiffonade",
+        "18 fresh basil leaves, chiffonade, plus extra for serving if desired",
         "2 tbsp Heavy Cream for richness",
         "1/2 cup Freshly Grated Parmesan",
         "Salt and Black Pepper"
@@ -19258,7 +19256,7 @@
       "recipeInstructions": [
         {
           "@type": "HowToStep",
-          "text": "The Crunch: In a large wide skillet, melt butter over medium-high. Add shrimp in a single layer. Sear for 2 minutes per side until just opaque. Remove to a plate."
+          "text": "The Crunch: In a large wide skillet, melt butter over medium-high. Add shrimp in a single layer. Cook on both sides until the flesh is pearly and opaque through the center, checking the thickest shrimp rather than relying on a fixed time. Work in batches if needed, sharing the butter between them. Remove to a clean plate; chop the large shrimp into bite-sized pieces if desired."
         },
         {
           "@type": "HowToStep",
@@ -19274,11 +19272,11 @@
         },
         {
           "@type": "HowToStep",
-          "text": "The Bind: Add the hot broth one ladle at a time. Stir constantly. Wait until each ladle is fully absorbed before adding the next. This will take 18-22 minutes."
+          "text": "The Bind: Reduce the heat to maintain a gentle simmer. Add hot broth a ladle at a time, stirring frequently and adding the next ladle when the previous one is mostly absorbed. Begin tasting after about 18–22 minutes; keep cooking and adding liquid until the center is tender with a slight bite. The full broth amount may not be needed; if it runs out before the rice is ready, continue with a little hot water."
         },
         {
           "@type": "HowToStep",
-          "text": "The Texture: Once the rice is al dente, stir in the heavy cream, Parmesan, lemon juice, and zest."
+          "text": "The Texture: Once the rice is al dente, stir in the heavy cream, Parmesan, lemon zest, and lemon juice to taste. Season with the listed salt and pepper. Loosen with a little hot broth or water if the rice sits in a stiff mound."
         },
         {
           "@type": "HowToStep",
@@ -19286,13 +19284,13 @@
         },
         {
           "@type": "HowToStep",
-          "text": "Serve: Garnish with extra basil and a \"High Note\" crack of black pepper."
+          "text": "Serve: Garnish with optional extra basil and black pepper, and serve immediately. Allow about 50 minutes including preparation; extra shrimp batches or rice that needs longer will extend the time."
         }
       ],
       "prepTime": "PT10M",
-      "cookTime": "PT30M",
-      "totalTime": "PT45M",
-      "recipeYield": "4",
+      "cookTime": "PT40M",
+      "totalTime": "PT50M",
+      "recipeYield": "4 generous main portions",
       "recipeCategory": "Main course",
       "recipeCuisine": ["Italian"],
       "keywords": "Italian, acidic, umami, rich, herbaceous, date-night, entertaining, weekend-project, saute",
@@ -22904,10 +22902,12 @@
       "@context": "https://schema.org",
       "@type": "Recipe",
       "name": "Spicy Thai Noodles",
-      "description": "This Thai-inspired one-pot noodle dish builds the sauce directly in the pasta pot, using residual heat to emulsify the sriracha-ginger glaze without extra fat. Scrambling eggs separately first keeps them distinct with bright yellow texture rather than forming a coating.",
+      "description": "This Thai-inspired pasta uses the same pot for boiling noodles, scrambling eggs, and sautéing vegetables. Divide the oil between the eggs and vegetables, then toss everything with the soy-ginger sauce.",
       "url": "https://jordansilton.com/mise/recipes/one-pot-spicy-thai-noodles/",
       "recipeIngredient": [
         "1 lb Penne or Linguine",
+        "2 tbsp olive oil, divided",
+        "Red pepper flakes, a pinch, optional",
         "1/3 cup Low-sodium Soy Sauce",
         "2 tbsp Dark Brown Sugar",
         "1.5 tbsp Sriracha (adjust for heat)",
@@ -22919,7 +22919,7 @@
         "4 Green Onions, chopped",
         "1/2 cup Fresh Cilantro, chopped",
         "1/2 cup Peanuts, crushed",
-        "Chicken or Shrimp"
+        "Fully cooked chicken or shrimp, optional addition, to taste"
       ],
       "recipeInstructions": [
         {
@@ -22932,28 +22932,28 @@
         },
         {
           "@type": "HowToStep",
-          "text": "The Eggs: In the same large pot, heat 1 tbsp oil. Scramble the eggs with a pinch of red pepper flakes until just set. Remove and set aside with the pasta."
+          "text": "The Eggs: In the same large pot, heat 1 tbsp oil. Scramble the eggs with the optional red pepper flakes until fully set, with no liquid egg remaining. Remove and set aside with the pasta."
         },
         {
           "@type": "HowToStep",
-          "text": "The Veg: Add remaining oil to the pot. Sauté zucchini, mushrooms, and carrots for 5 minutes over high heat until tender-crisp."
+          "text": "The Veg: Add the remaining half of the oil to the pot. Sauté zucchini, mushrooms, and carrots for 5 minutes over high heat until tender-crisp."
         },
         {
           "@type": "HowToStep",
-          "text": "Bind: Turn heat to low. Return the pasta and eggs to the pot. Pour the sauce over everything."
+          "text": "Bind: Turn heat to low. Return the pasta and eggs to the pot, along with any optional fully cooked chicken or shrimp. Pour the sauce over everything."
         },
         {
           "@type": "HowToStep",
-          "text": "Toss: Toss vigorously for 1 minute until the noodles are glossy and the sauce has thickened."
+          "text": "Toss: Toss until the pasta is evenly coated and everything is hot, about 1–2 minutes. If using refrigerated leftover protein, heat it to 165°F / 74°C throughout; the final toss may take longer."
         },
         {
           "@type": "HowToStep",
-          "text": "Serve: Remove from heat. Stir in the green onions, cilantro, and crushed peanuts. Serve hot or cold for the Kitchen Standard experience."
+          "text": "Serve: Remove from heat. Stir in the green onions, cilantro, and crushed peanuts. Serve immediately, or refrigerate promptly for chilled servings."
         }
       ],
       "prepTime": "PT10M",
-      "cookTime": "PT15M",
-      "totalTime": "PT25M",
+      "cookTime": "PT25M",
+      "totalTime": "PT35M",
       "recipeYield": "4",
       "recipeCategory": "Main course",
       "recipeCuisine": ["Thai"],
@@ -25950,7 +25950,7 @@
       "@context": "https://schema.org",
       "@type": "Recipe",
       "name": "Alfredo Sauce",
-      "description": "Fettuccine Alfredo was created in 1908 by Alfredo di Lelio in Rome for his pregnant wife who had lost her appetite. The original contained only butter, Parmigiano-Reggiano, and pasta - no cream.",
+      "description": "This cream-based Alfredo is a rich sauce for pasta or vegetables. For the initial preparation, finely grate the Parmesan before heating the pan and melt it gently, without boiling the cheese mixture.",
       "url": "https://jordansilton.com/mise/recipes/real-alfredo-sauce/",
       "recipeIngredient": [
         "1 stick (8 tbsp) Unsalted Butter",
@@ -25959,7 +25959,7 @@
         "1/2 tsp Garlic Powder or 1 clove fresh garlic, grated",
         "Pinch of Nutmeg (optional)",
         "Salt and Black Pepper to taste",
-        "1/4 cup Reserved Pasta Water"
+        "1/4 cup warm reserved pasta water or warm water, added as needed"
       ],
       "recipeInstructions": [
         {
@@ -25972,11 +25972,11 @@
         },
         {
           "@type": "HowToStep",
-          "text": "Emulsify: Turn the heat to LOW. Gradually whisk in the Parmesan cheese until melted and smooth."
+          "text": "Emulsify: Take the pan off the heat and gradually whisk in the finely grated Parmesan. If it needs more warmth to melt, return briefly to low heat while stirring; do not let the cheese mixture boil."
         },
         {
           "@type": "HowToStep",
-          "text": "Bind: Add the reserved pasta water and whisk vigorously. This is the \"glue\" that holds it all together."
+          "text": "Bind: Whisk in the listed warm pasta water or plain water a little at a time, stopping when the sauce flows and lightly coats a spoon. You may not need all of it; pasta water varies in salt and starch content."
         },
         {
           "@type": "HowToStep",
@@ -25984,13 +25984,13 @@
         },
         {
           "@type": "HowToStep",
-          "text": "Toss: Add your hot, cooked pasta directly to the skillet and toss until every strand is coated."
+          "text": "Toss: Use immediately over separately cooked pasta or vegetables, adding sauce gradually to coat. It thickens as it stands. Refrigerate unused sauce in a shallow covered container within 2 hours (1 hour above 90°F / 32°C), at 40°F / 4°C or below, and use within 3–4 days. To reheat leftovers, stir frequently over controlled heat and bring to a rolling boil, adding a little water if needed. Reheating may separate the sauce; it is best freshly made."
         }
       ],
-      "prepTime": "PT2M",
-      "cookTime": "PT5M",
-      "totalTime": "PT7M",
-      "recipeYield": "4",
+      "prepTime": "PT5M",
+      "cookTime": "PT10M",
+      "totalTime": "PT15M",
+      "recipeYield": "4 sauce portions",
       "recipeCategory": "Base",
       "recipeCuisine": ["Italian"],
       "keywords": "Italian, umami, rich, weeknight, quick-lunch, simmer, boil"
@@ -27520,7 +27520,7 @@
       "@context": "https://schema.org",
       "@type": "Recipe",
       "name": "San Marzano Tomato Sauce",
-      "description": "This is the foundational Italian-American red sauce - a 15-minute recipe that forms the backbone of stuffed shells, baked ziti, and eggplant parm. San Marzano tomatoes (grown in the volcanic soil near Mount Vesuvius) have lower acidity and a sweeter, more complex flavor than standard canned tomatoes.",
+      "description": "This quick Italian-American tomato sauce works with stuffed shells, baked ziti, and eggplant Parmesan. Allow about twenty-five minutes for preparation, warming the pan and tomatoes, and the short simmer.",
       "url": "https://jordansilton.com/mise/recipes/san-marzano-tomato-sauce/",
       "recipeIngredient": [
         "1 can (28 oz) Crushed San Marzano Tomatoes (look for DOP certification; ingredient list should be just tomatoes and salt)",
@@ -27532,11 +27532,11 @@
       "recipeInstructions": [
         {
           "@type": "HowToStep",
-          "text": "The Garlic: Warm olive oil in a saucepan over medium-low heat. Add smashed garlic cloves and let them sizzle gently for 30-45 seconds until fragrant and barely golden - do not brown or they'll turn bitter."
+          "text": "The Garlic: Warm olive oil in a saucepan over medium-low heat. Add the smashed or sliced garlic and let it sizzle gently until fragrant and still pale, about 1–2 minutes; thin slices may finish sooner. Lower the heat if the edges begin to color."
         },
         {
           "@type": "HowToStep",
-          "text": "The Tomatoes: Pour in the crushed San Marzano tomatoes. Add the basil sprig whole (you'll fish it out later). Season with a pinch of salt."
+          "text": "The Tomatoes: Pour in the crushed San Marzano tomatoes. Add the whole basil sprig or the measured dried oregano. Season with a pinch of salt."
         },
         {
           "@type": "HowToStep",
@@ -27544,16 +27544,16 @@
         },
         {
           "@type": "HowToStep",
-          "text": "Finish: Remove garlic cloves and basil sprig. Taste and adjust salt."
+          "text": "Finish: Remove the whole basil sprig if used. Remove smashed garlic cloves if you want a subtler sauce; leave sliced garlic and dried oregano in the sauce. Taste and adjust salt. Use immediately, or refrigerate promptly in shallow containers within 2 hours (1 hour above 90°F / 32°C). Keep at 40°F / 4°C or below for 3–4 days, or freeze; when reheating, bring the sauce to a rolling boil while stirring. This is a cooked refrigerator sauce, not a canning formula."
         }
       ],
-      "prepTime": "PT2M",
-      "cookTime": "PT15M",
-      "totalTime": "PT17M",
+      "prepTime": "PT5M",
+      "cookTime": "PT20M",
+      "totalTime": "PT25M",
       "recipeYield": "4",
       "recipeCategory": "Base",
       "recipeCuisine": ["Italian"],
-      "keywords": "Italian, savory, acidic, herbaceous, weeknight, meal-prep, simmer, no-cook",
+      "keywords": "Italian, savory, acidic, herbaceous, weeknight, meal-prep, simmer",
       "suitableForDiet": ["https://schema.org/VeganDiet", "https://schema.org/GlutenFreeDiet"]
     },
     {
@@ -31155,16 +31155,16 @@
         },
         {
           "@type": "HowToStep",
-          "text": "The Rest: Let sit at room temperature for at least 10 minutes to let flavors meld. Taste and adjust seasoning - add more vinegar for tang or sugar to balance saltiness."
+          "text": "The Rest: Let rest for 10 minutes to let flavors meld, or refrigerate for a longer wait. Taste and adjust seasoning - add more vinegar for tang or sugar to balance saltiness."
         },
         {
           "@type": "HowToStep",
-          "text": "The Serve: Serve in small individual dishes for dipping. Store refrigerated for up to 1 week; bring to room temperature before serving."
+          "text": "The Serve: Divide into small individual dipping dishes; keep the unused batch separate from sauce that has been dipped into. Refrigerate the unused sauce promptly at 40°F / 4°C or below and use within 3–4 days. Do not leave it out longer than 2 hours total, or 1 hour above 90°F / 32°C. Soy sauce and vinegar do not establish a shelf-stable mixture once fresh aromatics are added. Stir before serving; there is no need to warm the whole stored batch to room temperature."
         }
       ],
       "prepTime": "PT5M",
-      "totalTime": "PT5M",
-      "recipeYield": "8",
+      "totalTime": "PT15M",
+      "recipeYield": "8 small dipping portions",
       "recipeCategory": "Condiment",
       "recipeCuisine": ["Chinese", "Japanese"],
       "keywords": "Chinese, Japanese, savory, umami, acidic, aromatic, appetizer, raw, mix",
@@ -31486,10 +31486,10 @@
       "@context": "https://schema.org",
       "@type": "Recipe",
       "name": "Spanish Rice with Chorizo and Chickpeas",
-      "description": "Spanish cooking builds flavor through slow cooking, proper heat, and the principle that onions, garlic, and tomato are the foundation of nearly everything. This is meant to be reliable and honest - quality ingredients cooked with care, nothing fancy, just right.",
+      "description": "Chorizo seasons the vegetables before the rice bakes in broth with chickpeas and raisins. This covered method uses Arborio rice.",
       "url": "https://jordansilton.com/mise/recipes/spanish-rice-chorizo/",
       "recipeIngredient": [
-        "1.5 cups Short-grain Rice (Arborio or Bomba)",
+        "1.5 cups Arborio rice",
         "1/2 lb Spanish Chorizo (cured), sliced into rounds",
         "15 oz can Chickpeas, drained",
         "1 Red Bell Pepper, diced",
@@ -31505,11 +31505,11 @@
       "recipeInstructions": [
         {
           "@type": "HowToStep",
-          "text": "Render: In a large oven-safe skillet or Dutch oven, cook the chorizo rounds over medium heat until they are crispy and have released their red oil. Remove chorizo to a plate."
+          "text": "Render: Preheat the oven to 400°F. In a large oven-safe skillet or Dutch oven with a tight-fitting lid, cook the chorizo rounds over medium heat until they are crispy and have released their red oil. Remove chorizo to a plate."
         },
         {
           "@type": "HowToStep",
-          "text": "Sauté: Add the onion, bell pepper, and garlic to the chorizo fat. Cook for 8-10 minutes until soft and \"jammy.\""
+          "text": "Sauté: Add the onion, bell pepper, and garlic to the chorizo fat. Cook for about 8–10 minutes until softened, stirring and lowering the heat if the garlic browns too quickly."
         },
         {
           "@type": "HowToStep",
@@ -31529,16 +31529,16 @@
         },
         {
           "@type": "HowToStep",
-          "text": "Bake: Cover tightly and transfer to a 400°F oven. Bake for 20-25 minutes until the liquid is absorbed and the rice is tender."
+          "text": "Bake: Cover tightly and transfer to a 400°F oven. Bake for about 20–25 minutes, then check for absorbed liquid and a tender rice center. If the rice is firm and the pan is dry, add a little hot water, cover, and continue baking; if still wet and firm, keep cooking before adding liquid."
         },
         {
           "@type": "HowToStep",
-          "text": "Rest: Remove from oven and let sit, covered, for 10 minutes. This is the secret to fluffy, distinct grains."
+          "text": "Rest: Remove from oven and let sit, covered, for 10 minutes. Fluff gently before serving. Allow about 80 minutes overall: 20 minutes preparation, roughly 50 minutes for rendering, sautéing, heating liquid and baking, plus the 10-minute rest. Extra browning batches or firm rice extend this estimate."
         }
       ],
       "prepTime": "PT20M",
-      "cookTime": "PT30M",
-      "totalTime": "PT50M",
+      "cookTime": "PT50M",
+      "totalTime": "PT80M",
       "recipeYield": "4",
       "recipeCategory": "Main course",
       "recipeCuisine": ["Spanish"],

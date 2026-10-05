@@ -21,8 +21,8 @@ role: condiment
 vibe: quick
 prepTime: 5 min
 cookTime: 0 min
-totalTime: 5 min
-servings: '8'
+totalTime: 15 min
+servings: 8 small dipping portions
 seasons:
   - year-round
 nutritionalDensity: light
@@ -41,14 +41,6 @@ ingredients:
   - 1 tsp Sugar
   - 1/2 tsp Chili Garlic Sauce or Sriracha (optional)
 origin: China
-nutrition:
-  calories: 50
-  protein: 3
-  carbs: 4.5
-  fat: 2
-  fiber: 0
-  sugar: 1.5
-  sodium: 2080
 ---
 
 ## Chef's Note
@@ -62,6 +54,6 @@ For kids, serve the heat on the side or reduce/omit the spicy elements.
 
 2. **The Aromatics:** Stir in grated ginger, minced garlic, and sliced green onion. Add chili sauce if you want heat.
 
-3. **The Rest:** Let sit at room temperature for at least 10 minutes to let flavors meld. Taste and adjust seasoning - add more vinegar for tang or sugar to balance saltiness.
+3. **The Rest:** Let rest for 10 minutes to let flavors meld, or refrigerate for a longer wait. Taste and adjust seasoning - add more vinegar for tang or sugar to balance saltiness.
 
-4. **The Serve:** Serve in small individual dishes for dipping. Store refrigerated for up to 1 week; bring to room temperature before serving.
+4. **The Serve:** Divide into small individual dipping dishes; keep the unused batch separate from sauce that has been dipped into. Refrigerate the unused sauce promptly at 40°F / 4°C or below and use within 3–4 days. Do not leave it out longer than 2 hours total, or 1 hour above 90°F / 32°C. Soy sauce and vinegar do not establish a shelf-stable mixture once fresh aromatics are added. Stir before serving; there is no need to warm the whole stored batch to room temperature.

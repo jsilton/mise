@@ -18,8 +18,8 @@ cuisines:
 role: main
 vibe: nutritious
 prepTime: 10 min
-cookTime: 15 min
-totalTime: 25 min
+cookTime: 25 min
+totalTime: 35 min
 servings: '4'
 pairsWith:
   - coconut-jasmine-rice
@@ -27,6 +27,8 @@ pairsWith:
   - quick-pickled-carrots-and-daikon
 ingredients:
   - 1 lb Penne or Linguine
+  - '2 tbsp olive oil, divided'
+  - 'Red pepper flakes, a pinch, optional'
   - 1/3 cup Low-sodium Soy Sauce
   - 2 tbsp Dark Brown Sugar
   - 1.5 tbsp Sriracha (adjust for heat)
@@ -38,38 +40,30 @@ ingredients:
   - '4 Green Onions, chopped'
   - '1/2 cup Fresh Cilantro, chopped'
   - '1/2 cup Peanuts, crushed'
-  - Chicken or Shrimp
+  - 'Fully cooked chicken or shrimp, optional addition, to taste'
 seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
-nutrition:
-  calories: 510
-  protein: 29.5
-  carbs: 38.5
-  fat: 31
-  fiber: 7.5
-  sugar: 16
-  sodium: 4180
 source: Adapted from Domesticsuperhero.com
 sourceUrl: 'https://domesticsuperhero.com/one-pot-spicy-thai-noodles/'
 ---
 
 ## Chef's Note
 
-This Thai-inspired one-pot noodle dish builds the sauce directly in the pasta pot, using residual heat to emulsify the sriracha-ginger glaze without extra fat. Scrambling eggs separately first keeps them distinct with bright yellow texture rather than forming a coating. Fresh cilantro and lime add brightness.
+This Thai-inspired pasta uses the same pot for boiling noodles, scrambling eggs, and sautéing vegetables. Divide the oil between the eggs and vegetables, then toss everything with the soy-ginger sauce. Cilantro and green onions go in at the end.
 For kids, serve the heat on the side or reduce/omit the spicy elements.
 
 ## Directions
 
 1.  **Boil:** Cook pasta in a large pot of salted water according to package directions. Drain and set aside.
 2.  **The Sauce:** In a small bowl, whisk together soy sauce, brown sugar, Sriracha, and grated ginger until smooth.
-3.  **The Eggs:** In the same large pot, heat 1 tbsp oil. Scramble the eggs with a pinch of red pepper flakes until just set. Remove and set aside with the pasta.
-4.  **The Veg:** Add remaining oil to the pot. Sauté zucchini, mushrooms, and carrots for 5 minutes over high heat until tender-crisp.
-5.  **Bind:** Turn heat to low. Return the pasta and eggs to the pot. Pour the sauce over everything.
-6.  **Toss:** Toss vigorously for 1 minute until the noodles are glossy and the sauce has thickened.
-7.  **Serve:** Remove from heat. Stir in the green onions, cilantro, and crushed peanuts. Serve hot or cold for the Kitchen Standard experience.
+3.  **The Eggs:** In the same large pot, heat 1 tbsp oil. Scramble the eggs with the optional red pepper flakes until fully set, with no liquid egg remaining. Remove and set aside with the pasta.
+4.  **The Veg:** Add the remaining half of the oil to the pot. Sauté zucchini, mushrooms, and carrots for 5 minutes over high heat until tender-crisp.
+5.  **Bind:** Turn heat to low. Return the pasta and eggs to the pot, along with any optional fully cooked chicken or shrimp. Pour the sauce over everything.
+6.  **Toss:** Toss until the pasta is evenly coated and everything is hot, about 1–2 minutes. If using refrigerated leftover protein, heat it to 165°F / 74°C throughout; the final toss may take longer.
+7.  **Serve:** Remove from heat. Stir in the green onions, cilantro, and crushed peanuts. Serve immediately, or refrigerate promptly for chilled servings.
 
 ## Cooking Notes
 
-The noodles can be served warm or chilled. If adding a separate protein, cook it fully and combine it near the end so it does not overcook.
+Allow about 35 minutes for the base recipe, including water heating, with sauce preparation overlapping the pasta cooking. Cooking an optional protein separately adds time. If starting with raw chicken, cook it separately to 165°F / 74°C; cook raw shrimp until pearly and opaque through the center before adding. For chilled servings, refrigerate in shallow containers within 2 hours, or 1 hour above 90°F / 32°C. Keep at 40°F / 4°C or below.

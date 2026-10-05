@@ -20,7 +20,7 @@ vibe: quick
 prepTime: 5 min
 cookTime: 10 min
 totalTime: 15 min
-servings: 2 cups
+servings: About 2 cups
 pairsWith:
   - crispy-black-bean-tacos
   - slow-cooker-vegetarian-lentil-tortilla-soup
@@ -28,12 +28,12 @@ pairsWith:
 ingredients:
   - 3 tbsp Extra-Virgin Olive Oil
   - 3 tbsp All-Purpose Flour (or GF blend)
-  - 1 tbsp Chili Powder
+  - 1 tbsp mild American-style chili powder blend (not pure cayenne)
   - 1 tsp Ground Cumin
   - 1/2 tsp Garlic Powder
   - 1/4 tsp Dried Oregano
   - 1/4 tsp Sea Salt
-  - Pinch of Cinnamon (The complex flavor)
+  - Pinch of ground cinnamon, optional
   - 2 tbsp Tomato Paste
   - 2 cups Vegetable or Chicken Broth
   - 1 tsp Apple Cider Vinegar (The Finishing Touch)
@@ -43,14 +43,6 @@ seasons:
   - year-round
 nutritionalDensity: light
 leftovers: good
-nutrition:
-  calories: 915
-  protein: 22.5
-  carbs: 151
-  fat: 23.5
-  fiber: 8
-  sugar: 2
-  sodium: 2560
 source: Adapted from Cookieandkate.com
 sourceUrl: 'https://cookieandkate.com/2016/enchilada-sauce-recipe/'
 ---
@@ -62,12 +54,12 @@ For kids, serve the heat on the side or reduce/omit the spicy elements.
 
 ## Directions
 
-1.  **The Roux:** In a medium saucepan, heat oil over medium. Whisk in the flour and all the spices (The Bloom). Cook, whisking constantly, for 1 minute until fragrant and the color deepens.
+1.  **The Roux:** Measure flour, chili powder, cumin, garlic powder, oregano, salt and optional cinnamon together before starting. In a medium saucepan, heat oil over medium. When a small pinch sizzles in the oil, whisk in that mixture; reserve black pepper for the finish. Cook, whisking constantly, for 1 minute until fragrant and the color deepens.
 2.  **Emulsify:** Whisk in the tomato paste until smooth.
 3.  **The Liquid:** Slowly pour in the broth while whisking vigorously to remove all lumps.
 4.  **Simmer:** Increase heat to medium-high and bring to a boil. Reduce heat and simmer for 5-7 minutes until the sauce thickens and coats the back of a spoon.
 5.  **Finish:** Remove from heat. Whisk in the vinegar and black pepper. Taste and add more salt if needed.
-6.  **Store:** Use immediately or store in a glass jar in the fridge for up to 1 week.
+6.  **Store:** Use immediately, or transfer to shallow heatproof containers and refrigerate promptly, within 2 hours (1 hour above 90°F / 32°C). Keep at 40°F / 4°C or below for 3–4 days, or freeze in small portions. Reheat leftovers to a rolling boil, stirring and adding a little broth or water if needed to restore a pourable consistency.
 
 ## Cooking Notes
 

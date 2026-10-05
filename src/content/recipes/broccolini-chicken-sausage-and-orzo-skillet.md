@@ -24,15 +24,15 @@ pairsWith:
   - arugula-feta-salad
   - charred-asparagus-with-parmesan
 ingredients:
-  - '8 oz Hot Italian Chicken Sausage, sliced into rounds'
+  - '8 oz fully cooked hot Italian chicken sausage, sliced into 1/4-inch rounds'
   - 1 cup Orzo pasta
-  - '2 bunches Broccolini, trimmed'
+  - '2 bunches broccolini (about 1 lb), trimmed and coarsely chopped'
   - 2 1/2 cups Chicken Broth
   - 2 tbsp Olive Oil
   - '2 cloves Garlic, minced'
   - 1/2 cup Grated Parmesan
   - Salt and Black Pepper
-  - 1 cup Frozen Peas (replaces broccolini if kids prefer)
+  - '1 cup frozen peas, optional replacement for the broccolini; do not add both'
 origin: Mediterranean
 seasons:
   - year-round
@@ -54,13 +54,13 @@ rating: 5
 
 ## Chef's Note
 
-This is a sheet-pan formula: protein, vegetable, starch, all in one vessel. Broccolini has a more tender stem than regular broccoli, so it cooks through without becoming mushy. The key is high heat at the start to char the broccolini tips, then lower heat to finish the sausage through without burning anything.
+This skillet dinner uses fully cooked chicken sausage. Coarsely chop the broccolini so the stems can become tender during the short sauté. Cook the orzo to tenderness, adjusting for its package timing rather than relying on a fixed ten minutes.
 
 ## Directions
 
-1.  **The Sear:** Heat oil in a large skillet. Brown the sausage rounds for 3-4 minutes. Remove to a plate.
-2.  **The Veg:** Add broccolini to the same pan. Sauté over high heat for 5 minutes until charred and tender-crisp. Remove and keep with the sausage.
+1.  **The Sear:** Heat oil in a large skillet with a lid. Brown the fully cooked sausage rounds for 3–4 minutes. Raw chicken sausage is not a direct substitute for this brief browning step. Remove to a plate.
+2.  **The Veg:** Add broccolini to the same pan. Sauté for about 5 minutes until the stems are tender-crisp; cook a little longer if still tough. Remove and keep with the sausage. If using frozen peas instead, skip this step and add them near the end of the orzo cooking, allowing a few minutes to heat through.
 3.  **The Toast:** Add the orzo and garlic to the pan. Toast for 30-45 seconds until fragrant and the orzo smells nutty.
-4.  **The Simmer:** Pour in the broth. Bring to a boil, then reduce to low and cover. Simmer for 10 minutes until liquid is absorbed and pasta is al dente.
-5.  **The Fold:** Stir in the Parmesan, the reserved sausage, and the broccolini.
+4.  **The Simmer:** Pour in the broth. Bring to a boil, then reduce to low and cover. Simmer for about 10 minutes, or according to the orzo package, until the pasta is al dente. If tender pasta still has pooled broth, uncover and simmer briefly to evaporate it; if the pan is dry but pasta is firm, add a little hot water and continue cooking.
+5.  **The Fold:** Return the reserved sausage and broccolini, if using, and stir over low heat until hot. Remove from heat and stir in the Parmesan.
 6.  **Finish:** If the pasta is too dry, add a splash of hot water. Season with plenty of black pepper.
