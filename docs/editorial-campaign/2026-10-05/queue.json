@@ -317,7 +317,7 @@
       "source": null,
       "sourceUrl": null,
       "group": "soups_broths_01",
-      "status": "accepted",
+      "status": "implemented",
       "reviewEvidence": [
         "private whole-recipe soups_broths_01 proposal/record; independent/root gate required",
         "docs/reviews/avgolemono-soup.md",
@@ -332,7 +332,8 @@
       "inputSha256": "d70d796aa90312b568a1cc8a4c3388a35d1014b86264500cd06f386a53c74009",
       "plannedBatch": "simmer-boil-and-steam-01",
       "acceptedSourceSha256": "041f48f2c9a3352291f886b2e37a853fd61746683297aa8049277718343d64c7",
-      "productionVerification": "pending"
+      "productionVerification": "pending",
+      "implementationCommit": "c53987286daf72ad429061f7dca0a933bd99c76c"
     },
     {
       "slug": "avocado-toast",
@@ -1168,7 +1169,7 @@
       "source": null,
       "sourceUrl": null,
       "group": "soups_broths_01",
-      "status": "accepted",
+      "status": "implemented",
       "reviewEvidence": [
         "docs/reviews/source-restorations-2026-10-05.md",
         "private whole-recipe soups_broths_01 proposal/record; independent/root gate required",
@@ -1185,7 +1186,8 @@
       "inputSha256": "641012fe038de688eb2bbb441cfc185a9cae7bd079cf8f92bb3531db050429fe",
       "plannedBatch": "simmer-boil-and-steam-01",
       "acceptedSourceSha256": "a640a7f22e4c0b3a1c794484fdd99fb59dcbf9e7db11d1ae6986126f1aed6e2c",
-      "productionVerification": "pending"
+      "productionVerification": "pending",
+      "implementationCommit": "c53987286daf72ad429061f7dca0a933bd99c76c"
     },
     {
       "slug": "carnitas-bowl",
@@ -2097,7 +2099,7 @@
       "source": "Adapted from Delish.com",
       "sourceUrl": "http://www.delish.com/cooking/recipe-ideas/recipes/a55765/cream-of-mushroom-soup-recipe/",
       "group": "soups_broths_01",
-      "status": "accepted",
+      "status": "implemented",
       "reviewEvidence": [
         "private whole-recipe soups_broths_01 proposal/record; independent/root gate required",
         "docs/reviews/cream-of-mushroom-soup.md",
@@ -2112,7 +2114,8 @@
       "inputSha256": "87f45795abaf7240d719c09963b21bc78259f3a5145d156140213f969f4c0b48",
       "plannedBatch": "simmer-boil-and-steam-03",
       "acceptedSourceSha256": "4827350aa6f877d5e03f4cce4438cc504c7028c3a8417b460ac034f5866143c2",
-      "productionVerification": "pending"
+      "productionVerification": "pending",
+      "implementationCommit": "c53987286daf72ad429061f7dca0a933bd99c76c"
     },
     {
       "slug": "creamy-avocado-pasta",
@@ -2391,7 +2394,7 @@
       "source": "Adapted from Foodandwine.com",
       "sourceUrl": "http://www.foodandwine.com/recipes/curried-carrot-and-apple-soup",
       "group": "soups_broths_01",
-      "status": "accepted",
+      "status": "implemented",
       "reviewEvidence": [
         "private whole-recipe soups_broths_01 proposal/record; independent/root gate required",
         "docs/reviews/curried-carrot-and-apple-soup.md",
@@ -2406,7 +2409,8 @@
       "inputSha256": "aa6d0358eb65c933b9700b7f82c6d03f03b44c789e72b8ff9958e3036bd42a17",
       "plannedBatch": "simmer-boil-and-steam-03",
       "acceptedSourceSha256": "f619fa46fd6846fe2f889bdfcc3b62583d94ac45b6b4f97241d67648c97ca8b8",
-      "productionVerification": "pending"
+      "productionVerification": "pending",
+      "implementationCommit": "c53987286daf72ad429061f7dca0a933bd99c76c"
     },
     {
       "slug": "custard-mac-and-pimento-cheese",
@@ -2477,7 +2481,7 @@
       "source": "Adapted from Epicurious.com",
       "sourceUrl": "http://www.epicurious.com/recipes/food/views/dashi-japanese-sea-stock-103413",
       "group": "soups_broths_01",
-      "status": "accepted",
+      "status": "implemented",
       "reviewEvidence": [
         "private whole-recipe soups_broths_01 proposal/record; independent/root gate required",
         "docs/reviews/dashi-japanese-sea-stock.md",
@@ -2494,7 +2498,8 @@
       "inputSha256": "8300c0afe201e4d0620b419106f439c1dfe580ab01c09470fed27813cd09c8d7",
       "plannedBatch": "simmer-boil-and-steam-03",
       "acceptedSourceSha256": "a8170b4e42b8f3b2920be61cf2b40038b5a1b4e161c07a5a754c33d6551cf6ac",
-      "productionVerification": "pending"
+      "productionVerification": "pending",
+      "implementationCommit": "c53987286daf72ad429061f7dca0a933bd99c76c"
     },
     {
       "slug": "doc-cheys-chicken-lo-mein",
@@ -8545,10 +8550,10 @@
   ],
   "routingLimitations": "Provisional routing uses current metadata to reduce coordination work. Reviewer must confirm actual process from complete recipe before starting; tags never establish method applicability or a recipe defect.",
   "statusCounts": {
-    "accepted": 5,
     "assigned": 11,
     "held": 7,
     "held-awaiting-evidence": 2,
+    "implemented": 5,
     "production-verified": 37,
     "proposed": 53,
     "queued": 294

@@ -19,3 +19,9 @@ The linked Hot and Sour Soup needs two quarts finished prepared stock and a sepa
 ## Publication state
 
 42 accelerated targeted repairs are verified live as a separate overlapping scope. Thirty-seven new complete editorial versions from the original409-source campaign are verified live, including the latest21 at c84083a3 / successful Pages37379630679. Five soup reviews passed whole independent/root review and local release validation; implementation and exact production verification remain pending. No kitchen testing occurred.
+
+## Implemented and validated checkpoint
+
+Source commit `c53987286daf72ad429061f7dca0a933bd99c76c` retains all five accepted source hashes after commit hooks. All 252 tests, five targeted lints, 643-recipe validation, 29 authored formula checks, 30 aggregate QA checks, all three export parity checks, private binding verification and public privacy checks passed. The build contains 758 HTML pages and 11,869 internal anchors with zero missing destinations. All five rendered pages match their built recipes; 135 scaled ingredient displays, 15 yield displays and 375-pixel mobile layouts passed. Cooking checkmarks persist after reentry; reset and exit passed. Print control is enabled with unchanged shared styles; print preview remains unverified. No kitchen test or native-app sync.
+
+The 42 accelerated targeted repairs remain verified live as a separate overlapping scope. Thirty-seven new complete editorial versions from the original 409-source campaign are verified live at releases through c84083a3. Five additional soup versions are implemented and locally validated; exact remote commit, CI/deployment and all five live pages remain to be verified. No physical kitchen testing or native-app sync occurred.

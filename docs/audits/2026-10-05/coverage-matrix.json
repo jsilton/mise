@@ -27,7 +27,7 @@
     },
     "uniquePathsInSixRepairCommits": 105,
     "kitchenTested": 0,
-    "productionReconciliation": "42 accelerated targeted repairs are verified live as a separate overlapping scope. Thirty-seven new complete editorial versions from the original409-source campaign are verified live, including the latest21 at c84083a3 / successful Pages37379630679. Five soup reviews passed whole independent/root review and local release validation; implementation and exact production verification remain pending. No kitchen testing occurred."
+    "productionReconciliation": "The 42 accelerated targeted repairs remain verified live as a separate overlapping scope. Thirty-seven new complete editorial versions from the original 409-source campaign are verified live at releases through c84083a3. Five additional soup versions are implemented and locally validated; exact remote commit, CI/deployment and all five live pages remain to be verified. No physical kitchen testing or native-app sync occurred."
   },
   "collectionEvidence": [
     "docs/REVIEW_PROGRESS.md",
@@ -695,11 +695,11 @@
         "record": "docs/reviews/avgolemono-soup.md",
         "acceptedSha256": "041f48f2c9a3352291f886b2e37a853fd61746683297aa8049277718343d64c7",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/soups-independent.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "c53987286daf72ad429061f7dca0a933bd99c76c"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "c53987286daf72ad429061f7dca0a933bd99c76c",
       "acceptedChange": {
-        "status": "accepted locally after independent whole challenge and complete root inspection; implementation pending",
+        "status": "implemented after whole independent challenge and complete root inspection",
         "record": "docs/reviews/avgolemono-soup.json",
         "sourceSha256": "041f48f2c9a3352291f886b2e37a853fd61746683297aa8049277718343d64c7"
       },
@@ -708,10 +708,14 @@
           "commit": "a2c9e28069faa57c7bb7fe4ac5e7ca02b6462861",
           "evidence": "actual recipe diff retained privately",
           "scope": "historical safety/scaling/source repair; file touch is not complete review"
+        },
+        {
+          "commit": "c53987286daf72ad429061f7dca0a933bd99c76c",
+          "scope": "complete editorial review"
         }
       ],
       "productionVerification": {
-        "status": "pending; existing live version does not certify accepted whole editorial version"
+        "status": "pending; exact remote release, successful deployment and affected live pages required"
       },
       "remainingQuestions": [
         "Record rice/orzo package and actual dry-grain weight without treating the two choices as equivalent.",
@@ -3433,11 +3437,11 @@
         "record": "docs/reviews/cantonese-wonton-broth.md",
         "acceptedSha256": "a640a7f22e4c0b3a1c794484fdd99fb59dcbf9e7db11d1ae6986126f1aed6e2c",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/soups-independent.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "c53987286daf72ad429061f7dca0a933bd99c76c"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "c53987286daf72ad429061f7dca0a933bd99c76c",
       "acceptedChange": {
-        "status": "accepted locally after independent whole challenge and complete root inspection; implementation pending",
+        "status": "implemented after whole independent challenge and complete root inspection",
         "record": "docs/reviews/cantonese-wonton-broth.json",
         "sourceSha256": "a640a7f22e4c0b3a1c794484fdd99fb59dcbf9e7db11d1ae6986126f1aed6e2c"
       },
@@ -3446,10 +3450,14 @@
           "commit": "493885bb88fa96b1ab626b20a5c8ec78830f9145",
           "evidence": "actual recipe diff retained privately",
           "scope": "historical safety/scaling/source repair; file touch is not complete review"
+        },
+        {
+          "commit": "c53987286daf72ad429061f7dca0a933bd99c76c",
+          "scope": "complete editorial review"
         }
       ],
       "productionVerification": {
-        "status": "pending; existing live version does not certify accepted whole editorial version"
+        "status": "pending; exact remote release, successful deployment and affected live pages required"
       },
       "remainingQuestions": [
         "Record stock salt, shrimp form/size and fish-sauce product strength without inferring their equivalence.",
@@ -7324,11 +7332,11 @@
         "record": "docs/reviews/cream-of-mushroom-soup.md",
         "acceptedSha256": "4827350aa6f877d5e03f4cce4438cc504c7028c3a8417b460ac034f5866143c2",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/soups-independent.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "c53987286daf72ad429061f7dca0a933bd99c76c"
       },
-      "latestRecipeCommit": "5741495b479d1891066e004ed07aa4b5f830db66",
+      "latestRecipeCommit": "c53987286daf72ad429061f7dca0a933bd99c76c",
       "acceptedChange": {
-        "status": "accepted locally after independent whole challenge and complete root inspection; implementation pending",
+        "status": "implemented after whole independent challenge and complete root inspection",
         "record": "docs/reviews/cream-of-mushroom-soup.json",
         "sourceSha256": "4827350aa6f877d5e03f4cce4438cc504c7028c3a8417b460ac034f5866143c2"
       },
@@ -7337,10 +7345,14 @@
           "commit": "5741495b479d1891066e004ed07aa4b5f830db66",
           "evidence": "actual recipe diff retained privately",
           "scope": "accelerated targeted repair"
+        },
+        {
+          "commit": "c53987286daf72ad429061f7dca0a933bd99c76c",
+          "scope": "complete editorial review"
         }
       ],
       "productionVerification": {
-        "status": "pending; existing live version does not certify accepted whole editorial version"
+        "status": "pending; exact remote release, successful deployment and affected live pages required"
       },
       "remainingQuestions": [
         "Measure raw/prepared/browned mushroom yield and the original garnish share.",
@@ -8359,17 +8371,22 @@
         "record": "docs/reviews/curried-carrot-and-apple-soup.md",
         "acceptedSha256": "f619fa46fd6846fe2f889bdfcc3b62583d94ac45b6b4f97241d67648c97ca8b8",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/soups-independent.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "c53987286daf72ad429061f7dca0a933bd99c76c"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "c53987286daf72ad429061f7dca0a933bd99c76c",
       "acceptedChange": {
-        "status": "accepted locally after independent whole challenge and complete root inspection; implementation pending",
+        "status": "implemented after whole independent challenge and complete root inspection",
         "record": "docs/reviews/curried-carrot-and-apple-soup.json",
         "sourceSha256": "f619fa46fd6846fe2f889bdfcc3b62583d94ac45b6b4f97241d67648c97ca8b8"
       },
-      "implementationCommits": [],
+      "implementationCommits": [
+        {
+          "commit": "c53987286daf72ad429061f7dca0a933bd99c76c",
+          "scope": "complete editorial review"
+        }
+      ],
       "productionVerification": {
-        "status": "pending; existing live version does not certify accepted whole editorial version"
+        "status": "pending; exact remote release, successful deployment and affected live pages required"
       },
       "remainingQuestions": [
         "Record cookie size/weight/spice and Madras curry strength for the saved count-based formula.",
@@ -8607,11 +8624,11 @@
         "record": "docs/reviews/dashi-japanese-sea-stock.md",
         "acceptedSha256": "a8170b4e42b8f3b2920be61cf2b40038b5a1b4e161c07a5a754c33d6551cf6ac",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/soups-independent.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "c53987286daf72ad429061f7dca0a933bd99c76c"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "c53987286daf72ad429061f7dca0a933bd99c76c",
       "acceptedChange": {
-        "status": "accepted locally after independent whole challenge and complete root inspection; implementation pending",
+        "status": "implemented after whole independent challenge and complete root inspection",
         "record": "docs/reviews/dashi-japanese-sea-stock.json",
         "sourceSha256": "a8170b4e42b8f3b2920be61cf2b40038b5a1b4e161c07a5a754c33d6551cf6ac"
       },
@@ -8620,10 +8637,14 @@
           "commit": "a2c9e28069faa57c7bb7fe4ac5e7ca02b6462861",
           "evidence": "actual recipe diff retained privately",
           "scope": "historical safety/scaling/source repair; file touch is not complete review"
+        },
+        {
+          "commit": "c53987286daf72ad429061f7dca0a933bd99c76c",
+          "scope": "complete editorial review"
         }
       ],
       "productionVerification": {
-        "status": "pending; existing live version does not certify accepted whole editorial version"
+        "status": "pending; exact remote release, successful deployment and affected live pages required"
       },
       "remainingQuestions": [
         "Record kombu product, actual weight/thickness/area and bonito package labels/packing.",

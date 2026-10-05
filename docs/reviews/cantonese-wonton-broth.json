@@ -1,7 +1,7 @@
 {
   "slug": "cantonese-wonton-broth",
   "title": "Cantonese Wonton Broth",
-  "status": "accepted complete editorial review; implementation and production pending",
+  "status": "implemented complete editorial review; production verification pending",
   "date": "2026-10-05",
   "notKitchenTested": true,
   "inputCommit": "afc39e07c49baed6924053ac34023a104d93c93a",
@@ -562,5 +562,26 @@
     "independentEvidenceSha256": "d8e0e696bd1843c1b62fb5368aa567fde67360a9e503af520d4060266eced038",
     "reversePriorByteExact": true,
     "culinaryAndFrontmatterUnchanged": true
+  },
+  "implementationCommit": "c53987286daf72ad429061f7dca0a933bd99c76c",
+  "integratedValidation": {
+    "tests": 252,
+    "targetedLint": "five passed, no errors or warnings",
+    "recipeSources": 643,
+    "authoredFormulas": 29,
+    "aggregateQaChecks": 30,
+    "builtHtml": 758,
+    "internalAnchors": 11869,
+    "missingLinks": 0,
+    "exportParity": "all three exports match 643 sources",
+    "privacy": "public evidence and assets passed; private binding check passed",
+    "renderedRecipes": 5,
+    "scaledIngredientDisplays": 135,
+    "scaledYieldDisplays": 15,
+    "mobileWidth": 375,
+    "cookingInteractions": "saved ingredient/step checkmarks, reset and exit passed",
+    "print": "button enabled and shared styles unchanged; preview unverified",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
   }
 }

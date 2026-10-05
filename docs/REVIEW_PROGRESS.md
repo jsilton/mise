@@ -1,6 +1,6 @@
 # Current campaign state — October 5, 2026
 
-276 recorded complete / 367 pending across 643 sources; zero kitchen tests. 42 accelerated targeted repairs are verified live as a separate overlapping scope. Thirty-seven new complete editorial versions from the original 409-source campaign are verified live, including the latest 21 at c84083a3 / successful Pages 37379630679. Five soup reviews passed whole independent/root review and local release validation; implementation and exact production verification remain pending. No kitchen testing occurred. All three subagents are active, rotating author review, independent challenge and private integration preparation; root alone integrates and publishes. [Five-soup acceptance](editorial-campaign/2026-10-05/soups-five.md).
+276 implemented recorded complete / 367 pending across 643 sources; zero kitchen tests. The 42 accelerated targeted repairs remain verified live as a separate overlapping scope. Thirty-seven new complete editorial versions from the original 409-source campaign are verified live at releases through c84083a3. Five additional soup versions are implemented and locally validated; exact remote commit, CI/deployment and all five live pages remain to be verified. No physical kitchen testing or native-app sync occurred. Three subagents continue whole authorship, independent challenge and private integration preparation; root alone integrates and publishes. [Five-soup implementation](editorial-campaign/2026-10-05/soups-five.md).
 
 # Historical campaign checkpoint — October 5, 2026
 
