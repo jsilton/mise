@@ -23,6 +23,9 @@ ingredients:
   - '4 garlic cloves, chopped'
   - '1 orange, juiced'
 sourceUrl: 'https://downshiftology.com/recipes/slow-cooker-pulled-pork/'
+cuisines:
+  - American
+origin: downshiftology.com
 ---
 
 ## Chef's Note
@@ -31,16 +34,14 @@ Orange juice, paprika and oregano give this pork a different flavor from the smo
 
 ## Directions
 
-1. **Step 1:** Place the diced onion, garlic and orange juice in your slow cooker.
+1. **Continue:** Place the diced onion, garlic and orange juice in your slow cooker.
 
-2. **Step 2:** In a small bowl, mix all of the spices together.
+2. **Mix:** In a small bowl, mix all of the spices together.
 
-3. **Step 3:** Trim all excess fat from the pork shoulder, then rub the spice mixture generously around the entire pork shoulder and place in the slow cooker.
+3. **Continue:** Trim all excess fat from the pork shoulder, then rub the spice mixture generously around the entire pork shoulder and place in the slow cooker.
 
-4. **Step 4:** Turn your slow cooker to low and cook for 8 hours.
+4. **Cook:** Turn your slow cooker to low and cook for 8 hours. Start with fully thawed pork. The shoulder should be fork-tender, commonly around 195–205°F; the food-safety minimum is 145°F / 63°C with three minutes rest. Continue cooking if it does not pull apart easily.
 
-5. **Step 5:** Once your pork is fully cooked, remove it from the slow cooker to a plate or cutting board and use two forks to shred the pork.
+5. **Continue:** Once your pork is fully cooked, remove it from the slow cooker to a plate or cutting board and use two forks to shred the pork.
 
-6. **Step 6:** Add some of the cooking liquid to the shredded pork for moisture, then serve.
-
-7. **Step 7:** Start with fully thawed pork. The shoulder should be fork-tender, commonly around 195–205°F; the food-safety minimum is 145°F / 63°C with three minutes rest. Continue cooking if it does not pull apart easily.
+6. **Continue:** Add some of the cooking liquid to the shredded pork for moisture, then serve.

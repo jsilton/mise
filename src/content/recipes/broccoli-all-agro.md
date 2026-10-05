@@ -19,6 +19,9 @@ ingredients:
   - 1 small clove Garlic (grated into paste)
   - 1/2 tsp Salt
 rating: 5
+cuisines:
+  - Italian
+origin: Saved Paprika recipe
 ---
 
 ## Chef's Note
@@ -27,10 +30,10 @@ Lemon juice and zest dress the steamed broccoli, with raw grated garlic for a sh
 
 ## Directions
 
-1. **Step 1:** The Dressing: While water boils, whisk the olive oil, lemon juice, zest, grated garlic, and salt in the bottom of your serving bowl.
+1. **Continue:** The Dressing: While water boils, whisk the olive oil, lemon juice, zest, grated garlic, and salt in the bottom of your serving bowl.
 
-2. **Step 2:** Steam: Steam broccoli for 4–5 minutes (until tender-crisp).
+2. **Continue:** Steam: Steam broccoli for 4–5 minutes (until tender-crisp).
 
-3. **Step 3:** Dry: Remove from steamer and shake off ALL excess water. (Water blocks flavor).
+3. **Continue:** Dry: Remove from steamer and shake off ALL excess water. (Water blocks flavor).
 
-4. **Step 4:** Toss: Dump the hot, dry broccoli directly into the serving bowl with the dressing. Toss vigorously. The heat creates a fragrant garlic-lemon sauce that clings to the veg.
+4. **Toss:** Toss: Dump the hot, dry broccoli directly into the serving bowl with the dressing. Toss vigorously. The heat creates a fragrant garlic-lemon sauce that clings to the veg.

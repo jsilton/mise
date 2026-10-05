@@ -23,6 +23,9 @@ ingredients:
   - 1 tsp kosher salt
   - 1/2 tsp pepper
 sourceUrl: 'https://thesavvyspoon.com/2025/03/10/chopped-pesto-salad-recipe/'
+cuisines:
+  - American
+origin: thesavvyspoon.com
 ---
 
 ## Chef's Note
@@ -31,6 +34,6 @@ Cannellini beans and mozzarella make this chopped cucumber-and-tomato salad subs
 
 ## Directions
 
-1. **Step 1:** Gently toss everything together in a large bowl and let sit for at least 10 minutes before serving.
+1. **Continue:** Gently toss everything together in a large bowl and let sit for at least 10 minutes before serving.
 
-2. **Step 2:** This salad will keep well in the refrigerator, too!
+2. **Continue:** This salad will keep well in the refrigerator, too!

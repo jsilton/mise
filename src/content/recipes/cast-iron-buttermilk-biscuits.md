@@ -21,6 +21,9 @@ ingredients:
   - 'Butter, for greasing the skillet'
   - 'Melted butter, for finishing, optional'
 sourceUrl: 'https://butfirstwebrunch.com/cast-iron-biscuits/'
+cuisines:
+  - American
+origin: butfirstwebrunch.com
 ---
 
 ## Chef's Note
@@ -29,12 +32,12 @@ Keep the butter cold and leave pea-sized pieces in the flour. Two gentle folds c
 
 ## Directions
 
-1. **Step 1:** Heat oven to 450°F. Grease a cast-iron skillet large enough for nine biscuits. Whisk flour, baking powder and salt together.
+1. **Prepare:** Heat oven to 450°F. Grease a cast-iron skillet large enough for nine biscuits. Whisk flour, baking powder and salt together.
 
-2. **Step 2:** Cut the cold butter into the flour until the mixture has coarse crumbs and pea-sized butter pieces. Stir in buttermilk just until the dough comes together.
+2. **Prepare:** Cut the cold butter into the flour until the mixture has coarse crumbs and pea-sized butter pieces. Stir in buttermilk just until the dough comes together.
 
-3. **Step 3:** On a lightly floured surface, pat into a rectangle about one inch thick. Fold over twice, then pat back to one inch thick. Cut straight down with a floured biscuit cutter; do not twist.
+3. **Continue:** On a lightly floured surface, pat into a rectangle about one inch thick. Fold over twice, then pat back to one inch thick. Cut straight down with a floured biscuit cutter; do not twist.
 
-4. **Step 4:** Arrange biscuits close together in the skillet. If the oven is still heating, refrigerate the biscuits to keep butter cold. Brush tops with a little buttermilk if desired.
+4. **Continue:** Arrange biscuits close together in the skillet. If the oven is still heating, refrigerate the biscuits to keep butter cold. Brush tops with a little buttermilk if desired.
 
-5. **Step 5:** Bake on a lower rack about 15 minutes, then move higher for about 3 minutes if tops need more color. Check that centers are baked through. Brush with optional melted butter. Cool ten minutes before serving.
+5. **Cook:** Bake on a lower rack about 15 minutes, then move higher for about 3 minutes if tops need more color. Check that centers are baked through. Brush with optional melted butter. Cool ten minutes before serving.

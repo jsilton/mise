@@ -27,6 +27,9 @@ ingredients:
   - '2 cups Marinara Sauce*, plus more for serving'
   - 'Chopped fresh parsley, for serving'
 sourceUrl: 'https://www.loveandlemons.com/stuffed-shells-recipe/'
+cuisines:
+  - Italian
+origin: loveandlemons.com
 ---
 
 ## Chef's Note
@@ -35,14 +38,16 @@ Ricotta and pecorino bind this filling without eggs or mozzarella. Squeeze the s
 
 ## Directions
 
-1. **Step 1:** Preheat the oven to 425°F.
+1. **Prepare:** Preheat the oven to 425°F.
 
-2. **Step 2:** Place the spinach in a steamer basket and set over a pot with 1-inch of water. Bring the water to a simmer, cover, and let steam for 1 minute, until the spinach is wilted. Transfer to a strainer and squeeze out the excess water and chop the spinach.
+2. **Continue:** Place the spinach in a steamer basket and set over a pot with 1-inch of water. Bring the water to a simmer, cover, and let steam for 1 minute, until the spinach is wilted. Transfer to a strainer and squeeze out the excess water and chop the spinach.
 
-3. **Step 3:** In a large pot of salted boiling water, cook the pasta shells for 10 minutes, until al dente. Drain and drizzle with a little olive oil to keep them from sticking together.
+3. **Continue:** In a large pot of salted boiling water, cook the pasta shells for 10 minutes, until al dente. Drain and drizzle with a little olive oil to keep them from sticking together.
 
-4. **Step 4:** In a medium bowl, combine the spinach with the ricotta, pecorino, garlic, oregano, lemon zest, red pepper flakes, salt, and several grinds of pepper.
+4. **Mix:** In a medium bowl, combine the spinach with the ricotta, pecorino, garlic, oregano, lemon zest, red pepper flakes, salt, and several grinds of pepper.
 
-5. **Step 5:** Spread the marinara in the bottom of a 9x13 baking dish. Stuff each shell with the filling and place in the dish. Cover with foil and bake for 20 minutes. Serve with more marinara on the side.
+5. **Continue:** Spread the marinara in the bottom of a 9x13 baking dish. Stuff each shell with the filling and place in the dish. Cover with foil and bake for 20 minutes. Bake until the filling centers reach 165°F / 74°C, allowing extra time for chilled shells. Serve with more marinara on the side.
 
-6. **Step 6:** Bake until the filling centers reach 165°F / 74°C, allowing extra time for chilled shells.
+## Cooking Notes
+
+Assembled shells can be covered and frozen. Thaw completely in the refrigerator before baking, allow extra oven time for a chilled dish and check that the filling centers reach 165°F / 74°C. Follow the baking dish manufacturer's instructions for temperature changes.

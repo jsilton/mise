@@ -20,6 +20,9 @@ ingredients:
   - 2 oz Gin
   - 3 dash Grapefruit Bitters
 rating: 5
+cuisines:
+  - American
+origin: Saved Paprika recipe
 ---
 
 ## Chef's Note
@@ -28,6 +31,6 @@ Gently muddle basil and lemon to release aroma without grinding the leaves. Doub
 
 ## Directions
 
-1. **Step 1:** Layer 1st three ingredients in glass in the above order and muddle gently. Add Gin, juice, bitters and ice to the shaker, and shake vigorously.
+1. **Continue:** Layer 1st three ingredients in glass in the above order and muddle gently. Add Gin, juice, bitters and ice to the shaker, and shake vigorously.
 
-2. **Step 2:** Double strain over ice in a highball glass. Garnish with Freshly spanked basil leaf.
+2. **Continue:** Double strain over ice in a highball glass. Garnish with Freshly spanked basil leaf.

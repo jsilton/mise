@@ -28,6 +28,9 @@ ingredients:
   - '3 cloves garlic, finely minced'
   - '5 oz baby spinach, chopped'
 sourceUrl: 'https://allthehealthythings.com/sausage-breakfast-casserole/'
+cuisines:
+  - American
+origin: allthehealthythings.com
 ---
 
 ## Chef's Note
@@ -36,20 +39,18 @@ Small sweet-potato cubes roast before the egg mixture goes into the dish. That g
 
 ## Directions
 
-1. **Step 1:** Preheat oven to 400 degrees.
+1. **Prepare:** Preheat oven to 400 degrees.
 
-2. **Step 2:** Place the sweet potatoes in a 9×13 inch casserole dish and then drizzle with olive oil. Toss until well coated. Bake the sweet potatoes for 15-20 minutes until tender and then remove from the oven.
+2. **Continue:** Place the sweet potatoes in a 9×13 inch casserole dish and then drizzle with avocado oil. Toss until well coated. Bake the sweet potatoes for 15-20 minutes until tender and then remove from the oven.
 
-3. **Step 3:** While the sweet potatoes are baking add the eggs, almond milk, green onion, hot sauce, salt, and pepper to a large mixing bowl. Whisk together until well combined and then fold in shredded cheese.
+3. **Continue:** While the sweet potatoes are baking add the eggs, almond milk, green onion, hot sauce, salt, and pepper to a large mixing bowl. Whisk together until well combined and then fold in shredded cheese.
 
-4. **Step 4:** Next, heat a large skillet over medium-high heat. Once hot, add the sausage and brown, breaking it up as it cooks.
+4. **Continue:** Next, heat a large skillet over medium-high heat. Once hot, add the sausage and brown, breaking it up as it cooks.
 
-5. **Step 5:** Once the sausage is brown add the onion, bell peppers, and garlic. Sauté for another 3-5 minutes or until onion and bell pepper start to become tender.
+5. **Continue:** Once the sausage is brown add the onion, bell peppers, and garlic. Sauté for another 3-5 minutes or until onion and bell pepper start to become tender.
 
-6. **Step 6:** Add the baby spinach to the skillet, sauté for 30 seconds to 1 minute until the spinach is wilted, and then remove from the heat.
+6. **Continue:** Add the baby spinach to the skillet, sauté for 30 seconds to 1 minute until the spinach is wilted, and then remove from the heat.
 
-7. **Step 7:** Give your casserole dish a light spray of olive or avocado oil to prevent sticking and then add the sausage mixture. Toss with the sweet potatoes until well combined.
+7. **Continue:** Give your casserole dish a light spray of olive or avocado oil to prevent sticking and then add the sausage mixture. Toss with the sweet potatoes until well combined.
 
-8. **Step 8:** Pour the egg mixture evenly over the sausage and veggies. Bake the casserole at 400 degrees for 35-40 (check after 30 minutes) until the egg is completely set. Let cool and then slice into 12 pieces.
-
-9. **Step 9:** Use the listed avocado oil for the potatoes. Cook ground pork sausage to 160°F / 71°C, or poultry sausage to 165°F / 74°C. Bake the assembled casserole until its center reaches 165°F / 74°C.
+8. **Continue:** Pour the egg mixture evenly over the sausage and veggies. Bake the casserole at 400 degrees for 35-40 (check after 30 minutes) until the egg is completely set. Let cool and then slice into 12 pieces. Use the listed avocado oil for the potatoes. Cook ground pork sausage to 160°F / 71°C, or poultry sausage to 165°F / 74°C. Bake the assembled casserole until its center reaches 165°F / 74°C.

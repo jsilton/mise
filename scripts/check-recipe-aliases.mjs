@@ -1,7 +1,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import assert from 'node:assert/strict';
-import { containsSlugToken } from './lib/slug-reference.mjs';
+import { containsRecipeSlugReference } from './lib/slug-reference.mjs';
 
 const aliases = JSON.parse(fs.readFileSync('src/data/recipe-aliases.json', 'utf8'));
 const baseline = JSON.parse(fs.readFileSync('docs/recipe-review-baseline.json', 'utf8'));
@@ -47,7 +47,10 @@ for (const [alias, target] of Object.entries(aliases)) {
     `Client redirect drops query or fragment: ${alias}`
   );
   for (const [file, text] of content)
-    assert(!containsSlugToken(text, alias), `Stale recipe/meal reference in ${file}: ${alias}`);
+    assert(
+      !containsRecipeSlugReference(text, alias, 'https://jordansilton.com/mise/'),
+      `Stale recipe/meal reference in ${file}: ${alias}`
+    );
   const sitemap = fs.readFileSync('dist/sitemap.xml', 'utf8');
   assert(
     !sitemap.includes(`/recipes/${alias}/`),

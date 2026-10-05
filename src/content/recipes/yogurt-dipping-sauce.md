@@ -23,6 +23,9 @@ ingredients:
   - 'Kosher salt, as needed'
 sourceUrl: >-
   https://www.foodnetwork.com/recipes/guy-fieri/falafel-in-pita-with-yogurt-sauce-recipe-1952260
+cuisines:
+  - Mediterranean
+origin: Guy Fieri
 ---
 
 ## Chef's Note
@@ -31,8 +34,8 @@ Lemon zest and juice brighten the yogurt while cumin, cilantro and parsley add a
 
 ## Directions
 
-1. **Step 1:** Mix the yogurt, lemon zest, lemon juice, cilantro, parsley and cumin together in a small bowl.
+1. **Mix:** Mix the yogurt, lemon zest, lemon juice, cilantro, parsley and cumin together in a small bowl.
 
-2. **Step 2:** Add salt to taste.
+2. **Continue:** Add salt to taste.
 
-3. **Step 3:** Chill until ready to use.
+3. **Continue:** Chill until ready to use.

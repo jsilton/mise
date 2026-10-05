@@ -33,6 +33,9 @@ ingredients:
   - '1/2 cup grated mozzarella or colby jack, optional'
   - 'fresh cilantro, or green onions garnish'
 sourceUrl: 'https://cleanfoodcrush.com/chopped-enchilada-skillet/'
+cuisines:
+  - Mexican
+origin: Cleanfoodcrush.com
 ---
 
 ## Chef's Note
@@ -41,10 +44,8 @@ Tortilla strips soften into the enchilada sauce while the vegetables keep some t
 
 ## Directions
 
-1. **Step 1:** Heat oil in large skillet on medium; add onion & beef. Saute until meat is almost done, then add both squash – cook another 4-5 minutes.
+1. **Cook:** Heat oil in large skillet on medium; add onion & beef. Saute until meat is almost done, then add both squash – cook another 4-5 minutes.
 
-2. **Step 2:** Add spices, fresh corn, beans, tortilla strips, and enchilada sauce. While gently stirring, let heat to a nice bubbly consistency – about 4 more minutes.
+2. **Continue:** Add spices, fresh corn, beans, tortilla strips, and enchilada sauce. While gently stirring, let heat to a nice bubbly consistency – about 4 more minutes. Cook ground beef to 160°F / 71°C or ground turkey to 165°F / 74°C before serving.
 
-3. **Step 3:** Top with cheese & cilantro/green onions if desired.
-
-4. **Step 4:** Cook ground beef to 160°F / 71°C or ground turkey to 165°F / 74°C before serving.
+3. **Continue:** Top with cheese & cilantro/green onions if desired.

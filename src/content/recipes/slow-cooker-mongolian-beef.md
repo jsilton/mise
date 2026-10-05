@@ -24,6 +24,9 @@ ingredients:
   - 1/2 cup water
   - 1/2 cup green onions cut into 1/2 inch pieces
 sourceUrl: 'https://www.dinneratthezoo.com/slow-cooker-mongolian-beef/'
+cuisines:
+  - Chinese
+origin: dinneratthezoo.com
 ---
 
 ## Chef's Note
@@ -32,14 +35,12 @@ Thin flank-steak slices and a cornstarch coating make a glossy slow-cooker sauce
 
 ## Directions
 
-1. **Step 1:** Place the flank steak in a bowl with the cornstarch and toss to coat evenly.
+1. **Continue:** Place the flank steak in a bowl with the cornstarch and toss to coat evenly.
 
-2. **Step 2:** Add the flank steak to the slow cooker.
+2. **Continue:** Add the flank steak to the slow cooker.
 
-3. **Step 3:** Place the sesame oil, garlic, ginger, soy sauce, brown sugar and water in the slow cooker. Stir to coat the meat in the sauce.
+3. **Continue:** Place the sesame oil, garlic, ginger, soy sauce, brown sugar and water in the slow cooker. Stir to coat the meat in the sauce.
 
-4. **Step 4:** Cover and cook on HIGH for 2-3 hours or LOW for 4-5 hours.
+4. **Cook:** Cover and cook on HIGH for 2-3 hours or LOW for 4-5 hours. Start with fully thawed beef. Check tenderness and that beef has reached at least 145°F / 63°C with three minutes rest before serving.
 
-5. **Step 5:** Stir in the green onions, then serve.
-
-6. **Step 6:** Start with fully thawed beef. Check tenderness and that beef has reached at least 145°F / 63°C with three minutes rest before serving.
+5. **Continue:** Stir in the green onions, then serve.

@@ -8,6 +8,7 @@ cookTime: '30 min, depending on rice cooker'
 totalTime: '45 min, planning estimate'
 servings: '5'
 cookingMethods:
+  - simmer
   - saute
 categories: []
 source: Saved Paprika recipe
@@ -34,6 +35,9 @@ ingredients:
   - '1 tsp neutral oil, for the vegetables'
   - 'Water, a small splash for vegetables if needed'
 rating: 5
+cuisines:
+  - Chinese
+origin: Saved Paprika recipe
 ---
 
 ## Chef's Note
@@ -42,12 +46,16 @@ Hoisin and duck sauce glaze prepared meatballs while coconut rice and garlicky g
 
 ## Directions
 
-1. **Step 1:** Rinse and drain rice. Stir coconut milk smooth, then combine it with rice and the measured water in a rice cooker rated for coconut milk. Cook according to the cooker instructions. If the appliance disallows fatty liquids, use a saucepan suitable for coconut rice instead.
+1. **Prepare:** Rinse and drain rice. Stir coconut milk smooth, then combine it with rice and the measured water in a rice cooker rated for coconut milk. Cook according to the cooker instructions. If the appliance disallows fatty liquids, use a saucepan suitable for coconut rice instead.
 
-2. **Step 2:** Heat the meatballs fully according to package instructions. This recipe requires fully cooked frozen meatballs; bring reheated centers to 165°F / 74°C. Brown the heated meatballs in a skillet with their one teaspoon oil.
+2. **Cook:** Heat the meatballs fully according to package instructions. This recipe requires fully cooked frozen meatballs; bring reheated centers to 165°F / 74°C. Brown the heated meatballs in a skillet with their one teaspoon oil.
 
-3. **Step 3:** Reduce heat to medium. Stir minced ginger and four minced garlic cloves around the meatballs for thirty seconds. Add hoisin, duck sauce, vinegar and measured water. Simmer about five minutes, stirring, until the glaze clings; add a splash of water if it becomes too thick.
+3. **Continue:** Reduce heat to medium. Stir minced ginger and four minced garlic cloves around the meatballs for thirty seconds. Add hoisin, duck sauce, vinegar and measured water. Simmer about five minutes, stirring, until the glaze clings; add a splash of water if it becomes too thick.
 
-4. **Step 4:** Heat the separately measured vegetable oil in another skillet. Cook carrots about two minutes, then add kale and sliced garlic. Cook three to five minutes more until carrots and greens are tender; add a small splash of water if needed. Season with pepper and lemon juice.
+4. **Cook:** Heat the separately measured vegetable oil in another skillet. Cook carrots about two minutes, then add kale and sliced garlic. Cook three to five minutes more until carrots and greens are tender; add a small splash of water if needed. Season with pepper and lemon juice.
 
-5. **Step 5:** Let rice finish its cooker cycle. Divide rice among five bowls, add the glazed meatballs and serve greens alongside. Actual total time follows the rice cooker and meatball package.
+5. **Finish:** Let rice finish its cooker cycle. Divide rice among five bowls, add the glazed meatballs and serve greens alongside. Actual total time follows the rice cooker and meatball package.
+
+## Cooking Notes
+
+Fresh ginger is a prominent part of the glaze. Leftover coconut rice can be used for fried rice; refrigerate it promptly in shallow containers and reheat thoroughly. The written rice liquid is coconut milk and water.

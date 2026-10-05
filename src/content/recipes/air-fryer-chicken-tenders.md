@@ -8,7 +8,7 @@ cookTime: 10 min per batch
 totalTime: '35–55 min, depending on basket capacity'
 servings: '4'
 cookingMethods:
-  - saute
+  - bake
 categories:
   - Dinner
   - Try This!
@@ -32,6 +32,11 @@ ingredients:
   - Freshly ground black pepper
 sourceUrl: >-
   https://www.delish.com/cooking/recipe-ideas/a32936658/air-fryer-chicken-tenders-recipe/
+cuisines:
+  - American
+equipment:
+  - air-fryer
+origin: delish.com
 ---
 
 ## Chef's Note
@@ -40,12 +45,10 @@ The flour, egg and panko layers give the tenders a crisp coating. Leave space in
 
 ## Directions
 
-1. **Step 1:** Season chicken tenders on both sides with salt and pepper. Place flour and bread crumbs in two separate shallow bowls. In a third bowl, whisk together eggs and buttermilk. Working one at a time, dip chicken in flour, then egg mixture, and finally in bread crumbs, pressing to coat.
+1. **Prepare:** Season chicken tenders on both sides with salt and pepper. Place flour and bread crumbs in two separate shallow bowls. In a third bowl, whisk together eggs and buttermilk. Working one at a time, dip chicken in flour, then egg mixture, and finally in bread crumbs, pressing to coat.
 
-2. **Step 2:** Working in batches, place chicken tenders in basket of air fryer, being sure to not overcrowd it. Spray the tops of chicken with cooking spray and cook at 400° for 5 minutes. Flip chicken over, spray the tops with more cooking spray and cook 5 minutes more. Repeat with remaining chicken tenders.
+2. **Continue:** Working in batches, place chicken tenders in basket of air fryer, being sure to not overcrowd it. Spray the tops of chicken with cooking spray and cook at 400°F for 5 minutes. Flip chicken over, spray the tops with more cooking spray and cook 5 minutes more. Repeat with remaining chicken tenders. Check the thickest chicken pieces for 165°F / 74°C before serving. Keep breading and sauce utensils separate from raw chicken.
 
-3. **Step 3:** Make sauce: In a small bowl, whisk together mayonnaise, honey, dijon, and hot sauce, if using. Season with a pinch of salt and a few cracks of black pepper.
+3. **Continue:** Make sauce: In a small bowl, whisk together mayonnaise, honey, dijon, and hot sauce, if using. Season with a pinch of salt and a few cracks of black pepper.
 
-4. **Step 4:** Serve chicken tenders with honey mustard.
-
-5. **Step 5:** Check the thickest chicken pieces for 165°F / 74°C before serving. Keep breading and sauce utensils separate from raw chicken.
+4. **Finish:** Serve chicken tenders with honey mustard.

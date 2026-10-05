@@ -30,7 +30,12 @@ ingredients:
   - ¼ teaspoon white pepper
   - 2/3 cup water (plus more for assembly)
   - 3 packages dumpling wrappers
+  - '2 tbsp neutral oil, for pan-frying each batch if choosing that method'
+  - 'Water, enough for the chosen cooking method'
 sourceUrl: 'https://thewoksoflife.com/dumpling-recipe-youll-ever-need/'
+cuisines:
+  - Chinese
+origin: thewoksoflife.com
 ---
 
 ## Chef's Note
@@ -39,28 +44,16 @@ Blanch, drain and squeeze the greens before chopping them finely. Stir the filli
 
 ## Directions
 
-1. **Step 1:** Wash your vegetables thoroughly and blanch them in a pot of boiling water. (1 minute for delicate leaves like Shepherd's purse, or 2 minutes for a more robust vegetable like napa cabbage or baby bok choy.) Cool by transferring to an ice bath or a colander under cold running water. Ring out all the water from the vegetables and chop very finely.
+1. **Prepare greens:** Wash and blanch the greens in boiling water: about one minute for delicate leaves or two minutes for cabbage or bok choy. Cool in ice water, drain and squeeze out excess water. Chop finely.
 
-2. **Step 2:** In a large bowl, stir together the vegetables, meat, wine, oil, sesame oil, salt, soy sauce, white pepper, and water. Mix vigorously for 6-8 minutes (or even up to 10 minutes), until very well-combined and paste-like.
+2. **Mix filling:** Combine greens, ground meat, wine, the measured half cup neutral oil, sesame oil, salt, soy sauce, white pepper and the measured two-thirds cup water. Stir vigorously for 6–8 minutes, until cohesive and paste-like.
 
-3. **Step 3:** To wrap the dumplings, dampen the edges of each circular wrapper with some water. Put a little less than a tablespoon of filling in the middle. Fold the circle in half and pinch the wrapper together at the top. Then make two folds on each side, until the dumpling looks like a fan. Make sure it’s completely sealed.
+3. **Test seasoning:** Wrap a small test dumpling and boil it until its filling reaches 160°F / 71°C for pork or beef, or 165°F / 74°C for chicken. Taste only after it is fully cooked, then adjust the remaining filling if necessary.
 
-4. **Step 4:** Boil a couple dumplings to taste test them, and adjust seasoning if needed. Finish assembling the dumplings, placing them on a parchment-lined baking sheet so they are not touching.
+4. **Shape:** Dampen a wrapper edge with a little water. Add slightly less than one tablespoon filling, fold in half, then pleat and pinch to seal. Keep completed dumplings on a parchment-lined tray without touching; keep filling refrigerated during pauses.
 
-5. **Step 5:** To freeze: wrap the baking sheets tightly with plastic wrap and put the pans in the freezer. Freeze overnight, then transfer the dumplings to freezer bags, and transfer back to the freezer for later.
+5. **Freeze if desired:** Freeze shaped dumplings in a single layer, then transfer to a sealed freezer bag. Freeze unused wrappers in an airtight bag. This time is additional to the fresh-dumpling total.
 
-6. **Step 6:** To boil: bring a large pot of water to a boil, drop the dumplings in, and bring back up to a boil. Simmer for 6-8 minutes (shorter for fresh dumplings, longer for frozen).
+6. **Choose a cooking method:** For boiling, bring a large pot of water to a boil, add dumplings and simmer about 6–8 minutes. For pan-frying, heat the separately measured two tablespoons neutral oil over medium-high heat, fry dumplings about two minutes, add a thin layer of water, cover and steam until the water evaporates, then uncover to crisp the bottoms. For steaming, use a lined basket above simmering water for about 8–10 minutes. Frozen dumplings need longer.
 
-7. **Step 7:** To pan-fry: heat 2 tablespoons oil in a non-stick pan over medium-high heat. Place the dumplings in the pan and allow to fry for 2 minutes. Pour a thin layer of water into the pan, cover, and reduce heat to medium-low. Allow dumplings to steam until the water has evaporated. Remove the cover, increase heat to medium-high and allow to fry for a few more minutes, until the bottoms of the dumplings are golden brown and crisp.
-
-8. **Step 8:** To steam: place dumplings in a steamer basket lined with damp cheesecloth, perforated parchment paper, or thin cabbage leaves. Bring water in a steamer to a simmer, and steam over medium-high heat for 8-10 minutes (shorter for fresh dumplings, longer for frozen).
-
-9. **Step 9:** TIPS & NOTES:
-
-10. **Step 10:** Find the dumpling skins fresh at the Asian grocery store. Look for the white, round ones. If they start to dry out, wrap them in a damp paper towel and put them in a sealed plastic bag for a couple hours to soften back up.
-
-11. **Step 11:** Freeze any unused dumpling wrappers in an airtight sealed plastic bag for later, or try this recipe.
-
-12. **Step 12:** Serve with our dumpling sauce, chili oil, Chinese black vinegar, or your favorite dipping sauce!
-
-13. **Step 13:** Check a test dumpling in each batch: ground pork or beef filling must reach 160°F / 71°C; ground chicken requires 165°F / 74°C. Cook the seasoning test fully before tasting. Never rely on floating alone for doneness.
+7. **Check and serve:** For every cooking method and batch, check a dumpling center for 160°F / 71°C with pork or beef, or 165°F / 74°C with chicken. Floating and browned wrappers alone do not establish doneness. Serve with soy-ginger dipping sauce, chili oil or Chinese black vinegar.

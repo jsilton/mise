@@ -22,6 +22,9 @@ ingredients:
   - 2 cups pureed fresh strawberries
   - 4 tablespoons lemon juice
 sourceUrl: 'https://www.allrecipes.com/recipe/140877/easy-eggless-strawberry-ice-cream/'
+cuisines:
+  - American
+origin: Allrecipes.com
 ---
 
 ## Chef's Note
@@ -30,8 +33,8 @@ This strawberry ice cream has no eggs and needs no custard cooking. Dissolve the
 
 ## Directions
 
-1. **Step 1:** Prepare and freeze the ice-cream maker bowl in advance if required. Use pasteurized milk and cream. Whisk milk, cream, sugar, salt and vanilla until sugar dissolves, then stir in strawberry puree and lemon juice.
+1. **Prepare:** Prepare and freeze the ice-cream maker bowl in advance if required. Use pasteurized milk and cream. Whisk milk, cream, sugar, salt and vanilla until sugar dissolves, then stir in strawberry puree and lemon juice.
 
-2. **Step 2:** Cover and refrigerate the mixture until thoroughly cold, about one to two hours if the ingredients were already chilled.
+2. **Chill:** Cover and refrigerate the mixture until thoroughly cold, about one to two hours if the ingredients were already chilled.
 
-3. **Step 3:** Churn according to the ice-cream maker instructions. Serve soft or transfer to a covered freezer container for two to three hours to firm up.
+3. **Churn:** Churn according to the ice-cream maker instructions. Serve soft or transfer to a covered freezer container for two to three hours to firm up.

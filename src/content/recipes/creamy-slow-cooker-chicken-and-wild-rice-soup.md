@@ -32,6 +32,9 @@ ingredients:
   - 1 cup half and half*
   - 2 tablespoons chopped fresh parsley
 sourceUrl: 'http://damndelicious.net/2016/12/09/slow-cooker-chicken-wild-rice-soup/'
+cuisines:
+  - American
+origin: Damndelicious.net
 ---
 
 ## Chef's Note
@@ -40,16 +43,14 @@ A separate butter-and-flour sauce thickens this mushroom, chicken and wild-rice 
 
 ## Directions
 
-1. **Step 1:** Season chicken with salt and pepper, to taste. Place chicken into a 6-qt slow cooker.
+1. **Prepare:** Season chicken with salt and pepper, to taste. Place chicken into a 6-qt slow cooker.
 
-2. **Step 2:** Stir in chicken stock, wild rice, garlic, onion, carrots, celery, thyme, rosemary and bay leaves; season with salt and pepper, to taste. Cover and cook on low heat for 6-8 hours. Add mushrooms during the last 30 minutes of cooking time.
+2. **Continue:** Stir in chicken stock, wild rice, garlic, onion, carrots, celery, thyme, rosemary and bay leaves; season with salt and pepper, to taste. Cover and cook on low heat for 6-8 hours. Add mushrooms during the last 30 minutes of cooking time. Start with fully thawed chicken and check the thickest pieces for 165°F / 74°C before removing and shredding.
 
-3. **Step 3:** Remove chicken from the slow cooker and shred, using two forks.
+3. **Continue:** Remove chicken from the slow cooker and shred, using two forks.
 
-4. **Step 4:** Melt butter in a saucepan over medium heat. Whisk in flour until lightly browned, about 1 minute. Whisk in milk and half and half, and cook, whisking constantly, until slightly thickened, about 4-5 minutes; season with salt and pepper, to taste.
+4. **Continue:** Melt butter in a saucepan over medium heat. Whisk in flour until lightly browned, about 1 minute. Whisk in milk and half and half, and cook, whisking constantly, until slightly thickened, about 4-5 minutes; season with salt and pepper, to taste.
 
-5. **Step 5:** Stir chicken and milk mixture into the slow cooker. If the soup is too thick, add more half and half as needed until desired consistency is reached.
+5. **Continue:** Stir chicken and milk mixture into the slow cooker. If the soup is too thick, add more half and half as needed until desired consistency is reached.
 
-6. **Step 6:** Serve immediately, garnished with parsley, if desired.
-
-7. **Step 7:** Start with fully thawed chicken. Before shredding, check the thickest pieces for 165°F / 74°C. Discard bay leaves before serving.
+6. **Finish:** Serve immediately, garnished with parsley, if desired. Discard bay leaves before serving.

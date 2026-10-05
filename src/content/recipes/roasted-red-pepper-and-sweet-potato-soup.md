@@ -8,7 +8,8 @@ cookTime: 4–6 hr
 totalTime: 4 hr 25 min–6 hr 25 min
 servings: About 6 cups
 cookingMethods:
-  - saute
+  - slow-cook
+  - blend
 categories:
   - Slow Cooker
   - Soup
@@ -25,6 +26,9 @@ ingredients:
   - 1/2 tsp black pepper.
   - pinch red pepper flakes.
 sourceUrl: 'https://paleopot.com/2012/11/paleo-roasted-red-pepper-sweet-potato-soup/'
+cuisines:
+  - American
+origin: Paleopot.com
 ---
 
 ## Chef's Note
@@ -33,10 +37,10 @@ Jarred roasted peppers flavor this slow-cooker soup without a separate roasting 
 
 ## Directions
 
-1. **Step 1:** Peel sweet potatoes and cut into similar one-inch cubes. Put the measured vegetables, drained peppers, coconut milk, stock, garlic and pepper into the slow cooker.
+1. **Prepare:** Peel sweet potatoes and cut into similar one-inch cubes. Put the measured vegetables, drained peppers, coconut milk, stock, garlic and pepper into the slow cooker.
 
-2. **Step 2:** Cover and cook on LOW for about four to six hours, until sweet-potato centers yield easily to a fork. Continue cooking if still firm.
+2. **Cook:** Cover and cook on LOW for about four to six hours, until sweet-potato centers yield easily to a fork. Continue cooking if still firm.
 
-3. **Step 3:** Blend smooth or leave a few soft pieces. Use an immersion blender with its head submerged, or blend small batches with steam venting safely; never seal hot soup in an unvented blender.
+3. **Continue:** Blend smooth or leave a few soft pieces. Use an immersion blender with its head submerged, or blend small batches with steam venting safely; never seal hot soup in an unvented blender.
 
-4. **Step 4:** Taste and adjust seasoning. Serve with a pinch of the optional red-pepper flakes.
+4. **Continue:** Taste and adjust seasoning. Serve with a pinch of the optional red-pepper flakes.

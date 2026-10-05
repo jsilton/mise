@@ -20,6 +20,9 @@ ingredients:
   - 1/2 cup shredded cheddar cheese
   - 1/4 cup breadcrumbs
   - Paprika
+cuisines:
+  - American
+origin: Lisa Gwock
 ---
 
 ## Chef's Note
@@ -28,12 +31,10 @@ Lisa Gwock’s casserole combines split chicken breasts, broccoli and a mushroom
 
 ## Directions
 
-1. **Step 1:** Place chicken in a 9-inch square pan and drizzle with butter. Bake at 375 degrees for 40 minutes.
+1. **Continue:** Place chicken in a 9-inch square pan and drizzle with butter. Bake at 375 degrees for 40 minutes.
 
-2. **Step 2:** While chicken is cooking, cook broccoli according to package directions; drain. Arrange around chicken.
+2. **Continue:** While chicken is cooking, cook broccoli according to package directions; drain. Arrange around chicken.
 
-3. **Step 3:** Combine soup, milk and cheese; pour over chicken and broccoli. Sprinkle with bread crumbs and paprika.
+3. **Continue:** Combine soup, milk and cheese; pour over chicken and broccoli. Sprinkle with bread crumbs and paprika.
 
-4. **Step 4:** Bake an additional 20 minutes.
-
-5. **Step 5:** Check the thickest part of each chicken breast, away from bone, for 165°F / 74°C; continue baking if needed.
+4. **Cook:** Bake an additional 20 minutes. Check the thickest part of each chicken breast, away from bone, for 165°F / 74°C; continue baking if needed.

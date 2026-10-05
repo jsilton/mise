@@ -25,6 +25,9 @@ ingredients:
   - 'Hoisin Sauce, for serving'
 sourceUrl: >-
   http://www.goodhousekeeping.com/food-recipes/easy/a42833/thai-turkey-lettuce-wraps-recipe/
+cuisines:
+  - Thai
+origin: Goodhousekeeping.com
 ---
 
 ## Chef's Note
@@ -33,8 +36,6 @@ Fish sauce, lime, cilantro and mint season the turkey filling. Let excess pan li
 
 ## Directions
 
-1. **Step 1:** In 12-inch skillet on medium-high, cook bell peppers in vegetable oil 3 minutes. Add garlic; cook 30 seconds. Add ground turkey and fish sauce. Cook 5 minutes, breaking up meat.
+1. **Continue:** In 12-inch skillet on medium-high, cook bell peppers in vegetable oil 3 minutes. Add garlic; cook 30 seconds. Add ground turkey and fish sauce. Cook 5 minutes, breaking up meat. Check turkey for 165°F / 74°C before adding the herbs. The unmeasured sugar from the saved method is omitted; offer the listed hoisin on the side.
 
-2. **Step 2:** Stir in cilantro, mint leaves, lime juice. Serve in lettuce cups with Sriracha hot sauce, if desired.
-
-3. **Step 3:** Cook ground turkey to 165°F / 74°C. The saved method mentioned sugar without recording an amount; omit that unmeasured addition and serve the listed hoisin on the side if desired.
+2. **Continue:** Stir in cilantro, mint leaves, lime juice. Serve in lettuce cups with Sriracha hot sauce, if desired.

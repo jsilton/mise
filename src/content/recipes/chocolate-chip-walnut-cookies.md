@@ -26,6 +26,9 @@ ingredients:
   - 2 cups semisweet chocolate chips
   - 1 cup chopped walnuts
 sourceUrl: 'https://www.allrecipes.com/recipe/10813/best-chocolate-chip-cookies/'
+cuisines:
+  - American
+origin: allrecipes.com
 ---
 
 ## Chef's Note
@@ -34,8 +37,8 @@ This walnut-and-chocolate version dissolves the baking soda in hot water before 
 
 ## Directions
 
-1. **Step 1:** Preheat oven to 350 degrees F (175 degrees C).
+1. **Prepare:** Preheat oven to 350 degrees F (175 degrees C).
 
-2. **Step 2:** Cream together the butter, white sugar, and brown sugar until smooth. Beat in the eggs one at a time, then stir in the vanilla. Dissolve baking soda in hot water. Add to batter along with salt. Stir in flour, chocolate chips, and nuts. Drop by large spoonfuls onto ungreased pans.
+2. **Continue:** Cream together the butter, white sugar, and brown sugar until smooth. Beat in the eggs one at a time, then stir in the vanilla. Dissolve baking soda in hot water. Add to batter along with salt. Stir in flour, chocolate chips, and nuts. Drop by large spoonfuls onto ungreased pans.
 
-3. **Step 3:** Bake for about 10 minutes in the preheated oven, or until edges are nicely browned.
+3. **Cook:** Bake for about 10 minutes in the preheated oven, or until edges are nicely browned.
