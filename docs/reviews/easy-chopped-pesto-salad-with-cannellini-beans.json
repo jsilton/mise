@@ -1,0 +1,215 @@
+{
+  "slug": "easy-chopped-pesto-salad-with-cannellini-beans",
+  "status": "accepted-editorial-review; production verification pending",
+  "inputCommit": "95b37f8bca5008657a668e52a1d970b1d03367d3",
+  "inputSha256": "041131fc9e2feb8d78de83e259c3e44e097122152367b94cec38681dbf2408bd",
+  "acceptedSourceSha256": "af7367d8b0af343e34ccbaffd538fa2494d843a72c1b224ea4ba4a0c2b5b6f85",
+  "changedFields": [
+    {
+      "field": "origin",
+      "before": "thesavvyspoon.com",
+      "after": null,
+      "rationale": "Remove duplicated publisher/person entry or unsupported birthplace while preserving actual source/cuisine context.",
+      "applicableSource": "docs/editorial-campaign/2026-10-05/cold-sources.md",
+      "confidence": "high for exact allocations and preserved source text; sensory results remain untested"
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Dress a chopped bean salad without diluting it with draining water",
+        "outcome": "Beans remain mostly intact, vegetables are crisp and pesto coats the ingredients instead of collecting in a watery pool.",
+        "techniques": ["seasoning", "cold-preparation"],
+        "before": [
+          "Wash and dry vegetables. Drain and rinse the beans, then drain thoroughly; drain mozzarella from its packing liquid.",
+          "Use a bowl large enough to lift and fold a pint of tomatoes, a whole cucumber, beans and cheese without spilling. Larger batches need more mixing room.",
+          "Use ready-to-eat prepared pesto. Pesto often contains nuts and dairy; check its ingredients when serving someone with an allergy."
+        ],
+        "checkpoints": [
+          {
+            "step": 1,
+            "cue": "Beans and mozzarella no longer drip freely before going into the bowl.",
+            "why": "Packing or rinse liquid otherwise thins the measured dressing."
+          },
+          {
+            "step": 3,
+            "cue": "Pesto reaches the beans and vegetables with only gentle folding.",
+            "why": "Thorough distribution need not crush the tender beans."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Liquid gathers in the serving bowl",
+            "cause": "Wet ingredients and salted vegetables release water.",
+            "fix": "Drain the ingredients well next time. For this batch, use a slotted serving spoon and stir gently; adding more salt will not fix the water."
+          },
+          {
+            "problem": "Beans break apart",
+            "cause": "The salad was stirred forcefully or very soft beans were used.",
+            "fix": "Fold from the bottom with a broad spoon; broken beans cannot be made whole again."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Cannellini beans",
+            "alternative": "The same stated can size of drained/rinsed Great Northern beans",
+            "effect": "Great Northern beans have a slightly different texture; use the same stated can size and drain them thoroughly."
+          }
+        ],
+        "timing": "About 15 minutes chopping/draining/mixing plus 10 minutes standing give 25 minutes elapsed. Standing time can be refrigerated. The finished volume depends on the size of the cucumber and how thoroughly the beans and cheese are drained.",
+        "storage": "Keep at 40°F / 4°C or below and refrigerate within 2 hours total out of refrigeration, or 1 hour above 90°F / 32°C. Keep covered and use within 2 days. Texture softens and more liquid may collect. A salty pesto dressing does not make this cheese-and-vegetable salad shelf-stable.",
+        "sources": [
+          {
+            "title": "thesavvyspoon.com",
+            "url": "https://thesavvyspoon.com/2025/03/10/chopped-pesto-salad-recipe/"
+          },
+          {
+            "title": "FoodSafety.gov — Clean handling and cold storage",
+            "url": "https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-05"
+        }
+      },
+      "rationale": "Recipe-specific guidance from complete ingredient and process inspection.",
+      "applicableSource": "docs/editorial-campaign/2026-10-05/cold-sources.md",
+      "confidence": "high for exact allocations and preserved source text; sensory results remain untested"
+    },
+    {
+      "field": "content",
+      "before": "\n## Chef's Note\n\nCannellini beans and mozzarella make this chopped cucumber-and-tomato salad substantial. Drain the beans and pat off excess water before tossing; pesto and red-wine vinegar form the dressing.\n\n## Directions\n\n1. **Continue:** Gently toss everything together in a large bowl and let sit for at least 10 minutes before serving.\n\n2. **Continue:** This salad will keep well in the refrigerator, too!\n",
+      "after": "\n## Chef's Note\n\nDrain the cannellini beans and mozzarella well and dry the chopped vegetables so water does not dilute the pesto dressing. Fold gently to keep the beans intact, then allow ten minutes before serving. Pesto and cheese already contribute salt, so taste the fully mixed salad before any extra seasoning.\n\n## Directions\n\n1. **Prepare:** Wash and dry tomatoes and cucumber. Halve tomatoes, peel and dice cucumber, drain and halve mozzarella, and thinly slice shallot. Drain and rinse cannellini beans and let excess water drain away. Combine these ingredients in a large bowl.\n\n2. **Dress:** Add the measured pesto, red wine vinegar, kosher salt and pepper.\n\n3. **Fold and rest:** Fold gently until the dressing reaches all the ingredients. Let stand 10 minutes before serving, or refrigerate for that interval if preparing ahead.\n\n4. **Serve or store:** Taste only after the dressing is fully distributed; add extra seasoning only if needed. Serve using clean utensils and refrigerate the unused salad promptly.\n",
+      "rationale": "Remove public editing/source disclosures or repair spacing without changing the formula, process or handling limits.",
+      "applicableSource": "docs/editorial-campaign/2026-10-05/cold-independent.md",
+      "confidence": "high for exact allocations and preserved source text; sensory results remain untested"
+    }
+  ],
+  "findings": [
+    {
+      "before": "Cannellini beans and mozzarella make this chopped cucumber-and-tomato salad substantial. Drain the beans and pat off excess water before tossing; pesto and red-wine vinegar form the dressing.",
+      "after": "Drain the cannellini beans and mozzarella well and dry the chopped vegetables so water does not dilute the pesto dressing. Fold gently to keep the beans intact, then allow ten minutes before serving. The salt is part of the saved dressing formula; pesto and cheese already contribute salt, so taste the fully mixed salad before any extra seasoning.",
+      "rationale": "All saved quantities and unrecorded yield retained. Publisher narrative includes draining/chopping and complete dressing destinations missing from the scraped two-step card. Publisher storage statements disagree between couple-of-days instructions and3–4 day FAQ; choose2 days, not an unsupportedweeklong promise. No extra ingredients or health claims.",
+      "source": "Saved current formula; recipe-specific publisher/method packet where stated",
+      "confidence": "high for removal of unsupported claims; moderate for sensory outcomes"
+    },
+    {
+      "before": "1. **Continue:** Gently toss everything together in a large bowl and let sit for at least 10 minutes before serving.\n\n2. **Continue:** This salad will keep well in the refrigerator, too!\n",
+      "after": "1. **Prepare:** Wash and dry tomatoes and cucumber. Halve tomatoes, peel and dice cucumber, drain and halve mozzarella, and thinly slice shallot. Drain and rinse cannellini beans and let excess water drain away. Combine these ingredients in a large bowl.\n\n2. **Dress:** Add the measured pesto, red wine vinegar, kosher salt and pepper.\n\n3. **Fold and rest:** Fold gently until the dressing reaches all the ingredients. Let stand10 minutes before serving, or refrigerate for that interval if preparing ahead.\n\n4. **Serve or store:** Taste only after the dressing is fully distributed; add extra seasoning only if needed. Serve using clean utensils and refrigerate the unused salad promptly.\n",
+      "rationale": "Full ingredient/process destinations made explicit; exact retained allocations and conditions described in individual notes.",
+      "source": "All saved quantities and unrecorded yield retained. Publisher narrative includes draining/chopping and complete dressing destinations missing from the scraped two-step card. Publisher storage statements disagree between couple-of-days instructions and3–4 day FAQ; choose2 days, not an unsupportedweeklong promise. No extra ingredients or health claims.",
+      "confidence": "high for preserved totals and resolved destinations; moderate for planning times"
+    },
+    {
+      "field": "origin",
+      "before": "thesavvyspoon.com",
+      "after": null,
+      "rationale": "Remove duplicated publisher/person entry or unsupported birthplace while preserving actual source/cuisine context.",
+      "confidence": "high"
+    },
+    {
+      "field": "content",
+      "before": "\n## Chef's Note\n\nDrain the cannellini beans and mozzarella well and dry the chopped vegetables so water does not dilute the pesto dressing. Fold gently to keep the beans intact, then allow ten minutes before serving. The salt is part of the saved dressing formula; pesto and cheese already contribute salt, so taste the fully mixed salad before any extra seasoning.\n\n## Directions\n\n1. **Prepare:** Wash and dry tomatoes and cucumber. Halve tomatoes, peel and dice cucumber, drain and halve mozzarella, and thinly slice shallot. Drain and rinse cannellini beans and let excess water drain away. Combine these ingredients in a large bowl.\n\n2. **Dress:** Add the measured pesto, red wine vinegar, kosher salt and pepper.\n\n3. **Fold and rest:** Fold gently until the dressing reaches all the ingredients. Let stand10 minutes before serving, or refrigerate for that interval if preparing ahead.\n\n4. **Serve or store:** Taste only after the dressing is fully distributed; add extra seasoning only if needed. Serve using clean utensils and refrigerate the unused salad promptly.\n",
+      "after": "\n## Chef's Note\n\nDrain the cannellini beans and mozzarella well and dry the chopped vegetables so water does not dilute the pesto dressing. Fold gently to keep the beans intact, then allow ten minutes before serving. Pesto and cheese already contribute salt, so taste the fully mixed salad before any extra seasoning.\n\n## Directions\n\n1. **Prepare:** Wash and dry tomatoes and cucumber. Halve tomatoes, peel and dice cucumber, drain and halve mozzarella, and thinly slice shallot. Drain and rinse cannellini beans and let excess water drain away. Combine these ingredients in a large bowl.\n\n2. **Dress:** Add the measured pesto, red wine vinegar, kosher salt and pepper.\n\n3. **Fold and rest:** Fold gently until the dressing reaches all the ingredients. Let stand 10 minutes before serving, or refrigerate for that interval if preparing ahead.\n\n4. **Serve or store:** Taste only after the dressing is fully distributed; add extra seasoning only if needed. Serve using clean utensils and refrigerate the unused salad promptly.\n",
+      "rationale": "Remove public editing/source disclosures or repair spacing without changing the formula, process or handling limits.",
+      "source": "docs/editorial-campaign/2026-10-05/cold-independent.md",
+      "confidence": "high"
+    },
+    {
+      "field": "learning.substitutions[0].effect",
+      "before": "Publisher-supported bean alternative, with a slightly different texture; preserve the drained-can baseline, not an invented exact drained weight.",
+      "after": "Great Northern beans have a slightly different texture; use the same stated can size and drain them thoroughly.",
+      "rationale": "Remove public editing/source disclosures or repair spacing without changing the formula, process or handling limits.",
+      "source": "docs/editorial-campaign/2026-10-05/cold-independent.md",
+      "confidence": "high"
+    },
+    {
+      "field": "learning.timing",
+      "before": "About15 minutes chopping/draining/mixing plus10 minutes standing give25 minutes elapsed. Standing time can be refrigerated. The recorded yield remains unknown; do not infer portions from the mixing bowl or can size.",
+      "after": "About 15 minutes chopping/draining/mixing plus 10 minutes standing give 25 minutes elapsed. Standing time can be refrigerated. The finished volume depends on the size of the cucumber and how thoroughly the beans and cheese are drained.",
+      "rationale": "Remove public editing/source disclosures or repair spacing without changing the formula, process or handling limits.",
+      "source": "docs/editorial-campaign/2026-10-05/cold-independent.md",
+      "confidence": "high"
+    },
+    {
+      "field": "learning.storage",
+      "before": "Keep at 40°F / 4°C or below and refrigerate within 2 hours total out of refrigeration, or 1 hour above 90°F / 32°C. Keep covered and use within2 days as a conservative plan matching the publisher's shorter storage guidance. Texture softens and more liquid may collect. A salty pesto dressing does not make this cheese-and-vegetable salad shelf-stable.",
+      "after": "Keep at 40°F / 4°C or below and refrigerate within 2 hours total out of refrigeration, or 1 hour above 90°F / 32°C. Keep covered and use within 2 days. Texture softens and more liquid may collect. A salty pesto dressing does not make this cheese-and-vegetable salad shelf-stable.",
+      "rationale": "Remove public editing/source disclosures or repair spacing without changing the formula, process or handling limits.",
+      "source": "docs/editorial-campaign/2026-10-05/cold-independent.md",
+      "confidence": "high"
+    }
+  ],
+  "rootCorrections": [],
+  "ingredientLedger": [
+    {
+      "ingredient": "1 pint cherry tomatoes halved",
+      "destination": 1
+    },
+    {
+      "ingredient": "1 english cucumber peeled and diced",
+      "destination": 1
+    },
+    {
+      "ingredient": "8 oz mozzarella balls halved",
+      "destination": 1
+    },
+    {
+      "ingredient": "1 shallot thinly sliced",
+      "destination": 1
+    },
+    {
+      "ingredient": "1 15 oz can cannellini beans drained and rinsed",
+      "destination": 1
+    },
+    {
+      "ingredient": "1/4 cup prepared pesto",
+      "destination": 2
+    },
+    {
+      "ingredient": "2 tbsp red wine vinegar",
+      "destination": 2
+    },
+    {
+      "ingredient": "1 tsp kosher salt",
+      "destination": 2
+    },
+    {
+      "ingredient": "1/2 tsp pepper",
+      "destination": 2
+    }
+  ],
+  "variationIngredientLedger": [],
+  "sources": [
+    {
+      "title": "thesavvyspoon.com",
+      "url": "https://thesavvyspoon.com/2025/03/10/chopped-pesto-salad-recipe/"
+    },
+    {
+      "title": "FoodSafety.gov — Clean handling and cold storage",
+      "url": "https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety"
+    }
+  ],
+  "sourceApplicability": "docs/editorial-campaign/2026-10-05/cold-sources.md",
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/cold-independent.md",
+  "planningConfidence": "Moderate for untested elapsed preparation ranges, sensory effects and inherited portion estimates; exact arithmetic, retained amounts and source recovery have high confidence. No measured yield or shelf-life validation.",
+  "remainingQuestions": [
+    "Measure drained bean/mozzarella weights and cucumber size, finished bowl volume and portions.",
+    "Test pesto salt level with the retained1 tsp kosher salt and tomato-water release after10 minutes and overnight."
+  ],
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "productionVerification": "pending",
+  "currentPath": "src/content/recipes/easy-chopped-pesto-salad-with-cannellini-beans.md",
+  "reviewDimensions": [
+    "every ingredient preparation/allocation/destination",
+    "ratios and inherited portions",
+    "capacity and ingredient state",
+    "no-heat preparation or product-required cooking",
+    "active/elapsed time and optional rests/chills",
+    "cold storage and applicable primary guidance",
+    "scaling and distinct variants",
+    "existing recipe/meal relationships"
+  ]
+}

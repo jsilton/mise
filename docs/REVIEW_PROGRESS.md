@@ -1,5 +1,9 @@
 # Current campaign state — October 5, 2026
 
+Seven complete cold-side reviews passed independent challenge and root inspection locally: coverage is 257 recorded complete / 386 pending across 643 sources, zero kitchen tests. Ten prior complete versions are verified live at b1435040. Six implemented baking versions await the new deployment at e2ae34b9 after a hosted-runner acquisition failure; seven cold-side versions await integration release checks. The 42 accelerated targeted repairs remain a separate scope, not additional complete-review credits. [Seven-recipe acceptance](editorial-campaign/2026-10-05/cold-seven.md).
+
+# Current campaign state — October 5, 2026
+
 Six additional complete baking reviews passed independent challenge and root inspection locally: current coverage is 250 recorded complete / 393 pending across 643 sources, zero kitchen tests. The ten prior complete versions are verified live at `b1435040`, Pages run 37365807822; these are separate from 42 accelerated targeted repairs. Six new baking versions await release checks and production verification.
 
 # Complete editorial campaign — October 5, 2026

@@ -1,0 +1,189 @@
+{
+  "slug": "yogurt-dipping-sauce",
+  "status": "accepted-editorial-review; production verification pending",
+  "inputCommit": "95b37f8bca5008657a668e52a1d970b1d03367d3",
+  "inputSha256": "60f27607a538b709cd07ea7048e8b055c6c630af38ad28bb5dfe05f43c940623",
+  "acceptedSourceSha256": "4a2ce0a8d452911613d7c977ad0e4100f27b42aa038e6c31fc5ae744b46f4d35",
+  "changedFields": [
+    {
+      "field": "servings",
+      "before": "4",
+      "after": "4 small dipping portions",
+      "rationale": "About 5 minutes active preparation; optional refrigerator chilling adds elapsed time. Four portions are small dipping portions, not a measured finished volume.",
+      "applicableSource": "docs/editorial-campaign/2026-10-05/cold-sources.md",
+      "confidence": "moderate planning; no measured timing or yield"
+    },
+    {
+      "field": "origin",
+      "before": "Guy Fieri",
+      "after": null,
+      "rationale": "Remove duplicated publisher/person entry or unsupported birthplace while preserving actual source/cuisine context.",
+      "applicableSource": "docs/editorial-campaign/2026-10-05/cold-sources.md",
+      "confidence": "high for exact allocations and preserved source text; sensory results remain untested"
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Season a yogurt dip without uneven pockets of zest or spice",
+        "outcome": "The yogurt stays creamy with lemon, herbs and cumin mixed evenly through it.",
+        "techniques": ["seasoning", "cold-preparation"],
+        "before": [
+          "Wash and dry the lemon and herbs before zesting and chopping. Zest only the colored peel; avoid the bitter white pith.",
+          "Use plain unsweetened yogurt. Keep the dip and clean serving spoon apart from raw foods."
+        ],
+        "checkpoints": [
+          {
+            "step": 1,
+            "cue": "Cumin and chopped herbs are evenly dispersed with no dry spice patches.",
+            "why": "A thoroughly mixed base gives an even flavor before salt is judged."
+          },
+          {
+            "step": 2,
+            "cue": "Salt is mixed through rather than concentrated at the surface.",
+            "why": "Taste only after stirring so the next serving is not much saltier than the first."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Dip is thinner than expected",
+            "cause": "Yogurt thickness varies, and the lemon juice loosens it.",
+            "fix": "Keep the original juice amount and choose a thicker plain yogurt next time; this batch can serve as a pourable sauce."
+          },
+          {
+            "problem": "The dip tastes bitter",
+            "cause": "The zest included white pith.",
+            "fix": "Zest lightly next time. More salt cannot remove the pith already mixed into the dip."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Plain yogurt",
+            "alternative": "Plain Greek yogurt",
+            "effect": "A thicker, more strained texture with the same listed volume; the dip may be less pourable. No extra lemon juice is required."
+          }
+        ],
+        "timing": "About 5 minutes active preparation; optional refrigerator chilling adds elapsed time. Four portions are small dipping portions, not a measured finished volume.",
+        "storage": "Keep at 40°F / 4°C or below and refrigerate within 2 hours total out of refrigeration, or 1 hour above 90°F / 32°C. Keep covered, use a clean spoon and use within 3 days as a conservative preparation plan. Follow a shorter yogurt package limit if applicable. Do not return used dipping portions to the stored batch.",
+        "sources": [
+          {
+            "title": "Guy Fieri",
+            "url": "https://www.foodnetwork.com/recipes/guy-fieri/falafel-in-pita-with-yogurt-sauce-recipe-1952260"
+          },
+          {
+            "title": "FoodSafety.gov — Clean handling and cold storage",
+            "url": "https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-05"
+        }
+      },
+      "rationale": "Recipe-specific guidance from complete ingredient and process inspection.",
+      "applicableSource": "docs/editorial-campaign/2026-10-05/cold-sources.md",
+      "confidence": "high for exact allocations and preserved source text; sensory results remain untested"
+    },
+    {
+      "field": "content",
+      "before": "\n## Chef's Note\n\nLemon zest and juice brighten the yogurt while cumin, cilantro and parsley add aroma. Mix and chill while preparing the food it will accompany.\n\n## Directions\n\n1. **Mix:** Mix the yogurt, lemon zest, lemon juice, cilantro, parsley and cumin together in a small bowl.\n\n2. **Continue:** Add salt to taste.\n\n3. **Continue:** Chill until ready to use.\n",
+      "after": "\n## Chef's Note\n\nMix lemon zest, juice and chopped herbs through plain yogurt for a cool, cumin-scented dip. Stir thoroughly before tasting so the zest and cumin are evenly distributed. Keep it refrigerated while preparing the food it will accompany.\n\n## Directions\n\n1. **Mix:** Stir yogurt, lemon zest, lemon juice, cilantro, parsley and cumin together in a small bowl until evenly combined.\n\n2. **Season:** Add the listed salt to taste and stir thoroughly.\n\n3. **Chill or serve:** Cover and refrigerate until needed, or serve immediately in small dipping dishes. Keep unused dip refrigerated and separate from portions people have dipped into.\n",
+      "rationale": "Complete final method; recipe-specific findings and independent/root corrections explain exact differences.",
+      "applicableSource": "docs/editorial-campaign/2026-10-05/cold-sources.md",
+      "confidence": "high for exact allocations and preserved source text; sensory results remain untested"
+    }
+  ],
+  "findings": [
+    {
+      "before": "Lemon zest and juice brighten the yogurt while cumin, cilantro and parsley add aroma. Mix and chill while preparing the food it will accompany.",
+      "after": "Mix lemon zest, juice and chopped herbs through plain yogurt for a cool, cumin-scented dip. Stir thoroughly before tasting so the zest and cumin are evenly distributed. Keep it refrigerated while preparing the food it will accompany.",
+      "rationale": "Attributed publisher matches preserved yogurt component. The parent falafel recipe’s elapsed time is not this component’s mixing time. Greek yogurt is an editorial texture option, not a source-tested equivalence. Three-day use is a conservative operating plan under prompt cold holding, not a measured shelf-life guarantee.",
+      "source": "Saved current formula; recipe-specific publisher/method packet where stated",
+      "confidence": "high for removal of unsupported claims; moderate for sensory outcomes"
+    },
+    {
+      "before": "1. **Mix:** Mix the yogurt, lemon zest, lemon juice, cilantro, parsley and cumin together in a small bowl.\n\n2. **Continue:** Add salt to taste.\n\n3. **Continue:** Chill until ready to use.\n",
+      "after": "1. **Mix:** Stir yogurt, lemon zest, lemon juice, cilantro, parsley and cumin together in a small bowl until evenly combined.\n\n2. **Season:** Add the listed salt to taste and stir thoroughly.\n\n3. **Chill or serve:** Cover and refrigerate until needed, or serve immediately in small dipping dishes. Keep unused dip refrigerated and separate from portions people have dipped into.\n",
+      "rationale": "Full ingredient/process destinations made explicit; exact retained allocations and conditions described in individual notes.",
+      "source": "Attributed publisher matches preserved yogurt component. The parent falafel recipe’s elapsed time is not this component’s mixing time. Greek yogurt is an editorial texture option, not a source-tested equivalence. Three-day use is a conservative operating plan under prompt cold holding, not a measured shelf-life guarantee.",
+      "confidence": "high for preserved totals and resolved destinations; moderate for planning times"
+    },
+    {
+      "field": "servings",
+      "before": "4",
+      "after": "4 small dipping portions",
+      "rationale": "About 5 minutes active preparation; optional refrigerator chilling adds elapsed time. Four portions are small dipping portions, not a measured finished volume.",
+      "confidence": "high"
+    },
+    {
+      "field": "origin",
+      "before": "Guy Fieri",
+      "after": null,
+      "rationale": "Remove duplicated publisher/person entry or unsupported birthplace while preserving actual source/cuisine context.",
+      "confidence": "high"
+    }
+  ],
+  "rootCorrections": [],
+  "ingredientLedger": [
+    {
+      "ingredient": "1 cup plain yogurt",
+      "destination": 1
+    },
+    {
+      "ingredient": "1/2 tablespoon lemon zest",
+      "destination": 1
+    },
+    {
+      "ingredient": "1 tablespoon freshly squeezed lemon juice",
+      "destination": 1
+    },
+    {
+      "ingredient": "1 tablespoon freshly chopped cilantro leaves",
+      "destination": 1
+    },
+    {
+      "ingredient": "2 teaspoons freshly chopped parsley leaves",
+      "destination": 1
+    },
+    {
+      "ingredient": "1/2 teaspoon ground cumin",
+      "destination": 1
+    },
+    {
+      "ingredient": "Kosher salt, as needed",
+      "destination": 2
+    }
+  ],
+  "variationIngredientLedger": [],
+  "sources": [
+    {
+      "title": "Guy Fieri",
+      "url": "https://www.foodnetwork.com/recipes/guy-fieri/falafel-in-pita-with-yogurt-sauce-recipe-1952260"
+    },
+    {
+      "title": "FoodSafety.gov — Clean handling and cold storage",
+      "url": "https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety"
+    }
+  ],
+  "sourceApplicability": "docs/editorial-campaign/2026-10-05/cold-sources.md",
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/cold-independent.md",
+  "planningConfidence": "Moderate for untested elapsed preparation ranges, sensory effects and inherited portion estimates; exact arithmetic, retained amounts and source recovery have high confidence. No measured yield or shelf-life validation.",
+  "remainingQuestions": [
+    "Measure dip volume and four portions; compare plain and Greek yogurt consistency.",
+    "Check lemon zest particle size and salt requirement with actual yogurt."
+  ],
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "productionVerification": "pending",
+  "currentPath": "src/content/recipes/yogurt-dipping-sauce.md",
+  "reviewDimensions": [
+    "every ingredient preparation/allocation/destination",
+    "ratios and inherited portions",
+    "capacity and ingredient state",
+    "no-heat preparation or product-required cooking",
+    "active/elapsed time and optional rests/chills",
+    "cold storage and applicable primary guidance",
+    "scaling and distinct variants",
+    "existing recipe/meal relationships"
+  ]
+}

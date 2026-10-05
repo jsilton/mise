@@ -1,0 +1,274 @@
+{
+  "slug": "chimichurri",
+  "status": "accepted-editorial-review; production verification pending",
+  "inputCommit": "95b37f8bca5008657a668e52a1d970b1d03367d3",
+  "inputSha256": "0a08758ebdff69d0e2038c4fdb05ba0b8994f53b62fa27aa7d3d9d879c4601f2",
+  "acceptedSourceSha256": "60906cc3011a3a24b02f96935db211a52e16af54adeb5d8f0d62b2a2de62fbc4",
+  "changedFields": [
+    {
+      "field": "totalTime",
+      "before": "10 min",
+      "after": "40 min, including resting",
+      "rationale": "About10 minutes hands-on chopping/mixing plus30 minutes rest give40 minutes elapsed. If serving later, rest covered in the refrigerator. Larger quantities add chopping time; the rest does not multiply.",
+      "applicableSource": "docs/editorial-campaign/2026-10-05/cold-sources.md",
+      "confidence": "moderate planning; no measured timing or yield"
+    },
+    {
+      "field": "servings",
+      "before": "8",
+      "after": "8 condiment portions",
+      "rationale": "About10 minutes hands-on chopping/mixing plus30 minutes rest give40 minutes elapsed. If serving later, rest covered in the refrigerator. Larger quantities add chopping time; the rest does not multiply.",
+      "applicableSource": "docs/editorial-campaign/2026-10-05/cold-sources.md",
+      "confidence": "moderate planning; no measured timing or yield"
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 270,
+        "protein": 1,
+        "carbs": 6.5,
+        "fat": 27.5,
+        "fiber": 3.5,
+        "sugar": 0,
+        "sodium": 330
+      },
+      "after": null,
+      "rationale": "Legacy estimates are unsupported and inconsistent with formula/portion uncertainty. No substitute nutrient values.",
+      "applicableSource": "docs/editorial-campaign/2026-10-05/cold-sources.md",
+      "confidence": "high for exact allocations and preserved source text; sensory results remain untested"
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Keep a chopped herb sauce loose rather than pureed",
+        "outcome": "Small separate herb pieces are evenly coated in oil and vinegar, with garlic dispersed through the sauce.",
+        "techniques": ["seasoning", "cold-preparation"],
+        "before": [
+          "Wash herbs and dry them well before measuring and chopping. Use the stated packed parsley amount, removing tough stems.",
+          "Fresh oregano leaves or the already listed dried option have different textures; use the original measured option rather than equal volumes of each.",
+          "Keep a clean serving spoon separate from raw-meat utensils; vinegar in this formula is not a validated garlic acidification process."
+        ],
+        "checkpoints": [
+          {
+            "step": 1,
+            "cue": "Herbs form fine separate pieces, not a wet paste.",
+            "why": "Chopping controls the desired texture; stop before the leaves are pureed."
+          },
+          {
+            "step": 2,
+            "cue": "Garlic and pepper flakes are distributed through the herbs.",
+            "why": "Small, well-distributed aromatics avoid concentrated bites."
+          },
+          {
+            "step": 5,
+            "cue": "Only the portion being served leaves the refrigerator.",
+            "why": "The stored garlic-herb oil mixture needs cold holding even if its oil becomes cloudy."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "The sauce becomes a paste",
+            "cause": "Herbs were overprocessed.",
+            "fix": "Chop by hand for this texture. A pureed batch cannot be turned back into separate leaves."
+          },
+          {
+            "problem": "Oil looks cloudy or firm in the refrigerator",
+            "cause": "Olive oil can change appearance at cold temperatures.",
+            "fix": "Spoon out only the portion needed, let it soften briefly within the total serving time limit, and stir. Cloudiness does not establish spoilage or safety."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Fresh oregano",
+            "alternative": "The listed 1 tbsp dried oregano instead of 1/4 cup fresh at original size",
+            "effect": "Less fresh leaf texture and a different aromatic intensity; keep this existing alternative rather than replacing equal spoon volumes."
+          }
+        ],
+        "timing": "About 10 minutes hands-on chopping/mixing plus 30 minutes rest give 40 minutes elapsed. If serving later, rest covered in the refrigerator. Larger quantities add chopping time; the rest does not multiply.",
+        "storage": "Keep at 40°F / 4°C or below and refrigerate within 2 hours total out of refrigeration, or 1 hour above 90°F / 32°C. Use within 3 days refrigerated in a clean covered jar. Do not warm the entire stored batch to room temperature; take only the portion needed and stir. The vinegar amount does not establish shelf stability or validated acidification of garlic.",
+        "sources": [
+          {
+            "title": "FoodSafety.gov — Clean handling and cold storage",
+            "url": "https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety"
+          },
+          {
+            "title": "OSU Extension — Herbs and vegetables in oil",
+            "url": "https://extension.oregonstate.edu/catalog/pub/sp-50-701-herbs-vegetables-oil"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-05"
+        }
+      },
+      "rationale": "Recipe-specific guidance from complete ingredient and process inspection.",
+      "applicableSource": "docs/editorial-campaign/2026-10-05/cold-sources.md",
+      "confidence": "high for exact allocations and preserved source text; sensory results remain untested"
+    },
+    {
+      "field": "content",
+      "before": "\n## Chef's Note\n\nChimichurri is Argentina's national condiment - it shows up on every parrilla (grill) table the way ketchup shows up at American cookouts, except it actually makes the food better. The key is hand-chopping, not a food processor. A food processor turns the herbs into a paste and bruises them; a sharp knife keeps the texture loose and the color bright green. Make it 30 minutes before serving so the flavors meld, but don't make it more than a day ahead - the parsley oxidizes and the brightness fades.\n\n## Directions\n\n1.  **Chop:** Finely chop the parsley and oregano by hand with a sharp chef's knife. You want a fine, confetti-like texture - not a paste. Mince the garlic separately.\n2.  **Combine:** In a medium bowl, combine the chopped herbs, garlic, olive oil, red wine vinegar, red pepper flakes, salt, and pepper. Stir to combine.\n3.  **Rest:** Let sit at room temperature for at least 30 minutes before serving. This lets the garlic mellow and the flavors integrate.\n4.  **Adjust:** Taste and adjust - it should be bright (add vinegar), herbaceous (add parsley), and just slightly spicy. The oil should carry the herbs, not drown them.\n5.  **Store:** Keep in an airtight jar in the refrigerator for up to 3 days. Bring to room temperature before serving - cold oil mutes the flavor.\n",
+      "after": "\n## Chef's Note\n\nKeep parsley and oregano finely chopped but still visible in this Argentine-style herb sauce. Stir the garlic, oil and vinegar through the herbs rather than blending everything to a paste. Allow thirty minutes for the flavors to mix, then refrigerate if serving later; stir again before spooning it over food.\n\n## Directions\n\n1. **Chop:** Finely chop parsley and fresh oregano by hand until they are fine, separate pieces. If using the listed dried oregano alternative, add it with the seasonings instead. Mince garlic separately.\n\n2. **Combine:** Stir the herbs, garlic, oil, red wine vinegar, red pepper flakes, measured salt and pepper together in a bowl.\n\n3. **Rest:** Allow 30 minutes before serving. Rest covered in the refrigerator if preparing ahead; a short room-temperature rest counts toward the total 2 hour limit (1 hour above 90°F /32°C).\n\n4. **Taste:** Stir thoroughly and taste; adjust the seasoning only if needed.\n\n5. **Serve and store:** Spoon out only what will be served and keep the remainder covered in the refrigerator. Use a clean spoon and keep the stored batch away from raw-meat utensils. Stir before serving.\n",
+      "rationale": "Remove public editing/source disclosures or repair spacing without changing the formula, process or handling limits.",
+      "applicableSource": "docs/editorial-campaign/2026-10-05/cold-independent.md",
+      "confidence": "high for exact allocations and preserved source text; sensory results remain untested"
+    }
+  ],
+  "findings": [
+    {
+      "before": "Chimichurri is Argentina's national condiment - it shows up on every parrilla (grill) table the way ketchup shows up at American cookouts, except it actually makes the food better. The key is hand-chopping, not a food processor. A food processor turns the herbs into a paste and bruises them; a sharp knife keeps the texture loose and the color bright green. Make it 30 minutes before serving so the flavors meld, but don't make it more than a day ahead - the parsley oxidizes and the brightness fades.",
+      "after": "Keep parsley and oregano finely chopped but still visible in this Argentine-style herb sauce. Stir the garlic, oil and vinegar through the herbs rather than blending everything to a paste. Allow thirty minutes for the flavors to mix, then refrigerate if serving later; stir again before spooning it over food.",
+      "rationale": "Committed authored recipe has no external source author. Argentine cultural context preserved, while unverified national-condiment/restaurant ubiquity and comparative superiority claims removed. All oil, herbs, salt and vinegar quantities retained. Forty-minute header now includes actual30 minute rest. Three-day cold limit is more conservative than OSU four-day advice for unvalidated garlic/herb oil preparations; acid content here is not certified. No preservation claim borrowed from another chef.",
+      "source": "Saved current formula; recipe-specific publisher/method packet where stated",
+      "confidence": "high for removal of unsupported claims; moderate for sensory outcomes"
+    },
+    {
+      "before": "1.  **Chop:** Finely chop the parsley and oregano by hand with a sharp chef's knife. You want a fine, confetti-like texture - not a paste. Mince the garlic separately.\n2.  **Combine:** In a medium bowl, combine the chopped herbs, garlic, olive oil, red wine vinegar, red pepper flakes, salt, and pepper. Stir to combine.\n3.  **Rest:** Let sit at room temperature for at least 30 minutes before serving. This lets the garlic mellow and the flavors integrate.\n4.  **Adjust:** Taste and adjust - it should be bright (add vinegar), herbaceous (add parsley), and just slightly spicy. The oil should carry the herbs, not drown them.\n5.  **Store:** Keep in an airtight jar in the refrigerator for up to 3 days. Bring to room temperature before serving - cold oil mutes the flavor.\n",
+      "after": "1. **Chop:** Finely chop parsley and fresh oregano by hand until they are fine, separate pieces. If using the listed dried oregano alternative, add it with the seasonings instead. Mince garlic separately.\n\n2. **Combine:** Stir the herbs, garlic, oil, red wine vinegar, red pepper flakes, measured salt and pepper together in a bowl.\n\n3. **Rest:** Allow30 minutes before serving. Rest covered in the refrigerator if preparing ahead; a short room-temperature rest counts toward the total2 hour limit (1 hour above90°F /32°C).\n\n4. **Taste:** Stir thoroughly and taste. Adjust only if needed; the measured herb, oil and vinegar formula is the starting point, rather than a request to add acid automatically.\n\n5. **Serve and store:** Spoon out only what will be served and keep the remainder covered in the refrigerator. Use a clean spoon and keep the stored batch away from raw-meat utensils. Stir before serving.\n",
+      "rationale": "Full ingredient/process destinations made explicit; exact retained allocations and conditions described in individual notes.",
+      "source": "Committed authored recipe has no external source author. Argentine cultural context preserved, while unverified national-condiment/restaurant ubiquity and comparative superiority claims removed. All oil, herbs, salt and vinegar quantities retained. Forty-minute header now includes actual30 minute rest. Three-day cold limit is more conservative than OSU four-day advice for unvalidated garlic/herb oil preparations; acid content here is not certified. No preservation claim borrowed from another chef.",
+      "confidence": "high for preserved totals and resolved destinations; moderate for planning times"
+    },
+    {
+      "field": "totalTime",
+      "before": "10 min",
+      "after": "40 min, including resting",
+      "rationale": "About10 minutes hands-on chopping/mixing plus30 minutes rest give40 minutes elapsed. If serving later, rest covered in the refrigerator. Larger quantities add chopping time; the rest does not multiply.",
+      "confidence": "high"
+    },
+    {
+      "field": "servings",
+      "before": "8",
+      "after": "8 condiment portions",
+      "rationale": "About10 minutes hands-on chopping/mixing plus30 minutes rest give40 minutes elapsed. If serving later, rest covered in the refrigerator. Larger quantities add chopping time; the rest does not multiply.",
+      "confidence": "high"
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 270,
+        "protein": 1,
+        "carbs": 6.5,
+        "fat": 27.5,
+        "fiber": 3.5,
+        "sugar": 0,
+        "sodium": 330
+      },
+      "after": null,
+      "rationale": "Legacy estimates are unsupported and inconsistent with formula/portion uncertainty. No substitute nutrient values.",
+      "confidence": "high"
+    },
+    {
+      "field": "content",
+      "before": "\n## Chef's Note\n\nKeep parsley and oregano finely chopped but still visible in this Argentine-style herb sauce. Stir the garlic, oil and vinegar through the herbs rather than blending everything to a paste. Allow thirty minutes for the flavors to mix, then refrigerate if serving later; stir again before spooning it over food.\n\n## Directions\n\n1. **Chop:** Finely chop parsley and fresh oregano by hand until they are fine, separate pieces. If using the listed dried oregano alternative, add it with the seasonings instead. Mince garlic separately.\n\n2. **Combine:** Stir the herbs, garlic, oil, red wine vinegar, red pepper flakes, measured salt and pepper together in a bowl.\n\n3. **Rest:** Allow30 minutes before serving. Rest covered in the refrigerator if preparing ahead; a short room-temperature rest counts toward the total2 hour limit (1 hour above90°F /32°C).\n\n4. **Taste:** Stir thoroughly and taste. Adjust only if needed; the measured herb, oil and vinegar formula is the starting point, rather than a request to add acid automatically.\n\n5. **Serve and store:** Spoon out only what will be served and keep the remainder covered in the refrigerator. Use a clean spoon and keep the stored batch away from raw-meat utensils. Stir before serving.\n",
+      "after": "\n## Chef's Note\n\nKeep parsley and oregano finely chopped but still visible in this Argentine-style herb sauce. Stir the garlic, oil and vinegar through the herbs rather than blending everything to a paste. Allow thirty minutes for the flavors to mix, then refrigerate if serving later; stir again before spooning it over food.\n\n## Directions\n\n1. **Chop:** Finely chop parsley and fresh oregano by hand until they are fine, separate pieces. If using the listed dried oregano alternative, add it with the seasonings instead. Mince garlic separately.\n\n2. **Combine:** Stir the herbs, garlic, oil, red wine vinegar, red pepper flakes, measured salt and pepper together in a bowl.\n\n3. **Rest:** Allow 30 minutes before serving. Rest covered in the refrigerator if preparing ahead; a short room-temperature rest counts toward the total 2 hour limit (1 hour above 90°F /32°C).\n\n4. **Taste:** Stir thoroughly and taste. Adjust only if needed; the measured herb, oil and vinegar formula is the starting point, rather than a request to add acid automatically.\n\n5. **Serve and store:** Spoon out only what will be served and keep the remainder covered in the refrigerator. Use a clean spoon and keep the stored batch away from raw-meat utensils. Stir before serving.\n",
+      "rationale": "Remove public editing/source disclosures or repair spacing without changing the formula, process or handling limits.",
+      "source": "docs/editorial-campaign/2026-10-05/cold-independent.md",
+      "confidence": "high"
+    },
+    {
+      "field": "learning.substitutions[0].alternative",
+      "before": "The listed1 tbsp dried oregano instead of1/4 cup fresh at original size",
+      "after": "The listed 1 tbsp dried oregano instead of 1/4 cup fresh at original size",
+      "rationale": "Remove public editing/source disclosures or repair spacing without changing the formula, process or handling limits.",
+      "source": "docs/editorial-campaign/2026-10-05/cold-independent.md",
+      "confidence": "high"
+    },
+    {
+      "field": "learning.timing",
+      "before": "About10 minutes hands-on chopping/mixing plus30 minutes rest give40 minutes elapsed. If serving later, rest covered in the refrigerator. Larger quantities add chopping time; the rest does not multiply.",
+      "after": "About 10 minutes hands-on chopping/mixing plus 30 minutes rest give 40 minutes elapsed. If serving later, rest covered in the refrigerator. Larger quantities add chopping time; the rest does not multiply.",
+      "rationale": "Remove public editing/source disclosures or repair spacing without changing the formula, process or handling limits.",
+      "source": "docs/editorial-campaign/2026-10-05/cold-independent.md",
+      "confidence": "high"
+    },
+    {
+      "field": "learning.storage",
+      "before": "Keep at 40°F / 4°C or below and refrigerate within 2 hours total out of refrigeration, or 1 hour above 90°F / 32°C. Preserve the existing maximum3 days refrigerated in a clean covered jar. Do not warm the entire stored batch to room temperature; take only the portion needed and stir. The vinegar amount does not establish shelf stability or validated acidification of garlic.",
+      "after": "Keep at 40°F / 4°C or below and refrigerate within 2 hours total out of refrigeration, or 1 hour above 90°F / 32°C. Use within 3 days refrigerated in a clean covered jar. Do not warm the entire stored batch to room temperature; take only the portion needed and stir. The vinegar amount does not establish shelf stability or validated acidification of garlic.",
+      "rationale": "Remove public editing/source disclosures or repair spacing without changing the formula, process or handling limits.",
+      "source": "docs/editorial-campaign/2026-10-05/cold-independent.md",
+      "confidence": "high"
+    },
+    {
+      "field": "ingredientLedger.oregano.destination",
+      "before": 1,
+      "after": "1 (fresh), 2 (dried)",
+      "rationale": "The method sends fresh oregano to chopping and the dried option directly to seasonings.",
+      "source": "Proposed steps 1–2",
+      "confidence": "high"
+    }
+  ],
+  "rootCorrections": [
+    {
+      "rationale": "Replace editing-rule prose with a direct tasting instruction, with no formula or method change."
+    }
+  ],
+  "ingredientLedger": [
+    {
+      "ingredient": "1 cup Fresh Flat-Leaf Parsley (packed, stems removed)",
+      "destination": 1
+    },
+    {
+      "ingredient": "1/4 cup Fresh Oregano Leaves (or 1 tbsp dried)",
+      "destination": "1 (fresh), 2 (dried)"
+    },
+    {
+      "ingredient": "4 cloves Garlic, minced",
+      "destination": 1
+    },
+    {
+      "ingredient": "1/2 cup Extra-Virgin Olive Oil",
+      "destination": 2
+    },
+    {
+      "ingredient": "2 tbsp Red Wine Vinegar",
+      "destination": 2
+    },
+    {
+      "ingredient": "1/2 tsp Red Pepper Flakes (adjust to taste)",
+      "destination": 2
+    },
+    {
+      "ingredient": "1/2 tsp Kosher Salt",
+      "destination": 2
+    },
+    {
+      "ingredient": "1/4 tsp Black Pepper",
+      "destination": 2
+    }
+  ],
+  "variationIngredientLedger": [],
+  "sources": [
+    {
+      "title": "FoodSafety.gov — Clean handling and cold storage",
+      "url": "https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety"
+    },
+    {
+      "title": "OSU Extension — Herbs and vegetables in oil",
+      "url": "https://extension.oregonstate.edu/catalog/pub/sp-50-701-herbs-vegetables-oil"
+    }
+  ],
+  "sourceApplicability": "docs/editorial-campaign/2026-10-05/cold-sources.md",
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/cold-independent.md",
+  "planningConfidence": "Moderate for untested elapsed preparation ranges, sensory effects and inherited portion estimates; exact arithmetic, retained amounts and source recovery have high confidence. No measured yield or shelf-life validation.",
+  "remainingQuestions": [
+    "Measure finished sauce volume and original eight condiment portions; packing of parsley/oregano varies.",
+    "Record chopped texture, garlic strength and color after short cold rests and3 days."
+  ],
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "productionVerification": "pending",
+  "currentPath": "src/content/recipes/chimichurri.md",
+  "reviewDimensions": [
+    "every ingredient preparation/allocation/destination",
+    "ratios and inherited portions",
+    "capacity and ingredient state",
+    "no-heat preparation or product-required cooking",
+    "active/elapsed time and optional rests/chills",
+    "cold storage and applicable primary guidance",
+    "scaling and distinct variants",
+    "existing recipe/meal relationships"
+  ]
+}

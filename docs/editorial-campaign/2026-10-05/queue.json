@@ -115,6 +115,20 @@
       "reviewer": "coverage_check",
       "inputCommit": "1b56f21878b9da0b844c34f9f491fd02313d60c2",
       "status": "assigned"
+    },
+    "breakfast_bakes_02": {
+      "slugs": [
+        "apple-chai-oatmeal-cups",
+        "blueberry-baked-oatmeal",
+        "blueberry-banana-pancake-muffins",
+        "blueberry-oat-breakfast-bars",
+        "breakfast-carrot-cake",
+        "brownie-baked-oatmeal",
+        "breakfast-protein-biscuits"
+      ],
+      "reviewer": "baking_editor",
+      "inputCommit": "e2ae34b991e705cea361b2322a603a9e3f9c4e0e",
+      "status": "assigned"
     }
   },
   "recipes": [
@@ -220,8 +234,8 @@
       "title": "Apple Chai Oatmeal Cups",
       "source": "Adapted from Fitfoodiefinds.com",
       "sourceUrl": "https://fitfoodiefinds.com/video-meal-prep-apple-chai-oatmeal-cups//",
-      "group": null,
-      "status": "queued",
+      "group": "breakfast_bakes_02",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -302,7 +316,7 @@
     {
       "slug": "babys-first-smash-cake",
       "path": "src/content/recipes/babys-first-smash-cake.md",
-      "title": "Baby\u2019s First Smash Cake",
+      "title": "Baby’s First Smash Cake",
       "source": "Adapted from fitmamarealfood.com",
       "sourceUrl": "http://www.fitmamarealfood.com/babys-first-smash-cake-healthy-no-sugar-banana-cake/",
       "group": null,
@@ -455,7 +469,7 @@
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
         "Weigh the peeled two large bananas and record mashed volume to evaluate the retained approximate 3/4 cup total without silently changing the formula.",
-        "Record pancake count and full-batch duration on the 325\u00b0F griddle."
+        "Record pancake count and full-batch duration on the 325°F griddle."
       ],
       "inputSha256": "31545799b7fb8cd346cf91b10fcbc20e2fd42ab2e8658f8ab179bed6bcb4459d",
       "plannedBatch": "context-screening-01",
@@ -465,7 +479,7 @@
     {
       "slug": "basic-crepes",
       "path": "src/content/recipes/basic-crepes.md",
-      "title": "Basic Cr\u00eapes",
+      "title": "Basic Crêpes",
       "source": "allrecipes.com",
       "sourceUrl": "https://www.allrecipes.com/recipe/16383/basic-crepes/",
       "group": null,
@@ -569,7 +583,7 @@
       "slug": "best-homemade-brownies",
       "path": "src/content/recipes/best-homemade-brownies.md",
       "title": "Brownies",
-      "source": "Love and Lemons, adapted from Michelle Lopez\u2019s Weeknight Baking",
+      "source": "Love and Lemons, adapted from Michelle Lopez’s Weeknight Baking",
       "sourceUrl": "https://www.loveandlemons.com/brownies-recipe/",
       "group": null,
       "status": "queued",
@@ -642,8 +656,8 @@
       "title": "Blueberry Oatmeal",
       "source": "Adapted from cookieandkate.com",
       "sourceUrl": "https://cookieandkate.com/baked-oatmeal-recipe/",
-      "group": null,
-      "status": "queued",
+      "group": "breakfast_bakes_02",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -659,8 +673,8 @@
       "title": "Blueberry Banana Pancake Muffins",
       "source": "Adapted from Mykidslickthebowl.com",
       "sourceUrl": "https://mykidslickthebowl.com/healthy-blueberry-banana-pancake-muffins/",
-      "group": null,
-      "status": "queued",
+      "group": "breakfast_bakes_02",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -693,8 +707,8 @@
       "title": "Blueberry Oat Breakfast Bars",
       "source": "Adapted from myfussyeater.com",
       "sourceUrl": "https://www.myfussyeater.com/blueberry-oat-breakfast-bar-flapjacks/?fbclid=IwAR13JrU7Ex3syixlLB4WnakqHoubzLDS_l6q-jsruiyBjxFBfag6CsigWrc",
-      "group": null,
-      "status": "queued",
+      "group": "breakfast_bakes_02",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -799,8 +813,8 @@
       "title": "Breakfast Carrot Cake",
       "source": "Adapted from southerneatsandgoodies.com",
       "sourceUrl": "https://southerneatsandgoodies.com/easy-breakfast-carrot-cake/",
-      "group": null,
-      "status": "queued",
+      "group": "breakfast_bakes_02",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -835,8 +849,8 @@
       "title": "Breakfast Protein Biscuits",
       "source": "Adapted from nourishedbynic.com",
       "sourceUrl": "https://nourishedbynic.com/breakfast-protein-biscuits/#recipe",
-      "group": null,
-      "status": "queued",
+      "group": "breakfast_bakes_02",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -940,8 +954,8 @@
       "title": "Brownie Oatmeal",
       "source": "Adapted from callascleaneats.com",
       "sourceUrl": "https://callascleaneats.com/brownie-baked-oatmeal/?fbclid=IwAR2VKrSER7sJi1jVPn6a_PYxugV2UovjxV3cvglcpsFunAu6yr3Ektjl5Ws",
-      "group": null,
-      "status": "queued",
+      "group": "breakfast_bakes_02",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -997,7 +1011,7 @@
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
         "Record the iron model, actual fill amount, cycle duration and finished waffle count.",
-        "Check whether 45\u201360 minutes covers the household single-iron batch and whether a larger batch needs multiple batter portions mixed separately."
+        "Check whether 45–60 minutes covers the household single-iron batch and whether a larger batch needs multiple batter portions mixed separately."
       ],
       "inputSha256": "eda1ed24ae20ed3dbb3083c8f0bf52696900b0791c2515f01b3fe3a922399d62",
       "plannedBatch": "context-screening-01",
@@ -1161,8 +1175,8 @@
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
         "Record head weight versususablegrains andnumberofprocessor/skillet batches.",
-        "Record actualpan size and 5\u20136 mintexture at chosenload.",
-        "Check garliclast 30\u201345 seconds and reheatedgraintexture."
+        "Record actualpan size and 5–6 mintexture at chosenload.",
+        "Check garliclast 30–45 seconds and reheatedgraintexture."
       ],
       "inputSha256": "518350c703de9dfcf9f7579368033d945ba1eb8284a8828c9e861b56a555ebaa",
       "plannedBatch": "cold-preparations-01",
@@ -1260,7 +1274,7 @@
     {
       "slug": "chef-krigers-recipe-shabbat-brisket",
       "path": "src/content/recipes/chef-krigers-recipe-shabbat-brisket.md",
-      "title": "Chef Kriger\u2019s Recipe Shabbat Brisket",
+      "title": "Chef Kriger’s Recipe Shabbat Brisket",
       "source": "Adapted from campmicah.com",
       "sourceUrl": "https://campmicah.com/chef-krigers-recipe-shabbat-brisket/",
       "group": null,
@@ -1411,17 +1425,22 @@
       "source": null,
       "sourceUrl": null,
       "group": "cold_sides_01",
-      "status": "proposed",
-      "reviewEvidence": [],
-      "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/chimichurri.md",
+        "docs/editorial-campaign/2026-10-05/cold-independent.md"
+      ],
+      "automatedFlags": [],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Measure finished sauce volume and original eight condiment portions; packing of parsley/oregano varies.",
+        "Record chopped texture, garlic strength and color after short cold rests and3 days."
       ],
       "inputSha256": "0a08758ebdff69d0e2038c4fdb05ba0b8994f53b62fa27aa7d3d9d879c4601f2",
       "plannedBatch": "cold-preparations-01",
       "assignmentInputCommit": "95b37f8bca5008657a668e52a1d970b1d03367d3",
-      "assignmentInputSha256": "0a08758ebdff69d0e2038c4fdb05ba0b8994f53b62fa27aa7d3d9d879c4601f2"
+      "assignmentInputSha256": "0a08758ebdff69d0e2038c4fdb05ba0b8994f53b62fa27aa7d3d9d879c4601f2",
+      "acceptedSourceSha256": "60906cc3011a3a24b02f96935db211a52e16af54adeb5d8f0d62b2a2de62fbc4",
+      "productionVerification": "pending"
     },
     {
       "slug": "chinese-sausage-fried-rice",
@@ -1675,7 +1694,7 @@
     {
       "slug": "chocolate-souffle",
       "path": "src/content/recipes/chocolate-souffle.md",
-      "title": "Chocolate Souffl\u00e9",
+      "title": "Chocolate Soufflé",
       "source": "Adapted from Epicurious.com",
       "sourceUrl": "http://www.epicurious.com/recipes/food/views/chocolate-souffle-106173",
       "group": null,
@@ -1764,17 +1783,23 @@
       "source": null,
       "sourceUrl": null,
       "group": "cold_sides_01",
-      "status": "proposed",
-      "reviewEvidence": [],
-      "automatedFlags": ["missing-cookTime", "teaching-review-needed", "nutrition-verification"],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/classic-guacamole.md",
+        "docs/editorial-campaign/2026-10-05/cold-independent.md"
+      ],
+      "automatedFlags": [],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Measure avocado edible mass and finished dip volume; eight portions remain a planning claim.",
+        "Check actual kosher salt crystal product/density and jalapeño heat before future formula adjustments.",
+        "Test one-day color and chunks; optional sour-cream/tomato variants can have different texture."
       ],
       "inputSha256": "604076fb7760e8a4b1aff7f318c765693a5066a446f0ea69a19f6145c8eb694c",
       "plannedBatch": "cold-preparations-01",
       "assignmentInputCommit": "95b37f8bca5008657a668e52a1d970b1d03367d3",
-      "assignmentInputSha256": "604076fb7760e8a4b1aff7f318c765693a5066a446f0ea69a19f6145c8eb694c"
+      "assignmentInputSha256": "604076fb7760e8a4b1aff7f318c765693a5066a446f0ea69a19f6145c8eb694c",
+      "acceptedSourceSha256": "104288460ce6cbafe8ccfd522cf82813c7e465c1ceb2c80a89900069842a2ced",
+      "productionVerification": "pending"
     },
     {
       "slug": "classic-manhattan",
@@ -2156,7 +2181,7 @@
     {
       "slug": "crustless-spinach-quiche",
       "path": "src/content/recipes/crustless-spinach-quiche.md",
-      "title": "Crustless Spinach & Gruy\u00e8re Quiche",
+      "title": "Crustless Spinach & Gruyère Quiche",
       "source": "Adapted from Rebecca Cybulsky",
       "sourceUrl": null,
       "group": "egg_bakes_01",
@@ -2288,7 +2313,7 @@
     {
       "slug": "doc-cheys-chicken-lo-mein",
       "path": "src/content/recipes/doc-cheys-chicken-lo-mein.md",
-      "title": "Doc Chey\u2019s Chicken Lo Mein",
+      "title": "Doc Chey’s Chicken Lo Mein",
       "source": "ajc.com",
       "sourceUrl": "https://www.ajc.com/lifestyles/food--cooking/lomein-dish-can-made-from-ingredients-hand/nm6EiZJQkRfSmBI9T8PUUK/",
       "group": null,
@@ -2411,17 +2436,23 @@
       "source": "thesavvyspoon.com",
       "sourceUrl": "https://thesavvyspoon.com/2025/03/10/chopped-pesto-salad-recipe/",
       "group": "cold_sides_01",
-      "status": "proposed",
-      "reviewEvidence": ["docs/reviews/easy-chopped-pesto-salad-with-cannellini-beans.md"],
-      "automatedFlags": ["teaching-review-needed"],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/easy-chopped-pesto-salad-with-cannellini-beans.md",
+        "docs/reviews/easy-chopped-pesto-salad-with-cannellini-beans.md",
+        "docs/editorial-campaign/2026-10-05/cold-independent.md"
+      ],
+      "automatedFlags": [],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Measure drained bean/mozzarella weights and cucumber size, finished bowl volume and portions.",
+        "Test pesto salt level with the retained1 tsp kosher salt and tomato-water release after10 minutes and overnight."
       ],
       "inputSha256": "041131fc9e2feb8d78de83e259c3e44e097122152367b94cec38681dbf2408bd",
       "plannedBatch": "cold-preparations-02",
       "assignmentInputCommit": "95b37f8bca5008657a668e52a1d970b1d03367d3",
-      "assignmentInputSha256": "041131fc9e2feb8d78de83e259c3e44e097122152367b94cec38681dbf2408bd"
+      "assignmentInputSha256": "041131fc9e2feb8d78de83e259c3e44e097122152367b94cec38681dbf2408bd",
+      "acceptedSourceSha256": "af7367d8b0af343e34ccbaffd538fa2494d843a72c1b224ea4ba4a0c2b5b6f85",
+      "productionVerification": "pending"
     },
     {
       "slug": "easy-cinnamon-french-toast-sticks",
@@ -3175,7 +3206,7 @@
     {
       "slug": "grandmommys-pecan-pie",
       "path": "src/content/recipes/grandmommys-pecan-pie.md",
-      "title": "Grandmommy\u2019s Pecan Pie",
+      "title": "Grandmommy’s Pecan Pie",
       "source": "Adapted from Miriam Hamilton",
       "sourceUrl": null,
       "group": null,
@@ -3192,7 +3223,7 @@
     {
       "slug": "grandmommys-pound-cake",
       "path": "src/content/recipes/grandmommys-pound-cake.md",
-      "title": "Grandmommy\u2019s Pound Cake",
+      "title": "Grandmommy’s Pound Cake",
       "source": "Adapted from Miriam Hamilton",
       "sourceUrl": null,
       "group": null,
@@ -3861,7 +3892,7 @@
     {
       "slug": "katharine-hepburns-brownies",
       "path": "src/content/recipes/katharine-hepburns-brownies.md",
-      "title": "Katharine Hepburn\u2019s Brownies",
+      "title": "Katharine Hepburn’s Brownies",
       "source": "Adapted from Cooking.nytimes.com",
       "sourceUrl": "https://cooking.nytimes.com/recipes/10782-katharine-hepburns-brownies",
       "group": null,
@@ -4156,9 +4187,9 @@
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Check consistent\u00bdinchwedgecut on the actualpotatoes and whether the initial18\u201320 stage reachesnearlytender.",
+        "Check consistent½inchwedgecut on the actualpotatoes and whether the initial18–20 stage reachesnearlytender.",
         "Confirm the chosen sheet fits two pounds and browns the cutfaces evenly.",
-        "Test2tbspmaple coating and optionalpaprika behavior through the final8\u201310minutes withoutpromising friedcrispness."
+        "Test2tbspmaple coating and optionalpaprika behavior through the final8–10minutes withoutpromising friedcrispness."
       ],
       "inputSha256": "3584ec674b636512261b9a4fad0ead8c8963595dcb3a761c4d244af8ce8fa1ab",
       "plannedBatch": "roast-grill-and-sear-02",
@@ -4288,7 +4319,7 @@
     {
       "slug": "miriams-melt-in-your-mouth-rosh-hashanah-brisket",
       "path": "src/content/recipes/miriams-melt-in-your-mouth-rosh-hashanah-brisket.md",
-      "title": "Miriam\u2019s Melt-In-Your-Mouth Rosh Hashanah Brisket",
+      "title": "Miriam’s Melt-In-Your-Mouth Rosh Hashanah Brisket",
       "source": "Adapted from Chabad.org",
       "sourceUrl": "https://www.chabad.org/recipes/recipe_cdo/aid/2635033/jewish/Miriams-Melt-in-Your-Mouth-Rosh-Hashanah-Brisket.htm",
       "group": null,
@@ -4330,7 +4361,7 @@
       "reviewEvidence": ["docs/repairs/2026-09-15/changed-files.json"],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Check the specific white-miso/mirin coating at425\u00b0F fromthestart and whether it scorches before comparablefloretcenters are tender.",
+        "Check the specific white-miso/mirin coating at425°F fromthestart and whether it scorches before comparablefloretcenters are tender.",
         "Compare honeybranch1.5tbsp+extrasoy.5tbsp againstmirin withoutmixingroutes; confirm intendedsalt/sweetness preference.",
         "Confirm single-layerpanarea andfourportionservings for1.5lbflorets."
       ],
@@ -4346,17 +4377,23 @@
       "source": "bakerita.com",
       "sourceUrl": "https://www.bakerita.com/miso-sesame-dense-bean-salad/",
       "group": "cold_sides_01",
-      "status": "proposed",
-      "reviewEvidence": ["docs/reviews/miso-sesame-dense-bean-salad.md"],
-      "automatedFlags": ["teaching-review-needed"],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/miso-sesame-dense-bean-salad.md",
+        "docs/reviews/miso-sesame-dense-bean-salad.md",
+        "docs/editorial-campaign/2026-10-05/cold-independent.md"
+      ],
+      "automatedFlags": [],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Identify chickpea can size and actual drained mass, edamame product cooking/cooling route and full four-portion yield.",
+        "Check dress coverage with optional snap peas, miso/tamari salt levels and day-three crunch."
       ],
       "inputSha256": "141e528f09c272139ded3bed331b94a250bd99179eaa403e201f57b196f37d48",
       "plannedBatch": "cold-preparations-03",
       "assignmentInputCommit": "95b37f8bca5008657a668e52a1d970b1d03367d3",
-      "assignmentInputSha256": "141e528f09c272139ded3bed331b94a250bd99179eaa403e201f57b196f37d48"
+      "assignmentInputSha256": "141e528f09c272139ded3bed331b94a250bd99179eaa403e201f57b196f37d48",
+      "acceptedSourceSha256": "d1523218a40741682779f0bf4b893fe8a0e352db37e2d1e600356059c4b8cbc7",
+      "productionVerification": "pending"
     },
     {
       "slug": "miso-soup",
@@ -4446,7 +4483,7 @@
     {
       "slug": "nana-ruths-applesauce",
       "path": "src/content/recipes/nana-ruths-applesauce.md",
-      "title": "Nana Ruth\u2019s Applesauce",
+      "title": "Nana Ruth’s Applesauce",
       "source": "Adapted from Ruth Shankman",
       "sourceUrl": null,
       "group": null,
@@ -4463,7 +4500,7 @@
     {
       "slug": "nanas-biscuits",
       "path": "src/content/recipes/nanas-biscuits.md",
-      "title": "Nana\u2019s Biscuits",
+      "title": "Nana’s Biscuits",
       "source": null,
       "sourceUrl": null,
       "group": null,
@@ -4766,7 +4803,7 @@
     {
       "slug": "parishs-blueberry-crisp",
       "path": "src/content/recipes/parishs-blueberry-crisp.md",
-      "title": "Parish\u2019s Blueberry Crisp",
+      "title": "Parish’s Blueberry Crisp",
       "source": "Adapted from Parish",
       "sourceUrl": "https://www.myajc.com/lifestyles/food--cooking/brown-butter-key-parish-blueberry-crisp/ht0uxKmxnFIptyggBS5fpL/",
       "group": null,
@@ -4842,7 +4879,7 @@
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Confirm pan footprint for the family\u2019s two-pound batch and preferred browned/tender endpoint at450\u00b0F.",
+        "Confirm pan footprint for the family’s two-pound batch and preferred browned/tender endpoint at450°F.",
         "Confirm the current teaspoon garlic powder preference versus earlier halfteaspoon; preserve current amount pending kitchen feedback.",
         "Check the actual sheet/lining brand rating and whether the final pinch is wanted after the measured teaspoon."
       ],
@@ -5017,7 +5054,7 @@
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Check actual shaker/glass capacity and dilution for the 10\u00bd-ounce still base plus 12-ounce topping.",
+        "Check actual shaker/glass capacity and dilution for the 10½-ounce still base plus 12-ounce topping.",
         "Compare current London dry gin to named saved gin without normalizing brands.",
         "Compare the saved optional agave omission to the current primary amount without changing other measures."
       ],
@@ -5129,7 +5166,7 @@
     {
       "slug": "quick-lamb-ragu",
       "path": "src/content/recipes/quick-lamb-ragu.md",
-      "title": "Lamb Rag\u00f9",
+      "title": "Lamb Ragù",
       "source": "Adapted from cooking.nytimes.com",
       "sourceUrl": "https://cooking.nytimes.com/recipes/1020022-quick-lamb-ragu?smid=ck-recipe-iOS-share",
       "group": null,
@@ -5471,7 +5508,7 @@
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Record the actual rootmix and whether the first35\u201340minute window cooks every center; densermixmayneedlonger.",
+        "Record the actual rootmix and whether the first35–40minute window cooks every center; densermixmayneedlonger.",
         "Check four-pound fit on the actualtwo sheets and even oil/glaze coating without inventing a per-sheetamount.",
         "Check smashedgarlic and herb texture through the longer roast."
       ],
@@ -5798,17 +5835,23 @@
       "source": "Adapted from Loveandoliveoil.com",
       "sourceUrl": "http://www.loveandoliveoil.com/2013/04/shaved-brussels-sprout-salad.html",
       "group": "cold_sides_01",
-      "status": "proposed",
-      "reviewEvidence": [],
-      "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/shaved-brussels-sprout-salad-with-apples-and-pecorino.md",
+        "docs/editorial-campaign/2026-10-05/cold-independent.md"
+      ],
+      "automatedFlags": [],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Weigh actual grated Pecorino relative to1 cup and record grated particle/packing state.",
+        "Measure shaved usable sprouts, apple size, finished portions and texture after15 minutes and overnight.",
+        "Verify preparation timing with a guarded mandoline versus knife."
       ],
       "inputSha256": "665af3734545f6b5a5f44a5a3192af5ed0738b36b4494b9aa73169506f088645",
       "plannedBatch": "cold-preparations-04",
       "assignmentInputCommit": "95b37f8bca5008657a668e52a1d970b1d03367d3",
-      "assignmentInputSha256": "665af3734545f6b5a5f44a5a3192af5ed0738b36b4494b9aa73169506f088645"
+      "assignmentInputSha256": "665af3734545f6b5a5f44a5a3192af5ed0738b36b4494b9aa73169506f088645",
+      "acceptedSourceSha256": "0b0d517e8b9569f7d3fd4ee49daafc674d28a56227a3d5548cb4efdb77a32534",
+      "productionVerification": "pending"
     },
     {
       "slug": "sheet-pan-italian-sausage-dinner",
@@ -6248,17 +6291,22 @@
       "source": null,
       "sourceUrl": null,
       "group": "cold_sides_01",
-      "status": "proposed",
-      "reviewEvidence": [],
-      "automatedFlags": ["teaching-review-needed"],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/soy-ginger-dipping-sauce.md",
+        "docs/editorial-campaign/2026-10-05/cold-independent.md"
+      ],
+      "automatedFlags": [],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Measure actual finished sauce volume and eight small portions after adding aromatics.",
+        "Check fresh-ginger/garlic bite, regular versus low-sodium soy and whether4:2:1 suits the specific dumpling filling."
       ],
       "inputSha256": "fd7044f566920578055b78d2aca56a707d0fc56ff7b238a9ffee30187892297b",
       "plannedBatch": "cold-preparations-05",
       "assignmentInputCommit": "95b37f8bca5008657a668e52a1d970b1d03367d3",
-      "assignmentInputSha256": "fd7044f566920578055b78d2aca56a707d0fc56ff7b238a9ffee30187892297b"
+      "assignmentInputSha256": "fd7044f566920578055b78d2aca56a707d0fc56ff7b238a9ffee30187892297b",
+      "acceptedSourceSha256": "2d6bff415b84a217a82e5f31cea7894c844f9bac9d183f82aeac6b8ec36d00d8",
+      "productionVerification": "pending"
     },
     {
       "slug": "spaghetti-and-spinach-with-sun-dried-tomato-cream-sauce",
@@ -6365,7 +6413,7 @@
     {
       "slug": "spiced-butternut-squash-puree",
       "path": "src/content/recipes/spiced-butternut-squash-puree.md",
-      "title": "Butternut Squash Pur\u00e9e",
+      "title": "Butternut Squash Purée",
       "source": "Adapted from Silton Family",
       "sourceUrl": null,
       "group": null,
@@ -6467,7 +6515,7 @@
     {
       "slug": "stevens-margs",
       "path": "src/content/recipes/stevens-margs.md",
-      "title": "Steven\u2019s Margaritas",
+      "title": "Steven’s Margaritas",
       "source": null,
       "sourceUrl": null,
       "group": null,
@@ -6827,7 +6875,7 @@
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
         "ConfirmCraig-intendedpotato/oil/tarragon/salt amounts andportionplan.",
-        "Restoreexplicitunpeeled1\u20131.5inchcontext afterformuladecision;preservenativeexactoriginal.",
+        "Restoreexplicitunpeeled1–1.5inchcontext afterformuladecision;preservenativeexactoriginal.",
         "Confirmbutterinitialversushalfwayvariant andactualdishcapacity."
       ],
       "inputSha256": "903070120e6211b4b338db29a3801a17d308572ebd59e220328c293c750efefc",
@@ -7096,7 +7144,7 @@
     {
       "slug": "vieux-carre",
       "path": "src/content/recipes/vieux-carre.md",
-      "title": "Vieux Carr\u00e9",
+      "title": "Vieux Carré",
       "source": null,
       "sourceUrl": null,
       "group": "stirred_drinks_01",
@@ -7176,7 +7224,7 @@
       "remainingQuestions": [
         "Identify household syrup concentration and compare sweetness without silently normalizing the formula.",
         "Check chosen pasteurized product foam and actual glass capacity, including white/rocks/up branches.",
-        "Compare restored optional\u00bdoz wine float and retained bourbon/rye options."
+        "Compare restored optional½oz wine float and retained bourbon/rye options."
       ],
       "inputSha256": "1e6d9964cc3a4b2846bb8c8274ccda8c415808709ecd74f58152a80e7b611f28",
       "plannedBatch": "cold-preparations-05"
@@ -7259,17 +7307,23 @@
       "source": "Guy Fieri",
       "sourceUrl": "https://www.foodnetwork.com/recipes/guy-fieri/falafel-in-pita-with-yogurt-sauce-recipe-1952260",
       "group": "cold_sides_01",
-      "status": "proposed",
-      "reviewEvidence": ["docs/reviews/yogurt-dipping-sauce.md"],
-      "automatedFlags": ["teaching-review-needed"],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/yogurt-dipping-sauce.md",
+        "docs/reviews/yogurt-dipping-sauce.md",
+        "docs/editorial-campaign/2026-10-05/cold-independent.md"
+      ],
+      "automatedFlags": [],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Measure dip volume and four portions; compare plain and Greek yogurt consistency.",
+        "Check lemon zest particle size and salt requirement with actual yogurt."
       ],
       "inputSha256": "60f27607a538b709cd07ea7048e8b055c6c630af38ad28bb5dfe05f43c940623",
       "plannedBatch": "cold-preparations-05",
       "assignmentInputCommit": "95b37f8bca5008657a668e52a1d970b1d03367d3",
-      "assignmentInputSha256": "60f27607a538b709cd07ea7048e8b055c6c630af38ad28bb5dfe05f43c940623"
+      "assignmentInputSha256": "60f27607a538b709cd07ea7048e8b055c6c630af38ad28bb5dfe05f43c940623",
+      "acceptedSourceSha256": "4a2ce0a8d452911613d7c977ad0e4100f27b42aa038e6c31fc5ae744b46f4d35",
+      "productionVerification": "pending"
     },
     {
       "slug": "zucchini-herb-fritters-with-garlic-yogurt",
@@ -8040,12 +8094,13 @@
   ],
   "routingLimitations": "Provisional routing uses current metadata to reduce coordination work. Reviewer must confirm actual process from complete recipe before starting; tags never establish method applicability or a recipe defect.",
   "statusCounts": {
-    "assigned": 12,
+    "accepted": 7,
+    "assigned": 19,
     "held": 6,
     "held-awaiting-evidence": 2,
     "implemented": 6,
     "production-verified": 10,
-    "proposed": 49,
-    "queued": 324
+    "proposed": 42,
+    "queued": 317
   }
 }

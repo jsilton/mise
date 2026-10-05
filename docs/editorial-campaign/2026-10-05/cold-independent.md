@@ -1,0 +1,74 @@
+# Cold sides 01: independent consequential challenge
+
+Inspected 2026-10-05 against frozen input `95b37f8bca5008657a668e52a1d970b1d03367d3`. Read all seven complete frozen recipes, complete proposals, individual records, results and source-applicability packet. Independently checked the original Guacamole introduction and Brussels source in committed Git, the attributed Brussels publisher and primary OSU oil guidance. No candidate, main source, Git state or export was edited. This is editorial acceptance advice, not a kitchen test.
+
+## Candidates and dispositions
+
+| Slug                                                  | Inspected SHA-256                                                  | Disposition                                                                                  |
+| ----------------------------------------------------- | ------------------------------------------------------------------ | -------------------------------------------------------------------------------------------- |
+| soy-ginger-dipping-sauce                              | `c9def3fd0109a39a9e7bb36b613bd78a2362ea81cf78b4a35edbcba38dddb551` | ACCEPT consequential method and quantity proposal; narrow public wording correction below.   |
+| yogurt-dipping-sauce                                  | `4a2ce0a8d452911613d7c977ad0e4100f27b42aa038e6c31fc5ae744b46f4d35` | ACCEPT.                                                                                      |
+| classic-guacamole                                     | `67ba279f43f0b7b037fb5399487ea4409b20b2db2fa2ca972fdcc70b6f6ce798` | CORRECT scaled variation instructions; base allocations accepted.                            |
+| chimichurri                                           | `c31c959597aaefe328f8844ed304dcf70f30ebcdbd9a859ce351b3e9eb796e9f` | ACCEPT consequential storage/quantity method; narrow public/record wording correction below. |
+| easy-chopped-pesto-salad-with-cannellini-beans        | `d491a9cdd8d5656b223ddf1a392053e036e5e1e715699cc66e6f4fa9df426f3e` | ACCEPT culinary proposal; CORRECT public editing/source disclosures.                         |
+| miso-sesame-dense-bean-salad                          | `03c366d1d7e11c07030c160e0ca491f4b547c3c82bf9609a55cbae43c1e99977` | ACCEPT ingredient/package handling; CORRECT public editing disclosures.                      |
+| shaved-brussels-sprout-salad-with-apples-and-pecorino | `f84e0ed265c075852d9fb8a812981c4c17e431cbfecff2be511c700ff3611e54` | ACCEPT consequential dressing/cheese/timing proposal; remove residual ingredient slogan.     |
+
+All hashes match worker results. Every frozen input matches its assigned commit. Mise IDs, titles, source/source URLs and pairing arrays match their inputs. Five ingredient arrays are byte-equivalent as data; Guacamole adds only existing unmeasured serving chips, and Brussels restores only its supported approximate cheese equivalent. Half/double/reset ingredient renders were checked with the existing scaler, including equivalent lime/cheese, fresh/dried oregano and fixed 15-ounce cannellini package size. No new ingredient amount, inferred drained mass or can size is required by these corrections. Existing missing-pairing warnings are not lost-link failures.
+
+## Accepted consequential findings
+
+**Soy sauce.** The whole four-step method is unchanged from the accepted safety repair, including ten-minute rest, individual dipping dishes, unused-batch separation, prompt cold holding, 3–4-day use and cumulative two-hour/one-hot-hour limits. The exact tablespoon ratio remains 4:2:1 at both scales. New prose does not invent a restaurant author or guarantee preservation. Accept the method and ingredients; clean the review-history wording in new learning.storage only.
+
+**Garlic/herb oil.** [OSU, Herbs and vegetables in oil](https://extension.oregonstate.edu/catalog/pub/sp-50-701-herbs-vegetables-oil) instructs refrigeration and use within four days for unvalidated home mixtures, with a distinct exact acidification process needed for room storage. Chimichurri's retained maximum three days is stricter. The candidate holds at 40°F/4°C, keeps unused sauce refrigerated, counts brief rest/service toward its cumulative limit and does not warm the entire stored jar. No vinegar shelf-stability inference occurs. Accept; OSU is directly applicable to raw garlic/herb oil, while the two-hour service boundary comes from general cold-food handling. No measured pH or acidification validation is claimed.
+
+**Guacamole base.** Half cup onion is eight tablespoons. One-eighth goes to the aromatic mixture and seven-eighths to finishing in BOTH mortar and fork routes. Half batch uses half tablespoon initially from a quarter cup; double uses two tablespoons initially from one cup. All measured salt enters step 1 once, with no second measured dose in step 2. Four original variations survive. The one-hour serving preference is clearly about quality, alongside refrigeration/time limits. The remaining issue is variation quantities in unchanged, unscaled prose, described below.
+
+**Brussels.** The one-cup finely grated Pecorino is preserved, with approximate three-ounce equivalent independently confirmed in `045e5ba2` and the [attributed publisher](https://www.loveandoliveoil.com/2013/04/shaved-brussels-sprout-salad.html). It renders half cup/about 1½ oz at half and two cups/about 6 oz at double. This is a recovered source equivalent, not a new cheese reduction or measured household yield. The small apple-dressing share is taken from the existing dressing and ALL of it returns with the apple. No oil/vinegar/honey is lost or added. Roughly fifteen minutes active plus fifteen dressed rest accounts for thirty minutes; an optional cold chill is additional. Guarded shaving, core removal and full cheese incorporation are visible. Accept.
+
+**Miso salad.** Every dressing and salad amount/option remains. “One can” stays unspecified; no 15-ounce guess is imported. The edamame preparation requires its actual cooking label, forbids thaw-only handling when cooking is required, and includes draining and prompt shallow-container cooling before mixing. Ready/cool edamame is the prerequisite for the twenty-minute prep clock; package cooking/cooling is extra, with optional thirty-minute chilling separately counted. Four portions remain an inherited estimate, not a precise weighed yield. Nuts added at service retain crunch. Accept the process; the can-size question remains explicitly unresolved.
+
+**Yogurt and pesto.** Their measured ledgers have complete destinations. Yogurt's optional Greek alternative is an editorial thickness choice, with no automatic added lemon; three-day use is a conservative plan subject to shorter product limits. Pesto keeps its full measured salt, 15-ounce bean package, oil-rich prepared pesto and mozzarella without guessing portions. Draining, gentle folding and ten-minute standing are accounted for; two-day use chooses the shorter source guidance rather than averaging its conflicting storage text. No source research expansion is needed to justify the mechanical before/after.
+
+## Required narrow corrections
+
+### Guacamole variations: scale additions with the selected batch
+
+The consuming base method scales, but the preserved variation prose still says `Add 1 canned chipotle pepper`, `Add 2 tbsp sour cream`, and `Use 5 avocados`. At double, “Use 5” could replace the scaled eight-avocado base; at half, unchanged cream/chipotle would double their intended ratio. The original four-avocado recipe and variations are independently confirmed at `e07f66f8`. This is a real scale-prose defect, not authorization to invent new heat/fat amounts.
+
+Exact suggested replacements, preserving all four choices:
+
+| Before                                                         | After                                                                                                               |
+| -------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- |
+| `- **Spicy:** Add a serrano pepper or leave jalapeño seeds in` | `- **Spicy:** Add 1 serrano pepper for every 4 avocados in the base amount, or leave jalapeño seeds in.`            |
+| `- **Smoky:** Add 1 canned chipotle pepper, minced`            | `- **Smoky:** Add 1 minced canned chipotle pepper for every 4 avocados in the base amount.`                         |
+| `- **Creamy:** Add 2 tbsp sour cream`                          | `- **Creamy:** Fold in 2 tbsp sour cream for every 4 avocados in the base amount. This variation contains dairy.`   |
+| `- **Chunky:** Use 5 avocados and mash less`                   | `- **Chunky:** Use one-quarter more avocado than the base amount (5 instead of 4 at the full batch) and mash less.` |
+
+Confidence high: exact proportional arithmetic from the preserved variation quantities. Add those optional variation destinations to the private ledger: chipotle/serrano with aromatics, sour cream during finishing, extra avocado with the base. No physical heat/texture comparison occurred.
+
+### Keep edit/source disclosures in the records
+
+These sentences are rendered cooking content in learning or the introduction. Existing household/public prose policy places recovery/source disagreements off individual public pages. Keep their rationale and source disagreement in the individual record; replace only their public wording, with no quantity/time/storage change.
+
+| Candidate/field                      | Exact before                                                                                                                                                                                            | Suggested after                                                                                                   |
+| ------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- |
+| Soy, learning.storage                | `Preserve the existing 3–4-day limit for unused sauce.`                                                                                                                                                 | `Use unused sauce within 3–4 days.`                                                                               |
+| Chimichurri, learning.storage        | `Preserve the existing maximum3 days refrigerated in a clean covered jar.`                                                                                                                              | `Use within 3 days refrigerated in a clean covered jar.`                                                          |
+| Pesto, introduction                  | `The salt is part of the saved dressing formula; pesto and cheese already contribute salt, so taste the fully mixed salad before any extra seasoning.`                                                  | `Pesto and cheese already contribute salt, so taste the fully mixed salad before any extra seasoning.`            |
+| Pesto, learning.substitutions.effect | `Publisher-supported bean alternative, with a slightly different texture; preserve the drained-can baseline, not an invented exact drained weight.`                                                     | `Great Northern beans have a slightly different texture; use the same stated can size and drain them thoroughly.` |
+| Pesto, learning.storage              | `Keep covered and use within2 days as a conservative plan matching the publisher's shorter storage guidance.`                                                                                           | `Keep covered and use within 2 days.`                                                                             |
+| Miso, learning.before                | `The saved chickpea can size is not specified. Retain the can you normally use for this formula and record its label/drained amount; a different can size changes dressing coverage and portion yield.` | `Chickpea can sizes vary; the can size and drained amount affect dressing coverage and portion yield.`            |
+| Miso, learning.timing                | `Four portions are the saved planning yield, with chickpea can size and optional snap peas affecting actual quantity.`                                                                                  | `Chickpea can size and optional snap peas affect the actual quantity and portion size.`                           |
+| Miso, learning.storage               | `Preserve the existing3 day refrigerated limit in a covered container.`                                                                                                                                 | `Use within 3 days refrigerated in a covered container.`                                                          |
+| Brussels, ingredient                 | `3 tbsp Apple Cider Vinegar (The Acid Balance)`                                                                                                                                                         | `3 tbsp Apple Cider Vinegar`                                                                                      |
+
+Also correct spaces in new prose such as `About15`, `within1 hour`, `stand15`, `refrigerate30`, `up to3` and `the30 minute`. This is presentation cleanup, not an additional culinary judgment. The existing producer/citation titles remain attributed; ingredient and method prose uses generic descriptions. Review-status fields and source lists retain their established hidden/disclosure behavior.
+
+### Conditional oregano destination in the private record
+
+Chimichurri ingredientLedger assigns the fresh/dried oregano line only to step 1, but candidate step 1 correctly says dried oregano goes with the seasonings in step 2. Correct the record destination from `1` to `1 (fresh), 2 (dried)` for that line. The candidate method needs no corresponding culinary change. Confidence high from its explicit branch.
+
+## Limits and handoff
+
+No held culinary formula is established by this peer check. Guacamole needs the scale-prose correction before full acceptance; the other narrow public/record corrections are concrete and do not require another whole-recipe review. Recheck only affected sections and changed hashes. Existing incoming dim-sum/football-party relationships remain separate meal work; seven proposal records do not certify those meals. Root owns integration, complete diff review and shared build/export/privacy gates. Recipe-specific salt density, fruit/can size, portion volume and physical storage/texture questions remain untested.

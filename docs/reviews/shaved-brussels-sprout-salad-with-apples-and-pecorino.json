@@ -1,0 +1,287 @@
+{
+  "slug": "shaved-brussels-sprout-salad-with-apples-and-pecorino",
+  "status": "accepted-editorial-review; production verification pending",
+  "inputCommit": "95b37f8bca5008657a668e52a1d970b1d03367d3",
+  "inputSha256": "665af3734545f6b5a5f44a5a3192af5ed0738b36b4494b9aa73169506f088645",
+  "acceptedSourceSha256": "0b0d517e8b9569f7d3fd4ee49daafc674d28a56227a3d5548cb4efdb77a32534",
+  "changedFields": [
+    {
+      "field": "ingredients",
+      "before": [
+        "1 lb Brussels Sprouts, shaved paper-thin",
+        "1 Granny Smith Apple, matchsticked",
+        "1 cup Pecorino Romano, finely grated",
+        "1/4 cup Extra-Virgin Olive Oil",
+        "3 tbsp Apple Cider Vinegar (The Acid Balance)",
+        "2 tbsp Honey",
+        "Salt and Black Pepper"
+      ],
+      "after": [
+        "1 lb Brussels Sprouts, shaved paper-thin",
+        "1 Granny Smith Apple, matchsticked",
+        "1 cup Pecorino Romano, finely grated (about 3 oz)",
+        "1/4 cup Extra-Virgin Olive Oil",
+        "3 tbsp Apple Cider Vinegar",
+        "2 tbsp Honey",
+        "Salt and Black Pepper"
+      ],
+      "rationale": "Recipe-specific guidance from complete ingredient and process inspection.",
+      "applicableSource": "docs/editorial-campaign/2026-10-05/cold-sources.md",
+      "confidence": "high for exact allocations and preserved source text; sensory results remain untested"
+    },
+    {
+      "field": "origin",
+      "before": "Italy",
+      "after": null,
+      "rationale": "Remove duplicated publisher/person entry or unsupported birthplace while preserving actual source/cuisine context.",
+      "applicableSource": "docs/editorial-campaign/2026-10-05/cold-sources.md",
+      "confidence": "high for exact allocations and preserved source text; sensory results remain untested"
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 545,
+        "protein": 1,
+        "carbs": 17.5,
+        "fat": 54,
+        "fiber": 2,
+        "sugar": 13.5,
+        "sodium": 110
+      },
+      "after": null,
+      "rationale": "Legacy estimates are unsupported and inconsistent with formula/portion uncertainty. No substitute nutrient values.",
+      "applicableSource": "docs/editorial-campaign/2026-10-05/cold-sources.md",
+      "confidence": "high for exact allocations and preserved source text; sensory results remain untested"
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Allocate dressing between fresh apple and finely shaved sprouts",
+        "outcome": "Thin sprouts are evenly dressed and still lightly crisp, with apple pieces and grated Pecorino distributed through the salad.",
+        "techniques": ["seasoning", "cold-preparation"],
+        "before": [
+          "Wash and dry sprouts and apple. Remove damaged outer leaves and tough bases, then shave thinly using a guarded mandoline or a sharp knife. Stop before fingers approach the blade.",
+          "Keep the total dressing amount intact: set aside a small share for the apple, then use the remainder for sprouts. Add the apple and its reserved dressing back together.",
+          "Use a bowl roomy enough to toss the listed shaved sprouts. A larger batch needs more preparation/mixing room, not a proportionally longer 15 minute rest."
+        ],
+        "checkpoints": [
+          {
+            "step": 2,
+            "cue": "Apple pieces are lightly coated and the dressing portion stays in that bowl.",
+            "why": "Reserved dressing is part of the measured total and returns to the salad with the apple."
+          },
+          {
+            "step": 3,
+            "cue": "Sprouts are thin strands with large hard core pieces removed.",
+            "why": "Thick chunks remain tougher during a short dressed rest."
+          },
+          {
+            "step": 4,
+            "cue": "All strands have a light coating after tossing.",
+            "why": "Coating and thinness matter more than extending the nominal resting time."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Raw sprouts are tough",
+            "cause": "Slices are too thick or large hard core chunks remained.",
+            "fix": "Slice thinly and remove hard pieces before dressing. A longer wait may soften them but does not reproduce the same finely shaved texture."
+          },
+          {
+            "problem": "Salad is unevenly dressed",
+            "cause": "Dressing was left in the apple bowl or sprouts were not turned through it.",
+            "fix": "Return the apple and all its reserved dressing, then toss gently. Do not automatically add a second batch of oil/vinegar."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Granny Smith apple",
+            "alternative": "Another tart green apple",
+            "effect": "A similar tart flavor; cut similarly and include the reserved dressing."
+          }
+        ],
+        "timing": "About 15 minutes preparation and 15 minutes dressed resting give 30 minutes elapsed. Extra refrigerator chilling is optional and adds time; no final chilling step is required after a room-temperature rest. Thin shaving and apple cutting are the active work.",
+        "storage": "Keep at 40°F / 4°C or below and refrigerate within 2 hours total out of refrigeration, or 1 hour above 90°F / 32°C. Best served on the preparation day; refrigerate leftovers covered and use by the next day for texture. The apple and raw sprouts soften after dressing. Do not use vinegar or the appearance of the apple as a safety test.",
+        "sources": [
+          {
+            "title": "Adapted from Loveandoliveoil.com",
+            "url": "https://www.loveandoliveoil.com/2013/04/shaved-brussels-sprout-salad.html"
+          },
+          {
+            "title": "FoodSafety.gov — Clean handling and cold storage",
+            "url": "https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-05"
+        }
+      },
+      "rationale": "Recipe-specific guidance from complete ingredient and process inspection.",
+      "applicableSource": "docs/editorial-campaign/2026-10-05/cold-sources.md",
+      "confidence": "high for exact allocations and preserved source text; sensory results remain untested"
+    },
+    {
+      "field": "content",
+      "before": "\n## Chef's Note\n\nShaving Brussels sprouts paper-thin transforms them from dense and bitter to light and crisp - a technique that became popular in modern Italian-American restaurants during the 2000s. Tossing the shaved sprouts with vinegar dressing 15 minutes before serving softens them slightly while maintaining their crunch. Pecorino Romano adds the sharp, salty note that balances the sweet apple and tangy dressing.\n\n## Directions\n\n1.  **The Dressing:** In a large bowl, whisk together vinegar, honey, oil, salt, and pepper until thick and emulsified.\n2.  **The Crunch:** Core the apple and cut into fine matchsticks. Immediately toss with 1 tbsp of the dressing to prevent browning.\n3.  **Shave:** Use a mandoline or a very sharp chef's knife to shave the Brussels sprouts as thinly as possible. Discard the tough woody stems.\n4.  **Bind:** Add the shaved sprouts to the dressing. Toss vigorously with your hands until every strand is coated. Let stand at room temperature for **at least 15 minutes**.\n5.  **Finish:** Add the apples and the Pecorino. Toss gently to combine.\n6.  **Serve:** Season with an extra crack of black pepper and serve chilled.\n",
+      "after": "\n## Chef's Note\n\nShave Brussels sprouts into thin strands so a short dressed rest softens them without losing all their crunch. Set aside a little dressing for the apple before tossing the sprouts, then combine everything gently and add the full measured Pecorino. The cheese supplies salt, so taste before adding extra seasoning.\n\n## Directions\n\n1. **Mix dressing:** Whisk apple cider vinegar and honey in a large bowl, then drizzle in the oil while whisking. Add the listed salt and pepper to taste, remembering that Pecorino will add salt. The dressing can separate during standing; whisk again when needed.\n\n2. **Prepare apple:** Core the apple and cut fine matchsticks. Move a small portion of the prepared dressing into a separate bowl (about 1 tbsp at the original batch) and toss with the apple. Keep this apple bowl aside; its dressing is taken from the measured total.\n\n3. **Shave sprouts:** Trim tough bases and damaged leaves from washed, dried Brussels sprouts. Use a mandoline with its guard or a sharp knife to shave thinly; discard large hard core pieces.\n\n4. **Dress and rest:** Toss sprouts with the dressing remaining in the large bowl until evenly coated. Let stand 15 minutes, or cover and refrigerate for that interval if preparing ahead.\n\n5. **Finish:** Add the apple and all its reserved dressing to the sprouts, then add the full measured finely grated Pecorino. Toss gently to distribute.\n\n6. **Serve:** Taste before adding any extra salt or pepper. Serve now, or keep refrigerated if waiting; serve cool if preferred without treating additional chilling as part of the 30 minute schedule.\n",
+      "rationale": "Remove public editing/source disclosures or repair spacing without changing the formula, process or handling limits.",
+      "applicableSource": "docs/editorial-campaign/2026-10-05/cold-independent.md",
+      "confidence": "high for exact allocations and preserved source text; sensory results remain untested"
+    }
+  ],
+  "findings": [
+    {
+      "before": "Shaving Brussels sprouts paper-thin transforms them from dense and bitter to light and crisp - a technique that became popular in modern Italian-American restaurants during the 2000s. Tossing the shaved sprouts with vinegar dressing 15 minutes before serving softens them slightly while maintaining their crunch. Pecorino Romano adds the sharp, salty note that balances the sweet apple and tangy dressing.",
+      "after": "Shave Brussels sprouts into thin strands so a short dressed rest softens them without losing all their crunch. Set aside a little dressing for the apple before tossing the sprouts, then combine everything gently and add the full measured Pecorino. The cheese supplies salt, so taste before adding extra seasoning.",
+      "rationale": "Native and publisher formulas match:1 cup grated Pecorino is supported as about3 oz, not an independently measured yield. Proposed equivalent retains the volume quantity and rich cheese amount. Current integration/folding of full cheese preserved, rather than substituting a light garnish. The apple dressing is an allocation of the existing batch, returned with apple. Old originItaly and restaurant-decade claims have no provenance in the saved recipe; cuisine context retained while birthplace assertion removed.",
+      "source": "Saved current formula; recipe-specific publisher/method packet where stated",
+      "confidence": "high for removal of unsupported claims; moderate for sensory outcomes"
+    },
+    {
+      "before": "1.  **The Dressing:** In a large bowl, whisk together vinegar, honey, oil, salt, and pepper until thick and emulsified.\n2.  **The Crunch:** Core the apple and cut into fine matchsticks. Immediately toss with 1 tbsp of the dressing to prevent browning.\n3.  **Shave:** Use a mandoline or a very sharp chef's knife to shave the Brussels sprouts as thinly as possible. Discard the tough woody stems.\n4.  **Bind:** Add the shaved sprouts to the dressing. Toss vigorously with your hands until every strand is coated. Let stand at room temperature for **at least 15 minutes**.\n5.  **Finish:** Add the apples and the Pecorino. Toss gently to combine.\n6.  **Serve:** Season with an extra crack of black pepper and serve chilled.\n",
+      "after": "1. **Mix dressing:** Whisk apple cider vinegar and honey in a large bowl, then drizzle in the oil while whisking. Add the listed salt and pepper to taste, remembering that Pecorino will add salt. The dressing can separate during standing; whisk again when needed.\n\n2. **Prepare apple:** Core the apple and cut fine matchsticks. Move a small portion of the prepared dressing into a separate bowl (about1 tbsp at the original batch) and toss with the apple. Keep this apple bowl aside; its dressing is taken from the measured total.\n\n3. **Shave sprouts:** Trim tough bases and damaged leaves from washed, dried Brussels sprouts. Use a mandoline with its guard or a sharp knife to shave thinly; discard large hard core pieces.\n\n4. **Dress and rest:** Toss sprouts with the dressing remaining in the large bowl until evenly coated. Let stand15 minutes, or cover and refrigerate for that interval if preparing ahead.\n\n5. **Finish:** Add the apple and all its reserved dressing to the sprouts, then add the full measured finely grated Pecorino. Toss gently to distribute.\n\n6. **Serve:** Taste before adding any extra salt or pepper. Serve now, or keep refrigerated if waiting; serve cool if preferred without treating additional chilling as part of the30 minute schedule.\n",
+      "rationale": "Full ingredient/process destinations made explicit; exact retained allocations and conditions described in individual notes.",
+      "source": "Native and publisher formulas match:1 cup grated Pecorino is supported as about3 oz, not an independently measured yield. Proposed equivalent retains the volume quantity and rich cheese amount. Current integration/folding of full cheese preserved, rather than substituting a light garnish. The apple dressing is an allocation of the existing batch, returned with apple. Old originItaly and restaurant-decade claims have no provenance in the saved recipe; cuisine context retained while birthplace assertion removed.",
+      "confidence": "high for preserved totals and resolved destinations; moderate for planning times"
+    },
+    {
+      "field": "origin",
+      "before": "Italy",
+      "after": null,
+      "rationale": "Remove duplicated publisher/person entry or unsupported birthplace while preserving actual source/cuisine context.",
+      "confidence": "high"
+    },
+    {
+      "before": "1 cup Pecorino Romano, finely grated",
+      "after": "1 cup Pecorino Romano, finely grated (about 3 oz)",
+      "rationale": "Retain existing volume and restore exact native/publisher supported equivalent; no invented new cheese amount.",
+      "source": "http://www.loveandoliveoil.com/2013/04/shaved-brussels-sprout-salad.html",
+      "confidence": "high for source equivalence; kitchen packing remains unmeasured"
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 545,
+        "protein": 1,
+        "carbs": 17.5,
+        "fat": 54,
+        "fiber": 2,
+        "sugar": 13.5,
+        "sodium": 110
+      },
+      "after": null,
+      "rationale": "Legacy estimates are unsupported and inconsistent with formula/portion uncertainty. No substitute nutrient values.",
+      "confidence": "high"
+    },
+    {
+      "field": "content",
+      "before": "\n## Chef's Note\n\nShave Brussels sprouts into thin strands so a short dressed rest softens them without losing all their crunch. Set aside a little dressing for the apple before tossing the sprouts, then combine everything gently and add the full measured Pecorino. The cheese supplies salt, so taste before adding extra seasoning.\n\n## Directions\n\n1. **Mix dressing:** Whisk apple cider vinegar and honey in a large bowl, then drizzle in the oil while whisking. Add the listed salt and pepper to taste, remembering that Pecorino will add salt. The dressing can separate during standing; whisk again when needed.\n\n2. **Prepare apple:** Core the apple and cut fine matchsticks. Move a small portion of the prepared dressing into a separate bowl (about1 tbsp at the original batch) and toss with the apple. Keep this apple bowl aside; its dressing is taken from the measured total.\n\n3. **Shave sprouts:** Trim tough bases and damaged leaves from washed, dried Brussels sprouts. Use a mandoline with its guard or a sharp knife to shave thinly; discard large hard core pieces.\n\n4. **Dress and rest:** Toss sprouts with the dressing remaining in the large bowl until evenly coated. Let stand15 minutes, or cover and refrigerate for that interval if preparing ahead.\n\n5. **Finish:** Add the apple and all its reserved dressing to the sprouts, then add the full measured finely grated Pecorino. Toss gently to distribute.\n\n6. **Serve:** Taste before adding any extra salt or pepper. Serve now, or keep refrigerated if waiting; serve cool if preferred without treating additional chilling as part of the30 minute schedule.\n",
+      "after": "\n## Chef's Note\n\nShave Brussels sprouts into thin strands so a short dressed rest softens them without losing all their crunch. Set aside a little dressing for the apple before tossing the sprouts, then combine everything gently and add the full measured Pecorino. The cheese supplies salt, so taste before adding extra seasoning.\n\n## Directions\n\n1. **Mix dressing:** Whisk apple cider vinegar and honey in a large bowl, then drizzle in the oil while whisking. Add the listed salt and pepper to taste, remembering that Pecorino will add salt. The dressing can separate during standing; whisk again when needed.\n\n2. **Prepare apple:** Core the apple and cut fine matchsticks. Move a small portion of the prepared dressing into a separate bowl (about 1 tbsp at the original batch) and toss with the apple. Keep this apple bowl aside; its dressing is taken from the measured total.\n\n3. **Shave sprouts:** Trim tough bases and damaged leaves from washed, dried Brussels sprouts. Use a mandoline with its guard or a sharp knife to shave thinly; discard large hard core pieces.\n\n4. **Dress and rest:** Toss sprouts with the dressing remaining in the large bowl until evenly coated. Let stand 15 minutes, or cover and refrigerate for that interval if preparing ahead.\n\n5. **Finish:** Add the apple and all its reserved dressing to the sprouts, then add the full measured finely grated Pecorino. Toss gently to distribute.\n\n6. **Serve:** Taste before adding any extra salt or pepper. Serve now, or keep refrigerated if waiting; serve cool if preferred without treating additional chilling as part of the 30 minute schedule.\n",
+      "rationale": "Remove public editing/source disclosures or repair spacing without changing the formula, process or handling limits.",
+      "source": "docs/editorial-campaign/2026-10-05/cold-independent.md",
+      "confidence": "high"
+    },
+    {
+      "field": "learning.before[2]",
+      "before": "Use a bowl roomy enough to turn a pound of raw shaved sprouts. A larger batch needs more preparation/mixing room, not a proportionally longer15 minute rest.",
+      "after": "Use a bowl roomy enough to turn a pound of raw shaved sprouts. A larger batch needs more preparation/mixing room, not a proportionally longer 15 minute rest.",
+      "rationale": "Remove public editing/source disclosures or repair spacing without changing the formula, process or handling limits.",
+      "source": "docs/editorial-campaign/2026-10-05/cold-independent.md",
+      "confidence": "high"
+    },
+    {
+      "field": "learning.substitutions[0].effect",
+      "before": "Publisher-supported flavor alternative; cut similarly and include the reserved dressing.",
+      "after": "A similar tart flavor; cut similarly and include the reserved dressing.",
+      "rationale": "Remove public editing/source disclosures or repair spacing without changing the formula, process or handling limits.",
+      "source": "docs/editorial-campaign/2026-10-05/cold-independent.md",
+      "confidence": "high"
+    },
+    {
+      "field": "learning.timing",
+      "before": "About15 minutes preparation and15 minutes dressed resting give30 minutes elapsed. Extra refrigerator chilling is optional and adds time; no final chilling step is required after a room-temperature rest. Thin shaving and apple cutting are the active work.",
+      "after": "About 15 minutes preparation and 15 minutes dressed resting give 30 minutes elapsed. Extra refrigerator chilling is optional and adds time; no final chilling step is required after a room-temperature rest. Thin shaving and apple cutting are the active work.",
+      "rationale": "Remove public editing/source disclosures or repair spacing without changing the formula, process or handling limits.",
+      "source": "docs/editorial-campaign/2026-10-05/cold-independent.md",
+      "confidence": "high"
+    },
+    {
+      "field": "ingredients[4]",
+      "before": "3 tbsp Apple Cider Vinegar (The Acid Balance)",
+      "after": "3 tbsp Apple Cider Vinegar",
+      "rationale": "Remove public editing/source disclosures or repair spacing without changing the formula, process or handling limits.",
+      "source": "docs/editorial-campaign/2026-10-05/cold-independent.md",
+      "confidence": "high"
+    }
+  ],
+  "rootCorrections": [
+    {
+      "rationale": "Capacity guidance follows the selected ingredient batch while retaining the same rest time."
+    }
+  ],
+  "ingredientLedger": [
+    {
+      "ingredient": "1 lb Brussels Sprouts, shaved paper-thin",
+      "destination": 3
+    },
+    {
+      "ingredient": "1 Granny Smith Apple, matchsticked",
+      "destination": 2
+    },
+    {
+      "ingredient": "1 cup Pecorino Romano, finely grated (about 3 oz)",
+      "destination": 5
+    },
+    {
+      "ingredient": "1/4 cup Extra-Virgin Olive Oil",
+      "destination": 1
+    },
+    {
+      "ingredient": "3 tbsp Apple Cider Vinegar",
+      "destination": 1
+    },
+    {
+      "ingredient": "2 tbsp Honey",
+      "destination": 1
+    },
+    {
+      "ingredient": "Salt and Black Pepper",
+      "destination": "1 salt+pepper allowances"
+    }
+  ],
+  "variationIngredientLedger": [],
+  "sources": [
+    {
+      "title": "Adapted from Loveandoliveoil.com",
+      "url": "https://www.loveandoliveoil.com/2013/04/shaved-brussels-sprout-salad.html"
+    },
+    {
+      "title": "FoodSafety.gov — Clean handling and cold storage",
+      "url": "https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety"
+    }
+  ],
+  "sourceApplicability": "docs/editorial-campaign/2026-10-05/cold-sources.md",
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/cold-independent.md",
+  "planningConfidence": "Moderate for untested elapsed preparation ranges, sensory effects and inherited portion estimates; exact arithmetic, retained amounts and source recovery have high confidence. No measured yield or shelf-life validation.",
+  "remainingQuestions": [
+    "Weigh actual grated Pecorino relative to1 cup and record grated particle/packing state.",
+    "Measure shaved usable sprouts, apple size, finished portions and texture after15 minutes and overnight.",
+    "Verify preparation timing with a guarded mandoline versus knife."
+  ],
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "productionVerification": "pending",
+  "currentPath": "src/content/recipes/shaved-brussels-sprout-salad-with-apples-and-pecorino.md",
+  "reviewDimensions": [
+    "every ingredient preparation/allocation/destination",
+    "ratios and inherited portions",
+    "capacity and ingredient state",
+    "no-heat preparation or product-required cooking",
+    "active/elapsed time and optional rests/chills",
+    "cold storage and applicable primary guidance",
+    "scaling and distinct variants",
+    "existing recipe/meal relationships"
+  ]
+}

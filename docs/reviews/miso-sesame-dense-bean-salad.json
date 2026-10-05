@@ -1,0 +1,311 @@
+{
+  "slug": "miso-sesame-dense-bean-salad",
+  "status": "accepted-editorial-review; production verification pending",
+  "inputCommit": "95b37f8bca5008657a668e52a1d970b1d03367d3",
+  "inputSha256": "141e528f09c272139ded3bed331b94a250bd99179eaa403e201f57b196f37d48",
+  "acceptedSourceSha256": "d1523218a40741682779f0bf4b893fe8a0e352db37e2d1e600356059c4b8cbc7",
+  "changedFields": [
+    {
+      "field": "cookTime",
+      "before": "0 min",
+      "after": "Package-dependent edamame preparation, if required",
+      "rationale": "About20 minutes cutting and mixing with already prepared, cooled edamame; cooking/cooling edamame is additional when required by its package. Optional30 minute refrigeration makes50 minutes plus that preparation. Four portions are the saved planning yield, with chickpea can size and optional snap peas affecting actual quantity.",
+      "applicableSource": "docs/editorial-campaign/2026-10-05/cold-sources.md",
+      "confidence": "moderate planning; no measured timing or yield"
+    },
+    {
+      "field": "totalTime",
+      "before": "20 min, or 50 min with optional chilling",
+      "after": "20 min plus edamame cooking/cooling if needed; optional chilling adds 30 min",
+      "rationale": "About20 minutes cutting and mixing with already prepared, cooled edamame; cooking/cooling edamame is additional when required by its package. Optional30 minute refrigeration makes50 minutes plus that preparation. Four portions are the saved planning yield, with chickpea can size and optional snap peas affecting actual quantity.",
+      "applicableSource": "docs/editorial-campaign/2026-10-05/cold-sources.md",
+      "confidence": "moderate planning; no measured timing or yield"
+    },
+    {
+      "field": "servings",
+      "before": "4",
+      "after": "4 portions",
+      "rationale": "About20 minutes cutting and mixing with already prepared, cooled edamame; cooking/cooling edamame is additional when required by its package. Optional30 minute refrigeration makes50 minutes plus that preparation. Four portions are the saved planning yield, with chickpea can size and optional snap peas affecting actual quantity.",
+      "applicableSource": "docs/editorial-campaign/2026-10-05/cold-sources.md",
+      "confidence": "moderate planning; no measured timing or yield"
+    },
+    {
+      "field": "origin",
+      "before": "bakerita.com",
+      "after": null,
+      "rationale": "Remove duplicated publisher/person entry or unsupported birthplace while preserving actual source/cuisine context.",
+      "applicableSource": "docs/editorial-campaign/2026-10-05/cold-sources.md",
+      "confidence": "high for exact allocations and preserved source text; sensory results remain untested"
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Disperse concentrated miso dressing through a cold bean salad",
+        "outcome": "The dressing has no miso lumps, coats the beans and vegetables evenly, and the optional nuts remain crunchy.",
+        "techniques": ["seasoning", "cold-preparation"],
+        "before": [
+          "Check the edamame package: a frozen product labeled for cooking must be cooked as directed, not merely thawed. Drain and cool it promptly in a shallow container before mixing with the cold salad.",
+          "Chickpea can sizes vary; the can size and drained amount affect dressing coverage and portion yield.",
+          "Use a bowl with enough room to fold the beans, cabbage, carrots and optional snap peas. Wash and dry vegetables first. Miso, tamari, sesame, nuts and chili crisp can carry different allergens; inspect the actual products."
+        ],
+        "checkpoints": [
+          {
+            "step": 1,
+            "cue": "Edamame is prepared as labeled and cool, with no freely draining rinse liquid left on the chickpeas.",
+            "why": "Warm or wet ingredients dilute and warm the cold salad."
+          },
+          {
+            "step": 2,
+            "cue": "Miso has dispersed with no visible paste lumps.",
+            "why": "Break up the paste before it coats the vegetables so seasoning is even."
+          },
+          {
+            "step": 3,
+            "cue": "Dressing reaches the cabbage and beans rather than pooling in one part of the bowl.",
+            "why": "Tossing distributes concentrated salty ingredients; judge the finished salad before additional seasoning."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Dressing remains clumpy",
+            "cause": "Miso was not worked through the liquid ingredients.",
+            "fix": "Whisk or press miso against the bowl before adding the dressing to the salad; do not add new water automatically."
+          },
+          {
+            "problem": "Salad is too wet",
+            "cause": "Beans or cooked edamame were insufficiently drained.",
+            "fix": "Drain thoroughly next time and lift portions from collected liquid in this batch. Do not add more miso merely to absorb water."
+          },
+          {
+            "problem": "Topping loses crunch",
+            "cause": "Nuts were mixed in before a long refrigerated wait.",
+            "fix": "Reserve the optional roasted nuts until serving."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Honey",
+            "alternative": "The listed maple syrup or coconut sugar option",
+            "effect": "Maple syrup/coconut sugar preserve the listed sweetness option without honey; stir sugar until dispersed."
+          },
+          {
+            "ingredient": "White miso",
+            "alternative": "The listed chickpea miso option",
+            "effect": "A different product flavor and allergen profile; check the label, including any other soy-containing ingredients."
+          }
+        ],
+        "timing": "About 20 minutes cutting and mixing with already prepared, cooled edamame; cooking/cooling edamame is additional when required by its package. Optional 30 minute refrigeration makes 50 minutes plus that preparation. Chickpea can size and optional snap peas affect the actual quantity and portion size.",
+        "storage": "Keep at 40°F / 4°C or below and refrigerate within 2 hours total out of refrigeration, or 1 hour above 90°F / 32°C. Use within 3 days refrigerated in a covered container. Keep optional nuts separate until serving. Use clean utensils; miso and vinegar do not certify preservation of the mixed salad.",
+        "sources": [
+          {
+            "title": "bakerita.com",
+            "url": "https://www.bakerita.com/miso-sesame-dense-bean-salad/"
+          },
+          {
+            "title": "FoodSafety.gov — Clean handling and cold storage",
+            "url": "https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety"
+          },
+          {
+            "title": "Birds Eye — Shelled edamame product preparation context",
+            "url": "https://www.birdseye.com/plain-vegetables/steamfresh/shelled-edamame"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-05"
+        }
+      },
+      "rationale": "Recipe-specific guidance from complete ingredient and process inspection.",
+      "applicableSource": "docs/editorial-campaign/2026-10-05/cold-sources.md",
+      "confidence": "high for exact allocations and preserved source text; sensory results remain untested"
+    },
+    {
+      "field": "content",
+      "before": "\n## Chef's Note\n\nMiso, tamari and sesame make a concentrated dressing for chickpeas, edamame and crunchy vegetables. Toss thoroughly before deciding whether more salt is needed.\n\n## Directions\n\n1. **Prepare:** Prepare edamame according to package instructions, then cool. Drain and rinse chickpeas. Slice the vegetables and combine chickpeas, edamame, optional snap peas, cabbage, carrots and green onions in a large bowl.\n\n2. **Mix:** Whisk miso, tamari, vinegar, sesame seeds, lime juice, sesame oil, sweetener and chili crisp together in a small bowl. Break up any miso lumps.\n\n3. **Toss:** Toss dressing through the salad until evenly coated. Top with optional chopped nuts. Serve immediately or refrigerate thirty minutes for the flavors to blend. Refrigerate in a covered container for up to three days.\n",
+      "after": "\n## Chef's Note\n\nCook and cool edamame as its package directs before it joins the chickpeas and crunchy vegetables. Whisk the thick miso with tamari and the measured acids until smooth, then toss thoroughly so the seasoning does not remain in isolated clumps. Add the optional nuts at serving for crunch.\n\n## Directions\n\n1. **Prepare:** Prepare shelled edamame according to its package cooking instructions when required; do not merely thaw a product labeled for cooking. Drain and cool promptly before mixing. Drain/rinse chickpeas and drain well. Wash and dry vegetables, then combine chickpeas, cooled edamame, optional snap peas, cabbage, carrots and sliced green onions in a large bowl.\n\n2. **Mix dressing:** Whisk miso with tamari, rice vinegar, sesame seeds, lime juice, sesame oil, sweetener and chili crisp or chili flakes until the miso lumps break up and the dressing is evenly mixed.\n\n3. **Toss and serve:** Fold dressing through the beans and vegetables until evenly coated. Top with optional chopped roasted nuts just before serving. Serve immediately or cover and refrigerate 30 minutes. Keep unused salad refrigerated in a covered container for up to 3 days.\n",
+      "rationale": "Remove public editing/source disclosures or repair spacing without changing the formula, process or handling limits.",
+      "applicableSource": "docs/editorial-campaign/2026-10-05/cold-independent.md",
+      "confidence": "high for exact allocations and preserved source text; sensory results remain untested"
+    }
+  ],
+  "findings": [
+    {
+      "before": "Miso, tamari and sesame make a concentrated dressing for chickpeas, edamame and crunchy vegetables. Toss thoroughly before deciding whether more salt is needed.",
+      "after": "Cook and cool edamame as its package directs before it joins the chickpeas and crunchy vegetables. Whisk the thick miso with tamari and the measured acids until smooth, then toss thoroughly so the seasoning does not remain in isolated clumps. Add the optional nuts at serving for crunch.",
+      "rationale": "All saved amounts retained and matching publisher formula checked. Chickpea can size is unspecified in both; no15 oz assumption invented. Existing package-preparation repair retained and made explicitly cooking/cooling dependent; cooking header is not a falsezero-minute universal process. Honey/maple/coconut and chili crisp/flakes options preserved. Public replacement review omits private native UID from the earlier import record.",
+      "source": "Saved current formula; recipe-specific publisher/method packet where stated",
+      "confidence": "high for removal of unsupported claims; moderate for sensory outcomes"
+    },
+    {
+      "before": "1. **Prepare:** Prepare edamame according to package instructions, then cool. Drain and rinse chickpeas. Slice the vegetables and combine chickpeas, edamame, optional snap peas, cabbage, carrots and green onions in a large bowl.\n\n2. **Mix:** Whisk miso, tamari, vinegar, sesame seeds, lime juice, sesame oil, sweetener and chili crisp together in a small bowl. Break up any miso lumps.\n\n3. **Toss:** Toss dressing through the salad until evenly coated. Top with optional chopped nuts. Serve immediately or refrigerate thirty minutes for the flavors to blend. Refrigerate in a covered container for up to three days.\n",
+      "after": "1. **Prepare:** Prepare shelled edamame according to its package cooking instructions when required; do not merely thaw a product labeled for cooking. Drain and cool promptly before mixing. Drain/rinse chickpeas and drain well. Wash and dry vegetables, then combine chickpeas, cooled edamame, optional snap peas, cabbage, carrots and sliced green onions in a large bowl.\n\n2. **Mix dressing:** Whisk miso with tamari, rice vinegar, sesame seeds, lime juice, sesame oil, sweetener and chili crisp or chili flakes until the miso lumps break up and the dressing is evenly mixed.\n\n3. **Toss and serve:** Fold dressing through the beans and vegetables until evenly coated. Top with optional chopped roasted nuts just before serving. Serve immediately or cover and refrigerate30 minutes. Keep unused salad refrigerated in a covered container for up to3 days.\n",
+      "rationale": "Full ingredient/process destinations made explicit; exact retained allocations and conditions described in individual notes.",
+      "source": "All saved amounts retained and matching publisher formula checked. Chickpea can size is unspecified in both; no15 oz assumption invented. Existing package-preparation repair retained and made explicitly cooking/cooling dependent; cooking header is not a falsezero-minute universal process. Honey/maple/coconut and chili crisp/flakes options preserved. Public replacement review omits private native UID from the earlier import record.",
+      "confidence": "high for preserved totals and resolved destinations; moderate for planning times"
+    },
+    {
+      "field": "cookTime",
+      "before": "0 min",
+      "after": "Package-dependent edamame preparation, if required",
+      "rationale": "About20 minutes cutting and mixing with already prepared, cooled edamame; cooking/cooling edamame is additional when required by its package. Optional30 minute refrigeration makes50 minutes plus that preparation. Four portions are the saved planning yield, with chickpea can size and optional snap peas affecting actual quantity.",
+      "confidence": "high"
+    },
+    {
+      "field": "totalTime",
+      "before": "20 min, or 50 min with optional chilling",
+      "after": "20 min plus edamame cooking/cooling if needed; optional chilling adds 30 min",
+      "rationale": "About20 minutes cutting and mixing with already prepared, cooled edamame; cooking/cooling edamame is additional when required by its package. Optional30 minute refrigeration makes50 minutes plus that preparation. Four portions are the saved planning yield, with chickpea can size and optional snap peas affecting actual quantity.",
+      "confidence": "high"
+    },
+    {
+      "field": "servings",
+      "before": "4",
+      "after": "4 portions",
+      "rationale": "About20 minutes cutting and mixing with already prepared, cooled edamame; cooking/cooling edamame is additional when required by its package. Optional30 minute refrigeration makes50 minutes plus that preparation. Four portions are the saved planning yield, with chickpea can size and optional snap peas affecting actual quantity.",
+      "confidence": "high"
+    },
+    {
+      "field": "origin",
+      "before": "bakerita.com",
+      "after": null,
+      "rationale": "Remove duplicated publisher/person entry or unsupported birthplace while preserving actual source/cuisine context.",
+      "confidence": "high"
+    },
+    {
+      "field": "content",
+      "before": "\n## Chef's Note\n\nCook and cool edamame as its package directs before it joins the chickpeas and crunchy vegetables. Whisk the thick miso with tamari and the measured acids until smooth, then toss thoroughly so the seasoning does not remain in isolated clumps. Add the optional nuts at serving for crunch.\n\n## Directions\n\n1. **Prepare:** Prepare shelled edamame according to its package cooking instructions when required; do not merely thaw a product labeled for cooking. Drain and cool promptly before mixing. Drain/rinse chickpeas and drain well. Wash and dry vegetables, then combine chickpeas, cooled edamame, optional snap peas, cabbage, carrots and sliced green onions in a large bowl.\n\n2. **Mix dressing:** Whisk miso with tamari, rice vinegar, sesame seeds, lime juice, sesame oil, sweetener and chili crisp or chili flakes until the miso lumps break up and the dressing is evenly mixed.\n\n3. **Toss and serve:** Fold dressing through the beans and vegetables until evenly coated. Top with optional chopped roasted nuts just before serving. Serve immediately or cover and refrigerate30 minutes. Keep unused salad refrigerated in a covered container for up to3 days.\n",
+      "after": "\n## Chef's Note\n\nCook and cool edamame as its package directs before it joins the chickpeas and crunchy vegetables. Whisk the thick miso with tamari and the measured acids until smooth, then toss thoroughly so the seasoning does not remain in isolated clumps. Add the optional nuts at serving for crunch.\n\n## Directions\n\n1. **Prepare:** Prepare shelled edamame according to its package cooking instructions when required; do not merely thaw a product labeled for cooking. Drain and cool promptly before mixing. Drain/rinse chickpeas and drain well. Wash and dry vegetables, then combine chickpeas, cooled edamame, optional snap peas, cabbage, carrots and sliced green onions in a large bowl.\n\n2. **Mix dressing:** Whisk miso with tamari, rice vinegar, sesame seeds, lime juice, sesame oil, sweetener and chili crisp or chili flakes until the miso lumps break up and the dressing is evenly mixed.\n\n3. **Toss and serve:** Fold dressing through the beans and vegetables until evenly coated. Top with optional chopped roasted nuts just before serving. Serve immediately or cover and refrigerate 30 minutes. Keep unused salad refrigerated in a covered container for up to 3 days.\n",
+      "rationale": "Remove public editing/source disclosures or repair spacing without changing the formula, process or handling limits.",
+      "source": "docs/editorial-campaign/2026-10-05/cold-independent.md",
+      "confidence": "high"
+    },
+    {
+      "field": "learning.before[1]",
+      "before": "The saved chickpea can size is not specified. Retain the can you normally use for this formula and record its label/drained amount; a different can size changes dressing coverage and portion yield.",
+      "after": "Chickpea can sizes vary; the can size and drained amount affect dressing coverage and portion yield.",
+      "rationale": "Remove public editing/source disclosures or repair spacing without changing the formula, process or handling limits.",
+      "source": "docs/editorial-campaign/2026-10-05/cold-independent.md",
+      "confidence": "high"
+    },
+    {
+      "field": "learning.timing",
+      "before": "About20 minutes cutting and mixing with already prepared, cooled edamame; cooking/cooling edamame is additional when required by its package. Optional30 minute refrigeration makes50 minutes plus that preparation. Four portions are the saved planning yield, with chickpea can size and optional snap peas affecting actual quantity.",
+      "after": "About 20 minutes cutting and mixing with already prepared, cooled edamame; cooking/cooling edamame is additional when required by its package. Optional 30 minute refrigeration makes 50 minutes plus that preparation. Chickpea can size and optional snap peas affect the actual quantity and portion size.",
+      "rationale": "Remove public editing/source disclosures or repair spacing without changing the formula, process or handling limits.",
+      "source": "docs/editorial-campaign/2026-10-05/cold-independent.md",
+      "confidence": "high"
+    },
+    {
+      "field": "learning.storage",
+      "before": "Keep at 40°F / 4°C or below and refrigerate within 2 hours total out of refrigeration, or 1 hour above 90°F / 32°C. Preserve the existing3 day refrigerated limit in a covered container. Keep optional nuts separate until serving. Use clean utensils; miso and vinegar do not certify preservation of the mixed salad.",
+      "after": "Keep at 40°F / 4°C or below and refrigerate within 2 hours total out of refrigeration, or 1 hour above 90°F / 32°C. Use within 3 days refrigerated in a covered container. Keep optional nuts separate until serving. Use clean utensils; miso and vinegar do not certify preservation of the mixed salad.",
+      "rationale": "Remove public editing/source disclosures or repair spacing without changing the formula, process or handling limits.",
+      "source": "docs/editorial-campaign/2026-10-05/cold-independent.md",
+      "confidence": "high"
+    }
+  ],
+  "rootCorrections": [],
+  "ingredientLedger": [
+    {
+      "ingredient": "1 can chickpeas, drained and rinsed",
+      "destination": 1
+    },
+    {
+      "ingredient": "1 cup shelled edamame",
+      "destination": 1
+    },
+    {
+      "ingredient": "1 cup snap peas, optional, when in season",
+      "destination": 1
+    },
+    {
+      "ingredient": "2 cups shredded cabbage",
+      "destination": 1
+    },
+    {
+      "ingredient": "1 cup shredded carrots",
+      "destination": 1
+    },
+    {
+      "ingredient": "4 green onions, thinly sliced",
+      "destination": 1
+    },
+    {
+      "ingredient": "Roasted peanuts or almonds, chopped, optional",
+      "destination": 3
+    },
+    {
+      "ingredient": "MISO SESAME DRESSING",
+      "destination": "divider"
+    },
+    {
+      "ingredient": "3 tablespoons white or chickpea miso",
+      "destination": 2
+    },
+    {
+      "ingredient": "2 tablespoons tamari",
+      "destination": 2
+    },
+    {
+      "ingredient": "2 tablespoons rice vinegar",
+      "destination": 2
+    },
+    {
+      "ingredient": "2 tablespoons roasted sesame seeds",
+      "destination": 2
+    },
+    {
+      "ingredient": "1 tablespoon lime juice",
+      "destination": 2
+    },
+    {
+      "ingredient": "1 teaspoon toasted sesame oil",
+      "destination": 2
+    },
+    {
+      "ingredient": "1 teaspoon sweetener, like honey, maple syrup, or coconut sugar",
+      "destination": 2
+    },
+    {
+      "ingredient": "1 teaspoon chili crisp or chili flakes, add more or less to taste",
+      "destination": 2
+    }
+  ],
+  "variationIngredientLedger": [],
+  "sources": [
+    {
+      "title": "bakerita.com",
+      "url": "https://www.bakerita.com/miso-sesame-dense-bean-salad/"
+    },
+    {
+      "title": "FoodSafety.gov — Clean handling and cold storage",
+      "url": "https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety"
+    },
+    {
+      "title": "Birds Eye — Shelled edamame product preparation context",
+      "url": "https://www.birdseye.com/plain-vegetables/steamfresh/shelled-edamame"
+    }
+  ],
+  "sourceApplicability": "docs/editorial-campaign/2026-10-05/cold-sources.md",
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/cold-independent.md",
+  "planningConfidence": "Moderate for untested elapsed preparation ranges, sensory effects and inherited portion estimates; exact arithmetic, retained amounts and source recovery have high confidence. No measured yield or shelf-life validation.",
+  "remainingQuestions": [
+    "Identify chickpea can size and actual drained mass, edamame product cooking/cooling route and full four-portion yield.",
+    "Check dress coverage with optional snap peas, miso/tamari salt levels and day-three crunch."
+  ],
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "productionVerification": "pending",
+  "currentPath": "src/content/recipes/miso-sesame-dense-bean-salad.md",
+  "reviewDimensions": [
+    "every ingredient preparation/allocation/destination",
+    "ratios and inherited portions",
+    "capacity and ingredient state",
+    "no-heat preparation or product-required cooking",
+    "active/elapsed time and optional rests/chills",
+    "cold storage and applicable primary guidance",
+    "scaling and distinct variants",
+    "existing recipe/meal relationships"
+  ]
+}

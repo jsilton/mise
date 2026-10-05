@@ -23,8 +23,8 @@ role: condiment
 vibe: quick
 prepTime: 10 min
 cookTime: 0 min
-totalTime: 10 min
-servings: '8'
+totalTime: '40 min, including resting'
+servings: 8 condiment portions
 seasons:
   - year-round
 nutritionalDensity: light
@@ -42,24 +42,92 @@ ingredients:
   - 1/2 tsp Red Pepper Flakes (adjust to taste)
   - 1/2 tsp Kosher Salt
   - 1/4 tsp Black Pepper
-nutrition:
-  calories: 270
-  protein: 1
-  carbs: 6.5
-  fat: 27.5
-  fiber: 3.5
-  sugar: 0
-  sodium: 330
+learning:
+  focus: Keep a chopped herb sauce loose rather than pureed
+  outcome: >-
+    Small separate herb pieces are evenly coated in oil and vinegar, with garlic
+    dispersed through the sauce.
+  techniques:
+    - seasoning
+    - cold-preparation
+  before:
+    - >-
+      Wash herbs and dry them well before measuring and chopping. Use the stated
+      packed parsley amount, removing tough stems.
+    - >-
+      Fresh oregano leaves or the already listed dried option have different
+      textures; use the original measured option rather than equal volumes of
+      each.
+    - >-
+      Keep a clean serving spoon separate from raw-meat utensils; vinegar in
+      this formula is not a validated garlic acidification process.
+  checkpoints:
+    - step: 1
+      cue: 'Herbs form fine separate pieces, not a wet paste.'
+      why: >-
+        Chopping controls the desired texture; stop before the leaves are
+        pureed.
+    - step: 2
+      cue: Garlic and pepper flakes are distributed through the herbs.
+      why: 'Small, well-distributed aromatics avoid concentrated bites.'
+    - step: 5
+      cue: Only the portion being served leaves the refrigerator.
+      why: >-
+        The stored garlic-herb oil mixture needs cold holding even if its oil
+        becomes cloudy.
+  troubleshooting:
+    - problem: The sauce becomes a paste
+      cause: Herbs were overprocessed.
+      fix: >-
+        Chop by hand for this texture. A pureed batch cannot be turned back into
+        separate leaves.
+    - problem: Oil looks cloudy or firm in the refrigerator
+      cause: Olive oil can change appearance at cold temperatures.
+      fix: >-
+        Spoon out only the portion needed, let it soften briefly within the
+        total serving time limit, and stir. Cloudiness does not establish
+        spoilage or safety.
+  substitutions:
+    - ingredient: Fresh oregano
+      alternative: >-
+        The listed 1 tbsp dried oregano instead of 1/4 cup fresh at original
+        size
+      effect: >-
+        Less fresh leaf texture and a different aromatic intensity; keep this
+        existing alternative rather than replacing equal spoon volumes.
+  timing: >-
+    About 10 minutes hands-on chopping/mixing plus 30 minutes rest give 40
+    minutes elapsed. If serving later, rest covered in the refrigerator. Larger
+    quantities add chopping time; the rest does not multiply.
+  storage: >-
+    Keep at 40°F / 4°C or below and refrigerate within 2 hours total out of
+    refrigeration, or 1 hour above 90°F / 32°C. Use within 3 days refrigerated
+    in a clean covered jar. Do not warm the entire stored batch to room
+    temperature; take only the portion needed and stir. The vinegar amount does
+    not establish shelf stability or validated acidification of garlic.
+  sources:
+    - title: FoodSafety.gov — Clean handling and cold storage
+      url: 'https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety'
+    - title: OSU Extension — Herbs and vegetables in oil
+      url: >-
+        https://extension.oregonstate.edu/catalog/pub/sp-50-701-herbs-vegetables-oil
+  review:
+    status: editorial-review
+    date: '2026-10-05'
 ---
 
 ## Chef's Note
 
-Chimichurri is Argentina's national condiment - it shows up on every parrilla (grill) table the way ketchup shows up at American cookouts, except it actually makes the food better. The key is hand-chopping, not a food processor. A food processor turns the herbs into a paste and bruises them; a sharp knife keeps the texture loose and the color bright green. Make it 30 minutes before serving so the flavors meld, but don't make it more than a day ahead - the parsley oxidizes and the brightness fades.
+Keep parsley and oregano finely chopped but still visible in this Argentine-style herb sauce. Stir the garlic, oil and vinegar through the herbs rather than blending everything to a paste. Allow thirty minutes for the flavors to mix, then refrigerate if serving later; stir again before spooning it over food.
 
 ## Directions
 
-1.  **Chop:** Finely chop the parsley and oregano by hand with a sharp chef's knife. You want a fine, confetti-like texture - not a paste. Mince the garlic separately.
-2.  **Combine:** In a medium bowl, combine the chopped herbs, garlic, olive oil, red wine vinegar, red pepper flakes, salt, and pepper. Stir to combine.
-3.  **Rest:** Let sit at room temperature for at least 30 minutes before serving. This lets the garlic mellow and the flavors integrate.
-4.  **Adjust:** Taste and adjust - it should be bright (add vinegar), herbaceous (add parsley), and just slightly spicy. The oil should carry the herbs, not drown them.
-5.  **Store:** Keep in an airtight jar in the refrigerator for up to 3 days. Bring to room temperature before serving - cold oil mutes the flavor.
+1. **Chop:** Finely chop parsley and fresh oregano by hand until they are fine, separate pieces. If using the listed dried oregano alternative, add it with the seasonings instead. Mince garlic separately.
+
+2. **Combine:** Stir the herbs, garlic, oil, red wine vinegar, red pepper flakes, measured salt and pepper together in a bowl.
+
+3. **Rest:** Allow 30 minutes before serving. Rest covered in the refrigerator if preparing ahead; a short room-temperature rest counts toward the total 2 hour limit (1 hour above 90°F /32°C).
+
+4. **Taste:** Stir thoroughly and taste; adjust the seasoning only if needed.
+
+5. **Serve and store:** Spoon out only what will be served and keep the remainder covered in the refrigerator. Use a clean spoon and keep the stored batch away from raw-meat utensils. Stir before serving.

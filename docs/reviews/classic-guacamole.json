@@ -1,0 +1,336 @@
+{
+  "slug": "classic-guacamole",
+  "status": "accepted-editorial-review; production verification pending",
+  "inputCommit": "95b37f8bca5008657a668e52a1d970b1d03367d3",
+  "inputSha256": "604076fb7760e8a4b1aff7f318c765693a5066a446f0ea69a19f6145c8eb694c",
+  "acceptedSourceSha256": "104288460ce6cbafe8ccfd522cf82813c7e465c1ceb2c80a89900069842a2ced",
+  "changedFields": [
+    {
+      "field": "servings",
+      "before": "8",
+      "after": "8 dipping portions",
+      "rationale": "About15 minutes preparation for the original four-avocado batch. Serve soon for best color, ideally within an hour; a longer wait belongs in the refrigerator. More avocados take longer to prepare and do not require a longer rest.",
+      "applicableSource": "docs/editorial-campaign/2026-10-05/cold-sources.md",
+      "confidence": "moderate planning; no measured timing or yield"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "4 Ripe Avocados",
+        "1/2 cup White Onion (finely diced)",
+        "1 Jalapeño (seeded and minced)",
+        "1/4 cup Fresh Cilantro (chopped)",
+        "2 tbsp Fresh Lime Juice (about 1 lime)",
+        "1 tsp Kosher Salt",
+        "1/4 tsp Cumin",
+        "1 Roma Tomato (seeded and diced, optional)"
+      ],
+      "after": [
+        "4 Ripe Avocados",
+        "1/2 cup White Onion (finely diced)",
+        "1 Jalapeño (seeded and minced)",
+        "1/4 cup Fresh Cilantro (chopped)",
+        "2 tbsp Fresh Lime Juice (about 1 lime)",
+        "1 tsp Kosher Salt",
+        "1/4 tsp Cumin",
+        "1 Roma Tomato (seeded and diced, optional)",
+        "Gluten-free corn chips, for serving, optional"
+      ],
+      "rationale": "List existing optional serving chips as genuine unmeasured accompaniment, no amount invented.",
+      "applicableSource": "docs/editorial-campaign/2026-10-05/cold-sources.md",
+      "confidence": "high for exact allocations and preserved source text; sensory results remain untested"
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 35,
+        "protein": 1,
+        "carbs": 5,
+        "fat": 2.5,
+        "fiber": 2,
+        "sugar": 1.5,
+        "sodium": 300
+      },
+      "after": null,
+      "rationale": "Legacy estimates are unsupported and inconsistent with formula/portion uncertainty. No substitute nutrient values.",
+      "applicableSource": "docs/editorial-campaign/2026-10-05/cold-sources.md",
+      "confidence": "high for exact allocations and preserved source text; sensory results remain untested"
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Build a chunky avocado dip while allocating seasonings once",
+        "outcome": "Soft avocado chunks are held in a creamy base, with finely minced aromatics and no second accidental salt dose.",
+        "techniques": ["seasoning", "cold-preparation"],
+        "before": [
+          "Choose ripe avocados that yield gently to pressure. Wash avocados and produce before cutting; keep clean hands and a clean board.",
+          "Separate one-eighth of the diced onion for the initial aromatic mixture and save seven-eighths for the finish. At the original batch this is 1 tbsp from the measured 1/2 cup.",
+          "Use a molcajete or a bowl and fork; keep all the measured salt in the initial aromatic mixture, not a second dose with the avocado."
+        ],
+        "checkpoints": [
+          {
+            "step": 1,
+            "cue": "The jalapeño is minced finely and the measured salt is allocated to this mixture once.",
+            "why": "Even dispersion avoids isolated salty or very hot bites."
+          },
+          {
+            "step": 3,
+            "cue": "A creamy base remains around visible avocado chunks.",
+            "why": "Stop mashing before the entire dip becomes a puree."
+          },
+          {
+            "step": 5,
+            "cue": "The covering touches the surface without a large air gap.",
+            "why": "Reducing air contact limits surface browning, though it does not prevent it indefinitely."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Guacamole becomes smooth with no chunks",
+            "cause": "All avocado was mashed vigorously.",
+            "fix": "Stop when roughly half is mashed; fold the rest gently. The original chunky texture cannot be restored once all the avocado is pureed."
+          },
+          {
+            "problem": "It tastes unexpectedly salty",
+            "cause": "Salt was added twice between the mortar and bowl steps, or the chosen crystal density differs.",
+            "fix": "Allocate the listed salt once and taste before optional adjustments. More lime is not a reliable repair for oversalting."
+          },
+          {
+            "problem": "The surface browns while waiting",
+            "cause": "Air reaches the cut avocado.",
+            "fix": "Cover in contact and refrigerate promptly. Browning is a quality change, not a safe-storage test."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Jalapeño",
+            "alternative": "Omit or reduce it for a mild version",
+            "effect": "Keeps onion, cilantro, lime and cumin while reducing chile heat."
+          },
+          {
+            "ingredient": "Optional Roma tomato",
+            "alternative": "Leave it out",
+            "effect": "A less juicy, more avocado-focused dip; the tomato remains an available variant."
+          }
+        ],
+        "timing": "About 15 minutes preparation for the original four-avocado batch. Serve soon for best color, ideally within an hour; a longer wait belongs in the refrigerator. More avocados take longer to prepare and do not require a longer rest.",
+        "storage": "Keep at 40°F / 4°C or below and refrigerate within 2 hours total out of refrigeration, or 1 hour above 90°F / 32°C. Store covered in direct surface contact and use by the next day for best color/texture. Serve small portions and replenish from the refrigerator. A brown surface is not a safety test; lime and wrap do not preserve a batch left out too long.",
+        "sources": [
+          {
+            "title": "FoodSafety.gov — Clean handling and cold storage",
+            "url": "https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety"
+          },
+          {
+            "title": "Rick Bayless — Coarsely mashed ripe-avocado method comparison",
+            "url": "https://www.rickbayless.com/recipe/guacamole-2/"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-05"
+        }
+      },
+      "rationale": "Recipe-specific guidance from complete ingredient and process inspection.",
+      "applicableSource": "docs/editorial-campaign/2026-10-05/cold-sources.md",
+      "confidence": "high for exact allocations and preserved source text; sensory results remain untested"
+    },
+    {
+      "field": "cookTime",
+      "before": null,
+      "after": "0 min",
+      "rationale": "The complete method has no heating; record zero cooking minutes.",
+      "applicableSource": "docs/editorial-campaign/2026-10-05/cold-sources.md",
+      "confidence": "moderate planning; no measured timing or yield"
+    },
+    {
+      "field": "content",
+      "before": "\n## Chef's Note\n\nGreat guacamole is about texture and restraint. You want chunks, not baby food. The key technique: mash only half the avocado to create a creamy base that holds everything together, then fold in the rest in rough chunks for texture. Salt early and generously - avocado absorbs salt and needs more than you think. Lime juice isn't just for flavor; the acid slows oxidation (browning). The traditional molcajete (Mexican mortar and pestle) gives you control over texture, but a fork works fine. Skip the tomato if you want pure avocado flavor - it's optional in authentic Mexican versions. Serve within an hour; guacamole doesn't keep.\nFor kids, serve the heat on the side or reduce/omit the spicy elements.\n\n## Directions\n\n1. **The Aromatics:** If using a molcajete, grind the salt, jalapeño, and a tablespoon of onion into a paste. Otherwise, finely mince the jalapeño and combine with diced onion.\n\n2. **The Base:** Halve avocados, remove pits. Scoop flesh into a bowl. Add the jalapeño-onion mixture (or paste), lime juice, salt, and cumin.\n\n3. **The Mash:** Using a fork, mash about half the avocado until relatively smooth. Fold in the remaining chunks, keeping them intact.\n\n4. **The Finish:** Fold in remaining onion, cilantro, and tomato if using. Taste and adjust salt and lime.\n\n5. **Serve:** Transfer to a serving bowl. Press plastic wrap directly onto the surface if not serving immediately (prevents browning). Serve with tortilla chips within 1 hour.\n\n## Variations\n\n- **Spicy:** Add a serrano pepper or leave jalapeño seeds in\n- **Smoky:** Add 1 canned chipotle pepper, minced\n- **Creamy:** Add 2 tbsp sour cream\n- **Chunky:** Use 5 avocados and mash less\n",
+      "after": "\n## Chef's Note\n\nMash part of the ripe avocado into a creamy base and fold in the rest as chunks. Use the measured salt once, then taste the finished mixture before deciding whether it needs more. Lime adds flavor and surface contact wrap limits air exposure, but neither keeps guacamole permanently green. For a mild version, reduce or omit the jalapeño.\n\n## Directions\n\n1. **Prepare aromatics:** If using a molcajete, grind the measured salt, jalapeño and one-eighth of the diced onion into a paste (1 tbsp onion at the original batch). Otherwise, finely mince the jalapeño and mix it with that same onion share and all the measured salt. Reserve the rest of the onion.\n\n2. **Add avocado:** Halve the washed avocados, remove pits and scoop the flesh into a bowl. Add the aromatic mixture, measured lime juice and cumin. Do not add the measured salt a second time.\n\n3. **Mash:** With a fork, mash about half the avocado into a creamy base, leaving the rest as rough chunks. Fold gently to combine rather than pureeing all the flesh.\n\n4. **Finish:** Fold in the reserved onion, cilantro and optional seeded tomato. Taste after mixing; adjust only if needed, remembering that all the measured salt is already included.\n\n5. **Serve or chill:** Serve with tortilla chips if using, ideally within 1 hour for color and texture. If waiting, cover directly against the surface and refrigerate promptly. Set out small dipping portions rather than keeping the whole batch on the table.\n\n## Variations\n\n- **Spicy:** Add 1 serrano pepper for every 4 avocados in the base amount, or leave jalapeño seeds in.\n- **Smoky:** Add 1 minced canned chipotle pepper for every 4 avocados in the base amount.\n- **Creamy:** Fold in 2 tbsp sour cream for every 4 avocados in the base amount. This variation contains dairy.\n- **Chunky:** Use one-quarter more avocado than the base amount (5 instead of 4 at the full batch) and mash less.\n",
+      "rationale": "Preserve all four original variation quantities in explicit proportional four-avocado batch context; half/double additions keep the same ratios.",
+      "applicableSource": "docs/editorial-campaign/2026-10-05/cold-independent.md",
+      "confidence": "high for exact allocations and preserved source text; sensory results remain untested"
+    }
+  ],
+  "findings": [
+    {
+      "before": "Great guacamole is about texture and restraint. You want chunks, not baby food. The key technique: mash only half the avocado to create a creamy base that holds everything together, then fold in the rest in rough chunks for texture. Salt early and generously - avocado absorbs salt and needs more than you think. Lime juice isn't just for flavor; the acid slows oxidation (browning). The traditional molcajete (Mexican mortar and pestle) gives you control over texture, but a fork works fine. Skip the tomato if you want pure avocado flavor - it's optional in authentic Mexican versions. Serve within an hour; guacamole doesn't keep.\nFor kids, serve the heat on the side or reduce/omit the spicy elements.",
+      "after": "Mash part of the ripe avocado into a creamy base and fold in the rest as chunks. Use the measured salt once, then taste the finished mixture before deciding whether it needs more. Lime adds flavor and surface contact wrap limits air exposure, but neither keeps guacamole permanently green. For a mild version, reduce or omit the jalapeño.",
+      "rationale": "Four avocado, onion, lime, cilantro, cumin, salt and optional tomato formula preserved from committed authored introduction. Bayless is a comparison for ripe/coarse texture and restrained seasoning, not an attributed author of this formula. Fixes double salt and ambiguous onion allocations in both mortar/fork routes. All four original variations preserved. Chips are a genuine existing serving accompaniment, now listed optional. No extra lime or salt imposed.",
+      "source": "Saved current formula; recipe-specific publisher/method packet where stated",
+      "confidence": "high for removal of unsupported claims; moderate for sensory outcomes"
+    },
+    {
+      "before": "1. **The Aromatics:** If using a molcajete, grind the salt, jalapeño, and a tablespoon of onion into a paste. Otherwise, finely mince the jalapeño and combine with diced onion.\n\n2. **The Base:** Halve avocados, remove pits. Scoop flesh into a bowl. Add the jalapeño-onion mixture (or paste), lime juice, salt, and cumin.\n\n3. **The Mash:** Using a fork, mash about half the avocado until relatively smooth. Fold in the remaining chunks, keeping them intact.\n\n4. **The Finish:** Fold in remaining onion, cilantro, and tomato if using. Taste and adjust salt and lime.\n\n5. **Serve:** Transfer to a serving bowl. Press plastic wrap directly onto the surface if not serving immediately (prevents browning). Serve with tortilla chips within 1 hour.\n",
+      "after": "1. **Prepare aromatics:** If using a molcajete, grind the measured salt, jalapeño and one-eighth of the diced onion into a paste (1 tbsp onion at the original batch). Otherwise, finely mince the jalapeño and mix it with that same onion share and all the measured salt. Reserve the rest of the onion.\n\n2. **Add avocado:** Halve the washed avocados, remove pits and scoop the flesh into a bowl. Add the aromatic mixture, measured lime juice and cumin. Do not add the measured salt a second time.\n\n3. **Mash:** With a fork, mash about half the avocado into a creamy base, leaving the rest as rough chunks. Fold gently to combine rather than pureeing all the flesh.\n\n4. **Finish:** Fold in the reserved onion, cilantro and optional seeded tomato. Taste after mixing; adjust only if needed, remembering that all the measured salt is already included.\n\n5. **Serve or chill:** Serve with tortilla chips if using, ideally within1 hour for color and texture. If waiting, cover directly against the surface and refrigerate promptly. Set out small dipping portions rather than keeping the whole batch on the table.\n",
+      "rationale": "Full ingredient/process destinations made explicit; exact retained allocations and conditions described in individual notes.",
+      "source": "Four avocado, onion, lime, cilantro, cumin, salt and optional tomato formula preserved from committed authored introduction. Bayless is a comparison for ripe/coarse texture and restrained seasoning, not an attributed author of this formula. Fixes double salt and ambiguous onion allocations in both mortar/fork routes. All four original variations preserved. Chips are a genuine existing serving accompaniment, now listed optional. No extra lime or salt imposed.",
+      "confidence": "high for preserved totals and resolved destinations; moderate for planning times"
+    },
+    {
+      "field": "servings",
+      "before": "8",
+      "after": "8 dipping portions",
+      "rationale": "About15 minutes preparation for the original four-avocado batch. Serve soon for best color, ideally within an hour; a longer wait belongs in the refrigerator. More avocados take longer to prepare and do not require a longer rest.",
+      "confidence": "high"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "4 Ripe Avocados",
+        "1/2 cup White Onion (finely diced)",
+        "1 Jalapeño (seeded and minced)",
+        "1/4 cup Fresh Cilantro (chopped)",
+        "2 tbsp Fresh Lime Juice (about 1 lime)",
+        "1 tsp Kosher Salt",
+        "1/4 tsp Cumin",
+        "1 Roma Tomato (seeded and diced, optional)"
+      ],
+      "after": [
+        "4 Ripe Avocados",
+        "1/2 cup White Onion (finely diced)",
+        "1 Jalapeño (seeded and minced)",
+        "1/4 cup Fresh Cilantro (chopped)",
+        "2 tbsp Fresh Lime Juice (about 1 lime)",
+        "1 tsp Kosher Salt",
+        "1/4 tsp Cumin",
+        "1 Roma Tomato (seeded and diced, optional)",
+        "Gluten-free corn chips, for serving, optional"
+      ],
+      "rationale": "List existing optional serving chips as genuine unmeasured accompaniment, no amount invented.",
+      "confidence": "high"
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 35,
+        "protein": 1,
+        "carbs": 5,
+        "fat": 2.5,
+        "fiber": 2,
+        "sugar": 1.5,
+        "sodium": 300
+      },
+      "after": null,
+      "rationale": "Legacy estimates are unsupported and inconsistent with formula/portion uncertainty. No substitute nutrient values.",
+      "confidence": "high"
+    },
+    {
+      "field": "content",
+      "before": "\n## Chef's Note\n\nMash part of the ripe avocado into a creamy base and fold in the rest as chunks. Use the measured salt once, then taste the finished mixture before deciding whether it needs more. Lime adds flavor and surface contact wrap limits air exposure, but neither keeps guacamole permanently green. For a mild version, reduce or omit the jalapeño.\n\n## Directions\n\n1. **Prepare aromatics:** If using a molcajete, grind the measured salt, jalapeño and one-eighth of the diced onion into a paste (1 tbsp onion at the original batch). Otherwise, finely mince the jalapeño and mix it with that same onion share and all the measured salt. Reserve the rest of the onion.\n\n2. **Add avocado:** Halve the washed avocados, remove pits and scoop the flesh into a bowl. Add the aromatic mixture, measured lime juice and cumin. Do not add the measured salt a second time.\n\n3. **Mash:** With a fork, mash about half the avocado into a creamy base, leaving the rest as rough chunks. Fold gently to combine rather than pureeing all the flesh.\n\n4. **Finish:** Fold in the reserved onion, cilantro and optional seeded tomato. Taste after mixing; adjust only if needed, remembering that all the measured salt is already included.\n\n5. **Serve or chill:** Serve with tortilla chips if using, ideally within1 hour for color and texture. If waiting, cover directly against the surface and refrigerate promptly. Set out small dipping portions rather than keeping the whole batch on the table.\n\n## Variations\n\n- **Spicy:** Add a serrano pepper or leave jalapeño seeds in\n- **Smoky:** Add 1 canned chipotle pepper, minced\n- **Creamy:** Add 2 tbsp sour cream\n- **Chunky:** Use 5 avocados and mash less\n",
+      "after": "\n## Chef's Note\n\nMash part of the ripe avocado into a creamy base and fold in the rest as chunks. Use the measured salt once, then taste the finished mixture before deciding whether it needs more. Lime adds flavor and surface contact wrap limits air exposure, but neither keeps guacamole permanently green. For a mild version, reduce or omit the jalapeño.\n\n## Directions\n\n1. **Prepare aromatics:** If using a molcajete, grind the measured salt, jalapeño and one-eighth of the diced onion into a paste (1 tbsp onion at the original batch). Otherwise, finely mince the jalapeño and mix it with that same onion share and all the measured salt. Reserve the rest of the onion.\n\n2. **Add avocado:** Halve the washed avocados, remove pits and scoop the flesh into a bowl. Add the aromatic mixture, measured lime juice and cumin. Do not add the measured salt a second time.\n\n3. **Mash:** With a fork, mash about half the avocado into a creamy base, leaving the rest as rough chunks. Fold gently to combine rather than pureeing all the flesh.\n\n4. **Finish:** Fold in the reserved onion, cilantro and optional seeded tomato. Taste after mixing; adjust only if needed, remembering that all the measured salt is already included.\n\n5. **Serve or chill:** Serve with tortilla chips if using, ideally within 1 hour for color and texture. If waiting, cover directly against the surface and refrigerate promptly. Set out small dipping portions rather than keeping the whole batch on the table.\n\n## Variations\n\n- **Spicy:** Add 1 serrano pepper for every 4 avocados in the base amount, or leave jalapeño seeds in.\n- **Smoky:** Add 1 minced canned chipotle pepper for every 4 avocados in the base amount.\n- **Creamy:** Fold in 2 tbsp sour cream for every 4 avocados in the base amount. This variation contains dairy.\n- **Chunky:** Use one-quarter more avocado than the base amount (5 instead of 4 at the full batch) and mash less.\n",
+      "rationale": "Preserve all four original variation quantities in explicit proportional four-avocado batch context; half/double additions keep the same ratios.",
+      "source": "docs/editorial-campaign/2026-10-05/cold-independent.md",
+      "confidence": "high"
+    },
+    {
+      "field": "learning.before[1]",
+      "before": "Separate one-eighth of the diced onion for the initial aromatic mixture and save seven-eighths for the finish. At the original batch this is1 tbsp from the measured1/2 cup.",
+      "after": "Separate one-eighth of the diced onion for the initial aromatic mixture and save seven-eighths for the finish. At the original batch this is 1 tbsp from the measured 1/2 cup.",
+      "rationale": "Remove public editing/source disclosures or repair spacing without changing the formula, process or handling limits.",
+      "source": "docs/editorial-campaign/2026-10-05/cold-independent.md",
+      "confidence": "high"
+    },
+    {
+      "field": "learning.timing",
+      "before": "About15 minutes preparation for the original four-avocado batch. Serve soon for best color, ideally within an hour; a longer wait belongs in the refrigerator. More avocados take longer to prepare and do not require a longer rest.",
+      "after": "About 15 minutes preparation for the original four-avocado batch. Serve soon for best color, ideally within an hour; a longer wait belongs in the refrigerator. More avocados take longer to prepare and do not require a longer rest.",
+      "rationale": "Remove public editing/source disclosures or repair spacing without changing the formula, process or handling limits.",
+      "source": "docs/editorial-campaign/2026-10-05/cold-independent.md",
+      "confidence": "high"
+    }
+  ],
+  "rootCorrections": [
+    {
+      "rationale": "Explicit no-heat cooking time, verified from the complete cold method."
+    }
+  ],
+  "ingredientLedger": [
+    {
+      "ingredient": "4 Ripe Avocados",
+      "destination": 2
+    },
+    {
+      "ingredient": "1/2 cup White Onion (finely diced)",
+      "destination": "1:1/8; 4:7/8"
+    },
+    {
+      "ingredient": "1 Jalapeño (seeded and minced)",
+      "destination": 1
+    },
+    {
+      "ingredient": "1/4 cup Fresh Cilantro (chopped)",
+      "destination": 4
+    },
+    {
+      "ingredient": "2 tbsp Fresh Lime Juice (about 1 lime)",
+      "destination": 2
+    },
+    {
+      "ingredient": "1 tsp Kosher Salt",
+      "destination": 1
+    },
+    {
+      "ingredient": "1/4 tsp Cumin",
+      "destination": 2
+    },
+    {
+      "ingredient": "1 Roma Tomato (seeded and diced, optional)",
+      "destination": 4
+    },
+    {
+      "ingredient": "Gluten-free corn chips, for serving, optional",
+      "destination": 5
+    }
+  ],
+  "variationIngredientLedger": [
+    {
+      "ingredient": "1 serrano pepper per 4 base avocados, optional spicy variation",
+      "destination": 1
+    },
+    {
+      "ingredient": "1 minced canned chipotle pepper per 4 base avocados, optional smoky variation",
+      "destination": 1
+    },
+    {
+      "ingredient": "2 tbsp sour cream per 4 base avocados, optional creamy variation",
+      "destination": 4
+    },
+    {
+      "ingredient": "One-quarter more avocado (5 instead of 4 at full batch), optional chunky variation",
+      "destination": 2
+    }
+  ],
+  "sources": [
+    {
+      "title": "FoodSafety.gov — Clean handling and cold storage",
+      "url": "https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety"
+    },
+    {
+      "title": "Rick Bayless — Coarsely mashed ripe-avocado method comparison",
+      "url": "https://www.rickbayless.com/recipe/guacamole-2/"
+    }
+  ],
+  "sourceApplicability": "docs/editorial-campaign/2026-10-05/cold-sources.md",
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/cold-independent.md",
+  "planningConfidence": "Moderate for untested elapsed preparation ranges, sensory effects and inherited portion estimates; exact arithmetic, retained amounts and source recovery have high confidence. No measured yield or shelf-life validation.",
+  "remainingQuestions": [
+    "Measure avocado edible mass and finished dip volume; eight portions remain a planning claim.",
+    "Check actual kosher salt crystal product/density and jalapeño heat before future formula adjustments.",
+    "Test one-day color and chunks; optional sour-cream/tomato variants can have different texture."
+  ],
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "productionVerification": "pending",
+  "currentPath": "src/content/recipes/classic-guacamole.md",
+  "reviewDimensions": [
+    "every ingredient preparation/allocation/destination",
+    "ratios and inherited portions",
+    "capacity and ingredient state",
+    "no-heat preparation or product-required cooking",
+    "active/elapsed time and optional rests/chills",
+    "cold storage and applicable primary guidance",
+    "scaling and distinct variants",
+    "existing recipe/meal relationships"
+  ]
+}

@@ -1,23 +1,23 @@
 {
   "summary": {
-    "inputCommit": "afc39e07c49baed6924053ac34023a104d93c93a",
+    "inputCommit": "e2ae34b991e705cea361b2322a603a9e3f9c4e0e",
     "recipes": 643,
-    "recordedCompleteEditorial": 250,
-    "completeEditorialPending": 393,
+    "recordedCompleteEditorial": 257,
+    "completeEditorialPending": 386,
     "originalBaseline": 612,
-    "originalReviewed": 243,
+    "originalReviewed": 247,
     "consideredConsolidations": 10,
-    "originalPending": 359,
+    "originalPending": 355,
     "additionalSources": 41,
-    "additionalReviewed": 7,
-    "additionalPending": 34,
+    "additionalReviewed": 10,
+    "additionalPending": 31,
     "automatedAudit": {
       "recipes": 643,
-      "editoriallyReviewed": 250,
+      "editoriallyReviewed": 257,
       "kitchenTested": 0,
       "errors": 0,
       "priorityReviews": 0,
-      "reviewItems": 728
+      "reviewItems": 717
     },
     "accelerated": {
       "implemented": 42,
@@ -27,7 +27,7 @@
     },
     "uniquePathsInSixRepairCommits": 105,
     "kitchenTested": 0,
-    "productionReconciliation": "Accelerated42 targeted repairs verified live through e922e95e. Ten complete editorial versions verified live at b1435040. Six baking complete reviews accepted locally; publication pending."
+    "productionReconciliation": "Accelerated42 targeted repairs verified live through e922e95e. Ten complete editorial versions verified live at b1435040. Six baking versions await e2ae34b9 deployment run37369907481 after hosted-runner failure; seven cold-side complete reviews accepted locally, implementation/publication pending."
   },
   "collectionEvidence": [
     "docs/REVIEW_PROGRESS.md",
@@ -5225,18 +5225,7 @@
       "baseline": "original canonical",
       "source": null,
       "sourceUrl": null,
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -5244,19 +5233,25 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/chimichurri.md",
+        "acceptedSha256": "60906cc3011a3a24b02f96935db211a52e16af54adeb5d8f0d62b2a2de62fbc4",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/cold-independent.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally after independent challenge and complete root inspection; implementation pending",
+        "record": "docs/reviews/chimichurri.json",
+        "sourceSha256": "60906cc3011a3a24b02f96935db211a52e16af54adeb5d8f0d62b2a2de62fbc4"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; older live version does not certify accepted editorial version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Measure finished sauce volume and original eight condiment portions; packing of parsley/oregano varies.",
+        "Record chopped texture, garlic strength and color after short cold rests and3 days."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -6475,23 +6470,7 @@
       "baseline": "original canonical",
       "source": null,
       "sourceUrl": null,
-      "automatedFlags": [
-        {
-          "code": "missing-cookTime",
-          "severity": "review",
-          "message": "cookTime needs a useful value."
-        },
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -6499,19 +6478,26 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/classic-guacamole.md",
+        "acceptedSha256": "104288460ce6cbafe8ccfd522cf82813c7e465c1ceb2c80a89900069842a2ced",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/cold-independent.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally after independent challenge and complete root inspection; implementation pending",
+        "record": "docs/reviews/classic-guacamole.json",
+        "sourceSha256": "104288460ce6cbafe8ccfd522cf82813c7e465c1ceb2c80a89900069842a2ced"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; older live version does not certify accepted editorial version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Measure avocado edible mass and finished dip volume; eight portions remain a planning claim.",
+        "Check actual kosher salt crystal product/density and jalapeño heat before future formula adjustments.",
+        "Test one-day color and chunks; optional sour-cream/tomato variants can have different texture."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -8974,13 +8960,7 @@
       "baseline": "addition",
       "source": "thesavvyspoon.com",
       "sourceUrl": "https://thesavvyspoon.com/2025/03/10/chopped-pesto-salad-recipe/",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -8988,19 +8968,25 @@
         "evidence": ["docs/reviews/easy-chopped-pesto-salad-with-cannellini-beans.md"]
       },
       "completeEditorialReview": {
-        "status": "pending",
+        "status": "editorial-review",
         "record": "docs/reviews/easy-chopped-pesto-salad-with-cannellini-beans.md",
-        "recordImplementationCommit": "9faedba59b21bb230dcddd530489dc6e86d51bde"
+        "acceptedSha256": "af7367d8b0af343e34ccbaffd538fa2494d843a72c1b224ea4ba4a0c2b5b6f85",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/cold-independent.md",
+        "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally after independent challenge and complete root inspection; implementation pending",
+        "record": "docs/reviews/easy-chopped-pesto-salad-with-cannellini-beans.json",
+        "sourceSha256": "af7367d8b0af343e34ccbaffd538fa2494d843a72c1b224ea4ba4a0c2b5b6f85"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; older live version does not certify accepted editorial version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Measure drained bean/mozzarella weights and cucumber size, finished bowl volume and portions.",
+        "Test pesto salt level with the retained1 tsp kosher salt and tomato-water release after10 minutes and overnight."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -16851,13 +16837,7 @@
       "baseline": "addition",
       "source": "bakerita.com",
       "sourceUrl": "https://www.bakerita.com/miso-sesame-dense-bean-salad/",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -16865,19 +16845,25 @@
         "evidence": ["docs/reviews/miso-sesame-dense-bean-salad.md"]
       },
       "completeEditorialReview": {
-        "status": "pending",
+        "status": "editorial-review",
         "record": "docs/reviews/miso-sesame-dense-bean-salad.md",
-        "recordImplementationCommit": "9faedba59b21bb230dcddd530489dc6e86d51bde"
+        "acceptedSha256": "d1523218a40741682779f0bf4b893fe8a0e352db37e2d1e600356059c4b8cbc7",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/cold-independent.md",
+        "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally after independent challenge and complete root inspection; implementation pending",
+        "record": "docs/reviews/miso-sesame-dense-bean-salad.json",
+        "sourceSha256": "d1523218a40741682779f0bf4b893fe8a0e352db37e2d1e600356059c4b8cbc7"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; older live version does not certify accepted editorial version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Identify chickpea can size and actual drained mass, edamame product cooking/cooling route and full four-portion yield.",
+        "Check dress coverage with optional snap peas, miso/tamari salt levels and day-three crunch."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -22357,18 +22343,7 @@
       "baseline": "original canonical",
       "source": "Adapted from Loveandoliveoil.com",
       "sourceUrl": "http://www.loveandoliveoil.com/2013/04/shaved-brussels-sprout-salad.html",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -22376,19 +22351,26 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/shaved-brussels-sprout-salad-with-apples-and-pecorino.md",
+        "acceptedSha256": "0b0d517e8b9569f7d3fd4ee49daafc674d28a56227a3d5548cb4efdb77a32534",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/cold-independent.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally after independent challenge and complete root inspection; implementation pending",
+        "record": "docs/reviews/shaved-brussels-sprout-salad-with-apples-and-pecorino.json",
+        "sourceSha256": "0b0d517e8b9569f7d3fd4ee49daafc674d28a56227a3d5548cb4efdb77a32534"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; older live version does not certify accepted editorial version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Weigh actual grated Pecorino relative to1 cup and record grated particle/packing state.",
+        "Measure shaved usable sprouts, apple size, finished portions and texture after15 minutes and overnight.",
+        "Verify preparation timing with a guarded mandoline versus knife."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -24413,13 +24395,7 @@
       "baseline": "original canonical",
       "source": null,
       "sourceUrl": null,
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": "targeted repair",
         "acceleratedEvidence": {
@@ -24430,12 +24406,18 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/soy-ginger-dipping-sauce.md",
+        "acceptedSha256": "2d6bff415b84a217a82e5f31cea7894c844f9bac9d183f82aeac6b8ec36d00d8",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/cold-independent.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": "accepted accelerated targeted repair",
+      "acceptedChange": {
+        "status": "accepted locally after independent challenge and complete root inspection; implementation pending",
+        "record": "docs/reviews/soy-ginger-dipping-sauce.json",
+        "sourceSha256": "2d6bff415b84a217a82e5f31cea7894c844f9bac9d183f82aeac6b8ec36d00d8"
+      },
       "implementationCommits": [
         {
           "commit": "858ff2c5458cac2663ba21fb8d1867d1986ec346",
@@ -24444,12 +24426,11 @@
         }
       ],
       "productionVerification": {
-        "status": "retained handoff verified deployment; not rechecked live in this reconciliation",
-        "commit": "858ff2c5458cac2663ba21fb8d1867d1986ec346"
+        "status": "pending; older live version does not certify accepted editorial version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Measure actual finished sauce volume and eight small portions after adding aromatics.",
+        "Check fresh-ginger/garlic bite, regular versus low-sodium soy and whether4:2:1 suits the specific dumpling filling."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -28725,13 +28706,7 @@
       "baseline": "addition",
       "source": "Guy Fieri",
       "sourceUrl": "https://www.foodnetwork.com/recipes/guy-fieri/falafel-in-pita-with-yogurt-sauce-recipe-1952260",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -28739,19 +28714,25 @@
         "evidence": ["docs/reviews/yogurt-dipping-sauce.md"]
       },
       "completeEditorialReview": {
-        "status": "pending",
+        "status": "editorial-review",
         "record": "docs/reviews/yogurt-dipping-sauce.md",
-        "recordImplementationCommit": "9faedba59b21bb230dcddd530489dc6e86d51bde"
+        "acceptedSha256": "4a2ce0a8d452911613d7c977ad0e4100f27b42aa038e6c31fc5ae744b46f4d35",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/cold-independent.md",
+        "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally after independent challenge and complete root inspection; implementation pending",
+        "record": "docs/reviews/yogurt-dipping-sauce.json",
+        "sourceSha256": "4a2ce0a8d452911613d7c977ad0e4100f27b42aa038e6c31fc5ae744b46f4d35"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; older live version does not certify accepted editorial version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Measure dip volume and four portions; compare plain and Greek yogurt consistency.",
+        "Check lemon zest particle size and salt requirement with actual yogurt."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
