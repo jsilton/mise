@@ -29,7 +29,7 @@ role: dessert
 vibe: technical
 prepTime: 5 min
 cookTime: 10 min
-totalTime: 300 min
+totalTime: At least 6 hr 15 min, plus churning and machine preparation
 servings: 1 quart
 ingredients:
   - 4 large Egg Yolks
@@ -62,9 +62,9 @@ This classic custard-based vanilla ice cream forms the foundation for countless 
 
 ## Directions
 
-1.  **The Base:** In a small saucepan, heat milk over medium-low until just simmering.
+1.  **The Base:** In a small saucepan, heat milk and the pinch of salt over medium-low until just simmering.
 2.  **Emulsify:** In a medium bowl, whisk egg yolks and sugar until pale yellow. Slowly stream in the hot milk while whisking constantly.
-3.  **Thicken:** Return the mixture to the pan. Heat until it reaches 165°F and coats the back of a spoon. **Do not boil.**
-4.  **The Chill:** Transfer to a container and refrigerate for **at least 4 hours** (overnight is best) until cold.
-5.  **Churn:** Stir in the heavy cream and vanilla bean paste. Pour into your ice cream maker.
+3.  **Thicken:** Return the mixture to the pan. Stir constantly over gentle heat until it reaches 165°F and coats the back of a spoon. Remove from the heat immediately. **Do not boil.**
+4.  **The Chill:** Transfer to a shallow container and refrigerate promptly for **at least 4 hours**, until thoroughly cold. Prepare the ice cream maker, including freezing its bowl if required, according to its instructions.
+5.  **Churn:** Stir in the chilled heavy cream and vanilla bean paste. Pour into your ice cream maker.
 6.  **Set:** Churn according to instructions (usually 20 mins). Transfer to a freezer-safe container and freeze for 2 hours before serving.

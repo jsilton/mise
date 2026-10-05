@@ -16,7 +16,7 @@ role: dessert
 vibe: technical
 prepTime: 20 min
 cookTime: 25 min
-totalTime: 500 min
+totalTime: At least 8 hr 45 min, plus cooling
 servings: '8'
 ingredients:
   - 1 1/4 cups Graham Cracker Crumbs
@@ -54,7 +54,7 @@ sourceUrl: 'http://www.epicurious.com/recipes/food/views/key-lime-pie-108125'
 
 ## Chef's Note
 
-This is classic Key lime pie for the holiday table. The key to its texture is whisking the egg yolks into the condensed milk before adding the lime juice. Lime juice thickens the filling, but acidity does not replace cooking the eggs. Bake until the filling reaches its measured endpoint, then chill to firm the texture. Using a high ratio of butter in the crust creates a shatteringly crisp base that stands up to the creamy filling. Chilling for the full 8 hours is mandatory for the acidity to mellow.
+This is classic Key lime pie for the holiday table. The key to its texture is whisking the egg yolks into the condensed milk before adding the lime juice. Lime juice thickens the filling, but acidity does not replace cooking the eggs. Bake until the filling reaches its measured endpoint, then chill to firm the texture. Using a high ratio of butter in the crust creates a shatteringly crisp base that stands up to the creamy filling. The long chill gives the filling time to firm for slicing; it is not a substitute for cooking the eggs.
 
 ## Directions
 
@@ -62,6 +62,6 @@ This is classic Key lime pie for the holiday table. The key to its texture is wh
 2.  **The Emulsion:** In a large bowl, whisk the condensed milk and egg yolks until pale and thick.
 3.  **The Bind:** Slowly whisk in the key lime juice - the mixture will noticeably thicken.
 4.  **Bake:** Pour the filling into the cooled crust. Begin checking after 15 minutes and continue until the center reaches 160°F / 71°C, with set edges and a slight central wobble.
-5.  **The Finish:** Cool completely on a rack, then refrigerate for **at least 8 hours** (mandatory).
+5.  **The Finish:** Cool on a rack, then refrigerate promptly, within 2 hours of baking (1 hour above 90°F). Cover once cool and chill for **at least 8 hours** before slicing.
 6.  **The Crown:** Just before serving, whip the heavy cream and powdered sugar until stiff peaks form.
 7.  **Serve:** Mound the cream over the pie. Garnish with lime zest for the final aromatic **High Note**.

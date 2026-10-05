@@ -27,8 +27,8 @@ cuisines:
 role: dessert
 vibe: technical
 prepTime: 15 min
-cookTime: 60 min
-totalTime: 75 min
+cookTime: 60-70 min
+totalTime: 75-85 min plus cooling
 servings: '8'
 ingredients:
   - '1 lb Fresh Strawberries, hulled and halved'
@@ -60,14 +60,14 @@ sourceUrl: 'https://smittenkitchen.com/2011/05/strawberry-summer-cake/'
 
 ## Chef's Note
 
-This is a justifiably fussy cake - the batter is thin (meant to be), fresh strawberries sink and weep during baking (meant to), and the magic is in the temperature adjustment midway (lowering heat prevents a hard top while the fruit releases its juice). The result is something between cake and cobbler, tender crumb shot through with caramelized strawberry juice.
+This fruit-heavy cake should have tender crumb around jammy berries. Cream the butter and sugar well, then stop mixing once the flour disappears. Lower the oven temperature after the first 10 minutes, not halfway through baking. Check the cake crumb for wet batter rather than waiting for the fruit to dry out.
 
 ## Directions
 
-1.  **Cream:** Preheat oven to 350°F. Butter a 9-inch deep-dish pie pan (mandatory for volume). Beat butter and 1 cup sugar for 3 minutes until pale and fluffy.
-2.  **Emulsify:** Add the egg, milk, and vanilla. Beat until perfectly smooth.
-3.  **Incorporate:** Gradually add the flour, baking powder, and salt. Mix until **just smooth** - do not over-mix.
+1.  **Cream:** Preheat oven to 350°F. Butter a 9-inch deep-dish pie pan; a standard shallow 9-inch pie pan can overflow. Beat butter and 1 cup sugar for 3 minutes until pale and fluffy.
+2.  **Emulsify:** Add the egg, milk, and vanilla. Mix until just combined.
+3.  **Incorporate:** Whisk the flour, baking powder, and salt together, then gradually add this dry mixture. Mix until **just smooth** - do not over-mix.
 4.  **Layer:** Pour batter into the pan. Arrange strawberries on top, cut-side down, as closely as possible.
 5.  **The Crunch:** Sprinkle the remaining 2 tbsp sugar over the berries.
-6.  **Bake:** Bake for 10 minutes at 350°F, then **reduce heat to 325°F**. Roast for 50-60 minutes until the top is golden and a tester comes out clean.
+6.  **Bake:** Bake for 10 minutes at 350°F, then **reduce heat to 325°F**. Bake for another 50-60 minutes until golden and a tester inserted into cake crumb is free of wet batter; strawberry juice on the tester is expected.
 7.  **Serve:** Let cool completely in the pan. Serve with lightly whipped cream.
