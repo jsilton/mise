@@ -96,7 +96,7 @@
       "source": "delish.com",
       "sourceUrl": "https://www.delish.com/cooking/recipe-ideas/a32936658/air-fryer-chicken-tenders-recipe/",
       "group": "poultry_01",
-      "status": "accepted",
+      "status": "implemented",
       "reviewEvidence": ["docs/reviews/air-fryer-chicken-tenders.md"],
       "automatedFlags": ["teaching-review-needed"],
       "remainingQuestions": [
@@ -104,8 +104,9 @@
       ],
       "inputSha256": "a8633d88f587f60bc92cb6e34b086910610f4a74379cb46b3773bb7f91dc8589",
       "plannedBatch": "poultry_01",
-      "completeEditorialReview": "accepted; local release validation pending",
-      "acceptedSha256": "4b6bb7b2dac09439a618c88805135713f0297f25c5af10fff5dbeef5aec5c3a2"
+      "completeEditorialReview": "editorial-review; kitchen testing not performed",
+      "acceptedSha256": "4b6bb7b2dac09439a618c88805135713f0297f25c5af10fff5dbeef5aec5c3a2",
+      "implementationCommit": "760579089f83c71eb5e5ebe8f484b282b679ac3d"
     },
     {
       "slug": "almond-zucchini-bread",
@@ -775,7 +776,7 @@
       "source": "Adapted from superhealthykids.com",
       "sourceUrl": "https://www.superhealthykids.com/recipes/breakfast-egg-cups-recipe/",
       "group": "egg_bakes_01",
-      "status": "assigned",
+      "status": "proposed",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -1284,7 +1285,7 @@
       "source": "Adapted from Lisa Gwock",
       "sourceUrl": null,
       "group": "poultry_01",
-      "status": "accepted",
+      "status": "implemented",
       "reviewEvidence": [
         "docs/repairs/2026-09-15/changed-files.json",
         "docs/reviews/chicken-fingers.md"
@@ -1295,8 +1296,9 @@
       ],
       "inputSha256": "bced4a223523195a1078b6a42f6a9ee182c31301f036c62cacccdb028eee36f2",
       "plannedBatch": "poultry_01",
-      "completeEditorialReview": "accepted; local release validation pending",
-      "acceptedSha256": "22a11c78c7b8dd7f603c2a2edf21e265bcc2bc017e98fbba4cad7c8fa13c9f46"
+      "completeEditorialReview": "editorial-review; kitchen testing not performed",
+      "acceptedSha256": "22a11c78c7b8dd7f603c2a2edf21e265bcc2bc017e98fbba4cad7c8fa13c9f46",
+      "implementationCommit": "760579089f83c71eb5e5ebe8f484b282b679ac3d"
     },
     {
       "slug": "chicken-quesadillas-with-quick-pico",
@@ -1579,7 +1581,7 @@
       "source": "Adapted from thepioneerwoman.com",
       "sourceUrl": "https://thepioneerwoman.com/cooking/chocolate-pie/",
       "group": "dessert_01",
-      "status": "accepted",
+      "status": "implemented",
       "reviewEvidence": [
         "docs/reviews/chocolate-pie-bounded-2026-10-05.md",
         "docs/reviews/chocolate-pie.md"
@@ -1590,8 +1592,9 @@
       ],
       "inputSha256": "127c33571935d74066cb51615e943556c1234ab47c3bada0b1accd001618cd1e",
       "plannedBatch": "dessert_01",
-      "completeEditorialReview": "accepted; local release validation pending",
-      "acceptedSha256": "e8cca9801a7a6081e6d0df9e206aa843c874b69da048a2425e16d03e34f1e478"
+      "completeEditorialReview": "editorial-review; kitchen testing not performed",
+      "acceptedSha256": "e8cca9801a7a6081e6d0df9e206aa843c874b69da048a2425e16d03e34f1e478",
+      "implementationCommit": "760579089f83c71eb5e5ebe8f484b282b679ac3d"
     },
     {
       "slug": "chocolate-protein-zucchini-muffins",
@@ -1948,7 +1951,7 @@
       "source": null,
       "sourceUrl": null,
       "group": "poultry_01",
-      "status": "accepted",
+      "status": "implemented",
       "reviewEvidence": ["docs/reviews/crispy-baked-chicken-sliders.md"],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -1956,8 +1959,9 @@
       ],
       "inputSha256": "e9954a3496fac706b1f550d27c4722f35b64f7e5a9b8e0499bb29e8e9b05079f",
       "plannedBatch": "poultry_01",
-      "completeEditorialReview": "accepted; local release validation pending",
-      "acceptedSha256": "912741de603e561e82688c03df0662fcc44a46e80e40258861cf03f73f63fd07"
+      "completeEditorialReview": "editorial-review; kitchen testing not performed",
+      "acceptedSha256": "912741de603e561e82688c03df0662fcc44a46e80e40258861cf03f73f63fd07",
+      "implementationCommit": "760579089f83c71eb5e5ebe8f484b282b679ac3d"
     },
     {
       "slug": "crispy-oven-zucchini-fries",
@@ -2070,7 +2074,7 @@
       "source": "Adapted from skinnytaste.com",
       "sourceUrl": "https://www.skinnytaste.com/crustless-sausage-and-spinach-quiche/",
       "group": "egg_bakes_01",
-      "status": "assigned",
+      "status": "proposed",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -2089,7 +2093,7 @@
       "source": "Adapted from Rebecca Cybulsky",
       "sourceUrl": null,
       "group": "egg_bakes_01",
-      "status": "assigned",
+      "status": "held",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -2159,7 +2163,7 @@
       "source": "Adapted from houseofnasheats.com",
       "sourceUrl": "https://houseofnasheats.com/old-fashioned-fresh-peach-ice-cream/",
       "group": "dessert_01",
-      "status": "accepted",
+      "status": "implemented",
       "reviewEvidence": [
         "docs/reviews/custard-peach-ice-cream-bounded-2026-10-05.md",
         "docs/reviews/custard-peach-ice-cream.md"
@@ -2170,8 +2174,9 @@
       ],
       "inputSha256": "dc826a39bda588b1f44d111ba472a42fa38f8d6c4617201da56a0483bcf15d39",
       "plannedBatch": "dessert_01",
-      "completeEditorialReview": "accepted; local release validation pending",
-      "acceptedSha256": "1a718f9c36c3a77255116e7b052fdab30e685a4dbae2aee1c00ff6ad4059ca7d"
+      "completeEditorialReview": "editorial-review; kitchen testing not performed",
+      "acceptedSha256": "1a718f9c36c3a77255116e7b052fdab30e685a4dbae2aee1c00ff6ad4059ca7d",
+      "implementationCommit": "760579089f83c71eb5e5ebe8f484b282b679ac3d"
     },
     {
       "slug": "dan-dan-noodles",
@@ -2887,7 +2892,7 @@
       "source": "Adapted from Damndelicious.net",
       "sourceUrl": "http://damndelicious.net/2016/05/08/chicken-potatoes-garlic-parmesan-cream-sauce/print/",
       "group": "poultry_01",
-      "status": "accepted",
+      "status": "implemented",
       "reviewEvidence": [
         "docs/reviews/source-restorations-2026-10-05.md",
         "docs/reviews/garlic-parmesan-chicken-potatoes.md"
@@ -2898,8 +2903,9 @@
       ],
       "inputSha256": "8ee7c9a35baebd0bff05d38cbdb3237b879f7027c671783231016a2d194c2bdf",
       "plannedBatch": "poultry_01",
-      "completeEditorialReview": "accepted; local release validation pending",
-      "acceptedSha256": "d7b1f162ec0795839b79d9598b3483008616fca5da76a336d03377412675b9e9"
+      "completeEditorialReview": "editorial-review; kitchen testing not performed",
+      "acceptedSha256": "d7b1f162ec0795839b79d9598b3483008616fca5da76a336d03377412675b9e9",
+      "implementationCommit": "760579089f83c71eb5e5ebe8f484b282b679ac3d"
     },
     {
       "slug": "garlic-paste-toum-the-washington-post",
@@ -3010,7 +3016,7 @@
       "source": "Adapted from Foodnetwork.com",
       "sourceUrl": "https://www.foodnetwork.com/recipes/food-network-kitchen/glazed-chicken-and-broccoli-sheet-pan-dinner-3543898",
       "group": "poultry_01",
-      "status": "accepted",
+      "status": "implemented",
       "reviewEvidence": [
         "docs/repairs/2026-09-15/changed-files.json",
         "docs/reviews/glazed-chicken-and-broccoli-sheet-pan-dinner.md"
@@ -3021,8 +3027,9 @@
       ],
       "inputSha256": "d4c2b3b015b7ba452a9648672cdd837b6ca0304e6ab68573336a7b8c1bf55202",
       "plannedBatch": "poultry_01",
-      "completeEditorialReview": "accepted; local release validation pending",
-      "acceptedSha256": "f21b4074c11c013db6a8b1f3d34b0e9663aab54bfbecd4c83bae7202846f4c13"
+      "completeEditorialReview": "editorial-review; kitchen testing not performed",
+      "acceptedSha256": "f21b4074c11c013db6a8b1f3d34b0e9663aab54bfbecd4c83bae7202846f4c13",
+      "implementationCommit": "760579089f83c71eb5e5ebe8f484b282b679ac3d"
     },
     {
       "slug": "gluten-free-lemon-cupcakes",
@@ -3286,7 +3293,7 @@
       "source": "Adapted from iheartnaptime.net",
       "sourceUrl": "https://www.iheartnaptime.net/ham-and-cheese-quiche/",
       "group": "egg_bakes_01",
-      "status": "assigned",
+      "status": "proposed",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -3596,7 +3603,7 @@
       "source": "Adapted from cookieandkate.com",
       "sourceUrl": "https://cookieandkate.com/best-frittata-recipe/",
       "group": "egg_bakes_01",
-      "status": "assigned",
+      "status": "proposed",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -3785,7 +3792,7 @@
       "source": "Adapted from dietdoctor.com",
       "sourceUrl": "https://www.dietdoctor.com/recipes/keto-egg-muffins",
       "group": "egg_bakes_01",
-      "status": "assigned",
+      "status": "proposed",
       "reviewEvidence": ["docs/reviews/source-restorations-2026-10-05.md"],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -3838,7 +3845,7 @@
       "source": "Adapted from Epicurious.com",
       "sourceUrl": "http://www.epicurious.com/recipes/food/views/key-lime-pie-108125",
       "group": "dessert_01",
-      "status": "accepted",
+      "status": "implemented",
       "reviewEvidence": [
         "docs/reviews/key-lime-pie-bounded-2026-10-05.md",
         "docs/reviews/key-lime-pie.md"
@@ -3849,8 +3856,9 @@
       ],
       "inputSha256": "3b3fced85c8bdeea46f6d3c1c6e23ffbade4681e326ef1954d4793e8e9146fe9",
       "plannedBatch": "dessert_01",
-      "completeEditorialReview": "accepted; local release validation pending",
-      "acceptedSha256": "1e0ef712c72ff5e4ed9fb3f7c27eae65043a691fa8c5ba0dd1cbcb33ddef1965"
+      "completeEditorialReview": "editorial-review; kitchen testing not performed",
+      "acceptedSha256": "1e0ef712c72ff5e4ed9fb3f7c27eae65043a691fa8c5ba0dd1cbcb33ddef1965",
+      "implementationCommit": "760579089f83c71eb5e5ebe8f484b282b679ac3d"
     },
     {
       "slug": "kimchi-jjigae-kimchi-stew",
@@ -3978,7 +3986,7 @@
       "source": "Adapted from skinnytaste.com",
       "sourceUrl": "https://www.skinnytaste.com/loaded-baked-omelet-muffins/",
       "group": "egg_bakes_01",
-      "status": "assigned",
+      "status": "proposed",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -4463,7 +4471,7 @@
       "source": "Adapted from Addapinch.com",
       "sourceUrl": "https://addapinch.com/old-fashioned-vanilla-ice-cream-recipe/",
       "group": "dessert_01",
-      "status": "accepted",
+      "status": "implemented",
       "reviewEvidence": [
         "docs/reviews/old-fashioned-vanilla-ice-cream-bounded-2026-10-05.md",
         "docs/reviews/old-fashioned-vanilla-ice-cream.md"
@@ -4474,8 +4482,9 @@
       ],
       "inputSha256": "ed302a33fc8231ce2e31e8d1caa9ef437a32ac79d0c4b63c3f2a6137d24ffaec",
       "plannedBatch": "dessert_01",
-      "completeEditorialReview": "accepted; local release validation pending",
-      "acceptedSha256": "fc58b826d21d263c4c5336a72e1c48caba7ed6bad82e9cc1f3949d47f40c876d"
+      "completeEditorialReview": "editorial-review; kitchen testing not performed",
+      "acceptedSha256": "fc58b826d21d263c4c5336a72e1c48caba7ed6bad82e9cc1f3949d47f40c876d",
+      "implementationCommit": "760579089f83c71eb5e5ebe8f484b282b679ac3d"
     },
     {
       "slug": "old-fashioned",
@@ -6481,7 +6490,7 @@
       "source": "Adapted from smittenkitchen.com",
       "sourceUrl": "https://smittenkitchen.com/2011/05/strawberry-summer-cake/",
       "group": "dessert_01",
-      "status": "accepted",
+      "status": "implemented",
       "reviewEvidence": [
         "docs/reviews/strawberry-summer-cake-bounded-2026-10-05.md",
         "docs/reviews/strawberry-summer-cake.md"
@@ -6492,8 +6501,9 @@
       ],
       "inputSha256": "a90760add9f2d3f3b70ff4c6f92c10eded47244e77b9a212aac2f95edb55cf98",
       "plannedBatch": "dessert_01",
-      "completeEditorialReview": "accepted; local release validation pending",
-      "acceptedSha256": "a1fb990915e7a55af9ab1f5f02bc90fecd04d96a82c4c9c849aa0e876fed19de"
+      "completeEditorialReview": "editorial-review; kitchen testing not performed",
+      "acceptedSha256": "a1fb990915e7a55af9ab1f5f02bc90fecd04d96a82c4c9c849aa0e876fed19de",
+      "implementationCommit": "760579089f83c71eb5e5ebe8f484b282b679ac3d"
     },
     {
       "slug": "strozzapreti-with-spinach-and-preserved-lemon",
@@ -7901,11 +7911,11 @@
   ],
   "routingLimitations": "Provisional routing uses current metadata to reduce coordination work. Reviewer must confirm actual process from complete recipe before starting; tags never establish method applicability or a recipe defect.",
   "statusCounts": {
-    "accepted": 10,
-    "assigned": 29,
-    "held": 3,
+    "assigned": 22,
+    "held": 4,
     "held-awaiting-evidence": 2,
-    "proposed": 23,
+    "implemented": 10,
+    "proposed": 29,
     "queued": 342
   }
 }

@@ -1,6 +1,6 @@
 # Complete editorial campaign — October 5, 2026
 
-Ten whole-recipe reviews have passed independent challenge and complete integration inspection locally. Current recorded coverage is 244 complete editorial reviews / 399 pending across 643 sources; zero kitchen tests. This is separate from the 42 accelerated targeted repairs already verified live. The ten new versions await final release checks and production verification.
+Ten whole-recipe reviews have passed independent challenge and complete integration inspection locally. Current recorded coverage is 244 complete editorial reviews / 399 pending across 643 sources; zero kitchen tests. This is separate from the 42 accelerated targeted repairs already verified live. The ten new versions are committed as `76057908` and passed local release checks; production verification is pending.
 
 Three reviewers rotate through small, disjoint cooking families; one integration owner controls main, exports and publication. The original 409-source queue remains visible, including holds and accepted work, in [the campaign queue](editorial-campaign/2026-10-05/queue.json). See [first batch acceptance](editorial-campaign/2026-10-05/first-ten.md). Historical counts and release statements below retain their dated scope.
 

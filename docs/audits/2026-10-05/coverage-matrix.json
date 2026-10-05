@@ -1,6 +1,6 @@
 {
   "summary": {
-    "inputCommit": "95b37f8bca5008657a668e52a1d970b1d03367d3",
+    "inputCommit": "760579089f83c71eb5e5ebe8f484b282b679ac3d",
     "recipes": 643,
     "recordedCompleteEditorial": 244,
     "completeEditorialPending": 399,
@@ -59,18 +59,24 @@
         "evidence": ["docs/reviews/air-fryer-chicken-tenders.md"]
       },
       "completeEditorialReview": {
-        "status": "accepted editorial-review; local implementation pending commit",
+        "status": "editorial-review",
         "record": "docs/reviews/air-fryer-chicken-tenders.md",
         "acceptedSha256": "4b6bb7b2dac09439a618c88805135713f0297f25c5af10fff5dbeef5aec5c3a2",
-        "independentChallenge": "docs/editorial-campaign/2026-10-05/first-ten.md"
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/first-ten.md",
+        "recordImplementationCommit": "760579089f83c71eb5e5ebe8f484b282b679ac3d"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "760579089f83c71eb5e5ebe8f484b282b679ac3d",
       "acceptedChange": {
-        "status": "accepted after independent challenge and complete root diff inspection",
+        "status": "implemented after independent challenge and complete root diff inspection",
         "record": "docs/reviews/air-fryer-chicken-tenders.md",
         "sourceSha256": "4b6bb7b2dac09439a618c88805135713f0297f25c5af10fff5dbeef5aec5c3a2"
       },
-      "implementationCommits": [],
+      "implementationCommits": [
+        {
+          "commit": "760579089f83c71eb5e5ebe8f484b282b679ac3d",
+          "scope": "complete editorial review"
+        }
+      ],
       "productionVerification": {
         "status": "pending release verification; older live version is not the accepted editorial version"
       },
@@ -4434,18 +4440,24 @@
         "evidence": ["docs/repairs/2026-09-15/changed-files.json"]
       },
       "completeEditorialReview": {
-        "status": "accepted editorial-review; local implementation pending commit",
+        "status": "editorial-review",
         "record": "docs/reviews/chicken-fingers.md",
         "acceptedSha256": "22a11c78c7b8dd7f603c2a2edf21e265bcc2bc017e98fbba4cad7c8fa13c9f46",
-        "independentChallenge": "docs/editorial-campaign/2026-10-05/first-ten.md"
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/first-ten.md",
+        "recordImplementationCommit": "760579089f83c71eb5e5ebe8f484b282b679ac3d"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "760579089f83c71eb5e5ebe8f484b282b679ac3d",
       "acceptedChange": {
-        "status": "accepted after independent challenge and complete root diff inspection",
+        "status": "implemented after independent challenge and complete root diff inspection",
         "record": "docs/reviews/chicken-fingers.md",
         "sourceSha256": "22a11c78c7b8dd7f603c2a2edf21e265bcc2bc017e98fbba4cad7c8fa13c9f46"
       },
-      "implementationCommits": [],
+      "implementationCommits": [
+        {
+          "commit": "760579089f83c71eb5e5ebe8f484b282b679ac3d",
+          "scope": "complete editorial review"
+        }
+      ],
       "productionVerification": {
         "status": "pending release verification; older live version is not the accepted editorial version"
       },
@@ -6000,14 +6012,15 @@
         "evidence": ["docs/reviews/chocolate-pie-bounded-2026-10-05.md"]
       },
       "completeEditorialReview": {
-        "status": "accepted editorial-review; local implementation pending commit",
+        "status": "editorial-review",
         "record": "docs/reviews/chocolate-pie.md",
         "acceptedSha256": "e8cca9801a7a6081e6d0df9e206aa843c874b69da048a2425e16d03e34f1e478",
-        "independentChallenge": "docs/editorial-campaign/2026-10-05/first-ten.md"
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/first-ten.md",
+        "recordImplementationCommit": "760579089f83c71eb5e5ebe8f484b282b679ac3d"
       },
-      "latestRecipeCommit": "f684c89f9a5f82ddef2ad4e20a977aa002a5e629",
+      "latestRecipeCommit": "760579089f83c71eb5e5ebe8f484b282b679ac3d",
       "acceptedChange": {
-        "status": "accepted after independent challenge and complete root diff inspection",
+        "status": "implemented after independent challenge and complete root diff inspection",
         "record": "docs/reviews/chocolate-pie.md",
         "sourceSha256": "e8cca9801a7a6081e6d0df9e206aa843c874b69da048a2425e16d03e34f1e478"
       },
@@ -6016,6 +6029,10 @@
           "commit": "f684c89f9a5f82ddef2ad4e20a977aa002a5e629",
           "evidence": "exact retained 11-file checkpoint verified against published blobs",
           "scope": "accelerated targeted repair"
+        },
+        {
+          "commit": "760579089f83c71eb5e5ebe8f484b282b679ac3d",
+          "scope": "complete editorial review"
         }
       ],
       "productionVerification": {
@@ -7572,18 +7589,24 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "accepted editorial-review; local implementation pending commit",
+        "status": "editorial-review",
         "record": "docs/reviews/crispy-baked-chicken-sliders.md",
         "acceptedSha256": "912741de603e561e82688c03df0662fcc44a46e80e40258861cf03f73f63fd07",
-        "independentChallenge": "docs/editorial-campaign/2026-10-05/first-ten.md"
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/first-ten.md",
+        "recordImplementationCommit": "760579089f83c71eb5e5ebe8f484b282b679ac3d"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "760579089f83c71eb5e5ebe8f484b282b679ac3d",
       "acceptedChange": {
-        "status": "accepted after independent challenge and complete root diff inspection",
+        "status": "implemented after independent challenge and complete root diff inspection",
         "record": "docs/reviews/crispy-baked-chicken-sliders.md",
         "sourceSha256": "912741de603e561e82688c03df0662fcc44a46e80e40258861cf03f73f63fd07"
       },
-      "implementationCommits": [],
+      "implementationCommits": [
+        {
+          "commit": "760579089f83c71eb5e5ebe8f484b282b679ac3d",
+          "scope": "complete editorial review"
+        }
+      ],
       "productionVerification": {
         "status": "pending release verification; older live version is not the accepted editorial version"
       },
@@ -8371,14 +8394,15 @@
         "evidence": ["docs/reviews/custard-peach-ice-cream-bounded-2026-10-05.md"]
       },
       "completeEditorialReview": {
-        "status": "accepted editorial-review; local implementation pending commit",
+        "status": "editorial-review",
         "record": "docs/reviews/custard-peach-ice-cream.md",
         "acceptedSha256": "1a718f9c36c3a77255116e7b052fdab30e685a4dbae2aee1c00ff6ad4059ca7d",
-        "independentChallenge": "docs/editorial-campaign/2026-10-05/first-ten.md"
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/first-ten.md",
+        "recordImplementationCommit": "760579089f83c71eb5e5ebe8f484b282b679ac3d"
       },
-      "latestRecipeCommit": "e922e95ee275aee6289e7225914045d273154791",
+      "latestRecipeCommit": "760579089f83c71eb5e5ebe8f484b282b679ac3d",
       "acceptedChange": {
-        "status": "accepted after independent challenge and complete root diff inspection",
+        "status": "implemented after independent challenge and complete root diff inspection",
         "record": "docs/reviews/custard-peach-ice-cream.md",
         "sourceSha256": "1a718f9c36c3a77255116e7b052fdab30e685a4dbae2aee1c00ff6ad4059ca7d"
       },
@@ -8392,6 +8416,10 @@
           "commit": "e922e95ee275aee6289e7225914045d273154791",
           "evidence": "docs/audits/2026-10-05/dessert-continuation.md",
           "scope": "proportional fruit batching and cold holding; export synchronization"
+        },
+        {
+          "commit": "760579089f83c71eb5e5ebe8f484b282b679ac3d",
+          "scope": "complete editorial review"
         }
       ],
       "productionVerification": {
@@ -11011,14 +11039,15 @@
         "evidence": ["docs/reviews/source-restorations-2026-10-05.md"]
       },
       "completeEditorialReview": {
-        "status": "accepted editorial-review; local implementation pending commit",
+        "status": "editorial-review",
         "record": "docs/reviews/garlic-parmesan-chicken-potatoes.md",
         "acceptedSha256": "d7b1f162ec0795839b79d9598b3483008616fca5da76a336d03377412675b9e9",
-        "independentChallenge": "docs/editorial-campaign/2026-10-05/first-ten.md"
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/first-ten.md",
+        "recordImplementationCommit": "760579089f83c71eb5e5ebe8f484b282b679ac3d"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "760579089f83c71eb5e5ebe8f484b282b679ac3d",
       "acceptedChange": {
-        "status": "accepted after independent challenge and complete root diff inspection",
+        "status": "implemented after independent challenge and complete root diff inspection",
         "record": "docs/reviews/garlic-parmesan-chicken-potatoes.md",
         "sourceSha256": "d7b1f162ec0795839b79d9598b3483008616fca5da76a336d03377412675b9e9"
       },
@@ -11027,6 +11056,10 @@
           "commit": "493885bb88fa96b1ab626b20a5c8ec78830f9145",
           "evidence": "actual recipe diff retained privately",
           "scope": "historical safety/scaling/source repair; file touch is not complete review"
+        },
+        {
+          "commit": "760579089f83c71eb5e5ebe8f484b282b679ac3d",
+          "scope": "complete editorial review"
         }
       ],
       "productionVerification": {
@@ -11469,18 +11502,24 @@
         "evidence": ["docs/repairs/2026-09-15/changed-files.json"]
       },
       "completeEditorialReview": {
-        "status": "accepted editorial-review; local implementation pending commit",
+        "status": "editorial-review",
         "record": "docs/reviews/glazed-chicken-and-broccoli-sheet-pan-dinner.md",
         "acceptedSha256": "f21b4074c11c013db6a8b1f3d34b0e9663aab54bfbecd4c83bae7202846f4c13",
-        "independentChallenge": "docs/editorial-campaign/2026-10-05/first-ten.md"
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/first-ten.md",
+        "recordImplementationCommit": "760579089f83c71eb5e5ebe8f484b282b679ac3d"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "760579089f83c71eb5e5ebe8f484b282b679ac3d",
       "acceptedChange": {
-        "status": "accepted after independent challenge and complete root diff inspection",
+        "status": "implemented after independent challenge and complete root diff inspection",
         "record": "docs/reviews/glazed-chicken-and-broccoli-sheet-pan-dinner.md",
         "sourceSha256": "f21b4074c11c013db6a8b1f3d34b0e9663aab54bfbecd4c83bae7202846f4c13"
       },
-      "implementationCommits": [],
+      "implementationCommits": [
+        {
+          "commit": "760579089f83c71eb5e5ebe8f484b282b679ac3d",
+          "scope": "complete editorial review"
+        }
+      ],
       "productionVerification": {
         "status": "pending release verification; older live version is not the accepted editorial version"
       },
@@ -14772,14 +14811,15 @@
         "evidence": ["docs/reviews/key-lime-pie-bounded-2026-10-05.md"]
       },
       "completeEditorialReview": {
-        "status": "accepted editorial-review; local implementation pending commit",
+        "status": "editorial-review",
         "record": "docs/reviews/key-lime-pie.md",
         "acceptedSha256": "1e0ef712c72ff5e4ed9fb3f7c27eae65043a691fa8c5ba0dd1cbcb33ddef1965",
-        "independentChallenge": "docs/editorial-campaign/2026-10-05/first-ten.md"
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/first-ten.md",
+        "recordImplementationCommit": "760579089f83c71eb5e5ebe8f484b282b679ac3d"
       },
-      "latestRecipeCommit": "f684c89f9a5f82ddef2ad4e20a977aa002a5e629",
+      "latestRecipeCommit": "760579089f83c71eb5e5ebe8f484b282b679ac3d",
       "acceptedChange": {
-        "status": "accepted after independent challenge and complete root diff inspection",
+        "status": "implemented after independent challenge and complete root diff inspection",
         "record": "docs/reviews/key-lime-pie.md",
         "sourceSha256": "1e0ef712c72ff5e4ed9fb3f7c27eae65043a691fa8c5ba0dd1cbcb33ddef1965"
       },
@@ -14793,6 +14833,10 @@
           "commit": "f684c89f9a5f82ddef2ad4e20a977aa002a5e629",
           "evidence": "exact retained 11-file checkpoint verified against published blobs",
           "scope": "accelerated targeted repair"
+        },
+        {
+          "commit": "760579089f83c71eb5e5ebe8f484b282b679ac3d",
+          "scope": "complete editorial review"
         }
       ],
       "productionVerification": {
@@ -17636,14 +17680,15 @@
         "evidence": ["docs/reviews/old-fashioned-vanilla-ice-cream-bounded-2026-10-05.md"]
       },
       "completeEditorialReview": {
-        "status": "accepted editorial-review; local implementation pending commit",
+        "status": "editorial-review",
         "record": "docs/reviews/old-fashioned-vanilla-ice-cream.md",
         "acceptedSha256": "fc58b826d21d263c4c5336a72e1c48caba7ed6bad82e9cc1f3949d47f40c876d",
-        "independentChallenge": "docs/editorial-campaign/2026-10-05/first-ten.md"
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/first-ten.md",
+        "recordImplementationCommit": "760579089f83c71eb5e5ebe8f484b282b679ac3d"
       },
-      "latestRecipeCommit": "f684c89f9a5f82ddef2ad4e20a977aa002a5e629",
+      "latestRecipeCommit": "760579089f83c71eb5e5ebe8f484b282b679ac3d",
       "acceptedChange": {
-        "status": "accepted after independent challenge and complete root diff inspection",
+        "status": "implemented after independent challenge and complete root diff inspection",
         "record": "docs/reviews/old-fashioned-vanilla-ice-cream.md",
         "sourceSha256": "fc58b826d21d263c4c5336a72e1c48caba7ed6bad82e9cc1f3949d47f40c876d"
       },
@@ -17652,6 +17697,10 @@
           "commit": "f684c89f9a5f82ddef2ad4e20a977aa002a5e629",
           "evidence": "exact retained 11-file checkpoint verified against published blobs",
           "scope": "accelerated targeted repair"
+        },
+        {
+          "commit": "760579089f83c71eb5e5ebe8f484b282b679ac3d",
+          "scope": "complete editorial review"
         }
       ],
       "productionVerification": {
@@ -25869,14 +25918,15 @@
         "evidence": ["docs/reviews/strawberry-summer-cake-bounded-2026-10-05.md"]
       },
       "completeEditorialReview": {
-        "status": "accepted editorial-review; local implementation pending commit",
+        "status": "editorial-review",
         "record": "docs/reviews/strawberry-summer-cake.md",
         "acceptedSha256": "a1fb990915e7a55af9ab1f5f02bc90fecd04d96a82c4c9c849aa0e876fed19de",
-        "independentChallenge": "docs/editorial-campaign/2026-10-05/first-ten.md"
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/first-ten.md",
+        "recordImplementationCommit": "760579089f83c71eb5e5ebe8f484b282b679ac3d"
       },
-      "latestRecipeCommit": "f684c89f9a5f82ddef2ad4e20a977aa002a5e629",
+      "latestRecipeCommit": "760579089f83c71eb5e5ebe8f484b282b679ac3d",
       "acceptedChange": {
-        "status": "accepted after independent challenge and complete root diff inspection",
+        "status": "implemented after independent challenge and complete root diff inspection",
         "record": "docs/reviews/strawberry-summer-cake.md",
         "sourceSha256": "a1fb990915e7a55af9ab1f5f02bc90fecd04d96a82c4c9c849aa0e876fed19de"
       },
@@ -25885,6 +25935,10 @@
           "commit": "f684c89f9a5f82ddef2ad4e20a977aa002a5e629",
           "evidence": "exact retained 11-file checkpoint verified against published blobs",
           "scope": "accelerated targeted repair"
+        },
+        {
+          "commit": "760579089f83c71eb5e5ebe8f484b282b679ac3d",
+          "scope": "complete editorial review"
         }
       ],
       "productionVerification": {

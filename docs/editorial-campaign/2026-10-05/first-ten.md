@@ -1,6 +1,6 @@
 # First ten complete editorial reviews — October 5, 2026
 
-Input: `95b37f8b` (origin/main `e922e95e`). Whole-recipe reviewer, independent editor and integration owner inspected each accepted version. Status: accepted locally, release checks and publication pending. No physical kitchen testing.
+Input: `95b37f8b` (origin/main `e922e95e`). Whole-recipe reviewer, independent editor and integration owner inspected each accepted version. Status: implemented as `760579089f83c71eb5e5ebe8f484b282b679ac3d`, local release checks passed, production verification pending. No physical kitchen testing.
 
 The five poultry recipes preserve both Garlic Parmesan potato methods and its source-documented seven tablespoons of butter, keep raw-contact sauce and vegetables at measured endpoints, and explain portion and batch capacity. The five desserts retain the earlier safety repairs, measured quantities, proportional allocations and cold machine-batch handling. Source disagreements and physical yield/texture questions remain in individual records.
 
