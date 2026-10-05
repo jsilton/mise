@@ -1,196 +1,74 @@
-import fs from 'fs/promises';
-import fsSync from 'fs';
-import path from 'path';
-import matter from 'gray-matter';
-import { randomUUID } from 'crypto';
-import zlib from 'zlib';
+import fs from 'node:fs/promises';
+import path from 'node:path';
+import { pathToFileURL } from 'node:url';
+import { execFileSync } from 'node:child_process';
+import { gzipSync, gunzipSync } from 'node:zlib';
+import { isDeepStrictEqual } from 'node:util';
+import { loadRecipes, createPaprikaRecipe, assertRecipeSet } from './lib/recipe-exports.mjs';
 
-const RECIPES_DIR = path.resolve('src/content/recipes');
-const EXPORTS_DIR = path.resolve('exports');
+const command = (program, args, options = {}) =>
+  execFileSync(program, args, { maxBuffer: 32 * 1024 * 1024, ...options });
 
-function parseTime(timeStr) {
-  if (!timeStr) return 0;
-  let minutes = 0;
-  const hourMatch = timeStr.match(/(\d+)\s*hr/i);
-  const minMatch = timeStr.match(/(\d+)\s*min/i);
-
-  if (hourMatch) minutes += parseInt(hourMatch[1]) * 60;
-  if (minMatch) minutes += parseInt(minMatch[1]);
-
-  return minutes;
-}
-
-function extractChefNote(content) {
-  const match = content.match(/^## Chef's Note\n\n([\s\S]*?)(?=\n## |\n$)/m);
-  return match ? match[1].trim() : '';
-}
-
-function extractDirections(content) {
-  const match = content.match(/^## Directions\n\n([\s\S]*?)(?=\n## |\n$)/m);
-  if (!match) return [];
-
-  const directionsText = match[1].trim();
-  const steps = [];
-
-  // Split by numbered steps
-  const stepRegex = /^\d+\.\s+\*\*([^*]+)\*\*:\s*(.+?)(?=^\d+\.|$)/gm;
-  let m;
-
-  while ((m = stepRegex.exec(directionsText)) !== null) {
-    const stepText = `${m[1]}: ${m[2]}`.replace(/\*\*(.+?)\*\*/g, '$1').trim();
-    steps.push(stepText);
+// Validate ZIP CRCs, exact membership, every gzip stream, JSON body and content.
+// `zip` and `unzip` are explicit CLI dependencies (available on macOS/Linux).
+export async function validatePaprikaArchive(filename, recipes, run = command) {
+  if (!(await fs.stat(filename)).size) throw new Error('Paprika archive is empty');
+  run('unzip', ['-tqq', filename]);
+  const entries = run('unzip', ['-Z1', filename], { encoding: 'utf8' }).trim().split('\n');
+  const names = recipes.map(({ slug }) => `${slug.replaceAll('/', '__')}.paprikarecipe`);
+  assertRecipeSet(entries, names);
+  const uids = new Set();
+  for (const [index, entry] of names.entries()) {
+    const value = JSON.parse(gunzipSync(run('unzip', ['-p', filename, entry])).toString('utf8'));
+    if (typeof value.uid !== 'string' || !value.uid.trim() || uids.has(value.uid))
+      throw new Error(`${entry}: invalid or duplicate UID`);
+    uids.add(value.uid);
+    const expected = createPaprikaRecipe(recipes[index], value.uid);
+    if (!isDeepStrictEqual(value, expected))
+      throw new Error(`${entry}: stale or incomplete recipe`);
   }
-
-  return steps;
+  return entries.length;
 }
 
-async function listRecipeFiles(dir) {
-  const entries = await fs.readdir(dir, { withFileTypes: true });
-  const files = [];
-  for (const entry of entries) {
-    const res = path.join(dir, entry.name);
-    if (entry.isDirectory()) {
-      files.push(...(await listRecipeFiles(res)));
-    } else if (entry.isFile() && res.endsWith('.md')) {
-      files.push(res);
-    }
-  }
-  return files;
-}
-
-function buildNutritionInfo(nutrition) {
-  if (!nutrition || (typeof nutrition !== 'object' && !nutrition.calories)) {
-    return '';
-  }
-
-  const parts = [];
-  if (nutrition.calories) parts.push(`Calories: ${nutrition.calories}`);
-  if (nutrition.protein) parts.push(`Protein: ${nutrition.protein}g`);
-  if (nutrition.carbs) parts.push(`Carbs: ${nutrition.carbs}g`);
-  if (nutrition.fat) parts.push(`Fat: ${nutrition.fat}g`);
-  if (nutrition.fiber) parts.push(`Fiber: ${nutrition.fiber}g`);
-  if (nutrition.sugar) parts.push(`Sugar: ${nutrition.sugar}g`);
-  if (nutrition.sodium) parts.push(`Sodium: ${nutrition.sodium}mg`);
-
-  return parts.join(' | ');
-}
-
-async function createPaprikaRecipe(filePath) {
-  const content = await fs.readFile(filePath, 'utf-8');
-  const { data, content: body } = matter(content);
-
-  const slug = path.basename(filePath, '.md');
-  const chefNote = extractChefNote(body);
-  const directions = extractDirections(body);
-
-  const categories = [data.role || 'main', data.vibe || 'comfort'];
-  if (Array.isArray(data.cuisines)) {
-    categories.push(...data.cuisines);
-  }
-
-  const recipe = {
-    uid: randomUUID(),
-    name: data.title || 'Untitled',
-    ingredients: Array.isArray(data.ingredients)
-      ? data.ingredients
-          .map((ing) => {
-            if (ing.startsWith('---')) {
-              return ing.replace(/^---\s*/, '').replace(/\s*---$/, '');
-            }
-            return ing;
-          })
-          .join('\n')
-      : '',
-    directions: directions.join('\n'),
-    servings: data.servings || '4',
-    prep_time: parseTime(data.prepTime) || 0,
-    cook_time: parseTime(data.cookTime) || 0,
-    total_time: parseTime(data.totalTime) || 0,
-    source: 'Mise Kitchen Standard',
-    source_url: `https://jordansilton.com/mise/recipes/${slug}`,
-    categories: categories,
-    difficulty: data.difficulty || 'easy',
-    nutritional_info: buildNutritionInfo(data.nutrition),
-    notes: chefNote,
-    rating: 0,
-    created: new Date().toISOString(),
-    photo: '',
-    photo_hash: '',
-    image_url: '',
-  };
-
-  return recipe;
-}
-
-async function main() {
+export async function exportPaprika(
+  outputPath = path.resolve('exports/mise-recipes.paprikarecipes'),
+  recipes = null,
+  run = command
+) {
+  recipes ||= await loadRecipes();
+  assertRecipeSet(
+    recipes.map(({ slug }) => slug),
+    recipes.map(({ slug }) => slug)
+  );
+  outputPath = path.resolve(outputPath);
+  await fs.mkdir(path.dirname(outputPath), { recursive: true });
+  const temporary = await fs.mkdtemp(path.join(path.dirname(outputPath), '.paprika-temp-'));
+  const archive = path.join(temporary, 'collection.zip');
   try {
-    console.log('📦 Exporting recipes to Paprika format...');
-
-    // Ensure exports directory exists
-    await fs.mkdir(EXPORTS_DIR, { recursive: true });
-
-    // Get all recipe files
-    const recipeFiles = await listRecipeFiles(RECIPES_DIR);
-    console.log(`📖 Found ${recipeFiles.length} recipes`);
-
-    const tempDir = path.join(EXPORTS_DIR, '.paprika-temp-' + Date.now());
-    await fs.mkdir(tempDir, { recursive: true });
-
-    let count = 0;
-
-    // Process each recipe
-    for (const filePath of recipeFiles) {
-      try {
-        const recipe = await createPaprikaRecipe(filePath);
-        const jsonStr = JSON.stringify(recipe, null, 2);
-
-        // Gzip the JSON synchronously
-        const gzipped = zlib.gzipSync(Buffer.from(jsonStr, 'utf-8'));
-
-        // Write to temporary directory with .paprikarecipe extension
-        const filename = `${recipe.uid}.paprikarecipe`;
-        const tempFilePath = path.join(tempDir, filename);
-        fsSync.writeFileSync(tempFilePath, gzipped);
-
-        count++;
-        if (count % 50 === 0) {
-          console.log(`  ✓ Processed ${count} recipes...`);
-        }
-      } catch (err) {
-        const recipeName = path.basename(filePath);
-        console.warn(`  ⚠ Failed to process ${recipeName}:`, err.message);
-      }
-    }
-
-    console.log(`  ✓ Processed all ${count} recipes`);
-
-    // Create the .paprikarecipes zip file using ditto (macOS)
-    const outputPath = path.join(EXPORTS_DIR, 'mise-recipes.paprikarecipes');
-
-    try {
-      // Use ditto to create ZIP archive (macOS native)
-      const { execSync } = await import('child_process');
-      execSync(`ditto -c -k --sequesterRsrc --keepParent "${tempDir}" "${outputPath}"`, {
-        stdio: 'pipe',
-        encoding: 'utf-8',
-      });
-
-      console.log(`\n✅ Paprika export complete: ${outputPath}`);
-      console.log(`   Total recipes: ${count}`);
-
-      // Cleanup temp directory
-      execSync(`rm -rf "${tempDir}"`, { stdio: 'pipe' });
-    } catch (zipErr) {
-      console.error('Error creating archive:', zipErr.message);
-      console.log(`   (Temporary files remain in: ${tempDir})`);
-      console.log(
-        '   You can manually create the archive or use the generated .paprikarecipe files.'
+    const entries = [];
+    for (const recipe of recipes) {
+      const filename = `${recipe.slug.replaceAll('/', '__')}.paprikarecipe`;
+      entries.push(filename);
+      await fs.writeFile(
+        path.join(temporary, filename),
+        gzipSync(JSON.stringify(createPaprikaRecipe(recipe)))
       );
     }
-  } catch (error) {
-    console.error('Export failed:', error.message);
-    process.exit(1);
+    assertRecipeSet(entries, [...new Set(entries)]);
+    run('zip', ['-q', '-0', archive, ...entries], { cwd: temporary });
+    await validatePaprikaArchive(archive, recipes, run);
+    await fs.rename(archive, outputPath);
+    return recipes.length;
+  } finally {
+    await fs.rm(temporary, { recursive: true, force: true });
   }
 }
 
-main();
+if (process.argv[1] && import.meta.url === pathToFileURL(path.resolve(process.argv[1])).href) {
+  exportPaprika(process.argv[2])
+    .then((count) => console.log(`Exported and validated ${count} Paprika recipes.`))
+    .catch((error) => {
+      console.error('Export failed:', error.message);
+      process.exitCode = 1;
+    });
+}

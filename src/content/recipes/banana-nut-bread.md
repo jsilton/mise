@@ -23,7 +23,7 @@ pairsWith:
   - blueberry-pancakes
   - brownie-baked-oatmeal
 ingredients:
-  - '3 large Very Ripe Bananas (about 375g), mashed'
+  - "3 large Very Ripe Bananas (about 375g total), mashed"
   - '1/2 cup (1 stick) Unsalted Butter, melted and cooled'
   - 1 cup Granulated Sugar
   - '2 large Eggs, room temperature'

@@ -65,7 +65,7 @@ nutrition:
 
 ## Chef's Note
 
-Onigiri are Japanese rice balls - simple, transportable, and a staple of bentos and home cooking for centuries. What makes them special is the ritual: the rice is still warm when shaped, and the small amount of salt on your hands seasons the outside just enough. You can fill them with whatever you like (pickled plume, tuna mayo, salmon, sesame), wrap nori around the outside, and pack them for school, work, or a picnic. They're best when still warm, but they hold well at room temperature for 4-5 hours. A squeeze of warm rice in your palm wrapped by a sheet of nori is one of the most comforting things to eat.
+Onigiri are Japanese rice balls - simple, transportable, and a staple of bentos and home cooking for centuries. What makes them special is the ritual: the rice is still warm when shaped, and the small amount of salt on your hands seasons the outside just enough. You can fill them with whatever you like (pickled plume, tuna mayo, salmon, sesame), wrap nori around the outside, and pack them for school, work, or a picnic. They're best when still warm, but keep perishable rice balls cold when preparing them ahead or packing them for later. A squeeze of warm rice in your palm wrapped by a sheet of nori is one of the most comforting things to eat.
 
 ## Directions
 
@@ -81,7 +81,7 @@ Onigiri are Japanese rice balls - simple, transportable, and a staple of bentos 
 
 6. **Wrap with Nori:** Cut nori into strips about 1 inch wide and 3-4 inches long. Wrap one strip around the middle of the onigiri, like a belt. The nori will stick to the rice from its slight moisture. If wrapping right before serving, the nori stays crispy; if you wrap earlier, it softens slightly from the rice moisture.
 
-7. **Garnish and Store:** Sprinkle with sesame seeds if desired. Serve warm or at room temperature. Onigiri can be made ahead and stored in an airtight container at room temperature for up to 5 hours, or frozen for up to 1 month (thaw at room temperature before serving).
+7. **Garnish and Store:** Sprinkle with sesame seeds if desired. Serve warm or at room temperature. For make-ahead service, refrigerate promptly at 40°F or below and transport with an ice pack. Count preparation and service together: discard perishable onigiri left out over 2 hours, or 1 hour above 90°F. If frozen, thaw in the refrigerator rather than on the counter. Keep nori separate until serving for crispness.
 
 **Filling Ideas:** Keep fillings minimal - a single flavor is more traditional. Tuna mayo, umeboshi (pickled plum), grilled salmon, kombu (kelp), or just sesame salt all work beautifully.
 

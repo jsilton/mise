@@ -34,7 +34,16 @@ export function checkBuiltLinks(directory, site = 'https://jordansilton.com/mise
         missing.push({ page: relative, href, reason: 'Invalid URL' });
         continue;
       }
-      if (target.origin !== base.origin || !target.pathname.startsWith(base.pathname)) continue;
+      if (target.origin !== base.origin) continue;
+      if (!target.pathname.startsWith(base.pathname)) {
+        missing.push({
+          page: relative,
+          href,
+          resolved: target.pathname,
+          reason: 'Escapes deployment base',
+        });
+        continue;
+      }
       checked++;
       let decoded;
       try {
@@ -43,7 +52,17 @@ export function checkBuiltLinks(directory, site = 'https://jordansilton.com/mise
         missing.push({ page: relative, href, reason: 'Invalid URL encoding' });
         continue;
       }
-      const destination = path.join(root, decoded);
+      const destination = path.resolve(root, decoded);
+      const fromRoot = path.relative(root, destination);
+      if (fromRoot === '..' || fromRoot.startsWith(`..${path.sep}`) || path.isAbsolute(fromRoot)) {
+        missing.push({
+          page: relative,
+          href,
+          resolved: target.pathname,
+          reason: 'Escapes build directory',
+        });
+        continue;
+      }
       const candidates = [destination, path.join(destination, 'index.html'), `${destination}.html`];
       if (
         !candidates.some((candidate) => fs.existsSync(candidate) && fs.statSync(candidate).isFile())

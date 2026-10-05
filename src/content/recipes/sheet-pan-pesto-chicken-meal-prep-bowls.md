@@ -56,7 +56,7 @@ nutrition:
 
 ## Chef's Note
 
-Sheet pan meal prep bowls became hugely popular in the 2010s for their simplicity and make-ahead convenience. The trick is staged roasting: cook the chicken and mushrooms first to develop color, then add the quicker-cooking vegetables like broccoli and zucchini for the final 10 minutes. Tossing the chicken in pesto before roasting creates a flavorful coating that keeps the lean breast meat moist. These bowls keep well for 5 days in the fridge.
+Sheet pan meal prep bowls became hugely popular in the 2010s for their simplicity and make-ahead convenience. The trick is staged roasting: cook the chicken and mushrooms first to develop color, then add the quicker-cooking vegetables like broccoli and zucchini for the final 10 minutes. Tossing the chicken in pesto before roasting creates a flavorful coating that keeps the lean breast meat moist. Refrigerate promptly in shallow containers at 40°F or below and use within 3–4 days; freeze portions intended for later in the week.
 
 ## Directions
 
@@ -65,4 +65,4 @@ Sheet pan meal prep bowls became hugely popular in the 2010s for their simplicit
 3.  **Stage 1:** Toss the diced chicken and mushrooms with 1 tbsp oil and 2 tbsp of the pesto mixture. Spread on the pan. Bake for 10 minutes.
 4.  **Stage 2:** Remove pan. Add the broccoli, zucchini, and cherry tomatoes. Toss with another 2 tbsp of pesto.
 5.  **Bake:** Roast for 10 more minutes until the chicken is cooked through (165°F) and the broccoli is tender-crisp.
-6.  **Store:** Divide among 4 bowls. Serve over pasta or rice. Keeps in the fridge for 5 days with a perfect Texture when reheated.
+6.  **Store:** Divide among 4 bowls. Serve over pasta or rice. Use refrigerated portions within 3–4 days and reheat to 165°F. Freeze later portions; the vegetables may soften after reheating.

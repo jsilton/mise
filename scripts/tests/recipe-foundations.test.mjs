@@ -300,10 +300,10 @@ test('plus-sign ingredient amounts scale without changing counted package sizes'
   );
 });
 
-test('a plus does not partially scale an unsupported parenthetical count alternative', () => {
+test('a supported parenthetical count alternative scales every quantity', () => {
   assert.equal(
     scaleIngredient('1 tsp seasoning (or 1 bay leaf + 1 tsp oregano)', 2),
-    '2 tsp seasoning (or 1 bay leaf + 1 tsp oregano)'
+    '2 tsp seasoning (or 2 bay leaves + 2 tsp oregano)'
   );
 });
 

@@ -67,7 +67,7 @@ Quesadillas are Mexico's answer to the weeknight question: how do you feed hungr
 
 ## Directions
 
-1. **Make the Pico:** In a small bowl, combine diced tomatoes, minced onion, jalapeño, cilantro, lime juice, and salt. Taste and adjust. Set aside. This stays fresh for up to 3 hours.
+1. **Make the pico:** Combine the pico tomatoes, minced onion, jalapeño, cilantro, lime juice and salt. Taste and adjust, then refrigerate until serving. Count preparation and serving time together: discard cut-tomato salsa left out longer than 2 hours, or 1 hour above 90°F / 32°C.
 
 2. **Warm Tortillas:** Heat a skillet over medium-low heat for 1 minute. Wrap tortillas in a clean kitchen towel to keep them warm as you work. This takes 3-4 minutes to get them pliable.
 

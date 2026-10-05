@@ -20,9 +20,18 @@ importers:
       gray-matter:
         specifier: ^4.0.3
         version: 4.0.3
+      remark-gfm:
+        specifier: ^4.0.1
+        version: 4.0.1(supports-color@7.2.0)
+      remark-parse:
+        specifier: ^11.0.0
+        version: 11.0.0(supports-color@7.2.0)
       tailwindcss:
         specifier: ^3.4.17
         version: 3.4.19
+      unified:
+        specifier: ^11.0.5
+        version: 11.0.5
     devDependencies:
       '@typescript-eslint/eslint-plugin':
         specifier: ^8.52.0

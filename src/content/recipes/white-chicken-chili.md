@@ -26,7 +26,7 @@ ingredients:
   - >-
     2 cans (15 oz / 425 g each) plain Great Northern beans, rinsed and drained, about 510 g total
     drained
-  - '1 can (15 oz / 425 g) hominy, rinsed and drained, about 255 g drained'
+  - "1 can (15 oz / 425 g) hominy, rinsed and drained, about 255 g drained total"
   - '150 g yellow onion, cut into 1/4-inch dice'
   - '3 cloves garlic, minced'
   - '1 can (4.5 oz / 127 g) mild chopped green chiles, with juices'

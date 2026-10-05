@@ -28,7 +28,7 @@ pairsWith:
 ingredients:
   - 6 cups Cold Water
   - '1 oz (30g) Kombu (Dried Kelp), approx 20 sq inches'
-  - '2 packs (5g each) Katsuo Bushi (Dried Bonito Flakes), approx 1 cup'
+  - "2 packs (5g each) Katsuo Bushi (Dried Bonito Flakes), approx 1 cup total"
 seasons:
   - year-round
 nutritionalDensity: light

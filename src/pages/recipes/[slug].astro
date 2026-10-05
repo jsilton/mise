@@ -1,7 +1,12 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import RecipeHeader from '../../components/RecipeHeader.astro';
-import { timeToISO } from '../../lib/time.mjs';
+import {
+  parseRecipeContent,
+  isIngredientDivider,
+  recipeDescription,
+} from '../../lib/recipe-content.mjs';
+import { buildRecipeSchema } from '../../lib/recipe-schema.mjs';
 import RecipeLearning from '../../components/RecipeLearning.astro';
 import RecipeScaler from '../../components/RecipeScaler.astro';
 import { getCollection } from 'astro:content';
@@ -23,9 +28,10 @@ const allRecipes = await getCollection('recipes');
 const recipeTitles = new Map(allRecipes.map((r) => [r.slug, r.data.title]));
 const canonicalUrl = new URL(`${BASE}recipes/${recipe.slug}/`, Astro.site).href;
 
-function isDivider(str: string): boolean {
-  return /^-{3}\s+.+\s+-{3}$/.test(str);
-}
+const isDivider = isIngredientDivider;
+const parsedContent = parseRecipeContent(recipe.body || '');
+const description = recipeDescription(recipe.data, parsedContent);
+const schema = buildRecipeSchema(recipe.data, recipe.body || '', canonicalUrl, parsedContent);
 
 function getDividerLabel(str: string): string {
   const match = str.match(/^-{3}\s+(.+?)\s+-{3}$/);
@@ -49,184 +55,12 @@ function parseIngredientHtml(str: string): string {
   });
   return html;
 }
-
-// Map recipe role to Schema.org recipeCategory
-function roleToRecipeCategory(role: string | undefined): string {
-  const categoryMap: Record<string, string> = {
-    main: 'Main course',
-    side: 'Side dish',
-    base: 'Base',
-    dessert: 'Dessert',
-    drink: 'Beverage',
-    condiment: 'Condiment',
-  };
-  return role ? categoryMap[role] || role : 'Main course';
-}
-
-// Map dietary restrictions to Schema.org suitableForDiet
-function dietaryToDietType(dietary: string[]): string[] {
-  const dietMap: Record<string, string> = {
-    'gluten-free': 'GlutenFreeDiet',
-    vegan: 'VeganDiet',
-    vegetarian: 'VegetarianDiet',
-    kosher: 'KosherDiet',
-    halal: 'HalalDiet',
-  };
-
-  return dietary
-    .map((d) =>
-      dietMap[d.toLowerCase()] ? `https://schema.org/${dietMap[d.toLowerCase()]}` : null
-    )
-    .filter((d): d is string => d !== null);
-}
-
-// Extract first 2 sentences from Chef's Note for description
-function getRecipeDescription(body: string): string {
-  const chefNoteMatch = body.match(/##\s+Chef's Note\s+([\s\S]*?)(?=##|$)/);
-  if (!chefNoteMatch) return `${recipe.data.title} recipe`;
-
-  const chefNoteText = chefNoteMatch[1].trim();
-  // Remove markdown formatting and get sentences
-  const cleanText = chefNoteText
-    .replace(/\*\*(.*?)\*\*/g, '$1') // Remove bold
-    .replace(/\*(.*?)\*/g, '$1') // Remove italic
-    .replace(/\[([^\]]+)\]\([^)]+\)/g, '$1'); // Remove links
-
-  // Split by sentence endings and get first 2 sentences
-  const sentenceRegex = /[^.!?]*[.!?]+/g;
-  const matches = cleanText.match(sentenceRegex);
-  if (!matches) return recipe.data.title;
-
-  const sentences = matches
-    .slice(0, 2)
-    .map((s) => s.trim())
-    .join(' ')
-    .trim();
-  return sentences || recipe.data.title;
-}
-
-// Get clean ingredients array (remove section dividers)
-function getCleanIngredients(ingredients: string[]): string[] {
-  return ingredients.filter((ing) => !isDivider(ing));
-}
-
-// Build HowToStep array from directions
-function getRecipeInstructions(body: string) {
-  const directionsMatch = body.match(/##\s+Directions\s+([\s\S]*?)(?=##|$)/);
-  if (!directionsMatch) return [];
-
-  const directionsText = directionsMatch[1].trim();
-  const steps = directionsText.split(/\n(?=\d+\.)/);
-
-  return steps
-    .map((step, index) => {
-      const stepNum = index + 1;
-      // Extract the text after the bold header if present, or use the whole step
-      const textMatch = step.match(/\d+\.\s+\*\*[^*]+\*\*:\s*([\s\S]*)/);
-      let stepText = '';
-
-      if (textMatch) {
-        // Has bold header format
-        stepText = textMatch[1].trim();
-      } else {
-        // Get everything after the number
-        stepText = step.replace(/^\d+\.\s+/, '').trim();
-      }
-
-      // Remove markdown formatting
-      stepText = stepText
-        .replace(/\*\*(.*?)\*\*/g, '$1') // Remove bold
-        .replace(/\*(.*?)\*/g, '$1') // Remove italic
-        .replace(/\[([^\]]+)\]\([^)]+\)/g, '$1'); // Remove links
-
-      return {
-        '@type': 'HowToStep',
-        position: stepNum,
-        text: stepText,
-      };
-    })
-    .filter((step) => step.text.length > 0);
-}
-
-// Build the complete JSON-LD schema
-function buildRecipeSchema() {
-  const body = recipe.body || '';
-  const description = recipe.data.description || getRecipeDescription(body);
-  const cleanIngredients = getCleanIngredients(recipe.data.ingredients || []);
-  const instructions = getRecipeInstructions(body);
-
-  const keywords = [
-    ...(recipe.data.cuisines || []),
-    ...(recipe.data.flavorProfile || []),
-    ...(recipe.data.occasions || []),
-    ...(recipe.data.cookingMethods || []),
-  ]
-    .filter((k) => k && typeof k === 'string')
-    .join(', ');
-
-  const suitableForDiet = dietaryToDietType(recipe.data.dietary || []);
-
-  const schema: any = {
-    '@context': 'https://schema.org',
-    '@type': 'Recipe',
-    name: recipe.data.title,
-    description: description,
-    url: canonicalUrl,
-  };
-
-  if (recipe.data.prepTime) {
-    const prepTimeISO = timeToISO(recipe.data.prepTime);
-    if (prepTimeISO) schema['prepTime'] = prepTimeISO;
-  }
-
-  if (recipe.data.cookTime) {
-    const cookTimeISO = timeToISO(recipe.data.cookTime);
-    if (cookTimeISO) schema['cookTime'] = cookTimeISO;
-  }
-
-  if (recipe.data.totalTime) {
-    const totalTimeISO = timeToISO(recipe.data.totalTime);
-    if (totalTimeISO) schema['totalTime'] = totalTimeISO;
-  }
-
-  if (recipe.data.servings) {
-    schema['recipeYield'] = recipe.data.servings;
-  }
-
-  if (recipe.data.role) {
-    schema['recipeCategory'] = roleToRecipeCategory(recipe.data.role);
-  }
-
-  if (recipe.data.cuisines && recipe.data.cuisines.length > 0) {
-    schema['recipeCuisine'] = recipe.data.cuisines;
-  }
-
-  if (cleanIngredients.length > 0) {
-    schema['recipeIngredient'] = cleanIngredients;
-  }
-
-  if (instructions.length > 0) {
-    schema['recipeInstructions'] = instructions;
-  }
-
-  if (keywords) {
-    schema['keywords'] = keywords;
-  }
-
-  if (suitableForDiet.length > 0) {
-    schema['suitableForDiet'] = suitableForDiet;
-  }
-
-  // Origin is a place, not an author. Do not invent author or testing claims.
-
-  return JSON.stringify(schema).replace(/</g, '\\u003c');
-}
 ---
 
 <Layout
   title={`${recipe.data.title} | Mise`}
-  description={recipe.data.description || getRecipeDescription(recipe.body)}
-  jsonLd={buildRecipeSchema()}
+  description={description}
+  jsonLd={JSON.stringify(schema).replace(/</g, '\\u003c')}
 >
   <RecipeHeader {recipe} />
   <RecipeLearning {recipe} />

@@ -30,7 +30,8 @@ pairsWith:
 ingredients:
   - 1 lb Spaghetti or Rigatoni
   - 4 oz Guanciale or Pancetta (thickly diced)
-  - '4 large Eggs (2 whole, 2 yolks)'
+  - 2 large pasteurized whole eggs
+  - 2 large pasteurized egg yolks
   - '1 cup Pecorino Romano or Parmesan, freshly grated'
   - 1 tsp Freshly Cracked Black Pepper (lots!)
   - Salt for pasta water
@@ -54,9 +55,9 @@ Carbonara is a Roman dish that dates to the 1940s, with debates about whether it
 
 1.  **Boil:** Bring a large pot of salted water to a boil. Cook pasta for 1 minute **less** than package instructions.
 2.  **Render:** While pasta boils, sauté the guanciale/pancetta in a large skillet over medium heat until the fat has rendered and the meat is crispy. Remove from heat.
-3.  **The Temper:** In a medium stainless steel or glass bowl, whisk the eggs, cheese, and pepper. Place the bowl over the pot of boiling pasta for 1 minute (like a double boiler), whisking constantly until the mixture is warm and the cheese starts to melt.
+3.  **The Temper:** In a medium stainless steel or glass bowl, whisk the pasteurized whole eggs and yolks, cheese, and pepper. Place the bowl over the pot of boiling pasta for 1 minute (like a double boiler), whisking constantly until the mixture is warm and the cheese starts to melt.
 4.  **Bind:** Reserve 1 cup of starchy pasta water. Drain the pasta.
 5.  **Toss:** Add the hot pasta to the skillet with the rendered fat. Pour the warm egg/cheese mixture over the pasta.
-6.  **Emulsify:** Add 1/4 cup of pasta water. Toss vigorously and constantly. The heat from the pasta will finish cooking the eggs into a silky, glossy sauce. Add more water if it looks too thick.
+6.  **Emulsify:** Add 1/4 cup of pasta water. Toss vigorously and constantly. The heat thickens the pasteurized egg mixture into a glossy coating, but appearance alone does not verify a fully cooked egg endpoint. Add more water if it looks too thick.
 7.  **Serve:** Serve immediately with extra Pecorino and pepper.
 

@@ -51,7 +51,7 @@ nutrition:
 
 ## Chef's Note
 
-Thai basil (horapha) has a stronger anise note than Italian basil - floral and slightly spicy rather than sweet. Fresh ginger and lime juice make this a refreshing, non-alcoholic drink that cuts through heat and richness. Muddle the basil gently so the leaves release their flavor without breaking apart and turning the drink bitter.
+Thai basil (horapha) has a stronger anise note than Italian basil - floral and slightly spicy rather than sweet. Fresh ginger and lime juice make this a refreshing sparkling-wine drink that cuts through heat and richness. Muddle the basil gently so the leaves release their flavor without breaking apart and turning the drink bitter.
 ## Directions
 
 1.  **The Syrup:** In a small saucepan, boil water and sugar for 1 minute until dissolved. Remove from heat.

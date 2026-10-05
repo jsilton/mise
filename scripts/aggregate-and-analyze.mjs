@@ -1,70 +1,30 @@
-import fs from 'fs/promises';
 import path from 'path';
-import matter from 'gray-matter';
+import {
+  loadRecipes,
+  createCombinedText,
+  validateCombinedText,
+  writeValidatedFile,
+} from './lib/recipe-exports.mjs';
 
 const RECIPES_DIR = path.resolve('src/content/recipes');
 const OUTPUT_TXT_PATH = path.resolve('public/recipes/all-recipes-combined.txt');
 
-// Helper to list all markdown files recursively
-async function listMdFiles(dir) {
-  const entries = await fs.readdir(dir, { withFileTypes: true });
-  const files = [];
-  for (const entry of entries) {
-    const res = path.join(dir, entry.name);
-    if (entry.isDirectory()) {
-      files.push(...(await listMdFiles(res)));
-    } else if (entry.isFile() && res.endsWith('.md')) {
-      files.push(res);
-    }
-  }
-  return files;
-}
-
-// Normalize strings to generate slug candidates
-function toSlug(str) {
-  return str
-    .toLowerCase()
-    .replace(/[^\w\s-]/g, '')
-    .trim()
-    .replace(/\s+/g, '-');
-}
-
 async function run() {
-  const files = await listMdFiles(RECIPES_DIR);
-  console.log(`Aggregating ${files.length} recipes into one text file...`);
+  const recipes = await loadRecipes(RECIPES_DIR);
+  console.log(`Aggregating ${recipes.length} recipes into one text file...`);
 
   // Build maps of titles and slugs to check for unlinked recipe mentions
-  const slugToTitle = new Map();
   const titleToSlug = new Map();
 
-  for (const file of files) {
-    const raw = await fs.readFile(file, 'utf8');
-    const { data } = matter(raw);
-    const slug = path.basename(file, '.md');
-    const title = data.title || slug;
-
-    slugToTitle.set(slug, title);
-    titleToSlug.set(title.toLowerCase(), slug);
+  for (const { slug, data } of recipes) {
+    titleToSlug.set(data.title.toLowerCase(), slug);
   }
 
-  let aggregatedText = '';
+  const aggregatedText = createCombinedText(recipes);
   const analysisReport = [];
 
-  for (const file of files) {
-    const raw = await fs.readFile(file, 'utf8');
-    const { data, content } = matter(raw);
-    const slug = path.basename(file, '.md');
-    const title = data.title || slug;
-
-    // Append to the huge consolidated text file
-    aggregatedText += `======================================================================\n`;
-    aggregatedText += `RECIPE: ${title} (${slug}.md)\n`;
-    aggregatedText += `CUISINES: ${data.cuisines ? data.cuisines.join(', ') : 'None'}\n`;
-    aggregatedText += `INGREDIENTS:\n`;
-    if (data.ingredients) {
-      data.ingredients.forEach((i) => (aggregatedText += `  - ${i}\n`));
-    }
-    aggregatedText += `CONTENT:\n${content}\n\n`;
+  for (const { slug, data, body: content } of recipes) {
+    const title = data.title;
 
     // Perform corpus analysis check
     const contentLower = content.toLowerCase();
@@ -142,8 +102,9 @@ async function run() {
   }
 
   // Save the aggregated text file
-  await fs.mkdir(path.dirname(OUTPUT_TXT_PATH), { recursive: true }).catch(() => {});
-  await fs.writeFile(OUTPUT_TXT_PATH, aggregatedText, 'utf8');
+  await writeValidatedFile(OUTPUT_TXT_PATH, aggregatedText, (value) =>
+    validateCombinedText(value, recipes)
+  );
   console.log(
     `Saved aggregated corpus to ${OUTPUT_TXT_PATH} (${(aggregatedText.length / 1024 / 1024).toFixed(2)} MB)`
   );
@@ -169,4 +130,7 @@ async function run() {
   }
 }
 
-run().catch(console.error);
+run().catch((error) => {
+  console.error(error);
+  process.exitCode = 1;
+});

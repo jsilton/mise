@@ -58,9 +58,7 @@ ingredients:
   - '2 tbsp Fresh Chives or Basil, minced'
   - Salt and Black Pepper
   - '--- Sauce ---'
-  - >-
-    3-4 cups [Roasted Tomato Basil
-    Sauce](/mise/recipes/roasted-tomato-basil-soup) (one full 32 oz jar)
+  - "3-4 cups [Roasted Tomato Basil Sauce](/mise/recipes/roasted-tomato-basil-soup) (1 full jar, 32 oz each)"
 origin: Italy
 nutrition:
   calories: 275

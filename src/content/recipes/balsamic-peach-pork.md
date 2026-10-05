@@ -49,7 +49,7 @@ nutrition:
 
 ## Chef's Note
 
-Balsamic and peaches is an Italian pairing - sweet fruit cutting through savory pork, with the vinegar providing acidity that bridges the two. Pork tenderloin is a fast protein that stays tender when you don't overdo it; pull it at 135°F internal temp and let it rest for 5 minutes, then slice against the grain so each piece is tender, not stringy.
+Balsamic and peaches is an Italian pairing - sweet fruit cutting through savory pork, with the vinegar providing acidity that bridges the two. Cook these pork chops to at least 145°F in the thickest part, away from the bone, then rest for 5 minutes before serving. Watch the balsamic-honey glaze closely so it thickens without burning.
 
 ## Directions
 

@@ -48,7 +48,7 @@ nutrition:
 
 ## Chef's Note
 
-Elderberry syrup is an old folk remedy that's held up surprisingly well - elderberries are genuinely rich in anthocyanins and vitamin C, and the ginger-cinnamon-clove base adds its own anti-inflammatory punch. The critical step is letting the liquid cool below 110°F before adding honey - heat destroys the enzymes and beneficial compounds in raw honey, which is the whole point of using it. This keeps in the fridge for about 2 months; if you want it shelf-stable longer, you'd need to add alcohol or citric acid.
+This spiced elderberry-and-honey syrup is a culinary preparation. Use food-grade dried ripe elderberries and follow their cooking instructions; raw or unripe berries and other plant parts can cause illness. Do not treat it as a medicine or a shelf-stable preserve. Freeze the finished syrup in small portions for storage, and do not serve honey-containing syrup to children under 12 months.
 
 ## Directions
 
@@ -56,6 +56,6 @@ Elderberry syrup is an old folk remedy that's held up surprisingly well - elderb
 2.  **Simmer:** Bring to a boil, then reduce heat to low and cover. Simmer for 45-60 minutes until the liquid has reduced by half.
 3.  **Mash:** Remove from heat. Use a flat utensil or potato masher to crush the berries, releasing any remaining juice.
 4.  **Strain:** Pour the mixture through a fine-mesh sieve or cheesecloth into a clean glass jar. Press firmly on the solids. Discard the berries.
-5.  **Stabilize:** Let the liquid cool until it is lukewarm (below 110°F). Stir in the raw honey until completely dissolved and integrated.
-6.  **Store:** Seal the jar and store in the refrigerator for up to 2 months.
-7.  **Dose:** Standard Recommended dose is 1 tsp daily for kids, 1 tbsp for adults.
+5.  **Sweeten:** Let the liquid cool until it is lukewarm (below 110°F). Stir in the raw honey until completely dissolved and integrated.
+6. **Freeze for storage:** Cool promptly in small, clean containers and freeze in portions suitable for later use, leaving freezer-safe headspace. Thaw only the portion needed in the refrigerator. Do not can this syrup or try to make it shelf-stable by adding alcohol or citric acid.
+7. **Serve as a food:** Use a little for flavor in a drink or with food if desired. This homemade syrup has no established standard medicinal dose for children or adults.

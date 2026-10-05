@@ -23,7 +23,7 @@ ingredients:
   - 16 oz Sour Cream
   - 16 oz Large Curd Cottage Cheese
   - '8 oz Cream Cheese, softened'
-  - '8 oz Unsalted Butter, melted and divided (6 oz for custard; 2 oz for topping), plus a little for greasing'
+  - "8 oz Unsalted Butter, melted and divided (divided: 6 oz for custard; 2 oz for topping), plus a little for greasing"
   - '8 large Eggs, beaten'
   - 3/4 cup Granulated Sugar
   - 1 1/2 tsp Ground Cinnamon (for the custard)

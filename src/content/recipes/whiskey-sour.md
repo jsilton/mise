@@ -35,7 +35,7 @@ ingredients:
   - 2 oz bourbon or rye whiskey
   - 3/4 oz fresh lemon juice
   - 1/2 oz simple syrup
-  - 1/2 oz egg white (optional but recommended)
+  - 1/2 oz pasteurized egg white, optional
   - Ice
   - aromatic bitters for garnish (optional)
   - Maraschino cherry and orange slice (optional)
@@ -66,4 +66,4 @@ nutrition:
 
 ## Chef's Note
 
-The Whiskey Sour appeared in the 1860s during the golden age of American bartending, documented in Jerry Thomas's 1862 'Bartender's Guide.' Sours (spirit + citrus + sweetener) were created to make whiskey more palatable and to prevent scurvy on long sea voyages. The egg white addition came later and transforms it from a simple sour into something elegant with a silky texture and beautiful foam cap. The egg white is traditional, safe when shaken properly, and worth including for the luxurious mouthfeel it creates.
+The Whiskey Sour appeared in the 1860s during the golden age of American bartending, documented in Jerry Thomas's 1862 'Bartender's Guide.' Sours (spirit + citrus + sweetener) were created to make whiskey more palatable and to prevent scurvy on long sea voyages. The egg white addition came later and transforms it from a simple sour into something elegant with a silky texture and beautiful foam cap. Egg white adds foam and a silky mouthfeel. Use pasteurized egg white if including it, or omit it; shaking, lemon juice and whiskey do not make untreated raw egg safe.

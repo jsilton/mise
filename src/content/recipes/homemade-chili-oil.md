@@ -67,4 +67,4 @@ For kids, serve the heat on the side or reduce/omit the spicy elements.
 
 3. **The Pour:** Remove whole spices with a slotted spoon. Carefully pour the hot oil over the pepper flake mixture - it will sizzle dramatically. Stir immediately.
 
-4. **The Store:** Let cool completely, then transfer to a clean jar. Store at room temperature for up to 1 month. The sediment is the best part - stir before using.
+4. **The Store:** Cool promptly in a heatproof container, then refrigerate at 40°F or below within 2 hours, or 1 hour above 90°F. Use within 4 days, or freeze small portions promptly. Stir before serving. Do not store this fresh-garlic-and-ginger oil at room temperature.

@@ -26,7 +26,7 @@ pairsWith:
 ingredients:
   - '1.8 kg Whole Snapper, scaled and gutted'
   - '3 cloves Garlic, finely chopped'
-  - '3-inch piece Fresh Ginger, finely shredded'
+  - "1 (3-inch) piece Fresh Ginger, finely shredded"
   - 1/4 cup Soy Sauce
   - 1/4 cup Chicken Broth
   - 2 tbsp Chinese Rice Wine (Shaoxing)

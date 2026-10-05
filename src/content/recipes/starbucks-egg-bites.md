@@ -67,5 +67,5 @@ Starbucks popularized sous-vide egg bites with their distinctive velvety texture
 4.  **The Crunch:** Top each cup with a sprinkle of the chopped bacon. Press down slightly with a spoon to anchor it.
 5.  **Bake:** Bake for 20-25 minutes until the centers are set but not brown.
 6.  **The Finish:** Let rest in the pan for 10 minutes (mandatory). Gently pop them out with a knife.
-7.  **Serve:** Serve immediately or refrigerate for up to 5 days.
+7. **Serve or chill:** Serve promptly. Refrigerate in shallow containers within 2 hours, or 1 hour above 90°F / 32°C, and keep at 40°F / 4°C or below. Use within 3–4 days and reheat leftovers to 165°F / 74°C.
 

@@ -32,7 +32,7 @@ ingredients:
   - 1/2 tsp black pepper
   - '1 large yellow onion (about 200 g), chopped'
   - '8 oz (225 g) fresh cremini mushrooms, halved or quartered if large'
-  - '3 medium carrots (about 250 g), cut into 1-inch pieces'
+  - "3 medium carrots (about 250 g total), cut into 1-inch pieces"
   - '4 cloves garlic, smashed'
   - 2 cups (480 ml) dry red wine
   - '1 cup (240 ml) unsalted chicken stock, plus a little more if needed'

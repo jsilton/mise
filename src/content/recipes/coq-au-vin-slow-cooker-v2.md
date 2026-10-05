@@ -23,7 +23,7 @@ pairsWith:
 ingredients:
   - '2 lbs (900 g) boneless skinless chicken thighs, fully thawed'
   - '16 oz (450 g) cremini mushrooms, thickly sliced'
-  - '6 medium carrots (about 450 g), peeled and cut into 1/2-inch pieces'
+  - "6 medium carrots (about 450 g total), peeled and cut into 1/2-inch pieces"
   - '10 oz (283 g) frozen pearl onions'
   - '4 cloves garlic, minced'
   - '1 envelope Lipton Recipe Secrets Beefy Onion Soup Mix'

@@ -33,7 +33,7 @@ pairsWith:
   - basmati-rice
   - smashed-cucumber-salad
 ingredients:
-  - '2 racks Pork Spareribs (4 lbs), cut into 3-rib sections'
+  - "2 racks Pork Spareribs (4 lbs total), cut into 3-rib sections"
   - 1/2 cup Hoisin Sauce
   - 1/4 cup Soy Sauce
   - 1 tbsp Molasses
@@ -62,7 +62,7 @@ Honey-glazed spareribs are a Chinese-American restaurant staple. This version us
 1.  **Puree:** In a blender, combine hoisin, soy, molasses, ginger, garlic, and 1/2 cup of the honey. Blend until smooth.
 2.  **Pressurize:** Place the ribs in a pressure cooker. Pour the puree over the ribs. Add 1/4 cup water.
 3.  **Cook:** Seal and cook on **HIGH PRESSURE** for 20 minutes.
-4.  **The Reduction:** Perform a quick pressure release. Transfer the ribs to a foil-lined baking sheet, meaty side up. Pour the liquid from the cooker into a saucepan and boil over high heat for 10 minutes until reduced by half.
+4.  **The Reduction:** Allow pressure to release fully naturally, following the cooker instructions. Open only after its indicator confirms no remaining pressure and its instructions permit opening. Transfer the ribs to a foil-lined baking sheet, meaty side up. Pour the liquid from the cooker into a saucepan and boil over high heat for 10 minutes until reduced by half.
 5.  **The Lacquer:** Brush the ribs generously with the reduced sauce and the remaining 1/4 cup honey.
 6.  **Char:** Broil 6 inches from the heat for 3-5 minutes until the glaze is bubbling and charred at the edges.
 7.  **Serve:** Sliced into individual ribs with extra sauce on the side.

@@ -38,7 +38,7 @@ pairsWith:
   - baked-chicken-parmesan
   - miso-salmon-with-bok-choy
 ingredients:
-  - '2 bunches Broccolini (about 12 oz), trimmed'
+  - "2 bunches Broccolini (about 12 oz total), trimmed"
   - 3 tbsp Extra-Virgin Olive Oil
   - '3 cloves Garlic, thinly sliced'
   - 1/2 tsp Red Pepper Flakes

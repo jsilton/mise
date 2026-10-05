@@ -34,7 +34,7 @@ ingredients:
   - 6 cups High-Quality Chicken Broth
   - 1/2 cup Long-grain Rice or Orzo
   - 2 large Eggs
-  - '2 lemons, juiced (about 1/3 cup)'
+  - "2 lemons, juiced (about 1/3 cup total)"
   - Salt and white pepper
 nutrition:
   calories: 245

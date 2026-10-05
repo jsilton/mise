@@ -56,4 +56,4 @@ This Lebanese garlic sauce requires patience - add oil in the thinnest possible 
 4.  **The Stream:** Continue the process - alternating between 1/2 cup of oil and 1 tsp of lemon juice - until all the oil and lemon are used. The stream can be slightly thicker now, but never rushed.
 5.  **The Texture:** With the motor still running, slowly add the cold water. This will lighten the paste and give it its signature cloud-like fluffiness.
 6.  **Set:** Transfer to a glass jar and refrigerate for at least 4 hours before using. This allows the garlic vapors to mellow and the emulsion to set.
-7.  **Store:** Keeps in the fridge for up to 3 weeks.
+7.  **Store:** Refrigerate promptly at 40°F or below and use within 4 days, or freeze small portions promptly. Thaw in the refrigerator; the emulsion may separate. Do not rely on lemon juice alone to establish a longer storage life.

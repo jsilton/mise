@@ -154,7 +154,7 @@ This Mexican-inspired salmon dinner pairs sweet lime-honey glaze with cumin-scen
 
 ## With rice
 
-For a more substantial dinner, one full batch of [Aromatic Purple Rice](/recipes/purple-rice) supplies seven small side portions, roughly 3/4 cup each. Begin its 80-minute preparation before this recipe and allow time for the rice's transition and grain checks; leave the final fish broiling until the rice is resting or ready. The beans and corn are already included in every salmon portion.
+For a more substantial dinner, one full batch of [Aromatic Purple Rice](/mise/recipes/purple-rice) supplies seven small side portions, roughly 3/4 cup each. Begin its 80-minute preparation before this recipe and allow time for the rice's transition and grain checks; leave the final fish broiling until the rice is resting or ready. The beans and corn are already included in every salmon portion.
 
 ## Smaller oven
 

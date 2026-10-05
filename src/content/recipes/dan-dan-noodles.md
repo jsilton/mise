@@ -53,7 +53,7 @@ ingredients:
   - 3-4 tbsp Noodle Cooking Water
   - '2 Green Onions, thinly sliced'
   - '1/4 cup Roasted Peanuts, roughly chopped'
-  - 'Baby Bok Choy, halved (4 small heads, optional)'
+  - "4 small heads Baby Bok Choy, halved (optional)"
 nutrition:
   calories: 475
   protein: 17

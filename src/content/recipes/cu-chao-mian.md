@@ -61,7 +61,7 @@ Cu chao mian is a Shanghai classic characterized by its dark, glossy noodles coa
 
 1.  **Velvet:** Toss pork strips with cornstarch, wine, and soy sauce. Let stand for 10 minutes.
 2.  **The Sear:** Heat 1 tbsp oil in a wok until smoking. Sear the pork for 2 minutes until browned. Remove.
-3.  **The Crunch:** Add 1 tbsp oil. Sauté shiitakes for 2 minutes. Add the noodles and use your hands to gently separate them.
+3.  **The Crunch:** Add 1 tbsp oil. Sauté shiitakes for 2 minutes. Separate the prepared noodles before they enter the wok. Add them to the hot pan and loosen or toss with cooking chopsticks or tongs; keep hands out of the hot oil.
 4.  **Glaze:** Add both soy sauces and sugar. Stir-fry for 3 minutes over high heat until the noodles are evenly dark and glossy.
 5.  **Finish:** Add the bok choy and the cooked pork. Toss for 1 minute until the greens are just wilted but the stems stay crunchy.
 6.  **Serve:** Serve immediately. Add a dash of Chinese black vinegar at the table for the mandatory **Acid Balance**.

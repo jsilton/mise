@@ -42,7 +42,7 @@ ingredients:
   - '1 tbsp Fresh Ginger, grated'
   - 1 cup Beef Stock or Water
   - 4 Cups Cooked Steamed Rice (warm)
-  - '4 Soft-Boiled or Poached Eggs (optional, but recommended)'
+  - '4 Eggs, fully cooked, or pasteurized shell eggs soft-boiled or poached (optional)'
   - '4 Green Onions, sliced (for garnish)'
   - 'Shichimi Togarashi (Japanese 7-spice), optional'
 nutrition:
@@ -69,8 +69,8 @@ Gyudon is Tokyo comfort food - beef and onions simmered in a slightly sweet, dee
 
 4. **Simmer:** Pour the sauce over the beef and onions. Reduce heat to medium and simmer for 4-5 minutes. The sauce should reduce slightly and become glossy. Taste and adjust soy sauce or mirin if needed.
 
-5. **Assemble:** Place warm rice in a bowl. Pour the beef and onion mixture with all its broth over the rice. Top with a soft-boiled or poached egg (if using) so the warm rice cooks it slightly.
+5. **Assemble:** Place warm rice in a bowl. Pour the beef and onion mixture with all its broth over the rice. If using an egg, top with a fully cooked egg or a soft-boiled or poached pasteurized shell egg. Warm rice is not a reliable way to cook an egg safely.
 
 6. **Garnish:** Sprinkle with sliced green onions and a pinch of shichimi togarashi if desired.
 
-**Egg Note:** A soft-boiled egg (6-7 minutes) is traditional - when you break the yolk, it mixes with the hot broth and rice. Not essential, but it elevates this from quick dinner to something special.
+**Egg Note:** A soft yolk mixes into the broth and rice. For this option, use shell eggs labeled as pasteurized; otherwise cook both the yolk and white until firm. The egg is optional.

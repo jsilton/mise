@@ -62,7 +62,7 @@ Use an electric pressure cooker with a sauté setting. Follow its minimum-liquid
 2.  **Aromatics:** Add garlic and sauté for 30 seconds. Sprinkle the flour over the leeks and stir for 1 minute to cook out the raw starch taste.
 3.  **Deglaze:** Pour in the broth slowly, scraping the bottom of the pot to ensure no flour sticks.
 4.  **Pressure:** Add potatoes, bay leaf, nutmeg, salt, and pepper. Secure the lid. Set to **High Pressure for 7 minutes**.
-5.  **Release:** Let the pressure release naturally for 15 minutes (mandatory for potato texture), then vent any remaining steam.
+5.  **Release:** Turn Keep Warm off and let pressure release fully naturally. Open only after the pressure indicator has dropped and the model’s instructions confirm it is safe.
 6.  **The Emulsion:** Remove the bay leaf. Use an immersion blender to puree the soup directly in the pot until perfectly smooth.
 7.  **Finish:** Stir in the half-and-half. Taste and adjust salt if needed.
 8.  **Serve:** Garnish with a dollop of sour cream and fresh chives for **Textural Balance**.

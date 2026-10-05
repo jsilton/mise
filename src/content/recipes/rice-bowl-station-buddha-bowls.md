@@ -48,7 +48,7 @@ ingredients:
   - '2 cups Cooked Rice (jasmine, brown, sushi rice, or cilantro-lime rice)'
   - 2 cups Cooked Quinoa (fluffy and nutty)
   - 2 cups Cooked Farro (earthy and chewy)
-  - '--- The Protein (Choose 1-2, raw or cooked) ---'
+  - '--- The Protein (Choose 1-2, cooked and ready to eat) ---'
   - 1 cup Roasted Chickpeas (crispy and seasoned)
   - 1 lb Baked Tofu (cubed and marinated)
   - 4 Soft-Boiled Eggs (halved)

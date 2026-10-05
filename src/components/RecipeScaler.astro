@@ -55,10 +55,11 @@ const fixed = scaling?.mode === 'fixed';
     formulaYield,
     formulaShoppingList,
   } from '../lib/recipe-formula.mjs';
-  import { scaleIngredient, formatYield } from '../lib/quantities.mjs';
+  import { scaleIngredientParts, formatYield } from '../lib/quantities.mjs';
   const scaler = document.getElementById('recipe-scaler');
   const formula = scaler?.dataset.formula ? JSON.parse(scaler.dataset.formula) : null;
   const entries = formula ? formulaEntries(formula) : [];
+  const originalText = new WeakMap<HTMLElement, { nodes: Text[]; parts: string[] }>();
   scaler?.querySelectorAll<HTMLButtonElement>('[data-scale]').forEach((button) => {
     button.addEventListener('click', () => {
       const factor = Number(button.dataset.scale);
@@ -67,14 +68,21 @@ const fixed = scaling?.mode === 'fixed';
         .querySelectorAll('[data-scale]')
         .forEach((b) => b.setAttribute('aria-pressed', String(b === button)));
       document.querySelectorAll<HTMLElement>('[data-ingredient-text]').forEach((span) => {
-        // Update the first text node only so linked component recipes remain links.
-        const first = span.firstChild;
-        if (first?.nodeType !== Node.TEXT_NODE) return;
-        span.dataset.original ??= first.textContent || '';
+        let original = originalText.get(span);
+        if (!original) {
+          const walker = document.createTreeWalker(span, NodeFilter.SHOW_TEXT);
+          const nodes: Text[] = [];
+          while (walker.nextNode()) nodes.push(walker.currentNode as Text);
+          original = { nodes, parts: nodes.map((node) => node.textContent || '') };
+          originalText.set(span, original);
+        }
         const entry = entries[Number(span.dataset.formulaIndex)];
-        first.textContent = entry
-          ? formatFormulaIngredient(entry, factor)
-          : scaleIngredient(span.dataset.original, factor);
+        const scaled = entry
+          ? [formatFormulaIngredient(entry, factor)]
+          : scaleIngredientParts(original.parts, factor);
+        original.nodes.forEach((node, index) => {
+          node.textContent = scaled[index] ?? '';
+        });
       });
       const yieldLabel = document.getElementById('scaled-yield');
       const scaledYield = formula

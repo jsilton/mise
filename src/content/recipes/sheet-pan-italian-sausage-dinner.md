@@ -78,5 +78,5 @@ This is the ultimate Tuesday night dinner: everything roasts on one pan, the bro
 
 - **Sweet Italian Sausage:** Mild, fennel-forward, kid-friendly
 - **Hot Italian Sausage:** Spicy kick, adult-preferred
-- **Chicken Sausage:** Lighter option, same method
+- **Chicken Sausage:** Use raw chicken sausage only with a measured 165°F center endpoint; fully cooked products follow their package reheating instructions.
 - For extra crispy potatoes, boil them first, smash with a fork, then roast at high heat

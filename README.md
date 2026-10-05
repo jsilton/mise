@@ -172,3 +172,22 @@ The key to this dish is **Culinary Technique** through **The [Method Name]**.
 Mise now connects recipes to public lessons in browning, emulsions, eggs, braising, stir-frying, starch, seasoning, and temperature. Reviewed recipes show preparation decisions, step-specific cues and explanations, troubleshooting, substitutions, storage, and direct sources. The public recipe standard distinguishes editorial review from documented kitchen testing.
 
 Read [the recipe development standard](docs/RECIPE_STANDARD.md). Run `npm test` and `npm run editorial-audit` for the new integrity checks and the full collection review queue. Automated checks are not a substitute for cooking the recipe.
+
+## Recipe exports and integrity checks
+
+The site JSON-LD, JSON export and Paprika export share a CommonMark/GFM instruction parser in `src/lib/recipe-content.mjs`. Only ordered-list items inside `## Directions` become steps. Subsections remain `HowToSection` objects; equipment preambles remain section descriptions rather than extra steps. Nested lists stay inside their parent step. Paprika keeps the full method prose, other body sections and original source links, with internal body links resolved against each canonical page. Paprika ingredient links also become absolute while retaining their labels, quantities and intended targets; legacy `/recipes/` targets receive the same `/mise/` base used by the site. Recognized `--- Section ---` ingredient dividers become colon-ended Paprika headings (`Section:`); unrecognized labels retain the existing policy. The combined text retains the existing record markers, full authored ingredients and Markdown, plus selected canonical URL, source attribution and source-URL lines when available. It does not dump every legacy frontmatter field.
+
+After approved source changes, regenerate and validate the three artifacts:
+
+```bash
+npm run export:jsonld
+npm run export:paprika
+npm run export:text
+npm run export:check
+```
+
+Each exporter accepts an optional output filename as its first argument for isolated previews. `export:check` accepts an export-directory path and combined-text path. No exporter publishes files or changes deployment settings. Export failure exits nonzero and leaves the previous output intact. The Paprika exporter requires `zip` and `unzip` on `PATH`; it checks the archive CRCs, exact recipe membership, gzip payloads and every recipe's content before replacing the output. Container verification is not an in-app import test. Paprika's [official format guide](https://www.paprikaapp.com/help/ipad/) describes the ZIP/gzipped-JSON container.
+
+Exports use the current complete recipe collection, including existing craft entries such as playdough; this does not certify those entries as food. Any separate food/craft classification needs an explicit content policy. Source credits are preserved without assuming that a place, publisher or Git author is the recipe author. Legacy nutrition remains withheld in both structured exports, matching the site. No publication date or substitute nutrient estimate is invented. Unrecognized ingredient-section labels remain a separate source-model issue.
+
+`npm test` includes parser, recipe-set, serialization, failed-packaging and deployment-base regressions. Run `node scripts/check-built-links.mjs dist` after building to reject same-origin links outside the configured deployment base. The default base remains `/mise/`; intentional same-host links outside this app would require an explicitly scoped checker exception.

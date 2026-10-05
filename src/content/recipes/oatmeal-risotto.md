@@ -59,7 +59,7 @@ Oatmeal risotto treats steel-cut oats with the same respect Italians give Arbori
 
 ## Directions
 
-1.  **The Hydration:** In a medium bowl, combine the oats and water/broth. Cover and **let stand overnight** at room temperature.
+1.  **The Hydration:** In a medium bowl, combine the oats and water/broth. Cover and refrigerate overnight at 40°F or below. Keep the oats and all soaking liquid cold until ready to cook.
 2.  **The Acid Balance:** In a small bowl, pour the sherry vinegar over the golden raisins. Let soak while the oats cook.
 3.  **Simmer:** Pour the oats and their soaking liquid into a saucepan. Bring to a boil, then reduce to a simmer. Add brown sugar and salt.
 4.  **Cook:** Cook for 20 minutes, stirring occasionally, until the oats are "squeaky" to the bite (al dente).

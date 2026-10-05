@@ -70,7 +70,7 @@ nutrition:
 
 ## Chef's Note
 
-Spatchcocking (splitting out the backbone and flattening the bird) is the single best way to roast chicken at home. The flat chicken cooks 25-30% faster than a whole bird, the thighs reach proper doneness without the breasts drying out, and the entire surface gets exposed to heat for maximum browning. This technique comes from the tradition of breaking down chickens for grilling in southern Europe and was popularized for home ovens by America's Test Kitchen after testing dozens of methods. Kenji López-Alt's research proved that a 4-5 lb chicken spatchcocked, roasted at 475°F, and rested properly produces chicken that's crispy outside and juicy inside every single time. The key is an instant-read thermometer: 165°F at the thickest part of the thigh (without touching bone), and you're done.
+Removing the backbone and flattening the chicken exposes more skin and can shorten roasting time. Breast and leg meat still differ in thickness, so check each required temperature site rather than assuming they finish together. Use a thermometer and remove the bird once all required sites reach 165°F / 74°C.
 
 ## Directions
 
@@ -96,7 +96,7 @@ Spatchcocking (splitting out the backbone and flattening the bird) is the single
 
 9. **Roast:** Put the baking sheet in the preheated oven. Roast for 35-45 minutes, depending on the size of the bird. A 4-lb chicken is done in about 35-40 minutes; a 5-lb bird needs closer to 45 minutes.
 
-10. **Check for Doneness:** Using an instant-read thermometer, check the temperature at the thickest part of the thigh (the part closest to where the thigh meets the body), making sure the thermometer doesn't touch bone. It should read 165°F. If it's not there yet, check every 2-3 minutes. The breasts should also register 160-165°F, but they'll cook faster, so focus on the thighs.
+10. **Check doneness:** Measure the thickest part of each breast and the innermost thighs and wings without touching bone. Every checked site must reach at least 165°F / 74°C before removal. Recheck any cooler area after further roasting; the timer and skin color do not establish doneness.
 
 11. **The Visual Cue:** The skin should be deep golden brown, almost mahogany in color. If the skin is pale but the temperature is 165°F, you've cooked it correctly (don't cook it longer for color - the chicken will dry out).
 
@@ -113,7 +113,7 @@ Spatchcocking (splitting out the backbone and flattening the bird) is the single
 ### Pro Tips for Perfect Results
 
 - **Thermometer is essential:** Don't rely on leg wiggling or juice color. Use an instant-read thermometer - it removes all guesswork.
-- **Don't overcook:** The moment the thighs hit 165°F, the chicken is done. Cooking to 170°F or higher results in dry meat. Resting time brings carry-over cooking.
+- **Do not rely on carryover:** Check both breasts and the innermost thighs and wings for at least 165°F / 74°C before removal. Leg meat and breast meat do not share a single universal drying temperature.
 - **Use the backbone:** Save it for stock. A good chicken stock requires the backbone, so don't waste it.
 - **Skin texture:** If your oven has a convection setting, you can use it for 10-15 minutes at the end (separate from regular roast) to really crisp the skin. Watch carefully so it doesn't burn.
 - **Timing confidence:** 475°F, spatchcocked, 35-45 minutes (depending on size), thermometer-verified at 165°F, then 10-minute rest = perfect chicken, every time.
@@ -131,5 +131,5 @@ Spatchcocking works because:
 
 - **Even thickness:** A flattened chicken has uniform thickness, so everything cooks at the same rate
 - **Surface area:** The flat shape exposes more skin to direct heat, enabling better browning
-- **Thigh vs. breast balance:** Thighs and breasts are now at similar distances from the heat source, so they finish at approximately the same time (rather than needing the breasts to reach 160°F while thighs finish at 165-175°F)
+- **Thigh and breast checks:** Flattening can help the parts cook more evenly, but each breast and the innermost thighs and wings still need separate checks for at least 165°F / 74°C.
 - **High temperature + short time:** 475°F for 35-45 minutes creates a Maillard reaction on the skin (browning) before the meat overcooks.

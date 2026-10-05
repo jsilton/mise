@@ -132,7 +132,7 @@ Tonkotsu ramen is a Fukuoka specialty built on one fundamental: pork bones simme
 - **The creamy broth:** The creaminess comes from emulsified collagen and fat. Don't skim off the fat after simmering - it's what makes tonkotsu tonkotsu. If you prefer a clearer broth, make shoyu ramen instead (simmer for only 2-3 hours).
 - **Chashu pork:** If you don't have braised pork belly, use leftover pulled pork, shredded rotisserie chicken, or even thin slices of deli roast pork. Just warm it gently before serving.
 - **Fresh vs. dried noodles:** Fresh ramen noodles are available at most Asian markets and even some supermarkets. They cook in 2-3 minutes. Dried ramen noodles work but can become mushy if you're not careful - add them to the bowl and pour hot broth over them to cook gently.
-- **Make-ahead broth:** The broth can be made up to 3 days ahead and refrigerated. The fat will solidify on top (this is good - it protects the broth underneath). Reheat gently before serving. It also freezes beautifully for up to 2 months.
+- **Make-ahead broth:** Divide broth into shallow containers and refrigerate within 2 hours, or 1 hour above 90°F / 32°C, at 40°F / 4°C or below. Use within 3 days and reheat to 165°F / 74°C throughout before serving. A solid fat layer does not replace rapid cooling or refrigeration. It also freezes beautifully for up to 2 months.
 - **Eggs:** Soft-boil eggs ahead of time and refrigerate. Reheat in hot water or warm broth just before serving. The yolk should be jammy (runny in the center) - this is key.
 - **Tare concentration:** The tare is intentionally salty and intense. Start with 2 tbsp per bowl and taste. You can always add more, but you can't remove it.
 

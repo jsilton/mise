@@ -59,12 +59,12 @@ Sautéing bacon first, removing it for garnish, then cooking aromatics in the re
 
 ## Directions
 
-Use an electric pressure cooker with a sauté setting. Follow its minimum-liquid, maximum-fill and pressure-release instructions; these depend on the model.
+Use an electric pressure cooker with a sauté setting. Follow the model’s minimum-liquid requirements and soup fill limit before sealing; do not exceed its marked limit. Use full natural pressure release for this soup.
 
 1.  **The Render:** Set the electric pressure cooker to "Sauté" (High). Add diced bacon and cook until crispy (6-8 mins). Remove bacon to a plate, leaving the fat in the pot.
 2.  **Aromatics:** Add onion to the bacon fat. Sauté for 3 minutes until translucent. Stir in garlic, sage, and thyme; cook for 30-45 seconds until fragrant.
 3.  **Pressure:** Stir in the squash, carrots, celery, and chopped apple. Pour in the chicken stock and season with salt and pepper.
 4.  **Cook:** Secure the lid. Set to **High Pressure for 12 minutes**.
-5.  **Release:** Perform a "quick Release" of the pressure. Remove and discard the thyme sprigs.
+5.  **Release:** Turn Keep Warm off and allow pressure to release fully naturally. Open only when the cooker indicates no pressure remains and its instructions permit opening. Remove and discard the thyme sprigs.
 6.  **The Emulsion:** Stir in the heavy cream. Using an immersion blender, puree the soup directly in the pot until completely velvety and smooth.
 7.  **Serve:** Ladle into bowls. Garnish with the reserved crispy bacon and chives for the mandatory **Textural Snap**.

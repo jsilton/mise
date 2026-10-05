@@ -58,7 +58,7 @@ ingredients:
   - >-
     2 cups (480 ml) low-sodium chicken broth, divided, plus up to 1 cup (240 ml) only if needed to
     loosen
-  - '1 can (15 oz / 425 g) plain white beans, rinsed and drained, about 255 g drained'
+  - "1 can (15 oz / 425 g) plain white beans, rinsed and drained, about 255 g drained total"
   - '2 tbsp fresh lime juice, added gradually only if needed'
   - 1/4 cup chopped fresh cilantro
   - '--- Optional toppings, for the whole batch ---'

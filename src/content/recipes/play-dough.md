@@ -35,7 +35,6 @@ ingredients:
   - 2 tsp Cream of Tartar
   - 1 cup Water
   - 1 tbsp Vegetable Oil
-  - Oil of Wintergreen (optional for aroma)
   - Food Coloring or Liquid Watercolors
 origin: United States
 nutrition:

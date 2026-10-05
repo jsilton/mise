@@ -106,9 +106,9 @@ Minestrone is Italian peasant cooking at its most democratic - it's a soup where
 
 ### Make-Ahead and Storage Notes
 
-- **The next day tastes better:** The flavors meld overnight. Make this the day before if you can. Store in airtight containers in the refrigerator for up to 5 days.
-- **Freezing:** Cool completely, then freeze in 2-cup portions for up to 3 months. The pasta may absorb more liquid when thawed - if the soup is too thick, thin with a splash of stock when reheating. Add fresh lemon juice and basil after reheating (never cook these into the soup or they lose their brightness).
-- **Reheating:** Thaw overnight in the refrigerator. Reheat gently on the stovetop over medium heat, stirring occasionally. If too thick, add a splash of water or stock.
+- **The next day tastes better:** The flavors meld overnight. Make this the day before if you can. Divide into shallow containers and refrigerate within 2 hours, or 1 hour above 90°F / 32°C, at 40°F / 4°C or below. Use within 3–4 days.
+- **Freezing:** Cool promptly in shallow portions under refrigeration, then freeze in 2-cup portions for up to 3 months. The pasta may absorb more liquid when thawed - if the soup is too thick, thin with a splash of stock when reheating. Add fresh lemon juice and basil after reheating (never cook these into the soup or they lose their brightness).
+- **Reheating:** Thaw overnight in the refrigerator. Reheat on the stovetop, stirring, until the soup reaches 165°F / 74°C throughout and comes to a rolling boil. If too thick, add a splash of water or stock.
 - **For school lunches:** Pack the soup (without the oil and Parmesan finishing) in containers. Heat in the microwave at school or pack in a thermos. Add lemon and basil at the table if possible.
 
 ### Variations (Use What You Have)

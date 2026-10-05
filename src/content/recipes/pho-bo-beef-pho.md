@@ -44,7 +44,7 @@ ingredients:
   - '3 lbs Beef Marrow Bones, cut into 3-inch pieces'
   - '2 lbs Beef Brisket, whole piece'
   - '2 large Yellow Onions, unpeeled and halved'
-  - '4-inch piece Fresh Ginger, halved lengthwise'
+  - "1 (4-inch) piece Fresh Ginger, halved lengthwise"
   - '4 Star Anise, whole'
   - '1 Cinnamon Stick (3-inch, Vietnamese preferred)'
   - 6 whole Cloves
@@ -92,6 +92,6 @@ The soul of great pho bo lives in the charred aromatics and the long, patient si
 
 7.  **Prepare the Noodles:** Soak the rice noodles in warm water for 20-25 minutes until pliable. Just before serving, cook in rapidly boiling water for 30-60 seconds until tender. Drain immediately.
 
-8.  **Slice the Meats:** Slice the chilled brisket across the grain into thin pieces. Arrange the raw eye of round slices separately -- the hot broth will cook them in the bowl.
+8.  **Prepare the Meats:** Slice the chilled brisket across the grain into thin pieces and reheat it in simmering broth to 165°F / 74°C throughout. For the fully cooked eye of round, cook the slices in simmering broth before assembly, checking representative pieces with a suitable thin-tip thermometer for at least 145°F / 63°C, then allow a 3-minute rest before serving. Color change or brief contact with hot broth alone does not establish doneness; if the thin slices cannot be reliably measured, do not assume this endpoint has been verified.
 
-9.  **Assemble:** Divide noodles among deep bowls. Top with sliced brisket and raw eye of round. Ladle the boiling-hot broth over the meat (the raw beef will turn pink and cook instantly). Serve immediately with a platter of bean sprouts, Thai basil, cilantro, lime wedges, jalapenos, hoisin, and sriracha.
+9.  **Assemble:** Divide noodles among deep bowls. Top with the reheated brisket and cooked, rested eye of round. Ladle hot broth over the meat and noodles. Serve immediately with a platter of bean sprouts, Thai basil, cilantro, lime wedges, jalapenos, hoisin, and sriracha.
