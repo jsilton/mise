@@ -95,7 +95,7 @@ test('all seven known method mismatches have their actual authored step counts',
   const recipes = new Map((await loadRecipes()).map((recipe) => [recipe.slug, recipe]));
   for (const [slug, count] of Object.entries({
     'boston-style-peking-ravioli': 10,
-    'homemade-pizza-night': 12,
+    'homemade-pizza-night': 9,
     'instant-pot-butternut-squash-soup': 7,
     'instant-pot-potato-leek-soup': 8,
     'red-zone-margarita': 8,
@@ -248,17 +248,15 @@ test('every corpus ingredient link exports its existing target as an absolute UR
       }
     }
   }
-  assert.ok(links >= 36, 'covers all current component links');
+  assert.ok(links >= 34, 'covers all current component links');
   assert.ok(legacyBaseLinks >= 3, 'covers the three legacy root recipe links');
   const bySlug = new Map(recipes.map((recipe) => [recipe.slug, recipe]));
-  // These independently held semantic mislinks must not be silently retargeted.
-  assert.match(
-    createPaprikaRecipe(bySlug.get('pizza')).ingredients,
-    /\[Fresh Pasta Dough\]\(https:\/\/jordansilton.com\/mise\/recipes\/fresh-pasta-dough\)/
-  );
-  assert.match(
+  // The source-reviewed pizza/shells batch removes two semantic mislinks.
+  // The remaining corpus links still use the same normalization assertions above.
+  assert.doesNotMatch(createPaprikaRecipe(bySlug.get('pizza')).ingredients, /fresh-pasta-dough/);
+  assert.doesNotMatch(
     createPaprikaRecipe(bySlug.get('stuffed-shells-filled-with-spinach-and-ricotta')).ingredients,
-    /\[Roasted Tomato Basil Sauce\]\(https:\/\/jordansilton.com\/mise\/recipes\/roasted-tomato-basil-soup\)/
+    /roasted-tomato-basil-soup/
   );
 });
 

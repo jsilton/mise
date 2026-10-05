@@ -1,6 +1,6 @@
 ---
-title: Homemade Pizza Night (No-Knead Dough)
-origin: Italy / American
+title: Homemade Pizza Night
+origin: Italian-American home cooking
 difficulty: intermediate
 cookingMethods:
   - bake
@@ -22,10 +22,10 @@ cuisines:
   - American
 role: main
 vibe: comfort
-prepTime: 10 min (active)
-cookTime: 30 min
-totalTime: 2 days (mostly hands-off)
-servings: '4'
+prepTime: 45 min
+cookTime: 60 min
+totalTime: 21 hours
+servings: 4 portions
 seasons:
   - year-round
 nutritionalDensity: moderate
@@ -34,97 +34,403 @@ advancePrep:
   - rest-dough
   - components-ahead
 equipment:
-  - baking-sheet
-  - pizza-stone-optional
-  - oven
+  - kitchen-scale
   - mixing-bowl
+  - two-oven-rated-pizza-pans
+  - oven
+  - pizza-stone-and-peel-optional
 pairsWith:
   - everyday-arugula-salad
   - coleslaw
 ingredients:
-  - '--- The Dough (Make 1-2 days ahead) ---'
-  - 3 cups All-Purpose Flour (or bread flour for chewier crust)
-  - 1.5 tsp Kosher Salt
-  - 1/4 tsp Instant Yeast (active-dry or instant)
-  - 1.5 cups Room-Temperature Water
-  - Olive oil (for handling and pan)
-  - '--- The Sauce (20 minutes or store-bought) ---'
-  - 1 (28 oz) can San Marzano Tomatoes (crushed by hand)
-  - 2 tbsp Olive Oil
-  - '3 cloves Garlic, minced (or 1/2 tsp garlic powder)'
-  - 1/2 tsp Salt
-  - 1/4 tsp Red Pepper Flakes (optional)
-  - 'Fresh Basil (add at the end, optional)'
-  - '--- The Cheese ---'
-  - '12 oz Fresh Mozzarella (or low-moisture mozzarella if making ahead, torn into pieces)'
-  - 1 oz Parmesan (freshly grated)
-  - '--- Topping Suggestions (Choose 3-4) ---'
-  - Pepperoni Slices
-  - Fresh Basil Leaves (add after baking)
-  - Thinly Sliced Red Onion
-  - Sliced Bell Peppers (any color)
-  - Sliced Mushrooms
-  - Caramelized Onions (made ahead)
-  - Cooked Italian Sausage (crumbled)
-  - Shredded Rotisserie Chicken
-  - Roasted Garlic Cloves
-  - Fresh Spinach (wilts during baking)
-  - Artichoke Hearts
-  - "Sliced Tomatoes (add sparingly, or they'll release water)"
-nutrition:
-  calories: 520
-  protein: 15
-  carbs: 84
-  fat: 13.5
-  fiber: 5.5
-  sugar: 5.5
-  sodium: 1260
+  - '--- Overnight dough ---'
+  - 500 g all-purpose flour
+  - '350 g water, at room temperature'
+  - '16 g fine sea salt, weighed'
+  - 1 g (1/4 tsp) active-dry yeast
+  - '--- Sauce batch; use part and save the rest ---'
+  - '1 can (28 oz) whole peeled tomatoes, crushed by hand with their juices'
+  - 2 tbsp olive oil
+  - '3 garlic cloves, minced'
+  - 1/2 tsp fine salt
+  - '1/4 tsp red pepper flakes, optional'
+  - 'fresh basil, a few torn leaves, to taste, optional'
+  - '--- Cheese, handling and optional toppings ---'
+  - '12 oz fresh mozzarella, torn small, drained and blotted dry'
+  - '1 oz Parmesan, finely grated'
+  - 'flour, for lightly dusting the work surface during portioning'
+  - 'flour, for dusting the work surface and peel, as needed'
+  - 'olive oil, for lightly oiling the pans, if using the pan route, optional'
+  - 'prepared pizza toppings, a sparse single layer, as desired, optional'
+  - 'fresh basil, a few leaves, to taste, optional'
+description: >-
+  Overnight no-knead dough, tomato sauce and a mozzarella-Parmesan topping bar, baked as four
+  personal pizzas.
+scaling:
+  mode: fixed
+  reason: >-
+    The dough makes four 10-inch pizzas or two 14-inch pizzas with matched topping portions. Use the
+    complete batch and its specified geometry; baking and fermentation times do not scale
+    arithmetically.
+source: 'Dough adapted from Jim Lahey, published by J. Kenji López-Alt in Serious Eats'
+sourceUrl: 'https://www.seriouseats.com/jim-laheys-no-knead-pizza-dough-recipe'
+formula:
+  version: 1
+  yield:
+    amount: 4
+    unit: portion
+  components:
+    - id: dough
+      name: Overnight dough
+      ingredients:
+        - id: flour
+          key: flour
+          name: all-purpose flour
+          quantity:
+            amount: 500
+            unit: g
+          uses:
+            - step: mix
+              share: 1
+        - id: water
+          key: water
+          name: water
+          quantity:
+            amount: 350
+            unit: g
+          uses:
+            - step: mix
+              share: 1
+          preparation: at room temperature
+        - id: fine-sea-salt
+          key: fine-sea-salt
+          name: fine sea salt
+          quantity:
+            amount: 16
+            unit: g
+          uses:
+            - step: mix
+              share: 1
+          preparation: weighed
+        - id: active-dry-yeast
+          key: active-dry-yeast
+          name: active-dry yeast
+          quantity:
+            amount: 1
+            unit: g
+          uses:
+            - step: mix
+              share: 1
+          equivalents:
+            - amount: 1/4
+              unit: tsp
+    - id: sauce
+      name: Sauce batch; use part and save the rest
+      ingredients:
+        - id: tomatoes
+          key: tomatoes
+          name: whole peeled tomatoes
+          quantity:
+            amount: 1
+            unit: can
+          uses:
+            - step: sauce
+              share: 1
+          packageSize:
+            amount: 28
+            unit: oz
+          preparation: crushed by hand with their juices
+        - id: olive-oil
+          key: olive-oil
+          name: olive oil
+          quantity:
+            amount: 2
+            unit: tbsp
+          uses:
+            - step: sauce
+              share: 1
+        - id: garlic
+          key: garlic
+          name: garlic clove
+          quantity:
+            amount: 3
+            unit: count
+          uses:
+            - step: sauce
+              share: 1
+          plural: garlic cloves
+          preparation: minced
+        - id: fine-salt
+          key: fine-salt
+          name: fine salt
+          quantity:
+            amount: 1/2
+            unit: tsp
+          uses:
+            - step: sauce
+              share: 1
+        - id: pepper-flakes
+          key: pepper-flakes
+          name: red pepper flakes
+          quantity:
+            amount: 1/4
+            unit: tsp
+          uses:
+            - step: sauce
+              share: 1
+          optional: true
+        - id: sauce-basil
+          key: sauce-basil
+          name: fresh basil
+          allowance: 'a few torn leaves, to taste'
+          uses:
+            - step: sauce
+              share: 1
+          optional: true
+    - id: assembly
+      name: 'Cheese, handling and optional toppings'
+      ingredients:
+        - id: mozzarella
+          key: mozzarella
+          name: fresh mozzarella
+          quantity:
+            amount: 12
+            unit: oz
+          uses:
+            - step: top
+              share: 1
+          preparation: 'torn small, drained and blotted dry'
+        - id: parmesan
+          key: parmesan
+          name: Parmesan
+          quantity:
+            amount: 1
+            unit: oz
+          uses:
+            - step: top
+              share: 1
+          preparation: finely grated
+        - id: portion-flour
+          key: flour
+          name: flour
+          allowance: for lightly dusting the work surface during portioning
+          uses:
+            - step: portion
+              share: 1
+        - id: dusting-flour
+          key: dusting-flour
+          name: flour
+          allowance: 'for dusting the work surface and peel, as needed'
+          uses:
+            - step: shape
+              share: 1
+        - id: pan-oil
+          key: pan-oil
+          name: olive oil
+          allowance: 'for lightly oiling the pans, if using the pan route'
+          uses:
+            - step: shape
+              share: 1
+          optional: true
+        - id: prepared-toppings
+          key: prepared-toppings
+          name: prepared pizza toppings
+          allowance: 'a sparse single layer, as desired'
+          uses:
+            - step: top
+              share: 1
+          optional: true
+        - id: finishing-basil
+          key: finishing-basil
+          name: fresh basil
+          allowance: 'a few leaves, to taste'
+          uses:
+            - step: finish
+              share: 1
+          optional: true
+  steps:
+    - id: mix
+      title: Mix the dough
+      text: >-
+        Combine {{ingredients}} until no dry flour remains. The dough will be sticky. Cover the
+        bowl; no kneading is needed.
+    - id: rise
+      title: Ferment overnight
+      text: >-
+        Let the covered dough rise around 72°F / 22°C until it is bubbly and more than doubled,
+        approximately 18 hours. Check earlier in a warm room and allow longer in a cool one. When
+        ready, portion it as below; do not extend the room-temperature rise blindly to two days.
+    - id: portion
+      title: Portion and relax
+      text: >-
+        Lightly dust the work surface with {{ingredients}}. For four 10-inch pizzas, divide the
+        dough into four equal portions, approximately 217 g each. For two 14-inch pizzas, divide
+        into two approximately 434 g portions instead. Fold the edges underneath to make rounded
+        balls without flattening out all the gas. Cover and rest about 1 hour until pliable.
+        Alternatively, cover the risen, portioned dough individually and refrigerate up to 3 days;
+        on baking day allow the covered balls about 2–3 hours at room temperature to relax instead
+        of the one-hour rest. Prepare the oven and toppings during the last hour.
+    - id: heat
+      title: Set up the oven
+      text: >-
+        Heat the oven to 500°F. For the pan route, use two room-temperature metal pans rated for
+        that temperature, with enough flat area for the chosen diameter, and bake one at a time on
+        the middle rack. A 14-inch round requires a suitably large round pan; do not assume it fits
+        a standard baking sheet. For the stone route, put a suitably rated stone in the cold oven
+        and preheat it for 1 hour; the stone and peel must fit the chosen diameter. Neither route
+        uses parchment. Keep used pans aside to cool before reloading.
+    - id: sauce
+      title: Cook the sauce batch
+      text: >-
+        Have {{ingredients}} ready. Warm the oil over medium-low heat, add the garlic and cook 30–45
+        seconds until fragrant but not browned. Stir in the tomatoes, salt and optional pepper
+        flakes. Simmer 10–15 minutes, stirring, until spreadable without a puddle of loose liquid;
+        add the optional basil at the end. Let cool enough to handle. Measure 3/4 cup for the full
+        pizza batch and refrigerate the surplus promptly; the whole can is not meant to go onto the
+        pizzas. If using prepared sauce instead, omit this entire sauce component and measure 3/4
+        cup thick pizza sauce.
+    - id: shape
+      title: Shape one pizza
+      text: >-
+        Use {{ingredients}} as needed. Stretch one ball to its chosen 10-inch or 14-inch diameter,
+        leaving a thicker rim. Cover and wait another 10 minutes if it springs back. Move the
+        untopped round onto a lightly oiled cool pan, or a lightly floured peel and confirm it
+        slides. Keep unused dough covered and prepared perishable toppings chilled.
+    - id: top
+      title: Allocate cheese and toppings
+      text: >-
+        Divide {{ingredients}} into four sets for small pizzas or two sets for large ones. Each
+        10-inch pizza gets 3 tbsp prepared sauce, 3 oz mozzarella and 1/4 oz Parmesan; each 14-inch
+        pizza gets 6 tbsp sauce, 6 oz mozzarella and 1/2 oz Parmesan. Spread its sauce leaving a
+        1/2- to 3/4-inch rim. Add half of that pizza’s mozzarella, a sparse layer of the chosen
+        toppings, then its remaining mozzarella and its full Parmesan portion. On a peel, check
+        again that it slides and bake immediately. Use ready-to-eat pepperoni or fully cooked
+        sausage, bacon or chicken; thinly slice quick-cooking vegetables, cook and cool mushrooms
+        first, and drain wet toppings. Keep perishable toppings chilled until assembly.
+    - id: bake
+      title: Bake one at a time
+      text: >-
+        Put the pan on the middle rack, or launch directly onto the stone. Start checking at 10
+        minutes; roughly 12–15 minutes is a guide, not a fixed endpoint for every size, cheese and
+        baking surface. The underside should be browned, the center set and the rim golden, with
+        melted cheese. Rotate safely with the pan or peel if browning is uneven, and allow longer if
+        the bottom is pale. Keep the oven on between pizzas and give a stone about 5 minutes to
+        recover.
+    - id: finish
+      title: Finish and serve in rounds
+      text: >-
+        Add {{ingredients}} after baking. Rest the pizza on a rack for 2–3 minutes, cut and serve.
+        Shape, top and bake each remaining pizza separately, using its assigned sauce and cheese.
+        Alternate pans and let them cool before reloading; never assemble on a hot pan. Four pizzas
+        mean four oven rounds, not one 15-minute bake.
+learning:
+  focus: 'Match weighed dough, fermentation and pizza size'
+  outcome: >-
+    An airy, stretchable dough baked into a browned base with melted cheese and evenly distributed
+    toppings.
+  techniques:
+    - leavening
+    - browning
+  before:
+    - >-
+      Weigh the dough ingredients. This is a 70% hydration dough; adding water by an unrelated cup
+      conversion changes its handling.
+    - >-
+      Choose four 10-inch pizzas or two 14-inch pizzas before portioning; check the pan or stone
+      fits. The total cheese and sauce used remain the same.
+    - >-
+      Optional toppings: ready-to-eat pepperoni, thin red onion or bell pepper, cooked and cooled
+      mushrooms, prepared caramelized onions, fully cooked sausage or bacon, cooked chicken, roasted
+      garlic, dry spinach, drained artichokes or a few blotted tomato slices. Choose a sparse layer
+      rather than every option. Preparing these is additional unless already done.
+  checkpoints:
+    - step: 2
+      cue: 'Dough is aerated and more than doubled, rather than simply old enough.'
+      why: Room temperature changes fermentation speed; the clock alone does not establish readiness.
+    - step: 7
+      cue: 'Each pizza has its own measured cheese and sauce set, with no pile of wet toppings.'
+      why: >-
+        Dividing first prevents using the entire batch’s cheese on the first pizza and controls
+        moisture.
+    - step: 8
+      cue: The center is set and the underside browned.
+      why: A golden rim can develop before the wetter center has finished baking.
+  troubleshooting:
+    - problem: Dough is difficult to stretch
+      cause: 'It is cold, tight from shaping or has not relaxed enough.'
+      fix: >-
+        Cover and wait another 10 minutes. Do not tear it wider or force in handfuls of flour;
+        refrigerated portions may need their full warming period.
+    - problem: Liquid pools on the pizza
+      cause: Fresh mozzarella or toppings released excess water.
+      fix: >-
+        Finish baking to a set base, extending time as needed. Next time drain and blot the cheese
+        and wet toppings, or choose the low-moisture cheese option.
+  substitutions:
+    - ingredient: Fresh mozzarella
+      alternative: 'The same weight of whole-milk low-moisture mozzarella, grated'
+      effect: Less free moisture and a more even melt; browning and bake time may differ.
+    - ingredient: Homemade sauce component
+      alternative: 3/4 cup prepared thick pizza sauce for the whole batch
+      effect: >-
+        Omit the tomatoes, sauce oil, garlic, salt, flakes and sauce basil; there will be no extra
+        sauce batch to save.
+    - ingredient: Parmesan and other cheese
+      alternative: 'Suitable cheeses made with vegetarian rennet, with no meat toppings'
+      effect: Makes a vegetarian option when all ingredients are suitable; saltiness and melting vary.
+  timing: >-
+    Allow about 21 hours on the unrefrigerated route: roughly 18 hours of bulk fermentation, an hour
+    of relaxation overlapping oven heating and sauce preparation, then serial baking and serving.
+    Four pizzas take roughly 48–60 minutes of baking plus handling and any stone recovery; two
+    larger pizzas need two rounds. About 45 minutes is active work, excluding cooking optional
+    toppings from scratch. The refrigerated route adds its chosen storage period and uses a 2–3-hour
+    warm-up instead of the one-hour rest.
+  storage: >-
+    Refrigerate perishable leftovers within 2 hours, or 1 hour above 90°F / 32°C, in shallow covered
+    containers at 40°F / 4°C or below. Use within 3–4 days or freeze; reheat to 165°F / 74°C
+    throughout. Store the raw, fermented dough only by the separate three-day refrigeration
+    instructions in step 3. Do not taste raw dough.
+  sources:
+    - title: 'Jim Lahey, via J. Kenji López-Alt — No-knead pizza dough'
+      url: 'https://www.seriouseats.com/jim-laheys-no-knead-pizza-dough-recipe'
+    - title: Jim Lahey — No-knead pizza equipment and resting methods
+      url: 'https://www.bonappetit.com/recipe/no-knead-pizza-dough'
+    - title: J. Kenji López-Alt — New York-style home-oven pizza
+      url: 'https://www.seriouseats.com/new-york-style-pizza'
+    - title: Reynolds — Parchment temperature restrictions
+      url: 'https://www.reynoldsbrands.com/tips-and-how-tos/tips-baking-parchment-paper'
+    - title: USDA FSIS — Leftovers and food safety
+      url: >-
+        https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety
+  review:
+    status: editorial-review
+    date: '2026-10-05'
 ---
 
 ## Chef's Note
 
-This is a no-knead dough that does 90% of the work while you sleep - you mix it once, forget about it for 12-48 hours, and then shape it. The long fermentation develops incredible flavor and creates that New York - style crust texture: crispy exterior, chewy inside. The dough is forgiving enough that even a 10-year-old can stretch and shape it. Set up a toppings bar and let family members create their own combinations. The key is not overloading the pizza (more is not better) and baking at the highest temperature your oven will go.
+An overnight rest develops a dough that stretches with little kneading, leaving most of the work for topping and baking. The weighed dough is adapted from Jim Lahey’s no-knead method, published by [J. Kenji López-Alt in Serious Eats](https://www.seriouseats.com/jim-laheys-no-knead-pizza-dough-recipe). This version makes four 10-inch pizzas or two 14-inch pizzas for four portions; divide the cheese and sauce first, then serve the pizzas as they finish.
 
 ## Directions
 
-### The Dough (12-48 hours ahead)
+1. **Mix the dough:** Combine all-purpose flour, water, fine sea salt, and active-dry yeast until no dry flour remains. The dough will be sticky. Cover the bowl; no kneading is needed.
+2. **Ferment overnight:** Let the covered dough rise around 72°F / 22°C until it is bubbly and more than doubled, approximately 18 hours. Check earlier in a warm room and allow longer in a cool one. When ready, portion it as below; do not extend the room-temperature rise blindly to two days.
+3. **Portion and relax:** Lightly dust the work surface with flour. For four 10-inch pizzas, divide the dough into four equal portions, approximately 217 g each. For two 14-inch pizzas, divide into two approximately 434 g portions instead. Fold the edges underneath to make rounded balls without flattening out all the gas. Cover and rest about 1 hour until pliable. Alternatively, cover the risen, portioned dough individually and refrigerate up to 3 days; on baking day allow the covered balls about 2–3 hours at room temperature to relax instead of the one-hour rest. Prepare the oven and toppings during the last hour.
+4. **Set up the oven:** Heat the oven to 500°F. For the pan route, use two room-temperature metal pans rated for that temperature, with enough flat area for the chosen diameter, and bake one at a time on the middle rack. A 14-inch round requires a suitably large round pan; do not assume it fits a standard baking sheet. For the stone route, put a suitably rated stone in the cold oven and preheat it for 1 hour; the stone and peel must fit the chosen diameter. Neither route uses parchment. Keep used pans aside to cool before reloading.
+5. **Cook the sauce batch:** Have whole peeled tomatoes, olive oil, garlic cloves, fine salt, red pepper flakes (if using), and fresh basil (if using) ready. Warm the oil over medium-low heat, add the garlic and cook 30–45 seconds until fragrant but not browned. Stir in the tomatoes, salt and optional pepper flakes. Simmer 10–15 minutes, stirring, until spreadable without a puddle of loose liquid; add the optional basil at the end. Let cool enough to handle. Measure 3/4 cup for the full pizza batch and refrigerate the surplus promptly; the whole can is not meant to go onto the pizzas. If using prepared sauce instead, omit this entire sauce component and measure 3/4 cup thick pizza sauce.
+6. **Shape one pizza:** Use flour and olive oil (if using) as needed. Stretch one ball to its chosen 10-inch or 14-inch diameter, leaving a thicker rim. Cover and wait another 10 minutes if it springs back. Move the untopped round onto a lightly oiled cool pan, or a lightly floured peel and confirm it slides. Keep unused dough covered and prepared perishable toppings chilled.
+7. **Allocate cheese and toppings:** Divide fresh mozzarella, Parmesan, and prepared pizza toppings (if using) into four sets for small pizzas or two sets for large ones. Each 10-inch pizza gets 3 tbsp prepared sauce, 3 oz mozzarella and 1/4 oz Parmesan; each 14-inch pizza gets 6 tbsp sauce, 6 oz mozzarella and 1/2 oz Parmesan. Spread its sauce leaving a 1/2- to 3/4-inch rim. Add half of that pizza’s mozzarella, a sparse layer of the chosen toppings, then its remaining mozzarella and its full Parmesan portion. On a peel, check again that it slides and bake immediately. Use ready-to-eat pepperoni or fully cooked sausage, bacon or chicken; thinly slice quick-cooking vegetables, cook and cool mushrooms first, and drain wet toppings. Keep perishable toppings chilled until assembly.
+8. **Bake one at a time:** Put the pan on the middle rack, or launch directly onto the stone. Start checking at 10 minutes; roughly 12–15 minutes is a guide, not a fixed endpoint for every size, cheese and baking surface. The underside should be browned, the center set and the rim golden, with melted cheese. Rotate safely with the pan or peel if browning is uneven, and allow longer if the bottom is pale. Keep the oven on between pizzas and give a stone about 5 minutes to recover.
+9. **Finish and serve in rounds:** Add fresh basil (if using) after baking. Rest the pizza on a rack for 2–3 minutes, cut and serve. Shape, top and bake each remaining pizza separately, using its assigned sauce and cheese. Alternate pans and let them cool before reloading; never assemble on a hot pan. Four pizzas mean four oven rounds, not one 15-minute bake.
 
-1. **Mix:** In a large bowl, whisk together flour, salt, and yeast. Add room-temperature water and stir with a spoon or fork until all the flour is hydrated and you have a shaggy, sticky dough. You're not kneading - just combining. Cover with plastic wrap or a damp cloth.
+## Toppings and shortcuts
 
-2. **Bulk Fermentation:** Leave the dough on the counter at room temperature for 12-18 hours (or up to 48 hours). It will rise, bubble, and look like it has expanded. This is exactly what you want. The dough can also be refrigerated at this point if you want to bake the next day.
+Choose a sparse layer of ready-to-eat pepperoni, thin red onion or bell pepper, cooked and cooled mushrooms, prepared caramelized onions, fully cooked sausage or bacon, cooked chicken, roasted garlic, dry spinach, drained artichokes or a few blotted tomato slices. Optional toppings are additional to the measured cheese; they are not all required. Keep perishable toppings refrigerated until assembly. Fresh basil goes on after baking.
 
-3. **Shape:** About 1 hour before you want to bake, lightly oil a large baking sheet or pizza pan. Turn the dough out onto an oiled surface and divide it into 4 portions (or 2 for large pizzas). Let rest for 10 minutes to relax.
+The same weight of whole-milk low-moisture mozzarella can replace fresh mozzarella; it releases less free moisture and browns differently. For prepared sauce, omit the whole sauce-making component and use 3/4 cup thick pizza sauce for all the pizzas. For a vegetarian version, choose suitable cheeses made with vegetarian rennet and omit meat toppings.
 
-### Pizza Assembly and Baking
+## Timing and leftovers
 
-4. **Heat the Oven:** Preheat your oven to its highest temperature (usually 500°F, but 550°F is better if your oven goes that high). If using a pizza stone, place it in the oven to preheat for at least 30 minutes.
+Plan about 21 hours for the overnight route, mostly hands-off. Sauce preparation and oven heating overlap the one-hour dough rest; four separate bakes take roughly 48–60 minutes plus handling and any stone recovery. Preparing optional toppings from scratch adds work. The refrigerated dough route uses the separate 2–3-hour warm-up in step 3. Do not taste raw dough.
 
-5. **The Sauce:** In a small saucepan over medium-low heat, warm olive oil and add minced garlic. Cook for 30-45 seconds until fragrant (do not brown). Add crushed San Marzano tomatoes, salt, and red pepper flakes. Simmer for 10-15 minutes, stirring occasionally, until the sauce has thickened slightly and tastes bright. Taste and adjust. You can also use store-bought marinara if short on time.
-
-6. **Stretch the Dough:** Take one portion of dough and stretch it gently with your hands (or use a rolling pin if easier) into a thin, rustic circle about 10-12 inches. Don't worry about perfection - irregular edges are charming.
-
-7. **Sauce the Base:** Spread 2-3 tbsp of sauce on each dough round, leaving a 1/2-inch border around the edge for the crust. Don't soak it - less sauce is better than more.
-
-8. **Add Cheese:** Scatter half of the mozzarella over the sauce. This base layer prevents the crust from getting soggy.
-
-9. **Toppings:** Add 3-4 of your chosen toppings (less is more - a crowded pizza steams instead of bakes). Leave space between pieces so air can circulate.
-
-10. **Finish:** Top with remaining mozzarella and a light sprinkle of Parmesan.
-
-11. **Bake:** Place the pizza on the preheated baking sheet (or carefully transfer to your preheated pizza stone). Bake for 12-15 minutes until the crust is golden-brown and the cheese is bubbling and starting to brown at the edges. The crust will puff up and crisp.
-
-12. **Rest and Top:** Remove from the oven. If using fresh basil, scatter it over the pizza now (it wilts from residual heat). Let rest for 2-3 minutes before slicing. This resting time lets the cheese set slightly.
-
-### Pro Tips for Pizza Night
-
-- **The night before:** Make the dough, cover, and refrigerate. 1 hour before baking, bring it to room temperature
-- **Assembly line:** Set up toppings in small bowls so kids can add their own (pepperoni pile, sausage in one bowl, veggies in another)
-- **Sauce note:** Sauce should be under the cheese so it doesn't slide around; use only 2-3 tbsp per pizza
-- **Fresh vs. cooked:** Softer vegetables like spinach and zucchini cook fine; harder vegetables like bell peppers should be sliced thin
-- **Meat toppings:** Pre-cook sausage and crumble it; pepperoni can go raw; bacon should be partially cooked
-- **If dough seems tough:** Let it rest an extra 5-10 minutes before stretching - it will relax and become easier to work with
-- **Leftover dough:** The dough keeps 3-4 days refrigerated, so make extra and freeze for next week's pizza night
-
-### Simple Sauce Recipe (5 minutes, if not making ahead)
-
-Heat 2 tbsp olive oil, add 2 minced garlic cloves and cook for 30-45 seconds. Pour in one 28 oz can crushed San Marzano tomatoes. Add 1/2 tsp salt and 1/4 tsp red pepper flakes. Simmer 10 minutes, stirring occasionally. Taste and adjust. Done.
+Refrigerate perishable leftovers within 2 hours, or 1 hour above 90°F / 32°C, at 40°F / 4°C or below. Use within 3–4 days or freeze; reheat to 165°F / 74°C throughout. Cool and refrigerate surplus sauce promptly in a shallow container. Raw dough follows the separate three-day refrigeration limit in step 3.

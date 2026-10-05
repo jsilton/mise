@@ -1,0 +1,13 @@
+# Stuffed Shells Dinner: individual meal review
+
+2026-10-05. Editorial service plan against published `493885bb88fa96b1ab626b20a5c8ec78830f9145`; no timed whole-meal cooking test.
+
+Read the full revised shells and unchanged Garlic Bread and Arugula & Feta Salad with Strawberry Vinaigrette recipes and their existing individual review records. Each component has its own source-based editorial review. Use one complete batch of each for six: all twelve ounces of pasta with its full rich filling; 400 g bread cut into twelve pieces; six small berry/feta/arugula sides. No cheese, bread or family component is reduced. The salad's fresh texture and fruit acidity complement the two rich baked components.
+
+Starting assumptions are explicit for every component: four measured cups of prepared sauce, already softened bread butter, already toasted salad seeds. Main is assembled from scratch, bread and salad prepared during baking. Making sauce or cooking seeds from scratch adds time; a refrigerated assembled main follows its longer cold-pan branch. No nested sauce dependency or missing ingredient is introduced.
+
+Repair the conflicting oven instructions by keeping the actual components' temperatures: shells at 375°F for their covered/uncovered 40–45-minute bake and checked 165°F centers, then bread at 400°F for 12–15 minutes. Heat recovery is an explicit variable estimated at 5–10 minutes, not a certified oven rate. The shells' ten-minute minimum rest overlaps the recovery/bread bake. Salad stays refrigerated and undressed until service. Readiness cues and measured centers control the schedule.
+
+Timing arithmetic: approximately 35 minutes initial work + 40–45 minutes shells + 5–10 minutes recovery + 12–15 minutes bread = 92–105 minutes before a small service allowance. Headline 95–110 minutes and 55–70 active minutes are planning ranges. Salad's twenty minutes and bread's ten minutes preparation overlap oven time but remain active work. Shell dishes must fit with circulating air or another oven round is required. The former thirty-minute main bake, bread in its last ten minutes at a different temperature, and thirty-five-minute whole-meal active estimate were internally inconsistent.
+
+Four-lens review: a clear one-cook, one-oven project; Italian-American baked-pasta identity without unsupported history; sequential temperature control with overlapping rest; full rich portions plus fresh salad contrast. Vegetarian suitability requires checking hard cheeses and feta, not merely omitting meat. Physical questions remain actual shell packing, one-cook filling speed, oven recovery and whether the main stays at its best during the bread bake. No physical test is implied by structural validation or the editorial label.

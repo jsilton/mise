@@ -35,15 +35,44 @@ test('review fixture covers exactly 73 confirmed ingredient failures in 60 recip
   assert.equal(new Set(confirmed.map((row) => row.caseId)).size, 73);
 });
 for (const row of confirmed) {
-  test(`${row.caseId}: ${row.slug} scales every authored batch quantity at all supported factors and 1.5x`, () => {
+  test(`${row.caseId}: ${row.slug} scales the reviewed regression quantity at all supported factors and 1.5x`, () => {
     const { data } = matter(
       fs.readFileSync(new URL(`../../src/content/recipes/${row.slug}.md`, import.meta.url), 'utf8')
     );
     for (const component of row.components || [row]) {
-      assert.ok(
-        data.ingredients.includes(component.input),
-        'fixture must exercise the current authored ingredient'
-      );
+      if (
+        row.slug === 'stuffed-shells-filled-with-spinach-and-ricotta' &&
+        [61, 62].includes(row.caseId)
+      ) {
+        // Keep the original parser regression input and every numeric oracle below.
+        // Its live source was separately replaced by an explicit structured formula.
+        assert.equal(data.formula?.version, 1);
+        assert.equal(data.scaling?.mode, 'fixed');
+        const componentId = row.caseId === 61 ? 'filling' : 'sauce';
+        const ingredientId = row.caseId === 61 ? 'mozzarella' : 'marinara';
+        const replacement = data.formula.components
+          .find((c) => c.id === componentId)
+          .ingredients.find((i) => i.id === ingredientId);
+        assert.equal(replacement.quantity.amount, row.caseId === 61 ? 8 : 4);
+        assert.deepEqual(
+          replacement.uses,
+          row.caseId === 61
+            ? [
+                { step: 'filling', share: '2/3' },
+                { step: 'arrange', share: '1/3' },
+              ]
+            : [
+                { step: 'dishes', share: '1/4' },
+                { step: 'arrange', share: '3/4' },
+              ]
+        );
+        assert(!data.ingredients.includes(component.input));
+      } else {
+        assert.ok(
+          data.ingredients.includes(component.input),
+          'fixture must exercise the current authored ingredient'
+        );
+      }
       const authored = [...component.input.matchAll(number)].map((match) => match[0]);
       assert.deepEqual(
         authored,

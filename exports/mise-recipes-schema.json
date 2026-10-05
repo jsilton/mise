@@ -15914,106 +15914,81 @@
     {
       "@context": "https://schema.org",
       "@type": "Recipe",
-      "name": "Homemade Pizza Night (No-Knead Dough)",
-      "description": "This is a no-knead dough that does 90% of the work while you sleep - you mix it once, forget about it for 12-48 hours, and then shape it. The long fermentation develops incredible flavor and creates that New York - style crust texture: crispy exterior, chewy inside.",
+      "name": "Homemade Pizza Night",
+      "description": "Overnight no-knead dough, tomato sauce and a mozzarella-Parmesan topping bar, baked as four personal pizzas.",
       "url": "https://jordansilton.com/mise/recipes/homemade-pizza-night/",
       "recipeIngredient": [
-        "3 cups All-Purpose Flour (or bread flour for chewier crust)",
-        "1.5 tsp Kosher Salt",
-        "1/4 tsp Instant Yeast (active-dry or instant)",
-        "1.5 cups Room-Temperature Water",
-        "Olive oil (for handling and pan)",
-        "1 (28 oz) can San Marzano Tomatoes (crushed by hand)",
-        "2 tbsp Olive Oil",
-        "3 cloves Garlic, minced (or 1/2 tsp garlic powder)",
-        "1/2 tsp Salt",
-        "1/4 tsp Red Pepper Flakes (optional)",
-        "Fresh Basil (add at the end, optional)",
-        "12 oz Fresh Mozzarella (or low-moisture mozzarella if making ahead, torn into pieces)",
-        "1 oz Parmesan (freshly grated)",
-        "Pepperoni Slices",
-        "Fresh Basil Leaves (add after baking)",
-        "Thinly Sliced Red Onion",
-        "Sliced Bell Peppers (any color)",
-        "Sliced Mushrooms",
-        "Caramelized Onions (made ahead)",
-        "Cooked Italian Sausage (crumbled)",
-        "Shredded Rotisserie Chicken",
-        "Roasted Garlic Cloves",
-        "Fresh Spinach (wilts during baking)",
-        "Artichoke Hearts",
-        "Sliced Tomatoes (add sparingly, or they'll release water)"
+        "500 g all-purpose flour",
+        "350 g water, at room temperature",
+        "16 g fine sea salt, weighed",
+        "1 g (1/4 tsp) active-dry yeast",
+        "1 can (28 oz) whole peeled tomatoes, crushed by hand with their juices",
+        "2 tbsp olive oil",
+        "3 garlic cloves, minced",
+        "1/2 tsp fine salt",
+        "1/4 tsp red pepper flakes, optional",
+        "fresh basil, a few torn leaves, to taste, optional",
+        "12 oz fresh mozzarella, torn small, drained and blotted dry",
+        "1 oz Parmesan, finely grated",
+        "flour, for lightly dusting the work surface during portioning",
+        "flour, for dusting the work surface and peel, as needed",
+        "olive oil, for lightly oiling the pans, if using the pan route, optional",
+        "prepared pizza toppings, a sparse single layer, as desired, optional",
+        "fresh basil, a few leaves, to taste, optional"
       ],
       "recipeInstructions": [
         {
-          "@type": "HowToSection",
-          "name": "The Dough (12-48 hours ahead)",
-          "itemListElement": [
-            {
-              "@type": "HowToStep",
-              "text": "Mix: In a large bowl, whisk together flour, salt, and yeast. Add room-temperature water and stir with a spoon or fork until all the flour is hydrated and you have a shaggy, sticky dough. You're not kneading - just combining. Cover with plastic wrap or a damp cloth."
-            },
-            {
-              "@type": "HowToStep",
-              "text": "Bulk Fermentation: Leave the dough on the counter at room temperature for 12-18 hours (or up to 48 hours). It will rise, bubble, and look like it has expanded. This is exactly what you want. The dough can also be refrigerated at this point if you want to bake the next day."
-            },
-            {
-              "@type": "HowToStep",
-              "text": "Shape: About 1 hour before you want to bake, lightly oil a large baking sheet or pizza pan. Turn the dough out onto an oiled surface and divide it into 4 portions (or 2 for large pizzas). Let rest for 10 minutes to relax."
-            }
-          ]
+          "@type": "HowToStep",
+          "text": "Mix the dough: Combine all-purpose flour, water, fine sea salt, and active-dry yeast until no dry flour remains. The dough will be sticky. Cover the bowl; no kneading is needed."
         },
         {
-          "@type": "HowToSection",
-          "name": "Pizza Assembly and Baking",
-          "itemListElement": [
-            {
-              "@type": "HowToStep",
-              "text": "Heat the Oven: Preheat your oven to its highest temperature (usually 500°F, but 550°F is better if your oven goes that high). If using a pizza stone, place it in the oven to preheat for at least 30 minutes."
-            },
-            {
-              "@type": "HowToStep",
-              "text": "The Sauce: In a small saucepan over medium-low heat, warm olive oil and add minced garlic. Cook for 30-45 seconds until fragrant (do not brown). Add crushed San Marzano tomatoes, salt, and red pepper flakes. Simmer for 10-15 minutes, stirring occasionally, until the sauce has thickened slightly and tastes bright. Taste and adjust. You can also use store-bought marinara if short on time."
-            },
-            {
-              "@type": "HowToStep",
-              "text": "Stretch the Dough: Take one portion of dough and stretch it gently with your hands (or use a rolling pin if easier) into a thin, rustic circle about 10-12 inches. Don't worry about perfection - irregular edges are charming."
-            },
-            {
-              "@type": "HowToStep",
-              "text": "Sauce the Base: Spread 2-3 tbsp of sauce on each dough round, leaving a 1/2-inch border around the edge for the crust. Don't soak it - less sauce is better than more."
-            },
-            {
-              "@type": "HowToStep",
-              "text": "Add Cheese: Scatter half of the mozzarella over the sauce. This base layer prevents the crust from getting soggy."
-            },
-            {
-              "@type": "HowToStep",
-              "text": "Toppings: Add 3-4 of your chosen toppings (less is more - a crowded pizza steams instead of bakes). Leave space between pieces so air can circulate."
-            },
-            {
-              "@type": "HowToStep",
-              "text": "Finish: Top with remaining mozzarella and a light sprinkle of Parmesan."
-            },
-            {
-              "@type": "HowToStep",
-              "text": "Bake: Place the pizza on the preheated baking sheet (or carefully transfer to your preheated pizza stone). Bake for 12-15 minutes until the crust is golden-brown and the cheese is bubbling and starting to brown at the edges. The crust will puff up and crisp."
-            },
-            {
-              "@type": "HowToStep",
-              "text": "Rest and Top: Remove from the oven. If using fresh basil, scatter it over the pizza now (it wilts from residual heat). Let rest for 2-3 minutes before slicing. This resting time lets the cheese set slightly."
-            }
-          ]
+          "@type": "HowToStep",
+          "text": "Ferment overnight: Let the covered dough rise around 72°F / 22°C until it is bubbly and more than doubled, approximately 18 hours. Check earlier in a warm room and allow longer in a cool one. When ready, portion it as below; do not extend the room-temperature rise blindly to two days."
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Portion and relax: Lightly dust the work surface with flour. For four 10-inch pizzas, divide the dough into four equal portions, approximately 217 g each. For two 14-inch pizzas, divide into two approximately 434 g portions instead. Fold the edges underneath to make rounded balls without flattening out all the gas. Cover and rest about 1 hour until pliable. Alternatively, cover the risen, portioned dough individually and refrigerate up to 3 days; on baking day allow the covered balls about 2–3 hours at room temperature to relax instead of the one-hour rest. Prepare the oven and toppings during the last hour."
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Set up the oven: Heat the oven to 500°F. For the pan route, use two room-temperature metal pans rated for that temperature, with enough flat area for the chosen diameter, and bake one at a time on the middle rack. A 14-inch round requires a suitably large round pan; do not assume it fits a standard baking sheet. For the stone route, put a suitably rated stone in the cold oven and preheat it for 1 hour; the stone and peel must fit the chosen diameter. Neither route uses parchment. Keep used pans aside to cool before reloading."
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Cook the sauce batch: Have whole peeled tomatoes, olive oil, garlic cloves, fine salt, red pepper flakes (if using), and fresh basil (if using) ready. Warm the oil over medium-low heat, add the garlic and cook 30–45 seconds until fragrant but not browned. Stir in the tomatoes, salt and optional pepper flakes. Simmer 10–15 minutes, stirring, until spreadable without a puddle of loose liquid; add the optional basil at the end. Let cool enough to handle. Measure 3/4 cup for the full pizza batch and refrigerate the surplus promptly; the whole can is not meant to go onto the pizzas. If using prepared sauce instead, omit this entire sauce component and measure 3/4 cup thick pizza sauce."
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Shape one pizza: Use flour and olive oil (if using) as needed. Stretch one ball to its chosen 10-inch or 14-inch diameter, leaving a thicker rim. Cover and wait another 10 minutes if it springs back. Move the untopped round onto a lightly oiled cool pan, or a lightly floured peel and confirm it slides. Keep unused dough covered and prepared perishable toppings chilled."
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Allocate cheese and toppings: Divide fresh mozzarella, Parmesan, and prepared pizza toppings (if using) into four sets for small pizzas or two sets for large ones. Each 10-inch pizza gets 3 tbsp prepared sauce, 3 oz mozzarella and 1/4 oz Parmesan; each 14-inch pizza gets 6 tbsp sauce, 6 oz mozzarella and 1/2 oz Parmesan. Spread its sauce leaving a 1/2- to 3/4-inch rim. Add half of that pizza’s mozzarella, a sparse layer of the chosen toppings, then its remaining mozzarella and its full Parmesan portion. On a peel, check again that it slides and bake immediately. Use ready-to-eat pepperoni or fully cooked sausage, bacon or chicken; thinly slice quick-cooking vegetables, cook and cool mushrooms first, and drain wet toppings. Keep perishable toppings chilled until assembly."
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Bake one at a time: Put the pan on the middle rack, or launch directly onto the stone. Start checking at 10 minutes; roughly 12–15 minutes is a guide, not a fixed endpoint for every size, cheese and baking surface. The underside should be browned, the center set and the rim golden, with melted cheese. Rotate safely with the pan or peel if browning is uneven, and allow longer if the bottom is pale. Keep the oven on between pizzas and give a stone about 5 minutes to recover."
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Finish and serve in rounds: Add fresh basil (if using) after baking. Rest the pizza on a rack for 2–3 minutes, cut and serve. Shape, top and bake each remaining pizza separately, using its assigned sauce and cheese. Alternate pans and let them cool before reloading; never assemble on a hot pan. Four pizzas mean four oven rounds, not one 15-minute bake."
         }
       ],
-      "cookTime": "PT30M",
-      "recipeYield": "4",
+      "prepTime": "PT45M",
+      "cookTime": "PT60M",
+      "totalTime": "PT1260M",
+      "recipeYield": "4 portions",
       "recipeCategory": "Main course",
       "recipeCuisine": [
         "Italian",
         "American"
       ],
-      "keywords": "Italian, American, savory, umami, fresh, weeknight, family-meal, kid-friendly, entertaining, bake, no-cook, assemble"
+      "keywords": "Italian, American, savory, umami, fresh, weeknight, family-meal, kid-friendly, entertaining, bake, no-cook, assemble",
+      "citation": {
+        "@type": "CreativeWork",
+        "name": "Dough adapted from Jim Lahey, published by J. Kenji López-Alt in Serious Eats",
+        "url": "https://www.seriouseats.com/jim-laheys-no-knead-pizza-dough-recipe"
+      }
     },
     {
       "@context": "https://schema.org",
@@ -23661,58 +23636,58 @@
       "@context": "https://schema.org",
       "@type": "Recipe",
       "name": "Pizza",
-      "description": "Pizza as we know it originated in Naples in the late 18th century as street food for the working class, but it didn't become an American phenomenon until Italian immigrants opened pizzerias in New York and New Haven in the early 1900s. What Americans call 'pizza' would be unrecognizable to Neapolitans - we top it with everything from pineapple to BBQ chicken, making it distinctly our own.",
+      "description": "Two generously topped 12-inch pizzas with pepperoni, pineapple, spinach and whole-milk mozzarella, starting with prepared dough.",
       "url": "https://jordansilton.com/mise/recipes/pizza/",
       "recipeIngredient": [
-        "2 balls [Fresh Pasta Dough](/mise/recipes/fresh-pasta-dough) (or Pizza Dough)",
-        "1 cup Pizza Sauce (The \"Silk\" Base)",
-        "12 oz Shredded Mozzarella (Whole-milk preferred)",
-        "Pepperoni slices",
-        "Fresh Spinach (greens)",
-        "Fresh Pineapple (The \"Acid Balance\" Snap)"
+        "600 g prepared, risen pizza dough, at stretching temperature; divide into two equal balls",
+        "flour, for dusting the work surface and peel, as needed",
+        "olive oil, for lightly oiling the pans, if using the pan route, optional",
+        "1 cup thick pizza sauce",
+        "12 oz whole-milk low-moisture mozzarella, grated",
+        "60 g ready-to-eat pepperoni slices",
+        "120 g fresh pineapple, cut into small pieces and blotted dry",
+        "40 g baby spinach, washed if needed and dried thoroughly"
       ],
       "recipeInstructions": [
         {
           "@type": "HowToStep",
-          "text": "Thermal Prep: Preheat oven to 500°F (or higher). Place a pizza stone or inverted baking sheet on the middle rack."
+          "text": "Choose the baking route: Start with fully risen dough that is relaxed enough to stretch. Follow its recipe or package for thawing, proofing and warming before this schedule. Heat the oven to 500°F with a middle rack. For the pan route, keep two metal pans with enough flat area for 12-inch pizzas at room temperature; check that they are rated for 500°F. For the stone route, put a suitably rated stone in the cold oven and heat it for 1 hour; have a peel that fits the pizza ready. Neither route uses parchment."
         },
         {
           "@type": "HowToStep",
-          "text": "Shape: On a floured surface, stretch the dough into 12-inch circles. Transfer to a piece of parchment paper."
+          "text": "Divide the toppings: Make two equal sets of toppings before shaping. Each pizza gets 1/2 cup sauce, 6 oz mozzarella, 30 g pepperoni, 60 g pineapple and 20 g spinach. Cut pineapple into approximately 1/4-inch pieces and blot away surface liquid. Keep the second set of perishable toppings refrigerated until needed."
         },
         {
           "@type": "HowToStep",
-          "text": "Layer: Spread a thin layer of sauce over the dough, leaving a 1-inch border. Top generously with mozzarella."
+          "text": "Shape on a cool surface: Have prepared, risen pizza dough, flour, and olive oil (if using) ready. Divide the dough into two 300 g balls. Cover one while stretching the other to a 12-inch round with a slightly thicker rim. If it springs back, cover and rest 10 minutes. Transfer the bare round to a lightly oiled room-temperature pan, or to a lightly floured peel for the stone route. On a peel, check that it slides freely before topping."
         },
         {
           "@type": "HowToStep",
-          "text": "Top: Arrange the pepperoni and pineapple slices."
+          "text": "Top one pizza: Use one half each of thick pizza sauce, whole-milk low-moisture mozzarella, ready-to-eat pepperoni slices, and fresh pineapple on the first pizza. Spread its sauce leaving a 3/4-inch border, then distribute the cheese, pepperoni and pineapple evenly. Reserve the spinach. If using a peel, check that the pizza still moves freely and launch promptly; do not leave a dressed pizza waiting on the peel."
         },
         {
           "@type": "HowToStep",
-          "text": "Bake: Slide the pizza (with the parchment) onto the hot stone. Bake for 8-10 minutes until the crust is charred and the cheese is bubbling."
+          "text": "Bake and wilt the spinach: Reserve one half of baby spinach for this pizza and the other half for the second. Put the pan on the oven rack, or slide the pizza directly from the peel onto the stone. Start checking after 10 minutes; allow roughly 12–15 minutes total. When the rim is nearly browned and the cheese is bubbling, pull the pizza out safely with its pan or peel, scatter on its spinach portion and return it for the final 1–2 minutes. The spinach should wilt and the underside should be browned, with a set center that supports a slice. Check underneath with a spatula or peel; a dark rim alone does not establish doneness. Extend the bake if needed."
         },
         {
           "@type": "HowToStep",
-          "text": "The Wilt: During the final 2 minutes, scatter the fresh spinach over the top."
-        },
-        {
-          "@type": "HowToStep",
-          "text": "Serve: Remove from the oven. Let rest for 2 minutes (The Finish Cycle) before slicing."
+          "text": "Serve and repeat: Move the first pizza to a rack for 2 minutes, then slice and serve. Keep the oven on; let a stone recover for about 5 minutes between pizzas. Shape and top the second pizza on its own room-temperature pan or prepared peel, using the remaining topping portions, and repeat the bake. Never assemble dough directly on a hot pan or reach over a hot stone."
         }
       ],
-      "prepTime": "PT10M",
-      "cookTime": "PT12M",
-      "totalTime": "PT22M",
-      "recipeYield": "4",
+      "prepTime": "PT20M",
+      "cookTime": "PT30M",
+      "totalTime": "PT70M",
+      "recipeYield": "4 portions",
       "recipeCategory": "Main course",
       "recipeCuisine": [
-        "Italian"
+        "Italian",
+        "American"
       ],
-      "keywords": "Italian, acidic, weeknight, kid-friendly, entertaining, comfort-food, bake",
-      "suitableForDiet": [
-        "https://schema.org/VegetarianDiet"
-      ]
+      "keywords": "Italian, American, savory, sweet, rich, weeknight, kid-friendly, entertaining, comfort-food, bake",
+      "citation": {
+        "@type": "CreativeWork",
+        "name": "Family recipe"
+      }
     },
     {
       "@context": "https://schema.org",
@@ -31870,67 +31845,80 @@
       "@context": "https://schema.org",
       "@type": "Recipe",
       "name": "Spinach & Ricotta Stuffed Shells",
-      "description": "Stuffed shells (conchiglioni ripieni) are Italian-American \"pasta al forno\" that became a staple of red-sauce joints in the 1950s-70s. The three things that make or break this dish: squeeze the spinach bone-dry (any residual water makes the filling weep), use enough ricotta to actually fill the shells (15 oz minimum for a 12 oz box - 10 oz runs out halfway through), and never use a food processor for the filling - it purées the ricotta into a runny paste.",
+      "description": "Jumbo shells with a spinach, ricotta and mozzarella filling, baked under tomato sauce and a browned cheese topping.",
       "url": "https://jordansilton.com/mise/recipes/stuffed-shells-filled-with-spinach-and-ricotta/",
       "recipeIngredient": [
-        "12 oz Jumbo Pasta Shells",
-        "1 tbsp Extra-Virgin Olive Oil",
-        "5 oz Fresh Baby Spinach (or 10 oz if you want more greens)",
-        "1 tbsp Olive Oil",
-        "1 clove Garlic, smashed",
-        "15 oz Whole-milk Ricotta",
-        "1 large Egg, beaten",
-        "8 oz Block Mozzarella, freshly shredded (divided: 1 cup filling, 1/2 cup topping)",
-        "1/2 cup Parmigiano-Reggiano, freshly grated, divided: two thirds for filling, the rest for topping",
-        "1 Lemon, zested",
-        "1/4 tsp Nutmeg, freshly grated",
-        "2 tbsp Fresh Chives or Basil, minced",
-        "Salt and Black Pepper",
-        "3-4 cups [Roasted Tomato Basil Sauce](/mise/recipes/roasted-tomato-basil-soup) (1 full jar, 32 oz each)"
+        "12 oz jumbo pasta shells",
+        "1 tbsp extra-virgin olive oil",
+        "water, enough to boil the shells freely",
+        "salt, for the pasta water, to taste",
+        "5 oz fresh baby spinach",
+        "1 tbsp olive oil",
+        "1 garlic clove, smashed",
+        "15 oz whole-milk ricotta, drain any freely pooling whey",
+        "8 oz low-moisture block mozzarella, freshly shredded",
+        "2 oz Parmigiano-Reggiano, finely grated",
+        "1 lemon, zest only; save the juice for another use",
+        "1/4 tsp ground nutmeg",
+        "2 tbsp fresh chives or basil, minced",
+        "salt, to taste",
+        "black pepper, to taste",
+        "1 large egg, beaten",
+        "4 cups prepared marinara or tomato pasta sauce"
       ],
       "recipeInstructions": [
         {
           "@type": "HowToStep",
-          "text": "The Spinach (Sauté, Don't Blanch): Heat 1 tbsp olive oil in a skillet over medium heat. Add the smashed garlic clove to perfume the oil for 30-45 seconds, then add spinach. Sauté 2-3 minutes until just wilted. Discard the garlic. Let cool, then wrap in a clean kitchen towel and wring out until bone dry - this is non-negotiable. Chop finely with a knife."
+          "text": "Prepare the oven and ingredients: Heat the oven to 375°F. Plan on two shallow 2-quart oven-safe dishes, or enough shallow dishes to hold the cooked shells in one layer without stacking. Check that the dishes fit in the oven with space for heat to circulate. Capacity alone does not guarantee enough surface area. Bring a large pot of water toward a boil while preparing the spinach. Divide both grated cheeses into two-thirds for filling and one-third for topping."
         },
         {
           "@type": "HowToStep",
-          "text": "The Shells: Boil shells in well-salted water for 2-3 minutes less than package directions - they should be firm and pliable, not soft. They finish cooking in the oven. Before draining, reserve 1/2 cup of the starchy pasta water. Drain, spread on a sheet pan, and drizzle with olive oil so they don't stick."
+          "text": "Wilt and drain the spinach: Use fresh baby spinach, olive oil, and garlic clove. Warm the oil in a skillet over medium heat; add the smashed garlic for 30–45 seconds, then the spinach. Cook 2–3 minutes until wilted. Discard the garlic. Let the spinach cool enough to handle, squeeze out excess liquid in a clean towel and chop finely."
         },
         {
           "@type": "HowToStep",
-          "text": "The Three-Cheese Filling: In a large bowl, combine ricotta, 1 cup shredded mozzarella, two-thirds of the measured Parmigiano, beaten egg, dry chopped spinach, lemon zest, nutmeg, chives, 1/2 tsp salt, and pepper. Splash 2-3 tablespoons of the reserved starchy pasta water into the mixture to emulsify the fats. Fold gently with a spatula - stop the moment everything is combined. The filling should be thick, glossy, and scoopable. (Chef's trick: scoop into a gallon resealable food bag, snip one corner, and pipe directly into shells.)"
+          "text": "Cook the shells short of tender: Use jumbo pasta shells, extra-virgin olive oil, water, and salt. Salt the boiling water and cook the shells for the package’s baked-pasta time, or about 2–3 minutes short of its fully cooked time. They should be pliable enough to fill but still firm. Drain, spread out carefully and coat lightly with the measured oil. Let cool enough to handle; do not add pasta water to the filling."
         },
         {
           "@type": "HowToStep",
-          "text": "The Architecture: Preheat oven to 375°F. Spread 1 cup of sauce across the bottom of a 9x13 baking dish - this prevents sticking and steaming."
+          "text": "Mix and season the filling: Combine whole-milk ricotta, 2/3 of the low-moisture block mozzarella, 2/3 of the Parmigiano-Reggiano, lemon, ground nutmeg, fresh chives or basil, salt, and black pepper, using only the lemon’s zest, with the prepared spinach. The cheese shares here are two-thirds of each full batch; keep the rest for the topping. Fold by hand until evenly mixed and scoopable, retaining some ricotta texture. Taste and adjust the salt and pepper now, before adding the egg."
         },
         {
           "@type": "HowToStep",
-          "text": "Fill and Arrange: Hold a cooled shell in your palm, pipe or spoon a generous amount of filling inside, and nestle it open-side up in the dish. Repeat until the pan is snug. Spoon remaining sauce over the tops - make sure sauce covers the pasta edges so they don't dry out and get crunchy. Sprinkle remaining mozzarella and Parmigiano over everything."
+          "text": "Add the egg: Fold large egg into the seasoned filling. Do not taste the filling after adding the raw egg."
         },
         {
           "@type": "HowToStep",
-          "text": "The Bake: Cover tightly with foil (don't let it touch the cheese). Bake 25 minutes covered. Remove foil, bake another 15-20 minutes until edges are bubbling and cheese is golden with browned spots."
+          "text": "Coat the dishes: Distribute 1/4 of the prepared marinara or tomato pasta sauce across the bottoms of the baking dishes: 1 cup total for the whole batch. This sauce layer keeps the pasta from sitting against a dry dish."
         },
         {
           "@type": "HowToStep",
-          "text": "Rest: Let the pan sit 10 minutes before serving - the cheese sets up and the filling stays inside the shells when you plate."
+          "text": "Fill, sauce and top: Divide all the filling among the intact cooked shells rather than filling the first ones heavily. Arrange them opening-up in a single layer; use another shallow dish if needed. Distribute 1/3 of the low-moisture block mozzarella, 1/3 of the Parmigiano-Reggiano, and 3/4 of the prepared marinara or tomato pasta sauce over all the dishes: 3 cups sauce total and the reserved one-third of each cheese. Coat exposed pasta edges with sauce. Do not stack shells to force them into one pan."
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Bake to the center: Cover the dishes with foil, tenting it away from the cheese, and bake for about 25 minutes. Uncover and bake another 15–20 minutes until the sauce bubbles and the cheese has golden spots. Check representative filled shells in the center of each dish with a thermometer: the filling and casserole must reach 165°F / 74°C. Extend the time when needed; if the top colors before the center is hot, cover loosely again. Rotate dishes if heating is uneven. Refrigerator-cold assembly takes longer."
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Rest and serve: Let the dishes rest for at least 10 minutes so the filling settles, then divide the full batch into six portions. If serving with garlic bread, the rest can overlap its separate 400°F bake; serve promptly once the bread is ready."
         }
       ],
-      "prepTime": "PT25M",
+      "prepTime": "PT35M",
       "cookTime": "PT45M",
-      "totalTime": "PT70M",
-      "recipeYield": "6",
+      "totalTime": "PT90M",
+      "recipeYield": "6 portions",
       "recipeCategory": "Main course",
       "recipeCuisine": [
         "Italian",
         "American"
       ],
       "keywords": "Italian, American, umami, herbaceous, comfort-food, weekend-project, entertaining, potluck, bake, boil, saute",
-      "suitableForDiet": [
-        "https://schema.org/VegetarianDiet"
-      ]
+      "citation": {
+        "@type": "CreativeWork",
+        "name": "Adapted from NYT Cooking, Stuffed Shells Filled With Spinach and Ricotta",
+        "url": "https://cooking.nytimes.com/recipes/1013942-stuffed-shells-filled-with-spinach-and-ricotta"
+      }
     },
     {
       "@context": "https://schema.org",
