@@ -102,7 +102,20 @@
       "curried-carrot-and-apple-soup",
       "dashi-japanese-sea-stock",
       "vegetable-minestrone"
-    ]
+    ],
+    "boiled_grains_vegetables_01": {
+      "slugs": [
+        "buttered-egg-noodles",
+        "steel-cut-oatmeal",
+        "blueberry-date-oatmeal",
+        "seasoned-bean-sprouts",
+        "simply-seasoned-korean-spinach-salad",
+        "broccoli-all-agro"
+      ],
+      "reviewer": "coverage_check",
+      "inputCommit": "1b56f21878b9da0b844c34f9f491fd02313d60c2",
+      "status": "assigned"
+    }
   },
   "recipes": [
     {
@@ -289,7 +302,7 @@
     {
       "slug": "babys-first-smash-cake",
       "path": "src/content/recipes/babys-first-smash-cake.md",
-      "title": "Baby’s First Smash Cake",
+      "title": "Baby\u2019s First Smash Cake",
       "source": "Adapted from fitmamarealfood.com",
       "sourceUrl": "http://www.fitmamarealfood.com/babys-first-smash-cake-healthy-no-sugar-banana-cake/",
       "group": null,
@@ -442,7 +455,7 @@
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
         "Weigh the peeled two large bananas and record mashed volume to evaluate the retained approximate 3/4 cup total without silently changing the formula.",
-        "Record pancake count and full-batch duration on the 325°F griddle."
+        "Record pancake count and full-batch duration on the 325\u00b0F griddle."
       ],
       "inputSha256": "31545799b7fb8cd346cf91b10fcbc20e2fd42ab2e8658f8ab179bed6bcb4459d",
       "plannedBatch": "context-screening-01",
@@ -452,7 +465,7 @@
     {
       "slug": "basic-crepes",
       "path": "src/content/recipes/basic-crepes.md",
-      "title": "Basic Crêpes",
+      "title": "Basic Cr\u00eapes",
       "source": "allrecipes.com",
       "sourceUrl": "https://www.allrecipes.com/recipe/16383/basic-crepes/",
       "group": null,
@@ -556,7 +569,7 @@
       "slug": "best-homemade-brownies",
       "path": "src/content/recipes/best-homemade-brownies.md",
       "title": "Brownies",
-      "source": "Love and Lemons, adapted from Michelle Lopez’s Weeknight Baking",
+      "source": "Love and Lemons, adapted from Michelle Lopez\u2019s Weeknight Baking",
       "sourceUrl": "https://www.loveandlemons.com/brownies-recipe/",
       "group": null,
       "status": "queued",
@@ -663,8 +676,8 @@
       "title": "Blueberry Date Oatmeal",
       "source": "Adapted from Kids Eat in Color",
       "sourceUrl": null,
-      "group": null,
-      "status": "queued",
+      "group": "boiled_grains_vegetables_01",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -856,8 +869,8 @@
       "title": "Broccoli all'Agro",
       "source": "Saved Paprika recipe",
       "sourceUrl": null,
-      "group": null,
-      "status": "queued",
+      "group": "boiled_grains_vegetables_01",
+      "status": "assigned",
       "reviewEvidence": ["docs/reviews/broccoli-all-agro.md"],
       "automatedFlags": ["teaching-review-needed"],
       "remainingQuestions": [
@@ -961,8 +974,8 @@
       "title": "Buttered Egg Noodles",
       "source": null,
       "sourceUrl": null,
-      "group": null,
-      "status": "queued",
+      "group": "boiled_grains_vegetables_01",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -984,7 +997,7 @@
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
         "Record the iron model, actual fill amount, cycle duration and finished waffle count.",
-        "Check whether 45–60 minutes covers the household single-iron batch and whether a larger batch needs multiple batter portions mixed separately."
+        "Check whether 45\u201360 minutes covers the household single-iron batch and whether a larger batch needs multiple batter portions mixed separately."
       ],
       "inputSha256": "eda1ed24ae20ed3dbb3083c8f0bf52696900b0791c2515f01b3fe3a922399d62",
       "plannedBatch": "context-screening-01",
@@ -1148,8 +1161,8 @@
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
         "Record head weight versususablegrains andnumberofprocessor/skillet batches.",
-        "Record actualpan size and 5–6 mintexture at chosenload.",
-        "Check garliclast 30–45 seconds and reheatedgraintexture."
+        "Record actualpan size and 5\u20136 mintexture at chosenload.",
+        "Check garliclast 30\u201345 seconds and reheatedgraintexture."
       ],
       "inputSha256": "518350c703de9dfcf9f7579368033d945ba1eb8284a8828c9e861b56a555ebaa",
       "plannedBatch": "cold-preparations-01",
@@ -1247,7 +1260,7 @@
     {
       "slug": "chef-krigers-recipe-shabbat-brisket",
       "path": "src/content/recipes/chef-krigers-recipe-shabbat-brisket.md",
-      "title": "Chef Kriger’s Recipe Shabbat Brisket",
+      "title": "Chef Kriger\u2019s Recipe Shabbat Brisket",
       "source": "Adapted from campmicah.com",
       "sourceUrl": "https://campmicah.com/chef-krigers-recipe-shabbat-brisket/",
       "group": null,
@@ -1662,7 +1675,7 @@
     {
       "slug": "chocolate-souffle",
       "path": "src/content/recipes/chocolate-souffle.md",
-      "title": "Chocolate Soufflé",
+      "title": "Chocolate Souffl\u00e9",
       "source": "Adapted from Epicurious.com",
       "sourceUrl": "http://www.epicurious.com/recipes/food/views/chocolate-souffle-106173",
       "group": null,
@@ -2143,7 +2156,7 @@
     {
       "slug": "crustless-spinach-quiche",
       "path": "src/content/recipes/crustless-spinach-quiche.md",
-      "title": "Crustless Spinach & Gruyère Quiche",
+      "title": "Crustless Spinach & Gruy\u00e8re Quiche",
       "source": "Adapted from Rebecca Cybulsky",
       "sourceUrl": null,
       "group": "egg_bakes_01",
@@ -2275,7 +2288,7 @@
     {
       "slug": "doc-cheys-chicken-lo-mein",
       "path": "src/content/recipes/doc-cheys-chicken-lo-mein.md",
-      "title": "Doc Chey’s Chicken Lo Mein",
+      "title": "Doc Chey\u2019s Chicken Lo Mein",
       "source": "ajc.com",
       "sourceUrl": "https://www.ajc.com/lifestyles/food--cooking/lomein-dish-can-made-from-ingredients-hand/nm6EiZJQkRfSmBI9T8PUUK/",
       "group": null,
@@ -3162,7 +3175,7 @@
     {
       "slug": "grandmommys-pecan-pie",
       "path": "src/content/recipes/grandmommys-pecan-pie.md",
-      "title": "Grandmommy’s Pecan Pie",
+      "title": "Grandmommy\u2019s Pecan Pie",
       "source": "Adapted from Miriam Hamilton",
       "sourceUrl": null,
       "group": null,
@@ -3179,7 +3192,7 @@
     {
       "slug": "grandmommys-pound-cake",
       "path": "src/content/recipes/grandmommys-pound-cake.md",
-      "title": "Grandmommy’s Pound Cake",
+      "title": "Grandmommy\u2019s Pound Cake",
       "source": "Adapted from Miriam Hamilton",
       "sourceUrl": null,
       "group": null,
@@ -3848,7 +3861,7 @@
     {
       "slug": "katharine-hepburns-brownies",
       "path": "src/content/recipes/katharine-hepburns-brownies.md",
-      "title": "Katharine Hepburn’s Brownies",
+      "title": "Katharine Hepburn\u2019s Brownies",
       "source": "Adapted from Cooking.nytimes.com",
       "sourceUrl": "https://cooking.nytimes.com/recipes/10782-katharine-hepburns-brownies",
       "group": null,
@@ -4143,9 +4156,9 @@
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Check consistent½inchwedgecut on the actualpotatoes and whether the initial18–20 stage reachesnearlytender.",
+        "Check consistent\u00bdinchwedgecut on the actualpotatoes and whether the initial18\u201320 stage reachesnearlytender.",
         "Confirm the chosen sheet fits two pounds and browns the cutfaces evenly.",
-        "Test2tbspmaple coating and optionalpaprika behavior through the final8–10minutes withoutpromising friedcrispness."
+        "Test2tbspmaple coating and optionalpaprika behavior through the final8\u201310minutes withoutpromising friedcrispness."
       ],
       "inputSha256": "3584ec674b636512261b9a4fad0ead8c8963595dcb3a761c4d244af8ce8fa1ab",
       "plannedBatch": "roast-grill-and-sear-02",
@@ -4275,7 +4288,7 @@
     {
       "slug": "miriams-melt-in-your-mouth-rosh-hashanah-brisket",
       "path": "src/content/recipes/miriams-melt-in-your-mouth-rosh-hashanah-brisket.md",
-      "title": "Miriam’s Melt-In-Your-Mouth Rosh Hashanah Brisket",
+      "title": "Miriam\u2019s Melt-In-Your-Mouth Rosh Hashanah Brisket",
       "source": "Adapted from Chabad.org",
       "sourceUrl": "https://www.chabad.org/recipes/recipe_cdo/aid/2635033/jewish/Miriams-Melt-in-Your-Mouth-Rosh-Hashanah-Brisket.htm",
       "group": null,
@@ -4317,7 +4330,7 @@
       "reviewEvidence": ["docs/repairs/2026-09-15/changed-files.json"],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Check the specific white-miso/mirin coating at425°F fromthestart and whether it scorches before comparablefloretcenters are tender.",
+        "Check the specific white-miso/mirin coating at425\u00b0F fromthestart and whether it scorches before comparablefloretcenters are tender.",
         "Compare honeybranch1.5tbsp+extrasoy.5tbsp againstmirin withoutmixingroutes; confirm intendedsalt/sweetness preference.",
         "Confirm single-layerpanarea andfourportionservings for1.5lbflorets."
       ],
@@ -4433,7 +4446,7 @@
     {
       "slug": "nana-ruths-applesauce",
       "path": "src/content/recipes/nana-ruths-applesauce.md",
-      "title": "Nana Ruth’s Applesauce",
+      "title": "Nana Ruth\u2019s Applesauce",
       "source": "Adapted from Ruth Shankman",
       "sourceUrl": null,
       "group": null,
@@ -4450,7 +4463,7 @@
     {
       "slug": "nanas-biscuits",
       "path": "src/content/recipes/nanas-biscuits.md",
-      "title": "Nana’s Biscuits",
+      "title": "Nana\u2019s Biscuits",
       "source": null,
       "sourceUrl": null,
       "group": null,
@@ -4753,7 +4766,7 @@
     {
       "slug": "parishs-blueberry-crisp",
       "path": "src/content/recipes/parishs-blueberry-crisp.md",
-      "title": "Parish’s Blueberry Crisp",
+      "title": "Parish\u2019s Blueberry Crisp",
       "source": "Adapted from Parish",
       "sourceUrl": "https://www.myajc.com/lifestyles/food--cooking/brown-butter-key-parish-blueberry-crisp/ht0uxKmxnFIptyggBS5fpL/",
       "group": null,
@@ -4829,7 +4842,7 @@
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Confirm pan footprint for the family’s two-pound batch and preferred browned/tender endpoint at450°F.",
+        "Confirm pan footprint for the family\u2019s two-pound batch and preferred browned/tender endpoint at450\u00b0F.",
         "Confirm the current teaspoon garlic powder preference versus earlier halfteaspoon; preserve current amount pending kitchen feedback.",
         "Check the actual sheet/lining brand rating and whether the final pinch is wanted after the measured teaspoon."
       ],
@@ -5004,7 +5017,7 @@
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Check actual shaker/glass capacity and dilution for the 10½-ounce still base plus 12-ounce topping.",
+        "Check actual shaker/glass capacity and dilution for the 10\u00bd-ounce still base plus 12-ounce topping.",
         "Compare current London dry gin to named saved gin without normalizing brands.",
         "Compare the saved optional agave omission to the current primary amount without changing other measures."
       ],
@@ -5116,7 +5129,7 @@
     {
       "slug": "quick-lamb-ragu",
       "path": "src/content/recipes/quick-lamb-ragu.md",
-      "title": "Lamb Ragù",
+      "title": "Lamb Rag\u00f9",
       "source": "Adapted from cooking.nytimes.com",
       "sourceUrl": "https://cooking.nytimes.com/recipes/1020022-quick-lamb-ragu?smid=ck-recipe-iOS-share",
       "group": null,
@@ -5458,7 +5471,7 @@
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Record the actual rootmix and whether the first35–40minute window cooks every center; densermixmayneedlonger.",
+        "Record the actual rootmix and whether the first35\u201340minute window cooks every center; densermixmayneedlonger.",
         "Check four-pound fit on the actualtwo sheets and even oil/glaze coating without inventing a per-sheetamount.",
         "Check smashedgarlic and herb texture through the longer roast."
       ],
@@ -5750,8 +5763,8 @@
       "title": "Seasoned Bean Sprouts (Kongnamul Namul)",
       "source": null,
       "sourceUrl": null,
-      "group": null,
-      "status": "queued",
+      "group": "boiled_grains_vegetables_01",
+      "status": "assigned",
       "reviewEvidence": ["docs/reviews/seasoned-bean-sprouts.md"],
       "automatedFlags": ["teaching-review-needed"],
       "remainingQuestions": [
@@ -6027,8 +6040,8 @@
       "title": "Korean Spinach Salad (Sigeumchi Namul)",
       "source": "Adapted from Sue Pressey, My Korean Kitchen",
       "sourceUrl": "https://mykoreankitchen.com/simply-seasoned-korean-spinach-salad-sigeumchi-namul-version-1/",
-      "group": null,
-      "status": "queued",
+      "group": "boiled_grains_vegetables_01",
+      "status": "assigned",
       "reviewEvidence": ["docs/reviews/simply-seasoned-korean-spinach-salad.md"],
       "automatedFlags": ["teaching-review-needed"],
       "remainingQuestions": [
@@ -6352,7 +6365,7 @@
     {
       "slug": "spiced-butternut-squash-puree",
       "path": "src/content/recipes/spiced-butternut-squash-puree.md",
-      "title": "Butternut Squash Purée",
+      "title": "Butternut Squash Pur\u00e9e",
       "source": "Adapted from Silton Family",
       "sourceUrl": null,
       "group": null,
@@ -6440,8 +6453,8 @@
       "title": "Steel-Cut Oatmeal",
       "source": "Adapted from Foodnetwork.com",
       "sourceUrl": "http://www.foodnetwork.com/recipes/alton-brown/steel-cut-oatmeal-recipe-1939448",
-      "group": null,
-      "status": "queued",
+      "group": "boiled_grains_vegetables_01",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -6454,7 +6467,7 @@
     {
       "slug": "stevens-margs",
       "path": "src/content/recipes/stevens-margs.md",
-      "title": "Steven’s Margaritas",
+      "title": "Steven\u2019s Margaritas",
       "source": null,
       "sourceUrl": null,
       "group": null,
@@ -6814,7 +6827,7 @@
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
         "ConfirmCraig-intendedpotato/oil/tarragon/salt amounts andportionplan.",
-        "Restoreexplicitunpeeled1–1.5inchcontext afterformuladecision;preservenativeexactoriginal.",
+        "Restoreexplicitunpeeled1\u20131.5inchcontext afterformuladecision;preservenativeexactoriginal.",
         "Confirmbutterinitialversushalfwayvariant andactualdishcapacity."
       ],
       "inputSha256": "903070120e6211b4b338db29a3801a17d308572ebd59e220328c293c750efefc",
@@ -7083,7 +7096,7 @@
     {
       "slug": "vieux-carre",
       "path": "src/content/recipes/vieux-carre.md",
-      "title": "Vieux Carré",
+      "title": "Vieux Carr\u00e9",
       "source": null,
       "sourceUrl": null,
       "group": "stirred_drinks_01",
@@ -7163,7 +7176,7 @@
       "remainingQuestions": [
         "Identify household syrup concentration and compare sweetness without silently normalizing the formula.",
         "Check chosen pasteurized product foam and actual glass capacity, including white/rocks/up branches.",
-        "Compare restored optional½oz wine float and retained bourbon/rye options."
+        "Compare restored optional\u00bdoz wine float and retained bourbon/rye options."
       ],
       "inputSha256": "1e6d9964cc3a4b2846bb8c8274ccda8c415808709ecd74f58152a80e7b611f28",
       "plannedBatch": "cold-preparations-05"
@@ -8027,11 +8040,12 @@
   ],
   "routingLimitations": "Provisional routing uses current metadata to reduce coordination work. Reviewer must confirm actual process from complete recipe before starting; tags never establish method applicability or a recipe defect.",
   "statusCounts": {
-    "assigned": 22,
-    "held": 4,
+    "assigned": 12,
+    "held": 6,
     "held-awaiting-evidence": 2,
-    "implemented": 10,
-    "proposed": 29,
-    "queued": 342
+    "implemented": 6,
+    "production-verified": 10,
+    "proposed": 49,
+    "queued": 324
   }
 }
