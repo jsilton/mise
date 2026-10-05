@@ -1,6 +1,6 @@
 {
   "summary": {
-    "inputCommit": "e2ae34b991e705cea361b2322a603a9e3f9c4e0e",
+    "inputCommit": "e8cc0915726ca7bc236f824cdd626e09e7701ad6",
     "recipes": 643,
     "recordedCompleteEditorial": 257,
     "completeEditorialPending": 386,
@@ -27,7 +27,7 @@
     },
     "uniquePathsInSixRepairCommits": 105,
     "kitchenTested": 0,
-    "productionReconciliation": "Accelerated42 targeted repairs verified live through e922e95e. Ten complete editorial versions verified live at b1435040. Six baking versions await e2ae34b9 deployment run37369907481 after hosted-runner failure; seven cold-side complete reviews accepted locally, implementation/publication pending."
+    "productionReconciliation": "Accelerated42 targeted repairs verified live through e922e95e. Ten complete editorial versions verified live at b1435040; six baking complete versions verified live at e2ae34b9, run37369907481. Seven cold-side versions implemented at e8cc0915 and locally validated; publication pending."
   },
   "collectionEvidence": [
     "docs/REVIEW_PROGRESS.md",
@@ -1053,7 +1053,10 @@
         }
       ],
       "productionVerification": {
-        "status": "pending release verification; older live version is not accepted editorial version"
+        "status": "verified",
+        "remoteCommit": "e2ae34b991e705cea361b2322a603a9e3f9c4e0e",
+        "deploymentRun": 37369907481,
+        "evidence": "docs/editorial-campaign/2026-10-05/baking-six-production.json"
       },
       "remainingQuestions": [
         "Check soda flavor, rise and crumb under the preserved 1 tsp soda/375°F formula compared with the newly changed publisher version.",
@@ -1975,7 +1978,10 @@
         }
       ],
       "productionVerification": {
-        "status": "pending release verification; older live version is not accepted editorial version"
+        "status": "verified",
+        "remoteCommit": "e2ae34b991e705cea361b2322a603a9e3f9c4e0e",
+        "deploymentRun": 37369907481,
+        "evidence": "docs/editorial-campaign/2026-10-05/baking-six-production.json"
       },
       "remainingQuestions": [
         "Measure actual pan fill, layer yield and doneness in the three existing 9-inch pans.",
@@ -2877,7 +2883,10 @@
         }
       ],
       "productionVerification": {
-        "status": "pending release verification; older live version is not accepted editorial version"
+        "status": "verified",
+        "remoteCommit": "e2ae34b991e705cea361b2322a603a9e3f9c4e0e",
+        "deploymentRun": 37369907481,
+        "evidence": "docs/editorial-campaign/2026-10-05/baking-six-production.json"
       },
       "remainingQuestions": [
         "Weigh starting and finished brown butter and record solids transfer; assess whether the inherited oil-to-butter adaptation gives the intended moist crumb.",
@@ -5237,15 +5246,20 @@
         "record": "docs/reviews/chimichurri.md",
         "acceptedSha256": "60906cc3011a3a24b02f96935db211a52e16af54adeb5d8f0d62b2a2de62fbc4",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/cold-independent.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "e8cc0915726ca7bc236f824cdd626e09e7701ad6"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "e8cc0915726ca7bc236f824cdd626e09e7701ad6",
       "acceptedChange": {
-        "status": "accepted locally after independent challenge and complete root inspection; implementation pending",
+        "status": "implemented after independent challenge and complete root inspection",
         "record": "docs/reviews/chimichurri.json",
         "sourceSha256": "60906cc3011a3a24b02f96935db211a52e16af54adeb5d8f0d62b2a2de62fbc4"
       },
-      "implementationCommits": [],
+      "implementationCommits": [
+        {
+          "commit": "e8cc0915726ca7bc236f824cdd626e09e7701ad6",
+          "scope": "complete editorial review"
+        }
+      ],
       "productionVerification": {
         "status": "pending; older live version does not certify accepted editorial version"
       },
@@ -6482,15 +6496,20 @@
         "record": "docs/reviews/classic-guacamole.md",
         "acceptedSha256": "104288460ce6cbafe8ccfd522cf82813c7e465c1ceb2c80a89900069842a2ced",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/cold-independent.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "e8cc0915726ca7bc236f824cdd626e09e7701ad6"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "e8cc0915726ca7bc236f824cdd626e09e7701ad6",
       "acceptedChange": {
-        "status": "accepted locally after independent challenge and complete root inspection; implementation pending",
+        "status": "implemented after independent challenge and complete root inspection",
         "record": "docs/reviews/classic-guacamole.json",
         "sourceSha256": "104288460ce6cbafe8ccfd522cf82813c7e465c1ceb2c80a89900069842a2ced"
       },
-      "implementationCommits": [],
+      "implementationCommits": [
+        {
+          "commit": "e8cc0915726ca7bc236f824cdd626e09e7701ad6",
+          "scope": "complete editorial review"
+        }
+      ],
       "productionVerification": {
         "status": "pending; older live version does not certify accepted editorial version"
       },
@@ -8972,15 +8991,20 @@
         "record": "docs/reviews/easy-chopped-pesto-salad-with-cannellini-beans.md",
         "acceptedSha256": "af7367d8b0af343e34ccbaffd538fa2494d843a72c1b224ea4ba4a0c2b5b6f85",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/cold-independent.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "e8cc0915726ca7bc236f824cdd626e09e7701ad6"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "e8cc0915726ca7bc236f824cdd626e09e7701ad6",
       "acceptedChange": {
-        "status": "accepted locally after independent challenge and complete root inspection; implementation pending",
+        "status": "implemented after independent challenge and complete root inspection",
         "record": "docs/reviews/easy-chopped-pesto-salad-with-cannellini-beans.json",
         "sourceSha256": "af7367d8b0af343e34ccbaffd538fa2494d843a72c1b224ea4ba4a0c2b5b6f85"
       },
-      "implementationCommits": [],
+      "implementationCommits": [
+        {
+          "commit": "e8cc0915726ca7bc236f824cdd626e09e7701ad6",
+          "scope": "complete editorial review"
+        }
+      ],
       "productionVerification": {
         "status": "pending; older live version does not certify accepted editorial version"
       },
@@ -10592,7 +10616,10 @@
         }
       ],
       "productionVerification": {
-        "status": "pending release verification; older live version is not accepted editorial version"
+        "status": "verified",
+        "remoteCommit": "e2ae34b991e705cea361b2322a603a9e3f9c4e0e",
+        "deploymentRun": 37369907481,
+        "evidence": "docs/editorial-campaign/2026-10-05/baking-six-production.json"
       },
       "remainingQuestions": [
         "Measure actual yield and pan fill with the restored 2 cups batter sugar plus topping; record berry size and starting temperature.",
@@ -16849,15 +16876,20 @@
         "record": "docs/reviews/miso-sesame-dense-bean-salad.md",
         "acceptedSha256": "d1523218a40741682779f0bf4b893fe8a0e352db37e2d1e600356059c4b8cbc7",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/cold-independent.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "e8cc0915726ca7bc236f824cdd626e09e7701ad6"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "e8cc0915726ca7bc236f824cdd626e09e7701ad6",
       "acceptedChange": {
-        "status": "accepted locally after independent challenge and complete root inspection; implementation pending",
+        "status": "implemented after independent challenge and complete root inspection",
         "record": "docs/reviews/miso-sesame-dense-bean-salad.json",
         "sourceSha256": "d1523218a40741682779f0bf4b893fe8a0e352db37e2d1e600356059c4b8cbc7"
       },
-      "implementationCommits": [],
+      "implementationCommits": [
+        {
+          "commit": "e8cc0915726ca7bc236f824cdd626e09e7701ad6",
+          "scope": "complete editorial review"
+        }
+      ],
       "productionVerification": {
         "status": "pending; older live version does not certify accepted editorial version"
       },
@@ -22355,15 +22387,20 @@
         "record": "docs/reviews/shaved-brussels-sprout-salad-with-apples-and-pecorino.md",
         "acceptedSha256": "0b0d517e8b9569f7d3fd4ee49daafc674d28a56227a3d5548cb4efdb77a32534",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/cold-independent.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "e8cc0915726ca7bc236f824cdd626e09e7701ad6"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "e8cc0915726ca7bc236f824cdd626e09e7701ad6",
       "acceptedChange": {
-        "status": "accepted locally after independent challenge and complete root inspection; implementation pending",
+        "status": "implemented after independent challenge and complete root inspection",
         "record": "docs/reviews/shaved-brussels-sprout-salad-with-apples-and-pecorino.json",
         "sourceSha256": "0b0d517e8b9569f7d3fd4ee49daafc674d28a56227a3d5548cb4efdb77a32534"
       },
-      "implementationCommits": [],
+      "implementationCommits": [
+        {
+          "commit": "e8cc0915726ca7bc236f824cdd626e09e7701ad6",
+          "scope": "complete editorial review"
+        }
+      ],
       "productionVerification": {
         "status": "pending; older live version does not certify accepted editorial version"
       },
@@ -23584,7 +23621,10 @@
         }
       ],
       "productionVerification": {
-        "status": "pending release verification; older live version is not accepted editorial version"
+        "status": "verified",
+        "remoteCommit": "e2ae34b991e705cea361b2322a603a9e3f9c4e0e",
+        "deploymentRun": 37369907481,
+        "evidence": "docs/editorial-campaign/2026-10-05/baking-six-production.json"
       },
       "remainingQuestions": [
         "Record skillet inner diameter, depth, material, lid fit, berry evaporation and whether eight mounds steam evenly without crowding.",
@@ -24410,11 +24450,11 @@
         "record": "docs/reviews/soy-ginger-dipping-sauce.md",
         "acceptedSha256": "2d6bff415b84a217a82e5f31cea7894c844f9bac9d183f82aeac6b8ec36d00d8",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/cold-independent.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "e8cc0915726ca7bc236f824cdd626e09e7701ad6"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "e8cc0915726ca7bc236f824cdd626e09e7701ad6",
       "acceptedChange": {
-        "status": "accepted locally after independent challenge and complete root inspection; implementation pending",
+        "status": "implemented after independent challenge and complete root inspection",
         "record": "docs/reviews/soy-ginger-dipping-sauce.json",
         "sourceSha256": "2d6bff415b84a217a82e5f31cea7894c844f9bac9d183f82aeac6b8ec36d00d8"
       },
@@ -24423,6 +24463,10 @@
           "commit": "858ff2c5458cac2663ba21fb8d1867d1986ec346",
           "evidence": "actual recipe diff retained privately",
           "scope": "accelerated targeted repair"
+        },
+        {
+          "commit": "e8cc0915726ca7bc236f824cdd626e09e7701ad6",
+          "scope": "complete editorial review"
         }
       ],
       "productionVerification": {
@@ -27959,8 +28003,8 @@
         "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Whole-recipe approval held: saved Without tomatoes variant does not establish whether ending2tbsp paste replaces primary2tbsp or is additional4tbsp total. No formula interpretation or prior-repair rollback accepted.",
+        "Other branch allocations and inherited claims are unaccepted findings in docs/reviews/vegetable-minestrone.md; current questionable claims are not endorsed."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -28680,7 +28724,10 @@
         }
       ],
       "productionVerification": {
-        "status": "pending release verification; older live version is not accepted editorial version"
+        "status": "verified",
+        "remoteCommit": "e2ae34b991e705cea361b2322a603a9e3f9c4e0e",
+        "deploymentRun": 37369907481,
+        "evidence": "docs/editorial-campaign/2026-10-05/baking-six-production.json"
       },
       "remainingQuestions": [
         "Record actual layer depth, batter division, center doneness time and complete-cooling time in the existing 9-inch pans.",
@@ -28718,15 +28765,20 @@
         "record": "docs/reviews/yogurt-dipping-sauce.md",
         "acceptedSha256": "4a2ce0a8d452911613d7c977ad0e4100f27b42aa038e6c31fc5ae744b46f4d35",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/cold-independent.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "e8cc0915726ca7bc236f824cdd626e09e7701ad6"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "e8cc0915726ca7bc236f824cdd626e09e7701ad6",
       "acceptedChange": {
-        "status": "accepted locally after independent challenge and complete root inspection; implementation pending",
+        "status": "implemented after independent challenge and complete root inspection",
         "record": "docs/reviews/yogurt-dipping-sauce.json",
         "sourceSha256": "4a2ce0a8d452911613d7c977ad0e4100f27b42aa038e6c31fc5ae744b46f4d35"
       },
-      "implementationCommits": [],
+      "implementationCommits": [
+        {
+          "commit": "e8cc0915726ca7bc236f824cdd626e09e7701ad6",
+          "scope": "complete editorial review"
+        }
+      ],
       "productionVerification": {
         "status": "pending; older live version does not certify accepted editorial version"
       },

@@ -114,7 +114,7 @@
       ],
       "reviewer": "coverage_check",
       "inputCommit": "1b56f21878b9da0b844c34f9f491fd02313d60c2",
-      "status": "assigned"
+      "status": "proposed; independent correction/root acceptance pending"
     },
     "breakfast_bakes_02": {
       "slugs": [
@@ -128,6 +128,19 @@
       ],
       "reviewer": "baking_editor",
       "inputCommit": "e2ae34b991e705cea361b2322a603a9e3f9c4e0e",
+      "status": "assigned"
+    },
+    "slow_cooker_mains_01": {
+      "slugs": [
+        "french-dip-sandwiches",
+        "slow-cooker-korean-beef",
+        "slow-cooker-mongolian-beef",
+        "orange-and-paprika-pulled-pork",
+        "creamy-slow-cooker-chicken-and-wild-rice-soup",
+        "slow-cooker-vegetarian-lentil-tortilla-soup"
+      ],
+      "reviewer": "coverage_check",
+      "inputCommit": "e8cc0915726ca7bc236f824cdd626e09e7701ad6",
       "status": "assigned"
     }
   },
@@ -286,8 +299,10 @@
       "source": null,
       "sourceUrl": null,
       "group": "soups_broths_01",
-      "status": "assigned",
-      "reviewEvidence": [],
+      "status": "proposed",
+      "reviewEvidence": [
+        "private whole-recipe soups_broths_01 proposal/record; independent/root gate required"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
         "Complete editorial review pending; automated absence of flags is not approval.",
@@ -370,7 +385,7 @@
       "source": "Adapted from littlesweetbaker.com",
       "sourceUrl": "https://www.littlesweetbaker.com/bakery-style-chocolate-chip-muffins-2/",
       "group": "baking_01",
-      "status": "implemented",
+      "status": "production-verified",
       "reviewEvidence": ["docs/reviews/bakery-style-chocolate-chip-muffins.md"],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -381,7 +396,12 @@
       "plannedBatch": "baking_01",
       "acceptedSha256": "b52d25a753a75762cd2d3e785f4b20d9c6ce53be5c237a5fbdacc957baca1473",
       "completeEditorialReview": "editorial-review; kitchen testing not performed",
-      "implementationCommit": "afc39e07c49baed6924053ac34023a104d93c93a"
+      "implementationCommit": "afc39e07c49baed6924053ac34023a104d93c93a",
+      "productionVerification": {
+        "status": "verified",
+        "remoteCommit": "e2ae34b991e705cea361b2322a603a9e3f9c4e0e",
+        "deploymentRun": 37369907481
+      }
     },
     {
       "slug": "balsamic-peach-pork",
@@ -620,7 +640,7 @@
       "source": "Adapted from Pinchofyum.com",
       "sourceUrl": "http://pinchofyum.com/blackout-chocolate-cake",
       "group": "baking_01",
-      "status": "implemented",
+      "status": "production-verified",
       "reviewEvidence": ["docs/reviews/blackout-chocolate-cake.md"],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -631,7 +651,12 @@
       "plannedBatch": "baking_01",
       "acceptedSha256": "ce2aa9ed58ca9d862f3332d780212712ee832fa8b76057465d7d482a25743f5e",
       "completeEditorialReview": "editorial-review; kitchen testing not performed",
-      "implementationCommit": "afc39e07c49baed6924053ac34023a104d93c93a"
+      "implementationCommit": "afc39e07c49baed6924053ac34023a104d93c93a",
+      "productionVerification": {
+        "status": "verified",
+        "remoteCommit": "e2ae34b991e705cea361b2322a603a9e3f9c4e0e",
+        "deploymentRun": 37369907481
+      }
     },
     {
       "slug": "blistered-shishito-peppers",
@@ -691,8 +716,10 @@
       "source": "Adapted from Kids Eat in Color",
       "sourceUrl": null,
       "group": "boiled_grains_vegetables_01",
-      "status": "assigned",
-      "reviewEvidence": [],
+      "status": "proposed",
+      "reviewEvidence": [
+        "private whole-recipe boiled_grains_vegetables_01 proposal/record; independent/root gate required"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
         "Complete editorial review pending; automated absence of flags is not approval.",
@@ -884,8 +911,11 @@
       "source": "Saved Paprika recipe",
       "sourceUrl": null,
       "group": "boiled_grains_vegetables_01",
-      "status": "assigned",
-      "reviewEvidence": ["docs/reviews/broccoli-all-agro.md"],
+      "status": "proposed",
+      "reviewEvidence": [
+        "docs/reviews/broccoli-all-agro.md",
+        "private whole-recipe boiled_grains_vegetables_01 proposal/record; independent/root gate required"
+      ],
       "automatedFlags": ["teaching-review-needed"],
       "remainingQuestions": [
         "Complete editorial review pending; automated absence of flags is not approval.",
@@ -935,7 +965,7 @@
       "source": "Adapted from Bonappetit.com",
       "sourceUrl": "http://www.bonappetit.com/recipe/bas-best-carrot-cake?intcid=inline_amp",
       "group": "baking_01",
-      "status": "implemented",
+      "status": "production-verified",
       "reviewEvidence": ["docs/reviews/brown-butter-carrot-cake.md"],
       "automatedFlags": ["teaching-review-needed"],
       "remainingQuestions": [
@@ -946,7 +976,12 @@
       "plannedBatch": "baking_01",
       "acceptedSha256": "e84583288402fdf87e3f043fdfb8de16a9d009b63acea8f232419f642c7ae184",
       "completeEditorialReview": "editorial-review; kitchen testing not performed",
-      "implementationCommit": "afc39e07c49baed6924053ac34023a104d93c93a"
+      "implementationCommit": "afc39e07c49baed6924053ac34023a104d93c93a",
+      "productionVerification": {
+        "status": "verified",
+        "remoteCommit": "e2ae34b991e705cea361b2322a603a9e3f9c4e0e",
+        "deploymentRun": 37369907481
+      }
     },
     {
       "slug": "brownie-baked-oatmeal",
@@ -989,8 +1024,10 @@
       "source": null,
       "sourceUrl": null,
       "group": "boiled_grains_vegetables_01",
-      "status": "assigned",
-      "reviewEvidence": [],
+      "status": "proposed",
+      "reviewEvidence": [
+        "private whole-recipe boiled_grains_vegetables_01 proposal/record; independent/root gate required"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
         "Complete editorial review pending; automated absence of flags is not approval.",
@@ -1096,8 +1133,11 @@
       "source": null,
       "sourceUrl": null,
       "group": "soups_broths_01",
-      "status": "assigned",
-      "reviewEvidence": ["docs/reviews/source-restorations-2026-10-05.md"],
+      "status": "proposed",
+      "reviewEvidence": [
+        "docs/reviews/source-restorations-2026-10-05.md",
+        "private whole-recipe soups_broths_01 proposal/record; independent/root gate required"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
         "Complete editorial review pending; automated absence of flags is not approval.",
@@ -1425,7 +1465,7 @@
       "source": null,
       "sourceUrl": null,
       "group": "cold_sides_01",
-      "status": "accepted",
+      "status": "implemented",
       "reviewEvidence": [
         "docs/reviews/chimichurri.md",
         "docs/editorial-campaign/2026-10-05/cold-independent.md"
@@ -1440,7 +1480,8 @@
       "assignmentInputCommit": "95b37f8bca5008657a668e52a1d970b1d03367d3",
       "assignmentInputSha256": "0a08758ebdff69d0e2038c4fdb05ba0b8994f53b62fa27aa7d3d9d879c4601f2",
       "acceptedSourceSha256": "60906cc3011a3a24b02f96935db211a52e16af54adeb5d8f0d62b2a2de62fbc4",
-      "productionVerification": "pending"
+      "productionVerification": "pending",
+      "implementationCommit": "e8cc0915726ca7bc236f824cdd626e09e7701ad6"
     },
     {
       "slug": "chinese-sausage-fried-rice",
@@ -1783,7 +1824,7 @@
       "source": null,
       "sourceUrl": null,
       "group": "cold_sides_01",
-      "status": "accepted",
+      "status": "implemented",
       "reviewEvidence": [
         "docs/reviews/classic-guacamole.md",
         "docs/editorial-campaign/2026-10-05/cold-independent.md"
@@ -1799,7 +1840,8 @@
       "assignmentInputCommit": "95b37f8bca5008657a668e52a1d970b1d03367d3",
       "assignmentInputSha256": "604076fb7760e8a4b1aff7f318c765693a5066a446f0ea69a19f6145c8eb694c",
       "acceptedSourceSha256": "104288460ce6cbafe8ccfd522cf82813c7e465c1ceb2c80a89900069842a2ced",
-      "productionVerification": "pending"
+      "productionVerification": "pending",
+      "implementationCommit": "e8cc0915726ca7bc236f824cdd626e09e7701ad6"
     },
     {
       "slug": "classic-manhattan",
@@ -1951,8 +1993,10 @@
       "source": "Adapted from Delish.com",
       "sourceUrl": "http://www.delish.com/cooking/recipe-ideas/recipes/a55765/cream-of-mushroom-soup-recipe/",
       "group": "soups_broths_01",
-      "status": "assigned",
-      "reviewEvidence": [],
+      "status": "proposed",
+      "reviewEvidence": [
+        "private whole-recipe soups_broths_01 proposal/record; independent/root gate required"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
         "Complete editorial review pending; automated absence of flags is not approval.",
@@ -1984,8 +2028,8 @@
       "title": "Creamy Slow-Cooker Chicken and Wild Rice Soup",
       "source": "Damndelicious.net",
       "sourceUrl": "http://damndelicious.net/2016/12/09/slow-cooker-chicken-wild-rice-soup/",
-      "group": null,
-      "status": "queued",
+      "group": "slow_cooker_mains_01",
+      "status": "assigned",
       "reviewEvidence": ["docs/reviews/creamy-slow-cooker-chicken-and-wild-rice-soup.md"],
       "automatedFlags": ["teaching-review-needed"],
       "remainingQuestions": [
@@ -2221,8 +2265,10 @@
       "source": "Adapted from Foodandwine.com",
       "sourceUrl": "http://www.foodandwine.com/recipes/curried-carrot-and-apple-soup",
       "group": "soups_broths_01",
-      "status": "assigned",
-      "reviewEvidence": [],
+      "status": "proposed",
+      "reviewEvidence": [
+        "private whole-recipe soups_broths_01 proposal/record; independent/root gate required"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
         "Complete editorial review pending; automated absence of flags is not approval.",
@@ -2300,8 +2346,10 @@
       "source": "Adapted from Epicurious.com",
       "sourceUrl": "http://www.epicurious.com/recipes/food/views/dashi-japanese-sea-stock-103413",
       "group": "soups_broths_01",
-      "status": "assigned",
-      "reviewEvidence": [],
+      "status": "proposed",
+      "reviewEvidence": [
+        "private whole-recipe soups_broths_01 proposal/record; independent/root gate required"
+      ],
       "automatedFlags": ["teaching-review-needed"],
       "remainingQuestions": [
         "Complete editorial review pending; automated absence of flags is not approval.",
@@ -2436,7 +2484,7 @@
       "source": "thesavvyspoon.com",
       "sourceUrl": "https://thesavvyspoon.com/2025/03/10/chopped-pesto-salad-recipe/",
       "group": "cold_sides_01",
-      "status": "accepted",
+      "status": "implemented",
       "reviewEvidence": [
         "docs/reviews/easy-chopped-pesto-salad-with-cannellini-beans.md",
         "docs/reviews/easy-chopped-pesto-salad-with-cannellini-beans.md",
@@ -2452,7 +2500,8 @@
       "assignmentInputCommit": "95b37f8bca5008657a668e52a1d970b1d03367d3",
       "assignmentInputSha256": "041131fc9e2feb8d78de83e259c3e44e097122152367b94cec38681dbf2408bd",
       "acceptedSourceSha256": "af7367d8b0af343e34ccbaffd538fa2494d843a72c1b224ea4ba4a0c2b5b6f85",
-      "productionVerification": "pending"
+      "productionVerification": "pending",
+      "implementationCommit": "e8cc0915726ca7bc236f824cdd626e09e7701ad6"
     },
     {
       "slug": "easy-cinnamon-french-toast-sticks",
@@ -2786,8 +2835,8 @@
       "title": "Slow Cooker French Dip Sandwiches",
       "source": null,
       "sourceUrl": null,
-      "group": null,
-      "status": "queued",
+      "group": "slow_cooker_mains_01",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -2890,7 +2939,7 @@
       "source": "Adapted from tasteofhome.com",
       "sourceUrl": "https://www.tasteofhome.com/recipes/frozen-blueberry-muffins/",
       "group": "baking_01",
-      "status": "implemented",
+      "status": "production-verified",
       "reviewEvidence": ["docs/reviews/frozen-blueberry-muffins.md"],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -2901,7 +2950,12 @@
       "plannedBatch": "baking_01",
       "acceptedSha256": "bba24897143925a129d6d1cba635f077b4e3c3e4d7a4ddccc82b77e788a17e7e",
       "completeEditorialReview": "editorial-review; kitchen testing not performed",
-      "implementationCommit": "afc39e07c49baed6924053ac34023a104d93c93a"
+      "implementationCommit": "afc39e07c49baed6924053ac34023a104d93c93a",
+      "productionVerification": {
+        "status": "verified",
+        "remoteCommit": "e2ae34b991e705cea361b2322a603a9e3f9c4e0e",
+        "deploymentRun": 37369907481
+      }
     },
     {
       "slug": "funfetti-cake-from-scratch-and-an-unbirthday",
@@ -4377,7 +4431,7 @@
       "source": "bakerita.com",
       "sourceUrl": "https://www.bakerita.com/miso-sesame-dense-bean-salad/",
       "group": "cold_sides_01",
-      "status": "accepted",
+      "status": "implemented",
       "reviewEvidence": [
         "docs/reviews/miso-sesame-dense-bean-salad.md",
         "docs/reviews/miso-sesame-dense-bean-salad.md",
@@ -4393,7 +4447,8 @@
       "assignmentInputCommit": "95b37f8bca5008657a668e52a1d970b1d03367d3",
       "assignmentInputSha256": "141e528f09c272139ded3bed331b94a250bd99179eaa403e201f57b196f37d48",
       "acceptedSourceSha256": "d1523218a40741682779f0bf4b893fe8a0e352db37e2d1e600356059c4b8cbc7",
-      "productionVerification": "pending"
+      "productionVerification": "pending",
+      "implementationCommit": "e8cc0915726ca7bc236f824cdd626e09e7701ad6"
     },
     {
       "slug": "miso-soup",
@@ -4721,8 +4776,8 @@
       "title": "Orange and Paprika Pulled Pork",
       "source": "downshiftology.com",
       "sourceUrl": "https://downshiftology.com/recipes/slow-cooker-pulled-pork/",
-      "group": null,
-      "status": "queued",
+      "group": "slow_cooker_mains_01",
+      "status": "assigned",
       "reviewEvidence": ["docs/reviews/orange-and-paprika-pulled-pork.md"],
       "automatedFlags": ["teaching-review-needed"],
       "remainingQuestions": [
@@ -5801,8 +5856,11 @@
       "source": null,
       "sourceUrl": null,
       "group": "boiled_grains_vegetables_01",
-      "status": "assigned",
-      "reviewEvidence": ["docs/reviews/seasoned-bean-sprouts.md"],
+      "status": "proposed",
+      "reviewEvidence": [
+        "docs/reviews/seasoned-bean-sprouts.md",
+        "private whole-recipe boiled_grains_vegetables_01 proposal/record; independent/root gate required"
+      ],
       "automatedFlags": ["teaching-review-needed"],
       "remainingQuestions": [
         "Complete editorial review pending; automated absence of flags is not approval.",
@@ -5835,7 +5893,7 @@
       "source": "Adapted from Loveandoliveoil.com",
       "sourceUrl": "http://www.loveandoliveoil.com/2013/04/shaved-brussels-sprout-salad.html",
       "group": "cold_sides_01",
-      "status": "accepted",
+      "status": "implemented",
       "reviewEvidence": [
         "docs/reviews/shaved-brussels-sprout-salad-with-apples-and-pecorino.md",
         "docs/editorial-campaign/2026-10-05/cold-independent.md"
@@ -5851,7 +5909,8 @@
       "assignmentInputCommit": "95b37f8bca5008657a668e52a1d970b1d03367d3",
       "assignmentInputSha256": "665af3734545f6b5a5f44a5a3192af5ed0738b36b4494b9aa73169506f088645",
       "acceptedSourceSha256": "0b0d517e8b9569f7d3fd4ee49daafc674d28a56227a3d5548cb4efdb77a32534",
-      "productionVerification": "pending"
+      "productionVerification": "pending",
+      "implementationCommit": "e8cc0915726ca7bc236f824cdd626e09e7701ad6"
     },
     {
       "slug": "sheet-pan-italian-sausage-dinner",
@@ -6084,8 +6143,11 @@
       "source": "Adapted from Sue Pressey, My Korean Kitchen",
       "sourceUrl": "https://mykoreankitchen.com/simply-seasoned-korean-spinach-salad-sigeumchi-namul-version-1/",
       "group": "boiled_grains_vegetables_01",
-      "status": "assigned",
-      "reviewEvidence": ["docs/reviews/simply-seasoned-korean-spinach-salad.md"],
+      "status": "proposed",
+      "reviewEvidence": [
+        "docs/reviews/simply-seasoned-korean-spinach-salad.md",
+        "private whole-recipe boiled_grains_vegetables_01 proposal/record; independent/root gate required"
+      ],
       "automatedFlags": ["teaching-review-needed"],
       "remainingQuestions": [
         "Complete editorial review pending; automated absence of flags is not approval.",
@@ -6101,7 +6163,7 @@
       "source": "Adapted from Foodandwine.com",
       "sourceUrl": "http://www.foodandwine.com/recipes/skillet-biscuits-berries",
       "group": "baking_01",
-      "status": "implemented",
+      "status": "production-verified",
       "reviewEvidence": ["docs/reviews/skillet-biscuits-with-berries.md"],
       "automatedFlags": ["teaching-review-needed"],
       "remainingQuestions": [
@@ -6112,7 +6174,12 @@
       "plannedBatch": "baking_01",
       "acceptedSha256": "87fc356634c302370f3af67c9d37ecc1675892e74bdad3cc31eabba6751d7565",
       "completeEditorialReview": "editorial-review; kitchen testing not performed",
-      "implementationCommit": "afc39e07c49baed6924053ac34023a104d93c93a"
+      "implementationCommit": "afc39e07c49baed6924053ac34023a104d93c93a",
+      "productionVerification": {
+        "status": "verified",
+        "remoteCommit": "e2ae34b991e705cea361b2322a603a9e3f9c4e0e",
+        "deploymentRun": 37369907481
+      }
     },
     {
       "slug": "skinny-baked-broccoli-macaroni-and-cheese",
@@ -6154,8 +6221,8 @@
       "title": "Slow Cooker Korean Beef",
       "source": "Adapted from damndelicious.net",
       "sourceUrl": "https://damndelicious.net/2015/02/21/slow-cooker-korean-beef/",
-      "group": null,
-      "status": "queued",
+      "group": "slow_cooker_mains_01",
+      "status": "assigned",
       "reviewEvidence": ["docs/repairs/2026-09-15/changed-files.json"],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -6171,8 +6238,8 @@
       "title": "Slow Cooker Mongolian Beef",
       "source": "dinneratthezoo.com",
       "sourceUrl": "https://www.dinneratthezoo.com/slow-cooker-mongolian-beef/",
-      "group": null,
-      "status": "queued",
+      "group": "slow_cooker_mains_01",
+      "status": "assigned",
       "reviewEvidence": ["docs/reviews/slow-cooker-mongolian-beef.md"],
       "automatedFlags": ["teaching-review-needed"],
       "remainingQuestions": [
@@ -6188,8 +6255,8 @@
       "title": "Slow Cooker Lentil Tortilla Soup",
       "source": "Adapted from Peasandcrayons.com",
       "sourceUrl": "https://peasandcrayons.com/2017/02/vegetarian-lentil-tortilla-soup.html",
-      "group": null,
-      "status": "queued",
+      "group": "slow_cooker_mains_01",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -6291,7 +6358,7 @@
       "source": null,
       "sourceUrl": null,
       "group": "cold_sides_01",
-      "status": "accepted",
+      "status": "implemented",
       "reviewEvidence": [
         "docs/reviews/soy-ginger-dipping-sauce.md",
         "docs/editorial-campaign/2026-10-05/cold-independent.md"
@@ -6306,7 +6373,8 @@
       "assignmentInputCommit": "95b37f8bca5008657a668e52a1d970b1d03367d3",
       "assignmentInputSha256": "fd7044f566920578055b78d2aca56a707d0fc56ff7b238a9ffee30187892297b",
       "acceptedSourceSha256": "2d6bff415b84a217a82e5f31cea7894c844f9bac9d183f82aeac6b8ec36d00d8",
-      "productionVerification": "pending"
+      "productionVerification": "pending",
+      "implementationCommit": "e8cc0915726ca7bc236f824cdd626e09e7701ad6"
     },
     {
       "slug": "spaghetti-and-spinach-with-sun-dried-tomato-cream-sauce",
@@ -6502,8 +6570,10 @@
       "source": "Adapted from Foodnetwork.com",
       "sourceUrl": "http://www.foodnetwork.com/recipes/alton-brown/steel-cut-oatmeal-recipe-1939448",
       "group": "boiled_grains_vegetables_01",
-      "status": "assigned",
-      "reviewEvidence": [],
+      "status": "proposed",
+      "reviewEvidence": [
+        "private whole-recipe boiled_grains_vegetables_01 proposal/record; independent/root gate required"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
         "Complete editorial review pending; automated absence of flags is not approval.",
@@ -7114,12 +7184,13 @@
       "source": null,
       "sourceUrl": null,
       "group": "soups_broths_01",
-      "status": "assigned",
-      "reviewEvidence": [],
+      "status": "held",
+      "reviewEvidence": [
+        "private whole-recipe soups_broths_01 proposal/record; independent/root gate required"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Does the finishing2tbsp tomato paste replace the base2tbsp, or add2tbsp for4tbsp total? Exact saved variant is ambiguous; no interpretation accepted."
       ],
       "inputSha256": "27de53faf8aee042cf57b423c3b49d75ce12dbe4063219919f31dfe03572f722",
       "plannedBatch": "simmer-boil-and-steam-11"
@@ -7287,7 +7358,7 @@
       "source": "Adapted from tastesbetterfromscratch.com",
       "sourceUrl": "https://tastesbetterfromscratch.com/yellow-cake/",
       "group": "baking_01",
-      "status": "implemented",
+      "status": "production-verified",
       "reviewEvidence": ["docs/reviews/yellow-cake-with-chocolate-frosting.md"],
       "automatedFlags": ["teaching-review-needed"],
       "remainingQuestions": [
@@ -7298,7 +7369,12 @@
       "plannedBatch": "baking_01",
       "acceptedSha256": "94db3006ddca9b74fd63c11e8ebf83ceb157ee1482107f9ed9b2f7482db9e867",
       "completeEditorialReview": "editorial-review; kitchen testing not performed",
-      "implementationCommit": "afc39e07c49baed6924053ac34023a104d93c93a"
+      "implementationCommit": "afc39e07c49baed6924053ac34023a104d93c93a",
+      "productionVerification": {
+        "status": "verified",
+        "remoteCommit": "e2ae34b991e705cea361b2322a603a9e3f9c4e0e",
+        "deploymentRun": 37369907481
+      }
     },
     {
       "slug": "yogurt-dipping-sauce",
@@ -7307,7 +7383,7 @@
       "source": "Guy Fieri",
       "sourceUrl": "https://www.foodnetwork.com/recipes/guy-fieri/falafel-in-pita-with-yogurt-sauce-recipe-1952260",
       "group": "cold_sides_01",
-      "status": "accepted",
+      "status": "implemented",
       "reviewEvidence": [
         "docs/reviews/yogurt-dipping-sauce.md",
         "docs/reviews/yogurt-dipping-sauce.md",
@@ -7323,7 +7399,8 @@
       "assignmentInputCommit": "95b37f8bca5008657a668e52a1d970b1d03367d3",
       "assignmentInputSha256": "60f27607a538b709cd07ea7048e8b055c6c630af38ad28bb5dfe05f43c940623",
       "acceptedSourceSha256": "4a2ce0a8d452911613d7c977ad0e4100f27b42aa038e6c31fc5ae744b46f4d35",
-      "productionVerification": "pending"
+      "productionVerification": "pending",
+      "implementationCommit": "e8cc0915726ca7bc236f824cdd626e09e7701ad6"
     },
     {
       "slug": "zucchini-herb-fritters-with-garlic-yogurt",
@@ -8094,13 +8171,12 @@
   ],
   "routingLimitations": "Provisional routing uses current metadata to reduce coordination work. Reviewer must confirm actual process from complete recipe before starting; tags never establish method applicability or a recipe defect.",
   "statusCounts": {
-    "accepted": 7,
-    "assigned": 19,
-    "held": 6,
+    "assigned": 13,
+    "held": 7,
     "held-awaiting-evidence": 2,
-    "implemented": 6,
-    "production-verified": 10,
-    "proposed": 42,
-    "queued": 317
+    "implemented": 7,
+    "production-verified": 16,
+    "proposed": 53,
+    "queued": 311
   }
 }

@@ -1,6 +1,6 @@
 {
   "slug": "yellow-cake-with-chocolate-frosting",
-  "status": "accepted-editorial-review; production verification pending",
+  "status": "accepted-editorial-review; production verified",
   "inputCommit": "e922e95ee275aee6289e7225914045d273154791",
   "inputSha256": "adaa51bf97d813d848c7c5ffc2d47803a5c98ca62d3fad355f0185474bec3956",
   "changedFields": [
@@ -1032,5 +1032,11 @@
       "confidence": "high"
     }
   ],
-  "notKitchenTested": true
+  "notKitchenTested": true,
+  "productionVerification": {
+    "status": "verified",
+    "remoteCommit": "e2ae34b991e705cea361b2322a603a9e3f9c4e0e",
+    "deploymentRun": 37369907481,
+    "evidence": "docs/editorial-campaign/2026-10-05/baking-six-production.json"
+  }
 }

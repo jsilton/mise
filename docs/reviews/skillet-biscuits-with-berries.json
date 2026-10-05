@@ -1,6 +1,6 @@
 {
   "slug": "skillet-biscuits-with-berries",
-  "status": "accepted-editorial-review; production verification pending",
+  "status": "accepted-editorial-review; production verified",
   "inputCommit": "e922e95ee275aee6289e7225914045d273154791",
   "inputSha256": "846a7b84e2a95dc7fcdbf5957475b8a9947f5b6a5b10ac08e5315e939871f2ed",
   "changedFields": [
@@ -968,5 +968,11 @@
       "confidence": "high"
     }
   ],
-  "notKitchenTested": true
+  "notKitchenTested": true,
+  "productionVerification": {
+    "status": "verified",
+    "remoteCommit": "e2ae34b991e705cea361b2322a603a9e3f9c4e0e",
+    "deploymentRun": 37369907481,
+    "evidence": "docs/editorial-campaign/2026-10-05/baking-six-production.json"
+  }
 }
