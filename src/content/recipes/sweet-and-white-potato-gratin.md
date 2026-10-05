@@ -24,7 +24,7 @@ role: side
 vibe: holiday
 prepTime: 25 min
 cookTime: 60 min
-totalTime: 85 min
+totalTime: 95 min
 servings: '8'
 pairsWith:
   - chicken-coq-au-vin
@@ -37,6 +37,9 @@ ingredients:
   - '3 cloves Garlic, minced'
   - 1 tbsp Fresh Thyme
   - 1 tbsp Fresh Sage
+  - 1 tsp Fresh Rosemary, chopped
+  - 2 tsp Salt
+  - 1 tsp Black Pepper
   - 1/4 tsp Nutmeg
   - Dash of Cayenne Pepper
   - '2.5 cups Gruyère Cheese, shredded'
@@ -46,31 +49,27 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
-nutrition:
-  calories: 375
-  protein: 5.5
-  carbs: 12.5
-  fat: 33.5
-  fiber: 1.5
-  sugar: 3.5
-  sodium: 90
 source: Adapted from Kaitlin Gwock
 ---
 
 ## Chef's Note
 
-Gratin dauphinois meets Thanksgiving sweet potatoes - alternating layers of sweet and white potatoes create a dish with more complexity than either alone. The mandoline is non-negotiable: 1/8-inch slices cook evenly and create those paper-thin layers that meld into cream. Thicker cuts leave you with raw centers and burnt edges. The cream infusion (warming it with garlic and spices before pouring) ensures flavor penetrates every layer instead of just sitting on top. Start covered at high heat to cook the potatoes through, then uncover to build the golden crust.
+Gratin dauphinois meets Thanksgiving sweet potatoes - alternating layers of sweet and white potatoes create a dish with more complexity than either alone. Even 1/8-inch slices cook consistently and meld into the cream. Use a sharp knife or a mandoline with its hand guard; thicker slices need more time. Whisking the garlic, herbs and seasonings into the cream distributes them through the layers. Start covered at high heat to cook the potatoes through, then uncover to build the golden crust.
 
 ## Directions
 
-1.  **Infuse:** In a medium pot, heat 1 tbsp butter over low heat. Add garlic and spices and bloom for 1 minute. Whisk in the cream, salt, and pepper. Warm over low heat (do not boil) just to marry the flavors.
-2.  **Slice:** Use a mandolin to slice all potatoes into 1/8-inch thick rounds. Keep the colors separate for layering.
+1.  **Mix:** Preheat the oven to 425°F. Whisk the cream, garlic, thyme, sage, rosemary, nutmeg, cayenne, salt, and pepper together in a bowl.
+2.  **Slice:** Use a sharp knife or a mandoline with its hand guard to slice all potatoes into 1/8-inch thick rounds. Keep the colors separate for layering.
 3.  **Cheese Mix:** Combine the shredded Gruyère and Parmesan in a bowl.
-4.  **Layer:** Lightly butter a 9x13 baking dish. Pour 1/2 cup of the cream on the bottom.
+4.  **Layer:** Pour one-sixth of the seasoned cream into a 9x13 baking dish.
     - Layer 1: Sweet potatoes (slightly overlapping). Drizzle with cream, sprinkle with cheese.
     - Layer 2: White potatoes. Drizzle with cream, sprinkle with cheese.
-    - Repeat until all potatoes are used.
-5.  **The Crown:** For the top layer, alternate colors for a beautiful visual pattern. Cover with the remaining cheese and a sprinkle of fresh thyme.
+    - Repeat, dividing the cream and cheese among the layers and reserving cheese for the top. Use all of the cream.
+5.  **The Crown:** For the top layer, alternate colors for a beautiful visual pattern. Cover with the remaining cheese.
 6.  **Bake:** Cover with foil. Bake at 425°F for 15 minutes.
-7.  **Crisp:** Remove foil. Reduce heat to 400°F. Bake for another 45 minutes until the top is deep golden brown and the potatoes are soft when pierced with a knife.
+7.  **Crisp:** Remove foil. Reduce heat to 400°F. Bake for about another 45 minutes, until the potatoes are tender throughout when pierced with a knife. If the top browns before the potatoes soften, cover loosely with foil and continue baking.
 8.  **Rest:** Let rest for 10 minutes before serving so the layers set.
+
+## Timing
+
+The 95-minute estimate includes 25 minutes of preparation, about 60 minutes of baking and the 10-minute rest. Thicker slices or a deeper dish can take longer; test the center before taking the gratin out.

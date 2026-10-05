@@ -59,12 +59,14 @@ These are ideal for busy families looking to sneak vegetables into breakfast. Th
 
 ## Directions
 
-1.  **Emulsify:** In a high-powered blender, combine eggs, banana, spinach, syrup, oil, and vinegar. Blend on high for 60 seconds until vibrant green.
+1.  **Emulsify:** Preheat the oven to 350°F and line a 12-cup muffin tin before mixing the batter. In a high-powered blender, combine eggs, the chosen banana or applesauce, the chosen spinach or kale, syrup, oil, and vinegar. Blend on high for 60 seconds until vibrant green.
 2.  **Dry Mix:** In a large bowl, whisk together flour, cocoa, cinnamon, baking soda, baking powder, and salt.
 3.  **Combine:** Pour the green emulsion into the dry ingredients. Stir with a spatula until **just mixed**. Fold in the chocolate chips.
-4.  **Bake:** Preheat oven to 350°F. Line a 12-cup tin. Fill each 3/4 full. Bake for 20-22 minutes until a toothpick comes out clean.
-5.  **Cool:** Let rest in the pan for 5 minutes. These freeze perfectly for up to 3 months.
+4.  **Bake:** Divide the batter among the prepared cups, filling no more than 3/4 full. Bake any excess batter separately rather than overfilling. Bake for 20-22 minutes until a toothpick comes out clean.
+5.  **Cool:** Let rest in the pan for 5 minutes, then transfer to a rack to cool completely. Freeze cooled muffins in an airtight container for up to 1 month.
 
 ## Cooking Notes
 
 If serving a dairy-free version, check that any optional chocolate chips are also dairy-free.
+
+The 30-minute estimate covers one oven batch before cooling; extra batter or a second batch takes longer. The adapted formula has not been kitchen-tested.

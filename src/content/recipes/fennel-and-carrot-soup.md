@@ -20,15 +20,15 @@ cuisines:
 role: main
 vibe: comfort
 prepTime: 15 min
-cookTime: 70 min
-totalTime: 85 min
+cookTime: 85 min
+totalTime: 100 min
 servings: '6'
 pairsWith:
   - arugula-feta-salad
   - peach-salad-with-tomatoes-and-beets
   - whipped-feta-with-honey
 ingredients:
-  - '2 lbs Carrots, peeled and chopped'
+  - '2 Carrots, peeled and chopped'
   - '1 large Fennel Bulb, thinly sliced'
   - '1 small Yellow Onion, thinly sliced'
   - '1 small Yukon Gold Potato, peeled and halved'
@@ -45,14 +45,6 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
-nutrition:
-  calories: 145
-  protein: 1.5
-  carbs: 9.5
-  fat: 12
-  fiber: 1
-  sugar: 3.5
-  sodium: 670
 source: Adapted from Bonappetit.com
 sourceUrl: 'http://www.bonappetit.com/recipe/fennel-and-carrot-soup'
 ---
@@ -63,10 +55,14 @@ This soup showcases deep flavor development. The secret is the low-slow sauté: 
 
 ## Directions
 
-1.  **Sweat:** In a large heavy pot, melt 4 tbsp butter over medium. Add fennel, onion, carrots, and potato. Season with salt and pepper.
+1.  **Sweat:** In a large heavy pot, melt two-thirds of the butter over medium. Add fennel, onion, carrots, potato, thyme, and bay leaf. Season with salt and pepper.
 2.  **Low & Slow:** Reduce heat to **medium-low**, cover, and cook for 45-60 minutes. Stir occasionally. The vegetables should be very soft and aromatic but not browned.
-3.  **Simmer:** Add broth, thyme, and bay leaf. Bring to a boil, then reduce heat and simmer for 10 minutes until the potato is falling apart. Remove herbs.
-4.  **The Emulsion:** Working in batches, puree the soup in a blender until perfectly smooth. Strain through a fine-mesh sieve for an even more elite texture.
-5.  **Toast:** Heat the remaining 2 tbsp butter in a small pan. Add chopped chestnuts and cook until the butter is nutty brown and the nuts are fragrant.
+3.  **Simmer:** Add broth. Bring to a boil, then reduce heat and simmer for 10 minutes until the potato is falling apart. Remove herbs and let the soup cool slightly.
+4.  **The Emulsion:** Blend until smooth with an immersion blender, keeping its head submerged. For a countertop blender, use only a model approved for hot liquids and follow its temperature, fill, lid and venting instructions; work in small batches and start at low speed. Strain through a fine-mesh sieve if desired.
+5.  **Toast:** Heat the remaining one-third of the butter in a small pan. Add chopped chestnuts and cook until the butter is nutty brown and the nuts are fragrant.
 6.  **The Crown:** Whisk the crème fraîche and maple syrup together.
 7.  **Serve:** Ladle soup into bowls. Top with a swirl of maple crème fraîche and the brown-butter chestnuts.
+
+## Timing
+
+Allow about 100 minutes including preparation, the longer end of the covered vegetable cooking, heating the broth, and blending. Prepare the chestnuts and maple cream while the soup simmers. The vegetables' tenderness, rather than the clock alone, determines when to add the broth.

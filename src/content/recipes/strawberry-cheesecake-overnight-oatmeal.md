@@ -41,6 +41,7 @@ ingredients:
   - '1/2 Lemon, zested and juiced (The Acid Balance)'
   - 1/2 tsp Pure Vanilla Extract
   - 1 tbsp Maple Syrup
+  - Additional Fresh Strawberry and freshly ground Black Pepper, optional garnish
 origin: United States
 pairsWith:
   - apple-cider-cream-pie
@@ -65,9 +66,9 @@ The key to "cheesecake" oats that aren't a dense brick is whisking the cream che
 
 ## Directions
 
-1.  **The Emulsion:** In a small bowl, whisk softened cream cheese, yogurt, honey, vanilla, and lemon juice until perfectly smooth.
+1.  **The Emulsion:** In a small bowl, whisk softened cream cheese, yogurt, maple syrup, vanilla, and lemon juice until perfectly smooth.
 2.  **Combine:** Stir in the milk and chia seeds.
 3.  **The Grain:** Add the rolled oats. Stir vigorously until the oats are fully submerged.
 4.  **Fold:** Gently stir in the chopped strawberries and lemon zest.
 5.  **The Finish:** Transfer to a wide-mouth glass jar. Cover and **refrigerate for at least 4 hours** (overnight is best) to allow the chia and oats to hydrate.
-6.  **Serve:** Stir once more. Garnish with a fresh strawberry and a "High Note" crack of black pepper (trust me).
+6.  **Serve:** Stir once more. If desired, garnish with the additional strawberry and a little black pepper.

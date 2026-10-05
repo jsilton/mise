@@ -34,9 +34,9 @@ equipment:
   - wok
   - colander
   - cutting-board
-prepTime: 15 min
-cookTime: 12 min
-totalTime: 27 min
+prepTime: 20 min
+cookTime: 20 min
+totalTime: 40 min
 servings: '4'
 pairsWith:
   - steamed-white-rice
@@ -51,16 +51,17 @@ ingredients:
   - '4 oz Mushrooms (shiitake or cremini), thinly sliced'
   - '1 Medium Onion, thinly sliced'
   - '1 cup Fresh Spinach (or 4 oz frozen spinach, thawed and squeezed dry)'
-  - '3 cloves Garlic, minced'
+  - '3 cloves Garlic, minced, divided'
   - '3 Green Onions (scallions), cut into 2-inch pieces'
   - '--- Seasoning ---'
-  - 3 tbsp Soy Sauce
-  - 1 tbsp Sesame Oil
+  - 3 tbsp Soy Sauce, divided
+  - 1 tbsp Sesame Oil, divided
+  - 1 tsp Cornstarch
   - 1 tbsp Brown Sugar
   - 1 tbsp Rice Vinegar
   - '2 tsp Gochugaru (Korean red chili flakes, optional)'
   - 1/4 tsp Black Pepper
-  - 1 tbsp Vegetable Oil
+  - 1 tbsp Vegetable Oil, plus more as needed for the vegetables
   - '--- For Serving ---'
   - Sesame Seeds
   - Additional Sesame Oil (optional drizzle)
@@ -80,20 +81,21 @@ Japchae is Korean mixed stir-fry with sweet potato glass noodles - a dish that s
 
 ## Directions
 
-1. **Cook the Noodles:** Bring a large pot of water to a boil. Add the glass noodles and cook for 4-5 minutes until translucent and tender. Drain in a colander, rinse under cool water, and set aside. The noodles can be tossed with a small drizzle of sesame oil to prevent sticking.
+1. **Cook the Noodles:** Bring a large pot of water to a boil. Add the glass noodles and cook according to the package directions until translucent and tender with a slight chew. Drain in a colander, rinse under cool water, and set aside. If needed, use a little of the optional additional sesame oil to prevent sticking.
 
-2. **Marinate the Beef:** While the noodles cook, combine the thinly sliced beef with 1 tbsp soy sauce, 1 tsp sesame oil, 1/2 tsp minced garlic, 1/4 tsp black pepper, and 1 tsp cornstarch in a small bowl. This cornstarch coating (velveting) protects the meat from the high heat of the skillet. Let sit for 15 minutes while you prep vegetables.
+2. **Marinate the Beef:** While the noodles cook, combine the thinly sliced beef with 1 tbsp soy sauce, 1 tsp sesame oil, 1/2 tsp minced garlic, 1/4 tsp black pepper, and 1 tsp cornstarch in a small bowl. This cornstarch coating (velveting) protects the meat from the high heat of the skillet. Refrigerate for 15 minutes while you prep vegetables.
 
-3. **Cook the Beef:** Heat 1 tbsp vegetable oil in a large skillet over high heat until it shimmers. Add the marinated beef in a single layer and let it sit for 1 minute without stirring to develop color. Stir and cook another 30 seconds until the beef is mostly cooked. Transfer to a plate.
+3. **Cook the Beef:** Heat 1 tbsp vegetable oil in a large skillet over high heat until it shimmers. Add the marinated beef in a single layer and let it sit for 1 minute without stirring to develop color. Stir and continue cooking until the thickest slices reach 145°F / 63°C; use a thin-tip thermometer inserted from the side. Transfer to a clean plate and rest at least 3 minutes while cooking the vegetables. Do not stop at partly cooked beef: the final toss is brief.
 
 4. **Cook the Vegetables (Separately):** In the same skillet, add a little more oil if needed. Cook the harder vegetables first, one type at a time, for speed and texture control:
    - Carrots: 2-3 minutes, then transfer to a bowl
    - Zucchini: 2-3 minutes, then transfer to the bowl
    - Mushrooms: 2-3 minutes, then transfer to the bowl
    - Onion: 2-3 minutes until softened, then transfer to the bowl
-   - Spinach: Cook until wilted (about 1 minute), squeeze out excess moisture, then transfer
+   - Scallions: Cook about 1 minute until slightly softened, then transfer
+   - Spinach: Cook until wilted (about 1 minute), drain excess liquid, then transfer. If using thawed, squeezed frozen spinach, warm it through instead.
 
-5. **Make the Sauce:** In a small bowl, whisk together 2 tbsp soy sauce, 1 tbsp sesame oil, 1 tbsp brown sugar, 1 tbsp rice vinegar, and remaining minced garlic (total 2 tsp). Taste and adjust - it should be balanced between salty, sweet, and tangy.
+5. **Make the Sauce:** In a small bowl, whisk together the remaining 2 tbsp soy sauce, remaining 2 tsp sesame oil, brown sugar, rice vinegar, and all the remaining minced garlic. Taste and adjust - it should be balanced between salty, sweet, and tangy.
 
 6. **Combine:** Add the cooked glass noodles and all vegetables back to the large skillet. Return the cooked beef to the pan. Pour the sauce over everything and toss gently but thoroughly for 1-2 minutes until everything is coated and heated through. The heat should be low - you're just combining and warming, not cooking further.
 
@@ -105,8 +107,10 @@ Japchae is Korean mixed stir-fry with sweet potato glass noodles - a dish that s
 
 **Vegetable Flexibility:** This dish is forgiving. Use whatever vegetables need using: bell peppers, green beans, broccoli, shiitake mushrooms, cabbage. The principle is the same - cook each vegetable separately, then combine.
 
-**Beef Alternative:** Shrimp works beautifully (cook the same way). Or skip the protein entirely for a vegetarian version - the noodles and vegetables are hearty enough.
+**Beef Alternative:** Shrimp can replace the beef; cook until the flesh is firm, pearly and opaque rather than following the beef time. Or skip the protein entirely for a vegetarian version - the noodles and vegetables are hearty enough.
 
-**Make-Ahead:** Japchae tastes equally good warm or at room temperature and is perfect for meal prep. Store in the refrigerator for up to 3 days. Serve cold or reheat gently over low heat.
+**Make-Ahead:** Japchae tastes equally good warm or at room temperature and is perfect for meal prep. Refrigerate in shallow containers within 2 hours (1 hour above 90°F / 32°C), and keep for up to 3 days. Serve cold or reheat to 165°F / 74°C.
+
+**Timing:** Allow about 40 minutes as a planning estimate, with the noodle cooking and beef marinade overlapping vegetable preparation. Sequential vegetable batches alone take about 10-14 minutes; more batches or slower knife work take longer. This estimate has not been kitchen-tested.
 
 **Texture Key:** The reason to cook vegetables separately is texture. If you dump everything together and cook it, the vegetables become mushy. Separate cooking preserves the bite of each ingredient.

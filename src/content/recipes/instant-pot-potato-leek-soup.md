@@ -15,8 +15,8 @@ cuisines:
 role: main
 vibe: comfort
 prepTime: 20 min
-cookTime: 22 min
-totalTime: 42 min
+cookTime: 50 min
+totalTime: 70 min
 servings: '6'
 pairsWith:
   - sweet-and-white-potato-gratin
@@ -24,7 +24,7 @@ pairsWith:
   - garlic-bread
 ingredients:
   - '1 lb Yukon Gold Potatoes, cubed (Skin-off)'
-  - '5 cups Leeks, cleaned and sliced (pale green parts only)'
+  - '5 cups Leeks, cleaned and sliced (white and pale green parts only)'
   - 3 tbsp Unsalted Butter
   - 2 tbsp Extra-Virgin Olive Oil
   - '2 cloves Garlic, minced'
@@ -54,21 +54,25 @@ sourceUrl: 'https://www.simplyhappyfoodie.com/instant-pot-potato-leek-soup/'
 
 ## Chef's Note
 
-This modern update to my Grandpa's recipe achieves silky texture by sautéing leeks in butter and oil until completely soft and translucent before adding flour and broth - this fully develops their natural sugars. White pepper and nutmeg bridge the gap between earthy potatoes and rich cream, classic French seasonings for potato-leek soup.
+Adapted from Sandy Clifton's potato-leek soup at Simply Happy Foodie, this version softens leeks in butter and oil before adding flour and broth. White pepper and nutmeg bridge the gap between earthy potatoes and rich cream, classic French seasonings for potato-leek soup.
 
 ## Directions
 
 Use an electric pressure cooker with a sauté setting. Follow its minimum-liquid, maximum-fill and pressure-release instructions; these depend on the model.
 
-1.  **The Sweat:** Set electric pressure cooker to "Sauté." Add butter and olive oil. Once hot, add leeks and sauté for 5-7 minutes cook until golden brown and softened. Do not brown.
+1.  **The Sweat:** Set electric pressure cooker to "Sauté." Add butter and olive oil. Once hot, add leeks and sauté for 5-7 minutes, stirring, until softened; reduce the heat if the leeks start to brown.
 2.  **Aromatics:** Add garlic and sauté for 30 seconds. Sprinkle the flour over the leeks and stir for 1 minute to cook out the raw starch taste.
 3.  **Deglaze:** Pour in the broth slowly, scraping the bottom of the pot to ensure no flour sticks.
 4.  **Pressure:** Add potatoes, bay leaf, nutmeg, salt, and pepper. Secure the lid. Set to **High Pressure for 7 minutes**.
 5.  **Release:** Turn Keep Warm off and let pressure release fully naturally. Open only after the pressure indicator has dropped and the model’s instructions confirm it is safe.
-6.  **The Emulsion:** Remove the bay leaf. Use an immersion blender to puree the soup directly in the pot until perfectly smooth.
+6.  **The Emulsion:** Remove the bay leaf. With the heat off, use an immersion blender with its head submerged to puree the soup. Stop once smooth; prolonged blending can make potato soup gluey.
 7.  **Finish:** Stir in the half-and-half. Taste and adjust salt if needed.
 8.  **Serve:** Garnish with a dollop of sour cream and fresh chives for **Textural Balance**.
 
 ## Cooking Notes
 
 The original saved recipe was adapted from the contributor’s grandfather’s recipe.
+
+## Timing
+
+Allow about 70 minutes including preparation, sautéing, the cooker coming to pressure, seven minutes at pressure, full natural release and finishing. Pressure buildup and natural release vary with the cooker and batch size and may take longer; they are not included in the seven-minute pressure setting. Wash sliced leeks thoroughly to remove grit before measuring.

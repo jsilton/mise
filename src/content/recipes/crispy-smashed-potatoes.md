@@ -28,8 +28,8 @@ advancePrep:
 equipment:
   - baking-sheet
 prepTime: 10 min
-cookTime: 40 min
-totalTime: 50 min
+cookTime: 65 min
+totalTime: 75 min
 servings: '4'
 pairsWith:
   - sheet-pan-italian-sausage-dinner
@@ -59,8 +59,12 @@ Boiling potatoes until tender, then smashing them flat creates jagged edges and 
 ## Directions
 
 1.  **Boil:** Place whole baby potatoes in a pot of cold salted water. Bring to a boil and cook for 15-20 minutes until easily pierced with a fork. Drain.
-2.  **Smash:** Preheat oven to 425°F. Line a baking sheet with parchment. Place potatoes on the sheet. Use the bottom of a heavy glass or a potato masher to press each potato until it is about 1/2-inch thick. **Do not over-smash**; you want them to stay in one piece.
+2.  **Smash:** Preheat oven to 425°F. Line a baking sheet with parchment. Place potatoes on the sheet with space between them; use a second sheet if needed. Use the bottom of a heavy glass or a potato masher to press each potato until it is about 1/2-inch thick. **Do not over-smash**; you want them to stay in one piece.
 3.  **Dry:** Let the smashed potatoes sit for 5 minutes to allow surface moisture to evaporate.
-4.  **Season:** Drizzle generously with oil. Sprinkle with garlic powder, herbs, salt, and pepper.
+4.  **Season:** Drizzle with the measured olive oil. Sprinkle with garlic powder, herbs, salt, and pepper.
 5.  **Roast:** Bake for 25-30 minutes, flipping once halfway through, until the potatoes are deep golden brown and the edges are "glass-crisp."
 6.  **Finish:** Sprinkle with flaky sea salt. Serve hot.
+
+## Timing
+
+Allow about 75 minutes including preparation and bringing the water to a boil. After the water boils, the potatoes need 15-20 minutes to soften, five minutes to steam-dry after smashing, and 25-30 minutes to roast. Start preheating the oven while they boil. Crowded trays or larger potatoes can take longer; tenderness and browned edges are the endpoints.

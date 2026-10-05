@@ -455,33 +455,33 @@
       "@context": "https://schema.org",
       "@type": "Recipe",
       "name": "Apple Cider Cream Pie",
-      "description": "This pie concentrates two cups of unfiltered apple cider down to 1/2 cup syrup, intensifying its flavor tenfold. The apple cider vinegar in the crust inhibits gluten development, creating a tender, flaky pastry that contrasts beautifully with the rich custard filling.",
+      "description": "This pie concentrates two cups of unfiltered apple cider down to 1/2 cup syrup, reducing its volume to one quarter. The apple cider vinegar in the crust inhibits gluten development, creating a tender, flaky pastry that contrasts beautifully with the rich custard filling.",
       "url": "https://jordansilton.com/mise/recipes/apple-cider-cream-pie/",
       "recipeIngredient": [
         "1 cup All-purpose flour",
         "1 tbsp Cornstarch",
-        "1 tbsp Sugar",
-        "1 tsp Kosher salt",
+        "1 tbsp Sugar, for the crust",
+        "1 tsp Kosher salt, for the crust",
         "1 stick Unsalted butter, chilled and diced",
         "3 tbsp Cold milk",
         "1 tsp Apple cider vinegar",
         "2 cups Apple cider (unfiltered preferred)",
-        "3/4 cup Granulated sugar",
+        "3/4 cup Granulated sugar, for the custard",
         "1/2 cup Sour cream",
-        "1/4 tsp Salt",
+        "1/4 tsp Salt, for the custard",
         "4 large Eggs",
         "1 cup Heavy cream",
-        "1/4 cup Granulated sugar",
+        "1/4 cup Granulated sugar, for the topping",
         "1/2 tsp Ground cinnamon"
       ],
       "recipeInstructions": [
         {
           "@type": "HowToStep",
-          "text": "The Crust: In a food processor, pulse flour, cornstarch, sugar, and salt. Add butter and pulse until it looks like coarse meal. Drizzle in milk and vinegar; pulse until dough just forms. Pat into a disk, wrap in plastic, and chill for 30 minutes."
+          "text": "The Crust: In a food processor, pulse flour, cornstarch, the crust sugar, and the crust salt. Add butter and pulse until it looks like coarse meal. Drizzle in milk and vinegar; pulse until dough just forms. Pat into a disk, wrap in plastic, and chill for 30 minutes."
         },
         {
           "@type": "HowToStep",
-          "text": "Blind Bake: Roll dough to an 11-inch round and fit into a 9-inch pie plate. Crimp edges and chill until firm (15 mins). Preheat oven to 425°F. Line with parchment and weights; bake for 15 mins. Remove weights and parchment. Cover edges with foil and bake 15 mins more at 350°F until set but not browned."
+          "text": "Blind Bake: Roll dough to an 11-inch round and fit into a 9-inch pie plate. Crimp edges and chill until firm (15 mins). Preheat oven to 425°F. Line with parchment and weights; bake for 15 mins. Remove weights and parchment. Cover edges with foil and bake 15 mins more at 425°F until set but not browned. Let the shell cool and reduce the oven to 350°F for the custard bake."
         },
         {
           "@type": "HowToStep",
@@ -489,15 +489,15 @@
         },
         {
           "@type": "HowToStep",
-          "text": "The Custard: Whisk the reduced cider with 3/4 cup sugar, sour cream, and salt. Whisk in the eggs until smooth."
+          "text": "The Custard: Whisk the reduced cider with the custard sugar, sour cream, and custard salt. Whisk in the eggs until smooth."
         },
         {
           "@type": "HowToStep",
-          "text": "Bake: Pour custard into the cooled shell. Bake at 350°F for 35-40 minutes until the edges are set but the center is still slightly jiggly. Cool completely (this is mandatory for the set)."
+          "text": "Bake: Pour custard into the cooled shell. Bake at 350°F for 35-40 minutes until the edges are set but the center is still slightly jiggly. Cool briefly on a rack, then refrigerate within 2 hours of leaving the oven (within 1 hour above 90°F / 32°C). Continue chilling in the refrigerator until completely cold and set."
         },
         {
           "@type": "HowToStep",
-          "text": "Finish: Whip heavy cream with 1/4 cup sugar and cinnamon until firm peaks form. Mound over the cooled pie before serving."
+          "text": "Finish: Whip heavy cream with the topping sugar and cinnamon until firm peaks form. Mound over the cooled pie before serving."
         }
       ],
       "prepTime": "PT45M",
@@ -5131,28 +5131,29 @@
       "description": "Enchiladas Suizas (Swiss-style enchiladas) originated in Mexico City in the 1950s at Sanborns restaurant, named for their creamy, dairy-rich green tomatillo sauce. This version adds white beans to the chicken filling for extra protein and fiber.",
       "url": "https://jordansilton.com/mise/recipes/chicken-and-white-bean-enchiladas-with-creamy-green-chile-sauce/",
       "recipeIngredient": [
-        "1 lb Shredded Chicken (Poached or Rotisserie)",
+        "1 lb cooked Shredded Chicken (Poached or Rotisserie)",
         "15 oz can Navy or Cannellini Beans, rinsed",
-        "8 Flour or Corn Tortillas",
+        "8 (8-inch) Flour Tortillas",
+        "1 tsp Ground Cumin",
         "12 oz Tomatillo Salsa or Enchilada Sauce",
         "1/2 cup Light Sour Cream or Greek Yogurt",
         "1 can (4 oz) Diced Green Chiles",
-        "1/2 cup Fresh Cilantro",
+        "1/2 cup Fresh Cilantro, plus extra for optional garnish",
         "1 cup Mexican Cheese Blend, shredded",
         "Pickled Red Onions for garnish"
       ],
       "recipeInstructions": [
         {
           "@type": "HowToStep",
-          "text": "The Filling: In a bowl, toss the shredded chicken, beans, cumin, and 1/4 cup of the green sauce."
+          "text": "The Sauce: Preheat the oven to 375°F. In a blender, combine the enchilada sauce, diced green chiles, cilantro, and sour cream. Pulse until smooth and creamy."
         },
         {
           "@type": "HowToStep",
-          "text": "The Sauce: In a blender, combine the enchilada sauce, diced green chiles, cilantro, and sour cream. Pulse until smooth and creamy."
+          "text": "The Filling: In a bowl, toss the cooked shredded chicken, drained beans, cumin, and 1/4 cup of the blended sauce."
         },
         {
           "@type": "HowToStep",
-          "text": "Assemble: Spread 1/2 cup of sauce on the bottom of a 9x13 dish. Fill each tortilla with the chicken/bean mixture, roll tightly, and place seam-side down."
+          "text": "Assemble: Spread 1/2 cup of sauce on the bottom of a 9x13 dish. Divide the chicken/bean mixture evenly among the tortillas, roll, and place seam-side down."
         },
         {
           "@type": "HowToStep",
@@ -5160,17 +5161,17 @@
         },
         {
           "@type": "HowToStep",
-          "text": "Crisp: Bake at 375°F for 20-25 minutes until the sauce is bubbling and the cheese is golden."
+          "text": "Crisp: Bake at 375°F, starting to check after 20-25 minutes, until the center of the filling reaches 165°F / 74°C and the sauce is bubbling. Cover loosely with foil if the cheese browns before the center is hot; chilled filling may take longer."
         },
         {
           "@type": "HowToStep",
-          "text": "Finish: Top with fresh cilantro and quick Pickled Red Onions."
+          "text": "Finish: Top with optional extra cilantro and quick Pickled Red Onions."
         }
       ],
       "prepTime": "PT20M",
       "cookTime": "PT30M",
       "totalTime": "PT50M",
-      "recipeYield": "8",
+      "recipeYield": "8 enchiladas (1 per serving, with sides)",
       "recipeCategory": "Main course",
       "recipeCuisine": ["Mexican"],
       "keywords": "Mexican, rich, comfort-food, meal-prep, bake, poach, no-cook, blend",
@@ -10117,7 +10118,7 @@
         },
         {
           "@type": "HowToStep",
-          "text": "Smash: Preheat oven to 425°F. Line a baking sheet with parchment. Place potatoes on the sheet. Use the bottom of a heavy glass or a potato masher to press each potato until it is about 1/2-inch thick. Do not over-smash; you want them to stay in one piece."
+          "text": "Smash: Preheat oven to 425°F. Line a baking sheet with parchment. Place potatoes on the sheet with space between them; use a second sheet if needed. Use the bottom of a heavy glass or a potato masher to press each potato until it is about 1/2-inch thick. Do not over-smash; you want them to stay in one piece."
         },
         {
           "@type": "HowToStep",
@@ -10125,7 +10126,7 @@
         },
         {
           "@type": "HowToStep",
-          "text": "Season: Drizzle generously with oil. Sprinkle with garlic powder, herbs, salt, and pepper."
+          "text": "Season: Drizzle with the measured olive oil. Sprinkle with garlic powder, herbs, salt, and pepper."
         },
         {
           "@type": "HowToStep",
@@ -10137,8 +10138,8 @@
         }
       ],
       "prepTime": "PT10M",
-      "cookTime": "PT40M",
-      "totalTime": "PT50M",
+      "cookTime": "PT65M",
+      "totalTime": "PT75M",
       "recipeYield": "4",
       "recipeCategory": "Side dish",
       "recipeCuisine": ["American"],
@@ -12633,7 +12634,7 @@
       "description": "This soup showcases deep flavor development. The secret is the low-slow sauté: we cook the vegetables in butter for a full 45-60 minutes before adding the broth.",
       "url": "https://jordansilton.com/mise/recipes/fennel-and-carrot-soup/",
       "recipeIngredient": [
-        "2 lbs Carrots, peeled and chopped",
+        "2 Carrots, peeled and chopped",
         "1 large Fennel Bulb, thinly sliced",
         "1 small Yellow Onion, thinly sliced",
         "1 small Yukon Gold Potato, peeled and halved",
@@ -12649,7 +12650,7 @@
       "recipeInstructions": [
         {
           "@type": "HowToStep",
-          "text": "Sweat: In a large heavy pot, melt 4 tbsp butter over medium. Add fennel, onion, carrots, and potato. Season with salt and pepper."
+          "text": "Sweat: In a large heavy pot, melt two-thirds of the butter over medium. Add fennel, onion, carrots, potato, thyme, and bay leaf. Season with salt and pepper."
         },
         {
           "@type": "HowToStep",
@@ -12657,15 +12658,15 @@
         },
         {
           "@type": "HowToStep",
-          "text": "Simmer: Add broth, thyme, and bay leaf. Bring to a boil, then reduce heat and simmer for 10 minutes until the potato is falling apart. Remove herbs."
+          "text": "Simmer: Add broth. Bring to a boil, then reduce heat and simmer for 10 minutes until the potato is falling apart. Remove herbs and let the soup cool slightly."
         },
         {
           "@type": "HowToStep",
-          "text": "The Emulsion: Working in batches, puree the soup in a blender until perfectly smooth. Strain through a fine-mesh sieve for an even more elite texture."
+          "text": "The Emulsion: Blend until smooth with an immersion blender, keeping its head submerged. For a countertop blender, use only a model approved for hot liquids and follow its temperature, fill, lid and venting instructions; work in small batches and start at low speed. Strain through a fine-mesh sieve if desired."
         },
         {
           "@type": "HowToStep",
-          "text": "Toast: Heat the remaining 2 tbsp butter in a small pan. Add chopped chestnuts and cook until the butter is nutty brown and the nuts are fragrant."
+          "text": "Toast: Heat the remaining one-third of the butter in a small pan. Add chopped chestnuts and cook until the butter is nutty brown and the nuts are fragrant."
         },
         {
           "@type": "HowToStep",
@@ -12677,8 +12678,8 @@
         }
       ],
       "prepTime": "PT15M",
-      "cookTime": "PT70M",
-      "totalTime": "PT85M",
+      "cookTime": "PT85M",
+      "totalTime": "PT100M",
       "recipeYield": "6",
       "recipeCategory": "Main course",
       "recipeCuisine": ["Mediterranean"],
@@ -14403,18 +14404,21 @@
         "1 tsp Dark Soy Sauce (for color)",
         "2 tsp Rice Vinegar",
         "1 tbsp Granulated Sugar",
-        "1 1/2 tbsp Cornstarch (slurry)",
+        "1 1/2 tbsp Cornstarch, for the slurry",
+        "1 tbsp Cold Water, for the slurry",
+        "1/2 tsp Toasted Sesame Oil",
+        "1/2 tbsp Shaoxing Wine, optional",
         "2 cups Broccoli Florets",
         "1/2 Red Bell Pepper, sliced",
         "1 tbsp Fresh Ginger, minced",
         "2 cloves Garlic, minced",
         "7 Dried Chinese Red Chilies",
-        "Peanut Oil (for shallow frying)"
+        "1/3 cup Peanut Oil, for shallow frying; reuse 1 tbsp for the aromatics"
       ],
       "recipeInstructions": [
         {
           "@type": "HowToStep",
-          "text": "The Bind: Toss dry tofu cubes with honey and hot sauce. Sprinkle with sesame seeds and 3 tbsp cornstarch. Toss until every cube is \"crusty.\""
+          "text": "The Bind: First mix the slurry cornstarch with the measured cold water in a small bowl and set aside. Toss dry tofu cubes with honey and hot sauce. Sprinkle with sesame seeds and 3 tbsp cornstarch. Toss until every cube is \"crusty.\""
         },
         {
           "@type": "HowToStep",
@@ -14422,7 +14426,7 @@
         },
         {
           "@type": "HowToStep",
-          "text": "The Aromatics: Heat 1 tbsp oil in a wok. Sauté ginger, garlic, and dried chilies for 30 seconds. Add bell peppers and a splash of Shaoxing wine (if using)."
+          "text": "The Aromatics: Heat 1 tbsp of the oil left from frying the tofu in a wok. Sauté ginger, garlic, and dried chilies for 30 seconds. Add bell peppers and the optional measured Shaoxing wine."
         },
         {
           "@type": "HowToStep",
@@ -14430,11 +14434,11 @@
         },
         {
           "@type": "HowToStep",
-          "text": "The Glaze: Immediately add the soy sauces, vinegar, sugar, and sesame oil. Stir in the cornstarch slurry."
+          "text": "The Glaze: Immediately add the soy sauces, vinegar, sugar, and sesame oil. Re-stir the slurry, then add it gradually while stirring the boiling sauce."
         },
         {
           "@type": "HowToStep",
-          "text": "Bind: Simmer for 1 minute until the sauce is thick and mirror-glossy."
+          "text": "Bind: Simmer for 30-60 seconds after each slurry addition before deciding whether to add more; stop when the sauce coats a spoon. Continue until the broccoli is tender-crisp before returning the tofu to the pan."
         },
         {
           "@type": "HowToStep",
@@ -16516,24 +16520,30 @@
         "1 cup Fresh Basil",
         "1 Jalapeño, seeded",
         "1 tbsp Honey",
-        "1 tbsp Fresh Lemon Juice"
+        "1 tbsp Fresh Lemon Juice",
+        "4 tbsp Olive Oil, divided",
+        "1/2 tsp Salt, for the chickpeas",
+        "1/2 tsp Garlic Powder, for the chickpeas",
+        "1/2 tsp Italian Seasoning, for the chickpeas",
+        "1/2 tsp Ground Cinnamon, for the sweet potato",
+        "1/4 tsp Ground Cumin, for the sweet potato"
       ],
       "recipeInstructions": [
         {
           "@type": "HowToStep",
-          "text": "Stage 1 (Roast): Preheat oven to 400°F. On one sheet pan, toss bone-dry chickpeas with olive oil, salt, garlic powder, and Italian seasoning. On another pan, toss sweet potato cubes with olive oil, cinnamon, and cumin. Roast both for 15-20 minutes until crispy."
+          "text": "Stage 1 (Roast): Preheat oven to 400°F. On one sheet pan, toss drained, well-dried chickpeas with 1 tbsp olive oil, the salt, garlic powder, and Italian seasoning. On another pan, toss sweet potato cubes with 1 tbsp olive oil, cinnamon, and cumin. Start checking the chickpeas at 15 minutes for a crisp exterior. Roast the sweet potato for about 15-25 minutes, until tender inside and browned at the edges; remove each pan when ready."
         },
         {
           "@type": "HowToStep",
-          "text": "The Meatballs: In a large bowl, combine chicken, ricotta, egg, panko, shallots, greens, and lemon zest. Mix gently until just combined."
+          "text": "The Meatballs: In a large bowl, combine chicken, ricotta, egg, panko, shallot, cilantro, dill, and lemon zest. Keep the kale for the serving bowls. Mix gently until just combined."
         },
         {
           "@type": "HowToStep",
-          "text": "Shape: Form into 12 small cylindrical logs (about 2 tbsp each)."
+          "text": "Shape: Portion all the mixture into small cylindrical logs, using about 2 tbsp per log; the total count will vary with scoop size."
         },
         {
           "@type": "HowToStep",
-          "text": "Sear: Heat 2 tbsp oil in a large skillet over medium-high. Sear the meatballs for 3-4 minutes per side until golden brown and the internal temp is 165°F."
+          "text": "Sear: Heat the remaining 2 tbsp oil in a large skillet over medium-high. Cook the logs in batches without crowding, starting with 3-4 minutes per side. Continue as needed until golden brown and the centers reach 165°F / 74°C on a food thermometer."
         },
         {
           "@type": "HowToStep",
@@ -17679,11 +17689,11 @@
       "@context": "https://schema.org",
       "@type": "Recipe",
       "name": "Pressure-Cooker Potato Leek Soup",
-      "description": "This modern update to my Grandpa's recipe achieves silky texture by sautéing leeks in butter and oil until completely soft and translucent before adding flour and broth - this fully develops their natural sugars. White pepper and nutmeg bridge the gap between earthy potatoes and rich cream, classic French seasonings for potato-leek soup.",
+      "description": "Adapted from Sandy Clifton's potato-leek soup at Simply Happy Foodie, this version softens leeks in butter and oil before adding flour and broth. White pepper and nutmeg bridge the gap between earthy potatoes and rich cream, classic French seasonings for potato-leek soup.",
       "url": "https://jordansilton.com/mise/recipes/instant-pot-potato-leek-soup/",
       "recipeIngredient": [
         "1 lb Yukon Gold Potatoes, cubed (Skin-off)",
-        "5 cups Leeks, cleaned and sliced (pale green parts only)",
+        "5 cups Leeks, cleaned and sliced (white and pale green parts only)",
         "3 tbsp Unsalted Butter",
         "2 tbsp Extra-Virgin Olive Oil",
         "2 cloves Garlic, minced",
@@ -17703,7 +17713,7 @@
           "itemListElement": [
             {
               "@type": "HowToStep",
-              "text": "The Sweat: Set electric pressure cooker to \"Sauté.\" Add butter and olive oil. Once hot, add leeks and sauté for 5-7 minutes cook until golden brown and softened. Do not brown."
+              "text": "The Sweat: Set electric pressure cooker to \"Sauté.\" Add butter and olive oil. Once hot, add leeks and sauté for 5-7 minutes, stirring, until softened; reduce the heat if the leeks start to brown."
             },
             {
               "@type": "HowToStep",
@@ -17723,7 +17733,7 @@
             },
             {
               "@type": "HowToStep",
-              "text": "The Emulsion: Remove the bay leaf. Use an immersion blender to puree the soup directly in the pot until perfectly smooth."
+              "text": "The Emulsion: Remove the bay leaf. With the heat off, use an immersion blender with its head submerged to puree the soup. Stop once smooth; prolonged blending can make potato soup gluey."
             },
             {
               "@type": "HowToStep",
@@ -17737,8 +17747,8 @@
         }
       ],
       "prepTime": "PT20M",
-      "cookTime": "PT22M",
-      "totalTime": "PT42M",
+      "cookTime": "PT50M",
+      "totalTime": "PT70M",
       "recipeYield": "6",
       "recipeCategory": "Main course",
       "recipeCuisine": ["French"],
@@ -18116,15 +18126,16 @@
         "4 oz Mushrooms (shiitake or cremini), thinly sliced",
         "1 Medium Onion, thinly sliced",
         "1 cup Fresh Spinach (or 4 oz frozen spinach, thawed and squeezed dry)",
-        "3 cloves Garlic, minced",
+        "3 cloves Garlic, minced, divided",
         "3 Green Onions (scallions), cut into 2-inch pieces",
-        "3 tbsp Soy Sauce",
-        "1 tbsp Sesame Oil",
+        "3 tbsp Soy Sauce, divided",
+        "1 tbsp Sesame Oil, divided",
+        "1 tsp Cornstarch",
         "1 tbsp Brown Sugar",
         "1 tbsp Rice Vinegar",
         "2 tsp Gochugaru (Korean red chili flakes, optional)",
         "1/4 tsp Black Pepper",
-        "1 tbsp Vegetable Oil",
+        "1 tbsp Vegetable Oil, plus more as needed for the vegetables",
         "Sesame Seeds",
         "Additional Sesame Oil (optional drizzle)"
       ],
@@ -18132,27 +18143,27 @@
         {
           "@type": "HowToSection",
           "name": "Directions",
-          "description": "Glass Noodle Sourcing: Also labeled as \"Korean sweet potato noodles\" or \"dangmyeon.\" They're available at any Asian market and increasingly at regular grocery stores. Do not confuse with rice noodles or tapioca noodles.\n\nVegetable Flexibility: This dish is forgiving. Use whatever vegetables need using: bell peppers, green beans, broccoli, shiitake mushrooms, cabbage. The principle is the same - cook each vegetable separately, then combine.\n\nBeef Alternative: Shrimp works beautifully (cook the same way). Or skip the protein entirely for a vegetarian version - the noodles and vegetables are hearty enough.\n\nMake-Ahead: Japchae tastes equally good warm or at room temperature and is perfect for meal prep. Store in the refrigerator for up to 3 days. Serve cold or reheat gently over low heat.\n\nTexture Key: The reason to cook vegetables separately is texture. If you dump everything together and cook it, the vegetables become mushy. Separate cooking preserves the bite of each ingredient.",
+          "description": "Glass Noodle Sourcing: Also labeled as \"Korean sweet potato noodles\" or \"dangmyeon.\" They're available at any Asian market and increasingly at regular grocery stores. Do not confuse with rice noodles or tapioca noodles.\n\nVegetable Flexibility: This dish is forgiving. Use whatever vegetables need using: bell peppers, green beans, broccoli, shiitake mushrooms, cabbage. The principle is the same - cook each vegetable separately, then combine.\n\nBeef Alternative: Shrimp can replace the beef; cook until the flesh is firm, pearly and opaque rather than following the beef time. Or skip the protein entirely for a vegetarian version - the noodles and vegetables are hearty enough.\n\nMake-Ahead: Japchae tastes equally good warm or at room temperature and is perfect for meal prep. Refrigerate in shallow containers within 2 hours (1 hour above 90°F / 32°C), and keep for up to 3 days. Serve cold or reheat to 165°F / 74°C.\n\nTiming: Allow about 40 minutes as a planning estimate, with the noodle cooking and beef marinade overlapping vegetable preparation. Sequential vegetable batches alone take about 10-14 minutes; more batches or slower knife work take longer. This estimate has not been kitchen-tested.\n\nTexture Key: The reason to cook vegetables separately is texture. If you dump everything together and cook it, the vegetables become mushy. Separate cooking preserves the bite of each ingredient.",
           "itemListElement": [
             {
               "@type": "HowToStep",
-              "text": "Cook the Noodles: Bring a large pot of water to a boil. Add the glass noodles and cook for 4-5 minutes until translucent and tender. Drain in a colander, rinse under cool water, and set aside. The noodles can be tossed with a small drizzle of sesame oil to prevent sticking."
+              "text": "Cook the Noodles: Bring a large pot of water to a boil. Add the glass noodles and cook according to the package directions until translucent and tender with a slight chew. Drain in a colander, rinse under cool water, and set aside. If needed, use a little of the optional additional sesame oil to prevent sticking."
             },
             {
               "@type": "HowToStep",
-              "text": "Marinate the Beef: While the noodles cook, combine the thinly sliced beef with 1 tbsp soy sauce, 1 tsp sesame oil, 1/2 tsp minced garlic, 1/4 tsp black pepper, and 1 tsp cornstarch in a small bowl. This cornstarch coating (velveting) protects the meat from the high heat of the skillet. Let sit for 15 minutes while you prep vegetables."
+              "text": "Marinate the Beef: While the noodles cook, combine the thinly sliced beef with 1 tbsp soy sauce, 1 tsp sesame oil, 1/2 tsp minced garlic, 1/4 tsp black pepper, and 1 tsp cornstarch in a small bowl. This cornstarch coating (velveting) protects the meat from the high heat of the skillet. Refrigerate for 15 minutes while you prep vegetables."
             },
             {
               "@type": "HowToStep",
-              "text": "Cook the Beef: Heat 1 tbsp vegetable oil in a large skillet over high heat until it shimmers. Add the marinated beef in a single layer and let it sit for 1 minute without stirring to develop color. Stir and cook another 30 seconds until the beef is mostly cooked. Transfer to a plate."
+              "text": "Cook the Beef: Heat 1 tbsp vegetable oil in a large skillet over high heat until it shimmers. Add the marinated beef in a single layer and let it sit for 1 minute without stirring to develop color. Stir and continue cooking until the thickest slices reach 145°F / 63°C; use a thin-tip thermometer inserted from the side. Transfer to a clean plate and rest at least 3 minutes while cooking the vegetables. Do not stop at partly cooked beef: the final toss is brief."
             },
             {
               "@type": "HowToStep",
-              "text": "Cook the Vegetables (Separately): In the same skillet, add a little more oil if needed. Cook the harder vegetables first, one type at a time, for speed and texture control: - Carrots: 2-3 minutes, then transfer to a bowl - Zucchini: 2-3 minutes, then transfer to the bowl - Mushrooms: 2-3 minutes, then transfer to the bowl - Onion: 2-3 minutes until softened, then transfer to the bowl - Spinach: Cook until wilted (about 1 minute), squeeze out excess moisture, then transfer"
+              "text": "Cook the Vegetables (Separately): In the same skillet, add a little more oil if needed. Cook the harder vegetables first, one type at a time, for speed and texture control: - Carrots: 2-3 minutes, then transfer to a bowl - Zucchini: 2-3 minutes, then transfer to the bowl - Mushrooms: 2-3 minutes, then transfer to the bowl - Onion: 2-3 minutes until softened, then transfer to the bowl - Scallions: Cook about 1 minute until slightly softened, then transfer - Spinach: Cook until wilted (about 1 minute), drain excess liquid, then transfer. If using thawed, squeezed frozen spinach, warm it through instead."
             },
             {
               "@type": "HowToStep",
-              "text": "Make the Sauce: In a small bowl, whisk together 2 tbsp soy sauce, 1 tbsp sesame oil, 1 tbsp brown sugar, 1 tbsp rice vinegar, and remaining minced garlic (total 2 tsp). Taste and adjust - it should be balanced between salty, sweet, and tangy."
+              "text": "Make the Sauce: In a small bowl, whisk together the remaining 2 tbsp soy sauce, remaining 2 tsp sesame oil, brown sugar, rice vinegar, and all the remaining minced garlic. Taste and adjust - it should be balanced between salty, sweet, and tangy."
             },
             {
               "@type": "HowToStep",
@@ -18169,9 +18180,9 @@
           ]
         }
       ],
-      "prepTime": "PT15M",
-      "cookTime": "PT12M",
-      "totalTime": "PT27M",
+      "prepTime": "PT20M",
+      "cookTime": "PT20M",
+      "totalTime": "PT40M",
       "recipeYield": "4",
       "recipeCategory": "Main course",
       "recipeCuisine": ["Korean"],
@@ -23619,13 +23630,15 @@
       "url": "https://jordansilton.com/mise/recipes/pasta-with-abruzzi-style-lamb-sauce/",
       "recipeIngredient": [
         "1 lb Penne or Rigatoni",
+        "1 tbsp Olive Oil",
+        "Salt and Black Pepper, to taste (plus salt for the pasta water)",
         "3/4 lb Boneless Lamb (Leg or Shoulder), finely diced or ground",
         "2 oz Pancetta, finely chopped",
         "1/4 cup Yellow Onion, diced",
         "1 tbsp Fresh Rosemary, chopped",
         "3/4 cup Dry White Wine",
         "1 (28 oz) can Whole Peeled Tomatoes, crushed by hand",
-        "1/3 cup Pecorino Romano, grated"
+        "1/3 cup Pecorino Romano, grated, plus extra for optional serving"
       ],
       "recipeInstructions": [
         {
@@ -23642,11 +23655,11 @@
         },
         {
           "@type": "HowToStep",
-          "text": "Simmer: Add the crushed tomatoes and their juices. Reduce heat to low and simmer gently for 30-40 minutes until the sauce is thick and the fat starts to separate."
+          "text": "Simmer: Add the crushed tomatoes and their juices. Reduce heat to low and simmer gently for 30-40 minutes until the sauce is thick, the lamb is tender, and the fat starts to separate. Add a splash of water and simmer longer if diced shoulder is still firm."
         },
         {
           "@type": "HowToStep",
-          "text": "Boil: Cook pasta in salted water until al dente."
+          "text": "Boil: While the sauce simmers, cook pasta in salted water until al dente."
         },
         {
           "@type": "HowToStep",
@@ -26807,32 +26820,36 @@
       "@context": "https://schema.org",
       "@type": "Recipe",
       "name": "Fall Harvest Salad",
-      "description": "Massaging kale with olive oil and salt for 2 minutes breaks down tough cellulose fibers, transforming raw leaves from bitter and chewy to tender and sweet. Roasting bone-dry chickpeas and squash at 450°F creates shatteringly crisp chickpeas that contrast fluffy quinoa and soft roasted squash.",
+      "description": "Massaging kale with olive oil and salt softens the leaves and reduces their bulk. Roasting well-dried chickpeas and squash at 450°F gives the chickpeas browned, crisp edges that contrast fluffy quinoa and soft roasted squash.",
       "url": "https://jordansilton.com/mise/recipes/roasted-fall-harvest-salad/",
       "recipeIngredient": [
         "1 can (15 oz) Chickpeas, patted bone-dry",
-        "1 Honeynut or Butternut Squash, cubed",
+        "200 g Honeynut or Butternut Squash, seeded and cubed",
         "1/2 cup Dry Quinoa",
-        "1 bunch Dino Kale, stems removed and chopped",
+        "70 g Dino Kale, stems removed and chopped",
         "1 tsp Cumin + 1 tsp Coriander",
         "1/2 tsp Cinnamon + 1/2 tsp Cayenne",
         "1/4 cup Tahini",
         "1/4 cup Fresh Lemon Juice",
         "3 tbsp Apple Cider",
-        "1 tbsp Maple Syrup"
+        "1 tbsp Maple Syrup",
+        "1/4 cup Toasted Pepitas",
+        "1/4 cup Golden Raisins, optional",
+        "Olive Oil, as needed for roasting and massaging kale",
+        "Kosher Salt, to taste"
       ],
       "recipeInstructions": [
         {
           "@type": "HowToStep",
-          "text": "Roast: Preheat oven to 450°F. Toss chickpeas and squash with spices, oil, and salt. Roast for 25-30 minutes until chickpeas are shatteringly crisp."
+          "text": "Roast: Preheat oven to 450°F. Drain and rinse the chickpeas, then dry them well. Toss chickpeas and squash with the cumin, coriander, cinnamon, cayenne, enough oil to coat lightly, and salt. Spread in one uncrowded layer on a metal sheet pan. Roast for 25-30 minutes, until the squash is tender and the chickpeas are browned with crisp edges; give them more time if needed."
         },
         {
           "@type": "HowToStep",
-          "text": "Quinoa: Simmer quinoa in 1 cup water for 12 minutes. Let stand, covered, for 10 minutes (The Steam Cycle) for maximum fluff."
+          "text": "Quinoa: Bring quinoa and twice its volume of water to a boil with a pinch of salt, then reduce the heat and simmer, partly covered, for 10-12 minutes until the water is absorbed. Let stand, covered, for 10 minutes (The Steam Cycle) for maximum fluff."
         },
         {
           "@type": "HowToStep",
-          "text": "Massage: Place kale in a large bowl with 1 tsp oil and salt. Massage for 2 minutes until soft and dark green."
+          "text": "Massage: Place kale in a large bowl with a little oil and salt. Massage for 2 minutes until soft and dark green."
         },
         {
           "@type": "HowToStep",
@@ -26844,7 +26861,7 @@
         },
         {
           "@type": "HowToStep",
-          "text": "Finish: Top with the roasted chickpeas, squash, pepitas, and raisins. Drizzle with remaining dressing for the mandatory High Note."
+          "text": "Finish: Top with the roasted chickpeas, squash, pepitas, and optional raisins. Serve the remaining dressing alongside, adding only as much as wanted."
         }
       ],
       "prepTime": "PT20M",
@@ -29680,28 +29697,33 @@
       "recipeIngredient": [
         "12 oz Shrimp (21/25 size)",
         "4 oz Ground Pork",
+        "2 tbsp Vegetable Oil",
+        "1 clove Garlic, minced",
+        "1/4 tsp Fresh Ginger, minced",
+        "2 tbsp Cold Water, for the slurry",
+        "Water, for blanching the pork",
         "1 1/2 tbsp Fermented Black Beans (Douchi)",
         "1 1/2 cups Chicken Stock (hot)",
         "1 tbsp Oyster Sauce + 1 tsp Dark Soy Sauce",
         "1 tbsp Shaoxing Wine",
         "1/2 tsp Toasted Sesame Oil",
         "1 large Egg, beaten (The Egg Ribbon Method)",
-        "2 1/2 tbsp Cornstarch (slurry)",
+        "2 1/2 tbsp Cornstarch, for the slurry",
         "1/4 cup Green Bell Pepper, diced",
         "1 Scallion, chopped"
       ],
       "recipeInstructions": [
         {
           "@type": "HowToStep",
-          "text": "Prep: Rinse black beans and mash slightly. Whisk stock, oyster sauce, soy sauce, and sesame oil."
+          "text": "Prep: Rinse black beans and mash slightly. Whisk stock, oyster sauce, soy sauce, and sesame oil. Separately stir the cornstarch with the measured cold water until smooth."
         },
         {
           "@type": "HowToStep",
-          "text": "The Render: In a hot wok, boil the ground pork for 1 minute until no longer pink. Drain and set aside. (This ensures a clean, non-cloudy sauce)."
+          "text": "The Render: Bring enough water to cover the pork to a boil in the wok. Add the pork, breaking up clumps, and blanch for about 1 minute. Drain and set aside for immediate further cooking; this blanch is not the final doneness check. Empty and dry the wok before adding oil."
         },
         {
           "@type": "HowToStep",
-          "text": "The Sear: Heat 2 tbsp oil. Sauté garlic, ginger, peppers, black beans, and the cooked pork for 30 seconds. Add shrimp and Shaoxing wine. Stir-fry for 30 seconds."
+          "text": "The Sear: Heat 2 tbsp oil. Sauté garlic, ginger, peppers, black beans, and the blanched pork for 30 seconds. Add shrimp and Shaoxing wine. Stir-fry for 30 seconds."
         },
         {
           "@type": "HowToStep",
@@ -29709,11 +29731,11 @@
         },
         {
           "@type": "HowToStep",
-          "text": "Bind: Stir in the cornstarch slurry until the sauce is thick and mirror-glossy."
+          "text": "Bind: Re-stir the slurry, then add it gradually while stirring the simmering sauce. Stop when the sauce coats a spoon; you may not need all the slurry. Thin with a little water or stock if needed."
         },
         {
           "@type": "HowToStep",
-          "text": "The Ribbon: Turn heat to low. Pour the egg across the surface. Let sit for 10 seconds, then fold once."
+          "text": "The Ribbon: Keep the sauce at a gentle simmer. Pour the egg across the surface and let the ribbons begin to set before folding gently. Continue cooking until the pork and egg sauce reach 160°F / 71°C and the thickest shrimp have pearly, opaque flesh. Ten seconds alone is not a doneness test."
         },
         {
           "@type": "HowToStep",
@@ -32798,12 +32820,13 @@
         "1 tbsp Chia Seeds",
         "1/2 Lemon, zested and juiced (The Acid Balance)",
         "1/2 tsp Pure Vanilla Extract",
-        "1 tbsp Maple Syrup"
+        "1 tbsp Maple Syrup",
+        "Additional Fresh Strawberry and freshly ground Black Pepper, optional garnish"
       ],
       "recipeInstructions": [
         {
           "@type": "HowToStep",
-          "text": "The Emulsion: In a small bowl, whisk softened cream cheese, yogurt, honey, vanilla, and lemon juice until perfectly smooth."
+          "text": "The Emulsion: In a small bowl, whisk softened cream cheese, yogurt, maple syrup, vanilla, and lemon juice until perfectly smooth."
         },
         {
           "@type": "HowToStep",
@@ -32823,7 +32846,7 @@
         },
         {
           "@type": "HowToStep",
-          "text": "Serve: Stir once more. Garnish with a fresh strawberry and a \"High Note\" crack of black pepper (trust me)."
+          "text": "Serve: Stir once more. If desired, garnish with the additional strawberry and a little black pepper."
         }
       ],
       "prepTime": "PT10M",
@@ -32981,37 +33004,44 @@
       ],
       "recipeInstructions": [
         {
-          "@type": "HowToStep",
-          "text": "The Dough: Whisk flour, the dough sugar, baking powder, salt, and peppercorns. Cut in cold butter. Stir in buttermilk until a shaggy dough forms."
-        },
-        {
-          "@type": "HowToStep",
-          "text": "Shape: Knead 3 times. Pat into a 1-inch thick rectangle. Cut into six 3-inch squares. Refrigerate for 30 minutes (The Gluten Rest)."
-        },
-        {
-          "@type": "HowToStep",
-          "text": "The Roast: While the shortcakes chill, toss strawberries, rhubarb, the fruit liqueur, vanilla seeds, and fruit sugar. Spread on a baking sheet. Roast at 350°F for 20 minutes until syrupy."
-        },
-        {
-          "@type": "HowToStep",
-          "text": "Bake Shortcake: Brush biscuit tops lightly with the additional cream. Sprinkle with the coarse sugar. Bake at 350°F for 25 minutes until deep golden."
-        },
-        {
-          "@type": "HowToStep",
-          "text": "The Emulsion: Whip mascarpone and the topping sugar until smooth. Slowly pour in the topping cream and whip until it holds peaks. Mix in the topping liqueur, then refrigerate until assembly."
-        },
-        {
-          "@type": "HowToStep",
-          "text": "Assemble: Split warm shortcakes. Top with a massive mound of roasted fruit and its syrup."
-        },
-        {
-          "@type": "HowToStep",
-          "text": "Finish: Add a dollop of mascarpone cream and fresh thyme for the final High Note."
+          "@type": "HowToSection",
+          "name": "Directions",
+          "description": "Allow about 90 minutes, including the 30-minute dough chill. Roast the fruit during that chill and make the topping while the shortcakes bake. This is a planning estimate, not a kitchen-timed result.",
+          "itemListElement": [
+            {
+              "@type": "HowToStep",
+              "text": "The Dough: Whisk flour, the dough sugar, baking powder, salt, and peppercorns. Cut in cold butter. Stir in buttermilk until a shaggy dough forms."
+            },
+            {
+              "@type": "HowToStep",
+              "text": "Shape: Knead 3 times. Pat into a 6-by-9-inch rectangle, about 1 inch thick. Cut into six 3-inch squares. Refrigerate for 30 minutes (The Gluten Rest)."
+            },
+            {
+              "@type": "HowToStep",
+              "text": "The Roast: While the shortcakes chill, toss strawberries, rhubarb, the fruit liqueur, vanilla seeds, and fruit sugar. Spread on a baking sheet. Roast at 350°F for 20 minutes until syrupy."
+            },
+            {
+              "@type": "HowToStep",
+              "text": "Bake Shortcake: Brush biscuit tops lightly with the additional cream. Sprinkle with the coarse sugar. Bake at 350°F for 25-30 minutes, until golden on top and browned underneath."
+            },
+            {
+              "@type": "HowToStep",
+              "text": "The Emulsion: Whip mascarpone and the topping sugar until smooth. Slowly pour in the topping cream and whip until it holds peaks. Mix in the topping liqueur, then refrigerate until assembly."
+            },
+            {
+              "@type": "HowToStep",
+              "text": "Assemble: Split warm shortcakes. Top with a massive mound of roasted fruit and its syrup."
+            },
+            {
+              "@type": "HowToStep",
+              "text": "Finish: Add a dollop of mascarpone cream and fresh thyme for the final High Note."
+            }
+          ]
         }
       ],
       "prepTime": "PT30M",
-      "cookTime": "PT30M",
-      "totalTime": "PT60M",
+      "cookTime": "PT50M",
+      "totalTime": "PT90M",
       "recipeYield": "6",
       "recipeCategory": "Dessert",
       "recipeCuisine": ["American"],
@@ -33575,7 +33605,7 @@
       "@context": "https://schema.org",
       "@type": "Recipe",
       "name": "Sweet and White Potato Gratin",
-      "description": "Gratin dauphinois meets Thanksgiving sweet potatoes - alternating layers of sweet and white potatoes create a dish with more complexity than either alone. The mandoline is non-negotiable: 1/8-inch slices cook evenly and create those paper-thin layers that meld into cream.",
+      "description": "Gratin dauphinois meets Thanksgiving sweet potatoes - alternating layers of sweet and white potatoes create a dish with more complexity than either alone. Even 1/8-inch slices cook consistently and meld into the cream.",
       "url": "https://jordansilton.com/mise/recipes/sweet-and-white-potato-gratin/",
       "recipeIngredient": [
         "2 lbs Sweet Potatoes, peeled",
@@ -33584,6 +33614,9 @@
         "3 cloves Garlic, minced",
         "1 tbsp Fresh Thyme",
         "1 tbsp Fresh Sage",
+        "1 tsp Fresh Rosemary, chopped",
+        "2 tsp Salt",
+        "1 tsp Black Pepper",
         "1/4 tsp Nutmeg",
         "Dash of Cayenne Pepper",
         "2.5 cups Gruyère Cheese, shredded",
@@ -33592,11 +33625,11 @@
       "recipeInstructions": [
         {
           "@type": "HowToStep",
-          "text": "Infuse: In a medium pot, heat 1 tbsp butter over low heat. Add garlic and spices and bloom for 1 minute. Whisk in the cream, salt, and pepper. Warm over low heat (do not boil) just to marry the flavors."
+          "text": "Mix: Preheat the oven to 425°F. Whisk the cream, garlic, thyme, sage, rosemary, nutmeg, cayenne, salt, and pepper together in a bowl."
         },
         {
           "@type": "HowToStep",
-          "text": "Slice: Use a mandolin to slice all potatoes into 1/8-inch thick rounds. Keep the colors separate for layering."
+          "text": "Slice: Use a sharp knife or a mandoline with its hand guard to slice all potatoes into 1/8-inch thick rounds. Keep the colors separate for layering."
         },
         {
           "@type": "HowToStep",
@@ -33604,11 +33637,11 @@
         },
         {
           "@type": "HowToStep",
-          "text": "Layer: Lightly butter a 9x13 baking dish. Pour 1/2 cup of the cream on the bottom. - Layer 1: Sweet potatoes (slightly overlapping). Drizzle with cream, sprinkle with cheese. - Layer 2: White potatoes. Drizzle with cream, sprinkle with cheese. - Repeat until all potatoes are used."
+          "text": "Layer: Pour one-sixth of the seasoned cream into a 9x13 baking dish. - Layer 1: Sweet potatoes (slightly overlapping). Drizzle with cream, sprinkle with cheese. - Layer 2: White potatoes. Drizzle with cream, sprinkle with cheese. - Repeat, dividing the cream and cheese among the layers and reserving cheese for the top. Use all of the cream."
         },
         {
           "@type": "HowToStep",
-          "text": "The Crown: For the top layer, alternate colors for a beautiful visual pattern. Cover with the remaining cheese and a sprinkle of fresh thyme."
+          "text": "The Crown: For the top layer, alternate colors for a beautiful visual pattern. Cover with the remaining cheese."
         },
         {
           "@type": "HowToStep",
@@ -33616,7 +33649,7 @@
         },
         {
           "@type": "HowToStep",
-          "text": "Crisp: Remove foil. Reduce heat to 400°F. Bake for another 45 minutes until the top is deep golden brown and the potatoes are soft when pierced with a knife."
+          "text": "Crisp: Remove foil. Reduce heat to 400°F. Bake for about another 45 minutes, until the potatoes are tender throughout when pierced with a knife. If the top browns before the potatoes soften, cover loosely with foil and continue baking."
         },
         {
           "@type": "HowToStep",
@@ -33625,7 +33658,7 @@
       ],
       "prepTime": "PT25M",
       "cookTime": "PT60M",
-      "totalTime": "PT85M",
+      "totalTime": "PT95M",
       "recipeYield": "8",
       "recipeCategory": "Side dish",
       "recipeCuisine": ["French"],
@@ -35866,7 +35899,7 @@
       "recipeInstructions": [
         {
           "@type": "HowToStep",
-          "text": "Emulsify: In a high-powered blender, combine eggs, banana, spinach, syrup, oil, and vinegar. Blend on high for 60 seconds until vibrant green."
+          "text": "Emulsify: Preheat the oven to 350°F and line a 12-cup muffin tin before mixing the batter. In a high-powered blender, combine eggs, the chosen banana or applesauce, the chosen spinach or kale, syrup, oil, and vinegar. Blend on high for 60 seconds until vibrant green."
         },
         {
           "@type": "HowToStep",
@@ -35878,11 +35911,11 @@
         },
         {
           "@type": "HowToStep",
-          "text": "Bake: Preheat oven to 350°F. Line a 12-cup tin. Fill each 3/4 full. Bake for 20-22 minutes until a toothpick comes out clean."
+          "text": "Bake: Divide the batter among the prepared cups, filling no more than 3/4 full. Bake any excess batter separately rather than overfilling. Bake for 20-22 minutes until a toothpick comes out clean."
         },
         {
           "@type": "HowToStep",
-          "text": "Cool: Let rest in the pan for 5 minutes. These freeze perfectly for up to 3 months."
+          "text": "Cool: Let rest in the pan for 5 minutes, then transfer to a rack to cool completely. Freeze cooled muffins in an airtight container for up to 1 month."
         }
       ],
       "prepTime": "PT10M",

@@ -44,6 +44,12 @@ ingredients:
   - '1 Jalapeño, seeded'
   - 1 tbsp Honey
   - 1 tbsp Fresh Lemon Juice
+  - 4 tbsp Olive Oil, divided
+  - 1/2 tsp Salt, for the chickpeas
+  - 1/2 tsp Garlic Powder, for the chickpeas
+  - 1/2 tsp Italian Seasoning, for the chickpeas
+  - 1/2 tsp Ground Cinnamon, for the sweet potato
+  - 1/4 tsp Ground Cumin, for the sweet potato
 origin: Mediterranean
 seasons:
   - year-round
@@ -67,10 +73,15 @@ Folding whole-milk ricotta into ground chicken creates a fat-moisture barrier th
 
 ## Directions
 
-1.  **Stage 1 (Roast):** Preheat oven to 400°F. On one sheet pan, toss bone-dry chickpeas with olive oil, salt, garlic powder, and Italian seasoning. On another pan, toss sweet potato cubes with olive oil, cinnamon, and cumin. Roast both for 15-20 minutes until crispy.
-2.  **The Meatballs:** In a large bowl, combine chicken, ricotta, egg, panko, shallots, greens, and lemon zest. Mix **gently** until just combined.
-3.  **Shape:** Form into 12 small cylindrical logs (about 2 tbsp each).
-4.  **Sear:** Heat 2 tbsp oil in a large skillet over medium-high. Sear the meatballs for 3-4 minutes per side until golden brown and the internal temp is 165°F.
+1.  **Stage 1 (Roast):** Preheat oven to 400°F. On one sheet pan, toss drained, well-dried chickpeas with 1 tbsp olive oil, the salt, garlic powder, and Italian seasoning. On another pan, toss sweet potato cubes with 1 tbsp olive oil, cinnamon, and cumin. Start checking the chickpeas at 15 minutes for a crisp exterior. Roast the sweet potato for about 15-25 minutes, until tender inside and browned at the edges; remove each pan when ready.
+2.  **The Meatballs:** In a large bowl, combine chicken, ricotta, egg, panko, shallot, cilantro, dill, and lemon zest. Keep the kale for the serving bowls. Mix **gently** until just combined.
+3.  **Shape:** Portion all the mixture into small cylindrical logs, using about 2 tbsp per log; the total count will vary with scoop size.
+4.  **Sear:** Heat the remaining 2 tbsp oil in a large skillet over medium-high. Cook the logs in batches without crowding, starting with 3-4 minutes per side. Continue as needed until golden brown and the centers reach 165°F / 74°C on a food thermometer.
 5.  **The Emulsion:** In a food processor, blend the yogurt, basil, jalapeño, honey, and lemon juice until vibrant green and smooth.
 6.  **Assemble:** Divide the kale among four bowls. Top with the roasted chickpeas, sweet potatoes, and meatballs.
 7.  **Finish:** Drizzle generously with the dressing for the mandatory **Acid Balance**.
+
+## Sources
+
+- [Source comparison for ingredient and method corrections](https://www.thepalatablelife.com/herby-chicken-meatball-bowl/). This version retains other existing adaptations; it has not been kitchen-tested.
+- [FoodSafety.gov minimum cooking guidance](https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures).

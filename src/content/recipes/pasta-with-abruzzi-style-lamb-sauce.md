@@ -22,13 +22,15 @@ pairsWith:
   - patate-al-forno
 ingredients:
   - 1 lb Penne or Rigatoni
+  - 1 tbsp Olive Oil
+  - Salt and Black Pepper, to taste (plus salt for the pasta water)
   - '3/4 lb Boneless Lamb (Leg or Shoulder), finely diced or ground'
   - '2 oz Pancetta, finely chopped'
   - '1/4 cup Yellow Onion, diced'
   - '1 tbsp Fresh Rosemary, chopped'
   - 3/4 cup Dry White Wine
   - '1 (28 oz) can Whole Peeled Tomatoes, crushed by hand'
-  - '1/3 cup Pecorino Romano, grated'
+  - '1/3 cup Pecorino Romano, grated, plus extra for optional serving'
 origin: Italy
 seasons:
   - year-round
@@ -55,7 +57,7 @@ This ragù comes from Abruzzo, the mountainous region in central Italy where she
 1.  **Render:** Heat olive oil in a large skillet. Add the onion and pancetta. Cook until the pancetta fat has melted and the onions are gold (8 mins).
 2.  **Sear:** Add the diced lamb and rosemary. Season with salt and pepper. Brown the meat aggressively until it develops a crust.
 3.  **Deglaze:** Pour in the white wine. Scrape the bottom of the pan to release the fond. Simmer until the wine has evaporated by 75%.
-4.  **Simmer:** Add the crushed tomatoes and their juices. Reduce heat to low and simmer gently for 30-40 minutes until the sauce is thick and the fat starts to separate.
-5.  **Boil:** Cook pasta in salted water until al dente.
+4.  **Simmer:** Add the crushed tomatoes and their juices. Reduce heat to low and simmer gently for 30-40 minutes until the sauce is thick, the lamb is tender, and the fat starts to separate. Add a splash of water and simmer longer if diced shoulder is still firm.
+5.  **Boil:** While the sauce simmers, cook pasta in salted water until al dente.
 6.  **Combine:** Toss the hot pasta directly into the lamb sauce. Add the Pecorino and toss to coat.
 7.  **Serve:** Serve with extra cheese and a crack of black pepper.

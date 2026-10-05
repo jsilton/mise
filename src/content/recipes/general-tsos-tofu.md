@@ -47,13 +47,16 @@ ingredients:
   - 1 tsp Dark Soy Sauce (for color)
   - 2 tsp Rice Vinegar
   - 1 tbsp Granulated Sugar
-  - 1 1/2 tbsp Cornstarch (slurry)
+  - 1 1/2 tbsp Cornstarch, for the slurry
+  - 1 tbsp Cold Water, for the slurry
+  - 1/2 tsp Toasted Sesame Oil
+  - 1/2 tbsp Shaoxing Wine, optional
   - 2 cups Broccoli Florets
   - '1/2 Red Bell Pepper, sliced'
   - '1 tbsp Fresh Ginger, minced'
   - '2 cloves Garlic, minced'
   - 7 Dried Chinese Red Chilies
-  - Peanut Oil (for shallow frying)
+  - 1/3 cup Peanut Oil, for shallow frying; reuse 1 tbsp for the aromatics
 origin: China
 nutrition:
   calories: 250
@@ -74,10 +77,14 @@ For kids, serve the heat on the side or reduce/omit the spicy elements.
 
 ## Directions
 
-1.  **The Bind:** Toss dry tofu cubes with honey and hot sauce. Sprinkle with sesame seeds and 3 tbsp cornstarch. Toss until every cube is "crusty."
+1.  **The Bind:** First mix the slurry cornstarch with the measured cold water in a small bowl and set aside. Toss dry tofu cubes with honey and hot sauce. Sprinkle with sesame seeds and 3 tbsp cornstarch. Toss until every cube is "crusty."
 2.  **The Fry:** Heat oil in a cast-iron skillet until 350°F. Fry tofu in a single layer for 4-5 minutes, turning once, until golden and very crisp. Remove to a sheet pan.
-3.  **The Aromatics:** Heat 1 tbsp oil in a wok. Sauté ginger, garlic, and dried chilies for 30 seconds. Add bell peppers and a splash of Shaoxing wine (if using).
+3.  **The Aromatics:** Heat 1 tbsp of the oil left from frying the tofu in a wok. Sauté ginger, garlic, and dried chilies for 30 seconds. Add bell peppers and the optional measured Shaoxing wine.
 4.  **The Simmer:** Pour in the vegetable stock and bring to a boil. Add the broccoli.
-5.  **The Glaze:** Immediately add the soy sauces, vinegar, sugar, and sesame oil. Stir in the cornstarch slurry.
-6.  **Bind:** Simmer for 1 minute until the sauce is thick and mirror-glossy.
+5.  **The Glaze:** Immediately add the soy sauces, vinegar, sugar, and sesame oil. Re-stir the slurry, then add it gradually while stirring the boiling sauce.
+6.  **Bind:** Simmer for 30-60 seconds after each slurry addition before deciding whether to add more; stop when the sauce coats a spoon. Continue until the broccoli is tender-crisp before returning the tofu to the pan.
 7.  **Toss:** Add the crispy tofu back to the wok. Toss vigorously for 30 seconds until perfectly coated. Serve immediately over rice.
+
+## Sources
+
+- [Source comparison for ingredient and method corrections](https://thewoksoflife.com/general-tsos-tofu/). This version retains other existing adaptations; it has not been kitchen-tested.

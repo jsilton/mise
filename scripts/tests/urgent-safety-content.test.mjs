@@ -139,7 +139,11 @@ const cases = [
   [
     'instant-pot-potato-leek-soup',
     ['then vent any remaining steam', 'naturally for 15 minutes'],
-    ['release fully naturally', 'pressure indicator has dropped', "my Grandpa's recipe"],
+    [
+      'release fully naturally',
+      'pressure indicator has dropped',
+      'the contributor’s grandfather’s recipe',
+    ],
   ],
   ['play-dough', ['Wintergreen', 'wintergreen'], ['1 tbsp Vegetable Oil']],
   [
