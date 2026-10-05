@@ -27,7 +27,7 @@
     },
     "uniquePathsInSixRepairCommits": 105,
     "kitchenTested": 0,
-    "productionReconciliation": "The 42 accelerated targeted repairs remain verified live as a separate overlapping scope. Thirty-seven new complete editorial versions from the original 409-source campaign are verified live at releases through c84083a3. Five additional soup versions are implemented and locally validated; exact remote commit, CI/deployment and all five live pages remain to be verified. No physical kitchen testing or native-app sync occurred."
+    "productionReconciliation": "The 42 accelerated targeted repairs remain verified live as a separate overlapping scope. Forty-two new complete editorial versions from the original 409-source campaign are verified live. The latest five soup versions are implemented at c5398728 and verified at exact remote release 1731bdc8, successful Pages run 37382801470 and all affected rendered live pages. No physical kitchen testing or native-app sync occurred."
   },
   "collectionEvidence": [
     "docs/REVIEW_PROGRESS.md",
@@ -715,7 +715,15 @@
         }
       ],
       "productionVerification": {
-        "status": "pending; exact remote release, successful deployment and affected live pages required"
+        "status": "verified live",
+        "releaseCommit": "1731bdc8e891f94a61172c27cff700ecfcda3525",
+        "implementationCommit": "c53987286daf72ad429061f7dca0a933bd99c76c",
+        "deploymentRun": 37382801470,
+        "ci": "build, public privacy check and deployment success",
+        "rendered": "All five exact built JSON-LD objects, all ingredient text, all 30 method steps and the distinct Dashi variation are present on production",
+        "verifiedDate": "2026-10-05",
+        "kitchenTested": false,
+        "nativeAppSynced": false
       },
       "remainingQuestions": [
         "Record rice/orzo package and actual dry-grain weight without treating the two choices as equivalent.",
@@ -3457,7 +3465,15 @@
         }
       ],
       "productionVerification": {
-        "status": "pending; exact remote release, successful deployment and affected live pages required"
+        "status": "verified live",
+        "releaseCommit": "1731bdc8e891f94a61172c27cff700ecfcda3525",
+        "implementationCommit": "c53987286daf72ad429061f7dca0a933bd99c76c",
+        "deploymentRun": 37382801470,
+        "ci": "build, public privacy check and deployment success",
+        "rendered": "All five exact built JSON-LD objects, all ingredient text, all 30 method steps and the distinct Dashi variation are present on production",
+        "verifiedDate": "2026-10-05",
+        "kitchenTested": false,
+        "nativeAppSynced": false
       },
       "remainingQuestions": [
         "Record stock salt, shrimp form/size and fish-sauce product strength without inferring their equivalence.",
@@ -7352,7 +7368,15 @@
         }
       ],
       "productionVerification": {
-        "status": "pending; exact remote release, successful deployment and affected live pages required"
+        "status": "verified live",
+        "releaseCommit": "1731bdc8e891f94a61172c27cff700ecfcda3525",
+        "implementationCommit": "c53987286daf72ad429061f7dca0a933bd99c76c",
+        "deploymentRun": 37382801470,
+        "ci": "build, public privacy check and deployment success",
+        "rendered": "All five exact built JSON-LD objects, all ingredient text, all 30 method steps and the distinct Dashi variation are present on production",
+        "verifiedDate": "2026-10-05",
+        "kitchenTested": false,
+        "nativeAppSynced": false
       },
       "remainingQuestions": [
         "Measure raw/prepared/browned mushroom yield and the original garnish share.",
@@ -8386,7 +8410,15 @@
         }
       ],
       "productionVerification": {
-        "status": "pending; exact remote release, successful deployment and affected live pages required"
+        "status": "verified live",
+        "releaseCommit": "1731bdc8e891f94a61172c27cff700ecfcda3525",
+        "implementationCommit": "c53987286daf72ad429061f7dca0a933bd99c76c",
+        "deploymentRun": 37382801470,
+        "ci": "build, public privacy check and deployment success",
+        "rendered": "All five exact built JSON-LD objects, all ingredient text, all 30 method steps and the distinct Dashi variation are present on production",
+        "verifiedDate": "2026-10-05",
+        "kitchenTested": false,
+        "nativeAppSynced": false
       },
       "remainingQuestions": [
         "Record cookie size/weight/spice and Madras curry strength for the saved count-based formula.",
@@ -8644,7 +8676,15 @@
         }
       ],
       "productionVerification": {
-        "status": "pending; exact remote release, successful deployment and affected live pages required"
+        "status": "verified live",
+        "releaseCommit": "1731bdc8e891f94a61172c27cff700ecfcda3525",
+        "implementationCommit": "c53987286daf72ad429061f7dca0a933bd99c76c",
+        "deploymentRun": 37382801470,
+        "ci": "build, public privacy check and deployment success",
+        "rendered": "All five exact built JSON-LD objects, all ingredient text, all 30 method steps and the distinct Dashi variation are present on production",
+        "verifiedDate": "2026-10-05",
+        "kitchenTested": false,
+        "nativeAppSynced": false
       },
       "remainingQuestions": [
         "Record kombu product, actual weight/thickness/area and bonito package labels/packing.",

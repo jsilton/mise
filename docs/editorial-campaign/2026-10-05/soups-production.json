@@ -1,0 +1,193 @@
+{
+  "status": "verified live",
+  "releaseCommit": "1731bdc8e891f94a61172c27cff700ecfcda3525",
+  "implementationCommit": "c53987286daf72ad429061f7dca0a933bd99c76c",
+  "deploymentRun": 37382801470,
+  "ci": {
+    "conclusion": "success",
+    "databaseId": 37382801470,
+    "headSha": "1731bdc8e891f94a61172c27cff700ecfcda3525",
+    "jobs": [
+      {
+        "completedAt": "2026-10-05T22:30:20Z",
+        "conclusion": "success",
+        "databaseId": 112008710929,
+        "name": "build",
+        "startedAt": "2026-10-05T22:29:31Z",
+        "status": "completed",
+        "steps": [
+          {
+            "completedAt": "2026-10-05T22:29:33Z",
+            "conclusion": "success",
+            "name": "Set up job",
+            "number": 1,
+            "startedAt": "2026-10-05T22:29:31Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-05T22:29:36Z",
+            "conclusion": "success",
+            "name": "Checkout your repository using git",
+            "number": 2,
+            "startedAt": "2026-10-05T22:29:33Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-05T22:30:13Z",
+            "conclusion": "success",
+            "name": "Install, build, and upload your site",
+            "number": 3,
+            "startedAt": "2026-10-05T22:29:36Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-05T22:30:16Z",
+            "conclusion": "success",
+            "name": "Check private recipe metadata is absent",
+            "number": 4,
+            "startedAt": "2026-10-05T22:30:13Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-05T22:30:18Z",
+            "conclusion": "success",
+            "name": "Post Install, build, and upload your site",
+            "number": 7,
+            "startedAt": "2026-10-05T22:30:16Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-05T22:30:18Z",
+            "conclusion": "success",
+            "name": "Post Checkout your repository using git",
+            "number": 8,
+            "startedAt": "2026-10-05T22:30:18Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-05T22:30:18Z",
+            "conclusion": "success",
+            "name": "Complete job",
+            "number": 9,
+            "startedAt": "2026-10-05T22:30:18Z",
+            "status": "completed"
+          }
+        ],
+        "url": "https://github.com/jsilton/mise/actions/runs/37382801470/job/112008710929"
+      },
+      {
+        "completedAt": "2026-10-05T22:30:31Z",
+        "conclusion": "success",
+        "databaseId": 112009025500,
+        "name": "deploy",
+        "startedAt": "2026-10-05T22:30:23Z",
+        "status": "completed",
+        "steps": [
+          {
+            "completedAt": "2026-10-05T22:30:25Z",
+            "conclusion": "success",
+            "name": "Set up job",
+            "number": 1,
+            "startedAt": "2026-10-05T22:30:24Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-05T22:30:31Z",
+            "conclusion": "success",
+            "name": "Deploy to GitHub Pages",
+            "number": 2,
+            "startedAt": "2026-10-05T22:30:25Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-05T22:30:31Z",
+            "conclusion": "success",
+            "name": "Complete job",
+            "number": 3,
+            "startedAt": "2026-10-05T22:30:31Z",
+            "status": "completed"
+          }
+        ],
+        "url": "https://github.com/jsilton/mise/actions/runs/37382801470/job/112009025500"
+      }
+    ],
+    "status": "completed",
+    "url": "https://github.com/jsilton/mise/actions/runs/37382801470"
+  },
+  "rendered": [
+    {
+      "slug": "avgolemono-soup",
+      "url": "https://jordansilton.com/mise/recipes/avgolemono-soup/",
+      "titleMatches": true,
+      "schemaMatches": true,
+      "ingredientsMatch": true,
+      "visibleMethodSteps": 6
+    },
+    {
+      "slug": "cantonese-wonton-broth",
+      "url": "https://jordansilton.com/mise/recipes/cantonese-wonton-broth/",
+      "titleMatches": true,
+      "schemaMatches": true,
+      "ingredientsMatch": true,
+      "visibleMethodSteps": 5
+    },
+    {
+      "slug": "cream-of-mushroom-soup",
+      "url": "https://jordansilton.com/mise/recipes/cream-of-mushroom-soup/",
+      "titleMatches": true,
+      "schemaMatches": true,
+      "ingredientsMatch": true,
+      "visibleMethodSteps": 7
+    },
+    {
+      "slug": "curried-carrot-and-apple-soup",
+      "url": "https://jordansilton.com/mise/recipes/curried-carrot-and-apple-soup/",
+      "titleMatches": true,
+      "schemaMatches": true,
+      "ingredientsMatch": true,
+      "visibleMethodSteps": 6
+    },
+    {
+      "slug": "dashi-japanese-sea-stock",
+      "url": "https://jordansilton.com/mise/recipes/dashi-japanese-sea-stock/",
+      "titleMatches": true,
+      "schemaMatches": true,
+      "ingredientsMatch": true,
+      "visibleMethodSteps": 6
+    }
+  ],
+  "verifiedDate": "2026-10-05",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "remote": {
+    "exactRemoteCommit": "1731bdc8e891f94a61172c27cff700ecfcda3525",
+    "localCommit": "1731bdc8e891f94a61172c27cff700ecfcda3525",
+    "nonForce": true,
+    "date": "2026-10-05"
+  },
+  "acceptedRecipeSources": [
+    {
+      "slug": "avgolemono-soup",
+      "acceptedSourceSha256": "041f48f2c9a3352291f886b2e37a853fd61746683297aa8049277718343d64c7"
+    },
+    {
+      "slug": "cantonese-wonton-broth",
+      "acceptedSourceSha256": "a640a7f22e4c0b3a1c794484fdd99fb59dcbf9e7db11d1ae6986126f1aed6e2c"
+    },
+    {
+      "slug": "cream-of-mushroom-soup",
+      "acceptedSourceSha256": "4827350aa6f877d5e03f4cce4438cc504c7028c3a8417b460ac034f5866143c2"
+    },
+    {
+      "slug": "curried-carrot-and-apple-soup",
+      "acceptedSourceSha256": "f619fa46fd6846fe2f889bdfcc3b62583d94ac45b6b4f97241d67648c97ca8b8"
+    },
+    {
+      "slug": "dashi-japanese-sea-stock",
+      "acceptedSourceSha256": "a8170b4e42b8f3b2920be61cf2b40038b5a1b4e161c07a5a754c33d6551cf6ac"
+    }
+  ],
+  "dashiVariantVerified": true,
+  "consoleEntries": 0,
+  "limitations": "Local mobile/scaling/cooking checks were completed for all five. Print preview remains unverified; no kitchen testing or native-app sync."
+}

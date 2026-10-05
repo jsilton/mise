@@ -1,6 +1,6 @@
 {
   "inputCommit": "bacc1e4bdbd0e2715960d84f48a8eea57d4501b4",
-  "status": "implemented and locally validated; production verification pending",
+  "status": "implemented and verified live; physical kitchen testing remains pending",
   "recipes": [
     {
       "slug": "avgolemono-soup",
@@ -92,5 +92,16 @@
     "printPreview": "Unverified: prior in-app browser print invocation stalled; no successful print preview claimed"
   },
   "implementationCommit": "c53987286daf72ad429061f7dca0a933bd99c76c",
-  "postCommitAcceptedHashesMatch": true
+  "postCommitAcceptedHashesMatch": true,
+  "productionVerification": {
+    "status": "verified live",
+    "releaseCommit": "1731bdc8e891f94a61172c27cff700ecfcda3525",
+    "implementationCommit": "c53987286daf72ad429061f7dca0a933bd99c76c",
+    "deploymentRun": 37382801470,
+    "ci": "build, public privacy check and deployment success",
+    "rendered": "All five exact built JSON-LD objects, all ingredient text, all 30 method steps and the distinct Dashi variation are present on production",
+    "verifiedDate": "2026-10-05",
+    "kitchenTested": false,
+    "nativeAppSynced": false
+  }
 }

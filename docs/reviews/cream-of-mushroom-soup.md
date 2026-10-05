@@ -90,3 +90,7 @@ The paired JSON provides exact changes for: body, totalTime, nutrition, equipmen
 Root inspected complete final sources and diffs, exact saved Git originals and actual previous repairs. All original richness, source links, cultural tags, ratings, identities and scaling controls are preserved. The paired record retains exact before/after text and all unresolved questions. Independent challenge is [recorded separately](../editorial-campaign/2026-10-05/soups-independent.md). No physical kitchen test or native-app sync occurred.
 
 No composed meal directly depends on this recipe; existing pairing metadata remains.
+
+## Verified production release
+
+Source implementation `c53987286daf72ad429061f7dca0a933bd99c76c` is verified at exact remote release `1731bdc8e891f94a61172c27cff700ecfcda3525`, successful [Pages run 37382801470](https://github.com/jsilton/mise/actions/runs/37382801470), and this rendered live page. The five-soup release matches its accepted build, ingredients, all 30 method steps and the distinct Dashi variation. [Production evidence](../editorial-campaign/2026-10-05/soups-production.json). No physical kitchen test or native-app sync occurred; print preview remains unverified.

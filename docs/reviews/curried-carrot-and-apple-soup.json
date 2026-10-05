@@ -1,7 +1,7 @@
 {
   "slug": "curried-carrot-and-apple-soup",
   "title": "Curried Carrot and Apple Soup",
-  "status": "implemented complete editorial review; production verification pending",
+  "status": "implemented complete editorial review; verified live",
   "date": "2026-10-05",
   "notKitchenTested": true,
   "inputCommit": "afc39e07c49baed6924053ac34023a104d93c93a",
@@ -1041,7 +1041,17 @@
   "independentChallenge": "docs/editorial-campaign/2026-10-05/soups-independent.md",
   "kitchenTested": false,
   "nativeAppSynced": false,
-  "productionVerification": "pending",
+  "productionVerification": {
+    "status": "verified live",
+    "releaseCommit": "1731bdc8e891f94a61172c27cff700ecfcda3525",
+    "implementationCommit": "c53987286daf72ad429061f7dca0a933bd99c76c",
+    "deploymentRun": 37382801470,
+    "ci": "build, public privacy check and deployment success",
+    "rendered": "All five exact built JSON-LD objects, all ingredient text, all 30 method steps and the distinct Dashi variation are present on production",
+    "verifiedDate": "2026-10-05",
+    "kitchenTested": false,
+    "nativeAppSynced": false
+  },
   "rootWholeInspection": "Complete frozen/current/proposed recipe, exact Git original, meaningful cooking-history diffs, current publisher disagreements, ingredient and variant destinations, ratios, pan/blender capacity, state, heat, endpoints, active/elapsed clocks, storage, scaling and actual linked-recipe dependencies inspected.",
   "rootSourceRecheck": {
     "date": "2026-10-05",
