@@ -32,3 +32,7 @@ Independent inspection accepted the single Wild Rice hot-holding wording correct
 ## Implemented checkpoint
 
 Source commit `b63c21b9b0750548c047e5cc9d3840d0109a182c` preserves all six accepted source hashes after commit hooks. The 42 accelerated targeted repairs remain verified live as a separate overlapping scope. Forty-two new complete editorial versions from the original 409-source campaign are verified live. Six additional slow-cooker versions are implemented and locally validated; exact remote release, successful CI/deployment and all six live pages remain to be verified. No physical kitchen testing or native-app sync occurred. [Preservation and local validation](slow-six-preservation.json).
+
+## Verified production release
+
+The 42 accelerated targeted repairs remain verified live as a separate overlapping scope. Forty-eight new complete editorial versions from the original 409-source campaign are verified live. The latest six slow-cooker versions are implemented at b63c21b9 and verified at exact remote release 7a2d1bbf, successful Pages run 37387138606 and all affected live pages. No physical kitchen testing or native-app sync occurred. [Exact production evidence](slow-six-production.json). Earlier pending statements above describe historical checkpoints. Print preview remains unverified.

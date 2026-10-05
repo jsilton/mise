@@ -1,7 +1,7 @@
 {
   "slug": "creamy-slow-cooker-chicken-and-wild-rice-soup",
   "title": "Creamy Slow-Cooker Chicken and Wild Rice Soup",
-  "status": "implemented complete editorial review; production verification pending",
+  "status": "implemented complete editorial review; verified live",
   "date": "2026-10-05",
   "notKitchenTested": true,
   "inputCommit": "e8cc0915726ca7bc236f824cdd626e09e7701ad6",
@@ -1484,7 +1484,17 @@
   "geographicOrigin": null,
   "cuisineStyle": ["American"],
   "acceptedSourceSha256": "63467c211422795c55aa5f305d69ecef8dc174b7dc15ad697803b20c8fa871f3",
-  "productionVerification": "pending",
+  "productionVerification": {
+    "status": "verified live",
+    "releaseCommit": "7a2d1bbf6d2368bfdd6c62a5d5a7004f0f886fd4",
+    "implementationCommit": "b63c21b9b0750548c047e5cc9d3840d0109a182c",
+    "deploymentRun": 37387138606,
+    "ci": "build, public privacy check and deployment success",
+    "rendered": "All six exact built JSON-LD objects, complete visible cooking text, ingredients and 32 method steps match production",
+    "verifiedDate": "2026-10-05",
+    "kitchenTested": false,
+    "nativeAppSynced": false
+  },
   "kitchenTested": false,
   "nativeAppSynced": false,
   "independentChallenge": "docs/editorial-campaign/2026-10-05/slow-cooker-independent.md",

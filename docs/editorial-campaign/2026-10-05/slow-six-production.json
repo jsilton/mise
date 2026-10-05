@@ -1,0 +1,211 @@
+{
+  "status": "verified live",
+  "releaseCommit": "7a2d1bbf6d2368bfdd6c62a5d5a7004f0f886fd4",
+  "implementationCommit": "b63c21b9b0750548c047e5cc9d3840d0109a182c",
+  "deploymentRun": 37387138606,
+  "ci": {
+    "conclusion": "success",
+    "databaseId": 37387138606,
+    "headSha": "7a2d1bbf6d2368bfdd6c62a5d5a7004f0f886fd4",
+    "jobs": [
+      {
+        "completedAt": "2026-10-05T23:13:39Z",
+        "conclusion": "success",
+        "databaseId": 112023054499,
+        "name": "build",
+        "startedAt": "2026-10-05T23:12:26Z",
+        "status": "completed",
+        "steps": [
+          {
+            "completedAt": "2026-10-05T23:12:28Z",
+            "conclusion": "success",
+            "name": "Set up job",
+            "number": 1,
+            "startedAt": "2026-10-05T23:12:26Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-05T23:12:31Z",
+            "conclusion": "success",
+            "name": "Checkout your repository using git",
+            "number": 2,
+            "startedAt": "2026-10-05T23:12:28Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-05T23:13:29Z",
+            "conclusion": "success",
+            "name": "Install, build, and upload your site",
+            "number": 3,
+            "startedAt": "2026-10-05T23:12:31Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-05T23:13:34Z",
+            "conclusion": "success",
+            "name": "Check private recipe metadata is absent",
+            "number": 4,
+            "startedAt": "2026-10-05T23:13:29Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-05T23:13:38Z",
+            "conclusion": "success",
+            "name": "Post Install, build, and upload your site",
+            "number": 7,
+            "startedAt": "2026-10-05T23:13:34Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-05T23:13:38Z",
+            "conclusion": "success",
+            "name": "Post Checkout your repository using git",
+            "number": 8,
+            "startedAt": "2026-10-05T23:13:38Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-05T23:13:38Z",
+            "conclusion": "success",
+            "name": "Complete job",
+            "number": 9,
+            "startedAt": "2026-10-05T23:13:38Z",
+            "status": "completed"
+          }
+        ],
+        "url": "https://github.com/jsilton/mise/actions/runs/37387138606/job/112023054499"
+      },
+      {
+        "completedAt": "2026-10-05T23:13:54Z",
+        "conclusion": "success",
+        "databaseId": 112023477884,
+        "name": "deploy",
+        "startedAt": "2026-10-05T23:13:43Z",
+        "status": "completed",
+        "steps": [
+          {
+            "completedAt": "2026-10-05T23:13:45Z",
+            "conclusion": "success",
+            "name": "Set up job",
+            "number": 1,
+            "startedAt": "2026-10-05T23:13:44Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-05T23:13:53Z",
+            "conclusion": "success",
+            "name": "Deploy to GitHub Pages",
+            "number": 2,
+            "startedAt": "2026-10-05T23:13:45Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-05T23:13:53Z",
+            "conclusion": "success",
+            "name": "Complete job",
+            "number": 3,
+            "startedAt": "2026-10-05T23:13:53Z",
+            "status": "completed"
+          }
+        ],
+        "url": "https://github.com/jsilton/mise/actions/runs/37387138606/job/112023477884"
+      }
+    ],
+    "status": "completed",
+    "url": "https://github.com/jsilton/mise/actions/runs/37387138606"
+  },
+  "rendered": [
+    {
+      "slug": "french-dip-sandwiches",
+      "url": "https://jordansilton.com/mise/recipes/french-dip-sandwiches/",
+      "titleMatches": true,
+      "schemaMatches": true,
+      "ingredientsMatch": true,
+      "completeVisibleTextMatches": true,
+      "visibleMethodSteps": 6
+    },
+    {
+      "slug": "slow-cooker-korean-beef",
+      "url": "https://jordansilton.com/mise/recipes/slow-cooker-korean-beef/",
+      "titleMatches": true,
+      "schemaMatches": true,
+      "ingredientsMatch": true,
+      "completeVisibleTextMatches": true,
+      "visibleMethodSteps": 5
+    },
+    {
+      "slug": "slow-cooker-mongolian-beef",
+      "url": "https://jordansilton.com/mise/recipes/slow-cooker-mongolian-beef/",
+      "titleMatches": true,
+      "schemaMatches": true,
+      "ingredientsMatch": true,
+      "completeVisibleTextMatches": true,
+      "visibleMethodSteps": 5
+    },
+    {
+      "slug": "orange-and-paprika-pulled-pork",
+      "url": "https://jordansilton.com/mise/recipes/orange-and-paprika-pulled-pork/",
+      "titleMatches": true,
+      "schemaMatches": true,
+      "ingredientsMatch": true,
+      "completeVisibleTextMatches": true,
+      "visibleMethodSteps": 5
+    },
+    {
+      "slug": "creamy-slow-cooker-chicken-and-wild-rice-soup",
+      "url": "https://jordansilton.com/mise/recipes/creamy-slow-cooker-chicken-and-wild-rice-soup/",
+      "titleMatches": true,
+      "schemaMatches": true,
+      "ingredientsMatch": true,
+      "completeVisibleTextMatches": true,
+      "visibleMethodSteps": 6
+    },
+    {
+      "slug": "slow-cooker-vegetarian-lentil-tortilla-soup",
+      "url": "https://jordansilton.com/mise/recipes/slow-cooker-vegetarian-lentil-tortilla-soup/",
+      "titleMatches": true,
+      "schemaMatches": true,
+      "ingredientsMatch": true,
+      "completeVisibleTextMatches": true,
+      "visibleMethodSteps": 5
+    }
+  ],
+  "verifiedDate": "2026-10-05",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "remote": {
+    "exactRemoteCommit": "7a2d1bbf6d2368bfdd6c62a5d5a7004f0f886fd4",
+    "ref": "refs/heads/main",
+    "verifiedDate": "2026-10-05",
+    "releaseOwner": "root",
+    "nonForceUpdate": true
+  },
+  "acceptedRecipeSources": [
+    {
+      "slug": "french-dip-sandwiches",
+      "acceptedSourceSha256": "2dee3b0231673601f4bef2623b06004d08afd0c24b0cc0c3aaafaf67a759fd16"
+    },
+    {
+      "slug": "slow-cooker-korean-beef",
+      "acceptedSourceSha256": "a1f5e0f29dc917c62aee89eaa321b6cf98ec3b37b8a4b4e39686d71a489cd90b"
+    },
+    {
+      "slug": "slow-cooker-mongolian-beef",
+      "acceptedSourceSha256": "533d2493e829d15183881b8446cb8ef63b7ba168cd6b246084c1514ff68c9656"
+    },
+    {
+      "slug": "orange-and-paprika-pulled-pork",
+      "acceptedSourceSha256": "f2421d8a988b8dad6ac509e7173cc236897fb3d9b7542bf62577b80a052cb11a"
+    },
+    {
+      "slug": "creamy-slow-cooker-chicken-and-wild-rice-soup",
+      "acceptedSourceSha256": "63467c211422795c55aa5f305d69ecef8dc174b7dc15ad697803b20c8fa871f3"
+    },
+    {
+      "slug": "slow-cooker-vegetarian-lentil-tortilla-soup",
+      "acceptedSourceSha256": "be5312008b381dbfb924858e0b67e086406911add13ae1ec5df085a240dbc68d"
+    }
+  ],
+  "consoleEntries": 0,
+  "limitations": "Local mobile/scaling/cooking checks passed on all six. Print preview remains unverified; no kitchen testing or native-app sync."
+}

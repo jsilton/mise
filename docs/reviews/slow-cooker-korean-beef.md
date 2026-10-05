@@ -4668,3 +4668,7 @@ Restore the exact omitted onion powder, white pepper and sesame seeds, covered t
 ## Local integrated validation
 
 All252 tests,31 authored formula checks,643-recipe validation and30 aggregate QA checks pass. Six targeted lints have zero errors and three existing missing-pairing warnings. All three exports match643 sources; private bindings, public privacy and11,880 built anchors pass. All six rendered pages match their exact builds;282 scaled ingredient displays,18 yield displays and375-pixel mobile layouts pass. On all six, ingredient/step checkmarks survive reload and reentry; reset/exit pass. Print buttons are enabled with unchanged shared styles; preview unverified. [Preservation and validation evidence](../editorial-campaign/2026-10-05/slow-six-preservation.json). No kitchen test or native-app sync. Exact production verification remains pending.
+
+## Verified production release
+
+Source implementation `b63c21b9b0750548c047e5cc9d3840d0109a182c` is verified at exact remote release `7a2d1bbf6d2368bfdd6c62a5d5a7004f0f886fd4`, successful [Pages run 37387138606](https://github.com/jsilton/mise/actions/runs/37387138606) and this live affected page. All six complete visible cooking texts, ingredients, exact built schemas and 32 method steps match production. [Production evidence](../editorial-campaign/2026-10-05/slow-six-production.json). No physical kitchen test or native-app sync; print preview remains unverified.

@@ -7,7 +7,7 @@
   "exactPairedFieldBody": true,
   "kitchenTested": false,
   "nativeAppSynced": false,
-  "status": "implemented and locally validated; production verification pending",
+  "status": "implemented and verified live; physical kitchen testing remains pending",
   "recipes": [
     {
       "slug": "french-dip-sandwiches",
@@ -97,7 +97,17 @@
     "original73ParserFixturesPreserved": true,
     "safetyCheckerUnchanged": true
   },
-  "productionVerification": "pending",
+  "productionVerification": {
+    "status": "verified live",
+    "releaseCommit": "7a2d1bbf6d2368bfdd6c62a5d5a7004f0f886fd4",
+    "implementationCommit": "b63c21b9b0750548c047e5cc9d3840d0109a182c",
+    "deploymentRun": 37387138606,
+    "ci": "build, public privacy check and deployment success",
+    "rendered": "All six exact built JSON-LD objects, complete visible cooking text, ingredients and 32 method steps match production",
+    "verifiedDate": "2026-10-05",
+    "kitchenTested": false,
+    "nativeAppSynced": false
+  },
   "implementationCommit": "b63c21b9b0750548c047e5cc9d3840d0109a182c",
   "postCommitAcceptedHashesMatch": true
 }
