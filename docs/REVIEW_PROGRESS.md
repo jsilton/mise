@@ -1,6 +1,6 @@
 # Current campaign state — October 5, 2026
 
-282 recorded complete / 361 pending across 643 sources; zero kitchen tests. The 42 accelerated targeted repairs remain verified live as a separate overlapping scope. Forty-two new complete editorial versions from the original 409-source campaign are verified live. Six slow-cooker recipes are accepted locally after whole independent and root review; validation, implementation and exact production verification remain pending. No physical kitchen testing or native-app sync occurred. Three subagents continue whole authorship and independent challenge; root alone integrates and publishes. [Six slow-cooker acceptance](editorial-campaign/2026-10-05/slow-six.md).
+282 implemented recorded complete / 361 pending across 643 sources; zero kitchen tests. The 42 accelerated targeted repairs remain verified live as a separate overlapping scope. Forty-two new complete editorial versions from the original 409-source campaign are verified live. Six additional slow-cooker versions are implemented and locally validated; exact remote release, successful CI/deployment and all six live pages remain to be verified. No physical kitchen testing or native-app sync occurred. Three subagents continue whole authorship and independent challenge; root alone integrates and publishes. [Six slow-cooker implementation](editorial-campaign/2026-10-05/slow-six.md).
 
 # Historical campaign checkpoint — October 5, 2026
 

@@ -28,3 +28,7 @@ Independent inspection accepted the single Wild Rice hot-holding wording correct
 ## Locally validated checkpoint
 
 [Exact preservation and validation evidence](slow-six-preservation.json). All252 tests,31 formulas,643-recipe validation,30 aggregate QA checks and three export parity checks pass. The final build has758 pages and11,880 anchors, with zero missing destinations. All six full pages,282 scaled ingredient displays,18 yield displays,375-pixel layouts and all cooking checkmark/reload/reset/exit paths pass. No console errors. Targeted lint has no errors and three pre-existing missing-pairing warnings. Print preview remains unverified; controls and shared styles are preserved. No physical kitchen test or native-app sync. Publication still requires exact remote commit, successful CI/deployment and all affected live pages.
+
+## Implemented checkpoint
+
+Source commit `b63c21b9b0750548c047e5cc9d3840d0109a182c` preserves all six accepted source hashes after commit hooks. The 42 accelerated targeted repairs remain verified live as a separate overlapping scope. Forty-two new complete editorial versions from the original 409-source campaign are verified live. Six additional slow-cooker versions are implemented and locally validated; exact remote release, successful CI/deployment and all six live pages remain to be verified. No physical kitchen testing or native-app sync occurred. [Preservation and local validation](slow-six-preservation.json).

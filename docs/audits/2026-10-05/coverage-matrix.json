@@ -27,7 +27,7 @@
     },
     "uniquePathsInSixRepairCommits": 105,
     "kitchenTested": 0,
-    "productionReconciliation": "The 42 accelerated targeted repairs remain verified live as a separate overlapping scope. Forty-two new complete editorial versions from the original 409-source campaign are verified live. Six slow-cooker recipes are accepted locally after whole independent and root review; validation, implementation and exact production verification remain pending. No physical kitchen testing or native-app sync occurred."
+    "productionReconciliation": "The 42 accelerated targeted repairs remain verified live as a separate overlapping scope. Forty-two new complete editorial versions from the original 409-source campaign are verified live. Six additional slow-cooker versions are implemented and locally validated; exact remote release, successful CI/deployment and all six live pages remain to be verified. No physical kitchen testing or native-app sync occurred."
   },
   "collectionEvidence": [
     "docs/REVIEW_PROGRESS.md",
@@ -7538,17 +7538,22 @@
         "record": "docs/reviews/creamy-slow-cooker-chicken-and-wild-rice-soup.md",
         "acceptedSha256": "63467c211422795c55aa5f305d69ecef8dc174b7dc15ad697803b20c8fa871f3",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/slow-cooker-independent.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "b63c21b9b0750548c047e5cc9d3840d0109a182c"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "b63c21b9b0750548c047e5cc9d3840d0109a182c",
       "acceptedChange": {
-        "status": "accepted locally after whole independent challenge and complete root inspection; implementation pending",
+        "status": "implemented after whole independent challenge and complete root inspection",
         "record": "docs/reviews/creamy-slow-cooker-chicken-and-wild-rice-soup.json",
         "sourceSha256": "63467c211422795c55aa5f305d69ecef8dc174b7dc15ad697803b20c8fa871f3"
       },
-      "implementationCommits": [],
+      "implementationCommits": [
+        {
+          "commit": "b63c21b9b0750548c047e5cc9d3840d0109a182c",
+          "scope": "complete editorial review"
+        }
+      ],
       "productionVerification": {
-        "status": "pending; existing live version does not certify accepted whole editorial version"
+        "status": "pending; exact remote release, successful deployment and affected live pages required"
       },
       "remainingQuestions": [
         "Confirm actual dry rice product/species/processing against long slow-cooker route; test texture and finish time.",
@@ -10343,17 +10348,22 @@
         "record": "docs/reviews/french-dip-sandwiches.md",
         "acceptedSha256": "2dee3b0231673601f4bef2623b06004d08afd0c24b0cc0c3aaafaf67a759fd16",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/slow-cooker-independent.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "b63c21b9b0750548c047e5cc9d3840d0109a182c"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "b63c21b9b0750548c047e5cc9d3840d0109a182c",
       "acceptedChange": {
-        "status": "accepted locally after whole independent challenge and complete root inspection; implementation pending",
+        "status": "implemented after whole independent challenge and complete root inspection",
         "record": "docs/reviews/french-dip-sandwiches.json",
         "sourceSha256": "2dee3b0231673601f4bef2623b06004d08afd0c24b0cc0c3aaafaf67a759fd16"
       },
-      "implementationCommits": [],
+      "implementationCommits": [
+        {
+          "commit": "b63c21b9b0750548c047e5cc9d3840d0109a182c",
+          "scope": "complete editorial review"
+        }
+      ],
       "productionVerification": {
-        "status": "pending; existing live version does not certify accepted whole editorial version"
+        "status": "pending; exact remote release, successful deployment and affected live pages required"
       },
       "remainingQuestions": [
         "Identify actual cooker model/load and original3lb roast fit.",
@@ -18264,17 +18274,22 @@
         "record": "docs/reviews/orange-and-paprika-pulled-pork.md",
         "acceptedSha256": "f2421d8a988b8dad6ac509e7173cc236897fb3d9b7542bf62577b80a052cb11a",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/slow-cooker-independent.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "b63c21b9b0750548c047e5cc9d3840d0109a182c"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "b63c21b9b0750548c047e5cc9d3840d0109a182c",
       "acceptedChange": {
-        "status": "accepted locally after whole independent challenge and complete root inspection; implementation pending",
+        "status": "implemented after whole independent challenge and complete root inspection",
         "record": "docs/reviews/orange-and-paprika-pulled-pork.json",
         "sourceSha256": "f2421d8a988b8dad6ac509e7173cc236897fb3d9b7542bf62577b80a052cb11a"
       },
-      "implementationCommits": [],
+      "implementationCommits": [
+        {
+          "commit": "b63c21b9b0750548c047e5cc9d3840d0109a182c",
+          "scope": "complete editorial review"
+        }
+      ],
       "productionVerification": {
-        "status": "pending; existing live version does not certify accepted whole editorial version"
+        "status": "pending; exact remote release, successful deployment and affected live pages required"
       },
       "remainingQuestions": [
         "Identify actual cooker model, whole-roast size and bone status.",
@@ -24140,17 +24155,22 @@
         "record": "docs/reviews/slow-cooker-korean-beef.md",
         "acceptedSha256": "a1f5e0f29dc917c62aee89eaa321b6cf98ec3b37b8a4b4e39686d71a489cd90b",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/slow-cooker-independent.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "b63c21b9b0750548c047e5cc9d3840d0109a182c"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "b63c21b9b0750548c047e5cc9d3840d0109a182c",
       "acceptedChange": {
-        "status": "accepted locally after whole independent challenge and complete root inspection; implementation pending",
+        "status": "implemented after whole independent challenge and complete root inspection",
         "record": "docs/reviews/slow-cooker-korean-beef.json",
         "sourceSha256": "a1f5e0f29dc917c62aee89eaa321b6cf98ec3b37b8a4b4e39686d71a489cd90b"
       },
-      "implementationCommits": [],
+      "implementationCommits": [
+        {
+          "commit": "b63c21b9b0750548c047e5cc9d3840d0109a182c",
+          "scope": "complete editorial review"
+        }
+      ],
       "productionVerification": {
-        "status": "pending; existing live version does not certify accepted whole editorial version"
+        "status": "pending; exact remote release, successful deployment and affected live pages required"
       },
       "remainingQuestions": [
         "Check actual6qt cooker fill and tenderness on both routes.",
@@ -24186,17 +24206,22 @@
         "record": "docs/reviews/slow-cooker-mongolian-beef.md",
         "acceptedSha256": "533d2493e829d15183881b8446cb8ef63b7ba168cd6b246084c1514ff68c9656",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/slow-cooker-independent.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "b63c21b9b0750548c047e5cc9d3840d0109a182c"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "b63c21b9b0750548c047e5cc9d3840d0109a182c",
       "acceptedChange": {
-        "status": "accepted locally after whole independent challenge and complete root inspection; implementation pending",
+        "status": "implemented after whole independent challenge and complete root inspection",
         "record": "docs/reviews/slow-cooker-mongolian-beef.json",
         "sourceSha256": "533d2493e829d15183881b8446cb8ef63b7ba168cd6b246084c1514ff68c9656"
       },
-      "implementationCommits": [],
+      "implementationCommits": [
+        {
+          "commit": "b63c21b9b0750548c047e5cc9d3840d0109a182c",
+          "scope": "complete editorial review"
+        }
+      ],
       "productionVerification": {
-        "status": "pending; existing live version does not certify accepted whole editorial version"
+        "status": "pending; exact remote release, successful deployment and affected live pages required"
       },
       "remainingQuestions": [
         "Check actual cooker minimum fill for the1½lb batch.",
@@ -24303,17 +24328,22 @@
         "record": "docs/reviews/slow-cooker-vegetarian-lentil-tortilla-soup.md",
         "acceptedSha256": "be5312008b381dbfb924858e0b67e086406911add13ae1ec5df085a240dbc68d",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/slow-cooker-independent.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "b63c21b9b0750548c047e5cc9d3840d0109a182c"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "b63c21b9b0750548c047e5cc9d3840d0109a182c",
       "acceptedChange": {
-        "status": "accepted locally after whole independent challenge and complete root inspection; implementation pending",
+        "status": "implemented after whole independent challenge and complete root inspection",
         "record": "docs/reviews/slow-cooker-vegetarian-lentil-tortilla-soup.json",
         "sourceSha256": "be5312008b381dbfb924858e0b67e086406911add13ae1ec5df085a240dbc68d"
       },
-      "implementationCommits": [],
+      "implementationCommits": [
+        {
+          "commit": "b63c21b9b0750548c047e5cc9d3840d0109a182c",
+          "scope": "complete editorial review"
+        }
+      ],
       "productionVerification": {
-        "status": "pending; existing live version does not certify accepted whole editorial version"
+        "status": "pending; exact remote release, successful deployment and affected live pages required"
       },
       "remainingQuestions": [
         "Check actual cooker size/fill with restored full vegetable base.",
