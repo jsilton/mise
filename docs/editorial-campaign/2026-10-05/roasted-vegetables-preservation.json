@@ -1,6 +1,6 @@
 {
   "inputCommit": "8a6d5e6ca0388b0d327cbe9972dd16aebda7952e",
-  "status": "accepted and locally validated; implementation and production pending",
+  "status": "implemented and locally validated; production verification pending",
   "recipes": [
     {
       "slug": "roasted-asparagus",
@@ -124,5 +124,7 @@
     "printControlEnabled": true,
     "sharedPrintStylesUnchanged": true,
     "printPreview": "Unverified: IAB print invocation previously stalled; no successful preview claimed"
-  }
+  },
+  "implementationCommit": "ffa1a9e7cb33dd6a59c2a06e1907cba865eded5e",
+  "postCommitAcceptedHashesMatch": true
 }

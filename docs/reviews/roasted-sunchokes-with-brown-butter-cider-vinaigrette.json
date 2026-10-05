@@ -1,7 +1,7 @@
 {
   "slug": "roasted-sunchokes-with-brown-butter-cider-vinaigrette",
   "title": "Sunchokes with Brown Butter Vinaigrette",
-  "status": "accepted complete editorial review; implementation and production pending",
+  "status": "implemented complete editorial review; production verification pending",
   "reviewDate": "2026-10-05",
   "notKitchenTested": true,
   "inputCommit": "95b37f8bca5008657a668e52a1d970b1d03367d3",
@@ -1164,5 +1164,24 @@
   "rootWholeInspection": "Complete frozen and proposed recipe, exact Git original, historical repairs, source disagreements, every ingredient and retained variation, pan geometry, sensory endpoints, timing, storage, scaling and linked meals inspected.",
   "kitchenTested": false,
   "nativeAppSynced": false,
-  "productionVerification": "pending"
+  "productionVerification": "pending",
+  "implementationCommit": "ffa1a9e7cb33dd6a59c2a06e1907cba865eded5e",
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 29,
+    "aggregateQaChecks": 30,
+    "builtHtml": 758,
+    "internalAnchors": 11854,
+    "missingLinks": 0,
+    "exportParity": "JSON-LD/text/native export parity passed; no native-app import",
+    "privacy": "public/tracked identity and native-artifact checks passed",
+    "renderedRecipes": 8,
+    "scaledIngredientDisplays": 204,
+    "scaledYieldDisplays": 24,
+    "mobileWidth": 375,
+    "cookingInteractions": "ingredient and step checkmarks persisted; reset and cooking-mode exit passed",
+    "print": "button enabled and shared print styles unchanged; preview not verified",
+    "kitchenTests": 0
+  }
 }

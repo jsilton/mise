@@ -27,7 +27,7 @@
     },
     "uniquePathsInSixRepairCommits": 105,
     "kitchenTested": 0,
-    "productionReconciliation": "42 accelerated targeted repairs verified live; 16 additional complete versions verified live. Thirteen complete cold-side/potato versions remain unverified after release 8a6d5e6c failed before any build/deployment steps: run 37374702530 could not acquire a GitHub-hosted runner. GitHub Status reports an ongoing Actions hosted-runner outage. Eight roasted vegetable versions are accepted locally with validation/implementation/publication pending."
+    "productionReconciliation": "42 accelerated targeted repairs verified live; 16 additional complete versions verified live. Twenty-one complete cold-side, potato and roasted-vegetable versions are implemented and locally validated but await exact remote, CI/deployment and live-page verification. Earlier release 8a6d5e6c failed before build/deployment steps because run 37374702530 could not acquire a hosted runner. GitHub Status reported runner mitigation at 21:32 UTC; a new release attempt is pending."
   },
   "collectionEvidence": [
     "docs/REVIEW_PROGRESS.md",
@@ -15963,17 +15963,22 @@
         "record": "docs/reviews/maple-roasted-sweet-potato-wedges.md",
         "acceptedSha256": "1c9559a7e891f44b2482adf4ff815bc170c73c2701eb2c771227bd2e0ce45ca3",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/roasted-vegetables-independent.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "ffa1a9e7cb33dd6a59c2a06e1907cba865eded5e"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally after independent challenge and complete root inspection; implementation pending",
+        "status": "implemented after independent challenge and complete root inspection",
         "record": "docs/reviews/maple-roasted-sweet-potato-wedges.json",
         "sourceSha256": "1c9559a7e891f44b2482adf4ff815bc170c73c2701eb2c771227bd2e0ce45ca3"
       },
-      "implementationCommits": [],
+      "implementationCommits": [
+        {
+          "commit": "ffa1a9e7cb33dd6a59c2a06e1907cba865eded5e",
+          "scope": "complete editorial review"
+        }
+      ],
       "productionVerification": {
-        "status": "pending; older live version does not certify accepted editorial version"
+        "status": "pending; exact release and live-page verification remain required"
       },
       "remainingQuestions": [
         "Check consistent approximately half-inch wedges and nearly tender centers in the first stage.",
@@ -16775,17 +16780,22 @@
         "record": "docs/reviews/miso-glazed-roasted-cauliflower.md",
         "acceptedSha256": "cdbca3ccf5d4f44a8a187f151d78748f7e44de2fd6d215ca5166d85b2901eb4e",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/roasted-vegetables-independent.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "ffa1a9e7cb33dd6a59c2a06e1907cba865eded5e"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally after independent challenge and complete root inspection; implementation pending",
+        "status": "implemented after independent challenge and complete root inspection",
         "record": "docs/reviews/miso-glazed-roasted-cauliflower.json",
         "sourceSha256": "cdbca3ccf5d4f44a8a187f151d78748f7e44de2fd6d215ca5166d85b2901eb4e"
       },
-      "implementationCommits": [],
+      "implementationCommits": [
+        {
+          "commit": "ffa1a9e7cb33dd6a59c2a06e1907cba865eded5e",
+          "scope": "complete editorial review"
+        }
+      ],
       "productionVerification": {
-        "status": "pending; older live version does not certify accepted editorial version"
+        "status": "pending; exact release and live-page verification remain required"
       },
       "remainingQuestions": [
         "Observe the specific miso/mirin coating from the start of the 425°F roast and center tenderness before scorching.",
@@ -18730,17 +18740,22 @@
         "record": "docs/reviews/patate-al-forno.md",
         "acceptedSha256": "94e6978482a006e7afb76be0f6e45f4160a26fddf529d6a87fe9bedf12ad868f",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/roasted-vegetables-independent.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "ffa1a9e7cb33dd6a59c2a06e1907cba865eded5e"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally after independent challenge and complete root inspection; implementation pending",
+        "status": "implemented after independent challenge and complete root inspection",
         "record": "docs/reviews/patate-al-forno.json",
         "sourceSha256": "94e6978482a006e7afb76be0f6e45f4160a26fddf529d6a87fe9bedf12ad868f"
       },
-      "implementationCommits": [],
+      "implementationCommits": [
+        {
+          "commit": "ffa1a9e7cb33dd6a59c2a06e1907cba865eded5e",
+          "scope": "complete editorial review"
+        }
+      ],
       "productionVerification": {
-        "status": "pending; older live version does not certify accepted editorial version"
+        "status": "pending; exact release and live-page verification remain required"
       },
       "remainingQuestions": [
         "Check footprint and preferred brown/tender endpoint for the family’s two-pound 450°F batch.",
@@ -20806,17 +20821,22 @@
         "record": "docs/reviews/roasted-asparagus.md",
         "acceptedSha256": "d8e1601fca93f1325ed25ad26fa669917f41d760699957d13f30bd56f5398685",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/roasted-vegetables-independent.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "ffa1a9e7cb33dd6a59c2a06e1907cba865eded5e"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally after independent challenge and complete root inspection; implementation pending",
+        "status": "implemented after independent challenge and complete root inspection",
         "record": "docs/reviews/roasted-asparagus.json",
         "sourceSha256": "d8e1601fca93f1325ed25ad26fa669917f41d760699957d13f30bd56f5398685"
       },
-      "implementationCommits": [],
+      "implementationCommits": [
+        {
+          "commit": "ffa1a9e7cb33dd6a59c2a06e1907cba865eded5e",
+          "scope": "complete editorial review"
+        }
+      ],
       "productionVerification": {
-        "status": "pending; older live version does not certify accepted editorial version"
+        "status": "pending; exact release and live-page verification remain required"
       },
       "remainingQuestions": [
         "Weigh the actual bunch and assess seasoning for that bunch, without creating a universal bunch weight.",
@@ -20849,11 +20869,11 @@
         "record": "docs/reviews/roasted-broccolini-with-lemon.md",
         "acceptedSha256": "9d5bb3b7acbcfff3e4f3a32f3f4b79845766e0bf17e95c8702a9514b2e19d51f",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/roasted-vegetables-independent.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "ffa1a9e7cb33dd6a59c2a06e1907cba865eded5e"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally after independent challenge and complete root inspection; implementation pending",
+        "status": "implemented after independent challenge and complete root inspection",
         "record": "docs/reviews/roasted-broccolini-with-lemon.json",
         "sourceSha256": "9d5bb3b7acbcfff3e4f3a32f3f4b79845766e0bf17e95c8702a9514b2e19d51f"
       },
@@ -20862,10 +20882,14 @@
           "commit": "a2c9e28069faa57c7bb7fe4ac5e7ca02b6462861",
           "evidence": "actual recipe diff retained privately",
           "scope": "historical safety/scaling/source repair; file touch is not complete review"
+        },
+        {
+          "commit": "ffa1a9e7cb33dd6a59c2a06e1907cba865eded5e",
+          "scope": "complete editorial review"
         }
       ],
       "productionVerification": {
-        "status": "pending; older live version does not certify accepted editorial version"
+        "status": "pending; exact release and live-page verification remain required"
       },
       "remainingQuestions": [
         "Measure actual bunch weights and the sheet footprint of the original two-bunch amount.",
@@ -20898,17 +20922,22 @@
         "record": "docs/reviews/roasted-brussels-sprouts-with-balsamic.md",
         "acceptedSha256": "fb0671b1de32020949e834ff69e9b62982b90a3f77188132d88bfe99854f7dfc",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/roasted-vegetables-independent.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "ffa1a9e7cb33dd6a59c2a06e1907cba865eded5e"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally after independent challenge and complete root inspection; implementation pending",
+        "status": "implemented after independent challenge and complete root inspection",
         "record": "docs/reviews/roasted-brussels-sprouts-with-balsamic.json",
         "sourceSha256": "fb0671b1de32020949e834ff69e9b62982b90a3f77188132d88bfe99854f7dfc"
       },
-      "implementationCommits": [],
+      "implementationCommits": [
+        {
+          "commit": "ffa1a9e7cb33dd6a59c2a06e1907cba865eded5e",
+          "scope": "complete editorial review"
+        }
+      ],
       "productionVerification": {
-        "status": "pending; older live version does not certify accepted editorial version"
+        "status": "pending; exact release and live-page verification remain required"
       },
       "remainingQuestions": [
         "Observe sprout-half size and nearly tender centers at the first 20-minute check.",
@@ -21223,17 +21252,22 @@
         "record": "docs/reviews/roasted-root-vegetables.md",
         "acceptedSha256": "fd732798f65b4cfaa83cc9a153786616d49552ff08ec0afdee93145c3558482e",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/roasted-vegetables-independent.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "ffa1a9e7cb33dd6a59c2a06e1907cba865eded5e"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally after independent challenge and complete root inspection; implementation pending",
+        "status": "implemented after independent challenge and complete root inspection",
         "record": "docs/reviews/roasted-root-vegetables.json",
         "sourceSha256": "fd732798f65b4cfaa83cc9a153786616d49552ff08ec0afdee93145c3558482e"
       },
-      "implementationCommits": [],
+      "implementationCommits": [
+        {
+          "commit": "ffa1a9e7cb33dd6a59c2a06e1907cba865eded5e",
+          "scope": "complete editorial review"
+        }
+      ],
       "productionVerification": {
-        "status": "pending; older live version does not certify accepted editorial version"
+        "status": "pending; exact release and live-page verification remain required"
       },
       "remainingQuestions": [
         "Record the actual root mix and centers at the first check, particularly dense beets.",
@@ -21266,17 +21300,22 @@
         "record": "docs/reviews/roasted-sunchokes-with-brown-butter-cider-vinaigrette.md",
         "acceptedSha256": "ce8ab6d233ee92280696209b6dde723d575494cc28d85dc6349607a26dddff4d",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/roasted-vegetables-independent.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "ffa1a9e7cb33dd6a59c2a06e1907cba865eded5e"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally after independent challenge and complete root inspection; implementation pending",
+        "status": "implemented after independent challenge and complete root inspection",
         "record": "docs/reviews/roasted-sunchokes-with-brown-butter-cider-vinaigrette.json",
         "sourceSha256": "ce8ab6d233ee92280696209b6dde723d575494cc28d85dc6349607a26dddff4d"
       },
-      "implementationCommits": [],
+      "implementationCommits": [
+        {
+          "commit": "ffa1a9e7cb33dd6a59c2a06e1907cba865eded5e",
+          "scope": "complete editorial review"
+        }
+      ],
       "productionVerification": {
-        "status": "pending; older live version does not certify accepted editorial version"
+        "status": "pending; exact release and live-page verification remain required"
       },
       "remainingQuestions": [
         "Check sheet footprint, irregular one-inch cuts and actual tender-center roasting time.",
