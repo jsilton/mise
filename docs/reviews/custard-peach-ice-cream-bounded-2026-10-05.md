@@ -21,3 +21,9 @@ Prompt refrigeration follows [FDA egg safety](https://www.fda.gov/food/buy-store
 The attributed publisher was independently read and the narrow method/timing corrections were accepted. Current source credits, complete ingredient quantities and internal recipe identity remain unchanged. Endpoint and refrigeration guidance were checked against FDA egg-safety guidance where applicable; no raw-egg shortcut or unvalidated warm chilling target is adopted. This remains an editorial correction, not a measured cooking result.
 
 Integration base: `5741495b479d1891066e004ed07aa4b5f830db66`, after the nine-recipe soup/salad wave. All earlier recipe repairs and privacy metadata are preserved.
+
+## October 5 continuation check
+
+An independent editor challenged the newly explicit machine batching: “Additional batches add time. Fold in the mashed peaches during the last 30 seconds.” becomes “Additional batches add time. Divide the mashed peaches in proportion to the custard portions, keep waiting custard and fruit refrigerated, and add each fruit portion during that batch’s last 30 seconds.” This prevents all reserved fruit entering the first machine load and keeps waiting egg/dairy custard cold. High confidence in proportional allocation and cold holding; no quantities change. Applicable evidence: the existing ingredient ledger, the publisher’s final fruit addition and FDA egg-safety refrigerated holding guidance above.
+
+Inherited literal sugar and tempering quantities in method prose refer to the original batch. The serving control warns that it scales ingredient lists only; this release does not certify method scaling. All sugar is accounted for at the original batch (1/2 + 1/2 + 1/4 = 1 1/4 cups). Machine capacity, finished yield, timing and texture remain kitchen questions.

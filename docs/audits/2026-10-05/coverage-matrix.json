@@ -1,6 +1,6 @@
 {
   "summary": {
-    "inputCommit": "e24cf89a0a55eb0f67861e0897f0e05b94205a56",
+    "inputCommit": "f684c89f9a5f82ddef2ad4e20a977aa002a5e629",
     "recipes": 643,
     "recordedCompleteEditorial": 234,
     "completeEditorialPending": 409,
@@ -20,13 +20,14 @@
       "reviewItems": 752
     },
     "accelerated": {
-      "implemented": 37,
-      "validatedPending": 5,
+      "implemented": 42,
+      "validatedPending": 0,
       "narrowNoChange": 4,
       "held": 2
     },
     "uniquePathsInSixRepairCommits": 105,
-    "kitchenTested": 0
+    "kitchenTested": 0,
+    "productionReconciliation": "Five desserts verified live; deployment 37352573625 succeeded. Earlier 37 retain handoff deployment evidence."
   },
   "collectionEvidence": [
     "docs/REVIEW_PROGRESS.md",
@@ -38,8 +39,8 @@
     "Stable miseId values appear only in ignored private matrix. Public matrix uses canonical paths and aliases.",
     "Commit touches are implementation evidence, not full editorial approval.",
     "Historical findings and source disagreements remain references, not automatic current defects.",
-    "No physical cooking or fresh production browser verification performed.",
-    "Latest recipe/record commits can be metadata changes; they are distinct from identified repair commits."
+    "Latest recipe/record commits can be metadata changes; they are distinct from identified repair commits.",
+    "No physical cooking performed. Five dessert pages freshly verified live; other live pages not rechecked by this continuation."
   ],
   "recipes": [
     {
@@ -6005,29 +6006,37 @@
         }
       ],
       "targetedReview": {
-        "acceleratedDisposition": "validated targeted repair; publication pending",
+        "acceleratedDisposition": "published targeted repair",
         "acceleratedEvidence": {
           "locator": "Retained private mise-quality-handoff-2026-10-05/accelerated-pass.json and APPENDIX.md",
           "scope": "disposition evidence only; not complete review"
         },
         "historicalCommitTouches": 0,
-        "evidence": []
+        "evidence": ["docs/reviews/chocolate-pie-bounded-2026-10-05.md"]
       },
       "completeEditorialReview": {
         "status": "pending",
         "record": null,
         "recordImplementationCommit": null
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": "validated candidate only",
-      "implementationCommits": [],
+      "latestRecipeCommit": "f684c89f9a5f82ddef2ad4e20a977aa002a5e629",
+      "acceptedChange": "accepted accelerated targeted repair",
+      "implementationCommits": [
+        {
+          "commit": "f684c89f9a5f82ddef2ad4e20a977aa002a5e629",
+          "evidence": "exact retained 11-file checkpoint verified against published blobs",
+          "scope": "accelerated targeted repair"
+        }
+      ],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "exact deployment succeeded and live affected page verified in browser",
+        "commit": "f684c89f9a5f82ddef2ad4e20a977aa002a5e629",
+        "run": "https://github.com/jsilton/mise/actions/runs/37352573625"
       },
       "remainingQuestions": [
         "Complete editorial review pending; automated absence of flags is not approval.",
-        "Dessert candidate validated but not implemented; outgoing publisher ownership unresolved.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck.",
+        "Actual cooling, machine capacity, yield and texture remain untested. Legacy method quantities remain original-batch quantities."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -8379,29 +8388,38 @@
         }
       ],
       "targetedReview": {
-        "acceleratedDisposition": "validated targeted repair; publication pending",
+        "acceleratedDisposition": "published targeted repair",
         "acceleratedEvidence": {
           "locator": "Retained private mise-quality-handoff-2026-10-05/accelerated-pass.json and APPENDIX.md",
           "scope": "disposition evidence only; not complete review"
         },
         "historicalCommitTouches": 0,
-        "evidence": []
+        "evidence": ["docs/reviews/custard-peach-ice-cream-bounded-2026-10-05.md"]
       },
       "completeEditorialReview": {
         "status": "pending",
         "record": null,
         "recordImplementationCommit": null
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": "validated candidate only",
-      "implementationCommits": [],
+      "latestRecipeCommit": "f684c89f9a5f82ddef2ad4e20a977aa002a5e629",
+      "acceptedChange": "accepted accelerated targeted repair",
+      "implementationCommits": [
+        {
+          "commit": "f684c89f9a5f82ddef2ad4e20a977aa002a5e629",
+          "evidence": "exact retained 11-file checkpoint verified against published blobs",
+          "scope": "accelerated targeted repair"
+        }
+      ],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "exact deployment succeeded and live affected page verified in browser",
+        "commit": "f684c89f9a5f82ddef2ad4e20a977aa002a5e629",
+        "run": "https://github.com/jsilton/mise/actions/runs/37352573625"
       },
       "remainingQuestions": [
         "Complete editorial review pending; automated absence of flags is not approval.",
-        "Dessert candidate validated but not implemented; outgoing publisher ownership unresolved.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck.",
+        "Actual cooling, machine capacity, yield and texture remain untested. Legacy method quantities remain original-batch quantities.",
+        "Independently accepted proportional fruit batching/cold-holding clarification prepared locally; not published."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -14785,35 +14803,42 @@
         }
       ],
       "targetedReview": {
-        "acceleratedDisposition": "validated targeted repair; publication pending",
+        "acceleratedDisposition": "published targeted repair",
         "acceleratedEvidence": {
           "locator": "Retained private mise-quality-handoff-2026-10-05/accelerated-pass.json and APPENDIX.md",
           "scope": "disposition evidence only; not complete review"
         },
         "historicalCommitTouches": 1,
-        "evidence": []
+        "evidence": ["docs/reviews/key-lime-pie-bounded-2026-10-05.md"]
       },
       "completeEditorialReview": {
         "status": "pending",
         "record": null,
         "recordImplementationCommit": null
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": "validated candidate only",
+      "latestRecipeCommit": "f684c89f9a5f82ddef2ad4e20a977aa002a5e629",
+      "acceptedChange": "accepted accelerated targeted repair",
       "implementationCommits": [
         {
           "commit": "a2c9e28069faa57c7bb7fe4ac5e7ca02b6462861",
           "evidence": "actual recipe diff retained privately",
           "scope": "historical safety/scaling/source repair; file touch is not complete review"
+        },
+        {
+          "commit": "f684c89f9a5f82ddef2ad4e20a977aa002a5e629",
+          "evidence": "exact retained 11-file checkpoint verified against published blobs",
+          "scope": "accelerated targeted repair"
         }
       ],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "exact deployment succeeded and live affected page verified in browser",
+        "commit": "f684c89f9a5f82ddef2ad4e20a977aa002a5e629",
+        "run": "https://github.com/jsilton/mise/actions/runs/37352573625"
       },
       "remainingQuestions": [
         "Complete editorial review pending; automated absence of flags is not approval.",
-        "Dessert candidate validated but not implemented; outgoing publisher ownership unresolved.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck.",
+        "Actual cooling, machine capacity, yield and texture remain untested. Legacy method quantities remain original-batch quantities."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -17646,29 +17671,37 @@
         }
       ],
       "targetedReview": {
-        "acceleratedDisposition": "validated targeted repair; publication pending",
+        "acceleratedDisposition": "published targeted repair",
         "acceleratedEvidence": {
           "locator": "Retained private mise-quality-handoff-2026-10-05/accelerated-pass.json and APPENDIX.md",
           "scope": "disposition evidence only; not complete review"
         },
         "historicalCommitTouches": 0,
-        "evidence": []
+        "evidence": ["docs/reviews/old-fashioned-vanilla-ice-cream-bounded-2026-10-05.md"]
       },
       "completeEditorialReview": {
         "status": "pending",
         "record": null,
         "recordImplementationCommit": null
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": "validated candidate only",
-      "implementationCommits": [],
+      "latestRecipeCommit": "f684c89f9a5f82ddef2ad4e20a977aa002a5e629",
+      "acceptedChange": "accepted accelerated targeted repair",
+      "implementationCommits": [
+        {
+          "commit": "f684c89f9a5f82ddef2ad4e20a977aa002a5e629",
+          "evidence": "exact retained 11-file checkpoint verified against published blobs",
+          "scope": "accelerated targeted repair"
+        }
+      ],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "exact deployment succeeded and live affected page verified in browser",
+        "commit": "f684c89f9a5f82ddef2ad4e20a977aa002a5e629",
+        "run": "https://github.com/jsilton/mise/actions/runs/37352573625"
       },
       "remainingQuestions": [
         "Complete editorial review pending; automated absence of flags is not approval.",
-        "Dessert candidate validated but not implemented; outgoing publisher ownership unresolved.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck.",
+        "Actual cooling, machine capacity, yield and texture remain untested. Legacy method quantities remain original-batch quantities."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -25881,29 +25914,37 @@
         }
       ],
       "targetedReview": {
-        "acceleratedDisposition": "validated targeted repair; publication pending",
+        "acceleratedDisposition": "published targeted repair",
         "acceleratedEvidence": {
           "locator": "Retained private mise-quality-handoff-2026-10-05/accelerated-pass.json and APPENDIX.md",
           "scope": "disposition evidence only; not complete review"
         },
         "historicalCommitTouches": 0,
-        "evidence": []
+        "evidence": ["docs/reviews/strawberry-summer-cake-bounded-2026-10-05.md"]
       },
       "completeEditorialReview": {
         "status": "pending",
         "record": null,
         "recordImplementationCommit": null
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": "validated candidate only",
-      "implementationCommits": [],
+      "latestRecipeCommit": "f684c89f9a5f82ddef2ad4e20a977aa002a5e629",
+      "acceptedChange": "accepted accelerated targeted repair",
+      "implementationCommits": [
+        {
+          "commit": "f684c89f9a5f82ddef2ad4e20a977aa002a5e629",
+          "evidence": "exact retained 11-file checkpoint verified against published blobs",
+          "scope": "accelerated targeted repair"
+        }
+      ],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "exact deployment succeeded and live affected page verified in browser",
+        "commit": "f684c89f9a5f82ddef2ad4e20a977aa002a5e629",
+        "run": "https://github.com/jsilton/mise/actions/runs/37352573625"
       },
       "remainingQuestions": [
         "Complete editorial review pending; automated absence of flags is not approval.",
-        "Dessert candidate validated but not implemented; outgoing publisher ownership unresolved.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck.",
+        "Actual cooling, machine capacity, yield and texture remain untested. Legacy method quantities remain original-batch quantities."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",

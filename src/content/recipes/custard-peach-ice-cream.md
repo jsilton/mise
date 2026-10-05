@@ -69,5 +69,5 @@ For smaller, less icy fruit pieces, macerate peaches in lemon juice and sugar fo
 3.  **Emulsify:** Whisk yolks with 1/4 cup sugar. Slowly whisk in 1 cup of hot cream to temper. Return everything to the pan.
 4.  **Cook:** Stir over medium-low heat until the custard reaches 170-175°F and coats a spoon; do not boil. Remove from the heat and stir in vanilla.
 5.  **Chill:** Strain into a clean, shallow bowl. Whisk in the peach syrup. Refrigerate promptly for **at least 4 hours** until thoroughly cold. Prepare the ice cream maker, freezing its bowl in advance if required by the manufacturer.
-6.  **Churn:** Pour into the prepared ice cream maker, respecting its fill limit; churn in batches if necessary. Churn according to its instructions until soft-serve consistency. Additional batches add time. Fold in the mashed peaches during the last 30 seconds.
+6.  **Churn:** Pour into the prepared ice cream maker, respecting its fill limit; churn in batches if necessary. Churn according to its instructions until soft-serve consistency. Additional batches add time. Divide the mashed peaches in proportion to the custard portions, keep waiting custard and fruit refrigerated, and add each fruit portion during that batch’s last 30 seconds.
 7.  **Set:** Freeze for 4-6 hours to ripen the texture.

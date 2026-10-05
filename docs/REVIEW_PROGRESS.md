@@ -1,3 +1,9 @@
+# Dessert publication reconciliation — October 5, 2026
+
+The exact retained five-dessert source checkpoint landed as `f684c89f` during continuation validation. Pages run 37352573625 succeeded and all five affected live pages were checked. The accelerated pass now has 42 live targeted repairs, four narrow no-change dispositions and two holds. Complete editorial coverage remains 234 recorded / 409 pending; kitchen tests remain zero. This task did not publish that commit.
+
+One independently accepted peach machine-batching clarification and refreshed five-dessert JSON/text exports remain local, pending release approval. See [continuation release evidence](audits/2026-10-05/dessert-continuation.md). Older pending-publication statements below retain their historical scope.
+
 # Current coverage reconciliation — October 5, 2026
 
 Fresh-main accounting at `e24cf89a`: 643 canonical sources, 234 recorded complete editorial statuses, 409 pending complete review, zero recorded kitchen tests. The 35 recent Paprika imports are included in refreshed automated triage. Ten considered consolidations are deduplicated by canonical path. Targeted repairs remain a separate dimension: 37 implemented, five validated desserts awaiting publication ownership/release, four narrow no-change decisions and two holds. No new recipe approval is granted.
