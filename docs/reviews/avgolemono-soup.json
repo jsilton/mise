@@ -1,0 +1,653 @@
+{
+  "slug": "avgolemono-soup",
+  "title": "Avgolemono",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "date": "2026-10-05",
+  "notKitchenTested": true,
+  "inputCommit": "afc39e07c49baed6924053ac34023a104d93c93a",
+  "inputSha256": "d70d796aa90312b568a1cc8a4c3388a35d1014b86264500cd06f386a53c74009",
+  "candidateSha256": "041f48f2c9a3352291f886b2e37a853fd61746683297aa8049277718343d64c7",
+  "summary": "Preserve the full cooked-chicken, grain-choice, egg and lemon formula. Temper with a proportional transfer from the same total broth and return it all; check the completed poultry/egg soup at 165°F without a curdling guarantee.",
+  "sourceCredit": null,
+  "sourceUrl": null,
+  "sourceProvenance": {
+    "savedGitCommit": "cf53871c99aa9edff6b426756165214524649f97",
+    "path": "src/content/recipes/avgolemono-soup.md",
+    "savedSourceSha256": "7a7ba80ac66eb5c4b2ff825b8d7b2b1fbac6dd4dded2c5c0d60849c06143fc18",
+    "frozenInputVerified": true,
+    "nativeLineage": "Not established; exact committed originals and attributed publisher evidence only. No native archive or UID certification."
+  },
+  "priorIndependentChallenge": {
+    "candidateSha256": "041f48f2c9a3352291f886b2e37a853fd61746683297aa8049277718343d64c7",
+    "disposition": "accepted-for-root-inspection",
+    "currentCandidateStillExact": true,
+    "scope": "Whole frozen/current candidates and records, exact committed originals, full supplied history artifacts and consequential culinary changes, attributed publisher/primary evidence, ingredient/state/allocation/branches, ratios, capacity, sensory/measured endpoints, clocks, storage, scaling, links and prior repairs.",
+    "confidence": "High ingredient/allocation and safety applicability; planning times, bowl yield and smoothness remain untested.",
+    "critical": [
+      "All 1 lb cooked chicken, 6 cups prepared broth, 1/2 cup dry rice OR orzo, 2 eggs and juice of 2 lemons/about 1/3 cup total remain. Rice and orzo are distinct package-dependent branches.",
+      "Tempering temporarily transfers about one-third of the listed broth (about 2 cups original), returns it all and adds no new broth. Heating cooked chicken/soup before tempering and the completed chicken-and-egg soup to 165°F is within CDC meat-containing egg-dish guidance; the low-heat/no-boil texture advice makes no guarantee against curdling.",
+      "Header includes grain cooking, warming and egg finishing; four portions are planning yield, not measured volume. Properly refrigerated leftover chicken is explicit; its earlier storage clock is not reset. Final seasoning follows safe cooking; cold shallow storage and soup reheating are complete."
+    ],
+    "sourceApplicability": [
+      {
+        "url": "https://www.cdc.gov/food-safety/foods/safer-food-choices.html",
+        "supports": "Egg dishes containing meat or poultry: 165°F; meat-free 160°F does not replace this mixed-soup endpoint."
+      },
+      {
+        "git": "cf53871c99aa9edff6b426756165214524649f97",
+        "supports": "Exact first committed formula and tempering sequence. No attributed external publisher or native UID lineage is established."
+      },
+      {
+        "git": "a2c9e28069faa57c7bb7fe4ac5e7ca02b6462861",
+        "supports": "About 1/3 cup total lemon-juice wording remains."
+      }
+    ]
+  },
+  "subsequentPeerApplication": null,
+  "independentSelfAcceptance": false,
+  "rootFinalAcceptance": "accepted after prior independent whole challenge, authorized bounded correction inspection and complete root final review",
+  "sourceDisagreements": "This is an authored house recipe first present at cf53871c, with no publisher/sourceUrl to invent. Greek classification and the egg/lemon identity remain; miracle/health/absolute curdling claims are removed. a2c9e280 total lemon-juice clarification remains. Later preserved intent is represented in the complete per-recipe history.",
+  "deliberateServingMetadataPolicy": {
+    "commit": "306e8136c1f93314498d117e2f6be67ca867cbbe",
+    "disposition": "Preserve current pairing metadata; do not restore duplicate source-era body sections or generic old serving suggestions.",
+    "thisRecipeActualRemoval": true,
+    "actualRecipeDiffSha256": "a48536d5408a00a04d02a5515571e6a312ccefa8dcbbfbc0075c11de5d21cef3",
+    "scope": "Exact recipe diff under explicit duplicate-section policy verified."
+  },
+  "originalIngredients": [
+    "1 lb Shredded Chicken (Rotisserie or Leftover)",
+    "6 cups High-Quality Chicken Broth",
+    "1/2 cup Long-grain Rice or Orzo",
+    "2 large Eggs",
+    "2 lemons, juiced (about 1/3 cup total)",
+    "Salt and white pepper"
+  ],
+  "savedGitIngredients": [
+    "1 lb Shredded Chicken (Rotisserie or Leftover)",
+    "6 cups High-Quality Chicken Broth",
+    "1/2 cup Long-grain Rice or Orzo",
+    "--- The Avgolemono (Egg-Lemon) ---",
+    "2 large Eggs",
+    "2 lemons, juiced (about 1/3 cup)",
+    "Salt and white pepper"
+  ],
+  "currentIngredients": [
+    "1 lb cooked shredded chicken (rotisserie or properly refrigerated leftover)",
+    "6 cups High-Quality Chicken Broth",
+    "1/2 cup dry long-grain rice or dry orzo",
+    "2 large Eggs",
+    "2 lemons, juiced (about 1/3 cup total)",
+    "Salt and white pepper, to taste"
+  ],
+  "ingredientLedger": [
+    {
+      "ingredient": "Cooked shredded chicken",
+      "amount": "1 lb",
+      "state": "Cooked; refrigerated if leftover",
+      "destination": [2, 5, 6],
+      "allocation": "All retained; heated to the chicken/soup endpoint."
+    },
+    {
+      "ingredient": "Chicken broth",
+      "amount": "6 cups",
+      "state": "Prepared broth",
+      "destination": [1, 4, 5],
+      "allocation": "All retained; approximately one-third is temporarily transferred for tempering and all returned. No extra broth."
+    },
+    {
+      "ingredient": "Rice OR orzo",
+      "amount": "1/2 cup dry",
+      "state": "Uncooked; choose one",
+      "destination": [1],
+      "allocation": "One exclusive grain branch; all retained."
+    },
+    {
+      "ingredient": "Eggs",
+      "amount": "2 large",
+      "state": "Raw, whisked; pasteurized option",
+      "destination": [3, 4, 5],
+      "allocation": "All retained; completed mixture reaches 165°F."
+    },
+    {
+      "ingredient": "Lemon juice",
+      "amount": "Juice of 2 lemons, about 1/3 cup total",
+      "state": "Freshly juiced; approximate volume",
+      "destination": [3, 4, 5],
+      "allocation": "All retained; earlier total-volume repair preserved."
+    },
+    {
+      "ingredient": "Salt and white pepper",
+      "amount": "To taste",
+      "state": "Genuine unmeasured seasoning allowance",
+      "destination": [6],
+      "allocation": "Final seasoning after the safe-temperature finish."
+    }
+  ],
+  "variantLedger": [
+    {
+      "name": "Dry long-grain rice",
+      "amount": "The listed 1/2 cup at original batch",
+      "destinations": [1],
+      "exclusiveWith": "Dry orzo",
+      "process": "Cook in the listed total broth to package-dependent tender center; the two grain choices are not declared equivalent weights/timings."
+    },
+    {
+      "name": "Dry orzo",
+      "amount": "The same listed 1/2 cup at original batch",
+      "destinations": [1],
+      "exclusiveWith": "Dry rice",
+      "process": "Follow orzo package and tender-center check; other chicken/egg/lemon/broth amounts remain."
+    },
+    {
+      "name": "Rotisserie or properly refrigerated leftover cooked chicken",
+      "amount": "The complete listed 1 lb original amount",
+      "destinations": [2, 5, 6],
+      "process": "Already cooked; earlier leftover storage clock does not reset. No raw-chicken formula branch is invented."
+    }
+  ],
+  "findings": [
+    {
+      "issue": "Dry grain and broken repeated text",
+      "before": "Cook for 15 minutes cook until fully cooked through fully cooked through fully cooked through fully cooked through fully cooked through.",
+      "after": "Use about 15 minutes as a first check for the rice, but follow the grain’s package timing and taste for a tender center; orzo may finish sooner.",
+      "rationale": "The saved house original says tender, not the later repeated text. Ingredient state and exclusive grain option are now explicit; no grain weight or equal-time equivalence is invented.",
+      "evidence": ["Exact cf53871c original and subsequent history"],
+      "confidence": "High text/state/accounting; moderate untested timing"
+    },
+    {
+      "issue": "Tempering and completed egg/chicken endpoint",
+      "before": "Stir constantly over **low heat** for 2 minutes. The soup will instantly turn creamy and opaque.",
+      "after": "Continue stirring over low heat until the soup reaches 165°F / 74°C throughout, checking after stirring and away from the pot bottom.",
+      "rationale": "Opacity and a fixed two-minute finish do not measure doneness. CDC specifies 165°F for egg dishes containing poultry; FDA general egg-dish guidance is 160°F and does not override the poultry-containing application. Low heat/gradual warming protect texture but no curdling guarantee is made.",
+      "evidence": [
+        {
+          "title": "FDA egg preparation and leftover handling",
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety"
+        },
+        {
+          "title": "CDC egg dishes containing poultry",
+          "url": "https://www.cdc.gov/food-safety/foods/safer-food-choices.html"
+        }
+      ],
+      "confidence": "High endpoint applicability; untested smoothness at endpoint",
+      "questions": ["Measure actual grain/chicken heating and egg texture at 165°F."]
+    },
+    {
+      "issue": "Tempering allocation and scaling",
+      "before": "slowly ladle in 2 cups of the hot broth, one ladle at a time.",
+      "after": "gradually ladle in about one-third of the measured broth from the soup, one ladle at a time: about 2 cups in the original 6-cup broth batch.",
+      "rationale": "Preserves the original transfer in proportion to eggs/broth, with original batch context. The transfer is returned, so no retained ingredient dose or extra liquid is added. Manual-review-only earlier triage is resolved by explicit allocation, not a blind text replacement.",
+      "evidence": [
+        "cf53871c original",
+        "docs/scaling-wording-review.json manual-review disposition"
+      ],
+      "confidence": "High ratio/allocation; moderate process scaling without kitchen trial"
+    }
+  ],
+  "changedFieldNames": [
+    "body",
+    "cookTime",
+    "totalTime",
+    "ingredients",
+    "nutrition",
+    "equipment",
+    "learning"
+  ],
+  "changedFields": [
+    {
+      "field": "body",
+      "before": "\n## Chef's Note\n\nAvgolemono is a miracle of **Tempering Science**. It is incredibly creamy and rich, yet contains zero dairy. The \"Sauce\" is created by slowly whisking hot broth into cold eggs and lemon juice, which stabilizes the eggs so they thicken the soup without curdling. This is the ultimate comfort meal when you need a bright, healthy lift.\n\n## Directions\n\n1.  **Boil:** In a large pot, bring the chicken broth to a boil. Add the rice (or orzo) and reduce heat to a simmer. Cook for 15 minutes cook until fully cooked through fully cooked through fully cooked through fully cooked through fully cooked through.\n2.  **Heat:** Stir in the shredded chicken and keep the soup at a very low simmer (do not boil once the chicken is in).\n3.  **The Emulsion:** In a medium bowl, whisk the eggs vigorously for 2 minutes until foamy. Slowly whisk in the lemon juice.\n4.  **Temper (Critical):** While whisking the egg-lemon mixture constantly, slowly ladle in 2 cups of the hot broth, one ladle at a time. This \"warms up\" the eggs so they don't scramble when they hit the pot.\n5.  **Combine:** Pour the tempered egg mixture back into the large pot. Stir constantly over **low heat** for 2 minutes. The soup will instantly turn creamy and opaque.\n6.  **Finish:** Season with salt and a generous amount of white pepper. Serve immediately.\n",
+      "after": "\n## Chef's Note\n\nEgg and lemon give this chicken soup its creamy body without dairy. Whisking hot broth gradually into the egg mixture warms it before it returns to the pot. Keep stirring over low heat and check the finished soup’s temperature; tempering reduces sudden heating but does not make the eggs immune to curdling.\n\n## Directions\n\n1. **Cook the grain:** Bring the measured chicken broth to a boil in a pot with room for the chicken and egg mixture. Add the chosen dry rice or orzo and reduce to a simmer. Use about 15 minutes as a first check for the rice, but follow the grain’s package timing and taste for a tender center; orzo may finish sooner.\n\n2. **Heat the chicken:** Stir in the cooked shredded chicken. Heat while stirring until the chicken and soup reach 165°F / 74°C. Keep raw chicken out of this recipe’s cooked-chicken step.\n\n3. **Whisk the eggs:** While the grain cooks, whisk the eggs until foamy, about 2 minutes as a starting guide, then slowly whisk in all the lemon juice. Keep utensils and surfaces that touched raw egg clean.\n\n4. **Temper:** Reduce the pot to low heat. While whisking the egg-lemon mixture constantly, gradually ladle in about one-third of the measured broth from the soup, one ladle at a time: about 2 cups in the original 6-cup broth batch. This is a transfer from the pot, not additional broth. Use a bowl large enough for the expanded mixture.\n\n5. **Combine and heat:** Pour the tempered mixture back into the soup slowly while stirring. Continue stirring over low heat until the soup reaches 165°F / 74°C throughout, checking after stirring and away from the pot bottom. Take it off the heat once the endpoint is reached. Aim for a creamy, opaque broth without a vigorous boil; a fixed 2-minute clock or opacity alone does not establish doneness.\n\n6. **Finish:** Taste and season with the listed salt and white pepper. Serve promptly. Further high heat can make the egg texture grainy.\n",
+      "rationale": "Dry grain and broken repeated text: The saved house original says tender, not the later repeated text. Ingredient state and exclusive grain option are now explicit; no grain weight or equal-time equivalence is invented. Tempering and completed egg/chicken endpoint: Opacity and a fixed two-minute finish do not measure doneness. CDC specifies 165°F for egg dishes containing poultry; FDA general egg-dish guidance is 160°F and does not override the poultry-containing application. Low heat/gradual warming protect texture but no curdling guarantee is made. Tempering allocation and scaling: Preserves the original transfer in proportion to eggs/broth, with original batch context. The transfer is returned, so no retained ingredient dose or extra liquid is added. Manual-review-only earlier triage is resolved by explicit allocation, not a blind text replacement.",
+      "evidence": [
+        "Exact cf53871c original and subsequent history",
+        {
+          "title": "FDA egg preparation and leftover handling",
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety"
+        },
+        {
+          "title": "CDC egg dishes containing poultry",
+          "url": "https://www.cdc.gov/food-safety/foods/safer-food-choices.html"
+        },
+        "cf53871c original",
+        "docs/scaling-wording-review.json manual-review disposition"
+      ],
+      "confidence": "Individual confidence/limits are stated in findings."
+    },
+    {
+      "field": "cookTime",
+      "before": "20 min",
+      "after": "About 25–40 min",
+      "rationale": "Broth heating, the chosen grain, refrigerated chicken heating and measured low-heat egg finish cannot be established by the former twenty-minute sum. Retain the source grain first-check window and supply an untested planning range.",
+      "confidence": "Moderate editorial planning; not measured in a kitchen",
+      "evidence": [
+        {
+          "title": "FDA egg preparation and leftover handling",
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety"
+        },
+        {
+          "title": "CDC egg dishes containing poultry",
+          "url": "https://www.cdc.gov/food-safety/foods/safer-food-choices.html"
+        },
+        {
+          "title": "USDA leftovers: soup cooling and reheating",
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+        }
+      ]
+    },
+    {
+      "field": "totalTime",
+      "before": "30 min",
+      "after": "About 35–50 min",
+      "rationale": "Includes the listed ten-minute prep and variable broth/chicken/egg heating, with whisking overlapping grain cooking; explicitly not a kitchen timing result.",
+      "confidence": "Moderate editorial planning; not measured in a kitchen",
+      "evidence": [
+        {
+          "title": "FDA egg preparation and leftover handling",
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety"
+        },
+        {
+          "title": "CDC egg dishes containing poultry",
+          "url": "https://www.cdc.gov/food-safety/foods/safer-food-choices.html"
+        },
+        {
+          "title": "USDA leftovers: soup cooling and reheating",
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+        }
+      ]
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "1 lb Shredded Chicken (Rotisserie or Leftover)",
+        "6 cups High-Quality Chicken Broth",
+        "1/2 cup Long-grain Rice or Orzo",
+        "2 large Eggs",
+        "2 lemons, juiced (about 1/3 cup total)",
+        "Salt and white pepper"
+      ],
+      "after": [
+        "1 lb cooked shredded chicken (rotisserie or properly refrigerated leftover)",
+        "6 cups High-Quality Chicken Broth",
+        "1/2 cup dry long-grain rice or dry orzo",
+        "2 large Eggs",
+        "2 lemons, juiced (about 1/3 cup total)",
+        "Salt and white pepper, to taste"
+      ],
+      "rationale": "Preparation/branch/allowance labels follow the complete ingredient ledger; defining measured amounts and richness are retained. See individual findings for any source-supported state or allocation correction.",
+      "confidence": "High written-source/internal-consistency evidence",
+      "evidence": [
+        {
+          "title": "FDA egg preparation and leftover handling",
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety"
+        },
+        {
+          "title": "CDC egg dishes containing poultry",
+          "url": "https://www.cdc.gov/food-safety/foods/safer-food-choices.html"
+        },
+        {
+          "title": "USDA leftovers: soup cooling and reheating",
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+        }
+      ]
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 245,
+        "protein": 29.5,
+        "carbs": 3.5,
+        "fat": 13.5,
+        "fiber": 1,
+        "sugar": 1,
+        "sodium": 2200
+      },
+      "after": null,
+      "rationale": "Removed unsubstantiated legacy estimates: inspected written evidence does not supply a verified calculation for the current amounts, optional branches and serving basis. No replacement nutrition is invented.",
+      "confidence": "High written-source/internal-consistency evidence",
+      "evidence": ["No substantiated current calculation in established source packet"]
+    },
+    {
+      "field": "equipment",
+      "before": null,
+      "after": ["large-pot", "whisk", "food-thermometer"],
+      "rationale": "The written method uses a large pot, whisk and thermometer; capacity scales independently of ingredient quantities.",
+      "confidence": "High written-source/internal-consistency evidence",
+      "evidence": [
+        {
+          "title": "FDA egg preparation and leftover handling",
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety"
+        },
+        {
+          "title": "CDC egg dishes containing poultry",
+          "url": "https://www.cdc.gov/food-safety/foods/safer-food-choices.html"
+        },
+        {
+          "title": "USDA leftovers: soup cooling and reheating",
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+        }
+      ]
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Warm eggs gradually and measure the completed chicken soup",
+        "outcome": "Tender grain and hot chicken in a creamy lemon broth, with the completed soup reaching its measured endpoint.",
+        "techniques": ["gentle-proteins", "temperature"],
+        "before": [
+          "Start with cooked chicken; this method does not include cooking raw poultry. Keep refrigerated chicken cold until it goes into the soup.",
+          "Choose dry rice or dry orzo, and have its package timing available. The same volume does not give identical cooking time or leftover texture.",
+          "Set out a whisk, food thermometer and a bowl with room for the eggs plus the proportional tempering transfer. Use a larger pot/bowl or divided batches when scaling."
+        ],
+        "checkpoints": [
+          {
+            "step": 1,
+            "cue": "A rice grain or piece of orzo has no hard center.",
+            "why": "The grain needs to be tender before the egg finish limits aggressive heating."
+          },
+          {
+            "step": 4,
+            "cue": "The broth enters in small additions while the egg mixture is whisked continuously.",
+            "why": "Gradual warming limits hot spots; it does not itself prove that eggs have reached a cooking endpoint."
+          },
+          {
+            "step": 5,
+            "cue": "The stirred soup measures 165°F / 74°C and the broth looks creamy rather than boiling vigorously.",
+            "why": "This egg dish contains poultry. A thermometer checks the whole mixture while low heat helps control its texture."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Egg pieces collect in the broth",
+            "cause": "The eggs heated too abruptly or the finished soup was overheated.",
+            "fix": "Whisk smaller hot-broth additions and use low heat next time. Stirring cannot reliably return cooked egg curds to the original smooth texture."
+          },
+          {
+            "problem": "The soup thickens after standing",
+            "cause": "Rice or orzo continues absorbing broth.",
+            "fix": "Serve promptly and expect a thicker leftover texture; do not treat the original timing as a guarantee for every grain."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Dry long-grain rice",
+            "alternative": "The measured dry orzo option",
+            "effect": "Orzo may cook sooner and contains wheat; use its own package timing and tender-center check."
+          },
+          {
+            "ingredient": "Shell eggs",
+            "alternative": "The same count of pasteurized shell eggs",
+            "effect": "Adds a margin for egg handling but does not remove the written completed-soup endpoint."
+          }
+        ],
+        "timing": "Allow about 35–50 minutes elapsed, with roughly 20–25 minutes of hands-on preparation, whisking and finishing. Whisk eggs during grain cooking. Broth heating, grain choice, refrigerated chicken and low-heat finishing vary; larger batches need more heating and stirring rather than a multiplied simmer clock.",
+        "storage": "Divide leftovers into shallow containers and refrigerate within 2 hours, or 1 hour above 90°F / 32°C, at 40°F / 4°C or below. Use within 3–4 days. Reheat the portion being served, stirring, to 165°F / 74°C throughout and bring soup to a rolling boil. If using leftover chicken, keep within its original refrigerated storage window; making soup does not reset that clock. Reheating to the soup endpoint can make the egg broth grainier and the grain softer.",
+        "sources": [
+          {
+            "title": "FDA egg preparation and leftover handling",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety"
+          },
+          {
+            "title": "CDC egg dishes containing poultry",
+            "url": "https://www.cdc.gov/food-safety/foods/safer-food-choices.html"
+          },
+          {
+            "title": "USDA leftovers: soup cooling and reheating",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-05"
+        }
+      },
+      "rationale": "Individually authored preparation, cues, explanations, troubleshooting, substitutions, timing and storage; applicable primary safety/manual evidence is included without a kitchen-test claim.",
+      "confidence": "High written-source/internal-consistency evidence",
+      "evidence": [
+        {
+          "title": "FDA egg preparation and leftover handling",
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety"
+        },
+        {
+          "title": "CDC egg dishes containing poultry",
+          "url": "https://www.cdc.gov/food-safety/foods/safer-food-choices.html"
+        },
+        {
+          "title": "USDA leftovers: soup cooling and reheating",
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+        }
+      ]
+    }
+  ],
+  "ratioYieldCapacity": "All six current ingredient quantities/options retained. Dry grain and cooked chicken states clarified; no extra liquid or dairy. Original four portions retained without volume/weight certification.",
+  "processTiming": "Allow about 35–50 minutes elapsed, with roughly 20–25 minutes of hands-on preparation, whisking and finishing. Whisk eggs during grain cooking. Broth heating, grain choice, refrigerated chicken and low-heat finishing vary; larger batches need more heating and stirring rather than a multiplied simmer clock.",
+  "preparationAndCapacity": [
+    "Start with cooked chicken; this method does not include cooking raw poultry. Keep refrigerated chicken cold until it goes into the soup.",
+    "Choose dry rice or dry orzo, and have its package timing available. The same volume does not give identical cooking time or leftover texture.",
+    "Set out a whisk, food thermometer and a bowl with room for the eggs plus the proportional tempering transfer. Use a larger pot/bowl or divided batches when scaling."
+  ],
+  "checkpoints": [
+    {
+      "step": 1,
+      "cue": "A rice grain or piece of orzo has no hard center.",
+      "why": "The grain needs to be tender before the egg finish limits aggressive heating."
+    },
+    {
+      "step": 4,
+      "cue": "The broth enters in small additions while the egg mixture is whisked continuously.",
+      "why": "Gradual warming limits hot spots; it does not itself prove that eggs have reached a cooking endpoint."
+    },
+    {
+      "step": 5,
+      "cue": "The stirred soup measures 165°F / 74°C and the broth looks creamy rather than boiling vigorously.",
+      "why": "This egg dish contains poultry. A thermometer checks the whole mixture while low heat helps control its texture."
+    }
+  ],
+  "storage": "Divide leftovers into shallow containers and refrigerate within 2 hours, or 1 hour above 90°F / 32°C, at 40°F / 4°C or below. Use within 3–4 days. Reheat the portion being served, stirring, to 165°F / 74°C throughout and bring soup to a rolling boil. If using leftover chicken, keep within its original refrigerated storage window; making soup does not reset that clock. Reheating to the soup endpoint can make the egg broth grainier and the grain softer.",
+  "learningTiming": "Allow about 35–50 minutes elapsed, with roughly 20–25 minutes of hands-on preparation, whisking and finishing. Whisk eggs during grain cooking. Broth heating, grain choice, refrigerated chicken and low-heat finishing vary; larger batches need more heating and stirring rather than a multiplied simmer clock.",
+  "learningStorage": "Divide leftovers into shallow containers and refrigerate within 2 hours, or 1 hour above 90°F / 32°C, at 40°F / 4°C or below. Use within 3–4 days. Reheat the portion being served, stirring, to 165°F / 74°C throughout and bring soup to a rolling boil. If using leftover chicken, keep within its original refrigerated storage window; making soup does not reset that clock. Reheating to the soup endpoint can make the egg broth grainier and the grain softer.",
+  "relationships": {
+    "pairings": ["basmati-rice", "garlic-bread"],
+    "incomingMeals": [],
+    "incomingRecipes": [],
+    "scope": "Dependency/pairing inventory only. No linked recipe or meal receives review status, shared-pot safety, quantity or workflow certification."
+  },
+  "kitchenQuestions": [
+    "Record rice/orzo package and actual dry-grain weight without treating the two choices as equivalent.",
+    "Measure active/elapsed time, pot capacity and four actual bowl portions.",
+    "Record safe heating and smoothness through tempering, final 165°F and leftover reheating."
+  ],
+  "kitchenNeeds": "Record actual ingredients/products and weights, cut sizes, pot/blender model and capacities, active/elapsed times, applicable temperatures, strained/served yield, flavor/texture and reheating results before kitchen-tested status.",
+  "sourceApplicability": [
+    {
+      "key": "egg",
+      "title": "FDA egg preparation and leftover handling",
+      "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety",
+      "supports": "Cook egg dishes to 160°F; thermometer rather than visual opacity. Prompt shallow refrigeration, 3–4 days, leftover egg dishes reheated to 165°F.",
+      "limits": "Does not certify this lemon/chicken ratio or a two-minute tempering/heating clock."
+    },
+    {
+      "key": "poultryEgg",
+      "title": "CDC egg dishes containing poultry",
+      "url": "https://www.cdc.gov/food-safety/foods/safer-food-choices.html",
+      "supports": "Specifies 165°F for egg dishes containing meat or poultry; used for completed chicken avgolemono rather than applying the generic meat-free 160°F endpoint.",
+      "limits": "Does not promise a smooth texture at the endpoint; this is a conservative application to an egg/chicken soup."
+    },
+    {
+      "key": "leftovers",
+      "title": "USDA leftovers: soup cooling and reheating",
+      "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety",
+      "supports": "Small/shallow portions cool more promptly than a large soup pot; refrigerate within two hours (one in heat), refrigerator 40°F or below, use within 3–4 days; reheat leftovers to 165°F and soups/sauces/gravies to a rolling boil. Freezer quality guidance 3–4 months.",
+      "limits": "Reheating does not restore mishandled food or guarantee unchanged egg/dairy/pasta texture."
+    }
+  ],
+  "confidenceAndLimits": {
+    "findings": [
+      {
+        "issue": "Dry grain and broken repeated text",
+        "confidence": "High text/state/accounting; moderate untested timing"
+      },
+      {
+        "issue": "Tempering and completed egg/chicken endpoint",
+        "confidence": "High endpoint applicability; untested smoothness at endpoint"
+      },
+      {
+        "issue": "Tempering allocation and scaling",
+        "confidence": "High ratio/allocation; moderate process scaling without kitchen trial"
+      }
+    ],
+    "overall": "High ingredient/allocation and safety applicability; planning times, bowl yield and smoothness remain untested.",
+    "unresolved": [
+      "Record rice/orzo package and actual dry-grain weight without treating the two choices as equivalent.",
+      "Measure active/elapsed time, pot capacity and four actual bowl portions.",
+      "Record safe heating and smoothness through tempering, final 165°F and leftover reheating."
+    ],
+    "sourceLimits": [
+      {
+        "title": "FDA egg preparation and leftover handling",
+        "limits": "Does not certify this lemon/chicken ratio or a two-minute tempering/heating clock."
+      },
+      {
+        "title": "CDC egg dishes containing poultry",
+        "limits": "Does not promise a smooth texture at the endpoint; this is a conservative application to an egg/chicken soup."
+      },
+      {
+        "title": "USDA leftovers: soup cooling and reheating",
+        "limits": "Reheating does not restore mishandled food or guarantee unchanged egg/dairy/pasta texture."
+      }
+    ],
+    "nativeLineage": false,
+    "physicalCooking": false,
+    "composedMealsAccepted": false
+  },
+  "scalingAndReset": [
+    {
+      "ingredient": "1 lb cooked shredded chicken (rotisserie or properly refrigerated leftover)",
+      "half": "1/2 lb cooked shredded chicken (rotisserie or properly refrigerated leftover)",
+      "original": "1 lb cooked shredded chicken (rotisserie or properly refrigerated leftover)",
+      "double": "2 lb cooked shredded chicken (rotisserie or properly refrigerated leftover)",
+      "reset": "1 lb cooked shredded chicken (rotisserie or properly refrigerated leftover)"
+    },
+    {
+      "ingredient": "6 cups High-Quality Chicken Broth",
+      "half": "3 cups High-Quality Chicken Broth",
+      "original": "6 cups High-Quality Chicken Broth",
+      "double": "12 cups High-Quality Chicken Broth",
+      "reset": "6 cups High-Quality Chicken Broth"
+    },
+    {
+      "ingredient": "1/2 cup dry long-grain rice or dry orzo",
+      "half": "1/4 cup dry long-grain rice or dry orzo",
+      "original": "1/2 cup dry long-grain rice or dry orzo",
+      "double": "1 cup dry long-grain rice or dry orzo",
+      "reset": "1/2 cup dry long-grain rice or dry orzo"
+    },
+    {
+      "ingredient": "2 large Eggs",
+      "half": "1 large Egg",
+      "original": "2 large Eggs",
+      "double": "4 large Eggs",
+      "reset": "2 large Eggs"
+    },
+    {
+      "ingredient": "2 lemons, juiced (about 1/3 cup total)",
+      "half": "1 lemon, juiced (about 1/6 cup total)",
+      "original": "2 lemons, juiced (about 1/3 cup total)",
+      "double": "4 lemons, juiced (about 2/3 cup total)",
+      "reset": "2 lemons, juiced (about 1/3 cup total)"
+    },
+    {
+      "ingredient": "Salt and white pepper, to taste",
+      "half": "Salt and white pepper, to taste",
+      "original": "Salt and white pepper, to taste",
+      "double": "Salt and white pepper, to taste",
+      "reset": "Salt and white pepper, to taste"
+    }
+  ],
+  "validation": {
+    "slug": "avgolemono-soup",
+    "originalHashMatches": true,
+    "originalMatchesCommit": true,
+    "mainStillFrozen": true,
+    "exactSavedGitSource": true,
+    "completeHistoryRetained": true,
+    "status": "proposed-complete",
+    "hash": "041f48f2c9a3352291f886b2e37a853fd61746683297aa8049277718343d64c7",
+    "recordHashMatches": true,
+    "identityPreserved": true,
+    "sourcePreserved": true,
+    "pairsPreserved": true,
+    "legacyUnstructured": true,
+    "exactAllChangedFields": true,
+    "badFields": [],
+    "validTechniqueNames": true,
+    "editorialAudit": {
+      "slug": "avgolemono-soup",
+      "title": "Avgolemono",
+      "status": "editorial-review",
+      "stepCount": 6,
+      "issues": []
+    },
+    "ingredientCount": 6,
+    "ledgerCount": 6,
+    "wholeIngredientLedger": true,
+    "scaling": [
+      {
+        "ingredient": "1 lb cooked shredded chicken (rotisserie or properly refrigerated leftover)",
+        "half": "1/2 lb cooked shredded chicken (rotisserie or properly refrigerated leftover)",
+        "original": "1 lb cooked shredded chicken (rotisserie or properly refrigerated leftover)",
+        "double": "2 lb cooked shredded chicken (rotisserie or properly refrigerated leftover)"
+      },
+      {
+        "ingredient": "6 cups High-Quality Chicken Broth",
+        "half": "3 cups High-Quality Chicken Broth",
+        "original": "6 cups High-Quality Chicken Broth",
+        "double": "12 cups High-Quality Chicken Broth"
+      },
+      {
+        "ingredient": "1/2 cup dry long-grain rice or dry orzo",
+        "half": "1/4 cup dry long-grain rice or dry orzo",
+        "original": "1/2 cup dry long-grain rice or dry orzo",
+        "double": "1 cup dry long-grain rice or dry orzo"
+      },
+      {
+        "ingredient": "2 large Eggs",
+        "half": "1 large Egg",
+        "original": "2 large Eggs",
+        "double": "4 large Eggs"
+      },
+      {
+        "ingredient": "2 lemons, juiced (about 1/3 cup total)",
+        "half": "1 lemon, juiced (about 1/6 cup total)",
+        "original": "2 lemons, juiced (about 1/3 cup total)",
+        "double": "4 lemons, juiced (about 2/3 cup total)"
+      },
+      {
+        "ingredient": "Salt and white pepper, to taste",
+        "half": "Salt and white pepper, to taste",
+        "original": "Salt and white pepper, to taste",
+        "double": "Salt and white pepper, to taste"
+      }
+    ],
+    "draftPrivacy": "checked at packet gate",
+    "currentProtectedSourceAndHashGate": "pass"
+  },
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/soups-sources.json",
+  "rootIntegrationRequirements": [],
+  "acceptedSourceSha256": "041f48f2c9a3352291f886b2e37a853fd61746683297aa8049277718343d64c7",
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/soups-independent.md",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "productionVerification": "pending",
+  "rootWholeInspection": "Complete frozen/current/proposed recipe, exact Git original, meaningful cooking-history diffs, current publisher disagreements, ingredient and variant destinations, ratios, pan/blender capacity, state, heat, endpoints, active/elapsed clocks, storage, scaling and actual linked-recipe dependencies inspected.",
+  "rootSourceRecheck": {
+    "date": "2026-10-05",
+    "cdc": "Direct egg/meat-poultry endpoint table read; supports completed chicken/egg soup 165°F.",
+    "fda": "Direct egg handling/storage page read; general egg endpoint is distinct.",
+    "publisher": "Food & Wine formula corroborates saved Carrot; shorter publisher clock disclosed. Modern Delish mushroom weights, thyme, garnish and portions differ and are not imposed.",
+    "appliances": "Direct Vitamix hot-vessel FAQ rechecked; actual manual required, no universal fill/venting/temperature supplied.",
+    "dashi": "Just One Cookbook extraction route read for mechanism only. Epicurious direct retrieval failed; independently byte-verified exact Git original establishes saved dose and off-heat variant.",
+    "leftovers": "Direct USDA URL failed; official indexed primary page corroborates shallow cooling, 40°F, 2h/1h, 3–4 days, 165°F and soup rolling-boil reheating."
+  }
+}

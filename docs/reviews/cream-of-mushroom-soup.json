@@ -1,0 +1,728 @@
+{
+  "slug": "cream-of-mushroom-soup",
+  "title": "Cream of Mushroom Soup",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "date": "2026-10-05",
+  "notKitchenTested": true,
+  "inputCommit": "afc39e07c49baed6924053ac34023a104d93c93a",
+  "inputSha256": "87f45795abaf7240d719c09963b21bc78259f3a5145d156140213f969f4c0b48",
+  "candidateSha256": "4827350aa6f877d5e03f4cce4438cc504c7028c3a8417b460ac034f5866143c2",
+  "summary": "Preserve full butter, cremini/shiitake, stock, cream, dried thyme and sherry. Retain earlier flexible browning and exact hot-blender repair, and reserve mushrooms proportionally with explicit original-batch context.",
+  "sourceCredit": "Adapted from Delish.com",
+  "sourceUrl": "http://www.delish.com/cooking/recipe-ideas/recipes/a55765/cream-of-mushroom-soup-recipe/",
+  "sourceProvenance": {
+    "savedGitCommit": "045e5ba276b560e4f7d3d485b4860f610d295bac",
+    "path": "src/content/recipes/cream-of-mushroom-soup.md",
+    "savedSourceSha256": "ef78229a0cd9598689358ad2748bdb7c8fb412f9895591bf642d785569505f49",
+    "frozenInputVerified": true,
+    "nativeLineage": "Not established; exact committed originals and attributed publisher evidence only. No native archive or UID certification."
+  },
+  "priorIndependentChallenge": {
+    "candidateSha256": "4827350aa6f877d5e03f4cce4438cc504c7028c3a8417b460ac034f5866143c2",
+    "disposition": "accepted-for-root-inspection",
+    "currentCandidateStillExact": true,
+    "scope": "Whole frozen/current candidates and records, exact committed originals, full supplied history artifacts and consequential culinary changes, attributed publisher/primary evidence, ingredient/state/allocation/branches, ratios, capacity, sensory/measured endpoints, clocks, storage, scaling, links and prior repairs.",
+    "confidence": "High preservation/allocation/manual-scope evidence; actual browned volume, machine, loads, heating and six-bowl yield remain unmeasured.",
+    "critical": [
+      "All 16 oz cremini plus 2/3 cup sliced shiitake, 1/4 cup butter, shallot, 2 garlic cloves, 4 cups vegetable stock, 1/3 cup heavy cream, 1 tsp dried thyme, seasoning and current 1 tbsp sherry remain. Entire butter allocation is shared across browning batches, not repeated.",
+      "Prior 5741495b moisture-loss/color browning endpoint, 10–20 minute planning stage and hot-blender repair are retained. The complete hot-blender step is byte-identical to frozen input: actual model/manual governs allowed temperature/fill/lid/vent, no hot sealed personal cup; immersion instructions retain submerged/off-heat operation and stopping before lifting. Manufacturer applicability is conditional on the actual machine, not presumed from brand.",
+      "About 1 cup browned garnish belongs to original 16 oz-plus-2/3 cup batch and scales proportionally (1/2 cup half; 2 cups double). The rest is puréed and all mushrooms are served. Current top-garnish presentation and later sherry remain alongside a private disclosure that original stirred the reserve in. Delish current mushroom weights, fresh thyme, four portions and time header are not imported."
+    ],
+    "sourceApplicability": [
+      {
+        "git": "045e5ba276b560e4f7d3d485b4860f610d295bac",
+        "supports": "Exact older ingredient formula and one-cup reserve; old reserve was stirred into soup."
+      },
+      {
+        "git": "e5567b7c0b6785b04d3b95c513eae8b4ce52239a",
+        "supports": "Later explicit one-tablespoon finishing sherry and garnish presentation; history of change, not a claimed kitchen test."
+      },
+      {
+        "git": "5741495b479d1891066e004ed07aa4b5f830db66",
+        "supports": "Accepted current browning/time and hot-blender repairs."
+      },
+      {
+        "url": "https://www.delish.com/cooking/recipe-ideas/recipes/a55765/cream-of-mushroom-soup-recipe/",
+        "supports": "Attributed Lena Abraham publisher method; modern amounts/yield differ from saved formula."
+      },
+      {
+        "url": "https://www.vitamix.com/us/en_us/owners-resources/product-support/faqs",
+        "supports": "Applicable manufacturer hot-liquid restrictions, including sealed 20-ounce container prohibition; actual manual overrides generic assumption."
+      },
+      {
+        "url": "https://www.nutribullet.com/blog/getting-started-how-to-use-nutribullet/",
+        "supports": "Hot liquids prohibited in sealed cup design; not a blanket claim about every blender model."
+      }
+    ]
+  },
+  "subsequentPeerApplication": null,
+  "independentSelfAcceptance": false,
+  "rootFinalAcceptance": "accepted after prior independent whole challenge, authorized bounded correction inspection and complete root final review",
+  "sourceDisagreements": "Exact 045e5ba2 original corroborates saved mushroom amounts and dried thyme. Modern Delish differs; do not impose its mushroom weights, fresh thyme, portion count or nutrition. Saved source stirred reserved mushrooms into the soup; current top-garnish presentation remains a deliberate readable variant. Sherry is a later preserved adaptation. The complete history and 5741495b repair are retained.",
+  "deliberateServingMetadataPolicy": {
+    "commit": "306e8136c1f93314498d117e2f6be67ca867cbbe",
+    "disposition": "Preserve current pairing metadata; do not restore duplicate source-era body sections or generic old serving suggestions.",
+    "thisRecipeActualRemoval": true,
+    "actualRecipeDiffSha256": "81777d52d8da9bbc6a68c91a5b5ea2810c6e8d0aaf66644e1814aac8685efe4e",
+    "scope": "Exact recipe diff under explicit duplicate-section policy verified."
+  },
+  "originalIngredients": [
+    "16 oz Cremini Mushrooms, sliced",
+    "2/3 cup Shiitake Mushrooms, sliced",
+    "1/4 cup Unsalted Butter",
+    "1 large Shallot, minced",
+    "2 cloves Garlic, minced",
+    "4 cups High-quality Vegetable Stock",
+    "1/3 cup Heavy Cream",
+    "1 tsp Dried Thyme",
+    "Salt and Black Pepper",
+    "1 tbsp Dry Sherry (The Finishing Touch)"
+  ],
+  "savedGitIngredients": [
+    "1/4 c. butter",
+    "2 8-oz. packages cremini mushrooms, sliced",
+    "2/3 c. sliced shitaake mushrooms",
+    "1 shallot, minced",
+    "2 garlic cloves, minced",
+    "1 tsp. dried thyme",
+    "4 c. vegetable stock",
+    "1/3 c. heavy cream",
+    "kosher salt",
+    "Freshly ground black pepper"
+  ],
+  "currentIngredients": [
+    "16 oz Cremini Mushrooms, sliced",
+    "2/3 cup Shiitake Mushrooms, sliced",
+    "1/4 cup Unsalted Butter",
+    "1 large Shallot, minced",
+    "2 cloves Garlic, minced",
+    "4 cups High-quality Vegetable Stock",
+    "1/3 cup Heavy Cream",
+    "1 tsp Dried Thyme",
+    "Salt and Black Pepper",
+    "1 tbsp Dry Sherry (The Finishing Touch)"
+  ],
+  "ingredientLedger": [
+    {
+      "ingredient": "Cremini mushrooms",
+      "amount": "16 oz",
+      "state": "Sliced",
+      "destination": [1, 2, 4, 5, 7],
+      "allocation": "All browned; proportional garnish removed, remainder puréed; all served."
+    },
+    {
+      "ingredient": "Shiitake mushrooms",
+      "amount": "2/3 cup",
+      "state": "Sliced",
+      "destination": [1, 2, 4, 5, 7],
+      "allocation": "Same shared mushroom allocation; no new cup/weight conversion."
+    },
+    {
+      "ingredient": "Unsalted butter",
+      "amount": "1/4 cup",
+      "state": "Measured fat",
+      "destination": [1],
+      "allocation": "Total across any browning batches; all retained in soup/garnish."
+    },
+    {
+      "ingredient": "Shallot",
+      "amount": "1 large",
+      "state": "Minced",
+      "destination": [3, 5],
+      "allocation": "All in soup base."
+    },
+    {
+      "ingredient": "Garlic",
+      "amount": "2 cloves",
+      "state": "Minced",
+      "destination": [3, 5],
+      "allocation": "All in soup base."
+    },
+    {
+      "ingredient": "Vegetable stock",
+      "amount": "4 cups",
+      "state": "Prepared",
+      "destination": [4, 5, 6],
+      "allocation": "All retained except unmeasured evaporation; no extra stock introduced."
+    },
+    {
+      "ingredient": "Heavy cream",
+      "amount": "1/3 cup",
+      "state": "Measured dairy",
+      "destination": [6],
+      "allocation": "All retained; not repeated per blender batch."
+    },
+    {
+      "ingredient": "Dried thyme",
+      "amount": "1 tsp",
+      "state": "Dried herb",
+      "destination": [3],
+      "allocation": "All in base, not swapped to modern publisher fresh-thyme formula."
+    },
+    {
+      "ingredient": "Salt/black pepper",
+      "amount": "To taste",
+      "state": "Genuine unmeasured allowance",
+      "destination": [3, 6],
+      "allocation": "Base and final tasting as needed."
+    },
+    {
+      "ingredient": "Dry sherry",
+      "amount": "1 tbsp",
+      "state": "Measured finishing wine",
+      "destination": [6],
+      "allocation": "All retained in finish; deliberate adaptation preserved."
+    }
+  ],
+  "variantLedger": [
+    {
+      "name": "Current top-garnish finish",
+      "amount": "Proportional reserve: 1 cup browned mushrooms at original16oz cremini plus2/3cup shiitake",
+      "destinations": [2, 7],
+      "process": "Set aside at step2; keep the rest in soup, distribute reserve over bowls at step7. Scale the original reserve with the mushroom batch."
+    },
+    {
+      "name": "Saved stirred-in reserve finish",
+      "amount": "Same source original reserve, not additional mushrooms",
+      "destinations": ["source reserve", "source serving finish"],
+      "process": "Saved source stirs reserved mushrooms into finished soup. Current top-garnish presentation remains; source difference recorded without adding an unapproved new formula route."
+    },
+    {
+      "name": "Manual-permitted immersion or countertop blending",
+      "amount": "All purée, no extra cream/butter per load",
+      "destinations": [5, 6],
+      "process": "Exact earlier repair retained: off heat, actual manual governs temperature/fill and operation; no hot sealed cup. Recombine all purée; all listed cream/sherry finish once."
+    }
+  ],
+  "findings": [
+    {
+      "issue": "Garnish allocation under scaling",
+      "before": "Remove 1 cup of the seared mushrooms and set aside for the garnish.",
+      "after": "Set aside a proportional portion of the browned mushrooms for the garnish: 1 cup in the original batch with 16 oz cremini and 2/3 cup sliced shiitake.",
+      "rationale": "Exact saved original supports one original-batch cup. Fixed one cup at half/double scale changes the base/garnish balance; original context and proportional allocation preserve the intended contrast.",
+      "evidence": ["045e5ba2 exact saved recipe; frozen current original"],
+      "confidence": "High allocation/source; actual browned volume remains unmeasured"
+    },
+    {
+      "issue": "Earlier browning and hot-blender repairs",
+      "before": "about 10-20 minutes depending on the pot and moisture. Reduce the heat if the butter begins to scorch",
+      "after": "about 10-20 minutes depending on the pot and moisture. Reduce the heat if the butter begins to scorch",
+      "rationale": "Retain the accepted 5741495b stage, 30–40 cooking / 40–50 overall planning, and exact existing hot-blender step. Add total-butter batch allocation and cooling overhead rather than reverting to an eight-minute sear or unrestricted blending.",
+      "evidence": [
+        "5741495b exact accepted repair",
+        {
+          "title": "Vitamix vessel-specific hot food FAQ",
+          "url": "https://www.vitamix.com/us/en_us/owners-resources/product-support/faqs"
+        },
+        {
+          "title": "Vitamix immersion blender owner manual",
+          "url": "https://www.vitamix.com/content/dam/vitamix/files/product-manuals/Immersion%20Blender%20Owner's%20Manual.pdf"
+        }
+      ],
+      "confidence": "High preservation/handling; moderate planning"
+    }
+  ],
+  "changedFieldNames": ["body", "totalTime", "nutrition", "equipment", "learning"],
+  "changedFields": [
+    {
+      "field": "body",
+      "before": "\n## Chef's Note\n\nSear mushrooms in butter until golden rather than boiling them to gray mush. Reserve a cup of seared mushrooms to stir in at the end for textural contrast against the smooth, pureed soup. Dry sherry's acidity and nuttiness bridges earthy shiitakes and rich cream beautifully.\n\n## Directions\n\n1.  **The Sear:** In a large heavy-bottomed pot, melt butter over medium-high heat. Add all mushrooms. Cook, stirring occasionally, until the released liquid has evaporated and the mushrooms are golden, about 10-20 minutes depending on the pot and moisture. Reduce the heat if the butter begins to scorch; browning, not an eight-minute timer, is the endpoint.\n2.  **Reserve:** Remove 1 cup of the seared mushrooms and set aside for the garnish.\n3.  **Aromatics:** Add shallot to the pot. Sauté for 1 minute until softened, then add garlic and sauté for 30-45 seconds until fragrant. Stir in the thyme, salt, and pepper.\n4.  **Simmer:** Pour in the vegetable stock. Bring to a boil, then reduce heat and simmer for 10 minutes until mushrooms are very tender.\n5.  **The Emulsion:** Take the pot off the heat. Use an immersion blender according to its hot-liquid instructions, starting on low with the blade guard submerged; stop the motor before lifting it out. For a countertop blender, use only a container approved for hot liquids, let the soup cool to the manufacturer’s permitted temperature, and follow its fill and venting instructions in small batches. Never blend hot soup in a sealed personal-blender cup. Return the puree to the pot.\n6.  **Finish:** Stir in the heavy cream and the **Dry Sherry**. Simmer for 1 more minute.\n7.  **Serve:** Ladle into bowls and top with the **Reserved Seared Mushrooms** for texture.\n",
+      "after": "\n## Chef's Note\n\nCook the sliced mushrooms in butter until their released liquid evaporates and their surfaces turn golden. Set aside a proportional garnish portion before puréeing the rest with stock. The reserved mushrooms contrast with the smooth cream-enriched soup, and the measured dry sherry remains part of the finish.\n\n## Directions\n\n1. **The Sear:** In a large heavy-bottomed pot, melt butter over medium-high heat. Add all mushrooms. Cook, stirring occasionally, until the released liquid has evaporated and the mushrooms are golden, about 10-20 minutes depending on the pot and moisture. Reduce the heat if the butter begins to scorch; browning, not an eight-minute timer, is the endpoint. If the mushrooms crowd the pot too deeply, work in batches, dividing the total measured butter among them and recombining the cooked mushrooms; extra batches add time.\n\n2. **Reserve:** Set aside a proportional portion of the browned mushrooms for the garnish: 1 cup in the original batch with 16 oz cremini and 2/3 cup sliced shiitake. Increase or decrease that garnish portion with the measured mushroom quantity when scaling; keep the rest in the soup pot.\n\n3. **Aromatics:** Add the minced shallot to the remaining mushrooms. Cook about 1 minute as a first check and continue until softened, stirring; add garlic and cook about 30–45 seconds until fragrant. Stir in all the dried thyme and salt and pepper to taste.\n\n4. **Simmer:** Pour in all the vegetable stock. Bring to a boil, then reduce heat and simmer about 10 minutes until the mushrooms are very tender.\n\n5. **The Emulsion:** Take the pot off the heat. Use an immersion blender according to its hot-liquid instructions, starting on low with the blade guard submerged; stop the motor before lifting it out. For a countertop blender, use only a container approved for hot liquids, let the soup cool to the manufacturer’s permitted temperature, and follow its fill and venting instructions in small batches. Never blend hot soup in a sealed personal-blender cup. Return the puree to the pot.\n\n6. **Finish:** Stir in all the measured heavy cream and dry sherry. Simmer gently for about 1 more minute, stirring; taste for salt and pepper. Avoid leaving the cream soup at a hard boil.\n\n7. **Serve:** Ladle into bowls and distribute the reserved browned mushrooms among them. Serve promptly.\n",
+      "rationale": "Garnish allocation under scaling: Exact saved original supports one original-batch cup. Fixed one cup at half/double scale changes the base/garnish balance; original context and proportional allocation preserve the intended contrast. Earlier browning and hot-blender repairs: Retain the accepted 5741495b stage, 30–40 cooking / 40–50 overall planning, and exact existing hot-blender step. Add total-butter batch allocation and cooling overhead rather than reverting to an eight-minute sear or unrestricted blending.",
+      "evidence": [
+        "045e5ba2 exact saved recipe; frozen current original",
+        "5741495b exact accepted repair",
+        {
+          "title": "Vitamix vessel-specific hot food FAQ",
+          "url": "https://www.vitamix.com/us/en_us/owners-resources/product-support/faqs"
+        },
+        {
+          "title": "Vitamix immersion blender owner manual",
+          "url": "https://www.vitamix.com/content/dam/vitamix/files/product-manuals/Immersion%20Blender%20Owner's%20Manual.pdf"
+        }
+      ],
+      "confidence": "Individual confidence/limits are stated in findings."
+    },
+    {
+      "field": "totalTime",
+      "before": "40-50 min",
+      "after": "About 40–50 min (blender cooling or extra browning batches add time)",
+      "rationale": "Accepted 5741495b forty-to-fifty-minute planning allowance preserved; additional browning loads and equipment-required cooling/rewarming can extend it.",
+      "confidence": "Moderate editorial planning; not measured in a kitchen",
+      "evidence": [
+        {
+          "title": "Delish Cream of Mushroom Soup",
+          "url": "https://www.delish.com/cooking/recipe-ideas/recipes/a55765/cream-of-mushroom-soup-recipe/"
+        },
+        {
+          "title": "Vitamix vessel-specific hot food FAQ",
+          "url": "https://www.vitamix.com/us/en_us/owners-resources/product-support/faqs"
+        },
+        {
+          "title": "Vitamix immersion blender owner manual",
+          "url": "https://www.vitamix.com/content/dam/vitamix/files/product-manuals/Immersion%20Blender%20Owner's%20Manual.pdf"
+        },
+        {
+          "title": "nutribullet sealed cup use guide",
+          "url": "https://www.nutribullet.com/blog/getting-started-how-to-use-nutribullet/"
+        },
+        {
+          "title": "USDA leftovers: soup cooling and reheating",
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+        }
+      ]
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 445,
+        "protein": 5.5,
+        "carbs": 9,
+        "fat": 45,
+        "fiber": 2,
+        "sugar": 3,
+        "sodium": 260
+      },
+      "after": null,
+      "rationale": "Removed unsubstantiated legacy estimates: inspected written evidence does not supply a verified calculation for the current amounts, optional branches and serving basis. No replacement nutrition is invented.",
+      "confidence": "High written-source/internal-consistency evidence",
+      "evidence": ["No substantiated current calculation in established source packet"]
+    },
+    {
+      "field": "equipment",
+      "before": null,
+      "after": ["large-pot", "blender"],
+      "rationale": "Pot and blender/immersion routes are already in the accepted method; exact model remains unknown.",
+      "confidence": "High written-source/internal-consistency evidence",
+      "evidence": [
+        {
+          "title": "Delish Cream of Mushroom Soup",
+          "url": "https://www.delish.com/cooking/recipe-ideas/recipes/a55765/cream-of-mushroom-soup-recipe/"
+        },
+        {
+          "title": "Vitamix vessel-specific hot food FAQ",
+          "url": "https://www.vitamix.com/us/en_us/owners-resources/product-support/faqs"
+        },
+        {
+          "title": "Vitamix immersion blender owner manual",
+          "url": "https://www.vitamix.com/content/dam/vitamix/files/product-manuals/Immersion%20Blender%20Owner's%20Manual.pdf"
+        },
+        {
+          "title": "nutribullet sealed cup use guide",
+          "url": "https://www.nutribullet.com/blog/getting-started-how-to-use-nutribullet/"
+        },
+        {
+          "title": "USDA leftovers: soup cooling and reheating",
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+        }
+      ]
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Brown mushrooms before turning them into a smooth soup",
+        "outcome": "A creamy mushroom soup with golden mushroom pieces for contrast, without scorched butter or hard pieces in the purée.",
+        "techniques": ["browning", "temperature"],
+        "before": [
+          "Have both kinds of mushrooms sliced and the shallot/garlic prepared before heating the butter.",
+          "Choose enough pot surface and headroom for the mushrooms and measured stock. If browning in batches, divide the existing butter across them rather than repeating the full amount for each.",
+          "Plan the garnish in proportion to the original mushroom batch, and check the actual blender/immersion model’s hot-food instructions. Required cooling and reheating extend the schedule."
+        ],
+        "checkpoints": [
+          {
+            "step": 1,
+            "cue": "Free mushroom liquid has evaporated and surfaces are golden; butter is not blackening.",
+            "why": "Moist mushrooms first release water. Color and moisture matter more than a fixed browning clock."
+          },
+          {
+            "step": 4,
+            "cue": "A mushroom piece is very soft when pressed or bitten.",
+            "why": "Browning builds flavor, while the stock simmer softens pieces for puréeing."
+          },
+          {
+            "step": 5,
+            "cue": "The machine is off heat, the permitted vessel/load is used, and the purée has no firm pieces.",
+            "why": "Actual equipment limits govern hot-liquid handling; a smoothness check cannot replace them."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Mushrooms remain wet and pale",
+            "cause": "Released liquid has not evaporated or the pot is overloaded.",
+            "fix": "Continue cooking to evaporation and use smaller loads if necessary, dividing the same butter total. Extra batches take longer."
+          },
+          {
+            "problem": "Butter smells burnt",
+            "cause": "Heat stayed too high after moisture evaporated.",
+            "fix": "Reduce heat sooner next time and watch the butter. Cream or sherry will not remove a burnt flavor."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Countertop blender",
+            "alternative": "An immersion blender approved for hot soup",
+            "effect": "Avoids transferring the soup, but still requires that model’s submerged-guard, speed and off-heat handling instructions."
+          }
+        ],
+        "timing": "Allow 30–40 minutes cooking and approximately 40–50 minutes total: preparation, 10–20 minute mushroom stage, aromatics, stock heating, about 10 minutes simmering and blending/cream finish. Browning, stirring and blending require active attention; the simmer is less active. Extra browning loads, firmer mushrooms or manual-required cooling/reheating add time.",
+        "storage": "Divide leftovers into shallow containers and refrigerate within 2 hours, or 1 hour above 90°F / 32°C, at 40°F / 4°C or below. Use within 3–4 days. Reheat the portion being served, stirring, to 165°F / 74°C throughout and bring soup to a rolling boil. Stir especially well while reheating the cream soup; it can be less smooth after reheating. Store the mushroom garnish with the soup or in a separate promptly refrigerated shallow container and reheat it for service.",
+        "sources": [
+          {
+            "title": "Delish Cream of Mushroom Soup",
+            "url": "https://www.delish.com/cooking/recipe-ideas/recipes/a55765/cream-of-mushroom-soup-recipe/"
+          },
+          {
+            "title": "Vitamix vessel-specific hot food FAQ",
+            "url": "https://www.vitamix.com/us/en_us/owners-resources/product-support/faqs"
+          },
+          {
+            "title": "Vitamix immersion blender owner manual",
+            "url": "https://www.vitamix.com/content/dam/vitamix/files/product-manuals/Immersion%20Blender%20Owner's%20Manual.pdf"
+          },
+          {
+            "title": "nutribullet sealed cup use guide",
+            "url": "https://www.nutribullet.com/blog/getting-started-how-to-use-nutribullet/"
+          },
+          {
+            "title": "USDA leftovers: soup cooling and reheating",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-05"
+        }
+      },
+      "rationale": "Individually authored preparation, cues, explanations, troubleshooting, substitutions, timing and storage; applicable primary safety/manual evidence is included without a kitchen-test claim.",
+      "confidence": "High written-source/internal-consistency evidence",
+      "evidence": [
+        {
+          "title": "Delish Cream of Mushroom Soup",
+          "url": "https://www.delish.com/cooking/recipe-ideas/recipes/a55765/cream-of-mushroom-soup-recipe/"
+        },
+        {
+          "title": "Vitamix vessel-specific hot food FAQ",
+          "url": "https://www.vitamix.com/us/en_us/owners-resources/product-support/faqs"
+        },
+        {
+          "title": "Vitamix immersion blender owner manual",
+          "url": "https://www.vitamix.com/content/dam/vitamix/files/product-manuals/Immersion%20Blender%20Owner's%20Manual.pdf"
+        },
+        {
+          "title": "nutribullet sealed cup use guide",
+          "url": "https://www.nutribullet.com/blog/getting-started-how-to-use-nutribullet/"
+        },
+        {
+          "title": "USDA leftovers: soup cooling and reheating",
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+        }
+      ]
+    }
+  ],
+  "ratioYieldCapacity": "All ten current ingredients and amounts preserved, including all butter, heavy cream and dry sherry. Original six portions retained, while original source says 4–6 and no exact bowl volume is known. Garnish allocation scales with the measured mushrooms, not per pan.",
+  "processTiming": "Allow 30–40 minutes cooking and approximately 40–50 minutes total: preparation, 10–20 minute mushroom stage, aromatics, stock heating, about 10 minutes simmering and blending/cream finish. Browning, stirring and blending require active attention; the simmer is less active. Extra browning loads, firmer mushrooms or manual-required cooling/reheating add time.",
+  "preparationAndCapacity": [
+    "Have both kinds of mushrooms sliced and the shallot/garlic prepared before heating the butter.",
+    "Choose enough pot surface and headroom for the mushrooms and measured stock. If browning in batches, divide the existing butter across them rather than repeating the full amount for each.",
+    "Plan the garnish in proportion to the original mushroom batch, and check the actual blender/immersion model’s hot-food instructions. Required cooling and reheating extend the schedule."
+  ],
+  "checkpoints": [
+    {
+      "step": 1,
+      "cue": "Free mushroom liquid has evaporated and surfaces are golden; butter is not blackening.",
+      "why": "Moist mushrooms first release water. Color and moisture matter more than a fixed browning clock."
+    },
+    {
+      "step": 4,
+      "cue": "A mushroom piece is very soft when pressed or bitten.",
+      "why": "Browning builds flavor, while the stock simmer softens pieces for puréeing."
+    },
+    {
+      "step": 5,
+      "cue": "The machine is off heat, the permitted vessel/load is used, and the purée has no firm pieces.",
+      "why": "Actual equipment limits govern hot-liquid handling; a smoothness check cannot replace them."
+    }
+  ],
+  "storage": "Divide leftovers into shallow containers and refrigerate within 2 hours, or 1 hour above 90°F / 32°C, at 40°F / 4°C or below. Use within 3–4 days. Reheat the portion being served, stirring, to 165°F / 74°C throughout and bring soup to a rolling boil. Stir especially well while reheating the cream soup; it can be less smooth after reheating. Store the mushroom garnish with the soup or in a separate promptly refrigerated shallow container and reheat it for service.",
+  "learningTiming": "Allow 30–40 minutes cooking and approximately 40–50 minutes total: preparation, 10–20 minute mushroom stage, aromatics, stock heating, about 10 minutes simmering and blending/cream finish. Browning, stirring and blending require active attention; the simmer is less active. Extra browning loads, firmer mushrooms or manual-required cooling/reheating add time.",
+  "learningStorage": "Divide leftovers into shallow containers and refrigerate within 2 hours, or 1 hour above 90°F / 32°C, at 40°F / 4°C or below. Use within 3–4 days. Reheat the portion being served, stirring, to 165°F / 74°C throughout and bring soup to a rolling boil. Stir especially well while reheating the cream soup; it can be less smooth after reheating. Store the mushroom garnish with the soup or in a separate promptly refrigerated shallow container and reheat it for service.",
+  "relationships": {
+    "pairings": [
+      "cinnamon-sweet-potatoes",
+      "avocado-kale-caesar-salad",
+      "green-beans-with-shallots-and-lemon"
+    ],
+    "incomingMeals": [],
+    "incomingRecipes": [],
+    "scope": "Dependency/pairing inventory only. No linked recipe or meal receives review status, shared-pot safety, quantity or workflow certification."
+  },
+  "kitchenQuestions": [
+    "Measure raw/prepared/browned mushroom yield and the original garnish share.",
+    "Record pot surface, number of browning batches, butter behavior and actual 10–20 minute stage.",
+    "Record actual blender model/cooling, six portions, smoothness and cream/sherry finish/reheat texture."
+  ],
+  "kitchenNeeds": "Record actual ingredients/products and weights, cut sizes, pot/blender model and capacities, active/elapsed times, applicable temperatures, strained/served yield, flavor/texture and reheating results before kitchen-tested status.",
+  "sourceApplicability": [
+    {
+      "key": "leftovers",
+      "title": "USDA leftovers: soup cooling and reheating",
+      "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety",
+      "supports": "Small/shallow portions cool more promptly than a large soup pot; refrigerate within two hours (one in heat), refrigerator 40°F or below, use within 3–4 days; reheat leftovers to 165°F and soups/sauces/gravies to a rolling boil. Freezer quality guidance 3–4 months.",
+      "limits": "Reheating does not restore mishandled food or guarantee unchanged egg/dairy/pasta texture."
+    },
+    {
+      "key": "blend",
+      "title": "Vitamix vessel-specific hot food FAQ",
+      "url": "https://www.vitamix.com/us/en_us/owners-resources/product-support/faqs",
+      "supports": "Full containers and unvented personal cups differ; actual model manual governs temperature/fill/venting/speed. No hot blending in the unvented 20-ounce cup.",
+      "limits": "No household model identification or universal temperature, percentage fill, lid removal or exact number of batches."
+    },
+    {
+      "key": "immersion",
+      "title": "Vitamix immersion blender owner manual",
+      "url": "https://www.vitamix.com/content/dam/vitamix/files/product-manuals/Immersion%20Blender%20Owner's%20Manual.pdf",
+      "supports": "Earlier accepted mushroom repair used the model manual for off-heat, submerged guard, low start and stopping before lifting. The exact existing repaired step is retained, with its actual-model qualification.",
+      "limits": "A particular manual is not the household equipment inventory; no new model-specific instruction is inferred."
+    },
+    {
+      "key": "sealedCup",
+      "title": "nutribullet sealed cup use guide",
+      "url": "https://www.nutribullet.com/blog/getting-started-how-to-use-nutribullet/",
+      "supports": "Hot contents are prohibited in its sealed personal cup; supports the explicit exclusion rather than a generic venting workaround.",
+      "limits": "Does not imply all products or pitchers under the brand share identical constraints."
+    },
+    {
+      "key": "mushroomPublisher",
+      "title": "Delish Cream of Mushroom Soup",
+      "url": "https://www.delish.com/cooking/recipe-ideas/recipes/a55765/cream-of-mushroom-soup-recipe/",
+      "supports": "Modern page differs from the exact saved cremini/shiitake/dried-thyme formula. Existing adapted formula and sherry finish are preserved. Current publisher context and earlier accepted repair support flexible browning, not a fixed eight-minute sear.",
+      "limits": "No restoration to modern quantities, fresh-thyme amount or modern estimated nutrition. Exact Git original supplies saved formula and garnish amount."
+    }
+  ],
+  "confidenceAndLimits": {
+    "findings": [
+      {
+        "issue": "Garnish allocation under scaling",
+        "confidence": "High allocation/source; actual browned volume remains unmeasured"
+      },
+      {
+        "issue": "Earlier browning and hot-blender repairs",
+        "confidence": "High preservation/handling; moderate planning"
+      }
+    ],
+    "overall": "High preservation/allocation/manual-scope evidence; actual browned volume, machine, loads, heating and six-bowl yield remain unmeasured.",
+    "unresolved": [
+      "Measure raw/prepared/browned mushroom yield and the original garnish share.",
+      "Record pot surface, number of browning batches, butter behavior and actual 10–20 minute stage.",
+      "Record actual blender model/cooling, six portions, smoothness and cream/sherry finish/reheat texture."
+    ],
+    "sourceLimits": [
+      {
+        "title": "USDA leftovers: soup cooling and reheating",
+        "limits": "Reheating does not restore mishandled food or guarantee unchanged egg/dairy/pasta texture."
+      },
+      {
+        "title": "Vitamix vessel-specific hot food FAQ",
+        "limits": "No household model identification or universal temperature, percentage fill, lid removal or exact number of batches."
+      },
+      {
+        "title": "Vitamix immersion blender owner manual",
+        "limits": "A particular manual is not the household equipment inventory; no new model-specific instruction is inferred."
+      },
+      {
+        "title": "nutribullet sealed cup use guide",
+        "limits": "Does not imply all products or pitchers under the brand share identical constraints."
+      },
+      {
+        "title": "Delish Cream of Mushroom Soup",
+        "limits": "No restoration to modern quantities, fresh-thyme amount or modern estimated nutrition. Exact Git original supplies saved formula and garnish amount."
+      }
+    ],
+    "nativeLineage": false,
+    "physicalCooking": false,
+    "composedMealsAccepted": false
+  },
+  "scalingAndReset": [
+    {
+      "ingredient": "16 oz Cremini Mushrooms, sliced",
+      "half": "8 oz Cremini Mushrooms, sliced",
+      "original": "16 oz Cremini Mushrooms, sliced",
+      "double": "32 oz Cremini Mushrooms, sliced",
+      "reset": "16 oz Cremini Mushrooms, sliced"
+    },
+    {
+      "ingredient": "2/3 cup Shiitake Mushrooms, sliced",
+      "half": "1/3 cup Shiitake Mushrooms, sliced",
+      "original": "2/3 cup Shiitake Mushrooms, sliced",
+      "double": "1 1/3 cups Shiitake Mushrooms, sliced",
+      "reset": "2/3 cup Shiitake Mushrooms, sliced"
+    },
+    {
+      "ingredient": "1/4 cup Unsalted Butter",
+      "half": "1/8 cup Unsalted Butter",
+      "original": "1/4 cup Unsalted Butter",
+      "double": "1/2 cup Unsalted Butter",
+      "reset": "1/4 cup Unsalted Butter"
+    },
+    {
+      "ingredient": "1 large Shallot, minced",
+      "half": "1/2 large Shallot, minced",
+      "original": "1 large Shallot, minced",
+      "double": "2 large Shallots, minced",
+      "reset": "1 large Shallot, minced"
+    },
+    {
+      "ingredient": "2 cloves Garlic, minced",
+      "half": "1 clove Garlic, minced",
+      "original": "2 cloves Garlic, minced",
+      "double": "4 cloves Garlic, minced",
+      "reset": "2 cloves Garlic, minced"
+    },
+    {
+      "ingredient": "4 cups High-quality Vegetable Stock",
+      "half": "2 cups High-quality Vegetable Stock",
+      "original": "4 cups High-quality Vegetable Stock",
+      "double": "8 cups High-quality Vegetable Stock",
+      "reset": "4 cups High-quality Vegetable Stock"
+    },
+    {
+      "ingredient": "1/3 cup Heavy Cream",
+      "half": "1/6 cup Heavy Cream",
+      "original": "1/3 cup Heavy Cream",
+      "double": "2/3 cup Heavy Cream",
+      "reset": "1/3 cup Heavy Cream"
+    },
+    {
+      "ingredient": "1 tsp Dried Thyme",
+      "half": "1/2 tsp Dried Thyme",
+      "original": "1 tsp Dried Thyme",
+      "double": "2 tsp Dried Thyme",
+      "reset": "1 tsp Dried Thyme"
+    },
+    {
+      "ingredient": "Salt and Black Pepper",
+      "half": "Salt and Black Pepper",
+      "original": "Salt and Black Pepper",
+      "double": "Salt and Black Pepper",
+      "reset": "Salt and Black Pepper"
+    },
+    {
+      "ingredient": "1 tbsp Dry Sherry (The Finishing Touch)",
+      "half": "1/2 tbsp Dry Sherry (The Finishing Touch)",
+      "original": "1 tbsp Dry Sherry (The Finishing Touch)",
+      "double": "2 tbsp Dry Sherry (The Finishing Touch)",
+      "reset": "1 tbsp Dry Sherry (The Finishing Touch)"
+    }
+  ],
+  "validation": {
+    "slug": "cream-of-mushroom-soup",
+    "originalHashMatches": true,
+    "originalMatchesCommit": true,
+    "mainStillFrozen": true,
+    "exactSavedGitSource": true,
+    "completeHistoryRetained": true,
+    "status": "proposed-complete",
+    "hash": "4827350aa6f877d5e03f4cce4438cc504c7028c3a8417b460ac034f5866143c2",
+    "recordHashMatches": true,
+    "identityPreserved": true,
+    "sourcePreserved": true,
+    "pairsPreserved": true,
+    "legacyUnstructured": true,
+    "exactAllChangedFields": true,
+    "badFields": [],
+    "validTechniqueNames": true,
+    "editorialAudit": {
+      "slug": "cream-of-mushroom-soup",
+      "title": "Cream of Mushroom Soup",
+      "status": "editorial-review",
+      "stepCount": 7,
+      "issues": []
+    },
+    "ingredientCount": 10,
+    "ledgerCount": 10,
+    "wholeIngredientLedger": true,
+    "scaling": [
+      {
+        "ingredient": "16 oz Cremini Mushrooms, sliced",
+        "half": "8 oz Cremini Mushrooms, sliced",
+        "original": "16 oz Cremini Mushrooms, sliced",
+        "double": "32 oz Cremini Mushrooms, sliced"
+      },
+      {
+        "ingredient": "2/3 cup Shiitake Mushrooms, sliced",
+        "half": "1/3 cup Shiitake Mushrooms, sliced",
+        "original": "2/3 cup Shiitake Mushrooms, sliced",
+        "double": "1 1/3 cups Shiitake Mushrooms, sliced"
+      },
+      {
+        "ingredient": "1/4 cup Unsalted Butter",
+        "half": "1/8 cup Unsalted Butter",
+        "original": "1/4 cup Unsalted Butter",
+        "double": "1/2 cup Unsalted Butter"
+      },
+      {
+        "ingredient": "1 large Shallot, minced",
+        "half": "1/2 large Shallot, minced",
+        "original": "1 large Shallot, minced",
+        "double": "2 large Shallots, minced"
+      },
+      {
+        "ingredient": "2 cloves Garlic, minced",
+        "half": "1 clove Garlic, minced",
+        "original": "2 cloves Garlic, minced",
+        "double": "4 cloves Garlic, minced"
+      },
+      {
+        "ingredient": "4 cups High-quality Vegetable Stock",
+        "half": "2 cups High-quality Vegetable Stock",
+        "original": "4 cups High-quality Vegetable Stock",
+        "double": "8 cups High-quality Vegetable Stock"
+      },
+      {
+        "ingredient": "1/3 cup Heavy Cream",
+        "half": "1/6 cup Heavy Cream",
+        "original": "1/3 cup Heavy Cream",
+        "double": "2/3 cup Heavy Cream"
+      },
+      {
+        "ingredient": "1 tsp Dried Thyme",
+        "half": "1/2 tsp Dried Thyme",
+        "original": "1 tsp Dried Thyme",
+        "double": "2 tsp Dried Thyme"
+      },
+      {
+        "ingredient": "Salt and Black Pepper",
+        "half": "Salt and Black Pepper",
+        "original": "Salt and Black Pepper",
+        "double": "Salt and Black Pepper"
+      },
+      {
+        "ingredient": "1 tbsp Dry Sherry (The Finishing Touch)",
+        "half": "1/2 tbsp Dry Sherry (The Finishing Touch)",
+        "original": "1 tbsp Dry Sherry (The Finishing Touch)",
+        "double": "2 tbsp Dry Sherry (The Finishing Touch)"
+      }
+    ],
+    "exactPriorHotBlenderInstructions": true,
+    "draftPrivacy": "checked at packet gate",
+    "currentProtectedSourceAndHashGate": "pass"
+  },
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/soups-sources.json",
+  "rootIntegrationRequirements": [],
+  "acceptedSourceSha256": "4827350aa6f877d5e03f4cce4438cc504c7028c3a8417b460ac034f5866143c2",
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/soups-independent.md",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "productionVerification": "pending",
+  "rootWholeInspection": "Complete frozen/current/proposed recipe, exact Git original, meaningful cooking-history diffs, current publisher disagreements, ingredient and variant destinations, ratios, pan/blender capacity, state, heat, endpoints, active/elapsed clocks, storage, scaling and actual linked-recipe dependencies inspected.",
+  "rootSourceRecheck": {
+    "date": "2026-10-05",
+    "cdc": "Direct egg/meat-poultry endpoint table read; supports completed chicken/egg soup 165°F.",
+    "fda": "Direct egg handling/storage page read; general egg endpoint is distinct.",
+    "publisher": "Food & Wine formula corroborates saved Carrot; shorter publisher clock disclosed. Modern Delish mushroom weights, thyme, garnish and portions differ and are not imposed.",
+    "appliances": "Direct Vitamix hot-vessel FAQ rechecked; actual manual required, no universal fill/venting/temperature supplied.",
+    "dashi": "Just One Cookbook extraction route read for mechanism only. Epicurious direct retrieval failed; independently byte-verified exact Git original establishes saved dose and off-heat variant.",
+    "leftovers": "Direct USDA URL failed; official indexed primary page corroborates shallow cooling, 40°F, 2h/1h, 3–4 days, 165°F and soup rolling-boil reheating."
+  }
+}

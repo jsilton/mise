@@ -1,0 +1,83 @@
+{
+  "group": "soups_broths_01",
+  "scope": "Five ready soup/broth candidates only. Exact Git originals and primary/publisher evidence; native archive lineage and kitchen testing are not established.",
+  "date": "2026-10-05",
+  "sources": [
+    {
+      "key": "egg",
+      "title": "FDA egg preparation and leftover handling",
+      "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety",
+      "supports": "Cook egg dishes to 160°F; thermometer rather than visual opacity. Prompt shallow refrigeration, 3–4 days, leftover egg dishes reheated to 165°F.",
+      "limits": "Does not certify this lemon/chicken ratio or a two-minute tempering/heating clock."
+    },
+    {
+      "key": "poultryEgg",
+      "title": "CDC egg dishes containing poultry",
+      "url": "https://www.cdc.gov/food-safety/foods/safer-food-choices.html",
+      "supports": "Specifies 165°F for egg dishes containing meat or poultry; used for completed chicken avgolemono rather than applying the generic meat-free 160°F endpoint.",
+      "limits": "Does not promise a smooth texture at the endpoint; this is a conservative application to an egg/chicken soup."
+    },
+    {
+      "key": "leftovers",
+      "title": "USDA leftovers: soup cooling and reheating",
+      "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety",
+      "supports": "Small/shallow portions cool more promptly than a large soup pot; refrigerate within two hours (one in heat), refrigerator 40°F or below, use within 3–4 days; reheat leftovers to 165°F and soups/sauces/gravies to a rolling boil. Freezer quality guidance 3–4 months.",
+      "limits": "Reheating does not restore mishandled food or guarantee unchanged egg/dairy/pasta texture."
+    },
+    {
+      "key": "blend",
+      "title": "Vitamix vessel-specific hot food FAQ",
+      "url": "https://www.vitamix.com/us/en_us/owners-resources/product-support/faqs",
+      "supports": "Full containers and unvented personal cups differ; actual model manual governs temperature/fill/venting/speed. No hot blending in the unvented 20-ounce cup.",
+      "limits": "No household model identification or universal temperature, percentage fill, lid removal or exact number of batches."
+    },
+    {
+      "key": "immersion",
+      "title": "Vitamix immersion blender owner manual",
+      "url": "https://www.vitamix.com/content/dam/vitamix/files/product-manuals/Immersion%20Blender%20Owner's%20Manual.pdf",
+      "supports": "Earlier accepted mushroom repair used the model manual for off-heat, submerged guard, low start and stopping before lifting. The exact existing repaired step is retained, with its actual-model qualification.",
+      "limits": "A particular manual is not the household equipment inventory; no new model-specific instruction is inferred."
+    },
+    {
+      "key": "sealedCup",
+      "title": "nutribullet sealed cup use guide",
+      "url": "https://www.nutribullet.com/blog/getting-started-how-to-use-nutribullet/",
+      "supports": "Hot contents are prohibited in its sealed personal cup; supports the explicit exclusion rather than a generic venting workaround.",
+      "limits": "Does not imply all products or pitchers under the brand share identical constraints."
+    },
+    {
+      "key": "carrotPublisher",
+      "title": "Food & Wine Curried Carrot and Apple Soup",
+      "url": "https://www.foodandwine.com/recipes/curried-carrot-and-apple-soup",
+      "supports": "Current page corroborates the saved butter/root/apple/cookie/curry/stock/sour-cream formula, thyme, three garnishes and the softening/blending sequence. Lists thirty minutes active, one hour total, twelve portions.",
+      "limits": "Saved/current ninety-minute planning allowance is retained; different total is disclosed, not normalized. Curry powder does not establish Indian provenance. Cookie size and prepared-root yield are not specified."
+    },
+    {
+      "key": "mushroomPublisher",
+      "title": "Delish Cream of Mushroom Soup",
+      "url": "https://www.delish.com/cooking/recipe-ideas/recipes/a55765/cream-of-mushroom-soup-recipe/",
+      "supports": "Modern page differs from the exact saved cremini/shiitake/dried-thyme formula. Existing adapted formula and sherry finish are preserved. Current publisher context and earlier accepted repair support flexible browning, not a fixed eight-minute sear.",
+      "limits": "No restoration to modern quantities, fresh-thyme amount or modern estimated nutrition. Exact Git original supplies saved formula and garnish amount."
+    },
+    {
+      "key": "dashiMechanism",
+      "title": "Just One Cookbook kombu and bonito dashi",
+      "url": "https://www.justonecookbook.com/how-to-make-dashi/",
+      "supports": "Kombu/bonito stock is seafood-based; keep kombu out of a prolonged boil and strain after bonito extraction. Starting water and strained yield differ.",
+      "limits": "Different formula and soak schedule do not certify or replace the saved package amounts or current ten-minute soak. No universal cup/gram or area/weight equivalence."
+    },
+    {
+      "key": "dashiSource",
+      "title": "Saved Epicurious Dashi (Japanese Sea Stock)",
+      "url": "http://www.epicurious.com/recipes/food/views/dashi-japanese-sea-stock-103413",
+      "supports": "Exact committed 045e5ba2 original establishes six cups input water, one ounce/about thirty grams kombu and two five-gram bonito packs, with a brief steep/strain method.",
+      "limits": "Current direct URL retrieval failed. No native-original assertion, current publisher certification or exact final-volume claim."
+    }
+  ],
+  "sourceLimits": "No native-original claim. Exact committed Git cooking originals and complete subsequent per-recipe history are the established source evidence. No title match, new identity, archive write or native import was used.",
+  "metadataPolicy": {
+    "commit": "306e8136c1f93314498d117e2f6be67ca867cbbe",
+    "applies": "Deliberate removal of duplicate Serving Suggestions/Pairs With body sections in favor of pairing metadata. Do not blindly restore old generic suggestions. Recipes first authored later are not given a fictitious removal history."
+  },
+  "rootRecheck": "Direct primary safety/appliance pages and current named publisher comparisons were read on October 5; USDA/Epicurious access gaps remain disclosed. Exact original Git bytes were independently recomputed for all five."
+}

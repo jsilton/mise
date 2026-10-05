@@ -1,23 +1,23 @@
 {
   "summary": {
-    "inputCommit": "1bd5c42bf7d801f19165b16dfffc3cee4906c1c6",
+    "inputCommit": "bacc1e4bdbd0e2715960d84f48a8eea57d4501b4",
     "recipes": 643,
-    "recordedCompleteEditorial": 271,
-    "completeEditorialPending": 372,
+    "recordedCompleteEditorial": 276,
+    "completeEditorialPending": 367,
     "originalBaseline": 612,
-    "originalReviewed": 260,
+    "originalReviewed": 265,
     "consideredConsolidations": 10,
-    "originalPending": 342,
+    "originalPending": 337,
     "additionalSources": 41,
     "additionalReviewed": 11,
     "additionalPending": 30,
     "automatedAudit": {
       "recipes": 643,
-      "editoriallyReviewed": 271,
+      "editoriallyReviewed": 276,
       "kitchenTested": 0,
       "errors": 0,
       "priorityReviews": 0,
-      "reviewItems": 690
+      "reviewItems": 681
     },
     "accelerated": {
       "implemented": 42,
@@ -27,7 +27,7 @@
     },
     "uniquePathsInSixRepairCommits": 105,
     "kitchenTested": 0,
-    "productionReconciliation": "42 accelerated targeted repairs verified live as a separate overlapping scope. Thirty-seven additional complete editorial versions from the original 409-source campaign are verified live. The latest 21 cold-side, potato and roasted-vegetable versions were verified at exact remote release c84083a3, successful Pages run 37379630679 and all affected rendered live pages. Five additional soup reviews are accepted locally with integration validation, implementation and production pending; no physical kitchen tests."
+    "productionReconciliation": "42 accelerated targeted repairs are verified live as a separate overlapping scope. Thirty-seven new complete editorial versions from the original409-source campaign are verified live, including the latest21 at c84083a3 / successful Pages37379630679. Five soup reviews passed whole independent/root review and local release validation; implementation and exact production verification remain pending. No kitchen testing occurred."
   },
   "collectionEvidence": [
     "docs/REVIEW_PROGRESS.md",
@@ -683,18 +683,7 @@
       "baseline": "original canonical",
       "source": null,
       "sourceUrl": null,
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -702,12 +691,18 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/avgolemono-soup.md",
+        "acceptedSha256": "041f48f2c9a3352291f886b2e37a853fd61746683297aa8049277718343d64c7",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/soups-independent.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": "historical implemented diff; acceptance scope requires linked record, not inferred from file touch",
+      "acceptedChange": {
+        "status": "accepted locally after independent whole challenge and complete root inspection; implementation pending",
+        "record": "docs/reviews/avgolemono-soup.json",
+        "sourceSha256": "041f48f2c9a3352291f886b2e37a853fd61746683297aa8049277718343d64c7"
+      },
       "implementationCommits": [
         {
           "commit": "a2c9e28069faa57c7bb7fe4ac5e7ca02b6462861",
@@ -716,11 +711,12 @@
         }
       ],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify accepted whole editorial version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Record rice/orzo package and actual dry-grain weight without treating the two choices as equivalent.",
+        "Measure active/elapsed time, pot capacity and four actual bowl portions.",
+        "Record safe heating and smoothness through tempering, final 165°F and leftover reheating."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -3425,18 +3421,7 @@
       "baseline": "original canonical",
       "source": null,
       "sourceUrl": null,
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -3444,12 +3429,18 @@
         "evidence": ["docs/reviews/source-restorations-2026-10-05.md"]
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/cantonese-wonton-broth.md",
+        "acceptedSha256": "a640a7f22e4c0b3a1c794484fdd99fb59dcbf9e7db11d1ae6986126f1aed6e2c",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/soups-independent.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": "historical implemented diff; acceptance scope requires linked record, not inferred from file touch",
+      "acceptedChange": {
+        "status": "accepted locally after independent whole challenge and complete root inspection; implementation pending",
+        "record": "docs/reviews/cantonese-wonton-broth.json",
+        "sourceSha256": "a640a7f22e4c0b3a1c794484fdd99fb59dcbf9e7db11d1ae6986126f1aed6e2c"
+      },
       "implementationCommits": [
         {
           "commit": "493885bb88fa96b1ab626b20a5c8ec78830f9145",
@@ -3458,11 +3449,13 @@
         }
       ],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify accepted whole editorial version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Record stock salt, shrimp form/size and fish-sauce product strength without inferring their equivalence.",
+        "Measure finished strained broth, six serving portions and actual heating/simmer losses.",
+        "Check separately prepared wonton dependency timing and quantity in its own recipe/meal review.",
+        "Reconcile Hot and Sour Soup’s two-quart prepared-stock requirement and its existing meat-containing egg endpoint in its own whole review."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -7316,18 +7309,7 @@
       "baseline": "original canonical",
       "source": "Adapted from Delish.com",
       "sourceUrl": "http://www.delish.com/cooking/recipe-ideas/recipes/a55765/cream-of-mushroom-soup-recipe/",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": "targeted repair",
         "acceleratedEvidence": {
@@ -7338,12 +7320,18 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/cream-of-mushroom-soup.md",
+        "acceptedSha256": "4827350aa6f877d5e03f4cce4438cc504c7028c3a8417b460ac034f5866143c2",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/soups-independent.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "5741495b479d1891066e004ed07aa4b5f830db66",
-      "acceptedChange": "accepted accelerated targeted repair",
+      "acceptedChange": {
+        "status": "accepted locally after independent whole challenge and complete root inspection; implementation pending",
+        "record": "docs/reviews/cream-of-mushroom-soup.json",
+        "sourceSha256": "4827350aa6f877d5e03f4cce4438cc504c7028c3a8417b460ac034f5866143c2"
+      },
       "implementationCommits": [
         {
           "commit": "5741495b479d1891066e004ed07aa4b5f830db66",
@@ -7352,12 +7340,12 @@
         }
       ],
       "productionVerification": {
-        "status": "retained handoff verified deployment; not rechecked live in this reconciliation",
-        "commit": "5741495b479d1891066e004ed07aa4b5f830db66"
+        "status": "pending; existing live version does not certify accepted whole editorial version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Measure raw/prepared/browned mushroom yield and the original garnish share.",
+        "Record pot surface, number of browning batches, butter behavior and actual 10–20 minute stage.",
+        "Record actual blender model/cooling, six portions, smoothness and cream/sherry finish/reheat texture."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -8359,18 +8347,7 @@
       "baseline": "original canonical",
       "source": "Adapted from Foodandwine.com",
       "sourceUrl": "http://www.foodandwine.com/recipes/curried-carrot-and-apple-soup",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -8378,19 +8355,26 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/curried-carrot-and-apple-soup.md",
+        "acceptedSha256": "f619fa46fd6846fe2f889bdfcc3b62583d94ac45b6b4f97241d67648c97ca8b8",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/soups-independent.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally after independent whole challenge and complete root inspection; implementation pending",
+        "record": "docs/reviews/curried-carrot-and-apple-soup.json",
+        "sourceSha256": "f619fa46fd6846fe2f889bdfcc3b62583d94ac45b6b4f97241d67648c97ca8b8"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify accepted whole editorial version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Record cookie size/weight/spice and Madras curry strength for the saved count-based formula.",
+        "Record purchased versus prepared celery-root/carrot weights and how both roots soften in the actual pot.",
+        "Measure blender loads/model/cooling and finished twelve-portion yield, richness and garnish balance."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -8611,13 +8595,7 @@
       "baseline": "original canonical",
       "source": "Adapted from Epicurious.com",
       "sourceUrl": "http://www.epicurious.com/recipes/food/views/dashi-japanese-sea-stock-103413",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -8625,12 +8603,18 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/dashi-japanese-sea-stock.md",
+        "acceptedSha256": "a8170b4e42b8f3b2920be61cf2b40038b5a1b4e161c07a5a754c33d6551cf6ac",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/soups-independent.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": "historical implemented diff; acceptance scope requires linked record, not inferred from file touch",
+      "acceptedChange": {
+        "status": "accepted locally after independent whole challenge and complete root inspection; implementation pending",
+        "record": "docs/reviews/dashi-japanese-sea-stock.json",
+        "sourceSha256": "a8170b4e42b8f3b2920be61cf2b40038b5a1b4e161c07a5a754c33d6551cf6ac"
+      },
       "implementationCommits": [
         {
           "commit": "a2c9e28069faa57c7bb7fe4ac5e7ca02b6462861",
@@ -8639,11 +8623,14 @@
         }
       ],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify accepted whole editorial version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Record kombu product, actual weight/thickness/area and bonito package labels/packing.",
+        "Measure strained stock yield, heating/steep time and flavor for each preserved route.",
+        "Check each linked recipe’s required measured stock volume and scaling separately.",
+        "Locate separately specified pickled Napa cabbage and soy-glazed bonito/rice recipes before attempting those branches; do not invent pickling or seasoning quantities.",
+        "Establish the unmeasured dashi amount for Japanese-Style Trout in that recipe’s whole review; metadata pairings do not automatically replace its other recipes’ stock or water."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",

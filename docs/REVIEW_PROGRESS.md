@@ -1,20 +1,20 @@
 # Current campaign state — October 5, 2026
 
-271 implemented recorded complete / 372 pending across 643 sources; zero kitchen tests. 42 accelerated targeted repairs verified live as a separate overlapping scope. Thirty-seven additional complete editorial versions from the original 409-source campaign are verified live. The latest 21 cold-side, potato and roasted-vegetable versions were verified at exact remote release c84083a3, successful Pages run 37379630679 and all affected rendered live pages. Five additional soup reviews are accepted locally with integration validation, implementation and production pending; no physical kitchen tests. Three subagents continue authorship, independent challenge and private integration packets; root alone integrates and publishes. [Latest production proof](editorial-campaign/2026-10-05/release21-production.json).
+276 recorded complete / 367 pending across 643 sources; zero kitchen tests. 42 accelerated targeted repairs are verified live as a separate overlapping scope. Thirty-seven new complete editorial versions from the original 409-source campaign are verified live, including the latest 21 at c84083a3 / successful Pages 37379630679. Five soup reviews passed whole independent/root review and local release validation; implementation and exact production verification remain pending. No kitchen testing occurred. All three subagents are active, rotating author review, independent challenge and private integration preparation; root alone integrates and publishes. [Five-soup acceptance](editorial-campaign/2026-10-05/soups-five.md).
 
-# Current campaign state — October 5, 2026
+# Historical campaign checkpoint — October 5, 2026
 
 Coverage is263 recorded complete /380 pending across643 sources, with zero kitchen tests. Sixteen new complete versions are verified live. Seven cold-side versions at5cbddf1f built successfully but deployment run37372602039 could not acquire a hosted runner; six potato/cauliflower versions are implemented and validated at1bd5c42b. All thirteen await exact deployment/live verification. The42 accelerated targeted repairs remain a separate scope with overlapping identities. Three subagents continue whole-source author review and independent challenges; root alone integrates and publishes. [Potato/cauliflower release evidence](editorial-campaign/2026-10-05/potatoes-six.md).
 
-# Current campaign state — October 5, 2026
+# Historical campaign checkpoint — October 5, 2026
 
 Six complete potato/cauliflower reviews passed independent challenge and root inspection locally:263 recorded complete /380 pending across643 sources; zero kitchen tests. Sixteen new complete versions are verified live. Seven cold-side versions are pushed at5cbddf1f with exact deployment/live verification pending; six potato/cauliflower versions await release validation and implementation. The42 accelerated targeted repairs remain a separate scope. [Six-recipe acceptance](editorial-campaign/2026-10-05/potatoes-six.md).
 
-# Current campaign state — October 5, 2026
+# Historical campaign checkpoint — October 5, 2026
 
 Seven complete cold-side reviews passed independent challenge and root inspection locally: coverage is 257 recorded complete / 386 pending across 643 sources, zero kitchen tests. Ten prior complete versions are verified live at b1435040; six baking versions are now verified live at e2ae34b9, Pages run37369907481. Seven cold-side versions are committed at e8cc0915 and passed all local release checks; production verification is pending. The 42 accelerated targeted repairs remain a separate scope, not additional complete-review credits. [Seven-recipe acceptance](editorial-campaign/2026-10-05/cold-seven.md).
 
-# Current campaign state — October 5, 2026
+# Historical campaign checkpoint — October 5, 2026
 
 Six additional complete baking reviews passed independent challenge and root inspection locally: current coverage is 250 recorded complete / 393 pending across 643 sources, zero kitchen tests. The ten prior complete versions are verified live at `b1435040`, Pages run 37365807822; these are separate from 42 accelerated targeted repairs. Six new baking versions await release checks and production verification.
 

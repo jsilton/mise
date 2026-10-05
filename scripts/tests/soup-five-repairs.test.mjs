@@ -36,7 +36,11 @@ test('hot and sour inventories saute oil and excludes separate stock and pork pr
 });
 test('mushroom soup uses observable browning and model-specific hot-blender limits', () => {
   const { data, content } = read('cream-of-mushroom-soup');
-  assert.equal(data.totalTime, '40-50 min');
+  assert.equal(
+    data.totalTime,
+    'About 40–50 min (blender cooling or extra browning batches add time)'
+  );
+  assert.match(data.learning.timing, /cooling\/reheating add time/);
   assert.match(content, /liquid has evaporated/);
   assert.match(content, /Take the pot off the heat/);
   assert.match(content, /Never blend hot soup in a sealed personal-blender cup/);

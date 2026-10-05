@@ -1,0 +1,566 @@
+{
+  "slug": "cantonese-wonton-broth",
+  "title": "Cantonese Wonton Broth",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "date": "2026-10-05",
+  "notKitchenTested": true,
+  "inputCommit": "afc39e07c49baed6924053ac34023a104d93c93a",
+  "inputSha256": "641012fe038de688eb2bbb441cfc185a9cae7bd079cf8f92bb3531db050429fe",
+  "candidateSha256": "a640a7f22e4c0b3a1c794484fdd99fb59dcbf9e7db11d1ae6986126f1aed6e2c",
+  "summary": "Honor the exact dried-shrimp OR fish-sauce fallback amounts, with all light soy in both branches. Infuse/strain without promising finished volume or perfect clarity, and keep separately cooked wontons outside this broth’s formula and clock.",
+  "sourceCredit": null,
+  "sourceUrl": null,
+  "sourceProvenance": {
+    "savedGitCommit": "6565bfe1fef37b87d40199b95526c00f929d2eaa",
+    "path": "src/content/recipes/cantonese-wonton-broth.md",
+    "savedSourceSha256": "8ecdca5bd30bbecf3ed3034905e105ece0e492ef6ed7fc24c784ff10a0343623",
+    "frozenInputVerified": true,
+    "nativeLineage": "Not established; exact committed originals and attributed publisher evidence only. No native archive or UID certification."
+  },
+  "priorIndependentChallenge": {
+    "candidateSha256": "a6021169691d9cd8f3760760b4f9f0baf823470a534f62fb84185473d9b7b749",
+    "disposition": "accepted-for-root-inspection",
+    "currentCandidateStillExact": true,
+    "scope": "Whole frozen/current candidates and records, exact committed originals, full supplied history artifacts and consequential culinary changes, attributed publisher/primary evidence, ingredient/state/allocation/branches, ratios, capacity, sensory/measured endpoints, clocks, storage, scaling, links and prior repairs.",
+    "confidence": "High saved fallback/allocation evidence; broth strength, strained yield, stock salt and dependency quantities remain kitchen/meal questions.",
+    "critical": [
+      "Prepared 6 cups broth; 1 tbsp dried shrimp OR 1 tsp fallback fish sauce; 2 smashed ginger slices; 2 scallion stalks; 1 tsp light soy sauce in BOTH branches; unmeasured salt/white pepper all have destinations. Infused solids are strained; evaporation/straining losses are not replaced by an invented finished-volume guarantee.",
+      "The first committed recipe already calls fish sauce a fallback while cumulatively adding it in the method. Full later culinary history provides no explicit decision to make both seafood doses cumulative. Candidate resolves that contradiction by honoring the ingredient fallback wording, without averaging doses or importing a traditional flounder formula.",
+      "Linked wontons are cooked in separate water according to their own complete recipe. That current dependency was read and retains refrigerated raw filling/waiting wontons, cooked test filling before tasting, and 165°F larger-center endpoints rather than floating alone. Broth timing excludes filling/wrapping/cooking the separate recipe; six portions remain planning yield."
+    ],
+    "sourceApplicability": [
+      {
+        "git": "6565bfe1fef37b87d40199b95526c00f929d2eaa",
+        "supports": "First complete committed recipe establishes exact amounts and contradictory fallback/method wording."
+      },
+      {
+        "git": "493885bb",
+        "supports": "Earlier removal of unsaved black-vinegar addition remains; no vinegar restored."
+      },
+      {
+        "path": "src/content/recipes/cantonese-shrimp-and-pork-wontons.md",
+        "supports": "Current separately cooked dependency and targeted raw-filling/165°F repairs; dependency is not certified by this broth acceptance."
+      }
+    ]
+  },
+  "subsequentPeerApplication": null,
+  "independentSelfAcceptance": false,
+  "rootFinalAcceptance": "accepted after prior independent whole challenge, authorized bounded correction inspection and complete root final review",
+  "sourceDisagreements": "First complete house recipe at 6565bfe1 already has the fallback/method contradiction. Later b949d44e chef editing changed cultural prose, not the two quantities; no later decision explicitly made both cumulative. Black vinegar removed by 493885bb remains removed. No generic traditional-flounder formula is substituted.",
+  "deliberateServingMetadataPolicy": {
+    "commit": "306e8136c1f93314498d117e2f6be67ca867cbbe",
+    "disposition": "Preserve current pairing metadata; do not restore duplicate source-era body sections or generic old serving suggestions.",
+    "thisRecipeActualRemoval": true,
+    "actualRecipeDiffSha256": "ca4802dbb2a81e88f39a0938648449d63eba7c89827ace5de223966a96365550",
+    "scope": "Exact recipe diff under explicit duplicate-section policy verified."
+  },
+  "originalIngredients": [
+    "6 cups High-Quality Chicken Broth",
+    "1 tbsp Dried Shrimp (The traditional source of 'ocean' umami)",
+    "2 slices Ginger, smashed",
+    "2 stalks Green Onion, cut into 3-inch lengths",
+    "1 tsp Light Soy Sauce",
+    "1 tsp Fish Sauce (Fallback if dried shrimp is unavailable)",
+    "Salt and white pepper to taste"
+  ],
+  "savedGitIngredients": [
+    "6 cups High-Quality Chicken Broth",
+    "1 tbsp Dried Shrimp (The traditional source of 'ocean' umami)",
+    "2 slices Ginger, smashed",
+    "2 stalks Green Onion, cut into 3-inch lengths",
+    "1 tsp Light Soy Sauce",
+    "1 tsp Fish Sauce (Fallback if dried shrimp is unavailable)",
+    "Salt and white pepper to taste"
+  ],
+  "currentIngredients": [
+    "6 cups High-Quality Chicken Broth",
+    "1 tbsp dried shrimp (omit if using the fish sauce fallback)",
+    "2 slices Ginger, smashed",
+    "2 stalks Green Onion, cut into 3-inch lengths",
+    "1 tsp Light Soy Sauce",
+    "1 tsp fish sauce (only if dried shrimp is unavailable and omitted)",
+    "Salt and white pepper to taste"
+  ],
+  "ingredientLedger": [
+    {
+      "ingredient": "Chicken broth",
+      "amount": "6 cups",
+      "state": "Prepared",
+      "destination": [1, 2, 3, 4, 5],
+      "allocation": "All input; some unmeasured evaporation/straining loss. No output volume guarantee."
+    },
+    {
+      "ingredient": "Dried shrimp",
+      "amount": "1 tbsp",
+      "state": "Dried; exclusive branch",
+      "destination": [1, 2, 3],
+      "allocation": "Infuses then strained out; omitted if fallback fish sauce used."
+    },
+    {
+      "ingredient": "Ginger",
+      "amount": "2 slices",
+      "state": "Smashed",
+      "destination": [1, 2, 3],
+      "allocation": "Infuses then strained out; no unsupported slice weight."
+    },
+    {
+      "ingredient": "Green onion",
+      "amount": "2 stalks",
+      "state": "3-inch lengths",
+      "destination": [1, 2, 3],
+      "allocation": "Infuses then strained out."
+    },
+    {
+      "ingredient": "Light soy sauce",
+      "amount": "1 tsp",
+      "state": "Prepared condiment",
+      "destination": [4],
+      "allocation": "All retained in either seafood branch."
+    },
+    {
+      "ingredient": "Fish sauce",
+      "amount": "1 tsp",
+      "state": "Exclusive fallback condiment",
+      "destination": [4],
+      "allocation": "All retained only if dried shrimp omitted; not an equivalent product mass."
+    },
+    {
+      "ingredient": "Salt/white pepper",
+      "amount": "To taste",
+      "state": "Genuine unmeasured allowance",
+      "destination": [4],
+      "allocation": "Only after tasting already seasoned broth."
+    }
+  ],
+  "variantLedger": [
+    {
+      "name": "Dried-shrimp branch",
+      "amount": "1 tbsp dried shrimp at original batch",
+      "destinations": [1, 2, 3],
+      "process": "Infuse, then strain; omit fish sauce. Keep all 1 tsp light soy at step4."
+    },
+    {
+      "name": "Fish-sauce fallback",
+      "amount": "1 tsp fish sauce at original batch",
+      "destinations": [4],
+      "process": "Omit dried shrimp; add fish sauce after straining. Keep all 1 tsp light soy. These are exclusive branches, not claimed equal seafood strength."
+    },
+    {
+      "name": "Separately prepared wonton serving",
+      "amount": "No filling/wrapper/wonton count supplied by this broth",
+      "destinations": [5],
+      "process": "Cook the linked wontons separately by their own complete recipe. Their preparation/cooking clock and serving counts are outside the broth schedule; no new amounts/IDs."
+    }
+  ],
+  "findings": [
+    {
+      "issue": "Exclusive seafood fallback",
+      "before": "Stir in the light soy sauce and fish sauce.",
+      "after": "Add all the measured fish sauce only for the branch that omitted dried shrimp.",
+      "rationale": "Current/saved ingredient label explicitly says fish sauce is a fallback when shrimp is unavailable, but the method cumulatively adds both. Correct the branch while preserving both original amounts and light soy in each.",
+      "evidence": ["Exact 6565bfe1 saved recipe; current fallback label"],
+      "confidence": "High direct ingredient/method contradiction"
+    },
+    {
+      "issue": "Source and clarity claims",
+      "before": "Authentic Cantonese wonton broth from Hong Kong should have a subtle seafood note to complement the shrimp in the wontons.",
+      "after": "Ginger, green onion and dried shrimp give this chicken broth a gentle seafood note for wontons.",
+      "rationale": "No named publisher/family source supports the universal authenticity claim. Preserve the recipe’s Cantonese identity and seafood technique; avoid claiming this house stock is the required Hong Kong formula or straining guarantees perfect clarity.",
+      "evidence": ["6565bfe1 first house source; complete history"],
+      "confidence": "High unsupported-claim removal; sensory quality remains untested"
+    }
+  ],
+  "changedFieldNames": ["body", "totalTime", "ingredients", "nutrition", "equipment", "learning"],
+  "changedFields": [
+    {
+      "field": "body",
+      "before": "\n## Chef's Note\n\nAuthentic Cantonese wonton broth from Hong Kong should have a subtle seafood note to complement the shrimp in the wontons. Dried shrimp steeped with ginger creates this delicate oceanic flavor. The broth should be crystal clear and golden, not cloudy. Always boil wontons in a separate pot of plain water so the starch doesn't cloud your carefully made broth.\n\n## Directions\n\n1.  **Infuse:** In a large pot, combine the chicken broth, smashed ginger, green onion pieces, and dried shrimp.\n2.  **Simmer:** Bring to a gentle boil, then reduce heat and simmer for 20 minutes.\n3.  **Strain:** Pour the broth through a fine-mesh strainer to remove the solids. The liquid should be perfectly clear.\n4.  **Season:** Stir in the light soy sauce and fish sauce. Add salt and a pinch of white pepper to taste.\n5.  **Serve:** Keep hot while you boil the wontons in a **separate** pot of plain water. This ensures your broth stays clear and doesn't get thickened by the starch on the wonton skins.\n",
+      "after": "\n## Chef's Note\n\nGinger, green onion and dried shrimp give this chicken broth a gentle seafood note for wontons. If dried shrimp is unavailable, use the listed fish sauce fallback after straining. Cook wontons separately so wrapper starch stays out of the broth; straining removes the aromatics but cannot guarantee crystal clarity.\n\n## Directions\n\n1. **Choose and infuse:** Choose dried shrimp or the fish sauce fallback. Put the measured chicken broth, smashed ginger and green onion pieces in a pot. Add the dried shrimp only if using that branch; keep fallback fish sauce for step 4.\n\n2. **Simmer:** Bring just to a gentle boil, reduce heat and simmer about 20 minutes. Use a pot with headroom and maintain a gentle simmer rather than aggressively reducing the broth. A larger batch takes longer to heat.\n\n3. **Strain:** Pour through a fine-mesh strainer into a clean vessel, taking care with the hot liquid. Remove the ginger, green onion and any shrimp solids. Let the broth drain without forcing solids through the mesh.\n\n4. **Season:** Stir in all the measured light soy sauce. Add all the measured fish sauce only for the branch that omitted dried shrimp. Taste, then use the listed salt and white pepper allowance as needed.\n\n5. **Serve:** Use with [separately prepared Cantonese shrimp and pork wontons](/mise/recipes/cantonese-shrimp-and-pork-wontons), cooking those according to their own method in a separate pot of water. Broth preparation excludes wonton mixing, wrapping and cooking. Serve the broth hot; its finished volume depends on simmering and straining losses.\n",
+      "rationale": "Exclusive seafood fallback: Current/saved ingredient label explicitly says fish sauce is a fallback when shrimp is unavailable, but the method cumulatively adds both. Correct the branch while preserving both original amounts and light soy in each. Source and clarity claims: No named publisher/family source supports the universal authenticity claim. Preserve the recipe’s Cantonese identity and seafood technique; avoid claiming this house stock is the required Hong Kong formula or straining guarantees perfect clarity.",
+      "evidence": [
+        "Exact 6565bfe1 saved recipe; current fallback label",
+        "6565bfe1 first house source; complete history"
+      ],
+      "confidence": "Individual confidence/limits are stated in findings."
+    },
+    {
+      "field": "totalTime",
+      "before": "30 min",
+      "after": "About 30–40 min",
+      "rationale": "The preserved twenty-minute infusion follows broth heating and is followed by straining/seasoning; thirty minutes is not a guaranteed total. Wonton and scratch-stock work are explicitly outside it.",
+      "confidence": "Moderate editorial planning; not measured in a kitchen",
+      "evidence": [
+        {
+          "title": "USDA leftovers: soup cooling and reheating",
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+        }
+      ]
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "6 cups High-Quality Chicken Broth",
+        "1 tbsp Dried Shrimp (The traditional source of 'ocean' umami)",
+        "2 slices Ginger, smashed",
+        "2 stalks Green Onion, cut into 3-inch lengths",
+        "1 tsp Light Soy Sauce",
+        "1 tsp Fish Sauce (Fallback if dried shrimp is unavailable)",
+        "Salt and white pepper to taste"
+      ],
+      "after": [
+        "6 cups High-Quality Chicken Broth",
+        "1 tbsp dried shrimp (omit if using the fish sauce fallback)",
+        "2 slices Ginger, smashed",
+        "2 stalks Green Onion, cut into 3-inch lengths",
+        "1 tsp Light Soy Sauce",
+        "1 tsp fish sauce (only if dried shrimp is unavailable and omitted)",
+        "Salt and white pepper to taste"
+      ],
+      "rationale": "Preparation/branch/allowance labels follow the complete ingredient ledger; defining measured amounts and richness are retained. See individual findings for any source-supported state or allocation correction.",
+      "confidence": "High written-source/internal-consistency evidence",
+      "evidence": [
+        {
+          "title": "USDA leftovers: soup cooling and reheating",
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+        }
+      ]
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 55,
+        "protein": 3.5,
+        "carbs": 8.5,
+        "fat": 0.5,
+        "fiber": 1,
+        "sugar": 3,
+        "sodium": 1610
+      },
+      "after": null,
+      "rationale": "Removed unsubstantiated legacy estimates: inspected written evidence does not supply a verified calculation for the current amounts, optional branches and serving basis. No replacement nutrition is invented.",
+      "confidence": "High written-source/internal-consistency evidence",
+      "evidence": ["No substantiated current calculation in established source packet"]
+    },
+    {
+      "field": "equipment",
+      "before": null,
+      "after": ["large-pot", "fine-mesh-strainer"],
+      "rationale": "Actual hot infusion/straining method requires a pot and fine-mesh strainer, with appropriate capacity and receiving vessel.",
+      "confidence": "High written-source/internal-consistency evidence",
+      "evidence": [
+        {
+          "title": "USDA leftovers: soup cooling and reheating",
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+        }
+      ]
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Infuse a clear-serving broth and choose one seafood seasoning route",
+        "outcome": "A ginger-scented broth with strained aromatics and a balanced seafood note, ready for separately cooked wontons.",
+        "techniques": ["seasoning", "temperature"],
+        "before": [
+          "Choose dried shrimp OR the fish sauce fallback before starting; both are listed because they are alternatives, not cumulative doses.",
+          "Use prepared chicken broth and set out a fine-mesh strainer and a vessel large enough for the hot strained liquid.",
+          "Allow for evaporation and straining loss from the measured broth input. Check how much broth the wontons need; making wontons is separate work."
+        ],
+        "checkpoints": [
+          {
+            "step": 2,
+            "cue": "The broth simmers gently with ginger and green onion present.",
+            "why": "An aggressive boil evaporates more liquid and does not substitute for the written infusion time."
+          },
+          {
+            "step": 4,
+            "cue": "Light soy is added in both branches; fish sauce enters only the branch without dried shrimp.",
+            "why": "Using both seafood options would change the saved fallback logic and salt/flavor balance."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Broth becomes starchy after adding wontons",
+            "cause": "Wontons were cooked directly in the serving broth.",
+            "fix": "Cook future wontons in a separate pot and transfer them after their own doneness check. Straining cannot remove all dissolved starch."
+          },
+          {
+            "problem": "Broth tastes too salty",
+            "cause": "The prepared stock, soy and fish sauce were seasoned before tasting or both seafood branches were used.",
+            "fix": "Choose one seafood branch and taste after the sauces before extra salt. Straining will not remove dissolved salt from an over-seasoned batch."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Dried shrimp",
+            "alternative": "The measured fish sauce fallback, added after straining",
+            "effect": "Different seafood aroma; it replaces the shrimp branch rather than adding a second seafood dose. It remains a fish-containing broth."
+          }
+        ],
+        "timing": "Allow about 30–40 minutes elapsed for preparation, broth heating, a 20-minute simmer, straining and seasoning; roughly 10–15 minutes is active. Wonton preparation/cooking and any scratch stock are outside this broth’s schedule. Larger pots take longer to heat; do not multiply the infusion clock mechanically.",
+        "storage": "Divide leftovers into shallow containers and refrigerate within 2 hours, or 1 hour above 90°F / 32°C, at 40°F / 4°C or below. Use within 3–4 days. Reheat the portion being served, stirring, to 165°F / 74°C throughout and bring soup to a rolling boil. Store broth separately from wontons for a clearer liquid and less softened wrapper texture.",
+        "sources": [
+          {
+            "title": "USDA leftovers: soup cooling and reheating",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-05"
+        }
+      },
+      "rationale": "Individually authored preparation, cues, explanations, troubleshooting, substitutions, timing and storage; applicable primary safety/manual evidence is included without a kitchen-test claim.",
+      "confidence": "High written-source/internal-consistency evidence",
+      "evidence": [
+        {
+          "title": "USDA leftovers: soup cooling and reheating",
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+        }
+      ]
+    }
+  ],
+  "ratioYieldCapacity": "Current seven ingredient amounts retained in two exclusive seafood branches. Broth source is prepared; shrimp/ginger/scallion solids are discarded after infusion. Original six portions retained without inventing final volume.",
+  "processTiming": "Allow about 30–40 minutes elapsed for preparation, broth heating, a 20-minute simmer, straining and seasoning; roughly 10–15 minutes is active. Wonton preparation/cooking and any scratch stock are outside this broth’s schedule. Larger pots take longer to heat; do not multiply the infusion clock mechanically.",
+  "preparationAndCapacity": [
+    "Choose dried shrimp OR the fish sauce fallback before starting; both are listed because they are alternatives, not cumulative doses.",
+    "Use prepared chicken broth and set out a fine-mesh strainer and a vessel large enough for the hot strained liquid.",
+    "Allow for evaporation and straining loss from the measured broth input. Check how much broth the wontons need; making wontons is separate work."
+  ],
+  "checkpoints": [
+    {
+      "step": 2,
+      "cue": "The broth simmers gently with ginger and green onion present.",
+      "why": "An aggressive boil evaporates more liquid and does not substitute for the written infusion time."
+    },
+    {
+      "step": 4,
+      "cue": "Light soy is added in both branches; fish sauce enters only the branch without dried shrimp.",
+      "why": "Using both seafood options would change the saved fallback logic and salt/flavor balance."
+    }
+  ],
+  "storage": "Divide leftovers into shallow containers and refrigerate within 2 hours, or 1 hour above 90°F / 32°C, at 40°F / 4°C or below. Use within 3–4 days. Reheat the portion being served, stirring, to 165°F / 74°C throughout and bring soup to a rolling boil. Store broth separately from wontons for a clearer liquid and less softened wrapper texture.",
+  "learningTiming": "Allow about 30–40 minutes elapsed for preparation, broth heating, a 20-minute simmer, straining and seasoning; roughly 10–15 minutes is active. Wonton preparation/cooking and any scratch stock are outside this broth’s schedule. Larger pots take longer to heat; do not multiply the infusion clock mechanically.",
+  "learningStorage": "Divide leftovers into shallow containers and refrigerate within 2 hours, or 1 hour above 90°F / 32°C, at 40°F / 4°C or below. Use within 3–4 days. Reheat the portion being served, stirring, to 165°F / 74°C throughout and bring soup to a rolling boil. Store broth separately from wontons for a clearer liquid and less softened wrapper texture.",
+  "relationships": {
+    "pairings": ["cantonese-shrimp-and-pork-wontons", "pad-thai"],
+    "incomingMeals": [],
+    "incomingRecipes": [
+      "chinese-style-snapper.md",
+      "classic-wonton-soup.md",
+      "hot-and-sour-soup.md",
+      "pad-thai.md",
+      "shrimp-wonton-soup.md"
+    ],
+    "scope": "Dependency/pairing inventory only. No linked recipe or meal receives review status, shared-pot safety, quantity or workflow certification.",
+    "rootAssessment": "Current Cantonese shrimp/pork wontons and both wonton soups retain separate-water cooking and measured 165°F filling endpoints. Classic Soup needs 1 liter prepared broth; Shrimp Soup needs four cups plus a genuine extra allowance. Hot and Sour Soup needs two quarts, exceeding this batch’s unmeasured strained output, and its egg/char-siu 160°F instruction requires separate whole-recipe reconciliation against meat-containing egg guidance. Do not substitute six cups input for two quarts finished stock or treat this component acceptance as dependency acceptance."
+  },
+  "kitchenQuestions": [
+    "Record stock salt, shrimp form/size and fish-sauce product strength without inferring their equivalence.",
+    "Measure finished strained broth, six serving portions and actual heating/simmer losses.",
+    "Check separately prepared wonton dependency timing and quantity in its own recipe/meal review.",
+    "Reconcile Hot and Sour Soup’s two-quart prepared-stock requirement and its existing meat-containing egg endpoint in its own whole review."
+  ],
+  "kitchenNeeds": "Record actual ingredients/products and weights, cut sizes, pot/blender model and capacities, active/elapsed times, applicable temperatures, strained/served yield, flavor/texture and reheating results before kitchen-tested status.",
+  "sourceApplicability": [
+    {
+      "key": "leftovers",
+      "title": "USDA leftovers: soup cooling and reheating",
+      "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety",
+      "supports": "Small/shallow portions cool more promptly than a large soup pot; refrigerate within two hours (one in heat), refrigerator 40°F or below, use within 3–4 days; reheat leftovers to 165°F and soups/sauces/gravies to a rolling boil. Freezer quality guidance 3–4 months.",
+      "limits": "Reheating does not restore mishandled food or guarantee unchanged egg/dairy/pasta texture."
+    }
+  ],
+  "confidenceAndLimits": {
+    "findings": [
+      {
+        "issue": "Exclusive seafood fallback",
+        "confidence": "High direct ingredient/method contradiction"
+      },
+      {
+        "issue": "Source and clarity claims",
+        "confidence": "High unsupported-claim removal; sensory quality remains untested"
+      }
+    ],
+    "overall": "High saved fallback/allocation evidence; broth strength, strained yield, stock salt and dependency quantities remain kitchen/meal questions.",
+    "unresolved": [
+      "Record stock salt, shrimp form/size and fish-sauce product strength without inferring their equivalence.",
+      "Measure finished strained broth, six serving portions and actual heating/simmer losses.",
+      "Check separately prepared wonton dependency timing and quantity in its own recipe/meal review."
+    ],
+    "sourceLimits": [
+      {
+        "title": "USDA leftovers: soup cooling and reheating",
+        "limits": "Reheating does not restore mishandled food or guarantee unchanged egg/dairy/pasta texture."
+      }
+    ],
+    "nativeLineage": false,
+    "physicalCooking": false,
+    "composedMealsAccepted": false
+  },
+  "scalingAndReset": [
+    {
+      "ingredient": "6 cups High-Quality Chicken Broth",
+      "half": "3 cups High-Quality Chicken Broth",
+      "original": "6 cups High-Quality Chicken Broth",
+      "double": "12 cups High-Quality Chicken Broth",
+      "reset": "6 cups High-Quality Chicken Broth"
+    },
+    {
+      "ingredient": "1 tbsp dried shrimp (omit if using the fish sauce fallback)",
+      "half": "1/2 tbsp dried shrimp (omit if using the fish sauce fallback)",
+      "original": "1 tbsp dried shrimp (omit if using the fish sauce fallback)",
+      "double": "2 tbsp dried shrimp (omit if using the fish sauce fallback)",
+      "reset": "1 tbsp dried shrimp (omit if using the fish sauce fallback)"
+    },
+    {
+      "ingredient": "2 slices Ginger, smashed",
+      "half": "1 slices Ginger, smashed",
+      "original": "2 slices Ginger, smashed",
+      "double": "4 slices Ginger, smashed",
+      "reset": "2 slices Ginger, smashed"
+    },
+    {
+      "ingredient": "2 stalks Green Onion, cut into 3-inch lengths",
+      "half": "1 stalks Green Onion, cut into 3-inch lengths",
+      "original": "2 stalks Green Onion, cut into 3-inch lengths",
+      "double": "4 stalks Green Onion, cut into 3-inch lengths",
+      "reset": "2 stalks Green Onion, cut into 3-inch lengths"
+    },
+    {
+      "ingredient": "1 tsp Light Soy Sauce",
+      "half": "1/2 tsp Light Soy Sauce",
+      "original": "1 tsp Light Soy Sauce",
+      "double": "2 tsp Light Soy Sauce",
+      "reset": "1 tsp Light Soy Sauce"
+    },
+    {
+      "ingredient": "1 tsp fish sauce (only if dried shrimp is unavailable and omitted)",
+      "half": "1/2 tsp fish sauce (only if dried shrimp is unavailable and omitted)",
+      "original": "1 tsp fish sauce (only if dried shrimp is unavailable and omitted)",
+      "double": "2 tsp fish sauce (only if dried shrimp is unavailable and omitted)",
+      "reset": "1 tsp fish sauce (only if dried shrimp is unavailable and omitted)"
+    },
+    {
+      "ingredient": "Salt and white pepper to taste",
+      "half": "Salt and white pepper to taste",
+      "original": "Salt and white pepper to taste",
+      "double": "Salt and white pepper to taste",
+      "reset": "Salt and white pepper to taste"
+    }
+  ],
+  "validation": {
+    "slug": "cantonese-wonton-broth",
+    "originalHashMatches": true,
+    "originalMatchesCommit": true,
+    "mainStillFrozen": true,
+    "exactSavedGitSource": true,
+    "completeHistoryRetained": true,
+    "status": "proposed-complete",
+    "hash": "a6021169691d9cd8f3760760b4f9f0baf823470a534f62fb84185473d9b7b749",
+    "recordHashMatches": true,
+    "identityPreserved": true,
+    "sourcePreserved": true,
+    "pairsPreserved": true,
+    "legacyUnstructured": true,
+    "exactAllChangedFields": true,
+    "badFields": [],
+    "validTechniqueNames": true,
+    "editorialAudit": {
+      "slug": "cantonese-wonton-broth",
+      "title": "Cantonese Wonton Broth",
+      "status": "editorial-review",
+      "stepCount": 5,
+      "issues": []
+    },
+    "ingredientCount": 7,
+    "ledgerCount": 7,
+    "wholeIngredientLedger": true,
+    "scaling": [
+      {
+        "ingredient": "6 cups High-Quality Chicken Broth",
+        "half": "3 cups High-Quality Chicken Broth",
+        "original": "6 cups High-Quality Chicken Broth",
+        "double": "12 cups High-Quality Chicken Broth"
+      },
+      {
+        "ingredient": "1 tbsp dried shrimp (omit if using the fish sauce fallback)",
+        "half": "1/2 tbsp dried shrimp (omit if using the fish sauce fallback)",
+        "original": "1 tbsp dried shrimp (omit if using the fish sauce fallback)",
+        "double": "2 tbsp dried shrimp (omit if using the fish sauce fallback)"
+      },
+      {
+        "ingredient": "2 slices Ginger, smashed",
+        "half": "1 slices Ginger, smashed",
+        "original": "2 slices Ginger, smashed",
+        "double": "4 slices Ginger, smashed"
+      },
+      {
+        "ingredient": "2 stalks Green Onion, cut into 3-inch lengths",
+        "half": "1 stalks Green Onion, cut into 3-inch lengths",
+        "original": "2 stalks Green Onion, cut into 3-inch lengths",
+        "double": "4 stalks Green Onion, cut into 3-inch lengths"
+      },
+      {
+        "ingredient": "1 tsp Light Soy Sauce",
+        "half": "1/2 tsp Light Soy Sauce",
+        "original": "1 tsp Light Soy Sauce",
+        "double": "2 tsp Light Soy Sauce"
+      },
+      {
+        "ingredient": "1 tsp fish sauce (only if dried shrimp is unavailable and omitted)",
+        "half": "1/2 tsp fish sauce (only if dried shrimp is unavailable and omitted)",
+        "original": "1 tsp fish sauce (only if dried shrimp is unavailable and omitted)",
+        "double": "2 tsp fish sauce (only if dried shrimp is unavailable and omitted)"
+      },
+      {
+        "ingredient": "Salt and white pepper to taste",
+        "half": "Salt and white pepper to taste",
+        "original": "Salt and white pepper to taste",
+        "double": "Salt and white pepper to taste"
+      }
+    ],
+    "draftPrivacy": "checked at packet gate",
+    "currentProtectedSourceAndHashGate": "pass"
+  },
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/soups-sources.json",
+  "rootIntegrationRequirements": [],
+  "acceptedSourceSha256": "a640a7f22e4c0b3a1c794484fdd99fb59dcbf9e7db11d1ae6986126f1aed6e2c",
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/soups-independent.md",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "productionVerification": "pending",
+  "rootWholeInspection": "Complete frozen/current/proposed recipe, exact Git original, meaningful cooking-history diffs, current publisher disagreements, ingredient and variant destinations, ratios, pan/blender capacity, state, heat, endpoints, active/elapsed clocks, storage, scaling and actual linked-recipe dependencies inspected.",
+  "rootSourceRecheck": {
+    "date": "2026-10-05",
+    "cdc": "Direct egg/meat-poultry endpoint table read; supports completed chicken/egg soup 165°F.",
+    "fda": "Direct egg handling/storage page read; general egg endpoint is distinct.",
+    "publisher": "Food & Wine formula corroborates saved Carrot; shorter publisher clock disclosed. Modern Delish mushroom weights, thyme, garnish and portions differ and are not imposed.",
+    "appliances": "Direct Vitamix hot-vessel FAQ rechecked; actual manual required, no universal fill/venting/temperature supplied.",
+    "dashi": "Just One Cookbook extraction route read for mechanism only. Epicurious direct retrieval failed; independently byte-verified exact Git original establishes saved dose and off-heat variant.",
+    "leftovers": "Direct USDA URL failed; official indexed primary page corroborates shallow cooling, 40°F, 2h/1h, 3–4 days, 165°F and soup rolling-boil reheating."
+  },
+  "priorAcceptedSourceSha256": "a6021169691d9cd8f3760760b4f9f0baf823470a534f62fb84185473d9b7b749",
+  "rootBoundedCorrections": [
+    {
+      "slug": "cantonese-wonton-broth",
+      "field": "body link destination",
+      "before": "/recipes/cantonese-shrimp-and-pork-wontons",
+      "after": "/mise/recipes/cantonese-shrimp-and-pork-wontons",
+      "rationale": "The live deployment base is /mise; the absolute root /recipes destination fails the built-link check. Preserve link label, linked recipe, every ingredient and every cooking method byte except this path.",
+      "applicableSource": "README deployment base and actual built-link result: recipes/cantonese-wonton-broth/index.html root destination missing; intended /mise/recipes destination exists.",
+      "confidence": "High; exact path correction, no culinary or quantity change.",
+      "priorAcceptedSourceSha256": "a6021169691d9cd8f3760760b4f9f0baf823470a534f62fb84185473d9b7b749",
+      "acceptedSourceSha256": "a640a7f22e4c0b3a1c794484fdd99fb59dcbf9e7db11d1ae6986126f1aed6e2c",
+      "kitchenTested": false
+    }
+  ],
+  "rootBuiltLinkChallenge": {
+    "status": "accepted",
+    "priorSourceSha256": "a6021169691d9cd8f3760760b4f9f0baf823470a534f62fb84185473d9b7b749",
+    "finalSourceSha256": "a640a7f22e4c0b3a1c794484fdd99fb59dcbf9e7db11d1ae6986126f1aed6e2c",
+    "independentEvidenceSha256": "d8e0e696bd1843c1b62fb5368aa567fde67360a9e503af520d4060266eced038",
+    "reversePriorByteExact": true,
+    "culinaryAndFrontmatterUnchanged": true
+  }
+}
