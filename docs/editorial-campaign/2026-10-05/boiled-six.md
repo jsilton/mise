@@ -24,3 +24,7 @@ The 42 accelerated targeted repairs remain verified live as a separate overlappi
 ## Locally validated checkpoint
 
 All252 tests,32 authored formula checks,643-recipe validation and30 aggregate QA checks pass. Six targeted lints have zero errors and one existing missing-pairing warning. All three exports match643 sources; stable bindings, public privacy and11,898 built anchors pass. All six complete rendered pages,144 scaled ingredient displays,18 yields,375-pixel layouts and cooking checkmark/reload/reset/exit paths pass. Oatmeal2× shopping retains18 tablespoons total buttermilk. No browser warnings or errors. Print controls and shared styles are preserved; print preview remains unverified. No physical kitchen testing or native-app sync. Exact remote commit, CI/deployment and live-page verification remain pending. [Exact preservation and validation evidence](boiled-six-preservation.json).
+
+## Implemented checkpoint
+
+Source commit `92a85abaedde454db49445581b4fbf8a670cf15d` preserves all six accepted source hashes after commit hooks. The 42 accelerated targeted repairs remain verified live as a separate overlapping scope. Forty-eight new complete editorial versions from the original 409-source campaign are verified live. Six additional grain and vegetable versions are implemented and locally validated; exact remote release, successful CI/deployment and all six live pages remain to be verified. No physical kitchen testing or native-app sync occurred. [Preservation and local validation](boiled-six-preservation.json).
