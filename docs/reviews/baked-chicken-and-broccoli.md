@@ -67,3 +67,7 @@ No source edit or status promotion. The prior import record explicitly remains a
 - Does the ingredient mean four bone-in split breast halves, two bone-in halves, or two boneless breasts cut into pieces?
 - What chicken weight and dimensions fit with broccoli/sauce in a9-inch square pan, and is the saved two-serving yield intentional?
 - Using that exact cut and pan, record40+20-minute workflow, chicken165°F, casserole center165°F, actual portions and sauce thickness.
+
+## Verified retirement
+
+Retirement implemented in commit f24e176a52ca80c31b0836054ec39a3a68a195b0; the live old URL now matches the inspected noindex retirement notice and the active collection excludes this recipe. Exact source, attribution and private binding retained. [Production evidence](../editorial-campaign/2026-10-06/duck-and-retirements-production.json). This is not complete editorial approval, kitchen testing or native-app sync.

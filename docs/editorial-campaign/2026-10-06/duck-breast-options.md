@@ -9,3 +9,9 @@ Cold starts, shallow scoring, gentle bubbling, fat drainage and flat skin contac
 The methods openly use USDA’s 165°F endpoint, while recording the sources’ lower culinary finishes and the firmer result. No safe-medium-rare or invented pasteurization claim is made. Times, portions and sensory outcomes remain source-based planning estimates. The exact public records preserve the authored formulas, full ingredients, allocation ledgers, source disagreements, independent acceptance and optional kitchen questions.
 
 [Acceptance and preservation evidence](duck-breast-options.json). [Separate user retirements](user-retirements.json). No kitchen tests or native-app sync.
+
+## Verified production
+
+391 complete editorial versions from the original 409-source campaign are verified live; 16 active recipes remain held and two recipes were retired by explicit user choice. The retirements do not grant complete editorial review. All ten newly authored October 6 additions, counted separately, are now verified live. Active coverage is 635 complete / 16 pending across 651 sources. The two skin-on duck breast pages and two old-URL retirement notices match exact remote source commit [f24e176a](https://github.com/jsilton/mise/commit/f24e176a52ca80c31b0836054ec39a3a68a195b0) and its [successful CI/deployment](https://github.com/jsilton/mise/actions/runs/37532758346). All 649 retained recipe sources and prior private identities/bindings are preserved. The 42 accelerated repairs remain a separate overlapping historical scope. Zero kitchen tests; no native-app sync. Desktop rendering, scaling and cooking interactions were verified; actual mobile rendering and printer/PDF pagination remain unverified.
+
+[Exact production evidence](duck-and-retirements-production.json). Earlier acceptance checkpoints describe the pre-publication state.

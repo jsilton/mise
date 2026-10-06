@@ -868,7 +868,7 @@
       "source": "Lisa Gwock",
       "sourceUrl": null,
       "group": "poultry_01",
-      "status": "retired-pending-publication",
+      "status": "retired-by-user",
       "reviewEvidence": ["docs/reviews/baked-chicken-and-broccoli.md"],
       "automatedFlags": ["teaching-review-needed"],
       "remainingQuestions": [
@@ -876,7 +876,7 @@
       ],
       "inputSha256": "7fbfae5a0cd15648b2684c51188c726597f87faa5fe1ea625624d5445012cfe6",
       "plannedBatch": "poultry_01",
-      "reviewPhase": "Explicit user retirement; complete editorial review not granted",
+      "reviewPhase": "User-authorized retirement verified live; complete editorial review not granted",
       "retirement": {
         "title": "Baked Chicken and Broccoli",
         "date": "2026-10-06",
@@ -889,7 +889,11 @@
         "source": "Lisa Gwock",
         "sourceUrl": null
       },
-      "retirementEvidence": "docs/editorial-campaign/2026-10-06/user-retirements.json"
+      "retirementEvidence": "docs/editorial-campaign/2026-10-06/user-retirements.json",
+      "implementationCommit": "f24e176a52ca80c31b0836054ec39a3a68a195b0",
+      "productionVerification": "docs/editorial-campaign/2026-10-06/duck-and-retirements-production.json",
+      "completeEditorialAcceptance": false,
+      "remainingQuestionsDisposition": "Historical evidence only; no further household answer requested for this retired recipe."
     },
     {
       "slug": "baked-creamy-mac-and-pimento-cheese",
@@ -8367,7 +8371,7 @@
       "source": "Adapted from redhousespice.com",
       "sourceUrl": "https://redhousespice.com/peking-duck/comment-page-8/#comments",
       "group": "protein_assembled_mains_18",
-      "status": "retired-pending-publication",
+      "status": "retired-by-user",
       "reviewEvidence": [
         ".mise/editorial-campaign/2026-10-05/protein_assembled_mains_18/manifest.json",
         ".mise/editorial-campaign/2026-10-05/protein_assembled_mains_18/records/peking-duck-an-easy-home-version.json"
@@ -8384,8 +8388,8 @@
       "proposedSourceSha256": "9dce4b1753daef8b64fe5c23b7bec54cd6a1f3767c00fa7aa48c8af4cba171c8",
       "authorManifest": ".mise/editorial-campaign/2026-10-05/protein_assembled_mains_18/manifest.json",
       "completeEditorialAcceptance": false,
-      "productionVerification": "pending",
-      "reviewPhase": "Explicit user retirement; complete editorial review not granted",
+      "productionVerification": "docs/editorial-campaign/2026-10-06/duck-and-retirements-production.json",
+      "reviewPhase": "User-authorized retirement verified live; complete editorial review not granted",
       "retirement": {
         "title": "Peking Duck",
         "date": "2026-10-06",
@@ -8398,7 +8402,9 @@
         "source": "Adapted from redhousespice.com",
         "sourceUrl": "https://redhousespice.com/peking-duck/comment-page-8/#comments"
       },
-      "retirementEvidence": "docs/editorial-campaign/2026-10-06/user-retirements.json"
+      "retirementEvidence": "docs/editorial-campaign/2026-10-06/user-retirements.json",
+      "implementationCommit": "f24e176a52ca80c31b0836054ec39a3a68a195b0",
+      "remainingQuestionsDisposition": "Historical evidence only; no further household answer requested for this retired recipe."
     },
     {
       "slug": "pho-bo-beef-pho",
@@ -13207,7 +13213,7 @@
   "routingLimitations": "Provisional routing uses current metadata to reduce coordination work. Reviewer must confirm actual process from complete recipe before starting; tags never establish method applicability or a recipe defect.",
   "statusCounts": {
     "production-verified": 391,
-    "retired-pending-publication": 2,
+    "retired-by-user": 2,
     "held": 16
   }
 }

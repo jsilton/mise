@@ -2,7 +2,7 @@
   "date": "2026-10-06",
   "slug": "pan-seared-duck-breasts-with-cherry-and-port-sauce",
   "title": "Pan-Seared Duck Breasts with Cherry and Port Sauce",
-  "status": "complete editorial review; accepted locally; publication pending",
+  "status": "complete editorial review; implemented and verified live",
   "scope": "Newly authored skin-on duck breast option, separate from the original 409-source campaign and retired whole duck",
   "inputCommit": "abfbbb36d62af80bbffc0734d274cccda942ba1b",
   "inputCandidateSha256": "b32e3eace9b9e91acf02ca63b0b3cdb51ac6f571717a71c1bbc7f8ffdaac4f16",
@@ -623,5 +623,8 @@
     "Actual cooking time, portions, sauce reduction, texture and skin crispness remain unmeasured"
   ],
   "kitchenTested": false,
-  "nativeAppSynced": false
+  "nativeAppSynced": false,
+  "implementationCommit": "f24e176a52ca80c31b0836054ec39a3a68a195b0",
+  "releaseCommit": "f24e176a52ca80c31b0836054ec39a3a68a195b0",
+  "productionVerification": "docs/editorial-campaign/2026-10-06/duck-and-retirements-production.json"
 }

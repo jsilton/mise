@@ -1,6 +1,6 @@
 {
   "date": "2026-10-06",
-  "status": "complete editorial reviews accepted locally; publication pending",
+  "status": "complete editorial reviews implemented and verified live",
   "scope": "Two newly authored skin-on breast recipes; separate from the original 409-source campaign and retired whole duck",
   "recipes": [
     {
@@ -21,7 +21,8 @@
       "completePublisherSourceRead": true,
       "independentWholeRecipeChallenge": "PASS",
       "rootWholeRecipeInspection": "complete",
-      "existingWholeDuckIdentityReused": false
+      "existingWholeDuckIdentityReused": false,
+      "productionVerification": "docs/editorial-campaign/2026-10-06/duck-and-retirements-production.json"
     },
     {
       "slug": "pan-seared-duck-breasts-with-cherry-and-port-sauce",
@@ -38,7 +39,8 @@
       "completePublisherSourceRead": true,
       "independentWholeRecipeChallenge": "PASS",
       "rootWholeRecipeInspection": "complete",
-      "existingWholeDuckIdentityReused": false
+      "existingWholeDuckIdentityReused": false,
+      "productionVerification": "docs/editorial-campaign/2026-10-06/duck-and-retirements-production.json"
     }
   ],
   "preservation": {
@@ -54,5 +56,7 @@
   },
   "originalCampaignVerified": 391,
   "kitchenTested": false,
-  "nativeAppSynced": false
+  "nativeAppSynced": false,
+  "sourceReleaseCommit": "f24e176a52ca80c31b0836054ec39a3a68a195b0",
+  "productionVerification": "docs/editorial-campaign/2026-10-06/duck-and-retirements-production.json"
 }

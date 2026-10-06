@@ -1,6 +1,6 @@
 {
   "date": "2026-10-06",
-  "status": "implemented locally; publication pending",
+  "status": "implemented and verified live",
   "decisions": [
     {
       "slug": "baked-chicken-and-broccoli",
@@ -20,7 +20,7 @@
       "privateBindingPreserved": true,
       "nativeOriginalPreserved": true,
       "completeEditorialReviewGranted": false,
-      "publicationVerification": null
+      "publicationVerification": "docs/editorial-campaign/2026-10-06/duck-and-retirements-production.json"
     },
     {
       "slug": "peking-duck-an-easy-home-version",
@@ -40,7 +40,7 @@
       "privateBindingPreserved": true,
       "nativeOriginalPreserved": true,
       "completeEditorialReviewGranted": false,
-      "publicationVerification": null
+      "publicationVerification": "docs/editorial-campaign/2026-10-06/duck-and-retirements-production.json"
     }
   ],
   "activeCoverage": {
@@ -52,7 +52,7 @@
     "recipes": 409,
     "productionVerified": 391,
     "activeHolds": 16,
-    "retiredByUserPendingPublication": 2
+    "retiredByUserVerified": 2
   },
   "kitchenTested": false,
   "nativeAppSynced": false,
@@ -60,5 +60,7 @@
     "recipes": 2,
     "evidence": "docs/editorial-campaign/2026-10-06/duck-breast-options.json",
     "originalWholeDuckIdentityReused": false
-  }
+  },
+  "sourceReleaseCommit": "f24e176a52ca80c31b0836054ec39a3a68a195b0",
+  "productionVerification": "docs/editorial-campaign/2026-10-06/duck-and-retirements-production.json"
 }

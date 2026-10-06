@@ -1,3 +1,11 @@
+# Verified campaign state — October 6, 2026
+
+391 complete editorial versions from the original 409-source campaign are verified live; 16 active recipes remain held and two recipes were retired by explicit user choice. The retirements do not grant complete editorial review. All ten newly authored October 6 additions, counted separately, are now verified live. Active coverage is 635 complete / 16 pending across 651 sources. The two skin-on duck breast pages and two old-URL retirement notices match exact remote source commit [f24e176a](https://github.com/jsilton/mise/commit/f24e176a52ca80c31b0836054ec39a3a68a195b0) and its [successful CI/deployment](https://github.com/jsilton/mise/actions/runs/37532758346). All 649 retained recipe sources and prior private identities/bindings are preserved. The 42 accelerated repairs remain a separate overlapping historical scope. Zero kitchen tests; no native-app sync. Desktop rendering, scaling and cooking interactions were verified; actual mobile rendering and printer/PDF pagination remain unverified.
+
+[Verified duck and retirement release](editorial-campaign/2026-10-06/duck-and-retirements-production.json).
+
+## Earlier acceptance checkpoint
+
 # Current duck and retirement checkpoint — October 6, 2026
 
 391 complete editorial versions from the original 409-recipe campaign are verified live. Two user-authorized retirements and two distinct skin-on duck breast additions are accepted locally, pending exact release verification; 16 active recipes remain held. Coverage is 635 complete / 16 pending across 651 active sources. The original campaign remains 391 verified complete versions, 16 active holds and 2 separate retirements. Ten newly authored October 6 additions are counted separately, with eight verified live and these two breast options pending. No kitchen tests or native-app sync.

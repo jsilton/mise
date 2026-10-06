@@ -561,7 +561,7 @@
       "title": "Baked Chicken and Broccoli",
       "currentPath": "src/content/recipes/baked-chicken-and-broccoli.md",
       "currentSourceSha256": "7fbfae5a0cd15648b2684c51188c726597f87faa5fe1ea625624d5445012cfe6",
-      "status": "retired-by-user; publication pending",
+      "status": "retired-by-user; verified live",
       "remainingQuestions": [
         "Saved two whole split breasts is ambiguous; bone-in cut count, pan fit and timing await family clarification."
       ],
@@ -583,14 +583,17 @@
         "sourceUrl": null
       },
       "evidence": "docs/editorial-campaign/2026-10-06/user-retirements.json",
-      "completeEditorialReviewGranted": false
+      "completeEditorialReviewGranted": false,
+      "implementationCommit": "f24e176a52ca80c31b0836054ec39a3a68a195b0",
+      "productionVerification": "docs/editorial-campaign/2026-10-06/duck-and-retirements-production.json",
+      "remainingQuestionsDisposition": "Historical evidence retained; not an active household question."
     },
     {
       "slug": "peking-duck-an-easy-home-version",
       "title": "Peking Duck",
       "currentPath": "src/content/recipes/peking-duck-an-easy-home-version.md",
       "currentSourceSha256": "9dce4b1753daef8b64fe5c23b7bec54cd6a1f3767c00fa7aa48c8af4cba171c8",
-      "status": "retired-by-user; publication pending",
+      "status": "retired-by-user; verified live",
       "remainingQuestions": [
         "Which fresh/thawed starting age and cold drying duration are intended? Is a whole-skin boiling-water pour followed by cold storage permitted under applicable USDA no-partial-cook/cold-finish guidance, or must an independently supported different preparation be chosen? How will the full raw-window and cumulative roomtemperature handling be bounded?",
         "Retain current1tspfat sauce and expose sourcehalfTbsp separately? Choose maltose main versus supported2:1honey alternative with an actual dose; retain sourceconventional425→390 separately from current425→350 without promising equal finish? Wholeduck and cavity contents require165 checks, actualrack/pan/model and clock remain untested.",
@@ -614,7 +617,10 @@
         "sourceUrl": "https://redhousespice.com/peking-duck/comment-page-8/#comments"
       },
       "evidence": "docs/editorial-campaign/2026-10-06/user-retirements.json",
-      "completeEditorialReviewGranted": false
+      "completeEditorialReviewGranted": false,
+      "implementationCommit": "f24e176a52ca80c31b0836054ec39a3a68a195b0",
+      "productionVerification": "docs/editorial-campaign/2026-10-06/duck-and-retirements-production.json",
+      "remainingQuestionsDisposition": "Historical evidence retained; not an active household question."
     }
   ]
 }

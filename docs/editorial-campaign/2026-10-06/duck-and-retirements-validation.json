@@ -1,6 +1,6 @@
 {
   "date": "2026-10-06",
-  "status": "validated locally; publication pending",
+  "status": "validated, implemented and verified live",
   "inputCommit": "abfbbb36d62af80bbffc0734d274cccda942ba1b",
   "scope": {
     "retiredByExplicitUserChoice": 2,
@@ -138,7 +138,7 @@
       "responsiveCodeReviewed": true,
       "limitation": "The documented internal-browser viewport setter accepted the request but did not apply it. No Chrome fallback used; no actual mobile rendering claim."
     },
-    "liveVerification": "pending exact remote commit, successful CI/deployment and all four affected live pages"
+    "liveVerification": "Exact remote commit, successful CI/deployment, both complete new recipe pages, both old-URL retirement notices and active collection membership verified"
   },
   "coverage": {
     "activeSources": 651,
@@ -148,7 +148,8 @@
     "originalCampaignVerified": 391,
     "originalCampaignScope": 409,
     "newlyAuthoredOctober6": 10,
-    "newlyAuthoredOctober6VerifiedBeforeRelease": 8
+    "newlyAuthoredOctober6VerifiedBeforeRelease": 8,
+    "newlyAuthoredOctober6VerifiedAfterRelease": 10
   },
   "limitations": [
     "No physical kitchen testing",
@@ -156,5 +157,7 @@
     "Actual mobile rendering and printer/PDF pagination remain unverified"
   ],
   "kitchenTested": false,
-  "nativeAppSynced": false
+  "nativeAppSynced": false,
+  "sourceReleaseCommit": "f24e176a52ca80c31b0836054ec39a3a68a195b0",
+  "productionVerification": "docs/editorial-campaign/2026-10-06/duck-and-retirements-production.json"
 }
