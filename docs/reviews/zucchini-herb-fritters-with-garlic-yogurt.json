@@ -1,6 +1,6 @@
 {
   "slug": "zucchini-herb-fritters-with-garlic-yogurt",
-  "status": "accepted complete editorial review; implementation and production pending",
+  "status": "complete editorial review; implemented and verified live",
   "inputCommit": "fb7e607fa5e50ee1dc44554f9f5be31bbbe1b75e",
   "inputSha256": "b3ff7d8c58ee7abebb6da633c10be34b2b45a79893ed68fda9df498df93b07df",
   "acceptedSourceSha256": "9466304b9723564aeae263622dadde233a90db0d9cc5a0d9a6db8d1c731e0020",
@@ -1709,7 +1709,7 @@
   "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
   "sourceEvidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
   "rootDisposition": "Complete author and independent whole reviews and root full cooking/source diff inspection were completed in the frozen groups. Recipe-specific consequential corrections received bounded nonself review. Reuse this finished evidence without repeating unchanged intake gates. Planning ranges, sensory cues and source disagreements remain explicit; no kitchen test, native sync or blanket linked-meal acceptance.",
-  "productionVerification": "pending",
+  "productionVerification": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-production.json",
   "kitchenTested": false,
   "nativeAppSynced": false,
   "integratedValidation": {
@@ -1734,5 +1734,7 @@
     "kitchenTests": 0,
     "nativeAppSynced": false,
     "editorialTriage": "Independently challenged recognition of a commercial pasteurized-in-shell egg product-use instruction, with conservative home-process guards. Actual low-temperature poultry, mixed methods, home egg treatment and ambiguous claims remain flagged. Cooking prose, rule words and prior stock/shrimp/pork/holding controls are preserved; this is editorial triage, not safety certification."
-  }
+  },
+  "implementationCommit": "db6965376e6f4a13033202c5901217ef2e96b084",
+  "releaseCommit": "ea110e5b118002fc9aea578a2ae6b3dc2babaff8"
 }

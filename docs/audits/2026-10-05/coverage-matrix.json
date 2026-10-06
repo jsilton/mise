@@ -27,7 +27,7 @@
     },
     "uniquePathsInSixRepairCommits": 105,
     "kitchenTested": 0,
-    "productionReconciliation": "290 campaign versions are verified live; 86 further versions are accepted locally and await exact production verification. The 42 accelerated targeted repairs remain a separate overlapping scope. Zero kitchen tests; no native-app sync."
+    "productionReconciliation": "376 new complete editorial versions from the original 409-source campaign are verified live. Coverage is 610 recorded complete / 33 pending across 643 sources, including 234 earlier complete reviews. The 42 accelerated targeted repairs remain a separate overlapping scope. This release’s 86 accepted source versions match exact remote commit [ea110e5b](https://github.com/jsilton/mise/commit/ea110e5b118002fc9aea578a2ae6b3dc2babaff8), its [successful CI/deployment](https://github.com/jsilton/mise/actions/runs/37471533695) and all 86 live pages. Zero kitchen tests; no native-app sync."
   },
   "collectionEvidence": [
     "docs/REVIEW_PROGRESS.md",
@@ -1668,17 +1668,21 @@
         "record": "docs/reviews/beef-tenderloin-dogs-with-corn-relish.md",
         "acceptedSha256": "452494923bfe17d293cda7b581b893db12fdc3d8bf76fb98b76ce04a778aabab",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "79e4ea75ab84a13e1793b4cf5f0fc4680e800f72"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/beef-tenderloin-dogs-with-corn-relish.json",
         "sourceSha256": "452494923bfe17d293cda7b581b893db12fdc3d8bf76fb98b76ce04a778aabab"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["79e4ea75ab84a13e1793b4cf5f0fc4680e800f72"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "452494923bfe17d293cda7b581b893db12fdc3d8bf76fb98b76ce04a778aabab",
+        "implementationCommit": "79e4ea75ab84a13e1793b4cf5f0fc4680e800f72",
+        "releaseCommit": "ea110e5b118002fc9aea578a2ae6b3dc2babaff8",
+        "evidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-production.json"
       },
       "remainingQuestions": [
         "Actual strip dimensions, grill/pan loads and roasting-corn preparation time? Four is inherited serving planning, not a measured yield.",
@@ -1866,17 +1870,21 @@
         "record": "docs/reviews/bibimbap.md",
         "acceptedSha256": "18775dae9cc7e2dba8c469e539b53cac2f6394f4ae12fc0b38440e2dd1154c20",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "79e4ea75ab84a13e1793b4cf5f0fc4680e800f72"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/bibimbap.json",
         "sourceSha256": "18775dae9cc7e2dba8c469e539b53cac2f6394f4ae12fc0b38440e2dd1154c20"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["79e4ea75ab84a13e1793b4cf5f0fc4680e800f72"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "18775dae9cc7e2dba8c469e539b53cac2f6394f4ae12fc0b38440e2dd1154c20",
+        "implementationCommit": "79e4ea75ab84a13e1793b4cf5f0fc4680e800f72",
+        "releaseCommit": "ea110e5b118002fc9aea578a2ae6b3dc2babaff8",
+        "evidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-production.json"
       },
       "remainingQuestions": [
         "Desired prepared meat/banchan amounts and actual crisp-rice pan loads? Twenty minutes covers prepared-component assembly, not linked from-scratch cooking.",
@@ -2386,17 +2394,21 @@
         "record": "docs/reviews/boulevardier.md",
         "acceptedSha256": "757138b7229345deba3ae49ba19460a30199e7f09afb74d6877fa0fe7462bd94",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "f2a5d9d1cb02b87d625fc9827a7ad5866ce635f7"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/boulevardier.json",
         "sourceSha256": "757138b7229345deba3ae49ba19460a30199e7f09afb74d6877fa0fe7462bd94"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["f2a5d9d1cb02b87d625fc9827a7ad5866ce635f7"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "757138b7229345deba3ae49ba19460a30199e7f09afb74d6877fa0fe7462bd94",
+        "implementationCommit": "f2a5d9d1cb02b87d625fc9827a7ad5866ce635f7",
+        "releaseCommit": "ea110e5b118002fc9aea578a2ae6b3dc2babaff8",
+        "evidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-production.json"
       },
       "remainingQuestions": [
         "Compare up versus rocks service and intended bitter-aperitif/whiskey bottles.",
@@ -2428,17 +2440,21 @@
         "record": "docs/reviews/braised-french-lentils.md",
         "acceptedSha256": "e498867c759d4563dd2aa5a269b6d9b80ad2ffc15c00c87880b93abd41e5d52b",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "2667c6a0e14007fd1b7e38e3a67e3bf2b68e2e6c"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/braised-french-lentils.json",
         "sourceSha256": "e498867c759d4563dd2aa5a269b6d9b80ad2ffc15c00c87880b93abd41e5d52b"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["2667c6a0e14007fd1b7e38e3a67e3bf2b68e2e6c"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "e498867c759d4563dd2aa5a269b6d9b80ad2ffc15c00c87880b93abd41e5d52b",
+        "implementationCommit": "2667c6a0e14007fd1b7e38e3a67e3bf2b68e2e6c",
+        "releaseCommit": "ea110e5b118002fc9aea578a2ae6b3dc2babaff8",
+        "evidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-production.json"
       },
       "remainingQuestions": [
         "Record actual cooked yield, lentil age and evaporation with the household pot.",
@@ -2471,17 +2487,21 @@
         "record": "docs/reviews/breakfast-burrito.md",
         "acceptedSha256": "99a684c6acee879b9fbc8c7b0ff3f966c64764c8d26419cce044083c644183f7",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "2667c6a0e14007fd1b7e38e3a67e3bf2b68e2e6c"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/breakfast-burrito.json",
         "sourceSha256": "99a684c6acee879b9fbc8c7b0ff3f966c64764c8d26419cce044083c644183f7"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["2667c6a0e14007fd1b7e38e3a67e3bf2b68e2e6c"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "99a684c6acee879b9fbc8c7b0ff3f966c64764c8d26419cce044083c644183f7",
+        "implementationCommit": "2667c6a0e14007fd1b7e38e3a67e3bf2b68e2e6c",
+        "releaseCommit": "ea110e5b118002fc9aea578a2ae6b3dc2babaff8",
+        "evidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-production.json"
       },
       "remainingQuestions": [
         "Actual tortilla brand and filling volume, cooked-meat product state, time to reach the egg endpoint, and frozen reheat duration need observation. The earlier one-month freezer claim is a quality plan, not a validated endpoint or guaranteed shelf life."
@@ -2660,17 +2680,21 @@
         "record": "docs/reviews/breakfast-quesadilla.md",
         "acceptedSha256": "12e9cccf4592384a348846cb91f847372401b086cc64df0aa88e9d564e709d12",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "2667c6a0e14007fd1b7e38e3a67e3bf2b68e2e6c"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/breakfast-quesadilla.json",
         "sourceSha256": "12e9cccf4592384a348846cb91f847372401b086cc64df0aa88e9d564e709d12"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["2667c6a0e14007fd1b7e38e3a67e3bf2b68e2e6c"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "12e9cccf4592384a348846cb91f847372401b086cc64df0aa88e9d564e709d12",
+        "implementationCommit": "2667c6a0e14007fd1b7e38e3a67e3bf2b68e2e6c",
+        "releaseCommit": "ea110e5b118002fc9aea578a2ae6b3dc2babaff8",
+        "evidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-production.json"
       },
       "remainingQuestions": [
         "Actual pan footprint, cheese melt and center-probe placement need kitchen observation. No undercooked-egg carryover guarantee is made."
@@ -3369,11 +3393,11 @@
         "record": "docs/reviews/cantonese-shrimp-and-pork-wontons.md",
         "acceptedSha256": "7a2260abf55542926dab1e0e94b537f4b57a06701225810b70cbf909151163e7",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "d3f98b46bc87c6791a4decad8e832ca7bd8e76e9"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/cantonese-shrimp-and-pork-wontons.json",
         "sourceSha256": "7a2260abf55542926dab1e0e94b537f4b57a06701225810b70cbf909151163e7"
       },
@@ -3382,10 +3406,15 @@
           "commit": "493885bb88fa96b1ab626b20a5c8ec78830f9145",
           "evidence": "actual recipe diff retained privately",
           "scope": "historical safety/scaling/source repair; file touch is not complete review"
-        }
+        },
+        "d3f98b46bc87c6791a4decad8e832ca7bd8e76e9"
       ],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "7a2260abf55542926dab1e0e94b537f4b57a06701225810b70cbf909151163e7",
+        "implementationCommit": "d3f98b46bc87c6791a4decad8e832ca7bd8e76e9",
+        "releaseCommit": "ea110e5b118002fc9aea578a2ae6b3dc2babaff8",
+        "evidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-production.json"
       },
       "remainingQuestions": [
         "Confirm actual wrapper count, steamer/pot loads and household portions.",
@@ -3422,17 +3451,21 @@
         "record": "docs/reviews/cantonese-shumai-siu-mai.md",
         "acceptedSha256": "79c707b61fa7d878baecdbaf5f094c7d5b9d856c00e36c16850f01029aa18783",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "d3f98b46bc87c6791a4decad8e832ca7bd8e76e9"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/cantonese-shumai-siu-mai.json",
         "sourceSha256": "79c707b61fa7d878baecdbaf5f094c7d5b9d856c00e36c16850f01029aa18783"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["d3f98b46bc87c6791a4decad8e832ca7bd8e76e9"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "79c707b61fa7d878baecdbaf5f094c7d5b9d856c00e36c16850f01029aa18783",
+        "implementationCommit": "d3f98b46bc87c6791a4decad8e832ca7bd8e76e9",
+        "releaseCommit": "ea110e5b118002fc9aea578a2ae6b3dc2babaff8",
+        "evidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-production.json"
       },
       "remainingQuestions": [
         "Independent editor must challenge exact source-rich restoration versus fully retained current variant; no inferred household approval.",
@@ -3987,17 +4020,21 @@
         "record": "docs/reviews/charred-guacamole-with-pomegranate.md",
         "acceptedSha256": "8ef50347e92350566ddb7544d2137558251fa4c7c89bd5e5b14174ecfdbcb936",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "d3f98b46bc87c6791a4decad8e832ca7bd8e76e9"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/charred-guacamole-with-pomegranate.json",
         "sourceSha256": "8ef50347e92350566ddb7544d2137558251fa4c7c89bd5e5b14174ecfdbcb936"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["d3f98b46bc87c6791a4decad8e832ca7bd8e76e9"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "8ef50347e92350566ddb7544d2137558251fa4c7c89bd5e5b14174ecfdbcb936",
+        "implementationCommit": "d3f98b46bc87c6791a4decad8e832ca7bd8e76e9",
+        "releaseCommit": "ea110e5b118002fc9aea578a2ae6b3dc2babaff8",
+        "evidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-production.json"
       },
       "remainingQuestions": [
         "Actual broiler rack and pan permissions, vegetable sizes and time to cool need kitchen checking.",
@@ -6654,17 +6691,21 @@
         "record": "docs/reviews/classic-manhattan.md",
         "acceptedSha256": "7e8aa44db7d2275aaf6fd65ed11e91f15870301ccb0463926ed7828cd5202e00",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "f2a5d9d1cb02b87d625fc9827a7ad5866ce635f7"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/classic-manhattan.json",
         "sourceSha256": "7e8aa44db7d2275aaf6fd65ed11e91f15870301ccb0463926ed7828cd5202e00"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["f2a5d9d1cb02b87d625fc9827a7ad5866ce635f7"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "7e8aa44db7d2275aaf6fd65ed11e91f15870301ccb0463926ed7828cd5202e00",
+        "implementationCommit": "f2a5d9d1cb02b87d625fc9827a7ad5866ce635f7",
+        "releaseCommit": "ea110e5b118002fc9aea578a2ae6b3dc2babaff8",
+        "evidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-production.json"
       },
       "remainingQuestions": [
         "Compare intended whiskey and sweet-vermouth bottles without changing the saved 2:1 ratio.",
@@ -6696,17 +6737,21 @@
         "record": "docs/reviews/classic-martini.md",
         "acceptedSha256": "41fe42e4f0b4656799e1a37056161321fc620ca8b8d1c7ab587e77f3bef6042e",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "f2a5d9d1cb02b87d625fc9827a7ad5866ce635f7"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/classic-martini.json",
         "sourceSha256": "41fe42e4f0b4656799e1a37056161321fc620ca8b8d1c7ab587e77f3bef6042e"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["f2a5d9d1cb02b87d625fc9827a7ad5866ce635f7"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "41fe42e4f0b4656799e1a37056161321fc620ca8b8d1c7ab587e77f3bef6042e",
+        "implementationCommit": "f2a5d9d1cb02b87d625fc9827a7ad5866ce635f7",
+        "releaseCommit": "ea110e5b118002fc9aea578a2ae6b3dc2babaff8",
+        "evidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-production.json"
       },
       "remainingQuestions": [
         "Record actual serving-glass usable capacity, final strained volume and sidecar amount without altering the saved ratio.",
@@ -6789,11 +6834,11 @@
         "record": "docs/reviews/classic-wonton-soup.md",
         "acceptedSha256": "ea7af4c1bf5dcc6f8cb9ceed9758787843aec6fd61e29a9da80471be0a899a60",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "d3f98b46bc87c6791a4decad8e832ca7bd8e76e9"
       },
       "latestRecipeCommit": "5741495b479d1891066e004ed07aa4b5f830db66",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/classic-wonton-soup.json",
         "sourceSha256": "ea7af4c1bf5dcc6f8cb9ceed9758787843aec6fd61e29a9da80471be0a899a60"
       },
@@ -6802,10 +6847,15 @@
           "commit": "5741495b479d1891066e004ed07aa4b5f830db66",
           "evidence": "actual recipe diff retained privately",
           "scope": "accelerated targeted repair"
-        }
+        },
+        "d3f98b46bc87c6791a4decad8e832ca7bd8e76e9"
       ],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "ea7af4c1bf5dcc6f8cb9ceed9758787843aec6fd61e29a9da80471be0a899a60",
+        "implementationCommit": "d3f98b46bc87c6791a4decad8e832ca7bd8e76e9",
+        "releaseCommit": "ea110e5b118002fc9aea578a2ae6b3dc2babaff8",
+        "evidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-production.json"
       },
       "remainingQuestions": [
         "Taste the restored¼tsp filling salt with the household light soy and chosen broth.",
@@ -7202,17 +7252,21 @@
         "record": "docs/reviews/corn-shrimp-dumplings.md",
         "acceptedSha256": "3af52e042830aaceb972bb05dc7bb66417c9f0bb2e1622990caf38b1b057d361",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "d3f98b46bc87c6791a4decad8e832ca7bd8e76e9"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/corn-shrimp-dumplings.json",
         "sourceSha256": "3af52e042830aaceb972bb05dc7bb66417c9f0bb2e1622990caf38b1b057d361"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["d3f98b46bc87c6791a4decad8e832ca7bd8e76e9"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "3af52e042830aaceb972bb05dc7bb66417c9f0bb2e1622990caf38b1b057d361",
+        "implementationCommit": "d3f98b46bc87c6791a4decad8e832ca7bd8e76e9",
+        "releaseCommit": "ea110e5b118002fc9aea578a2ae6b3dc2babaff8",
+        "evidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-production.json"
       },
       "remainingQuestions": [
         "Confirm actual count with available wrappers and ear size.",
@@ -7854,17 +7908,21 @@
         "record": "docs/reviews/crispy-oven-zucchini-fries.md",
         "acceptedSha256": "3a3f50dfaf92c7624fdfea404bf009977feb68da1af25f1b6ab019acac0c2c4b",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "db6965376e6f4a13033202c5901217ef2e96b084"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/crispy-oven-zucchini-fries.json",
         "sourceSha256": "3a3f50dfaf92c7624fdfea404bf009977feb68da1af25f1b6ab019acac0c2c4b"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["db6965376e6f4a13033202c5901217ef2e96b084"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "3a3f50dfaf92c7624fdfea404bf009977feb68da1af25f1b6ab019acac0c2c4b",
+        "implementationCommit": "db6965376e6f4a13033202c5901217ef2e96b084",
+        "releaseCommit": "ea110e5b118002fc9aea578a2ae6b3dc2babaff8",
+        "evidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-production.json"
       },
       "remainingQuestions": [
         "Actual sheet capacity and egg-coating probe access need kitchen observation.",
@@ -7968,17 +8026,21 @@
         "record": "docs/reviews/crispy-shallots.md",
         "acceptedSha256": "57e927a35747875f42b20d34d383d5df6792242780a4ccc42374733558146f02",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "e2652b8c4e5c1a9aaf941f23877e18ebb54d41fa"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/crispy-shallots.json",
         "sourceSha256": "57e927a35747875f42b20d34d383d5df6792242780a4ccc42374733558146f02"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["e2652b8c4e5c1a9aaf941f23877e18ebb54d41fa"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "57e927a35747875f42b20d34d383d5df6792242780a4ccc42374733558146f02",
+        "implementationCommit": "e2652b8c4e5c1a9aaf941f23877e18ebb54d41fa",
+        "releaseCommit": "ea110e5b118002fc9aea578a2ae6b3dc2babaff8",
+        "evidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-production.json"
       },
       "remainingQuestions": [
         "What actual shallot sizes and pan let the full1cup oil surround the rings, and what dry finished cup yield results?",
@@ -8121,17 +8183,21 @@
         "record": "docs/reviews/crock-pot-hot-chocolate.md",
         "acceptedSha256": "acfee3de8ff4923b350d2072aa4463119c415d64bc68683f6888110e03d5fcdd",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "d4f4b33a45cc391502355f7d5d2f10d3e6625e6e"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/crock-pot-hot-chocolate.json",
         "sourceSha256": "acfee3de8ff4923b350d2072aa4463119c415d64bc68683f6888110e03d5fcdd"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["d4f4b33a45cc391502355f7d5d2f10d3e6625e6e"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "acfee3de8ff4923b350d2072aa4463119c415d64bc68683f6888110e03d5fcdd",
+        "implementationCommit": "d4f4b33a45cc391502355f7d5d2f10d3e6625e6e",
+        "releaseCommit": "ea110e5b118002fc9aea578a2ae6b3dc2babaff8",
+        "evidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-production.json"
       },
       "remainingQuestions": [
         "Actual slow-cooker model working fill and LOW/WARM temperatures at each batch size.",
@@ -9450,11 +9516,11 @@
         "record": "docs/reviews/egg-in-a-hole.md",
         "acceptedSha256": "fd2565d589d490a5ece396249286ea3a09b231f8469660cf79a728bb7e97a4d6",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "2667c6a0e14007fd1b7e38e3a67e3bf2b68e2e6c"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/egg-in-a-hole.json",
         "sourceSha256": "fd2565d589d490a5ece396249286ea3a09b231f8469660cf79a728bb7e97a4d6"
       },
@@ -9463,10 +9529,15 @@
           "commit": "493885bb88fa96b1ab626b20a5c8ec78830f9145",
           "evidence": "actual recipe diff retained privately",
           "scope": "historical safety/scaling/source repair; file touch is not complete review"
-        }
+        },
+        "2667c6a0e14007fd1b7e38e3a67e3bf2b68e2e6c"
       ],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "fd2565d589d490a5ece396249286ea3a09b231f8469660cf79a728bb7e97a4d6",
+        "implementationCommit": "2667c6a0e14007fd1b7e38e3a67e3bf2b68e2e6c",
+        "releaseCommit": "ea110e5b118002fc9aea578a2ae6b3dc2babaff8",
+        "evidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-production.json"
       },
       "remainingQuestions": [
         "Bread dimensions, actual hole fit, butter distribution and firm-yolk cooking time need kitchen observation. No specific external source was attributed in the earliest Git recipe."
@@ -9671,11 +9742,11 @@
         "record": "docs/reviews/elderberry-syrup.md",
         "acceptedSha256": "8ea02a9fe3efbc94d9e09d87a9ed1ca4274d201e049058bd09f842803690187d",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "e2652b8c4e5c1a9aaf941f23877e18ebb54d41fa"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/elderberry-syrup.json",
         "sourceSha256": "8ea02a9fe3efbc94d9e09d87a9ed1ca4274d201e049058bd09f842803690187d"
       },
@@ -9684,10 +9755,15 @@
           "commit": "a2c9e28069faa57c7bb7fe4ac5e7ca02b6462861",
           "evidence": "actual recipe diff retained privately",
           "scope": "historical safety/scaling/source repair; file touch is not complete review"
-        }
+        },
+        "e2652b8c4e5c1a9aaf941f23877e18ebb54d41fa"
       ],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "8ea02a9fe3efbc94d9e09d87a9ed1ca4274d201e049058bd09f842803690187d",
+        "implementationCommit": "e2652b8c4e5c1a9aaf941f23877e18ebb54d41fa",
+        "releaseCommit": "ea110e5b118002fc9aea578a2ae6b3dc2babaff8",
+        "evidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-production.json"
       },
       "remainingQuestions": [
         "What exact edible dried-ripe black berry product and heating instructions apply? No unidentified/wildplantpermission.",
@@ -9767,17 +9843,21 @@
         "record": "docs/reviews/enchilada-skillet.md",
         "acceptedSha256": "3c406ddc9a06995ebf3180ec03370df1a1ea512e4330de88f7bda08ced233a65",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "79e4ea75ab84a13e1793b4cf5f0fc4680e800f72"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/enchilada-skillet.json",
         "sourceSha256": "3c406ddc9a06995ebf3180ec03370df1a1ea512e4330de88f7bda08ced233a65"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["79e4ea75ab84a13e1793b4cf5f0fc4680e800f72"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "3c406ddc9a06995ebf3180ec03370df1a1ea512e4330de88f7bda08ced233a65",
+        "implementationCommit": "79e4ea75ab84a13e1793b4cf5f0fc4680e800f72",
+        "releaseCommit": "ea110e5b118002fc9aea578a2ae6b3dc2babaff8",
+        "evidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-production.json"
       },
       "remainingQuestions": [
         "Actual enchilada sauce label ounces (no mass-volume conversion supplied), tortilla product, skillet load and serving size?"
@@ -9808,17 +9888,21 @@
         "record": "docs/reviews/enchiladas-suizas.md",
         "acceptedSha256": "c40fc0c8c69c71ef270bdc5882c0497a977d686c989c94a924e1a3b7ada906e1",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "79e4ea75ab84a13e1793b4cf5f0fc4680e800f72"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/enchiladas-suizas.json",
         "sourceSha256": "c40fc0c8c69c71ef270bdc5882c0497a977d686c989c94a924e1a3b7ada906e1"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["79e4ea75ab84a13e1793b4cf5f0fc4680e800f72"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "c40fc0c8c69c71ef270bdc5882c0497a977d686c989c94a924e1a3b7ada906e1",
+        "implementationCommit": "79e4ea75ab84a13e1793b4cf5f0fc4680e800f72",
+        "releaseCommit": "ea110e5b118002fc9aea578a2ae6b3dc2babaff8",
+        "evidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-production.json"
       },
       "remainingQuestions": [
         "Actual baking dish, tortilla size and intended qualitative cheese split? Numeric migration remains deferred until a supported share is selected.",
@@ -12163,17 +12247,21 @@
         "record": "docs/reviews/grapefruit-basil-gin-fizz.md",
         "acceptedSha256": "a6a63f05bb447bcedd364f840ab7df809eac4ae0d60a53f9358c57212a8744f0",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "f2a5d9d1cb02b87d625fc9827a7ad5866ce635f7"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/grapefruit-basil-gin-fizz.json",
         "sourceSha256": "a6a63f05bb447bcedd364f840ab7df809eac4ae0d60a53f9358c57212a8744f0"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["f2a5d9d1cb02b87d625fc9827a7ad5866ce635f7"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "a6a63f05bb447bcedd364f840ab7df809eac4ae0d60a53f9358c57212a8744f0",
+        "implementationCommit": "f2a5d9d1cb02b87d625fc9827a7ad5866ce635f7",
+        "releaseCommit": "ea110e5b118002fc9aea578a2ae6b3dc2babaff8",
+        "evidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-production.json"
       },
       "remainingQuestions": [
         "Check actual glass volume and ice load with all 10 fluid ounces liquid.",
@@ -12431,17 +12519,21 @@
         "record": "docs/reviews/green-smoothie-for-kids-with-2-hidden-veggies.md",
         "acceptedSha256": "8edb591d359c4996418b47560c6727d0379864c28aa94ef15a9f679f080833fc",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "d4f4b33a45cc391502355f7d5d2f10d3e6625e6e"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/green-smoothie-for-kids-with-2-hidden-veggies.json",
         "sourceSha256": "8edb591d359c4996418b47560c6727d0379864c28aa94ef15a9f679f080833fc"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["d4f4b33a45cc391502355f7d5d2f10d3e6625e6e"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "8edb591d359c4996418b47560c6727d0379864c28aa94ef15a9f679f080833fc",
+        "implementationCommit": "d4f4b33a45cc391502355f7d5d2f10d3e6625e6e",
+        "releaseCommit": "ea110e5b118002fc9aea578a2ae6b3dc2babaff8",
+        "evidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-production.json"
       },
       "remainingQuestions": [
         "Actual blender model maximum fill and loading instructions; frozen product preparation label.",
@@ -13028,17 +13120,21 @@
         "record": "docs/reviews/harvest-sheet-pan-gnocchi-with-crispy-kale.md",
         "acceptedSha256": "4fa26ecf4bf95148d7a22f4b8aa6da3249c728a0e478fce4cc3b1f49ae10955b",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "79e4ea75ab84a13e1793b4cf5f0fc4680e800f72"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/harvest-sheet-pan-gnocchi-with-crispy-kale.json",
         "sourceSha256": "4fa26ecf4bf95148d7a22f4b8aa6da3249c728a0e478fce4cc3b1f49ae10955b"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["79e4ea75ab84a13e1793b4cf5f0fc4680e800f72"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "4fa26ecf4bf95148d7a22f4b8aa6da3249c728a0e478fce4cc3b1f49ae10955b",
+        "implementationCommit": "79e4ea75ab84a13e1793b4cf5f0fc4680e800f72",
+        "releaseCommit": "ea110e5b118002fc9aea578a2ae6b3dc2babaff8",
+        "evidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-production.json"
       },
       "remainingQuestions": [
         "Check the actual frozen-gnocchi and fully cooked-sausage package cooking instructions and tray capacity.",
@@ -14014,17 +14110,21 @@
         "record": "docs/reviews/hot-mulled-apple-cider.md",
         "acceptedSha256": "26b4c70dd863539777c7fe57a537aa8a5493d5270c49b64df3a7478d32a768c4",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "d4f4b33a45cc391502355f7d5d2f10d3e6625e6e"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/hot-mulled-apple-cider.json",
         "sourceSha256": "26b4c70dd863539777c7fe57a537aa8a5493d5270c49b64df3a7478d32a768c4"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["d4f4b33a45cc391502355f7d5d2f10d3e6625e6e"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "26b4c70dd863539777c7fe57a537aa8a5493d5270c49b64df3a7478d32a768c4",
+        "implementationCommit": "d4f4b33a45cc391502355f7d5d2f10d3e6625e6e",
+        "releaseCommit": "ea110e5b118002fc9aea578a2ae6b3dc2babaff8",
+        "evidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-production.json"
       },
       "remainingQuestions": [
         "Actual evaporation/straining loss means starting2qt does not certify exactly8 finished cups.",
@@ -14104,17 +14204,21 @@
         "record": "docs/reviews/in-the-park.md",
         "acceptedSha256": "e8d4cfb3d54a2bdfc7f64e490bbbb3d56dfcd777ecf479d3f40322c4e439323e",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "d4f4b33a45cc391502355f7d5d2f10d3e6625e6e"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/in-the-park.json",
         "sourceSha256": "e8d4cfb3d54a2bdfc7f64e490bbbb3d56dfcd777ecf479d3f40322c4e439323e"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["d4f4b33a45cc391502355f7d5d2f10d3e6625e6e"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "e8d4cfb3d54a2bdfc7f64e490bbbb3d56dfcd777ecf479d3f40322c4e439323e",
+        "implementationCommit": "d4f4b33a45cc391502355f7d5d2f10d3e6625e6e",
+        "releaseCommit": "ea110e5b118002fc9aea578a2ae6b3dc2babaff8",
+        "evidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-production.json"
       },
       "remainingQuestions": [
         "Actual half-lemon juice yield, ice dilution and glass/shaker working capacity.",
@@ -14626,11 +14730,11 @@
         "record": "docs/reviews/jeris-lentil-soup.md",
         "acceptedSha256": "98f8c055e4b57d2af49c10209ebce29fcfc72edd08aa13179d58dae0cf283df6",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "2667c6a0e14007fd1b7e38e3a67e3bf2b68e2e6c"
       },
       "latestRecipeCommit": "5741495b479d1891066e004ed07aa4b5f830db66",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/jeris-lentil-soup.json",
         "sourceSha256": "98f8c055e4b57d2af49c10209ebce29fcfc72edd08aa13179d58dae0cf283df6"
       },
@@ -14639,10 +14743,15 @@
           "commit": "5741495b479d1891066e004ed07aa4b5f830db66",
           "evidence": "actual recipe diff retained privately",
           "scope": "accelerated targeted repair"
-        }
+        },
+        "2667c6a0e14007fd1b7e38e3a67e3bf2b68e2e6c"
       ],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "98f8c055e4b57d2af49c10209ebce29fcfc72edd08aa13179d58dae0cf283df6",
+        "implementationCommit": "2667c6a0e14007fd1b7e38e3a67e3bf2b68e2e6c",
+        "releaseCommit": "ea110e5b118002fc9aea578a2ae6b3dc2babaff8",
+        "evidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-production.json"
       },
       "remainingQuestions": [
         "Measure actual finished soup volume and original double-batch packet count; saved arithmetic is inconsistent.",
@@ -14804,17 +14913,21 @@
         "record": "docs/reviews/kale-caesar-with-crispy-chickpeas.md",
         "acceptedSha256": "8a1e2a71f500a8ec06d5663b9da339b06e04e741064b5d1130ec7864306f152d",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "db6965376e6f4a13033202c5901217ef2e96b084"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/kale-caesar-with-crispy-chickpeas.json",
         "sourceSha256": "8a1e2a71f500a8ec06d5663b9da339b06e04e741064b5d1130ec7864306f152d"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["db6965376e6f4a13033202c5901217ef2e96b084"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "8a1e2a71f500a8ec06d5663b9da339b06e04e741064b5d1130ec7864306f152d",
+        "implementationCommit": "db6965376e6f4a13033202c5901217ef2e96b084",
+        "releaseCommit": "ea110e5b118002fc9aea578a2ae6b3dc2babaff8",
+        "evidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-production.json"
       },
       "remainingQuestions": [
         "Actual bunch yield, dressing preference and chickpea cooling time remain unmeasured.",
@@ -15233,11 +15346,11 @@
         "record": "docs/reviews/korean-mung-bean-sprouts-salad.md",
         "acceptedSha256": "1c27b1078e95b0f695721a29b250c9960bf04c68af84670a314b139676946413",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "d3f98b46bc87c6791a4decad8e832ca7bd8e76e9"
       },
       "latestRecipeCommit": "5741495b479d1891066e004ed07aa4b5f830db66",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/korean-mung-bean-sprouts-salad.json",
         "sourceSha256": "1c27b1078e95b0f695721a29b250c9960bf04c68af84670a314b139676946413"
       },
@@ -15246,10 +15359,15 @@
           "commit": "5741495b479d1891066e004ed07aa4b5f830db66",
           "evidence": "actual recipe diff retained privately",
           "scope": "accelerated targeted repair"
-        }
+        },
+        "d3f98b46bc87c6791a4decad8e832ca7bd8e76e9"
       ],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "1c27b1078e95b0f695721a29b250c9960bf04c68af84670a314b139676946413",
+        "implementationCommit": "d3f98b46bc87c6791a4decad8e832ca7bd8e76e9",
+        "releaseCommit": "ea110e5b118002fc9aea578a2ae6b3dc2babaff8",
+        "evidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-production.json"
       },
       "remainingQuestions": [
         "Check temperature sampling through the actual sprout mass and texture after thorough cooking/cooling.",
@@ -16115,17 +16233,21 @@
         "record": "docs/reviews/mango-rita-green-smoothie.md",
         "acceptedSha256": "5949cd6e02edb5aff1a70b8476459f1f814dfd972432dde7e7d7ee4e318fb41e",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "d4f4b33a45cc391502355f7d5d2f10d3e6625e6e"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/mango-rita-green-smoothie.json",
         "sourceSha256": "5949cd6e02edb5aff1a70b8476459f1f814dfd972432dde7e7d7ee4e318fb41e"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["d4f4b33a45cc391502355f7d5d2f10d3e6625e6e"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "5949cd6e02edb5aff1a70b8476459f1f814dfd972432dde7e7d7ee4e318fb41e",
+        "implementationCommit": "d4f4b33a45cc391502355f7d5d2f10d3e6625e6e",
+        "releaseCommit": "ea110e5b118002fc9aea578a2ae6b3dc2babaff8",
+        "evidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-production.json"
       },
       "remainingQuestions": [
         "Lime and orange size, blender load and actual frozen-fruit label determine readiness/texture.",
@@ -16434,17 +16556,21 @@
         "record": "docs/reviews/mediterranean-chicken-bowls.md",
         "acceptedSha256": "f9aeb01015af3fb64b384c2a5cfca4de814610bc4cfbec4069777060eb0a6733",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "79e4ea75ab84a13e1793b4cf5f0fc4680e800f72"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/mediterranean-chicken-bowls.json",
         "sourceSha256": "f9aeb01015af3fb64b384c2a5cfca4de814610bc4cfbec4069777060eb0a6733"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["79e4ea75ab84a13e1793b4cf5f0fc4680e800f72"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "f9aeb01015af3fb64b384c2a5cfca4de814610bc4cfbec4069777060eb0a6733",
+        "implementationCommit": "79e4ea75ab84a13e1793b4cf5f0fc4680e800f72",
+        "releaseCommit": "ea110e5b118002fc9aea578a2ae6b3dc2babaff8",
+        "evidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-production.json"
       },
       "remainingQuestions": [
         "Actual grain/hummus state, marination option, pan loads, bowl capacity and serving quantities? No cooker water dose is supplied.",
@@ -16559,17 +16685,21 @@
         "record": "docs/reviews/mediterranean-pinwheels-vegetarian-appetizer-vegan-and-low-carb-options.md",
         "acceptedSha256": "440b49a164aa5ca86286e4a4232b2e595b939643299d695c956d05404d3d76f5",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "d3f98b46bc87c6791a4decad8e832ca7bd8e76e9"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/mediterranean-pinwheels-vegetarian-appetizer-vegan-and-low-carb-options.json",
         "sourceSha256": "440b49a164aa5ca86286e4a4232b2e595b939643299d695c956d05404d3d76f5"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["d3f98b46bc87c6791a4decad8e832ca7bd8e76e9"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "440b49a164aa5ca86286e4a4232b2e595b939643299d695c956d05404d3d76f5",
+        "implementationCommit": "d3f98b46bc87c6791a4decad8e832ca7bd8e76e9",
+        "releaseCommit": "ea110e5b118002fc9aea578a2ae6b3dc2babaff8",
+        "evidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-production.json"
       },
       "remainingQuestions": [
         "Actual frozen-spinach package cooking/cooling time and tortilla dimensions govern the untested plan/count.",
@@ -16638,17 +16768,21 @@
         "record": "docs/reviews/melon-daiquiri.md",
         "acceptedSha256": "796af62285be7f5b53bbd7ac68c4ededaa3527ea4fb418968b5dae4682a4d671",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "f2a5d9d1cb02b87d625fc9827a7ad5866ce635f7"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/melon-daiquiri.json",
         "sourceSha256": "796af62285be7f5b53bbd7ac68c4ededaa3527ea4fb418968b5dae4682a4d671"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["f2a5d9d1cb02b87d625fc9827a7ad5866ce635f7"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "796af62285be7f5b53bbd7ac68c4ededaa3527ea4fb418968b5dae4682a4d671",
+        "implementationCommit": "f2a5d9d1cb02b87d625fc9827a7ad5866ce635f7",
+        "releaseCommit": "ea110e5b118002fc9aea578a2ae6b3dc2babaff8",
+        "evidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-production.json"
       },
       "remainingQuestions": [
         "Measure final blended volume and actual four-portion glass/refill size with chosen melon.",
@@ -17497,17 +17631,21 @@
         "record": "docs/reviews/my-favorite-challah.md",
         "acceptedSha256": "90ae887df7a4b8329a2c6fa878935c5a49da7c52e07e162d82995f62d1c0742c",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "8ef88e0292b824f7ade19ab23444377eb20a7324"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/my-favorite-challah.json",
         "sourceSha256": "90ae887df7a4b8329a2c6fa878935c5a49da7c52e07e162d82995f62d1c0742c"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["8ef88e0292b824f7ade19ab23444377eb20a7324"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "90ae887df7a4b8329a2c6fa878935c5a49da7c52e07e162d82995f62d1c0742c",
+        "implementationCommit": "8ef88e0292b824f7ade19ab23444377eb20a7324",
+        "releaseCommit": "ea110e5b118002fc9aea578a2ae6b3dc2babaff8",
+        "evidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-production.json"
       },
       "remainingQuestions": [
         "NYT current page unavailable; exact original cooking evidence is retained. Source salt state and household mixer/pan/proof/cooling behavior remain questions, not invented grams or testing.",
@@ -17721,17 +17859,21 @@
         "record": "docs/reviews/no-cook-playdough.md",
         "acceptedSha256": "638d2fd47396dd05eda8d5c3a887c248ab875c8103b1589345cf8dfe62e4288c",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "8ef88e0292b824f7ade19ab23444377eb20a7324"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/no-cook-playdough.json",
         "sourceSha256": "638d2fd47396dd05eda8d5c3a887c248ab875c8103b1589345cf8dfe62e4288c"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["8ef88e0292b824f7ade19ab23444377eb20a7324"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "638d2fd47396dd05eda8d5c3a887c248ab875c8103b1589345cf8dfe62e4288c",
+        "implementationCommit": "8ef88e0292b824f7ade19ab23444377eb20a7324",
+        "releaseCommit": "ea110e5b118002fc9aea578a2ae6b3dc2babaff8",
+        "evidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-production.json"
       },
       "remainingQuestions": [
         "Confirm intended water route and actual craft storage conditions. Neither route is certified edible or suitable raw-flour play for children.",
@@ -17919,17 +18061,21 @@
         "record": "docs/reviews/old-fashioned-strawberry-ice-cream.md",
         "acceptedSha256": "416cca637c9e5130745a30cd7acd858a59214262fa317ab9d12c9ec4daac171d",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "c7570d86bc1a926fc3d248e4310a4bfa7232a5f7"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/old-fashioned-strawberry-ice-cream.json",
         "sourceSha256": "416cca637c9e5130745a30cd7acd858a59214262fa317ab9d12c9ec4daac171d"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["c7570d86bc1a926fc3d248e4310a4bfa7232a5f7"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "416cca637c9e5130745a30cd7acd858a59214262fa317ab9d12c9ec4daac171d",
+        "implementationCommit": "c7570d86bc1a926fc3d248e4310a4bfa7232a5f7",
+        "releaseCommit": "ea110e5b118002fc9aea578a2ae6b3dc2babaff8",
+        "evidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-production.json"
       },
       "remainingQuestions": [
         "Whichmakerbowl andfilllimit applies? Whatfinishedyield/texture withcurrent¾ versus source½sugar? Howlongdoesactualhardening take?",
@@ -18025,17 +18171,21 @@
         "record": "docs/reviews/old-fashioned.md",
         "acceptedSha256": "622fb08324b4b44119ec4b88034e4f6730ef0bc78b4a7f4ab46b07e64ac6afa7",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "f2a5d9d1cb02b87d625fc9827a7ad5866ce635f7"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/old-fashioned.json",
         "sourceSha256": "622fb08324b4b44119ec4b88034e4f6730ef0bc78b4a7f4ab46b07e64ac6afa7"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["f2a5d9d1cb02b87d625fc9827a7ad5866ce635f7"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "622fb08324b4b44119ec4b88034e4f6730ef0bc78b4a7f4ab46b07e64ac6afa7",
+        "implementationCommit": "f2a5d9d1cb02b87d625fc9827a7ad5866ce635f7",
+        "releaseCommit": "ea110e5b118002fc9aea578a2ae6b3dc2babaff8",
+        "evidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-production.json"
       },
       "remainingQuestions": [
         "Record actual sugar-cube size and syrup concentration for preference comparison; do not assume equal sugar content.",
@@ -18301,11 +18451,11 @@
         "record": "docs/reviews/onigiri-japanese-rice-balls.md",
         "acceptedSha256": "65104ca14aaa2242d8a3dab1bd20ad40f8f49699c7c1947b9a1df82a73a68ef6",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "d3f98b46bc87c6791a4decad8e832ca7bd8e76e9"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/onigiri-japanese-rice-balls.json",
         "sourceSha256": "65104ca14aaa2242d8a3dab1bd20ad40f8f49699c7c1947b9a1df82a73a68ef6"
       },
@@ -18314,10 +18464,15 @@
           "commit": "a2c9e28069faa57c7bb7fe4ac5e7ca02b6462861",
           "evidence": "actual recipe diff retained privately",
           "scope": "historical safety/scaling/source repair; file touch is not complete review"
-        }
+        },
+        "d3f98b46bc87c6791a4decad8e832ca7bd8e76e9"
       ],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "65104ca14aaa2242d8a3dab1bd20ad40f8f49699c7c1947b9a1df82a73a68ef6",
+        "implementationCommit": "d3f98b46bc87c6791a4decad8e832ca7bd8e76e9",
+        "releaseCommit": "ea110e5b118002fc9aea578a2ae6b3dc2babaff8",
+        "evidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-production.json"
       },
       "remainingQuestions": [
         "Confirm intended number/size of nori strips versus the large written whole-sheet supply; no dose reduced.",
@@ -18700,17 +18855,21 @@
         "record": "docs/reviews/parishs-blueberry-crisp.md",
         "acceptedSha256": "1b090fda430b0f40a79181d96d5d8ea6e9258afca60918b6fb1a8eccffd56f3a",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "c7570d86bc1a926fc3d248e4310a4bfa7232a5f7"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/parishs-blueberry-crisp.json",
         "sourceSha256": "1b090fda430b0f40a79181d96d5d8ea6e9258afca60918b6fb1a8eccffd56f3a"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["c7570d86bc1a926fc3d248e4310a4bfa7232a5f7"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "1b090fda430b0f40a79181d96d5d8ea6e9258afca60918b6fb1a8eccffd56f3a",
+        "implementationCommit": "c7570d86bc1a926fc3d248e4310a4bfa7232a5f7",
+        "releaseCommit": "ea110e5b118002fc9aea578a2ae6b3dc2babaff8",
+        "evidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-production.json"
       },
       "remainingQuestions": [
         "How long does this kitchen take to solidify the strained butter? What dish depth and amount of crumble does the household prefer?",
@@ -18743,17 +18902,21 @@
         "record": "docs/reviews/parmigiano-reggiano-cheesecake.md",
         "acceptedSha256": "e61fc92daa9192a759506b7d8344a2166b16ea7ac21790b83f0b2b54ffa5e985",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "c7570d86bc1a926fc3d248e4310a4bfa7232a5f7"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/parmigiano-reggiano-cheesecake.json",
         "sourceSha256": "e61fc92daa9192a759506b7d8344a2166b16ea7ac21790b83f0b2b54ffa5e985"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["c7570d86bc1a926fc3d248e4310a4bfa7232a5f7"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "e61fc92daa9192a759506b7d8344a2166b16ea7ac21790b83f0b2b54ffa5e985",
+        "implementationCommit": "c7570d86bc1a926fc3d248e4310a4bfa7232a5f7",
+        "releaseCommit": "ea110e5b118002fc9aea578a2ae6b3dc2babaff8",
+        "evidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-production.json"
       },
       "remainingQuestions": [
         "Which graham-cracker sheet size and springform depth were used? Does the household intend a different crust sweetness?",
@@ -18886,17 +19049,21 @@
         "record": "docs/reviews/patatas-bravas.md",
         "acceptedSha256": "a6b215286288add4cab0ef7636472e7b6505e1b7679863c76d55482269cfcad4",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "e2652b8c4e5c1a9aaf941f23877e18ebb54d41fa"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/patatas-bravas.json",
         "sourceSha256": "a6b215286288add4cab0ef7636472e7b6505e1b7679863c76d55482269cfcad4"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["e2652b8c4e5c1a9aaf941f23877e18ebb54d41fa"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "a6b215286288add4cab0ef7636472e7b6505e1b7679863c76d55482269cfcad4",
+        "implementationCommit": "e2652b8c4e5c1a9aaf941f23877e18ebb54d41fa",
+        "releaseCommit": "ea110e5b118002fc9aea578a2ae6b3dc2babaff8",
+        "evidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-production.json"
       },
       "remainingQuestions": [
         "What actual frying pot gives safeheadroom withoriginalapproximate4cup bath anddrychunks? Howmany5–7minloads?",
@@ -18988,17 +19155,21 @@
         "record": "docs/reviews/peach-pie-biscuit-bombs.md",
         "acceptedSha256": "2359625ff1e7d165a208c7688b084e5b85f803b3e0d2f05722dc53f62313c2e5",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "c7570d86bc1a926fc3d248e4310a4bfa7232a5f7"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/peach-pie-biscuit-bombs.json",
         "sourceSha256": "2359625ff1e7d165a208c7688b084e5b85f803b3e0d2f05722dc53f62313c2e5"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["c7570d86bc1a926fc3d248e4310a4bfa7232a5f7"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "2359625ff1e7d165a208c7688b084e5b85f803b3e0d2f05722dc53f62313c2e5",
+        "implementationCommit": "c7570d86bc1a926fc3d248e4310a4bfa7232a5f7",
+        "releaseCommit": "ea110e5b118002fc9aea578a2ae6b3dc2babaff8",
+        "evidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-production.json"
       },
       "remainingQuestions": [
         "Which actualbiscuits and interiorbake time work with this fullcheese/peachfilling? Which fullhoneyroute is preferred?",
@@ -19030,17 +19201,21 @@
         "record": "docs/reviews/peach-pie-pancakes.md",
         "acceptedSha256": "faccf7002b5a4b7a89df60c16a96066f3d466a1daf3d3d0ffd06a00111acf764",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "c7570d86bc1a926fc3d248e4310a4bfa7232a5f7"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/peach-pie-pancakes.json",
         "sourceSha256": "faccf7002b5a4b7a89df60c16a96066f3d466a1daf3d3d0ffd06a00111acf764"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["c7570d86bc1a926fc3d248e4310a4bfa7232a5f7"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "faccf7002b5a4b7a89df60c16a96066f3d466a1daf3d3d0ffd06a00111acf764",
+        "implementationCommit": "c7570d86bc1a926fc3d248e4310a4bfa7232a5f7",
+        "releaseCommit": "ea110e5b118002fc9aea578a2ae6b3dc2babaff8",
+        "evidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-production.json"
       },
       "remainingQuestions": [
         "Howmanytwo-tablespoon pancakesfitactualpan andwhatfinishedcountresults? Whichflourblend andyogurtstate are intended?",
@@ -19493,17 +19668,21 @@
         "record": "docs/reviews/pizza-beans.md",
         "acceptedSha256": "3b9e3a7c16c426aaf55740e7e60b27da06bfdb98f09b28b47d2f8ef02bbd9e90",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "2667c6a0e14007fd1b7e38e3a67e3bf2b68e2e6c"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/pizza-beans.json",
         "sourceSha256": "3b9e3a7c16c426aaf55740e7e60b27da06bfdb98f09b28b47d2f8ef02bbd9e90"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["2667c6a0e14007fd1b7e38e3a67e3bf2b68e2e6c"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "3b9e3a7c16c426aaf55740e7e60b27da06bfdb98f09b28b47d2f8ef02bbd9e90",
+        "implementationCommit": "2667c6a0e14007fd1b7e38e3a67e3bf2b68e2e6c",
+        "releaseCommit": "ea110e5b118002fc9aea578a2ae6b3dc2babaff8",
+        "evidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-production.json"
       },
       "remainingQuestions": [
         "Confirm kale bunch size, skillet capacity and measured finished portions.",
@@ -19583,11 +19762,11 @@
         "record": "docs/reviews/play-dough.md",
         "acceptedSha256": "bafd10eb0530a2ce660b7b0aa51fb958469900c99b3c8d16029e1836aada1c3f",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "8ef88e0292b824f7ade19ab23444377eb20a7324"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/play-dough.json",
         "sourceSha256": "bafd10eb0530a2ce660b7b0aa51fb958469900c99b3c8d16029e1836aada1c3f"
       },
@@ -19596,10 +19775,15 @@
           "commit": "a2c9e28069faa57c7bb7fe4ac5e7ca02b6462861",
           "evidence": "actual recipe diff retained privately",
           "scope": "historical safety/scaling/source repair; file touch is not complete review"
-        }
+        },
+        "8ef88e0292b824f7ade19ab23444377eb20a7324"
       ],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "bafd10eb0530a2ce660b7b0aa51fb958469900c99b3c8d16029e1836aada1c3f",
+        "implementationCommit": "8ef88e0292b824f7ade19ab23444377eb20a7324",
+        "releaseCommit": "ea110e5b118002fc9aea578a2ae6b3dc2babaff8",
+        "evidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-production.json"
       },
       "remainingQuestions": [
         "Gracy Ann name/formula preserved without invented publisher. Actual nonfood storage and handling conditions remain unresolved.",
@@ -19671,17 +19855,21 @@
         "record": "docs/reviews/pork-and-greens-dumplings.md",
         "acceptedSha256": "52562957c8382ebc93224395f2e38d063626cc32152bf4f5e4a00ae6d36a8d77",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "8ef88e0292b824f7ade19ab23444377eb20a7324"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/pork-and-greens-dumplings.json",
         "sourceSha256": "52562957c8382ebc93224395f2e38d063626cc32152bf4f5e4a00ae6d36a8d77"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["8ef88e0292b824f7ade19ab23444377eb20a7324"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "52562957c8382ebc93224395f2e38d063626cc32152bf4f5e4a00ae6d36a8d77",
+        "implementationCommit": "8ef88e0292b824f7ade19ab23444377eb20a7324",
+        "releaseCommit": "ea110e5b118002fc9aea578a2ae6b3dc2babaff8",
+        "evidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-production.json"
       },
       "remainingQuestions": [
         "No household test of full batch time/capacity/count. Source16portions is planning. Named unprovided dipping recipes are not invented links/formulas.",
@@ -19767,17 +19955,21 @@
         "record": "docs/reviews/prohibition-style-gin-lemon-fizz.md",
         "acceptedSha256": "9200115fe929b39f3d2ab95118e857f8a0ffa55aff424e6ba2aa8b47b6114a11",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "f2a5d9d1cb02b87d625fc9827a7ad5866ce635f7"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/prohibition-style-gin-lemon-fizz.json",
         "sourceSha256": "9200115fe929b39f3d2ab95118e857f8a0ffa55aff424e6ba2aa8b47b6114a11"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["f2a5d9d1cb02b87d625fc9827a7ad5866ce635f7"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "9200115fe929b39f3d2ab95118e857f8a0ffa55aff424e6ba2aa8b47b6114a11",
+        "implementationCommit": "f2a5d9d1cb02b87d625fc9827a7ad5866ce635f7",
+        "releaseCommit": "ea110e5b118002fc9aea578a2ae6b3dc2babaff8",
+        "evidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-production.json"
       },
       "remainingQuestions": [
         "Check actual shaker/glass capacity and dilution for the 10½-ounce still base plus 12-ounce topping.",
@@ -20634,11 +20826,11 @@
         "record": "docs/reviews/real-spaghetti-carbonara.md",
         "acceptedSha256": "892e66b72473b1d129d6c331d46e56722e73ec1e339d8accbb680b5671091027",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "8ef88e0292b824f7ade19ab23444377eb20a7324"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/real-spaghetti-carbonara.json",
         "sourceSha256": "892e66b72473b1d129d6c331d46e56722e73ec1e339d8accbb680b5671091027"
       },
@@ -20652,10 +20844,15 @@
           "commit": "493885bb88fa96b1ab626b20a5c8ec78830f9145",
           "evidence": "actual recipe diff retained privately",
           "scope": "historical safety/scaling/source repair; file touch is not complete review"
-        }
+        },
+        "8ef88e0292b824f7ade19ab23444377eb20a7324"
       ],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "892e66b72473b1d129d6c331d46e56722e73ec1e339d8accbb680b5671091027",
+        "implementationCommit": "8ef88e0292b824f7ade19ab23444377eb20a7324",
+        "releaseCommit": "ea110e5b118002fc9aea578a2ae6b3dc2babaff8",
+        "evidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-production.json"
       },
       "remainingQuestions": [
         "Git-only culinary original; no direct attributed publisher. Carbonara Night is a separate unresolved combined meal, no meal-certified claim.",
@@ -20827,11 +21024,11 @@
         "record": "docs/reviews/rice-bowl-station-buddha-bowls.md",
         "acceptedSha256": "5496a48f02c948291de27ed01d257cbc3992e6fe52c562d47120cabe290bd1e2",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "d3f98b46bc87c6791a4decad8e832ca7bd8e76e9"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/rice-bowl-station-buddha-bowls.json",
         "sourceSha256": "5496a48f02c948291de27ed01d257cbc3992e6fe52c562d47120cabe290bd1e2"
       },
@@ -20840,10 +21037,15 @@
           "commit": "a2c9e28069faa57c7bb7fe4ac5e7ca02b6462861",
           "evidence": "actual recipe diff retained privately",
           "scope": "historical safety/scaling/source repair; file touch is not complete review"
-        }
+        },
+        "d3f98b46bc87c6791a4decad8e832ca7bd8e76e9"
       ],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "5496a48f02c948291de27ed01d257cbc3992e6fe52c562d47120cabe290bd1e2",
+        "implementationCommit": "d3f98b46bc87c6791a4decad8e832ca7bd8e76e9",
+        "releaseCommit": "ea110e5b118002fc9aea578a2ae6b3dc2babaff8",
+        "evidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-production.json"
       },
       "remainingQuestions": [
         "Actual bowl size, chosen components and leftover prepared amounts determine portions; no route-specific nutrition certified.",
@@ -21315,11 +21517,11 @@
         "record": "docs/reviews/roasted-fall-harvest-salad.md",
         "acceptedSha256": "18611a0104c62e12482376de9910d21d98e8509fabb324495441f957f08f6e57",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "d3f98b46bc87c6791a4decad8e832ca7bd8e76e9"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/roasted-fall-harvest-salad.json",
         "sourceSha256": "18611a0104c62e12482376de9910d21d98e8509fabb324495441f957f08f6e57"
       },
@@ -21328,10 +21530,15 @@
           "commit": "ee9c707878074d7d56dcb3fb737afb537051aba5",
           "evidence": "actual recipe diff retained privately",
           "scope": "accelerated targeted repair"
-        }
+        },
+        "d3f98b46bc87c6791a4decad8e832ca7bd8e76e9"
       ],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "18611a0104c62e12482376de9910d21d98e8509fabb324495441f957f08f6e57",
+        "implementationCommit": "d3f98b46bc87c6791a4decad8e832ca7bd8e76e9",
+        "releaseCommit": "ea110e5b118002fc9aea578a2ae6b3dc2babaff8",
+        "evidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-production.json"
       },
       "remainingQuestions": [
         "Which full seasoning/can route is preferred remains open; actual chickpea can draining output is unmeasured.",
@@ -21364,17 +21571,21 @@
         "record": "docs/reviews/roasted-green-bean-fries.md",
         "acceptedSha256": "4a66fee7bd457069130b956e895dbd63a355a151ef3a14acaa5f8bccffae65f4",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "db6965376e6f4a13033202c5901217ef2e96b084"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/roasted-green-bean-fries.json",
         "sourceSha256": "4a66fee7bd457069130b956e895dbd63a355a151ef3a14acaa5f8bccffae65f4"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["db6965376e6f4a13033202c5901217ef2e96b084"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "4a66fee7bd457069130b956e895dbd63a355a151ef3a14acaa5f8bccffae65f4",
+        "implementationCommit": "db6965376e6f4a13033202c5901217ef2e96b084",
+        "releaseCommit": "ea110e5b118002fc9aea578a2ae6b3dc2babaff8",
+        "evidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-production.json"
       },
       "remainingQuestions": [
         "Actual bean thickness and oven load need kitchen checks.",
@@ -21563,17 +21774,21 @@
         "record": "docs/reviews/roasted-sweet-potatoes.md",
         "acceptedSha256": "feda2ec048655f6cdf9a348d3b6b8d0dd5e86f264202d02ba50bc95ee57a16f2",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "db6965376e6f4a13033202c5901217ef2e96b084"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/roasted-sweet-potatoes.json",
         "sourceSha256": "feda2ec048655f6cdf9a348d3b6b8d0dd5e86f264202d02ba50bc95ee57a16f2"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["db6965376e6f4a13033202c5901217ef2e96b084"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "feda2ec048655f6cdf9a348d3b6b8d0dd5e86f264202d02ba50bc95ee57a16f2",
+        "implementationCommit": "db6965376e6f4a13033202c5901217ef2e96b084",
+        "releaseCommit": "ea110e5b118002fc9aea578a2ae6b3dc2babaff8",
+        "evidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-production.json"
       },
       "remainingQuestions": [
         "Actual sheet temperature rating and load/cook time remain kitchen questions.",
@@ -21697,17 +21912,21 @@
         "record": "docs/reviews/royal-icing.md",
         "acceptedSha256": "cff40bfee7d76008fbd422c46af21bd89f22e7f354a6b765e3bc97d2bda4f703",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "8ef88e0292b824f7ade19ab23444377eb20a7324"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/royal-icing.json",
         "sourceSha256": "cff40bfee7d76008fbd422c46af21bd89f22e7f354a6b765e3bc97d2bda4f703"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["8ef88e0292b824f7ade19ab23444377eb20a7324"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "cff40bfee7d76008fbd422c46af21bd89f22e7f354a6b765e3bc97d2bda4f703",
+        "implementationCommit": "8ef88e0292b824f7ade19ab23444377eb20a7324",
+        "releaseCommit": "ea110e5b118002fc9aea578a2ae6b3dc2babaff8",
+        "evidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-production.json"
       },
       "remainingQuestions": [
         "No testedfinishedicingyield,shelflifeorwateractivity.2weekpublisherwetstorageoption held separately; original36servingsnotfixedcookies.",
@@ -21811,17 +22030,21 @@
         "record": "docs/reviews/sage-brown-butter-sauce-butternut-squash-ravioli.md",
         "acceptedSha256": "2bf6df2f39caba9045ffd0e34da5bf092d7991232d9607adc671a0888564d7bc",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "79e4ea75ab84a13e1793b4cf5f0fc4680e800f72"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/sage-brown-butter-sauce-butternut-squash-ravioli.json",
         "sourceSha256": "2bf6df2f39caba9045ffd0e34da5bf092d7991232d9607adc671a0888564d7bc"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["79e4ea75ab84a13e1793b4cf5f0fc4680e800f72"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "2bf6df2f39caba9045ffd0e34da5bf092d7991232d9607adc671a0888564d7bc",
+        "implementationCommit": "79e4ea75ab84a13e1793b4cf5f0fc4680e800f72",
+        "releaseCommit": "ea110e5b118002fc9aea578a2ae6b3dc2babaff8",
+        "evidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-production.json"
       },
       "remainingQuestions": [
         "Does the actual ravioli package require a different boil schedule, and does four portions match household appetites? The source gives 2–4 portions.",
@@ -21960,17 +22183,21 @@
         "record": "docs/reviews/sausage-and-white-bean-skillet.md",
         "acceptedSha256": "7a33e075c07f56dc4caaa216a327b44a82bb423a7c07241524e927f5a45c2fed",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "2667c6a0e14007fd1b7e38e3a67e3bf2b68e2e6c"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/sausage-and-white-bean-skillet.json",
         "sourceSha256": "7a33e075c07f56dc4caaa216a327b44a82bb423a7c07241524e927f5a45c2fed"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["2667c6a0e14007fd1b7e38e3a67e3bf2b68e2e6c"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "7a33e075c07f56dc4caaa216a327b44a82bb423a7c07241524e927f5a45c2fed",
+        "implementationCommit": "2667c6a0e14007fd1b7e38e3a67e3bf2b68e2e6c",
+        "releaseCommit": "ea110e5b118002fc9aea578a2ae6b3dc2babaff8",
+        "evidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-production.json"
       },
       "remainingQuestions": [
         "Confirm sausage product species/state and practical thicker-piece temperature readings.",
@@ -22003,17 +22230,21 @@
         "record": "docs/reviews/sausage-breakfast-casserole.md",
         "acceptedSha256": "4b35b8ca4245c6faa0e311aac1d72578024b394e1434c5cb26db2ece182a1e3b",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "8ef88e0292b824f7ade19ab23444377eb20a7324"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/sausage-breakfast-casserole.json",
         "sourceSha256": "4b35b8ca4245c6faa0e311aac1d72578024b394e1434c5cb26db2ece182a1e3b"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["8ef88e0292b824f7ade19ab23444377eb20a7324"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "4b35b8ca4245c6faa0e311aac1d72578024b394e1434c5cb26db2ece182a1e3b",
+        "implementationCommit": "8ef88e0292b824f7ade19ab23444377eb20a7324",
+        "releaseCommit": "ea110e5b118002fc9aea578a2ae6b3dc2babaff8",
+        "evidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-production.json"
       },
       "remainingQuestions": [
         "What actual sausage species,label and salt strength are used? Source measured salt has unspecified crystal size.",
@@ -22142,11 +22373,11 @@
         "record": "docs/reviews/savory-oatmeal-with-egg.md",
         "acceptedSha256": "fd4b4d70c5035169666c2c57a7e59918b7a1b8baf1babcde8ab93d72819eca30",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "2667c6a0e14007fd1b7e38e3a67e3bf2b68e2e6c"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/savory-oatmeal-with-egg.json",
         "sourceSha256": "fd4b4d70c5035169666c2c57a7e59918b7a1b8baf1babcde8ab93d72819eca30"
       },
@@ -22155,10 +22386,15 @@
           "commit": "493885bb88fa96b1ab626b20a5c8ec78830f9145",
           "evidence": "actual recipe diff retained privately",
           "scope": "historical safety/scaling/source repair; file touch is not complete review"
-        }
+        },
+        "2667c6a0e14007fd1b7e38e3a67e3bf2b68e2e6c"
       ],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "fd4b4d70c5035169666c2c57a7e59918b7a1b8baf1babcde8ab93d72819eca30",
+        "implementationCommit": "2667c6a0e14007fd1b7e38e3a67e3bf2b68e2e6c",
+        "releaseCommit": "ea110e5b118002fc9aea578a2ae6b3dc2babaff8",
+        "evidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-production.json"
       },
       "remainingQuestions": [
         "Actual oats package, saucepan size, egg firmness time and bowl thickness need observation. No external publisher was identified in the earliest Git source."
@@ -22235,17 +22471,21 @@
         "record": "docs/reviews/sazerac.md",
         "acceptedSha256": "7a65dc585e71cf61d5bd1411f05d66eee2ff38353978b79eba24e6f7160ca2a8",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "f2a5d9d1cb02b87d625fc9827a7ad5866ce635f7"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/sazerac.json",
         "sourceSha256": "7a65dc585e71cf61d5bd1411f05d66eee2ff38353978b79eba24e6f7160ca2a8"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["f2a5d9d1cb02b87d625fc9827a7ad5866ce635f7"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "7a65dc585e71cf61d5bd1411f05d66eee2ff38353978b79eba24e6f7160ca2a8",
+        "implementationCommit": "f2a5d9d1cb02b87d625fc9827a7ad5866ce635f7",
+        "releaseCommit": "ea110e5b118002fc9aea578a2ae6b3dc2babaff8",
+        "evidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-production.json"
       },
       "remainingQuestions": [
         "Compare rye/Cognac and optional bitters using the intended bottles, recording dash style and syrup strength.",
@@ -22582,17 +22822,21 @@
         "record": "docs/reviews/shakshuka.md",
         "acceptedSha256": "43ba7668f85c724354e97af83b7645f33b49bdbe500f676a1f5ddb7390802e6c",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "8ef88e0292b824f7ade19ab23444377eb20a7324"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/shakshuka.json",
         "sourceSha256": "43ba7668f85c724354e97af83b7645f33b49bdbe500f676a1f5ddb7390802e6c"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["8ef88e0292b824f7ade19ab23444377eb20a7324"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "43ba7668f85c724354e97af83b7645f33b49bdbe500f676a1f5ddb7390802e6c",
+        "implementationCommit": "8ef88e0292b824f7ade19ab23444377eb20a7324",
+        "releaseCommit": "ea110e5b118002fc9aea578a2ae6b3dc2babaff8",
+        "evidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-production.json"
       },
       "remainingQuestions": [
         "Which current main or separatehummus route is wanted for serving? Are pasteurizedshell eggs available forsoftyolks?",
@@ -22823,11 +23067,11 @@
         "record": "docs/reviews/sheet-pan-italian-sausage-dinner.md",
         "acceptedSha256": "1d4d38ffc2a6d436bac4d817d3d85afe64525a7a7b662dec710a59240e422da1",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "79e4ea75ab84a13e1793b4cf5f0fc4680e800f72"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/sheet-pan-italian-sausage-dinner.json",
         "sourceSha256": "1d4d38ffc2a6d436bac4d817d3d85afe64525a7a7b662dec710a59240e422da1"
       },
@@ -22841,10 +23085,15 @@
           "commit": "493885bb88fa96b1ab626b20a5c8ec78830f9145",
           "evidence": "actual recipe diff retained privately",
           "scope": "historical safety/scaling/source repair; file touch is not complete review"
-        }
+        },
+        "79e4ea75ab84a13e1793b4cf5f0fc4680e800f72"
       ],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "1d4d38ffc2a6d436bac4d817d3d85afe64525a7a7b662dec710a59240e422da1",
+        "implementationCommit": "79e4ea75ab84a13e1793b4cf5f0fc4680e800f72",
+        "releaseCommit": "ea110e5b118002fc9aea578a2ae6b3dc2babaff8",
+        "evidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-production.json"
       },
       "remainingQuestions": [
         "Actual raw link species/package, pan dimensions, potato size and broccoli amount/appliance?",
@@ -22877,17 +23126,21 @@
         "record": "docs/reviews/sheet-pan-pancakes.md",
         "acceptedSha256": "394cc66b25f0958c02d5660759f97b2e24d1bebf189624923bb5e2479ca02027",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "8ef88e0292b824f7ade19ab23444377eb20a7324"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/sheet-pan-pancakes.json",
         "sourceSha256": "394cc66b25f0958c02d5660759f97b2e24d1bebf189624923bb5e2479ca02027"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["8ef88e0292b824f7ade19ab23444377eb20a7324"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "394cc66b25f0958c02d5660759f97b2e24d1bebf189624923bb5e2479ca02027",
+        "implementationCommit": "8ef88e0292b824f7ade19ab23444377eb20a7324",
+        "releaseCommit": "ea110e5b118002fc9aea578a2ae6b3dc2babaff8",
+        "evidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-production.json"
       },
       "remainingQuestions": [
         "Whatactualrimmedpan depth and bakewindowproduce fullycookedfruitpockets?",
@@ -23640,11 +23893,11 @@
         "record": "docs/reviews/shrimp-wonton-soup.md",
         "acceptedSha256": "d22cb09190fe9f09a140287c45367de5e44998ac9517517e909ab90041074336",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "d3f98b46bc87c6791a4decad8e832ca7bd8e76e9"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/shrimp-wonton-soup.json",
         "sourceSha256": "d22cb09190fe9f09a140287c45367de5e44998ac9517517e909ab90041074336"
       },
@@ -23653,10 +23906,15 @@
           "commit": "a2c9e28069faa57c7bb7fe4ac5e7ca02b6462861",
           "evidence": "actual recipe diff retained privately",
           "scope": "historical safety/scaling/source repair; file touch is not complete review"
-        }
+        },
+        "d3f98b46bc87c6791a4decad8e832ca7bd8e76e9"
       ],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "d22cb09190fe9f09a140287c45367de5e44998ac9517517e909ab90041074336",
+        "implementationCommit": "d3f98b46bc87c6791a4decad8e832ca7bd8e76e9",
+        "releaseCommit": "ea110e5b118002fc9aea578a2ae6b3dc2babaff8",
+        "evidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-production.json"
       },
       "remainingQuestions": [
         "Taste restored filling salt/coriander without adding the original per-bowl salt on top of already seasoned broth.",
@@ -23693,17 +23951,21 @@
         "record": "docs/reviews/shruffs-end.md",
         "acceptedSha256": "dcd515ca6a75f38c63eec07b22682ba0ccb1915f3c79a42eac0cabc03e4e8934",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "d4f4b33a45cc391502355f7d5d2f10d3e6625e6e"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/shruffs-end.json",
         "sourceSha256": "dcd515ca6a75f38c63eec07b22682ba0ccb1915f3c79a42eac0cabc03e4e8934"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["d4f4b33a45cc391502355f7d5d2f10d3e6625e6e"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "dcd515ca6a75f38c63eec07b22682ba0ccb1915f3c79a42eac0cabc03e4e8934",
+        "implementationCommit": "d4f4b33a45cc391502355f7d5d2f10d3e6625e6e",
+        "releaseCommit": "ea110e5b118002fc9aea578a2ae6b3dc2babaff8",
+        "evidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-production.json"
       },
       "remainingQuestions": [
         "Exact glass capacity, ice geometry and preferred dilution at the original stirred proportions.",
@@ -23985,17 +24247,21 @@
         "record": "docs/reviews/slow-cooker-cheesy-mushroom-quinoa.md",
         "acceptedSha256": "b8e29ee1111899343b8b986ea088b6314589c1705cee89a0182f5c13dfb6f78f",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "8ef88e0292b824f7ade19ab23444377eb20a7324"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/slow-cooker-cheesy-mushroom-quinoa.json",
         "sourceSha256": "b8e29ee1111899343b8b986ea088b6314589c1705cee89a0182f5c13dfb6f78f"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["8ef88e0292b824f7ade19ab23444377eb20a7324"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "b8e29ee1111899343b8b986ea088b6314589c1705cee89a0182f5c13dfb6f78f",
+        "implementationCommit": "8ef88e0292b824f7ade19ab23444377eb20a7324",
+        "releaseCommit": "ea110e5b118002fc9aea578a2ae6b3dc2babaff8",
+        "evidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-production.json"
       },
       "remainingQuestions": [
         "What cooker model,insertcapacity,min/maxload and original2cupdry/4cupbroth behavior apply?",
@@ -24551,17 +24817,21 @@
         "record": "docs/reviews/smoky-spanish-rice-and-chickpeas.md",
         "acceptedSha256": "aa54a3f9cc4b8a9e817b48940c5b1f4ff4e2445e8069bbcc935d9ccdf364fe19",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "2667c6a0e14007fd1b7e38e3a67e3bf2b68e2e6c"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/smoky-spanish-rice-and-chickpeas.json",
         "sourceSha256": "aa54a3f9cc4b8a9e817b48940c5b1f4ff4e2445e8069bbcc935d9ccdf364fe19"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["2667c6a0e14007fd1b7e38e3a67e3bf2b68e2e6c"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "aa54a3f9cc4b8a9e817b48940c5b1f4ff4e2445e8069bbcc935d9ccdf364fe19",
+        "implementationCommit": "2667c6a0e14007fd1b7e38e3a67e3bf2b68e2e6c",
+        "releaseCommit": "ea110e5b118002fc9aea578a2ae6b3dc2babaff8",
+        "evidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-production.json"
       },
       "remainingQuestions": [
         "Confirm actual rice product and can contents; assess tender-grain result with retained tomato/broth formula.",
@@ -24886,11 +25156,11 @@
         "record": "docs/reviews/spaghetti-and-tofu-meatballs.md",
         "acceptedSha256": "deede67e2920e9e049b1506fb42bf7f6fb453b24360d84c4374769781ad92630",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "79e4ea75ab84a13e1793b4cf5f0fc4680e800f72"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/spaghetti-and-tofu-meatballs.json",
         "sourceSha256": "deede67e2920e9e049b1506fb42bf7f6fb453b24360d84c4374769781ad92630"
       },
@@ -24899,10 +25169,15 @@
           "commit": "493885bb88fa96b1ab626b20a5c8ec78830f9145",
           "evidence": "actual recipe diff retained privately",
           "scope": "historical safety/scaling/source repair; file touch is not complete review"
-        }
+        },
+        "79e4ea75ab84a13e1793b4cf5f0fc4680e800f72"
       ],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "deede67e2920e9e049b1506fb42bf7f6fb453b24360d84c4374769781ad92630",
+        "implementationCommit": "79e4ea75ab84a13e1793b4cf5f0fc4680e800f72",
+        "releaseCommit": "ea110e5b118002fc9aea578a2ae6b3dc2babaff8",
+        "evidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-production.json"
       },
       "remainingQuestions": [
         "Compare firmness and crumble rate for the actual extra-firm product and the source firm-tofu route; do not assume the same drained yield.",
@@ -25145,17 +25420,21 @@
         "record": "docs/reviews/spiced-butternut-squash-puree.md",
         "acceptedSha256": "acb25f35f6d68b46d791acbde46a03fd3b1ad8c4ddf4f50c6c2dbc3ec0500999",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "e2652b8c4e5c1a9aaf941f23877e18ebb54d41fa"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/spiced-butternut-squash-puree.json",
         "sourceSha256": "acb25f35f6d68b46d791acbde46a03fd3b1ad8c4ddf4f50c6c2dbc3ec0500999"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["e2652b8c4e5c1a9aaf941f23877e18ebb54d41fa"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "acb25f35f6d68b46d791acbde46a03fd3b1ad8c4ddf4f50c6c2dbc3ec0500999",
+        "implementationCommit": "e2652b8c4e5c1a9aaf941f23877e18ebb54d41fa",
+        "releaseCommit": "ea110e5b118002fc9aea578a2ae6b3dc2babaff8",
+        "evidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-production.json"
       },
       "remainingQuestions": [
         "Which roasted versus originalboiled familyroute ispreferred? What whole/trimmedsquash weights and actualfinishedvolume?",
@@ -25388,17 +25667,21 @@
         "record": "docs/reviews/spindrift-gin-fizz.md",
         "acceptedSha256": "05452f43c74c4b267d4b6cf20052ed1e870fea31a228269ccb264756fb1d1bd2",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "f2a5d9d1cb02b87d625fc9827a7ad5866ce635f7"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/spindrift-gin-fizz.json",
         "sourceSha256": "05452f43c74c4b267d4b6cf20052ed1e870fea31a228269ccb264756fb1d1bd2"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["f2a5d9d1cb02b87d625fc9827a7ad5866ce635f7"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "05452f43c74c4b267d4b6cf20052ed1e870fea31a228269ccb264756fb1d1bd2",
+        "implementationCommit": "f2a5d9d1cb02b87d625fc9827a7ad5866ce635f7",
+        "releaseCommit": "ea110e5b118002fc9aea578a2ae6b3dc2babaff8",
+        "evidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-production.json"
       },
       "remainingQuestions": [
         "Check three-glass volume/ice fit with actual topping product.",
@@ -25430,11 +25713,11 @@
         "record": "docs/reviews/starbucks-egg-bites.md",
         "acceptedSha256": "0e45c78d17ad5bce2c12936bb0f21c5e71226dee2002c0d0442ce9d23651c0c5",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "2667c6a0e14007fd1b7e38e3a67e3bf2b68e2e6c"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/starbucks-egg-bites.json",
         "sourceSha256": "0e45c78d17ad5bce2c12936bb0f21c5e71226dee2002c0d0442ce9d23651c0c5"
       },
@@ -25448,10 +25731,15 @@
           "commit": "493885bb88fa96b1ab626b20a5c8ec78830f9145",
           "evidence": "actual recipe diff retained privately",
           "scope": "historical safety/scaling/source repair; file touch is not complete review"
-        }
+        },
+        "2667c6a0e14007fd1b7e38e3a67e3bf2b68e2e6c"
       ],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "0e45c78d17ad5bce2c12936bb0f21c5e71226dee2002c0d0442ce9d23651c0c5",
+        "implementationCommit": "2667c6a0e14007fd1b7e38e3a67e3bf2b68e2e6c",
+        "releaseCommit": "ea110e5b118002fc9aea578a2ae6b3dc2babaff8",
+        "evidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-production.json"
       },
       "remainingQuestions": [
         "Actual well capacity/finished count, cooked-bacon state and time to165°F need observation. The current optional water-tray claim has no supported tray/fill/appliance configuration and remains a held variation, not required for the complete native/publisher oven route."
@@ -25769,17 +26057,21 @@
         "record": "docs/reviews/stevens-margs.md",
         "acceptedSha256": "86114338413473b1bb6186cb4906541d4b997c93fe2f5bb6f8f87e3a24d32945",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "d4f4b33a45cc391502355f7d5d2f10d3e6625e6e"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/stevens-margs.json",
         "sourceSha256": "86114338413473b1bb6186cb4906541d4b997c93fe2f5bb6f8f87e3a24d32945"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["d4f4b33a45cc391502355f7d5d2f10d3e6625e6e"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "86114338413473b1bb6186cb4906541d4b997c93fe2f5bb6f8f87e3a24d32945",
+        "implementationCommit": "d4f4b33a45cc391502355f7d5d2f10d3e6625e6e",
+        "releaseCommit": "ea110e5b118002fc9aea578a2ae6b3dc2babaff8",
+        "evidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-production.json"
       },
       "remainingQuestions": [
         "Which ratio Steven prefers remains a household question, not approval of a bulk reduction or source reset.",
@@ -25981,17 +26273,21 @@
         "record": "docs/reviews/stovetop-macaroni-and-cheese.md",
         "acceptedSha256": "5385bd3b77a9457f4888bd884525758ec841fa4ec8d39e6e7df0521b97c5eae7",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "79e4ea75ab84a13e1793b4cf5f0fc4680e800f72"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/stovetop-macaroni-and-cheese.json",
         "sourceSha256": "5385bd3b77a9457f4888bd884525758ec841fa4ec8d39e6e7df0521b97c5eae7"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["79e4ea75ab84a13e1793b4cf5f0fc4680e800f72"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "5385bd3b77a9457f4888bd884525758ec841fa4ec8d39e6e7df0521b97c5eae7",
+        "implementationCommit": "79e4ea75ab84a13e1793b4cf5f0fc4680e800f72",
+        "releaseCommit": "ea110e5b118002fc9aea578a2ae6b3dc2babaff8",
+        "evidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-production.json"
       },
       "remainingQuestions": [
         "Test actual pot capacity, pasta package time and preferred source cheese-range choice.",
@@ -26180,11 +26476,11 @@
         "record": "docs/reviews/strawberry-rhubarb-shortcake-with-whipped-mascarpone.md",
         "acceptedSha256": "66a0cbdd07fa01da364fbb75c5b9d1f43e8d80e31dd57a8bbf4643a254e2f865",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "c7570d86bc1a926fc3d248e4310a4bfa7232a5f7"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/strawberry-rhubarb-shortcake-with-whipped-mascarpone.json",
         "sourceSha256": "66a0cbdd07fa01da364fbb75c5b9d1f43e8d80e31dd57a8bbf4643a254e2f865"
       },
@@ -26193,10 +26489,15 @@
           "commit": "ee9c707878074d7d56dcb3fb737afb537051aba5",
           "evidence": "actual recipe diff retained privately",
           "scope": "accelerated targeted repair"
-        }
+        },
+        "c7570d86bc1a926fc3d248e4310a4bfa7232a5f7"
       ],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "66a0cbdd07fa01da364fbb75c5b9d1f43e8d80e31dd57a8bbf4643a254e2f865",
+        "implementationCommit": "c7570d86bc1a926fc3d248e4310a4bfa7232a5f7",
+        "releaseCommit": "ea110e5b118002fc9aea578a2ae6b3dc2babaff8",
+        "evidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-production.json"
       },
       "remainingQuestions": [
         "Can the actualoven roastfruit andbakeshortcakes simultaneously without crowding? Howlongdoesfruitcool? Whichsourcecream dough/rhubarbstalkchoice is intended?",
@@ -26234,17 +26535,21 @@
         "record": "docs/reviews/strawberry-rhubarb-yogurt-pops.md",
         "acceptedSha256": "4da41a4c4326940990acda8446c1e95ce73cb5922699981b041dde17416056a3",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "c7570d86bc1a926fc3d248e4310a4bfa7232a5f7"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/strawberry-rhubarb-yogurt-pops.json",
         "sourceSha256": "4da41a4c4326940990acda8446c1e95ce73cb5922699981b041dde17416056a3"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["c7570d86bc1a926fc3d248e4310a4bfa7232a5f7"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "4da41a4c4326940990acda8446c1e95ce73cb5922699981b041dde17416056a3",
+        "implementationCommit": "c7570d86bc1a926fc3d248e4310a4bfa7232a5f7",
+        "releaseCommit": "ea110e5b118002fc9aea578a2ae6b3dc2babaff8",
+        "evidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-production.json"
       },
       "remainingQuestions": [
         "What are actualmoldvolume, frozen count andcenters-freezing time? Is currentseaororiginalkosher intended?",
@@ -26334,17 +26639,21 @@
         "record": "docs/reviews/strozzapreti-with-spinach-and-preserved-lemon.md",
         "acceptedSha256": "0015f2fb40cf89d473c52b7ca23257f4d7feeb9dbf7fe45dc34b351b4503be02",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "79e4ea75ab84a13e1793b4cf5f0fc4680e800f72"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/strozzapreti-with-spinach-and-preserved-lemon.json",
         "sourceSha256": "0015f2fb40cf89d473c52b7ca23257f4d7feeb9dbf7fe45dc34b351b4503be02"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["79e4ea75ab84a13e1793b4cf5f0fc4680e800f72"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "0015f2fb40cf89d473c52b7ca23257f4d7feeb9dbf7fe45dc34b351b4503be02",
+        "implementationCommit": "79e4ea75ab84a13e1793b4cf5f0fc4680e800f72",
+        "releaseCommit": "ea110e5b118002fc9aea578a2ae6b3dc2babaff8",
+        "evidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-production.json"
       },
       "remainingQuestions": [
         "Compare both exclusive pepper allocations and actual preserved-lemon salt level without inventing a crystal or acidity equivalence.",
@@ -26593,17 +26902,21 @@
         "record": "docs/reviews/sweet-and-spicy-spareribs-with-korean-barbecue-sauce.md",
         "acceptedSha256": "f2952c972f72307e8f70a338641972f1bbbca5681c00940ca5fa29164d81a9db",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "e2652b8c4e5c1a9aaf941f23877e18ebb54d41fa"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/sweet-and-spicy-spareribs-with-korean-barbecue-sauce.json",
         "sourceSha256": "f2952c972f72307e8f70a338641972f1bbbca5681c00940ca5fa29164d81a9db"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["e2652b8c4e5c1a9aaf941f23877e18ebb54d41fa"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "f2952c972f72307e8f70a338641972f1bbbca5681c00940ca5fa29164d81a9db",
+        "implementationCommit": "e2652b8c4e5c1a9aaf941f23877e18ebb54d41fa",
+        "releaseCommit": "ea110e5b118002fc9aea578a2ae6b3dc2babaff8",
+        "evidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-production.json"
       },
       "remainingQuestions": [
         "Which ketchup-freecurrent versus½cupketchup/sourcefinish-salt route iswanted? No householdintentinvented.",
@@ -26744,17 +27057,21 @@
         "record": "docs/reviews/sweet-potato-fries.md",
         "acceptedSha256": "5d6d30b1faf117020600afdb6106b26696aef6ab768cdf2d0a35f0cf15187da3",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "db6965376e6f4a13033202c5901217ef2e96b084"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/sweet-potato-fries.json",
         "sourceSha256": "5d6d30b1faf117020600afdb6106b26696aef6ab768cdf2d0a35f0cf15187da3"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["db6965376e6f4a13033202c5901217ef2e96b084"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "5d6d30b1faf117020600afdb6106b26696aef6ab768cdf2d0a35f0cf15187da3",
+        "implementationCommit": "db6965376e6f4a13033202c5901217ef2e96b084",
+        "releaseCommit": "ea110e5b118002fc9aea578a2ae6b3dc2babaff8",
+        "evidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-production.json"
       },
       "remainingQuestions": [
         "NYT direct recipe fetch unavailable; exact bound native and actual Git preserve the complete formula.",
@@ -26786,17 +27103,21 @@
         "record": "docs/reviews/sweet-potato-latkes.md",
         "acceptedSha256": "64ddf49b4308d4fd0816d5ee4e62c6328ce47863a446b9538eb99bd7c39be09a",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "db6965376e6f4a13033202c5901217ef2e96b084"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/sweet-potato-latkes.json",
         "sourceSha256": "64ddf49b4308d4fd0816d5ee4e62c6328ce47863a446b9538eb99bd7c39be09a"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["db6965376e6f4a13033202c5901217ef2e96b084"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "64ddf49b4308d4fd0816d5ee4e62c6328ce47863a446b9538eb99bd7c39be09a",
+        "implementationCommit": "db6965376e6f4a13033202c5901217ef2e96b084",
+        "releaseCommit": "ea110e5b118002fc9aea578a2ae6b3dc2babaff8",
+        "evidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-production.json"
       },
       "remainingQuestions": [
         "Actual probe access, retained moisture, oil absorption and 26-count yield need kitchen checks.",
@@ -27044,17 +27365,21 @@
         "record": "docs/reviews/tamagoyaki-japanese-rolled-omelet.md",
         "acceptedSha256": "a2a236d8a67455487136636ace81f68b9f76799e887412f787cbad27d268017b",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "2667c6a0e14007fd1b7e38e3a67e3bf2b68e2e6c"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/tamagoyaki-japanese-rolled-omelet.json",
         "sourceSha256": "a2a236d8a67455487136636ace81f68b9f76799e887412f787cbad27d268017b"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["2667c6a0e14007fd1b7e38e3a67e3bf2b68e2e6c"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "a2a236d8a67455487136636ace81f68b9f76799e887412f787cbad27d268017b",
+        "implementationCommit": "2667c6a0e14007fd1b7e38e3a67e3bf2b68e2e6c",
+        "releaseCommit": "ea110e5b118002fc9aea578a2ae6b3dc2babaff8",
+        "evidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-production.json"
       },
       "remainingQuestions": [
         "Actual pan footprint, number of layers per roll, measured center and finished slice count need observation. The saved eight-egg formula has no attributed publisher; the separately consulted Japanese publisher supports rolling mechanics and mirin identification, not equivalence to its different three-egg formula."
@@ -27168,11 +27493,11 @@
         "record": "docs/reviews/thai-basil-ginger-spritzer.md",
         "acceptedSha256": "2345d3d0a849eab23589f7a3cdee422a5db3e186d75433a81b5690f58e833aa0",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "d4f4b33a45cc391502355f7d5d2f10d3e6625e6e"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/thai-basil-ginger-spritzer.json",
         "sourceSha256": "2345d3d0a849eab23589f7a3cdee422a5db3e186d75433a81b5690f58e833aa0"
       },
@@ -27181,10 +27506,15 @@
           "commit": "a2c9e28069faa57c7bb7fe4ac5e7ca02b6462861",
           "evidence": "actual recipe diff retained privately",
           "scope": "historical safety/scaling/source repair; file touch is not complete review"
-        }
+        },
+        "d4f4b33a45cc391502355f7d5d2f10d3e6625e6e"
       ],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "2345d3d0a849eab23589f7a3cdee422a5db3e186d75433a81b5690f58e833aa0",
+        "implementationCommit": "d4f4b33a45cc391502355f7d5d2f10d3e6625e6e",
+        "releaseCommit": "ea110e5b118002fc9aea578a2ae6b3dc2babaff8",
+        "evidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-production.json"
       },
       "remainingQuestions": [
         "Actual strained syrup yield is not certified by1cup water plus half-cup sugar.",
@@ -27466,17 +27796,21 @@
         "record": "docs/reviews/the-easiest-spinach-lasagna.md",
         "acceptedSha256": "2d95c0b570576414cc25a3ec2b8ae14a79c22592ae415441edfd97f036dbb7de",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "79e4ea75ab84a13e1793b4cf5f0fc4680e800f72"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/the-easiest-spinach-lasagna.json",
         "sourceSha256": "2d95c0b570576414cc25a3ec2b8ae14a79c22592ae415441edfd97f036dbb7de"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["79e4ea75ab84a13e1793b4cf5f0fc4680e800f72"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "2d95c0b570576414cc25a3ec2b8ae14a79c22592ae415441edfd97f036dbb7de",
+        "implementationCommit": "79e4ea75ab84a13e1793b4cf5f0fc4680e800f72",
+        "releaseCommit": "ea110e5b118002fc9aea578a2ae6b3dc2babaff8",
+        "evidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-production.json"
       },
       "remainingQuestions": [
         "Confirm actual no-boil sheet brand/weight coverage and dish depth/headroom; no extra hydration liquid or invented pan depth is supplied.",
@@ -27553,17 +27887,21 @@
         "record": "docs/reviews/the-new-england-express.md",
         "acceptedSha256": "6f7fa8f28507134dcc654c5029632f25ea60413e74eedc69e16bcf793081b3de",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "d4f4b33a45cc391502355f7d5d2f10d3e6625e6e"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/the-new-england-express.json",
         "sourceSha256": "6f7fa8f28507134dcc654c5029632f25ea60413e74eedc69e16bcf793081b3de"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["d4f4b33a45cc391502355f7d5d2f10d3e6625e6e"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "6f7fa8f28507134dcc654c5029632f25ea60413e74eedc69e16bcf793081b3de",
+        "implementationCommit": "d4f4b33a45cc391502355f7d5d2f10d3e6625e6e",
+        "releaseCommit": "ea110e5b118002fc9aea578a2ae6b3dc2babaff8",
+        "evidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-production.json"
       },
       "remainingQuestions": [
         "Actual strained syrup/finished punch volume and serving glass capacity.",
@@ -27816,17 +28154,21 @@
         "record": "docs/reviews/tomato-cobbler-with-cornmeal-cheddar-biscuits.md",
         "acceptedSha256": "60ff4fb1e00e71a06075cea02241f24f76db14cad6096f61211e829b43288450",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "8ef88e0292b824f7ade19ab23444377eb20a7324"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/tomato-cobbler-with-cornmeal-cheddar-biscuits.json",
         "sourceSha256": "60ff4fb1e00e71a06075cea02241f24f76db14cad6096f61211e829b43288450"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["8ef88e0292b824f7ade19ab23444377eb20a7324"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "60ff4fb1e00e71a06075cea02241f24f76db14cad6096f61211e829b43288450",
+        "implementationCommit": "8ef88e0292b824f7ade19ab23444377eb20a7324",
+        "releaseCommit": "ea110e5b118002fc9aea578a2ae6b3dc2babaff8",
+        "evidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-production.json"
       },
       "remainingQuestions": [
         "Which high-sided vesselactualdepth fits4lbtomatoes/alldoughwithheadroom? Howmany walnutmounds areproduced fromthefullcurrentdough?",
@@ -28056,17 +28398,21 @@
         "record": "docs/reviews/tuscan-spaghetti-squash.md",
         "acceptedSha256": "6db493d598b221fa240f60a0a538fc32220b1663e645910d5fefe1ade3dc22af",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "db6965376e6f4a13033202c5901217ef2e96b084"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/tuscan-spaghetti-squash.json",
         "sourceSha256": "6db493d598b221fa240f60a0a538fc32220b1663e645910d5fefe1ade3dc22af"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["db6965376e6f4a13033202c5901217ef2e96b084"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "6db493d598b221fa240f60a0a538fc32220b1663e645910d5fefe1ade3dc22af",
+        "implementationCommit": "db6965376e6f4a13033202c5901217ef2e96b084",
+        "releaseCommit": "ea110e5b118002fc9aea578a2ae6b3dc2babaff8",
+        "evidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-production.json"
       },
       "remainingQuestions": [
         "Delish direct fetch unavailable; exact native/earlier Git support formula and complete source method.",
@@ -28415,17 +28761,21 @@
         "record": "docs/reviews/vieux-carre.md",
         "acceptedSha256": "6b7089ce0b0bb0a87bf310b75beaa33743fb01991b4846d581318af8e3f35d82",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "f2a5d9d1cb02b87d625fc9827a7ad5866ce635f7"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/vieux-carre.json",
         "sourceSha256": "6b7089ce0b0bb0a87bf310b75beaa33743fb01991b4846d581318af8e3f35d82"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["f2a5d9d1cb02b87d625fc9827a7ad5866ce635f7"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "6b7089ce0b0bb0a87bf310b75beaa33743fb01991b4846d581318af8e3f35d82",
+        "implementationCommit": "f2a5d9d1cb02b87d625fc9827a7ad5866ce635f7",
+        "releaseCommit": "ea110e5b118002fc9aea578a2ae6b3dc2babaff8",
+        "evidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-production.json"
       },
       "remainingQuestions": [
         "Compare currentstirredroute and savedshakenrocksroute without changing the measuredingredients.",
@@ -28496,11 +28846,11 @@
         "record": "docs/reviews/warm-roasted-veggie-salad-with-maple-dijon-vinaigrette.md",
         "acceptedSha256": "157d847a52d8b609cb8ae3faff35bebd1d814b6432dea4ca6c3dd15ebdc85bb7",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "d3f98b46bc87c6791a4decad8e832ca7bd8e76e9"
       },
       "latestRecipeCommit": "5741495b479d1891066e004ed07aa4b5f830db66",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/warm-roasted-veggie-salad-with-maple-dijon-vinaigrette.json",
         "sourceSha256": "157d847a52d8b609cb8ae3faff35bebd1d814b6432dea4ca6c3dd15ebdc85bb7"
       },
@@ -28509,10 +28859,15 @@
           "commit": "5741495b479d1891066e004ed07aa4b5f830db66",
           "evidence": "actual recipe diff retained privately",
           "scope": "accelerated targeted repair"
-        }
+        },
+        "d3f98b46bc87c6791a4decad8e832ca7bd8e76e9"
       ],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "157d847a52d8b609cb8ae3faff35bebd1d814b6432dea4ca6c3dd15ebdc85bb7",
+        "implementationCommit": "d3f98b46bc87c6791a4decad8e832ca7bd8e76e9",
+        "releaseCommit": "ea110e5b118002fc9aea578a2ae6b3dc2babaff8",
+        "evidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-production.json"
       },
       "remainingQuestions": [
         "Which seasoning route is preferred in the household remains open; neither is kitchen-tested.",
@@ -28678,11 +29033,11 @@
         "record": "docs/reviews/whiskey-sour.md",
         "acceptedSha256": "eb544d392ee6824609395681f5108053756be376ab7284eb1e10851db66cedc7",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "f2a5d9d1cb02b87d625fc9827a7ad5866ce635f7"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/whiskey-sour.json",
         "sourceSha256": "eb544d392ee6824609395681f5108053756be376ab7284eb1e10851db66cedc7"
       },
@@ -28691,10 +29046,15 @@
           "commit": "a2c9e28069faa57c7bb7fe4ac5e7ca02b6462861",
           "evidence": "actual recipe diff retained privately",
           "scope": "historical safety/scaling/source repair; file touch is not complete review"
-        }
+        },
+        "f2a5d9d1cb02b87d625fc9827a7ad5866ce635f7"
       ],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "eb544d392ee6824609395681f5108053756be376ab7284eb1e10851db66cedc7",
+        "implementationCommit": "f2a5d9d1cb02b87d625fc9827a7ad5866ce635f7",
+        "releaseCommit": "ea110e5b118002fc9aea578a2ae6b3dc2babaff8",
+        "evidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-production.json"
       },
       "remainingQuestions": [
         "Identify household syrup concentration and compare sweetness without silently normalizing the formula.",
@@ -29058,17 +29418,21 @@
         "record": "docs/reviews/zucchini-herb-fritters-with-garlic-yogurt.md",
         "acceptedSha256": "9466304b9723564aeae263622dadde233a90db0d9cc5a0d9a6db8d1c731e0020",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "db6965376e6f4a13033202c5901217ef2e96b084"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/zucchini-herb-fritters-with-garlic-yogurt.json",
         "sourceSha256": "9466304b9723564aeae263622dadde233a90db0d9cc5a0d9a6db8d1c731e0020"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["db6965376e6f4a13033202c5901217ef2e96b084"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "9466304b9723564aeae263622dadde233a90db0d9cc5a0d9a6db8d1c731e0020",
+        "implementationCommit": "db6965376e6f4a13033202c5901217ef2e96b084",
+        "releaseCommit": "ea110e5b118002fc9aea578a2ae6b3dc2babaff8",
+        "evidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-production.json"
       },
       "remainingQuestions": [
         "Actual vegetable yield, scoop/count and pan oil-depth require kitchen observation.",

@@ -1,6 +1,6 @@
 {
   "slug": "no-cook-playdough",
-  "status": "accepted complete editorial review; implementation and production pending",
+  "status": "complete editorial review; implemented and verified live",
   "inputCommit": "fb7e607fa5e50ee1dc44554f9f5be31bbbe1b75e",
   "inputSha256": "342258d03dad918835f4f8efec9013503b6a018998953750f158f7b7e2bb64ea",
   "acceptedSourceSha256": "638d2fd47396dd05eda8d5c3a887c248ab875c8103b1589345cf8dfe62e4288c",
@@ -492,7 +492,7 @@
   "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
   "sourceEvidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
   "rootDisposition": "Complete author and independent whole reviews and root full cooking/source diff inspection were completed in the frozen groups. Recipe-specific consequential corrections received bounded nonself review. Reuse this finished evidence without repeating unchanged intake gates. Planning ranges, sensory cues and source disagreements remain explicit; no kitchen test, native sync or blanket linked-meal acceptance.",
-  "productionVerification": "pending",
+  "productionVerification": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-production.json",
   "kitchenTested": false,
   "nativeAppSynced": false,
   "integratedValidation": {
@@ -517,5 +517,7 @@
     "kitchenTests": 0,
     "nativeAppSynced": false,
     "editorialTriage": "Independently challenged recognition of a commercial pasteurized-in-shell egg product-use instruction, with conservative home-process guards. Actual low-temperature poultry, mixed methods, home egg treatment and ambiguous claims remain flagged. Cooking prose, rule words and prior stock/shrimp/pork/holding controls are preserved; this is editorial triage, not safety certification."
-  }
+  },
+  "implementationCommit": "8ef88e0292b824f7ade19ab23444377eb20a7324",
+  "releaseCommit": "ea110e5b118002fc9aea578a2ae6b3dc2babaff8"
 }

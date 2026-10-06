@@ -1,6 +1,6 @@
 {
   "slug": "enchiladas-suizas",
-  "status": "accepted complete editorial review; implementation and production pending",
+  "status": "complete editorial review; implemented and verified live",
   "inputCommit": "fb7e607fa5e50ee1dc44554f9f5be31bbbe1b75e",
   "inputSha256": "86cd5a296f14ea25d6423b320ce535dc55f5e2eb7b938e2141b6a90848b2e98b",
   "acceptedSourceSha256": "c40fc0c8c69c71ef270bdc5882c0497a977d686c989c94a924e1a3b7ada906e1",
@@ -639,7 +639,7 @@
   "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
   "sourceEvidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
   "rootDisposition": "Complete author and independent whole reviews and root full cooking/source diff inspection were completed in the frozen groups. Recipe-specific consequential corrections received bounded nonself review. Reuse this finished evidence without repeating unchanged intake gates. Planning ranges, sensory cues and source disagreements remain explicit; no kitchen test, native sync or blanket linked-meal acceptance.",
-  "productionVerification": "pending",
+  "productionVerification": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-production.json",
   "kitchenTested": false,
   "nativeAppSynced": false,
   "integratedValidation": {
@@ -664,5 +664,7 @@
     "kitchenTests": 0,
     "nativeAppSynced": false,
     "editorialTriage": "Independently challenged recognition of a commercial pasteurized-in-shell egg product-use instruction, with conservative home-process guards. Actual low-temperature poultry, mixed methods, home egg treatment and ambiguous claims remain flagged. Cooking prose, rule words and prior stock/shrimp/pork/holding controls are preserved; this is editorial triage, not safety certification."
-  }
+  },
+  "implementationCommit": "79e4ea75ab84a13e1793b4cf5f0fc4680e800f72",
+  "releaseCommit": "ea110e5b118002fc9aea578a2ae6b3dc2babaff8"
 }

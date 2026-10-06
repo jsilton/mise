@@ -1,6 +1,6 @@
 {
   "slug": "spindrift-gin-fizz",
-  "status": "accepted complete editorial review; implementation and production pending",
+  "status": "complete editorial review; implemented and verified live",
   "inputCommit": "fb7e607fa5e50ee1dc44554f9f5be31bbbe1b75e",
   "inputSha256": "40470e1d1410cc1ee1282b0f7edc0c404558e7b1013000eaa5e6f8dbef1766c3",
   "acceptedSourceSha256": "05452f43c74c4b267d4b6cf20052ed1e870fea31a228269ccb264756fb1d1bd2",
@@ -704,7 +704,7 @@
   "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
   "sourceEvidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
   "rootDisposition": "Complete author and independent whole reviews and root full cooking/source diff inspection were completed in the frozen groups. Recipe-specific consequential corrections received bounded nonself review. Reuse this finished evidence without repeating unchanged intake gates. Planning ranges, sensory cues and source disagreements remain explicit; no kitchen test, native sync or blanket linked-meal acceptance.",
-  "productionVerification": "pending",
+  "productionVerification": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-production.json",
   "kitchenTested": false,
   "nativeAppSynced": false,
   "rootBuiltLinkCorrection": {
@@ -745,5 +745,7 @@
     "kitchenTests": 0,
     "nativeAppSynced": false,
     "editorialTriage": "Independently challenged recognition of a commercial pasteurized-in-shell egg product-use instruction, with conservative home-process guards. Actual low-temperature poultry, mixed methods, home egg treatment and ambiguous claims remain flagged. Cooking prose, rule words and prior stock/shrimp/pork/holding controls are preserved; this is editorial triage, not safety certification."
-  }
+  },
+  "implementationCommit": "f2a5d9d1cb02b87d625fc9827a7ad5866ce635f7",
+  "releaseCommit": "ea110e5b118002fc9aea578a2ae6b3dc2babaff8"
 }

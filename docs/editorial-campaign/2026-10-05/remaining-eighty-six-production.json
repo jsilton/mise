@@ -1,0 +1,1744 @@
+{
+  "status": "Verified live complete editorial versions",
+  "releaseCommit": "ea110e5b118002fc9aea578a2ae6b3dc2babaff8",
+  "implementationCommit": null,
+  "atomicRecipeCommits": [
+    {
+      "group": "egg-beans-eleven",
+      "commit": "2667c6a0e14007fd1b7e38e3a67e3bf2b68e2e6c",
+      "recipes": [
+        "braised-french-lentils",
+        "jeris-lentil-soup",
+        "pizza-beans",
+        "sausage-and-white-bean-skillet",
+        "smoky-spanish-rice-and-chickpeas",
+        "breakfast-burrito",
+        "breakfast-quesadilla",
+        "egg-in-a-hole",
+        "savory-oatmeal-with-egg",
+        "starbucks-egg-bites",
+        "tamagoyaki-japanese-rolled-omelet"
+      ],
+      "paths": [
+        "src/content/recipes/braised-french-lentils.md",
+        "docs/reviews/braised-french-lentils.json",
+        "docs/reviews/braised-french-lentils.md",
+        "src/content/recipes/jeris-lentil-soup.md",
+        "docs/reviews/jeris-lentil-soup.json",
+        "docs/reviews/jeris-lentil-soup.md",
+        "src/content/recipes/pizza-beans.md",
+        "docs/reviews/pizza-beans.json",
+        "docs/reviews/pizza-beans.md",
+        "src/content/recipes/sausage-and-white-bean-skillet.md",
+        "docs/reviews/sausage-and-white-bean-skillet.json",
+        "docs/reviews/sausage-and-white-bean-skillet.md",
+        "src/content/recipes/smoky-spanish-rice-and-chickpeas.md",
+        "docs/reviews/smoky-spanish-rice-and-chickpeas.json",
+        "docs/reviews/smoky-spanish-rice-and-chickpeas.md",
+        "src/content/recipes/breakfast-burrito.md",
+        "docs/reviews/breakfast-burrito.json",
+        "docs/reviews/breakfast-burrito.md",
+        "src/content/recipes/breakfast-quesadilla.md",
+        "docs/reviews/breakfast-quesadilla.json",
+        "docs/reviews/breakfast-quesadilla.md",
+        "src/content/recipes/egg-in-a-hole.md",
+        "docs/reviews/egg-in-a-hole.json",
+        "docs/reviews/egg-in-a-hole.md",
+        "src/content/recipes/savory-oatmeal-with-egg.md",
+        "docs/reviews/savory-oatmeal-with-egg.json",
+        "docs/reviews/savory-oatmeal-with-egg.md",
+        "src/content/recipes/starbucks-egg-bites.md",
+        "docs/reviews/starbucks-egg-bites.json",
+        "docs/reviews/starbucks-egg-bites.md",
+        "src/content/recipes/tamagoyaki-japanese-rolled-omelet.md",
+        "docs/reviews/tamagoyaki-japanese-rolled-omelet.json",
+        "docs/reviews/tamagoyaki-japanese-rolled-omelet.md"
+      ]
+    },
+    {
+      "group": "protein-pasta-twelve",
+      "commit": "79e4ea75ab84a13e1793b4cf5f0fc4680e800f72",
+      "recipes": [
+        "beef-tenderloin-dogs-with-corn-relish",
+        "bibimbap",
+        "enchilada-skillet",
+        "enchiladas-suizas",
+        "mediterranean-chicken-bowls",
+        "sheet-pan-italian-sausage-dinner",
+        "sage-brown-butter-sauce-butternut-squash-ravioli",
+        "spaghetti-and-tofu-meatballs",
+        "stovetop-macaroni-and-cheese",
+        "strozzapreti-with-spinach-and-preserved-lemon",
+        "the-easiest-spinach-lasagna",
+        "harvest-sheet-pan-gnocchi-with-crispy-kale"
+      ],
+      "paths": [
+        "src/content/recipes/beef-tenderloin-dogs-with-corn-relish.md",
+        "docs/reviews/beef-tenderloin-dogs-with-corn-relish.json",
+        "docs/reviews/beef-tenderloin-dogs-with-corn-relish.md",
+        "src/content/recipes/bibimbap.md",
+        "docs/reviews/bibimbap.json",
+        "docs/reviews/bibimbap.md",
+        "src/content/recipes/enchilada-skillet.md",
+        "docs/reviews/enchilada-skillet.json",
+        "docs/reviews/enchilada-skillet.md",
+        "src/content/recipes/enchiladas-suizas.md",
+        "docs/reviews/enchiladas-suizas.json",
+        "docs/reviews/enchiladas-suizas.md",
+        "src/content/recipes/mediterranean-chicken-bowls.md",
+        "docs/reviews/mediterranean-chicken-bowls.json",
+        "docs/reviews/mediterranean-chicken-bowls.md",
+        "src/content/recipes/sheet-pan-italian-sausage-dinner.md",
+        "docs/reviews/sheet-pan-italian-sausage-dinner.json",
+        "docs/reviews/sheet-pan-italian-sausage-dinner.md",
+        "src/content/recipes/sage-brown-butter-sauce-butternut-squash-ravioli.md",
+        "docs/reviews/sage-brown-butter-sauce-butternut-squash-ravioli.json",
+        "docs/reviews/sage-brown-butter-sauce-butternut-squash-ravioli.md",
+        "src/content/recipes/spaghetti-and-tofu-meatballs.md",
+        "docs/reviews/spaghetti-and-tofu-meatballs.json",
+        "docs/reviews/spaghetti-and-tofu-meatballs.md",
+        "src/content/recipes/stovetop-macaroni-and-cheese.md",
+        "docs/reviews/stovetop-macaroni-and-cheese.json",
+        "docs/reviews/stovetop-macaroni-and-cheese.md",
+        "src/content/recipes/strozzapreti-with-spinach-and-preserved-lemon.md",
+        "docs/reviews/strozzapreti-with-spinach-and-preserved-lemon.json",
+        "docs/reviews/strozzapreti-with-spinach-and-preserved-lemon.md",
+        "src/content/recipes/the-easiest-spinach-lasagna.md",
+        "docs/reviews/the-easiest-spinach-lasagna.json",
+        "docs/reviews/the-easiest-spinach-lasagna.md",
+        "src/content/recipes/harvest-sheet-pan-gnocchi-with-crispy-kale.md",
+        "docs/reviews/harvest-sheet-pan-gnocchi-with-crispy-kale.json",
+        "docs/reviews/harvest-sheet-pan-gnocchi-with-crispy-kale.md"
+      ]
+    },
+    {
+      "group": "breakfast-bread-craft-eleven",
+      "commit": "8ef88e0292b824f7ade19ab23444377eb20a7324",
+      "recipes": [
+        "sausage-breakfast-casserole",
+        "shakshuka",
+        "sheet-pan-pancakes",
+        "slow-cooker-cheesy-mushroom-quinoa",
+        "tomato-cobbler-with-cornmeal-cheddar-biscuits",
+        "my-favorite-challah",
+        "no-cook-playdough",
+        "play-dough",
+        "pork-and-greens-dumplings",
+        "real-spaghetti-carbonara",
+        "royal-icing"
+      ],
+      "paths": [
+        "src/content/recipes/sausage-breakfast-casserole.md",
+        "docs/reviews/sausage-breakfast-casserole.json",
+        "docs/reviews/sausage-breakfast-casserole.md",
+        "src/content/recipes/shakshuka.md",
+        "docs/reviews/shakshuka.json",
+        "docs/reviews/shakshuka.md",
+        "src/content/recipes/sheet-pan-pancakes.md",
+        "docs/reviews/sheet-pan-pancakes.json",
+        "docs/reviews/sheet-pan-pancakes.md",
+        "src/content/recipes/slow-cooker-cheesy-mushroom-quinoa.md",
+        "docs/reviews/slow-cooker-cheesy-mushroom-quinoa.json",
+        "docs/reviews/slow-cooker-cheesy-mushroom-quinoa.md",
+        "src/content/recipes/tomato-cobbler-with-cornmeal-cheddar-biscuits.md",
+        "docs/reviews/tomato-cobbler-with-cornmeal-cheddar-biscuits.json",
+        "docs/reviews/tomato-cobbler-with-cornmeal-cheddar-biscuits.md",
+        "src/content/recipes/my-favorite-challah.md",
+        "docs/reviews/my-favorite-challah.json",
+        "docs/reviews/my-favorite-challah.md",
+        "src/content/recipes/no-cook-playdough.md",
+        "docs/reviews/no-cook-playdough.json",
+        "docs/reviews/no-cook-playdough.md",
+        "src/content/recipes/play-dough.md",
+        "docs/reviews/play-dough.json",
+        "docs/reviews/play-dough.md",
+        "src/content/recipes/pork-and-greens-dumplings.md",
+        "docs/reviews/pork-and-greens-dumplings.json",
+        "docs/reviews/pork-and-greens-dumplings.md",
+        "src/content/recipes/real-spaghetti-carbonara.md",
+        "docs/reviews/real-spaghetti-carbonara.json",
+        "docs/reviews/real-spaghetti-carbonara.md",
+        "src/content/recipes/royal-icing.md",
+        "docs/reviews/royal-icing.json",
+        "docs/reviews/royal-icing.md"
+      ]
+    },
+    {
+      "group": "vegetables-eight",
+      "commit": "db6965376e6f4a13033202c5901217ef2e96b084",
+      "recipes": [
+        "crispy-oven-zucchini-fries",
+        "kale-caesar-with-crispy-chickpeas",
+        "roasted-green-bean-fries",
+        "roasted-sweet-potatoes",
+        "sweet-potato-fries",
+        "sweet-potato-latkes",
+        "tuscan-spaghetti-squash",
+        "zucchini-herb-fritters-with-garlic-yogurt"
+      ],
+      "paths": [
+        "src/content/recipes/crispy-oven-zucchini-fries.md",
+        "docs/reviews/crispy-oven-zucchini-fries.json",
+        "docs/reviews/crispy-oven-zucchini-fries.md",
+        "src/content/recipes/kale-caesar-with-crispy-chickpeas.md",
+        "docs/reviews/kale-caesar-with-crispy-chickpeas.json",
+        "docs/reviews/kale-caesar-with-crispy-chickpeas.md",
+        "src/content/recipes/roasted-green-bean-fries.md",
+        "docs/reviews/roasted-green-bean-fries.json",
+        "docs/reviews/roasted-green-bean-fries.md",
+        "src/content/recipes/roasted-sweet-potatoes.md",
+        "docs/reviews/roasted-sweet-potatoes.json",
+        "docs/reviews/roasted-sweet-potatoes.md",
+        "src/content/recipes/sweet-potato-fries.md",
+        "docs/reviews/sweet-potato-fries.json",
+        "docs/reviews/sweet-potato-fries.md",
+        "src/content/recipes/sweet-potato-latkes.md",
+        "docs/reviews/sweet-potato-latkes.json",
+        "docs/reviews/sweet-potato-latkes.md",
+        "src/content/recipes/tuscan-spaghetti-squash.md",
+        "docs/reviews/tuscan-spaghetti-squash.json",
+        "docs/reviews/tuscan-spaghetti-squash.md",
+        "src/content/recipes/zucchini-herb-fritters-with-garlic-yogurt.md",
+        "docs/reviews/zucchini-herb-fritters-with-garlic-yogurt.json",
+        "docs/reviews/zucchini-herb-fritters-with-garlic-yogurt.md"
+      ]
+    },
+    {
+      "group": "sweet-fruit-seven",
+      "commit": "c7570d86bc1a926fc3d248e4310a4bfa7232a5f7",
+      "recipes": [
+        "parishs-blueberry-crisp",
+        "parmigiano-reggiano-cheesecake",
+        "peach-pie-biscuit-bombs",
+        "peach-pie-pancakes",
+        "strawberry-rhubarb-shortcake-with-whipped-mascarpone",
+        "strawberry-rhubarb-yogurt-pops",
+        "old-fashioned-strawberry-ice-cream"
+      ],
+      "paths": [
+        "src/content/recipes/parishs-blueberry-crisp.md",
+        "docs/reviews/parishs-blueberry-crisp.json",
+        "docs/reviews/parishs-blueberry-crisp.md",
+        "src/content/recipes/parmigiano-reggiano-cheesecake.md",
+        "docs/reviews/parmigiano-reggiano-cheesecake.json",
+        "docs/reviews/parmigiano-reggiano-cheesecake.md",
+        "src/content/recipes/peach-pie-biscuit-bombs.md",
+        "docs/reviews/peach-pie-biscuit-bombs.json",
+        "docs/reviews/peach-pie-biscuit-bombs.md",
+        "src/content/recipes/peach-pie-pancakes.md",
+        "docs/reviews/peach-pie-pancakes.json",
+        "docs/reviews/peach-pie-pancakes.md",
+        "src/content/recipes/strawberry-rhubarb-shortcake-with-whipped-mascarpone.md",
+        "docs/reviews/strawberry-rhubarb-shortcake-with-whipped-mascarpone.json",
+        "docs/reviews/strawberry-rhubarb-shortcake-with-whipped-mascarpone.md",
+        "src/content/recipes/strawberry-rhubarb-yogurt-pops.md",
+        "docs/reviews/strawberry-rhubarb-yogurt-pops.json",
+        "docs/reviews/strawberry-rhubarb-yogurt-pops.md",
+        "src/content/recipes/old-fashioned-strawberry-ice-cream.md",
+        "docs/reviews/old-fashioned-strawberry-ice-cream.json",
+        "docs/reviews/old-fashioned-strawberry-ice-cream.md"
+      ]
+    },
+    {
+      "group": "drinks-eleven",
+      "commit": "f2a5d9d1cb02b87d625fc9827a7ad5866ce635f7",
+      "recipes": [
+        "boulevardier",
+        "classic-manhattan",
+        "classic-martini",
+        "old-fashioned",
+        "sazerac",
+        "vieux-carre",
+        "grapefruit-basil-gin-fizz",
+        "melon-daiquiri",
+        "prohibition-style-gin-lemon-fizz",
+        "spindrift-gin-fizz",
+        "whiskey-sour"
+      ],
+      "paths": [
+        "src/content/recipes/boulevardier.md",
+        "docs/reviews/boulevardier.json",
+        "docs/reviews/boulevardier.md",
+        "src/content/recipes/classic-manhattan.md",
+        "docs/reviews/classic-manhattan.json",
+        "docs/reviews/classic-manhattan.md",
+        "src/content/recipes/classic-martini.md",
+        "docs/reviews/classic-martini.json",
+        "docs/reviews/classic-martini.md",
+        "src/content/recipes/old-fashioned.md",
+        "docs/reviews/old-fashioned.json",
+        "docs/reviews/old-fashioned.md",
+        "src/content/recipes/sazerac.md",
+        "docs/reviews/sazerac.json",
+        "docs/reviews/sazerac.md",
+        "src/content/recipes/vieux-carre.md",
+        "docs/reviews/vieux-carre.json",
+        "docs/reviews/vieux-carre.md",
+        "src/content/recipes/grapefruit-basil-gin-fizz.md",
+        "docs/reviews/grapefruit-basil-gin-fizz.json",
+        "docs/reviews/grapefruit-basil-gin-fizz.md",
+        "src/content/recipes/melon-daiquiri.md",
+        "docs/reviews/melon-daiquiri.json",
+        "docs/reviews/melon-daiquiri.md",
+        "src/content/recipes/prohibition-style-gin-lemon-fizz.md",
+        "docs/reviews/prohibition-style-gin-lemon-fizz.json",
+        "docs/reviews/prohibition-style-gin-lemon-fizz.md",
+        "src/content/recipes/spindrift-gin-fizz.md",
+        "docs/reviews/spindrift-gin-fizz.json",
+        "docs/reviews/spindrift-gin-fizz.md",
+        "src/content/recipes/whiskey-sour.md",
+        "docs/reviews/whiskey-sour.json",
+        "docs/reviews/whiskey-sour.md"
+      ]
+    },
+    {
+      "group": "beverages-nine",
+      "commit": "d4f4b33a45cc391502355f7d5d2f10d3e6625e6e",
+      "recipes": [
+        "crock-pot-hot-chocolate",
+        "green-smoothie-for-kids-with-2-hidden-veggies",
+        "hot-mulled-apple-cider",
+        "in-the-park",
+        "mango-rita-green-smoothie",
+        "shruffs-end",
+        "stevens-margs",
+        "thai-basil-ginger-spritzer",
+        "the-new-england-express"
+      ],
+      "paths": [
+        "src/content/recipes/crock-pot-hot-chocolate.md",
+        "docs/reviews/crock-pot-hot-chocolate.json",
+        "docs/reviews/crock-pot-hot-chocolate.md",
+        "src/content/recipes/green-smoothie-for-kids-with-2-hidden-veggies.md",
+        "docs/reviews/green-smoothie-for-kids-with-2-hidden-veggies.json",
+        "docs/reviews/green-smoothie-for-kids-with-2-hidden-veggies.md",
+        "src/content/recipes/hot-mulled-apple-cider.md",
+        "docs/reviews/hot-mulled-apple-cider.json",
+        "docs/reviews/hot-mulled-apple-cider.md",
+        "src/content/recipes/in-the-park.md",
+        "docs/reviews/in-the-park.json",
+        "docs/reviews/in-the-park.md",
+        "src/content/recipes/mango-rita-green-smoothie.md",
+        "docs/reviews/mango-rita-green-smoothie.json",
+        "docs/reviews/mango-rita-green-smoothie.md",
+        "src/content/recipes/shruffs-end.md",
+        "docs/reviews/shruffs-end.json",
+        "docs/reviews/shruffs-end.md",
+        "src/content/recipes/stevens-margs.md",
+        "docs/reviews/stevens-margs.json",
+        "docs/reviews/stevens-margs.md",
+        "src/content/recipes/thai-basil-ginger-spritzer.md",
+        "docs/reviews/thai-basil-ginger-spritzer.json",
+        "docs/reviews/thai-basil-ginger-spritzer.md",
+        "src/content/recipes/the-new-england-express.md",
+        "docs/reviews/the-new-england-express.json",
+        "docs/reviews/the-new-england-express.md"
+      ]
+    },
+    {
+      "group": "assembled-dumplings-twelve",
+      "commit": "d3f98b46bc87c6791a4decad8e832ca7bd8e76e9",
+      "recipes": [
+        "charred-guacamole-with-pomegranate",
+        "korean-mung-bean-sprouts-salad",
+        "mediterranean-pinwheels-vegetarian-appetizer-vegan-and-low-carb-options",
+        "onigiri-japanese-rice-balls",
+        "rice-bowl-station-buddha-bowls",
+        "roasted-fall-harvest-salad",
+        "warm-roasted-veggie-salad-with-maple-dijon-vinaigrette",
+        "cantonese-shrimp-and-pork-wontons",
+        "classic-wonton-soup",
+        "shrimp-wonton-soup",
+        "cantonese-shumai-siu-mai",
+        "corn-shrimp-dumplings"
+      ],
+      "paths": [
+        "src/content/recipes/charred-guacamole-with-pomegranate.md",
+        "docs/reviews/charred-guacamole-with-pomegranate.json",
+        "docs/reviews/charred-guacamole-with-pomegranate.md",
+        "src/content/recipes/korean-mung-bean-sprouts-salad.md",
+        "docs/reviews/korean-mung-bean-sprouts-salad.json",
+        "docs/reviews/korean-mung-bean-sprouts-salad.md",
+        "src/content/recipes/mediterranean-pinwheels-vegetarian-appetizer-vegan-and-low-carb-options.md",
+        "docs/reviews/mediterranean-pinwheels-vegetarian-appetizer-vegan-and-low-carb-options.json",
+        "docs/reviews/mediterranean-pinwheels-vegetarian-appetizer-vegan-and-low-carb-options.md",
+        "src/content/recipes/onigiri-japanese-rice-balls.md",
+        "docs/reviews/onigiri-japanese-rice-balls.json",
+        "docs/reviews/onigiri-japanese-rice-balls.md",
+        "src/content/recipes/rice-bowl-station-buddha-bowls.md",
+        "docs/reviews/rice-bowl-station-buddha-bowls.json",
+        "docs/reviews/rice-bowl-station-buddha-bowls.md",
+        "src/content/recipes/roasted-fall-harvest-salad.md",
+        "docs/reviews/roasted-fall-harvest-salad.json",
+        "docs/reviews/roasted-fall-harvest-salad.md",
+        "src/content/recipes/warm-roasted-veggie-salad-with-maple-dijon-vinaigrette.md",
+        "docs/reviews/warm-roasted-veggie-salad-with-maple-dijon-vinaigrette.json",
+        "docs/reviews/warm-roasted-veggie-salad-with-maple-dijon-vinaigrette.md",
+        "src/content/recipes/cantonese-shrimp-and-pork-wontons.md",
+        "docs/reviews/cantonese-shrimp-and-pork-wontons.json",
+        "docs/reviews/cantonese-shrimp-and-pork-wontons.md",
+        "src/content/recipes/classic-wonton-soup.md",
+        "docs/reviews/classic-wonton-soup.json",
+        "docs/reviews/classic-wonton-soup.md",
+        "src/content/recipes/shrimp-wonton-soup.md",
+        "docs/reviews/shrimp-wonton-soup.json",
+        "docs/reviews/shrimp-wonton-soup.md",
+        "src/content/recipes/cantonese-shumai-siu-mai.md",
+        "docs/reviews/cantonese-shumai-siu-mai.json",
+        "docs/reviews/cantonese-shumai-siu-mai.md",
+        "src/content/recipes/corn-shrimp-dumplings.md",
+        "docs/reviews/corn-shrimp-dumplings.json",
+        "docs/reviews/corn-shrimp-dumplings.md"
+      ]
+    },
+    {
+      "group": "sides-five",
+      "commit": "e2652b8c4e5c1a9aaf941f23877e18ebb54d41fa",
+      "recipes": [
+        "crispy-shallots",
+        "elderberry-syrup",
+        "patatas-bravas",
+        "spiced-butternut-squash-puree",
+        "sweet-and-spicy-spareribs-with-korean-barbecue-sauce"
+      ],
+      "paths": [
+        "src/content/recipes/crispy-shallots.md",
+        "docs/reviews/crispy-shallots.json",
+        "docs/reviews/crispy-shallots.md",
+        "src/content/recipes/elderberry-syrup.md",
+        "docs/reviews/elderberry-syrup.json",
+        "docs/reviews/elderberry-syrup.md",
+        "src/content/recipes/patatas-bravas.md",
+        "docs/reviews/patatas-bravas.json",
+        "docs/reviews/patatas-bravas.md",
+        "src/content/recipes/spiced-butternut-squash-puree.md",
+        "docs/reviews/spiced-butternut-squash-puree.json",
+        "docs/reviews/spiced-butternut-squash-puree.md",
+        "src/content/recipes/sweet-and-spicy-spareribs-with-korean-barbecue-sauce.md",
+        "docs/reviews/sweet-and-spicy-spareribs-with-korean-barbecue-sauce.json",
+        "docs/reviews/sweet-and-spicy-spareribs-with-korean-barbecue-sauce.md"
+      ]
+    }
+  ],
+  "deploymentRun": "https://github.com/jsilton/mise/actions/runs/37471533695",
+  "ci": {
+    "headSha": "ea110e5b118002fc9aea578a2ae6b3dc2babaff8",
+    "status": "completed",
+    "conclusion": "success",
+    "jobs": [
+      {
+        "name": "build",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "name": "deploy",
+        "status": "completed",
+        "conclusion": "success"
+      }
+    ]
+  },
+  "remote": "ea110e5b118002fc9aea578a2ae6b3dc2babaff8",
+  "rendered": [
+    {
+      "slug": "braised-french-lentils",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true
+    },
+    {
+      "slug": "jeris-lentil-soup",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true
+    },
+    {
+      "slug": "pizza-beans",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true
+    },
+    {
+      "slug": "sausage-and-white-bean-skillet",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true
+    },
+    {
+      "slug": "smoky-spanish-rice-and-chickpeas",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true
+    },
+    {
+      "slug": "breakfast-burrito",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true
+    },
+    {
+      "slug": "breakfast-quesadilla",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true
+    },
+    {
+      "slug": "egg-in-a-hole",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true
+    },
+    {
+      "slug": "savory-oatmeal-with-egg",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true
+    },
+    {
+      "slug": "starbucks-egg-bites",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true
+    },
+    {
+      "slug": "tamagoyaki-japanese-rolled-omelet",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true
+    },
+    {
+      "slug": "beef-tenderloin-dogs-with-corn-relish",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true
+    },
+    {
+      "slug": "bibimbap",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true
+    },
+    {
+      "slug": "enchilada-skillet",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true
+    },
+    {
+      "slug": "enchiladas-suizas",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true
+    },
+    {
+      "slug": "mediterranean-chicken-bowls",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true
+    },
+    {
+      "slug": "sheet-pan-italian-sausage-dinner",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true
+    },
+    {
+      "slug": "sage-brown-butter-sauce-butternut-squash-ravioli",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true
+    },
+    {
+      "slug": "spaghetti-and-tofu-meatballs",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true
+    },
+    {
+      "slug": "stovetop-macaroni-and-cheese",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true
+    },
+    {
+      "slug": "strozzapreti-with-spinach-and-preserved-lemon",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true
+    },
+    {
+      "slug": "the-easiest-spinach-lasagna",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true
+    },
+    {
+      "slug": "harvest-sheet-pan-gnocchi-with-crispy-kale",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true
+    },
+    {
+      "slug": "sausage-breakfast-casserole",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true
+    },
+    {
+      "slug": "shakshuka",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true
+    },
+    {
+      "slug": "sheet-pan-pancakes",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true
+    },
+    {
+      "slug": "slow-cooker-cheesy-mushroom-quinoa",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true
+    },
+    {
+      "slug": "tomato-cobbler-with-cornmeal-cheddar-biscuits",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true
+    },
+    {
+      "slug": "my-favorite-challah",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true
+    },
+    {
+      "slug": "no-cook-playdough",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true
+    },
+    {
+      "slug": "play-dough",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true
+    },
+    {
+      "slug": "pork-and-greens-dumplings",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true
+    },
+    {
+      "slug": "real-spaghetti-carbonara",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true
+    },
+    {
+      "slug": "royal-icing",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true
+    },
+    {
+      "slug": "crispy-oven-zucchini-fries",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true
+    },
+    {
+      "slug": "kale-caesar-with-crispy-chickpeas",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true
+    },
+    {
+      "slug": "roasted-green-bean-fries",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true
+    },
+    {
+      "slug": "roasted-sweet-potatoes",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true
+    },
+    {
+      "slug": "sweet-potato-fries",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true
+    },
+    {
+      "slug": "sweet-potato-latkes",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true
+    },
+    {
+      "slug": "tuscan-spaghetti-squash",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true
+    },
+    {
+      "slug": "zucchini-herb-fritters-with-garlic-yogurt",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true
+    },
+    {
+      "slug": "parishs-blueberry-crisp",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true
+    },
+    {
+      "slug": "parmigiano-reggiano-cheesecake",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true
+    },
+    {
+      "slug": "peach-pie-biscuit-bombs",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true
+    },
+    {
+      "slug": "peach-pie-pancakes",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true
+    },
+    {
+      "slug": "strawberry-rhubarb-shortcake-with-whipped-mascarpone",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true
+    },
+    {
+      "slug": "strawberry-rhubarb-yogurt-pops",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true
+    },
+    {
+      "slug": "old-fashioned-strawberry-ice-cream",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true
+    },
+    {
+      "slug": "boulevardier",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true
+    },
+    {
+      "slug": "classic-manhattan",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true
+    },
+    {
+      "slug": "classic-martini",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true
+    },
+    {
+      "slug": "old-fashioned",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true
+    },
+    {
+      "slug": "sazerac",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true
+    },
+    {
+      "slug": "vieux-carre",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true
+    },
+    {
+      "slug": "grapefruit-basil-gin-fizz",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true
+    },
+    {
+      "slug": "melon-daiquiri",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true
+    },
+    {
+      "slug": "prohibition-style-gin-lemon-fizz",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true
+    },
+    {
+      "slug": "spindrift-gin-fizz",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true
+    },
+    {
+      "slug": "whiskey-sour",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true
+    },
+    {
+      "slug": "crock-pot-hot-chocolate",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true
+    },
+    {
+      "slug": "green-smoothie-for-kids-with-2-hidden-veggies",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true
+    },
+    {
+      "slug": "hot-mulled-apple-cider",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true
+    },
+    {
+      "slug": "in-the-park",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true
+    },
+    {
+      "slug": "mango-rita-green-smoothie",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true
+    },
+    {
+      "slug": "shruffs-end",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true
+    },
+    {
+      "slug": "stevens-margs",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true
+    },
+    {
+      "slug": "thai-basil-ginger-spritzer",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true
+    },
+    {
+      "slug": "the-new-england-express",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true
+    },
+    {
+      "slug": "charred-guacamole-with-pomegranate",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true
+    },
+    {
+      "slug": "korean-mung-bean-sprouts-salad",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true
+    },
+    {
+      "slug": "mediterranean-pinwheels-vegetarian-appetizer-vegan-and-low-carb-options",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true
+    },
+    {
+      "slug": "onigiri-japanese-rice-balls",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true
+    },
+    {
+      "slug": "rice-bowl-station-buddha-bowls",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true
+    },
+    {
+      "slug": "roasted-fall-harvest-salad",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true
+    },
+    {
+      "slug": "warm-roasted-veggie-salad-with-maple-dijon-vinaigrette",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true
+    },
+    {
+      "slug": "cantonese-shrimp-and-pork-wontons",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true
+    },
+    {
+      "slug": "classic-wonton-soup",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true
+    },
+    {
+      "slug": "shrimp-wonton-soup",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true
+    },
+    {
+      "slug": "cantonese-shumai-siu-mai",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true
+    },
+    {
+      "slug": "corn-shrimp-dumplings",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true
+    },
+    {
+      "slug": "crispy-shallots",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true
+    },
+    {
+      "slug": "elderberry-syrup",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true
+    },
+    {
+      "slug": "patatas-bravas",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true
+    },
+    {
+      "slug": "spiced-butternut-squash-puree",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true
+    },
+    {
+      "slug": "sweet-and-spicy-spareribs-with-korean-barbecue-sauce",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true
+    }
+  ],
+  "verifiedDate": "2026-10-06T13:35:03.304Z",
+  "acceptedRecipeSources": [
+    {
+      "slug": "braised-french-lentils",
+      "acceptedSourceSha256": "e498867c759d4563dd2aa5a269b6d9b80ad2ffc15c00c87880b93abd41e5d52b",
+      "implementationCommit": "2667c6a0e14007fd1b7e38e3a67e3bf2b68e2e6c"
+    },
+    {
+      "slug": "jeris-lentil-soup",
+      "acceptedSourceSha256": "98f8c055e4b57d2af49c10209ebce29fcfc72edd08aa13179d58dae0cf283df6",
+      "implementationCommit": "2667c6a0e14007fd1b7e38e3a67e3bf2b68e2e6c"
+    },
+    {
+      "slug": "pizza-beans",
+      "acceptedSourceSha256": "3b9e3a7c16c426aaf55740e7e60b27da06bfdb98f09b28b47d2f8ef02bbd9e90",
+      "implementationCommit": "2667c6a0e14007fd1b7e38e3a67e3bf2b68e2e6c"
+    },
+    {
+      "slug": "sausage-and-white-bean-skillet",
+      "acceptedSourceSha256": "7a33e075c07f56dc4caaa216a327b44a82bb423a7c07241524e927f5a45c2fed",
+      "implementationCommit": "2667c6a0e14007fd1b7e38e3a67e3bf2b68e2e6c"
+    },
+    {
+      "slug": "smoky-spanish-rice-and-chickpeas",
+      "acceptedSourceSha256": "aa54a3f9cc4b8a9e817b48940c5b1f4ff4e2445e8069bbcc935d9ccdf364fe19",
+      "implementationCommit": "2667c6a0e14007fd1b7e38e3a67e3bf2b68e2e6c"
+    },
+    {
+      "slug": "breakfast-burrito",
+      "acceptedSourceSha256": "99a684c6acee879b9fbc8c7b0ff3f966c64764c8d26419cce044083c644183f7",
+      "implementationCommit": "2667c6a0e14007fd1b7e38e3a67e3bf2b68e2e6c"
+    },
+    {
+      "slug": "breakfast-quesadilla",
+      "acceptedSourceSha256": "12e9cccf4592384a348846cb91f847372401b086cc64df0aa88e9d564e709d12",
+      "implementationCommit": "2667c6a0e14007fd1b7e38e3a67e3bf2b68e2e6c"
+    },
+    {
+      "slug": "egg-in-a-hole",
+      "acceptedSourceSha256": "fd2565d589d490a5ece396249286ea3a09b231f8469660cf79a728bb7e97a4d6",
+      "implementationCommit": "2667c6a0e14007fd1b7e38e3a67e3bf2b68e2e6c"
+    },
+    {
+      "slug": "savory-oatmeal-with-egg",
+      "acceptedSourceSha256": "fd4b4d70c5035169666c2c57a7e59918b7a1b8baf1babcde8ab93d72819eca30",
+      "implementationCommit": "2667c6a0e14007fd1b7e38e3a67e3bf2b68e2e6c"
+    },
+    {
+      "slug": "starbucks-egg-bites",
+      "acceptedSourceSha256": "0e45c78d17ad5bce2c12936bb0f21c5e71226dee2002c0d0442ce9d23651c0c5",
+      "implementationCommit": "2667c6a0e14007fd1b7e38e3a67e3bf2b68e2e6c"
+    },
+    {
+      "slug": "tamagoyaki-japanese-rolled-omelet",
+      "acceptedSourceSha256": "a2a236d8a67455487136636ace81f68b9f76799e887412f787cbad27d268017b",
+      "implementationCommit": "2667c6a0e14007fd1b7e38e3a67e3bf2b68e2e6c"
+    },
+    {
+      "slug": "beef-tenderloin-dogs-with-corn-relish",
+      "acceptedSourceSha256": "452494923bfe17d293cda7b581b893db12fdc3d8bf76fb98b76ce04a778aabab",
+      "implementationCommit": "79e4ea75ab84a13e1793b4cf5f0fc4680e800f72"
+    },
+    {
+      "slug": "bibimbap",
+      "acceptedSourceSha256": "18775dae9cc7e2dba8c469e539b53cac2f6394f4ae12fc0b38440e2dd1154c20",
+      "implementationCommit": "79e4ea75ab84a13e1793b4cf5f0fc4680e800f72"
+    },
+    {
+      "slug": "enchilada-skillet",
+      "acceptedSourceSha256": "3c406ddc9a06995ebf3180ec03370df1a1ea512e4330de88f7bda08ced233a65",
+      "implementationCommit": "79e4ea75ab84a13e1793b4cf5f0fc4680e800f72"
+    },
+    {
+      "slug": "enchiladas-suizas",
+      "acceptedSourceSha256": "c40fc0c8c69c71ef270bdc5882c0497a977d686c989c94a924e1a3b7ada906e1",
+      "implementationCommit": "79e4ea75ab84a13e1793b4cf5f0fc4680e800f72"
+    },
+    {
+      "slug": "mediterranean-chicken-bowls",
+      "acceptedSourceSha256": "f9aeb01015af3fb64b384c2a5cfca4de814610bc4cfbec4069777060eb0a6733",
+      "implementationCommit": "79e4ea75ab84a13e1793b4cf5f0fc4680e800f72"
+    },
+    {
+      "slug": "sheet-pan-italian-sausage-dinner",
+      "acceptedSourceSha256": "1d4d38ffc2a6d436bac4d817d3d85afe64525a7a7b662dec710a59240e422da1",
+      "implementationCommit": "79e4ea75ab84a13e1793b4cf5f0fc4680e800f72"
+    },
+    {
+      "slug": "sage-brown-butter-sauce-butternut-squash-ravioli",
+      "acceptedSourceSha256": "2bf6df2f39caba9045ffd0e34da5bf092d7991232d9607adc671a0888564d7bc",
+      "implementationCommit": "79e4ea75ab84a13e1793b4cf5f0fc4680e800f72"
+    },
+    {
+      "slug": "spaghetti-and-tofu-meatballs",
+      "acceptedSourceSha256": "deede67e2920e9e049b1506fb42bf7f6fb453b24360d84c4374769781ad92630",
+      "implementationCommit": "79e4ea75ab84a13e1793b4cf5f0fc4680e800f72"
+    },
+    {
+      "slug": "stovetop-macaroni-and-cheese",
+      "acceptedSourceSha256": "5385bd3b77a9457f4888bd884525758ec841fa4ec8d39e6e7df0521b97c5eae7",
+      "implementationCommit": "79e4ea75ab84a13e1793b4cf5f0fc4680e800f72"
+    },
+    {
+      "slug": "strozzapreti-with-spinach-and-preserved-lemon",
+      "acceptedSourceSha256": "0015f2fb40cf89d473c52b7ca23257f4d7feeb9dbf7fe45dc34b351b4503be02",
+      "implementationCommit": "79e4ea75ab84a13e1793b4cf5f0fc4680e800f72"
+    },
+    {
+      "slug": "the-easiest-spinach-lasagna",
+      "acceptedSourceSha256": "2d95c0b570576414cc25a3ec2b8ae14a79c22592ae415441edfd97f036dbb7de",
+      "implementationCommit": "79e4ea75ab84a13e1793b4cf5f0fc4680e800f72"
+    },
+    {
+      "slug": "harvest-sheet-pan-gnocchi-with-crispy-kale",
+      "acceptedSourceSha256": "4fa26ecf4bf95148d7a22f4b8aa6da3249c728a0e478fce4cc3b1f49ae10955b",
+      "implementationCommit": "79e4ea75ab84a13e1793b4cf5f0fc4680e800f72"
+    },
+    {
+      "slug": "sausage-breakfast-casserole",
+      "acceptedSourceSha256": "4b35b8ca4245c6faa0e311aac1d72578024b394e1434c5cb26db2ece182a1e3b",
+      "implementationCommit": "8ef88e0292b824f7ade19ab23444377eb20a7324"
+    },
+    {
+      "slug": "shakshuka",
+      "acceptedSourceSha256": "43ba7668f85c724354e97af83b7645f33b49bdbe500f676a1f5ddb7390802e6c",
+      "implementationCommit": "8ef88e0292b824f7ade19ab23444377eb20a7324"
+    },
+    {
+      "slug": "sheet-pan-pancakes",
+      "acceptedSourceSha256": "394cc66b25f0958c02d5660759f97b2e24d1bebf189624923bb5e2479ca02027",
+      "implementationCommit": "8ef88e0292b824f7ade19ab23444377eb20a7324"
+    },
+    {
+      "slug": "slow-cooker-cheesy-mushroom-quinoa",
+      "acceptedSourceSha256": "b8e29ee1111899343b8b986ea088b6314589c1705cee89a0182f5c13dfb6f78f",
+      "implementationCommit": "8ef88e0292b824f7ade19ab23444377eb20a7324"
+    },
+    {
+      "slug": "tomato-cobbler-with-cornmeal-cheddar-biscuits",
+      "acceptedSourceSha256": "60ff4fb1e00e71a06075cea02241f24f76db14cad6096f61211e829b43288450",
+      "implementationCommit": "8ef88e0292b824f7ade19ab23444377eb20a7324"
+    },
+    {
+      "slug": "my-favorite-challah",
+      "acceptedSourceSha256": "90ae887df7a4b8329a2c6fa878935c5a49da7c52e07e162d82995f62d1c0742c",
+      "implementationCommit": "8ef88e0292b824f7ade19ab23444377eb20a7324"
+    },
+    {
+      "slug": "no-cook-playdough",
+      "acceptedSourceSha256": "638d2fd47396dd05eda8d5c3a887c248ab875c8103b1589345cf8dfe62e4288c",
+      "implementationCommit": "8ef88e0292b824f7ade19ab23444377eb20a7324"
+    },
+    {
+      "slug": "play-dough",
+      "acceptedSourceSha256": "bafd10eb0530a2ce660b7b0aa51fb958469900c99b3c8d16029e1836aada1c3f",
+      "implementationCommit": "8ef88e0292b824f7ade19ab23444377eb20a7324"
+    },
+    {
+      "slug": "pork-and-greens-dumplings",
+      "acceptedSourceSha256": "52562957c8382ebc93224395f2e38d063626cc32152bf4f5e4a00ae6d36a8d77",
+      "implementationCommit": "8ef88e0292b824f7ade19ab23444377eb20a7324"
+    },
+    {
+      "slug": "real-spaghetti-carbonara",
+      "acceptedSourceSha256": "892e66b72473b1d129d6c331d46e56722e73ec1e339d8accbb680b5671091027",
+      "implementationCommit": "8ef88e0292b824f7ade19ab23444377eb20a7324"
+    },
+    {
+      "slug": "royal-icing",
+      "acceptedSourceSha256": "cff40bfee7d76008fbd422c46af21bd89f22e7f354a6b765e3bc97d2bda4f703",
+      "implementationCommit": "8ef88e0292b824f7ade19ab23444377eb20a7324"
+    },
+    {
+      "slug": "crispy-oven-zucchini-fries",
+      "acceptedSourceSha256": "3a3f50dfaf92c7624fdfea404bf009977feb68da1af25f1b6ab019acac0c2c4b",
+      "implementationCommit": "db6965376e6f4a13033202c5901217ef2e96b084"
+    },
+    {
+      "slug": "kale-caesar-with-crispy-chickpeas",
+      "acceptedSourceSha256": "8a1e2a71f500a8ec06d5663b9da339b06e04e741064b5d1130ec7864306f152d",
+      "implementationCommit": "db6965376e6f4a13033202c5901217ef2e96b084"
+    },
+    {
+      "slug": "roasted-green-bean-fries",
+      "acceptedSourceSha256": "4a66fee7bd457069130b956e895dbd63a355a151ef3a14acaa5f8bccffae65f4",
+      "implementationCommit": "db6965376e6f4a13033202c5901217ef2e96b084"
+    },
+    {
+      "slug": "roasted-sweet-potatoes",
+      "acceptedSourceSha256": "feda2ec048655f6cdf9a348d3b6b8d0dd5e86f264202d02ba50bc95ee57a16f2",
+      "implementationCommit": "db6965376e6f4a13033202c5901217ef2e96b084"
+    },
+    {
+      "slug": "sweet-potato-fries",
+      "acceptedSourceSha256": "5d6d30b1faf117020600afdb6106b26696aef6ab768cdf2d0a35f0cf15187da3",
+      "implementationCommit": "db6965376e6f4a13033202c5901217ef2e96b084"
+    },
+    {
+      "slug": "sweet-potato-latkes",
+      "acceptedSourceSha256": "64ddf49b4308d4fd0816d5ee4e62c6328ce47863a446b9538eb99bd7c39be09a",
+      "implementationCommit": "db6965376e6f4a13033202c5901217ef2e96b084"
+    },
+    {
+      "slug": "tuscan-spaghetti-squash",
+      "acceptedSourceSha256": "6db493d598b221fa240f60a0a538fc32220b1663e645910d5fefe1ade3dc22af",
+      "implementationCommit": "db6965376e6f4a13033202c5901217ef2e96b084"
+    },
+    {
+      "slug": "zucchini-herb-fritters-with-garlic-yogurt",
+      "acceptedSourceSha256": "9466304b9723564aeae263622dadde233a90db0d9cc5a0d9a6db8d1c731e0020",
+      "implementationCommit": "db6965376e6f4a13033202c5901217ef2e96b084"
+    },
+    {
+      "slug": "parishs-blueberry-crisp",
+      "acceptedSourceSha256": "1b090fda430b0f40a79181d96d5d8ea6e9258afca60918b6fb1a8eccffd56f3a",
+      "implementationCommit": "c7570d86bc1a926fc3d248e4310a4bfa7232a5f7"
+    },
+    {
+      "slug": "parmigiano-reggiano-cheesecake",
+      "acceptedSourceSha256": "e61fc92daa9192a759506b7d8344a2166b16ea7ac21790b83f0b2b54ffa5e985",
+      "implementationCommit": "c7570d86bc1a926fc3d248e4310a4bfa7232a5f7"
+    },
+    {
+      "slug": "peach-pie-biscuit-bombs",
+      "acceptedSourceSha256": "2359625ff1e7d165a208c7688b084e5b85f803b3e0d2f05722dc53f62313c2e5",
+      "implementationCommit": "c7570d86bc1a926fc3d248e4310a4bfa7232a5f7"
+    },
+    {
+      "slug": "peach-pie-pancakes",
+      "acceptedSourceSha256": "faccf7002b5a4b7a89df60c16a96066f3d466a1daf3d3d0ffd06a00111acf764",
+      "implementationCommit": "c7570d86bc1a926fc3d248e4310a4bfa7232a5f7"
+    },
+    {
+      "slug": "strawberry-rhubarb-shortcake-with-whipped-mascarpone",
+      "acceptedSourceSha256": "66a0cbdd07fa01da364fbb75c5b9d1f43e8d80e31dd57a8bbf4643a254e2f865",
+      "implementationCommit": "c7570d86bc1a926fc3d248e4310a4bfa7232a5f7"
+    },
+    {
+      "slug": "strawberry-rhubarb-yogurt-pops",
+      "acceptedSourceSha256": "4da41a4c4326940990acda8446c1e95ce73cb5922699981b041dde17416056a3",
+      "implementationCommit": "c7570d86bc1a926fc3d248e4310a4bfa7232a5f7"
+    },
+    {
+      "slug": "old-fashioned-strawberry-ice-cream",
+      "acceptedSourceSha256": "416cca637c9e5130745a30cd7acd858a59214262fa317ab9d12c9ec4daac171d",
+      "implementationCommit": "c7570d86bc1a926fc3d248e4310a4bfa7232a5f7"
+    },
+    {
+      "slug": "boulevardier",
+      "acceptedSourceSha256": "757138b7229345deba3ae49ba19460a30199e7f09afb74d6877fa0fe7462bd94",
+      "implementationCommit": "f2a5d9d1cb02b87d625fc9827a7ad5866ce635f7"
+    },
+    {
+      "slug": "classic-manhattan",
+      "acceptedSourceSha256": "7e8aa44db7d2275aaf6fd65ed11e91f15870301ccb0463926ed7828cd5202e00",
+      "implementationCommit": "f2a5d9d1cb02b87d625fc9827a7ad5866ce635f7"
+    },
+    {
+      "slug": "classic-martini",
+      "acceptedSourceSha256": "41fe42e4f0b4656799e1a37056161321fc620ca8b8d1c7ab587e77f3bef6042e",
+      "implementationCommit": "f2a5d9d1cb02b87d625fc9827a7ad5866ce635f7"
+    },
+    {
+      "slug": "old-fashioned",
+      "acceptedSourceSha256": "622fb08324b4b44119ec4b88034e4f6730ef0bc78b4a7f4ab46b07e64ac6afa7",
+      "implementationCommit": "f2a5d9d1cb02b87d625fc9827a7ad5866ce635f7"
+    },
+    {
+      "slug": "sazerac",
+      "acceptedSourceSha256": "7a65dc585e71cf61d5bd1411f05d66eee2ff38353978b79eba24e6f7160ca2a8",
+      "implementationCommit": "f2a5d9d1cb02b87d625fc9827a7ad5866ce635f7"
+    },
+    {
+      "slug": "vieux-carre",
+      "acceptedSourceSha256": "6b7089ce0b0bb0a87bf310b75beaa33743fb01991b4846d581318af8e3f35d82",
+      "implementationCommit": "f2a5d9d1cb02b87d625fc9827a7ad5866ce635f7"
+    },
+    {
+      "slug": "grapefruit-basil-gin-fizz",
+      "acceptedSourceSha256": "a6a63f05bb447bcedd364f840ab7df809eac4ae0d60a53f9358c57212a8744f0",
+      "implementationCommit": "f2a5d9d1cb02b87d625fc9827a7ad5866ce635f7"
+    },
+    {
+      "slug": "melon-daiquiri",
+      "acceptedSourceSha256": "796af62285be7f5b53bbd7ac68c4ededaa3527ea4fb418968b5dae4682a4d671",
+      "implementationCommit": "f2a5d9d1cb02b87d625fc9827a7ad5866ce635f7"
+    },
+    {
+      "slug": "prohibition-style-gin-lemon-fizz",
+      "acceptedSourceSha256": "9200115fe929b39f3d2ab95118e857f8a0ffa55aff424e6ba2aa8b47b6114a11",
+      "implementationCommit": "f2a5d9d1cb02b87d625fc9827a7ad5866ce635f7"
+    },
+    {
+      "slug": "spindrift-gin-fizz",
+      "acceptedSourceSha256": "05452f43c74c4b267d4b6cf20052ed1e870fea31a228269ccb264756fb1d1bd2",
+      "implementationCommit": "f2a5d9d1cb02b87d625fc9827a7ad5866ce635f7"
+    },
+    {
+      "slug": "whiskey-sour",
+      "acceptedSourceSha256": "eb544d392ee6824609395681f5108053756be376ab7284eb1e10851db66cedc7",
+      "implementationCommit": "f2a5d9d1cb02b87d625fc9827a7ad5866ce635f7"
+    },
+    {
+      "slug": "crock-pot-hot-chocolate",
+      "acceptedSourceSha256": "acfee3de8ff4923b350d2072aa4463119c415d64bc68683f6888110e03d5fcdd",
+      "implementationCommit": "d4f4b33a45cc391502355f7d5d2f10d3e6625e6e"
+    },
+    {
+      "slug": "green-smoothie-for-kids-with-2-hidden-veggies",
+      "acceptedSourceSha256": "8edb591d359c4996418b47560c6727d0379864c28aa94ef15a9f679f080833fc",
+      "implementationCommit": "d4f4b33a45cc391502355f7d5d2f10d3e6625e6e"
+    },
+    {
+      "slug": "hot-mulled-apple-cider",
+      "acceptedSourceSha256": "26b4c70dd863539777c7fe57a537aa8a5493d5270c49b64df3a7478d32a768c4",
+      "implementationCommit": "d4f4b33a45cc391502355f7d5d2f10d3e6625e6e"
+    },
+    {
+      "slug": "in-the-park",
+      "acceptedSourceSha256": "e8d4cfb3d54a2bdfc7f64e490bbbb3d56dfcd777ecf479d3f40322c4e439323e",
+      "implementationCommit": "d4f4b33a45cc391502355f7d5d2f10d3e6625e6e"
+    },
+    {
+      "slug": "mango-rita-green-smoothie",
+      "acceptedSourceSha256": "5949cd6e02edb5aff1a70b8476459f1f814dfd972432dde7e7d7ee4e318fb41e",
+      "implementationCommit": "d4f4b33a45cc391502355f7d5d2f10d3e6625e6e"
+    },
+    {
+      "slug": "shruffs-end",
+      "acceptedSourceSha256": "dcd515ca6a75f38c63eec07b22682ba0ccb1915f3c79a42eac0cabc03e4e8934",
+      "implementationCommit": "d4f4b33a45cc391502355f7d5d2f10d3e6625e6e"
+    },
+    {
+      "slug": "stevens-margs",
+      "acceptedSourceSha256": "86114338413473b1bb6186cb4906541d4b997c93fe2f5bb6f8f87e3a24d32945",
+      "implementationCommit": "d4f4b33a45cc391502355f7d5d2f10d3e6625e6e"
+    },
+    {
+      "slug": "thai-basil-ginger-spritzer",
+      "acceptedSourceSha256": "2345d3d0a849eab23589f7a3cdee422a5db3e186d75433a81b5690f58e833aa0",
+      "implementationCommit": "d4f4b33a45cc391502355f7d5d2f10d3e6625e6e"
+    },
+    {
+      "slug": "the-new-england-express",
+      "acceptedSourceSha256": "6f7fa8f28507134dcc654c5029632f25ea60413e74eedc69e16bcf793081b3de",
+      "implementationCommit": "d4f4b33a45cc391502355f7d5d2f10d3e6625e6e"
+    },
+    {
+      "slug": "charred-guacamole-with-pomegranate",
+      "acceptedSourceSha256": "8ef50347e92350566ddb7544d2137558251fa4c7c89bd5e5b14174ecfdbcb936",
+      "implementationCommit": "d3f98b46bc87c6791a4decad8e832ca7bd8e76e9"
+    },
+    {
+      "slug": "korean-mung-bean-sprouts-salad",
+      "acceptedSourceSha256": "1c27b1078e95b0f695721a29b250c9960bf04c68af84670a314b139676946413",
+      "implementationCommit": "d3f98b46bc87c6791a4decad8e832ca7bd8e76e9"
+    },
+    {
+      "slug": "mediterranean-pinwheels-vegetarian-appetizer-vegan-and-low-carb-options",
+      "acceptedSourceSha256": "440b49a164aa5ca86286e4a4232b2e595b939643299d695c956d05404d3d76f5",
+      "implementationCommit": "d3f98b46bc87c6791a4decad8e832ca7bd8e76e9"
+    },
+    {
+      "slug": "onigiri-japanese-rice-balls",
+      "acceptedSourceSha256": "65104ca14aaa2242d8a3dab1bd20ad40f8f49699c7c1947b9a1df82a73a68ef6",
+      "implementationCommit": "d3f98b46bc87c6791a4decad8e832ca7bd8e76e9"
+    },
+    {
+      "slug": "rice-bowl-station-buddha-bowls",
+      "acceptedSourceSha256": "5496a48f02c948291de27ed01d257cbc3992e6fe52c562d47120cabe290bd1e2",
+      "implementationCommit": "d3f98b46bc87c6791a4decad8e832ca7bd8e76e9"
+    },
+    {
+      "slug": "roasted-fall-harvest-salad",
+      "acceptedSourceSha256": "18611a0104c62e12482376de9910d21d98e8509fabb324495441f957f08f6e57",
+      "implementationCommit": "d3f98b46bc87c6791a4decad8e832ca7bd8e76e9"
+    },
+    {
+      "slug": "warm-roasted-veggie-salad-with-maple-dijon-vinaigrette",
+      "acceptedSourceSha256": "157d847a52d8b609cb8ae3faff35bebd1d814b6432dea4ca6c3dd15ebdc85bb7",
+      "implementationCommit": "d3f98b46bc87c6791a4decad8e832ca7bd8e76e9"
+    },
+    {
+      "slug": "cantonese-shrimp-and-pork-wontons",
+      "acceptedSourceSha256": "7a2260abf55542926dab1e0e94b537f4b57a06701225810b70cbf909151163e7",
+      "implementationCommit": "d3f98b46bc87c6791a4decad8e832ca7bd8e76e9"
+    },
+    {
+      "slug": "classic-wonton-soup",
+      "acceptedSourceSha256": "ea7af4c1bf5dcc6f8cb9ceed9758787843aec6fd61e29a9da80471be0a899a60",
+      "implementationCommit": "d3f98b46bc87c6791a4decad8e832ca7bd8e76e9"
+    },
+    {
+      "slug": "shrimp-wonton-soup",
+      "acceptedSourceSha256": "d22cb09190fe9f09a140287c45367de5e44998ac9517517e909ab90041074336",
+      "implementationCommit": "d3f98b46bc87c6791a4decad8e832ca7bd8e76e9"
+    },
+    {
+      "slug": "cantonese-shumai-siu-mai",
+      "acceptedSourceSha256": "79c707b61fa7d878baecdbaf5f094c7d5b9d856c00e36c16850f01029aa18783",
+      "implementationCommit": "d3f98b46bc87c6791a4decad8e832ca7bd8e76e9"
+    },
+    {
+      "slug": "corn-shrimp-dumplings",
+      "acceptedSourceSha256": "3af52e042830aaceb972bb05dc7bb66417c9f0bb2e1622990caf38b1b057d361",
+      "implementationCommit": "d3f98b46bc87c6791a4decad8e832ca7bd8e76e9"
+    },
+    {
+      "slug": "crispy-shallots",
+      "acceptedSourceSha256": "57e927a35747875f42b20d34d383d5df6792242780a4ccc42374733558146f02",
+      "implementationCommit": "e2652b8c4e5c1a9aaf941f23877e18ebb54d41fa"
+    },
+    {
+      "slug": "elderberry-syrup",
+      "acceptedSourceSha256": "8ea02a9fe3efbc94d9e09d87a9ed1ca4274d201e049058bd09f842803690187d",
+      "implementationCommit": "e2652b8c4e5c1a9aaf941f23877e18ebb54d41fa"
+    },
+    {
+      "slug": "patatas-bravas",
+      "acceptedSourceSha256": "a6b215286288add4cab0ef7636472e7b6505e1b7679863c76d55482269cfcad4",
+      "implementationCommit": "e2652b8c4e5c1a9aaf941f23877e18ebb54d41fa"
+    },
+    {
+      "slug": "spiced-butternut-squash-puree",
+      "acceptedSourceSha256": "acb25f35f6d68b46d791acbde46a03fd3b1ad8c4ddf4f50c6c2dbc3ec0500999",
+      "implementationCommit": "e2652b8c4e5c1a9aaf941f23877e18ebb54d41fa"
+    },
+    {
+      "slug": "sweet-and-spicy-spareribs-with-korean-barbecue-sauce",
+      "acceptedSourceSha256": "f2952c972f72307e8f70a338641972f1bbbca5681c00940ca5fa29164d81a9db",
+      "implementationCommit": "e2652b8c4e5c1a9aaf941f23877e18ebb54d41fa"
+    }
+  ],
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "limitations": [
+    "Actual physical cooking untested",
+    "Actual print preview not inspected; controls and shared styles verified",
+    "Production content/rendering checked on all 86; mobile scaling/cooking interactions sampled on 9/9 locally"
+  ]
+}
