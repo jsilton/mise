@@ -58,6 +58,8 @@ The serving control intentionally leaves method prose unchanged. It scales recog
 
 `docs/recipe-review-baseline.json` preserves the original 612 recipe slugs. A removed duplicate must have an explicit alias, a working static redirect, an individual consolidation record, and no stale internal recipe or meal references. `node scripts/check-recipe-aliases.mjs` verifies those requirements against a completed build. `node scripts/recipe-review-register.mjs` refreshes the per-original-recipe status register. A merged original counts as considered only with a written decision; it does not become an additional reviewed canonical recipe.
 
+An explicitly user-authorized retirement is recorded separately in `src/data/recipe-retirements.json` and its individual decision record. Preserve the exact source, native originals and existing identities privately before removing the active source. Keep a short notice at its old URL, with no recipe schema, and exclude it from the collection, sitemap and current exports. The register retains both original and additional retired rows; retirement does not count as a complete editorial review, consolidation or kitchen test. The alias checker also verifies these distinct retirement requirements.
+
 Newly authored recipes are tracked in the register separately from the original baseline. Each needs its own individual review record; it must not reduce the original pending count.
 
 ## Batch publication and delegation

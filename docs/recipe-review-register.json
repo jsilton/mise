@@ -2,7 +2,8 @@
   "originalRecipes": 612,
   "individuallyReviewed": 585,
   "consolidatedAfterReview": 10,
-  "pending": 17,
+  "retiredByUser": 1,
+  "pending": 16,
   "kitchenTested": 0,
   "records": [
     {
@@ -2401,8 +2402,9 @@
     },
     {
       "slug": "peking-duck-an-easy-home-version",
-      "canonical": "peking-duck-an-easy-home-version",
-      "status": "pending"
+      "retirementDate": "2026-10-06",
+      "status": "retired-by-user",
+      "record": "docs/reviews/peking-duck-an-easy-home-version.md"
     },
     {
       "slug": "perfect-cranberry-sauce",
@@ -3661,9 +3663,11 @@
       "record": "docs/reviews/zuppa-toscana.md"
     }
   ],
-  "additionalRecipes": 49,
-  "additionalIndividuallyReviewed": 48,
-  "additionalPending": 1,
+  "additionalRecipes": 51,
+  "activeAdditionalRecipes": 50,
+  "additionalRetiredByUser": 1,
+  "additionalIndividuallyReviewed": 50,
+  "additionalPending": 0,
   "additionalRecords": [
     {
       "slug": "air-fryer-chicken-tenders",
@@ -3672,7 +3676,8 @@
     },
     {
       "slug": "baked-chicken-and-broccoli",
-      "status": "pending",
+      "status": "retired-by-user",
+      "retirementDate": "2026-10-06",
       "record": "docs/reviews/baked-chicken-and-broccoli.md"
     },
     {
@@ -3734,6 +3739,11 @@
       "slug": "creamy-slow-cooker-chicken-and-wild-rice-soup",
       "status": "editorial-review",
       "record": "docs/reviews/creamy-slow-cooker-chicken-and-wild-rice-soup.md"
+    },
+    {
+      "slug": "crisp-skin-duck-breast-with-orange-pan-sauce",
+      "status": "editorial-review",
+      "record": "docs/reviews/crisp-skin-duck-breast-with-orange-pan-sauce.md"
     },
     {
       "slug": "crispy-gold-potatoes-with-lemon-garlic-butter",
@@ -3809,6 +3819,11 @@
       "slug": "orange-and-paprika-pulled-pork",
       "status": "editorial-review",
       "record": "docs/reviews/orange-and-paprika-pulled-pork.md"
+    },
+    {
+      "slug": "pan-seared-duck-breasts-with-cherry-and-port-sauce",
+      "status": "editorial-review",
+      "record": "docs/reviews/pan-seared-duck-breasts-with-cherry-and-port-sauce.md"
     },
     {
       "slug": "passatelli-in-brodo",

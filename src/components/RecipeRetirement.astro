@@ -1,0 +1,58 @@
+---
+import retirements from '../data/recipe-retirements.json';
+interface Props {
+  slug: keyof typeof retirements;
+}
+const { slug } = Astro.props;
+const retired = retirements[slug];
+if (!retired) throw new Error(`Missing retirement decision: ${slug}`);
+const base = import.meta.env.BASE_URL;
+const canonical = new URL(`${base}recipes/${slug}/`, Astro.site).href;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="robots" content="noindex, follow" />
+    <link rel="canonical" href={canonical} />
+    <title>{retired.title} — Retired | Mise</title>
+    <style>
+      body {
+        margin: 0;
+        background: #faf8f3;
+        color: #252823;
+        font:
+          1rem/1.6 system-ui,
+          sans-serif;
+      }
+      main {
+        max-width: 38rem;
+        margin: 12vh auto;
+        padding: 1.5rem;
+      }
+      h1 {
+        font:
+          2rem/1.2 Georgia,
+          serif;
+      }
+      a {
+        color: #52613f;
+        text-underline-offset: 0.2em;
+      }
+      a:focus-visible {
+        outline: 2px solid currentColor;
+        outline-offset: 4px;
+      }
+    </style>
+  </head>
+  <body>
+    <main id="main-content">
+      <p>Mise</p>
+      <h1>{retired.title}</h1>
+      <p>This recipe has been retired from the active collection.</p>
+      <p><a href={base}>Browse the recipes</a></p>
+    </main>
+  </body>
+</html>

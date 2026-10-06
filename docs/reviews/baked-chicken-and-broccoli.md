@@ -1,3 +1,15 @@
+# Baked Chicken and Broccoli: user-authorized retirement
+
+Date: 2026-10-06. Status: retired by user; publication pending. This disposition does not grant complete editorial review or kitchen-tested status.
+
+User no longer wants this casserole in the active collection. The exact last active source (7fbfae5a0cd15648b2684c51188c726597f87faa5fe1ea625624d5445012cfe6) and its recorded attribution, existing internal identity and private binding are retained in ignored private archival storage. Native originals and earlier review evidence remain intact. No native-app import, deletion or sync occurred.
+
+Before: the full recipe was an active cooking page and export entry at `/mise/recipes/baked-chicken-and-broccoli/`. After: it is removed from the active collection and all current exports. Its old URL presents only a retirement notice and a link to the collection. It has no replacement alias or Recipe schema.
+
+The earlier unresolved source and formula questions below remain unresolved historical evidence; retirement does not endorse those claims. [Retirement evidence](../editorial-campaign/2026-10-06/user-retirements.json).
+
+## Earlier source and review evidence
+
 # Baked Chicken and Broccoli: Paprika source import
 
 Date: 2026-10-05. Status: pending full culinary review; no kitchen test.

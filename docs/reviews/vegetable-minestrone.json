@@ -1,7 +1,7 @@
 {
   "slug": "vegetable-minestrone",
   "title": "Vegetable Minestrone",
-  "status": "complete editorial review; accepted locally; publication pending",
+  "status": "complete editorial review; implemented and verified live",
   "date": "2026-10-06",
   "inputCommit": "0bf936ce8fdac00634ed1171ee8ece86cccd4332",
   "inputSha256": "27de53faf8aee042cf57b423c3b49d75ce12dbe4063219919f31dfe03572f722",
@@ -1945,5 +1945,8 @@
     "compilerAndFormatter": true,
     "existingIdentityPreserved": true,
     "newVariantIdentityRegisteredOnce": false
-  }
+  },
+  "implementationCommit": "abfbbb36d62af80bbffc0734d274cccda942ba1b",
+  "releaseCommit": "abfbbb36d62af80bbffc0734d274cccda942ba1b",
+  "productionVerification": "docs/editorial-campaign/2026-10-06/soups-ribs-oats-ice-cream-production.json"
 }

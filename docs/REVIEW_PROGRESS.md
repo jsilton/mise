@@ -1,3 +1,27 @@
+# Current duck and retirement checkpoint — October 6, 2026
+
+391 complete editorial versions from the original 409-recipe campaign are verified live. Two user-authorized retirements and two distinct skin-on duck breast additions are accepted locally, pending exact release verification; 16 active recipes remain held. Coverage is 635 complete / 16 pending across 651 active sources. The original campaign remains 391 verified complete versions, 16 active holds and 2 separate retirements. Ten newly authored October 6 additions are counted separately, with eight verified live and these two breast options pending. No kitchen tests or native-app sync.
+
+[Duck recipe reviews](editorial-campaign/2026-10-06/duck-breast-options.md). [Retirement decisions](editorial-campaign/2026-10-06/user-retirements.md).
+
+## Earlier checkpoints
+
+# Current retirement checkpoint — October 6, 2026
+
+391 complete editorial versions from the original 409-recipe campaign are verified live. Two distinct user-authorized retirements are implemented locally, pending exact release verification; 16 active recipes remain held. Active coverage is 633 complete / 16 pending across 649 sources. The original campaign still accounts for all 409:391 verified complete versions, 16 active holds and 2 intentional retirements. The eight newly authored October 6 additions remain a separate scope. Retirements do not promote editorial review, resolve the archived formulas or count as kitchen tests. No native-app sync.
+
+[Retirement decisions and preservation](editorial-campaign/2026-10-06/user-retirements.md).
+
+## Earlier verified checkpoint
+
+# Verified campaign state — October 6, 2026
+
+391 complete editorial versions from the original 409-source campaign are verified live; 18 remain held. Eight newly authored October 6 additions are also verified live and counted separately. Coverage is 633 complete / 18 pending across 651 active sources. The 42 accelerated targeted repairs remain a separate overlapping historical scope. All ten accepted versions match exact remote source commit [abfbbb36](https://github.com/jsilton/mise/commit/abfbbb36d62af80bbffc0734d274cccda942ba1b), its [successful CI/deployment](https://github.com/jsilton/mise/actions/runs/37529312667) and their complete live pages. Zero kitchen tests; no native-app sync. The user has since authorized retiring Lisa’s chicken-and-broccoli and the whole-duck recipe; those removals are not yet implemented and remain among the 18 holds at this checkpoint.
+
+[Verified release](editorial-campaign/2026-10-06/soups-ribs-oats-ice-cream.md).
+
+## Earlier acceptance checkpoint
+
 # Current acceptance checkpoint — October 6, 2026
 
 Nine existing holds and one separately authored complete chowder variant are accepted locally after whole-recipe review, independent challenge and complete integration-owner inspection. Coverage is 633 complete / 18 pending across 651 sources. The existing nine count toward the original 409-source campaign; 382 versions remain verified live until this release is verified. The new Irvine version is separate. All 641 other existing recipe files, every existing identity and private binding, and all draft bindings remain unchanged. No kitchen test or native-app sync.

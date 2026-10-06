@@ -1,21 +1,6 @@
 {
-  "scope": "27 distinct whole recipes remain held. Kimchi is resolved after an explicit user-authorized salt specification, complete original recovery, whole-recipe independent challenge and final root review. The other held sources remain unchanged; earlier hold evidence remains in repository history.",
+  "scope": "16 distinct active whole recipes remain held after nine newly verified complete repairs and two separate user-authorized retirements; earlier held proposals do not grant complete review.",
   "recipes": [
-    {
-      "slug": "baked-chicken-and-broccoli",
-      "title": "Baked Chicken and Broccoli",
-      "currentPath": "src/content/recipes/baked-chicken-and-broccoli.md",
-      "currentSourceSha256": "7fbfae5a0cd15648b2684c51188c726597f87faa5fe1ea625624d5445012cfe6",
-      "status": "held",
-      "remainingQuestions": [
-        "Saved two whole split breasts is ambiguous; bone-in cut count, pan fit and timing await family clarification."
-      ],
-      "latestEvidenceReassessment": {
-        "minimumRemainingQuestion": "Does Lisa Gwock mean four bone-in split breast halves, two bone-in halves, or two boneless breasts, and what total chicken weight fits with the full broccoli/sauce in the nine-inch square pan for the recorded two servings?",
-        "assessment": "Saved and current family formula both say two whole chicken breasts, split. No cut count, bone/skin state or chicken mass is established. Lisa Gwock attribution cannot be replaced by a generic casserole recipe.",
-        "evidence": "docs/editorial-campaign/2026-10-05/final-hold-evidence-pass.json"
-      }
-    },
     {
       "slug": "boston-style-peking-ravioli",
       "title": "Peking Ravioli",
@@ -209,23 +194,6 @@
       "latestEvidenceReassessment": {
         "minimumRemainingQuestion": "What actual honey amount did the quarter-jar mean, what water unit/level did “1/4 water” mean, and how much less than three-quarters of a lemon was intended?",
         "assessment": "Exact Ruth Shankman original still supplies these ambiguous amounts. Later quarter-cup honey, quarter-inch water and whole-lemon interpretation appears in the bulk rewrite rather than a recovered explicit family decision. Rosh Hashanah, Thanksgiving and Hanukkah context is retained; no generic applesauce formula can answer these dose questions.",
-        "evidence": "docs/editorial-campaign/2026-10-05/final-hold-evidence-pass.json"
-      }
-    },
-    {
-      "slug": "peking-duck-an-easy-home-version",
-      "title": "Peking Duck",
-      "currentPath": "src/content/recipes/peking-duck-an-easy-home-version.md",
-      "currentSourceSha256": "9dce4b1753daef8b64fe5c23b7bec54cd6a1f3767c00fa7aa48c8af4cba171c8",
-      "status": "held",
-      "remainingQuestions": [
-        "Which fresh/thawed starting age and cold drying duration are intended? Is a whole-skin boiling-water pour followed by cold storage permitted under applicable USDA no-partial-cook/cold-finish guidance, or must an independently supported different preparation be chosen? How will the full raw-window and cumulative roomtemperature handling be bounded?",
-        "Retain current1tspfat sauce and expose sourcehalfTbsp separately? Choose maltose main versus supported2:1honey alternative with an actual dose; retain sourceconventional425→390 separately from current425→350 without promising equal finish? Wholeduck and cavity contents require165 checks, actualrack/pan/model and clock remain untested.",
-        "Does the household want the original service/soup/vinegar options once the primary duck handling route is resolved? No pancake package, soup water amount or measured yield established."
-      ],
-      "latestEvidenceReassessment": {
-        "minimumRemainingQuestion": "What is the duck’s fresh/refrigerator-thawed starting age and intended cold-drying duration, and what primary safety evidence explicitly permits this skin-blanch-to-cold-storage route, or what independently supported different preparation will be chosen?",
-        "assessment": "Red House primary supports the traditional skin-water pour, refrigerated coating/drying and oven/sauce alternatives. USDA primary explicitly prohibits partial-cook/refrigerate/finish and limits raw fresh/refrigerator-thawed duck to one or two days. No inspected source determines whether this whole-skin pour constitutes partial cooking, or permits adding24–48hours after an unknown starting raw age.",
         "evidence": "docs/editorial-campaign/2026-10-05/final-hold-evidence-pass.json"
       }
     },
@@ -494,7 +462,9 @@
       "acceptedSourceSha256": "ae0612873299735877f7579aafad6cb6ae9fa470876ed39664395ea9ae175104",
       "status": "accepted locally; publication pending",
       "decision": "Complete source and authored process reconciled against retained originals, applicable source/manual evidence, explicit household decisions where relevant and independent challenge.",
-      "review": "docs/reviews/instant-pot-butternut-squash-soup.json"
+      "review": "docs/reviews/instant-pot-butternut-squash-soup.json",
+      "implementationCommit": "abfbbb36d62af80bbffc0734d274cccda942ba1b",
+      "productionVerification": "docs/editorial-campaign/2026-10-06/soups-ribs-oats-ice-cream-production.json"
     },
     {
       "slug": "instant-pot-potato-leek-soup",
@@ -503,7 +473,9 @@
       "acceptedSourceSha256": "b8176622f071348aa02261ef83c3fcc265c977750aac28c8d78c491b56ee4371",
       "status": "accepted locally; publication pending",
       "decision": "Complete source and authored process reconciled against retained originals, applicable source/manual evidence, explicit household decisions where relevant and independent challenge.",
-      "review": "docs/reviews/instant-pot-potato-leek-soup.json"
+      "review": "docs/reviews/instant-pot-potato-leek-soup.json",
+      "implementationCommit": "abfbbb36d62af80bbffc0734d274cccda942ba1b",
+      "productionVerification": "docs/editorial-campaign/2026-10-06/soups-ribs-oats-ice-cream-production.json"
     },
     {
       "slug": "honey-glazed-spareribs",
@@ -512,7 +484,9 @@
       "acceptedSourceSha256": "e8d1d7d8519334c83774c8f44f20333c9b44b1c841529d54484b46ca7d16f1e9",
       "status": "accepted locally; publication pending",
       "decision": "Complete source and authored process reconciled against retained originals, applicable source/manual evidence, explicit household decisions where relevant and independent challenge.",
-      "review": "docs/reviews/honey-glazed-spareribs.json"
+      "review": "docs/reviews/honey-glazed-spareribs.json",
+      "implementationCommit": "abfbbb36d62af80bbffc0734d274cccda942ba1b",
+      "productionVerification": "docs/editorial-campaign/2026-10-06/soups-ribs-oats-ice-cream-production.json"
     },
     {
       "slug": "vegetable-minestrone",
@@ -521,7 +495,9 @@
       "acceptedSourceSha256": "0d9d48cc86fa6ca9e02a78da125aa9ff637a75bfb1d953a640191a8c882d5f73",
       "status": "accepted locally; publication pending",
       "decision": "Complete source and authored process reconciled against retained originals, applicable source/manual evidence, explicit household decisions where relevant and independent challenge.",
-      "review": "docs/reviews/vegetable-minestrone.json"
+      "review": "docs/reviews/vegetable-minestrone.json",
+      "implementationCommit": "abfbbb36d62af80bbffc0734d274cccda942ba1b",
+      "productionVerification": "docs/editorial-campaign/2026-10-06/soups-ribs-oats-ice-cream-production.json"
     },
     {
       "slug": "key-lime-pie-ice-cream",
@@ -530,7 +506,9 @@
       "acceptedSourceSha256": "b64cd15dd9a304a7be11e93aae9d93e49d1ca8913d4bb2de461d755f8fb052ec",
       "status": "accepted locally; publication pending",
       "decision": "Complete source and authored process reconciled against retained originals, applicable source/manual evidence, explicit household decisions where relevant and independent challenge.",
-      "review": "docs/reviews/key-lime-pie-ice-cream.json"
+      "review": "docs/reviews/key-lime-pie-ice-cream.json",
+      "implementationCommit": "abfbbb36d62af80bbffc0734d274cccda942ba1b",
+      "productionVerification": "docs/editorial-campaign/2026-10-06/soups-ribs-oats-ice-cream-production.json"
     },
     {
       "slug": "oatmeal-risotto",
@@ -539,7 +517,9 @@
       "acceptedSourceSha256": "ea2eb9ed34651e8fb3b2662554feb87abffd25db2217e756aa5b0ce6d6ca8459",
       "status": "accepted locally; publication pending",
       "decision": "Complete source and authored process reconciled against retained originals, applicable source/manual evidence, explicit household decisions where relevant and independent challenge.",
-      "review": "docs/reviews/oatmeal-risotto.json"
+      "review": "docs/reviews/oatmeal-risotto.json",
+      "implementationCommit": "abfbbb36d62af80bbffc0734d274cccda942ba1b",
+      "productionVerification": "docs/editorial-campaign/2026-10-06/soups-ribs-oats-ice-cream-production.json"
     },
     {
       "slug": "roasted-corn-chowder-with-lime-cured-shrimp",
@@ -548,7 +528,9 @@
       "acceptedSourceSha256": "d03cf4ff81138df9b574c8758e09d488a92fa9b63b65be0b9fd1afad274ed1c2",
       "status": "accepted locally; publication pending",
       "decision": "Complete source and authored process reconciled against retained originals, applicable source/manual evidence, explicit household decisions where relevant and independent challenge.",
-      "review": "docs/reviews/roasted-corn-chowder-with-lime-cured-shrimp.json"
+      "review": "docs/reviews/roasted-corn-chowder-with-lime-cured-shrimp.json",
+      "implementationCommit": "abfbbb36d62af80bbffc0734d274cccda942ba1b",
+      "productionVerification": "docs/editorial-campaign/2026-10-06/soups-ribs-oats-ice-cream-production.json"
     },
     {
       "slug": "freezer-banana-bread",
@@ -557,7 +539,9 @@
       "acceptedSourceSha256": "fb23144d3c9f95a9a8135906552842a96e228573927ab188e139f6a100e8ab8f",
       "status": "accepted locally; publication pending",
       "decision": "Complete source and authored process reconciled against retained originals, applicable source/manual evidence, explicit household decisions where relevant and independent challenge.",
-      "review": "docs/reviews/freezer-banana-bread.json"
+      "review": "docs/reviews/freezer-banana-bread.json",
+      "implementationCommit": "abfbbb36d62af80bbffc0734d274cccda942ba1b",
+      "productionVerification": "docs/editorial-campaign/2026-10-06/soups-ribs-oats-ice-cream-production.json"
     },
     {
       "slug": "fresh-wonton-wrappers",
@@ -566,7 +550,71 @@
       "acceptedSourceSha256": "4f53155b06122747329985ada4d58cde53e5dd79f45948cd8493250b2292d908",
       "status": "accepted locally; publication pending",
       "decision": "Complete source and authored process reconciled against retained originals, applicable source/manual evidence, explicit household decisions where relevant and independent challenge.",
-      "review": "docs/reviews/fresh-wonton-wrappers.json"
+      "review": "docs/reviews/fresh-wonton-wrappers.json",
+      "implementationCommit": "abfbbb36d62af80bbffc0734d274cccda942ba1b",
+      "productionVerification": "docs/editorial-campaign/2026-10-06/soups-ribs-oats-ice-cream-production.json"
+    }
+  ],
+  "retiredByUser": [
+    {
+      "slug": "baked-chicken-and-broccoli",
+      "title": "Baked Chicken and Broccoli",
+      "currentPath": "src/content/recipes/baked-chicken-and-broccoli.md",
+      "currentSourceSha256": "7fbfae5a0cd15648b2684c51188c726597f87faa5fe1ea625624d5445012cfe6",
+      "status": "retired-by-user; publication pending",
+      "remainingQuestions": [
+        "Saved two whole split breasts is ambiguous; bone-in cut count, pan fit and timing await family clarification."
+      ],
+      "latestEvidenceReassessment": {
+        "minimumRemainingQuestion": "Does Lisa Gwock mean four bone-in split breast halves, two bone-in halves, or two boneless breasts, and what total chicken weight fits with the full broccoli/sauce in the nine-inch square pan for the recorded two servings?",
+        "assessment": "Saved and current family formula both say two whole chicken breasts, split. No cut count, bone/skin state or chicken mass is established. Lisa Gwock attribution cannot be replaced by a generic casserole recipe.",
+        "evidence": "docs/editorial-campaign/2026-10-05/final-hold-evidence-pass.json"
+      },
+      "retirement": {
+        "title": "Baked Chicken and Broccoli",
+        "date": "2026-10-06",
+        "status": "retired-by-user",
+        "reason": "User no longer wants this casserole in the active collection.",
+        "record": "docs/reviews/baked-chicken-and-broccoli.md",
+        "lastSourcePath": "src/content/recipes/baked-chicken-and-broccoli.md",
+        "lastSourceCommit": "abfbbb36d62af80bbffc0734d274cccda942ba1b",
+        "lastSourceSha256": "7fbfae5a0cd15648b2684c51188c726597f87faa5fe1ea625624d5445012cfe6",
+        "source": "Lisa Gwock",
+        "sourceUrl": null
+      },
+      "evidence": "docs/editorial-campaign/2026-10-06/user-retirements.json",
+      "completeEditorialReviewGranted": false
+    },
+    {
+      "slug": "peking-duck-an-easy-home-version",
+      "title": "Peking Duck",
+      "currentPath": "src/content/recipes/peking-duck-an-easy-home-version.md",
+      "currentSourceSha256": "9dce4b1753daef8b64fe5c23b7bec54cd6a1f3767c00fa7aa48c8af4cba171c8",
+      "status": "retired-by-user; publication pending",
+      "remainingQuestions": [
+        "Which fresh/thawed starting age and cold drying duration are intended? Is a whole-skin boiling-water pour followed by cold storage permitted under applicable USDA no-partial-cook/cold-finish guidance, or must an independently supported different preparation be chosen? How will the full raw-window and cumulative roomtemperature handling be bounded?",
+        "Retain current1tspfat sauce and expose sourcehalfTbsp separately? Choose maltose main versus supported2:1honey alternative with an actual dose; retain sourceconventional425→390 separately from current425→350 without promising equal finish? Wholeduck and cavity contents require165 checks, actualrack/pan/model and clock remain untested.",
+        "Does the household want the original service/soup/vinegar options once the primary duck handling route is resolved? No pancake package, soup water amount or measured yield established."
+      ],
+      "latestEvidenceReassessment": {
+        "minimumRemainingQuestion": "What is the duck’s fresh/refrigerator-thawed starting age and intended cold-drying duration, and what primary safety evidence explicitly permits this skin-blanch-to-cold-storage route, or what independently supported different preparation will be chosen?",
+        "assessment": "Red House primary supports the traditional skin-water pour, refrigerated coating/drying and oven/sauce alternatives. USDA primary explicitly prohibits partial-cook/refrigerate/finish and limits raw fresh/refrigerator-thawed duck to one or two days. No inspected source determines whether this whole-skin pour constitutes partial cooking, or permits adding24–48hours after an unknown starting raw age.",
+        "evidence": "docs/editorial-campaign/2026-10-05/final-hold-evidence-pass.json"
+      },
+      "retirement": {
+        "title": "Peking Duck",
+        "date": "2026-10-06",
+        "status": "retired-by-user",
+        "reason": "User no longer wants to prepare whole duck and prefers skin-on duck breasts.",
+        "record": "docs/reviews/peking-duck-an-easy-home-version.md",
+        "lastSourcePath": "src/content/recipes/peking-duck-an-easy-home-version.md",
+        "lastSourceCommit": "abfbbb36d62af80bbffc0734d274cccda942ba1b",
+        "lastSourceSha256": "9dce4b1753daef8b64fe5c23b7bec54cd6a1f3767c00fa7aa48c8af4cba171c8",
+        "source": "Adapted from redhousespice.com",
+        "sourceUrl": "https://redhousespice.com/peking-duck/comment-page-8/#comments"
+      },
+      "evidence": "docs/editorial-campaign/2026-10-06/user-retirements.json",
+      "completeEditorialReviewGranted": false
     }
   ]
 }

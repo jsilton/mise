@@ -2,22 +2,22 @@
   "summary": {
     "inputCommit": "bacc1e4bdbd0e2715960d84f48a8eea57d4501b4",
     "recipes": 651,
-    "recordedCompleteEditorial": 633,
-    "completeEditorialPending": 18,
+    "recordedCompleteEditorial": 635,
+    "completeEditorialPending": 16,
     "originalBaseline": 612,
     "originalReviewed": 585,
     "consideredConsolidations": 10,
-    "originalPending": 17,
-    "additionalSources": 49,
-    "additionalReviewed": 48,
-    "additionalPending": 1,
+    "originalPending": 16,
+    "additionalSources": 50,
+    "additionalReviewed": 50,
+    "additionalPending": 0,
     "automatedAudit": {
       "recipes": 651,
-      "editoriallyReviewed": 633,
+      "editoriallyReviewed": 635,
       "kitchenTested": 0,
       "errors": 0,
       "priorityReviews": 0,
-      "reviewItems": 41
+      "reviewItems": 38
     },
     "accelerated": {
       "implemented": 42,
@@ -27,14 +27,19 @@
     },
     "uniquePathsInSixRepairCommits": 105,
     "kitchenTested": 0,
-    "productionReconciliation": "382/409 original campaign versions remain verified live. Nine resolved held versions and one distinct complete Irvine variant are accepted locally, pending exact release verification. Coverage: 633 complete / 18 pending across 651 sources. New additions remain separate from original campaign progress; targeted accelerated repairs remain a separate overlapping historical scope. No kitchen tests or native-app sync.",
+    "productionReconciliation": "391 complete editorial versions from the original 409-recipe campaign are verified live. Two user-authorized retirements and two distinct skin-on duck breast additions are accepted locally, pending exact release verification; 16 active recipes remain held. Coverage is 635 complete / 16 pending across 651 active sources. The original campaign remains 391 verified complete versions, 16 active holds and 2 separate retirements. Ten newly authored October 6 additions are counted separately, with eight verified live and these two breast options pending. No kitchen tests or native-app sync.",
     "latestAcceptanceInputCommit": "0bf936ce8fdac00634ed1171ee8ece86cccd4332",
-    "latestRecipeCommitReconciledAtCommit": "b673ed5c3da1277c99af5ff48994d0be74521c45",
+    "latestRecipeCommitReconciledAtCommit": "abfbbb36d62af80bbffc0734d274cccda942ba1b",
     "newlyAuthoredOctober6": {
-      "recipes": 8,
-      "completeEditorial": 8,
-      "productionVerified": 7
-    }
+      "recipes": 10,
+      "completeEditorial": 10,
+      "productionVerified": 8,
+      "publicationPending": 2
+    },
+    "originalRetiredByUser": 1,
+    "additionalSourcesConsidered": 51,
+    "additionalRetiredByUser": 1,
+    "retiredByUser": 2
   },
   "collectionEvidence": [
     "docs/REVIEW_PROGRESS.md",
@@ -868,48 +873,6 @@
         "testNotes": null
       },
       "historicalEvidence": []
-    },
-    {
-      "currentPath": "src/content/recipes/baked-chicken-and-broccoli.md",
-      "slug": "baked-chicken-and-broccoli",
-      "title": "Baked Chicken and Broccoli",
-      "legacyAliases": [],
-      "baseline": "addition",
-      "source": "Lisa Gwock",
-      "sourceUrl": null,
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        }
-      ],
-      "targetedReview": {
-        "acceleratedDisposition": null,
-        "acceleratedEvidence": null,
-        "historicalCommitTouches": 0,
-        "evidence": ["docs/reviews/baked-chicken-and-broccoli.md"]
-      },
-      "completeEditorialReview": {
-        "status": "held; source ambiguity prevents acceptance",
-        "record": "docs/reviews/baked-chicken-and-broccoli.md",
-        "recordImplementationCommit": "9faedba59b21bb230dcddd530489dc6e86d51bde"
-      },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
-      "implementationCommits": [],
-      "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
-      },
-      "remainingQuestions": [
-        "Does Lisa Gwock mean four bone-in split breast halves, two bone-in halves, or two boneless breasts, and what total chicken weight fits with the full broccoli/sauce in the nine-inch square pan for the recorded two servings?",
-        "Held: family split-breast cut/count and pan fit require clarification; existing claims are not endorsed."
-      ],
-      "kitchenTesting": {
-        "status": "not performed / no recorded test",
-        "testNotes": null
-      },
-      "historicalEvidence": ["docs/reviews/baked-chicken-and-broccoli.md"]
     },
     {
       "currentPath": "src/content/recipes/baked-chicken-parmesan.md",
@@ -2476,6 +2439,51 @@
       "historicalEvidence": []
     },
     {
+      "currentPath": "src/content/recipes/brasato-al-barolo.md",
+      "slug": "brasato-al-barolo",
+      "title": "Brasato al Barolo",
+      "legacyAliases": [],
+      "baseline": "additional authored October 6, 2026",
+      "targetedReview": {
+        "acceleratedDisposition": "not part of accelerated pass",
+        "historicalCommitTouches": 0,
+        "evidence": []
+      },
+      "latestRecipeCommit": "b673ed5c3da1277c99af5ff48994d0be74521c45",
+      "implementationCommits": ["b673ed5c3da1277c99af5ff48994d0be74521c45"],
+      "historicalEvidence": [],
+      "source": "Accademia Italiana della Cucina — Brasato di bue al Barolo, all’uso di Cuneo (Piemonte)",
+      "sourceUrl": "https://www.accademiaitalianadellacucina.it/it/ricette/ricetta/brasato-di-bue-al-barolo",
+      "automatedFlags": [],
+      "completeEditorialReview": {
+        "status": "complete editorial review; implemented and verified live",
+        "record": "docs/reviews/brasato-al-barolo.md",
+        "acceptedSourceSha256": "b4244ee35aa0c74fe97c1d9a31b9548ca97c50cdb26c082faa0dd2c1fc384838",
+        "recordImplementationCommit": "b673ed5c3da1277c99af5ff48994d0be74521c45"
+      },
+      "acceptedChange": {
+        "status": "implemented and verified live",
+        "scope": "seven additions",
+        "sourceSha256": "b4244ee35aa0c74fe97c1d9a31b9548ca97c50cdb26c082faa0dd2c1fc384838",
+        "evidence": "docs/reviews/brasato-al-barolo.json"
+      },
+      "productionVerification": {
+        "status": "verified live",
+        "sourceSha256": "b4244ee35aa0c74fe97c1d9a31b9548ca97c50cdb26c082faa0dd2c1fc384838",
+        "implementationCommit": "b673ed5c3da1277c99af5ff48994d0be74521c45",
+        "releaseCommit": "b673ed5c3da1277c99af5ff48994d0be74521c45",
+        "evidence": "docs/editorial-campaign/2026-10-06/italian-classics-and-kimchi-production.json"
+      },
+      "remainingQuestions": [
+        "Refine tenderness time for the butcher's chosen shoulder cut and pot; check final sauce reduction and salt.",
+        "Confirm practical recovery of the whole aromatics before blending; a removable food-safe spice sachet could ease handling without changing the formula."
+      ],
+      "kitchenTesting": {
+        "status": "not performed / no recorded test",
+        "testNotes": null
+      }
+    },
+    {
       "currentPath": "src/content/recipes/breakfast-burrito.md",
       "slug": "breakfast-burrito",
       "title": "Breakfast Burrito",
@@ -3548,6 +3556,52 @@
         "testNotes": null
       },
       "historicalEvidence": ["docs/reviews/source-restorations-2026-10-05.md"]
+    },
+    {
+      "currentPath": "src/content/recipes/caponata.md",
+      "slug": "caponata",
+      "title": "Caponata",
+      "legacyAliases": [],
+      "baseline": "additional authored October 6, 2026",
+      "targetedReview": {
+        "acceleratedDisposition": "not part of accelerated pass",
+        "historicalCommitTouches": 0,
+        "evidence": []
+      },
+      "latestRecipeCommit": "b673ed5c3da1277c99af5ff48994d0be74521c45",
+      "implementationCommits": ["b673ed5c3da1277c99af5ff48994d0be74521c45"],
+      "historicalEvidence": [],
+      "source": "Adapted from Regione Siciliana, Visit Sicily — Caponata",
+      "sourceUrl": "https://www.visitsicily.info/ricetta/la-caponata/",
+      "automatedFlags": [],
+      "completeEditorialReview": {
+        "status": "complete editorial review; implemented and verified live",
+        "record": "docs/reviews/caponata.md",
+        "acceptedSourceSha256": "8a975cc8ecc3895ef87a600ebe11e42d8e74c5f8008d398de6ced4c7ad8fd79e",
+        "recordImplementationCommit": "b673ed5c3da1277c99af5ff48994d0be74521c45"
+      },
+      "acceptedChange": {
+        "status": "implemented and verified live",
+        "scope": "seven additions",
+        "sourceSha256": "8a975cc8ecc3895ef87a600ebe11e42d8e74c5f8008d398de6ced4c7ad8fd79e",
+        "evidence": "docs/reviews/caponata.json"
+      },
+      "productionVerification": {
+        "status": "verified live",
+        "sourceSha256": "8a975cc8ecc3895ef87a600ebe11e42d8e74c5f8008d398de6ced4c7ad8fd79e",
+        "implementationCommit": "b673ed5c3da1277c99af5ff48994d0be74521c45",
+        "releaseCommit": "b673ed5c3da1277c99af5ff48994d0be74521c45",
+        "evidence": "docs/editorial-campaign/2026-10-06/italian-classics-and-kimchi-production.json"
+      },
+      "remainingQuestions": [
+        "Actual drained vegetable yield, retained frying oil and whether four source portions match the intended meal.",
+        "Flavor of the source 50 g sugar/50 g white vinegar with the actual vinegar concentration; no fixed acidity is inferred.",
+        "Actual frying-pan capacity and batch time with the full 300 g oil; effect of the explicit light-coating process-salt choice."
+      ],
+      "kitchenTesting": {
+        "status": "not performed / no recorded test",
+        "testNotes": null
+      }
     },
     {
       "currentPath": "src/content/recipes/caramelized-black-pepper-chicken.md",
@@ -5406,45 +5460,6 @@
       "historicalEvidence": []
     },
     {
-      "currentPath": "src/content/recipes/chinese-chicken-broccoli.md",
-      "slug": "chinese-chicken-broccoli",
-      "title": "Chicken and Broccoli Stir-Fry",
-      "legacyAliases": [],
-      "baseline": "original canonical",
-      "source": "Adapted from omnivorescookbook.com",
-      "sourceUrl": "https://omnivorescookbook.com/chicken-and-broccoli/",
-      "automatedFlags": [],
-      "targetedReview": {
-        "acceleratedDisposition": null,
-        "acceleratedEvidence": null,
-        "historicalCommitTouches": 0,
-        "evidence": ["docs/reviews/chinese-chicken-broccoli.md"]
-      },
-      "completeEditorialReview": {
-        "status": "editorial-review",
-        "record": "docs/reviews/chinese-chicken-broccoli.md",
-        "qualification": "recorded status retained; not recertified by this reconciliation",
-        "recordImplementationCommit": "e956346bb8c94d0302d249fbfb32b92198d5d795"
-      },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
-      "implementationCommits": [],
-      "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
-      },
-      "remainingQuestions": [
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
-      ],
-      "kitchenTesting": {
-        "status": "not performed / no recorded test",
-        "testNotes": null
-      },
-      "historicalEvidence": [
-        "docs/reviews/chinese-chicken-broccoli.md",
-        "docs/audits/2026-09-10/corpus.md"
-      ]
-    },
-    {
       "currentPath": "src/content/recipes/chinese-chicken.md",
       "slug": "chinese-chicken",
       "title": "Chicken & Broccoli with Lap Cheong Rice",
@@ -5485,6 +5500,45 @@
         "testNotes": null
       },
       "historicalEvidence": ["docs/reviews/chinese-chicken.md"]
+    },
+    {
+      "currentPath": "src/content/recipes/chinese-chicken-broccoli.md",
+      "slug": "chinese-chicken-broccoli",
+      "title": "Chicken and Broccoli Stir-Fry",
+      "legacyAliases": [],
+      "baseline": "original canonical",
+      "source": "Adapted from omnivorescookbook.com",
+      "sourceUrl": "https://omnivorescookbook.com/chicken-and-broccoli/",
+      "automatedFlags": [],
+      "targetedReview": {
+        "acceleratedDisposition": null,
+        "acceleratedEvidence": null,
+        "historicalCommitTouches": 0,
+        "evidence": ["docs/reviews/chinese-chicken-broccoli.md"]
+      },
+      "completeEditorialReview": {
+        "status": "editorial-review",
+        "record": "docs/reviews/chinese-chicken-broccoli.md",
+        "qualification": "recorded status retained; not recertified by this reconciliation",
+        "recordImplementationCommit": "e956346bb8c94d0302d249fbfb32b92198d5d795"
+      },
+      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "acceptedChange": null,
+      "implementationCommits": [],
+      "productionVerification": {
+        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+      },
+      "remainingQuestions": [
+        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+      ],
+      "kitchenTesting": {
+        "status": "not performed / no recorded test",
+        "testNotes": null
+      },
+      "historicalEvidence": [
+        "docs/reviews/chinese-chicken-broccoli.md",
+        "docs/audits/2026-09-10/corpus.md"
+      ]
     },
     {
       "currentPath": "src/content/recipes/chinese-eggplant-with-garlic-sauce.md",
@@ -7775,6 +7829,48 @@
         "testNotes": null
       },
       "historicalEvidence": ["docs/reviews/source-restorations-2026-10-05.md"]
+    },
+    {
+      "currentPath": "src/content/recipes/crisp-skin-duck-breast-with-orange-pan-sauce.md",
+      "slug": "crisp-skin-duck-breast-with-orange-pan-sauce",
+      "title": "Crisp-Skin Duck Breast with Orange Pan Sauce",
+      "legacyAliases": [],
+      "baseline": "additional authored October 6, 2026",
+      "source": "Sohla El-Waylly — Pan-Seared Duck Breast With Orange Pan Sauce, Serious Eats; USDA poultry endpoint used in the method",
+      "sourceUrl": "https://www.seriouseats.com/pan-seared-duck-breast",
+      "automatedFlags": [],
+      "targetedReview": {
+        "acceleratedDisposition": "not part of accelerated pass",
+        "historicalCommitTouches": 0,
+        "evidence": []
+      },
+      "completeEditorialReview": {
+        "status": "complete editorial review; accepted locally; publication pending",
+        "record": "docs/reviews/crisp-skin-duck-breast-with-orange-pan-sauce.md",
+        "acceptedSourceSha256": "6c992e1a67d4007e52676f94088702838814639ae1fe49661a1031a22464be08"
+      },
+      "latestRecipeCommit": null,
+      "acceptedChange": {
+        "status": "accepted locally; publication pending",
+        "scope": "newly authored duck breast option",
+        "sourceSha256": "6c992e1a67d4007e52676f94088702838814639ae1fe49661a1031a22464be08",
+        "evidence": "docs/reviews/crisp-skin-duck-breast-with-orange-pan-sauce.json"
+      },
+      "implementationCommits": [],
+      "productionVerification": {
+        "status": "pending exact remote commit, CI/deployment and live page verification"
+      },
+      "remainingQuestions": [
+        "Final firmness/juiciness at 165°F for the selected actual breast weight and thickness",
+        "Burner setting that sustains gentle rendering, pan load and skin crispness",
+        "Actual reduction time and sauce body with selected stock and gelatin",
+        "Actual portions and saved-fat yield; no quantitative fat yield is assigned"
+      ],
+      "kitchenTesting": {
+        "status": "not performed / no recorded test",
+        "testNotes": null
+      },
+      "historicalEvidence": []
     },
     {
       "currentPath": "src/content/recipes/crispy-baked-chicken-sliders.md",
@@ -10393,20 +10489,25 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "complete editorial review accepted locally; publication pending",
+        "status": "complete editorial review; implemented and verified live",
         "record": "docs/reviews/freezer-banana-bread.md",
-        "acceptedSourceSha256": "fb23144d3c9f95a9a8135906552842a96e228573927ab188e139f6a100e8ab8f"
+        "acceptedSourceSha256": "fb23144d3c9f95a9a8135906552842a96e228573927ab188e139f6a100e8ab8f",
+        "recordImplementationCommit": "abfbbb36d62af80bbffc0734d274cccda942ba1b"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "abfbbb36d62af80bbffc0734d274cccda942ba1b",
       "acceptedChange": {
-        "status": "accepted locally; publication pending",
+        "status": "implemented and verified live",
         "scope": "original 409-source campaign",
         "sourceSha256": "fb23144d3c9f95a9a8135906552842a96e228573927ab188e139f6a100e8ab8f",
         "evidence": "docs/reviews/freezer-banana-bread.json"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["abfbbb36d62af80bbffc0734d274cccda942ba1b"],
       "productionVerification": {
-        "status": "pending exact release verification"
+        "status": "verified live",
+        "sourceSha256": "fb23144d3c9f95a9a8135906552842a96e228573927ab188e139f6a100e8ab8f",
+        "implementationCommit": "abfbbb36d62af80bbffc0734d274cccda942ba1b",
+        "releaseCommit": "abfbbb36d62af80bbffc0734d274cccda942ba1b",
+        "evidence": "docs/editorial-campaign/2026-10-06/soups-ribs-oats-ice-cream-production.json"
       },
       "remainingQuestions": [
         "Actual pan fit, center-set timing, full cooling time, finished slice count and freezer texture remain unmeasured; source formula and practical headroom/center cues are preserved."
@@ -10757,20 +10858,25 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "complete editorial review accepted locally; publication pending",
+        "status": "complete editorial review; implemented and verified live",
         "record": "docs/reviews/fresh-wonton-wrappers.md",
-        "acceptedSourceSha256": "4f53155b06122747329985ada4d58cde53e5dd79f45948cd8493250b2292d908"
+        "acceptedSourceSha256": "4f53155b06122747329985ada4d58cde53e5dd79f45948cd8493250b2292d908",
+        "recordImplementationCommit": "abfbbb36d62af80bbffc0734d274cccda942ba1b"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "abfbbb36d62af80bbffc0734d274cccda942ba1b",
       "acceptedChange": {
-        "status": "accepted locally; publication pending",
+        "status": "implemented and verified live",
         "scope": "original 409-source campaign",
         "sourceSha256": "4f53155b06122747329985ada4d58cde53e5dd79f45948cd8493250b2292d908",
         "evidence": "docs/reviews/fresh-wonton-wrappers.json"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["abfbbb36d62af80bbffc0734d274cccda942ba1b"],
       "productionVerification": {
-        "status": "pending exact release verification"
+        "status": "verified live",
+        "sourceSha256": "4f53155b06122747329985ada4d58cde53e5dd79f45948cd8493250b2292d908",
+        "implementationCommit": "abfbbb36d62af80bbffc0734d274cccda942ba1b",
+        "releaseCommit": "abfbbb36d62af80bbffc0734d274cccda942ba1b",
+        "evidence": "docs/editorial-campaign/2026-10-06/soups-ribs-oats-ice-cream-production.json"
       },
       "remainingQuestions": [
         "Actual sheet thickness, trimming and wrapper count remain unmeasured; approximate yield and physical rolling cues are explicitly estimates."
@@ -13885,13 +13991,14 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "complete editorial review accepted locally; publication pending",
+        "status": "complete editorial review; implemented and verified live",
         "record": "docs/reviews/honey-glazed-spareribs.md",
-        "acceptedSourceSha256": "e8d1d7d8519334c83774c8f44f20333c9b44b1c841529d54484b46ca7d16f1e9"
+        "acceptedSourceSha256": "e8d1d7d8519334c83774c8f44f20333c9b44b1c841529d54484b46ca7d16f1e9",
+        "recordImplementationCommit": "abfbbb36d62af80bbffc0734d274cccda942ba1b"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "abfbbb36d62af80bbffc0734d274cccda942ba1b",
       "acceptedChange": {
-        "status": "accepted locally; publication pending",
+        "status": "implemented and verified live",
         "scope": "original 409-source campaign",
         "sourceSha256": "e8d1d7d8519334c83774c8f44f20333c9b44b1c841529d54484b46ca7d16f1e9",
         "evidence": "docs/reviews/honey-glazed-spareribs.json"
@@ -13901,10 +14008,15 @@
           "commit": "a2c9e28069faa57c7bb7fe4ac5e7ca02b6462861",
           "evidence": "actual recipe diff retained privately",
           "scope": "historical safety/scaling/source repair; file touch is not complete review"
-        }
+        },
+        "abfbbb36d62af80bbffc0734d274cccda942ba1b"
       ],
       "productionVerification": {
-        "status": "pending exact release verification"
+        "status": "verified live",
+        "sourceSha256": "e8d1d7d8519334c83774c8f44f20333c9b44b1c841529d54484b46ca7d16f1e9",
+        "implementationCommit": "abfbbb36d62af80bbffc0734d274cccda942ba1b",
+        "releaseCommit": "abfbbb36d62af80bbffc0734d274cccda942ba1b",
+        "evidence": "docs/editorial-campaign/2026-10-06/soups-ribs-oats-ice-cream-production.json"
       },
       "remainingQuestions": [
         "Actual active/elapsed time, finished yield and sensory result remain unmeasured; these do not prevent honest source-yield and planning estimates.",
@@ -14277,13 +14389,14 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "complete editorial review accepted locally; publication pending",
+        "status": "complete editorial review; implemented and verified live",
         "record": "docs/reviews/instant-pot-butternut-squash-soup.md",
-        "acceptedSourceSha256": "ae0612873299735877f7579aafad6cb6ae9fa470876ed39664395ea9ae175104"
+        "acceptedSourceSha256": "ae0612873299735877f7579aafad6cb6ae9fa470876ed39664395ea9ae175104",
+        "recordImplementationCommit": "abfbbb36d62af80bbffc0734d274cccda942ba1b"
       },
-      "latestRecipeCommit": "5741495b479d1891066e004ed07aa4b5f830db66",
+      "latestRecipeCommit": "abfbbb36d62af80bbffc0734d274cccda942ba1b",
       "acceptedChange": {
-        "status": "accepted locally; publication pending",
+        "status": "implemented and verified live",
         "scope": "original 409-source campaign",
         "sourceSha256": "ae0612873299735877f7579aafad6cb6ae9fa470876ed39664395ea9ae175104",
         "evidence": "docs/reviews/instant-pot-butternut-squash-soup.json"
@@ -14298,10 +14411,15 @@
           "commit": "5741495b479d1891066e004ed07aa4b5f830db66",
           "evidence": "actual recipe diff retained privately",
           "scope": "accelerated targeted repair"
-        }
+        },
+        "abfbbb36d62af80bbffc0734d274cccda942ba1b"
       ],
       "productionVerification": {
-        "status": "pending exact release verification"
+        "status": "verified live",
+        "sourceSha256": "ae0612873299735877f7579aafad6cb6ae9fa470876ed39664395ea9ae175104",
+        "implementationCommit": "abfbbb36d62af80bbffc0734d274cccda942ba1b",
+        "releaseCommit": "abfbbb36d62af80bbffc0734d274cccda942ba1b",
+        "evidence": "docs/editorial-campaign/2026-10-06/soups-ribs-oats-ice-cream-production.json"
       },
       "remainingQuestions": [
         "Actual active/elapsed time, finished yield and sensory result remain unmeasured; these do not prevent honest source-yield and planning estimates."
@@ -14334,13 +14452,14 @@
         "evidence": ["docs/reviews/bounded-recipe-batch-2026-10-05.md"]
       },
       "completeEditorialReview": {
-        "status": "complete editorial review accepted locally; publication pending",
+        "status": "complete editorial review; implemented and verified live",
         "record": "docs/reviews/instant-pot-potato-leek-soup.md",
-        "acceptedSourceSha256": "b8176622f071348aa02261ef83c3fcc265c977750aac28c8d78c491b56ee4371"
+        "acceptedSourceSha256": "b8176622f071348aa02261ef83c3fcc265c977750aac28c8d78c491b56ee4371",
+        "recordImplementationCommit": "abfbbb36d62af80bbffc0734d274cccda942ba1b"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "abfbbb36d62af80bbffc0734d274cccda942ba1b",
       "acceptedChange": {
-        "status": "accepted locally; publication pending",
+        "status": "implemented and verified live",
         "scope": "original 409-source campaign",
         "sourceSha256": "b8176622f071348aa02261ef83c3fcc265c977750aac28c8d78c491b56ee4371",
         "evidence": "docs/reviews/instant-pot-potato-leek-soup.json"
@@ -14355,10 +14474,15 @@
           "commit": "ee9c707878074d7d56dcb3fb737afb537051aba5",
           "evidence": "actual recipe diff retained privately",
           "scope": "accelerated targeted repair"
-        }
+        },
+        "abfbbb36d62af80bbffc0734d274cccda942ba1b"
       ],
       "productionVerification": {
-        "status": "pending exact release verification"
+        "status": "verified live",
+        "sourceSha256": "b8176622f071348aa02261ef83c3fcc265c977750aac28c8d78c491b56ee4371",
+        "implementationCommit": "abfbbb36d62af80bbffc0734d274cccda942ba1b",
+        "releaseCommit": "abfbbb36d62af80bbffc0734d274cccda942ba1b",
+        "evidence": "docs/editorial-campaign/2026-10-06/soups-ribs-oats-ice-cream-production.json"
       },
       "remainingQuestions": [
         "Actual active/elapsed time, finished yield and sensory result remain unmeasured; these do not prevent honest source-yield and planning estimates."
@@ -15045,93 +15169,6 @@
       "historicalEvidence": ["docs/reviews/source-restorations-2026-10-05.md"]
     },
     {
-      "currentPath": "src/content/recipes/key-lime-pie-ice-cream.md",
-      "slug": "key-lime-pie-ice-cream",
-      "title": "Key Lime Pie Ice Cream",
-      "legacyAliases": [],
-      "baseline": "original canonical",
-      "source": "Adapted from MyRecipes",
-      "sourceUrl": "https://www.myrecipes.com/recipe/key-lime-pie-ice-cream-0",
-      "automatedFlags": [],
-      "targetedReview": {
-        "acceleratedDisposition": null,
-        "acceleratedEvidence": null,
-        "historicalCommitTouches": 0,
-        "evidence": []
-      },
-      "completeEditorialReview": {
-        "status": "complete editorial review accepted locally; publication pending",
-        "record": "docs/reviews/key-lime-pie-ice-cream.md",
-        "acceptedSourceSha256": "b64cd15dd9a304a7be11e93aae9d93e49d1ca8913d4bb2de461d755f8fb052ec"
-      },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": {
-        "status": "accepted locally; publication pending",
-        "scope": "original 409-source campaign",
-        "sourceSha256": "b64cd15dd9a304a7be11e93aae9d93e49d1ca8913d4bb2de461d755f8fb052ec",
-        "evidence": "docs/reviews/key-lime-pie-ice-cream.json"
-      },
-      "implementationCommits": [],
-      "productionVerification": {
-        "status": "pending exact release verification"
-      },
-      "remainingQuestions": [
-        "Actual active/elapsed times, portion weights and sensory outcomes can be recorded when cooked; none is a current evidence blocker.",
-        "Crumb bulk volume and frozen yield remain unmeasured; neither is invented to enforce the original volume allocations."
-      ],
-      "kitchenTesting": {
-        "status": "not performed / no recorded test",
-        "testNotes": null
-      },
-      "historicalEvidence": []
-    },
-    {
-      "currentPath": "src/content/recipes/key-lime-pie-with-lime-zest.md",
-      "slug": "key-lime-pie-with-lime-zest",
-      "title": "Key Lime Pie with Lime Zest",
-      "legacyAliases": [],
-      "baseline": "addition",
-      "source": "food52.com",
-      "sourceUrl": "https://food52.com/recipes/33481-key-lime-pie",
-      "automatedFlags": [],
-      "targetedReview": {
-        "acceleratedDisposition": null,
-        "acceleratedEvidence": null,
-        "historicalCommitTouches": 0,
-        "evidence": ["docs/reviews/key-lime-pie-with-lime-zest.md"]
-      },
-      "completeEditorialReview": {
-        "status": "editorial-review",
-        "record": "docs/reviews/key-lime-pie-with-lime-zest.md",
-        "acceptedSha256": "1387b31491c636c09291231c565f3bd0b778d9400111f7d1583fd691ec30c26e",
-        "independentChallenge": "docs/editorial-campaign/2026-10-05/pasta-pies-eleven-review.md",
-        "recordImplementationCommit": "bc7c88ea8b07fff4e37c2d59be342ea0c03bf6a9"
-      },
-      "latestRecipeCommit": "bc7c88ea8b07fff4e37c2d59be342ea0c03bf6a9",
-      "acceptedChange": {
-        "status": "implemented and verified live",
-        "record": "docs/reviews/key-lime-pie-with-lime-zest.json",
-        "sourceSha256": "1387b31491c636c09291231c565f3bd0b778d9400111f7d1583fd691ec30c26e"
-      },
-      "implementationCommits": ["bc7c88ea8b07fff4e37c2d59be342ea0c03bf6a9"],
-      "productionVerification": {
-        "status": "verified live",
-        "sourceSha256": "1387b31491c636c09291231c565f3bd0b778d9400111f7d1583fd691ec30c26e",
-        "implementationCommit": "bc7c88ea8b07fff4e37c2d59be342ea0c03bf6a9",
-        "releaseCommit": "bc7c88ea8b07fff4e37c2d59be342ea0c03bf6a9",
-        "evidence": "docs/editorial-campaign/2026-10-05/pasta-pies-eleven-production.json"
-      },
-      "remainingQuestions": [
-        "Actual cracker sheet size and measured crumb volume,9-inch dish depth, time to160°F and fully cold set need kitchen testing.",
-        "No current publisher comparison established becauseFood52 returned403; exact bound original/native import retained."
-      ],
-      "kitchenTesting": {
-        "status": "not performed / no recorded test",
-        "testNotes": null
-      },
-      "historicalEvidence": ["docs/reviews/key-lime-pie-with-lime-zest.md"]
-    },
-    {
       "currentPath": "src/content/recipes/key-lime-pie.md",
       "slug": "key-lime-pie",
       "title": "Key Lime Pie",
@@ -15199,6 +15236,98 @@
         "testNotes": null
       },
       "historicalEvidence": []
+    },
+    {
+      "currentPath": "src/content/recipes/key-lime-pie-ice-cream.md",
+      "slug": "key-lime-pie-ice-cream",
+      "title": "Key Lime Pie Ice Cream",
+      "legacyAliases": [],
+      "baseline": "original canonical",
+      "source": "Adapted from MyRecipes",
+      "sourceUrl": "https://www.myrecipes.com/recipe/key-lime-pie-ice-cream-0",
+      "automatedFlags": [],
+      "targetedReview": {
+        "acceleratedDisposition": null,
+        "acceleratedEvidence": null,
+        "historicalCommitTouches": 0,
+        "evidence": []
+      },
+      "completeEditorialReview": {
+        "status": "complete editorial review; implemented and verified live",
+        "record": "docs/reviews/key-lime-pie-ice-cream.md",
+        "acceptedSourceSha256": "b64cd15dd9a304a7be11e93aae9d93e49d1ca8913d4bb2de461d755f8fb052ec",
+        "recordImplementationCommit": "abfbbb36d62af80bbffc0734d274cccda942ba1b"
+      },
+      "latestRecipeCommit": "abfbbb36d62af80bbffc0734d274cccda942ba1b",
+      "acceptedChange": {
+        "status": "implemented and verified live",
+        "scope": "original 409-source campaign",
+        "sourceSha256": "b64cd15dd9a304a7be11e93aae9d93e49d1ca8913d4bb2de461d755f8fb052ec",
+        "evidence": "docs/reviews/key-lime-pie-ice-cream.json"
+      },
+      "implementationCommits": ["abfbbb36d62af80bbffc0734d274cccda942ba1b"],
+      "productionVerification": {
+        "status": "verified live",
+        "sourceSha256": "b64cd15dd9a304a7be11e93aae9d93e49d1ca8913d4bb2de461d755f8fb052ec",
+        "implementationCommit": "abfbbb36d62af80bbffc0734d274cccda942ba1b",
+        "releaseCommit": "abfbbb36d62af80bbffc0734d274cccda942ba1b",
+        "evidence": "docs/editorial-campaign/2026-10-06/soups-ribs-oats-ice-cream-production.json"
+      },
+      "remainingQuestions": [
+        "Actual active/elapsed times, portion weights and sensory outcomes can be recorded when cooked; none is a current evidence blocker.",
+        "Crumb bulk volume and frozen yield remain unmeasured; neither is invented to enforce the original volume allocations."
+      ],
+      "kitchenTesting": {
+        "status": "not performed / no recorded test",
+        "testNotes": null
+      },
+      "historicalEvidence": []
+    },
+    {
+      "currentPath": "src/content/recipes/key-lime-pie-with-lime-zest.md",
+      "slug": "key-lime-pie-with-lime-zest",
+      "title": "Key Lime Pie with Lime Zest",
+      "legacyAliases": [],
+      "baseline": "addition",
+      "source": "food52.com",
+      "sourceUrl": "https://food52.com/recipes/33481-key-lime-pie",
+      "automatedFlags": [],
+      "targetedReview": {
+        "acceleratedDisposition": null,
+        "acceleratedEvidence": null,
+        "historicalCommitTouches": 0,
+        "evidence": ["docs/reviews/key-lime-pie-with-lime-zest.md"]
+      },
+      "completeEditorialReview": {
+        "status": "editorial-review",
+        "record": "docs/reviews/key-lime-pie-with-lime-zest.md",
+        "acceptedSha256": "1387b31491c636c09291231c565f3bd0b778d9400111f7d1583fd691ec30c26e",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/pasta-pies-eleven-review.md",
+        "recordImplementationCommit": "bc7c88ea8b07fff4e37c2d59be342ea0c03bf6a9"
+      },
+      "latestRecipeCommit": "bc7c88ea8b07fff4e37c2d59be342ea0c03bf6a9",
+      "acceptedChange": {
+        "status": "implemented and verified live",
+        "record": "docs/reviews/key-lime-pie-with-lime-zest.json",
+        "sourceSha256": "1387b31491c636c09291231c565f3bd0b778d9400111f7d1583fd691ec30c26e"
+      },
+      "implementationCommits": ["bc7c88ea8b07fff4e37c2d59be342ea0c03bf6a9"],
+      "productionVerification": {
+        "status": "verified live",
+        "sourceSha256": "1387b31491c636c09291231c565f3bd0b778d9400111f7d1583fd691ec30c26e",
+        "implementationCommit": "bc7c88ea8b07fff4e37c2d59be342ea0c03bf6a9",
+        "releaseCommit": "bc7c88ea8b07fff4e37c2d59be342ea0c03bf6a9",
+        "evidence": "docs/editorial-campaign/2026-10-05/pasta-pies-eleven-production.json"
+      },
+      "remainingQuestions": [
+        "Actual cracker sheet size and measured crumb volume,9-inch dish depth, time to160°F and fully cold set need kitchen testing.",
+        "No current publisher comparison established becauseFood52 returned403; exact bound original/native import retained."
+      ],
+      "kitchenTesting": {
+        "status": "not performed / no recorded test",
+        "testNotes": null
+      },
+      "historicalEvidence": ["docs/reviews/key-lime-pie-with-lime-zest.md"]
     },
     {
       "currentPath": "src/content/recipes/kimchi-jjigae-kimchi-stew.md",
@@ -17921,13 +18050,14 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "complete editorial review accepted locally; publication pending",
+        "status": "complete editorial review; implemented and verified live",
         "record": "docs/reviews/oatmeal-risotto.md",
-        "acceptedSourceSha256": "ea2eb9ed34651e8fb3b2662554feb87abffd25db2217e756aa5b0ce6d6ca8459"
+        "acceptedSourceSha256": "ea2eb9ed34651e8fb3b2662554feb87abffd25db2217e756aa5b0ce6d6ca8459",
+        "recordImplementationCommit": "abfbbb36d62af80bbffc0734d274cccda942ba1b"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "abfbbb36d62af80bbffc0734d274cccda942ba1b",
       "acceptedChange": {
-        "status": "accepted locally; publication pending",
+        "status": "implemented and verified live",
         "scope": "original 409-source campaign",
         "sourceSha256": "ea2eb9ed34651e8fb3b2662554feb87abffd25db2217e756aa5b0ce6d6ca8459",
         "evidence": "docs/reviews/oatmeal-risotto.json"
@@ -17937,13 +18067,64 @@
           "commit": "a2c9e28069faa57c7bb7fe4ac5e7ca02b6462861",
           "evidence": "actual recipe diff retained privately",
           "scope": "historical safety/scaling/source repair; file touch is not complete review"
-        }
+        },
+        "abfbbb36d62af80bbffc0734d274cccda942ba1b"
       ],
       "productionVerification": {
-        "status": "pending exact release verification"
+        "status": "verified live",
+        "sourceSha256": "ea2eb9ed34651e8fb3b2662554feb87abffd25db2217e756aa5b0ce6d6ca8459",
+        "implementationCommit": "abfbbb36d62af80bbffc0734d274cccda942ba1b",
+        "releaseCommit": "abfbbb36d62af80bbffc0734d274cccda942ba1b",
+        "evidence": "docs/editorial-campaign/2026-10-06/soups-ribs-oats-ice-cream-production.json"
       },
       "remainingQuestions": [
         "Actual active/elapsed times, portion weights and sensory outcomes can be recorded when cooked; none is a current evidence blocker."
+      ],
+      "kitchenTesting": {
+        "status": "not performed / no recorded test",
+        "testNotes": null
+      },
+      "historicalEvidence": []
+    },
+    {
+      "currentPath": "src/content/recipes/old-fashioned.md",
+      "slug": "old-fashioned",
+      "title": "Old Fashioned",
+      "legacyAliases": [],
+      "baseline": "original canonical",
+      "source": null,
+      "sourceUrl": null,
+      "automatedFlags": [],
+      "targetedReview": {
+        "acceleratedDisposition": null,
+        "acceleratedEvidence": null,
+        "historicalCommitTouches": 0,
+        "evidence": []
+      },
+      "completeEditorialReview": {
+        "status": "editorial-review",
+        "record": "docs/reviews/old-fashioned.md",
+        "acceptedSha256": "622fb08324b4b44119ec4b88034e4f6730ef0bc78b4a7f4ab46b07e64ac6afa7",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
+        "recordImplementationCommit": "f2a5d9d1cb02b87d625fc9827a7ad5866ce635f7"
+      },
+      "latestRecipeCommit": "f2a5d9d1cb02b87d625fc9827a7ad5866ce635f7",
+      "acceptedChange": {
+        "status": "implemented and verified live",
+        "record": "docs/reviews/old-fashioned.json",
+        "sourceSha256": "622fb08324b4b44119ec4b88034e4f6730ef0bc78b4a7f4ab46b07e64ac6afa7"
+      },
+      "implementationCommits": ["f2a5d9d1cb02b87d625fc9827a7ad5866ce635f7"],
+      "productionVerification": {
+        "status": "verified live",
+        "sourceSha256": "622fb08324b4b44119ec4b88034e4f6730ef0bc78b4a7f4ab46b07e64ac6afa7",
+        "implementationCommit": "f2a5d9d1cb02b87d625fc9827a7ad5866ce635f7",
+        "releaseCommit": "ea110e5b118002fc9aea578a2ae6b3dc2babaff8",
+        "evidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-production.json"
+      },
+      "remainingQuestions": [
+        "Record actual sugar-cube size and syrup concentration for preference comparison; do not assume equal sugar content.",
+        "Check glass and cube fit and useful chilled taste with the intended spirit and bitters."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -18102,52 +18283,6 @@
       },
       "remainingQuestions": [
         "No physical kitchen testing; recipe-specific questions and source disagreements remain in the linked review record."
-      ],
-      "kitchenTesting": {
-        "status": "not performed / no recorded test",
-        "testNotes": null
-      },
-      "historicalEvidence": []
-    },
-    {
-      "currentPath": "src/content/recipes/old-fashioned.md",
-      "slug": "old-fashioned",
-      "title": "Old Fashioned",
-      "legacyAliases": [],
-      "baseline": "original canonical",
-      "source": null,
-      "sourceUrl": null,
-      "automatedFlags": [],
-      "targetedReview": {
-        "acceleratedDisposition": null,
-        "acceleratedEvidence": null,
-        "historicalCommitTouches": 0,
-        "evidence": []
-      },
-      "completeEditorialReview": {
-        "status": "editorial-review",
-        "record": "docs/reviews/old-fashioned.md",
-        "acceptedSha256": "622fb08324b4b44119ec4b88034e4f6730ef0bc78b4a7f4ab46b07e64ac6afa7",
-        "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
-        "recordImplementationCommit": "f2a5d9d1cb02b87d625fc9827a7ad5866ce635f7"
-      },
-      "latestRecipeCommit": "f2a5d9d1cb02b87d625fc9827a7ad5866ce635f7",
-      "acceptedChange": {
-        "status": "implemented and verified live",
-        "record": "docs/reviews/old-fashioned.json",
-        "sourceSha256": "622fb08324b4b44119ec4b88034e4f6730ef0bc78b4a7f4ab46b07e64ac6afa7"
-      },
-      "implementationCommits": ["f2a5d9d1cb02b87d625fc9827a7ad5866ce635f7"],
-      "productionVerification": {
-        "status": "verified live",
-        "sourceSha256": "622fb08324b4b44119ec4b88034e4f6730ef0bc78b4a7f4ab46b07e64ac6afa7",
-        "implementationCommit": "f2a5d9d1cb02b87d625fc9827a7ad5866ce635f7",
-        "releaseCommit": "ea110e5b118002fc9aea578a2ae6b3dc2babaff8",
-        "evidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-production.json"
-      },
-      "remainingQuestions": [
-        "Record actual sugar-cube size and syrup concentration for preference comparison; do not assume equal sugar content.",
-        "Check glass and cube fit and useful chilled taste with the intended spirit and bitters."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -18758,6 +18893,45 @@
       "historicalEvidence": []
     },
     {
+      "currentPath": "src/content/recipes/pan-seared-duck-breasts-with-cherry-and-port-sauce.md",
+      "slug": "pan-seared-duck-breasts-with-cherry-and-port-sauce",
+      "title": "Pan-Seared Duck Breasts with Cherry and Port Sauce",
+      "legacyAliases": [],
+      "baseline": "additional authored October 6, 2026",
+      "source": "Adapted from Deborah Mele, Italian Food Forever; cold rendering after Sohla El-Waylly",
+      "sourceUrl": "https://italianfoodforever.com/2023/08/duck-breast-in-cherry-port-wine-sauce/",
+      "automatedFlags": [],
+      "targetedReview": {
+        "acceleratedDisposition": "not part of accelerated pass",
+        "historicalCommitTouches": 0,
+        "evidence": []
+      },
+      "completeEditorialReview": {
+        "status": "complete editorial review; accepted locally; publication pending",
+        "record": "docs/reviews/pan-seared-duck-breasts-with-cherry-and-port-sauce.md",
+        "acceptedSourceSha256": "865a1e93e5376ec44a7bebe1b09bb72d8617afff6bb3142f1f608df35a3aaa1c"
+      },
+      "latestRecipeCommit": null,
+      "acceptedChange": {
+        "status": "accepted locally; publication pending",
+        "scope": "newly authored duck breast option",
+        "sourceSha256": "865a1e93e5376ec44a7bebe1b09bb72d8617afff6bb3142f1f608df35a3aaa1c",
+        "evidence": "docs/reviews/pan-seared-duck-breasts-with-cherry-and-port-sauce.json"
+      },
+      "implementationCommits": [],
+      "productionVerification": {
+        "status": "pending exact remote commit, CI/deployment and live page verification"
+      },
+      "remainingQuestions": [
+        "Actual cooking time, portions, sauce reduction, texture and skin crispness remain unmeasured"
+      ],
+      "kitchenTesting": {
+        "status": "not performed / no recorded test",
+        "testNotes": null
+      },
+      "historicalEvidence": []
+    },
+    {
       "currentPath": "src/content/recipes/panang-curry-with-chicken.md",
       "slug": "panang-curry-with-chicken",
       "title": "Panang Curry with Chicken",
@@ -18890,6 +19064,97 @@
         "docs/audits/2026-09-07-one-time-consistency.json",
         "docs/audits/2026-09-10/reconciliation.json"
       ]
+    },
+    {
+      "currentPath": "src/content/recipes/passatelli-in-brodo.md",
+      "slug": "passatelli-in-brodo",
+      "title": "Passatelli in brodo",
+      "legacyAliases": [],
+      "baseline": "additional authored October 6, 2026",
+      "targetedReview": {
+        "acceleratedDisposition": "not part of accelerated pass",
+        "historicalCommitTouches": 0,
+        "evidence": []
+      },
+      "latestRecipeCommit": "b673ed5c3da1277c99af5ff48994d0be74521c45",
+      "implementationCommits": ["b673ed5c3da1277c99af5ff48994d0be74521c45"],
+      "historicalEvidence": [],
+      "source": "Pellegrino Artusi, La scienza in cucina e l’arte di mangiar bene, recipe 20, first formula; broth method informed by Emilia-Romagna tourism",
+      "sourceUrl": "https://www.pellegrinoartusi.it/20-minestra-di-passatelli/",
+      "automatedFlags": [],
+      "completeEditorialReview": {
+        "status": "complete editorial review; implemented and verified live",
+        "record": "docs/reviews/passatelli-in-brodo.md",
+        "acceptedSourceSha256": "5ff909374b3a94752eac76a2c6d655c34616ff57b3f08d99cb0a883937a0f4af",
+        "recordImplementationCommit": "b673ed5c3da1277c99af5ff48994d0be74521c45"
+      },
+      "acceptedChange": {
+        "status": "implemented and verified live",
+        "scope": "seven additions",
+        "sourceSha256": "5ff909374b3a94752eac76a2c6d655c34616ff57b3f08d99cb0a883937a0f4af",
+        "evidence": "docs/reviews/passatelli-in-brodo.json"
+      },
+      "productionVerification": {
+        "status": "verified live",
+        "sourceSha256": "5ff909374b3a94752eac76a2c6d655c34616ff57b3f08d99cb0a883937a0f4af",
+        "implementationCommit": "b673ed5c3da1277c99af5ff48994d0be74521c45",
+        "releaseCommit": "b673ed5c3da1277c99af5ff48994d0be74521c45",
+        "evidence": "docs/editorial-campaign/2026-10-06/italian-classics-and-kimchi-production.json"
+      },
+      "remainingQuestions": [
+        "Check cohesion and extrudability with the household's unseasoned breadcrumbs, eggs and large-hole tool; source's reserved crumbs may be partly unused.",
+        "Challenge feasibility of a fine-tip 160°F reading in the chosen thick strand alongside the cooked-center cue; no thermometer reading or tested timing is claimed."
+      ],
+      "kitchenTesting": {
+        "status": "not performed / no recorded test",
+        "testNotes": null
+      }
+    },
+    {
+      "currentPath": "src/content/recipes/pasta-alla-norma.md",
+      "slug": "pasta-alla-norma",
+      "title": "Pasta alla Norma",
+      "legacyAliases": [],
+      "baseline": "additional authored October 6, 2026",
+      "targetedReview": {
+        "acceleratedDisposition": "not part of accelerated pass",
+        "historicalCommitTouches": 0,
+        "evidence": []
+      },
+      "latestRecipeCommit": "b673ed5c3da1277c99af5ff48994d0be74521c45",
+      "implementationCommits": ["b673ed5c3da1277c99af5ff48994d0be74521c45"],
+      "historicalEvidence": [],
+      "source": "Adapted from Accademia Italiana della Cucina, Pasta alla Norma",
+      "sourceUrl": "https://www.accademiaitalianadellacucina.it/it/ricette/ricetta/pasta-alla-norma",
+      "automatedFlags": [],
+      "completeEditorialReview": {
+        "status": "complete editorial review; implemented and verified live",
+        "record": "docs/reviews/pasta-alla-norma.md",
+        "acceptedSourceSha256": "5aca891cfaa4372d5cac7704b7f9128e13d4cefcc86fab1e3cacae5ad510cf2b",
+        "recordImplementationCommit": "b673ed5c3da1277c99af5ff48994d0be74521c45"
+      },
+      "acceptedChange": {
+        "status": "implemented and verified live",
+        "scope": "seven additions",
+        "sourceSha256": "5aca891cfaa4372d5cac7704b7f9128e13d4cefcc86fab1e3cacae5ad510cf2b",
+        "evidence": "docs/reviews/pasta-alla-norma.json"
+      },
+      "productionVerification": {
+        "status": "verified live",
+        "sourceSha256": "5aca891cfaa4372d5cac7704b7f9128e13d4cefcc86fab1e3cacae5ad510cf2b",
+        "implementationCommit": "b673ed5c3da1277c99af5ff48994d0be74521c45",
+        "releaseCommit": "b673ed5c3da1277c99af5ff48994d0be74521c45",
+        "evidence": "docs/editorial-campaign/2026-10-06/italian-classics-and-kimchi-production.json"
+      },
+      "remainingQuestions": [
+        "Net weights of the three counted medium eggplants and two onions; actual frying loads and oil uptake.",
+        "Actual tomato yield after milling and the initial moisture-directed water needed for the chosen tomatoes/pot.",
+        "Measured two-burner time and whether 300 g ricotta salata gives the intended salty finish with the selected cheese."
+      ],
+      "kitchenTesting": {
+        "status": "not performed / no recorded test",
+        "testNotes": null
+      }
     },
     {
       "currentPath": "src/content/recipes/pasta-with-abruzzi-style-lamb-sauce.md",
@@ -19305,54 +19570,6 @@
       "historicalEvidence": ["docs/reviews/pear-and-spinach-salad.md"]
     },
     {
-      "currentPath": "src/content/recipes/peking-duck-an-easy-home-version.md",
-      "slug": "peking-duck-an-easy-home-version",
-      "title": "Peking Duck",
-      "legacyAliases": [],
-      "baseline": "original canonical",
-      "source": "Adapted from redhousespice.com",
-      "sourceUrl": "https://redhousespice.com/peking-duck/comment-page-8/#comments",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
-      "targetedReview": {
-        "acceleratedDisposition": null,
-        "acceleratedEvidence": null,
-        "historicalCommitTouches": 0,
-        "evidence": []
-      },
-      "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
-        "recordImplementationCommit": null
-      },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
-      "implementationCommits": [],
-      "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
-      },
-      "remainingQuestions": [
-        "What is the duck’s fresh/refrigerator-thawed starting age and intended cold-drying duration, and what primary safety evidence explicitly permits this skin-blanch-to-cold-storage route, or what independently supported different preparation will be chosen?",
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
-      ],
-      "kitchenTesting": {
-        "status": "not performed / no recorded test",
-        "testNotes": null
-      },
-      "historicalEvidence": []
-    },
-    {
       "currentPath": "src/content/recipes/perfect-cranberry-sauce.md",
       "slug": "perfect-cranberry-sauce",
       "title": "Whole-Berry Cranberry Sauce",
@@ -19468,6 +19685,52 @@
         "testNotes": null
       },
       "historicalEvidence": ["docs/reviews/peruvian-style-beef-empanadas.md"]
+    },
+    {
+      "currentPath": "src/content/recipes/pesto-alla-genovese.md",
+      "slug": "pesto-alla-genovese",
+      "title": "Pesto alla Genovese",
+      "legacyAliases": [],
+      "baseline": "additional authored October 6, 2026",
+      "targetedReview": {
+        "acceleratedDisposition": "not part of accelerated pass",
+        "historicalCommitTouches": 0,
+        "evidence": []
+      },
+      "latestRecipeCommit": "b673ed5c3da1277c99af5ff48994d0be74521c45",
+      "implementationCommits": ["b673ed5c3da1277c99af5ff48994d0be74521c45"],
+      "historicalEvidence": [],
+      "source": "Adapted from the World Pesto Championship, Pesto Genovese al Mortaio",
+      "sourceUrl": "https://www.pestochampionship.it/la-ricetta-del-pesto-genovese-al-mortaio/",
+      "automatedFlags": [],
+      "completeEditorialReview": {
+        "status": "complete editorial review; implemented and verified live",
+        "record": "docs/reviews/pesto-alla-genovese.md",
+        "acceptedSourceSha256": "c0b4105100da821880ae71dc60b6dc8e66b5c211201aead660d7cb69b6621932",
+        "recordImplementationCommit": "b673ed5c3da1277c99af5ff48994d0be74521c45"
+      },
+      "acceptedChange": {
+        "status": "implemented and verified live",
+        "scope": "seven additions",
+        "sourceSha256": "c0b4105100da821880ae71dc60b6dc8e66b5c211201aead660d7cb69b6621932",
+        "evidence": "docs/reviews/pesto-alla-genovese.json"
+      },
+      "productionVerification": {
+        "status": "verified live",
+        "sourceSha256": "c0b4105100da821880ae71dc60b6dc8e66b5c211201aead660d7cb69b6621932",
+        "implementationCommit": "b673ed5c3da1277c99af5ff48994d0be74521c45",
+        "releaseCommit": "b673ed5c3da1277c99af5ff48994d0be74521c45",
+        "evidence": "docs/editorial-campaign/2026-10-06/italian-classics-and-kimchi-production.json"
+      },
+      "remainingQuestions": [
+        "Actual mortar fit and finished mass/volume of one complete batch.",
+        "Flavor within the preserved cheese/oil/garlic ranges and suitability of the full 3 g salt with the chosen cheeses; no sensory check has been performed.",
+        "Measured hand-work time and effect of basil age, leaf dryness and garlic clove size."
+      ],
+      "kitchenTesting": {
+        "status": "not performed / no recorded test",
+        "testNotes": null
+      }
     },
     {
       "currentPath": "src/content/recipes/philly-tuna-roll.md",
@@ -19608,6 +19871,48 @@
       "historicalEvidence": ["docs/reviews/pickled-red-onions.md"]
     },
     {
+      "currentPath": "src/content/recipes/pizza.md",
+      "slug": "pizza",
+      "title": "Pizza",
+      "legacyAliases": [],
+      "baseline": "original canonical",
+      "source": "Family recipe",
+      "sourceUrl": null,
+      "automatedFlags": [],
+      "targetedReview": {
+        "acceleratedDisposition": null,
+        "acceleratedEvidence": null,
+        "historicalCommitTouches": 1,
+        "evidence": ["docs/reviews/pizza.md"]
+      },
+      "completeEditorialReview": {
+        "status": "editorial-review",
+        "record": "docs/reviews/pizza.md",
+        "qualification": "recorded status retained; not recertified by this reconciliation",
+        "recordImplementationCommit": "9bdabb914f84318bb9ad34a2f859bf8fa7163e7e"
+      },
+      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "acceptedChange": "historical implemented diff; acceptance scope requires linked record, not inferred from file touch",
+      "implementationCommits": [
+        {
+          "commit": "9bdabb914f84318bb9ad34a2f859bf8fa7163e7e",
+          "evidence": "actual recipe diff retained privately",
+          "scope": "historical safety/scaling/source repair; file touch is not complete review"
+        }
+      ],
+      "productionVerification": {
+        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+      },
+      "remainingQuestions": [
+        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+      ],
+      "kitchenTesting": {
+        "status": "not performed / no recorded test",
+        "testNotes": null
+      },
+      "historicalEvidence": ["docs/reviews/pizza.md"]
+    },
+    {
       "currentPath": "src/content/recipes/pizza-beans.md",
       "slug": "pizza-beans",
       "title": "Pizza Beans",
@@ -19652,48 +19957,6 @@
         "testNotes": null
       },
       "historicalEvidence": []
-    },
-    {
-      "currentPath": "src/content/recipes/pizza.md",
-      "slug": "pizza",
-      "title": "Pizza",
-      "legacyAliases": [],
-      "baseline": "original canonical",
-      "source": "Family recipe",
-      "sourceUrl": null,
-      "automatedFlags": [],
-      "targetedReview": {
-        "acceleratedDisposition": null,
-        "acceleratedEvidence": null,
-        "historicalCommitTouches": 1,
-        "evidence": ["docs/reviews/pizza.md"]
-      },
-      "completeEditorialReview": {
-        "status": "editorial-review",
-        "record": "docs/reviews/pizza.md",
-        "qualification": "recorded status retained; not recertified by this reconciliation",
-        "recordImplementationCommit": "9bdabb914f84318bb9ad34a2f859bf8fa7163e7e"
-      },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": "historical implemented diff; acceptance scope requires linked record, not inferred from file touch",
-      "implementationCommits": [
-        {
-          "commit": "9bdabb914f84318bb9ad34a2f859bf8fa7163e7e",
-          "evidence": "actual recipe diff retained privately",
-          "scope": "historical safety/scaling/source repair; file touch is not complete review"
-        }
-      ],
-      "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
-      },
-      "remainingQuestions": [
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
-      ],
-      "kitchenTesting": {
-        "status": "not performed / no recorded test",
-        "testNotes": null
-      },
-      "historicalEvidence": ["docs/reviews/pizza.md"]
     },
     {
       "currentPath": "src/content/recipes/play-dough.md",
@@ -20959,6 +21222,51 @@
       "historicalEvidence": ["docs/reviews/restaurant-style-chicken-lo-mein.md"]
     },
     {
+      "currentPath": "src/content/recipes/ribollita.md",
+      "slug": "ribollita",
+      "title": "Ribollita",
+      "legacyAliases": [],
+      "baseline": "additional authored October 6, 2026",
+      "targetedReview": {
+        "acceleratedDisposition": "not part of accelerated pass",
+        "historicalCommitTouches": 0,
+        "evidence": []
+      },
+      "latestRecipeCommit": "b673ed5c3da1277c99af5ff48994d0be74521c45",
+      "implementationCommits": ["b673ed5c3da1277c99af5ff48994d0be74521c45"],
+      "historicalEvidence": [],
+      "source": "Accademia Italiana della Cucina — Ribollita (Toscana)",
+      "sourceUrl": "https://www.accademiaitalianadellacucina.it/it/ricette/ricetta/ribollita",
+      "automatedFlags": [],
+      "completeEditorialReview": {
+        "status": "complete editorial review; implemented and verified live",
+        "record": "docs/reviews/ribollita.md",
+        "acceptedSourceSha256": "2f489c827d3ae341d366902fc8ccac883499b8ae81ca82bc5e30dded276796f4",
+        "recordImplementationCommit": "b673ed5c3da1277c99af5ff48994d0be74521c45"
+      },
+      "acceptedChange": {
+        "status": "implemented and verified live",
+        "scope": "seven additions",
+        "sourceSha256": "2f489c827d3ae341d366902fc8ccac883499b8ae81ca82bc5e30dded276796f4",
+        "evidence": "docs/reviews/ribollita.json"
+      },
+      "productionVerification": {
+        "status": "verified live",
+        "sourceSha256": "2f489c827d3ae341d366902fc8ccac883499b8ae81ca82bc5e30dded276796f4",
+        "implementationCommit": "b673ed5c3da1277c99af5ff48994d0be74521c45",
+        "releaseCommit": "b673ed5c3da1277c99af5ff48994d0be74521c45",
+        "evidence": "docs/editorial-campaign/2026-10-06/italian-classics-and-kimchi-production.json"
+      },
+      "remainingQuestions": [
+        "Refine water needed for the chosen bean age, bread dryness and pot; observe final thickness and portion sizes.",
+        "Confirm cooling schedule for the selected shallow containers rather than leaving the source tureen at room temperature."
+      ],
+      "kitchenTesting": {
+        "status": "not performed / no recorded test",
+        "testNotes": null
+      }
+    },
+    {
       "currentPath": "src/content/recipes/rice-bowl-station-buddha-bowls.md",
       "slug": "rice-bowl-station-buddha-bowls",
       "title": "Rice Bowl Station (Buddha Bowls)",
@@ -21093,6 +21401,50 @@
         "testNotes": null
       },
       "historicalEvidence": []
+    },
+    {
+      "currentPath": "src/content/recipes/risotto-alla-milanese.md",
+      "slug": "risotto-alla-milanese",
+      "title": "Risotto alla Milanese",
+      "legacyAliases": [],
+      "baseline": "additional authored October 6, 2026",
+      "targetedReview": {
+        "acceleratedDisposition": "not part of accelerated pass",
+        "historicalCommitTouches": 0,
+        "evidence": []
+      },
+      "latestRecipeCommit": "b673ed5c3da1277c99af5ff48994d0be74521c45",
+      "implementationCommits": ["b673ed5c3da1277c99af5ff48994d0be74521c45"],
+      "historicalEvidence": [],
+      "source": "Accademia Italiana della Cucina — Risotto alla Milanese (Lombardia)",
+      "sourceUrl": "https://www.accademiaitalianadellacucina.it/it/ricette/ricetta/risotto-alla-milanese",
+      "automatedFlags": [],
+      "completeEditorialReview": {
+        "status": "complete editorial review; implemented and verified live",
+        "record": "docs/reviews/risotto-alla-milanese.md",
+        "acceptedSourceSha256": "6551a10d3f9ba6162f77334d4f63cb0989e55b3638e8644a42b153b5958b6b6f",
+        "recordImplementationCommit": "b673ed5c3da1277c99af5ff48994d0be74521c45"
+      },
+      "acceptedChange": {
+        "status": "implemented and verified live",
+        "scope": "seven additions",
+        "sourceSha256": "6551a10d3f9ba6162f77334d4f63cb0989e55b3638e8644a42b153b5958b6b6f",
+        "evidence": "docs/reviews/risotto-alla-milanese.json"
+      },
+      "productionVerification": {
+        "status": "verified live",
+        "sourceSha256": "6551a10d3f9ba6162f77334d4f63cb0989e55b3638e8644a42b153b5958b6b6f",
+        "implementationCommit": "b673ed5c3da1277c99af5ff48994d0be74521c45",
+        "releaseCommit": "b673ed5c3da1277c99af5ff48994d0be74521c45",
+        "evidence": "docs/editorial-campaign/2026-10-06/italian-classics-and-kimchi-production.json"
+      },
+      "remainingQuestions": [
+        "Refine saffron intensity, cheese finish and actual stock absorption in the selected pan/rice variety; observe serving portion and final wave."
+      ],
+      "kitchenTesting": {
+        "status": "not performed / no recorded test",
+        "testNotes": null
+      }
     },
     {
       "currentPath": "src/content/recipes/roast-turkey-breast.md",
@@ -21402,6 +21754,50 @@
       "historicalEvidence": ["docs/reviews/roasted-cauliflower-with-tahini.md"]
     },
     {
+      "currentPath": "src/content/recipes/roasted-corn-chowder-robert-irvine.md",
+      "slug": "roasted-corn-chowder-robert-irvine",
+      "title": "Roasted Corn Chowder with Lime Shrimp — Robert Irvine",
+      "legacyAliases": [],
+      "baseline": "additional authored October 6, 2026",
+      "targetedReview": {
+        "acceleratedDisposition": "not part of accelerated pass",
+        "historicalCommitTouches": 0,
+        "evidence": []
+      },
+      "latestRecipeCommit": "abfbbb36d62af80bbffc0734d274cccda942ba1b",
+      "implementationCommits": ["abfbbb36d62af80bbffc0734d274cccda942ba1b"],
+      "historicalEvidence": [],
+      "source": "Adapted from Robert Irvine, Food Network",
+      "sourceUrl": "https://www.foodnetwork.com/recipes/robert-irvine/roasted-corn-chowder-with-lime-cured-shrimp-recipe-1947204",
+      "automatedFlags": [],
+      "completeEditorialReview": {
+        "status": "complete editorial review; implemented and verified live",
+        "record": "docs/reviews/roasted-corn-chowder-robert-irvine.md",
+        "acceptedSourceSha256": "3b3d1a473e2d67031c9b377b42a548dd7ed3a98d80cda51bb3a1fc9a85a4e5f2",
+        "recordImplementationCommit": "abfbbb36d62af80bbffc0734d274cccda942ba1b"
+      },
+      "acceptedChange": {
+        "status": "implemented and verified live",
+        "scope": "newly authored distinct source variant",
+        "sourceSha256": "3b3d1a473e2d67031c9b377b42a548dd7ed3a98d80cda51bb3a1fc9a85a4e5f2",
+        "evidence": "docs/reviews/roasted-corn-chowder-robert-irvine.json"
+      },
+      "productionVerification": {
+        "status": "verified live",
+        "sourceSha256": "3b3d1a473e2d67031c9b377b42a548dd7ed3a98d80cda51bb3a1fc9a85a4e5f2",
+        "implementationCommit": "abfbbb36d62af80bbffc0734d274cccda942ba1b",
+        "releaseCommit": "abfbbb36d62af80bbffc0734d274cccda942ba1b",
+        "evidence": "docs/editorial-campaign/2026-10-06/soups-ribs-oats-ice-cream-production.json"
+      },
+      "remainingQuestions": [
+        "Actual active/elapsed times, portion weights and sensory outcomes can be recorded when cooked; none is a current evidence blocker."
+      ],
+      "kitchenTesting": {
+        "status": "not performed / no recorded test",
+        "testNotes": null
+      }
+    },
+    {
       "currentPath": "src/content/recipes/roasted-corn-chowder-with-lime-cured-shrimp.md",
       "slug": "roasted-corn-chowder-with-lime-cured-shrimp",
       "title": "Corn Chowder with Lime Shrimp",
@@ -21417,20 +21813,25 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "complete editorial review accepted locally; publication pending",
+        "status": "complete editorial review; implemented and verified live",
         "record": "docs/reviews/roasted-corn-chowder-with-lime-cured-shrimp.md",
-        "acceptedSourceSha256": "d03cf4ff81138df9b574c8758e09d488a92fa9b63b65be0b9fd1afad274ed1c2"
+        "acceptedSourceSha256": "d03cf4ff81138df9b574c8758e09d488a92fa9b63b65be0b9fd1afad274ed1c2",
+        "recordImplementationCommit": "abfbbb36d62af80bbffc0734d274cccda942ba1b"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "abfbbb36d62af80bbffc0734d274cccda942ba1b",
       "acceptedChange": {
-        "status": "accepted locally; publication pending",
+        "status": "implemented and verified live",
         "scope": "original 409-source campaign",
         "sourceSha256": "d03cf4ff81138df9b574c8758e09d488a92fa9b63b65be0b9fd1afad274ed1c2",
         "evidence": "docs/reviews/roasted-corn-chowder-with-lime-cured-shrimp.json"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["abfbbb36d62af80bbffc0734d274cccda942ba1b"],
       "productionVerification": {
-        "status": "pending exact release verification"
+        "status": "verified live",
+        "sourceSha256": "d03cf4ff81138df9b574c8758e09d488a92fa9b63b65be0b9fd1afad274ed1c2",
+        "implementationCommit": "abfbbb36d62af80bbffc0734d274cccda942ba1b",
+        "releaseCommit": "abfbbb36d62af80bbffc0734d274cccda942ba1b",
+        "evidence": "docs/editorial-campaign/2026-10-06/soups-ribs-oats-ice-cream-production.json"
       },
       "remainingQuestions": [
         "Actual active/elapsed times, portion weights and sensory outcomes can be recorded when cooked; none is a current evidence blocker."
@@ -25137,52 +25538,6 @@
       ]
     },
     {
-      "currentPath": "src/content/recipes/spaghetti-with-clams-and-braised-greens.md",
-      "slug": "spaghetti-with-clams-and-braised-greens",
-      "title": "Spaghetti with Clams & Braised Greens",
-      "legacyAliases": [],
-      "baseline": "original canonical",
-      "source": "Adapted from Foodandwine.com",
-      "sourceUrl": "http://www.foodandwine.com/recipes/spaghetti-clams-and-braised-greens",
-      "automatedFlags": [],
-      "targetedReview": {
-        "acceleratedDisposition": null,
-        "acceleratedEvidence": null,
-        "historicalCommitTouches": 0,
-        "evidence": []
-      },
-      "completeEditorialReview": {
-        "status": "editorial-review",
-        "record": "docs/reviews/spaghetti-with-clams-and-braised-greens.md",
-        "acceptedSha256": "61603081713595b8278f78e3cf4677f50a4ece49dd3593768fcc9d9e10a8ba43",
-        "independentChallenge": "docs/editorial-campaign/2026-10-05/sauces-stock-seafood-twelve-review.md",
-        "recordImplementationCommit": "8bbde922fd3ec820b5c8f57b6c0b063a599e91c7"
-      },
-      "latestRecipeCommit": "8bbde922fd3ec820b5c8f57b6c0b063a599e91c7",
-      "acceptedChange": {
-        "status": "implemented and verified live",
-        "record": "docs/reviews/spaghetti-with-clams-and-braised-greens.json",
-        "sourceSha256": "61603081713595b8278f78e3cf4677f50a4ece49dd3593768fcc9d9e10a8ba43"
-      },
-      "implementationCommits": ["8bbde922fd3ec820b5c8f57b6c0b063a599e91c7"],
-      "productionVerification": {
-        "status": "verified live",
-        "sourceSha256": "61603081713595b8278f78e3cf4677f50a4ece49dd3593768fcc9d9e10a8ba43",
-        "implementationCommit": "8bbde922fd3ec820b5c8f57b6c0b063a599e91c7",
-        "releaseCommit": "8bbde922fd3ec820b5c8f57b6c0b063a599e91c7",
-        "evidence": "docs/editorial-campaign/2026-10-05/sauces-stock-seafood-twelve-production.json"
-      },
-      "remainingQuestions": [
-        "Confirm the actual collard tenderness clock, clam load/pot size and preferred whole-lemon versus measured-lemon balance.",
-        "Which actual blender model allows this liquid temperature and load? Confirm actual handling/elapsed clock without pretending the model has been checked."
-      ],
-      "kitchenTesting": {
-        "status": "not performed / no recorded test",
-        "testNotes": null
-      },
-      "historicalEvidence": []
-    },
-    {
       "currentPath": "src/content/recipes/spaghetti-with-clams.md",
       "slug": "spaghetti-with-clams",
       "title": "Spaghetti with Clams",
@@ -25223,6 +25578,52 @@
         "The original small-batch portion plan is inherited; verify appetite/yield without forcing it to equal current four portions.",
         "Confirm supplier purging instructions and actual pot/skillet load at each scaled quantity.",
         "No current publisher fetch available to certify a regional origin for this adaptation."
+      ],
+      "kitchenTesting": {
+        "status": "not performed / no recorded test",
+        "testNotes": null
+      },
+      "historicalEvidence": []
+    },
+    {
+      "currentPath": "src/content/recipes/spaghetti-with-clams-and-braised-greens.md",
+      "slug": "spaghetti-with-clams-and-braised-greens",
+      "title": "Spaghetti with Clams & Braised Greens",
+      "legacyAliases": [],
+      "baseline": "original canonical",
+      "source": "Adapted from Foodandwine.com",
+      "sourceUrl": "http://www.foodandwine.com/recipes/spaghetti-clams-and-braised-greens",
+      "automatedFlags": [],
+      "targetedReview": {
+        "acceleratedDisposition": null,
+        "acceleratedEvidence": null,
+        "historicalCommitTouches": 0,
+        "evidence": []
+      },
+      "completeEditorialReview": {
+        "status": "editorial-review",
+        "record": "docs/reviews/spaghetti-with-clams-and-braised-greens.md",
+        "acceptedSha256": "61603081713595b8278f78e3cf4677f50a4ece49dd3593768fcc9d9e10a8ba43",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/sauces-stock-seafood-twelve-review.md",
+        "recordImplementationCommit": "8bbde922fd3ec820b5c8f57b6c0b063a599e91c7"
+      },
+      "latestRecipeCommit": "8bbde922fd3ec820b5c8f57b6c0b063a599e91c7",
+      "acceptedChange": {
+        "status": "implemented and verified live",
+        "record": "docs/reviews/spaghetti-with-clams-and-braised-greens.json",
+        "sourceSha256": "61603081713595b8278f78e3cf4677f50a4ece49dd3593768fcc9d9e10a8ba43"
+      },
+      "implementationCommits": ["8bbde922fd3ec820b5c8f57b6c0b063a599e91c7"],
+      "productionVerification": {
+        "status": "verified live",
+        "sourceSha256": "61603081713595b8278f78e3cf4677f50a4ece49dd3593768fcc9d9e10a8ba43",
+        "implementationCommit": "8bbde922fd3ec820b5c8f57b6c0b063a599e91c7",
+        "releaseCommit": "8bbde922fd3ec820b5c8f57b6c0b063a599e91c7",
+        "evidence": "docs/editorial-campaign/2026-10-05/sauces-stock-seafood-twelve-production.json"
+      },
+      "remainingQuestions": [
+        "Confirm the actual collard tenderness clock, clam load/pot size and preferred whole-lemon versus measured-lemon balance.",
+        "Which actual blender model allows this liquid temperature and load? Confirm actual handling/elapsed clock without pretending the model has been checked."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -28514,13 +28915,14 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "complete editorial review accepted locally; publication pending",
+        "status": "complete editorial review; implemented and verified live",
         "record": "docs/reviews/vegetable-minestrone.md",
-        "acceptedSourceSha256": "0d9d48cc86fa6ca9e02a78da125aa9ff637a75bfb1d953a640191a8c882d5f73"
+        "acceptedSourceSha256": "0d9d48cc86fa6ca9e02a78da125aa9ff637a75bfb1d953a640191a8c882d5f73",
+        "recordImplementationCommit": "abfbbb36d62af80bbffc0734d274cccda942ba1b"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "abfbbb36d62af80bbffc0734d274cccda942ba1b",
       "acceptedChange": {
-        "status": "accepted locally; publication pending",
+        "status": "implemented and verified live",
         "scope": "original 409-source campaign",
         "sourceSha256": "0d9d48cc86fa6ca9e02a78da125aa9ff637a75bfb1d953a640191a8c882d5f73",
         "evidence": "docs/reviews/vegetable-minestrone.json"
@@ -28530,10 +28932,15 @@
           "commit": "a2c9e28069faa57c7bb7fe4ac5e7ca02b6462861",
           "evidence": "actual recipe diff retained privately",
           "scope": "historical safety/scaling/source repair; file touch is not complete review"
-        }
+        },
+        "abfbbb36d62af80bbffc0734d274cccda942ba1b"
       ],
       "productionVerification": {
-        "status": "pending exact release verification"
+        "status": "verified live",
+        "sourceSha256": "0d9d48cc86fa6ca9e02a78da125aa9ff637a75bfb1d953a640191a8c882d5f73",
+        "implementationCommit": "abfbbb36d62af80bbffc0734d274cccda942ba1b",
+        "releaseCommit": "abfbbb36d62af80bbffc0734d274cccda942ba1b",
+        "evidence": "docs/editorial-campaign/2026-10-06/soups-ribs-oats-ice-cream-production.json"
       },
       "remainingQuestions": [
         "Refine actual six-portion bowl size, evaporation and stock salt balance in the selected pot; no measured finished volume is promised.",
@@ -29480,361 +29887,129 @@
         "testNotes": null
       },
       "historicalEvidence": ["docs/audits/2026-09-07-one-time-consistency.json"]
-    },
+    }
+  ],
+  "retiredRecipes": [
     {
-      "currentPath": "src/content/recipes/pesto-alla-genovese.md",
-      "slug": "pesto-alla-genovese",
-      "title": "Pesto alla Genovese",
+      "currentPath": null,
+      "slug": "baked-chicken-and-broccoli",
+      "title": "Baked Chicken and Broccoli",
       "legacyAliases": [],
-      "baseline": "additional authored October 6, 2026",
-      "targetedReview": {
-        "acceleratedDisposition": "not part of accelerated pass",
-        "historicalCommitTouches": 0,
-        "evidence": []
-      },
-      "latestRecipeCommit": "b673ed5c3da1277c99af5ff48994d0be74521c45",
-      "implementationCommits": ["b673ed5c3da1277c99af5ff48994d0be74521c45"],
-      "historicalEvidence": [],
-      "source": "Adapted from the World Pesto Championship, Pesto Genovese al Mortaio",
-      "sourceUrl": "https://www.pestochampionship.it/la-ricetta-del-pesto-genovese-al-mortaio/",
-      "automatedFlags": [],
-      "completeEditorialReview": {
-        "status": "complete editorial review; implemented and verified live",
-        "record": "docs/reviews/pesto-alla-genovese.md",
-        "acceptedSourceSha256": "c0b4105100da821880ae71dc60b6dc8e66b5c211201aead660d7cb69b6621932",
-        "recordImplementationCommit": "b673ed5c3da1277c99af5ff48994d0be74521c45"
-      },
-      "acceptedChange": {
-        "status": "implemented and verified live",
-        "scope": "seven additions",
-        "sourceSha256": "c0b4105100da821880ae71dc60b6dc8e66b5c211201aead660d7cb69b6621932",
-        "evidence": "docs/reviews/pesto-alla-genovese.json"
-      },
-      "productionVerification": {
-        "status": "verified live",
-        "sourceSha256": "c0b4105100da821880ae71dc60b6dc8e66b5c211201aead660d7cb69b6621932",
-        "implementationCommit": "b673ed5c3da1277c99af5ff48994d0be74521c45",
-        "releaseCommit": "b673ed5c3da1277c99af5ff48994d0be74521c45",
-        "evidence": "docs/editorial-campaign/2026-10-06/italian-classics-and-kimchi-production.json"
-      },
-      "remainingQuestions": [
-        "Actual mortar fit and finished mass/volume of one complete batch.",
-        "Flavor within the preserved cheese/oil/garlic ranges and suitability of the full 3 g salt with the chosen cheeses; no sensory check has been performed.",
-        "Measured hand-work time and effect of basil age, leaf dryness and garlic clove size."
+      "baseline": "addition",
+      "source": "Lisa Gwock",
+      "sourceUrl": null,
+      "automatedFlags": [
+        {
+          "code": "teaching-review-needed",
+          "severity": "review",
+          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
+        }
       ],
-      "kitchenTesting": {
-        "status": "not performed / no recorded test",
-        "testNotes": null
-      }
-    },
-    {
-      "currentPath": "src/content/recipes/pasta-alla-norma.md",
-      "slug": "pasta-alla-norma",
-      "title": "Pasta alla Norma",
-      "legacyAliases": [],
-      "baseline": "additional authored October 6, 2026",
       "targetedReview": {
-        "acceleratedDisposition": "not part of accelerated pass",
+        "acceleratedDisposition": null,
+        "acceleratedEvidence": null,
         "historicalCommitTouches": 0,
-        "evidence": []
+        "evidence": ["docs/reviews/baked-chicken-and-broccoli.md"]
       },
-      "latestRecipeCommit": "b673ed5c3da1277c99af5ff48994d0be74521c45",
-      "implementationCommits": ["b673ed5c3da1277c99af5ff48994d0be74521c45"],
-      "historicalEvidence": [],
-      "source": "Adapted from Accademia Italiana della Cucina, Pasta alla Norma",
-      "sourceUrl": "https://www.accademiaitalianadellacucina.it/it/ricette/ricetta/pasta-alla-norma",
-      "automatedFlags": [],
       "completeEditorialReview": {
-        "status": "complete editorial review; implemented and verified live",
-        "record": "docs/reviews/pasta-alla-norma.md",
-        "acceptedSourceSha256": "5aca891cfaa4372d5cac7704b7f9128e13d4cefcc86fab1e3cacae5ad510cf2b",
-        "recordImplementationCommit": "b673ed5c3da1277c99af5ff48994d0be74521c45"
+        "status": "incomplete; retired by explicit user choice",
+        "record": "docs/reviews/baked-chicken-and-broccoli.md",
+        "recordImplementationCommit": "9faedba59b21bb230dcddd530489dc6e86d51bde"
       },
+      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "implemented and verified live",
-        "scope": "seven additions",
-        "sourceSha256": "5aca891cfaa4372d5cac7704b7f9128e13d4cefcc86fab1e3cacae5ad510cf2b",
-        "evidence": "docs/reviews/pasta-alla-norma.json"
+        "status": "user-authorized retirement",
+        "evidence": "docs/editorial-campaign/2026-10-06/user-retirements.json"
       },
-      "productionVerification": {
-        "status": "verified live",
-        "sourceSha256": "5aca891cfaa4372d5cac7704b7f9128e13d4cefcc86fab1e3cacae5ad510cf2b",
-        "implementationCommit": "b673ed5c3da1277c99af5ff48994d0be74521c45",
-        "releaseCommit": "b673ed5c3da1277c99af5ff48994d0be74521c45",
-        "evidence": "docs/editorial-campaign/2026-10-06/italian-classics-and-kimchi-production.json"
-      },
-      "remainingQuestions": [
-        "Net weights of the three counted medium eggplants and two onions; actual frying loads and oil uptake.",
-        "Actual tomato yield after milling and the initial moisture-directed water needed for the chosen tomatoes/pot.",
-        "Measured two-burner time and whether 300 g ricotta salata gives the intended salty finish with the selected cheese."
-      ],
-      "kitchenTesting": {
-        "status": "not performed / no recorded test",
-        "testNotes": null
-      }
-    },
-    {
-      "currentPath": "src/content/recipes/caponata.md",
-      "slug": "caponata",
-      "title": "Caponata",
-      "legacyAliases": [],
-      "baseline": "additional authored October 6, 2026",
-      "targetedReview": {
-        "acceleratedDisposition": "not part of accelerated pass",
-        "historicalCommitTouches": 0,
-        "evidence": []
-      },
-      "latestRecipeCommit": "b673ed5c3da1277c99af5ff48994d0be74521c45",
-      "implementationCommits": ["b673ed5c3da1277c99af5ff48994d0be74521c45"],
-      "historicalEvidence": [],
-      "source": "Adapted from Regione Siciliana, Visit Sicily — Caponata",
-      "sourceUrl": "https://www.visitsicily.info/ricetta/la-caponata/",
-      "automatedFlags": [],
-      "completeEditorialReview": {
-        "status": "complete editorial review; implemented and verified live",
-        "record": "docs/reviews/caponata.md",
-        "acceptedSourceSha256": "8a975cc8ecc3895ef87a600ebe11e42d8e74c5f8008d398de6ced4c7ad8fd79e",
-        "recordImplementationCommit": "b673ed5c3da1277c99af5ff48994d0be74521c45"
-      },
-      "acceptedChange": {
-        "status": "implemented and verified live",
-        "scope": "seven additions",
-        "sourceSha256": "8a975cc8ecc3895ef87a600ebe11e42d8e74c5f8008d398de6ced4c7ad8fd79e",
-        "evidence": "docs/reviews/caponata.json"
-      },
-      "productionVerification": {
-        "status": "verified live",
-        "sourceSha256": "8a975cc8ecc3895ef87a600ebe11e42d8e74c5f8008d398de6ced4c7ad8fd79e",
-        "implementationCommit": "b673ed5c3da1277c99af5ff48994d0be74521c45",
-        "releaseCommit": "b673ed5c3da1277c99af5ff48994d0be74521c45",
-        "evidence": "docs/editorial-campaign/2026-10-06/italian-classics-and-kimchi-production.json"
-      },
-      "remainingQuestions": [
-        "Actual drained vegetable yield, retained frying oil and whether four source portions match the intended meal.",
-        "Flavor of the source 50 g sugar/50 g white vinegar with the actual vinegar concentration; no fixed acidity is inferred.",
-        "Actual frying-pan capacity and batch time with the full 300 g oil; effect of the explicit light-coating process-salt choice."
-      ],
-      "kitchenTesting": {
-        "status": "not performed / no recorded test",
-        "testNotes": null
-      }
-    },
-    {
-      "currentPath": "src/content/recipes/ribollita.md",
-      "slug": "ribollita",
-      "title": "Ribollita",
-      "legacyAliases": [],
-      "baseline": "additional authored October 6, 2026",
-      "targetedReview": {
-        "acceleratedDisposition": "not part of accelerated pass",
-        "historicalCommitTouches": 0,
-        "evidence": []
-      },
-      "latestRecipeCommit": "b673ed5c3da1277c99af5ff48994d0be74521c45",
-      "implementationCommits": ["b673ed5c3da1277c99af5ff48994d0be74521c45"],
-      "historicalEvidence": [],
-      "source": "Accademia Italiana della Cucina — Ribollita (Toscana)",
-      "sourceUrl": "https://www.accademiaitalianadellacucina.it/it/ricette/ricetta/ribollita",
-      "automatedFlags": [],
-      "completeEditorialReview": {
-        "status": "complete editorial review; implemented and verified live",
-        "record": "docs/reviews/ribollita.md",
-        "acceptedSourceSha256": "2f489c827d3ae341d366902fc8ccac883499b8ae81ca82bc5e30dded276796f4",
-        "recordImplementationCommit": "b673ed5c3da1277c99af5ff48994d0be74521c45"
-      },
-      "acceptedChange": {
-        "status": "implemented and verified live",
-        "scope": "seven additions",
-        "sourceSha256": "2f489c827d3ae341d366902fc8ccac883499b8ae81ca82bc5e30dded276796f4",
-        "evidence": "docs/reviews/ribollita.json"
-      },
-      "productionVerification": {
-        "status": "verified live",
-        "sourceSha256": "2f489c827d3ae341d366902fc8ccac883499b8ae81ca82bc5e30dded276796f4",
-        "implementationCommit": "b673ed5c3da1277c99af5ff48994d0be74521c45",
-        "releaseCommit": "b673ed5c3da1277c99af5ff48994d0be74521c45",
-        "evidence": "docs/editorial-campaign/2026-10-06/italian-classics-and-kimchi-production.json"
-      },
-      "remainingQuestions": [
-        "Refine water needed for the chosen bean age, bread dryness and pot; observe final thickness and portion sizes.",
-        "Confirm cooling schedule for the selected shallow containers rather than leaving the source tureen at room temperature."
-      ],
-      "kitchenTesting": {
-        "status": "not performed / no recorded test",
-        "testNotes": null
-      }
-    },
-    {
-      "currentPath": "src/content/recipes/risotto-alla-milanese.md",
-      "slug": "risotto-alla-milanese",
-      "title": "Risotto alla Milanese",
-      "legacyAliases": [],
-      "baseline": "additional authored October 6, 2026",
-      "targetedReview": {
-        "acceleratedDisposition": "not part of accelerated pass",
-        "historicalCommitTouches": 0,
-        "evidence": []
-      },
-      "latestRecipeCommit": "b673ed5c3da1277c99af5ff48994d0be74521c45",
-      "implementationCommits": ["b673ed5c3da1277c99af5ff48994d0be74521c45"],
-      "historicalEvidence": [],
-      "source": "Accademia Italiana della Cucina — Risotto alla Milanese (Lombardia)",
-      "sourceUrl": "https://www.accademiaitalianadellacucina.it/it/ricette/ricetta/risotto-alla-milanese",
-      "automatedFlags": [],
-      "completeEditorialReview": {
-        "status": "complete editorial review; implemented and verified live",
-        "record": "docs/reviews/risotto-alla-milanese.md",
-        "acceptedSourceSha256": "6551a10d3f9ba6162f77334d4f63cb0989e55b3638e8644a42b153b5958b6b6f",
-        "recordImplementationCommit": "b673ed5c3da1277c99af5ff48994d0be74521c45"
-      },
-      "acceptedChange": {
-        "status": "implemented and verified live",
-        "scope": "seven additions",
-        "sourceSha256": "6551a10d3f9ba6162f77334d4f63cb0989e55b3638e8644a42b153b5958b6b6f",
-        "evidence": "docs/reviews/risotto-alla-milanese.json"
-      },
-      "productionVerification": {
-        "status": "verified live",
-        "sourceSha256": "6551a10d3f9ba6162f77334d4f63cb0989e55b3638e8644a42b153b5958b6b6f",
-        "implementationCommit": "b673ed5c3da1277c99af5ff48994d0be74521c45",
-        "releaseCommit": "b673ed5c3da1277c99af5ff48994d0be74521c45",
-        "evidence": "docs/editorial-campaign/2026-10-06/italian-classics-and-kimchi-production.json"
-      },
-      "remainingQuestions": [
-        "Refine saffron intensity, cheese finish and actual stock absorption in the selected pan/rice variety; observe serving portion and final wave."
-      ],
-      "kitchenTesting": {
-        "status": "not performed / no recorded test",
-        "testNotes": null
-      }
-    },
-    {
-      "currentPath": "src/content/recipes/passatelli-in-brodo.md",
-      "slug": "passatelli-in-brodo",
-      "title": "Passatelli in brodo",
-      "legacyAliases": [],
-      "baseline": "additional authored October 6, 2026",
-      "targetedReview": {
-        "acceleratedDisposition": "not part of accelerated pass",
-        "historicalCommitTouches": 0,
-        "evidence": []
-      },
-      "latestRecipeCommit": "b673ed5c3da1277c99af5ff48994d0be74521c45",
-      "implementationCommits": ["b673ed5c3da1277c99af5ff48994d0be74521c45"],
-      "historicalEvidence": [],
-      "source": "Pellegrino Artusi, La scienza in cucina e l’arte di mangiar bene, recipe 20, first formula; broth method informed by Emilia-Romagna tourism",
-      "sourceUrl": "https://www.pellegrinoartusi.it/20-minestra-di-passatelli/",
-      "automatedFlags": [],
-      "completeEditorialReview": {
-        "status": "complete editorial review; implemented and verified live",
-        "record": "docs/reviews/passatelli-in-brodo.md",
-        "acceptedSourceSha256": "5ff909374b3a94752eac76a2c6d655c34616ff57b3f08d99cb0a883937a0f4af",
-        "recordImplementationCommit": "b673ed5c3da1277c99af5ff48994d0be74521c45"
-      },
-      "acceptedChange": {
-        "status": "implemented and verified live",
-        "scope": "seven additions",
-        "sourceSha256": "5ff909374b3a94752eac76a2c6d655c34616ff57b3f08d99cb0a883937a0f4af",
-        "evidence": "docs/reviews/passatelli-in-brodo.json"
-      },
-      "productionVerification": {
-        "status": "verified live",
-        "sourceSha256": "5ff909374b3a94752eac76a2c6d655c34616ff57b3f08d99cb0a883937a0f4af",
-        "implementationCommit": "b673ed5c3da1277c99af5ff48994d0be74521c45",
-        "releaseCommit": "b673ed5c3da1277c99af5ff48994d0be74521c45",
-        "evidence": "docs/editorial-campaign/2026-10-06/italian-classics-and-kimchi-production.json"
-      },
-      "remainingQuestions": [
-        "Check cohesion and extrudability with the household's unseasoned breadcrumbs, eggs and large-hole tool; source's reserved crumbs may be partly unused.",
-        "Challenge feasibility of a fine-tip 160°F reading in the chosen thick strand alongside the cooked-center cue; no thermometer reading or tested timing is claimed."
-      ],
-      "kitchenTesting": {
-        "status": "not performed / no recorded test",
-        "testNotes": null
-      }
-    },
-    {
-      "currentPath": "src/content/recipes/brasato-al-barolo.md",
-      "slug": "brasato-al-barolo",
-      "title": "Brasato al Barolo",
-      "legacyAliases": [],
-      "baseline": "additional authored October 6, 2026",
-      "targetedReview": {
-        "acceleratedDisposition": "not part of accelerated pass",
-        "historicalCommitTouches": 0,
-        "evidence": []
-      },
-      "latestRecipeCommit": "b673ed5c3da1277c99af5ff48994d0be74521c45",
-      "implementationCommits": ["b673ed5c3da1277c99af5ff48994d0be74521c45"],
-      "historicalEvidence": [],
-      "source": "Accademia Italiana della Cucina — Brasato di bue al Barolo, all’uso di Cuneo (Piemonte)",
-      "sourceUrl": "https://www.accademiaitalianadellacucina.it/it/ricette/ricetta/brasato-di-bue-al-barolo",
-      "automatedFlags": [],
-      "completeEditorialReview": {
-        "status": "complete editorial review; implemented and verified live",
-        "record": "docs/reviews/brasato-al-barolo.md",
-        "acceptedSourceSha256": "b4244ee35aa0c74fe97c1d9a31b9548ca97c50cdb26c082faa0dd2c1fc384838",
-        "recordImplementationCommit": "b673ed5c3da1277c99af5ff48994d0be74521c45"
-      },
-      "acceptedChange": {
-        "status": "implemented and verified live",
-        "scope": "seven additions",
-        "sourceSha256": "b4244ee35aa0c74fe97c1d9a31b9548ca97c50cdb26c082faa0dd2c1fc384838",
-        "evidence": "docs/reviews/brasato-al-barolo.json"
-      },
-      "productionVerification": {
-        "status": "verified live",
-        "sourceSha256": "b4244ee35aa0c74fe97c1d9a31b9548ca97c50cdb26c082faa0dd2c1fc384838",
-        "implementationCommit": "b673ed5c3da1277c99af5ff48994d0be74521c45",
-        "releaseCommit": "b673ed5c3da1277c99af5ff48994d0be74521c45",
-        "evidence": "docs/editorial-campaign/2026-10-06/italian-classics-and-kimchi-production.json"
-      },
-      "remainingQuestions": [
-        "Refine tenderness time for the butcher's chosen shoulder cut and pot; check final sauce reduction and salt.",
-        "Confirm practical recovery of the whole aromatics before blending; a removable food-safe spice sachet could ease handling without changing the formula."
-      ],
-      "kitchenTesting": {
-        "status": "not performed / no recorded test",
-        "testNotes": null
-      }
-    },
-    {
-      "currentPath": "src/content/recipes/roasted-corn-chowder-robert-irvine.md",
-      "slug": "roasted-corn-chowder-robert-irvine",
-      "title": "Roasted Corn Chowder with Lime Shrimp — Robert Irvine",
-      "legacyAliases": [],
-      "baseline": "additional authored October 6, 2026",
-      "targetedReview": {
-        "acceleratedDisposition": "not part of accelerated pass",
-        "historicalCommitTouches": 0,
-        "evidence": []
-      },
-      "latestRecipeCommit": null,
       "implementationCommits": [],
-      "historicalEvidence": [],
-      "source": "Adapted from Robert Irvine, Food Network",
-      "sourceUrl": "https://www.foodnetwork.com/recipes/robert-irvine/roasted-corn-chowder-with-lime-cured-shrimp-recipe-1947204",
-      "automatedFlags": [],
-      "completeEditorialReview": {
-        "status": "complete editorial review accepted locally; publication pending",
-        "record": "docs/reviews/roasted-corn-chowder-robert-irvine.md",
-        "acceptedSourceSha256": "3b3d1a473e2d67031c9b377b42a548dd7ed3a98d80cda51bb3a1fc9a85a4e5f2"
-      },
-      "acceptedChange": {
-        "status": "accepted locally; publication pending",
-        "scope": "newly authored distinct source variant",
-        "sourceSha256": "3b3d1a473e2d67031c9b377b42a548dd7ed3a98d80cda51bb3a1fc9a85a4e5f2",
-        "evidence": "docs/reviews/roasted-corn-chowder-robert-irvine.json"
-      },
       "productionVerification": {
-        "status": "pending exact release verification"
+        "status": "retirement implemented locally; publication pending"
       },
       "remainingQuestions": [
-        "Actual active/elapsed times, portion weights and sensory outcomes can be recorded when cooked; none is a current evidence blocker."
+        "Does Lisa Gwock mean four bone-in split breast halves, two bone-in halves, or two boneless breasts, and what total chicken weight fits with the full broccoli/sauce in the nine-inch square pan for the recorded two servings?",
+        "Held: family split-breast cut/count and pan fit require clarification; existing claims are not endorsed."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
         "testNotes": null
+      },
+      "historicalEvidence": ["docs/reviews/baked-chicken-and-broccoli.md"],
+      "lastSourcePath": "src/content/recipes/baked-chicken-and-broccoli.md",
+      "retirement": {
+        "title": "Baked Chicken and Broccoli",
+        "date": "2026-10-06",
+        "status": "retired-by-user",
+        "reason": "User no longer wants this casserole in the active collection.",
+        "record": "docs/reviews/baked-chicken-and-broccoli.md",
+        "lastSourcePath": "src/content/recipes/baked-chicken-and-broccoli.md",
+        "lastSourceCommit": "abfbbb36d62af80bbffc0734d274cccda942ba1b",
+        "lastSourceSha256": "7fbfae5a0cd15648b2684c51188c726597f87faa5fe1ea625624d5445012cfe6",
+        "source": "Lisa Gwock",
+        "sourceUrl": null
+      }
+    },
+    {
+      "currentPath": null,
+      "slug": "peking-duck-an-easy-home-version",
+      "title": "Peking Duck",
+      "legacyAliases": [],
+      "baseline": "original canonical",
+      "source": "Adapted from redhousespice.com",
+      "sourceUrl": "https://redhousespice.com/peking-duck/comment-page-8/#comments",
+      "automatedFlags": [
+        {
+          "code": "teaching-review-needed",
+          "severity": "review",
+          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
+        },
+        {
+          "code": "nutrition-verification",
+          "severity": "review",
+          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
+        }
+      ],
+      "targetedReview": {
+        "acceleratedDisposition": null,
+        "acceleratedEvidence": null,
+        "historicalCommitTouches": 0,
+        "evidence": []
+      },
+      "completeEditorialReview": {
+        "status": "incomplete; retired by explicit user choice",
+        "record": null,
+        "recordImplementationCommit": null
+      },
+      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "acceptedChange": {
+        "status": "user-authorized retirement",
+        "evidence": "docs/editorial-campaign/2026-10-06/user-retirements.json"
+      },
+      "implementationCommits": [],
+      "productionVerification": {
+        "status": "retirement implemented locally; publication pending"
+      },
+      "remainingQuestions": [
+        "What is the duck’s fresh/refrigerator-thawed starting age and intended cold-drying duration, and what primary safety evidence explicitly permits this skin-blanch-to-cold-storage route, or what independently supported different preparation will be chosen?",
+        "Complete editorial review pending; automated absence of flags is not approval.",
+        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+      ],
+      "kitchenTesting": {
+        "status": "not performed / no recorded test",
+        "testNotes": null
+      },
+      "historicalEvidence": [],
+      "lastSourcePath": "src/content/recipes/peking-duck-an-easy-home-version.md",
+      "retirement": {
+        "title": "Peking Duck",
+        "date": "2026-10-06",
+        "status": "retired-by-user",
+        "reason": "User no longer wants to prepare whole duck and prefers skin-on duck breasts.",
+        "record": "docs/reviews/peking-duck-an-easy-home-version.md",
+        "lastSourcePath": "src/content/recipes/peking-duck-an-easy-home-version.md",
+        "lastSourceCommit": "abfbbb36d62af80bbffc0734d274cccda942ba1b",
+        "lastSourceSha256": "9dce4b1753daef8b64fe5c23b7bec54cd6a1f3767c00fa7aa48c8af4cba171c8",
+        "source": "Adapted from redhousespice.com",
+        "sourceUrl": "https://redhousespice.com/peking-duck/comment-page-8/#comments"
       }
     }
   ]

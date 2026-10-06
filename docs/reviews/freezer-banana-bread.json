@@ -1,7 +1,7 @@
 {
   "slug": "freezer-banana-bread",
   "title": "Freezer Banana Bread",
-  "status": "complete editorial review; accepted locally; publication pending",
+  "status": "complete editorial review; implemented and verified live",
   "date": "2026-10-06",
   "inputCommit": "0bf936ce8fdac00634ed1171ee8ece86cccd4332",
   "inputSha256": "cec9ddf01c406a74ab2885528589769456c5c010185f0112c92eff36663f6722",
@@ -2110,5 +2110,8 @@
     "existingIdentityPreserved": true,
     "newVariantIdentityRegisteredOnce": false
   },
-  "confidence": "high for preserved formula and handling; moderate for unmeasured timing and headroom route"
+  "confidence": "high for preserved formula and handling; moderate for unmeasured timing and headroom route",
+  "implementationCommit": "abfbbb36d62af80bbffc0734d274cccda942ba1b",
+  "releaseCommit": "abfbbb36d62af80bbffc0734d274cccda942ba1b",
+  "productionVerification": "docs/editorial-campaign/2026-10-06/soups-ribs-oats-ice-cream-production.json"
 }

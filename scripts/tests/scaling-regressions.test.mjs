@@ -14,6 +14,9 @@ import {
 const load = (name) =>
   JSON.parse(fs.readFileSync(new URL(`./fixtures/${name}.json`, import.meta.url)));
 const confirmed = load('scaling-confirmed');
+const retirements = JSON.parse(
+  fs.readFileSync(new URL('../../src/data/recipe-retirements.json', import.meta.url))
+);
 const factors = [0.25, 0.5, 1, 1.5, 2, 3];
 const number = /\d+\s+\d+\/\d+|\d+\/\d+|\d+(?:\.\d+)?/g;
 const numeric = (text) =>
@@ -36,11 +39,16 @@ test('review fixture covers exactly 73 confirmed ingredient failures in 60 recip
 });
 for (const row of confirmed) {
   test(`${row.caseId}: ${row.slug} scales the reviewed regression quantity at all supported factors and 1.5x`, () => {
-    const { data } = matter(
-      fs.readFileSync(new URL(`../../src/content/recipes/${row.slug}.md`, import.meta.url), 'utf8')
-    );
+    const sourcePath = new URL(`../../src/content/recipes/${row.slug}.md`, import.meta.url);
+    const data = retirements[row.slug] ? null : matter(fs.readFileSync(sourcePath, 'utf8')).data;
     for (const component of row.components || [row]) {
-      if (
+      if (retirements[row.slug]) {
+        // The recipe was deliberately retired; every historic parser input and
+        // numeric oracle still runs below. Only its active-source check changes.
+        assert.equal(retirements[row.slug].status, 'retired-by-user');
+        assert.equal(fs.existsSync(sourcePath), false);
+        assert.ok(fs.existsSync(retirements[row.slug].record));
+      } else if (
         row.slug === 'stuffed-shells-filled-with-spinach-and-ricotta' &&
         [61, 62].includes(row.caseId)
       ) {

@@ -1,6 +1,6 @@
 {
   "date": "2026-10-06",
-  "status": "Validated locally; publication pending",
+  "status": "validated, implemented and verified live",
   "inputCommit": "0bf936ce8fdac00634ed1171ee8ece86cccd4332",
   "scope": {
     "recipes": 10,
@@ -112,10 +112,13 @@
   "browser": {
     "browser": "Codex internal browser",
     "desktopPages": 10,
-    "mobilePages": 10,
+    "mobilePages": 0,
     "mobileViewport": {
-      "width": 390,
-      "height": 844
+      "requested": {
+        "width": 390,
+        "height": 844
+      },
+      "verified": false
     },
     "horizontalOverflow": false,
     "scaling": {
@@ -141,7 +144,8 @@
       "existingPrintCSSPreserved": true,
       "actualPrinterOrPDFPaginationExercised": false
     },
-    "liveVerification": "pending exact remote commit, CI/deployment and all ten complete affected live pages"
+    "liveVerification": "Exact remote commit, successful CI/deployment and ten complete live pages verified against the locally inspected versions",
+    "mobileVerificationCorrection": "Earlier viewport requests were accepted by the browser capability but actual mobile dimensions were not verified. A subsequent explicit read reported 1280x720 despite a 390x844 request, also on a fresh tab. Reclassify those ten earlier captures as attempted/unconfirmed mobile checks; desktop/page/scaling/cooking/live comparisons remain valid."
   },
   "preservation": {
     "existingSources": 650,
@@ -158,13 +162,17 @@
     "pending": 18,
     "originalCampaignVerifiedBeforePublication": 382,
     "originalCampaignScope": 409,
-    "newAdditionsKeptSeparate": true
+    "newAdditionsKeptSeparate": true,
+    "originalCampaignVerifiedAfterPublication": 391
   },
   "limitations": [
     "No physical kitchen testing",
     "No native-app sync",
-    "Planning times, source yields and wrapper/slice counts are estimates; no manufactured nutrition or measured results"
+    "Planning times, source yields and wrapper/slice counts are estimates; no manufactured nutrition or measured results",
+    "Mobile device rendering remains unverified: internal-browser viewport override did not apply; no Chrome fallback used."
   ],
   "kitchenTested": false,
-  "nativeAppSynced": false
+  "nativeAppSynced": false,
+  "productionVerification": "docs/editorial-campaign/2026-10-06/soups-ribs-oats-ice-cream-production.json",
+  "sourceReleaseCommit": "abfbbb36d62af80bbffc0734d274cccda942ba1b"
 }
