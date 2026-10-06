@@ -1,6 +1,6 @@
 {
   "slug": "shrimp-and-mango-tacos",
-  "status": "accepted complete editorial review; implementation and production pending",
+  "status": "complete editorial review; implemented and verified live",
   "inputCommit": "e7590e506d41242d3634f615b4f31b12d3f429d6",
   "inputSha256": "69df82f9c41da924f1c1ace6f6f3afce3c6cae9f3fc4cc9c7cd28ee2ca1c915a",
   "acceptedSourceSha256": "ffa40055b25f515b935e24d5d60de02f31679163999caf212d057162522cd879",
@@ -944,7 +944,7 @@
   "independentChallenge": "docs/editorial-campaign/2026-10-05/eggs-shrimp-twelve-review.md",
   "sourceEvidence": "docs/editorial-campaign/2026-10-05/eggs-shrimp-twelve-review.md",
   "rootDisposition": "Complete author and independent whole reviews, bounded final challenges and root inspection of all twelve complete current/final cooking diffs. Root read ten exact native originals recovered directly from durable Git and verified the other two as Git-only; no source/identity/archive assumptions. Recipe-specific geometry, planning ranges and household choices remain honest questions. No kitchen test, native import or linked-meal acceptance.",
-  "productionVerification": "pending",
+  "productionVerification": "docs/editorial-campaign/2026-10-05/eggs-shrimp-twelve-production.json",
   "kitchenTested": false,
   "nativeAppSynced": false,
   "integratedValidation": {
@@ -968,5 +968,7 @@
     "compatibilityTests": "1 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
     "kitchenTests": 0,
     "nativeAppSynced": false
-  }
+  },
+  "implementationCommit": "d23c5335f515947ac3e91cbfbc9fd1ac87b4be8d",
+  "releaseCommit": "d23c5335f515947ac3e91cbfbc9fd1ac87b4be8d"
 }

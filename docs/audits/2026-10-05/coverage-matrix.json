@@ -27,7 +27,7 @@
     },
     "uniquePathsInSixRepairCommits": 105,
     "kitchenTested": 0,
-    "productionReconciliation": "100 campaign versions are verified live; 12 further versions are accepted locally and await exact production verification. The 42 accelerated targeted repairs remain a separate overlapping scope. Zero kitchen tests; no native-app sync."
+    "productionReconciliation": "112 new complete editorial versions from the original 409-source campaign are verified live. Coverage is 346 recorded complete / 297 pending across 643 sources, including 234 earlier complete reviews. The 42 accelerated targeted repairs remain a separate overlapping scope. This release’s 12 accepted source versions match exact remote commit [d23c5335](https://github.com/jsilton/mise/commit/d23c5335f515947ac3e91cbfbc9fd1ac87b4be8d), its [successful CI/deployment](https://github.com/jsilton/mise/actions/runs/37414190838) and all 12 live pages. Zero kitchen tests; no native-app sync."
   },
   "collectionEvidence": [
     "docs/REVIEW_PROGRESS.md",
@@ -2573,17 +2573,21 @@
         "record": "docs/reviews/breakfast-egg-cups.md",
         "acceptedSha256": "c2c16c54b181787d3f84685b2f0df21f98306b2cd8c7deee6d62fb92a79b37f8",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/eggs-shrimp-twelve-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "d23c5335f515947ac3e91cbfbc9fd1ac87b4be8d"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/breakfast-egg-cups.json",
         "sourceSha256": "c2c16c54b181787d3f84685b2f0df21f98306b2cd8c7deee6d62fb92a79b37f8"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["d23c5335f515947ac3e91cbfbc9fd1ac87b4be8d"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "c2c16c54b181787d3f84685b2f0df21f98306b2cd8c7deee6d62fb92a79b37f8",
+        "implementationCommit": "d23c5335f515947ac3e91cbfbc9fd1ac87b4be8d",
+        "releaseCommit": "d23c5335f515947ac3e91cbfbc9fd1ac87b4be8d",
+        "evidence": "docs/editorial-campaign/2026-10-05/eggs-shrimp-twelve-production.json"
       },
       "remainingQuestions": [
         "Record standard cup volume, pepper size and actual cup count at three-quarter fill.",
@@ -8284,17 +8288,21 @@
         "record": "docs/reviews/crustless-sausage-and-spinach-quiche.md",
         "acceptedSha256": "25344f38720e09a0727d5af70648fa6e7b645405f7291b069a247907d1d0de4a",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/eggs-shrimp-twelve-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "d23c5335f515947ac3e91cbfbc9fd1ac87b4be8d"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/crustless-sausage-and-spinach-quiche.json",
         "sourceSha256": "25344f38720e09a0727d5af70648fa6e7b645405f7291b069a247907d1d0de4a"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["d23c5335f515947ac3e91cbfbc9fd1ac87b4be8d"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "25344f38720e09a0727d5af70648fa6e7b645405f7291b069a247907d1d0de4a",
+        "implementationCommit": "d23c5335f515947ac3e91cbfbc9fd1ac87b4be8d",
+        "releaseCommit": "d23c5335f515947ac3e91cbfbc9fd1ac87b4be8d",
+        "evidence": "docs/editorial-campaign/2026-10-05/eggs-shrimp-twelve-production.json"
       },
       "remainingQuestions": [
         "Record actual kosher salt brand/crystal and sensory result without inventing a gram conversion.",
@@ -12893,17 +12901,21 @@
         "record": "docs/reviews/ham-and-cheese-quiche.md",
         "acceptedSha256": "a50e1fcd47f89b957c172ac74e3ce738017a4af380eb3a2953a955b4227e627c",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/eggs-shrimp-twelve-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "d23c5335f515947ac3e91cbfbc9fd1ac87b4be8d"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/ham-and-cheese-quiche.json",
         "sourceSha256": "a50e1fcd47f89b957c172ac74e3ce738017a4af380eb3a2953a955b4227e627c"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["d23c5335f515947ac3e91cbfbc9fd1ac87b4be8d"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "a50e1fcd47f89b957c172ac74e3ce738017a4af380eb3a2953a955b4227e627c",
+        "implementationCommit": "d23c5335f515947ac3e91cbfbc9fd1ac87b4be8d",
+        "releaseCommit": "d23c5335f515947ac3e91cbfbc9fd1ac87b4be8d",
+        "evidence": "docs/editorial-campaign/2026-10-05/eggs-shrimp-twelve-production.json"
       },
       "remainingQuestions": [
         "Record actual deep-shell internal depth/capacity and whether filling with optional bacon fits.",
@@ -14059,17 +14071,21 @@
         "record": "docs/reviews/how-to-make-frittatas-stovetop-or-baked.md",
         "acceptedSha256": "b3f520d5d8207a8dc9ae8ffce436eb4805c4e0a2443f6a3daac476950837c927",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/eggs-shrimp-twelve-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "d23c5335f515947ac3e91cbfbc9fd1ac87b4be8d"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/how-to-make-frittatas-stovetop-or-baked.json",
         "sourceSha256": "b3f520d5d8207a8dc9ae8ffce436eb4805c4e0a2443f6a3daac476950837c927"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["d23c5335f515947ac3e91cbfbc9fd1ac87b4be8d"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "b3f520d5d8207a8dc9ae8ffce436eb4805c4e0a2443f6a3daac476950837c927",
+        "implementationCommit": "d23c5335f515947ac3e91cbfbc9fd1ac87b4be8d",
+        "releaseCommit": "d23c5335f515947ac3e91cbfbc9fd1ac87b4be8d",
+        "evidence": "docs/editorial-campaign/2026-10-05/eggs-shrimp-twelve-production.json"
       },
       "remainingQuestions": [
         "Measure cooked yield and moisture for actual spinach/zucchini/pepper mix.",
@@ -14928,11 +14944,11 @@
         "record": "docs/reviews/keto-egg-muffins.md",
         "acceptedSha256": "20653e41797b8721be51d78f0d1c8064c1e1f26ac2cd1e760d8327337c0f4fff",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/eggs-shrimp-twelve-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "d23c5335f515947ac3e91cbfbc9fd1ac87b4be8d"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/keto-egg-muffins.json",
         "sourceSha256": "20653e41797b8721be51d78f0d1c8064c1e1f26ac2cd1e760d8327337c0f4fff"
       },
@@ -14941,10 +14957,15 @@
           "commit": "493885bb88fa96b1ab626b20a5c8ec78830f9145",
           "evidence": "actual recipe diff retained privately",
           "scope": "historical safety/scaling/source repair; file touch is not complete review"
-        }
+        },
+        "d23c5335f515947ac3e91cbfbc9fd1ac87b4be8d"
       ],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "20653e41797b8721be51d78f0d1c8064c1e1f26ac2cd1e760d8327337c0f4fff",
+        "implementationCommit": "d23c5335f515947ac3e91cbfbc9fd1ac87b4be8d",
+        "releaseCommit": "d23c5335f515947ac3e91cbfbc9fd1ac87b4be8d",
+        "evidence": "docs/editorial-campaign/2026-10-05/eggs-shrimp-twelve-production.json"
       },
       "remainingQuestions": [
         "Confirm actual 12 cup count at three-quarter fill with 12 eggs plus cheese and meat.",
@@ -15925,17 +15946,21 @@
         "record": "docs/reviews/loaded-baked-omelet-muffins.md",
         "acceptedSha256": "d8bb59ff546caae9c1d167392540e89d19be43b778946c1974414f8f7812a1d7",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/eggs-shrimp-twelve-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "d23c5335f515947ac3e91cbfbc9fd1ac87b4be8d"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/loaded-baked-omelet-muffins.json",
         "sourceSha256": "d8bb59ff546caae9c1d167392540e89d19be43b778946c1974414f8f7812a1d7"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["d23c5335f515947ac3e91cbfbc9fd1ac87b4be8d"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "d8bb59ff546caae9c1d167392540e89d19be43b778946c1974414f8f7812a1d7",
+        "implementationCommit": "d23c5335f515947ac3e91cbfbc9fd1ac87b4be8d",
+        "releaseCommit": "d23c5335f515947ac3e91cbfbc9fd1ac87b4be8d",
+        "evidence": "docs/editorial-campaign/2026-10-05/eggs-shrimp-twelve-production.json"
       },
       "remainingQuestions": [
         "Confirm actual 12 cup yield and filling headroom with the household standard tin.",
@@ -23330,17 +23355,21 @@
         "record": "docs/reviews/shrimp-and-mango-tacos.md",
         "acceptedSha256": "ffa40055b25f515b935e24d5d60de02f31679163999caf212d057162522cd879",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/eggs-shrimp-twelve-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "d23c5335f515947ac3e91cbfbc9fd1ac87b4be8d"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/shrimp-and-mango-tacos.json",
         "sourceSha256": "ffa40055b25f515b935e24d5d60de02f31679163999caf212d057162522cd879"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["d23c5335f515947ac3e91cbfbc9fd1ac87b4be8d"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "ffa40055b25f515b935e24d5d60de02f31679163999caf212d057162522cd879",
+        "implementationCommit": "d23c5335f515947ac3e91cbfbc9fd1ac87b4be8d",
+        "releaseCommit": "d23c5335f515947ac3e91cbfbc9fd1ac87b4be8d",
+        "evidence": "docs/editorial-campaign/2026-10-05/eggs-shrimp-twelve-production.json"
       },
       "remainingQuestions": [
         "Measure actual tortilla size/filling distribution and pan batch count.",
@@ -23409,17 +23438,21 @@
         "record": "docs/reviews/shrimp-and-sweet-potato-noodle-stir-fry.md",
         "acceptedSha256": "2616136d0328881582b10e8cd1f8be6b385008651a3be6e3a83fcede3ec70bb0",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/eggs-shrimp-twelve-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "d23c5335f515947ac3e91cbfbc9fd1ac87b4be8d"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/shrimp-and-sweet-potato-noodle-stir-fry.json",
         "sourceSha256": "2616136d0328881582b10e8cd1f8be6b385008651a3be6e3a83fcede3ec70bb0"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["d23c5335f515947ac3e91cbfbc9fd1ac87b4be8d"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "2616136d0328881582b10e8cd1f8be6b385008651a3be6e3a83fcede3ec70bb0",
+        "implementationCommit": "d23c5335f515947ac3e91cbfbc9fd1ac87b4be8d",
+        "releaseCommit": "d23c5335f515947ac3e91cbfbc9fd1ac87b4be8d",
+        "evidence": "docs/editorial-campaign/2026-10-05/eggs-shrimp-twelve-production.json"
       },
       "remainingQuestions": [
         "Check actual dangmyeon package and rinse instruction.",
@@ -23535,17 +23568,21 @@
         "record": "docs/reviews/shrimp-lobster-sauce.md",
         "acceptedSha256": "824ff0317f161245538a009f59f996e3b9f822032f9a33dd90a79ab5545b0a49",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/eggs-shrimp-twelve-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "d23c5335f515947ac3e91cbfbc9fd1ac87b4be8d"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/shrimp-lobster-sauce.json",
         "sourceSha256": "824ff0317f161245538a009f59f996e3b9f822032f9a33dd90a79ab5545b0a49"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["d23c5335f515947ac3e91cbfbc9fd1ac87b4be8d"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "824ff0317f161245538a009f59f996e3b9f822032f9a33dd90a79ab5545b0a49",
+        "implementationCommit": "d23c5335f515947ac3e91cbfbc9fd1ac87b4be8d",
+        "releaseCommit": "d23c5335f515947ac3e91cbfbc9fd1ac87b4be8d",
+        "evidence": "docs/editorial-campaign/2026-10-05/eggs-shrimp-twelve-production.json"
       },
       "remainingQuestions": [
         "Check egg-ribbon texture while meeting160°F pork/egg endpoint.",
@@ -23653,11 +23690,11 @@
         "record": "docs/reviews/shrimp-with-black-bean-sauce.md",
         "acceptedSha256": "a73c30edc90adda7209e53eecc2af76611fce77a83d05227917f8851470cc854",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/eggs-shrimp-twelve-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "d23c5335f515947ac3e91cbfbc9fd1ac87b4be8d"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/shrimp-with-black-bean-sauce.json",
         "sourceSha256": "a73c30edc90adda7209e53eecc2af76611fce77a83d05227917f8851470cc854"
       },
@@ -23666,10 +23703,15 @@
           "commit": "ee9c707878074d7d56dcb3fb737afb537051aba5",
           "evidence": "actual recipe diff retained privately",
           "scope": "accelerated targeted repair"
-        }
+        },
+        "d23c5335f515947ac3e91cbfbc9fd1ac87b4be8d"
       ],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "a73c30edc90adda7209e53eecc2af76611fce77a83d05227917f8851470cc854",
+        "implementationCommit": "d23c5335f515947ac3e91cbfbc9fd1ac87b4be8d",
+        "releaseCommit": "d23c5335f515947ac3e91cbfbc9fd1ac87b4be8d",
+        "evidence": "docs/editorial-campaign/2026-10-05/eggs-shrimp-twelve-production.json"
       },
       "remainingQuestions": [
         "Challenge proposed exact sugar/pepper restoration against any household decision not in Git.",
@@ -27499,17 +27541,21 @@
         "record": "docs/reviews/thai-red-curry-shrimp.md",
         "acceptedSha256": "946bac13e44716c64a08d34584fc5a97985d43ef4dfb2e24e335b46858613afb",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/eggs-shrimp-twelve-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "d23c5335f515947ac3e91cbfbc9fd1ac87b4be8d"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/thai-red-curry-shrimp.json",
         "sourceSha256": "946bac13e44716c64a08d34584fc5a97985d43ef4dfb2e24e335b46858613afb"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["d23c5335f515947ac3e91cbfbc9fd1ac87b4be8d"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "946bac13e44716c64a08d34584fc5a97985d43ef4dfb2e24e335b46858613afb",
+        "implementationCommit": "d23c5335f515947ac3e91cbfbc9fd1ac87b4be8d",
+        "releaseCommit": "d23c5335f515947ac3e91cbfbc9fd1ac87b4be8d",
+        "evidence": "docs/editorial-campaign/2026-10-05/eggs-shrimp-twelve-production.json"
       },
       "remainingQuestions": [
         "Record actual yield with separately prepared rice.",
@@ -29255,17 +29301,21 @@
         "record": "docs/reviews/zucchini-noodles-with-avocado-pesto-and-shrimp.md",
         "acceptedSha256": "a39feebef8958af6830cf1829cb468cb0a06ee140b740f7cbcb48e5991a5deed",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/eggs-shrimp-twelve-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "d23c5335f515947ac3e91cbfbc9fd1ac87b4be8d"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/zucchini-noodles-with-avocado-pesto-and-shrimp.json",
         "sourceSha256": "a39feebef8958af6830cf1829cb468cb0a06ee140b740f7cbcb48e5991a5deed"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["d23c5335f515947ac3e91cbfbc9fd1ac87b4be8d"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "a39feebef8958af6830cf1829cb468cb0a06ee140b740f7cbcb48e5991a5deed",
+        "implementationCommit": "d23c5335f515947ac3e91cbfbc9fd1ac87b4be8d",
+        "releaseCommit": "d23c5335f515947ac3e91cbfbc9fd1ac87b4be8d",
+        "evidence": "docs/editorial-campaign/2026-10-05/eggs-shrimp-twelve-production.json"
       },
       "remainingQuestions": [
         "Record actual five-zucchini prepared mass, seedy-core discard and colander capacity.",
