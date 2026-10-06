@@ -1,6 +1,6 @@
 {
   "slug": "double-chocolate-layer-cake",
-  "status": "accepted complete editorial review; implementation and production pending",
+  "status": "complete editorial review; implemented and verified live",
   "inputCommit": "8fe291ff83486bcce6a1d8983f8b5d05667d1cbd",
   "inputSha256": "aa1343bf9fdd11683ba23dd254018c41b588281c705b085b822200d2ad7a1fd1",
   "acceptedSourceSha256": "c0866c2295c27cb13d6b77ff3baa7a399e3b791d063cf4a2b4db508434d67ca2",
@@ -1013,7 +1013,7 @@
   "independentChallenge": "docs/editorial-campaign/2026-10-05/marinated-cakes-ten-review.md",
   "sourceEvidence": "docs/editorial-campaign/2026-10-05/marinated-cakes-ten-review.md",
   "rootDisposition": "Accept these ten written versions while preserving current adaptations, complete distinct saved variants, full richness, prior repairs and family context. Honey-Glazed Spareribs and Grandmommy’s Pound Cake remain excluded and held. Planning yields and clocks are untested; no kitchen tests or native-app sync.",
-  "productionVerification": "pending",
+  "productionVerification": "docs/editorial-campaign/2026-10-05/marinated-cakes-ten-production.json",
   "kitchenTested": false,
   "nativeAppSynced": false,
   "integratedValidation": {
@@ -1037,5 +1037,7 @@
     "compatibilityTests": "0 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
     "kitchenTests": 0,
     "nativeAppSynced": false
-  }
+  },
+  "implementationCommit": "a462568681053177e82f27af229f54e18c447861",
+  "releaseCommit": "a462568681053177e82f27af229f54e18c447861"
 }

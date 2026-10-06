@@ -1,0 +1,186 @@
+{
+  "status": "Verified live complete editorial versions",
+  "releaseCommit": "a462568681053177e82f27af229f54e18c447861",
+  "implementationCommit": "a462568681053177e82f27af229f54e18c447861",
+  "deploymentRun": "https://github.com/jsilton/mise/actions/runs/37432492666",
+  "ci": {
+    "headSha": "a462568681053177e82f27af229f54e18c447861",
+    "status": "completed",
+    "conclusion": "success",
+    "jobs": [
+      {
+        "name": "build",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "name": "deploy",
+        "status": "completed",
+        "conclusion": "success"
+      }
+    ]
+  },
+  "remote": "a462568681053177e82f27af229f54e18c447861",
+  "rendered": [
+    {
+      "slug": "kalbi-grilled-korean-style-short-ribs",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true,
+      "methodCount": 7
+    },
+    {
+      "slug": "marinated-korean-ribeye",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true,
+      "methodCount": 4
+    },
+    {
+      "slug": "grilled-pork-banh-mi",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true,
+      "methodCount": 5
+    },
+    {
+      "slug": "korean-style-tacos-with-kogi-bbq-sauce",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true,
+      "methodCount": 6
+    },
+    {
+      "slug": "lamb-keema-matar",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true,
+      "methodCount": 6
+    },
+    {
+      "slug": "babys-first-smash-cake",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true,
+      "methodCount": 5
+    },
+    {
+      "slug": "chocolate-vanilla-swirl-layer-cake",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true,
+      "methodCount": 9
+    },
+    {
+      "slug": "classic-carrot-cake",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true,
+      "methodCount": 6
+    },
+    {
+      "slug": "double-chocolate-layer-cake",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true,
+      "methodCount": 11
+    },
+    {
+      "slug": "funfetti-cake-from-scratch-and-an-unbirthday",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true,
+      "methodCount": 9
+    }
+  ],
+  "verifiedDate": "2026-10-06T07:58:04.344Z",
+  "acceptedRecipeSources": [
+    {
+      "slug": "kalbi-grilled-korean-style-short-ribs",
+      "acceptedSourceSha256": "d153efa32d702c4348dd3b1c265fc188855c5c68503643a1d13e9a4d438a7b2d"
+    },
+    {
+      "slug": "marinated-korean-ribeye",
+      "acceptedSourceSha256": "166255d6bf4a8f8e3c37e03bdf76da1dd6ac53066c1a0a8db880de5543471aa5"
+    },
+    {
+      "slug": "grilled-pork-banh-mi",
+      "acceptedSourceSha256": "3e0236f285065bd04b0d58780d131eb365ae45ded9c8746d2df24e854c804d66"
+    },
+    {
+      "slug": "korean-style-tacos-with-kogi-bbq-sauce",
+      "acceptedSourceSha256": "bbe9e60278b610adf059727687a4d8ccd736b70fd52a9555633804016ce943ff"
+    },
+    {
+      "slug": "lamb-keema-matar",
+      "acceptedSourceSha256": "5a6a414de80a11e289a10b89fcfdaa0cbaa23b94663d19b910ee7948b8285492"
+    },
+    {
+      "slug": "babys-first-smash-cake",
+      "acceptedSourceSha256": "783d0be482da6d428977bb4dc3768733f3ff1448e50aacadd495e71e84327a17"
+    },
+    {
+      "slug": "chocolate-vanilla-swirl-layer-cake",
+      "acceptedSourceSha256": "06a140eeb98861ad9e811c3b8c2a82a1a57cd0dac66995ebf7cc9336868e68e9"
+    },
+    {
+      "slug": "classic-carrot-cake",
+      "acceptedSourceSha256": "9d1487186b3cc7725f80bbfcdf02c4c90c28f9245f1461ad6b5c53a46ca20127"
+    },
+    {
+      "slug": "double-chocolate-layer-cake",
+      "acceptedSourceSha256": "c0866c2295c27cb13d6b77ff3baa7a399e3b791d063cf4a2b4db508434d67ca2"
+    },
+    {
+      "slug": "funfetti-cake-from-scratch-and-an-unbirthday",
+      "acceptedSourceSha256": "4e7047ed3e207010ee9986470bbdeb939b9da99d44b2e4b051e3238f5b1994f5"
+    }
+  ],
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "limitations": [
+    "Actual physical cooking untested",
+    "Actual print preview not inspected; controls and shared styles verified",
+    "Production content/rendering checked on all 10; mobile scaling/cooking interactions sampled on three/two locally"
+  ]
+}

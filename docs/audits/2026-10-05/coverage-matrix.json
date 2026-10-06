@@ -27,7 +27,7 @@
     },
     "uniquePathsInSixRepairCommits": 105,
     "kitchenTested": 0,
-    "productionReconciliation": "191 campaign versions are verified live; 10 further versions are accepted locally and await exact production verification. The 42 accelerated targeted repairs remain a separate overlapping scope. Zero kitchen tests; no native-app sync."
+    "productionReconciliation": "201 new complete editorial versions from the original 409-source campaign are verified live. Coverage is 435 recorded complete / 208 pending across 643 sources, including 234 earlier complete reviews. The 42 accelerated targeted repairs remain a separate overlapping scope. This release’s 10 accepted source versions match exact remote commit [a4625686](https://github.com/jsilton/mise/commit/a462568681053177e82f27af229f54e18c447861), its [successful CI/deployment](https://github.com/jsilton/mise/actions/runs/37432492666) and all 10 live pages. Zero kitchen tests; no native-app sync."
   },
   "collectionEvidence": [
     "docs/REVIEW_PROGRESS.md",
@@ -835,17 +835,21 @@
         "record": "docs/reviews/babys-first-smash-cake.md",
         "acceptedSha256": "783d0be482da6d428977bb4dc3768733f3ff1448e50aacadd495e71e84327a17",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/marinated-cakes-ten-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "a462568681053177e82f27af229f54e18c447861"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/babys-first-smash-cake.json",
         "sourceSha256": "783d0be482da6d428977bb4dc3768733f3ff1448e50aacadd495e71e84327a17"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["a462568681053177e82f27af229f54e18c447861"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "783d0be482da6d428977bb4dc3768733f3ff1448e50aacadd495e71e84327a17",
+        "implementationCommit": "a462568681053177e82f27af229f54e18c447861",
+        "releaseCommit": "a462568681053177e82f27af229f54e18c447861",
+        "evidence": "docs/editorial-campaign/2026-10-05/marinated-cakes-ten-production.json"
       },
       "remainingQuestions": [
         "Actual banana size/mashed yield and chosen current four versus saved four-or-five remain household/kitchen questions; no new weight equivalence.",
@@ -6308,17 +6312,21 @@
         "record": "docs/reviews/chocolate-vanilla-swirl-layer-cake.md",
         "acceptedSha256": "06a140eeb98861ad9e811c3b8c2a82a1a57cd0dac66995ebf7cc9336868e68e9",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/marinated-cakes-ten-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "a462568681053177e82f27af229f54e18c447861"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/chocolate-vanilla-swirl-layer-cake.json",
         "sourceSha256": "06a140eeb98861ad9e811c3b8c2a82a1a57cd0dac66995ebf7cc9336868e68e9"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["a462568681053177e82f27af229f54e18c447861"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "06a140eeb98861ad9e811c3b8c2a82a1a57cd0dac66995ebf7cc9336868e68e9",
+        "implementationCommit": "a462568681053177e82f27af229f54e18c447861",
+        "releaseCommit": "a462568681053177e82f27af229f54e18c447861",
+        "evidence": "docs/editorial-campaign/2026-10-05/marinated-cakes-ten-production.json"
       },
       "remainingQuestions": [
         "Actual two8- or9-inch pan depths/headroom and oven fit need kitchen confirmation; no guessed depth.",
@@ -6472,17 +6480,21 @@
         "record": "docs/reviews/classic-carrot-cake.md",
         "acceptedSha256": "9d1487186b3cc7725f80bbfcdf02c4c90c28f9245f1461ad6b5c53a46ca20127",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/marinated-cakes-ten-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "a462568681053177e82f27af229f54e18c447861"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/classic-carrot-cake.json",
         "sourceSha256": "9d1487186b3cc7725f80bbfcdf02c4c90c28f9245f1461ad6b5c53a46ca20127"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["a462568681053177e82f27af229f54e18c447861"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "9d1487186b3cc7725f80bbfcdf02c4c90c28f9245f1461ad6b5c53a46ca20127",
+        "implementationCommit": "a462568681053177e82f27af229f54e18c447861",
+        "releaseCommit": "a462568681053177e82f27af229f54e18c447861",
+        "evidence": "docs/editorial-campaign/2026-10-05/marinated-cakes-ten-production.json"
       },
       "remainingQuestions": [
         "Which source-oil versus prepared-finished-brown-butter route does the household prefer? No later accepted formula decision identified after bulk6d6ff; later Stella wording is not proof of technique attribution.",
@@ -8886,11 +8898,11 @@
         "record": "docs/reviews/double-chocolate-layer-cake.md",
         "acceptedSha256": "c0866c2295c27cb13d6b77ff3baa7a399e3b791d063cf4a2b4db508434d67ca2",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/marinated-cakes-ten-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "a462568681053177e82f27af229f54e18c447861"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/double-chocolate-layer-cake.json",
         "sourceSha256": "c0866c2295c27cb13d6b77ff3baa7a399e3b791d063cf4a2b4db508434d67ca2"
       },
@@ -8899,10 +8911,15 @@
           "commit": "493885bb88fa96b1ab626b20a5c8ec78830f9145",
           "evidence": "actual recipe diff retained privately",
           "scope": "historical safety/scaling/source repair; file touch is not complete review"
-        }
+        },
+        "a462568681053177e82f27af229f54e18c447861"
       ],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "c0866c2295c27cb13d6b77ff3baa7a399e3b791d063cf4a2b4db508434d67ca2",
+        "implementationCommit": "a462568681053177e82f27af229f54e18c447861",
+        "releaseCommit": "a462568681053177e82f27af229f54e18c447861",
+        "evidence": "docs/editorial-campaign/2026-10-05/marinated-cakes-ten-production.json"
       },
       "remainingQuestions": [
         "Physical kitchen testing remains absent.",
@@ -10845,17 +10862,21 @@
         "record": "docs/reviews/funfetti-cake-from-scratch-and-an-unbirthday.md",
         "acceptedSha256": "4e7047ed3e207010ee9986470bbdeb939b9da99d44b2e4b051e3238f5b1994f5",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/marinated-cakes-ten-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "a462568681053177e82f27af229f54e18c447861"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/funfetti-cake-from-scratch-and-an-unbirthday.json",
         "sourceSha256": "4e7047ed3e207010ee9986470bbdeb939b9da99d44b2e4b051e3238f5b1994f5"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["a462568681053177e82f27af229f54e18c447861"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "4e7047ed3e207010ee9986470bbdeb939b9da99d44b2e4b051e3238f5b1994f5",
+        "implementationCommit": "a462568681053177e82f27af229f54e18c447861",
+        "releaseCommit": "a462568681053177e82f27af229f54e18c447861",
+        "evidence": "docs/editorial-campaign/2026-10-05/marinated-cakes-ten-production.json"
       },
       "remainingQuestions": [
         "Actual pan depth and oven fit for three8-inch layers; source volume12cups is not a new tested household yield.",
@@ -12676,17 +12697,21 @@
         "record": "docs/reviews/grilled-pork-banh-mi.md",
         "acceptedSha256": "3e0236f285065bd04b0d58780d131eb365ae45ded9c8746d2df24e854c804d66",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/marinated-cakes-ten-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "a462568681053177e82f27af229f54e18c447861"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/grilled-pork-banh-mi.json",
         "sourceSha256": "3e0236f285065bd04b0d58780d131eb365ae45ded9c8746d2df24e854c804d66"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["a462568681053177e82f27af229f54e18c447861"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "3e0236f285065bd04b0d58780d131eb365ae45ded9c8746d2df24e854c804d66",
+        "implementationCommit": "a462568681053177e82f27af229f54e18c447861",
+        "releaseCommit": "a462568681053177e82f27af229f54e18c447861",
+        "evidence": "docs/editorial-campaign/2026-10-05/marinated-cakes-ten-production.json"
       },
       "remainingQuestions": [
         "Confirm actualthin cut, skewers/basket/grillheat, probe suitability and texture/time for tenderloin versus porkbutt;do not treatcutalternativesasequal clocks.",
@@ -14752,17 +14777,21 @@
         "record": "docs/reviews/kalbi-grilled-korean-style-short-ribs.md",
         "acceptedSha256": "d153efa32d702c4348dd3b1c265fc188855c5c68503643a1d13e9a4d438a7b2d",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/marinated-cakes-ten-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "a462568681053177e82f27af229f54e18c447861"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/kalbi-grilled-korean-style-short-ribs.json",
         "sourceSha256": "d153efa32d702c4348dd3b1c265fc188855c5c68503643a1d13e9a4d438a7b2d"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["a462568681053177e82f27af229f54e18c447861"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "d153efa32d702c4348dd3b1c265fc188855c5c68503643a1d13e9a4d438a7b2d",
+        "implementationCommit": "a462568681053177e82f27af229f54e18c447861",
+        "releaseCommit": "a462568681053177e82f27af229f54e18c447861",
+        "evidence": "docs/editorial-campaign/2026-10-05/marinated-cakes-ten-production.json"
       },
       "remainingQuestions": [
         "Confirm actual1/2inch flanken thickness, thin thermometer applicability, grill vessel/zone/load counts and tenderness with145°F plus5minute rest. No tested fat-rendering or snappy texture guarantee.",
@@ -15322,17 +15351,21 @@
         "record": "docs/reviews/korean-style-tacos-with-kogi-bbq-sauce.md",
         "acceptedSha256": "bbe9e60278b610adf059727687a4d8ccd736b70fd52a9555633804016ce943ff",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/marinated-cakes-ten-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "a462568681053177e82f27af229f54e18c447861"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/korean-style-tacos-with-kogi-bbq-sauce.json",
         "sourceSha256": "bbe9e60278b610adf059727687a4d8ccd736b70fd52a9555633804016ce943ff"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["a462568681053177e82f27af229f54e18c447861"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "bbe9e60278b610adf059727687a4d8ccd736b70fd52a9555633804016ce943ff",
+        "implementationCommit": "a462568681053177e82f27af229f54e18c447861",
+        "releaseCommit": "a462568681053177e82f27af229f54e18c447861",
+        "evidence": "docs/editorial-campaign/2026-10-05/marinated-cakes-ten-production.json"
       },
       "remainingQuestions": [
         "Confirmactualcookedmeat seasoning/moisture fromchosenlinkedporkORchicken and sauce sweetness/heat withfull-sauce orquartercupsear choice;not native or kitchen approval.",
@@ -15366,17 +15399,21 @@
         "record": "docs/reviews/lamb-keema-matar.md",
         "acceptedSha256": "5a6a414de80a11e289a10b89fcfdaa0cbaa23b94663d19b910ee7948b8285492",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/marinated-cakes-ten-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "a462568681053177e82f27af229f54e18c447861"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/lamb-keema-matar.json",
         "sourceSha256": "5a6a414de80a11e289a10b89fcfdaa0cbaa23b94663d19b910ee7948b8285492"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["a462568681053177e82f27af229f54e18c447861"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "5a6a414de80a11e289a10b89fcfdaa0cbaa23b94663d19b910ee7948b8285492",
+        "implementationCommit": "a462568681053177e82f27af229f54e18c447861",
+        "releaseCommit": "a462568681053177e82f27af229f54e18c447861",
+        "evidence": "docs/editorial-campaign/2026-10-05/marinated-cakes-ten-production.json"
       },
       "remainingQuestions": [
         "Confirm actualground-lamb fatcontent, pan/lid/load andsmallwater evaporation throughpeacooking;noadditionalwater/oil/salt dose guessed.",
@@ -16304,17 +16341,21 @@
         "record": "docs/reviews/marinated-korean-ribeye.md",
         "acceptedSha256": "166255d6bf4a8f8e3c37e03bdf76da1dd6ac53066c1a0a8db880de5543471aa5",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/marinated-cakes-ten-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "a462568681053177e82f27af229f54e18c447861"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/marinated-korean-ribeye.json",
         "sourceSha256": "166255d6bf4a8f8e3c37e03bdf76da1dd6ac53066c1a0a8db880de5543471aa5"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["a462568681053177e82f27af229f54e18c447861"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "166255d6bf4a8f8e3c37e03bdf76da1dd6ac53066c1a0a8db880de5543471aa5",
+        "implementationCommit": "a462568681053177e82f27af229f54e18c447861",
+        "releaseCommit": "a462568681053177e82f27af229f54e18c447861",
+        "evidence": "docs/editorial-campaign/2026-10-05/marinated-cakes-ten-production.json"
       },
       "remainingQuestions": [
         "Confirm actual thinbeef cut, thermometer sensor suitability, panload and texture/time at desired scale; scientifically named enzyme/tenderness not verified.",

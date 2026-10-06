@@ -1,6 +1,6 @@
 {
   "slug": "marinated-korean-ribeye",
-  "status": "accepted complete editorial review; implementation and production pending",
+  "status": "complete editorial review; implemented and verified live",
   "inputCommit": "8fe291ff83486bcce6a1d8983f8b5d05667d1cbd",
   "inputSha256": "72d663a75ba3f8f4d0f7f6dd00a36a4a7cf90001177457d55aa5996beb429d4e",
   "acceptedSourceSha256": "166255d6bf4a8f8e3c37e03bdf76da1dd6ac53066c1a0a8db880de5543471aa5",
@@ -759,7 +759,7 @@
   "independentChallenge": "docs/editorial-campaign/2026-10-05/marinated-cakes-ten-review.md",
   "sourceEvidence": "docs/editorial-campaign/2026-10-05/marinated-cakes-ten-review.md",
   "rootDisposition": "Accept these ten written versions while preserving current adaptations, complete distinct saved variants, full richness, prior repairs and family context. Honey-Glazed Spareribs and Grandmommy’s Pound Cake remain excluded and held. Planning yields and clocks are untested; no kitchen tests or native-app sync.",
-  "productionVerification": "pending",
+  "productionVerification": "docs/editorial-campaign/2026-10-05/marinated-cakes-ten-production.json",
   "kitchenTested": false,
   "nativeAppSynced": false,
   "integratedValidation": {
@@ -783,5 +783,7 @@
     "compatibilityTests": "0 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
     "kitchenTests": 0,
     "nativeAppSynced": false
-  }
+  },
+  "implementationCommit": "a462568681053177e82f27af229f54e18c447861",
+  "releaseCommit": "a462568681053177e82f27af229f54e18c447861"
 }

@@ -1,6 +1,6 @@
 {
   "slug": "lamb-keema-matar",
-  "status": "accepted complete editorial review; implementation and production pending",
+  "status": "complete editorial review; implemented and verified live",
   "inputCommit": "8fe291ff83486bcce6a1d8983f8b5d05667d1cbd",
   "inputSha256": "273f7e94a08d793965dad6f6beac689fa1c38d4bf625973ca632c30ed689d4c2",
   "acceptedSourceSha256": "5a6a414de80a11e289a10b89fcfdaa0cbaa23b94663d19b910ee7948b8285492",
@@ -879,7 +879,7 @@
   "independentChallenge": "docs/editorial-campaign/2026-10-05/marinated-cakes-ten-review.md",
   "sourceEvidence": "docs/editorial-campaign/2026-10-05/marinated-cakes-ten-review.md",
   "rootDisposition": "Accept these ten written versions while preserving current adaptations, complete distinct saved variants, full richness, prior repairs and family context. Honey-Glazed Spareribs and Grandmommy’s Pound Cake remain excluded and held. Planning yields and clocks are untested; no kitchen tests or native-app sync.",
-  "productionVerification": "pending",
+  "productionVerification": "docs/editorial-campaign/2026-10-05/marinated-cakes-ten-production.json",
   "kitchenTested": false,
   "nativeAppSynced": false,
   "integratedValidation": {
@@ -903,5 +903,7 @@
     "compatibilityTests": "0 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
     "kitchenTests": 0,
     "nativeAppSynced": false
-  }
+  },
+  "implementationCommit": "a462568681053177e82f27af229f54e18c447861",
+  "releaseCommit": "a462568681053177e82f27af229f54e18c447861"
 }

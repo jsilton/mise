@@ -319,6 +319,18 @@
       "reviewer": "baking_editor",
       "inputCommit": "8fe291ff83486bcce6a1d8983f8b5d05667d1cbd",
       "status": "assigned; whole author/independent/root pending"
+    },
+    "sauces_oils_08": {
+      "slugs": [
+        "garlic-paste-toum-the-washington-post",
+        "homemade-chili-oil",
+        "homemade-enchilada-sauce",
+        "homemade-sugar-free-ketchup",
+        "san-marzano-tomato-sauce"
+      ],
+      "reviewer": "coverage_check",
+      "inputCommit": "a462568681053177e82f27af229f54e18c447861",
+      "status": "assigned; whole author/independent/root pending"
     }
   },
   "recipes": [
@@ -593,7 +605,7 @@
       "source": "Adapted from fitmamarealfood.com",
       "sourceUrl": "http://www.fitmamarealfood.com/babys-first-smash-cake-healthy-no-sugar-banana-cake/",
       "group": "layer_family_cakes_05",
-      "status": "accepted",
+      "status": "production-verified",
       "reviewEvidence": [
         "docs/reviews/babys-first-smash-cake.md",
         "docs/editorial-campaign/2026-10-05/marinated-cakes-ten-review.md"
@@ -609,10 +621,11 @@
       "plannedBatch": "baked-sweets-01",
       "assignmentInputCommit": "f14b15b846b3cac895cc09c7830250c1a48d27d3",
       "assignmentInputSha256": "05ea3ad97d3206e153e27cfd122248a38d535e5f5530c372428b70c09a791716",
-      "reviewPhase": "Whole author disposition frozen; independent/root acceptance pending",
+      "reviewPhase": "Complete editorial review accepted, implemented and verified live",
       "authorEvidence": ".mise/editorial-campaign/2026-10-05/layer_family_cakes_05/manifest.json",
       "acceptedSourceSha256": "783d0be482da6d428977bb4dc3768733f3ff1448e50aacadd495e71e84327a17",
-      "productionVerification": "pending"
+      "productionVerification": "docs/editorial-campaign/2026-10-05/marinated-cakes-ten-production.json",
+      "implementationCommit": "a462568681053177e82f27af229f54e18c447861"
     },
     {
       "slug": "baked-chicken-and-broccoli",
@@ -2546,7 +2559,7 @@
       "source": "Adapted from Foodiewithfamily.com",
       "sourceUrl": "https://www.foodiewithfamily.com/chocolate-vanilla-swirl-layer-cake-with-ganache/",
       "group": "layer_family_cakes_05",
-      "status": "accepted",
+      "status": "production-verified",
       "reviewEvidence": [
         "docs/reviews/chocolate-vanilla-swirl-layer-cake.md",
         "docs/editorial-campaign/2026-10-05/marinated-cakes-ten-review.md"
@@ -2561,10 +2574,11 @@
       "plannedBatch": "baked-sweets-02",
       "assignmentInputCommit": "f14b15b846b3cac895cc09c7830250c1a48d27d3",
       "assignmentInputSha256": "931cc56bb9132c5979447567fc03107b58f22f2bda76fbbbf5117394d3d14f89",
-      "reviewPhase": "Whole author disposition frozen; independent/root acceptance pending",
+      "reviewPhase": "Complete editorial review accepted, implemented and verified live",
       "authorEvidence": ".mise/editorial-campaign/2026-10-05/layer_family_cakes_05/manifest.json",
       "acceptedSourceSha256": "06a140eeb98861ad9e811c3b8c2a82a1a57cd0dac66995ebf7cc9336868e68e9",
-      "productionVerification": "pending"
+      "productionVerification": "docs/editorial-campaign/2026-10-05/marinated-cakes-ten-production.json",
+      "implementationCommit": "a462568681053177e82f27af229f54e18c447861"
     },
     {
       "slug": "classic-carrot-cake",
@@ -2573,7 +2587,7 @@
       "source": "Adapted from ajc.com",
       "sourceUrl": "https://www.ajc.com/things-to-do/food-and-recipes/recipe-apple-syrup-is-key-to-moist-carrot-cake/NFOH5GZCPFHDXPD3WU2ZD6TDNU/?fbclid=IwAR0mPjiVsWlmKp6Q16-0zVkVk6g_oK8Iys0zLMuRUF7HMtIBsTJhs6pq_sc",
       "group": "layer_family_cakes_05",
-      "status": "accepted",
+      "status": "production-verified",
       "reviewEvidence": [
         "docs/reviews/classic-carrot-cake.md",
         "docs/editorial-campaign/2026-10-05/marinated-cakes-ten-review.md"
@@ -2589,10 +2603,11 @@
       "plannedBatch": "baked-sweets-02",
       "assignmentInputCommit": "f14b15b846b3cac895cc09c7830250c1a48d27d3",
       "assignmentInputSha256": "f67d594863c722cfbdbabd08fb66beb94b6a15d4495b5b3aafe1ec8b464289c9",
-      "reviewPhase": "Whole author disposition frozen; independent/root acceptance pending",
+      "reviewPhase": "Complete editorial review accepted, implemented and verified live",
       "authorEvidence": ".mise/editorial-campaign/2026-10-05/layer_family_cakes_05/manifest.json",
       "acceptedSourceSha256": "9d1487186b3cc7725f80bbfcdf02c4c90c28f9245f1461ad6b5c53a46ca20127",
-      "productionVerification": "pending"
+      "productionVerification": "docs/editorial-campaign/2026-10-05/marinated-cakes-ten-production.json",
+      "implementationCommit": "a462568681053177e82f27af229f54e18c447861"
     },
     {
       "slug": "classic-chocolate-chip-cookies",
@@ -3399,7 +3414,7 @@
       "source": "Ed Kasky, Gourmet (March 1999), via Epicurious",
       "sourceUrl": "https://www.epicurious.com/recipes/food/views/double-chocolate-layer-cake-101275",
       "group": "layer_family_cakes_05",
-      "status": "accepted",
+      "status": "production-verified",
       "reviewEvidence": [
         "docs/reviews/double-chocolate-layer-cake.md",
         "docs/editorial-campaign/2026-10-05/marinated-cakes-ten-review.md"
@@ -3413,10 +3428,11 @@
       "plannedBatch": "baked-sweets-03",
       "assignmentInputCommit": "f14b15b846b3cac895cc09c7830250c1a48d27d3",
       "assignmentInputSha256": "aa1343bf9fdd11683ba23dd254018c41b588281c705b085b822200d2ad7a1fd1",
-      "reviewPhase": "Whole author disposition frozen; independent/root acceptance pending",
+      "reviewPhase": "Complete editorial review accepted, implemented and verified live",
       "authorEvidence": ".mise/editorial-campaign/2026-10-05/layer_family_cakes_05/manifest.json",
       "acceptedSourceSha256": "c0866c2295c27cb13d6b77ff3baa7a399e3b791d063cf4a2b4db508434d67ca2",
-      "productionVerification": "pending"
+      "productionVerification": "docs/editorial-campaign/2026-10-05/marinated-cakes-ten-production.json",
+      "implementationCommit": "a462568681053177e82f27af229f54e18c447861"
     },
     {
       "slug": "dutch-baby-pancake",
@@ -4099,7 +4115,7 @@
       "source": "Adapted from sugarspunrun.com",
       "sourceUrl": "https://sugarspunrun.com/funfetti-cake-scratch/",
       "group": "layer_family_cakes_05",
-      "status": "accepted",
+      "status": "production-verified",
       "reviewEvidence": [
         "docs/reviews/funfetti-cake-from-scratch-and-an-unbirthday.md",
         "docs/editorial-campaign/2026-10-05/marinated-cakes-ten-review.md"
@@ -4115,10 +4131,11 @@
       "plannedBatch": "baked-sweets-03",
       "assignmentInputCommit": "f14b15b846b3cac895cc09c7830250c1a48d27d3",
       "assignmentInputSha256": "512ff47b1a410aa7b6ace06c17b56cc63f3ea552fd1c0ee886ca51298b5f9677",
-      "reviewPhase": "Whole author disposition frozen; independent/root acceptance pending",
+      "reviewPhase": "Complete editorial review accepted, implemented and verified live",
       "authorEvidence": ".mise/editorial-campaign/2026-10-05/layer_family_cakes_05/manifest.json",
       "acceptedSourceSha256": "4e7047ed3e207010ee9986470bbdeb939b9da99d44b2e4b051e3238f5b1994f5",
-      "productionVerification": "pending"
+      "productionVerification": "docs/editorial-campaign/2026-10-05/marinated-cakes-ten-production.json",
+      "implementationCommit": "a462568681053177e82f27af229f54e18c447861"
     },
     {
       "slug": "gambas-al-ajillo",
@@ -4276,8 +4293,8 @@
       "title": "Toum",
       "source": "Adapted from Washingtonpost.com",
       "sourceUrl": "https://www.washingtonpost.com/recipes/garlic-paste-toum/14095/?utm_term=.4ad477758d1a",
-      "group": null,
-      "status": "queued",
+      "group": "sauces_oils_08",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -4285,7 +4302,8 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "ea1a5073eed04a6e413f4ef4a7d6f507ed4a8a96472497930d46657cfbf90df2",
-      "plannedBatch": "roast-grill-and-sear-01"
+      "plannedBatch": "roast-grill-and-sear-01",
+      "assignment": ".mise/editorial-campaign/2026-10-05/sauces_oils_08/assignment.json"
     },
     {
       "slug": "garlicky-lemon-kale-with-carrots",
@@ -4705,7 +4723,7 @@
       "source": "Adapted from Foodandwine.com",
       "sourceUrl": "http://www.foodandwine.com/recipes/grilled-pork-banh-mi",
       "group": "marinated_meat_mains_04",
-      "status": "accepted",
+      "status": "production-verified",
       "reviewEvidence": [
         "docs/reviews/quick-pickled-carrots-and-daikon.md",
         "docs/reviews/grilled-pork-banh-mi.md",
@@ -4721,9 +4739,10 @@
       "inputSha256": "82c6fb3bb45cca413180e6916b85733e7d5b18a1f5f7d0f035fcbea09d09450f",
       "plannedBatch": "roast-grill-and-sear-02",
       "assignment": "poultry_editor",
-      "reviewPhase": "Whole author review in progress; no acceptance or publication",
+      "reviewPhase": "Complete editorial review accepted, implemented and verified live",
       "acceptedSourceSha256": "3e0236f285065bd04b0d58780d131eb365ae45ded9c8746d2df24e854c804d66",
-      "productionVerification": "pending"
+      "productionVerification": "docs/editorial-campaign/2026-10-05/marinated-cakes-ten-production.json",
+      "implementationCommit": "a462568681053177e82f27af229f54e18c447861"
     },
     {
       "slug": "gwock-family-macaroni-and-cheese",
@@ -5015,8 +5034,8 @@
       "title": "Homemade Chili Oil",
       "source": null,
       "sourceUrl": null,
-      "group": null,
-      "status": "queued",
+      "group": "sauces_oils_08",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed"],
       "remainingQuestions": [
@@ -5024,7 +5043,8 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "6b7738c2051fc8ec65d0b56d2e0c956968115bc3f15edc9e5532dd4333627650",
-      "plannedBatch": "stir-fry-and-pan-cooking-03"
+      "plannedBatch": "stir-fry-and-pan-cooking-03",
+      "assignment": ".mise/editorial-campaign/2026-10-05/sauces_oils_08/assignment.json"
     },
     {
       "slug": "homemade-enchilada-sauce",
@@ -5032,8 +5052,8 @@
       "title": "Enchilada Sauce",
       "source": "Adapted from Cookieandkate.com",
       "sourceUrl": "https://cookieandkate.com/2016/enchilada-sauce-recipe/",
-      "group": null,
-      "status": "queued",
+      "group": "sauces_oils_08",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed"],
       "remainingQuestions": [
@@ -5041,7 +5061,8 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "a329300bc1259d0458c845924faef931d53e0d6f627d2e892175f1ca241e14ba",
-      "plannedBatch": "simmer-boil-and-steam-05"
+      "plannedBatch": "simmer-boil-and-steam-05",
+      "assignment": ".mise/editorial-campaign/2026-10-05/sauces_oils_08/assignment.json"
     },
     {
       "slug": "homemade-sugar-free-ketchup",
@@ -5049,8 +5070,8 @@
       "title": "Ketchup",
       "source": "Adapted from Sugarfreelondoner.com",
       "sourceUrl": "http://sugarfreelondoner.com/sugar-free-ketchup/",
-      "group": null,
-      "status": "queued",
+      "group": "sauces_oils_08",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -5058,7 +5079,8 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "8385156af5a536687c4c5e362dc8b6b55ebebb06947ca4e615869cec37f2af92",
-      "plannedBatch": "simmer-boil-and-steam-05"
+      "plannedBatch": "simmer-boil-and-steam-05",
+      "assignment": ".mise/editorial-campaign/2026-10-05/sauces_oils_08/assignment.json"
     },
     {
       "slug": "honey-glazed-carrots",
@@ -5305,7 +5327,7 @@
       "source": "Adapted from foodandwine.com",
       "sourceUrl": "https://www.foodandwine.com/recipes/grilled-korean-style-short-ribs",
       "group": "marinated_meat_mains_04",
-      "status": "accepted",
+      "status": "production-verified",
       "reviewEvidence": [
         "docs/repairs/2026-09-15/changed-files.json",
         "docs/reviews/kalbi-grilled-korean-style-short-ribs.md",
@@ -5322,9 +5344,10 @@
       "inputSha256": "cff078e20a7836a13c974cc21c021d2ebdd3a11915ed19d8541c23524b7f2c0a",
       "plannedBatch": "roast-grill-and-sear-02",
       "assignment": "poultry_editor",
-      "reviewPhase": "Whole author review in progress; no acceptance or publication",
+      "reviewPhase": "Complete editorial review accepted, implemented and verified live",
       "acceptedSourceSha256": "d153efa32d702c4348dd3b1c265fc188855c5c68503643a1d13e9a4d438a7b2d",
-      "productionVerification": "pending"
+      "productionVerification": "docs/editorial-campaign/2026-10-05/marinated-cakes-ten-production.json",
+      "implementationCommit": "a462568681053177e82f27af229f54e18c447861"
     },
     {
       "slug": "kale-caesar-with-crispy-chickpeas",
@@ -5508,7 +5531,7 @@
       "source": "Adapted from Steamykitchen.com",
       "sourceUrl": "http://steamykitchen.com/4474-korean-style-tacos-with-kogi-bbq-sauce.html",
       "group": "marinated_meat_mains_04",
-      "status": "accepted",
+      "status": "production-verified",
       "reviewEvidence": [
         "docs/reviews/korean-style-tacos-with-kogi-bbq-sauce.md",
         "docs/editorial-campaign/2026-10-05/marinated-cakes-ten-review.md"
@@ -5523,9 +5546,10 @@
       "inputSha256": "502f02a09d32a63eb0b6908bb6713264c241a880036211d8a5ae528dc0fb2c7d",
       "plannedBatch": "cold-preparations-03",
       "assignment": "poultry_editor",
-      "reviewPhase": "Whole author review in progress; no acceptance or publication",
+      "reviewPhase": "Complete editorial review accepted, implemented and verified live",
       "acceptedSourceSha256": "bbe9e60278b610adf059727687a4d8ccd736b70fd52a9555633804016ce943ff",
-      "productionVerification": "pending"
+      "productionVerification": "docs/editorial-campaign/2026-10-05/marinated-cakes-ten-production.json",
+      "implementationCommit": "a462568681053177e82f27af229f54e18c447861"
     },
     {
       "slug": "lamb-keema-matar",
@@ -5534,7 +5558,7 @@
       "source": null,
       "sourceUrl": null,
       "group": "marinated_meat_mains_04",
-      "status": "accepted",
+      "status": "production-verified",
       "reviewEvidence": [
         "docs/reviews/lamb-keema-matar.md",
         "docs/editorial-campaign/2026-10-05/marinated-cakes-ten-review.md"
@@ -5549,9 +5573,10 @@
       "inputSha256": "273f7e94a08d793965dad6f6beac689fa1c38d4bf625973ca632c30ed689d4c2",
       "plannedBatch": "simmer-boil-and-steam-06",
       "assignment": "poultry_editor",
-      "reviewPhase": "Whole author review in progress; no acceptance or publication",
+      "reviewPhase": "Complete editorial review accepted, implemented and verified live",
       "acceptedSourceSha256": "5a6a414de80a11e289a10b89fcfdaa0cbaa23b94663d19b910ee7948b8285492",
-      "productionVerification": "pending"
+      "productionVerification": "docs/editorial-campaign/2026-10-05/marinated-cakes-ten-production.json",
+      "implementationCommit": "a462568681053177e82f27af229f54e18c447861"
     },
     {
       "slug": "lemon-basil-shrimp-risotto",
@@ -5798,7 +5823,7 @@
       "source": null,
       "sourceUrl": null,
       "group": "marinated_meat_mains_04",
-      "status": "accepted",
+      "status": "production-verified",
       "reviewEvidence": [
         "docs/reviews/marinated-korean-ribeye.md",
         "docs/editorial-campaign/2026-10-05/marinated-cakes-ten-review.md"
@@ -5813,9 +5838,10 @@
       "inputSha256": "72d663a75ba3f8f4d0f7f6dd00a36a4a7cf90001177457d55aa5996beb429d4e",
       "plannedBatch": "roast-grill-and-sear-03",
       "assignment": "poultry_editor",
-      "reviewPhase": "Whole author review in progress; no acceptance or publication",
+      "reviewPhase": "Complete editorial review accepted, implemented and verified live",
       "acceptedSourceSha256": "166255d6bf4a8f8e3c37e03bdf76da1dd6ac53066c1a0a8db880de5543471aa5",
-      "productionVerification": "pending"
+      "productionVerification": "docs/editorial-campaign/2026-10-05/marinated-cakes-ten-production.json",
+      "implementationCommit": "a462568681053177e82f27af229f54e18c447861"
     },
     {
       "slug": "mediterranean-chicken-bowls",
@@ -7569,8 +7595,8 @@
       "title": "San Marzano Tomato Sauce",
       "source": null,
       "sourceUrl": null,
-      "group": null,
-      "status": "queued",
+      "group": "sauces_oils_08",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed"],
       "remainingQuestions": [
@@ -7578,7 +7604,8 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "1b5217eafbd04dddf06f7abb54214507108d202a9c070b252fcebfe5e18e1b0b",
-      "plannedBatch": "simmer-boil-and-steam-08"
+      "plannedBatch": "simmer-boil-and-steam-08",
+      "assignment": ".mise/editorial-campaign/2026-10-05/sauces_oils_08/assignment.json"
     },
     {
       "slug": "sausage-and-white-bean-skillet",
@@ -10507,12 +10534,11 @@
   ],
   "routingLimitations": "Provisional routing uses current metadata to reduce coordination work. Reviewer must confirm actual process from complete recipe before starting; tags never establish method applicability or a recipe defect.",
   "statusCounts": {
-    "production-verified": 191,
+    "production-verified": 201,
     "held": 18,
-    "accepted": 10,
-    "assigned": 49,
+    "assigned": 54,
     "proposed": 29,
-    "queued": 110,
+    "queued": 105,
     "held-awaiting-evidence": 2
   }
 }
