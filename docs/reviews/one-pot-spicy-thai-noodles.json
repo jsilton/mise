@@ -1,6 +1,6 @@
 {
   "slug": "one-pot-spicy-thai-noodles",
-  "status": "accepted complete editorial review; implementation and production pending",
+  "status": "complete editorial review; implemented and verified live",
   "inputCommit": "a3e824fef020730ae366be8d2988e795333804d8",
   "inputSha256": "8124b06f5bd0970039af588e7d1f077d4b756b58db33ebfaa49ccec0ce3411d4",
   "acceptedSourceSha256": "1f3536ab5238f4265328bafc1cb722c68088dc86ffb613d024a65c8bffce6167",
@@ -571,7 +571,7 @@
   "independentChallenge": "docs/editorial-campaign/2026-10-05/noodles-stews-nine-review.md",
   "sourceEvidence": "docs/editorial-campaign/2026-10-05/noodles-stews-nine-review.md",
   "rootDisposition": "Complete author and independent whole reviews and root full cooking/source diff inspection were completed in the frozen groups. Recipe-specific consequential corrections received bounded nonself review. Reuse this finished evidence without repeating unchanged intake gates. Planning ranges, sensory cues and source disagreements remain explicit; no kitchen test, native sync or blanket linked-meal acceptance.",
-  "productionVerification": "pending",
+  "productionVerification": "docs/editorial-campaign/2026-10-05/noodles-stews-nine-production.json",
   "kitchenTested": false,
   "nativeAppSynced": false,
   "integratedValidation": {
@@ -595,5 +595,7 @@
     "compatibilityTests": "1 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
     "kitchenTests": 0,
     "nativeAppSynced": false
-  }
+  },
+  "implementationCommit": "8d7edaeaa51f009f9f67aefe2c5f6efbf999039d",
+  "releaseCommit": "8d7edaeaa51f009f9f67aefe2c5f6efbf999039d"
 }

@@ -1,0 +1,162 @@
+{
+  "status": "Verified live complete editorial versions",
+  "releaseCommit": "8d7edaeaa51f009f9f67aefe2c5f6efbf999039d",
+  "implementationCommit": "8d7edaeaa51f009f9f67aefe2c5f6efbf999039d",
+  "deploymentRun": "https://github.com/jsilton/mise/actions/runs/37462355564",
+  "ci": {
+    "headSha": "8d7edaeaa51f009f9f67aefe2c5f6efbf999039d",
+    "status": "completed",
+    "conclusion": "success",
+    "jobs": [
+      {
+        "name": "build",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "name": "deploy",
+        "status": "completed",
+        "conclusion": "success"
+      }
+    ]
+  },
+  "remote": "8d7edaeaa51f009f9f67aefe2c5f6efbf999039d",
+  "rendered": [
+    {
+      "slug": "pad-woon-sen",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true
+    },
+    {
+      "slug": "thai-basil-noodles",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true
+    },
+    {
+      "slug": "one-pot-spicy-thai-noodles",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true
+    },
+    {
+      "slug": "peanut-noodles",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true
+    },
+    {
+      "slug": "kimchi-jjigae-kimchi-stew",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true
+    },
+    {
+      "slug": "beef-pad-see-ew",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true
+    },
+    {
+      "slug": "beef-with-snow-peas",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true
+    },
+    {
+      "slug": "cu-chao-mian",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true
+    },
+    {
+      "slug": "doc-cheys-chicken-lo-mein",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true
+    }
+  ],
+  "verifiedDate": "2026-10-06T12:22:23.542Z",
+  "acceptedRecipeSources": [
+    {
+      "slug": "pad-woon-sen",
+      "acceptedSourceSha256": "bbf537cafa0c95ecb85581e8a39cc0a9f0ea5e466a565475617b8974d9a64ff2"
+    },
+    {
+      "slug": "thai-basil-noodles",
+      "acceptedSourceSha256": "0d0d4459977dac8bdddcc1f129859f3fa1dbd9a0c5b25da3aede6ac233dfbc2a"
+    },
+    {
+      "slug": "one-pot-spicy-thai-noodles",
+      "acceptedSourceSha256": "1f3536ab5238f4265328bafc1cb722c68088dc86ffb613d024a65c8bffce6167"
+    },
+    {
+      "slug": "peanut-noodles",
+      "acceptedSourceSha256": "2e55938a77656ed1713810dc0d04d22131d7dc8c9d3f6cb9e1100a6de950c39c"
+    },
+    {
+      "slug": "kimchi-jjigae-kimchi-stew",
+      "acceptedSourceSha256": "7a2a3570858a5c6ca1ab275ab757f6e58d075f03c3c5c1b614d80a6b97414def"
+    },
+    {
+      "slug": "beef-pad-see-ew",
+      "acceptedSourceSha256": "2286c636208e2996c493506e734b0cd69c33f788cffefbe9e150b89ba457d679"
+    },
+    {
+      "slug": "beef-with-snow-peas",
+      "acceptedSourceSha256": "b9e79ffa644d04540ea8a554fc0645736b658284850a4b160e0e0ff9ab6e8372"
+    },
+    {
+      "slug": "cu-chao-mian",
+      "acceptedSourceSha256": "4809400c3857ca5179682e0a55777304f6d48347747602dfa5d931f22daf06ef"
+    },
+    {
+      "slug": "doc-cheys-chicken-lo-mein",
+      "acceptedSourceSha256": "779938ae9e5a31462f9c9f67f2922334f9d8b9efe8092ccd1b5d38e8c8185491"
+    }
+  ],
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "limitations": [
+    "Actual physical cooking untested",
+    "Actual print preview not inspected; controls and shared styles verified",
+    "Production content/rendering checked on all 9; mobile scaling/cooking interactions sampled on three/two locally"
+  ]
+}

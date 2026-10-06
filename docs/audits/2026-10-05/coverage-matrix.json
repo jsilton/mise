@@ -27,7 +27,7 @@
     },
     "uniquePathsInSixRepairCommits": 105,
     "kitchenTested": 0,
-    "productionReconciliation": "269 campaign versions are verified live; 9 further versions are accepted locally and await exact production verification. The 42 accelerated targeted repairs remain a separate overlapping scope. Zero kitchen tests; no native-app sync."
+    "productionReconciliation": "278 new complete editorial versions from the original 409-source campaign are verified live. Coverage is 512 recorded complete / 131 pending across 643 sources, including 234 earlier complete reviews. The 42 accelerated targeted repairs remain a separate overlapping scope. This release’s 9 accepted source versions match exact remote commit [8d7edaea](https://github.com/jsilton/mise/commit/8d7edaeaa51f009f9f67aefe2c5f6efbf999039d), its [successful CI/deployment](https://github.com/jsilton/mise/actions/runs/37462355564) and all 9 live pages. Zero kitchen tests; no native-app sync."
   },
   "collectionEvidence": [
     "docs/REVIEW_PROGRESS.md",
@@ -1618,17 +1618,21 @@
         "record": "docs/reviews/beef-pad-see-ew.md",
         "acceptedSha256": "2286c636208e2996c493506e734b0cd69c33f788cffefbe9e150b89ba457d679",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/noodles-stews-nine-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "8d7edaeaa51f009f9f67aefe2c5f6efbf999039d"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/beef-pad-see-ew.json",
         "sourceSha256": "2286c636208e2996c493506e734b0cd69c33f788cffefbe9e150b89ba457d679"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["8d7edaeaa51f009f9f67aefe2c5f6efbf999039d"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "2286c636208e2996c493506e734b0cd69c33f788cffefbe9e150b89ba457d679",
+        "implementationCommit": "8d7edaeaa51f009f9f67aefe2c5f6efbf999039d",
+        "releaseCommit": "8d7edaeaa51f009f9f67aefe2c5f6efbf999039d",
+        "evidence": "docs/editorial-campaign/2026-10-05/noodles-stews-nine-production.json"
       },
       "remainingQuestions": [
         "Confirm household noodle product and pan batch count.",
@@ -1717,17 +1721,21 @@
         "record": "docs/reviews/beef-with-snow-peas.md",
         "acceptedSha256": "b9e79ffa644d04540ea8a554fc0645736b658284850a4b160e0e0ff9ab6e8372",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/noodles-stews-nine-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "8d7edaeaa51f009f9f67aefe2c5f6efbf999039d"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/beef-with-snow-peas.json",
         "sourceSha256": "b9e79ffa644d04540ea8a554fc0645736b658284850a4b160e0e0ff9ab6e8372"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["8d7edaeaa51f009f9f67aefe2c5f6efbf999039d"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "b9e79ffa644d04540ea8a554fc0645736b658284850a4b160e0e0ff9ab6e8372",
+        "implementationCommit": "8d7edaeaa51f009f9f67aefe2c5f6efbf999039d",
+        "releaseCommit": "8d7edaeaa51f009f9f67aefe2c5f6efbf999039d",
+        "evidence": "docs/editorial-campaign/2026-10-05/noodles-stews-nine-production.json"
       },
       "remainingQuestions": [
         "Record actual household main-meal portions with rice.",
@@ -8411,11 +8419,11 @@
         "record": "docs/reviews/cu-chao-mian.md",
         "acceptedSha256": "4809400c3857ca5179682e0a55777304f6d48347747602dfa5d931f22daf06ef",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/noodles-stews-nine-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "8d7edaeaa51f009f9f67aefe2c5f6efbf999039d"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/cu-chao-mian.json",
         "sourceSha256": "4809400c3857ca5179682e0a55777304f6d48347747602dfa5d931f22daf06ef"
       },
@@ -8424,10 +8432,15 @@
           "commit": "a2c9e28069faa57c7bb7fe4ac5e7ca02b6462861",
           "evidence": "actual recipe diff retained privately",
           "scope": "historical safety/scaling/source repair; file touch is not complete review"
-        }
+        },
+        "8d7edaeaa51f009f9f67aefe2c5f6efbf999039d"
       ],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "4809400c3857ca5179682e0a55777304f6d48347747602dfa5d931f22daf06ef",
+        "implementationCommit": "8d7edaeaa51f009f9f67aefe2c5f6efbf999039d",
+        "releaseCommit": "8d7edaeaa51f009f9f67aefe2c5f6efbf999039d",
+        "evidence": "docs/editorial-campaign/2026-10-05/noodles-stews-nine-production.json"
       },
       "remainingQuestions": [
         "Confirm household udon package state and prepared weight; preserve the current egg-noodle variant without claiming yield equivalence.",
@@ -8819,17 +8832,21 @@
         "record": "docs/reviews/doc-cheys-chicken-lo-mein.md",
         "acceptedSha256": "779938ae9e5a31462f9c9f67f2922334f9d8b9efe8092ccd1b5d38e8c8185491",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/noodles-stews-nine-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "8d7edaeaa51f009f9f67aefe2c5f6efbf999039d"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/doc-cheys-chicken-lo-mein.json",
         "sourceSha256": "779938ae9e5a31462f9c9f67f2922334f9d8b9efe8092ccd1b5d38e8c8185491"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["8d7edaeaa51f009f9f67aefe2c5f6efbf999039d"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "779938ae9e5a31462f9c9f67f2922334f9d8b9efe8092ccd1b5d38e8c8185491",
+        "implementationCommit": "8d7edaeaa51f009f9f67aefe2c5f6efbf999039d",
+        "releaseCommit": "8d7edaeaa51f009f9f67aefe2c5f6efbf999039d",
+        "evidence": "docs/editorial-campaign/2026-10-05/noodles-stews-nine-production.json"
       },
       "remainingQuestions": [
         "Record household pan loads and elapsed time.",
@@ -11983,8 +12000,10 @@
         "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Whole-recipe acceptance held; current questionable claims are not endorsed.",
+        "What are the intended number and size of servings? The saved recipe has no yield and uses plural glasses; the current one-serving claim conflicts with 9.5 fl oz shaken base plus 6 fl oz prosecco before dilution.",
+        "Does the 6 fl oz prosecco belong to the whole batch or each glass? Preserve all ingredients while this is unresolved.",
+        "Which shaker and glasses accommodate the actual intended load and ice/dilution? Do not invent a serving count or silently divide the formula."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -14305,8 +14324,10 @@
         "commit": "5741495b479d1891066e004ed07aa4b5f830db66"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Whole-recipe acceptance held; current questionable claims are not endorsed.",
+        "Which exact pressure-cooker model, capacity and manual permit the full bacon/rendered-fat, four-cup stock and produce load with applicable soup fill and release rules?",
+        "Establish actual rendered-fat and starting volume rather than guessing dilution, removing richness or inventing minimum liquid. The unavailable model PDF was not certified as read.",
+        "Preserve prior full natural release, late cream/garlic/celery and hot-blender repairs; the whole hold does not approve the current appliance process or claimed yield."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -14370,8 +14391,10 @@
         "commit": "ee9c707878074d7d56dcb3fb737afb537051aba5"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Whole-recipe acceptance held; current questionable claims are not endorsed.",
+        "Which exact model/manual permits the full three tablespoons butter plus two tablespoons oil, prepressure two tablespoons flour and five-cup broth route? No extra water, fat reduction or universal flour prohibition is established.",
+        "Confirm the intended saved salt crystals and leek-volume alternative. Modern 1½-pound potatoes/five-to-six-cup broth is a different formula, not evidence of household equivalence.",
+        "Preserve prior full natural release, late dairy and blender repairs; current pressure and pan/cooker capacity claims remain unendorsed."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -15236,17 +15259,21 @@
         "record": "docs/reviews/kimchi-jjigae-kimchi-stew.md",
         "acceptedSha256": "7a2a3570858a5c6ca1ab275ab757f6e58d075f03c3c5c1b614d80a6b97414def",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/noodles-stews-nine-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "8d7edaeaa51f009f9f67aefe2c5f6efbf999039d"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/kimchi-jjigae-kimchi-stew.json",
         "sourceSha256": "7a2a3570858a5c6ca1ab275ab757f6e58d075f03c3c5c1b614d80a6b97414def"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["8d7edaeaa51f009f9f67aefe2c5f6efbf999039d"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "7a2a3570858a5c6ca1ab275ab757f6e58d075f03c3c5c1b614d80a6b97414def",
+        "implementationCommit": "8d7edaeaa51f009f9f67aefe2c5f6efbf999039d",
+        "releaseCommit": "8d7edaeaa51f009f9f67aefe2c5f6efbf999039d",
+        "evidence": "docs/editorial-campaign/2026-10-05/noodles-stews-nine-production.json"
       },
       "remainingQuestions": [
         "Thin-probe access and actual pork cut/thickness/tenderness must be checked;145+3minute hot-simmer application needs peer/root challenge.",
@@ -17705,8 +17732,10 @@
         "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Whole-recipe acceptance held; current questionable claims are not endorsed.",
+        "What jar size and actual quarter-jar honey amount did Nana Ruth use?",
+        "What does the saved “¼ water” mean, in which pot, and how much of the less-than-three-quarter lemon juice is intended? The d330 rewrite’s quarter cup honey, quarter-inch water and whole lemon are not established equivalents or family decisions.",
+        "What is the actual portion plan for the full six-pound McIntosh batch? Preserve Ruth Shankman’s Rosh Hashanah, Thanksgiving and Hanukkah context; native yield is unrecorded."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -18371,11 +18400,11 @@
         "record": "docs/reviews/one-pot-spicy-thai-noodles.md",
         "acceptedSha256": "1f3536ab5238f4265328bafc1cb722c68088dc86ffb613d024a65c8bffce6167",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/noodles-stews-nine-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "8d7edaeaa51f009f9f67aefe2c5f6efbf999039d"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/one-pot-spicy-thai-noodles.json",
         "sourceSha256": "1f3536ab5238f4265328bafc1cb722c68088dc86ffb613d024a65c8bffce6167"
       },
@@ -18384,10 +18413,15 @@
           "commit": "858ff2c5458cac2663ba21fb8d1867d1986ec346",
           "evidence": "actual recipe diff retained privately",
           "scope": "accelerated targeted repair"
-        }
+        },
+        "8d7edaeaa51f009f9f67aefe2c5f6efbf999039d"
       ],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "1f3536ab5238f4265328bafc1cb722c68088dc86ffb613d024a65c8bffce6167",
+        "implementationCommit": "8d7edaeaa51f009f9f67aefe2c5f6efbf999039d",
+        "releaseCommit": "8d7edaeaa51f009f9f67aefe2c5f6efbf999039d",
+        "evidence": "docs/editorial-campaign/2026-10-05/noodles-stews-nine-production.json"
       },
       "remainingQuestions": [
         "Four generous portions versus modern source six are unmeasured plans.",
@@ -18694,17 +18728,21 @@
         "record": "docs/reviews/pad-woon-sen.md",
         "acceptedSha256": "bbf537cafa0c95ecb85581e8a39cc0a9f0ea5e466a565475617b8974d9a64ff2",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/noodles-stews-nine-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "8d7edaeaa51f009f9f67aefe2c5f6efbf999039d"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/pad-woon-sen.json",
         "sourceSha256": "bbf537cafa0c95ecb85581e8a39cc0a9f0ea5e466a565475617b8974d9a64ff2"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["8d7edaeaa51f009f9f67aefe2c5f6efbf999039d"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "bbf537cafa0c95ecb85581e8a39cc0a9f0ea5e466a565475617b8974d9a64ff2",
+        "implementationCommit": "8d7edaeaa51f009f9f67aefe2c5f6efbf999039d",
+        "releaseCommit": "8d7edaeaa51f009f9f67aefe2c5f6efbf999039d",
+        "evidence": "docs/editorial-campaign/2026-10-05/noodles-stews-nine-production.json"
       },
       "remainingQuestions": [
         "Actual noodle package instructions and pan usable capacity need cooking checks.",
@@ -19251,17 +19289,21 @@
         "record": "docs/reviews/peanut-noodles.md",
         "acceptedSha256": "2e55938a77656ed1713810dc0d04d22131d7dc8c9d3f6cb9e1100a6de950c39c",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/noodles-stews-nine-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "8d7edaeaa51f009f9f67aefe2c5f6efbf999039d"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/peanut-noodles.json",
         "sourceSha256": "2e55938a77656ed1713810dc0d04d22131d7dc8c9d3f6cb9e1100a6de950c39c"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["8d7edaeaa51f009f9f67aefe2c5f6efbf999039d"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "2e55938a77656ed1713810dc0d04d22131d7dc8c9d3f6cb9e1100a6de950c39c",
+        "implementationCommit": "8d7edaeaa51f009f9f67aefe2c5f6efbf999039d",
+        "releaseCommit": "8d7edaeaa51f009f9f67aefe2c5f6efbf999039d",
+        "evidence": "docs/editorial-campaign/2026-10-05/noodles-stews-nine-production.json"
       },
       "remainingQuestions": [
         "Actual peanut butter, noodles and bowl capacity affect sauce water and portion size.",
@@ -25586,8 +25628,10 @@
         "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Whole-recipe acceptance held; current questionable claims are not endorsed.",
+        "Which crust recipe or package, prebake state and pie-pan depth are intended, and does the full filling fit with headroom?",
+        "Does the household want the complete saved/current-publisher crustless route alongside the later crusted main? No explicit later rejection of that source route was established.",
+        "Resolve the route before restoring oil, seasoning and source garnish destinations; the saved and publisher formulas establish a crustless quiche, not the current crust’s capacity."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -26349,8 +26393,10 @@
         "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Whole-recipe acceptance held; current questionable claims are not endorsed.",
+        "What are the exact gelatin box weight/type and pineapple can size/drained quantity?",
+        "Confirm three medium versus large bananas, optional one cup versus half cup pecans, intended dish capacity, portion plan and strawberry/orange title.",
+        "How was the reserved second layer kept cold and, if necessary, reliquefied without an invented liquid amount? No formula, dietary or chilling claim is endorsed while these questions remain unresolved."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -27499,17 +27545,21 @@
         "record": "docs/reviews/thai-basil-noodles.md",
         "acceptedSha256": "0d0d4459977dac8bdddcc1f129859f3fa1dbd9a0c5b25da3aede6ac233dfbc2a",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/noodles-stews-nine-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "8d7edaeaa51f009f9f67aefe2c5f6efbf999039d"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/thai-basil-noodles.json",
         "sourceSha256": "0d0d4459977dac8bdddcc1f129859f3fa1dbd9a0c5b25da3aede6ac233dfbc2a"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["8d7edaeaa51f009f9f67aefe2c5f6efbf999039d"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "0d0d4459977dac8bdddcc1f129859f3fa1dbd9a0c5b25da3aede6ac233dfbc2a",
+        "implementationCommit": "8d7edaeaa51f009f9f67aefe2c5f6efbf999039d",
+        "releaseCommit": "8d7edaeaa51f009f9f67aefe2c5f6efbf999039d",
+        "evidence": "docs/editorial-campaign/2026-10-05/noodles-stews-nine-production.json"
       },
       "remainingQuestions": [
         "Actual rice noodle package and pan capacity are not measured.",

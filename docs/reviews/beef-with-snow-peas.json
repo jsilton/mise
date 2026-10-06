@@ -1,6 +1,6 @@
 {
   "slug": "beef-with-snow-peas",
-  "status": "accepted complete editorial review; implementation and production pending",
+  "status": "complete editorial review; implemented and verified live",
   "inputCommit": "a3e824fef020730ae366be8d2988e795333804d8",
   "inputSha256": "0ff4511e49dc79b56c5c0788d96ff2ced660e9a140c0f4b3600ae899d3a216e6",
   "acceptedSourceSha256": "b9e79ffa644d04540ea8a554fc0645736b658284850a4b160e0e0ff9ab6e8372",
@@ -657,7 +657,7 @@
   "independentChallenge": "docs/editorial-campaign/2026-10-05/noodles-stews-nine-review.md",
   "sourceEvidence": "docs/editorial-campaign/2026-10-05/noodles-stews-nine-review.md",
   "rootDisposition": "Complete author and independent whole reviews and root full cooking/source diff inspection were completed in the frozen groups. Recipe-specific consequential corrections received bounded nonself review. Reuse this finished evidence without repeating unchanged intake gates. Planning ranges, sensory cues and source disagreements remain explicit; no kitchen test, native sync or blanket linked-meal acceptance.",
-  "productionVerification": "pending",
+  "productionVerification": "docs/editorial-campaign/2026-10-05/noodles-stews-nine-production.json",
   "kitchenTested": false,
   "nativeAppSynced": false,
   "integratedValidation": {
@@ -681,5 +681,7 @@
     "compatibilityTests": "1 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
     "kitchenTests": 0,
     "nativeAppSynced": false
-  }
+  },
+  "implementationCommit": "8d7edaeaa51f009f9f67aefe2c5f6efbf999039d",
+  "releaseCommit": "8d7edaeaa51f009f9f67aefe2c5f6efbf999039d"
 }
