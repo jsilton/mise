@@ -19,3 +19,9 @@ Five soups and four noodle dishes preserve complete rich formulas, source varian
 ## Locally validated checkpoint
 
 All 252 tests, 58 authored formula checks, 643-recipe validation, 9 targeted lints and 30 aggregate QA checks pass. Targeted lint: Zero errors; four existing missing-pairing metadata warnings, preserved and disclosed. Linked meals remain separately unapproved. All three exports match 643 sources; private bindings, public privacy and 12,010 built anchors pass. The other 634 recipe sources/export schemas and unrelated review credit remain unchanged. 1 compatibility tests were independently challenged; all 73 parser fixture inputs/oracles remain unchanged. Every other test remains unchanged. All 9 complete rendered pages and 67 method steps match. Three 375-pixel representative pages pass half/double/reset scaling; two pass cooking checkmark persistence, reload, reset and exit. No browser warnings or errors. Print controls and shared styles are preserved; actual print preview remains unverified. No physical kitchen testing or native-app sync. Exact remote release, CI/deployment and live-page verification remain pending. [Preservation evidence](soups-noodles-nine-preservation.json).
+
+## Verified publication
+
+100 new complete editorial versions from the original 409-source campaign are verified live. Coverage is 334 recorded complete / 309 pending across 643 sources, including 234 earlier complete reviews. The 42 accelerated targeted repairs remain a separate overlapping scope. This release’s 9 accepted source versions match exact remote commit [d1ad45b0](https://github.com/jsilton/mise/commit/d1ad45b086f2b6a9c7020107bc9d26e2d8505029), its [successful CI/deployment](https://github.com/jsilton/mise/actions/runs/37412639469) and all 9 live pages. Zero kitchen tests; no native-app sync.
+
+[Exact production evidence](soups-noodles-nine-production.json).

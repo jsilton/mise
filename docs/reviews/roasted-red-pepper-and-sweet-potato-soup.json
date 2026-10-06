@@ -1,6 +1,6 @@
 {
   "slug": "roasted-red-pepper-and-sweet-potato-soup",
-  "status": "accepted complete editorial review; implementation and production pending",
+  "status": "complete editorial review; implemented and verified live",
   "inputCommit": "cd3e3c9d90dd0c88518fb4175e64b9dbbb53114a",
   "inputSha256": "6fcbeb0df6e95d7de5adf70695ae5938e7d08f62acf6f9c37e30cf08dccff8cd",
   "acceptedSourceSha256": "a3ca060f82a117d7ef171f23803086b667ee5a0c4363d99bc65f5d85b1ed1537",
@@ -467,7 +467,7 @@
   "independentChallenge": "docs/editorial-campaign/2026-10-05/soups-noodles-nine-review.md",
   "sourceEvidence": "docs/editorial-campaign/2026-10-05/soups-noodles-nine-review.md",
   "rootDisposition": "Whole author and independent source reviews are retained; root read each complete current-to-final cooking diff. Bounded independent corrections were replayed exactly and root inspected actual final fields/body. Source conflicts remain explicit; unrelated linked meals, held Japchae and other source/model holds receive no approval. Kitchen testing and actual print preview remain unperformed.",
-  "productionVerification": "pending",
+  "productionVerification": "docs/editorial-campaign/2026-10-05/soups-noodles-nine-production.json",
   "kitchenTested": false,
   "nativeAppSynced": false,
   "integratedValidation": {
@@ -491,5 +491,7 @@
     "compatibilityTests": "1 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
     "kitchenTests": 0,
     "nativeAppSynced": false
-  }
+  },
+  "implementationCommit": "d1ad45b086f2b6a9c7020107bc9d26e2d8505029",
+  "releaseCommit": "d1ad45b086f2b6a9c7020107bc9d26e2d8505029"
 }

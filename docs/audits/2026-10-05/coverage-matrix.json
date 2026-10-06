@@ -27,7 +27,7 @@
     },
     "uniquePathsInSixRepairCommits": 105,
     "kitchenTested": 0,
-    "productionReconciliation": "91 campaign versions are verified live; 9 further versions are accepted locally and await exact production verification. The 42 accelerated targeted repairs remain a separate overlapping scope. Zero kitchen tests; no native-app sync."
+    "productionReconciliation": "100 new complete editorial versions from the original 409-source campaign are verified live. Coverage is 334 recorded complete / 309 pending across 643 sources, including 234 earlier complete reviews. The 42 accelerated targeted repairs remain a separate overlapping scope. This release’s 9 accepted source versions match exact remote commit [d1ad45b0](https://github.com/jsilton/mise/commit/d1ad45b086f2b6a9c7020107bc9d26e2d8505029), its [successful CI/deployment](https://github.com/jsilton/mise/actions/runs/37412639469) and all 9 live pages. Zero kitchen tests; no native-app sync."
   },
   "collectionEvidence": [
     "docs/REVIEW_PROGRESS.md",
@@ -5225,17 +5225,21 @@
         "record": "docs/reviews/chicken-tortilla-soup-iii.md",
         "acceptedSha256": "6d5cf372397e01f17117ad0a9162f19f846dbe33c4cc2d521ec0fcb8ff3b29b8",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/soups-noodles-nine-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "d1ad45b086f2b6a9c7020107bc9d26e2d8505029"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/chicken-tortilla-soup-iii.json",
         "sourceSha256": "6d5cf372397e01f17117ad0a9162f19f846dbe33c4cc2d521ec0fcb8ff3b29b8"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["d1ad45b086f2b6a9c7020107bc9d26e2d8505029"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "6d5cf372397e01f17117ad0a9162f19f846dbe33c4cc2d521ec0fcb8ff3b29b8",
+        "implementationCommit": "d1ad45b086f2b6a9c7020107bc9d26e2d8505029",
+        "releaseCommit": "d1ad45b086f2b6a9c7020107bc9d26e2d8505029",
+        "evidence": "docs/editorial-campaign/2026-10-05/soups-noodles-nine-production.json"
       },
       "remainingQuestions": [
         "Actual chicken-breast sizes are not recorded; six halves is preserved, not converted to an invented weight.",
@@ -10182,11 +10186,11 @@
         "record": "docs/reviews/fennel-and-carrot-soup.md",
         "acceptedSha256": "7f53e7e77aaf1fa7d473990de1562c964ef15f0058583a10eda3538c306ffb85",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/soups-noodles-nine-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "d1ad45b086f2b6a9c7020107bc9d26e2d8505029"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/fennel-and-carrot-soup.json",
         "sourceSha256": "7f53e7e77aaf1fa7d473990de1562c964ef15f0058583a10eda3538c306ffb85"
       },
@@ -10195,10 +10199,15 @@
           "commit": "ee9c707878074d7d56dcb3fb737afb537051aba5",
           "evidence": "actual recipe diff retained privately",
           "scope": "accelerated targeted repair"
-        }
+        },
+        "d1ad45b086f2b6a9c7020107bc9d26e2d8505029"
       ],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "7f53e7e77aaf1fa7d473990de1562c964ef15f0058583a10eda3538c306ffb85",
+        "implementationCommit": "d1ad45b086f2b6a9c7020107bc9d26e2d8505029",
+        "releaseCommit": "d1ad45b086f2b6a9c7020107bc9d26e2d8505029",
+        "evidence": "docs/editorial-campaign/2026-10-05/soups-noodles-nine-production.json"
       },
       "remainingQuestions": [
         "Actual vegetable sizes, finished yield and pot capacity remain unmeasured.",
@@ -17168,17 +17177,21 @@
         "record": "docs/reviews/miso-soup.md",
         "acceptedSha256": "10016bca7ff70f2b6456284d03a58b290fd82615cfca76271bc1925d76021108",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/soups-noodles-nine-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "d1ad45b086f2b6a9c7020107bc9d26e2d8505029"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/miso-soup.json",
         "sourceSha256": "10016bca7ff70f2b6456284d03a58b290fd82615cfca76271bc1925d76021108"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["d1ad45b086f2b6a9c7020107bc9d26e2d8505029"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "10016bca7ff70f2b6456284d03a58b290fd82615cfca76271bc1925d76021108",
+        "implementationCommit": "d1ad45b086f2b6a9c7020107bc9d26e2d8505029",
+        "releaseCommit": "d1ad45b086f2b6a9c7020107bc9d26e2d8505029",
+        "evidence": "docs/editorial-campaign/2026-10-05/soups-noodles-nine-production.json"
       },
       "remainingQuestions": [
         "Actual wakame package hydration directions and instant dashi product are unspecified.",
@@ -17379,17 +17392,21 @@
         "record": "docs/reviews/mongolian-chicken.md",
         "acceptedSha256": "74eefcedb573c74864fec5d882de23d94916d8867007a646a3fa720c08580cb6",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/soups-noodles-nine-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "d1ad45b086f2b6a9c7020107bc9d26e2d8505029"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/mongolian-chicken.json",
         "sourceSha256": "74eefcedb573c74864fec5d882de23d94916d8867007a646a3fa720c08580cb6"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["d1ad45b086f2b6a9c7020107bc9d26e2d8505029"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "74eefcedb573c74864fec5d882de23d94916d8867007a646a3fa720c08580cb6",
+        "implementationCommit": "d1ad45b086f2b6a9c7020107bc9d26e2d8505029",
+        "releaseCommit": "d1ad45b086f2b6a9c7020107bc9d26e2d8505029",
+        "evidence": "docs/editorial-campaign/2026-10-05/soups-noodles-nine-production.json"
       },
       "remainingQuestions": [
         "Observe starch pickup, actual frying oil retention and how much slurry is needed before gelation.",
@@ -18543,17 +18560,21 @@
         "record": "docs/reviews/pad-thai.md",
         "acceptedSha256": "f4427b18db4830def7095f050429df6f395c317da093e10459e589095828a99a",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/soups-noodles-nine-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "d1ad45b086f2b6a9c7020107bc9d26e2d8505029"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/pad-thai.json",
         "sourceSha256": "f4427b18db4830def7095f050429df6f395c317da093e10459e589095828a99a"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["d1ad45b086f2b6a9c7020107bc9d26e2d8505029"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "f4427b18db4830def7095f050429df6f395c317da093e10459e589095828a99a",
+        "implementationCommit": "d1ad45b086f2b6a9c7020107bc9d26e2d8505029",
+        "releaseCommit": "d1ad45b086f2b6a9c7020107bc9d26e2d8505029",
+        "evidence": "docs/editorial-campaign/2026-10-05/soups-noodles-nine-production.json"
       },
       "remainingQuestions": [
         "Confirm8oz wide noodle hydration and sauce balance with actual tamarind product.",
@@ -18633,17 +18654,21 @@
         "record": "docs/reviews/pan-fried-noodles-with-shrimp.md",
         "acceptedSha256": "6b3c7a7f798a59a55667d465f049d5d9b9e163fabc0c27313f7b10da81397864",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/soups-noodles-nine-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "d1ad45b086f2b6a9c7020107bc9d26e2d8505029"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/pan-fried-noodles-with-shrimp.json",
         "sourceSha256": "6b3c7a7f798a59a55667d465f049d5d9b9e163fabc0c27313f7b10da81397864"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["d1ad45b086f2b6a9c7020107bc9d26e2d8505029"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "6b3c7a7f798a59a55667d465f049d5d9b9e163fabc0c27313f7b10da81397864",
+        "implementationCommit": "d1ad45b086f2b6a9c7020107bc9d26e2d8505029",
+        "releaseCommit": "d1ad45b086f2b6a9c7020107bc9d26e2d8505029",
+        "evidence": "docs/editorial-campaign/2026-10-05/soups-noodles-nine-production.json"
       },
       "remainingQuestions": [
         "Measure pan/noodle layer, all actual oil input and separate cake/gravy reheating quality.",
@@ -20832,17 +20857,21 @@
         "record": "docs/reviews/restaurant-style-chicken-lo-mein.md",
         "acceptedSha256": "fd20d557bc2a626e7c5bb27e9b15785d211cafc4f1da2d5d4939f33108056926",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/soups-noodles-nine-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "d1ad45b086f2b6a9c7020107bc9d26e2d8505029"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/restaurant-style-chicken-lo-mein.json",
         "sourceSha256": "fd20d557bc2a626e7c5bb27e9b15785d211cafc4f1da2d5d4939f33108056926"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["d1ad45b086f2b6a9c7020107bc9d26e2d8505029"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "fd20d557bc2a626e7c5bb27e9b15785d211cafc4f1da2d5d4939f33108056926",
+        "implementationCommit": "d1ad45b086f2b6a9c7020107bc9d26e2d8505029",
+        "releaseCommit": "d1ad45b086f2b6a9c7020107bc9d26e2d8505029",
+        "evidence": "docs/editorial-campaign/2026-10-05/soups-noodles-nine-production.json"
       },
       "remainingQuestions": [
         "Identify actual fresh noodle state/product and measure its preparation time.",
@@ -21461,17 +21490,21 @@
         "record": "docs/reviews/roasted-red-pepper-and-sweet-potato-soup.md",
         "acceptedSha256": "a3ca060f82a117d7ef171f23803086b667ee5a0c4363d99bc65f5d85b1ed1537",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/soups-noodles-nine-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "d1ad45b086f2b6a9c7020107bc9d26e2d8505029"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/roasted-red-pepper-and-sweet-potato-soup.json",
         "sourceSha256": "a3ca060f82a117d7ef171f23803086b667ee5a0c4363d99bc65f5d85b1ed1537"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["d1ad45b086f2b6a9c7020107bc9d26e2d8505029"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "a3ca060f82a117d7ef171f23803086b667ee5a0c4363d99bc65f5d85b1ed1537",
+        "implementationCommit": "d1ad45b086f2b6a9c7020107bc9d26e2d8505029",
+        "releaseCommit": "d1ad45b086f2b6a9c7020107bc9d26e2d8505029",
+        "evidence": "docs/editorial-campaign/2026-10-05/soups-noodles-nine-production.json"
       },
       "remainingQuestions": [
         "Actual slow-cooker and blender models and tested fill capacity are unknown.",
@@ -28691,17 +28724,21 @@
         "record": "docs/reviews/warm-spiced-butternut-squash-soup.md",
         "acceptedSha256": "fa64e8278eab5f2d1604c16113714b5471596444ee3016501d27c280c147d4d6",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/soups-noodles-nine-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "d1ad45b086f2b6a9c7020107bc9d26e2d8505029"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/warm-spiced-butternut-squash-soup.json",
         "sourceSha256": "fa64e8278eab5f2d1604c16113714b5471596444ee3016501d27c280c147d4d6"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["d1ad45b086f2b6a9c7020107bc9d26e2d8505029"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "fa64e8278eab5f2d1604c16113714b5471596444ee3016501d27c280c147d4d6",
+        "implementationCommit": "d1ad45b086f2b6a9c7020107bc9d26e2d8505029",
+        "releaseCommit": "d1ad45b086f2b6a9c7020107bc9d26e2d8505029",
+        "evidence": "docs/editorial-campaign/2026-10-05/soups-noodles-nine-production.json"
       },
       "remainingQuestions": [
         "Kosher-salt brand/crystal density and household preferred seasoning remain unspecified; exact saved volume preserved.",

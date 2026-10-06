@@ -1,6 +1,6 @@
 {
   "slug": "miso-soup",
-  "status": "accepted complete editorial review; implementation and production pending",
+  "status": "complete editorial review; implemented and verified live",
   "inputCommit": "cd3e3c9d90dd0c88518fb4175e64b9dbbb53114a",
   "inputSha256": "c61230df119dee06bd2865b6e375d54673c5f02affcdf352c712bf666fc28876",
   "acceptedSourceSha256": "10016bca7ff70f2b6456284d03a58b290fd82615cfca76271bc1925d76021108",
@@ -395,7 +395,7 @@
   "independentChallenge": "docs/editorial-campaign/2026-10-05/soups-noodles-nine-review.md",
   "sourceEvidence": "docs/editorial-campaign/2026-10-05/soups-noodles-nine-review.md",
   "rootDisposition": "Whole author and independent source reviews are retained; root read each complete current-to-final cooking diff. Bounded independent corrections were replayed exactly and root inspected actual final fields/body. Source conflicts remain explicit; unrelated linked meals, held Japchae and other source/model holds receive no approval. Kitchen testing and actual print preview remain unperformed.",
-  "productionVerification": "pending",
+  "productionVerification": "docs/editorial-campaign/2026-10-05/soups-noodles-nine-production.json",
   "kitchenTested": false,
   "nativeAppSynced": false,
   "integratedValidation": {
@@ -419,5 +419,7 @@
     "compatibilityTests": "1 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
     "kitchenTests": 0,
     "nativeAppSynced": false
-  }
+  },
+  "implementationCommit": "d1ad45b086f2b6a9c7020107bc9d26e2d8505029",
+  "releaseCommit": "d1ad45b086f2b6a9c7020107bc9d26e2d8505029"
 }

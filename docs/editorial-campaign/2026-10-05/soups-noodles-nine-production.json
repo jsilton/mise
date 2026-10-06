@@ -1,0 +1,171 @@
+{
+  "status": "Verified live complete editorial versions",
+  "releaseCommit": "d1ad45b086f2b6a9c7020107bc9d26e2d8505029",
+  "implementationCommit": "d1ad45b086f2b6a9c7020107bc9d26e2d8505029",
+  "deploymentRun": "https://github.com/jsilton/mise/actions/runs/37412639469",
+  "ci": {
+    "headSha": "d1ad45b086f2b6a9c7020107bc9d26e2d8505029",
+    "status": "completed",
+    "conclusion": "success",
+    "jobs": [
+      {
+        "name": "build",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "name": "deploy",
+        "status": "completed",
+        "conclusion": "success"
+      }
+    ]
+  },
+  "remote": "d1ad45b086f2b6a9c7020107bc9d26e2d8505029",
+  "rendered": [
+    {
+      "slug": "chicken-tortilla-soup-iii",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "methodCount": 5,
+      "noOverflow": true,
+      "printEnabled": true,
+      "fullMainMatches": true
+    },
+    {
+      "slug": "fennel-and-carrot-soup",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "methodCount": 7,
+      "noOverflow": true,
+      "printEnabled": true,
+      "fullMainMatches": true
+    },
+    {
+      "slug": "miso-soup",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "methodCount": 5,
+      "noOverflow": true,
+      "printEnabled": true,
+      "fullMainMatches": true
+    },
+    {
+      "slug": "roasted-red-pepper-and-sweet-potato-soup",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "methodCount": 4,
+      "noOverflow": true,
+      "printEnabled": true,
+      "fullMainMatches": true
+    },
+    {
+      "slug": "warm-spiced-butternut-squash-soup",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "methodCount": 8,
+      "noOverflow": true,
+      "printEnabled": true,
+      "fullMainMatches": true
+    },
+    {
+      "slug": "pad-thai",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "methodCount": 10,
+      "noOverflow": true,
+      "printEnabled": true,
+      "fullMainMatches": true
+    },
+    {
+      "slug": "mongolian-chicken",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "methodCount": 8,
+      "noOverflow": true,
+      "printEnabled": true,
+      "fullMainMatches": true
+    },
+    {
+      "slug": "restaurant-style-chicken-lo-mein",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "methodCount": 8,
+      "noOverflow": true,
+      "printEnabled": true,
+      "fullMainMatches": true
+    },
+    {
+      "slug": "pan-fried-noodles-with-shrimp",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "methodCount": 12,
+      "noOverflow": true,
+      "printEnabled": true,
+      "fullMainMatches": true
+    }
+  ],
+  "verifiedDate": "2026-10-06T04:16:22.644Z",
+  "acceptedRecipeSources": [
+    {
+      "slug": "chicken-tortilla-soup-iii",
+      "acceptedSourceSha256": "6d5cf372397e01f17117ad0a9162f19f846dbe33c4cc2d521ec0fcb8ff3b29b8"
+    },
+    {
+      "slug": "fennel-and-carrot-soup",
+      "acceptedSourceSha256": "7f53e7e77aaf1fa7d473990de1562c964ef15f0058583a10eda3538c306ffb85"
+    },
+    {
+      "slug": "miso-soup",
+      "acceptedSourceSha256": "10016bca7ff70f2b6456284d03a58b290fd82615cfca76271bc1925d76021108"
+    },
+    {
+      "slug": "roasted-red-pepper-and-sweet-potato-soup",
+      "acceptedSourceSha256": "a3ca060f82a117d7ef171f23803086b667ee5a0c4363d99bc65f5d85b1ed1537"
+    },
+    {
+      "slug": "warm-spiced-butternut-squash-soup",
+      "acceptedSourceSha256": "fa64e8278eab5f2d1604c16113714b5471596444ee3016501d27c280c147d4d6"
+    },
+    {
+      "slug": "pad-thai",
+      "acceptedSourceSha256": "f4427b18db4830def7095f050429df6f395c317da093e10459e589095828a99a"
+    },
+    {
+      "slug": "mongolian-chicken",
+      "acceptedSourceSha256": "74eefcedb573c74864fec5d882de23d94916d8867007a646a3fa720c08580cb6"
+    },
+    {
+      "slug": "restaurant-style-chicken-lo-mein",
+      "acceptedSourceSha256": "fd20d557bc2a626e7c5bb27e9b15785d211cafc4f1da2d5d4939f33108056926"
+    },
+    {
+      "slug": "pan-fried-noodles-with-shrimp",
+      "acceptedSourceSha256": "6b3c7a7f798a59a55667d465f049d5d9b9e163fabc0c27313f7b10da81397864"
+    }
+  ],
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "limitations": [
+    "Actual physical cooking untested",
+    "Actual print preview not inspected; controls and shared styles verified",
+    "Production content/rendering checked on all 9; mobile scaling/cooking interactions sampled on three/two locally"
+  ]
+}
