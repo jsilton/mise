@@ -1,3 +1,19 @@
+# Current acceptance checkpoint — October 6, 2026
+
+Nine existing holds and one separately authored complete chowder variant are accepted locally after whole-recipe review, independent challenge and complete integration-owner inspection. Coverage is 633 complete / 18 pending across 651 sources. The existing nine count toward the original 409-source campaign; 382 versions remain verified live until this release is verified. The new Irvine version is separate. All 641 other existing recipe files, every existing identity and private binding, and all draft bindings remain unchanged. No kitchen test or native-app sync.
+
+[Complete batch and independent evidence](editorial-campaign/2026-10-06/soups-ribs-oats-ice-cream.md).
+
+## Previous verified checkpoint
+
+# Current acceptance checkpoint — October 6, 2026
+
+Seven existing holds and one separately authored complete chowder variant are accepted locally after whole-recipe review, independent challenge and complete integration-owner inspection. Coverage is 631 complete / 20 pending across 651 sources. The existing seven count toward the original 409-source campaign; 382 versions remain verified live until this release is verified. The new Irvine version is separate. All 643 other existing recipe files, every existing identity and private binding, and all draft bindings remain unchanged. No kitchen test or native-app sync.
+
+[Complete batch and independent evidence](editorial-campaign/2026-10-06/soups-ribs-oats-ice-cream.md).
+
+## Previous verified checkpoint
+
 # Current campaign state — October 6, 2026
 
 382 new complete editorial versions from the original 409-source campaign are verified live. Seven newly authored Italian classics are also verified live and are counted separately. Coverage is 623 complete / 27 pending across 650 sources, including 234 earlier complete reviews. The 42 accelerated targeted repairs remain a separate overlapping historical scope. All eight accepted recipe versions match exact remote source commit [b673ed5c](https://github.com/jsilton/mise/commit/b673ed5c3da1277c99af5ff48994d0be74521c45), its [successful CI/deployment](https://github.com/jsilton/mise/actions/runs/37522877469) and their complete live pages. The two targeted Korean BBQ Night dependency repairs also match live content. Zero kitchen tests; no native-app sync.

@@ -16,7 +16,7 @@ const cases = [
   [
     'oatmeal-risotto',
     ['let stand overnight', 'at room temperature'],
-    ['water/broth', 'refrigerate overnight at 40°F'],
+    ['water or chicken stock or broth', 'refrigerate overnight at 40°F'],
   ],
   [
     'onigiri-japanese-rice-balls',
@@ -78,7 +78,7 @@ const cases = [
   [
     'vegetable-minestrone',
     ['up to 5 days', 'Cool completely, then freeze', 'Reheat gently on the stovetop'],
-    ['shallow containers', '3–4 days', '165°F / 74°C', 'rolling boil'],
+    ['shallow containers', '3–4 days', '165°F', 'rolling boil'],
   ],
   [
     'balsamic-peach-pork',
@@ -132,16 +132,23 @@ const cases = [
   [
     'honey-glazed-spareribs',
     ['Perform a quick pressure release'],
-    ['release fully naturally', 'no remaining pressure'],
+    [
+      'release fully naturally',
+      'red float is completely down',
+      'Then press START/CANCEL to turn off',
+      'Do not force the lid or release steam manually',
+    ],
   ],
   [
     'instant-pot-butternut-squash-soup',
     ['quick Release', 'Follow its minimum-liquid, maximum-fill and pressure-release'],
     [
-      'soup fill limit',
-      'full natural pressure release',
-      'Turn Keep Warm off',
-      'no pressure remains',
+      'at or below 60%',
+      'Release fully naturally',
+      'automatic Keep Warm setting',
+      'red float is completely down',
+      'Then press START/CANCEL to turn off',
+      'Do not force the lid or release steam manually',
     ],
   ],
   [
@@ -149,8 +156,9 @@ const cases = [
     ['then vent any remaining steam', 'naturally for 15 minutes'],
     [
       'release fully naturally',
-      'pressure indicator has dropped',
-      'the contributor’s grandfather’s recipe',
+      'red float is completely down',
+      'Then press START/CANCEL to turn off',
+      'adapted the soup from her grandfather’s recipe',
     ],
   ],
   ['play-dough', ['Wintergreen', 'wintergreen'], ['1 tbsp vegetable oil']],
@@ -208,7 +216,9 @@ for (const [slug, forbidden, required] of cases) {
     assert.ok(parsed.data.title && Array.isArray(parsed.data.ingredients));
     for (const phrase of forbidden)
       assert.ok(!source.includes(phrase), `${slug}: retained ${phrase}`);
-    for (const phrase of required) assert.ok(source.includes(phrase), `${slug}: missing ${phrase}`);
+    const proof = (parsed.content + '\n' + JSON.stringify(parsed.data)).toLowerCase();
+    for (const phrase of required)
+      assert.ok(proof.includes(phrase.toLowerCase()), `${slug}: missing ${phrase}`);
   });
 }
 
@@ -240,14 +250,16 @@ test('cold broth handling preserves dispersed fat without requiring a separate o
 
 test('pressure release correction does not silently reduce grandfather soup richness', () => {
   const { data } = matter(read('instant-pot-potato-leek-soup'));
-  for (const item of [
-    '3 tbsp Unsalted Butter',
-    '2 tbsp Extra-Virgin Olive Oil',
-    '2 tbsp All-Purpose Flour',
-    '3/4 cup Half-and-Half (or Heavy Cream)',
+  const ingredients = data.formula.components.flatMap((c) => c.ingredients);
+  for (const [id, amount, unit] of [
+    ['butter', 3, 'tbsp'],
+    ['oil', 2, 'tbsp'],
+    ['flour', 2, 'tbsp'],
+    ['dairy', '3/4', 'cup'],
   ]) {
-    assert.ok(data.ingredients.includes(item));
+    assert.deepEqual(ingredients.find((i) => i.id === id).quantity, { amount, unit });
   }
+  assert.match(ingredients.find((i) => i.id === 'dairy').preparation, /heavy cream or milk/);
 });
 
 test('filled wonton endpoint remains distinct from sweet custard and plain pork sausage', () => {

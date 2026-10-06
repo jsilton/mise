@@ -73,7 +73,7 @@ test('salad lists toppings and soup keeps its safer release instructions', () =>
   assert.match(salad.content, /follow the listed portion count when scaling/);
   const soup = read('instant-pot-potato-leek-soup');
   assert.ok(soup.data.ingredients.some((x) => x.includes('white and pale green')));
-  assert.match(soup.content, /release fully naturally/);
+  assert.match(soup.content, /release fully naturally/i);
   assert.match(soup.content, /head submerged/);
   assert.doesNotMatch(soup.content, /5-7 minutes cook until golden brown/);
   assert.equal(read('crispy-smashed-potatoes').data.totalTime, '75 min');

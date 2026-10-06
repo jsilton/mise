@@ -1,125 +1,537 @@
 ---
 miseId: c67b8a1a-d893-4279-a8d5-2ec422c61366
-title: Vegetable Minestrone (Italian Grandmother's Soup)
+title: Vegetable Minestrone
 origin: Italy
+cuisines:
+  - Italian
+categories:
+  - Italian
+  - Soup
+  - Main Course
+role: main
+vibe: comfort
 difficulty: easy
+description: >-
+  A substantial Italian soup of white beans, small pasta and seasonal vegetables, with rosemary,
+  tomatoes and a rich aromatic broth.
+prepTime: 25–35 minutes
+cookTime: 60–85 minutes
+totalTime: 'About 85–120 minutes, starting with cooked beans and prepared stock'
+source: 'Adapted from J. Kenji López-Alt, The Best Minestrone Soup, Serious Eats; canned-bean method'
+sourceUrl: 'https://www.seriouseats.com/the-best-minestrone-soup-recipe'
 cookingMethods:
+  - saute
   - simmer
 dietary:
-  - vegetarian
+  - vegetarian-option
   - dairy-free-option
   - gluten-free-option
 occasions:
-  - weeknight
+  - family-meal
+  - make-ahead
   - meal-prep
   - comfort-food
-  - potluck
-flavorProfile:
-  - savory
-  - acidic
-  - herbaceous
-cuisines:
-  - Italian
-role: main
-vibe: comfort
-prepTime: 20 min
-cookTime: 40 min
-totalTime: 60 min
-servings: '8'
 seasons:
   - year-round
+flavorProfile:
+  - savory
+  - herbaceous
 nutritionalDensity: hearty
 leftovers: excellent
 advancePrep:
-  - freeze-ahead
   - make-ahead
+  - freeze-ahead
 equipment:
-  - large-pot
-  - dutch-oven
+  - large-heavy-soup-pot
+  - wooden-spoon
+  - fine-mesh-strainer
+  - optional-pasta-pot
+  - shallow-storage-containers
+  - instant-read-thermometer
 pairsWith:
   - garlic-bread
   - everyday-arugula-salad
+formula:
+  version: 1
+  yield:
+    amount: 6
+    unit: portion
+  components:
+    - id: base
+      name: Aromatic base
+      ingredients:
+        - id: olive-oil
+          key: olive-oil
+          name: extra-virgin olive oil
+          quantity:
+            amount: 2
+            unit: tbsp
+          uses:
+            - step: soffritto
+              share: 1
+        - id: pancetta
+          key: pancetta
+          name: pancetta
+          quantity:
+            amount: 115
+            unit: g
+          preparation: cut into ¼-inch dice
+          optional: true
+          uses:
+            - step: soffritto
+              share: 1
+        - id: onion
+          key: onion
+          name: medium onion
+          plural: medium onions
+          quantity:
+            amount: 1
+            unit: count
+          preparation: finely chopped
+          uses:
+            - step: soffritto
+              share: 1
+        - id: carrot
+          key: carrot
+          name: medium carrot
+          plural: medium carrots
+          quantity:
+            amount: 1
+            unit: count
+          preparation: peeled and finely diced
+          uses:
+            - step: soffritto
+              share: 1
+        - id: celery-stalk
+          key: celery-stalk
+          name: celery stalk
+          plural: celery stalks
+          quantity:
+            amount: 2
+            unit: count
+          preparation: finely diced
+          uses:
+            - step: soffritto
+              share: 1
+        - id: rosemary
+          key: rosemary
+          name: fresh rosemary leaves
+          quantity:
+            amount: 1
+            unit: tbsp
+          preparation: finely chopped
+          uses:
+            - step: soffritto
+              share: 1
+        - id: additional-saute-oil
+          key: additional-saute-oil
+          name: extra-virgin olive oil
+          allowance: a little more only if the aromatic vegetables begin to stick
+          uses:
+            - step: soffritto
+              share: 1
+        - id: garlic-clove
+          key: garlic-clove
+          name: medium garlic clove
+          plural: medium garlic cloves
+          quantity:
+            amount: 2
+            unit: count
+          preparation: minced
+          uses:
+            - step: tomatoes
+              share: 1
+        - id: whole-peeled-tomato-can
+          key: whole-peeled-tomato-can
+          name: whole peeled tomatoes
+          quantity:
+            amount: 1
+            unit: can
+          packageSize:
+            amount: 14
+            unit: oz
+          preparation: 'crushed by hand or chopped, with all the juice'
+          uses:
+            - step: tomatoes
+              share: 1
+    - id: broth
+      name: Beans and broth
+      ingredients:
+        - id: cooked-cannellini
+          key: cooked-cannellini
+          name: canned cannellini beans
+          quantity:
+            amount: 2
+            unit: cup
+          preparation: measured after draining and rinsing; buy enough cans to supply the listed drained volume
+          uses:
+            - step: broth
+              share: 1
+        - id: vegetable-stock
+          key: vegetable-stock
+          name: vegetable stock
+          quantity:
+            amount: 2
+            unit: quart
+          preparation: 'prepared and ready to use, preferably lightly salted'
+          uses:
+            - step: broth
+              share: 1
+        - id: parmesan-rind
+          key: parmesan-rind
+          name: Parmesan rind
+          plural: Parmesan rinds
+          quantity:
+            amount: 1
+            unit: count
+          preparation: 'clean, unwaxed rind'
+          optional: true
+          role: discarded
+          uses:
+            - step: broth
+              share: 1
+        - id: salt
+          key: salt
+          name: salt
+          allowance: 'to taste, allowing for the stock, pancetta and cheese'
+          uses:
+            - step: broth
+              share: 1
+    - id: vegetables-pasta
+      name: Vegetables and pasta
+      ingredients:
+        - id: small-pasta
+          key: small-pasta
+          name: 'dry small pasta, such as ditalini or small shells'
+          quantity:
+            amount: 100
+            unit: g
+          uses:
+            - step: pasta
+              share: 1
+        - id: zucchini
+          key: zucchini
+          name: zucchini
+          quantity:
+            amount: 115
+            unit: g
+          preparation: cut into ½-inch pieces
+          uses:
+            - step: pasta
+              share: 1
+        - id: summer-squash
+          key: summer-squash
+          name: summer squash
+          quantity:
+            amount: 115
+            unit: g
+          preparation: cut into ½-inch pieces
+          uses:
+            - step: pasta
+              share: 1
+        - id: green-beans
+          key: green-beans
+          name: green beans
+          quantity:
+            amount: 115
+            unit: g
+          preparation: trimmed and cut into ½-inch lengths
+          uses:
+            - step: pasta
+              share: 1
+        - id: boiling-water
+          key: boiling-water
+          name: boiling water
+          allowance: a little only if needed to keep the soup loose while the pasta cooks
+          role: cooking-water
+          uses:
+            - step: pasta
+              share: 1
+        - id: separate-pasta-water
+          key: separate-pasta-water
+          name: water
+          allowance: enough to cook the pasta freely in a separate pot if making soup for leftovers
+          optional: true
+          role: cooking-water
+          uses:
+            - step: pasta
+              share: 1
+        - id: separate-pasta-salt
+          key: separate-pasta-salt
+          name: salt
+          allowance: to season the separate pasta water if using that method
+          optional: true
+          uses:
+            - step: pasta
+              share: 1
+        - id: spinach
+          key: spinach
+          name: spinach
+          quantity:
+            amount: 115
+            unit: g
+          preparation: roughly chopped
+          uses:
+            - step: greens
+              share: 1
+    - id: finish
+      name: To finish
+      ingredients:
+        - id: fresh-herbs
+          key: fresh-herbs
+          name: fresh basil or parsley
+          allowance: 'chopped, to taste'
+          role: garnish
+          uses:
+            - step: finish
+              share: 1
+        - id: black-pepper
+          key: black-pepper
+          name: freshly ground black pepper
+          allowance: to taste
+          uses:
+            - step: finish
+              share: 1
+        - id: finishing-salt
+          key: finishing-salt
+          name: salt
+          allowance: to taste after the pasta and vegetables are cooked
+          uses:
+            - step: finish
+              share: 1
+        - id: serving-olive-oil
+          key: serving-olive-oil
+          name: extra-virgin olive oil
+          allowance: for a finishing drizzle
+          role: garnish
+          uses:
+            - step: finish
+              share: 1
+        - id: grated-parmesan
+          key: grated-parmesan
+          name: freshly grated Parmesan
+          allowance: 'for serving, to taste'
+          optional: true
+          role: garnish
+          uses:
+            - step: finish
+              share: 1
+  steps:
+    - id: soffritto
+      title: Soften the aromatic base
+      text: >-
+        Have {{ingredients}} ready. Put the measured oil and pancetta, if using, in a large, heavy
+        soup pot over medium heat. Cook the pancetta until its fat begins to render and it softens,
+        without browning it deeply; without pancetta, heat the oil just until it shimmers. Add the
+        onion, carrot, celery and rosemary. Cook for 10–15 minutes, stirring, until the vegetables
+        soften without browning; reduce the heat if they begin to scorch and add a little extra oil
+        only if they stick. Choose a pot that can hold the full stock, beans, vegetables and pasta
+        with room to stir and simmer; divide the complete mixture between pots if necessary.
+    - id: tomatoes
+      title: Concentrate the tomatoes
+      text: >-
+        Have {{ingredients}} ready. Stir the garlic into the softened vegetables for about 30
+        seconds, until fragrant. Add all the tomatoes and their juice. Cook, stirring along the
+        bottom, until they break down and most of the loose liquid has evaporated, roughly 5–10
+        minutes or longer. The mixture should thicken and begin to sizzle in the oil, with no burned
+        garlic or dark crust.
+    - id: broth
+      title: Give the beans time to flavor the broth
+      text: >-
+        Add {{ingredients}}, starting with only a little salt. Bring to a boil, then lower the heat
+        to a gentle simmer. Partly cover and cook for 30 minutes, stirring occasionally along the
+        bottom. The beans should stay tender and the broth should taste of the vegetables and
+        rosemary. Use the full listed quantity of prepared stock; concentrated stock products must
+        be diluted according to their label before measuring.
+    - id: pasta
+      title: Cook the pasta and firmer vegetables
+      text: >-
+        Have {{ingredients}} ready. For soup to eat immediately, add the dry pasta, zucchini, summer
+        squash and green beans to the gently simmering soup. Stir often enough to keep the pasta
+        from sticking. Begin checking around 10 minutes and use the pasta package time as a guide;
+        continue until the green beans and squash are tender and the pasta has no hard center. Keep
+        the soup loose and spoonable, adding a little boiling water only if needed. For planned
+        leftovers, add the vegetables to the soup but cook the full listed pasta separately in
+        boiling salted water according to its package, then drain. Put the pasta for today in
+        serving bowls; cool and store the remainder separately. Do not add another supply of pasta
+        to the soup.
+    - id: greens
+      title: Add the tender greens
+      text: >-
+        Stir in {{ingredients}} and simmer for about 5 minutes, until wilted and tender. Check a
+        green bean and a piece of squash again; they should be pleasant to eat, not hard. Remove and
+        discard the Parmesan rind if used.
+    - id: finish
+      title: Finish the bowls
+      text: >-
+        Have {{ingredients}} ready. Take the soup off the heat, stir in the fresh herbs, then taste
+        and adjust the salt and pepper. Ladle into warm bowls, over separately cooked pasta if
+        following that method. Finish with a drizzle of oil and Parmesan if desired. Serve with
+        garlic bread and a crisp green salad.
+learning:
+  focus: >-
+    Build depth in a vegetable soup, then add each ingredient when it has enough time to become
+    tender.
+  outcome: 'Savory broth, creamy beans and tender vegetables, with small pasta that retains its shape.'
+  techniques:
+    - seasoning
+    - starch
+    - temperature
+  before:
+    - >-
+      Drain and rinse the beans before measuring the listed volume; can sizes and drained yields
+      differ.
+    - >-
+      Use prepared stock that is within its own storage period. Dilute a commercial concentrate as
+      its label directs before measuring the stock.
+    - >-
+      Chop the vegetables before starting and keep the spinach separate from the squash and green
+      beans.
+    - >-
+      Decide whether you are serving the whole batch now. Cooking pasta separately keeps planned
+      leftovers from becoming a pot of swollen pasta.
+  checkpoints:
+    - step: 1
+      cue: 'The onion, carrot and celery are soft without dark edges.'
+      why: A patient soffritto gives sweetness and depth without adding a scorched taste to the broth.
+    - step: 2
+      cue: The tomatoes have broken down and the watery sputtering gives way to a gentle sizzle.
+      why: >-
+        Evaporation concentrates their flavor before the stock dilutes the base; stop before the
+        mixture burns.
+    - step: 4
+      cue: 'The pasta has no hard center, and the green beans and squash are tender enough to eat.'
+      why: >-
+        Pasta shape, vegetable cut and heat affect timing; the clock is a starting point for
+        checking.
+    - step: 5
+      cue: 'The spinach is wilted and tender, and the soup remains loose enough to ladle.'
+      why: Tender leaves need less cooking than the beans and aromatic vegetables.
+  troubleshooting:
+    - problem: The soup tastes thin or flat.
+      cause: >-
+        The aromatic vegetables or tomatoes were not cooked down sufficiently, or the final
+        seasoning is short.
+      fix: >-
+        Finish cooking the vegetables to tenderness, then taste for salt and pepper. The fresh
+        herbs, serving oil and Parmesan can add aroma and richness. Next time, give the soffritto
+        and tomatoes their full cooking stages.
+    - problem: The soup becomes too thick after standing.
+      cause: 'Pasta continues absorbing broth, especially during storage.'
+      fix: >-
+        Loosen gently with a little water while reheating and adjust the seasoning. For the next
+        batch, cook and store the pasta separately.
+    - problem: The vegetables are mushy before the pasta is ready.
+      cause: A slow-cooking pasta shape or prolonged simmer gave the squash too much time.
+      fix: >-
+        Finish the pasta in a separate pot when useful. Next time, choose a small soup pasta and use
+        its package time to schedule the vegetables, checking their texture as you go.
+  substitutions:
+    - ingredient: Vegetable stock
+      alternative: 'The same listed volume of prepared, ready-to-use lightly salted chicken stock.'
+      effect: >-
+        This is the source’s non-vegetarian stock option. Keep its earlier storage time in mind and
+        follow the stock’s own storage instructions.
+    - ingredient: Pancetta and Parmesan
+      alternative: >-
+        For vegetarian bowls, omit the optional pancetta and use cheese made without animal rennet,
+        or omit both the rind and grated cheese.
+      effect: >-
+        Keep the full oil, rosemary, tomato and bean base. For dairy-free bowls omit the rind and
+        grated cheese; omitting meat as well gives a fully plant-based version.
+    - ingredient: Zucchini or summer squash
+      alternative: >-
+        Replace either with the same listed weight of small potato cubes or cauliflower pieces in
+        cooler weather.
+      effect: >-
+        Add these longer-cooking vegetables with the stock and beans in step 3, then cook until
+        tender before adding pasta. The vegetable amount stays the same, but the addition time
+        changes.
+    - ingredient: Spinach
+      alternative: 'The same listed weight of kale, with tough stems removed and leaves thinly sliced.'
+      effect: >-
+        Add kale with the squash and green beans in step 4 and continue until tender; skip the
+        spinach addition. Sturdy kale needs more cooking than a brief spinach wilt.
+    - ingredient: Small pasta
+      alternative: The same listed weight of a suitable gluten-free small pasta.
+      effect: >-
+        Follow its package directions and check the center; cooking it separately gives more control
+        over texture. Check that the stock is gluten-free too.
+  storage: >-
+    Divide soup and any separately cooked pasta into shallow containers and refrigerate within 2
+    hours, or within 1 hour above 90°F, at 40°F or colder. Use within 3–4 days of the first cooking,
+    following any earlier deadline from the prepared stock or other cooked ingredients; reheating
+    does not restart storage time. Follow the stock label after opening. Freeze cooled soup for up
+    to 3 months for best quality, preferably without pasta. Thaw in the refrigerator. Reheat,
+    stirring, to 165°F throughout and bring the soup to a rolling boil; add stored cooked pasta
+    early enough to heat it through to 165°F too. Add fresh herbs and serving oil after reheating.
+    For lunches, keep the soup at 40°F or colder until reheating, or maintain hot holding at 140°F
+    or above in a suitable preheated insulated container.
+  timing: >-
+    Plan 25–35 minutes to chop and measure, then roughly 60–85 minutes at the stove, including the
+    30-minute bean-and-stock simmer. Starting with dried beans or making stock adds separate
+    preparation time. Larger batches need more pot capacity or divided pots; ingredient amounts
+    scale, while heat-up time, evaporation and vegetable tenderness do not follow a simple
+    multiplier. Keep the pasta separate when preparing several future meals.
+  sources:
+    - title: >-
+        J. Kenji López-Alt, Serious Eats: The Best Minestrone Soup, including the canned-bean method
+        and vegetable timetable
+      url: 'https://www.seriouseats.com/the-best-minestrone-soup-recipe'
+    - title: 'USDA: Leftovers and Food Safety'
+      url: >-
+        https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety
+    - title: 'FDA: Refrigerator Thermometers—Cold Facts about Food Safety'
+      url: >-
+        https://www.fda.gov/food/buy-store-serve-safe-food/refrigerator-thermometers-cold-facts-about-food-safety
+  review:
+    status: editorial-review
+    date: '2026-10-06'
 ingredients:
-  - '--- The Base ---'
-  - 3 tbsp Olive Oil
-  - 1 large Yellow Onion (diced)
-  - 3 cloves Garlic (minced)
-  - 2 Large Carrots (diced into 1/2-inch pieces)
-  - 2 Celery Stalks (diced into 1/2-inch pieces)
-  - '--- The Vegetables ---'
-  - 1 (14.5 oz) can Diced Tomatoes (or 1 cup fresh tomatoes)
-  - 2 small Zucchini (diced into 1/2-inch pieces)
-  - '1 cup Green Beans (cut into 1-inch pieces, fresh or frozen)'
-  - 1 cup Spinach or Lacinato Kale (roughly chopped)
-  - 1 (15 oz) can Cannellini Beans (drained and rinsed)
-  - '1 (15 oz) can Kidney Beans (drained and rinsed; optional, can use all cannellini)'
-  - '--- The Broth ---'
-  - 6 cups Vegetable Stock or Water (can use chicken stock for non-vegetarian version)
-  - 2 tbsp Tomato Paste (adds depth)
-  - 1 tbsp Balsamic Vinegar (adds brightness)
-  - '--- The Seasonings ---'
-  - 1 tsp Dried Italian Seasoning (or 1 bay leaf + 1 tsp dried oregano)
-  - 1/2 tsp Dried Thyme
-  - 2 tsp Kosher Salt (taste and adjust)
-  - 1/4 tsp Black Pepper
-  - '--- The Pasta (Add near the end) ---'
-  - '1.5 cups Small Pasta (ditalini, elbow, or small shells; about 6 oz uncooked)'
-  - '--- The Finish (Essential) ---'
-  - "Juice of 1 Lemon (add at the very end, don''t cook)'"
-  - '3 tbsp Fresh Basil (chopped fine, add at the very end)'
-  - Extra Virgin Olive Oil (for serving)
-  - Grated Parmesan Cheese (for serving)
-nutrition:
-  calories: 115
-  protein: 3
-  carbs: 15
-  fat: 5.5
-  fiber: 3.5
-  sugar: 5
-  sodium: 710
+  - '--- Aromatic base ---'
+  - 2 tbsp extra-virgin olive oil
+  - '115 g pancetta, cut into ¼-inch dice, optional'
+  - '1 medium onion, finely chopped'
+  - '1 medium carrot, peeled and finely diced'
+  - '2 celery stalks, finely diced'
+  - '1 tbsp fresh rosemary leaves, finely chopped'
+  - 'extra-virgin olive oil, a little more only if the aromatic vegetables begin to stick'
+  - '2 medium garlic cloves, minced'
+  - '1 can (14 oz) whole peeled tomatoes, crushed by hand or chopped, with all the juice'
+  - '--- Beans and broth ---'
+  - >-
+    2 cups canned cannellini beans, measured after draining and rinsing; buy enough cans to supply
+    the listed drained volume
+  - '2 quarts vegetable stock, prepared and ready to use, preferably lightly salted'
+  - '1 Parmesan rind, clean, unwaxed rind, optional'
+  - 'salt, to taste, allowing for the stock, pancetta and cheese'
+  - '--- Vegetables and pasta ---'
+  - '100 g dry small pasta, such as ditalini or small shells'
+  - '115 g zucchini, cut into ½-inch pieces'
+  - '115 g summer squash, cut into ½-inch pieces'
+  - '115 g green beans, trimmed and cut into ½-inch lengths'
+  - 'boiling water, a little only if needed to keep the soup loose while the pasta cooks'
+  - 'water, enough to cook the pasta freely in a separate pot if making soup for leftovers, optional'
+  - 'salt, to season the separate pasta water if using that method, optional'
+  - '115 g spinach, roughly chopped'
+  - '--- To finish ---'
+  - 'fresh basil or parsley, chopped, to taste'
+  - 'freshly ground black pepper, to taste'
+  - 'salt, to taste after the pasta and vegetables are cooked'
+  - 'extra-virgin olive oil, for a finishing drizzle'
+  - 'freshly grated Parmesan, for serving, to taste, optional'
+servings: 6 portions
 ---
 
 ## Chef's Note
 
-Minestrone is Italian peasant cooking at its most democratic - it's a soup where every grandmother has her version, and they're all excellent. The magic isn't in any single ingredient but in the technique: building flavor layers by sautéing the soffritto (onion, carrot, celery), blooming the tomato paste, and then letting everything simmer long enough for the flavors to meld but short enough that the vegetables stay distinct. It improves overnight as the broth soaks into everything, which is why it's perfect for meal prep. The lemon and fresh basil go in at the very end - if simmered, they turn metallic and lose their brightness. A finishing drizzle of good olive oil and fresh Parmesan is non-negotiable.
+Minestrone brings beans, seasonal vegetables and a little pasta together in a substantial Italian soup. A slowly softened aromatic base and tomatoes cooked down in olive oil give this version depth; the squash and spinach go in later so their texture survives. Cook the pasta separately when making extra soup for another day.
 
 ## Directions
 
-1. **Build the Soffritto:** Heat olive oil in a large pot over medium heat. Add diced onion, carrot, and celery. Cook for 8-10 minutes, stirring occasionally, until the vegetables are soft and the onion is translucent. This is the foundation of the soup - don't rush it.
-
-2. **Bloom the Aromatics:** Add minced garlic, Italian seasoning, and thyme. Cook for 45 seconds until fragrant. Add tomato paste and stir constantly for 1-2 minutes. The tomato paste should darken slightly and smell concentrated. This step deepens the soup's flavor significantly.
-
-3. **Deglaze and Build:** Pour in the measured stock or water. Add canned diced tomatoes with their juice. Stir in balsamic vinegar. This adds acidity that brightens the entire soup.
-
-4. **Season:** Add salt and pepper. Stir well. Bring to a simmer over medium-high heat, then reduce to medium and maintain a gentle simmer.
-
-5. **Add Heartier Vegetables:** Add the carrots (if not using soffritto carrots), zucchini, green beans, and both cans of beans (drained). Stir well. Simmer for 15-20 minutes until the zucchini is tender but still holds its shape (you want it fork-tender, not mushy).
-
-6. **Cook the Pasta:** In the last 10 minutes of cooking, stir in the dry pasta. The pasta will cook right in the soup and absorb broth as it cooks. Don't overcook - the pasta continues to soften as the soup sits.
-
-7. **Finish the Greens:** In the last 2 minutes, fold in the spinach or kale. It will wilt instantly from the heat. Stir everything together.
-
-8. **Taste and Adjust:** Remove from heat. Taste for salt and pepper. The soup should taste bright and savory, not flat.
-
-9. **Add Brightness:** Just before serving, stir in fresh lemon juice and chopped basil. Taste again - the lemon should make everything pop. If it still feels flat, add a few more drops of lemon juice or a pinch more salt.
-
-10. **Serve:** Ladle into bowls. Top each with a drizzle of extra virgin olive oil, fresh grated Parmesan, and a few torn basil leaves. Serve with garlic bread and a simple green salad.
-
-### Make-Ahead and Storage Notes
-
-- **The next day tastes better:** The flavors meld overnight. Make this the day before if you can. Divide into shallow containers and refrigerate within 2 hours, or 1 hour above 90°F / 32°C, at 40°F / 4°C or below. Use within 3–4 days.
-- **Freezing:** Cool promptly in shallow portions under refrigeration, then freeze in 2-cup portions for up to 3 months. The pasta may absorb more liquid when thawed - if the soup is too thick, thin with a splash of stock when reheating. Add fresh lemon juice and basil after reheating (never cook these into the soup or they lose their brightness).
-- **Reheating:** Thaw overnight in the refrigerator. Reheat on the stovetop, stirring, until the soup reaches 165°F / 74°C throughout and comes to a rolling boil. If too thick, add a splash of water or stock.
-- **For school lunches:** Pack the soup (without the oil and Parmesan finishing) in containers. Heat in the microwave at school or pack in a thermos. Add lemon and basil at the table if possible.
-
-### Variations (Use What You Have)
-
-- **Add protein:** Stir in 1 cup shredded rotisserie chicken or cooked Italian sausage in the last 5 minutes
-- **Swap vegetables:** Winter versions can use cabbage, cauliflower, or chard instead of zucchini. Summer versions can add fresh corn
-- **Vegetarian:** Use vegetable stock and skip any meat additions
-- **Gluten-free:** Substitute gluten-free pasta or omit pasta entirely and add more beans
-- **Without tomatoes:** Use all-vegetable stock (no canned tomatoes) and add 2 tbsp tomato paste at the end for depth
-
-### The Grandmother Wisdom
-
-An Italian nonna would tell you: minestrone isn't a recipe, it's a method. The vegetables change with the season, the broth changes depending on what you have, but the soffritto is always the same, the ratio of liquid to vegetables stays constant, and the finishing touches (lemon, basil, oil, cheese) never change. She'd also tell you that the soup improves if you let it sit overnight - the vegetables soften, the flavors marry, and you're not afraid to taste it and add more salt if needed.
+1. **Soften the aromatic base:** Have extra-virgin olive oil, pancetta (if using), medium onion, medium carrot, celery stalks, fresh rosemary leaves, and extra-virgin olive oil ready. Put the measured oil and pancetta, if using, in a large, heavy soup pot over medium heat. Cook the pancetta until its fat begins to render and it softens, without browning it deeply; without pancetta, heat the oil just until it shimmers. Add the onion, carrot, celery and rosemary. Cook for 10–15 minutes, stirring, until the vegetables soften without browning; reduce the heat if they begin to scorch and add a little extra oil only if they stick. Choose a pot that can hold the full stock, beans, vegetables and pasta with room to stir and simmer; divide the complete mixture between pots if necessary.
+2. **Concentrate the tomatoes:** Have medium garlic cloves and whole peeled tomatoes ready. Stir the garlic into the softened vegetables for about 30 seconds, until fragrant. Add all the tomatoes and their juice. Cook, stirring along the bottom, until they break down and most of the loose liquid has evaporated, roughly 5–10 minutes or longer. The mixture should thicken and begin to sizzle in the oil, with no burned garlic or dark crust.
+3. **Give the beans time to flavor the broth:** Add canned cannellini beans, vegetable stock, Parmesan rind (if using), and salt, starting with only a little salt. Bring to a boil, then lower the heat to a gentle simmer. Partly cover and cook for 30 minutes, stirring occasionally along the bottom. The beans should stay tender and the broth should taste of the vegetables and rosemary. Use the full listed quantity of prepared stock; concentrated stock products must be diluted according to their label before measuring.
+4. **Cook the pasta and firmer vegetables:** Have dry small pasta, such as ditalini or small shells, zucchini, summer squash, green beans, boiling water, water (if using), and salt (if using) ready. For soup to eat immediately, add the dry pasta, zucchini, summer squash and green beans to the gently simmering soup. Stir often enough to keep the pasta from sticking. Begin checking around 10 minutes and use the pasta package time as a guide; continue until the green beans and squash are tender and the pasta has no hard center. Keep the soup loose and spoonable, adding a little boiling water only if needed. For planned leftovers, add the vegetables to the soup but cook the full listed pasta separately in boiling salted water according to its package, then drain. Put the pasta for today in serving bowls; cool and store the remainder separately. Do not add another supply of pasta to the soup.
+5. **Add the tender greens:** Stir in spinach and simmer for about 5 minutes, until wilted and tender. Check a green bean and a piece of squash again; they should be pleasant to eat, not hard. Remove and discard the Parmesan rind if used.
+6. **Finish the bowls:** Have fresh basil or parsley, freshly ground black pepper, salt, extra-virgin olive oil, and freshly grated Parmesan (if using) ready. Take the soup off the heat, stir in the fresh herbs, then taste and adjust the salt and pepper. Ladle into warm bowls, over separately cooked pasta if following that method. Finish with a drizzle of oil and Parmesan if desired. Serve with garlic bread and a crisp green salad.

@@ -4777,16 +4777,17 @@
       "source": null,
       "sourceUrl": null,
       "group": "quick_breads_02",
-      "status": "held",
-      "reviewEvidence": [],
+      "status": "accepted-pending-publication",
+      "reviewEvidence": ["docs/reviews/freezer-banana-bread.json"],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Saved/current loaf pan geometry is missing; complete editorial acceptance held without invented dimensions."
+        "Actual pan fit, center-set timing, full cooling time, finished slice count and freezer texture remain unmeasured; source formula and practical headroom/center cues are preserved."
       ],
       "inputSha256": "cec9ddf01c406a74ab2885528589769456c5c010185f0112c92eff36663f6722",
       "plannedBatch": "baked-savory-and-breads-05",
       "assignmentInputCommit": "95b37f8bca5008657a668e52a1d970b1d03367d3",
-      "assignmentInputSha256": "cec9ddf01c406a74ab2885528589769456c5c010185f0112c92eff36663f6722"
+      "assignmentInputSha256": "cec9ddf01c406a74ab2885528589769456c5c010185f0112c92eff36663f6722",
+      "reviewPhase": "Complete editorial review accepted after independent challenge and integration-owner inspection"
     },
     {
       "slug": "freezer-date-cookies",
@@ -4945,17 +4946,11 @@
       "source": null,
       "sourceUrl": null,
       "group": "pasta_dough_filled_05",
-      "status": "held",
-      "reviewEvidence": [
-        ".mise/editorial-campaign/2026-10-05/pasta_dough_filled_05/manifest.json",
-        ".mise/editorial-campaign/2026-10-05/pasta_dough_filled_05/records/fresh-wonton-wrappers.json"
-      ],
+      "status": "accepted-pending-publication",
+      "reviewEvidence": ["docs/reviews/fresh-wonton-wrappers.json"],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Identify actual author or tested source of the formula and actual egg size.",
-        "Establish rolling thickness and realistic60wrapper count without invented flour mass.",
-        "Establish raw dough storage evidence; current2day/3monthclaims are not endorsed.",
-        "Har Gow uses an entirely different starch dough; current metadata pairing is not a wrapper substitution."
+        "Actual sheet thickness, trimming and wrapper count remain unmeasured; approximate yield and physical rolling cues are explicitly estimates."
       ],
       "inputSha256": "1e6cb4fccc8bf841bfe240b259c7761a8b488aa4734ba710daca401cb6e959e7",
       "plannedBatch": "simmer-boil-and-steam-04",
@@ -4968,7 +4963,8 @@
         "sourceSha256": "1e6cb4fccc8bf841bfe240b259c7761a8b488aa4734ba710daca401cb6e959e7",
         "recordPath": ".mise/editorial-campaign/2026-10-05/pasta_dough_filled_05/records/fresh-wonton-wrappers.json",
         "recordSha256": "499eff9a66bb2761c0335cd5fee68063191ecddeb20d312fa9036ccc1d98b731"
-      }
+      },
+      "reviewPhase": "Complete editorial review accepted after independent challenge and integration-owner inspection"
     },
     {
       "slug": "fried-plantains",
@@ -6301,20 +6297,17 @@
       "source": "Adapted from Foodandwine.com",
       "sourceUrl": "http://www.foodandwine.com/recipes/honey-glazed-spareribs",
       "group": "marinated_meat_mains_04",
-      "status": "held",
-      "reviewEvidence": [
-        ".mise/editorial-campaign/2026-10-05/marinated_meat_mains_04/manifest.json",
-        ".mise/editorial-campaign/2026-10-05/marinated_meat_mains_04/records/honey-glazed-spareribs.json"
-      ],
+      "status": "accepted-pending-publication",
+      "reviewEvidence": ["docs/reviews/honey-glazed-spareribs.json"],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual active/elapsed time, finished yield and sensory result remain unmeasured; these do not prevent honest source-yield and planning estimates.",
+        "How quickly these particular rack thicknesses become fork-tender and how long the full sauce takes to reduce remain physical observations; no fixed 20-minute fall-off-the-bone promise is retained."
       ],
       "inputSha256": "634a2c9ff22100dfed4987d8cad66a8424ef1baf1ffcc38c4c60a1a66aa2ced2",
       "plannedBatch": "simmer-boil-and-steam-05",
       "assignment": "poultry_editor",
-      "reviewPhase": "Whole author review in progress; no acceptance or publication",
+      "reviewPhase": "Complete editorial review accepted after independent challenge and integration-owner inspection",
       "completeEditorialReview": false,
       "authorCheckpoint": {
         "manifestPath": ".mise/editorial-campaign/2026-10-05/marinated_meat_mains_04/manifest.json",
@@ -6442,17 +6435,16 @@
       "source": "Adapted from damndelicious.net",
       "sourceUrl": "https://damndelicious.net/2019/12/29/instant-pot-butternut-squash-soup/",
       "group": "sides_pressure_preservation_24",
-      "status": "held",
-      "reviewEvidence": [],
+      "status": "accepted-pending-publication",
+      "reviewEvidence": ["docs/reviews/instant-pot-butternut-squash-soup.json"],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "What exactpressuremodel/capacity/manual permitsactualbaconfat/full4cupstock+produce load withappropriate soup fill/release rules?",
-        "Howmuchrenderedfat andstartingvolume actualbatchhas? Cannot guessfatdilution or claimPDFmanual read."
+        "Actual active/elapsed time, finished yield and sensory result remain unmeasured; these do not prevent honest source-yield and planning estimates."
       ],
       "inputSha256": "0022268054110fabe3a82245e8a6c1518381990e561b92580606cd8405724301",
       "plannedBatch": "context-screening-03",
       "assignment": ".mise/editorial-campaign/2026-10-05/sides_pressure_preservation_24/assignment.json",
-      "reviewPhase": "Whole author evidence hold; no acceptance of current claims",
+      "reviewPhase": "Complete editorial review accepted after independent challenge and integration-owner inspection",
       "authorManifest": ".mise/editorial-campaign/2026-10-05/sides_pressure_preservation_24/manifest.json",
       "authorSourceSha256": "0022268054110fabe3a82245e8a6c1518381990e561b92580606cd8405724301"
     },
@@ -6463,17 +6455,16 @@
       "source": "Adapted from simplyhappyfoodie.com",
       "sourceUrl": "https://www.simplyhappyfoodie.com/instant-pot-potato-leek-soup/",
       "group": "sides_pressure_preservation_24",
-      "status": "held",
-      "reviewEvidence": ["docs/reviews/bounded-recipe-batch-2026-10-05.md"],
+      "status": "accepted-pending-publication",
+      "reviewEvidence": ["docs/reviews/instant-pot-potato-leek-soup.json"],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "What exactmodel/manual permitsfull3Tbbutter+2Tböl andprepressure2Tbflour/5broth route?",
-        "Whatnative saltcrystals/leekvolume option isintended? Modern1½lbpotatoes/5–6broth isdifferentformula, nothouseequivalence."
+        "Actual active/elapsed time, finished yield and sensory result remain unmeasured; these do not prevent honest source-yield and planning estimates."
       ],
       "inputSha256": "c850af87ebe661990045ea4eebf2e74a8852d602871dd70d65d9b59d80a26715",
       "plannedBatch": "simmer-boil-and-steam-05",
       "assignment": ".mise/editorial-campaign/2026-10-05/sides_pressure_preservation_24/assignment.json",
-      "reviewPhase": "Whole author evidence hold; no acceptance of current claims",
+      "reviewPhase": "Complete editorial review accepted after independent challenge and integration-owner inspection",
       "authorManifest": ".mise/editorial-campaign/2026-10-05/sides_pressure_preservation_24/manifest.json",
       "authorSourceSha256": "c850af87ebe661990045ea4eebf2e74a8852d602871dd70d65d9b59d80a26715"
     },
@@ -6694,17 +6685,12 @@
       "source": "Adapted from Myrecipes.com",
       "sourceUrl": "https://www.myrecipes.com/recipe/key-lime-pie-ice-cream-0",
       "group": "chocolate_frozen_desserts_04",
-      "status": "held",
-      "reviewEvidence": [
-        ".mise/editorial-campaign/2026-10-05/chocolate_frozen_desserts_04/manifest.json",
-        ".mise/editorial-campaign/2026-10-05/chocolate_frozen_desserts_04/records/key-lime-pie-ice-cream.json"
-      ],
+      "status": "accepted-pending-publication",
+      "reviewEvidence": ["docs/reviews/key-lime-pie-ice-cream.json"],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Clarify current six-cracker size versus source sixquarter-sheetpieces/1½wholesheets; no weight equivalence is established.",
-        "Choose and document complete cracker allocation: current notehalf-half versus currentmethod⅓cup-in; native⅓cup-in plus1tsppersixservings. Do not choose covertly or discard full supply.",
-        "Actual MyRecipes primary page fetch is unavailable, and a different publisher formula cannot settle this exact recipe.",
-        "Actual machine capacity/prechill/fruitacidbaseproduct and frozenquality remain untested; hold does not endorse current claims or unsupported300minute plan."
+        "Actual active/elapsed times, portion weights and sensory outcomes can be recorded when cooked; none is a current evidence blocker.",
+        "Crumb bulk volume and frozen yield remain unmeasured; neither is invented to enforce the original volume allocations."
       ],
       "inputSha256": "5bab38fe4b0590f3e4597eedb1cd799fb99284ce5b2745e168a9168d08a0399e",
       "plannedBatch": "cold-preparations-03",
@@ -6716,7 +6702,8 @@
         "sourceSha256": "5bab38fe4b0590f3e4597eedb1cd799fb99284ce5b2745e168a9168d08a0399e",
         "recordPath": ".mise/editorial-campaign/2026-10-05/chocolate_frozen_desserts_04/records/key-lime-pie-ice-cream.json",
         "recordSha256": "e9e3c8e84fb714652dc69b55a73743e0e745828b73bca8fd9e8c638006a07107"
-      }
+      },
+      "reviewPhase": "Complete editorial review accepted after independent challenge and integration-owner inspection"
     },
     {
       "slug": "key-lime-pie-with-lime-zest",
@@ -7691,22 +7678,15 @@
       "source": "Adapted from Richard Blaise",
       "sourceUrl": "https://smile.amazon.com/Try-This-Home-Recipes-Plate-ebook/dp/B009JU6UPQ",
       "group": "rice_mixed_mains_03",
-      "status": "held",
-      "reviewEvidence": [
-        {
-          "path": ".mise/editorial-campaign/2026-10-05/independent/rice_mixed_mains_03-final.json",
-          "sha256": "172e6cd8a1482abbf551427b3e63da4f55e8307d1d002b9f999eafb74c137348"
-        }
-      ],
+      "status": "accepted-pending-publication",
+      "reviewEvidence": ["docs/reviews/oatmeal-risotto.json"],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Whole recipe excluded over RM01 and other unapplied findings; the saved vinegar drains with the oats, and no finishing-vinegar route is endorsed.",
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual active/elapsed times, portion weights and sensory outcomes can be recorded when cooked; none is a current evidence blocker."
       ],
       "inputSha256": "85d98845f0ace77004a5beaec0c676c0807e2fe8560206065461631aa5debfad",
       "plannedBatch": "simmer-boil-and-steam-07",
-      "reviewPhase": "Whole recipe held; unchanged and unendorsed"
+      "reviewPhase": "Complete editorial review accepted after independent challenge and integration-owner inspection"
     },
     {
       "slug": "old-fashioned-soft-pumpkin-cookies",
@@ -9185,16 +9165,11 @@
       "source": "Adapted from Foodnetwork.com",
       "sourceUrl": "http://www.foodnetwork.com/recipes/robert-irvine/roasted-corn-chowder-with-lime-cured-shrimp-recipe-1947204",
       "group": "seafood_soups_10",
-      "status": "held",
-      "reviewEvidence": [
-        ".mise/editorial-campaign/2026-10-05/seafood_soups_10/v2/manifest.json",
-        ".mise/editorial-campaign/2026-10-05/seafood_soups_10/v2/records/roasted-corn-chowder-with-lime-cured-shrimp.json"
-      ],
+      "status": "accepted-pending-publication",
+      "reviewEvidence": ["docs/reviews/roasted-corn-chowder-with-lime-cured-shrimp.json"],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "How should the original ¼cup oil be divided between corn roasting and pot/bacon? It is one total, not two quarter-cup doses.",
-        "Should current bacon-fat/smoked-paprika/one-cup cream main remain primary alongside the complete richer source route? Its four slices are not a half-cup bacon conversion.",
-        "Confirm actual current corn yield from four ears versus separate three-cup frozen option; original two-cup kernels/about-four-ears is different, not a fixed universal equivalence."
+        "Actual active/elapsed times, portion weights and sensory outcomes can be recorded when cooked; none is a current evidence blocker."
       ],
       "inputSha256": "82139ec80bd24cb716e83eae7ad04bf8f7d00b4d03c4ef40cd36b6a903685ca5",
       "plannedBatch": "baked-savory-and-breads-09",
@@ -9207,7 +9182,8 @@
         "sourceSha256": "82139ec80bd24cb716e83eae7ad04bf8f7d00b4d03c4ef40cd36b6a903685ca5",
         "recordPath": ".mise/editorial-campaign/2026-10-05/seafood_soups_10/v2/records/roasted-corn-chowder-with-lime-cured-shrimp.json",
         "recordSha256": "b870f4a28267d803a85731fdc3c00efa45cfe90d66c51d35bc47e9629a107589"
-      }
+      },
+      "reviewPhase": "Complete editorial review accepted after independent challenge and integration-owner inspection"
     },
     {
       "slug": "roasted-fall-harvest-salad",
@@ -12041,16 +12017,17 @@
       "source": null,
       "sourceUrl": null,
       "group": "soups_broths_01",
-      "status": "held",
-      "reviewEvidence": [
-        "private whole-recipe soups_broths_01 proposal/record; independent/root gate required"
-      ],
+      "status": "accepted-pending-publication",
+      "reviewEvidence": ["docs/reviews/vegetable-minestrone.json"],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Does the finishing2tbsp tomato paste replace the base2tbsp, or add2tbsp for4tbsp total? Exact saved variant is ambiguous; no interpretation accepted."
+        "Refine actual six-portion bowl size, evaporation and stock salt balance in the selected pot; no measured finished volume is promised.",
+        "Observe pasta package time, chosen vegetable cuts and the texture of separately stored/reheated pasta.",
+        "Check the household’s cooling containers and any lunch vessel for the specified temperatures rather than assuming container performance."
       ],
       "inputSha256": "27de53faf8aee042cf57b423c3b49d75ce12dbe4063219919f31dfe03572f722",
-      "plannedBatch": "simmer-boil-and-steam-11"
+      "plannedBatch": "simmer-boil-and-steam-11",
+      "reviewPhase": "Complete editorial review accepted after independent challenge and integration-owner inspection"
     },
     {
       "slug": "vegetable-muffin",
@@ -13184,6 +13161,7 @@
   "routingLimitations": "Provisional routing uses current metadata to reduce coordination work. Reviewer must confirm actual process from complete recipe before starting; tags never establish method applicability or a recipe defect.",
   "statusCounts": {
     "production-verified": 382,
-    "held": 27
+    "held": 18,
+    "accepted-pending-publication": 9
   }
 }

@@ -598,6 +598,37 @@ for (const row of confirmed) {
               assert.equal(output, live.input, 'reset restores exact live ingredient');
           }
         }
+      } else if (row.slug === 'honey-glazed-spareribs' && row.caseId === 38) {
+        // Preserve the original compound parser fixture and every numeric oracle below.
+        // The model-specific version scales actual rib weight; rack count is approximate.
+        const pork = data.formula.components
+          .flatMap((c) => c.ingredients)
+          .find((i) => i.id === 'pork');
+        assert.deepEqual(pork.quantity, { amount: 4, unit: 'lb' });
+        assert.match(pork.preparation, /original 4-lb batch; cut into 3-rib sections/);
+        for (const factor of factors) {
+          assert.equal(numeric(formatFormulaIngredient(pork, factor).match(number)[0]), 4 * factor);
+          assert.match(formatFormulaIngredient(pork, factor), /cut into 3-rib sections/);
+        }
+      } else if (row.slug === 'vegetable-minestrone' && [64, 65, 66].includes(row.caseId)) {
+        // The user chose a complete new primary-source formula; retain old parser oracles.
+        const ingredients = data.formula.components.flatMap((c) => c.ingredients);
+        const ingredient = ingredients.find(
+          (i) => i.id === { 64: 'rosemary', 65: 'small-pasta', 66: 'fresh-herbs' }[row.caseId]
+        );
+        assert.equal(data.formula.version, 1);
+        assert.ok(!data.ingredients.includes(component.input));
+        if (row.caseId === 66) {
+          assert.ok(ingredient.allowance && !ingredient.quantity);
+        } else {
+          const amount = row.caseId === 64 ? 1 : 100;
+          assert.deepEqual(ingredient.quantity, { amount, unit: row.caseId === 64 ? 'tbsp' : 'g' });
+          for (const factor of factors)
+            assert.equal(
+              numeric(formatFormulaIngredient(ingredient, factor).match(number)[0]),
+              amount * factor
+            );
+        }
       } else {
         assert.ok(
           data.ingredients.includes(component.input),

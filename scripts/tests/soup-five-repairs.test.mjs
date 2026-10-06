@@ -7,11 +7,12 @@ const read = (slug) => matter(fs.readFileSync(`src/content/recipes/${slug}.md`, 
 
 test('pressure soup supplies celery and discloses pressure overhead without undoing natural release', () => {
   const { data, content } = read('instant-pot-butternut-squash-soup');
-  assert.ok(data.ingredients.includes('1 stalk Celery, cut into 1-inch pieces'));
-  assert.match(data.totalTime, /plus pressure build and full natural release/);
+  assert.ok(data.ingredients.some((x) => /1 stalk of celery, cut into 1-inch pieces/i.test(x)));
+  assert.match(data.learning.timing, /pressure buildup/);
+  assert.match(data.learning.timing, /full natural release/);
   assert.ok(!data.cookingMethods.includes('grill'));
-  assert.match(content, /release fully naturally/);
-  assert.match(content, /cooker off/);
+  assert.match(content, /release fully naturally/i);
+  assert.match(content, /turn off and unplug the cooker/i);
 });
 test('classic wontons inventory bowl seasonings and optional garnish independently of the filling', () => {
   const { data, content } = read('classic-wonton-soup');

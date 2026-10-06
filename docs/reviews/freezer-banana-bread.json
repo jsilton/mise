@@ -1,0 +1,2114 @@
+{
+  "slug": "freezer-banana-bread",
+  "title": "Freezer Banana Bread",
+  "status": "complete editorial review; accepted locally; publication pending",
+  "date": "2026-10-06",
+  "inputCommit": "0bf936ce8fdac00634ed1171ee8ece86cccd4332",
+  "inputSha256": "cec9ddf01c406a74ab2885528589769456c5c010185f0112c92eff36663f6722",
+  "inputCandidateSha256": "6f122f86c25f1a51a33cc9ffa022505903adbfa4464524aad87bef7fdaa24d81",
+  "acceptedSourceSha256": "fb23144d3c9f95a9a8135906552842a96e228573927ab188e139f6a100e8ab8f",
+  "scope": "Existing held source in original 409-source editorial campaign",
+  "exactBefore": {
+    "frontmatter": {
+      "title": "Freezer Banana Bread",
+      "difficulty": "easy",
+      "cookingMethods": ["bake", "blend"],
+      "dietary": ["vegetarian"],
+      "occasions": ["meal-prep", "kid-friendly", "weekend-project"],
+      "seasons": ["year-round"],
+      "nutritionalDensity": "moderate",
+      "leftovers": "excellent",
+      "equipment": ["loaf-pan", "blender", "mixing-bowl"],
+      "advancePrep": ["make-ahead", "freeze-ahead"],
+      "flavorProfile": ["sweet", "rich"],
+      "cuisines": ["American"],
+      "role": "main",
+      "vibe": "nutritious",
+      "prepTime": "15 min",
+      "cookTime": "50 min",
+      "totalTime": "65 min",
+      "servings": "12 slices",
+      "pairsWith": ["banana-oat-greek-yogurt-muffins", "almond-zucchini-bread", "anadama-bread"],
+      "ingredients": [
+        "3 medium Ripe Bananas, mashed",
+        "1 3/4 cups Whole-Wheat Flour",
+        "1/4 cup Maple Syrup",
+        "1 large Egg",
+        "1/2 cup Plain Greek Yogurt",
+        "1/3 cup Milk of choice",
+        "1 tsp Ground Cinnamon",
+        "1 tsp Baking Powder",
+        "1/2 tsp Baking Soda",
+        "1 tsp Vanilla Extract"
+      ],
+      "origin": "United States",
+      "nutrition": {
+        "calories": 115,
+        "protein": 2.5,
+        "carbs": 25.5,
+        "fat": 0.5,
+        "fiber": 1,
+        "sugar": 20.5,
+        "sodium": 160
+      }
+    },
+    "body": "\n## Chef's Note\n\nThis banana bread is designed for freezer storage. The key to a perfect slice every morning is using Greek yogurt instead of butter to create a dense, moist texture that survives the freezing process without becoming crumbly. We blend the bananas and wet ingredients in a blender to create a smooth mixture before folding in the flour - this ensures even distribution of sweetness and prevents mushy pockets.\n\n## Directions\n\n1.  **The Emulsion:** Preheat oven to 350°F. In a blender, combine bananas, maple syrup, vanilla, cinnamon, egg, yogurt, and milk. Blend on high for 30 seconds until perfectly smooth.\n2.  **Dry Mix:** In a large bowl, whisk together the whole-wheat flour, baking soda, and baking powder.\n3.  **Combine:** Pour the wet ingredients into the dry. Stir with a spatula until **just combined** (do not over-mix, or the whole-wheat will turn tough).\n4.  **Bake:** Pour into a greased loaf pan. Bake for 50-55 minutes until a toothpick inserted into the center comes out clean.\n5.  **Cool:** Let cool in the pan for 15 minutes before slicing.\n6.  **The Freeze:** To store, slice the loaf into 1/2-inch rounds. Place parchment between slices and freeze in a zip-top bag. Reheat individual slices in the toaster for a Crunch finish.\n"
+  },
+  "exactAfter": {
+    "frontmatter": {
+      "title": "Freezer Banana Bread",
+      "difficulty": "easy",
+      "cookingMethods": ["bake", "blend"],
+      "dietary": ["vegetarian"],
+      "occasions": ["meal-prep", "kid-friendly", "weekend-project"],
+      "seasons": ["year-round"],
+      "nutritionalDensity": "moderate",
+      "leftovers": "excellent",
+      "equipment": ["loaf-pan", "blender", "mixing-bowl", "cooling-rack", "food-thermometer"],
+      "advancePrep": ["make-ahead", "freeze-ahead"],
+      "flavorProfile": ["sweet", "rich"],
+      "cuisines": ["American"],
+      "role": "main",
+      "vibe": "nutritious",
+      "prepTime": "20–25 min active",
+      "cookTime": "50–55 min, or longer as needed",
+      "totalTime": "About 2½–3½ hr, including cooling",
+      "servings": "1 batch",
+      "pairsWith": ["banana-oat-greek-yogurt-muffins", "almond-zucchini-bread", "anadama-bread"],
+      "ingredients": [
+        "--- Banana bread ---",
+        "3 medium ripe bananas, mashed",
+        "1 3/4 cups whole-wheat flour",
+        "1/4 cup maple syrup",
+        "1 large egg",
+        "1/2 cup plain Greek yogurt",
+        "1/3 cup milk of choice",
+        "1 tsp ground cinnamon",
+        "1 tsp baking powder",
+        "1/2 tsp baking soda",
+        "1 tsp vanilla extract",
+        "nonstick spray, enough to grease the loaf pan or pans"
+      ],
+      "description": "A whole-wheat banana bread with Greek yogurt and maple syrup, cooled fully and frozen in individual slices.",
+      "formula": {
+        "version": 1,
+        "yield": {
+          "amount": 1,
+          "unit": "batch"
+        },
+        "components": [
+          {
+            "id": "bread",
+            "name": "Banana bread",
+            "ingredients": [
+              {
+                "id": "bananas",
+                "key": "bananas",
+                "name": "medium ripe banana",
+                "quantity": {
+                  "amount": 3,
+                  "unit": "count"
+                },
+                "plural": "medium ripe bananas",
+                "preparation": "mashed",
+                "uses": [
+                  {
+                    "step": "blend",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "whole-wheat-flour",
+                "key": "whole-wheat-flour",
+                "name": "whole-wheat flour",
+                "quantity": {
+                  "amount": "1 3/4",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "dry",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "maple-syrup",
+                "key": "maple-syrup",
+                "name": "maple syrup",
+                "quantity": {
+                  "amount": "1/4",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "blend",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "egg",
+                "key": "egg",
+                "name": "large egg",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "count"
+                },
+                "plural": "large eggs",
+                "uses": [
+                  {
+                    "step": "blend",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "greek-yogurt",
+                "key": "greek-yogurt",
+                "name": "plain Greek yogurt",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "blend",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "milk",
+                "key": "milk",
+                "name": "milk of choice",
+                "quantity": {
+                  "amount": "1/3",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "blend",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "cinnamon",
+                "key": "cinnamon",
+                "name": "ground cinnamon",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "blend",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "baking-powder",
+                "key": "baking-powder",
+                "name": "baking powder",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "dry",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "baking-soda",
+                "key": "baking-soda",
+                "name": "baking soda",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "dry",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "vanilla-extract",
+                "key": "vanilla-extract",
+                "name": "vanilla extract",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "blend",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "nonstick-spray",
+                "key": "nonstick-spray",
+                "name": "nonstick spray",
+                "allowance": "enough to grease the loaf pan or pans",
+                "uses": [
+                  {
+                    "step": "prepare",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "id": "prepare",
+            "title": "Prepare",
+            "text": "Heat the oven to 350°F. Grease a loaf pan with {{ingredients}}. Have a second small loaf pan available if the batter would come close to the rim; the batter needs clear space to rise."
+          },
+          {
+            "id": "blend",
+            "title": "Blend the wet ingredients",
+            "text": "Combine {{ingredients}} in a blender. Blend just until smooth, about 30 seconds, scraping the container as needed."
+          },
+          {
+            "id": "dry",
+            "title": "Mix the dry ingredients",
+            "text": "In a large bowl, whisk {{ingredients}} together until the leaveners are evenly distributed."
+          },
+          {
+            "id": "combine",
+            "title": "Fold and fill",
+            "text": "Pour the wet mixture into the dry ingredients. Fold with a spatula just until no dry flour remains. Scrape into the greased loaf pan and level gently. If there is insufficient space above the batter for it to rise, divide the batch between the prepared pans instead of filling to the rim."
+          },
+          {
+            "id": "bake",
+            "title": "Bake through the center",
+            "text": "Bake at 350°F. For a full-batch loaf, begin checking at about 50 minutes; use 50–55 minutes as a starting range. Check smaller loaves earlier and remove them separately as they finish. The center should be set, and a thin knife inserted into the middle in a few places should come out without wet batter; moist crumbs are fine. A food thermometer provides another check: look for 200–205°F in the center, with no cooler raw section nearby. Avoid touching the pan with the probe. Continue baking until these cues agree; loosely tent the top with foil if it browns before the center is done."
+          },
+          {
+            "id": "cool",
+            "title": "Cool completely",
+            "text": "Let the bread rest in its pan for about 15 minutes. Loosen the edges, turn out carefully onto a rack, and leave until completely cool before slicing or wrapping."
+          },
+          {
+            "id": "freeze",
+            "title": "Slice and freeze",
+            "text": "Cut crosswise into roughly ½-inch slices. For the original batch, expect roughly 12 slices; the actual count depends on the pan and the thickness you cut. Separate slices with parchment, wrap in airtight portions, then place in a freezer bag or airtight freezer container. Freeze promptly after cooling and packing."
+          },
+          {
+            "id": "serve",
+            "title": "Serve a slice",
+            "text": "Unwrap a slice and thaw it at room temperature or toast it directly from frozen. Use gentle toaster or toaster-oven heat until warmed to your liking; take care with a slice that is too small or fragile for an upright toaster."
+          }
+        ]
+      },
+      "learning": {
+        "focus": "Bake the moist center fully and cool before packing slices.",
+        "outcome": "A set loaf that can be portioned and wrapped without trapping steam.",
+        "techniques": ["leavening", "temperature"],
+        "before": [
+          "Grease the loaf pan and make sure the batter has clear space above it to rise; use an additional pan if needed.",
+          "Plan for roughly 12 half-inch slices from the original batch; pan shape and slice thickness change the count.",
+          "Set out a cooling rack, parchment and airtight freezer packaging."
+        ],
+        "checkpoints": [
+          {
+            "step": 4,
+            "cue": "No dry flour remains, and the batter sits below the rim with room to rise.",
+            "why": "Gentle mixing limits toughness, and headroom keeps the rising batter contained."
+          },
+          {
+            "step": 5,
+            "cue": "The center is set, a thin knife shows no wet batter in several places, and a temperature check reads about 200–205°F through the center.",
+            "why": "A browned top or one clean probe insertion can miss an underbaked pocket."
+          },
+          {
+            "step": 6,
+            "cue": "After the brief pan rest, the loaf cools fully on a rack before cutting.",
+            "why": "The crumb continues setting as it cools, and airtight wrapping should not trap warm steam."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "The surface is browned but the center is still wet.",
+            "cause": "Pan depth, banana size or oven heat has changed the center-set time.",
+            "fix": "Tent loosely with foil and continue baking; check the center again rather than relying on the original clock."
+          },
+          {
+            "problem": "Warm slices compress or shed wet crumbs.",
+            "cause": "The loaf was sliced before cooling, or the center was underbaked.",
+            "fix": "Let a fully baked loaf cool completely before slicing; for the next batch, check several center positions before removing it."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Maple syrup",
+            "alternative": "Use honey in place of the syrup at the listed amount.",
+            "effect": "Honey changes the flavor; retain the rest of the formula and use the same center checks."
+          }
+        ],
+        "storage": "When fully cool, separate slices with parchment, wrap airtight in small portions and freeze at 0°F. For best quality, plan to use within about 3 months. Thaw unwrapped slices at room temperature or toast directly from frozen. Keep unused frozen portions sealed.",
+        "timing": "Allow about 20–25 minutes of hands-on preparation and packing, a starting bake of 50–55 minutes, and roughly 1–2 hours for full cooling after the 15-minute pan rest. Plan on about 2½–3½ hours through packing; a deep pan can need a longer bake or cool. Full cooling is the endpoint before wrapping. Smaller loaves and scaled batches need their own center checks; times do not multiply with ingredients.",
+        "sources": [
+          {
+            "title": "King Arthur Baking: How to tell when banana bread is done",
+            "url": "https://www.kingarthurbaking.com/blog/2018/03/15/how-to-tell-when-banana-bread-is-done"
+          },
+          {
+            "title": "King Arthur Baking: How can I freeze my bread?",
+            "url": "https://www.kingarthurbaking.com/blog/2023/12/20/freeze-bread"
+          },
+          {
+            "title": "FDA: Flour Is a Raw Food",
+            "url": "https://www.fda.gov/consumers/consumer-updates/flour-raw-food-and-other-safety-facts"
+          },
+          {
+            "title": "FDA: Refrigerator Thermometers and Food Safety",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/refrigerator-thermometers-cold-facts-about-food-safety"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    },
+    "body": "\n## Chef's Note\n\nRipe bananas, maple syrup and Greek yogurt make this a simple whole-wheat loaf with no added butter or oil in the batter. Blend the wet ingredients for an even mixture, fold in the flour gently, and let the bread cool all the way through before slicing it for the freezer.\n\n## Directions\n\n1. **Prepare:** Heat the oven to 350°F. Grease a loaf pan with nonstick spray. Have a second small loaf pan available if the batter would come close to the rim; the batter needs clear space to rise.\n2. **Blend the wet ingredients:** Combine medium ripe bananas, maple syrup, large egg, plain Greek yogurt, milk of choice, ground cinnamon, and vanilla extract in a blender. Blend just until smooth, about 30 seconds, scraping the container as needed.\n3. **Mix the dry ingredients:** In a large bowl, whisk whole-wheat flour, baking powder, and baking soda together until the leaveners are evenly distributed.\n4. **Fold and fill:** Pour the wet mixture into the dry ingredients. Fold with a spatula just until no dry flour remains. Scrape into the greased loaf pan and level gently. If there is insufficient space above the batter for it to rise, divide the batch between the prepared pans instead of filling to the rim.\n5. **Bake through the center:** Bake at 350°F. For a full-batch loaf, begin checking at about 50 minutes; use 50–55 minutes as a starting range. Check smaller loaves earlier and remove them separately as they finish. The center should be set, and a thin knife inserted into the middle in a few places should come out without wet batter; moist crumbs are fine. A food thermometer provides another check: look for 200–205°F in the center, with no cooler raw section nearby. Avoid touching the pan with the probe. Continue baking until these cues agree; loosely tent the top with foil if it browns before the center is done.\n6. **Cool completely:** Let the bread rest in its pan for about 15 minutes. Loosen the edges, turn out carefully onto a rack, and leave until completely cool before slicing or wrapping.\n7. **Slice and freeze:** Cut crosswise into roughly ½-inch slices. For the original batch, expect roughly 12 slices; the actual count depends on the pan and the thickness you cut. Separate slices with parchment, wrap in airtight portions, then place in a freezer bag or airtight freezer container. Freeze promptly after cooling and packing.\n8. **Serve a slice:** Unwrap a slice and thaw it at room temperature or toast it directly from frozen. Use gentle toaster or toaster-oven heat until warmed to your liking; take care with a slice that is too small or fragile for an upright toaster.\n"
+  },
+  "authorAssessment": {
+    "date": "2026-10-06",
+    "scope": "Bounded agent-first complete private baking/dough proposals reusing retained whole reviews",
+    "decisions": [
+      {
+        "slug": "chocolate-bread-pudding-with-vanilla-ice-cream",
+        "beforePath": "evidence/chocolate-bread-pudding-with-vanilla-ice-cream-current.private.md",
+        "beforeSha256": "9b01c842b4b3c88255f0a3419a7e71a04eacc8b0142ac9c1b048a2f1f617b789",
+        "candidatePath": "candidates/chocolate-bread-pudding-with-vanilla-ice-cream.md",
+        "candidateSha256": "cef987b5bbeb31d097a325e8fd44db9283ffc879401a43c4b139a3048a957502",
+        "formulaSha256": "3952d6873f9548a1cf7c49c1099afaba647132ec61f6149cf663ab365ed80611",
+        "decision": "complete-private-proposal-awaiting-independent-challenge",
+        "confidence": "moderate; independent consequential challenge required",
+        "noKitchenTest": true,
+        "noIdentity": true,
+        "evidence": {
+          "confidence": "moderate; independent consequential challenge required",
+          "formula": "Both exact retained native JSON and earlier HTML contain all nine quantities and the remaining-half-cup finishing cue. No exact current publisher formula surfaced in one focused retry.",
+          "authoredChoices": [
+            "Cream allocation is a transparent editorial inference: 1½ cups total minus the specified remaining ½ cup leaves 1 cup for custard. It is not asserted to be a recovered original reservation.",
+            "Sugar total is exactly ¾ cup: custard gets ½ cup and topping ¼ cup (4 tbsp). Fractions 2/3 and 1/3 preserve both allocations when scaled.",
+            "A flexible shallow individual-dish route replaces the unsupported equivalence between eight 6-ounce cups and a 9×13 dish. Actual mixture fit and every center govern the number of dishes and cooking endpoint.",
+            "The 15–45-minute bake and 60–90-minute elapsed range are editorial planning estimates, not a tested promise."
+          ],
+          "disputes": [
+            "Saved eight 6-ounce cups total only 6 cups to their rims, before headroom. Thirteen cups of loose bread are not the final soaked volume, so this arithmetic cannot prove either fit or a corrected cup count.",
+            "The original publisher’s intended first cream amount and vessel size remain unrecovered. The draft is an attributed adaptation, not a certification of the saved geometry."
+          ],
+          "minimumRemainingQuestion": "Can the independent editor accept the explicitly authored 1-cup custard/½-cup finish and adaptive shallow-dish route while preserving 13 cups of bread and all other amounts?",
+          "kitchenQuestions": [
+            "Actual number/capacity of dishes for this batch, center-set time and preferred texture; these have not been measured.",
+            "Original Ritz-Carlton vessel and first cream reservation, if an exact original later becomes available."
+          ],
+          "sources": [
+            "Retained native and HTML cooking originals",
+            "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety",
+            "https://www.fda.gov/food/buy-store-serve-safe-food/refrigerator-thermometers-cold-facts-about-food-safety"
+          ]
+        },
+        "ingredients": [
+          {
+            "id": "pudding.brioche",
+            "name": "brioche",
+            "quantity": {
+              "amount": 13,
+              "unit": "cup"
+            },
+            "allowance": null,
+            "preparation": "cut into ¾-inch cubes; stale bread preferred",
+            "role": "ingredient",
+            "destinations": [
+              {
+                "step": "bread",
+                "share": 1
+              }
+            ],
+            "allocatedShare": 1,
+            "classification": "Preserved defining ingredient and amount"
+          },
+          {
+            "id": "pudding.bittersweet-chocolate",
+            "name": "bittersweet chocolate (70% cacao)",
+            "quantity": {
+              "amount": 6,
+              "unit": "oz"
+            },
+            "allowance": null,
+            "preparation": "chopped",
+            "role": "ingredient",
+            "destinations": [
+              {
+                "step": "bread",
+                "share": 1
+              }
+            ],
+            "allocatedShare": 1,
+            "classification": "Preserved defining ingredient and amount"
+          },
+          {
+            "id": "pudding.white-chocolate-chips",
+            "name": "white chocolate chips",
+            "quantity": {
+              "amount": 6,
+              "unit": "oz"
+            },
+            "allowance": null,
+            "preparation": null,
+            "role": "ingredient",
+            "destinations": [
+              {
+                "step": "bread",
+                "share": 1
+              }
+            ],
+            "allocatedShare": 1,
+            "classification": "Preserved defining ingredient and amount"
+          },
+          {
+            "id": "pudding.eggs",
+            "name": "large egg",
+            "quantity": {
+              "amount": 4,
+              "unit": "count"
+            },
+            "allowance": null,
+            "preparation": null,
+            "role": "ingredient",
+            "destinations": [
+              {
+                "step": "custard",
+                "share": 1
+              }
+            ],
+            "allocatedShare": 1,
+            "classification": "Preserved defining ingredient and amount"
+          },
+          {
+            "id": "pudding.granulated-sugar",
+            "name": "granulated sugar",
+            "quantity": {
+              "amount": "3/4",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "preparation": null,
+            "role": "ingredient",
+            "destinations": [
+              {
+                "step": "custard",
+                "share": "2/3"
+              },
+              {
+                "step": "finish",
+                "share": "1/3"
+              }
+            ],
+            "allocatedShare": 1,
+            "classification": "Preserved defining ingredient and amount"
+          },
+          {
+            "id": "pudding.vanilla-extract",
+            "name": "vanilla extract",
+            "quantity": {
+              "amount": 2,
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "preparation": null,
+            "role": "ingredient",
+            "destinations": [
+              {
+                "step": "custard",
+                "share": 1
+              }
+            ],
+            "allocatedShare": 1,
+            "classification": "Preserved defining ingredient and amount"
+          },
+          {
+            "id": "pudding.heavy-cream",
+            "name": "heavy cream",
+            "quantity": {
+              "amount": "1 1/2",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "preparation": null,
+            "role": "ingredient",
+            "destinations": [
+              {
+                "step": "custard",
+                "share": "2/3"
+              },
+              {
+                "step": "finish",
+                "share": "1/3"
+              }
+            ],
+            "allocatedShare": 1,
+            "classification": "Preserved defining ingredient and amount"
+          },
+          {
+            "id": "pudding.whole-milk",
+            "name": "whole milk",
+            "quantity": {
+              "amount": "1/2",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "preparation": null,
+            "role": "ingredient",
+            "destinations": [
+              {
+                "step": "custard",
+                "share": 1
+              }
+            ],
+            "allocatedShare": 1,
+            "classification": "Preserved defining ingredient and amount"
+          },
+          {
+            "id": "pudding.vanilla-bean-ice-cream",
+            "name": "vanilla bean ice cream",
+            "quantity": {
+              "amount": 2,
+              "unit": "cup"
+            },
+            "allowance": null,
+            "preparation": null,
+            "role": "garnish",
+            "destinations": [
+              {
+                "step": "serve",
+                "share": 1
+              }
+            ],
+            "allocatedShare": 1,
+            "classification": "Preserved defining ingredient and amount"
+          },
+          {
+            "id": "pudding.nonstick-spray",
+            "name": "nonstick spray",
+            "quantity": null,
+            "allowance": "enough to grease the baking dishes",
+            "preparation": null,
+            "role": "ingredient",
+            "destinations": [
+              {
+                "step": "prepare",
+                "share": 1
+              }
+            ],
+            "allocatedShare": 1,
+            "classification": "Explicit allowance already present in saved method/adjustment wording"
+          }
+        ],
+        "preservedOriginalIngredients": [
+          "13 cups Brioche bread, 3/4-inch cubes (stale preferred)",
+          "6 oz Bittersweet Chocolate (70% cacao), chopped",
+          "6 oz White Chocolate Chips",
+          "4 large Eggs",
+          "1/2 cup + 4 tbsp Granulated Sugar",
+          "2 tsp Vanilla Extract",
+          "1 1/2 cups Heavy Cream",
+          "1/2 cup Whole Milk",
+          "2 cups Vanilla Bean Ice Cream"
+        ],
+        "generatedIngredients": [
+          "--- Bread pudding ---",
+          "13 cups brioche, cut into ¾-inch cubes; stale bread preferred",
+          "6 oz bittersweet chocolate (70% cacao), chopped",
+          "6 oz white chocolate chips",
+          "4 large eggs",
+          "3/4 cup granulated sugar",
+          "2 tsp vanilla extract",
+          "1 1/2 cups heavy cream",
+          "1/2 cup whole milk",
+          "2 cups vanilla bean ice cream",
+          "nonstick spray, enough to grease the baking dishes"
+        ],
+        "generatedYield": "8 portions",
+        "shoppingList": [
+          "13 cups brioche",
+          "6 oz bittersweet chocolate (70% cacao)",
+          "6 oz white chocolate chips",
+          "4 large eggs",
+          "3/4 cup granulated sugar",
+          "2 tsp vanilla extract",
+          "1 1/2 cups heavy cream",
+          "1/2 cup whole milk",
+          "2 cups vanilla bean ice cream",
+          "nonstick spray, enough to grease the baking dishes"
+        ],
+        "priorWholeReviewReused": ".mise/editorial-campaign/2026-10-05/chocolate_bakes_03/records/chocolate-bread-pudding-with-vanilla-ice-cream.json",
+        "removedUnsupportedNutrition": {
+          "calories": 745,
+          "protein": 12.5,
+          "carbs": 61.5,
+          "fat": 50.5,
+          "fiber": 2,
+          "sugar": 40.5,
+          "sodium": 340
+        },
+        "sourceChanges": "Existing measured formula and deliberate richness retained; useful original methods remain exact in private source copies. No borrowed publisher quantities or generic health edits.",
+        "publicSourceUnchanged": true
+      },
+      {
+        "slug": "freezer-banana-bread",
+        "beforePath": "evidence/freezer-banana-bread-current.private.md",
+        "beforeSha256": "cec9ddf01c406a74ab2885528589769456c5c010185f0112c92eff36663f6722",
+        "candidatePath": "candidates/freezer-banana-bread.md",
+        "candidateSha256": "1a2e2559d192a4404898a497db41a542fc9375e98da1df80b6dbd5192a732c01",
+        "formulaSha256": "03c15c7a88a49568197e7382e82a12fd819717b7bdf93d522c2c26b99137001b",
+        "decision": "complete-private-proposal-awaiting-independent-challenge",
+        "confidence": "high for preserved formula and handling; moderate for unmeasured timing and headroom route",
+        "noKitchenTest": true,
+        "noIdentity": true,
+        "evidence": {
+          "confidence": "high for preserved formula and handling; moderate for unmeasured timing and headroom route",
+          "formula": "Exact native cooking original and first Git agree on all ten measured ingredients, one large egg, no added batter fat, and an unspecified greased loaf pan. Native allows the same-volume honey substitution.",
+          "authoredChoices": [
+            "Retain current blend-all-wet method; saved original separately blends banana, cinnamon, syrup and vanilla, then folds egg, yogurt and milk into that mixture. Both complete methods preserve the same formula; the historical variant remains exact in private evidence.",
+            "No pan dimensions, flour mass, banana mass or added fat/salt are imported. A conditional additional-pan route preserves the whole batch and checks centers individually.",
+            "Formula yield is one batch. The old 12 half-inch slices is explicitly a planning estimate in prose, rather than a certified count or pan geometry.",
+            "The saved 15-minute pan rest is retained, followed by full rack cooling before slicing/freezing. Freezing and reheating claims now stay within applicable general primary bread guidance."
+          ],
+          "disputes": [
+            "Native metadata says 45-minute cook/one-hour total but native method says 50–55-minute bake. Method is stronger for first check; full cooling and packing were omitted from both schedules.",
+            "Other publishers’ two-egg or oil/butter formulas cannot validate or replace this distinct retained formula."
+          ],
+          "minimumRemainingQuestion": "No source-dependent formula question remains. Independent editor should challenge the headroom/center-check route and honest planning estimate.",
+          "kitchenQuestions": [
+            "Actual pan geometry, center-set time, fully cool time, slice count and freeze/thaw texture for the preserved formula."
+          ],
+          "sources": [
+            "Retained actual native cooking original and first Git",
+            "https://www.kingarthurbaking.com/blog/2018/03/15/how-to-tell-when-banana-bread-is-done",
+            "https://www.kingarthurbaking.com/blog/2023/12/20/freeze-bread",
+            "https://www.fda.gov/consumers/consumer-updates/flour-raw-food-and-other-safety-facts",
+            "https://www.fda.gov/food/buy-store-serve-safe-food/refrigerator-thermometers-cold-facts-about-food-safety"
+          ]
+        },
+        "ingredients": [
+          {
+            "id": "bread.bananas",
+            "name": "medium ripe banana",
+            "quantity": {
+              "amount": 3,
+              "unit": "count"
+            },
+            "allowance": null,
+            "preparation": "mashed",
+            "role": "ingredient",
+            "destinations": [
+              {
+                "step": "blend",
+                "share": 1
+              }
+            ],
+            "allocatedShare": 1,
+            "classification": "Preserved defining ingredient and amount"
+          },
+          {
+            "id": "bread.whole-wheat-flour",
+            "name": "whole-wheat flour",
+            "quantity": {
+              "amount": "1 3/4",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "preparation": null,
+            "role": "ingredient",
+            "destinations": [
+              {
+                "step": "dry",
+                "share": 1
+              }
+            ],
+            "allocatedShare": 1,
+            "classification": "Preserved defining ingredient and amount"
+          },
+          {
+            "id": "bread.maple-syrup",
+            "name": "maple syrup",
+            "quantity": {
+              "amount": "1/4",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "preparation": null,
+            "role": "ingredient",
+            "destinations": [
+              {
+                "step": "blend",
+                "share": 1
+              }
+            ],
+            "allocatedShare": 1,
+            "classification": "Preserved defining ingredient and amount"
+          },
+          {
+            "id": "bread.egg",
+            "name": "large egg",
+            "quantity": {
+              "amount": 1,
+              "unit": "count"
+            },
+            "allowance": null,
+            "preparation": null,
+            "role": "ingredient",
+            "destinations": [
+              {
+                "step": "blend",
+                "share": 1
+              }
+            ],
+            "allocatedShare": 1,
+            "classification": "Preserved defining ingredient and amount"
+          },
+          {
+            "id": "bread.greek-yogurt",
+            "name": "plain Greek yogurt",
+            "quantity": {
+              "amount": "1/2",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "preparation": null,
+            "role": "ingredient",
+            "destinations": [
+              {
+                "step": "blend",
+                "share": 1
+              }
+            ],
+            "allocatedShare": 1,
+            "classification": "Preserved defining ingredient and amount"
+          },
+          {
+            "id": "bread.milk",
+            "name": "milk of choice",
+            "quantity": {
+              "amount": "1/3",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "preparation": null,
+            "role": "ingredient",
+            "destinations": [
+              {
+                "step": "blend",
+                "share": 1
+              }
+            ],
+            "allocatedShare": 1,
+            "classification": "Preserved defining ingredient and amount"
+          },
+          {
+            "id": "bread.cinnamon",
+            "name": "ground cinnamon",
+            "quantity": {
+              "amount": 1,
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "preparation": null,
+            "role": "ingredient",
+            "destinations": [
+              {
+                "step": "blend",
+                "share": 1
+              }
+            ],
+            "allocatedShare": 1,
+            "classification": "Preserved defining ingredient and amount"
+          },
+          {
+            "id": "bread.baking-powder",
+            "name": "baking powder",
+            "quantity": {
+              "amount": 1,
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "preparation": null,
+            "role": "ingredient",
+            "destinations": [
+              {
+                "step": "dry",
+                "share": 1
+              }
+            ],
+            "allocatedShare": 1,
+            "classification": "Preserved defining ingredient and amount"
+          },
+          {
+            "id": "bread.baking-soda",
+            "name": "baking soda",
+            "quantity": {
+              "amount": "1/2",
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "preparation": null,
+            "role": "ingredient",
+            "destinations": [
+              {
+                "step": "dry",
+                "share": 1
+              }
+            ],
+            "allocatedShare": 1,
+            "classification": "Preserved defining ingredient and amount"
+          },
+          {
+            "id": "bread.vanilla-extract",
+            "name": "vanilla extract",
+            "quantity": {
+              "amount": 1,
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "preparation": null,
+            "role": "ingredient",
+            "destinations": [
+              {
+                "step": "blend",
+                "share": 1
+              }
+            ],
+            "allocatedShare": 1,
+            "classification": "Preserved defining ingredient and amount"
+          },
+          {
+            "id": "bread.nonstick-spray",
+            "name": "nonstick spray",
+            "quantity": null,
+            "allowance": "enough to grease the loaf pan or pans",
+            "preparation": null,
+            "role": "ingredient",
+            "destinations": [
+              {
+                "step": "prepare",
+                "share": 1
+              }
+            ],
+            "allocatedShare": 1,
+            "classification": "Explicit allowance already present in saved method/adjustment wording"
+          }
+        ],
+        "preservedOriginalIngredients": [
+          "3 medium Ripe Bananas, mashed",
+          "1 3/4 cups Whole-Wheat Flour",
+          "1/4 cup Maple Syrup",
+          "1 large Egg",
+          "1/2 cup Plain Greek Yogurt",
+          "1/3 cup Milk of choice",
+          "1 tsp Ground Cinnamon",
+          "1 tsp Baking Powder",
+          "1/2 tsp Baking Soda",
+          "1 tsp Vanilla Extract"
+        ],
+        "generatedIngredients": [
+          "--- Banana bread ---",
+          "3 medium ripe bananas, mashed",
+          "1 3/4 cups whole-wheat flour",
+          "1/4 cup maple syrup",
+          "1 large egg",
+          "1/2 cup plain Greek yogurt",
+          "1/3 cup milk of choice",
+          "1 tsp ground cinnamon",
+          "1 tsp baking powder",
+          "1/2 tsp baking soda",
+          "1 tsp vanilla extract",
+          "nonstick spray, enough to grease the loaf pan or pans"
+        ],
+        "generatedYield": "1 batch",
+        "shoppingList": [
+          "3 medium ripe bananas",
+          "1 3/4 cups whole-wheat flour",
+          "1/4 cup maple syrup",
+          "1 large egg",
+          "1/2 cup plain Greek yogurt",
+          "1/3 cup milk of choice",
+          "1 tsp ground cinnamon",
+          "1 tsp baking powder",
+          "1/2 tsp baking soda",
+          "1 tsp vanilla extract",
+          "nonstick spray, enough to grease the loaf pan or pans"
+        ],
+        "priorWholeReviewReused": ".mise/editorial-campaign/2026-10-05/quick_breads_02/v2/records/freezer-banana-bread.json",
+        "removedUnsupportedNutrition": {
+          "calories": 115,
+          "protein": 2.5,
+          "carbs": 25.5,
+          "fat": 0.5,
+          "fiber": 1,
+          "sugar": 20.5,
+          "sodium": 160
+        },
+        "sourceChanges": "Existing measured formula and deliberate richness retained; useful original methods remain exact in private source copies. No borrowed publisher quantities or generic health edits.",
+        "publicSourceUnchanged": true
+      },
+      {
+        "slug": "fresh-wonton-wrappers",
+        "beforePath": "evidence/fresh-wonton-wrappers-current.private.md",
+        "beforeSha256": "1e6cb4fccc8bf841bfe240b259c7761a8b488aa4734ba710daca401cb6e959e7",
+        "candidatePath": "candidates/fresh-wonton-wrappers.md",
+        "candidateSha256": "cba045d96686a2f304312fc2816eea4ff98e699487e6f906403ac8b4a266e0e4",
+        "formulaSha256": "6bd1fe55b4c9edc4483b364eab3cbfd7ce4913a7c4711ac4820200f45ee1db0f",
+        "decision": "complete-private-proposal-awaiting-independent-challenge",
+        "confidence": "high for preserved quantities and physical rolling/storage controls; low for approximate count",
+        "noKitchenTest": true,
+        "noIdentity": true,
+        "evidence": {
+          "confidence": "high for preserved quantities and physical rolling/storage controls; low for approximate count",
+          "formula": "The actual first Git contains the same two-cup all-purpose flour, half-teaspoon kosher salt, one beaten egg, one-third-cup adjustable water and cornstarch formula. It has no author or primary URL and no exact match in the retained original native450; provenance is honestly Mise-retained rather than falsely publisher-certified.",
+          "authoredChoices": [
+            "All five defining ingredients remain. Adjustment water is an explicit allowance already permitted by the saved adjustable-water wording; no flour weight or egg size is invented.",
+            "The Woks of Life provides rolling, covered rest, cutting and scrap-handling technique only. Its bread-flour/water/no-egg/no-salt formula and its count are deliberately not blended into this retained formula.",
+            "King Arthur’s fresh egg pasta supports wrapped whole dough through overnight; that narrower holding option is applied conservatively to this raw egg-and-wheat dough, not as a cut-wrapper shelf-life certification.",
+            "Prompt raw-wrapper freezing and refrigerated thawing are practical editorial handling choices governed by FDA time/temperature guidance. No exact freezer-quality duration or preservation claim is made.",
+            "Formula yield is one batch; approximate 60 count remains qualified in cooking prose. No universal setting or exact numerical thickness is claimed.",
+            "Current har-gow pairing is preserved but explicitly distinguished as a different starch wrapper, not an application for this dough."
+          ],
+          "disputes": [
+            "The saved universal setting 6/7 is not supported across pasta-machine models.",
+            "Saved two-day fridge and three-month freezer claims have no applicable egg-wrapper evidence; a different egg-free author’s filled-wonton freezing interval cannot certify this raw wrapper.",
+            "No measured flour/egg weights are available for a precise hydration ratio, dough mass, area or yield proof. Qualitative firmness and thickness cues are the supported operating route."
+          ],
+          "minimumRemainingQuestion": "No source-dependent measured-ingredient question remains. Independent editor should challenge whether the qualitative thickness and conservative raw-egg holding route are sufficient.",
+          "kitchenQuestions": [
+            "Actual dough mass/hydration, roller thickness, wrapper count, sealing and frozen-wrapper handling for this retained formula."
+          ],
+          "sources": [
+            "Retained actual first Git and prior whole-review evidence",
+            "https://thewoksoflife.com/how-to-make-wonton-wrappers/",
+            "https://www.kingarthurbaking.com/recipes/fresh-pasta-recipe",
+            "https://www.fda.gov/consumers/consumer-updates/flour-raw-food-and-other-safety-facts",
+            "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety",
+            "https://www.fda.gov/food/buy-store-serve-safe-food/refrigerator-thermometers-cold-facts-about-food-safety"
+          ]
+        },
+        "ingredients": [
+          {
+            "id": "dough.all-purpose-flour",
+            "name": "all-purpose flour",
+            "quantity": {
+              "amount": 2,
+              "unit": "cup"
+            },
+            "allowance": null,
+            "preparation": null,
+            "role": "ingredient",
+            "destinations": [
+              {
+                "step": "mix",
+                "share": 1
+              }
+            ],
+            "allocatedShare": 1,
+            "classification": "Preserved defining ingredient and amount"
+          },
+          {
+            "id": "dough.kosher-salt",
+            "name": "kosher salt",
+            "quantity": {
+              "amount": "1/2",
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "preparation": null,
+            "role": "ingredient",
+            "destinations": [
+              {
+                "step": "mix",
+                "share": 1
+              }
+            ],
+            "allocatedShare": 1,
+            "classification": "Preserved defining ingredient and amount"
+          },
+          {
+            "id": "dough.egg",
+            "name": "egg",
+            "quantity": {
+              "amount": 1,
+              "unit": "count"
+            },
+            "allowance": null,
+            "preparation": "beaten",
+            "role": "ingredient",
+            "destinations": [
+              {
+                "step": "mix",
+                "share": 1
+              }
+            ],
+            "allocatedShare": 1,
+            "classification": "Preserved defining ingredient and amount"
+          },
+          {
+            "id": "dough.water",
+            "name": "water",
+            "quantity": {
+              "amount": "1/3",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "preparation": null,
+            "role": "ingredient",
+            "destinations": [
+              {
+                "step": "mix",
+                "share": 1
+              }
+            ],
+            "allocatedShare": 1,
+            "classification": "Preserved defining ingredient and amount"
+          },
+          {
+            "id": "dough.adjustment-water",
+            "name": "additional water",
+            "quantity": null,
+            "allowance": "a few drops at a time, only if needed to bring dry crumbs together",
+            "preparation": null,
+            "role": "cooking-water",
+            "destinations": [
+              {
+                "step": "knead",
+                "share": 1
+              }
+            ],
+            "allocatedShare": 1,
+            "classification": "Explicit allowance already present in saved method/adjustment wording"
+          },
+          {
+            "id": "dough.cornstarch",
+            "name": "cornstarch",
+            "quantity": null,
+            "allowance": "enough to dust the sheets and prevent them sticking together",
+            "preparation": null,
+            "role": "ingredient",
+            "destinations": [
+              {
+                "step": "roll",
+                "share": 1
+              }
+            ],
+            "allocatedShare": 1,
+            "classification": "Preserved defining ingredient and amount"
+          }
+        ],
+        "preservedOriginalIngredients": [
+          "2 cups All-Purpose Flour",
+          "1/2 tsp Kosher Salt",
+          "1 Egg, beaten",
+          "1/3 cup Water (Adjust as needed)",
+          "Cornstarch (for dusting - Do not use flour for dusting!)"
+        ],
+        "generatedIngredients": [
+          "--- Wonton dough ---",
+          "2 cups all-purpose flour",
+          "1/2 tsp kosher salt",
+          "1 egg, beaten",
+          "1/3 cup water",
+          "additional water, a few drops at a time, only if needed to bring dry crumbs together",
+          "cornstarch, enough to dust the sheets and prevent them sticking together"
+        ],
+        "generatedYield": "1 batch",
+        "shoppingList": [
+          "2 cups all-purpose flour",
+          "1/2 tsp kosher salt",
+          "1 egg",
+          "1/3 cup water",
+          "cornstarch, enough to dust the sheets and prevent them sticking together"
+        ],
+        "priorWholeReviewReused": ".mise/editorial-campaign/2026-10-05/pasta_dough_filled_05/records/fresh-wonton-wrappers.json",
+        "removedUnsupportedNutrition": {
+          "calories": 15,
+          "protein": 0.5,
+          "carbs": 3.5,
+          "fat": 0,
+          "fiber": 0,
+          "sugar": 0,
+          "sodium": 40
+        },
+        "sourceChanges": "Existing measured formula and deliberate richness retained; useful original methods remain exact in private source copies. No borrowed publisher quantities or generic health edits.",
+        "publicSourceUnchanged": true
+      }
+    ],
+    "omissions": [
+      "No physical cooking, pan-fit, probe-placement or freezer-texture test.",
+      "No exact current Ritz-Carlton publisher formula recovered.",
+      "No measured hydration/count proof for the unattributed retained wrapper formula."
+    ],
+    "nextRequiredStep": "Different editor conducts independent consequential challenge of exact candidate hashes; root alone integrates, preserves existing identities, runs shared gates and publishes."
+  },
+  "independentChallenge": {
+    "date": "2026-10-06",
+    "role": "Independent equipment/source editor; not these candidates’ author",
+    "manifestPath": ".mise/editorial-campaign/2026-10-06/agent-first-baking-three/manifest.json",
+    "manifestSha256": "9512be989aa40e0fe4dd15f333563d25c4bf26cdf377701b21e88fcff18e0ff7",
+    "scope": "Three exact whole recipes; retained originals, current recipes, prior whole findings, formula allocations, practical geometry, storage and ½×/2× were examined. Linked wonton recipes read only for specific dependencies.",
+    "verdict": "Pudding rejected; banana bread and wonton cooking accepted, pending two origin-field deletions and exact-byte acceptance",
+    "recipes": [
+      {
+        "slug": "chocolate-bread-pudding-with-vanilla-ice-cream",
+        "candidatePath": ".mise/editorial-campaign/2026-10-06/agent-first-baking-three/candidates/chocolate-bread-pudding-with-vanilla-ice-cream.md",
+        "candidateSha256": "cef987b5bbeb31d097a325e8fd44db9283ffc879401a43c4b139a3048a957502",
+        "formulaSha256": "3952d6873f9548a1cf7c49c1099afaba647132ec61f6149cf663ab365ed80611",
+        "beforePath": ".mise/editorial-campaign/2026-10-06/agent-first-baking-three/evidence/chocolate-bread-pudding-with-vanilla-ice-cream-current.private.md",
+        "beforeSha256": "9b01c842b4b3c88255f0a3419a7e71a04eacc8b0142ac9c1b048a2f1f617b789",
+        "currentPublicSha256": "9b01c842b4b3c88255f0a3419a7e71a04eacc8b0142ac9c1b048a2f1f617b789",
+        "currentPublicMatchesAuthorBefore": true,
+        "priorWholeReviewRead": ".mise/editorial-campaign/2026-10-05/chocolate_bakes_03/records/chocolate-bread-pudding-with-vanilla-ice-cream.json",
+        "evidenceRead": [
+          {
+            "path": ".mise/editorial-campaign/2026-10-06/agent-first-baking-three/evidence/chocolate-bread-pudding-with-vanilla-ice-cream-native-original.private.json",
+            "sha256": "a48b062882f90fdd5c0ebe2ef6367a83dd8552638a40c5bcae03aa8d7b3c0ce1",
+            "cookingFieldsOnlyDisplayed": true
+          },
+          {
+            "path": ".mise/editorial-campaign/2026-10-06/agent-first-baking-three/evidence/chocolate-bread-pudding-with-vanilla-ice-cream-earlier-original.private.html",
+            "sha256": "e755953f2a7a43e8c6b4b8af9b2150291feb7ebd327e1701efdfaf78205bfc2e",
+            "cookingFieldsOnlyDisplayed": true
+          },
+          {
+            "path": ".mise/editorial-campaign/2026-10-06/agent-first-baking-three/evidence/chocolate-bread-pudding-with-vanilla-ice-cream-first-git.private.md",
+            "sha256": "379aa82c10d35907ab5ba526f50dcbd7bf53b31e12c3c9194650b18a40d58c93",
+            "cookingFieldsOnlyDisplayed": true
+          },
+          {
+            "path": ".mise/editorial-campaign/2026-10-06/agent-first-baking-three/evidence/targeted-primary-retrievals.json",
+            "sha256": "593c582da24707c333ebd26cef599b5711c0518ad2fa801f8824c44b4fb45eec"
+          }
+        ],
+        "verdict": "REJECT",
+        "cookingVerdict": "Whole formula unresolved; keep held",
+        "findings": [
+          {
+            "severity": "consequential",
+            "topic": "Whole custard-to-bread ratio remains unsupported",
+            "before": "13 cups brioche; custard receives 1 cup heavy cream, ½ cup milk and 4 large eggs; ½ cup cream finishes the top.",
+            "after": null,
+            "rationale": "The cream split and sugar split each account for the written totals. That arithmetic is a defensible allocation inference, but it does not establish the moisture or texture of the whole batch. Both the retained native original and earlier HTML say 13 cups bread, 1½ cups cream, ½ cup milk and eight 6-ounce dishes, then refer to remaining ½ cup cream without an explicit reservation. The exact publisher formula has not been recovered. More dishes resolve a physical fit conflict; they do not supply missing custard or validate the ratio. Do not increase dairy, reduce bread or silently change the dessert into a different bake.",
+            "comparison": "King Arthur’s different complete chocolate pudding has 6½ cups bread with 3 cups dairy and 6 eggs. This is a qualitative mechanism comparison showing the proposal is unusually low in custard for its bread amount, not a universal ratio rule, a transferred bread-weight conversion or permission to import that formula.",
+            "sources": [
+              "Retained exact native cooking original, earlier HTML and first Git",
+              "https://www.kingarthurbaking.com/recipes/dark-chocolate-bread-pudding-recipe"
+            ],
+            "confidence": "High that the published complete-review proposal remains unsupported; moderate about the resulting texture because the retained bread mass and actual baked texture are unknown."
+          }
+        ],
+        "acceptedParts": [
+          "Sugar total ¾ cup splits correctly into ½ cup custard and ¼ cup /4 tbsp finish.",
+          "Cream total 1½ cups splits arithmetically into 1 cup custard and ½ cup finish; no extra cream invented.",
+          "All bittersweet/white chocolate, brioche, vanilla and 2 cups ice cream retained.",
+          "FDA egg-custard 160°F, leftover 165°F, refrigerator 40°F and prompt shallow cooling are applicable.",
+          "Additional shallow dishes and independent center checks are sensible capacity controls; no eight-6-ounce /9×13 equivalence endorsed."
+        ],
+        "nextQuestion": "Do you have the original Ritz-Carlton recipe card that can resolve the 13 cups of bread and the cream allocation?",
+        "agentResearch": "One additional focused search for Ritz-Carlton Cancun chocolate bread pudding and exact 13-cup brioche/white-chocolate wording did not recover an applicable publisher recipe. Mise’s own current page was returned and excluded as circular evidence. No further search performed.",
+        "scaling": "At ½× the custard would receive ½ cup cream, ¼ cup milk and 2 eggs for 6½ cups bread; at 2× it would receive 2 cups cream, 1 cup milk and 8 eggs for 26 cups bread. Ratios remain the same unresolved formula. Correct allocation and extra dishes do not certify either scale.",
+        "requiredCorrections": [],
+        "noKitchenMeasurementQuestion": "Do not ask for a pan brand, exact pan volume, ramekin count or measured yield as a substitute for resolving the formula. Preserve the authored candidate and exact original privately without applying either recipe/status changes.",
+        "ingredientAllocations": [
+          {
+            "name": "brioche",
+            "quantity": {
+              "amount": 13,
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": [
+              {
+                "step": "bread",
+                "share": 1
+              }
+            ]
+          },
+          {
+            "name": "bittersweet chocolate (70% cacao)",
+            "quantity": {
+              "amount": 6,
+              "unit": "oz"
+            },
+            "allowance": null,
+            "destinations": [
+              {
+                "step": "bread",
+                "share": 1
+              }
+            ]
+          },
+          {
+            "name": "white chocolate chips",
+            "quantity": {
+              "amount": 6,
+              "unit": "oz"
+            },
+            "allowance": null,
+            "destinations": [
+              {
+                "step": "bread",
+                "share": 1
+              }
+            ]
+          },
+          {
+            "name": "large egg",
+            "quantity": {
+              "amount": 4,
+              "unit": "count"
+            },
+            "allowance": null,
+            "destinations": [
+              {
+                "step": "custard",
+                "share": 1
+              }
+            ]
+          },
+          {
+            "name": "granulated sugar",
+            "quantity": {
+              "amount": "3/4",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": [
+              {
+                "step": "custard",
+                "share": "2/3"
+              },
+              {
+                "step": "finish",
+                "share": "1/3"
+              }
+            ]
+          },
+          {
+            "name": "vanilla extract",
+            "quantity": {
+              "amount": 2,
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "destinations": [
+              {
+                "step": "custard",
+                "share": 1
+              }
+            ]
+          },
+          {
+            "name": "heavy cream",
+            "quantity": {
+              "amount": "1 1/2",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": [
+              {
+                "step": "custard",
+                "share": "2/3"
+              },
+              {
+                "step": "finish",
+                "share": "1/3"
+              }
+            ]
+          },
+          {
+            "name": "whole milk",
+            "quantity": {
+              "amount": "1/2",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": [
+              {
+                "step": "custard",
+                "share": 1
+              }
+            ]
+          },
+          {
+            "name": "vanilla bean ice cream",
+            "quantity": {
+              "amount": 2,
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": [
+              {
+                "step": "serve",
+                "share": 1
+              }
+            ]
+          },
+          {
+            "name": "nonstick spray",
+            "quantity": null,
+            "allowance": "enough to grease the baking dishes",
+            "destinations": [
+              {
+                "step": "prepare",
+                "share": 1
+              }
+            ]
+          }
+        ],
+        "wholeCandidateRead": true,
+        "physicalTest": false,
+        "acceptanceScope": "Independent editorial cooking judgment only; origin deletions require an exact new hash before full PASS. No physical reproducibility, specific measured yield or new source claim certified."
+      },
+      {
+        "slug": "freezer-banana-bread",
+        "candidatePath": ".mise/editorial-campaign/2026-10-06/agent-first-baking-three/candidates/freezer-banana-bread.md",
+        "candidateSha256": "1a2e2559d192a4404898a497db41a542fc9375e98da1df80b6dbd5192a732c01",
+        "formulaSha256": "03c15c7a88a49568197e7382e82a12fd819717b7bdf93d522c2c26b99137001b",
+        "beforePath": ".mise/editorial-campaign/2026-10-06/agent-first-baking-three/evidence/freezer-banana-bread-current.private.md",
+        "beforeSha256": "cec9ddf01c406a74ab2885528589769456c5c010185f0112c92eff36663f6722",
+        "currentPublicSha256": "cec9ddf01c406a74ab2885528589769456c5c010185f0112c92eff36663f6722",
+        "currentPublicMatchesAuthorBefore": true,
+        "priorWholeReviewRead": ".mise/editorial-campaign/2026-10-05/quick_breads_02/v2/records/freezer-banana-bread.json",
+        "evidenceRead": [
+          {
+            "path": ".mise/editorial-campaign/2026-10-06/agent-first-baking-three/evidence/freezer-banana-bread-native-original.private.json",
+            "sha256": "381734ad2ed66e127459c7f12ba336c37773dfc461587affb99e1618ba244a6c",
+            "cookingFieldsOnlyDisplayed": true
+          },
+          {
+            "path": ".mise/editorial-campaign/2026-10-06/agent-first-baking-three/evidence/freezer-banana-bread-first-git.private.md",
+            "sha256": "4f6fa48dd75ff9546135b3639f7f48329dcf24b382fbd09b5a65e17914b39e8d",
+            "cookingFieldsOnlyDisplayed": true
+          },
+          {
+            "path": ".mise/editorial-campaign/2026-10-06/agent-first-baking-three/evidence/targeted-primary-retrievals.json",
+            "sha256": "593c582da24707c333ebd26cef599b5711c0518ad2fa801f8824c44b4fb45eec"
+          }
+        ],
+        "verdict": "COOKING_PASS_PENDING_ORIGIN_REMOVAL",
+        "cookingVerdict": "PASS",
+        "findings": [
+          {
+            "severity": "non-cooking metadata",
+            "topic": "Unsupported formula-country claim",
+            "field": "origin",
+            "before": "United States",
+            "after": null,
+            "rationale": "The exact saved formula is unattributed and has no primary URL; actual country of this particular recipe has not been established. Remove the country claim and retain American cuisine/style and all cooking content.",
+            "confidence": "High for the provenance gap; removal does not change cooking."
+          }
+        ],
+        "acceptedParts": [
+          "All ten measured native ingredients preserved: 3 medium bananas, 1¾ cups whole-wheat flour, ¼ cup maple syrup, 1 large egg, ½ cup plain Greek yogurt, ⅓ cup milk, 1 tsp each cinnamon/baking powder/vanilla and ½ tsp baking soda. No butter, oil, salt, second egg or flour mass added.",
+          "Honey same-volume option is explicitly in the native original. Current blend-all-wet route is a plausible preserved variant; the original banana/spice/syrup-only blending method remains in exact private evidence.",
+          "Unknown loaf pan does not block this recipe: visible rise headroom, an additional pan when needed, earlier checks for smaller loaves and independent center checks handle capacity without inventing dimensions.",
+          "50–55-minute starting bake follows native method rather than contradictory 45-minute metadata. King Arthur’s retained quick-bread guidance actually supports 200–205°F, several center checks and no wet batter; the 205–210°F exception is for gluten-free bread and is not imported.",
+          "The saved 15-minute pan rest is followed by full rack cooling. The 2½–3½-hour total includes full cooling/packing; roughly 12 half-inch slices is qualified as the original-batch estimate, and structured yield is one batch.",
+          "King Arthur’s primary general bread guidance supports fully cool, airtight small portions/parchment, about three months as a quality plan and room-temperature slice thawing or direct toasting. It does not certify this formula’s specific texture or a food-safety shelf life.",
+          "No FDA generic 2h/1h classification of this fully baked quick bread is invented. Raw flour/egg are baked through; the recipe gives no multi-day room-temperature storage claim."
+        ],
+        "nextQuestion": null,
+        "scaling": "At ½× use 1½ bananas, ⅞ cup flour, ⅛ cup syrup, ½ large egg, ¼ cup yogurt, ⅙ cup milk and proportionate leaveners/flavorings; use a suitable smaller loaf and earlier center checks. At 2× use complete doubled ingredients in enough pans with rise space, checking centers separately. Fractional egg can be divided after beating without inventing egg mass. Blender capacity still governs the work; there is no numeric fill claim or doubled timer.",
+        "requiredCorrections": [
+          {
+            "field": "origin",
+            "operation": "delete",
+            "before": "United States",
+            "after": null
+          }
+        ],
+        "noKitchenMeasurementQuestion": "Pan dimensions, actual slice count, cooling time and freezer texture remain useful later observations, not current blockers or required household facts.",
+        "ingredientAllocations": [
+          {
+            "name": "medium ripe banana",
+            "quantity": {
+              "amount": 3,
+              "unit": "count"
+            },
+            "allowance": null,
+            "destinations": [
+              {
+                "step": "blend",
+                "share": 1
+              }
+            ]
+          },
+          {
+            "name": "whole-wheat flour",
+            "quantity": {
+              "amount": "1 3/4",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": [
+              {
+                "step": "dry",
+                "share": 1
+              }
+            ]
+          },
+          {
+            "name": "maple syrup",
+            "quantity": {
+              "amount": "1/4",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": [
+              {
+                "step": "blend",
+                "share": 1
+              }
+            ]
+          },
+          {
+            "name": "large egg",
+            "quantity": {
+              "amount": 1,
+              "unit": "count"
+            },
+            "allowance": null,
+            "destinations": [
+              {
+                "step": "blend",
+                "share": 1
+              }
+            ]
+          },
+          {
+            "name": "plain Greek yogurt",
+            "quantity": {
+              "amount": "1/2",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": [
+              {
+                "step": "blend",
+                "share": 1
+              }
+            ]
+          },
+          {
+            "name": "milk of choice",
+            "quantity": {
+              "amount": "1/3",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": [
+              {
+                "step": "blend",
+                "share": 1
+              }
+            ]
+          },
+          {
+            "name": "ground cinnamon",
+            "quantity": {
+              "amount": 1,
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "destinations": [
+              {
+                "step": "blend",
+                "share": 1
+              }
+            ]
+          },
+          {
+            "name": "baking powder",
+            "quantity": {
+              "amount": 1,
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "destinations": [
+              {
+                "step": "dry",
+                "share": 1
+              }
+            ]
+          },
+          {
+            "name": "baking soda",
+            "quantity": {
+              "amount": "1/2",
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "destinations": [
+              {
+                "step": "dry",
+                "share": 1
+              }
+            ]
+          },
+          {
+            "name": "vanilla extract",
+            "quantity": {
+              "amount": 1,
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "destinations": [
+              {
+                "step": "blend",
+                "share": 1
+              }
+            ]
+          },
+          {
+            "name": "nonstick spray",
+            "quantity": null,
+            "allowance": "enough to grease the loaf pan or pans",
+            "destinations": [
+              {
+                "step": "prepare",
+                "share": 1
+              }
+            ]
+          }
+        ],
+        "wholeCandidateRead": true,
+        "physicalTest": false,
+        "acceptanceScope": "Independent editorial cooking judgment only; origin deletions require an exact new hash before full PASS. No physical reproducibility, specific measured yield or new source claim certified."
+      },
+      {
+        "slug": "fresh-wonton-wrappers",
+        "candidatePath": ".mise/editorial-campaign/2026-10-06/agent-first-baking-three/candidates/fresh-wonton-wrappers.md",
+        "candidateSha256": "cba045d96686a2f304312fc2816eea4ff98e699487e6f906403ac8b4a266e0e4",
+        "formulaSha256": "6bd1fe55b4c9edc4483b364eab3cbfd7ce4913a7c4711ac4820200f45ee1db0f",
+        "beforePath": ".mise/editorial-campaign/2026-10-06/agent-first-baking-three/evidence/fresh-wonton-wrappers-current.private.md",
+        "beforeSha256": "1e6cb4fccc8bf841bfe240b259c7761a8b488aa4734ba710daca401cb6e959e7",
+        "currentPublicSha256": "1e6cb4fccc8bf841bfe240b259c7761a8b488aa4734ba710daca401cb6e959e7",
+        "currentPublicMatchesAuthorBefore": true,
+        "priorWholeReviewRead": ".mise/editorial-campaign/2026-10-05/pasta_dough_filled_05/records/fresh-wonton-wrappers.json",
+        "evidenceRead": [
+          {
+            "path": ".mise/editorial-campaign/2026-10-06/agent-first-baking-three/evidence/fresh-wonton-wrappers-first-git.private.md",
+            "sha256": "528982f1032e64fb42c41f5a04fd427bf750eda957f0e7d1ed26cb8b413c6f54",
+            "cookingFieldsOnlyDisplayed": true
+          },
+          {
+            "path": ".mise/editorial-campaign/2026-10-06/agent-first-baking-three/evidence/targeted-primary-retrievals.json",
+            "sha256": "593c582da24707c333ebd26cef599b5711c0518ad2fa801f8824c44b4fb45eec"
+          }
+        ],
+        "verdict": "COOKING_PASS_PENDING_ORIGIN_REMOVAL",
+        "cookingVerdict": "PASS",
+        "findings": [
+          {
+            "severity": "non-cooking metadata",
+            "topic": "Unsupported formula-country claim",
+            "field": "origin",
+            "before": "China",
+            "after": null,
+            "rationale": "The retained first-Git formula has no established author or primary URL. The earlier whole review explicitly records that country origins of the particular saved formulas were unsupported. Keep Chinese culinary style; do not turn that style into a provenance claim for this formula.",
+            "confidence": "High for the recorded provenance gap; removal does not change cooking."
+          }
+        ],
+        "acceptedParts": [
+          "The exact retained 2 cups AP flour, ½ tsp kosher salt, 1 beaten egg, ⅓ cup starting water and cornstarch are intact. Extra water is the original adjustment allowance, added only until dry crumbs adhere; no egg size, flour mass or hydration percentage invented.",
+          "The firm-dough and pliable-sheet cues, covered 30–60-minute rest, 3½-inch square size, cornstarch separation and re-rested offcuts are practical. Numeric machine settings removed; a qualitative thickness cue is not a new rolling measurement.",
+          "The Woks of Life is a technique source only: its bread-flour/water formula and quantity/count are not imported into the retained egg/AP-flour formula. Attribution states the distinction.",
+          "One-batch yield and approximately 60 original-batch wrappers are honest estimates; rolling thickness/trimming change count. No exact mass, area or count is certified.",
+          "Same-day cut-wrapper use, whole egg dough through overnight under tight wrap, prompt freezing and refrigerator thawing are a conservative authored route. King Arthur supports overnight whole egg pasta dough as an analogy; it does not establish cut-wrapper shelf life. Unsupported raw-wrapper two-day/three-month promises removed.",
+          "FDA raw flour/egg handling, refrigerated pauses and cumulative 2h/1h counter limits are applicable. Chilling pauses reconcile a long 75–135-minute project with the limit; freezing does not make raw dough ready to eat.",
+          "Linked Cantonese shrimp/pork wontons were read: their complete recipe keeps waiting filling cold, calls for wrappers as needed rather than a fixed count, and cooks representative centers to 165°F. Har gow was read: a separate wheat-starch/cornstarch-or-tapioca dough, expressly not replaced here. Neither linked recipe is newly certified by this narrow dependency read."
+        ],
+        "nextQuestion": null,
+        "scaling": "At ½× use 1 cup flour, ¼ tsp salt, ½ beaten egg and ⅙ cup starting water; at 2× use 4 cups flour, 1 tsp salt, 2 eggs and ⅔ cup starting water. Adjustment water and cornstarch are working allowances. Keep original square size and physical sheet cue, use more manageable pieces and chilled work periods, and do not double the clock or import a wrapper-count guarantee.",
+        "requiredCorrections": [
+          {
+            "field": "origin",
+            "operation": "delete",
+            "before": "China",
+            "after": null
+          }
+        ],
+        "noKitchenMeasurementQuestion": "Actual wrapper count, roller model, numerical thickness, egg weight and salt-brand density do not need to become household questions. They are not consequential curing or fixed hydration specifications here.",
+        "ingredientAllocations": [
+          {
+            "name": "all-purpose flour",
+            "quantity": {
+              "amount": 2,
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": [
+              {
+                "step": "mix",
+                "share": 1
+              }
+            ]
+          },
+          {
+            "name": "kosher salt",
+            "quantity": {
+              "amount": "1/2",
+              "unit": "tsp"
+            },
+            "allowance": null,
+            "destinations": [
+              {
+                "step": "mix",
+                "share": 1
+              }
+            ]
+          },
+          {
+            "name": "egg",
+            "quantity": {
+              "amount": 1,
+              "unit": "count"
+            },
+            "allowance": null,
+            "destinations": [
+              {
+                "step": "mix",
+                "share": 1
+              }
+            ]
+          },
+          {
+            "name": "water",
+            "quantity": {
+              "amount": "1/3",
+              "unit": "cup"
+            },
+            "allowance": null,
+            "destinations": [
+              {
+                "step": "mix",
+                "share": 1
+              }
+            ]
+          },
+          {
+            "name": "additional water",
+            "quantity": null,
+            "allowance": "a few drops at a time, only if needed to bring dry crumbs together",
+            "destinations": [
+              {
+                "step": "knead",
+                "share": 1
+              }
+            ]
+          },
+          {
+            "name": "cornstarch",
+            "quantity": null,
+            "allowance": "enough to dust the sheets and prevent them sticking together",
+            "destinations": [
+              {
+                "step": "roll",
+                "share": 1
+              }
+            ]
+          }
+        ],
+        "wholeCandidateRead": true,
+        "physicalTest": false,
+        "acceptanceScope": "Independent editorial cooking judgment only; origin deletions require an exact new hash before full PASS. No physical reproducibility, specific measured yield or new source claim certified."
+      }
+    ],
+    "primaryEvidence": [
+      {
+        "title": "King Arthur — How to tell when banana bread is done",
+        "url": "https://www.kingarthurbaking.com/blog/2018/03/15/how-to-tell-when-banana-bread-is-done",
+        "access": "Complete retained primary extract reviewed",
+        "appliesTo": "Quick-bread center cues; not exact formula, pan or freezer texture"
+      },
+      {
+        "title": "King Arthur — How can I freeze my bread?",
+        "url": "https://www.kingarthurbaking.com/blog/2023/12/20/freeze-bread",
+        "access": "Focused independent primary read to verify exact quality-plan/thawing statements",
+        "appliesTo": "General cooling, wrapping, frozen bread quality and slice thawing; no exact banana formula shelf-life certificate"
+      },
+      {
+        "title": "Sarah Leung — How To Make Wonton Wrappers",
+        "url": "https://thewoksoflife.com/how-to-make-wonton-wrappers/",
+        "access": "Complete retained primary method extract reviewed",
+        "appliesTo": "Physical rolling/resting/scrap technique; different bread-flour/water formula and count excluded"
+      },
+      {
+        "title": "Charlotte Rutledge — Fresh Pasta",
+        "url": "https://www.kingarthurbaking.com/recipes/fresh-pasta-recipe",
+        "access": "Complete retained primary method extract reviewed",
+        "appliesTo": "Wrapped whole egg dough overnight analogy, not raw cut-wrapper two-day or three-month certification"
+      },
+      {
+        "title": "FDA — Flour Is a Raw Food",
+        "url": "https://www.fda.gov/consumers/consumer-updates/flour-raw-food-and-other-safety-facts",
+        "access": "Retained applicable primary extract reviewed",
+        "appliesTo": "Raw flour must be cooked, no tasting raw dough, cleanup; no prescribed wrapper cook time or dough preservation promise"
+      },
+      {
+        "title": "FDA — What You Need to Know About Egg Safety",
+        "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety",
+        "access": "Complete retained primary text reviewed",
+        "appliesTo": "Custard160°F, cooked egg-dish165°F reheating, refrigerated3–4days and prompt shallow cooling; raw egg handling"
+      },
+      {
+        "title": "FDA — Refrigerator Thermometers / Cold Facts",
+        "url": "https://www.fda.gov/food/buy-store-serve-safe-food/refrigerator-thermometers-cold-facts-about-food-safety",
+        "access": "Retained applicable primary extract reviewed",
+        "appliesTo": "Refrigerator40°F/freezer0°F and perishable food counter limits; not a classification of finished quick bread as time/temperature controlled"
+      },
+      {
+        "title": "King Arthur — Dark Chocolate Bread Pudding",
+        "url": "https://www.kingarthurbaking.com/recipes/dark-chocolate-bread-pudding-recipe",
+        "access": "Focused complete primary formula/method read as challenge comparison",
+        "appliesTo": "Different pudding ratio illustrates hydration concern; none of its amounts, pan, yield, clock or five-day storage were imported"
+      }
+    ],
+    "searchLimit": "One bounded two-query original Ritz retry; no applicable original recovered. Other hotels, tourist menus, unrelated recipes and Mise’s own page excluded.",
+    "noOriginalOrCandidateEdits": true,
+    "noPublicOrStatusWrites": true,
+    "noNativeIdentityOutput": true,
+    "noGitTestsBuildsOrExports": true,
+    "kitchenTests": 0
+  },
+  "finalIndependentAcceptance": {
+    "date": "2026-10-06",
+    "verdict": "PASS",
+    "scope": "Bounded independent exact final acceptance of two origin-scalar deletions after prior whole cooking review; no renewed recipe research or runtime/gate checks.",
+    "manifestPath": ".mise/editorial-campaign/2026-10-06/agent-first-baking-three/v2/manifest.json",
+    "manifestSha256": "460f79fafe3f930f712db4a44e141abb3088c89a18bc035aa5b1473598ec7ba9",
+    "priorWholeIndependentReport": {
+      "path": ".mise/editorial-campaign/2026-10-06/agent-first-baking-three/independent-equipment.json",
+      "sha256": "d9f942f57078c06443fcb22700ac5cb0d809bc3ed03813762856c94e4358d802",
+      "preserved": true
+    },
+    "recipes": [
+      {
+        "slug": "freezer-banana-bread",
+        "beforePath": ".mise/editorial-campaign/2026-10-06/agent-first-baking-three/candidates/freezer-banana-bread.md",
+        "beforeSha256": "1a2e2559d192a4404898a497db41a542fc9375e98da1df80b6dbd5192a732c01",
+        "candidatePath": ".mise/editorial-campaign/2026-10-06/agent-first-baking-three/v2/candidates/freezer-banana-bread.md",
+        "candidateSha256": "6f122f86c25f1a51a33cc9ffa022505903adbfa4464524aad87bef7fdaa24d81",
+        "beforeMatchesManifest": true,
+        "candidateMatchesManifest": true,
+        "previousWholeCookingVerdict": "PASS",
+        "previousWholeReadBoundToBefore": true,
+        "exactRemovedScalar": {
+          "field": "origin",
+          "before": "United States",
+          "after": null
+        },
+        "exactOriginOnlyBytes": true,
+        "allOtherParsedMetadataIdentical": true,
+        "formulaIdentical": true,
+        "bodyByteIdentical": true,
+        "ingredientsIdentical": true,
+        "yieldIdentical": true,
+        "cuisineRetained": true,
+        "originAbsent": true,
+        "publicSourceSha256": "cec9ddf01c406a74ab2885528589769456c5c010185f0112c92eff36663f6722",
+        "publicSourceUnchanged": true,
+        "protectedNativeFieldsAbsentInBothDrafts": true,
+        "verdict": "PASS"
+      },
+      {
+        "slug": "fresh-wonton-wrappers",
+        "beforePath": ".mise/editorial-campaign/2026-10-06/agent-first-baking-three/candidates/fresh-wonton-wrappers.md",
+        "beforeSha256": "cba045d96686a2f304312fc2816eea4ff98e699487e6f906403ac8b4a266e0e4",
+        "candidatePath": ".mise/editorial-campaign/2026-10-06/agent-first-baking-three/v2/candidates/fresh-wonton-wrappers.md",
+        "candidateSha256": "f47d81b2cedee627c7561ffc867940c96a560baeae67fedfef3a3e0b3b3bcb33",
+        "beforeMatchesManifest": true,
+        "candidateMatchesManifest": true,
+        "previousWholeCookingVerdict": "PASS",
+        "previousWholeReadBoundToBefore": true,
+        "exactRemovedScalar": {
+          "field": "origin",
+          "before": "China",
+          "after": null
+        },
+        "exactOriginOnlyBytes": true,
+        "allOtherParsedMetadataIdentical": true,
+        "formulaIdentical": true,
+        "bodyByteIdentical": true,
+        "ingredientsIdentical": true,
+        "yieldIdentical": true,
+        "cuisineRetained": true,
+        "originAbsent": true,
+        "publicSourceSha256": "1e6cb4fccc8bf841bfe240b259c7761a8b488aa4734ba710daca401cb6e959e7",
+        "publicSourceUnchanged": true,
+        "protectedNativeFieldsAbsentInBothDrafts": true,
+        "verdict": "PASS"
+      }
+    ],
+    "pudding": {
+      "slug": "chocolate-bread-pudding-with-vanilla-ice-cream",
+      "verdict": "HELD",
+      "priorVerdict": "REJECT",
+      "candidateSha256": "cef987b5bbeb31d097a325e8fd44db9283ffc879401a43c4b139a3048a957502",
+      "candidateUnchanged": true,
+      "reason": "Cream arithmetic and flexible dish capacity do not resolve the whole thirteen-cup bread/custard formula. Exact original and rejected private proposal remain preserved; no cooking/status approval."
+    },
+    "acceptance": "Two exact private final candidates pass the earlier complete editorial cooking challenge and these agreed metadata-only corrections. This does not claim a kitchen test, exact measured yield or original-author provenance. Root alone may integrate and preserve existing native identities.",
+    "authoredCandidateEdits": false,
+    "publicRecipeOrStatusWrites": false,
+    "nativeIdentityOutput": false,
+    "gitTestsGatesBuildsOrExports": false,
+    "kitchenTests": 0
+  },
+  "exactPeerCorrections": {
+    "date": "2026-10-06",
+    "scope": "Exact two-scalar corrections requested by independent editor; pudding remains held",
+    "recipes": [
+      {
+        "slug": "freezer-banana-bread",
+        "path": ".mise/editorial-campaign/2026-10-06/agent-first-baking-three/v2/candidates/freezer-banana-bread.md",
+        "candidateSha256": "6f122f86c25f1a51a33cc9ffa022505903adbfa4464524aad87bef7fdaa24d81",
+        "beforeSha256": "1a2e2559d192a4404898a497db41a542fc9375e98da1df80b6dbd5192a732c01",
+        "onlyChange": {
+          "field": "origin",
+          "before": "United States",
+          "after": "removed unsupported country provenance; cuisine retained"
+        }
+      },
+      {
+        "slug": "fresh-wonton-wrappers",
+        "path": ".mise/editorial-campaign/2026-10-06/agent-first-baking-three/v2/candidates/fresh-wonton-wrappers.md",
+        "candidateSha256": "f47d81b2cedee627c7561ffc867940c96a560baeae67fedfef3a3e0b3b3bcb33",
+        "beforeSha256": "cba045d96686a2f304312fc2816eea4ff98e699487e6f906403ac8b4a266e0e4",
+        "onlyChange": {
+          "field": "origin",
+          "before": "China",
+          "after": "removed unsupported country provenance; cuisine retained"
+        }
+      }
+    ],
+    "originalsPreserved": true,
+    "noPublicWrites": true,
+    "noKitchenTest": true
+  },
+  "rootFinalAcceptance": "Complete source and final diff inspected: every ingredient state, preparation, allocation and method destination; ratios, source yield, capacity, active versus elapsed planning, heat, doneness, rests and chilling, storage, scaling, links and source disagreements. Authoritative model/source constraints and all prior safety repairs retained. Generated fields compiled together. No physical cooking claim.",
+  "ingredientLedger": [
+    {
+      "component": "Banana bread",
+      "id": "bananas",
+      "name": "medium ripe banana",
+      "quantity": {
+        "amount": 3,
+        "unit": "count"
+      },
+      "allowance": null,
+      "preparation": "mashed",
+      "uses": [
+        {
+          "step": "blend",
+          "share": 1
+        }
+      ]
+    },
+    {
+      "component": "Banana bread",
+      "id": "whole-wheat-flour",
+      "name": "whole-wheat flour",
+      "quantity": {
+        "amount": "1 3/4",
+        "unit": "cup"
+      },
+      "allowance": null,
+      "preparation": null,
+      "uses": [
+        {
+          "step": "dry",
+          "share": 1
+        }
+      ]
+    },
+    {
+      "component": "Banana bread",
+      "id": "maple-syrup",
+      "name": "maple syrup",
+      "quantity": {
+        "amount": "1/4",
+        "unit": "cup"
+      },
+      "allowance": null,
+      "preparation": null,
+      "uses": [
+        {
+          "step": "blend",
+          "share": 1
+        }
+      ]
+    },
+    {
+      "component": "Banana bread",
+      "id": "egg",
+      "name": "large egg",
+      "quantity": {
+        "amount": 1,
+        "unit": "count"
+      },
+      "allowance": null,
+      "preparation": null,
+      "uses": [
+        {
+          "step": "blend",
+          "share": 1
+        }
+      ]
+    },
+    {
+      "component": "Banana bread",
+      "id": "greek-yogurt",
+      "name": "plain Greek yogurt",
+      "quantity": {
+        "amount": "1/2",
+        "unit": "cup"
+      },
+      "allowance": null,
+      "preparation": null,
+      "uses": [
+        {
+          "step": "blend",
+          "share": 1
+        }
+      ]
+    },
+    {
+      "component": "Banana bread",
+      "id": "milk",
+      "name": "milk of choice",
+      "quantity": {
+        "amount": "1/3",
+        "unit": "cup"
+      },
+      "allowance": null,
+      "preparation": null,
+      "uses": [
+        {
+          "step": "blend",
+          "share": 1
+        }
+      ]
+    },
+    {
+      "component": "Banana bread",
+      "id": "cinnamon",
+      "name": "ground cinnamon",
+      "quantity": {
+        "amount": 1,
+        "unit": "tsp"
+      },
+      "allowance": null,
+      "preparation": null,
+      "uses": [
+        {
+          "step": "blend",
+          "share": 1
+        }
+      ]
+    },
+    {
+      "component": "Banana bread",
+      "id": "baking-powder",
+      "name": "baking powder",
+      "quantity": {
+        "amount": 1,
+        "unit": "tsp"
+      },
+      "allowance": null,
+      "preparation": null,
+      "uses": [
+        {
+          "step": "dry",
+          "share": 1
+        }
+      ]
+    },
+    {
+      "component": "Banana bread",
+      "id": "baking-soda",
+      "name": "baking soda",
+      "quantity": {
+        "amount": "1/2",
+        "unit": "tsp"
+      },
+      "allowance": null,
+      "preparation": null,
+      "uses": [
+        {
+          "step": "dry",
+          "share": 1
+        }
+      ]
+    },
+    {
+      "component": "Banana bread",
+      "id": "vanilla-extract",
+      "name": "vanilla extract",
+      "quantity": {
+        "amount": 1,
+        "unit": "tsp"
+      },
+      "allowance": null,
+      "preparation": null,
+      "uses": [
+        {
+          "step": "blend",
+          "share": 1
+        }
+      ]
+    },
+    {
+      "component": "Banana bread",
+      "id": "nonstick-spray",
+      "name": "nonstick spray",
+      "quantity": null,
+      "allowance": "enough to grease the loaf pan or pans",
+      "preparation": null,
+      "uses": [
+        {
+          "step": "prepare",
+          "share": 1
+        }
+      ]
+    }
+  ],
+  "remainingQuestions": [
+    "Actual pan fit, center-set timing, full cooling time, finished slice count and freezer texture remain unmeasured; source formula and practical headroom/center cues are preserved."
+  ],
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "previousReview": null,
+  "rootPresentationChanges": {
+    "reviewStatusAndDate": true,
+    "sourceCitationLabels": false,
+    "spacingOnly": false,
+    "compilerAndFormatter": true,
+    "existingIdentityPreserved": true,
+    "newVariantIdentityRegisteredOnce": false
+  },
+  "confidence": "high for preserved formula and handling; moderate for unmeasured timing and headroom route"
+}

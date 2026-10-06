@@ -1,0 +1,170 @@
+{
+  "date": "2026-10-06",
+  "status": "Validated locally; publication pending",
+  "inputCommit": "0bf936ce8fdac00634ed1171ee8ece86cccd4332",
+  "scope": {
+    "recipes": 10,
+    "existingHoldsResolved": 9,
+    "newDistinctSourceVariant": 1
+  },
+  "recipes": [
+    {
+      "slug": "instant-pot-butternut-squash-soup",
+      "sourceSha256": "ae0612873299735877f7579aafad6cb6ae9fa470876ed39664395ea9ae175104"
+    },
+    {
+      "slug": "instant-pot-potato-leek-soup",
+      "sourceSha256": "b8176622f071348aa02261ef83c3fcc265c977750aac28c8d78c491b56ee4371"
+    },
+    {
+      "slug": "honey-glazed-spareribs",
+      "sourceSha256": "e8d1d7d8519334c83774c8f44f20333c9b44b1c841529d54484b46ca7d16f1e9"
+    },
+    {
+      "slug": "vegetable-minestrone",
+      "sourceSha256": "0d9d48cc86fa6ca9e02a78da125aa9ff637a75bfb1d953a640191a8c882d5f73"
+    },
+    {
+      "slug": "key-lime-pie-ice-cream",
+      "sourceSha256": "b64cd15dd9a304a7be11e93aae9d93e49d1ca8913d4bb2de461d755f8fb052ec"
+    },
+    {
+      "slug": "oatmeal-risotto",
+      "sourceSha256": "ea2eb9ed34651e8fb3b2662554feb87abffd25db2217e756aa5b0ce6d6ca8459"
+    },
+    {
+      "slug": "roasted-corn-chowder-with-lime-cured-shrimp",
+      "sourceSha256": "d03cf4ff81138df9b574c8758e09d488a92fa9b63b65be0b9fd1afad274ed1c2"
+    },
+    {
+      "slug": "roasted-corn-chowder-robert-irvine",
+      "sourceSha256": "3b3d1a473e2d67031c9b377b42a548dd7ed3a98d80cda51bb3a1fc9a85a4e5f2"
+    },
+    {
+      "slug": "freezer-banana-bread",
+      "sourceSha256": "fb23144d3c9f95a9a8135906552842a96e228573927ab188e139f6a100e8ab8f"
+    },
+    {
+      "slug": "fresh-wonton-wrappers",
+      "sourceSha256": "4f53155b06122747329985ada4d58cde53e5dd79f45948cd8493250b2292d908"
+    }
+  ],
+  "gates": [
+    {
+      "gate": "tests",
+      "status": "PASS"
+    },
+    {
+      "gate": "lint",
+      "status": "PASS"
+    },
+    {
+      "gate": "validation",
+      "status": "PASS"
+    },
+    {
+      "gate": "formulas",
+      "status": "PASS"
+    },
+    {
+      "gate": "qa",
+      "status": "PASS"
+    },
+    {
+      "gate": "build",
+      "status": "PASS"
+    },
+    {
+      "gate": "json-export",
+      "status": "PASS"
+    },
+    {
+      "gate": "paprika-export",
+      "status": "PASS"
+    },
+    {
+      "gate": "text-export",
+      "status": "PASS"
+    },
+    {
+      "gate": "export-parity",
+      "status": "PASS"
+    },
+    {
+      "gate": "identity-bindings",
+      "status": "PASS"
+    },
+    {
+      "gate": "privacy",
+      "status": "PASS"
+    },
+    {
+      "gate": "built-links",
+      "status": "PASS"
+    }
+  ],
+  "tests": {
+    "passed": 257,
+    "failed": 0,
+    "oldParserFixturesAndNumericOraclesRetained": true,
+    "modelSpecificReleaseOraclesUpdatedFromManual": true
+  },
+  "browser": {
+    "browser": "Codex internal browser",
+    "desktopPages": 10,
+    "mobilePages": 10,
+    "mobileViewport": {
+      "width": 390,
+      "height": 844
+    },
+    "horizontalOverflow": false,
+    "scaling": {
+      "factors": [0.5, 2, 1],
+      "leadingIngredientQuantitiesAndYieldsMatchCompiledExpected": true,
+      "ingredientCountsUnchanged": true,
+      "resetAllIngredientStringsExact": true,
+      "perLoadWaterAllowancePreservedAtAllThreeFactors": true
+    },
+    "cooking": {
+      "recipe": "honey-glazed-spareribs",
+      "stepAndIngredientCheckmarksPersistAfterReload": true,
+      "resetClearsBoth": true,
+      "exitWorks": true
+    },
+    "linkedVariant": {
+      "source": "roasted-corn-chowder-with-lime-cured-shrimp",
+      "destination": "roasted-corn-chowder-robert-irvine",
+      "navigationAndTitleVerified": true
+    },
+    "print": {
+      "controlsPresentAllPages": true,
+      "existingPrintCSSPreserved": true,
+      "actualPrinterOrPDFPaginationExercised": false
+    },
+    "liveVerification": "pending exact remote commit, CI/deployment and all ten complete affected live pages"
+  },
+  "preservation": {
+    "existingSources": 650,
+    "unchangedExistingSourceFiles": 641,
+    "changedExistingSources": 9,
+    "newVariant": 1,
+    "allExistingIdentitiesPreserved": true,
+    "allExistingPrivateBindingsPreserved": true,
+    "draftsPreserved": true
+  },
+  "coverage": {
+    "sources": 651,
+    "completeEditorial": 633,
+    "pending": 18,
+    "originalCampaignVerifiedBeforePublication": 382,
+    "originalCampaignScope": 409,
+    "newAdditionsKeptSeparate": true
+  },
+  "limitations": [
+    "No physical kitchen testing",
+    "No native-app sync",
+    "Planning times, source yields and wrapper/slice counts are estimates; no manufactured nutrition or measured results"
+  ],
+  "kitchenTested": false,
+  "nativeAppSynced": false
+}

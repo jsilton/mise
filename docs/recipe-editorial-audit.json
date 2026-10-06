@@ -1,11 +1,11 @@
 {
   "summary": {
-    "recipes": 650,
-    "editoriallyReviewed": 623,
+    "recipes": 651,
+    "editoriallyReviewed": 633,
     "kitchenTested": 0,
     "errors": 0,
     "priorityReviews": 0,
-    "reviewItems": 59
+    "reviewItems": 41
   },
   "limitations": "Automated triage only. Does not establish culinary quality, food safety, source validity, or kitchen testing.",
   "recipes": [
@@ -1667,20 +1667,9 @@
     {
       "slug": "freezer-banana-bread",
       "title": "Freezer Banana Bread",
-      "status": "collection",
-      "stepCount": 6,
-      "issues": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ]
+      "status": "editorial-review",
+      "stepCount": 8,
+      "issues": []
     },
     {
       "slug": "freezer-date-cookies",
@@ -1734,20 +1723,9 @@
     {
       "slug": "fresh-wonton-wrappers",
       "title": "Wonton Wrappers",
-      "status": "collection",
-      "stepCount": 6,
-      "issues": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ]
+      "status": "editorial-review",
+      "stepCount": 7,
+      "issues": []
     },
     {
       "slug": "fried-plantains",
@@ -2254,20 +2232,9 @@
     {
       "slug": "honey-glazed-spareribs",
       "title": "Honey-Glazed Spareribs",
-      "status": "collection",
-      "stepCount": 7,
-      "issues": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ]
+      "status": "editorial-review",
+      "stepCount": 9,
+      "issues": []
     },
     {
       "slug": "honey-lime-chicken-thighs",
@@ -2328,38 +2295,16 @@
     {
       "slug": "instant-pot-butternut-squash-soup",
       "title": "Pressure-Cooker Butternut Squash Soup",
-      "status": "collection",
-      "stepCount": 7,
-      "issues": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ]
+      "status": "editorial-review",
+      "stepCount": 8,
+      "issues": []
     },
     {
       "slug": "instant-pot-potato-leek-soup",
       "title": "Pressure-Cooker Potato Leek Soup",
-      "status": "collection",
-      "stepCount": 8,
-      "issues": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ]
+      "status": "editorial-review",
+      "stepCount": 9,
+      "issues": []
     },
     {
       "slug": "israeli-style-hummus",
@@ -2491,20 +2436,9 @@
     {
       "slug": "key-lime-pie-ice-cream",
       "title": "Key Lime Pie Ice Cream",
-      "status": "collection",
+      "status": "editorial-review",
       "stepCount": 5,
-      "issues": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ]
+      "issues": []
     },
     {
       "slug": "key-lime-pie-with-lime-zest",
@@ -2991,20 +2925,9 @@
     {
       "slug": "oatmeal-risotto",
       "title": "Oatmeal Risotto",
-      "status": "collection",
+      "status": "editorial-review",
       "stepCount": 6,
-      "issues": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ]
+      "issues": []
     },
     {
       "slug": "old-fashioned-soft-pumpkin-cookies",
@@ -3583,22 +3506,18 @@
       "issues": []
     },
     {
+      "slug": "roasted-corn-chowder-robert-irvine",
+      "title": "Roasted Corn Chowder with Lime Shrimp — Robert Irvine",
+      "status": "editorial-review",
+      "stepCount": 9,
+      "issues": []
+    },
+    {
       "slug": "roasted-corn-chowder-with-lime-cured-shrimp",
       "title": "Corn Chowder with Lime Shrimp",
-      "status": "collection",
-      "stepCount": 7,
-      "issues": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ]
+      "status": "editorial-review",
+      "stepCount": 8,
+      "issues": []
     },
     {
       "slug": "roasted-fall-harvest-salad",
@@ -4720,21 +4639,10 @@
     },
     {
       "slug": "vegetable-minestrone",
-      "title": "Vegetable Minestrone (Italian Grandmother's Soup)",
-      "status": "collection",
-      "stepCount": 10,
-      "issues": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ]
+      "title": "Vegetable Minestrone",
+      "status": "editorial-review",
+      "stepCount": 6,
+      "issues": []
     },
     {
       "slug": "vegetable-muffin",

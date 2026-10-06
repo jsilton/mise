@@ -1,23 +1,23 @@
 {
   "summary": {
     "inputCommit": "bacc1e4bdbd0e2715960d84f48a8eea57d4501b4",
-    "recipes": 650,
-    "recordedCompleteEditorial": 623,
-    "completeEditorialPending": 27,
+    "recipes": 651,
+    "recordedCompleteEditorial": 633,
+    "completeEditorialPending": 18,
     "originalBaseline": 612,
-    "originalReviewed": 576,
+    "originalReviewed": 585,
     "consideredConsolidations": 10,
-    "originalPending": 26,
-    "additionalSources": 48,
-    "additionalReviewed": 47,
+    "originalPending": 17,
+    "additionalSources": 49,
+    "additionalReviewed": 48,
     "additionalPending": 1,
     "automatedAudit": {
-      "recipes": 650,
-      "editoriallyReviewed": 623,
+      "recipes": 651,
+      "editoriallyReviewed": 633,
       "kitchenTested": 0,
       "errors": 0,
       "priorityReviews": 0,
-      "reviewItems": 59
+      "reviewItems": 41
     },
     "accelerated": {
       "implemented": 42,
@@ -27,12 +27,12 @@
     },
     "uniquePathsInSixRepairCommits": 105,
     "kitchenTested": 0,
-    "productionReconciliation": "382 new complete editorial versions from the original 409-source campaign are verified live. Seven newly authored Italian classics are also verified live and are counted separately. Coverage is 623 complete / 27 pending across 650 sources, including 234 earlier complete reviews. The 42 accelerated targeted repairs remain a separate overlapping historical scope. All eight accepted recipe versions match exact remote source commit [b673ed5c](https://github.com/jsilton/mise/commit/b673ed5c3da1277c99af5ff48994d0be74521c45), its [successful CI/deployment](https://github.com/jsilton/mise/actions/runs/37522877469) and their complete live pages. The two targeted Korean BBQ Night dependency repairs also match live content. Zero kitchen tests; no native-app sync.",
-    "latestAcceptanceInputCommit": "195e62ed015a90d5832188e4a8005287ce46afd6",
+    "productionReconciliation": "382/409 original campaign versions remain verified live. Nine resolved held versions and one distinct complete Irvine variant are accepted locally, pending exact release verification. Coverage: 633 complete / 18 pending across 651 sources. New additions remain separate from original campaign progress; targeted accelerated repairs remain a separate overlapping historical scope. No kitchen tests or native-app sync.",
+    "latestAcceptanceInputCommit": "0bf936ce8fdac00634ed1171ee8ece86cccd4332",
     "latestRecipeCommitReconciledAtCommit": "b673ed5c3da1277c99af5ff48994d0be74521c45",
     "newlyAuthoredOctober6": {
-      "recipes": 7,
-      "completeEditorial": 7,
+      "recipes": 8,
+      "completeEditorial": 8,
       "productionVerified": 7
     }
   },
@@ -10385,20 +10385,7 @@
       "title": "Freezer Banana Bread",
       "legacyAliases": [],
       "baseline": "original canonical",
-      "source": null,
-      "sourceUrl": null,
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -10406,20 +10393,23 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
-        "recordImplementationCommit": null
+        "status": "complete editorial review accepted locally; publication pending",
+        "record": "docs/reviews/freezer-banana-bread.md",
+        "acceptedSourceSha256": "fb23144d3c9f95a9a8135906552842a96e228573927ab188e139f6a100e8ab8f"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; publication pending",
+        "scope": "original 409-source campaign",
+        "sourceSha256": "fb23144d3c9f95a9a8135906552842a96e228573927ab188e139f6a100e8ab8f",
+        "evidence": "docs/reviews/freezer-banana-bread.json"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending exact release verification"
       },
       "remainingQuestions": [
-        "Can a concrete full-batch loaf capacity and complete-cooling/freezing route be supported for this exact one-egg, no-added-fat formula without importing another bread’s pan or schedule?",
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual pan fit, center-set timing, full cooling time, finished slice count and freezer texture remain unmeasured; source formula and practical headroom/center cues are preserved."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -10758,20 +10748,8 @@
       "title": "Wonton Wrappers",
       "legacyAliases": [],
       "baseline": "original canonical",
-      "source": null,
-      "sourceUrl": null,
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "source": "Mise adaptation of the retained egg-and-wheat wrapper formula; rolling technique informed by Sarah Leung, The Woks of Life",
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -10779,20 +10757,23 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
-        "recordImplementationCommit": null
+        "status": "complete editorial review accepted locally; publication pending",
+        "record": "docs/reviews/fresh-wonton-wrappers.md",
+        "acceptedSourceSha256": "4f53155b06122747329985ada4d58cde53e5dd79f45948cd8493250b2292d908"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; publication pending",
+        "scope": "original 409-source campaign",
+        "sourceSha256": "4f53155b06122747329985ada4d58cde53e5dd79f45948cd8493250b2292d908",
+        "evidence": "docs/reviews/fresh-wonton-wrappers.json"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending exact release verification"
       },
       "remainingQuestions": [
-        "What actual authored or tested primary recipe supports this egg/flour/water dough, intended rolling thickness and approximately sixty 3.5-inch wrappers, including its raw-storage route?",
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual sheet thickness, trimming and wrapper count remain unmeasured; approximate yield and physical rolling cues are explicitly estimates."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -13894,20 +13875,9 @@
       "title": "Honey-Glazed Spareribs",
       "legacyAliases": [],
       "baseline": "original canonical",
-      "source": "Adapted from Foodandwine.com",
-      "sourceUrl": "http://www.foodandwine.com/recipes/honey-glazed-spareribs",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "source": "Adapted from Food & Wine for the Cuisinart CPC-600",
+      "sourceUrl": "https://www.foodandwine.com/recipes/honey-glazed-spareribs",
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -13915,12 +13885,17 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
-        "recordImplementationCommit": null
+        "status": "complete editorial review accepted locally; publication pending",
+        "record": "docs/reviews/honey-glazed-spareribs.md",
+        "acceptedSourceSha256": "e8d1d7d8519334c83774c8f44f20333c9b44b1c841529d54484b46ca7d16f1e9"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": "historical implemented diff; acceptance scope requires linked record, not inferred from file touch",
+      "acceptedChange": {
+        "status": "accepted locally; publication pending",
+        "scope": "original 409-source campaign",
+        "sourceSha256": "e8d1d7d8519334c83774c8f44f20333c9b44b1c841529d54484b46ca7d16f1e9",
+        "evidence": "docs/reviews/honey-glazed-spareribs.json"
+      },
       "implementationCommits": [
         {
           "commit": "a2c9e28069faa57c7bb7fe4ac5e7ca02b6462861",
@@ -13929,12 +13904,11 @@
         }
       ],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending exact release verification"
       },
       "remainingQuestions": [
-        "What exact pressure-cooker make, model, capacity and manual are used for the full four-pound load, and do its minimum watery liquid, thick-sauce/fat, fill and release instructions permit this formula?",
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual active/elapsed time, finished yield and sensory result remain unmeasured; these do not prevent honest source-yield and planning estimates.",
+        "How quickly these particular rack thicknesses become fork-tender and how long the full sauce takes to reduce remain physical observations; no fixed 20-minute fall-off-the-bone promise is retained."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -14290,20 +14264,9 @@
       "title": "Pressure-Cooker Butternut Squash Soup",
       "legacyAliases": [],
       "baseline": "original canonical",
-      "source": "Adapted from damndelicious.net",
+      "source": "Adapted from Damn Delicious for the Cuisinart CPC-600",
       "sourceUrl": "https://damndelicious.net/2019/12/29/instant-pot-butternut-squash-soup/",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": "targeted repair",
         "acceleratedEvidence": {
@@ -14314,12 +14277,17 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
-        "recordImplementationCommit": null
+        "status": "complete editorial review accepted locally; publication pending",
+        "record": "docs/reviews/instant-pot-butternut-squash-soup.md",
+        "acceptedSourceSha256": "ae0612873299735877f7579aafad6cb6ae9fa470876ed39664395ea9ae175104"
       },
       "latestRecipeCommit": "5741495b479d1891066e004ed07aa4b5f830db66",
-      "acceptedChange": "accepted accelerated targeted repair",
+      "acceptedChange": {
+        "status": "accepted locally; publication pending",
+        "scope": "original 409-source campaign",
+        "sourceSha256": "ae0612873299735877f7579aafad6cb6ae9fa470876ed39664395ea9ae175104",
+        "evidence": "docs/reviews/instant-pot-butternut-squash-soup.json"
+      },
       "implementationCommits": [
         {
           "commit": "a2c9e28069faa57c7bb7fe4ac5e7ca02b6462861",
@@ -14333,15 +14301,10 @@
         }
       ],
       "productionVerification": {
-        "status": "retained handoff verified deployment; not rechecked live in this reconciliation",
-        "commit": "5741495b479d1891066e004ed07aa4b5f830db66"
+        "status": "pending exact release verification"
       },
       "remainingQuestions": [
-        "Which exact electric pressure-cooker model/capacity/manual permits the full bacon/rendered-fat, four-cup-stock and produce load, and what are the actual rendered-fat amount and loaded starting volume under its soup fill rule?",
-        "Whole-recipe acceptance held; current questionable claims are not endorsed.",
-        "Which exact pressure-cooker model, capacity and manual permit the full bacon/rendered-fat, four-cup stock and produce load with applicable soup fill and release rules?",
-        "Establish actual rendered-fat and starting volume rather than guessing dilution, removing richness or inventing minimum liquid. The unavailable model PDF was not certified as read.",
-        "Preserve prior full natural release, late cream/garlic/celery and hot-blender repairs; the whole hold does not approve the current appliance process or claimed yield."
+        "Actual active/elapsed time, finished yield and sensory result remain unmeasured; these do not prevent honest source-yield and planning estimates."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -14358,20 +14321,9 @@
       "title": "Pressure-Cooker Potato Leek Soup",
       "legacyAliases": [],
       "baseline": "original canonical",
-      "source": "Adapted from simplyhappyfoodie.com",
+      "source": "Adapted from Sandy Clifton, Simply Happy Foodie, for the Cuisinart CPC-600",
       "sourceUrl": "https://www.simplyhappyfoodie.com/instant-pot-potato-leek-soup/",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": "targeted repair",
         "acceleratedEvidence": {
@@ -14382,12 +14334,17 @@
         "evidence": ["docs/reviews/bounded-recipe-batch-2026-10-05.md"]
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
-        "recordImplementationCommit": null
+        "status": "complete editorial review accepted locally; publication pending",
+        "record": "docs/reviews/instant-pot-potato-leek-soup.md",
+        "acceptedSourceSha256": "b8176622f071348aa02261ef83c3fcc265c977750aac28c8d78c491b56ee4371"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": "accepted accelerated targeted repair",
+      "acceptedChange": {
+        "status": "accepted locally; publication pending",
+        "scope": "original 409-source campaign",
+        "sourceSha256": "b8176622f071348aa02261ef83c3fcc265c977750aac28c8d78c491b56ee4371",
+        "evidence": "docs/reviews/instant-pot-potato-leek-soup.json"
+      },
       "implementationCommits": [
         {
           "commit": "a2c9e28069faa57c7bb7fe4ac5e7ca02b6462861",
@@ -14401,15 +14358,10 @@
         }
       ],
       "productionVerification": {
-        "status": "retained handoff verified deployment; not rechecked live in this reconciliation",
-        "commit": "ee9c707878074d7d56dcb3fb737afb537051aba5"
+        "status": "pending exact release verification"
       },
       "remainingQuestions": [
-        "What exact cooker model/capacity/manual supports the full3tbsp butter+2tbsp oil,2tbsp prepressure flour and5cups broth, and which saved salt crystals and measured leek-volume route are intended?",
-        "Whole-recipe acceptance held; current questionable claims are not endorsed.",
-        "Which exact model/manual permits the full three tablespoons butter plus two tablespoons oil, prepressure two tablespoons flour and five-cup broth route? No extra water, fat reduction or universal flour prohibition is established.",
-        "Confirm the intended saved salt crystals and leek-volume alternative. Modern 1½-pound potatoes/five-to-six-cup broth is a different formula, not evidence of household equivalence.",
-        "Preserve prior full natural release, late dairy and blender repairs; current pressure and pan/cooker capacity claims remain unendorsed."
+        "Actual active/elapsed time, finished yield and sensory result remain unmeasured; these do not prevent honest source-yield and planning estimates."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -15098,20 +15050,9 @@
       "title": "Key Lime Pie Ice Cream",
       "legacyAliases": [],
       "baseline": "original canonical",
-      "source": "Adapted from Myrecipes.com",
+      "source": "Adapted from MyRecipes",
       "sourceUrl": "https://www.myrecipes.com/recipe/key-lime-pie-ice-cream-0",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -15119,20 +15060,24 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
-        "recordImplementationCommit": null
+        "status": "complete editorial review accepted locally; publication pending",
+        "record": "docs/reviews/key-lime-pie-ice-cream.md",
+        "acceptedSourceSha256": "b64cd15dd9a304a7be11e93aae9d93e49d1ca8913d4bb2de461d755f8fb052ec"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; publication pending",
+        "scope": "original 409-source campaign",
+        "sourceSha256": "b64cd15dd9a304a7be11e93aae9d93e49d1ca8913d4bb2de461d755f8fb052ec",
+        "evidence": "docs/reviews/key-lime-pie-ice-cream.json"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending exact release verification"
       },
       "remainingQuestions": [
-        "Which exact cracker quantity/size and complete allocation is intended: the source six pieces totaling 1 1/2 sheets with 1/3 cup mixed in and teaspoon toppings, or the current half-in/half-top description?",
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual active/elapsed times, portion weights and sensory outcomes can be recorded when cooked; none is a current evidence blocker.",
+        "Crumb bulk volume and frozen yield remain unmeasured; neither is invented to enforce the original volume allocations."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -17966,20 +17911,9 @@
       "title": "Oatmeal Risotto",
       "legacyAliases": [],
       "baseline": "original canonical",
-      "source": "Adapted from Richard Blaise",
+      "source": "Adapted from Richard Blais, Try This at Home",
       "sourceUrl": "https://smile.amazon.com/Try-This-Home-Recipes-Plate-ebook/dp/B009JU6UPQ",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -17987,12 +17921,17 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
-        "recordImplementationCommit": null
+        "status": "complete editorial review accepted locally; publication pending",
+        "record": "docs/reviews/oatmeal-risotto.md",
+        "acceptedSourceSha256": "ea2eb9ed34651e8fb3b2662554feb87abffd25db2217e756aa5b0ce6d6ca8459"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": "historical implemented diff; acceptance scope requires linked record, not inferred from file touch",
+      "acceptedChange": {
+        "status": "accepted locally; publication pending",
+        "scope": "original 409-source campaign",
+        "sourceSha256": "ea2eb9ed34651e8fb3b2662554feb87abffd25db2217e756aa5b0ce6d6ca8459",
+        "evidence": "docs/reviews/oatmeal-risotto.json"
+      },
       "implementationCommits": [
         {
           "commit": "a2c9e28069faa57c7bb7fe4ac5e7ca02b6462861",
@@ -18001,13 +17940,10 @@
         }
       ],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending exact release verification"
       },
       "remainingQuestions": [
-        "Which complete topping allocation is intended: the source drained-raisin route (including any remaining hydrated raisins), or an explicitly approved free-vinegar finish?",
-        "Whole recipe excluded over RM01 and other unapplied findings; the saved vinegar drains with the oats, and no finishing-vinegar route is endorsed.",
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual active/elapsed times, portion weights and sensory outcomes can be recorded when cooked; none is a current evidence blocker."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -21471,20 +21407,9 @@
       "title": "Corn Chowder with Lime Shrimp",
       "legacyAliases": [],
       "baseline": "original canonical",
-      "source": "Adapted from Foodnetwork.com",
+      "source": "Adapted from Robert Irvine, Food Network; bacon-and-paprika variation",
       "sourceUrl": "http://www.foodnetwork.com/recipes/robert-irvine/roasted-corn-chowder-with-lime-cured-shrimp-recipe-1947204",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -21492,20 +21417,23 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
-        "recordImplementationCommit": null
+        "status": "complete editorial review accepted locally; publication pending",
+        "record": "docs/reviews/roasted-corn-chowder-with-lime-cured-shrimp.md",
+        "acceptedSourceSha256": "d03cf4ff81138df9b574c8758e09d488a92fa9b63b65be0b9fd1afad274ed1c2"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; publication pending",
+        "scope": "original 409-source campaign",
+        "sourceSha256": "d03cf4ff81138df9b574c8758e09d488a92fa9b63b65be0b9fd1afad274ed1c2",
+        "evidence": "docs/reviews/roasted-corn-chowder-with-lime-cured-shrimp.json"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending exact release verification"
       },
       "remainingQuestions": [
-        "How is the source quarter-cup oil split between roasting and pot, and should the complete current formula remain primary alongside that distinct richer source route?",
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual active/elapsed times, portion weights and sensory outcomes can be recorded when cooked; none is a current evidence blocker."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -28573,23 +28501,12 @@
     {
       "currentPath": "src/content/recipes/vegetable-minestrone.md",
       "slug": "vegetable-minestrone",
-      "title": "Vegetable Minestrone (Italian Grandmother's Soup)",
+      "title": "Vegetable Minestrone",
       "legacyAliases": [],
       "baseline": "original canonical",
-      "source": null,
-      "sourceUrl": null,
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "source": "Adapted from J. Kenji López-Alt, The Best Minestrone Soup, Serious Eats; canned-bean method",
+      "sourceUrl": "https://www.seriouseats.com/the-best-minestrone-soup-recipe",
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -28597,12 +28514,17 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
-        "recordImplementationCommit": null
+        "status": "complete editorial review accepted locally; publication pending",
+        "record": "docs/reviews/vegetable-minestrone.md",
+        "acceptedSourceSha256": "0d9d48cc86fa6ca9e02a78da125aa9ff637a75bfb1d953a640191a8c882d5f73"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": "historical implemented diff; acceptance scope requires linked record, not inferred from file touch",
+      "acceptedChange": {
+        "status": "accepted locally; publication pending",
+        "scope": "original 409-source campaign",
+        "sourceSha256": "0d9d48cc86fa6ca9e02a78da125aa9ff637a75bfb1d953a640191a8c882d5f73",
+        "evidence": "docs/reviews/vegetable-minestrone.json"
+      },
       "implementationCommits": [
         {
           "commit": "a2c9e28069faa57c7bb7fe4ac5e7ca02b6462861",
@@ -28611,12 +28533,12 @@
         }
       ],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending exact release verification"
       },
       "remainingQuestions": [
-        "For the retained optional no-canned-tomato branch only: move the base2tbsp paste to the finish, or add2tbsp for4total?",
-        "Whole-recipe approval held: saved Without tomatoes variant does not establish whether ending2tbsp paste replaces primary2tbsp or is additional4tbsp total. No formula interpretation or prior-repair rollback accepted.",
-        "Other branch allocations and inherited claims are unaccepted findings in docs/reviews/vegetable-minestrone.md; current questionable claims are not endorsed."
+        "Refine actual six-portion bowl size, evaporation and stock salt balance in the selected pot; no measured finished volume is promised.",
+        "Observe pasta package time, chosen vegetable cuts and the texture of separately stored/reheated pasta.",
+        "Check the household’s cooling containers and any lunch vessel for the specified temperatures rather than assuming container performance."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -29870,6 +29792,45 @@
       "remainingQuestions": [
         "Refine tenderness time for the butcher's chosen shoulder cut and pot; check final sauce reduction and salt.",
         "Confirm practical recovery of the whole aromatics before blending; a removable food-safe spice sachet could ease handling without changing the formula."
+      ],
+      "kitchenTesting": {
+        "status": "not performed / no recorded test",
+        "testNotes": null
+      }
+    },
+    {
+      "currentPath": "src/content/recipes/roasted-corn-chowder-robert-irvine.md",
+      "slug": "roasted-corn-chowder-robert-irvine",
+      "title": "Roasted Corn Chowder with Lime Shrimp — Robert Irvine",
+      "legacyAliases": [],
+      "baseline": "additional authored October 6, 2026",
+      "targetedReview": {
+        "acceleratedDisposition": "not part of accelerated pass",
+        "historicalCommitTouches": 0,
+        "evidence": []
+      },
+      "latestRecipeCommit": null,
+      "implementationCommits": [],
+      "historicalEvidence": [],
+      "source": "Adapted from Robert Irvine, Food Network",
+      "sourceUrl": "https://www.foodnetwork.com/recipes/robert-irvine/roasted-corn-chowder-with-lime-cured-shrimp-recipe-1947204",
+      "automatedFlags": [],
+      "completeEditorialReview": {
+        "status": "complete editorial review accepted locally; publication pending",
+        "record": "docs/reviews/roasted-corn-chowder-robert-irvine.md",
+        "acceptedSourceSha256": "3b3d1a473e2d67031c9b377b42a548dd7ed3a98d80cda51bb3a1fc9a85a4e5f2"
+      },
+      "acceptedChange": {
+        "status": "accepted locally; publication pending",
+        "scope": "newly authored distinct source variant",
+        "sourceSha256": "3b3d1a473e2d67031c9b377b42a548dd7ed3a98d80cda51bb3a1fc9a85a4e5f2",
+        "evidence": "docs/reviews/roasted-corn-chowder-robert-irvine.json"
+      },
+      "productionVerification": {
+        "status": "pending exact release verification"
+      },
+      "remainingQuestions": [
+        "Actual active/elapsed times, portion weights and sensory outcomes can be recorded when cooked; none is a current evidence blocker."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",

@@ -1,0 +1,123 @@
+{
+  "date": "2026-10-06",
+  "scope": "Nine existing holds plus one distinct complete source variant",
+  "acceptedInputCommit": "0bf936ce8fdac00634ed1171ee8ece86cccd4332",
+  "recipes": [
+    {
+      "slug": "instant-pot-butternut-squash-soup",
+      "inputCandidateSha256": "4f44eeb0706707caa6ddf9a558cfbbd3d7c0a5f69a17025ee3a4733d22660c7e",
+      "acceptedSourceSha256": "ae0612873299735877f7579aafad6cb6ae9fa470876ed39664395ea9ae175104",
+      "review": "docs/reviews/instant-pot-butternut-squash-soup.json",
+      "independentChallengeStatus": "complete; accepted exact final revision",
+      "rootStatus": "complete source and final diff inspected",
+      "remainingKitchenQuestions": [
+        "Actual active/elapsed time, finished yield and sensory result remain unmeasured; these do not prevent honest source-yield and planning estimates."
+      ]
+    },
+    {
+      "slug": "instant-pot-potato-leek-soup",
+      "inputCandidateSha256": "4d74315c3d9b5a52442d39152bfbf69c2b9ff36061569a84dfc313cc742a568b",
+      "acceptedSourceSha256": "b8176622f071348aa02261ef83c3fcc265c977750aac28c8d78c491b56ee4371",
+      "review": "docs/reviews/instant-pot-potato-leek-soup.json",
+      "independentChallengeStatus": "complete; accepted exact final revision",
+      "rootStatus": "complete source and final diff inspected",
+      "remainingKitchenQuestions": [
+        "Actual active/elapsed time, finished yield and sensory result remain unmeasured; these do not prevent honest source-yield and planning estimates."
+      ]
+    },
+    {
+      "slug": "honey-glazed-spareribs",
+      "inputCandidateSha256": "e660a13a47c0a38408bdbf5cf80b7af2ec976d9dd306dcabb8842d2d67584813",
+      "acceptedSourceSha256": "e8d1d7d8519334c83774c8f44f20333c9b44b1c841529d54484b46ca7d16f1e9",
+      "review": "docs/reviews/honey-glazed-spareribs.json",
+      "independentChallengeStatus": "complete; accepted exact final revision",
+      "rootStatus": "complete source and final diff inspected",
+      "remainingKitchenQuestions": [
+        "Actual active/elapsed time, finished yield and sensory result remain unmeasured; these do not prevent honest source-yield and planning estimates.",
+        "How quickly these particular rack thicknesses become fork-tender and how long the full sauce takes to reduce remain physical observations; no fixed 20-minute fall-off-the-bone promise is retained."
+      ]
+    },
+    {
+      "slug": "vegetable-minestrone",
+      "inputCandidateSha256": "537e9df7d33e69eb5424850e29d7ff501f18a68f54b9c39cc86d0406bc572b63",
+      "acceptedSourceSha256": "0d9d48cc86fa6ca9e02a78da125aa9ff637a75bfb1d953a640191a8c882d5f73",
+      "review": "docs/reviews/vegetable-minestrone.json",
+      "independentChallengeStatus": "complete; accepted exact final revision",
+      "rootStatus": "complete source and final diff inspected",
+      "remainingKitchenQuestions": [
+        "Refine actual six-portion bowl size, evaporation and stock salt balance in the selected pot; no measured finished volume is promised.",
+        "Observe pasta package time, chosen vegetable cuts and the texture of separately stored/reheated pasta.",
+        "Check the household’s cooling containers and any lunch vessel for the specified temperatures rather than assuming container performance."
+      ]
+    },
+    {
+      "slug": "key-lime-pie-ice-cream",
+      "inputCandidateSha256": "4e548aafeb0fee6994d62d15713a2c682612ce1bd96ccbfc2db9be3b231f469f",
+      "acceptedSourceSha256": "b64cd15dd9a304a7be11e93aae9d93e49d1ca8913d4bb2de461d755f8fb052ec",
+      "review": "docs/reviews/key-lime-pie-ice-cream.json",
+      "independentChallengeStatus": "complete; accepted exact final revision",
+      "rootStatus": "complete source and final diff inspected",
+      "remainingKitchenQuestions": [
+        "Actual active/elapsed times, portion weights and sensory outcomes can be recorded when cooked; none is a current evidence blocker.",
+        "Crumb bulk volume and frozen yield remain unmeasured; neither is invented to enforce the original volume allocations."
+      ]
+    },
+    {
+      "slug": "oatmeal-risotto",
+      "inputCandidateSha256": "e046b7251fc99fcf3c8ffbfe81613189ecd3fcdf44be5af2023aeefbaa32ca5f",
+      "acceptedSourceSha256": "ea2eb9ed34651e8fb3b2662554feb87abffd25db2217e756aa5b0ce6d6ca8459",
+      "review": "docs/reviews/oatmeal-risotto.json",
+      "independentChallengeStatus": "complete; accepted exact final revision",
+      "rootStatus": "complete source and final diff inspected",
+      "remainingKitchenQuestions": [
+        "Actual active/elapsed times, portion weights and sensory outcomes can be recorded when cooked; none is a current evidence blocker."
+      ]
+    },
+    {
+      "slug": "roasted-corn-chowder-with-lime-cured-shrimp",
+      "inputCandidateSha256": "c00a5f3d9ba1b9b2a3c0bffda3470d019983591d5bf5cae64a6ba21a538706f4",
+      "acceptedSourceSha256": "d03cf4ff81138df9b574c8758e09d488a92fa9b63b65be0b9fd1afad274ed1c2",
+      "review": "docs/reviews/roasted-corn-chowder-with-lime-cured-shrimp.json",
+      "independentChallengeStatus": "complete; accepted exact final revision",
+      "rootStatus": "complete source and final diff inspected",
+      "remainingKitchenQuestions": [
+        "Actual active/elapsed times, portion weights and sensory outcomes can be recorded when cooked; none is a current evidence blocker."
+      ]
+    },
+    {
+      "slug": "roasted-corn-chowder-robert-irvine",
+      "inputCandidateSha256": "ab793ba8b5074af8a2a058968152e595257212a29a04b3f02d3d729d3ce0ecef",
+      "acceptedSourceSha256": "3b3d1a473e2d67031c9b377b42a548dd7ed3a98d80cda51bb3a1fc9a85a4e5f2",
+      "review": "docs/reviews/roasted-corn-chowder-robert-irvine.json",
+      "independentChallengeStatus": "complete; accepted exact final revision",
+      "rootStatus": "complete source and final diff inspected",
+      "remainingKitchenQuestions": [
+        "Actual active/elapsed times, portion weights and sensory outcomes can be recorded when cooked; none is a current evidence blocker."
+      ]
+    },
+    {
+      "slug": "freezer-banana-bread",
+      "inputCandidateSha256": "6f122f86c25f1a51a33cc9ffa022505903adbfa4464524aad87bef7fdaa24d81",
+      "acceptedSourceSha256": "fb23144d3c9f95a9a8135906552842a96e228573927ab188e139f6a100e8ab8f",
+      "review": "docs/reviews/freezer-banana-bread.json",
+      "independentChallengeStatus": "complete; accepted exact final revision",
+      "rootStatus": "complete source and final diff inspected",
+      "remainingKitchenQuestions": [
+        "Actual pan fit, center-set timing, full cooling time, finished slice count and freezer texture remain unmeasured; source formula and practical headroom/center cues are preserved."
+      ]
+    },
+    {
+      "slug": "fresh-wonton-wrappers",
+      "inputCandidateSha256": "f47d81b2cedee627c7561ffc867940c96a560baeae67fedfef3a3e0b3b3bcb33",
+      "acceptedSourceSha256": "4f53155b06122747329985ada4d58cde53e5dd79f45948cd8493250b2292d908",
+      "review": "docs/reviews/fresh-wonton-wrappers.json",
+      "independentChallengeStatus": "complete; accepted exact final revision",
+      "rootStatus": "complete source and final diff inspected",
+      "remainingKitchenQuestions": [
+        "Actual sheet thickness, trimming and wrapper count remain unmeasured; approximate yield and physical rolling cues are explicitly estimates."
+      ]
+    }
+  ],
+  "kitchenTested": false,
+  "nativeAppSynced": false
+}

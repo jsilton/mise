@@ -73,3 +73,7 @@ Preserve all serving oil/cheese, original beans, fresh basil/lemon and the curry
 - Record active/elapsed cooking, cooling containers, lunch transport/holding temperatures and thaw/reheat texture.
 
 [USDA leftovers](https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety) supports general soup handling/reheating, not paste intent or this unmeasured yield. No native source-identity match, publisher certification, kitchen test or linked-meal review is claimed.
+
+## Complete review accepted — October 6, 2026
+
+Independent whole-recipe challenge and final integration-owner source/diff inspection completed. The preceding held proposal describes an earlier state. [Exact before/after, complete ingredient ledger, source disagreements and independent evidence](vegetable-minestrone.json). Accepted locally; publication pending. No kitchen test or native-app sync.
